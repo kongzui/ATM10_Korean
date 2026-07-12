@@ -111,7 +111,8 @@ def apply(instance: Path, snapshot_path: Path, dry_run: bool) -> dict[str, objec
         source_hash = sha256(source)
         before_hash = sha256(target) if existed else None
         instance_relative = target.relative_to(instance).as_posix()
-        if source_hash != before_hash:
+        changed = source_hash != before_hash
+        if changed:
             expected_changes.add(instance_relative)
         deployments.append(
             {
@@ -119,6 +120,7 @@ def apply(instance: Path, snapshot_path: Path, dry_run: bool) -> dict[str, objec
                 "source": str(source),
                 "target": str(target),
                 "existed_before": existed,
+                "changed": changed,
                 "source_sha256": source_hash,
                 "before_sha256": before_hash,
             }
@@ -146,6 +148,9 @@ def apply(instance: Path, snapshot_path: Path, dry_run: bool) -> dict[str, objec
     applied: list[dict[str, object]] = []
     try:
         for record in deployments:
+            if not record["changed"]:
+                record["after_sha256"] = record["before_sha256"]
+                continue
             source = Path(record["source"])
             target = Path(record["target"])
             if record["existed_before"]:
