@@ -1,0 +1,30 @@
+{
+  "scope": "Applied Energistics 2 GuideME guide batch 01",
+  "source_jar": "appliedenergistics2-19.2.17.jar",
+  "language": "ko_kr",
+  "batch": 1,
+  "files": [
+    "index.md",
+    "getting-started.md",
+    "tips-and-tricks.md",
+    "ae2-mechanics/meteorites.md",
+    "ae2-mechanics/certus-growth.md"
+  ],
+  "pages": 5,
+  "source_words": 1976,
+  "source_characters": 11563,
+  "existing_korean_reused": 0,
+  "newly_translated": 5,
+  "remaining_core_pages": 120,
+  "working_root": "working/ae2/ae2guide/_ko_kr",
+  "output_root": "output/resourcepack/ATM10_Korean/assets/ae2/ae2guide/_ko_kr",
+  "output_sha256": {
+    "index.md": "4be4d054a3a611dafb2bd9c97ee7d7d94586675be78fabfc85c5050c55bd3ce9",
+    "getting-started.md": "4b55b1731d87359f25c7b5d94525db5f6c4ed011ebf4ef43390edd3e632bd476",
+    "tips-and-tricks.md": "2de41dfa2f43cc47881152ade1020cab2911c4b7c7107e5dbb57fdc36c2c8bad",
+    "ae2-mechanics/meteorites.md": "83e916b90e82cecd7ac6b6ba2f28cb967eb54997e5caa2897ab57f3b357aa54a",
+    "ae2-mechanics/certus-growth.md": "be5e4ac04635ddf88ebd4825ab20421e7e91e195e44b52bf098894bbc9699c31"
+  },
+  "validation_errors": 0,
+  "status": "completed"
+}

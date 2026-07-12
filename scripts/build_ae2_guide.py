@@ -1,0 +1,258 @@
+#!/usr/bin/env python3
+"""AE2 내장 가이드 첫 번역 배치를 검증해 누적 리소스팩에 만든다."""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import posixpath
+import re
+import zipfile
+from pathlib import Path, PurePosixPath
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+WORKING_ROOT = PROJECT_ROOT / "working/ae2/ae2guide/_ko_kr"
+OUTPUT_ROOT = (
+    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/ae2/ae2guide/_ko_kr"
+)
+PROGRESS_FILE = PROJECT_ROOT / "working/ae2/guide_progress.json"
+SOURCE_ROOT = PurePosixPath("assets/ae2/ae2guide")
+
+BATCH_FILES = (
+    "index.md",
+    "getting-started.md",
+    "tips-and-tricks.md",
+    "ae2-mechanics/meteorites.md",
+    "ae2-mechanics/certus-growth.md",
+)
+
+FRONT_MATTER_RE = re.compile(r"\A---\n(.*?)\n---(?=\n)", re.DOTALL)
+NAVIGATION_TITLE_RE = re.compile(r"(?m)^  title:.*$")
+TAG_RE = re.compile(r"</?[A-Za-z][^>]*>")
+INLINE_CODE_RE = re.compile(r"`[^`\n]*`")
+LINK_TARGET_RE = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
+IMAGE_TARGET_RE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
+VISIBLE_LINK_RE = re.compile(r"(?<!!)\[([^\]]+)\]\([^)]+\)")
+VISIBLE_IMAGE_RE = re.compile(r"!\[([^\]]*)\]\([^)]+\)")
+IMPORT_RE = re.compile(r'<ImportStructure\b[^>]*src="([^"]+)"')
+HEADING_RE = re.compile(r"(?m)^(#{1,6})\s+")
+ENGLISH_WORD_RE = re.compile(r"\b[A-Za-z]+(?:['’][A-Za-z]+)?\b")
+
+
+def find_ae2_jar(instance: Path) -> Path:
+    jars = sorted((instance / "mods").glob("appliedenergistics2-*.jar"))
+    if len(jars) != 1:
+        raise ValueError(
+            f"AE2 JAR을 하나로 확정할 수 없습니다: {[p.name for p in jars]}"
+        )
+    return jars[0]
+
+
+def load_source(archive: zipfile.ZipFile, relative: str) -> str:
+    entry = (SOURCE_ROOT / relative).as_posix()
+    return archive.read(entry).decode("utf-8-sig")
+
+
+def split_front_matter(text: str) -> tuple[str, str]:
+    match = FRONT_MATTER_RE.match(text)
+    if not match:
+        raise ValueError("YAML front matter를 찾을 수 없습니다.")
+    return match.group(1), text[match.end() :]
+
+
+def protected_front_matter(value: str) -> str:
+    matches = NAVIGATION_TITLE_RE.findall(value)
+    if len(matches) != 1:
+        raise ValueError("navigation.title을 하나로 확정할 수 없습니다.")
+    return NAVIGATION_TITLE_RE.sub("  title: __TRANSLATED_TITLE__", value)
+
+
+def extract_visible_text(text: str) -> str:
+    metadata, body = split_front_matter(text)
+    title_match = NAVIGATION_TITLE_RE.search(metadata)
+    title = title_match.group(0).split(":", 1)[1].strip() if title_match else ""
+    body = INLINE_CODE_RE.sub(" ", body)
+    body = VISIBLE_IMAGE_RE.sub(lambda match: f" {match.group(1)} ", body)
+    body = VISIBLE_LINK_RE.sub(lambda match: f" {match.group(1)} ", body)
+    body = TAG_RE.sub(" ", body)
+    body = re.sub(r"[#>*_~|=]+", " ", body)
+    return re.sub(r"\s+", " ", f"{title} {body}").strip()
+
+
+def english_paragraph_candidates(text: str) -> list[str]:
+    _, body = split_front_matter(text)
+    candidates = []
+    for paragraph in re.split(r"\n\s*\n", body):
+        visible = INLINE_CODE_RE.sub(" ", paragraph)
+        visible = VISIBLE_IMAGE_RE.sub(lambda match: f" {match.group(1)} ", visible)
+        visible = VISIBLE_LINK_RE.sub(lambda match: f" {match.group(1)} ", visible)
+        visible = TAG_RE.sub(" ", visible)
+        visible = re.sub(r"[#>*_~|=]+", " ", visible)
+        visible = re.sub(r"\s+", " ", visible).strip()
+        if "가-힣" in visible:
+            continue
+        if re.search(r"[가-힣]", visible):
+            continue
+        if len(ENGLISH_WORD_RE.findall(visible)) >= 4:
+            candidates.append(visible)
+    return candidates
+
+
+def resolve_reference(page: str, target: str) -> str | None:
+    clean = target.split("#", 1)[0].split("?", 1)[0]
+    if not clean or re.match(r"^(?:https?://|mailto:)", clean):
+        return None
+    combined = (SOURCE_ROOT / PurePosixPath(page).parent / clean).as_posix()
+    return posixpath.normpath(combined)
+
+
+def validate_references(
+    archive_names: set[str], relative: str, translated: str
+) -> list[str]:
+    errors = []
+    targets = [
+        *(match.group(1) for match in LINK_TARGET_RE.finditer(translated)),
+        *(match.group(1) for match in IMAGE_TARGET_RE.finditer(translated)),
+        *(match.group(1) for match in IMPORT_RE.finditer(translated)),
+    ]
+    for target in targets:
+        resolved = resolve_reference(relative, target)
+        if resolved and resolved not in archive_names:
+            errors.append(f"{relative}: 참조 대상이 없습니다: {target} -> {resolved}")
+    return errors
+
+
+def validate_pair(relative: str, source: str, translated: str) -> list[str]:
+    errors = []
+    try:
+        source_meta, _ = split_front_matter(source)
+        translated_meta, _ = split_front_matter(translated)
+        if protected_front_matter(source_meta) != protected_front_matter(
+            translated_meta
+        ):
+            errors.append(
+                f"{relative}: navigation.title 외 front matter가 변경됐습니다."
+            )
+    except ValueError as exc:
+        errors.append(f"{relative}: {exc}")
+
+    checks = (
+        ("GuideME/HTML 태그", TAG_RE.findall(source), TAG_RE.findall(translated)),
+        (
+            "인라인 코드",
+            INLINE_CODE_RE.findall(source),
+            INLINE_CODE_RE.findall(translated),
+        ),
+        (
+            "Markdown 링크",
+            LINK_TARGET_RE.findall(source),
+            LINK_TARGET_RE.findall(translated),
+        ),
+        (
+            "이미지 참조",
+            IMAGE_TARGET_RE.findall(source),
+            IMAGE_TARGET_RE.findall(translated),
+        ),
+        ("제목 단계", HEADING_RE.findall(source), HEADING_RE.findall(translated)),
+    )
+    for label, expected, actual in checks:
+        if expected != actual:
+            errors.append(f"{relative}: {label}의 순서 또는 값이 원문과 다릅니다.")
+
+    if source.count("\n---\n") != translated.count("\n---\n"):
+        errors.append(f"{relative}: 수평선 또는 front matter 경계 개수가 다릅니다.")
+    if not re.search(r"[가-힣]", extract_visible_text(translated)):
+        errors.append(f"{relative}: 한국어 본문을 찾을 수 없습니다.")
+    candidates = english_paragraph_candidates(translated)
+    if candidates:
+        errors.append(f"{relative}: 영어 문단 후보가 남았습니다: {candidates[:3]}")
+    return errors
+
+
+def sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def build(instance: Path) -> dict[str, object]:
+    jar = find_ae2_jar(instance)
+    expected_files = set(BATCH_FILES)
+    actual_files = {
+        path.relative_to(WORKING_ROOT).as_posix()
+        for path in WORKING_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if actual_files != expected_files:
+        raise ValueError(
+            f"작업본 파일 목록이 다릅니다: 누락={sorted(expected_files - actual_files)}, "
+            f"불필요={sorted(actual_files - expected_files)}"
+        )
+
+    errors = []
+    source_words = 0
+    source_characters = 0
+    with zipfile.ZipFile(jar) as archive:
+        archive_names = set(archive.namelist())
+        for relative in BATCH_FILES:
+            source = load_source(archive, relative)
+            translated = (WORKING_ROOT / relative).read_text(encoding="utf-8")
+            errors.extend(validate_pair(relative, source, translated))
+            errors.extend(validate_references(archive_names, relative, translated))
+            visible = extract_visible_text(source)
+            source_words += len(ENGLISH_WORD_RE.findall(visible))
+            source_characters += len(visible)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    for relative in BATCH_FILES:
+        source = WORKING_ROOT / relative
+        target = OUTPUT_ROOT / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
+
+    output_files = {
+        path.relative_to(OUTPUT_ROOT).as_posix()
+        for path in OUTPUT_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if output_files != expected_files:
+        raise ValueError("출력 가이드 파일 목록이 첫 배치와 다릅니다.")
+
+    result = {
+        "scope": "Applied Energistics 2 GuideME guide batch 01",
+        "source_jar": jar.name,
+        "language": "ko_kr",
+        "batch": 1,
+        "files": list(BATCH_FILES),
+        "pages": len(BATCH_FILES),
+        "source_words": source_words,
+        "source_characters": source_characters,
+        "existing_korean_reused": 0,
+        "newly_translated": len(BATCH_FILES),
+        "remaining_core_pages": 120,
+        "working_root": WORKING_ROOT.relative_to(PROJECT_ROOT).as_posix(),
+        "output_root": OUTPUT_ROOT.relative_to(PROJECT_ROOT).as_posix(),
+        "output_sha256": {
+            relative: sha256(OUTPUT_ROOT / relative) for relative in BATCH_FILES
+        },
+        "validation_errors": 0,
+        "status": "completed",
+    }
+    PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--instance", required=True, type=Path)
+    args = parser.parse_args()
+    result = build(args.instance.resolve())
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
