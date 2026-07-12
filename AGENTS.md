@@ -161,6 +161,10 @@
 
 #### Task 제목과 자동 fallback
 
+- ItemTask의 아이템명이 리소스팩에서 정상 번역되면 단순 아이템명을 `task.title`로
+  중복 지정하지 않는다.
+- `task.title`은 행동, 조건, 여러 아이템 묶음처럼 별도 설명이 필요한 작업에만 사용하며,
+  퀘스트 자체의 `quest.title`과 구분한다.
 - 퀘스트에 명시적 `title`이 없으면 첫 번째 Task 제목을 대신 쓰는지 검사한다.
 - Task에 명시적 `title`이 없으면 아이템 이름이나 다른 fallback 제목을 쓰는지 검사한다.
 - 언어 파일의 명시적 키만 비교하지 않고 `chapter/group title`, `quest title`, `quest subtitle`, `quest description`, `task title`, 아이템 hover name, 아이템 `custom_name` 또는 literal component와 첫 Task를 이용한 quest fallback title을 모두 확인한다.
