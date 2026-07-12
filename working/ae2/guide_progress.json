@@ -1,19 +1,17 @@
 {
-  "scope": "Applied Energistics 2 GuideME guide batches 01-02",
+  "scope": "Applied Energistics 2 GuideME guide batches 01-03",
   "source_jar": "appliedenergistics2-19.2.17.jar",
   "language": "ko_kr",
-  "batch": 2,
+  "batch": 3,
   "batch_files": [
-    "ae2-mechanics/ae2-mechanics-index.md",
-    "ae2-mechanics/bytes-and-types.md",
-    "ae2-mechanics/devices.md",
-    "ae2-mechanics/energy.md",
-    "ae2-mechanics/import-export-storage.md",
-    "ae2-mechanics/me-network-connections.md",
-    "ae2-mechanics/cable-subparts.md"
+    "ae2-mechanics/channels.md",
+    "ae2-mechanics/subnetworks.md",
+    "ae2-mechanics/p2p-tunnels.md",
+    "ae2-mechanics/quantum-bridge.md",
+    "ae2-mechanics/spatial-io.md"
   ],
-  "batch_pages": 7,
-  "batch_source_words": 2007,
+  "batch_pages": 5,
+  "batch_source_words": 2177,
   "files": [
     "index.md",
     "getting-started.md",
@@ -26,14 +24,19 @@
     "ae2-mechanics/energy.md",
     "ae2-mechanics/import-export-storage.md",
     "ae2-mechanics/me-network-connections.md",
-    "ae2-mechanics/cable-subparts.md"
+    "ae2-mechanics/cable-subparts.md",
+    "ae2-mechanics/channels.md",
+    "ae2-mechanics/subnetworks.md",
+    "ae2-mechanics/p2p-tunnels.md",
+    "ae2-mechanics/quantum-bridge.md",
+    "ae2-mechanics/spatial-io.md"
   ],
-  "pages": 12,
-  "source_words": 3983,
-  "source_characters": 23904,
+  "pages": 17,
+  "source_words": 6160,
+  "source_characters": 37176,
   "existing_korean_reused": 0,
-  "newly_translated": 12,
-  "remaining_core_pages": 113,
+  "newly_translated": 17,
+  "remaining_core_pages": 108,
   "working_root": "working/ae2/ae2guide/_ko_kr",
   "output_root": "output/resourcepack/ATM10_Korean/assets/ae2/ae2guide/_ko_kr",
   "output_sha256": {
@@ -45,10 +48,15 @@
     "ae2-mechanics/ae2-mechanics-index.md": "701102d9e241a9e19a0e13ef5f654464564b8fbf977a4cf1fd0ccd4e54ec4eb6",
     "ae2-mechanics/bytes-and-types.md": "5a73d783b74e2f33405e8d1b9b84fe21760eb58ecd63e5cbd6bcb0841dc4ca4d",
     "ae2-mechanics/devices.md": "2a8c5e5f21dd3ad2117d4e7b8c120f6f96fc5d5d933cbf876a0b4850a829c4a5",
-    "ae2-mechanics/energy.md": "271d7eb57cb1ffe565b4e4c0d841e59efb4be2f3ff6783d859b5ee02f2c14fe9",
+    "ae2-mechanics/energy.md": "cf8024ee41250e86132d61cda6270356bc1adacacc41bc0aaea20695eed37d2c",
     "ae2-mechanics/import-export-storage.md": "658e172a35db6fe947a9a8d48ab2a85030caf6b50983eb5802b58a08e2806e22",
     "ae2-mechanics/me-network-connections.md": "f268bef032f4a8619c94d12bc3308204e75900a2ecc0e0a19552268489bcc9da",
-    "ae2-mechanics/cable-subparts.md": "6da63f6a6600ed8efb828a63d97bdb11ec0174145e2d477748b398f9a024f746"
+    "ae2-mechanics/cable-subparts.md": "6da63f6a6600ed8efb828a63d97bdb11ec0174145e2d477748b398f9a024f746",
+    "ae2-mechanics/channels.md": "e13549070989bff40b75d5afa0a5f7067bf135847343fa752fe41f2ffac4d1b6",
+    "ae2-mechanics/subnetworks.md": "997c00b1b4ab5b3d6a40e7cf1639a58615b0f82bbc7eae8b7e491cf6159a8c51",
+    "ae2-mechanics/p2p-tunnels.md": "6eb318775bd85365d015ba5eb2c6bd25b399ee7f0cb7d34b09a5cc6fb868041d",
+    "ae2-mechanics/quantum-bridge.md": "4331886eb8ce3344b8664eee684343c862937ccd1f5f2236e309ead884e53517",
+    "ae2-mechanics/spatial-io.md": "bb2d98e0d2bcbe7a07e5376db9294543ca79c319127f19a1d61efe015f3cf6f5"
   },
   "validation_errors": 0,
   "status": "completed"
