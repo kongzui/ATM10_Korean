@@ -1,0 +1,39 @@
+{
+  "scope": "Applied Energistics 2 core (ae2 namespace)",
+  "source_jar": "appliedenergistics2-19.2.17.jar",
+  "total_keys": 1021,
+  "native_ko_keys": 854,
+  "existing_korean_kept": 563,
+  "existing_korean_corrected": 291,
+  "newly_completed": 167,
+  "remaining": 0,
+  "batches": [
+    {
+      "batch": 1,
+      "start_index": 0,
+      "end_index": 399,
+      "keys": 400,
+      "validation_errors": 0,
+      "status": "completed"
+    },
+    {
+      "batch": 2,
+      "start_index": 400,
+      "end_index": 799,
+      "keys": 400,
+      "validation_errors": 0,
+      "status": "completed"
+    },
+    {
+      "batch": 3,
+      "start_index": 800,
+      "end_index": 1020,
+      "keys": 221,
+      "validation_errors": 0,
+      "status": "completed"
+    }
+  ],
+  "output": "output/resourcepack/ATM10_Korean/assets/ae2/lang/ko_kr.json",
+  "output_sha256": "c67b4de8e70fecb128668f11abeb4f9f4b3705ede11a51d5bfd36a226464269d",
+  "review_items": []
+}
