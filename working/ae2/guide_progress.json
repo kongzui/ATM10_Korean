@@ -1,21 +1,39 @@
 {
-  "scope": "Applied Energistics 2 GuideME guide batch 01",
+  "scope": "Applied Energistics 2 GuideME guide batches 01-02",
   "source_jar": "appliedenergistics2-19.2.17.jar",
   "language": "ko_kr",
-  "batch": 1,
+  "batch": 2,
+  "batch_files": [
+    "ae2-mechanics/ae2-mechanics-index.md",
+    "ae2-mechanics/bytes-and-types.md",
+    "ae2-mechanics/devices.md",
+    "ae2-mechanics/energy.md",
+    "ae2-mechanics/import-export-storage.md",
+    "ae2-mechanics/me-network-connections.md",
+    "ae2-mechanics/cable-subparts.md"
+  ],
+  "batch_pages": 7,
+  "batch_source_words": 2007,
   "files": [
     "index.md",
     "getting-started.md",
     "tips-and-tricks.md",
     "ae2-mechanics/meteorites.md",
-    "ae2-mechanics/certus-growth.md"
+    "ae2-mechanics/certus-growth.md",
+    "ae2-mechanics/ae2-mechanics-index.md",
+    "ae2-mechanics/bytes-and-types.md",
+    "ae2-mechanics/devices.md",
+    "ae2-mechanics/energy.md",
+    "ae2-mechanics/import-export-storage.md",
+    "ae2-mechanics/me-network-connections.md",
+    "ae2-mechanics/cable-subparts.md"
   ],
-  "pages": 5,
-  "source_words": 1976,
-  "source_characters": 11563,
+  "pages": 12,
+  "source_words": 3983,
+  "source_characters": 23904,
   "existing_korean_reused": 0,
-  "newly_translated": 5,
-  "remaining_core_pages": 120,
+  "newly_translated": 12,
+  "remaining_core_pages": 113,
   "working_root": "working/ae2/ae2guide/_ko_kr",
   "output_root": "output/resourcepack/ATM10_Korean/assets/ae2/ae2guide/_ko_kr",
   "output_sha256": {
@@ -23,7 +41,14 @@
     "getting-started.md": "4b55b1731d87359f25c7b5d94525db5f6c4ed011ebf4ef43390edd3e632bd476",
     "tips-and-tricks.md": "2de41dfa2f43cc47881152ade1020cab2911c4b7c7107e5dbb57fdc36c2c8bad",
     "ae2-mechanics/meteorites.md": "83e916b90e82cecd7ac6b6ba2f28cb967eb54997e5caa2897ab57f3b357aa54a",
-    "ae2-mechanics/certus-growth.md": "be5e4ac04635ddf88ebd4825ab20421e7e91e195e44b52bf098894bbc9699c31"
+    "ae2-mechanics/certus-growth.md": "be5e4ac04635ddf88ebd4825ab20421e7e91e195e44b52bf098894bbc9699c31",
+    "ae2-mechanics/ae2-mechanics-index.md": "701102d9e241a9e19a0e13ef5f654464564b8fbf977a4cf1fd0ccd4e54ec4eb6",
+    "ae2-mechanics/bytes-and-types.md": "5a73d783b74e2f33405e8d1b9b84fe21760eb58ecd63e5cbd6bcb0841dc4ca4d",
+    "ae2-mechanics/devices.md": "2a8c5e5f21dd3ad2117d4e7b8c120f6f96fc5d5d933cbf876a0b4850a829c4a5",
+    "ae2-mechanics/energy.md": "271d7eb57cb1ffe565b4e4c0d841e59efb4be2f3ff6783d859b5ee02f2c14fe9",
+    "ae2-mechanics/import-export-storage.md": "658e172a35db6fe947a9a8d48ab2a85030caf6b50983eb5802b58a08e2806e22",
+    "ae2-mechanics/me-network-connections.md": "f268bef032f4a8619c94d12bc3308204e75900a2ecc0e0a19552268489bcc9da",
+    "ae2-mechanics/cable-subparts.md": "6da63f6a6600ed8efb828a63d97bdb11ec0174145e2d477748b398f9a024f746"
   },
   "validation_errors": 0,
   "status": "completed"

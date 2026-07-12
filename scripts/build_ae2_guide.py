@@ -19,12 +19,27 @@ OUTPUT_ROOT = (
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2/guide_progress.json"
 SOURCE_ROOT = PurePosixPath("assets/ae2/ae2guide")
 
-BATCH_FILES = (
-    "index.md",
-    "getting-started.md",
-    "tips-and-tricks.md",
-    "ae2-mechanics/meteorites.md",
-    "ae2-mechanics/certus-growth.md",
+ACTIVE_BATCH = 2
+BATCHES = {
+    1: (
+        "index.md",
+        "getting-started.md",
+        "tips-and-tricks.md",
+        "ae2-mechanics/meteorites.md",
+        "ae2-mechanics/certus-growth.md",
+    ),
+    2: (
+        "ae2-mechanics/ae2-mechanics-index.md",
+        "ae2-mechanics/bytes-and-types.md",
+        "ae2-mechanics/devices.md",
+        "ae2-mechanics/energy.md",
+        "ae2-mechanics/import-export-storage.md",
+        "ae2-mechanics/me-network-connections.md",
+        "ae2-mechanics/cable-subparts.md",
+    ),
+}
+BATCH_FILES = tuple(
+    relative for batch in range(1, ACTIVE_BATCH + 1) for relative in BATCHES[batch]
 )
 
 FRONT_MATTER_RE = re.compile(r"\A---\n(.*?)\n---(?=\n)", re.DOTALL)
@@ -191,6 +206,7 @@ def build(instance: Path) -> dict[str, object]:
     errors = []
     source_words = 0
     source_characters = 0
+    batch_source_words = 0
     with zipfile.ZipFile(jar) as archive:
         archive_names = set(archive.namelist())
         for relative in BATCH_FILES:
@@ -199,8 +215,11 @@ def build(instance: Path) -> dict[str, object]:
             errors.extend(validate_pair(relative, source, translated))
             errors.extend(validate_references(archive_names, relative, translated))
             visible = extract_visible_text(source)
-            source_words += len(ENGLISH_WORD_RE.findall(visible))
+            words = len(ENGLISH_WORD_RE.findall(visible))
+            source_words += words
             source_characters += len(visible)
+            if relative in BATCHES[ACTIVE_BATCH]:
+                batch_source_words += words
     if errors:
         raise ValueError("\n".join(errors))
 
@@ -219,17 +238,20 @@ def build(instance: Path) -> dict[str, object]:
         raise ValueError("출력 가이드 파일 목록이 첫 배치와 다릅니다.")
 
     result = {
-        "scope": "Applied Energistics 2 GuideME guide batch 01",
+        "scope": f"Applied Energistics 2 GuideME guide batches 01-{ACTIVE_BATCH:02d}",
         "source_jar": jar.name,
         "language": "ko_kr",
-        "batch": 1,
+        "batch": ACTIVE_BATCH,
+        "batch_files": list(BATCHES[ACTIVE_BATCH]),
+        "batch_pages": len(BATCHES[ACTIVE_BATCH]),
+        "batch_source_words": batch_source_words,
         "files": list(BATCH_FILES),
         "pages": len(BATCH_FILES),
         "source_words": source_words,
         "source_characters": source_characters,
         "existing_korean_reused": 0,
         "newly_translated": len(BATCH_FILES),
-        "remaining_core_pages": 120,
+        "remaining_core_pages": 125 - len(BATCH_FILES),
         "working_root": WORKING_ROOT.relative_to(PROJECT_ROOT).as_posix(),
         "output_root": OUTPUT_ROOT.relative_to(PROJECT_ROOT).as_posix(),
         "output_sha256": {
