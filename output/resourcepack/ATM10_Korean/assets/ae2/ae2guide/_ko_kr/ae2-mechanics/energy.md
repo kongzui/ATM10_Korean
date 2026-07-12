@@ -27,7 +27,7 @@ navigation:
   <BlockImage id="controller" p:state="online" scale="4" />
 
   <BlockImage id="vibration_chamber" p:active="true" scale="4" />
-  
+
   <BlockImage id="crystal_resonance_generator" scale="4" />
 </Row>
 
