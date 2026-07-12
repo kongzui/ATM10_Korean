@@ -13,6 +13,38 @@ import audit_ftbquests_titles as audit
 import build_ae2_quests as snbt
 import build_ftbquests_titles as builder
 
+REDUNDANT_SINGLE_ITEM_TASK_IDS = {
+    "03EB390E79866058",
+    "065E5450AC87F1D5",
+    "0F2BCC279B5731AB",
+    "17B0E19125FCFA1A",
+    "17C7DC04BC22C0D7",
+    "181135E3A83C5B9E",
+    "263F0E416A8E1110",
+    "299DE26FF7293F34",
+    "2CC38211F4C54ED8",
+    "2EA19C4E46380CDA",
+    "345245C32DB7B4D4",
+    "3B35F86B42989063",
+    "4203F7ED807F3D30",
+    "429FA8057B666565",
+    "4471A530B55D4140",
+    "46C7D666D3A4A3D9",
+    "47BAD4AA76F9CF82",
+    "4DA6445DB5F3B85E",
+    "4EF5B261BAD2AC7D",
+    "4FCEB24FC83D22A9",
+    "50823C029014781A",
+    "55F718D796CEB1B1",
+    "5B5DBA0A7644A551",
+    "5BFAA4BB6651F71A",
+    "5C358DFF9CD0D1D9",
+    "5E017E6B7E3F56B7",
+    "6D4F62833424ADC0",
+    "79AEDC66EB312BCA",
+    "7B7C1C5BFEC92058",
+}
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -25,6 +57,12 @@ def main() -> int:
     baseline = snbt.parse_language_snbt(lang_root / "ko_kr.snbt")
     output = snbt.parse_language_snbt(builder.OUTPUT_LANG)
     chapters, object_ids = audit.parse_chapters(quest_root)
+    tasks_by_id = {
+        task["id"]: task
+        for chapter in chapters
+        for quest in chapter["quests"]
+        for task in quest["tasks"]
+    }
     group_ids = set(
         re.findall(
             r"[0-9A-F]{16}",
@@ -63,7 +101,7 @@ def main() -> int:
         raise ValueError(f"설명문이 변경됐습니다: {description_changes}")
 
     validation_errors: list[str] = []
-    for key in changed_keys & english.keys():
+    for key in changed_keys & english.keys() & output.keys():
         validation_errors.extend(snbt.validate_value(key, english[key], output[key]))
     if validation_errors:
         raise ValueError("\n".join(validation_errors))
@@ -107,6 +145,25 @@ def main() -> int:
             f"{redundant_ae2_item_task_titles}"
         )
 
+    invalid_removed_tasks = sorted(
+        task_id
+        for task_id in REDUNDANT_SINGLE_ITEM_TASK_IDS
+        if task_id not in tasks_by_id
+        or tasks_by_id[task_id]["type"] != "item"
+        or not tasks_by_id[task_id]["item_id"]
+        or tasks_by_id[task_id]["item_id"] == "ftbfiltersystem:smart_filter"
+    )
+    restored_redundant_titles = sorted(
+        task_id
+        for task_id in REDUNDANT_SINGLE_ITEM_TASK_IDS
+        if f"task.{task_id}.title" in output
+    )
+    if invalid_removed_tasks or restored_redundant_titles:
+        raise ValueError(
+            f"단일 ItemTask 검증 실패={invalid_removed_tasks}, "
+            f"중복 제목 재생성={restored_redundant_titles}"
+        )
+
     report = json.loads(audit.REPORT_JSON.read_text(encoding="utf-8"))
     resolved_problem_types = {
         "목차 표기 불일치",
@@ -134,6 +191,8 @@ def main() -> int:
         "navigation_titles_checked": navigation_checked,
         "ae2_fallback_titles_checked": len(expected_ae2),
         "redundant_ae2_item_task_titles": 0,
+        "redundant_single_item_task_titles": 0,
+        "removed_single_item_task_titles_checked": len(REDUNDANT_SINGLE_ITEM_TASK_IDS),
         "placeholder_number_format_errors": 0,
         "utf8_bom_files": 0,
         "audit_candidates_remaining": report["remaining_issue_count"],
