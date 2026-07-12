@@ -1,0 +1,61 @@
+{
+  "status": "completed_and_deployed",
+  "completed_at": "2026-07-12T21:43:12+09:00",
+  "scope": "FTB Quests navigation, quest/task title fallback and visible title consistency",
+  "root_cause": {
+    "quest_id": "69B7DE2283B4EE6C",
+    "task_id": "39BC572CE6FCFE92",
+    "item_id": "ae2:crafting_accelerator",
+    "quest_title_missing": true,
+    "task_title_missing": true,
+    "fallback_path": "Quest.getAltTitle -> first Task.getTitle -> ItemTask.getAltTitle -> ItemStack.getHoverName",
+    "custom_name_or_literal_component": false
+  },
+  "changes": {
+    "total_title_keys": 206,
+    "group_titles_corrected": 2,
+    "chapter_titles_added": 12,
+    "chapter_titles_corrected": 40,
+    "navigation_titles_changed": 54,
+    "official_mod_names_corrected": 44,
+    "quest_titles_added": 22,
+    "quest_titles_corrected": 53,
+    "quest_subtitles_corrected": 3,
+    "task_titles_added": 74,
+    "item_name_conflicts_resolved": 4,
+    "ae2_quest_titles_added_or_corrected": 23,
+    "ae2_task_titles_added_or_corrected": 74
+  },
+  "audit": {
+    "chapters": 64,
+    "quests": 4601,
+    "tasks": 5792,
+    "remaining_candidates": 5797,
+    "remaining_by_type": {
+      "task_item_hover_fallback": 4841,
+      "description_without_explicit_quest_title": 829,
+      "english_custom_name_or_literal_component": 42,
+      "english_task_title": 85
+    },
+    "note": "확정 리소스팩 이름이 없는 다른 모드는 자동 수정하지 않고 다음 모드별 전체 검토 후보로 유지"
+  },
+  "validation": {
+    "snbt_parse": true,
+    "duplicate_keys": 0,
+    "invalid_object_ids": 0,
+    "description_keys_changed": 0,
+    "navigation_titles_checked": 74,
+    "ae2_fallback_titles_checked": 2,
+    "placeholder_number_format_errors": 0,
+    "unexpected_instance_changes": [],
+    "original_jar_modified": false,
+    "resourcepack_hashes_already_matched": true,
+    "deployed_hash_matches": true
+  },
+  "deployment": {
+    "backup_root": "temp/backups/20260712_214310",
+    "applied_path": "config/ftbquests/quests/lang/ko_kr.snbt",
+    "before_sha256": "4ee2722eba43873d548eb421b73d163c8f7aabf2315e61f5c3c5ba93de23e1d7",
+    "after_sha256": "a85a515aaec9f6368ff1b809174f2553fc36820111090d93adb9cc3e7b7c15e5"
+  }
+}
