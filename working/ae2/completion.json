@@ -1,0 +1,47 @@
+{
+  "status": "completed_and_deployed",
+  "completed_at": "2026-07-12T19:44:28+09:00",
+  "scope": "Applied Energistics 2 core, related FTB Quests chapter, related KubeJS display text",
+  "resourcepack": {
+    "total_keys": 1021,
+    "existing_korean_kept": 563,
+    "existing_korean_corrected": 291,
+    "newly_completed": 167,
+    "remaining": 0
+  },
+  "ftbquests": {
+    "total_keys": 173,
+    "existing_korean_kept": 62,
+    "existing_korean_corrected": 109,
+    "newly_completed": 2,
+    "remaining": 0
+  },
+  "kubejs": {
+    "translated_keys": 1,
+    "resourcepack_keys": 1,
+    "script_overrides": 0,
+    "remaining": 0
+  },
+  "review_items": [],
+  "backup_root": "temp/backups/20260712_194427",
+  "applied_paths": [
+    "resourcepacks/ATM10_Korean/pack.mcmeta",
+    "resourcepacks/ATM10_Korean/assets/ae2/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/kubejs/lang/ko_kr.json",
+    "config/ftbquests/quests/lang/ko_kr.snbt"
+  ],
+  "resourcepack_installed": true,
+  "resourcepack_enabled_in_options": false,
+  "options_modified": false,
+  "original_jar_modified": false,
+  "unexpected_instance_changes": [],
+  "validation": {
+    "resourcepack_keys_match_en_us": true,
+    "placeholders_preserved": true,
+    "line_breaks_preserved": true,
+    "format_codes_preserved": true,
+    "ftbquest_unrelated_keys_changed": 0,
+    "deployed_hashes_match": true,
+    "utf8_bom_files": 0
+  }
+}
