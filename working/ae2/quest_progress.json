@@ -1,0 +1,12 @@
+{
+  "scope": "FTB Quests applied_energistics_2 chapter",
+  "total_keys": 173,
+  "existing_korean_kept": 62,
+  "existing_korean_corrected": 109,
+  "newly_completed": 2,
+  "remaining": 0,
+  "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+  "output_sha256": "4ee2722eba43873d548eb421b73d163c8f7aabf2315e61f5c3c5ba93de23e1d7",
+  "validation_errors": 0,
+  "review_items": []
+}
