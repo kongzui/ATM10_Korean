@@ -1,0 +1,136 @@
+{
+  "scope": "FTB Quests common, foundational and early-game chapters",
+  "source_version": "ATM10 7.1",
+  "legacy_5_4_used": false,
+  "classifications": [
+    {
+      "chapter": "welcome",
+      "display_name": "환영합니다",
+      "classification": 1,
+      "reviewed_keys": 13,
+      "deferred_keys": 0,
+      "note": "모드와 무관한 퀘스트 사용법, 팀, 청크, 명령어 안내 전체 검수"
+    },
+    {
+      "chapter": "basic_armor",
+      "display_name": "기본 방어구",
+      "classification": 2,
+      "reviewed_keys": 71,
+      "deferred_keys": 276,
+      "note": "공통 갑옷 안내, 바닐라 갑옷과 바닐라 갑옷 장식만 검수"
+    },
+    {
+      "chapter": "basic_tools",
+      "display_name": "기본 도구",
+      "classification": 2,
+      "reviewed_keys": 15,
+      "deferred_keys": 94,
+      "note": "챕터 안내와 공통 수확 티어만 검수"
+    },
+    {
+      "chapter": "storage",
+      "display_name": "기본 저장소",
+      "classification": 2,
+      "reviewed_keys": 11,
+      "deferred_keys": 153,
+      "note": "챕터 안내와 바닐라 저장 수단만 검수"
+    },
+    {
+      "chapter": "basic_logistics",
+      "display_name": "기본 물류",
+      "classification": 2,
+      "reviewed_keys": 2,
+      "deferred_keys": 74,
+      "note": "공통 물류 개념 안내만 검수"
+    },
+    {
+      "chapter": "basic_power",
+      "display_name": "기본 전력",
+      "classification": 2,
+      "reviewed_keys": 14,
+      "deferred_keys": 81,
+      "note": "공통 전력 생산, 저장, 전송 구역 안내만 검수"
+    },
+    {
+      "chapter": "building_tips",
+      "display_name": "건축 팁",
+      "classification": 2,
+      "reviewed_keys": 17,
+      "deferred_keys": 238,
+      "note": "공통 건축 안내와 바닐라 블록 분류만 검수"
+    },
+    {
+      "chapter": "mainquestline_part_1",
+      "display_name": "1장: 시작",
+      "classification": 2,
+      "reviewed_keys": 49,
+      "deferred_keys": 38,
+      "note": "ATM 공통 시작 안내와 바닐라 진행만 검수"
+    },
+    {
+      "chapter": "tips_and_tricks",
+      "display_name": "팁과 요령",
+      "classification": 2,
+      "reviewed_keys": 4,
+      "deferred_keys": 58,
+      "note": "공통 페이지 안내와 단축키 묶음 사용법만 검수"
+    },
+    {
+      "chapter": "food_and_farming",
+      "display_name": "음식과 농사",
+      "classification": 2,
+      "reviewed_keys": 39,
+      "deferred_keys": 53,
+      "note": "공통 챕터 안내와 바닐라 음식, 농사, 낚시 항목만 검수"
+    },
+    {
+      "chapter": "generators",
+      "display_name": "발전기 및 화로",
+      "classification": 2,
+      "reviewed_keys": 2,
+      "deferred_keys": 93,
+      "note": "공통 화로 제목과 부제만 확인하고 모드 설명은 이관"
+    },
+    {
+      "chapter": "bounty_board",
+      "display_name": "현상금 게시판",
+      "classification": 3,
+      "reviewed_keys": 0,
+      "deferred_keys": 56,
+      "note": "현상금 시스템 전용 챕터이므로 이번 작업에서 수정하지 않음"
+    }
+  ],
+  "counts": {
+    "reviewed_keys": 237,
+    "existing_korean_reused": 142,
+    "existing_korean_corrected": 93,
+    "newly_translated": 2,
+    "changed_keys": 95,
+    "mixed_chapter_keys_deferred": 1158,
+    "type_3_keys_deferred": 56,
+    "handoff_total": 1214
+  },
+  "validation": {
+    "snbt_keys": 6185,
+    "duplicate_keys": 0,
+    "deleted_keys": 0,
+    "invalid_object_ids": 0,
+    "placeholder_number_format_errors": 0,
+    "utf8_bom": false,
+    "unchanged_keys_outside_scope": 6090,
+    "navigation_titles_checked": 74,
+    "previous_title_overrides_checked": 56,
+    "instance_snapshot_files_checked": 3564,
+    "unexpected_instance_changes": []
+  },
+  "output": {
+    "path": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+    "sha256": "4bba2cb9368ee589c5dc94fd8f0cf08529df5cf19aaa17fe64bdc57ee7b6cbff",
+    "deployed_to_instance": false
+  },
+  "notes": [
+    "ATM10 5.4 번역 자료는 사용하지 않음",
+    "특정 모드 전용 챕터 전체와 혼합 챕터의 모드 설명은 모드별 작업으로 이관",
+    "기존 제목 전용 검증기는 설명문 변경을 금지하므로 본문 작업에는 직접 적용하지 않고 동일한 구조 검증과 기존 제목 보존 검사를 별도로 수행"
+  ]
+}
