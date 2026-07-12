@@ -9,6 +9,7 @@ from pathlib import Path
 
 import build_ae2_quests as quests
 import build_ae2_translation as resourcepack
+import build_ftbquests_titles as titles
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -55,15 +56,26 @@ def main() -> int:
         for key in quest_english
     }
     for key, value in expected.items():
-        if full_output.get(key) != value:
+        if full_output.get(key) != value and not titles.TITLE_KEY_RE.fullmatch(key):
             raise ValueError(f"FTB Quests 출력이 작업본과 다릅니다: {key}")
         errors = quests.validate_value(key, quest_english[key], value)
         if errors:
             raise ValueError("\n".join(errors))
     for key, value in full_current.items():
-        if key not in expected and full_output.get(key) != value:
+        if (
+            key not in expected
+            and full_output.get(key) != value
+            and not titles.TITLE_KEY_RE.fullmatch(key)
+        ):
             raise ValueError(f"AE2 범위 밖의 FTB Quests 키가 변경됐습니다: {key}")
-    expected_full_keys = set(full_current) | (set(quest_english) - set(quest_current))
+    added_title_keys = {
+        key
+        for key in full_output.keys() - full_current.keys()
+        if titles.TITLE_KEY_RE.fullmatch(key)
+    }
+    expected_full_keys = (
+        set(full_current) | (set(quest_english) - set(quest_current)) | added_title_keys
+    )
     if set(full_output) != expected_full_keys:
         raise ValueError("FTB Quests 전체 키 집합이 예상과 다릅니다.")
 
@@ -96,6 +108,11 @@ def main() -> int:
         "ftbquest_keys": len(expected),
         "kubejs_keys": len(kube),
         "unrelated_ftbquest_keys_changed": 0,
+        "ftbquest_title_keys_changed": sum(
+            full_current.get(key) != full_output.get(key)
+            for key in set(full_current) | set(full_output)
+            if titles.TITLE_KEY_RE.fullmatch(key)
+        ),
         "validation_errors": 0,
         "utf8_bom_files": 0,
     }

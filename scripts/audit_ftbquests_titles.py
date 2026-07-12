@@ -372,6 +372,7 @@ def main() -> int:
     lang_root = quest_root / "lang"
     english = lang_snbt.parse_language_snbt(lang_root / "en_us.snbt")
     current = lang_snbt.parse_language_snbt(OUTPUT_LANG)
+    baseline = lang_snbt.parse_language_snbt(lang_root / "ko_kr.snbt")
     chapters, object_ids = parse_chapters(quest_root)
     group_ids = set(
         re.findall(r"[0-9A-F]{16}", (quest_root / "chapter_groups.snbt").read_text())
@@ -390,6 +391,21 @@ def main() -> int:
     )
     _, project_ko = load_project_languages()
     issues: list[dict[str, str]] = []
+    object_context: dict[str, dict[str, str]] = {}
+    for chapter in chapters:
+        for quest in chapter["quests"]:
+            first_task = quest["tasks"][0] if quest["tasks"] else {}
+            object_context[quest["id"]] = {
+                "chapter_id": chapter["id"],
+                "chapter_file": chapter["filename"],
+                "item_id": first_task.get("item_id", ""),
+            }
+            for task in quest["tasks"]:
+                object_context[task["id"]] = {
+                    "chapter_id": chapter["id"],
+                    "chapter_file": chapter["filename"],
+                    "item_id": task["item_id"],
+                }
 
     for kind, prefix, ids in (
         ("group", "chapter_group", group_ids),
@@ -587,6 +603,37 @@ def main() -> int:
                 problem_type="같은 아이템의 quest.title 표기 불일치",
             )
 
+    changed_title_keys = {
+        key
+        for key in set(baseline) | set(current)
+        if baseline.get(key) != current.get(key)
+        and (
+            key.endswith(".title")
+            or key.endswith(".quest_subtitle")
+            or key.endswith(".chapter_subtitle")
+        )
+    }
+    for key in sorted(changed_title_keys):
+        parts = key.split(".")
+        kind = parts[0]
+        object_id = parts[1]
+        context = object_context.get(object_id, {})
+        item_id = context.get("item_id", "")
+        language_key = item_keys.get(item_id, "")
+        add_issue(
+            issues,
+            kind=kind,
+            object_id=object_id,
+            chapter_id=context.get("chapter_id", ""),
+            chapter_file=context.get("chapter_file", ""),
+            source_value=text_value(english, key),
+            current_korean=text_value(baseline, key),
+            item_id=item_id,
+            resourcepack_translation=project_ko.get(language_key, ""),
+            problem_type="적용한 제목 정상화",
+            applied_fix=text_value(current, key),
+        )
+
     invalid_ids = sorted(
         row["object_id"]
         for row in issues
@@ -608,6 +655,10 @@ def main() -> int:
         ),
         "object_ids_valid": True,
         "problem_counts": dict(sorted(counts.items())),
+        "applied_change_count": len(changed_title_keys),
+        "remaining_issue_count": sum(
+            row["problem_type"] != "적용한 제목 정상화" for row in issues
+        ),
         "issues": issues,
     }
     REPORT_JSON.write_text(
