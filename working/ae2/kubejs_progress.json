@@ -1,0 +1,11 @@
+{
+  "scope": "AE2 관련 KubeJS 사용자 표시 문구",
+  "translated_keys": 1,
+  "resourcepack_keys": 1,
+  "script_overrides": 0,
+  "source": "kubejs/startup_scripts/Applied Energistics/Universal_Press.js",
+  "translation_key": "item.kubejs.universal_press",
+  "output": "output/resourcepack/ATM10_Korean/assets/kubejs/lang/ko_kr.json",
+  "validation_errors": 0,
+  "review_items": []
+}
