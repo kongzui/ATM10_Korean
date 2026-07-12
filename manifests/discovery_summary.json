@@ -1,0 +1,72 @@
+﻿{
+  "instance": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+  "pack": {
+    "name": "All the Mods 10",
+    "version": "7.1",
+    "minecraft": "1.21.1",
+    "manifest_file_entries": 482,
+    "error": ""
+  },
+  "jars": {
+    "jar_files": 480,
+    "jar_scan_errors": 0,
+    "language_json_errors": 1,
+    "jars_with_en_us": 381,
+    "jars_with_ko_kr": 149,
+    "jars_with_en_and_ko": 149,
+    "jars_with_en_without_ko": 232,
+    "namespaces_with_en_us": 388,
+    "namespaces_with_ko_kr": 152,
+    "namespace_en_keys": 150054,
+    "namespace_ko_keys": 54749
+  },
+  "ftbquests": {
+    "root": "config/ftbquests",
+    "all_files": 864,
+    "snbt_files": 142,
+    "chapter_files": 64,
+    "en_us_path": "config/ftbquests/quests/lang/en_us.snbt",
+    "ko_kr_path": "config/ftbquests/quests/lang/ko_kr.snbt",
+    "en_us_exists": true,
+    "ko_kr_exists": true,
+    "en_us_estimated_keys": 8436,
+    "ko_kr_estimated_keys": 6073,
+    "shared_estimated_keys": 5978,
+    "missing_in_ko_estimated": 2458,
+    "ko_only_estimated": 95,
+    "key_count_method": "최상위 '키: 값' 행 정규식 집계; 정식 SNBT 파서 결과가 아니므로 추정치",
+    "merged_localization_files": 721,
+    "chapter_manifest_rows": 64
+  },
+  "kubejs": {
+    "all_files": 2216,
+    "js_files": 204,
+    "language_json_files": 117,
+    "en_us_files": 6,
+    "ko_kr_files": 1,
+    "en_us_keys": 1897,
+    "ko_kr_keys": 5,
+    "user_visible_candidate_lines": 225,
+    "candidate_note": "문자열 패턴 기반 후보이며 실제 표시 여부는 수동 확인 필요"
+  },
+  "resourcepacks": {
+    "candidates": 1,
+    "candidate_names": [
+      "all-the-mods-10_5.4_resourcepack.zip"
+    ],
+    "overlap_namespaces": 364,
+    "shared_key_candidates": 113746,
+    "current_en_keys_in_overlap_namespaces": 146836,
+    "legacy_ko_keys_in_overlap_namespaces": 115915,
+    "missing_in_legacy": 33090,
+    "legacy_only_keys": 2169,
+    "reuse_warning": "공유 키는 재사용 검토 후보일 뿐이며 5.4 번역 품질과 7.1 원문 동일성은 아직 검증하지 않음"
+  },
+  "other_translation_candidates": 3,
+  "recorded_errors": 1,
+  "notes": [
+    "원본 파일은 읽기만 했으며 JAR과 리소스팩을 추출하거나 수정하지 않음",
+    "FTB Quests 키 수는 정규식 기반 추정치",
+    "KubeJS 표시 문구는 패턴 기반 후보이므로 수동 확인 필요"
+  ]
+}

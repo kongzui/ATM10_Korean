@@ -1,0 +1,226 @@
+﻿path,line,category,comment_like,excerpt
+kubejs/client_scripts/Mekanism-Tooltips.js,10,text_component,False,"Text.red('Increased Energy Consumption!'),"
+kubejs/client_scripts/Mekanism-Tooltips.js,11,text_component,False,Text.green('Increased Energy Capacity')
+kubejs/client_scripts/Mekanism-Tooltips.js,15,text_component,False,"Text.red('Increased Energy Consumption!'),"
+kubejs/client_scripts/Mekanism-Tooltips.js,16,text_component,False,"Text.green('Increased Energy Capacity!'),"
+kubejs/client_scripts/Mekanism-Tooltips.js,17,text_component,False,Text.green('Increased Attack Speed & Damage!')
+kubejs/client_scripts/Mekanism-Tooltips.js,24,text_component,False,Text.green('Increased Energy Capacity & Production!')
+kubejs/client_scripts/Mekanism-Tooltips.js,28,text_component,False,Text.green('Increased Energy Capacity & Production!')
+kubejs/client_scripts/Mekanism-Tooltips.js,32,text_component,False,Text.green('Increased Energy Capacity & Production!')
+kubejs/client_scripts/Mekanism-Tooltips.js,36,text_component,False,Text.green('Increased Energy Capacity & Production!')
+kubejs/client_scripts/Mekanism-Tooltips.js,40,text_component,False,"Text.red('Decreased Energy Production!'),"
+kubejs/client_scripts/Mekanism-Tooltips.js,41,text_component,False,Text.red('Increased Fuel Consumption!')
+kubejs/client_scripts/Mekanism-Tooltips.js,45,text_component,False,"Text.red('Decreased Energy Production!'),"
+kubejs/client_scripts/Mekanism-Tooltips.js,49,text_component,False,"Text.red('Decreased Energy Production!'),"
+kubejs/client_scripts/Mekanism-Tooltips.js,50,text_component,False,"Text.green('Decreased Fuel Consumption!'),"
+kubejs/client_scripts/Mekanism-Tooltips.js,54,text_component,False,"Text.green('Increased Production Speed!'),"
+kubejs/client_scripts/Mekanism-Tooltips.js,58,text_component,False,"Text.green('Increased Production Speed!'),"
+kubejs/client_scripts/Mekanism-Tooltips.js,65,text_component,False,Text.green('Increased Machine Boost!')
+kubejs/client_scripts/Mekanism-Tooltips.js,69,text_component,False,Text.green('Increased Decay Rate!')
+kubejs/client_scripts/Mekanism-Tooltips.js,73,text_component,False,Text.green('Increased Production Speed!')
+kubejs/client_scripts/Mekanism-Tooltips.js,77,text_component,False,"Text.green('Increased Production Speed!'),"
+kubejs/client_scripts/Mekanism-Tooltips.js,78,text_component,False,Text.green('Waste -> Polonium buffed!')
+kubejs/client_scripts/Mekanism-Tooltips.js,82,text_component,False,Text.green('Waste -> Plutonium buffed!')
+kubejs/client_scripts/Mekanism-Tooltips.js,86,text_component,False,Text.green('Increased Production Speed!')
+kubejs/client_scripts/Mekanism-Tooltips.js,90,text_component,False,Text.green('Decreased Energy Consumption!')
+kubejs/client_scripts/ponder/fission_mek.js,33,ponder,False,"scene.text(80, 'The Edges Must Be Casings', [0, 4.5, 4.5]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek.js,73,ponder,False,"scene.text(80, 'The Walls Can Be Either Casings Or Glass', [0, 2.5, 2.5]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek.js,85,ponder,False,"scene.text(60, 'Place Fuel Assembly Blocks Inside To Make The Fuel Rods', [2.5, 2.5, 2.5]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek.js,98,ponder,False,"scene.text(60, 'Place Control Rod Assembly At The Top Of Each Fuel Rod', [2.5, 3.5, 2.5]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek.js,117,ponder,True,"//	.text(40, 'Right Click With Comparator For Redstone Control', [1, 1.5, 2])"
+kubejs/client_scripts/ponder/fission_mek_fuelrod.js,19,ponder,False,"scene.text(80, 'Place Fuel Assembly Blocks Inside To Make The Fuel Rods', [2.5, 2.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_fuelrod.js,27,ponder,False,"scene.text(120, 'Fuel Rods are created with several Fission Fuel Assembly blocks with a Control Rod Assembly on top.', [1.5, 2.5, 2.5]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek_fuelrod.js,34,ponder,False,"scene.text(80, 'Place Control Rod Assembly At The Top Of Each Fuel Rod', [1.5, 3.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_fuelrod.js,37,ponder,False,"scene.text(80, 'Control Rod Assembly blocks are placed 1 block from the ceiling.', [1.5, 3.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_fuelrod.js,40,ponder,False,"scene.text(60, 'Fuel Rods Cannot Touch', [1.5, 1.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_fuelrod.js,66,ponder,False,"scene.text(80, 'Multiple Fuel Rods work best in a checkerboard pattern.', [1.5, 1.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_logic.js,15,ponder,False,"scene.text(60, 'Logic Adapters allow Redstone Control for Reactors.', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_logic.js,19,ponder,False,"scene.text(60, 'Right Click to Open Configuration Settings', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_logic.js,24,ponder,False,"scene.text(80, 'With two, you can set up a Fail Safe that can shut off the Reactor under certain conditions.', [2.5, 3.5, 2]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_logic.js,28,ponder,False,"scene.text(60, 'Set this one to Activation', [2.5, 3.5, 2]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_logic.js,30,ponder,False,"scene.text(60, 'Set this one to Damage Critical.', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_logic.js,40,ponder,False,"scene.text(60, 'When the Reactor has Critical Damage, it will give off a redstone signal.', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_logic.js,50,ponder,False,"scene.text(80, 'We can use this to activate a piston with gravel or sand on it to activate an Observer.', [2.5, 1.5, 1]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_logic.js,60,ponder,False,"scene.text(120, 'This is an Oberserver facing towards the Gravel. The Gravel will activate it and turn off the reactor.', [2.5, 3.5, 2]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fission_mek_port.js,19,ponder,False,"scene.text(60, 'A Reactor Needs At Least 4 Ports', [0, 1.5, 3.5]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek_port.js,25,ponder,False,"scene.text(60, 'Ports Can Be Changed Using A Configurator', [0, 1.5, 3.5]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek_port.js,31,ponder,False,"scene.text(160, 'Required Ports:', [-1, 4, 4]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek_port.js,33,ponder,False,"scene.text(40, 'Input Coolant', [3.5, 1.5, 0]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek_port.js,35,ponder,False,"scene.text(40, 'Input Fuel', [1.5, 1.5, 0]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek_port.js,37,ponder,False,"scene.text(40, 'Output Waste', [0, 1.5, 1.5]).placeNearTarget();"
+kubejs/client_scripts/ponder/fission_mek_port.js,39,ponder,False,"scene.text(40, 'Output Heated Coolant', [0, 1.5, 3.5]).placeNearTarget();"
+kubejs/client_scripts/ponder/fusion_activate.js,17,ponder,False,"scene.text(60, 'To activate the Fusion Reactor, we will need a few things.', [2, 2.5, 4.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_activate.js,20,ponder,False,"scene.text(100, 'You will need to put a Hohlraum filled with D-T fuel in the Controller.', [4.5, 5, 3.5]).attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_activate.js,30,ponder,False,"scene.text(100, 'You will need to shoot 400MRF using Lasers into the Laser Matrix.', [0, 2.5, 3.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_activate.js,39,ponder,False,"scene.text(100, 'The Laser Amplifier needs to have the Red face pointing towards the Matrix.', [1, 2.5, 3]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_activate.js,56,ponder,False,"scene.overlay.showText(100).text(""You will also need to give the Reactor fuel."").independent(-50);"
+kubejs/client_scripts/ponder/fusion_activate.js,57,ponder,False,"scene.text(50, 'For Deuterium', [5.5, 2.5, 1]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_activate.js,59,ponder,False,"scene.text(50, 'For Tritium.', [3.5, 2.5, 1]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_activate.js,62,ponder,False,"scene.text(80, 'The Reactor mixes the D-T fuel at a set rate when they are pumped in separately.', [4.5, 2.5, 1]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_reactor.js,19,ponder,False,"scene.text(60, 'The Fusion Reactor can be used to generate millions of RF per tick.', [0, 2.5, 4.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_reactor.js,22,ponder,False,"scene.text(60, 'Ports Can Be Changed Using A Configurator', [1.5, 2.5, 0]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_reactor.js,34,ponder,False,"scene.text(80, 'The Fusion Reactor is built using this pattern for each face.', [2.5, 2, 4.5]).attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_reactor.js,42,ponder,False,"scene.text(60, 'You will need a port for exporting power.', [4, 2.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_reactor.js,50,ponder,False,"scene.text(60, 'The Laser Matrix is used to kickstart the reactor.', [0, 2.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_reactor.js,62,ponder,False,"scene.text(60, 'The Fusion Reactor Controller must be placed in the middle of the top face.', [2.5, 4.5, 3.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_reactor.js,71,ponder,False,"scene.text(30, 'You will need two ports for inputting Deuterium', [3.5, 2.5, 0]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/fusion_reactor.js,73,ponder,False,"scene.text(40, 'and Tritium.', [1.5, 2.5, 0]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/induction_mek.js,20,ponder,False,"scene.text(80, 'The Induction Matrix is used to store tons of Power.', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/induction_mek.js,50,ponder,False,"scene.text(80, 'The Edges Must Be Casings', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/induction_mek.js,70,ponder,False,"scene.text(80, 'The Faces Can Be Either Casings Or Structural Glass.', [0, 2.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/induction_mek.js,100,ponder,False,"scene.text(60, 'Ports Are Used To Transfer Power.', [1.5, 1.5, 0]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/induction_mek.js,103,ponder,False,"scene.text(80, 'Ports Can Be Changed Using A Configurator.', [1.5, 1.5, 0]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/induction_mek.js,117,ponder,False,"scene.text(60, 'Induction Cells Are Used To Increase Power Storage.', [2.5, 1.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/induction_mek.js,121,ponder,False,"scene.text(60, 'Induction Providers Are Used To Increase Power Transfer Rate.', [2.5, 2.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/induction_mek.js,126,ponder,False,"scene.text(60, 'The Matrix Must Have One Cell and One Provider.', [2, 2.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/sps.js,18,ponder,False,"scene.text(60, 'The SPS converts Polonium into Antimatter Gas using a large amount of power', [0, 3.5, 6.5]).placeNearTarget();"
+kubejs/client_scripts/ponder/sps.js,24,ponder,False,"scene.text(60, 'Ports Can Be Changed Using A Configurator', [2.5, 1.5, 0]).placeNearTarget();"
+kubejs/client_scripts/ponder/sps.js,35,ponder,False,"scene.text(60, 'The SPS is built using this pattern for each face.', [2.5, 4, 5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/sps.js,42,ponder,False,"scene.text(60, 'On one side, you will need a Port in the middle to input power.', [5.5, 4, 3]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/sps.js,46,ponder,False,"scene.text(60, 'On the inside, place a Supercharged Coil on the Port.', [5, 4, 3]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/sps.js,54,ponder,False,"scene.text(60, 'You can also use two Supercharged Coils for max power usage.', [0, 4, 3]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/sps.js,70,ponder,False,"scene.text(60, 'You will need one Port for inputting Polonium.', [4.5, 1.5, 0]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/sps.js,74,ponder,False,"scene.text(60, 'And another for exporting Antimatter Gas.', [2.5, 1.5, 0]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,24,ponder,False,"scene.text(60, 'The Industrial Turbine uses Heated Coolant to create Power.', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,27,ponder,False,"scene.text(60, 'The edges must be made of Turbine Casings.', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,30,ponder,False,"scene.text(60, 'The faces can be Turbine Casings, Structural Glass, Valves, or Vents.', [0, 2.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,33,ponder,False,"scene.text(60, 'Turbine Valves pump in Steam, or export Power.', [0, 1.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,48,ponder,False,"scene.text(80, 'Turbine Rotors must be placed in the middle. Each Rotor uses 2 Turbine Blades.', [2, 3.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,55,ponder,False,"scene.text(80, 'A Rotational Complex must be placed on top of the Turbine Rotor.', [2, 4.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,64,ponder,False,"scene.text(80, 'Pressure Dispersers must fill the layer around the Rotational Complex.', [1, 4.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,77,ponder,False,"scene.text(120, 'Starting on this layer, Turbine Vents can be used for the outer faces. These also export Water from the Turbine.', [0, 4.5, 3.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,85,ponder,False,"scene.text(60, 'Electromagnetic Coils are placed on top of the Rotational Complex.', [2, 5.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,98,ponder,False,"scene.text(100, 'A max of 5 can be placed. They either must connect to each other, or be touching the Rotational Complex.', [2, 5.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,108,ponder,False,"scene.text(120, 'Saturating Condensers are used to convert Steam back into Water. These are not required, but must be placed on or above the Coil Layer.', [1, 5.5, 1.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/ponder/turbine_mek.js,138,ponder,False,"scene.text(80, 'The Top Face can be replaced with Turbine Vents, if needed.', [2.5, 6.5, 2.5]).placeNearTarget().attachKeyFrame();"
+kubejs/client_scripts/server_sync_banlist.js,20,text_component;ui_message,True,"// event.entity.setStatusMessage(Text.gold(""You are not allowed to use this item""))"
+kubejs/client_scripts/server_sync_banlist.js,28,text_component;ui_message,True,"// event.entity.setStatusMessage(Text.gold(""You are not allowed to use this item""))"
+kubejs/client_scripts/tooltips.js,9,text_component,False,"Text.of('§7Needs at least Netherite to be mined'),"
+kubejs/client_scripts/tooltips.js,10,text_component,False,"Text.of('§6Found in the Deep Dark Biome and will always spawn air exposed'),"
+kubejs/client_scripts/tooltips.js,11,text_component,False,Text.of('§6Also found in the Deep Slate Layer of Mining Dimension')
+kubejs/client_scripts/tooltips.js,14,text_component,False,"Text.of('§7Needs at least AllTheModium to be mined'),"
+kubejs/client_scripts/tooltips.js,15,text_component,False,"Text.of('§bFound in any Nether biome'),"
+kubejs/client_scripts/tooltips.js,16,text_component,False,Text.of('§bAlso found in The Other')
+kubejs/client_scripts/tooltips.js,19,text_component,False,"Text.of('§7Needs at least Vibranium to be mined'),"
+kubejs/client_scripts/tooltips.js,20,text_component,False,Text.of('§dFound in the End Highlands')
+kubejs/client_scripts/tooltips.js,24,text_component,False,"Text.of(""§7§oIt's less... talkative now"")"
+kubejs/client_scripts/tooltips.js,27,text_component,False,"Text.of(""§7§oIt's less... talkative now"")"
+kubejs/client_scripts/tooltips.js,30,text_component,False,"Text.of(""§7§oIt's less... talkative now"")"
+kubejs/client_scripts/tooltips.js,34,text_component,False,"Text.of(""§7§oThese arent the ingots you are looking for""),"
+kubejs/client_scripts/tooltips.js,35,text_component,False,"Text.of(""§6Look for the [Silent Allthemodium Plate]"")"
+kubejs/client_scripts/tooltips.js,38,text_component,False,"Text.of(""§7§oThese arent the ingots you are looking for""),"
+kubejs/client_scripts/tooltips.js,39,text_component,False,"Text.of(""§6Look for the [Silent Vibranium Plate]"")"
+kubejs/client_scripts/tooltips.js,42,text_component,False,"Text.of(""§7§oThese arent the ingots you are looking for""),"
+kubejs/client_scripts/tooltips.js,43,text_component,False,"Text.of(""§6Look for the [Silent Unobtainium Plate]"")"
+kubejs/client_scripts/tooltips.js,48,text_component,False,Text.of('§6Found in Suspicious Clay in Ancient Cities')
+kubejs/client_scripts/tooltips.js,51,text_component,False,Text.of('§bFound in Suspicious Soul Sand in Bastions')
+kubejs/client_scripts/tooltips.js,54,text_component,False,Text.of('§dDropped by the Trial Spawner in the Library of the Dungeon within The Other')
+kubejs/client_scripts/tooltips.js,59,text_component,False,"Text.of(""§c§lShift-Right-Click§r§c the §c§lSmithing Table§r§c with §lMundabitur Dust""),"
+kubejs/client_scripts/tooltips.js,60,text_component,False,"Text.of(""§c█ = Gilded Chiseled Polished Darkstone with Smithing Table on top""),"
+kubejs/client_scripts/tooltips.js,61,text_component,False,"Text.of(""§7█ = Polished Darkstone""),"
+kubejs/client_scripts/tooltips.js,62,text_component,False,"Text.of(""§5█§7 = Gilded Chiseled Polished Darkstone""),"
+kubejs/client_scripts/tooltips.js,63,text_component,False,"Text.of(""§6█§7 = Chiseled Arcane Polished Darkstone""),"
+kubejs/client_scripts/tooltips.js,76,text_component,False,"Text.of(""§c§lShift-Right-Click§r§c the §c§lClibano Core§r§c with §c§lMundabitur Dust""),"
+kubejs/client_scripts/tooltips.js,77,text_component,False,"Text.of(""§5█§7 = Polished Darkstone""),"
+kubejs/client_scripts/tooltips.js,78,text_component,False,"Text.of(""§7█ = Polished Darkstone Bricks""),"
+kubejs/client_scripts/tooltips.js,79,text_component,False,"Text.of(""§6█§7 = Clibano Core""),"
+kubejs/client_scripts/tooltips.js,80,text_component,False,"Text.of(""§7Right to Left -> Bottom to Top""),"
+kubejs/client_scripts/tooltips.js,86,text_component,False,"Text.of(""§4Obtainable from the Wandering Trader""),"
+kubejs/client_scripts/tooltips.js,87,text_component,False,"Text.of(""§4Or by using a Corrupt Soul on an Oak Sapling""),"
+kubejs/client_scripts/tooltips.js,90,text_component,False,"Text.of(""§7Use Ferrognetic Mixture on the Darkstone Pedestal""),"
+kubejs/client_scripts/tooltips.js,93,text_component,False,"Text.of(""§7Use a Soul Extractor on Soul Sand""),"
+kubejs/client_scripts/tooltips.js,94,text_component,False,"Text.of(""§7Rarely spawns in world""),"
+kubejs/client_scripts/tooltips.js,97,text_component,False,"Text.of(""§7Use a Splash Aureal Bottle on a normal soul"")"
+kubejs/client_scripts/tooltips.js,100,text_component,False,"Text.of(""§7Rarely spawns when killing mobs"")"
+kubejs/client_scripts/tooltips.js,103,text_component,False,"Text.of(""§7Hold a test tube in your off-hand and then kill mobs"")"
+kubejs/client_scripts/tooltips.js,106,text_component,False,"Text.of(""§7Only obtainable via the Black Hole""),"
+kubejs/client_scripts/tooltips.js,107,text_component,False,"Text.of(""§7To make a Black Hole throw Dark Matter together with Corrupti Dust on the ground""),"
+kubejs/client_scripts/tooltips.js,108,text_component,False,"Text.of(""§7Feed it enough xp to make it spit out an Xpetrified Orb"")"
+kubejs/client_scripts/tooltips.js,111,text_component,False,"Text.of(""§7Dropped by the Ender Dragon"")"
+kubejs/client_scripts/tooltips.js,114,text_component,False,"Text.of(""§7Very rarely spawns between Y -44 and Y 42""),"
+kubejs/client_scripts/tooltips.js,115,text_component,False,"Text.of(""§cWill explode when you mine it!"")"
+kubejs/client_scripts/tooltips.js,118,text_component,False,"Text.of(""§7Spawns at the bottom of the world up to Y 2""),"
+kubejs/client_scripts/tooltips.js,121,text_component,False,"Text.of(""§7Very rarely spawns between Y -40 and Y 14""),"
+kubejs/client_scripts/tooltips.js,122,text_component,False,"Text.of(""§7Most common at Y -13"")"
+kubejs/client_scripts/tooltips.js,125,text_component,False,"Text.of(""§aFound in the Armorer, Toolsmith, or Weaponsmith villager buildings""),"
+kubejs/client_scripts/tooltips.js,128,text_component,False,"Text.of(""§cUnobtainable""),"
+kubejs/client_scripts/tooltips.js,131,text_component,False,"Text.of(""§aFound in Pillager Outposts""),"
+kubejs/client_scripts/tooltips.js,134,text_component,False,"Text.of(""§cWill turn into a Crimson Stone after 1 use""),"
+kubejs/client_scripts/tooltips.js,137,text_component,False,"Text.of(""§aFound in Jungle Temples, Desert Pyramids, and Underwater Ruins""),"
+kubejs/client_scripts/tooltips.js,140,text_component,False,"Text.of(""§aFound in the Village and Pyramid in The Other""),"
+kubejs/client_scripts/tooltips.js,143,text_component,False,"Text.of(""§aFound in Treasure Bastions""),"
+kubejs/client_scripts/tooltips.js,148,text_component,False,"Text.of(""§cDisabled for Fake Player""),"
+kubejs/client_scripts/tooltips.js,149,text_component,False,"Text.of(""§c(Blocks like Modular Routers, Clickers, etc)"")"
+kubejs/client_scripts/tooltips.js,153,text_component,False,"Text.of(""§7Has it's own slot to be placed in""),"
+kubejs/client_scripts/tooltips.js,154,text_component,False,"Text.of(""§7Check your Keybinds for \""Open Belt Slot Inventory\"""")"
+kubejs/client_scripts/tooltips.js,159,text_component,False,"Text.of(""§aRight click with job site block to put it inside and allow trade restocking"")"
+kubejs/client_scripts/tooltips.js,165,text_component,False,"Text.of(""§aThis mod will be removed on version 6.0+"")"
+kubejs/client_scripts/tooltips.js,172,text_component,False,"Text.of('This loot bag is from the \""Lunar Monstrosity\"".')"
+kubejs/client_scripts/tooltips.js,178,text_component,False,"Text.of('§cWARNING, this machine has be depreciated.'),"
+kubejs/client_scripts/tooltips.js,179,text_component,False,Text.of('Use crafting table to convert to the new version.')
+kubejs/client_scripts/tooltips.js,182,text_component,False,"Text.of('§cWARNING, this machine has be depreciated.'),"
+kubejs/client_scripts/tooltips.js,183,text_component,False,Text.of('Use crafting table to convert to the new version.')
+kubejs/client_scripts/tooltips.js,186,text_component,False,"Text.of('§cWARNING, this machine has be depreciated.'),"
+kubejs/client_scripts/tooltips.js,187,text_component,False,Text.of('Use crafting table to convert to the new version.')
+kubejs/client_scripts/tooltips.js,190,text_component,False,"Text.of('§cWARNING, this machine has be depreciated.'),"
+kubejs/client_scripts/tooltips.js,191,text_component,False,Text.of('Use crafting table to convert to the new version.')
+kubejs/client_scripts/tooltips.js,201,text_component,False,"Text.of(""§cWARNING: Will implode at wave 3 outside of the following dimensions:""),"
+kubejs/client_scripts/tooltips.js,202,text_component,False,"Text.of(""§cOverworld, The Nether, The End, The Twilight Forest"")"
+kubejs/client_scripts/tooltips.js,220,text_component,False,"Text.of(""§9In a Botany Pot: Requires a hoe enchanted with Silk Touch to be harvested"")"
+kubejs/server_scripts/announcements/announcements.js,25,text_component,False,"addAnnouncement(""5.3"", Text.of(""We are preparing to "").append(Text.red(""REMOVE"")).append("" mods "").append(Text.blue(""Eternal Starlight"")).append("" and "").append(Text.blue(""Hyperbox"")).append("", be ready when updating to version 6.0+""))"
+kubejs/server_scripts/announcements/announcements.js,26,text_component,False,"addAnnouncement(""5.5"", Text.of(""We just launched "").append(Text.green(""All The Mons (ATM10 + Cobblemon)"").clickOpenUrl(""https://www.curseforge.com/minecraft/modpacks/all-the-mons"").hover(Text.translatable(""mco.notification.visitUrl.buttonText.default""))).append("" for public beta testing!""))"
+kubejs/server_scripts/announcements/announcements.js,39,text_component,False,"announcements.computeIfAbsent(new $DefaultArtifactVersion(version), (key) => Utils.newList()).addLast(typeof component == ""string"" ? Text.of(component) : component)"
+kubejs/server_scripts/announcements/announcements.js,56,text_component;ui_message,False,"event.player.tell(Text.translatable(""=====[  %s  ]====="", Text.yellow(""All The Mods Announcements"").bold()).gold().bold())"
+kubejs/server_scripts/announcements/announcements.js,67,text_component,False,"let message = Text.translatable(""announcements.atm.dismiss_up_to_version"", Text.blue(currentVersion.toString()))"
+kubejs/server_scripts/announcements/announcements.js,69,text_component,False,".hover(Text.translatable(""kubejs.atm.click_here""))"
+kubejs/server_scripts/announcements/announcements.js,84,text_component;ui_message,False,"event.respond(Text.yellow(""Cleared dismissed version!""))"
+kubejs/server_scripts/announcements/announcements.js,90,text_component;ui_message,False,"event.respond(Text.translatable(""announcements.atm.dismissed_up_to_version"", currentVersion.toString()).yellow())"
+kubejs/server_scripts/banlist_script.js,43,text_component;ui_message,False,"event.level.server.tell(Text.red(""Removed banned entity: "" + event.entity.type + "" at "" + event.entity.blockPosition().toShortString()))"
+kubejs/server_scripts/banlist_script.js,82,ui_message,False,"event.level.server.tell(""Removing banned block entity at "" + pos.toShortString())"
+kubejs/server_scripts/banlist_script.js,94,text_component;ui_message,False,"event.player.setStatusMessage(Text.red(""This server does not allow you to use this item!""))"
+kubejs/server_scripts/debug/freeze_server.js,5,ui_message,False,"event.server.tell(""Starting server frozen..."")"
+kubejs/server_scripts/mods/Hyperbox/hyperbox.js,3,text_component;ui_message,False,"event.server.tell(Text.red('Hyperboxes will be removed on version 6.0+, please move to Compact Machines'))"
+kubejs/startup_scripts/Applied Energistics/Universal_Press.js,8,display_name,False,.displayName('Inscriber Universal Press');
+kubejs/startup_scripts/CustomAdditions.js,7,display_name,False,allthemods.create('magical_soil').displayName('§bMagical Soil').grassSoundType().mapColor('grass').hardness(0.6);
+kubejs/startup_scripts/CustomAdditions.js,9,display_name,False,allthemods.create('air_essence_block').displayName('Air Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();
+kubejs/startup_scripts/CustomAdditions.js,10,display_name,False,allthemods.create('earth_essence_block').displayName('Earth Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();
+kubejs/startup_scripts/CustomAdditions.js,11,display_name,False,allthemods.create('fire_essence_block').displayName('Fire Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();
+kubejs/startup_scripts/CustomAdditions.js,12,display_name,False,allthemods.create('water_essence_block').displayName('Water Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();
+kubejs/startup_scripts/CustomAdditions.js,14,display_name,False,allthemods.create('blaze_powder_block').displayName('Blaze Powder Block').stoneSoundType().mapColor('stone').hardness(1);
+kubejs/startup_scripts/CustomAdditions.js,15,display_name,True,// allthemods.create('blaze_block').displayName('Blaze Block').stoneSoundType().mapColor('stone').hardness(1);
+kubejs/startup_scripts/CustomAdditions.js,16,display_name,False,allthemods.create('saltpeter_block').displayName('Saltpeter Block').stoneSoundType().mapColor('stone').hardness(1);
+kubejs/startup_scripts/CustomAdditions.js,22,display_name,False,allthemods.create('starlight_prediction').displayName('Generalized Starlight Prediction');
+kubejs/startup_scripts/CustomAdditions.js,25,display_name,False,allthemods.create('silent_allthemodium_plate').displayName('Silent Allthemodium Plate').glow(true);
+kubejs/startup_scripts/CustomAdditions.js,26,display_name,False,allthemods.create('silent_vibranium_plate').displayName('Silent Vibranium Plate').glow(true);
+kubejs/startup_scripts/CustomAdditions.js,27,display_name,False,allthemods.create('silent_unobtainium_plate').displayName('Silent Unobtainium Plate').glow(true);
+kubejs/startup_scripts/CustomAdditions.js,29,display_name,False,allthemods.create('atm_star_shard_1').displayName('ATM Star Fragment')
+kubejs/startup_scripts/CustomAdditions.js,30,display_name,False,allthemods.create('atm_star_shard_2').displayName('ATM Star Fragment')
+kubejs/startup_scripts/CustomAdditions.js,31,display_name,False,allthemods.create('atm_star_shard_3').displayName('ATM Star Fragment')
+kubejs/startup_scripts/CustomAdditions.js,32,display_name,False,allthemods.create('atm_star_shard_4').displayName('ATM Star Fragment')
+kubejs/startup_scripts/CustomAdditions.js,33,display_name,False,allthemods.create('atm_star_shard_5').displayName('ATM Star Fragment')
+kubejs/startup_scripts/CustomAdditions.js,49,display_name,False,"allthemods.create(""allthemodium_solar_sail_package"").displayName(""Allthemodium Solar Sail Package"").component(""dysoncubeproject:sphere_component_solar_sail"", Java.cast(""java.lang.Integer"", 64))"
+kubejs/startup_scripts/CustomAdditions.js,50,display_name,False,"allthemods.create(""allthemodium_beam_package"").displayName(""Allthemodium Beam Package"").component(""dysoncubeproject:sphere_component_beam"", Java.cast(""java.lang.Integer"", 16))"
+kubejs/startup_scripts/CustomAdditions.js,132,ui_message,False,"player.statusMessage = ""Dragon or Dragon Roost not found nearby..."""
+kubejs/startup_scripts/CustomAdditions.js,141,display_name,False,.displayName('Liquid Souls')
+kubejs/startup_scripts/CustomAdditions.js,146,display_name,False,.displayName('Unrefined Liquid Souls')
+kubejs/startup_scripts/CustomAdditions.js,151,display_name,False,.displayName('Liquid Aureal')
+kubejs/startup_scripts/eternal_starlight/eternal_starlight.js,3,ui_message,True,"//         event.entity.tell(""Due to severe lag with Eternal Starlight, progress will not be recorded until mod fix their issues"")"
+kubejs/startup_scripts/eternal_starlight/eternal_starlight.js,6,text_component;ui_message,True,"//                 Client.gui.setTitle(Text.of(""Progress won't be saved at "").append(Text.blue(""Eternal Starlight"")))"
+kubejs/startup_scripts/eternal_starlight/eternal_starlight.js,7,text_component;ui_message,True,"//                 Client.gui.setSubtitle(Text.white(""Due to lag, all progress won't be saved at "").append(Text.blue(""Eternal Starlight"")))"
+kubejs/startup_scripts/eternal_starlight/eternal_starlight.js,10,ui_message,True,"//         event.entity.tell(""Eternal Starlight, will be removed on version 6.0+"")"
+kubejs/startup_scripts/hyperbox/hyperbox.js,3,ui_message,False,"event.entity.tell(""Hyperboxes will be removed on version 6.0+, please move to Compact Machines"")"
+kubejs/startup_scripts/hyperbox/hyperbox.js,6,text_component;ui_message,False,"Client.gui.setTitle(Text.blue(""Hyperbox"").append(Text.red("" will be removed!"")))"
+kubejs/startup_scripts/hyperbox/hyperbox.js,7,text_component;ui_message,False,"Client.gui.setSubtitle(Text.white(""Transfer your stuff to new mod "").append(Text.blue(""Compact Machines"")))"
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,8,display_name,False,.displayName('Allthemodium Drill');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,12,display_name,False,.displayName('Allthemodium Drill Head');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,16,display_name,False,.displayName('Allthemodium Curved Plate');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,20,display_name,False,.displayName('Allthemodium Bolt');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,25,display_name,False,.displayName('Vibranium Drill');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,29,display_name,False,.displayName('Vibranium Drill Head');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,33,display_name,False,.displayName('Vibranium Curved Plate');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,37,display_name,False,.displayName('Vibranium Bolt');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,42,display_name,False,.displayName('Unobtainium Drill');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,46,display_name,False,.displayName('Unobtainium Drill Head');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,50,display_name,False,.displayName('Unobtainium Curved Plate');
+kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js,54,display_name,False,.displayName('Unobtainium Bolt');
+kubejs/startup_scripts/update_checker.js,20,text_component,False,"$SystemToast.add(Client.getToasts(), new $SystemToastId(10000), ""New update is available!"", Text.of(""Version "").append(Text.green(cfLatestVersion)).append("" is already available!""))"

@@ -1,0 +1,36 @@
+# 재생성 가능한 임시 산출물
+temp/**
+!temp/.gitkeep
+
+# Python 캐시와 로컬 도구 캐시
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# 로그와 대용량 원본/압축 파일
+*.log
+*.jar
+*.zip
+*.7z
+*.rar
+*.mrpack
+
+# Minecraft 런타임 데이터가 실수로 들어오는 것을 방지
+saves/
+world/
+worlds/
+logs/
+crash-reports/
+screenshots/
+simplebackups/
+
+# 편집기/운영체제 파일
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
