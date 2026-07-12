@@ -1,13 +1,16 @@
 {
-  "scope": "Applied Energistics 2 GuideME guide batches 01-04",
+  "scope": "Applied Energistics 2 GuideME guide batches 01-05",
   "source_jar": "appliedenergistics2-19.2.17.jar",
   "language": "ko_kr",
-  "batch": 4,
+  "batch": 5,
   "batch_files": [
-    "ae2-mechanics/autocrafting.md"
+    "example-setups/advanced-certus-farm.md",
+    "example-setups/semiauto-certus-farm.md",
+    "example-setups/simple-certus-farm.md",
+    "example-setups/amethyst-farm.md"
   ],
-  "batch_pages": 1,
-  "batch_source_words": 1762,
+  "batch_pages": 4,
+  "batch_source_words": 1745,
   "files": [
     "index.md",
     "getting-started.md",
@@ -26,14 +29,18 @@
     "ae2-mechanics/p2p-tunnels.md",
     "ae2-mechanics/quantum-bridge.md",
     "ae2-mechanics/spatial-io.md",
-    "ae2-mechanics/autocrafting.md"
+    "ae2-mechanics/autocrafting.md",
+    "example-setups/advanced-certus-farm.md",
+    "example-setups/semiauto-certus-farm.md",
+    "example-setups/simple-certus-farm.md",
+    "example-setups/amethyst-farm.md"
   ],
-  "pages": 18,
-  "source_words": 7922,
-  "source_characters": 47925,
+  "pages": 22,
+  "source_words": 9667,
+  "source_characters": 58461,
   "existing_korean_reused": 0,
-  "newly_translated": 18,
-  "remaining_core_pages": 107,
+  "newly_translated": 22,
+  "remaining_core_pages": 103,
   "working_root": "working/ae2/ae2guide/_ko_kr",
   "output_root": "output/resourcepack/ATM10_Korean/assets/ae2/ae2guide/_ko_kr",
   "output_sha256": {
@@ -54,7 +61,11 @@
     "ae2-mechanics/p2p-tunnels.md": "6eb318775bd85365d015ba5eb2c6bd25b399ee7f0cb7d34b09a5cc6fb868041d",
     "ae2-mechanics/quantum-bridge.md": "4331886eb8ce3344b8664eee684343c862937ccd1f5f2236e309ead884e53517",
     "ae2-mechanics/spatial-io.md": "bb2d98e0d2bcbe7a07e5376db9294543ca79c319127f19a1d61efe015f3cf6f5",
-    "ae2-mechanics/autocrafting.md": "bf8a71012848150045b9b13286bcf4c1dbb1c8a767f94ddc64ad600cd999afff"
+    "ae2-mechanics/autocrafting.md": "bf8a71012848150045b9b13286bcf4c1dbb1c8a767f94ddc64ad600cd999afff",
+    "example-setups/advanced-certus-farm.md": "97a10cb09afe7896758307089d0e308b7717113facaa4f7510bee3b33762daed",
+    "example-setups/semiauto-certus-farm.md": "8d870510a1a8b5ac7bd0a4b7c50a4a0636c505ba9c547eb9a834f3b891a39ea5",
+    "example-setups/simple-certus-farm.md": "996fb946165ea0babf4d88fde2e6bb6c19958c08e48bc5ada22aefa071a5ad14",
+    "example-setups/amethyst-farm.md": "9e33b65c9d17cd7ebd892a9e5faf1e43fc04c62ac0fb759bdbee1fb71d184c61"
   },
   "validation_errors": 0,
   "status": "completed"
