@@ -19,7 +19,7 @@ OUTPUT_ROOT = (
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2/guide_progress.json"
 SOURCE_ROOT = PurePosixPath("assets/ae2/ae2guide")
 
-ACTIVE_BATCH = 6
+ACTIVE_BATCH = 7
 BATCHES = {
     1: (
         "index.md",
@@ -60,6 +60,17 @@ BATCHES = {
         "example-setups/pipe-subnet.md",
         "example-setups/specialized-local-storage.md",
         "example-setups/storage-types.md",
+    ),
+    7: (
+        "example-setups/example-setups-index.md",
+        "example-setups/charger-automation.md",
+        "example-setups/furnace-automation.md",
+        "example-setups/main-network.md",
+        "example-setups/ore-fortuner.md",
+        "example-setups/processor-automation.md",
+        "example-setups/recursive-crafting-setup.md",
+        "example-setups/regulated-cobble-gen.md",
+        "example-setups/throw-in-water-automation.md",
     ),
 }
 BATCH_FILES = tuple(
