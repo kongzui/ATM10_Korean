@@ -21,7 +21,7 @@ navigation:
 * <ItemLink id="condenser" />에는 물을 사용할 수 있습니다.
 * 네트워크를 깔끔하게 유지하는 가장 좋은 방법은 검이나 방어구 같은 무작위 몹 전리품을 넣지 않는 것입니다.
   마법 부여와 내구도가 서로 다른 조합은 각각 별도의 [종류](ae2-mechanics/bytes-and-types.md)로 계산됩니다.
-* [처리 패턴](items-blocks-machines/patterns.md)의 결과물을 돌려보낼 때는 "아이템이 시스템에 들어오는"
+* [가공 패턴](items-blocks-machines/patterns.md)의 결과물을 돌려보낼 때는 "아이템이 시스템에 들어오는"
   사건이 발생해야 합니다. <ItemLink id="import_bus" />, <ItemLink id="interface" /> 또는
   <ItemLink id="pattern_provider" />의 반환 슬롯을 사용해야 하며, <ItemLink id="storage_bus" />가 붙은
   상자로 결과물을 파이프로 보내기만 해서는 안 됩니다.

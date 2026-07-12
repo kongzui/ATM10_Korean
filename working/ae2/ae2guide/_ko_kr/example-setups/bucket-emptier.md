@@ -21,7 +21,7 @@ navigation:
 
 <BoxAnnotation color="#dddddd" min="2 1 0" max="3 2 1">
         (1) 패턴 공급기: 제작 잠금을 "레드스톤 신호가 있을 때"로 설정하고 차단 모드를 켭니다.
-        관련 처리 패턴을 넣습니다.
+        관련 가공 패턴을 넣습니다.
 
         <Row>
         ![비우기 패턴](../assets/diagrams/water_empty_pattern_small.png)
