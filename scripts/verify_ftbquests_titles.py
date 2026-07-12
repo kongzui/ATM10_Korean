@@ -85,11 +85,27 @@ def main() -> int:
 
     expected_ae2 = {
         "quest.69B7DE2283B4EE6C.title": "제작 보조 처리 유닛",
-        "task.39BC572CE6FCFE92.title": "제작 보조 처리 유닛",
     }
     for key, value in expected_ae2.items():
         if output.get(key) != value:
             raise ValueError(f"AE2 자동 제목 수정이 없습니다: {key}")
+
+    redundant_ae2_item_task_titles = sorted(
+        f"task.{task['id']}.title"
+        for chapter in chapters
+        if chapter["filename"] == "applied_energistics_2.snbt"
+        for quest in chapter["quests"]
+        for task in quest["tasks"]
+        if task["type"] == "item"
+        and task["item_id"]
+        and f"task.{task['id']}.title" not in english
+        and f"task.{task['id']}.title" in output
+    )
+    if redundant_ae2_item_task_titles:
+        raise ValueError(
+            "AE2 ItemTask에 중복 아이템 제목이 있습니다: "
+            f"{redundant_ae2_item_task_titles}"
+        )
 
     report = json.loads(audit.REPORT_JSON.read_text(encoding="utf-8"))
     resolved_problem_types = {
@@ -117,6 +133,7 @@ def main() -> int:
         "invalid_object_ids": 0,
         "navigation_titles_checked": navigation_checked,
         "ae2_fallback_titles_checked": len(expected_ae2),
+        "redundant_ae2_item_task_titles": 0,
         "placeholder_number_format_errors": 0,
         "utf8_bom_files": 0,
         "audit_candidates_remaining": report["remaining_issue_count"],

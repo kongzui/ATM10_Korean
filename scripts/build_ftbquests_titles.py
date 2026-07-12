@@ -75,7 +75,6 @@ def main() -> int:
     installed_en, _, item_keys = audit.load_installed_item_languages(instance, item_ids)
     _, project_ko = audit.load_project_languages()
     ae2_quest_titles = 0
-    ae2_task_titles = 0
     ae2_item_name_corrections = 0
     for chapter in chapters:
         if chapter["filename"] != "applied_energistics_2.snbt":
@@ -87,10 +86,6 @@ def main() -> int:
                 translated_name = project_ko.get(language_key, "")
                 if not translated_name:
                     continue
-                task_key = f"task.{task['id']}.title"
-                if audit.text_value(baseline, task_key) != translated_name:
-                    ae2_task_titles += 1
-                overrides[task_key] = translated_name
                 translated_tasks.append(
                     (task, translated_name, installed_en.get(language_key, ""))
                 )
@@ -156,7 +151,7 @@ def main() -> int:
         "navigation_titles_changed": navigation_changes,
         "official_mod_names_corrected": official_name_changes,
         "ae2_quest_titles_added_or_corrected": ae2_quest_titles,
-        "ae2_task_titles_added_or_corrected": ae2_task_titles,
+        "ae2_item_task_titles_added_or_corrected": 0,
         "ae2_item_name_mismatches_corrected": ae2_item_name_corrections,
         "manual_title_fixes": sum(
             baseline.get(key) != value for key, value in manual.items()

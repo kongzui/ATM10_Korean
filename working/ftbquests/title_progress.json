@@ -3,10 +3,10 @@
   "navigation_titles_changed": 54,
   "official_mod_names_corrected": 44,
   "ae2_quest_titles_added_or_corrected": 23,
-  "ae2_task_titles_added_or_corrected": 74,
+  "ae2_item_task_titles_added_or_corrected": 0,
   "ae2_item_name_mismatches_corrected": 1,
   "manual_title_fixes": 55,
-  "total_changed_keys": 206,
-  "output_sha256": "a85a515aaec9f6368ff1b809174f2553fc36820111090d93adb9cc3e7b7c15e5",
+  "total_changed_keys": 132,
+  "output_sha256": "91dfb17dc0a11c19180f7ab5ca99dc3989aaa950b7c6431c6c67383280966840",
   "validation_errors": 0
 }
