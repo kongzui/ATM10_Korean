@@ -1,67 +1,72 @@
 {
-  "status": "batch_03_completed_and_deployed",
-  "scope": "ExtendedAE materials and introduction GuideME guide batch 03",
-  "batch": 3,
+  "status": "batch_01_full_language_reviewed_and_deployed",
+  "scope": "AE2WTLib GuideME guide batch 01",
+  "batch": 1,
   "source_jars": {
     "ae2": {
       "name": "appliedenergistics2-19.2.17.jar",
       "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
     },
-    "extendedae": {
-      "name": "ExtendedAE-1.21-2.2.33-neoforge.jar",
-      "sha256": "6652ed1ea4b71f585d48c05a195a77594a7a2bd1ecea0fc805db2122aafad734"
+    "ae2wtlib": {
+      "name": "ae2wtlib-19.5.0.jar",
+      "sha256": "decf9a35c6d08c160a65a30fe623fd9c09ad5f5dd1790052917f19c82441bd16"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 11,
-  "new_guide_pages": 11,
-  "core_compatibility_updates": 0,
-  "source_words": 377,
-  "language_keys": 253,
-  "existing_korean_reused": 37,
-  "new_or_revised_translations": 216,
+  "guide_pages": 8,
+  "new_guide_pages": 7,
+  "core_compatibility_updates": 1,
+  "source_words": 920,
+  "language_keys": 46,
+  "existing_korean_reused": 4,
+  "new_or_revised_translations": 42,
+  "full_language_review": {
+    "source_keys_reviewed": 46,
+    "entries_revised_after_initial_guide": 3,
+    "guide_pages_revised": 3,
+    "completed": true
+  },
   "guide_files": [
-    "epp_intro/epp_intro-index.md",
-    "epp_intro/machine_frame.md",
-    "epp_intro/quartz_blend.md",
-    "epp_intro/silicon_block.md",
-    "epp_intro/entro_block.md",
-    "epp_intro/entro_budding.md",
-    "epp_intro/entro_crystal.md",
-    "epp_intro/entro_dust.md",
-    "epp_intro/entro_ingot.md",
-    "epp_intro/entro_seed.md",
-    "epp_intro/entro_shard.md"
+    "ae2wtlib/ae2wtlib-index.md",
+    "ae2wtlib/magnet_card.md",
+    "ae2wtlib/quantum_bridge_card.md",
+    "ae2wtlib/restock.md",
+    "ae2wtlib/wireless_crafting_terminal.md",
+    "ae2wtlib/wireless_terminals.md",
+    "ae2wtlib/wireless_universal_terminal.md"
   ],
+  "core_compatibility_file": "items-blocks-machines/wireless_terminals.md",
   "output_sha256": {
-    "assets/extendedae/lang/ko_kr.json": "dc37f8e152d105eb0cb16456ee69239b037bdb6b99158a6f91e2da15a65e1e0a",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/epp_intro-index.md": "ea860b1f1a095d4fbd113ec7beccdc755c9c46314b466e313cdbc14fb8f72a47",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/machine_frame.md": "747abef6bdd41bbfa2389fd16c989d1313b062f62965a34765d37b8469d5bf54",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/quartz_blend.md": "055794f8c4e6ed06be63e106df58367868a38dd76c867e76ae38f79e9e1a5fee",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/silicon_block.md": "b23ae672b1a4450b93b43ef4b1834849c80621b2a78961e1f08ff0a51c002306",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_block.md": "98cf5efa5581e0af628ceacbb0d9d70df56ae76a703ed3e5e249098c3e04d24a",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_budding.md": "a2cfc1ce309ecd5da08c549a29e57896d19a55e77f369fcdc10de2a7820d9939",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_crystal.md": "8547e2f91ab75b985506e390e2682464b64d71ae6ea49189b5852dfc8f5550ef",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_dust.md": "f11ba4db49a3b8ff72e4baf8d8b35e3e2c9437cd30bf0803d70080045067a3e4",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_ingot.md": "1daa83de1488fe14de746b46ca32b833bb71bb23a627997a81fa2ab0356046aa",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_seed.md": "c51c29a3da2337cc30a49722edaeadfded6b5ec20f207317736f2b5ec07f6a1e",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_shard.md": "2b0b95f30785eaa387d5d9ae345cef813d2b13d4d19c1eeddc294d6e8e85dc35"
+    "assets/ae2/ae2guide/_ko_kr/items-blocks-machines/wireless_terminals.md": "0bf6f3583c616cedcb92799bdde939a0431af3ccf0c4b0201c2bc3048b39bb88",
+    "assets/ae2wtlib/lang/ko_kr.json": "738a095821cfe5ef7109b18655b60a70a3d639cc3298baea383d887b7c49bca1",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/ae2wtlib-index.md": "a45dd7de86e2d735010aff787785c2d6e8fe7131ae65ee4d427009ffa89dded6",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/magnet_card.md": "1a6f84428660f71f04dd0dfd88dde40e8e192ddabf10267e2846503cc0db1f0c",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/quantum_bridge_card.md": "2f5b03ed5659f61697a01d11e9ffcc7e9f732dad544607646a8917c4919dae08",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/restock.md": "3c3eac49d9bc6b5c79df7a40da971c6058df1909b11c47c660acfa4e2fcfa118",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_crafting_terminal.md": "16ec747c2e1b6a0c3c8edd584adcc156569d48f48825779c879cb5f015f7977e",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_terminals.md": "6a94d5294d7933af280fb8016920e3a9dff2688a36846a822c27129659344ac8",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_universal_terminal.md": "df34725e403a48c51a81c2688a64d2758a7d00f07bc4482d5974510e62ed0e99"
   },
   "ftbquests_review": {
-    "related_content_found": true,
-    "keys_updated": 7,
-    "handled_separately": true,
-    "pending": false
+    "related_chapter_found": true,
+    "terminology_mismatch_found": true,
+    "mismatch": "유니버설 무선 터미널 -> 무선 범용 터미널",
+    "keys_updated": 4,
+    "entries_revised_after_initial_guide": 1,
+    "handled_separately": true
   },
   "kubejs_user_visible_literals_found": 0,
   "deployment": {
-    "applied_at": "2026-07-13T16:59:02+09:00",
+    "applied_at": "2026-07-13T17:09:29+09:00",
     "apply_roots": [
       "source_root"
     ],
     "game_root_configured": false,
-    "changed_paths": 13,
-    "backup_manifest": "temp/backups/20260713_165901/backup_manifest.json",
+    "changed_paths": 5,
+    "backup_manifests": [
+      "temp/backups/20260713_170753/backup_manifest.json",
+      "temp/backups/20260713_170928/backup_manifest.json"
+    ],
     "deployed_hashes_match": true,
     "unexpected_instance_changes": []
   },

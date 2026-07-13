@@ -2,9 +2,9 @@
   "gui.ae2wtlib.creativetab": "AE2 무선 터미널 (AE2WTLib)",
   "gui.ae2wtlib.trash": "아이템 파괴",
   "item.ae2wtlib.quantum_bridge_card": "양자 브리지 카드",
-  "item.ae2wtlib.quantum_bridge_card.desc": "무선 터미널을 양자 브리지에 연결하여 거리 제한 없이 사용할 수 있습니다.",
+  "item.ae2wtlib.quantum_bridge_card.desc": "무선 터미널을 양자 브리지에 연결하여 거리 제한 없이 사용할 수 있게 합니다.",
   "item.ae2wtlib.magnet_card": "자석 카드",
-  "item.ae2wtlib.magnet_card.desc": "무선 제작 터미널용 자석 업그레이드입니다.",
+  "item.ae2wtlib.magnet_card.desc": "무선 제작 터미널에 자석 기능을 추가하는 업그레이드입니다.",
   "gui.ae2wtlib.magnetcard": "자석 카드",
   "gui.ae2wtlib.magnetcard.desc.off": "꺼짐",
   "gui.ae2wtlib.magnetcard.desc.inv": "인벤토리로 줍기",
@@ -42,7 +42,7 @@
   "key.ae2.wireless_pattern_encoding_terminal": "무선 패턴 인코딩 터미널 열기",
   "key.ae2.ae2wtlib_restock": "자동 보충 전환",
   "key.ae2.ae2wtlib_magnet": "자석 카드 전환",
-  "key.ae2.ae2wtlib_stow": "손에 든 스택을 ME 시스템에 보관",
+  "key.ae2.ae2wtlib_stow": "손에 든 아이템 스택을 ME 시스템에 넣기",
   "ae2wtlib.configuration.magnet_card_range": "자석 카드 범위",
   "ae2wtlib.configuration.always_show_terminal_selector": "범용 터미널 선택기 항상 표시"
 }

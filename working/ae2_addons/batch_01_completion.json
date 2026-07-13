@@ -1,6 +1,6 @@
 {
-  "status": "batch_01_completed_and_deployed",
-  "completed_at": "2026-07-13T14:36:09+09:00",
+  "status": "batch_01_full_language_reviewed_and_deployed",
+  "completed_at": "2026-07-13T17:09:29+09:00",
   "scope": "AE2WTLib GuideME guide batch 01",
   "source_jar": "ae2wtlib-19.5.0.jar",
   "language": "ko_kr",
@@ -10,16 +10,21 @@
   "language_keys": 46,
   "existing_korean_reused": 4,
   "new_or_revised_translations": 42,
-  "ftbquests_keys_updated": 3,
+  "language_entries_revised_after_initial_guide": 3,
+  "guide_pages_revised": 3,
+  "ftbquests_keys_updated": 4,
+  "ftbquests_entries_revised_after_initial_guide": 1,
   "kubejs_user_visible_literals_found": 0,
   "apply_roots": [
     "source_root"
   ],
   "game_root_configured": false,
-  "changed_paths": 10,
+  "changed_paths": 5,
   "backup_manifests": [
     "temp/backups/20260713_143042/backup_manifest.json",
-    "temp/backups/20260713_143608/backup_manifest.json"
+    "temp/backups/20260713_143608/backup_manifest.json",
+    "temp/backups/20260713_170753/backup_manifest.json",
+    "temp/backups/20260713_170928/backup_manifest.json"
   ],
   "deployed_hashes_match": true,
   "original_jars_modified": false,

@@ -18,7 +18,7 @@ item_ids:
 [무선 터미널](wireless_terminals.md)을 [양자 브리지](ae2:items-blocks-machines/quantum_bridge.md)에 연결할 수 있습니다.
 
 무선 터미널에 양자 브리지 카드와 <ItemLink id="ae2:quantum_entangled_singularity" /> 하나를 넣고,
-짝이 되는 다른 특이점은 네트워크에 연결된 [양자 브리지](ae2:items-blocks-machines/quantum_bridge.md)에 넣으세요.
+짝이 되는 다른 양자얽힘 특이점은 네트워크에 연결된 [양자 브리지](ae2:items-blocks-machines/quantum_bridge.md)에 넣으세요.
 
 이제 무선 터미널이 양자 연결되어 어디서든, 심지어 다른 차원에서도 네트워크에 접속할 수 있습니다(네트워크가 있는 청크는 <ItemLink id="ae2:spatial_anchor" /> 등을 사용해 불러와져 있어야 합니다).
 또한 네트워크의 에너지로 자동 충전됩니다.
