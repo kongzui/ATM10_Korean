@@ -1,6 +1,6 @@
 {
-  "status": "batch_03_full_language_reviewed_and_deployed",
-  "completed_at": "2026-07-13T17:18:18+09:00",
+  "status": "batch_03_full_related_scope_reviewed_and_deployed",
+  "completed_at": "2026-07-13T19:50:08+09:00",
   "scope": "ExtendedAE materials and introduction GuideME guide batch 03",
   "source_jar": "ExtendedAE-1.21-2.2.33-neoforge.jar",
   "language": "ko_kr",
@@ -12,17 +12,20 @@
   "new_or_revised_translations": 217,
   "language_entries_revised_after_initial_guide": 21,
   "guide_pages_revised": 5,
-  "ftbquests_keys_updated": 7,
+  "ftbquests_keys_updated": 46,
   "ftbquests_entries_revised_after_initial_guide": 2,
-  "kubejs_user_visible_literals_found": 0,
+  "ftbquests_entries_added_in_final_review": 39,
+  "kubejs_user_visible_literals_found": 37,
+  "kubejs_keys_added_in_final_review": 37,
   "apply_roots": [
-    "source_root"
+    "game_root"
   ],
-  "game_root_configured": false,
-  "changed_paths": 7,
+  "game_root_configured": true,
+  "changed_paths": 112,
   "backup_manifests": [
     "temp/backups/20260713_165901/backup_manifest.json",
-    "temp/backups/20260713_171818/backup_manifest.json"
+    "temp/backups/20260713_171818/backup_manifest.json",
+    "temp/backups/20260713_195005_143588/backup_manifest.json"
   ],
   "deployed_hashes_match": true,
   "original_jars_modified": false,

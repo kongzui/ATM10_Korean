@@ -1,5 +1,5 @@
 {
-  "status": "batch_03_full_language_reviewed_and_deployed",
+  "status": "batch_03_completed",
   "scope": "ExtendedAE materials and introduction GuideME guide batch 03",
   "batch": 3,
   "source_jars": {
@@ -20,12 +20,6 @@
   "language_keys": 253,
   "existing_korean_reused": 36,
   "new_or_revised_translations": 217,
-  "full_language_review": {
-    "source_keys_reviewed": 253,
-    "entries_revised_after_initial_guide": 21,
-    "guide_pages_revised": 5,
-    "completed": true
-  },
   "guide_files": [
     "epp_intro/epp_intro-index.md",
     "epp_intro/machine_frame.md",
@@ -40,37 +34,25 @@
     "epp_intro/entro_shard.md"
   ],
   "output_sha256": {
-    "assets/extendedae/lang/ko_kr.json": "e810a97603bb855deae96231dc660c11186985bfeb949a6ebecd53802df615b2",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/epp_intro-index.md": "ea860b1f1a095d4fbd113ec7beccdc755c9c46314b466e313cdbc14fb8f72a47",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/machine_frame.md": "747abef6bdd41bbfa2389fd16c989d1313b062f62965a34765d37b8469d5bf54",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/quartz_blend.md": "055794f8c4e6ed06be63e106df58367868a38dd76c867e76ae38f79e9e1a5fee",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/silicon_block.md": "b23ae672b1a4450b93b43ef4b1834849c80621b2a78961e1f08ff0a51c002306",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_block.md": "98cf5efa5581e0af628ceacbb0d9d70df56ae76a703ed3e5e249098c3e04d24a",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_budding.md": "1e760bc8165097366ed5d6e2a963f1eacf4fac6903a8edf2b6213ed1b606a83a",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_crystal.md": "c57d86b1a94f8cfc2061d582cf6aa40f5b476176e6d788fa00d47fddd256e42b",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_dust.md": "daef4d3ccfc392921589afb906e0f93ca38131f89e60c2c255c96add8eb7845f",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_ingot.md": "1daa83de1488fe14de746b46ca32b833bb71bb23a627997a81fa2ab0356046aa",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_seed.md": "6094fa93b4fa7b0b500f4a4792676b476cc2f8e5430c63ae8cd8010bfee8477b",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_shard.md": "3370b4b7fcbec9e309bd36dc577a6ce584c158d4ccbd6b1dd33e64082a698e00"
+    "assets/extendedae/lang/ko_kr.json": "aa0c5e592e9fac64bc9b581d2ed4e3a9fafc6e677f483e033da9c48be9f39e5e",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/epp_intro-index.md": "5238ed0524884b9bab18e1e656c48dae5ca7447beed49997ced0f2cfc1ab57a5",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/machine_frame.md": "5a08e1795e9f73c874183fb07e728c92cd4ca2fe1f46a5c783b94ad3fe8a0f20",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/quartz_blend.md": "0a5de34ae6d7c21a938436e4fc6b0239d8f61f4b8573795c89f20e4acecedb1d",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/silicon_block.md": "77d6cb810c5630713f393b263668d40897f1c9dfb414520f4dbb9e18b1333341",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_block.md": "9bdc8d1d48853de814c6941854bc9562f40a514ccc3a6a7373cfb93870dd520e",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_budding.md": "3210ad224bf2c50beeb48d78bbe053993b6ecdc58a173feb0a862aebc22b1abc",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_crystal.md": "a3313dab6b5a4bce8fbdcb835480f269944df6afaba7daaca834161c6bcf17ea",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_dust.md": "d51bc4548afc8fd2c9a6ce877251f19e76e3aadb9d729c8c1c116efa873a3dca",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_ingot.md": "722253b795fc2d3f40751c34411d0ead7ddc0c52996b258eab055f92f2b5cb37",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_seed.md": "f01cc9aca492d59c575cd3420733301fc6ca743b8cf6fe5b26e2462b1a6a2a1b",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_shard.md": "7b74e100762b23a4b72db36378f28c4628c23dbe42203b848a318a1f3449bb94"
   },
   "ftbquests_review": {
     "related_content_found": true,
-    "keys_updated": 7,
-    "entries_revised_after_initial_guide": 2,
+    "keys_updated": 46,
     "handled_separately": true,
     "pending": false
   },
-  "kubejs_user_visible_literals_found": 0,
-  "deployment": {
-    "applied_at": "2026-07-13T17:18:18+09:00",
-    "apply_roots": [
-      "source_root"
-    ],
-    "game_root_configured": false,
-    "changed_paths": 7,
-    "backup_manifest": "temp/backups/20260713_171818/backup_manifest.json",
-    "deployed_hashes_match": true,
-    "unexpected_instance_changes": []
-  },
+  "kubejs_user_visible_literals_found": 37,
   "validation_errors": 0
 }

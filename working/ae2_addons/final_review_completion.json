@@ -1,0 +1,68 @@
+{
+  "status": "three_mod_final_reviewed_and_deployed",
+  "completed_at": "2026-07-13T19:50:08+09:00",
+  "mods": {
+    "AE2WTLib": {
+      "language_keys": 46,
+      "existing_korean_reused": 4,
+      "new_or_revised_translations": 42,
+      "guide_pages": 8,
+      "related_ftbquests_keys": 4,
+      "related_kubejs_keys": 0
+    },
+    "EnderDrives": {
+      "language_keys": 42,
+      "existing_korean_reused": 0,
+      "new_or_revised_translations": 42,
+      "guide_pages": 3,
+      "related_ftbquests_keys": 0,
+      "related_kubejs_keys": 0
+    },
+    "ExtendedAE": {
+      "language_keys": 253,
+      "existing_korean_reused": 36,
+      "new_or_revised_translations": 217,
+      "guide_pages": 11,
+      "related_ftbquests_keys": 46,
+      "related_kubejs_keys": 37
+    }
+  },
+  "ftbquests": {
+    "extendedae_keys_added_in_final_review": 39,
+    "group_or_condition_task_titles_kept": 5,
+    "redundant_single_item_task_titles": 0,
+    "invalid_object_ids": 0,
+    "validation_errors": 0
+  },
+  "kubejs": {
+    "source": "kubejs/startup_scripts/ExtendedAE/InfinityCells.js",
+    "infinity_cell_keys_added": 37,
+    "script_overrides": 0,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "target_type": "game_root",
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "files_checked": 153,
+    "changed_paths": 112,
+    "backed_up_files": 2,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260713_195005_143588/backup_manifest.json",
+    "post_apply_expected_changes": 0
+  },
+  "validation": {
+    "language_keys": 341,
+    "guide_pages": 22,
+    "working_output_match": true,
+    "missing_files": 0,
+    "extra_files": 0,
+    "broken_references": 0,
+    "protected_syntax_errors": 0,
+    "placeholder_errors": 0,
+    "english_paragraph_candidates": 0,
+    "utf8_bom_files": 0,
+    "ruff_check_errors": 0,
+    "original_jars_modified": false,
+    "game_runtime_verified": false
+  }
+}

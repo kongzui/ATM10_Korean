@@ -1,8 +1,8 @@
 {
   "scope": "ExtendedAE batch 03 related FTB Quests",
-  "source_keys": 7,
-  "changed_keys": 2,
+  "source_keys": 46,
+  "changed_keys": 46,
   "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
-  "output_sha256": "3e086ed218deba09cc256bf9520d6b48d1df38b4914aed0094a27a371c45a7ce",
+  "output_sha256": "2d57ecabbcb9670cfc80a1f6d0c31526da40a54df0e36b2abde5d903ff1be8d5",
   "validation_errors": 0
 }
