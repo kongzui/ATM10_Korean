@@ -1,6 +1,6 @@
 {
-  "status": "batch_02_completed_and_deployed",
-  "completed_at": "2026-07-13T16:45:43+09:00",
+  "status": "batch_02_full_language_reviewed_and_deployed",
+  "completed_at": "2026-07-13T17:11:47+09:00",
   "scope": "EnderDrives GuideME guide batch 02",
   "source_jar": "enderdrives-neoforge-1.21.1-1.4.4.jar",
   "language": "ko_kr",
@@ -10,6 +10,8 @@
   "language_keys": 42,
   "existing_korean_reused": 0,
   "new_or_revised_translations": 42,
+  "language_entries_revised_after_initial_guide": 1,
+  "guide_pages_revised": 3,
   "ftbquests_keys_updated": 0,
   "kubejs_user_visible_literals_found": 0,
   "apply_roots": [
@@ -18,7 +20,8 @@
   "game_root_configured": false,
   "changed_paths": 4,
   "backup_manifests": [
-    "temp/backups/20260713_164543/backup_manifest.json"
+    "temp/backups/20260713_164543/backup_manifest.json",
+    "temp/backups/20260713_171146/backup_manifest.json"
   ],
   "deployed_hashes_match": true,
   "original_jars_modified": false,

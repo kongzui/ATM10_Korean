@@ -19,7 +19,7 @@
   "screen.enderdrives.frequency": "엔더 디스크 주파수",
   "screen.enderdrives.frequency_placeholder": "주파수...",
   "screen.enderdrives.frequency_label": "주파수",
-  "screen.enderdrives.toggle_scope": "클릭하여 접근 범위 전환",
+  "screen.enderdrives.toggle_scope": "클릭하여 공유 범위 전환",
   "screen.enderdrives.tooltip.plus_256": "+256",
   "screen.enderdrives.tooltip.plus_16": "+16",
   "screen.enderdrives.tooltip.plus_1": "+1",
