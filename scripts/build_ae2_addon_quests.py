@@ -29,6 +29,10 @@ MODS = {
         "scope": "Applied Flux full related FTB Quests before guide batch 11",
         "working": "working/ae2_addons/appflux",
     },
+    "expandedae": {
+        "scope": "ExpandedAE full related FTB Quests before guide batch 12",
+        "working": "working/ae2_addons/expandedae",
+    },
 }
 
 

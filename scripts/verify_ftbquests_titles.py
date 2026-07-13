@@ -27,6 +27,8 @@ ADDON_OVERRIDE_FILES = (
     / "working/ae2_addons/megacells/quest_overrides.json",
     Path(__file__).resolve().parents[1]
     / "working/ae2_addons/appflux/quest_overrides.json",
+    Path(__file__).resolve().parents[1]
+    / "working/ae2_addons/expandedae/quest_overrides.json",
 )
 CORE_QUEST_OVERRIDES = (
     Path(__file__).resolve().parents[1] / "working/ae2/quest_overrides.json"

@@ -1,0 +1,32 @@
+{
+  "status": "expandedae_full_language_completed",
+  "scope": "ExpandedAE full language file before guide batch 12",
+  "batch": 12,
+  "source_jars": {
+    "expandedae": {
+      "name": "expandedae-2.1.1.jar",
+      "sha256": "f39c0eb9c6271f54a44ffee092a29520f53000d1005849e6afada3ad9dffba14"
+    }
+  },
+  "language": "ko_kr",
+  "language_keys": 69,
+  "existing_korean_reused": 0,
+  "existing_korean_corrected": 0,
+  "new_translations": 69,
+  "legacy_reference_keys": 69,
+  "ftbquests_keys_updated": 0,
+  "kubejs_files_reviewed": 1,
+  "kubejs_user_visible_literals_found": 1,
+  "kubejs_script_overrides": 1,
+  "apply_roots": [],
+  "game_root_configured": true,
+  "application_pending": true,
+  "application_pending_reason": "Minecraft와 Java 프로세스가 실행 중입니다.",
+  "original_jars_modified": false,
+  "unexpected_instance_changes": [],
+  "output_sha256": {
+    "assets/expandedae/lang/ko_kr.json": "b157ffb44845f58f3c1de544906312b073e2bd8b2c76f4b2f4d0bfb0dd77afb3",
+    "kubejs/server_scripts/announcements/announcements.js": "34faf04e906ef1f0aba1a57bb62b2cfd24db5964fed5e08d7d218bda805ec93a"
+  },
+  "validation_errors": 0
+}
