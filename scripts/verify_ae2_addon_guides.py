@@ -117,6 +117,13 @@ BATCHES = (
         PROJECT_ROOT / "working/ae2_addons/batch_14_completion.json",
         1,
     ),
+    (
+        15,
+        "Ars Énergistique",
+        guides.validate_arseng_guide,
+        PROJECT_ROOT / "working/ae2_addons/batch_15_completion.json",
+        1,
+    ),
 )
 
 

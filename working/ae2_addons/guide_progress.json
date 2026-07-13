@@ -1,31 +1,27 @@
 {
-  "status": "batch_14_completed",
-  "scope": "ME Requester GuideME guide batch 14",
-  "batch": 14,
+  "status": "batch_15_completed",
+  "scope": "Ars Énergistique GuideME guide batch 15",
+  "batch": 15,
   "source_jars": {
-    "ae2": {
-      "name": "appliedenergistics2-19.2.17.jar",
-      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
-    },
-    "merequester": {
-      "name": "merequester-neoforge-1.21.1-1.4.3.jar",
-      "sha256": "68f3c861a802d48afeb6e3a48e8ee4f8633904340ac3f89f17493dc84490e385"
+    "arseng": {
+      "name": "arseng-2.1.1-beta.jar",
+      "sha256": "9e2b78101f08bf325589cb98ffba9d91171fdd76ba587d54bdef9d5de18080bc"
     }
   },
   "language": "ko_kr",
   "guide_pages": 1,
   "new_guide_pages": 1,
   "core_compatibility_updates": 0,
-  "source_words": 775,
-  "language_keys": 27,
+  "source_words": 4,
+  "language_keys": 17,
   "existing_korean_reused": 0,
-  "new_or_revised_translations": 27,
+  "new_or_revised_translations": 17,
   "guide_files": [
-    "merequester.md"
+    "arseng-index.md"
   ],
   "output_sha256": {
-    "assets/merequester/lang/ko_kr.json": "e50d7bb987f8038490a60541fd65ac682711ff0a7682df32a0b3fd0cbc89d982",
-    "assets/merequester/ae2guide/_ko_kr/merequester.md": "2df4f27c63025fb6ff533a439dcab099d11850ad0b3a4bd69bb31f2deec46999"
+    "assets/arseng/lang/ko_kr.json": "d5e03557a4bd63ad8db552bfc2bfd5b292747ffab996e8b585fd938a49d5ea0f",
+    "assets/arseng/ae2guide/_ko_kr/arseng-index.md": "baf544fdb1f410ed0baec333dc513ed6b011c2a98bd30d70d85473e67ed36359"
   },
   "ftbquests_review": {
     "related_content_found": false,

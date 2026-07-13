@@ -55,6 +55,7 @@ GUIDE_SOURCE_ROOTS = {
     "expandedae": PurePosixPath("assets/expandedae/ae2guide"),
     "ae2netanalyser": PurePosixPath("assets/ae2netanalyser/ae2guide"),
     "merequester": PurePosixPath("assets/merequester/ae2guide"),
+    "arseng": PurePosixPath("assets/arseng/ae2guide"),
 }
 GUIDE_ITEM_NAMES = {
     "item.ae2wtlib.magnet_card": "ae2wtlib/magnet_card.md",
@@ -453,6 +454,11 @@ ARSENG_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/arseng"
 ARSENG_LANG_WORKING_FILE = ARSENG_WORKING_ROOT / "lang/ko_kr.json"
 ARSENG_LANG_RELATIVE = "assets/arseng/lang/ko_kr.json"
 ARSENG_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / ARSENG_LANG_RELATIVE
+ARSENG_GUIDE_WORKING_ROOT = ARSENG_WORKING_ROOT / "ae2guide/_ko_kr"
+ARSENG_GUIDE_RELATIVE = "arseng-index.md"
+ARSENG_GUIDE_OUTPUT_FILE = (
+    RESOURCEPACK_ROOT / "assets/arseng/ae2guide/_ko_kr" / ARSENG_GUIDE_RELATIVE
+)
 ARSENG_QUEST_OVERRIDES_FILE = ARSENG_WORKING_ROOT / "quest_overrides.json"
 ARSENG_LANGUAGE_COMPLETION_FILE = ARSENG_WORKING_ROOT / "language_completion.json"
 
@@ -3433,6 +3439,107 @@ def build_merequester_guide(instance: Path) -> dict[str, object]:
     return result
 
 
+def validate_arseng_guide(instance: Path, compare_output: bool) -> dict[str, object]:
+    validation = validate_arseng_language(instance, compare_output)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    working_files = {
+        path.relative_to(ARSENG_GUIDE_WORKING_ROOT).as_posix()
+        for path in ARSENG_GUIDE_WORKING_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if working_files != {ARSENG_GUIDE_RELATIVE}:
+        errors.append(
+            f"Ars Énergistique 가이드 작업본 목록이 다릅니다: {sorted(working_files)}"
+        )
+
+    jar = find_single_jar(instance, "arseng-*.jar", "Ars Énergistique")
+    with zipfile.ZipFile(jar) as archive:
+        entry = (GUIDE_SOURCE_ROOTS["arseng"] / ARSENG_GUIDE_RELATIVE).as_posix()
+        source = archive.read(entry).decode("utf-8-sig")
+    source = source.replace("\r\r\n", "\n").replace("\r\n", "\n")
+    working_path = ARSENG_GUIDE_WORKING_ROOT / ARSENG_GUIDE_RELATIVE
+    translated = working_path.read_text(encoding="utf-8")
+    errors.extend(core.validate_pair(ARSENG_GUIDE_RELATIVE, source, translated))
+    errors.extend(validate_numbers(ARSENG_GUIDE_RELATIVE, source, translated))
+    errors.extend(validate_tag_nesting(ARSENG_GUIDE_RELATIVE, translated))
+    if working_path.read_bytes().startswith(b"\xef\xbb\xbf"):
+        errors.append(f"{working_path}: UTF-8 BOM이 있습니다.")
+    if compare_output:
+        if not ARSENG_GUIDE_OUTPUT_FILE.is_file():
+            errors.append(f"가이드 출력 파일이 없습니다: {ARSENG_GUIDE_OUTPUT_FILE}")
+        elif working_path.read_bytes() != ARSENG_GUIDE_OUTPUT_FILE.read_bytes():
+            errors.append("Ars Énergistique 가이드 작업본과 출력이 다릅니다.")
+
+    validation.update(
+        {
+            "jars": {"arseng": jar},
+            "source_words": len(
+                core.ENGLISH_WORD_RE.findall(core.extract_visible_text(source))
+            ),
+            "guide_pages": 1,
+            "new_guide_pages": 1,
+            "core_compatibility_updates": 0,
+        }
+    )
+    return validation
+
+
+def build_arseng_guide(instance: Path) -> dict[str, object]:
+    validation = validate_arseng_guide(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    ARSENG_GUIDE_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    ARSENG_GUIDE_OUTPUT_FILE.write_bytes(
+        (ARSENG_GUIDE_WORKING_ROOT / ARSENG_GUIDE_RELATIVE).read_bytes()
+    )
+    post_validation = validate_arseng_guide(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jar = validation["jars"]["arseng"]  # type: ignore[index]
+    assert isinstance(jar, Path)
+    quest_keys, kubejs_keys = arseng_related_counts()
+    result = {
+        "status": "batch_15_completed",
+        "scope": "Ars Énergistique GuideME guide batch 15",
+        "batch": 15,
+        "source_jars": {"arseng": {"name": jar.name, "sha256": sha256(jar)}},
+        "language": "ko_kr",
+        "guide_pages": 1,
+        "new_guide_pages": 1,
+        "core_compatibility_updates": 0,
+        "source_words": validation["source_words"],
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "guide_files": [ARSENG_GUIDE_RELATIVE],
+        "output_sha256": {
+            ARSENG_LANG_RELATIVE: sha256(ARSENG_LANG_OUTPUT_FILE),
+            "assets/arseng/ae2guide/_ko_kr/" + ARSENG_GUIDE_RELATIVE: sha256(
+                ARSENG_GUIDE_OUTPUT_FILE
+            ),
+        },
+        "ftbquests_review": {
+            "related_content_found": False,
+            "keys_updated": quest_keys,
+            "handled_separately": True,
+            "pending": False,
+        },
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "validation_errors": 0,
+    }
+    PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
@@ -3526,6 +3633,8 @@ def main() -> int:
         result = build_netanalyser_guide(instance)
     elif ACTIVE_BATCH == 14:
         result = build_merequester_guide(instance)
+    elif ACTIVE_BATCH == 15:
+        result = build_arseng_guide(instance)
     else:
         result = build(instance)
     print(json.dumps(result, ensure_ascii=False, indent=2))
