@@ -89,6 +89,13 @@ BATCHES = (
         PROJECT_ROOT / "working/ae2_addons/batch_11_completion.json",
         12,
     ),
+    (
+        12,
+        "ExpandedAE",
+        guides.validate_expandedae_batch_12,
+        PROJECT_ROOT / "working/ae2_addons/batch_12_completion.json",
+        5,
+    ),
 )
 
 

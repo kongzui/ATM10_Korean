@@ -1,60 +1,50 @@
 {
-  "status": "batch_11_completed",
-  "scope": "Applied Flux GuideME guide batch 11",
-  "batch": 11,
+  "status": "batch_12_completed",
+  "scope": "ExpandedAE GuideME guide batch 12",
+  "batch": 12,
   "source_jars": {
     "ae2": {
       "name": "appliedenergistics2-19.2.17.jar",
       "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
     },
-    "appflux": {
-      "name": "AppliedFlux-1.21-2.1.5-neoforge.jar",
-      "sha256": "57e6a2c0f38e660c9e8416f9081d8c515f5ad096d6793d7b7f039e8e210d245b"
+    "ae2wtlib": {
+      "name": "ae2wtlib-19.5.0.jar",
+      "sha256": "decf9a35c6d08c160a65a30fe623fd9c09ad5f5dd1790052917f19c82441bd16"
+    },
+    "expandedae": {
+      "name": "expandedae-2.1.1.jar",
+      "sha256": "f39c0eb9c6271f54a44ffee092a29520f53000d1005849e6afada3ad9dffba14"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 12,
-  "new_guide_pages": 12,
+  "guide_pages": 5,
+  "new_guide_pages": 5,
   "core_compatibility_updates": 0,
-  "source_words": 411,
-  "language_keys": 57,
+  "source_words": 339,
+  "language_keys": 69,
   "existing_korean_reused": 0,
-  "new_or_revised_translations": 57,
+  "new_or_revised_translations": 69,
   "guide_files": [
-    "appflux/appflux-index.md",
-    "appflux/diamond_dust.md",
-    "appflux/emerald_dust.md",
-    "appflux/energy_processor.md",
-    "appflux/flux_accessor.md",
-    "appflux/flux_cells.md",
-    "appflux/induction_card.md",
-    "appflux/insulating_resin.md",
-    "appflux/mark_energy.md",
-    "appflux/portable_flux_cells.md",
-    "appflux/redstone_crystal.md",
-    "appflux/terminal_interact.md"
+    "cards.md",
+    "exp_encoding.md",
+    "exp_pp.md",
+    "expandedae-index.md",
+    "qol-features.md"
   ],
   "output_sha256": {
-    "assets/appflux/lang/ko_kr.json": "0bdfb27e3476340893eaeea72811e5ee99cec6e7f0b2b5ccf2b0fe10e429a7d1",
-    "assets/appflux/ae2guide/_ko_kr/appflux/appflux-index.md": "cb0d99ec472139d1847512a6de4da905ce153910fe6a0f9c319bfdc3f0cf8b13",
-    "assets/appflux/ae2guide/_ko_kr/appflux/diamond_dust.md": "88d15f0d31d192c6d922f2f603c6858f3e83edabc20270055719ff5cbaaeb5a5",
-    "assets/appflux/ae2guide/_ko_kr/appflux/emerald_dust.md": "0124132b66ede47cf91b6d5f82bf519c246958d3c4726d5beeffded27c3c35af",
-    "assets/appflux/ae2guide/_ko_kr/appflux/energy_processor.md": "0cea8203bf1458cf3604bd8cf49ed2f2b5358c8c3cb972048316117edc9b90a4",
-    "assets/appflux/ae2guide/_ko_kr/appflux/flux_accessor.md": "0ccd9b43bc3a85950632df7962b3cfef97f8e621582b09938f402fcb475262af",
-    "assets/appflux/ae2guide/_ko_kr/appflux/flux_cells.md": "d69636aec945ea9cfcae61fe62c2ef6c5aa3e457debdd0ff6bffea713686b7e6",
-    "assets/appflux/ae2guide/_ko_kr/appflux/induction_card.md": "a91005290c18fc75fe60d8e0e400c45b0a008513bfa1548088fc131d371b4ac3",
-    "assets/appflux/ae2guide/_ko_kr/appflux/insulating_resin.md": "0e6b6d4a40d5e1df84a444b1546663032fcbe3f0cac67e40a75f10ef16d32060",
-    "assets/appflux/ae2guide/_ko_kr/appflux/mark_energy.md": "0d12de181296dc4793e78a179ad2b737f5422a62d2bc4c484185df77882c45b2",
-    "assets/appflux/ae2guide/_ko_kr/appflux/portable_flux_cells.md": "e29ef3ddf2b66fe485aa1c200f53df7053d1ede1e8b2844e9fd18e3f0746bb78",
-    "assets/appflux/ae2guide/_ko_kr/appflux/redstone_crystal.md": "cb3e86a62fd4f7b66489580b7a27f80ec603494702c10789615a118217056c43",
-    "assets/appflux/ae2guide/_ko_kr/appflux/terminal_interact.md": "1a5b08dbc7b5be8d7ccc006a58c120efbfe6673cf4e23672b30b0442d27e2bad"
+    "assets/expandedae/lang/ko_kr.json": "b157ffb44845f58f3c1de544906312b073e2bd8b2c76f4b2f4d0bfb0dd77afb3",
+    "assets/expandedae/ae2guide/_ko_kr/cards.md": "1ff58b683146071e6c63b4399e3b86926844fbc88a44d8513c39a5252b6b70e2",
+    "assets/expandedae/ae2guide/_ko_kr/exp_encoding.md": "fad7ce430c77df28c0ce5a7abd103cf56e7dd2c2786bc0cc354c934df23fc3e4",
+    "assets/expandedae/ae2guide/_ko_kr/exp_pp.md": "cbc70d5f818bcf9fcca410486d593a5841b07cb55fabc5440d3ae4acf5abdc87",
+    "assets/expandedae/ae2guide/_ko_kr/expandedae-index.md": "9bae828aa72faa91cc9c9541673327ce681ec920f8d56e846b82078c9b083f64",
+    "assets/expandedae/ae2guide/_ko_kr/qol-features.md": "7bc6ccb7544d6d603546dba4ac1a6dda8db92f39688220735e32194cd3191857"
   },
   "ftbquests_review": {
-    "related_content_found": true,
-    "keys_updated": 3,
+    "related_content_found": false,
+    "keys_updated": 0,
     "handled_separately": true,
     "pending": false
   },
-  "kubejs_user_visible_literals_found": 0,
+  "kubejs_user_visible_literals_found": 1,
   "validation_errors": 0
 }

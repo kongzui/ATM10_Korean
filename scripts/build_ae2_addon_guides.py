@@ -2327,6 +2327,168 @@ def build_appflux_batch_11(instance: Path) -> dict[str, object]:
     return result
 
 
+def validate_expandedae_batch_12(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    validation = validate_expandedae_language(instance, compare_output)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    expected_all = set(EXPANDEDAE_BATCH_12_GUIDE_FILES)
+    actual_working = {
+        path.relative_to(EXPANDEDAE_GUIDE_WORKING_ROOT).as_posix()
+        for path in EXPANDEDAE_GUIDE_WORKING_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if actual_working != expected_all:
+        errors.append(
+            "ExpandedAE 12차 작업본 목록이 다릅니다: "
+            f"누락={sorted(expected_all - actual_working)}, "
+            f"불필요={sorted(actual_working - expected_all)}"
+        )
+
+    jars = {
+        "ae2": find_single_jar(instance, "appliedenergistics2-*.jar", "AE2"),
+        "ae2wtlib": find_single_jar(instance, "ae2wtlib-*.jar", "AE2WTLib"),
+        "expandedae": find_single_jar(instance, "expandedae-*.jar", "ExpandedAE"),
+    }
+    archives = {namespace: zipfile.ZipFile(path) for namespace, path in jars.items()}
+    try:
+        archive_names = {
+            namespace: set(archive.namelist())
+            for namespace, archive in archives.items()
+        }
+        source_words = 0
+        for relative in EXPANDEDAE_BATCH_12_GUIDE_FILES:
+            entry = (GUIDE_SOURCE_ROOTS["expandedae"] / relative).as_posix()
+            source = archives["expandedae"].read(entry).decode("utf-8-sig")
+            source = source.replace("\r\r\n", "\n").replace("\r\n", "\n")
+            working_path = EXPANDEDAE_GUIDE_WORKING_ROOT / relative
+            if not working_path.is_file():
+                errors.append(f"가이드 작업본이 없습니다: {working_path}")
+                continue
+            translated = working_path.read_text(encoding="utf-8")
+            errors.extend(core.validate_pair(relative, source, translated))
+            errors.extend(validate_numbers(relative, source, translated))
+            errors.extend(validate_tag_nesting(relative, translated))
+            errors.extend(
+                validate_resources(archive_names, "expandedae", relative, translated)
+            )
+            source_words += len(
+                core.ENGLISH_WORD_RE.findall(core.extract_visible_text(source))
+            )
+            if working_path.read_bytes().startswith(b"\xef\xbb\xbf"):
+                errors.append(f"{working_path}: UTF-8 BOM이 있습니다.")
+            if compare_output:
+                output_path = EXPANDEDAE_GUIDE_OUTPUT_ROOT / relative
+                if not output_path.is_file():
+                    errors.append(f"가이드 출력 파일이 없습니다: {output_path}")
+                elif working_path.read_bytes() != output_path.read_bytes():
+                    errors.append(f"{relative}: 작업본과 출력이 다릅니다.")
+
+        translated_lang = validation["translated_lang"]
+        assert isinstance(translated_lang, dict)
+        for key, relative in EXPANDEDAE_BATCH_12_ITEM_NAMES.items():
+            text = (EXPANDEDAE_GUIDE_WORKING_ROOT / relative).read_text(
+                encoding="utf-8"
+            )
+            item_name = translated_lang[key]
+            if item_name not in core.extract_visible_text(text):
+                errors.append(
+                    f"{relative}: 언어 파일의 아이템명이 가이드에 없습니다: {item_name}"
+                )
+
+        if compare_output:
+            output_files = {
+                path.relative_to(EXPANDEDAE_GUIDE_OUTPUT_ROOT).as_posix()
+                for path in EXPANDEDAE_GUIDE_OUTPUT_ROOT.rglob("*.md")
+                if path.is_file()
+            }
+            if output_files != expected_all:
+                errors.append(
+                    "ExpandedAE 12차 출력 목록이 다릅니다: "
+                    f"누락={sorted(expected_all - output_files)}, "
+                    f"불필요={sorted(output_files - expected_all)}"
+                )
+
+        validation.update(
+            {
+                "jars": jars,
+                "source_words": source_words,
+                "guide_pages": len(EXPANDEDAE_BATCH_12_GUIDE_FILES),
+                "new_guide_pages": len(EXPANDEDAE_BATCH_12_GUIDE_FILES),
+                "core_compatibility_updates": 0,
+            }
+        )
+        return validation
+    finally:
+        for archive in archives.values():
+            archive.close()
+
+
+def build_expandedae_batch_12(instance: Path) -> dict[str, object]:
+    validation = validate_expandedae_batch_12(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    for relative in EXPANDEDAE_BATCH_12_GUIDE_FILES:
+        source = EXPANDEDAE_GUIDE_WORKING_ROOT / relative
+        target = EXPANDEDAE_GUIDE_OUTPUT_ROOT / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
+    EXPANDEDAE_LANG_OUTPUT_FILE.write_bytes(EXPANDEDAE_LANG_WORKING_FILE.read_bytes())
+
+    post_validation = validate_expandedae_batch_12(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jars = validation["jars"]
+    assert isinstance(jars, dict)
+    quest_keys, kubejs_keys = expandedae_related_counts()
+    result = {
+        "status": "batch_12_completed",
+        "scope": "ExpandedAE GuideME guide batch 12",
+        "batch": 12,
+        "source_jars": {
+            namespace: {"name": path.name, "sha256": sha256(path)}
+            for namespace, path in jars.items()
+        },
+        "language": "ko_kr",
+        "guide_pages": len(EXPANDEDAE_BATCH_12_GUIDE_FILES),
+        "new_guide_pages": len(EXPANDEDAE_BATCH_12_GUIDE_FILES),
+        "core_compatibility_updates": 0,
+        "source_words": validation["source_words"],
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "guide_files": list(EXPANDEDAE_BATCH_12_GUIDE_FILES),
+        "output_sha256": {
+            EXPANDEDAE_LANG_RELATIVE: sha256(EXPANDEDAE_LANG_OUTPUT_FILE),
+            **{
+                "assets/expandedae/ae2guide/_ko_kr/" + relative: sha256(
+                    EXPANDEDAE_GUIDE_OUTPUT_ROOT / relative
+                )
+                for relative in EXPANDEDAE_BATCH_12_GUIDE_FILES
+            },
+        },
+        "ftbquests_review": {
+            "related_content_found": False,
+            "keys_updated": quest_keys,
+            "handled_separately": True,
+            "pending": False,
+        },
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "validation_errors": 0,
+    }
+    PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
@@ -2350,6 +2512,8 @@ def validate(instance: Path, compare_output: bool) -> dict[str, object]:
         return validate_megacells_batch_10(instance, compare_output)
     if ACTIVE_BATCH == 11:
         return validate_appflux_batch_11(instance, compare_output)
+    if ACTIVE_BATCH == 12:
+        return validate_expandedae_batch_12(instance, compare_output)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
@@ -2376,6 +2540,8 @@ def build(instance: Path) -> dict[str, object]:
         return build_megacells_batch_10(instance)
     if ACTIVE_BATCH == 11:
         return build_appflux_batch_11(instance)
+    if ACTIVE_BATCH == 12:
+        return build_expandedae_batch_12(instance)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
