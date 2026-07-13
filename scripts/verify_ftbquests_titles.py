@@ -33,6 +33,8 @@ ADDON_OVERRIDE_FILES = (
     / "working/ae2_addons/ae2importexportcard/quest_overrides.json",
     Path(__file__).resolve().parents[1]
     / "working/ae2_addons/ae2netanalyser/quest_overrides.json",
+    Path(__file__).resolve().parents[1]
+    / "working/ae2_addons/merequester/quest_overrides.json",
 )
 CORE_QUEST_OVERRIDES = (
     Path(__file__).resolve().parents[1] / "working/ae2/quest_overrides.json"

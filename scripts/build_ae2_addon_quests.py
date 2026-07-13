@@ -41,6 +41,10 @@ MODS = {
         "scope": "AE2 Network Analyser full related FTB Quests before guide batch 13",
         "working": "working/ae2_addons/ae2netanalyser",
     },
+    "merequester": {
+        "scope": "ME Requester full related FTB Quests before guide batch 14",
+        "working": "working/ae2_addons/merequester",
+    },
 }
 
 
