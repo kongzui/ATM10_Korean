@@ -1,22 +1,51 @@
 {
-  "status": "batch_03_language_completed",
-  "scope": "ExtendedAE full language file before guide batch 03",
+  "status": "batch_03_completed",
+  "scope": "ExtendedAE materials and introduction GuideME guide batch 03",
   "batch": 3,
   "source_jars": {
+    "ae2": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    },
     "extendedae": {
       "name": "ExtendedAE-1.21-2.2.33-neoforge.jar",
       "sha256": "6652ed1ea4b71f585d48c05a195a77594a7a2bd1ecea0fc805db2122aafad734"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 0,
-  "new_guide_pages": 0,
+  "guide_pages": 11,
+  "new_guide_pages": 11,
   "core_compatibility_updates": 0,
+  "source_words": 377,
   "language_keys": 253,
   "existing_korean_reused": 37,
   "new_or_revised_translations": 216,
+  "guide_files": [
+    "epp_intro/epp_intro-index.md",
+    "epp_intro/machine_frame.md",
+    "epp_intro/quartz_blend.md",
+    "epp_intro/silicon_block.md",
+    "epp_intro/entro_block.md",
+    "epp_intro/entro_budding.md",
+    "epp_intro/entro_crystal.md",
+    "epp_intro/entro_dust.md",
+    "epp_intro/entro_ingot.md",
+    "epp_intro/entro_seed.md",
+    "epp_intro/entro_shard.md"
+  ],
   "output_sha256": {
-    "assets/extendedae/lang/ko_kr.json": "dc37f8e152d105eb0cb16456ee69239b037bdb6b99158a6f91e2da15a65e1e0a"
+    "assets/extendedae/lang/ko_kr.json": "dc37f8e152d105eb0cb16456ee69239b037bdb6b99158a6f91e2da15a65e1e0a",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/epp_intro-index.md": "ea860b1f1a095d4fbd113ec7beccdc755c9c46314b466e313cdbc14fb8f72a47",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/machine_frame.md": "747abef6bdd41bbfa2389fd16c989d1313b062f62965a34765d37b8469d5bf54",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/quartz_blend.md": "055794f8c4e6ed06be63e106df58367868a38dd76c867e76ae38f79e9e1a5fee",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/silicon_block.md": "b23ae672b1a4450b93b43ef4b1834849c80621b2a78961e1f08ff0a51c002306",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_block.md": "98cf5efa5581e0af628ceacbb0d9d70df56ae76a703ed3e5e249098c3e04d24a",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_budding.md": "a2cfc1ce309ecd5da08c549a29e57896d19a55e77f369fcdc10de2a7820d9939",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_crystal.md": "8547e2f91ab75b985506e390e2682464b64d71ae6ea49189b5852dfc8f5550ef",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_dust.md": "f11ba4db49a3b8ff72e4baf8d8b35e3e2c9437cd30bf0803d70080045067a3e4",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_ingot.md": "1daa83de1488fe14de746b46ca32b833bb71bb23a627997a81fa2ab0356046aa",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_seed.md": "c51c29a3da2337cc30a49722edaeadfded6b5ec20f207317736f2b5ec07f6a1e",
+    "assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_shard.md": "2b0b95f30785eaa387d5d9ae345cef813d2b13d4d19c1eeddc294d6e8e85dc35"
   },
   "ftbquests_review": {
     "related_content_found": true,
