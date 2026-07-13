@@ -20,6 +20,7 @@ OUTPUT_ROOT = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2/guide_progress.json"
 SOURCE_ROOT = PurePosixPath("assets/ae2/ae2guide")
+AE2WTLIB_COMPAT_RELATIVE = "items-blocks-machines/wireless_terminals.md"
 
 ACTIVE_BATCH = 14
 BATCHES = {
@@ -201,9 +202,28 @@ def find_ae2_jar(instance: Path) -> Path:
     return jars[0]
 
 
+def find_ae2wtlib_jar(instance: Path) -> Path | None:
+    jars = sorted((instance / "mods").glob("ae2wtlib-*.jar"))
+    if len(jars) > 1:
+        raise ValueError(
+            f"AE2WTLib JAR을 하나로 확정할 수 없습니다: {[p.name for p in jars]}"
+        )
+    return jars[0] if jars else None
+
+
 def load_source(archive: zipfile.ZipFile, relative: str) -> str:
     entry = (SOURCE_ROOT / relative).as_posix()
     return archive.read(entry).decode("utf-8-sig")
+
+
+def load_effective_source(
+    archive: zipfile.ZipFile,
+    ae2wtlib_archive: zipfile.ZipFile | None,
+    relative: str,
+) -> str:
+    if ae2wtlib_archive is not None and relative == AE2WTLIB_COMPAT_RELATIVE:
+        return load_source(ae2wtlib_archive, relative)
+    return load_source(archive, relative)
 
 
 def split_front_matter(text: str) -> tuple[str, str]:
@@ -328,6 +348,7 @@ def sha256(path: Path) -> str:
 
 def build(instance: Path) -> dict[str, object]:
     jar = find_ae2_jar(instance)
+    ae2wtlib_jar = find_ae2wtlib_jar(instance)
     expected_files = set(BATCH_FILES)
     actual_files = {
         path.relative_to(WORKING_ROOT).as_posix()
@@ -344,13 +365,20 @@ def build(instance: Path) -> dict[str, object]:
     source_words = 0
     source_characters = 0
     batch_source_words = 0
-    with zipfile.ZipFile(jar) as archive:
+    with (
+        zipfile.ZipFile(jar) as archive,
+        (
+            zipfile.ZipFile(ae2wtlib_jar) if ae2wtlib_jar else zipfile.ZipFile(jar)
+        ) as compatibility_archive,
+    ):
+        ae2wtlib_archive = compatibility_archive if ae2wtlib_jar else None
         archive_names = set(archive.namelist())
         for relative in BATCH_FILES:
-            source = load_source(archive, relative)
+            source = load_effective_source(archive, ae2wtlib_archive, relative)
             translated = (WORKING_ROOT / relative).read_text(encoding="utf-8")
             errors.extend(validate_pair(relative, source, translated))
-            errors.extend(validate_references(archive_names, relative, translated))
+            if not (ae2wtlib_archive and relative == AE2WTLIB_COMPAT_RELATIVE):
+                errors.extend(validate_references(archive_names, relative, translated))
             visible = extract_visible_text(source)
             words = len(ENGLISH_WORD_RE.findall(visible))
             source_words += words
