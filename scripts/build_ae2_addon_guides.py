@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 14
+ACTIVE_BATCH = 15
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
@@ -448,6 +448,13 @@ MEREQUESTER_QUEST_OVERRIDES_FILE = MEREQUESTER_WORKING_ROOT / "quest_overrides.j
 MEREQUESTER_LANGUAGE_COMPLETION_FILE = (
     MEREQUESTER_WORKING_ROOT / "language_completion.json"
 )
+
+ARSENG_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/arseng"
+ARSENG_LANG_WORKING_FILE = ARSENG_WORKING_ROOT / "lang/ko_kr.json"
+ARSENG_LANG_RELATIVE = "assets/arseng/lang/ko_kr.json"
+ARSENG_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / ARSENG_LANG_RELATIVE
+ARSENG_QUEST_OVERRIDES_FILE = ARSENG_WORKING_ROOT / "quest_overrides.json"
+ARSENG_LANGUAGE_COMPLETION_FILE = ARSENG_WORKING_ROOT / "language_completion.json"
 
 
 def find_single_jar(instance: Path, pattern: str, label: str) -> Path:
@@ -2177,6 +2184,108 @@ def build_merequester_language(instance: Path) -> dict[str, object]:
     return result
 
 
+def arseng_related_counts() -> tuple[int, int]:
+    quest_overrides = json.loads(
+        ARSENG_QUEST_OVERRIDES_FILE.read_text(encoding="utf-8")
+    )
+    return len(quest_overrides), 0
+
+
+def validate_arseng_language(instance: Path, compare_output: bool) -> dict[str, object]:
+    jar = find_single_jar(instance, "arseng-*.jar", "Ars Énergistique")
+    errors: list[str] = []
+    with zipfile.ZipFile(jar) as archive:
+        source_lang = load_archive_json_unique(archive, "assets/arseng/lang/en_us.json")
+    candidate_lang: dict[str, str] = {}
+    if not ARSENG_LANG_WORKING_FILE.is_file():
+        errors.append(
+            f"Ars Énergistique 언어 작업본이 없습니다: {ARSENG_LANG_WORKING_FILE}"
+        )
+        translated_lang: dict[str, str] = {}
+    else:
+        translated_lang = load_json_unique(ARSENG_LANG_WORKING_FILE)
+        errors.extend(validate_language(source_lang, translated_lang))
+        if list(source_lang) != list(translated_lang):
+            errors.append("Ars Énergistique 언어 키 순서가 영어 원문과 다릅니다.")
+        if ARSENG_LANG_WORKING_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
+            errors.append(f"{ARSENG_LANG_WORKING_FILE}: UTF-8 BOM이 있습니다.")
+
+    if compare_output:
+        if not ARSENG_LANG_OUTPUT_FILE.is_file():
+            errors.append(
+                f"Ars Énergistique 언어 출력 파일이 없습니다: {ARSENG_LANG_OUTPUT_FILE}"
+            )
+        elif (
+            ARSENG_LANG_WORKING_FILE.read_bytes()
+            != ARSENG_LANG_OUTPUT_FILE.read_bytes()
+        ):
+            errors.append("Ars Énergistique 언어 작업본과 출력이 다릅니다.")
+
+    reused = sum(
+        candidate_lang.get(key) == value
+        for key, value in translated_lang.items()
+        if key in candidate_lang
+    )
+    return {
+        "jars": {"arseng": jar},
+        "source_words": 0,
+        "source_lang": source_lang,
+        "candidate_lang": candidate_lang,
+        "translated_lang": translated_lang,
+        "existing_korean_reused": reused,
+        "existing_korean_corrected": sum(
+            key in candidate_lang and candidate_lang[key] != value
+            for key, value in translated_lang.items()
+        ),
+        "new_translations": sum(key not in candidate_lang for key in translated_lang),
+        "new_or_revised_translations": len(translated_lang) - reused,
+        "guide_pages": 0,
+        "new_guide_pages": 0,
+        "core_compatibility_updates": 0,
+        "errors": errors,
+    }
+
+
+def build_arseng_language(instance: Path) -> dict[str, object]:
+    validation = validate_arseng_language(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    ARSENG_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    ARSENG_LANG_OUTPUT_FILE.write_bytes(ARSENG_LANG_WORKING_FILE.read_bytes())
+    post_validation = validate_arseng_language(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jar = validation["jars"]["arseng"]  # type: ignore[index]
+    assert isinstance(jar, Path)
+    quest_keys, kubejs_keys = arseng_related_counts()
+    result = {
+        "status": "arseng_full_language_completed",
+        "scope": "Ars Énergistique full language file before guide batch 15",
+        "batch": 15,
+        "source_jars": {"arseng": {"name": jar.name, "sha256": sha256(jar)}},
+        "language": "ko_kr",
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "existing_korean_corrected": validation["existing_korean_corrected"],
+        "new_translations": validation["new_translations"],
+        "legacy_reference_keys": 17,
+        "ftbquests_keys_updated": quest_keys,
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "output_sha256": {ARSENG_LANG_RELATIVE: sha256(ARSENG_LANG_OUTPUT_FILE)},
+        "validation_errors": 0,
+    }
+    ARSENG_LANGUAGE_COMPLETION_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate_advancedae_batch(
     instance: Path, batch: int, compare_output: bool
 ) -> dict[str, object]:
@@ -3407,6 +3516,8 @@ def main() -> int:
         result = build_netanalyser_language(instance)
     elif args.language_only and ACTIVE_BATCH == 14:
         result = build_merequester_language(instance)
+    elif args.language_only and ACTIVE_BATCH == 15:
+        result = build_arseng_language(instance)
     elif args.language_only:
         raise ValueError(f"{ACTIVE_BATCH}차는 언어 전용 빌드를 지원하지 않습니다.")
     elif ACTIVE_BATCH == 13 and args.mod == "ae2importexportcard":

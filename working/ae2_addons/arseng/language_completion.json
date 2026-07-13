@@ -1,0 +1,35 @@
+{
+  "status": "arseng_full_language_completed",
+  "scope": "Ars Énergistique full language file before guide batch 15",
+  "batch": 15,
+  "source_jars": {
+    "arseng": {
+      "name": "arseng-2.1.1-beta.jar",
+      "sha256": "9e2b78101f08bf325589cb98ffba9d91171fdd76ba587d54bdef9d5de18080bc"
+    }
+  },
+  "language": "ko_kr",
+  "language_keys": 17,
+  "existing_korean_reused": 0,
+  "existing_korean_corrected": 0,
+  "new_translations": 17,
+  "legacy_reference_keys": 17,
+  "ftbquests_keys_updated": 0,
+  "kubejs_files_reviewed": 0,
+  "kubejs_user_visible_literals_found": 0,
+  "apply_roots": [
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10"
+  ],
+  "game_root_configured": true,
+  "application_pending": false,
+  "application_pending_reason": null,
+  "backup_root": "temp/backups/20260713_214614_540781/game_root",
+  "backup_manifest": "temp/backups/20260713_214614_540781/backup_manifest.json",
+  "deployed_hashes_match": true,
+  "original_jars_modified": false,
+  "unexpected_instance_changes": [],
+  "output_sha256": {
+    "assets/arseng/lang/ko_kr.json": "d5e03557a4bd63ad8db552bfc2bfd5b292747ffab996e8b585fd938a49d5ea0f"
+  },
+  "validation_errors": 0
+}

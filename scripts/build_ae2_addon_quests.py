@@ -45,6 +45,10 @@ MODS = {
         "scope": "ME Requester full related FTB Quests before guide batch 14",
         "working": "working/ae2_addons/merequester",
     },
+    "arseng": {
+        "scope": "Ars Énergistique full related FTB Quests before guide batch 15",
+        "working": "working/ae2_addons/arseng",
+    },
 }
 
 
