@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 3
+ACTIVE_BATCH = 4
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
@@ -118,6 +118,42 @@ EXTENDEDAE_BATCH_03_ITEM_NAMES = {
     "item.extendedae.entro_ingot": "epp_intro/entro_ingot.md",
     "item.extendedae.entro_seed": "epp_intro/entro_seed.md",
     "item.extendedae.entro_shard": "epp_intro/entro_shard.md",
+}
+EXTENDEDAE_BATCH_04_GUIDE_FILES = (
+    "epp_intro/config_modifier.md",
+    "epp_intro/extended_drive.md",
+    "epp_intro/infinity_cell.md",
+    "epp_intro/ingredient_buffer.md",
+    "epp_intro/mod_storage_bus.md",
+    "epp_intro/oversize_interface.md",
+    "epp_intro/packing_tape.md",
+    "epp_intro/pattern_modifier.md",
+    "epp_intro/precise_storage_bus.md",
+    "epp_intro/void_cell.md",
+)
+EXTENDEDAE_BATCH_04_ITEM_NAMES = {
+    "item.extendedae.config_modifier": "epp_intro/config_modifier.md",
+    "block.extendedae.ex_drive": "epp_intro/extended_drive.md",
+    "item.extendedae.infinity_cell": "epp_intro/infinity_cell.md",
+    "block.extendedae.ingredient_buffer": "epp_intro/ingredient_buffer.md",
+    "item.extendedae.mod_storage_bus": "epp_intro/mod_storage_bus.md",
+    "block.extendedae.oversize_interface": "epp_intro/oversize_interface.md",
+    "item.extendedae.me_packing_tape": "epp_intro/packing_tape.md",
+    "item.extendedae.pattern_modifier": "epp_intro/pattern_modifier.md",
+    "item.extendedae.precise_storage_bus": "epp_intro/precise_storage_bus.md",
+    "item.extendedae.void_cell": "epp_intro/void_cell.md",
+}
+EXTENDEDAE_BATCH_GUIDE_FILES = {
+    3: EXTENDEDAE_BATCH_03_GUIDE_FILES,
+    4: EXTENDEDAE_BATCH_04_GUIDE_FILES,
+}
+EXTENDEDAE_BATCH_ITEM_NAMES = {
+    3: EXTENDEDAE_BATCH_03_ITEM_NAMES,
+    4: EXTENDEDAE_BATCH_04_ITEM_NAMES,
+}
+EXTENDEDAE_BATCH_SCOPES = {
+    3: "ExtendedAE materials and introduction GuideME guide batch 03",
+    4: "ExtendedAE storage and configuration GuideME guide batch 04",
 }
 
 
@@ -817,23 +853,30 @@ def build_extendedae_language(instance: Path) -> dict[str, object]:
     return result
 
 
-def validate_extendedae_batch_03(
-    instance: Path, compare_output: bool
+def validate_extendedae_batch(
+    instance: Path, batch: int, compare_output: bool
 ) -> dict[str, object]:
+    if batch not in EXTENDEDAE_BATCH_GUIDE_FILES:
+        raise ValueError(f"지원하지 않는 ExtendedAE 가이드 배치입니다: {batch}")
     validation = validate_extendedae_language(instance, compare_output)
     errors = validation["errors"]
     assert isinstance(errors, list)
-    expected_working = set(EXTENDEDAE_BATCH_03_GUIDE_FILES)
+    batch_files = EXTENDEDAE_BATCH_GUIDE_FILES[batch]
+    expected_all = {
+        relative
+        for files in EXTENDEDAE_BATCH_GUIDE_FILES.values()
+        for relative in files
+    }
     actual_working = {
         path.relative_to(EXTENDEDAE_GUIDE_WORKING_ROOT).as_posix()
         for path in EXTENDEDAE_GUIDE_WORKING_ROOT.rglob("*.md")
         if path.is_file()
     }
-    if actual_working != expected_working:
+    if batch == ACTIVE_BATCH and actual_working != expected_all:
         errors.append(
-            "ExtendedAE 3차 작업본 목록이 다릅니다: "
-            f"누락={sorted(expected_working - actual_working)}, "
-            f"불필요={sorted(actual_working - expected_working)}"
+            f"ExtendedAE {batch}차 누적 작업본 목록이 다릅니다: "
+            f"누락={sorted(expected_all - actual_working)}, "
+            f"불필요={sorted(actual_working - expected_all)}"
         )
 
     jars = {
@@ -847,7 +890,7 @@ def validate_extendedae_batch_03(
             for namespace, archive in archives.items()
         }
         source_words = 0
-        for relative in EXTENDEDAE_BATCH_03_GUIDE_FILES:
+        for relative in batch_files:
             entry = (GUIDE_SOURCE_ROOTS["extendedae"] / relative).as_posix()
             source = archives["extendedae"].read(entry).decode("utf-8-sig")
             source = source.replace("\r\r\n", "\n").replace("\r\n", "\n")
@@ -878,7 +921,7 @@ def validate_extendedae_batch_03(
 
         translated_lang = validation["translated_lang"]
         assert isinstance(translated_lang, dict)
-        for key, relative in EXTENDEDAE_BATCH_03_ITEM_NAMES.items():
+        for key, relative in EXTENDEDAE_BATCH_ITEM_NAMES[batch].items():
             text = (EXTENDEDAE_GUIDE_WORKING_ROOT / relative).read_text(
                 encoding="utf-8"
             )
@@ -894,19 +937,19 @@ def validate_extendedae_batch_03(
                 for path in EXTENDEDAE_GUIDE_OUTPUT_ROOT.rglob("*.md")
                 if path.is_file()
             }
-            if output_files != expected_working:
+            if batch == ACTIVE_BATCH and output_files != expected_all:
                 errors.append(
-                    "ExtendedAE 3차 출력 목록이 다릅니다: "
-                    f"누락={sorted(expected_working - output_files)}, "
-                    f"불필요={sorted(output_files - expected_working)}"
+                    f"ExtendedAE {batch}차 누적 출력 목록이 다릅니다: "
+                    f"누락={sorted(expected_all - output_files)}, "
+                    f"불필요={sorted(output_files - expected_all)}"
                 )
 
         validation.update(
             {
                 "jars": jars,
                 "source_words": source_words,
-                "guide_pages": len(EXTENDEDAE_BATCH_03_GUIDE_FILES),
-                "new_guide_pages": len(EXTENDEDAE_BATCH_03_GUIDE_FILES),
+                "guide_pages": len(batch_files),
+                "new_guide_pages": len(batch_files),
                 "core_compatibility_updates": 0,
             }
         )
@@ -916,21 +959,34 @@ def validate_extendedae_batch_03(
             archive.close()
 
 
-def build_extendedae_batch_03(instance: Path) -> dict[str, object]:
-    validation = validate_extendedae_batch_03(instance, compare_output=False)
+def validate_extendedae_batch_03(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    return validate_extendedae_batch(instance, 3, compare_output)
+
+
+def validate_extendedae_batch_04(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    return validate_extendedae_batch(instance, 4, compare_output)
+
+
+def build_extendedae_batch(instance: Path, batch: int) -> dict[str, object]:
+    validation = validate_extendedae_batch(instance, batch, compare_output=False)
     errors = validation["errors"]
     assert isinstance(errors, list)
     if errors:
         raise ValueError("\n".join(errors))
 
-    for relative in EXTENDEDAE_BATCH_03_GUIDE_FILES:
+    batch_files = EXTENDEDAE_BATCH_GUIDE_FILES[batch]
+    for relative in batch_files:
         source = EXTENDEDAE_GUIDE_WORKING_ROOT / relative
         target = EXTENDEDAE_GUIDE_OUTPUT_ROOT / relative
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(source.read_bytes())
     EXTENDEDAE_LANG_OUTPUT_FILE.write_bytes(EXTENDEDAE_LANG_WORKING_FILE.read_bytes())
 
-    post_validation = validate_extendedae_batch_03(instance, compare_output=True)
+    post_validation = validate_extendedae_batch(instance, batch, compare_output=True)
     post_errors = post_validation["errors"]
     assert isinstance(post_errors, list)
     if post_errors:
@@ -944,27 +1000,27 @@ def build_extendedae_batch_03(instance: Path) -> dict[str, object]:
             "assets/extendedae/ae2guide/_ko_kr/" + relative: sha256(
                 EXTENDEDAE_GUIDE_OUTPUT_ROOT / relative
             )
-            for relative in EXTENDEDAE_BATCH_03_GUIDE_FILES
+            for relative in batch_files
         },
     }
     quest_keys, kubejs_keys = extendedae_related_counts(instance)
     result = {
-        "status": "batch_03_completed",
-        "scope": "ExtendedAE materials and introduction GuideME guide batch 03",
-        "batch": ACTIVE_BATCH,
+        "status": f"batch_{batch:02d}_completed",
+        "scope": EXTENDEDAE_BATCH_SCOPES[batch],
+        "batch": batch,
         "source_jars": {
             namespace: {"name": path.name, "sha256": sha256(path)}
             for namespace, path in jars.items()
         },
         "language": "ko_kr",
-        "guide_pages": len(EXTENDEDAE_BATCH_03_GUIDE_FILES),
-        "new_guide_pages": len(EXTENDEDAE_BATCH_03_GUIDE_FILES),
+        "guide_pages": len(batch_files),
+        "new_guide_pages": len(batch_files),
         "core_compatibility_updates": 0,
         "source_words": validation["source_words"],
         "language_keys": len(validation["translated_lang"]),
         "existing_korean_reused": validation["existing_korean_reused"],
         "new_or_revised_translations": validation["new_or_revised_translations"],
-        "guide_files": list(EXTENDEDAE_BATCH_03_GUIDE_FILES),
+        "guide_files": list(batch_files),
         "output_sha256": output_files,
         "ftbquests_review": {
             "related_content_found": True,
@@ -981,6 +1037,14 @@ def build_extendedae_batch_03(instance: Path) -> dict[str, object]:
     return result
 
 
+def build_extendedae_batch_03(instance: Path) -> dict[str, object]:
+    return build_extendedae_batch(instance, 3)
+
+
+def build_extendedae_batch_04(instance: Path) -> dict[str, object]:
+    return build_extendedae_batch(instance, 4)
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
@@ -988,6 +1052,8 @@ def validate(instance: Path, compare_output: bool) -> dict[str, object]:
         return validate_enderdrives(instance, compare_output)
     if ACTIVE_BATCH == 3:
         return validate_extendedae_batch_03(instance, compare_output)
+    if ACTIVE_BATCH == 4:
+        return validate_extendedae_batch_04(instance, compare_output)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
@@ -998,6 +1064,8 @@ def build(instance: Path) -> dict[str, object]:
         return build_enderdrives(instance)
     if ACTIVE_BATCH == 3:
         return build_extendedae_batch_03(instance)
+    if ACTIVE_BATCH == 4:
+        return build_extendedae_batch_04(instance)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 

@@ -33,6 +33,19 @@ def sha256(path: Path) -> str:
 
 
 def deployment_sources() -> dict[str, Path]:
+    if guides.ACTIVE_BATCH >= 4:
+        files = {
+            "resourcepacks/ATM10_Korean/"
+            + guides.EXTENDEDAE_LANG_RELATIVE: guides.EXTENDEDAE_LANG_OUTPUT_FILE,
+        }
+        files.update(
+            {
+                "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/"
+                + relative: guides.EXTENDEDAE_GUIDE_OUTPUT_ROOT / relative
+                for relative in guides.EXTENDEDAE_BATCH_GUIDE_FILES[guides.ACTIVE_BATCH]
+            }
+        )
+        return files
     if guides.ACTIVE_BATCH == 3:
         files = {
             "resourcepacks/ATM10_Korean/"
