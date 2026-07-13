@@ -1,0 +1,42 @@
+{
+  "status": "batch_03_completed_and_deployed",
+  "completed_at": "2026-07-13T16:59:02+09:00",
+  "scope": "ExtendedAE materials and introduction GuideME guide batch 03",
+  "source_jar": "ExtendedAE-1.21-2.2.33-neoforge.jar",
+  "language": "ko_kr",
+  "guide_pages": 11,
+  "new_guide_pages": 11,
+  "core_compatibility_updates": 0,
+  "language_keys": 253,
+  "existing_korean_reused": 37,
+  "new_or_revised_translations": 216,
+  "ftbquests_keys_updated": 7,
+  "kubejs_user_visible_literals_found": 0,
+  "apply_roots": [
+    "source_root"
+  ],
+  "game_root_configured": false,
+  "changed_paths": 13,
+  "backup_manifests": [
+    "temp/backups/20260713_165901/backup_manifest.json"
+  ],
+  "deployed_hashes_match": true,
+  "original_jars_modified": false,
+  "unexpected_instance_changes": [],
+  "validation": {
+    "working_output_match": true,
+    "file_lists_match": true,
+    "front_matter_preserved": true,
+    "guide_tags_preserved": true,
+    "inline_code_preserved": true,
+    "links_preserved": true,
+    "cross_namespace_links_resolve": true,
+    "resource_ids_resolve": true,
+    "language_placeholders_preserved": true,
+    "numbers_preserved": true,
+    "ftbquests_formatting_preserved": true,
+    "english_paragraph_candidates": 0,
+    "utf8_bom_files": 0,
+    "game_runtime_verified": false
+  }
+}

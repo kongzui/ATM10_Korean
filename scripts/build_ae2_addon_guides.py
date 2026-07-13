@@ -780,7 +780,12 @@ def build_extendedae_language(instance: Path) -> dict[str, object]:
         "output_sha256": {
             EXTENDEDAE_LANG_RELATIVE: sha256(EXTENDEDAE_LANG_OUTPUT_FILE)
         },
-        "ftbquests_review": {"related_content_found": True, "pending": True},
+        "ftbquests_review": {
+            "related_content_found": True,
+            "keys_updated": 7,
+            "handled_separately": True,
+            "pending": False,
+        },
         "kubejs_user_visible_literals_found": 0,
         "validation_errors": 0,
     }
@@ -939,7 +944,12 @@ def build_extendedae_batch_03(instance: Path) -> dict[str, object]:
         "new_or_revised_translations": validation["new_or_revised_translations"],
         "guide_files": list(EXTENDEDAE_BATCH_03_GUIDE_FILES),
         "output_sha256": output_files,
-        "ftbquests_review": {"related_content_found": True, "pending": True},
+        "ftbquests_review": {
+            "related_content_found": True,
+            "keys_updated": 7,
+            "handled_separately": True,
+            "pending": False,
+        },
         "kubejs_user_visible_literals_found": 0,
         "validation_errors": 0,
     }

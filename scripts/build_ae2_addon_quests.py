@@ -22,7 +22,9 @@ def main() -> int:
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
     english_path = instance / "config/ftbquests/quests/lang/en_us.snbt"
+    baseline_path = instance / "config/ftbquests/quests/lang/ko_kr.snbt"
     english = quests.parse_language_snbt(english_path)
+    baseline = quests.parse_language_snbt(baseline_path)
     before = quests.parse_language_snbt(OUTPUT_FILE)
     overrides = json.loads(OVERRIDES_FILE.read_text(encoding="utf-8"))
 
@@ -54,7 +56,7 @@ def main() -> int:
     progress = {
         "scope": "ExtendedAE batch 03 related FTB Quests",
         "source_keys": len(overrides),
-        "changed_keys": len(changed),
+        "changed_keys": sum(baseline.get(key) != after.get(key) for key in overrides),
         "output": OUTPUT_FILE.relative_to(PROJECT_ROOT).as_posix(),
         "output_sha256": quests.sha256(OUTPUT_FILE),
         "validation_errors": 0,
