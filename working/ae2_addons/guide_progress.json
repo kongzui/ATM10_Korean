@@ -1,39 +1,57 @@
 {
-  "status": "batch_10_completed",
-  "scope": "MEGA Cells crafting, energy and extras GuideME guide batch 10",
-  "batch": 10,
+  "status": "batch_11_completed",
+  "scope": "Applied Flux GuideME guide batch 11",
+  "batch": 11,
   "source_jars": {
     "ae2": {
       "name": "appliedenergistics2-19.2.17.jar",
       "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
     },
-    "megacells": {
-      "name": "megacells-4.11.0.jar",
-      "sha256": "a386bbf12afb11729b0dcf77f64221893d250f22e6185a4d728b9799b230bc55"
+    "appflux": {
+      "name": "AppliedFlux-1.21-2.1.5-neoforge.jar",
+      "sha256": "57e6a2c0f38e660c9e8416f9081d8c515f5ad096d6793d7b7f039e8e210d245b"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 3,
-  "new_guide_pages": 3,
+  "guide_pages": 12,
+  "new_guide_pages": 12,
   "core_compatibility_updates": 0,
-  "source_words": 832,
-  "language_keys": 134,
+  "source_words": 411,
+  "language_keys": 57,
   "existing_korean_reused": 0,
-  "new_or_revised_translations": 134,
+  "new_or_revised_translations": 57,
   "guide_files": [
-    "crafting.md",
-    "energy.md",
-    "extras.md"
+    "appflux/appflux-index.md",
+    "appflux/diamond_dust.md",
+    "appflux/emerald_dust.md",
+    "appflux/energy_processor.md",
+    "appflux/flux_accessor.md",
+    "appflux/flux_cells.md",
+    "appflux/induction_card.md",
+    "appflux/insulating_resin.md",
+    "appflux/mark_energy.md",
+    "appflux/portable_flux_cells.md",
+    "appflux/redstone_crystal.md",
+    "appflux/terminal_interact.md"
   ],
   "output_sha256": {
-    "assets/megacells/lang/ko_kr.json": "8d00b87ed7926b604c3ccd08f6319d09249c802098532ff8e243ac3f84c34e8c",
-    "assets/megacells/ae2guide/_ko_kr/crafting.md": "c442d4ddbd9db57063461f1134043aebc3bb841d45b87d5963db83635c450ce6",
-    "assets/megacells/ae2guide/_ko_kr/energy.md": "4bc26a482fbe1ff21166079620f9a1d9cd505e48307465d837d259728f64c353",
-    "assets/megacells/ae2guide/_ko_kr/extras.md": "ed581eff26cae5f25d918a21eba2b68a2aed7eef9207e9faf894bfed41496f1a"
+    "assets/appflux/lang/ko_kr.json": "0bdfb27e3476340893eaeea72811e5ee99cec6e7f0b2b5ccf2b0fe10e429a7d1",
+    "assets/appflux/ae2guide/_ko_kr/appflux/appflux-index.md": "cb0d99ec472139d1847512a6de4da905ce153910fe6a0f9c319bfdc3f0cf8b13",
+    "assets/appflux/ae2guide/_ko_kr/appflux/diamond_dust.md": "88d15f0d31d192c6d922f2f603c6858f3e83edabc20270055719ff5cbaaeb5a5",
+    "assets/appflux/ae2guide/_ko_kr/appflux/emerald_dust.md": "0124132b66ede47cf91b6d5f82bf519c246958d3c4726d5beeffded27c3c35af",
+    "assets/appflux/ae2guide/_ko_kr/appflux/energy_processor.md": "0cea8203bf1458cf3604bd8cf49ed2f2b5358c8c3cb972048316117edc9b90a4",
+    "assets/appflux/ae2guide/_ko_kr/appflux/flux_accessor.md": "0ccd9b43bc3a85950632df7962b3cfef97f8e621582b09938f402fcb475262af",
+    "assets/appflux/ae2guide/_ko_kr/appflux/flux_cells.md": "d69636aec945ea9cfcae61fe62c2ef6c5aa3e457debdd0ff6bffea713686b7e6",
+    "assets/appflux/ae2guide/_ko_kr/appflux/induction_card.md": "a91005290c18fc75fe60d8e0e400c45b0a008513bfa1548088fc131d371b4ac3",
+    "assets/appflux/ae2guide/_ko_kr/appflux/insulating_resin.md": "0e6b6d4a40d5e1df84a444b1546663032fcbe3f0cac67e40a75f10ef16d32060",
+    "assets/appflux/ae2guide/_ko_kr/appflux/mark_energy.md": "0d12de181296dc4793e78a179ad2b737f5422a62d2bc4c484185df77882c45b2",
+    "assets/appflux/ae2guide/_ko_kr/appflux/portable_flux_cells.md": "e29ef3ddf2b66fe485aa1c200f53df7053d1ede1e8b2844e9fd18e3f0746bb78",
+    "assets/appflux/ae2guide/_ko_kr/appflux/redstone_crystal.md": "cb3e86a62fd4f7b66489580b7a27f80ec603494702c10789615a118217056c43",
+    "assets/appflux/ae2guide/_ko_kr/appflux/terminal_interact.md": "1a5b08dbc7b5be8d7ccc006a58c120efbfe6673cf4e23672b30b0442d27e2bad"
   },
   "ftbquests_review": {
     "related_content_found": true,
-    "keys_updated": 17,
+    "keys_updated": 3,
     "handled_separately": true,
     "pending": false
   },

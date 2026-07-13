@@ -82,6 +82,13 @@ BATCHES = (
         PROJECT_ROOT / "working/ae2_addons/batch_10_completion.json",
         3,
     ),
+    (
+        11,
+        "Applied Flux",
+        guides.validate_appflux_batch_11,
+        PROJECT_ROOT / "working/ae2_addons/batch_11_completion.json",
+        12,
+    ),
 )
 
 
