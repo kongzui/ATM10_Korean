@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 6
+ACTIVE_BATCH = 7
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
@@ -49,6 +49,7 @@ GUIDE_SOURCE_ROOTS = {
     "ae2wtlib": PurePosixPath("assets/ae2wtlib/ae2guide"),
     "enderdrives": PurePosixPath("assets/enderdrives/ae2guide"),
     "extendedae": PurePosixPath("assets/extendedae/ae2guide"),
+    "advanced_ae": PurePosixPath("assets/advanced_ae/ae2guide"),
 }
 GUIDE_ITEM_NAMES = {
     "item.ae2wtlib.magnet_card": "ae2wtlib/magnet_card.md",
@@ -224,6 +225,45 @@ EXTENDEDAE_BATCH_SCOPES = {
     4: "ExtendedAE storage and configuration GuideME guide batch 04",
     5: "ExtendedAE autocrafting and machines GuideME guide batch 05",
     6: "ExtendedAE networking and input-output GuideME guide batch 06",
+}
+
+ADVANCEDAE_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/advanced_ae"
+ADVANCEDAE_LANG_WORKING_FILE = ADVANCEDAE_WORKING_ROOT / "lang/ko_kr.json"
+ADVANCEDAE_LANG_RELATIVE = "assets/advanced_ae/lang/ko_kr.json"
+ADVANCEDAE_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / ADVANCEDAE_LANG_RELATIVE
+ADVANCEDAE_GUIDE_WORKING_ROOT = ADVANCEDAE_WORKING_ROOT / "ae2guide/_ko_kr"
+ADVANCEDAE_GUIDE_OUTPUT_ROOT = RESOURCEPACK_ROOT / "assets/advanced_ae/ae2guide/_ko_kr"
+ADVANCEDAE_QUEST_OVERRIDES_FILE = ADVANCEDAE_WORKING_ROOT / "quest_overrides.json"
+ADVANCEDAE_LANGUAGE_COMPLETION_FILE = (
+    ADVANCEDAE_WORKING_ROOT / "language_completion.json"
+)
+ADVANCEDAE_BATCH_07_GUIDE_FILES = (
+    "aae_intro/aae_intro-index.md",
+    "aae_intro/advanced_io_bus.md",
+    "aae_intro/advanced_pattern_encoder.md",
+    "aae_intro/advanced_pattern_provider.md",
+    "aae_intro/app_upgrade_items.md",
+    "aae_intro/import_export_bus.md",
+    "aae_intro/stock_export_bus.md",
+    "aae_intro/throughput_monitor.md",
+)
+ADVANCEDAE_BATCH_07_ITEM_NAMES = {
+    "item.advanced_ae.advanced_io_bus_part": "aae_intro/advanced_io_bus.md",
+    "item.advanced_ae.adv_pattern_encoder": "aae_intro/advanced_pattern_encoder.md",
+    "item.advanced_ae.small_adv_pattern_provider_part": (
+        "aae_intro/advanced_pattern_provider.md"
+    ),
+    "item.advanced_ae.adv_pattern_provider_capacity_upgrade": (
+        "aae_intro/app_upgrade_items.md"
+    ),
+    "item.advanced_ae.import_export_bus_part": "aae_intro/import_export_bus.md",
+    "item.advanced_ae.stock_export_bus_part": "aae_intro/stock_export_bus.md",
+    "item.advanced_ae.throughput_monitor": "aae_intro/throughput_monitor.md",
+}
+ADVANCEDAE_BATCH_GUIDE_FILES = {7: ADVANCEDAE_BATCH_07_GUIDE_FILES}
+ADVANCEDAE_BATCH_ITEM_NAMES = {7: ADVANCEDAE_BATCH_07_ITEM_NAMES}
+ADVANCEDAE_BATCH_SCOPES = {
+    7: "AdvancedAE automation and input-output GuideME guide batch 07"
 }
 
 
@@ -1135,6 +1175,286 @@ def build_extendedae_batch_06(instance: Path) -> dict[str, object]:
     return build_extendedae_batch(instance, 6)
 
 
+def advancedae_related_counts() -> tuple[int, int]:
+    quest_overrides = json.loads(
+        ADVANCEDAE_QUEST_OVERRIDES_FILE.read_text(encoding="utf-8")
+    )
+    return len(quest_overrides), 0
+
+
+def validate_advancedae_language(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    jar = find_single_jar(instance, "AdvancedAE-*.jar", "AdvancedAE")
+    errors: list[str] = []
+    with zipfile.ZipFile(jar) as archive:
+        source_lang = load_archive_json_unique(
+            archive, "assets/advanced_ae/lang/en_us.json"
+        )
+        candidate_lang = load_archive_json_unique(
+            archive, "assets/advanced_ae/lang/ko_kr.json"
+        )
+    if not ADVANCEDAE_LANG_WORKING_FILE.is_file():
+        errors.append(
+            f"AdvancedAE 언어 작업본이 없습니다: {ADVANCEDAE_LANG_WORKING_FILE}"
+        )
+        translated_lang: dict[str, str] = {}
+    else:
+        translated_lang = load_json_unique(ADVANCEDAE_LANG_WORKING_FILE)
+        errors.extend(validate_language(source_lang, translated_lang))
+        if ADVANCEDAE_LANG_WORKING_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
+            errors.append(f"{ADVANCEDAE_LANG_WORKING_FILE}: UTF-8 BOM이 있습니다.")
+
+    if compare_output:
+        if not ADVANCEDAE_LANG_OUTPUT_FILE.is_file():
+            errors.append(
+                f"AdvancedAE 언어 출력 파일이 없습니다: {ADVANCEDAE_LANG_OUTPUT_FILE}"
+            )
+        elif (
+            ADVANCEDAE_LANG_WORKING_FILE.read_bytes()
+            != ADVANCEDAE_LANG_OUTPUT_FILE.read_bytes()
+        ):
+            errors.append("AdvancedAE 언어 작업본과 출력이 다릅니다.")
+
+    reused = sum(
+        1
+        for key, value in translated_lang.items()
+        if candidate_lang.get(key) != source_lang.get(key)
+        and candidate_lang.get(key) == value
+    )
+    return {
+        "jars": {"advanced_ae": jar},
+        "source_words": 0,
+        "source_lang": source_lang,
+        "candidate_lang": candidate_lang,
+        "translated_lang": translated_lang,
+        "existing_korean_reused": reused,
+        "existing_korean_corrected": sum(
+            candidate_lang.get(key) != source_lang.get(key)
+            and candidate_lang.get(key) != value
+            for key, value in translated_lang.items()
+        ),
+        "new_translations": sum(
+            candidate_lang.get(key) == source_lang.get(key) for key in translated_lang
+        ),
+        "new_or_revised_translations": len(translated_lang) - reused,
+        "guide_pages": 0,
+        "new_guide_pages": 0,
+        "core_compatibility_updates": 0,
+        "errors": errors,
+    }
+
+
+def build_advancedae_language(instance: Path) -> dict[str, object]:
+    validation = validate_advancedae_language(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    ADVANCEDAE_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    ADVANCEDAE_LANG_OUTPUT_FILE.write_bytes(ADVANCEDAE_LANG_WORKING_FILE.read_bytes())
+    post_validation = validate_advancedae_language(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jar = validation["jars"]["advanced_ae"]  # type: ignore[index]
+    assert isinstance(jar, Path)
+    quest_keys, kubejs_keys = advancedae_related_counts()
+    result = {
+        "status": "advancedae_full_language_completed",
+        "scope": "AdvancedAE full language file before guide batch 07",
+        "batch": 7,
+        "source_jars": {"advanced_ae": {"name": jar.name, "sha256": sha256(jar)}},
+        "language": "ko_kr",
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "existing_korean_corrected": validation["existing_korean_corrected"],
+        "new_translations": validation["new_translations"],
+        "ftbquests_keys_updated": quest_keys,
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "output_sha256": {
+            ADVANCEDAE_LANG_RELATIVE: sha256(ADVANCEDAE_LANG_OUTPUT_FILE)
+        },
+        "validation_errors": 0,
+    }
+    ADVANCEDAE_LANGUAGE_COMPLETION_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
+def validate_advancedae_batch(
+    instance: Path, batch: int, compare_output: bool
+) -> dict[str, object]:
+    if batch not in ADVANCEDAE_BATCH_GUIDE_FILES:
+        raise ValueError(f"지원하지 않는 AdvancedAE 가이드 배치입니다: {batch}")
+    validation = validate_advancedae_language(instance, compare_output)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    batch_files = ADVANCEDAE_BATCH_GUIDE_FILES[batch]
+    expected_all = {
+        relative
+        for files in ADVANCEDAE_BATCH_GUIDE_FILES.values()
+        for relative in files
+    }
+    actual_working = {
+        path.relative_to(ADVANCEDAE_GUIDE_WORKING_ROOT).as_posix()
+        for path in ADVANCEDAE_GUIDE_WORKING_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if batch == ACTIVE_BATCH and actual_working != expected_all:
+        errors.append(
+            f"AdvancedAE {batch}차 누적 작업본 목록이 다릅니다: "
+            f"누락={sorted(expected_all - actual_working)}, "
+            f"불필요={sorted(actual_working - expected_all)}"
+        )
+
+    jars = {
+        "ae2": find_single_jar(instance, "appliedenergistics2-*.jar", "AE2"),
+        "advanced_ae": find_single_jar(instance, "AdvancedAE-*.jar", "AdvancedAE"),
+    }
+    archives = {namespace: zipfile.ZipFile(path) for namespace, path in jars.items()}
+    try:
+        archive_names = {
+            namespace: set(archive.namelist())
+            for namespace, archive in archives.items()
+        }
+        source_words = 0
+        for relative in batch_files:
+            entry = (GUIDE_SOURCE_ROOTS["advanced_ae"] / relative).as_posix()
+            source = archives["advanced_ae"].read(entry).decode("utf-8-sig")
+            source = source.replace("\r\r\n", "\n").replace("\r\n", "\n")
+            working_path = ADVANCEDAE_GUIDE_WORKING_ROOT / relative
+            if not working_path.is_file():
+                errors.append(f"가이드 작업본이 없습니다: {working_path}")
+                continue
+            translated = working_path.read_text(encoding="utf-8")
+            errors.extend(core.validate_pair(relative, source, translated))
+            errors.extend(validate_numbers(relative, source, translated))
+            errors.extend(validate_tag_nesting(relative, translated))
+            errors.extend(
+                validate_resources(archive_names, "advanced_ae", relative, translated)
+            )
+            source_words += len(
+                core.ENGLISH_WORD_RE.findall(core.extract_visible_text(source))
+            )
+            if working_path.read_bytes().startswith(b"\xef\xbb\xbf"):
+                errors.append(f"{working_path}: UTF-8 BOM이 있습니다.")
+            if compare_output:
+                output_path = ADVANCEDAE_GUIDE_OUTPUT_ROOT / relative
+                if not output_path.is_file():
+                    errors.append(f"가이드 출력 파일이 없습니다: {output_path}")
+                elif working_path.read_bytes() != output_path.read_bytes():
+                    errors.append(f"{relative}: 작업본과 출력이 다릅니다.")
+
+        translated_lang = validation["translated_lang"]
+        assert isinstance(translated_lang, dict)
+        for key, relative in ADVANCEDAE_BATCH_ITEM_NAMES[batch].items():
+            text = (ADVANCEDAE_GUIDE_WORKING_ROOT / relative).read_text(
+                encoding="utf-8"
+            )
+            item_name = translated_lang[key]
+            if item_name not in core.extract_visible_text(text):
+                errors.append(
+                    f"{relative}: 언어 파일의 아이템명이 가이드에 없습니다: {item_name}"
+                )
+
+        if compare_output:
+            output_files = {
+                path.relative_to(ADVANCEDAE_GUIDE_OUTPUT_ROOT).as_posix()
+                for path in ADVANCEDAE_GUIDE_OUTPUT_ROOT.rglob("*.md")
+                if path.is_file()
+            }
+            if batch == ACTIVE_BATCH and output_files != expected_all:
+                errors.append(
+                    f"AdvancedAE {batch}차 누적 출력 목록이 다릅니다: "
+                    f"누락={sorted(expected_all - output_files)}, "
+                    f"불필요={sorted(output_files - expected_all)}"
+                )
+
+        validation.update(
+            {
+                "jars": jars,
+                "source_words": source_words,
+                "guide_pages": len(batch_files),
+                "new_guide_pages": len(batch_files),
+                "core_compatibility_updates": 0,
+            }
+        )
+        return validation
+    finally:
+        for archive in archives.values():
+            archive.close()
+
+
+def build_advancedae_batch(instance: Path, batch: int) -> dict[str, object]:
+    validation = validate_advancedae_batch(instance, batch, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    batch_files = ADVANCEDAE_BATCH_GUIDE_FILES[batch]
+    for relative in batch_files:
+        source = ADVANCEDAE_GUIDE_WORKING_ROOT / relative
+        target = ADVANCEDAE_GUIDE_OUTPUT_ROOT / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
+    ADVANCEDAE_LANG_OUTPUT_FILE.write_bytes(ADVANCEDAE_LANG_WORKING_FILE.read_bytes())
+
+    post_validation = validate_advancedae_batch(instance, batch, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jars = validation["jars"]
+    assert isinstance(jars, dict)
+    quest_keys, kubejs_keys = advancedae_related_counts()
+    result = {
+        "status": f"batch_{batch:02d}_completed",
+        "scope": ADVANCEDAE_BATCH_SCOPES[batch],
+        "batch": batch,
+        "source_jars": {
+            namespace: {"name": path.name, "sha256": sha256(path)}
+            for namespace, path in jars.items()
+        },
+        "language": "ko_kr",
+        "guide_pages": len(batch_files),
+        "new_guide_pages": len(batch_files),
+        "core_compatibility_updates": 0,
+        "source_words": validation["source_words"],
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "guide_files": list(batch_files),
+        "output_sha256": {
+            ADVANCEDAE_LANG_RELATIVE: sha256(ADVANCEDAE_LANG_OUTPUT_FILE),
+            **{
+                "assets/advanced_ae/ae2guide/_ko_kr/" + relative: sha256(
+                    ADVANCEDAE_GUIDE_OUTPUT_ROOT / relative
+                )
+                for relative in batch_files
+            },
+        },
+        "ftbquests_review": {
+            "related_content_found": True,
+            "keys_updated": quest_keys,
+            "handled_separately": True,
+            "pending": False,
+        },
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "validation_errors": 0,
+    }
+    PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
@@ -1148,6 +1468,8 @@ def validate(instance: Path, compare_output: bool) -> dict[str, object]:
         return validate_extendedae_batch_05(instance, compare_output)
     if ACTIVE_BATCH == 6:
         return validate_extendedae_batch_06(instance, compare_output)
+    if ACTIVE_BATCH == 7:
+        return validate_advancedae_batch(instance, 7, compare_output)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
@@ -1164,14 +1486,23 @@ def build(instance: Path) -> dict[str, object]:
         return build_extendedae_batch_05(instance)
     if ACTIVE_BATCH == 6:
         return build_extendedae_batch_06(instance)
+    if ACTIVE_BATCH == 7:
+        return build_advancedae_batch(instance, 7)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--instance", type=Path)
+    parser.add_argument("--language-only", action="store_true")
     args = parser.parse_args()
-    result = build(resolve_source_root(args.instance))
+    instance = resolve_source_root(args.instance)
+    if args.language_only and ACTIVE_BATCH == 7:
+        result = build_advancedae_language(instance)
+    elif args.language_only:
+        raise ValueError(f"{ACTIVE_BATCH}차는 언어 전용 빌드를 지원하지 않습니다.")
+    else:
+        result = build(instance)
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0
 

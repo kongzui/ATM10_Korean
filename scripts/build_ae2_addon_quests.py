@@ -11,22 +11,35 @@ import build_ae2_quests as quests
 from local_paths import resolve_source_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-OVERRIDES_FILE = PROJECT_ROOT / "working/ae2_addons/extendedae/quest_overrides.json"
 OUTPUT_FILE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
-PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/extendedae/quest_progress.json"
+MODS = {
+    "extendedae": {
+        "scope": "ExtendedAE batch 03 related FTB Quests",
+        "working": "working/ae2_addons/extendedae",
+    },
+    "advanced_ae": {
+        "scope": "AdvancedAE full related FTB Quests before guide batch 07",
+        "working": "working/ae2_addons/advanced_ae",
+    },
+}
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--instance", type=Path)
+    parser.add_argument("--mod", choices=sorted(MODS), default="extendedae")
     args = parser.parse_args()
+    mod = MODS[args.mod]
+    working_root = PROJECT_ROOT / mod["working"]
+    overrides_file = working_root / "quest_overrides.json"
+    progress_file = working_root / "quest_progress.json"
     instance = resolve_source_root(args.instance)
     english_path = instance / "config/ftbquests/quests/lang/en_us.snbt"
     baseline_path = instance / "config/ftbquests/quests/lang/ko_kr.snbt"
     english = quests.parse_language_snbt(english_path)
     baseline = quests.parse_language_snbt(baseline_path)
     before = quests.parse_language_snbt(OUTPUT_FILE)
-    overrides = json.loads(OVERRIDES_FILE.read_text(encoding="utf-8"))
+    overrides = json.loads(overrides_file.read_text(encoding="utf-8"))
 
     missing_source = sorted(set(overrides) - set(english))
     if missing_source:
@@ -54,14 +67,14 @@ def main() -> int:
         raise ValueError(f"지정 범위 밖의 퀘스트 키가 변경됐습니다: {unexpected}")
 
     progress = {
-        "scope": "ExtendedAE batch 03 related FTB Quests",
+        "scope": mod["scope"],
         "source_keys": len(overrides),
         "changed_keys": sum(baseline.get(key) != after.get(key) for key in overrides),
         "output": OUTPUT_FILE.relative_to(PROJECT_ROOT).as_posix(),
         "output_sha256": quests.sha256(OUTPUT_FILE),
         "validation_errors": 0,
     }
-    PROGRESS_FILE.write_text(
+    progress_file.write_text(
         json.dumps(progress, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     print(json.dumps(progress, ensure_ascii=False, indent=2))

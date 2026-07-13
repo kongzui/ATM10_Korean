@@ -1,0 +1,8 @@
+{
+  "scope": "AdvancedAE full related FTB Quests before guide batch 07",
+  "source_keys": 35,
+  "changed_keys": 35,
+  "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+  "output_sha256": "be5f9fb0f3c01894dcf415c9b470ac313b3186efe173916aab822f4346b7beab",
+  "validation_errors": 0
+}

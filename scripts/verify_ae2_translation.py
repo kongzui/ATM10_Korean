@@ -17,8 +17,9 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 COMMON_QUEST_OVERRIDES = (
     PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json"
 )
-ADDON_QUEST_OVERRIDES = (
-    PROJECT_ROOT / "working/ae2_addons/extendedae/quest_overrides.json"
+ADDON_QUEST_OVERRIDE_FILES = (
+    PROJECT_ROOT / "working/ae2_addons/extendedae/quest_overrides.json",
+    PROJECT_ROOT / "working/ae2_addons/advanced_ae/quest_overrides.json",
 )
 
 
@@ -58,7 +59,9 @@ def main() -> int:
     full_output = quests.parse_language_snbt(quests.OUTPUT_FILE)
     overrides = json.loads(quests.OVERRIDES_FILE.read_text(encoding="utf-8"))
     common_overrides = json.loads(COMMON_QUEST_OVERRIDES.read_text(encoding="utf-8"))
-    addon_overrides = json.loads(ADDON_QUEST_OVERRIDES.read_text(encoding="utf-8"))
+    addon_overrides = {}
+    for path in ADDON_QUEST_OVERRIDE_FILES:
+        addon_overrides |= json.loads(path.read_text(encoding="utf-8"))
     additional_overrides = common_overrides | addon_overrides
     expected = {
         key: quests.normalize(overrides[key])
@@ -141,6 +144,7 @@ def main() -> int:
         resourcepack.PROGRESS_FILE,
         quests.PROGRESS_FILE,
         quests.OVERRIDES_FILE,
+        *ADDON_QUEST_OVERRIDE_FILES,
     )
     for path in checked_files:
         ensure_no_bom(path)

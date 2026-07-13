@@ -18,9 +18,11 @@ COMMON_OVERRIDES = (
     Path(__file__).resolve().parents[1]
     / "working/ftbquests/common_chapter_overrides.json"
 )
-ADDON_OVERRIDES = (
+ADDON_OVERRIDE_FILES = (
     Path(__file__).resolve().parents[1]
-    / "working/ae2_addons/extendedae/quest_overrides.json"
+    / "working/ae2_addons/extendedae/quest_overrides.json",
+    Path(__file__).resolve().parents[1]
+    / "working/ae2_addons/advanced_ae/quest_overrides.json",
 )
 CORE_QUEST_OVERRIDES = (
     Path(__file__).resolve().parents[1] / "working/ae2/quest_overrides.json"
@@ -32,6 +34,14 @@ EXPECTED_ADDON_TASK_TITLES = {
     "task.1B927BD83D40F37D.title": "엔트로 결정이 필요 없는 항목",
     "task.3E945BEFF5CE78F5.title": "조립기 매트릭스 벽 또는 유리",
     "task.475B673DC78361D2.title": "확장 장치",
+    "task.3A76350DDF5A318D.title": "고급 패턴 제공기",
+    "task.6D00B76B8A141BB8.title": "임의의 #advanced_ae:adv_pattern_provider",
+    "task.7FBDB1383D052B82.title": "ME 반출 버스 또는 ME 인터페이스",
+    "task.4031B8B8FBDDEEE4.title": "전송 라벨",
+}
+
+ADVANCEDAE_CATEGORY_QUEST_TITLES = {
+    "0B4CE3969067FA31": "퀀텀 갑옷 업그레이드",
 }
 
 REDUNDANT_SINGLE_ITEM_TASK_IDS = {
@@ -78,7 +88,9 @@ def main() -> int:
     baseline = snbt.parse_language_snbt(lang_root / "ko_kr.snbt")
     output = snbt.parse_language_snbt(builder.OUTPUT_LANG)
     common_overrides = json.loads(COMMON_OVERRIDES.read_text(encoding="utf-8"))
-    addon_overrides = json.loads(ADDON_OVERRIDES.read_text(encoding="utf-8"))
+    addon_overrides = {}
+    for path in ADDON_OVERRIDE_FILES:
+        addon_overrides |= json.loads(path.read_text(encoding="utf-8"))
     core_quest_overrides = json.loads(CORE_QUEST_OVERRIDES.read_text(encoding="utf-8"))
     scoped_overrides = common_overrides | core_quest_overrides | addon_overrides
     chapters, object_ids = audit.parse_chapters(quest_root)
@@ -221,6 +233,49 @@ def main() -> int:
             f"단일 아이템 중복 제목={redundant_extendedae_item_task_titles}"
         )
 
+    redundant_advancedae_item_task_titles = sorted(
+        f"task.{task['id']}.title"
+        for chapter in chapters
+        for quest in chapter["quests"]
+        for task in quest["tasks"]
+        if task["type"] == "item"
+        and task["item_id"].startswith("advanced_ae:")
+        and f"task.{task['id']}.title" in output
+    )
+    if redundant_advancedae_item_task_titles:
+        raise ValueError(
+            "AdvancedAE 단일 ItemTask에 중복 제목이 있습니다: "
+            f"{redundant_advancedae_item_task_titles}"
+        )
+
+    _, project_korean = audit.load_project_languages()
+    advancedae_quest_title_mismatches = []
+    for chapter in chapters:
+        for quest in chapter["quests"]:
+            if len(quest["tasks"]) != 1:
+                continue
+            task = quest["tasks"][0]
+            if not task["item_id"].startswith("advanced_ae:"):
+                continue
+            title = audit.text_value(output, f"quest.{quest['id']}.title")
+            if not title:
+                continue
+            if quest["id"] in ADVANCEDAE_CATEGORY_QUEST_TITLES:
+                expected = ADVANCEDAE_CATEGORY_QUEST_TITLES[quest["id"]]
+            else:
+                namespace, item_path = task["item_id"].split(":", 1)
+                expected = project_korean.get(
+                    f"item.{namespace}.{item_path}",
+                    project_korean.get(f"block.{namespace}.{item_path}", ""),
+                )
+            if expected and audit.strip_formatting(title) != expected:
+                advancedae_quest_title_mismatches.append(f"quest.{quest['id']}.title")
+    if advancedae_quest_title_mismatches:
+        raise ValueError(
+            "AdvancedAE 아이템명과 퀘스트 제목이 다릅니다: "
+            f"{advancedae_quest_title_mismatches}"
+        )
+
     report = json.loads(audit.REPORT_JSON.read_text(encoding="utf-8"))
     resolved_problem_types = {
         "목차 표기 불일치",
@@ -244,7 +299,7 @@ def main() -> int:
         "changed_title_keys": len(changed_keys),
         "description_keys_changed": sum(
             key.endswith(".quest_desc")
-            for key in changed_keys & common_overrides.keys()
+            for key in changed_keys & scoped_overrides.keys()
         ),
         "duplicate_keys": 0,
         "invalid_object_ids": 0,
@@ -252,8 +307,17 @@ def main() -> int:
         "ae2_fallback_titles_checked": len(expected_ae2),
         "redundant_ae2_item_task_titles": 0,
         "redundant_single_item_task_titles": 0,
-        "extendedae_group_task_titles_checked": len(EXPECTED_ADDON_TASK_TITLES),
+        "addon_group_task_titles_checked": len(EXPECTED_ADDON_TASK_TITLES),
         "redundant_extendedae_item_task_titles": 0,
+        "redundant_advancedae_item_task_titles": 0,
+        "advancedae_quest_item_titles_checked": sum(
+            1
+            for chapter in chapters
+            for quest in chapter["quests"]
+            if len(quest["tasks"]) == 1
+            and quest["tasks"][0]["item_id"].startswith("advanced_ae:")
+            and audit.text_value(output, f"quest.{quest['id']}.title")
+        ),
         "removed_single_item_task_titles_checked": len(REDUNDANT_SINGLE_ITEM_TASK_IDS),
         "placeholder_number_format_errors": 0,
         "utf8_bom_files": 0,
