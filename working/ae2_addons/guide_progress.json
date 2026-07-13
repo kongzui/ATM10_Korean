@@ -1,31 +1,33 @@
 {
-  "status": "batch_13_importexport_completed",
-  "scope": "AE2 Import Export Card GuideME guide batch 13",
+  "status": "batch_13_netanalyser_completed",
+  "scope": "AE2 Network Analyser GuideME guide batch 13",
   "batch": 13,
   "source_jars": {
     "ae2": {
       "name": "appliedenergistics2-19.2.17.jar",
       "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
     },
-    "ae2importexportcard": {
-      "name": "ae2importexportcard-1.21.1-1.5.0.jar",
-      "sha256": "63c59264947c2b386f5576971cd5c2fee0efd9eec6da7fb2992ef38117dc35bd"
+    "ae2netanalyser": {
+      "name": "AE2NetworkAnalyzer-1.21-2.1.5-neoforge.jar",
+      "sha256": "74b68e9ec57dbf21a0417ce099d61b834f88efb0de3cccba4413e5dcf9d69f3c"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 1,
-  "new_guide_pages": 1,
+  "guide_pages": 2,
+  "new_guide_pages": 2,
   "core_compatibility_updates": 0,
-  "source_words": 205,
-  "language_keys": 5,
-  "existing_korean_reused": 1,
-  "new_or_revised_translations": 4,
+  "source_words": 428,
+  "language_keys": 38,
+  "existing_korean_reused": 0,
+  "new_or_revised_translations": 38,
   "guide_files": [
-    "ae2importexportcard-index.md"
+    "ae2_network_analyser.md",
+    "ae2_tick_profiler.md"
   ],
   "output_sha256": {
-    "assets/ae2importexportcard/lang/ko_kr.json": "96baa497fed1b3a3be04b056b201b2abff680fe5f8b93247389bbd8bc7d4ae7b",
-    "assets/ae2/ae2guide/_ko_kr/ae2importexportcard-index.md": "d96310b51564bc5ae96e4a294fdc57feaba5cb876b5da29e13184af83777ac2d"
+    "assets/ae2netanalyser/lang/ko_kr.json": "42316b32ac2c5447811f0c0bfafb3c072ff098b149b8f4171250eebc10ca8dc4",
+    "assets/ae2netanalyser/ae2guide/_ko_kr/ae2_network_analyser.md": "38f08cb8add1494783897ed0b656fc01c8eb82f23fad19a99f0aacc3733750cc",
+    "assets/ae2netanalyser/ae2guide/_ko_kr/ae2_tick_profiler.md": "f46c9d62b9355f714fb0e01f0fe669fe8fe60d8f2b92f9ffe8d0d08b79835bdb"
   },
   "ftbquests_review": {
     "related_content_found": false,

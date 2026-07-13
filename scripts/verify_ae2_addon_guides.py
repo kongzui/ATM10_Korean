@@ -103,6 +103,13 @@ BATCHES = (
         PROJECT_ROOT / "working/ae2_addons/batch_13_importexport_completion.json",
         1,
     ),
+    (
+        13,
+        "AE2 Network Analyser",
+        guides.validate_netanalyser_guide,
+        PROJECT_ROOT / "working/ae2_addons/batch_13_netanalyser_completion.json",
+        2,
+    ),
 )
 
 
