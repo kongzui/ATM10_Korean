@@ -37,6 +37,10 @@ MODS = {
         "scope": "AE2 Import Export Card full related FTB Quests before guide batch 13",
         "working": "working/ae2_addons/ae2importexportcard",
     },
+    "ae2netanalyser": {
+        "scope": "AE2 Network Analyser full related FTB Quests before guide batch 13",
+        "working": "working/ae2_addons/ae2netanalyser",
+    },
 }
 
 

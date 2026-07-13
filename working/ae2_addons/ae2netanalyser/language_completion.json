@@ -1,0 +1,30 @@
+{
+  "status": "ae2netanalyser_full_language_completed",
+  "scope": "AE2 Network Analyser full language file before guide batch 13",
+  "batch": 13,
+  "source_jars": {
+    "ae2netanalyser": {
+      "name": "AE2NetworkAnalyzer-1.21-2.1.5-neoforge.jar",
+      "sha256": "74b68e9ec57dbf21a0417ce099d61b834f88efb0de3cccba4413e5dcf9d69f3c"
+    }
+  },
+  "language": "ko_kr",
+  "language_keys": 38,
+  "existing_korean_reused": 0,
+  "existing_korean_corrected": 0,
+  "new_translations": 38,
+  "legacy_reference_keys": 24,
+  "ftbquests_keys_updated": 0,
+  "kubejs_files_reviewed": 0,
+  "kubejs_user_visible_literals_found": 0,
+  "apply_roots": [],
+  "game_root_configured": true,
+  "application_pending": true,
+  "application_pending_reason": "Minecraft와 Java 프로세스가 실행 중입니다.",
+  "original_jars_modified": false,
+  "unexpected_instance_changes": [],
+  "output_sha256": {
+    "assets/ae2netanalyser/lang/ko_kr.json": "42316b32ac2c5447811f0c0bfafb3c072ff098b149b8f4171250eebc10ca8dc4"
+  },
+  "validation_errors": 0
+}

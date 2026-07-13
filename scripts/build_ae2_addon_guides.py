@@ -410,6 +410,15 @@ IMPORTEXPORT_LANGUAGE_COMPLETION_FILE = (
     IMPORTEXPORT_WORKING_ROOT / "language_completion.json"
 )
 
+NETANALYSER_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/ae2netanalyser"
+NETANALYSER_LANG_WORKING_FILE = NETANALYSER_WORKING_ROOT / "lang/ko_kr.json"
+NETANALYSER_LANG_RELATIVE = "assets/ae2netanalyser/lang/ko_kr.json"
+NETANALYSER_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / NETANALYSER_LANG_RELATIVE
+NETANALYSER_QUEST_OVERRIDES_FILE = NETANALYSER_WORKING_ROOT / "quest_overrides.json"
+NETANALYSER_LANGUAGE_COMPLETION_FILE = (
+    NETANALYSER_WORKING_ROOT / "language_completion.json"
+)
+
 
 def find_single_jar(instance: Path, pattern: str, label: str) -> Path:
     jars = sorted((instance / "mods").glob(pattern))
@@ -1920,6 +1929,116 @@ def build_importexport_language(instance: Path) -> dict[str, object]:
     return result
 
 
+def netanalyser_related_counts() -> tuple[int, int]:
+    quest_overrides = json.loads(
+        NETANALYSER_QUEST_OVERRIDES_FILE.read_text(encoding="utf-8")
+    )
+    return len(quest_overrides), 0
+
+
+def validate_netanalyser_language(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    jar = find_single_jar(instance, "AE2NetworkAnalyzer-*.jar", "AE2 Network Analyser")
+    errors: list[str] = []
+    with zipfile.ZipFile(jar) as archive:
+        source_lang = load_archive_json_unique(
+            archive, "assets/ae2netanalyser/lang/en_us.json"
+        )
+    candidate_lang: dict[str, str] = {}
+    if not NETANALYSER_LANG_WORKING_FILE.is_file():
+        errors.append(
+            "AE2 Network Analyser 언어 작업본이 없습니다: "
+            f"{NETANALYSER_LANG_WORKING_FILE}"
+        )
+        translated_lang: dict[str, str] = {}
+    else:
+        translated_lang = load_json_unique(NETANALYSER_LANG_WORKING_FILE)
+        errors.extend(validate_language(source_lang, translated_lang))
+        if list(source_lang) != list(translated_lang):
+            errors.append("AE2 Network Analyser 언어 키 순서가 영어 원문과 다릅니다.")
+        if NETANALYSER_LANG_WORKING_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
+            errors.append(f"{NETANALYSER_LANG_WORKING_FILE}: UTF-8 BOM이 있습니다.")
+
+    if compare_output:
+        if not NETANALYSER_LANG_OUTPUT_FILE.is_file():
+            errors.append(
+                "AE2 Network Analyser 언어 출력 파일이 없습니다: "
+                f"{NETANALYSER_LANG_OUTPUT_FILE}"
+            )
+        elif (
+            NETANALYSER_LANG_WORKING_FILE.read_bytes()
+            != NETANALYSER_LANG_OUTPUT_FILE.read_bytes()
+        ):
+            errors.append("AE2 Network Analyser 언어 작업본과 출력이 다릅니다.")
+
+    reused = sum(
+        candidate_lang.get(key) == value
+        for key, value in translated_lang.items()
+        if key in candidate_lang
+    )
+    return {
+        "jars": {"ae2netanalyser": jar},
+        "source_words": 0,
+        "source_lang": source_lang,
+        "candidate_lang": candidate_lang,
+        "translated_lang": translated_lang,
+        "existing_korean_reused": reused,
+        "existing_korean_corrected": sum(
+            key in candidate_lang and candidate_lang[key] != value
+            for key, value in translated_lang.items()
+        ),
+        "new_translations": sum(key not in candidate_lang for key in translated_lang),
+        "new_or_revised_translations": len(translated_lang) - reused,
+        "guide_pages": 0,
+        "new_guide_pages": 0,
+        "core_compatibility_updates": 0,
+        "errors": errors,
+    }
+
+
+def build_netanalyser_language(instance: Path) -> dict[str, object]:
+    validation = validate_netanalyser_language(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    NETANALYSER_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    NETANALYSER_LANG_OUTPUT_FILE.write_bytes(NETANALYSER_LANG_WORKING_FILE.read_bytes())
+    post_validation = validate_netanalyser_language(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jar = validation["jars"]["ae2netanalyser"]  # type: ignore[index]
+    assert isinstance(jar, Path)
+    quest_keys, kubejs_keys = netanalyser_related_counts()
+    result = {
+        "status": "ae2netanalyser_full_language_completed",
+        "scope": "AE2 Network Analyser full language file before guide batch 13",
+        "batch": 13,
+        "source_jars": {"ae2netanalyser": {"name": jar.name, "sha256": sha256(jar)}},
+        "language": "ko_kr",
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "existing_korean_corrected": validation["existing_korean_corrected"],
+        "new_translations": validation["new_translations"],
+        "legacy_reference_keys": 24,
+        "ftbquests_keys_updated": quest_keys,
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "output_sha256": {
+            NETANALYSER_LANG_RELATIVE: sha256(NETANALYSER_LANG_OUTPUT_FILE)
+        },
+        "validation_errors": 0,
+    }
+    NETANALYSER_LANGUAGE_COMPLETION_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate_advancedae_batch(
     instance: Path, batch: int, compare_output: bool
 ) -> dict[str, object]:
@@ -2846,6 +2965,8 @@ def main() -> int:
         args.language_only and ACTIVE_BATCH == 13 and args.mod == "ae2importexportcard"
     ):
         result = build_importexport_language(instance)
+    elif args.language_only and ACTIVE_BATCH == 13 and args.mod == "ae2netanalyser":
+        result = build_netanalyser_language(instance)
     elif args.language_only:
         raise ValueError(f"{ACTIVE_BATCH}차는 언어 전용 빌드를 지원하지 않습니다.")
     elif ACTIVE_BATCH == 13 and args.mod == "ae2importexportcard":

@@ -24,6 +24,7 @@ ADDON_QUEST_OVERRIDE_FILES = (
     PROJECT_ROOT / "working/ae2_addons/appflux/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/expandedae/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/ae2importexportcard/quest_overrides.json",
+    PROJECT_ROOT / "working/ae2_addons/ae2netanalyser/quest_overrides.json",
 )
 
 
