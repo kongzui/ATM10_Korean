@@ -25,6 +25,10 @@ MODS = {
         "scope": "MEGA Cells full related FTB Quests before guide batch 09",
         "working": "working/ae2_addons/megacells",
     },
+    "appflux": {
+        "scope": "Applied Flux full related FTB Quests before guide batch 11",
+        "working": "working/ae2_addons/appflux",
+    },
 }
 
 

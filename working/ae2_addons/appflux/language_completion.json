@@ -1,0 +1,30 @@
+{
+  "status": "appflux_full_language_completed",
+  "scope": "Applied Flux full language file before guide batch 11",
+  "batch": 11,
+  "source_jars": {
+    "appflux": {
+      "name": "AppliedFlux-1.21-2.1.5-neoforge.jar",
+      "sha256": "57e6a2c0f38e660c9e8416f9081d8c515f5ad096d6793d7b7f039e8e210d245b"
+    }
+  },
+  "language": "ko_kr",
+  "language_keys": 57,
+  "existing_korean_reused": 0,
+  "existing_korean_corrected": 0,
+  "new_translations": 57,
+  "legacy_reference_keys": 57,
+  "ftbquests_keys_updated": 3,
+  "kubejs_files_reviewed": 4,
+  "kubejs_user_visible_literals_found": 0,
+  "apply_roots": [],
+  "game_root_configured": true,
+  "application_pending": true,
+  "application_pending_reason": "Minecraft와 Java 프로세스가 실행 중입니다.",
+  "original_jars_modified": false,
+  "unexpected_instance_changes": [],
+  "output_sha256": {
+    "assets/appflux/lang/ko_kr.json": "0bdfb27e3476340893eaeea72811e5ee99cec6e7f0b2b5ccf2b0fe10e429a7d1"
+  },
+  "validation_errors": 0
+}

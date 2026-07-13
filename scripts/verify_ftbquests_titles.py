@@ -25,6 +25,8 @@ ADDON_OVERRIDE_FILES = (
     / "working/ae2_addons/advanced_ae/quest_overrides.json",
     Path(__file__).resolve().parents[1]
     / "working/ae2_addons/megacells/quest_overrides.json",
+    Path(__file__).resolve().parents[1]
+    / "working/ae2_addons/appflux/quest_overrides.json",
 )
 CORE_QUEST_OVERRIDES = (
     Path(__file__).resolve().parents[1] / "working/ae2/quest_overrides.json"
@@ -57,6 +59,11 @@ MEGACELLS_RELATED_QUEST_IDS = {
     "49FDD8666356A3E7",
     "51A57E142C686C8F",
     "69B7DE2283B4EE6C",
+}
+
+APPFLUX_RELATED_QUEST_IDS = {
+    "1EECA19DF9CF6A0C",
+    "5AE851B8074BC7E6",
 }
 
 REDUNDANT_SINGLE_ITEM_TASK_IDS = {
@@ -335,6 +342,27 @@ def main() -> int:
             f"관련 퀘스트 제목 누락={missing_megacells_related_titles}"
         )
 
+    redundant_appflux_item_task_titles = sorted(
+        f"task.{task['id']}.title"
+        for chapter in chapters
+        for quest in chapter["quests"]
+        for task in quest["tasks"]
+        if task["type"] == "item"
+        and task["item_id"].startswith("appflux:")
+        and f"task.{task['id']}.title" in output
+    )
+    missing_appflux_related_titles = sorted(
+        quest_id
+        for quest_id in APPFLUX_RELATED_QUEST_IDS
+        if not audit.text_value(output, f"quest.{quest_id}.title")
+    )
+    if redundant_appflux_item_task_titles or missing_appflux_related_titles:
+        raise ValueError(
+            "Applied Flux 퀘스트 제목 검증 실패: "
+            f"단일 아이템 중복 제목={redundant_appflux_item_task_titles}, "
+            f"관련 퀘스트 제목 누락={missing_appflux_related_titles}"
+        )
+
     report = json.loads(audit.REPORT_JSON.read_text(encoding="utf-8"))
     resolved_problem_types = {
         "목차 표기 불일치",
@@ -370,6 +398,7 @@ def main() -> int:
         "redundant_extendedae_item_task_titles": 0,
         "redundant_advancedae_item_task_titles": 0,
         "redundant_megacells_item_task_titles": 0,
+        "redundant_appflux_item_task_titles": 0,
         "advancedae_quest_item_titles_checked": sum(
             1
             for chapter in chapters
@@ -380,6 +409,7 @@ def main() -> int:
         ),
         "megacells_quest_item_titles_checked": megacells_item_titles_checked,
         "megacells_related_quest_titles_checked": len(MEGACELLS_RELATED_QUEST_IDS),
+        "appflux_related_quest_titles_checked": len(APPFLUX_RELATED_QUEST_IDS),
         "removed_single_item_task_titles_checked": len(REDUNDANT_SINGLE_ITEM_TASK_IDS),
         "placeholder_number_format_errors": 0,
         "utf8_bom_files": 0,

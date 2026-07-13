@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 10
+ACTIVE_BATCH = 11
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
@@ -51,6 +51,7 @@ GUIDE_SOURCE_ROOTS = {
     "extendedae": PurePosixPath("assets/extendedae/ae2guide"),
     "advanced_ae": PurePosixPath("assets/advanced_ae/ae2guide"),
     "megacells": PurePosixPath("assets/megacells/ae2guide"),
+    "appflux": PurePosixPath("assets/appflux/ae2guide"),
 }
 GUIDE_ITEM_NAMES = {
     "item.ae2wtlib.magnet_card": "ae2wtlib/magnet_card.md",
@@ -328,6 +329,40 @@ MEGACELLS_BATCH_ITEM_NAMES = {
 MEGACELLS_BATCH_SCOPES = {
     9: "MEGA Cells introduction and storage GuideME guide batch 09",
     10: "MEGA Cells crafting, energy and extras GuideME guide batch 10",
+}
+
+APPFLUX_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/appflux"
+APPFLUX_LANG_WORKING_FILE = APPFLUX_WORKING_ROOT / "lang/ko_kr.json"
+APPFLUX_LANG_RELATIVE = "assets/appflux/lang/ko_kr.json"
+APPFLUX_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / APPFLUX_LANG_RELATIVE
+APPFLUX_GUIDE_WORKING_ROOT = APPFLUX_WORKING_ROOT / "ae2guide/_ko_kr"
+APPFLUX_GUIDE_OUTPUT_ROOT = RESOURCEPACK_ROOT / "assets/appflux/ae2guide/_ko_kr"
+APPFLUX_QUEST_OVERRIDES_FILE = APPFLUX_WORKING_ROOT / "quest_overrides.json"
+APPFLUX_LANGUAGE_COMPLETION_FILE = APPFLUX_WORKING_ROOT / "language_completion.json"
+APPFLUX_BATCH_11_GUIDE_FILES = (
+    "appflux/appflux-index.md",
+    "appflux/diamond_dust.md",
+    "appflux/emerald_dust.md",
+    "appflux/energy_processor.md",
+    "appflux/flux_accessor.md",
+    "appflux/flux_cells.md",
+    "appflux/induction_card.md",
+    "appflux/insulating_resin.md",
+    "appflux/mark_energy.md",
+    "appflux/portable_flux_cells.md",
+    "appflux/redstone_crystal.md",
+    "appflux/terminal_interact.md",
+)
+APPFLUX_BATCH_11_ITEM_NAMES = {
+    "item.appflux.diamond_dust": "appflux/diamond_dust.md",
+    "item.appflux.emerald_dust": "appflux/emerald_dust.md",
+    "item.appflux.energy_processor": "appflux/energy_processor.md",
+    "item.appflux.part_flux_accessor": "appflux/flux_accessor.md",
+    "item.appflux.fe_1k_cell": "appflux/flux_cells.md",
+    "item.appflux.induction_card": "appflux/induction_card.md",
+    "item.appflux.insulating_resin": "appflux/insulating_resin.md",
+    "item.appflux.fe_1k_portable_cell": "appflux/portable_flux_cells.md",
+    "item.appflux.redstone_crystal": "appflux/redstone_crystal.md",
 }
 
 
@@ -1459,6 +1494,116 @@ def build_megacells_language(instance: Path) -> dict[str, object]:
     return result
 
 
+def appflux_related_counts() -> tuple[int, int]:
+    quest_overrides = json.loads(
+        APPFLUX_QUEST_OVERRIDES_FILE.read_text(encoding="utf-8")
+    )
+    return len(quest_overrides), 0
+
+
+def validate_appflux_language(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    jar = find_single_jar(instance, "AppliedFlux-*.jar", "Applied Flux")
+    errors: list[str] = []
+    with zipfile.ZipFile(jar) as archive:
+        source_lang = load_archive_json_unique(
+            archive, "assets/appflux/lang/en_us.json"
+        )
+        candidate_lang = (
+            load_archive_json_unique(archive, "assets/appflux/lang/ko_kr.json")
+            if "assets/appflux/lang/ko_kr.json" in archive.namelist()
+            else {}
+        )
+    if not APPFLUX_LANG_WORKING_FILE.is_file():
+        errors.append(
+            f"Applied Flux 언어 작업본이 없습니다: {APPFLUX_LANG_WORKING_FILE}"
+        )
+        translated_lang: dict[str, str] = {}
+    else:
+        translated_lang = load_json_unique(APPFLUX_LANG_WORKING_FILE)
+        errors.extend(validate_language(source_lang, translated_lang))
+        if list(source_lang) != list(translated_lang):
+            errors.append("Applied Flux 언어 키 순서가 영어 원문과 다릅니다.")
+        if APPFLUX_LANG_WORKING_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
+            errors.append(f"{APPFLUX_LANG_WORKING_FILE}: UTF-8 BOM이 있습니다.")
+
+    if compare_output:
+        if not APPFLUX_LANG_OUTPUT_FILE.is_file():
+            errors.append(
+                f"Applied Flux 언어 출력 파일이 없습니다: {APPFLUX_LANG_OUTPUT_FILE}"
+            )
+        elif (
+            APPFLUX_LANG_WORKING_FILE.read_bytes()
+            != APPFLUX_LANG_OUTPUT_FILE.read_bytes()
+        ):
+            errors.append("Applied Flux 언어 작업본과 출력이 다릅니다.")
+
+    reused = sum(
+        candidate_lang.get(key) == value
+        for key, value in translated_lang.items()
+        if key in candidate_lang
+    )
+    return {
+        "jars": {"appflux": jar},
+        "source_words": 0,
+        "source_lang": source_lang,
+        "candidate_lang": candidate_lang,
+        "translated_lang": translated_lang,
+        "existing_korean_reused": reused,
+        "existing_korean_corrected": sum(
+            key in candidate_lang and candidate_lang[key] != value
+            for key, value in translated_lang.items()
+        ),
+        "new_translations": sum(key not in candidate_lang for key in translated_lang),
+        "new_or_revised_translations": len(translated_lang) - reused,
+        "guide_pages": 0,
+        "new_guide_pages": 0,
+        "core_compatibility_updates": 0,
+        "errors": errors,
+    }
+
+
+def build_appflux_language(instance: Path) -> dict[str, object]:
+    validation = validate_appflux_language(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    APPFLUX_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    APPFLUX_LANG_OUTPUT_FILE.write_bytes(APPFLUX_LANG_WORKING_FILE.read_bytes())
+    post_validation = validate_appflux_language(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jar = validation["jars"]["appflux"]  # type: ignore[index]
+    assert isinstance(jar, Path)
+    quest_keys, kubejs_keys = appflux_related_counts()
+    result = {
+        "status": "appflux_full_language_completed",
+        "scope": "Applied Flux full language file before guide batch 11",
+        "batch": 11,
+        "source_jars": {"appflux": {"name": jar.name, "sha256": sha256(jar)}},
+        "language": "ko_kr",
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "existing_korean_corrected": validation["existing_korean_corrected"],
+        "new_translations": validation["new_translations"],
+        "legacy_reference_keys": 57,
+        "ftbquests_keys_updated": quest_keys,
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "output_sha256": {APPFLUX_LANG_RELATIVE: sha256(APPFLUX_LANG_OUTPUT_FILE)},
+        "validation_errors": 0,
+    }
+    APPFLUX_LANGUAGE_COMPLETION_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate_advancedae_batch(
     instance: Path, batch: int, compare_output: bool
 ) -> dict[str, object]:
@@ -1894,6 +2039,8 @@ def main() -> int:
         result = build_advancedae_language(instance)
     elif args.language_only and ACTIVE_BATCH in {9, 10}:
         result = build_megacells_language(instance)
+    elif args.language_only and ACTIVE_BATCH == 11:
+        result = build_appflux_language(instance)
     elif args.language_only:
         raise ValueError(f"{ACTIVE_BATCH}차는 언어 전용 빌드를 지원하지 않습니다.")
     else:

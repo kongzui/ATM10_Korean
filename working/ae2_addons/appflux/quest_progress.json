@@ -1,0 +1,8 @@
+{
+  "scope": "Applied Flux full related FTB Quests before guide batch 11",
+  "source_keys": 3,
+  "changed_keys": 3,
+  "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+  "output_sha256": "63f793015353a167eafa2acf94fce01677ffb6b42eff7294009fb4b6e1cab968",
+  "validation_errors": 0
+}
