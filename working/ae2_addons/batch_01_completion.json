@@ -1,0 +1,42 @@
+{
+  "status": "batch_01_completed_and_deployed",
+  "completed_at": "2026-07-13T14:36:09+09:00",
+  "scope": "AE2WTLib GuideME guide batch 01",
+  "source_jar": "ae2wtlib-19.5.0.jar",
+  "language": "ko_kr",
+  "guide_pages": 8,
+  "new_guide_pages": 7,
+  "core_compatibility_updates": 1,
+  "language_keys": 46,
+  "existing_korean_reused": 4,
+  "new_or_revised_translations": 42,
+  "ftbquests_keys_updated": 3,
+  "kubejs_user_visible_literals_found": 0,
+  "apply_roots": [
+    "source_root"
+  ],
+  "game_root_configured": false,
+  "changed_paths": 10,
+  "backup_manifests": [
+    "temp/backups/20260713_143042/backup_manifest.json",
+    "temp/backups/20260713_143608/backup_manifest.json"
+  ],
+  "deployed_hashes_match": true,
+  "original_jars_modified": false,
+  "unexpected_instance_changes": [],
+  "validation": {
+    "working_output_match": true,
+    "file_lists_match": true,
+    "front_matter_preserved": true,
+    "guide_tags_preserved": true,
+    "inline_code_preserved": true,
+    "links_preserved": true,
+    "cross_namespace_links_resolve": true,
+    "resource_ids_resolve": true,
+    "language_placeholders_preserved": true,
+    "ftbquests_formatting_preserved": true,
+    "english_paragraph_candidates": 0,
+    "utf8_bom_files": 0,
+    "game_runtime_verified": false
+  }
+}
