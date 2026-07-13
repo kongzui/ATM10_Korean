@@ -1,7 +1,7 @@
 {
-  "status": "batch_07_completed",
-  "scope": "AdvancedAE automation and input-output GuideME guide batch 07",
-  "batch": 7,
+  "status": "batch_08_completed",
+  "scope": "AdvancedAE quantum equipment and machines GuideME guide batch 08",
+  "batch": 8,
   "source_jars": {
     "ae2": {
       "name": "appliedenergistics2-19.2.17.jar",
@@ -13,33 +13,27 @@
     }
   },
   "language": "ko_kr",
-  "guide_pages": 8,
-  "new_guide_pages": 8,
+  "guide_pages": 5,
+  "new_guide_pages": 5,
   "core_compatibility_updates": 0,
-  "source_words": 976,
+  "source_words": 2250,
   "language_keys": 246,
   "existing_korean_reused": 0,
   "new_or_revised_translations": 246,
   "guide_files": [
-    "aae_intro/aae_intro-index.md",
-    "aae_intro/advanced_io_bus.md",
-    "aae_intro/advanced_pattern_encoder.md",
-    "aae_intro/advanced_pattern_provider.md",
-    "aae_intro/app_upgrade_items.md",
-    "aae_intro/import_export_bus.md",
-    "aae_intro/stock_export_bus.md",
-    "aae_intro/throughput_monitor.md"
+    "aae_intro/quantum_armor.md",
+    "aae_intro/quantum_computer.md",
+    "aae_intro/quantum_crafter.md",
+    "aae_intro/quantum_crafter_terminal.md",
+    "aae_intro/reaction_chamber.md"
   ],
   "output_sha256": {
     "assets/advanced_ae/lang/ko_kr.json": "6355631feb867fcb6fe34f45a371e42a57a18550f9cda2d73901ad0b49bc8edc",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/aae_intro-index.md": "6127ba68f9a40efbeb1c0627c7cdc2cf9c03231cb92bf5116bf0a9b69fecb4f2",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_io_bus.md": "f867330ae8c8e5c7dcbc77ab6acdc61af6b0d5e943911621727042ec4833492b",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_pattern_encoder.md": "c1943defa9f7008c51a89e23a88e943dd8da53c4807f61433b923e967a78ec57",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_pattern_provider.md": "9ea43c5677c1f93bdb87cc7ee370876be6bb3676a00e52b22c6fe62137ce688c",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/app_upgrade_items.md": "f0cdaab623247564035251a2f2f9cc497fd3439e6ab5c8982c99665f56a9522a",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/import_export_bus.md": "2da97b0c061b13f566e62baa55827df181a199b7ea559c70e9ae2fadd75aed34",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/stock_export_bus.md": "d4665e979177ff1f880c6322670e55f4780b6cee45b2d1e5f20deac12a948ff6",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/throughput_monitor.md": "3229381048a6fec84eeaf21c47771573cfd15da2e71231dbcd490b29fb61d3cf"
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_armor.md": "ec4157569227664bb2a68d392b591f66039315ce5fb214b3ef4dc6a4c5be63d2",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_computer.md": "67282bb2c31728ff3aef8fb565a0f490b4b40d765cc13c64eae69d8f2923387e",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_crafter.md": "6bb6c73b2fb864909a5265efeb3e9fb2484021b2ecbf6d4defd86a4e332aaec5",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_crafter_terminal.md": "f49110d32df71c5bacec21d0ec88302271cf740356149eba321bdb5dbcbfda12",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/reaction_chamber.md": "ab5eefa0468bd48cb24225bc51b9fc0b943c7d05463bf44369c0f5855f020e5f"
   },
   "ftbquests_review": {
     "related_content_found": true,

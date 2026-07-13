@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 7
+ACTIVE_BATCH = 8
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
@@ -260,10 +260,33 @@ ADVANCEDAE_BATCH_07_ITEM_NAMES = {
     "item.advanced_ae.stock_export_bus_part": "aae_intro/stock_export_bus.md",
     "item.advanced_ae.throughput_monitor": "aae_intro/throughput_monitor.md",
 }
-ADVANCEDAE_BATCH_GUIDE_FILES = {7: ADVANCEDAE_BATCH_07_GUIDE_FILES}
-ADVANCEDAE_BATCH_ITEM_NAMES = {7: ADVANCEDAE_BATCH_07_ITEM_NAMES}
+ADVANCEDAE_BATCH_08_GUIDE_FILES = (
+    "aae_intro/quantum_armor.md",
+    "aae_intro/quantum_computer.md",
+    "aae_intro/quantum_crafter.md",
+    "aae_intro/quantum_crafter_terminal.md",
+    "aae_intro/reaction_chamber.md",
+)
+ADVANCEDAE_BATCH_08_ITEM_NAMES = {
+    "item.advanced_ae.quantum_upgrade_base": "aae_intro/quantum_armor.md",
+    "block.advanced_ae.quantum_core": "aae_intro/quantum_computer.md",
+    "block.advanced_ae.quantum_crafter": "aae_intro/quantum_crafter.md",
+    "item.advanced_ae.quantum_crafter_terminal": (
+        "aae_intro/quantum_crafter_terminal.md"
+    ),
+    "block.advanced_ae.reaction_chamber": "aae_intro/reaction_chamber.md",
+}
+ADVANCEDAE_BATCH_GUIDE_FILES = {
+    7: ADVANCEDAE_BATCH_07_GUIDE_FILES,
+    8: ADVANCEDAE_BATCH_08_GUIDE_FILES,
+}
+ADVANCEDAE_BATCH_ITEM_NAMES = {
+    7: ADVANCEDAE_BATCH_07_ITEM_NAMES,
+    8: ADVANCEDAE_BATCH_08_ITEM_NAMES,
+}
 ADVANCEDAE_BATCH_SCOPES = {
-    7: "AdvancedAE automation and input-output GuideME guide batch 07"
+    7: "AdvancedAE automation and input-output GuideME guide batch 07",
+    8: "AdvancedAE quantum equipment and machines GuideME guide batch 08",
 }
 
 
@@ -1465,6 +1488,16 @@ def build_advancedae_batch_07(instance: Path) -> dict[str, object]:
     return build_advancedae_batch(instance, 7)
 
 
+def validate_advancedae_batch_08(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    return validate_advancedae_batch(instance, 8, compare_output)
+
+
+def build_advancedae_batch_08(instance: Path) -> dict[str, object]:
+    return build_advancedae_batch(instance, 8)
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
@@ -1480,6 +1513,8 @@ def validate(instance: Path, compare_output: bool) -> dict[str, object]:
         return validate_extendedae_batch_06(instance, compare_output)
     if ACTIVE_BATCH == 7:
         return validate_advancedae_batch_07(instance, compare_output)
+    if ACTIVE_BATCH == 8:
+        return validate_advancedae_batch_08(instance, compare_output)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
@@ -1498,6 +1533,8 @@ def build(instance: Path) -> dict[str, object]:
         return build_extendedae_batch_06(instance)
     if ACTIVE_BATCH == 7:
         return build_advancedae_batch_07(instance)
+    if ACTIVE_BATCH == 8:
+        return build_advancedae_batch_08(instance)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
@@ -1507,7 +1544,7 @@ def main() -> int:
     parser.add_argument("--language-only", action="store_true")
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
-    if args.language_only and ACTIVE_BATCH == 7:
+    if args.language_only and ACTIVE_BATCH in {7, 8}:
         result = build_advancedae_language(instance)
     elif args.language_only:
         raise ValueError(f"{ACTIVE_BATCH}차는 언어 전용 빌드를 지원하지 않습니다.")
