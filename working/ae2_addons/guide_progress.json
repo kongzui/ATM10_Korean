@@ -1,7 +1,7 @@
 {
-  "status": "batch_09_completed",
-  "scope": "MEGA Cells introduction and storage GuideME guide batch 09",
-  "batch": 9,
+  "status": "batch_10_completed",
+  "scope": "MEGA Cells crafting, energy and extras GuideME guide batch 10",
+  "batch": 10,
   "source_jars": {
     "ae2": {
       "name": "appliedenergistics2-19.2.17.jar",
@@ -13,25 +13,23 @@
     }
   },
   "language": "ko_kr",
-  "guide_pages": 4,
-  "new_guide_pages": 4,
+  "guide_pages": 3,
+  "new_guide_pages": 3,
   "core_compatibility_updates": 0,
-  "source_words": 2718,
+  "source_words": 832,
   "language_keys": 134,
   "existing_korean_reused": 0,
   "new_or_revised_translations": 134,
   "guide_files": [
-    "index.md",
-    "storage.md",
-    "bulk_cell.md",
-    "radioactive_cell.md"
+    "crafting.md",
+    "energy.md",
+    "extras.md"
   ],
   "output_sha256": {
     "assets/megacells/lang/ko_kr.json": "8d00b87ed7926b604c3ccd08f6319d09249c802098532ff8e243ac3f84c34e8c",
-    "assets/megacells/ae2guide/_ko_kr/index.md": "06dbf673d52a60ff475dce92d9222050cfdf1c48463b089a3e474204dd29a05a",
-    "assets/megacells/ae2guide/_ko_kr/storage.md": "4b9196b0f7f5db8f59a9063014f1d152a082ac490667f9b9c904de390739eea8",
-    "assets/megacells/ae2guide/_ko_kr/bulk_cell.md": "121d19daa3ed5ddc7aaafbbaa7a696ad3e2416778e7ab8e461d84c4b0b37702d",
-    "assets/megacells/ae2guide/_ko_kr/radioactive_cell.md": "7ce1716c08f89ac1ed08282cdcfbc8014f7af0d70ccffc251df45fd7fd532452"
+    "assets/megacells/ae2guide/_ko_kr/crafting.md": "c442d4ddbd9db57063461f1134043aebc3bb841d45b87d5963db83635c450ce6",
+    "assets/megacells/ae2guide/_ko_kr/energy.md": "4bc26a482fbe1ff21166079620f9a1d9cd505e48307465d837d259728f64c353",
+    "assets/megacells/ae2guide/_ko_kr/extras.md": "ed581eff26cae5f25d918a21eba2b68a2aed7eef9207e9faf894bfed41496f1a"
   },
   "ftbquests_review": {
     "related_content_found": true,

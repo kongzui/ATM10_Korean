@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 9
+ACTIVE_BATCH = 10
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
