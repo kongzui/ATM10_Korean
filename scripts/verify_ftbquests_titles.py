@@ -18,6 +18,10 @@ COMMON_OVERRIDES = (
     Path(__file__).resolve().parents[1]
     / "working/ftbquests/common_chapter_overrides.json"
 )
+ADDON_OVERRIDES = (
+    Path(__file__).resolve().parents[1]
+    / "working/ae2_addons/extendedae/quest_overrides.json"
+)
 
 REDUNDANT_SINGLE_ITEM_TASK_IDS = {
     "03EB390E79866058",
@@ -63,6 +67,8 @@ def main() -> int:
     baseline = snbt.parse_language_snbt(lang_root / "ko_kr.snbt")
     output = snbt.parse_language_snbt(builder.OUTPUT_LANG)
     common_overrides = json.loads(COMMON_OVERRIDES.read_text(encoding="utf-8"))
+    addon_overrides = json.loads(ADDON_OVERRIDES.read_text(encoding="utf-8"))
+    scoped_overrides = common_overrides | addon_overrides
     chapters, object_ids = audit.parse_chapters(quest_root)
     tasks_by_id = {
         task["id"]: task
@@ -94,7 +100,7 @@ def main() -> int:
     invalid_scope = sorted(
         key
         for key in changed_keys
-        if not builder.TITLE_KEY_RE.fullmatch(key) and key not in common_overrides
+        if not builder.TITLE_KEY_RE.fullmatch(key) and key not in scoped_overrides
     )
     invalid_ids = sorted(
         key for key in changed_keys if key.split(".")[1] not in object_ids
@@ -106,7 +112,7 @@ def main() -> int:
     description_changes = sorted(
         key
         for key in changed_keys
-        if key.endswith(".quest_desc") and key not in common_overrides
+        if key.endswith(".quest_desc") and key not in scoped_overrides
     )
     if description_changes:
         raise ValueError(f"설명문이 변경됐습니다: {description_changes}")
@@ -118,7 +124,7 @@ def main() -> int:
         raise ValueError("\n".join(validation_errors))
 
     mismatched_common = sorted(
-        key for key, value in common_overrides.items() if output.get(key) != value
+        key for key, value in scoped_overrides.items() if output.get(key) != value
     )
     if mismatched_common:
         raise ValueError(f"공통 챕터 작업본과 출력이 다릅니다: {mismatched_common}")
