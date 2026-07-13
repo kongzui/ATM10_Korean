@@ -1,21 +1,15 @@
 {
-  "scope": "Applied Energistics 2 GuideME guide batches 01-12",
+  "scope": "Applied Energistics 2 GuideME guide batches 01-13",
   "source_jar": "appliedenergistics2-19.2.17.jar",
   "language": "ko_kr",
-  "batch": 12,
+  "batch": 13,
   "batch_files": [
-    "items-blocks-machines/formation_plane.md",
-    "items-blocks-machines/annihilation_plane.md",
-    "items-blocks-machines/chest.md",
-    "items-blocks-machines/drive.md",
-    "items-blocks-machines/import_bus.md",
-    "items-blocks-machines/export_bus.md",
-    "items-blocks-machines/io_port.md",
-    "items-blocks-machines/monitors.md",
-    "items-blocks-machines/storage_bus.md"
+    "items-blocks-machines/crafting_cpu_multiblock.md",
+    "items-blocks-machines/interface.md",
+    "items-blocks-machines/pattern_provider.md"
   ],
-  "batch_pages": 9,
-  "batch_source_words": 2443,
+  "batch_pages": 3,
+  "batch_source_words": 2114,
   "files": [
     "index.md",
     "getting-started.md",
@@ -136,14 +130,17 @@
     "items-blocks-machines/export_bus.md",
     "items-blocks-machines/io_port.md",
     "items-blocks-machines/monitors.md",
-    "items-blocks-machines/storage_bus.md"
+    "items-blocks-machines/storage_bus.md",
+    "items-blocks-machines/crafting_cpu_multiblock.md",
+    "items-blocks-machines/interface.md",
+    "items-blocks-machines/pattern_provider.md"
   ],
-  "pages": 120,
-  "source_words": 26330,
-  "source_characters": 159124,
+  "pages": 123,
+  "source_words": 28444,
+  "source_characters": 171907,
   "existing_korean_reused": 0,
-  "newly_translated": 120,
-  "remaining_core_pages": 5,
+  "newly_translated": 123,
+  "remaining_core_pages": 2,
   "working_root": "working/ae2/ae2guide/_ko_kr",
   "output_root": "output/resourcepack/ATM10_Korean/assets/ae2/ae2guide/_ko_kr",
   "output_sha256": {
@@ -266,7 +263,10 @@
     "items-blocks-machines/export_bus.md": "9294905d82726e41f3e9ddf4324ac629bf96ab8a5e8f47deeaa8bbec31aa2c1d",
     "items-blocks-machines/io_port.md": "37d2b12fdcd61b3b118c19b88234f65f4f33c2ff12dec64138ead67d1786809d",
     "items-blocks-machines/monitors.md": "8b6df25a1a52961f1b56d7bb90af8bcbed0ff56bcc7a0f741957be14fe4c3fde",
-    "items-blocks-machines/storage_bus.md": "8cad1b7c977a87d69eefab5cede88ec80dd26f360e4042a705e70bd8368ba9e7"
+    "items-blocks-machines/storage_bus.md": "8cad1b7c977a87d69eefab5cede88ec80dd26f360e4042a705e70bd8368ba9e7",
+    "items-blocks-machines/crafting_cpu_multiblock.md": "f0641b46680988fb5eb5038d314d12638cff8248b526f3103b5890eff4cf98f7",
+    "items-blocks-machines/interface.md": "407fbbd0eb74dc78b6312109f809b0c6449e634afa00559692cb6e956a3daea6",
+    "items-blocks-machines/pattern_provider.md": "5230200215832da67f406368af2bcda85d464eaaefd2985bdc1df6c20262fa7a"
   },
   "validation_errors": 0,
   "status": "completed"
