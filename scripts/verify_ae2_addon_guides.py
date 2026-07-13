@@ -10,38 +10,72 @@ from pathlib import Path
 import build_ae2_addon_guides as guides
 from local_paths import resolve_source_root
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+BATCHES = (
+    (
+        1,
+        "AE2WTLib",
+        guides.validate_ae2wtlib,
+        PROJECT_ROOT / "working/ae2_addons/batch_01_completion.json",
+        8,
+    ),
+    (
+        2,
+        "EnderDrives",
+        guides.validate_enderdrives,
+        PROJECT_ROOT / "working/ae2_addons/batch_02_completion.json",
+        3,
+    ),
+    (
+        3,
+        "ExtendedAE",
+        guides.validate_extendedae_batch_03,
+        PROJECT_ROOT / "working/ae2_addons/batch_03_completion.json",
+        11,
+    ),
+)
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--instance", type=Path)
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
-    validation = guides.validate(instance, compare_output=True)
-    errors = validation["errors"]
-    assert isinstance(errors, list)
+    errors: list[str] = []
+    batch_results = []
+    for batch, mod_name, validator, completion_path, expected_guide_pages in BATCHES:
+        validation = validator(instance, compare_output=True)
+        validation_errors = validation["errors"]
+        assert isinstance(validation_errors, list)
+        errors.extend(f"{mod_name}: {error}" for error in validation_errors)
 
-    if not guides.PROGRESS_FILE.is_file():
-        errors.append(f"진행 기록이 없습니다: {guides.PROGRESS_FILE}")
-    else:
-        progress = json.loads(guides.PROGRESS_FILE.read_text(encoding="utf-8"))
-        if progress.get("batch") != guides.ACTIVE_BATCH:
-            errors.append("진행 기록의 배치 번호가 다릅니다.")
-        if progress.get("guide_pages") != validation["guide_pages"]:
-            errors.append("진행 기록의 가이드 페이지 수가 다릅니다.")
-        if progress.get("language_keys") != len(validation["translated_lang"]):
-            errors.append("진행 기록의 언어 키 수가 다릅니다.")
-        if progress.get("validation_errors") != 0:
-            errors.append("진행 기록에 검증 오류가 남아 있습니다.")
+        if not completion_path.is_file():
+            errors.append(f"{mod_name}: 완료 기록이 없습니다: {completion_path}")
+        else:
+            completion = json.loads(completion_path.read_text(encoding="utf-8"))
+            if completion.get("guide_pages") != expected_guide_pages:
+                errors.append(f"{mod_name}: 완료 기록의 가이드 페이지 수가 다릅니다.")
+            if completion.get("language_keys") != len(validation["translated_lang"]):
+                errors.append(f"{mod_name}: 완료 기록의 언어 키 수가 다릅니다.")
+            if completion.get("validation", {}).get("utf8_bom_files") != 0:
+                errors.append(f"{mod_name}: 완료 기록에 UTF-8 BOM 오류가 있습니다.")
+
+        batch_results.append(
+            {
+                "batch": batch,
+                "mod": mod_name,
+                "guide_pages": expected_guide_pages,
+                "language_keys": len(validation["translated_lang"]),
+            }
+        )
 
     if errors:
         raise ValueError("\n".join(errors))
 
     result = {
-        "batch": guides.ACTIVE_BATCH,
-        "guide_pages": validation["guide_pages"],
-        "new_guide_pages": validation["new_guide_pages"],
-        "core_compatibility_updates": validation["core_compatibility_updates"],
-        "language_keys": len(validation["translated_lang"]),
+        "batches": batch_results,
+        "guide_pages": sum(row["guide_pages"] for row in batch_results),
+        "language_keys": sum(row["language_keys"] for row in batch_results),
         "working_output_match": True,
         "missing_files": 0,
         "extra_files": 0,

@@ -22,6 +22,17 @@ ADDON_OVERRIDES = (
     Path(__file__).resolve().parents[1]
     / "working/ae2_addons/extendedae/quest_overrides.json"
 )
+CORE_QUEST_OVERRIDES = (
+    Path(__file__).resolve().parents[1] / "working/ae2/quest_overrides.json"
+)
+
+EXPECTED_ADDON_TASK_TITLES = {
+    "task.13FF4A021BBF1451.title": "무한 셀",
+    "task.1854DDA036C8A2BA.title": "엔트로 씨앗/벌집 조각",
+    "task.1B927BD83D40F37D.title": "엔트로 결정이 필요 없는 항목",
+    "task.3E945BEFF5CE78F5.title": "조립기 매트릭스 벽 또는 유리",
+    "task.475B673DC78361D2.title": "확장 장치",
+}
 
 REDUNDANT_SINGLE_ITEM_TASK_IDS = {
     "03EB390E79866058",
@@ -68,7 +79,8 @@ def main() -> int:
     output = snbt.parse_language_snbt(builder.OUTPUT_LANG)
     common_overrides = json.loads(COMMON_OVERRIDES.read_text(encoding="utf-8"))
     addon_overrides = json.loads(ADDON_OVERRIDES.read_text(encoding="utf-8"))
-    scoped_overrides = common_overrides | addon_overrides
+    core_quest_overrides = json.loads(CORE_QUEST_OVERRIDES.read_text(encoding="utf-8"))
+    scoped_overrides = common_overrides | core_quest_overrides | addon_overrides
     chapters, object_ids = audit.parse_chapters(quest_root)
     tasks_by_id = {
         task["id"]: task
@@ -187,6 +199,28 @@ def main() -> int:
             f"중복 제목 재생성={restored_redundant_titles}"
         )
 
+    mismatched_addon_task_titles = sorted(
+        key
+        for key, value in EXPECTED_ADDON_TASK_TITLES.items()
+        if output.get(key) != value
+    )
+    redundant_extendedae_item_task_titles = sorted(
+        f"task.{task['id']}.title"
+        for chapter in chapters
+        if chapter["filename"] == "extended__advanced_ae.snbt"
+        for quest in chapter["quests"]
+        for task in quest["tasks"]
+        if task["type"] == "item"
+        and task["item_id"].startswith("extendedae:")
+        and f"task.{task['id']}.title" in output
+    )
+    if mismatched_addon_task_titles or redundant_extendedae_item_task_titles:
+        raise ValueError(
+            "ExtendedAE Task 제목 검증 실패: "
+            f"묶음 제목 불일치={mismatched_addon_task_titles}, "
+            f"단일 아이템 중복 제목={redundant_extendedae_item_task_titles}"
+        )
+
     report = json.loads(audit.REPORT_JSON.read_text(encoding="utf-8"))
     resolved_problem_types = {
         "목차 표기 불일치",
@@ -218,6 +252,8 @@ def main() -> int:
         "ae2_fallback_titles_checked": len(expected_ae2),
         "redundant_ae2_item_task_titles": 0,
         "redundant_single_item_task_titles": 0,
+        "extendedae_group_task_titles_checked": len(EXPECTED_ADDON_TASK_TITLES),
+        "redundant_extendedae_item_task_titles": 0,
         "removed_single_item_task_titles_checked": len(REDUNDANT_SINGLE_ITEM_TASK_IDS),
         "placeholder_number_format_errors": 0,
         "utf8_bom_files": 0,

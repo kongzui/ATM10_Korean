@@ -91,6 +91,10 @@ EXTENDEDAE_LANG_RELATIVE = "assets/extendedae/lang/ko_kr.json"
 EXTENDEDAE_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / EXTENDEDAE_LANG_RELATIVE
 EXTENDEDAE_GUIDE_WORKING_ROOT = EXTENDEDAE_WORKING_ROOT / "ae2guide/_ko_kr"
 EXTENDEDAE_GUIDE_OUTPUT_ROOT = RESOURCEPACK_ROOT / "assets/extendedae/ae2guide/_ko_kr"
+EXTENDEDAE_QUEST_OVERRIDES_FILE = EXTENDEDAE_WORKING_ROOT / "quest_overrides.json"
+EXTENDEDAE_INFINITY_CELLS_RELATIVE = Path(
+    "kubejs/startup_scripts/ExtendedAE/InfinityCells.js"
+)
 EXTENDEDAE_BATCH_03_GUIDE_FILES = (
     "epp_intro/epp_intro-index.md",
     "epp_intro/machine_frame.md",
@@ -135,6 +139,22 @@ def find_jars(instance: Path) -> dict[str, Path]:
 
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def extendedae_related_counts(instance: Path) -> tuple[int, int]:
+    quest_overrides = json.loads(
+        EXTENDEDAE_QUEST_OVERRIDES_FILE.read_text(encoding="utf-8")
+    )
+    infinity_script = (instance / EXTENDEDAE_INFINITY_CELLS_RELATIVE).read_text(
+        encoding="utf-8-sig"
+    )
+    infinity_cells = set(
+        re.findall(
+            r"allthemods\.create\('([^']+)',\s*'custom_infinity_cell'\)",
+            infinity_script,
+        )
+    )
+    return len(quest_overrides), len(infinity_cells)
 
 
 def load_json_unique(path: Path) -> dict[str, str]:
@@ -765,6 +785,7 @@ def build_extendedae_language(instance: Path) -> dict[str, object]:
 
     jar = validation["jars"]["extendedae"]  # type: ignore[index]
     assert isinstance(jar, Path)
+    quest_keys, kubejs_keys = extendedae_related_counts(instance)
     result = {
         "status": "batch_03_language_completed",
         "scope": "ExtendedAE full language file before guide batch 03",
@@ -782,11 +803,11 @@ def build_extendedae_language(instance: Path) -> dict[str, object]:
         },
         "ftbquests_review": {
             "related_content_found": True,
-            "keys_updated": 7,
+            "keys_updated": quest_keys,
             "handled_separately": True,
             "pending": False,
         },
-        "kubejs_user_visible_literals_found": 0,
+        "kubejs_user_visible_literals_found": kubejs_keys,
         "validation_errors": 0,
     }
     PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -926,6 +947,7 @@ def build_extendedae_batch_03(instance: Path) -> dict[str, object]:
             for relative in EXTENDEDAE_BATCH_03_GUIDE_FILES
         },
     }
+    quest_keys, kubejs_keys = extendedae_related_counts(instance)
     result = {
         "status": "batch_03_completed",
         "scope": "ExtendedAE materials and introduction GuideME guide batch 03",
@@ -946,11 +968,11 @@ def build_extendedae_batch_03(instance: Path) -> dict[str, object]:
         "output_sha256": output_files,
         "ftbquests_review": {
             "related_content_found": True,
-            "keys_updated": 7,
+            "keys_updated": quest_keys,
             "handled_separately": True,
             "pending": False,
         },
-        "kubejs_user_visible_literals_found": 0,
+        "kubejs_user_visible_literals_found": kubejs_keys,
         "validation_errors": 0,
     }
     PROGRESS_FILE.write_text(

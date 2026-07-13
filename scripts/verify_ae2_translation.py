@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 import build_ae2_quests as quests
@@ -13,6 +14,12 @@ import build_ftbquests_titles as titles
 from local_paths import resolve_source_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+COMMON_QUEST_OVERRIDES = (
+    PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json"
+)
+ADDON_QUEST_OVERRIDES = (
+    PROJECT_ROOT / "working/ae2_addons/extendedae/quest_overrides.json"
+)
 
 
 def ensure_no_bom(path: Path) -> None:
@@ -50,6 +57,9 @@ def main() -> int:
     full_current = quests.parse_language_snbt(lang_root / "ko_kr.snbt")
     full_output = quests.parse_language_snbt(quests.OUTPUT_FILE)
     overrides = json.loads(quests.OVERRIDES_FILE.read_text(encoding="utf-8"))
+    common_overrides = json.loads(COMMON_QUEST_OVERRIDES.read_text(encoding="utf-8"))
+    addon_overrides = json.loads(ADDON_QUEST_OVERRIDES.read_text(encoding="utf-8"))
+    additional_overrides = common_overrides | addon_overrides
     expected = {
         key: quests.normalize(overrides[key])
         if key in overrides
@@ -67,15 +77,29 @@ def main() -> int:
             key not in expected
             and full_output.get(key) != value
             and not titles.TITLE_KEY_RE.fullmatch(key)
+            and key not in additional_overrides
         ):
             raise ValueError(f"AE2 범위 밖의 FTB Quests 키가 변경됐습니다: {key}")
-    added_title_keys = {
+    mismatched_additional = sorted(
         key
-        for key in full_output.keys() - full_current.keys()
-        if titles.TITLE_KEY_RE.fullmatch(key)
+        for key, value in additional_overrides.items()
+        if full_output.get(key) != value
+    )
+    if mismatched_additional:
+        raise ValueError(
+            f"추가 FTB Quests 작업본과 출력이 다릅니다: {mismatched_additional}"
+        )
+    current_title_keys = {
+        key for key in full_current if titles.TITLE_KEY_RE.fullmatch(key)
+    }
+    output_title_keys = {
+        key for key in full_output if titles.TITLE_KEY_RE.fullmatch(key)
     }
     expected_full_keys = (
-        set(full_current) | (set(quest_english) - set(quest_current)) | added_title_keys
+        (set(full_current) - current_title_keys)
+        | (set(quest_english) - set(quest_current))
+        | set(additional_overrides)
+        | output_title_keys
     )
     if set(full_output) != expected_full_keys:
         raise ValueError("FTB Quests 전체 키 집합이 예상과 다릅니다.")
@@ -86,6 +110,23 @@ def main() -> int:
     kube = json.loads(kube_path.read_text(encoding="utf-8"))
     if kube.get("item.kubejs.universal_press") != "각인기 범용 프레스":
         raise ValueError("KubeJS 범용 프레스 번역이 없습니다.")
+    infinity_script = instance / "kubejs/startup_scripts/ExtendedAE/InfinityCells.js"
+    infinity_ids = set(
+        re.findall(
+            r"allthemods\.create\('([^']+)',\s*'custom_infinity_cell'\)",
+            infinity_script.read_text(encoding="utf-8-sig"),
+        )
+    )
+    infinity_keys = {f"item.kubejs.{item_id}" for item_id in infinity_ids}
+    missing_infinity_keys = sorted(infinity_keys - set(kube))
+    unexpected_kube_keys = sorted(
+        set(kube) - infinity_keys - {"item.kubejs.universal_press"}
+    )
+    if missing_infinity_keys or unexpected_kube_keys:
+        raise ValueError(
+            "ExtendedAE 무한 셀 KubeJS 키 검증 실패: "
+            f"누락={missing_infinity_keys}, 범위 밖={unexpected_kube_keys}"
+        )
 
     pack_meta_path = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/pack.mcmeta"
     pack_meta = json.loads(pack_meta_path.read_text(encoding="utf-8"))
@@ -108,6 +149,7 @@ def main() -> int:
         "ae2_resourcepack_keys": len(translated),
         "ftbquest_keys": len(expected),
         "kubejs_keys": len(kube),
+        "extendedae_infinity_cell_keys": len(infinity_keys),
         "unrelated_ftbquest_keys_changed": 0,
         "ftbquest_title_keys_changed": sum(
             full_current.get(key) != full_output.get(key)

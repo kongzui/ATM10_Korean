@@ -23,6 +23,9 @@ VERIFY_SCRIPTS = (
     PROJECT_ROOT / "scripts/verify_ftbquests_titles.py",
 )
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+KUBEJS_OUTPUT = (
+    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/kubejs/lang/ko_kr.json"
+)
 
 
 def sha256(path: Path) -> str:
@@ -34,6 +37,7 @@ def deployment_sources() -> dict[str, Path]:
         files = {
             "resourcepacks/ATM10_Korean/"
             + guides.EXTENDEDAE_LANG_RELATIVE: guides.EXTENDEDAE_LANG_OUTPUT_FILE,
+            "resourcepacks/ATM10_Korean/assets/kubejs/lang/ko_kr.json": (KUBEJS_OUTPUT),
             "config/ftbquests/quests/lang/ko_kr.snbt": QUEST_OUTPUT,
         }
         files.update(
