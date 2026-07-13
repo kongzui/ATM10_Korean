@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 1
+ACTIVE_BATCH = 2
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
@@ -47,6 +47,7 @@ LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / LANG_RELATIVE
 GUIDE_SOURCE_ROOTS = {
     "ae2": PurePosixPath("assets/ae2/ae2guide"),
     "ae2wtlib": PurePosixPath("assets/ae2wtlib/ae2guide"),
+    "enderdrives": PurePosixPath("assets/enderdrives/ae2guide"),
 }
 GUIDE_ITEM_NAMES = {
     "item.ae2wtlib.magnet_card": "ae2wtlib/magnet_card.md",
@@ -70,6 +71,19 @@ ITEM_TAG_RE = re.compile(
 RECIPE_FOR_RE = re.compile(r'<RecipeFor\b[^>]*\bid="([^"]+)"')
 RECIPE_RE = re.compile(r'<Recipe\b[^>]*\bid="([^"]+)"')
 VOID_TAGS = {"br", "hr", "img", "input", "meta", "link"}
+
+ENDERDRIVES_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/enderdrives"
+ENDERDRIVES_GUIDE_WORKING_ROOT = ENDERDRIVES_WORKING_ROOT / "ae2guide/_ko_kr"
+ENDERDRIVES_LANG_WORKING_FILE = ENDERDRIVES_WORKING_ROOT / "lang/ko_kr.json"
+ENDERDRIVES_GUIDE_FILES = (
+    "enderdrives_intro/enderdrives_intro-index.md",
+    "enderdrives_intro/enderdrives_intro.md",
+    "enderdrives_intro/tapedrive_intro.md",
+)
+ENDERDRIVES_GUIDE_OUTPUT_ROOT = RESOURCEPACK_ROOT / "assets/enderdrives/ae2guide/_ko_kr"
+ENDERDRIVES_LANG_RELATIVE = "assets/enderdrives/lang/ko_kr.json"
+ENDERDRIVES_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / ENDERDRIVES_LANG_RELATIVE
+NUMBER_RE = re.compile(r"(?<![\w.])\d[\d,]*(?:\.\d+)?(?:\^\d+)?(?:k|K)?")
 
 
 def find_single_jar(instance: Path, pattern: str, label: str) -> Path:
@@ -279,7 +293,7 @@ def guide_output_path(namespace: str, relative: str) -> Path:
     return GUIDE_OUTPUT_ROOT / relative
 
 
-def validate(instance: Path, compare_output: bool) -> dict[str, object]:
+def validate_ae2wtlib(instance: Path, compare_output: bool) -> dict[str, object]:
     jars = find_jars(instance)
     errors = []
     expected_working = set(ADDON_GUIDE_FILES)
@@ -397,8 +411,8 @@ def validate(instance: Path, compare_output: bool) -> dict[str, object]:
             archive.close()
 
 
-def build(instance: Path) -> dict[str, object]:
-    validation = validate(instance, compare_output=False)
+def build_ae2wtlib(instance: Path) -> dict[str, object]:
+    validation = validate_ae2wtlib(instance, compare_output=False)
     errors = validation["errors"]
     assert isinstance(errors, list)
     if errors:
@@ -414,7 +428,7 @@ def build(instance: Path) -> dict[str, object]:
     LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     LANG_OUTPUT_FILE.write_bytes(LANG_WORKING_FILE.read_bytes())
 
-    post_validation = validate(instance, compare_output=True)
+    post_validation = validate_ae2wtlib(instance, compare_output=True)
     post_errors = post_validation["errors"]
     assert isinstance(post_errors, list)
     if post_errors:
@@ -470,6 +484,201 @@ def build(instance: Path) -> dict[str, object]:
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return result
+
+
+def validate_numbers(relative: str, source: str, translated: str) -> list[str]:
+    expected = sorted(NUMBER_RE.findall(core.extract_visible_text(source)))
+    actual = sorted(NUMBER_RE.findall(core.extract_visible_text(translated)))
+    if expected == actual:
+        return []
+    return [f"{relative}: 숫자 표기가 다릅니다: {expected} != {actual}"]
+
+
+def validate_enderdrives(instance: Path, compare_output: bool) -> dict[str, object]:
+    jars = {
+        "ae2": find_single_jar(instance, "appliedenergistics2-*.jar", "AE2"),
+        "ae2wtlib": find_single_jar(instance, "ae2wtlib-*.jar", "AE2WTLib"),
+        "enderdrives": find_single_jar(instance, "enderdrives-*.jar", "EnderDrives"),
+    }
+    errors: list[str] = []
+    expected_working = set(ENDERDRIVES_GUIDE_FILES)
+    actual_working = {
+        path.relative_to(ENDERDRIVES_GUIDE_WORKING_ROOT).as_posix()
+        for path in ENDERDRIVES_GUIDE_WORKING_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if actual_working != expected_working:
+        errors.append(
+            "EnderDrives 작업본 목록이 다릅니다: "
+            f"누락={sorted(expected_working - actual_working)}, "
+            f"불필요={sorted(actual_working - expected_working)}"
+        )
+    if not ENDERDRIVES_LANG_WORKING_FILE.is_file():
+        errors.append(
+            f"EnderDrives 언어 작업본이 없습니다: {ENDERDRIVES_LANG_WORKING_FILE}"
+        )
+
+    archives = {namespace: zipfile.ZipFile(path) for namespace, path in jars.items()}
+    try:
+        archive_names = {
+            namespace: set(archive.namelist())
+            for namespace, archive in archives.items()
+        }
+        source_lang = load_archive_json_unique(
+            archives["enderdrives"], "assets/enderdrives/lang/en_us.json"
+        )
+        translated_lang = load_json_unique(ENDERDRIVES_LANG_WORKING_FILE)
+        errors.extend(validate_language(source_lang, translated_lang))
+
+        source_words = 0
+        for relative in ENDERDRIVES_GUIDE_FILES:
+            entry = (GUIDE_SOURCE_ROOTS["enderdrives"] / relative).as_posix()
+            source = archives["enderdrives"].read(entry).decode("utf-8-sig")
+            working_path = ENDERDRIVES_GUIDE_WORKING_ROOT / relative
+            if not working_path.is_file():
+                errors.append(f"가이드 작업본이 없습니다: {working_path}")
+                continue
+            translated = working_path.read_text(encoding="utf-8")
+            pair_errors = core.validate_pair(relative, source, translated)
+            if relative.endswith("-index.md"):
+                pair_errors = [
+                    error
+                    for error in pair_errors
+                    if "한국어 본문을 찾을 수 없습니다" not in error
+                ]
+            errors.extend(pair_errors)
+            errors.extend(validate_numbers(relative, source, translated))
+            errors.extend(validate_tag_nesting(relative, translated))
+            errors.extend(
+                validate_resources(archive_names, "enderdrives", relative, translated)
+            )
+            source_words += len(
+                core.ENGLISH_WORD_RE.findall(core.extract_visible_text(source))
+            )
+            if working_path.read_bytes().startswith(b"\xef\xbb\xbf"):
+                errors.append(f"{working_path}: UTF-8 BOM이 있습니다.")
+            if compare_output:
+                output_path = ENDERDRIVES_GUIDE_OUTPUT_ROOT / relative
+                if not output_path.is_file():
+                    errors.append(f"가이드 출력 파일이 없습니다: {output_path}")
+                elif working_path.read_bytes() != output_path.read_bytes():
+                    errors.append(f"{relative}: 작업본과 출력이 다릅니다.")
+
+        if compare_output:
+            output_files = {
+                path.relative_to(ENDERDRIVES_GUIDE_OUTPUT_ROOT).as_posix()
+                for path in ENDERDRIVES_GUIDE_OUTPUT_ROOT.rglob("*.md")
+                if path.is_file()
+            }
+            if output_files != expected_working:
+                errors.append(
+                    "EnderDrives 출력 목록이 다릅니다: "
+                    f"누락={sorted(expected_working - output_files)}, "
+                    f"불필요={sorted(output_files - expected_working)}"
+                )
+            if not ENDERDRIVES_LANG_OUTPUT_FILE.is_file():
+                errors.append(
+                    "EnderDrives 언어 출력 파일이 없습니다: "
+                    f"{ENDERDRIVES_LANG_OUTPUT_FILE}"
+                )
+            elif (
+                ENDERDRIVES_LANG_WORKING_FILE.read_bytes()
+                != ENDERDRIVES_LANG_OUTPUT_FILE.read_bytes()
+            ):
+                errors.append("EnderDrives 언어 작업본과 출력이 다릅니다.")
+
+        return {
+            "jars": jars,
+            "source_words": source_words,
+            "source_lang": source_lang,
+            "translated_lang": translated_lang,
+            "existing_korean_reused": 0,
+            "new_or_revised_translations": len(translated_lang),
+            "guide_pages": len(ENDERDRIVES_GUIDE_FILES),
+            "new_guide_pages": len(ENDERDRIVES_GUIDE_FILES),
+            "core_compatibility_updates": 0,
+            "errors": errors,
+        }
+    finally:
+        for archive in archives.values():
+            archive.close()
+
+
+def build_enderdrives(instance: Path) -> dict[str, object]:
+    validation = validate_enderdrives(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    for relative in ENDERDRIVES_GUIDE_FILES:
+        source = ENDERDRIVES_GUIDE_WORKING_ROOT / relative
+        target = ENDERDRIVES_GUIDE_OUTPUT_ROOT / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
+    ENDERDRIVES_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    ENDERDRIVES_LANG_OUTPUT_FILE.write_bytes(ENDERDRIVES_LANG_WORKING_FILE.read_bytes())
+
+    post_validation = validate_enderdrives(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jars = validation["jars"]
+    assert isinstance(jars, dict)
+    output_files = {
+        ENDERDRIVES_LANG_RELATIVE: sha256(ENDERDRIVES_LANG_OUTPUT_FILE),
+        **{
+            "assets/enderdrives/ae2guide/_ko_kr/" + relative: sha256(
+                ENDERDRIVES_GUIDE_OUTPUT_ROOT / relative
+            )
+            for relative in ENDERDRIVES_GUIDE_FILES
+        },
+    }
+    result = {
+        "status": "batch_02_completed",
+        "scope": "EnderDrives GuideME guide batch 02",
+        "batch": ACTIVE_BATCH,
+        "source_jars": {
+            namespace: {"name": path.name, "sha256": sha256(path)}
+            for namespace, path in jars.items()
+        },
+        "language": "ko_kr",
+        "guide_pages": len(ENDERDRIVES_GUIDE_FILES),
+        "new_guide_pages": len(ENDERDRIVES_GUIDE_FILES),
+        "core_compatibility_updates": 0,
+        "source_words": validation["source_words"],
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "guide_files": list(ENDERDRIVES_GUIDE_FILES),
+        "output_sha256": output_files,
+        "ftbquests_review": {"related_content_found": False, "keys_updated": 0},
+        "kubejs_user_visible_literals_found": 0,
+        "validation_errors": 0,
+    }
+    PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
+def validate(instance: Path, compare_output: bool) -> dict[str, object]:
+    if ACTIVE_BATCH == 1:
+        return validate_ae2wtlib(instance, compare_output)
+    if ACTIVE_BATCH == 2:
+        return validate_enderdrives(instance, compare_output)
+    raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
+
+
+def build(instance: Path) -> dict[str, object]:
+    if ACTIVE_BATCH == 1:
+        return build_ae2wtlib(instance)
+    if ACTIVE_BATCH == 2:
+        return build_enderdrives(instance)
+    raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
 def main() -> int:

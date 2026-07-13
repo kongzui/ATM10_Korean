@@ -1,7 +1,7 @@
 {
-  "status": "batch_01_completed_and_deployed",
-  "scope": "AE2WTLib GuideME guide batch 01",
-  "batch": 1,
+  "status": "batch_02_completed",
+  "scope": "EnderDrives GuideME guide batch 02",
+  "batch": 2,
   "source_jars": {
     "ae2": {
       "name": "appliedenergistics2-19.2.17.jar",
@@ -10,58 +10,35 @@
     "ae2wtlib": {
       "name": "ae2wtlib-19.5.0.jar",
       "sha256": "decf9a35c6d08c160a65a30fe623fd9c09ad5f5dd1790052917f19c82441bd16"
+    },
+    "enderdrives": {
+      "name": "enderdrives-neoforge-1.21.1-1.4.4.jar",
+      "sha256": "03334f29dadc1e863029d05f66321c70fc2738ce5126ea52056d71b1a68586cc"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 8,
-  "new_guide_pages": 7,
-  "core_compatibility_updates": 1,
-  "source_words": 920,
-  "language_keys": 46,
-  "existing_korean_reused": 4,
+  "guide_pages": 3,
+  "new_guide_pages": 3,
+  "core_compatibility_updates": 0,
+  "source_words": 838,
+  "language_keys": 42,
+  "existing_korean_reused": 0,
   "new_or_revised_translations": 42,
   "guide_files": [
-    "ae2wtlib/ae2wtlib-index.md",
-    "ae2wtlib/magnet_card.md",
-    "ae2wtlib/quantum_bridge_card.md",
-    "ae2wtlib/restock.md",
-    "ae2wtlib/wireless_crafting_terminal.md",
-    "ae2wtlib/wireless_terminals.md",
-    "ae2wtlib/wireless_universal_terminal.md"
+    "enderdrives_intro/enderdrives_intro-index.md",
+    "enderdrives_intro/enderdrives_intro.md",
+    "enderdrives_intro/tapedrive_intro.md"
   ],
-  "core_compatibility_file": "items-blocks-machines/wireless_terminals.md",
   "output_sha256": {
-    "assets/ae2/ae2guide/_ko_kr/items-blocks-machines/wireless_terminals.md": "0bf6f3583c616cedcb92799bdde939a0431af3ccf0c4b0201c2bc3048b39bb88",
-    "assets/ae2wtlib/lang/ko_kr.json": "9936cf452c541895fd83483e5641e786dea2f9e45b1b48e35a21e2a5df2bb0e0",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/ae2wtlib-index.md": "a45dd7de86e2d735010aff787785c2d6e8fe7131ae65ee4d427009ffa89dded6",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/magnet_card.md": "1a6f84428660f71f04dd0dfd88dde40e8e192ddabf10267e2846503cc0db1f0c",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/quantum_bridge_card.md": "7b086b6adddfbea93065d3b0dc7df45df07b8ea8fb3fae5b1cb5fd5b9bf40050",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/restock.md": "9f810fce389d26d0ac25c0d797c9c430b778a8cc033e58d0fa8717ac438c8583",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_crafting_terminal.md": "66ba1c2f596556fc9af9e448f4e55b573586eee9baf7319d8aa904578188ae3b",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_terminals.md": "6a94d5294d7933af280fb8016920e3a9dff2688a36846a822c27129659344ac8",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_universal_terminal.md": "df34725e403a48c51a81c2688a64d2758a7d00f07bc4482d5974510e62ed0e99"
+    "assets/enderdrives/lang/ko_kr.json": "e9fe221cc39359026b9131a62b473682c930158c84194373608d8a28565d677a",
+    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro-index.md": "d0de271a049c1bc29b6d6e05bb56fbb0d43eccfc8340345f461da755c7743d65",
+    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro.md": "e22eb669fd8cd9c50956d4f6c206ccefabf947e4d9a2a2debbd18b62b062c261",
+    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/tapedrive_intro.md": "d321ba66427fc1315e46bccc30575fe5a36e332601db63dd41407316e1c0b1be"
   },
   "ftbquests_review": {
-    "related_chapter_found": true,
-    "terminology_mismatch_found": true,
-    "mismatch": "유니버설 무선 터미널 -> 무선 범용 터미널",
-    "keys_updated": 3,
-    "handled_separately": true
+    "related_content_found": false,
+    "keys_updated": 0
   },
   "kubejs_user_visible_literals_found": 0,
-  "deployment": {
-    "applied_at": "2026-07-13T14:36:09+09:00",
-    "roots": [
-      "source_root"
-    ],
-    "game_root_configured": false,
-    "changed_paths": 10,
-    "backup_manifests": [
-      "temp/backups/20260713_143042/backup_manifest.json",
-      "temp/backups/20260713_143608/backup_manifest.json"
-    ],
-    "deployed_hashes_match": true,
-    "unexpected_instance_changes": []
-  },
   "validation_errors": 0
 }

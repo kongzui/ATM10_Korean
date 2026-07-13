@@ -30,6 +30,23 @@ def sha256(path: Path) -> str:
 
 
 def deployment_sources() -> dict[str, Path]:
+    if guides.ACTIVE_BATCH == 2:
+        files = {
+            "resourcepacks/ATM10_Korean/"
+            + guides.ENDERDRIVES_LANG_RELATIVE: guides.ENDERDRIVES_LANG_OUTPUT_FILE,
+        }
+        files.update(
+            {
+                "resourcepacks/ATM10_Korean/assets/enderdrives/ae2guide/_ko_kr/"
+                + relative: guides.ENDERDRIVES_GUIDE_OUTPUT_ROOT / relative
+                for relative in guides.ENDERDRIVES_GUIDE_FILES
+            }
+        )
+        return files
+    if guides.ACTIVE_BATCH != 1:
+        raise ValueError(
+            f"지원하지 않는 연동 모드 가이드 배치입니다: {guides.ACTIVE_BATCH}"
+        )
     files = {
         "resourcepacks/ATM10_Korean/assets/ae2/ae2guide/_ko_kr/"
         + guides.CORE_COMPAT_RELATIVE: guides.CORE_COMPAT_OUTPUT_FILE,

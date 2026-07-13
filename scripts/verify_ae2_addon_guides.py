@@ -26,7 +26,7 @@ def main() -> int:
         progress = json.loads(guides.PROGRESS_FILE.read_text(encoding="utf-8"))
         if progress.get("batch") != guides.ACTIVE_BATCH:
             errors.append("진행 기록의 배치 번호가 다릅니다.")
-        if progress.get("guide_pages") != 8:
+        if progress.get("guide_pages") != validation["guide_pages"]:
             errors.append("진행 기록의 가이드 페이지 수가 다릅니다.")
         if progress.get("language_keys") != len(validation["translated_lang"]):
             errors.append("진행 기록의 언어 키 수가 다릅니다.")
@@ -38,9 +38,9 @@ def main() -> int:
 
     result = {
         "batch": guides.ACTIVE_BATCH,
-        "guide_pages": 8,
-        "new_guide_pages": 7,
-        "core_compatibility_updates": 1,
+        "guide_pages": validation["guide_pages"],
+        "new_guide_pages": validation["new_guide_pages"],
+        "core_compatibility_updates": validation["core_compatibility_updates"],
         "language_keys": len(validation["translated_lang"]),
         "working_output_match": True,
         "missing_files": 0,
