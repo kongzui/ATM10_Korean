@@ -1,60 +1,52 @@
 {
-  "status": "batch_06_completed",
-  "scope": "ExtendedAE networking and input-output GuideME guide batch 06",
-  "batch": 6,
+  "status": "batch_07_completed",
+  "scope": "AdvancedAE automation and input-output GuideME guide batch 07",
+  "batch": 7,
   "source_jars": {
     "ae2": {
       "name": "appliedenergistics2-19.2.17.jar",
       "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
     },
-    "extendedae": {
-      "name": "ExtendedAE-1.21-2.2.33-neoforge.jar",
-      "sha256": "6652ed1ea4b71f585d48c05a195a77594a7a2bd1ecea0fc805db2122aafad734"
+    "advanced_ae": {
+      "name": "AdvancedAE-1.6.11-1.21.1.jar",
+      "sha256": "891e1f8ee0f3ac1bbce03fc2848b761f9c52bea4533eb3419ae849582e15ced7"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 12,
-  "new_guide_pages": 12,
+  "guide_pages": 8,
+  "new_guide_pages": 8,
   "core_compatibility_updates": 0,
-  "source_words": 837,
-  "language_keys": 253,
-  "existing_korean_reused": 36,
-  "new_or_revised_translations": 217,
+  "source_words": 976,
+  "language_keys": 246,
+  "existing_korean_reused": 0,
+  "new_or_revised_translations": 246,
   "guide_files": [
-    "epp_intro/active_formation_plane.md",
-    "epp_intro/extended_io_bus.md",
-    "epp_intro/mod_export_bus.md",
-    "epp_intro/precise_export_bus.md",
-    "epp_intro/smart_annihilation_plane.md",
-    "epp_intro/tag_export_bus.md",
-    "epp_intro/tag_storage_bus.md",
-    "epp_intro/threshold_export_bus.md",
-    "epp_intro/threshold_level_emitter.md",
-    "epp_intro/upgrade_items.md",
-    "epp_intro/wireless_connector.md",
-    "epp_intro/wireless_hub.md"
+    "aae_intro/aae_intro-index.md",
+    "aae_intro/advanced_io_bus.md",
+    "aae_intro/advanced_pattern_encoder.md",
+    "aae_intro/advanced_pattern_provider.md",
+    "aae_intro/app_upgrade_items.md",
+    "aae_intro/import_export_bus.md",
+    "aae_intro/stock_export_bus.md",
+    "aae_intro/throughput_monitor.md"
   ],
   "output_sha256": {
-    "assets/extendedae/lang/ko_kr.json": "aa0c5e592e9fac64bc9b581d2ed4e3a9fafc6e677f483e033da9c48be9f39e5e",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/active_formation_plane.md": "4de0b0ddcc227921f00f6756737cbe7ee002b34fb2396c4caa3d06ab19a957b6",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/extended_io_bus.md": "94bddc66dc849e822818ff8d5c892df92160df63ff8c67bab390c69d672bac07",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/mod_export_bus.md": "a9e4f8ccc9df77b2ce2ee36a1f551380b841c80e787665aba155f56e2aeb4e14",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/precise_export_bus.md": "8ceaea0f464bc01a1123622faa36e3125d763e051d64b719730be05e779c2f61",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/smart_annihilation_plane.md": "10f95a03a2dbe1a8c62690b121c27d774ba8a61fcb4f50af693dedd5041fcb02",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/tag_export_bus.md": "61e0daaf7b6e4c4b2056fd0a49c339018d19514ea806629c9f1ca06c1a885c37",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/tag_storage_bus.md": "50b3379efe80f0e3f4f87476d3afb984f812db1617914b0032cd638f28ac19b5",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/threshold_export_bus.md": "339426721aab5c5b15a01ce8017fe53bf964e94aa732f319f58ef2e7fdf4ed5f",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/threshold_level_emitter.md": "aa01095e46a729acf747f908b43adac4ff32b91ce187ad95094e9a291e22a80d",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/upgrade_items.md": "9ee58a767ca5d607cca49afc80366b0820c96fe034c57566af8ba18d0c959241",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/wireless_connector.md": "51856737fbc8fb12d31b6e6025c2e8c8fd0c9c4c18f6c7f849e18a86ddab210f",
-    "assets/extendedae/ae2guide/_ko_kr/epp_intro/wireless_hub.md": "83bcbdf3f073aa14317e6520bf21483f34291273025bf285c0d780524c1ed641"
+    "assets/advanced_ae/lang/ko_kr.json": "6355631feb867fcb6fe34f45a371e42a57a18550f9cda2d73901ad0b49bc8edc",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/aae_intro-index.md": "6127ba68f9a40efbeb1c0627c7cdc2cf9c03231cb92bf5116bf0a9b69fecb4f2",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_io_bus.md": "f867330ae8c8e5c7dcbc77ab6acdc61af6b0d5e943911621727042ec4833492b",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_pattern_encoder.md": "c1943defa9f7008c51a89e23a88e943dd8da53c4807f61433b923e967a78ec57",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_pattern_provider.md": "9ea43c5677c1f93bdb87cc7ee370876be6bb3676a00e52b22c6fe62137ce688c",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/app_upgrade_items.md": "f0cdaab623247564035251a2f2f9cc497fd3439e6ab5c8982c99665f56a9522a",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/import_export_bus.md": "2da97b0c061b13f566e62baa55827df181a199b7ea559c70e9ae2fadd75aed34",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/stock_export_bus.md": "d4665e979177ff1f880c6322670e55f4780b6cee45b2d1e5f20deac12a948ff6",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/throughput_monitor.md": "3229381048a6fec84eeaf21c47771573cfd15da2e71231dbcd490b29fb61d3cf"
   },
   "ftbquests_review": {
     "related_content_found": true,
-    "keys_updated": 46,
+    "keys_updated": 35,
     "handled_separately": true,
     "pending": false
   },
-  "kubejs_user_visible_literals_found": 37,
+  "kubejs_user_visible_literals_found": 0,
   "validation_errors": 0
 }

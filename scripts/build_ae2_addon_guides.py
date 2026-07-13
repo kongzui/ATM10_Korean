@@ -1455,6 +1455,16 @@ def build_advancedae_batch(instance: Path, batch: int) -> dict[str, object]:
     return result
 
 
+def validate_advancedae_batch_07(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    return validate_advancedae_batch(instance, 7, compare_output)
+
+
+def build_advancedae_batch_07(instance: Path) -> dict[str, object]:
+    return build_advancedae_batch(instance, 7)
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
@@ -1469,7 +1479,7 @@ def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 6:
         return validate_extendedae_batch_06(instance, compare_output)
     if ACTIVE_BATCH == 7:
-        return validate_advancedae_batch(instance, 7, compare_output)
+        return validate_advancedae_batch_07(instance, compare_output)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
@@ -1487,7 +1497,7 @@ def build(instance: Path) -> dict[str, object]:
     if ACTIVE_BATCH == 6:
         return build_extendedae_batch_06(instance)
     if ACTIVE_BATCH == 7:
-        return build_advancedae_batch(instance, 7)
+        return build_advancedae_batch_07(instance)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 

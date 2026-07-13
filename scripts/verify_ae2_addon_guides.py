@@ -54,6 +54,13 @@ BATCHES = (
         PROJECT_ROOT / "working/ae2_addons/batch_06_completion.json",
         12,
     ),
+    (
+        7,
+        "AdvancedAE",
+        guides.validate_advancedae_batch_07,
+        PROJECT_ROOT / "working/ae2_addons/batch_07_completion.json",
+        8,
+    ),
 )
 
 
