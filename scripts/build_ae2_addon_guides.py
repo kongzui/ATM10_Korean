@@ -1648,6 +1648,194 @@ def build_advancedae_batch_08(instance: Path) -> dict[str, object]:
     return build_advancedae_batch(instance, 8)
 
 
+def validate_megacells_batch(
+    instance: Path, batch: int, compare_output: bool
+) -> dict[str, object]:
+    if batch not in MEGACELLS_BATCH_GUIDE_FILES:
+        raise ValueError(f"지원하지 않는 MEGA Cells 가이드 배치입니다: {batch}")
+    validation = validate_megacells_language(instance, compare_output)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    batch_files = MEGACELLS_BATCH_GUIDE_FILES[batch]
+    expected_all = {
+        relative
+        for batch_number, files in MEGACELLS_BATCH_GUIDE_FILES.items()
+        if batch_number <= batch
+        for relative in files
+    }
+    actual_working = {
+        path.relative_to(MEGACELLS_GUIDE_WORKING_ROOT).as_posix()
+        for path in MEGACELLS_GUIDE_WORKING_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if batch == ACTIVE_BATCH and actual_working != expected_all:
+        errors.append(
+            f"MEGA Cells {batch}차 누적 작업본 목록이 다릅니다: "
+            f"누락={sorted(expected_all - actual_working)}, "
+            f"불필요={sorted(actual_working - expected_all)}"
+        )
+
+    jars = {
+        "ae2": find_single_jar(instance, "appliedenergistics2-*.jar", "AE2"),
+        "megacells": find_single_jar(instance, "megacells-*.jar", "MEGA Cells"),
+    }
+    archives = {namespace: zipfile.ZipFile(path) for namespace, path in jars.items()}
+    try:
+        archive_names = {
+            namespace: set(archive.namelist())
+            for namespace, archive in archives.items()
+        }
+        source_words = 0
+        for relative in batch_files:
+            entry = (GUIDE_SOURCE_ROOTS["megacells"] / relative).as_posix()
+            source = archives["megacells"].read(entry).decode("utf-8-sig")
+            source = source.replace("\r\r\n", "\n").replace("\r\n", "\n")
+            working_path = MEGACELLS_GUIDE_WORKING_ROOT / relative
+            if not working_path.is_file():
+                errors.append(f"가이드 작업본이 없습니다: {working_path}")
+                continue
+            translated = working_path.read_text(encoding="utf-8")
+            errors.extend(core.validate_pair(relative, source, translated))
+            errors.extend(validate_numbers(relative, source, translated))
+            errors.extend(validate_tag_nesting(relative, translated))
+            errors.extend(
+                validate_resources(archive_names, "megacells", relative, translated)
+            )
+            source_words += len(
+                core.ENGLISH_WORD_RE.findall(core.extract_visible_text(source))
+            )
+            if working_path.read_bytes().startswith(b"\xef\xbb\xbf"):
+                errors.append(f"{working_path}: UTF-8 BOM이 있습니다.")
+            if compare_output:
+                output_path = MEGACELLS_GUIDE_OUTPUT_ROOT / relative
+                if not output_path.is_file():
+                    errors.append(f"가이드 출력 파일이 없습니다: {output_path}")
+                elif working_path.read_bytes() != output_path.read_bytes():
+                    errors.append(f"{relative}: 작업본과 출력이 다릅니다.")
+
+        translated_lang = validation["translated_lang"]
+        assert isinstance(translated_lang, dict)
+        for key, relative in MEGACELLS_BATCH_ITEM_NAMES[batch].items():
+            text = (MEGACELLS_GUIDE_WORKING_ROOT / relative).read_text(encoding="utf-8")
+            item_name = translated_lang[key]
+            if item_name not in core.extract_visible_text(text):
+                errors.append(
+                    f"{relative}: 언어 파일의 아이템명이 가이드에 없습니다: {item_name}"
+                )
+
+        if compare_output:
+            output_files = {
+                path.relative_to(MEGACELLS_GUIDE_OUTPUT_ROOT).as_posix()
+                for path in MEGACELLS_GUIDE_OUTPUT_ROOT.rglob("*.md")
+                if path.is_file()
+            }
+            if batch == ACTIVE_BATCH and output_files != expected_all:
+                errors.append(
+                    f"MEGA Cells {batch}차 누적 출력 목록이 다릅니다: "
+                    f"누락={sorted(expected_all - output_files)}, "
+                    f"불필요={sorted(output_files - expected_all)}"
+                )
+
+        validation.update(
+            {
+                "jars": jars,
+                "source_words": source_words,
+                "guide_pages": len(batch_files),
+                "new_guide_pages": len(batch_files),
+                "core_compatibility_updates": 0,
+            }
+        )
+        return validation
+    finally:
+        for archive in archives.values():
+            archive.close()
+
+
+def build_megacells_batch(instance: Path, batch: int) -> dict[str, object]:
+    validation = validate_megacells_batch(instance, batch, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    batch_files = MEGACELLS_BATCH_GUIDE_FILES[batch]
+    for relative in batch_files:
+        source = MEGACELLS_GUIDE_WORKING_ROOT / relative
+        target = MEGACELLS_GUIDE_OUTPUT_ROOT / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
+    MEGACELLS_LANG_OUTPUT_FILE.write_bytes(MEGACELLS_LANG_WORKING_FILE.read_bytes())
+
+    post_validation = validate_megacells_batch(instance, batch, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jars = validation["jars"]
+    assert isinstance(jars, dict)
+    quest_keys, kubejs_keys = megacells_related_counts()
+    result = {
+        "status": f"batch_{batch:02d}_completed",
+        "scope": MEGACELLS_BATCH_SCOPES[batch],
+        "batch": batch,
+        "source_jars": {
+            namespace: {"name": path.name, "sha256": sha256(path)}
+            for namespace, path in jars.items()
+        },
+        "language": "ko_kr",
+        "guide_pages": len(batch_files),
+        "new_guide_pages": len(batch_files),
+        "core_compatibility_updates": 0,
+        "source_words": validation["source_words"],
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "guide_files": list(batch_files),
+        "output_sha256": {
+            MEGACELLS_LANG_RELATIVE: sha256(MEGACELLS_LANG_OUTPUT_FILE),
+            **{
+                "assets/megacells/ae2guide/_ko_kr/" + relative: sha256(
+                    MEGACELLS_GUIDE_OUTPUT_ROOT / relative
+                )
+                for relative in batch_files
+            },
+        },
+        "ftbquests_review": {
+            "related_content_found": True,
+            "keys_updated": quest_keys,
+            "handled_separately": True,
+            "pending": False,
+        },
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "validation_errors": 0,
+    }
+    PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
+def validate_megacells_batch_09(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    return validate_megacells_batch(instance, 9, compare_output)
+
+
+def build_megacells_batch_09(instance: Path) -> dict[str, object]:
+    return build_megacells_batch(instance, 9)
+
+
+def validate_megacells_batch_10(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    return validate_megacells_batch(instance, 10, compare_output)
+
+
+def build_megacells_batch_10(instance: Path) -> dict[str, object]:
+    return build_megacells_batch(instance, 10)
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
@@ -1665,6 +1853,10 @@ def validate(instance: Path, compare_output: bool) -> dict[str, object]:
         return validate_advancedae_batch_07(instance, compare_output)
     if ACTIVE_BATCH == 8:
         return validate_advancedae_batch_08(instance, compare_output)
+    if ACTIVE_BATCH == 9:
+        return validate_megacells_batch_09(instance, compare_output)
+    if ACTIVE_BATCH == 10:
+        return validate_megacells_batch_10(instance, compare_output)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
@@ -1685,6 +1877,10 @@ def build(instance: Path) -> dict[str, object]:
         return build_advancedae_batch_07(instance)
     if ACTIVE_BATCH == 8:
         return build_advancedae_batch_08(instance)
+    if ACTIVE_BATCH == 9:
+        return build_megacells_batch_09(instance)
+    if ACTIVE_BATCH == 10:
+        return build_megacells_batch_10(instance)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 

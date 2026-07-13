@@ -68,6 +68,13 @@ BATCHES = (
         PROJECT_ROOT / "working/ae2_addons/batch_08_completion.json",
         5,
     ),
+    (
+        9,
+        "MEGA Cells",
+        guides.validate_megacells_batch_09,
+        PROJECT_ROOT / "working/ae2_addons/batch_09_completion.json",
+        4,
+    ),
 )
 
 

@@ -1,43 +1,41 @@
 {
-  "status": "batch_08_completed",
-  "scope": "AdvancedAE quantum equipment and machines GuideME guide batch 08",
-  "batch": 8,
+  "status": "batch_09_completed",
+  "scope": "MEGA Cells introduction and storage GuideME guide batch 09",
+  "batch": 9,
   "source_jars": {
     "ae2": {
       "name": "appliedenergistics2-19.2.17.jar",
       "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
     },
-    "advanced_ae": {
-      "name": "AdvancedAE-1.6.11-1.21.1.jar",
-      "sha256": "891e1f8ee0f3ac1bbce03fc2848b761f9c52bea4533eb3419ae849582e15ced7"
+    "megacells": {
+      "name": "megacells-4.11.0.jar",
+      "sha256": "a386bbf12afb11729b0dcf77f64221893d250f22e6185a4d728b9799b230bc55"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 5,
-  "new_guide_pages": 5,
+  "guide_pages": 4,
+  "new_guide_pages": 4,
   "core_compatibility_updates": 0,
-  "source_words": 2250,
-  "language_keys": 246,
+  "source_words": 2718,
+  "language_keys": 134,
   "existing_korean_reused": 0,
-  "new_or_revised_translations": 246,
+  "new_or_revised_translations": 134,
   "guide_files": [
-    "aae_intro/quantum_armor.md",
-    "aae_intro/quantum_computer.md",
-    "aae_intro/quantum_crafter.md",
-    "aae_intro/quantum_crafter_terminal.md",
-    "aae_intro/reaction_chamber.md"
+    "index.md",
+    "storage.md",
+    "bulk_cell.md",
+    "radioactive_cell.md"
   ],
   "output_sha256": {
-    "assets/advanced_ae/lang/ko_kr.json": "6355631feb867fcb6fe34f45a371e42a57a18550f9cda2d73901ad0b49bc8edc",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_armor.md": "ec4157569227664bb2a68d392b591f66039315ce5fb214b3ef4dc6a4c5be63d2",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_computer.md": "67282bb2c31728ff3aef8fb565a0f490b4b40d765cc13c64eae69d8f2923387e",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_crafter.md": "6bb6c73b2fb864909a5265efeb3e9fb2484021b2ecbf6d4defd86a4e332aaec5",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_crafter_terminal.md": "f49110d32df71c5bacec21d0ec88302271cf740356149eba321bdb5dbcbfda12",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/reaction_chamber.md": "ab5eefa0468bd48cb24225bc51b9fc0b943c7d05463bf44369c0f5855f020e5f"
+    "assets/megacells/lang/ko_kr.json": "8d00b87ed7926b604c3ccd08f6319d09249c802098532ff8e243ac3f84c34e8c",
+    "assets/megacells/ae2guide/_ko_kr/index.md": "06dbf673d52a60ff475dce92d9222050cfdf1c48463b089a3e474204dd29a05a",
+    "assets/megacells/ae2guide/_ko_kr/storage.md": "4b9196b0f7f5db8f59a9063014f1d152a082ac490667f9b9c904de390739eea8",
+    "assets/megacells/ae2guide/_ko_kr/bulk_cell.md": "121d19daa3ed5ddc7aaafbbaa7a696ad3e2416778e7ab8e461d84c4b0b37702d",
+    "assets/megacells/ae2guide/_ko_kr/radioactive_cell.md": "7ce1716c08f89ac1ed08282cdcfbc8014f7af0d70ccffc251df45fd7fd532452"
   },
   "ftbquests_review": {
     "related_content_found": true,
-    "keys_updated": 35,
+    "keys_updated": 17,
     "handled_separately": true,
     "pending": false
   },
