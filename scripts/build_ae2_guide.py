@@ -21,7 +21,7 @@ OUTPUT_ROOT = (
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2/guide_progress.json"
 SOURCE_ROOT = PurePosixPath("assets/ae2/ae2guide")
 
-ACTIVE_BATCH = 10
+ACTIVE_BATCH = 11
 BATCHES = {
     1: (
         "index.md",
@@ -142,6 +142,17 @@ BATCHES = {
         "items-blocks-machines/toggle_bus.md",
         "items-blocks-machines/vibration_chamber.md",
         "items-blocks-machines/wireless_access_point.md",
+    ),
+    11: (
+        "items-blocks-machines/formation_annihilation_core.md",
+        "items-blocks-machines/cell_workbench.md",
+        "items-blocks-machines/charger.md",
+        "items-blocks-machines/condenser.md",
+        "items-blocks-machines/crank.md",
+        "items-blocks-machines/growth_accelerator.md",
+        "items-blocks-machines/inscriber.md",
+        "items-blocks-machines/molecular_assembler.md",
+        "items-blocks-machines/sky_stone_tank.md",
     ),
 }
 BATCH_FILES = tuple(
