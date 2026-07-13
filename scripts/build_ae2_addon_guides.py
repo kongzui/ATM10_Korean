@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 5
+ACTIVE_BATCH = 6
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
@@ -177,20 +177,53 @@ EXTENDEDAE_BATCH_05_ITEM_NAMES = {
         "epp_intro/extended_pattern_terminal.md"
     ),
 }
+EXTENDEDAE_BATCH_06_GUIDE_FILES = (
+    "epp_intro/active_formation_plane.md",
+    "epp_intro/extended_io_bus.md",
+    "epp_intro/mod_export_bus.md",
+    "epp_intro/precise_export_bus.md",
+    "epp_intro/smart_annihilation_plane.md",
+    "epp_intro/tag_export_bus.md",
+    "epp_intro/tag_storage_bus.md",
+    "epp_intro/threshold_export_bus.md",
+    "epp_intro/threshold_level_emitter.md",
+    "epp_intro/upgrade_items.md",
+    "epp_intro/wireless_connector.md",
+    "epp_intro/wireless_hub.md",
+)
+EXTENDEDAE_BATCH_06_ITEM_NAMES = {
+    "item.extendedae.active_formation_plane": "epp_intro/active_formation_plane.md",
+    "item.extendedae.ex_import_bus_part": "epp_intro/extended_io_bus.md",
+    "item.extendedae.mod_export_bus": "epp_intro/mod_export_bus.md",
+    "item.extendedae.precise_export_bus": "epp_intro/precise_export_bus.md",
+    "item.extendedae.smart_annihilation_plane": (
+        "epp_intro/smart_annihilation_plane.md"
+    ),
+    "item.extendedae.tag_export_bus": "epp_intro/tag_export_bus.md",
+    "item.extendedae.tag_storage_bus": "epp_intro/tag_storage_bus.md",
+    "item.extendedae.threshold_export_bus": "epp_intro/threshold_export_bus.md",
+    "item.extendedae.threshold_level_emitter": ("epp_intro/threshold_level_emitter.md"),
+    "item.extendedae.pattern_provider_upgrade": "epp_intro/upgrade_items.md",
+    "block.extendedae.wireless_connect": "epp_intro/wireless_connector.md",
+    "block.extendedae.wireless_hub": "epp_intro/wireless_hub.md",
+}
 EXTENDEDAE_BATCH_GUIDE_FILES = {
     3: EXTENDEDAE_BATCH_03_GUIDE_FILES,
     4: EXTENDEDAE_BATCH_04_GUIDE_FILES,
     5: EXTENDEDAE_BATCH_05_GUIDE_FILES,
+    6: EXTENDEDAE_BATCH_06_GUIDE_FILES,
 }
 EXTENDEDAE_BATCH_ITEM_NAMES = {
     3: EXTENDEDAE_BATCH_03_ITEM_NAMES,
     4: EXTENDEDAE_BATCH_04_ITEM_NAMES,
     5: EXTENDEDAE_BATCH_05_ITEM_NAMES,
+    6: EXTENDEDAE_BATCH_06_ITEM_NAMES,
 }
 EXTENDEDAE_BATCH_SCOPES = {
     3: "ExtendedAE materials and introduction GuideME guide batch 03",
     4: "ExtendedAE storage and configuration GuideME guide batch 04",
     5: "ExtendedAE autocrafting and machines GuideME guide batch 05",
+    6: "ExtendedAE networking and input-output GuideME guide batch 06",
 }
 
 
@@ -1014,6 +1047,12 @@ def validate_extendedae_batch_05(
     return validate_extendedae_batch(instance, 5, compare_output)
 
 
+def validate_extendedae_batch_06(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    return validate_extendedae_batch(instance, 6, compare_output)
+
+
 def build_extendedae_batch(instance: Path, batch: int) -> dict[str, object]:
     validation = validate_extendedae_batch(instance, batch, compare_output=False)
     errors = validation["errors"]
@@ -1092,6 +1131,10 @@ def build_extendedae_batch_05(instance: Path) -> dict[str, object]:
     return build_extendedae_batch(instance, 5)
 
 
+def build_extendedae_batch_06(instance: Path) -> dict[str, object]:
+    return build_extendedae_batch(instance, 6)
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
@@ -1103,6 +1146,8 @@ def validate(instance: Path, compare_output: bool) -> dict[str, object]:
         return validate_extendedae_batch_04(instance, compare_output)
     if ACTIVE_BATCH == 5:
         return validate_extendedae_batch_05(instance, compare_output)
+    if ACTIVE_BATCH == 6:
+        return validate_extendedae_batch_06(instance, compare_output)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
@@ -1117,6 +1162,8 @@ def build(instance: Path) -> dict[str, object]:
         return build_extendedae_batch_04(instance)
     if ACTIVE_BATCH == 5:
         return build_extendedae_batch_05(instance)
+    if ACTIVE_BATCH == 6:
+        return build_extendedae_batch_06(instance)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
