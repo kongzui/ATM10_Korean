@@ -1,0 +1,29 @@
+{
+  "status": "ae2importexportcard_full_language_completed",
+  "scope": "AE2 Import Export Card full language file before guide batch 13",
+  "batch": 13,
+  "source_jars": {
+    "ae2importexportcard": {
+      "name": "ae2importexportcard-1.21.1-1.5.0.jar",
+      "sha256": "63c59264947c2b386f5576971cd5c2fee0efd9eec6da7fb2992ef38117dc35bd"
+    }
+  },
+  "language": "ko_kr",
+  "language_keys": 5,
+  "existing_korean_reused": 1,
+  "existing_korean_corrected": 4,
+  "new_translations": 0,
+  "ftbquests_keys_updated": 0,
+  "kubejs_files_reviewed": 0,
+  "kubejs_user_visible_literals_found": 0,
+  "apply_roots": [],
+  "game_root_configured": true,
+  "application_pending": true,
+  "application_pending_reason": "Minecraft와 Java 프로세스가 실행 중입니다.",
+  "original_jars_modified": false,
+  "unexpected_instance_changes": [],
+  "output_sha256": {
+    "assets/ae2importexportcard/lang/ko_kr.json": "96baa497fed1b3a3be04b056b201b2abff680fe5f8b93247389bbd8bc7d4ae7b"
+  },
+  "validation_errors": 0
+}

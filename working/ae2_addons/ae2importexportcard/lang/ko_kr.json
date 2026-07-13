@@ -1,0 +1,7 @@
+{
+  "itemGroup.ae2importexportcard": "AE2 Import Export Card",
+  "item.ae2importexportcard.import_card": "반입 카드",
+  "item.ae2importexportcard.export_card": "반출 카드",
+  "gui.ae2importexportcard.whitelist": "허용 목록",
+  "gui.ae2importexportcard.blacklist": "차단 목록"
+}

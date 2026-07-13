@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 12
+ACTIVE_BATCH = 13
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
@@ -395,6 +395,20 @@ EXPANDEDAE_BATCH_12_ITEM_NAMES = {
     "item.expandedae.exp_encoding_terminal": "exp_encoding.md",
     "item.expandedae.exp_pattern_provider_part": "exp_pp.md",
 }
+
+IMPORTEXPORT_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/ae2importexportcard"
+IMPORTEXPORT_LANG_WORKING_FILE = IMPORTEXPORT_WORKING_ROOT / "lang/ko_kr.json"
+IMPORTEXPORT_LANG_RELATIVE = "assets/ae2importexportcard/lang/ko_kr.json"
+IMPORTEXPORT_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / IMPORTEXPORT_LANG_RELATIVE
+IMPORTEXPORT_GUIDE_WORKING_ROOT = IMPORTEXPORT_WORKING_ROOT / "ae2guide/_ko_kr"
+IMPORTEXPORT_GUIDE_RELATIVE = "ae2importexportcard-index.md"
+IMPORTEXPORT_GUIDE_OUTPUT_FILE = (
+    RESOURCEPACK_ROOT / "assets/ae2/ae2guide/_ko_kr" / IMPORTEXPORT_GUIDE_RELATIVE
+)
+IMPORTEXPORT_QUEST_OVERRIDES_FILE = IMPORTEXPORT_WORKING_ROOT / "quest_overrides.json"
+IMPORTEXPORT_LANGUAGE_COMPLETION_FILE = (
+    IMPORTEXPORT_WORKING_ROOT / "language_completion.json"
+)
 
 
 def find_single_jar(instance: Path, pattern: str, label: str) -> Path:
@@ -1789,6 +1803,123 @@ def build_expandedae_language(instance: Path) -> dict[str, object]:
     return result
 
 
+def importexport_related_counts() -> tuple[int, int]:
+    quest_overrides = json.loads(
+        IMPORTEXPORT_QUEST_OVERRIDES_FILE.read_text(encoding="utf-8")
+    )
+    return len(quest_overrides), 0
+
+
+def validate_importexport_language(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    jar = find_single_jar(
+        instance, "ae2importexportcard-*.jar", "AE2 Import Export Card"
+    )
+    errors: list[str] = []
+    with zipfile.ZipFile(jar) as archive:
+        source_lang = load_archive_json_unique(
+            archive, "assets/ae2importexportcard/lang/en_us.json"
+        )
+        candidate_lang = load_archive_json_unique(
+            archive, "assets/ae2importexportcard/lang/ko_kr.json"
+        )
+    if not IMPORTEXPORT_LANG_WORKING_FILE.is_file():
+        errors.append(
+            "AE2 Import Export Card 언어 작업본이 없습니다: "
+            f"{IMPORTEXPORT_LANG_WORKING_FILE}"
+        )
+        translated_lang: dict[str, str] = {}
+    else:
+        translated_lang = load_json_unique(IMPORTEXPORT_LANG_WORKING_FILE)
+        errors.extend(validate_language(source_lang, translated_lang))
+        if list(source_lang) != list(translated_lang):
+            errors.append("AE2 Import Export Card 언어 키 순서가 영어 원문과 다릅니다.")
+        if IMPORTEXPORT_LANG_WORKING_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
+            errors.append(f"{IMPORTEXPORT_LANG_WORKING_FILE}: UTF-8 BOM이 있습니다.")
+
+    if compare_output:
+        if not IMPORTEXPORT_LANG_OUTPUT_FILE.is_file():
+            errors.append(
+                "AE2 Import Export Card 언어 출력 파일이 없습니다: "
+                f"{IMPORTEXPORT_LANG_OUTPUT_FILE}"
+            )
+        elif (
+            IMPORTEXPORT_LANG_WORKING_FILE.read_bytes()
+            != IMPORTEXPORT_LANG_OUTPUT_FILE.read_bytes()
+        ):
+            errors.append("AE2 Import Export Card 언어 작업본과 출력이 다릅니다.")
+
+    reused = sum(
+        candidate_lang.get(key) == value
+        for key, value in translated_lang.items()
+        if key in candidate_lang
+    )
+    return {
+        "jars": {"ae2importexportcard": jar},
+        "source_words": 0,
+        "source_lang": source_lang,
+        "candidate_lang": candidate_lang,
+        "translated_lang": translated_lang,
+        "existing_korean_reused": reused,
+        "existing_korean_corrected": sum(
+            key in candidate_lang and candidate_lang[key] != value
+            for key, value in translated_lang.items()
+        ),
+        "new_translations": sum(key not in candidate_lang for key in translated_lang),
+        "new_or_revised_translations": len(translated_lang) - reused,
+        "guide_pages": 0,
+        "new_guide_pages": 0,
+        "core_compatibility_updates": 0,
+        "errors": errors,
+    }
+
+
+def build_importexport_language(instance: Path) -> dict[str, object]:
+    validation = validate_importexport_language(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    IMPORTEXPORT_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    IMPORTEXPORT_LANG_OUTPUT_FILE.write_bytes(
+        IMPORTEXPORT_LANG_WORKING_FILE.read_bytes()
+    )
+    post_validation = validate_importexport_language(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jar = validation["jars"]["ae2importexportcard"]  # type: ignore[index]
+    assert isinstance(jar, Path)
+    quest_keys, kubejs_keys = importexport_related_counts()
+    result = {
+        "status": "ae2importexportcard_full_language_completed",
+        "scope": "AE2 Import Export Card full language file before guide batch 13",
+        "batch": 13,
+        "source_jars": {
+            "ae2importexportcard": {"name": jar.name, "sha256": sha256(jar)}
+        },
+        "language": "ko_kr",
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "existing_korean_corrected": validation["existing_korean_corrected"],
+        "new_translations": validation["new_translations"],
+        "ftbquests_keys_updated": quest_keys,
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "output_sha256": {
+            IMPORTEXPORT_LANG_RELATIVE: sha256(IMPORTEXPORT_LANG_OUTPUT_FILE)
+        },
+        "validation_errors": 0,
+    }
+    IMPORTEXPORT_LANGUAGE_COMPLETION_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate_advancedae_batch(
     instance: Path, batch: int, compare_output: bool
 ) -> dict[str, object]:
@@ -2549,6 +2680,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--instance", type=Path)
     parser.add_argument("--language-only", action="store_true")
+    parser.add_argument(
+        "--mod",
+        choices=("ae2importexportcard", "ae2netanalyser"),
+        help="13차에서 처리할 소형 유틸리티 모드",
+    )
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
     if args.language_only and ACTIVE_BATCH in {7, 8}:
@@ -2559,6 +2695,10 @@ def main() -> int:
         result = build_appflux_language(instance)
     elif args.language_only and ACTIVE_BATCH == 12:
         result = build_expandedae_language(instance)
+    elif (
+        args.language_only and ACTIVE_BATCH == 13 and args.mod == "ae2importexportcard"
+    ):
+        result = build_importexport_language(instance)
     elif args.language_only:
         raise ValueError(f"{ACTIVE_BATCH}차는 언어 전용 빌드를 지원하지 않습니다.")
     else:
