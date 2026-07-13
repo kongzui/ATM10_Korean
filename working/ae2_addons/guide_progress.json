@@ -1,43 +1,31 @@
 {
-  "status": "batch_12_completed",
-  "scope": "ExpandedAE GuideME guide batch 12",
-  "batch": 12,
+  "status": "batch_13_importexport_completed",
+  "scope": "AE2 Import Export Card GuideME guide batch 13",
+  "batch": 13,
   "source_jars": {
     "ae2": {
       "name": "appliedenergistics2-19.2.17.jar",
       "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
     },
-    "ae2wtlib": {
-      "name": "ae2wtlib-19.5.0.jar",
-      "sha256": "decf9a35c6d08c160a65a30fe623fd9c09ad5f5dd1790052917f19c82441bd16"
-    },
-    "expandedae": {
-      "name": "expandedae-2.1.1.jar",
-      "sha256": "f39c0eb9c6271f54a44ffee092a29520f53000d1005849e6afada3ad9dffba14"
+    "ae2importexportcard": {
+      "name": "ae2importexportcard-1.21.1-1.5.0.jar",
+      "sha256": "63c59264947c2b386f5576971cd5c2fee0efd9eec6da7fb2992ef38117dc35bd"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 5,
-  "new_guide_pages": 5,
+  "guide_pages": 1,
+  "new_guide_pages": 1,
   "core_compatibility_updates": 0,
-  "source_words": 339,
-  "language_keys": 69,
-  "existing_korean_reused": 0,
-  "new_or_revised_translations": 69,
+  "source_words": 205,
+  "language_keys": 5,
+  "existing_korean_reused": 1,
+  "new_or_revised_translations": 4,
   "guide_files": [
-    "cards.md",
-    "exp_encoding.md",
-    "exp_pp.md",
-    "expandedae-index.md",
-    "qol-features.md"
+    "ae2importexportcard-index.md"
   ],
   "output_sha256": {
-    "assets/expandedae/lang/ko_kr.json": "b157ffb44845f58f3c1de544906312b073e2bd8b2c76f4b2f4d0bfb0dd77afb3",
-    "assets/expandedae/ae2guide/_ko_kr/cards.md": "1ff58b683146071e6c63b4399e3b86926844fbc88a44d8513c39a5252b6b70e2",
-    "assets/expandedae/ae2guide/_ko_kr/exp_encoding.md": "fad7ce430c77df28c0ce5a7abd103cf56e7dd2c2786bc0cc354c934df23fc3e4",
-    "assets/expandedae/ae2guide/_ko_kr/exp_pp.md": "cbc70d5f818bcf9fcca410486d593a5841b07cb55fabc5440d3ae4acf5abdc87",
-    "assets/expandedae/ae2guide/_ko_kr/expandedae-index.md": "9bae828aa72faa91cc9c9541673327ce681ec920f8d56e846b82078c9b083f64",
-    "assets/expandedae/ae2guide/_ko_kr/qol-features.md": "7bc6ccb7544d6d603546dba4ac1a6dda8db92f39688220735e32194cd3191857"
+    "assets/ae2importexportcard/lang/ko_kr.json": "96baa497fed1b3a3be04b056b201b2abff680fe5f8b93247389bbd8bc7d4ae7b",
+    "assets/ae2/ae2guide/_ko_kr/ae2importexportcard-index.md": "d96310b51564bc5ae96e4a294fdc57feaba5cb876b5da29e13184af83777ac2d"
   },
   "ftbquests_review": {
     "related_content_found": false,
@@ -45,6 +33,6 @@
     "handled_separately": true,
     "pending": false
   },
-  "kubejs_user_visible_literals_found": 1,
+  "kubejs_user_visible_literals_found": 0,
   "validation_errors": 0
 }

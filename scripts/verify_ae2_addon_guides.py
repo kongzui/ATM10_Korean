@@ -96,6 +96,13 @@ BATCHES = (
         PROJECT_ROOT / "working/ae2_addons/batch_12_completion.json",
         5,
     ),
+    (
+        13,
+        "AE2 Import Export Card",
+        guides.validate_importexport_guide,
+        PROJECT_ROOT / "working/ae2_addons/batch_13_importexport_completion.json",
+        1,
+    ),
 )
 
 

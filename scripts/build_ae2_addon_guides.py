@@ -2620,6 +2620,153 @@ def build_expandedae_batch_12(instance: Path) -> dict[str, object]:
     return result
 
 
+def validate_importexport_guide(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    validation = validate_importexport_language(instance, compare_output)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    working_files = {
+        path.relative_to(IMPORTEXPORT_GUIDE_WORKING_ROOT).as_posix()
+        for path in IMPORTEXPORT_GUIDE_WORKING_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if working_files != {IMPORTEXPORT_GUIDE_RELATIVE}:
+        errors.append(
+            "AE2 Import Export Card 가이드 작업본 목록이 다릅니다: "
+            f"{sorted(working_files)}"
+        )
+
+    jars = {
+        "ae2": find_single_jar(instance, "appliedenergistics2-*.jar", "AE2"),
+        "ae2importexportcard": find_single_jar(
+            instance, "ae2importexportcard-*.jar", "AE2 Import Export Card"
+        ),
+    }
+    archives = {namespace: zipfile.ZipFile(path) for namespace, path in jars.items()}
+    try:
+        archive_names = {
+            namespace: set(archive.namelist())
+            for namespace, archive in archives.items()
+        }
+        source = (
+            archives["ae2importexportcard"]
+            .read("assets/ae2/ae2guide/ae2importexportcard-index.md")
+            .decode("utf-8-sig")
+        )
+        source = source.replace("\r\r\n", "\n").replace("\r\n", "\n")
+        translated = (
+            IMPORTEXPORT_GUIDE_WORKING_ROOT / IMPORTEXPORT_GUIDE_RELATIVE
+        ).read_text(encoding="utf-8")
+        errors.extend(
+            core.validate_pair(IMPORTEXPORT_GUIDE_RELATIVE, source, translated)
+        )
+        errors.extend(validate_numbers(IMPORTEXPORT_GUIDE_RELATIVE, source, translated))
+        errors.extend(validate_tag_nesting(IMPORTEXPORT_GUIDE_RELATIVE, translated))
+        errors.extend(
+            validate_resources(
+                archive_names, "ae2", IMPORTEXPORT_GUIDE_RELATIVE, translated
+            )
+        )
+        translated_lang = validation["translated_lang"]
+        assert isinstance(translated_lang, dict)
+        visible = core.extract_visible_text(translated)
+        for key in (
+            "item.ae2importexportcard.import_card",
+            "item.ae2importexportcard.export_card",
+        ):
+            if translated_lang[key] not in visible:
+                errors.append(
+                    f"{IMPORTEXPORT_GUIDE_RELATIVE}: 아이템명이 없습니다: "
+                    f"{translated_lang[key]}"
+                )
+        working_path = IMPORTEXPORT_GUIDE_WORKING_ROOT / IMPORTEXPORT_GUIDE_RELATIVE
+        if working_path.read_bytes().startswith(b"\xef\xbb\xbf"):
+            errors.append(f"{working_path}: UTF-8 BOM이 있습니다.")
+        if compare_output:
+            if not IMPORTEXPORT_GUIDE_OUTPUT_FILE.is_file():
+                errors.append(
+                    f"가이드 출력 파일이 없습니다: {IMPORTEXPORT_GUIDE_OUTPUT_FILE}"
+                )
+            elif (
+                working_path.read_bytes() != IMPORTEXPORT_GUIDE_OUTPUT_FILE.read_bytes()
+            ):
+                errors.append("AE2 Import Export Card 가이드 작업본과 출력이 다릅니다.")
+
+        validation.update(
+            {
+                "jars": jars,
+                "source_words": len(
+                    core.ENGLISH_WORD_RE.findall(core.extract_visible_text(source))
+                ),
+                "guide_pages": 1,
+                "new_guide_pages": 1,
+                "core_compatibility_updates": 0,
+            }
+        )
+        return validation
+    finally:
+        for archive in archives.values():
+            archive.close()
+
+
+def build_importexport_guide(instance: Path) -> dict[str, object]:
+    validation = validate_importexport_guide(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    IMPORTEXPORT_GUIDE_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    IMPORTEXPORT_GUIDE_OUTPUT_FILE.write_bytes(
+        (IMPORTEXPORT_GUIDE_WORKING_ROOT / IMPORTEXPORT_GUIDE_RELATIVE).read_bytes()
+    )
+    post_validation = validate_importexport_guide(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jars = validation["jars"]
+    assert isinstance(jars, dict)
+    result = {
+        "status": "batch_13_importexport_completed",
+        "scope": "AE2 Import Export Card GuideME guide batch 13",
+        "batch": 13,
+        "source_jars": {
+            namespace: {"name": path.name, "sha256": sha256(path)}
+            for namespace, path in jars.items()
+        },
+        "language": "ko_kr",
+        "guide_pages": 1,
+        "new_guide_pages": 1,
+        "core_compatibility_updates": 0,
+        "source_words": validation["source_words"],
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "guide_files": [IMPORTEXPORT_GUIDE_RELATIVE],
+        "output_sha256": {
+            IMPORTEXPORT_LANG_RELATIVE: sha256(IMPORTEXPORT_LANG_OUTPUT_FILE),
+            "assets/ae2/ae2guide/_ko_kr/" + IMPORTEXPORT_GUIDE_RELATIVE: sha256(
+                IMPORTEXPORT_GUIDE_OUTPUT_FILE
+            ),
+        },
+        "ftbquests_review": {
+            "related_content_found": False,
+            "keys_updated": 0,
+            "handled_separately": True,
+            "pending": False,
+        },
+        "kubejs_user_visible_literals_found": 0,
+        "validation_errors": 0,
+    }
+    PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
@@ -2701,6 +2848,8 @@ def main() -> int:
         result = build_importexport_language(instance)
     elif args.language_only:
         raise ValueError(f"{ACTIVE_BATCH}차는 언어 전용 빌드를 지원하지 않습니다.")
+    elif ACTIVE_BATCH == 13 and args.mod == "ae2importexportcard":
+        result = build_importexport_guide(instance)
     else:
         result = build(instance)
     print(json.dumps(result, ensure_ascii=False, indent=2))
