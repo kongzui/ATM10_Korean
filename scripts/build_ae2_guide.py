@@ -21,7 +21,7 @@ OUTPUT_ROOT = (
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2/guide_progress.json"
 SOURCE_ROOT = PurePosixPath("assets/ae2/ae2guide")
 
-ACTIVE_BATCH = 8
+ACTIVE_BATCH = 9
 BATCHES = {
     1: (
         "index.md",
@@ -102,6 +102,29 @@ BATCHES = {
         "items-blocks-machines/sky_dust.md",
         "items-blocks-machines/sky_stone.md",
         "items-blocks-machines/tiny_tnt.md",
+    ),
+    9: (
+        "items-blocks-machines/cutting_knives.md",
+        "items-blocks-machines/matter_cannon.md",
+        "items-blocks-machines/fluix_upgrade_smithing_template.md",
+        "items-blocks-machines/meteorite_compass.md",
+        "items-blocks-machines/spatial_cells.md",
+        "items-blocks-machines/guide.md",
+        "items-blocks-machines/patterns.md",
+        "items-blocks-machines/color_applicator.md",
+        "items-blocks-machines/wireless_receiver.md",
+        "items-blocks-machines/network_tool.md",
+        "items-blocks-machines/charged_staff.md",
+        "items-blocks-machines/quartz_tools.md",
+        "items-blocks-machines/wrench.md",
+        "items-blocks-machines/fluix_tools.md",
+        "items-blocks-machines/wireless_terminals.md",
+        "items-blocks-machines/upgrade_cards.md",
+        "items-blocks-machines/paintballs.md",
+        "items-blocks-machines/view_cell.md",
+        "items-blocks-machines/storage_cells.md",
+        "items-blocks-machines/entropy_manipulator.md",
+        "items-blocks-machines/memory_card.md",
     ),
 }
 BATCH_FILES = tuple(
