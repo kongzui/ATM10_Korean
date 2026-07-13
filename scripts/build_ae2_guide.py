@@ -21,7 +21,7 @@ OUTPUT_ROOT = (
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2/guide_progress.json"
 SOURCE_ROOT = PurePosixPath("assets/ae2/ae2guide")
 
-ACTIVE_BATCH = 7
+ACTIVE_BATCH = 8
 BATCHES = {
     1: (
         "index.md",
@@ -73,6 +73,35 @@ BATCHES = {
         "example-setups/recursive-crafting-setup.md",
         "example-setups/regulated-cobble-gen.md",
         "example-setups/throw-in-water-automation.md",
+    ),
+    8: (
+        "items-blocks-machines/items-blocks-machines-index.md",
+        "items-blocks-machines/budding_certus.md",
+        "items-blocks-machines/certus_quartz_crystal.md",
+        "items-blocks-machines/certus_quartz_crystal_charged.md",
+        "items-blocks-machines/certus_quartz_dust.md",
+        "items-blocks-machines/crystal_resonance_generator.md",
+        "items-blocks-machines/decorative_certus.md",
+        "items-blocks-machines/decorative_fluix.md",
+        "items-blocks-machines/decorative_sky_stone.md",
+        "items-blocks-machines/ender_dust.md",
+        "items-blocks-machines/fluix_block.md",
+        "items-blocks-machines/fluix_crystal.md",
+        "items-blocks-machines/fluix_dust.md",
+        "items-blocks-machines/fluix_pearl.md",
+        "items-blocks-machines/fluix_researcher.md",
+        "items-blocks-machines/illuminated_panels.md",
+        "items-blocks-machines/matter_ball.md",
+        "items-blocks-machines/mysterious_cube.md",
+        "items-blocks-machines/presses.md",
+        "items-blocks-machines/processors.md",
+        "items-blocks-machines/quartz_block.md",
+        "items-blocks-machines/quartz_fixture.md",
+        "items-blocks-machines/quartz_glass.md",
+        "items-blocks-machines/singularities.md",
+        "items-blocks-machines/sky_dust.md",
+        "items-blocks-machines/sky_stone.md",
+        "items-blocks-machines/tiny_tnt.md",
     ),
 }
 BATCH_FILES = tuple(
