@@ -54,6 +54,7 @@ GUIDE_SOURCE_ROOTS = {
     "appflux": PurePosixPath("assets/appflux/ae2guide"),
     "expandedae": PurePosixPath("assets/expandedae/ae2guide"),
     "ae2netanalyser": PurePosixPath("assets/ae2netanalyser/ae2guide"),
+    "merequester": PurePosixPath("assets/merequester/ae2guide"),
 }
 GUIDE_ITEM_NAMES = {
     "item.ae2wtlib.magnet_card": "ae2wtlib/magnet_card.md",
@@ -436,6 +437,13 @@ MEREQUESTER_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/merequester"
 MEREQUESTER_LANG_WORKING_FILE = MEREQUESTER_WORKING_ROOT / "lang/ko_kr.json"
 MEREQUESTER_LANG_RELATIVE = "assets/merequester/lang/ko_kr.json"
 MEREQUESTER_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / MEREQUESTER_LANG_RELATIVE
+MEREQUESTER_GUIDE_WORKING_ROOT = MEREQUESTER_WORKING_ROOT / "ae2guide/_ko_kr"
+MEREQUESTER_GUIDE_RELATIVE = "merequester.md"
+MEREQUESTER_GUIDE_OUTPUT_FILE = (
+    RESOURCEPACK_ROOT
+    / "assets/merequester/ae2guide/_ko_kr"
+    / MEREQUESTER_GUIDE_RELATIVE
+)
 MEREQUESTER_QUEST_OVERRIDES_FILE = MEREQUESTER_WORKING_ROOT / "quest_overrides.json"
 MEREQUESTER_LANGUAGE_COMPLETION_FILE = (
     MEREQUESTER_WORKING_ROOT / "language_completion.json"
@@ -3184,6 +3192,138 @@ def build_netanalyser_guide(instance: Path) -> dict[str, object]:
     return result
 
 
+def validate_merequester_guide(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    validation = validate_merequester_language(instance, compare_output)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    working_files = {
+        path.relative_to(MEREQUESTER_GUIDE_WORKING_ROOT).as_posix()
+        for path in MEREQUESTER_GUIDE_WORKING_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if working_files != {MEREQUESTER_GUIDE_RELATIVE}:
+        errors.append(
+            f"ME Requester 가이드 작업본 목록이 다릅니다: {sorted(working_files)}"
+        )
+
+    jars = {
+        "ae2": find_single_jar(instance, "appliedenergistics2-*.jar", "AE2"),
+        "merequester": find_single_jar(
+            instance, "merequester-neoforge-*.jar", "ME Requester"
+        ),
+    }
+    archives = {namespace: zipfile.ZipFile(path) for namespace, path in jars.items()}
+    try:
+        archive_names = {
+            namespace: set(archive.namelist())
+            for namespace, archive in archives.items()
+        }
+        entry = (
+            GUIDE_SOURCE_ROOTS["merequester"] / MEREQUESTER_GUIDE_RELATIVE
+        ).as_posix()
+        source = archives["merequester"].read(entry).decode("utf-8-sig")
+        source = source.replace("\r\r\n", "\n").replace("\r\n", "\n")
+        working_path = MEREQUESTER_GUIDE_WORKING_ROOT / MEREQUESTER_GUIDE_RELATIVE
+        translated = working_path.read_text(encoding="utf-8")
+        errors.extend(
+            core.validate_pair(MEREQUESTER_GUIDE_RELATIVE, source, translated)
+        )
+        errors.extend(validate_numbers(MEREQUESTER_GUIDE_RELATIVE, source, translated))
+        errors.extend(validate_tag_nesting(MEREQUESTER_GUIDE_RELATIVE, translated))
+        errors.extend(
+            validate_resources(
+                archive_names, "merequester", MEREQUESTER_GUIDE_RELATIVE, translated
+            )
+        )
+        if working_path.read_bytes().startswith(b"\xef\xbb\xbf"):
+            errors.append(f"{working_path}: UTF-8 BOM이 있습니다.")
+        if compare_output:
+            if not MEREQUESTER_GUIDE_OUTPUT_FILE.is_file():
+                errors.append(
+                    f"가이드 출력 파일이 없습니다: {MEREQUESTER_GUIDE_OUTPUT_FILE}"
+                )
+            elif (
+                working_path.read_bytes() != MEREQUESTER_GUIDE_OUTPUT_FILE.read_bytes()
+            ):
+                errors.append("ME Requester 가이드 작업본과 출력이 다릅니다.")
+
+        validation.update(
+            {
+                "jars": jars,
+                "source_words": len(
+                    core.ENGLISH_WORD_RE.findall(core.extract_visible_text(source))
+                ),
+                "guide_pages": 1,
+                "new_guide_pages": 1,
+                "core_compatibility_updates": 0,
+            }
+        )
+        return validation
+    finally:
+        for archive in archives.values():
+            archive.close()
+
+
+def build_merequester_guide(instance: Path) -> dict[str, object]:
+    validation = validate_merequester_guide(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    MEREQUESTER_GUIDE_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    MEREQUESTER_GUIDE_OUTPUT_FILE.write_bytes(
+        (MEREQUESTER_GUIDE_WORKING_ROOT / MEREQUESTER_GUIDE_RELATIVE).read_bytes()
+    )
+    post_validation = validate_merequester_guide(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jars = validation["jars"]
+    assert isinstance(jars, dict)
+    quest_keys, kubejs_keys = merequester_related_counts()
+    result = {
+        "status": "batch_14_completed",
+        "scope": "ME Requester GuideME guide batch 14",
+        "batch": 14,
+        "source_jars": {
+            namespace: {"name": path.name, "sha256": sha256(path)}
+            for namespace, path in jars.items()
+        },
+        "language": "ko_kr",
+        "guide_pages": 1,
+        "new_guide_pages": 1,
+        "core_compatibility_updates": 0,
+        "source_words": validation["source_words"],
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "guide_files": [MEREQUESTER_GUIDE_RELATIVE],
+        "output_sha256": {
+            MEREQUESTER_LANG_RELATIVE: sha256(MEREQUESTER_LANG_OUTPUT_FILE),
+            "assets/merequester/ae2guide/_ko_kr/" + MEREQUESTER_GUIDE_RELATIVE: sha256(
+                MEREQUESTER_GUIDE_OUTPUT_FILE
+            ),
+        },
+        "ftbquests_review": {
+            "related_content_found": False,
+            "keys_updated": quest_keys,
+            "handled_separately": True,
+            "pending": False,
+        },
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "validation_errors": 0,
+    }
+    PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
@@ -3273,6 +3413,8 @@ def main() -> int:
         result = build_importexport_guide(instance)
     elif ACTIVE_BATCH == 13 and args.mod == "ae2netanalyser":
         result = build_netanalyser_guide(instance)
+    elif ACTIVE_BATCH == 14:
+        result = build_merequester_guide(instance)
     else:
         result = build(instance)
     print(json.dumps(result, ensure_ascii=False, indent=2))

@@ -110,6 +110,13 @@ BATCHES = (
         PROJECT_ROOT / "working/ae2_addons/batch_13_netanalyser_completion.json",
         2,
     ),
+    (
+        14,
+        "ME Requester",
+        guides.validate_merequester_guide,
+        PROJECT_ROOT / "working/ae2_addons/batch_14_completion.json",
+        1,
+    ),
 )
 
 
