@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 2
+ACTIVE_BATCH = 3
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
@@ -84,6 +84,10 @@ ENDERDRIVES_GUIDE_OUTPUT_ROOT = RESOURCEPACK_ROOT / "assets/enderdrives/ae2guide
 ENDERDRIVES_LANG_RELATIVE = "assets/enderdrives/lang/ko_kr.json"
 ENDERDRIVES_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / ENDERDRIVES_LANG_RELATIVE
 NUMBER_RE = re.compile(r"(?<![\w.])\d[\d,]*(?:\.\d+)?(?:\^\d+)?(?:k|K)?")
+EXTENDEDAE_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/extendedae"
+EXTENDEDAE_LANG_WORKING_FILE = EXTENDEDAE_WORKING_ROOT / "lang/ko_kr.json"
+EXTENDEDAE_LANG_RELATIVE = "assets/extendedae/lang/ko_kr.json"
+EXTENDEDAE_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / EXTENDEDAE_LANG_RELATIVE
 
 
 def find_single_jar(instance: Path, pattern: str, label: str) -> Path:
@@ -665,11 +669,108 @@ def build_enderdrives(instance: Path) -> dict[str, object]:
     return result
 
 
+def validate_extendedae_language(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    jar = find_single_jar(instance, "ExtendedAE-*.jar", "ExtendedAE")
+    errors: list[str] = []
+    with zipfile.ZipFile(jar) as archive:
+        source_lang = load_archive_json_unique(
+            archive, "assets/extendedae/lang/en_us.json"
+        )
+        candidate_lang = load_archive_json_unique(
+            archive, "assets/extendedae/lang/ko_kr.json"
+        )
+    if not EXTENDEDAE_LANG_WORKING_FILE.is_file():
+        errors.append(
+            f"ExtendedAE 언어 작업본이 없습니다: {EXTENDEDAE_LANG_WORKING_FILE}"
+        )
+        translated_lang: dict[str, str] = {}
+    else:
+        translated_lang = load_json_unique(EXTENDEDAE_LANG_WORKING_FILE)
+        errors.extend(validate_language(source_lang, translated_lang))
+        if EXTENDEDAE_LANG_WORKING_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
+            errors.append(f"{EXTENDEDAE_LANG_WORKING_FILE}: UTF-8 BOM이 있습니다.")
+
+    if compare_output:
+        if not EXTENDEDAE_LANG_OUTPUT_FILE.is_file():
+            errors.append(
+                f"ExtendedAE 언어 출력 파일이 없습니다: {EXTENDEDAE_LANG_OUTPUT_FILE}"
+            )
+        elif (
+            EXTENDEDAE_LANG_WORKING_FILE.read_bytes()
+            != EXTENDEDAE_LANG_OUTPUT_FILE.read_bytes()
+        ):
+            errors.append("ExtendedAE 언어 작업본과 출력이 다릅니다.")
+
+    reused = sum(
+        1 for key, value in translated_lang.items() if candidate_lang.get(key) == value
+    )
+    return {
+        "jars": {"extendedae": jar},
+        "source_words": 0,
+        "source_lang": source_lang,
+        "candidate_lang": candidate_lang,
+        "translated_lang": translated_lang,
+        "existing_korean_reused": reused,
+        "new_or_revised_translations": len(translated_lang) - reused,
+        "guide_pages": 0,
+        "new_guide_pages": 0,
+        "core_compatibility_updates": 0,
+        "errors": errors,
+    }
+
+
+def build_extendedae_language(instance: Path) -> dict[str, object]:
+    validation = validate_extendedae_language(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    EXTENDEDAE_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    EXTENDEDAE_LANG_OUTPUT_FILE.write_bytes(EXTENDEDAE_LANG_WORKING_FILE.read_bytes())
+    post_validation = validate_extendedae_language(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jar = validation["jars"]["extendedae"]  # type: ignore[index]
+    assert isinstance(jar, Path)
+    result = {
+        "status": "batch_03_language_completed",
+        "scope": "ExtendedAE full language file before guide batch 03",
+        "batch": ACTIVE_BATCH,
+        "source_jars": {"extendedae": {"name": jar.name, "sha256": sha256(jar)}},
+        "language": "ko_kr",
+        "guide_pages": 0,
+        "new_guide_pages": 0,
+        "core_compatibility_updates": 0,
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "output_sha256": {
+            EXTENDEDAE_LANG_RELATIVE: sha256(EXTENDEDAE_LANG_OUTPUT_FILE)
+        },
+        "ftbquests_review": {"related_content_found": True, "pending": True},
+        "kubejs_user_visible_literals_found": 0,
+        "validation_errors": 0,
+    }
+    PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate(instance: Path, compare_output: bool) -> dict[str, object]:
     if ACTIVE_BATCH == 1:
         return validate_ae2wtlib(instance, compare_output)
     if ACTIVE_BATCH == 2:
         return validate_enderdrives(instance, compare_output)
+    if ACTIVE_BATCH == 3:
+        return validate_extendedae_language(instance, compare_output)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 
@@ -678,6 +779,8 @@ def build(instance: Path) -> dict[str, object]:
         return build_ae2wtlib(instance)
     if ACTIVE_BATCH == 2:
         return build_enderdrives(instance)
+    if ACTIVE_BATCH == 3:
+        return build_extendedae_language(instance)
     raise ValueError(f"지원하지 않는 연동 모드 가이드 배치입니다: {ACTIVE_BATCH}")
 
 

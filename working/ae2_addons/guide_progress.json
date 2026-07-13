@@ -1,55 +1,27 @@
 {
-  "status": "batch_02_completed_and_deployed",
-  "scope": "EnderDrives GuideME guide batch 02",
-  "batch": 2,
+  "status": "batch_03_language_completed",
+  "scope": "ExtendedAE full language file before guide batch 03",
+  "batch": 3,
   "source_jars": {
-    "ae2": {
-      "name": "appliedenergistics2-19.2.17.jar",
-      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
-    },
-    "ae2wtlib": {
-      "name": "ae2wtlib-19.5.0.jar",
-      "sha256": "decf9a35c6d08c160a65a30fe623fd9c09ad5f5dd1790052917f19c82441bd16"
-    },
-    "enderdrives": {
-      "name": "enderdrives-neoforge-1.21.1-1.4.4.jar",
-      "sha256": "03334f29dadc1e863029d05f66321c70fc2738ce5126ea52056d71b1a68586cc"
+    "extendedae": {
+      "name": "ExtendedAE-1.21-2.2.33-neoforge.jar",
+      "sha256": "6652ed1ea4b71f585d48c05a195a77594a7a2bd1ecea0fc805db2122aafad734"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 3,
-  "new_guide_pages": 3,
+  "guide_pages": 0,
+  "new_guide_pages": 0,
   "core_compatibility_updates": 0,
-  "source_words": 838,
-  "language_keys": 42,
-  "existing_korean_reused": 0,
-  "new_or_revised_translations": 42,
-  "guide_files": [
-    "enderdrives_intro/enderdrives_intro-index.md",
-    "enderdrives_intro/enderdrives_intro.md",
-    "enderdrives_intro/tapedrive_intro.md"
-  ],
+  "language_keys": 253,
+  "existing_korean_reused": 37,
+  "new_or_revised_translations": 216,
   "output_sha256": {
-    "assets/enderdrives/lang/ko_kr.json": "e9fe221cc39359026b9131a62b473682c930158c84194373608d8a28565d677a",
-    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro-index.md": "d0de271a049c1bc29b6d6e05bb56fbb0d43eccfc8340345f461da755c7743d65",
-    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro.md": "e24d5384372bd510eb75b7ad54c12747b6c3ed75fa245119aafd42c63d1b5031",
-    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/tapedrive_intro.md": "d321ba66427fc1315e46bccc30575fe5a36e332601db63dd41407316e1c0b1be"
+    "assets/extendedae/lang/ko_kr.json": "dc37f8e152d105eb0cb16456ee69239b037bdb6b99158a6f91e2da15a65e1e0a"
   },
   "ftbquests_review": {
-    "related_content_found": false,
-    "keys_updated": 0
+    "related_content_found": true,
+    "pending": true
   },
   "kubejs_user_visible_literals_found": 0,
-  "deployment": {
-    "applied_at": "2026-07-13T16:45:43+09:00",
-    "apply_roots": [
-      "source_root"
-    ],
-    "game_root_configured": false,
-    "changed_paths": 4,
-    "backup_manifest": "temp/backups/20260713_164543/backup_manifest.json",
-    "deployed_hashes_match": true,
-    "unexpected_instance_changes": []
-  },
   "validation_errors": 0
 }
