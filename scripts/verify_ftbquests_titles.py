@@ -14,6 +14,11 @@ import build_ae2_quests as snbt
 import build_ftbquests_titles as builder
 from local_paths import resolve_source_root
 
+COMMON_OVERRIDES = (
+    Path(__file__).resolve().parents[1]
+    / "working/ftbquests/common_chapter_overrides.json"
+)
+
 REDUNDANT_SINGLE_ITEM_TASK_IDS = {
     "03EB390E79866058",
     "065E5450AC87F1D5",
@@ -57,6 +62,7 @@ def main() -> int:
     english = snbt.parse_language_snbt(lang_root / "en_us.snbt")
     baseline = snbt.parse_language_snbt(lang_root / "ko_kr.snbt")
     output = snbt.parse_language_snbt(builder.OUTPUT_LANG)
+    common_overrides = json.loads(COMMON_OVERRIDES.read_text(encoding="utf-8"))
     chapters, object_ids = audit.parse_chapters(quest_root)
     tasks_by_id = {
         task["id"]: task
@@ -86,7 +92,9 @@ def main() -> int:
         if baseline.get(key) != output.get(key)
     }
     invalid_scope = sorted(
-        key for key in changed_keys if not builder.TITLE_KEY_RE.fullmatch(key)
+        key
+        for key in changed_keys
+        if not builder.TITLE_KEY_RE.fullmatch(key) and key not in common_overrides
     )
     invalid_ids = sorted(
         key for key in changed_keys if key.split(".")[1] not in object_ids
@@ -96,7 +104,9 @@ def main() -> int:
             f"제목 범위 밖 변경={invalid_scope}, 잘못된 객체 ID={invalid_ids}"
         )
     description_changes = sorted(
-        key for key in changed_keys if key.endswith(".quest_desc")
+        key
+        for key in changed_keys
+        if key.endswith(".quest_desc") and key not in common_overrides
     )
     if description_changes:
         raise ValueError(f"설명문이 변경됐습니다: {description_changes}")
@@ -106,6 +116,12 @@ def main() -> int:
         validation_errors.extend(snbt.validate_value(key, english[key], output[key]))
     if validation_errors:
         raise ValueError("\n".join(validation_errors))
+
+    mismatched_common = sorted(
+        key for key, value in common_overrides.items() if output.get(key) != value
+    )
+    if mismatched_common:
+        raise ValueError(f"공통 챕터 작업본과 출력이 다릅니다: {mismatched_common}")
 
     navigation_checked = 0
     for kind, prefix, ids in (
@@ -186,7 +202,10 @@ def main() -> int:
 
     result = {
         "changed_title_keys": len(changed_keys),
-        "description_keys_changed": 0,
+        "description_keys_changed": sum(
+            key.endswith(".quest_desc")
+            for key in changed_keys & common_overrides.keys()
+        ),
         "duplicate_keys": 0,
         "invalid_object_ids": 0,
         "navigation_titles_checked": navigation_checked,

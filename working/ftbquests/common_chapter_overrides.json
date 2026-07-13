@@ -219,5 +219,8 @@
   "quest.635620A03E3505BF.quest_subtitle": "하지만... 소는 털을 깎을 수 없는데...",
   "quest.72717D1135486D7F.quest_subtitle": "손 1, 잔디 블록 0",
   "quest.73B8A70240E6070E.title": "소젖 짜기 - 이득",
-  "quest.1697CC05D08B388D.quest_subtitle": "맛있는 프라이드치킨!"
+  "quest.1697CC05D08B388D.quest_subtitle": "맛있는 프라이드치킨!",
+  "quest.75EE965CBA598FEA.quest_desc": [
+    "제작법이 복잡해 보일 수 있지만, 믿어 주세요. 꽤 간단합니다. 아무 &d무선 터미널&r이나 제작한 뒤 서로 조합하여 &d무선 범용 터미널&r을 만드세요. \\n\\n&d터미널&r에 설치한 확장 패턴 같은 항목도 그대로 유지됩니다. &b&lAE2&r를 사용할 때는 매우 유용하지만 &6&lATM의 별&r을 만드는 데는 필요하지 않습니다!"
+  ]
 }
