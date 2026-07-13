@@ -632,7 +632,7 @@
 	quest.0910C28A609ECBC1.title: "&6꿀 나침반"
 	quest.09223F02621781BF.quest_subtitle: "철 + 석공"
 	quest.09223F02621781BF.title: "은 꿀벌"
-	quest.0923C941A9696122.quest_desc: ["모험에 2억 5천 6백만 개의 아이템을 가져가야 할 경우를 대비하세요!"]
+	quest.0923C941A9696122.quest_desc: ["모험에 아이템 256M개를 가져가야 할 때를 대비하세요! \\n\\n&8MEGA 아이템 셀 하우징&r, &5ME 상자&r, &5조밀한 에너지 셀&r 같은 간단한 아이템 몇 개가 필요합니다. \\n\\n그다음에는 만들기가 훨씬 어려운 &d256M MEGA 저장 부품&r이 필요합니다. \\n\\n반복 제작 때문에 &2&lMinecraft&r가 싫어질 것 같다면 &2폭발내성 케이싱&r을 만들어 보는 것도 좋습니다! \\n\\n&3&l불가능한 확률 장치&r를 만들려면 256M 휴대용 아이템 셀 2개, &2폭발내성 케이싱&r 2개 또는 두 재료를 하나씩 사용해야 합니다."]
 	quest.09282E3864752CEE.quest_subtitle: "티어: &63"
 	quest.092A23FDA5D50812.quest_subtitle: "티어: &a2"
 	quest.092BB595F75D5536.quest_desc: ["&6&l포비든 앤 아르카누스&r에 오신 것을 환영합니다! \\n\\n이 모드를 시작하려면 underground... 깊은 지하에서 광물을 채굴해야 합니다. \\n\\nY 단계 1 이하처럼요."]
@@ -989,7 +989,7 @@
 	quest.0E716B90E60C486B.title: "&4공황 목걸이&r"
 	quest.0E809747193ED3A9.quest_desc: ["MEGA 저장 부품의 세 번째 등급으로, &e16777216&f(16384k) 바이트의 저장 공간을 제공합니다."]
 	quest.0E809747193ED3A9.quest_subtitle: "x4^2"
-	quest.0E809747193ED3A9.title: "16M 저장 부품"
+	quest.0E809747193ED3A9.title: "16M MEGA 저장 부품"
 	quest.0E8647B8EB4AAC41.quest_desc: ["패시브 몹 -> 더 많은 분홍색 슬라임.\\n적대적 몹 -> 더 많은 고기."]
 	quest.0E8647B8EB4AAC41.title: "핑크 슬라임 \\\\\\& 액체 고기"
 	quest.0E9CE6241CDBC420.quest_desc: ["&9원거리 펌프&r는 매우 특별해서 자체 모드가 있습니다! \\n\\n&9펌프&r는 그 아래의 &9물 근원&r을 수집하고 돌로 대체합니다. \\n작동하려면 에너지가 필요하지만, 그만한 가치가 있습니다. 범위가 매우 넓습니다! \\n\\n수집된 &9물&r은 파이프로 빼내야 합니다."]
@@ -1027,7 +1027,7 @@
 	quest.0F026D5A17CCCF51.title: "&d네더라이트 티어"
 	quest.0F03E75CF79BADD7.quest_desc: ["MEGA Cells&f의 &b대용량 아이템 저장 셀&f은 셀 하나에 아이템 &o한 종류&r만 저장할 수 있지만, 그 아이템을 사실상 &o&l무한&r*대로 저장합니다. 아이템을 넣기 전에 셀 작업대에서 저장할 종류를 지정해야 합니다.\\n\\n*&o정확히는 long 자료형의 최댓값입니다. 아는 분은 아시겠죠.&r"]
 	quest.0F03E75CF79BADD7.quest_subtitle: "한 종류를 대량으로"
-	quest.0F03E75CF79BADD7.title: "대용량 아이템 저장소"
+	quest.0F03E75CF79BADD7.title: "MEGA 대용량 아이템 저장 셀"
 	quest.0F0D41F29386333A.quest_desc: ["진홍색 나무는 크기와 모양이 다양하며 때로는 쓰러지기도 합니다!\\n\\n하지만 모두 분홍색 잎을 가지고 있습니다! 땅에 떨어진 잎을 포함해서요."]
 	quest.0F14270F0A718C01.quest_desc: ["&c마그마&r - 1300 K\\n&c용암&r - 1300 K\\n&a우라늄&r - 2000 K"]
 	quest.0F14270F0A718C01.title: "&c따뜻한 아이템"
@@ -2401,7 +2401,7 @@
 	quest.25D8BE0280B6E7F1.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.25DBA00422301EDC.quest_desc: ["MEGA 저장 부품의 두 번째 등급으로, &e4194304&f(4096k) 바이트의 저장 공간을 제공합니다."]
 	quest.25DBA00422301EDC.quest_subtitle: "x4"
-	quest.25DBA00422301EDC.title: "4M 저장 부품"
+	quest.25DBA00422301EDC.title: "4M MEGA 저장 부품"
 	quest.25E782DB4309A1B8.quest_desc: ["오로라 사슴 뿔은 오로라 사슴이 죽을 때 떨어뜨립니다.\\n\\n이것은 검 또는 괭이로 사용할 수 있습니다."]
 	quest.25E915AE1FC53254.quest_desc: ["셀레스티젬 템플릿은 블레이즈골드 갑옷과 도구를 셀레스티젬으로 상위 버전으로 변환하는 데 사용되며, 마법 부여와 설치된 상위 버전으로 변환은 유지됩니다."]
 	quest.25EFC21A3C48E0B6.title: "티어: &2활발한"
@@ -3809,7 +3809,7 @@
 	quest.3CD307DDD6A5F5A3.quest_subtitle: "&f4 &c공격 피해"
 	quest.3CE3D9245F8EC005.quest_desc: ["MEGA 저장 부품의 네 번째 등급으로, &e67108864&f(65536k) 바이트의 저장 공간을 제공합니다."]
 	quest.3CE3D9245F8EC005.quest_subtitle: "x4^3"
-	quest.3CE3D9245F8EC005.title: "64M 저장 부품"
+	quest.3CE3D9245F8EC005.title: "64M MEGA 저장 부품"
 	quest.3CFD27F273B97FDD.quest_desc: ["&5&l아포틱&r 모드는 여러 개의 코어를 가지고 있으며, 각 코어는 &2&lMinecraft&r의 여러 &2부품&2을 &2Changing&2합니다. \\n\\n속성 및 &2마법 부여&2 모드는 &6&lATM의 별&r을 얻기 위해 따라야 할 모드입니다!"]
 	quest.3CFD27F273B97FDD.title: "&5&l아포틱&r 모드"
 	quest.3CFE522A4B7CC2EC.quest_desc: [
@@ -4222,7 +4222,7 @@
 	quest.429B5A81DF6C43FE.title: "&6Abras의 Open Commanding Conjure"
 	quest.42AAEC41F2BC2474.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_glacite.png width:100 height:150 align:center}"]
 	quest.42AAEC41F2BC2474.title: "&b글래사이트&r"
-	quest.42AF4EBDA5D6CC36.quest_desc: ["사용 가능한 세 가지 가장 강력한 금속을 결합하여 &2방폭 합금&r을 만들 수 있습니다. &5텅스텐&r, &d티타늄&r 및 &7스테인리스 강&r입니다. 네, 얼룩은 분명히 중요합니다. \\n\\n이것들을 결합하여 &2케이싱&r을 만들 수 있습니다."]
+	quest.42AF4EBDA5D6CC36.quest_desc: ["가장 강한 금속 세 가지인 &5텅스텐&r, &d티타늄&r, &7스테인리스강&r을 조합하면 &2폭발내성 합금&r을 만들 수 있습니다. 네, 얼룩도 중요한가 보네요. \\n\\n이 재료들을 조합하여 &2케이싱&r을 만들 수 있습니다. \\n\\n&3&l불가능한 확률 장치&r에는 &2폭발내성 케이싱&r 2개, 256M 휴대용 아이템 셀 2개 또는 두 재료를 하나씩 사용할 수 있습니다!"]
 	quest.42AF4EBDA5D6CC36.title: "&2폭발내성 케이싱"
 	quest.42CB494F72FA1FD1.quest_desc: ["6개의 &e벌통&r 또는 &e벌집&r을 제작하세요. 여기에는 &l&6생산적인 꿀벌&r의 &e벌집&r도 포함됩니다!"]
 	quest.42D173B9FF8D16E4.quest_desc: ["초반에 사용할 발전 방식을 찾고 있나요? 여기에서 전력 생산을 시작하기 좋은 방법을 알아볼 수 있습니다.\\n\\n발전량은 많지 않지만, 초반에 보통 쉽고 저렴하게 마련할 수 있습니다!"]
@@ -4378,7 +4378,7 @@
 	quest.45FBEABEBA7CC09E.title: "&5가라앉은 도시&r: &5&l레비아탄&r의 Home"
 	quest.460A8F17F3ED6CAF.quest_desc: ["대형 모드팩을 진행하다 보면 기본 최고 등급 저장 셀로도 쌓이는 아이템과 자원을 감당하기 어려워집니다.\\n\\n&dMEGA Cells&f 애드온은 저장 등급을 메가바이트 단위까지 확장합니다. 첫 등급인 &b1M MEGA 저장 부품&f은 1024&o킬로&r바이트, 즉 &e1048576&f바이트의 저장 공간을 제공합니다."]
 	quest.460A8F17F3ED6CAF.quest_subtitle: "최초의 메가바이트입니다."
-	quest.460A8F17F3ED6CAF.title: "1M 저장 부품"
+	quest.460A8F17F3ED6CAF.title: "1M MEGA 저장 부품"
 	quest.461C8F1E88AA58D9.quest_desc: [
 		"이것들은 뉴매틱크래프트 액체의 양동이 버전을 사용하여 제작법에 사용될 수 있습니다.\\n\\n&3유체 탱크&r가 다른 &3유체 탱크&r 위에 놓여지고 렌치로 함께 조여지면 하나의 큰 탱크가 됩니다."
 		"{image:pneumaticcraft:textures/patchouli/small_tanks.png width:250 height:250 align:center fit:true}"
@@ -5168,7 +5168,7 @@
 	quest.5180CDD196518F64.title: "&6스트랩 철로"
 	quest.51A57E142C686C8F.quest_desc: ["MEGA 저장 부품의 다섯 번째이자 마지막 등급으로, &e268435456&f(262144k) 바이트의 저장 공간을 제공합니다."]
 	quest.51A57E142C686C8F.quest_subtitle: "x4^4"
-	quest.51A57E142C686C8F.title: "256M 저장 부품"
+	quest.51A57E142C686C8F.title: "256M MEGA 저장 부품"
 	quest.51B24CC5E9332C1E.quest_desc: ["때때로 몹을 죽이면 &d복수심에 불타는 영혼&r이 생성됩니다.\\n\\n그들의 &d라텍스&r는 이블크래프트 내에서 더 고급 아이템을 제작하는 데 유용한 것 같습니다.\\n\\n영혼을 많이 찾지 못하셨나요? &9복수 반지&r를 만들고 켜서 전투 중에 더 많은 영혼을 유인하세요."]
 	quest.51B24CC5E9332C1E.title: "&d영혼의 복수"
 	quest.51BC981AB4CFAD95.quest_desc: ["미로 파괴자는 미로에서 드물게 발견되는 특별한 곡괭이입니다.\\n\\n이 곡괭이는 미로 벽을 부술 때 다른 모든 곡괭이와 달리 16의 피해를 받는 대신 1의 피해만 받습니다!"]
@@ -8755,4 +8755,7 @@
 	task.4031B8B8FBDDEEE4.title: "전송 라벨"
 	task.6D00B76B8A141BB8.title: "임의의 #advanced_ae:adv_pattern_provider"
 	task.7FBDB1383D052B82.title: "ME 반출 버스 또는 ME 인터페이스"
+	quest.0923C941A9696122.title: "256M 휴대용 아이템 셀"
+	quest.49FDD8666356A3E7.quest_desc: ["&2폭발내성 케이싱&r이나 256M 휴대용 아이템 셀 중 하나 또는 둘 다 사용하여 &3&l불가능한 확률 장치&r를 만들 수 있습니다. \\n\\n잠깐, 하나 또는 둘 다라고 했나요? \\n\\n네, 맞습니다! &2폭발내성 케이싱&r 2개, 256M 휴대용 아이템 셀 2개 또는 두 재료를 하나씩 사용할 수 있습니다."]
+	quest.49FDD8666356A3E7.title: "&2폭발내성 케이싱&f 또는 256M 휴대용 아이템 셀"
 }

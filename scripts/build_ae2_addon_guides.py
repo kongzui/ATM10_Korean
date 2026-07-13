@@ -25,7 +25,7 @@ CORE_COMPAT_WORKING_FILE = (
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
 
-ACTIVE_BATCH = 8
+ACTIVE_BATCH = 9
 ADDON_GUIDE_FILES = (
     "ae2wtlib/ae2wtlib-index.md",
     "ae2wtlib/magnet_card.md",
@@ -50,6 +50,7 @@ GUIDE_SOURCE_ROOTS = {
     "enderdrives": PurePosixPath("assets/enderdrives/ae2guide"),
     "extendedae": PurePosixPath("assets/extendedae/ae2guide"),
     "advanced_ae": PurePosixPath("assets/advanced_ae/ae2guide"),
+    "megacells": PurePosixPath("assets/megacells/ae2guide"),
 }
 GUIDE_ITEM_NAMES = {
     "item.ae2wtlib.magnet_card": "ae2wtlib/magnet_card.md",
@@ -287,6 +288,46 @@ ADVANCEDAE_BATCH_ITEM_NAMES = {
 ADVANCEDAE_BATCH_SCOPES = {
     7: "AdvancedAE automation and input-output GuideME guide batch 07",
     8: "AdvancedAE quantum equipment and machines GuideME guide batch 08",
+}
+
+MEGACELLS_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/megacells"
+MEGACELLS_LANG_WORKING_FILE = MEGACELLS_WORKING_ROOT / "lang/ko_kr.json"
+MEGACELLS_LANG_RELATIVE = "assets/megacells/lang/ko_kr.json"
+MEGACELLS_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / MEGACELLS_LANG_RELATIVE
+MEGACELLS_GUIDE_WORKING_ROOT = MEGACELLS_WORKING_ROOT / "ae2guide/_ko_kr"
+MEGACELLS_GUIDE_OUTPUT_ROOT = RESOURCEPACK_ROOT / "assets/megacells/ae2guide/_ko_kr"
+MEGACELLS_QUEST_OVERRIDES_FILE = MEGACELLS_WORKING_ROOT / "quest_overrides.json"
+MEGACELLS_LANGUAGE_COMPLETION_FILE = MEGACELLS_WORKING_ROOT / "language_completion.json"
+MEGACELLS_BATCH_09_GUIDE_FILES = (
+    "index.md",
+    "storage.md",
+    "bulk_cell.md",
+    "radioactive_cell.md",
+)
+MEGACELLS_BATCH_10_GUIDE_FILES = (
+    "crafting.md",
+    "energy.md",
+    "extras.md",
+)
+MEGACELLS_BATCH_GUIDE_FILES = {
+    9: MEGACELLS_BATCH_09_GUIDE_FILES,
+    10: MEGACELLS_BATCH_10_GUIDE_FILES,
+}
+MEGACELLS_BATCH_ITEM_NAMES = {
+    9: {
+        "item.megacells.cell_component_1m": "storage.md",
+        "item.megacells.bulk_item_cell": "bulk_cell.md",
+        "item.megacells.radioactive_chemical_cell": "radioactive_cell.md",
+    },
+    10: {
+        "block.megacells.mega_crafting_unit": "crafting.md",
+        "block.megacells.mega_energy_cell": "energy.md",
+        "item.megacells.cell_dock": "extras.md",
+    },
+}
+MEGACELLS_BATCH_SCOPES = {
+    9: "MEGA Cells introduction and storage GuideME guide batch 09",
+    10: "MEGA Cells crafting, energy and extras GuideME guide batch 10",
 }
 
 
@@ -1309,6 +1350,115 @@ def build_advancedae_language(instance: Path) -> dict[str, object]:
     return result
 
 
+def megacells_related_counts() -> tuple[int, int]:
+    quest_overrides = json.loads(
+        MEGACELLS_QUEST_OVERRIDES_FILE.read_text(encoding="utf-8")
+    )
+    return len(quest_overrides), 0
+
+
+def validate_megacells_language(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    jar = find_single_jar(instance, "megacells-*.jar", "MEGA Cells")
+    errors: list[str] = []
+    with zipfile.ZipFile(jar) as archive:
+        source_lang = load_archive_json_unique(
+            archive, "assets/megacells/lang/en_us.json"
+        )
+        candidate_lang = (
+            load_archive_json_unique(archive, "assets/megacells/lang/ko_kr.json")
+            if "assets/megacells/lang/ko_kr.json" in archive.namelist()
+            else {}
+        )
+    if not MEGACELLS_LANG_WORKING_FILE.is_file():
+        errors.append(
+            f"MEGA Cells 언어 작업본이 없습니다: {MEGACELLS_LANG_WORKING_FILE}"
+        )
+        translated_lang: dict[str, str] = {}
+    else:
+        translated_lang = load_json_unique(MEGACELLS_LANG_WORKING_FILE)
+        errors.extend(validate_language(source_lang, translated_lang))
+        if list(source_lang) != list(translated_lang):
+            errors.append("MEGA Cells 언어 키 순서가 영어 원문과 다릅니다.")
+        if MEGACELLS_LANG_WORKING_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
+            errors.append(f"{MEGACELLS_LANG_WORKING_FILE}: UTF-8 BOM이 있습니다.")
+
+    if compare_output:
+        if not MEGACELLS_LANG_OUTPUT_FILE.is_file():
+            errors.append(
+                f"MEGA Cells 언어 출력 파일이 없습니다: {MEGACELLS_LANG_OUTPUT_FILE}"
+            )
+        elif (
+            MEGACELLS_LANG_WORKING_FILE.read_bytes()
+            != MEGACELLS_LANG_OUTPUT_FILE.read_bytes()
+        ):
+            errors.append("MEGA Cells 언어 작업본과 출력이 다릅니다.")
+
+    reused = sum(
+        candidate_lang.get(key) == value
+        for key, value in translated_lang.items()
+        if key in candidate_lang
+    )
+    return {
+        "jars": {"megacells": jar},
+        "source_words": 0,
+        "source_lang": source_lang,
+        "candidate_lang": candidate_lang,
+        "translated_lang": translated_lang,
+        "existing_korean_reused": reused,
+        "existing_korean_corrected": sum(
+            key in candidate_lang and candidate_lang[key] != value
+            for key, value in translated_lang.items()
+        ),
+        "new_translations": sum(key not in candidate_lang for key in translated_lang),
+        "new_or_revised_translations": len(translated_lang) - reused,
+        "guide_pages": 0,
+        "new_guide_pages": 0,
+        "core_compatibility_updates": 0,
+        "errors": errors,
+    }
+
+
+def build_megacells_language(instance: Path) -> dict[str, object]:
+    validation = validate_megacells_language(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    MEGACELLS_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    MEGACELLS_LANG_OUTPUT_FILE.write_bytes(MEGACELLS_LANG_WORKING_FILE.read_bytes())
+    post_validation = validate_megacells_language(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jar = validation["jars"]["megacells"]  # type: ignore[index]
+    assert isinstance(jar, Path)
+    quest_keys, kubejs_keys = megacells_related_counts()
+    result = {
+        "status": "megacells_full_language_completed",
+        "scope": "MEGA Cells full language file before guide batch 09",
+        "batch": 9,
+        "source_jars": {"megacells": {"name": jar.name, "sha256": sha256(jar)}},
+        "language": "ko_kr",
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "existing_korean_corrected": validation["existing_korean_corrected"],
+        "new_translations": validation["new_translations"],
+        "ftbquests_keys_updated": quest_keys,
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "output_sha256": {MEGACELLS_LANG_RELATIVE: sha256(MEGACELLS_LANG_OUTPUT_FILE)},
+        "validation_errors": 0,
+    }
+    MEGACELLS_LANGUAGE_COMPLETION_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate_advancedae_batch(
     instance: Path, batch: int, compare_output: bool
 ) -> dict[str, object]:
@@ -1546,6 +1696,8 @@ def main() -> int:
     instance = resolve_source_root(args.instance)
     if args.language_only and ACTIVE_BATCH in {7, 8}:
         result = build_advancedae_language(instance)
+    elif args.language_only and ACTIVE_BATCH in {9, 10}:
+        result = build_megacells_language(instance)
     elif args.language_only:
         raise ValueError(f"{ACTIVE_BATCH}차는 언어 전용 빌드를 지원하지 않습니다.")
     else:

@@ -21,6 +21,10 @@ MODS = {
         "scope": "AdvancedAE full related FTB Quests before guide batch 07",
         "working": "working/ae2_addons/advanced_ae",
     },
+    "megacells": {
+        "scope": "MEGA Cells full related FTB Quests before guide batch 09",
+        "working": "working/ae2_addons/megacells",
+    },
 }
 
 

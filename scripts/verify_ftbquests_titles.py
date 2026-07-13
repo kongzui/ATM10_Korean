@@ -23,6 +23,8 @@ ADDON_OVERRIDE_FILES = (
     / "working/ae2_addons/extendedae/quest_overrides.json",
     Path(__file__).resolve().parents[1]
     / "working/ae2_addons/advanced_ae/quest_overrides.json",
+    Path(__file__).resolve().parents[1]
+    / "working/ae2_addons/megacells/quest_overrides.json",
 )
 CORE_QUEST_OVERRIDES = (
     Path(__file__).resolve().parents[1] / "working/ae2/quest_overrides.json"
@@ -42,6 +44,19 @@ EXPECTED_ADDON_TASK_TITLES = {
 
 ADVANCEDAE_CATEGORY_QUEST_TITLES = {
     "0B4CE3969067FA31": "퀀텀 갑옷 업그레이드",
+}
+
+MEGACELLS_RELATED_QUEST_IDS = {
+    "0923C941A9696122",
+    "0E809747193ED3A9",
+    "0F03E75CF79BADD7",
+    "25DBA00422301EDC",
+    "3CE3D9245F8EC005",
+    "42AF4EBDA5D6CC36",
+    "460A8F17F3ED6CAF",
+    "49FDD8666356A3E7",
+    "51A57E142C686C8F",
+    "69B7DE2283B4EE6C",
 }
 
 REDUNDANT_SINGLE_ITEM_TASK_IDS = {
@@ -276,6 +291,50 @@ def main() -> int:
             f"{advancedae_quest_title_mismatches}"
         )
 
+    redundant_megacells_item_task_titles = sorted(
+        f"task.{task['id']}.title"
+        for chapter in chapters
+        for quest in chapter["quests"]
+        for task in quest["tasks"]
+        if task["type"] == "item"
+        and task["item_id"].startswith("megacells:")
+        and f"task.{task['id']}.title" in output
+    )
+    megacells_quest_title_mismatches = []
+    megacells_item_titles_checked = 0
+    for chapter in chapters:
+        for quest in chapter["quests"]:
+            if len(quest["tasks"]) != 1:
+                continue
+            task = quest["tasks"][0]
+            if not task["item_id"].startswith("megacells:"):
+                continue
+            title = audit.text_value(output, f"quest.{quest['id']}.title")
+            namespace, item_path = task["item_id"].split(":", 1)
+            expected = project_korean.get(
+                f"item.{namespace}.{item_path}",
+                project_korean.get(f"block.{namespace}.{item_path}", ""),
+            )
+            if expected and audit.strip_formatting(title) != expected:
+                megacells_quest_title_mismatches.append(f"quest.{quest['id']}.title")
+            megacells_item_titles_checked += 1
+    missing_megacells_related_titles = sorted(
+        quest_id
+        for quest_id in MEGACELLS_RELATED_QUEST_IDS
+        if not audit.text_value(output, f"quest.{quest_id}.title")
+    )
+    if (
+        redundant_megacells_item_task_titles
+        or megacells_quest_title_mismatches
+        or missing_megacells_related_titles
+    ):
+        raise ValueError(
+            "MEGA Cells 퀘스트 제목 검증 실패: "
+            f"단일 아이템 중복 제목={redundant_megacells_item_task_titles}, "
+            f"아이템명 불일치={megacells_quest_title_mismatches}, "
+            f"관련 퀘스트 제목 누락={missing_megacells_related_titles}"
+        )
+
     report = json.loads(audit.REPORT_JSON.read_text(encoding="utf-8"))
     resolved_problem_types = {
         "목차 표기 불일치",
@@ -310,6 +369,7 @@ def main() -> int:
         "addon_group_task_titles_checked": len(EXPECTED_ADDON_TASK_TITLES),
         "redundant_extendedae_item_task_titles": 0,
         "redundant_advancedae_item_task_titles": 0,
+        "redundant_megacells_item_task_titles": 0,
         "advancedae_quest_item_titles_checked": sum(
             1
             for chapter in chapters
@@ -318,6 +378,8 @@ def main() -> int:
             and quest["tasks"][0]["item_id"].startswith("advanced_ae:")
             and audit.text_value(output, f"quest.{quest['id']}.title")
         ),
+        "megacells_quest_item_titles_checked": megacells_item_titles_checked,
+        "megacells_related_quest_titles_checked": len(MEGACELLS_RELATED_QUEST_IDS),
         "removed_single_item_task_titles_checked": len(REDUNDANT_SINGLE_ITEM_TASK_IDS),
         "placeholder_number_format_errors": 0,
         "utf8_bom_files": 0,

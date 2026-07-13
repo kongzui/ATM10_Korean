@@ -1,0 +1,29 @@
+{
+  "status": "megacells_full_language_completed",
+  "scope": "MEGA Cells full language file before guide batch 09",
+  "batch": 9,
+  "source_jars": {
+    "megacells": {
+      "name": "megacells-4.11.0.jar",
+      "sha256": "a386bbf12afb11729b0dcf77f64221893d250f22e6185a4d728b9799b230bc55"
+    }
+  },
+  "language": "ko_kr",
+  "language_keys": 134,
+  "existing_korean_reused": 0,
+  "existing_korean_corrected": 0,
+  "new_translations": 134,
+  "ftbquests_keys_updated": 17,
+  "kubejs_files_reviewed": 12,
+  "kubejs_user_visible_literals_found": 0,
+  "apply_roots": [],
+  "game_root_configured": true,
+  "application_pending": true,
+  "application_pending_reason": "Minecraft와 Java 프로세스가 실행 중입니다.",
+  "original_jars_modified": false,
+  "unexpected_instance_changes": [],
+  "output_sha256": {
+    "assets/megacells/lang/ko_kr.json": "8d00b87ed7926b604c3ccd08f6319d09249c802098532ff8e243ac3f84c34e8c"
+  },
+  "validation_errors": 0
+}

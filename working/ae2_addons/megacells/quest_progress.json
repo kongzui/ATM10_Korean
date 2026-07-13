@@ -1,0 +1,8 @@
+{
+  "scope": "MEGA Cells full related FTB Quests before guide batch 09",
+  "source_keys": 17,
+  "changed_keys": 11,
+  "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+  "output_sha256": "fb40f4cfc1a47fee8f4fe95ed6a2620fde42dff3107a18c5408fe3360aa1aa1b",
+  "validation_errors": 0
+}

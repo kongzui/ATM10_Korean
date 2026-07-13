@@ -20,6 +20,7 @@ COMMON_QUEST_OVERRIDES = (
 ADDON_QUEST_OVERRIDE_FILES = (
     PROJECT_ROOT / "working/ae2_addons/extendedae/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/advanced_ae/quest_overrides.json",
+    PROJECT_ROOT / "working/ae2_addons/megacells/quest_overrides.json",
 )
 
 
