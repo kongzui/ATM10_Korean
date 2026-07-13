@@ -2,6 +2,9 @@
 temp/**
 !temp/.gitkeep
 
+# 기기별 ATM10 경로 설정
+local_paths.json
+
 # Python 캐시와 로컬 도구 캐시
 __pycache__/
 *.py[cod]

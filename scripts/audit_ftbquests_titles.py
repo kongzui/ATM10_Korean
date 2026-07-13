@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Any
 
 import build_ae2_quests as lang_snbt
+from local_paths import resolve_source_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_LANG = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -365,9 +366,9 @@ def add_issue(issues: list[dict[str, str]], **values: str) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--instance", required=True, type=Path)
+    parser.add_argument("--instance", type=Path)
     args = parser.parse_args()
-    instance = args.instance.resolve()
+    instance = resolve_source_root(args.instance)
     quest_root = instance / "config/ftbquests/quests"
     lang_root = quest_root / "lang"
     english = lang_snbt.parse_language_snbt(lang_root / "en_us.snbt")

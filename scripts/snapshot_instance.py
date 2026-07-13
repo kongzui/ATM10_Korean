@@ -8,6 +8,8 @@ import json
 import sys
 from pathlib import Path
 
+from local_paths import resolve_source_root
+
 TRACKED_ROOTS = ("mods", "config/ftbquests", "kubejs", "resourcepacks")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SNAPSHOT = PROJECT_ROOT / "temp" / "instance_snapshot.json"
@@ -45,11 +47,11 @@ def collect(instance: Path) -> dict[str, object]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("mode", choices=("create", "compare"))
-    parser.add_argument("--instance", required=True, type=Path)
+    parser.add_argument("--instance", type=Path)
     parser.add_argument("--snapshot", type=Path, default=DEFAULT_SNAPSHOT)
     args = parser.parse_args()
 
-    instance = args.instance.resolve()
+    instance = resolve_source_root(args.instance)
     if not instance.is_dir():
         parser.error(f"인스턴스 경로에 접근할 수 없습니다: {instance}")
     snapshot = inside_project(args.snapshot)

@@ -11,6 +11,8 @@ import re
 import zipfile
 from pathlib import Path, PurePosixPath
 
+from local_paths import resolve_source_root
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 WORKING_ROOT = PROJECT_ROOT / "working/ae2/ae2guide/_ko_kr"
 OUTPUT_ROOT = (
@@ -304,9 +306,9 @@ def build(instance: Path) -> dict[str, object]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--instance", required=True, type=Path)
+    parser.add_argument("--instance", type=Path)
     args = parser.parse_args()
-    result = build(args.instance.resolve())
+    result = build(resolve_source_root(args.instance))
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0
 

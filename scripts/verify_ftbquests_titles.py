@@ -12,6 +12,7 @@ from pathlib import Path
 import audit_ftbquests_titles as audit
 import build_ae2_quests as snbt
 import build_ftbquests_titles as builder
+from local_paths import resolve_source_root
 
 REDUNDANT_SINGLE_ITEM_TASK_IDS = {
     "03EB390E79866058",
@@ -48,9 +49,9 @@ REDUNDANT_SINGLE_ITEM_TASK_IDS = {
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--instance", required=True, type=Path)
+    parser.add_argument("--instance", type=Path)
     args = parser.parse_args()
-    instance = args.instance.resolve()
+    instance = resolve_source_root(args.instance)
     quest_root = instance / "config/ftbquests/quests"
     lang_root = quest_root / "lang"
     english = snbt.parse_language_snbt(lang_root / "en_us.snbt")

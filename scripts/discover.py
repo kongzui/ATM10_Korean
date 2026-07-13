@@ -13,6 +13,8 @@ from collections import defaultdict
 from pathlib import Path, PurePosixPath
 from typing import Any, Iterable
 
+from local_paths import resolve_source_root
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = PROJECT_ROOT / "manifests"
 LANG_ENTRY_RE = re.compile(r"^assets/([^/]+)/lang/(en_us|ko_kr)\.json$", re.IGNORECASE)
@@ -385,11 +387,11 @@ def read_pack_version(instance: Path) -> dict[str, Any]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--instance", required=True, type=Path)
+    parser.add_argument("--instance", type=Path)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
 
-    instance = args.instance.resolve()
+    instance = resolve_source_root(args.instance)
     if not instance.is_dir():
         parser.error(f"인스턴스 경로에 접근할 수 없습니다: {instance}")
     for required in ("mods", "config/ftbquests", "kubejs", "resourcepacks"):

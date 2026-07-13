@@ -11,6 +11,8 @@ import zipfile
 from collections import Counter
 from pathlib import Path
 
+from local_paths import resolve_source_root
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_LANG = (
     PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/ae2/lang/ko_kr.json"
@@ -131,9 +133,9 @@ def sha256(path: Path) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--instance", required=True, type=Path)
+    parser.add_argument("--instance", type=Path)
     args = parser.parse_args()
-    instance = args.instance.resolve()
+    instance = resolve_source_root(args.instance)
     jar = instance / "mods/appliedenergistics2-19.2.17.jar"
     legacy_pack = instance / "resourcepacks/all-the-mods-10_5.4_resourcepack.zip"
 

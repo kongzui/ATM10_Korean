@@ -9,13 +9,14 @@ import zipfile
 from pathlib import Path
 
 import build_ae2_guide as guide
+from local_paths import resolve_source_root
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--instance", required=True, type=Path)
+    parser.add_argument("--instance", type=Path)
     args = parser.parse_args()
-    instance = args.instance.resolve()
+    instance = resolve_source_root(args.instance)
     jar = guide.find_ae2_jar(instance)
     errors = []
 

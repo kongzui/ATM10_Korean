@@ -31,12 +31,31 @@ All the Mods 10 7.1을 모드별로 완성도 있게 한글화하기 위한 작�
 - `scripts/`: 읽기 전용 조사와 검증 도구
 - `temp/`: Git에서 제외하는 재생성 가능 임시 자료
 
+## 기기별 경로 설정
+
+저장소 루트의 `local_paths.example.json`을 `local_paths.json`으로 복사한 뒤 현재
+기기의 절대 경로를 `/` 형식으로 적습니다. `local_paths.json`은 Git에서 제외되므로
+PC와 노트북이 서로 다른 설정을 안전하게 유지합니다.
+
+```json
+{
+  "source_root": "C:/Users/your-name/Desktop/ATM10_source",
+  "game_root": null
+}
+```
+
+- 원본 조회·빌드·검증은 `source_root`가 있으면 우선 사용하고, 없으면 `game_root`를
+  사용합니다.
+- 번역 적용은 설정된 `source_root`와 `game_root` 모두를 대상으로 합니다.
+- `game_root`가 `null`이면 실제 게임 적용만 건너뛰며 `source_root`에는 적용합니다.
+- 기존 명령처럼 `--instance`를 지정하면 로컬 설정 대신 그 단일 경로를 사용합니다.
+
 ## 조사 다시 실행하기
 
 PowerShell에서 저장소 루트를 현재 폴더로 두고 실행합니다.
 
 ```powershell
-python scripts/discover.py --instance "C:\Users\moon9\curseforge\minecraft\Instances\All the Mods 10 - ATM10"
+python scripts/discover.py
 ```
 
 조사 스크립트는 인스턴스에서 파일을 읽고 `manifests/`에 CSV와 JSON만 씁니다. JAR을 추출하거나 수정하지 않습니다. 번역 적용은 조사 스크립트와 별도의 검증·백업 절차로 수행해요.
@@ -44,8 +63,17 @@ python scripts/discover.py --instance "C:\Users\moon9\curseforge\minecraft\Insta
 작업 전 상태 기록과 변경 범위 확인에는 다음 스냅샷 도구를 사용합니다.
 
 ```powershell
-python scripts/snapshot_instance.py create --instance "C:\Users\moon9\curseforge\minecraft\Instances\All the Mods 10 - ATM10"
-python scripts/snapshot_instance.py compare --instance "C:\Users\moon9\curseforge\minecraft\Instances\All the Mods 10 - ATM10"
+python scripts/snapshot_instance.py create
+python scripts/snapshot_instance.py compare
+```
+
+검증된 누적 산출물 전체를 현재 기기에 설정된 모든 대상에 적용하려면 다음 명령을
+사용합니다. 먼저 `--dry-run`으로 대상과 변경 파일을 확인할 수 있으며, 실제 적용은
+기존 파일을 `temp/backups/`에 백업한 뒤 파일 해시와 계획 밖 변경 여부까지 검사합니다.
+
+```powershell
+python scripts/apply_translations.py --dry-run
+python scripts/apply_translations.py
 ```
 
 사용자는 문서를 전부 읽지 않아도 괜찮아요. 전체 조사 결과가 궁금할 때만 `reports/discovery.md`를 보면 됩니다.

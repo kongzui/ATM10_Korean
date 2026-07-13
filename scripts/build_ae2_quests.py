@@ -11,6 +11,8 @@ from collections import Counter
 from pathlib import Path
 from typing import TypeAlias
 
+from local_paths import resolve_source_root
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 OVERRIDES_FILE = PROJECT_ROOT / "working/ae2/quest_overrides.json"
 OUTPUT_FILE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -150,9 +152,9 @@ def sha256(path: Path) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--instance", required=True, type=Path)
+    parser.add_argument("--instance", type=Path)
     args = parser.parse_args()
-    instance = args.instance.resolve()
+    instance = resolve_source_root(args.instance)
     lang_root = instance / "config/ftbquests/quests/lang"
     english_path = lang_root / "en_us/chapters/applied_energistics_2.snbt_merged"
     current_path = lang_root / "ko_kr/chapters/applied_energistics_2.snbt_merged"

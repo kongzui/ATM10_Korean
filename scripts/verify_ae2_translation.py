@@ -10,6 +10,7 @@ from pathlib import Path
 import build_ae2_quests as quests
 import build_ae2_translation as resourcepack
 import build_ftbquests_titles as titles
+from local_paths import resolve_source_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -21,9 +22,9 @@ def ensure_no_bom(path: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--instance", required=True, type=Path)
+    parser.add_argument("--instance", type=Path)
     args = parser.parse_args()
-    instance = args.instance.resolve()
+    instance = resolve_source_root(args.instance)
 
     jar = instance / "mods/appliedenergistics2-19.2.17.jar"
     english = resourcepack.load_zip_json(jar, "assets/ae2/lang/en_us.json")
