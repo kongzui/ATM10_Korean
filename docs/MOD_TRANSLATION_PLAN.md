@@ -91,8 +91,8 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 
 | 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
 |---|---|---|---|---|---|
-| Sophisticated Backpacks | 소피스티케이티드 백팩 | 필터·자동화·업그레이드를 갖춘 배낭 모드 | Sophisticated Core, Backpacks Create Integration | 미작업 | 기존 계획·전 구간 사용 |
-| Sophisticated Storage | 소피스티케이티드 스토리지 | 상자·통과 다양한 저장소 업그레이드를 제공 | Sophisticated Core, Storage Create Integration, Storage in Motion | 미작업 | 기존 계획·전 구간 사용 |
+| Sophisticated Backpacks | 소피스티케이티드 백팩 | 필터·자동화·업그레이드를 갖춘 배낭 모드 | Sophisticated Core, Backpacks Create Integration | 완료 | 기존 계획·전 구간 사용 |
+| Sophisticated Storage | 소피스티케이티드 스토리지 | 상자·통과 다양한 저장소 업그레이드를 제공 | Sophisticated Core, Storage Create Integration, Storage in Motion | 완료 | 기존 계획·전 구간 사용 |
 | Applied Energistics 2 | Applied Energistics 2 (AE2) | 네트워크 기반 디지털 저장소와 자동 제작 시스템 | AE2WTLib, EnderDrives, ExtendedAE, AdvancedAE, MEGA Cells, Applied Flux, ExpandedAE, AE2 Import Export Card, AE2 Network Analyser, ME Requester, Ars Énergistique | 완료 | 기존 완료 기록과 적용본 확인 |
 | AE2 추가 연동 모드 | AE2 추가 연동 모드 | AE2 기능을 다른 기술·마법 시스템과 연결 | AE2 Crafting Tree, AEInfinityBooster, Applied Mekanistics, Immersive Energistics, PolyEng, Soulplied Energistics | 미작업 | 기존 계획·설치된 연동 모드 |
 | Refined Storage 2 | Refined Storage 2 | 디스크와 그리드를 이용하는 디지털 저장소 시스템 | Extra Disks, Extra Storage, Universal Grid, Refined Types, Curios·Mekanism Integration, Quartz Arsenal | 미작업 | 기존 계획·전용 퀘스트 챕터 |
@@ -217,6 +217,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 - **AE2 GuideME 애드온 11개:** AE2WTLib, EnderDrives, ExtendedAE, AdvancedAE,
   MEGA Cells, Applied Flux, ExpandedAE, AE2 Import Export Card, AE2 Network Analyser,
   ME Requester, Ars Énergistique 완료
+- **Sophisticated 계열:** Core, Backpacks, Storage, Storage In Motion과 관련 퀘스트 완료
 - **대형 장비 모드군 4개:** Apotheosis, Relics·Artifacts, Silent Gear,
   Allthemodium·ATM 장비의 언어·관련 퀘스트·KubeJS·가이드 검수와 적용 완료
 - **FTB Quests 공통 제목·탐색 기반:** 일부 완료. 다른 모드의 미완성 제목과 fallback은
