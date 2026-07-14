@@ -1,0 +1,13 @@
+{
+  "files": 4,
+  "translated_literal_occurrences": 44,
+  "per_file": {
+    "kubejs/client_scripts/tooltips.js": 20,
+    "kubejs/startup_scripts/CustomAdditions.js": 10,
+    "kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js": 12,
+    "kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js": 2
+  },
+  "custom_name_literals": 2,
+  "remaining": 0,
+  "status": "passed"
+}
