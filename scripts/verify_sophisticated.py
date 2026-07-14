@@ -27,6 +27,10 @@ ALLOWED_IDENTICAL_KEYS = {
     "gui.sophisticatedbackpacks.upgrades.refill.target_slot.any",
     "gui.sophisticatedbackpacks.upgrades.refill.target_slot.main_hand",
     "gui.sophisticatedbackpacks.upgrades.refill.target_slot.off_hand",
+    "itemGroup.sophisticatedstorage",
+    "itemGroup.sophisticatedstorageinmotion",
+    "item.sophisticatedstorage.paintbrush.tooltip.material",
+    "gui.sophisticatedstorage.upgrades.buttons.io_mode_side_info",
 }
 
 
@@ -124,7 +128,7 @@ def verify_target(
         key
         for key, value in korean.items()
         if isinstance(value, str)
-        and "Upgrade" in str(english.get(key, ""))
+        and re.search(r"\bupgrades?\b", str(english.get(key, "")), re.IGNORECASE)
         and "업그레이드" not in value
     ]
     if bad_upgrade:

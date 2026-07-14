@@ -1,0 +1,10 @@
+{
+  "itemGroup.sophisticatedstorageinmotion": "Sophisticated Storage In Motion",
+  "item.sophisticatedstorageinmotion.storage_minecart": "%s 광산 수레",
+  "item.sophisticatedstorageinmotion.storage_boat": "%s 보트 - %s",
+  "item.sophisticatedstorageinmotion.storage_raft": "%s 뗏목 - %s",
+  "entity.sophisticatedstorageinmotion.storage_minecart": "%s 광산 수레",
+  "entity.sophisticatedstorageinmotion.storage_boat": "%s 보트 - %s",
+  "entity.sophisticatedstorageinmotion.storage_raft": "%s 뗏목 - %s",
+  "entity.sophisticatedstorageinmotion.chested_horse_with_storage": "%s - %s"
+}
