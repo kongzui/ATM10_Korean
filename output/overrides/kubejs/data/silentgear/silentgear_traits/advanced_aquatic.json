@@ -1,0 +1,27 @@
+{
+  "conditions": [],
+  "description": {
+    "text": "고급 수생 특성은 방어구 풀세트가 아니어도 수중 호흡을 부여합니다"
+  },
+  "effects": [
+    {
+      "type": "silentgear:wielder_effect",
+      "potion_effects": {
+        "silentgear:armor": [
+          {
+            "type": "piece_count",
+            "duration": 38,
+            "effect": "minecraft:water_breathing",
+            "levels": [
+              1
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "text": "고급 수생"
+  }
+}

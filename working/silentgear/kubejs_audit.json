@@ -1,0 +1,11 @@
+{
+  "trait_files": 4,
+  "translated_literals": 9,
+  "material_translate_keys": [
+    "material.silentgear.allthemodium",
+    "material.silentgear.unobtainium",
+    "material.silentgear.vibranium"
+  ],
+  "material_language_file": "output\\resourcepack\\ATM10_Korean\\assets\\atm10_localization\\lang\\ko_kr.json",
+  "status": "passed"
+}

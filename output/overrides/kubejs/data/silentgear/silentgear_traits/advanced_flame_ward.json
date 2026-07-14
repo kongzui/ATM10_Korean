@@ -1,0 +1,33 @@
+{
+  "conditions": [],
+  "description": {
+    "text": "방어구 풀세트가 아니어도 화염 저항을 부여합니다"
+  },
+  "effects": [
+    {
+      "type": "silentgear:fireproof"
+    },
+    {
+      "type": "silentgear:wielder_effect",
+      "potion_effects": {
+        "silentgear:armor": [
+          {
+            "type": "piece_count",
+            "duration": 38,
+            "effect": "minecraft:fire_resistance",
+            "levels": [
+              1
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "extra_wiki_lines": [
+    "  - 아이템은 불이나 용암에 의해 파괴되지 않습니다"
+  ],
+  "max_level": 1,
+  "name": {
+    "text": "고급 화염 수호"
+  }
+}
