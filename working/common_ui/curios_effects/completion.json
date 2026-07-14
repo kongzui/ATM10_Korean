@@ -1,0 +1,40 @@
+{
+  "group": "Curios·Enchantment Descriptions·More Overlays Updated",
+  "status": "complete",
+  "installed_sources": [
+    {
+      "jar": "curios-neoforge-9.5.1+1.21.1.jar",
+      "namespace": "curios",
+      "keys": 48
+    },
+    {
+      "name": "Enchantment Descriptions",
+      "installed": false,
+      "note": "설치 JAR과 모드 메타데이터에서 찾을 수 없음"
+    },
+    {
+      "jar": "moreoverlays-1.24.2-mc1.21.1-neoforge.jar",
+      "namespace": "moreoverlays",
+      "keys": 40
+    }
+  ],
+  "counts": {
+    "existing_korean_reused": 57,
+    "existing_korean_corrected": 31,
+    "newly_translated": 0,
+    "output_keys": 88
+  },
+  "related_scope": {
+    "ftb_quests": "Curios charm 태그를 쓰는 스마트 필터 1건만 확인; 표시 문구 없음",
+    "kubejs": "Curios 슬롯 태그 추가 3건만 확인; 사용자 표시 문구 없음",
+    "advancements_and_guides": "설치된 두 모드가 직접 소유한 추가 번역 대상 없음"
+  },
+  "validation": {
+    "json": "passed",
+    "key_order_and_types": "passed",
+    "placeholders": "passed",
+    "format_codes": "passed",
+    "line_breaks": "passed",
+    "utf8_bom": false
+  }
+}
