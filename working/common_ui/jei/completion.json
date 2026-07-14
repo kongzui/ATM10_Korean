@@ -1,0 +1,51 @@
+{
+  "group": "Just Enough Items",
+  "status": "complete",
+  "installed_sources": [
+    {
+      "jar": "jei-1.21.1-neoforge-19.27.0.343.jar",
+      "namespace": "jei",
+      "keys": 305
+    },
+    {
+      "jar": "ftb-jei-extras-21.1.7.jar",
+      "namespace": "ftbjeiextras",
+      "keys": 0,
+      "note": "빈 en_us 파일이며 사용자 표시 언어 키 없음"
+    },
+    {
+      "jar": "ae2jeiintegration-1.2.1.jar",
+      "namespace": null,
+      "note": "언어 리소스 없음; AE2 아이템·가이드 본문은 범위 제외"
+    },
+    {
+      "jar": "refinedstorage-jei-integration-neoforge-1.0.0.jar",
+      "namespace": "refinedstorage_jei_integration",
+      "keys": 10
+    }
+  ],
+  "counts": {
+    "existing_korean_reused": 233,
+    "existing_korean_corrected": 82,
+    "newly_translated": 0,
+    "output_keys": 315
+  },
+  "related_scope": {
+    "ftb_quests": "JEI 텍스처를 장식에 쓰는 모드별 퀘스트 2건만 확인; 문구 소유자가 아니므로 수정 없음",
+    "kubejs": "JEI 사용 안내가 포함된 개별 모드 문구만 확인; 범위 밖이라 수정 없음",
+    "advancements": "JEI 자체 발전 과제 없음",
+    "guide_ui": "JEI 자체 가이드 본문 없음"
+  },
+  "validation": {
+    "json": "passed",
+    "key_order_and_types": "passed",
+    "placeholders": "passed",
+    "format_codes": "passed",
+    "line_breaks": "passed",
+    "utf8_bom": false
+  },
+  "notes": [
+    "다른 모드 아이템명·툴팁·전용 조합법 문구는 수정하지 않음",
+    "Refined Storage JEI Integration의 기존 ko_kr 값 9개가 영어여서 한국어로 교정"
+  ]
+}
