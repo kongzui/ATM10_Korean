@@ -1,0 +1,7 @@
+{
+  "command.silentlib.nbt.noItemInHand": "주 손에 아이템 없음",
+  "command.silentlib.nbt.noItemTag": "%s에 NBT가 없습니다",
+  "command.silentlib.nbt.notBlockEntity": "%s은 블록 엔티티가 아닙니다",
+  "item.silentlib.lootContainer.itemReceived": "획득: %dx %s",
+  "item.silentlib.lootContainer.table": "전리품 테이블: %s"
+}
