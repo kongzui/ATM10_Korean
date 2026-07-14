@@ -36,8 +36,8 @@
     }
   ],
   "counts": {
-    "existing_korean_reused": 1036,
-    "existing_korean_corrected": 409,
+    "existing_korean_reused": 1028,
+    "existing_korean_corrected": 417,
     "newly_translated": 177,
     "output_keys": 1622
   },
@@ -62,6 +62,11 @@
       "Occultism과 Create: Enchantment Industry의 비관련 전체 콘텐츠",
       "Iron's Spells 'n Spellbooks의 비관련 전체 콘텐츠"
     ]
+  },
+  "cross_normalization": {
+    "world_tier": "월드 티어",
+    "changed_existing_candidates": 8,
+    "status": "퀘스트와 가이드 용어에 맞춰 통일"
   },
   "validation": {
     "json": "passed",

@@ -50,7 +50,12 @@ def main() -> int:
                 lang_root / f"en_us/chapters/{chapter}.snbt_merged"
             )
         )
-    english.update({key: full_english[key] for key in build.NAVIGATION_KEYS})
+    english.update(
+        {
+            key: full_english[key]
+            for key in build.NAVIGATION_KEYS + build.RELATED_QUEST_KEYS
+        }
+    )
     if set(overrides) != set(english):
         errors.append("작업 JSON과 영어 표시 키 집합이 다릅니다.")
     for key, source in english.items():
@@ -70,13 +75,27 @@ def main() -> int:
             f"대상 챕터 구조를 모두 찾지 못했습니다: {len(target_chapters)}개"
         )
 
+    target_namespaces = {
+        "apotheosis",
+        "apothic_attributes",
+        "apothic_enchanting",
+        "apothic_spawners",
+    }
+    related_tasks = [
+        (chapter, quest, task)
+        for chapter in chapters
+        if chapter not in target_chapters
+        for quest in chapter["quests"]
+        for task in quest["tasks"]
+        if task["item_id"].partition(":")[0] in target_namespaces
+    ]
     item_ids = {
         task["item_id"]
         for chapter in target_chapters
         for quest in chapter["quests"]
         for task in quest["tasks"]
         if task["item_id"] and task["item_id"] != "ftbfiltersystem:smart_filter"
-    }
+    } | {task["item_id"] for _, _, task in related_tasks}
     installed_en, installed_ko, item_keys = audit.load_installed_item_languages(
         instance, item_ids
     )
@@ -91,6 +110,14 @@ def main() -> int:
         elif project_ko.get(language_key) != translated_name:
             errors.append(
                 f"직접 연동 아이템 번역이 출력과 다릅니다: {item_id}={translated_name}"
+            )
+    for chapter, quest, task in related_tasks:
+        language_key = item_keys.get(task["item_id"], "")
+        fallback = task["custom_name"] or project_ko.get(language_key, "")
+        if task["custom_name"] or not fallback or audit.looks_untranslated(fallback):
+            errors.append(
+                "전용 챕터 밖 직접 관련 Task fallback을 번역하지 못했습니다: "
+                f"{chapter['filename']}:{quest['id']}:{task['id']}={fallback!r}"
             )
     custom_names = []
     redundant_item_task_titles = []
@@ -201,6 +228,7 @@ def main() -> int:
         "quest_fallbacks_checked": fallback_checks,
         "item_resourcepack_title_matches_checked": item_title_checks,
         "direct_quest_item_names_checked": len(direct_items),
+        "related_tasks_outside_chapters_checked": len(related_tasks),
         "unclassified_english": len(unclassified_english),
         "validation_errors": len(errors),
         "errors": errors,

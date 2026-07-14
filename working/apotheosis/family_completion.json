@@ -1,0 +1,81 @@
+{
+  "group": "Apotheosis 계열",
+  "status": "complete",
+  "installed": [
+    "Apotheosis-1.21.1-8.5.4.jar",
+    "ApothicAttributes-1.21.1-2.9.1.jar",
+    "ApothicEnchanting-1.21.1-1.5.3.jar",
+    "ApothicSpawners-1.21.1-1.3.4.jar"
+  ],
+  "direct_integrations_included": [
+    "create-enchantment-industry-2.5.0-preview-alpha1.jar",
+    "irons_spellbooks-1.21.1-3.16.1.jar"
+  ],
+  "direct_quest_item_providers": [
+    "ars_additions-1.21.1-21.3.0.jar",
+    "Draconic-Evolution-1.21.1-3.1.4.632.jar",
+    "enderio-8.2.11-beta.jar",
+    "evilcraft-1.21.1-neoforge-1.2.89.jar",
+    "mob_grinding_utils-1.1.10+mc1.21.1.jar",
+    "MysticalAgriculture-1.21.1-8.0.26.jar",
+    "pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar"
+  ],
+  "counts": {
+    "language_keys": 1631,
+    "guide_fields": 526,
+    "quest_keys": 246,
+    "existing_korean_reused": 1046,
+    "existing_korean_corrected": 499,
+    "newly_translated": 858,
+    "remaining": 0
+  },
+  "content": {
+    "resourcepack_namespaces": 13,
+    "patchouli_files": 126,
+    "ftbquests_chapters": 3,
+    "direct_atm_star_tasks": 2,
+    "kubejs_user_literals_remaining": 0,
+    "advancement_language_keys": 76,
+    "custom_or_literal_quest_components": 0
+  },
+  "cross_normalization": {
+    "world_tier": "월드 티어",
+    "deepshelf": "깊은 책장",
+    "crystalline_seashelf": "수정질 바다 책장",
+    "treasure_shelf": "비전 보물의 깊은 책장",
+    "infused_dragon_breath": "주입된 드래곤의 숨결",
+    "status": "리소스팩, 퀘스트와 가이드 사이 명칭 통일 완료"
+  },
+  "validation": {
+    "json_and_snbt": "passed",
+    "keys_and_types": "passed",
+    "duplicates": 0,
+    "placeholders_numbers_format_and_line_breaks": "passed",
+    "unclassified_english": 0,
+    "quest_fallbacks": "passed",
+    "ruff_and_compileall": "passed",
+    "unexpected_live_changes": 0
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "applied_at": "2026-07-14T19:36:20",
+    "target_type": "game_root",
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_paths": 140,
+    "backup_root": "temp/backups/20260714_193616_282000/game_root",
+    "backup_manifest": "temp/backups/20260714_193616_282000/backup_manifest.json"
+  },
+  "completed_commits": [
+    "347b2b9 Apotheosis 계열 언어 번역",
+    "d7384f2 Apotheosis 그림자의 연대기 번역",
+    "067cc10 Apotheosis 관련 퀘스트 번역"
+  ],
+  "out_of_scope": [
+    "Gateways to Eternity 전체",
+    "Hellish Trials 전체",
+    "Occultism 전체",
+    "Create: Enchantment Industry 비관련 콘텐츠",
+    "Iron's Spells 'n Spellbooks 비관련 콘텐츠"
+  ],
+  "review_items": []
+}

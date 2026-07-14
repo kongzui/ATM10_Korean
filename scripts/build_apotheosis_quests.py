@@ -16,12 +16,18 @@ WORK_ROOT = PROJECT_ROOT / "working/apotheosis"
 OVERRIDES_FILE = WORK_ROOT / "quest_overrides.json"
 OUTPUT_FILE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 PROGRESS_FILE = WORK_ROOT / "quest_progress.json"
+CATALOG_FILE = WORK_ROOT / "quest_catalog.json"
 CHAPTERS = ("apotheosis_2", "apotheosis_gear", "apothic_enchanting")
 NAVIGATION_KEYS = (
     "chapter.0E81CBCD6B1D1895.title",
     "chapter.0E81CBCD6B1D1895.chapter_subtitle",
     "chapter.0731FA8830F28280.title",
     "chapter.12AD9789D962B179.title",
+)
+RELATED_QUEST_KEYS = (
+    "quest.4A6B585C2394A89A.quest_desc",
+    "quest.14B7EEBE0F6C2776.title",
+    "quest.14B7EEBE0F6C2776.quest_desc",
 )
 INTENTIONAL_ORIGINAL_KEYS = (
     "quest.310969B8FE0A94DE.title",
@@ -42,11 +48,9 @@ def main() -> int:
     instance = resolve_source_root(args.instance)
     lang_root = instance / "config/ftbquests/quests/lang"
     full_english = snbt.parse_language_snbt(lang_root / "en_us.snbt")
-    full_current = snbt.parse_language_snbt(lang_root / "ko_kr.snbt")
     overrides = json.loads(OVERRIDES_FILE.read_text(encoding="utf-8"))
 
     english: dict[str, snbt.TranslationValue] = {}
-    current: dict[str, snbt.TranslationValue] = {}
     chapter_counts = []
     for chapter in CHAPTERS:
         source_path = lang_root / f"en_us/chapters/{chapter}.snbt_merged"
@@ -59,7 +63,6 @@ def main() -> int:
         if overlap:
             raise ValueError(f"챕터 사이에 중복 키가 있습니다: {sorted(overlap)}")
         english.update(source)
-        current.update(installed)
         chapter_counts.append(
             {
                 "chapter": chapter,
@@ -69,12 +72,10 @@ def main() -> int:
             }
         )
 
-    for key in NAVIGATION_KEYS:
+    for key in NAVIGATION_KEYS + RELATED_QUEST_KEYS:
         if key not in full_english:
             raise ValueError(f"영어 목차 키를 찾지 못했습니다: {key}")
         english[key] = full_english[key]
-        if key in full_current:
-            current[key] = full_current[key]
 
     if set(overrides) != set(english):
         missing = sorted(set(english) - set(overrides))
@@ -98,17 +99,16 @@ def main() -> int:
             raise ValueError(f"누적 SNBT 병합 결과가 다릅니다: {key}")
 
     intended = set(INTENTIONAL_ORIGINAL_KEYS)
+    completion_counts = json.loads(CATALOG_FILE.read_text(encoding="utf-8"))[
+        "completion_counts"
+    ]
     progress = {
         "scope": "Apotheosis family FTB Quests",
         "chapters": chapter_counts,
         "source_display_keys": len(english),
-        "existing_korean_kept": sum(
-            key in current and overrides[key] == current[key] for key in english
-        ),
-        "existing_korean_corrected": sum(
-            key in current and overrides[key] != current[key] for key in english
-        ),
-        "newly_completed": sum(key not in current for key in english),
+        "existing_korean_kept": completion_counts["existing_korean_kept"],
+        "existing_korean_corrected": completion_counts["existing_korean_corrected"],
+        "newly_completed": completion_counts["newly_completed"],
         "classification": {
             "translated_or_localized": len(english) - len(intended),
             "intentional_original": len(intended),

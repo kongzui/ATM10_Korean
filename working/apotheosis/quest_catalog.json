@@ -25,8 +25,18 @@
     "existing_korean": 3,
     "missing_korean": 1
   },
+  "direct_atm_star_keys": {
+    "english_keys": 3,
+    "existing_korean": 3,
+    "missing_korean": 0
+  },
   "chapter_text_keys": 239,
-  "total_keys": 243,
-  "existing_korean": 97,
-  "missing_korean": 146
+  "total_keys": 246,
+  "existing_korean": 100,
+  "missing_korean": 146,
+  "completion_counts": {
+    "existing_korean_kept": 18,
+    "existing_korean_corrected": 82,
+    "newly_completed": 146
+  }
 }

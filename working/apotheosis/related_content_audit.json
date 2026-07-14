@@ -1,0 +1,48 @@
+{
+  "scope": "Apotheosis 계열의 퀘스트 밖 사용자 표시 경로",
+  "kubejs": {
+    "translated_key_reference": {
+      "path": "kubejs/data/apothic_enchanting/enchantment/miners_fervor.json",
+      "key": "enchantment.apothic_enchanting.miners_fervor",
+      "status": "리소스팩 번역으로 처리"
+    },
+    "data_only_paths": [
+      "kubejs/server_scripts/mods/Apotheosis/adventure.js",
+      "kubejs/data/apotheosis/data_maps/item/loot_category_overrides.json",
+      "kubejs/server_scripts/modpack/att_items.js",
+      "kubejs/server_scripts/modpack/mini_portals.js",
+      "kubejs/server_scripts/modpack/runic_multis/controllers.js",
+      "kubejs/server_scripts/modpack/runic_multis/recipes/runic_enchanter.js"
+    ],
+    "direct_user_literals_remaining": 0,
+    "out_of_scope": [
+      "kubejs/client_scripts/tooltips.js의 Gateways to Eternity 전용 게이트 진주 경고"
+    ]
+  },
+  "advancements": {
+    "translated_language_keys": 76,
+    "status": "Apotheosis 언어 파일에 포함해 검증"
+  },
+  "ftbquests": {
+    "dedicated_chapters": 3,
+    "dedicated_chapter_keys": 243,
+    "direct_atm_star_keys": 3,
+    "direct_tasks_outside_dedicated_chapters": 2,
+    "custom_or_literal_components": 0,
+    "status": "전용 챕터와 직접 ATM Star 경로 처리 완료"
+  },
+  "guide": {
+    "system": "Patchouli",
+    "files": 126,
+    "translated_fields": 526,
+    "status": "처리 완료"
+  },
+  "excluded_expansion": [
+    "Gateways to Eternity 전체",
+    "Hellish Trials 전체",
+    "Occultism 전체",
+    "Create: Enchantment Industry 비관련 콘텐츠",
+    "Iron's Spells 'n Spellbooks 비관련 콘텐츠"
+  ],
+  "remaining": 0
+}

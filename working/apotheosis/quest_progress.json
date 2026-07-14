@@ -20,12 +20,12 @@
       "missing_korean": 50
     }
   ],
-  "source_display_keys": 243,
+  "source_display_keys": 246,
   "existing_korean_kept": 18,
-  "existing_korean_corrected": 79,
+  "existing_korean_corrected": 82,
   "newly_completed": 146,
   "classification": {
-    "translated_or_localized": 239,
+    "translated_or_localized": 242,
     "intentional_original": 4,
     "internal_or_not_displayed": 0,
     "out_of_scope": 0,
@@ -39,8 +39,8 @@
   ],
   "remaining": 0,
   "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
-  "base_sha256": "f60ab2e3ef6f6c33c76398bd51ee41911e9fcfe90ba9b9d92453d650468b21eb",
-  "output_sha256": "f60ab2e3ef6f6c33c76398bd51ee41911e9fcfe90ba9b9d92453d650468b21eb",
+  "base_sha256": "b07f485d76c4c4417cfec31a51ffdfd8341e60c4c7967e8ed150c9d9bb742644",
+  "output_sha256": "b07f485d76c4c4417cfec31a51ffdfd8341e60c4c7967e8ed150c9d9bb742644",
   "validation_errors": 0,
   "review_items": []
 }
