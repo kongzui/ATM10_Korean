@@ -103,10 +103,10 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 
 | 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
 |---|---|---|---|---|---|
-| Apotheosis | 아포테오시스 | 어픽스·보석·소켓·희귀도 기반 장비 성장을 제공 | Apothic Attributes, Apothic Enchanting, Apothic Spawners | 미작업 | 기존 계획·전용 퀘스트 다수 |
-| Relics·Artifacts | 렐릭·아티팩트 | 장착형 유물과 성장·능력 해금 시스템을 제공 | Relics, Artifacts, Reliquified Artifacts | 미작업 | 기존 계획·전용 퀘스트 챕터 |
-| Silent Gear | Silent Gear | 재료와 부품을 조합해 장비를 제작하는 시스템 | Silent Lib, Silent Gems, Silent Gear Metalworks | 미작업 | 기존 계획·전용 퀘스트 챕터 |
-| Allthemodium·ATM 장비 | 올더모디움·ATM 장비 | ATM 핵심 광물, 최종 장비와 ATM Star 진행을 담당 | All The Arcanist Gear, All the Wizard Gear, ATM Star 퀘스트와 KubeJS | 미작업 | 기존 계획·팩 핵심 진행 |
+| Apotheosis | 아포테오시스 | 어픽스·보석·소켓·희귀도 기반 장비 성장을 제공 | Apothic Attributes, Apothic Enchanting, Apothic Spawners | 완료 | 기존 계획·전용 퀘스트 다수 |
+| Relics·Artifacts | 렐릭·아티팩트 | 장착형 유물과 성장·능력 해금 시스템을 제공 | Relics, Artifacts, Reliquified Artifacts | 완료 | 기존 계획·전용 퀘스트 챕터 |
+| Silent Gear | Silent Gear | 재료와 부품을 조합해 장비를 제작하는 시스템 | Silent Lib, Silent Gems, Silent Gear Metalworks | 완료 | 기존 계획·전용 퀘스트 챕터 |
+| Allthemodium·ATM 장비 | 올더모디움·ATM 장비 | ATM 핵심 광물, 최종 장비와 ATM Star 진행을 담당 | All The Arcanist Gear, All the Wizard Gear, ATM Star 퀘스트와 KubeJS | 완료 | 기존 계획·팩 핵심 진행 |
 | Draconic Evolution | 드라코닉 에볼루션 | 모듈식 최종 장비, 에너지 저장과 반응로를 제공 | Brandon's Core는 의존성으로만 확인, 관련 퀘스트 | 미작업 | 기존 계획·전용 퀘스트 챕터 |
 | Iron Jetpacks·장비 편의 | 아이언 제트팩·장비 편의 | 비행, 체력 확장과 휴대 장비 슬롯을 제공 | Iron Jetpacks, Baubley Heart Canisters, Tool Belt, Simple Magnets | 미작업 | 신규: 자주 사용하는 성장·편의 장비 |
 | Gateways to Eternity·Hellish Trials | 영원의 관문·지옥의 시련 | 소환형 전투 도전과 단계별 보상을 제공 | 두 본체, Apotheosis 관련 보상과 퀘스트 | 미작업 | 신규: 독립 전투 콘텐츠 |
@@ -217,5 +217,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 - **AE2 GuideME 애드온 11개:** AE2WTLib, EnderDrives, ExtendedAE, AdvancedAE,
   MEGA Cells, Applied Flux, ExpandedAE, AE2 Import Export Card, AE2 Network Analyser,
   ME Requester, Ars Énergistique 완료
+- **대형 장비 모드군 4개:** Apotheosis, Relics·Artifacts, Silent Gear,
+  Allthemodium·ATM 장비의 언어·관련 퀘스트·KubeJS·가이드 검수와 적용 완료
 - **FTB Quests 공통 제목·탐색 기반:** 일부 완료. 다른 모드의 미완성 제목과 fallback은
   해당 모드를 선택했을 때 함께 검토
