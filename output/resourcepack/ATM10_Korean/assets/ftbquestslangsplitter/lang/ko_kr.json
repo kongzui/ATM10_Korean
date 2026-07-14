@@ -1,0 +1,15 @@
+{
+  "ftbquestslangsplitter.configuration.title": "FTB Quests Lang Splitter 설정",
+  "ftbquestslangsplitter.configuration.section.ftbquestslangsplitter.common.toml": "FTB Quests Lang Splitter 설정",
+  "ftbquestslangsplitter.configuration.section.ftbquestslangsplitter.common.toml.title": "FTB Quests Lang Splitter 설정",
+  "ftbquestslangsplitter.commands.unsupported_locale": "%s 언어는 지원되지 않습니다",
+  "ftbquestslangsplitter.commands.permission_denied": "이 명령어를 실행할 권한이 없습니다",
+  "ftbquestslangsplitter.commands.lang_manager_force_saved": "언어 관리자가 강제 저장되었습니다",
+  "ftbquestslangsplitter.commands.added_missing_lang_entries": "%s 언어에 누락 항목 %s개를 추가했습니다",
+  "ftbquestslangsplitter.commands.no_missing_entries": "%s 언어에는 누락 항목이 없습니다",
+  "ftbquestslangsplitter.commands.lang_file_split": "%s 언어 파일을 분할했습니다",
+  "ftbquestslangsplitter.commands.all_lang_file_split": "모든 언어 파일이 성공적으로 분할되었습니다.",
+  "ftbquestslangsplitter.commands.file_already_exists": "%s에 파일이 이미 존재하므로 건너뜁니다...",
+  "ftbquestslangsplitter.commands.purged_merged_files": "병합 파일을 제거했습니다",
+  "ftbquestslangsplitter.split.lang_saved_reminder": "편집 모드이며 언어 파일이 저장된 것 같습니다. 완료되면 분할하는 것을 잊지 마세요!"
+}

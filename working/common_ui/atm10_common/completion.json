@@ -1,0 +1,52 @@
+{
+  "group": "ATM10 공통 문구",
+  "status": "complete",
+  "source_version": "ATM10 7.1 / Minecraft 1.21.1",
+  "installed_sources": [
+    {
+      "jar": "ftb-quests-neoforge-2101.1.27.jar",
+      "namespace": "ftbquests",
+      "keys": 656
+    },
+    {
+      "jar": "ftbquestslangsplitter-1.0.5.jar",
+      "namespace": "ftbquestslangsplitter",
+      "keys": 13
+    },
+    {
+      "jar": "allthetweaks-1.21.1-2.9.4.jar",
+      "namespace": "allthetweaks",
+      "reviewed_common_keys": 2,
+      "excluded_item_block_and_dimension_keys": 24
+    },
+    {
+      "jar": "kubejs-neoforge-2101.7.2-build.368.jar",
+      "namespace": null,
+      "note": "자체 en_us 언어 파일 없음; 팩 KubeJS 후보는 개별 모드 전용이라 수정 제외"
+    }
+  ],
+  "counts": {
+    "installed_korean_reused": 2,
+    "legacy_candidates_reviewed": 13,
+    "newly_translated": 656,
+    "output_keys": 671
+  },
+  "related_scope": {
+    "ftb_quests": "기존 공통 챕터 감사 결과 237키와 현재 6185키 overrides 보존 확인",
+    "kubejs": "공통 비모드 문구 추가 대상 없음",
+    "advancements": "공통 비모드 발전 과제 추가 대상 없음",
+    "guide_ui": "이 행에는 공통 가이드 본문 대상 없음"
+  },
+  "validation": {
+    "json": "passed",
+    "key_order_and_types": "passed",
+    "placeholders": "passed",
+    "format_codes": "passed",
+    "line_breaks": "passed",
+    "utf8_bom": false
+  },
+  "notes": [
+    "All The Tweaks는 계획 경계에 따라 팩 공통 경고 2키만 포함함",
+    "개별 모드 아이템·블록·퀘스트·모드 전용 KubeJS 문구는 수정하지 않음"
+  ]
+}
