@@ -1,0 +1,62 @@
+{
+  "scope": "Allthemodium and ATM gear related user-visible content",
+  "installed": [
+    "allthemodium-3.0.1_mc_1.21.1.jar",
+    "allthearcanistgear-1.21.1-21.3.2.jar",
+    "allthewizardgear-1.21.1-1.1.12.jar"
+  ],
+  "direct_integrations": {
+    "gear_addons_fully_translated": [
+      "All The Arcanist Gear",
+      "All the Wizard Gear"
+    ],
+    "runtime_dependencies_checked": {
+      "Ars Nouveau": "ars_nouveau-1.21.1-5.12.0.jar",
+      "Iron's Spells 'n Spellbooks": "irons_spellbooks-1.21.1-3.16.1.jar",
+      "Silent Gear": "silent-gear-1.21.1-neoforge-4.2.1.1.jar"
+    },
+    "dependency_full_languages": "out_of_scope; only direct quest hover keys added"
+  },
+  "compatibility_language_keys": {
+    "silentgear_material_names": 6,
+    "tetra_material_names": 3,
+    "tconstruct_harvest_tiers": 3
+  },
+  "ftbquests": {
+    "dedicated_quests": 54,
+    "related_quests_outside_chapter": 26,
+    "tasks": 109,
+    "display_keys": 175,
+    "custom_names": 0,
+    "literal_components": 3,
+    "remaining": 0
+  },
+  "kubejs": {
+    "files": 4,
+    "translated_literal_occurrences": 44,
+    "per_file": {
+      "kubejs/client_scripts/tooltips.js": 20,
+      "kubejs/startup_scripts/CustomAdditions.js": 10,
+      "kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js": 12,
+      "kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js": 2
+    },
+    "custom_name_literals": 2,
+    "remaining": 0,
+    "status": "passed"
+  },
+  "guide": {
+    "localized_json": 19,
+    "book_metadata_overrides": 1,
+    "display_fields": 47
+  },
+  "advancements": {
+    "files_with_user_display_components": 0,
+    "untranslated_literals": 0
+  },
+  "out_of_scope_present": {
+    "All The Ores": "alltheores-3.2.0_neoforge_1.21.1.jar",
+    "All The Compressed": "allthecompressed-1.21.1-4.4.0.jar"
+  },
+  "review_items": [],
+  "status": "passed"
+}
