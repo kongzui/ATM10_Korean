@@ -1,0 +1,56 @@
+{
+  "group": "Controlling·Better Advancements·AppleSkin·Mouse Tweaks·Inventory Tweaks·TrashSlot",
+  "status": "complete",
+  "installed_sources": [
+    {
+      "jar": "Controlling-neoforge-1.21.1-19.0.5.jar",
+      "namespace": "controlling",
+      "keys": 12
+    },
+    {
+      "jar": "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+      "namespace": "betteradvancements",
+      "keys": 1
+    },
+    {
+      "jar": "appleskin-neoforge-mc1.21-3.0.9.jar",
+      "namespace": "appleskin",
+      "keys": 22
+    },
+    {
+      "jar": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "namespace": null,
+      "note": "언어 리소스 없음"
+    },
+    {
+      "jar": "invtweaks-1.21.1-1.3.2.jar",
+      "namespace": "invtweaks",
+      "keys": 4
+    },
+    {
+      "jar": "trashslot-neoforge-1.21.1-21.1.11.jar",
+      "namespace": "trashslot",
+      "keys": 24
+    }
+  ],
+  "counts": {
+    "existing_korean_reused": 35,
+    "existing_korean_corrected": 26,
+    "newly_translated": 2,
+    "output_keys": 63
+  },
+  "related_scope": {
+    "ftb_quests": "모드 네임스페이스와 직접 UI 문구 참조 없음",
+    "kubejs": "직접 사용자 표시 문구 없음",
+    "advancements": "Better Advancements 자체 UI 1키만 검수; 발전 과제 내용은 소유 모드 범위로 유지",
+    "guide_ui": "직접 관련 대상 없음"
+  },
+  "validation": {
+    "json": "passed",
+    "key_order_and_types": "passed",
+    "placeholders": "passed",
+    "format_codes": "passed",
+    "line_breaks": "passed",
+    "utf8_bom": false
+  }
+}
