@@ -1,0 +1,63 @@
+{
+  "group": "FTB Ultimine·Corail Tombstone·Lootr·Polymorph·Ars Polymorphia·Crafting Tweaks",
+  "status": "complete",
+  "installed_sources": [
+    {
+      "jar": "ftb-ultimine-neoforge-2101.1.15.jar",
+      "namespace": "ftbultimine",
+      "keys": 89
+    },
+    {
+      "jar": "tombstone-neoforge-1.21.1-9.5.1.jar",
+      "namespace": "tombstone",
+      "keys": 1233,
+      "includes": "발전 과제·개요서·설정·명령·아이템 UI"
+    },
+    {
+      "jar": "lootr-neoforge-1.21.1-1.11.37.120.jar",
+      "namespace": "lootr",
+      "keys": 217,
+      "includes": "발전 과제·설정·상태 문구"
+    },
+    {
+      "jar": "polymorph-neoforge-1.1.0+1.21.1.jar",
+      "namespace": "polymorph",
+      "keys": 3
+    },
+    {
+      "jar": "ars_polymorphia-1.0.3.jar",
+      "namespace": null,
+      "note": "언어 리소스 없음"
+    },
+    {
+      "jar": "craftingtweaks-neoforge-1.21.1-21.1.10.jar",
+      "namespace": "craftingtweaks",
+      "keys": 40
+    }
+  ],
+  "counts": {
+    "existing_korean_reused": 1337,
+    "existing_korean_corrected": 216,
+    "newly_translated": 29,
+    "output_keys": 1582,
+    "related_quest_descriptions_corrected": 2,
+    "related_quest_titles_corrected": 1
+  },
+  "related_scope": {
+    "ftb_quests": "마법 해제 방법 퀘스트와 FTB Ultimine 비교 안내를 완성; 아이템 참조는 리소스팩 이름 사용",
+    "kubejs": "Tombstone 태그와 공지 참조만 확인; Polymorphic Fluid 문구는 Just Dire Things 소유라 범위 제외",
+    "advancements": "Tombstone과 Lootr가 소유한 발전 과제 문구를 언어 파일에서 검수",
+    "guide_ui": "Tombstone 개요서 44개 구조 오류를 영어 줄바꿈·자리표시자에 맞춰 복구"
+  },
+  "validation": {
+    "json": "passed",
+    "snbt": "passed",
+    "key_order_and_types": "passed",
+    "placeholders": "passed",
+    "format_codes": "passed",
+    "line_breaks": "passed",
+    "duplicate_quest_keys": 0,
+    "invalid_quest_object_ids": 0,
+    "utf8_bom": false
+  }
+}
