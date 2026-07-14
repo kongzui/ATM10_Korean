@@ -1,0 +1,40 @@
+{
+  "scope": "Relics and Artifacts family FTB Quests",
+  "chapters": [
+    "artifacts",
+    "relics"
+  ],
+  "source_display_keys": 217,
+  "existing_korean_kept": 66,
+  "existing_korean_corrected": 145,
+  "newly_completed": 6,
+  "classification": {
+    "translated_or_localized": 209,
+    "intentional_original": 8,
+    "internal_or_not_displayed": 0,
+    "out_of_scope": 0,
+    "manual_review": 0
+  },
+  "intentional_original_keys": [
+    "chapter.11919EBB416B2BD0.title",
+    "chapter.7AF827D2D101D343.title",
+    "quest.5CE44C58A470E48E.title",
+    "quest.64141B720662B652.title",
+    "task.23C7F92BD9D39E14.title",
+    "task.376652638B9221C9.title",
+    "task.5E90B977ACB0C900.title",
+    "task.72E89066290E3040.title"
+  ],
+  "remaining": 0,
+  "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+  "base_sha256": "8e00a63e9aaa131f452da505bdb8cfa64e910c3e072524855587482bfe3e6ed2",
+  "output_sha256": "8e00a63e9aaa131f452da505bdb8cfa64e910c3e072524855587482bfe3e6ed2",
+  "literal_chapter": {
+    "source": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/chapters/relics.snbt",
+    "output": "output/overrides/config/ftbquests/quests/chapters/relics.snbt",
+    "literal_hover_translated": 10,
+    "output_sha256": "17ad77c0f780ac814b51a3ab1db8cec766d16a133e237929f660638e57a81018"
+  },
+  "validation_errors": 0,
+  "review_items": []
+}

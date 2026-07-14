@@ -1,0 +1,20 @@
+{
+  "scope": "Relics and Artifacts family FTB Quests",
+  "chapters_checked": [
+    "artifacts.snbt",
+    "relics.snbt"
+  ],
+  "display_keys_checked": 217,
+  "duplicate_keys": 0,
+  "custom_names": 0,
+  "literal_hover_translated": 10,
+  "explicit_task_titles_checked": 5,
+  "redundant_single_item_task_titles": 0,
+  "quest_fallbacks_checked": 3,
+  "item_resourcepack_title_matches_checked": 63,
+  "related_tasks_outside_chapters_checked": 1,
+  "advancements_checked": 3,
+  "unclassified_english": 0,
+  "validation_errors": 0,
+  "errors": []
+}

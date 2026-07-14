@@ -1,0 +1,21 @@
+{
+  "scope": "Relics and Artifacts family FTB Quests",
+  "chapters": [
+    {
+      "chapter": "artifacts",
+      "english_keys": 149,
+      "existing_korean": 149,
+      "missing_korean": 0
+    },
+    {
+      "chapter": "relics",
+      "english_keys": 64,
+      "existing_korean": 58,
+      "missing_korean": 6
+    }
+  ],
+  "additional_keys": 4,
+  "total_keys": 217,
+  "existing_korean": 211,
+  "missing_korean": 6
+}
