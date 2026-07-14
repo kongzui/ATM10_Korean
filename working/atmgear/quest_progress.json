@@ -1,0 +1,33 @@
+{
+  "scope": "Allthemodium and ATM gear related FTB Quests",
+  "dedicated_chapter": "allthemodium",
+  "dedicated_quests": 54,
+  "related_chapters": {
+    "achapter_2r_6the_atm_star.snbt": 1,
+    "basic_armor.snbt": 12,
+    "basic_tools.snbt": 6,
+    "chapter_2_the_star.snbt": 4,
+    "iron_spells_and_spellbooks.snbt": 3
+  },
+  "source_display_keys": 175,
+  "existing_korean_kept": 53,
+  "existing_korean_corrected": 122,
+  "newly_completed": 0,
+  "literal_components_translated": 3,
+  "custom_names": 0,
+  "related_item_hover_keys_added": 3,
+  "related_item_language_files": [
+    "output/resourcepack/ATM10_Korean/assets/powah/lang/ko_kr.json",
+    "output/resourcepack/ATM10_Korean/assets/forbidden_arcanus/lang/ko_kr.json"
+  ],
+  "classification": {
+    "translated_or_localized": 151,
+    "intentional_original_or_internal": 24,
+    "out_of_scope": 0,
+    "manual_review": 0
+  },
+  "remaining": 0,
+  "base_sha256": "f4064393712b56a5f4737538a89a811aba3cc29a15ffabbb10c14f8f9a1378e1",
+  "output_sha256": "34dee9c631c116869a08ce8997da6098391595d20b3863c6235d1a4658fd82c8",
+  "status": "passed"
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Allthemodium and ATM gear related FTB Quests",
+  "dedicated_chapter": "allthemodium.snbt",
+  "dedicated_quests_checked": 54,
+  "related_quests_outside_chapter_checked": 26,
+  "tasks_checked": 109,
+  "display_keys_checked": 175,
+  "quest_fallbacks_checked": 11,
+  "task_item_fallbacks_checked": 86,
+  "explicit_task_titles_checked": 23,
+  "resource_name_matches_checked": 27,
+  "custom_names": 0,
+  "literal_components_checked": 3,
+  "redundant_task_titles": 0,
+  "advancement_files_checked": 0,
+  "advancement_translate_keys_checked": 0,
+  "advancement_literals": 0,
+  "duplicate_keys": 0,
+  "untranslated_fallbacks": 0,
+  "validation_errors": 0,
+  "errors": []
+}

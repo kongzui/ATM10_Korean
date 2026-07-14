@@ -305,7 +305,7 @@
 	quest.03C54B07106091DD.title: "&c제련로 프리즘"
 	quest.03DCDFB32CD4BD85.quest_desc: ["&e&l칼리번&r에는 몇 가지 필요한 것들이 있습니다. 퀘스트에 이미 명시된 것도 있고, 아직 그렇지 않은 것도 있습니다. \\n먼저, &3마법의 호수&r와 5000 &4마법&r이 필요합니다.\\n\\n다음으로, &5강타&r 마법이 부여된 &b다이아몬드 검&r이 필요합니다 (레벨이 높을수록 좋습니다).\\n\\n마지막으로, &b검&r을 &3호수&r에 던지면 바닥에서 &e&l칼리번&r을 찾을 수 있습니다!"]
 	quest.03DCDFB32CD4BD85.title: "&e&l칼리번"
-	quest.03E05018D64DDEE1.quest_desc: ["&e수확 티어 5&r는 사실상 올더모듐 광석을 위한 단계이며, 그 밖의 용도는 많지 않습니다."]
+	quest.03E05018D64DDEE1.quest_desc: ["&e수확 티어 5&r는 사실상 Allthemodium 광석을 위한 단계이며, 그 밖의 용도는 많지 않습니다."]
 	quest.03E05018D64DDEE1.title: "&e수확 티어 5"
 	quest.03E6FA4DCB71162E.quest_desc: ["&b색상 적용기&f는 케이블을 염색하는 충전식 도구입니다. 특정 색상의 바닐라 염료나 &e페인트 공&f을 넣는 전용 &e저장 셀&f처럼 작동하며, &e눈덩이&f를 넣으면 색을 지워 케이블을 플루익스 색상으로 되돌릴 수 있습니다.\\n\\n케이블 한 구간을 칠할 때 내부 배터리에서 100AE를 사용하며, 완전히 충전하면 총 3400개 구간을 칠할 수 있습니다."]
 	quest.03E6FA4DCB71162E.title: "색상 적용기"
@@ -341,7 +341,7 @@
 	quest.046C417B2ADF3AA7.quest_subtitle: "최대: 4"
 	quest.0480DF316ACF12DA.quest_subtitle: "미국개잎갈나무 + 정글"
 	quest.0484051446480B54.quest_desc: ["엄청난 피해를 주고, 나무를 베어 쓰러뜨립니다! 무엇이 더 필요하십니까?"]
-	quest.0484051446480B54.title: "&6올더모듐 &5합금 &3도끼"
+	quest.0484051446480B54.title: "&6Allthemodium &5합금 &3도끼"
 	quest.0496E8E786262464.quest_desc: ["&2오버월드&r를 당신에게 정말 설명해야 하나요?"]
 	quest.0496E8E786262464.title: "&2오버월드&r: 보스 &m3 4&r 5명의 땅"
 	quest.0498A578D0EC3254.quest_desc: ["금속공학 주입기에서 오스뮴에 레드스톤을 주입하면 이것을 만들 수 있습니다."]
@@ -583,7 +583,7 @@
 	quest.07BEB974DF1E5AD3.title: "&5네더라이트 발전기"
 	quest.07BEE6FEC14765DC.quest_desc: ["점토, 철, 슬라임볼, 그리고 more...이 필요한 꽤 간단한 레시피입니다.\\n\\n자석석은 약탈하기에 가장 좋습니다. 모드는 &c&l네더&r 전체의 전리품 풀에 이것들을 추가하므로 만들지 말고 그냥 찾으세요!\\n\\n왁스는 &6&lForbidden \\\\\\& Arcanus&r에서 추가된 새로운 아이템으로, 꿀 병과 슬라임볼의 혼합물입니다!\\n\\n&6다크스톤 받침대&r에서 사용하여 &7자화된 받침대&r를 얻을 수 있으며, 이는 호퍼(및 파이프와 같은 호퍼와 유사한 아이템)와 함께 작동합니다.\\n\\n또한 부츠와 함께 사용하여 아이템이 인벤토리로 끌려 들어오기 위해 얼마나 가까이 있어야 하는지 늘릴 수 있습니다!"]
 	quest.07CC809B6482AB09.quest_subtitle: "티어: &a2"
-	quest.07FDA46D83F8360D.quest_desc: ["&6올더모듐 작은 조각&r 4개와 엔더 진주 1개로 순간이동 패드를 얻을 수 있습니다.\\n\\nMinecraft 차원 중 한 곳에 설치하여 다른 차원으로 순간이동하세요.\\n\\n순간이동하려면 주 장비 슬롯과 보조 장비 슬롯을 비운 상태에서 Shift 키를 누른 채 우클릭해야 합니다! 중요하니 꼭 읽어보세요!\\n\\n양손 모두 비어 있어야 합니다!"]
+	quest.07FDA46D83F8360D.quest_desc: ["&6Allthemodium 조각&r 4개와 엔더 진주 하나로 텔레포트 패드를 만들 수 있습니다.\\n\\nMinecraft 차원 중 한 곳에 설치하면 다른 차원으로 이동합니다. \\n\\n주 장비 슬롯과 보조 장비 슬롯을 모두 비우고 웅크린 채 우클릭해야 합니다! 중요한 내용이니 꼭 읽어 주세요! \\n\\n양손이 모두 비어 있어야 합니다!"]
 	quest.07FDA46D83F8360D.title: "텔레포트 패드"
 	quest.0813CEDCC201216A.quest_subtitle: "카폭 + 올드 푸스틱"
 	quest.08245411AFDB63DB.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
@@ -611,8 +611,8 @@
 	quest.0893EFCAC7031FEA.quest_subtitle: "케이크를 갖고, 먹어 보세요"
 	quest.0894EB1F3FCFCECA.quest_desc: ["&3드라우그&r는 &5심연꾼&r과 유사하게 계급을 가지고 있습니다. &3드라우그&r 계급은 &3드라우그&r, &3로얄 드라우그&r, 그리고 &3엘리트 드라우그&r입니다.\\n\\n일반 &3드라우그&r는 14개의 &4하트&r를 가지고 있으며 검은색 강철 검과 도끼를 소지합니다. 이들은 썩은 살점, 뼈, 그리고 드물게 검은색 강철 조각을 드롭합니다.\\n\\n다음은 &3로얄 드라우그&r입니다. 이들은 15개의 &4하트&r를 가지고 있으며 검과 도끼와 함께 검은색 강철 타르게를 소지합니다. 이들은 일반 &3드라우그&r와 동일한 아이템을 드롭합니다.\\n\\n마지막은 &3엘리트 드라우그&r입니다. 이들은 당신과의 거리에 따라 검은색 강철 검과 쇠뇌를 번갈아 사용합니다. 이들은 16개의 &4하트&r를 가지고 있으며, 물론 동일한 전리품을 드롭합니다!"]
 	quest.0894EB1F3FCFCECA.title: "&3드라우그"
-	quest.089B1B9837AF4938.title: "&5언옵테늄 도구"
-	quest.08AC2D81A1004984.title: "&6올더모듐 &5합금 &3삼지창"
+	quest.089B1B9837AF4938.title: "&5Unobtainium 도구"
+	quest.08AC2D81A1004984.title: "&6Allthemodium &5합금 &3삼지창"
 	quest.08B60D8A25008CCC.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.08C0B0FD4DEA4E15.quest_desc: ["빻은 망간과 황산을 결합하면 망간 황산 용액을 얻을 수 있습니다."]
 	quest.08C66BCA3AAE765B.quest_desc: ["이것은 Non-&2&lMinecraft&r 블록을 추가하므로 논의하지 않는 것이 좋습니다."]
@@ -653,7 +653,7 @@
 	]
 	quest.094D28B7A0170039.quest_subtitle: "바닐라 벌에게 호퍼를 먹이세요"
 	quest.094D28B7A0170039.title: "수집가 꿀벌"
-	quest.09733948CBCB3FB9.quest_desc: ["&d수확 티어 6&r은 가장 높은 단계입니다. 바이브라늄과 언옵테이니움을 포함해 파괴할 수 있는 모든 블록을 채굴할 수 있습니다."]
+	quest.09733948CBCB3FB9.quest_desc: ["&d수확 티어 6&r은 가장 높은 단계입니다. Vibranium과 Unobtainium을 포함해 파괴할 수 있는 모든 블록을 채굴할 수 있습니다."]
 	quest.09733948CBCB3FB9.title: "&d수확 티어 6"
 	quest.097DE7038A746847.quest_subtitle: "갈대 둥지에서 스폰됩니다"
 	quest.0980661B2F7FBC10.quest_desc: [
@@ -748,7 +748,7 @@
 		"{image:pneumaticcraft:textures/patchouli/oil_pumping.png width:200 height:200 align:right fit:true}"
 	]
 	quest.0A912B2E2BE34920.quest_subtitle: "석유 시추"
-	quest.0A9D5C5D2F4CDCC3.title: "&5언옵테늄 철퇴"
+	quest.0A9D5C5D2F4CDCC3.title: "&5Unobtainium 철퇴"
 	quest.0ABB2264CBB82470.quest_desc: ["&d&l아르스&r 갑옷의 철 갑옷."]
 	quest.0ABB2264CBB82470.quest_subtitle: "15"
 	quest.0ABB2264CBB82470.title: "&5비전술사 복장"
@@ -889,7 +889,7 @@
 		""
 		"플레이어의 점프 높이를 증가시킵니다."
 	]
-	quest.0CC0632E8276C787.quest_desc: ["&l네더&c에 텔레포트 패드를 설치하여 &r&b디 아더&l로 이동하세요&r."]
+	quest.0CC0632E8276C787.quest_desc: ["&l&c네더&r에 텔레포트 패드를 설치하면 &b&l디 아더&r로 이동합니다."]
 	quest.0CC0632E8276C787.title: "&c&l네더"
 	quest.0CC48C2AA553A314.quest_desc: ["&3드릴 비트&r는 공압식 착암기에 사용할 수 있습니다."]
 	quest.0CD04A00529FE1C9.quest_desc: ["구리 상자는 만들 수 있지만 철 상자를 만드는 데 필요하지 않습니다. 철을 아끼고 싶다면 사용할 수 있습니다."]
@@ -1132,7 +1132,7 @@
 	quest.110D27EA86CDA62B.quest_desc: ["가방 안으로 아이템을 자석처럼 끌어당깁니다."]
 	quest.111649D7E16D869F.quest_desc: ["&9시전자의 지팡이&r는 하나의 마법만 허용하며, 필기 작업대를 사용하여 새겨집니다.\\n\\n지팡이 마법은 항상 투사체 > 가속으로 시작하며, 다른 방법(닿기, 자신 등)이 없는 마법으로 새겨야 합니다.\\n\\n이렇게 하면 10개의 마법 제한을 넘어 마법을 시전할 수 있습니다. 파괴를 사용하려면 지팡이에 파괴만 새기세요."]
 	quest.111E4ACF7D570EE8.quest_desc: [
-		"오직 &2&l바닐라 Minecraft&r에서 가장 어려운 구조물입니다. 물론 &6올더모듐&r을 찾으려면 그곳을 찾아봐야 할 겁니다!\\n\\n고대 도시 주변 동굴의 벽에서 광석을 찾을 수 있습니다. 발광하기 때문에 쉽게 찾을 수 있지만 매우 희귀합니다!"
+		"&2&l바닐라 Minecraft&r에서 가장 어려운 구조물이니, 당연히 &6Allthemodium&r을 찾으려면 이곳으로 와야 합니다!\\n\\n고대 도시 주변 동굴 벽에서 광석을 찾을 수 있습니다. 빛나서 눈에 잘 띄지만 매우 희귀합니다!\\n\\n&5딥 다크 생물 군계&r라면 어디서든 찾을 수 있습니다."
 		"{image:atm:textures/questpics/allthemodium/all_city.png width:200 height:100 align:center}"
 	]
 	quest.111E4ACF7D570EE8.title: "고대 도시"
@@ -1169,7 +1169,7 @@
 	quest.11D57C768032E3F7.quest_subtitle: "기타 필터링 설정"
 	quest.11D57C768032E3F7.title: "&e고급 자석 업그레이드"
 	quest.11E957CDEFA0CAAB.quest_desc: ["&5&lThe Beyond&r에 오신 것을 환영합니다! \\n\\n이곳에는 아무것도 없습니다! \\n\\n천사 블록이 필요할 수도 있습니다."]
-	quest.11E957CDEFA0CAAB.title: "&5&l더 비욘드"
+	quest.11E957CDEFA0CAAB.title: "&5&lThe Beyond"
 	quest.1207E5C3E7BD0584.title: "벌 현수막 무늬"
 	quest.120BDCB70AD352AC.quest_desc: [
 		"만약 당신의 벌 농장을 자원 공장으로 바꾸고 싶다면, &6벌집&r으로 벌을 생성하는 것부터 시작해야 합니다."
@@ -1320,10 +1320,10 @@
 	quest.142C67218BD16867.quest_desc: ["미니건을 사용하려면 이 &3미니건 탄약&r을 장전하세요."]
 	quest.143AE6889BDA9EF5.quest_desc: ["모듈에는 필터링된 아이템을 위한 슬롯이 제한되어 있습니다. 더 많은 슬롯이 필요하면 이 아이템을 사용하세요! 대량 아이템 필터입니다.\\n\\n허용 목록 또는 금지 목록에 더 많은 아이템을 넣을 수 있습니다. 그런 다음 일반 필터가 들어가는 곳에 넣으세요!\\n\\n더욱 특별한 필터를 제작하는 데 필요합니다!"]
 	quest.144BB025516E0994.quest_desc: [
-		"&3바이브라늄&r은 &6올더모듐&r 다음 광물이므로, 당연히 &6올더모듐 곡괭이&r(또는 같은 티어)가 있어야 캘 수 있습니다.\\n\\n&c&l네더&r에서 희귀하게 발견되거나 &b&l디 아더&r에서 풍부하게 발견할 수 있습니다.\\n\\n더 많은 광물을 얻기 위해 광석을 제련하는 것이 좋습니다.\\n\\n안타깝게도 멋진 색상의 ATM 광석이지만, 다양한 아이템에 대한 활용도는 가장 적습니다."
+		"&3Vibranium&r은 &6Allthemodium&r 다음 광물이므로 &6Allthemodium 곡괭이&r나 같은 채굴 등급의 도구가 있어야 캘 수 있습니다.\\n\\n&c&l네더&r에서는 희귀하게, &b&l디 아더&r에서는 풍부하게 발견됩니다.\\n\\n더 많이 얻으려면 광석 가공을 권합니다.\\n\\n멋진 색상의 ATM 광석이지만 아쉽게도 아이템 활용처는 가장 적습니다."
 		"{image:atm:textures/questpics/allthemodium/all_2.png width:100 height:100 align:center}"
 	]
-	quest.144BB025516E0994.title: "&3바이브라늄 주괴&r"
+	quest.144BB025516E0994.title: "&3Vibranium 주괴&r"
 	quest.144ECED643031A9A.quest_desc: ["발광 버섯은 스칼렛 숲에서 찾을 수 있는 거대한 버섯 식물입니다!\\n\\n갈색 또는 빨간색 버섯과 똑같이 작동하지만 훨씬 더 밝게 빛납니다!\\n\\n(갈색 및 빨간색 버섯은 실제로 빛 근원 레벨 1을 방출한다는 것을 몰랐을 경우를 위해 덧붙입니다)."]
 	quest.1452D9CF827782B5.quest_desc: ["극지 장비는 극지동물의 털로 만들어집니다. 극지동물의 털은 겨울 늑대와 예티가 떨어뜨립니다! \\n\\n아니요, 둘 다 털을 깎을 수는 없습니다.\\n\\n이 장비는 &7가죽 갑옷&r처럼 염색할 수 있습니다!"]
 	quest.1452D9CF827782B5.quest_subtitle: "16"
@@ -1375,7 +1375,7 @@
 	quest.151648179684B088.quest_desc: ["룬 분필은 땅에 영구적인 룬을 그리는 데 사용됩니다. 이 룬은 룬 위를 걸어가는 개체에게 마법을 시전합니다.\\n\\n룬에 마법을 부여하려면 필기 작업대를 사용하여 &e주문 양피지&r에 새기세요.\\n\\n참고: 룬이 작동하려면 근원이 필요합니다."]
 	quest.151648179684B088.quest_subtitle: "설치 가능한 마법"
 	quest.15195F456D8AD4C8.quest_desc: ["에테르가 물에 닿으면 싸이오 석영이 형성됩니다. 이것은 랜덤 생성으로 자연적으로 발생할 수도 있고 직접 만들 수도 있습니다! \\n\\n그런 다음, 그것을 사용하여 연금술사 장비에 사용될 수 있는 조각을 만들 수 있습니다."]
-	quest.151D836C7B0E6FAF.title: "&3바이브라늄 방패"
+	quest.151D836C7B0E6FAF.title: "&3Vibranium 방패"
 	quest.15279CAC2FFE6B35.quest_subtitle: "티어: &c5"
 	quest.1533D98B3B2A758E.quest_desc: ["부서진 검은 외로운 별 스켈레톤에게서 떨어뜨린 횟수로 얻거나, 떨어진 칼날을 사용하여 제작할 수 있습니다.\\n\\n부서진 검은 검보다는 삼지창처럼 사용됩니다. 때리는 대신 던질 수 있습니다. 그런 다음, 오른손 클릭하여 충성 삼지창처럼 칼날을 다시 가져올 수 있으며, 필요한 경우 다시 오른손 클릭하여 재장전할 수 있습니다."]
 	quest.15540271BF17C2E4.quest_desc: ["&lXyCraft에 오신 것을 환영합니다!&r\\n\\n이 모드 시리즈는 주로 XyCraft: 세계와 기계에 전념합니다!\\n세계는 채굴하는 동안 발견할 수 있는 젬을 제공합니다."]
@@ -1411,10 +1411,10 @@
 	quest.15D355EB164EBE68.title: "커패시터"
 	quest.15D764CAF047EA7A.title: "&c터튬 갑옷&r"
 	quest.15DC6770B112EE69.quest_desc: [
-		"용해 챔버는 &l&7인더스트리얼 포어고잉&r에서 추가된 기계입니다. 또한 &3바이브라늄&r과 &5언옵테이니움&r을 결합하는 방법이기도 합니다. \\n\\nIF에서 추가한 또 다른 기계인 몹 도살 공장에서 얻을 수 있는 &d분홍색 슬라임&r이 필요합니다.\\n\\n또한 &b&l디 아더&r에서 찾을 수 있고 피글린 마을에서 흔히 볼 수 있는 영혼 용암도 필요합니다.\\n\\n그 후 주괴와 피글리치 하트를 정확한 순서로 넣고 전력을 공급하면 완료됩니다!"
-		"{ \"text\": \"INDUSTRIAL FOREGOING QUESTLINE\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }"
+		"용해 챔버는 &l&7Industrial Foregoing&r이 추가하는 기계로, &3Vibranium&r과 &5Unobtainium&r을 결합할 때도 사용합니다. \\n\\n같은 모드의 몹 도살 공장에서 얻는 &d분홍색 슬라임&r이 필요합니다. \\n\\n&b&l디 아더&r의 피글린 마을에서 흔히 발견되는 영혼 용암도 필요합니다. \\n\\n주괴와 피글리치 심장을 정확한 순서로 넣고 전력을 공급하면 완성됩니다!\\n"
+		"{ \"text\": \"Industrial Foregoing 퀘스트\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }"
 	]
-	quest.15FEA03A2CDBA33B.quest_desc: ["&b&l디 아더&r는 수년에 걸쳐 수십 번의 변경 사항이 있었지만 항상 모험을 위한 영역이었습니다! \\n\\n수십 개의 새로운 생물 군계, 블록, 그리고 물론 구조물이 있습니다!\\n\\n구조물은 피글린 마을, 고대 피라미드, 던전입니다. 모두 구조물에 고유한 놀라운 전리품을 포함하고 있습니다!\\n\\n&3바이브라늄&r(및 기타 광물!)을 채굴하거나 구조물에서 더 좋은 것을 찾을 수도 있습니다!\\n\\n&b&l디 아더&r에서는 채석장이나 많은 블록을 설치할 수 없습니다. 여기서는 어떤 것도 쉽게 얻을 수 없습니다."]
+	quest.15FEA03A2CDBA33B.quest_desc: ["&b&l디 아더&r는 여러 해 동안 수없이 바뀌었지만 언제나 모험을 위한 차원이었습니다! \\n\\n새로운 생물 군계와 블록, 구조물이 수십 개나 있습니다. \\n\\n피글린 마을, 고대 피라미드, 던전뿐 아니라 When Dungeons Arise와 &b&lIce &fand &cFire&r의 구조물도 있습니다. 각 구조물만의 특별한 전리품을 포함해 훌륭한 보상이 가득합니다! \\n\\n&3Vibranium&r과 다른 광석을 캐거나 구조물에서 더 좋은 물건을 찾을 수도 있습니다! \\n\\n다만 &b&l디 아더&r에서는 채석장으로 캘 수 없는 블록이 많습니다. 여기서는 쉽게 넘어갈 수 없어요."]
 	quest.15FEA03A2CDBA33B.title: "&l&b디 아더&r"
 	quest.15FF9D19FBC873CF.quest_subtitle: "자두 + 복숭아"
 	quest.1609BF52108238B0.quest_subtitle: "티어: &e1"
@@ -1440,10 +1440,10 @@
 	quest.162CE44400A63575.quest_desc: ["금속공학 주입기는 메카니즘 전반에 걸쳐 핵심 제작 부품을 제작하는 데 사용됩니다.\\n\\n이 기계는 재료(중간-왼쪽 슬롯)에 \"주입기\"(맨-왼쪽 슬롯)를 주입하여 작동합니다.\\n\\n이것은 또한 강철 주괴를 얻는 방법이기도 합니다."]
 	quest.162CE44400A63575.quest_subtitle: "시작 기계"
 	quest.162D2286A69D6E07.quest_desc: [
-		"일반 &6올더모듐 갑옷&r과 비슷한 스탯이지만, 아르스 마법을 위한 자체적인 마나 촉진, 재생, 마법 힘 세트가 함께 제공됩니다!"
+		"일반 &6Allthemodium 방어구&r와 능력치는 비슷하지만, Ars Nouveau 주문을 위한 마나 증가, 마나 재생, 주문 위력 효과가 붙습니다!"
 		"{image:atm:textures/questpics/allthemodium/all_armor_allarcane.png width:100 height:175 align:center}"
 	]
-	quest.162D2286A69D6E07.title: "&6올더모듐 비전술사 갑옷"
+	quest.162D2286A69D6E07.title: "&6Allthemodium 비전술사 방어구"
 	quest.16359196D49A6223.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_froststeel.png width:100 height:150 align:center}"]
 	quest.16359196D49A6223.title: "&b프로스트강철&r"
 	quest.1636F3F12E92CAEA.quest_desc: [
@@ -1667,7 +1667,7 @@
 	quest.18EB86F91CBBCCC6.title: "눈이 당신을 보고 있어요!"
 	quest.18F948FF9FE015FB.quest_subtitle: "바닐라 벌에게 TNT를 먹이세요"
 	quest.18F948FF9FE015FB.title: "크리비"
-	quest.18FAD56CDE05646A.quest_desc: ["이전에는 &7&l채굴 차원&r의 채석장에서 모든 것을 채굴했지만 &6올더모듐 광석&r은 남겨두었습니다. \\n\\n이제 &6올더모듐&r을 채굴하지만 drops...을 무효화하므로 이제 채석장을 사용할 때 주의해야 할 수도 있습니다!\\n\\n&6올더모듐&r만 찾고 있다면 광석 감지 물약으로 채굴하는 것을 추천합니다!"]
+	quest.18FAD56CDE05646A.quest_desc: ["예전에는 &7&l채굴 차원&r의 채석기가 모든 것을 캐면서 &6Allthemodium 광석&r만 남겼습니다. \\n\\n이제는 &6Allthemodium&r도 캐지만 드롭은 소멸시킵니다... 채석기를 사용할 때 조심하세요! \\n\\n&6Allthemodium&r만 찾는다면 광석 감지 물약을 마시고 직접 채굴하는 것을 권합니다!"]
 	quest.191A7F3C9FBA4C13.quest_desc: ["&b주입된 바다 책장&r과 &b프리즈머린 수정&r으로 &b수정질 바다 책장&r을 만들 수 있습니다. \\n\\n&b수정질 바다 책장&r은 기존의 &a이터나 5&r와 &55% 아르카나&r를 유지하면서 &c퀀타 3%&r도 제공합니다. \\n\\n12개를 사용하면 &9잠든 깊은 책장&r을 일반 &9깊은 책장&r으로 &d&l주입&r하기에 충분한 레벨을 얻습니다!"]
 	quest.191A7F3C9FBA4C13.title: "&b수정질 바다 책장"
 	quest.19542103E042BDB5.quest_desc: ["{image:atm:textures/questpics/iron_spells/spells_outfit_shadow.png width:60 height:100 align:center}"]
@@ -1711,8 +1711,8 @@
 	quest.19D02325579F2AA8.quest_desc: ["화산성 마나링크는 불태울 수 있는 아이템을 소모하여 마나를 생성합니다. 아치나무 통나무는 추가 마나를 생성합니다.\\n\\n아이템을 태우면서 주변의 돌을 용암으로 변환합니다.\\n\\n이것은 또한 용암 릴리를 생성합니다."]
 	quest.19DE6EBEA8219E8E.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.19DFAEB6D88F3580.quest_desc: ["넣기 업그레이드를 사용하면 서랍에서 모든 면으로 아이템을 밀어낼 수 있습니다."]
-	quest.19E356E67EF17E4A.quest_desc: ["역사상 최고의 도구! 스위스 군용 칼과 비슷하지만 더 좋습니다!\\n\\n최고 채굴 티어, 버터처럼 나무를 베고, 길을 만들고, 물론 많이 맞을 수 있습니다!"]
-	quest.19E356E67EF17E4A.title: "&6올더모듐 &5합금 &3팩셀"
+	quest.19E356E67EF17E4A.quest_desc: ["역사상 가장 훌륭한 도구입니다! 스위스 군용 칼과 비슷하지만 더 좋죠! \\n\\n최고 채굴 등급으로 광물을 캐고, 나무를 손쉽게 베고, 길을 만들며, 공격력도 강합니다!"]
+	quest.19E356E67EF17E4A.title: "&6Allthemodium &5합금 &3팩셀"
 	quest.19E6757F04098A0C.quest_desc: [
 		"사용 가능한 상위 버전으로 변환:"
 		"- 잔디 깎이"
@@ -1726,8 +1726,8 @@
 	quest.1A0368CB49B8CBFF.quest_desc: ["이 &e주문서&r는 &c블레이즈&r에게서 희귀하게 얻을 수 있습니다. 제 &c블레이즈&r 농장에서 1개를 얻었을 때 혼란스러웠던 기억이 납니다.\\n\\n이것은 &c불 마법&r을 증가시키고 10개의 &3마법&r 슬롯을 가지고 있습니다."]
 	quest.1A0368CB49B8CBFF.quest_subtitle: "뜨거워! 뜨거워! 뜨거워!"
 	quest.1A0368CB49B8CBFF.title: "&c블레이즈 교본"
-	quest.1A05C605A52A4218.quest_desc: ["&5언옵테이니움&r이 &6올더모듐&r과 결합되었습니다!"]
-	quest.1A05C605A52A4218.title: "&5언옵테이니움&r - &6올더모듐&r 합금 주괴"
+	quest.1A05C605A52A4218.quest_desc: ["&5Unobtainium&r이 &6Allthemodium&r과 결합되었습니다!"]
+	quest.1A05C605A52A4218.title: "&5Unobtainium&r-&6Allthemodium&r 합금 주괴"
 	quest.1A09AF508EFAE0EC.quest_subtitle: "시트론 + 키 라임"
 	quest.1A13039D6302ADA5.quest_desc: ["이전 퀘스트를 확인하여 이러한 몇 가지를 만드는 방법을 배울 수 있습니다. &7[철 기계 부품]&r은 &e[경량 엔지니어링 블록]&r에, &8[강철 판금]&r은 &7[중량 엔지니어링 블록]&r에 있습니다. \\n&e[호박금 코일]&r은 약간 다를 것입니다. though...\\n\\n&e[호박금 코일]&r에는 철 주괴 1개와 중압 전선 코일 8개가 필요합니다. 중압 전선 코일을 얻으려면 &e[호박금]&r을 엔지니어의 전선 절단기로 잘라야 합니다."]
 	quest.1A13039D6302ADA5.title: "&6발전 블록"
@@ -2004,7 +2004,7 @@
 	quest.1F1B4948FCC14BB4.quest_subtitle: "은 전나무 + 가문비나무"
 	quest.1F31EBF49079F9D3.quest_desc: ["개편된 크리퍼는 여러 생물 군계에 맞는 다양한 종류의 크리퍼를 제공합니다. \\n\\n각각 다른 떨굼 설정을 가지고 있으며, 심지어 몇몇은 친근하기까지 합니다!\\n\\n모두 고양이를 무서워합니다 though..."]
 	quest.1F31EBF49079F9D3.title: "개편된 크리퍼"
-	quest.1F6C8117F3CED939.title: "&6올더모듐 활"
+	quest.1F6C8117F3CED939.title: "&6Allthemodium 활"
 	quest.1F7591DB6D8EC1E7.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 증가 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)\\n - 성급함 II (3:00)"]
 	quest.1F7591DB6D8EC1E7.title: "&5인세니움 사과"
 	quest.1F7DA060792D716A.quest_desc: [
@@ -2046,7 +2046,7 @@
 	quest.1FE052F643401232.quest_subtitle: "업그레이드를 위한 기반"
 	quest.1FE17B1C7C639F88.quest_desc: ["스토리지 컨트롤러를 사용하면 여러 저장소를 마치 하나의 대형 저장소 멀티블록처럼 사용할 수 있습니다.\\n\\n이를 통해 매우 큰 저장소 네트워크를 구축할 수 있으며, 스토리지 컨트롤러는 연결된 모든 저장소의 입/출력 지점 역할을 하므로 어플라이드 에너제틱스 또는 Integerated Dynamics와 같은 모드와 결합할 수 있습니다.\\n\\n연결은 저장소를 스토리지 컨트롤러 옆이나 스토리지 컨트롤러에 이미 연결된 다른 저장소 옆에 놓기만 하면 됩니다(이는 모든 방향에서 컨트롤러에서 최대 14 블록 떨어진 곳까지 작동합니다)."]
 	quest.1FE47F03B5DF492D.quest_desc: ["{image:atm:textures/questpics/allthemodium/all_armor_unoarcane.png width:100 height:175 align:center}"]
-	quest.1FE47F03B5DF492D.title: "&5언옵테늄 비전술사 갑옷"
+	quest.1FE47F03B5DF492D.title: "&5Unobtainium 비전술사 방어구"
 	quest.1FE7C52491E7499B.quest_desc: [
 		"사용 가능한 상위 버전으로 변환:"
 		"- 걸음 보조"
@@ -2074,10 +2074,10 @@
 	quest.2007EF64F0406090.quest_subtitle: "&f24 &c공격 피해"
 	quest.200ECDC70E97D254.quest_desc: ["연료 캔은 자신이 담고 있는 액체로 컨테이너를 채울 수 있는 탱크입니다.\\n\\n연료 캔에는 세 가지 채우기 모드가 있습니다.\\n\\n - 없음\\n - 모든 것\\n - 오직 다이어 무언가"]
 	quest.201EE3566D4D3123.quest_desc: [
-		"&6올더모듐&r을 채굴하려면 &5네더라이트&r 티어 이상의 곡괭이가 필요합니다! \\n\\n마침내 광석을 얻으면 (먼저 행운, 오컬티즘 또는 메카니즘으로 처리하여 더 많이 얻는 것이 좋습니다) 그것으로 무엇을 할지 몇 가지 선택을 할 수 있습니다.\\n\\n&6작은 조각&r으로 텔레포트 패드 2개를 만드는 것을 추천합니다! 그것들을 사용하여 &7&l채굴 차원&r으로 이동하여 더 많은 &6올더모듐&r을 찾거나, &b&l디 아더&r로 이동하여 다른 모험을 찾을 수 있습니다.\\n\\n그 후에는 &3바이브라늄&r을 채굴할 수 있도록 곡괭이를 업그레이드하는 것을 추천합니다. 나머지는 모두 당신에게 달려 있습니다!"
+		"&6Allthemodium&r을 캐려면 &c네더라이트&r 등급 이상의 곡괭이가 필요합니다! \\n\\n광석을 얻었다면 먼저 행운, Occultism, Mekanism으로 가공해 수량을 늘리는 것을 권합니다. 그다음에는 몇 가지 선택지가 있습니다. \\n\\n&6조각&r으로 텔레포트 패드 2개를 만들어 보세요! &7&l채굴 차원&r에서 &6Allthemodium&r을 더 찾거나 &b&l디 아더&r로 가서 모험할 수 있습니다. \\n\\n그 뒤에는 &3Vibranium&r을 캘 수 있도록 곡괭이를 업그레이드하세요. 나머지는 여러분의 선택입니다!"
 		"{image:atm:textures/questpics/allthemodium/all_1.png width:100 height:100 align:center}"
 	]
-	quest.201EE3566D4D3123.title: "&6올더모듐 주괴"
+	quest.201EE3566D4D3123.title: "&6Allthemodium 주괴"
 	quest.202B1F54D3F06DAB.quest_desc: ["이것은 4개의 슈프리뮴과 주입 수정을 결합하여 만든 6티어 라텍스입니다."]
 	quest.202B1F54D3F06DAB.quest_subtitle: "티어: &56"
 	quest.202B1F54D3F06DAB.title: "&5인사늄"
@@ -2217,11 +2217,11 @@
 	quest.2262AB9F934165D0.quest_desc: ["어떻게 구했는지는 상관없고, 그냥 구해오기만 하면 돼! \\n\\n&8&l이머시브 엔지니어링&r은 단순한 건축물 외에도 &8강철&r을 훨씬 더 많이 사용하게 해줍니다. 거의 모든 것을 만들려면 &8강철&r이 필요할 겁니다!\\n\\n주로 도구, 기계 부품, 건축 블록이 그렇습니다. 많은 것들이 &8강철 판&r 또는 &8비계&r로 만들어집니다.\\n\\n많이 필요하겠지만 &l&c조잡한 용광로&r와 &l&6합금 킨&r은 자동화할 수 없으니 a...이 필요할 수도 있습니다."]
 	quest.2262AB9F934165D0.title: "&8강철 주괴"
 	quest.226B8B60AF864FEF.quest_desc: [
-		"&6올더모듐&r을 &3바이브라늄&r(으)로 상위 버전으로 변환하려면 다른 대장장이 형판이 필요합니다. \\n이것은 수상한 영혼 모래를 솔질하여 찾을 수 있습니다. \\n\\n&l&c네더&r의 요새에서 발견됩니다."
+		"&6Allthemodium&r 장비를 &3Vibranium&r 장비로 업그레이드하려면 또 다른 대장장이 형판이 필요합니다. \\n수상한 영혼 모래를 솔질하면 찾을 수 있습니다. \\n\\n수상한 영혼 모래는 &l&c네더&r의 보루 잔해에 있습니다.\\n"
 		"{image:atm:textures/questpics/allthemodium/all_bastion.png width:200 height:100 align:center}"
 		"{image:atm:textures/questpics/allthemodium/all_soul.png width:200 height:100 align:center}"
 	]
-	quest.226B8B60AF864FEF.title: "&3바이브라늄 대장장이 형판&r"
+	quest.226B8B60AF864FEF.title: "&3Vibranium 대장장이 형판&r"
 	quest.22739522F0D33D7B.quest_desc: ["우울호박은 호박처럼 생성되고 농사를 지을 수 있습니다.\\n\\n또한 호박처럼 파이를 만들거나 잭오랜턴을 만들 수도 있습니다!\\n\\n호박과는 달리 explosives...으로 만들 수도 있습니다."]
 	quest.2278A98DCDF713D7.quest_desc: ["이제 탱크를 만들 시간입니다! 먼저 건축 블록과 밸브가 최소 1개 필요합니다. 유리와 아이템 IO는 선택 사항입니다.\\n\\n탱크는 건축 블록 틀로 만들어야 합니다. 건축 블록은 투명하거나, 중력의 영향을 받거나, 자연적인 흙 또는 잔디가 아닌 모든 것입니다.\\n\\n돌, 나무 또는 금속과 같은 아이템으로 틀과 모서리를 만들어야 합니다. 유리, 밸브, 아이템 IO는 벽에 배치해야 하며 내부는 비어 있어야 합니다.\\n\\n크기는 13x13x13까지만 가능합니다. 모두 완료되면 밸브를 우클릭하면 'Formed(형성됨)'라고 표시되거나 문제점을 알려줍니다."]
 	quest.2278A98DCDF713D7.title: "&l탱크"
@@ -2230,9 +2230,9 @@
 	quest.227DBA8836021B0B.quest_subtitle: "근원 저장 중"
 	quest.228CB313BAB6406E.quest_desc: ["분명히 이것은 기본적으로 제작법이 없었습니다! 마치 모드 개발자가 당신이 &5크리에이티브&r 기관차를 서바이벌에서 사용하는 것을 원하지 않는 것 같군요. \\n\\n저는 그것들이 너무 OP라고 생각하지 않았으니 &5기차&r를 즐겨 사용하세요!\\n\\n그것들은 연료나 에너지가 필요 없는 일반 &3기관차&r처럼 작동합니다! &6레일&r만 있으면 됩니다."]
 	quest.228CB313BAB6406E.title: "&5&l크리에이티브 &8기관차"
-	quest.2296CE4418AE62D4.quest_desc: ["&6올더모듐 갑옷&r이지만 &d&lArs Nouveau&r 마법에 강화 효과가 있습니다!"]
+	quest.2296CE4418AE62D4.quest_desc: ["&6Allthemodium 방어구&r에 &d&lArs Nouveau&r 주문 강화 효과를 더한 장비입니다!"]
 	quest.2296CE4418AE62D4.quest_subtitle: "24"
-	quest.2296CE4418AE62D4.title: "&6올더모듐 비전술사 장비"
+	quest.2296CE4418AE62D4.title: "&6Allthemodium 비전술사 장비"
 	quest.22A0A9C81A5C85A1.quest_subtitle: "모든 것을 함께 잡고 있기"
 	quest.22ADCF96AE3E609B.quest_desc: ["&d고대 묘목&r은 &a숲의 의식&r을 사용하여 생성됩니다. 그로우되면 나무는 오라의 보통 레벨을 유지하려고 시도합니다 (너무 높거나 너무 낮지 않게). \\n\\n오라가 떨어지면 잎이 부패하기 시작하고 프로세스를 되돌립니다."]
 	quest.22ADCF96AE3E609B.quest_subtitle: "그 고대 묘목들은 아닙니다"
@@ -2302,8 +2302,8 @@
 		"- 텔레포터 떨굼"
 	]
 	quest.23A5F5C9BC7B5CC7.quest_subtitle: "자두 + 호두"
-	quest.23AE395433AED3C0.quest_desc: ["&6&lATM의 별&r은 여러 아이템을 함께 고정하고 별 모양을 만들기 위해 몇 개의 블록이 필요합니다! \\n\\n첫 번째 블록은 &5언옵테이니움&r - &6올더모듐&r &5합금&r &6블록&r입니다. 이것들을 만들려면 &d&l아르스 누보&r의 마법 부여 장치가 필요합니다! 정확히 28개를 만들어야 합니다. \\n\\n17개의 X3 네더의 별 블록을 만들려면 111,537개의 네더의 별이 필요합니다. (제발 &l&bHNN&r을 사용하세요. 111,537개를 생성하고 죽이지 마세요!)"]
-	quest.23AE395433AED3C0.title: "&6&l별의&r 케이스"
+	quest.23AE395433AED3C0.quest_desc: ["&6&lATM의 별&r은 여러 아이템을 함께 고정하고 별 모양을 만들기 위해 몇 개의 블록이 필요합니다! \\n\\n첫 번째 블록은 &5Unobtainium&r - &6Allthemodium&r &5합금&r &6블록&r입니다. 이것들을 만들려면 &d&lArs Nouveau&r의 마법 부여 장치가 필요합니다! 정확히 28개를 만들어야 합니다. \\n\\n17개의 X3 네더의 별 블록을 만들려면 111,537개의 네더의 별이 필요합니다. (제발 &l&bHNN&r을 사용하세요. 111,537개를 생성하고 죽이지 마세요!)"]
+	quest.23AE395433AED3C0.title: "&6&l별의&r 외장"
 	quest.23C36E4B5DCEBFDD.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 명시적인 허가 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.23DE60E57136C207.quest_desc: ["가장 쉬운 무한 &3에너지 배터리&r 저장소로, &3&lID&r의 &3에너지 배터리&r 4개와 &6&l별&r 1개만 있으면 됩니다! \\n\\nwith...모두 충전해야 하며, &2&lMinecraft&r가 handle...할 수 있는 만큼의 에너지가 필요합니다. 말 그대로 정수 제한입니다!"]
 	quest.23DE60E57136C207.title: "&5&l크리에이티브 &3에너지 배터리"
@@ -2332,7 +2332,7 @@
 	quest.24888CAD50B32B04.quest_subtitle: "돌 둥지를 사용하여 생성됨"
 	quest.248AEF5537E48B1A.quest_subtitle: "티어: &b4"
 	quest.24934231538B6492.quest_desc: [
-		"고대 피라미드는 &b&l디 아더&r에 있는 3개의 구조물 중 하나입니다. \\n\\n분명히 피라미드이며, 지하실은 없습니다!\\n\\n대신 피글리치가 있습니다."
+		"고대 피라미드는 &b&l디 아더&r에 있는 여러 구조물 중 하나입니다. \\n\\n말 그대로 피라미드이며, 이번에는 지하실이 없습니다! \\n\\n대신 피글리치가 기다립니다.\\n"
 		"{image:atm:textures/questpics/allthemodium/all_pyramid.png width:200 height:100 align:center}"
 	]
 	quest.24934231538B6492.title: "고대 피라미드"
@@ -2364,9 +2364,9 @@
 	quest.24F3E90C14BFD1B4.title: "&7&l모던 인더스트리얼라이제이션"
 	quest.24FCFF18296ED907.quest_desc: ["&9깊은 책장&r을 더 업그레이드할 때는 놀랍게도 &d&l주입&r이 필요 없습니다! 대신 제작을 더 해야 합니다! \\n\\n먼저 &3스컬크 블록&r 5개와 &3스컬크 촉매&r가 필요합니다. 둘 다 &9깊은 어둠&r에서 발견되며 &5섬세한 손길&r로 채취해야 합니다. \\n\\n마지막은 &9워든 덩굴손&r입니다. &9&l워든&r이 떨어뜨리므로... 네, &9&l워든&r을 처치해야 합니다. \\n\\n모두 모으면 최고의 &7책장&r 중 하나를 만들 수 있습니다! &a이터나 10&r, &c퀀타 15%&r, &510% 아르카나&r를 제공합니다. \\n\\n가장 중요한 점은 최대 &a이터나&r를 &a80&r으로 높인다는 것입니다! 100까지 얼마 남지 않았어요!"]
 	quest.24FCFF18296ED907.title: "&9영혼에 닿은 스컬크 책장"
-	quest.24FDA15A7ACDF021.quest_desc: ["&5언옵테이니움 갑옷&r이지만 &e&l철의 마법&r 마법에 버프가 있습니다!"]
+	quest.24FDA15A7ACDF021.quest_desc: ["&5Unobtainium 방어구&r에 &e&lIron's Spells&r 주문 강화 효과를 더한 장비입니다!"]
 	quest.24FDA15A7ACDF021.quest_subtitle: "40"
-	quest.24FDA15A7ACDF021.title: "&5언옵테늄 마법사 복장"
+	quest.24FDA15A7ACDF021.title: "&5Unobtainium 마법사 장비"
 	quest.25080E3295B1DF01.quest_desc: ["&5언옵테이니움 화로&r는 팩에 있는 다른 어떤 화로보다 아이템을 더 빠르게 제련합니다!"]
 	quest.25080E3295B1DF01.title: "&5언옵테늄 화로"
 	quest.251464B43353D4C6.quest_desc: ["우리가 사랑하는 원예기! 이것은 자동 농장이며, 이 퀘스트를 통해 간단하게 사용할 수 있습니다! \\n\\n시작하려면 왼손, 오른손 또는 위쪽에서 &c에너지&6 입력&r이 필요합니다!\\n\\n다음으로 뒤쪽 포트에서 &9물&r이 필요합니다( &9싱크대&r를 사용해 보세요).\\n\\n다음으로 씨앗, 농지, 선택 사항인 비료를 하단의 &e아이템&6 입력&r으로 넣어야 합니다!\\n\\n씨앗에 맞는 농지가 필요합니다. 클로슈를 우클릭하여 GUI를 확인하면 이 모든 것을 확인할 수 있습니다!\\n\\n일단 모든 것이 갖춰지면 작물을 빠르게 재배하고 수확하여 돔 전면에 &6출력&r합니다.\\n\\n마지막 참고 사항: 원본 씨앗과 농지를 보관하고 소모하지 않으며, 흙은 농지로 만들어지고 비료는 황, 슬래그, 질산염 및 산업용 비료입니다."]
@@ -2465,10 +2465,10 @@
 	quest.270498437D938DD4.title: "향초"
 	quest.271A112ABDD923A6.quest_desc: ["일반적인 맹그로브와 같지만 못생기지 않았습니다."]
 	quest.272CF280BAE6870E.quest_desc: [
-		"스탯이 보통인 &6올더모듐 갑옷&r과 비슷하지만, 철 마법의 마법에 더 많은 힘을 줍니다.\\n\\n게다가 자체 최대 마나와 마나 재생도 있습니다!"
+		"일반 &6Allthemodium 방어구&r와 능력치는 비슷하지만 Iron's Spells 주문의 위력이 더 강해집니다. \\n\\n최대 마나와 마나 재생 능력치도 붙습니다!"
 		"{image:atm:textures/questpics/allthemodium/all_armor_allmage.png width:100 height:175 align:center}"
 	]
-	quest.272CF280BAE6870E.title: "&6올더모듐 마법사 갑옷"
+	quest.272CF280BAE6870E.title: "&6Allthemodium 마법사 방어구"
 	quest.2745297337E13E9E.quest_desc: ["&3고급 공기 압축기&r는 공기 압축기와 같은 방식으로 작동하지만 훨씬 더 좋습니다!"]
 	quest.2745297337E13E9E.quest_subtitle: "이제 지루한 구식 공기 압축기는 필요 없어요!"
 	quest.2746575C929B6C50.quest_desc: ["서랍은 1x1, 2x1 또는 2x2 크기로 만들 수 있습니다. 서랍의 유형에 따라 엄청난 양의 아이템 스택을 1/2/4개씩 담을 수 있습니다."]
@@ -2493,8 +2493,8 @@
 	]
 	quest.27A4FA38992448A0.title: "무선 충전"
 	quest.27B5D0329DD92126.quest_desc: ["벌로 만든 Soup...? 좀 inhumane... 그런 것 같네요\\n\\n이것을 먹거나 마시면 잠시 동안 비에너지 효과를 얻고 행운을 얻을 기회가 주어집니다!\\n\\n또한 공중 부양, 느린 낙하, 독, 그리고 마비될 기회도 있습니다.\\n\\n또한 마비에 대해 이야기하는 동안 수프를 사용하여 마비 물약을 만들 수 있습니다."]
-	quest.27CF1A2587321A2C.quest_desc: ["상상할 수 있는 &e최고의 마법 책&r! 15개의 &3마법&r 슬롯! 마법이 15개나 있기는 할까요&3?!&r?! 아 맞다, 15개나 있지, 그렇지 않나요much...?\\n\\n이전의 책, 주괴, 그리고 견본과 같이 똑같이 하세요."]
-	quest.27CF1A2587321A2C.title: "&5언옵테늄&r 주문서"
+	quest.27CF1A2587321A2C.quest_desc: ["상상할 수 있는 최고의 &e주문서&r입니다! &3주문&r 슬롯이 15개나 있습니다! &3주문&r이 15개나 있냐고요?!?! 잠깐, 15개면 그렇게 많지도 않네요... \\n\\n이전처럼 직전 단계 주문서, 주괴, 형판을 결합하세요."]
+	quest.27CF1A2587321A2C.title: "&5Unobtainium&r 주문서"
 	quest.27E34DCC9C94F4FF.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 제작했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.27E8ED4B5F8127F9.quest_subtitle: "티어: &b4"
 	quest.27E951F4F4F6F847.quest_desc: ["&a가시 펜던트&r와 비슷하지만 조금, 아니 훨씬 더 뜨겁습니다! \\n\\n&c불꽃 펜던트&r는 공격자에게 불을 붙일 수 있습니다. 공격자가 불타면 &c펜던트&r가 착용자에게 화염 저항도 부여합니다."]
@@ -2827,7 +2827,7 @@
 	quest.2C387BFA6EE6FDB7.quest_desc: ["&c우테리움 수정&r은 &c부패수&r에게서 &2&l지하정원&r에서 드롭됩니다!"]
 	quest.2C387BFA6EE6FDB7.quest_subtitle: "20"
 	quest.2C387BFA6EE6FDB7.title: "&c유테리움 갑옷"
-	quest.2C4299D33D419AA0.quest_desc: ["&2 &l오버월드&r에 텔레포트 패드를 설치하여 &7 &l채굴 차원&r으로 이동하세요."]
+	quest.2C4299D33D419AA0.quest_desc: ["&2&l오버월드&r에 텔레포트 패드를 설치하면 &7&l채굴 차원&r으로 이동합니다."]
 	quest.2C4299D33D419AA0.title: "&2&l오버월드"
 	quest.2C4ECA4F5B1639F4.quest_desc: ["빛의 밭은 많은 빛을 보여주지는 않지만, 메가 횃불처럼 작동합니다.\\n\\n몹은 주변 설정된 영역에서 생성되지 않습니다. 해당 영역은 약 32 블록 반경입니다."]
 	quest.2C4ECA4F5B1639F4.title: "&f빛의 밭"
@@ -2868,8 +2868,8 @@
 	quest.2CD58FC229BC0C28.title: "&d수호의 건틀릿"
 	quest.2CECCA9D05D3EF12.quest_desc: ["&2이터널 스텔라&r는 꽤 비쌉니다. 먼저 3티어 forge가 필요합니다! \\n\\n다음으로, 채굴할 수 있는 &7스텔라라이트 조각&r이 필요합니다. 그리고 더 이상 채굴할 수 없는 &a엑스페트리파이드 오브&r 3개를 얻어야 합니다. 대신 블랙홀에 &aEXP&r를 먹여서 얻어야 합니다!\\n\\n마지막으로, &2이터널 스텔라&r를 얻으려면 &6올더모듐 주괴&r가 필요합니다. 어떤 도구와도 결합하여 무적으로 만들 수 있기 때문에 왜 그렇게 비싼지 알 수 있습니다!"]
 	quest.2CECCA9D05D3EF12.title: "&2이터널 스텔라"
-	quest.2CF6EA138B53CE1B.quest_desc: ["&3바이브라늄&r과 &5언옵테이니움&r의 조합!"]
-	quest.2CF6EA138B53CE1B.title: "&5언옵테이니움&r - &3바이브라늄&r 합금 주괴"
+	quest.2CF6EA138B53CE1B.quest_desc: ["&3Vibranium&r과 &5Unobtainium&r의 조합!"]
+	quest.2CF6EA138B53CE1B.title: "&5Unobtainium&r-&3Vibranium&r 합금 주괴"
 	quest.2CF96A264EB5522C.quest_desc: [
 		"&9Uphyxes' 반전된 탑&r은 &6주입 의식&r의 최대 티어입니다. 다른 세 티어만큼 많은 용도는 없지만, 오컬티즘의 \"엔드게임\"에는 여전히 필요합니다."
 		""
@@ -2898,7 +2898,7 @@
 	quest.2D64EF8D803AF9DA.quest_desc: ["저희가 만들 수 있는 가장 비싼 차원문입니다. 먼저 &d드래곤 알&r을 얻기 위해 &d드래곤&r에게 계속해서 우유를 짜낼 필요 없이, &l&bHNN&r 또는 &l&2MA&r를 사용하거나 추출기를 사용하여 더 많이 만들 수 있습니다! \\n\\n다음으로, 마법 부여를 통해 &d주입된 드래곤의 숨결&r이 필요합니다. \\n\\n거기에서 차원문을 만들고 마법 부여하려면 &9영혼이 깃든 스컬크 선반&r이 필요합니다. \\n\\n차원문이 왜 작동하지 않는지 궁금하시다면, 이미 &2&l오버월드&r에 있기 때문입니다! 농담이고 사용할 수 없습니다!"]
 	quest.2D6FDCC948DB927D.quest_subtitle: "마호가니 + 티크"
 	quest.2D8026E10FBA7A72.quest_desc: ["매우 빠른 곡괭이입니다."]
-	quest.2D8026E10FBA7A72.title: "&6올더모듐 &5합금 &3곡괭이"
+	quest.2D8026E10FBA7A72.title: "&6Allthemodium &5합금 &3곡괭이"
 	quest.2D84DA544D7A24FA.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.2D86D4403E0F4EB9.quest_desc: [
 		"블레이즈골드는 JDT에서 추가된 새로운 재료입니다. 블레이즈골드는 티어 2 이상의 끈적이를 사용하여 금 블록에 끈적이 퍼뜨리기를 수행하여 얻을 수 있습니다. 블레이즈골드 광석은 행운의 영향을 받습니다."
@@ -2979,7 +2979,7 @@
 	quest.2EC2FA680076C07D.title: "&9메아리치는 스컬크 책장"
 	quest.2EC9668ED4EA47CB.quest_desc: ["이 퀘스트는 다이아몬드 도구나 갑옷 한 부위만 만들면 완료되지만, 가능하면 한 세트를 모두 갖추는 편이 좋습니다!\\n\\n다이아몬드 도구는 내구도가 높고, 갑옷도 뛰어난 방어력을 제공합니다.\\n\\n게임 후반의 더 좋은 도구와 갑옷을 만들 때도 다이아몬드 장비가 기본 재료로 필요합니다!"]
 	quest.2EC9668ED4EA47CB.title: "&9장비 갖추기"
-	quest.2EDE91023F7924FB.quest_desc: ["&d텔레포트 패드&l를 &r엔드&5에 설치하여 &l더 비욘드&r로 가십시오."]
+	quest.2EDE91023F7924FB.quest_desc: ["&d&l엔드&r에 텔레포트 패드를 설치하면 &5&lThe Beyond&r로 이동합니다."]
 	quest.2EDE91023F7924FB.title: "&d&l엔드"
 	quest.2EE4E88FC814AFA4.quest_subtitle: "티어: &91"
 	quest.2EE8FCB63A338BC4.quest_desc: [
@@ -3328,9 +3328,9 @@
 	quest.351159C55159C316.quest_subtitle: "엔드 시티와 엔드 함선"
 	quest.351159C55159C316.title: "첨탑 갑옷 장식"
 	quest.3512A883CD4E007C.quest_subtitle: "황소 소나무 + 가문비나무"
-	quest.3512F47DADC07EAE.quest_desc: ["&5언옵테이니움 갑옷&r이지만 &d&lArs Nouveau&r 마법에 버프가 있습니다!"]
+	quest.3512F47DADC07EAE.quest_desc: ["&5Unobtainium 방어구&r에 &d&lArs Nouveau&r 주문 강화 효과를 더한 장비입니다!"]
 	quest.3512F47DADC07EAE.quest_subtitle: "40"
-	quest.3512F47DADC07EAE.title: "&5언옵테늄 비전술사 장비"
+	quest.3512F47DADC07EAE.title: "&5Unobtainium 비전술사 장비"
 	quest.3514E9C1A8C7400C.quest_subtitle: "티어: &b2"
 	quest.3514E9C1A8C7400C.title: "&b간단한 기계 프레임"
 	quest.351769579833FA9E.title: "벌들과 함께하는 벌-러킹"
@@ -3645,7 +3645,7 @@
 	quest.39B4F361EF611927.quest_subtitle: "&o죽음 그 자체를 초월하는 힘."
 	quest.39B4F361EF611927.title: "&l&8위더의 나침반"
 	quest.39B6D9FD21419776.quest_desc: ["{image:atm:textures/questpics/allthemodium/all_armor_vibmage.png width:100 height:175 align:center}"]
-	quest.39B6D9FD21419776.title: "&3비브라늄 마법사 갑옷"
+	quest.39B6D9FD21419776.title: "&3Vibranium 마법사 방어구"
 	quest.39B85DB54B1037FE.quest_desc: ["검보다 약간 더 빠르지만, 피해량은 더 낮습니다."]
 	quest.39B85DB54B1037FE.quest_subtitle: "두꺼운 검"
 	quest.39DAC0592300992A.quest_desc: ["&9금속 압축기 몰드 설계도&r를 제작할 수 있습니다.\\n\\n&7&l금속 압축기 멀티블록&r은 &7금속 판&r과 &e아이템&r 제작을 자동화합니다.\\n\\n&7금속&r을 압축하려면 몰드가 필요합니다.\\n\\n몰드를 만들려면 이러한 &9설계도&r가 필요합니다!"]
@@ -3871,8 +3871,8 @@
 	]
 	quest.3D862A3D3F83CA26.title: "마법 부여 장치"
 	quest.3D9964CB0440DD5A.quest_desc: ["블레이즈 불씨를 다형성 액체에 떨어뜨리면 정제되지 않은 블레이즈 불씨 연료가 생성됩니다. 티어 2 이상의 끈적이 퍼뜨리기를 수행하면 정제되지 않은 블레이즈 불씨 연료가 블레이즈 불씨 연료로 변환됩니다."]
-	quest.3DCD38634176BD92.quest_desc: ["대장장이 작업대에서 &6올더모듐&r &e마법책&r을 바이브라늄 주괴 및 형판과 합치세요.\\n\\n이 형판은 보루에서 수상한 영혼 모래를 솔질하여 얻을 수 있습니다."]
-	quest.3DCD38634176BD92.title: "&3바이브라늄&r 주문서"
+	quest.3DCD38634176BD92.quest_desc: ["대장장이 작업대에서 &6Allthemodium&r &e주문서&r를 Vibranium 주괴 및 형판과 결합하세요.\\n\\n이 형판은 보루 잔해의 수상한 영혼 모래를 솔질해서 얻을 수 있습니다."]
+	quest.3DCD38634176BD92.title: "&3Vibranium&r 주문서"
 	quest.3DCF26B53AE1EBF6.quest_desc: ["&2어두운 숲&r 안에는 지하로 이어지는 구조물이 있습니다.\\n\\n들어가려면 주변 받침대에 획득한 보스 트로피 중 하나를 놓아야 합니다. 어떤 것을 놓든 걱정하지 마세요. 다시 집을 수 있습니다.\\n\\n3번째 레이어에서 기사 팬텀을 찾을 수 있습니다. 이들을 패배시켜 다음 보스를 잠금 해제하세요."]
 	quest.3DCF26B53AE1EBF6.quest_subtitle: "가장 어두운 숲"
 	quest.3DCF26B53AE1EBF6.title: "&2어두운 숲"
@@ -4019,10 +4019,10 @@
 	quest.3F8A5CBEAE024748.title: "구조물 탐지기"
 	quest.3F8AEBB994716318.quest_desc: ["&8위더&r는 &l&2바닐라&r의 효과이므로 당연히 우리만의 방식으로 사용하고 남용해야 합니다! \\n\\n&8위더 스켈레톤 해골&r로 어색한 물약을 만들어 생성할 수 있습니다. 그런 다음 그것으로 화살을 제작할 수 있습니다!"]
 	quest.3F8D515D7B81B0E3.quest_desc: [
-		"또 다른 대장장이 형판?!?!?!\\n\\n음, 적어도 이걸 얻기 위해 고고학을 할 필요는 없겠네요!\\n\\n&b&l디 아더&r의 던전 구조물에서 발견되는 시련 생성기를 쓰러뜨려 획득해야 합니다. 더 구체적으로는 도서관 방에서요!"
+		"대장장이 형판이 또 있다고요?!?!?!\\n\\n그래도 이번에는 고고학으로 찾을 필요가 없습니다!\\n\\n&b&l디 아더&r의 던전 구조물에 있는 시험 생성기를 물리쳐야 합니다. 정확히는 도서관 방에서 찾을 수 있어요!\\n"
 		"{image:atm:textures/questpics/allthemodium/all_library.png width:200 height:100 align:center}"
 	]
-	quest.3F8D515D7B81B0E3.title: "&5언옵테이니움 대장장이 형판"
+	quest.3F8D515D7B81B0E3.title: "&5Unobtainium 대장장이 형판"
 	quest.3F9CCCFEF4E84166.quest_desc: ["열 생산량을 늘리려면 &3열 싱크&r를 공허 튜브의 냉각 측면에 놓으세요."]
 	quest.3F9CCCFEF4E84166.quest_subtitle: "추가 열"
 	quest.3F9CCCFEF4E84166.title: "더 나은 열 생산"
@@ -4303,8 +4303,8 @@
 	quest.442B1A1900BADAFC.quest_desc: ["&8&lIE&r의 일부 기계는 멀티블록이 아니라 단일 블록입니다! \\n\\n단지 1개의 블록으로 만들어졌다고 해서 중요하지 않다고 생각하지 마세요!"]
 	quest.442B1A1900BADAFC.title: "소형 기계"
 	quest.4458F8829800A950.quest_desc: ["다형성 액체는 JDT의 모든 액체/연료의 아래쪽 가로띠입니다. 다형성 액체는 다형성 카탈리스트를 물에 드롭하여 제작됩니다."]
-	quest.445C21949ADA1FE3.quest_desc: ["대장장이 작업대에서 고대의 서를 &6올더모듐 주괴&r 및 견본과 합치세요.\\n\\n&9고대 도시&r에서 수상한 점토를 솔질하여 견본을 얻을 수 있습니다."]
-	quest.445C21949ADA1FE3.title: "&6올더모듐&r 주문서"
+	quest.445C21949ADA1FE3.quest_desc: ["대장장이 작업대에서 고대의 서를 &6Allthemodium 주괴&r 및 형판과 결합하세요.\\n\\n&9고대 도시&r의 수상한 점토를 솔질하면 형판을 얻을 수 있습니다."]
+	quest.445C21949ADA1FE3.title: "&6Allthemodium&r 주문서"
 	quest.445C9117198936B6.quest_desc: ["&4견착식 위더 무기 (W.A.S.W.)&r는 &4위더라이트&r로 만들 수 있는 마지막 무기입니다.\\n\\n이 무기는 2가지 종류의 투사체를 발사할 수 있습니다. &4위더 미사일&r과 &4위더 곡사포&r입니다.\\n\\n&4위더 미사일&r은 우클릭을 홀드하는 것으로 발사되며, 적중한 대상에게 피해를 입히고 쿨다운이 짧습니다.\\n\\n&4위더 곡사포&r는 Shift 키를 누른 채 우클릭을 홀드하면 발사되며, 더 넓은 영역에 피해를 입히고 해당 지역에 위더 효과를 남겨 그 안으로 들어오는 모든 것을 손상시킵니다. 하지만 쿨다운이 훨씬 깁니다."]
 	quest.445C9117198936B6.title: "&4견착식 위더 무기 (Wither Assault Shoulder Weapon)"
 	quest.44688FC2E34FF09F.quest_desc: ["Minecraft는 이미 수백 개의 블록을 추가하고, 모드는 수백 개를 더 추가합니다! 하지만 때로는 그것으로도 충분하지 않습니다.\\n\\n일부 모드를 사용하면 이미 가지고 있는 블록을 다른 모양, 디자인, 심지어 완전히 새로운 블록으로 바꿀 수 있습니다!"]
@@ -4317,8 +4317,8 @@
 	quest.44B22160850ACAB2.quest_subtitle: "티어: &56"
 	quest.44BD0B40EB5451AF.quest_desc: ["보급 캠프/선박은 &lMinecolonies&r에서 추가된 아이템입니다. 이것들은 당신이 살고 콜로니를 시작할 수 있는 기지를 즉시 만들 수 있도록 만들어졌습니다! \\n\\n오른쪽 클릭하여 메뉴를 열면 원하는 캠프/선박 유형을 선택해야 합니다!\\n\\n그런 다음 배치할 장소를 찾아야 합니다. 땅은 평평해야 하며, 빨간색 외곽선 블록은 무엇이 필요한지 알려줍니다!\\n\\n일단 설정되면, 당신의 새로운 캠프/선박은 완전히 무료로 건설될 것입니다!\\n\\n그것은 마을회관, 침대, 보급품, 그리고 더 많은 것을 갖게 될 것입니다!"]
 	quest.44BD0B40EB5451AF.title: "치팅"
-	quest.44D5EDB8711EC7A0.quest_desc: ["&2&l바닐라&r에서는 철퇴로 모든 재미를 누릴 수 없었습니다! 그래서 당연히 &6올더모듐&r으로 업그레이드할 수 있습니다! \\n\\n&6올더모듐 블록&r으로 철퇴를 업그레이드하여 &6올더모듐 철퇴&r를 획득하세요.\\n\\n더 높은 기본 피해, 더 높은 낙하 피해를 주며, 마법 부여도 동일합니다!"]
-	quest.44D5EDB8711EC7A0.title: "&6올더모듐 철퇴"
+	quest.44D5EDB8711EC7A0.quest_desc: ["&2&l바닐라&r에서는 철퇴로 모든 재미를 누릴 수 없었습니다! 그래서 당연히 &6Allthemodium&r으로 업그레이드할 수 있습니다! \\n\\n&6Allthemodium 블록&r으로 철퇴를 업그레이드하여 &6Allthemodium 철퇴&r를 획득하세요.\\n\\n더 높은 기본 피해, 더 높은 낙하 피해를 주며, 마법 부여도 동일합니다!"]
+	quest.44D5EDB8711EC7A0.title: "&6Allthemodium 철퇴"
 	quest.44DA091B53473723.quest_desc: ["기계식 압착기는 에너지를 사용하여 압착합니다."]
 	quest.44FEE957BD333241.quest_subtitle: "은 라임 + 신맛 벚나무"
 	quest.450EDE68EC992A5A.quest_desc: ["인터페이스는 &c자신이&r 보고 있는 것을 읽습니다. 이것을 &bAE2&r 저장소 버스처럼 생각할 수 있습니다.\\n\\n그게 뭔지 모르시겠다고요? 그럼 여기 예시가 있습니다. 100개의 조약돌이 들어 있는 상자에 인터페이스가 있으면, 이는 당신의 ID 네트워크 시스템에 100개의 조약돌이 있다는 의미입니다. 꽤 간단하죠?"]
@@ -4521,7 +4521,7 @@
 	quest.47CEFA06392C4211.title: "확장 상자"
 	quest.47E32A084CAA1512.quest_desc: ["총기 제작자와 거래하거나 제작할 수 있습니다.\\n\\n총알 없이는 총이 재미없으니, 총알을 제작해 봅시다! 하지만 총알을 제작하려면 &9청사진&r이 필요합니다."]
 	quest.47E32A084CAA1512.title: "&9일반 투사체 설계도"
-	quest.47F734CDD5793F26.title: "&5언옵테이니움 쇠뇌"
+	quest.47F734CDD5793F26.title: "&5Unobtainium 쇠뇌"
 	quest.480FA9FE57743B66.quest_subtitle: "&f5 &c공격 피해"
 	quest.481205F0C9B08200.quest_subtitle: "티크 + 정향"
 	quest.481735FE3164C8D5.quest_desc: ["&b푸른얼음&r- 200 K\\n&b꽁꽁 언 얼음&r- 240 K\\n&b얼음&r- 260 K\\n눈 - 273 K\\n&9물&r- 300"]
@@ -4626,10 +4626,10 @@
 	]
 	quest.4A076530297F4A97.title: "엘리베이터"
 	quest.4A079D40C0AF6BC3.quest_desc: [
-		"아니요, &5&l더 비욘드&r에서는 찾을 수 없습니다. \\n\\n&5언옵테이니움 광석&r은 엔드 고지 생물 군계에서 매우 드물게 발견할 수 있습니다. 그곳은 보통 엔드 시티가 생성되는 곳이기도 합니다!\\n\\n광석을 채굴하려면 &3바이브라늄 곡괭이&r(또는 같은 티어)가 필요합니다.\\n\\n아직도 광석을 가공하라고 말해야 하나요?"
+		"아니요, &5&lThe Beyond&r에서는 찾을 수 없습니다. \\n\\n&5Unobtainium 광석&r은 엔드 고지대 생물 군계에서 매우 드물게 발견됩니다. 보통 엔드 도시도 이곳에 생성됩니다! \\n\\n광석을 캐려면 &3Vibranium 곡괭이&r나 같은 등급의 도구가 필요합니다. \\n\\n이제 광석 가공을 권해야 한다는 건 아시죠?"
 		"{image:atm:textures/questpics/allthemodium/all_3.png width:100 height:100 align:center}"
 	]
-	quest.4A079D40C0AF6BC3.title: "&5언옵테이니움 주괴&r"
+	quest.4A079D40C0AF6BC3.title: "&5Unobtainium 주괴&r"
 	quest.4A1C8125896F7F1A.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 제작했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.4A44623D8A307473.quest_desc: [
 		"&6고속 전기 선로&r는 &6전기 선로&r와 비슷하지만 더 빠릅니다! 또한 일반 &6고속 선로&r에 필요한 것과 &6전기 선로&r에 필요한 것이 필요합니다. 전원을 공급하려면 &c속도 증가&r와 &e틀&r이 필요합니다. 이제 모서리에서 조심하고 만지지 않도록 주의해야 합니다!"
@@ -4701,8 +4701,8 @@
 		"- 진화"
 		"- 겉날개"
 	]
-	quest.4B2146C9527C54E7.quest_desc: ["당연히 지금 챕터 2에 진입하셨으니, &2&l바닐라 Minecraft&r를 클리어하셨겠군요! \\n\\n지금쯤은 &5네더라이트&r를 가지고 &2&lMinecraft&r에 있는 모든 보스를 처치하셨을 겁니다. 다음은 무엇일까요? \\n\\n다음은 &6&l올더모듐&r입니다! &6올더모듐&r을 얻기 시작하려면 &5네더라이트&r가 필요합니다. 거기서부터 시작해 봅시다!"]
-	quest.4B2146C9527C54E7.title: "&6&l올더모듐"
+	quest.4B2146C9527C54E7.quest_desc: ["챕터 2에 도달했으니 &2&l바닐라 Minecraft&r를 클리어했겠군요! \\n\\n지금쯤 &c네더라이트&r도 얻고 &2&lMinecraft&r의 모든 보스를 처치했을 겁니다. 이제 무엇을 할까요? \\n\\n다음은 &6&lAllthemodium&r입니다! &6Allthemodium&r을 얻기 시작하려면 &c네더라이트&r가 필요하니 거기서 출발해 봅시다!"]
+	quest.4B2146C9527C54E7.title: "&6&lAllthemodium"
 	quest.4B3F20E5C7E3BCFB.quest_desc: ["프라이멀 석탄은 JDT에서 추가된 새로운 재료입니다. 프라이멀 석탄은 1티어 이상의 끈적이를 사용하여 석탄 블록에 끈적이 퍼뜨리기를 수행하여 얻을 수 있습니다. 프라이멀 석탄 광석은 행운의 영향을 받습니다."]
 	quest.4B42D962FE910CB3.quest_desc: ["이것을 당신의 &d&l리볼버&r에 추가하면, 당신의 총알이 당신이 맞춘 몹에게 기절 효과를 줍니다."]
 	quest.4B4F5341D6DBDD19.quest_desc: ["물 속에서 숨쉬기를 유지하세요. 방울이 5개 아래로 내려가면 다시 채워질 것입니다! 또한 물 속에서 훨씬 쉽게 볼 수 있습니다!"]
@@ -4914,9 +4914,9 @@
 	]
 	quest.4DBC3B4D38CC6152.title: "결정화된 나방"
 	quest.4DCEC4B97E24B6F1.quest_subtitle: "&f17 &c공격 피해"
-	quest.4DD66E31859EA593.quest_desc: ["&3바이브라늄 갑옷&r이지만 &e&l철의 마법&r 마법에 버프가 있습니다!"]
+	quest.4DD66E31859EA593.quest_desc: ["&3Vibranium 방어구&r에 &e&lIron's Spells&r 주문 강화 효과를 더한 장비입니다!"]
 	quest.4DD66E31859EA593.quest_subtitle: "32"
-	quest.4DD66E31859EA593.title: "&3비브라늄 마법사 의상"
+	quest.4DD66E31859EA593.title: "&3Vibranium 마법사 장비"
 	quest.4DE1158931F84F22.quest_desc: [
 		"철 곡괭이 이상의 도구가 생기면 &c레드스톤&r을 캘 수 있습니다. "
 		""
@@ -4944,7 +4944,7 @@
 	quest.4E09BBC0BAED3440.quest_subtitle: "티어: &c5"
 	quest.4E1E31EDD544EE10.quest_subtitle: "64,000mb"
 	quest.4E28B67554CBDAB7.quest_desc: ["모든 검 중에서 두 번째로 높은 피해를 줍니다. 첫 번째는 무한한 피해를 주므로, 무한과는 경쟁할 수 없습니다."]
-	quest.4E28B67554CBDAB7.title: "&6올더모듐 &5합금 &3검"
+	quest.4E28B67554CBDAB7.title: "&6Allthemodium &5합금 &3칼날"
 	quest.4E297778DCEEC963.quest_desc: ["고급 방열판은 우리의 유일한 &5&l레일건&r 전용 상위 버전으로 변환입니다.\\n\\n이것은 &5&l레일건&r이 훨씬 더 빠르게 충전되도록 할 것입니다!"]
 	quest.4E2C589C7638390F.quest_desc: ["&3저주받은 활&r은 다중 발사 마법 부여가 된 활과 유사하게 작동합니다!\\n\\n일반 화살로는 한 번에 3개를 발사합니다! 특수 화살로는 2개만 발사합니다.\\n\\n다중 발사로 마법 부여할 수도 있을까요?"]
 	quest.4E2C589C7638390F.title: "&3저주받은 활"
@@ -4967,10 +4967,10 @@
 	quest.4E5238F00CEED8B2.quest_desc: ["초반에는 생 광석을 제련하는 것이 필수적이지만, 추가 자원을 놓치고 있습니다!\\n\\n생 광석당 출력을 두 배로 늘리는 방법은 여러 가지가 있지만, 가장 쉬운 방법 중 하나는 &e광석 망치&r를 만들어서 사용하는 것입니다.\\n\\n이것들은 생 광석 1개를 2개의 가루로 파괴하여 주괴로 제련할 수 있게 해주어, 결과적으로 주괴 출력을 두 배로 늘립니다!\\n\\n생 광석당 더 많은 것을 원하십니까? &5오컬티즘&r 모드를 확인해 보세요!"]
 	quest.4E5238F00CEED8B2.title: "&e기본 광물 두 배"
 	quest.4E737C490DCC5D6C.quest_desc: [
-		"얻을 수 있는 최고의 기본 갑옷입니다!\\n\\n더 좋긴 하지만 메카수트를 제작하는 데 필요할 것입니다!"
+		"&6&lAllthemodium&r에서 얻을 수 있는 최고의 방어구는 &5Unobtainium 방어구&r입니다! 진짜 최상급 방어구를 만들 때도 &5Unobtainium 방어구&r가 필요합니다. \\n\\n방어력 40, 방어 강도 60, 밀치기 저항 100%를 제공하니 꼼짝도 하지 않겠네요! \\n\\n이전 방어구의 효과에 더해 &d마법 피해 저항&r도 90%로 높아집니다."
 		"{image:atm:textures/questpics/allthemodium/all_armor_uno.png width:100 height:175 align:center}"
 	]
-	quest.4E737C490DCC5D6C.title: "&5언옵테이니움 갑옷"
+	quest.4E737C490DCC5D6C.title: "&5Unobtainium 방어구"
 	quest.4E7990AEBCCC3C95.quest_subtitle: "티어: &b4"
 	quest.4E802144C6E40D43.quest_subtitle: "실론 흑단 + 벚나무"
 	quest.4E802144C6E40D43.title: "보라색 배롱나무 묘목"
@@ -5085,7 +5085,7 @@
 	quest.500BEAD94C97DF96.quest_desc: ["벌집 또는 원심분리기에 설치할 수 있습니다.\\n\\n벌집에 있을 때 벌이 벌집에서 보내는 시간을 20% 줄여줍니다.\\n\\n원심분리기에 설치하면 처리 속도가 증가합니다.\\n\\n이것들은 중첩됩니다."]
 	quest.500BEAD94C97DF96.quest_subtitle: "소닉 벌"
 	quest.50150380043F97F9.title: "왕벌의 비행"
-	quest.501A0AEEC73C0790.quest_desc: ["&6피글리치&r는 &6&l올더모듐&r에 의해 추가된 보스이며, &l&b디 아더&r의 고대 피라미드에 살고 있습니다.\\n\\n죽을 때 자신의 하트 중 1개를 드롭합니다! it... 블록을 만들려면 9개의 고장난 하트가 필요합니다.\\n\\n다행히 이들을 농장처럼 관리할 방법이 있습니다!"]
+	quest.501A0AEEC73C0790.quest_desc: ["&6피글리치&r는 &6&lAllthemodium&r이 추가한 보스로, &l&b디 아더&r의 고대 피라미드에 삽니다. \\n\\n처치하면 심장 1개를 떨어뜨립니다! 심장 블록 하나를 만들려면 9마리를 처치해야 합니다... \\n\\n다행히 자동화할 방법이 있습니다!"]
 	quest.501A0AEEC73C0790.title: "&6피글리치 심장 블록"
 	quest.501C6B7580453410.quest_desc: ["&aFluidizer&r는 최소 크기가 3x3x3인 사용자 지정 가능한 멀티블록입니다. 다른 멀티블록과 마찬가지로 틀은 케이싱으로 만들어야 하며, 면은 유리로 만들 수 있습니다."]
 	quest.501C6B7580453410.title: "유동화 장치 건설"
@@ -5256,9 +5256,9 @@
 	quest.52A29269A23F85B3.quest_desc: ["&9예티 의상&r에는 우두머리 예티 모피가 필요합니다. 짐작하셨겠지만! 우두머리 예티에게서만 얻을 수 있습니다.\\n\\n적어도 이 의상은 적들을 냉정하게 만들어 &9느리게&r 만들 것입니다!"]
 	quest.52A29269A23F85B3.quest_subtitle: "20"
 	quest.52A29269A23F85B3.title: "&9예티 의상"
-	quest.52AFABA08674B6A8.quest_desc: ["&3바이브라늄 갑옷&r이지만 &d&lArs Nouveau&r 마법에 버프가 있습니다!"]
+	quest.52AFABA08674B6A8.quest_desc: ["&3Vibranium 방어구&r에 &d&lArs Nouveau&r 주문 강화 효과를 더한 장비입니다!"]
 	quest.52AFABA08674B6A8.quest_subtitle: "32"
-	quest.52AFABA08674B6A8.title: "&3바이브라늄 비전술사 장비"
+	quest.52AFABA08674B6A8.title: "&3Vibranium 비전술사 장비"
 	quest.52B22C07818981D0.quest_subtitle: "구리 + 니켈"
 	quest.52B22C07818981D0.title: "콘스탄탄 꿀벌"
 	quest.52B2ADE472707372.quest_subtitle: "골든 딜리셔스 사과 + 그래니 스미스 사과"
@@ -5456,7 +5456,7 @@
 	quest.55882C10292B6A3D.quest_subtitle: "크리스탈린 벌에게 번영 블록을 먹이세요"
 	quest.55882C10292B6A3D.title: "프로스페리비"
 	quest.558FF21A6BCFE6E8.quest_desc: ["{image:atm:textures/questpics/allthemodium/all_armor_unomage.png width:100 height:175 align:center}"]
-	quest.558FF21A6BCFE6E8.title: "&5언옵테늄 마법사 갑옷"
+	quest.558FF21A6BCFE6E8.title: "&5Unobtainium 마법사 방어구"
 	quest.55A9EB63F4964FCF.quest_subtitle: "&f7 &c공격 피해"
 	quest.55B9B9C3AA01D323.quest_desc: [
 		"&5&l수정 협곡&r의 거대한 &5반짝이는 수정&r 사이에는 &d꽃&r 모양의 &5수정&r이 도사리고 있습니다. \\n\\n정말 아름답고, 거의 매혹적입니다. 아름다운 &d꽃&r 정원을 가꾸고 싶게 만들지만, 그 &d꽃&r 중 어느 것도 이 &5수정&r &d꽃&r만큼 is...아름답지 않을 거라는 걸 압니다.\\n\\n어쨌든 &5꿀 수정&r, &6꿀&r, 그리고 가장 중요한 &5결정 꽃&r을 많이 찾을 수 있을 겁니다!"
@@ -5673,7 +5673,7 @@
 	quest.5A1DCD6C7F712A78.title: "넵투늄 낚싯대"
 	quest.5A23107C363A209E.quest_subtitle: "다양한 엔드 재료를 만듭니다"
 	quest.5A26738AC904DC39.quest_desc: ["13개의 주문 슬롯!"]
-	quest.5A26738AC904DC39.title: "&6올더모듐 주문서"
+	quest.5A26738AC904DC39.title: "&6Allthemodium 주문서"
 	quest.5A2908437EC43AC6.quest_subtitle: "티어: &54"
 	quest.5A2A718C569F3C19.quest_desc: ["&0석탄&r을 &l코크스 오븐&r에서 &0제련&r하면 &0코크스&r를 얻을 수 있습니다! 아니면 제가 부르는 것처럼 그냥 &0코크&r라고 부르죠! \\n\\n이것은 거의 &8석탄&l과 같지만 &rIE&7에서 더 많은 용도로 사용됩니다. \\n\\n이것을 철과 결합하여 &r강철&0을 얻거나, 분쇄하여 &r코크스 가루&0를 얻을 수 있으며, &r흑연&0에 필요하거나 용광로의 연료로 사용할 수 있습니다."]
 	quest.5A2A718C569F3C19.title: "&8코크스&r"
@@ -5701,11 +5701,11 @@
 	quest.5A955C0F53AED3ED.quest_desc: ["&b영혼의 사슬&r은 그래플링 훅과 유사하게 작동합니다.\\n\\n오른쪽 클릭하면 &b사슬&r이 발사되어, 사슬이 닿은 블록 방향으로 당신을 끌어당깁니다. 다시 오른쪽 클릭하면 해제됩니다. 또한 범위는 90 블록 정도입니다.\\n\\n제작하려면 &b갇힌 영혼&r, &5끈기 있는 덩굴&r 2개, &9끈기 있는 꽃잎&r 1개가 필요합니다.\\n\\n처음 두 개는 &5탱글드 헤이트리드&r에게서 떨굼 설정으로 얻을 수 있으며, 마지막은 &9달의 몬스트로시티&r를 처치해야 얻을 수 있습니다."]
 	quest.5A955C0F53AED3ED.title: "&b영혼의 사슬"
 	quest.5A9C646718EE92C2.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_vibranium.png width:100 height:150 align:center}"]
-	quest.5A9C646718EE92C2.title: "&3바이브라늄&r"
+	quest.5A9C646718EE92C2.title: "&3Vibranium&r"
 	quest.5A9D6672385D3D82.quest_desc: ["상위 버전으로 변환 시 청금석 4개가 아닌 1개만 사용합니다."]
 	quest.5A9D6672385D3D82.quest_subtitle: "청금석 저장 중"
 	quest.5AA3E5DFECB4AC4D.quest_desc: ["AE2에는 수정 성장을 크게 가속하는 장치도 있습니다.\\n\\n싹 틔우는 서투스 석영 주변에 수정 성장 가속기를 설치하고 전력을 공급하면 수정이 빠르게 자랍니다!"]
-	quest.5AAF6CA41209B365.title: "&3바이브라늄 도구"
+	quest.5AAF6CA41209B365.title: "&3Vibranium 도구"
 	quest.5AC1BE754210429E.quest_desc: ["친구들과 팀을 만들고 싶다면 &a/ftbteams party create (팀 이름)&r 명령어를 사용하세요!"]
 	quest.5AC497F76A086A5C.title: "&l&9오버월드 현상금:&r&e 마녀"
 	quest.5ACE97EE75813006.quest_desc: [
@@ -5766,7 +5766,7 @@
 	]
 	quest.5B4397D4EC23E702.title: "벌침 창 성소"
 	quest.5B46B5BF4ADB2BE9.quest_desc: ["네, 길을 만들 수 있으니 걱정 마세요!"]
-	quest.5B46B5BF4ADB2BE9.title: "&6올더모듐 &5합금 &3삽"
+	quest.5B46B5BF4ADB2BE9.title: "&6Allthemodium &5합금 &3삽"
 	quest.5B4B5C148D63ACA1.quest_desc: [
 		"&a잊혀진 미니언&r은 일반 몹처럼 생성되지 않고, 만들어야 합니다. 잊혀진 미니언은 &a잊혀진 주괴 블록&r 위에 잘라낸 Gloomgourd를 놓아서 만들 수 있습니다.\\n\\n잊혀진 미니언은 눈 골렘과 유사하게 행동하며, 절대 당신을 공격하지 않고 대신 적대적인 몹을 공격합니다.\\n\\n잊혀진 미니언은 하트 10개를 가지고 있으며 death... 아무것도 드롭하지 않습니다. 하지만 왜 굳이 죽이려고 하시나요?"
 		"{image:atm:textures/questpics/undergarden/undergarden_minion.png width:125 height:100 align:center}"
@@ -5781,10 +5781,10 @@
 	]
 	quest.5B9F933ECD6B24FD.quest_desc: ["티어 II보다 더 높이 점프할 수 있습니다."]
 	quest.5B9F933ECD6B24FD.quest_subtitle: "최대: 1"
-	quest.5BA84F6282D9CAF1.quest_desc: ["&6올더모듐 갑옷&r이지만 &e&lIron's Spells&r 마법에 버프가 있습니다!"]
+	quest.5BA84F6282D9CAF1.quest_desc: ["&6Allthemodium 방어구&r에 &e&lIron's Spells&r 주문 강화 효과를 더한 장비입니다!"]
 	quest.5BA84F6282D9CAF1.quest_subtitle: "24"
-	quest.5BA84F6282D9CAF1.title: "&6올더모듐 마법사 의상"
-	quest.5BA986D7928BF09F.quest_desc: ["피글리치는 &6&l올더모듐&r에 의해 추가된 보스입니다. \\n\\n그는 1000개의 하트를 가지고 있으며 현재 공격은 없지만, 공격을 시작하면 파괴적일 것이라고 믿으셔도 좋습니다!\\n\\n처치 시 합금과 ATM의 별에 필요한 그의 심장을 드롭합니다!\\n\\n(HNN 또는 엔더IO와 같은 것으로 농장처럼 기르는 방법을 찾아보세요!)"]
+	quest.5BA84F6282D9CAF1.title: "&6Allthemodium 마법사 장비"
+	quest.5BA986D7928BF09F.quest_desc: ["피글리치는 &6&lAllthemodium&r이 추가하는 보스입니다. \\n\\n생명력이 1000하트이며 현재는 공격하지 않지만, 공격이 추가되면 아주 강력할 겁니다! \\n\\n처치하면 합금과 ATM의 별에 필요한 피글리치 심장을 떨어뜨립니다! \\n\\n(HNN이나 Ender IO 등으로 자동화하는 방법을 찾아보세요!)"]
 	quest.5BA986D7928BF09F.title: "피글리치 보스"
 	quest.5BB887411B8B38FA.quest_desc: ["ME 네트워크 자체를 무선으로 확장하는 첫 단계는 조금 독특합니다.\\n\\n&b물질 응축기&f는 입력된 아이템을 소멸시키는 AE2식 쓰레기통입니다. 하지만 &e저장 부품&f을 설치하면 소멸한 아이템에 남은 에너지를 모아, 충분히 응축했을 때 두 가지 특수 제작 재료를 만들 수 있습니다.\\n\\n첫 번째는 &b물질 덩어리&f입니다. 최소 1k 저장 부품이 필요하고 아이템 256개 분량의 물질을 소멸시켜야 합니다."]
 	quest.5BB887411B8B38FA.title: "응축된 물질"
@@ -5970,7 +5970,7 @@
 	quest.5E799B92358A8732.quest_desc: ["&c네더&r에서 &6고대 잔해&r를 발견할 수 있습니다. 이것을 제련하여 조각으로 만들고 금과 결합하여 &6네더라이트 주괴&r를 만들 수 있습니다. 네더라이트 주괴는 게임에서 가장 강력한 도구와 갑옷을 제작하는 데 사용되는 최종 단계의 금속입니다."]
 	quest.5E799B92358A8732.title: "&d고대의 금속"
 	quest.5E7CCDE9229A646A.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_allthemodium.png width:100 height:150 align:center}"]
-	quest.5E7CCDE9229A646A.title: "&6올더모듐&r"
+	quest.5E7CCDE9229A646A.title: "&6Allthemodium&r"
 	quest.5E7E35CCAF1C88EE.quest_desc: ["&bME 반입 버스&f는 버스가 향한 외부 저장소에서 아이템을 주기적으로 가져옵니다. 필터를 설정하면 해당 인벤토리에서 지정한 아이템만 가져올 수 있습니다."]
 	quest.5E7E35CCAF1C88EE.quest_subtitle: "I는 입력"
 	quest.5EB488C393B084C4.quest_desc: ["&lChiseled&r의 연속, &4&lRechiseled&r! \\n\\n이 모드의 모든 기능은 끌 도구 안에서 작동하며, 우클릭하면 GUI가 나타납니다. \\n왼쪽에서는 디자인을 선택하고, 오른쪽 아래에서는 블록을 놓습니다.\\n\\n위쪽에서는 디자인을 설정된 패턴으로 볼 수 있습니다. 블록 1개, 3x1 블록, 또는 해당 블록의 3x3 담장으로 볼 수 있습니다. 버튼을 클릭하여 이미지를 회전하거나 회전하지 않도록 설정할 수도 있습니다!\\n\\n블록을 놓는 곳 옆에 있는 끌을 클릭하면 선택한 디자인이 변경 가능한 인벤토리의 모든 블록에 적용됩니다.\\n\\n또한 내구도가 없습니다!"]
@@ -6072,7 +6072,7 @@
 	quest.5F9B8ACCE0C8389E.quest_desc: ["더욱 재미있는 작은 &4&l마호 츠카이&r 무기를 얻으려면 &7「강화」두루마리&r가 필요합니다.\\n\\n하나를 얻으려면 &7양피지&r를 내려놓고 그 위에 강화 의식을 수행한 다음 &7천&r을 집어 드세요."]
 	quest.5F9B8ACCE0C8389E.title: "&7강화 두루마리"
 	quest.5FA68047A3C05E80.quest_desc: ["15개의 주문 슬롯!"]
-	quest.5FA68047A3C05E80.title: "&5언옵테늄 주문서"
+	quest.5FA68047A3C05E80.title: "&5Unobtainium 주문서"
 	quest.5FA9BC0D8476D322.quest_desc: ["배낭 안의 음식으로 당신을 자동으로 먹여줍니다."]
 	quest.5FB29F3F4DF17765.quest_desc: ["때로는 모든 모듈이 한 번에 여러 스택을 이동하는 것을 원하지 않을 수 있습니다. 따라서 모듈 1개만 그렇게 하도록 하려면 증강을 사용하세요! 이것은 상위 버전으로 변환과 함께 스택되지 않으며 though... 사실 그것들을 오버라이드합니다."]
 	quest.5FC92F3794004A98.quest_subtitle: "물결치는 버드나무 + 영혼 나무"
@@ -6245,8 +6245,8 @@
 	quest.62CE0FFAF6352287.quest_desc: ["이블크래프트 기계는 &6약속&r을 사용하여 상위 버전으로 변환할 수 있습니다. 각 약속은 서로 다른 효과를 갖지만, 먼저 블러드 주입기를 상위 버전으로 변환하여 더 많은 제작법을 잠금 해제해야 합니다.\\n\\n이를 위해 &6끈기의 약속: 티어 1&r을 생성해야 합니다. 일반적으로 이것은 기계의 저장 용량을 증가시킵니다. 블러드 주입기의 경우, 이것은 더 많은 제작법을 잠금 해제합니다!"]
 	quest.62CE0FFAF6352287.title: "&a기계 업그레이드 중"
 	quest.62D572BAB055F56F.quest_subtitle: "티어: &e1"
-	quest.62DDE5B1287BEB36.quest_desc: ["&6&lATM의 별&r의 핵심 부품은 &6각성된 &5언옵테이니움&f-&3바이브라늄&r 합금 블록인데, 그냥 &6각성된 합금&r 블록이라고 부르겠습니다. 이걸 얻으려면 별 제단 멀티블록이 필요합니다. (자세한 내용은 별 제작 퀘스트를 확인하세요!) \\n\\n거기에서 &5언옵테이니움&f-&3바이브라늄&r 블록, 내구성 I 책 4개, &6각성된 슈프리뮴 보석&r 4개, &6각성된 슈프리뮴 라텍스&r 4개를 넣어야 합니다.\\n\\n그런 다음 8,500만 FE를 공급해야 합니다... 그러면 합금이 각성될 것입니다!"]
-	quest.62DDE5B1287BEB36.title: "&6각성된 &5언옵테이니움&f-&3바이브라늄&r 합금 블록"
+	quest.62DDE5B1287BEB36.quest_desc: ["&6&lATM의 별&r 내부를 구성하는 또 다른 부품은 &6각성한 &5Unobtainium&f-&3Vibranium&r 합금 블록입니다. 여기서는 간단히 &6각성한 합금&r 블록이라고 부르겠습니다. \\n이것을 만들려면 &6&l별 제단&r 멀티블록이 필요합니다. 자세한 내용은 별 제작 퀘스트를 확인하세요! \\n\\n&5Unobtainium&f-&3Vibranium&r 합금 블록, 내구성 I 책 4권, &6각성한 수프레뮴 보석&r 4개, &6각성한 수프레뮴 정수&r 4개를 넣으세요. \\n\\n그다음 85 Million FE를 공급하면 합금이 각성합니다!"]
+	quest.62DDE5B1287BEB36.title: "&6각성한 &5Unobtainium&f-&3Vibranium&r 합금 블록"
 	quest.62DF58D36B739EA0.quest_desc: ["&e바제트&r는 &e코볼레디에이터&r와 유사하며, &e저주받은 피라미드&r 안에 도사리고 있다가 플레이어가 가까이 오기를 기다립니다.\\n\\n&e바제트&r는 1050 &4하트&r를 가지고 있으며 다행히 채굴 피로를 주지는 않습니다!\\n그녀는 많은 공격을 가지고 있는데, 가장 기본은 당신이 가까이 있을 때 그녀가 당신에게 무기를 휘두르는 것입니다. 더 멀리 가면 그녀는 당신에게 모래 폭풍을 던지거나 지붕에서 모래 블록을 당신 위로 떨어뜨릴 수 있습니다.\\n\\n솔직히 어떤 공격이 더 나쁜지 모르겠습니다!\\n\\n죽으면 고대의 금속 주괴만 드롭합니다."]
 	quest.62DF58D36B739EA0.title: "&e바제트"
 	quest.62F33BBE7BDFE404.quest_desc: ["순간이동 완드는 달의 괴물에게서만 얻을 수 있는 또 다른 드롭 아이템입니다!\\n\\n완드를 들고 마우스 오른쪽 버튼을 누르면 시작되고, 떼는 순간 마지막으로 바라보던 블록으로 순간이동합니다!\\n\\n범위가 있지만 꽤 멉니다. 그리고 사용 후에는 재사용 대기시간이 있습니다!"]
@@ -6397,8 +6397,8 @@
 	quest.65FA86357BC60573.quest_subtitle: "움직이는 물건!"
 	quest.6601450C63FEEE61.quest_desc: ["&b수확 티어 3&r은 철 곡괭이 단계이며, 다이아몬드와 에메랄드, 금을 비롯한 대부분의 광석을 채굴할 수 있습니다."]
 	quest.6601450C63FEEE61.title: "&b수확 티어 3"
-	quest.66039B738CF0718A.quest_desc: ["&3바이브라늄&r이 &6올더모듐&r과 결합되었습니다!"]
-	quest.66039B738CF0718A.title: "&3바이브라늄&r - &6올더모듐&r 합금 주괴"
+	quest.66039B738CF0718A.quest_desc: ["&3Vibranium&r이 &6Allthemodium&r과 결합되었습니다!"]
+	quest.66039B738CF0718A.title: "&3Vibranium&r-&6Allthemodium&r 합금 주괴"
 	quest.6607E5CDB3D17D67.quest_desc: ["걱정 마세요, 불이 붙지 않을 거예요!"]
 	quest.6607E5CDB3D17D67.title: "&l&b금 간&r 양털"
 	quest.661C072E48F8D41F.quest_desc: [
@@ -6445,7 +6445,7 @@
 	quest.66C52B137A4FF869.quest_desc: ["이것은 4개의 tertium을 주입 수정과 함께 결합하여 만든 티어 4 라텍스입니다."]
 	quest.66C52B137A4FF869.quest_subtitle: "티어: &b4"
 	quest.66C52B137A4FF869.title: "&9임페리움"
-	quest.66E88F916B638B3B.quest_desc: ["이것은 약간 혼란스러울 수 있습니다. &5크리에이티브&e주문서&r가 꽤 많습니다! 하지만 저희가 원하는 것은 &d&lAllTheArcanist 장비&r에서 얻을 수 있습니다. \\n\\n이것을 만들려면 &l&d아르스 누보&r에서 제작해야 합니다. 해당 &e주문서&r에는 &e대마법사 주문서&r, &6&lATM의 별&r과 몇 가지 추가 아이템이 필요합니다. \\n\\n&e언옵테이니움 주문서&r와 동일한 설정을 가지고 있지만, 마나가 무한하고 모든 문양이 잠금 해제되어 있습니다!\\n\\n모든 주문의 힘, 으하하하!"]
+	quest.66E88F916B638B3B.quest_desc: ["조금 헷갈릴 수 있습니다. &5크리에이티브 &e주문서&r가 여러 개 있거든요! 우리가 원하는 것은 &d&lAll The Arcanist Gear&r의 주문서입니다. \\n\\n이 주문서를 만들려면 먼저 &l&dArs Nouveau&r의 크리에이티브 &e주문서&r를 제작해야 합니다. 거기에 &e대마법사 주문서&r, &6&lATM의 별&r과 몇 가지 아이템이 필요합니다. \\n\\n&eUnobtainium 주문서&r와 설정은 같지만 마나가 무한하고 모든 문양이 잠금 해제되어 있습니다! \\n\\n모든 주문 위력을 손에 넣는 겁니다, 으하하하!"]
 	quest.66E88F916B638B3B.title: "&5&l크리에이티브 &e주문서"
 	quest.66ECC26BC81D0093.title: "티어: &b기본"
 	quest.66FE4552E09B5EFF.quest_desc: ["프리즘은 많은 &6&l포비든 \\\\\\& 아르카누스&r 제작법과 이후 다른 모드에서 중요합니다! \\n\\n프리즘을 제작하려면 &3엘리멘타리움&r이(가) 필요합니다. 엘리멘타리움은 정글 사원, 사막 피라미드, 수중 폐허에서 찾을 수 있습니다. \\n\\n찾을 수 없는 곳을 알려주는 것이 더 쉬울 것 같아요!"]
@@ -6593,7 +6593,7 @@
 	quest.68DABFFB6B3E1A57.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_eye.png width:100 height:150 align:center}"]
 	quest.68DABFFB6B3E1A57.quest_subtitle: "스트롱홀드"
 	quest.68DABFFB6B3E1A57.title: "눈 갑옷 장식"
-	quest.68E6AE1B9EBCEFFF.title: "&3바이브라늄 철퇴"
+	quest.68E6AE1B9EBCEFFF.title: "&3Vibranium 철퇴"
 	quest.68F92455A9483AD6.quest_desc: ["제트 부츠를 사용한 경우에만 이 퀘스트가 표시됩니다.\\n\\n피해를 받지 않고 제트 부츠를 사용할 방법은 없습니다. 심지어 try..."]
 	quest.68F92455A9483AD6.quest_subtitle: "당신은 겉날개를 사용하는 것이 어렵다고 생각했나요?"
 	quest.68F92455A9483AD6.title: "제트 부츠"
@@ -6782,9 +6782,9 @@
 		"이것은 재미있는 물건입니다. 찾거나, 제작하거나, 거래할 수 있습니다.\\n\\n그런 다음 원하는 색으로 염색하고 머리에 쓸 수 있습니다!\\n\\n그러면 &6벌&8들&6은 &8당&r신을 꽃으로 생각하고 따라올 것입니다.\\n\\n또한 \"Duck Amuck\"의 Daffy처럼 보이게 합니다."
 		"{image:atm:textures/questpics/bumblezone/bumble_duckamuck.png width:100 height:100 align:center}"
 	]
-	quest.6C5F9D0D447EFB9C.quest_desc: ["우리가 가진 것이 전부 &l&2바닐라&r라고 생각하셨나요? \\n\\n&6올더모듐 갑옷&r은 더 많은 방어 포인트와 갑옷 강도를 가지고 있으며, &6&l올더모듐&r 퀘스트 페이지에서 읽을 수 있는 마법 및 기타 강화 효과에 대한 향상된 보호 기능도 있습니다!\\n\\n참고로, 이것을 제작하려면 &c네더라이트&r가 필요합니다."]
+	quest.6C5F9D0D447EFB9C.quest_desc: ["&l&2바닐라&r 방어구가 전부라고 생각하셨나요? \\n\\n&6Allthemodium 방어구&r는 방어력과 방어 강도가 더 높고, 마법 피해 보호와 여러 강화 효과도 제공합니다. 자세한 내용은 &6&lAllthemodium&r 퀘스트 페이지에서 확인하세요! \\n\\n제작하려면 &c네더라이트&r가 필요합니다."]
 	quest.6C5F9D0D447EFB9C.quest_subtitle: "24"
-	quest.6C5F9D0D447EFB9C.title: "&6올더모듐 갑옷"
+	quest.6C5F9D0D447EFB9C.title: "&6Allthemodium 방어구"
 	quest.6C6F4EB5CBE2FBC2.quest_desc: ["철 점봉은 철 곡괭이로 캘 수 있는 광물을 찾을 수 있어 약간 더 좋습니다! 다이아몬드, 레드스톤, 그리고 금을 찾을 수 있습니다."]
 	quest.6C9191DA4B1039D6.quest_desc: ["멘릴 열매를 먹으면 짧은 시간 동안 야간 투시 효과를 얻을 수 있습니다."]
 	quest.6CA01DCE1F4A0EC3.quest_desc: ["모드의 다음 단계에서는 &3원유&r를 수집해야 합니다. 이 오일은 오버월드 &3표면&r에서 자연적으로 발견할 수 있습니다."]
@@ -6849,7 +6849,7 @@
 	quest.6D6E07564D8FDD8D.quest_desc: ["&a익스트림 리액터&r는 크기, 효율 등에서 완전히 사용자 지정 가능한 멀티 블록 원자로를 제공합니다.\\n\\n익스트림 리액터 시작에 대해 더 자세히 알아보려면 해당 모드의 퀘스트 챕터를 확인하세요!"]
 	quest.6D6E07564D8FDD8D.quest_subtitle: "사용자 지정이 가능한 원자로!"
 	quest.6D6E07564D8FDD8D.title: "&9익스트림 리액터: &a원자로"
-	quest.6D738730B371B152.quest_desc: ["&l&7채굴 차원&r은 표면에 아무것도 없는 완전한 평지 세계입니다.\\n\\n표면 아래에는 거의 모든 광물이 있습니다.\\n\\n&7&l채굴 차원&r에는 동굴도, 몹 스폰도, 방해되는 것도 없습니다. 오직 돌 유형과 광물만 있습니다!\\n\\n광물 스폰은 &7&l채굴 차원&r의 Y 레벨과 레이어에 따라 다릅니다.\\n\\n채석기를 설치하는 것을 권장합니다."]
+	quest.6D738730B371B152.quest_desc: ["&l&7채굴 차원&r은 지표에 아무것도 없는 완전한 평지 세계입니다. \\n\\n지표 아래에는 거의 모든 광석이 있습니다. \\n\\n동굴도, 몹 생성도, 방해물도 없고 여러 종류의 돌과 광석뿐입니다! \\n\\n광석은 &7&l채굴 차원&r의 Y 높이와 지층에 따라 다르게 생성됩니다. &7&l채굴 차원&r에서는 높이와 지층을 확인하세요.\\n\\n채석기를 설치하는 것을 권합니다."]
 	quest.6D738730B371B152.title: "&l&7채굴 차원"
 	quest.6D75CF34957ECCD9.quest_desc: ["에너지 배터리를 사용하면 FE를 저장할 수 있습니다. 전송하려면 &6에너지 인터페이스&r가 필요합니다."]
 	quest.6D75CF34957ECCD9.quest_subtitle: "에너지 저장"
@@ -6891,8 +6891,8 @@
 		"(가장 렉이 덜한 파이프 솔루션이며, 권장합니다)."
 	]
 	quest.6E05B62A40D5A891.title: "&3&lIntegrated Dynamics"
-	quest.6E0624750DF8CD18.quest_desc: ["이제 더 이상 이것들을 제작할 수 없습니다. 항상 &5네더라이트&r로 상위 버전으로 변환해야 합니다. \\n네, 마법 부여를 저장하고 수리합니다!"]
-	quest.6E0624750DF8CD18.title: "&6올더모듐 도구"
+	quest.6E0624750DF8CD18.quest_desc: ["이제는 직접 제작할 수 없고 항상 &c네더라이트&r 장비를 업그레이드해야 합니다. \\n네, 마법 부여를 유지하고 내구도도 수리해 줍니다!"]
+	quest.6E0624750DF8CD18.title: "&6Allthemodium 도구"
 	quest.6E08D4E6BC3FB99F.quest_desc: ["&5심연꾼&r은 &5가라앉은 도시&r에 살면서 그곳을 지키는 고대 해양 몬스터 종족입니다. 그들은 어부, 짐승, 사제, 그리고 마법사로 이루어진 고유한 등급을 가지고 있습니다.\\n\\n&5심연꾼&r은 가장 기본적이며, 단지 13개의 &4하트&r와 산호 창을 가지고 있습니다.\\n\\n&5심연꾼 어부&r는 그 다음 등급이며, 15개의 &4하트&r를 가지고 있고 &5쏠배감펭&r이 부착된 낚싯대를 들고 있습니다. &5쏠배감펭&r은 당신을 공격하여 독에 걸리게 하며, 6개의 &4하트&r를 가지고 있습니다.\\n\\n&5심연꾼 짐승&r은 60개의 &4하트&r를 가지고 있으며 산호 바르디슈를 들고 물 속에서 당신에게 돌진합니다.\\n\\n&5심연꾼 마법사&f와 &5사제&r는 모두 45개의 &4하트&r를 가지고 있으며 둘 다 의식용 단검을 들고 있습니다. &5사제&r는 사용할 수 있는 원거리 공격을 가지고 있지만, &5마법사&r는 그렇지 않습니다!"]
 	quest.6E08D4E6BC3FB99F.title: "&5심연꾼들&r"
 	quest.6E093D16B12E12B3.quest_subtitle: "초콜릿 채굴 + 땅파기"
@@ -6931,10 +6931,10 @@
 	]
 	quest.6EC289857CDC4969.title: "엔트"
 	quest.6ECDD26CCCBC07C3.quest_desc: [
-		"&5네더라이트&r에서 바로 업그레이드."
+		"&c네더라이트 방어구&r에서 바로 업그레이드하므로 &5마법 부여&r가 유지됩니다. \\n\\n&6Allthemodium&r 풀세트는 방어력 24, 방어 강도 20, 밀치기 저항 50%를 제공합니다. \\n\\n그게 전부가 아닙니다! \\n\\n&6투구&r: &9수중 호흡&r, &3&l워든&r의 &0어둠 효과&r 면역, &7겉날개&r 충돌 피해 무효. \\n&6흉갑&r: &d마법 피해 저항&r 50%와 &c화염 저항&r. \\n&6레깅스&r: &9물갈퀴&r와 &0위더&r 면역. \\n&6부츠&r: 낙하 피해 저항, &b가루눈&r과 &c용암&r 위 보행."
 		"{image:atm:textures/questpics/allthemodium/all_armor_all.png width:100 height:175 align:center}"
 	]
-	quest.6ECDD26CCCBC07C3.title: "&6올더모듐 갑옷"
+	quest.6ECDD26CCCBC07C3.title: "&6Allthemodium 방어구"
 	quest.6ED2CDD01659FD10.quest_desc: ["이 갑옷 세트는 철과 동일한 방어 포인트를 가지지만, 강도와 밀치기 저항 모두에서 더 좋습니다."]
 	quest.6ED2CDD01659FD10.quest_subtitle: "15"
 	quest.6ED2CDD01659FD10.title: "&7압축된 철 갑옷"
@@ -6980,9 +6980,9 @@
 	quest.6F709652A2B88C78.quest_desc: ["에너지 송신기는 작동 범위 내의 블록에 힘을 제공하며, 아래에서만 힘을 받을 수 있습니다."]
 	quest.6F71FD826C29C31A.quest_desc: ["이전 버전에서 돌아온 플레이어에게는 낯선 기능일 수 있습니다. 스포너에 거북 알을 사용하면 해당 몹의 새끼만 생성합니다. 모드 몹은 제외하고 바닐라에 새끼 형태가 있는 몹에만 작동합니다."]
 	quest.6F71FD826C29C31A.title: "새끼 생성"
-	quest.6F76DA3BBAE8337B.quest_desc: ["저희가 &6&l올더모듐&r, &5언옵테이니움&r에서 얻을 수 있는 최고의 갑옷입니다! \\n\\n이제 100% 밀치기 저항과 더 높은 스탯을 모두 갖추었습니다!\\n\\n또한 제작하려면 &3바이브라늄 갑옷&r이 필요합니다."]
+	quest.6F76DA3BBAE8337B.quest_desc: ["&6&lAllthemodium&r 계열에서 얻을 수 있는 최고의 방어구, &5Unobtainium&r입니다! \\n\\n모든 능력치가 더 높고 밀치기 저항은 100%입니다! \\n\\n제작하려면 &3Vibranium 방어구&r가 필요합니다."]
 	quest.6F76DA3BBAE8337B.quest_subtitle: "40"
-	quest.6F76DA3BBAE8337B.title: "&5언옵테이니움 갑옷"
+	quest.6F76DA3BBAE8337B.title: "&5Unobtainium 방어구"
 	quest.6F7AC41B703028CC.quest_subtitle: "은 + 구리"
 	quest.6F7AC41B703028CC.title: "시그날륨 벌"
 	quest.6F978C4D561F35EC.quest_desc: [
@@ -7119,8 +7119,8 @@
 		"- 스투페파이"
 		"- 야간 투시"
 	]
-	quest.7154D73516548149.quest_desc: ["&6&l올더모듐&r은 네더라이트 이후 더 많은 콘텐츠를 추가하기 위해 &6AllTheMods 팀&r에서 특별히 추가한 모드입니다! \\n\\n&6&lATM의 별&r에 필요한 몇 가지 아이템을 얻으려면 모험을 떠나야 합니다.\\n\\n이제 퀘스트 페이지가 있으니 따라갈 수 있습니다!"]
-	quest.7154D73516548149.title: "&l&6올더모듐"
+	quest.7154D73516548149.quest_desc: ["&6&lAllthemodium&r은 네더라이트 이후 더 많은 콘텐츠를 추가하기 위해 &6AllTheMods 팀&r에서 특별히 추가한 모드입니다! \\n\\n&6&lATM의 별&r에 필요한 몇 가지 아이템을 얻으려면 모험을 떠나야 합니다.\\n\\n이제 퀘스트 페이지가 있으니 따라갈 수 있습니다!"]
+	quest.7154D73516548149.title: "&l&6Allthemodium"
 	quest.71581992E8E4C43E.quest_desc: ["&8위더 스켈레톤 해골&r 몇 개와 &d보호 에센스&r를 던져서 &8위더&3 문양&r을 만드세요! \\n\\n만약 작동하지 않는다면 &aEXP&r가 더 필요할 수도 있습니다."]
 	quest.71581992E8E4C43E.title: "&3&8시듦 문양"
 	quest.715B86DC82EA636B.quest_desc: [
@@ -7172,10 +7172,10 @@
 	]
 	quest.71E1454990DEC451.title: "&b정원메기&r"
 	quest.71E4FD61787DE299.quest_desc: [
-		"고대 도시에서만 찾을 수 있는 또 다른 아이템은 &6올더모듐 대장장이 형판&r입니다.\\n\\n얻으려면 수상한 점토를 솔질해야 합니다.\\n\\n고대 도시의 바닥에서 찾을 수 있습니다."
+		"고대 도시에서만 찾을 수 있는 또 다른 아이템은 &6Allthemodium 대장장이 형판&r입니다.\\n\\n수상한 점토를 솔질해서 얻을 수 있습니다.\\n\\n수상한 점토는 고대 도시의 바닥에서 찾을 수 있습니다.\\n"
 		"{image:atm:textures/questpics/allthemodium/all_clay.png width:200 height:100 align:center}"
 	]
-	quest.71E4FD61787DE299.title: "&6올더모듐 대장장이 형판"
+	quest.71E4FD61787DE299.title: "&6Allthemodium 대장장이 형판"
 	quest.71FDF8CD953E46FC.quest_desc: ["퀘스트에 있는 크리에이티브 아이템에 놀라셨나요? 하하하!\\n\\n걱정 마세요. 이 챕터를 완료하는 데 해당 아이템은 필요하지 않아요. 그냥 놀래켜 주고 싶었어요.\\n\\n저는 즐거울 수 있어요 sometimes..."]
 	quest.7208CB011F6E2ACF.quest_desc: ["&l&6범블존&r의 구조물에서 찾거나 &5여왕벌&r과 거래할 수 있습니다! \\n\\n이 어리호박벌 부츠는 정말 놀랍습니다. 담장 달리기나 나무 &6판자, 잎&r과 꿀 블록에서 더 멀리 점프할 수 있습니다. \\n\\n또한 shift 키를 홀드하고 있는 동안 부츠는 당신 아래의 블록을 캡니다."]
 	quest.722978AC0C1B2649.quest_desc: ["무한한 &9물&r을 자동화하기 쉬운 아이템입니다. \\n\\n&9물&r이 더 필요하신가요? 하나 더 만드세요!"]
@@ -7201,7 +7201,7 @@
 	quest.72717D1135486D7F.quest_subtitle: "손 1, 잔디 블록 0"
 	quest.72717D1135486D7F.title: "잔디를 때리세요"
 	quest.7279700A93E8630B.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_unobtainium.png width:100 height:150 align:center}"]
-	quest.7279700A93E8630B.title: "&5언옵테이니움&r"
+	quest.7279700A93E8630B.title: "&5Unobtainium&r"
 	quest.728BE1816DA23DC0.quest_desc: ["엔더 드래곤은 엔드를 지키는 보스입니다.\\n\\n엔드 차원문에 진입하면 엔드 섬에 도착하고 그곳에서 엔더 드래곤이 스폰됩니다.\\n\\n엔더 드래곤은 하트 200개를 가지고 있으며 화염구로 공격하거나 당신에게 돌진할 수 있습니다.\\n\\n엔더 드래곤을 처치하려면 엔드 기둥 위의 수정을 파괴해야 합니다. 수정은 엔더 드래곤을 치유하기 때문입니다!\\n\\n엔더 드래곤을 처치하면 신비로운 라텍스, 에픽 쉐이더 가방, 드래곤 가죽, 두 개의 다른 모드의 드래곤 비늘, 그리고 많은 경험치를 드롭합니다!\\n\\n그러면 차원문이 열리고 오버월드로 돌아갈 수 있습니다. 또는 엔드 관문을 찾아 외부 섬을 탐험할 수도 있습니다. 차원문에서 드래곤 알도 찾을 수 있습니다."]
 	quest.728BE1816DA23DC0.title: "엔더 드래곤 처치"
 	quest.72917C96C322A922.title: "라 비-다 로카"
@@ -7237,9 +7237,9 @@
 	quest.72DB967E59EEA729.quest_desc: ["&3&l글래센셜&r은 목적을 가진 건축물에도 매우 중요한 건축용 모드입니다! \\n이것은 단순한 일반 유리가 아니며, 아이템 위에 마우스를 올리면 읽을 수 있는 능력을 가지고 있습니다!\\n\\n예를 들어, 당신은 걸어 다닐 수 있지만 몹은 걸어 다닐 수 없는 에테르 유리 같은 것이 있습니다. (9sky에서 제 벌집 돔에 사용했습니다!)"]
 	quest.72DB967E59EEA729.title: "&3&l글래센셜&r"
 	quest.72DCE154E1714890.quest_desc: ["&n&5톱&r은 앞에 있는 나무를 수확합니다. 또한 제재소로도 사용할 수 있습니다. 연결된 보관함이 있는 경우 아이템이 그 안에 저장됩니다."]
-	quest.72DDA413D73E3235.quest_desc: ["&6&l올더모듐&r 갑옷, &3바이브라늄&r의 다음 단계로 모든 스탯이 훨씬 더 높습니다! \\n\\n이것을 만들려면 &6올더모듐 갑옷&r이 필요합니다."]
+	quest.72DDA413D73E3235.quest_desc: ["&6&lAllthemodium&r 방어구의 다음 단계인 &3Vibranium&r 방어구는 모든 능력치가 훨씬 높습니다! \\n\\n제작하려면 &6Allthemodium 방어구&r가 필요합니다."]
 	quest.72DDA413D73E3235.quest_subtitle: "32"
-	quest.72DDA413D73E3235.title: "&3바이브라늄 갑옷"
+	quest.72DDA413D73E3235.title: "&3Vibranium 방어구"
 	quest.72E1C19156633391.quest_desc: ["양동이와 탱크는 초반에 용암을 옮기기 좋은 수단입니다."]
 	quest.72E1C19156633391.title: "용암 양동이"
 	quest.72EA25D05C46D39A.quest_desc: ["&9Integerated Dynamics&r는 단순한 전력 저장 시스템을 제공합니다. 배터리는 제작대에서 결합하여 전체 저장 용량을 늘릴 수 있습니다!"]
@@ -7439,8 +7439,8 @@
 	quest.761D21C6FBD13EE1.quest_subtitle: "다이아몬드 벌에게 페리도트를 먹이세요"
 	quest.761D21C6FBD13EE1.title: "페리도트 벌"
 	quest.762581CAE5F5DDC1.quest_desc: [
-		"마법 모드라니 얼마나 화려한가! &d&lArs Nouveau&r는 &5언옵테이니움&r과 &6올더모듐&r을 함께 제작하는 데 사용할 모드입니다! \\n\\n마법 부여 장치는 현재 여기에서 많은 제작법에 사용되는 멀티블록입니다. 아케인 코어로 시작한 다음 그 위에 마법 부여 장치를 놓으세요. 다음으로, 마법 부여 장치 주변에 받침대를 같은 Y 레벨로 놓으세요.\\n\\n그런 다음 아이템을 아무 순서로나 받침대 위에 놓고, 주변에 마나의 근원을 둔 다음, 마나 보석을 장치에 넣으면 시작됩니다! 그러면 &5언옵테이니움&r-&6올더모듐&r 합금 주괴를 제작할 수 있습니다!"
-		"{ \"text\": \"ARS NOUVEAU QUESTLINE\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
+		"마법 모드라니 멋지네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 &6Allthemodium&r을 결합합니다! \\n\\n마법 부여 장치는 여러 제작법에 쓰이는 멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 놓고, 같은 Y 높이의 주변에 받침대를 배치하세요. \\n\\n받침대에 아이템을 순서와 관계없이 올리고 주변에 근원을 준비한 뒤, 장치에 근원 보석을 놓으면 제작이 시작됩니다! 그러면 &5Unobtainium&r-&6Allthemodium&r 합금 주괴가 완성됩니다!\\n"
+		"{ \"text\": \"Ars Nouveau 퀘스트\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
 	]
 	quest.762B8309E1A31B99.quest_desc: ["각 상위 버전으로 변환 시 +0.5 방어와 +1 갑옷 강도가 추가됩니다."]
 	quest.762B8309E1A31B99.quest_subtitle: "최대: 4"
@@ -7457,7 +7457,7 @@
 	quest.7655E1C6C5E5469F.title: "&2프루덴튬 성장 가속기"
 	quest.7658C1C663394E85.quest_desc: ["ATM에는 유용한 명령어가 많습니다. 그중 몇 가지를 소개합니다.\\n\\n&e/sethome&r (집 이름) | 나중에 /home (집 이름)으로 돌아올 수 있는 집을 설정합니다. 예: /sethome farm으로 설정한 뒤 /home farm으로 순간이동할 수 있습니다.\\n\\n&e/spawn&r | 오버월드의 스폰 지점으로 순간이동합니다.\\n\\n&e/rtp&r | 'Random Teleport'의 약자로, 월드의 무작위 위치로 순간이동합니다.\\n\\n참고: 이 명령어에는 재사용 대기시간과 사용 제한이 있습니다. 다음 위치의 설정 파일에서 변경할 수 있습니다.\\n\\n - 싱글 플레이 | &osaves/(월드 이름)/serverconfig/ftbessentials.snbt&r\\n\\n - 서버 | &oworld/serverconfig/ftbessentials.snbt&r"]
 	quest.766C80E5D7B7A916.quest_subtitle: "하나 고르세요!"
-	quest.766EEB89C6DF3575.quest_desc: ["이터널 스텔라는 대장장이 작업대에서 아이템과 조합하여 아이템을 부서지지 않게 만들거나, 합금 도구를 제작하는 데 사용할 수 있습니다! \\n\\n먼저, 재료가 충분히 들어 있는 3티어 forge가 필요합니다. \\n\\n다음으로, 3개의 xpetrified orbs가 필요합니다. 이것을 얻으려면 블랙홀에 아이템을 공급해야 합니다. \\n\\n게다가, 스텔라라이트 조각은 광산에서 채굴해야 합니다! 그리고 &6올더모듐 주괴&r도 마찬가지입니다."]
+	quest.766EEB89C6DF3575.quest_desc: ["이터널 스텔라는 대장장이 작업대에서 아이템과 결합해 파괴 불가로 만들거나 합금 도구를 제작할 때 사용합니다! \\n\\n먼저 재료가 충분한 3티어 헤파에스토스 대장간이 필요합니다. \\n\\n그다음 블랙홀에 아이템을 먹여 얻는 엑스페트리파이드 오브 3개가 필요합니다. \\n\\n채굴해서 얻는 스텔라라이트 조각과 &6Allthemodium 주괴&r도 준비하세요!"]
 	quest.7671AFAA1EFD287F.quest_desc: ["당신은 당신의 &6&lForge&r를 위해 &b오렐&r을 천천히 자동화하고 싶으신가요? 그렇다면 &b아케인 크리스탈 블록&r 2개, &6아케인 연마된 다크스톤&r, 그리고 &c문다비투르 가루&r가 필요합니다! \\n\\n&6아케인 연마된 다크스톤&r을 내려놓고 그 위에 &b아케인 크리스탈 블록&r을 모두 놓으세요.\\n\\n이 1x3x1 구조물을 얻으면 &c문다비투르 가루&r를 들고 우클릭하여 &b오벨리스크&r를 만드세요!\\n\\n&6&lForge 멀티블록&r에서 받침대가 보통 놓이는 위치에 이것들을 놓아 &b오렐&r을 자동화할 수 있습니다!"]
 	quest.7671AFAA1EFD287F.title: "&b아케인 크리스탈 오벨리스크"
 	quest.7678B5DD1339833E.quest_desc: ["태양광 패널은 태양에 직접 액세스할 수 있을 때 FE를 생성합니다. 하지만 &7엔더 렌즈&r를 사용하여 방해하는 블록을 무시할 수 있습니다."]
@@ -7518,7 +7518,7 @@
 	quest.777BB82B56038ED3.title: "최대치 &4&l모르간"
 	quest.779CA0C49F93C4F9.quest_subtitle: "흑요석 59,049개"
 	quest.77AD61FCA9BC9AFB.quest_desc: ["14개의 주문 슬롯!"]
-	quest.77AD61FCA9BC9AFB.title: "&3바이브라늄 주문서"
+	quest.77AD61FCA9BC9AFB.title: "&3Vibranium 주문서"
 	quest.77B5B23A2C01ED7E.quest_desc: ["&9키네티케이터&r는 아이템과 경험치를 위한 자석처럼 작동합니다.\\n\\n&e리버스 키네티케이터&r는 대신 아이템과 경험치를 밀어냅니다."]
 	quest.77B5B23A2C01ED7E.quest_subtitle: "자석"
 	quest.77B5B23A2C01ED7E.title: "키네티케이터"
@@ -7619,7 +7619,7 @@
 	quest.7953C87C488A2AF7.quest_desc: ["아이언 맨처럼 날 수 있습니다.\\n\\n부츠에는 이러한 상위 버전으로 변환을 한 번에 한 레벨만 적용할 수 있습니다. 각 레벨은 이전 레벨보다 더 많은 압력을 사용합니다.\\n\\n이러한 업그레이드를 제작만 하지 말고 사용하세요."]
 	quest.7953C87C488A2AF7.quest_subtitle: "최대: 1"
 	quest.795A860668072830.quest_desc: ["{image:atm:textures/questpics/allthemodium/all_armor_vibarcane.png width:100 height:175 align:center}"]
-	quest.795A860668072830.title: "&3바이브라늄 비전술사 갑옷"
+	quest.795A860668072830.title: "&3Vibranium 비전술사 방어구"
 	quest.795FA102F6577368.quest_desc: ["&4&l모르간&r을 얻으려면 &e&l칼리번&r으로 애완견을 죽여야 합니다.\\n\\n또한 &e&l칼리번&r의 고유 한계치는 &4&l모르간&r의 고유 한계치가 됩니다.\\n\\n행운을 빌어요!"]
 	quest.795FA102F6577368.title: "&4&l모르간 획득"
 	quest.7975C7145572C438.quest_desc: ["모드 Minecraft의 숙련자든 완전한 초보자든, 누구나 &2나무 곡괭이&r부터 만들어야 합니다.\\n\\n곡괭이는 대부분의 돌과 금속 블록을 캘 수 있습니다. 나무 곡괭이는 오래 버티지 못하니, 우선 &3조약돌&r을 모으세요!"]
@@ -7756,8 +7756,8 @@
 	quest.7B2008977702D0C8.quest_desc: ["공기 압축기에서 압력을 생성할 때, 압력이 빠져나갈 곳이 없다면 그냥 사라집니다. 압력을 만들기 전에 압력이 빠져나갈 곳이 있는지 확인하세요."]
 	quest.7B2008977702D0C8.quest_subtitle: "RF나 FE는 어떻게 된 거죠?"
 	quest.7B3613C01F0B1373.quest_desc: [
-		"&3바이브라늄&r과 &6올더모듐&r을 결합하려면 &l&c파와&r에 도전해야 합니다! \\n\\n에너자이징 오브를 놓고 에너자이징 막대를 마주보게 놓으세요. 에너자이징 막대는 파워 근원에 놓여야 하며 오브에 에너지를 보냅니다. 각 막대가 보유하고 보내는 양은 티어에 따라 결정됩니다.\\n\\n주괴, 피글리치 하트 2개, 압축된 니트로 수정 블록 X1을 오브에 넣으세요(순서는 상관없음). 그런 다음 막대를 통해 10억 FE가 오브에 들어가면 준비가 완료됩니다!"
-		"{ \"text\": \"POWAH QUESTLINE\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }"
+		"&3Vibranium&r과 &6Allthemodium&r을 결합하려면 &l&cPowah&r의 에너자이징 오브가 필요합니다! \\n\\n에너자이징 오브를 놓고 에너자이징 막대가 오브를 향하게 배치하세요. 막대는 전력원 위에 놓아야 하며, 등급에 따라 저장하고 전송하는 에너지양이 달라집니다. \\n\\n주괴, 피글리치 심장 2개, 압축 니트로 수정 블록 X1을 오브에 넣으세요. 순서는 상관없습니다. 막대를 통해 1 Billion FE를 공급하면 완성됩니다!\\n"
+		"{ \"text\": \"Powah 퀘스트\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }"
 	]
 	quest.7B3920DE6306A94A.quest_subtitle: "만다린 + 금귤"
 	quest.7B40A9DAA119DE59.quest_subtitle: "결정질 + 네온 뻐꾸기 시계"
@@ -7844,7 +7844,7 @@
 	quest.7CBEBBCB9D95D11A.title: "심연의 알"
 	quest.7CC49360D07086B8.quest_desc: ["이 아이템은 무선 전송을 가능하게 합니다.\\n\\n특정 채널을 설정하여 원하는 것을 전송할 수 있습니다. 채널 이름은 사용자가 지정할 수 있습니다."]
 	quest.7CC49360D07086B8.quest_subtitle: "무선 전력, 기체, 액체, 모든 것."
-	quest.7CC96CE9901F25BB.quest_desc: ["&l&5포비든 앤 아케이너스&r는 또 다른 마법이 걸린 모드이며, 헤파에스토스 용광로라는 멀티블록 구조체를 중심으로 진행됩니다.\\n\\n용광로의 툴팁에 있는 설명에 따라 만드세요! 일단 만들면 의식에 힘을 실어줄 4가지 재료인 오렐, 영혼, 피, 경험치를 공급할 수 있습니다.\\n\\n또한 의식을 통해 Forge를 업그레이드해야 합니다(이 모든 것은 JEI에서 찾을 수 있습니다)."]
+	quest.7CC96CE9901F25BB.quest_desc: ["&l&5Forbidden and Arcanus&r는 헤파에스토스 대장간이라는 멀티블록을 중심으로 하는 마법 모드입니다.\\n\\n대장간 툴팁의 설명에 따라 건설하세요! 완성하면 의식에 필요한 오렐, 영혼, 피, 경험치의 4가지 자원을 공급할 수 있습니다.\\n\\n의식을 통해 대장간도 업그레이드해야 합니다. 필요한 정보는 JEI에서 확인할 수 있습니다."]
 	quest.7CE86300AF8E9BCA.quest_desc: ["같은 종류의 발전기 8개를 메아리 조각과 함께 제작하면 1개의 거대한 발전기로 합쳐집니다! 일반 발전기 8개와 똑같이 작동하지만 공간은 1개만 차지합니다."]
 	quest.7CE86300AF8E9BCA.title: "8배! 훌륭한 거래군요!"
 	quest.7CF13A4941F608E5.quest_desc: ["일반 유리부터 유리판, 심지어 모자이크까지!"]
@@ -7884,10 +7884,10 @@
 	quest.7DAED14CEC4CDA51.quest_desc: ["&a자연의 오라&r는 &a오라&r를 사용하고 보충하는 마법 모드입니다. 이 퀘스트에서는 몇 가지 기본 사항을 다룰 것입니다.\\n\\n시작하려면 &e금 조각&r, &a잎&r 및 &a잔디&r로 만들어지는 &e빛나는 섬유&r를 만드세요. &e빛나는 섬유&r를 들고 잎을 우클릭하면 &e황금 잎&r으로 바뀝니다.\\n\\n&a자연 오라의 책&r을 꼭 읽어보세요. 이 책을 사용하여 &a자연의 오라&r에서 멀티블록을 만드는 방법도 확인할 수 있습니다."]
 	quest.7DAED14CEC4CDA51.title: "&e&aNature's Aura에 오신 것을 환영합니다."
 	quest.7DE2154159D273C3.quest_desc: [
-		"&6올더모듐&r으로 바로 상위 버전으로 변환."
+		"&3Vibranium 방어구&r는 &6Allthemodium 방어구&r의 업그레이드입니다. \\n\\n모든 능력치가 높아져 방어력 32, 방어 강도 36, 밀치기 저항 80%를 제공합니다. \\n\\n새로운 효과나 능력은 없지만 &d마법 피해 저항&r이 75%로 높아집니다!"
 		"{image:atm:textures/questpics/allthemodium/all_armor_vib.png width:100 height:175 align:center}"
 	]
-	quest.7DE2154159D273C3.title: "&3바이브라늄 갑옷"
+	quest.7DE2154159D273C3.title: "&3Vibranium 방어구"
 	quest.7DFF18CFEB0B8DBE.quest_desc: ["가능한 한 빨리 &a인페리움&r을 그로우 시작하는 것이 좋습니다!\\n\\n이러한 시드를 그로우하는 데 필수는 아니지만, 시드의 그로우 속도(특히 인페리움 시드)를 증가시키는 &e에센스 농지&r를 생성할 수도 있습니다. 그러나 특정 시드는 특정 농지에 심어야 합니다."]
 	quest.7DFF18CFEB0B8DBE.title: "&a인퍼륨 경작지"
 	quest.7E07C5A6FA6B6B1F.quest_desc: [
@@ -8061,11 +8061,11 @@
 	task.030FFC7C0532E7B2.title: "꿀 슬라임 3마리 처치"
 	task.036759CF4EEFFC7D.title: "AllRightsReserved"
 	task.03982D782B426ABB.title: "AllRightsReserved"
-	task.03ACF4486D706DEE.title: "바이브라늄 갑옷"
+	task.03ACF4486D706DEE.title: "Vibranium 방어구"
 	task.03AE084C781CBA31.title: "궤도 키트"
 	task.04048BE5351DB782.title: "탐험 모드 다이아몬드 검"
 	task.0427B441A750316F.title: "금 상자"
-	task.05256FE880D981D5.title: "바이브라늄 도구"
+	task.05256FE880D981D5.title: "Vibranium 도구"
 	task.064B1841F9288CC3.title: "블록"
 	task.06F2EC3901908BF1.title: "플라스틱 건설 벽돌"
 	task.073D1C45B3018BBA.title: "상자"
@@ -8085,7 +8085,7 @@
 	task.0B7F934439806558.title: "AllRightsReserved"
 	task.0BAEC53DD32C9870.title: "프로덕티브 트리 통나무"
 	task.0BD1BA7949BB5855.title: "기계식 피스톤"
-	task.0BFAF56214875C90.title: "올더모듐 마법사 갑옷"
+	task.0BFAF56214875C90.title: "Allthemodium 마법사 방어구"
 	task.0C92F7E44100B2BA.title: "터튬 도구"
 	task.0CA0B32D52395A39.title: "판자"
 	task.0CD67A3D64E9B49B.title: "장식 전선"
@@ -8093,7 +8093,7 @@
 	task.0D5203048B6E068C.title: "갇힌 주민 상인 카펫"
 	task.0D7C60D7BFBD8CF0.title: "AllRightsReserved"
 	task.0E6876A34D1975EB.title: "AllRightsReserved"
-	task.0E7E336483AFA69C.title: "비브라늄 마법사 갑옷"
+	task.0E7E336483AFA69C.title: "Vibranium 마법사 방어구"
 	task.0E7EAD7D7DF5E7C3.title: "AllRightsReserved"
 	task.0EBE231AB868C868.title: "블록"
 	task.0EE813C344409F59.title: "초"
@@ -8129,7 +8129,7 @@
 	task.1869893A4F8E9E9C.title: "광물 망치"
 	task.1884D3DA3CCC1439.title: "AllRightsReserved"
 	task.18DA9065596F9097.title: "모드가 적용된 금속 철 곡괭이"
-	task.194C02E800F974D6.title: "바이브라늄 비전술사 갑옷"
+	task.194C02E800F974D6.title: "Vibranium 비전술사 방어구"
 	task.195338A3977C682E.title: "신비농업 블록"
 	task.1960B985B54B9FBD.title: "전력 케이블"
 	task.19931057AAC1A03A.title: "AllRightsReserved"
@@ -8184,7 +8184,7 @@
 	task.2962DF63EE602AD6.title: "Mekanism 철 곡괭이"
 	task.298EA976A7627731.title: "고대 도시를 찾으세요"
 	task.2A2D77813F3127A6.title: "레일"
-	task.2A7CD3F14D3DC7C5.title: "언옵테이니움 갑옷"
+	task.2A7CD3F14D3DC7C5.title: "Unobtainium 방어구"
 	task.2BA7FC10243AA011.title: "가압 튜브"
 	task.2BC0F5A88E2F03C3.title: "아치나무 통나무"
 	task.2BECEC3EFA8F6DA3.title: "금이 간 돌"
@@ -8195,7 +8195,7 @@
 	task.2D0212699F99459F.title: "첫 번째 네트워크"
 	task.2DA0BD7B2834A560.title: "위더프루프 블록"
 	task.2E04D0F6EEABE677.title: "서랍"
-	task.2E3BC536B8A9FD91.title: "언옵테늄 마법사 갑옷"
+	task.2E3BC536B8A9FD91.title: "Unobtainium 마법사 방어구"
 	task.2E49798B39BAA192.title: "태양열 발전"
 	task.2E92D23F149C142D.title: "금 간 금속"
 	task.2E97226C40818239.title: "꽃"
@@ -8272,7 +8272,7 @@
 	task.40A7CC56DACC2623.title: "ME 유리 케이블"
 	task.40B245AFD0DAB3A0.title: "레일크래프트 유리"
 	task.40B39896B6CD41C6.title: "갑옷"
-	task.40C43560F454AD82.title: "올더모듐 도구"
+	task.40C43560F454AD82.title: "Allthemodium 도구"
 	task.41602F0D9097E74F.title: "금이 간 테라코타"
 	task.41910A3BC6C0E838.title: "프루덴티움 도구"
 	task.41EEE559F6402D81.title: "크리에이티브 모듈"
@@ -8290,7 +8290,7 @@
 	task.452B65E139D9E12D.title: "와일든 키메라 1마리 처치"
 	task.46905D1E23255397.title: "마카우의 유리창"
 	task.46B42667B6BC1A3C.title: "네더 방문하기"
-	task.4709938E0FDCE0FB.title: "올더모듐 갑옷"
+	task.4709938E0FDCE0FB.title: "Allthemodium 방어구"
 	task.471F062B01D0DDA1.title: "채석기 꿀벌"
 	task.47A1F59A538E3C4B.title: "건축 도구"
 	task.484375E0BC0F9177.title: "우리 친구들의 건축물"
@@ -8370,15 +8370,15 @@
 	task.6038387EA35404CD.title: "막대기로 제작"
 	task.603A16080675C348.title: "AllRightsReserved"
 	task.6047113DC2263E46.title: "목재 벌"
-	task.614C3310C61487CB.title: "언옵테늄 비전술사 갑옷"
+	task.614C3310C61487CB.title: "Unobtainium 비전술사 방어구"
 	task.616C07AFBAFA7AE4.title: "괭이"
 	task.61D93B13D496547D.title: "유체 저장소"
-	task.61E3800DF5D25567.title: "올더모듐 비전술사 갑옷"
+	task.61E3800DF5D25567.title: "Allthemodium 비전술사 방어구"
 	task.61FFB3326113FE18.title: "오 더 바이옴스 위브 곤 나무"
 	task.6205B6B93B306A12.title: "상자들"
 	task.624ADD79136376C0.title: "XyCraft 세계 아이템"
 	task.62F11A588B293CA6.title: "AllRightsReserved"
-	task.6304FF8A9E8957FE.title: "언옵테이니움 도구"
+	task.6304FF8A9E8957FE.title: "Unobtainium 도구"
 	task.631388151555159B.title: "발신기 모듈"
 	task.63EB4BCA531A9F2A.title: "탐험 모드 네더라이트 곡괭이"
 	task.64248C6FBC867D56.title: "노마드 벌"
@@ -8386,7 +8386,7 @@
 	task.646B54EB48AFB6A4.title: "벌 종류 10마리 처치"
 	task.64EAD3DE84E94F02.title: "ME 차폐 케이블"
 	task.64FADC78A8AD3FE4.title: "씨앗"
-	task.6514595CBD4DE6C6.title: "더 비욘드 방문하기"
+	task.6514595CBD4DE6C6.title: "The Beyond 방문하기"
 	task.653ED58A9B65C796.title: "쇠지렛대"
 	task.65C439FD14C5EEB9.title: "휴대용 저장소"
 	task.65D52E6A67DD11EB.title: "원심분리기"
@@ -8409,7 +8409,7 @@
 	task.6A4FADC04E1C9DA7.title: "증기 보일러 탱크"
 	task.6A965CD027BF762F.title: "AllRightsReserved"
 	task.6AA335ED81844F9F.title: "AllRightsReserved"
-	task.6AE0DA6AB109A840.title: "채석됨"
+	task.6AE0DA6AB109A840.title: "채석기 사용"
 	task.6B17A0D9906E8C90.title: "AllRightsReserved"
 	task.6B580F95A2E5A465.title: "AllRightsReserved"
 	task.6B772FA03562537D.title: "Y 레벨 1로 이동"
