@@ -339,6 +339,10 @@ DATA_ONLY = {
 }
 
 METALWORKS = {
+    "item.sgearmetalworks.helmet_cast": "투구 주형",
+    "item.sgearmetalworks.ring_cast": "반지 주형",
+    "item.sgearmetalworks.slingshot_cast": "새총 주형",
+    "item.sgearmetalworks.tool_rod_cast": "도구 자루 주형",
     "tooltip.sgearmetalworks.blueprint": "모든 금속 및 보석 도구 부품은 Productive Metalworks의 주조 공장에서 주조해야 합니다.",
 }
 
