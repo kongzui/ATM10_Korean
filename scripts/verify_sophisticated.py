@@ -22,6 +22,11 @@ ALLOWED_IDENTICAL_KEYS = {
     "item.sophisticatedcore.storage.tooltip.energy",
     "item.sophisticatedcore.storage.tooltip.fluid",
     "key.category.sophisticatedcore.main",
+    "itemGroup.sophisticatedbackpacks",
+    "key.category.sophisticatedbackpacks.main",
+    "gui.sophisticatedbackpacks.upgrades.refill.target_slot.any",
+    "gui.sophisticatedbackpacks.upgrades.refill.target_slot.main_hand",
+    "gui.sophisticatedbackpacks.upgrades.refill.target_slot.off_hand",
 }
 
 
