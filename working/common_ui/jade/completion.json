@@ -1,0 +1,33 @@
+{
+  "group": "Jade",
+  "status": "complete",
+  "installed_sources": [
+    {
+      "jar": "Jade-1.21.1-NeoForge-15.10.5.jar",
+      "namespace": "jade",
+      "keys": 410,
+      "source_korean_keys": 310
+    }
+  ],
+  "counts": {
+    "existing_korean_reused": 325,
+    "existing_korean_corrected": 85,
+    "newly_translated": 0,
+    "output_keys": 410
+  },
+  "related_scope": {
+    "owned_text": "Jade·Minecraft 플러그인 UI, 설정, 상태 표시와 접근성 문구 전체 검수",
+    "other_mod_plugins": "다른 모드가 소유한 아이템명·상태 문구는 해당 모드 범위로 유지",
+    "ftb_quests": "jade 네임스페이스·아이템 참조 없음",
+    "kubejs": "jade 네임스페이스·직접 UI 문구 없음",
+    "advancements_and_guides": "Jade 직접 관련 대상 없음"
+  },
+  "validation": {
+    "json": "passed",
+    "key_order_and_types": "passed",
+    "placeholders": "passed",
+    "format_codes": "passed",
+    "line_breaks": "passed",
+    "utf8_bom": false
+  }
+}
