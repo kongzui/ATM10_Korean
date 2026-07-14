@@ -1,0 +1,35 @@
+{
+  "jar": "productivetrees-1.21.1-1.0.0.jar",
+  "language_keys": 4149,
+  "tree_bases": 163,
+  "intentional_original_bases": [
+    "Beliy Naliv Apple",
+    "Black Ember",
+    "Blue Yonder",
+    "Brown Amber",
+    "Cave Dweller",
+    "Firecracker",
+    "Flickering Sun",
+    "Foggy Blast",
+    "Golden Delicious Apple",
+    "Luck",
+    "Moonlight Magic Crepe Myrtle",
+    "Planet Peach",
+    "Purple Spiral",
+    "Red Delicious Apple",
+    "Rippling Willow",
+    "Slimy Delight",
+    "Soul Tree",
+    "Sparkle Cherry",
+    "Thunder Bolt",
+    "Time Traveller",
+    "Water Wonder"
+  ],
+  "guide_files": 13,
+  "quests": {
+    "display_keys": 185,
+    "existing": 184,
+    "new": 1,
+    "related_keys": 5
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "원목 박피기",
+  "icon": "productivetrees:stripper",
+  "category": "productivetrees:stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivetrees:stripper",
+      "text": "나무 껍질을 벗긴 채로 벗겨냅니다. 작동하려면 도끼가 필요합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivetrees:stripper",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "scope": "Productive Trees family completion",
+  "language": {
+    "keys": 4149,
+    "translated": 3983,
+    "scientific_names_preserved": 163,
+    "intentional_original": 3,
+    "name_collisions": 0
+  },
+  "generation_rules": {
+    "tree_bases": 163,
+    "unique_korean_bases": 163,
+    "generated_block_keys_checked": 3350,
+    "exception_block_keys_classified": 417,
+    "intentional_original_bases": 21,
+    "intentional_original_generated_keys": 412
+  },
+  "guide": {
+    "files": 13,
+    "display_fields": 35,
+    "translated": 31
+  },
+  "related_content": {
+    "advancements": {
+      "files_checked": 2843,
+      "translation_keys_checked": 0,
+      "literal_display_fields": 0,
+      "missing": 0
+    },
+    "data_rules": {
+      "pollination_recipes": 148,
+      "sawmill_recipes": 173,
+      "productive_bees_hive_recipes": 324,
+      "display_literals": 0
+    }
+  },
+  "kubejs": {
+    "files_referencing_family": 9,
+    "referenced_files": [
+      "assets/emi/index/stacks/removals.json",
+      "data/the_bumblezone/bz_bee_queen_trades/productivetrees/exchange.json",
+      "server_scripts/Tweaks/recipes_fix.js",
+      "server_scripts/Unification/sawing.js",
+      "server_scripts/modpack/att_items.js",
+      "server_scripts/mods/MysticalAgriculture/Recipes.js",
+      "server_scripts/mods/The Bumblezone/Tags.js",
+      "server_scripts/mods/modular_machinery/recipes/atm/general.js",
+      "server_scripts/mods/modular_machinery/recipes/atm/multiblock_parts.js"
+    ],
+    "translated_literals": 0,
+    "unresolved_display_literals": 0
+  },
+  "ftbquests": {
+    "chapter": "productive_trees.snbt",
+    "quests_checked": 167,
+    "tasks_checked": 168,
+    "display_keys_checked": 185,
+    "explicit_task_titles_checked": 4,
+    "custom_names": 0,
+    "redundant_single_item_task_titles": 0,
+    "related_display_keys_checked": 5,
+    "related_tasks_outside_chapter_checked": 3,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp\\backups\\20260714_232634_071120\\backup_manifest.json",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/categories/guide.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/categories/stuff.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/categories/treetap.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/categories/treetap_missing.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/guide/start.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/stuff/pollen.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/stuff/pollen_sieve.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/stuff/pollen_sifter.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/stuff/sawmill.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/stuff/stripper.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/treetap/date_palm_juice.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/treetap/maple_syrup.json",
+      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/treetap_missing/missing.json"
+    ],
+    "hash_matches": 15,
+    "unexpected_changes": []
+  },
+  "remaining": 0,
+  "errors": [],
+  "status": "complete"
+}

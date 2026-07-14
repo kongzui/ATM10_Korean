@@ -1,0 +1,18 @@
+{
+  "name": "꽃가루 체",
+  "icon": "productivetrees:pollen_sifter",
+  "category": "productivetrees:stuff",
+  "flag": "!mod:productivebees",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivetrees:pollen_sifter",
+      "text": "잎에서 꽃가루를 추출합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivetrees:pollen_sifter",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "제재소",
+  "icon": "productivetrees:sawmill",
+  "category": "productivetrees:stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivetrees:sawmill",
+      "text": "나무를 자르고..."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivetrees:sawmill",
+      "text": ""
+    }
+  ]
+}

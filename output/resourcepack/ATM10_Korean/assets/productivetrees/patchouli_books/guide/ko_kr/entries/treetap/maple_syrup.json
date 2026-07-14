@@ -1,0 +1,18 @@
+{
+  "name": "메이플 시럽",
+  "icon": "productivetrees:maple_syrup",
+  "category": "productivetrees:treetap",
+  "flag": "mod:treetap",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivetrees:maple_sap_bucket",
+      "text": "단풍나무 수액은 설탕단풍나무에서 추출할 수 있습니다."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "productivetrees:maple_syrup",
+      "text": "단풍나무 수액은 메이플 시럽, 맛있고 맛있는 메이플 시럽을 만듭니다."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "시작하기",
+  "icon": "minecraft:writable_book",
+  "category": "productivetrees:guide",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "flag": "mod:productivebees",
+      "text": "벌 근처에 나무 한 그루를 다른 나무 옆에 놓으면 이익이 됩니다.$(br)벌통을 시뮬레이션할 수 있으며 범위 업그레이드는 업그레이드당 작업 영역을 2블록씩 늘립니다. 기본 범위는 4.$(br2)이 모드는 베타 버전이며 기능이 완전하지 않습니다.$(br)특히 나무의 성장 기능(자랄 때 보이는 모습)은 개발 중입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "!mod:productivebees",
+      "text": "벌 근처에 있는 다른 나무 옆에 나무 한 그루를 놓으면 이익이 됩니다.$(br)잎을 모아 꽃가루 체로 통과시켜 꽃가루를 추출할 수도 있습니다. 나뭇잎에 있는 꽃가루 공을 사용하여 수분을 공급하고 새로운 나무 종을 얻으세요.$(br2)이 모드는 베타 버전이며 기능이 완벽하지 않습니다.$(br1)특히 나무의 성장 기능(자랄 때 모양)은 개발 중입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "!mod:productivebees",
+      "text": "꿀벌을 사용하는 경우 번식하려는 두 나무의 잎이 벌집/벌집의 4블록 내에 있고 꿀벌 근처에 꽃이 있는지 확인해야 합니다. 꽃에서 벌집으로 이동할 때마다 근처 나뭇잎에 수분이 시도됩니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:spyglass",
+      "text": "망원경을 사용하면 어떤 잎이 수분되었는지 더 잘 확인할 수 있습니다."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "대추야자 수액",
+  "icon": "productivetrees:date_palm_juice",
+  "category": "productivetrees:treetap",
+  "flag": "mod:treetap",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivetrees:date_palm_juice",
+      "text": "날짜 팜에는 육즙이 많은 줄기가 있으니 활용하세요."
+    }
+  ]
+}

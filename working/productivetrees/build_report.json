@@ -1,0 +1,19 @@
+{
+  "scope": "Productive Trees family",
+  "jar": "productivetrees-1.21.1-1.0.0.jar",
+  "language": {
+    "english_keys": 4149,
+    "existing_korean_reused": 0,
+    "existing_korean_corrected": 0,
+    "newly_translated": 4149
+  },
+  "guide_files": 13,
+  "ftbquests": {
+    "chapter": "productive_trees",
+    "display_keys": 185,
+    "existing_korean_reused": 60,
+    "existing_korean_corrected": 124,
+    "newly_translated": 1,
+    "related_keys": 5
+  }
+}
