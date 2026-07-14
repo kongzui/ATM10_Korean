@@ -283,23 +283,96 @@ task,65D6DA1FFF0EEF80,12AD9789D962B179,apothic_enchanting.snbt,,,,minecraft:hone
 task,24949068EC6DAD83,12AD9789D962B179,apothic_enchanting.snbt,,,엉성한 엔더 끈,apothic_enchanting:flimsy_ender_lead,,명시적 task.title 없이 아이템 hover 사용,
 task,75251BD315DE1E50,12AD9789D962B179,apothic_enchanting.snbt,,,엔더 끈,apothic_enchanting:ender_lead,,명시적 task.title 없이 아이템 hover 사용,
 task,565FEFC8EDC85C13,12AD9789D962B179,apothic_enchanting.snbt,,,오컬트 엔더 끈,apothic_enchanting:occult_ender_lead,,명시적 task.title 없이 아이템 hover 사용,
+task,29C4195E8366DBDD,07210DDF872160BA,applied_energistics_2.snbt,,,충전기,ae2:charger,충전기,명시적 task.title 없이 아이템 hover 사용,충전기
+task,1F40760C2108BA36,07210DDF872160BA,applied_energistics_2.snbt,,,회로 인쇄기,ae2:inscriber,회로 인쇄기,명시적 task.title 없이 아이템 hover 사용,회로 인쇄기
+task,4D57E005D20BEDB9,07210DDF872160BA,applied_energistics_2.snbt,,,운석 탐지기,ae2:meteorite_compass,운석 탐지기,명시적 task.title 없이 아이템 hover 사용,운석 탐지기
+task,5B4DDF66C36AF356,07210DDF872160BA,applied_energistics_2.snbt,,,에너지 수용기,ae2:energy_acceptor,에너지 수용기,명시적 task.title 없이 아이템 hover 사용,에너지 수용기
 quest,037488EF1F3581CE,07210DDF872160BA,applied_energistics_2.snbt,,,에너지 셀,ae2:energy_cell,에너지 셀,설명은 있으나 명시적 quest.title 없음,에너지 셀
-task,1ED54F5BAE0FADE8,07210DDF872160BA,applied_energistics_2.snbt,,,1M MEGA Storage Component,megacells:cell_component_1m,,명시적 task.title 없이 아이템 hover 사용,
-task,40B37486AA9DD419,07210DDF872160BA,applied_energistics_2.snbt,,,4M MEGA Storage Component,megacells:cell_component_4m,,명시적 task.title 없이 아이템 hover 사용,
-task,6E2955EC62EA1E37,07210DDF872160BA,applied_energistics_2.snbt,,,16M MEGA Storage Component,megacells:cell_component_16m,,명시적 task.title 없이 아이템 hover 사용,
-task,12DED6DF890F4A1A,07210DDF872160BA,applied_energistics_2.snbt,,,64M MEGA Storage Component,megacells:cell_component_64m,,명시적 task.title 없이 아이템 hover 사용,
-task,13AA316EA6E8CA30,07210DDF872160BA,applied_energistics_2.snbt,,,256M MEGA Storage Component,megacells:cell_component_256m,,명시적 task.title 없이 아이템 hover 사용,
+task,660FEBB8BF6EF1A1,07210DDF872160BA,applied_energistics_2.snbt,,,에너지 셀,ae2:energy_cell,에너지 셀,명시적 task.title 없이 아이템 hover 사용,에너지 셀
+task,1DCF3545FC683DA8,07210DDF872160BA,applied_energistics_2.snbt,,,조밀한 에너지 셀,ae2:dense_energy_cell,조밀한 에너지 셀,명시적 task.title 없이 아이템 hover 사용,조밀한 에너지 셀
+task,42C1EB9094F67B62,07210DDF872160BA,applied_energistics_2.snbt,,,에너지 카드,ae2:energy_card,에너지 카드,명시적 task.title 없이 아이템 hover 사용,에너지 카드
+task,2B6D34E0CD1999C9,07210DDF872160BA,applied_energistics_2.snbt,,,논리 프로세서,ae2:logic_processor,논리 프로세서,명시적 task.title 없이 아이템 hover 사용,논리 프로세서
+task,54C120660252682A,07210DDF872160BA,applied_energistics_2.snbt,,,계산 프로세서,ae2:calculation_processor,계산 프로세서,명시적 task.title 없이 아이템 hover 사용,계산 프로세서
+task,41282D3DCFEB5136,07210DDF872160BA,applied_energistics_2.snbt,,,공학 프로세서,ae2:engineering_processor,공학 프로세서,명시적 task.title 없이 아이템 hover 사용,공학 프로세서
+task,0FC1380E32E02533,07210DDF872160BA,applied_energistics_2.snbt,,,플루익스 가루,ae2:fluix_dust,플루익스 가루,명시적 task.title 없이 아이템 hover 사용,플루익스 가루
+task,4498692EC5F9E09B,07210DDF872160BA,applied_energistics_2.snbt,,,플루익스 수정,ae2:fluix_crystal,플루익스 수정,명시적 task.title 없이 아이템 hover 사용,플루익스 수정
+task,6C7282A058006A21,07210DDF872160BA,applied_energistics_2.snbt,,,ME 터미널,ae2:terminal,ME 터미널,명시적 task.title 없이 아이템 hover 사용,ME 터미널
+task,2CFD7CA282DFB2FF,07210DDF872160BA,applied_energistics_2.snbt,,,ME 제작 터미널,ae2:crafting_terminal,ME 제작 터미널,명시적 task.title 없이 아이템 hover 사용,ME 제작 터미널
+task,74AA3FA06B3574A8,07210DDF872160BA,applied_energistics_2.snbt,,,ME 상자,ae2:chest,ME 상자,명시적 task.title 없이 아이템 hover 사용,ME 상자
+task,58C4DF6CFBDF8577,07210DDF872160BA,applied_energistics_2.snbt,,,ME 드라이브,ae2:drive,ME 드라이브,명시적 task.title 없이 아이템 hover 사용,ME 드라이브
+task,299121F0AFF40604,07210DDF872160BA,applied_energistics_2.snbt,,,ME 패턴 접근 터미널,ae2:pattern_access_terminal,ME 패턴 접근 터미널,명시적 task.title 없이 아이템 hover 사용,ME 패턴 접근 터미널
+task,6C80AA2FD67BD192,07210DDF872160BA,applied_energistics_2.snbt,,,ME 제어기,ae2:controller,ME 제어기,명시적 task.title 없이 아이템 hover 사용,ME 제어기
+task,7BDCDEB679A9969C,07210DDF872160BA,applied_energistics_2.snbt,,,네트워크 도구,ae2:network_tool,네트워크 도구,명시적 task.title 없이 아이템 hover 사용,네트워크 도구
+task,64CCF1FB42AA41CE,07210DDF872160BA,applied_energistics_2.snbt,,,1k ME 저장 요소,ae2:cell_component_1k,1k ME 저장 요소,명시적 task.title 없이 아이템 hover 사용,1k ME 저장 요소
+task,066F1BBF3D0863C5,07210DDF872160BA,applied_energistics_2.snbt,,,4k ME 저장 요소,ae2:cell_component_4k,4k ME 저장 요소,명시적 task.title 없이 아이템 hover 사용,4k ME 저장 요소
+task,076237ECA6D5DE58,07210DDF872160BA,applied_energistics_2.snbt,,,16k ME 저장 요소,ae2:cell_component_16k,16k ME 저장 요소,명시적 task.title 없이 아이템 hover 사용,16k ME 저장 요소
+task,32FFC36DEEA7792D,07210DDF872160BA,applied_energistics_2.snbt,,,64k ME 저장 요소,ae2:cell_component_64k,64k ME 저장 요소,명시적 task.title 없이 아이템 hover 사용,64k ME 저장 요소
+task,2C4616CD2EBB58C6,07210DDF872160BA,applied_energistics_2.snbt,,,256k ME 저장 요소,ae2:cell_component_256k,256k ME 저장 요소,명시적 task.title 없이 아이템 hover 사용,256k ME 저장 요소
+task,1ED54F5BAE0FADE8,07210DDF872160BA,applied_energistics_2.snbt,,,1M MEGA 저장 부품,megacells:cell_component_1m,1M MEGA 저장 부품,명시적 task.title 없이 아이템 hover 사용,1M MEGA 저장 부품
+task,40B37486AA9DD419,07210DDF872160BA,applied_energistics_2.snbt,,,4M MEGA 저장 부품,megacells:cell_component_4m,4M MEGA 저장 부품,명시적 task.title 없이 아이템 hover 사용,4M MEGA 저장 부품
+task,6E2955EC62EA1E37,07210DDF872160BA,applied_energistics_2.snbt,,,16M MEGA 저장 부품,megacells:cell_component_16m,16M MEGA 저장 부품,명시적 task.title 없이 아이템 hover 사용,16M MEGA 저장 부품
+task,12DED6DF890F4A1A,07210DDF872160BA,applied_energistics_2.snbt,,,64M MEGA 저장 부품,megacells:cell_component_64m,64M MEGA 저장 부품,명시적 task.title 없이 아이템 hover 사용,64M MEGA 저장 부품
+task,13AA316EA6E8CA30,07210DDF872160BA,applied_energistics_2.snbt,,,256M MEGA 저장 부품,megacells:cell_component_256m,256M MEGA 저장 부품,명시적 task.title 없이 아이템 hover 사용,256M MEGA 저장 부품
+task,52521FCD58B2FEF0,07210DDF872160BA,applied_energistics_2.snbt,,,1k ME 아이템 저장 셀,ae2:item_storage_cell_1k,1k ME 아이템 저장 셀,명시적 task.title 없이 아이템 hover 사용,1k ME 아이템 저장 셀
 quest,5E24012A3D9B72A1,07210DDF872160BA,applied_energistics_2.snbt,,,유체 저장소,ftbfiltersystem:smart_filter,,설명은 있으나 명시적 quest.title 없음,
+task,19F84B1451F7D602,07210DDF872160BA,applied_energistics_2.snbt,,,셀 작업대,ae2:cell_workbench,셀 작업대,명시적 task.title 없이 아이템 hover 사용,셀 작업대
+task,23261340EF9D48AF,07210DDF872160BA,applied_energistics_2.snbt,,,ME 입출력 포트,ae2:io_port,ME 입출력 포트,명시적 task.title 없이 아이템 hover 사용,ME 입출력 포트
+task,060BD30C77262BDA,07210DDF872160BA,applied_energistics_2.snbt,,,ME 반입 버스,ae2:import_bus,ME 반입 버스,명시적 task.title 없이 아이템 hover 사용,ME 반입 버스
+task,6D6E070CB7998FA1,07210DDF872160BA,applied_energistics_2.snbt,,,ME 반출 버스,ae2:export_bus,ME 반출 버스,명시적 task.title 없이 아이템 hover 사용,ME 반출 버스
+task,3F715007AD9C0D58,07210DDF872160BA,applied_energistics_2.snbt,,,ME 소멸 평면,ae2:annihilation_plane,ME 소멸 평면,명시적 task.title 없이 아이템 hover 사용,ME 소멸 평면
+task,0BEBC087F970093E,07210DDF872160BA,applied_energistics_2.snbt,,,ME 형성 평면,ae2:formation_plane,ME 형성 평면,명시적 task.title 없이 아이템 hover 사용,ME 형성 평면
+task,36A7C775D94798EE,07210DDF872160BA,applied_energistics_2.snbt,,,ME P2P 터널,ae2:me_p2p_tunnel,ME P2P 터널,명시적 task.title 없이 아이템 hover 사용,ME P2P 터널
+task,294FA6663BE38B7C,07210DDF872160BA,applied_energistics_2.snbt,,,ME 저장 버스,ae2:storage_bus,ME 저장 버스,명시적 task.title 없이 아이템 hover 사용,ME 저장 버스
+task,2D19A4EF2E4B7A55,07210DDF872160BA,applied_energistics_2.snbt,,,메모리 카드,ae2:memory_card,메모리 카드,명시적 task.title 없이 아이템 hover 사용,메모리 카드
+task,5E1E2F6E86A3E0F3,07210DDF872160BA,applied_energistics_2.snbt,,,균등 분배 카드,ae2:equal_distribution_card,균등 분배 카드,명시적 task.title 없이 아이템 hover 사용,균등 분배 카드
+task,2D72E699C4D506CE,07210DDF872160BA,applied_energistics_2.snbt,,,초과분 파괴 카드,ae2:void_card,초과분 파괴 카드,명시적 task.title 없이 아이템 hover 사용,초과분 파괴 카드
 quest,77C9EE701F72586D,07210DDF872160BA,applied_energistics_2.snbt,,,휴대용 저장소,ftbfiltersystem:smart_filter,,설명은 있으나 명시적 quest.title 없음,
+task,6DC55B5EA1534444,07210DDF872160BA,applied_energistics_2.snbt,,,용량 카드,ae2:capacity_card,용량 카드,명시적 task.title 없이 아이템 hover 사용,용량 카드
+task,05A8DD006B623032,07210DDF872160BA,applied_energistics_2.snbt,,,석영 섬유,ae2:quartz_fiber,석영 섬유,명시적 task.title 없이 아이템 hover 사용,석영 섬유
+task,58BF9A4EAD7C88E6,07210DDF872160BA,applied_energistics_2.snbt,,,ME 패턴 인코딩 터미널,ae2:pattern_encoding_terminal,ME 패턴 인코딩 터미널,명시적 task.title 없이 아이템 hover 사용,ME 패턴 인코딩 터미널
+task,08D08A1400F7348F,07210DDF872160BA,applied_energistics_2.snbt,,,빈 패턴,ae2:blank_pattern,빈 패턴,명시적 task.title 없이 아이템 hover 사용,빈 패턴
+task,5639418C0364E5A1,07210DDF872160BA,applied_energistics_2.snbt,,,분자 제작기,ae2:molecular_assembler,분자 제작기,명시적 task.title 없이 아이템 hover 사용,분자 제작기
+task,3E4BDC8D3B7F727C,07210DDF872160BA,applied_energistics_2.snbt,,,ME 레벨 방출기,ae2:level_emitter,ME 레벨 방출기,명시적 task.title 없이 아이템 hover 사용,ME 레벨 방출기
+task,4D92DB15F45D3F10,07210DDF872160BA,applied_energistics_2.snbt,,,레드스톤 카드,ae2:redstone_card,레드스톤 카드,명시적 task.title 없이 아이템 hover 사용,레드스톤 카드
+task,651CCE50554D6ABC,07210DDF872160BA,applied_energistics_2.snbt,,,ME 토글 버스,ae2:toggle_bus,ME 토글 버스,명시적 task.title 없이 아이템 hover 사용,ME 토글 버스
+task,356C06E894DC659B,07210DDF872160BA,applied_energistics_2.snbt,,,제작 카드,ae2:crafting_card,제작 카드,명시적 task.title 없이 아이템 hover 사용,제작 카드
+task,3837D36BE3CC29A6,07210DDF872160BA,applied_energistics_2.snbt,,,수정 성장 가속기,ae2:growth_accelerator,수정 성장 가속기,명시적 task.title 없이 아이템 hover 사용,수정 성장 가속기
+task,495253F1301A8070,07210DDF872160BA,applied_energistics_2.snbt,,,가속 카드,ae2:speed_card,가속 카드,명시적 task.title 없이 아이템 hover 사용,가속 카드
+task,0EFC322997906572,07210DDF872160BA,applied_energistics_2.snbt,,,공간 입출력 포트,ae2:spatial_io_port,공간 입출력 포트,명시적 task.title 없이 아이템 hover 사용,공간 입출력 포트
+task,4E0C5E3A98293C08,07210DDF872160BA,applied_energistics_2.snbt,,,공간 지시탑,ae2:spatial_pylon,공간 지시탑,명시적 task.title 없이 아이템 hover 사용,공간 지시탑
+task,68A36AB341CC016D,07210DDF872160BA,applied_energistics_2.snbt,,,공간 정박기,ae2:spatial_anchor,공간 정박기,명시적 task.title 없이 아이템 hover 사용,공간 정박기
 quest,30E853CE699E669B,07210DDF872160BA,applied_energistics_2.snbt,,,제작 저장소,ftbfiltersystem:smart_filter,,설명은 있으나 명시적 quest.title 없음,
+task,39BC572CE6FCFE92,07210DDF872160BA,applied_energistics_2.snbt,,,제작 보조 처리 유닛,ae2:crafting_accelerator,제작 보조 처리 유닛,명시적 task.title 없이 아이템 hover 사용,제작 보조 처리 유닛
+task,1C9C2FAD7CD16C9D,07210DDF872160BA,applied_energistics_2.snbt,,,제작 모니터,ae2:crafting_monitor,제작 모니터,명시적 task.title 없이 아이템 hover 사용,제작 모니터
+task,2B8EC37AF863F9A6,07210DDF872160BA,applied_energistics_2.snbt,,,케이블 앵커,ae2:cable_anchor,케이블 앵커,명시적 task.title 없이 아이템 hover 사용,케이블 앵커
+task,1FFAB0FE9A2D46F2,07210DDF872160BA,applied_energistics_2.snbt,,,이름 프레스,ae2:name_press,이름 프레스,명시적 task.title 없이 아이템 hover 사용,이름 프레스
+task,6691176371563341,07210DDF872160BA,applied_energistics_2.snbt,,,색상 적용기,ae2:color_applicator,색상 적용기,명시적 task.title 없이 아이템 hover 사용,색상 적용기
+task,3AC5F84892DC0717,07210DDF872160BA,applied_energistics_2.snbt,,,충전된 스태프,ae2:charged_staff,충전된 스태프,명시적 task.title 없이 아이템 hover 사용,충전된 스태프
+task,68BE70918BD7F81B,07210DDF872160BA,applied_energistics_2.snbt,,,엔트로피 조작기,ae2:entropy_manipulator,엔트로피 조작기,명시적 task.title 없이 아이템 hover 사용,엔트로피 조작기
+task,3B720F63D105F7DF,07210DDF872160BA,applied_energistics_2.snbt,,,물질 대포,ae2:matter_cannon,물질 대포,명시적 task.title 없이 아이템 hover 사용,물질 대포
 quest,2B31E6C1707D8195,07210DDF872160BA,applied_energistics_2.snbt,,,ME 무선 액세스 포인트,ae2:wireless_access_point,ME 무선 액세스 포인트,설명은 있으나 명시적 quest.title 없음,ME 무선 액세스 포인트
+task,3DF8F1A72EBCD73F,07210DDF872160BA,applied_energistics_2.snbt,,,ME 무선 액세스 포인트,ae2:wireless_access_point,ME 무선 액세스 포인트,명시적 task.title 없이 아이템 hover 사용,ME 무선 액세스 포인트
+task,60F10069FD956D54,07210DDF872160BA,applied_energistics_2.snbt,,,무선 부스터,ae2:wireless_booster,무선 부스터,명시적 task.title 없이 아이템 hover 사용,무선 부스터
+task,184FBC2F91C37271,07210DDF872160BA,applied_energistics_2.snbt,,,물질 응축기,ae2:condenser,물질 응축기,명시적 task.title 없이 아이템 hover 사용,물질 응축기
+task,167B710CB84B12C1,07210DDF872160BA,applied_energistics_2.snbt,,,물질 공,ae2:matter_ball,물질 공,명시적 task.title 없이 아이템 hover 사용,물질 공
+task,195B7DC4D7815D29,07210DDF872160BA,applied_energistics_2.snbt,,,무선 터미널,ae2:wireless_terminal,무선 터미널,명시적 task.title 없이 아이템 hover 사용,무선 터미널
+task,384594EA34F0985B,07210DDF872160BA,applied_energistics_2.snbt,,,무선 제작 터미널,ae2:wireless_crafting_terminal,무선 제작 터미널,명시적 task.title 없이 아이템 hover 사용,무선 제작 터미널
 task,745C92ED1392EE1A,07210DDF872160BA,applied_energistics_2.snbt,,,무한 범위 카드,aeinfinitybooster:infinity_card,,명시적 task.title 없이 아이템 hover 사용,
 task,4EDA481E8668C82B,07210DDF872160BA,applied_energistics_2.snbt,,,차원 카드,aeinfinitybooster:dimension_card,,명시적 task.title 없이 아이템 hover 사용,
+task,3458474D44BD443F,07210DDF872160BA,applied_energistics_2.snbt,,,특이점,ae2:singularity,특이점,명시적 task.title 없이 아이템 hover 사용,특이점
+task,523A126499263FE0,07210DDF872160BA,applied_energistics_2.snbt,,,엔더 가루,ae2:ender_dust,엔더 가루,명시적 task.title 없이 아이템 hover 사용,엔더 가루
+task,3A45E1C2AE35002B,07210DDF872160BA,applied_energistics_2.snbt,,,소형 TNT,ae2:tiny_tnt,소형 TNT,명시적 task.title 없이 아이템 hover 사용,소형 TNT
+task,79E894E41241B6A2,07210DDF872160BA,applied_energistics_2.snbt,,,퍼지 카드,ae2:fuzzy_card,퍼지 카드,명시적 task.title 없이 아이템 hover 사용,퍼지 카드
+task,6AAE42DF0347D1F4,07210DDF872160BA,applied_energistics_2.snbt,,,반전 카드,ae2:inverter_card,반전 카드,명시적 task.title 없이 아이템 hover 사용,반전 카드
+task,7D869E1310E92BED,07210DDF872160BA,applied_energistics_2.snbt,,,ME 양자 고리,ae2:quantum_ring,ME 양자 고리,명시적 task.title 없이 아이템 hover 사용,ME 양자 고리
+task,20AA67ECEA653B99,07210DDF872160BA,applied_energistics_2.snbt,,,ME 양자 연결기,ae2:quantum_link,ME 양자 연결기,명시적 task.title 없이 아이템 hover 사용,ME 양자 연결기
+task,6590872EF147B7DF,07210DDF872160BA,applied_energistics_2.snbt,,,양자얽힘 특이점,ae2:quantum_entangled_singularity,양자얽힘 특이점,명시적 task.title 없이 아이템 hover 사용,양자얽힘 특이점
 quest,78311531069807DE,07210DDF872160BA,applied_energistics_2.snbt,,,채널에 대한 머리말,,,설명은 있으나 명시적 quest.title 없음,
-task,700381466CC95F2F,07210DDF872160BA,applied_energistics_2.snbt,,,MEGA Bulk Item Storage Cell,megacells:bulk_item_cell,,명시적 task.title 없이 아이템 hover 사용,
-quest,4B76FE0348DB0E45,07210DDF872160BA,applied_energistics_2.snbt,,,Quantum Bridge Card,ae2wtlib:quantum_bridge_card,,설명은 있으나 명시적 quest.title 없음,
-task,16E78B6C132910B5,07210DDF872160BA,applied_energistics_2.snbt,,,Quantum Bridge Card,ae2wtlib:quantum_bridge_card,,명시적 task.title 없이 아이템 hover 사용,
+task,700381466CC95F2F,07210DDF872160BA,applied_energistics_2.snbt,,,MEGA 대용량 아이템 저장 셀,megacells:bulk_item_cell,MEGA 대용량 아이템 저장 셀,명시적 task.title 없이 아이템 hover 사용,MEGA 대용량 아이템 저장 셀
+task,16E78B6C132910B5,07210DDF872160BA,applied_energistics_2.snbt,,,양자 브리지 카드,ae2wtlib:quantum_bridge_card,양자 브리지 카드,명시적 task.title 없이 아이템 hover 사용,양자 브리지 카드
 quest,5034A9137E0F3D3D,07210DDF872160BA,applied_energistics_2.snbt,,,모든 권리 보유,,,설명은 있으나 명시적 quest.title 없음,
+task,5997F25FCA778A49,07210DDF872160BA,applied_energistics_2.snbt,,,서투스 석영 수정,ae2:certus_quartz_crystal,서투스 석영 수정,명시적 task.title 없이 아이템 hover 사용,서투스 석영 수정
+task,06E4EE21B14147B2,07210DDF872160BA,applied_energistics_2.snbt,,,서투스 석영 가루,ae2:certus_quartz_dust,서투스 석영 가루,명시적 task.title 없이 아이템 hover 사용,서투스 석영 가루
 quest,7C40F1963FC5BF65,07210DDF872160BA,applied_energistics_2.snbt,,,추가 가이드,,,설명은 있으나 명시적 quest.title 없음,
 task,51A617F8FBBFA712,6AEDA2F9BEB57759,ars_nouveau.snbt,,,,minecraft:book,,명시적 task.title 없이 아이템 hover 사용,
 task,1624D71379FBBDA6,6AEDA2F9BEB57759,ars_nouveau.snbt,,,별다람쥐 부적,ars_nouveau:starbuncle_charm,,명시적 task.title 없이 아이템 hover 사용,
@@ -431,6 +504,7 @@ quest,77145113CD5B26FB,6AEDA2F9BEB57759,ars_nouveau.snbt,,,균사체 마나링�
 task,3F5621FA53258210,6AEDA2F9BEB57759,ars_nouveau.snbt,,,균사체 마나링크,ars_nouveau:mycelial_sourcelink,,명시적 task.title 없이 아이템 hover 사용,
 quest,2D0CF18C8B2ABB7D,6AEDA2F9BEB57759,ars_nouveau.snbt,,,농작물 마나링크,ars_nouveau:agronomic_sourcelink,,설명은 있으나 명시적 quest.title 없음,
 task,7CEAACDBB77206CC,6AEDA2F9BEB57759,ars_nouveau.snbt,,,농작물 마나링크,ars_nouveau:agronomic_sourcelink,,명시적 task.title 없이 아이템 hover 사용,
+task,03EB390E79866058,6AEDA2F9BEB57759,ars_nouveau.snbt,Sourcestones,,마나 돌,ars_nouveau:sourcestone,,명시적 task.title 없이 아이템 hover 사용,
 quest,0E2AD156E5EF263A,6AEDA2F9BEB57759,ars_nouveau.snbt,,,주문 양피지,ars_nouveau:spell_parchment,,설명은 있으나 명시적 quest.title 없음,
 task,5D09025968ED4E34,6AEDA2F9BEB57759,ars_nouveau.snbt,,,주문 양피지,ars_nouveau:spell_parchment,,명시적 task.title 없이 아이템 hover 사용,
 task,259C1D84AD3996AF,6AEDA2F9BEB57759,ars_nouveau.snbt,,,도미니언 완드,ars_nouveau:dominion_wand,,명시적 task.title 없이 아이템 hover 사용,
@@ -847,10 +921,10 @@ task,47B5191FB3FE8DCD,4791C8461B1B4D5F,basic_armor.snbt,,,예티 뿔 투구,twil
 task,1D124E1EF54CC9B4,4791C8461B1B4D5F,basic_armor.snbt,,,예티 흉갑,twilightforest:yeti_chestplate,,명시적 task.title 없이 아이템 hover 사용,
 task,1BA0C9EE6D4F05A1,4791C8461B1B4D5F,basic_armor.snbt,,,예티 레깅스,twilightforest:yeti_leggings,,명시적 task.title 없이 아이템 hover 사용,
 task,26C64FF965BB659E,4791C8461B1B4D5F,basic_armor.snbt,,,예티 부츠,twilightforest:yeti_boots,,명시적 task.title 없이 아이템 hover 사용,
-task,727964D51499ECB2,4791C8461B1B4D5F,basic_armor.snbt,,,Quantum Helmet,advanced_ae:quantum_helmet,,명시적 task.title 없이 아이템 hover 사용,
-task,0900CB4ED4965457,4791C8461B1B4D5F,basic_armor.snbt,,,Quantum Chestplate,advanced_ae:quantum_chestplate,,명시적 task.title 없이 아이템 hover 사용,
-task,1189063326965BEE,4791C8461B1B4D5F,basic_armor.snbt,,,Quantum Leggings,advanced_ae:quantum_leggings,,명시적 task.title 없이 아이템 hover 사용,
-task,22BC32353519A498,4791C8461B1B4D5F,basic_armor.snbt,,,Quantum Boots,advanced_ae:quantum_boots,,명시적 task.title 없이 아이템 hover 사용,
+task,727964D51499ECB2,4791C8461B1B4D5F,basic_armor.snbt,,,퀀텀 투구,advanced_ae:quantum_helmet,퀀텀 투구,명시적 task.title 없이 아이템 hover 사용,퀀텀 투구
+task,0900CB4ED4965457,4791C8461B1B4D5F,basic_armor.snbt,,,퀀텀 흉갑,advanced_ae:quantum_chestplate,퀀텀 흉갑,명시적 task.title 없이 아이템 hover 사용,퀀텀 흉갑
+task,1189063326965BEE,4791C8461B1B4D5F,basic_armor.snbt,,,퀀텀 레깅스,advanced_ae:quantum_leggings,퀀텀 레깅스,명시적 task.title 없이 아이템 hover 사용,퀀텀 레깅스
+task,22BC32353519A498,4791C8461B1B4D5F,basic_armor.snbt,,,퀀텀 부츠,advanced_ae:quantum_boots,퀀텀 부츠,명시적 task.title 없이 아이템 hover 사용,퀀텀 부츠
 task,6133812BF2F62EF3,4791C8461B1B4D5F,basic_armor.snbt,,,아이언우드 주괴,twilightforest:ironwood_ingot,,명시적 task.title 없이 아이템 hover 사용,
 task,06302CB7FBC72D06,4791C8461B1B4D5F,basic_armor.snbt,,,강철잎,twilightforest:steeleaf_ingot,,명시적 task.title 없이 아이템 hover 사용,
 task,2B404A77CDDD71EE,4791C8461B1B4D5F,basic_armor.snbt,,,기사금속 주괴,twilightforest:knightmetal_ingot,,명시적 task.title 없이 아이템 hover 사용,
@@ -945,7 +1019,7 @@ task,18BA2B3E63A88A72,5D045EF1AB73DF70,basic_power.snbt,,,EM Rail Ejector Contro
 task,21557FD99031BE4C,5D045EF1AB73DF70,basic_power.snbt,,,Ray Receiver Controller,dysoncubeproject:ray_receiver_controller,,명시적 task.title 없이 아이템 hover 사용,
 task,7EFDC209D199681D,5D045EF1AB73DF70,basic_power.snbt,,,Energy Core,draconicevolution:energy_core,,명시적 task.title 없이 아이템 hover 사용,
 task,122A80350E32318A,5D045EF1AB73DF70,basic_power.snbt,,,Extractor,xycraft_machines:extractor,,명시적 task.title 없이 아이템 hover 사용,
-task,0E8994B88ABB9271,5D045EF1AB73DF70,basic_power.snbt,,,Charged Redstone Crystal Block,appflux:charged_redstone_block,,명시적 task.title 없이 아이템 hover 사용,
+task,0E8994B88ABB9271,5D045EF1AB73DF70,basic_power.snbt,,,충전된 레드스톤 결정 블록,appflux:charged_redstone_block,충전된 레드스톤 결정 블록,명시적 task.title 없이 아이템 hover 사용,충전된 레드스톤 결정 블록
 task,02C822663913DFCF,4B9D26E0087CD163,basic_tools.snbt,,,,minecraft:cobblestone,,명시적 task.title 없이 아이템 hover 사용,
 task,25F49B7B8EC6F48B,4B9D26E0087CD163,basic_tools.snbt,,,,minecraft:raw_iron,,명시적 task.title 없이 아이템 hover 사용,
 task,206791A6A8DA0F16,4B9D26E0087CD163,basic_tools.snbt,,,,minecraft:diamond,,명시적 task.title 없이 아이템 hover 사용,
@@ -1266,8 +1340,7 @@ task,44B8FEF6AFC2903F,5103E2D95685ADFF,chapter_2_the_star.snbt,,,Soul Gem,occult
 task,550B0CD71FE7354F,5103E2D95685ADFF,chapter_2_the_star.snbt,,,주입된 드래곤의 숨결,apothic_enchanting:infused_breath,,명시적 task.title 없이 아이템 hover 사용,
 task,5F21D5BF403BDCEF,5103E2D95685ADFF,chapter_2_the_star.snbt,,,Rainbow Coal,ironfurnaces:rainbow_coal,,명시적 task.title 없이 아이템 hover 사용,
 task,4456CFC1AAB6CF7F,5103E2D95685ADFF,chapter_2_the_star.snbt,,,Aerial Interface,pneumaticcraft:aerial_interface,,명시적 task.title 없이 아이템 hover 사용,
-quest,0923C941A9696122,5103E2D95685ADFF,chapter_2_the_star.snbt,256M Portable Item Cell,,256M Portable Item Cell,megacells:portable_item_cell_256m,,설명은 있으나 명시적 quest.title 없음,
-task,66B0E90537E8D8AC,5103E2D95685ADFF,chapter_2_the_star.snbt,,,256M Portable Item Cell,megacells:portable_item_cell_256m,,명시적 task.title 없이 아이템 hover 사용,
+task,66B0E90537E8D8AC,5103E2D95685ADFF,chapter_2_the_star.snbt,,,256M 휴대용 아이템 셀,megacells:portable_item_cell_256m,256M 휴대용 아이템 셀,명시적 task.title 없이 아이템 hover 사용,256M 휴대용 아이템 셀
 task,79141C8F25816860,5103E2D95685ADFF,chapter_2_the_star.snbt,,,번개 강화 구슬,irons_spellbooks:lightning_upgrade_orb,,명시적 task.title 없이 아이템 hover 사용,
 task,452C54AB6D1D3753,5103E2D95685ADFF,chapter_2_the_star.snbt,,,특이점,ae2:singularity,특이점,명시적 task.title 없이 아이템 hover 사용,특이점
 task,25775593C01703BF,5103E2D95685ADFF,chapter_2_the_star.snbt,,,폭발내성 케이싱,modern_industrialization:blastproof_casing,,명시적 task.title 없이 아이템 hover 사용,
@@ -1278,10 +1351,10 @@ task,153EE95889C75AF0,5103E2D95685ADFF,chapter_2_the_star.snbt,,,Mace of Destruc
 task,48163F513DC0C58D,5103E2D95685ADFF,chapter_2_the_star.snbt,,,대형 발전된 모터,modern_industrialization:large_advanced_motor,,명시적 task.title 없이 아이템 hover 사용,
 quest,601C719C8FD513F0,5103E2D95685ADFF,chapter_2_the_star.snbt,,,무한 범위 카드,aeinfinitybooster:infinity_card,,설명은 있으나 명시적 quest.title 없음,
 task,4FDC57BA1A5CFC0A,5103E2D95685ADFF,chapter_2_the_star.snbt,,,무한 범위 카드,aeinfinitybooster:infinity_card,,명시적 task.title 없이 아이템 hover 사용,
-task,1579B8E44F085C26,5103E2D95685ADFF,chapter_2_the_star.snbt,,,Quantum Computer Multi-Threader,advanced_ae:quantum_multi_threader,,명시적 task.title 없이 아이템 hover 사용,
+task,1579B8E44F085C26,5103E2D95685ADFF,chapter_2_the_star.snbt,,,퀀텀 컴퓨터 멀티 스레더,advanced_ae:quantum_multi_threader,퀀텀 컴퓨터 멀티 스레더,명시적 task.title 없이 아이템 hover 사용,퀀텀 컴퓨터 멀티 스레더
 quest,77F2271C45DB49BA,5103E2D95685ADFF,chapter_2_the_star.snbt,,,item,mekanism:module_gravitational_modulating_unit,,설명은 있으나 명시적 quest.title 없음,
 task,258A880972C38C57,5103E2D95685ADFF,chapter_2_the_star.snbt,,,,mekanism:module_gravitational_modulating_unit,,명시적 task.title 없이 아이템 hover 사용,
-task,7CB0D8918F76FC75,5103E2D95685ADFF,chapter_2_the_star.snbt,,,무선 범용 터미널,ae2wtlib:wireless_universal_terminal,,명시적 task.title 없이 아이템 hover 사용,
+task,7CB0D8918F76FC75,5103E2D95685ADFF,chapter_2_the_star.snbt,,,무선 범용 터미널,ae2wtlib:wireless_universal_terminal,무선 범용 터미널,명시적 task.title 없이 아이템 hover 사용,무선 범용 터미널
 task,3F3A36F9683ED1C2,5103E2D95685ADFF,chapter_2_the_star.snbt,,,Player Transmitter (Nitro),powah:player_transmitter_nitro,,명시적 task.title 없이 아이템 hover 사용,
 task,50358A939AF6EFFD,5103E2D95685ADFF,chapter_2_the_star.snbt,,,인사늄 블록,mysticalagradditions:insanium_block,,명시적 task.title 없이 아이템 hover 사용,
 task,0890F5FED5BE2221,5103E2D95685ADFF,chapter_2_the_star.snbt,,,인사늄 보석 블록,mysticalagradditions:insanium_gemstone_block,,명시적 task.title 없이 아이템 hover 사용,
@@ -2120,76 +2193,75 @@ quest,27E34DCC9C94F4FF,3456E0C530C0038E,evilcraft.snbt,,,AllRightsReserved,,,설
 task,293B86458729C26E,3456E0C530C0038E,evilcraft.snbt,AllRightsReserved,AllRightsReserved,,,,한국어 파일의 영어 task.title,
 task,525E20417F77B456,3456E0C530C0038E,evilcraft.snbt,,,Piercing Vengeance Focus,evilcraft:piercing_vengeance_focus,,명시적 task.title 없이 아이템 hover 사용,
 task,05BDFDBF2FCE8A50,3456E0C530C0038E,evilcraft.snbt,,,Vengeance Essence,evilcraft:vengeance_essence,,명시적 task.title 없이 아이템 hover 사용,
+quest,4818C8387C0DBBE7,51A2FE60D8B76FC6,extended__advanced_ae.snbt,ExtendedAE,ExtendedAE,,,,한국어 파일의 영어 quest.title,
 task,5F7AE60DC477C888,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,플루익스 블록,ae2:fluix_block,플루익스 블록,명시적 task.title 없이 아이템 hover 사용,플루익스 블록
-task,5F082F52423D46A2,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Entro Seed,extendedae:entro_seed,,명시적 task.title 없이 아이템 hover 사용,
-task,35F9754B6A905D64,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Entro Crystal,extendedae:entro_crystal,,명시적 task.title 없이 아이템 hover 사용,
-task,268DD5AFBD2C199A,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Crystal Assembler,extendedae:crystal_assembler,,명시적 task.title 없이 아이템 hover 사용,
-task,475B673DC78361D2,51A2FE60D8B76FC6,extended__advanced_ae.snbt,Extended Devices,,,ftbfiltersystem:smart_filter,,명시적 task.title 없이 아이템 hover 사용,
-task,215D0E1A9BF15323,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Circuit Slicer,extendedae:circuit_cutter,,명시적 task.title 없이 아이템 hover 사용,
-task,42C00862ECBD956C,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 무선 연결기,extendedae:wireless_connect,,명시적 task.title 없이 아이템 hover 사용,
-task,429BAE443AE2ADF0,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 무선 설정 킷,extendedae:wireless_tool,,명시적 task.title 없이 아이템 hover 사용,
-task,13FF4A021BBF1451,51A2FE60D8B76FC6,extended__advanced_ae.snbt,Infinity Cells,,,ftbfiltersystem:smart_filter,,명시적 task.title 없이 아이템 hover 사용,
-task,2896085D4D721380,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 확장 패턴 접근 터미널,extendedae:ex_pattern_access_part,,명시적 task.title 없이 아이템 hover 사용,
-task,0252475A740C3E4D,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME Canner,extendedae:caner,,명시적 task.title 없이 아이템 hover 사용,
-task,438D5F2C7BBDD0E2,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,조합 매트릭스 프레임,extendedae:assembler_matrix_frame,,명시적 task.title 없이 아이템 hover 사용,
-task,3E945BEFF5CE78F5,51A2FE60D8B76FC6,extended__advanced_ae.snbt,Assembler Matrix Wall or Glass,,,ftbfiltersystem:smart_filter,,명시적 task.title 없이 아이템 hover 사용,
+task,5F082F52423D46A2,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,엔트로 씨앗,extendedae:entro_seed,엔트로 씨앗,명시적 task.title 없이 아이템 hover 사용,엔트로 씨앗
+task,35F9754B6A905D64,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,엔트로 결정,extendedae:entro_crystal,엔트로 결정,명시적 task.title 없이 아이템 hover 사용,엔트로 결정
+task,268DD5AFBD2C199A,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,결정 조립기,extendedae:crystal_assembler,결정 조립기,명시적 task.title 없이 아이템 hover 사용,결정 조립기
+task,215D0E1A9BF15323,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,회로 절단기,extendedae:circuit_cutter,회로 절단기,명시적 task.title 없이 아이템 hover 사용,회로 절단기
+task,42C00862ECBD956C,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 무선 연결기,extendedae:wireless_connect,ME 무선 연결기,명시적 task.title 없이 아이템 hover 사용,ME 무선 연결기
+task,429BAE443AE2ADF0,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 무선 설정 키트,extendedae:wireless_tool,ME 무선 설정 키트,명시적 task.title 없이 아이템 hover 사용,ME 무선 설정 키트
+task,2896085D4D721380,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 확장 패턴 접근 터미널,extendedae:ex_pattern_access_part,ME 확장 패턴 접근 터미널,명시적 task.title 없이 아이템 hover 사용,ME 확장 패턴 접근 터미널
+task,0252475A740C3E4D,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 주입기,extendedae:caner,ME 주입기,명시적 task.title 없이 아이템 hover 사용,ME 주입기
+task,438D5F2C7BBDD0E2,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,조립기 매트릭스 프레임,extendedae:assembler_matrix_frame,조립기 매트릭스 프레임,명시적 task.title 없이 아이템 hover 사용,조립기 매트릭스 프레임
+quest,7725CB7D0AE55180,51A2FE60D8B76FC6,extended__advanced_ae.snbt,Advanced AE,Advanced AE,,,,한국어 파일의 영어 quest.title,
 task,5406F9E51B9034C3,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,논리 프로세서,ae2:logic_processor,논리 프로세서,명시적 task.title 없이 아이템 hover 사용,논리 프로세서
-task,578D8531914D0678,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Reaction Chamber,advanced_ae:reaction_chamber,,명시적 task.title 없이 아이템 hover 사용,
-task,3A76350DDF5A318D,51A2FE60D8B76FC6,extended__advanced_ae.snbt,Advanced Pattern Providers,,,ftbfiltersystem:smart_filter,,명시적 task.title 없이 아이템 hover 사용,
-task,5795FD378D55DB36,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Advanced Pattern Encoder,advanced_ae:adv_pattern_encoder,,명시적 task.title 없이 아이템 hover 사용,
-task,7BE7E513F11A3C35,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Crafting Unit,advanced_ae:quantum_unit,,명시적 task.title 없이 아이템 hover 사용,
-task,637D2A0BA1A46912,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Computer Structural Glass,advanced_ae:quantum_structure,,명시적 task.title 없이 아이템 hover 사용,
-task,1500062658C417AA,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,조합 매트릭스 패턴 코어,extendedae:assembler_matrix_pattern,,명시적 task.title 없이 아이템 hover 사용,
-task,306C914B74A7828A,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,조합 매트릭스 조합 코어,extendedae:assembler_matrix_crafter,,명시적 task.title 없이 아이템 hover 사용,
-task,1766170684DD8C07,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,조합 매트릭스 가속 코어,extendedae:assembler_matrix_speed,,명시적 task.title 없이 아이템 hover 사용,
-task,388502737919E69F,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,128M Quantum Computer Storage,advanced_ae:quantum_storage_128,,명시적 task.title 없이 아이템 hover 사용,
-task,2C547406F10F1C14,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,256M Quantum Computer Storage,advanced_ae:quantum_storage_256,,명시적 task.title 없이 아이템 hover 사용,
-task,58E89008C58BDEA5,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Computer Accelerator,advanced_ae:quantum_accelerator,,명시적 task.title 없이 아이템 hover 사용,
-task,25A95685F009FEC1,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Computer Core,advanced_ae:quantum_core,,명시적 task.title 없이 아이템 hover 사용,
-task,2928E71D218FDE3C,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Computer Multi-Threader,advanced_ae:quantum_multi_threader,,명시적 task.title 없이 아이템 hover 사용,
-task,256682BFD257244D,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Data Entangler,advanced_ae:data_entangler,,명시적 task.title 없이 아이템 hover 사용,
-task,636197CAC21C3FDA,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Crafter,advanced_ae:quantum_crafter,,명시적 task.title 없이 아이템 hover 사용,
-task,505D04F4E0F6795F,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Helmet,advanced_ae:quantum_helmet,,명시적 task.title 없이 아이템 hover 사용,
-task,3C4764C4EE2ED51F,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Chestplate,advanced_ae:quantum_chestplate,,명시적 task.title 없이 아이템 hover 사용,
-task,40BA14BD280DC10A,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Leggings,advanced_ae:quantum_leggings,,명시적 task.title 없이 아이템 hover 사용,
-task,0B8E3C8D6C6AA3EE,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Boots,advanced_ae:quantum_boots,,명시적 task.title 없이 아이템 hover 사용,
-task,3C5234F0EC6C7E39,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Upgrade Base Card,advanced_ae:quantum_upgrade_base,,명시적 task.title 없이 아이템 hover 사용,
-task,6CFEDFF83FB5AD18,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Walk Speed Card,advanced_ae:walk_speed_card,,명시적 task.title 없이 아이템 hover 사용,
-task,540BD5249CF3D84F,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Sprint Speed Card,advanced_ae:sprint_speed_card,,명시적 task.title 없이 아이템 hover 사용,
-task,7870E757CC4BF1E2,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Step Assist Card,advanced_ae:step_assist_card,,명시적 task.title 없이 아이템 hover 사용,
-task,63A7871AE2F7804B,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Jump Height Card,advanced_ae:jump_height_card,,명시적 task.title 없이 아이템 hover 사용,
-task,12EC69F1C523B343,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Lava Immunity Card,advanced_ae:lava_immunity_card,,명시적 task.title 없이 아이템 hover 사용,
-task,2A1746B22A6D57BD,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Flight Card,advanced_ae:flight_card,,명시적 task.title 없이 아이템 hover 사용,
-task,39B2E6372F94DB1D,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Water Breathing Card,advanced_ae:water_breathing_card,,명시적 task.title 없이 아이템 hover 사용,
-task,0377F7E698E93C26,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Auto Feeding Card,advanced_ae:auto_feeding_card,,명시적 task.title 없이 아이템 hover 사용,
-task,285D24FF6039D443,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Auto Stock Card,advanced_ae:auto_stock_card,,명시적 task.title 없이 아이템 hover 사용,
-task,24A3CE515DF0186E,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Magnet Card,advanced_ae:magnet_card,,명시적 task.title 없이 아이템 hover 사용,
-task,4BEF9B9ABAB44B5E,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,HP Buffer Card,advanced_ae:hp_buffer_card,,명시적 task.title 없이 아이템 hover 사용,
-task,5325DB5C52F45993,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Evasion Card,advanced_ae:evasion_card,,명시적 task.title 없이 아이템 hover 사용,
-task,0E52901C7E98A54B,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Regeneration Card,advanced_ae:regeneration_card,,명시적 task.title 없이 아이템 hover 사용,
-task,2F453BCF48FB1F9C,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Strength Card,advanced_ae:strength_card,,명시적 task.title 없이 아이템 hover 사용,
-task,6B4E7B0E83D95DEE,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Attack Speed Card,advanced_ae:attack_speed_card,,명시적 task.title 없이 아이템 hover 사용,
-task,4B929C61FE6B2283,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Luck Card,advanced_ae:luck_card,,명시적 task.title 없이 아이템 hover 사용,
-task,3854179CE74EE997,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Reach Card,advanced_ae:reach_card,,명시적 task.title 없이 아이템 hover 사용,
-task,5A4815C07DB2039D,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Swim Speed Card,advanced_ae:swim_speed_card,,명시적 task.title 없이 아이템 hover 사용,
-task,7C1C34179BB3552E,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Night Vision Card,advanced_ae:night_vision_card,,명시적 task.title 없이 아이템 hover 사용,
-task,478C30108F304D74,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Flight Drift Card,advanced_ae:flight_drift_card,,명시적 task.title 없이 아이템 hover 사용,
-task,6ED37C922A9A48F0,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME Recharging Card,advanced_ae:recharging_card,,명시적 task.title 없이 아이템 hover 사용,
-task,29B75C2F61F66FEE,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Portable Workbench Card,advanced_ae:portable_workbench_card,,명시적 task.title 없이 아이템 hover 사용,
-task,736770B054073D65,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Pick Craft Card,advanced_ae:pick_craft_card,,명시적 task.title 없이 아이템 hover 사용,
-task,1854DDA036C8A2BA,51A2FE60D8B76FC6,extended__advanced_ae.snbt,Entro Seeds/Combs,,,ftbfiltersystem:smart_filter,,명시적 task.title 없이 아이템 hover 사용,
-task,250C092092F5F167,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Shattered Singularity,advanced_ae:shattered_singularity,,명시적 task.title 없이 아이템 hover 사용,
-task,6D3FB478C48A2B98,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Alloy,advanced_ae:quantum_alloy,,명시적 task.title 없이 아이템 hover 사용,
-task,6BDE1F55FC7D6CBD,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Processor,advanced_ae:quantum_processor,,명시적 task.title 없이 아이템 hover 사용,
-task,178EE4CAC1E1A581,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME Void 셀,extendedae:void_cell,,명시적 task.title 없이 아이템 hover 사용,
-task,3DBD19E7F036C211,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Crystal Fixer,extendedae:crystal_fixer,,명시적 task.title 없이 아이템 hover 사용,
+task,578D8531914D0678,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,반응 챔버,advanced_ae:reaction_chamber,반응 챔버,명시적 task.title 없이 아이템 hover 사용,반응 챔버
+task,5795FD378D55DB36,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,고급 패턴 인코더,advanced_ae:adv_pattern_encoder,고급 패턴 인코더,명시적 task.title 없이 아이템 hover 사용,고급 패턴 인코더
+task,7BE7E513F11A3C35,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 제작 장치,advanced_ae:quantum_unit,퀀텀 제작 장치,명시적 task.title 없이 아이템 hover 사용,퀀텀 제작 장치
+task,637D2A0BA1A46912,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 컴퓨터 구조 유리,advanced_ae:quantum_structure,퀀텀 컴퓨터 구조 유리,명시적 task.title 없이 아이템 hover 사용,퀀텀 컴퓨터 구조 유리
+task,1500062658C417AA,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,조립기 매트릭스 패턴 코어,extendedae:assembler_matrix_pattern,조립기 매트릭스 패턴 코어,명시적 task.title 없이 아이템 hover 사용,조립기 매트릭스 패턴 코어
+task,306C914B74A7828A,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,조립기 매트릭스 제작 코어,extendedae:assembler_matrix_crafter,조립기 매트릭스 제작 코어,명시적 task.title 없이 아이템 hover 사용,조립기 매트릭스 제작 코어
+task,1766170684DD8C07,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,조립기 매트릭스 가속 코어,extendedae:assembler_matrix_speed,조립기 매트릭스 가속 코어,명시적 task.title 없이 아이템 hover 사용,조립기 매트릭스 가속 코어
+task,388502737919E69F,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,128M 퀀텀 컴퓨터 저장소,advanced_ae:quantum_storage_128,128M 퀀텀 컴퓨터 저장소,명시적 task.title 없이 아이템 hover 사용,128M 퀀텀 컴퓨터 저장소
+task,2C547406F10F1C14,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,256M 퀀텀 컴퓨터 저장소,advanced_ae:quantum_storage_256,256M 퀀텀 컴퓨터 저장소,명시적 task.title 없이 아이템 hover 사용,256M 퀀텀 컴퓨터 저장소
+task,58E89008C58BDEA5,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 컴퓨터 가속기,advanced_ae:quantum_accelerator,퀀텀 컴퓨터 가속기,명시적 task.title 없이 아이템 hover 사용,퀀텀 컴퓨터 가속기
+task,25A95685F009FEC1,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 컴퓨터 코어,advanced_ae:quantum_core,퀀텀 컴퓨터 코어,명시적 task.title 없이 아이템 hover 사용,퀀텀 컴퓨터 코어
+task,2928E71D218FDE3C,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 컴퓨터 멀티 스레더,advanced_ae:quantum_multi_threader,퀀텀 컴퓨터 멀티 스레더,명시적 task.title 없이 아이템 hover 사용,퀀텀 컴퓨터 멀티 스레더
+task,256682BFD257244D,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 데이터 얽힘기,advanced_ae:data_entangler,퀀텀 데이터 얽힘기,명시적 task.title 없이 아이템 hover 사용,퀀텀 데이터 얽힘기
+task,636197CAC21C3FDA,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 제작기,advanced_ae:quantum_crafter,퀀텀 제작기,명시적 task.title 없이 아이템 hover 사용,퀀텀 제작기
+task,505D04F4E0F6795F,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 투구,advanced_ae:quantum_helmet,퀀텀 투구,명시적 task.title 없이 아이템 hover 사용,퀀텀 투구
+task,3C4764C4EE2ED51F,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 흉갑,advanced_ae:quantum_chestplate,퀀텀 흉갑,명시적 task.title 없이 아이템 hover 사용,퀀텀 흉갑
+task,40BA14BD280DC10A,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 레깅스,advanced_ae:quantum_leggings,퀀텀 레깅스,명시적 task.title 없이 아이템 hover 사용,퀀텀 레깅스
+task,0B8E3C8D6C6AA3EE,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 부츠,advanced_ae:quantum_boots,퀀텀 부츠,명시적 task.title 없이 아이템 hover 사용,퀀텀 부츠
+task,3C5234F0EC6C7E39,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 업그레이드 기본 카드,advanced_ae:quantum_upgrade_base,퀀텀 업그레이드 기본 카드,명시적 task.title 없이 아이템 hover 사용,퀀텀 업그레이드 기본 카드
+task,6CFEDFF83FB5AD18,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,걷기 속도 카드,advanced_ae:walk_speed_card,걷기 속도 카드,명시적 task.title 없이 아이템 hover 사용,걷기 속도 카드
+task,540BD5249CF3D84F,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,질주 속도 카드,advanced_ae:sprint_speed_card,질주 속도 카드,명시적 task.title 없이 아이템 hover 사용,질주 속도 카드
+task,7870E757CC4BF1E2,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,단차 이동 보조 카드,advanced_ae:step_assist_card,단차 이동 보조 카드,명시적 task.title 없이 아이템 hover 사용,단차 이동 보조 카드
+task,63A7871AE2F7804B,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,점프 높이 카드,advanced_ae:jump_height_card,점프 높이 카드,명시적 task.title 없이 아이템 hover 사용,점프 높이 카드
+task,12EC69F1C523B343,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,용암 면역 카드,advanced_ae:lava_immunity_card,용암 면역 카드,명시적 task.title 없이 아이템 hover 사용,용암 면역 카드
+task,2A1746B22A6D57BD,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,비행 카드,advanced_ae:flight_card,비행 카드,명시적 task.title 없이 아이템 hover 사용,비행 카드
+task,39B2E6372F94DB1D,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,수중 호흡 카드,advanced_ae:water_breathing_card,수중 호흡 카드,명시적 task.title 없이 아이템 hover 사용,수중 호흡 카드
+task,0377F7E698E93C26,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,자동 섭취 카드,advanced_ae:auto_feeding_card,자동 섭취 카드,명시적 task.title 없이 아이템 hover 사용,자동 섭취 카드
+task,285D24FF6039D443,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,자동 재고 유지 카드,advanced_ae:auto_stock_card,자동 재고 유지 카드,명시적 task.title 없이 아이템 hover 사용,자동 재고 유지 카드
+task,24A3CE515DF0186E,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,자석 카드,advanced_ae:magnet_card,자석 카드,명시적 task.title 없이 아이템 hover 사용,자석 카드
+task,4BEF9B9ABAB44B5E,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,체력 버퍼 카드,advanced_ae:hp_buffer_card,체력 버퍼 카드,명시적 task.title 없이 아이템 hover 사용,체력 버퍼 카드
+task,5325DB5C52F45993,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,회피 카드,advanced_ae:evasion_card,회피 카드,명시적 task.title 없이 아이템 hover 사용,회피 카드
+task,0E52901C7E98A54B,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,재생 카드,advanced_ae:regeneration_card,재생 카드,명시적 task.title 없이 아이템 hover 사용,재생 카드
+task,2F453BCF48FB1F9C,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,힘 카드,advanced_ae:strength_card,힘 카드,명시적 task.title 없이 아이템 hover 사용,힘 카드
+task,6B4E7B0E83D95DEE,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,공격 속도 카드,advanced_ae:attack_speed_card,공격 속도 카드,명시적 task.title 없이 아이템 hover 사용,공격 속도 카드
+task,4B929C61FE6B2283,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,행운 카드,advanced_ae:luck_card,행운 카드,명시적 task.title 없이 아이템 hover 사용,행운 카드
+task,3854179CE74EE997,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,도달 거리 카드,advanced_ae:reach_card,도달 거리 카드,명시적 task.title 없이 아이템 hover 사용,도달 거리 카드
+task,5A4815C07DB2039D,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,수영 속도 카드,advanced_ae:swim_speed_card,수영 속도 카드,명시적 task.title 없이 아이템 hover 사용,수영 속도 카드
+task,7C1C34179BB3552E,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,야간 투시 카드,advanced_ae:night_vision_card,야간 투시 카드,명시적 task.title 없이 아이템 hover 사용,야간 투시 카드
+task,478C30108F304D74,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,비행 관성 제거 카드,advanced_ae:flight_drift_card,비행 관성 제거 카드,명시적 task.title 없이 아이템 hover 사용,비행 관성 제거 카드
+quest,38D0BBD5F699EF41,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 재충전 카드,advanced_ae:recharging_card,ME 재충전 카드,설명은 있으나 명시적 quest.title 없음,ME 재충전 카드
+task,6ED37C922A9A48F0,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 재충전 카드,advanced_ae:recharging_card,ME 재충전 카드,명시적 task.title 없이 아이템 hover 사용,ME 재충전 카드
+task,29B75C2F61F66FEE,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,휴대용 작업대 카드,advanced_ae:portable_workbench_card,휴대용 작업대 카드,명시적 task.title 없이 아이템 hover 사용,휴대용 작업대 카드
+task,736770B054073D65,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,지정 제작 카드,advanced_ae:pick_craft_card,지정 제작 카드,명시적 task.title 없이 아이템 hover 사용,지정 제작 카드
+task,250C092092F5F167,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,부서진 특이점,advanced_ae:shattered_singularity,부서진 특이점,명시적 task.title 없이 아이템 hover 사용,부서진 특이점
+task,6D3FB478C48A2B98,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 합금,advanced_ae:quantum_alloy,퀀텀 합금,명시적 task.title 없이 아이템 hover 사용,퀀텀 합금
+task,6BDE1F55FC7D6CBD,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 프로세서,advanced_ae:quantum_processor,퀀텀 프로세서,명시적 task.title 없이 아이템 hover 사용,퀀텀 프로세서
+quest,1E535784A9D3DE89,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,엔트로 결정이 필요 없는 항목,,,설명은 있으나 명시적 quest.title 없음,
+task,178EE4CAC1E1A581,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 소거 셀,extendedae:void_cell,ME 소거 셀,명시적 task.title 없이 아이템 hover 사용,ME 소거 셀
+task,3DBD19E7F036C211,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,결정 복원기,extendedae:crystal_fixer,결정 복원기,명시적 task.title 없이 아이템 hover 사용,결정 복원기
 task,3EC615C0AE2B9860,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,플루익스 수정,ae2:fluix_crystal,플루익스 수정,명시적 task.title 없이 아이템 hover 사용,플루익스 수정
-task,6DEF1EE085B98E5E,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME Wireless Hub,extendedae:wireless_hub,,명시적 task.title 없이 아이템 hover 사용,
-task,430E98968D04916E,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME Active Formation Plane,extendedae:active_formation_plane,,명시적 task.title 없이 아이템 hover 사용,
-task,3171E55D6D6BD6D4,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Computer Structural Glass,advanced_ae:quantum_structure,,명시적 task.title 없이 아이템 hover 사용,
-task,1BD31EF16F5BB8FB,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Computer Accelerator,advanced_ae:quantum_accelerator,,명시적 task.title 없이 아이템 hover 사용,
-task,26C2ACE06AFD6863,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Computer Core,advanced_ae:quantum_core,,명시적 task.title 없이 아이템 hover 사용,
-task,0F49E7950B0C2F41,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,Quantum Computer Multi-Threader,advanced_ae:quantum_multi_threader,,명시적 task.title 없이 아이템 hover 사용,
+task,6DEF1EE085B98E5E,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 무선 허브,extendedae:wireless_hub,ME 무선 허브,명시적 task.title 없이 아이템 hover 사용,ME 무선 허브
+task,430E98968D04916E,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,ME 능동 형성 평면,extendedae:active_formation_plane,ME 능동 형성 평면,명시적 task.title 없이 아이템 hover 사용,ME 능동 형성 평면
+task,3171E55D6D6BD6D4,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 컴퓨터 구조 유리,advanced_ae:quantum_structure,퀀텀 컴퓨터 구조 유리,명시적 task.title 없이 아이템 hover 사용,퀀텀 컴퓨터 구조 유리
+task,1BD31EF16F5BB8FB,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 컴퓨터 가속기,advanced_ae:quantum_accelerator,퀀텀 컴퓨터 가속기,명시적 task.title 없이 아이템 hover 사용,퀀텀 컴퓨터 가속기
+task,26C2ACE06AFD6863,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 컴퓨터 코어,advanced_ae:quantum_core,퀀텀 컴퓨터 코어,명시적 task.title 없이 아이템 hover 사용,퀀텀 컴퓨터 코어
+task,0F49E7950B0C2F41,51A2FE60D8B76FC6,extended__advanced_ae.snbt,,,퀀텀 컴퓨터 멀티 스레더,advanced_ae:quantum_multi_threader,퀀텀 컴퓨터 멀티 스레더,명시적 task.title 없이 아이템 hover 사용,퀀텀 컴퓨터 멀티 스레더
 task,540DD4E3E568DBF2,3C78926E5D301BA0,extreme_reactors.snbt,,,우라늄 주괴,alltheores:uranium_ingot,,명시적 task.title 없이 아이템 hover 사용,
 task,4B83A0D1C2C3C226,3C78926E5D301BA0,extreme_reactors.snbt,,,Graphite Bar,bigreactors:graphite_ingot,,명시적 task.title 없이 아이템 hover 사용,
 task,70D705C81989D87C,3C78926E5D301BA0,extreme_reactors.snbt,,,Reactor Casing (Basic),bigreactors:basic_reactorcasing,,명시적 task.title 없이 아이템 hover 사용,
@@ -2888,10 +2960,7 @@ task,127F33E4DD658827,193F91842D2ED7D9,industrial_foregoing.snbt,,,Soul Surge,in
 task,12A668ED9379E8DC,193F91842D2ED7D9,industrial_foregoing.snbt,,,ME 인터페이스,ae2:interface,ME 인터페이스,명시적 task.title 없이 아이템 hover 사용,ME 인터페이스
 task,6E4A9D2048668D03,193F91842D2ED7D9,industrial_foregoing.snbt,,,ME 저장 버스,ae2:storage_bus,ME 저장 버스,명시적 task.title 없이 아이템 hover 사용,ME 저장 버스
 task,7683CF8C750FE6DB,193F91842D2ED7D9,industrial_foregoing.snbt,,,1K Soul Storage Part,refinedtypes:1k_soul_storage_part,,명시적 task.title 없이 아이템 hover 사용,
-task,6D00B76B8A141BB8,193F91842D2ED7D9,industrial_foregoing.snbt,Any #advanced_ae:adv_pattern_provider,,,ftbfiltersystem:smart_filter,,명시적 task.title 없이 아이템 hover 사용,
-task,7FE0E65F41036C78,193F91842D2ED7D9,industrial_foregoing.snbt,,,Advanced Pattern Encoder,advanced_ae:adv_pattern_encoder,,명시적 task.title 없이 아이템 hover 사용,
-task,7FBDB1383D052B82,193F91842D2ED7D9,industrial_foregoing.snbt,ME Export Bus OR ME Interface,,,ftbfiltersystem:smart_filter,,명시적 task.title 없이 아이템 hover 사용,
-task,4031B8B8FBDDEEE4,193F91842D2ED7D9,industrial_foregoing.snbt,Transfer Labels,,,ftbfiltersystem:smart_filter,,명시적 task.title 없이 아이템 hover 사용,
+task,7FE0E65F41036C78,193F91842D2ED7D9,industrial_foregoing.snbt,,,고급 패턴 인코더,advanced_ae:adv_pattern_encoder,고급 패턴 인코더,명시적 task.title 없이 아이템 hover 사용,고급 패턴 인코더
 task,5BCE4EFD40BF767D,193F91842D2ED7D9,industrial_foregoing.snbt,Wrenches that work with IF Machines,,,ftbfiltersystem:smart_filter,,명시적 task.title 없이 아이템 hover 사용,
 task,4126D0DCE63BDB5C,69299302373C4CBC,integrated_dynamics.snbt,,,결정화된 멘릴 덩어리,integrateddynamics:crystalized_menril_chunk,,명시적 task.title 없이 아이템 hover 사용,
 task,6B66A1F27CB47748,69299302373C4CBC,integrated_dynamics.snbt,,,논리 케이블,integrateddynamics:cable,,명시적 task.title 없이 아이템 hover 사용,
@@ -3689,6 +3758,7 @@ task,2A37E5CF3D3AFEEF,0A093D8C4429B627,mekanism_reactors.snbt,,,,mekanism:module
 task,795F47DECA8922C5,0A093D8C4429B627,mekanism_reactors.snbt,,,,mekanism:module_silk_touch_unit,,명시적 task.title 없이 아이템 hover 사용,
 task,0E96DB67E37EC747,0A093D8C4429B627,mekanism_reactors.snbt,,,,mekanism:module_fortune_unit,,명시적 task.title 없이 아이템 hover 사용,
 task,173D44FBA6A06D77,0A093D8C4429B627,mekanism_reactors.snbt,,,,mekanism:module_blasting_unit,,명시적 task.title 없이 아이템 hover 사용,
+quest,77B6A7151B3E5980,0A093D8C4429B627,mekanism_reactors.snbt,&aVein Mining &7Unit,,item,mekanism:module_vein_mining_unit,,설명은 있으나 명시적 quest.title 없음,
 task,2F6EF6B1BFF34281,0A093D8C4429B627,mekanism_reactors.snbt,,,,mekanism:module_vein_mining_unit,,명시적 task.title 없이 아이템 hover 사용,
 task,33369946D240D6A4,0A093D8C4429B627,mekanism_reactors.snbt,,,,mekanism:module_teleportation_unit,,명시적 task.title 없이 아이템 hover 사용,
 task,2E6D83EA355A31EB,0A093D8C4429B627,mekanism_reactors.snbt,,,,mekanism:module_electrolytic_breathing_unit,,명시적 task.title 없이 아이템 hover 사용,
@@ -4731,8 +4801,11 @@ quest,1E9BD4B74DAEA9FC,26E6ED94168A05C4,productive_bees.snbt,,,End Stone Nest,pr
 task,23A45F19E1E556BB,26E6ED94168A05C4,productive_bees.snbt,,,End Stone Nest,productivebees:end_stone_nest,,명시적 task.title 없이 아이템 hover 사용,
 quest,3155E4212045BC8E,26E6ED94168A05C4,productive_bees.snbt,,,Obsidian Nest,productivebees:obsidian_nest,,설명은 있으나 명시적 quest.title 없음,
 task,727AAC7516CF8B5B,26E6ED94168A05C4,productive_bees.snbt,,,Obsidian Nest,productivebees:obsidian_nest,,명시적 task.title 없이 아이템 hover 사용,
+task,6D4F62833424ADC0,26E6ED94168A05C4,productive_bees.snbt,Iron Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 quest,37367101B3DAA70F,26E6ED94168A05C4,productive_bees.snbt,,,애시 채굴 벌,,,설명은 있으나 명시적 quest.title 없음,
 task,36B877E6A5FD8C90,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,263F0E416A8E1110,26E6ED94168A05C4,productive_bees.snbt,Copper Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,17C7DC04BC22C0D7,26E6ED94168A05C4,productive_bees.snbt,Tin Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,00D07DFC9652079E,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,599E5DE4CA93A7B6,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 quest,131EC039435B8878,26E6ED94168A05C4,productive_bees.snbt,,,Honey Treat,productivebees:honey_treat,,설명은 있으나 명시적 quest.title 없음,
@@ -4754,39 +4827,64 @@ task,0E00664D21D5F455,26E6ED94168A05C4,productive_bees.snbt,,,,productivelib:upg
 task,1FC189168CBA602A,26E6ED94168A05C4,productive_bees.snbt,,,,productivelib:upgrade_entity_filter,,명시적 task.title 없이 아이템 hover 사용,
 task,17300E02ADB4EFD4,26E6ED94168A05C4,productive_bees.snbt,,,,productivelib:upgrade_gene_sampler,,명시적 task.title 없이 아이템 hover 사용,
 quest,33A0E06FE5CFD8F3,26E6ED94168A05C4,productive_bees.snbt,,,원심분리기,ftbfiltersystem:smart_filter,,설명은 있으나 명시적 quest.title 없음,
+task,4EF5B261BAD2AC7D,26E6ED94168A05C4,productive_bees.snbt,Diamond Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,429FA8057B666565,26E6ED94168A05C4,productive_bees.snbt,Lapis Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,345245C32DB7B4D4,26E6ED94168A05C4,productive_bees.snbt,Redstone Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,5D77A872C811C243,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,17B0E19125FCFA1A,26E6ED94168A05C4,productive_bees.snbt,Glowing Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,7B7C1C5BFEC92058,26E6ED94168A05C4,productive_bees.snbt,Emerald Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,5E017E6B7E3F56B7,26E6ED94168A05C4,productive_bees.snbt,Slimy Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,065E5450AC87F1D5,26E6ED94168A05C4,productive_bees.snbt,Ancient Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,5BFAA4BB6651F71A,26E6ED94168A05C4,productive_bees.snbt,Withered Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,5117B9DD87AEC38C,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,4203F7ED807F3D30,26E6ED94168A05C4,productive_bees.snbt,Skeletal Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,2CC38211F4C54ED8,26E6ED94168A05C4,productive_bees.snbt,Draconic Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,32B3BE9341FE10F1,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,02C1FEBCFBB7784A,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,181135E3A83C5B9E,26E6ED94168A05C4,productive_bees.snbt,Zinc Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,299DE26FF7293F34,26E6ED94168A05C4,productive_bees.snbt,Electrum Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,705512BF42553462,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,77FD937E789C8028,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,32D38975C72D55CC,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,79AEDC66EB312BCA,26E6ED94168A05C4,productive_bees.snbt,Brass Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 quest,6786B08C30D26037,26E6ED94168A05C4,productive_bees.snbt,,,노마드 벌,,,설명은 있으나 명시적 quest.title 없음,
 task,49F452C12DF14873,26E6ED94168A05C4,productive_bees.snbt,,,Sugarbag Honeycomb,productivebees:sugarbag_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,52CC71A679432ABF,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,55F718D796CEB1B1,26E6ED94168A05C4,productive_bees.snbt,Bronze Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,5CDE248B0C86A6A8,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,4FCEB24FC83D22A9,26E6ED94168A05C4,productive_bees.snbt,Constantan Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 quest,2E51F09F6D9E5EF8,26E6ED94168A05C4,productive_bees.snbt,,,큐비,,,설명은 있으나 명시적 quest.title 없음,
 task,5806849FE5F7E615,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,7C03568830DB2B1B,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,33DFBD084487873A,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,4DA6445DB5F3B85E,26E6ED94168A05C4,productive_bees.snbt,Lumium Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,2127300009B87B98,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,1E37FD73461EFA29,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,50823C029014781A,26E6ED94168A05C4,productive_bees.snbt,Obsidian Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,4471A530B55D4140,26E6ED94168A05C4,productive_bees.snbt,Osmium Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,5C358DFF9CD0D1D9,26E6ED94168A05C4,productive_bees.snbt,Radioactive Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,56E50AF4DB0B9F30,26E6ED94168A05C4,productive_bees.snbt,,,Milky Comb,productivebees:honeycomb_milky,,명시적 task.title 없이 아이템 hover 사용,
+task,5B5DBA0A7644A551,26E6ED94168A05C4,productive_bees.snbt,Signalum Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,231F36016794152D,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,47BAD4AA76F9CF82,26E6ED94168A05C4,productive_bees.snbt,Silver Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,7D93AC3BCF2C0BBA,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,281AD60CC0AB054F,26E6ED94168A05C4,productive_bees.snbt,,,Ghostly Comb,productivebees:honeycomb_ghostly,,명시적 task.title 없이 아이템 hover 사용,
 task,5DF426CE218104D9,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,4ADD8F6F75D38DE6,26E6ED94168A05C4,productive_bees.snbt,,,Treat on a Stick,productivebees:treat_on_a_stick,,명시적 task.title 없이 아이템 hover 사용,
 task,31D0730D68948E3B,26E6ED94168A05C4,productive_bees.snbt,,,,minecraft:saddle,,명시적 task.title 없이 아이템 hover 사용,
+task,0F2BCC279B5731AB,26E6ED94168A05C4,productive_bees.snbt,Amethyst Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,300C19B265208FC7,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,620BF9687558DE44,26E6ED94168A05C4,productive_bees.snbt,,,,minecraft:hopper,,명시적 task.title 없이 아이템 hover 사용,
 task,4E787C04DB76613F,26E6ED94168A05C4,productive_bees.snbt,,,Powdery Comb,productivebees:honeycomb_powdery,,명시적 task.title 없이 아이템 hover 사용,
+task,3B35F86B42989063,26E6ED94168A05C4,productive_bees.snbt,Crimson Shroombee Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,61136A10D8F7D8C8,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,2621BC76378ECB14,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,35A3A62D353F599D,26E6ED94168A05C4,productive_bees.snbt,,,,minecraft:shulker_shell,,명시적 task.title 없이 아이템 hover 사용,
 task,4D9AA95B45196C7B,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,5CFB7A3119C24CF3,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,0AF5A24F621B3951,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,2EA19C4E46380CDA,26E6ED94168A05C4,productive_bees.snbt,RuBee Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
+task,46C7D666D3A4A3D9,26E6ED94168A05C4,productive_bees.snbt,Sapphire Comb,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,05B2096DAF6C608E,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 task,0670FAD3200A2A5A,26E6ED94168A05C4,productive_bees.snbt,,,Honeycomb,productivebees:configurable_honeycomb,,명시적 task.title 없이 아이템 hover 사용,
 quest,17419401147B5C02,26E6ED94168A05C4,productive_bees.snbt,,,벌 번식 및 변환,,,설명은 있으나 명시적 quest.title 없음,
@@ -5383,81 +5481,81 @@ task,200CAEB425AE9FC4,1DB294A8F8686321,storage.snbt,,,차원 탱크,dimstorage:d
 quest,1A4B1CA7EC15348E,1DB294A8F8686321,storage.snbt,,,엔더 서랍,functionalstorage:ender_drawer,,설명은 있으나 명시적 quest.title 없음,
 task,42BE4FF12AD5FFB5,1DB294A8F8686321,storage.snbt,,,엔더 서랍,functionalstorage:ender_drawer,,명시적 task.title 없이 아이템 hover 사용,
 task,7EDA9BD14A177D8D,1DB294A8F8686321,storage.snbt,,,,minecraft:chest,,명시적 task.title 없이 아이템 hover 사용,
-task,660D1C03E49919EB,1DB294A8F8686321,storage.snbt,,,배낭,sophisticatedbackpacks:backpack,,명시적 task.title 없이 아이템 hover 사용,
-task,256F1CCC79CEB2D5,1DB294A8F8686321,storage.snbt,,,구리 배낭,sophisticatedbackpacks:copper_backpack,,명시적 task.title 없이 아이템 hover 사용,
-quest,1FE052F643401232,1DB294A8F8686321,storage.snbt,,,기능 틀,sophisticatedbackpacks:upgrade_base,,설명은 있으나 명시적 quest.title 없음,
-task,7C48234066589145,1DB294A8F8686321,storage.snbt,,,기능 틀,sophisticatedbackpacks:upgrade_base,,명시적 task.title 없이 아이템 hover 사용,
-quest,0E0CAA31480EC0A1,1DB294A8F8686321,storage.snbt,,,줍기 기능,sophisticatedbackpacks:pickup_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,0789D160EF625FF5,1DB294A8F8686321,storage.snbt,,,줍기 기능,sophisticatedbackpacks:pickup_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,666C188829301BE0,1DB294A8F8686321,storage.snbt,,,고급 줍기 기능,sophisticatedbackpacks:advanced_pickup_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,156FF8B7B724DC38,1DB294A8F8686321,storage.snbt,,,필터 기능,sophisticatedbackpacks:filter_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,4DFC097C1EF485B3,1DB294A8F8686321,storage.snbt,,,필터 기능,sophisticatedbackpacks:filter_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,6530A152D9337A4C,1DB294A8F8686321,storage.snbt,,,고급 필터 기능,sophisticatedbackpacks:advanced_filter_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,110D27EA86CDA62B,1DB294A8F8686321,storage.snbt,,,자석 기능,sophisticatedbackpacks:magnet_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,696764AB781624BD,1DB294A8F8686321,storage.snbt,,,자석 기능,sophisticatedbackpacks:magnet_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,14A8CEB60805E90A,1DB294A8F8686321,storage.snbt,,,고급 자석 기능,sophisticatedbackpacks:advanced_magnet_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,5FA9BC0D8476D322,1DB294A8F8686321,storage.snbt,,,식사 기능,sophisticatedbackpacks:feeding_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,5D185C4E74A8717D,1DB294A8F8686321,storage.snbt,,,식사 기능,sophisticatedbackpacks:feeding_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,41C87FC409006F13,1DB294A8F8686321,storage.snbt,,,고급 식사 기능,sophisticatedbackpacks:advanced_feeding_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,1CD2C6AFD788C35E,1DB294A8F8686321,storage.snbt,,,압축 기능,sophisticatedbackpacks:compacting_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,0F54AF81A481180B,1DB294A8F8686321,storage.snbt,,,압축 기능,sophisticatedbackpacks:compacting_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,7CA41563003856B2,1DB294A8F8686321,storage.snbt,,,고급 압축 기능,sophisticatedbackpacks:advanced_compacting_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,7EFBFF5D0DA018E7,1DB294A8F8686321,storage.snbt,,,제거 기능,sophisticatedbackpacks:void_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,04491E89A571B16F,1DB294A8F8686321,storage.snbt,,,제거 기능,sophisticatedbackpacks:void_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,3A29FF1C2AD59B06,1DB294A8F8686321,storage.snbt,,,고급 제거 기능,sophisticatedbackpacks:advanced_void_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,4B62AF0405F68041,1DB294A8F8686321,storage.snbt,,,넣기 기능,sophisticatedbackpacks:restock_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,2F5D0ABEF5F4EDEF,1DB294A8F8686321,storage.snbt,,,넣기 기능,sophisticatedbackpacks:restock_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,45492321B5D5A2D6,1DB294A8F8686321,storage.snbt,,,고급 넣기 기능,sophisticatedbackpacks:advanced_restock_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,00DB5495C3A44999,1DB294A8F8686321,storage.snbt,,,꺼내기 기능,sophisticatedbackpacks:deposit_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,68CED4583435FE43,1DB294A8F8686321,storage.snbt,,,꺼내기 기능,sophisticatedbackpacks:deposit_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,3D7F2E1489EB84AA,1DB294A8F8686321,storage.snbt,,,고급 꺼내기 기능,sophisticatedbackpacks:advanced_deposit_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,33882172DA8021F6,1DB294A8F8686321,storage.snbt,,,보충 기능,sophisticatedbackpacks:refill_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,5F6536142CDA403C,1DB294A8F8686321,storage.snbt,,,보충 기능,sophisticatedbackpacks:refill_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,7C07D6A33F7ADB02,1DB294A8F8686321,storage.snbt,,,배낭 보관 기능,sophisticatedbackpacks:inception_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,6CED93CCFF659F19,1DB294A8F8686321,storage.snbt,,,배낭 보관 기능,sophisticatedbackpacks:inception_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,037415D5B965E214,1DB294A8F8686321,storage.snbt,,,영구 기능,sophisticatedbackpacks:everlasting_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,50348CD6A080A1D1,1DB294A8F8686321,storage.snbt,,,영구 기능,sophisticatedbackpacks:everlasting_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,668C313FF46B6005,1DB294A8F8686321,storage.snbt,,,화로 기능,sophisticatedbackpacks:smelting_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,10C7C3214FFC012D,1DB294A8F8686321,storage.snbt,,,화로 기능,sophisticatedbackpacks:smelting_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,4F90A434D3719DCB,1DB294A8F8686321,storage.snbt,,,자동 화로 기능,sophisticatedbackpacks:auto_smelting_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,26A9F402DAE15EA2,1DB294A8F8686321,storage.snbt,,,훈연기 기능,sophisticatedbackpacks:smoking_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,1ABC352A4A4313E5,1DB294A8F8686321,storage.snbt,,,훈연기 기능,sophisticatedbackpacks:smoking_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,4D0ACCBF77CC0846,1DB294A8F8686321,storage.snbt,,,자동 훈연기 기능,sophisticatedbackpacks:auto_smoking_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,1E499F94A2A193E1,1DB294A8F8686321,storage.snbt,,,용광로 기능,sophisticatedbackpacks:blasting_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,677DA84F4B304778,1DB294A8F8686321,storage.snbt,,,용광로 기능,sophisticatedbackpacks:blasting_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,62BCE2BB281304DC,1DB294A8F8686321,storage.snbt,,,자동 용광로 기능,sophisticatedbackpacks:auto_blasting_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,4A854CD5EC70733E,1DB294A8F8686321,storage.snbt,,,제작대 기능,sophisticatedbackpacks:crafting_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,47BADC501A4E2AD7,1DB294A8F8686321,storage.snbt,,,제작대 기능,sophisticatedbackpacks:crafting_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,52672B7FFFD51D16,1DB294A8F8686321,storage.snbt,,,석재 절단기 기능,sophisticatedbackpacks:stonecutter_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,3BA31C5CD5C35ED5,1DB294A8F8686321,storage.snbt,,,석재 절단기 기능,sophisticatedbackpacks:stonecutter_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,7E22C7FB2F953E70,1DB294A8F8686321,storage.snbt,,,1단계 쌓기 기능,sophisticatedbackpacks:stack_upgrade_tier_1,,명시적 task.title 없이 아이템 hover 사용,
-task,15A92DA8E1A9106F,1DB294A8F8686321,storage.snbt,,,2단계 쌓기 기능,sophisticatedbackpacks:stack_upgrade_tier_2,,명시적 task.title 없이 아이템 hover 사용,
-task,161AF6650325FA0A,1DB294A8F8686321,storage.snbt,,,3단계 쌓기 기능,sophisticatedbackpacks:stack_upgrade_tier_3,,명시적 task.title 없이 아이템 hover 사용,
-task,36BEE5EDBA6FAF76,1DB294A8F8686321,storage.snbt,,,4단계 쌓기 기능,sophisticatedbackpacks:stack_upgrade_tier_4,,명시적 task.title 없이 아이템 hover 사용,
-quest,53F861876B991C36,1DB294A8F8686321,storage.snbt,,,주크박스 기능,sophisticatedbackpacks:jukebox_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,18F8BF7CC5B3126D,1DB294A8F8686321,storage.snbt,,,주크박스 기능,sophisticatedbackpacks:jukebox_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,615B9062FE8CCD36,1DB294A8F8686321,storage.snbt,,,도구 전환 기능,sophisticatedbackpacks:tool_swapper_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,24165D460DCC2212,1DB294A8F8686321,storage.snbt,,,도구 전환 기능,sophisticatedbackpacks:tool_swapper_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,700D630FE0FB8B9D,1DB294A8F8686321,storage.snbt,,,고급 도구 전환 기능,sophisticatedbackpacks:advanced_tool_swapper_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,0D4C64DD58567758,1DB294A8F8686321,storage.snbt,,,탱크 기능,sophisticatedbackpacks:tank_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,01F2B9E541480115,1DB294A8F8686321,storage.snbt,,,탱크 기능,sophisticatedbackpacks:tank_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,4C2A60FC1F1E0328,1DB294A8F8686321,storage.snbt,,,배터리 기능,sophisticatedbackpacks:battery_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,056ECFB6B80F6A37,1DB294A8F8686321,storage.snbt,,,배터리 기능,sophisticatedbackpacks:battery_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,6E9041744C592573,1DB294A8F8686321,storage.snbt,,,펌프 기능,sophisticatedbackpacks:pump_upgrade,,설명은 있으나 명시적 quest.title 없음,
-task,0B9FAD684B03985A,1DB294A8F8686321,storage.snbt,,,펌프 기능,sophisticatedbackpacks:pump_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,5B7A8E1F725C2815,1DB294A8F8686321,storage.snbt,,,고급 펌프 기능,sophisticatedbackpacks:advanced_pump_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,3B52B2670A826CE4,1DB294A8F8686321,storage.snbt,,,경험치 펌프 기능,sophisticatedbackpacks:xp_pump_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-task,372BA5CFA23D5417,1DB294A8F8686321,storage.snbt,,,철 배낭,sophisticatedbackpacks:iron_backpack,,명시적 task.title 없이 아이템 hover 사용,
-task,040F32155AD31A4C,1DB294A8F8686321,storage.snbt,,,금 배낭,sophisticatedbackpacks:gold_backpack,,명시적 task.title 없이 아이템 hover 사용,
-task,46FCA49022A41007,1DB294A8F8686321,storage.snbt,,,다이아몬드 배낭,sophisticatedbackpacks:diamond_backpack,,명시적 task.title 없이 아이템 hover 사용,
+task,660D1C03E49919EB,1DB294A8F8686321,storage.snbt,,,배낭,sophisticatedbackpacks:backpack,배낭,명시적 task.title 없이 아이템 hover 사용,배낭
+task,256F1CCC79CEB2D5,1DB294A8F8686321,storage.snbt,,,구리 배낭,sophisticatedbackpacks:copper_backpack,구리 배낭,명시적 task.title 없이 아이템 hover 사용,구리 배낭
+quest,1FE052F643401232,1DB294A8F8686321,storage.snbt,,,업그레이드 기반,sophisticatedbackpacks:upgrade_base,업그레이드 기반,설명은 있으나 명시적 quest.title 없음,업그레이드 기반
+task,7C48234066589145,1DB294A8F8686321,storage.snbt,,,업그레이드 기반,sophisticatedbackpacks:upgrade_base,업그레이드 기반,명시적 task.title 없이 아이템 hover 사용,업그레이드 기반
+quest,0E0CAA31480EC0A1,1DB294A8F8686321,storage.snbt,,,줍기 업그레이드,sophisticatedbackpacks:pickup_upgrade,줍기 업그레이드,설명은 있으나 명시적 quest.title 없음,줍기 업그레이드
+task,0789D160EF625FF5,1DB294A8F8686321,storage.snbt,,,줍기 업그레이드,sophisticatedbackpacks:pickup_upgrade,줍기 업그레이드,명시적 task.title 없이 아이템 hover 사용,줍기 업그레이드
+task,666C188829301BE0,1DB294A8F8686321,storage.snbt,,,고급 줍기 업그레이드,sophisticatedbackpacks:advanced_pickup_upgrade,고급 줍기 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 줍기 업그레이드
+quest,156FF8B7B724DC38,1DB294A8F8686321,storage.snbt,,,필터 업그레이드,sophisticatedbackpacks:filter_upgrade,필터 업그레이드,설명은 있으나 명시적 quest.title 없음,필터 업그레이드
+task,4DFC097C1EF485B3,1DB294A8F8686321,storage.snbt,,,필터 업그레이드,sophisticatedbackpacks:filter_upgrade,필터 업그레이드,명시적 task.title 없이 아이템 hover 사용,필터 업그레이드
+task,6530A152D9337A4C,1DB294A8F8686321,storage.snbt,,,고급 필터 업그레이드,sophisticatedbackpacks:advanced_filter_upgrade,고급 필터 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 필터 업그레이드
+quest,110D27EA86CDA62B,1DB294A8F8686321,storage.snbt,,,자석 업그레이드,sophisticatedbackpacks:magnet_upgrade,자석 업그레이드,설명은 있으나 명시적 quest.title 없음,자석 업그레이드
+task,696764AB781624BD,1DB294A8F8686321,storage.snbt,,,자석 업그레이드,sophisticatedbackpacks:magnet_upgrade,자석 업그레이드,명시적 task.title 없이 아이템 hover 사용,자석 업그레이드
+task,14A8CEB60805E90A,1DB294A8F8686321,storage.snbt,,,고급 자석 업그레이드,sophisticatedbackpacks:advanced_magnet_upgrade,고급 자석 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 자석 업그레이드
+quest,5FA9BC0D8476D322,1DB294A8F8686321,storage.snbt,,,식사 업그레이드,sophisticatedbackpacks:feeding_upgrade,식사 업그레이드,설명은 있으나 명시적 quest.title 없음,식사 업그레이드
+task,5D185C4E74A8717D,1DB294A8F8686321,storage.snbt,,,식사 업그레이드,sophisticatedbackpacks:feeding_upgrade,식사 업그레이드,명시적 task.title 없이 아이템 hover 사용,식사 업그레이드
+task,41C87FC409006F13,1DB294A8F8686321,storage.snbt,,,고급 식사 업그레이드,sophisticatedbackpacks:advanced_feeding_upgrade,고급 식사 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 식사 업그레이드
+quest,1CD2C6AFD788C35E,1DB294A8F8686321,storage.snbt,,,압축 업그레이드,sophisticatedbackpacks:compacting_upgrade,압축 업그레이드,설명은 있으나 명시적 quest.title 없음,압축 업그레이드
+task,0F54AF81A481180B,1DB294A8F8686321,storage.snbt,,,압축 업그레이드,sophisticatedbackpacks:compacting_upgrade,압축 업그레이드,명시적 task.title 없이 아이템 hover 사용,압축 업그레이드
+task,7CA41563003856B2,1DB294A8F8686321,storage.snbt,,,고급 압축 업그레이드,sophisticatedbackpacks:advanced_compacting_upgrade,고급 압축 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 압축 업그레이드
+quest,7EFBFF5D0DA018E7,1DB294A8F8686321,storage.snbt,,,제거 업그레이드,sophisticatedbackpacks:void_upgrade,제거 업그레이드,설명은 있으나 명시적 quest.title 없음,제거 업그레이드
+task,04491E89A571B16F,1DB294A8F8686321,storage.snbt,,,제거 업그레이드,sophisticatedbackpacks:void_upgrade,제거 업그레이드,명시적 task.title 없이 아이템 hover 사용,제거 업그레이드
+task,3A29FF1C2AD59B06,1DB294A8F8686321,storage.snbt,,,고급 제거 업그레이드,sophisticatedbackpacks:advanced_void_upgrade,고급 제거 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 제거 업그레이드
+quest,4B62AF0405F68041,1DB294A8F8686321,storage.snbt,,,재입고 업그레이드,sophisticatedbackpacks:restock_upgrade,재입고 업그레이드,설명은 있으나 명시적 quest.title 없음,재입고 업그레이드
+task,2F5D0ABEF5F4EDEF,1DB294A8F8686321,storage.snbt,,,재입고 업그레이드,sophisticatedbackpacks:restock_upgrade,재입고 업그레이드,명시적 task.title 없이 아이템 hover 사용,재입고 업그레이드
+task,45492321B5D5A2D6,1DB294A8F8686321,storage.snbt,,,고급 재입고 업그레이드,sophisticatedbackpacks:advanced_restock_upgrade,고급 재입고 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 재입고 업그레이드
+quest,00DB5495C3A44999,1DB294A8F8686321,storage.snbt,,,보관 업그레이드,sophisticatedbackpacks:deposit_upgrade,보관 업그레이드,설명은 있으나 명시적 quest.title 없음,보관 업그레이드
+task,68CED4583435FE43,1DB294A8F8686321,storage.snbt,,,보관 업그레이드,sophisticatedbackpacks:deposit_upgrade,보관 업그레이드,명시적 task.title 없이 아이템 hover 사용,보관 업그레이드
+task,3D7F2E1489EB84AA,1DB294A8F8686321,storage.snbt,,,고급 보관 업그레이드,sophisticatedbackpacks:advanced_deposit_upgrade,고급 보관 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 보관 업그레이드
+quest,33882172DA8021F6,1DB294A8F8686321,storage.snbt,,,보충 업그레이드,sophisticatedbackpacks:refill_upgrade,보충 업그레이드,설명은 있으나 명시적 quest.title 없음,보충 업그레이드
+task,5F6536142CDA403C,1DB294A8F8686321,storage.snbt,,,보충 업그레이드,sophisticatedbackpacks:refill_upgrade,보충 업그레이드,명시적 task.title 없이 아이템 hover 사용,보충 업그레이드
+quest,7C07D6A33F7ADB02,1DB294A8F8686321,storage.snbt,,,배낭 중첩 업그레이드,sophisticatedbackpacks:inception_upgrade,배낭 중첩 업그레이드,설명은 있으나 명시적 quest.title 없음,배낭 중첩 업그레이드
+task,6CED93CCFF659F19,1DB294A8F8686321,storage.snbt,,,배낭 중첩 업그레이드,sophisticatedbackpacks:inception_upgrade,배낭 중첩 업그레이드,명시적 task.title 없이 아이템 hover 사용,배낭 중첩 업그레이드
+quest,037415D5B965E214,1DB294A8F8686321,storage.snbt,,,영구 보존 업그레이드,sophisticatedbackpacks:everlasting_upgrade,영구 보존 업그레이드,설명은 있으나 명시적 quest.title 없음,영구 보존 업그레이드
+task,50348CD6A080A1D1,1DB294A8F8686321,storage.snbt,,,영구 보존 업그레이드,sophisticatedbackpacks:everlasting_upgrade,영구 보존 업그레이드,명시적 task.title 없이 아이템 hover 사용,영구 보존 업그레이드
+quest,668C313FF46B6005,1DB294A8F8686321,storage.snbt,,,화로 업그레이드,sophisticatedbackpacks:smelting_upgrade,화로 업그레이드,설명은 있으나 명시적 quest.title 없음,화로 업그레이드
+task,10C7C3214FFC012D,1DB294A8F8686321,storage.snbt,,,화로 업그레이드,sophisticatedbackpacks:smelting_upgrade,화로 업그레이드,명시적 task.title 없이 아이템 hover 사용,화로 업그레이드
+task,4F90A434D3719DCB,1DB294A8F8686321,storage.snbt,,,자동 화로 업그레이드,sophisticatedbackpacks:auto_smelting_upgrade,자동 화로 업그레이드,명시적 task.title 없이 아이템 hover 사용,자동 화로 업그레이드
+quest,26A9F402DAE15EA2,1DB294A8F8686321,storage.snbt,,,훈연기 업그레이드,sophisticatedbackpacks:smoking_upgrade,훈연기 업그레이드,설명은 있으나 명시적 quest.title 없음,훈연기 업그레이드
+task,1ABC352A4A4313E5,1DB294A8F8686321,storage.snbt,,,훈연기 업그레이드,sophisticatedbackpacks:smoking_upgrade,훈연기 업그레이드,명시적 task.title 없이 아이템 hover 사용,훈연기 업그레이드
+task,4D0ACCBF77CC0846,1DB294A8F8686321,storage.snbt,,,자동 훈연기 업그레이드,sophisticatedbackpacks:auto_smoking_upgrade,자동 훈연기 업그레이드,명시적 task.title 없이 아이템 hover 사용,자동 훈연기 업그레이드
+quest,1E499F94A2A193E1,1DB294A8F8686321,storage.snbt,,,용광로 업그레이드,sophisticatedbackpacks:blasting_upgrade,용광로 업그레이드,설명은 있으나 명시적 quest.title 없음,용광로 업그레이드
+task,677DA84F4B304778,1DB294A8F8686321,storage.snbt,,,용광로 업그레이드,sophisticatedbackpacks:blasting_upgrade,용광로 업그레이드,명시적 task.title 없이 아이템 hover 사용,용광로 업그레이드
+task,62BCE2BB281304DC,1DB294A8F8686321,storage.snbt,,,자동 용광로 업그레이드,sophisticatedbackpacks:auto_blasting_upgrade,자동 용광로 업그레이드,명시적 task.title 없이 아이템 hover 사용,자동 용광로 업그레이드
+quest,4A854CD5EC70733E,1DB294A8F8686321,storage.snbt,,,제작대 업그레이드,sophisticatedbackpacks:crafting_upgrade,제작대 업그레이드,설명은 있으나 명시적 quest.title 없음,제작대 업그레이드
+task,47BADC501A4E2AD7,1DB294A8F8686321,storage.snbt,,,제작대 업그레이드,sophisticatedbackpacks:crafting_upgrade,제작대 업그레이드,명시적 task.title 없이 아이템 hover 사용,제작대 업그레이드
+quest,52672B7FFFD51D16,1DB294A8F8686321,storage.snbt,,,석재 절단기 업그레이드,sophisticatedbackpacks:stonecutter_upgrade,석재 절단기 업그레이드,설명은 있으나 명시적 quest.title 없음,석재 절단기 업그레이드
+task,3BA31C5CD5C35ED5,1DB294A8F8686321,storage.snbt,,,석재 절단기 업그레이드,sophisticatedbackpacks:stonecutter_upgrade,석재 절단기 업그레이드,명시적 task.title 없이 아이템 hover 사용,석재 절단기 업그레이드
+task,7E22C7FB2F953E70,1DB294A8F8686321,storage.snbt,,,1단계 스택 업그레이드,sophisticatedbackpacks:stack_upgrade_tier_1,1단계 스택 업그레이드,명시적 task.title 없이 아이템 hover 사용,1단계 스택 업그레이드
+task,15A92DA8E1A9106F,1DB294A8F8686321,storage.snbt,,,2단계 스택 업그레이드,sophisticatedbackpacks:stack_upgrade_tier_2,2단계 스택 업그레이드,명시적 task.title 없이 아이템 hover 사용,2단계 스택 업그레이드
+task,161AF6650325FA0A,1DB294A8F8686321,storage.snbt,,,3단계 스택 업그레이드,sophisticatedbackpacks:stack_upgrade_tier_3,3단계 스택 업그레이드,명시적 task.title 없이 아이템 hover 사용,3단계 스택 업그레이드
+task,36BEE5EDBA6FAF76,1DB294A8F8686321,storage.snbt,,,4단계 스택 업그레이드,sophisticatedbackpacks:stack_upgrade_tier_4,4단계 스택 업그레이드,명시적 task.title 없이 아이템 hover 사용,4단계 스택 업그레이드
+quest,53F861876B991C36,1DB294A8F8686321,storage.snbt,,,주크박스 업그레이드,sophisticatedbackpacks:jukebox_upgrade,주크박스 업그레이드,설명은 있으나 명시적 quest.title 없음,주크박스 업그레이드
+task,18F8BF7CC5B3126D,1DB294A8F8686321,storage.snbt,,,주크박스 업그레이드,sophisticatedbackpacks:jukebox_upgrade,주크박스 업그레이드,명시적 task.title 없이 아이템 hover 사용,주크박스 업그레이드
+quest,615B9062FE8CCD36,1DB294A8F8686321,storage.snbt,,,도구 교체 업그레이드,sophisticatedbackpacks:tool_swapper_upgrade,도구 교체 업그레이드,설명은 있으나 명시적 quest.title 없음,도구 교체 업그레이드
+task,24165D460DCC2212,1DB294A8F8686321,storage.snbt,,,도구 교체 업그레이드,sophisticatedbackpacks:tool_swapper_upgrade,도구 교체 업그레이드,명시적 task.title 없이 아이템 hover 사용,도구 교체 업그레이드
+task,700D630FE0FB8B9D,1DB294A8F8686321,storage.snbt,,,고급 도구 교체 업그레이드,sophisticatedbackpacks:advanced_tool_swapper_upgrade,고급 도구 교체 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 도구 교체 업그레이드
+quest,0D4C64DD58567758,1DB294A8F8686321,storage.snbt,,,탱크 업그레이드,sophisticatedbackpacks:tank_upgrade,탱크 업그레이드,설명은 있으나 명시적 quest.title 없음,탱크 업그레이드
+task,01F2B9E541480115,1DB294A8F8686321,storage.snbt,,,탱크 업그레이드,sophisticatedbackpacks:tank_upgrade,탱크 업그레이드,명시적 task.title 없이 아이템 hover 사용,탱크 업그레이드
+quest,4C2A60FC1F1E0328,1DB294A8F8686321,storage.snbt,,,배터리 업그레이드,sophisticatedbackpacks:battery_upgrade,배터리 업그레이드,설명은 있으나 명시적 quest.title 없음,배터리 업그레이드
+task,056ECFB6B80F6A37,1DB294A8F8686321,storage.snbt,,,배터리 업그레이드,sophisticatedbackpacks:battery_upgrade,배터리 업그레이드,명시적 task.title 없이 아이템 hover 사용,배터리 업그레이드
+quest,6E9041744C592573,1DB294A8F8686321,storage.snbt,,,펌프 업그레이드,sophisticatedbackpacks:pump_upgrade,펌프 업그레이드,설명은 있으나 명시적 quest.title 없음,펌프 업그레이드
+task,0B9FAD684B03985A,1DB294A8F8686321,storage.snbt,,,펌프 업그레이드,sophisticatedbackpacks:pump_upgrade,펌프 업그레이드,명시적 task.title 없이 아이템 hover 사용,펌프 업그레이드
+task,5B7A8E1F725C2815,1DB294A8F8686321,storage.snbt,,,고급 펌프 업그레이드,sophisticatedbackpacks:advanced_pump_upgrade,고급 펌프 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 펌프 업그레이드
+task,3B52B2670A826CE4,1DB294A8F8686321,storage.snbt,,,경험치 펌프 업그레이드,sophisticatedbackpacks:xp_pump_upgrade,경험치 펌프 업그레이드,명시적 task.title 없이 아이템 hover 사용,경험치 펌프 업그레이드
+task,372BA5CFA23D5417,1DB294A8F8686321,storage.snbt,,,철 배낭,sophisticatedbackpacks:iron_backpack,철 배낭,명시적 task.title 없이 아이템 hover 사용,철 배낭
+task,040F32155AD31A4C,1DB294A8F8686321,storage.snbt,,,금 배낭,sophisticatedbackpacks:gold_backpack,금 배낭,명시적 task.title 없이 아이템 hover 사용,금 배낭
+task,46FCA49022A41007,1DB294A8F8686321,storage.snbt,,,다이아몬드 배낭,sophisticatedbackpacks:diamond_backpack,다이아몬드 배낭,명시적 task.title 없이 아이템 hover 사용,다이아몬드 배낭
 quest,072FBEB0F6F1BC48,1DB294A8F8686321,storage.snbt,,,연결 도구,functionalstorage:linking_tool,,설명은 있으나 명시적 quest.title 없음,
 task,62C6F14FE6A82305,1DB294A8F8686321,storage.snbt,,,연결 도구,functionalstorage:linking_tool,,명시적 task.title 없이 아이템 hover 사용,
 task,0FFBB888FD6684A7,1DB294A8F8686321,storage.snbt,,,구리 업그레이드,functionalstorage:copper_upgrade,,명시적 task.title 없이 아이템 hover 사용,
 task,4568F621A313CFA4,1DB294A8F8686321,storage.snbt,,,금 업그레이드,functionalstorage:gold_upgrade,,명시적 task.title 없이 아이템 hover 사용,
 task,5F8923D392E224BB,1DB294A8F8686321,storage.snbt,,,다이아몬드 업그레이드,functionalstorage:diamond_upgrade,,명시적 task.title 없이 아이템 hover 사용,
 task,1E992354ECC75B6D,1DB294A8F8686321,storage.snbt,,,네더라이트 업그레이드,functionalstorage:netherite_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,4007DFA7CC3A5FF2,1DB294A8F8686321,storage.snbt,,,기능 틀,sophisticatedstorage:upgrade_base,,설명은 있으나 명시적 quest.title 없음,
-task,3B4EC4A48DB9512A,1DB294A8F8686321,storage.snbt,,,기능 틀,sophisticatedstorage:upgrade_base,,명시적 task.title 없이 아이템 hover 사용,
+quest,4007DFA7CC3A5FF2,1DB294A8F8686321,storage.snbt,,,업그레이드 기반,sophisticatedstorage:upgrade_base,업그레이드 기반,설명은 있으나 명시적 quest.title 없음,업그레이드 기반
+task,3B4EC4A48DB9512A,1DB294A8F8686321,storage.snbt,,,업그레이드 기반,sophisticatedstorage:upgrade_base,업그레이드 기반,명시적 task.title 없이 아이템 hover 사용,업그레이드 기반
 quest,508A8366219175FE,1DB294A8F8686321,storage.snbt,,,구성 도구,functionalstorage:configuration_tool,,설명은 있으나 명시적 quest.title 없음,
 task,2F275302DA90D4E4,1DB294A8F8686321,storage.snbt,,,구성 도구,functionalstorage:configuration_tool,,명시적 task.title 없이 아이템 hover 사용,
 quest,7EF57BBEAA4B6B08,1DB294A8F8686321,storage.snbt,,,NBT와 당신!,,,설명은 있으나 명시적 quest.title 없음,
@@ -5477,15 +5575,15 @@ quest,1CACE201C6AA0913,1DB294A8F8686321,storage.snbt,,,공허 업그레이드,fu
 task,322B685A58D540CC,1DB294A8F8686321,storage.snbt,,,공허 업그레이드,functionalstorage:void_upgrade,,명시적 task.title 없이 아이템 hover 사용,
 quest,70902EF96F060672,1DB294A8F8686321,storage.snbt,,,레드스톤 업그레이드,functionalstorage:redstone_upgrade,,설명은 있으나 명시적 quest.title 없음,
 task,4960C5A7D9ADEE56,1DB294A8F8686321,storage.snbt,,,레드스톤 업그레이드,functionalstorage:redstone_upgrade,,명시적 task.title 없이 아이템 hover 사용,
-quest,1FE17B1C7C639F88,1DB294A8F8686321,storage.snbt,,,저장소 제어기,sophisticatedstorage:controller,,설명은 있으나 명시적 quest.title 없음,
-task,61EF128F344DD6D1,1DB294A8F8686321,storage.snbt,,,저장소 제어기,sophisticatedstorage:controller,,명시적 task.title 없이 아이템 hover 사용,
-quest,0108F3EFDFD6DFD0,1DB294A8F8686321,storage.snbt,,,저장소 연결기,sophisticatedstorage:storage_link,,설명은 있으나 명시적 quest.title 없음,
-task,0AC5957D87360986,1DB294A8F8686321,storage.snbt,,,저장소 연결기,sophisticatedstorage:storage_link,,명시적 task.title 없이 아이템 hover 사용,
-quest,78E51D22C16C4686,1DB294A8F8686321,storage.snbt,,,저장소 도구,sophisticatedstorage:storage_tool,,설명은 있으나 명시적 quest.title 없음,
-task,7151F5BC9673A655,1DB294A8F8686321,storage.snbt,,,저장소 도구,sophisticatedstorage:storage_tool,,명시적 task.title 없이 아이템 hover 사용,
+quest,1FE17B1C7C639F88,1DB294A8F8686321,storage.snbt,,,저장소 제어기,sophisticatedstorage:controller,저장소 제어기,설명은 있으나 명시적 quest.title 없음,저장소 제어기
+task,61EF128F344DD6D1,1DB294A8F8686321,storage.snbt,,,저장소 제어기,sophisticatedstorage:controller,저장소 제어기,명시적 task.title 없이 아이템 hover 사용,저장소 제어기
+quest,0108F3EFDFD6DFD0,1DB294A8F8686321,storage.snbt,,,저장소 연결기,sophisticatedstorage:storage_link,저장소 연결기,설명은 있으나 명시적 quest.title 없음,저장소 연결기
+task,0AC5957D87360986,1DB294A8F8686321,storage.snbt,,,저장소 연결기,sophisticatedstorage:storage_link,저장소 연결기,명시적 task.title 없이 아이템 hover 사용,저장소 연결기
+quest,78E51D22C16C4686,1DB294A8F8686321,storage.snbt,,,저장소 도구,sophisticatedstorage:storage_tool,저장소 도구,설명은 있으나 명시적 quest.title 없음,저장소 도구
+task,7151F5BC9673A655,1DB294A8F8686321,storage.snbt,,,저장소 도구,sophisticatedstorage:storage_tool,저장소 도구,명시적 task.title 없이 아이템 hover 사용,저장소 도구
 quest,1310C1E14C259807,1DB294A8F8686321,storage.snbt,,,틀이 있는 서랍들,ftbfiltersystem:smart_filter,,설명은 있으나 명시적 quest.title 없음,
 quest,38F9E9A830D3EA0C,1DB294A8F8686321,storage.snbt,,,액체 서랍,ftbfiltersystem:smart_filter,,설명은 있으나 명시적 quest.title 없음,
-task,53378C165A5E39A5,1DB294A8F8686321,storage.snbt,,,네더라이트 배낭,sophisticatedbackpacks:netherite_backpack,,명시적 task.title 없이 아이템 hover 사용,
+task,53378C165A5E39A5,1DB294A8F8686321,storage.snbt,,,네더라이트 배낭,sophisticatedbackpacks:netherite_backpack,네더라이트 배낭,명시적 task.title 없이 아이템 hover 사용,네더라이트 배낭
 quest,7F990FBC1A691020,1DB294A8F8686321,storage.snbt,,,item,minecraft:trapped_chest,,설명은 있으나 명시적 quest.title 없음,
 task,34909E6C5CB47A43,1DB294A8F8686321,storage.snbt,,,,minecraft:trapped_chest,,명시적 task.title 없이 아이템 hover 사용,
 quest,1659A59303C15CC9,1DB294A8F8686321,storage.snbt,,,item,minecraft:barrel,,설명은 있으나 명시적 quest.title 없음,
@@ -5495,7 +5593,7 @@ task,63F391DE2563954A,1DB294A8F8686321,storage.snbt,,,,minecraft:ender_chest,,�
 quest,33AADC1B97E9F7A9,1DB294A8F8686321,storage.snbt,,,item,minecraft:chest_minecart,,설명은 있으나 명시적 quest.title 없음,
 task,34F6C74C0D167C8B,1DB294A8F8686321,storage.snbt,,,,minecraft:chest_minecart,,명시적 task.title 없이 아이템 hover 사용,
 quest,544791880F315D5A,1DB294A8F8686321,storage.snbt,,,상자가 실린 보트,ftbfiltersystem:smart_filter,,설명은 있으나 명시적 quest.title 없음,
-task,4E985BC0D755D70B,1DB294A8F8686321,storage.snbt,,,고급 보충 기능,sophisticatedbackpacks:advanced_refill_upgrade,,명시적 task.title 없이 아이템 hover 사용,
+task,4E985BC0D755D70B,1DB294A8F8686321,storage.snbt,,,고급 보충 업그레이드,sophisticatedbackpacks:advanced_refill_upgrade,고급 보충 업그레이드,명시적 task.title 없이 아이템 hover 사용,고급 보충 업그레이드
 quest,696E063016CAD1B9,1DB294A8F8686321,storage.snbt,,,금 간 업그레이드,ftbfiltersystem:smart_filter,,설명은 있으나 명시적 quest.title 없음,
 quest,209DC1E9AD4C5A84,1DB294A8F8686321,storage.snbt,,,AllRightsReserved,,,설명은 있으나 명시적 quest.title 없음,
 task,1809DDEA104A9CE8,1DB294A8F8686321,storage.snbt,AllRightsReserved,AllRightsReserved,,,,한국어 파일의 영어 task.title,
@@ -5579,6 +5677,7 @@ task,4410E4942D7C15E9,1BE666F01EFFC00D,tips_and_tricks.snbt,Gateways,,,ftbfilter
 task,1667AB546C55A285,1BE666F01EFFC00D,tips_and_tricks.snbt,,,증기 채광용 드릴,modern_industrialization:steam_mining_drill,,명시적 task.title 없이 아이템 hover 사용,
 task,62D780CE710CC05C,1BE666F01EFFC00D,tips_and_tricks.snbt,,,Mob Swab,mob_grinding_utils:mob_swab,,명시적 task.title 없이 아이템 hover 사용,
 task,605E66D5A025D45C,1BE666F01EFFC00D,tips_and_tricks.snbt,,,GM Chicken Feed,mob_grinding_utils:gm_chicken_feed,,명시적 task.title 없이 아이템 hover 사용,
+quest,030DCC13171C3E16,1BE666F01EFFC00D,tips_and_tricks.snbt,,,checkmark,,,설명은 있으나 명시적 quest.title 없음,
 task,0BB84A1074D7D214,7732CF7AAA63DB3A,twilight_forest.snbt,,,자홍색 성 문,twilightforest:pink_castle_door,,명시적 task.title 없이 아이템 hover 사용,
 task,02D55A14580DBDE9,7732CF7AAA63DB3A,twilight_forest.snbt,,,노란색 성 문,twilightforest:yellow_castle_door,,명시적 task.title 없이 아이템 hover 사용,
 task,24BB0DB1D0CEE3AE,7732CF7AAA63DB3A,twilight_forest.snbt,,,파란색 성 문,twilightforest:blue_castle_door,,명시적 task.title 없이 아이템 hover 사용,
@@ -5757,7 +5856,7 @@ task,39194D9CDF673768,65A95C2312976E49,undergarden.snbt,AllRightsReserved,AllRig
 task,4AA225E5056787B8,65A95C2312976E49,undergarden.snbt,AllRightsReserved,AllRightsReserved,,,,한국어 파일의 영어 task.title,
 quest,3708A4780ACEB34E,5B00676D79306EA2,welcome.snbt,,,퀘스트,,,설명은 있으나 명시적 quest.title 없음,
 quest,7658C1C663394E85,5B00676D79306EA2,welcome.snbt,,,유용한 명령어,,,설명은 있으나 명시적 quest.title 없음,
-quest,0C93D7A607AB8B83,5B00676D79306EA2,welcome.snbt,,,청크 소유권 주장,,,설명은 있으나 명시적 quest.title 없음,
+quest,0C93D7A607AB8B83,5B00676D79306EA2,welcome.snbt,,,청크 소유,,,설명은 있으나 명시적 quest.title 없음,
 quest,5AC1BE754210429E,5B00676D79306EA2,welcome.snbt,,,팀 생성하기,,,설명은 있으나 명시적 quest.title 없음,
 quest,49EDAA2F57D3BF1D,5B00676D79306EA2,welcome.snbt,,,AllRightsReserved,,,설명은 있으나 명시적 quest.title 없음,
 task,2C816285392535F0,5B00676D79306EA2,welcome.snbt,AllRightsReserved,AllRightsReserved,,,,한국어 파일의 영어 task.title,
@@ -5796,209 +5895,18 @@ task,4EA1F55E2C1D5795,219B7A003658D24F,xycraft.snbt,,,Hydro Pump,xycraft_machine
 task,23AEF92B0F4BD3E9,219B7A003658D24F,xycraft.snbt,,,,mysticalagriculture:kivi_seeds,,명시적 task.title 없이 아이템 hover 사용,
 quest,16B4A00948D1F60D,219B7A003658D24F,xycraft.snbt,,,AllRightsReserved,,,설명은 있으나 명시적 quest.title 없음,
 task,706FA543A6C675D3,219B7A003658D24F,xycraft.snbt,AllRightsReserved,AllRightsReserved,,,,한국어 파일의 영어 task.title,
-chapter,007B547630FF0478,,,Theurgy,신성 마법,,,,적용한 제목 정상화,Theurgy
-chapter,07210DDF872160BA,,,Applied Energistics 2,어플라이드 에너제틱스 2,,,,적용한 제목 정상화,Applied Energistics 2
-chapter,0731FA8830F28280,,,Apotheosis Gear,,,,,적용한 제목 정상화,Apotheosis 장비
-chapter,0A093D8C4429B627,,,Mekanism: Reactors,메커니즘: 원자로,,,,적용한 제목 정상화,Mekanism: 원자로
-chapter,0A52D0932DA3F809,,,Hostile Neural Networks,호스타일 뉴럴 네트워크,,,,적용한 제목 정상화,Hostile Neural Networks
-chapter,0AB4F9AED808DE48,,,Modular Routers,모듈식 라우터,,,,적용한 제목 정상화,Modular Routers
-chapter,0B826D13BAD43EEB,,,Draconic Evolution,,,,,적용한 제목 정상화,Draconic Evolution
-chapter,0D990A1D1E088701,,,Steam Age: New Beginnings,,,,,적용한 제목 정상화,증기 시대: 새로운 시작
-chapter,0E81CBCD6B1D1895,,,Apothic Spawners,어포틱 생성기,,,,적용한 제목 정상화,Apothic Spawners
-chapter,0F96DC3563DA78EF,,,Mystical Agriculture,신비농업,,,,적용한 제목 정상화,Mystical Agriculture
-chapter,100C477F4E63F20A,,,Create,생성,,,,적용한 제목 정상화,Create
-chapter,11919EBB416B2BD0,,,Relics,유물,,,,적용한 제목 정상화,Relics
-chapter,12AD9789D962B179,,,Apothic Enchanting,어포틱 마법 부여,,,,적용한 제목 정상화,Apothic Enchanting
-chapter,13B172FA69904D9F,,,Deeper and Darker,,,,,적용한 제목 정상화,Deeper and Darker
-chapter,15AAF17B6665223D,,,Refined Storage,,,,,적용한 제목 정상화,Refined Storage
-chapter,193F91842D2ED7D9,,,Industrial Foregoing,인더스트리얼 포어고잉,,,,적용한 제목 정상화,Industrial Foregoing
-chapter,1FAAEF0B9FD05CB9,,,Productive Trees,생산적인 나무,,,,적용한 제목 정상화,Productive Trees
-chapter,219B7A003658D24F,,,XyCraft,자이 크래프트,,,,적용한 제목 정상화,XyCraft
-chapter,22C20C1827FE6805,,,Immersive Engineering,이머시브 엔지니어링,,,,적용한 제목 정상화,Immersive Engineering
-chapter,23983F4DC524B14B,,,Mekanism,메커니즘,,,,적용한 제목 정상화,Mekanism
-chapter,24151251C8730F2E,,,The Aether,,,,,적용한 제목 정상화,The Aether
-chapter,25344A9254E02C8E,,,End Game,,,,,적용한 제목 정상화,최종 단계
-chapter,26E6ED94168A05C4,,,Productive Bees,프로덕티브 비,,,,적용한 제목 정상화,Productive Bees
-chapter,2A6EBEEBAB882679,,,Powah,파와,,,,적용한 제목 정상화,Powah
-chapter,2FB24A5A597459FC,,,RailCraft,레일크래프트,,,,적용한 제목 정상화,Railcraft Reborn
-chapter,3456E0C530C0038E,,,EvilCraft,이블크래프트,,,,적용한 제목 정상화,EvilCraft
-chapter,3C78926E5D301BA0,,,Extreme Reactors,익스트림 리액터,,,,적용한 제목 정상화,Extreme Reactors
-chapter,4293754F9B2D05F0,,,&aChapter 2&r: &eAllthemodium,&a챕터 2&r: &e올더모듐,,,,적용한 제목 정상화,&a2장&r: &eAllthemodium
-chapter,43BB00A7A7E1042C,,,Mahou Tsukai,마호 츠카이,,,,적용한 제목 정상화,Mahou Tsukai
-chapter,4791C8461B1B4D5F,,,Basic Armor,기본 갑옷,,,,적용한 제목 정상화,기본 방어구
-chapter,48410B67C276ED1F,,,The Bumblezone,범블존,,,,적용한 제목 정상화,The Bumblezone
-chapter,4C507C004144BFEE,,,Occultism,오컬티즘,,,,적용한 제목 정상화,Occultism
-chapter,4EAAE0CEB26378A6,,,Just Dire Things,단순히 다이어 무언가,,,,적용한 제목 정상화,Just Dire Things
-chapter,4EBB2171D5A3AAAC,,,Forbidden \& Arcanus,포비든 앤 아케이너스,,,,적용한 제목 정상화,Forbidden Arcanus
-chapter,4EEDECACDE8F5A67,,,Oritech,,,,,적용한 제목 정상화,Oritech
-chapter,5103E2D95685ADFF,,,&aChapter 3&r: &6The ATM Star,&a3장&r: &6ATM의 별,,,,적용한 제목 정상화,&a3장&r: &6ATM Star
-chapter,51A2FE60D8B76FC6,,,Extended \& Advanced AE,,,,,적용한 제목 정상화,Extended AE 및 Advanced AE
-chapter,56B11606F5F4DAB2,,,Digital Age,,,,,적용한 제목 정상화,디지털 시대
-chapter,5712300EF4E5E846,,,Pylons,파일런,,,,적용한 제목 정상화,Pylons
-chapter,59395B6806F2A98A,,,Cataclysm,대격변,,,,적용한 제목 정상화,L_Ender's Cataclysm
-chapter,5C4F10E65D86ED0E,,,Electric Age: No more rookie,,,,,적용한 제목 정상화,전기 시대: 초보 탈출
-chapter,5D045EF1AB73DF70,,,Basic Power,기본 힘,,,,적용한 제목 정상화,기본 전력
-chapter,5D8E83698AEF1092,,,&bIce &fand &cFire,,,,,적용한 제목 정상화,&bIce &fand &cFire
-chapter,5E31DF282998B992,,,PneumaticCraft,뉴매틱크래프트,,,,적용한 제목 정상화,PneumaticCraft: Repressurized
-chapter,65A95C2312976E49,,,The Undergarden,지하정원,,,,적용한 제목 정상화,The Undergarden
-chapter,6AEC23C6D526F362,,,Eternal Starlight,영원한 별빛,,,,적용한 제목 정상화,Eternal Starlight
-chapter,6AEDA2F9BEB57759,,,Ars Nouveau,아르스 누보,,,,적용한 제목 정상화,Ars Nouveau
-chapter,73180B829B960E63,,,Generators N Furnaces,발전기 N 화로,,,,적용한 제목 정상화,발전기 및 화로
-chapter,76DF5FAA7961E5E7,,,Iron's Spells 'n Spellbooks,아이언의 주문과 주문서,,,,적용한 제목 정상화,Iron's Spells 'n Spellbooks
-chapter,7732CF7AAA63DB3A,,,The Twilight Forest,황혼의 숲,,,,적용한 제목 정상화,The Twilight Forest
-chapter,7A72E12C3839D165,,,Nature's Aura,자연의 기운,,,,적용한 제목 정상화,Nature's Aura
-chapter,7AF827D2D101D343,,,Artifacts,유물,,,,적용한 제목 정상화,Artifacts
-chapter_group,49AECADBA9E79A3B,,,Power,힘,,,,적용한 제목 정상화,전력
-chapter_group,6700DB960E16A321,,,Modern Industrialization,모던 인더스트리얼라이제이션,,,,적용한 제목 정상화,Modern Industrialization
-quest,00611844AFD5C31E,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:energy_acceptor,에너지 수용기,적용한 제목 정상화,에너지 수용기
-quest,0496E8E786262464,59395B6806F2A98A,cataclysm.snbt,&2Overworld&r: Land of &m3 4&r 5 bosses,&2오버월드&r: &m3&r 4 보스의 땅,,,,적용한 제목 정상화,&2오버월드&r: 보스 &m3 4&r 5명의 땅
-quest,050CD33E92601651,4EBB2171D5A3AAAC,forbidden__arcanus.snbt,&l&3Tier 2 &6Forge,&l&32티어 &6Forge,,,,적용한 제목 정상화,&l&3티어 2 &6Forge
-quest,05DBDD86FCFF3BA8,76DF5FAA7961E5E7,iron_spells_and_spellbooks.snbt,&5Lightning&r Upgrade Orb,&5번개&r 강화 구슬,,irons_spellbooks:lightning_upgrade_orb,,적용한 제목 정상화,&5번개&r 업그레이드 구슬
-quest,062AA943A1629A86,73180B829B960E63,generators.snbt,&zRainbow Coal,&c무&6지&e개 &2빛 &3깔&9의 &5 &c코&e알&3라&5,,ironfurnaces:rainbow_coal,,적용한 제목 정상화,&z무지개 석탄
-quest,083D458032F0325C,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:export_bus,ME 반출 버스,적용한 제목 정상화,ME 반출 버스
-quest,0848056FDD3F9BDA,5103E2D95685ADFF,chapter_2_the_star.snbt,&9Singularity,&9싱귤래리티,,ae2:singularity,특이점,적용한 제목 정상화,&9특이점
-quest,0AD2B11565B484E7,73180B829B960E63,generators.snbt,&zRainbow Plating,&c무&6지&e개 &2빛&3깔&9입&5히&c기&6&e&2&3&9&5,,ironfurnaces:rainbow_plating,,적용한 제목 정상화,&z무지개 도금
-quest,0ADBE90B33ACC9FB,73180B829B960E63,generators.snbt,&zRainbow Generator,&c무&6지&e개 &2생&3성&9기&5 (&cR&6a&ei&2n&3b&9o&5w &cG&6enerator),,ironfurnaces:million_furnace,,적용한 제목 정상화,&z무지개 발전기
-quest,0BB0DF36B079558F,3456E0C530C0038E,evilcraft.snbt,&6Entangled Chalice,&6Entangled Chalice,,evilcraft:entangled_chalice,,적용한 제목 정상화,&6얽힌 성배
-quest,1348995F64A94396,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:crafting_monitor,제작 모니터,적용한 제목 정상화,제작 모니터
-quest,140DE53DC0FCD9F4,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:annihilation_plane,ME 소멸 평면,적용한 제목 정상화,ME 소멸 평면
-quest,148A33CC36B2563A,12AD9789D962B179,apothic_enchanting.snbt,&dDraconic Endshelf,&5용의 끝 선반,,apothic_enchanting:draconic_endshelf,,적용한 제목 정상화,&d용의 끝 선반
-quest,15849165CA8C00F9,4EBB2171D5A3AAAC,forbidden__arcanus.snbt,&l&9Tier 5 &6Forge,&l&95단계 &6Forge,,,,적용한 제목 정상화,&l&9티어 5 &6Forge
-quest,17FE0C7748DD65CA,4B9D26E0087CD163,basic_tools.snbt,&5Harvest Tier 4,&54티어 수확,,minecraft:ancient_debris,,적용한 제목 정상화,&5수확 티어 4
-quest,1873205CF5247E3E,12AD9789D962B179,apothic_enchanting.snbt,&dEndshelves,&5엔드쉘프,,apothic_enchanting:endshelf,,적용한 제목 정상화,&d엔드쉘프
-quest,18DFB25DC48D8BF7,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:spatial_pylon,공간 지시탑,적용한 제목 정상화,공간 지시탑
-quest,1E2A9446594638E2,11919EBB416B2BD0,relics.snbt,&dChorus Staff&r,&5후렴 억제기,,relics:chorus_staff,,적용한 제목 정상화,&d코러스 지팡이&r
-quest,1F7DFA5AA65F2812,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:speed_card,가속 카드,적용한 제목 정상화,가속 카드
-quest,1FAFDB20F504688E,12AD9789D962B179,apothic_enchanting.snbt,&5&lApothic Enchanting,아포틱 마법 부여,,minecraft:enchanting_table,,적용한 제목 정상화,&5&lApothic Enchanting
-quest,21BEE9867796933A,11919EBB416B2BD0,relics.snbt,&cRider Flute&r,&9양모 벙어리장갑,,relics:rider_flute,,적용한 제목 정상화,&c기수의 피리&r
-quest,24C757B8AA6841F6,12AD9789D962B179,apothic_enchanting.snbt,Making a real &3Trident,진짜 삼지창 만들기,,apothic_enchanting:inert_trident,,적용한 제목 정상화,진짜 &3삼지창 만들기
-quest,2897FA291E5A38D8,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:spatial_anchor,공간 정박기,적용한 제목 정상화,공간 정박기
-quest,2EE8FCB63A338BC4,73180B829B960E63,generators.snbt,&zRainbow Furnace,&c레&6인&e보&2우 &3용&9광&5로&c &6화&e로&2&3 &9 &5,,ironfurnaces:million_furnace,,적용한 제목 정상화,&z무지개 화로
-quest,2F16B6A173525277,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:controller,ME 제어기,적용한 제목 정상화,ME 제어기
-quest,2F556E7919582D2D,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:cell_workbench,셀 작업대,적용한 제목 정상화,셀 작업대
-quest,3195A7AA874163CD,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:equal_distribution_card,균등 분배 카드,적용한 제목 정상화,균등 분배 카드
-quest,31B73D16C0199785,23983F4DC524B14B,mekanism.snbt,&5Refined Obsidian,정제된 흑요석,,mekanism:ingot_refined_obsidian,,적용한 제목 정상화,&5정제된 흑요석
-quest,31E7F7464D79F881,12AD9789D962B179,apothic_enchanting.snbt,Other &d&lInfusion&r Items,기타 주입 아이템,,minecraft:lapis_lazuli,,적용한 제목 정상화,기타 &d&l주입&r 아이템
-quest,33ADE41526C39AFD,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:void_card,초과분 파괴 카드,적용한 제목 정상화,초과분 파괴 카드
-quest,3543563DF036D461,4C507C004144BFEE,occultism.snbt,&#AD00C8Magenta Chalk,자홍색 분필,,occultism:dragonyst_dust,,적용한 제목 정상화,&#AD00C8자홍색 분필
-quest,371A382CF1DDF2B2,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:capacity_card,용량 카드,적용한 제목 정상화,용량 카드
-quest,395668FBCB6537AF,11919EBB416B2BD0,relics.snbt,&9Reflective Necklace,&e바스티온 링,,relics:reflective_necklace,,적용한 제목 정상화,&9반사의 목걸이
-quest,3BD73FEAE853D350,11919EBB416B2BD0,relics.snbt,&2Hunting Belt&r,&b아이스 스케이트,,relics:hunting_belt,,적용한 제목 정상화,&2사냥꾼의 허리띠&r
-quest,3D41D0092D94636B,4C507C004144BFEE,occultism.snbt,The Flames of &9The Otherworld,&9아더월드&9의 화염,,minecraft:flint_and_steel,,적용한 제목 정상화,&9다른 세계의 화염
-quest,3DDB0DDA7571B2C1,07210DDF872160BA,applied_energistics_2.snbt,ME Level Emitter,ME 레벨 측정기,,ae2:level_emitter,ME 레벨 방출기,적용한 제목 정상화,ME 레벨 방출기
-quest,3E8BA5E075ABD136,11919EBB416B2BD0,relics.snbt,&fChef's Hat&r,아이스 브레이커,,relics:chef_hat,,적용한 제목 정상화,&f요리사의 모자&r
-quest,40AB457E37919ABE,11919EBB416B2BD0,relics.snbt,&cRing of the Seven Deadly Sins,&5블레이징 플라스크,,relics:ring_of_the_seven_deadly_sins,,적용한 제목 정상화,&c칠죄종의 반지
-quest,429B5A81DF6C43FE,4C507C004144BFEE,occultism.snbt,How... Fleshy...,How... Fleshy...,,minecraft:gilded_blackstone,,적용한 제목 정상화,어쩜... 이렇게 살점 같을까요...
-quest,4597D3B3BDC2BED5,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:molecular_assembler,분자 제작기,적용한 제목 정상화,분자 제작기
-quest,45D10F53CA18B8EE,5103E2D95685ADFF,chapter_2_the_star.snbt,&5Lightning&r Upgrade Orb,&5번개&r 상위 버전 오브,,irons_spellbooks:lightning_upgrade_orb,,적용한 제목 정상화,&5번개&r 업그레이드 구슬
-quest,45EC31812FB9934D,100C477F4E63F20A,create.snbt,&aMechanical Pistons,기계식 피스톤,,ftbfiltersystem:smart_filter,,적용한 제목 정상화,&a기계식 피스톤
-quest,486B5A605D79EA10,5103E2D95685ADFF,chapter_2_the_star.snbt,&cManhattan &aModule,&c화염&r 상위 버전 오브,,oritech:nuke,,적용한 제목 정상화,&c맨해튼 &a모듈
-quest,499CF9F39CED8899,69299302373C4CBC,integrated_dynamics.snbt,&bIntegrated Dynamics,&bIntegerated Dynamics,,ftbfiltersystem:smart_filter,,적용한 제목 정상화,&bIntegrated Dynamics
-quest,4DA0725E089D7C91,7732CF7AAA63DB3A,twilight_forest.snbt,&cR&6a&em&2i&3f&9i&5c&ca&6t&ei&2o&3n,&cR&6a&em&2i&3f&9i&5c&ca&6t&ei&2o&3n,,twilightforest:quest_ram_trophy,,적용한 제목 정상화,&c파&6급 &e효&2과&3&9&5&c&6&e&2&3
-quest,4EDD96EB60EF5814,23983F4DC524B14B,mekanism.snbt,Generates about 480FE/t,약 410FE/t를 생성합니다,,mekanismgenerators:advanced_solar_generator,,적용한 제목 정상화,약 480FE/t를 생성합니다
-quest,525F25F4ADE45B50,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:formation_plane,ME 형성 평면,적용한 제목 정상화,ME 형성 평면
-quest,54822638CC243004,11919EBB416B2BD0,relics.snbt,&cSphere of Self-Sacrifice&r,&9반사 목걸이,,relics:sphere_of_self_sacrifice,,적용한 제목 정상화,&c자기희생의 구체&r
-quest,55186B8602689B66,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:memory_card,메모리 카드,적용한 제목 정상화,메모리 카드
-quest,58B125BD4876054C,23983F4DC524B14B,mekanism.snbt,&5&lMekanism&r,&dMekanism&r,,minecraft:iron_ingot,,적용한 제목 정상화,&5&lMekanism&r
-quest,5AA3E5DFECB4AC4D,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:growth_accelerator,수정 성장 가속기,적용한 제목 정상화,수정 성장 가속기
-quest,5C73247A48E72FB3,12AD9789D962B179,apothic_enchanting.snbt,Remove &5Enchantments&r from Pool,&9웅덩이에서 마법 부여 제거,,apothic_enchanting:filtering_shelf,,적용한 제목 정상화,웅덩이에서 &5마법 부여&r 제거
-quest,5DE45BC0258D1B0B,12AD9789D962B179,apothic_enchanting.snbt,&dPearlescent Endshelf,&5진줏빛 엔드쉘프,,apothic_enchanting:pearl_endshelf,,적용한 제목 정상화,&d진줏빛 엔드쉘프
-quest,5E6585F7627247E3,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:crafting_card,제작 카드,적용한 제목 정상화,제작 카드
-quest,5E7E35CCAF1C88EE,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:import_bus,ME 반입 버스,적용한 제목 정상화,ME 반입 버스
-quest,5EB87CE5F6DEFAAA,11919EBB416B2BD0,relics.snbt,&cPiglin Mask&r,&6마그마 워커,,relics:piglin_mask,,적용한 제목 정상화,&c피글린 가면&r
-quest,60CECAAE2D43EC6E,11919EBB416B2BD0,relics.snbt,&5Clot of Time&r,&2엔더 핸드,,relics:clot_of_time,,적용한 제목 정상화,&5시간의 응혈&r
-quest,677A701E06422CF3,11919EBB416B2BD0,relics.snbt,&2Leafy Mantle,&c롤러 스케이트,,relics:leafy_mantle,,적용한 제목 정상화,&2나뭇잎 망토
-quest,690B89D23134B624,4C507C004144BFEE,occultism.snbt,&zRainbow&r Chalk,&c무&6지&e개&a색&9 &5분&d필&r,,occultism:chalk_rainbow,,적용한 제목 정상화,&z무지개&r 분필
-quest,69B7DE2283B4EE6C,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:crafting_accelerator,제작 보조 처리 유닛,적용한 제목 정상화,제작 보조 처리 유닛
-quest,6A12188E50EAEB78,5103E2D95685ADFF,chapter_2_the_star.snbt,2 &zRainbow Furnaces,2 &c무&6지&e개&2빛 &3용&9광&5로&c들&6&e&2&3&9&5&c,,ironfurnaces:million_furnace,,적용한 제목 정상화,2 &z무지개 화로
-quest,6B40AF49F505A551,11919EBB416B2BD0,relics.snbt,&cRoller Skate,&9미드나이트 로브,,relics:roller_skate,,적용한 제목 정상화,&c롤러스케이트
-quest,6D54B45CDA70FEAB,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:energy_card,에너지 카드,적용한 제목 정상화,에너지 카드
-quest,6E05B62A40D5A891,3DEB33F78398EAD6,basic_logistics.snbt,&3&lIntegrated Dynamics,&3&lIntegerated Dynamics,,integrateddynamics:wrench,,적용한 제목 정상화,&3&lIntegrated Dynamics
-quest,6E3AD764A67829CB,5103E2D95685ADFF,chapter_2_the_star.snbt,&cMaster Infusion Crystal,&c달인 주입 수정,,mysticalagriculture:master_infusion_crystal,,적용한 제목 정상화,&c마스터 주입 수정
-quest,6F62B5510FA881CD,23983F4DC524B14B,mekanism.snbt,&7Osmium,오스뮴,,alltheores:osmium_ingot,,적용한 제목 정상화,&7오스뮴
-quest,74200A48498DD7F8,23983F4DC524B14B,mekanism.snbt,Generates about 60FE/t,약 51FE/t를 생성합니다,,mekanismgenerators:solar_generator,,적용한 제목 정상화,약 60FE/t를 생성합니다
-quest,748A01B5607C475B,11919EBB416B2BD0,relics.snbt,&aSpringy Boot,&6가죽 벨트,,relics:springy_boot,,적용한 제목 정상화,&a용수철 장화
-quest,78FEDE6FA4845585,12AD9789D962B179,apothic_enchanting.snbt,&4Negative&r amounts,&c음수 값,,apothic_enchanting:beeshelf,,적용한 제목 정상화,&4음수&r 값
-quest,79AF63E77AD70A93,12AD9789D962B179,apothic_enchanting.snbt,&2&lVanilla&r Max is just the start,바닐라 맥스는 시작일 뿐입니다,,ftbfiltersystem:smart_filter,,적용한 제목 정상화,&2&l바닐라&r 최대치는 시작일 뿐
-quest,7A615E2A152917AD,73180B829B960E63,generators.snbt,&zRainbow Core,&c무&6지&e개&2빛&3깔&9의&5 &c핵&e심&3부&5,,ironfurnaces:rainbow_core,,적용한 제목 정상화,&z무지개 핵
-quest,7B7D1F0CB326B28F,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:io_port,ME 입출력 포트,적용한 제목 정상화,ME 입출력 포트
-quest,7BCD4A425CF6199B,4C507C004144BFEE,occultism.snbt,&#4E2C00Brown Chalk,갈색 분필,,occultism:cruelty_essence,,적용한 제목 정상화,&#4E2C00갈색 분필
-quest,7C3F65B5DAC7E57B,11919EBB416B2BD0,relics.snbt,&5Midnight Mantle,&d섀도우 글레이브,,relics:midnight_mantle,,적용한 제목 정상화,&5한밤의 망토
-quest,7C9D9D1C054874A7,12AD9789D962B179,apothic_enchanting.snbt,&6&lBest Enchanting set-up,&6최고의 마법 부여 설정,,apothic_enchanting:soul_touched_sculkshelf,,적용한 제목 정상화,&6&l최고의 마법 부여 구성
-quest,7D972A3C4211EB26,5103E2D95685ADFF,chapter_2_the_star.snbt,&zRainbow Coal,&c무&6지&e개 &2빛&3깔&9의 &5 &c코&e알&3라&5,,ironfurnaces:rainbow_coal,,적용한 제목 정상화,&z무지개 석탄
-quest,7DABD82393713B5A,7A5C327771634A7D,building_tips.snbt,&l&cLuminax,&l&c안티블록 다시 다듬기&r,,ftbfiltersystem:smart_filter,,적용한 제목 정상화,&l&cLuminax
-quest,7EFBAF3E281D2EBE,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:storage_bus,ME 저장 버스,적용한 제목 정상화,ME 저장 버스
-task,05A8DD006B623032,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:quartz_fiber,석영 섬유,적용한 제목 정상화,석영 섬유
-task,060BD30C77262BDA,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:import_bus,ME 반입 버스,적용한 제목 정상화,ME 반입 버스
-task,066F1BBF3D0863C5,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:cell_component_4k,4k ME 저장 요소,적용한 제목 정상화,4k ME 저장 요소
-task,06E4EE21B14147B2,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:certus_quartz_dust,서투스 석영 가루,적용한 제목 정상화,서투스 석영 가루
-task,076237ECA6D5DE58,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:cell_component_16k,16k ME 저장 요소,적용한 제목 정상화,16k ME 저장 요소
-task,08D08A1400F7348F,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:blank_pattern,빈 패턴,적용한 제목 정상화,빈 패턴
-task,0BEBC087F970093E,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:formation_plane,ME 형성 평면,적용한 제목 정상화,ME 형성 평면
-task,0EFC322997906572,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:spatial_io_port,공간 입출력 포트,적용한 제목 정상화,공간 입출력 포트
-task,0FC1380E32E02533,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:fluix_dust,플루익스 가루,적용한 제목 정상화,플루익스 가루
-task,167B710CB84B12C1,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:matter_ball,물질 공,적용한 제목 정상화,물질 공
-task,184FBC2F91C37271,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:condenser,물질 응축기,적용한 제목 정상화,물질 응축기
-task,195B7DC4D7815D29,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:wireless_terminal,무선 터미널,적용한 제목 정상화,무선 터미널
-task,19F84B1451F7D602,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:cell_workbench,셀 작업대,적용한 제목 정상화,셀 작업대
-task,1C9C2FAD7CD16C9D,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:crafting_monitor,제작 모니터,적용한 제목 정상화,제작 모니터
-task,1DCF3545FC683DA8,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:dense_energy_cell,조밀한 에너지 셀,적용한 제목 정상화,조밀한 에너지 셀
-task,1F40760C2108BA36,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:inscriber,회로 인쇄기,적용한 제목 정상화,회로 인쇄기
-task,1FFAB0FE9A2D46F2,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:name_press,이름 프레스,적용한 제목 정상화,이름 프레스
-task,20AA67ECEA653B99,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:quantum_link,ME 양자 연결기,적용한 제목 정상화,ME 양자 연결기
-task,23261340EF9D48AF,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:io_port,ME 입출력 포트,적용한 제목 정상화,ME 입출력 포트
-task,294FA6663BE38B7C,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:storage_bus,ME 저장 버스,적용한 제목 정상화,ME 저장 버스
-task,299121F0AFF40604,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:pattern_access_terminal,ME 패턴 접근 터미널,적용한 제목 정상화,ME 패턴 접근 터미널
-task,29C4195E8366DBDD,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:charger,충전기,적용한 제목 정상화,충전기
-task,2B6D34E0CD1999C9,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:logic_processor,논리 프로세서,적용한 제목 정상화,논리 프로세서
-task,2B8EC37AF863F9A6,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:cable_anchor,케이블 앵커,적용한 제목 정상화,케이블 앵커
-task,2C4616CD2EBB58C6,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:cell_component_256k,256k ME 저장 요소,적용한 제목 정상화,256k ME 저장 요소
-task,2CFD7CA282DFB2FF,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:crafting_terminal,ME 제작 터미널,적용한 제목 정상화,ME 제작 터미널
-task,2D19A4EF2E4B7A55,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:memory_card,메모리 카드,적용한 제목 정상화,메모리 카드
-task,2D72E699C4D506CE,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:void_card,초과분 파괴 카드,적용한 제목 정상화,초과분 파괴 카드
-task,32FFC36DEEA7792D,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:cell_component_64k,64k ME 저장 요소,적용한 제목 정상화,64k ME 저장 요소
-task,3458474D44BD443F,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:singularity,특이점,적용한 제목 정상화,특이점
-task,356C06E894DC659B,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:crafting_card,제작 카드,적용한 제목 정상화,제작 카드
-task,36A7C775D94798EE,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:me_p2p_tunnel,ME P2P 터널,적용한 제목 정상화,ME P2P 터널
-task,3837D36BE3CC29A6,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:growth_accelerator,수정 성장 가속기,적용한 제목 정상화,수정 성장 가속기
-task,384594EA34F0985B,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:wireless_crafting_terminal,무선 제작 터미널,적용한 제목 정상화,무선 제작 터미널
-task,39BC572CE6FCFE92,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:crafting_accelerator,제작 보조 처리 유닛,적용한 제목 정상화,제작 보조 처리 유닛
-task,3A45E1C2AE35002B,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:tiny_tnt,소형 TNT,적용한 제목 정상화,소형 TNT
-task,3AC5F84892DC0717,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:charged_staff,충전된 스태프,적용한 제목 정상화,충전된 스태프
-task,3B720F63D105F7DF,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:matter_cannon,물질 대포,적용한 제목 정상화,물질 대포
-task,3DF8F1A72EBCD73F,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:wireless_access_point,ME 무선 액세스 포인트,적용한 제목 정상화,ME 무선 액세스 포인트
-task,3E4BDC8D3B7F727C,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:level_emitter,ME 레벨 방출기,적용한 제목 정상화,ME 레벨 방출기
-task,3F715007AD9C0D58,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:annihilation_plane,ME 소멸 평면,적용한 제목 정상화,ME 소멸 평면
-task,41282D3DCFEB5136,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:engineering_processor,공학 프로세서,적용한 제목 정상화,공학 프로세서
-task,42C1EB9094F67B62,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:energy_card,에너지 카드,적용한 제목 정상화,에너지 카드
-task,4498692EC5F9E09B,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:fluix_crystal,플루익스 수정,적용한 제목 정상화,플루익스 수정
-task,495253F1301A8070,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:speed_card,가속 카드,적용한 제목 정상화,가속 카드
-task,4D57E005D20BEDB9,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:meteorite_compass,운석 탐지기,적용한 제목 정상화,운석 탐지기
-task,4D92DB15F45D3F10,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:redstone_card,레드스톤 카드,적용한 제목 정상화,레드스톤 카드
-task,4E0C5E3A98293C08,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:spatial_pylon,공간 지시탑,적용한 제목 정상화,공간 지시탑
-task,523A126499263FE0,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:ender_dust,엔더 가루,적용한 제목 정상화,엔더 가루
-task,52521FCD58B2FEF0,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:item_storage_cell_1k,1k ME 아이템 저장 셀,적용한 제목 정상화,1k ME 아이템 저장 셀
-task,54C120660252682A,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:calculation_processor,계산 프로세서,적용한 제목 정상화,계산 프로세서
-task,5639418C0364E5A1,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:molecular_assembler,분자 제작기,적용한 제목 정상화,분자 제작기
-task,58BF9A4EAD7C88E6,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:pattern_encoding_terminal,ME 패턴 인코딩 터미널,적용한 제목 정상화,ME 패턴 인코딩 터미널
-task,58C4DF6CFBDF8577,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:drive,ME 드라이브,적용한 제목 정상화,ME 드라이브
-task,5997F25FCA778A49,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:certus_quartz_crystal,서투스 석영 수정,적용한 제목 정상화,서투스 석영 수정
-task,5B4DDF66C36AF356,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:energy_acceptor,에너지 수용기,적용한 제목 정상화,에너지 수용기
-task,5E1E2F6E86A3E0F3,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:equal_distribution_card,균등 분배 카드,적용한 제목 정상화,균등 분배 카드
-task,60F10069FD956D54,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:wireless_booster,무선 부스터,적용한 제목 정상화,무선 부스터
-task,64CCF1FB42AA41CE,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:cell_component_1k,1k ME 저장 요소,적용한 제목 정상화,1k ME 저장 요소
-task,651CCE50554D6ABC,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:toggle_bus,ME 토글 버스,적용한 제목 정상화,ME 토글 버스
-task,6590872EF147B7DF,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:quantum_entangled_singularity,양자얽힘 특이점,적용한 제목 정상화,양자얽힘 특이점
-task,660FEBB8BF6EF1A1,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:energy_cell,에너지 셀,적용한 제목 정상화,에너지 셀
-task,6691176371563341,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:color_applicator,색상 적용기,적용한 제목 정상화,색상 적용기
-task,68A36AB341CC016D,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:spatial_anchor,공간 정박기,적용한 제목 정상화,공간 정박기
-task,68BE70918BD7F81B,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:entropy_manipulator,엔트로피 조작기,적용한 제목 정상화,엔트로피 조작기
-task,6AAE42DF0347D1F4,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:inverter_card,반전 카드,적용한 제목 정상화,반전 카드
-task,6C7282A058006A21,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:terminal,ME 터미널,적용한 제목 정상화,ME 터미널
-task,6C80AA2FD67BD192,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:controller,ME 제어기,적용한 제목 정상화,ME 제어기
-task,6D6E070CB7998FA1,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:export_bus,ME 반출 버스,적용한 제목 정상화,ME 반출 버스
-task,6DC55B5EA1534444,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:capacity_card,용량 카드,적용한 제목 정상화,용량 카드
-task,74AA3FA06B3574A8,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:chest,ME 상자,적용한 제목 정상화,ME 상자
-task,79E894E41241B6A2,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:fuzzy_card,퍼지 카드,적용한 제목 정상화,퍼지 카드
-task,7BDCDEB679A9969C,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:network_tool,네트워크 도구,적용한 제목 정상화,네트워크 도구
-task,7D869E1310E92BED,07210DDF872160BA,applied_energistics_2.snbt,,,,ae2:quantum_ring,ME 양자 고리,적용한 제목 정상화,ME 양자 고리
+quest,019CA0E35F888222,1DB294A8F8686321,storage.snbt,&eAdvanced Restock Upgrade,&e고급 넣기 기능,,sophisticatedbackpacks:advanced_restock_upgrade,고급 재입고 업그레이드,적용한 제목 정상화,&e고급 재입고 업그레이드
+quest,0298A17C2AAC5765,1DB294A8F8686321,storage.snbt,&bStack Upgrade Tier 3,&b3단계 쌓기 기능,,sophisticatedbackpacks:stack_upgrade_tier_3,3단계 스택 업그레이드,적용한 제목 정상화,&b3단계 스택 업그레이드
+quest,11D57C768032E3F7,1DB294A8F8686321,storage.snbt,&eAdvanced Magnet Upgrade,&e고급 자석 기능,,sophisticatedbackpacks:advanced_magnet_upgrade,고급 자석 업그레이드,적용한 제목 정상화,&e고급 자석 업그레이드
+quest,15CD4BFDC56E9510,1DB294A8F8686321,storage.snbt,&eAdvanced Tool Swapper Upgrade,&e고급 도구 전환 기능,,sophisticatedbackpacks:advanced_tool_swapper_upgrade,고급 도구 교체 업그레이드,적용한 제목 정상화,&e고급 도구 교체 업그레이드
+quest,1985CFD1F0425E88,1DB294A8F8686321,storage.snbt,&eAdvanced Pickup Upgrade,&e고급 줍기 기능,,sophisticatedbackpacks:advanced_pickup_upgrade,고급 줍기 업그레이드,적용한 제목 정상화,&e고급 줍기 업그레이드
+quest,2FC15D3916DBF4E4,1DB294A8F8686321,storage.snbt,&eAdvanced Void Upgrade,&e고급 공허 업그레이드,,sophisticatedbackpacks:advanced_void_upgrade,고급 제거 업그레이드,적용한 제목 정상화,&e고급 제거 업그레이드
+quest,4C0EAB9F795686D0,1DB294A8F8686321,storage.snbt,&eAdvanced Deposit Upgrade,&e고급 꺼내기 기능,,sophisticatedbackpacks:advanced_deposit_upgrade,고급 보관 업그레이드,적용한 제목 정상화,&e고급 보관 업그레이드
+quest,56B80A7EBFE21428,1DB294A8F8686321,storage.snbt,&eAdvanced Pump Upgrade,&e고급 펌프 기능,,sophisticatedbackpacks:advanced_pump_upgrade,고급 펌프 업그레이드,적용한 제목 정상화,&e고급 펌프 업그레이드
+quest,57CF8C6C867B9BDA,1DB294A8F8686321,storage.snbt,&eAdvanced Filter Upgrade,&e고급 필터 기능,,sophisticatedbackpacks:advanced_filter_upgrade,고급 필터 업그레이드,적용한 제목 정상화,&e고급 필터 업그레이드
+quest,5E4FE420B6D2C97F,1DB294A8F8686321,storage.snbt,&eAdvanced Compacting Upgrade,&e고급 압축 기능,,sophisticatedbackpacks:advanced_compacting_upgrade,고급 압축 업그레이드,적용한 제목 정상화,&e고급 압축 업그레이드
+quest,6E3D53D1C4569A89,1DB294A8F8686321,storage.snbt,&aExperience Pump Upgrade,&a경험치 펌프 기능,,sophisticatedbackpacks:xp_pump_upgrade,경험치 펌프 업그레이드,적용한 제목 정상화,&a경험치 펌프 업그레이드
+quest,785951190FFDAA21,1DB294A8F8686321,storage.snbt,&eStack Upgrade Tier 2,&e2단계 쌓기 기능,,sophisticatedbackpacks:stack_upgrade_tier_2,2단계 스택 업그레이드,적용한 제목 정상화,&e2단계 스택 업그레이드
+quest,7AE3C8134F5ED726,1DB294A8F8686321,storage.snbt,&dStack Upgrade Tier 4,&d4단계 쌓기 기능,,sophisticatedbackpacks:stack_upgrade_tier_4,4단계 스택 업그레이드,적용한 제목 정상화,&d4단계 스택 업그레이드
+quest,7C0F7A1B3AB9A1A1,1DB294A8F8686321,storage.snbt,&eAdvanced Refill Upgrade,&e고급 보충 기능,,sophisticatedbackpacks:advanced_refill_upgrade,고급 보충 업그레이드,적용한 제목 정상화,&e고급 보충 업그레이드
+quest,7E9E03274A88347D,1DB294A8F8686321,storage.snbt,&fStack Upgrade Tier 1,&f1단계 쌓기 기능,,sophisticatedbackpacks:stack_upgrade_tier_1,1단계 스택 업그레이드,적용한 제목 정상화,&f1단계 스택 업그레이드
