@@ -1,0 +1,17 @@
+{
+  "name": "반사 방어",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)반사 방어$()는 방패용 마법 부여입니다.$(p)막은 모든 공격 피해의 일부를 공격자에게 되돌려 줍니다.$(p)정확히는 막은 피해의 15%를 반사합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "반사된 피해는 마법 피해로 변환됩니다.$(p)$(9)반사 방어$() 레벨이 충분히 높으면 원래 피해보다 더 큰 피해를 줍니다."
+    }
+  ]
+}

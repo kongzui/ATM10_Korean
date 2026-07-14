@@ -1,0 +1,19 @@
+{
+  "name": "보물 마법 부여",
+  "icon": "apothic_enchanting:treasure_shelf",
+  "category": "apotheosis:enchanting/utility",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "보물 마법 부여는 보통 마법 부여대에서 얻을 수 없는 특별한 마법 부여입니다.$(p)하지만 $(9)비전 보물의 깊은 책장$()으로 이를 해결할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apothic_enchanting:treasure_shelf",
+      "title": "비전 보물",
+      "text": "이 책장을 유효한 위치에 놓으면 마법을 부여할 때 보물 마법 부여가 나타납니다.$(p)대부분의 $(4)저주$()도 보물 마법 부여라는 점을 기억하세요."
+    }
+  ]
+}

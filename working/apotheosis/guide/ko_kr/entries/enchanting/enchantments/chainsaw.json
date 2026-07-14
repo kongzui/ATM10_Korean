@@ -1,0 +1,13 @@
+{
+  "name": "전기톱",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(2)전기톱$()은 도끼에 부여할 수 있는 걸작 마법 부여입니다.$(p)나무를 부수면 나무 전체를 한 번에 수확합니다.$(p)이때 도끼의 내구도를 소모합니다."
+    }
+  ]
+}

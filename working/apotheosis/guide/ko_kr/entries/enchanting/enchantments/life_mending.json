@@ -1,0 +1,17 @@
+{
+  "name": "생명 수선",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(4)생명 수선$()은 내구도가 있는 모든 아이템에 부여할 수 있는 타락한 마법 부여입니다.$(p)$(9)수선$()이 얻은 경험치를 내구도로 바꾸는 반면, $(4)생명 수선$()은 받은 치유량을 내구도로 바꿉니다.$(p)체력 포인트당 회복되는 내구도는 레벨에 따라 증가합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 마법 부여는 마법 부여대에서도 얻을 수 있습니다."
+    }
+  ]
+}

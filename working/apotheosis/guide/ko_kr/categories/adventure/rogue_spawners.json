@@ -1,0 +1,7 @@
+{
+  "name": "야생 스포너",
+  "description": "동굴 곳곳에서 단단한 블록으로 덮이고 아래에 상자가 숨겨진 단독 스포너를 드물게 발견할 수 있습니다.$(p)기원도, 목적도, 주인도 알려지지 않아 이를 $(9)야생 스포너$()라고 부릅니다.",
+  "icon": "minecraft:spawner",
+  "flag": "apotheosis:adventure",
+  "parent": "apotheosis:adventure/adventure"
+}

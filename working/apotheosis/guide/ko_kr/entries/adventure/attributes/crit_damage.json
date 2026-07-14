@@ -1,0 +1,13 @@
+{
+  "name": "치명타 피해",
+  "icon": "minecraft:netherite_axe",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)치명타 피해$()는 치명타의 피해 배율입니다.$(p)점프 치명타도 일반적인 1.5배 대신 치명타 피해 값을 사용합니다.$(p)무기에 붙습니다."
+    }
+  ]
+}

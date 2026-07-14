@@ -1,0 +1,17 @@
+{
+  "name": "고대 지식",
+  "icon": "minecraft:experience_bottle",
+  "category": "apotheosis:potion/effects",
+  "flag": "apotheosis:potion",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)고대 지식$()의 물약은 이로운 효과를 줍니다.$(p)효과가 지속되는 동안 자신이 처치한 몹에서 생성되는 경험치가 배로 늘어납니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "레벨 I에서는 경험치 드롭량이 네 배가 됩니다.$(p)레벨 II에서는 8배가 됩니다."
+    }
+  ]
+}

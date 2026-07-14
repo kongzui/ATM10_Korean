@@ -1,0 +1,21 @@
+{
+  "name": "떠돌이 상인",
+  "icon": "minecraft:emerald",
+  "category": "apotheosis:village/village",
+  "flag": "apotheosis:village",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "집 앞마당에 불쑥 나타나는 수상한 상인을 만난 적이 있나요?$(p)이들은 $(9)떠돌이 상인$()이라고 합니다.$(p)보통은 쓸모없는 물건만 팝니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "하지만 Apotheosis는 거래 목록에 수많은 새 거래를 추가해 실제로 만나 볼 가치가 있게 만듭니다.$(p)$(9)신호기$()나 $(9)불사의 토템$(), 강력한 마법이 부여된 다이아몬드 장비 등을 거래합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Apotheosis는 떠돌이 상인의 생성률도 높이고 지상뿐 아니라 지하에서도 나타날 수 있게 합니다."
+    }
+  ]
+}

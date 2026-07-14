@@ -1,0 +1,42 @@
+{
+  "name": "티어 해금",
+  "icon": "apotheosis:textures/gui/book/frontier_icon.png",
+  "category": "apotheosis:adventure/world_tiers",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "각 $(6)월드 티어$()는 활성화하기 전에 해금해야 합니다(기본으로 활성화되는 안식처는 제외).$(p)특정 발전 과제를 완료하면 월드 티어가 해금됩니다.$(p)티어를 해금한 뒤에는 $(l:apotheosis:adventure/world_tiers/select_screen)선택 화면$()에서 활성화해야 합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "들어가며",
+      "text": "이 장에서는 월드 티어의 기본 해금 조건을 설명합니다.$(p)모드팩에서 조건을 바꿀 수도 있으므로 정확한 정보는 \"아포틱 월드 티어\" 발전 과제 탭에서 확인하세요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "안식처",
+      "text": "$(9)안식처$()는 기본으로 해금되어 있지만 첫 어픽스 아이템을 줍기 전까지는 보이지 않습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "개척지",
+      "text": "모든 방어구 슬롯에 어픽스 아이템을 장착하고 어느 쪽 손이든 어픽스 무기를 들면 $(9)개척지$()가 해금됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "상승",
+      "text": "$(9)상승$()을 해금하려면 무기를 포함해 $(#33FF33)고급$() 어픽스 아이템 한 세트를 모두 장착해야 합니다.$(p)아포틱 침략자도 처치해야 합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "정상",
+      "text": "$(9)정상$()에 도달하는 일은 조금 더 어렵습니다.$(p)$(#5555FF)희귀$() 어픽스 아이템 한 세트를 모두 갖추고 위더를 처치해야 합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "정점",
+      "text": "마지막 티어인 $(9)정점$()에 도달하려면 $(#BB00BB)영웅$() 아이템 한 세트를 모두 갖추는 것뿐 아니라 엔드를 해방해야 합니다.$(p)즉, 엔더 드래곤을 처치해야 합니다."
+    }
+  ]
+}

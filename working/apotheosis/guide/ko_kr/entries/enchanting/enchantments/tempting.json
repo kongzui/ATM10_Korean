@@ -1,0 +1,13 @@
+{
+  "name": "유혹",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)유혹$()은 괭이용 마법 부여입니다.$(p)이 마법이 부여된 괭이를 들면 모든 동물이 번식용 아이템을 들었을 때처럼 따라옵니다."
+    }
+  ]
+}

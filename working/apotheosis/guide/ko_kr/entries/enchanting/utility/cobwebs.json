@@ -1,0 +1,17 @@
+{
+  "name": "거미줄",
+  "icon": "apothic_enchanting:prismatic_web",
+  "category": "apotheosis:enchanting/utility",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "프리즈마틱 거미줄과 아이템을 모루에서 조합하면 모든 저주를 제거할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apothic_enchanting:prismatic_web"
+    }
+  ]
+}

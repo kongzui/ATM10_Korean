@@ -1,0 +1,8 @@
+{
+  "name": "레벨 진행",
+  "description": "이 장에서는 마법 부여대를 업그레이드하는 방법을 간략히 설명합니다.",
+  "icon": "apothic_enchanting:dormant_deepshelf",
+  "flag": "apotheosis:enchanting",
+  "parent": "apotheosis:enchanting/enchanting",
+  "sortnum": -1
+}

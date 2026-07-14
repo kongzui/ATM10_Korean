@@ -1,0 +1,19 @@
+{
+  "name": "채굴 피로",
+  "icon": "minecraft:textures/mob_effect/mining_fatigue.png",
+  "category": "apotheosis:potion/recipes",
+  "flag": "apotheosis:potion",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(c)채굴 피로$()는 보통 가디언만 부여하는 부정적 효과입니다.$(p)효과가 지속되는 동안 채굴 속도가 레벨당 20%씩 감소합니다.$(p)$(9)성급함$()과 정반대되는 효과입니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "양조법",
+      "item": "minecraft:fermented_spider_eye",
+      "text": "$(9)성급함의 물약$()과 발효된 거미 눈으로 이 물약을 양조할 수 있습니다.$(p)일반적인 재료를 사용해 지속 시간을 늘리거나 효과를 강화하거나 투척용 물약으로 만들 수 있습니다."
+    }
+  ]
+}

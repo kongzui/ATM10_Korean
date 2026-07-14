@@ -1,0 +1,13 @@
+{
+  "name": "공격 피해",
+  "icon": "minecraft:diamond_sword",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)공격 피해$()는 공격이 가하는 피해량을 결정하는 능력치입니다.$(p)보통 무기가 이 능력치를 제공합니다."
+    }
+  ]
+}

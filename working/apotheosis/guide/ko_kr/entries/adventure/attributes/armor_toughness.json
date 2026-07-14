@@ -1,0 +1,17 @@
+{
+  "name": "방어 강도",
+  "icon": "minecraft:netherite_chestplate",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)방어 강도$()는 자신에게 적용되는 방어력 감소 효과를 줄이는 능력치입니다.$(p)보통 방어구 아이템이나 방패가 제공합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "방어 강도 포인트마다 방어구 관통과 방어구 파쇄의 효과가 2%씩, 최대 60%까지 감소합니다.$(p)이 기능은 Apotheosis만의 고유한 변경입니다. 바닐라 Minecraft에서는 방어 강도가 피해 감소에 기여합니다."
+    }
+  ]
+}

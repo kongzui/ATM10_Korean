@@ -1,0 +1,17 @@
+{
+  "name": "시대의 지식",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(2)시대의 지식$()은 검에 부여할 수 있는 $(br)걸작 마법 부여입니다.$(p)몹을 처치하면 모든 드롭 아이템이 경험치로 변환됩니다.$(p)개별 아이템은 종류와 관계없이 같은 양의 경험치로 환산됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "따라서 많은 아이템을 떨어뜨리는 몹을 처치할 때 가장 효율적입니다.$(p)아이템당 경험치는 마법 부여 레벨에 따라 증가합니다.$(p)안전장치로 플레이어를 처치해도 그 아이템은 변환되지 않습니다."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "새로운 효과",
+  "parent": "apotheosis:potion/potion",
+  "description": "이 장에서는 Apotheosis가 추가한 새 물약 효과를 자세히 설명합니다.",
+  "icon": "minecraft:experience_bottle",
+  "flag": "apotheosis:potion"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "파괴 불가 부적",
+  "icon": "minecraft:enchanting_table",
+  "category": "apotheosis:potion/charms",
+  "flag": "&apotheosis:potion,apotheosis:enchanting",
+  "sortnum": -1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:apotheosis:enchanting/table/infusion)주입 마법 부여$()로 부적을 파괴 불가 상태로 만들 수 있습니다.$(p)이렇게 하면 어떤 물약 효과든 지속 시간 제한 없이 사용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "파괴 불가 부적의 주입 제조법은 상당히 어렵습니다.$(p)완성하려면 $(l:apotheosis:enchanting/table/stats)마법 부여 능력치$()를 확실히 이해해야 합니다."
+    }
+  ]
+}

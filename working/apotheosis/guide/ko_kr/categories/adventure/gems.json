@@ -1,0 +1,7 @@
+{
+  "name": "보석과 소켓",
+  "description": "반짝이는 돌은 언제나 눈길을 끌기 마련입니다.$(p)어픽스 아이템의 소켓에 장착하면 보너스를 주는 아포틱 보석을 찾아보세요.",
+  "icon": "apotheosis:gem",
+  "flag": "apotheosis:adventure",
+  "parent": "apotheosis:adventure/adventure"
+}

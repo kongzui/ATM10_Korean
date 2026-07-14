@@ -1,0 +1,19 @@
+{
+  "name": "흡수",
+  "icon": "minecraft:textures/mob_effect/absorption.png",
+  "category": "apotheosis:potion/recipes",
+  "flag": "apotheosis:potion",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)흡수$()는 흥미로운 효과입니다.$(p)레벨마다 임시 하트 2개를 추가로 얻습니다.$(p)하지만 효과가 지속되는 동안 이 하트는 회복되지 않으므로 $(l:apotheosis:potion/charms/charm)물약 부적$()을 사용하는 편이 좋습니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "양조법",
+      "item": "minecraft:golden_apple",
+      "text": "어색한 물약과 황금 사과로 이 물약을 양조할 수 있습니다.$(p)일반적인 재료를 사용해 지속 시간을 늘리거나 효과를 강화하거나 투척용 물약으로 만들 수 있습니다."
+    }
+  ]
+}

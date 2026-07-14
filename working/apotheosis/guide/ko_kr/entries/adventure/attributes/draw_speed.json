@@ -1,0 +1,13 @@
+{
+  "name": "당기는 속도",
+  "icon": "minecraft:bow",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)당기는 속도$()는 원래 속도에 비해 원거리 무기를 얼마나 빠르게 당기는지 나타냅니다. 1 = 100%, 2 = 200% 등입니다.$(p)원거리 무기에 붙습니다."
+    }
+  ]
+}

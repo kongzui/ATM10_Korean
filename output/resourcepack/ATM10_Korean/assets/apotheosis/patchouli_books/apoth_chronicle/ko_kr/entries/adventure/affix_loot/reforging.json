@@ -1,0 +1,49 @@
+{
+  "name": "재련",
+  "icon": "apotheosis:reforging_table",
+  "category": "apotheosis:adventure/affix_loot",
+  "flag": "apotheosis:adventure",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)희귀도 재료$()의 순수한 잠재력과 $(9)보석 가루$()의 유연한 힘을 이용하면 아이템에 완전히 새로운 어픽스를 붙여 재련할 수 있습니다.$(p)재련은 이미 어픽스가 붙은 아이템에만 한정되지 않으며, 유효한 아이템이라면 무엇이든 가능합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apotheosis:simple_reforging_table",
+      "text": "재련을 시작하려면 $(#5555FF)희귀$() 등급까지 아이템을 재련할 수 있는 $(#5555FF)간이 재련 작업대$()를 만드세요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "입력 슬롯",
+      "text": "재련 작업대에는 입력 슬롯이 세 개 있습니다.$(p)가운데 슬롯에는 재련할 아이템을 넣습니다.$(p)왼쪽 위 슬롯에는 원하는 재련 희귀도에 맞는 $(9)희귀도 재료$()를 넣습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apotheosis:sigil_of_rebirth",
+      "title": "입력 슬롯",
+      "text": "오른쪽 아래 슬롯에는 재련 과정에서 특별한 연료로 사용하는 $(9)재탄생의 인장$()을 넣습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "재련",
+      "text": "마법 부여대와 비슷하게 재련할 때는 세 가지 선택지가 제시됩니다.$(p)각 선택지는 재련한 아이템이 가질 수 있는 새로운 형태를 나타냅니다.$(p)어느 선택지가 다른 것보다 무조건 강하지는 않습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "재련",
+      "text": "희귀도마다 경험치, 인장, 재료의 기본 비용이 정해져 있습니다. 추가 선택지 슬롯은 각각 기본 비용의 두 배와 세 배를 요구합니다.$(p)원하는 선택지를 클릭하면 아이템을 재련할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apotheosis:reforging_table",
+      "text": "$(#BB00BB)영웅$() 이상 아이템을 재련하려면 $(#5555FF)간이 재련 작업대$()를 $(#BB00BB)재련 작업대$()로 업그레이드해야 합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "참고 사항",
+      "text": "아직 어픽스가 붙지 않은 아이템도 재련할 수 있습니다.$(p)아이템은 여러 번 재련할 수 있습니다.$(p)모드팩에서 비용을 바꾸거나 특정 희귀도의 재련을 막을 수도 있습니다."
+    }
+  ]
+}

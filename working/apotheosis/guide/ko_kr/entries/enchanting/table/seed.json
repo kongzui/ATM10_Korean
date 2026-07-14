@@ -1,0 +1,16 @@
+{
+  "name": "마법 부여 시드",
+  "icon": "minecraft:wheat_seeds",
+  "category": "apotheosis:enchanting/table",
+  "flag": "apotheosis:enchanting",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "마법 부여의 모든 요소와 일부 다른 시스템은 $(9)마법 부여 시드$()를 기반으로 합니다.$(p)마법 부여대에서 아이템에 마법을 부여할 때마다 시드가 바뀝니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "시드가 바뀌지 않는 한 시드 기반의 모든 무작위 결과는 그대로 유지됩니다.$(p)예를 들어 특정 슬롯에서 어떤 마법 부여가 선택되는지는 시드에 기반한 무작위 결과입니다."
+    }
+  ]
+}

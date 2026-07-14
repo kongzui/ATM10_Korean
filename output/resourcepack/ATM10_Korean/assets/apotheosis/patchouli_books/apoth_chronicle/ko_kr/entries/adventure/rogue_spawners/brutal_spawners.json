@@ -1,0 +1,17 @@
+{
+  "name": "잔혹한 스포너",
+  "icon": "minecraft:zombie_head",
+  "category": "apotheosis:adventure/rogue_spawners",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "잔혹한 스포너는 평소보다 강한 몹을 생성하는 야생 스포너의 한 종류입니다.$(p)이 몹들은 일반적인 개체보다 체력과 방어력, 공격력이 높고 불에 저항합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "그나마 다행인 점은 이 스포너가 지원 병력을 불러내기까지 상당한 지연 시간이 있다는 것입니다."
+    }
+  ]
+}

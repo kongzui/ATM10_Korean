@@ -1,0 +1,17 @@
+{
+  "name": "광전사의 분노",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(4)광전사의 분노$()는 흉갑에 부여할 수 있는 타락한 마법 부여입니다.$(p)이 마법 부여를 사용하는 동안 피해를 받으면 추가 피해를 받는 대신 저항, 신속, 힘 효과를 얻습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "받는 피해와 물약 효과의 강도는 마법 부여 레벨에 따라 달라집니다."
+    }
+  ]
+}

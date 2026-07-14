@@ -1,0 +1,13 @@
+{
+  "name": "생명력 흡수",
+  "icon": "apothic_attributes:textures/mob_effect/bleeding.png",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)생명력 흡수$()는 가한 물리 피해 중 체력으로 직접 회복되는 비율입니다.$(p)일반적으로 무기만 이 능력치를 제공합니다."
+    }
+  ]
+}

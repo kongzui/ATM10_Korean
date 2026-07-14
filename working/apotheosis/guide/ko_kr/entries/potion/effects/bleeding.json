@@ -1,0 +1,17 @@
+{
+  "name": "출혈",
+  "icon": "apothic_attributes:textures/mob_effect/bleeding.png",
+  "category": "apotheosis:potion/effects",
+  "flag": "apotheosis:potion",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(c)출혈$()은 $(l:apotheosis:village/fletching#broadhead)넓은 화살촉 화살$()이 부여하는 부정적 효과입니다.$(p)이 효과에 걸리면 두 초마다 피해를 받습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(c)출혈$() 레벨이 높을수록 피해가 증가합니다.$(p)$(c)출혈$() 피해는 방어력을 무시합니다."
+    }
+  ]
+}

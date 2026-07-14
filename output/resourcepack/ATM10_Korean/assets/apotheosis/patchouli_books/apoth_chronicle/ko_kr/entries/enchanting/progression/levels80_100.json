@@ -1,0 +1,32 @@
+{
+  "name": "레벨 80 - 100",
+  "icon": "apothic_enchanting:endshelf",
+  "category": "apotheosis:enchanting/progression",
+  "flag": "apotheosis:enchanting",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "레벨 90 도달",
+      "item": "apothic_enchanting:infused_breath",
+      "text": "마지막 바로 전 단계에 진입하려면 레벨 80 마법 부여대와 $(9)드래곤의 숨결$()이 필요합니다.$(p)이 둘로 $(9)엔드 책장$()의 핵심 재료인 $(9)주입된 드래곤의 숨결$()을 만들 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "레벨 90 도달",
+      "recipe": "apothic_enchanting:endshelf",
+      "recipe2": "apothic_enchanting:pearl_endshelf"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "레벨 100 도달",
+      "item": "minecraft:dragon_head",
+      "text": "마법 부여대가 도달할 수 있는 최고 레벨은 100이지만, 이만한 힘을 제공할 수 있는 책장은 하나뿐입니다.$(p)그 책장을 만들려면 엔드 외곽으로 모험을 떠나 $(9)드래곤 머리$()를 가져와야 합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "레벨 100 도달",
+      "recipe": "apothic_enchanting:draconic_endshelf",
+      "text": "$(9)용의 엔드 책장$() 하나만으로도 마법 부여대를 레벨 90에서 레벨 100으로 끌어올릴 만큼 순수한 힘을 제공합니다.$(p)하지만 다른 능력치 보너스는 전혀 제공하지 않습니다."
+    }
+  ]
+}

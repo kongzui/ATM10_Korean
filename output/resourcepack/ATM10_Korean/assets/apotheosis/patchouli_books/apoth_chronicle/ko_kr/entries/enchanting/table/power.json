@@ -1,0 +1,24 @@
+{
+  "name": "마법 부여 마력",
+  "icon": "minecraft:experience_bottle",
+  "category": "apotheosis:enchanting/table",
+  "flag": "apotheosis:enchanting",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "마법 부여 과정에서는 경험치와 청금석을 소모해 아이템에 마법을 부여합니다.$(p)이때 복잡한 공식을 사용해 마법 부여가 무작위로 선택됩니다.$(p)이 장에서는 그 과정을 설명합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "먼저 마법 부여가 선택되는 방식을 살펴보겠습니다.$(p)각 마법 부여에는 특정 레벨을 사용할 수 있게 하는 $(fpower)를 결정하는 $(5)마력 함수$()가 있습니다.$(p)사용 가능한 마법 부여를 모두 모은 뒤 가중치에 따라 일부가 무작위로 선택됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(fpower)는 다음 단계로 계산됩니다.$(p)먼저 마법 부여에 소모한 레벨인 $(bpower)가 있습니다.$(p)그다음 $(quanta)와 교정이 $(bpower)를 조정해 $(fpower)를 만듭니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "각 능력치가 $(bpower)를 조정하는 자세한 방식은 $(l:apotheosis:enchanting/table/stats#quanta)$(quanta)와 $(l:apotheosis:enchanting/table/stats#rectification)교정$() 항목에서 확인할 수 있습니다.$(p)일반적으로 $(fpower)가 높을수록 더 높은 레벨의 마법 부여를 사용할 수 있습니다."
+    }
+  ]
+}

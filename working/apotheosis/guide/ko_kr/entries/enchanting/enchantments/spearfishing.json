@@ -1,0 +1,13 @@
+{
+  "name": "작살낚시",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)작살낚시$()는 삼지창용 마법 부여입니다.$(p)던진 삼지창으로 적을 처치하면 레벨당 3.5% 확률로 무작위 물고기 몇 마리가 드롭됩니다."
+    }
+  ]
+}

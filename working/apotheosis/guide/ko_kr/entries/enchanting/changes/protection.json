@@ -1,0 +1,25 @@
+{
+  "name": "보호",
+  "icon": "minecraft:netherite_chestplate",
+  "category": "apotheosis:enchanting/changes",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)보호$()는 더 이상 다른 보호 계열 마법 부여와 상호 배타적이지 않습니다.$(p)이제 $(9)보호$()와 원래 함께 붙일 수 없던 다른 방어 마법 부여 하나를 같이 사용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이를 고려해 보호 계열 마법 부여의 효과가 조금 조정됩니다.$(p)변경 방식을 이해하려면 보호가 작동하는 원리와 약간의 수학을 알아야 합니다.$(p)먼저 모든 방어 마법 부여가 제공하는 능력치인 피해 감소(DR) 포인트 개념을 소개합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(9)보호$() 마법 부여는 모든 피해 유형에 대해 1포인트를 제공합니다.$(p)특화된 보호 마법 부여는 특정 피해 유형 하나에 2포인트를 제공합니다.$(p)$(9)가벼운 착지$()는 낙하 피해에 3포인트를 제공합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Apotheosis에서는 보호 포인트마다 피해를 2.5%씩, 최대 85%까지 줄입니다.$(p)바닐라에서는 포인트마다 피해를 4%씩, 최대 80%까지 줄입니다."
+    }
+  ]
+}

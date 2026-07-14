@@ -1,0 +1,13 @@
+{
+  "name": "화염 피해",
+  "icon": "minecraft:blaze_powder",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)화염 피해$()는 근접 공격에 추가되는 마법 피해입니다. 대상에게 잠시 불을 붙이며, 피해가 높을수록 불타는 시간이 길어집니다.$(p)근접 무기에 붙습니다."
+    }
+  ]
+}

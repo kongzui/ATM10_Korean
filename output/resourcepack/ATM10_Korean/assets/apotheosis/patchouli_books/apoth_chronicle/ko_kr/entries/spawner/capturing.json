@@ -1,0 +1,19 @@
+{
+  "name": "포획",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:spawner/spawner",
+  "flag": "apotheosis:spawner",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "몹 스포너에 $(9)스폰 알$()을 사용하면 생성되는 개체를 바꿀 수 있습니다.$(p)일반적으로 스폰 알은 얻을 수 없으므로 Apotheosis는 검에 부여하는 $(9)포획$() 마법 부여를 추가합니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:cow_spawn_egg",
+      "title": "스폰 알",
+      "text": "$(9)포획$() 마법 부여 레벨마다 개체가 죽을 때 자신의 스폰 알을 떨어뜨릴 확률이 0.4%씩 생깁니다.$(p)JEI에서 확인할 수 있는 스폰 알 아이템이 없는 개체는 스폰 알을 떨어뜨릴 수 없습니다."
+    }
+  ]
+}

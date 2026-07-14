@@ -1,0 +1,13 @@
+{
+  "name": "방패 강타",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)방패 강타$()는 방패용 마법 부여입니다.$(p)그 방패로 근접 공격할 때 추가 피해를 줍니다.$(p)하지만 $(9)방패 강타$()로 공격하면 내구도가 추가로 감소합니다."
+    }
+  ]
+}

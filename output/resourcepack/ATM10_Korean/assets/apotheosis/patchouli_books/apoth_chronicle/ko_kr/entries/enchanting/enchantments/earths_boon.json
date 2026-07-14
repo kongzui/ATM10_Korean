@@ -1,0 +1,13 @@
+{
+  "name": "대지의 은혜",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(2)대지의 은혜$()는 곡괭이용 걸작 마법 부여입니다.$(p)일반 돌을 채굴할 때 일정 확률로 광석 블록이 드롭됩니다."
+    }
+  ]
+}

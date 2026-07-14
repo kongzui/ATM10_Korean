@@ -1,0 +1,17 @@
+{
+  "name": "방어 파쇄",
+  "icon": "apothic_attributes:textures/mob_effect/sundering.png",
+  "category": "apotheosis:potion/effects",
+  "flag": "apotheosis:potion",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(c)방어 파쇄$()의 물약은 부정적 효과를 줍니다.$(p)효과가 지속되는 동안 받는 모든 피해가 레벨당 20%씩 증가합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "저항을 직접 상쇄하며 저항과 더하기 방식으로 계산됩니다.$(p)방어 파쇄 II와 저항 II가 함께 있다면 일반 피해를 받습니다."
+    }
+  ]
+}

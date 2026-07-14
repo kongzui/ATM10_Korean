@@ -1,0 +1,13 @@
+{
+  "name": "공격 범위",
+  "icon": "minecraft:skeleton_skull",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)공격 범위$()는 근접 무기로 대상을 공격할 수 있는 최대 거리입니다.$(p)일반적으로 무기에 붙습니다."
+    }
+  ]
+}

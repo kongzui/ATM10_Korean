@@ -1,0 +1,44 @@
+{
+  "name": "레벨 30 - 60",
+  "icon": "apothic_enchanting:hellshelf",
+  "category": "apotheosis:enchanting/progression",
+  "flag": "apotheosis:enchanting",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "title": "레벨 45 도달",
+      "recipe": "apothic_enchanting:hellshelf",
+      "text": "레벨 45에 도달하려면 $(9)지옥 책장$()을 몇 개 만들어 기존 책장에 추가하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "레벨 45 도달",
+      "recipe": "apothic_enchanting:seashelf",
+      "text": "네더가 마음에 들지 않는다면 바다로 모험을 떠나 $(9)바다 책장$()을 대신 만들 수도 있습니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "레벨 60 도달",
+      "item": "apothic_enchanting:infused_hellshelf",
+      "text": "레벨 45에 도달한 뒤에는 책장을 업그레이드하기 위해 $(l:apotheosis:enchanting/table/infusion)주입 마법 부여$()를 알아봐야 합니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "레벨 60 도달",
+      "item": "apothic_enchanting:infused_seashelf",
+      "text": "사용하던 종류의 책장을 몇 개 더 만들고 주입해 업그레이드하세요.$(p)기존 책장에 새 책장까지 더하면 레벨 60에 도달할 수 있습니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "마법 부여 단서",
+      "item": "apothic_enchanting:sightshelf",
+      "text": "이제 다른 능력치를 높일 더 좋은 수단을 사용할 수 있습니다.$(p)지옥 책장과 바다 책장의 보너스에 더해 $(9)시야의 지옥 책장$()을 만들어 $(clues)를 높일 수도 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "퀀타 안정성",
+      "recipe": "apothic_enchanting:geode_shelf",
+      "text": "자수정 싹을 만드는 주입을 수행하면 $(9)정동으로 감싼 안정성의 책장$()을 제작할 수 있습니다.$(p)이 책장은 퀀타가 음수로 변동하는 것을 막아 줍니다."
+    }
+  ]
+}

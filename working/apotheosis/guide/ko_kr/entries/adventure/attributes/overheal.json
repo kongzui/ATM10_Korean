@@ -1,0 +1,13 @@
+{
+  "name": "과치유",
+  "icon": "minecraft:experience_bottle",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)과치유$()가 있으면 가한 물리 피해의 일부를 흡수 보호막으로 얻습니다. 생명력 흡수와 달리 체력이 가득 차도 작동합니다.$(p)이 능력치는 무거운 무기에만 붙습니다."
+    }
+  ]
+}

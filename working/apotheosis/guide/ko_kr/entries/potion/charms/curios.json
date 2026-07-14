@@ -1,0 +1,13 @@
+{
+  "name": "Curios 연동",
+  "icon": "curios:textures/slot/empty_charm_slot.png",
+  "category": "apotheosis:potion/charms",
+  "flag": "&apotheosis:potion,apotheosis:curiosloaded",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)Curios$()가 설치되어 있으면 $(9)부적$() 슬롯에 물약 부적을 장착할 수 있습니다.$(p)인벤토리에 있을 때와 똑같이 작동합니다."
+    }
+  ]
+}

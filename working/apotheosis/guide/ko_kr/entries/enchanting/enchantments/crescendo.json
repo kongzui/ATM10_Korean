@@ -1,0 +1,13 @@
+{
+  "name": "볼트의 크레센도",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(2)볼트의 크레센도$()는 석궁용 걸작 마법 부여입니다.$(p)마법 부여 레벨마다 한 번 재장전할 때 추가 발사 횟수가 늘어납니다.$(p)추가 발사에는 탄약을 소모하지 않습니다."
+    }
+  ]
+}

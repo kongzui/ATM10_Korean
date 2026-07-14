@@ -1,0 +1,6 @@
+{
+  "name": "스포너 모듈",
+  "description": "스포너 모듈을 사용하면 $(9)몹 스포너$()를 옮기고 개조할 수 있습니다.",
+  "icon": "minecraft:spawner",
+  "flag": "apotheosis:spawner"
+}

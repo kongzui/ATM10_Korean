@@ -1,0 +1,13 @@
+{
+  "name": "보호 관통",
+  "icon": "apothic_attributes:textures/mob_effect/sundering.png",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)보호 관통$()은 공격할 때 대상의 보호 포인트를 고정 수치만큼 무시합니다.$(p)보호 관통이 높아도 대상의 보호가 음수가 되지는 않습니다."
+    }
+  ]
+}

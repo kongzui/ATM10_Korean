@@ -1,0 +1,7 @@
+{
+  "name": "월드 티어",
+  "description": "플레이어가 강해질수록 주변 세계도 함께 강해집니다.$(p)이 장에서는 아포틱 월드 티어가 무엇을 바꾸는지, 어떻게 해금하는지, 현재 티어를 어떻게 변경하는지 설명합니다.",
+  "icon": "apotheosis:textures/gui/book/summit_icon.png",
+  "flag": "apotheosis:adventure",
+  "parent": "apotheosis:adventure/adventure"
+}

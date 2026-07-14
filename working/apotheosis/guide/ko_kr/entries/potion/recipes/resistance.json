@@ -1,0 +1,19 @@
+{
+  "name": "저항",
+  "icon": "minecraft:textures/mob_effect/resistance.png",
+  "category": "apotheosis:potion/recipes",
+  "flag": "apotheosis:potion",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)저항$()은 바닐라에 양조법이 없는 꽤 유용한 효과입니다.$(p)레벨마다 모든 원천에서 받는 피해가 +20%만큼 감소합니다.$(p)$(l:apotheosis:potion/effects/sundering)방어 파쇄$()의 물약을 만들 때도 필요합니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "양조법",
+      "item": "minecraft:shulker_shell",
+      "text": "어색한 물약과 셜커 껍데기로 이 물약을 양조할 수 있습니다.$(p)일반적인 재료를 사용해 지속 시간을 늘리거나 효과를 강화하거나 투척용 물약으로 만들 수 있습니다."
+    }
+  ]
+}

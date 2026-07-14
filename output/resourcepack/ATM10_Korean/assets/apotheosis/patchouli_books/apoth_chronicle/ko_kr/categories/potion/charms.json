@@ -1,0 +1,8 @@
+{
+  "name": "물약 부적",
+  "parent": "apotheosis:potion/potion",
+  "description": "이 장에서는 $(9)물약 부적$()의 모든 용도와 세부 사항을 설명합니다.$(p)다른 모듈이 비활성화되어 있거나 일부 모드가 설치되지 않았다면 이 장의 내용이 조금 비어 있을 수 있습니다.",
+  "icon": "apotheosis:potion_charm",
+  "flag": "apotheosis:potion",
+  "sortnum": 1
+}

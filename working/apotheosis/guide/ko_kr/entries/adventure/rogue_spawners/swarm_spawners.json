@@ -1,0 +1,13 @@
+{
+  "name": "무리 스포너",
+  "icon": "minecraft:spider_eye",
+  "category": "apotheosis:adventure/rogue_spawners",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "무리 스포너는 짧은 시간에 아주 많은 몹을 생성하는 사악한 야생 스포너입니다.$(p)대개 거미류처럼 약한 몹만 생성하므로 감당할 수 없을 만큼 무시무시하지는 않습니다."
+    }
+  ]
+}

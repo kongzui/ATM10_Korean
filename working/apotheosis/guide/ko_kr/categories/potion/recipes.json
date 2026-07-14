@@ -1,0 +1,7 @@
+{
+  "name": "물약 제조법",
+  "parent": "apotheosis:potion/potion",
+  "description": "이 장에서는 새로 추가된 모든 바닐라 물약 제조법을 자세히 설명합니다.",
+  "icon": "minecraft:nether_wart",
+  "flag": "apotheosis:potion"
+}

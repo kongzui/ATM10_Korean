@@ -1,0 +1,17 @@
+{
+  "name": "몹 스포너",
+  "icon": "minecraft:spawner",
+  "category": "apotheosis:spawner/spawner",
+  "flag": "apotheosis:spawner",
+  "sortnum": -1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)몹 스포너$()는 공허에서 개체를 끌어오는 마법 블록입니다.$(p)이미 알고 있을 테니 새로운 내용을 살펴보죠.$(p)Apotheosis에서는 $(9)섬세한 손길$()로 스포너를 회수할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 방식으로 스포너를 채굴하면 내구도가 추가로 소모됩니다.$(p)몹 스포너에는 작동 방식을 결정하는 여러 $(l:apotheosis:spawner/stats)스포너 능력치$()가 있습니다.$(p)이 능력치는 $(l:apotheosis:spawner/modifiers)스포너 변경 요소$()로 바꿀 수 있습니다."
+    }
+  ]
+}

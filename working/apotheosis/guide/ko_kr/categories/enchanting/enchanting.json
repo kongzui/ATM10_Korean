@@ -1,0 +1,6 @@
+{
+  "name": "마법 부여 모듈",
+  "description": "마법 부여 모듈은 마법 부여 시스템의 모든 변경 사항을 담당합니다.$(p)내용이 아주 많으니 천천히 둘러보세요.",
+  "icon": "minecraft:enchanting_table",
+  "flag": "apotheosis:enchanting"
+}

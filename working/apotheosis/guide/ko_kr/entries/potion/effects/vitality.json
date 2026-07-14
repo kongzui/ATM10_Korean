@@ -1,0 +1,17 @@
+{
+  "name": "활력 분출",
+  "icon": "apothic_attributes:textures/mob_effect/vitality.png",
+  "category": "apotheosis:potion/effects",
+  "flag": "apotheosis:potion",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)활력 분출$()의 물약은 이로운 효과를 줍니다.$(p)효과가 지속되는 동안 받는 모든 치유량이 증가합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "레벨마다 치유량이 20%씩 증가합니다."
+    }
+  ]
+}

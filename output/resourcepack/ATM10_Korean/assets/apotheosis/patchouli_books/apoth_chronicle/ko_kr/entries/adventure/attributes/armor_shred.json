@@ -1,0 +1,13 @@
+{
+  "name": "방어구 파쇄",
+  "icon": "apothic_attributes:textures/mob_effect/sundering.png",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)방어구 파쇄$()는 공격할 때 대상 방어력의 일정 비율을 무시합니다.$(p)$(9)방어구 파쇄$()는 $(9)방어구 관통$()보다 먼저 적용됩니다."
+    }
+  ]
+}

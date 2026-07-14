@@ -1,0 +1,17 @@
+{
+  "name": "행운",
+  "icon": "minecraft:rabbit_foot",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)행운$()은 플레이어를 운 좋게 만듭니다! 정확히는 더 좋은 전리품을 얻을 확률을 높입니다.$(p)모든 아이템이 행운을 줄 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "행운이 음수가 될 수도 있으며, 그러면 좋은 전리품을 얻기가 더욱 어려워집니다."
+    }
+  ]
+}

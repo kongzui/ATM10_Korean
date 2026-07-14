@@ -1,0 +1,7 @@
+{
+  "name": "보조 아이템",
+  "description": "이 장에서는 마법 부여를 더 편리하게 해 주는 여러 도구를 자세히 설명합니다.",
+  "icon": "apothic_enchanting:library",
+  "flag": "apotheosis:enchanting",
+  "parent": "apotheosis:enchanting/enchanting"
+}

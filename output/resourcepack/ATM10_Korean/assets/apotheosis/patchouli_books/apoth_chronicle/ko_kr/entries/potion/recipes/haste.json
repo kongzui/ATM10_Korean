@@ -1,0 +1,19 @@
+{
+  "name": "성급함",
+  "icon": "minecraft:textures/mob_effect/haste.png",
+  "category": "apotheosis:potion/recipes",
+  "flag": "apotheosis:potion",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)성급함$()은 바닐라에 양조법이 없는 또 하나의 유용한 효과입니다.$(p)레벨마다 채굴 속도가 +20% 증가합니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "양조법",
+      "item": "minecraft:mushroom_stew",
+      "text": "어색한 물약과 버섯 스튜로 이 물약을 양조할 수 있습니다.$(p)일반적인 재료를 사용해 지속 시간을 늘리거나 효과를 강화하거나 투척용 물약으로 만들 수 있습니다."
+    }
+  ]
+}

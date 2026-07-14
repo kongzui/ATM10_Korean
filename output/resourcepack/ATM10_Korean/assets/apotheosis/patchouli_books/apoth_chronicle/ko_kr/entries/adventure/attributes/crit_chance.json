@@ -1,0 +1,17 @@
+{
+  "name": "치명타 확률",
+  "icon": "minecraft:netherite_sword",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)치명타 확률$()은 가하는 모든 피해가 치명타로 적중할 확률입니다. 100%를 넘으면 다중 치명타가 발생할 수 있습니다.$(p)무기에 붙습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "치명타로 가하는 피해량은 $(l:apotheosis:adventure/attributes/crit_damage)치명타 피해$()에 따라 결정됩니다."
+    }
+  ]
+}
