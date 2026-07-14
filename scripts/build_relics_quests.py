@@ -83,17 +83,22 @@ def build_literal_chapter(instance: Path) -> dict[str, object]:
     for english, korean in HOVER_TRANSLATIONS.items():
         old = f'hover: ["{english}"]'
         new = f'hover: ["{korean}"]'
-        if output.count(old) != 1:
+        if output.count(old) == 1 and output.count(new) == 0:
+            output = output.replace(old, new)
+        elif output.count(old) != 0 or output.count(new) != 1:
             raise ValueError(
-                f"literal hover 원문을 정확히 하나 찾지 못했습니다: {english}"
+                f"literal hover 원문 또는 적용본을 확정하지 못했습니다: {english}"
             )
-        output = output.replace(old, new)
     CHAPTER_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     CHAPTER_OUTPUT.write_text(output, encoding="utf-8")
-    restored = output
+    restored_source = source
+    restored_output = output
     for english, korean in HOVER_TRANSLATIONS.items():
-        restored = restored.replace(f'hover: ["{korean}"]', f'hover: ["{english}"]')
-    if restored != source:
+        translated = f'hover: ["{korean}"]'
+        original = f'hover: ["{english}"]'
+        restored_source = restored_source.replace(translated, original)
+        restored_output = restored_output.replace(translated, original)
+    if restored_output != restored_source:
         raise ValueError("Relics 챕터에서 literal hover 이외의 내용이 달라졌습니다.")
     return {
         "source": source_path.as_posix(),

@@ -1,0 +1,78 @@
+{
+  "group": "Relics·Artifacts 계열",
+  "status": "complete",
+  "installed": [
+    "artifacts-neoforge-13.2.1.jar",
+    "relics-1.21.1-0.12.8.jar",
+    "reliquified_artifacts-1.21.1-1.0.7.jar"
+  ],
+  "direct_dependencies_checked": [
+    "curios-neoforge-9.5.1+1.21.1.jar",
+    "OctoLib-NEOFORGE-0.6.2+1.21.jar"
+  ],
+  "counts": {
+    "language_keys": 1562,
+    "language_existing_korean_reused": 303,
+    "language_existing_korean_corrected": 155,
+    "language_newly_translated": 1104,
+    "quest_keys": 217,
+    "quest_existing_korean_reused": 66,
+    "quest_existing_korean_corrected": 145,
+    "quest_newly_translated": 6,
+    "literal_hover_translated": 10,
+    "remaining": 0
+  },
+  "content": {
+    "resourcepack_namespaces": 3,
+    "ftbquests_chapters": 2,
+    "direct_tasks_outside_chapters": 1,
+    "kubejs_user_literals_remaining": 0,
+    "guide_files": 0,
+    "advancement_files": 3,
+    "custom_name_components": 0,
+    "literal_hover_components": 10
+  },
+  "cross_normalization": {
+    "item_names_checked_against_quests": 63,
+    "quest_fallbacks_checked": 3,
+    "reliquified_artifact_names_follow_artifacts": true,
+    "official_mod_names_preserved": [
+      "Artifacts",
+      "Relics",
+      "Reliquified Artifacts"
+    ],
+    "status": "resource pack, quest titles, task fallback, and literal hover normalized"
+  },
+  "validation": {
+    "json_and_snbt": "passed",
+    "keys_and_types": "passed",
+    "duplicates": 0,
+    "placeholders_numbers_format_and_line_breaks": "passed",
+    "unclassified_english": 0,
+    "quest_fallbacks": "passed",
+    "ruff": "passed",
+    "unexpected_live_changes": 0
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "applied_at": "2026-07-14T20:22:21",
+    "target_type": "game_root",
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_paths": 5,
+    "backup_root": "temp/backups/20260714_202217_682995/game_root",
+    "backup_manifest": "temp/backups/20260714_202217_682995/backup_manifest.json"
+  },
+  "completed_commits": [
+    "a472e57 Artifacts 언어 번역",
+    "6ba8971 Relics 언어 번역",
+    "f5bd6ae Reliquified Artifacts 언어 번역",
+    "d6525e5 Relics·Artifacts 관련 퀘스트 번역"
+  ],
+  "out_of_scope": [
+    "Curios common slot UI",
+    "Refined Storage Curios Integration unrelated content",
+    "EvilCraft relic chapter",
+    "other mods merely using the generic word relic"
+  ],
+  "review_items": []
+}

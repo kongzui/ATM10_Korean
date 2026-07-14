@@ -1,0 +1,89 @@
+{
+  "scope": "Relics and Artifacts family related content",
+  "installed": [
+    {
+      "name": "Artifacts",
+      "jar": "artifacts-neoforge-13.2.1.jar",
+      "mod_id": "artifacts",
+      "language_namespace": "artifacts"
+    },
+    {
+      "name": "Relics",
+      "jar": "relics-1.21.1-0.12.8.jar",
+      "mod_id": "relics",
+      "language_namespace": "relics"
+    },
+    {
+      "name": "Reliquified Artifacts",
+      "jar": "reliquified_artifacts-1.21.1-1.0.7.jar",
+      "mod_id": "reliquified_artifacts",
+      "language_namespace": "reliquified_artifacts"
+    }
+  ],
+  "direct_dependencies": [
+    {
+      "name": "Curios API",
+      "jar": "curios-neoforge-9.5.1+1.21.1.jar",
+      "scope": "Relics and Artifacts direct equipment integration strings only",
+      "common_ui": "out_of_scope"
+    },
+    {
+      "name": "OctoLib",
+      "jar": "OctoLib-NEOFORGE-0.6.2+1.21.jar",
+      "scope": "library dependency",
+      "independent_user_strings": 0
+    }
+  ],
+  "ftbquests": {
+    "chapters": [
+      {
+        "filename": "artifacts.snbt",
+        "chapter_id": "7AF827D2D101D343",
+        "quests": 50,
+        "tasks": 51
+      },
+      {
+        "filename": "relics.snbt",
+        "chapter_id": "11919EBB416B2BD0",
+        "quests": 22,
+        "tasks": 23
+      }
+    ],
+    "outside_direct_tasks": [
+      {
+        "chapter": "building_tips.snbt",
+        "quest_id": "51E77B9CD3FB6DEA",
+        "task_id": "6AA15FFFC5961428",
+        "item": "artifacts:digging_claws"
+      }
+    ],
+    "custom_name_components": 0,
+    "literal_hover_components_translated": 10,
+    "redundant_item_task_titles": 0
+  },
+  "kubejs": {
+    "language_reference": "kubejs/assets/relics/lang/pt_br.json",
+    "handling": "Korean values are supplied by the completed relics resource-pack namespace",
+    "comment_only": "kubejs/client_scripts/RecipeViewer.js",
+    "data_only": "kubejs/server_scripts/Tweaks/tags.js",
+    "direct_user_literals_remaining": 0,
+    "override_files_needed": 0
+  },
+  "guides": {
+    "patchouli_or_guideme_files": 0,
+    "direct_guide_strings": 0
+  },
+  "advancements": {
+    "provider": "Artifacts",
+    "files": 3,
+    "display_path": "language translate keys",
+    "untranslated_keys": 0
+  },
+  "out_of_scope": [
+    "Curios common slot UI",
+    "Refined Storage Curios Integration unrelated content",
+    "EvilCraft relic chapter",
+    "other mods merely using the generic word relic"
+  ],
+  "review_items": []
+}

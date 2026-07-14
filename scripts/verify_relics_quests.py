@@ -175,12 +175,16 @@ def main() -> int:
     source_chapter = quest_root / "chapters/relics.snbt"
     source_text = source_chapter.read_text(encoding="utf-8-sig")
     literal_text = build.CHAPTER_OUTPUT.read_text(encoding="utf-8")
-    restored = literal_text
+    restored_source = source_text
+    restored_output = literal_text
     for source, target in build.HOVER_TRANSLATIONS.items():
         if literal_text.count(f'hover: ["{target}"]') != 1:
             errors.append(f"번역된 literal hover가 정확히 하나가 아닙니다: {target}")
-        restored = restored.replace(f'hover: ["{target}"]', f'hover: ["{source}"]')
-    if restored != source_text:
+        translated = f'hover: ["{target}"]'
+        original = f'hover: ["{source}"]'
+        restored_source = restored_source.replace(translated, original)
+        restored_output = restored_output.replace(translated, original)
+    if restored_output != restored_source:
         errors.append("Relics 챕터 산출물에 hover 이외의 구조 변경이 있습니다.")
 
     advancements_checked = 0
