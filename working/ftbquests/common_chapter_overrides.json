@@ -14,6 +14,9 @@
   "quest.5AC1BE754210429E.quest_desc": [
     "친구들과 팀을 만들고 싶다면 &a/ftbteams party create (팀 이름)&r 명령어를 사용하세요!"
   ],
+  "quest.70B6C9409AE69284.quest_desc": [
+    "자연의 나침반을 사용하면 찾을 생물군계를 목록에서 고를 수 있어요.\\n\\n생물군계를 선택하고 '검색 시작'을 누르면 왼쪽 위에 정보가 표시되고, 나침반이 해당 생물군계의 방향을 가리켜요.\\n\\n탐험가의 나침반도 같은 방식으로 작동하지만, 생물군계 대신 구조물을 찾아요."
+  ],
   "quest.7658C1C663394E85.quest_desc": [
     "ATM에는 유용한 명령어가 많습니다. 그중 몇 가지를 소개합니다.\\n\\n&e/sethome&r (집 이름) | 나중에 /home (집 이름)으로 돌아올 수 있는 집을 설정합니다. 예: /sethome farm으로 설정한 뒤 /home farm으로 순간이동할 수 있습니다.\\n\\n&e/spawn&r | 오버월드의 스폰 지점으로 순간이동합니다.\\n\\n&e/rtp&r | 'Random Teleport'의 약자로, 월드의 무작위 위치로 순간이동합니다.\\n\\n참고: 이 명령어에는 재사용 대기시간과 사용 제한이 있습니다. 다음 위치의 설정 파일에서 변경할 수 있습니다.\\n\\n - 싱글 플레이 | &osaves/(월드 이름)/serverconfig/ftbessentials.snbt&r\\n\\n - 서버 | &oworld/serverconfig/ftbessentials.snbt&r"
   ],

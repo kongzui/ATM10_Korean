@@ -1,0 +1,43 @@
+{
+  "group": "Waystones·Nature's Compass·Explorer's Compass",
+  "status": "complete",
+  "installed_sources": [
+    {
+      "jar": "waystones-neoforge-1.21.1-21.1.34.jar",
+      "namespace": "waystones",
+      "keys": 261
+    },
+    {
+      "jar": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "namespace": "naturescompass",
+      "keys": 44
+    },
+    {
+      "jar": "ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+      "namespace": "explorerscompass",
+      "keys": 68
+    }
+  ],
+  "counts": {
+    "existing_korean_reused": 138,
+    "existing_korean_corrected": 163,
+    "newly_translated": 72,
+    "output_keys": 373,
+    "related_quest_descriptions_corrected": 1
+  },
+  "related_scope": {
+    "ftb_quests": "나침반 두 종류를 함께 안내하는 팁 퀘스트 설명 1개를 UI 용어에 맞춰 교정",
+    "kubejs": "Explorer's Compass 조합법과 Waystones 태그만 확인; 사용자 표시 문구 없음",
+    "advancements_and_guides": "세 모드가 직접 소유한 추가 번역 대상 없음",
+    "reward_tables": "웨이스톤·워프 플레이트 아이템 참조만 확인; 이름은 리소스팩 번역 사용"
+  },
+  "validation": {
+    "json": "passed",
+    "key_order_and_types": "passed",
+    "placeholders": "passed",
+    "format_codes": "passed",
+    "line_breaks": "passed",
+    "utf8_bom": false,
+    "snbt_target_line": "passed"
+  }
+}
