@@ -5,8 +5,8 @@
       "namespace": "silentgear",
       "jar": "silent-gear-1.21.1-neoforge-4.2.1.1.jar",
       "english_keys": 1191,
-      "reused": 907,
-      "corrected": 122,
+      "reused": 902,
+      "corrected": 127,
       "new": 162,
       "data_only_keys": 5
     },
@@ -40,8 +40,8 @@
   ],
   "counts": {
     "language_english_keys": 1446,
-    "language_existing_korean_reused": 1120,
-    "language_existing_korean_corrected": 134,
+    "language_existing_korean_reused": 1115,
+    "language_existing_korean_corrected": 139,
     "language_newly_translated": 192,
     "data_only_keys_added": 7,
     "quest_display_keys": 81,

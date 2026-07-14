@@ -278,7 +278,7 @@
   "artifacts.tooltip.ability.attribute_modifiers.generic.flatulence": "착용자의 방귀가 더 잦아집니다",
   "artifacts.tooltip.ability.attribute_modifiers.generic.invincibility_ticks": "피해를 입은 뒤의 무적 시간이 늘어납니다",
   "artifacts.tooltip.ability.attribute_modifiers.generic.jump_strength": "점프 높이가 증가합니다",
-  "artifacts.tooltip.ability.attribute_modifiers.generic.knockback_resistance": "넉백에 면역을 가집니다",
+  "artifacts.tooltip.ability.attribute_modifiers.generic.knockback_resistance": "밀치기에 면역입니다",
   "artifacts.tooltip.ability.attribute_modifiers.generic.max_health": "최대 체력이 증가합니다",
   "artifacts.tooltip.ability.attribute_modifiers.generic.mount_speed": "탑승한 동물의 속도가 증가합니다",
   "artifacts.tooltip.ability.attribute_modifiers.generic.movement_speed_on_snow": "눈 위에서 착용자의 걷는 속도를 증가시킵니다",

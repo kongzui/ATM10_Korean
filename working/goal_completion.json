@@ -1,0 +1,244 @@
+{
+  "goal": "four large mod families",
+  "status": "complete",
+  "families": {
+    "Apotheosis": {
+      "status": "complete",
+      "installed": [
+        "Apotheosis-1.21.1-8.5.4.jar",
+        "ApothicAttributes-1.21.1-2.9.1.jar",
+        "ApothicEnchanting-1.21.1-1.5.3.jar",
+        "ApothicSpawners-1.21.1-1.3.4.jar"
+      ],
+      "counts": {
+        "language_keys": 1631,
+        "guide_fields": 526,
+        "quest_keys": 246,
+        "existing_korean_reused": 1046,
+        "existing_korean_corrected": 499,
+        "newly_translated": 858,
+        "remaining": 0
+      },
+      "out_of_scope": [
+        "Gateways to Eternity 전체",
+        "Hellish Trials 전체",
+        "Occultism 전체",
+        "Create: Enchantment Industry 비관련 콘텐츠",
+        "Iron's Spells 'n Spellbooks 비관련 콘텐츠"
+      ]
+    },
+    "Relics·Artifacts": {
+      "status": "complete",
+      "installed": [
+        "artifacts-neoforge-13.2.1.jar",
+        "relics-1.21.1-0.12.8.jar",
+        "reliquified_artifacts-1.21.1-1.0.7.jar"
+      ],
+      "counts": {
+        "language_keys": 1562,
+        "language_existing_korean_reused": 303,
+        "language_existing_korean_corrected": 155,
+        "language_newly_translated": 1104,
+        "quest_keys": 217,
+        "quest_existing_korean_reused": 66,
+        "quest_existing_korean_corrected": 145,
+        "quest_newly_translated": 6,
+        "literal_hover_translated": 10,
+        "remaining": 0
+      },
+      "out_of_scope": [
+        "Curios common slot UI",
+        "Refined Storage Curios Integration unrelated content",
+        "EvilCraft relic chapter",
+        "other mods merely using the generic word relic"
+      ]
+    },
+    "Silent Gear": {
+      "status": "complete",
+      "installed": [
+        {
+          "namespace": "silentgear",
+          "jar": "silent-gear-1.21.1-neoforge-4.2.1.1.jar",
+          "english_keys": 1191,
+          "reused": 902,
+          "corrected": 127,
+          "new": 162,
+          "data_only_keys": 5
+        },
+        {
+          "namespace": "silentlib",
+          "jar": "silent-lib-1.21.1-neoforge-10.6.0.jar",
+          "english_keys": 5,
+          "reused": 5,
+          "corrected": 0,
+          "new": 0,
+          "data_only_keys": 0
+        },
+        {
+          "namespace": "silentgems",
+          "jar": "silentgems-1.21.1-neoforge-5.1.3.jar",
+          "english_keys": 118,
+          "reused": 81,
+          "corrected": 7,
+          "new": 30,
+          "data_only_keys": 2
+        },
+        {
+          "namespace": "sgearmetalworks",
+          "jar": "sgearmetalworks-1.21.1-1.5.0.jar",
+          "english_keys": 132,
+          "reused": 127,
+          "corrected": 5,
+          "new": 0,
+          "data_only_keys": 0
+        }
+      ],
+      "counts": {
+        "language_english_keys": 1446,
+        "language_existing_korean_reused": 1115,
+        "language_existing_korean_corrected": 139,
+        "language_newly_translated": 192,
+        "data_only_keys_added": 7,
+        "quest_display_keys": 81,
+        "quest_fallback_titles_added": 7,
+        "kubejs_literals_translated": 9,
+        "remaining": 0
+      },
+      "out_of_scope": [
+        "Productive Metalworks full language",
+        "Allthemodium and ATM gear full family (stage 4)",
+        "external Silent Gear wiki"
+      ]
+    },
+    "Allthemodium·ATM 장비": {
+      "status": "complete",
+      "installed": [
+        {
+          "namespace": "allthemodium",
+          "jar": "allthemodium-3.0.1_mc_1.21.1.jar",
+          "english_keys": 306,
+          "reused": 0,
+          "corrected": 0,
+          "new": 306,
+          "intentional_original": 14
+        },
+        {
+          "namespace": "allthearcanistgear",
+          "jar": "allthearcanistgear-1.21.1-21.3.2.jar",
+          "english_keys": 28,
+          "reused": 4,
+          "corrected": 24,
+          "new": 0,
+          "intentional_original": 1
+        },
+        {
+          "namespace": "allthewizardgear",
+          "jar": "allthewizardgear-1.21.1-1.1.12.jar",
+          "english_keys": 16,
+          "reused": 0,
+          "corrected": 15,
+          "new": 1,
+          "intentional_original": 0
+        }
+      ],
+      "counts": {
+        "language_english_keys": 350,
+        "language_existing_korean_reused": 4,
+        "language_existing_korean_corrected": 39,
+        "language_newly_translated": 307,
+        "guide_display_fields_translated": 47,
+        "quest_existing_korean_reused": 53,
+        "quest_existing_korean_corrected": 122,
+        "quest_newly_completed": 0,
+        "related_item_hover_keys_added": 3,
+        "kubejs_literals_translated": 44,
+        "remaining": 0
+      },
+      "out_of_scope": [
+        "All The Ores full language",
+        "All The Compressed full language",
+        "ATM Star quests unrelated to this material and gear family",
+        "Ars Nouveau, Iron's Spells, Powah and Forbidden and Arcanus full languages"
+      ]
+    }
+  },
+  "stage_commits": {
+    "Apotheosis": [
+      "347b2b9",
+      "d7384f2",
+      "067cc10",
+      "00db05a"
+    ],
+    "Relics·Artifacts": [
+      "a472e57",
+      "6ba8971",
+      "f5bd6ae",
+      "d6525e5",
+      "04ced63"
+    ],
+    "Silent Gear": [
+      "272f300",
+      "aed9ea2",
+      "4cc97b2",
+      "6b1a150",
+      "a2642af",
+      "82faa62"
+    ],
+    "Allthemodium·ATM 장비": [
+      "6a641e7",
+      "fb22cda",
+      "2113b35",
+      "0d59cdc",
+      "8e13f83",
+      "e4d1ec3"
+    ]
+  },
+  "cross_normalization": {
+    "damage": "피해",
+    "armor_toughness": "방어 강도",
+    "knockback_resistance": "밀치기 저항",
+    "upgrade": "업그레이드",
+    "equipment_socket": "소켓",
+    "equipment_slot": "슬롯",
+    "silent_gear_official_name_preserved": true,
+    "allthemodium_material_names": {
+      "material.silentgear.allthemodium": "Allthemodium",
+      "material.silentgear.unobtainium": "Unobtainium",
+      "material.silentgear.unobtainium_allthemodium": "Unobtainium-Allthemodium 합금",
+      "material.silentgear.unobtainium_vibranium": "Unobtainium-Vibranium 합금",
+      "material.silentgear.vibranium": "Vibranium",
+      "material.silentgear.vibranium_allthemodium": "Vibranium-Allthemodium 합금"
+    },
+    "translated_item_names_checked": 1085,
+    "intentional_source_duplicate_groups": 12,
+    "translation_induced_collisions": 0,
+    "normalized_entries": 7
+  },
+  "application": {
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "cumulative_live_hash_matches": 454,
+    "cumulative_live_hash_mismatches": 0,
+    "cross_normalization_applications": [
+      {
+        "applied_at": "2026-07-14T21:21:50",
+        "changed_paths": [
+          "resourcepacks/ATM10_Korean/assets/apothic_attributes/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/artifacts/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/silentgear/lang/ko_kr.json"
+        ],
+        "backup_manifest": "temp/backups/20260714_212144_768121/backup_manifest.json",
+        "unexpected_changes": []
+      },
+      {
+        "applied_at": "2026-07-14T21:24:05",
+        "changed_paths": [
+          "resourcepacks/ATM10_Korean/assets/silentgear/lang/ko_kr.json"
+        ],
+        "backup_manifest": "temp/backups/20260714_212400_755684/backup_manifest.json",
+        "unexpected_changes": []
+      }
+    ]
+  },
+  "remaining": 0,
+  "review_items": []
+}

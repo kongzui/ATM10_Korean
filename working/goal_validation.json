@@ -1,0 +1,15 @@
+{
+  "families_complete": 4,
+  "families_expected": 4,
+  "scoped_text_files_checked": 166,
+  "forbidden_term_hits": 0,
+  "translated_item_names_checked": 1085,
+  "intentional_source_duplicate_groups": 12,
+  "translation_induced_collisions": 0,
+  "shared_allthemodium_material_names_checked": 6,
+  "cumulative_live_hash_matches": 454,
+  "cumulative_live_hash_mismatches": 0,
+  "remaining": 0,
+  "validation_errors": 0,
+  "errors": []
+}

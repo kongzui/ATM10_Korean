@@ -16,7 +16,7 @@
   "apothic_attributes.gui.formula.value": "값",
   "apothic_attributes.gui.no_modifiers": "변경값 없음",
   "attribute.name.generic.armor.desc": "물리 피해 감소량을 증가시킵니다.",
-  "attribute.name.generic.armor_toughness.desc": "적의 갑옷 강도 감소 효과에 대한 저항력을 높입니다.",
+  "attribute.name.generic.armor_toughness.desc": "적의 방어 강도 감소 효과에 대한 저항력을 높입니다.",
   "attribute.name.generic.attack_damage.desc": "완전히 충전된 공격으로 입히는 물리 피해입니다.",
   "attribute.name.generic.attack_knockback.desc": "근접 공격으로 적을 밀쳐내는 거리입니다. 단위는 블록의 절반입니다.",
   "attribute.name.generic.attack_speed.desc": "초당 실행할 수 있는 완전 충전 공격 횟수입니다.",
