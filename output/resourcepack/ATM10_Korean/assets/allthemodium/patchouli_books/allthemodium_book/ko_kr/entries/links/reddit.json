@@ -1,0 +1,14 @@
+{
+  "name": "Reddit",
+  "icon": "allthemodium:allthemodium_block",
+  "category": "allthemodium:links",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "link",
+      "url": "https://www.reddit.com/r/allthemods/",
+      "link_text": "Reddit 링크",
+      "text": "Reddit에서 서버 목록을 보고 도움을 요청하거나 건축물을 자랑할 수 있습니다."
+    }
+  ]
+}

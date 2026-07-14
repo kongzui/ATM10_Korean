@@ -1,0 +1,14 @@
+{
+  "name": "Discord",
+  "icon": "allthemodium:vibranium_block",
+  "category": "allthemodium:links",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "link",
+      "url": "https://discord.gg/K5FBPYa",
+      "link_text": "Discord 초대",
+      "text": "Discord에는 각 모드팩의 도움말과 일반 대화를 위한 채팅방이 있습니다."
+    }
+  ]
+}

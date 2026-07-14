@@ -1,0 +1,6 @@
+{
+  "name": "링크",
+  "description": "도움이 필요할 때 이용할 링크입니다. $(li)GitHub에서는 모드팩 문제를 확인할 수 있습니다.$(li)Discord에서는 다른 사람들과 모드팩에 관해 이야기할 수 있습니다.$(li)Reddit에서는 건축물을 공유하고 질문할 수 있습니다",
+  "icon": "allthetweaks:atm_star",
+  "sortnum": 1
+}
