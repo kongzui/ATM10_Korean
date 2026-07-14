@@ -1,0 +1,40 @@
+{
+  "group": "JourneyMap·FTB Chunks·FTB Teams",
+  "status": "complete",
+  "installed_sources": [
+    {
+      "jar": "journeymap-neoforge-1.21.1-6.0.0-beta.88.jar",
+      "namespace": "journeymap",
+      "keys": 1378
+    },
+    {
+      "jar": "ftb-chunks-neoforge-2101.1.20.jar",
+      "namespace": "ftbchunks",
+      "keys": 344
+    },
+    {
+      "jar": "ftb-teams-neoforge-2101.1.10.jar",
+      "namespace": "ftbteams",
+      "keys": 107
+    }
+  ],
+  "counts": {
+    "existing_korean_reused": 957,
+    "existing_korean_corrected": 735,
+    "newly_translated": 137,
+    "output_keys": 1829
+  },
+  "related_scope": {
+    "ftb_quests": "FTB Chunks 웨이포인트 이미지와 FTB Teams 아이콘 참조만 확인; 소유 UI 문구 없음",
+    "kubejs": "웨이스톤 상호작용 허용 태그 참조만 확인; 사용자 표시 문구 없음",
+    "advancements_and_guides": "세 모드가 직접 소유한 추가 번역 대상 없음"
+  },
+  "validation": {
+    "json": "passed",
+    "key_order_and_types": "passed",
+    "placeholders": "passed",
+    "format_codes": "passed",
+    "line_breaks": "passed",
+    "utf8_bom": false
+  }
+}
