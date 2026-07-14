@@ -1,0 +1,20 @@
+{
+  "scope": "Silent Gear family FTB Quests",
+  "chapter": "silent_gear",
+  "source_display_keys": 81,
+  "fallback_titles_added": 7,
+  "existing_korean_kept": 43,
+  "existing_korean_corrected": 16,
+  "newly_completed": 29,
+  "classification": {
+    "translated_or_localized": 79,
+    "intentional_original": 1,
+    "internal_or_not_displayed": 2,
+    "out_of_scope": 0,
+    "manual_review": 0
+  },
+  "remaining": 0,
+  "base_sha256": "020e4988322b7685f6b47f0d60e97f2821497767d8bbc2673ac22a4ea3ccc489",
+  "output_sha256": "020e4988322b7685f6b47f0d60e97f2821497767d8bbc2673ac22a4ea3ccc489",
+  "status": "passed"
+}

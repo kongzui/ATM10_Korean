@@ -1,0 +1,20 @@
+{
+  "scope": "Silent Gear family FTB Quests",
+  "chapter": "silent_gear.snbt",
+  "quests_checked": 69,
+  "tasks_checked": 77,
+  "display_keys_checked": 81,
+  "fallback_titles_added": 7,
+  "quest_fallbacks_checked": 43,
+  "explicit_task_titles_checked": 7,
+  "custom_names": 0,
+  "literal_components": 0,
+  "related_tasks_outside_chapter_checked": 2,
+  "resource_name_matches_checked": 1,
+  "advancement_files_checked": 36,
+  "advancement_translate_keys_checked": 72,
+  "duplicate_keys": 0,
+  "untranslated_fallbacks": 0,
+  "validation_errors": 0,
+  "errors": []
+}
