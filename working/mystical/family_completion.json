@@ -1,0 +1,87 @@
+{
+  "scope": "Mystical Agriculture family",
+  "installed": [
+    "MysticalAgriculture-1.21.1-8.0.26.jar",
+    "MysticalAgradditions-1.21.1-8.0.13.jar",
+    "MysticalCustomization-1.21.1-6.0.2.jar",
+    "botanypotsmystical-neoforge-1.21.1-21.1.12.jar"
+  ],
+  "counts": {
+    "language_english_keys": 849,
+    "language_existing_korean_reused": 383,
+    "language_existing_korean_corrected": 90,
+    "language_newly_translated": 376,
+    "quest_display_keys": 257,
+    "customization_literals": 13,
+    "kubejs_literals": 2,
+    "remaining": 0
+  },
+  "related_content": {
+    "installed": [
+      "MysticalAgriculture-1.21.1-8.0.26.jar",
+      "MysticalAgradditions-1.21.1-8.0.13.jar",
+      "MysticalCustomization-1.21.1-6.0.2.jar",
+      "botanypotsmystical-neoforge-1.21.1-21.1.12.jar"
+    ],
+    "guides": {
+      "files_checked": 77,
+      "translation_keys_checked": 169,
+      "missing": 0
+    },
+    "advancements": {
+      "files_checked": 0,
+      "translation_keys_checked": 0,
+      "missing": 0
+    },
+    "botany_pots_mystical": {
+      "recipes_checked": 166,
+      "display_literals": 0
+    },
+    "mystical_customization": {
+      "display_name_files": [
+        "crops/allthemodium.json",
+        "crops/azure_silver.json",
+        "crops/black_quartz.json",
+        "crops/crimson_iron.json",
+        "crops/darkstone.json",
+        "crops/entro.json",
+        "crops/kivi.json",
+        "crops/sky_steel.json",
+        "crops/unexplored_wood.json",
+        "crops/unobtainium.json",
+        "crops/vibranium.json",
+        "crops/xychorium_gem.json",
+        "tiers/magical.json"
+      ],
+      "names": 13
+    }
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp\\backups\\20260714_225932_253860\\backup_manifest.json",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "config/mysticalcustomization/crops/allthemodium.json",
+      "config/mysticalcustomization/crops/azure_silver.json",
+      "config/mysticalcustomization/crops/black_quartz.json",
+      "config/mysticalcustomization/crops/crimson_iron.json",
+      "config/mysticalcustomization/crops/darkstone.json",
+      "config/mysticalcustomization/crops/entro.json",
+      "config/mysticalcustomization/crops/kivi.json",
+      "config/mysticalcustomization/crops/sky_steel.json",
+      "config/mysticalcustomization/crops/unexplored_wood.json",
+      "config/mysticalcustomization/crops/unobtainium.json",
+      "config/mysticalcustomization/crops/vibranium.json",
+      "config/mysticalcustomization/crops/xychorium_gem.json",
+      "config/mysticalcustomization/tiers/magical.json",
+      "kubejs/client_scripts/tooltips.js",
+      "resourcepacks/ATM10_Korean/assets/mysticalagradditions/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json"
+    ],
+    "hash_matches": 17,
+    "unexpected_changes": []
+  },
+  "review_items": [],
+  "status": "complete"
+}

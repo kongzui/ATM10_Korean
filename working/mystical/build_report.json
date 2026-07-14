@@ -1,0 +1,77 @@
+{
+  "scope": "Mystical Agriculture family",
+  "languages": [
+    {
+      "namespace": "mysticalagriculture",
+      "jar": "MysticalAgriculture-1.21.1-8.0.26.jar",
+      "english_keys": 745,
+      "existing_korean_reused": 345,
+      "existing_korean_corrected": 89,
+      "newly_translated": 311,
+      "output": "output/resourcepack/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json"
+    },
+    {
+      "namespace": "mysticalagradditions",
+      "jar": "MysticalAgradditions-1.21.1-8.0.13.jar",
+      "english_keys": 104,
+      "existing_korean_reused": 38,
+      "existing_korean_corrected": 1,
+      "newly_translated": 65,
+      "output": "output/resourcepack/ATM10_Korean/assets/mysticalagradditions/lang/ko_kr.json"
+    }
+  ],
+  "intentional_original_crop_keys": [
+    "crop.mysticalagriculture.basalz",
+    "crop.mysticalagriculture.blitz",
+    "crop.mysticalagriculture.blizz",
+    "crop.mysticalagriculture.cyanite",
+    "crop.mysticalagriculture.draconium",
+    "crop.mysticalagriculture.elementium",
+    "crop.mysticalagriculture.fluix",
+    "crop.mysticalagriculture.hepatizon",
+    "crop.mysticalagriculture.knightmetal",
+    "crop.mysticalagriculture.manyullyn",
+    "crop.mysticalagriculture.menril",
+    "crop.mysticalagriculture.osmium",
+    "crop.mysticalagriculture.queens_slime",
+    "crop.mysticalagriculture.slimesteel",
+    "crop.mysticalagriculture.soularium",
+    "crop.mysticalagriculture.starmetal",
+    "crop.mysticalagriculture.terrasteel",
+    "crop.mysticalagriculture.uraninite",
+    "crop.mysticalagriculture.yellorium"
+  ],
+  "customization_outputs": [
+    "output/overrides/config/mysticalcustomization/crops/allthemodium.json",
+    "output/overrides/config/mysticalcustomization/crops/azure_silver.json",
+    "output/overrides/config/mysticalcustomization/crops/black_quartz.json",
+    "output/overrides/config/mysticalcustomization/crops/crimson_iron.json",
+    "output/overrides/config/mysticalcustomization/crops/darkstone.json",
+    "output/overrides/config/mysticalcustomization/crops/entro.json",
+    "output/overrides/config/mysticalcustomization/crops/kivi.json",
+    "output/overrides/config/mysticalcustomization/crops/sky_steel.json",
+    "output/overrides/config/mysticalcustomization/crops/unexplored_wood.json",
+    "output/overrides/config/mysticalcustomization/crops/unobtainium.json",
+    "output/overrides/config/mysticalcustomization/crops/vibranium.json",
+    "output/overrides/config/mysticalcustomization/crops/xychorium_gem.json",
+    "output/overrides/config/mysticalcustomization/tiers/magical.json"
+  ],
+  "kubejs": {
+    "source": "kubejs/client_scripts/tooltips.js",
+    "output": "output/overrides/kubejs/client_scripts/tooltips.js",
+    "translated_literals": 2,
+    "output_sha256": "44a866a2a6a4f0ffa2f71f3a62dffa78c81d9ac98b3b1f1eeaaf2c00fbd1411c"
+  },
+  "ftbquests": {
+    "chapter": "elmystical_agriculturerr",
+    "display_keys": 257,
+    "existing_korean_reused": 248,
+    "existing_korean_corrected": 9,
+    "newly_translated": 0,
+    "internal_original_keys": [
+      "task.518B9569DCE0A771.title",
+      "task.773CA1FDC4CEFCEF.title"
+    ],
+    "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+  }
+}

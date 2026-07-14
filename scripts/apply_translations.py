@@ -155,10 +155,14 @@ def apply_to_root(
 
         after = collect(root)
         changes = inventory_changes(before, after)
-        if changes != expected_changes:
+        tracked_prefixes = tuple(f"{root}/" for root in before["tracked_roots"])
+        expected_inventory_changes = {
+            path for path in expected_changes if path.startswith(tracked_prefixes)
+        }
+        if changes != expected_inventory_changes:
             raise RuntimeError(
                 f"계획 밖의 대상 변경입니다: 실제={sorted(changes)}, "
-                f"예상={sorted(expected_changes)}"
+                f"예상={sorted(expected_inventory_changes)}"
             )
     except Exception:
         for record in reversed(applied):

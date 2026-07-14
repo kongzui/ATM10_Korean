@@ -145,8 +145,8 @@ ItemEvents.modifyTooltips(allthemods => {
 
     //Mystical Agriculture
     allthemods.add(/mysticalagriculture:.*watering_can/,[
-        Text.of("§cDisabled for Fake Player"),
-        Text.of("§c(Blocks like Modular Routers, Clickers, etc)")
+        Text.of("§c가짜 플레이어로 사용할 수 없습니다"),
+        Text.of("§c(Modular Routers, Clickers 같은 블록 포함)")
     ])
 
     allthemods.add('toolbelt:belt', [
