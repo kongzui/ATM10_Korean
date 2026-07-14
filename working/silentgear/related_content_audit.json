@@ -1,0 +1,53 @@
+{
+  "scope": "Silent Gear family related user-visible content",
+  "installed": [
+    "silent-gear-1.21.1-neoforge-4.2.1.1.jar",
+    "silent-lib-1.21.1-neoforge-10.6.0.jar",
+    "silentgems-1.21.1-neoforge-5.1.3.jar",
+    "sgearmetalworks-1.21.1-1.5.0.jar",
+    "productivemetalworks-1.21.1-1.15.0.jar"
+  ],
+  "direct_integration": {
+    "Productive Metalworks": "productivemetalworks-1.21.1-1.15.0.jar",
+    "scope": "silent_gear FTB chapter and SGearMetalworks casting integration only",
+    "full_mod_language": "out_of_scope_separate_plan_item"
+  },
+  "data_driven_display": {
+    "data_json": 307,
+    "translate_keys": 338,
+    "missing_keys": 0,
+    "jar_literals": 0,
+    "status": "passed"
+  },
+  "kubejs": {
+    "trait_files": 4,
+    "translated_literals": 9,
+    "material_translate_keys": [
+      "material.silentgear.allthemodium",
+      "material.silentgear.unobtainium",
+      "material.silentgear.vibranium"
+    ],
+    "material_language_file": "output\\resourcepack\\ATM10_Korean\\assets\\atm10_localization\\lang\\ko_kr.json",
+    "status": "passed"
+  },
+  "ftbquests": {
+    "chapter": "silent_gear.snbt",
+    "quests": 69,
+    "tasks": 77,
+    "outside_related_tasks": 2,
+    "remaining": 0
+  },
+  "guides": {
+    "patchouli_template_json": 1,
+    "independent_local_guide_pages": 0,
+    "material_book_path": "dynamic UI localized by silentgear lang keys",
+    "guide_book_path": "external wiki link; no packaged prose to override"
+  },
+  "advancements": {
+    "files_checked": 36,
+    "translate_keys_checked": 72,
+    "missing": 0
+  },
+  "review_items": [],
+  "status": "passed"
+}

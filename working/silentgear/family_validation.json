@@ -1,0 +1,15 @@
+{
+  "scope": "Silent Gear family completion",
+  "language_namespaces_checked": 4,
+  "language_english_keys_checked": 1446,
+  "data_only_keys_checked": 7,
+  "data_json_checked": 307,
+  "data_translate_keys_checked": 338,
+  "quest_display_keys_checked": 81,
+  "kubejs_literals_checked": 9,
+  "live_hash_matches": 10,
+  "expected_live_files": 10,
+  "remaining": 0,
+  "validation_errors": 0,
+  "errors": []
+}

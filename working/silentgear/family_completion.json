@@ -1,0 +1,76 @@
+{
+  "scope": "Silent Gear family",
+  "installed": [
+    {
+      "namespace": "silentgear",
+      "jar": "silent-gear-1.21.1-neoforge-4.2.1.1.jar",
+      "english_keys": 1191,
+      "reused": 907,
+      "corrected": 122,
+      "new": 162,
+      "data_only_keys": 5
+    },
+    {
+      "namespace": "silentlib",
+      "jar": "silent-lib-1.21.1-neoforge-10.6.0.jar",
+      "english_keys": 5,
+      "reused": 5,
+      "corrected": 0,
+      "new": 0,
+      "data_only_keys": 0
+    },
+    {
+      "namespace": "silentgems",
+      "jar": "silentgems-1.21.1-neoforge-5.1.3.jar",
+      "english_keys": 118,
+      "reused": 81,
+      "corrected": 7,
+      "new": 30,
+      "data_only_keys": 2
+    },
+    {
+      "namespace": "sgearmetalworks",
+      "jar": "sgearmetalworks-1.21.1-1.5.0.jar",
+      "english_keys": 132,
+      "reused": 127,
+      "corrected": 5,
+      "new": 0,
+      "data_only_keys": 0
+    }
+  ],
+  "counts": {
+    "language_english_keys": 1446,
+    "language_existing_korean_reused": 1120,
+    "language_existing_korean_corrected": 134,
+    "language_newly_translated": 192,
+    "data_only_keys_added": 7,
+    "quest_display_keys": 81,
+    "quest_fallback_titles_added": 7,
+    "kubejs_literals_translated": 9,
+    "remaining": 0
+  },
+  "deployment": {
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "kubejs/data/silentgear/silentgear_traits/advanced_aquatic.json",
+      "kubejs/data/silentgear/silentgear_traits/advanced_flame_ward.json",
+      "kubejs/data/silentgear/silentgear_traits/cure_levitation.json",
+      "kubejs/data/silentgear/silentgear_traits/cure_nausea.json",
+      "resourcepacks/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/sgearmetalworks/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/silentgear/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/silentgems/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/silentlib/lang/ko_kr.json"
+    ],
+    "backup_manifest": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\temp\\backups\\20260714_204828_667466\\backup_manifest.json",
+    "unexpected_changes": []
+  },
+  "out_of_scope": [
+    "Productive Metalworks full language",
+    "Allthemodium and ATM gear full family (stage 4)",
+    "external Silent Gear wiki"
+  ],
+  "review_items": [],
+  "status": "complete"
+}
