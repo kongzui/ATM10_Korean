@@ -15,12 +15,67 @@ from local_paths import PROJECT_ROOT, resolve_source_root
 from prepare_common_ui import WORK_ROOT, find_jar, load_json
 
 OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
-PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{\d+\}")
+PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
 
 
 def protected(value: object, pattern: re.Pattern[str]) -> list[str]:
     return pattern.findall(value) if isinstance(value, str) else []
+
+
+def validate_value(
+    key: str,
+    english: object,
+    korean: object,
+    errors: list[str],
+    path: str = "",
+    translatable: bool = True,
+) -> None:
+    """중첩 텍스트 컴포넌트까지 자료형과 보호 문자열을 검증한다."""
+    location = f"{key}{path}"
+    if type(english) is not type(korean):
+        errors.append(f"자료형 불일치: {location}")
+        return
+    if isinstance(english, str):
+        if not translatable and english != korean:
+            errors.append(f"비번역 필드 변경: {location}")
+        if protected(english, PLACEHOLDER) != protected(korean, PLACEHOLDER):
+            errors.append(f"자리표시자 불일치: {location}")
+        if protected(english, FORMAT_CODE) != protected(korean, FORMAT_CODE):
+            errors.append(f"서식 코드 불일치: {location}")
+        if english.count("\n") != korean.count("\n"):
+            errors.append(f"줄바꿈 수 불일치: {location}")
+        return
+    if isinstance(english, list):
+        if len(english) != len(korean):
+            errors.append(f"목록 길이 불일치: {location}")
+            return
+        for index, (english_item, korean_item) in enumerate(zip(english, korean)):
+            validate_value(
+                key,
+                english_item,
+                korean_item,
+                errors,
+                f"{path}[{index}]",
+                translatable,
+            )
+        return
+    if isinstance(english, dict):
+        if list(english) != list(korean):
+            errors.append(f"객체 키 또는 순서 불일치: {location}")
+            return
+        for field in english:
+            validate_value(
+                key,
+                english[field],
+                korean[field],
+                errors,
+                f"{path}.{field}",
+                field == "text",
+            )
+        return
+    if english != korean:
+        errors.append(f"비문자 값 변경: {location}")
 
 
 def verify_target(
@@ -45,21 +100,7 @@ def verify_target(
                 extra = sorted(set(korean) - set(english))
                 errors.append(f"키 또는 순서 불일치: 누락={missing}, 초과={extra}")
             for key in english.keys() & korean.keys():
-                if type(english[key]) is not type(korean[key]):
-                    errors.append(f"자료형 불일치: {key}")
-                    continue
-                if protected(english[key], PLACEHOLDER) != protected(
-                    korean[key], PLACEHOLDER
-                ):
-                    errors.append(f"자리표시자 불일치: {key}")
-                if protected(english[key], FORMAT_CODE) != protected(
-                    korean[key], FORMAT_CODE
-                ):
-                    errors.append(f"서식 코드 불일치: {key}")
-                if isinstance(english[key], str) and english[key].count("\n") != korean[
-                    key
-                ].count("\n"):
-                    errors.append(f"줄바꿈 수 불일치: {key}")
+                validate_value(key, english[key], korean[key], errors)
             if working.read_bytes().startswith(b"\xef\xbb\xbf"):
                 errors.append("UTF-8 BOM이 있습니다")
             if errors:

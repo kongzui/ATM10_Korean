@@ -1255,7 +1255,7 @@
   "jm.waypoint.teleport.whole_numbers": "텔레포트에서 소수점 제거",
   "jm.waypoint.teleport.whole_numbers.tooltip": "일부 서버는 블록 중앙으로의 순간 이동을 지원하지 않으므로 이 옵션을 활성화하면 값에 .5를 추가하는 대신 정수가 사용됩니다.",
   "jm.waypoint.teleport_command": "사용자 지정 웨이포인트 텔레포트 명령어",
-  "jm.waypoint.teleport_command.tooltip": "서버에서 사용할 순간이동 명령을 설정합니다. 다음 키로 사용자 지정 명령을 만드세요. 플레이어 이름: {name} - 웨이포인트 좌표: {x} {y} {z} - 대상 차원: {dim}.",
+  "jm.waypoint.teleport_command.tooltip": "서버에서 사용할 순간이동 명령을 설정합니다. 다음 키로 사용자 지정 명령을 만드세요. 플레이어 이름: {name} - 웨이포인트 좌표: {x} {y} {z} - 대상 차원: {dim} - 웨이포인트 이름: {wpname}.",
   "jm.waypoint.temp": "임시:",
   "jm.waypoint.temp_waypoint_remove_distance": "임시 웨이포인트 삭제 거리",
   "jm.waypoint.temp_waypoint_remove_distance.tooltip": "임시 웨이포인트가 자동으로 삭제되는 플레이어와의 거리",
