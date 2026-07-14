@@ -143,9 +143,9 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 
 | 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
 |---|---|---|---|---|---|
-| Mystical Agriculture | 미스티컬 애그리컬처 | 작물로 광물과 각종 자원을 생산 | Mystical Agradditions, Mystical Customization, Botany Pots Mystical | 미작업 | 기존 계획·대형 퀘스트 챕터 |
-| Productive Bees | 프로덕티브 비즈 | 벌과 유전자를 이용해 자원을 생산 | Modular Bees, 관련 퀘스트와 가이드 | 미작업 | 기존 계획·가장 큰 퀘스트 챕터 |
-| Productive Trees | 프로덕티브 트리즈 | 다양한 나무를 수집·교배해 자원을 생산 | Productive 계열 연동과 전용 퀘스트 | 미작업 | 신규: 전용 퀘스트·영어 4,149키 |
+| Mystical Agriculture | 미스티컬 애그리컬처 | 작물로 광물과 각종 자원을 생산 | Mystical Agradditions, Mystical Customization, Botany Pots Mystical, 관련 퀘스트·KubeJS·발전 과제·가이드 | 완료 | 기존 계획·대형 퀘스트 챕터 |
+| Productive Bees | 프로덕티브 비즈 | 벌과 유전자를 이용해 자원을 생산 | Modular Bees, 관련 퀘스트·KubeJS·발전 과제·가이드 | 완료 | 기존 계획·가장 큰 퀘스트 챕터 |
+| Productive Trees | 프로덕티브 트리즈 | 다양한 나무를 수집·교배해 자원을 생산 | Productive Bees 직접 연동, 전용 퀘스트·KubeJS·발전 과제·가이드 | 완료 | 신규: 전용 퀘스트·영어 4,149키 |
 | Hostile Neural Networks | 적대적 신경망 | 몹 데이터 모델을 학습해 전리품을 자동 생산 | 본체, 전용 퀘스트 챕터 | 미작업 | 신규: 대표 몹 자동화 모드 |
 | Farmer's Delight 계열 | 파머스 딜라이트 계열 | 조리·주방·농업과 식사 콘텐츠를 확장 | Farmer's Delight, Cooking for Blockheads, Farming for Blockheads | 미작업 | 신규: 음식·농업 퀘스트의 중심 |
 | Pam's HarvestCraft 2 | 팸의 하베스트크래프트 2 | 작물·과일나무와 대량의 요리를 추가 | Crops, Food Core, Food Extended, Trees | 미작업 | 신규: 영어 문구와 음식 항목이 많음 |
