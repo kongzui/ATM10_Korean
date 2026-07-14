@@ -1,0 +1,19 @@
+{
+  "scope": "Apotheosis family FTB Quests",
+  "chapters_checked": [
+    "apotheosis_2.snbt",
+    "apotheosis_gear.snbt",
+    "apothic_enchanting.snbt"
+  ],
+  "display_keys_checked": 243,
+  "duplicate_keys": 0,
+  "custom_or_literal_components": 0,
+  "explicit_task_titles_checked": 16,
+  "redundant_single_item_task_titles": 0,
+  "quest_fallbacks_checked": 21,
+  "item_resourcepack_title_matches_checked": 33,
+  "direct_quest_item_names_checked": 9,
+  "unclassified_english": 0,
+  "validation_errors": 0,
+  "errors": []
+}

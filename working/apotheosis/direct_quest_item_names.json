@@ -1,0 +1,17 @@
+{
+  "scope": "Apothic Spawners 비교 퀘스트의 영어 아이템 fallback",
+  "newly_translated": 9,
+  "items": {
+    "mob_grinding_utils:mob_swab": "몹 면봉",
+    "evilcraft:spirit_reanimator": "영혼 소생기",
+    "enderio:powered_spawner": "동력 스포너",
+    "pneumaticcraft:spawner_agitator": "스포너 교반기",
+    "draconicevolution:stabilized_spawner": "안정화된 스포너",
+    "ars_additions:source_spawner": "소스 스포너",
+    "mob_grinding_utils:entity_spawner": "엔티티 스포너",
+    "mysticalagriculture:soulium_spawner": "소울리움 스포너",
+    "pneumaticcraft:pressurized_spawner": "가압 스포너"
+  },
+  "classification": "직접 관련 퀘스트 fallback만 포함하고 각 모드 전체 번역은 범위 밖으로 유지",
+  "remaining": 0
+}

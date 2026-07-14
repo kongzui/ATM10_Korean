@@ -1,0 +1,46 @@
+{
+  "scope": "Apotheosis family FTB Quests",
+  "chapters": [
+    {
+      "chapter": "apotheosis_2",
+      "keys": 70,
+      "existing_korean": 40,
+      "missing_korean": 30
+    },
+    {
+      "chapter": "apotheosis_gear",
+      "keys": 65,
+      "existing_korean": 0,
+      "missing_korean": 65
+    },
+    {
+      "chapter": "apothic_enchanting",
+      "keys": 104,
+      "existing_korean": 54,
+      "missing_korean": 50
+    }
+  ],
+  "source_display_keys": 243,
+  "existing_korean_kept": 18,
+  "existing_korean_corrected": 79,
+  "newly_completed": 146,
+  "classification": {
+    "translated_or_localized": 239,
+    "intentional_original": 4,
+    "internal_or_not_displayed": 0,
+    "out_of_scope": 0,
+    "manual_review": 0
+  },
+  "intentional_original_keys": [
+    "quest.310969B8FE0A94DE.title",
+    "quest.1FAFDB20F504688E.title",
+    "chapter.0E81CBCD6B1D1895.title",
+    "chapter.12AD9789D962B179.title"
+  ],
+  "remaining": 0,
+  "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+  "base_sha256": "f60ab2e3ef6f6c33c76398bd51ee41911e9fcfe90ba9b9d92453d650468b21eb",
+  "output_sha256": "f60ab2e3ef6f6c33c76398bd51ee41911e9fcfe90ba9b9d92453d650468b21eb",
+  "validation_errors": 0,
+  "review_items": []
+}

@@ -1,0 +1,32 @@
+{
+  "scope": "Apotheosis family FTB Quests",
+  "chapters": [
+    {
+      "chapter": "apotheosis_2",
+      "english_keys": 70,
+      "existing_korean": 40,
+      "missing_korean": 30
+    },
+    {
+      "chapter": "apotheosis_gear",
+      "english_keys": 65,
+      "existing_korean": 0,
+      "missing_korean": 65
+    },
+    {
+      "chapter": "apothic_enchanting",
+      "english_keys": 104,
+      "existing_korean": 54,
+      "missing_korean": 50
+    }
+  ],
+  "navigation_keys": {
+    "english_keys": 4,
+    "existing_korean": 3,
+    "missing_korean": 1
+  },
+  "chapter_text_keys": 239,
+  "total_keys": 243,
+  "existing_korean": 97,
+  "missing_korean": 146
+}
