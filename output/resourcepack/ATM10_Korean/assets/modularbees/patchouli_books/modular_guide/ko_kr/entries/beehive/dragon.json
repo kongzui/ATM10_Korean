@@ -1,0 +1,17 @@
+{
+  "name": "모듈러 드래곤 하이브",
+  "icon": "modularbees:modular_dragon_hive",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "모듈러 드래곤 하이브",
+      "text": "용벌로부터 용의 숨결을 수집하는 특별한 벌집입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_dragon_hive"
+    }
+  ]
+}

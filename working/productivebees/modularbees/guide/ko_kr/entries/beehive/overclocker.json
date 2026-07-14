@@ -1,0 +1,36 @@
+{
+  "name": "벌집 오버클러커",
+  "icon": "modularbees:modular_beehive_overclocker",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "벌집 오버클러커",
+      "text": "벌집 오버클러커을(를) 사용하면 벌의 생산 속도를 더욱 높일 수 있습니다. 작동하려면 에너지와 전극이 필요하며, 더 나은 전극은 속도 부스트가 더 높습니다.$(br)여러 오버클러커를 동시에 사용하면 속도 부스트가 추가됩니다. 이는 두 개의 네더라이트 전극(+400%)이 벌의 작업 속도를 9배(+800%) 더 빠르게 만들 수 있다는 것을 의미합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_overclocker",
+      "text": "$(o)완전히 안전합니다"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "전극",
+      "text": "4개 계층의 전극이 있으며 JEI/툴팁에서 해당 부스트를 확인할 수 있습니다.$(br)전극은 벌집에 더 많은 벌이 있을수록 더 많은 피해를 입습니다. 공식: 바닥[(x/15+1)*(1.03^x)], x는 벌의 양입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:electrode_copper",
+      "recipe2": "modularbees:electrode_iron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:electrode_gold"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "modularbees:electrode_netherite"
+    }
+  ]
+}

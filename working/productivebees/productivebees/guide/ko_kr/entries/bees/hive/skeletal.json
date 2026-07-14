@@ -1,0 +1,18 @@
+{
+  "name": "골격 벌",
+  "icon": "minecraft:bone_meal",
+  "read_by_default": true,
+  "category": "productivebees:bees_hive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "골격 벌",
+      "text": "벌집이 어둠 속에서 비어 있으면 고급 벌통으로 이동합니다.",
+      "anchor": "skeletal"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:skeletal'}"
+    }
+  ]
+}

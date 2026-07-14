@@ -1,0 +1,17 @@
+{
+  "name": "벌 추출기",
+  "icon": "modularbees:bee_extractor",
+  "read_by_default": true,
+  "category": "modularbees:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "벌 추출기",
+      "text": "벌 추출기은 벌에서 유전자를 추출해 병에 넣을 수 있는 변형된 병러입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:bee_extractor"
+    }
+  ]
+}

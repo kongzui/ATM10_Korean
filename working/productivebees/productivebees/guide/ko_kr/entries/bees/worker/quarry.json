@@ -1,0 +1,18 @@
+{
+  "name": "채석장 벌",
+  "icon": "minecraft:wooden_pickaxe",
+  "read_by_default": true,
+  "sortnum": 4,
+  "category": "productivebees:bees_worker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "채석장 벌",
+      "text": "근처의 돌, 모래, 자갈을 조금씩 갉아먹고 벌집에 돌조각을 모읍니다. 스톤 칩은 대응 블록으로 제작할 수 있습니다."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:quarry_bee"
+    }
+  ]
+}

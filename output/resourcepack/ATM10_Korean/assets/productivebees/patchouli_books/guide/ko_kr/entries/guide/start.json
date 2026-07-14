@@ -1,0 +1,27 @@
+{
+  "name": "시작하기",
+  "icon": "minecraft:writable_book",
+  "category": "productivebees:guide",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "생기게 하는 벌s는 바닐라 벌 위에 구축됩니다. 이 가이드에서는 바닐라 시스템에 대해 어느 정도 이해하고 있다고 가정합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "바닐라 벌 외에도 전 세계의 다양한 생물 군계에 잘 숨겨져 있는 $(l:hives/nests)nests$(/l)에 살고 있는 다양한 새로운 벌을 만나게 됩니다. 이 벌은 단독 생활을 하며, 벌집에 살지 않습니다. 그러나 그들의 유전적 특성으로 인해 다양한 종류의 벌이 번식할 수 있을 뿐만 아니라 보기에도 멋져 보입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "가장 먼저 찾아야 할 것은 꿀병과 벌집을 얻기 위해 바닐라 벌 둥지입니다. 꿀병은 $(l:items/bee_cage)벌 케이지s$(/l)을 만드는 데 필요하며, 이를 통해 벌을 집으로 운반하는 것이 훨씬 쉬워집니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "충분한 벌집을 모은 후에는 $(l:hives/advanced_hives)고급 벌통$(/l)과 $(l:hives/expansion_boxes)확장 상자$(/l)를 직접 만들어보세요. $(l:hives/advanced_hives)고급 벌통$(/l)을 사용하면 내부를 들여다보고 벌과 그들이 생산하는 것을 계속 관찰할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "일부 벌은 다른 차원에서만 발견되거나 번식을 통해서만 얻을 수 있습니다. JEI를 사용하여 번식 레시피를 찾아보고 어떤 벌을 찾아야 하는지 알 수 있습니다."
+    }
+  ]
+}

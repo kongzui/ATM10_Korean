@@ -1,0 +1,44 @@
+{
+  "languages": {
+    "productivebees": 1118,
+    "modularbees": 54
+  },
+  "intentional_original_keys": [
+    "entity.productivebees.basalz_bee",
+    "entity.productivebees.beebee_bee",
+    "entity.productivebees.blazing_bee",
+    "entity.productivebees.blitz_bee",
+    "entity.productivebees.blizz_bee",
+    "entity.productivebees.breeze_bee",
+    "entity.productivebees.brown_shroom_bee",
+    "entity.productivebees.cheese_bee",
+    "entity.productivebees.creeper_bee",
+    "entity.productivebees.crimson_bee",
+    "entity.productivebees.cupid_bee",
+    "entity.productivebees.depth_ingot_bee",
+    "entity.productivebees.fbi_bee",
+    "entity.productivebees.infinity_bee",
+    "entity.productivebees.kamikaz_bee",
+    "entity.productivebees.pepto_bismol_bee",
+    "entity.productivebees.phil_bee",
+    "entity.productivebees.prosperity_bee",
+    "entity.productivebees.red_shroom_bee",
+    "entity.productivebees.ribbeet_bee",
+    "entity.productivebees.royal_bee",
+    "entity.productivebees.ruby_bee",
+    "entity.productivebees.sky_ingot_bee",
+    "entity.productivebees.villager_bee",
+    "entity.productivebees.wanna_bee",
+    "entity.productivebees.warped_bee",
+    "entity.productivebees.zombie_bee"
+  ],
+  "guides": {
+    "productivebees": 81,
+    "modularbees": 18
+  },
+  "quests": {
+    "display_keys": 566,
+    "existing": 295,
+    "new": 271
+  }
+}

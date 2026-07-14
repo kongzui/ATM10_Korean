@@ -1,0 +1,18 @@
+{
+  "name": "수정 같은 벌",
+  "icon": "minecraft:quartz",
+  "read_by_default": true,
+  "category": "productivebees:bees_wild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "수정 같은 벌",
+      "text": "네더의 석영 둥지에서 발견되었습니다. 수정 같은 벌s는 네더 석영을 함유하거나 그로 만든 무언가에 수분을 공급하는 것을 선호합니다.",
+      "anchor": "crystalline"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:crystalline'}"
+    }
+  ]
+}

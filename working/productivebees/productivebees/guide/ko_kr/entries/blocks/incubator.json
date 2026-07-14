@@ -1,0 +1,16 @@
+{
+  "name": "부란기",
+  "icon": "productivebees:incubator",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:incubator",
+      "text": "작고 연약한 아기들이 자랄 때까지 기다리는 것이 지겹나요? 인큐베이터를 사용하여 프로세스 속도를 높이세요. BaBee를 케이지에 넣고 꿀 간식과 함께 인큐베이터에 넣기만 하면 됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "인큐베이터의 또 다른 용도는 알에 특정 벌 유형 $(l:genetics/collecting#crystalline)gene$(/l)을 주입하여 해당 벌 유형의 생성 알을 얻는 것입니다. 유전학 설정을 통해 얻은 벌 유형 유전자.$(br)알을 만들 때 유형 유전자만 사용됩니다. 꿀 간식에 포함된 추가 유전자는 모두 손실됩니다."
+    }
+  ]
+}

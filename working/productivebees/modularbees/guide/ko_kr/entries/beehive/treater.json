@@ -1,0 +1,22 @@
+{
+  "name": "벌집처리자",
+  "icon": "modularbees:modular_treater",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "벌집처리자",
+      "text": "벌집처리자은 벌에게 추가 먹이를 제공하여 더 많은 빗을 생산하게 합니다.$(br)동시에 여러 처리기를 사용하면 생산 부스트가 추가됩니다.$(br)JEI에서 유효한 먹이와 부스트 정보를 찾을 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "치료 공급",
+      "text": "벌집 오버클러커과 달리 벌집처리자은 벌이 꿀 수집을 완료한 후에만 음식을 소비합니다. 그러나 모든 벌은 식량 공급이 필요합니다. 음식이 모든 벌에게 먹이를 줄 수 없으면 부스트가 약해집니다.$(br)잔해는 출력 인벤토리로 보내집니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_treater"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "고독한 벌",
+  "description": "고독한 벌은 오버월드의 고독한 둥지에서 산란하는 것을 볼 수 있습니다.$(br2)$(l:hives/nests)여기에서 둥지에 대해 읽어보세요$(/l)",
+  "icon": "productivebees:oak_wood_nest",
+  "parent": "productivebees:bees"
+}

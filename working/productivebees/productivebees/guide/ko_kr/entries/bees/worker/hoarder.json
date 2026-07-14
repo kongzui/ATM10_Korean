@@ -1,0 +1,18 @@
+{
+  "name": "호더 벌",
+  "icon": "minecraft:shulker_shell",
+  "read_by_default": true,
+  "sortnum": 6,
+  "category": "productivebees:bees_worker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "호더 벌",
+      "text": "땅에 있는 물건을 모아 벌통에 넣습니다. 더 시원하고 좋습니다. $(l:bees/worker/collector)수집기 벌$(/l).$(br)농부 벌과 결합하여 자동화된 농장을 만드세요."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:hoarder_bee"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "원심분리기",
+  "icon": "productivebees:centrifuge",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:centrifuge",
+      "text": "자원 빗을 자원과 꿀로 가공합니다. 펌핑할 수 있는 액체 버킷 10개를 담을 수 있습니다. 원심분리기는 또한 옆에 배치된 유체 저장 블록으로 자동으로 유체를 출력합니다. 전동 원심분리기은 FE를 증가된 처리 속도로 실행합니다. 원심분리기는 벌병의 유전 물질을 $(l:genetics/transferring)유전자$(/l)로 분리하는 데에도 사용됩니다."
+    }
+  ]
+}

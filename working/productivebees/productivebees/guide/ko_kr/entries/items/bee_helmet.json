@@ -1,0 +1,16 @@
+{
+  "name": "벌 헬멧",
+  "icon": "productivebees:bee_nest_diamond_helmet",
+  "category": "productivebees:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:bee_nest_diamond_helmet",
+      "text": "예쁜 다이아몬드 헬멧에 벌집을 눌러 고정시켜 보세요. 둥지 안의 벌들은 분명히 당신에게 익숙해질 것이고 당신이 위험에 처했을 때 당신을 지켜줄 수도 있을 것입니다. 이 옷을 입으면 다른 벌들에게 당신의 좋은 의도를 보여주고 그들이 당신을 공격하지 못하게 할 것입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivebees:bee_nest_helmet"
+    }
+  ]
+}

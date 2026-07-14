@@ -1,0 +1,16 @@
+{
+  "name": "포획기",
+  "icon": "productivebees:catcher",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:catcher",
+      "text": "새장을 싣고 그 위를 날아다니는 벌을 잡을 수 있습니다. 벌을 유인하기 위해 꽃이나 $(l:blocks/feeder)먹이판$(/l)을 위에 놓을 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "포획기은 세 가지 업그레이드를 허용합니다. $(l:items/upgrades#babee)BaBee 업그레이드$(/l)는 성체 벌을 걸러내고 BaBees만 잡습니다. $(l:items/upgrades#filter)필터 업그레이드$(/l)를 사용하면 필터에 있는 벌만 잡을 수 있습니다. $(l:items/upgrades#range)범위 업그레이드$(/l)는 범위를 증가시킵니다. 여러 범위 업그레이드를 설치할 수 있습니다."
+    }
+  ]
+}

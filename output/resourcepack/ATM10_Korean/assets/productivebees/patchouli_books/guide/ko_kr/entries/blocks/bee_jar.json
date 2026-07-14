@@ -1,0 +1,12 @@
+{
+  "name": "벌 단지",
+  "icon": "productivebees:jar_oak",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:jar_oak",
+      "text": "벌을 담기에 완벽하게 어울리는 이 멋진 유리 용기로 여러분의 벌 컬렉션을 세상에 보여주세요. 호퍼나 파이프를 사용하여 선택한 벌이 들어 있는 $(l:items/bee_cage)벌 케이지$(/l)을 삽입합니다."
+    }
+  ]
+}

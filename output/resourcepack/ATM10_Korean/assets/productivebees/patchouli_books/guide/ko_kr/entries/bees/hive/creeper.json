@@ -1,0 +1,18 @@
+{
+  "name": "CreeBee",
+  "icon": "minecraft:gunpowder",
+  "read_by_default": true,
+  "category": "productivebees:bees_hive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "CreeBee",
+      "text": "바닐라 벌에게 TNT 블록을 먹이면 얻을 수 있습니다.",
+      "anchor": "creeper"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:creeper_bee"
+    }
+  ]
+}

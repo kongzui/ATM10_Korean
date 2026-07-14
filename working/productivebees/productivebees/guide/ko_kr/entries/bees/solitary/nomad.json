@@ -1,0 +1,19 @@
+{
+  "name": "유목민 벌",
+  "icon": "productivebees:spawn_egg_nomad_bee",
+  "read_by_default": true,
+  "sortnum": 10,
+  "category": "productivebees:bees_solitary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "유목민 벌",
+      "text": "[노마다 마르샤멜라]",
+      "anchor": "nomad"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:nomad_bee"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "고급 두드러기",
+  "icon": "productivebees:advanced_oak_beehive",
+  "category": "productivebees:hives",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:advanced_oak_beehive",
+      "text": "Productive Bees은 고급 벌통을 통해 바닐라 벌집을 확장합니다. 바닐라 벌통과 달리 고급 벌통은 수확을 위해 근처에 모닥불이 필요하지 않으며, 실크 터치를 사용하지 않고도 벌이 내부에 있는 채로 부수고 이동할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivebees:hives/advanced_oak_beehive",
+      "text": "팩에 포함된 다른 목재에 따라 다양한 고급 벌통 변형이 가능합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Advanced Hives에는 현재 벌집 안에 어떤 벌이 있는지 확인하고 생산된 자원을 꺼낼 수 있는 GUI가 있습니다. 고급 하이브는 $(l:hives/expansion_boxes)확장 상자$(/l)을 사용하여 추가로 업그레이드할 수 있습니다. $(l:hives/expansion_boxes)확장 상자$(/l)을 부착하면 벌 용량이 3에서 5로 늘어나고 $(l:items/upgrades)업그레이드$(/l)를 설치할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "벌이 일을 마치고 벌집에서 나올 때까지 기다리는 것이 지겹다면, 벌집이나 벌집을 막대기로 두드려 강제로 빼내면 모든 생산 진행 상황이 손실됩니다. 이는 벌이 빠져나가는 것이 안전한 경우에만 작동합니다."
+    }
+  ]
+}

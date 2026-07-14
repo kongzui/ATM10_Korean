@@ -1,0 +1,53 @@
+{
+  "name": "모듈형 원심분리기 코어",
+  "icon": "modularbees:modular_centrifuge_core",
+  "read_by_default": true,
+  "category": "modularbees:centrifuge",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "모듈형 원심분리기 코어",
+      "text": "모듈형 원심분리기 멀티 블록의 컨트롤러는 하단 레이어에 4개의 모서리가 있는 3x3x3 구조입니다.$(br)원심 분리기를 개선하기 위해 원심분리기 구조 상자를 기능 부품으로 교체할 수 있습니다.$(br)모듈형 원심분리기은 공유 블록을 허용하지 않습니다."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "모듈형 원심분리기",
+      "multiblock": {
+        "pattern": [
+          [
+            "XXX",
+            "XXX",
+            "XXX"
+          ],
+          [
+            "XXX",
+            "X0X",
+            "XCX"
+          ],
+          [
+            "X X",
+            "   ",
+            "X X"
+          ]
+        ],
+        "mapping": {
+          "X": "modularbees:modular_centrifuge_part",
+          "0": "modularbees:modular_centrifuge_part",
+          "C": "modularbees:modular_centrifuge_core[facing=east]"
+        },
+        "symmetrical": true
+      },
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "특징",
+      "text": "모듈형 원심분리기은 모든 원심분리기 업그레이드를 지원합니다. 속도 업그레이드로 처리시간 단축, 생산성 업그레이드로 병렬도 높일 수 있습니다.$(br)기본 처리시간은 기본 원심분리기(15s)와 동일합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_centrifuge_core",
+      "recipe2": "modularbees:modular_centrifuge_part"
+    }
+  ]
+}

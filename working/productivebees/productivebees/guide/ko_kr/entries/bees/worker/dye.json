@@ -1,0 +1,18 @@
+{
+  "name": "먹이다 벌",
+  "icon": "minecraft:red_dye",
+  "read_by_default": true,
+  "sortnum": 6,
+  "category": "productivebees:bees_worker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "먹이다 벌",
+      "text": "수분된 꽃을 기반으로 염료를 생성합니다."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:dye_bee"
+    }
+  ]
+}

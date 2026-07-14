@@ -1,0 +1,768 @@
+{
+  "quest.003AA945CACCD641.quest_subtitle": "헌금 테이블로 제작",
+  "quest.003AA945CACCD641.title": "비 오브 더 뎁스",
+  "quest.003FF3813A864BA1.quest_subtitle": "용암 벌에게 이상한 물질이 담긴 양동이를 먹이기",
+  "quest.003FF3813A864BA1.title": "이상한 물질 벌",
+  "quest.0072C4F028C327CB.quest_subtitle": "마그마틱 + 노마드",
+  "quest.0072C4F028C327CB.title": "BlazBee",
+  "quest.00A17728A387B426.quest_desc": [
+    "나무 둥지는 어리호박벌과 파란띠무늬벌을 꾀는 데 사용됩니다.\\n\\n검은 떡갈나무 둥지는 3가지 종류의 벌을 끕니다.\\n\\n이것들은 오버월드 생물 군계 어디든 설치할 수 있습니다."
+  ],
+  "quest.00A17728A387B426.quest_subtitle": "어떤 오버월드 생물 군계에서든 사용할 수 있습니다",
+  "quest.00A17728A387B426.title": "나무 둥지",
+  "quest.00FD36C207845895.quest_desc": [
+    "이 벌을 꾀어내려면 엔드에 흑요석 둥지를 놓으세요."
+  ],
+  "quest.00FD36C207845895.quest_subtitle": "&9흑요석 둥지가 필요합니다",
+  "quest.00FD36C207845895.title": "드라코닉 벌",
+  "quest.010A970FC91BD617.quest_subtitle": "합금 제련소에서 제작",
+  "quest.010A970FC91BD617.title": "솔라리움 벌",
+  "quest.019CC48531E7759B.quest_subtitle": "드래곤스틸 포지에서 제작",
+  "quest.019CC48531E7759B.title": "아이스 드래곤스틸 벌",
+  "quest.01F7F3589EBD8872.quest_subtitle": "슈룸비에게 갈색 버섯을 먹이세요",
+  "quest.01F7F3589EBD8872.title": "Brown Shroombee",
+  "quest.027FD9135DEC4949.quest_subtitle": "네더에 설치하고 가스트 눈물을 주면 유령 벌을 유인합니다.",
+  "quest.029AA03790F055E8.quest_subtitle": "결정꽃 + 석공",
+  "quest.029AA03790F055E8.title": "금 벌",
+  "quest.02F3133A9006BC1E.quest_subtitle": "철 + 석탄",
+  "quest.02F3133A9006BC1E.title": "강철 벌",
+  "quest.035495984F84FB44.quest_subtitle": "합금 제련소에서 제작",
+  "quest.035495984F84FB44.title": "맥동합금 벌",
+  "quest.037FBF06E59E1027.quest_subtitle": "클리바노에서 제작",
+  "quest.037FBF06E59E1027.title": "더럼 벌",
+  "quest.041CDB45450A67E0.quest_subtitle": "고대의 벌 생성 알과 백금 벌 생성 알 합금",
+  "quest.041CDB45450A67E0.title": "듀라튬 벌",
+  "quest.0465094C2D31B898.quest_subtitle": "아이언 + 크리비",
+  "quest.0465094C2D31B898.title": "우라니나이트 벌",
+  "quest.05422E444126FDA6.quest_subtitle": "철 + 블레이즈",
+  "quest.05422E444126FDA6.title": "크림슨 아이언 벌",
+  "quest.05428EA120583BD0.quest_subtitle": "에너자이저로 만든",
+  "quest.05428EA120583BD0.title": "니트로 크리스탈 벌",
+  "quest.05F8458AB4A6950B.quest_subtitle": "공허쉬머 구를 다이아몬드 벌에게 먹이세요",
+  "quest.05F8458AB4A6950B.title": "셀레스티젬 벌",
+  "quest.06044B4452A6B720.quest_desc": [
+    "사막 생물 군계에 설치하면 모래 둥지는 초콜릿 또는 애시 채굴 벌을 유인합니다."
+  ],
+  "quest.06044B4452A6B720.quest_subtitle": "사막 생물 군계에서 벌을 유인합니다",
+  "quest.065196033249A0AA.quest_subtitle": "철 벌 계란과 합금 원료 생체고분자",
+  "quest.065196033249A0AA.title": "바이오스틸 벌",
+  "quest.0691BDE968724213.quest_subtitle": "합금 제련소에서 제작",
+  "quest.0691BDE968724213.title": "활기찬 합금 벌",
+  "quest.06B352AE90DD0D3E.quest_desc": [
+    "&4흑요석 벌 생성 알&r을 수분시키는 &8BlazBee&r은 이를 &2무한 벌 생성 알&r로 변환합니다."
+  ],
+  "quest.06B352AE90DD0D3E.title": "비 오브 인피니티",
+  "quest.06B6786122F3DAF9.quest_desc": [
+    "벌이 일할 수 있는 시간에 영향을 미칩니다. 여기에는 &aDiurnal&r, &dNocturnal&r, &cMetaturnal&r의 3가지 레벨이 있습니다. &a일주&r 벌은 낮에만 일할 수 있고, &d야행성&r 벌은 밤에만 일할 수 있으며, &c메타턴&r 벌은 하루 중 언제든지 일할 수 있습니다. &cMetaturnal&r은 우리가 추구하는 것입니다. BeeBee은 당연히 &cMetaturnal&r 특성을 가지고 있습니다. &a&l생산성&r 퀘스트에서 언급했듯이 이 벌은 The Other에서 발견되며 특히 치명적인 벌입니다.\\n\\n그 치명적인 벌을 처리하고 싶지 않다면 다른 옵션이 있습니다. 밤에는 몇 마리의 벌을 울타리에 묶어 &d야행성&r로 만들고, 낮에는 그 벌들을 울타리에 놓아 &cMetaturnal&r로 만들어야 합니다. 자연적으로 &dNocturnal&r인 아리송한 벌 또는 Shroombees를 사용하면 이러한 단계 중 하나를 건너뛸 수 있습니다."
+  ],
+  "quest.06B6786122F3DAF9.quest_subtitle": "잠은 약한 자들을 위한 것이다",
+  "quest.06B6786122F3DAF9.title": "&e&l동작",
+  "quest.08A3292277D2FDE2.quest_subtitle": "매혹적인 장치로 제작됨",
+  "quest.08A3292277D2FDE2.title": "워터 에센스 벌",
+  "quest.09223F02621781BF.quest_subtitle": "철 + 석공",
+  "quest.09223F02621781BF.title": "은 벌",
+  "quest.094D28B7A0170039.quest_desc": [
+    "아이템을 줍고 벌집으로 가져갈 것입니다.",
+    "",
+    "비축벌만큼 좋지는 않네요."
+  ],
+  "quest.094D28B7A0170039.quest_subtitle": "바닐라 벌에게 호퍼를 먹이세요",
+  "quest.094D28B7A0170039.title": "수집기 벌",
+  "quest.097DE7038A746847.quest_subtitle": "갈대 둥지에서 스폰됩니다",
+  "quest.09FD3D0B9BCAEB5A.quest_desc": [
+    "자갈 벌집은 강 생물 군계 또는 해변 생물 군계에서 벌을 유인합니다.",
+    "",
+    "이것은 애시 채굴 벌, 초콜릿 채굴 벌, 그리고 파쇄기 벌을 유인합니다."
+  ],
+  "quest.09FD3D0B9BCAEB5A.quest_subtitle": "강과 해변 생물 군계의 벌들을 꾀어냅니다",
+  "quest.0A11725B41AB45F6.quest_desc": [
+    "이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."
+  ],
+  "quest.0AF2460579C6BD8C.quest_subtitle": "오스뮴 + 흑요석",
+  "quest.0AF2460579C6BD8C.title": "정제된 흑요석 벌",
+  "quest.0B2210804594E7B8.quest_subtitle": "그냥 만드시면 됩니다",
+  "quest.0B2210804594E7B8.title": "신비한 정수 벌",
+  "quest.0BCB7E97BC566683.quest_subtitle": "원심분리기 6 철 벌 1 망간 벌 생성 알에 대한 생성 알",
+  "quest.0BCB7E97BC566683.title": "망간 벌",
+  "quest.0CD6F30BBEE20E15.quest_subtitle": "발광석 + 오스뮴",
+  "quest.0CD6F30BBEE20E15.title": "정제된 발광석 벌",
+  "quest.0D5D76B3551CD5A7.quest_desc": [
+    "네, 알루미늄 벌이라고 합니다."
+  ],
+  "quest.0D5D76B3551CD5A7.quest_subtitle": "결정질 + 애시 채굴",
+  "quest.0D5D76B3551CD5A7.title": "알류미늄 벌",
+  "quest.0D97CDE92F3B1A83.quest_subtitle": "납 + 다이아몬드/백금",
+  "quest.0D97CDE92F3B1A83.title": "엔데리움 벌",
+  "quest.0E345B5B625E6235.quest_subtitle": "매혹적인 장치로 제작됨",
+  "quest.0E345B5B625E6235.title": "대지의 정수 벌",
+  "quest.0FB1FC640471363A.quest_subtitle": "청금석 + 에메랄드",
+  "quest.0FB1FC640471363A.title": "경험 벌",
+  "quest.100ACB5C8A359BF0.quest_desc": [
+    "레드스톤 벌과 파란띠무늬벌을 교배하여 청금석 벌을 얻으세요!"
+  ],
+  "quest.100ACB5C8A359BF0.quest_subtitle": "레드스톤 + 파란띠무늬",
+  "quest.100ACB5C8A359BF0.title": "청금석 벌",
+  "quest.101E3A21FEE00E3F.quest_subtitle": "플럭사이트 벌 계란과 니켈 벌 계란 합금",
+  "quest.101E3A21FEE00E3F.title": "에너자이트 벌",
+  "quest.104BF57D4A006688.quest_subtitle": "파는 사람 벌에게 스컬크 블록 먹이기",
+  "quest.104BF57D4A006688.title": "스컬크 벌",
+  "quest.109AD73F016D576B.quest_desc": [
+    "바닐라 방식으로, 직접 &9벌통&r을 만들어 작은 환경을 조성하세요!\\n\\n이것들은 각각 벌 3마리를 수용할 수 있지만, long...에는 사용하지 않을 것입니다.\\n\\n벌은 적절한 꽃이 있어야만 꿀과 벌집 조각을 만듭니다. 바닐라 벌은 어떤 꽃이든 사용할 수 있지만, 모드에 있는 대부분의 벌은 특정 블록이 필요합니다! 자세한 내용은 JEI를 확인하세요."
+  ],
+  "quest.109AD73F016D576B.title": "당신의 첫 번째 벌통",
+  "quest.10DF9DE4B6C03D6B.quest_subtitle": "자연 제단으로 제작",
+  "quest.10DF9DE4B6C03D6B.title": "오염된 금 벌",
+  "quest.114D668C691A2BDF.quest_subtitle": "애시 채굴 + 결정질",
+  "quest.114D668C691A2BDF.title": "철 벌",
+  "quest.117241986C99E475.quest_desc": [
+    "발광 벌을 초콜릿 채굴 벌과 교배하여 레드스톤 벌을 얻으세요!"
+  ],
+  "quest.117241986C99E475.quest_subtitle": "발광 + 초콜릿 채굴",
+  "quest.117241986C99E475.title": "레드스톤 벌",
+  "quest.120BDCB70AD352AC.quest_desc": [
+    "만약 당신의 벌 농장을 자원 공장으로 바꾸고 싶다면, &6벌집&r으로 벌을 생성하는 것부터 시작해야 합니다.",
+    "",
+    "벌집은 특정 생물 군계에 배치해야 하며, 이는 JEI에서 확인할 수 있습니다(상단의 I 아이콘을 찾으세요).",
+    "",
+    "벌을 벌집으로 유인하려면 &9꿀 간식&r을 들고 우클릭하세요. 간식이 없으면 벌집이 작동하지 않습니다!!",
+    "",
+    "&9중요 사항&r: 특정 벌들은 벌집에서만 살고 고급 벌통으로는 들어가지 않습니다. 벌집 조각을 생산하지 않는다면 벌집에서 살게 해야 합니다."
+  ],
+  "quest.120BDCB70AD352AC.quest_subtitle": "꿀 간식 필요",
+  "quest.128A14A3842325FE.quest_desc": [
+    "고급 벌통에 설치하면 벌이 더 이상 벌집에서 물리적으로 나가지 않습니다. 꽃 블록으로의 여행이 시뮬레이션됩니다.\\n\\n벌집에 있는 벌에 필요한 꽃 블록이나 아이템이 들어 있는 벌통 앞에 필요한 꽃 블록이나 슬래브 공급을 놓으십시오. 올바르게 설정하는 방법은 슬래브 공급 퀘스트를 확인하세요.\\n\\n벌이 사라지지 않고 벌집에 벌을 더 쉽게 넣거나 꺼낼 수 있도록 이 퀘스트를 받는 것을 적극 권장합니다."
+  ],
+  "quest.128A14A3842325FE.quest_subtitle": "벌은 여전히 진짜인가요?",
+  "quest.131EC039435B8878.quest_desc": [
+    "프로덕티브 비(Productive Bees)에서는 특정 벌을 찾기 위해 시간을 낭비하며 날아다니지 않아도 됩니다.",
+    "",
+    "대신, &6꿀 간식&r이 있는 둥지를 사용하여 스폰합니다.",
+    "",
+    "이것들로 벌집을 만들고 간식으로 우클릭하여 벌을 유인할 수 있습니다. 일부 벌집은 꿀 간식 대신 특별한 아이템이 필요하므로 JEI에서 자세한 내용을 확인하세요!",
+    "",
+    "알맞은 벌을 유인하려면 어떤 생물 군계에 있어야 하는지 확인하세요!"
+  ],
+  "quest.13AA91D39A2CABF2.quest_desc": [
+    "&6프로덕티브 비&r에 오신 것을 환영합니다!\\n\\n모드를 시작하려면 먼저 벌집 조각과 꿀이 든 병을 찾아야 합니다! 벌통을 찾고 벌들이 잠시 동안 일을 하도록 하세요. 꽉 찼을 때 깎으면 벌집 조각을 얻을 수 있고, 유리 병으로는 꿀이 든 병을 얻을 수 있습니다!\\n\\n&9중요 사항&r: 벌 퀘스트에 벌집 조각이 필요하므로 레시피가 표시되지 않습니다. 필요한 경우 JEI에서 찾아보세요!"
+  ],
+  "quest.13AA91D39A2CABF2.title": "프로덕티브 비!",
+  "quest.13C5C06278DD9C95.quest_subtitle": "다이아몬드 벌 생성 알과 니켈 벌 생성 알을 합금하세요",
+  "quest.13C5C06278DD9C95.title": "단호한 벌",
+  "quest.13CAD46F4B229AB4.quest_subtitle": "자연 제단으로 제작",
+  "quest.13CAD46F4B229AB4.title": "주입된 철분 벌",
+  "quest.1404BB8956D5F8C7.quest_desc": [
+    "가혹한 기상 조건에서 일하는 벌의 능력에 영향을 미칩니다. 여기에는 &aNone&r, &dRain&r, &cAny&r의 3가지 레벨이 있습니다. &cAny&r은 우리가 추구하는 것입니다. 원하신다면 뇌우가 치는 동안 벌을 울타리에 묶어 놓을 수도 있지만, 그건 너무 잔인합니다.\\n\\n더 쉬운 해결책을 제시하겠습니다. 어업. 맞습니다. 벌 낚시를 할 수 있습니다. 물이나 프리즈머린 벌은 자연스럽게 어떤 기상 조건도 견딜 수 있는 능력을 가지고 있습니다. 우리는 이것을 활용할 수 있습니다!"
+  ],
+  "quest.1404BB8956D5F8C7.quest_subtitle": "큰 것 중에 가장 작은 것이",
+  "quest.1404BB8956D5F8C7.title": "&9&l날씨 허용치",
+  "quest.14623D25561BA61B.quest_desc": [
+    "주로 포획기를 위해 사용됩니다."
+  ],
+  "quest.14623D25561BA61B.quest_subtitle": "기계의 범위를 늘립니다",
+  "quest.150FB369BEFFCBBF.quest_subtitle": "은 + 주석",
+  "quest.150FB369BEFFCBBF.title": "루미움 벌",
+  "quest.15288215A4BA2596.quest_subtitle": "다이아몬드 벌에 장미 석영 블록을 공급합니다.",
+  "quest.15288215A4BA2596.title": "로즈쿼츠 벌",
+  "quest.1540A9CDE2ED77E8.quest_subtitle": "에너자이저로 만든",
+  "quest.1540A9CDE2ED77E8.title": "활력이 넘치는 수정 벌",
+  "quest.15C9CCCC8E06D430.quest_subtitle": "수정 같은 벌에 검은 석영 블록을 공급합니다.",
+  "quest.15C9CCCC8E06D430.title": "블랙쿼츠 벌",
+  "quest.160BD0185954C891.quest_desc": [
+    "꿀 간식 대신, 이 벌집은 벌을 유인하기 위해 금 주괴가 필요합니다."
+  ],
+  "quest.160BD0185954C891.quest_subtitle": "네더에 설치하면 금 벌을 유인합니다",
+  "quest.16987C41D4F5BA47.quest_subtitle": "합금 제련소에서 제작",
+  "quest.16987C41D4F5BA47.title": "구리 합금 벌",
+  "quest.170C31F3BAF050BC.quest_subtitle": "재처리기에서 제작됨",
+  "quest.170C31F3BAF050BC.title": "블루토늄 벌",
+  "quest.17419401147B5C02.quest_desc": [
+    "벌을 벌집으로 유인하는 것 외에도, 대부분의 벌은 벌을 만들기 위해 &e번식&r 또는 &9변환&r이 필요합니다. (아니요, 오타가 아닙니다.)",
+    "",
+    "&e벌 번식&r에는 2마리의 벌과 짝짓기를 유발하기 위해 먹이를 줄 특정 아이템이 필요합니다.",
+    "",
+    "&9벌 변환&r은 새로운 벌로 변환하기 위해 특정 아이템을 벌에게 먹여야 합니다."
+  ],
+  "quest.17419401147B5C02.quest_subtitle": "벌과 벌들",
+  "quest.176ACC61DC206E55.quest_desc": [
+    "크림슨 포레스트(Crimson Forests)에서 이 벌들을 찾을 수 있습니다. 그 둥지는 진홍색 곰팡이를 키워도 2% 확률로 얻을 수 있습니다."
+  ],
+  "quest.176ACC61DC206E55.quest_subtitle": "슈룸비에게 진홍빛 균을 먹이세요",
+  "quest.176ACC61DC206E55.title": "Crimson Shroombee",
+  "quest.177199FED92C3B5B.quest_subtitle": "다이아몬드 벌에 주입된 다이아몬드를 공급합니다.",
+  "quest.177199FED92C3B5B.title": "차원 벌",
+  "quest.17989643018D00C1.quest_desc": [
+    "벌집에서 액체가 떨어지는 것이 짜증나시나요? 그렇다면 운이 좋으시네요. 쉬운 해결책이 있으니까요.\\n\\n고급 벌통의 병 슬롯에 &e스펀지&r를 넣으면 액체가 떨어지는 것을 막을 수 있습니다."
+  ],
+  "quest.17989643018D00C1.quest_subtitle": "당신은 멋이 없군요.",
+  "quest.17989643018D00C1.title": "물방울 멈춤",
+  "quest.17A322C3B309A4D4.quest_subtitle": "금 벌은 음악 디스크 같은 것 같아요",
+  "quest.17A322C3B309A4D4.title": "레갈리움 벌",
+  "quest.17B18040EFA37F86.quest_subtitle": "방사성 벌에게 폴로늄 펠릿을 공급합니다.",
+  "quest.17B18040EFA37F86.title": "낭비되는 방사성 물질 벌",
+  "quest.18F948FF9FE015FB.quest_subtitle": "바닐라 벌에게 TNT를 먹이세요",
+  "quest.18F948FF9FE015FB.title": "CreeBee",
+  "quest.196E55B64667AE35.quest_desc": [
+    "아래 이미지와 같이 벌통 앞에 배치된 슬래브 공급에 벌 꽃을 배치할 수 있습니다.\\n",
+    "{image:atm:textures/questpics/bees/feeder.png width:175 height:100 align:center fit:true}"
+  ],
+  "quest.196E55B64667AE35.quest_subtitle": "반쪽 블록 내려놓기",
+  "quest.198EDBAC1D6E2339.quest_desc": [
+    "엔더 벌을 위해 이것들이 필요할 겁니다."
+  ],
+  "quest.198EDBAC1D6E2339.quest_subtitle": "벌이 벌집에서 순간이동하는 것을 방지합니다",
+  "quest.1A0672C7509271B3.quest_subtitle": "다이아몬드 벌에게 형석을 공급하세요",
+  "quest.1A0672C7509271B3.title": "형석 벌",
+  "quest.1A4FAE5705B53753.quest_subtitle": "매혹적인 장치로 제작됨",
+  "quest.1A4FAE5705B53753.title": "에어 에센스 벌",
+  "quest.1ACB3EDBCB732514.quest_subtitle": "황 벌에 모나자이트 블록 공급",
+  "quest.1ACB3EDBCB732514.title": "모나자이트 벌",
+  "quest.1B79F794EDAA810A.quest_desc": [
+    "사육실을 사용하면 벌 두 마리를 자동으로 번식시킬 수 있습니다. 자가 번식이 가능하고, 2가지 종류의 벌을 번식시켜 세 번째 종류의 벌을 만들 수도 있습니다(예: Ashy Mining + Crystalline -> Iron). 이로 인해 충돌이 발생하는 경우(이전 예에서 계속, Ashy Mining + Crystalline -> 알루미늄), 벌 중 하나를 꺼낸 다음 다시 넣으십시오.\\n\\n각 슬롯에 번식 항목을 제공합니다(일반적으로 꽃, 특정 벌 유형을 보유한 벌 케이지에서 SHIFT 키를 누른 상태에서 사용하는 번식 항목을 확인하세요(예를 들어 드라코닉 벌는 2 용의 가루을 사용함)). \\n\\n그냥...하지 마세요...F.Bee.I를 얻으려면 무슨 일이 있어도요. 당신을 쫓기 위해. 그들이 당신을 뒤쫓는다면 당신도 수치의 전당에 추가되도록 보장하겠습니다."
+  ],
+  "quest.1B79F794EDAA810A.quest_subtitle": "아기 만들기 2: 전기 비갈루",
+  "quest.1C0F4D1610530FEC.quest_subtitle": "Dragonsteel 대장간에서 제작",
+  "quest.1C0F4D1610530FEC.title": "파이어 드래곤스틸 벌",
+  "quest.1C40B30823B2A254.quest_subtitle": "그냥 낚시하세요",
+  "quest.1C40B30823B2A254.title": "프리즈머린 벌",
+  "quest.1C474B46AECCCFE9.quest_subtitle": "자갈 또는 돌 벌집을 사용하여 생성됨",
+  "quest.1D720AC88431BD70.quest_desc": [
+    "엔더 벌을 청금석 벌과 교배하여 다이아몬드 벌을 만드세요!"
+  ],
+  "quest.1D720AC88431BD70.quest_subtitle": "엔더 + 청금석",
+  "quest.1D720AC88431BD70.title": "다이아몬드 벌",
+  "quest.1D995548A159F291.quest_subtitle": "아리송한 벌에게 Soulium Dagger를 먹이세요.",
+  "quest.1D995548A159F291.title": "소울리움 벌",
+  "quest.1DC407272D9D9CCE.quest_subtitle": "각성한 제작",
+  "quest.1DC407272D9D9CCE.title": "각성 슈프리미엄 벌",
+  "quest.1DF026030780AE96.quest_subtitle": "벌집에 있는 벌로부터 유전자를 추출합니다",
+  "quest.1E9BD4B74DAEA9FC.quest_desc": [
+    "벌들을 이 벌집으로 유인하려면 꿀 간식 대신 튀긴 후렴과가 필요합니다."
+  ],
+  "quest.1E9BD4B74DAEA9FC.quest_subtitle": "엔드에 설치하면 엔더 벌을 유인합니다.",
+  "quest.1EBD5E4410A6DF34.quest_subtitle": "유령 벌에게 소울륨 단검을 먹이세요",
+  "quest.1EBD5E4410A6DF34.title": "소울리움 벌",
+  "quest.205DE46ABA1CCC8F.quest_subtitle": "합금 제련소에서 제작",
+  "quest.205DE46ABA1CCC8F.title": "전도성 합금 벌",
+  "quest.2086C73688C8BA51.quest_subtitle": "용암 벌에 황산 한 통을 공급합니다.",
+  "quest.2086C73688C8BA51.title": "황산 벌",
+  "quest.2182492BCC1B33D8.quest_desc": [
+    "벌집에 설치하면 꿀이 전달될 때마다 새로운 아기 벌이 생성될 확률이 5% 증가합니다.\\n\\n포획기에 설치하면 포획기가 아기 벌만 잡을 수 있습니다.\\n\\n더 높은 확률을 위해 여러 개를 쌓을 수 있습니다."
+  ],
+  "quest.2182492BCC1B33D8.quest_subtitle": "아기 만들기",
+  "quest.21FDF07571B5DCA7.quest_subtitle": "Primogel Goo를 철 벌에게 먹이세요",
+  "quest.21FDF07571B5DCA7.title": "페리코어 벌",
+  "quest.2226555D9552236E.quest_subtitle": "대부분의 나무 둥지에서 스폰됩니다",
+  "quest.22647504C37E547C.quest_subtitle": "방사성 벌에 청록색 블록을 공급합니다.",
+  "quest.22647504C37E547C.title": "시아나이트 벌",
+  "quest.22CF5AD56C1BB8D5.quest_subtitle": "다이아몬드 벌에 다크 블록 공급",
+  "quest.22CF5AD56C1BB8D5.title": "다크 젬 벌",
+  "quest.23820B0DCEC022D1.quest_subtitle": "수지 + 목재",
+  "quest.23820B0DCEC022D1.title": "플라스틱 벌",
+  "quest.244ACD7024566001.quest_subtitle": "땀샘 벌 아이스에게 먹이를 주세요",
+  "quest.244ACD7024566001.title": "싸늘한 벌",
+  "quest.24846776077B52C3.quest_subtitle": "주입 제작",
+  "quest.24846776077B52C3.title": "슈프리미엄 벌",
+  "quest.24888CAD50B32B04.quest_subtitle": "돌 둥지를 사용하여 생성됨",
+  "quest.24B147D251D0CFFF.quest_subtitle": "Blazebloom Goo를 금 벌에게 먹이세요.",
+  "quest.24B147D251D0CFFF.title": "블레이즈골드 벌",
+  "quest.264BFB8C5F79616F.quest_desc": [
+    "눈 덮인 생물 군계에 눈 벌집을 놓으면 땀샘 벌을 유인할 수 있습니다."
+  ],
+  "quest.264BFB8C5F79616F.quest_subtitle": "차가운 생물 군계에서 땀샘 벌을 유인합니다.",
+  "quest.26B3AE1E77A84BCB.quest_desc": [
+    "&9오스뮴 벌 생성 알&r, &b충전된 세르투스 석영&r 및 &8하늘석&r을 용암에 던지면 &e스카이 오스뮴 벌 생성 알이 생성됩니다."
+  ],
+  "quest.26B3AE1E77A84BCB.title": "스카이 오스뮴 벌",
+  "quest.26B9909717528D5E.quest_subtitle": "지하 정원에서 발견됨",
+  "quest.26B9909717528D5E.title": "우테릭 벌",
+  "quest.26FB7A789981BD3C.quest_subtitle": "석탄 벌에 흑연 블록 공급",
+  "quest.26FB7A789981BD3C.title": "석묵 벌",
+  "quest.28AE3B536D23E138.quest_subtitle": "주입 제작",
+  "quest.28AE3B536D23E138.title": "인페리움 벌",
+  "quest.2982D38BD5EE6349.quest_desc": [
+    "뒤틀린 숲 주변을 돌아다니는 이 벌들을 발견할 수 있습니다. 둥지는 뒤틀린 곰팡이를 키워도 2% 확률로 얻을 수 있습니다."
+  ],
+  "quest.2982D38BD5EE6349.quest_subtitle": "슈룸비에게 뒤틀린 균을 먹이세요",
+  "quest.2982D38BD5EE6349.title": "Warped Shroombee",
+  "quest.29A71E780923874E.quest_subtitle": "유목민 + 갈대",
+  "quest.29A71E780923874E.title": "실리콘 벌",
+  "quest.29EE878BC8D3A742.quest_desc": [
+    "우리만의 벌 농장을 시작하려면 bees...을 찾아 포획해야 합니다.",
+    "",
+    "이것을 들고 벌을 우클릭하면 벌을 잡을 수 있습니다!",
+    "",
+    "모험을 하다 보면 &6견고한 벌 동물 우리&r를 얻을 수도 있으니, 계속 주시하세요!"
+  ],
+  "quest.29EE878BC8D3A742.title": "벌 변환!",
+  "quest.2A559D527BC88DEC.quest_desc": [
+    "&9공간 벌 생성 알&r과 &8하늘 강철 블록&r을 용암에 던지면 스카이 스틸 벌 생성 알이 생성됩니다."
+  ],
+  "quest.2A559D527BC88DEC.title": "스카이 스틸 벌",
+  "quest.2AEC294578952BFD.quest_subtitle": "청금석 + 스켈레탈",
+  "quest.2AEC294578952BFD.title": "먹이다 벌",
+  "quest.2AEEDCC6826CF4AB.quest_subtitle": "수상한 사업",
+  "quest.2AEEDCC6826CF4AB.title": "기름진 벌",
+  "quest.2BE538246C672689.quest_desc": [
+    "주조소를 사용하여 &#F2EB2E비브라늄 벌 생성 알&r 위에 &#9332D9Molten Unobtainium&r을 붓습니다."
+  ],
+  "quest.2BE538246C672689.title": "언옵테이늄 벌",
+  "quest.2C29683DA28A8D47.quest_subtitle": "재처리기에서 제작됨",
+  "quest.2C29683DA28A8D47.title": "미친 벌",
+  "quest.2CA3707BEE2E3C0D.quest_subtitle": "다이아몬드 벌에게 네더라이트 블록을 먹이세요",
+  "quest.2CA3707BEE2E3C0D.title": "고대의 벌",
+  "quest.2CA4D7253DA1825F.quest_subtitle": "나무 둥지를 사용하여 생성됨",
+  "quest.2DFFEB29B6CBFD99.quest_subtitle": "철 + 파란띠무늬",
+  "quest.2DFFEB29B6CBFD99.title": "선두 벌",
+  "quest.2E0275C21D3F0DA3.quest_desc": [
+    "드라코닉 벌과 혼동하지 마십시오."
+  ],
+  "quest.2E0275C21D3F0DA3.quest_subtitle": "와이번 퓨전 크래프팅",
+  "quest.2E0275C21D3F0DA3.title": "드라코늄 벌",
+  "quest.2E51F09F6D9E5EF8.quest_desc": [
+    "이것은 주민 교배기 벌입니다."
+  ],
+  "quest.2E51F09F6D9E5EF8.quest_subtitle": "농부 + 목장장",
+  "quest.2F2597122C6202EF.quest_subtitle": "원자 제련소에서 제작",
+  "quest.2F2597122C6202EF.title": "프로메테움 벌",
+  "quest.2FE088899C1AF39B.quest_subtitle": "합금 제련소에서 제작",
+  "quest.2FE088899C1AF39B.title": "다크 스틸 벌",
+  "quest.3054D016D2EF25FF.quest_subtitle": "금 + 은",
+  "quest.3054D016D2EF25FF.title": "일렉트럼 벌",
+  "quest.309059DEDEE7AECD.quest_desc": [
+    "땅에 떨어진 아이템을 수집하여 둥지로 가져갑니다."
+  ],
+  "quest.309059DEDEE7AECD.quest_subtitle": "수집가 벌에게 셜커 껍데기를 먹이세요",
+  "quest.309059DEDEE7AECD.title": "호더 벌",
+  "quest.30A238E87F013CBB.quest_desc": [
+    "벌은 일하는 방식, 일하는 시기, 공격성, 그리고 공격할 때 독침을 잃을 가능성에 영향을 미칠 수 있는 다양한 특성을 가지고 있습니다. 이 퀘스트에서는 가능한 최고의 특성을 얻는 방법과 이를 사용하는 방법을 살펴볼 것입니다.\\n\\n이 유전자 샘플을 얻으려면 이 퀘스트에 종속된 보틀러 퀘스트를 확인하세요. 이러한 유전자 샘플을 벌에 실제로 적용하려면 제작 그리드에서 꿀 간식과 결합해야 합니다. 유형을 제외한 모든 특성은 꿀 간식을 먹이면 벌에 적용할 수 있습니다. 유형은 다르게 작동하며 대신 각 벌의 생성 알을 만들기 위해 인큐베이터와 함께 사용해야 합니다."
+  ],
+  "quest.30A238E87F013CBB.quest_subtitle": "궁극의 벌을 만들려면",
+  "quest.30A238E87F013CBB.title": "유전자 샘플s",
+  "quest.3155E4212045BC8E.quest_desc": [
+    "흑요석 둥지는 엔드에 설치했을 때 용의 벌을 유인합니다.",
+    "",
+    "이것들은 꿀 간식을 받지 않지만, 대신 드래곤의 숨결을 사용합니다."
+  ],
+  "quest.3155E4212045BC8E.quest_subtitle": "엔드에서 드라코닉 벌을 유인합니다",
+  "quest.3157BD833FCE8CD3.quest_subtitle": "용암 벌에게 스올 불 한 통을 먹이세요",
+  "quest.3157BD833FCE8CD3.title": "스올 불 벌",
+  "quest.31ED0C236C41A837.quest_subtitle": "용암 양동이를 마그마틱 벌에 먹이기",
+  "quest.31ED0C236C41A837.title": "용암 벌",
+  "quest.32FDC5FFA000DAF8.quest_desc": [
+    "당신이 가진 벌이 자랑스러우신가요?\\n\\n벌을 병에 넣어 자랑하고 싶으신가요?\\n\\n벌 병을 내려놓고 파이프나 호퍼를 사용하여 우리에 갇힌 벌을 병에 넣으세요."
+  ],
+  "quest.32FDC5FFA000DAF8.quest_subtitle": "벌 표시 중",
+  "quest.33422FBDAE11AE82.quest_subtitle": "시공 벌에게 액정 진주를 먹이세요",
+  "quest.33422FBDAE11AE82.title": "플럭스 벌",
+  "quest.33A0E06FE5CFD8F3.quest_desc": [
+    "&9원심분리기&r은 벌의 빗을 유용한 아이템과 꿀로 가공하는 데 사용됩니다! 처음에는 확실히 일반 &9원심분리기&r을 사용할 수 있지만 곧 &6전동 원심분리기&r을 얻는 것이 필수입니다. 이것은 전원이 부족한 더 빠른 원심분리기입니다!\\n\\nCombs를 처리하는 가장 좋은 방법을 찾고 있다면 &c가열 원심분리기&r이 훨씬 더 빠르고 Combs 대신 &a빗 블록s&r을 처리합니다!\\n\\n이 모든 것은 속도 업그레이드를 사용하여 더 빠르게 만들 수 있습니다."
+  ],
+  "quest.33A0E06FE5CFD8F3.quest_subtitle": "벌집 조각 처리",
+  "quest.3466C70EB256026B.quest_subtitle": "매혹적인 장치로 제작됨",
+  "quest.3466C70EB256026B.title": "불의 정수 벌",
+  "quest.349D19F2FCC34B84.quest_desc": [
+    "네더에 네더 벽돌 벌집을 설치하고 마그마 크림을 주면 마그마 벌이 유인됩니다."
+  ],
+  "quest.349D19F2FCC34B84.quest_subtitle": "네더에 설치했을 때 마그마 벌을 꾀는 미끼",
+  "quest.3567306F2B66BD20.quest_subtitle": "주입 제작",
+  "quest.3567306F2B66BD20.title": "제국 벌",
+  "quest.35E8F1CC0080E45E.quest_subtitle": "다이아몬드 벌에게 루비를 먹이세요",
+  "quest.35E8F1CC0080E45E.title": "RuBee",
+  "quest.35EAB77C195E594E.quest_subtitle": "다이아몬드 벌에게 자수정을 먹이세요",
+  "quest.35EAB77C195E594E.title": "자수정 벌",
+  "quest.35FE9C3395491433.quest_subtitle": "철 벌 생성 알에 압력을 가하세요.",
+  "quest.35FE9C3395491433.title": "압축철 벌",
+  "quest.36541A2179A7E76B.quest_subtitle": "BlazBee에 베니토이트 광석 공급",
+  "quest.36541A2179A7E76B.title": "베니토테 벌",
+  "quest.369D3AF332181DA8.quest_desc": [
+    "돌 벌집은 석공 벌 또는 땅파기 벌을 꾀어내기 위해 모든 오버월드 생물 군계에 설치할 수 있습니다."
+  ],
+  "quest.369D3AF332181DA8.quest_subtitle": "모든 오버월드 생물 군계에서 벌을 유인합니다",
+  "quest.37045B986619A03D.quest_subtitle": "노란색 + 초록색 어리호박벌",
+  "quest.371E09ED2A3F6BDC.quest_desc": [
+    "밤에!"
+  ],
+  "quest.371E09ED2A3F6BDC.quest_subtitle": "어두운 곳의 비어 있음 고급 벌통에서 스폰됩니다.",
+  "quest.371E09ED2A3F6BDC.title": "ZomBee",
+  "quest.37367101B3DAA70F.quest_desc": [
+    "애시 채굴 벌은 흙, 자갈 또는 모래 벌집에서 생성됩니다."
+  ],
+  "quest.37367101B3DAA70F.quest_subtitle": "흙 둥지에서 스폰됩니다",
+  "quest.379B33D0BCBC47AA.quest_subtitle": "재처리기에서 제작됨",
+  "quest.379B33D0BCBC47AA.title": "마젠타이트 벌",
+  "quest.37CD9BF281903F56.quest_subtitle": "슈룸비에게 빨간색 버섯을 먹이세요",
+  "quest.37CD9BF281903F56.title": "Red Shroombee",
+  "quest.38622692756F1F27.quest_subtitle": "크리스탈 + 엔더",
+  "quest.38622692756F1F27.title": "공간 벌",
+  "quest.397E2D14BDE7DED0.quest_desc": [
+    "모든 벌이 벌집 조각 대신 벌집 블록을 생산하여 생산량이 사실상 네 배가 됩니다!"
+  ],
+  "quest.397E2D14BDE7DED0.quest_subtitle": "빗 4개",
+  "quest.399882F3C51DD282.quest_subtitle": "해골 벌에게 시든 장미를 먹이세요",
+  "quest.399882F3C51DD282.title": "시든 벌",
+  "quest.39A19138C501B16F.quest_desc": [
+    "늪지대 생물 군계에서 끈적한 벌집을 사용해 이 벌들을 유인할 수 있습니다."
+  ],
+  "quest.39A19138C501B16F.quest_subtitle": "&9끈적한 벌집 필요",
+  "quest.39A19138C501B16F.title": "불쾌한 벌",
+  "quest.3AF30E1EC163E2E3.quest_subtitle": "다이아몬드 벌에게 사파이어를 먹이세요",
+  "quest.3AF30E1EC163E2E3.title": "사파이어 벌",
+  "quest.3B5095CEDD9FB323.quest_subtitle": "에너자이저로 만든",
+  "quest.3B5095CEDD9FB323.title": "에너지 강철 벌",
+  "quest.3CB7AB928D3E1CC6.quest_subtitle": "에너자이저로 만든",
+  "quest.3CB7AB928D3E1CC6.title": "타오르는 수정 벌",
+  "quest.3D63868AC4393EBC.quest_subtitle": "청금석 + 에메랄드",
+  "quest.3D63868AC4393EBC.title": "경험 벌",
+  "quest.3D7480E4F9063E93.quest_subtitle": "목재 + 땀",
+  "quest.3D7480E4F9063E93.title": "목장 경영자 벌",
+  "quest.3DA5F622E3266AE5.quest_subtitle": "재처리기에서 제작됨",
+  "quest.3DA5F622E3266AE5.title": "어리석은 사람 벌",
+  "quest.3DB5874FA93FDA50.quest_subtitle": "3개의 에메랄드 벌 생성 알을 베릴륨 벌 생성 알로 전기분해합니다.",
+  "quest.3DB5874FA93FDA50.title": "베릴륨 벌",
+  "quest.3E301F3EEC8C763A.quest_desc": [
+    "이것은 아기 벌의 성장 속도를 높이거나 새로운 생성 알을 만드는 데 사용될 수 있습니다.\\n\\n우리에 갇힌 아기 벌에 20개의 꿀 간식을 넣어 성체로 바꾸세요.\\n\\n생성 알을 만들려면 원하는 벌의 유전자를 꿀 간식과 결합한 다음 이 기계에서 그 꿀 간식을 알과 함께 사용하여 새로운 생성 알을 만들어야 합니다.\\n\\n유전자는 최대 100% 순도: 알을 벌 생성 알로 변환할 확률이 100%입니다.",
+    "{@pagebreak}",
+    "이를 사용하면 벌을 새장에서 꺼내지 않고도 벌에 유전자를 적용할 수도 있습니다. 선택한 유전자 샘플이 담긴 꿀 간식을 유전자를 적용하려는 벌이 들어 있는 벌 케이지와 함께 인큐베이터에 넣으세요."
+  ],
+  "quest.3E301F3EEC8C763A.quest_subtitle": "아기 벌 데이케어",
+  "quest.3EB6CBA0B1374BDD.quest_subtitle": "Dragonsteel 대장간에서 제작",
+  "quest.3EB6CBA0B1374BDD.title": "라이트닝 드래곤스틸 벌",
+  "quest.40E4F1172A164DD1.quest_subtitle": "정글에서 코코아 꼬투리를 파괴할 때 생성될 확률",
+  "quest.40E4F1172A164DD1.title": "슈가백 벌",
+  "quest.40F8A44DF4D8DBD6.quest_subtitle": "마그매틱 + 노마드",
+  "quest.40F8A44DF4D8DBD6.title": "BlazBee",
+  "quest.419DD6FE84B91749.quest_desc": [
+    "유전자를 수집할 때 특성의 백분율을 얻게 됩니다. 제작대에서 결합하여 함께 추가하거나 유전자 색인기에 넣어 자동으로 결합할 수 있습니다."
+  ],
+  "quest.419DD6FE84B91749.quest_subtitle": "유전자 결합기와 상자",
+  "quest.41CF7CAEE4F60CCD.quest_desc": [
+    "네더에 설치하고 발광석을 주면 발광석 둥지가 발광하는 벌을 유인합니다."
+  ],
+  "quest.41CF7CAEE4F60CCD.quest_subtitle": "네더에서 발광하는 벌을 유인합니다",
+  "quest.41D0CC616B762F4C.quest_desc": [
+    "&9플럭스 벌 생성 알&r과 &8엔트로 먼지&r을 물에 던져 엔트로 벌 생성 알을 만들 수 있습니다."
+  ],
+  "quest.41D0CC616B762F4C.title": "엔트로 벌",
+  "quest.41FD145B911BD625.quest_subtitle": "은 벌 Spiritfire에 알 생성",
+  "quest.41FD145B911BD625.title": "이에스늄 벌",
+  "quest.421851D4D39910DB.quest_desc": [
+    "벌이 무언가를 공격할 때마다 독침을 잃을 가능성에 영향을 미칩니다. 이 특성은 제가 언급한 처음 3가지 특성에 비해 덜 중요하지만 어쨌든 그것에 대해 이야기하겠습니다. 여기에는 &a약함&r, &9보통&r, &d보통&r, &c강함&r의 4가지 레벨이 있습니다. &cStrong&r은 제가 집중할 것입니다. Draconic, Obsidian과 같은 특정 벌 및 제가 자연적으로 언급하지 않은 일부 다른 벌은 강한 지구력을 가지고 있어 독침을 유지할 수 있습니다."
+  ],
+  "quest.421851D4D39910DB.quest_subtitle": "덜 중요한 것 중 하나",
+  "quest.421851D4D39910DB.title": "&b&l인내",
+  "quest.437DB2CE10D33A08.quest_desc": [
+    "이 벌을 잡으려면 &6발광석 둥지&r를 구해서 네더로 가야 합니다!"
+  ],
+  "quest.437DB2CE10D33A08.title": "빛나는 벌",
+  "quest.439B5FDAC84271A2.quest_subtitle": "다이아몬드 + 철",
+  "quest.439B5FDAC84271A2.title": "티탄 벌",
+  "quest.447CAC472A99835B.quest_subtitle": "눈 벌집에서 스폰됩니다",
+  "quest.47A57DF7964D71B9.quest_subtitle": "그냥 만드시면 됩니다",
+  "quest.47A57DF7964D71B9.title": "피의 벌",
+  "quest.47CEFA06392C4211.quest_desc": [
+    "확장 상자는 고급 벌통 위에 놓여 벌통에 있을 수 있는 벌의 수를 늘려 총 5개의 슬롯을 만듭니다."
+  ],
+  "quest.47CEFA06392C4211.quest_subtitle": "벌 저장 공간 늘리기",
+  "quest.47CEFA06392C4211.title": "확장 상자",
+  "quest.486060882E507CF1.quest_subtitle": "흙 둥지에서 스폰됩니다",
+  "quest.4897C7BB3139C6C6.quest_subtitle": "벌목꾼 + 목장주",
+  "quest.49776AC58E535E6A.quest_subtitle": "재처리기에서 제작됨",
+  "quest.49776AC58E535E6A.title": "무녀 벌",
+  "quest.4C0302FF4F63B52E.quest_desc": [
+    "ATM 벌을 얻으려면 포획, 번식, 먹이 주기를 많이 해야 합니다.",
+    "",
+    "다음 퀘스트 라인 부분에서는 진행하는 데 필요한 벌의 종류를 간략하게 설명합니다.",
+    "",
+    "자세한 내용은 JEI와 &9Big Book of Bees&r를 확인하세요!"
+  ],
+  "quest.4C47EB9D2CE26BC6.quest_subtitle": "네더의 석영 둥지에서 스폰됩니다",
+  "quest.4C47EB9D2CE26BC6.title": "수정 같은 벌",
+  "quest.4ED01E04D55999D9.quest_subtitle": "BeeBee 생성 알 위에 녹은 우루를 붓습니다.",
+  "quest.4ED01E04D55999D9.title": "우루 메탈비",
+  "quest.4F4C1A349F953013.quest_subtitle": "지하 정원에서 발견됨",
+  "quest.4F4C1A349F953013.title": "잊혀진 벌",
+  "quest.4FE7F45C72EF5DC1.quest_subtitle": "철 + 땀",
+  "quest.4FE7F45C72EF5DC1.title": "니켈 벌",
+  "quest.500BEAD94C97DF96.quest_desc": [
+    "벌집 또는 원심분리기에 설치할 수 있습니다.\\n\\n벌집에 있을 때 벌이 벌집에서 보내는 시간을 20% 줄여줍니다.\\n\\n원심분리기에 설치하면 처리 속도가 증가합니다.\\n\\n이것들은 중첩됩니다."
+  ],
+  "quest.500BEAD94C97DF96.quest_subtitle": "소닉 벌",
+  "quest.50ED69AEEE808B24.quest_subtitle": "액체 리튬 양동이를 물 벌에 공급",
+  "quest.50ED69AEEE808B24.title": "리튬 벌",
+  "quest.516289A040EE9FDC.quest_subtitle": "크리스탈 + 네온 뻐꾸기",
+  "quest.516289A040EE9FDC.title": "멘릴 벌",
+  "quest.52B22C07818981D0.quest_subtitle": "구리 + 니켈",
+  "quest.52B22C07818981D0.title": "콘스탄탄 벌",
+  "quest.532F3E6868A29037.quest_desc": [
+    "이전의 강화: 속도를 생각해 보세요. 이제 그것이 무언가를 훨씬 더 빠르게 만든다고 생각해 보세요!\\n\\n이러한 강화는 기계에서 사용하여 40% 더 빠르게 작동하도록 만들 수 있습니다!\\n네, 이 효과는 중첩됩니다.\\n\\n아니요, 벌집에서는 사용할 수 없습니다. 생산성을 위한 것입니다!"
+  ],
+  "quest.532F3E6868A29037.quest_subtitle": "소닉 벌을 제외한 모든 것",
+  "quest.5372264ED2D55143.quest_subtitle": "일부 석탄 벌 생성 알을 산업적으로 짜냅니다.",
+  "quest.5372264ED2D55143.title": "HOP 흑연 벌",
+  "quest.54CBCD9D2F1AD907.quest_subtitle": "다이아몬드 벌에 신비한 수정 블록을 공급합니다.",
+  "quest.54CBCD9D2F1AD907.title": "아르카누스 벌",
+  "quest.5563BD4934297522.quest_desc": [
+    "일단 다이아몬드 벌을 얻었다면, 끈적한 벌과 번식시켜 에메랄드 벌을 만드세요!"
+  ],
+  "quest.5563BD4934297522.quest_subtitle": "다이아몬드 벌 + 끈적한 벌",
+  "quest.5563BD4934297522.title": "에메랄드 벌",
+  "quest.55882C10292B6A3D.quest_subtitle": "크리스탈린 벌에게 번영 블록을 먹이세요",
+  "quest.55882C10292B6A3D.title": "ProsperiBee",
+  "quest.57167FE67CFAC255.quest_subtitle": "필터에 벌을 추가하는 데 사용됩니다",
+  "quest.573BC5360C5CA675.quest_subtitle": "유령 + 해골",
+  "quest.573BC5360C5CA675.title": "그레이브스 벌",
+  "quest.57ACD83205988834.quest_subtitle": "금 + 엔더",
+  "quest.57ACD83205988834.title": "백금 벌",
+  "quest.5867713D016143A6.quest_subtitle": "매혹적인 장치로 제작됨",
+  "quest.5867713D016143A6.title": "아케인 벌",
+  "quest.5894A9DB9C379E91.quest_subtitle": "주입 제작",
+  "quest.5894A9DB9C379E91.title": "프루덴티움 벌",
+  "quest.589EB4602E3F9EEE.quest_desc": [
+    "양철 벌은 크리스탈린 벌과 애시 채굴 벌을 번식시켜 만들 수 있습니다."
+  ],
+  "quest.589EB4602E3F9EEE.quest_subtitle": "애시 채굴 + 결정질",
+  "quest.589EB4602E3F9EEE.title": "주석 벌",
+  "quest.59135B04FC7C3E61.quest_subtitle": "철 벌에 클로그럼 블록 공급",
+  "quest.59135B04FC7C3E61.title": "방해물 벌",
+  "quest.5962DC39E5874FB9.quest_subtitle": "청금석 + 해골",
+  "quest.5A9B2246E33065A5.quest_desc": [
+    "벌이 벌집을 생산할 때마다 받는 빗의 양에 영향을 미칩니다. 여기에는 &a보통&r, &9보통&r, &d높음&r, &c매우 높음&r의 4가지 레벨이 있습니다. &c매우 높음&r은 우리가 추구하는 것입니다.\\n\\n그것은 KamikazBee 및 BeeBee에서 발견됩니다. BeeBee은 The Other에서 자연적으로 발견될 수 있으며 매우 치명적인 벌입니다. 유난히 치명적인 벌을 다루는 위험을 감수하고 싶지 않다면 KamikazBee을 사용할 수도 있습니다.\\n\\nKamikazBee을 얻으려면 벌 둥지 헬멧이 필요합니다. 헬멧을 착용한 상태에서 몹의 공격을 받거나 화살을 쏘면 KamikazBee이 나타날 확률이 30%입니다. 그것은 매우 빠르며 공격자를 쏘게 될 것입니다(당신이 아닌 한). 따라서 빨리 잡거나 포획기를 사용하는 것이 좋습니다."
+  ],
+  "quest.5A9B2246E33065A5.quest_subtitle": "큰 것",
+  "quest.5A9B2246E33065A5.title": "&a&l생산성",
+  "quest.5AE851B8074BC7E6.quest_subtitle": "글로잉 + 초코 채굴",
+  "quest.5AE851B8074BC7E6.title": "레드스톤 크리스탈 벌",
+  "quest.5B969BF6F00A84D8.quest_subtitle": "원심분리기 6 RuBee 알 생성 1 크롬 벌 알 생성",
+  "quest.5B969BF6F00A84D8.title": "크롬 벌",
+  "quest.5CC9CB0911954215.quest_desc": [
+    "갈대 둥지는 오버월드 생물 군계에서 작동하며, 석공 벌 또는 갈대 벌을 유인합니다."
+  ],
+  "quest.5CC9CB0911954215.quest_subtitle": "모든 오버월드 생물 군계에서 벌을 유인합니다",
+  "quest.5CF2A069A3CC4EF6.quest_subtitle": "레진 + 갈대",
+  "quest.5CF2A069A3CC4EF6.title": "부드러운 벌",
+  "quest.5D71589555637DB0.quest_subtitle": "앵글사이트 광석을 드라코닉 벌에 공급",
+  "quest.5D71589555637DB0.title": "앵글사이트 벌",
+  "quest.5DF26D712B643655.quest_subtitle": "구리 + 아연",
+  "quest.5DF26D712B643655.title": "놋쇠 벌",
+  "quest.5F080CFA1DC7F435.quest_subtitle": "네더의 영혼 모래 둥지를 사용하여 생성되었습니다.",
+  "quest.5F080CFA1DC7F435.title": "아리송한 벌",
+  "quest.5F1784E562C29B66.quest_desc": [
+    "&5엔드 돌 벌집&r을 직접 만들고 엔드로 가서 이 벌들 중 하나를 잡아보세요!"
+  ],
+  "quest.5F1784E562C29B66.quest_subtitle": "&9엔드 돌 벌집 필요",
+  "quest.5F1784E562C29B66.title": "엔더 벌",
+  "quest.60B985069E0E643E.quest_subtitle": "마그마틱 + 땀",
+  "quest.60B985069E0E643E.title": "흑요석 벌",
+  "quest.614937A2F5823F3E.quest_subtitle": "네더에서 네더 벽돌 벌집을 사용하여 생성됨",
+  "quest.614937A2F5823F3E.title": "마그마틱 벌",
+  "quest.618411DCC5C1A13C.quest_subtitle": "플루토늄 분진을 방사성 벌에 공급",
+  "quest.618411DCC5C1A13C.title": "우라나이트 벌",
+  "quest.655FB110E5F66DF0.quest_subtitle": "Shadowpulse Goo를 고대의 벌에게 먹이세요.",
+  "quest.655FB110E5F66DF0.title": "이클립스 합금 벌",
+  "quest.65A7307F9858ECB5.quest_desc": [
+    "벌의 공격성과 당신을 찌를 가능성에 영향을 미칩니다. 이것은 덜 중요한 특성 중 하나이지만, 세계에서 공격적인 벌과 함께 일하고 싶을 때 공격적인 벌을 갖지 않는 것이 가치가 있습니다. 여기에는 &aPassive&r, &9Normal&r, &cHostile&r, &dAggressive&r의 4가지 레벨이 있습니다. 솔직히 말해서 Temper의 각 레벨이 어떤 역할을 하는지 잘 모르겠습니다. 내가 아는 전부는 &d공격적인&r 벌이 다른 이유가 없더라도 당신을 찌를 것이라는 것입니다. 벌에게 꿀 간식을 먹이면 벌은 덜 공격적이 될 것입니다."
+  ],
+  "quest.65A7307F9858ECB5.quest_subtitle": "이제 그만 괴롭히세요!",
+  "quest.65A7307F9858ECB5.title": "&4&l성미",
+  "quest.66324D7D0C51AEAC.quest_desc": [
+    "업그레이드 아래쪽 가로띠는 프로덕티브 비에서 다양한 업그레이드를 제작하는 데 사용됩니다."
+  ],
+  "quest.67482ED4B18F828D.quest_subtitle": "철 + 네온 뻐꾸기",
+  "quest.67482ED4B18F828D.title": "오스뮴 벌",
+  "quest.677D0E27CAD7B145.quest_subtitle": "핑크 슬리미 벌에 에테르 가스 버킷을 공급합니다.",
+  "quest.677D0E27CAD7B145.title": "에테르 가스 벌",
+  "quest.6786B08C30D26037.quest_desc": [
+    "이것들 중 하나를 원한다면, 먼저 애시 채굴 벌이 필요합니다.",
+    "",
+    "애시 채굴 벌이 벌집에서 편안하게 지내게 되면, 노마드 벌이 그 벌집을 차지할 확률이 있습니다."
+  ],
+  "quest.6786B08C30D26037.quest_subtitle": "애시 채굴 벌이 있는 벌집에서 스폰됩니다.",
+  "quest.683B58B699D4D381.quest_subtitle": "파란띠무늬벌이 있는 벌집에서 스폰됩니다.",
+  "quest.68CE30097BADE20E.quest_desc": [
+    "찾고 있는 유형의 벌집을 우클릭하면 다른 벌집의 방향을 알려줍니다!"
+  ],
+  "quest.68CE30097BADE20E.title": "벌집 검색 중",
+  "quest.68DFFEA05553B67E.quest_subtitle": "막힘 + 서리가 내린",
+  "quest.68DFFEA05553B67E.title": "프로스트스틸 벌",
+  "quest.692BC8AADCBF76C3.quest_subtitle": "합금 제련소에서 제작",
+  "quest.692BC8AADCBF76C3.title": "에너지 합금 벌",
+  "quest.6BEE3578BD2C713C.quest_subtitle": "흙 둥지에서 스폰됩니다",
+  "quest.6BFF78D4218DF1F2.quest_subtitle": "헤파이스토스 대장간에서 제작",
+  "quest.6BFF78D4218DF1F2.title": "스텔라라이트 벌",
+  "quest.6D484150536536B9.quest_desc": [
+    "이 벌집은 &e결정 벌&r을 끌어들입니다. 벌을 유인하기 위해 꿀 간식을 사용하는 대신 네더 석영이 필요합니다.",
+    "",
+    "석영 블록을 얻는 가장 쉬운 방법은 섬세한 손길 곡괭이로 채굴하는 것입니다.",
+    "",
+    "팁: 황동은 Silent Gear 도구를 만들 때 섬세한 손길 특성을 가지고 있습니다."
+  ],
+  "quest.6D484150536536B9.quest_subtitle": "네더의 크리스탈린 벌에 미끼 사용",
+  "quest.6DBF9CAB37B9BBF3.quest_subtitle": "벌 생산성을 120% 증가시킵니다.",
+  "quest.6DC826659699E638.quest_subtitle": "레드스톤 벌 생성 알을 일렉트럼 벌 생성 알과 충돌시킵니다.",
+  "quest.6DC826659699E638.title": "플럭사이트 벌",
+  "quest.6DF215923418F56F.quest_subtitle": "경험 벌에 슈퍼 마법 템플릿을 공급하세요.",
+  "quest.6DF215923418F56F.title": "슈퍼 경험 벌",
+  "quest.6E093D16B12E12B3.quest_subtitle": "초콜릿 채굴 + 땅파기",
+  "quest.6E4C3B87FABE9EFA.quest_subtitle": "구리 + 주석",
+  "quest.6E4C3B87FABE9EFA.title": "청동 벌",
+  "quest.6E819CCD57B15D54.quest_desc": [
+    "주조소를 사용하여 &#4CE688녹은 비브라늄&r을 &#F2EB2E모든테모듐 벌 생성 알&r 위에 붓습니다."
+  ],
+  "quest.6E819CCD57B15D54.title": "비브라늄 벌",
+  "quest.6EFFF0DC80C1C8A3.quest_desc": [
+    "주조소를 사용하여 &#944A12고대의 벌 생성 알&r 위에 &#F2EB2EMolten Allthemodium&r을 붓습니다."
+  ],
+  "quest.6EFFF0DC80C1C8A3.title": "모든테모듐 벌",
+  "quest.6F7AC41B703028CC.quest_subtitle": "은 + 구리",
+  "quest.6F7AC41B703028CC.title": "시그널럼 벌",
+  "quest.6F978C4D561F35EC.quest_desc": [
+    "병 주입기는 두 가지 용도로 사용됩니다. 꿀을 병에 담거나 벌을 짓눌러 유전자를 얻는 데 사용됩니다.\\n\\n벌로부터 유전자를 얻으려면 병 주입기 위에 피스톤을 놓고 그 사이에 블록 하나만큼의 공간을 두세요.\\n\\n벌을 병 주입기 위에 놓고 피스톤을 작동시켜 벌을 짓눌러 유전자를 얻으세요. 짓눌린 병은 원심분리기에 넣을 수 있습니다.\\n\\n참고: 병 주입기에 병이 있는지 확인하세요.",
+    "{image:atm:textures/questpics/bees/bottler.png width:100 height:150 align:1}"
+  ],
+  "quest.6F978C4D561F35EC.quest_subtitle": "여보, 내가 벌들을 으깨 버렸어",
+  "quest.70C878DB6AE413B2.quest_subtitle": "마그마틱 + 석탄",
+  "quest.70C878DB6AE413B2.title": "황 벌",
+  "quest.70FB4088084018D3.quest_desc": [
+    ""
+  ],
+  "quest.70FB4088084018D3.quest_subtitle": "재처리기에서 제작됨",
+  "quest.70FB4088084018D3.title": "루디크라이트 벌",
+  "quest.715588642623A8A1.quest_subtitle": "결정질 + 철",
+  "quest.715588642623A8A1.title": "석영이 풍부한 철 벌",
+  "quest.71667FFC8011525C.quest_subtitle": "마그마 + 잎 절단기",
+  "quest.71667FFC8011525C.title": "석탄 벌",
+  "quest.7277D695C4CB7840.quest_subtitle": "에너자이저로 만든",
+  "quest.7277D695C4CB7840.title": "나이오틱 크리스탈 벌",
+  "quest.728189EE56E5CAF7.quest_subtitle": "합금 제련소에서 제작",
+  "quest.728189EE56E5CAF7.title": "레드스톤 합금 벌",
+  "quest.734A72A4C898BDFB.quest_subtitle": "철 + 니켈",
+  "quest.734A72A4C898BDFB.title": "인바르 벌",
+  "quest.734F61A03FFA13ED.quest_subtitle": "크리비 + 철",
+  "quest.734F61A03FFA13ED.title": "방사성 벌",
+  "quest.73C70B15582958A5.quest_desc": [
+    "&e흙 벌집&r은 벌을 꾀기 위해 모든 오버월드 생물 군계에 설치할 수 있습니다.",
+    "",
+    "이것은 애시 채굴 벌, 초콜릿 채굴 벌, 그리고 잎 절단기 벌을 유인할 수 있습니다."
+  ],
+  "quest.73C70B15582958A5.quest_subtitle": "아무 오버월드 생물 군계",
+  "quest.74B3E4B62FA9565E.quest_subtitle": "헌금 테이블로 제작",
+  "quest.74B3E4B62FA9565E.title": "비 오브 더 스카이",
+  "quest.75CD4EE6A542D687.quest_subtitle": "결정질 + 애시 채굴",
+  "quest.75CD4EE6A542D687.title": "구리 벌",
+  "quest.761D21C6FBD13EE1.quest_subtitle": "다이아몬드 벌에게 페리도트를 먹이세요",
+  "quest.761D21C6FBD13EE1.title": "감람석 벌",
+  "quest.76E94639E90FEB4E.quest_desc": [
+    "어두운 &e고급 벌통&r을 몇 개 놓으세요. 시간이 지나면 벌들이 이사 올 것입니다."
+  ],
+  "quest.76E94639E90FEB4E.quest_subtitle": "짙은 곳에서 빈 벌통과 함께 생성됨",
+  "quest.76E94639E90FEB4E.title": "골격 벌",
+  "quest.78CCD8075249E2B7.quest_subtitle": "마그마틱 + 물",
+  "quest.78CCD8075249E2B7.title": "BreezBee",
+  "quest.79110ACAAC8412EA.quest_subtitle": "주입 제작",
+  "quest.79110ACAAC8412EA.title": "테르튬 벌",
+  "quest.7941938014E97A30.quest_desc": [
+    "벌을 타고 날고 싶었던 적이 있나요?\\n\\n범블 벌은 세계에서 자연적으로 생성되며 탈것으로 사용할 수 있습니다!\\n\\n&6막대기에 치료&r을 만들고 범블 벌에 안장을 얹고 하늘로 날아보세요!"
+  ],
+  "quest.7941938014E97A30.quest_subtitle": "오버월드의 범블 벌 벌집에서 스폰됩니다",
+  "quest.7941938014E97A30.title": "범블 벌",
+  "quest.79CA2F401982C04F.quest_subtitle": "아르카누스 벌에 룬 블록을 공급합니다.",
+  "quest.79CA2F401982C04F.title": "룬 문자 벌",
+  "quest.79D6A251FE3761B3.quest_desc": [
+    "늪 생물 군계에 설치하면 끈적한 벌집이 끈적한 벌을 유인합니다."
+  ],
+  "quest.79D6A251FE3761B3.quest_subtitle": "늪 생물 군계의 끈적한 벌에 있는 미끼",
+  "quest.7A2B26CF0EDAA724.quest_subtitle": "합금 제련소에서 제작",
+  "quest.7A2B26CF0EDAA724.title": "엔드 스틸 벌",
+  "quest.7AE1459B0B862737.quest_subtitle": "그냥 만드시면 됩니다",
+  "quest.7AE1459B0B862737.title": "시간 벌",
+  "quest.7B0CE182D3FE3035.quest_subtitle": "MA Essence로 키가 큰 꽃 2개를 제작할 수 있습니다.",
+  "quest.7B0CE182D3FE3035.title": "제작 가능한 꽃",
+  "quest.7B40A9DAA119DE59.quest_subtitle": "결정질 + 네온 뻐꾸기 시계",
+  "quest.7B40A9DAA119DE59.title": "멘릴 벌",
+  "quest.7B5A0BFD47D96BDE.quest_desc": [
+    "주변을 날아다니는 벌을 잡는 데 사용됩니다.\\n\\n필터 상위 버전으로 잡고 싶은 벌을 걸러낼 수 있으며, 아기 벌 상위 버전으로 아기 벌만 잡을 수도 있습니다."
+  ],
+  "quest.7B5A0BFD47D96BDE.quest_subtitle": "벌 포획",
+  "quest.7B72CF322A3C985D.quest_desc": [
+    "&4레드스톤 벌 생성 알&r을 수분시키는 &8흑요석 벌&r은 이를 &2플럭스 더스트 벌 생성 알&r로 변환합니다."
+  ],
+  "quest.7B72CF322A3C985D.title": "플럭스 더스트 벌",
+  "quest.7B99AA20DC55263C.quest_subtitle": "납 + 은",
+  "quest.7B99AA20DC55263C.title": "안티몬 벌",
+  "quest.7C169A4A39F37FAC.quest_desc": [
+    "바닐라 벌통으로 &e고급 벌통&r을 제작할 수 있습니다. 참나무 또는 다른 종류의 나무를 사용할 수 있습니다.\\n\\n벌들은 이 벌통을 들락날락하며 인벤토리에 벌집 조각을 드롭합니다. 또한 유리 병을 넣어서 꿀 병을 얻을 수도 있습니다.\\n\\n간식을 만들려면 많은 벌집 조각이 필요합니다!"
+  ],
+  "quest.7C169A4A39F37FAC.quest_subtitle": "더 이상 깎을 수 없습니다.",
+  "quest.7C169A4A39F37FAC.title": "고급 벌통",
+  "quest.7C651B90A738323E.quest_desc": [
+    "각성 슈프리미엄 벌과 혼동하지 마십시오."
+  ],
+  "quest.7C651B90A738323E.quest_subtitle": "용의 융합 제작",
+  "quest.7C651B90A738323E.title": "깨어남 벌",
+  "quest.7E373212AE6B27D0.quest_subtitle": "주입 제작",
+  "quest.7E373212AE6B27D0.title": "인새늄 벌",
+  "quest.7E57964F6AD5B060.quest_subtitle": "나뭇잎꾼 벌은 목이 말랐을 수도 있습니다",
+  "quest.7E57964F6AD5B060.title": "차 벌",
+  "quest.7EAFF64FFE8B5378.quest_subtitle": "철 + 땀",
+  "quest.7EAFF64FFE8B5378.title": "아연 벌",
+  "quest.7FD3C1784F32F2AF.quest_subtitle": "혼돈의 융합 제작",
+  "quest.7FD3C1784F32F2AF.title": "혼돈 벌",
+  "task.065E5450AC87F1D5.title": "고대 벌집",
+  "task.0A77407CE9055F04.title": "땀 벌",
+  "task.0CDFF60D581118E3.title": "네온 뻐꾸기 벌",
+  "task.0EF1CA8DED2FF38C.title": "고급 벌통",
+  "task.0F2BCC279B5731AB.title": "자수정 벌집",
+  "task.11931CBFE67ADBBB.title": "AllRightsReserved",
+  "task.12A2CE1C3AE8A033.title": "파란색 줄무늬 벌",
+  "task.17B0E19125FCFA1A.title": "발광하는 벌집",
+  "task.17C7DC04BC22C0D7.title": "주석 벌집",
+  "task.181135E3A83C5B9E.title": "아연 벌집",
+  "task.1817E18CF4034F52.title": "날씨 내성 유전자",
+  "task.212BB84583FE4B8B.title": "농장주 벌",
+  "task.2153473228DA4678.title": "벌 번식 및 변환",
+  "task.263F0E416A8E1110.title": "구리 벌집",
+  "task.299DE26FF7293F34.title": "호박금 벌집",
+  "task.2CC38211F4C54ED8.title": "드라코닉 벌집",
+  "task.2EA19C4E46380CDA.title": "루비 벌집",
+  "task.30B72EDF37727F5E.title": "내구성 유전자",
+  "task.345245C32DB7B4D4.title": "레드스톤 벌집",
+  "task.34C16667CDF3E53A.title": "CuBee",
+  "task.359396879CBA62D5.title": "벌집 생성",
+  "task.3ABFFD6FFEB2E8F4.title": "유전자 샘플",
+  "task.3B35F86B42989063.title": "크림슨 슈룸비 벌집",
+  "task.3CDFAF37BFB1C89C.title": "노란 목수 벌",
+  "task.3DE460F842195173.title": "잿빛 채굴 벌",
+  "task.4203F7ED807F3D30.title": "해골 벌집",
+  "task.429FA8057B666565.title": "청금석 벌집",
+  "task.4324462D1A98B672.title": "성향 유전자",
+  "task.4471A530B55D4140.title": "오스뮴 벌집",
+  "task.46C7D666D3A4A3D9.title": "사파이어 벌집",
+  "task.471F062B01D0DDA1.title": "채석장 벌",
+  "task.47BAD4AA76F9CF82.title": "은 벌집",
+  "task.4A6ADD52B113E3CA.title": "나뭇잎꾼 벌",
+  "task.4BC7F46B28DC6BA0.title": "석공 벌",
+  "task.4DA6445DB5F3B85E.title": "루미움 벌집",
+  "task.4DFDEAD81868CEF4.title": "초콜릿 채굴 벌",
+  "task.4EF5B261BAD2AC7D.title": "다이아몬드 벌집",
+  "task.4FC90CCB41E58D5A.title": "먹이다 벌",
+  "task.4FCEB24FC83D22A9.title": "콘스탄탄 벌집",
+  "task.50823C029014781A.title": "흑요석 벌집",
+  "task.508BC2CB4F4BC7EF.title": "AllRightsReserved",
+  "task.5455E38685EE7187.title": "행동 유전자",
+  "task.55F718D796CEB1B1.title": "청동 벌집 조각",
+  "task.5860D1574D18BA1A.title": "확장 상자",
+  "task.5B5DBA0A7644A551.title": "시그날륨 벌집",
+  "task.5BFAA4BB6651F71A.title": "시든 벌집",
+  "task.5C358DFF9CD0D1D9.title": "방사성 벌집",
+  "task.5E017E6B7E3F56B7.title": "끈적한 벌집",
+  "task.6047113DC2263E46.title": "재목 벌",
+  "task.64248C6FBC867D56.title": "유목민 벌",
+  "task.65D52E6A67DD11EB.title": "원심분리기",
+  "task.6754D9E162472CA1.title": "올더모듐 진행",
+  "task.6887F86C8673DAF6.title": "갈대 벌",
+  "task.696A828CBDAE7EE3.title": "생산성 유전자",
+  "task.6D4F62833424ADC0.title": "철 벌집",
+  "task.6E0961A56194F0A8.title": "파는 사람 벌",
+  "task.79AEDC66EB312BCA.title": "황동 벌집",
+  "task.7B7C1C5BFEC92058.title": "에메랄드 벌집"
+}

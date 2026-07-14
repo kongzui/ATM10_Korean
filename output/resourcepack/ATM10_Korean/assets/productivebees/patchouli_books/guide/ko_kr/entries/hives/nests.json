@@ -1,0 +1,16 @@
+{
+  "name": "둥지",
+  "icon": "productivebees:oak_wood_nest",
+  "category": "productivebees:hives",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "둥지는 전 세계에 흩어져 있으며 각각 1마리의 벌이 사는 집이 됩니다. 둥지는 벌이 내부에 있는 상태로 깨뜨려 집을 수 있으며 실크 터치가 필요하지 않습니다. 벌과 알의 둥지를 치우려면 스스로 둥지를 만들기만 하면 됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "빈 둥지에 꿀을 하나 이상 넣으면 새로운 벌이 모여들 수 있습니다. 다시 채우기 쿨다운을 시작하려면 꿀 간식을 마우스 오른쪽 버튼으로 클릭하세요."
+    }
+  ]
+}

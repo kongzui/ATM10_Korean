@@ -1,0 +1,15 @@
+{
+  "name": "유전자 전달",
+  "icon": "productivebees:gene",
+  "category": "productivebees:genetics",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "벌에게 유전자를 전달하려면 유전자를 꿀 간식과 결합해야 합니다. 벌에게 꿀을 먹이면 유전자의 순도에 따라 새로운 속성을 얻을 수 있는 기회를 얻게 됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "유전자의 순도는 두 개의 동일한 유전자를 결합하거나 동일한 유전자를 더 많이 첨가하여 증가시킬 수 있습니다."
+    }
+  ]
+}

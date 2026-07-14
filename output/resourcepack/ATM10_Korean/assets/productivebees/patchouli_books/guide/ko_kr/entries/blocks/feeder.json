@@ -1,0 +1,20 @@
+{
+  "name": "슬래브 공급",
+  "icon": "productivebees:feeder",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:feeder",
+      "text": "벌에게 먹이를 주기 위한 수집 지점으로 사용할 수 있습니다. 3개의 아이템 블록을 보유하고 있습니다. 벌목 벌이나 채석장 벌이 이로부터 먹이를 먹으면 먹이통에 있는 무작위 아이템이 생산됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "먹이 석판은 벌에게 발가락을 담그고 긴 하루의 작업에서 회복할 수 있는 훌륭한 장소를 제공할 수 있습니다. 즉 재생을 제공합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:items/upgrades#simulator)시뮬레이션된 벌통$(/l)에는 꽃 블록 위치가 1개만 있으므로 먹이 석판이 매우 잘 작동하여 벌집에서 최대 3마리의 다른 벌이 작업할 수 있습니다."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "벌집 내보내기 해치",
+  "icon": "modularbees:modular_export",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "벌집 내보내기 해치",
+      "text": "물류 핵심 블록의 대리자로 제품과 꿀을 마주보는 상자/탱크로 자동 보낼 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_export"
+    }
+  ]
+}

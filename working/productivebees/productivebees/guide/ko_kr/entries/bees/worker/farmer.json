@@ -1,0 +1,18 @@
+{
+  "name": "농장주 벌",
+  "icon": "minecraft:wheat",
+  "read_by_default": true,
+  "sortnum": 1,
+  "category": "productivebees:bees_worker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "농장주 벌",
+      "text": "근처 작물을 수확하고 농산물을 땅에 남겨둡니다. 범위 업그레이드를 통해 확장할 수 있는 집 하이브 주변의 4블록 반경에서 작동합니다. 오른쪽 클릭 수확을 추가하는 모드가 있다면 벌이 정확히 그렇게 할 것입니다."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:farmer_bee"
+    }
+  ]
+}

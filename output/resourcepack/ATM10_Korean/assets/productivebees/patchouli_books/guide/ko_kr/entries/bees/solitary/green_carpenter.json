@@ -1,0 +1,19 @@
+{
+  "name": "녹색 목수 벌",
+  "icon": "productivebees:spawn_egg_green_carpenter_bee",
+  "read_by_default": true,
+  "sortnum": 3,
+  "category": "productivebees:bees_solitary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "녹색 목수 벌",
+      "text": "[자일로코파 아에라타]",
+      "anchor": "green_carpenter"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:green_carpenter_bee"
+    }
+  ]
+}

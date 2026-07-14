@@ -1,0 +1,6 @@
+{
+  "name": "전문 벌",
+  "description": "자원을 생산하는 벌 외에도 특별한 임무를 수행하는 몇 마리의 벌이 있습니다.",
+  "icon": "minecraft:wooden_hoe",
+  "parent": "productivebees:bees"
+}

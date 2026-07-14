@@ -1,0 +1,18 @@
+{
+  "name": "금 벌",
+  "icon": "minecraft:gold_ingot",
+  "read_by_default": true,
+  "category": "productivebees:bees_hive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "금 벌",
+      "text": "$(l:bees/wild/crystalline)수정 같은 벌$(/l) 및 $(l:bees/solitary/mason)석공 벌$(/l)에서 번식합니다.",
+      "anchor": "gold"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:gold'}"
+    }
+  ]
+}

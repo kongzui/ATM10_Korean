@@ -1,0 +1,16 @@
+{
+  "name": "꿀 발전기",
+  "icon": "productivebees:honey_generator",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:honey_generator",
+      "text": "꿀을 태워서 전력을 생산합니다. 꿀을 파이프로 담거나 꿀병, 블록, 양동이를 GUI에 추가할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "꿀 발전기은 두 가지 업그레이드를 허용합니다. $(l:items/upgrades#productivity)생산성 업그레이드$(/l)는 꿀 소비량을 낮춰줍니다. $(l:items/upgrades#speed)속도 업그레이드$(/l)는...속도를 증가시킵니다."
+    }
+  ]
+}

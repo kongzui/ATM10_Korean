@@ -1,0 +1,19 @@
+{
+  "name": "나뭇잎꾼 벌",
+  "icon": "productivebees:spawn_egg_leafcutter_bee",
+  "read_by_default": true,
+  "sortnum": 7,
+  "category": "productivebees:bees_solitary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "나뭇잎꾼 벌",
+      "text": "[메가칠레 브레비스]",
+      "anchor": "leafcutter"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:leafcutter_bee"
+    }
+  ]
+}
