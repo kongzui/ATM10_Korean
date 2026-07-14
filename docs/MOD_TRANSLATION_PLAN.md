@@ -64,16 +64,16 @@
 
 | 모드·항목 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
 |---|---|---|---|---|---|
-| ATM10 공통 문구 | ATM10 공통 문구 | 특정 모드에 속하지 않는 팩 공통 탐색·목차·그룹·메시지 | FTB Quests, FTB Quests Lang Splitter, KubeJS, All The Tweaks | 부분 완료 | 공통 제목·탐색 일부 완료 |
-| Just Enough Items | JEI | 조합법 조회와 아이템 검색 UI | FTB JEI Extras, AE2 JEI Integration, Refined Storage JEI Integration | 미작업 | 플레이 전반에서 반복 노출 |
-| Jade | 제이드 | 바라보는 블록·엔티티 상태를 보여 주는 오버레이 | 본체 UI, 설정, 상태 표시와 실제 문구 소유 모드 | 미작업 | 플레이 전반에서 반복 노출 |
-| JourneyMap·FTB Chunks·FTB Teams | 저니맵·FTB 청크·FTB 팀 | 지도, 웨이포인트, 청크 소유와 팀 권한 UI | 세 본체와 관련 키 안내 | 미작업 | 초반부터 계속 사용하는 공통 UI |
-| Waystones·Compass 계열 | 웨이스톤·탐색 나침반 | 이동 지점과 바이옴·구조물 탐색 도구 | Waystones, Nature's Compass, Explorer's Compass | 미작업 | 자주 사용하는 탐색 편의 기능 |
-| Curios·효과 표시 | 큐리오·효과 표시 | 장착 슬롯, 마법부여 설명과 추가 오버레이 | Curios, Enchantment Descriptions, More Overlays Updated | 미작업 | 장비와 툴팁 전반에 노출 |
-| 가이드 프레임워크 UI | 가이드 UI | 여러 모드 가이드북의 검색·목차·버튼을 제공 | GuideME, Modonomicon, Patchouli, Akashic Tome | 미작업 | 여러 모드 가이드의 공통 기반 |
-| 공통 편의 기능 | 공통 편의 기능 | 채굴, 사망 지점, 전리품과 제작법 충돌을 다루는 UI | FTB Ultimine, Corail Tombstone, Lootr, Polymorph, Ars Polymorphia, Crafting Tweaks | 미작업 | 사용 빈도가 높은 편의 기능 |
-| 인벤토리·조작 편의 | 인벤토리·조작 편의 | 키 설정, 인벤토리 조작과 정보 표시를 개선 | Controlling, Better Advancements, AppleSkin, Mouse Tweaks, Inventory Tweaks, TrashSlot | 미작업 | 신규: 초반부터 계속 노출되는 UI |
-| Tempad | 템패드 | 저장한 위치 사이를 이동하는 휴대용 순간이동 도구 | 본체, 관련 퀘스트와 KubeJS | 미작업 | 신규: 대표 이동 편의 아이템 |
+| ATM10 공통 문구 | ATM10 공통 문구 | 특정 모드에 속하지 않는 팩 공통 탐색·목차·그룹·메시지 | FTB Quests, FTB Quests Lang Splitter, KubeJS, All The Tweaks | 완료 | 공통 제목·탐색 전체 검수 완료 |
+| Just Enough Items | JEI | 조합법 조회와 아이템 검색 UI | FTB JEI Extras, AE2 JEI Integration, Refined Storage JEI Integration | 완료 | 플레이 전반에서 반복 노출 |
+| Jade | 제이드 | 바라보는 블록·엔티티 상태를 보여 주는 오버레이 | 본체 UI, 설정, 상태 표시와 실제 문구 소유 모드 | 완료 | 플레이 전반에서 반복 노출 |
+| JourneyMap·FTB Chunks·FTB Teams | 저니맵·FTB 청크·FTB 팀 | 지도, 웨이포인트, 청크 소유와 팀 권한 UI | 세 본체와 관련 키 안내 | 완료 | 초반부터 계속 사용하는 공통 UI |
+| Waystones·Compass 계열 | 웨이스톤·탐색 나침반 | 이동 지점과 바이옴·구조물 탐색 도구 | Waystones, Nature's Compass, Explorer's Compass | 완료 | 자주 사용하는 탐색 편의 기능 |
+| Curios·효과 표시 | 큐리오·효과 표시 | 장착 슬롯, 마법부여 설명과 추가 오버레이 | Curios, Enchantment Descriptions, More Overlays Updated | 완료 | 장비와 툴팁 전반에 노출 |
+| 가이드 프레임워크 UI | 가이드 UI | 여러 모드 가이드북의 검색·목차·버튼을 제공 | GuideME, Modonomicon, Patchouli, Akashic Tome | 완료 | 여러 모드 가이드의 공통 기반 |
+| 공통 편의 기능 | 공통 편의 기능 | 채굴, 사망 지점, 전리품과 제작법 충돌을 다루는 UI | FTB Ultimine, Corail Tombstone, Lootr, Polymorph, Ars Polymorphia, Crafting Tweaks | 완료 | 사용 빈도가 높은 편의 기능 |
+| 인벤토리·조작 편의 | 인벤토리·조작 편의 | 키 설정, 인벤토리 조작과 정보 표시를 개선 | Controlling, Better Advancements, AppleSkin, Mouse Tweaks, Inventory Tweaks, TrashSlot | 완료 | 신규: 초반부터 계속 노출되는 UI |
+| Tempad | 템패드 | 저장한 위치 사이를 이동하는 휴대용 순간이동 도구 | 본체, 관련 퀘스트와 KubeJS | 완료 | 신규: 대표 이동 편의 아이템 |
 
 ATM10 공통 문구 작업에서는 모드 이름·아이템·모드별 퀘스트·모드 전용 KubeJS 문구를
 건드리지 않는다. 조사 결과 비모드 공통 문구가 없다면 조사 기록만 남긴다.

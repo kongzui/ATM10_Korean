@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-07-14T16:33:28+09:00",
+  "section": "공통 문구와 공통 UI",
+  "status": "complete",
+  "totals": {
+    "plan_items": 10,
+    "language_namespaces": 30,
+    "output_keys": 5783,
+    "existing_korean_reused_or_reviewed": 3372,
+    "existing_korean_corrected": 1505,
+    "newly_translated": 906,
+    "related_quest_descriptions_corrected": 3,
+    "related_quest_titles_corrected": 1
+  },
+  "items": [
+    {
+      "name": "ATM10 공통 문구",
+      "status": "complete",
+      "keys": 671,
+      "namespaces": ["ftbquests", "ftbquestslangsplitter", "allthetweaks"],
+      "commit": "1721c23"
+    },
+    {
+      "name": "Just Enough Items",
+      "status": "complete",
+      "keys": 315,
+      "namespaces": ["jei", "refinedstorage_jei_integration"],
+      "notes": ["FTB JEI Extras의 en_us는 비어 있음", "AE2 JEI Integration은 언어 리소스 없음"],
+      "commit": "1730925"
+    },
+    {
+      "name": "Jade",
+      "status": "complete",
+      "keys": 410,
+      "namespaces": ["jade"],
+      "commit": "2adb398"
+    },
+    {
+      "name": "JourneyMap·FTB Chunks·FTB Teams",
+      "status": "complete",
+      "keys": 1829,
+      "namespaces": ["journeymap", "ftbchunks", "ftbteams"],
+      "commit": "8a5ff0a",
+      "follow_up_commit": "b786d35"
+    },
+    {
+      "name": "Waystones·Compass 계열",
+      "status": "complete",
+      "keys": 373,
+      "namespaces": ["waystones", "naturescompass", "explorerscompass"],
+      "related_quest_descriptions_corrected": 1,
+      "commit": "fc511c4"
+    },
+    {
+      "name": "Curios·효과 표시",
+      "status": "complete",
+      "keys": 88,
+      "namespaces": ["curios", "moreoverlays"],
+      "notes": ["Enchantment Descriptions는 설치되지 않음"],
+      "commit": "7ce34be"
+    },
+    {
+      "name": "가이드 프레임워크 UI",
+      "status": "complete",
+      "keys": 204,
+      "namespaces": ["guideme", "modonomicon", "patchouli", "akashictome"],
+      "excluded_guide_body_keys": 150,
+      "commit": "fc19f94"
+    },
+    {
+      "name": "공통 편의 기능",
+      "status": "complete",
+      "keys": 1582,
+      "namespaces": ["ftbultimine", "tombstone", "lootr", "polymorph", "craftingtweaks"],
+      "notes": ["Ars Polymorphia는 언어 리소스 없음"],
+      "related_quest_descriptions_corrected": 2,
+      "related_quest_titles_corrected": 1,
+      "commit": "2dba352"
+    },
+    {
+      "name": "인벤토리·조작 편의",
+      "status": "complete",
+      "keys": 63,
+      "namespaces": ["controlling", "betteradvancements", "appleskin", "invtweaks", "trashslot"],
+      "notes": ["Mouse Tweaks는 언어 리소스 없음"],
+      "commit": "0a11a7c"
+    },
+    {
+      "name": "Tempad",
+      "status": "complete",
+      "keys": 248,
+      "namespaces": ["tempad", "tempad_static"],
+      "nested_text_components": 10,
+      "commit": "b786d35"
+    }
+  ],
+  "validation": {
+    "installed_source_snapshot_before_apply": "3798개 파일 일치",
+    "json_syntax": "passed",
+    "snbt_syntax_and_scope": "passed",
+    "keys_order_and_types": "passed",
+    "nested_component_structure": "passed",
+    "placeholders_including_named": "passed",
+    "format_codes": "passed",
+    "line_breaks": "passed",
+    "duplicate_quest_keys": 0,
+    "invalid_quest_object_ids": 0,
+    "python_compile": "passed",
+    "ruff": "passed"
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "configured_targets": ["source_root"],
+    "source_root": "C:/Users/moon9653nb/Desktop/ATM10_source",
+    "game_root_configured": false,
+    "changed_paths": 31,
+    "unexpected_changes": [],
+    "post_apply_expected_changes": [],
+    "backup_manifest": "temp/backups/20260714_163322_980618/backup_manifest.json"
+  },
+  "remaining_review": []
+}
