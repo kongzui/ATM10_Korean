@@ -117,7 +117,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
 |---|---|---|---|---|---|
 | Mekanism | 메카니즘 | 광물 처리, 화학 물질, 발전과 대형 기계를 제공 | Mekanism Generators, Mekanism Tools, Mekanism Covers, Mekanistic Routers, MEKMM, Just Enough Mekanism Multiblocks | 미작업 | 기존 계획·대형 퀘스트 챕터 |
-| Powah!·Flux Networks | 파와·플럭스 네트워크 | 발전·충방전과 무선 전력망을 제공 | 두 본체와 관련 퀘스트 | 미작업 | 기존 계획·공통 전력 기반 |
+| Powah!·Flux Networks | 파와·플럭스 네트워크 | 발전·충방전과 무선 전력망을 제공 | Powah!, Lollipop, Flux Networks, 관련 퀘스트·GuideME·KubeJS·발전 과제 | 완료 | 기존 계획·공통 전력 기반 |
 | Pipez·Modern Dynamics·XNet | 파이프즈·모던 다이내믹스·엑스넷 | 아이템·액체·에너지 물류망과 필터를 제공 | 세 본체와 관련 연동 | 미작업 | 기존 계획·공통 물류 기반 |
 | Create | Create | 회전력 기반 기계, 공정, 조립과 기차를 제공 | Create: Dragons Plus, Create Crafts & Additions, Create Enchantment Industry, Create Aquatic Ambitions, Create Hypertube, Create: Bells & Whistles | 미작업 | 기존 계획·대형 기술 모드 |
 | Modern Industrialization | 모던 인더스트리얼라이제이션 | 증기부터 전기·디지털 공정까지 이어지는 산업 시스템 | Extended Industrialization, Industrialization Overdrive | 미작업 | 기존 계획·전용 퀘스트 4개 |
@@ -157,13 +157,13 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 
 | 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
 |---|---|---|---|---|---|
-| Ars Nouveau | 아르스 누보 | 문양을 조합해 주문을 만들고 자동화하는 마법 모드 | Ars Additions, Ars Controle, Ars Creo, Ars Elemancy, Ars Elemental, Ars Ocultas, Ars Technica, Ars Unification, Not Enough Glyphs, Starbuncle Mania | 미작업 | 기존 계획·전용 퀘스트 챕터 |
+| Ars Nouveau | 아르스 누보 | 문양을 조합해 주문을 만들고 자동화하는 마법 모드 | Ars Additions, Ars Controle, Ars Creo, Ars Elemancy, Ars Elemental, Ars Ocultas, Ars Technica, Ars Unification, Not Enough Glyphs, Starbuncle Mania, Ars Énergistique, All the Arcanist Gear, 관련 퀘스트·Patchouli·KubeJS·발전 과제 | 완료 | 기존 계획·전용 퀘스트 챕터 |
 | Iron's Spells 'n Spellbooks | 아이언의 주문과 마법책 | 전투 주문, 마법 학파와 장비를 제공 | Iron's Jewelry, Iron's Lib는 의존성으로 확인 | 미작업 | 기존 계획·대형 퀘스트 챕터 |
 | Occultism | 오컬티즘 | 의식·소환수·정령과 마법 저장소를 제공 | Occultism KubeJS, 사전과 전용 퀘스트 | 미작업 | 기존 계획·대형 퀘스트 챕터 |
 | Mahou Tsukai | 마호우 츠카이 | 마법진과 마나를 이용하는 전투·의식 마법 | 본체, 관련 퀘스트 | 미작업 | 기존 계획·전용 퀘스트 챕터 |
 | Forbidden and Arcanus | 포비든 앤 아르카누스 | 신비 재료, 의식과 마법 장비를 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 기존 계획·전용 퀘스트 챕터 |
 | Theurgy | 테우르기 | 연성술과 재료 변환 의식을 제공 | Theurgy KubeJS, 전용 퀘스트와 가이드 | 미작업 | 기존 계획·전용 퀘스트 챕터 |
-| EvilCraft | 이블크래프트 | 피와 영혼을 이용하는 마법·기술 혼합 모드 | 본체, 가이드북과 전용 퀘스트 | 미작업 | 기존 계획·전용 퀘스트 챕터 |
+| EvilCraft | 이블크래프트 | 피와 영혼을 이용하는 마법·기술 혼합 모드 | 본체, EvilCraft Compat, Origins of Darkness 가이드북, 전용 퀘스트·KubeJS·발전 과제 | 완료 | 기존 계획·전용 퀘스트 챕터 |
 | Nature's Aura | 네이처스 오라 | 자연의 오라를 모아 의식과 장치를 작동 | 본체, 전용 퀘스트와 가이드 | 미작업 | 신규: 전용 퀘스트 챕터 |
 | Roots Classic | 루츠 클래식 | 자연 재료를 이용한 주문과 의식을 제공 | 본체, 관련 발전 과제와 가이드 | 미작업 | 신규: 영어 483키의 독립 마법 모드 |
 
@@ -171,7 +171,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 
 | 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
 |---|---|---|---|---|---|
-| The Twilight Forest | 황혼의 숲 | 별도 차원의 던전과 보스를 순서대로 공략 | 본체, 전용 퀘스트와 발전 과제 | 미작업 | 기존 계획·대표 차원 모드 |
+| The Twilight Forest | 황혼의 숲 | 별도 차원의 던전과 보스를 순서대로 공략 | 본체, Bibliowoods 직접 연동, 전용·관련 퀘스트·KubeJS·발전 과제·탐험 수첩 | 완료 | 기존 계획·대표 차원 모드 |
 | L_Ender's Cataclysm | 카타클리즘 | 고난도 구조물, 보스와 전용 장비를 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 기존 계획·보스 콘텐츠 |
 | The Undergarden | 언더가든 | 지하 세계를 테마로 한 별도 차원과 생태계를 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 기존 계획·차원 콘텐츠 |
 | The Aether | 에테르 | 하늘 차원의 던전·보스·장비와 진행을 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 신규: 전용 퀘스트·영어 1,238키 |
