@@ -13,7 +13,7 @@ import verify_atmgear
 from atmgear_catalog import TARGETS
 from build_atmgear_kubejs import REPLACEMENTS
 from local_paths import PROJECT_ROOT, resolve_source_root
-from prepare_atmgear import LEGACY_PACK, WORK_ROOT, find_jar, load_json
+from prepare_atmgear import WORK_ROOT, find_jar, load_json
 
 RELATED_FILE = WORK_ROOT / "related_content_audit.json"
 COMPLETION_FILE = WORK_ROOT / "family_completion.json"
@@ -33,44 +33,42 @@ def sha256(path: Path) -> str:
 
 
 def language_counts(instance: Path) -> tuple[list[dict[str, object]], dict[str, int]]:
-    """JAR·5.4 참고본 대비 재사용, 교정, 신규 수를 계산한다."""
+    """현재 JAR 한국어 대비 재사용, 교정, 신규 수를 계산한다."""
     rows: list[dict[str, object]] = []
     totals = {"english": 0, "reused": 0, "corrected": 0, "new": 0}
-    with ZipFile(instance / LEGACY_PACK) as legacy:
-        for target in TARGETS:
-            jar_path = find_jar(instance, target)
-            english_path = f"assets/{target.namespace}/lang/en_us.json"
-            korean_path = f"assets/{target.namespace}/lang/ko_kr.json"
-            with ZipFile(jar_path) as jar:
-                english = load_json(jar, english_path)
-                jar_korean = load_json(jar, korean_path)
-            legacy_korean = load_json(legacy, korean_path)
-            korean = verify_atmgear.load_working(
-                WORK_ROOT / target.namespace / "ko_kr.json"
-            )
-            counts = {"reused": 0, "corrected": 0, "new": 0}
-            for key, source in english.items():
-                candidate = jar_korean.get(key, legacy_korean.get(key, source))
-                if candidate == source:
-                    counts["new"] += 1
-                elif korean[key] == candidate:
-                    counts["reused"] += 1
-                else:
-                    counts["corrected"] += 1
-            rows.append(
-                {
-                    "namespace": target.namespace,
-                    "jar": jar_path.name,
-                    "english_keys": len(english),
-                    **counts,
-                    "intentional_original": sum(
-                        english[key] == korean[key] for key in english
-                    ),
-                }
-            )
-            totals["english"] += len(english)
-            for name in ("reused", "corrected", "new"):
-                totals[name] += counts[name]
+    for target in TARGETS:
+        jar_path = find_jar(instance, target)
+        english_path = f"assets/{target.namespace}/lang/en_us.json"
+        korean_path = f"assets/{target.namespace}/lang/ko_kr.json"
+        with ZipFile(jar_path) as jar:
+            english = load_json(jar, english_path)
+            jar_korean = load_json(jar, korean_path)
+        korean = verify_atmgear.load_working(
+            WORK_ROOT / target.namespace / "ko_kr.json"
+        )
+        counts = {"reused": 0, "corrected": 0, "new": 0}
+        for key, source in english.items():
+            candidate = jar_korean.get(key, source)
+            if candidate == source:
+                counts["new"] += 1
+            elif korean[key] == candidate:
+                counts["reused"] += 1
+            else:
+                counts["corrected"] += 1
+        rows.append(
+            {
+                "namespace": target.namespace,
+                "jar": jar_path.name,
+                "english_keys": len(english),
+                **counts,
+                "intentional_original": sum(
+                    english[key] == korean[key] for key in english
+                ),
+            }
+        )
+        totals["english"] += len(english)
+        for name in ("reused", "corrected", "new"):
+            totals[name] += counts[name]
     return rows, totals
 
 

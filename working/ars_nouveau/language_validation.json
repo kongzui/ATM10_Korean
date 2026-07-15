@@ -28,8 +28,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 168,
-      "new_or_edited": 67
+      "project_output_reuse": 185,
+      "new_or_edited": 50
     },
     {
       "label": "Ars Controle",
@@ -57,8 +57,7 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "new_or_edited": 4,
-      "legacy_exact_reuse": 14
+      "project_output_reuse": 18
     },
     {
       "label": "Ars Elemancy",
@@ -73,8 +72,8 @@
       "output_matches": true,
       "guide_extra_keys": 8,
       "bundled_exact_reuse": 1,
-      "legacy_exact_reuse": 60,
-      "new_or_edited": 134
+      "project_output_reuse": 87,
+      "new_or_edited": 107
     },
     {
       "label": "Ars Elemental",
@@ -88,9 +87,9 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "new_or_edited": 429,
-      "bundled_exact_reuse": 3,
-      "legacy_exact_reuse": 234
+      "project_output_reuse": 295,
+      "new_or_edited": 368,
+      "bundled_exact_reuse": 3
     },
     {
       "label": "Ars Ocultas",
@@ -104,7 +103,7 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 1
+      "project_output_reuse": 1
     },
     {
       "label": "Ars Technica",
@@ -118,8 +117,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 96,
-      "new_or_edited": 73
+      "project_output_reuse": 114,
+      "new_or_edited": 55
     },
     {
       "label": "Ars Unification",
@@ -133,7 +132,7 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 11
+      "project_output_reuse": 11
     },
     {
       "label": "Not Enough Glyphs",
@@ -147,8 +146,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "new_or_edited": 49,
-      "legacy_exact_reuse": 200
+      "new_or_edited": 47,
+      "project_output_reuse": 202
     },
     {
       "label": "Starbuncle Mania",
@@ -162,8 +161,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 1,
-      "legacy_exact_reuse": 131,
-      "new_or_edited": 19
+      "project_output_reuse": 148,
+      "new_or_edited": 2
     },
     {
       "label": "Ars Énergistique",
@@ -177,8 +176,7 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "new_or_edited": 10,
-      "legacy_exact_reuse": 7
+      "project_output_reuse": 17
     },
     {
       "label": "All the Arcanist Gear",
@@ -192,14 +190,13 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "new_or_edited": 23,
-      "legacy_exact_reuse": 5
+      "project_output_reuse": 28
     }
   ],
   "language_provenance": {
     "bundled_exact_reuse": 2302,
-    "legacy_exact_reuse": 927,
-    "new_or_edited": 957
+    "project_output_reuse": 1106,
+    "new_or_edited": 778
   },
   "ftbquests": {
     "chapters": [

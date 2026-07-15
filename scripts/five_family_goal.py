@@ -21,7 +21,6 @@ from local_paths import PROJECT_ROOT, resolve_source_root
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-LEGACY_PACK = "resourcepacks/all-the-mods-10_5.4_resourcepack.zip"
 OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
@@ -1544,87 +1543,75 @@ def inventory(instance: Path, family: str) -> dict[str, object]:
 
 
 def prepare(instance: Path, family: str, force: bool) -> dict[str, object]:
-    """내장·5.4 한국어 후보를 출처별로 합쳐 작업본을 만든다."""
+    """검수된 프로젝트 산출물과 현재 JAR 한국어를 영어 원문에 맞춰 준비한다."""
     work_root = PROJECT_ROOT / "working" / family
-    legacy_path = instance / LEGACY_PACK
-    legacy = ZipFile(legacy_path) if legacy_path.is_file() else None
     rows: list[dict[str, object]] = []
-    try:
-        for target in targets_for(family):
-            jar = find_jar(instance, target.jar_prefix)
-            english_path, korean_path = language_paths(target.namespace)
-            with ZipFile(jar) as archive:
-                english = load_json_bytes(archive.read(english_path))
-                bundled = (
-                    load_json_bytes(archive.read(korean_path))
-                    if korean_path in archive.namelist()
-                    else {}
-                )
-            legacy_korean = {}
-            if legacy is not None and korean_path in legacy.namelist():
-                legacy_korean = load_json_bytes(legacy.read(korean_path))
-            project_output = OUTPUT_ASSETS / target.namespace / "lang/ko_kr.json"
-            project_korean = (
-                load_json(project_output) if project_output.is_file() else {}
+    for target in targets_for(family):
+        jar = find_jar(instance, target.jar_prefix)
+        english_path, korean_path = language_paths(target.namespace)
+        with ZipFile(jar) as archive:
+            english = load_json_bytes(archive.read(english_path))
+            bundled = (
+                load_json_bytes(archive.read(korean_path))
+                if korean_path in archive.namelist()
+                else {}
             )
-            target_root = work_root / target.namespace
-            english_file = target_root / "en_us.json"
-            korean_file = target_root / "ko_kr.json"
-            source_file = target_root / "candidate_sources.json"
-            if korean_file.exists() and not force:
-                raise FileExistsError(
-                    f"기존 작업본을 덮어쓰지 않습니다. --force 필요: {korean_file}"
-                )
-            korean: dict[str, object] = {}
-            sources: dict[str, str] = {}
-            for key, value in english.items():
-                candidates = (
-                    ("project_output_review", project_korean),
-                    ("bundled_ko_kr", bundled),
-                    ("legacy_5.4_candidate", legacy_korean),
-                )
-                for source_name, candidate in candidates:
-                    if key not in candidate:
-                        continue
-                    candidate_value = candidate[key]
-                    if (
-                        isinstance(value, str)
-                        and candidate_value == value
-                        and not is_allowed_original(value)
-                    ):
-                        continue
-                    korean[key] = candidate_value
-                    sources[key] = source_name
-                    break
-                else:
-                    korean[key] = value
-                    sources[key] = "new_translation_required"
-            target_root.mkdir(parents=True, exist_ok=True)
-            english_file.write_text(
-                json.dumps(english, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
+        project_output = OUTPUT_ASSETS / target.namespace / "lang/ko_kr.json"
+        project_korean = load_json(project_output) if project_output.is_file() else {}
+        target_root = work_root / target.namespace
+        english_file = target_root / "en_us.json"
+        korean_file = target_root / "ko_kr.json"
+        source_file = target_root / "candidate_sources.json"
+        if korean_file.exists() and not force:
+            raise FileExistsError(
+                f"기존 작업본을 덮어쓰지 않습니다. --force 필요: {korean_file}"
             )
-            korean_file.write_text(
-                json.dumps(korean, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
+        korean: dict[str, object] = {}
+        sources: dict[str, str] = {}
+        for key, value in english.items():
+            candidates = (
+                ("project_output_review", project_korean),
+                ("bundled_ko_kr", bundled),
             )
-            source_file.write_text(
-                json.dumps(sources, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
-            )
-            counts = Counter(sources.values())
-            rows.append(
-                {
-                    "label": target.label,
-                    "jar": jar.name,
-                    "namespace": target.namespace,
-                    "english_keys": len(english),
-                    **dict(sorted(counts.items())),
-                }
-            )
-    finally:
-        if legacy is not None:
-            legacy.close()
+            for source_name, candidate in candidates:
+                if key not in candidate:
+                    continue
+                candidate_value = candidate[key]
+                if (
+                    isinstance(value, str)
+                    and candidate_value == value
+                    and not is_allowed_original(value)
+                ):
+                    continue
+                korean[key] = candidate_value
+                sources[key] = source_name
+                break
+            else:
+                korean[key] = value
+                sources[key] = "new_translation_required"
+        target_root.mkdir(parents=True, exist_ok=True)
+        english_file.write_text(
+            json.dumps(english, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        korean_file.write_text(
+            json.dumps(korean, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        source_file.write_text(
+            json.dumps(sources, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        counts = Counter(sources.values())
+        rows.append(
+            {
+                "label": target.label,
+                "jar": jar.name,
+                "namespace": target.namespace,
+                "english_keys": len(english),
+                **dict(sorted(counts.items())),
+            }
+        )
     report = {**inventory(instance, family), "language_candidates": rows}
     work_root.mkdir(parents=True, exist_ok=True)
     (work_root / "scope.json").write_text(
@@ -2355,6 +2342,7 @@ def verify_language(
             continue
         english = load_json(english_file)
         korean = load_json(korean_file)
+        sources = load_json(root / "candidate_sources.json")
         if list(english) != list(korean):
             errors.append(f"키 또는 순서 불일치: {target.namespace}")
             continue
@@ -2421,13 +2409,6 @@ def verify_language(
                 if korean_path in archive.namelist()
                 else {}
             )
-        legacy_path = instance / LEGACY_PACK
-        with ZipFile(legacy_path) as legacy:
-            legacy_korean = (
-                load_json_bytes(legacy.read(korean_path))
-                if korean_path in legacy.namelist()
-                else {}
-            )
         provenance = Counter()
         for key, target_value in korean.items():
             source_value = english[key]
@@ -2436,10 +2417,8 @@ def verify_language(
             )
             if key in bundled and target_value == bundled[key] and reusable:
                 provenance["bundled_exact_reuse"] += 1
-            elif (
-                key in legacy_korean and target_value == legacy_korean[key] and reusable
-            ):
-                provenance["legacy_exact_reuse"] += 1
+            elif sources.get(key) == "project_output_review" and reusable:
+                provenance["project_output_reuse"] += 1
             else:
                 provenance["new_or_edited"] += 1
         rows.append(
@@ -2502,7 +2481,7 @@ def verify(instance: Path, family: str) -> tuple[dict[str, object], int]:
         key: sum(int(row.get(key, 0)) for row in languages)
         for key in (
             "bundled_exact_reuse",
-            "legacy_exact_reuse",
+            "project_output_reuse",
             "new_or_edited",
         )
     }

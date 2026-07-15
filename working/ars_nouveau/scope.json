@@ -427,7 +427,7 @@
       "jar": "ars_additions-1.21.1-21.3.0.jar",
       "namespace": "ars_additions",
       "english_keys": 235,
-      "legacy_5.4_candidate": 184,
+      "project_output_review": 184,
       "new_translation_required": 50,
       "project_output_review": 1
     },
@@ -443,7 +443,7 @@
       "jar": "ars_creo-1.21.1-5.4.0.jar",
       "namespace": "ars_creo",
       "english_keys": 18,
-      "legacy_5.4_candidate": 18
+      "project_output_review": 18
     },
     {
       "label": "Ars Elemancy",
@@ -451,7 +451,7 @@
       "namespace": "ars_elemancy",
       "english_keys": 195,
       "bundled_ko_kr": 1,
-      "legacy_5.4_candidate": 87,
+      "project_output_review": 87,
       "new_translation_required": 107
     },
     {
@@ -460,7 +460,7 @@
       "namespace": "ars_elemental",
       "english_keys": 666,
       "bundled_ko_kr": 58,
-      "legacy_5.4_candidate": 295,
+      "project_output_review": 295,
       "new_translation_required": 313
     },
     {
@@ -468,14 +468,14 @@
       "jar": "ars_ocultas-1.21.1-2.4.1.jar",
       "namespace": "ars_ocultas",
       "english_keys": 1,
-      "legacy_5.4_candidate": 1
+      "project_output_review": 1
     },
     {
       "label": "Ars Technica",
       "jar": "ars_technica-1.21.1-2.7.6.jar",
       "namespace": "ars_technica",
       "english_keys": 169,
-      "legacy_5.4_candidate": 114,
+      "project_output_review": 114,
       "new_translation_required": 55
     },
     {
@@ -483,14 +483,14 @@
       "jar": "ars_unification-1.2.18.jar",
       "namespace": "ars_unification",
       "english_keys": 11,
-      "legacy_5.4_candidate": 11
+      "project_output_review": 11
     },
     {
       "label": "Not Enough Glyphs",
       "jar": "not_enough_glyphs-1.21.1-4.6.1.jar",
       "namespace": "not_enough_glyphs",
       "english_keys": 249,
-      "legacy_5.4_candidate": 202,
+      "project_output_review": 202,
       "new_translation_required": 47
     },
     {
@@ -498,7 +498,7 @@
       "jar": "starbunclemania-1.21.1-1.5.7.jar",
       "namespace": "starbunclemania",
       "english_keys": 150,
-      "legacy_5.4_candidate": 148,
+      "project_output_review": 148,
       "new_translation_required": 2
     },
     {
@@ -513,7 +513,7 @@
       "jar": "allthearcanistgear-1.21.1-21.3.2.jar",
       "namespace": "allthearcanistgear",
       "english_keys": 28,
-      "legacy_5.4_candidate": 1,
+      "project_output_review": 1,
       "project_output_review": 27
     }
   ]

@@ -6,7 +6,7 @@
 
 ## 조사 범위와 안전성
 
-`manifest.json`에서 All the Mods 10 버전 7.1, Minecraft 1.21.1을 확인했다. `mods`, `config/ftbquests`, `kubejs`, `resourcepacks`를 읽기만 했고 JAR/ZIP을 추출하거나 다시 쓰지 않았다. 조사 전후 원본의 파일 경로·크기·수정 시각은 `scripts/snapshot_instance.py`로 비교한다.
+`manifest.json`에서 현재 설치된 All the Mods 10 버전과 Minecraft 1.21.1을 확인했다. `mods`, `config/ftbquests`, `kubejs`를 읽기만 했고 JAR을 추출하거나 다시 쓰지 않았다. 조사 전후 원본의 파일 경로·크기·수정 시각은 `scripts/snapshot_instance.py`로 비교한다.
 
 아래 수치는 `scripts/discover.py`가 만든 `manifests/`를 기준으로 한다. FTB Quests 키 수와 KubeJS 표시 문구 수는 정규식 기반 추정치이므로 각각 `추정`, `후보`로 표기한다.
 
@@ -18,7 +18,6 @@
 | FTB Quests            | `config/ftbquests/quests/lang/`                       | 언어·생성 보조 파일 포함 736개, 전체 퀘스트 파일 864개 | `output/overrides/config/ftbquests/...`          |
 | KubeJS 언어 파일      | `kubejs/assets/*/lang/*.json`                         | 117개                                                  | 리소스팩 또는 검증된 KubeJS override             |
 | KubeJS 직접 표시 문구 | `kubejs/**/*.js`                                      | 204개 JS에서 표시 가능 문구 후보 225행                 | 필요 시 `output/overrides/kubejs/...`            |
-| 기존 리소스팩         | `resourcepacks/all-the-mods-10_5.4_resourcepack.zip`  | 후보 1개                                               | 비교 자료로만 사용                               |
 | 기타 후보             | `config/fancymenu/assets/`, `config/konkrete/locals/` | 3개                                                    | 수동 확인 후 결정                                |
 
 기타 후보 3개는 `language_color.png`, `language_gray.png`, `config/konkrete/locals/en_us.local`이다. 앞의 두 이미지는 파일명만 언어 관련 패턴과 일치하므로 번역 대상인지는 불확실하다. `en_us.local`의 한국어 대응 방식도 아직 확인하지 않았다.
@@ -51,14 +50,6 @@ KubeJS 언어 JSON은 전체 로케일 합계 117개다. 영어는 6개 파일 1
 
 JS 204개를 `displayName`, `Text.of`, 상태 메시지, 툴팁, Ponder 계열 패턴으로 검사해 사용자에게 표시될 가능성이 있는 225행을 찾았다. `manifests/kubejs_text_candidates.csv`는 후보 목록이며, 주석·개발용 문자열·실행되지 않는 코드가 포함될 수 있어 실제 표시 여부는 수동 확인해야 한다. 언어 키가 아닌 직접 문자열은 단순 리소스팩만으로 바뀌지 않을 수 있다.
 
-## 기존 ATM10 5.4 리소스팩
-
-`resourcepacks`에는 `all-the-mods-10_5.4_resourcepack.zip` 한 개만 있다. 내부 `pack.mcmeta`는 `pack_format: 15`, 설명은 `Auto-translated language pack`이다. 369개 네임스페이스의 `ko_kr.json` 369개가 있고 모두 JSON 파싱에 성공했으며 총 116,401키다. 파일명상 5.4 팩은 명확하지만 번역 품질, 생성 도구, 현 버전 호환성은 확인되지 않았다.
-
-7.1 JAR 영어 키와 구조적으로 비교하면 364개 네임스페이스가 겹친다. 그 범위에서 7.1 영어 146,836키 중 113,746키가 5.4 한국어 팩에도 같은 키로 존재한다. 5.4에 없는 7.1 키는 33,090개, 7.1 영어에 없는 5.4 키는 2,169개다.
-
-113,746개는 **재사용 검토 후보**일 뿐 재사용 확정 항목이 아니다. 다음 단계에서 5.4 당시 영어 원문과 7.1 영어 원문이 같은지, 자리표시자와 서식 코드가 보존됐는지, 자동 번역 품질이 수용 가능한지를 확인해야 한다. 이 검증 없이 5.4 값을 일괄 복사하지 않는다.
-
 ## 리소스팩과 덮어쓰기 번역의 구분
 
 - JAR의 `assets/<namespace>/lang/ko_kr.json`을 대체·보완하는 작업은 원본 JAR을 건드리지 않고 `output/resourcepack/`에 같은 경로로 만든다.
@@ -68,17 +59,16 @@ JS 204개를 `displayName`, `Text.of`, 상태 메시지, 툴팁, Ponder 계열 �
 
 ## 위험과 주의점
 
-1. 5.4 팩은 자동 번역 팩이며 키가 같아도 원문이나 문맥이 달라졌을 수 있다.
-2. 현재 7.1의 `ko_kr.snbt` 출처와 완성도는 확실하지 않다. 파일 존재만으로 5.4 리소스팩과 같은 출처라고 보지 않는다.
-3. FTB Quests 키 수는 추정치이고 `*.snbt_merged`의 편집 권위가 불확실하다.
-4. 리소스팩, KubeJS assets, 모드 내장 언어 파일이 같은 키를 제공하면 로딩 우선순위에 따라 결과가 달라질 수 있다.
-5. KubeJS 직접 문자열은 코드 동작과 결합돼 있어 단순 치환 시 스크립트를 깨뜨릴 수 있다.
-6. `%s`, `%1$s`, `%d`, `{0}`, 줄바꿈, 색상 코드, 이스케이프가 달라지면 표시 오류나 런타임 오류가 생길 수 있다.
-7. 원본 `mcwtrpdoors` 한국어 JSON 문법 오류는 프로젝트 출력에서 별도로 보정할 수 있지만 JAR 자체를 고치면 안 된다.
+1. 현재 ATM10의 `ko_kr.snbt`는 존재만으로 완성된 정답이라 볼 수 없으므로 영어 원문과 대조한다.
+2. FTB Quests 키 수는 추정치이고 `*.snbt_merged`의 편집 권위가 불확실하다.
+3. 프로젝트 리소스팩, KubeJS assets, 모드 내장 언어 파일이 같은 키를 제공하면 로딩 우선순위에 따라 결과가 달라질 수 있다.
+4. KubeJS 직접 문자열은 코드 동작과 결합돼 있어 단순 치환 시 스크립트를 깨뜨릴 수 있다.
+5. `%s`, `%1$s`, `%d`, `{0}`, 줄바꿈, 색상 코드, 이스케이프가 달라지면 표시 오류나 런타임 오류가 생길 수 있다.
+6. 원본 `mcwtrpdoors` 한국어 JSON 문법 오류는 프로젝트 출력에서 별도로 보정할 수 있지만 JAR 자체를 고치면 안 된다.
 
 ## 권장 첫 작업
 
-실제 번역을 시작하기 전 다음 작업은 5.4와 7.1 비교 도구를 만드는 것이다. 첫 실제 번역 단위로는 FTB Quests `refined_storage` 챕터를 권장한다. 챕터별 추정치가 영어 145키, 현재 한국어 0키라서 목표 범위 100~200개에 들어가고, 기존 한국어와 병합할 위험이 작으며 주요 플레이 동선과도 가깝다.
+첫 실제 번역 단위로는 FTB Quests `refined_storage` 챕터를 권장한다. 챕터별 추정치가 영어 145키, 현재 한국어 0키라서 목표 범위 100~200개에 들어가고, 기존 한국어와 병합할 위험이 작으며 주요 플레이 동선과도 가깝다.
 
 작업은 원본에서 직접 편집하지 않고 `working/ftbquests/refined_storage/` 같은 작은 작업 폴더에 영어 기준 키 목록과 빈 검토 상태를 만든 뒤 시작한다. 이번 조사 단계에서는 그 파일을 만들거나 번역하지 않았다.
 
@@ -90,7 +80,5 @@ JS 204개를 `displayName`, `Text.of`, 상태 메시지, 툴팁, Ponder 계열 �
 - `ftbquest_chapters.csv`: 64개 퀘스트 챕터별 추정 키 수
 - `kubejs_languages.csv`: KubeJS 언어 JSON 목록과 키 수
 - `kubejs_text_candidates.csv`: KubeJS 표시 문구 후보
-- `resourcepack_candidates.csv`: 기존 리소스팩 후보 요약
-- `legacy_resourcepack_overlap.csv`: 5.4 한국어 키와 7.1 영어 키 교집합
 - `other_translation_candidates.csv`: 기타 후보
 - `errors.csv`: 원본 읽기·문법 오류 목록

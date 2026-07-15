@@ -1,13 +1,13 @@
 {
-  "ars_nouveau.augment_desc.glyph_cut_glyph_aoe": "legacy_5.4_candidate",
-  "ars_nouveau.augment_desc.glyph_cut_glyph_pierce": "legacy_5.4_candidate",
-  "ars_nouveau.augment_desc.glyph_cut_glyph_sensitive": "legacy_5.4_candidate",
-  "ars_nouveau.augment_desc.glyph_flatten_glyph_aoe": "legacy_5.4_candidate",
-  "ars_nouveau.augment_desc.glyph_flatten_glyph_pierce": "legacy_5.4_candidate",
-  "ars_nouveau.augment_desc.glyph_flatten_glyph_sensitive": "legacy_5.4_candidate",
-  "ars_unification.augment_with": "legacy_5.4_candidate",
-  "ars_unification.cut_recipe": "legacy_5.4_candidate",
-  "ars_unification.press_recipe": "legacy_5.4_candidate",
-  "emi.category.ars_unification.cut": "legacy_5.4_candidate",
-  "emi.category.ars_unification.press": "legacy_5.4_candidate"
+  "ars_nouveau.augment_desc.glyph_cut_glyph_aoe": "project_output_review",
+  "ars_nouveau.augment_desc.glyph_cut_glyph_pierce": "project_output_review",
+  "ars_nouveau.augment_desc.glyph_cut_glyph_sensitive": "project_output_review",
+  "ars_nouveau.augment_desc.glyph_flatten_glyph_aoe": "project_output_review",
+  "ars_nouveau.augment_desc.glyph_flatten_glyph_pierce": "project_output_review",
+  "ars_nouveau.augment_desc.glyph_flatten_glyph_sensitive": "project_output_review",
+  "ars_unification.augment_with": "project_output_review",
+  "ars_unification.cut_recipe": "project_output_review",
+  "ars_unification.press_recipe": "project_output_review",
+  "emi.category.ars_unification.cut": "project_output_review",
+  "emi.category.ars_unification.press": "project_output_review"
 }

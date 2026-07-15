@@ -1689,7 +1689,6 @@ def build_appflux_language(instance: Path) -> dict[str, object]:
         "existing_korean_reused": validation["existing_korean_reused"],
         "existing_korean_corrected": validation["existing_korean_corrected"],
         "new_translations": validation["new_translations"],
-        "legacy_reference_keys": 57,
         "ftbquests_keys_updated": quest_keys,
         "kubejs_user_visible_literals_found": kubejs_keys,
         "output_sha256": {APPFLUX_LANG_RELATIVE: sha256(APPFLUX_LANG_OUTPUT_FILE)},
@@ -1838,7 +1837,6 @@ def build_expandedae_language(instance: Path) -> dict[str, object]:
         "existing_korean_reused": validation["existing_korean_reused"],
         "existing_korean_corrected": validation["existing_korean_corrected"],
         "new_translations": validation["new_translations"],
-        "legacy_reference_keys": 69,
         "ftbquests_keys_updated": quest_keys,
         "kubejs_user_visible_literals_found": kubejs_keys,
         "output_sha256": {
@@ -2068,7 +2066,6 @@ def build_netanalyser_language(instance: Path) -> dict[str, object]:
         "existing_korean_reused": validation["existing_korean_reused"],
         "existing_korean_corrected": validation["existing_korean_corrected"],
         "new_translations": validation["new_translations"],
-        "legacy_reference_keys": 24,
         "ftbquests_keys_updated": quest_keys,
         "kubejs_user_visible_literals_found": kubejs_keys,
         "output_sha256": {
@@ -2176,7 +2173,6 @@ def build_merequester_language(instance: Path) -> dict[str, object]:
         "existing_korean_reused": validation["existing_korean_reused"],
         "existing_korean_corrected": validation["existing_korean_corrected"],
         "new_translations": validation["new_translations"],
-        "legacy_reference_keys": 27,
         "ftbquests_keys_updated": quest_keys,
         "kubejs_user_visible_literals_found": kubejs_keys,
         "output_sha256": {
@@ -2280,7 +2276,6 @@ def build_arseng_language(instance: Path) -> dict[str, object]:
         "existing_korean_reused": validation["existing_korean_reused"],
         "existing_korean_corrected": validation["existing_korean_corrected"],
         "new_translations": validation["new_translations"],
-        "legacy_reference_keys": 17,
         "ftbquests_keys_updated": quest_keys,
         "kubejs_user_visible_literals_found": kubejs_keys,
         "output_sha256": {ARSENG_LANG_RELATIVE: sha256(ARSENG_LANG_OUTPUT_FILE)},

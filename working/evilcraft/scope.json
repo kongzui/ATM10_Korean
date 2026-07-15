@@ -65,7 +65,7 @@
       "jar": "evilcraft-1.21.1-neoforge-1.2.89.jar",
       "namespace": "evilcraft",
       "english_keys": 628,
-      "legacy_5.4_candidate": 619,
+      "project_output_review": 619,
       "new_translation_required": 8,
       "project_output_review": 1
     },
@@ -74,7 +74,7 @@
       "jar": "evilcraft-1.21.1-neoforge-1.2.89.jar",
       "namespace": "evilcraftcompat",
       "english_keys": 29,
-      "legacy_5.4_candidate": 16,
+      "project_output_review": 16,
       "new_translation_required": 13
     }
   ]

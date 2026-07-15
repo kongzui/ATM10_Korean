@@ -6,7 +6,7 @@
       "keys_changed": 52,
       "changes_this_run": 0,
       "source_counts": {
-        "legacy_5.4_candidate": 575,
+        "project_output_review": 575,
         "manual_review": 52,
         "project_output_review": 1
       }
@@ -16,7 +16,7 @@
       "keys_changed": 5,
       "changes_this_run": 0,
       "source_counts": {
-        "legacy_5.4_candidate": 12,
+        "project_output_review": 12,
         "manual_review": 5,
         "new_translation_required": 12
       }

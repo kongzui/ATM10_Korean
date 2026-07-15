@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""설치 JAR과 5.4 참고본에서 Relics·Artifacts 계열 검수 초안을 만든다."""
+"""현재 설치 JAR과 검수된 프로젝트 산출물에서 Relics 검수 초안을 만든다."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from local_paths import PROJECT_ROOT, resolve_source_root
 from relics_catalog import BATCHES, TARGETS, Target
 
 WORK_ROOT = PROJECT_ROOT / "working/relics"
-LEGACY_PACK = "resourcepacks/all-the-mods-10_5.4_resourcepack.zip"
+OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
 
 
 def load_json(archive: ZipFile, name: str) -> dict[str, object]:
@@ -59,7 +59,6 @@ def find_jar(instance: Path, target: Target) -> Path:
 
 def prepare_target(
     instance: Path,
-    legacy: ZipFile,
     target: Target,
     force: bool,
 ) -> dict[str, object]:
@@ -78,10 +77,14 @@ def prepare_target(
         raise ValueError(
             f"영어 표시 키에 중복이 있습니다: {jar_path.name}:{english_duplicates}"
         )
-    legacy_korean = load_json(legacy, korean_path)
-    legacy_duplicates = duplicate_keys(legacy, korean_path)
+    project_path = OUTPUT_ASSETS / target.namespace / "lang/ko_kr.json"
+    project_korean = (
+        json.loads(project_path.read_text(encoding="utf-8"))
+        if project_path.is_file()
+        else {}
+    )
     draft = {
-        key: jar_korean[key] if key in jar_korean else legacy_korean.get(key, value)
+        key: project_korean.get(key, jar_korean.get(key, value))
         for key, value in english.items()
     }
     output = WORK_ROOT / target.namespace / "ko_kr.json"
@@ -97,11 +100,12 @@ def prepare_target(
         "jar": jar_path.name,
         "namespace": target.namespace,
         "english_keys": len(english),
-        "jar_korean_candidates": len(set(english) & set(jar_korean)),
-        "legacy_candidates": len((set(english) - set(jar_korean)) & set(legacy_korean)),
+        "project_output_candidates": len(set(english) & set(project_korean)),
+        "jar_korean_candidates": len(
+            (set(english) - set(project_korean)) & set(jar_korean)
+        ),
         "english_fallbacks": sum(draft[key] == value for key, value in english.items()),
         "source_korean_duplicate_keys": sorted(korean_duplicates),
-        "legacy_duplicate_keys": sorted(legacy_duplicates),
     }
 
 
@@ -113,18 +117,12 @@ def main() -> int:
     args = parser.parse_args()
 
     instance = resolve_source_root(args.instance)
-    legacy_path = instance / LEGACY_PACK
-    if not legacy_path.is_file():
-        parser.error(f"5.4 참고 리소스팩이 없습니다: {legacy_path}")
     selected = [
         target
         for target in TARGETS
         if args.batch == "all" or target.batch == args.batch
     ]
-    with ZipFile(legacy_path) as legacy:
-        rows = [
-            prepare_target(instance, legacy, target, args.force) for target in selected
-        ]
+    rows = [prepare_target(instance, target, args.force) for target in selected]
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 

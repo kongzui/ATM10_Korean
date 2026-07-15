@@ -13,9 +13,9 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 1290,
+      "project_output_reuse": 1445,
       "bundled_exact_reuse": 1777,
-      "new_or_edited": 172
+      "new_or_edited": 17
     },
     {
       "label": "Mekanism Generators",
@@ -30,8 +30,7 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "bundled_exact_reuse": 199,
-      "legacy_exact_reuse": 151,
-      "new_or_edited": 14
+      "project_output_reuse": 165
     },
     {
       "label": "Mekanism Tools",
@@ -46,8 +45,8 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "bundled_exact_reuse": 185,
-      "legacy_exact_reuse": 576,
-      "new_or_edited": 39
+      "project_output_reuse": 604,
+      "new_or_edited": 11
     },
     {
       "label": "Mekanism Covers",
@@ -61,7 +60,7 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 3
+      "project_output_reuse": 3
     },
     {
       "label": "Mekanistic Routers",
@@ -75,8 +74,7 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 10,
-      "new_or_edited": 3
+      "project_output_reuse": 13
     },
     {
       "label": "Just Enough Mekanism Multiblocks",
@@ -91,8 +89,7 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "bundled_exact_reuse": 72,
-      "legacy_exact_reuse": 2,
-      "new_or_edited": 3
+      "project_output_reuse": 5
     },
     {
       "label": "MEKMM",
@@ -106,8 +103,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 428,
-      "new_or_edited": 130
+      "project_output_reuse": 556,
+      "new_or_edited": 2
     },
     {
       "label": "Gravitational Modulating Additional Unit",
@@ -121,9 +118,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "new_or_edited": 6,
-      "bundled_exact_reuse": 3,
-      "legacy_exact_reuse": 2
+      "new_or_edited": 8,
+      "bundled_exact_reuse": 3
     },
     {
       "label": "Applied Mekanistics",
@@ -156,8 +152,8 @@
   ],
   "language_provenance": {
     "bundled_exact_reuse": 2251,
-    "legacy_exact_reuse": 2462,
-    "new_or_edited": 404
+    "project_output_reuse": 2791,
+    "new_or_edited": 75
   },
   "ftbquests": {
     "chapters": [

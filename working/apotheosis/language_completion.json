@@ -43,7 +43,7 @@
   },
   "source_classification": {
     "jar_korean_candidates": 1198,
-    "legacy_candidates_reviewed": 247,
+    "project_output_candidates_reviewed": 247,
     "new_without_korean_candidate": 177,
     "internal_excluded_keys": [
       "comment_id"

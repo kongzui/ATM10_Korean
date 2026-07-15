@@ -796,7 +796,7 @@ def reviewed_new_value(key: str, source: str, candidate: str) -> str:
 
 
 def review_base_language() -> dict[str, object]:
-    """내장·5.4·신규 후보를 영어 원문과 대조해 작업본에 반영한다."""
+    """현재 JAR·기존 프로젝트·신규 후보를 영어 원문과 대조한다."""
     english = load_json(BASE_ROOT / "en_us.json")
     korean = load_json(BASE_ROOT / "ko_kr.json")
     sources = load_json(BASE_ROOT / "candidate_sources.json")

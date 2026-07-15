@@ -12,8 +12,9 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
-      "new_or_edited": 67,
-      "legacy_exact_reuse": 123
+      "guide_extra_keys": 0,
+      "project_output_reuse": 188,
+      "new_or_edited": 2
     },
     {
       "label": "Lollipop",
@@ -26,8 +27,9 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
-      "legacy_exact_reuse": 43,
-      "new_or_edited": 7
+      "guide_extra_keys": 0,
+      "project_output_reuse": 49,
+      "new_or_edited": 1
     },
     {
       "label": "Flux Networks",
@@ -40,14 +42,14 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
-      "legacy_exact_reuse": 107,
-      "new_or_edited": 16
+      "guide_extra_keys": 0,
+      "project_output_reuse": 123
     }
   ],
   "language_provenance": {
     "bundled_exact_reuse": 0,
-    "legacy_exact_reuse": 273,
-    "new_or_edited": 90
+    "project_output_reuse": 360,
+    "new_or_edited": 3
   },
   "ftbquests": {
     "chapters": [

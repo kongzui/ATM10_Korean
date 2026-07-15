@@ -1,7 +1,6 @@
 {
   "scope": "FTB Quests common, foundational and early-game chapters",
   "source_version": "ATM10 7.1",
-  "legacy_5_4_used": false,
   "classifications": [
     {
       "chapter": "welcome",
@@ -129,7 +128,7 @@
     "deployed_to_instance": false
   },
   "notes": [
-    "ATM10 5.4 번역 자료는 사용하지 않음",
+    "현재 영어 원문과 현재 ATM10의 FTB Quests 한국어를 직접 대조함",
     "특정 모드 전용 챕터 전체와 혼합 챕터의 모드 설명은 모드별 작업으로 이관",
     "기존 제목 전용 검증기는 설명문 변경을 금지하므로 본문 작업에는 직접 적용하지 않고 동일한 구조 검증과 기존 제목 보존 검사를 별도로 수행"
   ]

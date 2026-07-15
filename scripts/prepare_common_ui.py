@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""설치 JAR과 5.4 참고본에서 공통 UI 번역 검수용 초안을 만든다."""
+"""현재 설치 JAR과 검수된 프로젝트 산출물에서 공통 UI 검수 초안을 만든다."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from common_ui_catalog import GROUPS, TARGETS, Target
 from local_paths import PROJECT_ROOT, resolve_source_root
 
 WORK_ROOT = PROJECT_ROOT / "working/common_ui"
-LEGACY_PACK = "resourcepacks/all-the-mods-10_5.4_resourcepack.zip"
+OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
 
 
 def load_json(archive: ZipFile, name: str) -> dict[str, object]:
@@ -38,7 +38,7 @@ def find_jar(instance: Path, target: Target) -> Path:
 
 
 def prepare_target(
-    instance: Path, legacy: ZipFile, target: Target, force: bool
+    instance: Path, target: Target, force: bool
 ) -> list[dict[str, object]]:
     jar_path = find_jar(instance, target)
     rows = []
@@ -58,11 +58,14 @@ def prepare_target(
                     f"영어 언어 파일이 없거나 비었습니다: {jar_path.name}:{english_path}"
                 )
             jar_korean = load_json(jar, korean_path)
-            legacy_korean = load_json(legacy, korean_path)
+            project_path = OUTPUT_ASSETS / namespace / "lang/ko_kr.json"
+            project_korean = (
+                json.loads(project_path.read_text(encoding="utf-8"))
+                if project_path.is_file()
+                else {}
+            )
             draft = {
-                key: jar_korean[key]
-                if key in jar_korean
-                else legacy_korean.get(key, value)
+                key: project_korean.get(key, jar_korean.get(key, value))
                 for key, value in english.items()
             }
             output = WORK_ROOT / target.group / namespace / "ko_kr.json"
@@ -79,9 +82,11 @@ def prepare_target(
                     "jar": jar_path.name,
                     "namespace": namespace,
                     "english_keys": len(english),
-                    "jar_korean_reused": len(set(english) & set(jar_korean)),
-                    "legacy_candidates": len(
-                        (set(english) - set(jar_korean)) & set(legacy_korean)
+                    "project_output_candidates": len(
+                        set(english) & set(project_korean)
+                    ),
+                    "jar_korean_candidates": len(
+                        (set(english) - set(project_korean)) & set(jar_korean)
                     ),
                     "untranslated_draft": sum(
                         draft[key] == value for key, value in english.items()
@@ -99,18 +104,14 @@ def main() -> int:
     args = parser.parse_args()
 
     instance = resolve_source_root(args.instance)
-    legacy_path = instance / LEGACY_PACK
-    if not legacy_path.is_file():
-        parser.error(f"5.4 참고 리소스팩이 없습니다: {legacy_path}")
     selected = [
         target
         for target in TARGETS
         if args.group == "all" or target.group == args.group
     ]
     rows = []
-    with ZipFile(legacy_path) as legacy:
-        for target in selected:
-            rows.extend(prepare_target(instance, legacy, target, args.force))
+    for target in selected:
+        rows.extend(prepare_target(instance, target, args.force))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 

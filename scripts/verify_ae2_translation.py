@@ -6,14 +6,20 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import zipfile
+from collections import Counter
 from pathlib import Path
 
 import build_ae2_quests as quests
-import build_ae2_translation as resourcepack
 import build_ftbquests_titles as titles
 from local_paths import resolve_source_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+OUTPUT_LANG = (
+    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/ae2/lang/ko_kr.json"
+)
+PROGRESS_FILE = PROJECT_ROOT / "working/ae2/progress.json"
+PLACEHOLDER_RE = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{\d+\}")
 COMMON_QUEST_OVERRIDES = (
     PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json"
 )
@@ -28,6 +34,37 @@ ADDON_QUEST_OVERRIDE_FILES = (
     PROJECT_ROOT / "working/ae2_addons/merequester/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/arseng/quest_overrides.json",
 )
+LATER_REVIEWED_QUEST_FILES = (
+    PROJECT_ROOT / "working/atmgear/quest_overrides.json",
+    PROJECT_ROOT / "working/mekanism/quests/related/ko_kr.json",
+    PROJECT_ROOT / "working/mekanism/quests/mekanism_reactors/ko_kr.json",
+    PROJECT_ROOT / "working/productivebees/quest_overrides.json",
+    PROJECT_ROOT / "working/ars_nouveau/quests/related/ko_kr.json",
+    PROJECT_ROOT / "working/powah_flux/quests/related/ko_kr.json",
+)
+
+
+def load_zip_json(path: Path, entry: str) -> dict[str, str]:
+    """현재 설치 JAR의 문자열 언어 JSON을 읽는다."""
+    with zipfile.ZipFile(path) as archive:
+        value = json.loads(archive.read(entry).decode("utf-8-sig"))
+    if not isinstance(value, dict) or not all(
+        isinstance(key, str) and isinstance(item, str) for key, item in value.items()
+    ):
+        raise ValueError(f"문자열 JSON 객체가 아닙니다: {path}!{entry}")
+    return value
+
+
+def validate_pair(key: str, source: str, translated: str) -> list[str]:
+    """현재 영어 원문과 프로젝트 번역의 구조 보존 여부를 검사한다."""
+    errors = []
+    if Counter(PLACEHOLDER_RE.findall(source)) != Counter(
+        PLACEHOLDER_RE.findall(translated)
+    ):
+        errors.append(f"{key}: 자리표시자 불일치")
+    if source.count("\n") != translated.count("\n"):
+        errors.append(f"{key}: 줄바꿈 개수 불일치")
+    return errors
 
 
 def ensure_no_bom(path: Path) -> None:
@@ -42,16 +79,14 @@ def main() -> int:
     instance = resolve_source_root(args.instance)
 
     jar = instance / "mods/appliedenergistics2-19.2.17.jar"
-    english = resourcepack.load_zip_json(jar, "assets/ae2/lang/en_us.json")
-    output_lang = resourcepack.OUTPUT_LANG
+    english = load_zip_json(jar, "assets/ae2/lang/en_us.json")
+    output_lang = OUTPUT_LANG
     translated = json.loads(output_lang.read_text(encoding="utf-8"))
     if list(translated) != list(english):
         raise ValueError("AE2 리소스팩 키 또는 키 순서가 영어 원문과 다릅니다.")
     resource_errors = []
     for key in english:
-        resource_errors.extend(
-            resourcepack.validate_pair(key, english[key], translated[key])
-        )
+        resource_errors.extend(validate_pair(key, english[key], translated[key]))
     if resource_errors:
         raise ValueError("\n".join(resource_errors))
 
@@ -69,7 +104,10 @@ def main() -> int:
     addon_overrides = {}
     for path in ADDON_QUEST_OVERRIDE_FILES:
         addon_overrides |= json.loads(path.read_text(encoding="utf-8"))
-    additional_overrides = common_overrides | addon_overrides
+    later_reviewed_overrides = {}
+    for path in LATER_REVIEWED_QUEST_FILES:
+        later_reviewed_overrides |= json.loads(path.read_text(encoding="utf-8"))
+    additional_overrides = common_overrides | addon_overrides | later_reviewed_overrides
     expected = {
         key: quests.normalize(overrides[key])
         if key in overrides
@@ -148,10 +186,11 @@ def main() -> int:
         quests.OUTPUT_FILE,
         kube_path,
         pack_meta_path,
-        resourcepack.PROGRESS_FILE,
+        PROGRESS_FILE,
         quests.PROGRESS_FILE,
         quests.OVERRIDES_FILE,
         *ADDON_QUEST_OVERRIDE_FILES,
+        *LATER_REVIEWED_QUEST_FILES,
     )
     for path in checked_files:
         ensure_no_bom(path)

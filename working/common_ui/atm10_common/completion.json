@@ -27,7 +27,7 @@
   ],
   "counts": {
     "installed_korean_reused": 2,
-    "legacy_candidates_reviewed": 13,
+    "project_output_candidates_reviewed": 13,
     "newly_translated": 656,
     "output_keys": 671
   },
