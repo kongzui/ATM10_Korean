@@ -1,0 +1,12 @@
+{
+  "family": "Integrated Dynamics family",
+  "reviewed_keys": 2948,
+  "source_counts": {
+    "bundled_korean_reviewed_correction": 354,
+    "bundled_korean_reviewed_reuse": 1812,
+    "new_manual_reviewed_translation": 774,
+    "project_translation_reviewed_reuse": 8
+  },
+  "corrected_bundled_keys": 354,
+  "status": "language_review_complete"
+}

@@ -1,0 +1,2545 @@
+{
+  "family": "Integrated Dynamics family",
+  "instance": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+  "archives": {
+    "integratedcrafting": {
+      "jar": "integratedcrafting-1.21.1-neoforge-1.4.6.jar",
+      "size": 377545,
+      "mtime_ns": 1783222307211294900,
+      "info_book": {
+        "files": [
+          "data/integratedcrafting/info/crafting_info.xml",
+          "data/integratedcrafting/info/crafting_tutorials.xml"
+        ],
+        "translation_keys": [
+          "info_book.integratedcrafting.crafting_interface",
+          "info_book.integratedcrafting.crafting_interface.basics",
+          "info_book.integratedcrafting.crafting_interface.basics.text1",
+          "info_book.integratedcrafting.crafting_interface.basics.text2",
+          "info_book.integratedcrafting.crafting_interface.basics.text3",
+          "info_book.integratedcrafting.crafting_interface.basics.text4",
+          "info_book.integratedcrafting.crafting_interface.blocking",
+          "info_book.integratedcrafting.crafting_interface.blocking.text1",
+          "info_book.integratedcrafting.crafting_interface.blocking.text2",
+          "info_book.integratedcrafting.crafting_interface.configuration",
+          "info_book.integratedcrafting.crafting_interface.configuration.text1",
+          "info_book.integratedcrafting.crafting_interface.configuration.text2",
+          "info_book.integratedcrafting.crafting_interface.crafting",
+          "info_book.integratedcrafting.crafting_interface.crafting.text1",
+          "info_book.integratedcrafting.crafting_interface.crafting.text2",
+          "info_book.integratedcrafting.crafting_interface.crafting.text3",
+          "info_book.integratedcrafting.crafting_interface.crafting.text4",
+          "info_book.integratedcrafting.crafting_interface.debugging_jobs",
+          "info_book.integratedcrafting.crafting_interface.debugging_jobs.text1",
+          "info_book.integratedcrafting.crafting_interface.debugging_jobs.text2",
+          "info_book.integratedcrafting.crafting_interface.debugging_jobs.text3",
+          "info_book.integratedcrafting.crafting_interface.distribution",
+          "info_book.integratedcrafting.crafting_interface.distribution.text1",
+          "info_book.integratedcrafting.crafting_interface.distribution.text2",
+          "info_book.integratedcrafting.crafting_interface.dynamic_recipes",
+          "info_book.integratedcrafting.crafting_interface.dynamic_recipes.text1",
+          "info_book.integratedcrafting.crafting_interface.dynamic_recipes.text2",
+          "info_book.integratedcrafting.crafting_interface.dynamic_recipes.text3",
+          "info_book.integratedcrafting.crafting_interface.introduction",
+          "info_book.integratedcrafting.crafting_interface.introduction.text1",
+          "info_book.integratedcrafting.crafting_interface.recipe_feedback",
+          "info_book.integratedcrafting.crafting_interface.recipe_feedback.text1",
+          "info_book.integratedcrafting.crafting_interface.recipe_feedback.text2",
+          "info_book.integratedcrafting.crafting_interface.recipe_feedback.text3",
+          "info_book.integratedcrafting.crafting_interface.recipe_feedback.text4",
+          "info_book.integratedcrafting.crafting_interface.reusable",
+          "info_book.integratedcrafting.crafting_interface.reusable.text1",
+          "info_book.integratedcrafting.crafting_writer",
+          "info_book.integratedcrafting.crafting_writer.text1",
+          "info_book.integratedcrafting.crafting_writer.text2",
+          "info_book.integratedcrafting.crafting_writer.text3",
+          "info_book.integratedcrafting.introduction",
+          "info_book.integratedcrafting.introduction.text1",
+          "info_book.integratedcrafting.introduction.text2",
+          "info_book.integratedcrafting.introduction.text3",
+          "info_book.integratedcrafting.introduction.text4",
+          "info_book.integratedcrafting.section.main",
+          "info_book.integratedcrafting.section.tutorials",
+          "info_book.integratedcrafting.tutorials.autocrafting_setup",
+          "info_book.integratedcrafting.tutorials.autocrafting_setup.text1",
+          "info_book.integratedcrafting.tutorials.autocrafting_setup.text2",
+          "info_book.integratedcrafting.tutorials.autocrafting_setup.text3",
+          "info_book.integratedcrafting.tutorials.autocrafting_setup.text4",
+          "info_book.integratedcrafting.tutorials.autocrafting_trigger",
+          "info_book.integratedcrafting.tutorials.autocrafting_trigger.text1",
+          "info_book.integratedcrafting.tutorials.autocrafting_trigger.text2",
+          "info_book.integratedcrafting.tutorials.autocrafting_trigger.text3",
+          "info_book.integratedcrafting.tutorials.autocrafting_trigger.text4",
+          "info_book.integratedcrafting.tutorials.autocrafting_trigger.text5",
+          "info_book.integratedcrafting.tutorials.autocrafting_trigger.text6",
+          "info_book.integratedcrafting.tutorials.introduction",
+          "info_book.integratedcrafting.tutorials.introduction.text1"
+        ],
+        "resource_references": [
+          {
+            "entry": "data/integratedcrafting/info/crafting_info.xml",
+            "text": "integratedcrafting:part_interface_crafting"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_info.xml",
+            "text": "integratedcrafting:part_interface_crafting_attuned"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_info.xml",
+            "text": "integratedcrafting:crafting/part_interface_crafting"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_info.xml",
+            "text": "integratedcrafting:crafting/part_interface_crafting_attuned"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_info.xml",
+            "text": "integratedcrafting:textures/gui/infobook/setup_craftingtable.png"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_info.xml",
+            "text": "integratedcrafting:textures/gui/infobook/setup_furnace.png"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_info.xml",
+            "text": "integratedcrafting:part_crafting_writer"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_info.xml",
+            "text": "integratedcrafting:crafting/part_crafting_writer"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_info.xml",
+            "text": "integratedcrafting:crafting_writer"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_tutorials.xml",
+            "text": "integratedcrafting:crafting/part_interface_crafting"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_tutorials.xml",
+            "text": "integratedcrafting:part_interface_crafting"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_tutorials.xml",
+            "text": "integratedcrafting:crafting/part_crafting_writer"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_tutorials.xml",
+            "text": "integratedcrafting:write_itemstack_craft"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_tutorials.xml",
+            "text": "integratedcrafting:textures/gui/infobook/tutorial_autocrafting_trigger.png"
+          },
+          {
+            "entry": "data/integratedcrafting/info/crafting_tutorials.xml",
+            "text": "integratedcrafting:part_crafting_writer"
+          }
+        ],
+        "code_examples": [],
+        "visible_literals": []
+      },
+      "advancements": {
+        "files": 6,
+        "display_fields": 12,
+        "translated_fields": 12,
+        "translation_keys": [
+          "advancement.integratedcrafting.craft_crafting_interface",
+          "advancement.integratedcrafting.craft_crafting_interface.desc",
+          "advancement.integratedcrafting.craft_crafting_interface_attuned",
+          "advancement.integratedcrafting.craft_crafting_interface_attuned.desc",
+          "advancement.integratedcrafting.craft_crafting_writer",
+          "advancement.integratedcrafting.craft_crafting_writer.desc",
+          "advancement.integratedcrafting.craft_planks",
+          "advancement.integratedcrafting.craft_planks.desc",
+          "advancement.integratedcrafting.insert_recipe_planks",
+          "advancement.integratedcrafting.insert_recipe_planks.desc",
+          "general.integratedcrafting.description",
+          "itemGroup.integratedcrafting"
+        ],
+        "visible_literal_fields": []
+      }
+    },
+    "integrateddynamics": {
+      "jar": "integrateddynamics-1.21.1-neoforge-1.33.3.jar",
+      "size": 4359971,
+      "mtime_ns": 1783222294037605800,
+      "info_book": {
+        "files": [
+          "data/integrateddynamics/info/on_the_dynamics_of_integration.xml"
+        ],
+        "translation_keys": [
+          "info_book.integrateddynamics.introduction",
+          "info_book.integrateddynamics.introduction.text1",
+          "info_book.integrateddynamics.introduction.text2",
+          "info_book.integrateddynamics.introduction.text3",
+          "info_book.integrateddynamics.introduction.text4",
+          "info_book.integrateddynamics.manual",
+          "info_book.integrateddynamics.manual.diagnostics",
+          "info_book.integrateddynamics.manual.diagnostics.text1",
+          "info_book.integrateddynamics.manual.diagnostics.text2",
+          "info_book.integrateddynamics.manual.diagnostics.text3",
+          "info_book.integrateddynamics.manual.introduction",
+          "info_book.integrateddynamics.manual.introduction.text1",
+          "info_book.integrateddynamics.manual.logic",
+          "info_book.integrateddynamics.manual.logic.advanced",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text1",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text10",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text11",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text12",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text13",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text2",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text3",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text4",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text5",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text6",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text7",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text8",
+          "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text9",
+          "info_book.integrateddynamics.manual.logic.value_types",
+          "info_book.integrateddynamics.manual.logic.value_types.block",
+          "info_book.integrateddynamics.manual.logic.value_types.block.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.boolean",
+          "info_book.integrateddynamics.manual.logic.value_types.boolean.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.double",
+          "info_book.integrateddynamics.manual.logic.value_types.double.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.double.text2",
+          "info_book.integrateddynamics.manual.logic.value_types.entity",
+          "info_book.integrateddynamics.manual.logic.value_types.entity.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.fluid",
+          "info_book.integrateddynamics.manual.logic.value_types.fluid.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.ingredients",
+          "info_book.integrateddynamics.manual.logic.value_types.ingredients.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.integer",
+          "info_book.integrateddynamics.manual.logic.value_types.integer.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.integer.text2",
+          "info_book.integrateddynamics.manual.logic.value_types.integer.text3",
+          "info_book.integrateddynamics.manual.logic.value_types.item",
+          "info_book.integrateddynamics.manual.logic.value_types.item.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.list",
+          "info_book.integrateddynamics.manual.logic.value_types.list.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.long",
+          "info_book.integrateddynamics.manual.logic.value_types.long.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.long.text2",
+          "info_book.integrateddynamics.manual.logic.value_types.nbt",
+          "info_book.integrateddynamics.manual.logic.value_types.nbt.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.nbt.text2",
+          "info_book.integrateddynamics.manual.logic.value_types.nbt.text3",
+          "info_book.integrateddynamics.manual.logic.value_types.operator",
+          "info_book.integrateddynamics.manual.logic.value_types.operator.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.operator.text2",
+          "info_book.integrateddynamics.manual.logic.value_types.operator.text3",
+          "info_book.integrateddynamics.manual.logic.value_types.recipe",
+          "info_book.integrateddynamics.manual.logic.value_types.recipe.text1",
+          "info_book.integrateddynamics.manual.logic.value_types.recipe.text2",
+          "info_book.integrateddynamics.manual.logic.value_types.recipe.text3",
+          "info_book.integrateddynamics.manual.logic.value_types.recipe.text4",
+          "info_book.integrateddynamics.manual.logic.value_types.recipe.text5",
+          "info_book.integrateddynamics.manual.logic.value_types.string",
+          "info_book.integrateddynamics.manual.logic.value_types.string.text1",
+          "info_book.integrateddynamics.manual.logic.variables",
+          "info_book.integrateddynamics.manual.logic.variables.variable_card",
+          "info_book.integrateddynamics.manual.logic.variables.variable_card.text1",
+          "info_book.integrateddynamics.manual.logic.variables.variable_card.text2",
+          "info_book.integrateddynamics.manual.logic.variables.variable_card.text3",
+          "info_book.integrateddynamics.manual.logic.variables.variable_card.text4",
+          "info_book.integrateddynamics.manual.logic.variables.variable_store",
+          "info_book.integrateddynamics.manual.logic.variables.variable_store.text1",
+          "info_book.integrateddynamics.manual.logic_programming",
+          "info_book.integrateddynamics.manual.logic_programming.text1",
+          "info_book.integrateddynamics.manual.logic_programming.text2",
+          "info_book.integrateddynamics.manual.logic_programming.text3",
+          "info_book.integrateddynamics.manual.logic_programming.text4",
+          "info_book.integrateddynamics.manual.logic_programming.text5",
+          "info_book.integrateddynamics.manual.logic_programming.text6",
+          "info_book.integrateddynamics.manual.logic_programming.text7",
+          "info_book.integrateddynamics.manual.machines",
+          "info_book.integrateddynamics.manual.machines.delay",
+          "info_book.integrateddynamics.manual.machines.delay.text1",
+          "info_book.integrateddynamics.manual.machines.delay.text2",
+          "info_book.integrateddynamics.manual.machines.delay.text3",
+          "info_book.integrateddynamics.manual.machines.energy_battery",
+          "info_book.integrateddynamics.manual.machines.energy_battery.text1",
+          "info_book.integrateddynamics.manual.machines.energy_battery.text2",
+          "info_book.integrateddynamics.manual.machines.energy_battery.text3",
+          "info_book.integrateddynamics.manual.machines.energy_battery.text4",
+          "info_book.integrateddynamics.manual.machines.generator",
+          "info_book.integrateddynamics.manual.machines.generator.text1",
+          "info_book.integrateddynamics.manual.machines.materializer",
+          "info_book.integrateddynamics.manual.machines.materializer.text1",
+          "info_book.integrateddynamics.manual.machines.materializer.text2",
+          "info_book.integrateddynamics.manual.machines.materializer.text3",
+          "info_book.integrateddynamics.manual.machines.mechanical_drying_basin",
+          "info_book.integrateddynamics.manual.machines.mechanical_drying_basin.text1",
+          "info_book.integrateddynamics.manual.machines.mechanical_squeezer",
+          "info_book.integrateddynamics.manual.machines.mechanical_squeezer.text1",
+          "info_book.integrateddynamics.manual.machines.proxy",
+          "info_book.integrateddynamics.manual.machines.proxy.text1",
+          "info_book.integrateddynamics.manual.machines.proxy.text2",
+          "info_book.integrateddynamics.manual.machines.proxy.text3",
+          "info_book.integrateddynamics.manual.networks",
+          "info_book.integrateddynamics.manual.networks.text1",
+          "info_book.integrateddynamics.manual.networks.text2",
+          "info_book.integrateddynamics.manual.parts",
+          "info_book.integrateddynamics.manual.parts.introduction",
+          "info_book.integrateddynamics.manual.parts.introduction.text1",
+          "info_book.integrateddynamics.manual.parts.introduction.text2",
+          "info_book.integrateddynamics.manual.parts.introduction.text3",
+          "info_book.integrateddynamics.manual.parts.introduction.text4",
+          "info_book.integrateddynamics.manual.parts.offsets",
+          "info_book.integrateddynamics.manual.parts.offsets.text1",
+          "info_book.integrateddynamics.manual.parts.offsets.text2",
+          "info_book.integrateddynamics.manual.parts.offsets.text3",
+          "info_book.integrateddynamics.manual.parts.offsets.text4",
+          "info_book.integrateddynamics.manual.parts.other",
+          "info_book.integrateddynamics.manual.parts.other.connector_mono_directional",
+          "info_book.integrateddynamics.manual.parts.other.connector_mono_directional.text1",
+          "info_book.integrateddynamics.manual.parts.other.connector_mono_directional.text2",
+          "info_book.integrateddynamics.manual.parts.other.connector_omni_directional",
+          "info_book.integrateddynamics.manual.parts.other.connector_omni_directional.text1",
+          "info_book.integrateddynamics.manual.parts.other.connector_omni_directional.text2",
+          "info_book.integrateddynamics.manual.parts.other.connector_omni_directional.text3",
+          "info_book.integrateddynamics.manual.parts.other.connector_omni_directional.text4",
+          "info_book.integrateddynamics.manual.parts.other.display",
+          "info_book.integrateddynamics.manual.parts.other.display.text1",
+          "info_book.integrateddynamics.manual.parts.other.display.text2",
+          "info_book.integrateddynamics.manual.parts.other.light",
+          "info_book.integrateddynamics.manual.parts.other.light.text1",
+          "info_book.integrateddynamics.manual.parts.reader",
+          "info_book.integrateddynamics.manual.parts.reader.audio",
+          "info_book.integrateddynamics.manual.parts.reader.audio.text1",
+          "info_book.integrateddynamics.manual.parts.reader.block",
+          "info_book.integrateddynamics.manual.parts.reader.block.text1",
+          "info_book.integrateddynamics.manual.parts.reader.entity",
+          "info_book.integrateddynamics.manual.parts.reader.entity.text1",
+          "info_book.integrateddynamics.manual.parts.reader.extra_dimensional",
+          "info_book.integrateddynamics.manual.parts.reader.extra_dimensional.text1",
+          "info_book.integrateddynamics.manual.parts.reader.fluid",
+          "info_book.integrateddynamics.manual.parts.reader.fluid.text1",
+          "info_book.integrateddynamics.manual.parts.reader.introduction",
+          "info_book.integrateddynamics.manual.parts.reader.introduction.text1",
+          "info_book.integrateddynamics.manual.parts.reader.inventory",
+          "info_book.integrateddynamics.manual.parts.reader.inventory.text1",
+          "info_book.integrateddynamics.manual.parts.reader.machine",
+          "info_book.integrateddynamics.manual.parts.reader.machine.text1",
+          "info_book.integrateddynamics.manual.parts.reader.network",
+          "info_book.integrateddynamics.manual.parts.reader.network.text1",
+          "info_book.integrateddynamics.manual.parts.reader.redstone",
+          "info_book.integrateddynamics.manual.parts.reader.redstone.text1",
+          "info_book.integrateddynamics.manual.parts.reader.world",
+          "info_book.integrateddynamics.manual.parts.reader.world.text1",
+          "info_book.integrateddynamics.manual.parts.settings",
+          "info_book.integrateddynamics.manual.parts.settings.text1",
+          "info_book.integrateddynamics.manual.parts.settings.text2",
+          "info_book.integrateddynamics.manual.parts.settings.text3",
+          "info_book.integrateddynamics.manual.parts.settings.text4",
+          "info_book.integrateddynamics.manual.parts.settings.text5",
+          "info_book.integrateddynamics.manual.parts.writer",
+          "info_book.integrateddynamics.manual.parts.writer.audio",
+          "info_book.integrateddynamics.manual.parts.writer.audio.text1",
+          "info_book.integrateddynamics.manual.parts.writer.effect",
+          "info_book.integrateddynamics.manual.parts.writer.effect.text1",
+          "info_book.integrateddynamics.manual.parts.writer.entity",
+          "info_book.integrateddynamics.manual.parts.writer.entity.text1",
+          "info_book.integrateddynamics.manual.parts.writer.inventory",
+          "info_book.integrateddynamics.manual.parts.writer.inventory.text1",
+          "info_book.integrateddynamics.manual.parts.writer.machine",
+          "info_book.integrateddynamics.manual.parts.writer.machine.text1",
+          "info_book.integrateddynamics.manual.parts.writer.redstone",
+          "info_book.integrateddynamics.manual.parts.writer.redstone.text1",
+          "info_book.integrateddynamics.manual.prerequisites",
+          "info_book.integrateddynamics.manual.prerequisites.drying_basin",
+          "info_book.integrateddynamics.manual.prerequisites.drying_basin.text1",
+          "info_book.integrateddynamics.manual.prerequisites.drying_basin.text2",
+          "info_book.integrateddynamics.manual.prerequisites.meneglin_biome",
+          "info_book.integrateddynamics.manual.prerequisites.meneglin_biome.text1",
+          "info_book.integrateddynamics.manual.prerequisites.menril_trees",
+          "info_book.integrateddynamics.manual.prerequisites.menril_trees.text1",
+          "info_book.integrateddynamics.manual.prerequisites.squeezer",
+          "info_book.integrateddynamics.manual.prerequisites.squeezer.text1",
+          "info_book.integrateddynamics.section.main",
+          "info_book.integrateddynamics.tutorials",
+          "info_book.integrateddynamics.tutorials.advancedNetworkComponents",
+          "info_book.integrateddynamics.tutorials.advancedNetworkComponents.text1",
+          "info_book.integrateddynamics.tutorials.advancedNetworkComponents.text2",
+          "info_book.integrateddynamics.tutorials.advancedNetworkComponents.text3",
+          "info_book.integrateddynamics.tutorials.advancedNetworkComponents.text4",
+          "info_book.integrateddynamics.tutorials.advancedNetworkComponents.text5",
+          "info_book.integrateddynamics.tutorials.advancedOperations",
+          "info_book.integrateddynamics.tutorials.advancedOperations.text1",
+          "info_book.integrateddynamics.tutorials.advancedOperations.text2",
+          "info_book.integrateddynamics.tutorials.advancedOperations.text3",
+          "info_book.integrateddynamics.tutorials.advancedOperations.text4",
+          "info_book.integrateddynamics.tutorials.advancedOperations.text5",
+          "info_book.integrateddynamics.tutorials.aspects",
+          "info_book.integrateddynamics.tutorials.aspects.text1",
+          "info_book.integrateddynamics.tutorials.aspects.text2",
+          "info_book.integrateddynamics.tutorials.aspects.text3",
+          "info_book.integrateddynamics.tutorials.aspects.text4",
+          "info_book.integrateddynamics.tutorials.aspects.text5",
+          "info_book.integrateddynamics.tutorials.basicNetworkComponents",
+          "info_book.integrateddynamics.tutorials.basicNetworkComponents.text1",
+          "info_book.integrateddynamics.tutorials.challenges",
+          "info_book.integrateddynamics.tutorials.challenges.text1",
+          "info_book.integrateddynamics.tutorials.introduction",
+          "info_book.integrateddynamics.tutorials.introduction.text1",
+          "info_book.integrateddynamics.tutorials.logicOperations",
+          "info_book.integrateddynamics.tutorials.logicOperations.text1",
+          "info_book.integrateddynamics.tutorials.logicOperations.text2",
+          "info_book.integrateddynamics.tutorials.logicOperations.text3",
+          "info_book.integrateddynamics.tutorials.logicOperations.text4",
+          "info_book.integrateddynamics.tutorials.logicOperations.text5",
+          "info_book.integrateddynamics.tutorials.logicOperations.text6",
+          "info_book.integrateddynamics.tutorials.logicOperations.text7",
+          "info_book.integrateddynamics.tutorials.logicOperations.text8",
+          "info_book.integrateddynamics.tutorials.menrilBasics",
+          "info_book.integrateddynamics.tutorials.menrilBasics.text1",
+          "info_book.integrateddynamics.tutorials.menrilBasics.text2",
+          "info_book.integrateddynamics.tutorials.menrilBasics.text3",
+          "info_book.integrateddynamics.tutorials.menrilBasics.text4",
+          "info_book.integrateddynamics.tutorials.nbt",
+          "info_book.integrateddynamics.tutorials.nbt.text1",
+          "info_book.integrateddynamics.tutorials.nbt.text2",
+          "info_book.integrateddynamics.tutorials.nbt.text3",
+          "info_book.integrateddynamics.tutorials.nbt.text4",
+          "info_book.integrateddynamics.tutorials.nbt.text5",
+          "info_book.integrateddynamics.tutorials.networkFoundations",
+          "info_book.integrateddynamics.tutorials.networkFoundations.text1",
+          "info_book.integrateddynamics.tutorials.networkFoundations.text2",
+          "info_book.integrateddynamics.tutorials.recipe_handling",
+          "info_book.integrateddynamics.tutorials.recipe_handling.text1",
+          "info_book.integrateddynamics.tutorials.recipe_handling.text2",
+          "info_book.integrateddynamics.tutorials.recipe_handling.text3",
+          "info_book.integrateddynamics.tutorials.recipe_handling.text4",
+          "info_book.integrateddynamics.tutorials.recipe_handling.text5",
+          "info_book.integrateddynamics.tutorials.recipe_handling.text6",
+          "info_book.integrateddynamics.tutorials.theValueOfOperators",
+          "info_book.integrateddynamics.tutorials.theValueOfOperators.text1",
+          "info_book.integrateddynamics.tutorials.theValueOfOperators.text2",
+          "info_book.integrateddynamics.tutorials.theValueOfOperators.text3",
+          "info_book.integrateddynamics.tutorials.theValueOfOperators.text4"
+        ],
+        "resource_references": [
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/squeezer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/drying_basin"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:squeezer/base/menril_resin_logs"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:drying_basin/base/crystalized_menril_block"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:menril_log"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crystalized_menril_block"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crystalized_menril_brick"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:menril_berries"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/cable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/wrench"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/variable_transformer_input"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/variable_transformer_output"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:cable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable_transformer_input"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable_transformer_output"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_redstone_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_block_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_inventory_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_machine_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_static_light_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_display_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:part_display_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_redstone_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:read_integer_redstone_value"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:write_integer_redstone"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:part_redstone_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:part_redstone_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/logic_programmer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/logic_programmer_to_portable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/logic_programmer_from_portable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/variablestore"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:arithmetic_addition"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variablestore"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/materializer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/proxy"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:materializer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:proxy"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_entity_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:itemstack_mod"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:read_entity_entity"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:entity_targetblock"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variablestore"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:relational_equals"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:operator_filter"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:operator_apply"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:read_list_recipehandler_recipes"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:read_operator_recipehandler_recipebyoutput"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:operator_apply"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:part_machine_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:part_display_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:read_nbt_block_tile"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:nbt_compound_value_compound"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:nbt_path_match_first"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:part_machine_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:part_display_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:variablestore"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:part_display_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "menril_log"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "menril_berries"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "menril_planks"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "menril_sapling"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:textures/gui/infobook/menril_tree.png"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/menril_planks"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:textures/gui/infobook/meneglin_biome.png"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "squeezer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "menril_resin"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "liquid_chorus"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "proto_chorus"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/squeezer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:squeezer/base/.*"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:squeezer/convenience/.*"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:squeezer/ore/.*"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/proto_chorus"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "drying_basin"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "crystalized_menril_block"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "crystalized_menril_brick"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "crystalized_menril_chunk"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "crystalized_chorus_block"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "crystalized_chorus_brick"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "crystalized_chorus_chunk"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/drying_basin"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:drying_basin/base/.*"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/crystalized_menril_brick"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/crystalized_menril_chunk"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/crystalized_chorus_brick"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/crystalized_chorus_chunk"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:drying_basin/convenience/.*"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "`"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "cable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "wrench"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "facade"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/cable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/wrench"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/facade"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:textures/gui/infobook/network.png"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "labeller"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "variable_transformer_input"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "variable_transformer_output"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "logic_director"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/variable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/labeller"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/variable_transformer_input"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/variable_transformer_output"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/logic_director"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "variablestore"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/variablestore"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:nbt_path_match_first"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:nbt_path_match_all"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:nbt_path_test"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/enhancement_offset"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_audio_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_audio_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:audio_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_block_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_block_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:block_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_entity_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_entity_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:entity_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_extradimensional_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_extradimensional_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:extradimensional_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_fluid_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_fluid_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:fluid_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_inventory_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_inventory_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:inventory_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_machine_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_machine_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:machine_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_network_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_network_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:network_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_redstone_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_redstone_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:redstone_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_world_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_world_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:world_reader"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_audio_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_audio_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:audio_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_effect_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_effect_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:effect_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_entity_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_entity_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:entity_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_machine_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_machine_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:machine_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_inventory_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_inventory_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:inventory_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_redstone_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_redstone_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:redstone_writer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_static_light_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_dynamic_light_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_static_light_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_dynamic_light_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_display_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_display_panel"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_connector_mono_directional"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/part_connector_mono_directional"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "part_connector_omni_directional"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:special/part_connector_omni_directional"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:special/part_connector_omni_directional_copy"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:special/part_connector_omni_directional_join"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "materializer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/materializer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "proxy"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/proxy"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "delay"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/delay"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "energy_battery"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/energy_battery"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "coal_generator"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/coal_generator"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "mechanical_squeezer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/mechanical_squeezer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:mechanical_squeezer/base/.*"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:mechanical_squeezer/convenience/.*"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:mechanical_squeezer/ore/.*"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "mechanical_drying_basin"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/mechanical_drying_basin"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:mechanical_drying_basin/base/.*"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:mechanical_drying_basin/convenience/.*"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "logic_programmer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/logic_programmer"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/logic_programmer_to_portable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "integrateddynamics:crafting/logic_programmer_from_portable"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "key.integrateddynamics.logic_programmer_focus_search"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "key.integrateddynamics.logic_programmer_open_rename"
+          },
+          {
+            "entry": "data/integrateddynamics/info/on_the_dynamics_of_integration.xml",
+            "text": "*"
+          }
+        ],
+        "code_examples": [],
+        "visible_literals": []
+      },
+      "advancements": {
+        "files": 40,
+        "display_fields": 80,
+        "translated_fields": 80,
+        "translation_keys": [
+          "advancement.integrateddynamics.arithmetic_addition",
+          "advancement.integrateddynamics.arithmetic_addition.desc",
+          "advancement.integrateddynamics.block_reading",
+          "advancement.integrateddynamics.block_reading.desc",
+          "advancement.integrateddynamics.cables_logic",
+          "advancement.integrateddynamics.cables_logic.desc",
+          "advancement.integrateddynamics.constant_definition",
+          "advancement.integrateddynamics.constant_definition.desc",
+          "advancement.integrateddynamics.creeper_taming",
+          "advancement.integrateddynamics.creeper_taming.desc",
+          "advancement.integrateddynamics.drying",
+          "advancement.integrateddynamics.drying.desc",
+          "advancement.integrateddynamics.dynamic_additions",
+          "advancement.integrateddynamics.dynamic_additions.desc",
+          "advancement.integrateddynamics.dynamic_list_filtering",
+          "advancement.integrateddynamics.dynamic_list_filtering.desc",
+          "advancement.integrateddynamics.inventory_reading",
+          "advancement.integrateddynamics.inventory_reading.desc",
+          "advancement.integrateddynamics.item_origin_identification",
+          "advancement.integrateddynamics.item_origin_identification.desc",
+          "advancement.integrateddynamics.lectern_book",
+          "advancement.integrateddynamics.lectern_book.desc",
+          "advancement.integrateddynamics.lectern_book_name",
+          "advancement.integrateddynamics.lectern_book_name.desc",
+          "advancement.integrateddynamics.lectern_data",
+          "advancement.integrateddynamics.lectern_data.desc",
+          "advancement.integrateddynamics.logic_programming",
+          "advancement.integrateddynamics.logic_programming.desc",
+          "advancement.integrateddynamics.logical_list_building",
+          "advancement.integrateddynamics.logical_list_building.desc",
+          "advancement.integrateddynamics.machine_reading",
+          "advancement.integrateddynamics.machine_reading.desc",
+          "advancement.integrateddynamics.meneglin_discovery",
+          "advancement.integrateddynamics.meneglin_discovery.desc",
+          "advancement.integrateddynamics.menril_production",
+          "advancement.integrateddynamics.menril_production.desc",
+          "advancement.integrateddynamics.menril_wrenching",
+          "advancement.integrateddynamics.menril_wrenching.desc",
+          "advancement.integrateddynamics.networks_logic",
+          "advancement.integrateddynamics.networks_logic.desc",
+          "advancement.integrateddynamics.recipe_creation",
+          "advancement.integrateddynamics.recipe_creation.desc",
+          "advancement.integrateddynamics.recipe_lookup",
+          "advancement.integrateddynamics.recipe_lookup.desc",
+          "advancement.integrateddynamics.recipe_reading",
+          "advancement.integrateddynamics.recipe_reading.desc",
+          "advancement.integrateddynamics.recursive_recursion",
+          "advancement.integrateddynamics.recursive_recursion.desc",
+          "advancement.integrateddynamics.redstone_capturing",
+          "advancement.integrateddynamics.redstone_capturing.desc",
+          "advancement.integrateddynamics.redstone_observement",
+          "advancement.integrateddynamics.redstone_observement.desc",
+          "advancement.integrateddynamics.redstone_reading",
+          "advancement.integrateddynamics.redstone_reading.desc",
+          "advancement.integrateddynamics.redstone_transmission",
+          "advancement.integrateddynamics.redstone_transmission.desc",
+          "advancement.integrateddynamics.smart_pressure_plate",
+          "advancement.integrateddynamics.smart_pressure_plate.desc",
+          "advancement.integrateddynamics.sponge_step_sound",
+          "advancement.integrateddynamics.sponge_step_sound.desc",
+          "advancement.integrateddynamics.squeezing",
+          "advancement.integrateddynamics.squeezing.desc",
+          "advancement.integrateddynamics.tool_for_obsidian",
+          "advancement.integrateddynamics.tool_for_obsidian.desc",
+          "advancement.integrateddynamics.value_displaying",
+          "advancement.integrateddynamics.value_displaying.desc",
+          "advancement.integrateddynamics.variable_input",
+          "advancement.integrateddynamics.variable_input.desc",
+          "advancement.integrateddynamics.variable_materialization",
+          "advancement.integrateddynamics.variable_materialization.desc",
+          "advancement.integrateddynamics.variable_output",
+          "advancement.integrateddynamics.variable_output.desc",
+          "advancement.integrateddynamics.variable_proxying",
+          "advancement.integrateddynamics.variable_proxying.desc",
+          "advancement.integrateddynamics.variables",
+          "advancement.integrateddynamics.variables.desc",
+          "advancement.integrateddynamics.what_would_i_be_looking_at",
+          "advancement.integrateddynamics.what_would_i_be_looking_at.desc",
+          "general.integrateddynamics.description",
+          "itemGroup.integrateddynamics"
+        ],
+        "visible_literal_fields": []
+      }
+    },
+    "integratedscripting": {
+      "jar": "integratedscripting-1.21.1-neoforge-1.0.22-373.jar",
+      "size": 38503471,
+      "mtime_ns": 1783222464466645200,
+      "info_book": {
+        "files": [
+          "data/integratedscripting/info/scripting_info.xml",
+          "data/integratedscripting/info/scripting_tutorials.xml"
+        ],
+        "translation_keys": [
+          "info_book.integratedscripting.advanced",
+          "info_book.integratedscripting.advanced.external_editing",
+          "info_book.integratedscripting.advanced.external_editing.text1",
+          "info_book.integratedscripting.advanced.external_editing.text2",
+          "info_book.integratedscripting.advanced.external_editing.text3",
+          "info_book.integratedscripting.advanced.external_editing.text4",
+          "info_book.integratedscripting.advanced.logging",
+          "info_book.integratedscripting.advanced.logging.text1",
+          "info_book.integratedscripting.advanced.logging.text2",
+          "info_book.integratedscripting.advanced.logging.text3",
+          "info_book.integratedscripting.advanced.logging.text4",
+          "info_book.integratedscripting.advanced.logging.text5",
+          "info_book.integratedscripting.advanced.logging.text6",
+          "info_book.integratedscripting.advanced.transient_storage",
+          "info_book.integratedscripting.advanced.transient_storage.text1",
+          "info_book.integratedscripting.advanced.transient_storage.text2",
+          "info_book.integratedscripting.advanced.transient_storage.text3",
+          "info_book.integratedscripting.advanced.transient_storage.text4",
+          "info_book.integratedscripting.advanced.transient_storage.text5",
+          "info_book.integratedscripting.advanced.transient_storage.text6",
+          "info_book.integratedscripting.advanced.typescript",
+          "info_book.integratedscripting.advanced.typescript.text1",
+          "info_book.integratedscripting.advanced.typescript.text2",
+          "info_book.integratedscripting.advanced.typescript.text3",
+          "info_book.integratedscripting.advanced.typescript.text4",
+          "info_book.integratedscripting.concepts",
+          "info_book.integratedscripting.concepts.text1",
+          "info_book.integratedscripting.concepts.text2",
+          "info_book.integratedscripting.concepts.text3",
+          "info_book.integratedscripting.concepts.text4",
+          "info_book.integratedscripting.concepts.text5",
+          "info_book.integratedscripting.disk",
+          "info_book.integratedscripting.disk.text1",
+          "info_book.integratedscripting.disk.text2",
+          "info_book.integratedscripting.disk.text3",
+          "info_book.integratedscripting.disk.text4",
+          "info_book.integratedscripting.drive",
+          "info_book.integratedscripting.drive.text1",
+          "info_book.integratedscripting.drive.text2",
+          "info_book.integratedscripting.introduction",
+          "info_book.integratedscripting.introduction.text1",
+          "info_book.integratedscripting.introduction.text2",
+          "info_book.integratedscripting.introduction.text3",
+          "info_book.integratedscripting.materials",
+          "info_book.integratedscripting.materials.text1",
+          "info_book.integratedscripting.section.main",
+          "info_book.integratedscripting.section.tutorials",
+          "info_book.integratedscripting.terminal",
+          "info_book.integratedscripting.terminal.text1",
+          "info_book.integratedscripting.terminal.text10",
+          "info_book.integratedscripting.terminal.text11",
+          "info_book.integratedscripting.terminal.text12",
+          "info_book.integratedscripting.terminal.text2",
+          "info_book.integratedscripting.terminal.text3",
+          "info_book.integratedscripting.terminal.text4",
+          "info_book.integratedscripting.terminal.text5",
+          "info_book.integratedscripting.terminal.text6",
+          "info_book.integratedscripting.terminal.text7",
+          "info_book.integratedscripting.terminal.text8",
+          "info_book.integratedscripting.terminal.text9",
+          "info_book.integratedscripting.tutorials.basics",
+          "info_book.integratedscripting.tutorials.basics.text1",
+          "info_book.integratedscripting.tutorials.basics.text2",
+          "info_book.integratedscripting.tutorials.functions",
+          "info_book.integratedscripting.tutorials.functions.text1",
+          "info_book.integratedscripting.tutorials.functions.text2",
+          "info_book.integratedscripting.tutorials.functions.text3",
+          "info_book.integratedscripting.tutorials.functions.text4",
+          "info_book.integratedscripting.tutorials.functions.text5",
+          "info_book.integratedscripting.tutorials.functions.text6",
+          "info_book.integratedscripting.tutorials.functions.text7",
+          "info_book.integratedscripting.tutorials.introduction",
+          "info_book.integratedscripting.tutorials.introduction.text1",
+          "info_book.integratedscripting.tutorials.terminal",
+          "info_book.integratedscripting.tutorials.terminal.text1",
+          "info_book.integratedscripting.tutorials.terminal.text2",
+          "info_book.integratedscripting.tutorials.terminal.text3",
+          "info_book.integratedscripting.tutorials.terminal.text4",
+          "info_book.integratedscripting.tutorials.terminal.text5",
+          "info_book.integratedscripting.tutorials.terminal.text6",
+          "info_book.integratedscripting.writing",
+          "info_book.integratedscripting.writing.functions",
+          "info_book.integratedscripting.writing.functions.text1",
+          "info_book.integratedscripting.writing.functions.text2",
+          "info_book.integratedscripting.writing.functions.text3",
+          "info_book.integratedscripting.writing.functions.text4",
+          "info_book.integratedscripting.writing.functions.text5",
+          "info_book.integratedscripting.writing.functions.text6",
+          "info_book.integratedscripting.writing.globals",
+          "info_book.integratedscripting.writing.globals.text1",
+          "info_book.integratedscripting.writing.globals.text2",
+          "info_book.integratedscripting.writing.globals.text3",
+          "info_book.integratedscripting.writing.globals.text4",
+          "info_book.integratedscripting.writing.js",
+          "info_book.integratedscripting.writing.js.text1",
+          "info_book.integratedscripting.writing.methods",
+          "info_book.integratedscripting.writing.methods.text1",
+          "info_book.integratedscripting.writing.methods.text2",
+          "info_book.integratedscripting.writing.methods.text3",
+          "info_book.integratedscripting.writing.methods.text4",
+          "info_book.integratedscripting.writing.methods.text5",
+          "info_book.integratedscripting.writing.variables",
+          "info_book.integratedscripting.writing.variables.text1",
+          "info_book.integratedscripting.writing.variables.text2",
+          "info_book.integratedscripting.writing.variables.text3",
+          "info_book.integratedscripting.writing.variables.text4",
+          "info_book.integratedscripting.writing.variables.text5"
+        ],
+        "resource_references": [
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "integratedscripting:mendesite"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "integratedscripting:drying_basin/mendesite"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "integratedscripting:mechanical_drying_basin/mendesite"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "integratedscripting:textures/gui/infobook/scriptingnetwork.png"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "integratedscripting:scripting_disk"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "integratedscripting:crafting/scripting_disk"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "integratedscripting:scripting_drive"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "integratedscripting:crafting/scripting_drive"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "integratedscripting:part_terminal_scripting"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "integratedscripting:crafting/part_terminal_scripting"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integratedscripting:drying_basin/mendesite"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integratedscripting:crafting/scripting_disk"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integratedscripting:crafting/scripting_drive"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integratedscripting:mendesite"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integratedscripting:scripting_disk"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integratedscripting:scripting_drive"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integratedscripting:crafting/part_terminal_scripting"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integratedscripting:part_terminal_scripting"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integrateddynamics:operator_filter"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integrateddynamics:read_list_inventory_itemstacks"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integratedscripting:scripting_disk"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "integrateddynamics:variable"
+          }
+        ],
+        "code_examples": [
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "const myBoolean = true;\n\nlet myInt = 123 + 456;\n\nlet myString = \"\";\nfor (let i = 0; i &lt; 50; i++) {\n  myString =+ \".\";\n}\n\nconst myList = [ 1, 1, 2, 3, 5 ];"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "value % 2 !== 0;"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "function fibonacci(limit) {\n  const values = [];\n  let n1 = 0;\n  let n2 = 1;\n  let nextTerm = 0;\n  for (let i = 1; i &lt;= number; i++) {\n    values.push(n1);\n    nextTerm = n1 + n2;\n    n1 = n2;\n    n2 = nextTerm;\n  }\n  return values;\n}"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "= 16;\n}"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "= 16;\n}"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "= 16;\n}"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "10;\n}"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "function filterItemMethods3(item) {\n  return item.nbt().Damage === 0;\n}"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "let state = 0;\nfunction getAndIncr(value) {\n  return state += value;\n}"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "let sum = 0;\nlet amount = 0;\nfunction getRunningAvg(value) {\n  amount++;\n  sum += value;\n  return sum / amount;\n}"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_info.xml",
+            "text": "function myComplexFunc(value) {\n  console.log('Hello world!');\n  console.log(`I received value ${value}`);\n  return value + 42;\n}"
+          },
+          {
+            "entry": "data/integratedscripting/info/scripting_tutorials.xml",
+            "text": "= 16;\n}"
+          }
+        ],
+        "visible_literals": []
+      },
+      "advancements": {
+        "files": 8,
+        "display_fields": 16,
+        "translated_fields": 16,
+        "translation_keys": [
+          "advancement.integratedscripting.filter_chest",
+          "advancement.integratedscripting.filter_chest.desc",
+          "advancement.integratedscripting.mendesite",
+          "advancement.integratedscripting.mendesite.desc",
+          "advancement.integratedscripting.scripting_disk",
+          "advancement.integratedscripting.scripting_disk.desc",
+          "advancement.integratedscripting.scripting_drive",
+          "advancement.integratedscripting.scripting_drive.desc",
+          "advancement.integratedscripting.terminal_bind",
+          "advancement.integratedscripting.terminal_bind.desc",
+          "advancement.integratedscripting.terminal_display",
+          "advancement.integratedscripting.terminal_display.desc",
+          "advancement.integratedscripting.terminal_open",
+          "advancement.integratedscripting.terminal_open.desc",
+          "general.integratedscripting.description",
+          "itemGroup.integratedscripting"
+        ],
+        "visible_literal_fields": []
+      }
+    },
+    "integratedterminals": {
+      "jar": "integratedterminals-1.21.1-neoforge-1.7.0.jar",
+      "size": 662599,
+      "mtime_ns": 1783222283302763800,
+      "info_book": {
+        "files": [
+          "data/integratedterminals/info/terminals_info.xml",
+          "data/integratedterminals/info/terminals_tutorials.xml"
+        ],
+        "translation_keys": [
+          "info_book.integratedterminals.crafting_job_terminal",
+          "info_book.integratedterminals.crafting_job_terminal.text1",
+          "info_book.integratedterminals.crafting_job_terminal.text2",
+          "info_book.integratedterminals.crafting_job_terminal.text3",
+          "info_book.integratedterminals.crafting_job_terminal.text4",
+          "info_book.integratedterminals.introduction",
+          "info_book.integratedterminals.introduction.text1",
+          "info_book.integratedterminals.introduction.text2",
+          "info_book.integratedterminals.section.main",
+          "info_book.integratedterminals.section.tutorials",
+          "info_book.integratedterminals.storage_terminal",
+          "info_book.integratedterminals.storage_terminal.autocrafting",
+          "info_book.integratedterminals.storage_terminal.autocrafting.text1",
+          "info_book.integratedterminals.storage_terminal.autocrafting.text2",
+          "info_book.integratedterminals.storage_terminal.autocrafting.text3",
+          "info_book.integratedterminals.storage_terminal.autocrafting.text4",
+          "info_book.integratedterminals.storage_terminal.crafting",
+          "info_book.integratedterminals.storage_terminal.crafting.text1",
+          "info_book.integratedterminals.storage_terminal.crafting.text2",
+          "info_book.integratedterminals.storage_terminal.introduction",
+          "info_book.integratedterminals.storage_terminal.introduction.text1",
+          "info_book.integratedterminals.storage_terminal.introduction.text2",
+          "info_book.integratedterminals.storage_terminal.portable",
+          "info_book.integratedterminals.storage_terminal.portable.text1",
+          "info_book.integratedterminals.storage_terminal.portable.text2",
+          "info_book.integratedterminals.storage_terminal.portable.text3",
+          "info_book.integratedterminals.storage_terminal.power_usage",
+          "info_book.integratedterminals.storage_terminal.power_usage.text1",
+          "info_book.integratedterminals.storage_terminal.power_usage.text2",
+          "info_book.integratedterminals.storage_terminal.power_usage.text3",
+          "info_book.integratedterminals.storage_terminal.usage",
+          "info_book.integratedterminals.storage_terminal.usage.text1",
+          "info_book.integratedterminals.storage_terminal.usage.text10",
+          "info_book.integratedterminals.storage_terminal.usage.text2",
+          "info_book.integratedterminals.storage_terminal.usage.text3",
+          "info_book.integratedterminals.storage_terminal.usage.text4",
+          "info_book.integratedterminals.storage_terminal.usage.text5",
+          "info_book.integratedterminals.storage_terminal.usage.text6",
+          "info_book.integratedterminals.storage_terminal.usage.text7",
+          "info_book.integratedterminals.storage_terminal.usage.text8",
+          "info_book.integratedterminals.storage_terminal.usage.text9",
+          "info_book.integratedterminals.tutorials.introduction",
+          "info_book.integratedterminals.tutorials.introduction.text1",
+          "info_book.integratedterminals.tutorials.storage_terminal",
+          "info_book.integratedterminals.tutorials.storage_terminal.text1",
+          "info_book.integratedterminals.tutorials.storage_terminal.text2",
+          "info_book.integratedterminals.tutorials.storage_terminal_filtering",
+          "info_book.integratedterminals.tutorials.storage_terminal_filtering.text1",
+          "info_book.integratedterminals.tutorials.storage_terminal_filtering.text2",
+          "info_book.integratedterminals.tutorials.storage_terminal_filtering.text3"
+        ],
+        "resource_references": [
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "integratedterminals:menril_glass"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "integratedterminals:chorus_glass"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "integratedterminals:part_terminal_storage"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "integratedterminals:drying_basin/menril_glass"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "integratedterminals:drying_basin/chorus_glass"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "integratedterminals:crafting/part_terminal_storage"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "key.integrateddynamics.logic_programmer_focus_search"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "key.integratedterminals.terminal.tab.next"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "key.integratedterminals.terminal.tab.previous"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "key.integratedterminals.terminal.craftinggrid.clearplayer"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "key.integratedterminals.terminal.craftinggrid.clearstorage"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "key.integratedterminals.terminal.craftinggrid.balance"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "integratedterminals:crafting/terminal_storage_portable"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "key.integratedterminals.terminal.portable.open"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "integratedterminals:part_terminal_crafting_job"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_info.xml",
+            "text": "integratedterminals:crafting/part_terminal_crafting_job"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_tutorials.xml",
+            "text": "integratedterminals:drying_basin/menril_glass"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_tutorials.xml",
+            "text": "integratedterminals:crafting/part_terminal_storage"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_tutorials.xml",
+            "text": "integratedterminals:menril_glass"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_tutorials.xml",
+            "text": "integratedterminals:part_terminal_storage"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_tutorials.xml",
+            "text": "key.integrateddynamics.logic_programmer_focus_search"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_tutorials.xml",
+            "text": "integrateddynamics:variable"
+          },
+          {
+            "entry": "data/integratedterminals/info/terminals_tutorials.xml",
+            "text": "integratedterminals:part_terminal_storage"
+          }
+        ],
+        "code_examples": [],
+        "visible_literals": []
+      },
+      "advancements": {
+        "files": 5,
+        "display_fields": 10,
+        "translated_fields": 10,
+        "translation_keys": [
+          "advancement.integratedterminals.craft_storage_terminal",
+          "advancement.integratedterminals.craft_storage_terminal.desc",
+          "advancement.integratedterminals.filter_enchantable",
+          "advancement.integratedterminals.filter_enchantable.desc",
+          "advancement.integratedterminals.gui_storage_terminal",
+          "advancement.integratedterminals.gui_storage_terminal.desc",
+          "advancement.integratedterminals.menril_glass",
+          "advancement.integratedterminals.menril_glass.desc",
+          "general.integratedterminals.description",
+          "itemGroup.integratedterminals"
+        ],
+        "visible_literal_fields": []
+      }
+    },
+    "integratedtunnels": {
+      "jar": "integratedtunnels-1.21.1-neoforge-1.9.4-632.jar",
+      "size": 683379,
+      "mtime_ns": 1783222368023245300,
+      "info_book": {
+        "files": [
+          "data/integratedtunnels/info/tunnels_info.xml",
+          "data/integratedtunnels/info/tunnels_tutorials.xml"
+        ],
+        "translation_keys": [
+          "info_book.integratedtunnels.concepts",
+          "info_book.integratedtunnels.concepts.text1",
+          "info_book.integratedtunnels.concepts.text2",
+          "info_book.integratedtunnels.concepts.text3",
+          "info_book.integratedtunnels.concepts.text4",
+          "info_book.integratedtunnels.concepts.text5",
+          "info_book.integratedtunnels.concepts.text6",
+          "info_book.integratedtunnels.concepts.text7",
+          "info_book.integratedtunnels.concepts.text8",
+          "info_book.integratedtunnels.energy",
+          "info_book.integratedtunnels.energy.text1",
+          "info_book.integratedtunnels.fluid",
+          "info_book.integratedtunnels.fluid.text1",
+          "info_book.integratedtunnels.introduction",
+          "info_book.integratedtunnels.introduction.text1",
+          "info_book.integratedtunnels.introduction.text2",
+          "info_book.integratedtunnels.item",
+          "info_book.integratedtunnels.item.text1",
+          "info_book.integratedtunnels.player",
+          "info_book.integratedtunnels.player.text1",
+          "info_book.integratedtunnels.section.main",
+          "info_book.integratedtunnels.section.tutorials",
+          "info_book.integratedtunnels.tutorials.break_stone",
+          "info_book.integratedtunnels.tutorials.break_stone.text1",
+          "info_book.integratedtunnels.tutorials.click_sword",
+          "info_book.integratedtunnels.tutorials.click_sword.text1",
+          "info_book.integratedtunnels.tutorials.drop_all_items",
+          "info_book.integratedtunnels.tutorials.drop_all_items.text1",
+          "info_book.integratedtunnels.tutorials.export_enchantable_items",
+          "info_book.integratedtunnels.tutorials.export_enchantable_items.text1",
+          "info_book.integratedtunnels.tutorials.export_items_limit",
+          "info_book.integratedtunnels.tutorials.export_items_limit.text1",
+          "info_book.integratedtunnels.tutorials.filter_storage_day",
+          "info_book.integratedtunnels.tutorials.filter_storage_day.text1",
+          "info_book.integratedtunnels.tutorials.filter_storage_mod",
+          "info_book.integratedtunnels.tutorials.filter_storage_mod.text1",
+          "info_book.integratedtunnels.tutorials.filter_storage_mod.text2",
+          "info_book.integratedtunnels.tutorials.filter_storage_mod.text3",
+          "info_book.integratedtunnels.tutorials.filter_storage_mod.text4",
+          "info_book.integratedtunnels.tutorials.import_all_items",
+          "info_book.integratedtunnels.tutorials.import_all_items.text1",
+          "info_book.integratedtunnels.tutorials.import_items_list",
+          "info_book.integratedtunnels.tutorials.import_items_list.text1",
+          "info_book.integratedtunnels.tutorials.importer_exporter",
+          "info_book.integratedtunnels.tutorials.importer_exporter.text1",
+          "info_book.integratedtunnels.tutorials.interfaces",
+          "info_book.integratedtunnels.tutorials.interfaces.text1",
+          "info_book.integratedtunnels.tutorials.introduction",
+          "info_book.integratedtunnels.tutorials.introduction.text1",
+          "info_book.integratedtunnels.tutorials.pickup_items_limit",
+          "info_book.integratedtunnels.tutorials.pickup_items_limit.text1",
+          "info_book.integratedtunnels.tutorials.place_logwood",
+          "info_book.integratedtunnels.tutorials.place_logwood.text1",
+          "info_book.integratedtunnels.tutorials.world_block_importer_exporter",
+          "info_book.integratedtunnels.tutorials.world_block_importer_exporter.text1",
+          "info_book.integratedtunnels.tutorials.world_item_importer_exporter",
+          "info_book.integratedtunnels.tutorials.world_item_importer_exporter.text1",
+          "info_book.integratedtunnels.world",
+          "info_book.integratedtunnels.world.block",
+          "info_book.integratedtunnels.world.block.text1",
+          "info_book.integratedtunnels.world.energy",
+          "info_book.integratedtunnels.world.energy.text1",
+          "info_book.integratedtunnels.world.fluid",
+          "info_book.integratedtunnels.world.fluid.text1",
+          "info_book.integratedtunnels.world.item",
+          "info_book.integratedtunnels.world.item.text1"
+        ],
+        "resource_references": [
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:textures/gui/infobook/importer.png"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:textures/gui/infobook/exporter.png"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:textures/gui/infobook/importerexporter.png"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:textures/gui/infobook/complexnetwork.png"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:textures/gui/infobook/allparts.png"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_interface_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_exporter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_importer_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_interface_filter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_interface_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_exporter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:exporter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_importer_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:importer_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_interface_filter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:interface_filter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_interface_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_exporter_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_importer_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_interface_filter_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_interface_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_exporter_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:exporter_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_importer_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:importer_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_interface_filter_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:interface_filter_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_interface_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_exporter_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_importer_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_interface_filter_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_interface_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_exporter_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:exporter_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_importer_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:importer_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_interface_filter_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:interface_filter_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_exporter_world_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_importer_world_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_exporter_world_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:exporter_world_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_importer_world_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:importer_world_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_exporter_world_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_importer_world_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_exporter_world_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:exporter_world_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_importer_world_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:importer_world_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_exporter_world_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_importer_world_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_exporter_world_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:exporter_world_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_importer_world_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:importer_world_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_exporter_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_importer_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_exporter_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:exporter_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_importer_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:importer_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:part_player_simulator"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:crafting/part_player_simulator"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_info.xml",
+            "text": "integratedtunnels:player_simulator"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:crafting/part_interface_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:crafting/part_interface_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:crafting/part_interface_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:crafting/part_exporter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:crafting/part_importer_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_exporter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_importer_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_boolean_item_import"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:crafting/part_inventory_reader"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:read_integer_inventory_count"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:relational_lt"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_boolean_item_export"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:crafting/part_inventory_reader"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:read_list_inventory_itemstacks"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_list_item_import"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_exporter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:itemstack_enchantable"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_operator_item_export"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:read_boolean_world_isday"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_boolean_item_filter"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_filter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_filter_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_filter_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:itemstack_mod"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:relational_equals"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:operator_apply"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:operator_pipe"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_operator_item_filter"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_filter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_filter_fluid"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_interface_filter_energy"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:crafting/part_exporter_world_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:crafting/part_importer_world_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_exporter_world_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_importer_world_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_boolean_world_entityitem_export"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_exporter_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_integer_world_entityitem_import"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_importer_item"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:crafting/part_exporter_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:crafting/part_importer_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_exporter_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_importer_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_block_world_block_block_import"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_importer_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integrateddynamics:string_tag"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_list_world_item_block_export"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_exporter_world_block"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:crafting/part_player_simulator"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:write_itemstack_player_click"
+          },
+          {
+            "entry": "data/integratedtunnels/info/tunnels_tutorials.xml",
+            "text": "integratedtunnels:part_player_simulator"
+          }
+        ],
+        "code_examples": [],
+        "visible_literals": []
+      },
+      "advancements": {
+        "files": 22,
+        "display_fields": 44,
+        "translated_fields": 44,
+        "translation_keys": [
+          "advancement.integratedtunnels.break_stone",
+          "advancement.integratedtunnels.break_stone.desc",
+          "advancement.integratedtunnels.click_sword",
+          "advancement.integratedtunnels.click_sword.desc",
+          "advancement.integratedtunnels.drop_all_items",
+          "advancement.integratedtunnels.drop_all_items.desc",
+          "advancement.integratedtunnels.export_enchantable_items",
+          "advancement.integratedtunnels.export_enchantable_items.desc",
+          "advancement.integratedtunnels.export_items_limit",
+          "advancement.integratedtunnels.export_items_limit.desc",
+          "advancement.integratedtunnels.exporter_item",
+          "advancement.integratedtunnels.exporter_item.desc",
+          "advancement.integratedtunnels.exporter_world_block",
+          "advancement.integratedtunnels.exporter_world_block.desc",
+          "advancement.integratedtunnels.exporter_world_item",
+          "advancement.integratedtunnels.exporter_world_item.desc",
+          "advancement.integratedtunnels.filter_storage_day",
+          "advancement.integratedtunnels.filter_storage_day.desc",
+          "advancement.integratedtunnels.filter_storage_mod",
+          "advancement.integratedtunnels.filter_storage_mod.desc",
+          "advancement.integratedtunnels.import_all_items",
+          "advancement.integratedtunnels.import_all_items.desc",
+          "advancement.integratedtunnels.import_items_list",
+          "advancement.integratedtunnels.import_items_list.desc",
+          "advancement.integratedtunnels.importer_item",
+          "advancement.integratedtunnels.importer_item.desc",
+          "advancement.integratedtunnels.importer_world_block",
+          "advancement.integratedtunnels.importer_world_block.desc",
+          "advancement.integratedtunnels.importer_world_item",
+          "advancement.integratedtunnels.importer_world_item.desc",
+          "advancement.integratedtunnels.interface_energy",
+          "advancement.integratedtunnels.interface_energy.desc",
+          "advancement.integratedtunnels.interface_fluid",
+          "advancement.integratedtunnels.interface_fluid.desc",
+          "advancement.integratedtunnels.interface_item",
+          "advancement.integratedtunnels.interface_item.desc",
+          "advancement.integratedtunnels.pickup_items_limit",
+          "advancement.integratedtunnels.pickup_items_limit.desc",
+          "advancement.integratedtunnels.place_logwood",
+          "advancement.integratedtunnels.place_logwood.desc",
+          "advancement.integratedtunnels.player_simulator",
+          "advancement.integratedtunnels.player_simulator.desc",
+          "general.integratedtunnels.description",
+          "itemGroup.integratedtunnels"
+        ],
+        "visible_literal_fields": []
+      }
+    }
+  },
+  "namespaces": {
+    "integratedcrafting": {
+      "provider": "integratedcrafting-1.21.1-neoforge-1.4.6.jar",
+      "english_keys": 110,
+      "bundled_korean_keys": 87,
+      "missing_bundled_keys": 23,
+      "extra_bundled_keys": []
+    },
+    "integrateddynamics": {
+      "provider": "integrateddynamics-1.21.1-neoforge-1.33.3.jar",
+      "english_keys": 1776,
+      "bundled_korean_keys": 1486,
+      "missing_bundled_keys": 290,
+      "extra_bundled_keys": []
+    },
+    "integrateddynamicscompat": {
+      "provider": "integrateddynamics-1.21.1-neoforge-1.33.3.jar",
+      "english_keys": 213,
+      "bundled_korean_keys": 0,
+      "missing_bundled_keys": 213,
+      "extra_bundled_keys": []
+    },
+    "integratedscripting": {
+      "provider": "integratedscripting-1.21.1-neoforge-1.0.22-373.jar",
+      "english_keys": 167,
+      "bundled_korean_keys": 0,
+      "missing_bundled_keys": 167,
+      "extra_bundled_keys": []
+    },
+    "integratedterminals": {
+      "provider": "integratedterminals-1.21.1-neoforge-1.7.0.jar",
+      "english_keys": 176,
+      "bundled_korean_keys": 164,
+      "missing_bundled_keys": 12,
+      "extra_bundled_keys": []
+    },
+    "integratedterminalscompat": {
+      "provider": "integratedterminals-1.21.1-neoforge-1.7.0.jar",
+      "english_keys": 19,
+      "bundled_korean_keys": 0,
+      "missing_bundled_keys": 19,
+      "extra_bundled_keys": []
+    },
+    "integratedtunnels": {
+      "provider": "integratedtunnels-1.21.1-neoforge-1.9.4-632.jar",
+      "english_keys": 487,
+      "bundled_korean_keys": 429,
+      "missing_bundled_keys": 58,
+      "extra_bundled_keys": []
+    }
+  },
+  "totals": {
+    "english_keys": 2948,
+    "bundled_korean_keys": 2166,
+    "missing_bundled_keys": 782
+  },
+  "ftbquests_references": [
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/chapters/achapter_2r_6the_atm_star.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/chapters/basic_logistics.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/chapters/basic_power.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/chapters/forbidden__arcanus.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/chapters/integrated_dynamics.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/chapters/productive_bees.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/chapters/storage.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/en_us.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/es_es.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/id_id.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/it_it.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/ja_jp.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/ko_kr.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/nb_no.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/pl_pl.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/pt_br.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/ru_ru.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/tr_tr.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/uk_ua.snbt",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/zh_cn.snbt"
+  ],
+  "kubejs_references": [
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/kubejs/server_scripts/modpack/atm_star_creative.js",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/kubejs/server_scripts/mods/Integrated Dynamics/Basin.js",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/kubejs/server_scripts/mods/Integrated Dynamics/Squeezer.js",
+    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/kubejs/server_scripts/Unification/sawing.js"
+  ],
+  "status": "prepared"
+}

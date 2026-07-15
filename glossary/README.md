@@ -34,6 +34,20 @@
 |---|---|---|---|---|---|
 | Upgrade | 업그레이드 | 기술 용어 | 전체 모드 공통 | 확정 | `기능`, `강화`, `개선 장치` 등으로 바꾸지 않음 |
 | Advanced | 고급 | 기술 용어 | 아이템이나 업그레이드의 등급을 뜻할 때 | 확정 | 등급이 아닌 문맥은 별도 검토 |
+| Variable | 변수 | 기술 용어 | Integrated Dynamics 계열의 논리·프로그래밍 문맥 | 확정 | `가변`, `변량`으로 바꾸지 않음 |
+| Variable Card | 변수 카드 | 아이템·블록명 | Integrated Dynamics 계열과 직접 연동 콘텐츠 | 확정 | `가변 카드`로 바꾸지 않음 |
+| Operator | 연산자 | 기술 용어 | Integrated Dynamics 계열의 논리·프로그래밍 문맥 | 확정 |  |
+| Aspect | 애스펙트 | 기술 용어 | Integrated Dynamics 계열의 판독·작성 기능 | 확정 | Thaumcraft 마법 속성 문맥에서는 `위상` 사용 |
+| Value Type | 자료형 | 기술 용어 | Integrated Dynamics 계열의 논리·프로그래밍 문맥 | 확정 | `값 유형`으로 바꾸지 않음 |
+| Boolean | 불리언 | 기술 용어 | 논리·프로그래밍 자료형 | 확정 |  |
+| Integer | 정수 | 기술 용어 | 논리·프로그래밍 자료형 | 확정 |  |
+| Double | 실수 | 기술 용어 | 논리·프로그래밍 자료형 | 확정 |  |
+| Long | 긴 정수 | 기술 용어 | Integrated Dynamics 계열의 자료형 | 확정 |  |
+| String | 문자열 | 기술 용어 | 논리·프로그래밍 자료형 | 확정 |  |
+| Reader | 판독기 | 기술 용어 | Integrated Dynamics 계열의 부품 | 확정 | `리더`, `작성기`로 바꾸지 않음 |
+| Writer | 작성기 | 기술 용어 | Integrated Dynamics 계열의 부품 | 확정 |  |
+| Importer | 입력기 | 기술 용어 | Integrated Dynamics·Integrated Tunnels 계열 | 확정 | `임포터`, `수입기`, `투입기`로 바꾸지 않음 |
+| Exporter | 출력기 | 기술 용어 | Integrated Dynamics·Integrated Tunnels 계열 | 확정 | `익스포터`, `수출기`로 바꾸지 않음 |
 | Bud | 봉오리 | 기술 용어 | AE2 계열의 수정 성장 단계 | 확정 | `싹`으로 바꾸지 않음 |
 | Budding | 싹 틔우는 | 기술 용어 | AE2 계열의 블록 이름 | 확정 | 마인크래프트와 AE2 본체 표기를 따름 |
 | Pickup | 줍기 | 기술 용어 | `Pickup Upgrade` 계열 | 확정 | 다른 문맥에서는 적용 범위를 별도 결정 |

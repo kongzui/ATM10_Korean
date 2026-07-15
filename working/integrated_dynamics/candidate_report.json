@@ -1,0 +1,11 @@
+{
+  "family": "Integrated Dynamics family",
+  "candidate_counts": {
+    "automatic_translation_candidate": 774,
+    "bundled_korean_structure_fallback": 6,
+    "bundled_korean_unreviewed": 2160,
+    "project_translation_candidate": 8
+  },
+  "automatic_cache_entries": 725,
+  "status": "candidates_ready"
+}

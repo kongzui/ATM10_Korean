@@ -1,0 +1,456 @@
+{
+  "family": "Integrated Dynamics family",
+  "sections": {
+    "language": {
+      "keys_checked": 2948,
+      "namespace_files": 7,
+      "unexpected_exact_originals": 0,
+      "reviewed_translation_collision_groups": 32,
+      "collision_groups": [
+        {
+          "namespace": "integrateddynamics",
+          "translated": "추가",
+          "keys": [
+            "gui.integrateddynamics.button.add",
+            "operator.integrateddynamics.list.append"
+          ],
+          "sources": [
+            "Add",
+            "Append"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "최대 오프셋:%s",
+          "keys": [
+            "gui.integrateddynamics.partoffset.offsets.max",
+            "parttype.integrateddynamics.tooltip.maxoffset"
+          ],
+          "sources": [
+            "Max Offset: %s",
+            "Maximum offset: %s"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "네트워크 진단",
+          "keys": [
+            "gui.integrateddynamics.diagnostics.title",
+            "info_book.integrateddynamics.manual.diagnostics"
+          ],
+          "sources": [
+            "Integrated Dynamics - Network Diagnostics",
+            "Network Diagnostics"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "부품",
+          "keys": [
+            "gui.integrateddynamics.diagnostics.parts",
+            "gui.integrateddynamics.diagnostics.table.part",
+            "info_book.integrateddynamics.manual.parts"
+          ],
+          "sources": [
+            "Part",
+            "Parts"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "네트워크",
+          "keys": [
+            "gui.integrateddynamics.diagnostics.table.network",
+            "info_book.integrateddynamics.manual.networks",
+            "info_book.integrateddynamics.manual.parts.reader.network"
+          ],
+          "sources": [
+            "Network",
+            "Networks"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "멘릴 나무",
+          "keys": [
+            "block.integrateddynamics.menril_wood",
+            "info_book.integrateddynamics.manual.prerequisites.menril_trees"
+          ],
+          "sources": [
+            "Menril Trees",
+            "Menril Wood"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "덧셈",
+          "keys": [
+            "advancement.integrateddynamics.arithmetic_addition",
+            "operator.integrateddynamics.arithmetic.addition"
+          ],
+          "sources": [
+            "Addition",
+            "Arithmetic Addition"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "자료형",
+          "keys": [
+            "valuetype.integrateddynamics.value_type",
+            "info_book.integrateddynamics.manual.logic.value_types"
+          ],
+          "sources": [
+            "Value Type",
+            "Value Types"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "id가 %s인 프록시는 자료형이 %s인 변수를 노출하기를 예상했지만 %s 이(가) 발견되었습니다.",
+          "keys": [
+            "proxy.integrateddynamics.error.proxy_invalid_type",
+            "delay.integrateddynamics.error.delay_invalid_type"
+          ],
+          "sources": [
+            "Delay with id %s is expected to expose a variable with type %s while %s is found.",
+            "Proxy with id %s is expected to expose a variable with type %s while %s is found."
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "애스펙트",
+          "keys": [
+            "aspect.integrateddynamics.name",
+            "info_book.integrateddynamics.tutorials.aspects"
+          ],
+          "sources": [
+            "Aspect",
+            "Aspects"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "소리",
+          "keys": [
+            "aspect.integrateddynamics.write.string.audio.sound",
+            "info_book.integrateddynamics.manual.parts.reader.audio",
+            "info_book.integrateddynamics.manual.parts.writer.audio"
+          ],
+          "sources": [
+            "Audio",
+            "Sound"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "특정 속도로 떨어지는 용암 입자를 방출합니다.",
+          "keys": [
+            "aspect.integrateddynamics.write.double.effect.particle.minecraft_dripping_lava.info",
+            "aspect.integrateddynamics.write.double.effect.particle.minecraft_falling_lava.info"
+          ],
+          "sources": [
+            "Emit a dripping lava particle with a certain velocity.",
+            "Emit a falling lava particle with a certain velocity."
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "특정 속도로 떨어지는 물 입자를 방출합니다.",
+          "keys": [
+            "aspect.integrateddynamics.write.double.effect.particle.minecraft_dripping_water.info",
+            "aspect.integrateddynamics.write.double.effect.particle.minecraft_falling_water.info"
+          ],
+          "sources": [
+            "Emit a dripping water particle with a certain velocity.",
+            "Emit a falling water particle with a certain velocity."
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "밝기",
+          "keys": [
+            "aspect.integrateddynamics.read.integer.block.light",
+            "aspect.integrateddynamics.read.integer.world.lightlevel",
+            "operator.integrateddynamics.fluidstack.light_level",
+            "info_book.integrateddynamics.manual.parts.other.light"
+          ],
+          "sources": [
+            "Light",
+            "Light Level",
+            "Light level"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "대상 블록",
+          "keys": [
+            "aspect.integrateddynamics.read.block.block.info",
+            "operator.integrateddynamics.entity.targetblock"
+          ],
+          "sources": [
+            "Target Block",
+            "The target block"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "저장된 FE",
+          "keys": [
+            "aspect.integrateddynamics.read.integer.fe.amount",
+            "operator.integrateddynamics.itemstack.storedfe"
+          ],
+          "sources": [
+            "FE Stored",
+            "Stored FE"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "몹 여부",
+          "keys": [
+            "aspect.integrateddynamics.read.boolean.world.mob",
+            "operator.integrateddynamics.entity.ismob"
+          ],
+          "sources": [
+            "Has Mob",
+            "Is Mob"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "동물 여부",
+          "keys": [
+            "aspect.integrateddynamics.read.boolean.world.animal",
+            "operator.integrateddynamics.entity.isanimal"
+          ],
+          "sources": [
+            "Has Animal",
+            "Is Animal"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "플레이어 여부",
+          "keys": [
+            "aspect.integrateddynamics.read.boolean.world.player",
+            "operator.integrateddynamics.entity.isplayer"
+          ],
+          "sources": [
+            "Has Player",
+            "Is Player"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "아이템 여부",
+          "keys": [
+            "aspect.integrateddynamics.read.boolean.world.item",
+            "operator.integrateddynamics.entity.isitem"
+          ],
+          "sources": [
+            "Has Item",
+            "Is Item"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "논리",
+          "keys": [
+            "operator.integrateddynamics.logical",
+            "info_book.integrateddynamics.manual.logic"
+          ],
+          "sources": [
+            "Logic",
+            "Logical"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "감소",
+          "keys": [
+            "operator.integrateddynamics.arithmetic.decrement",
+            "operator.integrateddynamics.integer.decrement",
+            "operator.integrateddynamics.operator.reduce"
+          ],
+          "sources": [
+            "Decrement",
+            "Reduce"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "분할",
+          "keys": [
+            "operator.integrateddynamics.string.split_on",
+            "operator.integrateddynamics.list.slice"
+          ],
+          "sources": [
+            "Slice",
+            "Split On"
+          ]
+        },
+        {
+          "namespace": "integrateddynamics",
+          "translated": "기계",
+          "keys": [
+            "info_book.integrateddynamics.manual.parts.reader.machine",
+            "info_book.integrateddynamics.manual.parts.writer.machine",
+            "info_book.integrateddynamics.manual.machines"
+          ],
+          "sources": [
+            "Machine",
+            "Machines"
+          ]
+        },
+        {
+          "namespace": "integrateddynamicscompat",
+          "translated": "Thaumcraft 위상",
+          "keys": [
+            "valuetype.valuetypes.integrateddynamics.thaumcraftaspect",
+            "operator.operators.integrateddynamics.itemstack.getitemthaumcraftaspects",
+            "operator.operators.integrateddynamics.thaumcraft.aspect"
+          ],
+          "sources": [
+            "Thaumcraft Aspect",
+            "Thaumcraft Aspects"
+          ]
+        },
+        {
+          "namespace": "integrateddynamicscompat",
+          "translated": "저장된 RF",
+          "keys": [
+            "aspect.integrateddynamics.read.integer.rf.amount",
+            "operator.operators.integrateddynamics.itemstack.storedrf"
+          ],
+          "sources": [
+            "RF Stored",
+            "Stored RF"
+          ]
+        },
+        {
+          "namespace": "integrateddynamicscompat",
+          "translated": "저장된 Tesla",
+          "keys": [
+            "aspect.integrateddynamics.read.long.tesla.amount",
+            "aspect.integrateddynamics.read.string.tesla.amount",
+            "operator.operators.integrateddynamics.itemstack.teslastored"
+          ],
+          "sources": [
+            "Stored Tesla",
+            "Tesla Stored"
+          ]
+        },
+        {
+          "namespace": "integrateddynamicscompat",
+          "translated": "저장된 EU",
+          "keys": [
+            "aspect.integrateddynamics.read.integer.ic2.eu.amount",
+            "operator.operators.integrateddynamics.itemstack.storedic2eu"
+          ],
+          "sources": [
+            "EU Stored",
+            "Stored EU"
+          ]
+        },
+        {
+          "namespace": "integratedterminals",
+          "translated": "제작",
+          "keys": [
+            "gui.integratedterminals.terminal_storage.craft",
+            "gui.integratedterminals.terminal_storage.step.craft",
+            "info_book.integratedterminals.storage_terminal.crafting"
+          ],
+          "sources": [
+            "Craft",
+            "Crafting",
+            "craft"
+          ]
+        },
+        {
+          "namespace": "integratedtunnels",
+          "translated": "모든 아이템 입력",
+          "keys": [
+            "advancement.integratedtunnels.import_all_items",
+            "aspect.integratedtunnels.write.boolean.item.import"
+          ],
+          "sources": [
+            "Import All Items",
+            "Omni Item Importing"
+          ]
+        },
+        {
+          "namespace": "integratedtunnels",
+          "translated": "제한된 아이템 출력",
+          "keys": [
+            "advancement.integratedtunnels.export_items_limit",
+            "info_book.integratedtunnels.tutorials.export_items_limit"
+          ],
+          "sources": [
+            "Export Items with Limit",
+            "Limited Item Exporting"
+          ]
+        },
+        {
+          "namespace": "integratedtunnels",
+          "translated": "모든 아이템 떨어뜨리기",
+          "keys": [
+            "advancement.integratedtunnels.drop_all_items",
+            "info_book.integratedtunnels.tutorials.drop_all_items"
+          ],
+          "sources": [
+            "Drop All Items",
+            "Omni Item Dropping"
+          ]
+        }
+      ]
+    },
+    "guides_and_advancements": {
+      "info_xml_files": 9,
+      "info_translation_keys": 535,
+      "preserved_code_examples": 12,
+      "visible_literals": 0,
+      "advancement_files": 81,
+      "advancement_display_fields": 162,
+      "advancement_literal_fields": 0
+    },
+    "quests": {
+      "main_chapter": "integrated_dynamics.snbt",
+      "quests_checked": 28,
+      "tasks_checked": 29,
+      "display_keys_checked": 74,
+      "main_display_keys": 54,
+      "related_display_keys": 20,
+      "smart_filter_or_checkmark_titles": 9,
+      "direct_item_fallbacks": 20,
+      "related_tasks_outside_chapter": 11,
+      "custom_names": 0,
+      "fallback_paths_checked": [
+        "chapter/group title",
+        "quest title/subtitle/description",
+        "task title",
+        "item hover name",
+        "custom_name/literal component",
+        "first-task quest fallback"
+      ]
+    },
+    "kubejs": {
+      "referenced_files": 4,
+      "files": [
+        "kubejs/server_scripts/modpack/atm_star_creative.js",
+        "kubejs/server_scripts/mods/Integrated Dynamics/Basin.js",
+        "kubejs/server_scripts/mods/Integrated Dynamics/Squeezer.js",
+        "kubejs/server_scripts/Unification/sawing.js"
+      ],
+      "unresolved_display_literals": 0
+    },
+    "deployment": {
+      "status": "applied_and_verified",
+      "targets": 1,
+      "expected_files_per_target": 8,
+      "hash_matches": 8
+    }
+  },
+  "errors": [],
+  "status": "complete"
+}

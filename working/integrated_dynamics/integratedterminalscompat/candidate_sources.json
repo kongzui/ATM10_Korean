@@ -1,0 +1,21 @@
+{
+  "_comment": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync.info": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync.info": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.reisync": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.reisync.info": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craftable": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craftable_partial": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.missing": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craft.info": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craft.info_cmd": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.error.title": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.started_only": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.failed_only": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.mixed": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.started_only": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.failed_only": "automatic_translation_candidate",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.mixed": "automatic_translation_candidate"
+}
