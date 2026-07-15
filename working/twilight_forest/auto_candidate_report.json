@@ -1,0 +1,19 @@
+{
+  "scope": "The Twilight Forest 신규 언어 키 번역 후보",
+  "candidate_counts": {
+    "automatic_translation_candidate": 235,
+    "family_memory_candidate": 1,
+    "reviewed_original_candidate": 12
+  },
+  "protected_patterns": [
+    "numbers",
+    "placeholders",
+    "URLs",
+    "format codes",
+    "keybind references",
+    "line breaks"
+  ],
+  "current_output_self_reuse_excluded": true,
+  "translation_memory_conflicts_excluded": 2,
+  "review_status": "pending_manual_review"
+}

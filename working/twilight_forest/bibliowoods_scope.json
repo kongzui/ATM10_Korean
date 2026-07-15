@@ -1,0 +1,9 @@
+{
+  "label": "Bibliowoods Legacy - Twilight Forest integration",
+  "jar": "bibliowoods-1.21.1-1.6.2.jar",
+  "all_english_keys": 10833,
+  "twilight_forest_keys": 1256,
+  "other_mod_keys_excluded": 9577,
+  "generated_reviewed_translations": 1256,
+  "output": "output/resourcepack/ATM10_Korean/assets/bibliowoods/lang/ko_kr.json"
+}

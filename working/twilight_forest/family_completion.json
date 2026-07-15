@@ -1,0 +1,80 @@
+{
+  "family": "The Twilight Forest",
+  "language_provenance": {
+    "bundled_exact_reuse": 1749,
+    "legacy_exact_reuse": 59,
+    "new_or_edited": 253
+  },
+  "ftbquests": {
+    "chapters": [
+      "twilight_forest.snbt"
+    ],
+    "quests_checked": 56,
+    "tasks_checked": 100,
+    "display_keys_checked": 155,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 5,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "direct_integration": {
+    "Bibliowoods": {
+      "jar": "bibliowoods-1.21.1-1.6.2.jar",
+      "all_english_keys": 10833,
+      "twilight_forest_keys": 1256,
+      "other_mod_keys_excluded": 9577,
+      "translated_keys": 1256,
+      "untranslated": 0,
+      "formatting_errors": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true
+    }
+  },
+  "guide_and_lore": {
+    "system": "언어 파일 기반 탐험 수첩",
+    "external_guide_files": 0,
+    "language_keys_checked": 41,
+    "missing_translation_keys": 0,
+    "untranslated_keys": 0
+  },
+  "advancements": {
+    "files_checked": 530,
+    "display_fields": 90,
+    "empty_literal_fields": 1,
+    "visible_literal_fields": 0,
+    "missing_translation_keys": 0
+  },
+  "kubejs": {
+    "files_referencing_family": 6,
+    "referenced_paths": [
+      "kubejs/client_scripts/RecipeViewer.js",
+      "kubejs/server_scripts/modpack/att_items.js",
+      "kubejs/server_scripts/mods/Minecolonies/tags.js",
+      "kubejs/server_scripts/mods/SushiGoCrafting/tags.js",
+      "kubejs/server_scripts/Tweaks/tags.js",
+      "kubejs/server_scripts/Unification/tools.js"
+    ],
+    "direct_display_candidates": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp/backups/20260715_125056_261286/backup_manifest.json",
+    "files_checked": 3,
+    "hash_matches": 3,
+    "unexpected_changes": []
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

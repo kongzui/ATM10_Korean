@@ -1,0 +1,60 @@
+{
+  "quest.055CCAE237DF3EEF.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_ironwood.png width:100 height:150 align:center}"
+  ],
+  "quest.055CCAE237DF3EEF.title": "&8아이언우드",
+  "quest.140DF670162C68DA.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_steeleaf.png width:100 height:150 align:center}"
+  ],
+  "quest.140DF670162C68DA.title": "&a강철잎",
+  "quest.1452D9CF827782B5.quest_desc": [
+    "극지 장비는 극지동물의 털로 만들어집니다. 극지동물의 털은 겨울 늑대와 예티가 떨어뜨립니다! \\n\\n아니요, 둘 다 털을 깎을 수는 없습니다.\\n\\n이 장비는 &7가죽 갑옷&r처럼 염색할 수 있습니다!"
+  ],
+  "quest.1452D9CF827782B5.quest_subtitle": "16",
+  "quest.1452D9CF827782B5.title": "&f극지 장비",
+  "quest.1D23F53C585185B7.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_naga.png width:100 height:150 align:center}"
+  ],
+  "quest.1D23F53C585185B7.title": "&2나가 비늘",
+  "quest.3061B67330367CE2.quest_desc": [
+    "어떻게든 히드라 또는 우르-가스트를 처치했다면 &4파이어리 눈물/피&r를 얻을 수 있습니다. 둘 다 괜찮습니다! \\n\\n이제 &4파이어리 갑옷&r을 만들 수 있습니다. &4파이어리 바이알&r 중 하나로 철 갑옷을 업그레이드하세요.\\n\\n이제 갑옷은 &c네더라이트&r보다 강해졌고, 불행히도 당신을 때리는 사람은 누구든 불이 붙을 것입니다!"
+  ],
+  "quest.3061B67330367CE2.quest_subtitle": "24",
+  "quest.3061B67330367CE2.title": "&4파이어리 갑옷",
+  "quest.30A61E1A1EFA81E6.quest_desc": [
+    "&2강철잎&r은 엄밀히 말하면 주괴이며, &9&lThe Twilight Forest&r의 상자에서 발견할 수 있습니다. \\n방어구 부위마다 서로 다른 마법 부여가 적용됩니다!"
+  ],
+  "quest.30A61E1A1EFA81E6.quest_subtitle": "20",
+  "quest.30A61E1A1EFA81E6.title": "&2강철잎 갑옷",
+  "quest.3215A3D706CECCEF.quest_desc": [
+    "리버뿌리, 철 주괴, 그리고 &e금 조각&r을 조합하여 &7아이언우드&r를 제작할 수 있습니다! \\n\\n얻으려면 도끼와 곡괭이가 필요할 것 같습니다.\\n\\n모든 &7아이언우드 갑옷&r에는 보호 레벨이 기본으로 제공됩니다!"
+  ],
+  "quest.3215A3D706CECCEF.quest_subtitle": "16",
+  "quest.3215A3D706CECCEF.title": "&7아이언우드 갑옷",
+  "quest.52A29269A23F85B3.quest_desc": [
+    "&9설인 방어구&r에는 알파 설인 털이 필요합니다. 예상하셨겠지만 알파 설인에게서만 나옵니다. \\n\\n그래도 이 방어구는 적을 얼어붙게 해 느리게 만듭니다!"
+  ],
+  "quest.52A29269A23F85B3.quest_subtitle": "20",
+  "quest.52A29269A23F85B3.title": "&9예티 의상",
+  "quest.606775701551F3EE.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_carminite.png width:100 height:150 align:center}"
+  ],
+  "quest.606775701551F3EE.title": "&4카미나이트",
+  "quest.6F335B4F3FD660E7.quest_desc": [
+    "이것들은 얻기가 쉽지 않습니다.\\n\\n&a갑옷 조각 더미&r를 제련하여 얻을 수 있는 &a기사금속 주괴&r가 필요합니다.\\n\\n&a갑옷 조각&r 9개를 합쳐서 &a갑옷 조각 더미&r를 얻을 수 있습니다.\\n\\n&a갑옷 조각&r은 &l&9황혼의 숲&r 고블린에게서 떨어지며, 드물게 투구 게에게서도 떨어집니다."
+  ],
+  "quest.6F335B4F3FD660E7.quest_subtitle": "20",
+  "quest.6F335B4F3FD660E7.title": "&a기사금속 갑옷",
+  "quest.7F8B6D5F360D985A.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_fiery.png width:100 height:150 align:center}"
+  ],
+  "quest.7F8B6D5F360D985A.title": "&e파이어리",
+  "quest.7FBC64E6408D8D7F.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_knightmetal.png width:100 height:150 align:center}"
+  ],
+  "quest.7FBC64E6408D8D7F.title": "&7기사금속",
+  "quest.7D1A27CBF1508712.quest_desc": [
+    "&3눈의 여왕&r은 빙하 생물 군계 내의 &b오로라 궁전&r에 살고 있습니다.\\n\\n빙하 생물 군계에 들어가려면 우두머리 예티를 처치해야 합니다.\\n\\n왕좌를 빼앗기면 트로피를 포함한 엄청난 양의 전리품을 드롭할 것입니다!"
+  ],
+  "quest.7D1A27CBF1508712.title": "&3눈의 여왕 &e트로피"
+}

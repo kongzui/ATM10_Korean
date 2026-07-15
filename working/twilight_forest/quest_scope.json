@@ -1,0 +1,15 @@
+{
+  "family": "The Twilight Forest",
+  "chapters": {
+    "twilight_forest": {
+      "display_keys": 123,
+      "new_translation_required": 1,
+      "project_output_review": 122
+    },
+    "related": {
+      "display_keys": 32,
+      "new_translation_required": 8,
+      "project_output_review": 24
+    }
+  }
+}

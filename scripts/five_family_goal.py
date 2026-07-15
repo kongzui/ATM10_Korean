@@ -189,6 +189,16 @@ ALLOWED_ORIGINALS = {
     "Thaumcraft",
     "Tinkers' Construct",
     "Jade",
+    "MrCompost - Findings",
+    "MrCompost - Home",
+    "MrCompost - Maker",
+    "MrCompost - Motion",
+    "Rotch Gwylt - Radiance",
+    "Rotch Gwylt - Steps",
+    "Rotch Gwylt - Superstitious",
+    "MrCompost - Thread",
+    "MrCompost - Wayfarer",
+    "HexaBlu",
     "Thistle - The Sound of Glass",
     "AllRightsReserved",
     "Ctrl+C, Ctrl+V",
@@ -212,6 +222,9 @@ ALLOWED_NAME_COLLISIONS = {
     frozenset({"Starbuncle", "The Starbuncle"}),
     frozenset({"Whirlisprig", "The Whirlisprig"}),
     frozenset({"Wixie", "The Wixie"}),
+    frozenset({"Liveroot", "Liveroots"}),
+    frozenset({"Naga Scale", "Naga Scales"}),
+    frozenset({"Has: %s %s Candle", "Has: %s %s Candles"}),
 }
 
 MEKANISM_QUEST_WORDS = {
@@ -1499,6 +1512,7 @@ def is_allowed_original(source: str) -> bool:
     return (
         stripped in ALLOWED_ORIGINALS
         or TRANSLATION_KEY.fullmatch(stripped) is not None
+        or re.fullmatch(r"\{image:[^}]+\}", stripped) is not None
         or not LATIN_WORD.search(stripped)
         or bool(re.fullmatch(r"[A-Z0-9_+./:%×() -]+", stripped))
     )

@@ -1,0 +1,83 @@
+{
+  "family": "The Twilight Forest",
+  "installed": [
+    {
+      "label": "The Twilight Forest",
+      "jar": "twilightforest-1.21.1-4.8.3345-universal.jar",
+      "namespace": "twilightforest",
+      "direct_integration": false,
+      "english_keys": 2061,
+      "bundled_korean_keys": 1778,
+      "metadata_mentions_family": [
+        "twilightforest"
+      ],
+      "guide_candidates": 29,
+      "guide_examples": [
+        "assets/twilightforest/blockstates/canopy_bookshelf.json",
+        "assets/twilightforest/blockstates/chiseled_canopy_bookshelf.json",
+        "assets/twilightforest/models/block/canopy_bookshelf.json",
+        "assets/twilightforest/models/block/canopy_bookshelf_1.json",
+        "assets/twilightforest/models/block/canopy_bookshelf_2.json",
+        "assets/twilightforest/models/block/canopy_bookshelf_3.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_empty_slot_bottom_left.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_empty_slot_bottom_mid.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_empty_slot_bottom_right.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_empty_slot_top_left.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_empty_slot_top_mid.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_empty_slot_top_right.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_inventory.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_occupied_slot_bottom_left.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_occupied_slot_bottom_mid.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_occupied_slot_bottom_right.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_occupied_slot_top_left.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_occupied_slot_top_mid.json",
+        "assets/twilightforest/models/block/chiseled_canopy_bookshelf_occupied_slot_top_right.json"
+      ],
+      "advancements": 530,
+      "advancement_examples": [
+        "data/twilightforest/advancement/arborist.json",
+        "data/twilightforest/advancement/arctic_armor_dyed.json",
+        "data/twilightforest/advancement/beanstalk.json",
+        "data/twilightforest/advancement/break_glass_sword.json",
+        "data/twilightforest/advancement/chicken_jerky.json",
+        "data/twilightforest/advancement/craft_travellers_gear.json",
+        "data/twilightforest/advancement/experiment_115.json",
+        "data/twilightforest/advancement/experiment_115_115.json",
+        "data/twilightforest/advancement/experiment_115_self_replenishing.json",
+        "data/twilightforest/advancement/fiery_set.json",
+        "data/twilightforest/advancement/full_mettle_alchemist.json",
+        "data/twilightforest/advancement/ghast_trap.json",
+        "data/twilightforest/advancement/giants.json",
+        "data/twilightforest/advancement/hedge.json",
+        "data/twilightforest/advancement/hill1.json",
+        "data/twilightforest/advancement/hill2.json",
+        "data/twilightforest/advancement/hill3.json",
+        "data/twilightforest/advancement/hydra_chop.json",
+        "data/twilightforest/advancement/kill_cicada.json",
+        "data/twilightforest/advancement/lich_scepters.json"
+      ],
+      "recipes": 1023
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "bibliowoods-1.21.1-1.6.2.jar",
+      "dependency_mentions": [
+        "twilightforest"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "The Twilight Forest",
+      "jar": "twilightforest-1.21.1-4.8.3345-universal.jar",
+      "namespace": "twilightforest",
+      "english_keys": 2061,
+      "bundled_ko_kr": 1754,
+      "legacy_5.4_candidate": 59,
+      "new_translation_required": 248
+    }
+  ]
+}

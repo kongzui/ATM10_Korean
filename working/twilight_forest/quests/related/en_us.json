@@ -1,0 +1,60 @@
+{
+  "quest.055CCAE237DF3EEF.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_ironwood.png width:100 height:150 align:center}"
+  ],
+  "quest.055CCAE237DF3EEF.title": "&8Ironwood",
+  "quest.140DF670162C68DA.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_steeleaf.png width:100 height:150 align:center}"
+  ],
+  "quest.140DF670162C68DA.title": "&aSteeleaf",
+  "quest.1452D9CF827782B5.quest_desc": [
+    "Arctic Gear is made with Arctic Fur. Arctic Fur is dropped from Winter Wolves and Yetis! \\n\\nNo, you can't shear either of them. \\n\\nThe Gear can be dyed like &7Leather Armor&r!"
+  ],
+  "quest.1452D9CF827782B5.quest_subtitle": "16",
+  "quest.1452D9CF827782B5.title": "&fArctic Gear",
+  "quest.1D23F53C585185B7.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_naga.png width:100 height:150 align:center}"
+  ],
+  "quest.1D23F53C585185B7.title": "&2Naga Scales",
+  "quest.3061B67330367CE2.quest_desc": [
+    "If you've somehow slain the Hydra or Ur-Ghast, then you'll have access to &4Fiery Tears/Blood&r, either work! \\n\\nNow you can make &4Fiery Armor&r, by upgrading your Iron Armor with either of the &4Fiery Vials&r. \\n\\nNow your Armor is stronger than &cNetherite&r and anyone unfortunate to hit you will be set ablaze!"
+  ],
+  "quest.3061B67330367CE2.quest_subtitle": "24",
+  "quest.3061B67330367CE2.title": "&4Fiery Armor",
+  "quest.30A61E1A1EFA81E6.quest_desc": [
+    "&2Steeleaf&r is, technically an Ingot, found within Chests in &9&lThe Twilight Forest&r. \\nEach part of the Armor gives a different Enchantment!"
+  ],
+  "quest.30A61E1A1EFA81E6.quest_subtitle": "20",
+  "quest.30A61E1A1EFA81E6.title": "&2Steeleaf Armor",
+  "quest.3215A3D706CECCEF.quest_desc": [
+    "By combining some Liveroot, an Iron Ingot, and a &eGold Nugget&r you can craft &7Ironwood&r! \\n\\nSounds like you'll need an Axe and a Pickaxe to get some. \\n\\nAll of the &7Ironwood Armor&r come with a level of Protection for free!"
+  ],
+  "quest.3215A3D706CECCEF.quest_subtitle": "16",
+  "quest.3215A3D706CECCEF.title": "&7Ironwood Armor",
+  "quest.52A29269A23F85B3.quest_desc": [
+    "The &9Yeti Outfit&r needs Alpha Yeti Fur, which you guessed it! Only drops from Alpha Yetis. \\n\\nAtleast the Outfit will slow down your Enemies by chilling them!"
+  ],
+  "quest.52A29269A23F85B3.quest_subtitle": "20",
+  "quest.52A29269A23F85B3.title": "&9Yeti Outfit",
+  "quest.606775701551F3EE.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_carminite.png width:100 height:150 align:center}"
+  ],
+  "quest.606775701551F3EE.title": "&4Carminite",
+  "quest.6F335B4F3FD660E7.quest_desc": [
+    "These are not a fun one to get. \\n\\nYou'll need &aKnightmetal Ingots&r which are obtained from Smelting &aArmor Shard Clusters&r. \\n\\nYou get &aArmor Shard Clusters&r from combining 9 &aArmor Shards&r. \\n\\n&aArmor Shards&r are dropped from the &l&9Twilight Forest&r Goblins and rarely from Helmet Crabs."
+  ],
+  "quest.6F335B4F3FD660E7.quest_subtitle": "20",
+  "quest.6F335B4F3FD660E7.title": "&aKnightmetal Armor",
+  "quest.7F8B6D5F360D985A.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_fiery.png width:100 height:150 align:center}"
+  ],
+  "quest.7F8B6D5F360D985A.title": "&eFiery",
+  "quest.7FBC64E6408D8D7F.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_knightmetal.png width:100 height:150 align:center}"
+  ],
+  "quest.7FBC64E6408D8D7F.title": "&7Knightmetal",
+  "quest.7D1A27CBF1508712.quest_desc": [
+    "The &3Snow Queen&r lives in the &bAurora Palace&r within the Glacier Biome. \\n\\nYou'll need to kill the Alpha Yeti in order to enter the Glacier Biome. \\n\\nOnce usurped, she will drop a ton of loot, Trophy included!"
+  ],
+  "quest.7D1A27CBF1508712.title": "&3Snow Queen &eTrophy"
+}

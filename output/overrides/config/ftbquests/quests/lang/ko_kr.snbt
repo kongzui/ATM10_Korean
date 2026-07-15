@@ -3060,7 +3060,7 @@
 	quest.309B0B2898893B4E.quest_desc: ["&b&l스티브의 카트&r는 upgrading... 카트에 관한 모든 것입니다! \\n\\n어떤 종류의 상위 버전으로 변환이 있을까요? 싱크대 빼고는 거의 모든 것이 있습니다!\\n\\n드릴부터 총, 아케이드 기계까지! 카트로 무엇을 더 원하시나요?"]
 	quest.309B0B2898893B4E.title: "&l&b스티브의 카트"
 	quest.309B6B8368E535A0.quest_desc: ["라우터는 틱이 발생할 때마다 액션을 수행합니다.\\n\\n기본값은 20틱 또는 1초입니다.\\n\\n속도 상위 버전으로 변환을 통해 틱 수를 줄일 수 있습니다!"]
-	quest.30A61E1A1EFA81E6.quest_desc: ["&2강철잎&r은 엄밀히 말하면 &9&l황혼의 숲&r의 상자 안에서 발견되는 주괴입니다. 갑옷의 각 부분은 서로 다른 마법 부여를 제공합니다!"]
+	quest.30A61E1A1EFA81E6.quest_desc: ["&2강철잎&r은 엄밀히 말하면 주괴이며, &9&lThe Twilight Forest&r의 상자에서 발견할 수 있습니다. \\n방어구 부위마다 서로 다른 마법 부여가 적용됩니다!"]
 	quest.30A61E1A1EFA81E6.quest_subtitle: "20"
 	quest.30A61E1A1EFA81E6.title: "&2강철잎 갑옷"
 	quest.30AD7B15682E4D0E.quest_desc: ["텍스트 양에 맞춰 크기가 조정되어 텍스트를 항상 알맞게 저장하고 표시할 수 있는 스마트 표지판입니다.\\n\\n아무 염료로나 우클릭하여 타일의 색을 변경하세요. 테두리와 배경을 독립적으로 칠할 수 있습니다."]
@@ -4134,7 +4134,7 @@
 	quest.418E57E34FFC19E1.quest_subtitle: "무효화 채굴기"
 	quest.418E57E34FFC19E1.title: "레이저 드릴"
 	quest.4193303999597249.quest_desc: [
-		"&9황혼의 숲&r 모드는 황혼의 숲 차원을 게임에 추가하는 모드입니다. 이 차원은 완전히 새로운 아이템, 생물 군계, 몹, 그리고 보스들로 가득 차 있습니다!\\n\\n&9황혼의 숲&r으로 가는 차원문을 만들려면, 땅에 2x2 크기의 구멍을 파고 물로 채우세요. 구멍의 가장자리를 꽃으로 둘러싸고 다이아몬드를 물에 던지세요.\\n\\n제대로 했다면, 토르가 표식을 주고 차원문이 작동될 것입니다."
+		"&9The Twilight Forest&r는 황혼의 숲 차원을 게임에 추가하는 모드입니다. 이 차원에는 완전히 새로운 아이템, 생물 군계, 몹과 보스가 가득합니다!\\n\\n&9황혼의 숲&r으로 가는 포털을 만들려면 땅에 2x2 구덩이를 파고 물을 채우세요. 구덩이 가장자리를 꽃으로 둘러싼 뒤 물에 다이아몬드를 던지세요.\\n\\n제대로 만들었다면 토르가 신호를 보내고 포털이 활성화됩니다.\\n"
 		"{image:atm:textures/questpics/gettingstarted/twilight_portal.png width:100 height:100 align:center fit:true}"
 	]
 	quest.4193303999597249.quest_subtitle: "황혼의 숲에 들어가세요"
@@ -5252,7 +5252,7 @@
 	quest.52672B7FFFD51D16.quest_desc: ["배낭에 석재 절단기 GUI를 추가합니다."]
 	quest.526A9655A62C93F4.quest_subtitle: "유럽잎갈나무 + 폰데로사소나무"
 	quest.526CED9509FAA79B.quest_subtitle: "Blue Yonder + Firecracker"
-	quest.52A29269A23F85B3.quest_desc: ["&9예티 의상&r에는 우두머리 예티 모피가 필요합니다. 짐작하셨겠지만! 우두머리 예티에게서만 얻을 수 있습니다.\\n\\n적어도 이 의상은 적들을 냉정하게 만들어 &9느리게&r 만들 것입니다!"]
+	quest.52A29269A23F85B3.quest_desc: ["&9설인 방어구&r에는 알파 설인 털이 필요합니다. 예상하셨겠지만 알파 설인에게서만 나옵니다. \\n\\n그래도 이 방어구는 적을 얼어붙게 해 느리게 만듭니다!"]
 	quest.52A29269A23F85B3.quest_subtitle: "20"
 	quest.52A29269A23F85B3.title: "&9예티 의상"
 	quest.52AFABA08674B6A8.quest_desc: ["&3Vibranium 방어구&r에 &d&lArs Nouveau&r 주문 강화 효과를 더한 장비입니다!"]
