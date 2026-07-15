@@ -13,8 +13,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 21,
-      "bundled_exact_reuse": 2337,
-      "new_or_edited": 27
+      "bundled_exact_reuse": 2298,
+      "new_or_edited": 66
     },
     {
       "label": "Ars Additions",
@@ -28,8 +28,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 184,
-      "new_or_edited": 51
+      "legacy_exact_reuse": 168,
+      "new_or_edited": 67
     },
     {
       "label": "Ars Controle",
@@ -57,7 +57,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 18
+      "new_or_edited": 4,
+      "legacy_exact_reuse": 14
     },
     {
       "label": "Ars Elemancy",
@@ -72,8 +73,8 @@
       "output_matches": true,
       "guide_extra_keys": 8,
       "bundled_exact_reuse": 1,
-      "legacy_exact_reuse": 87,
-      "new_or_edited": 107
+      "legacy_exact_reuse": 60,
+      "new_or_edited": 134
     },
     {
       "label": "Ars Elemental",
@@ -87,9 +88,9 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "legacy_exact_reuse": 287,
-      "new_or_edited": 323,
-      "bundled_exact_reuse": 56
+      "new_or_edited": 429,
+      "bundled_exact_reuse": 3,
+      "legacy_exact_reuse": 234
     },
     {
       "label": "Ars Ocultas",
@@ -146,8 +147,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "new_or_edited": 48,
-      "legacy_exact_reuse": 201
+      "new_or_edited": 49,
+      "legacy_exact_reuse": 200
     },
     {
       "label": "Starbuncle Mania",
@@ -161,8 +162,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 1,
-      "legacy_exact_reuse": 147,
-      "new_or_edited": 3
+      "legacy_exact_reuse": 131,
+      "new_or_edited": 19
     },
     {
       "label": "Ars Énergistique",
@@ -196,9 +197,9 @@
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 2394,
-    "legacy_exact_reuse": 1044,
-    "new_or_edited": 748
+    "bundled_exact_reuse": 2302,
+    "legacy_exact_reuse": 927,
+    "new_or_edited": 957
   },
   "ftbquests": {
     "chapters": [

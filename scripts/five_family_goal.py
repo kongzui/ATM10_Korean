@@ -1494,11 +1494,36 @@ def validate_value(key: str, source: object, target: object) -> list[str]:
     errors: list[str] = []
     if type(source) is not type(target):
         return [f"자료형 불일치: {key}"]
+    if isinstance(source, list):
+        assert isinstance(target, list)
+        if len(source) != len(target):
+            return [f"목록 길이 불일치: {key}"]
+        for index, (source_item, target_item) in enumerate(zip(source, target)):
+            errors.extend(validate_value(f"{key}[{index}]", source_item, target_item))
+        return errors
+    if isinstance(source, dict):
+        assert isinstance(target, dict)
+        if source.keys() != target.keys():
+            return [f"객체 키 불일치: {key}"]
+        for child_key in source:
+            errors.extend(
+                validate_value(
+                    f"{key}.{child_key}", source[child_key], target[child_key]
+                )
+            )
+        return errors
     if not isinstance(source, str):
         return errors
     assert isinstance(target, str)
-    if Counter(PLACEHOLDER.findall(source)) != Counter(PLACEHOLDER.findall(target)):
+    source_placeholders = PLACEHOLDER.findall(source)
+    target_placeholders = PLACEHOLDER.findall(target)
+    if Counter(source_placeholders) != Counter(target_placeholders):
         errors.append(f"자리표시자 불일치: {key}")
+    elif source_placeholders != target_placeholders and any(
+        token.startswith("%") and re.fullmatch(r"%\d+\$[a-zA-Z]", token) is None
+        for token in source_placeholders
+    ):
+        errors.append(f"비순번 자리표시자 순서 불일치: {key}")
     if source.count("\n") != target.count("\n"):
         errors.append(f"줄바꿈 불일치: {key}")
     if Counter(FORMAT_CODE.findall(source)) != Counter(FORMAT_CODE.findall(target)):

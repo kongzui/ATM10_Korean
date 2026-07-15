@@ -117,7 +117,7 @@ SOURCE_OVERRIDES = {
     "Processing": "가공",
     "Create Processing": "Create 가공",
     "Set Perks": "세트 효과",
-    "Arcane Wrench": "비전 렌치",
+    "Arcane Wrench": "아케인 렌치",
     "Transmutation": "변환",
     "Spellcaster Bag": "주문 시전자 가방",
     "Trinkets Pouch": "장신구 주머니",
@@ -125,6 +125,7 @@ SOURCE_OVERRIDES = {
     "Flarecannon Familiar": "플레어캐논 사역마",
     "Siren": "사이렌",
     "Siren Familiar": "사이렌 사역마",
+    "Siren Token": "사이렌 조각",
     "Water Jet Origin": "물줄기 발생점",
     "Rogue Air Mage": "떠돌이 공기 마법사",
     "Rogue Earth Mage": "떠돌이 대지 마법사",
@@ -149,7 +150,7 @@ SOURCE_OVERRIDES = {
     "Heavy Cover": "묵직한 표지",
     "Lucky Cover": "행운의 표지",
     "Keen Cover": "예리한 표지",
-    "Sharp Pages": "날카로운 책장",
+    "Sharp Pages": "날카로운 페이지",
     "Slow Power": "느린 위력",
     "Wheel of Fortune": "운명의 수레바퀴",
     "Book Covers": "책 표지",
@@ -165,8 +166,8 @@ SOURCE_OVERRIDES = {
     "Temporal Stability Sensor": "시간 안정성 감지기",
     "Portable Brazier Relay": "휴대용 화로 전달체",
     "Warp Scroll Holder": "워프 두루마리 거치대",
-    "Arcane Compactor": "비전 압축기",
-    "Arcane Packer": "비전 포장기",
+    "Arcane Compactor": "아케인 압축기",
+    "Arcane Packer": "아케인 포장기",
     "Random Filter": "무작위 필터",
     "Carian Phalanx": "카리아의 검진",
     "Create Geyser": "간헐천 생성",
@@ -191,8 +192,20 @@ SOURCE_OVERRIDES = {
     "Detection": "탐지",
     "Pollination": "수분 촉진",
     "Repulsion": "밀어내기",
-    "Enchanter's Horn": "마법부여사의 뿔피리",
+    "Enchanter's Horn": "마법 부여사의 뿔피리",
     "Protection of the 4 elements": "네 원소의 보호",
+    "Air Essence": "공기 정수",
+    "Earth Essence": "대지 정수",
+    "Fire Essence": "화염 정수",
+    "Water Essence": "물 정수",
+    "Arc Projectile": "곡사 투사체",
+    "Split": "분할",
+    "Bubble Shield": "거품 보호막",
+    "Rainbow Prism Lens [REMOVED]": "무지개 프리즘 렌즈 [제거됨]",
+    "Novice Spell Book": "초보자의 마도서",
+    "Apprentice Spell Book": "마법사의 마도서",
+    "Archmage Spell Book": "대마법사의 마도서",
+    "Creative Spell Book": "크리에이티브 마도서",
 }
 KEY_OVERRIDES = {
     "ars_nouveau": {
@@ -355,6 +368,26 @@ KEY_OVERRIDES = {
             "조합을 활성화합니다."
         ),
     },
+    "starbunclemania": {
+        "block.starbunclemania.fluid_jar": "유체 격리 단지",
+        "item.starbunclemania.fluid_jar": "유체 단지",
+        "starbunclemania.adv.desc.fluid_jar": "유체 단지 획득",
+        "starbunclemania.page.fluid_jar": (
+            "캐스케이딩 아크우드 통나무로 만든 탱크로, 유체를 최대 16양동이까지 "
+            "저장합니다. 물약 유체를 저장하고 위에 물약 단지를 놓으면, 플라스크나 "
+            "혼합에 사용할 수 있도록 물약 단지로 옮깁니다."
+        ),
+        "starbunclemania.page.source_condenser": (
+            "단지의 마나를 안정된 유체로 응축합니다. 가능하면 아래쪽 탱크로 자동 "
+            "배출합니다. 도미니언 완드로 특정 마나 공급원을 연결할 수 있으며, 연결하지 "
+            "않으면 주변의 모든 마나 단지에서 마나를 가져옵니다."
+        ),
+        "starbunclemania.page.robin_mask": (
+            "별다람쥐가 여러 보관함에 아이템을 차례로 분배하게 합니다. 이 장신구를 "
+            "착용한 별다람쥐는 바닥의 아이템만 주우며, 연결된 목적지 수에 맞춰 한 "
+            "보관함에 옮길 수량을 나눈 뒤 다음 보관함으로 이동합니다."
+        ),
+    },
     "ars_elemancy": {
         "ars_elemancy.page.armor_set.wip": (
             "참고: 방어구 개편에는 많은 리소스 작업이 필요하므로 1.19에서는 경량과 "
@@ -452,6 +485,570 @@ KEY_OVERRIDES = {
         ),
     },
 }
+
+# 기존 번역과 구버전 번역에서 확인된 의미 누락·영문 잔존을 현재 원문 기준으로 고정한다.
+QUALITY_OVERRIDES = {
+    "ars_nouveau": {
+        "ars_nouveau.global_position": "X: %1$d Y: %2$d Z: %3$d, 차원: %4$s",
+        "ars_nouveau.page1.spell_casting": (
+            "Ars Nouveau에서는 강력한 주문을 직접 만들 수 있습니다. 창의적인 주문 "
+            "제작으로 적을 물리치고, 월드를 바꾸고, 작업을 자동화하고, 멋진 장면을 "
+            "연출하는 등 다양한 일을 할 수 있습니다!\n주문 시전을 시작하려면 초보자의 "
+            "마도서를 제작하세요. 마나를 사용해 주문을 만들고 저장하고 시전할 수 "
+            "있습니다.\n마도서를 업그레이드하고 새 문양을 배우며 마법 장비를 만들면 "
+            "더욱 새롭고 강력한 주문을 시전할 수 있습니다."
+        ),
+        "ars_nouveau.page1.spell_mana": (
+            "주문을 시전하면 주문을 구성하는 모든 문양의 총비용만큼 마나를 "
+            "소비합니다. 현재 마나는 화면 왼쪽 아래의 막대에서 볼 수 있습니다.\n\n"
+            "소비한 마나는 시간이 지나면 회복됩니다. 마법 아이템이나 사역마 같은 "
+            "다른 요소가 마나를 소비하거나 일정량을 점유하기도 합니다.\n새 문양을 "
+            "배울 때마다 마나 재생 속도와 최대 보유량이 조금씩 영구적으로 증가합니다. "
+            "마도서 업그레이드, 일부 마법 장비 착용, 마나 물약 사용으로도 같은 "
+            "보너스를 얻을 수 있습니다."
+        ),
+        "ars_nouveau.starby_plush_campaign": (
+            "지금 Makeship에서 별다람쥐 봉제 인형을 신청하세요! 마도서 또는 낡은 "
+            "고서 화면 왼쪽의 봉제 인형 버튼을 확인하세요."
+        ),
+        "ars_nouveau.light_message": (
+            "Ars Nouveau에는 동적 조명 기능이 내장되어 있습니다. `/ars-light on`으로 "
+            "활성화할 수 있으며, 이 안내는 다시 표시되지 않습니다!"
+        ),
+        "ars_nouveau.store_text": "Redbubble 상점 보기!",
+        "ars_nouveau.connection.range": "%s블록 안에서만 연결할 수 있습니다.",
+        "ars_nouveau.dynamic_lights.button_on": (
+            "동적 조명을 켰습니다. CPU 성능이 낮거나 할당된 RAM이 적으면 렉이 생길 수 "
+            "있으며, OptiFine 같은 최적화 모드와 충돌할 수 있습니다."
+        ),
+        "ars_nouveau.glyph_desc.glyph_delay": (
+            "오른쪽에 놓인 주문의 발동을 조금 늦춥니다. 시간 연장 또는 시간 단축으로 "
+            "지연 시간을 늘리거나 줄일 수 있습니다."
+        ),
+        "ars_nouveau.glyph_desc.glyph_interact": (
+            "플레이어가 블록이나 개체와 상호 작용하는 것처럼 작동합니다. 레버, 상자, "
+            "동물처럼 직접 상호 작용해야 하는 대상에 유용합니다. 섬세함으로 보강하면 "
+            "손에 든 아이템을 해당 블록이나 개체에 사용할 수 있습니다."
+        ),
+        "ars_nouveau.glyph_desc.glyph_name": (
+            "주문 이름을 개체나 아이템에 붙입니다. 블록을 대상으로 하면 블록 위의 "
+            "개체와 떨어진 아이템에 이름을 붙이고, 자신을 대상으로 하면 보조 손의 "
+            "아이템에 이름을 붙입니다. 단축바에 이름표가 있으면 주문 이름 대신 "
+            "이름표의 이름을 사용합니다."
+        ),
+        "ars_nouveau.page1.whirlisprig_charm": (
+            "윌스프링은 숲이 우거진 지역에서만 발견되는 호기심 많은 자연 정령입니다. "
+            "소환한 윌스프링에게 보금자리를 마련해 주면 주변에 있는 나무, 작물, 씨앗, "
+            "꽃 같은 자연 재료를 생산합니다. 야생 윌스프링 근처에서 나무를 키우면 "
+            "친해져 윌스프링 조각을 떨어뜨립니다."
+        ),
+        "ars_nouveau.page5.whirlisprig_charm": (
+            "참고: 블록을 배치한 뒤 윌스프링의 기분이 갱신되기까지 몇 분이 걸릴 수 "
+            "있습니다. 윌스프링은 다양성을 중요하게 여기며, 같은 블록이 너무 많으면 "
+            "더 이상 행복도에 반영되지 않습니다."
+        ),
+    },
+    "ars_additions": {
+        "ars_additions.page.source_spawner": (
+            "마나 스포너는 주변 격리 단지에 든 몹을 읽어 소환 대상을 정합니다. 몹을 "
+            "소환할 때마다 주변 마나 단지에서 몹 종류에 따른 양의 마나를 소비합니다. "
+            "레드스톤 신호로 끌 수 있으며, 현재 소환 대기 시간에 비례하는 비교기 "
+            "신호를 출력합니다."
+        ),
+        "tooltip.ars_additions.warp_index.bound": "좌표 (%s, %s, %s), 차원 %s에 귀속됨",
+        "ars_additions.page.bulk_scribing": "대량 각인",
+        "ars_additions.page1.bulk_scribing": (
+            "주입 챔버 옆 받침대에 마도서나 주문이 새겨진 주문 양피지를 놓고, 주입 "
+            "챔버 안에는 빈 양피지 또는 주문을 새길 다른 아이템을 넣으면 여러 아이템에 "
+            "한꺼번에 주문을 각인할 수 있습니다."
+        ),
+        "memory_handler.ars_additions.spell_sensor.on_resolve": "모드: 주문 처리 시",
+        "ars_additions.page.ender_source_jar": (
+            "엔더 마나 단지는 서로 연결된 공용 마나 저장 공간을 사용합니다. 어느 곳에 "
+            "설치한 엔더 마나 단지든 같은 마나를 공유하므로, 어디서나 저장된 마나를 "
+            "사용할 수 있습니다."
+        ),
+        "ars_additions.page.imbued_spell_parchment": (
+            "주문 양피지에 마나를 주입하면 플레이어의 마나를 소비하지 않고 주문을 "
+            "시전할 수 있습니다. 주입된 주문 양피지를 사용하려면 사용 버튼을 누르고 "
+            "있어 양피지의 마나를 모은 뒤 방출해야 합니다. 마나 100만큼을 모으는 데 "
+            "약 0.5초가 걸리므로 큰 주문일수록 시전 시간이 길어집니다."
+        ),
+        "ars_additions.page1.nexus_tower": (
+            "넥서스 탑은 마나 지맥이 모이는 지점에 세워져, 월드의 자연 마나를 이용해 "
+            "더 쉽게 먼 곳으로 이동할 수 있게 합니다."
+        ),
+        "ars_additions.page2.warp_nexus": (
+            "넥서스 탑 안의 워프 넥서스는 마나 지맥 위에 있어 작동할 때 마나가 "
+            "필요하지 않습니다. 다른 곳으로 옮긴 워프 넥서스는 순간이동 한 번에 마나 "
+            "1,000을 소비합니다."
+        ),
+    },
+    "ars_controle": {
+        "ars_controle.glyph.error.generic.error_at_position": (
+            "%s에서 오류가 발생했습니다(위치: %d)."
+        ),
+        "ars_controle.glyph_desc.glyph_precise_delay": (
+            "시간 연장 보강 수에 따라 주문의 나머지 부분을 (2 ^ 보강 수)틱만큼 "
+            "지연시킵니다."
+        ),
+        "ars_controle.glyph_desc.glyph_filter_above": (
+            "시전자보다 위쪽에서만 주문의 나머지를 처리합니다."
+        ),
+        "ars_controle.glyph_desc.glyph_filter_below": (
+            "시전자보다 아래쪽에서만 주문의 나머지를 처리합니다."
+        ),
+        "ars_controle.glyph_desc.glyph_filter_level": (
+            "시전자와 같은 높이에서만 주문의 나머지를 처리합니다."
+        ),
+        "ars_controle.glyph_desc.glyph_filter_not": (
+            "다음 필터의 결과가 거짓일 때만 주문의 나머지를 처리합니다."
+        ),
+        "ars_controle.glyph_desc.glyph_filter_or": (
+            "다음 두 필터 중 하나라도 참일 때만 주문의 나머지를 처리합니다."
+        ),
+        "ars_controle.glyph_desc.glyph_filter_xnor": (
+            "다음 두 필터의 결과가 같을 때만 주문의 나머지를 처리합니다."
+        ),
+        "ars_controle.glyph_desc.glyph_filter_xor": (
+            "다음 두 필터 중 하나만 참일 때 주문의 나머지를 처리합니다."
+        ),
+        "ars_nouveau.augment_desc.glyph_filter_random_glyph_amplify": (
+            "주문 처리 확률을 높입니다."
+        ),
+        "ars_nouveau.augment_desc.glyph_filter_random_glyph_dampen": (
+            "주문 처리 확률을 낮춥니다."
+        ),
+        "ars_nouveau.spell.validation.adding.binary_filters.next_two_not_filters": (
+            "%s 뒤의 문양 두 개는 필터여야 합니다."
+        ),
+        "ars_nouveau.spell.validation.adding.unary_filters.next_not_filter": (
+            "%s 뒤의 문양은 필터여야 합니다."
+        ),
+        "ars_nouveau.spell.validation.exists.binary_filters.next_two_not_filters": (
+            "%s 뒤의 문양 두 개는 필터여야 합니다."
+        ),
+        "ars_nouveau.spell.validation.exists.unary_filters.next_not_filter": (
+            "%s 뒤의 문양은 필터여야 합니다."
+        ),
+        "ars_controle.remote.set_target": "원격 대상을 %s(으)로 설정했습니다(차원: %s).",
+        "ars_controle.target.set.block": "좌표 %s(차원: %s)의 블록을 대상으로 설정했습니다.",
+        "ars_controle.target.set.entity": "개체 %s(차원: %s)을(를) 대상으로 설정했습니다.",
+        "ars_nouveau.page1.block.ars_controle.scryers_linkage": (
+            "예지자의 연결 장치는 다른 블록과 연결되어, 멀리 떨어진 기계도 연결한 "
+            "블록과 상호 작용할 수 있게 합니다. 아이템, 유체, 에너지, 레드스톤 등 "
+            "여러 요소를 전달할 수 있습니다. 설정하려면 먼저 연결할 블록에 도미니언 "
+            "완드를 사용한 뒤 이 연결 장치에 사용하세요."
+        ),
+    },
+    "ars_technica": {
+        "ars_technica.effect_augment_desc.glyph_whirl_glyph_conjure_water": (
+            "회오리와 함께 사용: 세척(물 튀기기) 가공"
+        ),
+        "ars_technica.effect_augment_desc.glyph_whirl_glyph_flare": (
+            "회오리와 함께 사용: 훈연 가공"
+        ),
+        "ars_technica.effect_augment_desc.glyph_whirl_glyph_smelt": (
+            "회오리와 함께 사용: 제련 가공"
+        ),
+        "ars_technica.effect_augment_desc.glyph_whirl_glyph_hex": (
+            "회오리와 함께 사용: 영혼 불어넣기 가공"
+        ),
+        "ars_technica.entry.arcane_wrench": "아케인 렌치",
+        "ars_technica.page.arcane_wrench": "아케인 렌치",
+        "ars_technica.page1.create_processing": (
+            "다음 문양은 Create 가공 공정을 대신할 수 있습니다:\n\n"
+            "이 문양들은 월드에 놓인 아이템 개체를 가공합니다. 누르기, 연마, 분쇄, "
+            "회오리는 Create 디포 위에서도 작동합니다."
+        ),
+        "ars_technica.page2.processing": (
+            "디포 지원: Create 디포에 시전할 때는 누르기, 연마, 분쇄, 회오리만 "
+            "작동합니다. 디포에 시전하면 내부 아이템 가공을 자동화할 수 있습니다.\n\n"
+            "깎기, 포장, 융합은 월드의 아이템 개체에만 작동하며 디포 자동화를 "
+            "지원하지 않습니다."
+        ),
+    },
+    "ars_elemancy": {
+        "ars_elemental.armor_set.medium.desc": (
+            "해당 원소의 피해를 흡수하면 잠시 마나 비용 감소 효과를 얻습니다. 전 "
+            "부위를 착용하면 흡수한 피해 일부를 마나로 전환합니다."
+        ),
+        "ars_elemental.armor_set.school_set.desc": "학파 세트 보너스(같은 원소 4부위)",
+        "ars_elemental.armor_set.set_bonus.desc": "방어구 세트 보너스(2부위 또는 4부위)",
+        "ars_elemental.armor_set.tempest_light.desc": (
+            "물과 공기 학파에 조율되어 기린과 네레이드 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.tempest_heavy.desc": (
+            "물과 공기 학파에 조율되어 스톰가드와 윈터가드 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.mire_light.desc": (
+            "물과 대지 학파에 조율되어 네레이드와 님프 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.mire_heavy.desc": (
+            "물과 대지 학파에 조율되어 윈터가드와 윌드가드 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.cinder_light.desc": (
+            "화염과 공기 학파에 조율되어 파이로매니악과 올림피안 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.cinder_heavy.desc": (
+            "화염과 공기 학파에 조율되어 네더가드와 썬더가드 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.vapor_light.desc": (
+            "화염과 물 학파에 조율되어 파이로매니악과 네레이드 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.vapor_heavy.desc": (
+            "화염과 물 학파에 조율되어 네더가드와 윈터가드 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.silt_light.desc": (
+            "대지와 공기 학파에 조율되어 님프와 올림피안 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.silt_heavy.desc": (
+            "대지와 공기 학파에 조율되어 윌드가드와 썬더가드 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.lava_light.desc": (
+            "대지와 화염 학파에 조율되어 님프와 파이로매니악 세트의 효과를 결합합니다."
+        ),
+        "ars_elemental.armor_set.lava_heavy.desc": (
+            "대지와 화염 학파에 조율되어 네더가드와 윌드가드 세트의 효과를 결합합니다."
+        ),
+    },
+    "ars_elemental": {
+        "ars_elemental.adv.desc.air_focus": "상급 공기 포커스 획득",
+        "ars_elemental.adv.desc.earth_focus": "상급 대지 포커스 획득",
+        "ars_elemental.adv.desc.fire_focus": "상급 화염 포커스 획득",
+        "ars_elemental.adv.desc.water_focus": "상급 물 포커스 획득",
+        "ars_elemental.adv.desc.lesser_air_focus": "하급 공기 포커스 획득",
+        "ars_elemental.adv.desc.lesser_earth_focus": "하급 대지 포커스 획득",
+        "ars_elemental.adv.desc.lesser_fire_focus": "하급 화염 포커스 획득",
+        "ars_elemental.adv.desc.lesser_water_focus": "하급 물 포커스 획득",
+        "ars_elemental.adv.desc.spore_blossom": (
+            "성장 또는 독 포자로 언데드를 처치해 포자 꽃을 획득하세요"
+        ),
+        "ars_elemental.adv.title.lesser_air_focus": "공기의 길",
+        "ars_elemental.adv.title.lesser_earth_focus": "대지의 길",
+        "ars_elemental.adv.title.lesser_fire_focus": "화염의 길",
+        "ars_elemental.adv.title.lesser_water_focus": "물의 길",
+        "ars_elemental.adv.title.levitation": "셜커예요. 셜키어가 아니라요",
+        "ars_elemental.armor_set.air.desc": (
+            "공기 계열 피해를 일부 흡수하고 낙하 피해를 크게 줄입니다."
+        ),
+        "ars_elemental.armor_set.aqua.desc": (
+            "물 계열 피해를 일부 흡수하고 익사 직전에 호흡 게이지를 채웁니다."
+        ),
+        "ars_elemental.armor_set.earth.desc": (
+            "대지 계열 피해를 일부 흡수하고, 지하 깊은 곳에서 굶기 직전이면 "
+            "허기를 채웁니다."
+        ),
+        "ars_elemental.armor_set.fire.desc": (
+            "화염 계열 피해를 일부 흡수하고 붙은 불을 즉시 끕니다."
+        ),
+        "ars_elemental.armor_set.earth.name": "대지의 양분",
+        "ars_elemental.familiar_desc.flashjack_familiar": (
+            "플래시잭 사역마는 번개 주문 피해를 2 높이고 이동 계열 주문의 마나 "
+            "비용을 20% 줄입니다. 플래시파인을 먹이면 잠시 신속과 야간 투시를 "
+            "얻습니다. 플래시잭 근처에서 결속 의식을 수행해 획득합니다."
+        ),
+        "ars_elemental.familiar_desc.siren_familiar": (
+            "사이렌 사역마는 물 주문 피해를 2 높입니다. 물속에서는 소환자에게 "
+            "돌고래의 우아함 II를 부여합니다. 사이렌 근처에서 결속 의식을 수행해 "
+            "획득합니다."
+        ),
+        "ars_elemental.glyph_name.glyph_arc_projectile": "곡사 투사체",
+        "ars_elemental.glyph_name.glyph_bubble_shield": "거품 보호막",
+        "ars_elemental.glyph_desc.glyph_bubble_shield": (
+            "피해를 받을 때 마나를 소비해 피해를 줄이는 보호막을 만듭니다. 약화 "
+            "효과가 대상에게 적용되는 것을 막을 수도 있으며, 방어 중 마나가 바닥나면 "
+            "사라집니다. 마법 불꽃도 막아 줍니다."
+        ),
+        "ars_elemental.glyph_desc.glyph_conjure_terrain": (
+            "흙이나 다른 지형 블록을 놓습니다. 광역과 관통으로 더 많은 블록을 놓을 "
+            "수 있습니다. 증폭 1회는 조약돌, 2회는 심층암 조약돌을 놓습니다. 물 생성 "
+            "뒤에 사용하면 진흙을, 증폭과 제련을 조합하면 돌 또는 심층암을, 분쇄 뒤에 "
+            "사용하면 모래를 놓으며 증폭하면 사암을 놓습니다."
+        ),
+        "ars_elemental.glyph_desc.glyph_homing_projectile": (
+            "가장 가까운 개체를 찾아 추적하는 투사체를 발사합니다. 유효한 대상이 "
+            "없으면 일반 투사체처럼 움직입니다. 섬세함으로 보강해야 플레이어도 "
+            "대상으로 삼습니다."
+        ),
+        "ars_elemental.glyph_desc.glyph_life_link": (
+            "시전자와 대상의 생명력을 연결합니다. 시전자가 받는 피해는 대상과 "
+            "나누고, 대상이 받는 회복은 시전자와 똑같이 나눕니다. 섬세함은 연결 "
+            "방향을 반대로 바꾸며, 절단은 양쪽의 생명 연결을 끊습니다."
+        ),
+        "ars_elemental.glyph_desc.glyph_propagator_homing": (
+            "주문의 나머지를 유도 투사체로 바꾸어, 적중한 곳에서 시전자가 바라보는 "
+            "방향으로 발사합니다."
+        ),
+        "ars_elemental.glyph_desc.glyph_spike": (
+            "닿은 개체에게 피해를 주는 뾰족한 점적석을 만듭니다. 광역과 관통은 "
+            "너비와 높이, 시간 연장은 지속 시간, 증폭은 피해를 늘립니다. 설치할 수 "
+            "없으면 낙하하는 점적석을 대신 소환하며, 이때는 증폭만 적용되어 낙하 "
+            "높이에 따른 피해를 늘립니다."
+        ),
+        "ars_elemental.glyph_desc.glyph_watery_grave": (
+            "대상을 익사시킵니다. 호흡 게이지를 줄이고, 모두 소진되면 익사 피해를 "
+            "줍니다. 시간 연장으로 보강하면 잠시 대상을 아래로 끌어당겨 수면으로 "
+            "헤엄쳐 올라가지 못하게 합니다."
+        ),
+        "ars_elemental.lens.pierce": (
+            "프리즘에 마나를 공급하면 방향을 바꾼 투사체가 더 많은 블록과 개체를 "
+            "관통합니다."
+        ),
+        "ars_elemental.lens.rgb": "방향을 바꾼 투사체의 색상이 계속 순환합니다.",
+        "ars_elemental.page.armor_set.air": (
+            "공기 학파에 조율된 방어구입니다. 각 부위는 공기 문양을 강화하고 마나 "
+            "비용을 줄이며, 낙하·비행 중 벽 충돌·번개 같은 공기 계열 피해를 "
+            "줄입니다.$(br)전 부위를 착용하면 줄인 피해를 마나로 바꾸고 낙하 피해를 "
+            "더욱 크게 줄입니다."
+        ),
+        "ars_elemental.page.armor_set.aqua": (
+            "물 학파에 조율된 방어구입니다. 각 부위는 물 문양을 강화하고 마나 비용을 "
+            "줄이며, 익사·동결·번개 같은 물 계열 피해를 줄입니다.$(br)전 부위를 "
+            "착용하면 줄인 피해를 마나로 바꾸고 익사 직전에 호흡 게이지를 채웁니다."
+        ),
+        "ars_elemental.page.armor_set.earth": (
+            "대지 학파에 조율된 방어구입니다. 각 부위는 대지 문양을 강화하고 마나 "
+            "비용을 줄이며, 굶주림·달콤한 열매 덤불·선인장·압착 같은 대지 계열 "
+            "피해를 줄입니다.$(br)전 부위를 착용하면 줄인 피해를 마나로 바꾸고, 지하 "
+            "깊은 곳에서 굶기 직전이면 허기를 채웁니다."
+        ),
+        "ars_elemental.page.armor_set.fire": (
+            "화염 학파에 조율된 방어구입니다. 각 부위는 화염 문양을 강화하고 마나 "
+            "비용을 줄이며, 용암·드래곤 브레스·마그마 같은 화염 계열 피해를 "
+            "줄입니다.$(br)전 부위를 착용하면 줄인 피해를 마나로 바꾸고 붙은 불을 "
+            "즉시 끕니다."
+        ),
+        "ars_elemental.page.armor_set.wip": (
+            "참고: 방어구 개편에는 많은 리소스 작업이 필요하므로 경량과 중량 원소 "
+            "방어구는 아직 중형 방어구의 외형을 사용합니다. 업그레이드하면 마법 "
+            "부여와 실타래가 유지되지만, 기본 방어구가 3티어여야 합니다."
+        ),
+        "ars_elemental.page.book_protection": (
+            "이 마도서 업그레이드는 선인장이나 용암처럼 대부분의 피해로부터 마도서를 "
+            "보호합니다. 다만 공허에서는 안전을 보장하지 않습니다. 금색 장식은 "
+            "네더라이트처럼 검게 바뀌며, 클라이언트 설정에서 이 효과를 끌 수 있습니다."
+        ),
+        "ars_elemental.page.curio_bag": (
+            "마법 장신구가 인벤토리를 가득 채운다면 메이지블룸 섬유로 장신구 주머니를 "
+            "만들어 보세요. 단축바나 Curios 슬롯에 있을 때 "
+            "$(k:ars_elemental.open_pouch) 키로 열 수 있습니다. 더 크고 염색할 수 있는 "
+            "주문시전자 가방으로 업그레이드할 수도 있습니다."
+        ),
+        "ars_elemental.page1.curio_bag": (
+            "마법 장신구가 인벤토리를 가득 채운다면 메이지블룸 섬유로 장신구 주머니를 "
+            "만들어 보세요. 단축바나 Curios 슬롯에 있을 때 "
+            "$(k:ars_elemental.open_pouch) 키로 열 수 있습니다. 더 크고 염색할 수 있는 "
+            "주문시전자 가방으로 업그레이드할 수도 있습니다."
+        ),
+        "ars_elemental.page.elemental_tweaks": (
+            "Ars Elemental이 설치되면 다음 변경 사항이 적용됩니다:$(br)마법 부여사의 "
+            "방패로 막을 때 반응 효과가 발동할 수 있습니다.$(br)소환한 번개는 아이템을 "
+            "파괴하지 않습니다.$(br)분쇄를 섬세함으로 보강하면 아이템을 가공할 수 "
+            "있습니다.$(br)급속 냉각은 얼어붙는 중인 몹에게 더 큰 피해를 줍니다.$(br)"
+            "점화는 얼음 블록을 물로 녹입니다."
+        ),
+        "ars_elemental.page.everfull_urn": (
+            "이 마법 항아리는 마나를 물로 바꿉니다. 도미니언 완드로 가마솥이나 "
+            "약제상을 항아리에 연결하면 적은 마나를 소비해 자동으로 물을 채웁니다."
+        ),
+        "ars_elemental.page.anima": (
+            "아니마 학파는 삶과 죽음, 그 사이를 이해하려던 소환과 보호 학파의 "
+            "마법사들에게서 갈라져 나왔습니다. 이 학파의 정수는 삶과 죽음 사이를 "
+            "순환합니다. 실험에 따르면 말도 살, 스켈레톤, 좀비 형태를 차례로 "
+            "오간다는데, 과연 처음과 같은 말일까요?"
+        ),
+        "ars_elemental.page.anima_bangle": (
+            "아니마 주문의 피해를 높이는 팔찌입니다. 팔에서 삶과 죽음의 순환이 "
+            "느껴지며, 적중한 적을 무작위로 회복시키거나 시들게 하고 착용자의 최대 "
+            "체력도 조금 높입니다."
+        ),
+        "ars_elemental.page.necrotic_focus": (
+            "소환 포커스에 사악한 에너지를 주입하면 강령술 포커스로 타락시킬 수 "
+            "있습니다. 아니마 학파 문양에는 시간 연장 2회가 무료로 적용되고, 회복에는 "
+            "증폭 2회가 적용되며, 현혹은 언데드에게 성공할 확률이 크게 높아집니다. "
+            "군마 소환은 물속에서 걷고 숨 쉴 수 있는 해골 군마 소환으로 바뀝니다."
+        ),
+        "ars_elemental.page.schools": (
+            "대부분의 문양은 특정 마법 학파에 속합니다. 원소 학파에는 화염, 물, 공기, "
+            "대지가 있으며, 그 밖에 조작, 소환, 보호, 아니마 학파가 있습니다. 마법 "
+            "장비는 특정 학파에 조율되어 그 학파의 문양이 든 주문을 강화하거나 마나 "
+            "비용을 줄일 수 있습니다."
+        ),
+        "ars_elemental.page1.base_bangle": (
+            "주문 피해를 일정 확률로 높이는 마법 장신구입니다. 아직 마법이 불안정하지만 "
+            "특정 학파에 조율하면 능력을 안정시킬 수 있을지도 모릅니다."
+        ),
+        "ars_elemental.page1.mark_of_mastery": (
+            "원소 방어구 세트는 네 원소 학파에 조율되어 있습니다. 각 부위는 해당 "
+            "학파의 문양을 강화하고 마나 비용을 줄이며, 관련 원소 피해를 줄입니다. 전 "
+            "부위를 착용하면 줄인 피해 일부를 마나로 바꾸고 특수 효과를 발동할 수 "
+            "있습니다."
+        ),
+        "ars_elemental.page2.mermaid": (
+            "사이렌 제단은 시간이 지나면 낚시 전리품을 만들며, 주기마다 마나를 "
+            "소비합니다. 주변에 다양한 물 생물과 수생 식물이 많을수록 아이템 수와 "
+            "보물을 얻을 확률이 높아집니다. 사이렌이 즐겁게 지낼 수 있도록 제단 주변에 "
+            "수족관이나 연못을 꾸며 주세요. [참고: 점수 갱신에는 시간이 걸립니다.]"
+        ),
+        "ars_elemental.page2.siren_charm": (
+            "사이렌 제단은 시간이 지나면 낚시 전리품을 만들며, 주기마다 마나를 "
+            "소비합니다. 주변에 다양한 물 생물과 수생 식물이 많을수록 아이템 수와 "
+            "보물을 얻을 확률이 높아집니다. 사이렌이 즐겁게 지낼 수 있도록 제단 주변에 "
+            "수족관이나 연못을 꾸며 주세요. [참고: 점수 갱신에는 시간이 걸립니다.]"
+        ),
+        "ars_elemental.page.water_upstream": (
+            "이 블록은 상승 수류를 만들어, 주변 물속 개체가 물 원천 블록 안에 있지 "
+            "않아도 거품 기둥처럼 위로 떠오르게 합니다. 웅크리면 아래로 내려갈 수 "
+            "있습니다."
+        ),
+        "ars_elemental.page1.advanced_prism": (
+            "특정 블록을 향하도록 조절할 수 있는 주문 프리즘 업그레이드입니다. "
+            "방향을 바꾼 투사체를 변형하는 렌즈를 장착할 수 있지만 피스톤으로 밀 수는 "
+            "없습니다. 도미니언 완드로 목표 블록을 지정하고, Shift+우클릭으로 렌즈를 "
+            "제거합니다. 일부 렌즈는 주문을 확장하기 위해 투사체의 방향을 바꿀 때마다 "
+            "마나가 필요하며, 한도는 설정에서 바꿀 수 있습니다."
+        ),
+        "ars_elemental.page2.advanced_prism": (
+            "고급 프리즘에 프리즘 렌즈를 장착하면 투사체의 방향 전환 방식을 바꿀 수 "
+            "있습니다. 곡사 및 유도 렌즈는 투사체를 해당 유형으로 바꾸고, 가속 및 감속 "
+            "렌즈는 속도를 조절합니다."
+        ),
+        "ars_elemental.page1.flashing_archwood": (
+            "이 황금빛 아크우드는 하늘과 친화력이 있습니다. 다른 아크우드처럼 여러 "
+            "곳과 전용 생물 군계에서 발견되며, 의식용 석판 재료나 은은한 광원으로 "
+            "쓸 수 있습니다. 해당 윌드 워커는 적을 공중으로 띄우고 바람 칼날로 "
+            "공격합니다."
+        ),
+        "ars_elemental.page1.necrotic_focus": (
+            "소환한 늑대, 언데드, 벡스는 처음에는 달라 보이지 않습니다. 하지만 "
+            "소환자가 이 포커스를 착용한 상태에서 죽으면 피에 굶주린 채 한 번 "
+            "부활합니다. 이 언데드 소환수들은 시전자가 유도 주문을 시전할 때 함께 "
+            "시전하고, 적을 처치할 때마다 시전자를 회복시킵니다."
+        ),
+        "ars_elemental.page2.fire_focus": (
+            "이 포커스는 점화를 강화해 마법 화상을 부여합니다. 마법 화상은 화염 "
+            "저항이 있는 몹에게도 섬광이 피해를 주고 번지게 하며, 마법 피해가 방어력 "
+            "일부를 관통하게 하지만 대지 피해는 약해집니다. 군마 소환은 탈 수 있는 "
+            "스트라이더를 소환합니다. 점화와 증발을 조합하면 얼음을 승화시킵니다."
+        ),
+        "ars_elemental.page2.water_focus": (
+            "이 포커스는 빙결을 강화해 대상의 동결 수치를 쌓고, 끝내 잠시 얼어붙게 "
+            "하여 회복을 막습니다. 물 생성 뒤에 사용하면 생성한 물이 얼음으로 "
+            "바뀝니다. 군마 소환은 탈 수 있는 돌고래를 소환하며, 물 밖으로 뛰어오르는 "
+            "때를 맞추면 속도가 붙습니다. 물 생물에게 주는 모든 익사 피해는 마법 "
+            "피해로 바뀝니다."
+        ),
+        "ars_elemental.ritual_desc.ritual_attraction": (
+            "화로가 반경 8블록 안의 개체를 끌어당기는 자석처럼 작동합니다. 플레이어와 "
+            "보스에게는 작동하지 않습니다. 대지 정수로 강화하면 범위가 늘어납니다."
+        ),
+        "ars_elemental.ritual_desc.ritual_squirrels": (
+            "주변 별다람쥐에게 긴 신속 효과를 부여합니다. 반경 15블록 안에서 30초마다 "
+            "효과를 갱신하며, 금 블록으로 강화하면 반경이 30블록으로 늘어납니다."
+        ),
+        "ars_elemental.ritual_desc.ritual_tesla_coil": (
+            "의식 범위에 접근한 개체에게 번개를 내리칩니다. 공기 정수로 강화하면 "
+            "플레이어도 대상으로 삼습니다. [화로를 중심으로 11x7x11블록]"
+        ),
+        "ars_nouveau.augment_desc.glyph_mist_glyph_extend_time": (
+            "안개 구름의 지속 시간을 늘립니다."
+        ),
+        "effect.ars_elemental.hellfire": "마법 화상",
+        "effect.ars_elemental.hellfire.description": (
+            "마법 불꽃은 네더 생물까지 태워 화염에 취약하게 만듭니다. 받는 대지 "
+            "피해는 조금 줄지만, 마법 피해가 방어력 일부를 관통합니다."
+        ),
+        "entity.ars_elemental.lerp": "보간된 마나 효과",
+        "item.ars_elemental.rainbow_prism_lens": "무지개 프리즘 렌즈 [제거됨]",
+    },
+    "not_enough_glyphs": {
+        "not_enough_glyphs.perk_desc.thread_air_focus": (
+            "주문 결속기의 표지 인장입니다. 공기 포커스를 장착한 것처럼 문양 조합을 "
+            "활성화합니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_cheap_damage": (
+            "주문 결속기의 표지 인장입니다. 장착한 책으로 시전하는 주문의 마나 비용을 "
+            "크게 줄이지만 피해량도 크게 줄입니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_fire_focus": (
+            "주문 결속기의 표지 인장입니다. 화염 포커스를 장착한 것처럼 문양 조합을 "
+            "활성화합니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_knockback": (
+            "주문 결속기의 표지 인장입니다. 주문 결속기를 근접 무기로 사용할 때 "
+            "밀쳐내기를 늘립니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_scritchance": (
+            "주문 결속기의 표지 인장입니다. 주문의 치명타 확률을 높입니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_scritdamage": (
+            "주문 결속기의 표지 인장입니다. 주문의 치명타 피해를 높입니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_shaper_focus": (
+            "주문 결속기의 표지 인장입니다. 블록 조형 포커스를 장착한 것처럼 문양 "
+            "조합을 활성화합니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_sharp_paper": (
+            "주문 결속기의 표지 인장입니다. 주문 결속기를 무기로 사용할 때 근접 "
+            "피해를 높입니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_slow_power": (
+            "주문 결속기의 표지 인장입니다. 장착한 책으로 시전하는 주문의 피해량을 "
+            "높이지만 속도를 크게 줄입니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_summon_focus": (
+            "주문 결속기의 표지 인장입니다. 소환 포커스를 장착한 것처럼 문양 조합을 "
+            "활성화합니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_water_focus": (
+            "주문 결속기의 표지 인장입니다. 물 포커스를 장착한 것처럼 문양 조합을 "
+            "활성화합니다."
+        ),
+        "not_enough_glyphs.perk_desc.thread_wild_magic": (
+            "주문 결속기의 표지 인장입니다. 장착하면 주문 효과에 이로운 보강을 "
+            "무작위로 추가합니다."
+        ),
+    },
+    "allthearcanistgear": {
+        "chat.allthearcanistgear.low_tier": "이 블록을 부수려면 더 강력한 마도서가 필요합니다.",
+        "item.allthearcanistgear.allthemodium_spell_book": "Allthemodium 마도서",
+        "item.allthearcanistgear.creative_spell_book": "크리에이티브 마도서",
+        "item.allthearcanistgear.unobtainium_spell_book": "Unobtainium 마도서",
+        "item.allthearcanistgear.vibranium_spell_book": "Vibranium 마도서",
+        "tab.allthearcanistgear": "All the Arcanist Gear",
+    },
+}
+
+FILTER_TYPES = {
+    "aerial": "공중 생물",
+    "aquatic": "물 생물",
+    "fiery": "화염 면역 또는 화염 생물",
+    "insect": "절지동물",
+    "summon": "소환된 생물",
+    "undead": "언데드",
+}
+for filter_name, target_name in FILTER_TYPES.items():
+    QUALITY_OVERRIDES["ars_elemental"].update(
+        {
+            f"ars_elemental.glyph_name.glyph_{filter_name}_filter": (
+                f"필터: {target_name}"
+            ),
+            f"ars_elemental.glyph_name.glyph_not_{filter_name}_filter": (
+                f"필터: {target_name} 제외"
+            ),
+            f"ars_elemental.glyph_desc.glyph_{filter_name}_filter": (
+                f"대상이 {target_name}이면 주문의 나머지 부분을 처리하지 않습니다."
+            ),
+            f"ars_elemental.glyph_desc.glyph_not_{filter_name}_filter": (
+                f"대상이 {target_name}이(가) 아니면 주문의 나머지 부분을 처리하지 않습니다."
+            ),
+        }
+    )
+
+for namespace, overrides in QUALITY_OVERRIDES.items():
+    KEY_OVERRIDES.setdefault(namespace, {}).update(overrides)
+
 QUEST_OVERRIDES = {
     "ars_nouveau": {
         "quest.17D7D34F519F7E5F.quest_desc": (
@@ -553,6 +1150,170 @@ QUEST_OVERRIDES = {
         "quest.29D28983E0200A3C.title": "&d&lArs Nouveau",
     },
 }
+
+QUEST_QUALITY_OVERRIDES = {
+    "ars_nouveau": {
+        "quest.0A1ABE9CF7740AAA.title": "마나 비용 감소의 반지",
+        "quest.0D330FAD6C993DBC.quest_desc": (
+            "마도서의 다음 업그레이드입니다! \n\n최대 마나와 마나 재생량이 늘어나고, "
+            "2티어 문양을 제작하고 사용할 수 있습니다."
+        ),
+        "quest.151648179684B088.quest_desc": (
+            "룬 분필은 땅에 영구적인 룬을 그릴 때 사용합니다. 이 룬은 위를 지나가는 "
+            "개체에게 주문을 시전합니다.\n\n룬에 주문을 연결하려면 필기 작업대에서 "
+            "&e주문 양피지&r에 주문을 새기세요.\n\n참고: 룬이 작동하려면 마나가 "
+            "필요합니다."
+        ),
+        "quest.17D7D34F519F7E5F.quest_desc": (
+            "최종 티어 마도서를 만들려면 &6와일든 키메라&r를 처치해야 합니다. "
+            "\n\n&9의식용 화로&r에서 의식을 수행하세요."
+        ),
+        "quest.1D86B2E553503E53.title": "소환수 다루기",
+        "quest.295C77EEC89000FC.quest_subtitle": ("몹 처치와 동물 번식으로 마나 생성"),
+        "quest.2D0CF18C8B2ABB7D.quest_desc": (
+            "자라는 식물이나 묘목 근처에 놓으면 마나를 생성합니다. 아크우드는 더 많은 "
+            "마나를 생성합니다!\n\n참고: 뼛가루로 성장시키면 마나가 생성되지 않습니다."
+        ),
+        "quest.2D0CF18C8B2ABB7D.quest_subtitle": "식물 성장으로 마나 생성",
+        "quest.3D4D88B8BE881351.quest_desc": (
+            "더 강력한 주문을 쓰려면 &6필기 작업대&r에서 마도서의 새 문양을 해금해야 "
+            "합니다.\n\n문양은 3개 티어로 나뉘며, 제작할 때 경험치와 아이템이 "
+            "필요합니다.\n\n필기 작업대에서는 주문 양피지에 주문도 새길 수 있습니다. "
+            "양피지를 작업대에 놓고 마도서에서 주문을 선택한 뒤, 웅크린 채 작업대에 "
+            "마도서를 우클릭하세요.\n\n문양을 제작하려면 마도서를 들고 작업대를 "
+            "우클릭한 다음 원하는 문양을 찾아 아래의 '선택'을 누르세요. 필요한 "
+            "아이템을 작업대에 넣으면 문양이 만들어지며, 완성된 문양을 사용하면 "
+            "배울 수 있습니다.\n\n참고: 작업대는 주변 보관함에서 아이템을 가져올 수 "
+            "있습니다."
+        ),
+        "quest.3D862A3D3F83CA26.quest_desc": [
+            "&9마법 부여 장치&r는 모드의 여러 아이템을 제작하며, 작동하려면 마나가 "
+            "필요합니다.\n\n아케인 받침대를 사용하는 멀티블록 구조입니다.\n\n먼저 "
+            "땅에 아케인 코어를 놓고 그 위에 마법 부여 장치를 설치하세요. 장치 "
+            "주변에는 아케인 받침대를 배치하세요.\n",
+            "{image:atm:textures/questpics/ars/enchanting_app.png width:200 "
+            "height:175 align:1}",
+        ],
+        "quest.41A0BE357C8A74E1.quest_desc": (
+            "&9연금술 마나링크&r는 인접한 물약 단지의 물약을 소비해 마나를 "
+            "생성합니다.\n\n생성량은 물약의 종류와 복잡도에 따라 달라집니다."
+        ),
+        "quest.41A0BE357C8A74E1.quest_subtitle": "물약으로 마나 생성",
+        "quest.51162B9185A45BB1.quest_desc": (
+            "이 활에는 필기 작업대에서 주문을 새길 수 있습니다. \n\n마나를 소비하면 "
+            "화살이 주문 화살로 바뀌어 대상에게 새긴 주문을 적용합니다. \n\n화살이 "
+            "없으면 피해량이 0인 주문 화살을 발사하고, 마나가 부족하면 일반 화살을 "
+            "발사합니다. \n\n&9마법 부여자의 활&r에는 새긴 주문을 강화하는 특수 보강 "
+            "화살도 사용할 수 있습니다."
+        ),
+        "quest.542C6D76B579886C.quest_desc": (
+            "마법 부여 장치로 첫 번째 &5마법꽃 씨앗&r을 제작하세요. \n\n이 씨앗에서 "
+            "얻은 재료로 마법 방어구를 만들 수 있습니다!"
+        ),
+        "quest.5766C8B9E850C186.quest_desc": [
+            "Ars의 주요 제작 재료인 &9마나 보석&r을 만들려면 &6주입 챔버&r가 "
+            "필요합니다. \n\n주입 챔버는 아이템을 주입할 때 마나를 소비합니다. 자체적으로 "
+            "소량의 마나를 만들지만 마나 단지를 동력원으로 사용할 수도 있습니다. "
+            "\n\n일부 조합에는 주변의 아케인 받침대도 필요합니다.\n",
+            "{image:atm:textures/questpics/ars/imbuement.png width:200 height:150 "
+            "align:1}",
+        ],
+        "quest.58EC47584C773B82.quest_desc": (
+            "마법 부여 장치로 첫 번째 &5마법꽃 씨앗&r을 제작하세요. \n\n이 씨앗에서 "
+            "얻은 재료로 마법 방어구를 만들 수 있습니다!"
+        ),
+        "quest.5C3FF43CF16BCF30.quest_desc": (
+            "마나 보석으로 &5마나석&r을 만들면 여러 마법 장치를 제작할 수 있습니다."
+        ),
+        "quest.5C3FF43CF16BCF30.quest_subtitle": '이전 명칭: "아케인 스톤"',
+        "quest.5C3FF43CF16BCF30.title": "마나석",
+        "quest.5CFBA24B3E0CDEDD.quest_desc": [
+            "마도서를 들고 C 키를 누르면 주문 제작 화면이 열립니다.\n\n모든 주문에는 "
+            "형태가 하나 필요합니다. 처음에는 투사체, 자신, 닿기의 3가지 형태를 사용할 수 "
+            "있습니다.\n\n효과는 주문이 실제로 무엇을 할지 결정하며, 주문 하나에 최대 "
+            "9개까지 넣을 수 있습니다.\n\n처음에는 피해와 파괴를 사용할 수 있습니다."
+            "\n\n형태 하나와 효과 하나를 선택하고 주문 이름을 지은 뒤 '생성'을 누르세요!",
+            "",
+            "{image:atm:textures/questpics/ars/spellbook.png width:200 height:150 align:1}",
+        ],
+        "quest.63DD7F5A4441ACE7.quest_desc": (
+            "2티어 문양을 만들려면 경험치 5레벨이 필요합니다.\n\n또한 "
+            "&9마법사의 마도서&r가 필요합니다."
+        ),
+        "quest.64D0E66CB4FBEC82.quest_desc": (
+            "시작하려면 &6초보자의 마도서&r를 제작하세요! \n\n마도서에서는 주문을 "
+            "만들고 저장할 수 있습니다. \n\n&9C&r 키를 누르면 '주문 만들기' 화면이 "
+            "열립니다. 왼쪽의 주요 3개 탭은 주문 제작, 색상 선택기, 사역마입니다. "
+            "\n\n초보자의 마도서로는 1티어 문양만 만들고 사용할 수 있습니다. 더 "
+            "강력한 주문을 만들려면 마도서를 업그레이드하세요!"
+        ),
+        "quest.64D0E66CB4FBEC82.quest_subtitle": "첫 번째 마도서",
+        "quest.64D0E66CB4FBEC82.title": "마도서",
+        "quest.6A1C0B17B22CE50F.title": "마나 부적",
+        "quest.6B511C8B572E8940.quest_desc": (
+            "화면 왼쪽 아래의 막대는 현재 마나를 보여 줍니다!\n\n모드를 진행하면 최대 "
+            "마나를 늘리거나 주문 효율을 높이는 여러 수단을 얻습니다. 마도서를 "
+            "업그레이드해도 최대 마나가 늘어납니다!"
+        ),
+        "quest.6B511C8B572E8940.quest_subtitle": "마법사의 마나",
+        "quest.6F3602F5600A6221.quest_desc": (
+            "3티어 문양을 만들려면 경험치 10레벨이 필요합니다. \n\n"
+            "&6대마법사의 마도서&r도 필요합니다."
+        ),
+        "quest.77145113CD5B26FB.quest_desc": (
+            "마나 열매는 다른 음식보다 더 많은 마나를 생성합니다.\n\n주변 3x3 "
+            "범위의 잔디나 흙을 균사체로 바꾸고, 빈 공간에는 버섯도 자라게 합니다."
+        ),
+        "quest.77145113CD5B26FB.quest_subtitle": "주변 음식으로 마나 생성",
+        "task.03EB390E79866058.title": "마나석",
+    },
+    "related": {
+        "quest.3D78D9F4E8A60EDB.quest_desc": (
+            "현재 조합은 비교적 간단해서 &d마나 단지&r 4개, &d마나 보석 블록&r "
+            "4개와 &6&lATM의 별&r만 필요합니다. 걱정 마세요, 나중에는 더 어려워질 "
+            "거예요! \n\n이 단지는 언제나 &d마나&r로 가득 차 있으며, &d마나&r가 필요한 "
+            "모든 장치에 연결할 수 있습니다. &6&lATM의 별&r 멀티블록도 포함됩니다."
+        ),
+        "quest.66E88F916B638B3B.quest_desc": (
+            "조금 헷갈릴 수 있습니다. &5크리에이티브 &e마도서&r가 여러 개 있거든요! "
+            "여기서 필요한 것은 &d&lAll the Arcanist Gear&r의 마도서입니다. \n\n이 "
+            "마도서를 만들려면 먼저 &l&dArs Nouveau&r의 크리에이티브 &e마도서&r를 "
+            "제작해야 합니다. 그 조합에는 &e대마법사의 마도서&r, &6&lATM의 별&r, "
+            "몇 가지 추가 아이템이 필요합니다. \n\n&eUnobtainium 마도서&r와 성능은 "
+            "같지만 마나가 무한하고 모든 문양이 해금되어 있습니다! \n\n모든 주문 "
+            "위력을 손에 넣는 겁니다. 으하하하!"
+        ),
+        "quest.66E88F916B638B3B.title": "&5&l크리에이티브 &e마도서",
+        "quest.762581CAE5F5DDC1.quest_desc": [
+            "멋진 마법 모드네요! &d&lArs Nouveau&r의 마법 부여 장치로 "
+            "&5Unobtainium&r과 &6Allthemodium&r을 결합합니다! \n\n마법 부여 장치는 "
+            "여러 조합에 쓰이는 멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 "
+            "놓고, 같은 Y 높이의 주변에 받침대를 배치하세요. \n\n받침대에 재료를 "
+            "순서와 관계없이 올리고 주변에 마나를 준비한 뒤 장치에 마나 보석을 넣으면 "
+            "제작이 시작됩니다. 그러면 &5Unobtainium&r-&6Allthemodium&r 합금 주괴가 "
+            "완성됩니다!\n",
+            '{ "text": "Ars Nouveau 퀘스트", "color": "#55FF55", '
+            '"underlined": true, "clickEvent": { "action": "change_page", '
+            '"value": "6AEDA2F9BEB57759" } }',
+        ],
+        "quest.0ABB2264CBB82470.quest_desc": "&d&lArs&r 철 등급 방어구입니다.",
+        "quest.0ABB2264CBB82470.title": "&5아케니스트 복장",
+        "quest.0E2515424291BB59.quest_desc": (
+            "&b다이아몬드&r 등급의 &d&lArs&r 방어구입니다!"
+        ),
+        "quest.19F58E291A543228.quest_desc": "&e금&r 등급의 &d&lArs&r 방어구입니다!",
+        "quest.2296CE4418AE62D4.title": "&6Allthemodium 아케니스트 장비",
+        "quest.29D28983E0200A3C.quest_desc": (
+            "&l&dArs Nouveau&r는 마도서에 문양을 조합해 원하는 주문을 시전하는 마법 "
+            "모드입니다!"
+        ),
+        "quest.3512F47DADC07EAE.title": "&5Unobtainium 아케니스트 장비",
+        "quest.52AFABA08674B6A8.title": "&3Vibranium 아케니스트 장비",
+    },
+}
+for scope, overrides in QUEST_QUALITY_OVERRIDES.items():
+    QUEST_OVERRIDES.setdefault(scope, {}).update(overrides)
+
 GUIDE_EXTRA_ENGLISH = {
     "ars_nouveau.page.apparatus_crafting": "Apparatus Crafting",
     "ars_nouveau.page.archwood_forest": "Archwood Forest",
@@ -695,7 +1456,7 @@ GUIDE_EXTRA_KOREAN = {
     "ars_nouveau.page.world_generation": "월드 생성",
     "ars_nouveau.page1.apparatus_crafting": (
         "마법 부여 장치는 Ars Nouveau 진행에 필요한 특수 기계, Curios 장신구와 "
-        "장비를 제작합니다. 제작 구조에는 비전 받침대 최대 8개, 비전 코어와 마법 "
+        "장비를 제작합니다. 제작 구조에는 아케인 받침대 최대 8개, 아케인 코어와 마법 "
         "부여 장치가 필요합니다. 구조를 완성했다면 첫 마법꽃 씨앗을 제작하세요."
     ),
     "ars_nouveau.page1.archwood_forest": (
@@ -728,9 +1489,9 @@ GUIDE_EXTRA_KOREAN = {
         "부양의 벨트를 사용하세요. 공허의 단지로 채굴 효율을 높일 수도 있습니다."
     ),
     "ars_nouveau.page1.upgrades": (
-        "2티어와 3티어 문양에는 각각 수습생과 대마법사의 주문서가 필요합니다. 높은 "
-        "등급의 주문서는 높은 등급 주문을 시전하고 자동화에 사용할 수 있게 하며, "
-        "최대 마나와 마나 재생량도 늘립니다. 주문서를 업그레이드할 수 있게 되면 "
+        "2티어와 3티어 문양에는 각각 마법사와 대마법사의 마도서가 필요합니다. 높은 "
+        "등급의 마도서는 높은 등급 주문을 시전하고 자동화에 사용할 수 있게 하며, "
+        "최대 마나와 마나 재생량도 늘립니다. 마도서를 업그레이드할 수 있게 되면 "
         "로브도 다음 등급으로 올려 주문 능력을 더 강화하세요."
     ),
     "ars_nouveau.page1.world_generation": (
@@ -740,19 +1501,19 @@ GUIDE_EXTRA_KOREAN = {
     ),
     "ars_nouveau.page2.spell_casting": (
         "다음으로 원하는 만큼 $(bold)효과$()를 연결하세요. 효과는 주문이 "
-        "$(italic)무엇$()을 할지 정하며, 주문이 맞은 대상이나 위치에서 주문서에 "
+        "$(italic)무엇$()을 할지 정하며, 주문이 맞은 대상이나 위치에서 마도서에 "
         "배치한 순서대로 발동합니다. $(bold)보강$()은 효과나 형태의 작동 방식을 "
         "바꿉니다. $(bold)보강$()은 효과 또는 형태 뒤에 놓으며, 바로 "
         "$(bold)왼쪽$() 문양에만 적용됩니다. 여러 보강을 이어 같은 효과나 형태에 "
         "함께 적용할 수도 있습니다."
     ),
     "ars_nouveau.page2.spell_mana": (
-        "주문서에 문양을 추가하면 최대 마나와 마나 재생량도 늘어납니다. 이 보너스는 "
-        "주문서 등급에 따라 커집니다."
+        "마도서에 문양을 추가하면 최대 마나와 마나 재생량도 늘어납니다. 이 보너스는 "
+        "마도서 등급에 따라 커집니다."
     ),
     "ars_nouveau.page3.spell_casting": (
         "주문을 다른 탭에 지정하려면 오른쪽에서 탭을 선택하고 위 과정을 반복하세요. "
-        "주문서에는 여러 단축키가 있습니다. $(br)주문서 열기: "
+        "마도서에는 여러 단축키가 있습니다. $(br)마도서 열기: "
         "$(k:ars_nouveau.open_book) $(br)빠른 선택: "
         "$(k:ars_nouveau.selection_hud) $(br)다음 주문: "
         "$(k:ars_nouveau.next_slot) $(br)이전 주문: "
@@ -1083,12 +1844,38 @@ def normalize_korean(value: str) -> str:
         ("크리에이트", "Create"),
         ("Dominion Wand", "도미니언 완드"),
         ("도미니언 지팡이", "도미니언 완드"),
+        ("Source Gem", "마나 보석"),
         ("Source Jar", "마나 단지"),
         ("Source Relay", "마나 전달체"),
+        ("Sourcelink", "마나링크"),
+        ("Archwood", "아크우드"),
         ("Source", "마나"),
         ("소스", "마나"),
+        ("근원", "마나"),
+        ("아치우드", "아크우드"),
+        ("아치나무", "아크우드"),
         ("글리프", "문양"),
         ("엔터티", "개체"),
+        ("스타번클", "별다람쥐"),
+        ("드라이그미", "드리그미"),
+        ("위시", "윅시"),
+        ("패밀리어", "사역마"),
+        ("주문 집중기", "주문 포커스"),
+        ("소환 집중기", "소환 포커스"),
+        ("집중기", "포커스"),
+        ("하위 포커스", "하급 포커스"),
+        ("주요 포커스", "상급 포커스"),
+        ("마법 학교", "마법 학파"),
+        ("학교", "학파"),
+        ("비전 받침대", "아케인 받침대"),
+        ("비전 코어", "아케인 코어"),
+        ("비전 렌치", "아케인 렌치"),
+        ("비전 압축기", "아케인 압축기"),
+        ("비전 포장기", "아케인 포장기"),
+        ("비전 망치", "아케인 망치"),
+        ("마법책", "마도서"),
+        ("주문 책", "마도서"),
+        ("주문책", "마도서"),
         ("마우스 오른쪽 버튼을 클릭", "우클릭"),
         ("마우스 오른쪽 버튼으로 클릭", "우클릭"),
         ("오른쪽 클릭", "우클릭"),
@@ -1097,6 +1884,33 @@ def normalize_korean(value: str) -> str:
         ("폭도를 죽일 때", "몹을 처치할 때"),
         ("마나 할인", "마나 비용 감소"),
         ("스레드", "실타래"),
+        ("두번째", "두 번째"),
+        ("세가지", "세 가지"),
+        ("때 마다", "때마다"),
+        ("할때", "할 때"),
+        ("하게됩니다", "하게 됩니다"),
+        ("필요로합니다", "필요로 합니다"),
+        ("상태이상", "상태 이상"),
+        ("마나 비용 감소을", "마나 비용 감소 효과를"),
+        ("마나을", "마나를"),
+        ("마나이", "마나가"),
+        ("증폭되고 할인됩니다", "강화되고 마나 비용이 감소합니다"),
+        ("증폭시키고 할인합니다", "강화하고 마나 비용을 줄입니다"),
+        ("증폭하고 할인합니다", "강화하고 마나 비용을 줄입니다"),
+        ("부여 할", "부여할"),
+        ("사냥했을때", "사냥했을 때"),
+        ("광역로", "광역으로"),
+        ("잠깐동안", "잠깐"),
+        ("잠시후", "잠시 후"),
+        ("되는거 처럼", "되는 것처럼"),
+        ("하는거 처럼", "하는 것처럼"),
+        ("들고있는", "들고 있는"),
+        ("되게할", "되게 할"),
+        ("적용 시킬", "적용할"),
+        ("부딫", "부딪"),
+        ("좋지않은", "성능이 낮은"),
+        ("cpu", "CPU"),
+        ("optifine", "OptiFine"),
     )
     for before, after in replacements:
         value = value.replace(before, after)

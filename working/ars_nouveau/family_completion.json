@@ -1,9 +1,9 @@
 {
   "family": "Ars Nouveau",
   "language_provenance": {
-    "bundled_exact_reuse": 2394,
-    "legacy_exact_reuse": 1044,
-    "new_or_edited": 748
+    "bundled_exact_reuse": 2302,
+    "legacy_exact_reuse": 927,
+    "new_or_edited": 957
   },
   "ftbquests": {
     "chapters": [
@@ -77,7 +77,7 @@
   "deployment": {
     "status": "applied_and_verified",
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp/backups/20260715_122513_609349/backup_manifest.json",
+    "backup_manifest": "temp/backups/20260715_132830_270914/backup_manifest.json",
     "files_checked": 19,
     "hash_matches": 19,
     "unexpected_changes": []
