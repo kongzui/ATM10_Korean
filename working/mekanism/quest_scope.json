@@ -1,0 +1,20 @@
+{
+  "family": "Mekanism",
+  "chapters": {
+    "mekanism": {
+      "display_keys": 235,
+      "new_translation_required": 21,
+      "project_output_review": 214
+    },
+    "mekanism_reactors": {
+      "display_keys": 251,
+      "new_translation_required": 6,
+      "project_output_review": 245
+    },
+    "related": {
+      "display_keys": 86,
+      "new_translation_required": 9,
+      "project_output_review": 77
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "files": [
+    "output\\overrides\\kubejs\\client_scripts\\Mekanism-Tooltips.js",
+    "output\\overrides\\kubejs\\client_scripts\\ponder\\induction_mek.js",
+    "output\\overrides\\kubejs\\client_scripts\\ponder\\fission_mek.js",
+    "output\\overrides\\kubejs\\client_scripts\\ponder\\fusion_reactor.js",
+    "output\\overrides\\kubejs\\client_scripts\\ponder\\fission_mek_logic.js",
+    "output\\overrides\\kubejs\\client_scripts\\ponder\\fission_mek_fuelrod.js",
+    "output\\overrides\\kubejs\\client_scripts\\ponder\\fission_mek_port.js",
+    "output\\overrides\\kubejs\\client_scripts\\ponder\\sps.js",
+    "output\\overrides\\kubejs\\client_scripts\\ponder\\turbine_mek.js",
+    "output\\overrides\\kubejs\\client_scripts\\ponder\\fusion_activate.js"
+  ],
+  "translated_occurrences": 102,
+  "remaining_latin": 0
+}

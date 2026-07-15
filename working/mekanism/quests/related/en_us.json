@@ -1,0 +1,214 @@
+{
+  "quest.00F00B0B66059996.quest_desc": [
+    "Alright another &lMultiblock&r! This one requiring more ports than any Naval Base has seen!\\n\\nWe'll need &3Fluid Input &fand &3Output&r hatches and &6Item Input &fand &6Output&r hatches.\\n\\nNow, this ends up being a bit of a process so follow along carefully!\\n\\nFirst, we'll need &7Unrefined Liquid Souls&r which comes from using a Fluid Extractor (from &lIF&r) on a Soul Tree.\\n\\nNext, we need &dLiquefied Source&r which we can get using a &9Source Condenser&r. A &9Source Condenser&r will pull Source from nearby Source Jars and turn it into &dLiquefied Source&r!\\n\\nThen, we can use the &b&lRunic Crucible&r to combine Souls, &7Unrefined Liquid Souls&r, and &dLiquefied Source&r together into Liquid Souls!\\n\\nFinally, we'll use the Liquid Souls, &dLiquefied Source&r, and some items from &l&5Mekanism&r to craft &5Obsidiansteel&r.",
+    "{@pagebreak}",
+    "{image:atm:textures/questpics/chap3/creative_crucible1.png width:125 height:100 align:center}",
+    "First layer of the &l&bRunic Crucible&r has a &6Gilded Chiseled Polished Darkstone&r in the middle, around it is &9Polished Darkstone&r. Then, on the sides we'll have upside down &9Polished Darkstone Stairs&r, with &7Rune Blocks&r on the corners.",
+    "{image:atm:textures/questpics/chap3/creative_crucible2.png width:125 height:100 align:center}",
+    "Smack dab in the middle we'll put an &bArcane Crystal&r with &9Polished Darkstone Stairs&r around it. On the sides will be &6Arcane Polished Darkstone Pillars&r, &9Polished Darkstone&r which will be replaced by Hatches, and &6Arcane Polished Darkstone&r.",
+    "{image:atm:textures/questpics/chap3/creative_crucible3.png width:125 height:100 align:center}",
+    "Just place &bArcane Crystal Blocks&r on each corner and call it a day!",
+    "{image:atm:textures/questpics/chap3/creative_crucible4.png width:125 height:100 align:center}",
+    "Finally, with a block of space, place the &7Quantum Injector&r above the middle &bArcane Crystal Block&r.",
+    "{image:atm:textures/questpics/chap3/creative_crucible5.png width:150 height:100 align:center}",
+    "{image:atm:textures/questpics/chap3/creative_crucible6.png width:150 height:100 align:center}",
+    "The &9Polished Darkstone blocks&r in the middle layer are where we'll place our Hatches!"
+  ],
+  "quest.4F7F0A5162D70082.quest_desc": [
+    "Don't be confused there is a full and empty &5Creative &aEnergy Cube&r. \\n\\n&aEmpty Cubes&r work as an Energy Trash Can, voiding any Energy coming into it. \\n\\n&aFull Cubes&r work as an infinite energy storage. You'll need &aempty Energy Cubes&r to make it though... and those are expensive! \\n\\nEnergizing 4 &aempty Energy Cubes&r with an &6&lATM Star&r you can get the full one."
+  ],
+  "quest.4F7F0A5162D70082.title": "&5&lCreative &aEnergy Cube",
+  "quest.7C9154EF6068BE27.quest_desc": [
+    "Technically you can also use the Crusher to make the &6&lATM Star&r into 5 &6Star Shards&r... \\n\\nBut you'll need 262 to make a new &6&lStar&r... \\n\\nSo why would you?"
+  ],
+  "quest.7C9154EF6068BE27.title": "But why?",
+  "quest.201EE3566D4D3123.quest_desc": [
+    "To mine &6Allthemodium&r you'll need a Pickaxe that is &cNetherite&r Tier or higher! \\n\\nOnce you finally get the Ore (first I recommend processing it either with Fortune, Occultism, or Mekanism to get more) then you can get a few choices of what to do with it. \\n\\nI recommend making 2 Teleport Pads with the &6Nuggets&r! You can use those to get to the &7&lMining Dimension&r to find more &6Allthemodium&r or &b&lThe Other&r to find other adventures. \\n\\nAfter that I recommend upgrading your Pickaxe so you can Mine &3Vibranium&r. The rest is all up to you!",
+    "{image:atm:textures/questpics/allthemodium/all_1.png width:100 height:100 align:center}"
+  ],
+  "quest.1C27C74722A19FC1.quest_desc": [
+    "With a ton of super expensive &l&5Mekanism&r Items you can upgrade &5Unobtainium Armor&r to the &aMekaSuit&r! \\n\\nNow it can hold Energy and instead of taking hearts from damage, it will take Energy. \\n\\nYou can use Upgrade Units to make it even better!"
+  ],
+  "quest.1C27C74722A19FC1.quest_subtitle": "As much Energy you can supply",
+  "quest.1C27C74722A19FC1.title": "&aMekaSuit",
+  "quest.34D14B807A2DAC0F.quest_desc": [
+    "You think &5&lMekanism&r and &l&7Modern Industrialization&r can have all the fun? \\n\\nThis &5Quantum Armor&r has default stats similar to &cNetherite Armor&r but, like the &aMekaSuit&r it can use Energy as a shield. \\nIt also has upgrades which can be installed to make you even more powerful! Like Flight, Night Vision, and even the ability to recharge. \\n\\nBut the best part is that it can Linked to your Storage System! Then, you can automatically take Energy out from it and take out any Item from it no where you are. "
+  ],
+  "quest.3ABE7074E500494D.quest_desc": [
+    "&7Steel&r is used for most Machines in &5&lMekanism&r... plus Armor which is nice!"
+  ],
+  "quest.3ABE7074E500494D.quest_subtitle": "20",
+  "quest.3ABE7074E500494D.title": "&7Steel Armor",
+  "quest.5865951E4F81C91F.quest_desc": [
+    "&7Osmium&r + &6Glowstone&r = &eRefined Glowstone&r!"
+  ],
+  "quest.5865951E4F81C91F.quest_subtitle": "20",
+  "quest.5865951E4F81C91F.title": "&eRefined Glowstone Armor",
+  "quest.65A529C8238E89F1.quest_desc": [
+    "Thanks to &5&lMekanism&r we can now make Armor out of &9Lapis Lazuli&r! \\n\\nIt kinda blows though..."
+  ],
+  "quest.65A529C8238E89F1.quest_subtitle": "9",
+  "quest.65A529C8238E89F1.title": "&9Lapis Lazuli Armor",
+  "quest.71C552678A0F649F.quest_desc": [
+    "&7Osmium&r spawns around Deepslate and only needs Iron to Mine but it gives better stats than &cNetherite&r!"
+  ],
+  "quest.71C552678A0F649F.quest_subtitle": "21",
+  "quest.71C552678A0F649F.title": "&7Osmium Armor",
+  "quest.7B500E0577BDFF8F.quest_desc": [
+    "&6Bronze&r is a combination of &6Copper&r and Tin. \\n\\nThere is a dozen different ways to make the alloy, I won't tell you the right way to do so."
+  ],
+  "quest.7B500E0577BDFF8F.quest_subtitle": "18",
+  "quest.7B500E0577BDFF8F.title": "&6Bronze Armor",
+  "quest.7FABB77A60E7962C.quest_desc": [
+    "By infusing Obsidian with &bDiamonds&r we can get Refined Obsidian Dust! \\n\\nThen, we can compress &7Osmium&r into it to get it in Ingot form. \\n\\nAfter that, we can turn those Ingots into Armor with better stats than even &6Allthemodium Armor&r!"
+  ],
+  "quest.7FABB77A60E7962C.quest_subtitle": "31",
+  "quest.7FABB77A60E7962C.title": "&5Refined Obsidian Armor",
+  "quest.2329AA0AFBEF1E13.quest_desc": [
+    "&e&lPipez&r is the simplest &f&lLogistics&r Mod. It's so simple that the entire mod is fit in this Quest Page while having room for more Mods!",
+    "",
+    "Attach the specific Pipe to where you want to move items and use the Pipe Wrench to configure what side Pulls, Pushes, or doesn't connect.",
+    "",
+    "Other Wrenches do work with &e&lPipez&r as well!",
+    "",
+    "(Can be laggy when used in mass, still not as laggy as &5&lMekanism&r pipes though)."
+  ],
+  "quest.2A6900E87DE8BAE0.quest_desc": [
+    "Mod Filter is another pretty basic Filter. This one you put Items in and it will do the same with either Whitelisting or Blacklisting. But instead of only being that Item it will be any Item from that Mod. \\n\\nApotheosis Gem will only allow Apotheosis Items. Mekanism Alloy will only allow Mekanism Items. And so on."
+  ],
+  "quest.2F4458E9921DEB86.quest_desc": [
+    "These &e&lPipez&r are mostly due to &5&lMekanism&r. &5&lMekanism&r adds the last state of matter in the form of &aGas&r. &aGas&r can't be moved with any of the other &e&lPipez&r so if you need to move Hydrogen or Lithium you'll need &aGas Pipez&r. \\n\\n(I've always had problems telling whether the &5&lMekanism&r item is &aGas&r, &bFluid&r, or even Infuse Type. When it's in a Machine it might tell &aGas&r or &bFluid&r, which can help teach you. If it doesn't you can check JEI for other recipes that might involve it!)",
+    "{image:atm:textures/questpics/logistics/pipez_gas.png width:200 height:50 align:center}"
+  ],
+  "quest.316B513FE568EF57.quest_desc": [
+    "Heat is another factor in &5&lMekanism&r and it Fuels a lot of Machines and Multiblocks. Thermal Evaporation Plants and Fusion Reactors both use Heat to work. And Conductors is how you will be moving Heat!",
+    "{image:atm:textures/questpics/logistics/meka_conductor.png width:200 height:50 align:center}"
+  ],
+  "quest.34CFE1439262AA72.quest_desc": [
+    "&5&lMekanism&r is a huge and popular Tech Mod, so of course it has &lLogistics&r with it.",
+    "",
+    "The different Machines are picky with Configurations and will need to be changed in their GUI to properly move items. Then you can use the &5&lMeka Pipes&r to move whatever you need to move!",
+    "",
+    "But wait it's not just &5&lMekanism&r these work for! They work for plenty of other machines as well! Just need to be Configured with a Wrench to Push and Pull.",
+    "",
+    "(These can cause a bit of lag when used in mass so be careful with them)."
+  ],
+  "quest.34CFE1439262AA72.title": "&5&lMekanism",
+  "quest.493D04D954E4FBA0.quest_desc": [
+    "&5&lMekanism&r is Tech Mod... why are you surprised it needs Energy for its Machines?",
+    "{image:atm:textures/questpics/logistics/meka_cable.png width:200 height:50 align:center}"
+  ],
+  "quest.4BC2D7FCDD792DBA.quest_desc": [
+    "Because the normal &2&lMinecraft&r Items, Blocks, and Fluids wasn't enough. And the added Heat and Energy wasn't either. \\n\\nThe rest of &5&lMekanism&r is moved with Pressurized Tubes. Gases are the main ones as if you're using &5&lMekanism&r you will be using Gases like Hydrogen and Oxygen. \\nInfuse Types are similar like Coal Infuse and Redstone Infuse. Slurries are used with Ore Processing. \\nAnd Dye Pigments are the essence of Color, any item that is Dyed can be changed with that part of &5&lMekanism&r.",
+    "{image:atm:textures/questpics/logistics/meka_tube.png width:200 height:50 align:center}"
+  ],
+  "quest.6718043D0F2D1830.quest_desc": [
+    "DireWolf was asked to make an addition of his Cards to work with &5&lMekanism&r and its... other states of matter. Everything Pressurized Tubes can move, these cards can. Gas, Infuse Types, and Pigments."
+  ],
+  "quest.0AEC181F5E21A299.quest_desc": [
+    "If you've ever heard of someone talking about \"Melon Power\", this is it. Mekanism's &dGas-Burning Generator&r can produce a good amount of power by pumping in &9Ethylene&r made from Melon Slices.\\n\\nTo produce &dEthylene&r, start by crushing organic materials in a &eCrusher&r to create &6Bio Fuel&r. Melon Slices are typically used for this! This is then pumped into a &dPressurized Reaction Chamber&r (PRC for short).\\n\\nThe PRC needs Water, Bio Fuel, and some Hydrogen to create Ethylene. You can get the Hydrogen from separating water in an &9Electrolytic Separator&r.\\n\\nOnce you've started producing the Ethylene, pump it into the Gas-Burning Generator to start generating power!"
+  ],
+  "quest.0AEC181F5E21A299.quest_subtitle": "MELON POWER!",
+  "quest.0AEC181F5E21A299.title": "&9Mekanism: &dGas-Burning Generator",
+  "quest.11D09E918015355C.quest_desc": [
+    "Mekanism's &cHeat Generator&r is a different take on basic power production. It has two modes of creating power:\\n\\n&9Passive:&r Surrounding the generator with Lava source or flowing blocks creates passive power over time through heat. Place one Lava source block on top and let it flow over the sides. Make sure to have Pipes connected for energy first!\\n\\n&9Active:&r Placing combustible materials such as Coal or Wood into the generator will burn the fuel to create power. This is not very efficient."
+  ],
+  "quest.11D09E918015355C.title": "&cHeat Generator",
+  "quest.43D83CFA824B0A70.quest_desc": [
+    "&9Mekanism&r has an end game power option that is tough to beat. The &dFusion Reactor&r can produce up to 80MRF/t, and if you want to learn how to build it, make sure to check out the &aMekanism: &dReactors&r quest chapter!"
+  ],
+  "quest.43D83CFA824B0A70.quest_subtitle": "Fusion Activate!",
+  "quest.43D83CFA824B0A70.title": "&9Mekanism: &dFusion Reactor",
+  "quest.477B411F84342EEA.quest_desc": [
+    "Mekanism is one of the best mods for energy storage, especially in the early game.\\n\\nThe Basic Energy Cube is easy to configure, easy to craft, and stores a lot of power. It can also be upgraded, and can charge items inside of the interface!\\n\\nTo learn more about upgrading the Energy Cube as well as the mod, head over to the &aMekanism&r quest chapter!"
+  ],
+  "quest.477B411F84342EEA.title": "&9Mekanism: &aEnergy Cubes",
+  "quest.48DC9E8E9D21A2FA.quest_desc": [
+    "Mekanism provides several ways to make power using renewable resources.\\n\\nThe &9Solar Generators&r harness the power of the Sun to provide basic power needs. It does not work during the night, and must have access to the sky. Glass is okay.\\n\\nThe &9Wind Generator&r provides power via the wind. Unless you've figured out a way for your character to manually spin this, the speed it spins is based off of the Y lvl it is placed at. It also needs direct access to the sky without any blocks above it."
+  ],
+  "quest.48DC9E8E9D21A2FA.title": "&9Mekanism: &aRenewable Energy",
+  "quest.5C47935A3B2877FF.quest_desc": [
+    "Mekanism offers a nice looking Cable to transfer your power.\\n\\nIf the machine you are connecting to already pulls or pushes power, you will not need to configure the Cable. Otherwise, you'll need a &9Configurator&r to configure the Cable. Shift right-clicking will change the Cable to pull or push mode."
+  ],
+  "quest.5C47935A3B2877FF.quest_subtitle": "Mekanism's Energy Transfer Pipe",
+  "quest.5C47935A3B2877FF.title": "&9Mekanism: &aUniversal Cables",
+  "quest.682034C680FDEDC2.quest_desc": [
+    "&9Mekanism's&r &aInduction Matrix&r is one of the best ways to store your power.\\n\\nIf you're looking for the best power storage Mekanism has to offer, check out the &aMekanism:&r &dReactors&r quest chapter.\\n",
+    "{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:center fit:true}"
+  ],
+  "quest.7FE969CB4B419FC6.quest_desc": [
+    "With a little work into Mekanism, this machine allows you to transfer anything wirelessly.\\n\\nYou can set specific channels to transfer individual items, energy, or even gases from Mekanism. It's pretty cool."
+  ],
+  "quest.7FE969CB4B419FC6.quest_subtitle": "Doesn't just work for Power",
+  "quest.7FE969CB4B419FC6.title": "&9Mekanism: &6Quantum Entangloporter",
+  "task.59DE118DD6597A4E.title": "Renewable Mekanism Energy Generators",
+  "quest.2664388EBA1E8F90.quest_subtitle": "&f8 &cAttack Damage",
+  "quest.480FA9FE57743B66.quest_subtitle": "&f5 &cAttack Damage",
+  "quest.512396B331108BAF.quest_subtitle": "Tier: &e5",
+  "quest.7338CA23B27B2AF8.quest_subtitle": "&f12 &cAttack Damage",
+  "quest.79E30114ED8870EE.quest_subtitle": "&f7 &cAttack Damage",
+  "quest.79EF24E396779B9F.quest_subtitle": "Tier: &f2",
+  "task.2962DF63EE602AD6.title": "Mekanism Iron Pickaxes",
+  "task.57DD9261905988F3.title": "Mekanism Iron Swords",
+  "quest.69B5D716568AA9EB.quest_desc": [
+    "&d&lCamol&r is the answer to camouflaging &lEVERYTHING.&r From Pipez to Mekanism Cables to ATM Stars, and everything but the- no, wait, the Kitchen Sink, too.\\n\\nCraft the &d&lCamo Block&r together with the block you want to use for the camo, then right click it on the block you want to camouflage, like some kind of cable or something.\\n\\nBy default the &d&lCamo Block&r will take on the collision shape of the camoed block. You can change this to the Shape Retaining version by putting it into a crafting grid by itself. This will make it take on the shape of the camoing block.\\n\\nIf you want to remove a &d&lCamo Block&r, right click the camoed block with another Camo Block.",
+    "{@pagebreak}",
+    "{image:atm:textures/questpics/building_tips/camol_example.png width:200 height:100 align:center}"
+  ],
+  "quest.372B5BF416CA83A4.quest_desc": [
+    "&5&lMekanism&r is one of the most popular Machine and Technology Mods. Quite frankly I have a hard time summarizing it as it has so much in it! \\n\\nIt has so much we even had to make 2 Quest Pages for it! \\n\\nThe stuff we need for the &6&lATM Star&r is in the Reactors page but you'll need to get through the Mekanism page to get there."
+  ],
+  "quest.372B5BF416CA83A4.title": "&5&lMekanism",
+  "quest.5869E198DA416346.quest_desc": [
+    "Late Game &5&lMekanism&r is just insane. For 1 &5Antimatter Pellet&r you need to crystallize 1,000mb &5Antimatter&r. \\n\\nFor 1mb of &5Antimatter&r you need to power 1,000mb of &3Polonium&r through the SPS. \\n\\nTo get 1mb of &3Polonium&r you'll need to activate the Neutrons of 5mb of &2Nuclear Waste&r. \\n\\nAnd &2Nuclear Waste&r you get from processing &9Fissile Fuel&r through a Fission Reactor!"
+  ],
+  "quest.5869E198DA416346.title": "2 &5Antimatter Pellets",
+  "quest.77F2271C45DB49BA.quest_desc": [
+    "This Module, when put into the &aMekaSuit&r Chestplate, will give you Creative Flight. \\nYou only need some of the most expensive Items in the game to craft it!"
+  ],
+  "quest.7E4367252A39BE6C.quest_desc": [
+    "&c&lPowah&r is about power! Generating Power like FE to use Machines from other Mods like &5&lMekanism&r or &lIndustrial Foregoing&r! \\n\\nThere's different Tiers you'll have to craft up to and of course we'll need the last one for the &6&lStar&r!"
+  ],
+  "quest.411A463E98C3B102.quest_desc": [
+    "Some ingredients you'll need to make the Quantum Computer, Crafter, and Armor.",
+    "",
+    "Shattered Singularity is made with a Singularity, 2 Ender Dust, 2 Sky Stone Dust, and 100 mB of Lava in a Reaction Chamber.",
+    "",
+    "1 bucket of Quantum Infusion is made with 4 buckets of Water and a Quantum Infused Dust, which is obtained by crushing the Shattered Singularity in an Inscriber or Mekanism Crusher.",
+    "",
+    "Quantum Infused Alloy is made with 1 bucket of Quantum Infusion, 4 Copper Ingots, 4 Shattered and 4 regular Singularities."
+  ],
+  "quest.56DE217FEAE3F036.quest_desc": [
+    "The ME Advanced Pattern Provider is a new type of ME Pattern Provider that upgrades a standard or Extended Pattern Provider with the ability to configure the face to which any individual item in a pattern is sent to. This allows for automation of machines that require specific sides for specific inputs to be done with a single block and no pipes or a subnet, such as with the Metallurgic Infuser from Mekanism.",
+    "",
+    "To make use of this feature, you need an Advanced Pattern Encoder, to decide which side of the machine to send each ingredient."
+  ],
+  "quest.56DE217FEAE3F036.quest_subtitle": "Looking at you, Mekanism",
+  "quest.78215D704E6095B0.quest_desc": [
+    "You think &5&lMekanism&r and &l&7Modern Industrialization&r can have all the fun with their end game armor sets? \\n\\nThis &5Quantum Armor&r has default stats similar to &cNetherite Armor&r but, like the &aMekaSuit&r it can use Energy as a shield. \\nIt also has upgrades which can be installed to make you even more powerful! Like Flight, Night Vision, and even the ability to recharge. \\n\\nBut the best part is that it can Linked to your Storage System! Then, you can automatically take Energy out from it and take out any Item from it no matter where you are. \\n\\nFurthermore, wearing the full set can prevent &aRadiation&r from killing you."
+  ],
+  "quest.476755275B948A5F.quest_desc": [
+    "Reactors can also be used to heat up &bcoolants&r like water to create &bvapor&r, like &bSteam&r.\\n\\nTo do this, you'll need to build a reinforced reactor. This is built in the same way that you built your 3x3x3 reactor, but all of the parts will need to be &aReinforced Reactor Parts&r instead. I'd also suggest on it being bigger than a 3x3x3.\\n\\nTo input a coolant, you'll need a &9Forge Fluid Port&r. This will port in any fluids like Water into the reactor. This will also be used to export the vapor created in the reactor.\\n\\nIf you want, you can create a &aMekanism Fluid Port&r to convert the fluid Steam into the Mekanism gas Steam instead."
+  ],
+  "quest.49F08DE190AAD0D8.quest_desc": [
+    "&3Augment&r: Factory makes your Furnace more like the Smelting Factory from Mekanism. Instead of using Fuel it will now use Energy! Pipe in some Energy and it will start Smelting."
+  ],
+  "quest.2E9D1131DC21CC5B.quest_desc": [
+    "&lIndustrial Foregoing&r has its sleak futuristic design, &5&lMekanism&r has its dull modern design, and &8&lImmersive Engineering&r takes it much more retro! \\n\\nEverything is &6Brown&r, &7Grey&r, and &8Dark Grey&r! \\n\\nThe Mod all starts with the &6Engineer's Hammer&r. These can be used to make Plates, Dust, or just building our Multiblocks! \\n\\nBTW, did I tell you we'll be making a lot of those in this Mod? Hope you like them!"
+  ],
+  "quest.3E32450DBB7529AA.quest_desc": [
+    "&eItem Batcher&r works kinda like the line for a Roller Coaster. \\n\\nThe Roller Coaster won't leave until all seats are filled! The same way the &eBatcher&r won't &6Output&r &eItems&r until the set Filter and Amount has been matched. \\n\\nPerfect for stuff like &5&lMekanism&r Ore Processing which needs certain amounts of &eItems&r &9Inputed&r or else it will bottleneck."
+  ],
+  "quest.7E39FB9F3E973009.quest_subtitle": "No, it's not a Mekanism Chemical, it's Wither Milk",
+  "quest.2CCAA7C0FEDEB573.quest_desc": [
+    "If you are like most this is the power you are after. All you do is place it as high as you can and get free power. "
+  ],
+  "quest.2CCAA7C0FEDEB573.title": "Wind Power",
+  "quest.2DE7CC686B56881F.quest_desc": [
+    "Protects you from Mekanism radiation."
+  ],
+  "quest.0945EC53626F58E6.quest_desc": [
+    "On top of items and fluids, &3Refined Storage&r can also be used to store &aChemicals&r, thanks to the Refined Storage - Mekanism Integration mod.\\n\\nYou can also store &4Energy&r, &5Source&r and &9Souls&r, thanks to the Refined Types mod."
+  ],
+  "quest.0945EC53626F58E6.title": "&5Other Storage Parts"
+}

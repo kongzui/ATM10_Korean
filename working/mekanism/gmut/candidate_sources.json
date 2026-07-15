@@ -1,0 +1,13 @@
+{
+  "constants.gmut.key_category": "new_translation_required",
+  "constants.gmut.mod_name": "new_translation_required",
+  "description.gmut.gravitational_modulating_additional_unit": "bundled_ko_kr",
+  "key.gmut.vertical_speed": "bundled_ko_kr",
+  "module.gmut.enabled": "bundled_ko_kr",
+  "module.gmut.fix_fov": "bundled_ko_kr",
+  "module.gmut.fly_always": "bundled_ko_kr",
+  "module.gmut.gravitational_modulating_additional_unit": "bundled_ko_kr",
+  "module.gmut.mute_modulating_sound": "bundled_ko_kr",
+  "module.gmut.stop_immediately": "bundled_ko_kr",
+  "module.gmut.vertical_speed": "bundled_ko_kr"
+}

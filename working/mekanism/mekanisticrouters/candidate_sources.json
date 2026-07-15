@@ -1,0 +1,15 @@
+{
+  "mekanisticrouters.guiText.popup.chemical.direction": "project_output_review",
+  "mekanisticrouters.guiText.popup.chemical.maxTransfer": "project_output_review",
+  "mekanisticrouters.itemText.chemical.maxTransfer": "project_output_review",
+  "mekanisticrouters.guiText.tooltip.chemicalTransferTooltip": "project_output_review",
+  "item.mekanisticrouters.chemical_module_mk2": "project_output_review",
+  "item.mekanisticrouters.chemical_module_mk1": "project_output_review",
+  "item.mekanisticrouters.chemical_refill_module": "project_output_review",
+  "item.mekanisticrouters.chemical_upgrade": "project_output_review",
+  "mekanisticrouters.itemText.usage.item.chemical_upgrade": "project_output_review",
+  "mekanisticrouters.itemText.usage.item.chemical_module_mk1": "project_output_review",
+  "mekanisticrouters.itemText.usage.item.chemical_module_mk2": "project_output_review",
+  "mekanisticrouters.itemText.usage.item.chemical_refill_module": "project_output_review",
+  "mekanisticrouters.guiText.popup.chemical_refill.control": "project_output_review"
+}
