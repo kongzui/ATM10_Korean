@@ -121,7 +121,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Pipez·Modern Dynamics·XNet | 파이프즈·모던 다이내믹스·엑스넷 | 아이템·액체·에너지 물류망과 필터를 제공 | 세 본체와 관련 연동 | 미작업 | 기존 계획·공통 물류 기반 |
 | Create | Create | 회전력 기반 기계, 공정, 조립과 기차를 제공 | Create: Dragons Plus, Create Crafts & Additions, Create Enchantment Industry, Create Aquatic Ambitions, Create Hypertube, Create: Bells & Whistles | 미작업 | 기존 계획·대형 기술 모드 |
 | Modern Industrialization | 모던 인더스트리얼라이제이션 | 증기부터 전기·디지털 공정까지 이어지는 산업 시스템 | Extended Industrialization, Industrialization Overdrive | 미작업 | 기존 계획·전용 퀘스트 4개 |
-| Ender IO | 엔더 IO | 기계, 발전과 다중 채널 도관을 제공 | 본체, 관련 퀘스트와 다른 모드 연동 | 미작업 | 기존 계획·대형 기술 모드 |
+| Ender IO | Ender IO | 기계, 발전과 다중 채널 도관을 제공 | 본체, 관련 퀘스트와 다른 모드 연동 | 완료 | 기존 계획·대형 기술 모드 |
 | Immersive Engineering | 이머시브 엔지니어링 | 전선·전압·컨베이어와 멀티블록 공정을 제공 | 본체, 관련 퀘스트와 가이드 | 미작업 | 기존 계획·대형 퀘스트 챕터 |
 | PneumaticCraft: Repressurized | 뉴매틱크래프트: 리프레셔라이즈드 | 압력·온도·드론 프로그래밍 자동화를 제공 | 본체, 관련 퀘스트와 가이드 | 미작업 | 기존 계획·대형 퀘스트 챕터 |
 | Industrial Foregoing | 인더스트리얼 포고잉 | 농사·목축·몹 처리·레이저 자동화 기계를 제공 | Industrial Foregoing Souls | 미작업 | 기존 계획·전용 퀘스트 챕터 |
