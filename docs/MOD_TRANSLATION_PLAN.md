@@ -116,7 +116,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 
 | 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
 |---|---|---|---|---|---|
-| Mekanism | 메카니즘 | 광물 처리, 화학 물질, 발전과 대형 기계를 제공 | Mekanism Generators, Mekanism Tools, Mekanism Covers, Mekanistic Routers, MEKMM, Just Enough Mekanism Multiblocks | 미작업 | 기존 계획·대형 퀘스트 챕터 |
+| Mekanism | 메카니즘 | 광물 처리, 화학 물질, 발전과 대형 기계를 제공 | Mekanism Generators, Mekanism Tools, Mekanism Covers, Mekanistic Routers, MEKMM, Just Enough Mekanism Multiblocks | 완료 | 기존 계획·대형 퀘스트 챕터 |
 | Powah!·Flux Networks | 파와·플럭스 네트워크 | 발전·충방전과 무선 전력망을 제공 | Powah!, Lollipop, Flux Networks, 관련 퀘스트·GuideME·KubeJS·발전 과제 | 완료 | 기존 계획·공통 전력 기반 |
 | Pipez·Modern Dynamics·XNet | 파이프즈·모던 다이내믹스·엑스넷 | 아이템·액체·에너지 물류망과 필터를 제공 | 세 본체와 관련 연동 | 미작업 | 기존 계획·공통 물류 기반 |
 | Create | Create | 회전력 기반 기계, 공정, 조립과 기차를 제공 | Create: Dragons Plus, Create Crafts & Additions, Create Enchantment Industry, Create Aquatic Ambitions, Create Hypertube, Create: Bells & Whistles | 미작업 | 기존 계획·대형 기술 모드 |
