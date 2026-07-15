@@ -1,0 +1,37 @@
+{
+  "bilingual_resource_bees": 391,
+  "productivebees_language_bees": 390,
+  "related_resource_bees": 1,
+  "templates": {
+    "item.productivebees.honeycomb_configurable": "%s의 벌집 조각",
+    "block.productivebees.comb_configurable": "%s의 벌집 블록"
+  },
+  "examples": {
+    "entity.productivebees.kyanite_bee": "남정석(Kyanite) 벌",
+    "entity.productivebees.obsidian_bee": "흑요석(Obsidian) 벌",
+    "entity.productivebees.uru_metal_bee": "우루 금속(Uru Metal) 벌"
+  },
+  "wordplay_names_preserved": {
+    "entity.productivebees.creeper_bee": "CreeBee",
+    "entity.productivebees.blazing_bee": "BlazBee",
+    "entity.productivebees.zombie_bee": "ZomBee"
+  },
+  "display_paths_checked": [
+    "cy/jdkdigital/productivebees/common/item/Honeycomb.class",
+    "cy/jdkdigital/productivebees/common/item/CombBlockItem.class",
+    "cy/jdkdigital/productivebees/common/item/SpawnEgg.class",
+    "cy/jdkdigital/productivebees/compat/jei/ingredients/BeeIngredientHelper.class",
+    "cy/jdkdigital/productivebees/compat/jei/ingredients/BeeIngredientRenderer.class"
+  ],
+  "out_of_scope_same_mechanism": [
+    {
+      "key": "entity.productivebees.allergy_bee",
+      "source": "Allergy Bee",
+      "current_target": "알레르기 벌",
+      "provider": "Productive Trees",
+      "reason": "자원·재료 기반 벌이 아니므로 이번 작업에서 제외"
+    }
+  ],
+  "remaining": 0,
+  "status": "passed"
+}

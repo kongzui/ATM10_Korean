@@ -20,6 +20,7 @@ WORK_ROOT = PROJECT_ROOT / "working/productivebees"
 OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 QUEST_CHAPTER = "productive_bees"
+DYNAMIC_REPORT = WORK_ROOT / "dynamic_name_validation.json"
 TARGETS = (
     ("productivebees-", "productivebees", "guide"),
     ("ModularBees-", "modularbees", "modular_guide"),
@@ -30,6 +31,7 @@ FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
 PATCHOULI = re.compile(r"\$\([^)]*\)")
 LATIN_WORD = re.compile(r"[A-Za-z]{3,}")
 TRANSLATION_KEY = re.compile(r"^[a-z0-9_.-]+(?:\.[a-z0-9_.-]+)+$")
+BEE_NAME = re.compile(r"^(.+) Bee$")
 
 INTENTIONAL_ORIGINAL_KEYS = {
     "entity.productivebees.basalz_bee",
@@ -69,6 +71,54 @@ INTENTIONAL_ORIGINAL_VALUES = {
     "ZomBee",
     "CuBee",
 }
+BILINGUAL_NAME_EXCEPTIONS = INTENTIONAL_ORIGINAL_KEYS | {
+    "entity.productivebees.grave_bee",
+    "entity.productivebees.patrick_bee",
+}
+DYNAMIC_NAME_TEMPLATES = {
+    "item.productivebees.honeycomb_configurable": "%s의 벌집 조각",
+    "block.productivebees.comb_configurable": "%s의 벌집 블록",
+}
+RELATED_BILINGUAL_BEE = {
+    "key": "entity.productivebees.uru_metal_bee",
+    "source": "Uru Metal Bee",
+    "target": "우루 금속(Uru Metal) 벌",
+    "jar_prefix": "sgearmetalworks-",
+    "definition": "data/productivebees/productivebees/uru_metal.json",
+    "work": PROJECT_ROOT / "working/silentgear/sgearmetalworks/ko_kr.json",
+    "output": OUTPUT_ASSETS / "sgearmetalworks/lang/ko_kr.json",
+}
+OUT_OF_SCOPE_DYNAMIC_BEES = [
+    {
+        "key": "entity.productivebees.allergy_bee",
+        "source": "Allergy Bee",
+        "current_target": "알레르기 벌",
+        "provider": "Productive Trees",
+        "reason": "자원·재료 기반 벌이 아니므로 이번 작업에서 제외",
+    }
+]
+DYNAMIC_NAME_CLASS_CONSTANTS = {
+    "cy/jdkdigital/productivebees/common/item/Honeycomb.class": (
+        b"entity.productivebees.",
+        b"item.productivebees.honeycomb_configurable",
+    ),
+    "cy/jdkdigital/productivebees/common/item/CombBlockItem.class": (
+        b"entity.productivebees.",
+        b"block.productivebees.comb_configurable",
+    ),
+    "cy/jdkdigital/productivebees/common/item/SpawnEgg.class": (
+        b"entity.productivebees.",
+        b"item.productivebees.spawn_egg_configurable",
+    ),
+    "cy/jdkdigital/productivebees/compat/jei/ingredients/BeeIngredientHelper.class": (
+        b"entity.productivebees.",
+        b"getDisplayName",
+    ),
+    "cy/jdkdigital/productivebees/compat/jei/ingredients/BeeIngredientRenderer.class": (
+        b"entity.productivebees.",
+        b"getTooltip",
+    ),
+}
 
 
 def find_jar(instance: Path, prefix: str) -> Path:
@@ -88,6 +138,84 @@ def sha256(path: Path) -> str:
 
 def load_json(archive: ZipFile, name: str) -> dict[str, object]:
     return json.loads(archive.read(name).decode("utf-8-sig"))
+
+
+def find_bilingual_comb_bees(
+    archive: ZipFile, english: dict[str, object]
+) -> dict[str, str]:
+    """가변 벌집을 만드는 일반 자원 벌과 영어 자원명을 반환한다."""
+    create_comb: dict[str, bool] = {}
+    marker = "data/productivebees/productivebees/"
+    for name in archive.namelist():
+        if not name.startswith(marker) or not name.endswith(".json"):
+            continue
+        data = load_json(archive, name)
+        stem = Path(name).stem
+        enabled = data.get("createComb", True) is not False
+        create_comb[stem] = create_comb.get(stem, False) or enabled
+
+    found: dict[str, str] = {}
+    for stem, enabled in create_comb.items():
+        key = f"entity.productivebees.{stem}_bee"
+        source = english.get(key)
+        match = BEE_NAME.fullmatch(source) if isinstance(source, str) else None
+        if enabled and match and key not in BILINGUAL_NAME_EXCEPTIONS:
+            found[key] = match.group(1)
+    return found
+
+
+def verify_dynamic_name_classes(jar: Path) -> tuple[list[str], list[str]]:
+    """벌집·생성 알·JEI가 같은 벌 번역 키를 읽는지 확인한다."""
+    checked: list[str] = []
+    errors: list[str] = []
+    with ZipFile(jar) as archive:
+        for name, constants in DYNAMIC_NAME_CLASS_CONSTANTS.items():
+            try:
+                bytecode = archive.read(name)
+            except KeyError:
+                errors.append(f"동적 이름 표시 클래스를 찾지 못했습니다: {name}")
+                continue
+            missing = [
+                value.decode("ascii") for value in constants if value not in bytecode
+            ]
+            if missing:
+                errors.append(f"동적 이름 표시 상수 누락: {name} -> {missing}")
+            else:
+                checked.append(name)
+    return checked, errors
+
+
+def verify_related_bilingual_bee(instance: Path) -> tuple[dict[str, object], list[str]]:
+    """다른 모드가 추가한 Productive Bees 재료 벌도 같은 규칙으로 확인한다."""
+    errors: list[str] = []
+    jar = find_jar(instance, str(RELATED_BILINGUAL_BEE["jar_prefix"]))
+    with ZipFile(jar) as archive:
+        english = load_json(archive, "assets/sgearmetalworks/lang/en_us.json")
+        definition = str(RELATED_BILINGUAL_BEE["definition"])
+        if definition not in archive.namelist():
+            errors.append(f"연동 재료 벌 정의 누락: {definition}")
+        else:
+            data = load_json(archive, definition)
+            if data.get("createComb", True) is False:
+                errors.append(f"연동 재료 벌이 벌집을 만들지 않습니다: {definition}")
+    key = str(RELATED_BILINGUAL_BEE["key"])
+    source = str(RELATED_BILINGUAL_BEE["source"])
+    target = str(RELATED_BILINGUAL_BEE["target"])
+    if english.get(key) != source:
+        errors.append(f"연동 재료 벌 영어 원명 불일치: {key}={english.get(key)}")
+    for label in ("work", "output"):
+        path = RELATED_BILINGUAL_BEE[label]
+        assert isinstance(path, Path)
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if data.get(key) != target:
+            errors.append(f"연동 재료 벌 이중 표기 불일치: {path} -> {data.get(key)}")
+    return {
+        "key": key,
+        "source": source,
+        "target": target,
+        "jar": jar.name,
+        "english_searchable": source.removesuffix(" Bee") in target,
+    }, errors
 
 
 def validate_text(key: str, source: str, target: str) -> list[str]:
@@ -257,6 +385,11 @@ def verify_languages(instance: Path) -> tuple[list[dict[str, object]], list[str]
         jar = find_jar(instance, prefix)
         with ZipFile(jar) as archive:
             english = load_json(archive, f"assets/{namespace}/lang/en_us.json")
+            bilingual_bees = (
+                find_bilingual_comb_bees(archive, english)
+                if namespace == "productivebees"
+                else {}
+            )
         work = WORK_ROOT / namespace / "ko_kr.json"
         output = OUTPUT_ASSETS / namespace / "lang/ko_kr.json"
         if work.read_bytes().startswith(b"\xef\xbb\xbf"):
@@ -283,6 +416,24 @@ def verify_languages(instance: Path) -> tuple[list[dict[str, object]], list[str]
                     translated += 1
                 if key.startswith(("entity.", "block.", "item.")):
                     display_names[target].append((key, source))
+        for key, english_name in bilingual_bees.items():
+            target = korean[key]
+            expected_suffix = f"({english_name}) 벌"
+            if not isinstance(target, str) or not target.endswith(expected_suffix):
+                errors.append(
+                    f"자원 벌 이중 표기 불일치: {key} -> {target} "
+                    f"(필요한 끝부분: {expected_suffix})"
+                )
+        if namespace == "productivebees":
+            for key, expected in DYNAMIC_NAME_TEMPLATES.items():
+                if korean.get(key) != expected:
+                    errors.append(f"가변 벌집 이름 틀 불일치: {key}={korean.get(key)}")
+            for key in INTENTIONAL_ORIGINAL_KEYS:
+                target = korean.get(key)
+                if isinstance(target, str) and "(" in target:
+                    errors.append(
+                        f"말장난 벌 이름에 불필요한 이중 표기: {key}={target}"
+                    )
         if not output.is_file() or sha256(work) != sha256(output):
             errors.append(f"작업본과 산출물 해시가 다릅니다: {namespace}")
         rows.append(
@@ -291,6 +442,7 @@ def verify_languages(instance: Path) -> tuple[list[dict[str, object]], list[str]
                 "keys": len(english),
                 "translated": translated,
                 "intentional_original": intentional,
+                "bilingual_comb_bees": len(bilingual_bees),
             }
         )
     collisions = {
@@ -300,6 +452,13 @@ def verify_languages(instance: Path) -> tuple[list[dict[str, object]], list[str]
     }
     if collisions:
         errors.append(f"서로 다른 아이템·블록·벌 이름 충돌: {collisions}")
+    productivebees_jar = find_jar(instance, TARGETS[0][0])
+    dynamic_paths, dynamic_errors = verify_dynamic_name_classes(productivebees_jar)
+    errors.extend(dynamic_errors)
+    rows[0]["dynamic_name_paths_checked"] = dynamic_paths
+    related_bee, related_errors = verify_related_bilingual_bee(instance)
+    errors.extend(related_errors)
+    rows[0]["related_bilingual_comb_bee"] = related_bee
     return rows, errors
 
 
@@ -614,8 +773,21 @@ def expected_deployment_sources() -> dict[str, Path]:
     return expected
 
 
+def dynamic_name_deployment_sources() -> dict[str, Path]:
+    related_output = RELATED_BILINGUAL_BEE["output"]
+    assert isinstance(related_output, Path)
+    return {
+        "resourcepacks/ATM10_Korean/assets/productivebees/lang/ko_kr.json": (
+            OUTPUT_ASSETS / "productivebees/lang/ko_kr.json"
+        ),
+        "resourcepacks/ATM10_Korean/assets/sgearmetalworks/lang/ko_kr.json": (
+            related_output
+        ),
+    }
+
+
 def verify_deployment(
-    instance: Path, manifest_path: Path | None
+    instance: Path, manifest_path: Path | None, deployment_scope: str
 ) -> tuple[dict[str, object], list[str]]:
     if manifest_path is None:
         return {"status": "validated_not_applied"}, []
@@ -626,7 +798,11 @@ def verify_deployment(
     )
     if target is None:
         return {"status": "not_found"}, ["적용 매니페스트에 현재 인스턴스가 없습니다."]
-    expected = expected_deployment_sources()
+    expected = (
+        dynamic_name_deployment_sources()
+        if deployment_scope == "dynamic-names"
+        else expected_deployment_sources()
+    )
     changed = set(target["changed_paths"])
     errors: list[str] = []
     if changed != set(expected):
@@ -643,6 +819,7 @@ def verify_deployment(
     return {
         "status": "applied_and_verified" if not errors else "invalid",
         "target": str(instance),
+        "scope": deployment_scope,
         "backup_manifest": str(manifest_path),
         "changed_paths": sorted(changed),
         "hash_matches": matches,
@@ -650,7 +827,9 @@ def verify_deployment(
     }, errors
 
 
-def verify(instance: Path, manifest_path: Path | None) -> tuple[dict[str, object], int]:
+def verify(
+    instance: Path, manifest_path: Path | None, deployment_scope: str
+) -> tuple[dict[str, object], int]:
     build_report = json.loads(
         (WORK_ROOT / "build_report.json").read_text(encoding="utf-8")
     )
@@ -666,15 +845,64 @@ def verify(instance: Path, manifest_path: Path | None) -> tuple[dict[str, object
     jar_data, jar_errors = verify_jar_data(instance, translations)
     kubejs, kubejs_errors = verify_kubejs(instance)
     quests, quest_errors = verify_quests(instance, translations)
-    deployment, deployment_errors = verify_deployment(instance, manifest_path)
+    deployment, deployment_errors = verify_deployment(
+        instance, manifest_path, deployment_scope
+    )
     errors.extend(guide_errors)
     errors.extend(jar_errors)
     errors.extend(kubejs_errors)
     errors.extend(quest_errors)
     errors.extend(deployment_errors)
+    productive_language = json.loads(
+        (WORK_ROOT / "productivebees/ko_kr.json").read_text(encoding="utf-8")
+    )
+    related_bee = languages[0]["related_bilingual_comb_bee"]
+    assert isinstance(related_bee, dict)
+    dynamic_names = {
+        "bilingual_resource_bees": languages[0]["bilingual_comb_bees"] + 1,
+        "productivebees_language_bees": languages[0]["bilingual_comb_bees"],
+        "related_resource_bees": 1,
+        "templates": DYNAMIC_NAME_TEMPLATES,
+        "examples": {
+            "entity.productivebees.kyanite_bee": productive_language[
+                "entity.productivebees.kyanite_bee"
+            ],
+            "entity.productivebees.obsidian_bee": productive_language[
+                "entity.productivebees.obsidian_bee"
+            ],
+            str(related_bee["key"]): related_bee["target"],
+        },
+        "wordplay_names_preserved": {
+            key: productive_language[key]
+            for key in (
+                "entity.productivebees.creeper_bee",
+                "entity.productivebees.blazing_bee",
+                "entity.productivebees.zombie_bee",
+            )
+        },
+        "display_paths_checked": languages[0]["dynamic_name_paths_checked"],
+        "out_of_scope_same_mechanism": OUT_OF_SCOPE_DYNAMIC_BEES,
+        "remaining": (
+            len(DYNAMIC_NAME_CLASS_CONSTANTS)
+            - len(languages[0]["dynamic_name_paths_checked"])
+            + (0 if related_bee["english_searchable"] else 1)
+        ),
+        "status": (
+            "passed"
+            if len(languages[0]["dynamic_name_paths_checked"])
+            == len(DYNAMIC_NAME_CLASS_CONSTANTS)
+            and related_bee["english_searchable"]
+            else "failed"
+        ),
+    }
+    DYNAMIC_REPORT.write_text(
+        json.dumps(dynamic_names, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     validation = {
         "scope": "Productive Bees family completion",
         "languages": languages,
+        "dynamic_names": dynamic_names,
         "guides": guides,
         "related_content": jar_data,
         "kubejs": kubejs,
@@ -718,6 +946,7 @@ def verify(instance: Path, manifest_path: Path | None) -> tuple[dict[str, object
             "remaining": len(errors),
         },
         "related_content": {
+            "dynamic_names": dynamic_names,
             "guides": guides,
             "advancements": jar_data["advancements"],
             "generated_definitions": jar_data["generated_definitions"],
@@ -738,12 +967,17 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("command", choices=("build", "verify"))
     parser.add_argument("--deployment-manifest", type=Path)
+    parser.add_argument(
+        "--deployment-scope",
+        choices=("full", "dynamic-names"),
+        default="full",
+    )
     args = parser.parse_args()
     instance = resolve_source_root()
     if args.command == "build":
         print(json.dumps(build(instance), ensure_ascii=False, indent=2))
         return 0
-    report, status = verify(instance, args.deployment_manifest)
+    report, status = verify(instance, args.deployment_manifest, args.deployment_scope)
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return status
 

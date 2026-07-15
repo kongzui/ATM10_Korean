@@ -339,6 +339,7 @@ DATA_ONLY = {
 }
 
 METALWORKS = {
+    "entity.productivebees.uru_metal_bee": "우루 금속(Uru Metal) 벌",
     "item.sgearmetalworks.helmet_cast": "투구 주형",
     "item.sgearmetalworks.ring_cast": "반지 주형",
     "item.sgearmetalworks.slingshot_cast": "새총 주형",
