@@ -1,0 +1,6 @@
+{
+  "name": "Ars Ocultas",
+  "description": "Ars Nouveau용 Occultism 연동입니다. $(thing)Occultism$()과 $(thing)Ars Nouveau$() 사이의 호환성과 상호 운용 기능, 여러 편의 기능을 추가합니다.",
+  "icon": "occultism:ritual_dummy/custom_ritual",
+  "sortnum": 1000
+}

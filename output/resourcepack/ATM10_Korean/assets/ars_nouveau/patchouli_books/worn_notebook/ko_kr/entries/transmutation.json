@@ -1,0 +1,19 @@
+{
+  "name": "변환",
+  "icon": "ars_nouveau:imbuement_chamber",
+  "category": "ars_nouveau:ars_ocultas",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "남는 은을 금으로, 금을 은으로 변환할 수 있습니다!"
+    },
+    {
+      "type": "ars_nouveau:imbuement_recipe",
+      "recipe": "ars_ocultas:imbuement_gold_transmute"
+    },
+    {
+      "type": "ars_nouveau:imbuement_recipe",
+      "recipe": "ars_ocultas:imbuement_silver_transmute"
+    }
+  ]
+}

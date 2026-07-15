@@ -1,0 +1,90 @@
+{
+  "quest.3D78D9F4E8A60EDB.quest_desc": [
+    "현재 조합은 비교적 간단해서 &d마나 단지&r 4개, &d마나 보석 블록&r 4개와 &6&lATM의 별&r만 필요합니다. 걱정 마세요, 나중에는 더 어렵게 바뀔 거예요! \\n\\n이 단지는 언제나 &d마나&r로 가득 차 있으며, 마나가 &d마나&r가 필요한 모든 장치에 연결할 수 있습니다. &6&lATM의 별&r 멀티블록도 포함됩니다."
+  ],
+  "quest.3D78D9F4E8A60EDB.quest_subtitle": "이것부터 먼저 얻으세요!",
+  "quest.3D78D9F4E8A60EDB.title": "&5&l크리에이티브 &d마나 &f단지",
+  "quest.66E88F916B638B3B.quest_desc": [
+    "조금 헷갈릴 수 있습니다. &5크리에이티브 &e주문서&r가 여러 개 있거든요! 우리가 원하는 것은 &d&lAll The Arcanist Gear&r의 주문서입니다. \\n\\n이 주문서를 만들려면 먼저 &l&dArs Nouveau&r의 크리에이티브 &e주문서&r를 제작해야 합니다. 거기에 &e대마법사 주문서&r, &6&lATM의 별&r과 몇 가지 아이템이 필요합니다. \\n\\n&eUnobtainium 주문서&r와 설정은 같지만 마나가 무한하고 모든 문양이 잠금 해제되어 있습니다! \\n\\n모든 주문 위력을 손에 넣는 겁니다, 으하하하!"
+  ],
+  "quest.66E88F916B638B3B.title": "&5&l크리에이티브 &e주문서",
+  "quest.762581CAE5F5DDC1.quest_desc": [
+    "마법 모드라니 멋지네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 &6Allthemodium&r을 결합합니다! \\n\\n마법 부여 장치는 여러 제작법에 쓰이는 멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 놓고, 같은 Y 높이의 주변에 받침대를 배치하세요. \\n\\n받침대에 아이템을 순서와 관계없이 올리고 주변에 마나을 준비한 뒤, 장치에 마나 보석을 놓으면 제작이 시작됩니다! 그러면 &5Unobtainium&r-&6Allthemodium&r 합금 주괴가 완성됩니다!\\n",
+    "{ \"text\": \"Ars Nouveau 퀘스트\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
+  ],
+  "quest.6D68D9941049E806.quest_desc": [
+    "이름처럼 이 생성기는 &d마나&r를 연료로 사용합니다. 소환할 몹이 든 격리 단지를 주변에 놓아 대상을 정하세요."
+  ],
+  "quest.6D68D9941049E806.quest_subtitle": "Ars Nouveau 스포너",
+  "quest.0ABB2264CBB82470.quest_desc": [
+    "&d&lArs&r 갑옷의 철 갑옷."
+  ],
+  "quest.0ABB2264CBB82470.quest_subtitle": "15",
+  "quest.0ABB2264CBB82470.title": "&5비전술사 복장",
+  "quest.0E2515424291BB59.quest_desc": [
+    "&b다이아몬드&r 버전의 &d&lArs&r 갑옷!"
+  ],
+  "quest.0E2515424291BB59.quest_subtitle": "20",
+  "quest.0E2515424291BB59.title": "&5배틀메이지 의상",
+  "quest.19F58E291A543228.quest_desc": [
+    "&e금&r 버전의 &d&lArs&r 갑옷!"
+  ],
+  "quest.19F58E291A543228.quest_subtitle": "11",
+  "quest.19F58E291A543228.title": "&5마법사의 복장",
+  "quest.2296CE4418AE62D4.quest_desc": [
+    "&6Allthemodium 방어구&r에 &d&lArs Nouveau&r 주문 강화 효과를 더한 장비입니다!"
+  ],
+  "quest.2296CE4418AE62D4.quest_subtitle": "24",
+  "quest.2296CE4418AE62D4.title": "&6Allthemodium 비전술사 장비",
+  "quest.2E0F82F7E1B74033.quest_desc": [
+    "&d&lArs Elemental&r &2대지 갑옷&r!"
+  ],
+  "quest.2E0F82F7E1B74033.quest_subtitle": "15",
+  "quest.2E0F82F7E1B74033.title": "&2지오맨서 의상",
+  "quest.2EAA6BE598C83F24.quest_desc": [
+    "&d&lArs Elemental&r &3물 갑옷&r!"
+  ],
+  "quest.2EAA6BE598C83F24.quest_subtitle": "15",
+  "quest.2EAA6BE598C83F24.title": "&3아쿠아맨서 복장",
+  "quest.3512F47DADC07EAE.quest_desc": [
+    "&5Unobtainium 방어구&r에 &d&lArs Nouveau&r 주문 강화 효과를 더한 장비입니다!"
+  ],
+  "quest.3512F47DADC07EAE.quest_subtitle": "40",
+  "quest.3512F47DADC07EAE.title": "&5Unobtainium 비전술사 장비",
+  "quest.52AFABA08674B6A8.quest_desc": [
+    "&3Vibranium 방어구&r에 &d&lArs Nouveau&r 주문 강화 효과를 더한 장비입니다!"
+  ],
+  "quest.52AFABA08674B6A8.quest_subtitle": "32",
+  "quest.52AFABA08674B6A8.title": "&3Vibranium 비전술사 장비",
+  "quest.79D3055DE0EEA6B0.quest_desc": [
+    "&d&lArs Elemental&r &c화염 갑옷&r!"
+  ],
+  "quest.79D3055DE0EEA6B0.quest_subtitle": "15",
+  "quest.79D3055DE0EEA6B0.title": "&c화염술사 의상",
+  "quest.7C1D407CF67786F6.quest_desc": [
+    "&d&lArs Elemental&r 공기 갑옷!"
+  ],
+  "quest.7C1D407CF67786F6.quest_subtitle": "15",
+  "quest.7C1D407CF67786F6.title": "&f에테르맨서 의상",
+  "quest.29D28983E0200A3C.quest_desc": [
+    "&l&dArs Nouveau&r는 주문서에 문양을 조합해 원하는 주문을 시전하는 마법 모드입니다!"
+  ],
+  "quest.29D28983E0200A3C.title": "&d&lArs Nouveau",
+  "quest.71581992E8E4C43E.quest_desc": [
+    "&8위더 스켈레톤 해골&r 몇 개와 &d보호 에센스&r를 던져서 &8위더&3 문양&r을 만드세요! \\n\\n만약 작동하지 않는다면 &aEXP&r가 더 필요할 수도 있습니다."
+  ],
+  "quest.71581992E8E4C43E.title": "&3&8시듦 문양",
+  "quest.00F2C4A528873A6B.quest_desc": [
+    "&l&b룬 도가니&r는 작동할 때 &d마나&r가 필요하지만, 이를 지원하는 &d마나 입력부&r는 없습니다. 대신 그 &d마나&r를 &d마나 응축기&r로 액체화할 수 있습니다. 일부 &d마나&r가 든 &d마나 단지&r를 &d마나 응축기&r 옆에 놓으면 &d액화 마나&r로 변환합니다. 이제 &9유체 입력부&r에서 다룰 수 있습니다."
+  ],
+  "quest.00F2C4A528873A6B.title": "&l&d마나 응축",
+  "quest.06B9D8973E9C6A2C.quest_desc": [
+    "Occultism 챕터에 Ars Nouveau 아이템이 있어 의아할 수 있습니다. 두 모드를 이어 주는 Ars Ocultas가 있기 때문입니다. 폴리오트 분쇄기 같은 영혼은 이 단지 안에서 작업할 수 있습니다. 영혼이 처리할 아이템을 파이프로 넣으면 인접한 보관함으로 결과를 내보냅니다. 단지 아래쪽이 가장 안정적인 출력 면이며, 보관함으로 내보낼 수 없으면 월드에 아이템을 떨어뜨립니다."
+  ],
+  "quest.06B9D8973E9C6A2C.quest_subtitle": "영혼이 격리 단지 안에서 작업합니다",
+  "quest.06B9D8973E9C6A2C.title": "Ars Ocultas: 영혼 단지",
+  "quest.4ABACE222E647E2C.quest_desc": [
+    "희생 제단은 Ars Ocultas가 제공하는 또 다른 도구로, 희생 의식을 자동화합니다.\\n\\n중앙 그릇 아래에 제단을 놓으세요. 희생물이 든 격리 단지와 마나 단지가 근처에 있으면 희생물 대신 마나를 사용할 수 있습니다."
+  ],
+  "quest.4ABACE222E647E2C.quest_subtitle": "마나로 희생물 대체"
+}

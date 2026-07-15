@@ -1,0 +1,21 @@
+{
+  "scope": "Ars Nouveau family automatic review candidates",
+  "protected_patterns": [
+    "numbers",
+    "placeholders",
+    "URLs",
+    "format codes",
+    "Patchouli tags",
+    "markup tags",
+    "line breaks"
+  ],
+  "current_output_self_reuse_excluded": true,
+  "translation_memory_conflicts_excluded": 69,
+  "candidate_counts": {
+    "automatic_cache_candidate": 617,
+    "family_memory_candidate": 44,
+    "manual_candidate": 2,
+    "reviewed_original_candidate": 5
+  },
+  "review_status": "pending_manual_review"
+}

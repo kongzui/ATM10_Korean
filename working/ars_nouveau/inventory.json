@@ -1,0 +1,416 @@
+{
+  "family": "Ars Nouveau",
+  "installed": [
+    {
+      "label": "Ars Nouveau",
+      "jar": "ars_nouveau-1.21.1-5.12.0.jar",
+      "namespace": "ars_nouveau",
+      "direct_integration": false,
+      "english_keys": 2364,
+      "bundled_korean_keys": 2382,
+      "metadata_mentions_family": [
+        "ars_nouveau"
+      ],
+      "guide_candidates": 320,
+      "guide_examples": [
+        "assets/ars_nouveau/animations/book_wyrm_animation.json",
+        "assets/ars_nouveau/animations/book_wyrm_lectern_animations.json",
+        "assets/ars_nouveau/blockstates/bookwyrm_lectern.json",
+        "assets/ars_nouveau/geo/book_wyrm.geo.json",
+        "assets/ars_nouveau/geo/book_wyrm_lectern.geo.json",
+        "assets/ars_nouveau/geo/spellbook_closed.geo.json",
+        "assets/ars_nouveau/geo/spellbook_open.geo.json",
+        "assets/ars_nouveau/models/item/apprentice_spell_book.json",
+        "assets/ars_nouveau/models/item/archmage_spell_book.json",
+        "assets/ars_nouveau/models/item/bookwyrm_charm.json",
+        "assets/ars_nouveau/models/item/creative_spell_book.json",
+        "assets/ars_nouveau/models/item/familiar_bookwyrm.json",
+        "assets/ars_nouveau/models/item/novice_spell_book.json",
+        "assets/ars_nouveau/models/item/worn_notebook.json",
+        "assets/ars_nouveau/patchouli_books/worn_notebook/en_us/categories/armor.json",
+        "assets/ars_nouveau/patchouli_books/worn_notebook/en_us/categories/automation.json",
+        "assets/ars_nouveau/patchouli_books/worn_notebook/en_us/categories/enchantments.json",
+        "assets/ars_nouveau/patchouli_books/worn_notebook/en_us/categories/equipment.json",
+        "assets/ars_nouveau/patchouli_books/worn_notebook/en_us/categories/familiars.json",
+        "assets/ars_nouveau/patchouli_books/worn_notebook/en_us/categories/getting_started.json"
+      ],
+      "advancements": 344,
+      "advancement_examples": [
+        "data/ars_nouveau/advancement/alteration_table.json",
+        "data/ars_nouveau/advancement/amethyst_golem_charm.json",
+        "data/ars_nouveau/advancement/apprentice_spell_book.json",
+        "data/ars_nouveau/advancement/archmage_spell_book.json",
+        "data/ars_nouveau/advancement/basic_spell_turret.json",
+        "data/ars_nouveau/advancement/catch_lightning.json",
+        "data/ars_nouveau/advancement/create_portal.json",
+        "data/ars_nouveau/advancement/drygmy_charm.json",
+        "data/ars_nouveau/advancement/eat_bombegranate.json",
+        "data/ars_nouveau/advancement/enchanting_apparatus.json",
+        "data/ars_nouveau/advancement/familiar.json",
+        "data/ars_nouveau/advancement/imbuement_chamber.json",
+        "data/ars_nouveau/advancement/magebloom_crop.json",
+        "data/ars_nouveau/advancement/mob_jar.json",
+        "data/ars_nouveau/advancement/novice_spell_book.json",
+        "data/ars_nouveau/advancement/poof_mob.json",
+        "data/ars_nouveau/advancement/potion_diffuser.json",
+        "data/ars_nouveau/advancement/potion_flask.json",
+        "data/ars_nouveau/advancement/potion_jar.json",
+        "data/ars_nouveau/advancement/potion_melder.json"
+      ],
+      "recipes": 1011
+    },
+    {
+      "label": "Ars Additions",
+      "jar": "ars_additions-1.21.1-21.3.0.jar",
+      "namespace": "ars_additions",
+      "direct_integration": false,
+      "english_keys": 235,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "ars_additions",
+        "ars_nouveau"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 61,
+      "advancement_examples": [
+        "data/ars_additions/advancement/create_ruined_portal.json",
+        "data/ars_additions/advancement/find_ruined_portal.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/cracked_polished_sourcestone_wall_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/cracked_sourcestone_wall_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/polished_sourcestone_button_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/polished_sourcestone_door_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/polished_sourcestone_trapdoor_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/polished_sourcestone_wall_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_1.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_2.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_3.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_4.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_5.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_button_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_chain_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_chain_1.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_door_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_trapdoor_0.json",
+        "data/ars_additions/advancement/recipes/decorations/crafting/stonecutter/sourcestone_wall_0.json"
+      ],
+      "recipes": 174
+    },
+    {
+      "label": "Ars Controle",
+      "jar": "ars_controle-1.21.1-1.6.15.jar",
+      "namespace": "ars_controle",
+      "direct_integration": false,
+      "english_keys": 83,
+      "bundled_korean_keys": 83,
+      "metadata_mentions_family": [
+        "ars_controle",
+        "ars_nouveau"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 1,
+      "advancement_examples": [
+        "data/ars_controle/advancement/recipes/misc/scroll_holder.json"
+      ],
+      "recipes": 16
+    },
+    {
+      "label": "Ars Creo",
+      "jar": "ars_creo-1.21.1-5.4.0.jar",
+      "namespace": "ars_creo",
+      "direct_integration": false,
+      "english_keys": 18,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "ars_creo",
+        "ars_nouveau"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 1
+    },
+    {
+      "label": "Ars Elemancy",
+      "jar": "ars_elemancy-1.21.1-1.17.jar",
+      "namespace": "ars_elemancy",
+      "direct_integration": false,
+      "english_keys": 195,
+      "bundled_korean_keys": 325,
+      "metadata_mentions_family": [
+        "ars_elemancy",
+        "ars_nouveau"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 250
+    },
+    {
+      "label": "Ars Elemental",
+      "jar": "ars_elemental-1.21.1-0.7.10.0.jar",
+      "namespace": "ars_elemental",
+      "direct_integration": false,
+      "english_keys": 666,
+      "bundled_korean_keys": 675,
+      "metadata_mentions_family": [
+        "ars_creo",
+        "ars_elemental",
+        "ars_nouveau"
+      ],
+      "guide_candidates": 3,
+      "guide_examples": [
+        "assets/ars_elemental/models/item/enchanted_book/mirror_shield.json",
+        "assets/ars_elemental/models/item/enchanted_book/soulbound.json",
+        "data/ars_elemental/recipe/invincible_book.json"
+      ],
+      "advancements": 17,
+      "advancement_examples": [
+        "data/ars_elemental/advancement/recipes/building_blocks/stripped_yellow_archwood.json",
+        "data/ars_elemental/advancement/recipes/misc/alt_blossom.json",
+        "data/ars_elemental/advancement/recipes/misc/curio_bag.json",
+        "data/ars_elemental/advancement/recipes/misc/flashing_sapling.json",
+        "data/ars_elemental/advancement/recipes/misc/flight_alt.json",
+        "data/ars_elemental/advancement/recipes/misc/ritual_archwood_forest.json",
+        "data/ars_elemental/advancement/recipes/misc/ritual_archwood_forestation.json",
+        "data/ars_elemental/advancement/recipes/misc/ritual_attraction.json",
+        "data/ars_elemental/advancement/recipes/misc/ritual_detection.json",
+        "data/ars_elemental/advancement/recipes/misc/ritual_pollination.json",
+        "data/ars_elemental/advancement/recipes/misc/ritual_repulsion.json",
+        "data/ars_elemental/advancement/recipes/misc/ritual_squirrels.json",
+        "data/ars_elemental/advancement/recipes/misc/ritual_tesla_coil.json",
+        "data/ars_elemental/advancement/recipes/misc/sparkflower_to_glowstone.json",
+        "data/ars_elemental/advancement/recipes/misc/spore_blossom_up.json",
+        "data/ars_elemental/advancement/recipes/misc/yellow_archwood.json",
+        "data/ars_elemental/advancement/recipes/redstone/advanced_prism.json"
+      ],
+      "recipes": 199
+    },
+    {
+      "label": "Ars Ocultas",
+      "jar": "ars_ocultas-1.21.1-2.4.1.jar",
+      "namespace": "ars_ocultas",
+      "direct_integration": false,
+      "english_keys": 1,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "ars_nouveau",
+        "ars_ocultas"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 5
+    },
+    {
+      "label": "Ars Technica",
+      "jar": "ars_technica-1.21.1-2.7.6.jar",
+      "namespace": "ars_technica",
+      "direct_integration": false,
+      "english_keys": 169,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "ars_nouveau",
+        "ars_technica"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 6,
+      "advancement_examples": [
+        "data/ars_technica/advancement/recipes/misc/gargantuan_experience_gem.json",
+        "data/ars_technica/advancement/recipes/misc/giant_experience_gem.json",
+        "data/ars_technica/advancement/recipes/misc/giant_from_gargantuan_experience_gem.json",
+        "data/ars_technica/advancement/recipes/misc/greater_from_giant_experience_gem.json",
+        "data/ars_technica/advancement/recipes/misc/pocket_factory.json",
+        "data/ars_technica/advancement/recipes/misc/source_motor.json"
+      ],
+      "recipes": 67
+    },
+    {
+      "label": "Ars Unification",
+      "jar": "ars_unification-1.2.18.jar",
+      "namespace": "ars_unification",
+      "direct_integration": false,
+      "english_keys": 11,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "ars_nouveau",
+        "ars_technica",
+        "ars_unification"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
+    },
+    {
+      "label": "Not Enough Glyphs",
+      "jar": "not_enough_glyphs-1.21.1-4.6.1.jar",
+      "namespace": "not_enough_glyphs",
+      "direct_integration": false,
+      "english_keys": 249,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "ars_elemental",
+        "ars_nouveau",
+        "not_enough_glyphs"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 16
+    },
+    {
+      "label": "Starbuncle Mania",
+      "jar": "starbunclemania-1.21.1-1.5.7.jar",
+      "namespace": "starbunclemania",
+      "direct_integration": false,
+      "english_keys": 150,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "ars_nouveau",
+        "starbunclemania"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 21,
+      "advancement_examples": [
+        "data/starbunclemania/advancement/recipes/misc/alak_hat.json",
+        "data/starbunclemania/advancement/recipes/misc/chef_hat.json",
+        "data/starbunclemania/advancement/recipes/misc/clear_fluid_allow.json",
+        "data/starbunclemania/advancement/recipes/misc/clear_fluid_deny.json",
+        "data/starbunclemania/advancement/recipes/misc/direction_scroll.json",
+        "data/starbunclemania/advancement/recipes/misc/drygmy_horns.json",
+        "data/starbunclemania/advancement/recipes/misc/fluid_jar.json",
+        "data/starbunclemania/advancement/recipes/misc/fluid_scroll_allow.json",
+        "data/starbunclemania/advancement/recipes/misc/fluid_scroll_deny.json",
+        "data/starbunclemania/advancement/recipes/misc/fluid_sourcelink.json",
+        "data/starbunclemania/advancement/recipes/misc/robin_mask.json",
+        "data/starbunclemania/advancement/recipes/misc/sea_bunny.json",
+        "data/starbunclemania/advancement/recipes/misc/source_condenser.json",
+        "data/starbunclemania/advancement/recipes/misc/star_battery.json",
+        "data/starbunclemania/advancement/recipes/misc/star_bin.json",
+        "data/starbunclemania/advancement/recipes/misc/star_build.json",
+        "data/starbunclemania/advancement/recipes/misc/star_hat.json",
+        "data/starbunclemania/advancement/recipes/misc/star_miner.json",
+        "data/starbunclemania/advancement/recipes/misc/starby_ears.json",
+        "data/starbunclemania/advancement/recipes/misc/whirli_prop.json"
+      ],
+      "recipes": 55
+    },
+    {
+      "label": "Ars Énergistique",
+      "jar": "arseng-2.1.1-beta.jar",
+      "namespace": "arseng",
+      "direct_integration": true,
+      "english_keys": 17,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "ars_nouveau",
+        "arseng"
+      ],
+      "guide_candidates": 1,
+      "guide_examples": [
+        "assets/arseng/ae2guide/arseng-index.md"
+      ],
+      "advancements": 12,
+      "advancement_examples": [
+        "data/arseng/advancement/recipes/misc/cable_source_acceptor.json",
+        "data/arseng/advancement/recipes/misc/portable_source_cell_16k.json",
+        "data/arseng/advancement/recipes/misc/portable_source_cell_1k.json",
+        "data/arseng/advancement/recipes/misc/portable_source_cell_256k.json",
+        "data/arseng/advancement/recipes/misc/portable_source_cell_4k.json",
+        "data/arseng/advancement/recipes/misc/portable_source_cell_64k.json",
+        "data/arseng/advancement/recipes/misc/source_acceptor_from_part.json",
+        "data/arseng/advancement/recipes/misc/source_storage_cell_16k.json",
+        "data/arseng/advancement/recipes/misc/source_storage_cell_1k.json",
+        "data/arseng/advancement/recipes/misc/source_storage_cell_256k.json",
+        "data/arseng/advancement/recipes/misc/source_storage_cell_4k.json",
+        "data/arseng/advancement/recipes/misc/source_storage_cell_64k.json"
+      ],
+      "recipes": 37
+    },
+    {
+      "label": "All the Arcanist Gear",
+      "jar": "allthearcanistgear-1.21.1-21.3.2.jar",
+      "namespace": "allthearcanistgear",
+      "direct_integration": true,
+      "english_keys": 28,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "allthearcanistgear",
+        "ars_nouveau"
+      ],
+      "guide_candidates": 12,
+      "guide_examples": [
+        "assets/allthearcanistgear/models/item/allthemodium_spell_book.json",
+        "assets/allthearcanistgear/models/item/creative_spell_book.json",
+        "assets/allthearcanistgear/models/item/unobtainium_spell_book.json",
+        "assets/allthearcanistgear/models/item/vibranium_spell_book.json",
+        "data/allthearcanistgear/advancement/recipes/combat/allthemodium_spell_book_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/unobtainium_spell_book_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/vibranium_spell_book_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/misc/creative_spell_book.json",
+        "data/allthearcanistgear/recipe/allthemodium_spell_book_smithing.json",
+        "data/allthearcanistgear/recipe/creative_spell_book.json",
+        "data/allthearcanistgear/recipe/unobtainium_spell_book_smithing.json",
+        "data/allthearcanistgear/recipe/vibranium_spell_book_smithing.json"
+      ],
+      "advancements": 20,
+      "advancement_examples": [
+        "data/allthearcanistgear/advancement/recipes/combat/allthemodium_spell_book_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/base_boots_to_allthemodium_boots_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/base_chest_to_allthemodium_robes_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/base_hat_to_allthemodium_hat_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/base_legs_to_allthemodium_leggings_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/elemental_boots_to_allthemodium_boots_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/elemental_chest_to_allthemodium_robes_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/elemental_hat_to_allthemodium_hat_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/elemental_legs_to_allthemodium_leggings_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/unobtainium_boots_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/unobtainium_hat_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/unobtainium_leggings_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/unobtainium_robes_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/unobtainium_spell_book_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/vibranium_boots_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/vibranium_hat_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/vibranium_leggings_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/vibranium_robes_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/combat/vibranium_spell_book_smithing.json",
+        "data/allthearcanistgear/advancement/recipes/misc/creative_spell_book.json"
+      ],
+      "recipes": 44
+    }
+  ],
+  "extra_scope": [
+    {
+      "label": "Ars Polymorphia",
+      "installed": true,
+      "jars": [
+        "ars_polymorphia-1.0.3.jar"
+      ],
+      "language_target": false
+    }
+  ],
+  "other_dependency_mentions": [
+    {
+      "jar": "ars_polymorphia-1.0.3.jar",
+      "dependency_mentions": [
+        "ars_nouveau"
+      ]
+    },
+    {
+      "jar": "bibliowoods-1.21.1-1.6.2.jar",
+      "dependency_mentions": [
+        "ars_nouveau"
+      ]
+    }
+  ]
+}

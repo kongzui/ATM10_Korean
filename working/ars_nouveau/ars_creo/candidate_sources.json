@@ -1,0 +1,20 @@
+{
+  "block.ars_creo.starbuncle_wheel": "legacy_5.4_candidate",
+  "ars_creo.page1.starbuncle_wheel": "legacy_5.4_candidate",
+  "ars_creo.page.behaviors": "legacy_5.4_candidate",
+  "itemGroup.ars_creo.general": "legacy_5.4_candidate",
+  "ars_creo.display_source.turret.not_enough_space": "legacy_5.4_candidate",
+  "ars_creo.display_source.turret.for_turret_status": "legacy_5.4_candidate",
+  "ars_creo.display_source.turret.no_spell": "legacy_5.4_candidate",
+  "ars_creo.display_source.turret.spell_name": "legacy_5.4_candidate",
+  "ars_creo.display_source.turret.spell": "legacy_5.4_candidate",
+  "ars_creo.display_source.turret_target": "legacy_5.4_candidate",
+  "ars_creo.display_source.source_count": "legacy_5.4_candidate",
+  "ars_creo.display_source.for_source_status": "legacy_5.4_candidate",
+  "ars_creo.display_source.source_jar": "legacy_5.4_candidate",
+  "ars_creo.display_source.turret": "legacy_5.4_candidate",
+  "ars_creo.page1.ars_creo.display_link": "legacy_5.4_candidate",
+  "ars_creo.page1.ars_creo.fluid_tank": "legacy_5.4_candidate",
+  "ars_creo.display_link": "legacy_5.4_candidate",
+  "ars_creo.fluid_tank": "legacy_5.4_candidate"
+}

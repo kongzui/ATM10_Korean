@@ -1,0 +1,88 @@
+{
+  "family": "Ars Nouveau",
+  "language_provenance": {
+    "bundled_exact_reuse": 2394,
+    "legacy_exact_reuse": 1044,
+    "new_or_edited": 748
+  },
+  "ftbquests": {
+    "chapters": [
+      "ars_nouveau.snbt"
+    ],
+    "quests_checked": 130,
+    "tasks_checked": 135,
+    "display_keys_checked": 125,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 9,
+    "source_redundant_single_item_task_titles": 1,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 118,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "patchouli": {
+    "files_checked": 323,
+    "display_fields": 761,
+    "translation_keys": 738,
+    "missing_translation_keys": 0,
+    "literal_display_fields": 0,
+    "localized_literal_fields": 10
+  },
+  "guideme": {
+    "jar": "arseng-2.1.1-beta.jar",
+    "pages_checked": 1,
+    "output_exists": true,
+    "link_and_tag_order_checked": true
+  },
+  "advancements": {
+    "files_checked": 520,
+    "display_fields": 158,
+    "literal_display_fields": 0,
+    "missing_translation_keys": 0
+  },
+  "kubejs": {
+    "files_referencing_family": 16,
+    "referenced_paths": [
+      "kubejs/client_scripts/crashing_items.js",
+      "kubejs/data/productivebees/productivebees/ars_nouveau/air_essence.json",
+      "kubejs/data/productivebees/productivebees/ars_nouveau/earth_essence.json",
+      "kubejs/data/productivebees/productivebees/ars_nouveau/fire_essence.json",
+      "kubejs/data/productivebees/productivebees/ars_nouveau/water_essence.json",
+      "kubejs/server_scripts/modpack/atm_alloys.js",
+      "kubejs/server_scripts/modpack/atm_star_creative.js",
+      "kubejs/server_scripts/modpack/att_items.js",
+      "kubejs/server_scripts/modpack/runic_multis/controllers.js",
+      "kubejs/server_scripts/modpack/runic_multis/recipes/runic_crucible.js",
+      "kubejs/server_scripts/modpack/runic_multis/recipes/runic_enchanter.js",
+      "kubejs/server_scripts/mods/minecraft/recipes.js",
+      "kubejs/server_scripts/mods/modular_machinery/recipes/atm/multiblock_parts.js",
+      "kubejs/server_scripts/mods/MysticalAgriculture/Tags.js",
+      "kubejs/server_scripts/Tweaks/recipes_fix.js",
+      "kubejs/server_scripts/Tweaks/tags.js"
+    ],
+    "direct_display_candidates": 0
+  },
+  "extra_scope": {
+    "jar": "ars_polymorphia-1.0.3.jar",
+    "language_files": 0,
+    "common_ui_completion": "complete"
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp/backups/20260715_122513_609349/backup_manifest.json",
+    "files_checked": 19,
+    "hash_matches": 19,
+    "unexpected_changes": []
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

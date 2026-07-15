@@ -1,0 +1,13 @@
+{
+  "ars_nouveau.augment_desc.glyph_cut_glyph_aoe": "처리할 아이템을 찾을 반경을 증가시킵니다.",
+  "ars_nouveau.augment_desc.glyph_cut_glyph_pierce": "잘라내기가 처리할 아이템 개수를 증가시킵니다.",
+  "ars_nouveau.augment_desc.glyph_cut_glyph_sensitive": "잘라내기가 근처의 아이템을 처리하려고 시도합니다.",
+  "ars_nouveau.augment_desc.glyph_flatten_glyph_aoe": "처리할 아이템을 찾을 반경을 증가시킵니다.",
+  "ars_nouveau.augment_desc.glyph_flatten_glyph_pierce": "다듬기가 처리할 아이템 개수를 증가시킵니다.",
+  "ars_nouveau.augment_desc.glyph_flatten_glyph_sensitive": "다듬기가 근처의 아이템을 처리하려고 시도합니다.",
+  "ars_unification.augment_with": "이 레시피를 사용하려면 이 문양을 %s으로 증강하세요.",
+  "ars_unification.cut_recipe": "잘라내기 문양",
+  "ars_unification.press_recipe": "다듬기 문양",
+  "emi.category.ars_unification.cut": "잘라내기 문양",
+  "emi.category.ars_unification.press": "다듬기 문양"
+}

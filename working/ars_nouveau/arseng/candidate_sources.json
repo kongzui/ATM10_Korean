@@ -1,0 +1,19 @@
+{
+  "block.arseng.me_source_jar": "project_output_review",
+  "block.arseng.source_acceptor": "project_output_review",
+  "item.arseng.cable_source_acceptor": "project_output_review",
+  "item.arseng.portable_source_cell_16k": "project_output_review",
+  "item.arseng.portable_source_cell_1k": "project_output_review",
+  "item.arseng.portable_source_cell_256k": "project_output_review",
+  "item.arseng.portable_source_cell_4k": "project_output_review",
+  "item.arseng.portable_source_cell_64k": "project_output_review",
+  "item.arseng.source_cell_housing": "project_output_review",
+  "item.arseng.source_p2p_tunnel": "project_output_review",
+  "item.arseng.source_storage_cell_16k": "project_output_review",
+  "item.arseng.source_storage_cell_1k": "project_output_review",
+  "item.arseng.source_storage_cell_256k": "project_output_review",
+  "item.arseng.source_storage_cell_4k": "project_output_review",
+  "item.arseng.source_storage_cell_64k": "project_output_review",
+  "item.arseng.spell_p2p_tunnel": "project_output_review",
+  "itemGroup.arseng": "project_output_review"
+}

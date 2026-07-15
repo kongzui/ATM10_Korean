@@ -1,0 +1,20 @@
+{
+  "block.ars_creo.starbuncle_wheel": "스타번클 바퀴",
+  "ars_creo.page1.starbuncle_wheel": "Create를 위한 회전력을 생성합니다. 바퀴 앞에 금 블록을 설치하면 RPM이 증가합니다.",
+  "ars_creo.page.behaviors": "Ars Creo는 주문 포탑 및 마나 단지를 포함하여 Ars Nouveau의 블록에 대한 특별한 구조물 동작을 활성화합니다. 기본 주문 포탑 - 상호 작용 시 구조물에 주문을 발사합니다. 타이머 포탑 - 설정된 간격으로 주문을 발사합니다. 마법 부여된 주문 포탑 - 방문하는 모든 새 블록마다 주문을 발사합니다. 마나 단지 - 구조물의 포탑에서 소모할 수 있습니다.",
+  "itemGroup.ars_creo.general": "Ars Creo",
+  "ars_creo.display_source.turret.not_enough_space": "공간이 부족합니다.",
+  "ars_creo.display_source.turret.for_turret_status": "포탑 상태용",
+  "ars_creo.display_source.turret.no_spell": "설정된 주문이 없습니다.",
+  "ars_creo.display_source.turret.spell_name": "주문: %s",
+  "ars_creo.display_source.turret.spell": "%s",
+  "ars_creo.display_source.turret_target": "주문 포탑",
+  "ars_creo.display_source.source_count": "근원: %s",
+  "ars_creo.display_source.for_source_status": "근원 상태용",
+  "ars_creo.display_source.source_jar": "근원 양",
+  "ars_creo.display_source.turret": "주문",
+  "ars_creo.page1.ars_creo.display_link": "표시 연결은 마나 단지에 부착하여 단지의 마나 양을 표시하거나 주문 포탑에 부착하여 현재 주문을 디스플레이 화면에 표시할 수 있습니다.",
+  "ars_creo.page1.ars_creo.fluid_tank": "포션은 파이프와 탱크를 사용하여 Create 유체 탱크에 저장하고 전송할 수 있습니다.",
+  "ars_creo.display_link": "Ars Creo: 표시 연결",
+  "ars_creo.fluid_tank": "Ars Creo: 유체 탱크"
+}

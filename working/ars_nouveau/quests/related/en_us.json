@@ -1,0 +1,90 @@
+{
+  "quest.3D78D9F4E8A60EDB.quest_desc": [
+    "Currently a pretty simple recipe, only needing 4 &dSource Jars&r, 4 &dSource Gem Blocks&r, and a &6&lStar&r. Don't worry this will be changed to be even harder! \\n\\nThis jar is always full of &dSource&r and can be linked to anything needing &dSource&r. Including the &6&lATM Star&r multiblocks."
+  ],
+  "quest.3D78D9F4E8A60EDB.quest_subtitle": "Get this first!",
+  "quest.3D78D9F4E8A60EDB.title": "&5&lCreative &dSource &fJar",
+  "quest.66E88F916B638B3B.quest_desc": [
+    "This one might be a bit confusing, there is quite a few &5Creative &eSpellbooks&r! But the one we want is from &d&lAllTheArcanist Gear&r. \\n\\nTo make this one we need to craft the one from &l&dArs Nouveau&r. That &eSpellbook&r needs an &eArchmage Spellbook&r, &6&lATM Star&r, and a few extra Items. \\n\\nIt has the same configs as an &eUnobtainium Spellbook&r but has infinite Mana and all Glyphs unlocked! \\n\\nAll the Spell Power BWAHAHAHAHA!"
+  ],
+  "quest.66E88F916B638B3B.title": "&5&lCreative &eSpellbook",
+  "quest.762581CAE5F5DDC1.quest_desc": [
+    "A Magic Mod how fancy! &d&lArs Nouveau&r is the Mod we'll be using to craft together &5Unobtainium&r and &6Allthemodium&r! \\n\\nThe Enchanting Apparatus is a multiblock which is used for many recipes here currently. Start with an Arcane Core then put the Enchanting Apparatus ontop of it. Next, place Pedestals around the Enchanting Apparatus at the same Y Level. \\n\\nThen you can place the Items onto the Pedestals in any order, have Source nearby, and place the Source Gem in the Apparatus it will start! Then you will have crafted your &5Unobtainium&r-&6Allthemodium&r Alloy Ingot!\\n",
+    "{ \"text\": \"ARS NOUVEAU QUESTLINE\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
+  ],
+  "quest.6D68D9941049E806.quest_desc": [
+    "This spawner will, as its name implies, make use of &dSource&r as fuel. To decide on a mob to spawn, you'll need a Containment Jar holding the mob in the area."
+  ],
+  "quest.6D68D9941049E806.quest_subtitle": "Ars Nouveau's Spawner",
+  "quest.0ABB2264CBB82470.quest_desc": [
+    "Iron Armor of &d&lArs&r Armor."
+  ],
+  "quest.0ABB2264CBB82470.quest_subtitle": "15",
+  "quest.0ABB2264CBB82470.title": "&5Arcanist Outfit",
+  "quest.0E2515424291BB59.quest_desc": [
+    "&bDiamond&r version of &d&lArs&r Armors!"
+  ],
+  "quest.0E2515424291BB59.quest_subtitle": "20",
+  "quest.0E2515424291BB59.title": "&5Battlemages Outfit",
+  "quest.19F58E291A543228.quest_desc": [
+    "&eGold&r version of &d&lArs&r Armors!"
+  ],
+  "quest.19F58E291A543228.quest_subtitle": "11",
+  "quest.19F58E291A543228.title": "&5Sorceror's Outfit",
+  "quest.2296CE4418AE62D4.quest_desc": [
+    "&6Allthemodium Armor&r but with buffs to &d&lArs Nouveau&r Spells!"
+  ],
+  "quest.2296CE4418AE62D4.quest_subtitle": "24",
+  "quest.2296CE4418AE62D4.title": "&6Allthemodium Arcanist Gear",
+  "quest.2E0F82F7E1B74033.quest_desc": [
+    "&d&lArs Elemental&r &2Earth Armor&r!"
+  ],
+  "quest.2E0F82F7E1B74033.quest_subtitle": "15",
+  "quest.2E0F82F7E1B74033.title": "&2Geomancer Outfit",
+  "quest.2EAA6BE598C83F24.quest_desc": [
+    "&d&lArs Elemental&r &3Water Armor&r!"
+  ],
+  "quest.2EAA6BE598C83F24.quest_subtitle": "15",
+  "quest.2EAA6BE598C83F24.title": "&3Aquamancer Outfit",
+  "quest.3512F47DADC07EAE.quest_desc": [
+    "&5Unobtainium Armor&r but with buffs to &d&lArs Nouveau&r Spells!"
+  ],
+  "quest.3512F47DADC07EAE.quest_subtitle": "40",
+  "quest.3512F47DADC07EAE.title": "&5Unobtainium Arcanist Gear",
+  "quest.52AFABA08674B6A8.quest_desc": [
+    "&3Vibranium Armor&r but with buffs to &d&lArs Nouveau&r Spells!"
+  ],
+  "quest.52AFABA08674B6A8.quest_subtitle": "32",
+  "quest.52AFABA08674B6A8.title": "&3Vibranium Arcanist Gear",
+  "quest.79D3055DE0EEA6B0.quest_desc": [
+    "&d&lArs Elemental&r &cFire Armor&r!"
+  ],
+  "quest.79D3055DE0EEA6B0.quest_subtitle": "15",
+  "quest.79D3055DE0EEA6B0.title": "&cPyromancer Outfit",
+  "quest.7C1D407CF67786F6.quest_desc": [
+    "&d&lArs Elemental&r Air Armor!"
+  ],
+  "quest.7C1D407CF67786F6.quest_subtitle": "15",
+  "quest.7C1D407CF67786F6.title": "&fAethermancer Outfit",
+  "quest.29D28983E0200A3C.quest_desc": [
+    "&l&dArs Nouveau&r is all about using Glyphs in Spellbooks to be able to cast them as Spells!"
+  ],
+  "quest.29D28983E0200A3C.title": "&d&lArs Nouveau",
+  "quest.71581992E8E4C43E.quest_desc": [
+    "Throw a few &8Wither Skeleton Skulls&r and an &dAbjuration Essence&r to make a &8Wither &3Glyph&r! \\n\\nIf it didn't work you might need more &aEXP&r."
+  ],
+  "quest.71581992E8E4C43E.title": "&3Glyph of &8Wither",
+  "quest.00F2C4A528873A6B.quest_desc": [
+    "The &l&bRunic Crucible&r requires &dSource&r to work. Unfortunately, we do not have &dSource Hatches&r to support it. We have another solution, though. Converting that &dSource&r into a liquid using the &dSource Condenser&r. Simply place a &dSource Jar&r with some &dSource&r next to the &dSource Condenser&r, and it will convert it into &dLiquefied Source&r. Now it can be handled by &9Fluid Hatches&r."
+  ],
+  "quest.00F2C4A528873A6B.title": "&l&dSource Condensation",
+  "quest.06B9D8973E9C6A2C.quest_desc": [
+    "You might be wondering: Why is an Ars Nouveau item in the Occultism chapter? That's because we have Ars Ocultas, to bridge the two mods. Particularly, Spirits, like our Foliot Crusher, can work in these jars. You can even pipe items into the jars for the spirits to interact with, and they will output it to adjacent inventories (I found the bottom side of the jar to be the most reliable place they output to). If they cannot output to an inventory, they'll output the items into the world."
+  ],
+  "quest.06B9D8973E9C6A2C.quest_subtitle": "Spirits can work in Containment Jars",
+  "quest.06B9D8973E9C6A2C.title": "Ars Ocultas: Spirit Jars",
+  "quest.4ABACE222E647E2C.quest_desc": [
+    "The Sacrificial Altar is another tool Ars Ocultas offers, this time, focusing on the automation of Sacrifices.\\n\\nThis Altar goes under your central bowl, and will allow for Sacrifices to be substituted with Source from a nearby Source Jar, if a Containment Jar containing the would-be sacrifice is also nearby."
+  ],
+  "quest.4ABACE222E647E2C.quest_subtitle": "Source Substitutes Sacrifice"
+}

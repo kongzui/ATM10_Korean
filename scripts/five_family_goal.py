@@ -173,9 +173,12 @@ ALLOWED_ORIGINALS = {
     "Ars Unification",
     "Not Enough Glyphs",
     "Starbuncle Mania",
+    "StarbuncleMania",
     "Ars Énergistique",
     "EvilCraft",
     "The Twilight Forest",
+    "Thistle - The Sound of Glass",
+    "AllRightsReserved",
     "Ctrl+C, Ctrl+V",
     "LostMyself",
     "TedXenon",
@@ -192,6 +195,11 @@ ALLOWED_ORIGINALS = {
 
 ALLOWED_NAME_COLLISIONS = {
     frozenset({"Energised Steel", "Energized Steel"}),
+    frozenset({"Amethyst Golem", "The Amethyst Golem"}),
+    frozenset({"Drygmy", "The Drygmy"}),
+    frozenset({"Starbuncle", "The Starbuncle"}),
+    frozenset({"Whirlisprig", "The Whirlisprig"}),
+    frozenset({"Wixie", "The Wixie"}),
 }
 
 MEKANISM_QUEST_WORDS = {
@@ -1216,7 +1224,11 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
         namespace, item_path = item_id.split(":", 1)
         language_path = OUTPUT_ASSETS / namespace / "lang" / "ko_kr.json"
         language = load_json(language_path) if language_path.is_file() else {}
-        item_keys = (f"item.{namespace}.{item_path}", f"block.{namespace}.{item_path}")
+        item_keys = (
+            f"item.{namespace}.{item_path}",
+            f"block.{namespace}.{item_path}",
+            f"{namespace}.glyph_name.{item_path}",
+        )
         if not any(key in language for key in item_keys):
             errors.append(
                 f"아이템 이름이 없는 퀘스트 fallback: {quest['id']}={item_id}"
@@ -1539,7 +1551,18 @@ def verify_language(
         if collisions:
             errors.append(f"번역으로 생긴 이름 충돌: {target.namespace}:{collisions}")
         output = OUTPUT_ASSETS / target.namespace / "lang/ko_kr.json"
-        output_matches = output.is_file() and sha256(output) == sha256(korean_file)
+        expected_output = dict(korean)
+        guide_extra_path = PROJECT_ROOT / "working/ars_nouveau/guide_extra_ko_kr.json"
+        guide_extra_keys = 0
+        if family == "ars_nouveau" and guide_extra_path.is_file():
+            guide_extra = {
+                key: value
+                for key, value in load_json(guide_extra_path).items()
+                if key.startswith(f"{target.namespace}.")
+            }
+            expected_output.update(guide_extra)
+            guide_extra_keys = len(guide_extra)
+        output_matches = output.is_file() and load_json(output) == expected_output
         if not output_matches:
             errors.append(f"누적 출력 불일치: {target.namespace}")
         jar = find_jar(instance, target.jar_prefix)
@@ -1583,6 +1606,7 @@ def verify_language(
                 "duplicate_keys": len(duplicates),
                 "translation_induced_name_collisions": len(collisions),
                 "output_matches": output_matches,
+                "guide_extra_keys": guide_extra_keys,
                 **dict(provenance),
             }
         )
@@ -1603,6 +1627,20 @@ def build(family: str) -> dict[str, object]:
         destination = OUTPUT_ASSETS / target.namespace / "lang/ko_kr.json"
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, destination)
+        guide_extra_path = PROJECT_ROOT / "working/ars_nouveau/guide_extra_ko_kr.json"
+        if family == "ars_nouveau" and guide_extra_path.is_file():
+            merged = load_json(destination)
+            merged.update(
+                {
+                    key: value
+                    for key, value in load_json(guide_extra_path).items()
+                    if key.startswith(f"{target.namespace}.")
+                }
+            )
+            destination.write_text(
+                json.dumps(merged, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
         copied.append(destination.relative_to(PROJECT_ROOT).as_posix())
     return {"family": FAMILY_LABELS[family], "copied": copied}
 

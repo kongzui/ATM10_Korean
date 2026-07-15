@@ -1,0 +1,23 @@
+{
+  "name": "영혼 단지",
+  "icon": "occultism:book_of_binding_bound_foliot",
+  "category": "ars_nouveau:ars_ocultas",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Occultism 영혼은 $(l:machines/mob_jar)격리 단지$(/l) 안에서 일할 수 있습니다. 원래 행동을 유지하면서 $(thing)소멸하지 않기$() 때문에 자동화에 아주 알맞습니다! $(br2)영혼 단지는 중심으로부터 7x7 범위에서 영혼의 필터와 일치하는 아이템을 자동으로 줍습니다. 분쇄 영혼은 처리할 수 있는 광석을 자동으로 줍습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "호퍼나 별다람쥐로 격리 단지에 아이템을 넣을 수 있으며 어떤 파이프든 작동합니다. 플레이어가 아이템을 들고 단지를 직접 우클릭해도 됩니다. $(br2)단지 속 영혼은 원래 행동을 하므로 $(thing)분쇄기 영혼$()은 아이템을 자동으로 처리하고 결과물을 한 방향으로 던집니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "occultism:brush"
+      },
+      "title": "관리인 영혼",
+      "text": "단지 속 관리인 영혼은 특별한 능력이 있습니다. 주변 아이템을 자동으로 주워 인접한 보관함에 넣으므로 아주 쉽게 자동화할 수 있습니다!"
+    }
+  ]
+}
