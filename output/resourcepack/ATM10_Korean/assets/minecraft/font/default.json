@@ -1,0 +1,29 @@
+{
+  "providers": [
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "ttf",
+      "file": "minecraft:font/nanum_square_round_regular.ttf",
+      "shift": [
+        0.0,
+        0.0
+      ],
+      "size": 11.0,
+      "oversample": 8.0
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/default",
+      "filter": {
+        "uniform": false
+      }
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/unifont"
+    }
+  ]
+}
