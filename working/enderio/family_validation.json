@@ -1,0 +1,32 @@
+{
+  "family": "Ender IO",
+  "jar": "enderio-8.2.11-beta.jar",
+  "language_keys": 605,
+  "existing_project_reuse": 1,
+  "manual_translations": 598,
+  "reviewed_originals": 6,
+  "bundled_korean_reuse": 0,
+  "quest_corrections": 13,
+  "related_language_corrections": 5,
+  "related_quest_corrections": 10,
+  "advancement_display_fields": 6,
+  "kubejs_display_strings": 0,
+  "patchouli_runtime_translation_required": false,
+  "fallback_paths_checked": 1,
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp\\backups\\20260715_154001_194035\\backup_manifest.json",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/enderio/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/productivebees/lang/ko_kr.json"
+    ],
+    "hash_matches": 4,
+    "unexpected_changes": []
+  },
+  "remaining": 0,
+  "errors": [],
+  "status": "complete"
+}

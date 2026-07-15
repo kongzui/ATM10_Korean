@@ -4540,11 +4540,11 @@
 	quest.485D5664A17E16DF.title: "&6구리 업그레이드"
 	quest.486060882E507CF1.quest_subtitle: "흙 둥지에서 스폰됩니다"
 	quest.4869C413646CC4CC.quest_desc: [
-		"발전기에서 전력을 내보내는 것은 아마 좋은 생각일 것입니다. 하지만 어떻게 해야 할까요?"
+		"발전기에서 전력을 내보내는 것이 좋겠죠. 그런데 어떻게 옮길까요?"
 		""
-		"시작하려면 &cPipez&r 모드의 &r에너지 파이프&a를 사용하거나, 해당 모드를 이미 사용하기 시작했다면 &9파와&r의 &c에너지 케이블&r을 사용할 수 있습니다."
+		"처음에는 &aPipez&r 모드의 &c에너지 파이프&r를 사용하거나, 이미 해당 모드를 시작했다면 &9Powah&r의 &c에너지 케이블&r을 사용할 수 있습니다."
 		""
-		"또는 과거로 돌아가고 싶다면 이 팩에는 &6EnderIO&r가 있으며 여기에서 &6에너지 전달체&r를 사용할 수 있습니다."
+		"옛날 방식이 그립다면 이 팩의 &6Ender IO&r가 제공하는 &6에너지 도관&r을 사용할 수도 있습니다."
 	]
 	quest.486B5A605D79EA10.quest_desc: ["이것들은 우리가 실제로 농사를 지을 수 있습니다! &c화염술사&r에게서 우유를 얻을 수 있다니!"]
 	quest.486B5A605D79EA10.title: "&c맨해튼 &a모듈"
@@ -4653,7 +4653,7 @@
 		"{image:atm:textures/questpics/bumblezone/bumble_dance.png width:200 height:100 align:center}"
 	]
 	quest.4A5F84912C755688.title: "댄스 플로어"
-	quest.4A6B585C2394A89A.quest_desc: ["&5&l룬 마법부여대&r로 만들어야 하는 두 아이템은 &d주입된 드래곤의 숨결&r과 &5수선 책&r입니다. \\n\\n&d주입된 드래곤의 숨결&r은 비교적 간단합니다. &a액체 경험치&r, &d소스&r, &d드래곤의 숨결&r만 있으면 됩니다! \\n\\n&d드래곤의 숨결&r은 &b&lHNN&r으로 쉽게 자동화할 수 있고, &l&9X&cy&aC&8r&aa&cf&9t&r의 추출기를 사용하면 더 좋습니다. \\n\\n&5수선 책&r은 &a액체 경험치&r, &d소스&r, &9청금석&r, &4수프리뮴 마법 부여 받침대&r, 그리고 가장 까다로운 &a경험치 막대&r로 자동화할 수 있습니다. \\n\\n&9청금석&r은 &2&lMA&r, &6&l벌&r 또는 채석장에서 얻을 수 있습니다. \\n\\n&a경험치 막대&r에는 &a&lEnderIO&r의 두 합금인 소울라리움과 에너지 합금이 필요합니다. 둘 다 합금 제련기에서 만들 수 있습니다. \\n\\n&4수프리뮴 마법 부여 받침대&r는 &5&l룬 마법부여대&r를 위해 추가된 아이템입니다. 많은 &a경험치 정수&r와 등급별 정수를 사용해 책과 깃펜(&b&lHNN&r으로 자동화 가능)을 &4수프리뮴 마법 부여 받침대&r까지 업그레이드하세요!"]
+	quest.4A6B585C2394A89A.quest_desc: ["&5&l룬 마법부여대&r로 만들어야 하는 두 아이템은 &d주입된 드래곤의 숨결&r과 &5수선 책&r입니다. \\n\\n&d주입된 드래곤의 숨결&r은 비교적 간단합니다. &a액체 경험치&r, &d소스&r, &d드래곤의 숨결&r만 있으면 됩니다! \\n\\n&d드래곤의 숨결&r은 &b&lHNN&r으로 쉽게 자동화할 수 있고, &l&9X&cy&aC&8r&aa&cf&9t&r의 추출기를 사용하면 더 좋습니다. \\n\\n&5수선 책&r은 &a액체 경험치&r, &d소스&r, &9청금석&r, &4수프리뮴 마법 부여 받침대&r, 그리고 가장 까다로운 &a경험치 막대&r로 자동화할 수 있습니다. \\n\\n&9청금석&r은 &2&lMA&r, &6&l벌&r 또는 채석장에서 얻을 수 있습니다. \\n\\n&a경험치 막대&r에는 &a&lEnder IO&r의 두 합금인 솔라리움과 에너지 합금이 필요합니다. 둘 다 합금 제련기에서 만들 수 있습니다. \\n\\n&4수프리뮴 마법 부여 받침대&r는 &5&l룬 마법부여대&r를 위해 추가된 아이템입니다. 많은 &a경험치 정수&r와 등급별 정수를 사용해 책과 깃펜(&b&lHNN&r으로 자동화 가능)을 &4수프리뮴 마법 부여 받침대&r까지 업그레이드하세요!"]
 	quest.4A7AEBEB87CEC274.quest_desc: ["특정 &c러닝화&r 브랜드를 말할 권리는 없는 것 같으니 어떤 신발인지 상상해 보세요. \\n\\n&c러닝화&r는 질주할 때 속도를 높여 더 빠르게 달리게 하고, 자동 점프 기능도 제공합니다..."]
 	quest.4A7AEBEB87CEC274.quest_subtitle: "발"
 	quest.4A7AEBEB87CEC274.title: "&c러닝화&r"
@@ -6029,11 +6029,11 @@
 	quest.5F0C9D4344046F5E.quest_subtitle: "조금만 더 행복한 벌이 되어 보세요"
 	quest.5F0C9D4344046F5E.title: "저희도 당신이 싫어하는 것을 압니다"
 	quest.5F1218CF8EFC607B.quest_desc: [
-		"&c&l레이저IO&r는 다이어울프가 &a&l엔더IO&r의 &l물류&r를 이어가는 것입니다."
+		"&c&lLaserIO&r는 DireWolf가 &a&lEnder IO&r의 &l물류&r 시스템을 이어 만든 모드입니다."
 		""
-		"이것은 모두 &c레이저&r를 통해 아이템을 이동하는 것에 관한 것입니다! 누가 &c레이저&r를 좋아하지 않겠어요?!"
+		"아이템을 &c레이저&r로 옮기는 것이 핵심입니다! &c레이저&r를 싫어할 사람이 있을까요?!"
 		""
-		"그리고 이 모든 것은 로직 칩에서 시작됩니다."
+		"모든 것은 로직 칩에서 시작합니다."
 	]
 	quest.5F1218CF8EFC607B.title: "&c&l레이저 IO"
 	quest.5F1784E562C29B66.quest_desc: ["&5엔드 돌 벌집&r을 직접 만들고 엔드로 가서 이 벌들 중 하나를 잡아보세요!"]
@@ -8983,12 +8983,12 @@
 	quest.003AA945CACCD641.title: "비 오브 더 뎁스"
 	quest.003FF3813A864BA1.quest_subtitle: "용암 벌에게 이상한 물질이 담긴 양동이를 먹이기"
 	quest.003FF3813A864BA1.title: "이상한 물질 벌"
-	quest.010A970FC91BD617.quest_subtitle: "합금 제련소에서 제작"
+	quest.010A970FC91BD617.quest_subtitle: "합금 제련기에서 제작"
 	quest.010A970FC91BD617.title: "솔라리움 벌"
 	quest.019CC48531E7759B.quest_subtitle: "드래곤스틸 포지에서 제작"
 	quest.019CC48531E7759B.title: "아이스 드래곤스틸 벌"
-	quest.035495984F84FB44.quest_subtitle: "합금 제련소에서 제작"
-	quest.035495984F84FB44.title: "맥동합금 벌"
+	quest.035495984F84FB44.quest_subtitle: "합금 제련기에서 제작"
+	quest.035495984F84FB44.title: "맥동 합금 벌"
 	quest.037FBF06E59E1027.quest_subtitle: "클리바노에서 제작"
 	quest.037FBF06E59E1027.title: "더럼 벌"
 	quest.041CDB45450A67E0.quest_subtitle: "고대의 벌 생성 알과 백금 벌 생성 알 합금"
@@ -9003,7 +9003,7 @@
 	quest.05F8458AB4A6950B.title: "셀레스티젬 벌"
 	quest.065196033249A0AA.quest_subtitle: "철 벌 계란과 합금 원료 생체고분자"
 	quest.065196033249A0AA.title: "바이오스틸 벌"
-	quest.0691BDE968724213.quest_subtitle: "합금 제련소에서 제작"
+	quest.0691BDE968724213.quest_subtitle: "합금 제련기에서 제작"
 	quest.0691BDE968724213.title: "활기찬 합금 벌"
 	quest.06B352AE90DD0D3E.quest_desc: ["&4흑요석 벌 생성 알&r을 수분시키는 &8BlazBee&r은 이를 &2무한 벌 생성 알&r로 변환합니다."]
 	quest.06B352AE90DD0D3E.title: "비 오브 인피니티"
@@ -9042,7 +9042,7 @@
 	quest.1540A9CDE2ED77E8.title: "활력이 넘치는 수정 벌"
 	quest.15C9CCCC8E06D430.quest_subtitle: "수정 같은 벌에 검은 석영 블록을 공급합니다."
 	quest.15C9CCCC8E06D430.title: "블랙쿼츠 벌"
-	quest.16987C41D4F5BA47.quest_subtitle: "합금 제련소에서 제작"
+	quest.16987C41D4F5BA47.quest_subtitle: "합금 제련기에서 제작"
 	quest.16987C41D4F5BA47.title: "구리 합금 벌"
 	quest.170C31F3BAF050BC.quest_subtitle: "재처리기에서 제작됨"
 	quest.170C31F3BAF050BC.title: "블루토늄 벌"
@@ -9069,7 +9069,7 @@
 	quest.1D995548A159F291.title: "소울리움 벌"
 	quest.1DC407272D9D9CCE.quest_subtitle: "각성한 제작"
 	quest.1DC407272D9D9CCE.title: "각성 슈프리미엄 벌"
-	quest.205DE46ABA1CCC8F.quest_subtitle: "합금 제련소에서 제작"
+	quest.205DE46ABA1CCC8F.quest_subtitle: "합금 제련기에서 제작"
 	quest.205DE46ABA1CCC8F.title: "전도성 합금 벌"
 	quest.2086C73688C8BA51.quest_subtitle: "용암 벌에 황산 한 통을 공급합니다."
 	quest.2086C73688C8BA51.title: "황산 벌"
@@ -9109,7 +9109,7 @@
 	quest.2E0275C21D3F0DA3.title: "드라코늄 벌"
 	quest.2F2597122C6202EF.quest_subtitle: "원자 제련소에서 제작"
 	quest.2F2597122C6202EF.title: "프로메테움 벌"
-	quest.2FE088899C1AF39B.quest_subtitle: "합금 제련소에서 제작"
+	quest.2FE088899C1AF39B.quest_subtitle: "합금 제련기에서 제작"
 	quest.2FE088899C1AF39B.title: "다크 스틸 벌"
 	quest.30A238E87F013CBB.quest_desc: ["벌은 일하는 방식, 일하는 시기, 공격성, 그리고 공격할 때 독침을 잃을 가능성에 영향을 미칠 수 있는 다양한 특성을 가지고 있습니다. 이 퀘스트에서는 가능한 최고의 특성을 얻는 방법과 이를 사용하는 방법을 살펴볼 것입니다.\\n\\n이 유전자 샘플을 얻으려면 이 퀘스트에 종속된 보틀러 퀘스트를 확인하세요. 이러한 유전자 샘플을 벌에 실제로 적용하려면 제작 그리드에서 꿀 간식과 결합해야 합니다. 유형을 제외한 모든 특성은 꿀 간식을 먹이면 벌에 적용할 수 있습니다. 유형은 다르게 작동하며 대신 각 벌의 생성 알을 만들기 위해 인큐베이터와 함께 사용해야 합니다."]
 	quest.30A238E87F013CBB.quest_subtitle: "궁극의 벌을 만들려면"
@@ -9197,7 +9197,7 @@
 	quest.677D0E27CAD7B145.title: "에테르 가스 벌"
 	quest.68DFFEA05553B67E.quest_subtitle: "막힘 + 서리가 내린"
 	quest.68DFFEA05553B67E.title: "프로스트스틸 벌"
-	quest.692BC8AADCBF76C3.quest_subtitle: "합금 제련소에서 제작"
+	quest.692BC8AADCBF76C3.quest_subtitle: "합금 제련기에서 제작"
 	quest.692BC8AADCBF76C3.title: "에너지 합금 벌"
 	quest.6BFF78D4218DF1F2.quest_subtitle: "헤파이스토스 대장간에서 제작"
 	quest.6BFF78D4218DF1F2.title: "스텔라라이트 벌"
@@ -9214,7 +9214,7 @@
 	quest.715588642623A8A1.title: "석영이 풍부한 철 벌"
 	quest.7277D695C4CB7840.quest_subtitle: "에너자이저로 만든"
 	quest.7277D695C4CB7840.title: "나이오틱 크리스탈 벌"
-	quest.728189EE56E5CAF7.quest_subtitle: "합금 제련소에서 제작"
+	quest.728189EE56E5CAF7.quest_subtitle: "합금 제련기에서 제작"
 	quest.728189EE56E5CAF7.title: "레드스톤 합금 벌"
 	quest.74B3E4B62FA9565E.quest_subtitle: "헌금 테이블로 제작"
 	quest.74B3E4B62FA9565E.title: "비 오브 더 스카이"
@@ -9224,7 +9224,7 @@
 	quest.79110ACAAC8412EA.title: "테르튬 벌"
 	quest.79CA2F401982C04F.quest_subtitle: "아르카누스 벌에 룬 블록을 공급합니다."
 	quest.79CA2F401982C04F.title: "룬 문자 벌"
-	quest.7A2B26CF0EDAA724.quest_subtitle: "합금 제련소에서 제작"
+	quest.7A2B26CF0EDAA724.quest_subtitle: "합금 제련기에서 제작"
 	quest.7A2B26CF0EDAA724.title: "엔드 스틸 벌"
 	quest.7AE1459B0B862737.quest_subtitle: "그냥 만드시면 됩니다"
 	quest.7AE1459B0B862737.title: "시간 벌"

@@ -1,0 +1,52 @@
+{
+  "family": "Ender IO",
+  "installed_jars_declaring_enderio_dependency": 0,
+  "direct_language_integrations": [
+    {
+      "namespace": "evilcraftcompat",
+      "keys_checked": 2,
+      "corrected_keys": 0,
+      "status": "reviewed_reuse"
+    },
+    {
+      "namespace": "mysticalagriculture",
+      "keys_checked": 9,
+      "corrected_keys": 4,
+      "status": "complete"
+    },
+    {
+      "namespace": "productivebees",
+      "keys_checked": 9,
+      "corrected_keys": 1,
+      "status": "complete"
+    }
+  ],
+  "related_ftb_quests": {
+    "productive_bees_keys_checked": 19,
+    "corrected_keys": 10,
+    "status": "complete"
+  },
+  "kubejs": {
+    "files_referencing_enderio": 18,
+    "direct_display_string_candidates": 0,
+    "classification": "조합법 스크립트의 아이템 ID와 리소스 참조만 있음"
+  },
+  "advancements": {
+    "files_checked": 983,
+    "display_fields": 6,
+    "literal_display_fields": 0,
+    "translated_key_fields": 6,
+    "missing_language_keys": 0
+  },
+  "patchouli": {
+    "files_found": 2,
+    "paths": [
+      "assets/enderio/patchouli_books/guide/en_us/categories/test_category.json",
+      "assets/enderio/patchouli_books/guide/en_us/entries/test_entry.json"
+    ],
+    "book_metadata_found": false,
+    "classification": "등록되지 않은 개발 테스트 콘텐츠",
+    "runtime_translation_required": false
+  },
+  "status": "complete"
+}

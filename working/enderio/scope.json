@@ -1,0 +1,15 @@
+{
+  "family": "Ender IO",
+  "jar": "enderio-8.2.11-beta.jar",
+  "namespace": "enderio",
+  "english_keys": 605,
+  "bundled_korean_keys": 605,
+  "bundled_values_identical_to_english": 605,
+  "bundled_korean_usable_without_review": 0,
+  "advancement_files": 983,
+  "patchouli_files": [
+    "assets/enderio/patchouli_books/guide/en_us/categories/test_category.json",
+    "assets/enderio/patchouli_books/guide/en_us/entries/test_entry.json"
+  ],
+  "patchouli_runtime_book_metadata_found": false
+}

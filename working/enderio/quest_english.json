@@ -1,0 +1,29 @@
+{
+  "quest.4869C413646CC4CC.quest_desc": [
+    "Transferring power out of your generators is probably a good idea, but how can you do it? ",
+    "",
+    "To start, you can use &cEnergy Pipes&r from the &aPipez&r mod, or you can use the &9Powah&r &cEnergy Cables&r if you have already started using that mod. ",
+    "",
+    "Or if you want a throwback, this pack has &6EnderIO&r and you can use the &6Energy Conduits&r from it."
+  ],
+  "quest.4A6B585C2394A89A.quest_desc": [
+    "The two Items we need via &5&lRunic Enchanter&r is &dInfused Dragon's Breath&r and &5Mending Books&r. \\n\\n&dInfused Dragon's Breath&r is pretty simple, just &aFluid XP&r, &dSource&r, and &dDragon's Breath&r! \\n\\n&dDragon's Breath&r can be farmed pretty easily with &b&lHNN&r or even better, an Extractor from &l&9X&cy&aC&8r&aa&cf&9t&r. \\n\\n&5Mending Books&r can be automated with &aFluid XP&r, &dSource&r, &9Lapis Lazuli&r, &4Supremium Enchanting Base&r, and the hardest part the &aExperience Rod&r. \\n\\n&9Lapis&r can be from &2&lMA&r, &6&lBees&r, or even just Quarries. \\n\\n&aExperience Rod&r will need two alloys from &a&lEnderIO&r: Soularium and Energetic Alloy. Both can be made from Alloy Smelter. \\n\\nThe &4Supremium Enchanting Base&r is a new Item made for the &5&lRunic Enchanter&r, you'll need to use tons of &aEXP Essence&r and Tiered Essences to get from a Book and Quill (which can be automated via &b&lHNN&r) to the &4Supremium Enchanting Base&r!"
+  ],
+  "quest.5F1218CF8EFC607B.quest_desc": [
+    "&c&lLaserIO&r is DireWolf's continuation of &a&lEnderIO&r's &lLogistics&r.",
+    "",
+    "It's all about moving items via &cLasers&r! Who doesn't love &cLasers&r?!",
+    "",
+    "And it all starts with the Logic Chip."
+  ],
+  "quest.010A970FC91BD617.quest_subtitle": "Made in Alloy Smelter",
+  "quest.035495984F84FB44.quest_subtitle": "Made in Alloy Smelter",
+  "quest.035495984F84FB44.title": "Pulsating Alloy Bee",
+  "quest.0691BDE968724213.quest_subtitle": "Made in Alloy Smelter",
+  "quest.16987C41D4F5BA47.quest_subtitle": "Made in Alloy Smelter",
+  "quest.205DE46ABA1CCC8F.quest_subtitle": "Made in Alloy Smelter",
+  "quest.2FE088899C1AF39B.quest_subtitle": "Made in Alloy Smelter",
+  "quest.692BC8AADCBF76C3.quest_subtitle": "Made in Alloy Smelter",
+  "quest.728189EE56E5CAF7.quest_subtitle": "Made in Alloy Smelter",
+  "quest.7A2B26CF0EDAA724.quest_subtitle": "Made in Alloy Smelter"
+}

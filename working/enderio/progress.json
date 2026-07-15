@@ -1,0 +1,41 @@
+{
+  "family": "Ender IO",
+  "batch_size": 180,
+  "reviewed_keys": 605,
+  "total_keys": 605,
+  "completed_batches": [
+    {
+      "batch": 1,
+      "range": [
+        1,
+        181
+      ],
+      "scope": "발전 과제 전체와 블록 이름 앞부분"
+    },
+    {
+      "batch": 2,
+      "range": [
+        182,
+        361
+      ],
+      "scope": "남은 블록, 도관, 필터와 기계 UI"
+    },
+    {
+      "batch": 3,
+      "range": [
+        362,
+        541
+      ],
+      "scope": "아이템, JEI, 메시지와 태그 앞부분"
+    },
+    {
+      "batch": 4,
+      "range": [
+        542,
+        605
+      ],
+      "scope": "태그와 툴팁"
+    }
+  ],
+  "status": "language_complete"
+}

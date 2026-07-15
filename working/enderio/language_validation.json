@@ -1,0 +1,21 @@
+{
+  "family": "Ender IO",
+  "jar": "enderio-8.2.11-beta.jar",
+  "english_keys": 605,
+  "korean_keys": 605,
+  "reviewed_keys": 605,
+  "remaining_keys": 0,
+  "reviewed_untranslated": 0,
+  "remaining_values_equal_to_english": 0,
+  "type_errors": 0,
+  "placeholder_errors": 0,
+  "format_code_errors": 0,
+  "newline_errors": 0,
+  "duplicate_keys": 0,
+  "translation_induced_name_collisions": 0,
+  "intentional_collision_exceptions": 2,
+  "output_untouched_until_complete": false,
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

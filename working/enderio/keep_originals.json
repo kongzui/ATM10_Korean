@@ -1,0 +1,8 @@
+{
+  "block.enderio.enderface": "블록 자체가 공식 모드명 Ender IO를 표시함",
+  "block.enderio.niard": "뜻이 확정되지 않은 Ender IO 고유 기계명",
+  "energy.enderio.micro_infinity": "숫자 자리표시자와 Ender IO 전력 단위 기호",
+  "item.enderio.enderios": "따옴표를 포함한 Ender IO 고유 아이템명",
+  "itemGroup.enderio.enderio": "공식 모드명",
+  "pack.enderio.machine.experiment.niard": "공식 모드명과 고유 기계명 조합"
+}

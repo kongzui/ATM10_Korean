@@ -39,6 +39,18 @@
 | Pickup | 줍기 | 기술 용어 | `Pickup Upgrade` 계열 | 확정 | 다른 문맥에서는 적용 범위를 별도 결정 |
 | Pickup Upgrade | 줍기 업그레이드 | 아이템·블록명 | Sophisticated Backpacks 및 관련 모드 | 확정 | `[기능명] 업그레이드` 형식 사용 |
 | Advanced Pickup Upgrade | 고급 줍기 업그레이드 | 아이템·블록명 | Sophisticated Backpacks 및 관련 모드 | 확정 | `고급 줍기 기능`은 사용하지 않음 |
+| Ender IO | Ender IO | 공식 모드명 | 전체 프로젝트 | 확정 | `EnderIO`, `엔더 IO`로 바꾸지 않음 |
+| Alloy Smelter | 합금 제련기 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 | `합금 제련소`로 바꾸지 않음 |
+| Capacitor Bank | 축전기 뱅크 | 아이템·블록명 | Ender IO | 확정 | 등급 접두어와 함께 사용 |
+| Conduit | 도관 | 기술 용어 | Ender IO 및 직접 연동 콘텐츠 | 확정 | 운송 대상에 따라 `에너지 도관`처럼 사용 |
+| Conductive Alloy | 전도성 합금 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 |  |
+| Dark Steel | 다크 스틸 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 | `어두운 강철`로 바꾸지 않음 |
+| End Steel | 엔드 스틸 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 | `엔드 강철`로 바꾸지 않음 |
+| Energetic Alloy | 에너지 합금 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 |  |
+| Pulsating Alloy | 맥동 합금 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 | `맥동합금`, `맥동하는 합금`으로 바꾸지 않음 |
+| Redstone Alloy | 레드스톤 합금 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 |  |
+| Soularium | 솔라리움 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 | `소울라리움`으로 바꾸지 않음 |
+| Vibrant Alloy | 활기찬 합금 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 |  |
 
 ## 5. 보류 용어
 

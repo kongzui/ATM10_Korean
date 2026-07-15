@@ -1,0 +1,30 @@
+{
+  "family": "Ender IO",
+  "dedicated_chapter_structure_found": false,
+  "orphaned_language_key": "chapter.49AD0D610C009D2F.title",
+  "orphaned_key_rendered_in_current_structure": false,
+  "references": {
+    "item_tasks": 1,
+    "quest_icons": 10,
+    "rewards": 3
+  },
+  "item_task_fallback": {
+    "chapter": "apotheosis_2.snbt",
+    "quest_id": "263860CADB3D76C6",
+    "task_id": "6AA7603047B9C2C3",
+    "item": "enderio:powered_spawner",
+    "explicit_quest_title": false,
+    "explicit_task_title": false,
+    "item_hover_name": "동력 스포너",
+    "status": "translated_fallback"
+  },
+  "corrected_existing_keys": [
+    "quest.4869C413646CC4CC.quest_desc",
+    "quest.4A6B585C2394A89A.quest_desc",
+    "quest.5F1218CF8EFC607B.quest_desc"
+  ],
+  "productive_bees_consistency_keys": 10,
+  "custom_name_or_literal_component_issues": 0,
+  "untranslated_render_paths": 0,
+  "status": "complete"
+}
