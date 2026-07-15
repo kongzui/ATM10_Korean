@@ -1,0 +1,52 @@
+{
+  "quest.3FF61A4D7A250AE1.quest_desc": [
+    "For this &5Creative &cEnergy Cell&r, not to be confused with the other &5Creative &dEnergy Cell&r, you'll need 4 &cNitro Cells&r. \\n\\nEach &cNitro Cell&r needs 2 &aSpirited Cells&r, and each &aSpirited Cell&r needs 2 &bNiotic Cells&r. This goes on for awhile... \\n\\nI'm not doing this math, get a Recipe Tree, I got more important things to do!"
+  ],
+  "quest.3FF61A4D7A250AE1.quest_subtitle": "Unlimited Powah!",
+  "quest.3FF61A4D7A250AE1.title": "&l&cEnergy Cell &5(Creative)",
+  "quest.7B3613C01F0B1373.quest_desc": [
+    "To combine &3Vibranium&r and &6Allthemodium&r we'll need to venture into &l&cPowah&r! \\n\\nPlace the Energizing Orb down then put Energizing Rods facing it. The Energizing Rods need to be placed on a Power Source and will send Energy into the Orb. The amount each holds and sends is determined by the Tier. \\n\\nPlace the Ingots, 2 Piglich Hearts, and a Compressed Block of Nitro Crystals X1 into the Orb (order doesn't matter). Then once 1 Billion FE is put into the Orb through the Rods it'll be ready!\\n",
+    "{ \"text\": \"POWAH QUESTLINE\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }"
+  ],
+  "quest.1BE26A00A420DAE3.quest_desc": [
+    "In this mod, you'll need &aFlux Cores&r and &aFlux Blocks&r to craft the core parts of your network. Make a few of each!"
+  ],
+  "quest.1BE26A00A420DAE3.quest_subtitle": "Of Cores you need these",
+  "quest.1BE26A00A420DAE3.title": "The \"Core\" Crafting Materials",
+  "quest.27A4FA38992448A0.quest_desc": [
+    "Flux Networks also provides a way to charge your items wirelessly, even across dimensions!\\n\\nOnce you have a Plug attached to your power system, you'll want to make the &9Flux Controller&r and place it down.\\n\\nRight-click on it to bring up the interface, and go to the \"Wireless Charging\" tab. From there, you can select each section of your inventory you'd like to keep charged. To activate, make sure to hit the toggle button at the bottom to enable Wireless Charging, then click apply!\\n",
+    "{image:atm:textures/questpics/basic_power/wireless_ui.png width:125 height:150 align:center}"
+  ],
+  "quest.27A4FA38992448A0.title": "Wireless Charging",
+  "quest.35ABB0DEE70DF7FD.quest_desc": [
+    "Believe it or not, the &aPowah&r mod has some great options for getting... powwe.\\n\\nMake sure to check out the &cPowah&r qyest chapter to learn more!"
+  ],
+  "quest.35ABB0DEE70DF7FD.title": "More &aPowah&r!",
+  "quest.35CC898E0E49FE58.quest_desc": [
+    "&9Flux Networks&r is a mod that aims to be the solution to all of your wireless power needs.\\n\\nThe mod itself does not have a way to generate power, but it can store and wirelessly transmit power, even across dimensions. It can even charge your items in your inventory.\\n\\nYou can even charge your Jetpacks while you are flying with this mod.\\n\\nTo get started with the mod, you'll need some Flux Dust. Head to Bedrock, then throw some Redstone on top of some Bedrock. Place some Obsidian right above the floating Redstone, then left click the Obsidian."
+  ],
+  "quest.35CC898E0E49FE58.quest_subtitle": "The Ultimate Wireless Power Solution",
+  "quest.35CC898E0E49FE58.title": "&8Flux Networks",
+  "quest.56B6ABF3D6EA0D84.quest_desc": [
+    "With our Plug set up, we can now tap into the power from our network. The &9Flux Point&r does exactly that. It points the power from your network to whatever block it is attached to, including Pipes or Cables, or just directly on machines!\\n\\nOnce you've placed your Point on the machine or block you want to power, right-click on it and select your network in the \"Network Selection\" tab. Just like the Plug, you can adjust how much power the Point pulls, priority level, etc."
+  ],
+  "quest.56B6ABF3D6EA0D84.title": "Accessing Network Power",
+  "quest.5F078A574A783B02.quest_desc": [
+    "The first item you'll need to start your Flux Network is a &9Flux Plug&r.\\n\\nThe Plug is used to \"draw\" power from the block it is attached to. Aside from a small buffer, the Plug does not store any power itself, so don't worry about it zapping up all of your power.\\n\\nIt is suggested to place the Plug on a power storage block like an Energy Cube. It can connect to Cables, Pipes, or the output of any power producing machine.\\n\\nTo learn how to set up your first network, check the next quest!"
+  ],
+  "quest.5F078A574A783B02.quest_subtitle": "Just plug it in!",
+  "quest.5F078A574A783B02.title": "Starting Your Network",
+  "quest.79AD74A863EA43CB.quest_desc": [
+    "Flux Networks does provide a way to store the power you generate for your network!\\n\\nThese hold massive amounts of power overall, and can be upgraded to store even more!"
+  ],
+  "quest.79AD74A863EA43CB.quest_subtitle": "Storing Power",
+  "quest.79AD74A863EA43CB.title": "Flux Storage",
+  "quest.535525EA4DF4AB59.quest_desc": [
+    "The &cPlayer Transmitter&r will supply energy to anyone with the Binded Card. That includes energy to all armor, tools, and items in their inventory. \\n\\nThe &cNitro Tier&r is needed for the &6&lStar&r, which is of course the last and hardest one to get."
+  ],
+  "quest.535525EA4DF4AB59.title": "&cNitro Player Transmitter",
+  "quest.7E4367252A39BE6C.quest_desc": [
+    "&c&lPowah&r is about power! Generating Power like FE to use Machines from other Mods like &5&lMekanism&r or &lIndustrial Foregoing&r! \\n\\nThere's different Tiers you'll have to craft up to and of course we'll need the last one for the &6&lStar&r!"
+  ],
+  "quest.7E4367252A39BE6C.title": "&c&lPowah"
+}

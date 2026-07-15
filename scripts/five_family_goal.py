@@ -190,6 +190,10 @@ ALLOWED_ORIGINALS = {
     "Mekanism - Gravitational Modulating Additional Unit",
 }
 
+ALLOWED_NAME_COLLISIONS = {
+    frozenset({"Energised Steel", "Energized Steel"}),
+}
+
 MEKANISM_QUEST_WORDS = {
     "Ultimate": "궁극",
     "Tier": "단계",
@@ -1011,24 +1015,82 @@ def prepare_quests(instance: Path, family: str, force: bool) -> dict[str, object
     return report
 
 
+def redundant_item_task_title_keys(instance: Path, family: str) -> set[str]:
+    """전용 챕터의 단일 ItemTask 중 중복 제목 키를 반환한다."""
+    english_keys: set[str] = set()
+    lang_root = instance / "config/ftbquests/quests/lang/en_us/chapters"
+    for chapter in QUEST_CHAPTERS[family]:
+        english_keys.update(
+            quest_snbt.parse_language_snbt(lang_root / f"{chapter}.snbt_merged")
+        )
+    chapters, _ = quest_audit.parse_chapters(instance / "config/ftbquests/quests")
+    dedicated = {
+        chapter["filename"]: chapter
+        for chapter in chapters
+        if Path(chapter["filename"]).stem in QUEST_CHAPTERS[family]
+    }
+    keys: set[str] = set()
+    for chapter in dedicated.values():
+        for quest in chapter["quests"]:
+            for task in quest["tasks"]:
+                if (
+                    task["type"] == "item"
+                    and task["item_id"] != "ftbfiltersystem:smart_filter"
+                    and f'task.{task["id"]}.title' in english_keys
+                ):
+                    keys.add(f'task.{task["id"]}.title')
+    return keys
+
+
+def remove_language_keys(text: str, keys: set[str]) -> str:
+    """SNBT 언어 객체에서 지정한 최상위 키를 제거한다."""
+    matches = list(quest_snbt.ENTRY_RE.finditer(text))
+    replacements: list[tuple[int, int]] = []
+    for index, match in enumerate(matches):
+        if match.group(1) not in keys:
+            continue
+        end = (
+            matches[index + 1].start() if index + 1 < len(matches) else text.rfind("}")
+        )
+        replacements.append((match.start(), end))
+    for start, end in reversed(replacements):
+        text = text[:start] + text[end:]
+    return text
+
+
 def build_quests(instance: Path, family: str) -> dict[str, object]:
     """검수한 퀘스트 번역을 누적 ko_kr.snbt에 병합한다."""
+    redundant_keys = redundant_item_task_title_keys(instance, family)
     combined: dict[str, object] = {}
     for root in sorted((PROJECT_ROOT / "working" / family / "quests").glob("*")):
         korean_file = root / "ko_kr.json"
         if korean_file.is_file():
-            combined.update(load_json(korean_file))
-    base = (
-        QUEST_OUTPUT
-        if QUEST_OUTPUT.is_file()
-        else instance / "config/ftbquests/quests/lang/ko_kr.snbt"
-    )
-    merged = quest_snbt.merge_into_full_snbt(base, combined)
+            combined.update(
+                {
+                    key: value
+                    for key, value in load_json(korean_file).items()
+                    if key not in redundant_keys
+                }
+            )
+    installed_base = instance / "config/ftbquests/quests/lang/ko_kr.snbt"
+    base = QUEST_OUTPUT if QUEST_OUTPUT.is_file() else installed_base
+    restored: dict[str, object] = {}
+    if QUEST_OUTPUT.is_file():
+        installed = quest_snbt.parse_language_snbt(installed_base)
+        current = quest_snbt.parse_language_snbt(QUEST_OUTPUT)
+        restored = {
+            key: value for key, value in installed.items() if key not in current
+        }
+    merged = quest_snbt.merge_into_full_snbt(base, {**restored, **combined})
+    merged = remove_language_keys(merged, redundant_keys)
     QUEST_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     QUEST_OUTPUT.write_text(merged, encoding="utf-8")
     reparsed = quest_snbt.parse_language_snbt(QUEST_OUTPUT)
     if any(reparsed.get(key) != value for key, value in combined.items()):
         raise ValueError("퀘스트 누적 병합 결과가 작업본과 다릅니다.")
+    remaining_redundant = sorted(redundant_keys & set(reparsed))
+    if remaining_redundant:
+        raise ValueError(f"중복 단일 ItemTask 제목 제거 실패: {remaining_redundant}")
     structure_overrides: list[str] = []
     if family == "mekanism":
         source = instance / "config/ftbquests/quests/chapters/mekanism.snbt"
@@ -1048,6 +1110,7 @@ def build_quests(instance: Path, family: str) -> dict[str, object]:
     return {
         "family": FAMILY_LABELS[family],
         "merged_keys": len(combined),
+        "removed_redundant_item_task_titles": len(redundant_keys),
         "structure_overrides": structure_overrides,
     }
 
@@ -1056,6 +1119,7 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
     """전용·관련 퀘스트와 fallback 표시 경로를 검증한다."""
     errors: list[str] = []
     output = quest_snbt.parse_language_snbt(QUEST_OUTPUT)
+    redundant_keys = redundant_item_task_title_keys(instance, family)
     display_keys = 0
     english_display: dict[str, object] = {}
     for root in sorted((PROJECT_ROOT / "working" / family / "quests").glob("*")):
@@ -1073,6 +1137,10 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
         for key, source in english.items():
             target = korean[key]
             errors.extend(quest_snbt.validate_value(key, source, target))
+            if key in redundant_keys:
+                if key in output:
+                    errors.append(f"중복 단일 ItemTask 제목이 출력에 남음: {key}")
+                continue
             if output.get(key) != target:
                 errors.append(f"퀘스트 누적 출력 불일치: {key}")
             source_text = quest_snbt.flatten(source)
@@ -1117,10 +1185,15 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
         for task in explicit_task_titles
         if task["type"] == "item" and task["item_id"] != "ftbfiltersystem:smart_filter"
     ]
-    if redundant_single_item_titles:
+    unremoved_titles = [
+        task
+        for task in redundant_single_item_titles
+        if f'task.{task["id"]}.title' in output
+    ]
+    if unremoved_titles:
         errors.append(
             "중복 단일 ItemTask 제목이 남아 있습니다: "
-            + ", ".join(task["id"] for task in redundant_single_item_titles)
+            + ", ".join(task["id"] for task in unremoved_titles)
         )
     first_task_fallbacks = [
         quest
@@ -1184,7 +1257,8 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
         "source_english_custom_names": len(custom_names),
         "unresolved_english_custom_names": len(unresolved_custom_names),
         "explicit_task_titles": len(explicit_task_titles),
-        "redundant_single_item_task_titles": len(redundant_single_item_titles),
+        "source_redundant_single_item_task_titles": len(redundant_single_item_titles),
+        "remaining_redundant_single_item_task_titles": len(unremoved_titles),
         "first_task_quest_fallbacks": len(first_task_fallbacks),
         "fallback_paths_checked": [
             "chapter/group title",
@@ -1451,7 +1525,10 @@ def verify_language(
         collisions = []
         for translated, keys in names_by_korean.items():
             source_names = {english[key] for key in keys}
-            if len(source_names) > 1:
+            if (
+                len(source_names) > 1
+                and frozenset(source_names) not in ALLOWED_NAME_COLLISIONS
+            ):
                 collisions.append(
                     {
                         "translation": translated,

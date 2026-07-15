@@ -1,0 +1,97 @@
+{
+  "family": "Powah!·Flux Networks",
+  "installed": [
+    {
+      "label": "Powah!",
+      "jar": "Powah-6.2.10.jar",
+      "namespace": "powah",
+      "direct_integration": false,
+      "english_keys": 190,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "powah"
+      ],
+      "guide_candidates": 227,
+      "guide_examples": [
+        "assets/powah/guides/powah/book/_fr_fr/energy_blocks/energizing.md",
+        "assets/powah/guides/powah/book/_fr_fr/energy_blocks/energy_discharger.md",
+        "assets/powah/guides/powah/book/_fr_fr/energy_blocks/energy_hopper.md",
+        "assets/powah/guides/powah/book/_fr_fr/energy_blocks/index.md",
+        "assets/powah/guides/powah/book/_fr_fr/energy_blocks/player_transmitter.md",
+        "assets/powah/guides/powah/book/_fr_fr/generators/furnator.md",
+        "assets/powah/guides/powah/book/_fr_fr/generators/index.md",
+        "assets/powah/guides/powah/book/_fr_fr/generators/magmator.md",
+        "assets/powah/guides/powah/book/_fr_fr/generators/reactor.md",
+        "assets/powah/guides/powah/book/_fr_fr/generators/solar_panel.md",
+        "assets/powah/guides/powah/book/_fr_fr/generators/thermo_generator.md",
+        "assets/powah/guides/powah/book/_fr_fr/index.md",
+        "assets/powah/guides/powah/book/_fr_fr/items/battery.md",
+        "assets/powah/guides/powah/book/_fr_fr/items/binding_card.md",
+        "assets/powah/guides/powah/book/_fr_fr/items/binding_card_dim.md",
+        "assets/powah/guides/powah/book/_fr_fr/items/charged_snowball.md",
+        "assets/powah/guides/powah/book/_fr_fr/items/index.md",
+        "assets/powah/guides/powah/book/_fr_fr/items/lens_of_ender.md",
+        "assets/powah/guides/powah/book/_fr_fr/items/player_aerial_pearl.md",
+        "assets/powah/guides/powah/book/_fr_fr/items/wrench.md"
+      ],
+      "advancements": 157,
+      "advancement_examples": [
+        "data/powah/advancement/recipes/misc/crafting/aerial_pearl.json",
+        "data/powah/advancement/recipes/misc/crafting/battery_basic.json",
+        "data/powah/advancement/recipes/misc/crafting/battery_blazing.json",
+        "data/powah/advancement/recipes/misc/crafting/battery_hardened.json",
+        "data/powah/advancement/recipes/misc/crafting/battery_niotic.json",
+        "data/powah/advancement/recipes/misc/crafting/battery_nitro.json",
+        "data/powah/advancement/recipes/misc/crafting/battery_spirited.json",
+        "data/powah/advancement/recipes/misc/crafting/battery_starter.json",
+        "data/powah/advancement/recipes/misc/crafting/binding_card.json",
+        "data/powah/advancement/recipes/misc/crafting/blank_card.json",
+        "data/powah/advancement/recipes/misc/crafting/blank_card_2.json",
+        "data/powah/advancement/recipes/misc/crafting/blazing_crystal.json",
+        "data/powah/advancement/recipes/misc/crafting/blazing_crystal_block.json",
+        "data/powah/advancement/recipes/misc/crafting/cable_basic.json",
+        "data/powah/advancement/recipes/misc/crafting/cable_basic_2.json",
+        "data/powah/advancement/recipes/misc/crafting/cable_blazing.json",
+        "data/powah/advancement/recipes/misc/crafting/cable_blazing_2.json",
+        "data/powah/advancement/recipes/misc/crafting/cable_hardened.json",
+        "data/powah/advancement/recipes/misc/crafting/cable_hardened_2.json",
+        "data/powah/advancement/recipes/misc/crafting/cable_niotic.json"
+      ],
+      "recipes": 328
+    },
+    {
+      "label": "Lollipop",
+      "jar": "Powah-6.2.10.jar",
+      "namespace": "lollipop",
+      "direct_integration": false,
+      "english_keys": 50,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "powah"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
+    },
+    {
+      "label": "Flux Networks",
+      "jar": "FluxNetworks-1.21.1-8.0.0.jar",
+      "namespace": "fluxnetworks",
+      "direct_integration": false,
+      "english_keys": 123,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "fluxnetworks"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 15
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": []
+}

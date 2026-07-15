@@ -1,0 +1,108 @@
+{
+  "family": "Powah!·Flux Networks",
+  "installed_versions": [
+    "Powah-6.2.10.jar",
+    "FluxNetworks-1.21.1-8.0.0.jar"
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 0,
+    "legacy_exact_reuse": 273,
+    "new_or_edited": 90
+  },
+  "ftbquests": {
+    "chapters": [
+      "powah.snbt"
+    ],
+    "quests_checked": 109,
+    "tasks_checked": 114,
+    "display_keys_checked": 66,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 5,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 92,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ],
+    "reviewed_overrides": 47,
+    "matching_output": 47
+  },
+  "guides": {
+    "jar": "Powah-6.2.10.jar",
+    "pages_checked": 28,
+    "path_parity": true,
+    "tag_and_link_order_checked": true
+  },
+  "advancements": {
+    "jar": "Powah-6.2.10.jar",
+    "files_checked": 157,
+    "display_fields": 0,
+    "translate_keys": 0,
+    "literal_display_fields": 0
+  },
+  "kubejs": {
+    "files_referencing_family": 18,
+    "referenced_paths": [
+      "kubejs/assets/powa/lang/pt_br.json",
+      "kubejs/data/modern_industrialization/recipe/quarry/allthemodium.json",
+      "kubejs/data/modern_industrialization/recipe/quarry/unobtainium.json",
+      "kubejs/server_scripts/modpack/atm_alloys.js",
+      "kubejs/server_scripts/modpack/atm_star_creative.js",
+      "kubejs/server_scripts/modpack/att_items.js",
+      "kubejs/server_scripts/modpack/miningDim.js",
+      "kubejs/server_scripts/mods/Actually Additions/Crusher.js",
+      "kubejs/server_scripts/mods/EnderIO/sagMill.js",
+      "kubejs/server_scripts/mods/Integrated Dynamics/Squeezer.js",
+      "kubejs/server_scripts/mods/Mekanism/Rebalance/rebalance.md",
+      "kubejs/server_scripts/mods/Mekanism/Recipes.js",
+      "kubejs/server_scripts/mods/Modern Industrialization/Quarry.js",
+      "kubejs/server_scripts/mods/Powah/Energizing.js",
+      "kubejs/server_scripts/mods/Xycraft/Extractor.js",
+      "kubejs/server_scripts/Tweaks/clearing_recipes.js",
+      "kubejs/server_scripts/Tweaks/recipes.js",
+      "kubejs/server_scripts/Tweaks/tags.js"
+    ],
+    "direct_display_candidates": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp/backups/20260715_115003_499502/backup_manifest.json",
+    "files_checked": 32,
+    "hash_matches": 32,
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/energy_blocks/energizing.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/energy_blocks/energy_discharger.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/energy_blocks/energy_hopper.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/energy_blocks/player_transmitter.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/generators/furnator.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/generators/magmator.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/generators/reactor.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/generators/solar_panel.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/generators/thermo_generator.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/battery.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/binding_card.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/binding_card_dim.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/charged_snowball.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/lens_of_ender.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/player_aerial_pearl.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/wrench.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/materials/dry_ice.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/materials/uraninite.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/storage_transfer/ender_cell.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/storage_transfer/ender_gate.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/storage_transfer/energy_cable.md",
+      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/storage_transfer/energy_cell.md"
+    ],
+    "unexpected_changes": []
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}
