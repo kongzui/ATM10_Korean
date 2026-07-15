@@ -21,6 +21,7 @@ OUTPUT_ROOT = (
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2/guide_progress.json"
 SOURCE_ROOT = PurePosixPath("assets/ae2/ae2guide")
 AE2WTLIB_COMPAT_RELATIVE = "items-blocks-machines/wireless_terminals.md"
+SHARED_OUTPUT_FILES = {"ae2importexportcard-index.md"}
 
 ACTIVE_BATCH = 14
 BATCHES = {
@@ -399,8 +400,14 @@ def build(instance: Path) -> dict[str, object]:
         for path in OUTPUT_ROOT.rglob("*.md")
         if path.is_file()
     }
-    if output_files != expected_files:
-        raise ValueError("출력 가이드 파일 목록이 첫 배치와 다릅니다.")
+    missing_output_files = expected_files - output_files
+    unexpected_output_files = output_files - expected_files - SHARED_OUTPUT_FILES
+    if missing_output_files or unexpected_output_files:
+        raise ValueError(
+            "출력 가이드 파일 목록이 다릅니다: "
+            f"누락={sorted(missing_output_files)}, "
+            f"불필요={sorted(unexpected_output_files)}"
+        )
 
     result = {
         "scope": f"Applied Energistics 2 GuideME guide batches 01-{ACTIVE_BATCH:02d}",

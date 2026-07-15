@@ -128,7 +128,7 @@ item_ids:
 <ItemImage id="speed_card" scale="2" />
 
 가속 카드는 장치를 더 빠르게 만듭니다. 반입·반출 버스가 작업당 더 많은 아이템을 옮기고,
-회로 인쇄기와 조립기가 더 빠르게 작동합니다.
+각인기와 조립기가 더 빠르게 작동합니다.
 
 <RecipeFor id="speed_card" />
 

@@ -70,8 +70,14 @@ def main() -> int:
     expected = set(guide.BATCH_FILES)
     if working_files != expected:
         errors.append("작업본 파일 목록이 첫 배치와 다릅니다.")
-    if output_files != expected:
-        errors.append("출력 파일 목록이 첫 배치와 다릅니다.")
+    missing_output_files = expected - output_files
+    unexpected_output_files = output_files - expected - guide.SHARED_OUTPUT_FILES
+    if missing_output_files or unexpected_output_files:
+        errors.append(
+            "출력 파일 목록이 다릅니다: "
+            f"누락={sorted(missing_output_files)}, "
+            f"불필요={sorted(unexpected_output_files)}"
+        )
 
     with (
         zipfile.ZipFile(jar) as archive,

@@ -25,8 +25,8 @@ navigation:
 
 필요한 [패턴](../items-blocks-machines/patterns.md)은 종종 **JEI에 보이는 것 또는 + 버튼을 눌렀을 때 JEI가 만드는 것과 다릅니다**.
 이 경우 JEI는 인쇄된 부품용과 최종 조립용 패턴을 따로 만들며, 인쇄된 부품 패턴에는
-[압형](../items-blocks-machines/presses.md)도 포함합니다. 하지만 설비가 그렇게 작동하지 않으므로 원하는 패턴이 아닙니다.
-원재료를 입력해 완성된 프로세서를 출력하는 패턴 하나가 필요하며, 압형은 이미 회로 인쇄기 안에 있으므로 패턴에 넣지 않아야 합니다.
+[프레스](../items-blocks-machines/presses.md)도 포함합니다. 하지만 설비가 그렇게 작동하지 않으므로 원하는 패턴이 아닙니다.
+원재료를 입력해 완성된 프로세서를 출력하는 패턴 하나가 필요하며, 프레스는 이미 각인기 안에 있으므로 패턴에 넣지 않아야 합니다.
 
 ---
 
@@ -38,8 +38,8 @@ navigation:
 
         <Row>
             ![논리 패턴](../assets/diagrams/logic_pattern_small.png)
-            ![연산 패턴](../assets/diagrams/calculation_pattern_small.png)
-            ![엔지니어링 패턴](../assets/diagrams/engineering_pattern_small.png)
+            ![계산 패턴](../assets/diagrams/calculation_pattern_small.png)
+            ![공학 패턴](../assets/diagrams/engineering_pattern_small.png)
         </Row>
   </BoxAnnotation>
 
@@ -73,27 +73,27 @@ navigation:
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 1 0" max="3 2 1" thickness=".05">
-        (8) 회로 인쇄기 #1: 기본 설정입니다. 실리콘 압형과 가속 카드 4장이 있습니다.
+        (8) 각인기 #1: 기본 설정입니다. 실리콘 프레스와 가속 카드 4장이 있습니다.
         <Row><ItemImage id="silicon_press" scale="2" /> <ItemImage id="speed_card" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 3 0" max="3 4 1" thickness=".05">
-        (9) 회로 인쇄기 #2: 기본 설정입니다. 논리 회로 압형과 가속 카드 4장이 있습니다.
+        (9) 각인기 #2: 기본 설정입니다. 논리 회로 프레스와 가속 카드 4장이 있습니다.
         <Row><ItemImage id="logic_processor_press" scale="2" /> <ItemImage id="speed_card" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 4 0" max="3 5 1" thickness=".05">
-        (10) 회로 인쇄기 #3: 기본 설정입니다. 연산 회로 압형과 가속 카드 4장이 있습니다.
+        (10) 각인기 #3: 기본 설정입니다. 계산 회로 프레스와 가속 카드 4장이 있습니다.
         <Row><ItemImage id="calculation_processor_press" scale="2" /> <ItemImage id="speed_card" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 5 0" max="3 6 1" thickness=".05">
-        (11) 회로 인쇄기 #4: 기본 설정입니다. 엔지니어링 회로 압형과 가속 카드 4장이 있습니다.
+        (11) 각인기 #4: 기본 설정입니다. 공학 회로 프레스와 가속 카드 4장이 있습니다.
         <Row><ItemImage id="engineering_processor_press" scale="2" /> <ItemImage id="speed_card" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 2 0" max="1 3 1" thickness=".05">
-        (12) 회로 인쇄기 #5: 기본 설정입니다. 가속 카드 4장이 있습니다.
+        (12) 각인기 #5: 기본 설정입니다. 가속 카드 4장이 있습니다.
         <ItemImage id="speed_card" scale="2" />
   </BoxAnnotation>
 
@@ -135,7 +135,7 @@ navigation:
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="3.3 2.7 0.3" max="3.7 3 0.7" thickness=".05">
-        회로 인쇄기는 케이블처럼 작동해 에너지를 전달하므로 석영 섬유 하나가 회로 인쇄기 3대 모두에 전력을 공급합니다.
+        각인기는 케이블처럼 작동해 에너지를 전달하므로 석영 섬유 하나가 각인기 3대 모두에 전력을 공급합니다.
   </BoxAnnotation>
 
 <DiamondAnnotation pos="7 1.5 0.5" color="#00ff00">
@@ -148,11 +148,11 @@ navigation:
 ## 설정
 
 * <ItemLink id="pattern_provider" /> (1)는 관련 <ItemLink id="processing_pattern" />을 넣은 기본 설정입니다.
-  패턴은 원재료에서 완성된 프로세서로 바로 이어지며 [압형](../items-blocks-machines/presses.md)을 포함하지 **않습니다**.
+  패턴은 원재료에서 완성된 프로세서로 바로 이어지며 [프레스](../items-blocks-machines/presses.md)를 포함하지 **않습니다**.
 
   ![논리 패턴](../assets/diagrams/logic_pattern.png)
-  ![연산 패턴](../assets/diagrams/calculation_pattern.png)
-  ![엔지니어링 패턴](../assets/diagrams/engineering_pattern.png)
+  ![계산 패턴](../assets/diagrams/calculation_pattern.png)
+  ![공학 패턴](../assets/diagrams/engineering_pattern.png)
 
 * <ItemLink id="storage_bus" /> (2, 17, 18, 20)는 기본 설정입니다.
 * <ItemLink id="export_bus" /> (3~7)는 해당 재료로 필터링했으며 <ItemLink id="speed_card" />가 2장씩 있습니다.
@@ -164,7 +164,7 @@ navigation:
       <ItemImage id="minecraft:redstone" scale="2" />
     </Row>
 * <ItemLink id="import_bus" /> (13~16, 19)는 기본 설정이며 <ItemLink id="speed_card" />가 2장씩 있습니다.
-* <ItemLink id="inscriber" />는 기본 설정이며 해당 [압형](../items-blocks-machines/presses.md)과
+* <ItemLink id="inscriber" />는 기본 설정이며 해당 [프레스](../items-blocks-machines/presses.md)와
   <ItemLink id="speed_card" /> 4장이 들어 있습니다.
    <Row>
      <ItemImage id="silicon_press" scale="2" />

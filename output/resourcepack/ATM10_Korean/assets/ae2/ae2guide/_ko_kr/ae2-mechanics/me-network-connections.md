@@ -152,7 +152,7 @@ navigation:
 
 다음 구성은 하나의 네트워크입니다. 완전한 블록 형태의 장치인 <ItemLink id="pattern_provider" />가
 케이블처럼 작동하고 <ItemLink id="inscriber" />도 비슷하게 작동하기 때문입니다. 네트워크 연결이 패턴
-공급기와 회로 인쇄기를 통과합니다.
+공급기와 각인기를 통과합니다.
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/pattern_provider_network_connection_1.snbt" />

@@ -60,11 +60,11 @@ navigation:
     </BoxAnnotation>
 
     <BoxAnnotation color="#33dd33" min="2 10 12" max="5 11 15" thickness="0.05">
-        1.20부터 회로 인쇄기가 결과물을 자동 배출할 수 있어 가능한 또 다른 프로세서 자동화 방법입니다.
+        1.20부터 각인기가 결과물을 자동 배출할 수 있어 가능한 또 다른 프로세서 자동화 방법입니다.
     </BoxAnnotation>
 
     <BoxAnnotation color="#33dd33" min="3 10 10" max="4 12 11" thickness="0.05">
-        1.20부터 회로 인쇄기가 결과물을 자동 배출할 수 있어 가능한 또 다른 프로세서 자동화 방법입니다.
+        1.20부터 각인기가 결과물을 자동 배출할 수 있어 가능한 또 다른 프로세서 자동화 방법입니다.
     </BoxAnnotation>
 
     <BoxAnnotation color="#33dd33" min="7.2 9.2 8.2" max="7.8 10 8.8" thickness="0.05">

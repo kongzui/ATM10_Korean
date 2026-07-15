@@ -2217,10 +2217,7 @@ def validate_arseng_language(instance: Path, compare_output: bool) -> dict[str, 
             errors.append(
                 f"Ars Énergistique 언어 출력 파일이 없습니다: {ARSENG_LANG_OUTPUT_FILE}"
             )
-        elif (
-            ARSENG_LANG_WORKING_FILE.read_bytes()
-            != ARSENG_LANG_OUTPUT_FILE.read_bytes()
-        ):
+        elif translated_lang != load_json_unique(ARSENG_LANG_OUTPUT_FILE):
             errors.append("Ars Énergistique 언어 작업본과 출력이 다릅니다.")
 
     reused = sum(

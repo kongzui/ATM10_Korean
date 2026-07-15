@@ -3229,8 +3229,8 @@
 	quest.333682022948E2F3.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_thioquartz.png width:100 height:150 align:center}"]
 	quest.333682022948E2F3.title: "&2싸이오쿼츠&r"
 	quest.3339445194568D77.title: "&2프루덴티움 도구"
-	quest.33422FBDAE11AE82.quest_subtitle: "시공 벌에게 액정 진주를 먹이세요"
-	quest.33422FBDAE11AE82.title: "플럭스 벌"
+	quest.33422FBDAE11AE82.quest_subtitle: "공간 벌에게 플루익스 진주를 먹이세요"
+	quest.33422FBDAE11AE82.title: "플루익스 벌"
 	quest.33433A443B65D252.quest_desc: [
 		"&b물&r=&b파란색&r &b물&r=&b액체&r 따라서 &b파란색&r=&b액체&r\\n\\n많은 모드에는 자체적인 &b액체&r가 있으며, Minecraft조차도 &b물&r과 &c용암&r이라는 자체 액체를 가지고 있습니다. 이러한 &b액체&r를 이동해야 할 가능성이 높으며, &b유체 파이프&r를 사용하면 좋은 방법이 될 수 있습니다.\\n\\n이것은 싱크대에 연결하여 무한한 &b물&r을 이동할 수 있습니다!"
 		"{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
@@ -6901,7 +6901,7 @@
 	quest.6E15447FC3D678E0.quest_desc: ["&b퍼지 카드&f는 내구도나 마법 부여 같은 (NBT) 메타데이터와 관계없이 필터 아이템을 일치시킵니다. &b반전 카드&f는 버스의 필터를 화이트리스트와 블랙리스트 사이에서 전환합니다."]
 	quest.6E15447FC3D678E0.quest_subtitle: "남은 두 개의 IO 카드"
 	quest.6E15447FC3D678E0.title: "느슨하게 말하자면"
-	quest.6E17595887A051C2.quest_desc: ["&l&2모드가 적용된 Minecraft&r는 새로운 주민 직업을 소개합니다!\\n\\nForge 망치: &5산업가&r\\n\\n충전기: &bFluix 연구원&r\\n\\n고급 벌통: &6양봉가&r\\n\\n커피 메이커: &9엔지니어&r\\n\\n아케인 코어: &d으슥한 마법사&r\\n\\n채집가 테이블: &a채집가&r\\n\\n동력 롤링 기계: &e카트맨&r\\n수동 롤링 기계: &e궤도 기술자&r\\n\\n엔지니어 작업대: &7총기 제작자&r\\n하얀색 현수막: &7현수막 제작자&r\\n엔지니어 회로 작업대: &7전기기사&r\\n엔지니어 제작대: &7기계공&r\\n턴테이블: &7구조물 엔지니어&r\\n\\n충전소: &4압력 기능공&r\\n\\n톱: &8목수&r"]
+	quest.6E17595887A051C2.quest_desc: ["&l&2모드가 적용된 Minecraft&r는 새로운 주민 직업을 소개합니다!\\n\\nForge 망치: &5산업가&r\\n\\n충전기: &b플루익스 연구원&r\\n\\n고급 벌통: &6양봉가&r\\n\\n커피 메이커: &9엔지니어&r\\n\\n아케인 코어: &d으슥한 마법사&r\\n\\n채집가 테이블: &a채집가&r\\n\\n동력 롤링 기계: &e카트맨&r\\n수동 롤링 기계: &e궤도 기술자&r\\n\\n엔지니어 작업대: &7총기 제작자&r\\n하얀색 현수막: &7현수막 제작자&r\\n엔지니어 회로 작업대: &7전기기사&r\\n엔지니어 제작대: &7기계공&r\\n턴테이블: &7구조물 엔지니어&r\\n\\n충전소: &4압력 기능공&r\\n\\n톱: &8목수&r"]
 	quest.6E17595887A051C2.title: "모어 프로페션"
 	quest.6E3AD764A67829CB.quest_desc: ["하위 버전인 &b주입 수정&r처럼, &c마스터 주입 수정&r 또한 이전 버전의 모든 기능을 수행할 수 있습니다. \\n\\n이것은 무한정 사용할 수 있으며, 4개의 라텍스 블록을 다음 단계의 블록 형태로 상위 버전으로 변환할 수 있습니다!\\n\\n&c슈프리뮴&r이 필요하지만, 저를 믿으세요. 그만한 가치가 있습니다!"]
 	quest.6E3AD764A67829CB.title: "&c마스터 주입 수정"
@@ -8621,7 +8621,7 @@
 	]
 	quest.4818C8387C0DBBE7.title: "ExtendedAE"
 	quest.48357A7486125C52.quest_desc: [
-		"회로 인쇄기의 느린 속도에 지치셨나요?"
+		"각인기의 느린 속도에 지치셨나요?"
 		""
 		"회로 절단기를 소개합니다! 금 블록 같은 블록을 회로로 절단하여 한 번에 최대 9개의 회로를 만들 수 있습니다. 서투스 또는 엔트로 회로는 4개까지 만들 수 있습니다."
 		""
@@ -8732,9 +8732,9 @@
 	quest.411A463E98C3B102.quest_desc: [
 		"퀀텀 컴퓨터, 제작기와 갑옷을 만드는 데 필요한 재료입니다."
 		""
-		"부서진 특이점은 반응 챔버에 특이점 하나, 엔더 가루 2개, 하늘 돌 가루 2개와 용암 100 mB를 넣어 만듭니다."
+		"부서진 특이점은 반응 챔버에 특이점 하나, 엔더 가루 2개, 천령석 가루 2개와 용암 100 mB를 넣어 만듭니다."
 		""
-		"퀀텀 주입액 1양동이는 물 4양동이와 퀀텀 주입 가루로 만듭니다. 퀀텀 주입 가루는 부서진 특이점을 회로 인쇄기 또는 Mekanism 분쇄기에 넣어 얻습니다."
+		"퀀텀 주입액 1양동이는 물 4양동이와 퀀텀 주입 가루로 만듭니다. 퀀텀 주입 가루는 부서진 특이점을 각인기 또는 Mekanism 분쇄기에 넣어 얻습니다."
 		""
 		"퀀텀 합금은 퀀텀 주입액 1양동이, 구리 주괴 4개, 부서진 특이점 4개와 일반 특이점 4개로 만듭니다."
 	]
@@ -9085,7 +9085,7 @@
 	quest.24846776077B52C3.title: "슈프리미엄 벌"
 	quest.24B147D251D0CFFF.quest_subtitle: "Blazebloom Goo를 금 벌에게 먹이세요."
 	quest.24B147D251D0CFFF.title: "블레이즈골드 벌"
-	quest.26B3AE1E77A84BCB.quest_desc: ["&9오스뮴 벌 생성 알&r, &b충전된 세르투스 석영&r 및 &8하늘석&r을 용암에 던지면 &e스카이 오스뮴 벌 생성 알이 생성됩니다."]
+	quest.26B3AE1E77A84BCB.quest_desc: ["&9오스뮴 벌 생성 알&r, &b충전된 서투스 석영&r 및 &8천령석&r을 용암에 던지면 &e스카이 오스뮴 벌 생성 알이 생성됩니다."]
 	quest.26B3AE1E77A84BCB.title: "스카이 오스뮴 벌"
 	quest.26B9909717528D5E.quest_subtitle: "지하 정원에서 발견됨"
 	quest.26B9909717528D5E.title: "우테릭 벌"
@@ -9145,7 +9145,7 @@
 	quest.3EB6CBA0B1374BDD.title: "라이트닝 드래곤스틸 벌"
 	quest.40F8A44DF4D8DBD6.quest_subtitle: "마그매틱 + 노마드"
 	quest.40F8A44DF4D8DBD6.title: "BlazBee"
-	quest.41D0CC616B762F4C.quest_desc: ["&9플럭스 벌 생성 알&r과 &8엔트로 먼지&r을 물에 던져 엔트로 벌 생성 알을 만들 수 있습니다."]
+	quest.41D0CC616B762F4C.quest_desc: ["&9플루익스 벌 생성 알&r과 &8엔트로 먼지&r을 물에 던져 엔트로 벌 생성 알을 만들 수 있습니다."]
 	quest.41D0CC616B762F4C.title: "엔트로 벌"
 	quest.41FD145B911BD625.quest_subtitle: "은 벌 Spiritfire에 알 생성"
 	quest.41FD145B911BD625.title: "이에스늄 벌"
