@@ -205,7 +205,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 
 | 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
 |---|---|---|---|---|---|
-| Integrated Dynamics 계열 | 인티그레이티드 다이내믹스 계열 | 변수·논리·터미널·물류·자동조합·스크립트를 제공 | Integrated Dynamics, Integrated Terminals, Integrated Tunnels, Integrated Crafting, Integrated Scripting | 미작업 | 기존 계획·전용 퀘스트 챕터 |
+| Integrated Dynamics 계열 | 인티그레이티드 다이내믹스 계열 | 변수·논리·터미널·물류·자동조합·스크립트를 제공 | Integrated Dynamics, Integrated Terminals, Integrated Tunnels, Integrated Crafting, Integrated Scripting, 호환 네임스페이스·관련 퀘스트·가이드 | 완료 | 기존 계획·전용 퀘스트 챕터 |
 | 초중반 기반 시설 | 초중반 기반 시설 | 자주 쓰는 기계·주민·건축·채굴·몹 처리 도구 묶음 | Iron Furnaces, Easy Villagers, Mining Gadgets, Building Gadgets, Mob Grinding Utils, Item Collectors | 미작업 | 기존 계획·작은 독립 모드 묶음 |
 
 ## 완료된 작업 기록
@@ -220,5 +220,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 - **Sophisticated 계열:** Core, Backpacks, Storage, Storage In Motion과 관련 퀘스트 완료
 - **대형 장비 모드군 4개:** Apotheosis, Relics·Artifacts, Silent Gear,
   Allthemodium·ATM 장비의 언어·관련 퀘스트·KubeJS·가이드 검수와 적용 완료
+- **Integrated Dynamics 계열:** 5개 모드와 호환 네임스페이스 2개의 언어 2,948키,
+  전용·관련 퀘스트 74키, 인게임 가이드·발전 과제·KubeJS 검수와 적용 완료
 - **FTB Quests 공통 제목·탐색 기반:** 일부 완료. 다른 모드의 미완성 제목과 fallback은
   해당 모드를 선택했을 때 함께 검토
