@@ -1,0 +1,78 @@
+{
+  "family": "EvilCraft",
+  "language_provenance": {
+    "bundled_exact_reuse": 0,
+    "legacy_exact_reuse": 600,
+    "new_or_edited": 57
+  },
+  "ftbquests": {
+    "chapters": [
+      "evilcraft.snbt"
+    ],
+    "quests_checked": 45,
+    "tasks_checked": 61,
+    "display_keys_checked": 97,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 2,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 17,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "info_book": {
+    "jar": "evilcraft-1.21.1-neoforge-1.2.89.jar",
+    "xml_files_checked": 1,
+    "xml_translation_keys": 210,
+    "all_guide_language_keys": 237,
+    "missing_translation_keys": 0,
+    "untranslated_guide_keys": 0
+  },
+  "advancements": {
+    "files_checked": 12,
+    "display_fields": 24,
+    "literal_display_fields": 0,
+    "missing_translation_keys": 0
+  },
+  "kubejs": {
+    "files_referencing_family": 14,
+    "referenced_paths": [
+      "kubejs/client_scripts/RecipeViewer.js",
+      "kubejs/server_scripts/modpack/atm_star_creative.js",
+      "kubejs/server_scripts/modpack/att_items.js",
+      "kubejs/server_scripts/modpack/miningDim.js",
+      "kubejs/server_scripts/modpack/runic_multis/controllers.js",
+      "kubejs/server_scripts/modpack/runic_multis/recipes/auto_forge.js",
+      "kubejs/server_scripts/mods/Adorned/Tags.js",
+      "kubejs/server_scripts/mods/Evilcraft/tags.js",
+      "kubejs/server_scripts/mods/Hostile Neural Networks/Recipes.js",
+      "kubejs/server_scripts/mods/modular_machinery/recipes/atm/auto_hephaestus_forge.js",
+      "kubejs/server_scripts/mods/modular_machinery/recipes/mekanism/controllers.js",
+      "kubejs/server_scripts/mods/Time In A Bottle/Recipes.js",
+      "kubejs/server_scripts/Tweaks/tags.js",
+      "kubejs/server_scripts/Unification/sawing.js"
+    ],
+    "direct_display_candidates": 0
+  },
+  "dependency_scope": {
+    "Cyclops Core": "필수 기반 라이브러리이며 EvilCraft 표시 언어 대상이 아님"
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp/backups/20260715_123519_518745/backup_manifest.json",
+    "files_checked": 3,
+    "hash_matches": 3,
+    "unexpected_changes": []
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

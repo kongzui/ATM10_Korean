@@ -1,0 +1,15 @@
+{
+  "family": "EvilCraft",
+  "chapters": {
+    "evilcraft": {
+      "display_keys": 79,
+      "new_translation_required": 6,
+      "project_output_review": 73
+    },
+    "related": {
+      "display_keys": 18,
+      "new_translation_required": 1,
+      "project_output_review": 17
+    }
+  }
+}

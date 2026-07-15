@@ -1,0 +1,65 @@
+{
+  "family": "EvilCraft",
+  "languages": [
+    {
+      "label": "EvilCraft",
+      "jar": "evilcraft-1.21.1-neoforge-1.2.89.jar",
+      "namespace": "evilcraft",
+      "english_keys": 628,
+      "korean_keys": 628,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "legacy_exact_reuse": 576,
+      "new_or_edited": 52
+    },
+    {
+      "label": "EvilCraft Compat",
+      "jar": "evilcraft-1.21.1-neoforge-1.2.89.jar",
+      "namespace": "evilcraftcompat",
+      "english_keys": 29,
+      "korean_keys": 29,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "legacy_exact_reuse": 24,
+      "new_or_edited": 5
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 0,
+    "legacy_exact_reuse": 600,
+    "new_or_edited": 57
+  },
+  "ftbquests": {
+    "chapters": [
+      "evilcraft.snbt"
+    ],
+    "quests_checked": 45,
+    "tasks_checked": 61,
+    "display_keys_checked": 97,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 2,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 17,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

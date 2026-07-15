@@ -1,0 +1,81 @@
+{
+  "family": "EvilCraft",
+  "installed": [
+    {
+      "label": "EvilCraft",
+      "jar": "evilcraft-1.21.1-neoforge-1.2.89.jar",
+      "namespace": "evilcraft",
+      "direct_integration": false,
+      "english_keys": 628,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "evilcraft"
+      ],
+      "guide_candidates": 1,
+      "guide_examples": [
+        "data/evilcraft/recipe/crafting/minecraft_enchanted_book_poison_tip.json"
+      ],
+      "advancements": 12,
+      "advancement_examples": [
+        "data/evilcraft/advancement/cannibal.json",
+        "data/evilcraft/advancement/closure.json",
+        "data/evilcraft/advancement/evil_source.json",
+        "data/evilcraft/advancement/fart.json",
+        "data/evilcraft/advancement/first_age.json",
+        "data/evilcraft/advancement/master_distorter.json",
+        "data/evilcraft/advancement/player_devastator.json",
+        "data/evilcraft/advancement/player_distorter.json",
+        "data/evilcraft/advancement/power_crafting.json",
+        "data/evilcraft/advancement/root.json",
+        "data/evilcraft/advancement/second_age.json",
+        "data/evilcraft/advancement/spirit_cooker.json"
+      ],
+      "recipes": 181
+    },
+    {
+      "label": "EvilCraft Compat",
+      "jar": "evilcraft-1.21.1-neoforge-1.2.89.jar",
+      "namespace": "evilcraftcompat",
+      "direct_integration": false,
+      "english_keys": 29,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "evilcraft",
+        "evilcraftcompat"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "cyclopscore-1.21.1-neoforge-1.29.1.jar",
+      "dependency_mentions": [
+        "evilcraft"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "EvilCraft",
+      "jar": "evilcraft-1.21.1-neoforge-1.2.89.jar",
+      "namespace": "evilcraft",
+      "english_keys": 628,
+      "legacy_5.4_candidate": 619,
+      "new_translation_required": 8,
+      "project_output_review": 1
+    },
+    {
+      "label": "EvilCraft Compat",
+      "jar": "evilcraft-1.21.1-neoforge-1.2.89.jar",
+      "namespace": "evilcraftcompat",
+      "english_keys": 29,
+      "legacy_5.4_candidate": 16,
+      "new_translation_required": 13
+    }
+  ]
+}
