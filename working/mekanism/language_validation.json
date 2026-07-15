@@ -12,9 +12,10 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
-      "legacy_exact_reuse": 1369,
-      "bundled_exact_reuse": 1792,
-      "new_or_edited": 78
+      "guide_extra_keys": 0,
+      "legacy_exact_reuse": 1290,
+      "bundled_exact_reuse": 1777,
+      "new_or_edited": 172
     },
     {
       "label": "Mekanism Generators",
@@ -27,9 +28,10 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
-      "bundled_exact_reuse": 201,
-      "legacy_exact_reuse": 153,
-      "new_or_edited": 10
+      "guide_extra_keys": 0,
+      "bundled_exact_reuse": 199,
+      "legacy_exact_reuse": 151,
+      "new_or_edited": 14
     },
     {
       "label": "Mekanism Tools",
@@ -42,6 +44,7 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
+      "guide_extra_keys": 0,
       "bundled_exact_reuse": 185,
       "legacy_exact_reuse": 576,
       "new_or_edited": 39
@@ -57,6 +60,7 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
+      "guide_extra_keys": 0,
       "legacy_exact_reuse": 3
     },
     {
@@ -70,6 +74,7 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
+      "guide_extra_keys": 0,
       "legacy_exact_reuse": 10,
       "new_or_edited": 3
     },
@@ -84,6 +89,7 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
+      "guide_extra_keys": 0,
       "bundled_exact_reuse": 72,
       "legacy_exact_reuse": 2,
       "new_or_edited": 3
@@ -99,8 +105,9 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
-      "legacy_exact_reuse": 442,
-      "new_or_edited": 116
+      "guide_extra_keys": 0,
+      "legacy_exact_reuse": 428,
+      "new_or_edited": 130
     },
     {
       "label": "Gravitational Modulating Additional Unit",
@@ -113,6 +120,7 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
+      "guide_extra_keys": 0,
       "new_or_edited": 6,
       "bundled_exact_reuse": 3,
       "legacy_exact_reuse": 2
@@ -128,6 +136,7 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
+      "guide_extra_keys": 0,
       "bundled_exact_reuse": 15
     },
     {
@@ -141,13 +150,14 @@
       "duplicate_keys": 0,
       "translation_induced_name_collisions": 0,
       "output_matches": true,
+      "guide_extra_keys": 0,
       "new_or_edited": 37
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 2268,
-    "legacy_exact_reuse": 2557,
-    "new_or_edited": 292
+    "bundled_exact_reuse": 2251,
+    "legacy_exact_reuse": 2462,
+    "new_or_edited": 404
   },
   "ftbquests": {
     "chapters": [
@@ -157,10 +167,11 @@
     "quests_checked": 184,
     "tasks_checked": 291,
     "display_keys_checked": 572,
-    "source_english_custom_names": 11,
+    "source_english_custom_names": 0,
     "unresolved_english_custom_names": 0,
     "explicit_task_titles": 24,
-    "redundant_single_item_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
     "first_task_quest_fallbacks": 5,
     "fallback_paths_checked": [
       "chapter/group title",

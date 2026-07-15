@@ -229,6 +229,7 @@ def main() -> int:
     source_root = instance / "kubejs/client_scripts"
     output_root = PROJECT_ROOT / "output/overrides/kubejs/client_scripts"
     seen = {source: 0 for source in REPLACEMENTS}
+    pretranslated: set[str] = set()
     outputs: list[str] = []
     remaining: list[dict[str, str]] = []
     for relative in FILES:
@@ -240,6 +241,9 @@ def main() -> int:
             if count:
                 seen[english] += count
                 text = text.replace(english, korean)
+            elif korean in text:
+                seen[english] = 1
+                pretranslated.add(english)
         had_final_newline = text.endswith(("\n", "\r"))
         text = "\n".join(line.rstrip() for line in text.splitlines())
         if had_final_newline:
@@ -264,6 +268,7 @@ def main() -> int:
     report = {
         "files": outputs,
         "translated_occurrences": sum(seen.values()),
+        "pretranslated_mappings": len(pretranslated),
         "remaining_latin": 0,
     }
     report_path = PROJECT_ROOT / "working/mekanism/extras_validation.json"

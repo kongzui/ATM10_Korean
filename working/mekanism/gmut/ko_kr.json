@@ -1,6 +1,6 @@
 {
-  "constants.gmut.key_category": "Mekanism - Gravitational Modulating Additional 유닛",
-  "constants.gmut.mod_name": "Gravitational Modulating Additional 유닛",
+  "constants.gmut.key_category": "Mekanism - Gravitational Modulating Additional Unit",
+  "constants.gmut.mod_name": "Gravitational Modulating Additional Unit",
   "description.gmut.gravitational_modulating_additional_unit": "'중력 조작 기구'에 추가 기능을 제공합니다.",
   "key.gmut.vertical_speed": "수직 이동 속도 배율 전환",
   "module.gmut.enabled": "활성화",

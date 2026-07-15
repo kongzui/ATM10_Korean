@@ -11,6 +11,7 @@
     "output\\overrides\\kubejs\\client_scripts\\ponder\\turbine_mek.js",
     "output\\overrides\\kubejs\\client_scripts\\ponder\\fusion_activate.js"
   ],
-  "translated_occurrences": 102,
+  "translated_occurrences": 87,
+  "pretranslated_mappings": 87,
   "remaining_latin": 0
 }
