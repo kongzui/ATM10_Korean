@@ -104,6 +104,13 @@ EXTRA_ADDON_LANGUAGES = (
         RESOURCEPACK_ROOT / "assets/appmek/lang/ko_kr.json",
         PROJECT_ROOT / "working/ae2_addons/appmek/language_completion.json",
     ),
+    (
+        "Immersive-Energistics-*.jar",
+        "assets/immeng/lang/en_us.json",
+        PROJECT_ROOT / "working/ae2_addons/immeng/lang/ko_kr.json",
+        RESOURCEPACK_ROOT / "assets/immeng/lang/ko_kr.json",
+        PROJECT_ROOT / "working/ae2_addons/immeng/language_completion.json",
+    ),
 )
 COMMON_QUEST_OVERRIDES = (
     PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json"
