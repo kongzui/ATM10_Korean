@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "scope": "Applied Mekanistics 전체 언어 및 관련 표시 경로 재검수",
+  "source_jar": "Applied-Mekanistics-1.6.3.jar",
+  "namespace": "appmek",
+  "language_keys": 15,
+  "existing_korean_reused": 2,
+  "existing_korean_corrected": 13,
+  "newly_completed": 0,
+  "ftbquests_keys_reviewed": 0,
+  "ftbquests_keys_updated": 0,
+  "kubejs_files_reviewed": 1,
+  "kubejs_user_visible_literals_reviewed": 0,
+  "kubejs_keys_updated": 0,
+  "guide_pages": 0,
+  "validation_errors": 0,
+  "original_jar_modified": false
+}

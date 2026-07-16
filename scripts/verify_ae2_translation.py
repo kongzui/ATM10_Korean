@@ -97,6 +97,13 @@ EXTRA_ADDON_LANGUAGES = (
         RESOURCEPACK_ROOT / "assets/aeinfinitybooster/lang/ko_kr.json",
         PROJECT_ROOT / "working/ae2_addons/aeinfinitybooster/language_completion.json",
     ),
+    (
+        "Applied-Mekanistics-*.jar",
+        "assets/appmek/lang/en_us.json",
+        PROJECT_ROOT / "working/mekanism/appmek/ko_kr.json",
+        RESOURCEPACK_ROOT / "assets/appmek/lang/ko_kr.json",
+        PROJECT_ROOT / "working/ae2_addons/appmek/language_completion.json",
+    ),
 )
 COMMON_QUEST_OVERRIDES = (
     PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json"
