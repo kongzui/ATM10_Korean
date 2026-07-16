@@ -82,6 +82,15 @@ COMPAT_TRANSLATIONS = (
         },
     ),
 )
+EXTRA_ADDON_LANGUAGES = (
+    (
+        "ae2ct-*.jar",
+        "assets/ae2ct/lang/en_us.json",
+        PROJECT_ROOT / "working/ae2_addons/ae2ct/lang/ko_kr.json",
+        RESOURCEPACK_ROOT / "assets/ae2ct/lang/ko_kr.json",
+        PROJECT_ROOT / "working/ae2_addons/ae2ct/language_completion.json",
+    ),
+)
 COMMON_QUEST_OVERRIDES = (
     PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json"
 )
@@ -185,6 +194,60 @@ def validate_compat_translations(instance: Path) -> tuple[int, list[Path]]:
     return translated_keys, checked_paths
 
 
+def validate_extra_addon_languages(instance: Path) -> tuple[int, list[Path]]:
+    """AE2 추가 연동 모드 언어 파일을 현재 설치 JAR과 대조한다."""
+    checked_paths: list[Path] = []
+    translated_keys = 0
+    for (
+        pattern,
+        entry,
+        working_path,
+        output_path,
+        completion_path,
+    ) in EXTRA_ADDON_LANGUAGES:
+        jar = find_single_jar(instance, pattern)
+        english = load_zip_json(jar, entry)
+        working = load_json_unique(working_path)
+        output = load_json_unique(output_path)
+        completion = json.loads(completion_path.read_text(encoding="utf-8"))
+        if list(working) != list(english):
+            raise ValueError(
+                f"AE2 추가 연동 모드 키 또는 순서가 다릅니다: {working_path}"
+            )
+        if output != working:
+            raise ValueError(
+                f"AE2 추가 연동 모드 출력이 작업본과 다릅니다: {output_path}"
+            )
+        errors = []
+        for key in english:
+            errors.extend(validate_pair(key, english[key], working[key]))
+        if errors:
+            raise ValueError("\n".join(errors))
+        if completion.get("source_jar") != jar.name:
+            raise ValueError(
+                f"AE2 추가 연동 모드 원본 JAR 기록이 다릅니다: {completion_path}"
+            )
+        if completion.get("language_keys") != len(english):
+            raise ValueError(
+                f"AE2 추가 연동 모드 키 수 기록이 다릅니다: {completion_path}"
+            )
+        reviewed = sum(
+            completion.get(field, 0)
+            for field in (
+                "existing_korean_reused",
+                "existing_korean_corrected",
+                "newly_completed",
+            )
+        )
+        if reviewed != len(english):
+            raise ValueError(
+                f"AE2 추가 연동 모드 검수 수가 다릅니다: {completion_path}"
+            )
+        checked_paths.extend((working_path, output_path, completion_path))
+        translated_keys += len(working)
+    return translated_keys, checked_paths
+
+
 def validate_pair(key: str, source: str, translated: str) -> list[str]:
     """현재 영어 원문과 프로젝트 번역의 구조 보존 여부를 검사한다."""
     errors = []
@@ -231,6 +294,7 @@ def main() -> int:
             raise ValueError(f"AE2 핵심 용어가 일치하지 않습니다: {key}")
 
     compat_keys, compat_paths = validate_compat_translations(instance)
+    extra_addon_keys, extra_addon_paths = validate_extra_addon_languages(instance)
 
     lang_root = instance / "config/ftbquests/quests/lang"
     quest_english = quests.parse_language_snbt(
@@ -430,6 +494,7 @@ def main() -> int:
         quests.PROGRESS_FILE,
         quests.OVERRIDES_FILE,
         *compat_paths,
+        *extra_addon_paths,
         *related_lang_paths,
         *ADDON_QUEST_OVERRIDE_FILES,
         *LATER_REVIEWED_QUEST_FILES,
@@ -442,6 +507,7 @@ def main() -> int:
         "ftbquest_keys": len(expected),
         "kubejs_keys": len(kube),
         "ae2_compat_keys": compat_keys,
+        "ae2_extra_addon_keys": extra_addon_keys,
         "intentional_english_values": sum(
             translated[key] == english[key] for key in ALLOWED_IDENTICAL_TRANSLATIONS
         ),

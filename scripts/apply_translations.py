@@ -48,7 +48,7 @@ def running_java_processes() -> list[str]:
     return sorted(set(found))
 
 
-def deployment_files() -> dict[str, Path]:
+def deployment_files(selected_paths: set[str] | None = None) -> dict[str, Path]:
     deployments: dict[str, Path] = {}
     for output_root, target_prefix in (
         (OUTPUT_RESOURCEPACK, Path("resourcepacks")),
@@ -60,6 +60,15 @@ def deployment_files() -> dict[str, Path]:
                 deployments[relative] = source
     if not deployments:
         raise FileNotFoundError("output/ 아래에 적용할 번역 산출물이 없습니다.")
+    if selected_paths is not None:
+        missing = sorted(selected_paths - set(deployments))
+        if missing:
+            raise FileNotFoundError(f"선택한 적용 산출물이 없습니다: {missing}")
+        deployments = {
+            relative: source
+            for relative, source in deployments.items()
+            if relative in selected_paths
+        }
     return deployments
 
 
@@ -193,9 +202,15 @@ def main() -> int:
         help="local_paths.json 대신 적용할 단일 ATM10 경로",
     )
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--path",
+        action="append",
+        dest="paths",
+        help="적용할 output 상대 경로를 하나씩 선택",
+    )
     args = parser.parse_args()
 
-    deployments = deployment_files()
+    deployments = deployment_files(set(args.paths) if args.paths else None)
     roots = resolve_apply_roots(args.instance)
     processes = running_java_processes()
     if processes and any(label in {"game_root", "instance"} for label, _ in roots):

@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "scope": "AE2 Crafting Tree 전체 언어 및 관련 표시 경로 검수",
+  "source_jar": "ae2ct-1.21.1-1.1.1.jar",
+  "namespace": "ae2ct",
+  "language_keys": 19,
+  "existing_korean_reused": 0,
+  "existing_korean_corrected": 0,
+  "newly_completed": 19,
+  "ftbquests_keys_reviewed": 0,
+  "ftbquests_keys_updated": 0,
+  "kubejs_user_visible_literals_reviewed": 0,
+  "kubejs_keys_updated": 0,
+  "guide_pages": 0,
+  "validation_errors": 0,
+  "original_jar_modified": false
+}
