@@ -1,0 +1,8 @@
+{
+  "scope": "AEInfinityBooster 전체 관련 FTB Quests",
+  "source_keys": 4,
+  "changed_keys": 3,
+  "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+  "output_sha256": "3bcd793b06016bed5fba35ee7d47c0cfbc6098f57d7e733a85bca7e187336319",
+  "validation_errors": 0
+}

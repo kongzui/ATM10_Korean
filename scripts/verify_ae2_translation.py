@@ -90,11 +90,19 @@ EXTRA_ADDON_LANGUAGES = (
         RESOURCEPACK_ROOT / "assets/ae2ct/lang/ko_kr.json",
         PROJECT_ROOT / "working/ae2_addons/ae2ct/language_completion.json",
     ),
+    (
+        "aeinfinitybooster-*.jar",
+        "assets/aeinfinitybooster/lang/en_us.json",
+        PROJECT_ROOT / "working/ae2_addons/aeinfinitybooster/lang/ko_kr.json",
+        RESOURCEPACK_ROOT / "assets/aeinfinitybooster/lang/ko_kr.json",
+        PROJECT_ROOT / "working/ae2_addons/aeinfinitybooster/language_completion.json",
+    ),
 )
 COMMON_QUEST_OVERRIDES = (
     PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json"
 )
 ADDON_QUEST_OVERRIDE_FILES = (
+    PROJECT_ROOT / "working/ae2_addons/aeinfinitybooster/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/extendedae/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/advanced_ae/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/megacells/quest_overrides.json",

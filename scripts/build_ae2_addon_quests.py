@@ -13,6 +13,10 @@ from local_paths import resolve_source_root
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_FILE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 MODS = {
+    "aeinfinitybooster": {
+        "scope": "AEInfinityBooster 전체 관련 FTB Quests",
+        "working": "working/ae2_addons/aeinfinitybooster",
+    },
     "extendedae": {
         "scope": "ExtendedAE batch 03 related FTB Quests",
         "working": "working/ae2_addons/extendedae",

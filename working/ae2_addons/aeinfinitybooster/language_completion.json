@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "scope": "AEInfinityBooster 전체 언어 및 관련 표시 경로 검수",
+  "source_jar": "aeinfinitybooster-neoforge-1.21.1-1.0.0.54.jar",
+  "namespace": "aeinfinitybooster",
+  "language_keys": 4,
+  "existing_korean_reused": 2,
+  "existing_korean_corrected": 1,
+  "newly_completed": 1,
+  "ftbquests_keys_reviewed": 4,
+  "ftbquests_keys_updated": 3,
+  "kubejs_files_reviewed": 2,
+  "kubejs_user_visible_literals_reviewed": 0,
+  "kubejs_keys_updated": 0,
+  "guide_pages": 0,
+  "validation_errors": 0,
+  "original_jar_modified": false
+}
