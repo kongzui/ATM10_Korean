@@ -112,6 +112,12 @@ EXTRA_ADDON_LANGUAGES = (
         PROJECT_ROOT / "working/ae2_addons/immeng/language_completion.json",
     ),
 )
+EXTRA_ADDONS_WITHOUT_LANGUAGE = (
+    (
+        "polyeng-*.jar",
+        PROJECT_ROOT / "working/ae2_addons/polyeng/language_completion.json",
+    ),
+)
 COMMON_QUEST_OVERRIDES = (
     PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json"
 )
@@ -270,6 +276,38 @@ def validate_extra_addon_languages(instance: Path) -> tuple[int, list[Path]]:
     return translated_keys, checked_paths
 
 
+def validate_extra_addons_without_language(instance: Path) -> list[Path]:
+    """자체 언어 파일이 없는 AE2 연동 모드의 검수 기록을 확인한다."""
+    checked_paths: list[Path] = []
+    for pattern, completion_path in EXTRA_ADDONS_WITHOUT_LANGUAGE:
+        jar = find_single_jar(instance, pattern)
+        with zipfile.ZipFile(jar) as archive:
+            language_entries = [
+                name
+                for name in archive.namelist()
+                if re.fullmatch(r"(?:assets/[^/]+/)?lang/en_us\.json", name)
+            ]
+        if language_entries:
+            raise ValueError(
+                f"번역 대상 언어 파일이 새로 생겼습니다: {jar}: {language_entries}"
+            )
+        completion = json.loads(completion_path.read_text(encoding="utf-8"))
+        if completion.get("source_jar") != jar.name:
+            raise ValueError(
+                f"AE2 무언어 연동 모드 원본 JAR 기록이 다릅니다: {completion_path}"
+            )
+        if completion.get("language_keys") != 0:
+            raise ValueError(
+                f"AE2 무언어 연동 모드 키 수가 0이 아닙니다: {completion_path}"
+            )
+        if completion.get("hardcoded_user_visible_literals") != 0:
+            raise ValueError(
+                f"AE2 무언어 연동 모드 표시 문구가 남았습니다: {completion_path}"
+            )
+        checked_paths.append(completion_path)
+    return checked_paths
+
+
 def validate_pair(key: str, source: str, translated: str) -> list[str]:
     """현재 영어 원문과 프로젝트 번역의 구조 보존 여부를 검사한다."""
     errors = []
@@ -317,6 +355,7 @@ def main() -> int:
 
     compat_keys, compat_paths = validate_compat_translations(instance)
     extra_addon_keys, extra_addon_paths = validate_extra_addon_languages(instance)
+    no_language_addon_paths = validate_extra_addons_without_language(instance)
 
     lang_root = instance / "config/ftbquests/quests/lang"
     quest_english = quests.parse_language_snbt(
@@ -517,6 +556,7 @@ def main() -> int:
         quests.OVERRIDES_FILE,
         *compat_paths,
         *extra_addon_paths,
+        *no_language_addon_paths,
         *related_lang_paths,
         *ADDON_QUEST_OVERRIDE_FILES,
         *LATER_REVIEWED_QUEST_FILES,
@@ -530,6 +570,7 @@ def main() -> int:
         "kubejs_keys": len(kube),
         "ae2_compat_keys": compat_keys,
         "ae2_extra_addon_keys": extra_addon_keys,
+        "ae2_extra_addon_zero_key_mods": len(no_language_addon_paths),
         "intentional_english_values": sum(
             translated[key] == english[key] for key in ALLOWED_IDENTICAL_TRANSLATIONS
         ),

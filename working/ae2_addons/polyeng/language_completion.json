@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "scope": "PolyEng 전체 사용자 표시 경로 검수",
+  "source_jar": "polyeng-0.4.1.jar",
+  "namespace": "polyeng",
+  "language_keys": 0,
+  "existing_korean_reused": 0,
+  "existing_korean_corrected": 0,
+  "newly_completed": 0,
+  "class_files_reviewed": 10,
+  "hardcoded_user_visible_literals": 0,
+  "ftbquests_keys_reviewed": 0,
+  "ftbquests_keys_updated": 0,
+  "kubejs_user_visible_literals_reviewed": 0,
+  "kubejs_keys_updated": 0,
+  "guide_pages": 0,
+  "output_files": 0,
+  "application_required": false,
+  "validation_errors": 0,
+  "original_jar_modified": false
+}
