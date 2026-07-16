@@ -94,7 +94,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Sophisticated Backpacks | 소피스티케이티드 백팩 | 필터·자동화·업그레이드를 갖춘 배낭 모드 | Sophisticated Core, Backpacks Create Integration | 완료 | 기존 계획·전 구간 사용 |
 | Sophisticated Storage | 소피스티케이티드 스토리지 | 상자·통과 다양한 저장소 업그레이드를 제공 | Sophisticated Core, Storage Create Integration, Storage in Motion | 완료 | 기존 계획·전 구간 사용 |
 | Applied Energistics 2 | Applied Energistics 2 (AE2) | 네트워크 기반 디지털 저장소와 자동 제작 시스템 | AE2WTLib, EnderDrives, ExtendedAE, AdvancedAE, MEGA Cells, Applied Flux, ExpandedAE, AE2 Import Export Card, AE2 Network Analyser, ME Requester, Ars Énergistique | 완료 | 기존 완료 기록과 적용본 확인 |
-| AE2 추가 연동 모드 | AE2 추가 연동 모드 | AE2 기능을 다른 기술·마법 시스템과 연결 | AE2 Crafting Tree, AEInfinityBooster, Applied Mekanistics, Immersive Energistics, PolyEng, Soulplied Energistics | 미작업 | 기존 계획·설치된 연동 모드 |
+| AE2 추가 연동 모드 | AE2 추가 연동 모드 | AE2 기능을 다른 기술·마법 시스템과 연결 | AE2 Crafting Tree, AEInfinityBooster, Applied Mekanistics, Immersive Energistics, PolyEng, Soulplied Energistics | 완료 | 기존 계획·설치된 연동 모드 |
 | Refined Storage 2 | Refined Storage 2 | 디스크와 그리드를 이용하는 디지털 저장소 시스템 | Extra Disks, Extra Storage, Universal Grid, Refined Types, Curios·Mekanism Integration, Quartz Arsenal | 미작업 | 기존 계획·전용 퀘스트 챕터 |
 | Functional Storage·Pocket Storage·EnderStorage | 펑셔널 스토리지·포켓 스토리지·엔더 스토리지 | 대량 저장, 휴대 저장과 원격 공유 저장소를 제공 | 세 본체와 관련 퀘스트·KubeJS | 미작업 | 기존 계획·초중반 저장소 |
 | Compact Machines | 컴팩트 머신 | 작은 기계실 차원을 블록 하나에 구성 | 본체, 관련 퀘스트와 연동 | 미작업 | 신규: 독립적인 공간·자동화 시스템 |
@@ -217,6 +217,8 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 - **AE2 GuideME 애드온 11개:** AE2WTLib, EnderDrives, ExtendedAE, AdvancedAE,
   MEGA Cells, Applied Flux, ExpandedAE, AE2 Import Export Card, AE2 Network Analyser,
   ME Requester, Ars Énergistique 완료
+- **AE2 추가 연동 모드 6개:** AE2 Crafting Tree, AEInfinityBooster, Applied Mekanistics,
+  Immersive Energistics, PolyEng, Soulplied Energistics 언어 46키와 관련 퀘스트 검수 완료
 - **Sophisticated 계열:** Core, Backpacks, Storage, Storage In Motion과 관련 퀘스트 완료
 - **대형 장비 모드군 4개:** Apotheosis, Relics·Artifacts, Silent Gear,
   Allthemodium·ATM 장비의 언어·관련 퀘스트·KubeJS·가이드 검수와 적용 완료
