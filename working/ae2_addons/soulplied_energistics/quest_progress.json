@@ -1,0 +1,8 @@
+{
+  "scope": "Soulplied Energistics 전체 관련 FTB Quests",
+  "source_keys": 1,
+  "changed_keys": 1,
+  "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+  "output_sha256": "626b95e4cb5799c089d1c58aa6ae09ccd23d140e8f06a14d2accbbc580399e75",
+  "validation_errors": 0
+}

@@ -111,6 +111,14 @@ EXTRA_ADDON_LANGUAGES = (
         RESOURCEPACK_ROOT / "assets/immeng/lang/ko_kr.json",
         PROJECT_ROOT / "working/ae2_addons/immeng/language_completion.json",
     ),
+    (
+        "soulplied_energistics-*.jar",
+        "assets/soulplied_energistics/lang/en_us.json",
+        PROJECT_ROOT / "working/ae2_addons/soulplied_energistics/lang/ko_kr.json",
+        RESOURCEPACK_ROOT / "assets/soulplied_energistics/lang/ko_kr.json",
+        PROJECT_ROOT
+        / "working/ae2_addons/soulplied_energistics/language_completion.json",
+    ),
 )
 EXTRA_ADDONS_WITHOUT_LANGUAGE = (
     (
@@ -123,6 +131,7 @@ COMMON_QUEST_OVERRIDES = (
 )
 ADDON_QUEST_OVERRIDE_FILES = (
     PROJECT_ROOT / "working/ae2_addons/aeinfinitybooster/quest_overrides.json",
+    PROJECT_ROOT / "working/ae2_addons/soulplied_energistics/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/extendedae/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/advanced_ae/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/megacells/quest_overrides.json",

@@ -17,6 +17,10 @@ MODS = {
         "scope": "AEInfinityBooster 전체 관련 FTB Quests",
         "working": "working/ae2_addons/aeinfinitybooster",
     },
+    "soulplied_energistics": {
+        "scope": "Soulplied Energistics 전체 관련 FTB Quests",
+        "working": "working/ae2_addons/soulplied_energistics",
+    },
     "extendedae": {
         "scope": "ExtendedAE batch 03 related FTB Quests",
         "working": "working/ae2_addons/extendedae",

@@ -20,6 +20,10 @@ COMMON_OVERRIDES = (
 )
 ADDON_OVERRIDE_FILES = (
     Path(__file__).resolve().parents[1]
+    / "working/ae2_addons/aeinfinitybooster/quest_overrides.json",
+    Path(__file__).resolve().parents[1]
+    / "working/ae2_addons/soulplied_energistics/quest_overrides.json",
+    Path(__file__).resolve().parents[1]
     / "working/ae2_addons/extendedae/quest_overrides.json",
     Path(__file__).resolve().parents[1]
     / "working/ae2_addons/advanced_ae/quest_overrides.json",
