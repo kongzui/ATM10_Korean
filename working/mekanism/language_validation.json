@@ -133,7 +133,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "bundled_exact_reuse": 15
+      "project_output_reuse": 13,
+      "bundled_exact_reuse": 2
     },
     {
       "label": "Refined Storage - Mekanism Integration",
@@ -151,8 +152,8 @@
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 2251,
-    "project_output_reuse": 2791,
+    "bundled_exact_reuse": 2238,
+    "project_output_reuse": 2804,
     "new_or_edited": 75
   },
   "ftbquests": {
