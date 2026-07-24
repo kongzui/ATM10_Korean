@@ -7,7 +7,7 @@ navigation:
 
 # 프로세서 생산 자동화
 
-[프로세서](../items-blocks-machines/processors.md)를 자동화하는 방법은 많으며, 이것은 그중 하나입니다.
+[프로세서](../items-blocks-machines/processors.md)를 자동화하는 방법은 많으며, 여기서는 그중 한 가지를 설명합니다.
 
 필터링할 수만 있다면 다른 모드에서 무엇이라 부르든 아이템 물류 파이프·도관·덕트로도 이 일반적인 배치를 만들 수 있습니다.
 

@@ -80,9 +80,9 @@ Applied Energistics 2의 [ME 네트워크](me-network-connections.md)는 네트�
 ## 채널 경로
 
 <ItemLink id="controller" />를 사용하면 채널은 3단계로 경로를 찾습니다. 먼저 인접한 기계를 통과하는
-가장 짧은 경로로 가까운 [일반 케이블](../items-blocks-machines/cables.md), 즉 유리·차폐·스마트 케이블에
+가장 짧은 경로로 가까운 [일반 케이블](../items-blocks-machines/cables.md), 즉 유리·피복·스마트 케이블에
 도달합니다. 그다음 일반 케이블에서 가장 가까운 [조밀 케이블](../items-blocks-machines/cables.md), 즉
-조밀·조밀 스마트 케이블까지 가장 짧은 경로를 택합니다. 마지막으로 조밀 케이블을 따라
+조밀한 피복·조밀한 스마트 케이블까지 가장 짧은 경로를 택합니다. 마지막으로 조밀 케이블을 따라
 <ItemLink id="controller" />까지 가장 짧은 경로로 이동합니다. 최단 경로의 용량이 이미 가득 차면 일부
 [장치](devices.md)가 필요한 채널을 받지 못할 수 있습니다. 색상 케이블, 케이블 고정대와 터널을 활용해
 채널이 원하는 경로로 흐르도록 만드세요.

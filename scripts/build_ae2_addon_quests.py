@@ -13,6 +13,10 @@ from local_paths import resolve_source_root
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_FILE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 MODS = {
+    "ae2": {
+        "scope": "Applied Energistics 2 core related FTB Quests",
+        "working": "working/ae2",
+    },
     "aeinfinitybooster": {
         "scope": "AEInfinityBooster 전체 관련 FTB Quests",
         "working": "working/ae2_addons/aeinfinitybooster",
@@ -102,14 +106,48 @@ def main() -> int:
         OUTPUT_FILE.write_text(before_text, encoding="utf-8")
         raise ValueError(f"지정 범위 밖의 퀘스트 키가 변경됐습니다: {unexpected}")
 
-    progress = {
-        "scope": mod["scope"],
-        "source_keys": len(overrides),
-        "changed_keys": sum(baseline.get(key) != after.get(key) for key in overrides),
-        "output": OUTPUT_FILE.relative_to(PROJECT_ROOT).as_posix(),
-        "output_sha256": quests.sha256(OUTPUT_FILE),
-        "validation_errors": 0,
-    }
+    if args.mod == "ae2":
+        lang_root = instance / "config/ftbquests/quests/lang"
+        chapter_english = quests.parse_language_snbt(
+            lang_root / "en_us/chapters/applied_energistics_2.snbt_merged"
+        )
+        chapter_current = quests.parse_language_snbt(
+            lang_root / "ko_kr/chapters/applied_energistics_2.snbt_merged"
+        )
+        chapter_final = {key: after[key] for key in chapter_english}
+        kept = sum(
+            key in chapter_current and chapter_final[key] == chapter_current[key]
+            for key in chapter_english
+        )
+        corrected = sum(
+            key in chapter_current and chapter_final[key] != chapter_current[key]
+            for key in chapter_english
+        )
+        progress = {
+            "scope": "FTB Quests applied_energistics_2 chapter",
+            "total_keys": len(chapter_english),
+            "existing_korean_kept": kept,
+            "existing_korean_corrected": corrected,
+            "newly_completed": sum(
+                key not in chapter_current for key in chapter_english
+            ),
+            "remaining": 0,
+            "output": OUTPUT_FILE.relative_to(PROJECT_ROOT).as_posix(),
+            "output_sha256": quests.sha256(OUTPUT_FILE),
+            "validation_errors": 0,
+            "review_items": [],
+        }
+    else:
+        progress = {
+            "scope": mod["scope"],
+            "source_keys": len(overrides),
+            "changed_keys": sum(
+                baseline.get(key) != after.get(key) for key in overrides
+            ),
+            "output": OUTPUT_FILE.relative_to(PROJECT_ROOT).as_posix(),
+            "output_sha256": quests.sha256(OUTPUT_FILE),
+            "validation_errors": 0,
+        }
     progress_file.write_text(
         json.dumps(progress, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )

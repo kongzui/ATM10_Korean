@@ -16,7 +16,7 @@ navigation:
 
 예제 장치는 너무 넓어지지 않도록 짧게 만들었습니다. [채널](../ae2-mechanics/channels.md) 8개를
 일반 [케이블](../items-blocks-machines/cables.md)에서 모두 활용하려면 <ItemLink id="interface" /> 4개와
-<ItemLink id="storage_bus" /> 4개를 사용하는 것이 가장 효율적일 것입니다.
+<ItemLink id="storage_bus" /> 4개를 사용하는 것이 가장 효율적입니다.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/interface_autostocking.snbt" />

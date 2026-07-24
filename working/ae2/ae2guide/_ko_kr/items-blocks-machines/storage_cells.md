@@ -85,7 +85,7 @@ item_ids:
 <ItemLink id="storage_bus" />의 필터와 비슷하게 셀이 특정 아이템만 받도록 설정할 수 있습니다.
 <ItemLink id="cell_workbench" />에서 설정합니다.
 
-실제로 가지고 있지 않은 아이템도 JEI/REI에서 슬롯으로 끌어올 수 있습니다.
+현재 인벤토리에 없는 아이템도 JEI/REI에서 슬롯으로 끌어올 수 있습니다.
 
 ## 업그레이드
 

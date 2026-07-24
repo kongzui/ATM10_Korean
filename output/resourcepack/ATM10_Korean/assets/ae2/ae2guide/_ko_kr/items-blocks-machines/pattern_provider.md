@@ -159,7 +159,7 @@ GUI 오른쪽 위의 렌치를 클릭해 우선순위를 설정할 수 있습니
   <IsometricCamera yaw="95" pitch="5" />
 </GameScene>
 
-실제로 원한 구성은 패턴 공급기가 패턴의 내용을 인접한 기계로 내보내는 다음 형태일 것입니다.
+실제로 필요한 구성은 패턴 공급기가 패턴의 내용을 인접한 기계로 내보내는 다음 형태입니다.
 
 <GameScene zoom="8" background="transparent">
   <ImportStructure src="../assets/assemblies/provider_misconception_3.snbt" />

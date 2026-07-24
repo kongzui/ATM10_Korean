@@ -38,10 +38,86 @@ CORE_TERM_TRANSLATIONS = {
     "ae2.emi_integration.category_inscriber": "각인기",
     "block.ae2.inscriber": "각인기",
     "gui.ae2.Inscriber": "각인기",
+    "item.ae2.charged_staff": "충전 지팡이",
+    "item.ae2.conversion_monitor": "ME 변환 모니터",
+    "item.ae2.energy_level_emitter": "ME 에너지 레벨 방출기",
+    "item.ae2.light_p2p_tunnel": "빛 P2P 터널",
+    "item.ae2.matter_ball": "물질 덩어리",
     "item.ae2.calculation_processor_press": "계산 회로 프레스",
     "item.ae2.engineering_processor_press": "공학 회로 프레스",
     "item.ae2.logic_processor_press": "논리 회로 프레스",
+    **{
+        f"item.ae2.cell_component_{size}": f"{size} ME 저장 부품"
+        for size in ("1k", "4k", "16k", "64k", "256k")
+    },
+    **{
+        f"item.ae2.nether_quartz_{tool}": f"네더 석영 {translated}"
+        for tool, translated in {
+            "axe": "도끼",
+            "cutting_knife": "절단 칼",
+            "hoe": "괭이",
+            "pickaxe": "곡괭이",
+            "shovel": "삽",
+            "sword": "검",
+            "wrench": "렌치",
+        }.items()
+    },
 }
+AE2_COLOR_TRANSLATIONS = {
+    "black": "검은색",
+    "blue": "파란색",
+    "brown": "갈색",
+    "cyan": "청록색",
+    "gray": "회색",
+    "green": "초록색",
+    "light_blue": "하늘색",
+    "light_gray": "회백색",
+    "lime": "연두색",
+    "magenta": "자홍색",
+    "orange": "주황색",
+    "pink": "분홍색",
+    "purple": "보라색",
+    "red": "빨간색",
+    "white": "흰색",
+    "yellow": "노란색",
+}
+CORE_TERM_TRANSLATIONS.update(
+    {
+        f"item.ae2.{color}_covered_cable": f"{translated} ME 피복 케이블"
+        for color, translated in AE2_COLOR_TRANSLATIONS.items()
+    }
+)
+CORE_TERM_TRANSLATIONS.update(
+    {
+        f"item.ae2.{color}_covered_dense_cable": (f"{translated} ME 조밀한 피복 케이블")
+        for color, translated in AE2_COLOR_TRANSLATIONS.items()
+    }
+)
+CORE_TERM_TRANSLATIONS.update(
+    {
+        f"item.ae2.{color}_smart_dense_cable": (f"{translated} ME 조밀한 스마트 케이블")
+        for color, translated in AE2_COLOR_TRANSLATIONS.items()
+    }
+)
+CORE_TERM_TRANSLATIONS.update(
+    {
+        f"item.ae2.{color}_paint_ball": f"{translated} 페인트볼"
+        for color, translated in AE2_COLOR_TRANSLATIONS.items()
+    }
+)
+CORE_TERM_TRANSLATIONS.update(
+    {
+        f"item.ae2.{color}_lumen_paint_ball": f"{translated} 발광 페인트볼"
+        for color, translated in AE2_COLOR_TRANSLATIONS.items()
+    }
+)
+CORE_TERM_TRANSLATIONS.update(
+    {
+        "item.ae2.fluix_covered_cable": "플루익스 ME 피복 케이블",
+        "item.ae2.fluix_covered_dense_cable": "플루익스 ME 조밀한 피복 케이블",
+        "item.ae2.fluix_smart_dense_cable": "플루익스 ME 조밀한 스마트 케이블",
+    }
+)
 ALLTHECOMPRESSED_TRANSLATIONS = {
     **{
         f"block.allthecompressed.certus_quartz_block_{level}x": f"서투스 석영 블록 {level}x"
@@ -144,12 +220,26 @@ ADDON_QUEST_OVERRIDE_FILES = (
 )
 LATER_REVIEWED_QUEST_FILES = (
     PROJECT_ROOT / "working/atmgear/quest_overrides.json",
+    PROJECT_ROOT / "working/apotheosis/quest_overrides.json",
+    PROJECT_ROOT / "working/ars_nouveau/quests/ars_nouveau/ko_kr.json",
     PROJECT_ROOT / "working/mekanism/quests/related/ko_kr.json",
+    PROJECT_ROOT / "working/mekanism/quests/mekanism/ko_kr.json",
     PROJECT_ROOT / "working/mekanism/quests/mekanism_reactors/ko_kr.json",
     PROJECT_ROOT / "working/productivebees/quest_overrides.json",
+    PROJECT_ROOT / "working/productivetrees/quest_overrides.json",
+    PROJECT_ROOT / "working/productivetrees/related_quest_overrides.json",
     PROJECT_ROOT / "working/integrated_dynamics/quest_overrides.json",
     PROJECT_ROOT / "working/ars_nouveau/quests/related/ko_kr.json",
     PROJECT_ROOT / "working/powah_flux/quests/related/ko_kr.json",
+    PROJECT_ROOT / "working/powah_flux/quests/powah/ko_kr.json",
+    PROJECT_ROOT / "working/enderio/quest_overrides.json",
+    PROJECT_ROOT / "working/evilcraft/quests/evilcraft/ko_kr.json",
+    PROJECT_ROOT / "working/evilcraft/quests/related/ko_kr.json",
+    PROJECT_ROOT / "working/mystical/quest_overrides.json",
+    PROJECT_ROOT / "working/relics/quest_overrides.json",
+    PROJECT_ROOT / "working/silentgear/quest_overrides.json",
+    PROJECT_ROOT / "working/twilight_forest/quests/related/ko_kr.json",
+    PROJECT_ROOT / "working/twilight_forest/quests/twilight_forest/ko_kr.json",
 )
 
 
@@ -407,7 +497,7 @@ def main() -> int:
     mismatched_additional = sorted(
         key
         for key, value in additional_overrides.items()
-        if full_output.get(key) != value
+        if full_output.get(key) != value and not titles.TITLE_KEY_RE.fullmatch(key)
     )
     if mismatched_additional:
         raise ValueError(
@@ -419,10 +509,13 @@ def main() -> int:
     output_title_keys = {
         key for key in full_output if titles.TITLE_KEY_RE.fullmatch(key)
     }
+    additional_title_keys = {
+        key for key in additional_overrides if titles.TITLE_KEY_RE.fullmatch(key)
+    }
     expected_full_keys = (
         (set(full_current) - current_title_keys)
         | (set(quest_english) - set(quest_current))
-        | set(additional_overrides)
+        | (set(additional_overrides) - additional_title_keys)
         | output_title_keys
     )
     if set(full_output) != expected_full_keys:
@@ -447,10 +540,25 @@ def main() -> int:
             f"FTB Quests에 AE2 비표준 용어가 남았습니다: {remaining_quest_terms}"
         )
     expected_quest_terms = {
+        "quest.03E6FA4DCB71162E.quest_desc": ("페인트볼",),
+        "quest.16299B9AE87257DC.quest_subtitle": ("바로 이것을 위해",),
         "quest.26B3AE1E77A84BCB.quest_desc": ("충전된 서투스 석영", "천령석"),
         "quest.33422FBDAE11AE82.quest_subtitle": ("공간 벌", "플루익스 진주"),
         "quest.33422FBDAE11AE82.title": ("플루익스 벌",),
+        "quest.3DDB0DDA7571B2C1.title": ("ME 레벨 방출기",),
+        "quest.5233A447BAA4593C.quest_desc": ("조밀한 스마트 케이블", "피복 케이블"),
+        "quest.5C22E3103544B120.quest_desc": ("피복 케이블", "조밀한 피복 케이블"),
+        "quest.5CD8D169181C7339.quest_desc": (
+            "충전 지팡이",
+            "물질 덩어리",
+            "페인트볼",
+            "발광 페인트볼",
+        ),
+        "quest.5E24012A3D9B72A1.quest_desc": ("8양동이", "8000 mB"),
         "quest.6E17595887A051C2.quest_desc": ("플루익스 연구원",),
+        "task.14DEFFB80CC96BC1.title": ("ME 조밀한 피복 케이블",),
+        "task.38E290AC5E011888.title": ("ME 조밀한 스마트 케이블",),
+        "task.64EAD3DE84E94F02.title": ("ME 피복 케이블",),
     }
     for key, terms in expected_quest_terms.items():
         value_text = json.dumps(full_output.get(key), ensure_ascii=False)
@@ -537,6 +645,17 @@ def main() -> int:
         "엔지니어링 회로",
         "하늘석",
         "스카이 스톤",
+        "차폐 케이블",
+        "조밀 스마트 케이블",
+        "조밀 차폐 케이블",
+        "페인트 공",
+        "루멘 페인트 공",
+        "충전된 스태프",
+        "지옥 석영",
+        "저장 요소",
+        "전환 모니터",
+        "밝은 P2P",
+        "실제로 가지고 있지 않은",
     )
     terminology_errors = []
     for root in terminology_roots:

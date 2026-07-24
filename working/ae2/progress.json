@@ -3,8 +3,8 @@
   "source_jar": "appliedenergistics2-19.2.17.jar",
   "total_keys": 1021,
   "native_ko_keys": 854,
-  "existing_korean_kept": 563,
-  "existing_korean_corrected": 291,
+  "existing_korean_kept": 395,
+  "existing_korean_corrected": 459,
   "newly_completed": 167,
   "remaining": 0,
   "batches": [
@@ -34,6 +34,6 @@
     }
   ],
   "output": "output/resourcepack/ATM10_Korean/assets/ae2/lang/ko_kr.json",
-  "output_sha256": "c67b4de8e70fecb128668f11abeb4f9f4b3705ede11a51d5bfd36a226464269d",
+  "output_sha256": "bcdaa80d2abb112d69b9fff13a951ad7da5d22afa4b876216a38d56bd9c215a0",
   "review_items": []
 }
