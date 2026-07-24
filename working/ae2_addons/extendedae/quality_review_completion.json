@@ -1,0 +1,61 @@
+{
+  "status": "quality_review_completed_and_deployed",
+  "completed_at": "2026-07-24T17:07:36+09:00",
+  "scope": "Extended AE language, GuideME guide, related FTB Quests and KubeJS",
+  "language": {
+    "total_keys": 253,
+    "existing_korean_reused": 36,
+    "new_or_revised_translations": 217,
+    "quality_review_corrections": 9
+  },
+  "guide": {
+    "pages": 46,
+    "quality_review_pages_corrected": 13,
+    "remaining": 0
+  },
+  "ftbquests": {
+    "related_keys_reviewed": 46,
+    "quality_review_keys_corrected": 10
+  },
+  "kubejs": {
+    "infinity_cell_names_reviewed": 37,
+    "quality_review_keys_corrected": 0
+  },
+  "backup_root": "temp/backups/20260724_170708_628244",
+  "backup_manifest": "temp/backups/20260724_170708_628244/backup_manifest.json",
+  "applied_paths": [
+    "config/ftbquests/quests/lang/ko_kr.snbt",
+    "resourcepacks/ATM10_Korean/assets/extendedae/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/active_formation_plane.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/concurrent_processor.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/crystal_fixer.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_crystal.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_dust.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/entro_ingot.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/extended_inscriber.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/extended_modecular_assembler.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/infinity_cell.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/machine_frame.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/oversize_interface.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/pattern_modifier.md",
+    "resourcepacks/ATM10_Korean/assets/extendedae/ae2guide/_ko_kr/epp_intro/void_cell.md"
+  ],
+  "resourcepack_installed": true,
+  "game_root_configured": false,
+  "original_jar_modified": false,
+  "unexpected_instance_changes": [],
+  "validation": {
+    "language_keys_match_en_us": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "guide_numbers_preserved": true,
+    "guide_structure_preserved": true,
+    "guide_resources_resolve": true,
+    "ftbquest_placeholders_preserved": true,
+    "working_output_match": true,
+    "deployed_hashes_match": true,
+    "utf8_bom_files": 0,
+    "game_runtime_verified": false
+  },
+  "review_items": []
+}

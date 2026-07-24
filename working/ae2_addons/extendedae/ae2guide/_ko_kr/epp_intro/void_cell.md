@@ -15,7 +15,7 @@ item_ids:
 
 <ItemImage id="extendedae:void_cell" scale="4"></ItemImage>
 
-소거 셀은 사용하기 전에 <ItemLink id="ae2:cell_workbench" />에서 파티션을 설정해야 합니다. 필터와 일치하는 모든 것을 삭제하거나, <ItemLink id="ae2:matter_ball" /> 또는 <ItemLink id="ae2:singularity" />으로 <ItemLink id="ae2:condenser" />처럼 응축합니다.
+소거 셀은 사용하기 전에 <ItemLink id="ae2:cell_workbench" />에서 파티션을 설정해야 합니다. 필터와 일치하는 항목을 삭제하거나 <ItemLink id="ae2:matter_ball" /> 또는 <ItemLink id="ae2:singularity" />으로 응축하며, <ItemLink id="ae2:condenser" />와 같은 방식입니다.
 
 오른쪽 클릭하면 설정 GUI가 열립니다.
 

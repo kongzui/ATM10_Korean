@@ -13,7 +13,7 @@ item_ids:
 
 <BlockImage id="extendedae:crystal_fixer" scale="8"></BlockImage>
 
-결정 복원기는 싹 틔우는 서투스 석영 블록을 복구하고 한 단계 더 좋은 상태로 바꿀 수 있습니다.
+결정 복원기는 열화된 싹 틔우는 서투스 석영 블록을 복원해 한 단계 성장한 상태로 바꿉니다.
 
 작동하려면 <ItemLink id="ae2:charged_certus_quartz_crystal" />과 전력이 필요합니다. <ItemLink id="ae2:charged_certus_quartz_crystal" />을 들고 오른쪽 클릭하면 투입됩니다.
 

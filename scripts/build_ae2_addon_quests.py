@@ -26,7 +26,7 @@ MODS = {
         "working": "working/ae2_addons/soulplied_energistics",
     },
     "extendedae": {
-        "scope": "ExtendedAE batch 03 related FTB Quests",
+        "scope": "Extended AE related FTB Quests quality review",
         "working": "working/ae2_addons/extendedae",
     },
     "advanced_ae": {

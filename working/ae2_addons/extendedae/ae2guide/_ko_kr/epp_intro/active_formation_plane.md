@@ -15,6 +15,6 @@ item_ids:
   <ImportStructure src="../structure/cable_active_formation_plane.snbt"></ImportStructure>
 </GameScene>
 
-ME 능동 형성 평면은 블록을 직접 설치하거나 아이템을 능동적으로 떨어뜨릴 수 있는 <ItemLink id="ae2:formation_plane" />입니다.
+ME 능동 형성 평면은 설정한 블록을 직접 설치하거나 아이템을 월드에 떨어뜨리는 <ItemLink id="ae2:formation_plane" />입니다.
 
 별도의 서브넷을 구성할 필요가 없습니다. <ItemLink id="ae2:export_bus" />처럼 작동하지만, 상자에 아이템을 넣는 대신 블록을 설치합니다.
