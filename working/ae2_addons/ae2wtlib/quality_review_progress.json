@@ -1,0 +1,52 @@
+{
+  "status": "quality_review_completed",
+  "scope": "AE2WTLib language and GuideME guide quality review",
+  "batch": 1,
+  "source_jars": {
+    "ae2": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    },
+    "ae2wtlib": {
+      "name": "ae2wtlib-19.5.0.jar",
+      "sha256": "decf9a35c6d08c160a65a30fe623fd9c09ad5f5dd1790052917f19c82441bd16"
+    }
+  },
+  "language": "ko_kr",
+  "guide_pages": 8,
+  "new_guide_pages": 7,
+  "core_compatibility_updates": 1,
+  "source_words": 920,
+  "language_keys": 46,
+  "existing_korean_reused": 4,
+  "new_or_revised_translations": 42,
+  "guide_files": [
+    "ae2wtlib/ae2wtlib-index.md",
+    "ae2wtlib/magnet_card.md",
+    "ae2wtlib/quantum_bridge_card.md",
+    "ae2wtlib/restock.md",
+    "ae2wtlib/wireless_crafting_terminal.md",
+    "ae2wtlib/wireless_terminals.md",
+    "ae2wtlib/wireless_universal_terminal.md"
+  ],
+  "core_compatibility_file": "items-blocks-machines/wireless_terminals.md",
+  "output_sha256": {
+    "assets/ae2/ae2guide/_ko_kr/items-blocks-machines/wireless_terminals.md": "0bf6f3583c616cedcb92799bdde939a0431af3ccf0c4b0201c2bc3048b39bb88",
+    "assets/ae2wtlib/lang/ko_kr.json": "b25771012608edab4ef129bbf21554bed3d77f3a5c3a28f82b5809867b786990",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/ae2wtlib-index.md": "a45dd7de86e2d735010aff787785c2d6e8fe7131ae65ee4d427009ffa89dded6",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/magnet_card.md": "1a6f84428660f71f04dd0dfd88dde40e8e192ddabf10267e2846503cc0db1f0c",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/quantum_bridge_card.md": "f1761dfecc0cb6d7d616c2b7791f128235281c9db9331f96b14f8420dcfc378b",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/restock.md": "38b192cc3d8f75f9a6816c6b4c7b3b656110669863012e964cd7b6e280dcb8ab",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_crafting_terminal.md": "bebdf5d07d2825658124d9a3ff5b2346022d009096a1b75fb012897504dd2a24",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_terminals.md": "4bd7dcefc64efa842b015ee281330305694d5f189ce940c3f9f880f6fd623472",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_universal_terminal.md": "789e0b8e7cf0ba724d013276c8ae85e0d90a556f9a33b3226869cac8b9929251"
+  },
+  "ftbquests_review": {
+    "related_chapter_found": true,
+    "keys_reviewed": 2,
+    "keys_updated": 2,
+    "handled_separately": true
+  },
+  "kubejs_user_visible_literals_found": 0,
+  "validation_errors": 0
+}

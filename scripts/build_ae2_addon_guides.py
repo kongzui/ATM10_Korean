@@ -24,6 +24,7 @@ CORE_COMPAT_WORKING_FILE = (
     / "working/ae2/ae2guide/_ko_kr/items-blocks-machines/wireless_terminals.md"
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2_addons/guide_progress.json"
+AE2WTLIB_PROGRESS_FILE = ADDON_WORKING_ROOT / "quality_review_progress.json"
 
 ACTIVE_BATCH = 15
 ADDON_GUIDE_FILES = (
@@ -70,6 +71,15 @@ GUIDE_ITEM_NAMES = {
         "ae2wtlib/wireless_universal_terminal.md"
     ),
 }
+AE2WTLIB_QUALITY_TRANSLATIONS = {
+    "gui.ae2wtlib.terminal_empty": ("이 터미널에는 다른 터미널이 들어 있지 않습니다."),
+}
+AE2WTLIB_FORBIDDEN_GUIDE_PHRASES = (
+    "불러와져 있어야",
+    "단축바의 아이템 수를 바꾸어",
+    "왼클릭(또는 우클릭)",
+    "다음(또는 이전)",
+)
 PLACEHOLDER_RE = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{\d+\}")
 FORMAT_CODE_RE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
 TAG_TOKEN_RE = re.compile(r"<(/?)([A-Za-z][\w:]*)\b[^>]*>")
@@ -721,6 +731,9 @@ def validate_ae2wtlib(instance: Path, compare_output: bool) -> dict[str, object]
         )
         translated_lang = load_json_unique(LANG_WORKING_FILE)
         errors.extend(validate_language(source_lang, translated_lang))
+        for key, expected in AE2WTLIB_QUALITY_TRANSLATIONS.items():
+            if translated_lang.get(key) != expected:
+                errors.append(f"AE2WTLib 확정 번역이 다릅니다: {key}")
 
         guide_rows = [("ae2", CORE_COMPAT_RELATIVE)]
         guide_rows.extend(("ae2wtlib", relative) for relative in ADDON_GUIDE_FILES)
@@ -740,6 +753,15 @@ def validate_ae2wtlib(instance: Path, compare_output: bool) -> dict[str, object]
                     if "한국어 본문을 찾을 수 없습니다" not in error
                 ]
             errors.extend(pair_errors)
+            remaining_phrases = [
+                phrase
+                for phrase in AE2WTLIB_FORBIDDEN_GUIDE_PHRASES
+                if phrase in translated
+            ]
+            if remaining_phrases:
+                errors.append(
+                    f"{relative}: 어색한 가이드 표현이 남았습니다: {remaining_phrases}"
+                )
             errors.extend(validate_tag_nesting(relative, translated))
             errors.extend(
                 validate_resources(archive_names, namespace, relative, translated)
@@ -844,9 +866,9 @@ def build_ae2wtlib(instance: Path) -> dict[str, object]:
         }
     )
     result = {
-        "status": "batch_01_completed",
-        "scope": "AE2WTLib GuideME guide batch 01",
-        "batch": ACTIVE_BATCH,
+        "status": "quality_review_completed",
+        "scope": "AE2WTLib language and GuideME guide quality review",
+        "batch": 1,
         "source_jars": {
             namespace: {"name": path.name, "sha256": sha256(path)}
             for namespace, path in jars.items()
@@ -864,16 +886,15 @@ def build_ae2wtlib(instance: Path) -> dict[str, object]:
         "output_sha256": output_files,
         "ftbquests_review": {
             "related_chapter_found": True,
-            "terminology_mismatch_found": True,
-            "mismatch": "유니버설 무선 터미널 -> 무선 범용 터미널",
-            "keys_updated": 3,
+            "keys_reviewed": 2,
+            "keys_updated": 2,
             "handled_separately": True,
         },
         "kubejs_user_visible_literals_found": 0,
         "validation_errors": 0,
     }
-    PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
-    PROGRESS_FILE.write_text(
+    AE2WTLIB_PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    AE2WTLIB_PROGRESS_FILE.write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return result
@@ -3205,8 +3226,7 @@ def validate_netanalyser_guide(
             item_name = translated_lang[key]
             if item_name not in core.extract_visible_text(text):
                 errors.append(
-                    f"{relative}: 언어 파일의 아이템명이 가이드에 없습니다: "
-                    f"{item_name}"
+                    f"{relative}: 언어 파일의 아이템명이 가이드에 없습니다: {item_name}"
                 )
 
         if compare_output:
@@ -3594,12 +3614,16 @@ def main() -> int:
     parser.add_argument("--language-only", action="store_true")
     parser.add_argument(
         "--mod",
-        choices=("ae2importexportcard", "ae2netanalyser"),
-        help="13차에서 처리할 소형 유틸리티 모드",
+        choices=("ae2wtlib", "ae2importexportcard", "ae2netanalyser"),
+        help="현재 활성 배치와 별개로 다시 빌드할 연동 모드",
     )
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
-    if args.language_only and ACTIVE_BATCH in {7, 8}:
+    if args.mod == "ae2wtlib" and args.language_only:
+        raise ValueError("AE2WTLib은 언어와 가이드를 함께 빌드해야 합니다.")
+    if args.mod == "ae2wtlib":
+        result = build_ae2wtlib(instance)
+    elif args.language_only and ACTIVE_BATCH in {7, 8}:
         result = build_advancedae_language(instance)
     elif args.language_only and ACTIVE_BATCH in {9, 10}:
         result = build_megacells_language(instance)

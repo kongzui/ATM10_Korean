@@ -546,6 +546,11 @@ def main() -> int:
         "quest.33422FBDAE11AE82.quest_subtitle": ("공간 벌", "플루익스 진주"),
         "quest.33422FBDAE11AE82.title": ("플루익스 벌",),
         "quest.3DDB0DDA7571B2C1.title": ("ME 레벨 방출기",),
+        "quest.4B76FE0348DB0E45.quest_desc": (
+            "ME 네트워크",
+            "무선 터미널",
+            "양자얽힘 특이점 한 쌍",
+        ),
         "quest.5233A447BAA4593C.quest_desc": ("조밀한 스마트 케이블", "피복 케이블"),
         "quest.5C22E3103544B120.quest_desc": ("피복 케이블", "조밀한 피복 케이블"),
         "quest.5CD8D169181C7339.quest_desc": (
@@ -556,6 +561,11 @@ def main() -> int:
         ),
         "quest.5E24012A3D9B72A1.quest_desc": ("8양동이", "8000 mB"),
         "quest.6E17595887A051C2.quest_desc": ("플루익스 연구원",),
+        "quest.75EE965CBA598FEA.quest_desc": (
+            "여러 종류의",
+            "무선 범용 터미널",
+            "확장 패턴",
+        ),
         "task.14DEFFB80CC96BC1.title": ("ME 조밀한 피복 케이블",),
         "task.38E290AC5E011888.title": ("ME 조밀한 스마트 케이블",),
         "task.64EAD3DE84E94F02.title": ("ME 피복 케이블",),

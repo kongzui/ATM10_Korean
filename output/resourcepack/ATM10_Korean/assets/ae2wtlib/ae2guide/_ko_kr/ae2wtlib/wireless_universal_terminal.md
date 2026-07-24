@@ -24,7 +24,7 @@ AE2의 <ItemLink id="ae2:wireless_terminal" />은 <ItemLink id="ae2wtlib:wireles
 ## UI
 
 <ItemLink id="ae2wtlib:wireless_universal_terminal" />은 터미널 UI에 버튼을 추가합니다.
-버튼을 왼클릭(또는 우클릭)하면 다음(또는 이전) [무선 터미널](wireless_terminals.md)로 전환합니다.
+버튼을 왼클릭하면 다음 [무선 터미널](wireless_terminals.md)로, 우클릭하면 이전 터미널로 전환합니다.
 
 
 ## 업그레이드
@@ -36,4 +36,3 @@ AE2의 <ItemLink id="ae2:wireless_terminal" />은 <ItemLink id="ae2wtlib:wireles
 
 터미널을 추가하면 각 터미널의 에너지 저장량이 합쳐집니다.
 따라서 터미널 두 개를 넣은 <ItemLink id="ae2wtlib:wireless_universal_terminal" />의 에너지 저장량은 [무선 터미널](wireless_terminals.md)의 두 배입니다.
-

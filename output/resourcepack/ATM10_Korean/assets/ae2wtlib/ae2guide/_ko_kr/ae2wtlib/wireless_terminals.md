@@ -23,8 +23,8 @@ item_ids:
 <ItemLink id="ae2:energy_card" />뿐만 아니라 모든 AE2WTLib 무선 터미널에 <ItemLink id="ae2wtlib:quantum_bridge_card" />를 설치할 수 있으며,
 여러 터미널을 <ItemLink id="ae2wtlib:wireless_universal_terminal" /> 하나로 합칠 수 있습니다.
 
-AE2의 <ItemLink id="ae2:wireless_terminal" />처럼 단축키로 열거나 Curios 슬롯에 넣을 수 있습니다
-(Curios API를 구현한 모드가 설치된 경우).
+AE2의 <ItemLink id="ae2:wireless_terminal" />처럼 단축키로 열 수 있습니다.
+Curios API를 구현한 모드가 설치되어 있다면 Curios 슬롯에도 넣을 수 있습니다.
 
 또한 일반 <ItemLink id="ae2:wireless_terminal" />처럼 <ItemLink id="ae2:wireless_access_point" />를 사용해 무선 터미널을 연결할 수 있습니다.
 

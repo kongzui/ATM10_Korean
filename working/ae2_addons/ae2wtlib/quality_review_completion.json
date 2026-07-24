@@ -1,0 +1,50 @@
+{
+  "status": "quality_review_completed_and_deployed",
+  "completed_at": "2026-07-24T16:55:43+09:00",
+  "scope": "AE2WTLib language, GuideME guide, related FTB Quests",
+  "language": {
+    "total_keys": 46,
+    "existing_korean_reused": 4,
+    "new_or_revised_translations": 42,
+    "quality_review_corrections": 1
+  },
+  "guide": {
+    "pages": 8,
+    "quality_review_pages_corrected": 5,
+    "remaining": 0
+  },
+  "ftbquests": {
+    "related_keys_reviewed": 2,
+    "quality_review_keys_corrected": 2,
+    "remaining": 0
+  },
+  "kubejs": {
+    "user_visible_literals_found": 0
+  },
+  "backup_root": "temp/backups/20260724_165541_550950",
+  "backup_manifest": "temp/backups/20260724_165541_550950/backup_manifest.json",
+  "applied_paths": [
+    "config/ftbquests/quests/lang/ko_kr.snbt",
+    "resourcepacks/ATM10_Korean/assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/quantum_bridge_card.md",
+    "resourcepacks/ATM10_Korean/assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/restock.md",
+    "resourcepacks/ATM10_Korean/assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_crafting_terminal.md",
+    "resourcepacks/ATM10_Korean/assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_terminals.md",
+    "resourcepacks/ATM10_Korean/assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_universal_terminal.md",
+    "resourcepacks/ATM10_Korean/assets/ae2wtlib/lang/ko_kr.json"
+  ],
+  "resourcepack_installed": true,
+  "game_root_configured": false,
+  "original_jars_modified": false,
+  "unexpected_instance_changes": [],
+  "validation": {
+    "language_keys_match_en_us": true,
+    "placeholders_preserved": true,
+    "guide_structure_preserved": true,
+    "guide_resources_resolve": true,
+    "working_output_match": true,
+    "deployed_hashes_match": true,
+    "utf8_bom_files": 0,
+    "game_runtime_verified": false
+  },
+  "review_items": []
+}
