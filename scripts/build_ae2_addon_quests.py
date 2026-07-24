@@ -30,7 +30,7 @@ MODS = {
         "working": "working/ae2_addons/extendedae",
     },
     "advanced_ae": {
-        "scope": "AdvancedAE full related FTB Quests before guide batch 07",
+        "scope": "Advanced AE related FTB Quests quality review",
         "working": "working/ae2_addons/advanced_ae",
     },
     "megacells": {

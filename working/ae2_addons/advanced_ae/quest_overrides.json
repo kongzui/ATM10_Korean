@@ -2,7 +2,7 @@
   "quest.7725CB7D0AE55180.quest_desc": [
     "Advanced AE는 Applied Energistics 2의 애드온으로, ME 시스템을 다룰 때의 사용자 경험을 개선하고 최종 단계 시스템의 가능성을 확장하는 데 중점을 둡니다.",
     "",
-    "기계의 특정 면으로 재료를 보낼 수 있는 패턴 제공기부터, 제한 없이 제작 작업을 실행하고 작업 사이에 보조 처리 장치를 공유할 수 있는 멀티블록 컴퓨터까지 다양한 기능을 제공합니다."
+    "기계의 특정 면으로 재료를 보낼 수 있는 패턴 공급기부터, 제한 없이 제작 작업을 실행하고 작업 사이에 보조 처리 스레드를 공유할 수 있는 멀티블록 컴퓨터까지 다양한 기능을 제공합니다."
   ],
   "quest.7725CB7D0AE55180.title": "Advanced AE",
   "quest.14FC9E4A3C80C0AE.quest_desc": [
@@ -14,12 +14,12 @@
   ],
   "quest.14FC9E4A3C80C0AE.title": "반응 챔버",
   "quest.56DE217FEAE3F036.quest_desc": [
-    "ME 고급 패턴 제공기는 일반 또는 확장 패턴 제공기에, 패턴의 각 아이템을 보낼 기계의 면을 지정하는 기능을 추가한 새로운 ME 패턴 제공기입니다. 이를 이용하면 Mekanism의 야금 주입기처럼 특정 입력을 특정 면으로 넣어야 하는 기계도 파이프나 서브네트워크 없이 블록 하나로 자동화할 수 있습니다.",
+    "ME 고급 패턴 공급기는 일반 또는 확장 패턴 공급기에, 패턴의 각 아이템을 보낼 기계의 면을 지정하는 기능을 추가한 새로운 ME 패턴 공급기입니다. 이를 이용하면 Mekanism의 야금 주입기처럼 특정 입력을 특정 면으로 넣어야 하는 기계도 파이프나 서브넷 없이 블록 하나로 자동화할 수 있습니다.",
     "",
     "이 기능을 사용하려면 각 재료를 기계의 어느 면으로 보낼지 정하는 고급 패턴 인코더가 필요합니다."
   ],
-  "quest.56DE217FEAE3F036.title": "면별 패턴 지정: 고급 패턴 제공기",
-  "task.3A76350DDF5A318D.title": "고급 패턴 제공기",
+  "quest.56DE217FEAE3F036.title": "면별 패턴 지정: 고급 패턴 공급기",
+  "task.3A76350DDF5A318D.title": "고급 패턴 공급기",
   "quest.03164C4C7813CE2B.quest_desc": [
     "퀀텀 컴퓨터는 강력한 제작 CPU입니다. 사용할 제작 저장소가 충분한 한 제작 작업을 제한 없이 실행하고, 여러 작업이 보조 처리 스레드를 공유할 수 있습니다.",
     "",
@@ -41,7 +41,7 @@
   ],
   "quest.658DEAAD1E68E549.title": "대용량 제작 저장소: 퀀텀 컴퓨터 저장소",
   "quest.0D8B4DAB82ABEF9D.quest_desc": [
-    "퀀텀 가속기는 각각 퀀텀 컴퓨터 멀티블록에 보조 처리 스레드 12개를 추가합니다. 퀀텀 컴퓨터가 실행하는 모든 제작 작업은 모든 보조 처리 장치를 공유할 수 있으므로, 이 블록을 많이 마련하는 것이 좋습니다."
+    "퀀텀 가속기는 각각 퀀텀 컴퓨터 멀티블록에 보조 처리 스레드 12개를 추가합니다. 퀀텀 컴퓨터가 실행하는 모든 제작 작업은 모든 보조 처리 스레드를 공유할 수 있으므로, 이 블록을 많이 마련하는 것이 좋습니다."
   ],
   "quest.0D8B4DAB82ABEF9D.title": "퀀텀 컴퓨터 가속기",
   "quest.55DFC96B4CDBFA7D.quest_desc": [
@@ -67,7 +67,7 @@
     "",
     "각 재료를 얼마나 유지할지와 완성품을 최대 몇 개까지 재고로 유지할지도 조절할 수 있습니다.",
     "",
-    "다만 패턴 제공기의 제작 요청은 받지 않습니다."
+    "다만 패턴 공급기의 제작 요청은 받지 않습니다."
   ],
   "quest.12749A25600C7FF3.title": "퀀텀 제작기",
   "quest.78215D704E6095B0.quest_desc": [
@@ -105,10 +105,10 @@
     "&c물약 양조기&r에 &1물&r과 &6블레이즈 가루&r를 공급하려면 &9반출 버스&r 또는 &9인터페이스&r가 필요합니다. &6블레이즈 가루&r는 연료로 사용합니다. 아직 병은 공급하지 마세요. 네트워크가 물병으로 가득 차게 됩니다.",
     "{@pagebreak}",
     "다음 단계에는",
-    "&5고급 패턴 제공기&r가 필요합니다. 사용법은 Extended AE 및 Advanced AE 챕터를 확인하세요. 다음으로 패턴을 인코딩해야 합니다. Modular Bees의 Royal Treats에 사용할 &4치유의 물약&r을 양조하는 예시로, 유리병 3개, 네더 사마귀 1개, 반짝이는 수박 조각 1개를 입력하여 &4치유의 물약&r 3개를 만드는 패턴을 인코딩하세요. 여기서는 &5고급 제공기&r의 특별한 기능 두 가지를 모두 사용합니다. 첫 번째는 아이템을 지정한 면으로 보내는 기능입니다. 이를 이용해 유리병을 기계의 위쪽 면으로 보냅니다. 다음과 같이 &5고급 패턴 인코더&r로 패턴을 인코딩하세요:",
+    "&5고급 패턴 공급기&r가 필요합니다. 사용법은 Extended AE 및 Advanced AE 챕터를 확인하세요. 다음으로 패턴을 인코딩해야 합니다. Modular Bees의 Royal Treats에 사용할 &4치유의 물약&r을 양조하는 예시로, 유리병 3개, 네더 사마귀 1개, 반짝이는 수박 조각 1개를 입력하여 &4치유의 물약&r 3개를 만드는 패턴을 인코딩하세요. 여기서는 &5고급 패턴 공급기&r의 특별한 기능 두 가지를 모두 사용합니다. 첫 번째는 아이템을 지정한 면으로 보내는 기능입니다. 이를 이용해 유리병을 기계의 위쪽 면으로 보냅니다. 다음과 같이 &5고급 패턴 인코더&r로 패턴을 인코딩하세요:",
     "{image:atm:textures/questpics/industrialforegoing/advanced_pattern.png width:200 height:100 align:center}",
     "{@pagebreak}",
-    "다음으로 &5고급 제공기&r에서 필터 반입을 활성화해야 합니다. 그러면 &5고급 제공기&r는 현재 활성화된 제작 작업과 일치하는 아이템만 받습니다. 따라서 물약을 너무 일찍 받아들이지 않습니다. 특히 같은 제공기를 사용하는 큰 제작 작업에서는 처리 보조 장치를 추가해도 좋습니다.\\n\\n마지막으로 물약 양조기의 면을 다음과 같이 설정하세요:",
+    "다음으로 &5고급 패턴 공급기&r에서 필터 반입을 활성화해야 합니다. 그러면 &5고급 패턴 공급기&r는 현재 활성화된 제작 작업과 일치하는 아이템만 받습니다. 따라서 물약을 너무 일찍 받아들이지 않습니다. 특히 같은 공급기를 사용하는 큰 제작 작업에서는 처리 애드온을 추가해도 좋습니다.\\n\\n마지막으로 물약 양조기의 면을 다음과 같이 설정하세요:",
     "{image:atm:textures/questpics/industrialforegoing/blaze_input.png width:125 height:100 align:center}",
     "{image:atm:textures/questpics/industrialforegoing/bottle_input.png width:125 height:100 align:center}",
     "{image:atm:textures/questpics/industrialforegoing/brewing_input.png width:125 height:100 align:center}",
@@ -117,11 +117,11 @@
     "{image:atm:textures/questpics/industrialforegoing/blaze_input_for_interface.png width:125 height:100 align:center}",
     "{image:atm:textures/questpics/industrialforegoing/water_for_interface.png width:125 height:100 align:center}",
     "{@pagebreak}",
-    "선택 사항으로 &5고급 제공기&r와 &c양조기&r 사이에 전송 라벨을 놓을 수 있습니다.\\n\\n이 구성이 여전히 헷갈리거나 영상으로 보고 싶다면 ChosenArchitect의 다음 영상을 확인하세요:",
+    "선택 사항으로 &5고급 패턴 공급기&r와 &c양조기&r 사이에 전송 라벨을 놓을 수 있습니다.\\n\\n이 구성이 여전히 헷갈리거나 영상으로 보고 싶다면 ChosenArchitect의 다음 영상을 확인하세요:",
     "{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/DOW4xkxqp6g?si=paZ2xFKyycPumqaS&t=427\"},\"color\":\"blue\",\"text\":\"영상 링크\",\"underlined\":true} "
   ],
   "quest.538186D01429F05F.title": "물약 양조기 자동화",
-  "task.6D00B76B8A141BB8.title": "임의의 #advanced_ae:adv_pattern_provider",
+  "task.6D00B76B8A141BB8.title": "임의의 고급 패턴 공급기",
   "task.7FBDB1383D052B82.title": "ME 반출 버스 또는 ME 인터페이스",
   "task.4031B8B8FBDDEEE4.title": "전송 라벨"
 }

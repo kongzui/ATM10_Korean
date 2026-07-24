@@ -279,6 +279,25 @@ ADVANCEDAE_QUEST_OVERRIDES_FILE = ADVANCEDAE_WORKING_ROOT / "quest_overrides.jso
 ADVANCEDAE_LANGUAGE_COMPLETION_FILE = (
     ADVANCEDAE_WORKING_ROOT / "language_completion.json"
 )
+ADVANCEDAE_PROGRESS_FILE = ADVANCEDAE_WORKING_ROOT / "quality_review_progress.json"
+ADVANCEDAE_QUALITY_TRANSLATIONS = {
+    "block.advanced_ae.adv_pattern_provider": "고급 확장 패턴 공급기",
+    "block.advanced_ae.small_adv_pattern_provider": "고급 패턴 공급기",
+    "gui.advanced_ae.AdvancedIOBus": "ME 고급 입출력 버스",
+    "gui.tooltips.advanced_ae.MultiThreaderMultiplication": (
+        "퀀텀 컴퓨터 멀티블록의 보조 처리 스레드 수를 %d배로 만듭니다. "
+        "멀티블록당 %d개로 제한됩니다."
+    ),
+    "gui.tooltips.advanced_ae.RegulateOn": (
+        "필터 수량을 초과한 아이템의 반입을 시도합니다"
+    ),
+}
+ADVANCEDAE_FORBIDDEN_GUIDE_PHRASES = (
+    "패턴 제공기",
+    "ME 고급 I/O 버스",
+    "몇 가지 스택",
+    "보조 처리 장치",
+)
 ADVANCEDAE_BATCH_07_GUIDE_FILES = (
     "aae_intro/aae_intro-index.md",
     "aae_intro/advanced_io_bus.md",
@@ -2662,6 +2681,145 @@ def build_advancedae_batch(instance: Path, batch: int) -> dict[str, object]:
     return result
 
 
+def validate_advancedae_quality(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    validations = [
+        validate_advancedae_batch(instance, batch, compare_output)
+        for batch in sorted(ADVANCEDAE_BATCH_GUIDE_FILES)
+    ]
+    errors = [
+        error
+        for validation in validations
+        for error in validation["errors"]  # type: ignore[union-attr]
+    ]
+    expected_files = tuple(
+        relative
+        for batch in sorted(ADVANCEDAE_BATCH_GUIDE_FILES)
+        for relative in ADVANCEDAE_BATCH_GUIDE_FILES[batch]
+    )
+    expected_set = set(expected_files)
+    actual_working = {
+        path.relative_to(ADVANCEDAE_GUIDE_WORKING_ROOT).as_posix()
+        for path in ADVANCEDAE_GUIDE_WORKING_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if actual_working != expected_set:
+        errors.append(
+            "Advanced AE 품질 재검수 작업본 목록이 다릅니다: "
+            f"누락={sorted(expected_set - actual_working)}, "
+            f"불필요={sorted(actual_working - expected_set)}"
+        )
+    if compare_output:
+        actual_output = {
+            path.relative_to(ADVANCEDAE_GUIDE_OUTPUT_ROOT).as_posix()
+            for path in ADVANCEDAE_GUIDE_OUTPUT_ROOT.rglob("*.md")
+            if path.is_file()
+        }
+        if actual_output != expected_set:
+            errors.append(
+                "Advanced AE 품질 재검수 출력 목록이 다릅니다: "
+                f"누락={sorted(expected_set - actual_output)}, "
+                f"불필요={sorted(actual_output - expected_set)}"
+            )
+
+    translated_lang = validations[0]["translated_lang"]
+    assert isinstance(translated_lang, dict)
+    for key, expected in ADVANCEDAE_QUALITY_TRANSLATIONS.items():
+        if translated_lang.get(key) != expected:
+            errors.append(
+                f"Advanced AE 품질 확정 번역이 다릅니다: {key}="
+                f"{translated_lang.get(key)!r}"
+            )
+    for relative in expected_files:
+        text = (ADVANCEDAE_GUIDE_WORKING_ROOT / relative).read_text(encoding="utf-8")
+        for phrase in ADVANCEDAE_FORBIDDEN_GUIDE_PHRASES:
+            if phrase in text:
+                errors.append(f"{relative}: 재검수 전 표현이 남아 있습니다: {phrase}")
+
+    return {
+        **validations[0],
+        "source_words": sum(
+            int(validation["source_words"]) for validation in validations
+        ),
+        "guide_pages": len(expected_files),
+        "new_guide_pages": len(expected_files),
+        "guide_files": expected_files,
+        "errors": errors,
+    }
+
+
+def build_advancedae_quality(instance: Path) -> dict[str, object]:
+    validation = validate_advancedae_quality(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    guide_files = validation["guide_files"]
+    assert isinstance(guide_files, tuple)
+    for relative in guide_files:
+        source = ADVANCEDAE_GUIDE_WORKING_ROOT / relative
+        target = ADVANCEDAE_GUIDE_OUTPUT_ROOT / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
+    ADVANCEDAE_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    ADVANCEDAE_LANG_OUTPUT_FILE.write_bytes(ADVANCEDAE_LANG_WORKING_FILE.read_bytes())
+
+    post_validation = validate_advancedae_quality(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jars = validation["jars"]
+    assert isinstance(jars, dict)
+    output_files = {
+        ADVANCEDAE_LANG_RELATIVE: sha256(ADVANCEDAE_LANG_OUTPUT_FILE),
+        **{
+            "assets/advanced_ae/ae2guide/_ko_kr/" + relative: sha256(
+                ADVANCEDAE_GUIDE_OUTPUT_ROOT / relative
+            )
+            for relative in guide_files
+        },
+    }
+    quest_keys, kubejs_keys = advancedae_related_counts()
+    result = {
+        "status": "quality_review_completed",
+        "scope": (
+            "Advanced AE language, GuideME guide, FTB Quests, and KubeJS quality review"
+        ),
+        "batch": [7, 8],
+        "source_jars": {
+            namespace: {"name": path.name, "sha256": sha256(path)}
+            for namespace, path in jars.items()
+        },
+        "language": "ko_kr",
+        "guide_pages": len(guide_files),
+        "new_guide_pages": len(guide_files),
+        "core_compatibility_updates": 0,
+        "source_words": validation["source_words"],
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "guide_files": list(guide_files),
+        "output_sha256": output_files,
+        "ftbquests_review": {
+            "related_content_found": True,
+            "keys_updated": quest_keys,
+            "handled_separately": True,
+            "pending": False,
+        },
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "validation_errors": 0,
+    }
+    ADVANCEDAE_PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    ADVANCEDAE_PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
 def validate_advancedae_batch_07(
     instance: Path, compare_output: bool
 ) -> dict[str, object]:
@@ -3806,6 +3964,7 @@ def main() -> int:
             "ae2wtlib",
             "enderdrives",
             "extendedae",
+            "advanced_ae",
             "ae2importexportcard",
             "ae2netanalyser",
         ),
@@ -3825,6 +3984,10 @@ def main() -> int:
         raise ValueError("Extended AE는 언어와 가이드를 함께 빌드해야 합니다.")
     elif args.mod == "extendedae":
         result = build_extendedae_quality(instance)
+    elif args.mod == "advanced_ae" and args.language_only:
+        raise ValueError("Advanced AE는 언어와 가이드를 함께 빌드해야 합니다.")
+    elif args.mod == "advanced_ae":
+        result = build_advancedae_quality(instance)
     elif args.language_only and ACTIVE_BATCH in {7, 8}:
         result = build_advancedae_language(instance)
     elif args.language_only and ACTIVE_BATCH in {9, 10}:
