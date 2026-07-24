@@ -91,6 +91,7 @@ RECIPE_RE = re.compile(r'<Recipe\b[^>]*\bid="([^"]+)"')
 VOID_TAGS = {"br", "hr", "img", "input", "meta", "link"}
 
 ENDERDRIVES_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/enderdrives"
+ENDERDRIVES_PROGRESS_FILE = ENDERDRIVES_WORKING_ROOT / "quality_review_progress.json"
 ENDERDRIVES_GUIDE_WORKING_ROOT = ENDERDRIVES_WORKING_ROOT / "ae2guide/_ko_kr"
 ENDERDRIVES_LANG_WORKING_FILE = ENDERDRIVES_WORKING_ROOT / "lang/ko_kr.json"
 ENDERDRIVES_GUIDE_FILES = (
@@ -101,6 +102,12 @@ ENDERDRIVES_GUIDE_FILES = (
 ENDERDRIVES_GUIDE_OUTPUT_ROOT = RESOURCEPACK_ROOT / "assets/enderdrives/ae2guide/_ko_kr"
 ENDERDRIVES_LANG_RELATIVE = "assets/enderdrives/lang/ko_kr.json"
 ENDERDRIVES_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / ENDERDRIVES_LANG_RELATIVE
+ENDERDRIVES_FORBIDDEN_GUIDE_PHRASES = (
+    "AE2 시스템 안이든",
+    "전역 동기화 저장소를 제공하는 강력한 드라이브",
+    "거대한 드라이브의 종류 한도",
+    "불러와져 있어야",
+)
 NUMBER_RE = re.compile(r"(?<![\w.])\d[\d,]*(?:\.\d+)?(?:\^\d+)?(?:k|K)?")
 EXTENDEDAE_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/extendedae"
 EXTENDEDAE_LANG_WORKING_FILE = EXTENDEDAE_WORKING_ROOT / "lang/ko_kr.json"
@@ -755,6 +762,15 @@ def validate_ae2wtlib(instance: Path, compare_output: bool) -> dict[str, object]
             errors.extend(pair_errors)
             remaining_phrases = [
                 phrase
+                for phrase in ENDERDRIVES_FORBIDDEN_GUIDE_PHRASES
+                if phrase in translated
+            ]
+            if remaining_phrases:
+                errors.append(
+                    f"{relative}: 어색한 가이드 표현이 남았습니다: {remaining_phrases}"
+                )
+            remaining_phrases = [
+                phrase
                 for phrase in AE2WTLIB_FORBIDDEN_GUIDE_PHRASES
                 if phrase in translated
             ]
@@ -1051,9 +1067,9 @@ def build_enderdrives(instance: Path) -> dict[str, object]:
         },
     }
     result = {
-        "status": "batch_02_completed",
-        "scope": "EnderDrives GuideME guide batch 02",
-        "batch": ACTIVE_BATCH,
+        "status": "quality_review_completed",
+        "scope": "EnderDrives language and GuideME guide quality review",
+        "batch": 2,
         "source_jars": {
             namespace: {"name": path.name, "sha256": sha256(path)}
             for namespace, path in jars.items()
@@ -1072,8 +1088,8 @@ def build_enderdrives(instance: Path) -> dict[str, object]:
         "kubejs_user_visible_literals_found": 0,
         "validation_errors": 0,
     }
-    PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
-    PROGRESS_FILE.write_text(
+    ENDERDRIVES_PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    ENDERDRIVES_PROGRESS_FILE.write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return result
@@ -3614,7 +3630,12 @@ def main() -> int:
     parser.add_argument("--language-only", action="store_true")
     parser.add_argument(
         "--mod",
-        choices=("ae2wtlib", "ae2importexportcard", "ae2netanalyser"),
+        choices=(
+            "ae2wtlib",
+            "enderdrives",
+            "ae2importexportcard",
+            "ae2netanalyser",
+        ),
         help="현재 활성 배치와 별개로 다시 빌드할 연동 모드",
     )
     args = parser.parse_args()
@@ -3623,6 +3644,10 @@ def main() -> int:
         raise ValueError("AE2WTLib은 언어와 가이드를 함께 빌드해야 합니다.")
     if args.mod == "ae2wtlib":
         result = build_ae2wtlib(instance)
+    elif args.mod == "enderdrives" and args.language_only:
+        raise ValueError("EnderDrives는 언어와 가이드를 함께 빌드해야 합니다.")
+    elif args.mod == "enderdrives":
+        result = build_enderdrives(instance)
     elif args.language_only and ACTIVE_BATCH in {7, 8}:
         result = build_advancedae_language(instance)
     elif args.language_only and ACTIVE_BATCH in {9, 10}:

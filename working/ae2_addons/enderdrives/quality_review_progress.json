@@ -1,0 +1,44 @@
+{
+  "status": "quality_review_completed",
+  "scope": "EnderDrives language and GuideME guide quality review",
+  "batch": 2,
+  "source_jars": {
+    "ae2": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    },
+    "ae2wtlib": {
+      "name": "ae2wtlib-19.5.0.jar",
+      "sha256": "decf9a35c6d08c160a65a30fe623fd9c09ad5f5dd1790052917f19c82441bd16"
+    },
+    "enderdrives": {
+      "name": "enderdrives-neoforge-1.21.1-1.4.4.jar",
+      "sha256": "03334f29dadc1e863029d05f66321c70fc2738ce5126ea52056d71b1a68586cc"
+    }
+  },
+  "language": "ko_kr",
+  "guide_pages": 3,
+  "new_guide_pages": 3,
+  "core_compatibility_updates": 0,
+  "source_words": 838,
+  "language_keys": 42,
+  "existing_korean_reused": 0,
+  "new_or_revised_translations": 42,
+  "guide_files": [
+    "enderdrives_intro/enderdrives_intro-index.md",
+    "enderdrives_intro/enderdrives_intro.md",
+    "enderdrives_intro/tapedrive_intro.md"
+  ],
+  "output_sha256": {
+    "assets/enderdrives/lang/ko_kr.json": "877c169db70418ee4a11c6eb9983254ec66792ca3823cee7406fb805abd8f71d",
+    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro-index.md": "9942e1af414bddeaefef4a3478a020a5cebff37f7227d150ebf38ee2c5948300",
+    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro.md": "8b1c08912f2e63368e5363da58df20533612e62f478e01be2d9ed041a9da97fc",
+    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/tapedrive_intro.md": "b3ff2c9e1ba0c00e6d69bcebb693b0851227242df52da7f0305aae0353fd0716"
+  },
+  "ftbquests_review": {
+    "related_content_found": false,
+    "keys_updated": 0
+  },
+  "kubejs_user_visible_literals_found": 0,
+  "validation_errors": 0
+}

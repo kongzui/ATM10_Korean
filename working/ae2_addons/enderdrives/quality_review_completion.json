@@ -1,0 +1,47 @@
+{
+  "status": "quality_review_completed_and_deployed",
+  "completed_at": "2026-07-24T16:59:19+09:00",
+  "scope": "EnderDrives language, GuideME guide, related FTB Quests and KubeJS",
+  "language": {
+    "total_keys": 42,
+    "existing_korean_reused": 0,
+    "new_or_revised_translations": 42,
+    "quality_review_corrections": 0
+  },
+  "guide": {
+    "pages": 3,
+    "quality_review_pages_corrected": 3,
+    "remaining": 0
+  },
+  "ftbquests": {
+    "related_content_found": false,
+    "quality_review_keys_corrected": 0
+  },
+  "kubejs": {
+    "user_visible_literals_found": 0
+  },
+  "backup_root": "temp/backups/20260724_165917_560878",
+  "backup_manifest": "temp/backups/20260724_165917_560878/backup_manifest.json",
+  "applied_paths": [
+    "resourcepacks/ATM10_Korean/assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro-index.md",
+    "resourcepacks/ATM10_Korean/assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro.md",
+    "resourcepacks/ATM10_Korean/assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/tapedrive_intro.md"
+  ],
+  "resourcepack_installed": true,
+  "game_root_configured": false,
+  "original_jar_modified": false,
+  "unexpected_instance_changes": [],
+  "validation": {
+    "language_keys_match_en_us": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "guide_numbers_preserved": true,
+    "guide_structure_preserved": true,
+    "guide_resources_resolve": true,
+    "working_output_match": true,
+    "deployed_hashes_match": true,
+    "utf8_bom_files": 0,
+    "game_runtime_verified": false
+  },
+  "review_items": []
+}
