@@ -240,6 +240,7 @@ LATER_REVIEWED_QUEST_FILES = (
     PROJECT_ROOT / "working/silentgear/quest_overrides.json",
     PROJECT_ROOT / "working/twilight_forest/quests/related/ko_kr.json",
     PROJECT_ROOT / "working/twilight_forest/quests/twilight_forest/ko_kr.json",
+    PROJECT_ROOT / "working/sophisticated/quests/storage/ko_kr.json",
 )
 
 
