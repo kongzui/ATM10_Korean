@@ -1,0 +1,27 @@
+{
+  "status": "in_progress",
+  "scope": "Sophisticated Core, Backpacks, Storage, FTB Quests, and KubeJS quality review",
+  "completed_units": [
+    {
+      "unit": "Sophisticated Core shared UI and terminology",
+      "language_keys_reviewed": 300,
+      "language_keys_corrected": 26,
+      "correction_focus": [
+        "furnace and blast furnace distinction",
+        "filter condition meaning",
+        "upgrade removal error meaning",
+        "shared item and interface terminology"
+      ],
+      "backup_root": "temp/backups/20260726_042343_848954",
+      "applied_paths": [
+        "resourcepacks/ATM10_Korean/assets/sophisticatedcore/lang/ko_kr.json"
+      ],
+      "unexpected_instance_changes": []
+    }
+  ],
+  "pending_units": [
+    "Sophisticated Backpacks and related FTB Quests",
+    "Sophisticated Storage, Storage In Motion, and related FTB Quests",
+    "KubeJS scope verification and cumulative deployment"
+  ]
+}
