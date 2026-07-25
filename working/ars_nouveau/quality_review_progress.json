@@ -1,0 +1,32 @@
+{
+  "status": "in_progress",
+  "scope": "Ars Nouveau family language, Patchouli, FTB Quests, GuideME, advancements, and KubeJS quality review",
+  "completed_units": [
+    {
+      "unit": "Ars Nouveau core, Patchouli, and FTB Quests",
+      "language_keys_reviewed": 2364,
+      "language_keys_corrected": 27,
+      "quest_keys_reviewed": 125,
+      "quest_keys_corrected": 11,
+      "patchouli_files_reviewed": 323,
+      "patchouli_display_fields_reviewed": 761,
+      "correction_focus": [
+        "missing glyph augment behavior",
+        "reversed or omitted automation conditions",
+        "portal, storage, and ritual operation details",
+        "item-name and spell terminology consistency"
+      ],
+      "backup_root": "temp/backups/20260726_044055_478911",
+      "applied_paths": [
+        "config/ftbquests/quests/lang/ko_kr.snbt",
+        "resourcepacks/ATM10_Korean/assets/ars_nouveau/lang/ko_kr.json"
+      ],
+      "unexpected_instance_changes": []
+    }
+  ],
+  "pending_units": [
+    "Ars Additions, Ars Controle, Ars Creo, and Ars Elemancy",
+    "Ars Elemental, Ars Technica, Ars Unification, Not Enough Glyphs, Starbuncle Mania, and integrations"
+  ],
+  "validation_errors": 0
+}
