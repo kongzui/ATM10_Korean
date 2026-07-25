@@ -1,0 +1,62 @@
+{
+  "status": "quality_review_completed_and_deployed",
+  "completed_at": "2026-07-26T04:52:00+09:00",
+  "scope": "Ars Nouveau core, add-ons, integrations, Patchouli, GuideME, advancements, FTB Quests, and KubeJS",
+  "language": {
+    "modules": 13,
+    "total_keys": 4186,
+    "bundled_korean_reviewed_and_reused": 2266,
+    "project_output_reviewed_and_reused": 1106,
+    "project_new_or_revised": 814,
+    "quality_review_corrections": 167
+  },
+  "ftbquests": {
+    "chapters": 1,
+    "quests_checked": 130,
+    "tasks_checked": 135,
+    "display_keys_reviewed": 125,
+    "quality_review_keys_corrected": 11,
+    "unresolved_english_custom_names": 0
+  },
+  "guides_and_content": {
+    "patchouli_files_checked": 323,
+    "patchouli_display_fields": 761,
+    "patchouli_missing_translation_keys": 0,
+    "guideme_pages_checked": 1,
+    "advancement_files_checked": 520,
+    "advancement_display_fields": 158
+  },
+  "kubejs": {
+    "files_reviewed": 16,
+    "direct_display_candidates": 0,
+    "quality_review_occurrences_corrected": 0
+  },
+  "deployment": {
+    "source_root_configured": false,
+    "game_root_configured": true,
+    "backup_roots": [
+      "temp/backups/20260726_044055_478911",
+      "temp/backups/20260726_044405_556512",
+      "temp/backups/20260726_045143_337454"
+    ],
+    "post_apply_expected_changes": [],
+    "unexpected_instance_changes": []
+  },
+  "validation": {
+    "language_keys_match_en_us": true,
+    "duplicate_keys": 0,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "numbers_preserved": true,
+    "line_breaks_preserved": true,
+    "quest_fallback_paths_checked": true,
+    "patchouli_translation_keys_complete": true,
+    "guideme_links_and_tags_checked": true,
+    "advancement_translation_keys_complete": true,
+    "working_output_match": true,
+    "deployed_hashes_match": true,
+    "game_runtime_verified": false,
+    "validation_errors": 0
+  },
+  "remaining_review_items": []
+}

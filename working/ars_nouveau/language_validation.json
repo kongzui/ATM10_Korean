@@ -13,8 +13,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 21,
-      "bundled_exact_reuse": 2298,
-      "new_or_edited": 66
+      "bundled_exact_reuse": 2262,
+      "new_or_edited": 102
     },
     {
       "label": "Ars Additions",
@@ -194,9 +194,9 @@
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 2302,
+    "bundled_exact_reuse": 2266,
     "project_output_reuse": 1106,
-    "new_or_edited": 778
+    "new_or_edited": 814
   },
   "ftbquests": {
     "chapters": [

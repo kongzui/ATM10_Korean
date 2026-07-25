@@ -298,6 +298,17 @@ KEY_OVERRIDES = {
         ),
     },
     "ars_technica": {
+        "ars_technica.glyph_desc.glyph_insert": (
+            "주문이 발동한 곳의 중간 범위 안에 있는 아이템 개체를 주변 보관함에 "
+            "넣습니다."
+        ),
+        "ars_nouveau.augment_desc.glyph_obliterate_glyph_fortune": (
+            "분쇄 조합에서 추가 아이템을 얻을 확률을 높이지만, 반복 적용할수록 "
+            "증가량이 줄어듭니다."
+        ),
+        "ars_nouveau.augment_desc.glyph_insert_glyph_split": (
+            "모든 유효한 보관함에 아이템을 고르게 분배합니다."
+        ),
         "ars_technica.glyph_desc.glyph_carve": (
             "같은 아이템 개체를 잘라 계단으로 제작합니다. 돌과 나무에만 "
             "작동합니다. §a[Create 조합: 절단]"
@@ -683,6 +694,14 @@ QUALITY_OVERRIDES = {
             "적용된 아이템뿐 아니라 모든 관련 아이템에 적용됩니다. 3레벨 이상의 "
             "슬롯에 장착하면 착용 중인 모든 마법 방어구가 파괴되지 않습니다."
         ),
+        "ars_nouveau.scribing": "주문 각인",
+        "ars_nouveau.glyph_desc.glyph_self": "시전자 자신에게 주문을 적용합니다.",
+        "ars_nouveau.glyph_desc.glyph_summon_wolves": (
+            "함께 싸우는 늑대 두 마리를 소환합니다. 시간 연장은 소환수의 지속 시간을 "
+            "늘립니다. 시전자에게 소환 멀미를 부여해 다른 소환 마법을 막습니다."
+        ),
+        "ars_nouveau.already_learned": "이미 배운 문양입니다.",
+        "ars_nouveau.warp_scroll.recorded": "현재 위치를 워프 두루마리에 기록했습니다.",
         "ars_nouveau.page1.whirlisprig_charm": (
             "윌스프링은 숲이 우거진 지역에서만 발견되는 호기심 많은 자연 정령입니다. "
             "소환한 윌스프링에게 보금자리를 마련해 주면 주변에 있는 나무, 작물, 씨앗, "
@@ -758,6 +777,18 @@ QUALITY_OVERRIDES = {
         "item.ars_additions.imbued_spell_parchment": "마나 주입 주문 양피지",
         "item.ars_additions.exploration_warp_scroll": "탐험가의 워프 두루마리",
         "item.ars_additions.nexus_warp_scroll": "넥서스 워프 두루마리",
+        "chat.ars_additions.handy_haversack.invalid": (
+            "각인하기 전에 휴대용 배낭을 보관함에 결속해야 합니다."
+        ),
+        "ars_additions.glyph_desc.glyph_retaliate": (
+            "최근 5초 안에 시전자에게 마지막으로 피해를 준 개체에게 주문을 적용합니다."
+        ),
+        "ars_additions.page1.charms": (
+            "부적은 강력한 보호 마법이 깃든 장신구입니다. 가루눈 위를 걷게 하거나 "
+            "워든의 강력한 음파 폭발을 막는 등 종류마다 다른 효과가 있습니다. 각 "
+            "부적은 정해진 횟수만큼 보호하며, 충전을 모두 쓰면 주입 챔버에서 다시 "
+            "충전할 수 있습니다."
+        ),
     },
     "ars_controle": {
         "ars_controle.glyph.error.generic.error_at_position": (
@@ -831,10 +862,10 @@ QUALITY_OVERRIDES = {
     },
     "ars_creo": {
         "ars_creo.page.behaviors": (
-            "Ars Creo는 주문 포탑과 마나 단지 등 Ars Nouveau 블록이 Create 이동 "
-            "구조물에서 특별히 작동하게 합니다. 기본 주문 포탑은 구조물과 상호 "
+            "Ars Creo는 마법 포탑과 마나 단지 등 Ars Nouveau 블록이 Create 이동 "
+            "구조물에서 특별히 작동하게 합니다. 기본 마법 포탑은 구조물과 상호 "
             "작용할 때 주문을 시전하고, 타이머 포탑은 설정된 간격마다 시전하며, 마법 "
-            "부여된 주문 포탑은 구조물이 새 블록을 지날 때마다 시전합니다. 구조물의 "
+            "부여된 마법 포탑은 구조물이 새 블록을 지날 때마다 시전합니다. 구조물의 "
             "포탑은 함께 실은 마나 단지의 마나를 사용할 수 있습니다."
         ),
         "ars_creo.page1.ars_creo.fluid_tank": (
@@ -867,6 +898,11 @@ QUALITY_OVERRIDES = {
             "작동합니다. 디포에 시전하면 내부 아이템 가공을 자동화할 수 있습니다.\n\n"
             "깎기, 포장, 융합은 월드의 아이템 개체에만 작동하며 디포 자동화를 "
             "지원하지 않습니다."
+        ),
+        "ars_technica.page2.arcane_wrench": (
+            "추가 기능:\n\n- 룬 블록: 우클릭하여 재사용 대기 시간을 설정\n- 전달체: "
+            "우클릭하여 정밀 전달체로 바꾸고 재사용 대기 시간을 설정\n- 받침대, 포탑, "
+            "격리 단지: 웅크린 채 우클릭하여 통째로 회수"
         ),
     },
     "ars_elemancy": {
@@ -1031,6 +1067,17 @@ QUALITY_OVERRIDES = {
             "없으면 일반 투사체처럼 움직입니다. 섬세함으로 보강해야 플레이어도 "
             "대상으로 삼습니다."
         ),
+        "ars_elemental.glyph_desc.glyph_carian_phalanx": (
+            "시전자 주위를 도는 마법 투사체를 소환합니다. 적이 가까이 오면 자동으로 "
+            "발사되어 추적합니다. 한 번에 최대 5개까지 유지되며, 더 소환하면 가장 "
+            "오래된 투사체가 사라집니다. 투사체 수·속도·반경·지속 시간·유도 능력을 "
+            "보강할 수 있습니다."
+        ),
+        "ars_elemental.glyph_desc.glyph_charm": (
+            "적의 정신을 지배해 잠시 아군으로 싸우게 하고, 길들일 수 있는 몹은 "
+            "길들이며, 야생 동물은 번식 상태로 만듭니다. 증폭 횟수와 대상에게 준 "
+            "피해가 많을수록 성공 확률이 높아지고, 강한 몹일수록 더 잘 저항합니다."
+        ),
         "ars_elemental.glyph_desc.glyph_life_link": (
             "시전자와 대상의 생명력을 연결합니다. 시전자가 받는 피해는 대상과 "
             "나누고, 대상이 받는 회복은 시전자와 똑같이 나눕니다. 섬세함은 연결 "
@@ -1046,6 +1093,26 @@ QUALITY_OVERRIDES = {
             "없으면 낙하하는 점적석을 대신 소환하며, 이때는 증폭만 적용되어 낙하 "
             "높이에 따른 피해를 늘립니다."
         ),
+        "ars_elemental.glyph_desc.glyph_summon_bee": (
+            "함께 싸우는 벌 세 마리를 소환합니다. 시간 연장은 소환수의 지속 시간을 "
+            "늘립니다. 시전자에게 소환 멀미를 부여해 다른 소환 마법을 막습니다."
+        ),
+        "ars_elemental.glyph_desc.glyph_summon_slime": (
+            "함께 싸우는 슬라임 세 마리를 소환합니다. 시간 연장은 소환수의 지속 "
+            "시간을 늘립니다. 시전자에게 소환 멀미를 부여해 다른 소환 마법을 막습니다."
+        ),
+        "ars_nouveau.augment_desc.glyph_summon_bee_glyph_duration_down": (
+            "소환 지속 시간을 줄입니다."
+        ),
+        "ars_nouveau.augment_desc.glyph_summon_bee_glyph_split": (
+            "소환하는 벌의 수를 늘립니다."
+        ),
+        "ars_nouveau.augment_desc.glyph_summon_slime_glyph_duration_down": (
+            "소환 지속 시간을 줄입니다."
+        ),
+        "ars_nouveau.augment_desc.glyph_summon_slime_glyph_split": (
+            "소환하는 슬라임의 수를 늘립니다."
+        ),
         "ars_elemental.glyph_desc.glyph_watery_grave": (
             "대상을 익사시킵니다. 호흡 게이지를 줄이고, 모두 소진되면 익사 피해를 "
             "줍니다. 시간 연장으로 보강하면 잠시 대상을 아래로 끌어당겨 수면으로 "
@@ -1054,6 +1121,10 @@ QUALITY_OVERRIDES = {
         "ars_elemental.lens.pierce": (
             "프리즘에 마나를 공급하면 방향을 바꾼 투사체가 더 많은 블록과 개체를 "
             "관통합니다."
+        ),
+        "ars_elemental.lens.homing": (
+            "방향이 바뀐 투사체를 유도 투사체로 변환합니다. 원래 투사체의 대상 필터는 "
+            "이어받지 않습니다."
         ),
         "ars_elemental.lens.rgb": "방향을 바꾼 투사체의 색상이 계속 순환합니다.",
         "ars_elemental.page.armor_set.air": (
@@ -1123,6 +1194,51 @@ QUALITY_OVERRIDES = {
             "느껴지며, 적중한 적을 무작위로 회복시키거나 시들게 하고 착용자의 최대 "
             "체력도 조금 높입니다."
         ),
+        "ars_elemental.page.air_bangle": (
+            "공기 주문의 피해를 높이는 팔찌입니다. 팔에서 원소의 불꽃이 튀며 이동 "
+            "속도와 공격 밀쳐내기를 지속적으로 높입니다."
+        ),
+        "ars_elemental.page1.air_bangle": (
+            "공기 주문의 피해를 높이는 팔찌입니다. 팔에서 원소의 불꽃이 튀며 이동 "
+            "속도와 공격 밀쳐내기를 지속적으로 높입니다."
+        ),
+        "ars_elemental.page.earth_bangle": (
+            "대지 주문의 피해를 높이는 팔찌입니다. 팔에서 식물이 피어나 적중한 적을 "
+            "속박하고, 착용자에게 선인장·달콤한 열매 덤불 면역과 밀쳐내기 저항을 "
+            "부여합니다."
+        ),
+        "ars_elemental.page1.earth_bangle": (
+            "대지 주문의 피해를 높이는 팔찌입니다. 팔에서 식물이 피어나 적중한 적을 "
+            "속박하고, 착용자에게 선인장·달콤한 열매 덤불 면역과 밀쳐내기 저항을 "
+            "부여합니다."
+        ),
+        "ars_elemental.page.water_bangle": (
+            "물 주문의 피해를 높이는 팔찌입니다. 팔이 주변 공기를 식혀 적중한 적을 "
+            "얼리고, 착용자의 물속과 빗속 이동 속도를 지속적으로 높입니다."
+        ),
+        "ars_elemental.page1.water_bangle": (
+            "물 주문의 피해를 높이는 팔찌입니다. 팔이 주변 공기를 식혀 적중한 적을 "
+            "얼리고, 착용자의 물속과 빗속 이동 속도를 지속적으로 높입니다."
+        ),
+        "ars_elemental.page1.anima_bangle": (
+            "아니마 주문의 피해를 높이는 팔찌입니다. 팔에서 삶과 죽음의 순환이 "
+            "느껴지며, 적중한 적을 무작위로 회복시키거나 시들게 하고 착용자의 최대 "
+            "체력도 조금 높입니다."
+        ),
+        "ars_elemental.page.summon_bangle": (
+            "소환 주문의 피해를 높이는 팔찌입니다. 소환수는 시전자의 팔 움직임을 "
+            "따라 시전자가 공격한 대상을 더 강한 피해로 공격합니다."
+        ),
+        "ars_elemental.page1.summon_bangle": (
+            "소환 주문의 피해를 높이는 팔찌입니다. 소환수는 시전자의 팔 움직임을 "
+            "따라 시전자가 공격한 대상을 더 강한 피해로 공격합니다."
+        ),
+        "ars_elemental.page.spell_horn": (
+            "마법 부여사의 뿔피리는 시전자와 주변 개체에게 주문을 시전합니다. 사용 "
+            "버튼을 누르고 있으면 범위가 늘어나고, 완전히 충전하면 플레이어에게 주문 "
+            "피해 증가 효과도 부여합니다. 필기 작업대에서 형태 문양이 없는 주문을 "
+            "새겨야 합니다."
+        ),
         "ars_elemental.page.necrotic_focus": (
             "소환 포커스에 사악한 에너지를 주입하면 강령술 포커스로 타락시킬 수 "
             "있습니다. 아니마 학파 문양에는 시간 연장 2회가 무료로 적용되고, 회복에는 "
@@ -1174,6 +1290,11 @@ QUALITY_OVERRIDES = {
             "있습니다. 곡사 및 유도 렌즈는 투사체를 해당 유형으로 바꾸고, 가속 및 감속 "
             "렌즈는 속도를 조절합니다."
         ),
+        "ars_elemental.page1.elemental_turrets": (
+            "마법 부여된 마법 포탑에 원소 포커스의 힘을 주입하면 일부 능력을 부여할 "
+            "수 있습니다. 이 포탑이 쏜 주문은 해당 포커스의 조합 효과를 발동하며, "
+            "같은 원소 학파의 문양이 들어 있으면 마나 비용이 65%% 줄어듭니다."
+        ),
         "ars_elemental.page1.flashing_archwood": (
             "이 황금빛 아크우드는 하늘과 친화력이 있습니다. 다른 아크우드처럼 여러 "
             "곳과 전용 생물 군계에서 발견되며, 의식용 석판 재료나 은은한 광원으로 "
@@ -1185,6 +1306,27 @@ QUALITY_OVERRIDES = {
             "소환자가 이 포커스를 착용한 상태에서 죽으면 피에 굶주린 채 한 번 "
             "부활합니다. 이 언데드 소환수들은 시전자가 유도 주문을 시전할 때 함께 "
             "시전하고, 적을 처치할 때마다 시전자를 회복시킵니다."
+        ),
+        "ars_elemental.page2.necrotic_focus": (
+            "소환 포커스에 사악한 에너지를 주입하면 강령술 포커스로 타락시킬 수 "
+            "있습니다. 아니마 학파 문양에는 시간 연장 2회가 무료로 적용되고, 회복에는 "
+            "증폭 2회가 적용되며, 현혹은 언데드에게 성공할 확률이 크게 높아집니다. "
+            "군마 소환은 물속에서 걷고 숨 쉴 수 있는 해골 군마 소환으로 바뀝니다."
+        ),
+        "ars_elemental.page3.necrotic_focus": (
+            "소환한 늑대, 언데드, 벡스는 처음에는 달라 보이지 않습니다. 하지만 "
+            "소환자가 이 포커스를 착용한 상태에서 죽으면 피에 굶주린 채 한 번 "
+            "부활합니다. 이 언데드 소환수들은 시전자가 유도 주문을 시전할 때 함께 "
+            "시전하고, 적을 처치할 때마다 시전자를 회복시킵니다."
+        ),
+        "ars_elemental.page.spell_mirror": (
+            "벽, 바닥, 천장에 설치할 수 있는 주문 프리즘과 비슷한 거울입니다. 주문 "
+            "투사체가 거울에 맞으면 대칭되는 각도로 반사됩니다."
+        ),
+        "ars_elemental.page.gravity": (
+            "대지 포커스를 착용하고 섬세함으로 보강하면 개체를 중심으로 끌어당기는 "
+            "중력장을 만듭니다. 필터와 함께 사용할 수 있으며, 중력장을 개체에게 직접 "
+            "시전하면 그 개체를 따라갑니다."
         ),
         "ars_elemental.page2.fire_focus": (
             "이 포커스는 점화를 강화해 마법 화상을 부여합니다. 마법 화상은 화염 "
@@ -1219,10 +1361,73 @@ QUALITY_OVERRIDES = {
             "마법 불꽃은 네더 생물까지 태워 화염에 취약하게 만듭니다. 받는 대지 "
             "피해는 조금 줄지만, 마법 피해가 방어력 일부를 관통합니다."
         ),
+        "effect.ars_elemental.mana_shield.description": (
+            "마나를 소비해 받는 피해를 줄이고, 해로운 효과를 막을 확률을 부여합니다."
+        ),
         "entity.ars_elemental.lerp": "보간된 마나 효과",
+        "tooltip.ars_elemental.focus_anima": (
+            "소환한 개체가 더 강한 레버넌트로 한 번 부활합니다. 레버넌트는 시전자의 "
+            "유도 주문을 따라 시전하고 적을 처치하면 시전자를 회복시킵니다."
+        ),
+        "ars_elemental.adv.desc.necrotic_focus": "강령술 포커스 획득",
         "item.ars_elemental.rainbow_prism_lens": "무지개 프리즘 렌즈 [제거됨]",
     },
     "not_enough_glyphs": {
+        "item.not_enough_glyphs.spell_binder": "주문 결속기",
+        "not_enough_glyphs.page.book_threads.desc": (
+            "책 표지는 주문 결속기의 핵심 부품으로, 방어구 실타래처럼 특별한 속성과 "
+            "효과를 부여합니다. 수선 작업대에서 주문 결속기에 표지를 최대 두 개까지 "
+            "장착할 수 있습니다."
+        ),
+        "not_enough_glyphs.page.spell_binder": (
+            "주문 결속기는 기존 주문 시전 방식 대신, 안에 넣은 주문 양피지와 시전자 "
+            "고서의 주문을 시전하는 도구입니다. 왼쪽에는 원형 메뉴(V)용 주문 10개를, "
+            "오른쪽에는 필요할 때 교체할 추가 주문 15개를 보관합니다."
+        ),
+        "not_enough_glyphs.spell_binder.empty": (
+            "인벤토리를 열어 주문 결속기에 주문 양피지와 시전자 고서를 넣으세요."
+        ),
+        "ars_elemental.glyph_desc.glyph_propagator_homing": (
+            "주문의 나머지를 유도 투사체로 바꾸어, 적중한 곳에서 시전자가 바라보는 "
+            "방향으로 발사합니다."
+        ),
+        "not_enough_glyphs.glyph_desc.glyph_filter_dark": (
+            "어두운 영역을 대상으로 할 때만 주문을 처리합니다. 밝기 기준은 8이고 "
+            "햇빛은 무시하며, 증폭과 약화로 기준을 조절할 수 있습니다."
+        ),
+        "not_enough_glyphs.glyph_desc.glyph_filter_light": (
+            "햇빛이 충분한 영역을 대상으로 할 때만 주문을 처리합니다. 밝기 기준은 "
+            "8이고 인공 조명은 무시하며, 증폭과 약화로 기준을 조절할 수 있습니다."
+        ),
+        "arsomega.glyph_desc.glyph_flatten": (
+            "대상을 아래 블록에 짓눌러 그 블록의 경도에 따라 피해를 줍니다. 블록에 "
+            "사용하면 삽을 사용한 것처럼 처리합니다."
+        ),
+        "ars_nouveau.augment_desc.glyph_flatten_glyph_fortune": (
+            "몹을 처치할 때 약탈을 적용합니다."
+        ),
+        "ars_nouveau.augment_desc.glyph_chaining_glyph_sensitive": (
+            "같은 종류의 개체와 노출된 블록으로만 연쇄됩니다. 두 번 적용하면 적중한 "
+            "면이 노출된 블록으로만 연쇄됩니다."
+        ),
+        "toomanyglyphs.glyph_desc.glyph_chaining": (
+            "주문이 시전자를 제외한 같은 종류의 블록이나 살아 있는 개체 사이로 "
+            "연쇄됩니다. 광역은 대상 수를, 관통은 대상 사이의 최대 이동 거리를 "
+            "늘립니다."
+        ),
+        "toomanyglyphs.glyph_desc.glyph_filter_entity": (
+            "대상이 개체일 때만 주문을 처리합니다."
+        ),
+        "toomanyglyphs.glyph_desc.glyph_filter_living": (
+            "대상이 살아 있는 개체일 때만 주문을 처리합니다."
+        ),
+        "toomanyglyphs.glyph_desc.glyph_filter_living_not_monster": (
+            "대상이 몬스터가 아닌 살아 있는 개체일 때만 주문을 처리합니다."
+        ),
+        "toomanyglyphs.glyph_desc.glyph_filter_living_not_player": (
+            "대상이 플레이어가 아닌 살아 있는 개체일 때만 주문을 처리합니다."
+        ),
+        "toomanyglyphs.glyph_name.glyph_filter_entity": "필터: 개체",
         "not_enough_glyphs.perk_desc.thread_air_focus": (
             "주문 결속기의 표지 인장입니다. 공기 포커스를 장착한 것처럼 문양 조합을 "
             "활성화합니다."
@@ -1270,6 +1475,43 @@ QUALITY_OVERRIDES = {
             "무작위로 추가합니다."
         ),
     },
+    "starbunclemania": {
+        "starbunclemania.adv.desc.wixie_mixer": (
+            "유체 단지에 윅시 부적을 사용해 윅시 믹서를 만드세요."
+        ),
+        "starbunclemania.page.direction_scroll": (
+            "별다람쥐 자동화가 사용할 블록 면과 방향을 지정합니다. 두루마리를 "
+            "별다람쥐에게 사용하거나 블록의 아이템 액자에 넣으면, 별다람쥐가 지정된 "
+            "면에서 그 블록과 상호 작용합니다."
+        ),
+        "starbunclemania.page.star_balloon": (
+            "별다람쥐가 Mekanism 가스를 운반할 수 있게 합니다. 장식용일 때는 염색할 "
+            "수 있지만, 운반 중에는 저장한 가스의 색을 사용합니다. 장신구를 착용시킨 "
+            "뒤 도미니언 완드로 가스 탱크 사이를 연결하세요."
+        ),
+        "starbunclemania.page.star_battery": (
+            "별다람쥐가 에너지를 운반할 수 있게 합니다. 장신구를 착용시킨 뒤 도미니언 "
+            "완드로 FE 블록 사이를 연결하세요."
+        ),
+        "starbunclemania.page.star_bucket": (
+            "별다람쥐가 유체를 운반할 수 있게 합니다. 장신구를 착용시킨 뒤 도미니언 "
+            "완드로 탱크 사이를 연결하세요."
+        ),
+        "starbunclemania.page.wixie_mixer": (
+            "유체 단지에 윅시 부적을 사용하면 다른 종류의 가마솥인 윅시 믹서로 "
+            "바뀝니다. 믹서에는 물과 우유용 내부 탱크가 있어 조합에 양동이를 쓰지 "
+            "않아도 됩니다. 제작대 조합에만 작동하며 필요한 유체는 항상 1단위만 "
+            "소비합니다."
+        ),
+        "starbunclemania.simple_cosmetic.tooltip": (
+            "사역마용 장식입니다. 별다람쥐, 윅시, 드리그미, 책고룡이 사용할 수 "
+            "있습니다."
+        ),
+        "starbunclemania.degree_hat.tooltip": (
+            "사역마용 장식입니다. 별다람쥐와 책고룡 사역마가 사용할 수 있으며, "
+            "아이템 운반 별다람쥐가 방향 두루마리를 읽을 수 있게 합니다."
+        ),
+    },
     "allthearcanistgear": {
         "chat.allthearcanistgear.low_tier": "이 블록을 부수려면 더 강력한 마도서가 필요합니다.",
         "item.allthearcanistgear.allthemodium_spell_book": "Allthemodium 마도서",
@@ -1301,8 +1543,59 @@ for filter_name, target_name in FILTER_TYPES.items():
                 f"대상이 {target_name}이면 주문의 나머지 부분을 처리하지 않습니다."
             ),
             f"ars_elemental.glyph_desc.glyph_not_{filter_name}_filter": (
-                f"대상이 {target_name}이(가) 아니면 주문의 나머지 부분을 처리하지 않습니다."
+                f"대상이 {target_name}에 해당하지 않으면 주문의 나머지 부분을 "
+                "처리하지 않습니다."
             ),
+        }
+    )
+
+CONTINGENCY_TYPES = {
+    "blink": (
+        "순간이동",
+        "대상이 순간이동한 뒤 조건부 주문을 발동합니다.",
+    ),
+    "death": (
+        "죽음",
+        "대상이 죽은 뒤 조건부 주문을 발동합니다. 불사의 토템으로 살아남아도 "
+        "발동합니다.",
+    ),
+    "fall": (
+        "낙하",
+        "대상이 충분히 오래 자유 낙하하면 저장된 주문을 발동합니다. 기본 기준은 "
+        "5블록이며 증폭과 약화마다 1블록씩 늘거나 줄어듭니다.",
+    ),
+    "fire": (
+        "화염",
+        "대상이 화염 피해를 받으면 저장된 주문을 발동합니다.",
+    ),
+    "heal": (
+        "회복",
+        "대상이 회복한 뒤 저장된 주문을 발동합니다.",
+    ),
+    "health": (
+        "체력",
+        "대상의 체력이 기준 아래로 떨어지면 저장된 주문을 발동합니다. 기본 기준은 "
+        "20%이며 증폭마다 10%씩 높아집니다.",
+    ),
+    "time": (
+        "만료",
+        "일정 시간이 지나면 저장된 주문을 발동합니다. 강제로 디스펠하면 발동하지 "
+        "않습니다.",
+    ),
+}
+for contingency_name, (display_name, description) in CONTINGENCY_TYPES.items():
+    QUALITY_OVERRIDES["not_enough_glyphs"].update(
+        {
+            f"not_enough_glyphs.glyph_name.glyph_contingency_{contingency_name}": (
+                f"조건부 발동: {display_name}"
+            ),
+            f"not_enough_glyphs.glyph_desc.glyph_contingency_{contingency_name}": (
+                description
+            ),
+            (
+                "ars_nouveau.augment_desc.glyph_contingency_"
+                f"{contingency_name}_glyph_split"
+            ): "조건부 발동이 끝나기 전 가능한 발동 횟수를 1회 늘립니다.",
         }
     )
 
@@ -2173,6 +2466,7 @@ def normalize_korean(value: str) -> str:
         ("위시", "윅시"),
         ("패밀리어", "사역마"),
         ("주문 집중기", "주문 포커스"),
+        ("주문 포탑", "마법 포탑"),
         ("소환 집중기", "소환 포커스"),
         ("집중기", "포커스"),
         ("하위 포커스", "하급 포커스"),
