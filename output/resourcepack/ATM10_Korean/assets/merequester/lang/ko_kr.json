@@ -12,11 +12,11 @@
 
   "tooltip.merequester.requester_desc": "필요할 때 새 제작을 요청하여 아이템과 유체 재고를 자동으로 유지합니다. ME 네트워크에 연결해야 하며 ME 요청기 터미널에서 접근할 수 있습니다. 블록을 부수면 설정이 사라집니다. 메모리 카드로 설정을 복사할 수 있습니다.",
 
-  "tooltip.merequester.shift_for_more": "%s로 자세히 보기",
-  "tooltip.merequester.enter_to_submit": "%s로 적용",
+  "tooltip.merequester.shift_for_more": "자세히 보려면 %s",
+  "tooltip.merequester.enter_to_submit": "적용하려면 %s",
 
   "tooltip.merequester.whole_number": "정수만 입력할 수 있습니다!",
-  "tooltip.merequester.locked": "잠김! 요청이 진행 중입니다.",
+  "tooltip.merequester.locked": "요청이 진행 중이라 잠겼습니다!",
 
   "tooltip.merequester.toggle": "요청 켜기/끄기",
   "tooltip.merequester.amount": "목표 재고량",

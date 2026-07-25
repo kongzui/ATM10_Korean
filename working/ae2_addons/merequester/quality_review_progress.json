@@ -1,0 +1,33 @@
+{
+  "status": "quality_review_completed",
+  "scope": "ME Requester language, GuideME guide, FTB Quests, and KubeJS quality review",
+  "batch": 14,
+  "source_jars": {
+    "merequester": {
+      "name": "merequester-neoforge-1.21.1-1.4.3.jar",
+      "sha256": "68f3c861a802d48afeb6e3a48e8ee4f8633904340ac3f89f17493dc84490e385"
+    }
+  },
+  "language": "ko_kr",
+  "guide_pages": 1,
+  "language_keys": 27,
+  "existing_korean_reused": 0,
+  "new_or_revised_translations": 27,
+  "quality_review_corrections": 3,
+  "quality_review_guide_pages_corrected": 1,
+  "output_sha256": {
+    "assets/merequester/lang/ko_kr.json": "ef504f4c2a4614843964cc9766874a7e4026f6c9001ab14f3be6207c3a63b48e",
+    "assets/merequester/ae2guide/_ko_kr/merequester.md": "219dc9a28a442f99e439ffdb9efa299ccfeb856dcc7c216982f628a96850402b"
+  },
+  "ftbquests_review": {
+    "related_keys_reviewed": 0,
+    "quality_review_keys_corrected": 0,
+    "pending": false
+  },
+  "kubejs": {
+    "related_files_reviewed": 0,
+    "user_visible_literals_found": 0,
+    "quality_review_keys_corrected": 0
+  },
+  "validation_errors": 0
+}
