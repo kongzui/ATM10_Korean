@@ -1,0 +1,52 @@
+{
+  "status": "quality_review_completed_and_deployed",
+  "completed_at": "2026-07-26T04:32:00+09:00",
+  "scope": "Sophisticated Core, Backpacks, Storage, Storage In Motion, FTB Quests, and KubeJS",
+  "language": {
+    "modules": 4,
+    "total_keys": 1108,
+    "bundled_korean_reviewed_and_reused": 332,
+    "project_new_or_revised": 776,
+    "quality_review_corrections": 77
+  },
+  "ftbquests": {
+    "chapters": 1,
+    "quests_checked": 58,
+    "tasks_checked": 58,
+    "display_keys_reviewed": 105,
+    "installed_korean_reviewed_and_reused": 41,
+    "quality_review_keys_corrected": 64
+  },
+  "kubejs": {
+    "files_reviewed": 4,
+    "foreign_language_mirrors": 3,
+    "recipe_or_identifier_files": 1,
+    "korean_display_files": 0,
+    "quality_review_occurrences_corrected": 0
+  },
+  "deployment": {
+    "source_root_configured": false,
+    "game_root_configured": true,
+    "backup_roots": [
+      "temp/backups/20260726_042343_848954",
+      "temp/backups/20260726_042956_514345",
+      "temp/backups/20260726_043131_762329"
+    ],
+    "post_apply_expected_changes": [],
+    "unexpected_instance_changes": []
+  },
+  "validation": {
+    "language_keys_match_en_us": true,
+    "duplicate_keys": 0,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "numbers_preserved": true,
+    "line_breaks_preserved": true,
+    "quest_fallback_paths_checked": true,
+    "working_output_match": true,
+    "deployed_hashes_match": true,
+    "game_runtime_verified": false,
+    "validation_errors": 0
+  },
+  "remaining_review_items": []
+}
