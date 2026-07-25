@@ -1,0 +1,34 @@
+{
+  "status": "quality_review_completed",
+  "scope": "Applied Flux language, GuideME guide, FTB Quests, and KubeJS quality review",
+  "batch": 11,
+  "source_jars": {
+    "appflux": {
+      "name": "AppliedFlux-1.21-2.1.5-neoforge.jar",
+      "sha256": "57e6a2c0f38e660c9e8416f9081d8c515f5ad096d6793d7b7f039e8e210d245b"
+    }
+  },
+  "language": "ko_kr",
+  "guide_pages": 12,
+  "language_keys": 57,
+  "existing_korean_reused": 0,
+  "new_or_revised_translations": 57,
+  "quality_review_corrections": 1,
+  "quality_review_guide_pages_corrected": 1,
+  "output_sha256": {
+    "assets/appflux/lang/ko_kr.json": "f12c425f8c2502d5e5430491b104dfab771776d03541c2287244fcdc62dda8b7",
+    "assets/appflux/ae2guide/_ko_kr/appflux/appflux-index.md": "f656d4f0f06cb8d0e3dec732fdab0239e1edcc3242537c929f4eb3111834c371"
+  },
+  "ftbquests_review": {
+    "related_keys_reviewed": 3,
+    "quality_review_keys_corrected": 0,
+    "game_root_keys_changed": 0,
+    "pending": false
+  },
+  "kubejs": {
+    "related_files_reviewed": 4,
+    "user_visible_literals_found": 0,
+    "quality_review_keys_corrected": 0
+  },
+  "validation_errors": 0
+}

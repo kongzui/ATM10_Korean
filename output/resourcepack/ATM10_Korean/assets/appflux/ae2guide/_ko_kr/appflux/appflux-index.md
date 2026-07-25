@@ -1,7 +1,7 @@
 ---
 navigation:
   title: Applied Flux
-    position: 70
+  position: 70
 ---
 
 # 셀에 에너지 저장하기!

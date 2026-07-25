@@ -3070,6 +3070,7 @@ def validate_appflux_batch_11(
             source = source.replace("\r\r\n", "\n").replace("\r\n", "\n")
             if relative == "appflux/appflux-index.md":
                 source = source.replace("    title:", "  title:", 1)
+                source = source.replace("    position:", "  position:", 1)
             working_path = APPFLUX_GUIDE_WORKING_ROOT / relative
             if not working_path.is_file():
                 errors.append(f"가이드 작업본이 없습니다: {working_path}")

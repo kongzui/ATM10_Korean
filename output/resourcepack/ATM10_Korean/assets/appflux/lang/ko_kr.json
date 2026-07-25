@@ -39,7 +39,7 @@
   "item.appflux.emerald_dust": "에메랄드 가루",
   "item.appflux.energy_processor": "에너지 프로세서",
   "item.appflux.printed_energy_processor": "인쇄된 에너지 회로",
-  "item.appflux.energy_processor_press": "각인기 에너지 프레스",
+  "item.appflux.energy_processor_press": "에너지 회로 프레스",
   "item.appflux.induction_card": "유도 카드",
   "item.appflux.induction_card.tooltip": "AE 장치가 에너지를 받거나 내보낼 수 있게 합니다",
   "item.appflux.part_flux_accessor": "플럭스 접근기",
