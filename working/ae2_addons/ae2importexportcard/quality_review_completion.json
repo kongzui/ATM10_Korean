@@ -1,0 +1,53 @@
+{
+  "status": "quality_review_completed_live_parity",
+  "completed_at": "2026-07-26T03:53:22+09:00",
+  "scope": "AE2 Import Export Card language, GuideME guide, related FTB Quests and KubeJS",
+  "language": {
+    "total_keys": 5,
+    "existing_korean_reused": 1,
+    "new_or_revised_translations": 4,
+    "quality_review_corrections": 0
+  },
+  "guide": {
+    "pages": 1,
+    "quality_review_pages_corrected": 0,
+    "remaining": 0
+  },
+  "ftbquests": {
+    "related_keys_reviewed": 0,
+    "quality_review_keys_corrected": 0
+  },
+  "kubejs": {
+    "related_files_reviewed": 0,
+    "user_visible_literals_found": 0,
+    "quality_review_keys_corrected": 0
+  },
+  "deployment": {
+    "status": "already_synchronized",
+    "expected_changes": [],
+    "backup_created": false
+  },
+  "verified_paths": [
+    "resourcepacks/ATM10_Korean/assets/ae2importexportcard/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/ae2/ae2guide/_ko_kr/ae2importexportcard-index.md"
+  ],
+  "source_root_configured": false,
+  "game_root_configured": true,
+  "original_jar_modified": false,
+  "unexpected_instance_changes": [],
+  "validation": {
+    "language_keys_match_en_us": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "guide_numbers_preserved": true,
+    "guide_structure_preserved": true,
+    "guide_resources_resolve": true,
+    "ftbquest_placeholders_preserved": true,
+    "working_output_match": true,
+    "deployed_hashes_match": true,
+    "post_apply_expected_changes": [],
+    "utf8_bom_files": 0,
+    "game_runtime_verified": false
+  },
+  "review_items": []
+}

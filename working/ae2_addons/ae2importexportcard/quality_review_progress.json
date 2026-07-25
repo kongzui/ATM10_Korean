@@ -1,0 +1,33 @@
+{
+  "status": "quality_review_completed",
+  "scope": "AE2 Import Export Card language, GuideME guide, FTB Quests, and KubeJS quality review",
+  "batch": 13,
+  "source_jars": {
+    "ae2importexportcard": {
+      "name": "ae2importexportcard-1.21.1-1.5.0.jar",
+      "sha256": "63c59264947c2b386f5576971cd5c2fee0efd9eec6da7fb2992ef38117dc35bd"
+    }
+  },
+  "language": "ko_kr",
+  "guide_pages": 1,
+  "language_keys": 5,
+  "existing_korean_reused": 1,
+  "new_or_revised_translations": 4,
+  "quality_review_corrections": 0,
+  "quality_review_guide_pages_corrected": 0,
+  "output_sha256": {
+    "assets/ae2importexportcard/lang/ko_kr.json": "96baa497fed1b3a3be04b056b201b2abff680fe5f8b93247389bbd8bc7d4ae7b",
+    "assets/ae2/ae2guide/_ko_kr/ae2importexportcard-index.md": "d96310b51564bc5ae96e4a294fdc57feaba5cb876b5da29e13184af83777ac2d"
+  },
+  "ftbquests_review": {
+    "related_keys_reviewed": 0,
+    "quality_review_keys_corrected": 0,
+    "pending": false
+  },
+  "kubejs": {
+    "related_files_reviewed": 0,
+    "user_visible_literals_found": 0,
+    "quality_review_keys_corrected": 0
+  },
+  "validation_errors": 0
+}
