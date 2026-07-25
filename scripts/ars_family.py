@@ -730,6 +730,34 @@ QUALITY_OVERRIDES = {
             "필요하지 않습니다. 다른 곳으로 옮긴 워프 넥서스는 순간이동 한 번에 마나 "
             "1,000을 소비합니다."
         ),
+        "ars_additions.page.handy_haversack": (
+            "휴대용 배낭을 보관함에 결속하면 아이템을 든 채 배낭을 우클릭해 어디서든 "
+            "그 보관함에 넣을 수 있습니다. 보관함이 언로드되면 배낭이 닫혀 아이템을 "
+            "받지 않습니다. 필터에 아이템을 추가하면 자동 보관할 수 있습니다. 보조 "
+            "손에 아이템을 들고 배낭을 사용하거나, 필기 작업대에서 추가할 아이템으로 "
+            "배낭에 필터를 새기세요."
+        ),
+        "ars_additions.page1.warp_indexes": (
+            "워프 인덱스는 저장소 열람대에 원격으로 접근하는 도구입니다. 일반 워프 "
+            "인덱스는 같은 차원 안에서 어디서든 열람대에 접근할 수 있고, 안정화된 "
+            "워프 인덱스는 차원 제한 없이 작동합니다. 두 인덱스 모두 연결된 저장소 "
+            "열람대의 청크가 로드되어 있어야 합니다."
+        ),
+        "ars_additions.spotlight.warp_nexus": (
+            "이 탑은 탑 위치에 결속된 넥서스 두루마리를 품은 고대 웨이스톤인 워프 "
+            "넥서스를 통해 자연 마나를 이용합니다."
+        ),
+        "chat.ars_additions.warp_index.out_of_range": "%s이(가) 로드되지 않았습니다.",
+        "chat.ars_additions.imbued_spell_parchment.scribing_started": (
+            "%s 각인을 시작했습니다. 주변에 마나를 공급하면 각인 속도가 빨라집니다."
+        ),
+        "tooltip.ars_additions.imbued_spell_parchment.scribing": "각인 중: %s",
+        "tooltip.ars_additions.imbued_spell_parchment.scribing_progress": (
+            "각인 진행률: %s"
+        ),
+        "item.ars_additions.imbued_spell_parchment": "마나 주입 주문 양피지",
+        "item.ars_additions.exploration_warp_scroll": "탐험가의 워프 두루마리",
+        "item.ars_additions.nexus_warp_scroll": "넥서스 워프 두루마리",
     },
     "ars_controle": {
         "ars_controle.glyph.error.generic.error_at_position": (
@@ -787,6 +815,32 @@ QUALITY_OVERRIDES = {
             "여러 요소를 전달할 수 있습니다. 설정하려면 먼저 연결할 블록에 도미니언 "
             "완드를 사용한 뒤 이 연결 장치에 사용하세요."
         ),
+        "ars_nouveau.page1.block.ars_controle.warping_spell_prism": (
+            "워프 주문 프리즘은 주문 투사체를 월드 어디로든, 다른 차원으로도 "
+            "순간이동시킬 수 있습니다!"
+        ),
+        "ars_nouveau.page1.item.ars_controle.portable_brazier_relay": (
+            "휴대용 화로 전달체는 의식 효과가 플레이어를 따라다니게 합니다. 의식용 "
+            "화로가 계속 로드된 상태로 마나를 공급받아야 합니다."
+        ),
+        "ars_nouveau.page1.block.ars_controle.temporal_stability_sensor": (
+            "시간 안정성 감지기는 월드의 틱이 얼마나 불안정한지 보여 줍니다. 비교기를 "
+            "연결하면 서버 지연에 가까워질수록 더 강한 레드스톤 신호를 출력합니다. "
+            "이 신호로 농장을 자동 정지시켜 서버 지연을 예방할 수 있습니다."
+        ),
+    },
+    "ars_creo": {
+        "ars_creo.page.behaviors": (
+            "Ars Creo는 주문 포탑과 마나 단지 등 Ars Nouveau 블록이 Create 이동 "
+            "구조물에서 특별히 작동하게 합니다. 기본 주문 포탑은 구조물과 상호 "
+            "작용할 때 주문을 시전하고, 타이머 포탑은 설정된 간격마다 시전하며, 마법 "
+            "부여된 주문 포탑은 구조물이 새 블록을 지날 때마다 시전합니다. 구조물의 "
+            "포탑은 함께 실은 마나 단지의 마나를 사용할 수 있습니다."
+        ),
+        "ars_creo.page1.ars_creo.fluid_tank": (
+            "파이프와 탱크를 사용해 물약을 Create 유체 탱크에 저장하거나 다른 곳으로 "
+            "옮길 수 있습니다."
+        ),
     },
     "ars_technica": {
         "ars_technica.effect_augment_desc.glyph_whirl_glyph_conjure_water": (
@@ -816,6 +870,65 @@ QUALITY_OVERRIDES = {
         ),
     },
     "ars_elemancy": {
+        "item.ars_elemancy.cinder_focus": "신더 포커스",
+        "item.ars_elemancy.tempest_focus": "템페스트 포커스",
+        "item.ars_elemancy.vapor_focus": "증기 포커스",
+        "item.ars_elemancy.vapor_essence": "증기 에센스",
+        "item.ars_elemancy.vapor_hat": "증기맨서 모자",
+        "item.ars_elemancy.vapor_robes": "증기맨서 로브",
+        "item.ars_elemancy.vapor_leggings": "증기맨서 레깅스",
+        "item.ars_elemancy.vapor_boots": "증기맨서 부츠",
+        "item.ars_elemancy.mire_focus": "늪지 포커스",
+        "item.ars_elemancy.lava_focus": "용암 포커스",
+        "item.ars_elemancy.silt_focus": "진흙 포커스",
+        "item.ars_elemancy.elemancer_focus": "원소술 포커스",
+        "ars_elemancy.armor_set.lava": "용암맨서 세트",
+        "ars_elemancy.armor_set.mire": "늪지맨서 세트",
+        "ars_elemancy.armor_set.silt": "진흙맨서 세트",
+        "ars_elemancy.armor_set.vapor": "증기맨서 세트",
+        "ars_elemancy.armor_set.elemancer": "원소술사 세트",
+        "ars_elemancy.page2.cinder_focus": (
+            "이 포커스는 점화를 강화해 마법 화상을 부여합니다. 마법 화상은 화염 "
+            "저항이 있는 몹에게도 섬광이 피해를 주고 번지게 하며, 마법 피해가 방어력 "
+            "일부를 관통하게 하지만 대지 피해는 약해집니다. 군마 소환은 탈 수 있는 "
+            "스트라이더를 소환합니다. 점화와 증발을 조합하면 얼음을 승화시킵니다."
+        ),
+        "ars_elemancy.page2.tempest_focus": (
+            "이 포커스는 빙결을 강화해 대상의 동결 수치를 쌓고, 끝내 잠시 얼어붙게 "
+            "하여 회복을 막습니다. 물 생성 뒤에 사용하면 생성한 물이 얼음으로 "
+            "바뀝니다. 군마 소환은 탈 수 있는 돌고래를 소환하며, 물 밖으로 뛰어오르는 "
+            "때를 맞추면 속도가 붙습니다. 물 생물에게 주는 모든 익사 피해는 마법 "
+            "피해로 바뀝니다."
+        ),
+        "ars_elemancy.page2.vapor_focus": (
+            "이 포커스는 발사를 강화해, 시간 연장으로 보강했을 때 공중 부양 효과를 "
+            "부여하도록 바꿉니다. 또한 절단을 강화하여 결정타를 가하면 일정 확률로 "
+            "머리나 해골을 떨어뜨리게 합니다."
+        ),
+        "ars_elemental.armor_set.cinder.desc": (
+            "화염 및 공기 계열 피해를 일부 흡수하고, 붙은 불을 즉시 끄며 낙하 피해를 "
+            "크게 줄입니다."
+        ),
+        "ars_elemental.armor_set.lava.desc": (
+            "화염 및 대지 계열 피해를 일부 흡수하고, 지하 깊은 곳에서 굶기 직전이면 "
+            "허기를 채우며 붙은 불을 즉시 끕니다."
+        ),
+        "ars_elemental.armor_set.tempest.desc": (
+            "공기 및 물 계열 피해를 일부 흡수하고, 익사 직전에 호흡 게이지를 채우며 "
+            "낙하 피해를 크게 줄입니다."
+        ),
+        "ars_elemental.armor_set.silt.desc": (
+            "공기 및 대지 계열 피해를 일부 흡수하고, 낙하 피해를 크게 줄이며 지하 "
+            "깊은 곳에서 굶기 직전이면 허기를 채웁니다."
+        ),
+        "ars_elemental.armor_set.mire.desc": (
+            "물 및 대지 계열 피해를 일부 흡수하고, 익사 직전에 호흡 게이지를 채우며 "
+            "지하 깊은 곳에서 굶기 직전이면 허기를 채웁니다."
+        ),
+        "ars_elemental.armor_set.vapor.desc": (
+            "화염 및 물 계열 피해를 일부 흡수하고, 익사 직전에 호흡 게이지를 채우며 "
+            "붙은 불을 즉시 끕니다."
+        ),
         "ars_elemental.armor_set.medium.desc": (
             "해당 원소의 피해를 흡수하면 잠시 마나 비용 감소 효과를 얻습니다. 전 "
             "부위를 착용하면 흡수한 피해 일부를 마나로 전환합니다."

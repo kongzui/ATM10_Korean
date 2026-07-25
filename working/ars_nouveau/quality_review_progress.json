@@ -22,10 +22,28 @@
         "resourcepacks/ATM10_Korean/assets/ars_nouveau/lang/ko_kr.json"
       ],
       "unexpected_instance_changes": []
+    },
+    {
+      "unit": "Ars Additions, Ars Controle, Ars Creo, and Ars Elemancy",
+      "language_keys_reviewed": 531,
+      "language_keys_corrected": 41,
+      "correction_focus": [
+        "restored three truncated elemental focus descriptions",
+        "scribe and warp-scroll terminology",
+        "loaded-chunk and remote-access conditions",
+        "hybrid element armor and focus naming consistency"
+      ],
+      "backup_root": "temp/backups/20260726_044405_556512",
+      "applied_paths": [
+        "resourcepacks/ATM10_Korean/assets/ars_additions/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/ars_controle/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/ars_creo/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/ars_elemancy/lang/ko_kr.json"
+      ],
+      "unexpected_instance_changes": []
     }
   ],
   "pending_units": [
-    "Ars Additions, Ars Controle, Ars Creo, and Ars Elemancy",
     "Ars Elemental, Ars Technica, Ars Unification, Not Enough Glyphs, Starbuncle Mania, and integrations"
   ],
   "validation_errors": 0
