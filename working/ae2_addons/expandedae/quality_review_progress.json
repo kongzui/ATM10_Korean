@@ -1,0 +1,35 @@
+{
+  "status": "quality_review_completed",
+  "scope": "ExpandedAE language, GuideME guide, FTB Quests, and KubeJS quality review",
+  "batch": 12,
+  "source_jars": {
+    "expandedae": {
+      "name": "expandedae-2.1.1.jar",
+      "sha256": "f39c0eb9c6271f54a44ffee092a29520f53000d1005849e6afada3ad9dffba14"
+    }
+  },
+  "language": "ko_kr",
+  "guide_pages": 5,
+  "language_keys": 69,
+  "existing_korean_reused": 0,
+  "new_or_revised_translations": 69,
+  "quality_review_corrections": 4,
+  "quality_review_guide_pages_corrected": 1,
+  "output_sha256": {
+    "assets/expandedae/lang/ko_kr.json": "34d1698ad5a275e22a4bd5169cc5446aaa458284dee2182c8eeee1ef19fa0325",
+    "assets/expandedae/ae2guide/_ko_kr/cards.md": "d223a727669cb3b49c82d1eb88e560d449760e50475455783585afb2f071509e",
+    "kubejs/server_scripts/announcements/announcements.js": "34faf04e906ef1f0aba1a57bb62b2cfd24db5964fed5e08d7d218bda805ec93a"
+  },
+  "ftbquests_review": {
+    "related_keys_reviewed": 0,
+    "quality_review_keys_corrected": 0,
+    "game_root_keys_changed": 0,
+    "pending": false
+  },
+  "kubejs": {
+    "related_files_reviewed": 1,
+    "user_visible_literals_found": 1,
+    "quality_review_keys_corrected": 0
+  },
+  "validation_errors": 0
+}
