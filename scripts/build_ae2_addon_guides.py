@@ -957,6 +957,12 @@ def build_ae2wtlib(instance: Path) -> dict[str, object]:
 def validate_numbers(relative: str, source: str, translated: str) -> list[str]:
     source_visible = core.extract_visible_text(source)
     translated_visible = core.extract_visible_text(translated)
+    for korean_number, source_number in {
+        "1,280만": "12.8",
+        "21억 4천만": "2.14",
+        "920경": "9.2",
+    }.items():
+        translated_visible = translated_visible.replace(korean_number, source_number)
     source_visible = re.sub(r"(?i)(?<!\w)x(?=\d)|(?<=\d)x(?=\d)", "×", source_visible)
     translated_visible = re.sub(
         r"(?i)(?<!\w)x(?=\d)|(?<=\d)x(?=\d)", "×", translated_visible

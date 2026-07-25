@@ -1,0 +1,43 @@
+{
+  "status": "quality_review_completed",
+  "scope": "MEGA Cells language, GuideME guide, FTB Quests, and KubeJS quality review",
+  "batch": [
+    9,
+    10
+  ],
+  "source_jars": {
+    "megacells": {
+      "name": "megacells-4.11.0.jar",
+      "sha256": "a386bbf12afb11729b0dcf77f64221893d250f22e6185a4d728b9799b230bc55"
+    }
+  },
+  "language": "ko_kr",
+  "guide_pages": 7,
+  "language_keys": 134,
+  "existing_korean_reused": 0,
+  "new_or_revised_translations": 134,
+  "quality_review_corrections": 3,
+  "quality_review_guide_pages_corrected": 5,
+  "output_sha256": {
+    "assets/megacells/lang/ko_kr.json": "9602d21d10f8eca2b27a757aff41630bf7e617471cf2c81cefd51e38322c5d27",
+    "assets/megacells/ae2guide/_ko_kr/index.md": "06dbf673d52a60ff475dce92d9222050cfdf1c48463b089a3e474204dd29a05a",
+    "assets/megacells/ae2guide/_ko_kr/storage.md": "a1d5fa6feb7c331bb0b3a36e59284a44e2c5e631e3586c58e337ecc5a66d4d12",
+    "assets/megacells/ae2guide/_ko_kr/crafting.md": "0e28cc3e0342761c843909f66e5d8acaab7ddbded1f8a1e3b5d5457f860459e2",
+    "assets/megacells/ae2guide/_ko_kr/energy.md": "527be44953262cfdabe81394709916d4cd72398fe39493a78468352a62e1993e",
+    "assets/megacells/ae2guide/_ko_kr/bulk_cell.md": "ec7aab4e9274e8ab3af262c42cba92fe77cc7be14b13e0a2c7d8e8099932f7e5",
+    "assets/megacells/ae2guide/_ko_kr/radioactive_cell.md": "77b543c05d6e40f6674241216bb32ae15382ad1cd2c1fae4498e383ca14c9939",
+    "assets/megacells/ae2guide/_ko_kr/extras.md": "a75934c79092bbc8c65682114359b5b732bd8a0bcdf5e4e95ebad015a1e111b8"
+  },
+  "ftbquests_review": {
+    "related_keys_reviewed": 17,
+    "quality_review_keys_corrected": 1,
+    "game_root_keys_changed": 31,
+    "pending": false
+  },
+  "kubejs": {
+    "related_files_reviewed": 12,
+    "user_visible_literals_found": 0,
+    "quality_review_keys_corrected": 0
+  },
+  "validation_errors": 0
+}

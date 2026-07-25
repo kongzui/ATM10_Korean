@@ -22,7 +22,7 @@ MEGA가 더 큰 [에너지](ae2:ae2-mechanics/energy.md) 저장소도 제공하�
 
 *초고밀도 에너지 셀*은 <ItemLink id="ae2:dense_energy_cell" />보다 8배, 일반
 <ItemLink id="ae2:energy_cell" />보다 64배 많은 에너지를 저장하며 셀 하나의 최대 용량은 총
-12.8*백만* AE입니다. 막대한 에너지 버퍼가 필요한 대규모 [공간 입출력](ae2:ae2-mechanics/spatial-io.md)
+1,280만 AE입니다. 막대한 에너지 버퍼가 필요한 대규모 [공간 입출력](ae2:ae2-mechanics/spatial-io.md)
 구성과 전송 작업에 딱 맞으며, 이제 더 작은 공간에 설치할 수 있습니다!
 
 <RecipeFor id="mega_energy_cell" />
@@ -31,7 +31,7 @@ MEGA가 더 큰 [에너지](ae2:ae2-mechanics/energy.md) 저장소도 제공하�
 
 <ItemImage id="greater_energy_card" scale="3" />
 
-여기서 더 나아가 초고밀도 에너지 셀로 <ItemLink id="ae2:energy_card" />의 강화 버전을 만들 수 있습니다.
+여기서 더 나아가 초고밀도 에너지 셀로 <ItemLink id="ae2:energy_card" />의 더 강력한 버전을 만들 수 있습니다.
 휴대용 저장 셀과 [무선 터미널](ae2:items-blocks-machines/wireless_terminals.md) 같은 무선 기반 시설에 더
 큰 에너지 버퍼를 제공합니다. AE2 장치도 일반 에너지 카드처럼 이 카드를 지원합니다. 하지만 전력 요구량이
 더 큰 [MEGA 휴대용 셀](storage.md#portable-cells)은 배터리 용량을 늘릴 때 *상급 에너지 카드*만

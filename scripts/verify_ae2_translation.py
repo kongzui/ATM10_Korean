@@ -474,16 +474,22 @@ def main() -> int:
     for path in LATER_REVIEWED_QUEST_FILES:
         later_reviewed_overrides |= json.loads(path.read_text(encoding="utf-8"))
     additional_overrides = common_overrides | addon_overrides | later_reviewed_overrides
-    # 현재 품질 재검수를 마친 Advanced AE 값은 과거 관련 모드 검수본보다 우선한다.
+    # 품질 재검수를 마친 Advanced AE 값은 이전 Mekanism 관련 검수본보다 우선한다.
     additional_overrides |= json.loads(
         (
             PROJECT_ROOT / "working/ae2_addons/advanced_ae/quest_overrides.json"
         ).read_text(encoding="utf-8")
     )
     expected = {
-        key: quests.normalize(overrides[key])
-        if key in overrides
-        else quests.normalize(quest_current[key])
+        key: (
+            quests.normalize(additional_overrides[key])
+            if key in additional_overrides
+            else (
+                quests.normalize(overrides[key])
+                if key in overrides
+                else quests.normalize(quest_current[key])
+            )
+        )
         for key in quest_english
     }
     for key, value in expected.items():

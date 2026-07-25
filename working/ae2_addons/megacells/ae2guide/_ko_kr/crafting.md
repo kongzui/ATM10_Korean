@@ -38,7 +38,7 @@ item_ids:
 </Row>
 
 저장 셀과 마찬가지로 MEGA는 제작 CPU에도 더 큰 저장 등급을 제공합니다. 늘어난 성능을 감당하려면 전용
-<ItemLink id="ae2:crafting_unit" />인 **MEGA 제작 장치**가 필요하지만, 더 많은 메모리로 가장 큰 제작
+<ItemLink id="ae2:crafting_unit" />인 **MEGA 제작 유닛**이 필요하지만, 더 많은 메모리로 가장 큰 제작
 작업도 쉽게 처리합니다. 검은색 외형도 *아주 멋집니다*.
 
 <RecipeFor id="mega_crafting_unit" />
