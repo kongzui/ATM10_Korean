@@ -127,7 +127,7 @@
 	quest.00CB8D60E7831A57.title: "지하 묘지"
 	quest.00D7BCC68D971A53.quest_desc: ["가까이 있는 살아있는 생물은 벽을 뚫고도 자동으로 추적됩니다. 공격적인 몹일 경우, 몹이 당신을 공격 대상으로 삼을 때 경고를 받게 됩니다."]
 	quest.00D7BCC68D971A53.quest_subtitle: "최대: 1"
-	quest.00DB5495C3A44999.quest_desc: ["인벤토리를 비우려면 Shift 키를 누른 채 마우스 우클릭하세요."]
+	quest.00DB5495C3A44999.quest_desc: ["인벤토리를 Shift+우클릭하면 배낭을 비웁니다."]
 	quest.00DEFA26F2B896D6.quest_subtitle: "은피나무 + 참나무/자작나무"
 	quest.00E1F1279F97557B.quest_desc: ["압출기 MK1과 유사하지만, 더욱 발전했습니다! 패턴과 함께 사용하면 블록이 해당 패턴대로 배치됩니다!"]
 	quest.00F00B0B66059996.quest_desc: [
@@ -162,7 +162,7 @@
 	quest.010607466D565B53.title: "&a뿌리내린 장화"
 	quest.0107D516E038E0DB.quest_desc: ["&e리치 타워&r는 &e리치&r의 [Home]입니다! 전투는 3단계로 진행됩니다.\\n\\n1단계: &e리치&r는 자신을 방패로 감싸고 가스트의 화염구처럼 발사되는 &5엔더 진주&r로 공격합니다. 엔더 진주를 &e리치&r에게 되돌려 보내 방패를 깨세요! 방패가 깨지면 당신을 혼란스럽게 하기 위해 복제본을 보낼 것입니다.\\n\\n2단계: &e리치&r는 지팡이를 바꿔 좀비들을 소환하여 전투를 돕게 합니다. 방어가 무너졌으니 근접 공격을 할 수 있습니다!\\n\\n3단계: 지팡이의 모든 충전이 소모되면 &e금 검&r으로 바꾸고 광분합니다. [Fast]하게 처치하세요!"]
 	quest.0107D516E038E0DB.title: "&e리치 사냥꾼"
-	quest.0108F3EFDFD6DFD0.quest_desc: ["저장소 링크를 사용하면 저장소 컨트롤러 또는 컨트롤러에 연결된 블록에 연결되지 않은 여러 저장소를 연결할 수 있습니다.\\n\\n따라서 각 저장소를 마우스 오른쪽 버튼으로 클릭할 필요 없이 저장소의 \"멀티블록\"을 무선으로 연결하는 방법입니다.\\n\\n여전히 14 블록의 범위가 적용됩니다."]
+	quest.0108F3EFDFD6DFD0.quest_desc: ["저장소 연결기를 사용하면 저장소 제어기나 그에 연결된 블록에 닿지 않은 별도의 저장소들을 연결할 수 있습니다.\\n\\n각 저장소를 하나씩 제어기에 직접 연결하지 않고도 멀티블록 저장소를 무선으로 이어 주는 방법입니다.\\n\\n연결 범위는 마찬가지로 14블록입니다."]
 	quest.01119871B1D5C576.quest_desc: [
 		"거의 모든 &6마을&r에는 &6&l사제&r가 있을 수 있습니다. 여기에는 모드된 &6마을&r도 포함됩니다.\\n\\n보통 그들은 &6마을&r의 중앙, 예를 들어 시장 근처에 있습니다. 모든 &6마을&r에 사제가 있는 것은 아닙니다."
 		"{image:atm:textures/questpics/iron_spells/spells_village.png width:200 height:100 align:center}"
@@ -178,7 +178,7 @@
 	quest.017194E29D6745E8.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.01748C2CD9C97523.quest_desc: ["&c구현 블록&r은 정말 멋진 문과 같습니다. 우클릭하면 잠시 동안 사라집니다.\\n\\n&c은폐 블록&r은 우클릭하면 사라지지만 다시 나타나지 않습니다."]
 	quest.01748C2CD9C97523.title: "&c구현 \\\\\\& 은폐 블록"
-	quest.019CA0E35F888222.quest_subtitle: "기타 필터링 설정"
+	quest.019CA0E35F888222.quest_subtitle: "추가 필터 옵션"
 	quest.019CA0E35F888222.title: "&e고급 재입고 업그레이드"
 	quest.01AFC11EAAB6CB3B.quest_desc: ["&e본 렙타일 갑옷&r은 &e코볼레톤 뼈다귀&r, &e고대 금속&r으로 만들어졌으며, 투구는 &e코볼레디에이터 해골&r로 만들어졌습니다.\\n\\n이것들은 특별한 기능을 제공하지는 않지만, 저렴한 갑옷에 비해 매우 좋은 능력치를 제공합니다!"]
 	quest.01AFC11EAAB6CB3B.title: "&e본 렙타일 갑옷"
@@ -246,7 +246,7 @@
 		"{image:atm:textures/questpics/bumblezone/bumble_spear.png width:100 height:150 align:center}"
 	]
 	quest.027FD9135DEC4949.quest_subtitle: "네더에 설치하고 가스트 눈물을 주면 유령 벌을 유인합니다."
-	quest.0298A17C2AAC5765.quest_desc: ["배낭 안의 스택 크기를 8 늘립니다."]
+	quest.0298A17C2AAC5765.quest_desc: ["배낭의 슬롯당 스택 한도를 8배로 늘립니다."]
 	quest.0298A17C2AAC5765.title: "&b3단계 스택 업그레이드"
 	quest.029AA03790F055E8.quest_subtitle: "결정꽃 + 석공"
 	quest.029AA03790F055E8.title: "금 벌"
@@ -292,7 +292,7 @@
 	quest.03564837ECB5CC79.title: "&2드래곤 사역마&r 생성 알"
 	quest.035C52EF63AD23A7.quest_desc: ["이것이 모드 이름인 &l레일크래프트&r의 유래이며, 이 모드의 중심은 &5기차&r입니다. &6레일&r은 매우 중요합니다.\\n\\n&2바닐라&r 레일도 많이 사용할 수 있지만, 솔직히 모두 알다시피 성능이 좋지 않습니다. 상위 버전으로 변환하려면 레시피에 더 특별한 아이템이 필요합니다! 제작하세요! (아이템을 만드는 데 기계를 사용해야 할 수도 있으니 퀘스트의 해당 부분을 확인하세요!)"]
 	quest.035C52EF63AD23A7.title: "&6&l레일&r!"
-	quest.037415D5B965E214.quest_desc: ["이 업그레이드는 배낭이 파괴되지 않도록 합니다."]
+	quest.037415D5B965E214.quest_desc: ["배낭이 파괴되거나 사라지지 않게 합니다."]
 	quest.037488EF1F3581CE.quest_desc: ["ME 제어기가 없는 ME 네트워크의 기본 내부 전력 버퍼는 800AE뿐이며, 제어기 블록 하나마다 8kAE가 추가됩니다. 네트워크가 커지면 이 용량이 부족해져 연결된 장치에 전력을 공급하는 동안 네트워크가 간헐적으로 꺼질 수 있습니다.\\n\\n&b에너지 셀&f은 ME 네트워크의 전력 저장량을 늘립니다. 일반 에너지 셀은 200kAE, &b조밀한&f 에너지 셀은 1.6MAE를 추가하며 네트워크 어디에나 설치할 수 있습니다."]
 	quest.037E0DAA5ECC5AB8.quest_desc: ["&e꽃가루덩이&r로 서로 다른 몹 24마리를 맞히세요. &6벌&8들&6은&8 꽃가루덩이&r로 맞히는 것이 가장 재미있습니다!"]
 	quest.038812A14456236C.quest_desc: ["몇몇 프로세서, 에너지 셀, 그리고 임의의 고밀도 케이블을 결합하면 ME 양자 고리를 얻을 수 있습니다.\\n\\n일반적으로 ME 시스템을 차원 간에 연결하는 데 사용하지만, 저희는 &6&lATM의 별&r만 신경 씁니다!"]
@@ -893,7 +893,7 @@
 	quest.0CC0632E8276C787.quest_desc: ["&l&c네더&r에 텔레포트 패드를 설치하면 &b&l디 아더&r로 이동합니다."]
 	quest.0CC0632E8276C787.title: "&c&l네더"
 	quest.0CC48C2AA553A314.quest_desc: ["&3드릴 비트&r는 공압식 착암기에 사용할 수 있습니다."]
-	quest.0CD04A00529FE1C9.quest_desc: ["구리 상자는 만들 수 있지만 철 상자를 만드는 데 필요하지 않습니다. 철을 아끼고 싶다면 사용할 수 있습니다."]
+	quest.0CD04A00529FE1C9.quest_desc: ["구리 상자를 만들 수 있지만 철 상자의 필수 재료는 아닙니다. 철을 아끼고 싶을 때 거쳐 갈 수 있는 선택지예요."]
 	quest.0CD04A00529FE1C9.title: "&6구리 상자"
 	quest.0CE1F6DE5FD6A6D9.title: "&a소환&r 강화 구슬"
 	quest.0CE236731DF15DFF.quest_desc: ["왜 기다리시나요? 보통 Minecraft에서 떨어진 아이템은 다시 줍기 전에 땅에 닿아야 하는 시간이 필요합니다.\\n\\n하지만 왜 기다려야 할까요?\\n\\n이 상위 버전으로 변환을 사용하면 흡수 모듈이 기다리지 않고 즉시 아이템을 주울 수 있습니다.\\n\\n렉을 줄이는 데 매우 좋습니다!"]
@@ -920,7 +920,7 @@
 	quest.0D31CD79BE6CC8D2.quest_subtitle: "당신의 골칫거리인 이스트"
 	quest.0D31CD79BE6CC8D2.title: "이스트"
 	quest.0D330FAD6C993DBC.quest_desc: ["마도서의 다음 업그레이드입니다! \\n\\n최대 마나와 마나 재생량이 늘어나고, 2티어 문양을 제작하고 사용할 수 있습니다."]
-	quest.0D4C64DD58567758.quest_desc: ["배낭에 탱크를 추가합니다."]
+	quest.0D4C64DD58567758.quest_desc: ["배낭에 유체 탱크를 추가합니다."]
 	quest.0D5015B8FF482D0A.quest_desc: [
 		"진행을 계속하려면 &3아마드론&r에서 &3아마드론 태블릿&r을 사용하여 몇 가지 물건을 주문해야 합니다. 사용하려면 Shift 키를 누른 채 상자와 유체 탱크를 우클릭하고, 연결된 컨테이너(에메랄드 등)에 화폐를 넣고 무언가를 주문하세요. 아마드론이 내려와 돈을 가져가고, 다른 아마드론이 와서 주문한 물건을 내려놓는 것을 볼 수 있습니다."
 		""
@@ -955,10 +955,10 @@
 	quest.0E02CE4469FCA4C9.quest_desc: ["레드스톤 활성화는 스포너에 켜기/끄기 스위치를 추가합니다. 레드스톤 신호가 없으면 몹을 생성하지 않습니다."]
 	quest.0E02CE4469FCA4C9.title: "레드스톤 활성화"
 	quest.0E03F5EAE4963ECB.quest_subtitle: "8개의 건조한 초록색 블록"
-	quest.0E057B7F76401421.quest_subtitle: "최초의 업그레이드"
+	quest.0E057B7F76401421.quest_subtitle: "첫 업그레이드"
 	quest.0E057B7F76401421.title: "&6구리 배낭"
-	quest.0E0CAA31480EC0A1.quest_desc: ["배낭이 아이템을 줍도록 허용합니다."]
-	quest.0E0CAA31480EC0A1.quest_subtitle: "배낭이 아이템을 줍도록 허용합니다."
+	quest.0E0CAA31480EC0A1.quest_desc: ["배낭이 아이템을 자동으로 줍게 합니다."]
+	quest.0E0CAA31480EC0A1.quest_subtitle: "아이템 자동 줍기"
 	quest.0E1ABCAA87120367.quest_subtitle: "티어: &c5"
 	quest.0E20A9B79D1C6637.quest_desc: ["워든은 1.20.에 추가된 보스입니다.\\n\\n워든은 자연적으로 생성되는 스컬크 비명체가 3번 연속으로 작동하거나, 첫 번째 워든이 생성된 후 비명체가 작동하면 생성됩니다.\\n\\n워든은 Minecraft에서 추가된 가장 강력한 몹으로, 500 하트의 체력과 공격 시 20 하트가 넘는 피해를 줍니다.\\n\\n워든의 공격에는 근접 공격과 멀리 있는 상대를 위한 음파 폭발이 있습니다.\\n\\n워든의 유일한 나약함은 맹인이라는 점이지만, 데어데블처럼 다른 감각을 훨씬 더 강하게 만들었습니다! 가까이 있으면 냄새를 맡을 수 있으며 소음을 내는 것을 조심하세요!\\n\\n어떻게든 워든을 죽이면 스컬크 촉매, 워든 갑피, 심해의 심장을 드롭합니다."]
 	quest.0E20A9B79D1C6637.title: "워든을 처치하세요"
@@ -1130,7 +1130,7 @@
 	quest.10E8BC20D406D9FB.quest_subtitle: "다양한 네더 소재를 만듭니다"
 	quest.10EF30B919EBA5C6.quest_desc: ["이것은 행운 V가 붙은 곡괭이입니다. 그게 전부입니다.\\n\\n채굴할 때 절대 영혼을 소환하지 않습니다. &o&5&l절대 안 그럴 겁니다&r."]
 	quest.110BF3A2BE85F911.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
-	quest.110D27EA86CDA62B.quest_desc: ["가방 안으로 아이템을 자석처럼 끌어당깁니다."]
+	quest.110D27EA86CDA62B.quest_desc: ["주변 아이템을 끌어당겨 배낭에 넣습니다."]
 	quest.111649D7E16D869F.quest_desc: ["&9시전자의 지팡이&r는 하나의 마법만 허용하며, 필기 작업대를 사용하여 새겨집니다.\\n\\n지팡이 마법은 항상 투사체 > 가속으로 시작하며, 다른 방법(닿기, 자신 등)이 없는 마법으로 새겨야 합니다.\\n\\n이렇게 하면 10개의 마법 제한을 넘어 마법을 시전할 수 있습니다. 파괴를 사용하려면 지팡이에 파괴만 새기세요."]
 	quest.111E4ACF7D570EE8.quest_desc: [
 		"&2&l바닐라 Minecraft&r에서 가장 어려운 구조물이니, 당연히 &6Allthemodium&r을 찾으려면 이곳으로 와야 합니다!\\n\\n고대 도시 주변 동굴 벽에서 광석을 찾을 수 있습니다. 빛나서 눈에 잘 띄지만 매우 희귀합니다!\\n\\n&5딥 다크 생물 군계&r라면 어디서든 찾을 수 있습니다."
@@ -1167,7 +1167,7 @@
 	quest.11D09E918015355C.quest_desc: ["Mekanism의 &c지열 발전기&r는 기본적인 전력 생산에 대한 색다른 접근 방식입니다. 전력을 생성하는 두 가지 모드가 있습니다.\\n\\n&9패시브:&r 발전기를 용암 근원 또는 흐르는 블록으로 둘러싸면 열을 통해 시간이 지남에 따라 패시브 전력이 생성됩니다. 용암 근원 블록 하나를 위에 놓고 양쪽으로 흐르게 하세요. 먼저 에너지를 위한 파이프가 연결되어 있는지 확인하세요!\\n\\n&9액티브:&r 석탄이나 나무와 같은 가연성 물질을 발전기에 넣으면 연료를 태워 전력을 생성합니다. 효율이 좋지는 않습니다."]
 	quest.11D09E918015355C.title: "&c지열 발전기"
 	quest.11D4EEAC61C7E530.quest_desc: ["수집기 업그레이드는 서랍이 한쪽 면에서 아이템을 빨아들이게 합니다."]
-	quest.11D57C768032E3F7.quest_subtitle: "기타 필터링 설정"
+	quest.11D57C768032E3F7.quest_subtitle: "추가 필터 옵션"
 	quest.11D57C768032E3F7.title: "&e고급 자석 업그레이드"
 	quest.11E957CDEFA0CAAB.quest_desc: ["&5&lThe Beyond&r에 오신 것을 환영합니다! \\n\\n이곳에는 아무것도 없습니다! \\n\\n천사 블록이 필요할 수도 있습니다."]
 	quest.11E957CDEFA0CAAB.title: "&5&lThe Beyond"
@@ -1388,7 +1388,7 @@
 	quest.156605859D553276.quest_desc: ["창문, 창문 유리판, 창문 셔터, 커튼, 블라인드, 심지어 난간까지!\\n\\n그게 뭔지도 모르겠어요!"]
 	quest.156605859D553276.title: "&l&bMacaw's Windows&r"
 	quest.1568CBFA09827137.quest_desc: ["논리 프로그래머와 똑같은 기능을 하지만, 이 장치는 어디에서나 사용할 수 있습니다."]
-	quest.156FF8B7B724DC38.quest_desc: ["펌프로 백팩 안팎으로 옮겨지는 아이템에 대한 필터를 추가합니다."]
+	quest.156FF8B7B724DC38.quest_desc: ["배낭으로 들어오거나 배낭에서 나가는 아이템을 필터링합니다."]
 	quest.15849165CA8C00F9.quest_desc: [
 		"가장 강력한 마지막 &6&lForge&r이므로 당연히 가장 비쌉니다! \\n\\n&5어두운 네더 별&r 2개가 필요하며, 이는 &5흑요석 강철&r 4개와 네더 별을 합쳐서 만듭니다. \\n\\n&d엔더 드래곤&r이 죽을 때 떨어뜨리는 &d드래곤 비늘&r 2개. \\n\\n&3워든&r이 떨어뜨리거나 깊은 어둠에서 실크 터치로 얻을 수 있는 &3스컬크 촉매&r 4개. \\n\\n그리고 &2스텔라라이트 조각&r 9개로 만들 수 있는 &2스텔라라이트 블록&r!\\n\\n이를 통해 더 많은 라텍스와 엔드 [Game] 레시피를 사용할 수 있습니다."
 		"{image:atm:textures/questpics/forbidden/forbidden_tier5.png width:100 height:100 align:center}"
@@ -1406,7 +1406,7 @@
 		"{image:atm:textures/questpics/undergarden/undergarden_dense.png width:200 height:100 align:center}"
 	]
 	quest.15A8F04BC10E619E.title: "울창한 숲"
-	quest.15CD4BFDC56E9510.quest_subtitle: "기타 필터링 설정"
+	quest.15CD4BFDC56E9510.quest_subtitle: "추가 필터 옵션"
 	quest.15CD4BFDC56E9510.title: "&e고급 도구 교체 업그레이드"
 	quest.15D355EB164EBE68.quest_subtitle: "완성된 PCB에 필요함"
 	quest.15D355EB164EBE68.title: "커패시터"
@@ -1682,7 +1682,7 @@
 	quest.196E55B64667AE35.quest_subtitle: "반쪽 블록 내려놓기"
 	quest.1972B36F72808D55.quest_desc: ["하지만 이 돌들 중 일부만 깎여 나갔습니다."]
 	quest.1972B36F72808D55.title: "&l&b금 간&r 돌"
-	quest.1985CFD1F0425E88.quest_subtitle: "기타 필터링 설정"
+	quest.1985CFD1F0425E88.quest_subtitle: "추가 필터 옵션"
 	quest.1985CFD1F0425E88.title: "&e고급 줍기 업그레이드"
 	quest.198E9E90CC9606C4.quest_desc: ["우리는 받침대 위에 아이템을 올렸고, &b오렐&r, 영혼, &4피&r, 그리고 &a경험치&r를 얻었습니다... 그런데 왜 완료되지 않죠? 왜 완료되지 않는 걸까요?\\n\\n의식을 실제로 완료하려면 망치를 사용해야 합니다!\\n\\n망치는 곡괭이처럼 작동하지만 의식을 완료하는 데 사용할 수 있는 횟수가 제한되어 있습니다. 망치를 들고 &6&lforge&r를 우클릭하세요!"]
 	quest.198E9E90CC9606C4.title: "의식 마무리"
@@ -1747,8 +1747,8 @@
 	]
 	quest.1A6A383B4EF26B20.quest_desc: ["&4&l채굴 드릴&r은 선택의 폭이 넓지 않습니다. &7철 드릴 헤드&r 또는 &8강철 드릴 헤드&r가 있습니다.\\n\\n&7철 드릴 헤드&r는 &7철 곡괭이&r 티어에서 2x2 영역을 채굴합니다. 또한 6의 피해를 입히고 the...보다 내구도가 낮습니다.\\n\\n&8강철 드릴 헤드&r는 &b다이아몬드 곡괭이&r와 동일한 티어에서 3x3 영역을 채굴합니다. 이것들은 7의 피해를 입히고 내구도가 더 좋습니다!"]
 	quest.1A6A383B4EF26B20.title: "&8드릴 헤드"
-	quest.1A739D36D5E3B1AD.quest_subtitle: "기타 필터링 설정"
-	quest.1A739D36D5E3B1AD.title: "&e고급 식사 기능"
+	quest.1A739D36D5E3B1AD.quest_subtitle: "추가 필터 옵션"
+	quest.1A739D36D5E3B1AD.title: "&e고급 식사 업그레이드"
 	quest.1A806C1A54B26EB5.quest_desc: ["모든 것이 더 넓은 범위에서 액션을 수행하는 것을 원하지 않으십니까? 진공 청소기가 세계에 아이템을 떨어뜨릴 공간을 남겨두기를 원하십니까? 그렇다면 범위를 줄일 수 있습니다."]
 	quest.1A8440C0048EEB02.quest_desc: ["&c블레이즈골드&r는 철과 동일한 스탯을 가지지만 철이 가졌으면 하는 다른 능력들을 가지고 있습니다! \\n\\n아이템 설명을 확인하여 그들이 무엇을 할 수 있는지 자세히 알아보세요!"]
 	quest.1A8440C0048EEB02.quest_subtitle: "15"
@@ -2043,9 +2043,9 @@
 	quest.1FD60B7448CED1EB.title: "&b&l마카우의 울타리 및 담장"
 	quest.1FDC8725105D822A.quest_desc: ["주방에는 음식을 담고, 보존하고, 요리할 수 있는 많은 블록이 있습니다! \\n\\n음식을 요리하거나 준비하는 대부분의 블록은 에너지가 필요하므로 전기 설정을 확인하여 자세히 알아보세요!"]
 	quest.1FDC8725105D822A.title: "주방 세트"
-	quest.1FE052F643401232.quest_desc: ["배낭 업그레이드를 하려면 다음이 필요합니다."]
-	quest.1FE052F643401232.quest_subtitle: "업그레이드를 위한 기반"
-	quest.1FE17B1C7C639F88.quest_desc: ["스토리지 컨트롤러를 사용하면 여러 저장소를 하나의 거대한 다중 블록 저장소처럼 다룰 수 있습니다.\\n\\n스토리지 컨트롤러는 연결된 모든 저장소의 입출력 지점 역할을 하므로, 매우 큰 저장소 네트워크를 만들고 Applied Energistics나 Integrated Dynamics 같은 모드와 연동할 수 있습니다.\\n\\n저장소를 컨트롤러 옆이나 이미 연결된 저장소 옆에 놓으면 연결됩니다. 모든 방향으로 컨트롤러에서 14블록까지 작동합니다."]
+	quest.1FE052F643401232.quest_desc: ["배낭 업그레이드를 제작할 때 필요한 기반 부품입니다."]
+	quest.1FE052F643401232.quest_subtitle: "업그레이드의 기반"
+	quest.1FE17B1C7C639F88.quest_desc: ["저장소 제어기를 사용하면 여러 저장소를 하나의 큰 멀티블록 저장소처럼 다룰 수 있습니다.\\n\\n저장소 제어기는 연결된 모든 저장소의 입출력 지점 역할을 하므로, 거대한 저장소 네트워크를 만들고 Applied Energistics 2나 Integrated Dynamics 같은 모드와 연동할 수 있습니다.\\n\\n저장소를 제어기 옆이나 이미 연결된 저장소 옆에 놓으면 자동으로 연결됩니다. 모든 방향으로 제어기에서 14블록까지 작동합니다."]
 	quest.1FE47F03B5DF492D.quest_desc: ["{image:atm:textures/questpics/allthemodium/all_armor_unoarcane.png width:100 height:175 align:center}"]
 	quest.1FE47F03B5DF492D.title: "&5Unobtainium 비전술사 방어구"
 	quest.1FE7C52491E7499B.quest_desc: [
@@ -2452,9 +2452,9 @@
 	quest.268EA2DEC8840D13.title: "&4퀀텀 컴퓨터 멀티 스레더"
 	quest.268F6E67AA79A7BD.quest_subtitle: "&f69 &c공격 피해"
 	quest.26988330D3E5BF95.title: "화살 현수막 무늬"
-	quest.26988E22BD019628.quest_desc: ["배낭 안의 아이템을 자동으로 제련합니다."]
+	quest.26988E22BD019628.quest_desc: ["배낭 안의 광석과 금속 재료를 용광로로 자동 제련합니다."]
 	quest.26988E22BD019628.quest_subtitle: "자동"
-	quest.26988E22BD019628.title: "&e자동 용광로 기능"
+	quest.26988E22BD019628.title: "&e자동 용광로 업그레이드"
 	quest.26A7746051A4A079.quest_subtitle: "티어: &63"
 	quest.26A9F402DAE15EA2.quest_desc: ["배낭에 훈연기 GUI를 추가합니다."]
 	quest.26B462F2F41A77C7.quest_desc: ["발명의 어머니ature...의 모든 선물은 오븐에서 무자비하게 태워져 &b소금&r만 남길 수 있습니다! \\n\\n통나무, 잎, 그리고 작물은 &b식물성 소금&r으로 토스트될 수 있습니다."]
@@ -3033,7 +3033,7 @@
 	quest.2FB231069D2E4E77.quest_desc: ["각 셀의 용량은 제작에 사용한 &e저장 부품&f에 따라 결정됩니다.\\n\\n첫 번째 부품인 &b1k ME 저장 부품&f은 셀에 &e1024&f '바이트'의 저장 공간을 제공합니다. 자세한 내용은 다음 퀘스트에서 설명합니다."]
 	quest.2FB231069D2E4E77.quest_subtitle: "최초의 킬로바이트."
 	quest.2FB231069D2E4E77.title: "첫 저장 셀 만들기"
-	quest.2FC15D3916DBF4E4.quest_subtitle: "기타 필터링 설정"
+	quest.2FC15D3916DBF4E4.quest_subtitle: "추가 필터 옵션"
 	quest.2FC15D3916DBF4E4.title: "&e고급 제거 업그레이드"
 	quest.2FD22502E6481269.quest_desc: ["&d로나자의 연락&r을 사용하여 영혼 보석을 상위 버전으로 변환하여 삼위일체 젬을 만들 수 있습니다. 기본적으로 더 큰 적을 캡처할 수 있는 강화된 영혼 보석이지만, 대부분의 보스&d는 여전히 담을 수 없습니다."]
 	quest.2FD22502E6481269.title: "삼위일체 젬"
@@ -3248,7 +3248,7 @@
 	quest.33732EE8110A0911.quest_desc: ["&8&lIE&r 개발자가 &4&l채굴 드릴&r이 채굴에도 사용될 수 있다는 것을 잊어서 마지막 순간에 행운 III을 넣었습니다.\\n\\n그것은 암석 연화 산입니다."]
 	quest.33816AF0E699F19F.quest_desc: ["이 블록은 충전된 아이템의 FE를 방전합니다."]
 	quest.3384308C78D86059.quest_subtitle: "티어: &a2"
-	quest.33882172DA8021F6.quest_desc: ["배낭 안의 아이템으로부터 플레이어의 인벤토리를 계속 쌓아 둡니다."]
+	quest.33882172DA8021F6.quest_desc: ["배낭 안의 아이템으로 플레이어 인벤토리의 지정된 스택을 계속 보충합니다."]
 	quest.338BD467EBE6EE1F.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_sentry.png width:100 height:150 align:center}"]
 	quest.338BD467EBE6EE1F.quest_subtitle: "약탈자 전초기지"
 	quest.338BD467EBE6EE1F.title: "보초 갑옷 장식"
@@ -3451,9 +3451,9 @@
 	quest.36B9D5A99E1AA85C.quest_subtitle: "&f8 &c공격 피해"
 	quest.36BCCF7395658A5C.quest_desc: ["Starlight의 보스like... 들은 그들의 구조물에 살고 있습니다. 다행히 흔하지 않으므로 수색의 눈의 도움을 받아야 할 수도 있습니다. \\n\\n수색의 눈은 엔더의 눈처럼 작동합니다. 던져서 구조물에 도달할 때까지 따라가려면 우클릭하세요.\\n\\n구조물을 설정하려면 보조 장비 슬롯에 특정 아이템이 필요합니다. 아이템 like..."]
 	quest.36BCCF7395658A5C.title: "보스 찾기"
-	quest.36BCE35215B2B6E9.quest_desc: ["배낭 안의 아이템을 자동으로 제련합니다."]
+	quest.36BCE35215B2B6E9.quest_desc: ["배낭 안의 음식을 훈연기로 자동 조리합니다."]
 	quest.36BCE35215B2B6E9.quest_subtitle: "자동"
-	quest.36BCE35215B2B6E9.title: "&e자동 훈연기 기능"
+	quest.36BCE35215B2B6E9.title: "&e자동 훈연기 업그레이드"
 	quest.36CDA39C23D3AA2B.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 제작했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 공개된 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.36CF8D1DD1EF6307.quest_subtitle: "2개의 젖은 밝은 초록색 블록"
 	quest.36D72D759C4E8823.quest_desc: ["어쩌면 너무 빠를지도 몰라요."]
@@ -3658,9 +3658,9 @@
 	quest.39F142224D5210A9.title: "바이오디젤"
 	quest.39F9C825B03DA317.quest_desc: ["&8에어리얼 인터페이스&r는 자체 내부 보관함과 당신의 인벤토리 사이를 연결하는 역할을 합니다. 기본적으로 안에 들어가는 것은 무엇이든 당신에게 갑니다.\\n\\n이것을 제작하려면 전체 조립 라인이 필요하며, 퀘스트가 당신을 도울 것입니다!"]
 	quest.39F9C825B03DA317.title: "&8에어리얼 인터페이스"
-	quest.3A1D07AED2A841E4.quest_desc: ["배낭 안의 아이템을 자동으로 제련합니다."]
+	quest.3A1D07AED2A841E4.quest_desc: ["배낭 안의 아이템을 화로로 자동 제련합니다."]
 	quest.3A1D07AED2A841E4.quest_subtitle: "자동"
-	quest.3A1D07AED2A841E4.title: "&e자동 화로 기능"
+	quest.3A1D07AED2A841E4.title: "&e자동 화로 업그레이드"
 	quest.3A2047CC0F59C6CC.quest_desc: ["후반 게임용 &a&l루츠 클래식&r 갑옷"]
 	quest.3A2047CC0F59C6CC.quest_subtitle: "17"
 	quest.3A2047CC0F59C6CC.title: "&a와일드우드 장비"
@@ -4038,8 +4038,8 @@
 	quest.3FF61A4D7A250AE1.title: "&l&c에너지 셀 &5(크리에이티브)"
 	quest.3FF97A4B5029C0E7.quest_desc: ["이것은 &b빻은 다이아몬드&r 2개와 &e빻은 금&r 1개가 필요하며, &c&l폭발 지팡이&r와 반대입니다! \\n\\n이것들을 &7양피지&r에 사용하여 &7두루마리&r를 얻은 다음, &7두루마리&r를 사용하여 &b&l활&r을 얻을 수 있습니다!"]
 	quest.3FF97A4B5029C0E7.title: "&7「무기사출」두루마리"
-	quest.4007DFA7CC3A5FF2.quest_desc: ["이 &o전체 퀘스트 섹션&r이 업그레이드로 덮이는 것을 막기 위해, 정교한 배낭 업그레이드를 살펴보세요.\\n\\n정교한 저장소와 동등한 것을 만들어야 하지만, 기능은 거의 동일합니다."]
-	quest.4007DFA7CC3A5FF2.quest_subtitle: "업그레이드를 위한 기반"
+	quest.4007DFA7CC3A5FF2.quest_desc: ["이 &o퀘스트 구역 전체&r를 업그레이드로 가득 채우지 않도록 Sophisticated Backpacks의 업그레이드들을 살펴보세요.\\n\\nSophisticated Storage용 대응 업그레이드를 만들어야 하지만 기능은 거의 같습니다."]
+	quest.4007DFA7CC3A5FF2.quest_subtitle: "업그레이드의 기반"
 	quest.40096ED0B04C3EC5.quest_desc: ["모든 스포너에 꼭 필요한 변경 요소입니다. 모든 조건을 무시한다고 하지만 정확히는 대부분의 조건을 무시합니다. 밝기, 생성에 필요한 블록, 생물 군계를 무시합니다. 다만 슬라임에게 3x3 공간이 필요하거나 플레이어가 근처에 있어야 하는 것 같은 공간·작동 조건은 여전히 충족해야 합니다."]
 	quest.40096ED0B04C3EC5.title: "모든 조건 무시"
 	quest.401BB95B740385B7.title: "&6신성&r 상위 버전 오브"
@@ -4708,8 +4708,8 @@
 	quest.4B4F5341D6DBDD19.quest_subtitle: "최대: 1"
 	quest.4B552E9D05FF5415.quest_desc: ["&l&9X&cy&aC&8r&aa&cf&9t&r는 5가지의 다양한 색상에 관한 모든 것이며, 블록에 사용하는 것도 포함됩니다! \\n\\n&a초록색&r, &c빨간색&r, &9파란색&r, &8어두운색&r 그리고 모든 종류의 밝은 블록!"]
 	quest.4B552E9D05FF5415.title: "&l&9X&cy&aC&8r&aa&cf&9t&r &l세계"
-	quest.4B62AF0405F68041.quest_desc: ["배낭에 보관할 아이템을 지정할 수 있는 필터를 추가합니다. Shift 키를 누른 채로 인벤토리를 우클릭하면 다시 채워집니다."]
-	quest.4B62AF0405F68041.quest_subtitle: "모두 보관 완료"
+	quest.4B62AF0405F68041.quest_desc: ["배낭에 항상 채워 둘 아이템을 지정하는 필터를 추가합니다. 인벤토리를 Shift+우클릭하면 그 인벤토리에서 배낭을 보충합니다."]
+	quest.4B62AF0405F68041.quest_subtitle: "가득 채워 두기"
 	quest.4B65100885AE762D.quest_desc: ["&e&l아이언의 마법&r &6신성 갑옷&r!"]
 	quest.4B65100885AE762D.quest_subtitle: "20"
 	quest.4B65100885AE762D.title: "&6사제 복장"
@@ -4791,11 +4791,11 @@
 		"{image:pneumaticcraft:textures/patchouli/sentry_turret.png width:100 height:100 align:left fit:true}"
 	]
 	quest.4C0D00B5305117A1.quest_subtitle: "펑 펑 (너 없이)"
-	quest.4C0EAB9F795686D0.quest_subtitle: "기타 필터링 설정"
+	quest.4C0EAB9F795686D0.quest_subtitle: "추가 필터 옵션"
 	quest.4C0EAB9F795686D0.title: "&e고급 보관 업그레이드"
 	quest.4C23D7E3DC8327C2.quest_desc: ["달의 괴물을 처치하려면 불을 붙여야 합니다!\\n\\n부싯돌과 강철 또는 초석 성냥갑을 사용할 수 있습니다.\\n\\n개인적으로는 성냥갑이 더 어울린다고 생각합니다!"]
 	quest.4C23D7E3DC8327C2.title: "태워 버려!"
-	quest.4C2A60FC1F1E0328.quest_desc: ["배낭에 배터리를 추가합니다."]
+	quest.4C2A60FC1F1E0328.quest_desc: ["배낭에 에너지 저장용 배터리를 추가합니다."]
 	quest.4C31649D721F76B5.quest_desc: ["&n&5수확기&r는 지나가는 모든 작물을 수확합니다. 연결된 인벤토리가 있다면 아이템은 그 안에 저장됩니다."]
 	quest.4C366515E3CCB0B2.quest_desc: ["튜브를 통과한 고기, 맛있겠네."]
 	quest.4C3B7BAEA653587B.quest_desc: ["이 묘목은 사막 피라미드 안의 상자에서 찾을 수 있어요."]
@@ -5345,7 +5345,7 @@
 	]
 	quest.53EC96FA0E7C4ED4.title: "&c에너지 파이프즈"
 	quest.53F861876B991C36.quest_desc: ["배낭에 주크박스 GUI를 추가합니다."]
-	quest.53F861876B991C36.quest_subtitle: "자, 이제 신나게 즐겨 보자."
+	quest.53F861876B991C36.quest_subtitle: "이제 음악을 즐겨 볼까요?"
 	quest.53F9E5CE7EE6F852.quest_desc: ["생물 포획기를 사용하면 몹을 수송할 수 있습니다. 엔티티 태그를 통해 몹을 블랙리스트에 올릴 수 있습니다."]
 	quest.53FDC6C536E50A1A.quest_desc: ["&b정원메기 새끼&r는 바다에 사는 친근한 물고기입니다.\\n\\n&b정원메기&r보다 작고 바닐라 물고기처럼 행동합니다!"]
 	quest.53FDC6C536E50A1A.title: "&b작은 정원메기&r"
@@ -5487,7 +5487,7 @@
 	quest.56B58CAFCB707565.quest_subtitle: "티어: &63"
 	quest.56B6ABF3D6EA0D84.quest_desc: ["플러그를 설치했으니 이제 네트워크의 전력을 꺼내 쓸 수 있습니다. &9플럭스 포인트&r는 연결된 기계, 파이프 또는 케이블에 네트워크 전력을 공급합니다.\\n\\n전력을 공급할 블록에 포인트를 설치하고 우클릭한 뒤 \"네트워크 선택\" 탭에서 네트워크를 고르세요. 플러그와 마찬가지로 전송 제한과 우선순위 등을 조절할 수 있습니다."]
 	quest.56B6ABF3D6EA0D84.title: "네트워크 전력 사용하기"
-	quest.56B80A7EBFE21428.quest_subtitle: "기타 필터링 설정"
+	quest.56B80A7EBFE21428.quest_subtitle: "추가 필터 옵션"
 	quest.56B80A7EBFE21428.title: "&e고급 펌프 업그레이드"
 	quest.56BF647EA84FFF7E.quest_desc: ["언제든지 어떤 제작법이 진행 중인지 보여줍니다."]
 	quest.56BF647EA84FFF7E.quest_subtitle: "제작법 표시"
@@ -5564,7 +5564,7 @@
 	quest.57ACD83205988834.title: "백금 벌"
 	quest.57C4A0BAE739E903.quest_desc: ["용해 챔버는 더 고급 기계를 제작하는 데 사용됩니다.\\n\\n제작하려는 것에 필요한 아이템과 함께 특정 액체를 넣어야 합니다. JEI를 확인하세요."]
 	quest.57C4A0BAE739E903.quest_subtitle: "제작대?"
-	quest.57CF8C6C867B9BDA.quest_subtitle: "기타 필터링 설정"
+	quest.57CF8C6C867B9BDA.quest_subtitle: "추가 필터 옵션"
 	quest.57CF8C6C867B9BDA.title: "&e고급 필터 업그레이드"
 	quest.57F107892FFA1F52.quest_desc: ["네더의 별 시드을 그로우하려면 경작지 아래에 크룩스가 필요합니다. 네, 네더의 별 그로우는 더 비싸게 만들어야 했습니다! \\n\\n네더의 별 크룩스를 만들려면 &7시듦의 영혼&r이 필요하며, 이는 &8위더&r로부터 1/3 확률로 드롭됩니다."]
 	quest.57F47BA495B27F83.quest_desc: ["&9수확 티어 1&r은 곡괭이가 필요한 블록 중 가장 낮은 단계입니다. 어떤 곡괭이로도 채굴할 수 있으며, 돌과 화로, 석탄 광석 등이 티어 1에 속합니다."]
@@ -5590,7 +5590,7 @@
 	quest.58495CFBF4F20CE9.quest_desc: ["이것은 주방 카운터와 똑같이 작동하지만, 공중에 있습니다.\\n\\n그리고 그 위에 물건을 올려놓을 수 없습니다."]
 	quest.58495CFBF4F20CE9.quest_subtitle: "활동할 공간이 정말 많네!"
 	quest.58495CFBF4F20CE9.title: "훨씬 더 많은 저장 공간"
-	quest.58514FDE153FD971.quest_subtitle: "철 상자들?"
+	quest.58514FDE153FD971.quest_subtitle: "철 상자?"
 	quest.58514FDE153FD971.title: "&f철 상자"
 	quest.5865951E4F81C91F.quest_desc: ["&7오스뮴&r + &6발광석&r = &e정제된 발광석&r!"]
 	quest.5865951E4F81C91F.quest_subtitle: "20"
@@ -5943,11 +5943,11 @@
 	quest.5E3263ACE170A8E3.title: "&d소용돌이의 &e건틀릿"
 	quest.5E41363F9AE243F3.quest_desc: ["언제까지나 석탄만으로 기지에 전력을 공급할 수는 없습니다! 자원을 어느 정도 모았다면 전력 설비를 업그레이드할 때입니다!\\n\\n이 단계의 발전 방식은 보통 약간의 설비가 필요하지만, 중반 이후까지 사용할 만큼 충분한 전력을 생산합니다."]
 	quest.5E41363F9AE243F3.title: "&b&l중반 전력 선택지"
-	quest.5E4BC0F59C90433A.quest_desc: ["Sophisticated Storage 모드를 사용하면 금속을 사용하여 상자와 통을 업그레이드하여 저장 용량을 늘릴 수 있습니다! 또한 업그레이드를 추가하여 기능을 향상시킬 수도 있습니다.\\n\\n이 상자들은 일반 바닐라 상자 또는 통과 똑같지만, 저장소 업그레이드 슬롯이 있습니다!"]
-	quest.5E4BC0F59C90433A.quest_subtitle: "바닐라 상자"
-	quest.5E4BC0F59C90433A.title: "정교한 저장소"
+	quest.5E4BC0F59C90433A.quest_desc: ["Sophisticated Storage에서는 상자와 통을 금속 등급으로 업그레이드해 저장 용량을 늘릴 수 있습니다! 여러 업그레이드를 장착해 기능도 확장할 수 있어요.\\n\\n바닐라 상자나 통처럼 사용할 수 있지만, 저장소 업그레이드를 장착하는 전용 슬롯이 있습니다!"]
+	quest.5E4BC0F59C90433A.quest_subtitle: "\"바닐라 상자\""
+	quest.5E4BC0F59C90433A.title: "Sophisticated Storage"
 	quest.5E4FE420B6D2C97F.quest_desc: ["배낭 안의 아이템을 3x3 제작법으로 압축합니다."]
-	quest.5E4FE420B6D2C97F.quest_subtitle: "기타 필터링 설정"
+	quest.5E4FE420B6D2C97F.quest_subtitle: "추가 필터 옵션"
 	quest.5E4FE420B6D2C97F.title: "&e고급 압축 업그레이드"
 	quest.5E5D5D28D82F6891.quest_desc: ["&l&9X&cy&aC&8r&aa&cf&9t&r는 &l월드 코어&r로 다양한 유리를 추가합니다! \\n\\n걸어 다닐 수 있는 것부터, 발광하는 것, 더 튼튼한 것까지!"]
 	quest.5E5D5D28D82F6891.title: "&l&9X&cy&aC&8r&aa&cf&9t&r 유리"
@@ -6072,7 +6072,7 @@
 	quest.5F9B8ACCE0C8389E.title: "&7강화 두루마리"
 	quest.5FA68047A3C05E80.quest_desc: ["15개의 주문 슬롯!"]
 	quest.5FA68047A3C05E80.title: "&5Unobtainium 주문서"
-	quest.5FA9BC0D8476D322.quest_desc: ["배낭 안의 음식으로 당신을 자동으로 먹여줍니다."]
+	quest.5FA9BC0D8476D322.quest_desc: ["배낭 안의 음식을 플레이어에게 자동으로 먹입니다."]
 	quest.5FB29F3F4DF17765.quest_desc: ["때로는 모든 모듈이 한 번에 여러 스택을 이동하는 것을 원하지 않을 수 있습니다. 따라서 모듈 1개만 그렇게 하도록 하려면 증강을 사용하세요! 이것은 상위 버전으로 변환과 함께 스택되지 않으며 though... 사실 그것들을 오버라이드합니다."]
 	quest.5FC92F3794004A98.quest_subtitle: "Rippling Willow + Soul Tree"
 	quest.5FCA6F5FE97780B7.quest_desc: [
@@ -6163,7 +6163,7 @@
 		"{image:atm:textures/questpics/bumblezone/bumble_rootmin1.png width:100 height:100 align:center}"
 	]
 	quest.61500C8F68509E5D.title: "루트민"
-	quest.615B9062FE8CCD36.quest_desc: ["보고 있는 블록에 가장 효과적인 도구로 자동 교체합니다."]
+	quest.615B9062FE8CCD36.quest_desc: ["바라보는 블록에 가장 효과적인 도구로 자동 교체합니다."]
 	quest.615C3E012B2DECD3.quest_desc: ["&e주문서&r! &3마법&r을 어디에 넣겠어요? \\n\\n각인 테이블에 &3두루마리&r와 &e주문서&r를 함께 넣어 &e주문서&r에 추가할 수 있습니다. 주문서는 특정 [amount](수)를 담을 수 있지만 더 이상 [rarity](희귀도)에 대해 걱정할 필요가 없습니다.\\n\\n&3두루마리&r가 &e주문서&r에 추가되면 [consumed](소모됩니다)되지 않고 [mana](마나)가 [consumed](소모됩니다)."]
 	quest.615C3E012B2DECD3.title: "&e주문 책&r!"
 	quest.616364E6AE05C341.quest_desc: ["&b미네랄 소금&r은 from... 미네랄로 잘 만들어집니다. \\n\\n광물의 형태로 채굴되는 모든 것은 &b소금&r으로 만들 수 있습니다. 가공되지 않은 광물, 주괴, 젬, 모두 &b미네랄 소금&r이 됩니다!\\n\\n심지어 언옵테이니움조차 &b소금&r으로 만들 수 있습니다! 제발 그러지 마세요. 더 나은 대안이 아주 많습니다."]
@@ -6628,7 +6628,7 @@
 		"{image:atm:textures/questpics/extremereactors/reprocessorfull.png width:100 height:150 align:1}"
 	]
 	quest.69642A3618E86DED.title: "틀 건설"
-	quest.696E063016CAD1B9.quest_desc: ["금 간 작업대의 제작 GUI를 당신의 백팩에 추가합니다."]
+	quest.696E063016CAD1B9.quest_desc: ["Chipped 작업대의 제작 GUI를 배낭에 추가합니다."]
 	quest.69763C2E2F454A73.quest_desc: ["&c&lFire&r는 분명히 &c불&r과 관련이 있습니다. 대부분의 두루마리는 &c불&r을 사용하여 태우고 무언가에 피해를 입히는 용도입니다.\\n\\n&c&lFire&r의 집중체 재료는 &c블레이즈 막대&r입니다. &c불 룬&r을 제작하거나 &c&l화염술사&r를 처치하여 얻을 수 있습니다.\\n\\n이것의 &c두루마리&r는 &c밝은 빨간색&r이며 &8회색&r 글씨입니다."]
 	quest.69763C2E2F454A73.title: "&c&l불"
 	quest.69838E3F12218D68.quest_desc: [
@@ -6659,9 +6659,9 @@
 	quest.6A21228B0511FF85.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_thermal.png width:100 height:150 align:center}"]
 	quest.6A21228B0511FF85.title: "&6써멀 스프링스톤&r"
 	quest.6A2AD67569F91F1F.quest_subtitle: "티어: &c5"
-	quest.6A2B2C5E2ADCE366.quest_desc: ["정교한 배낭은 멋진 기능을 추가하기 위해 필터를 사용할 수 있는 업그레이드 가능한 배낭을 제공합니다!\\n\\n배낭은 큐리오스 등 슬롯에 넣을 수 있으며 염색할 수도 있습니다."]
-	quest.6A2B2C5E2ADCE366.quest_subtitle: "인벤토리가 너무 작습니다"
-	quest.6A2B2C5E2ADCE366.title: "정교한 배낭"
+	quest.6A2B2C5E2ADCE366.quest_desc: ["Sophisticated Backpacks는 필터와 여러 업그레이드로 편리한 기능을 더할 수 있는 배낭을 제공합니다!\\n\\n배낭은 Curios의 등 슬롯에 장착할 수 있고 원하는 색으로 염색할 수도 있습니다."]
+	quest.6A2B2C5E2ADCE366.quest_subtitle: "인벤토리가 너무 작다면"
+	quest.6A2B2C5E2ADCE366.title: "Sophisticated Backpacks"
 	quest.6A393C7A24899E3E.quest_desc: ["재료 등급기 촉매와 함께 주괴를 재료 등급기에 넣으면 재료에 등급이 매겨집니다.\\n\\n등급이 좋을수록 재료의 스탯이 더 좋습니다.\\n\\n최고 등급은 \"MAX\"입니다."]
 	quest.6A393C7A24899E3E.quest_subtitle: "재료 시험기"
 	quest.6A452BFC8A967C39.quest_desc: ["이 &a발톱&r을 착용하면 아드레날린이 솟고 생각은 사라지며 힘이 넘쳐흐릅니다! \\n\\n&a야성의 발톱&r은 무기나 맨손의 공격 속도를 크게 높입니다."]
@@ -6905,8 +6905,8 @@
 	quest.6E17595887A051C2.title: "모어 프로페션"
 	quest.6E3AD764A67829CB.quest_desc: ["하위 버전인 &b주입 수정&r처럼, &c마스터 주입 수정&r 또한 이전 버전의 모든 기능을 수행할 수 있습니다. \\n\\n이것은 무한정 사용할 수 있으며, 4개의 라텍스 블록을 다음 단계의 블록 형태로 상위 버전으로 변환할 수 있습니다!\\n\\n&c슈프리뮴&r이 필요하지만, 저를 믿으세요. 그만한 가치가 있습니다!"]
 	quest.6E3AD764A67829CB.title: "&c마스터 주입 수정"
-	quest.6E3D53D1C4569A89.quest_desc: ["당신과 백팩 사이에서 경험치를 펌프로 퍼올릴 수 있습니다."]
-	quest.6E3D53D1C4569A89.quest_subtitle: "XP 저장"
+	quest.6E3D53D1C4569A89.quest_desc: ["플레이어와 배낭 사이에서 경험치를 이동합니다."]
+	quest.6E3D53D1C4569A89.quest_subtitle: "경험치 저장"
 	quest.6E3D53D1C4569A89.title: "&a경험치 펌프 업그레이드"
 	quest.6E4C3B87FABE9EFA.quest_subtitle: "구리 + 주석"
 	quest.6E4C3B87FABE9EFA.title: "청동 벌"
@@ -6915,7 +6915,7 @@
 	quest.6E819CCD57B15D54.quest_desc: ["주조소를 사용하여 &#4CE688녹은 비브라늄&r을 &#F2EB2E모든테모듐 벌 생성 알&r 위에 붓습니다."]
 	quest.6E819CCD57B15D54.quest_subtitle: "고대 + 드라코닉"
 	quest.6E819CCD57B15D54.title: "비브라늄 벌"
-	quest.6E9041744C592573.quest_desc: ["탱크 업그레이드에서 액체를 펌프로 퍼올리는 능력을 추가합니다."]
+	quest.6E9041744C592573.quest_desc: ["탱크 업그레이드의 유체를 펌프로 이동할 수 있게 합니다."]
 	quest.6E970CF05B96EB20.quest_desc: ["골렘에게 피해를 주려면 동력 공급을 차단해야 합니다! \\n\\n그러려면 에너지 블록이 파란색으로 변했을 때 우클릭해야 합니다. \\n\\n일반적으로 보스 방의 모서리에 2개, 보스 위에 2개가 있습니다!"]
 	quest.6E970CF05B96EB20.title: "전원 차단"
 	quest.6E9782258731E444.quest_subtitle: "흰 이페 + 행운"
@@ -7533,8 +7533,8 @@
 	]
 	quest.77D3546953550E39.quest_subtitle: "폰데로사소나무 + 가문비나무"
 	quest.77F2271C45DB49BA.quest_desc: ["이 모듈을 &a메카슈트&r 흉갑에 장착하면 크리에이티브 비행를 얻을 수 있습니다.\\n그것을 제작하려면 게임에서 가장 비싼 아이템 중 일부만 필요합니다!"]
-	quest.77F241BEE9902751.quest_desc: ["정교한 저장소에서 가장 큰 상자입니다."]
-	quest.77F241BEE9902751.quest_subtitle: "활동할 공간이 정말 많네!"
+	quest.77F241BEE9902751.quest_desc: ["Sophisticated Storage에서 가장 큰 상자입니다."]
+	quest.77F241BEE9902751.quest_subtitle: "활동할 공간이 정말 많네요!"
 	quest.77F241BEE9902751.title: "&d네더라이트 상자"
 	quest.77FC692AC94D2EEF.title: "&l&9오버월드 현상금:&r&e 크리퍼"
 	quest.780E0163033CCD9B.quest_subtitle: "티어: &b4"
@@ -7544,7 +7544,7 @@
 	quest.7834734E79E41A3A.quest_desc: ["다음 공포증이 있다면 &l&6범블존&r 모드를 플레이하는 것을 재고해 주십시오.\\n\\n꿀벌 공포증, 벌 공포증, 곤충 공포증, 거미 공포증, 환 공포증, 고소 공포증, 폐쇄 공포증, 수정 공포증.\\n\\n환 공포증이 있다면 &l&6범블존&r에서 추가한 리소스 팩을 사용하면 도움이 될 수 있습니다! 그 외의 경우에는 망했습니다."]
 	quest.7834734E79E41A3A.quest_subtitle: "벌 조심하세요!"
 	quest.784D6D11C4F41215.quest_subtitle: "&f6.5 &c 공격 피해"
-	quest.785951190FFDAA21.quest_desc: ["배낭 안의 스택 크기를 4 증가시킵니다."]
+	quest.785951190FFDAA21.quest_desc: ["배낭의 슬롯당 스택 한도를 4배로 늘립니다."]
 	quest.785951190FFDAA21.title: "&e2단계 스택 업그레이드"
 	quest.786073B57C901DB7.title: "플러스 현수막 무늬"
 	quest.78656C89EEE80DB5.quest_desc: ["&n&5터널&r은 벨트 위에 설치할 수 있으며, 터널을 통과하는 아이템을 필터링합니다. 터널을 서로 옆에 놓으면 여러 터널을 연결할 수 있습니다."]
@@ -7595,7 +7595,7 @@
 	quest.78DA970F97002975.quest_desc: ["통은 &b액체&r를 담는 단순한 방법입니다. \\n\\n나무 통과 금속 통이 있습니다. 나무 통은 차갑거나 실온의 &b액체&r만 담을 수 있으며, 따뜻한 &b액체&r 또는 기체는 담을 수 없습니다. 반면 금속 통은 모든 유형의 &b액체&r와 기체를 담을 수 있습니다. \\n\\n두 통 모두 &b액체&r 12 양동이를 담을 수 있습니다. 윗면에서 자동으로 &9입력&r하고 아래쪽으로 &6출력&r하지만, 이는 변경할 수 있습니다."]
 	quest.78DA970F97002975.title: "&b액체 저장 중"
 	quest.78E40BDB0E54B638.quest_desc: ["&6&l범블존&r의 구조물에서 찾거나 &5여왕벌&r과 거래할 수 있습니다! \\n\\n&6꿀 블록&r에 갇히는 것이 싫으신가요? 아니면 &e꽃가루&r 때문에 느려지는 것이 싫으신가요? 꿀벌 레깅스가 있으니 두려워할 필요가 없습니다! 이 레깅스는 그러한 블록들을 더 잘 헤쳐나갈 수 있도록 도와줄 것입니다. 더 많은 꿀벌 갑옷을 착용할수록, 이동이 더 쉬워질 것입니다!\\n\\n또한 &e꽃가루&r를 Shift 키를 눌러 수집할 수도 있습니다!"]
-	quest.78E51D22C16C4686.quest_desc: ["스토리지 컨트롤러는 또한 다른 저장소에 무선으로 연결할 수 있습니다. 이는 스토리지 도구를 사용하여 가능하며, 스토리지 컨트롤러를 우클릭하여 바인딩하고 저장소를 우클릭하여 연결하기만 하면 됩니다.\\n\\n무선 연결 범위는 일반적인 경우와 동일하게 14 블록의 공간입니다."]
+	quest.78E51D22C16C4686.quest_desc: ["저장소 제어기는 저장소 도구를 이용해 떨어진 저장소도 무선으로 연결할 수 있습니다. 저장소 제어기를 우클릭해 도구에 등록한 뒤, 연결할 저장소를 우클릭하세요.\\n\\n무선 연결 범위도 일반 연결과 같은 14블록입니다."]
 	quest.78ECC28DD4BA9696.quest_desc: [
 		"Spiritfire를 사용하여 &dOtherworld&r 재료의 대부분을 얻을 수 있지만, &9점봉&r을 사용하여 이러한 재료를 찾을 수도 있습니다."
 		""
@@ -7733,7 +7733,7 @@
 	quest.7ADE27F9398D97F1.quest_desc: ["이것은 다른 것과 다르지 않은데, 왜 확인하고 있습니까?"]
 	quest.7ADE27F9398D97F1.quest_subtitle: "10"
 	quest.7ADE27F9398D97F1.title: "벌 갑옷 2"
-	quest.7AE3C8134F5ED726.quest_desc: ["배낭 안의 스택 크기를 16 증가시킵니다."]
+	quest.7AE3C8134F5ED726.quest_desc: ["배낭의 슬롯당 스택 한도를 16배로 늘립니다."]
 	quest.7AE3C8134F5ED726.title: "&d4단계 스택 업그레이드"
 	quest.7AE502EDB73BD57A.quest_desc: ["&4&l분쇄기&r는 이름대로 작동합니다! 다른 모든 모드의 &4분쇄기&r와 마찬가지로...\\n\\n주괴에서는 가루를, &7돌&r에서는 &7자갈&r을, &2식물&r에서는 &2바이오 연료&r를 얻을 수 있어요!\\n\\n많은 조합법에 가루가 필요할 것이므로 꼭 마련해 두세요. 특히 &8업그레이드&r 제작에 많이 필요합니다!"]
 	quest.7AE502EDB73BD57A.quest_subtitle: "그것은 사물을 분쇄합니다."
@@ -7814,12 +7814,12 @@
 	quest.7BFC24607189B6D0.quest_subtitle: "최대: 1"
 	quest.7BFE7DAF18981843.quest_subtitle: "드릴 제작법에 필요합니다"
 	quest.7C07D6A33F7ADB02.quest_desc: [
-		"이것은 배낭을 배낭 안에 넣을 수 있도록 해주는 배낭 업그레이드입니다."
+		"배낭 안에 다른 배낭을 넣을 수 있게 해 주는 업그레이드예요."
 		""
-		"그래서 당신은 당신의 배낭 안에 당신의 배낭을 넣어서 당신의 배낭 안에 당신의 배낭이 필요할 때 사용할 수 있습니다."
+		"그러니 배낭 속 배낭이 필요할 때를 위해 배낭 속에 배낭을 넣어 둘 수 있죠."
 	]
-	quest.7C07D6A33F7ADB02.quest_subtitle: "당신의 배낭 안에 배낭이 있나요?"
-	quest.7C0F7A1B3AB9A1A1.quest_subtitle: "기타 필터링 설정"
+	quest.7C07D6A33F7ADB02.quest_subtitle: "배낭 속 배낭?"
+	quest.7C0F7A1B3AB9A1A1.quest_subtitle: "추가 필터 옵션"
 	quest.7C0F7A1B3AB9A1A1.title: "&e고급 보충 업그레이드"
 	quest.7C169A4A39F37FAC.quest_desc: ["바닐라 벌통으로 &e고급 벌통&r을 제작할 수 있습니다. 참나무 또는 다른 종류의 나무를 사용할 수 있습니다.\\n\\n벌들은 이 벌통을 들락날락하며 인벤토리에 벌집 조각을 드롭합니다. 또한 유리 병을 넣어서 꿀 병을 얻을 수도 있습니다.\\n\\n간식을 만들려면 많은 벌집 조각이 필요합니다!"]
 	quest.7C169A4A39F37FAC.quest_subtitle: "더 이상 깎을 수 없습니다."
@@ -7927,7 +7927,7 @@
 	quest.7E90138B0A2C3210.quest_desc: ["노스랜드 나무는 영구 동토 숲에서 자라는 크고 견고한 나무입니다.\\n\\n가문비나무처럼 보이지만 훨씬 밝은 색입니다! 아마도 흰색 가문비나무일 것입니다.\\n\\n이 나무의 묘목은 잔디가 아닌 흙에 2x2 형태로 심어야 합니다."]
 	quest.7E92ED270C67FDE5.quest_desc: ["이 모드에서 만들 수 있는 거의 모든 기계는 &9유전체 케이싱&r이 필요합니다.\\n\\n진행하려면 먼저 &b페이스트&r와 약간의 &a막대&r를 만들어야 합니다!"]
 	quest.7E92ED270C67FDE5.title: "유전체 재료부터 시작하기"
-	quest.7E9E03274A88347D.quest_desc: ["배낭 안의 스택 크기를 2 증가시킵니다."]
+	quest.7E9E03274A88347D.quest_desc: ["배낭의 슬롯당 스택 한도를 2배로 늘립니다."]
 	quest.7E9E03274A88347D.title: "&f1단계 스택 업그레이드"
 	quest.7EAFF64FFE8B5378.quest_subtitle: "철 + 땀"
 	quest.7EAFF64FFE8B5378.title: "아연 벌"
@@ -7948,8 +7948,8 @@
 		"저장 버스에는 필터와 우선순위를 설정할 수 있어 특정 아이템이 연결된 저장소에 먼저 들어가게 할 수 있습니다. 하지만 네트워크의 다른 곳에 이미 저장된 필터 아이템을 해당 저장소로 자동 이동하지는 않습니다."
 	]
 	quest.7EFBAF3E281D2EBE.quest_subtitle: "여분의 상자"
-	quest.7EFBFF5D0DA018E7.quest_desc: ["배낭에서 자동으로 삭제할 아이템에 대한 필터를 추가합니다."]
-	quest.7EFBFF5D0DA018E7.quest_subtitle: "배낭에서 자동으로 삭제할 아이템에 대한 필터를 추가합니다."
+	quest.7EFBFF5D0DA018E7.quest_desc: ["배낭에서 자동으로 제거할 아이템을 지정하는 필터를 추가합니다."]
+	quest.7EFBFF5D0DA018E7.quest_subtitle: "자동 제거 필터"
 	quest.7EFEE009212A4FD4.quest_subtitle: "티어: &63"
 	quest.7F076FC4F2187692.quest_subtitle: "&f8 &c공격 피해"
 	quest.7F09F8F98C13F11B.quest_desc: [
@@ -8360,7 +8360,7 @@
 	task.58B9B9D13F4CD1B2.title: "이터널 스타라이트 돌"
 	task.58E3131A3EA2661E.title: "나침반"
 	task.5936B8B8EDE0AE55.title: "금속 및 마나 보석 블록"
-	task.593CD1E685B4DDAA.title: "금 간 업그레이드"
+	task.593CD1E685B4DDAA.title: "Chipped 업그레이드"
 	task.596ABB45C0612AAF.title: "떠돌이 상인 1명 처치"
 	task.59DC19A11848EFE1.title: "연결기"
 	task.59DD89698DBAA215.title: "AllRightsReserved"
@@ -8388,7 +8388,7 @@
 	task.61D93B13D496547D.title: "유체 저장소"
 	task.61E3800DF5D25567.title: "Allthemodium 비전술사 방어구"
 	task.61FFB3326113FE18.title: "오 더 바이옴스 위브 곤 나무"
-	task.6205B6B93B306A12.title: "상자들"
+	task.6205B6B93B306A12.title: "상자"
 	task.624ADD79136376C0.title: "XyCraft 세계 아이템"
 	task.62F11A588B293CA6.title: "모든 권리 보유"
 	task.6304FF8A9E8957FE.title: "Unobtainium 도구"
