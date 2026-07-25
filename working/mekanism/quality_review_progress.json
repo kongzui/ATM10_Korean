@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "completed",
   "scope": "Mekanism family language, FTB Quests, KubeJS tooltips, and Ponder quality review",
   "completed_units": [
     {
@@ -38,12 +38,30 @@
         "resourcepacks/ATM10_Korean/assets/mekanismgenerators/lang/ko_kr.json"
       ],
       "unexpected_instance_changes": []
+    },
+    {
+      "unit": "Mekanism tools, integrations, utility add-ons, and extra displays",
+      "language_keys_reviewed": 1514,
+      "language_keys_corrected": 8,
+      "quest_keys_corrected": 5,
+      "kubejs_files_reviewed": 10,
+      "kubejs_display_occurrences_reviewed": 87,
+      "kubejs_display_occurrences_corrected": 0,
+      "correction_focus": [
+        "solar neutron activator function",
+        "MEKMM ambient gas collector terminology",
+        "chemical and fluid transfer terminology",
+        "KubeJS tooltip and Ponder display parity"
+      ],
+      "backup_root": "temp/backups/20260726_041554_929379",
+      "applied_paths": [
+        "config/ftbquests/quests/lang/ko_kr.snbt",
+        "resourcepacks/ATM10_Korean/assets/mekanism/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/mekmm/lang/ko_kr.json"
+      ],
+      "unexpected_instance_changes": []
     }
   ],
-  "pending_units": [
-    "Mekanism Tools",
-    "Mekanism integrations and utility add-ons",
-    "KubeJS tooltips and Ponder scenes"
-  ],
+  "pending_units": [],
   "validation_errors": 0
 }

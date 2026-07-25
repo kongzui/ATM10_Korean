@@ -13,8 +13,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "project_output_reuse": 1445,
-      "bundled_exact_reuse": 1777,
+      "project_output_reuse": 1446,
+      "bundled_exact_reuse": 1776,
       "new_or_edited": 17
     },
     {
@@ -152,8 +152,8 @@
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 2237,
-    "project_output_reuse": 2805,
+    "bundled_exact_reuse": 2236,
+    "project_output_reuse": 2806,
     "new_or_edited": 75
   },
   "ftbquests": {

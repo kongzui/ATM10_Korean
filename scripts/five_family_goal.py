@@ -1324,6 +1324,45 @@ MEKANISM_QUEST_TEXT_REPLACEMENTS = {
         ),
         ("&3&l화학적 용해 챔버&r", "&3&l화학적 용해 장치&r"),
     ),
+    "quest.603BEDD49070ECAD.quest_desc": (
+        ("&c&l로터리 &b콘덴스트레이터&r", "&c&l회전 &b콘덴서&r"),
+        ("&c가스&r는 왼쪽 바", "&c화학 물질&r은 왼쪽 막대"),
+        ("&c화학 탱크&r", "&c화학 물질 탱크&r"),
+        ("&c가스&r는 &b액체&r", "&c화학 물질&r은 &b액체&r"),
+        ("&b액체&r는 &c가스&r", "&b액체&r는 &c화학 물질&r"),
+        ("&b유체탱크&r", "&b유체 탱크&r"),
+    ),
+    "quest.7952DA35B4F5C598.quest_desc": (
+        (
+            "&7버킷&r만으로는 충분하지 않은 것이 무엇입니까?",
+            "&7양동이&r 하나로는 부족하다고요?",
+        ),
+        ("&7버킷&r 한 뭉치", "&7양동이&r 한 묶음"),
+        ("&b유체탱크&r", "&b유체 탱크&r"),
+        (
+            "&b유체 탱크&r는 하나의 &b유체&r 중 여러 &7버킷&r을 수용할 수 있으며 "
+            "&7버킷&r처럼 이동할 수 있습니다.",
+            "&b유체 탱크&r는 한 종류의 &b유체&r를 &7양동이&r 여러 개분 저장하고 "
+            "&7양동이&r처럼 들고 옮길 수 있습니다.",
+        ),
+        (
+            "&b유체&r를 추가하거나 제거하려면 또는 중 하나를 수행하도록 구성된 "
+            "&b기계 파이프&r가 필요합니다.",
+            "&b유체&r를 넣거나 빼려면 해당 방향으로 설정한 &b기계 파이프&r가 "
+            "필요합니다.",
+        ),
+    ),
+    "quest.3EC9D0DA61B45328.quest_subtitle": (
+        ("가스를 태워서 힘을 얻으세요", "기체를 태워 전력을 생산하세요"),
+    ),
+    "quest.3EC9D0DA61B45328.title": (("가스발전기", "기체 연소 발전기"),),
+    "quest.2F4458E9921DEB86.quest_desc": (
+        ("&a가스&r 형태의 마지막 물질 상태", "&a화학 물질&r이라는 별도 전송 형식"),
+        ("&a가스&r는 다른", "&a화학 물질&r은 다른"),
+        ("&a가스 파이프&r", "&a화학 물질 파이프&r"),
+        ("&a가스&r인지", "&a화학 물질&r인지"),
+        ("&a가스&r 또는 &b액체&r", "&a화학 물질&r 또는 &b액체&r"),
+    ),
 }
 
 MEKANISM_CUSTOM_NAMES = {
@@ -1540,6 +1579,10 @@ MEKANISM_KEY_OVERRIDES = {
         "아이템의 보안 제한을 우회할 수 있습니다. 이 권한은 기본적으로 서버 "
         "관리자에게 부여됩니다."
     ),
+    "description.mekanism.solar_neutron_activator": (
+        "태양의 중성자 방사선을 내부 저장소에 집중시켜 여러 동위원소를 천천히 "
+        "생성하는 기계입니다."
+    ),
     "configuration.mekanism.usage.fluidic_plenisher.energy.tooltip": (
         "액체 방출기의 작업당 에너지 사용량(J)입니다."
     ),
@@ -1614,6 +1657,25 @@ MEKANISM_KEY_OVERRIDES = {
         "§a§C화학 물질 재충전 모듈§r\n\n여기에서 다음 항목을 정할 수 있습니다: "
         "\n- 플레이어 인벤토리에서 상호작용할 구역\n\n필터는 이 모듈에서 "
         "화학 물질을 받을 수 있는 아이템을 제어합니다."
+    ),
+    "block.mekmm.ambient_gas_collector": "대기 가스 수집기",
+    "configuration.mekmm.general.collect.amount.tooltip": (
+        "대기 가스 수집기가 수집하는 불안정 차원 가스의 양(mB)입니다."
+    ),
+    "configuration.mekmm.storage.ambient_gas_collector.energy": (
+        "대기 가스 수집기 에너지 저장소"
+    ),
+    "configuration.mekmm.storage.ambient_gas_collector.energy.tooltip": (
+        "대기 가스 수집기의 기본 에너지 저장량(J)입니다."
+    ),
+    "configuration.mekmm.usage.ambient_gas_collector.energy": (
+        "대기 가스 수집기 에너지 사용량"
+    ),
+    "configuration.mekmm.usage.ambient_gas_collector.energy.tooltip": (
+        "대기 가스 수집기의 작업당 에너지 사용량(J)입니다."
+    ),
+    "info.mekmm.jei.unstable_dimensional_gas": (
+        "대기 가스 수집기로 수집합니다(%1$s mB/t). 기계 위에는 블록을 놓지 마세요."
     ),
     "item.refinedstorage_mekanism_integration.chemical_storage_disk.help": (
         "%s버킷을 저장합니다. 비어 있을 때 손에 들고 사용하면 화학 물질 저장 부품을 "

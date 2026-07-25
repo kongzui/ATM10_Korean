@@ -2178,7 +2178,7 @@
   "description.mekanism.seismic_vibrator": "지진파를 발생시켜 지하의 정보를 읽어내는 기계입니다.",
   "description.mekanism.shearing_unit": "정교한 절단 작업을 하는 에너지 칼날을 생성해 줍니다. 레이저 검은 추가하지 않습니다.",
   "description.mekanism.silk_touch_unit": "섬세한 손길 능력을 부여합니다.",
-  "description.mekanism.solar_neutron_activator": "내부 용기 안에 태양 중성자를 보내어, 여러 가지 동위원소를 천천히 만들어내는 기계입니다.",
+  "description.mekanism.solar_neutron_activator": "태양의 중성자 방사선을 내부 저장소에 집중시켜 여러 동위원소를 천천히 생성하는 기계입니다.",
   "description.mekanism.soul_surfer_unit": "플레이어가 영혼 블럭 위를 쉽게 지나갈 수 있게 해줍니다. 여러개를 설치하여 속도를 늘릴 수 있습니다.",
   "description.mekanism.sps_casing": "위상 변이 반응으로부터 방출되는 강렬한 화학, 열역학적 반응을 저항할 수 있는 강화된 케이싱입니다.",
   "description.mekanism.sps_port": "SPS의 에너지와 물질을 운반할 수 있도록 하여 주는 포트입니다.",
