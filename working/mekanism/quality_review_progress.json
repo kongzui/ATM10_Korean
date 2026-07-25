@@ -19,11 +19,28 @@
         "config/ftbquests/quests/lang/ko_kr.snbt"
       ],
       "unexpected_instance_changes": []
+    },
+    {
+      "unit": "Mekanism reactor, QIO, and late-game quest descriptions",
+      "language_keys_reviewed": 364,
+      "language_keys_corrected": 2,
+      "quest_keys_reviewed": 251,
+      "quest_keys_corrected": 24,
+      "correction_focus": [
+        "SPS energy and antimatter instructions",
+        "fission and fusion reactor construction",
+        "reactor safety and waste handling",
+        "QIO and multiblock quantity instructions"
+      ],
+      "backup_root": "temp/backups/20260726_041324_732769",
+      "applied_paths": [
+        "config/ftbquests/quests/lang/ko_kr.snbt",
+        "resourcepacks/ATM10_Korean/assets/mekanismgenerators/lang/ko_kr.json"
+      ],
+      "unexpected_instance_changes": []
     }
   ],
   "pending_units": [
-    "Mekanism reactor and late-game quest descriptions",
-    "Mekanism Generators",
     "Mekanism Tools",
     "Mekanism integrations and utility add-ons",
     "KubeJS tooltips and Ponder scenes"
