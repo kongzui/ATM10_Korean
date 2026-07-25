@@ -1,0 +1,32 @@
+{
+  "status": "in_progress",
+  "scope": "Mekanism family language, FTB Quests, KubeJS tooltips, and Ponder quality review",
+  "completed_units": [
+    {
+      "unit": "Mekanism core quest descriptions and shared terminology",
+      "language_keys_reviewed": 3239,
+      "quest_keys_reviewed": 235,
+      "quest_keys_corrected": 21,
+      "shared_ae2_keys_corrected": 2,
+      "correction_focus": [
+        "machine-translated or reversed instructions",
+        "Mekanism machine-name consistency",
+        "Korean number and counter placement",
+        "AE2 and Mekanism shared terminology"
+      ],
+      "backup_root": "temp/backups/20260726_040959_810835",
+      "applied_paths": [
+        "config/ftbquests/quests/lang/ko_kr.snbt"
+      ],
+      "unexpected_instance_changes": []
+    }
+  ],
+  "pending_units": [
+    "Mekanism reactor and late-game quest descriptions",
+    "Mekanism Generators",
+    "Mekanism Tools",
+    "Mekanism integrations and utility add-ons",
+    "KubeJS tooltips and Ponder scenes"
+  ],
+  "validation_errors": 0
+}
