@@ -30,8 +30,8 @@
       "custom_name/literal component",
       "first-task quest fallback"
     ],
-    "reviewed_overrides": 47,
-    "matching_output": 47
+    "reviewed_overrides": 49,
+    "matching_output": 49
   },
   "guides": {
     "jar": "Powah-6.2.10.jar",
@@ -70,35 +70,31 @@
     ],
     "direct_display_candidates": 0
   },
+  "quality_review": {
+    "powah_language_corrections_checked": 33,
+    "lollipop_language_corrections_checked": 13,
+    "scopes_checked": [
+      "GuideME 출력",
+      "Lollipop 작업본",
+      "Lollipop 출력본",
+      "Powah 작업본",
+      "Powah 출력본",
+      "퀘스트 확정 번역"
+    ],
+    "stale_phrases": []
+  },
   "deployment": {
     "status": "applied_and_verified",
-    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp/backups/20260715_115003_499502/backup_manifest.json",
-    "files_checked": 32,
-    "hash_matches": 32,
+    "target": "C:\\Users\\moon9653nb\\Desktop\\ATM10_source",
+    "backup_manifest": "temp/backups/20260728_101314_768430/backup_manifest.json",
+    "files_checked": 5,
+    "hash_matches": 5,
     "changed_paths": [
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/energy_blocks/energizing.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/energy_blocks/energy_discharger.md",
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/lollipop/lang/ko_kr.json",
       "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/energy_blocks/energy_hopper.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/energy_blocks/player_transmitter.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/generators/furnator.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/generators/magmator.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/generators/reactor.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/generators/solar_panel.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/generators/thermo_generator.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/battery.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/binding_card.md",
       "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/binding_card_dim.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/charged_snowball.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/lens_of_ender.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/player_aerial_pearl.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/wrench.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/materials/dry_ice.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/materials/uraninite.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/storage_transfer/ender_cell.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/storage_transfer/ender_gate.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/storage_transfer/energy_cable.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/storage_transfer/energy_cell.md"
+      "resourcepacks/ATM10_Korean/assets/powah/lang/ko_kr.json"
     ],
     "unexpected_changes": []
   },

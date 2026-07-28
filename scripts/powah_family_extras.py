@@ -12,6 +12,7 @@ from pathlib import Path
 from zipfile import ZipFile
 
 import build_ae2_quests as quest_snbt
+import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -53,9 +54,9 @@ QUEST_OVERRIDES: dict[str, object] = {
     "quest.1C273D9E046FD18A.quest_desc": [
         "에너지 주입 오브에서 아이템에 에너지를 주입할 때 사용합니다."
     ],
-    "quest.25EFC21A3C48E0B6.title": "등급: &2활기찬",
+    "quest.25EFC21A3C48E0B6.title": "등급: &2스피리티드",
     "quest.33816AF0E699F19F.quest_desc": ["이 블록은 충전된 아이템의 FE를 방전합니다."],
-    "quest.341486C9F277FEB7.title": "원자로 (활기찬)",
+    "quest.341486C9F277FEB7.title": "원자로 (스피리티드)",
     "quest.3CB6DC5B09C62CFE.quest_desc": [
         "&5엔더 게이트&r는 인접한 블록과 &7엔더 네트워크&r 사이에서 전력을 무선으로 "
         "전송합니다.\\n\\n무선 전력망에 접속하는 액세스 포인트라고 생각하면 됩니다."
@@ -92,7 +93,7 @@ QUEST_OVERRIDES: dict[str, object] = {
     "quest.677365A816994C8B.quest_desc": [
         "&9플레이어 송신기&r는 플레이어의 아이템을 무선으로 충전합니다. 먼저 &9결속 "
         "카드&r로 플레이어를 연결해야 합니다. 일반 결속 카드는 같은 차원에서만 작동하며, "
-        "&d결속 카드 (차원)&r을 사용하면 차원을 넘어 충전할 수 있습니다.",
+        "&d차원 결속 카드&r를 사용하면 차원을 넘어 충전할 수 있습니다.",
         "",
         "참고: 플레이어 공중 진주는 좀비나 허스크에게 공중 진주를 사용해 얻습니다.",
     ],
@@ -123,16 +124,18 @@ QUEST_OVERRIDES: dict[str, object] = {
     "quest.3FF61A4D7A250AE1.quest_desc": [
         "다른 &5크리에이티브 &d에너지 셀&r과 혼동하기 쉬운 이 &5크리에이티브 "
         "&c에너지 셀&r을 만들려면 &c니트로 셀&r 4개가 필요합니다.\\n\\n각 &c니트로 "
-        "셀&r에는 &a활기찬 셀&r 2개가, 각 &a활기찬 셀&r에는 &b나이오틱 셀&r 2개가 "
+        "셀&r에는 &a스피리티드 셀&r 2개가, 각 &a스피리티드 셀&r에는 &b나이오틱 셀&r "
+        "2개가 "
         "필요합니다. 이런 과정이 한동안 계속됩니다...\\n\\n계산은 제작법 트리에 맡기세요. "
         "저는 더 중요한 일이 있거든요!"
     ],
+    "quest.3FF61A4D7A250AE1.quest_subtitle": "무제한 Powah!",
     "quest.7B3613C01F0B1373.quest_desc": [
         "&3비브라늄&r과 &6올더모디움&r을 결합하려면 &l&cPowah!&r의 힘이 필요합니다! "
         "\\n\\n에너지 주입 오브를 놓고 에너지 주입 막대가 오브를 향하게 배치하세요. 막대는 "
         "전력원 위에 놓아야 하며, 등급에 따라 저장량과 전송량이 달라집니다. "
         "\\n\\n주괴, 피글리치 심장 2개, 1배 압축 니트로 수정 블록을 오브에 넣으세요. "
-        "순서는 상관없습니다. 막대를 통해 1 Billion FE를 공급하면 완성됩니다!\\n",
+        "순서는 상관없습니다. 막대를 통해 10억 FE를 공급하면 완성됩니다!\\n",
         '{ "text": "Powah! 퀘스트", "color": "#55FF55", "underlined": true, '
         '"clickEvent": { "action": "change_page", "value": "2A6EBEEBAB882679" } }',
     ],
@@ -185,6 +188,7 @@ QUEST_OVERRIDES: dict[str, object] = {
         "필요합니다!"
     ],
     "quest.7E4367252A39BE6C.title": "&c&lPowah!",
+    "task.17F07D6404668DE6.title": "에너지 주입 막대",
 }
 
 GUIDE_TITLES = {
@@ -207,7 +211,7 @@ GUIDE_TITLES = {
     "Functional Blocks": "기능 블록",
     "Player Transmitter": "플레이어 송신기",
     "Energy Hopper": "에너지 호퍼",
-    "Binding Card (Dimensional)": "결속 카드 (차원)",
+    "Binding Card (Dimensional)": "차원 결속 카드",
     "Binding Card": "결속 카드",
     "Charged Snowball": "충전된 눈덩이",
     "Items": "아이템",
@@ -307,7 +311,7 @@ GUIDE_PARAGRAPHS = {
         "The Energy Hopper its a block used to charge chargeable items inside an "
         "adjacent inventory like a chest or any block with an accessible inventory "
         "and not a not has forge energy. "
-    ): "에너지 호퍼는 상자처럼 인벤토리를 열 수 있는 인접한 블록 안의 충전 가능한 아이템에 전력을 공급합니다. ",
+    ): "에너지 호퍼는 자체 FE 저장 기능이 없고 인벤토리를 열 수 있는 인접 블록 안의 충전 가능한 아이템에 전력을 공급합니다. ",
     "Dimensional Binding Card used to link a player with a Player Transmitter across dimensions. ": "차원 결속 카드는 플레이어와 플레이어 송신기를 차원을 넘어 연결합니다. ",
     "Binding Card used to link a player with a Player Transmitter in the same dimension. ": "결속 카드는 같은 차원에 있는 플레이어와 플레이어 송신기를 연결합니다. ",
     "You need to link it with you before adding it to the player transmitter, Right-click it to bind. ": "플레이어 송신기에 넣기 전에 카드를 우클릭해 자신에게 결속해야 합니다. ",
@@ -338,6 +342,70 @@ INDEX_LINKS = {
     "Items": "아이템",
     "Materials": "재료",
 }
+
+POWAH_QUALITY_EXPECTED = {
+    "block.powah.ender_cell_spirited": "엔더 셀 (스피리티드)",
+    "block.powah.ender_gate_spirited": "엔더 게이트 (스피리티드)",
+    "block.powah.energizing_rod_spirited": "에너지 주입 막대 (스피리티드)",
+    "block.powah.energy_cable_spirited": "에너지 케이블 (스피리티드)",
+    "block.powah.energy_cell_spirited": "에너지 셀 (스피리티드)",
+    "block.powah.energy_discharger_spirited": "에너지 방전기 (스피리티드)",
+    "block.powah.energy_hopper_spirited": "에너지 호퍼 (스피리티드)",
+    "block.powah.furnator_spirited": "퍼네이터 (스피리티드)",
+    "block.powah.magmator_spirited": "마그마토르 (스피리티드)",
+    "block.powah.player_transmitter_spirited": "플레이어 송신기 (스피리티드)",
+    "block.powah.reactor_spirited": "원자로 (스피리티드)",
+    "block.powah.solar_panel_spirited": "태양광 패널 (스피리티드)",
+    "block.powah.spirited_crystal_block": "스피리티드 수정 블록",
+    "block.powah.thermo_generator_spirited": "열 발전기 (스피리티드)",
+    "chat.powah.wrench.link.fail": "연결 범위를 벗어났습니다!",
+    "chat.powah.wrench.link.start": "연결을 시작했습니다...",
+    "gui.powah.jei.category.coolant": "냉각 유체",
+    "gui.powah.jei.category.magmatic": "마그마성 유체",
+    "gui.powah.jei.category.solid.coolant": "고체 냉각재",
+    "info.powah.generation.factor": "발전 계수",
+    "info.powah.new.capacity": "변경 후 용량: %s FE",
+    "info.powah.new.energy": "변경 후 전력: %s FE",
+    "info.powah.production": "발전량",
+    "info.powah.shift.to.apply": "[Shift + 클릭]으로 적용합니다.",
+    "info.powah.solid.coolant": "고체 냉각재",
+    "info.powah.unlimited": "무제한 Powah!!!",
+    "item.powah.battery_niotic": "배터리 (나이오틱)",
+    "item.powah.battery_spirited": "배터리 (스피리티드)",
+    "item.powah.binding_card_dim": "차원 결속 카드",
+    "item.powah.capacitor_hardened": "강화 축전기",
+    "item.powah.capacitor_spirited": "스피리티드 축전기",
+    "item.powah.crystal_spirited": "스피리티드 수정",
+    "item.powah.spirited_crystal": "스피리티드 수정",
+}
+
+LOLLIPOP_QUALITY_EXPECTED = {
+    "info.lollipop.coolant": "냉각재",
+    "info.lollipop.empty": "비어 있음",
+    "info.lollipop.energy.fe": "전력",
+    "info.lollipop.fluid": "유체",
+    "info.lollipop.generates": "발전량",
+    "info.lollipop.generating": "발전 중",
+    "info.lollipop.io.mode": "입출력 모드",
+    "info.lollipop.io.mode.all": "입력/출력",
+    "info.lollipop.io.mode.extract": "출력",
+    "info.lollipop.io.mode.receive": "입력",
+    "info.lollipop.max.extract": "최대 출력",
+    "info.lollipop.max.io": "최대 입출력",
+    "info.lollipop.max.receive": "최대 입력",
+}
+
+FORBIDDEN_QUALITY_PHRASES = (
+    "1 Billion FE",
+    "결속 카드 (차원)",
+    "고체 냉각수",
+    "니오틱",
+    "마그마 액체",
+    "무제한 파와",
+    "에너자이징",
+    "활기찬 셀",
+    "활기찬 수정",
+)
 
 
 def load_json(path: Path) -> dict[str, object]:
@@ -375,7 +443,23 @@ def apply_quest_overrides() -> dict[str, object]:
             if key not in QUEST_OVERRIDES:
                 continue
             translated = QUEST_OVERRIDES[key]
-            errors = quest_snbt.validate_value(key, english[key], translated)
+            validation_source = english[key]
+            for source, target in family_goal.QUEST_VALIDATION_TEXT_EQUIVALENTS.get(
+                key,
+                (),
+            ):
+                if isinstance(validation_source, str):
+                    validation_source = validation_source.replace(source, target)
+                else:
+                    validation_source = [
+                        paragraph.replace(source, target)
+                        for paragraph in validation_source
+                    ]
+            errors = quest_snbt.validate_value(
+                key,
+                validation_source,
+                translated,
+            )
             if errors:
                 raise ValueError("; ".join(errors))
             found.add(key)
@@ -653,6 +737,56 @@ def verify_quest_overrides() -> tuple[dict[str, object], list[str]]:
     }, errors
 
 
+def verify_quality_review() -> tuple[dict[str, object], list[str]]:
+    """품질 검수에서 확정한 용어와 오래된 문구의 제거를 확인한다."""
+    errors: list[str] = []
+    language_paths = {
+        "Powah 작업본": (
+            WORK_ROOT / "powah/ko_kr.json",
+            POWAH_QUALITY_EXPECTED,
+        ),
+        "Powah 출력본": (
+            OUTPUT_ASSETS / "powah/lang/ko_kr.json",
+            POWAH_QUALITY_EXPECTED,
+        ),
+        "Lollipop 작업본": (
+            WORK_ROOT / "lollipop/ko_kr.json",
+            LOLLIPOP_QUALITY_EXPECTED,
+        ),
+        "Lollipop 출력본": (
+            OUTPUT_ASSETS / "lollipop/lang/ko_kr.json",
+            LOLLIPOP_QUALITY_EXPECTED,
+        ),
+    }
+    scanned: dict[str, str] = {}
+    for label, (path, expected) in language_paths.items():
+        translations = load_json(path)
+        for key, value in expected.items():
+            if translations.get(key) != value:
+                errors.append(f"{label} 품질 확정 번역 불일치: {key}")
+        scanned[label] = json.dumps(translations, ensure_ascii=False)
+
+    scanned["퀘스트 확정 번역"] = json.dumps(
+        QUEST_OVERRIDES,
+        ensure_ascii=False,
+    )
+    scanned["GuideME 출력"] = "\n".join(
+        path.read_text(encoding="utf-8") for path in sorted(GUIDE_OUTPUT.rglob("*.md"))
+    )
+    stale = []
+    for label, text in scanned.items():
+        for phrase in FORBIDDEN_QUALITY_PHRASES:
+            if phrase in text:
+                stale.append(f"{label}:{phrase}")
+    errors.extend(f"오래된 품질 검수 문구 유지: {item}" for item in stale)
+    return {
+        "powah_language_corrections_checked": len(POWAH_QUALITY_EXPECTED),
+        "lollipop_language_corrections_checked": len(LOLLIPOP_QUALITY_EXPECTED),
+        "scopes_checked": sorted(scanned),
+        "stale_phrases": stale,
+    }, errors
+
+
 def deployment_report() -> dict[str, object]:
     """가장 최근 적용 기록에서 이 모드군의 해시 일치 결과를 모은다."""
     manifests = sorted(
@@ -715,10 +849,12 @@ def verify(instance: Path) -> tuple[dict[str, object], int]:
     guides, guide_errors = verify_guides(instance)
     advancements, advancement_errors = verify_advancements(instance)
     kubejs, kubejs_errors = verify_kubejs(instance)
+    quality, quality_errors = verify_quality_review()
     errors.extend(quest_errors)
     errors.extend(guide_errors)
     errors.extend(advancement_errors)
     errors.extend(kubejs_errors)
+    errors.extend(quality_errors)
     provenance = core.get("language_provenance", {})
     report = {
         "family": "Powah!·Flux Networks",
@@ -728,6 +864,7 @@ def verify(instance: Path) -> tuple[dict[str, object], int]:
         "guides": guides,
         "advancements": advancements,
         "kubejs": kubejs,
+        "quality_review": quality,
         "deployment": deployment_report(),
         "validation_errors": len(errors),
         "errors": errors,

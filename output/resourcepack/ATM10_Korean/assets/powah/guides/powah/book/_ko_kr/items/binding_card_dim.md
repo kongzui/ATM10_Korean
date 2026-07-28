@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: 결속 카드 (차원)
+  title: 차원 결속 카드
   parent: items/index.md
   icon: powah:binding_card_dim
   position: 5
@@ -8,7 +8,7 @@ item_ids:
   - powah:binding_card_dim
 ---
 
-# 결속 카드 (차원)
+# 차원 결속 카드
 
 차원 결속 카드는 플레이어와 플레이어 송신기를 차원을 넘어 연결합니다.
 

@@ -1,0 +1,58 @@
+{
+  "status": "quality_review_completed_and_deployed",
+  "completed_at": "2026-07-28T10:13:46+09:00",
+  "scope": "Powah!, Lollipop, GuideME, advancements, FTB Quests, and KubeJS",
+  "language": {
+    "modules": 2,
+    "total_keys": 240,
+    "bundled_korean_reviewed_and_reused": 0,
+    "project_output_reviewed": 237,
+    "new_or_edited_before_quality_review": 3,
+    "quality_review_corrections": 46
+  },
+  "ftbquests": {
+    "chapters": 1,
+    "quests_checked": 109,
+    "tasks_checked": 114,
+    "display_keys_reviewed": 66,
+    "quality_review_keys_corrected": 7,
+    "unresolved_english_custom_names": 0
+  },
+  "guides_and_content": {
+    "guideme_pages_checked": 28,
+    "guideme_pages_corrected": 2,
+    "advancement_files_checked": 157,
+    "advancement_display_fields": 0
+  },
+  "kubejs": {
+    "files_reviewed": 18,
+    "direct_display_candidates": 0,
+    "quality_review_occurrences_corrected": 0
+  },
+  "deployment": {
+    "source_root_configured": true,
+    "game_root_configured": false,
+    "last_backup_root": "temp/backups/20260728_101314_768430",
+    "post_apply_expected_changes": [],
+    "unexpected_instance_changes": []
+  },
+  "validation": {
+    "language_keys_match_en_us": true,
+    "duplicate_keys": 0,
+    "translation_induced_name_collisions": 0,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "numbers_preserved": true,
+    "line_breaks_preserved": true,
+    "quest_fallback_paths_checked": true,
+    "guideme_links_and_tags_checked": true,
+    "working_output_match": true,
+    "deployed_hashes_match": true,
+    "game_runtime_verified": false,
+    "validation_errors": 0
+  },
+  "deferred_related_units": [
+    "Flux Networks"
+  ],
+  "remaining_review_items": []
+}

@@ -144,6 +144,10 @@ QUEST_CHAPTER_OUTPUT = (
     PROJECT_ROOT / "output/overrides/config/ftbquests/quests/chapters"
 )
 
+QUEST_VALIDATION_TEXT_EQUIVALENTS = {
+    "quest.7B3613C01F0B1373.quest_desc": (("1 Billion", "10억"),),
+}
+
 EXTRA_SCOPE = {
     "ars_nouveau": (
         {
@@ -2242,7 +2246,28 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
             continue
         for key, source in english.items():
             target = korean[key]
-            errors.extend(quest_snbt.validate_value(key, source, target))
+            validation_source = source
+            for source_text, target_text in QUEST_VALIDATION_TEXT_EQUIVALENTS.get(
+                key,
+                (),
+            ):
+                if isinstance(validation_source, str):
+                    validation_source = validation_source.replace(
+                        source_text,
+                        target_text,
+                    )
+                else:
+                    validation_source = [
+                        paragraph.replace(source_text, target_text)
+                        for paragraph in validation_source
+                    ]
+            errors.extend(
+                quest_snbt.validate_value(
+                    key,
+                    validation_source,
+                    target,
+                )
+            )
             if key in redundant_keys:
                 if key in output:
                     errors.append(f"중복 단일 ItemTask 제목이 출력에 남음: {key}")
