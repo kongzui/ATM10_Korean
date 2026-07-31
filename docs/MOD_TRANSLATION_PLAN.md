@@ -172,12 +172,12 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
 |---|---|---|---|---|---|
 | The Twilight Forest | 황혼의 숲 | 별도 차원의 던전과 보스를 순서대로 공략 | 본체, Bibliowoods 직접 연동, 전용·관련 퀘스트·KubeJS·발전 과제·탐험 수첩 | 완료 | 기존 계획·대표 차원 모드 |
-| L_Ender's Cataclysm | 카타클리즘 | 고난도 구조물, 보스와 전용 장비를 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 기존 계획·보스 콘텐츠 |
-| The Undergarden | 언더가든 | 지하 세계를 테마로 한 별도 차원과 생태계를 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 기존 계획·차원 콘텐츠 |
-| The Aether | 에테르 | 하늘 차원의 던전·보스·장비와 진행을 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 신규: 전용 퀘스트·영어 1,238키 |
-| The Bumblezone | 범블존 | 벌집 차원에서 탐험·수집·보스 콘텐츠를 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 신규: 전용 퀘스트·영어 1,788키 |
-| Eternal Starlight | 이터널 스타라이트 | 별빛 테마 차원, 생물군계, 던전과 보스를 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 신규: 전용 퀘스트·영어 1,788키 |
-| Deeper and Darker | 디퍼 앤 다커 | 딥 다크를 확장하고 다른 차원과 장비를 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 신규: 전용 퀘스트 챕터 |
+| L_Ender's Cataclysm | 카타클리즘 | 고난도 구조물, 보스와 전용 장비를 제공 | 본체, 전용·관련 퀘스트 | 완료 | 기존 계획·보스 콘텐츠 |
+| The Undergarden | 언더가든 | 지하 세계를 테마로 한 별도 차원과 생태계를 제공 | 본체, Bibliowoods·Productive Bees 직접 연동, 전용·관련 퀘스트 | 완료 | 기존 계획·차원 콘텐츠 |
+| The Aether | 에테르 | 하늘 차원의 던전·보스·장비와 진행을 제공 | 본체, Auroras·Bibliowoods·Create: Dragons Plus·Rainbows·Theurgy 직접 연동, 전용·관련 퀘스트·KubeJS·전승 문구 | 완료 | 신규: 전용 퀘스트·영어 1,238키 |
+| The Bumblezone | 범블존 | 벌집 차원에서 탐험·수집·보스 콘텐츠를 제공 | 본체, Dyenamics and Friends 직접 연동, 전용·관련 퀘스트·발전 과제·fallback 표시 | 완료 | 신규: 전용 퀘스트·영어 1,788키 |
+| Eternal Starlight | 이터널 스타라이트 | 별빛 테마 차원, 생물군계, 던전과 보스를 제공 | 본체, Bibliowoods·Hostile Neural Networks 직접 연동, 전용·관련 퀘스트·KubeJS·발전 과제·인게임 책 | 완료 | 신규: 전용 퀘스트·영어 1,788키 |
+| Deeper and Darker | 디퍼 앤 다커 | 딥 다크를 확장하고 다른 차원과 장비를 제공 | 본체, Bibliowoods 직접 연동, 전용·관련 퀘스트·KubeJS·발전 과제·fallback 표시 | 완료 | 신규: 전용 퀘스트 챕터 |
 | Ice and Fire | 아이스 앤 파이어 | 드래곤과 신화 생물, 장비와 탐험 콘텐츠를 제공 | 본체, 전용 퀘스트 챕터 | 미작업 | 신규: 전용 퀘스트·영어 1,744키 |
 | Oh The Biomes We've Gone·Regions Unexplored | 오 더 바이옴즈 위브 곤·리전스 언익스플로어드 | 오버월드와 여러 차원의 생물군계를 확장 | 두 본체와 나무·블록 이름 | 미작업 | 신규: 대규모 생물군계·영어 항목 다수 |
 | 구조물·던전 모음 | 구조물·던전 모음 | 월드 곳곳에 던전과 탐험 구조물을 추가 | YUNG's Better 시리즈, When Dungeons Arise, Dungeon Crawl, Repurposed Structures, Structory, Moog's Structures | 미작업 | 신규: 설치된 대표 구조물 모드 묶음 |
@@ -224,5 +224,9 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
   Allthemodium·ATM 장비의 언어·관련 퀘스트·KubeJS·가이드 검수와 적용 완료
 - **Integrated Dynamics 계열:** 5개 모드와 호환 네임스페이스 2개의 언어 2,948키,
   전용·관련 퀘스트 74키, 인게임 가이드·발전 과제·KubeJS 검수와 적용 완료
+- **탐험·차원·보스 모드군 7개:** The Twilight Forest, L_Ender's Cataclysm,
+  The Undergarden, The Aether, The Bumblezone, Eternal Starlight, Deeper and Darker의
+  본체 언어와 직접 연동 모드, 전용·관련 퀘스트, KubeJS·발전 과제·fallback 표시 경로를
+  현재 설치 원문과 대조해 검수하고 적용 완료
 - **FTB Quests 공통 제목·탐색 기반:** 일부 완료. 다른 모드의 미완성 제목과 fallback은
   해당 모드를 선택했을 때 함께 검토
