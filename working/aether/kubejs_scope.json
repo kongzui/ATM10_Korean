@@ -1,0 +1,7 @@
+{
+  "source": "kubejs/server_scripts/announcements/announcements.js",
+  "references_checked": 2,
+  "direct_display_lines_translated": 1,
+  "source_state": "already_applied",
+  "output": "output/overrides/kubejs/server_scripts/announcements/announcements.js"
+}

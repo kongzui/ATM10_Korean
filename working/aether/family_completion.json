@@ -1,0 +1,12 @@
+{
+  "family": "The Aether",
+  "status": "complete",
+  "language_keys": 1238,
+  "ftbquest_display_keys": 161,
+  "book_of_lore_keys": 242,
+  "bibliowoods_direct_integration_keys": 157,
+  "other_direct_integration_keys": 17,
+  "advancement_files_checked": 343,
+  "kubejs_direct_display_lines": 1,
+  "live_parity_required": true
+}

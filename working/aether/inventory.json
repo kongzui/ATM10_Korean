@@ -1,0 +1,80 @@
+{
+  "family": "The Aether",
+  "installed": [
+    {
+      "label": "The Aether",
+      "jar": "aether-1.21.1-1.5.10-neoforge.jar",
+      "namespace": "aether",
+      "direct_integration": false,
+      "english_keys": 1238,
+      "bundled_korean_keys": 11,
+      "metadata_mentions_family": [
+        "aether"
+      ],
+      "guide_candidates": 10,
+      "guide_examples": [
+        "assets/aether/blockstates/skyroot_bookshelf.json",
+        "assets/aether/models/block/skyroot_bookshelf.json",
+        "assets/aether/models/item/book_of_lore.json",
+        "assets/aether/models/item/skyroot_bookshelf.json",
+        "data/aether/advancement/recipes/building_blocks/skyroot_bookshelf.json",
+        "data/aether/advancement/recipes/misc/book_of_lore.json",
+        "data/aether/loot_table/blocks/skyroot_bookshelf.json",
+        "data/aether/recipe/book_of_lore.json",
+        "data/aether/recipe/skyroot_bookshelf.json",
+        "data/aether/tags/item/book_of_lore_materials.json"
+      ],
+      "advancements": 344,
+      "advancement_examples": [
+        "data/aether/advancement/aether_sleep.json",
+        "data/aether/advancement/black_moa.json",
+        "data/aether/advancement/blue_aercloud.json",
+        "data/aether/advancement/bronze_dungeon.json",
+        "data/aether/advancement/craft_altar.json",
+        "data/aether/advancement/enchanted_gravitite.json",
+        "data/aether/advancement/enter_aether.json",
+        "data/aether/advancement/gold_dungeon.json",
+        "data/aether/advancement/gravitite_armor.json",
+        "data/aether/advancement/hammer_loot.json",
+        "data/aether/advancement/ice_accessory.json",
+        "data/aether/advancement/icestone.json",
+        "data/aether/advancement/incubate_moa.json",
+        "data/aether/advancement/lance_loot.json",
+        "data/aether/advancement/loreception.json",
+        "data/aether/advancement/mount_phyg.json",
+        "data/aether/advancement/obsidian_armor.json",
+        "data/aether/advancement/obtain_egg.json",
+        "data/aether/advancement/obtain_petal.json",
+        "data/aether/advancement/phoenix_armor.json"
+      ],
+      "recipes": 683
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "Auroras-1.21-1.6.2.jar",
+      "dependency_mentions": [
+        "aether"
+      ]
+    },
+    {
+      "jar": "bibliowoods-1.21.1-1.6.2.jar",
+      "dependency_mentions": [
+        "aether"
+      ]
+    },
+    {
+      "jar": "CreateDragonsPlus-1.11.2b.jar",
+      "dependency_mentions": [
+        "aether"
+      ]
+    },
+    {
+      "jar": "Rainbows-1.21-1.5.jar",
+      "dependency_mentions": [
+        "aether"
+      ]
+    }
+  ]
+}

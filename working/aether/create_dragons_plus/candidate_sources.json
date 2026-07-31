@@ -1,0 +1,12 @@
+{
+  "create.item_attributes.create_dragons_plus.aether_enchantable": "manual_direct_integration",
+  "create.item_attributes.create_dragons_plus.aether_enchantable.inverted": "manual_direct_integration",
+  "create_dragons_plus.ponder.bulk_enchanting.text_1": "manual_direct_integration",
+  "create_dragons_plus.ponder.bulk_enchanting.text_2": "manual_direct_integration",
+  "recipe.create_dragons_plus.aether_fan_enchanting": "manual_direct_integration",
+  "recipe.create_dragons_plus.aether_fan_enchanting.fan": "manual_direct_integration",
+  "recipe.create_dragons_plus.aether_fan_enchanting.repairing": "manual_direct_integration",
+  "recipe.create_dragons_plus.aether_fan_incubation": "manual_direct_integration",
+  "recipe.create_dragons_plus.aether_fan_incubation.entity": "manual_direct_integration",
+  "recipe.create_dragons_plus.aether_fan_incubation.fan": "manual_direct_integration"
+}

@@ -1,0 +1,12 @@
+{
+  "create.item_attributes.create_dragons_plus.aether_enchantable": "대량 마법 부여 가능",
+  "create.item_attributes.create_dragons_plus.aether_enchantable.inverted": "대량 마법 부여 불가",
+  "create_dragons_plus.ponder.bulk_enchanting.text_1": "황금 에어클라우드를 통과하는 바람으로 대량 마법 부여 설비를 만듭니다.",
+  "create_dragons_plus.ponder.bulk_enchanting.text_2": "대량 마법 부여는 팬 가공으로 The Aether 제단 조합법을 처리합니다.",
+  "recipe.create_dragons_plus.aether_fan_enchanting": "대량 마법 부여",
+  "recipe.create_dragons_plus.aether_fan_enchanting.fan": "황금 에어클라우드 뒤의 팬",
+  "recipe.create_dragons_plus.aether_fan_enchanting.repairing": "아이템 내구도 수리",
+  "recipe.create_dragons_plus.aether_fan_incubation": "대량 마법 부여 부화",
+  "recipe.create_dragons_plus.aether_fan_incubation.entity": "생성 대상: %s",
+  "recipe.create_dragons_plus.aether_fan_incubation.fan": "황금 에어클라우드 뒤의 팬"
+}

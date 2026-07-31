@@ -1,0 +1,26 @@
+{
+  "auroras": {
+    "jar": "Auroras-1.21-1.6.2.jar",
+    "keys_reviewed": 1,
+    "existing_keys_preserved": 0,
+    "merged_output_keys": 1
+  },
+  "rainbows": {
+    "jar": "Rainbows-1.21-1.5.jar",
+    "keys_reviewed": 1,
+    "existing_keys_preserved": 0,
+    "merged_output_keys": 1
+  },
+  "create_dragons_plus": {
+    "jar": "CreateDragonsPlus-1.11.2b.jar",
+    "keys_reviewed": 10,
+    "existing_keys_preserved": 0,
+    "merged_output_keys": 10
+  },
+  "theurgy": {
+    "jar": "theurgy-1.21.1-neoforge-1.73.1.jar",
+    "keys_reviewed": 5,
+    "existing_keys_preserved": 2,
+    "merged_output_keys": 7
+  }
+}

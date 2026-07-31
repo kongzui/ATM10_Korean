@@ -1,0 +1,127 @@
+{
+  "language": {
+    "jar": "aether-1.21.1-1.5.10-neoforge.jar",
+    "jar_size": 40223909,
+    "jar_sha256": "b19386301560a017a458e9790a7b59999e270f93010def0b61e7cbe4c8630dbf",
+    "english_keys": 1238,
+    "korean_keys": 1238,
+    "source_matches_installed_jar": true,
+    "output_matches_working_copy": true,
+    "output_sha256": "cbb7b6ab567e53deb0c3ccb9c1a675c19aa09a2f74df5f24411aff2f552aba9d"
+  },
+  "advancements": {
+    "files_checked": 343,
+    "display_fields_checked": 60,
+    "visible_literal_fields": 0,
+    "missing_translation_keys": 0
+  },
+  "guides": {
+    "patchouli_or_guideme_paths": 0,
+    "book_of_lore_display_path": "assets/aether/lang의 lore.* 키 242개"
+  },
+  "kubejs": {
+    "files_referencing_family": 2,
+    "referenced_paths": [
+      "kubejs/server_scripts/announcements/announcements.js",
+      "kubejs/server_scripts/mods/Silent Gear/Recipes.js"
+    ],
+    "direct_display_lines_translated": 1,
+    "recipe_only_reference_files": 1,
+    "source_state": "already_applied"
+  },
+  "bibliowoods": {
+    "jar": "bibliowoods-1.21.1-1.6.2.jar",
+    "keys_checked": 157,
+    "merged_output_keys": 1884,
+    "previous_completed_keys_preserved": 1727
+  },
+  "direct_integrations": {
+    "auroras": {
+      "jar": "Auroras-1.21-1.6.2.jar",
+      "keys_checked": 1,
+      "merged_output_keys": 1
+    },
+    "rainbows": {
+      "jar": "Rainbows-1.21-1.5.jar",
+      "keys_checked": 1,
+      "merged_output_keys": 1
+    },
+    "create_dragons_plus": {
+      "jar": "CreateDragonsPlus-1.11.2b.jar",
+      "keys_checked": 10,
+      "merged_output_keys": 10
+    },
+    "theurgy": {
+      "jar": "theurgy-1.21.1-neoforge-1.73.1.jar",
+      "keys_checked": 5,
+      "merged_output_keys": 7
+    }
+  },
+  "ftbquests": {
+    "chapters": [
+      "aether.snbt"
+    ],
+    "quests_checked": 73,
+    "tasks_checked": 77,
+    "display_keys_checked": 161,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 18,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 3,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "live_parity": {
+    "aether": {
+      "source_sha256": "cbb7b6ab567e53deb0c3ccb9c1a675c19aa09a2f74df5f24411aff2f552aba9d",
+      "live_sha256": "cbb7b6ab567e53deb0c3ccb9c1a675c19aa09a2f74df5f24411aff2f552aba9d",
+      "matches": true
+    },
+    "bibliowoods": {
+      "source_sha256": "3eacb53cf528c08dc97931f15a52c971b6c245587ab7837453f8c75ae58a413c",
+      "live_sha256": "3eacb53cf528c08dc97931f15a52c971b6c245587ab7837453f8c75ae58a413c",
+      "matches": true
+    },
+    "auroras": {
+      "source_sha256": "a89e79e38e58e61359fa4a1b3324574e906a9f7eedd74b329e8697baca75ef26",
+      "live_sha256": "a89e79e38e58e61359fa4a1b3324574e906a9f7eedd74b329e8697baca75ef26",
+      "matches": true
+    },
+    "rainbows": {
+      "source_sha256": "6261deeb0290bf1a916c2a194655fefab0ccbe44250ef057738f965ca651edb9",
+      "live_sha256": "6261deeb0290bf1a916c2a194655fefab0ccbe44250ef057738f965ca651edb9",
+      "matches": true
+    },
+    "create_dragons_plus": {
+      "source_sha256": "c21ac49c59cf43a70f72aa03ed94f3d8750ddc6169a703cde63179fbff9cc90e",
+      "live_sha256": "c21ac49c59cf43a70f72aa03ed94f3d8750ddc6169a703cde63179fbff9cc90e",
+      "matches": true
+    },
+    "theurgy": {
+      "source_sha256": "3073731f4157cb7602c743de492357b04a2797d845f10c30118e60a1e13a1be2",
+      "live_sha256": "3073731f4157cb7602c743de492357b04a2797d845f10c30118e60a1e13a1be2",
+      "matches": true
+    },
+    "ftbquests": {
+      "source_sha256": "94e64ad51655d0e2db002176c6366b4d870c33b939b8eb979366bbd9a3201c9e",
+      "live_sha256": "94e64ad51655d0e2db002176c6366b4d870c33b939b8eb979366bbd9a3201c9e",
+      "matches": true
+    },
+    "kubejs": {
+      "source_sha256": "82b33606496fbc3664cf8949e0e3ceec9d1ca98d0cdc918d3ad9be6f88094324",
+      "live_sha256": "82b33606496fbc3664cf8949e0e3ceec9d1ca98d0cdc918d3ad9be6f88094324",
+      "matches": true
+    }
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

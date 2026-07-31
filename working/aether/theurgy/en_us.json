@@ -1,0 +1,7 @@
+{
+  "item.theurgy.alchemical_sulfur_skyroot": "Alchemical Sulfur %s",
+  "item.theurgy.alchemical_sulfur_skyroot.source": "Skyroot",
+  "item.theurgy.alchemical_sulfur_skyroot.tooltip": "Alchemical Sulfur crafted from %s %s %s.",
+  "item.theurgy.alchemical_sulfur_skyroot.tooltip.extended": "Sulfur represents the \"idea\" or \"soul\" of an object",
+  "item.theurgy.alchemical_sulfur_skyroot.tooltip.usage": "Sulfur is the central element used in Spagyrics processes.\n\n§oHint: Sulfurs crafted from different states of the same material (such as from Ore or Ingots) are interchangeable.§r"
+}

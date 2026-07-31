@@ -1,0 +1,61 @@
+{
+  "family": "The Aether",
+  "language": {
+    "keys_reviewed": 1238,
+    "bundled_exact_reuse": 5,
+    "quality_edited": 6,
+    "new_translation": 1227,
+    "source_counts": {
+      "bundled_ko_kr": 5,
+      "manual_quality_review": 6,
+      "manual_review": 1227
+    }
+  },
+  "ftbquests": {
+    "keys_reviewed": 161,
+    "new_translation": 161,
+    "source_counts": {
+      "manual_review": 161
+    }
+  },
+  "bibliowoods": {
+    "jar": "bibliowoods-1.21.1-1.6.2.jar",
+    "all_english_keys": 10833,
+    "aether_skyroot_keys": 157,
+    "existing_keys_preserved": 1727,
+    "merged_output_keys": 1884
+  },
+  "direct_integrations": {
+    "auroras": {
+      "jar": "Auroras-1.21-1.6.2.jar",
+      "keys_reviewed": 1,
+      "existing_keys_preserved": 0,
+      "merged_output_keys": 1
+    },
+    "rainbows": {
+      "jar": "Rainbows-1.21-1.5.jar",
+      "keys_reviewed": 1,
+      "existing_keys_preserved": 0,
+      "merged_output_keys": 1
+    },
+    "create_dragons_plus": {
+      "jar": "CreateDragonsPlus-1.11.2b.jar",
+      "keys_reviewed": 10,
+      "existing_keys_preserved": 0,
+      "merged_output_keys": 10
+    },
+    "theurgy": {
+      "jar": "theurgy-1.21.1-neoforge-1.73.1.jar",
+      "keys_reviewed": 5,
+      "existing_keys_preserved": 2,
+      "merged_output_keys": 7
+    }
+  },
+  "kubejs": {
+    "source": "kubejs/server_scripts/announcements/announcements.js",
+    "references_checked": 2,
+    "direct_display_lines_translated": 1,
+    "source_state": "already_applied",
+    "output": "output/overrides/kubejs/server_scripts/announcements/announcements.js"
+  }
+}

@@ -133,6 +133,7 @@ TARGETS = (
         "undergarden",
         "The Undergarden",
     ),
+    Target("aether", "aether-", "aether", "The Aether"),
 )
 
 FAMILY_LABELS = {
@@ -143,6 +144,7 @@ FAMILY_LABELS = {
     "twilight_forest": "The Twilight Forest",
     "cataclysm": "L_Ender's Cataclysm",
     "undergarden": "The Undergarden",
+    "aether": "The Aether",
 }
 
 QUEST_CHAPTERS = {
@@ -153,6 +155,7 @@ QUEST_CHAPTERS = {
     "twilight_forest": ("twilight_forest",),
     "cataclysm": ("cataclysm",),
     "undergarden": ("undergarden",),
+    "aether": ("aether",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -198,6 +201,14 @@ ALLOWED_ORIGINALS = {
     "The Twilight Forest",
     "L_Ender's Cataclysm",
     "The Undergarden",
+    "The Aether",
+    "Stratus",
+    "Noisestorm - Aether Tune",
+    "Emile van Krieken - Ascending Dawn",
+    "RENREN - chinchilla",
+    "RENREN - high",
+    "sunsette - klepto",
+    "sunsette - Slider's Wrath",
     "Screem - Gloomper Anthem",
     "Screem - Limax Maximus",
     "Screem - Mammoth",

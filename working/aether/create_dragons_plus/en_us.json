@@ -1,0 +1,12 @@
+{
+  "create.item_attributes.create_dragons_plus.aether_enchantable": "can be Bulk Enchanted",
+  "create.item_attributes.create_dragons_plus.aether_enchantable.inverted": "cannot be Bulk Enchanted",
+  "create_dragons_plus.ponder.bulk_enchanting.text_1": "Air Flows passing through Golden Aercloud create a Bulk Enchanting setup",
+  "create_dragons_plus.ponder.bulk_enchanting.text_2": "Bulk Enchanting processes Aether Enchanter recipes with fan processing",
+  "recipe.create_dragons_plus.aether_fan_enchanting": "Bulk Enchanting",
+  "recipe.create_dragons_plus.aether_fan_enchanting.fan": "Fan behind Golden Aercloud",
+  "recipe.create_dragons_plus.aether_fan_enchanting.repairing": "Repairs item durability",
+  "recipe.create_dragons_plus.aether_fan_incubation": "Bulk Enchanting Incubation",
+  "recipe.create_dragons_plus.aether_fan_incubation.entity": "Spawns: %s",
+  "recipe.create_dragons_plus.aether_fan_incubation.fan": "Fan behind Golden Aercloud"
+}

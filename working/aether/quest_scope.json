@@ -1,0 +1,12 @@
+{
+  "family": "The Aether",
+  "chapters": {
+    "aether": {
+      "display_keys": 161,
+      "new_translation_required": 161
+    },
+    "related": {
+      "display_keys": 0
+    }
+  }
+}
