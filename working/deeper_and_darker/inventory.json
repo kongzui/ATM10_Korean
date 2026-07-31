@@ -1,0 +1,51 @@
+{
+  "family": "Deeper and Darker",
+  "installed": [
+    {
+      "label": "Deeper and Darker",
+      "jar": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+      "namespace": "deeperdarker",
+      "direct_integration": false,
+      "english_keys": 369,
+      "bundled_korean_keys": 212,
+      "metadata_mentions_family": [
+        "deeperdarker"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 263,
+      "advancement_examples": [
+        "data/deeperdarker/advancement/main/enter_otherside.json",
+        "data/deeperdarker/advancement/main/explore_otherside.json",
+        "data/deeperdarker/advancement/main/find_ancient_city.json",
+        "data/deeperdarker/advancement/main/find_ancient_temple.json",
+        "data/deeperdarker/advancement/main/kill_all_sculk_mobs.json",
+        "data/deeperdarker/advancement/main/kill_warden.json",
+        "data/deeperdarker/advancement/main/obtain_reinforced_echo_shard.json",
+        "data/deeperdarker/advancement/main/obtain_sculk_transmitter.json",
+        "data/deeperdarker/advancement/main/obtain_sonorous_staff.json",
+        "data/deeperdarker/advancement/main/root.json",
+        "data/deeperdarker/advancement/main/warden_armor.json",
+        "data/deeperdarker/advancement/recipes/building_blocks/bloom_planks.json",
+        "data/deeperdarker/advancement/recipes/building_blocks/bloom_slab.json",
+        "data/deeperdarker/advancement/recipes/building_blocks/bloom_stairs.json",
+        "data/deeperdarker/advancement/recipes/building_blocks/bordered_lite_block.json",
+        "data/deeperdarker/advancement/recipes/building_blocks/chiseled_gloomslate.json",
+        "data/deeperdarker/advancement/recipes/building_blocks/chiseled_gloomslate_from_cobbled_gloomslate_stonecutting.json",
+        "data/deeperdarker/advancement/recipes/building_blocks/chiseled_gloomslate_from_gloomslate_bricks_stonecutting.json",
+        "data/deeperdarker/advancement/recipes/building_blocks/chiseled_sculk_stone.json",
+        "data/deeperdarker/advancement/recipes/building_blocks/chiseled_sculk_stone_from_cobbled_sculk_stone_stonecutting.json"
+      ],
+      "recipes": 640
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "bibliowoods-1.21.1-1.6.2.jar",
+      "dependency_mentions": [
+        "deeperdarker"
+      ]
+    }
+  ]
+}

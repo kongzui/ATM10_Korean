@@ -319,8 +319,10 @@ def verify_bibliowoods(instance: Path) -> tuple[dict[str, object], list[str]]:
             f"BiblioWoods 이전 범위 보존 실패: {len(preserved)}/1884, "
             f"불일치={preserved_mismatches[:20]}"
         )
-    if len(output) != 2983:
-        errors.append(f"BiblioWoods 누적 출력 키가 예상과 다릅니다: {len(output)}/2983")
+    if len(output) < 2983:
+        errors.append(
+            f"BiblioWoods 누적 출력 키가 기존 완료 범위보다 적습니다: {len(output)}/2983"
+        )
     return {
         "jar": jar.name,
         "direct_keys_checked": len(current),

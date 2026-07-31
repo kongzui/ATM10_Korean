@@ -217,7 +217,7 @@ ItemEvents.modifyTooltips(allthemods => {
 	"deeperdarker:glowing_grass",
 	"deeperdarker:sculk_tendrils"],
 	[
-		Text.of("§9In a Botany Pot: Requires a hoe enchanted with Silk Touch to be harvested")
+		Text.of("§9식물 화분에서 수확하려면 섬세한 손길이 부여된 괭이가 필요합니다")
 	])
 })
 

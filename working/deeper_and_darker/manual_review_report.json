@@ -1,0 +1,14 @@
+{
+  "family": "Deeper and Darker",
+  "keys_reviewed": 369,
+  "bundled_korean_candidates": 212,
+  "resolved": 369,
+  "unresolved": 0,
+  "source_counts": {
+    "bundled_reviewed_reuse": 113,
+    "keep_original": 9,
+    "manual_pattern_review": 86,
+    "manual_review": 161
+  },
+  "output": "output/resourcepack/ATM10_Korean/assets/deeperdarker/lang/ko_kr.json"
+}

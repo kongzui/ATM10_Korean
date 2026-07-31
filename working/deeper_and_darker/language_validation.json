@@ -1,0 +1,50 @@
+{
+  "family": "Deeper and Darker",
+  "languages": [
+    {
+      "label": "Deeper and Darker",
+      "jar": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+      "namespace": "deeperdarker",
+      "english_keys": 369,
+      "korean_keys": 369,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "new_or_edited": 247,
+      "bundled_exact_reuse": 122
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 122,
+    "project_output_reuse": 0,
+    "new_or_edited": 247
+  },
+  "ftbquests": {
+    "chapters": [
+      "deeper_and_darker.snbt"
+    ],
+    "quests_checked": 45,
+    "tasks_checked": 48,
+    "display_keys_checked": 97,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 1,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 2,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

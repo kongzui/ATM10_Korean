@@ -1,0 +1,151 @@
+{
+  "generic": {
+    "family": "Deeper and Darker",
+    "languages": [
+      {
+        "label": "Deeper and Darker",
+        "jar": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+        "namespace": "deeperdarker",
+        "english_keys": 369,
+        "korean_keys": 369,
+        "untranslated": 0,
+        "untranslated_examples": [],
+        "duplicate_keys": 0,
+        "translation_induced_name_collisions": 0,
+        "output_matches": true,
+        "guide_extra_keys": 0,
+        "new_or_edited": 247,
+        "bundled_exact_reuse": 122
+      }
+    ],
+    "language_provenance": {
+      "bundled_exact_reuse": 122,
+      "project_output_reuse": 0,
+      "new_or_edited": 247
+    },
+    "ftbquests": {
+      "chapters": [
+        "deeper_and_darker.snbt"
+      ],
+      "quests_checked": 45,
+      "tasks_checked": 48,
+      "display_keys_checked": 97,
+      "source_english_custom_names": 0,
+      "unresolved_english_custom_names": 0,
+      "explicit_task_titles": 1,
+      "source_redundant_single_item_task_titles": 0,
+      "remaining_redundant_single_item_task_titles": 0,
+      "first_task_quest_fallbacks": 2,
+      "fallback_paths_checked": [
+        "chapter/group title",
+        "quest title/subtitle/description",
+        "task title",
+        "item hover name",
+        "custom_name/literal component",
+        "first-task quest fallback"
+      ]
+    },
+    "validation_errors": 0,
+    "errors": [],
+    "status": "complete"
+  },
+  "language": {
+    "jar": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+    "jar_size": 3906057,
+    "jar_sha256": "eee3f51222b0bcc714def002ff089ac9e131d3cae4575b542fd0a7dd101fe0af",
+    "english_keys": 369,
+    "bundled_korean_candidates": 212,
+    "korean_keys": 369,
+    "output_matches_working_copy": true,
+    "review_sources": {
+      "manual_review": 161,
+      "bundled_reviewed_reuse": 113,
+      "manual_pattern_review": 86,
+      "keep_original": 9
+    },
+    "output_sha256": "c661bb0686b759817561d4b0ca93deb2ed8a5a7fcf8f7328bc0f439ebc29480f"
+  },
+  "advancements_and_guides": {
+    "advancement_files": 263,
+    "displayed_advancements": 11,
+    "display_fields": 22,
+    "translate_references": 22,
+    "unique_translate_keys": 22,
+    "literal_display_texts": [],
+    "missing_translation_keys": [],
+    "guide_candidates": 0,
+    "embedded_guide_files": 0
+  },
+  "bibliowoods": {
+    "jar": "bibliowoods-1.21.1-1.6.2.jar",
+    "direct_keys_checked": 314,
+    "prior_keys_preserved": 2983,
+    "merged_output_keys": 3297,
+    "output_sha256": "e2bae4b5f4f809c84fd98b8c807904bd533008230cf2171564987cc6c2ac120d"
+  },
+  "kubejs": {
+    "files_referencing_family": 7,
+    "referenced_paths": [
+      "kubejs/client_scripts/tooltips.js",
+      "kubejs/data/hostilenetworks/data_models/warden.json",
+      "kubejs/server_scripts/Tweaks/recipes_fix.js",
+      "kubejs/server_scripts/Unification/ingots.js",
+      "kubejs/server_scripts/Unification/sawing.js",
+      "kubejs/server_scripts/modpack/att_items.js",
+      "kubejs/server_scripts/mods/minecraft/recipes.js"
+    ],
+    "direct_literal_overrides": 1,
+    "source_state": "applied",
+    "output_sha256": "de96b8e913c6056388031f6fa5e1c1cd8032deac2925e44de166173a85341b10"
+  },
+  "ftbquests": {
+    "chapters": [
+      "deeper_and_darker.snbt"
+    ],
+    "quests_checked": 45,
+    "tasks_checked": 48,
+    "display_keys_checked": 97,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 1,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 2,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ],
+    "source_display_keys_reviewed": 97,
+    "explicit_fallback_task_titles": 2,
+    "merged_keys_checked": 99
+  },
+  "live_parity": {
+    "deeperdarker": {
+      "source_sha256": "c661bb0686b759817561d4b0ca93deb2ed8a5a7fcf8f7328bc0f439ebc29480f",
+      "live_sha256": "c661bb0686b759817561d4b0ca93deb2ed8a5a7fcf8f7328bc0f439ebc29480f",
+      "matches": true
+    },
+    "bibliowoods": {
+      "source_sha256": "e2bae4b5f4f809c84fd98b8c807904bd533008230cf2171564987cc6c2ac120d",
+      "live_sha256": "e2bae4b5f4f809c84fd98b8c807904bd533008230cf2171564987cc6c2ac120d",
+      "matches": true
+    },
+    "ftbquests": {
+      "source_sha256": "da404d4cc7132370f24d0284c3e1b142bed927f64b24c7ded2780469ff340fb2",
+      "live_sha256": "da404d4cc7132370f24d0284c3e1b142bed927f64b24c7ded2780469ff340fb2",
+      "matches": true
+    },
+    "tooltips": {
+      "source_sha256": "de96b8e913c6056388031f6fa5e1c1cd8032deac2925e44de166173a85341b10",
+      "live_sha256": "de96b8e913c6056388031f6fa5e1c1cd8032deac2925e44de166173a85341b10",
+      "matches": true
+    }
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

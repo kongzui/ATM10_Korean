@@ -146,6 +146,12 @@ TARGETS = (
         "eternal_starlight",
         "Eternal Starlight",
     ),
+    Target(
+        "deeper_and_darker",
+        "deeperdarker-",
+        "deeperdarker",
+        "Deeper and Darker",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -159,6 +165,7 @@ FAMILY_LABELS = {
     "aether": "The Aether",
     "bumblezone": "The Bumblezone",
     "eternal_starlight": "Eternal Starlight",
+    "deeper_and_darker": "Deeper and Darker",
 }
 
 QUEST_CHAPTERS = {
@@ -172,6 +179,7 @@ QUEST_CHAPTERS = {
     "aether": ("aether",),
     "bumblezone": ("bumblezone",),
     "eternal_starlight": ("eternal_starlight",),
+    "deeper_and_darker": ("deeper_and_darker",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -220,6 +228,8 @@ ALLOWED_ORIGINALS = {
     "The Aether",
     "The Bumblezone",
     "Eternal Starlight",
+    "Deeper and Darker",
+    "Pedro Ricardo",
     "TohokuAlpha",
     "KuLou_D",
     "KrLite - Whisper of The Stars",
