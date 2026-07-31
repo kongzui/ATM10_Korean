@@ -13,15 +13,15 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "bundled_exact_reuse": 1749,
-      "new_or_edited": 253,
-      "project_output_reuse": 59
+      "bundled_exact_reuse": 1479,
+      "new_or_edited": 534,
+      "project_output_reuse": 48
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 1749,
-    "project_output_reuse": 59,
-    "new_or_edited": 253
+    "bundled_exact_reuse": 1479,
+    "project_output_reuse": 48,
+    "new_or_edited": 534
   },
   "ftbquests": {
     "chapters": [

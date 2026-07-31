@@ -1,9 +1,9 @@
 {
   "family": "The Twilight Forest",
   "language_provenance": {
-    "bundled_exact_reuse": 1749,
-    "project_output_reuse": 59,
-    "new_or_edited": 253
+    "bundled_exact_reuse": 1479,
+    "project_output_reuse": 48,
+    "new_or_edited": 534
   },
   "ftbquests": {
     "chapters": [
@@ -66,10 +66,19 @@
     ],
     "direct_display_candidates": 0
   },
+  "quality_review": {
+    "language_keys_checked": 2061,
+    "quality_language_overrides": 216,
+    "manual_quality_review_keys": 282,
+    "quest_keys_checked": 155,
+    "quality_quest_overrides": 45,
+    "forbidden_phrases_checked": 31,
+    "forbidden_phrase_hits": []
+  },
   "deployment": {
     "status": "applied_and_verified",
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp/backups/20260715_125056_261286/backup_manifest.json",
+    "backup_manifest": "temp/backups/20260731_192616_678554/backup_manifest.json",
     "files_checked": 3,
     "hash_matches": 3,
     "unexpected_changes": []

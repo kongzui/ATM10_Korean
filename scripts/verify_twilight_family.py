@@ -11,6 +11,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from zipfile import ZipFile
 
+import build_ae2_quests as quest_snbt
+import twilight_family as quality_review
 from local_paths import PROJECT_ROOT, resolve_source_root
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -232,6 +234,116 @@ def verify_kubejs(instance: Path) -> tuple[dict[str, object], list[str]]:
     }, errors
 
 
+def verify_quality_review() -> tuple[dict[str, object], list[str]]:
+    """품질 재검수 확정값과 금지된 번역기식 표현이 없는지 검사한다."""
+    english = load_json(WORK_ROOT / "twilightforest/en_us.json")
+    korean = translations()
+    sources = load_json(WORK_ROOT / "twilightforest/candidate_sources.json")
+    errors: list[str] = []
+    missing_overrides = sorted(
+        set(quality_review.QUALITY_LANGUAGE_OVERRIDES) - set(english)
+    )
+    mismatched_overrides = sorted(
+        key
+        for key, expected in quality_review.QUALITY_LANGUAGE_OVERRIDES.items()
+        if key in english
+        and korean.get(key) != quality_review.normalize_quality_value(expected)
+    )
+    if missing_overrides:
+        errors.append(
+            "품질 검수 언어 키가 원문에 없음: " + " | ".join(missing_overrides[:30])
+        )
+    if mismatched_overrides:
+        errors.append(
+            "품질 검수 확정값 불일치: " + " | ".join(mismatched_overrides[:30])
+        )
+
+    quest_output = quest_snbt.parse_language_snbt(
+        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+    )
+    missing_quest_overrides = sorted(
+        set(quality_review.QUALITY_QUEST_OVERRIDES) - set(quest_output)
+    )
+    mismatched_quest_overrides = sorted(
+        key
+        for key, expected in quality_review.QUALITY_QUEST_OVERRIDES.items()
+        if key in quest_output and quest_output[key] != expected
+    )
+    if missing_quest_overrides:
+        errors.append(
+            "품질 검수 퀘스트 키가 산출물에 없음: "
+            + " | ".join(missing_quest_overrides[:30])
+        )
+    if mismatched_quest_overrides:
+        errors.append(
+            "품질 검수 퀘스트 확정값 불일치: "
+            + " | ".join(mismatched_quest_overrides[:30])
+        )
+
+    forbidden = (
+        "속 속 빈 언덕",
+        "가스트유체",
+        "로얄 좀비",
+        "팬텀 기사",
+        "기사 팬텀",
+        "황혼의 지배",
+        "무장의 지배",
+        "불사의 지배",
+        "생명의 지배",
+        "지도 집중체",
+        "지도 깃털",
+        "구현 블록",
+        "은폐 블록",
+        "창 막기",
+        "매야플",
+        "미네우드",
+        "돌 트위스트",
+        "지방이",
+        "극지동물의 털",
+        "리버뿌리",
+        "횃불딸기",
+        "할로우 힐",
+        "퀘스트 양",
+        "광석 미터",
+        "[Home]",
+        "[Fast]",
+        "탈출하는 동안",
+        "가스트링가",
+        "기사 유령가",
+        "홀가",
+        "홀를",
+    )
+    scoped_values = [value for value in korean.values() if isinstance(value, str)]
+    for root in sorted((WORK_ROOT / "quests").glob("*")):
+        path = root / "ko_kr.json"
+        if not path.is_file():
+            continue
+        for value in load_json(path).values():
+            scoped_values.extend(value if isinstance(value, list) else [value])
+    forbidden_hits = sorted(
+        phrase
+        for phrase in forbidden
+        if any(phrase in value for value in scoped_values)
+    )
+    if forbidden_hits:
+        errors.append("금지된 번역기식 표현 잔존: " + " | ".join(forbidden_hits))
+
+    quality_keys = sum(source == "manual_quality_review" for source in sources.values())
+    if quality_keys == 0:
+        errors.append("품질 재검수 출처로 기록된 언어 키가 없습니다.")
+    return {
+        "language_keys_checked": len(english),
+        "quality_language_overrides": len(quality_review.QUALITY_LANGUAGE_OVERRIDES),
+        "manual_quality_review_keys": quality_keys,
+        "quest_keys_checked": sum(
+            len(load_json(path)) for path in (WORK_ROOT / "quests").glob("*/ko_kr.json")
+        ),
+        "quality_quest_overrides": len(quality_review.QUALITY_QUEST_OVERRIDES),
+        "forbidden_phrases_checked": len(forbidden),
+        "forbidden_phrase_hits": forbidden_hits,
+    }, errors
+
+
 def sha256(path: Path) -> str:
     """파일 SHA-256을 계산한다."""
     digest = hashlib.sha256()
@@ -299,6 +411,8 @@ def verify(instance: Path) -> tuple[dict[str, object], int]:
     errors.extend(found)
     kubejs, found = verify_kubejs(instance)
     errors.extend(found)
+    quality, found = verify_quality_review()
+    errors.extend(found)
     deployment = deployment_report(instance)
     if deployment.get("status") != "applied_and_verified":
         errors.append(
@@ -312,6 +426,7 @@ def verify(instance: Path) -> tuple[dict[str, object], int]:
         "guide_and_lore": lore_book,
         "advancements": advancements,
         "kubejs": kubejs,
+        "quality_review": quality,
         "deployment": deployment,
         "validation_errors": len(errors),
         "errors": errors,

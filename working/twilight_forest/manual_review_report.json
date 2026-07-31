@@ -2,17 +2,19 @@
   "family": "The Twilight Forest",
   "language": {
     "keys_reviewed": 2061,
-    "keys_changed": 263,
-    "changes_this_run": 10,
+    "keys_changed": 545,
+    "quality_keys": 282,
+    "changes_this_run": 0,
     "source_counts": {
-      "bundled_ko_kr": 1739,
-      "project_output_review": 59,
-      "manual_review": 263
+      "bundled_ko_kr": 1468,
+      "manual_quality_review": 282,
+      "manual_review": 263,
+      "project_output_review": 48
     }
   },
   "ftbquests": {
     "keys_reviewed": 155,
-    "keys_changed": 3,
+    "keys_changed": 51,
     "changes_this_run": 0
   }
 }

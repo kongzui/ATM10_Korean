@@ -103,6 +103,541 @@ FORMAT_FIXES = {
     ),
 }
 
+QUALITY_TEXT_REPLACEMENTS = (
+    ("극지동물의 털", "극지 털"),
+    ("카미나이트 가스트유체", "카미나이트 가스트링"),
+    ("팬텀 기사", "기사 유령"),
+    ("기사 팬텀", "기사 유령"),
+    ("로얄 좀비", "충성스러운 좀비"),
+    ("생명의 지배 지팡이", "생명력 흡수의 홀"),
+    ("생명의 지배", "생명력 흡수의 홀"),
+    ("황혼의 지배", "황혼의 홀"),
+    ("무장의 지배", "요새화의 홀"),
+    ("불사의 지배", "좀비의 홀"),
+    ("우르-가스트", "유어 가스트"),
+    ("리버뿌리", "생뿌리"),
+    ("횃불딸기", "토치베리"),
+    ("미로 지도 집중체", "미로 지도 초점"),
+    ("마법의 지도 집중체", "마법 지도 초점"),
+    ("마법의 지도 깃털", "마법 지도 초점"),
+    ("마법의 지도", "마법 지도"),
+    ("미노타우르스 스트로가노프", "미프 스트로가노프"),
+    ("미노타우르스의 도끼", "미노타우로스 도끼"),
+    ("할로우 힐", "속 빈 언덕"),
+    ("퀘스트 양", "퀘스팅 램"),
+    ("광석 미터", "광석 측정기"),
+    ("구현 블록", "재등장 블록"),
+    ("은폐 블록", "소멸 블록"),
+    ("매야플", "메이애플"),
+    ("미네우드", "광부나무"),
+    ("돌 트위스트", "뒤틀린 돌"),
+    ("생기없는 진액", "무생물의 정수"),
+    ("생기 없는 진액", "무생물의 정수"),
+    ("전환 가루", "변환 가루"),
+    ("투구 게", "투구게"),
+    ("매다는 표지판", "매달린 표지판"),
+    ("벽 매달린 표지판", "벽걸이 표지판"),
+    ("가스트링가", "가스트링이"),
+    ("기사 유령가", "기사 유령이"),
+    ("홀가", "홀이"),
+    ("홀를", "홀을"),
+)
+
+QUALITY_LANGUAGE_OVERRIDES = {
+    "twilightforest.book.author": "잊힌 탐험가",
+    "twilightforest.book.darktower": "나무 탑에 관한 기록",
+    "twilightforest.book.darktower.1": (
+        "§8[[폭발 속에서도 남아 있는 듯한 탐험가의 수첩]]§0\n\n이 탑에는 분명 "
+        "내게 반응하지 않는 장치가 있다. 장치의 마법은 내 손길을 알아보려는 듯하지만 "
+        "그럴 수 없다. 마치 탑의 장치가"
+    ),
+    "twilightforest.book.darktower.2": (
+        "근처의 강력한 존재들에 의해 억눌린 듯하다.\n\n§8[[다음 기록]]§0\n\n마법은 "
+        "근처 요새 깊은 곳에서 흘러나오는 것 같다. 고블린의 마법은 부적에 가깝고 "
+        "집중되어 있지 않으니, 그들에게서 나오는 힘은 아닐 것이다. 요새에는"
+    ),
+    "twilightforest.book.darktower.3": (
+        "아직도 어떤 힘이 작동하고 있음이 틀림없다.\n\n§8[[다음 기록]]§0\n\n분석해 "
+        "보니 여러 근원이 무리를 이루어 힘을 내고 있다. 보급을 마치는 대로 요새로 "
+        "돌아가야겠다..."
+    ),
+    "twilightforest.book.hydralair": "불타는 늪에 관한 기록",
+    "twilightforest.book.hydralair.1": (
+        "§8[[내화 종이에 쓴 탐험가의 수첩]]§0\n\n나 같은 노련한 탐험가에게 불은 "
+        "하찮은 장애물이다. 불바다를 건너고 용암의 바다를 헤엄친 적도 있다. 이곳의 "
+        "타는 듯한 공기는 흥미로운 변화이지만"
+    ),
+    "twilightforest.book.hydralair.2": (
+        "결국 아무런 방해도 되지 않는다.\n\n하지만 이번에는 이 불타는 늪의 왕이 분명한 "
+        "강력한 생물을 둘러싼 또 다른 보호 주문이 나를 막는다. 보호 주문과 마주친 "
+        "것은 처음이 아니며, 이제 나는"
+    ),
+    "twilightforest.book.hydralair.3": (
+        "그 작동 원리를 조금씩 풀어내고 있다.\n\n이 주문도 다른 것들과 같다면 근처의 "
+        "강력한 생물이 힘을 공급할 것이다. 불타는 늪 주변에는 습지가 여럿 있고, 그 "
+        "아래에는 미노타우로스가 가득한 미궁이 있다."
+    ),
+    "twilightforest.book.hydralair.4": (
+        "그런 주문을 묶어 둘 대상으로는 주변의 다른 미노타우로스와 어딘가 다른, "
+        "강력한 미노타우로스가 가장 그럴듯하다..."
+    ),
+    "twilightforest.book.icetower": "오로라 요새에 관한 기록",
+    "twilightforest.book.icetower.1": (
+        "§8[[얼음으로 뒤덮인 탐험가의 수첩]]§0\n\n눈보라 하나를 이겨 냈더니 이번에는 "
+        "빙하 꼭대기의 끔찍한 얼음 폭풍과 마주쳤다. 탐험 중에 극지방의 오로라처럼 "
+        "여러 색으로 빛나는 얼음 궁전의 장관을 보았지만"
+    ),
+    "twilightforest.book.icetower.2": (
+        "그 모든 것이 어떤 저주로 보호받는 듯하다.\n\n§8[[다음 기록]]§0\n\n나는 "
+        "초보자가 아니다. 이 저주는 근처 생물의 힘을 공급받고 있다. 불타는 늪을 "
+        "둘러싼 저주도 근처"
+    ),
+    "twilightforest.book.icetower.3": (
+        "미노타우로스 우두머리의 힘으로 만들어졌다.\n\n이 빙하 주변에는 수많은 예티가 "
+        "모여 있다. 어쩌면 예티에게도 우두머리가 있는 게 아닐까..."
+    ),
+    "twilightforest.book.labyrinth": "늪지 미궁에 관한 기록",
+    "twilightforest.book.labyrinth.1": (
+        "§8[[방수 종이에 쓴 탐험가의 수첩]]§0\n\n이 늪의 모기는 성가시면서도 이상하다. "
+        "대부분 자연적으로 생겨난 흔적이 없고 이곳 생태계에서 맡은 역할도 보이지 "
+        "않는다. 나는 모기들이"
+    ),
+    "twilightforest.book.labyrinth.2": (
+        "일종의 마법 저주라고 의심하기 시작했다.\n\n§8[[다음 기록]]§0\n\n이곳의 "
+        "폐허가 된 미궁에서 보호 주문까지 발견했으니 의심은 확신으로 바뀌었다. 보호 "
+        "주문과 모기는 모두 하나의"
+    ),
+    "twilightforest.book.labyrinth.3": (
+        "저주다. 이 저주는 지금까지 만난 것들과 근원이 다른 듯하다. 더 조사해야겠다..."
+        "\n\n§8[[다음 기록]]§0\n\n이 저주는 한 존재가 혼자 만들기에는 너무 강력한 "
+        "종류인 듯하다."
+    ),
+    "twilightforest.book.labyrinth.4": (
+        "여러 마법사가 힘을 합쳐야 만들 수 있을 것이다.\n\n그중 한 명이라도 힘을 보태지 "
+        "않으면 늪 전체를 뒤덮은 저주가 무너질 것이다. 이상하게도 점괘에는 근처에 "
+        "살아 있는 마법사의 흔적이 나타나지 않는다."
+    ),
+    "twilightforest.book.labyrinth.5": (
+        "다만 근처의 뾰족한 지붕을 가진 탑 하나에서 흥미로운 것을 보았다..."
+    ),
+    "twilightforest.book.lichtower": "뾰족한 탑에 관한 기록",
+    "twilightforest.book.lichtower.1": (
+        "§8[괴물에게 갉아 먹힌 탐험가의 수첩]§0\n\n이 탑을 둘러싼 이상한 기운을 "
+        "조사하기 시작했다. 탑의 벽돌은 지금까지 본 어떤 것보다 강한 저주로 "
+        "보호받고 있다. 저주의 마법이 끓어오르며"
+    ),
+    "twilightforest.book.lichtower.2": (
+        "주변으로 퍼지고 있다.\n\n고향에 있었다면 이 마법을 처리할 방법이 많겠지만, "
+        "이곳에서는 물자가 부족하다. 더 조사해야겠다..."
+    ),
+    "twilightforest.book.lichtower.3": (
+        "§8[[수많은 기록이 지난 뒤]]§0\n\n돌파구를 찾았다! 여행 중 장식된 안뜰에서 "
+        "뱀처럼 생긴 거대한 괴물을 목격했다. 근처에서는 닳아 버려진 녹색 비늘을 "
+        "주웠다.\n\n비늘에 깃든 마법에는 내가 필요한 저주 해제"
+    ),
+    "twilightforest.book.lichtower.4": (
+        "성질이 있지만 마력이 너무 희미하다. 그 생물에게서 직접 더 싱싱한 표본을 "
+        "얻어야 할지도 모르겠다."
+    ),
+    "twilightforest.book.tfstronghold": "요새에 관한 기록",
+    "twilightforest.book.tfstronghold.1": (
+        "§8[[희미하게 빛나는 종이에 쓴 탐험가의 수첩]]§0\n\n이 지역을 둘러싼 어둠의 "
+        "덩굴은 어두운 숲 전체에 걸린 보호 주문이 드러난 것일 뿐이다. 주문은 앞을 "
+        "보지 못하게 만들어 몹시 성가시다. 이곳에서 몇 가지"
+    ),
+    "twilightforest.book.tfstronghold.2": (
+        "흥미로운 것을 보았으니 계속 탐험하고 싶다.\n\n§8[[다음 기록]]§0\n\n어두운 "
+        "숲에서 폐허를 발견했다. 보통 기사들이 지키는 형태의 요새다. 하지만 기사 대신 "
+        "이 요새를 가득 채운 것은"
+    ),
+    "twilightforest.book.tfstronghold.3": (
+        "고블린이다. 기사 같은 갑옷을 입었지만 행동은 기사답지 않다.\n\n§8[[다음 "
+        "기록]]§0\n\n폐허 깊은 곳에서 받침대를 발견했다. 기사들이 힘을 증명하기 위해 "
+        "트로피를 올려 두는 종류인 듯하다."
+    ),
+    "twilightforest.book.tfstronghold.4": (
+        "강력한 홀을 얻으면 어두운 숲의 저주가 약해질 듯하다. 또 강력한 생물과 관련된 "
+        "트로피를 받침대에 올리면 요새의 중심부로 들어갈 수 있을 것이다."
+    ),
+    "twilightforest.book.trollcave": "고원에 관한 기록",
+    "twilightforest.book.trollcave.1": (
+        "§8[[산에 부식된 탐험가의 수첩]]§0\n\n이 지역을 둘러싼 유독성 폭풍우로부터 "
+        "몸을 지킬 방법은 없는 듯하다. 잠깐씩 나가 살펴보던 중, 지금까지 본 것들과 "
+        "비슷한 또 다른 보호 주문도 발견했다."
+    ),
+    "twilightforest.book.trollcave.2": (
+        "그 주문은 어떤 식으로든 유독성 폭풍우와 연결되어 있을 것이다. 더 조사해야겠다..."
+        "\n\n§8[[다음 기록]]§0\n\n이토록 강력한 날씨 마법은 이 세계에서 아직 쓰러지지 "
+        "않은 여러 거대한 악의 결과임이 틀림없다. 내 연구에는"
+    ),
+    "twilightforest.book.trollcave.3": (
+        "타오르는 늪, 짙은 어둠으로 뒤덮인 숲, 눈에 덮인 왕국을 가리키는 단서가 "
+        "여럿 있다."
+    ),
+    "twilightforest.book.unknown": "설명할 수 없는 것에 관한 기록",
+    "twilightforest.book.unknown.1": (
+        "§8[[여러 번 베껴 쓴 흔적이 있는 책]]§0\n\n이 구조물을 둘러싼 장막은 설명할 "
+        "수 없지만, 마법의 힘은 강력하다. 이 저주가 다른 것들과 같다면 잠금을 풀 "
+        "해답은 다른 곳에 있을 것이다. 어쩌면 내가 아직 끝내지"
+    ),
+    "twilightforest.book.unknown.2": (
+        "못한 일이 있거나 처치하지 못한 괴물이 있을지도 모른다. 일단 돌아가야겠다. "
+        "나중에 다시 와서 무언가 달라졌는지 확인해야겠다."
+    ),
+    "twilightforest.book.yeticave": "얼어붙은 동굴에 관한 기록",
+    "twilightforest.book.yeticave.1": (
+        "§8[[서리로 뒤덮인 탐험가의 수첩]]§0\n\n이 눈 덮인 땅을 둘러싼 눈보라가 "
+        "그치지 않는다. 평범한 눈이 아니라 마법 현상이다. 무엇이 이런 효과를"
+    ),
+    "twilightforest.book.yeticave.2": (
+        "일으키는지 알아내려면 실험해야겠다.\n\n§8[[다음 기록]]§0\n\n이 저주는 한 "
+        "존재가 혼자 만들기에는 너무 강력한 듯하다. 여러 마법사가 힘을 합쳐야 할 "
+        "것이다. 그중 한 명이라도"
+    ),
+    "twilightforest.book.yeticave.3": (
+        "힘을 보태지 않으면 눈보라가 잠잠해질 것이다. 이상하게도 점괘에는 근처에 살아 "
+        "있는 마법사의 흔적이 나타나지 않는다. 하지만 근처의 뾰족한 지붕을 가진 탑 "
+        "하나에서 흥미로운 것을 보았다..."
+    ),
+    "twilightforest.tips.banister_shape": (
+        "도끼를 든 채 난간을 우클릭하면 높이를 바꿀 수 있습니다."
+    ),
+    "twilightforest.tips.block_and_chain": (
+        "블록과 사슬은 마법 부여대로 마법을 부여할 수 있습니다."
+    ),
+    "twilightforest.tips.bugs_on_head": "벌레는 기꺼이 머리 위에 앉습니다.",
+    "twilightforest.tips.charm_of_keeping": (
+        "보존의 부적은 사망해도 인벤토리의 일부를 지켜 줍니다."
+    ),
+    "twilightforest.tips.druid_hut": (
+        "해골 드루이드 오두막에는 숨겨진 지하실이 있을 수 있습니다."
+    ),
+    "twilightforest.tips.e115_pickup": (
+        "설치된 실험체 115번을 웅크린 채 우클릭하면 회수할 수 있습니다."
+    ),
+    "twilightforest.tips.fiery_pickaxe": (
+        "파이어리 곡괭이는 부순 블록을 자동으로 제련합니다."
+    ),
+    "twilightforest.tips.hollow_log": "속이 빈 통나무 안을 잘 살펴보세요!",
+    "twilightforest.tips.magic_saplings": (
+        "마법나무 묘목은 지하 전리품 상자에서 찾을 수 있습니다."
+    ),
+    "twilightforest.tips.mazebreaker": (
+        "미로 파괴자는 미로석을 16배 빠르게 부수며, 내구도가 추가로 소모되지 않습니다."
+    ),
+    "twilightforest.tips.twilight_portal": (
+        "꽃으로 둘러싼 물웅덩이에 다이아몬드를 던지면 황혼의 숲 포털을 만들 수 "
+        "있습니다."
+    ),
+    "twilightforest.tips.zombie_healing": (
+        "좀비의 홀로 소환한 좀비는 썩은 살점으로 회복시킬 수 있습니다."
+    ),
+    "config.twilightforest.animate_trophies": "트로피 움직임",
+    "config.twilightforest.animate_trophies.tooltip": (
+        "인벤토리에서 트로피 아이템이 움직이고 회전하게 합니다."
+    ),
+    "config.twilightforest.boss_drop_chests.tooltip": (
+        "참이면 The Twilight Forest 보스가 전리품을 바로 떨어뜨리는 대신 원래 생성된 "
+        "위치에 상자를 만들고 그 안에 넣습니다.\n기사 유령의 전리품은 다른 방식으로 "
+        "처리되므로 이 설정의 영향을 받지 않습니다."
+    ),
+    "config.twilightforest.casket_uuid_locking": "유품 상자 UUID 잠금",
+    "config.twilightforest.check_portal_placement.tooltip": (
+        "새 포털을 만들기 전에 목적지가 안전한지 확인할지 정합니다. 거짓이면 안전한 "
+        "대체 목적지로 옮기는 대신 포털 생성에 실패합니다.\n이 기능을 끄면 포털 생성 "
+        "검사 빈도도 줄어듭니다."
+    ),
+    "config.twilightforest.disable_portal.tooltip": (
+        "황혼의 숲 포털 생성을 완전히 비활성화합니다. 차원 접근을 제한하려는 서버 "
+        "운영자를 위한 설정입니다."
+    ),
+    "config.twilightforest.cloud_precipitation.tooltip": (
+        "날씨 처리를 위해 구름 블록 아래로 몇 블록까지 검사할지 정합니다.\n틱 속도가 "
+        "느려지면 값을 낮추세요. 0으로 설정하면 구름의 강수 처리를 모두 끕니다."
+    ),
+    "config.twilightforest.default_item_enchantments.tooltip": (
+        "거짓이면 제작할 때 기본 마법이 부여되는 아이템(아이언우드 또는 강철잎 장비 "
+        "등)이 크리에이티브 인벤토리에서 마법 부여된 상태로 표시되지 않습니다.\n제작법 "
+        "자체에는 영향을 주지 않으며, 제작법을 바꾸려면 데이터팩이 필요합니다."
+    ),
+    "config.twilightforest.dim_settings.tooltip": (
+        "부작용 없이 되돌릴 수 없는 설정입니다."
+    ),
+    "config.twilightforest.ingredient_switching.tooltip": (
+        "참이면 제작법이 제작 태그를 사용할 때 역제작대에서 재료를 다른 항목으로 바꿀 "
+        "수 없습니다.\n모든 제작법에서 재료 전환 기능이 사라집니다!\n처음부터 특정 "
+        '재료가 표시되지 않게 하려면 "twilightforest:banned_uncrafting_ingredients" '
+        "태그를 사용하세요."
+    ),
+    "config.twilightforest.disable_skull_candles.tooltip": (
+        "바닐라 해골에 초를 사용해 해골 초를 만드는 기능을 비활성화합니다."
+    ),
+    "config.twilightforest.parry_window": "패링 판정 시간",
+    "config.twilightforest.parry_window.tooltip": (
+        "방패를 든 뒤 투사체를 패링할 수 있는 시간(틱)입니다. (1틱 = 1/20초)"
+    ),
+    "config.twilightforest.screen_offset_x.tooltip": (
+        "화면의 모든 표시 특성에 적용할 시작 X 오프셋을 정합니다."
+    ),
+    "config.twilightforest.magic_trees": "마법나무",
+    "config.twilightforest.magic_trees.tooltip": "마법나무와 관련된 모든 설정입니다.",
+    "config.twilightforest.max_portal_size.tooltip": (
+        "포털을 만들 때 확인할 물 블록의 최대 개수입니다. 값이 너무 크면 성능 문제가 "
+        "생길 수 있습니다."
+    ),
+    "config.twilightforest.multiplayer_fight_adjuster": "멀티플레이 보스전 조정",
+    "config.twilightforest.multiplayer_fight_adjuster.more_loot_and_health": (
+        "전리품 및 체력 증가"
+    ),
+    "config.twilightforest.origin_dimension": "기준 차원",
+    "config.twilightforest.portal_for_new_player.tooltip": (
+        "참이고 `newPlayersSpawnInTF`도 참이면 황혼의 숲으로 보내진 새 플레이어를 위한 "
+        "귀환 포털을 생성합니다."
+    ),
+    "config.twilightforest.portals_in_other_dimensions.tooltip": (
+        "'기준' 차원이 아닌 곳에서도 황혼의 숲 포털을 만들 수 있게 합니다. 악용될 "
+        "가능성이 있습니다."
+    ),
+    "config.twilightforest.prettify_ore_meter_gui": "광석 측정기 GUI 정렬",
+    "config.twilightforest.prettify_ore_meter_gui.tooltip": (
+        "광석 측정기 GUI의 대시와 백분율을 가지런히 맞춥니다."
+    ),
+    "config.twilightforest.screen_shake.tooltip": (
+        "마법의 콩이 자라는 동안 화면을 흔들지 정합니다."
+    ),
+    "config.twilightforest.spawn_in_tf.tooltip": (
+        "참이면 처음 접속한 플레이어가 황혼의 숲에서 생성됩니다."
+    ),
+    "config.twilightforest.shapeless_uncrafting": "무정형 제작법 역제작",
+    "config.twilightforest.shapeless_uncrafting.tooltip": (
+        "참이면 역제작대에서 무정형 제작법도 역제작할 수 있습니다.\n역제작대는 원래 "
+        "정형 제작법만 처리하도록 설계되었지만, 기존 기능을 유지하려는 사용자를 위해 "
+        "이 옵션이 남아 있습니다."
+    ),
+    "config.twilightforest.shield_indicator": "요새화 방패 표시기",
+    "config.twilightforest.shield_indicator.tooltip": (
+        "현재 활성화된 요새화 방패의 수를 방어구 막대 위에 표시합니다.\n다른 모드의 "
+        "표시와 겹치면 이 기능을 끄세요."
+    ),
+    "config.twilightforest.shield_indicator_creative": (
+        "요새화 방패 표시기(크리에이티브)"
+    ),
+    "config.twilightforest.shield_indicator_creative.tooltip": (
+        "디버깅을 위해 크리에이티브 모드에서도 요새화 방패 표시기를 활성화합니다."
+    ),
+    "config.twilightforest.totem_charm_animation": "불사의 토템식 부적 애니메이션",
+    "config.twilightforest.uncrafting_xp_cost": "역제작 비용 배수",
+    "config.twilightforest.repairing_xp_cost": "수리 비용 배수",
+    "advancement.twilightforest.fiery_set.desc": (
+        "파이어리 방어구를 하나 이상 착용하고 파이어리 도구나 무기를 드세요"
+    ),
+    "advancement.twilightforest.hill1.desc": (
+        "작은 속 빈 언덕에 있는 %s을(를) 처치하세요"
+    ),
+    "advancement.twilightforest.hill2.desc": (
+        "중형 속 빈 언덕에 있는 %s을(를) 처치하세요"
+    ),
+    "advancement.twilightforest.hill3.desc": (
+        "거대한 속 빈 언덕에 있는 %s을(를) 처치하세요"
+    ),
+    "advancement.twilightforest.lich_scepters.desc": (
+        "강력한 홀 네 종류를 모두 획득하세요"
+    ),
+    "advancement.twilightforest.quest_ram": "램의 소원은 모두 이루어졌다",
+    "advancement.twilightforest.quest_ram.desc": "%s에게 필요한 것을 건네주세요",
+    "enchantment.twilightforest.chill_aura.desc": (
+        "착용자를 공격한 적에게 서리 효과가 적용될 확률을 추가합니다."
+    ),
+    "enchantment.twilightforest.destruction.desc": (
+        "블록과 사슬이 더 높은 채굴 등급의 블록도 부술 수 있게 합니다."
+    ),
+    "enchantment.twilightforest.fire_react.desc": (
+        "착용자를 공격한 적에게 불이 붙을 확률을 추가합니다."
+    ),
+    "item.twilightforest.arctic_fur": "극지 털",
+    "item.twilightforest.arctic_helmet": "극지 후드",
+    "item.twilightforest.arctic_chestplate": "극지 재킷",
+    "item.twilightforest.boarkchop": "생 보어크찹",
+    "item.twilightforest.raw_meef": "생 미프",
+    "item.twilightforest.cooked_meef": "미프 스테이크",
+    "item.twilightforest.meef_stroganoff": "미프 스트로가노프",
+    "item.twilightforest.exanimate_essence": "무생물의 정수",
+    "item.twilightforest.magic_map_focus": "마법 지도 초점",
+    "item.twilightforest.maze_map_focus": "미로 지도 초점",
+    "item.twilightforest.maze_wafer": "미로 웨이퍼",
+    "item.twilightforest.ore_meter": "광석 측정기",
+    "item.twilightforest.quest_ram_spawn_egg": "퀘스팅 램 생성 알",
+    "item.twilightforest.fortification_scepter": "요새화의 홀",
+    "item.twilightforest.lifedrain_scepter": "생명력 흡수의 홀",
+    "item.twilightforest.twilight_scepter": "황혼의 홀",
+    "item.twilightforest.zombie_scepter": "좀비의 홀",
+    "item.twilightforest.transformation_powder": "변환 가루",
+    "item.twilightforest.yeti_chestplate": "예티 재킷",
+    "item.twilightforest.magic_map": "빈 마법 지도",
+    "item.twilightforest.emperors_cloth.desc": "가려짐",
+    "item.twilightforest.harbinger_cube_spawn_egg": "전조의 큐브 생성 알",
+    "item.twilightforest.moon_dial.phase_1": "기울어가는 볼록달",
+    "item.twilightforest.moon_dial.phase_4": "삭",
+    "item.twilightforest.moon_dial.phase_7": "차오르는 볼록달",
+    "biome.twilightforest.clearing": "황혼의 공터",
+    "biome.twilightforest.snowy_forest": "눈 덮인 숲",
+    "biome.twilightforest.thornlands": "가시 지대",
+    "commands.tffeature.center": "랜드마크 중심: %s",
+    "commands.tffeature.chunk": "랜드마크 청크: %s",
+    "commands.tffeature.nearest": "가장 가까운 랜드마크: %s",
+    "commands.tffeature.none_nearby": "주변에서 랜드마크를 찾지 못했습니다!",
+    "commands.tffeature.structure.conquer.status": "구조물 정복 상태 플래그: %s",
+    "commands.tffeature.structure.conquer.update": (
+        "구조물 정복 상태 플래그를 %s에서 %s(으)로 변경했습니다."
+    ),
+    "commands.tffeature.structure.inside": "랜드마크 구조물 안에 있습니다",
+    "commands.tffeature.structure.outside": "랜드마크 구조물 밖에 있습니다",
+    "commands.tffeature.structure.spawn_info": "%s, 가중치 %s",
+    "commands.tffeature.usage": "/%s <info | reactivate | conquer | center>",
+    "entity.twilightforest.carminite_ghastling": "카미나이트 가스트링",
+    "entity.twilightforest.harbinger_cube": "전조의 큐브",
+    "entity.twilightforest.knight_phantom": "기사 유령",
+    "entity.twilightforest.loyal_zombie": "충성스러운 좀비",
+    "entity.twilightforest.quest_ram": "퀘스팅 램",
+    "entity.twilightforest.lich": "황혼의 리치",
+    "misc.twilightforest.ore_meter_loading": "불러오는 중",
+    "death.attack.twilightforest.slider": "%1$s이(가) 슬라이더에게 잘렸습니다",
+    "death.attack.twilightforest.slider.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 슬라이더에게 잘렸습니다"
+    ),
+    "death.attack.twilightforest.chillingBreath.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 눈의 여왕에게 얼어 죽었습니다."
+    ),
+    "death.attack.twilightforest.failedChallenge": (
+        "%1$s이(가) 패기를 증명하지 못하고 마시다 죽었습니다"
+    ),
+    "death.attack.twilightforest.fiery.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 파이어리 블록을 밟았습니다."
+    ),
+    "death.attack.twilightforest.fireJet.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 실수로 화염 분출기에 들어갔습니다."
+    ),
+    "death.attack.twilightforest.ghastTear.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 불타는 눈물에 데었습니다."
+    ),
+    "death.attack.twilightforest.haunt": "%1$s이(가) %2$s의 유령 무리에 합류했습니다.",
+    "death.attack.twilightforest.haunt.item": (
+        "%1$s이(가) %3$s을(를) 든 %2$s에게 죽어 유령 무리에 합류했습니다."
+    ),
+    "death.attack.twilightforest.hydraBite.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 히드라에게 살가죽을 뜯겼습니다."
+    ),
+    "death.attack.twilightforest.hydraFire.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 히드라에게 산 채로 구워졌습니다."
+    ),
+    "death.attack.twilightforest.knightmetal.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 기사금속 블록에 찔렸습니다."
+    ),
+    "death.attack.twilightforest.lichBomb.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 리치의 폭발 마법에 쓰러졌습니다."
+    ),
+    "death.attack.twilightforest.lifedrain": (
+        "%1$s이(가) %2$s에게 생명력을 빼앗겼습니다."
+    ),
+    "death.attack.twilightforest.lifedrain.item": (
+        "%1$s이(가) %3$s을(를) 사용한 %2$s에게 생명력을 빼앗겼습니다."
+    ),
+    "death.attack.twilightforest.lostWords": (
+        "%1$s이(가) %2$s에게 죽은 뒤 할 말을 잃었습니다."
+    ),
+    "death.attack.twilightforest.lostWords.item": (
+        "%1$s이(가) %3$s을(를) 사용한 %2$s에게 죽은 뒤 할 말을 잃었습니다."
+    ),
+    "death.attack.twilightforest.moonworm": "%1$s이(가) 월충에게 맞았습니다.",
+    "death.attack.twilightforest.reactor.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 카미나이트 반응기에 너무 가까이 갔습니다."
+    ),
+    "death.attack.twilightforest.schooled": "%1$s이(가) %2$s에게 혼쭐이 났습니다.",
+    "death.attack.twilightforest.schooled.item": (
+        "%1$s이(가) %3$s을(를) 사용한 %2$s에게 혼쭐이 났습니다."
+    ),
+    "death.attack.twilightforest.snowballFight": (
+        "%1$s이(가) %2$s와의 눈싸움에서 졌습니다."
+    ),
+    "death.attack.twilightforest.snowballFight.item": (
+        "%1$s이(가) %3$s을(를) 사용한 %2$s와의 눈싸움에서 졌습니다."
+    ),
+    "death.attack.twilightforest.squish.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 눈의 여왕에게 짓눌렸습니다."
+    ),
+    "death.attack.twilightforest.thorns.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 가시덤불에 들어갔습니다."
+    ),
+    "death.attack.twilightforest.thrownAxe.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 날아온 도끼에 참수되었습니다."
+    ),
+    "death.attack.twilightforest.thrownBlock.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 날아온 블록에 짓눌렸습니다."
+    ),
+    "death.attack.twilightforest.thrownPickaxe.player": (
+        "%1$s이(가) %2$s에게서 도망치던 중 날아온 곡괭이에 참수되었습니다."
+    ),
+    "subtitles.twilightforest.block.candelabra.ominous": "촛대에서 불꽃이 튐",
+    "subtitles.twilightforest.block.casket.locked": "유품 상자가 딸깍거림",
+    "subtitles.twilightforest.entity.tiny_bird.takeoff": "작은 새가 날아오름",
+    "subtitles.twilightforest.item.charm.life": "생명의 부적이 생명을 되돌림",
+    "subtitles.twilightforest.item.life_scepter.drain": "생명력 흡수의 홀이 생명력을 흡수함",
+    "subtitles.twilightforest.item.ore_meter.clear": "광석 측정기가 정보를 지움",
+    "subtitles.twilightforest.item.ore_meter.crackle": "광석 측정기가 탁탁거림",
+    "subtitles.twilightforest.item.ore_meter.target_block": (
+        "광석 측정기가 블록을 대상으로 지정함"
+    ),
+    "itemGroup.twilightforest.blocks": "The Twilight Forest: 블록",
+    "itemGroup.twilightforest.equipment": "The Twilight Forest: 장비",
+    "itemGroup.twilightforest.food": "The Twilight Forest: 음식",
+    "itemGroup.twilightforest.items": "The Twilight Forest: 아이템",
+    "block.twilightforest.casket.locked": "이 유품 상자는 %s만 열 수 있습니다!",
+    "block.twilightforest.chipped_keepsake_casket": "금이 간 유품 상자",
+    "block.twilightforest.damaged_keepsake_casket": "손상된 유품 상자",
+    "block.twilightforest.cinder_furnace": "잿불 화로",
+    "block.twilightforest.cinder_log": "잿불 원목",
+    "block.twilightforest.cinder_wood": "잿불 나무",
+    "block.twilightforest.cut_mazestone": "절단된 미로석",
+    "block.twilightforest.knightmetal_block.desc": "접촉한 대상에게 큰 피해를 줍니다",
+    "block.twilightforest.lich_tower_miniature_structure": "소형 리치 탑",
+    "block.twilightforest.mason_jar": "메이슨병",
+    "block.twilightforest.naga_courtyard_miniature_structure": "소형 나가 안뜰",
+    "block.twilightforest.torchberry_plant": "토치베리 식물",
+    "block.twilightforest.transformation_leaves": "변화나무 잎",
+    "block.twilightforest.twilight_portal_miniature_structure": ("소형 황혼의 숲 포털"),
+    "block.twilightforest.twisted_stone_pillar": "뒤틀린 돌기둥",
+    "block.twilightforest.wrought_iron_fence": "연철 울타리",
+    "item.twilightforest.wrought_iron_bar": "연철 창살",
+    "structure.twilightforest.large_hollow_hill": "큰 속 빈 언덕",
+    "structure.twilightforest.medium_hollow_hill": "중형 속 빈 언덕",
+    "structure.twilightforest.small_hollow_hill": "작은 속 빈 언덕",
+    "museumcurator.equipment.twilightforest.scepters": "강력한 홀",
+    "museumcurator.machinery.twilightforest.carminitemachines": "카미나이트 장치",
+    "gui.twilightforest.transformation_jei": "변환 가루",
+    "misc.twilightforest.ore_meter_no_blocks": "주변에서 블록을 찾지 못했습니다",
+    "misc.twilightforest.ore_meter_range": "반경: %s, 중심: [%s, %s]",
+    "misc.twilightforest.ore_meter_total": "검사한 총 블록 수: %s",
+    "misc.twilightforest.wip": (
+        "이 기능은 개발 중이며, 버그나 의도하지 않은 효과로 월드가 손상될 수 있습니다"
+    ),
+    "twilightforest.tips.ghast_trap": (
+        "가스트 함정 근처에서 카미나이트 가스트링을 처치하면 함정이 충전됩니다."
+    ),
+    "twilightforest.tips.hydra_heads": (
+        "히드라는 머리 하나를 처치할 때마다 그 자리에서 머리 두 개를 재생합니다!"
+    ),
+    "twilightforest.tips.lich_scepters": ("리치는 다양한 마법의 홀을 떨어뜨립니다."),
+    "twilightforest.tips.quest_ram": (
+        "퀘스팅 램은 자신에게 필요한 것을 건넨 플레이어에게 보상을 줍니다."
+    ),
+    "twilightforest.tips.ur_ghast": (
+        "가스트 함정을 사용하면 유어 가스트를 하늘에서 끌어내릴 수 있습니다."
+    ),
+    "twilightforest.tips.worldgen_features": (
+        "숲 곳곳에는 많은 폐허가 있으며, 일부에는 특별한 아이템이 들어 있습니다."
+    ),
+}
+
 NEW_EXACT = {
     "advancement.twilightforest.chicken_jerky": "치킨 저키!",
     "advancement.twilightforest.craft_travellers_gear": "80일간의 숲 일주",
@@ -561,6 +1096,190 @@ QUEST_OVERRIDES: dict[str, object] = {
     ],
 }
 
+QUALITY_QUEST_OVERRIDES: dict[str, object] = {
+    "quest.1452D9CF827782B5.quest_desc": [
+        "극지 장비는 극지 털로 만들며, 극지 털은 겨울 늑대와 예티에게서 얻을 수 "
+        "있습니다! \\n\\n아니요, 둘 다 털을 깎을 수는 없습니다. \\n\\n이 장비는 &7가죽 "
+        "갑옷&r처럼 염색할 수 있습니다!"
+    ],
+    "quest.3061B67330367CE2.quest_desc": [
+        "히드라나 유어 가스트를 처치했다면 &4파이어리 눈물/피&r를 얻을 수 있습니다. "
+        "둘 중 어느 것이든 쓸 수 있습니다! \\n\\n&4파이어리 병&r 중 하나로 철 갑옷을 "
+        "업그레이드하면 &4파이어리 갑옷&r을 만들 수 있습니다. \\n\\n이 갑옷은 "
+        "&c네더라이트&r보다 강하고, 착용자를 공격한 적에게 불을 붙입니다!"
+    ],
+    "quest.3215A3D706CECCEF.quest_desc": [
+        "생뿌리, 철 주괴, &e금 조각&r을 조합하면 &7아이언우드&r를 만들 수 있습니다! "
+        "\\n\\n재료를 얻으려면 도끼와 곡괭이가 필요할 거예요. \\n\\n모든 &7아이언우드 "
+        "갑옷&r에는 보호 마법이 기본으로 부여됩니다!"
+    ],
+    "quest.52A29269A23F85B3.quest_desc": [
+        "&9예티 방어구&r에는 알파 예티 털이 필요합니다. 예상하셨겠지만 알파 "
+        "예티에게서만 나옵니다. \\n\\n그래도 이 방어구는 적을 얼어붙게 해 느리게 "
+        "만듭니다!"
+    ],
+    "quest.7D1A27CBF1508712.quest_desc": [
+        "&3눈의 여왕&r은 빙하 생물 군계의 &b오로라 궁전&r에 살고 있습니다.\\n\\n"
+        "빙하 생물 군계에 들어가려면 알파 예티를 처치해야 합니다.\\n\\n왕좌에서 "
+        "끌어내리면 트로피를 비롯한 수많은 전리품을 떨어뜨립니다!"
+    ],
+    "quest.0107D516E038E0DB.quest_desc": [
+        "&e리치 탑&r은 &e리치&r의 거처입니다! 전투는 3단계로 진행됩니다.\\n\\n"
+        "1단계: &e리치&r는 방패로 몸을 감싸고 가스트의 화염구처럼 날아오는 "
+        "&5엔더 진주&r로 공격합니다. 진주를 &e리치&r에게 되받아쳐 방패를 부수세요! "
+        "방패가 깨질수록 분신을 보내 시선을 돌립니다.\\n\\n2단계: &e리치&r는 홀을 "
+        "바꾸어 전투를 도울 좀비를 소환합니다. 방어가 사라졌으니 근접 공격을 할 수 "
+        "있습니다!\\n\\n3단계: 홀의 충전량을 모두 쓰면 &e금 검&r으로 바꾸고 광분합니다. "
+        "서둘러 처치하세요!"
+    ],
+    "quest.01748C2CD9C97523.quest_desc": [
+        "&c재등장 블록&r은 아주 멋진 문처럼 작동합니다. 우클릭하면 잠시 사라졌다가 "
+        "다시 나타납니다.\\n\\n&c소멸 블록&r은 우클릭하면 사라지며, 다시 나타나지 "
+        "않습니다."
+    ],
+    "quest.01748C2CD9C97523.title": "&c재등장 \\\\\\& 소멸 블록",
+    "quest.04440BB2EFFD6DD9.quest_desc": [
+        "늪지 미궁 깊은 곳에는 거대한 &c미노시룸&r이 있습니다.\\n\\n처치하면 "
+        "&e미프 스트로가노프&r를 떨어뜨립니다. 다음 지역을 열려면 이것을 먹어야 "
+        "합니다."
+    ],
+    "quest.04440BB2EFFD6DD9.title": "&c강력한 미프 스트로가노프!",
+    "quest.0A207A437AF153AA.quest_desc": [
+        "&2팬텀 갑옷&r은 &2기사 유령&r의 전리품 상자에서 발견할 수 있습니다."
+    ],
+    "quest.1FF5906DF721D091.quest_desc": [
+        "&2히드라&r는 &c파이어리 갑옷&r 제작에 쓰이는 &c파이어리 피&r를 "
+        "떨어뜨립니다.\\n\\n방어구 한 벌을 모두 착용하면 공격한 적에게 10초 동안 불이 "
+        "붙습니다."
+    ],
+    "quest.20436AFCC7E6855D.quest_desc": [
+        "마법의 콩과 양질의 흙을 준비한 뒤 고원 생물 군계에서 커다란 구름을 "
+        "찾으세요.\\n\\n양질의 흙에 마법의 콩을 심으면 구름까지 닿는 콩나무가 "
+        "자랍니다. 그곳에서 거인들을 만날 수 있습니다.\\n\\n계속 진행하려면 광부 "
+        "거인을 처치하고 거인의 곡괭이를 얻어야 합니다."
+    ],
+    "quest.212EC1F41227184D.quest_desc": [
+        "&e리치&r처럼 엔더 폭발을 쏘고 싶다면 &9황혼의 홀&r을 사용하세요!\\n\\n"
+        "재충전하려면 제작 격자에서 &5엔더 진주&r와 조합하세요."
+    ],
+    "quest.212EC1F41227184D.title": "&9황혼의 홀",
+    "quest.25906B43A198B72F.quest_desc": [
+        "기사금속 갑옷&r은 기사금속 주괴로 만들 수 있으며, &2기사 유령&r의 전리품 "
+        "상자에서도 발견할 수 있습니다."
+    ],
+    "quest.2A0B3C91D72E8B75.quest_desc": [
+        "작은 예티와 겨울 늑대는 &6극지 방어구&r 제작에 쓰이는 극지 털을 "
+        "떨어뜨립니다."
+    ],
+    "quest.3371570F189DF994.quest_desc": [
+        "&6요새화의 홀&r은 몸 주위에 보호 방패를 소환합니다.\\n\\n재충전하려면 제작 "
+        "격자에서 &6황금 사과&r와 조합하세요."
+    ],
+    "quest.3371570F189DF994.quest_subtitle": "방패를 소환합니다",
+    "quest.3371570F189DF994.title": "&6요새화의 홀",
+    "quest.3531B28F14CF72A2.quest_desc": [
+        "&9황혼의 숲&r 모험에서 처음 처치할 보스는 안뜰에 있습니다.\\n\\n&2나가&r는 "
+        "여러 마디로 이루어진 초록색 뱀이며, 피해를 줄수록 마디가 사라집니다.\\n\\n"
+        "&2나가&r를 처치하면 좋은 아이템과 함께 다음 보스인 리치의 거처에 들어갈 "
+        "자격을 얻습니다."
+    ],
+    "quest.3908F7C80154D9CA.quest_desc": [
+        "자신만의 &2좀비&r를 소환하고 싶지 않은 사람이 있을까요? 그래서 &2좀비의 "
+        "홀&r이 있습니다!\\n\\n재충전하려면 제작 격자에서 &c썩은 살점&r과 "
+        "조합하세요."
+    ],
+    "quest.3908F7C80154D9CA.title": "&2좀비의 홀",
+    "quest.3C8724C3A9459507.quest_desc": [
+        "예티 갑옷은 알파 예티 털로 제작할 수 있습니다."
+    ],
+    "quest.3DCF26B53AE1EBF6.quest_desc": [
+        "&2어두운 숲&r에는 지하로 이어지는 구조물이 있습니다.\\n\\n들어가려면 근처 "
+        "받침대에 지금까지 얻은 보스 트로피 중 하나를 올려놓으세요. 어떤 트로피든 "
+        "괜찮으며 다시 회수할 수 있습니다.\\n\\n3층에서 기사 유령들을 찾을 수 있습니다. "
+        "모두 처치하면 다음 보스가 열립니다."
+    ],
+    "quest.4B95D48D7525FFAD.quest_desc": [
+        "&2늪&r으로 갈 시간입니다! &2늪&r에는 꼭대기에 입구가 난 기묘한 언덕이 있습니다. "
+        "바로 &c미노시룸 미궁&r입니다!\\n\\n안에서는 &e미로 지도 초점&r을 떨어뜨리는 "
+        "새로운 적들을 만납니다. 초점은 &e미로 지도&r를 만드는 데 필요합니다.\\n\\n"
+        "미로 지도는 &c미노시룸 미궁&r 안의 길을 기록하는 특별한 지도입니다. 여기서는 "
+        "미니맵도 힘을 쓰지 못합니다.\\n\\n미궁 전용 전리품이 든 방도 여럿 있습니다!"
+    ],
+    "quest.4DA0725E089D7C91.quest_desc": [
+        "&c퀘&6스&e팅&2 &3램&9을 &5찾&c아 &6보&e세&2요&r. &c무&6지&e개&2색 "
+        "&3양&9털&5을 &6모&e두 &2먹&3이&r면 풍성한 보상을 줍니다(16색).\\n\\n힌트: 퀘스팅 램이 "
+        "있는 폐허에서 머리 위를 살펴보세요. 발사기가 도움이 될 수 있습니다."
+    ],
+    "quest.4DA0725E089D7C91.title": (
+        "&c퀘&6스&e팅 &2램&3의 &9화&5려&c한 &6변&e신&2!&3!"
+    ),
+    "quest.4F66DF6B494BEFF3.quest_desc": [
+        "&8까마귀 깃털&r, &e토치베리&r, &6발광석&r을 조합하면 &e마법 지도 "
+        "초점&r을 얻을 수 있습니다."
+    ],
+    "quest.4F66DF6B494BEFF3.title": "&e마법 지도 초점",
+    "quest.51BC981AB4CFAD95.quest_desc": [
+        "미로 파괴자는 미궁에서 드물게 발견되는 특별한 곡괭이입니다.\\n\\n다른 곡괭이는 "
+        "미로 벽을 부술 때 내구도가 16만큼 닳지만, 이 곡괭이는 1만 닳습니다!"
+    ],
+    "quest.575E405B270BBCBC.quest_desc": [
+        "&9황혼의 숲&r에는 발견할 새로운 생물이 아주 많습니다.\\n\\n그중에서도 특히 "
+        "성가신 매미를 처치해 보세요. 다른 황혼의 숲 몹을 처치해도 과제는 완료됩니다."
+    ],
+    "quest.58BD1063A19777DC.quest_desc": [
+        "&2고원&r 생물 군계를 열었다면 트롤을 찾아 처치하세요.\\n\\n트롤은 &9마법의 "
+        "콩&r을 떨어뜨릴 수 있습니다. 상자에서는 마법의 콩을 키우는 데 필요한 양질의 "
+        "흙도 찾을 수 있습니다."
+    ],
+    "quest.5FE4DAE8F41B1437.quest_desc": [
+        "&c광석 자석&r은 석탄을 제외하고 이름에 광석이 들어간 블록을 땅속에서 끌어올릴 "
+        "수 있습니다.\\n\\n&2속 빈 언덕&r의 상자에서 찾을 수 있습니다."
+    ],
+    "quest.60FC2DAEA954A849.quest_desc": [
+        "&6월충 여왕&r은 횃불 발사기처럼 작동합니다. 대상 블록에 &e월충&r을 쏘아 "
+        "횃불처럼 빛나게 합니다.\\n\\n일부 &2속 빈 언덕&r과 &e리치 탑&r의 전리품 "
+        "상자에서 찾을 수 있습니다."
+    ],
+    "quest.610F9E9D0B5131C7.quest_desc": [
+        "&6보존의 부적 I&r은 사망할 때 주로 쓰는 손과 보조 손에 든 아이템, 착용 중인 "
+        "갑옷을 잃지 않게 해 줍니다."
+    ],
+    "quest.688C911ECFB2F134.quest_desc": [
+        "&2어두운 숲&r 안에는 &8어둠의 탑&r이 있습니다.\\n\\n입구 바닥의 재등장 "
+        "블록을 찾아 들어간 뒤, 미로를 통과해 꼭대기 층의 &c유어 가스트&r와 "
+        "싸우세요.\\n\\n&c유어 가스트&r는 원거리 무기로 상대하는 것이 좋습니다. 보스 "
+        "층의 가스트 함정 4개를 이용하면 &c유어 가스트&r에게 큰 피해를 줄 수 있습니다.\\n\\n함정은 "
+        "&c가스트링&r을 처치해 충전한 뒤 레드스톤 신호로 작동시킵니다. 반드시 사용할 "
+        "필요는 없지만 큰 도움이 됩니다."
+    ],
+    "quest.688C911ECFB2F134.quest_subtitle": "어두운 카미나이트 탑",
+    "quest.6CB1BFBA10DF24E4.quest_desc": [
+        "&c생명력 흡수의 홀&r로 적의 생명력을 흡수할 수 있습니다!\\n\\n재충전하려면 "
+        "제작 격자에서 &c발효된 거미 눈&r과 조합하세요."
+    ],
+    "quest.6CB1BFBA10DF24E4.title": "&c생명력 흡수의 홀",
+    "quest.6FD41DF7704466A4.quest_desc": [
+        "알파 예티를 처치하면 &9빙하&r 생물 군계가 열립니다. 이곳에는 귀여운 펭귄과 "
+        "&3눈의 여왕&r이 있습니다.\\n\\n&b오로라 궁전&r 꼭대기에서 &3눈의 "
+        "여왕&r은 자신을 보호할 얼음 수정을 소환합니다.\\n\\n바닥을 부수고 큰 피해를 주는 "
+        "&3얼음&r 공격도 사용합니다.\\n\\n몸의 아래쪽은 &3얼음&r으로 보호되므로 위쪽만 "
+        "공격할 수 있습니다.\\n\\n&3눈의 여왕&r을 처치하면 &2고원&r으로 갈 수 "
+        "있습니다."
+    ],
+    "quest.730AF9210F00018E.quest_desc": [
+        "&b다이아몬드 미노타우로스 도끼&r는 &c미노시룸&r이 떨어뜨립니다. 달리면서 "
+        "공격하면 더 큰 피해를 줍니다."
+    ],
+    "quest.730AF9210F00018E.title": "&b미노타우로스 도끼",
+    "quest.7B4A687EB505C2FF.quest_desc": [
+        "&c카미나이트 구축기&r는 레드스톤 신호를 받으면 신호가 들어온 방향으로 임시 "
+        "블록을 생성합니다.\\n\\n&c카미나이트 반응기&r는 주변의 흑요석과 네더랙을 "
+        "&e가짜 금&r과 &3가짜 다이아몬드&r로 바꿉니다. 잠시 뒤 주변 블록을 빨아들인 "
+        "후 폭발하며, &c카미나이트 가스트링&r을 생성합니다."
+    ],
+    "quest.7B4A687EB505C2FF.title": "&c카미나이트 구축기 \\\\\\& 반응기",
+}
+
 WOOD_NAMES = {
     "Canopy": "캐노피나무",
     "Dark": "어둠나무",
@@ -629,6 +1348,17 @@ def write_json(path: Path, value: object) -> None:
         json.dumps(value, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+
+
+def normalize_quality_value(value: object) -> object:
+    """검수에서 확정한 공통 용어를 문자열과 SNBT 배열에 일관되게 적용한다."""
+    if isinstance(value, str):
+        for old, new in QUALITY_TEXT_REPLACEMENTS:
+            value = value.replace(old, new)
+        return value
+    if isinstance(value, list):
+        return [normalize_quality_value(item) for item in value]
+    return value
 
 
 def translation_memory() -> tuple[dict[str, str], set[str]]:
@@ -803,7 +1533,12 @@ def review_base_language() -> dict[str, object]:
     candidates = load_json(BASE_ROOT / "auto_candidates.json")
     before = dict(korean)
     for key, source in english.items():
-        if key in FORMAT_FIXES:
+        original = korean[key]
+        if key.startswith("magic_painting.") and key.endswith(".author"):
+            korean[key] = source
+        elif key in QUALITY_LANGUAGE_OVERRIDES:
+            korean[key] = QUALITY_LANGUAGE_OVERRIDES[key]
+        elif key in FORMAT_FIXES:
             korean[key] = FORMAT_FIXES[key]
             sources[key] = "manual_review"
         elif sources[key] == "new_translation_required":
@@ -812,6 +1547,9 @@ def review_base_language() -> dict[str, object]:
                 raise TypeError(f"문자열이 아닌 신규 번역 후보: {key}")
             korean[key] = reviewed_new_value(key, source, candidate)
             sources[key] = "manual_review"
+        korean[key] = normalize_quality_value(korean[key])
+        if korean[key] != original and sources[key] != "manual_review":
+            sources[key] = "manual_quality_review"
         errors = family_goal.validate_value(key, source, korean[key])
         if errors:
             raise ValueError("; ".join(errors))
@@ -820,7 +1558,13 @@ def review_base_language() -> dict[str, object]:
     write_json(BASE_ROOT / "candidate_sources.json", sources)
     return {
         "keys_reviewed": len(english),
-        "keys_changed": sum(value == "manual_review" for value in sources.values()),
+        "keys_changed": sum(
+            value in {"manual_review", "manual_quality_review"}
+            for value in sources.values()
+        ),
+        "quality_keys": sum(
+            value == "manual_quality_review" for value in sources.values()
+        ),
         "changes_this_run": len(changed_keys),
         "source_counts": dict(sorted(Counter(sources.values()).items())),
     }
@@ -843,8 +1587,20 @@ def review_quests() -> dict[str, object]:
             if key in korean:
                 korean[key] = value
                 sources[key] = "manual_review"
+        for key, value in korean.items():
+            normalized = normalize_quality_value(value)
+            if normalized != value:
+                korean[key] = normalized
+                sources[key] = "manual_quality_review"
+        for key, value in QUALITY_QUEST_OVERRIDES.items():
+            if key in korean and korean[key] != value:
+                korean[key] = value
+                sources[key] = "manual_quality_review"
         reviewed += len(korean)
-        changed += sum(value == "manual_review" for value in sources.values())
+        changed += sum(
+            value in {"manual_review", "manual_quality_review"}
+            for value in sources.values()
+        )
         changes_this_run += sum(korean[key] != before[key] for key in korean)
         write_json(korean_path, korean)
         write_json(source_path, sources)
