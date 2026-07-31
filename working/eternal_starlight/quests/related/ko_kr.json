@@ -1,0 +1,83 @@
+{
+  "quest.05B5E640F1B68A28.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_golem.png width:100 height:150 align:center}"
+  ],
+  "quest.05B5E640F1B68A28.title": "&3골렘 강철&r",
+  "quest.2D93888313B03029.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_blue.png width:100 height:150 align:center}"
+  ],
+  "quest.2D93888313B03029.title": "&9푸른 별빛 수정&r",
+  "quest.3260EDAD3A619479.quest_desc": [
+    "&5에테르센트 광석&r은 &5&lEternal Starlight&r의 유성우가 내릴 때 발견됩니다. 작은 유성은 충돌하면서 부서지므로 큰 유성을 기다려야 합니다! \\n\\n그런데 유성과 운석은 어떻게 다른 걸까요?"
+  ],
+  "quest.3260EDAD3A619479.quest_subtitle": "14",
+  "quest.3260EDAD3A619479.title": "&5에테르센트 갑옷",
+  "quest.333682022948E2F3.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_thioquartz.png width:100 height:150 align:center}"
+  ],
+  "quest.333682022948E2F3.title": "&2티오쿼츠&r",
+  "quest.361C9D90617E6D38.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_keeper.png width:100 height:150 align:center}"
+  ],
+  "quest.361C9D90617E6D38.quest_subtitle": "문지기와 거래",
+  "quest.361C9D90617E6D38.title": "수호자 갑옷 장식",
+  "quest.3B4511E7DC788AB3.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_tenacious.png width:100 height:150 align:center}"
+  ],
+  "quest.3B4511E7DC788AB3.title": "&d끈질긴 꽃잎&r",
+  "quest.3F0CD2C03CD7D730.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_forge.png width:100 height:150 align:center}"
+  ],
+  "quest.3F0CD2C03CD7D730.quest_subtitle": "별빛 골렘이 떨어뜨림",
+  "quest.3F0CD2C03CD7D730.title": "제련소 갑옷 장식",
+  "quest.42AAEC41F2BC2474.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_glacite.png width:100 height:150 align:center}"
+  ],
+  "quest.42AAEC41F2BC2474.title": "&b글라사이트&r",
+  "quest.459BB5B4CDB21773.quest_desc": [
+    "&9늪지 은&r은 &5&lEternal Starlight&r의 진흙투성이 늪에서 발견됩니다."
+  ],
+  "quest.459BB5B4CDB21773.quest_subtitle": "15",
+  "quest.459BB5B4CDB21773.title": "&9늪지 은 갑옷",
+  "quest.4664AFCFB5618CEB.quest_desc": [
+    "&b글라사이트&r는 &5&lEternal Starlight&r의 추운 생물군계에서 발견됩니다!"
+  ],
+  "quest.4664AFCFB5618CEB.quest_subtitle": "17",
+  "quest.4664AFCFB5618CEB.title": "&b글라사이트 갑옷",
+  "quest.50429F57480F44DA.quest_desc": [
+    "&c열기 스프링스톤&r은 &5&lEternal Starlight&r에서 드물게 발견되는 뜨거운 연못에 생성됩니다!"
+  ],
+  "quest.50429F57480F44DA.quest_subtitle": "16",
+  "quest.50429F57480F44DA.title": "&c열기 스프링스톤 갑옷",
+  "quest.672AC964851832EB.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_swamp.png width:100 height:150 align:center}"
+  ],
+  "quest.672AC964851832EB.title": "&7늪지 은&r",
+  "quest.6A21228B0511FF85.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_thermal.png width:100 height:150 align:center}"
+  ],
+  "quest.6A21228B0511FF85.title": "&6열기 스프링스톤&r",
+  "quest.72D578686C47B154.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_red.png width:100 height:150 align:center}"
+  ],
+  "quest.72D578686C47B154.title": "&5붉은 별빛 수정&r",
+  "quest.756628F4B7F79446.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_aramber.png width:100 height:150 align:center}"
+  ],
+  "quest.756628F4B7F79446.title": "&c아마램버&r",
+  "quest.7B76EC62E3F7E12C.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_aethersent.png width:100 height:150 align:center}"
+  ],
+  "quest.7B76EC62E3F7E12C.title": "&5에테르센트&r",
+  "quest.106C552DDD95543C.quest_subtitle": "&f10.5 &c공격 피해",
+  "quest.41C661E8630D0146.quest_subtitle": "&f5 &c공격 피해",
+  "quest.784D6D11C4F41215.quest_subtitle": "&f6.5 &c공격 피해",
+  "quest.5A955C0F53AED3ED.quest_desc": [
+    "&b영혼의 사슬&r은 갈고리와 비슷하게 작동합니다. \\n\\n사용 키를 누르면 &b사슬&r을 발사하고, 맞힌 블록 쪽으로 플레이어를 끌어당깁니다. 다시 사용 키를 누르면 사슬을 놓습니다. 사거리는 약 90블록입니다. \\n\\n제작하려면 &b갇힌 영혼&r, &5끈질긴 덩굴&r 2개와 &9끈질긴 꽃잎&r이 필요합니다. \\n\\n이 재료는 &9달빛 괴수&r를 처치해 얻을 수 있습니다."
+  ],
+  "quest.5A955C0F53AED3ED.title": "&b영혼의 사슬",
+  "quest.792990DC06DB98F9.quest_desc": [
+    "&2&l오버월드&r 곳곳에서 &5&lEternal Starlight&r 차원문 폐허를 찾을 수 있습니다. 그곳의 문지기에게 결투를 신청하세요! \\n\\n승리하면 여러 아이템을 받고, 그 아이템으로 차원문을 열어 새로운 세계를 탐험할 수 있습니다!"
+  ],
+  "quest.792990DC06DB98F9.title": "&5&lEternal Starlight"
+}

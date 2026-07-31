@@ -1,0 +1,83 @@
+{
+  "quest.05B5E640F1B68A28.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_golem.png width:100 height:150 align:center}"
+  ],
+  "quest.05B5E640F1B68A28.title": "&3Golem Steel&r",
+  "quest.2D93888313B03029.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_blue.png width:100 height:150 align:center}"
+  ],
+  "quest.2D93888313B03029.title": "&9Blue Starlight Crystal&r",
+  "quest.3260EDAD3A619479.quest_desc": [
+    "&5Aethersent Ore&r is found during Meteorite Showers in &5&lEternal Starlight&r. Small ones break on impact, you'll need to wait for big Meteors! \\n\\nOr is it Meteorites? What's the difference?"
+  ],
+  "quest.3260EDAD3A619479.quest_subtitle": "14",
+  "quest.3260EDAD3A619479.title": "&5Aethersent Armor",
+  "quest.333682022948E2F3.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_thioquartz.png width:100 height:150 align:center}"
+  ],
+  "quest.333682022948E2F3.title": "&2Thioquartz&r",
+  "quest.361C9D90617E6D38.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_keeper.png width:100 height:150 align:center}"
+  ],
+  "quest.361C9D90617E6D38.quest_subtitle": "Traded with Gatekeeper",
+  "quest.361C9D90617E6D38.title": "Keeper Armor Trim",
+  "quest.3B4511E7DC788AB3.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_tenacious.png width:100 height:150 align:center}"
+  ],
+  "quest.3B4511E7DC788AB3.title": "&dTenacious Petal&r",
+  "quest.3F0CD2C03CD7D730.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_forge.png width:100 height:150 align:center}"
+  ],
+  "quest.3F0CD2C03CD7D730.quest_subtitle": "Dropped from Starlight Golem",
+  "quest.3F0CD2C03CD7D730.title": "Forge Armor Trim",
+  "quest.42AAEC41F2BC2474.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_glacite.png width:100 height:150 align:center}"
+  ],
+  "quest.42AAEC41F2BC2474.title": "&bGlacite&r",
+  "quest.459BB5B4CDB21773.quest_desc": [
+    "&9Swamp Silver&r is found within the muddy swamps of &5&lEternal Starlight&r."
+  ],
+  "quest.459BB5B4CDB21773.quest_subtitle": "15",
+  "quest.459BB5B4CDB21773.title": "&9Swamp Silver Armor",
+  "quest.4664AFCFB5618CEB.quest_desc": [
+    "&bGlacite&r is found in the cold biomes of &5&lEternal Starlight&r!"
+  ],
+  "quest.4664AFCFB5618CEB.quest_subtitle": "17",
+  "quest.4664AFCFB5618CEB.title": "&bGlacite Armor",
+  "quest.50429F57480F44DA.quest_desc": [
+    "&cThermal Springstone&r spawns in hot ponds found rarely in &5&lEternal Starlight&r!"
+  ],
+  "quest.50429F57480F44DA.quest_subtitle": "16",
+  "quest.50429F57480F44DA.title": "&cThermal Springstone Armor",
+  "quest.672AC964851832EB.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_swamp.png width:100 height:150 align:center}"
+  ],
+  "quest.672AC964851832EB.title": "&7Swamp Silver&r",
+  "quest.6A21228B0511FF85.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_thermal.png width:100 height:150 align:center}"
+  ],
+  "quest.6A21228B0511FF85.title": "&6Thermal Springstone&r",
+  "quest.72D578686C47B154.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_red.png width:100 height:150 align:center}"
+  ],
+  "quest.72D578686C47B154.title": "&5Red Starlight Crystal&r",
+  "quest.756628F4B7F79446.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_aramber.png width:100 height:150 align:center}"
+  ],
+  "quest.756628F4B7F79446.title": "&cAmaramber&r",
+  "quest.7B76EC62E3F7E12C.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_aethersent.png width:100 height:150 align:center}"
+  ],
+  "quest.7B76EC62E3F7E12C.title": "&5Aethersent&r",
+  "quest.106C552DDD95543C.quest_subtitle": "&f10.5 &cAttack Damage",
+  "quest.41C661E8630D0146.quest_subtitle": "&f5 &cAttack Damage",
+  "quest.784D6D11C4F41215.quest_subtitle": "&f6.5 &cAttack Damage",
+  "quest.5A955C0F53AED3ED.quest_desc": [
+    "The &bChain of Souls&r works similar to a Grappling Hook. \\n\\nYou can Right Click for it to send a &bChain&r which will drag you toward the Block you shot it at. You can Right Click again to release it. Plus it has a Range of 90 Blocks give or take a few. \\n\\nTo make it you'll need a &bTrapped Soul&r, 2 &5Tenacious Vines&r, and a &9Tenacious Petal&r. \\n\\nYou can get these mobs from killing a &9Lunar Monstrocity&r. "
+  ],
+  "quest.5A955C0F53AED3ED.title": "&bChain of Souls",
+  "quest.792990DC06DB98F9.quest_desc": [
+    "Around the &2&lOverworld&r you can find &5&lEternal Starlight&r Portal Ruins. There you can challenge the Gatekeeper to a fight! \\n\\nIf you win he'll give you some Items and with them you can enter the Portal to a whole new world to explore!"
+  ],
+  "quest.792990DC06DB98F9.title": "&5&lEternal Starlight"
+}

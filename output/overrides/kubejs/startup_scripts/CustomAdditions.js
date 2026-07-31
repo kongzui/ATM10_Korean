@@ -19,7 +19,7 @@ StartupEvents.registry('block', allthemods => {
 StartupEvents.registry('item', allthemods => {
     
     if (Platform.isLoaded("eternal_starlight")) {
-        allthemods.create('starlight_prediction').displayName('Generalized Starlight Prediction');
+        allthemods.create('starlight_prediction').displayName('범용 별빛 예측');
     }
 
     allthemods.create('silent_allthemodium_plate').displayName('고요한 Allthemodium 판').glow(true);

@@ -1,0 +1,63 @@
+{
+  "family": "Eternal Starlight",
+  "installed": [
+    {
+      "label": "Eternal Starlight",
+      "jar": "eternalstarlight-0.8.1+1.21.1+neoforge.jar",
+      "namespace": "eternal_starlight",
+      "direct_integration": false,
+      "english_keys": 1788,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "eternal_starlight"
+      ],
+      "guide_candidates": 2,
+      "guide_examples": [
+        "assets/eternal_starlight/eternal_starlight/books/main.json",
+        "assets/eternal_starlight/models/item/book.json"
+      ],
+      "advancements": 1327,
+      "advancement_examples": [
+        "data/eternal_starlight/advancement/all_starlight_biomes.json",
+        "data/eternal_starlight/advancement/chain_tangled_skull_explosion.json",
+        "data/eternal_starlight/advancement/challenge_gatekeeper.json",
+        "data/eternal_starlight/advancement/deactivate_energy_block.json",
+        "data/eternal_starlight/advancement/enter_abyss.json",
+        "data/eternal_starlight/advancement/enter_crystallized_desert.json",
+        "data/eternal_starlight/advancement/enter_golem_forge.json",
+        "data/eternal_starlight/advancement/enter_starlight.json",
+        "data/eternal_starlight/advancement/freeze_starlight_golem.json",
+        "data/eternal_starlight/advancement/full_unrealium_armor.json",
+        "data/eternal_starlight/advancement/hammer_critical_hit.json",
+        "data/eternal_starlight/advancement/hire_stranghoul.json",
+        "data/eternal_starlight/advancement/ignite_lunar_monstrosity.json",
+        "data/eternal_starlight/advancement/ignite_tear_bomb.json",
+        "data/eternal_starlight/advancement/in_ether_fluid.json",
+        "data/eternal_starlight/advancement/kill_creteor.json",
+        "data/eternal_starlight/advancement/kill_golem.json",
+        "data/eternal_starlight/advancement/kill_lunar_monstrosity.json",
+        "data/eternal_starlight/advancement/kill_permafrost.json",
+        "data/eternal_starlight/advancement/obtain_aethersent_ingot.json"
+      ],
+      "recipes": 2549
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "bibliowoods-1.21.1-1.6.2.jar",
+      "dependency_mentions": [
+        "eternal_starlight"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "Eternal Starlight",
+      "jar": "eternalstarlight-0.8.1+1.21.1+neoforge.jar",
+      "namespace": "eternal_starlight",
+      "english_keys": 1788,
+      "new_translation_required": 1788
+    }
+  ]
+}

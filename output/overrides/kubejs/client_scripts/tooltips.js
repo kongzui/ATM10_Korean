@@ -169,7 +169,7 @@ ItemEvents.modifyTooltips(allthemods => {
     //Eternal Starlight
     if (Platform.isLoaded("eternal_starlight")) {
         allthemods.add('eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]', [
-            Text.of('This loot bag is from the \"Lunar Monstrosity\".')
+            Text.of('이 전리품 가방은 \"달빛 괴수\"에게서 나옵니다.')
         ])
     }
 

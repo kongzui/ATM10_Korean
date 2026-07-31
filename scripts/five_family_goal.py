@@ -140,6 +140,12 @@ TARGETS = (
         "the_bumblezone",
         "The Bumblezone",
     ),
+    Target(
+        "eternal_starlight",
+        "eternalstarlight-",
+        "eternal_starlight",
+        "Eternal Starlight",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -152,6 +158,7 @@ FAMILY_LABELS = {
     "undergarden": "The Undergarden",
     "aether": "The Aether",
     "bumblezone": "The Bumblezone",
+    "eternal_starlight": "Eternal Starlight",
 }
 
 QUEST_CHAPTERS = {
@@ -164,6 +171,7 @@ QUEST_CHAPTERS = {
     "undergarden": ("undergarden",),
     "aether": ("aether",),
     "bumblezone": ("bumblezone",),
+    "eternal_starlight": ("eternal_starlight",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -211,6 +219,28 @@ ALLOWED_ORIGINALS = {
     "The Undergarden",
     "The Aether",
     "The Bumblezone",
+    "Eternal Starlight",
+    "TohokuAlpha",
+    "KuLou_D",
+    "KrLite - Whisper of The Stars",
+    "KrLite - Dusk o' Ereyesterday",
+    "TohokuAlpha - Tranquility",
+    "Binke - Nest",
+    "KrLite - Posterity",
+    "KrLite - The Thorny Reign",
+    "Binke - Profundity",
+    "Depus - Wailing Well",
+    "Strantran - Stars Shining upon the Sea",
+    "Depus - Optimized Option",
+    "Depus - Mechanical Fossil",
+    "Depus - Fake Light",
+    "TohokuAlpha - Tranquility II",
+    "TohokuAlpha - Atlantis",
+    "Binke - Sacred Desert",
+    "Binke - Spirit",
+    "TohokuAlpha - Ether Rain",
+    "Binke - Brisk",
+    "Binke - Moonlight",
     "Stratus",
     "Noisestorm - Aether Tune",
     "Emile van Krieken - Ascending Dawn",

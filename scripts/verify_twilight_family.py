@@ -72,8 +72,8 @@ def verify_bibliowoods(instance: Path) -> tuple[dict[str, object], list[str]]:
     errors = []
     if list(scoped.items()) != list(working_english.items()):
         errors.append("Bibliowoods 설치본 연동 키와 작업 원문이 다릅니다.")
-    if list(working_korean.items()) != list(output_korean.items()):
-        errors.append("Bibliowoods 작업 번역과 산출물이 다릅니다.")
+    if any(output_korean.get(key) != value for key, value in working_korean.items()):
+        errors.append("Bibliowoods 작업 번역과 누적 산출물이 다릅니다.")
     if set(working_korean) != set(scoped):
         errors.append("Bibliowoods 연동 번역 키 집합이 원문과 다릅니다.")
     untranslated = [key for key in scoped if scoped[key] == working_korean.get(key)]
@@ -110,7 +110,9 @@ def verify_bibliowoods(instance: Path) -> tuple[dict[str, object], list[str]]:
         "untranslated": len(untranslated),
         "formatting_errors": len(formatting),
         "translation_induced_name_collisions": len(collisions),
-        "output_matches": working_korean == output_korean,
+        "output_matches": all(
+            output_korean.get(key) == value for key, value in working_korean.items()
+        ),
     }, errors
 
 

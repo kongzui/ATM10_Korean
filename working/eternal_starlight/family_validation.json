@@ -1,0 +1,152 @@
+{
+  "language": {
+    "jar": "eternalstarlight-0.8.1+1.21.1+neoforge.jar",
+    "jar_size": 57350115,
+    "jar_sha256": "acb8fa7a69c4f7d4f1dfa3fba1dbdc96976478ea80b2f9025e43f0c4ee1ceb19",
+    "english_keys": 1788,
+    "korean_keys": 1788,
+    "bundled_korean_files": 0,
+    "output_matches_working_copy": true,
+    "exact_manual_entries": 450,
+    "review_sources": {
+      "keep_original": 72,
+      "manual_pattern_review": 1266,
+      "manual_review": 450
+    },
+    "output_sha256": "c14e1d93942414af9cb5c1ba32c8dc891b75ceab9f68d6d27ec1008e4ab76f10"
+  },
+  "advancements": {
+    "files_checked": 1327,
+    "display_fields_checked": 122,
+    "unique_translation_keys": 122,
+    "visible_literal_fields": 0,
+    "missing_translation_keys": 0
+  },
+  "guide": {
+    "guide": "assets/eternal_starlight/eternal_starlight/books/main.json",
+    "translation_references": 88,
+    "unique_translation_keys": 60,
+    "reviewed_book_content_keys": 31,
+    "reviewed_book_ui_keys": 3,
+    "reviewed_book_keys_total": 34,
+    "format_or_link_fragments": 88,
+    "unique_format_or_link_fragments": 4,
+    "missing_translation_keys": 0,
+    "additional_guide_files": 0
+  },
+  "bibliowoods": {
+    "jar": "bibliowoods-1.21.1-1.6.2.jar",
+    "direct_keys_checked": 1099,
+    "prior_keys_preserved": 1884,
+    "merged_output_keys": 2983,
+    "output_sha256": "013e3edceeb2092dcef3c80b611cc527d1339082e035c9b691d0a972a43dcef0"
+  },
+  "kubejs": {
+    "files_referencing_family": 16,
+    "referenced_paths": [
+      "kubejs/assets/hostilenetworks/lang/en_us.json",
+      "kubejs/assets/hostilenetworks/lang/ja_jp.json",
+      "kubejs/assets/hostilenetworks/lang/pt_br.json",
+      "kubejs/assets/hostilenetworks/lang/zh_cn.json",
+      "kubejs/client_scripts/tooltips.js",
+      "kubejs/server_scripts/Tweaks/tags.js",
+      "kubejs/server_scripts/announcements/announcements.js",
+      "kubejs/server_scripts/modpack/att_items.js",
+      "kubejs/server_scripts/modpack/runic_multis/controllers.js",
+      "kubejs/server_scripts/modpack/runic_multis/recipes/runic_crucible.js",
+      "kubejs/server_scripts/mods/Eternal Starlight/Datapacks.js",
+      "kubejs/server_scripts/mods/Eternal Starlight/Recipes.js",
+      "kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_enchanter.js",
+      "kubejs/server_scripts/mods/modular_machinery/recipes/atm/runic_crucible.js",
+      "kubejs/startup_scripts/CustomAdditions.js",
+      "kubejs/startup_scripts/eternal_starlight/eternal_starlight.js"
+    ],
+    "direct_literal_overrides": {
+      "kubejs/startup_scripts/CustomAdditions.js": {
+        "valid": true,
+        "source_state": "applied"
+      },
+      "kubejs/client_scripts/tooltips.js": {
+        "valid": true,
+        "source_state": "applied"
+      },
+      "kubejs/server_scripts/announcements/announcements.js": {
+        "valid": true,
+        "source_state": "applied"
+      }
+    },
+    "hostile_networks_trivia_keys": 17,
+    "datapack_trivia_references": 16,
+    "unreferenced_trivia_keys": [
+      "hostilenetworks.trivia.eternal_starlight.tangled_hatred"
+    ],
+    "commented_warning_script_active_lines": 0,
+    "hostile_networks_output_sha256": "08ebce5eb1add7a4f976fb2673dcafe29f9b37725fd8a756b293963d82e87c82"
+  },
+  "ftbquests": {
+    "chapters": [
+      "eternal_starlight.snbt"
+    ],
+    "quests_checked": 130,
+    "tasks_checked": 137,
+    "display_keys_checked": 174,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 4,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 92,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ],
+    "source_display_keys_reviewed": 174,
+    "explicit_fallback_titles": 11,
+    "merged_keys_checked": 185,
+    "stale_item_fallbacks_localized": 11
+  },
+  "live_parity": {
+    "eternal_starlight": {
+      "source_sha256": "c14e1d93942414af9cb5c1ba32c8dc891b75ceab9f68d6d27ec1008e4ab76f10",
+      "live_sha256": "c14e1d93942414af9cb5c1ba32c8dc891b75ceab9f68d6d27ec1008e4ab76f10",
+      "matches": true
+    },
+    "bibliowoods": {
+      "source_sha256": "013e3edceeb2092dcef3c80b611cc527d1339082e035c9b691d0a972a43dcef0",
+      "live_sha256": "013e3edceeb2092dcef3c80b611cc527d1339082e035c9b691d0a972a43dcef0",
+      "matches": true
+    },
+    "hostilenetworks": {
+      "source_sha256": "08ebce5eb1add7a4f976fb2673dcafe29f9b37725fd8a756b293963d82e87c82",
+      "live_sha256": "08ebce5eb1add7a4f976fb2673dcafe29f9b37725fd8a756b293963d82e87c82",
+      "matches": true
+    },
+    "ftbquests": {
+      "source_sha256": "b6e5b1b2fd67a046bbba0c8a95bec10c9d8222f1ddc61742ae4c150faef04be0",
+      "live_sha256": "b6e5b1b2fd67a046bbba0c8a95bec10c9d8222f1ddc61742ae4c150faef04be0",
+      "matches": true
+    },
+    "custom_additions": {
+      "source_sha256": "edbc190e13f6f9ca4b6b1f3ed50708e27160ffe9d10169df72e88a751b385039",
+      "live_sha256": "edbc190e13f6f9ca4b6b1f3ed50708e27160ffe9d10169df72e88a751b385039",
+      "matches": true
+    },
+    "tooltips": {
+      "source_sha256": "fe853bb6f629e997f51f019083e887cdc5ca1a4897906e80d8cfd389e2d5444a",
+      "live_sha256": "fe853bb6f629e997f51f019083e887cdc5ca1a4897906e80d8cfd389e2d5444a",
+      "matches": true
+    },
+    "announcements": {
+      "source_sha256": "d6c5e9e1fd5d5bea48bccb8ea94cd03bcbbe2795cc0ea0a119eaaf3710d87caf",
+      "live_sha256": "d6c5e9e1fd5d5bea48bccb8ea94cd03bcbbe2795cc0ea0a119eaaf3710d87caf",
+      "matches": true
+    }
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

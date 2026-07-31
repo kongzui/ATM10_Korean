@@ -1,0 +1,15 @@
+{
+  "family": "Eternal Starlight",
+  "chapters": {
+    "eternal_starlight": {
+      "display_keys": 129,
+      "new_translation_required": 3,
+      "project_output_review": 126
+    },
+    "related": {
+      "display_keys": 45,
+      "new_translation_required": 1,
+      "project_output_review": 44
+    }
+  }
+}
