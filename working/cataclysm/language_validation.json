@@ -1,0 +1,50 @@
+{
+  "family": "L_Ender's Cataclysm",
+  "languages": [
+    {
+      "label": "L_Ender's Cataclysm",
+      "jar": "L_Ender's Cataclysm 1.21.1-3.31.jar",
+      "namespace": "cataclysm",
+      "english_keys": 735,
+      "korean_keys": 735,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "bundled_exact_reuse": 544,
+      "new_or_edited": 191
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 544,
+    "project_output_reuse": 0,
+    "new_or_edited": 191
+  },
+  "ftbquests": {
+    "chapters": [
+      "cataclysm.snbt"
+    ],
+    "quests_checked": 96,
+    "tasks_checked": 112,
+    "display_keys_checked": 208,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 3,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 3,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

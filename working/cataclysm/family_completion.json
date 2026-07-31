@@ -1,0 +1,51 @@
+{
+  "family": "L_Ender's Cataclysm",
+  "instance": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+  "language_source": {
+    "jar": "L_Ender's Cataclysm 1.21.1-3.31.jar",
+    "jar_size": 73346531,
+    "jar_sha256": "ad86b5032d83265bf5d297061c6681dbbdf64695d8fd70a9cc6741acbbe78f94",
+    "english_keys": 735,
+    "korean_keys": 735,
+    "source_matches_installed_jar": true,
+    "output_matches_working_copy": true
+  },
+  "advancements": {
+    "files_checked": 21,
+    "display_fields_checked": 42,
+    "visible_literal_fields": 0,
+    "missing_translation_keys": 0
+  },
+  "guides": {
+    "separate_guide_candidates": 0,
+    "candidate_paths": [],
+    "display_path": "모드 언어 파일 및 FTB Quests"
+  },
+  "kubejs": {
+    "files_referencing_family": 3,
+    "referenced_paths": [
+      "kubejs/server_scripts/modpack/att_items.js",
+      "kubejs/server_scripts/Tweaks/disable_loot_table_ids.json",
+      "kubejs/server_scripts/Tweaks/tags.js"
+    ],
+    "direct_display_candidates": 0
+  },
+  "configs": {
+    "runtime_config_files": [
+      "config/cataclysm-client.toml",
+      "config/cataclysm-common.toml"
+    ],
+    "localized_display_artifacts": 0,
+    "classification": "런타임 설정값이며 번역 산출물 대상이 아님"
+  },
+  "quality": {
+    "language_overrides_checked": 140,
+    "quest_keys_checked": 208,
+    "mismatched_language_overrides": 0,
+    "mismatched_quest_outputs": 0,
+    "forbidden_fragment_hits": 0
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

@@ -121,6 +121,12 @@ TARGETS = (
         "twilightforest",
         "The Twilight Forest",
     ),
+    Target(
+        "cataclysm",
+        "L_Ender's Cataclysm ",
+        "cataclysm",
+        "L_Ender's Cataclysm",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -129,6 +135,7 @@ FAMILY_LABELS = {
     "ars_nouveau": "Ars Nouveau",
     "evilcraft": "EvilCraft",
     "twilight_forest": "The Twilight Forest",
+    "cataclysm": "L_Ender's Cataclysm",
 }
 
 QUEST_CHAPTERS = {
@@ -137,6 +144,7 @@ QUEST_CHAPTERS = {
     "ars_nouveau": ("ars_nouveau",),
     "evilcraft": ("evilcraft",),
     "twilight_forest": ("twilight_forest",),
+    "cataclysm": ("cataclysm",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -180,6 +188,7 @@ ALLOWED_ORIGINALS = {
     "Ars Énergistique",
     "EvilCraft",
     "The Twilight Forest",
+    "L_Ender's Cataclysm",
     "Baubles",
     "Blood Magic",
     "Equivalent Exchange 3",
@@ -199,6 +208,15 @@ ALLOWED_ORIGINALS = {
     "Rotch Gwylt - Radiance",
     "Rotch Gwylt - Steps",
     "Rotch Gwylt - Superstitious",
+    "Rotch Gwylt - Maledictus",
+    "Rotch Gwylt - Scylla",
+    "Yuri_O - Spawn Of Hell",
+    "Yuri_O - Defender of the Outer Realm",
+    "Yuri_O - Light My Fire",
+    "Yuri_O - Self-Destruction Sequence",
+    "Yuri_O - Predator of the Abyss",
+    "Yuri_O - The Dryest Beast",
+    "Yuri_O - The Cataclysmfarer",
     "MrCompost - Thread",
     "MrCompost - Wayfarer",
     "HexaBlu",

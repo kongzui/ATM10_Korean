@@ -1,0 +1,44 @@
+{
+  "family": "L_Ender's Cataclysm",
+  "installed": [
+    {
+      "label": "L_Ender's Cataclysm",
+      "jar": "L_Ender's Cataclysm 1.21.1-3.31.jar",
+      "namespace": "cataclysm",
+      "direct_integration": false,
+      "english_keys": 735,
+      "bundled_korean_keys": 707,
+      "metadata_mentions_family": [
+        "cataclysm"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 21,
+      "advancement_examples": [
+        "data/cataclysm/advancement/find_acropolis.json",
+        "data/cataclysm/advancement/find_ancient_factory.json",
+        "data/cataclysm/advancement/find_burning_arena.json",
+        "data/cataclysm/advancement/find_cursed_pyramid.json",
+        "data/cataclysm/advancement/find_frosted_prison.json",
+        "data/cataclysm/advancement/find_ruined_citadel.json",
+        "data/cataclysm/advancement/find_soul_black_smith.json",
+        "data/cataclysm/advancement/find_sunken_city.json",
+        "data/cataclysm/advancement/kill_all_bosses.json",
+        "data/cataclysm/advancement/kill_clawdian.json",
+        "data/cataclysm/advancement/kill_ender_golem.json",
+        "data/cataclysm/advancement/kill_ender_guardian.json",
+        "data/cataclysm/advancement/kill_harbinger.json",
+        "data/cataclysm/advancement/kill_ignis.json",
+        "data/cataclysm/advancement/kill_leviathan.json",
+        "data/cataclysm/advancement/kill_maledictus.json",
+        "data/cataclysm/advancement/kill_monstrosity.json",
+        "data/cataclysm/advancement/kill_remnant.json",
+        "data/cataclysm/advancement/kill_revenant.json",
+        "data/cataclysm/advancement/kill_scylla.json"
+      ],
+      "recipes": 210
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": []
+}
