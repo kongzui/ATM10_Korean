@@ -1,0 +1,50 @@
+{
+  "family": "The Bumblezone",
+  "languages": [
+    {
+      "label": "The Bumblezone",
+      "jar": "the_bumblezone-7.15.0+1.21.1-neoforge.jar",
+      "namespace": "the_bumblezone",
+      "english_keys": 1788,
+      "korean_keys": 1788,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "new_or_edited": 1694,
+      "bundled_exact_reuse": 94
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 94,
+    "project_output_reuse": 0,
+    "new_or_edited": 1694
+  },
+  "ftbquests": {
+    "chapters": [
+      "bumblezone.snbt"
+    ],
+    "quests_checked": 114,
+    "tasks_checked": 115,
+    "display_keys_checked": 195,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 8,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 36,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

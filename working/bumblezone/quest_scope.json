@@ -1,0 +1,14 @@
+{
+  "family": "The Bumblezone",
+  "chapters": {
+    "bumblezone": {
+      "display_keys": 189,
+      "installed_ko_kr_candidate": 1,
+      "project_output_review": 188
+    },
+    "related": {
+      "display_keys": 6,
+      "project_output_review": 6
+    }
+  }
+}

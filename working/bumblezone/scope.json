@@ -1,0 +1,75 @@
+{
+  "family": "The Bumblezone",
+  "installed": [
+    {
+      "label": "The Bumblezone",
+      "jar": "the_bumblezone-7.15.0+1.21.1-neoforge.jar",
+      "namespace": "the_bumblezone",
+      "direct_integration": false,
+      "english_keys": 1788,
+      "bundled_korean_keys": 574,
+      "metadata_mentions_family": [
+        "the_bumblezone"
+      ],
+      "guide_candidates": 84,
+      "guide_examples": [
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_10.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_11.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_12.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_13.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_14.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_15.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_2.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_3.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_4.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_5.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_6.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_7.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_8.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/blue/inside_side_rooms_book_9.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/green/inside_side_rooms_book_10.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/green/inside_side_rooms_book_11.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/green/inside_side_rooms_book_12.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/green/inside_side_rooms_book_13.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/green/inside_side_rooms_book_14.json",
+        "data/the_bumblezone/worldgen/processor_list/sempiternal_sanctum/green/inside_side_rooms_book_15.json"
+      ],
+      "advancements": 135,
+      "advancement_examples": [
+        "data/the_bumblezone/advancement/armor/bumble_bee_chestplate_max_flight.json",
+        "data/the_bumblezone/advancement/armor/carpenter_bee_boots_mined_blocks.json",
+        "data/the_bumblezone/advancement/armor/carpenter_bee_boots_wall_hanging.json",
+        "data/the_bumblezone/advancement/armor/craft_flower_headwear.json",
+        "data/the_bumblezone/advancement/armor/dye_flower_headwear.json",
+        "data/the_bumblezone/advancement/armor/flower_headwear_wrath_structure.json",
+        "data/the_bumblezone/advancement/armor/honey_bee_leggings_flower_pollen.json",
+        "data/the_bumblezone/advancement/armor/honey_bee_leggings_pollen_removal.json",
+        "data/the_bumblezone/advancement/armor/stingless_bee_helmet_super_sight.json",
+        "data/the_bumblezone/advancement/armor/warrior_bee.json",
+        "data/the_bumblezone/advancement/beds/sleep_in_bed.json",
+        "data/the_bumblezone/advancement/beehemoth/queen_beehemoth.json",
+        "data/the_bumblezone/advancement/beehemoth/tamed_beehemoth.json",
+        "data/the_bumblezone/advancement/bees/variant_bee_briefcase_capture.json",
+        "data/the_bumblezone/advancement/bees/variant_bee_name.json",
+        "data/the_bumblezone/advancement/biomes/discover_all_biomes.json",
+        "data/the_bumblezone/advancement/candles/light_soul_super_candle.json",
+        "data/the_bumblezone/advancement/candles/multi_potion_potion_candle.json",
+        "data/the_bumblezone/advancement/candles/obtain_all_colored_super_candles.json",
+        "data/the_bumblezone/advancement/candles/projectile_light_instant_potion_candle.json"
+      ],
+      "recipes": 189
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "The Bumblezone",
+      "jar": "the_bumblezone-7.15.0+1.21.1-neoforge.jar",
+      "namespace": "the_bumblezone",
+      "english_keys": 1788,
+      "bundled_ko_kr": 383,
+      "new_translation_required": 1405
+    }
+  ]
+}

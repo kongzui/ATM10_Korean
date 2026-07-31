@@ -134,6 +134,12 @@ TARGETS = (
         "The Undergarden",
     ),
     Target("aether", "aether-", "aether", "The Aether"),
+    Target(
+        "bumblezone",
+        "the_bumblezone-",
+        "the_bumblezone",
+        "The Bumblezone",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -145,6 +151,7 @@ FAMILY_LABELS = {
     "cataclysm": "L_Ender's Cataclysm",
     "undergarden": "The Undergarden",
     "aether": "The Aether",
+    "bumblezone": "The Bumblezone",
 }
 
 QUEST_CHAPTERS = {
@@ -156,6 +163,7 @@ QUEST_CHAPTERS = {
     "cataclysm": ("cataclysm",),
     "undergarden": ("undergarden",),
     "aether": ("aether",),
+    "bumblezone": ("bumblezone",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -202,6 +210,7 @@ ALLOWED_ORIGINALS = {
     "L_Ender's Cataclysm",
     "The Undergarden",
     "The Aether",
+    "The Bumblezone",
     "Stratus",
     "Noisestorm - Aether Tune",
     "Emile van Krieken - Ascending Dawn",
@@ -213,6 +222,29 @@ ALLOWED_ORIGINALS = {
     "Screem - Limax Maximus",
     "Screem - Mammoth",
     "Screem - Relict",
+    "Rimsky Korsakov - Flight of the Bumblebee",
+    "Rat Faced Boy - Honey Bee",
+    "Moserao - Rivers of Honey",
+    "LudoCrypt - La Bee-da Loca",
+    "LudoCrypt - Bee-laxing with the Hom-bees",
+    "LudoCrypt - Bee-ware of the Temple",
+    "RenRen - Knowing",
+    "RenRen - Radiance",
+    "RenRen - Life",
+    "Punpudle - A Last First Last",
+    "Punpudle - Drowning in Despair",
+    "Punpudle - Beenna Box",
+    "The Bumblezone!",
+    "A Last First Last",
+    "Drowning in Despair",
+    "Radiance",
+    "Knowing",
+    "Bee-laxing with the Hom-bees",
+    "Honey Bee",
+    "Life",
+    "Flight of the Bumblebee",
+    "Bee-ware of the Temple",
+    "La Bee-da Loca",
     "Baubles",
     "Blood Magic",
     "Equivalent Exchange 3",
@@ -2378,6 +2410,17 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
         if f'quest.{quest["id"]}.title' not in english_display
     ]
     for quest in first_task_fallbacks:
+        quest_title_key = f'quest.{quest["id"]}.title'
+        if quest_title_key in output:
+            title_text = quest_snbt.flatten(output[quest_title_key])
+            if LATIN_WORD.search(quest_audit.strip_formatting(title_text)) and not (
+                is_allowed_original(title_text)
+            ):
+                errors.append(
+                    "분류되지 않은 명시적 퀘스트 fallback 제목: "
+                    f"{quest['id']}={title_text}"
+                )
+            continue
         if not quest["tasks"]:
             errors.append(f"제목과 Task가 모두 없는 퀘스트: {quest['id']}")
             continue
@@ -2775,6 +2818,7 @@ def is_allowed_original(source: str) -> bool:
     stripped = source.strip()
     return (
         stripped in ALLOWED_ORIGINALS
+        or re.fullmatch(r"(?:https?://|www\.)\S+", stripped) is not None
         or TRANSLATION_KEY.fullmatch(stripped) is not None
         or re.fullmatch(r"\{image:[^}]+\}", stripped) is not None
         or not LATIN_WORD.search(stripped)

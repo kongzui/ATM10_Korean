@@ -1,0 +1,104 @@
+{
+  "language": {
+    "jar": "the_bumblezone-7.15.0+1.21.1-neoforge.jar",
+    "jar_size": 69665511,
+    "jar_sha256": "ceb71eab0a738dceb4c3916051a1dc50ad5951ee1ea8ac2f09b04f0406ff5839",
+    "english_keys": 1788,
+    "korean_keys": 1788,
+    "source_matches_installed_jar": true,
+    "output_matches_working_copy": true,
+    "bundled_exact_reuse": 94,
+    "new_or_edited": 1694,
+    "review_sources": {
+      "keep_original": 26,
+      "manual_review": 1143,
+      "manual_pattern_review": 619
+    },
+    "output_sha256": "a24a84162e939d166a082b1d5d9d8bd871d57c6abcec3a36c001d06675304ab9"
+  },
+  "advancements": {
+    "files_checked": 133,
+    "display_fields_checked": 266,
+    "visible_literal_fields": 0,
+    "missing_translation_keys": 0
+  },
+  "guides": {
+    "patchouli_or_guideme_paths": 0,
+    "decorative_book_processors": 84,
+    "decorative_book_structures": 84,
+    "invalid_decorative_books": 0,
+    "direct_literals": [
+      "Bee Drone",
+      "Bee Record",
+      "1~15개의 벌 그림"
+    ],
+    "classification": "영원 성소 퍼즐용 장식 책이며 설명형 가이드가 아님"
+  },
+  "kubejs": {
+    "files_referencing_family": 8,
+    "referenced_paths": [
+      "kubejs/assets/the_bumblezone/lang/ru_ru.json",
+      "kubejs/data/the_bumblezone/bz_bee_queen_trades/revival/dead_bush.json",
+      "kubejs/server_scripts/Tweaks/tags.js",
+      "kubejs/server_scripts/Unification/tools.js",
+      "kubejs/server_scripts/mods/Bumblezone/Recipes.js",
+      "kubejs/server_scripts/mods/Bumblezone/tags.js",
+      "kubejs/server_scripts/mods/MysticalAgriculture/Tags.js",
+      "kubejs/server_scripts/mods/The Bumblezone/Tags.js"
+    ],
+    "foreign_language_assets": 1,
+    "data_recipe_tag_files": 7,
+    "direct_display_candidates": 0
+  },
+  "dyenamicsandfriends": {
+    "jar": "dyenamicsandfriends-1.21.1-2.2.2.jar",
+    "keys_checked": 37,
+    "output_matches_working_copy": true,
+    "output_sha256": "aa528afce831221f1d10598bae6e46914a8d73fcde976c49b1caf106ecfa8023"
+  },
+  "ftbquests": {
+    "chapters": [
+      "bumblezone.snbt"
+    ],
+    "quests_checked": 114,
+    "tasks_checked": 115,
+    "display_keys_checked": 195,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 8,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 36,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ],
+    "source_display_keys_reviewed": 195,
+    "explicit_fallback_titles": 16,
+    "merged_keys_checked": 211
+  },
+  "live_parity": {
+    "the_bumblezone": {
+      "source_sha256": "a24a84162e939d166a082b1d5d9d8bd871d57c6abcec3a36c001d06675304ab9",
+      "live_sha256": "a24a84162e939d166a082b1d5d9d8bd871d57c6abcec3a36c001d06675304ab9",
+      "matches": true
+    },
+    "dyenamicsandfriends": {
+      "source_sha256": "aa528afce831221f1d10598bae6e46914a8d73fcde976c49b1caf106ecfa8023",
+      "live_sha256": "aa528afce831221f1d10598bae6e46914a8d73fcde976c49b1caf106ecfa8023",
+      "matches": true
+    },
+    "ftbquests": {
+      "source_sha256": "921788537bf37c8f9b576df4ab27f441a89defd4766e861fafda21da0d58d777",
+      "live_sha256": "921788537bf37c8f9b576df4ab27f441a89defd4766e861fafda21da0d58d777",
+      "matches": true
+    }
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

@@ -1,0 +1,17 @@
+{
+  "family": "The Bumblezone",
+  "status": "complete",
+  "language_keys": 1788,
+  "bundled_exact_reuse": 94,
+  "new_or_edited": 1694,
+  "ftbquest_source_display_keys": 195,
+  "ftbquest_explicit_fallback_titles": 16,
+  "dyenamicsandfriends_direct_integration_keys": 37,
+  "advancement_files_checked": 133,
+  "advancement_display_fields_checked": 266,
+  "decorative_book_structures_checked": 84,
+  "kubejs_reference_files_checked": 8,
+  "kubejs_direct_display_candidates": 0,
+  "backup_manifest": "temp/backups/20260731_220553_628496/backup_manifest.json",
+  "live_parity_required": true
+}
