@@ -1,0 +1,42 @@
+{
+  "family": "The Undergarden",
+  "language": {
+    "keys_reviewed": 679,
+    "changes_from_initial_candidates": 337,
+    "bundled_exact_reuse": 342,
+    "quality_edited": 144,
+    "new_translation": 193,
+    "reviewed_or_edited": 337,
+    "source_counts": {
+      "bundled_ko_kr": 342,
+      "manual_quality_review": 144,
+      "manual_review": 193
+    }
+  },
+  "ftbquests": {
+    "keys_reviewed": 152,
+    "changes_from_initial_candidates": 88,
+    "quality_edited": 80,
+    "new_translation": 8,
+    "reviewed_or_edited": 88,
+    "source_counts": {
+      "manual_quality_review": 80,
+      "manual_review": 8,
+      "project_output_review": 64
+    }
+  },
+  "bibliowoods": {
+    "jar": "bibliowoods-1.21.1-1.6.2.jar",
+    "all_english_keys": 10833,
+    "undergarden_keys": 471,
+    "existing_keys_preserved": 1256,
+    "merged_output_keys": 1727
+  },
+  "productive_bees": {
+    "keys_reviewed": 8,
+    "changes_from_previous_output": 8,
+    "quality_edited": 8,
+    "working_keys_preserved": 1110,
+    "output_keys": 1118
+  }
+}

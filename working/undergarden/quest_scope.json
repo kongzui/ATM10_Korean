@@ -1,0 +1,14 @@
+{
+  "family": "The Undergarden",
+  "chapters": {
+    "undergarden": {
+      "display_keys": 128,
+      "new_translation_required": 8,
+      "project_output_review": 120
+    },
+    "related": {
+      "display_keys": 20,
+      "project_output_review": 20
+    }
+  }
+}

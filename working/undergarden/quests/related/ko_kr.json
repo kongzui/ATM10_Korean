@@ -1,0 +1,42 @@
+{
+  "quest.041ED280691BB05D.quest_desc": [
+    "&9서리철&r은 &2&lThe Undergarden&r의 추운 생물 군계에서 흔히 발견되는 광석입니다."
+  ],
+  "quest.041ED280691BB05D.quest_subtitle": "18",
+  "quest.041ED280691BB05D.title": "&9서리철 갑옷",
+  "quest.16359196D49A6223.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_froststeel.png width:100 height:150 align:center}"
+  ],
+  "quest.16359196D49A6223.title": "&b서리철&r",
+  "quest.2C387BFA6EE6FDB7.quest_desc": [
+    "&c우테리움 수정&r은 &2&lThe Undergarden&r의 &c부패수&r가 떨어뜨립니다!"
+  ],
+  "quest.2C387BFA6EE6FDB7.quest_subtitle": "20",
+  "quest.2C387BFA6EE6FDB7.title": "&c우테리움 갑옷",
+  "quest.2FA0F5B348322095.quest_desc": [
+    "&7클로그룸&r은 &2&lThe Undergarden&r에서 철과 같은 광석이며 곳곳에 생성됩니다."
+  ],
+  "quest.2FA0F5B348322095.quest_subtitle": "14",
+  "quest.2FA0F5B348322095.title": "&7클로그룸 갑옷",
+  "quest.498483750C18FCD6.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_regalium.png width:100 height:150 align:center}"
+  ],
+  "quest.498483750C18FCD6.title": "&e레갈륨&r",
+  "quest.5E6D7C1D7957DD4D.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_forgotten.png width:100 height:150 align:center}"
+  ],
+  "quest.5E6D7C1D7957DD4D.title": "&a잊힌 금속&r",
+  "quest.690DB8BEF80617E5.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_utherium.png width:100 height:150 align:center}"
+  ],
+  "quest.690DB8BEF80617E5.title": "&c우테리움&r",
+  "quest.788A7A2F1F438B64.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_cloggrum.png width:100 height:150 align:center}"
+  ],
+  "quest.788A7A2F1F438B64.title": "&7클로그룸&r",
+  "quest.7CFEE836C68B3903.quest_subtitle": "&f7.5 &c공격 피해",
+  "quest.26B9909717528D5E.quest_subtitle": "The Undergarden에서 발견",
+  "quest.26B9909717528D5E.title": "우테릭 벌",
+  "quest.4F4C1A349F953013.quest_subtitle": "The Undergarden에서 발견",
+  "quest.4F4C1A349F953013.title": "잊힌 벌"
+}

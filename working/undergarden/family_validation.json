@@ -1,0 +1,138 @@
+{
+  "family": "The Undergarden",
+  "installed_source": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+  "require_live_parity": true,
+  "generic_validation": {
+    "family": "The Undergarden",
+    "languages": [
+      {
+        "label": "The Undergarden",
+        "jar": "The_Undergarden-1.21.1-0.9.6.jar",
+        "namespace": "undergarden",
+        "english_keys": 679,
+        "korean_keys": 679,
+        "untranslated": 0,
+        "untranslated_examples": [],
+        "duplicate_keys": 0,
+        "translation_induced_name_collisions": 0,
+        "output_matches": true,
+        "guide_extra_keys": 0,
+        "new_or_edited": 337,
+        "bundled_exact_reuse": 342
+      }
+    ],
+    "language_provenance": {
+      "bundled_exact_reuse": 342,
+      "project_output_reuse": 0,
+      "new_or_edited": 337
+    },
+    "ftbquests": {
+      "chapters": [
+        "undergarden.snbt"
+      ],
+      "quests_checked": 69,
+      "tasks_checked": 99,
+      "display_keys_checked": 152,
+      "source_english_custom_names": 0,
+      "unresolved_english_custom_names": 0,
+      "explicit_task_titles": 3,
+      "source_redundant_single_item_task_titles": 0,
+      "remaining_redundant_single_item_task_titles": 0,
+      "first_task_quest_fallbacks": 14,
+      "fallback_paths_checked": [
+        "chapter/group title",
+        "quest title/subtitle/description",
+        "task title",
+        "item hover name",
+        "custom_name/literal component",
+        "first-task quest fallback"
+      ]
+    },
+    "validation_errors": 0,
+    "errors": [],
+    "status": "complete"
+  },
+  "language_source": {
+    "jar": "The_Undergarden-1.21.1-0.9.6.jar",
+    "jar_size": 45294936,
+    "jar_sha256": "49e3db6ce2cf6864e9d45f0633de95bc3ef72cbd5ebffee493fca7198d30ccb0",
+    "english_keys": 679,
+    "korean_keys": 679,
+    "source_matches_installed_jar": true,
+    "output_matches_working_copy": true,
+    "output_sha256": "1a6a4989d5381132ceee247823394bf517893522db0d6dd0c62cc19e0677fc11"
+  },
+  "advancements": {
+    "files_checked": 377,
+    "display_fields_checked": 74,
+    "empty_literal_fields": 1,
+    "visible_literal_fields": 0,
+    "missing_translation_keys": 0
+  },
+  "guides": {
+    "separate_guide_candidates": 0,
+    "candidate_paths": [],
+    "display_path": "모드 언어 파일 및 FTB Quests"
+  },
+  "kubejs": {
+    "files_referencing_family": 3,
+    "referenced_paths": [
+      "kubejs/server_scripts/mods/Immersive Engineering/Compatibility.js",
+      "kubejs/server_scripts/Unification/tools.js",
+      "kubejs/startup_scripts/Farmer's Delight/Compatibility.js"
+    ],
+    "direct_display_candidates": 0
+  },
+  "bibliowoods": {
+    "jar": "bibliowoods-1.21.1-1.6.2.jar",
+    "all_english_keys": 10833,
+    "undergarden_keys": 471,
+    "translated_keys": 471,
+    "existing_twilight_forest_keys_preserved": 1256,
+    "merged_output_keys": 1727,
+    "untranslated": 0,
+    "formatting_errors": 0,
+    "translation_induced_name_collisions": 0
+  },
+  "productive_bees": {
+    "jar": "productivebees-1.21.1-13.13.5.jar",
+    "language_keys_checked": 8,
+    "quest_keys_checked": 4,
+    "missing_source_keys": 0,
+    "language_mismatches": 0,
+    "quest_mismatches": 0
+  },
+  "live_parity": {
+    "undergarden_language": {
+      "source": "output/resourcepack/ATM10_Korean/assets/undergarden/lang/ko_kr.json",
+      "target": "resourcepacks/ATM10_Korean/assets/undergarden/lang/ko_kr.json",
+      "source_sha256": "1a6a4989d5381132ceee247823394bf517893522db0d6dd0c62cc19e0677fc11",
+      "target_sha256": "1a6a4989d5381132ceee247823394bf517893522db0d6dd0c62cc19e0677fc11",
+      "matches": true
+    },
+    "bibliowoods_integration": {
+      "source": "output/resourcepack/ATM10_Korean/assets/bibliowoods/lang/ko_kr.json",
+      "target": "resourcepacks/ATM10_Korean/assets/bibliowoods/lang/ko_kr.json",
+      "source_sha256": "c870d7714d3ad45e7d84801ba962e3d155e7b937fe6f9d6572a8b32628bb8273",
+      "target_sha256": "c870d7714d3ad45e7d84801ba962e3d155e7b937fe6f9d6572a8b32628bb8273",
+      "matches": true
+    },
+    "productivebees_integration": {
+      "source": "output/resourcepack/ATM10_Korean/assets/productivebees/lang/ko_kr.json",
+      "target": "resourcepacks/ATM10_Korean/assets/productivebees/lang/ko_kr.json",
+      "source_sha256": "01d7bf2bd4b1332a30a0faf53fafab2d8c1d88de8db495ce429732b362b3b479",
+      "target_sha256": "01d7bf2bd4b1332a30a0faf53fafab2d8c1d88de8db495ce429732b362b3b479",
+      "matches": true
+    },
+    "ftbquests_language": {
+      "source": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+      "target": "config/ftbquests/quests/lang/ko_kr.snbt",
+      "source_sha256": "bd8c3fa882c993ee2db62b9769505cb48e6dba9db445a0e3c919033f1e196adf",
+      "target_sha256": "bd8c3fa882c993ee2db62b9769505cb48e6dba9db445a0e3c919033f1e196adf",
+      "matches": true
+    }
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

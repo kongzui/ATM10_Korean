@@ -123,7 +123,7 @@
 	quest.00AC7CC291A3E590.quest_desc: ["아마도 (분명히) 세계 곳곳에서 신호기처럼 보이는 것이 솟아나오는 구조물을 보셨을 겁니다. 그것들은 조약돌로 만들어졌고, 4개의 다리가 그것들을 지지하며, 꽤 높이 떠 있습니다! \\n\\n부디 알고 계시길 바라지만, 그것들은 &8어둠의 사원&r이라고 불리며, 우리에게 필요한 &a환경 축전기&r를 가지고 있습니다. \\n\\n날씨 컨테이너를 채우려면 뇌우가 치기를 기다려야 합니다. 그런 다음 &3번개 폭탄&r을 만들 수 있습니다!"]
 	quest.00AC7CC291A3E590.title: "&3번개 폭탄"
 	quest.00B7DD3AFC94B037.quest_subtitle: "너도밤나무 + 오리나무"
-	quest.00CB8D60E7831A57.quest_desc: ["지하 묘지는 깊은돌 벽돌로 만들어진 거대한 지하 구조물입니다. 찾을 수 있는 지상으로 튀어나온 부분이 있을 수도 있습니다.\\n\\n거대한 미로 안에는 &7잊혀진 자&r와 숨겨진 상자, 그리고 보스인 &a잊혀진 가디언&r이(가) 있습니다.\\n\\n준비되셨기를 바랍니다!"]
+	quest.00CB8D60E7831A57.quest_desc: ["지하 묘지는 깊은돌 벽돌로 이루어진 거대한 지하 구조물입니다. 지상으로 튀어나온 일부를 발견할 수도 있습니다.\\n\\n거대한 미로 안에는 &7잊힌 자&r와 숨겨진 상자, 보스인 &a잊힌 수호자&r가 있습니다.\\n\\n단단히 준비하세요!"]
 	quest.00CB8D60E7831A57.title: "지하 묘지"
 	quest.00D7BCC68D971A53.quest_desc: ["가까이 있는 살아있는 생물은 벽을 뚫고도 자동으로 추적됩니다. 공격적인 몹일 경우, 몹이 당신을 공격 대상으로 삼을 때 경고를 받게 됩니다."]
 	quest.00D7BCC68D971A53.quest_subtitle: "최대: 1"
@@ -182,7 +182,7 @@
 	quest.019CA0E35F888222.title: "&e고급 재입고 업그레이드"
 	quest.01AFC11EAAB6CB3B.quest_desc: ["&e본 렙타일 갑옷&r은 &e코볼레톤 뼈다귀&r, &e고대 금속&r으로 만들어졌으며, 투구는 &e코볼레디에이터 해골&r로 만들어졌습니다.\\n\\n이것들은 특별한 기능을 제공하지는 않지만, 저렴한 갑옷에 비해 매우 좋은 능력치를 제공합니다!"]
 	quest.01AFC11EAAB6CB3B.title: "&e본 렙타일 갑옷"
-	quest.01B13BBB41BBB460.quest_desc: ["&c유테리움 갑옷&r은 네더라이트 갑옷과 동일한 능력치를 가집니다!\\n\\n대장장이 형판이 필요 없이요!"]
+	quest.01B13BBB41BBB460.quest_desc: ["&c우테리움 갑옷&r은 네더라이트 갑옷과 능력치가 같습니다!\\n\\n대장장이 형판도 필요하지 않습니다!"]
 	quest.01B13BBB41BBB460.title: "&c우테리움&r 갑옷"
 	quest.01B2DDD81065B4EF.quest_subtitle: "정글나무 + 벚나무"
 	quest.01C169A7FA424F6E.quest_subtitle: "티어: &a2"
@@ -323,7 +323,7 @@
 		"{image:atm:textures/questpics/bumblezone/bumble_pollenpillar.png width:200 height:100 align:center}"
 	]
 	quest.041D16DA96BC4253.title: "&e&l꽃가루 기둥"
-	quest.041ED280691BB05D.quest_desc: ["&9서리철&r은 &2&l지하정원&r의 추운 생물 군계에서 흔한 광석입니다."]
+	quest.041ED280691BB05D.quest_desc: ["&9서리철&r은 &2&lThe Undergarden&r의 추운 생물 군계에서 흔히 발견되는 광석입니다."]
 	quest.041ED280691BB05D.quest_subtitle: "18"
 	quest.041ED280691BB05D.title: "&9서리철 갑옷"
 	quest.0436DF3308681913.quest_desc: [
@@ -519,7 +519,7 @@
 	quest.06AD25DB96F3A1CC.title: "&c수은&r 용기"
 	quest.06B85804163DD18B.quest_desc: ["소아린 상자(소아린은 XyCraft의 제작자입니다)는 XyCraft의 상자입니다.\\n\\n블록을 파괴할 때 아이템을 보관하지 않습니다! 저 사각형들은 무슨 역할을 할까요?"]
 	quest.06D13E319C26C949.quest_desc: [
-		"핏빛 버섯 습지는 거대한 핏빛 버섯의 Home입니다.\\n\\n피는 저를 불안하게 하므로 이 Description을 짧게 유지해야 할 것 같습니다."
+		"핏빛 버섯 습지에는 거대한 핏빛 버섯이 자랍니다.\\n\\n피를 보면 불안해지니 설명은 짧게 끝낼게요."
 		"{image:atm:textures/questpics/undergarden/undergarden_blood.png width:200 height:100 align:center}"
 	]
 	quest.06D13E319C26C949.title: "핏빛 버섯 습지"
@@ -538,7 +538,7 @@
 	quest.070CAEAD49B8DBA3.title: "&5&l크리에이티브 &7압축된 철 블록"
 	quest.072FBEB0F6F1BC48.quest_desc: ["서랍을 컨트롤러에 연결하고 엔더 서랍을 연결하는 데 사용됩니다.\\n\\n서랍을 컨트롤러에 연결하려면 컨트롤러 블록을 우클릭하여 구성을 시작하세요. 서랍을 우클릭하면 네트워크에 추가됩니다.\\n\\n도구를 들고 있으면 어떤 서랍이 컨트롤러에 연결되어 있는지 보여줍니다."]
 	quest.073BA8470EA37A00.quest_desc: [
-		"또 다른 바다, 단지 이 바다는 훨씬 더 춥습니다."
+		"또 다른 바다지만, 이곳은 훨씬 춥습니다."
 		"{image:atm:textures/questpics/undergarden/undergarden_icey.png width:200 height:100 align:center}"
 	]
 	quest.073BA8470EA37A00.title: "빙해"
@@ -699,7 +699,7 @@
 		"- 정신 말살"
 	]
 	quest.0A0A991BAC99092C.quest_desc: [
-		"쪽빛 버섯 습지는 핏빛 버섯 습지보다 훨씬 더 많은 습지로 채워져 있습니다. \\n\\n물론 쪽빛 버섯뿐만 아니라 작은 스모그스템 나무와 유독성 혼합물 연못도 있습니다. 그게 무엇일지 궁금하네요 does..."
+		"쪽빛 버섯 습지는 핏빛 버섯 습지보다 물이 훨씬 많습니다. \\n\\n쪽빛 버섯은 물론, 작은 안개줄기 나무와 유독성 혼합물 연못도 있습니다. 저 액체에는 어떤 효과가 있을까요..."
 		"{image:atm:textures/questpics/undergarden/undergarden_indigo.png width:200 height:100 align:center}"
 	]
 	quest.0A0A991BAC99092C.title: "쪽빛 버섯 습지"
@@ -941,7 +941,7 @@
 	quest.0D6D45DBA64E612D.quest_desc: ["최대 생성 지연은 몹을 생성한 뒤 다음 생성까지 걸릴 수 있는 최대 시간입니다. 최솟값과 마찬가지로 20에서 32,767까지 설정할 수 있습니다. 시계 하나마다 스포너의 지연 시간을 10틱씩 바꿉니다. 20틱은 1초이므로 가장 빠른 생성 간격은 1초입니다."]
 	quest.0D6D45DBA64E612D.title: "최대 생성 지연"
 	quest.0D888A4C5EF0073E.quest_subtitle: "마호가니 + 카폭"
-	quest.0D91A6B36BD2F526.quest_desc: ["&7크로그룸 전투 도끼&r를 업그레이드하여 &2&l지하정원&r이 줄 수 있는 최고의 무기를 만드세요!"]
+	quest.0D91A6B36BD2F526.quest_desc: ["&7클로그룸 전투도끼&r를 업그레이드해 &2&lThe Undergarden&r 최고의 무기를 만드세요!"]
 	quest.0D91A6B36BD2F526.title: "궁극 무기!"
 	quest.0D9560C8E247F9E7.quest_desc: ["어딘가를 우클릭하면 되돌아가는 길을 찾을 수 있습니다. 충분히 가깝고 직접적인 경로가 있다면 경로가 나타납니다."]
 	quest.0D9560C8E247F9E7.quest_subtitle: "최대: 1"
@@ -1073,7 +1073,7 @@
 	]
 	quest.0F8F0F7880235BA2.title: "&c영혼 대장간&f: &c&l네더라이트 몬스트로시티&r의 거처"
 	quest.0F8F37D7E12078F5.quest_subtitle: "모든 팁을 완료하세요!"
-	quest.0FA77C28A57E06F1.quest_desc: ["장막 버섯은 늪지에서만 발견할 수 있습니다.\\n\\n이 버섯은 갈색 머리를 가지고 있는데, 만약 그 아래에 공기가 있다면 버섯 장막을 생성합니다. 그래서 이름이 그렇게 붙었습니다!"]
+	quest.0FA77C28A57E06F1.quest_desc: ["장막 버섯은 장막 버섯 습지에서만 발견됩니다.\\n\\n갈색 갓 아래가 비어 있으면 버섯 장막이 자랍니다. 이름이 붙은 이유도 바로 이것입니다!"]
 	quest.0FAAE744E156D8EF.quest_desc: ["&b균사 리액터&r는 리액터 블록 근처에서 동시에 작동하는 모든 균사 발전기로 구성되며, 총 &a25MFE/t&r를 생산합니다.\\n\\n모든 것이 좋아 보이지만, 작동시키려면 몇 가지를 자동화해야 합니다. 각 균사 발전기가 작동하는 데 무엇을 소비하는지 확인하고 자동화하세요. 대부분은 간단하지만, 다른 것들은 그렇지 않습니다. much... &o마법 해제 균사 발전기를 보면 알 수 있죠&r.\\n\\n하지만 모든 것을 자동화한 후에는 하나에서 멈출 필요가 없습니다. 더 많은 리액터를 만들 수 있습니다."]
 	quest.0FAAE744E156D8EF.quest_subtitle: "균사 리액터라, 흐음?"
 	quest.0FAF274ADA65B26A.quest_desc: ["차원문 액체는 고급 차원문 총 작동에 필수적인 신비로운 초록색 액체입니다.\\n\\n차원문 액체 카탈리스트를 다형성 액체에 떨어뜨리면 불안정한 차원문 액체가 생성되지만, 불안정한 차원문 액체는 엔드에서만 존재할 수 있습니다. 3티어 이상의 끈적이 퍼뜨리기를 수행하면 불안정한 차원문 액체가 차원문 액체로 변환됩니다."]
@@ -1106,10 +1106,10 @@
 	quest.104EBBC08B4733F5.quest_desc: ["&d시뮬레이션 챔버&r는 HNN의 주요 기계입니다.\\n\\n전원이 공급되면 내부에 배치된 &b데이터 모델&r을 기반으로 시뮬레이션을 실행합니다. 필요한 전력 또한 내부에 배치된 데이터 모델에 따라 다르며, 모델의 툴팁에서 확인할 수 있습니다.\\n\\n또한 이 기계는 시뮬레이션을 실행하려면 최소한 하나의 &9예측 모형&r이 필요합니다.\\n\\n시뮬레이션 결과는 매트릭스에 출력됩니다. 시뮬레이션은 항상 다양한 제작 레시피에 사용될 수 있는 일종의 &e일반화된 예측&r을 생성합니다. 또한 데이터 모델에 있는 몹의 출처에 따라 달라집니다.\\n\\n시뮬레이션에 성공하면 모델을 기반으로 &d몹 예측&r을 받게 됩니다. 사용된 데이터 모델의 티어가 높을수록 시뮬레이션 성공률이 높아집니다."]
 	quest.104EBBC08B4733F5.title: "&a죽음 시뮬레이션 중"
 	quest.1054168AFD8520D4.quest_desc: [
-		"&a잊혀진 수호자&r는 &a잊혀진 주괴&r로 만들어진 거대한 골렘입니다.\\n\\n이들은 플레이어를 과녁으로 삼아 플레이어를 죽이기 위해 필요한 모든 것을 할 것입니다.\\n\\n이들은 80 하트의 체력을 가지고 있으며, 처치하면 &a잊혀진 조각&r을 드롭합니다."
+		"&a잊힌 수호자&r는 &a잊힌 주괴&r로 만들어진 거대한 골렘입니다.\\n\\n플레이어를 표적으로 삼아 수단과 방법을 가리지 않고 공격합니다.\\n\\n체력은 하트 80개이며, 처치하면 &a잊힌 조각&r을 떨어뜨립니다."
 		"{image:atm:textures/questpics/undergarden/undergarden_guardian.png width:100 height:200 align:center}"
 	]
-	quest.1054168AFD8520D4.title: "&a잊혀진 수호자&r"
+	quest.1054168AFD8520D4.title: "&a잊힌 수호자&r"
 	quest.10672B5991E5FC34.quest_desc: ["내 물건이니 만지지 마세요.\\n\\n업그레이드를 넣은 후에는 당신만 라우터를 사용하고 망가뜨릴 수 있습니다."]
 	quest.106884349C9FF3BA.quest_desc: ["정말 일부 빛의 근원은 너무 못생겼어요!\\n\\n바꿔봅시다!"]
 	quest.106884349C9FF3BA.title: "&l&b금 간&r 조명"
@@ -1148,7 +1148,7 @@
 	quest.117241986C99E475.title: "레드스톤 벌"
 	quest.1178E4123E8818E2.quest_desc: ["죄송합니다. 이제 이것들을 더 이상 착용할 수 없습니다. 이제 그냥 아이템일 뿐입니다! \\n\\n이것들을 우클릭하면 &e모래폭풍&r 2개가 생성됩니다. &e모래폭풍&r은 당신 주위를 돌면서 당신과 함께 움직입니다. \\n\\n모래폭풍에 맞은 것은 무엇이든 피해를 입고 밀쳐집니다."]
 	quest.1178E4123E8818E2.title: "&e병 속의 모래폭풍"
-	quest.1190BB433EFA3945.quest_desc: ["총알총은 &2&l언더가든&r에서 추가한 매우 재미있는 무기입니다. 발사할 수 있는 4가지 탄약이 있습니다.\\n\\n정원 민달팽이 끈적이는 발사할 수 있으며 몹에 맞으면 끈적임 효과를 줍니다.\\n\\n깊은돌은 일반적인 투사체입니다.\\n\\n썩은 물집딸기는 충돌 시 폭발합니다.\\n\\n그리고 &e그롱이&r는 피해를 주지 않고 소리만 내며 발사됩니다!"]
+	quest.1190BB433EFA3945.quest_desc: ["새총은 &2&lThe Undergarden&r에서 추가되는 재미있는 무기입니다. 탄약은 4종입니다.\\n\\n정원 민달팽이 점액 공은 맞은 몹에게 끈적임 효과를 줍니다.\\n\\n깊은돌 조약돌은 평범한 발사체입니다.\\n\\n썩은 발포 베리는 충돌하면 폭발합니다.\\n\\n&e그롱이&r는 피해를 주지 않고, 날아가며 소리만 냅니다!"]
 	quest.119242549BD21764.quest_desc: [
 		"&e짐승&r은 몇몇 생물 군계에서 생성되며 중립적입니다.\\n\\n공격받으면 해당 지역의 모든 짐승이 당신을 공격합니다. 늑대나 좀비화된 피글린과 유사합니다.\\n\\n죽을 때 뼈를 대신할 수 있는 엄니를 떨어뜨릴 수 있습니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_brute.png width:100 height:100 align:center}"
@@ -1221,7 +1221,7 @@
 	quest.12ED1EE85E146A4B.quest_desc: ["수확기 파일런은 매우 간단한 자동 농장처럼 작동합니다. 파일런을 물 근원 위에 놓거나 안에 넣으면, 설정된 주변 지역에서 완전히 자란 작물을 자동으로 수확하고 다시 심습니다.\\n\\n해당 지역은 파일런 주변의 3x3, 5x5, 7x7 또는 9x9 블록으로 설정할 수 있습니다.\\n\\n작물에 사용할 괭이가 필요하며, 작물을 넣을 상자와 같은 보관함이 위에 있어야 합니다. 이 모든 것을 갖추고 켜져 있다면 농사를 시작할 것입니다!\\n\\n(릴리패드나 비료와 같은 많은 수정자를 사용할 때 매우 빠르게 농사를 지으면 TPS를 많이 잡아먹을 수 있으니 주의하세요)."]
 	quest.12EF38830108D02B.quest_desc: ["일반 거미 32마리를 처치하세요."]
 	quest.12F3A604329EC604.quest_subtitle: "기계의 효율을 증가시킵니다."
-	quest.130577AD1A1A8222.quest_desc: ["&7클로그럼&r은 철 갑옷보다 스탯이 약간 낮지만, 나무에서 자라나는 것이나 마찬가지이므로 공평하다고 생각합니다.\\n\\n또한 부츠는 정원 민달팽이 끈적이 속을 지나가는 데 도움이 됩니다!"]
+	quest.130577AD1A1A8222.quest_desc: ["&7클로그룸&r 갑옷은 철 갑옷보다 능력치가 조금 낮지만, 재료가 나무에서 자라다시피 하니 공평한 셈입니다.\\n\\n클로그룸 부츠를 신으면 정원 민달팽이 점액도 쉽게 지나갈 수 있습니다!"]
 	quest.130577AD1A1A8222.title: "&7클로그룸&r 갑옷"
 	quest.1310C1E14C259807.quest_desc: ["사용자 지정 서랍을 갖고 싶으신가요? 더 이상 찾아보지 마세요. 이 서랍들은 겉면은 블록의 텍스처를, 앞면은 다른 텍스처를 모방할 수 있습니다.\\n\\n사용 방법은 툴팁을 참조하세요."]
 	quest.13124A7E22999850.quest_subtitle: "티어: &e1"
@@ -1312,10 +1312,10 @@
 	quest.140DF670162C68DA.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_steeleaf.png width:100 height:150 align:center}"]
 	quest.140DF670162C68DA.title: "&a강철잎"
 	quest.141681FE9E524FB0.quest_desc: [
-		"&7잊혀진 자&r들은 지하 묘지 구조물 내에서 생성되는 전사입니다.\\n\\n그들은 고대 갑옷을 입고 클로그럼 도구를 들고 있으며, 이 모든 것은 죽을 때 떨어뜨릴 수 있습니다.\\n\\n그들은 또한 &cRot 몹&r을(를) 목표로 삼아 죽일 것입니다."
+		"&7잊힌 자&r는 지하 묘지에서 나타나는 전사입니다.\\n\\n고대 갑옷을 입고 클로그룸 도구를 들며, 이 장비는 처치했을 때 떨어질 수 있습니다.\\n\\n&c부패종&r도 적으로 여겨 공격합니다."
 		"{image:atm:textures/questpics/undergarden/undergarden_forgotten.png width:100 height:200 align:center}"
 	]
-	quest.141681FE9E524FB0.title: "&7잊혀진&r"
+	quest.141681FE9E524FB0.title: "&7잊힌&r"
 	quest.1427B3AB09510D20.quest_desc: ["조립되지 않은 PCB를 커패시터 2개와 트랜지스터 2개와 함께 조합하여 &3완성된 PCB&r를 얻으세요."]
 	quest.1427B3AB09510D20.quest_subtitle: "해냈어요!"
 	quest.142C67218BD16867.quest_desc: ["미니건을 사용하려면 이 &3미니건 탄약&r을 장전하세요."]
@@ -1402,7 +1402,7 @@
 	quest.15978093237448FE.quest_subtitle: "24"
 	quest.15978093237448FE.title: "&3워든 갑옷"
 	quest.15A8F04BC10E619E.quest_desc: [
-		"어떤 사람들은 서로 다른 모든 나무 [묘목]을 얻기 위해 여러 다른 [생물 군계]를 탐험하는 것을 싫어합니다. \\n\\n분명히 &2&l[언더가든]&r 개발자는 그랬기 때문에 대부분을 울창한 [숲]에 넣었습니다!"
+		"여러 종류의 묘목을 모으려고 수많은 생물 군계를 돌아다니기 싫은 사람도 있습니다. \\n\\n&2&lThe Undergarden&r 개발자도 그랬는지, 대부분의 묘목을 울창한 숲에 넣어 두었습니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_dense.png width:200 height:100 align:center}"
 	]
 	quest.15A8F04BC10E619E.title: "울창한 숲"
@@ -1446,7 +1446,7 @@
 	]
 	quest.162D2286A69D6E07.title: "&6Allthemodium 비전술사 방어구"
 	quest.16359196D49A6223.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_froststeel.png width:100 height:150 align:center}"]
-	quest.16359196D49A6223.title: "&b프로스트강철&r"
+	quest.16359196D49A6223.title: "&b서리철&r"
 	quest.1636F3F12E92CAEA.quest_desc: [
 		"물뿌리개를 사용하려면 물 근원 블록을 우클릭하여 물로 채워야 합니다. 물로 채워지면 작물에 대고 우클릭을 홀드하여 물뿌리개의 AOE 내에 있는 작물에 물을 줄 수 있습니다."
 		""
@@ -1467,8 +1467,8 @@
 		"{image:atm:textures/questpics/railcraft/rail_wye.png width:100 height:100 align:center}"
 	]
 	quest.1698565EBB68DC85.title: "&6Y자 선로"
-	quest.16A04B2FC3F0D902.quest_desc: ["&7클로그럼&r 도구는 철 도구와 똑같이 작동하지만, 철보다 진흙처럼 보입니다! \\n\\n하지만 검은 철 검보다 더 많은 피해를 줍니다."]
-	quest.16A04B2FC3F0D902.title: "&7클로그럼&r 도구"
+	quest.16A04B2FC3F0D902.quest_desc: ["&7클로그룸&r 도구는 철 도구와 비슷하지만, 철보다는 진흙처럼 보입니다!\\n\\n다만 클로그룸 검은 철 검보다 더 강합니다."]
+	quest.16A04B2FC3F0D902.title: "&7클로그룸&r 도구"
 	quest.16AAC61729C44881.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 제작했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 명시적인 허가 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.16B4A00948D1F60D.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 제작했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 명시적인 허가 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.16B88F46021E956D.quest_desc: ["&l&6신성 마법&r에는 기계가 있으므로 당연히 물류가 필요합니다! &c수은&r을 사용하여 &c수은 전선&r 및 기타 아이템을 사용하여 아이템과 액체를 장소에서 장소로 이동할 수 있습니다! 전선은 실제로 아이템을 이동시키는 것입니다."]
@@ -1555,7 +1555,7 @@
 		"플레이어에게 걸음 보조를 제공합니다."
 	]
 	quest.17C2C8F64B4AE6EE.quest_desc: [
-		"&2토착종&r은 &2&l언더가든&r의 소입니다. 죽을 때 가죽과 토착종 고기를 드롭하는 패시브 몹입니다.\\n\\n정말 다행히도 우유를 짤 수는 없습니다. 저는 이 &2토착종&r이 만드는 우유는 마시고 싶지 않습니다."
+		"&2토착종&r은 &2&lThe Undergarden&r의 소와 같은 동물입니다. \\n온순하며 죽으면 가죽과 토착종 고기를 떨어뜨립니다. \\n\\n다행히 젖을 짤 수는 없습니다. &2토착종&r의 우유는 사양할게요."
 		"{image:atm:textures/questpics/undergarden/undergarden_dweller.png width:100 height:100 align:center}"
 	]
 	quest.17C2C8F64B4AE6EE.title: "&2토착종&r"
@@ -1798,7 +1798,7 @@
 	quest.1BA3D15FFE7DBE59.quest_subtitle: "라텍스와 플라스틱? 으음?"
 	quest.1BA3D15FFE7DBE59.title: "라텍스와 플라스틱? 으음?"
 	quest.1BAE1519E44E40CE.quest_desc: [
-		"고대 바다를 상상해 보세요. 자, 이제 그곳에서 모든 켈프를 제거하고 모든 &b정원메기&r와 &b새끼 정원메기&r를 제거하세요.\\n\\n그것이 바로 당신을 위한 죽은 바다입니다!"
+		"고대 바다를 떠올려 보세요. 이제 켈프와 &b정원메기&r, &b작은 정원메기&r를 모두 없애면 됩니다.\\n\\n그곳이 바로 죽은 바다입니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_dead.png width:200 height:100 align:center}"
 	]
 	quest.1BAE1519E44E40CE.title: "죽은 바다"
@@ -1823,8 +1823,8 @@
 	quest.1BF02D43986ABB03.quest_desc: ["&e벨트&r는 다양한 모양, 크기 및 용도로 제공됩니다! \\n\\n첫째, 모든 &e컨베이어 벨트&r는 &8강철 비계&r와 함께 제작하여 덮개를 씌울 수 있습니다. &e덮개 벨트&r는 &e아이템&r이 벨트 위에 있는 동안 플레이어가 줍지 못하게 합니다. \\n\\n&e벨트&r의 가장 간단한 첫 번째 버전은 &e수직 벨트&r입니다. 이것은 단순히 &e아이템&r을 위로 옮깁니다! \\n\\n&e분할 벨트&r는 들어오는 &e아이템&r의 방향을 나눕니다. 모든 &e아이템&r에 대해 전환됩니다. 1개는 왼손, 1개는 오른손, 1개는 왼손, 1개는 오른손으로 갑니다. \\n\\n&e떨어뜨리는 벨트&r는 &e아이템&r을 아래의 인벤토리로 떨어뜨리거나, 빈 공간이 있으면 &e아이템&r을 그냥 떨어뜨립니다. 이것들은 &4레드스톤&r으로 설정하여 &e아이템&r을 떨어뜨리지 않도록 할 수 있습니다. \\n\\n마지막은 &e추출 벨트&r입니다. 이것은 자동으로 인벤토리에서 &e아이템&r을 꺼내어 &e벨트&r에 배치합니다. 이것들은 일부 기계와 함께 사용할 수도 있습니다!"]
 	quest.1BF02D43986ABB03.title: "&e벨트의 종류"
 	quest.1C2309DB4B890E71.quest_desc: ["&n&5주입기&r는 아이템을 액체로 채우는 데 사용됩니다. 아이템을 홀드하기 위해 아래에 아이템 거치대를 사용하는 것이 best입니다."]
-	quest.1C232674CD04024D.quest_desc: ["&2&l언더가든&r 차원은 다양하고 혐오스러운 생물 군계로 가득 차 있으며, 풍부한 초목, 몹: 친근한 몹과 적대적인 몹, 그리고 물론 광물과 아이템이 있습니다.\\n\\n싸울 준비가 되었기를 바랍니다!"]
-	quest.1C232674CD04024D.title: "&2&l언더가든&r에 오신 것을 환영합니다!"
+	quest.1C232674CD04024D.quest_desc: ["&2&lThe Undergarden&r 차원에는 다채롭고 기괴한 생물 군계, 풍부한 식생, 온순하거나 적대적인 몹, 그리고 여러 광석과 아이템이 가득합니다.\\n\\n싸울 준비를 하세요!"]
+	quest.1C232674CD04024D.title: "&2&lThe Undergarden&r에 오신 것을 환영합니다!"
 	quest.1C273D9E046FD18A.quest_desc: ["에너지 주입 오브에서 아이템에 에너지를 주입할 때 사용합니다."]
 	quest.1C27C74722A19FC1.quest_desc: ["엄청나게 비싼 &l&5Mekanism&r 아이템을 사용하여 &5언옵테이니움 갑옷&r을 &a메카슈트&r로 상위 버전으로 변환할 수 있습니다! \\n\\n이제 에너지를 담을 수 있고 피해로 인해 하트를 잃는 대신 에너지를 소모합니다.\\n\\n상위 버전 변환 장치를 사용하여 훨씬 더 좋게 만들 수도 있습니다!"]
 	quest.1C27C74722A19FC1.quest_subtitle: "공급할 수 있는 만큼의 에너지"
@@ -1956,10 +1956,10 @@
 	quest.1E0F92F07FDD162E.quest_subtitle: "나는 그 (시드) 아래쪽 가로띠에 푹 빠져있어"
 	quest.1E0F92F07FDD162E.title: "&b번영 씨앗 베이스"
 	quest.1E13D7CE5A9EFF74.quest_desc: [
-		"서리 밭은 &2&l언더가든&r의 추운 생물 군계 중 하나입니다. 거대한 고드름, 가루눈, 그리고 얼어붙은 심층잔디를 보면 춥다는 것을 알 수 있습니다! \\n\\n또한 여기에서는 일반적인 지하의 깊은돌 대신 시버돌을 찾을 수 있습니다.\\n\\n시버돌은 실제 돌보다 얼음처럼 작용합니다. 적어도 그 위에 서 있을 때는요!"
+		"서리 들판은 &2&lThe Undergarden&r의 추운 생물 군계입니다. 거대한 고드름과 가루눈, 얼어붙은 심층 잔디를 보면 얼마나 추운지 알 수 있습니다! \\n\\n지하에는 평범한 깊은돌 대신 전율석이 있습니다.\\n\\n전율석은 돌보다 얼음에 가까워, 그 위에 서면 미끄럽습니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_frosty.png width:200 height:100 align:center}"
 	]
-	quest.1E13D7CE5A9EFF74.title: "프로스트필드"
+	quest.1E13D7CE5A9EFF74.title: "서리 들판"
 	quest.1E1EB7DC19DDCFB7.quest_desc: ["네더라이트 도구와 갑옷을 만들려면 보루 잔해의 상자에서 &6네더라이트 강화 대장장이 형판&r을 찾아야 합니다.\\n\\n&a대장장이 작업대&r에서 형판, 다이아몬드 도구나 갑옷, &c네더라이트&r 주괴를 조합하면 장비를 &c네더라이트&r로 업그레이드할 수 있습니다.\\n\\n팁: 형판을 한 번에 모두 사용하지 마세요! 제작법으로 형판을 복제할 수 있습니다."]
 	quest.1E1EB7DC19DDCFB7.title: "&6네더라이트 강화 형판&r"
 	quest.1E2A9446594638E2.quest_desc: [" 기묘한 &6엔드&r의 땅에 공간 자체를 비트는 &6유물&r, &5코러스 지팡이&r가 숨겨져 있습니다. \\n\\n 신비로운 &5코러스 식물&r로 만든 이 지팡이는 &2순간이동&r의 &5불안정한 힘&r을 품어, 사용자가 눈 &l깜짝&r할 사이 공간을 건너게 합니다. \\n\\n- &l능력은 1개입니다:&r \\n\\n &d순간이동&r: \\n 지팡이를 사용하면 &a&o짧은 거리&r만큼 앞으로 &9즉시 순간이동&r합니다. 내부 버퍼의 &e충전량을 소모&r하며, 충전량은 시간이 지나면 &e&o천천히&r 회복됩니다. \\n\\n- 한 걸음이 곧 &9사라짐&r이 되는 이동의 &6유물&r입니다."]
@@ -1978,8 +1978,8 @@
 	quest.1E414D285E7A5FE2.title: "&cTertium 도구"
 	quest.1E499F94A2A193E1.quest_desc: ["배낭에 용광로 GUI를 추가합니다."]
 	quest.1E7DC8E0493BE99E.quest_subtitle: "티어: &e1"
-	quest.1E81B903137BB62A.quest_desc: ["일반 &2도구&l로는 특히 &r언더가든&7의 위험한 &r몹&7을 다루기에 충분하지 않습니다. \\n\\n저희는 일반 &r방패&7처럼 작동하는 &r클로그럼 방패를 제작할 수 있습니다. \\n\\n하지만 &2잊혀진 자&l에게서 희귀하게 얻을 수 있는 &r전투 도끼&7를 얻어야 합니다."]
-	quest.1E81B903137BB62A.title: "&7클로그럼&r 무기"
+	quest.1E81B903137BB62A.quest_desc: ["&2&lThe Undergarden&r의 위험한 몹을 상대하려면 평범한 도구만으로는 부족합니다. \\n\\n일반 방패처럼 쓸 수 있는 &7클로그룸 방패&r를 제작할 수 있습니다. \\n\\n&7전투도끼&r는 &7잊힌 자&r에게서 희귀 전리품으로 얻어야 합니다."]
+	quest.1E81B903137BB62A.title: "&7클로그룸&r 무기"
 	quest.1E9B2D814F50A265.quest_desc: ["&n&5선풍기&r는 회전시키면 아이템과 개체를 끌어당기거나 밀어내는 데 사용됩니다. 화살표는 향하는 방향을 나타내고 회전 방향은 밀어낼지 끌어당길지를 결정합니다."]
 	quest.1E9BD4B74DAEA9FC.quest_desc: ["벌들을 이 벌집으로 유인하려면 꿀 간식 대신 튀긴 후렴과가 필요합니다."]
 	quest.1E9BD4B74DAEA9FC.quest_subtitle: "엔드에 설치하면 엔더 벌을 유인합니다."
@@ -2037,8 +2037,8 @@
 	quest.1FC7ABEAB5018E79.title: "&4레드스톤&r"
 	quest.1FCC474860587169.quest_desc: ["나중에 나올 제작법을 얻으려면 &6제련로 프리즘&r이 필요할 가능성이 높으며, 걱정하지 마세요. 티어 1 Forge만 있으면 됩니다! \\n\\nJEI에서 Forge에 필요한 각 스탯의 양을 확인할 수 있습니다! 또한 &6블레이즈 가루&r 4개, &8석탄&r 2개, &b아케인 크리스탈&r 1개가 필요합니다. \\n\\n마지막으로, &9엘리멘타리움&r이 필요합니다. 이것은 정글 사원, 사막 피라미드, 해저 유적에서 찾을 수 있습니다!"]
 	quest.1FCC474860587169.title: "&6제련로 프리즘"
-	quest.1FCF946B7BE3C0BD.quest_desc: ["&c유테리움&r 도구는 다이아몬드 도구와 비슷하지만, 무기는 &c썩은 몹&r에게 더 효과적입니다! \\n\\n그들이 만든 것으로 그들에게 더 많은 피해를 줄 수 있습니다! 그걸로 팝 문화 레퍼런스를 12개 정도 만들 수 있을 것 같지만, 생각이 안 나네요any..."]
-	quest.1FCF946B7BE3C0BD.title: "&c유서릭&r 도구"
+	quest.1FCF946B7BE3C0BD.quest_desc: ["&c우테리움&r 도구는 다이아몬드 도구와 비슷하지만, 무기는 &c부패종&r에게 더 큰 피해를 줍니다! \\n\\n적이 만들어 낸 물질로 그 적을 더 강하게 공격하는 셈이죠. 대중문화에서 비슷한 장면이 잔뜩 떠오를 법한데, 지금은 하나도 생각나지 않네요..."]
+	quest.1FCF946B7BE3C0BD.title: "&c우테릭&r 도구"
 	quest.1FD60B7448CED1EB.quest_desc: ["이 &b&l마카우&r 모드는 새로운 유형의 울타리, 문, 그리고 벽을 추가합니다.\\n\\n네, 미늘 철선은 당신을 다치게 할 것입니다.\\n\\n아니요, 당신은 그것들 중 어떤 것도 보통으로는 점프해서 넘을 수 없습니다."]
 	quest.1FD60B7448CED1EB.title: "&b&l마카우의 울타리 및 담장"
 	quest.1FDC8725105D822A.quest_desc: ["주방에는 음식을 담고, 보존하고, 요리할 수 있는 많은 블록이 있습니다! \\n\\n음식을 요리하거나 준비하는 대부분의 블록은 에너지가 필요하므로 전기 설정을 확인하여 자세히 알아보세요!"]
@@ -2223,7 +2223,7 @@
 		"{image:atm:textures/questpics/allthemodium/all_soul.png width:200 height:100 align:center}"
 	]
 	quest.226B8B60AF864FEF.title: "&3Vibranium 대장장이 형판&r"
-	quest.22739522F0D33D7B.quest_desc: ["우울호박은 호박처럼 생성되고 농사를 지을 수 있습니다.\\n\\n또한 호박처럼 파이를 만들거나 잭오랜턴을 만들 수도 있습니다!\\n\\n호박과는 달리 explosives...으로 만들 수도 있습니다."]
+	quest.22739522F0D33D7B.quest_desc: ["우울호박은 호박처럼 자연적으로 자라며 재배할 수 있습니다.\\n\\n호박처럼 파이나 랜턴으로 만들 수 있습니다!\\n\\n하지만 호박과 달리 폭발물로도 만들 수 있습니다..."]
 	quest.2278A98DCDF713D7.quest_desc: ["이제 탱크를 만들 시간입니다! 먼저 건축 블록과 밸브가 최소 1개 필요합니다. 유리와 아이템 IO는 선택 사항입니다.\\n\\n탱크는 건축 블록 틀로 만들어야 합니다. 건축 블록은 투명하거나, 중력의 영향을 받거나, 자연적인 흙 또는 잔디가 아닌 모든 것입니다.\\n\\n돌, 나무 또는 금속과 같은 아이템으로 틀과 모서리를 만들어야 합니다. 유리, 밸브, 아이템 IO는 벽에 배치해야 하며 내부는 비어 있어야 합니다.\\n\\n크기는 13x13x13까지만 가능합니다. 모두 완료되면 밸브를 우클릭하면 'Formed(형성됨)'라고 표시되거나 문제점을 알려줍니다."]
 	quest.2278A98DCDF713D7.title: "&l탱크"
 	quest.227BEFEF59977CC4.quest_subtitle: "자단 + 티크"
@@ -2356,7 +2356,7 @@
 	quest.24C9BA6DC32CFAD9.quest_desc: ["석탄은 처음으로 접하게 될 제대로 된 동력원입니다. 석탄이 부족하거나 찾기 어렵다면 숯을 대신 사용할 수 있습니다."]
 	quest.24C9BA6DC32CFAD9.quest_subtitle: "통나무를 제련하세요"
 	quest.24D38DA8E86DD897.quest_desc: [
-		"가장 작고 약한 &c썩은 몹&r입니다. \\n\\n이들은 하트 5개를 가지고 있습니다. \\n\\n모든 &c썩은 몹&r과 마찬가지로 &2돌부족&r과 &7잊혀진 자&r를 과녁으로 삼고 &c유서릭 파편&r을 드롭합니다."
+		"가장 작고 약한 &c부패종&r입니다. \\n\\n체력은 하트 5개입니다. \\n\\n다른 &c부패종&r처럼 &2돌인간&r과 &7잊힌 자&r를 공격하며 &c우테릭 파편&r을 떨어뜨립니다."
 		"{image:atm:textures/questpics/undergarden/undergarden_rotling.png width:100 height:100 align:center}"
 	]
 	quest.24D38DA8E86DD897.title: "&c부패귀&r"
@@ -2825,14 +2825,14 @@
 	quest.2C04B3BA507D5673.title: "패턴"
 	quest.2C0984E03F308959.quest_subtitle: "분홍 이페 + 행운"
 	quest.2C2EF4EBB3C9EAE3.quest_subtitle: "티어: &a2"
-	quest.2C387BFA6EE6FDB7.quest_desc: ["&c우테리움 수정&r은 &c부패수&r에게서 &2&l지하정원&r에서 드롭됩니다!"]
+	quest.2C387BFA6EE6FDB7.quest_desc: ["&c우테리움 수정&r은 &2&lThe Undergarden&r의 &c부패수&r가 떨어뜨립니다!"]
 	quest.2C387BFA6EE6FDB7.quest_subtitle: "20"
-	quest.2C387BFA6EE6FDB7.title: "&c유테리움 갑옷"
+	quest.2C387BFA6EE6FDB7.title: "&c우테리움 갑옷"
 	quest.2C4299D33D419AA0.quest_desc: ["&2&l오버월드&r에 텔레포트 패드를 설치하면 &7&l채굴 차원&r으로 이동합니다."]
 	quest.2C4299D33D419AA0.title: "&2&l오버월드"
 	quest.2C4ECA4F5B1639F4.quest_desc: ["빛의 밭은 많은 빛을 보여주지는 않지만, 메가 횃불처럼 작동합니다.\\n\\n몹은 주변 설정된 영역에서 생성되지 않습니다. 해당 영역은 약 32 블록 반경입니다."]
 	quest.2C4ECA4F5B1639F4.title: "&f빛의 밭"
-	quest.2C5A7E4CD8B57E08.quest_desc: ["그롱글 &e나무&r는 그롱글생장지 생물 군계에서만 생성되는 키 큰 정글과 같은 &e나무&r입니다! \\n\\n이 &e나무&r는 또한 &e그롱이&r가 생성되는 곳입니다."]
+	quest.2C5A7E4CD8B57E08.quest_desc: ["그롱글 나무는 그롱글생장지 생물 군계에서만 자라는, 정글 나무처럼 키가 큰 나무입니다! \\n\\n&e그롱이&r도 이 나무에서 나타납니다."]
 	quest.2C5D78630C7AD57F.quest_desc: ["범위를 증가시키고, 다른 것에 사용했을 때 다른 동작을 수행합니다."]
 	quest.2C5D78630C7AD57F.quest_subtitle: "더 가까이 오세요!"
 	quest.2C73E3C5113BF2AC.quest_desc: ["삐 삐, 나는 양이야"]
@@ -3025,7 +3025,7 @@
 	quest.2F8D117F802FEAF0.quest_desc: ["특공대는 경보병입니다.\\n\\n그들은 12개의 하트와 갑옷이 없습니다.\\n\\n그들의 무기는 &d&l리볼버&r와 보조 장비 슬롯에 홀드하는 방패입니다.\\n\\n사망 시 어포테오시스 스탯과 유사하게 다양한 스탯의 리볼버 부품을 드롭합니다!"]
 	quest.2F8D117F802FEAF0.title: "코만도"
 	quest.2F9B0C642A6BE30C.title: "&f철 배낭"
-	quest.2FA0F5B348322095.quest_desc: ["&7클로그럼&r은 &2&l언더가든&r의 철 광석입니다. 모든 곳에 스폰됩니다."]
+	quest.2FA0F5B348322095.quest_desc: ["&7클로그룸&r은 &2&lThe Undergarden&r에서 철과 같은 광석이며 곳곳에 생성됩니다."]
 	quest.2FA0F5B348322095.quest_subtitle: "14"
 	quest.2FA0F5B348322095.title: "&7클로그룸 갑옷"
 	quest.2FA6B8A1C8713DE0.quest_desc: ["티어 6 또는 마법이 걸린 시드를 키우려면 시드가 자라는 농지 바로 아래에 특정 크럭스가 있어야 합니다."]
@@ -3047,8 +3047,8 @@
 	quest.3029E1E133B91ED8.quest_desc: ["&n&5드릴&r은 앞에 있는 모든 블록을 파괴합니다. 연결된 인벤토리가 있다면 아이템이 그 안에 저장됩니다."]
 	quest.3054D016D2EF25FF.quest_subtitle: "금 + 은"
 	quest.3054D016D2EF25FF.title: "일렉트럼 벌"
-	quest.30582B5FBED35FD1.quest_desc: ["&c유테리움&r은 채굴하거나 &c썩은 몹&r에게서 얻을 수 있습니다."]
-	quest.30582B5FBED35FD1.title: "&c유서릭&r"
+	quest.30582B5FBED35FD1.quest_desc: ["&c우테리움&r은 채굴하거나 &c썩은 몹&r에게서 얻을 수 있습니다."]
+	quest.30582B5FBED35FD1.title: "&c우테릭&r"
 	quest.3061B67330367CE2.quest_desc: ["히드라나 유어 가스트를 처치했다면 &4파이어리 눈물/피&r를 얻을 수 있습니다. 둘 중 어느 것이든 쓸 수 있습니다! \\n\\n&4파이어리 병&r 중 하나로 철 갑옷을 업그레이드하면 &4파이어리 갑옷&r을 만들 수 있습니다. \\n\\n이 갑옷은 &c네더라이트&r보다 강하고, 착용자를 공격한 적에게 불을 붙입니다!"]
 	quest.3061B67330367CE2.quest_subtitle: "24"
 	quest.3061B67330367CE2.title: "&4파이어리 갑옷"
@@ -3341,7 +3341,7 @@
 	quest.3531B28F14CF72A2.quest_desc: ["&9황혼의 숲&r 모험에서 처음 처치할 보스는 안뜰에 있습니다.\\n\\n&2나가&r는 여러 마디로 이루어진 초록색 뱀이며, 피해를 줄수록 마디가 사라집니다.\\n\\n&2나가&r를 처치하면 좋은 아이템과 함께 다음 보스인 리치의 거처에 들어갈 자격을 얻습니다."]
 	quest.3531B28F14CF72A2.title: "&2나가 사냥꾼"
 	quest.353AEEC116A5DEEF.quest_desc: [
-		"고대 바다는 &2&l언더가든&r에 있는 넓게 트인 바다입니다.\\n\\n어떻게 된 건지 오염 물질의 양에도 불구하고 물은 마시기에 안전합니다.\\n\\n또한 물에는 &b정원메기&r와 &b새끼 정원메기&r가 있습니다. 그리고 반짝이 켈프를 잊을 수 없죠!"
+		"고대 바다는 &2&lThe Undergarden&r에 있는 넓게 트인 바다입니다.\\n\\n어떻게 된 건지 오염 물질의 양에도 불구하고 물은 마시기에 안전합니다.\\n\\n또한 물에는 &b정원메기&r와 &b새끼 정원메기&r가 있습니다. 그리고 반짝이 켈프를 잊을 수 없죠!"
 		"{image:atm:textures/questpics/undergarden/undergarden_ancient.png width:200 height:100 align:center}"
 	]
 	quest.353AEEC116A5DEEF.title: "고대 바다"
@@ -3423,7 +3423,7 @@
 	quest.361EF9E4973E3522.title: "&d섀도우 워커 의상"
 	quest.362F4CFD1B8B12B1.quest_desc: ["모든 생물은 마치 용암처럼 에테르 속에서 죽을 것입니다. 재미있게도 양동이에 담을 수는 있습니다! \\n\\n에테르를 얻는 유일한 방법은 에테르 강에서 찾는 것입니다.\\n\\n물이 에테르에 닿으면 싸이오 석영 블록이 생성됩니다!"]
 	quest.36389696767EFB4E.quest_desc: [
-		"메마른 심연은 이름에서 알 수 있듯이 barren... 적대적인 몹과 돌멩이 외에는 아무것도 없습니다. \\n\\n개인적으로 저는 어디에서든 돌멩이를 찾는 것이 더 좋습니다 else..."
+		"메마른 심연은 이름 그대로 황량합니다... 적대적인 몹과 조약돌 외에는 아무것도 없습니다. \\n\\n조약돌이라면 차라리 다른 곳에서 찾고 싶네요..."
 		"{image:atm:textures/questpics/undergarden/undergarden_barren.png width:200 height:100 align:center}"
 	]
 	quest.36389696767EFB4E.title: "메마른 심연"
@@ -3546,7 +3546,7 @@
 	quest.37EBB8E0D6E5F821.title: "&9호스타일 뉴럴 네트워크&r에 오신 것을 환영합니다!"
 	quest.37F2BE3C2BAF7C2D.quest_desc: ["태그는 Minecraft의 필수적인 부분입니다.\\n\\n태그가 무엇인지 모르는 사람들을 위해 설명하자면, 태그는 동일한 작업을 위해 유사한 아이템을 선택하는 데 도움이 되는 구성 도구 역할을 합니다. 예를 들어, 모든 종류의 판자로 제작대를 만들거나, 모든 종류의 도끼로 나무를 가장 빠르게 벨 수 있습니다.\\n\\n태그로 필터링하려면 아이템을 넣고 그룹에서 태그를 선택하세요. 광물에 철 광석을 사용하는 것과 같습니다."]
 	quest.380D3212D1CBA593.quest_desc: [
-		"중간 크기의 &c썩은 몹&r, &c부패자&r입니다.\\n\\n그들은 20 하트를 가지고 있습니다.\\n\\n모든 &c썩은 몹&r처럼 그들은 &2돌부족&r과 &7잊혀진 자&r를 과녁으로 삼고 &c유서릭 파편&r을 드롭합니다."
+		"중간 크기의 &c부패종&r인 &c부패자&r입니다.\\n\\n체력은 하트 20개입니다.\\n\\n다른 &c부패종&r처럼 &2돌인간&r과 &7잊힌 자&r를 공격하며 &c우테릭 파편&r을 떨어뜨립니다."
 		"{image:atm:textures/questpics/undergarden/undergarden_rotwalker.png width:100 height:200 align:center}"
 	]
 	quest.380D3212D1CBA593.title: "&c부패자&r"
@@ -3706,8 +3706,8 @@
 	]
 	quest.3AF30E1EC163E2E3.quest_subtitle: "다이아몬드 벌에게 사파이어를 먹이세요"
 	quest.3AF30E1EC163E2E3.title: "사파이어 벌"
-	quest.3AF7446592D19FA6.quest_desc: ["&e리가리움&r은 &2&l언더가든&r에서 에메랄드와 같습니다.\\n\\n방어구나 도구로는 만들 수 없지만, 다른 아이템을 얻기 위해 &2스톤본&r과 거래하는 데 사용할 수 있습니다."]
-	quest.3AF7446592D19FA6.title: "&e리가리움&r"
+	quest.3AF7446592D19FA6.quest_desc: ["&e레갈륨&r은 &2&lThe Undergarden&r에서 에메랄드와 같은 역할을 합니다.\\n\\n갑옷이나 도구로 만들 수는 없지만, &2돌인간&r과 다른 아이템을 거래할 때 사용합니다."]
+	quest.3AF7446592D19FA6.title: "&e레갈륨&r"
 	quest.3B3BD39BA02DCA13.quest_desc: ["&6주머니 피스톤&r을 착용하면 공격으로 적을 훨씬 멀리 밀쳐 냅니다! \\n\\n&6주머니 피스톤&r과 &7견고한 스파이크&r가 맞붙으면 어느 쪽이 이길까요?"]
 	quest.3B3BD39BA02DCA13.quest_subtitle: "손"
 	quest.3B3BD39BA02DCA13.title: "&6주머니 피스톤&r"
@@ -4120,8 +4120,8 @@
 		"{image:atm:textures/questpics/immersive/immersive_automated.png width:100 height:100 align:center}"
 	]
 	quest.4104C5D003D4705A.title: "&l&6자동화된 작업대"
-	quest.4141EF8B8C316118.quest_desc: ["&7클로그럼&r은 &2&l언더가든&r의 철입니다.\\n\\n그것은 모두 발견되며 수십 가지의 다양한 제작법에 사용됩니다.\\n\\n심지어 일부 몹도 그것을 드롭합니다!"]
-	quest.4141EF8B8C316118.title: "&7클로그럼&r"
+	quest.4141EF8B8C316118.quest_desc: ["&7클로그룸&r은 &2&lThe Undergarden&r의 철과 같은 광물입니다.\\n\\n어디서나 발견되며 수많은 제작법에 사용됩니다.\\n\\n심지어 몇몇 몹도 떨어뜨립니다!"]
+	quest.4141EF8B8C316118.title: "&7클로그룸&r"
 	quest.4147D247E4D754D0.quest_desc: [
 		"글리치(Gleeches)는 수정 사막에서 생성되는 아주 작은 몹입니다.\\n\\n그들은 끈질기게 당신의 피를 원하며, 심지어 폭력적인 방법도 사용합니다. 다행히도 그들은 단지 4 하트만을 가지고 있습니다!\\n\\n죽을 때 투사체로 던질 수 있는 알을 드롭할 수도 있습니다."
 		"{image:atm:textures/questpics/eternal/starlight_gleech.png width:100 height:100 align:center}"
@@ -4284,7 +4284,7 @@
 	quest.43F08B510FC1C06F.quest_subtitle: "아이템이 오고 가는 곳"
 	quest.43F08B510FC1C06F.title: "아이템 IO"
 	quest.43FD4AEBB9548E57.quest_desc: [
-		"안개줄기 숲은 쪽빛 버섯 습지와 이웃한 생물 군계입니다.\\n\\n물론 파란색이기도 하고 쪽빛 버섯도 있습니다! 더 큰 스모그스템 나무가 있을 뿐입니다!"
+		"안개줄기 숲은 쪽빛 버섯 습지와 이웃한 생물 군계입니다.\\n\\n이곳도 푸른빛을 띠고 쪽빛 버섯이 자라지만, 안개줄기 나무가 훨씬 큽니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_smogstem.png width:200 height:100 align:center}"
 	]
 	quest.43FD4AEBB9548E57.title: "안개줄기 숲"
@@ -4354,7 +4354,7 @@
 	quest.4564B577CB4EC046.quest_desc: ["소를 수백 마리 잡다 보면 희귀한 소고기를 발견할 수 있습니다. 광우병에 걸린 고기가 아니라 &c영원의 생고기&r 말이에요!\\n\\n&c영원의 생고기&r는 일반 생소고기처럼 먹을 수 있지만 사라지지 않습니다. 대신 다시 먹을 수 있을 때까지 재사용 대기시간이 생깁니다.\\n\\n자동 급식 배낭에도 사용할 수 있어요!"]
 	quest.4564B577CB4EC046.quest_subtitle: "고유"
 	quest.4564B577CB4EC046.title: "&c영원의 생고기&r"
-	quest.4568C2F465EDB960.quest_desc: ["늘어진열매는 거의 모든 생물 군계에서 생성될 수 있습니다. 위를 보세요!\\n\\n대부분의 생물 군계 지붕에서 생성되며, 빛나는 열매와 유사하게 그로우합니다."]
+	quest.4568C2F465EDB960.quest_desc: ["늘어진열매는 거의 모든 생물 군계의 천장에서 자랍니다. 위를 보세요!\\n\\n빛나는 열매와 비슷하게 덩굴을 따라 자랍니다."]
 	quest.456B9DD108CF340F.quest_desc: ["더 빠르게 만듭니다."]
 	quest.456B9DD108CF340F.quest_subtitle: "속도 증가!"
 	quest.457CAE66B0FA4CCF.quest_desc: ["다이아몬드 점봉으로 모든 &2바닐라&r 광물을 찾을 수 있습니다. 네더라이트까지 모두 찾을 수 있습니다!"]
@@ -4432,7 +4432,7 @@
 	]
 	quest.46DBCB578DA28296.title: "모던 인더스트리얼라이제이션"
 	quest.46DCB235D3FEDA61.quest_desc: ["철 도구와 유사하게, 이 도구들은 맞은 사람의 속도를 늦춥니다.\\n\\n괭이는 제외하고 말이죠. 하지만 단순한 괭이에 신경 쓰시나요?"]
-	quest.46DCB235D3FEDA61.title: "&b프로스트강철&r 도구"
+	quest.46DCB235D3FEDA61.title: "&b서리철&r 도구"
 	quest.46E6B1600AA8A61E.quest_desc: [
 		"유효한 상위 버전 변환:"
 		"- 몹 스캐너"
@@ -4596,7 +4596,7 @@
 	quest.497D222F74A52DF5.quest_subtitle: "15"
 	quest.497FA7CA04117995.title: "생명"
 	quest.498483750C18FCD6.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_regalium.png width:100 height:150 align:center}"]
-	quest.498483750C18FCD6.title: "&e리가리움&r"
+	quest.498483750C18FCD6.title: "&e레갈륨&r"
 	quest.499CF9F39CED8899.quest_desc: ["&bIntegrated Dynamics&r(ID)는 저장과 아이템·에너지·유체 운송 등에 쓰는 물류 모드입니다!\\n\\n멘릴 나무는 메네글린 생물군계에서 찾을 수 있습니다.\\n\\n이 퀘스트에서는 모드의 기본 개념을 다룹니다. 더 자세히 알고 싶다면 이 퀘스트 보상으로 받은 가이드를 읽어 보세요."]
 	quest.499CF9F39CED8899.quest_subtitle: "멘릴 성장"
 	quest.499CF9F39CED8899.title: "&bIntegrated Dynamics"
@@ -4610,7 +4610,7 @@
 	quest.49D1EA8E812A12F6.quest_desc: ["그것은 그냥 멋진 식물입니다.\\n\\n제가 왜 식물에 관심을 가져본 적이 없는지는 모르겠지만, 갈대는 저에게 멋있습니다. 아마도 물가에 있어서이거나, 솜방망이가 콘도그처럼 생겨서일 수도 있습니다. 이유는 모르겠지만 저는 그것들이 좋습니다."]
 	quest.49DC0BD7DC1B893C.quest_desc: ["심연은 별빛 바다 내부에 있는 깊은 해구입니다. 이 해구들은 -50까지 깊숙이 뻗어 있습니다!\\n\\n심연은 여러 색깔의 돌 레이어로 내벽이 덮여 있으며, 다양한 블록, 이끼, 물고기를 담고 있습니다!"]
 	quest.49DC0BD7DC1B893C.title: "심연"
-	quest.49EB9FB2133E3219.quest_desc: ["고대 갑옷은 &7잊혀진 자&r들이 입는 것이며, 그들에게서 얻을 수 있습니다.\\n\\n하지만 고대 부츠는 없습니다. &7잊혀진 자&r들은 발이 없는 것 같습니다."]
+	quest.49EB9FB2133E3219.quest_desc: ["고대 갑옷은 &7잊힌 자&r들이 입는 것이며, 그들에게서 얻을 수 있습니다.\\n\\n하지만 고대 부츠는 없습니다. &7잊힌 자&r들은 발이 없는 것 같습니다."]
 	quest.49EB9FB2133E3219.title: "고대 갑옷"
 	quest.49EDAA2F57D3BF1D.quest_desc: ["이 퀘스트는 &6AllTheMods 스태프&r 또는 &2커뮤니티 기여자&r가 AllTheMods 모드팩에서 사용할 수 있도록 작성했습니다.\\n\\n모든 &6AllTheMods&r 모드팩은 &eAll Rights Reserved&r 라이선스를 따릅니다. &6AllTheMods 팀&r의 명시적인 허가 없이 이 퀘스트를 팀에서 출시하지 않은 공개 모드팩에 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 내용이 보인다면 편집 모드입니다."]
 	quest.49EE6D2A3684A510.quest_desc: ["&b얼음 활&r은 전리품 상자에서 무작위로 발견할 수 있으며, 피격 시 10초 동안 속도 감소 III을 가합니다."]
@@ -4816,11 +4816,11 @@
 		"- 블레이즈골드"
 		"- 블레이즈 불씨"
 	]
-	quest.4C5CFA45D9B4F6D3.quest_desc: ["쪽빛 버섯은 스모그스템과 가장 친한 친구인 것 같으며 주로 함께 생성됩니다!"]
+	quest.4C5CFA45D9B4F6D3.quest_desc: ["쪽빛 버섯은 안개줄기 나무와 아주 잘 어울리는지 주로 함께 자랍니다!"]
 	quest.4C647369D976E67E.quest_desc: ["이 &c&l지팡이&r는 3가지 모드가 있습니다: 광선, AOE 또는 큰 폭발이며, Shift + 우클릭으로 각 모드를 변경할 수 있습니다! (모두 폭발을 유발하니 걱정 마세요!) \\n\\n광선은 예고된 대로 작동하며, 당신이 가리키는 곳으로 거대한 광선을 발사하여, 그 경로에 있는 모든 블록과 몹을 파괴합니다! \\n\\nAOE는 당신 앞에 12개의 원형을 소환하며, 각 원형은 조준된 곳으로 폭발성 폭발을 발사합니다. \\n\\n큰 폭발은 가장 재미있는 모드입니다. 단순히 우클릭을 target... 누른 채로 계속 누르고 계세요. 약간의 시간이 걸릴 것이고, 모든 줄이 다 자라면, 해제하세요! \\n\\n쾅! 거대한 핵폭탄이 터질 것입니다! 거대한 영역을 파괴하므로, 당신의 기지 근처에서는 사용하지 마세요. 사실 이러한 모드들을 it... 근처에서 사용하지 마세요."]
 	quest.4C647369D976E67E.title: "&c&l폭발적인 마나 응축"
 	quest.4C77ABCD41383F32.quest_desc: ["&n&5블레이즈 케이크&r는 색채 혼합물을 제작하기 위해 블레이즈 버너를 과열하는 데 사용됩니다."]
-	quest.4C7E006502E30C20.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 퀘스트가 보인다면 편집 모드에 있는 것입니다."]
+	quest.4C7E006502E30C20.quest_desc: ["이 퀘스트는 AllTheMods 모드팩에서 사용하도록 &6AllTheMods Staff&r 또는 &2커뮤니티 기여자&r가 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩에는 &eAll Rights Reserved&r 라이선스가 적용됩니다. &6AllTheMods Team&r이 배포하지 않은 공개 모드팩에서는 명시적인 허가 없이 이 퀘스트를 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 지금 보인다면 편집 모드입니다."]
 	quest.4C873491F6F0FFAF.quest_desc: [
 		"&d스피릿파이어&r를 사용하여 여러 오버월드 재료를 디 아더월드 종류로 변환할 수 있습니다. &b제3의 눈&r 효과를 받고 세계를 탐험하여 여러 디 아더월드 재료를 찾을 수도 있습니다. 무엇을 찾을지 놀라실 수도 있습니다. 더 쉽게 만들 수 있도록 &d스피릿파이어&r에 던져서 기본 재료를 제작하는 제작법이 있습니다."
 		""
@@ -4893,10 +4893,10 @@
 	quest.4D822D92492E1F53.quest_desc: ["&3아프트강그&r는 &3서리 감옥&r 안의 미니 보스입니다. \\n\\n480 &4하트&r를 지녔으며 거대한 도끼로 공격합니다. \\n\\n도끼를 휘두르거나 주변 땅을 내려칩니다. 땅을 내려치면 레이저가 생겨 경로에 있는 모두에게 피해를 줍니다. &e코볼레디에이터&r와 비슷한 돌진 공격도 사용합니다! \\n\\n죽으면 검은 강철 주괴와 조각, 썩은 살점과 뼈를 떨어뜨립니다."]
 	quest.4D822D92492E1F53.title: "&3아프트강그"
 	quest.4D836B9D9E3B898F.quest_desc: [
-		"&2돌부족&r은 주민과 철 골렘의 완벽한 조합입니다.\\n\\n오른쪽 클릭하여 그들과 거래할 수 있습니다.\\n\\n그리고 그들은 적대적인 몹(또는 그들을 때린 플레이어)과 싸울 것입니다."
+		"&2돌인간&r은 주민과 철 골렘을 합친 듯한 존재입니다.\\n\\n오른쪽 클릭해 거래할 수 있습니다.\\n\\n적대적인 몹이나 자신을 공격한 플레이어와도 싸웁니다."
 		"{image:atm:textures/questpics/undergarden/undergarden_stoneborn.png width:100 height:150 align:center}"
 	]
-	quest.4D836B9D9E3B898F.title: "&2돌결속&r"
+	quest.4D836B9D9E3B898F.title: "&2돌인간&r"
 	quest.4D8B82FBA0FFD49E.quest_subtitle: "티어: &63"
 	quest.4D8C9960BB675221.quest_desc: ["이름이 재미있네요!"]
 	quest.4D98D2123BD5BFB3.quest_desc: [
@@ -4953,10 +4953,10 @@
 	quest.4E3355FDCB65BB63.quest_desc: ["&a소환사&r는 Minecraft에서 강력하고 치명적인 미니 보스로 알려져 있습니다. 그래서 당연히 &lIron&r은 훨씬 더 강력하고 치명적인 버전을 추가했습니다! 그리고 네, 이 &e책&r은 둘 다에서 희귀한 드롭으로 나옵니다! \\n\\n10개의 주문 슬롯이 있지만 3개는 이미 사용 중입니다. &a송곳니 타격&r, &a송곳니 보호&r 및 &a벡스 떼&r는 모두 &e책&r과 함께 제공되며 이동할 수 없습니다.\\n\\n또한 &a&l소환&r에 대한 증가 효과를 제공합니다!"]
 	quest.4E3355FDCB65BB63.title: "&a소환의 마도서"
 	quest.4E3D548E5D8D7D26.quest_desc: [
-		"잊혀진 &2&l평야&r는 &2&l언더가든&r의 평원입니다. \\n\\n그곳에는 &2&l나무&r는 없지만 바위, 꽃, 그리고 &2&l몹&r이 풍부합니다!\\n\\n하지만 &7잊혀진 자&r는 생성되지 않습니다. 열정을 망쳐서 죄송합니다."
+		"잊힌 들판은 &2&lThe Undergarden&r의 평원입니다. \\n\\n나무는 없지만 바위와 꽃, 몹이 가득합니다! \\n\\n다만 &7잊힌 자&r는 나타나지 않습니다. 기대를 꺾어서 미안해요."
 		"{image:atm:textures/questpics/undergarden/undergarden_field.png width:200 height:100 align:center}"
 	]
-	quest.4E3D548E5D8D7D26.title: "잊혀진 평야"
+	quest.4E3D548E5D8D7D26.title: "잊힌 평야"
 	quest.4E4692C5E5A3D1A9.quest_desc: ["이것은 청동 버전과 동일하게 작동하지만, 액체 전송에 훨씬 효율적이며, 결과적으로 약 2배 더 많은 물이 펌프를 통해 퍼 올려집니다!"]
 	quest.4E4C4C962753B6AB.quest_desc: [
 		"이것은 모던 인더스트리얼라이제이션의 시작입니다. 필요한 모든 청동 기계에 케이싱이 필요할 것입니다."
@@ -5030,7 +5030,7 @@
 	quest.4F35D04721DFC9FF.quest_subtitle: "아비아르의 원형"
 	quest.4F35D04721DFC9FF.title: "&b우리의 첫 번째 &d의식"
 	quest.4F3B4990BE6C2A4A.quest_desc: [
-		"&7정원 민달팽이&r는 &2&l언더가든&r의 모든 곳에서 발견되는 작고 순수한 민달팽이입니다. \\n\\n그들은 눈 골렘처럼 행동하며, 걸어가는 곳마다 흔적을 남깁니다. 단지 이것은 좀 더 Gooey...입니다.\\n\\n죽을 때 정원 민달팽이 끈적이를 드롭하지만, 그들의 흔적에서 농사를 지을 수 있으니 왜 죽이겠어요!"
+		"&7정원 민달팽이&r는 &2&lThe Undergarden&r 곳곳에서 발견되는 작고 무해한 생물입니다. \\n\\n눈 골렘처럼 이동한 자리에 흔적을 남기지만, 그 흔적은 훨씬 끈적합니다...\\n\\n죽이면 점액을 떨어뜨리지만 흔적에서도 모을 수 있는데, 굳이 죽일 필요가 있을까요!"
 		"{image:atm:textures/questpics/undergarden/undergarden_scintling.png width:150 height:100 align:center}"
 	]
 	quest.4F3B4990BE6C2A4A.title: "&7정원 민달팽이&r"
@@ -5054,8 +5054,8 @@
 		"{image:atm:textures/questpics/immersive/immersive_arc.png width:100 height:100 align:center}"
 	]
 	quest.4F56BFE6E4716F6D.title: "&8&l아크 화로"
-	quest.4F5A2E2A5C7F4837.quest_desc: ["&a잊혀진 주괴&r는 지하 묘지를 통해 얻어야 합니다. 상자를 약탈하거나 &a잊혀진 가디언&r을 처치해야 합니다. \\n\\n또한 지하 묘지 상자에서 발견되는 대장장이 형판도 필요합니다."]
-	quest.4F5A2E2A5C7F4837.title: "&a잊혀진&r"
+	quest.4F5A2E2A5C7F4837.quest_desc: ["&a잊힌 주괴&r는 지하 묘지의 상자에서 찾거나 &a잊힌 수호자&r를 처치해 얻을 수 있습니다. \\n\\n업그레이드에는 지하 묘지 상자에서 발견되는 대장장이 형판도 필요합니다."]
+	quest.4F5A2E2A5C7F4837.title: "&a잊힌&r"
 	quest.4F66DF6B494BEFF3.quest_desc: ["&8까마귀 깃털&r, &e토치베리&r, &6발광석&r을 조합하면 &e마법 지도 초점&r을 얻을 수 있습니다."]
 	quest.4F66DF6B494BEFF3.title: "&e마법 지도 초점"
 	quest.4F7F0A5162D70082.quest_desc: ["혼동하지 마세요. 꽉 찬 &5크리에이티브 &a에너지 큐브&r와 비어 있는 에너지 큐브가 있습니다. \\n\\n&a빈 큐브&r는 에너지 쓰레기통처럼 작동하여 들어오는 모든 에너지를 무효화합니다. \\n\\n&a꽉 찬 큐브&r는 무한 에너지 저장소 역할을 합니다. &a빈 에너지 큐브&r를 만들어야 하며, 이는 비쌉니다!\\n\\n&6&lATM의 별&r로 4개의 &a빈 에너지 큐브&r에 에너지를 공급하면 꽉 찬 큐브를 얻을 수 있습니다."]
@@ -5136,7 +5136,7 @@
 	quest.5103C817381181DE.quest_desc: ["공압 흉갑을 착용한 상태에서도 겉날개를 사용할 수 있습니다."]
 	quest.5103C817381181DE.quest_subtitle: "최대: 1"
 	quest.511144EF336BFAF5.quest_desc: [
-		"안개 첨탑are... 네, 예상하셨다시피! 모든 안개가 나오는 곳입니다! 전부는 아니지만 &2Mogs&r와 &3S'mogs&r의 공을 무시할 수 없습니다. \\n\\n여기에서 물집딸기, 거친 깊은흙, 안개 배출구를 찾을 수 있습니다. 가까이 가지 않는 것이 좋습니다though..."
+		"안개 첨탑은... 맞아요, 짐작하신 대로 안개가 솟아나는 곳입니다! 물론 &2모구&r와 &3S'모그&r의 몫도 빼놓을 수 없죠. \\n\\n이곳에는 발포 베리와 거친 깊은 흙, 안개 배출구가 있습니다. 배출구에는 가까이 가지 않는 편이 좋습니다..."
 		"{image:atm:textures/questpics/undergarden/undergarden_smogspires.png width:200 height:100 align:center}"
 	]
 	quest.511144EF336BFAF5.title: "안개 첨탑"
@@ -5203,8 +5203,8 @@
 	]
 	quest.51DE3157DE3E57B8.quest_subtitle: "여기 주문이요"
 	quest.51DE3157DE3E57B8.title: "자동 제작"
-	quest.51E2728C5E35A152.quest_desc: ["프로스트강철은 얼어붙은 생물 군계인 프로스트필드, 프로스티 스모그스템 숲, 그리고 아마도 얼음 바다에서 스폰됩니다.\\n\\n이것은 해당 생물 군계에서 깊은돌을 대체하는 쉬버돌에서 스폰됩니다. 쉬버돌은 미끄러워서 약간 느려지게 하는 얼음과 유사하게 작동합니다.\\n\\n작귀의 배에서 작은 조각을 발견할 수도 있습니다!"]
-	quest.51E2728C5E35A152.title: "&b프로스트강철&r"
+	quest.51E2728C5E35A152.quest_desc: ["서리철은 서리 들판, 서리 낀 안개줄기 숲, 빙해 같은 추운 생물 군계에서 생성됩니다.\\n\\n이 지역에서 깊은돌을 대신하는 전율석에 광석이 박혀 있습니다. 전율석은 얼음처럼 미끄러우며 이동 속도를 조금 늦춥니다.\\n\\n작귀의 배 속에서 서리철 조각을 찾을 수도 있습니다!"]
+	quest.51E2728C5E35A152.title: "&b서리철&r"
 	quest.51E554305FFEBA1D.quest_desc: ["&4타오르는 지옥 책장&r은 &c퀀타&r와 &a이터나&r를 조금 제공하지만 &d&l주입&r에 쓸 저렴한 선택지는 아닙니다!"]
 	quest.51E554305FFEBA1D.title: "&4타오르는 지옥 책장"
 	quest.51E77B9CD3FB6DEA.quest_desc: ["필수는 아니지만 아주 유용합니다. \\n\\n굴착 발톱은 맨손의 곡괭이 등급을 높여, 주먹만으로 철광석까지 캘 수 있게 합니다! \\n\\n돌, 테라코타와 콘크리트도 채굴할 수 있으며, 손에 블록을 들고 있어도 기능이 작동합니다. \\n\\n솔직히 거의 필수품이나 다름없어요."]
@@ -5770,10 +5770,10 @@
 	quest.5B46B5BF4ADB2BE9.quest_desc: ["네, 길을 만들 수 있으니 걱정 마세요!"]
 	quest.5B46B5BF4ADB2BE9.title: "&6Allthemodium &5합금 &3삽"
 	quest.5B4B5C148D63ACA1.quest_desc: [
-		"&a잊혀진 미니언&r은 일반 몹처럼 생성되지 않고, 만들어야 합니다. 잊혀진 미니언은 &a잊혀진 주괴 블록&r 위에 잘라낸 Gloomgourd를 놓아서 만들 수 있습니다.\\n\\n잊혀진 미니언은 눈 골렘과 유사하게 행동하며, 절대 당신을 공격하지 않고 대신 적대적인 몹을 공격합니다.\\n\\n잊혀진 미니언은 하트 10개를 가지고 있으며 death... 아무것도 드롭하지 않습니다. 하지만 왜 굳이 죽이려고 하시나요?"
+		"&a잊힌 하수인&r은 자연적으로 나타나지 않으며 직접 만들어야 합니다. &a잊힌 금속 블록&r 위에 조각된 우울호박을 놓으세요.\\n\\n눈 골렘과 비슷하게 플레이어는 공격하지 않고 적대적인 몹을 향해 발사체를 쏩니다.\\n\\n체력은 하트 10개이고 죽어도 아무것도 떨어뜨리지 않습니다... 그런데 왜 죽이려는 건가요?"
 		"{image:atm:textures/questpics/undergarden/undergarden_minion.png width:125 height:100 align:center}"
 	]
-	quest.5B4B5C148D63ACA1.title: "&a잊혀진 미니언&r"
+	quest.5B4B5C148D63ACA1.title: "&a잊힌 하수인&r"
 	quest.5B52389583A70E66.quest_subtitle: "티어: &c5"
 	quest.5B5FC539BD1F4A73.quest_desc: ["이 파일런은 몹 스폰을 막는 데 특화되어 있습니다.\\n\\n몹 필터를 사용하여 특정 몹의 스폰만 차단하거나, 생명력 없는 필터를 사용하여 모든 몹 스폰을 차단할 수 있습니다!\\n\\n여러 몹 필터를 쌓아서 더 많은 스폰을 차단할 수 있습니다. 또한 몹 스폰을 얼마나 멀리까지 차단할지 작동 영역을 변경할 수 있습니다.\\n\\n생명력 없는 필터를 사용하면 이러한 모든 설정을 무시합니다."]
 	quest.5B910F1389C0B915.quest_desc: [
@@ -5866,7 +5866,7 @@
 		"{image:atm:textures/questpics/ars/spellbook.png width:200 height:150 align:1}"
 	]
 	quest.5D229FA3A5F92954.quest_desc: [
-		"&4작귀&r는 &2&l언더가든&r의 다른 적대적인 몹과 유사하지만, 이 몹이 떨구는 아이템은 훨씬 유용합니다! \\n\\n작귀는 죽을 때 &7클로그럼&r과 &b서리강철 조각&r을 떨굴 수 있습니다."
+		"&4작귀&r는 &2&lThe Undergarden&r의 다른 적대적인 몹과 비슷하지만, 전리품은 훨씬 쓸모 있습니다! \\n\\n처치하면 &7클로그룸 조각&r이나 &b서리철 조각&r을 떨어뜨릴 수 있습니다."
 		"{image:atm:textures/questpics/undergarden/undergarden_muncher.png width:100 height:100 align:center}"
 	]
 	quest.5D229FA3A5F92954.title: "&4작귀&r"
@@ -5954,12 +5954,12 @@
 	quest.5E4FE420B6D2C97F.title: "&e고급 압축 업그레이드"
 	quest.5E5D5D28D82F6891.quest_desc: ["&l&9X&cy&aC&8r&aa&cf&9t&r는 &l월드 코어&r로 다양한 유리를 추가합니다! \\n\\n걸어 다닐 수 있는 것부터, 발광하는 것, 더 튼튼한 것까지!"]
 	quest.5E5D5D28D82F6891.title: "&l&9X&cy&aC&8r&aa&cf&9t&r 유리"
-	quest.5E63C78CDC44FF95.quest_desc: ["썩은 물집딸기는 던질 수 없지만 발포 폭탄으로 만들면 던질 수 있습니다! \\n\\n더 나아가 폭탄호박을 만들어 모든 곳에 물집딸기를 던지는 TNT처럼 작동하게 할 수도 있습니다."]
+	quest.5E63C78CDC44FF95.quest_desc: ["썩은 발포 베리는 그대로 던질 수 없지만 발포 폭탄으로 만들면 던질 수 있습니다! \\n\\n한 단계 더 나아가면, 발포 베리를 사방으로 뿌리는 TNT 같은 폭탄호박도 만들 수 있습니다."]
 	quest.5E63C78CDC44FF95.title: "폭발물!!!"
 	quest.5E6585F7627247E3.quest_desc: ["&b제작 카드&f를 인터페이스나 반출 버스 같은 지원 장치에 설치하면, 필터에 지정한 아이템이 필요할 때 장치가 자동으로 제작을 요청합니다. 제작 CPU가 자동화 요청에만 응답하도록 설정하여 플레이어용 CPU를 차지하지 않게 할 수도 있습니다.\\n\\n&e레벨 방출기&f에 제작 카드를 설치하면 제작 작업이 감지되는 &o동안&r 신호를 보내거나, 아이템을 제작하도록 직접 신호를 &o보내게&r 설정할 수 있습니다. 후자는 제작 패턴 없이 레드스톤 신호만으로 만들어지는 아이템에 사용할 수 있습니다."]
 	quest.5E6585F7627247E3.quest_subtitle: "업그레이드로 자동화를!"
 	quest.5E6D7C1D7957DD4D.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_forgotten.png width:100 height:150 align:center}"]
-	quest.5E6D7C1D7957DD4D.title: "&a잊혀진&r"
+	quest.5E6D7C1D7957DD4D.title: "&a잊힌 금속&r"
 	quest.5E71F8A046C60346.quest_desc: ["누가 당신에게 뉴매틱크래프트가 힘을 생성하는 것이 아니라고 말했나요?\\n\\n&3뉴매틱 다이나모&r를 사용하면 압력을 FE로 전환할 수 있습니다. 툴팁을 읽거나 PNC:R에서 작동 방식에 대해 읽어보세요."]
 	quest.5E71F8A046C60346.quest_subtitle: "압력 = 힘"
 	quest.5E71F8A046C60346.title: "전력 생성 중"
@@ -6144,8 +6144,8 @@
 		"처치 시 떨어뜨린 아이템을 자동으로 훈연합니다."
 	]
 	quest.612157986673F815.quest_desc: ["&8벌&6들&8이나 &6벌&r에게 &8벌&6이 &8아닌 &r것을 48번 먹이세요! &d꽃&r은 제외합니다!"]
-	quest.6124C0E9E419694B.quest_desc: ["&7클로그럼&r 도구를 &a잊혀진 주괴&r와 대장장이 형판으로 상위 버전으로 변환하세요. \\n\\n이것들은 얻을 수 있는 best 도구이며, &2&l지하정원&r 블록에 대한 효율이 이미 적용되어 있습니다. \\n\\n그리고 검과 도끼는 모든 &2&l지하정원&r 몹에게 더 많은 피해를 주지만, &cRot Beast&r와 &a잊혀진 가디언&r에게는 그렇지 않습니다!"]
-	quest.6124C0E9E419694B.title: "&a잊혀진&r 도구"
+	quest.6124C0E9E419694B.quest_desc: ["&7클로그룸&r 도구를 &a잊힌 주괴&r와 대장장이 형판으로 업그레이드하세요. \\n\\n이 도구는 최상급이며, &2&lThe Undergarden&r 블록을 더 빠르게 캡니다. \\n\\n검과 도끼는 &c부패수&r와 &a잊힌 수호자&r를 제외한 &2&lThe Undergarden&r 몹에게 더 큰 피해를 줍니다!"]
+	quest.6124C0E9E419694B.title: "&a잊힌&r 도구"
 	quest.613AC4DF39E5621D.quest_desc: [
 		"가제버즈 클러스터는 수십, 수십 개의 매달려 있고 연결이 끊어진 방들의 클러스터입니다.\\n\\n방 안에 있는 모든 것을 나열할 수는 없어요. 하루 종일 타이핑해야 할 테니까요! 하지만 요약하자면, &6꿀&r, 잎, 전리품, 심지어 재미있는 함정까지 있는 방들이 있습니다!\\n\\n그렇다면 특히 &6꿀&r과 Paintings...가 있는 곳에서는 조심해야 할 겁니다."
 		"{image:atm:textures/questpics/bumblezone/bumble_cluster.png width:200 height:100 align:center}"
@@ -6336,7 +6336,7 @@
 	]
 	quest.6474FE12450A4A7D.title: "왕좌의 기둥"
 	quest.647A87E800C703C3.quest_desc: [
-		"단연코 제가 가장 좋아하는 생물 군계입니다! \\n\\n거대한 그롱글생장지 나무가 있는 거대한 초록색 정글입니다. \\n\\n저 나무들에서 &e그롱이&r를 찾을 수 있습니다!"
+		"제가 가장 좋아하는 생물 군계입니다! \\n\\n거대한 그롱글 나무가 가득한 초록빛 정글입니다. \\n\\n나무 위에서는 &e그롱이&r를 찾을 수 있습니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_grongle.png width:200 height:100 align:center}"
 	]
 	quest.647A87E800C703C3.title: "그롱글생장지"
@@ -6473,7 +6473,7 @@
 	quest.674E2690D66ECD6E.quest_desc: ["뇌우가 칠 때, &a환경 축전기&r에 &a날씨 컨테이너&r를 던져 넣으면 폭풍의 힘을 활용할 수 있습니다.\\n\\n이것을 사용하여, 우리는 번개를 마음대로 제어할 수 있게 해주는 아이템을 생성할 수 있습니다.\\n\\n&6ATM의 별&r을 제작하려면 번개 폭탄이 필요합니다."]
 	quest.674E2690D66ECD6E.title: "&a당신은 &9벼락을 맞았습니다"
 	quest.674F28BCA2E4A3C8.quest_desc: ["아이템을 옮길 때 라우터는 매우 탐욕스러워져서, 닿을 수 있는 모든 아이템을 닥치는 대로 가져가려고 합니다!\\n\\n조절기 가오하를 사용하면 옮기는 양을 제한할 수 있습니다."]
-	quest.6751F2651063B3A5.quest_desc: ["핏빛 버섯은 핏빛 버섯 습지에서 발견할 수 있습니다.\\n\\n핏빛 버섯은 흑단나무처럼 생겼으며 대부분 하얀색이고 일부 블록에만 피 얼룩이 있습니다!"]
+	quest.6751F2651063B3A5.quest_desc: ["핏빛 버섯은 핏빛 버섯 습지에서 발견됩니다.\\n\\n짙은 참나무처럼 생겼으며 대부분 흰색이지만 일부 블록에는 핏자국이 있습니다!"]
 	quest.6754612E9AD4B9C0.title: "원자로 (타오르는)"
 	quest.67704F7341EDCC49.title: "&b다이아몬드 배낭"
 	quest.677365A816994C8B.quest_desc: [
@@ -6777,9 +6777,9 @@
 	]
 	quest.6C1BBA559963B3DF.title: "조그만 &c악마 책"
 	quest.6C2C135B9B7B9402.quest_desc: ["&d&l주입&r은 더 좋은 &5마법 부여&r를 위해 사용하는 특별한 &5마법 부여&r 방식입니다. \\n\\n&a이터나&r, &c퀀타&r, &5아르카나&r가 알맞은 수치에 도달하면 &5마법 부여&r 선택지에 &d&l주입&r이 나타납니다. \\n\\n(필요한 수치는 JEI에서 확인하거나 이 퀘스트를 따라가세요.)"]
-	quest.6C4B93FE64BD418D.quest_desc: ["&2&l언더가든&r에 가는 것은 &c&l네더&r에 가는 것과 유사합니다. 차원문을 제작해야 합니다.\\n\\n네더 차원문과 모양과 크기는 동일하지만 흑요석 대신 다양한 종류의 돌 벽돌이 필요합니다. 돌 벽돌, 이끼 낀 돌 벽돌 또는 심층암 벽돌을 사용하세요.\\n\\n일단 형태가 만들어지면, 카탈리스트를 사용하여 작동시킬 수 있습니다."]
+	quest.6C4B93FE64BD418D.quest_desc: ["&2&lThe Undergarden&r에 가는 것은 &c&l네더&r에 가는 것과 유사합니다. 차원문을 제작해야 합니다.\\n\\n네더 차원문과 모양과 크기는 동일하지만 흑요석 대신 다양한 종류의 돌 벽돌이 필요합니다. 돌 벽돌, 이끼 낀 돌 벽돌 또는 심층암 벽돌을 사용하세요.\\n\\n일단 형태가 만들어지면, 카탈리스트를 사용하여 작동시킬 수 있습니다."]
 	quest.6C4B93FE64BD418D.quest_subtitle: "차원문 만들기"
-	quest.6C4B93FE64BD418D.title: "지하정원"
+	quest.6C4B93FE64BD418D.title: "The Undergarden"
 	quest.6C5D61A704DC125A.quest_desc: [
 		"이것은 재미있는 물건입니다. 찾거나, 제작하거나, 거래할 수 있습니다.\\n\\n그런 다음 원하는 색으로 염색하고 머리에 쓸 수 있습니다!\\n\\n그러면 &6벌&8들&6은 &8당&r신을 꽃으로 생각하고 따라올 것입니다.\\n\\n또한 \"Duck Amuck\"의 Daffy처럼 보이게 합니다."
 		"{image:atm:textures/questpics/bumblezone/bumble_duckamuck.png width:100 height:100 align:center}"
@@ -6846,7 +6846,7 @@
 		"팁: 황동은 Silent Gear 도구를 만들 때 섬세한 손길 특성을 가지고 있습니다."
 	]
 	quest.6D484150536536B9.quest_subtitle: "네더의 크리스탈린 벌에 미끼 사용"
-	quest.6D4FB6291CA8D1A6.quest_desc: ["안개줄기 나무는 실제 바오밥 나무와 유사하게 밑부분이 훨씬 두껍습니다!\\n\\n그것들은 회색 통나무와 파란색 잎을 가지고 있습니다.\\n안개줄기 숲, 고밀도 숲, 심지어 쪽빛 버섯 습지와 같은 여러 생물 군계에서 찾을 수 있습니다!"]
+	quest.6D4FB6291CA8D1A6.quest_desc: ["안개줄기 나무는 실제 바오밥나무처럼 아래쪽이 훨씬 굵습니다!\\n\\n회색 원목과 파란 잎을 지녔습니다.\\n안개줄기 숲, 울창한 숲, 쪽빛 버섯 습지 등 여러 생물 군계에서 찾을 수 있습니다!"]
 	quest.6D54B45CDA70FEAB.quest_desc: ["&b에너지 카드&f는 휴대용 셀이나 무선 터미널처럼 충전 가능한 장치에 설치하여 &o장치의&r 내부 에너지 버퍼를 늘립니다."]
 	quest.6D6E07564D8FDD8D.quest_desc: ["&a익스트림 리액터&r는 크기, 효율 등에서 완전히 사용자 지정 가능한 멀티 블록 원자로를 제공합니다.\\n\\n익스트림 리액터 시작에 대해 더 자세히 알아보려면 해당 모드의 퀘스트 챕터를 확인하세요!"]
 	quest.6D6E07564D8FDD8D.quest_subtitle: "사용자 지정이 가능한 원자로!"
@@ -6970,7 +6970,7 @@
 		"이후 셀에 할당된 구역의 블록과 처음 인코딩할 때와 같은 크기의 공간 격리 구조 안의 블록을 각각 오버월드와 공간 차원 사이에서 옮길 수 있습니다. 양쪽에 블록이 있으면 서로 위치를 맞바꿉니다."
 	]
 	quest.6F3D0A248B5A9CA2.title: "공간 저장 셀"
-	quest.6F416275B6F6D8F0.quest_desc: ["물집딸기는 안개 첨탑에서 생성됩니다.\\n\\n그것들은 매우 혐오스러운 영역에서 자라기 때문에 일부는 썩어서 나타날 것입니다.\\n\\n저는 그것들을 먹는 것을 권장하지 않습니다. 어쩌면 다른 무언가에 유용할 수도 있습니다!"]
+	quest.6F416275B6F6D8F0.quest_desc: ["발포 베리는 안개 첨탑에서 자랍니다.\\n\\n환경이 워낙 험해서 일부 열매는 썩은 채로 자랍니다.\\n\\n그 열매는 먹지 않는 편이 좋겠지만, 다른 용도가 있을지도 모릅니다!"]
 	quest.6F57BE412A7BE84E.quest_desc: ["&9타락한 영혼&r은 2가지 용도로 사용됩니다! \\n\\n1. &l&d티어 4 &6Forge&r를 이용한 제작법. 지금은 걱정할 필요가 없습니다.\\n\\n2. 에델우드 키우기!\\n\\n에델우드 키우기는 에델우드의 묘목 역할을 하며, 이것이 현재 에델우드를 얻는 유일한 방법입니다."]
 	quest.6F57BE412A7BE84E.title: "&9타락한 영혼"
 	quest.6F62B5510FA881CD.quest_subtitle: "기본 제작 주괴"
@@ -7100,7 +7100,7 @@
 	quest.70ED849A2EB44DEE.quest_subtitle: "티어: &b3"
 	quest.70F7B018CD61E946.quest_subtitle: "짙은 참나무 + 정글나무"
 	quest.70FD8856BFCD9AEE.quest_desc: [
-		"가장 크고 위험한 &c썩은 몹&r입니다. \\n\\n80개의 하트를 가지고 있는데, 제 생각에는 미니 보스라고 할 수 있을 것 같습니다. \\n\\n모든 &c썩은 몹&r처럼 &2스톤본&r과 &7잊혀진 자&r를 과녁으로 삼고 &c유서릭 파편&r을 드롭합니다."
+		"가장 크고 위험한 &c부패종&r입니다. \\n\\n체력은 하트 80개로, 미니 보스라고 해도 될 정도입니다. \\n\\n다른 &c부패종&r처럼 &2돌인간&r과 &7잊힌 자&r를 공격하며 &c우테릭 파편&r을 떨어뜨립니다."
 		"{image:atm:textures/questpics/undergarden/undergarden_rotbeast.png width:100 height:100 align:center}"
 	]
 	quest.70FD8856BFCD9AEE.title: "&c부패수&r"
@@ -7169,7 +7169,7 @@
 	quest.71D133BA3EC6F4FD.quest_desc: ["추출기는 바로 아래에 있는 블록 또는 아이템을 \"그로우\"시키고 바로 위에 있는 인벤토리로 이동시킵니다.\\n\\n이것은 여러 유형의 돌과 함께 작동하는 조약돌 발전기, 자수정 발전기, 심지어 다른 것들과 함께 드래곤 알 발전기에도 사용될 수 있습니다!"]
 	quest.71D133BA3EC6F4FD.quest_subtitle: "돌 농사! (기타)"
 	quest.71E1454990DEC451.quest_desc: [
-		"&b정원메기&r는 &b꼬마 정원메기&r보다 더 크고 사나운 버전입니다.\\n\\n떨굼 설정도 없고 양동이에 넣을 수도 없습니다. 그들이 제공하는 것은 오직 고통뿐입니다!"
+		"&b정원메기&r는 &b작은 정원메기&r보다 크고 사나운 물고기입니다.\\n\\n전리품도 없고 양동이에 담을 수도 없습니다. 주는 것이라고는 고통뿐입니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_gwib.png width:100 height:100 align:center}"
 	]
 	quest.71E1454990DEC451.title: "&b정원메기&r"
@@ -7340,10 +7340,10 @@
 	quest.74297A72584F5D7B.quest_subtitle: "오리나무 + 야생 체리"
 	quest.744AC6BD82FC2DEE.quest_subtitle: "&f36 &c공격 피해"
 	quest.744DBE831C120B2F.quest_desc: [
-		"저 바위가 움직이나? 아, 잠깐, 저건 바위가 아니야, &2모그&r야! \\n\\n&2모그&r는 깊은돌 돌멩이로 함께 번식할 수 있으며 죽을 때 더 많은 돌멩이 또는 모구이끼를 드롭할 수 있습니다!\\n\\n모구이끼는 여러 가지 다양한 제작법에 사용될 수 있습니다!"
+		"바위가 움직이는 건가요? 잠깐, 바위가 아니라 &2모구&r입니다! \\n\\n&2모구&r는 깊은돌 조약돌로 번식시킬 수 있으며, 죽으면 조약돌이나 모구이끼를 떨어뜨릴 수 있습니다!\\n\\n모구이끼는 여러 제작법에 사용됩니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_mog.png width:100 height:100 align:center}"
 	]
-	quest.744DBE831C120B2F.title: "&2멍&r"
+	quest.744DBE831C120B2F.title: "&2모구&r"
 	quest.745E616E97838D2E.quest_desc: ["&l잠깐!&r 동물을 마구 학살하지 마세요. PETA가 타협안을 제시한 모양입니다. 무고한 동물을 그만 죽이면 &5크리에이티브 &4피 드롭&r을 준다고 하네요! \\n\\n이 아이템을 사용하면 &4피&r가 필요한 모든 용기를 무한히 채울 수 있습니다! \\n\\n제작하려면 &b끈기의 약속&r 4개, &6&lATM Star&r, 그리고 &4피&r로 가득 찬 다른 아이템 4개가 필요합니다. "]
 	quest.745E616E97838D2E.title: "&5&l크리에이티브 &4피 드롭"
 	quest.7464CA1290B3474B.quest_desc: [
@@ -7436,7 +7436,7 @@
 	quest.75FE0B514448865B.title: "&l업그레이드"
 	quest.76062D375E4CC8DD.quest_desc: ["필터와 라운드 로빈을 살펴봤으니, 이제 둘 다 살펴보겠습니다! 이것은 신비농업 시드 제작 시처럼 아이템을 선택한 순서대로 유지하는 데 유용합니다!"]
 	quest.76071C22A73A2026.title: "&c터튬 경작지"
-	quest.7617737FC179EA1A.quest_desc: ["&b프로스트강철&r 갑옷은 다이아몬드 갑옷보다 약간 성능이 떨어지지만, 밀치기 저항을 크게 제공합니다.\\n\\n하지만 속도 감소 디버프도 주는데, 움직임이 둔해질 것 같네요!"]
+	quest.7617737FC179EA1A.quest_desc: ["&b서리철&r 갑옷은 다이아몬드 갑옷보다 조금 약하지만 밀치기 저항을 크게 높여 줍니다.\\n\\n대신 이동 속도가 느려집니다. 이 갑옷을 입으면 빠르게 움직이기는 어렵겠네요!"]
 	quest.7617737FC179EA1A.title: "&b서리철&r 갑옷"
 	quest.761D21C6FBD13EE1.quest_subtitle: "다이아몬드 벌에게 페리도트를 먹이세요"
 	quest.761D21C6FBD13EE1.title: "감람석 벌"
@@ -7562,7 +7562,7 @@
 		"- 즉시 파괴"
 	]
 	quest.788A7A2F1F438B64.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_cloggrum.png width:100 height:150 align:center}"]
-	quest.788A7A2F1F438B64.title: "&7클로그럼&r"
+	quest.788A7A2F1F438B64.title: "&7클로그룸&r"
 	quest.789AF6D0A6321945.quest_desc: [
 		"그 무엇보다 중요하고, 강력하며, 위험한 &l&3유물&r입니다!"
 		"{@pagebreak}"
@@ -7666,7 +7666,7 @@
 	quest.79C4CF8D7312FC28.quest_desc: ["바닐라가 얻을 수 있는 최고! &5네더라이트&r! 걱정 마세요. 대장장이 형판은 필요 없고, &5네더라이트&r만 많이 있으면 됩니다. \\n\\n5 틱마다 아이템 하나를 제련하므로 매 &5Second&r마다 4개의 아이템이 제련됩니다. 네, 더 이상 S.P.S.(제련 당 &5Second&r)가 아니라 S.P.S.(초당 제련)입니다. \\n\\n&d흑요석 화로&r로 제작... 잠깐, 이게 최종 화로가 아닌가요?"]
 	quest.79C4CF8D7312FC28.title: "&5네더라이트 화로&r"
 	quest.79C652E3FCB88550.quest_desc: [
-		"&5우울두꺼비&r는 기술적으로 패시브이지만 당신에 대한 방어 메커니즘을 가지고 있으므로 저는 그들을 중립으로 간주합니다! \\n\\n맞으면 잔류형 물약과 유사한 효과를 드롭합니다. \\n\\n죽으면 다리(매우 맛있습니다)와 가죽을 드롭할 수 있습니다. \\n\\n또한 우울호리병박으로 번식할 수도 있습니다!"
+		"&5우울두꺼비&r는 기본적으로 온순하지만 방어 수단이 있어 중립적인 몹에 가깝습니다! \\n\\n공격받으면 잔류형 물약과 비슷한 효과 구름을 만듭니다. \\n\\n죽으면 맛있는 다리와 가죽을 떨어뜨릴 수 있습니다. \\n\\n우울호박으로 번식시킬 수도 있습니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_gloomper.png width:100 height:100 align:center}"
 	]
 	quest.79C652E3FCB88550.title: "&5우울두꺼비&r"
@@ -7916,7 +7916,7 @@
 	quest.7E13007340A818C5.title: "1단계 별빛 충전기 기둥 덮개"
 	quest.7E39FB9F3E973009.title: "에테르 가스"
 	quest.7E3DA4168D352B42.quest_desc: [
-		"이것이 마지막 버섯 늪지대라는 것을 약속합니다! \\n이 버섯들은 꽤 평범해 보이지만, 핵심은 그것들로부터 나오는 것에 있습니다!\\n\\n베일입니다! 확실히 유용한 장식 블록입니다."
+		"이번이 정말 마지막 버섯 습지입니다! \\n이 버섯은 평범해 보이지만, 아래에서 자라는 것이 특별합니다!\\n\\n바로 버섯 장막입니다. 장식에 아주 유용합니다."
 		"{image:atm:textures/questpics/undergarden/undergarden_veil.png width:200 height:100 align:center}"
 	]
 	quest.7E3DA4168D352B42.title: "장막 버섯 습지"
@@ -9090,7 +9090,7 @@
 	quest.24B147D251D0CFFF.title: "블레이즈골드 벌"
 	quest.26B3AE1E77A84BCB.quest_desc: ["&9오스뮴 벌 생성 알&r, &b충전된 서투스 석영&r 및 &8천령석&r을 용암에 던지면 &e스카이 오스뮴 벌 생성 알이 생성됩니다."]
 	quest.26B3AE1E77A84BCB.title: "스카이 오스뮴 벌"
-	quest.26B9909717528D5E.quest_subtitle: "지하 정원에서 발견됨"
+	quest.26B9909717528D5E.quest_subtitle: "The Undergarden에서 발견"
 	quest.26B9909717528D5E.title: "우테릭 벌"
 	quest.26FB7A789981BD3C.quest_subtitle: "석탄 벌에 흑연 블록 공급"
 	quest.26FB7A789981BD3C.title: "석묵 벌"
@@ -9163,8 +9163,8 @@
 	quest.49776AC58E535E6A.title: "무녀 벌"
 	quest.4ED01E04D55999D9.quest_subtitle: "BeeBee 생성 알 위에 녹은 우루를 붓습니다."
 	quest.4ED01E04D55999D9.title: "우루 메탈비"
-	quest.4F4C1A349F953013.quest_subtitle: "지하 정원에서 발견됨"
-	quest.4F4C1A349F953013.title: "잊혀진 벌"
+	quest.4F4C1A349F953013.quest_subtitle: "The Undergarden에서 발견"
+	quest.4F4C1A349F953013.title: "잊힌 벌"
 	quest.50ED69AEEE808B24.quest_subtitle: "액체 리튬 양동이를 물 벌에 공급"
 	quest.50ED69AEEE808B24.title: "리튬 벌"
 	quest.516289A040EE9FDC.quest_subtitle: "결정질 + 네온 뻐꾸기 벌"
@@ -9903,4 +9903,7 @@
 	]
 	quest.713006AB89E43C6D.title: "&9&l스킬라"
 	task.01063DC98BCE5A91.title: "대격변의 여행자"
+	quest.76CDC18D7A208512.quest_desc: ["&2&lThe Undergarden&r에서는 &c부패종&r이 플레이어를 &c우테리움&r에 감염시킬 수 있습니다. 감염 수치가 낮으면 시간이 지나며 줄어들지만, 높아지면 저절로 줄지 않습니다. 이때는 공포석 지대 깊은 곳에서만 발견되는 &3로그도리움&r으로 치료해야 합니다. 로그도리움을 먹거나 갑옷에 주입하면 감염을 막을 수 있습니다. 이번에는 제가 &3로그도리움&r을 조금 드릴게요!"]
+	quest.76CDC18D7A208512.title: "경고"
+	task.2116DA966E4C7711.title: "우테릭 감염 이해하기"
 }

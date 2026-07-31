@@ -1,0 +1,61 @@
+{
+  "family": "The Undergarden",
+  "installed": [
+    {
+      "label": "The Undergarden",
+      "jar": "The_Undergarden-1.21.1-0.9.6.jar",
+      "namespace": "undergarden",
+      "direct_integration": false,
+      "english_keys": 679,
+      "bundled_korean_keys": 507,
+      "metadata_mentions_family": [
+        "undergarden"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 377,
+      "advancement_examples": [
+        "data/undergarden/advancement/recipes/building_blocks/ancient_root_planks.json",
+        "data/undergarden/advancement/recipes/building_blocks/ancient_root_slab.json",
+        "data/undergarden/advancement/recipes/building_blocks/ancient_root_stairs.json",
+        "data/undergarden/advancement/recipes/building_blocks/boomgourd.json",
+        "data/undergarden/advancement/recipes/building_blocks/chiseled_depthrock_bricks.json",
+        "data/undergarden/advancement/recipes/building_blocks/chiseled_depthrock_bricks_stonecutting.json",
+        "data/undergarden/advancement/recipes/building_blocks/chiseled_shiverstone_bricks.json",
+        "data/undergarden/advancement/recipes/building_blocks/chiseled_shiverstone_bricks_stonecutting.json",
+        "data/undergarden/advancement/recipes/building_blocks/chiseled_tremblecrust_bricks.json",
+        "data/undergarden/advancement/recipes/building_blocks/chiseled_tremblecrust_bricks_stonecutting.json",
+        "data/undergarden/advancement/recipes/building_blocks/cloggrum_block.json",
+        "data/undergarden/advancement/recipes/building_blocks/cloggrum_tile_slab.json",
+        "data/undergarden/advancement/recipes/building_blocks/cloggrum_tile_stairs.json",
+        "data/undergarden/advancement/recipes/building_blocks/cloggrum_tiles.json",
+        "data/undergarden/advancement/recipes/building_blocks/coarse_deepsoil.json",
+        "data/undergarden/advancement/recipes/building_blocks/coarse_deepsoil_to_normal.json",
+        "data/undergarden/advancement/recipes/building_blocks/depthrock_brick_slab.json",
+        "data/undergarden/advancement/recipes/building_blocks/depthrock_brick_slab_stonecutting.json",
+        "data/undergarden/advancement/recipes/building_blocks/depthrock_brick_stairs.json",
+        "data/undergarden/advancement/recipes/building_blocks/depthrock_brick_stairs_stonecutting.json"
+      ],
+      "recipes": 680
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "bibliowoods-1.21.1-1.6.2.jar",
+      "dependency_mentions": [
+        "undergarden"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "The Undergarden",
+      "jar": "The_Undergarden-1.21.1-0.9.6.jar",
+      "namespace": "undergarden",
+      "english_keys": 679,
+      "bundled_ko_kr": 486,
+      "new_translation_required": 193
+    }
+  ]
+}

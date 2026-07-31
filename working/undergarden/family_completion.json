@@ -1,0 +1,11 @@
+{
+  "family": "The Undergarden",
+  "status": "complete",
+  "language_keys": 679,
+  "ftbquest_display_keys": 152,
+  "bibliowoods_direct_integration_keys": 471,
+  "productive_bees_direct_integration_keys": 12,
+  "guide_candidates": 0,
+  "kubejs_direct_display_candidates": 0,
+  "live_parity_required": true
+}

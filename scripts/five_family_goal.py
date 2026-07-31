@@ -127,6 +127,12 @@ TARGETS = (
         "cataclysm",
         "L_Ender's Cataclysm",
     ),
+    Target(
+        "undergarden",
+        "The_Undergarden-",
+        "undergarden",
+        "The Undergarden",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -136,6 +142,7 @@ FAMILY_LABELS = {
     "evilcraft": "EvilCraft",
     "twilight_forest": "The Twilight Forest",
     "cataclysm": "L_Ender's Cataclysm",
+    "undergarden": "The Undergarden",
 }
 
 QUEST_CHAPTERS = {
@@ -145,6 +152,7 @@ QUEST_CHAPTERS = {
     "evilcraft": ("evilcraft",),
     "twilight_forest": ("twilight_forest",),
     "cataclysm": ("cataclysm",),
+    "undergarden": ("undergarden",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -189,6 +197,11 @@ ALLOWED_ORIGINALS = {
     "EvilCraft",
     "The Twilight Forest",
     "L_Ender's Cataclysm",
+    "The Undergarden",
+    "Screem - Gloomper Anthem",
+    "Screem - Limax Maximus",
+    "Screem - Mammoth",
+    "Screem - Relict",
     "Baubles",
     "Blood Magic",
     "Equivalent Exchange 3",

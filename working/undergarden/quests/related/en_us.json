@@ -1,0 +1,42 @@
+{
+  "quest.041ED280691BB05D.quest_desc": [
+    "&9Froststeel&r is a common Ore in the Cold Biomes of the &2&lUndergarden&r. "
+  ],
+  "quest.041ED280691BB05D.quest_subtitle": "18",
+  "quest.041ED280691BB05D.title": "&9Froststeel Armor",
+  "quest.16359196D49A6223.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_froststeel.png width:100 height:150 align:center}"
+  ],
+  "quest.16359196D49A6223.title": "&bFroststeel&r",
+  "quest.2C387BFA6EE6FDB7.quest_desc": [
+    "&cUtherium Crystals&r drop from &cRotbeasts&r in the &2&lUndergarden&r!"
+  ],
+  "quest.2C387BFA6EE6FDB7.quest_subtitle": "20",
+  "quest.2C387BFA6EE6FDB7.title": "&cUtherium Armor",
+  "quest.2FA0F5B348322095.quest_desc": [
+    "&7Cloggrum&r is the Iron Ore of &2&lUndergarden&r. It spawns everywhere."
+  ],
+  "quest.2FA0F5B348322095.quest_subtitle": "14",
+  "quest.2FA0F5B348322095.title": "&7Cloggrum Armor",
+  "quest.498483750C18FCD6.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_regalium.png width:100 height:150 align:center}"
+  ],
+  "quest.498483750C18FCD6.title": "&eRegalium&r",
+  "quest.5E6D7C1D7957DD4D.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_forgotten.png width:100 height:150 align:center}"
+  ],
+  "quest.5E6D7C1D7957DD4D.title": "&aForgotten&r",
+  "quest.690DB8BEF80617E5.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_utherium.png width:100 height:150 align:center}"
+  ],
+  "quest.690DB8BEF80617E5.title": "&cUtherium&r",
+  "quest.788A7A2F1F438B64.quest_desc": [
+    "{image:atm:textures/questpics/basicarmor/armor_cloggrum.png width:100 height:150 align:center}"
+  ],
+  "quest.788A7A2F1F438B64.title": "&7Cloggrum&r",
+  "quest.7CFEE836C68B3903.quest_subtitle": "&f7.5 &cAttack Damage",
+  "quest.26B9909717528D5E.quest_subtitle": "Found in the Undergarden",
+  "quest.26B9909717528D5E.title": "Utheric Bee",
+  "quest.4F4C1A349F953013.quest_subtitle": "Found in the Undergarden",
+  "quest.4F4C1A349F953013.title": "Forgotten Bee"
+}
