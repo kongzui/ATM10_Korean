@@ -1,0 +1,95 @@
+{
+  "status": "quality_review_completed_and_deployed",
+  "completed_at": "2026-08-01T12:24:17+09:00",
+  "scope": "Mystical Agriculture 계열 언어, FTB Quests, Patchouli 가이드, KubeJS, 발전 과제 및 fallback 표시",
+  "installed": [
+    "MysticalAgriculture-1.21.1-8.0.26.jar",
+    "MysticalAgradditions-1.21.1-8.0.13.jar",
+    "MysticalCustomization-1.21.1-6.0.2.jar",
+    "botanypotsmystical-neoforge-1.21.1-21.1.12.jar"
+  ],
+  "language": {
+    "namespaces": 2,
+    "total_keys_reviewed": 849,
+    "existing_korean_reviewed_and_reused": 753,
+    "quality_review_corrections": 96,
+    "newly_translated": 0,
+    "intentional_original_crop_names": 17
+  },
+  "guide": {
+    "patchouli_json_reviewed": 77,
+    "language_keys_rendered_by_guides": 169,
+    "missing_language_keys": 0,
+    "quality_review_corrections_in_language": 40
+  },
+  "ftbquests": {
+    "dedicated_chapters_reviewed": 1,
+    "dedicated_quests_checked": 183,
+    "dedicated_tasks_checked": 215,
+    "related_quests_outside_chapter_checked": 25,
+    "related_tasks_outside_chapter_checked": 43,
+    "display_keys_reviewed": 306,
+    "existing_korean_reviewed_and_reused": 225,
+    "quality_review_keys_corrected": 81,
+    "fallback_title_keys_added": 1,
+    "quest_fallbacks_checked": 140,
+    "task_item_fallbacks_checked": 244,
+    "resource_name_matches_checked": 32,
+    "custom_name_or_literal_component_issues": 0
+  },
+  "kubejs": {
+    "reference_files_reviewed": 42,
+    "direct_display_literals_reviewed": 7,
+    "existing_korean_reviewed_and_reused": 2,
+    "quality_review_occurrences_corrected": 5
+  },
+  "mystical_customization": {
+    "display_name_files_reviewed": 13,
+    "existing_korean_reviewed_and_reused": 13,
+    "quality_review_corrections": 0
+  },
+  "botany_pots_mystical": {
+    "recipes_reviewed": 166,
+    "display_literals": 0
+  },
+  "advancements": {
+    "files_with_user_display_components": 0,
+    "untranslated_literals": 0
+  },
+  "review_totals": {
+    "visible_values_reviewed": 1176,
+    "existing_korean_reviewed_and_reused": 993,
+    "quality_review_corrections": 182,
+    "newly_translated": 1
+  },
+  "deployment": {
+    "source_root_configured": false,
+    "game_root_configured": true,
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "unique_files_applied": 4,
+    "initial_backup_root": "temp/backups/20260801_121901_191409/game_root",
+    "initial_backup_manifest": "temp/backups/20260801_121901_191409/backup_manifest.json",
+    "cleanup_backup_root": "temp/backups/20260801_122334_024493/game_root",
+    "cleanup_backup_manifest": "temp/backups/20260801_122334_024493/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_instance_changes": []
+  },
+  "validation": {
+    "language_keys_match_current_en_us": true,
+    "json_and_snbt_syntax": "passed",
+    "duplicate_keys": 0,
+    "placeholders_preserved": true,
+    "numbers_preserved": true,
+    "format_codes_preserved": true,
+    "line_breaks_preserved": true,
+    "patchouli_tags_preserved": true,
+    "quest_fallback_paths_checked": true,
+    "working_output_match": true,
+    "source_jars_quest_structure_and_guides_unchanged": true,
+    "deployed_hashes_match": true,
+    "live_files_matching_output": 18,
+    "game_runtime_verified": false,
+    "validation_errors": 0
+  },
+  "remaining_review_items": []
+}

@@ -50,44 +50,38 @@
         "tiers/magical.json"
       ],
       "names": 13
+    },
+    "kubejs": {
+      "reference_files_checked": 42,
+      "direct_display_literals_checked": 7,
+      "missing": 0
     }
   },
   "ftbquests": {
     "chapter": "elmystical_agriculturerr.snbt",
     "quests_checked": 183,
     "tasks_checked": 215,
-    "display_keys_checked": 257,
+    "display_keys_checked": 306,
     "explicit_task_titles_checked": 13,
-    "internal_original_task_titles": 3,
+    "internal_original_task_titles": 4,
     "custom_names": 0,
     "redundant_single_item_task_titles": 0,
-    "related_tasks_outside_chapter_checked": 43
+    "related_tasks_outside_chapter_checked": 43,
+    "related_quests_outside_chapter_checked": 25,
+    "quest_fallbacks_checked": 140,
+    "task_item_fallbacks_checked": 244,
+    "resource_name_matches_checked": 32,
+    "literal_components_checked": 0
   },
-  "kubejs_literals_checked": 2,
+  "kubejs_literals_checked": 7,
   "deployment": {
     "status": "applied_and_verified",
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp\\backups\\20260714_225932_253860\\backup_manifest.json",
+    "backup_manifest": "temp\\backups\\20260801_122334_024493\\backup_manifest.json",
     "changed_paths": [
-      "config/ftbquests/quests/lang/ko_kr.snbt",
-      "config/mysticalcustomization/crops/allthemodium.json",
-      "config/mysticalcustomization/crops/azure_silver.json",
-      "config/mysticalcustomization/crops/black_quartz.json",
-      "config/mysticalcustomization/crops/crimson_iron.json",
-      "config/mysticalcustomization/crops/darkstone.json",
-      "config/mysticalcustomization/crops/entro.json",
-      "config/mysticalcustomization/crops/kivi.json",
-      "config/mysticalcustomization/crops/sky_steel.json",
-      "config/mysticalcustomization/crops/unexplored_wood.json",
-      "config/mysticalcustomization/crops/unobtainium.json",
-      "config/mysticalcustomization/crops/vibranium.json",
-      "config/mysticalcustomization/crops/xychorium_gem.json",
-      "config/mysticalcustomization/tiers/magical.json",
-      "kubejs/client_scripts/tooltips.js",
-      "resourcepacks/ATM10_Korean/assets/mysticalagradditions/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json"
+      "config/ftbquests/quests/lang/ko_kr.snbt"
     ],
-    "hash_matches": 17,
+    "hash_matches": 18,
     "unexpected_changes": []
   },
   "remaining": 0,

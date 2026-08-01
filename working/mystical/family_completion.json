@@ -8,12 +8,12 @@
   ],
   "counts": {
     "language_english_keys": 849,
-    "language_existing_korean_reused": 383,
-    "language_existing_korean_corrected": 90,
+    "language_existing_korean_reused": 343,
+    "language_existing_korean_corrected": 130,
     "language_newly_translated": 376,
-    "quest_display_keys": 257,
+    "quest_display_keys": 306,
     "customization_literals": 13,
-    "kubejs_literals": 2,
+    "kubejs_literals": 7,
     "remaining": 0
   },
   "related_content": {
@@ -54,32 +54,21 @@
         "tiers/magical.json"
       ],
       "names": 13
+    },
+    "kubejs": {
+      "reference_files_checked": 42,
+      "direct_display_literals_checked": 7,
+      "missing": 0
     }
   },
   "deployment": {
     "status": "applied_and_verified",
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp\\backups\\20260714_225932_253860\\backup_manifest.json",
+    "backup_manifest": "temp\\backups\\20260801_122334_024493\\backup_manifest.json",
     "changed_paths": [
-      "config/ftbquests/quests/lang/ko_kr.snbt",
-      "config/mysticalcustomization/crops/allthemodium.json",
-      "config/mysticalcustomization/crops/azure_silver.json",
-      "config/mysticalcustomization/crops/black_quartz.json",
-      "config/mysticalcustomization/crops/crimson_iron.json",
-      "config/mysticalcustomization/crops/darkstone.json",
-      "config/mysticalcustomization/crops/entro.json",
-      "config/mysticalcustomization/crops/kivi.json",
-      "config/mysticalcustomization/crops/sky_steel.json",
-      "config/mysticalcustomization/crops/unexplored_wood.json",
-      "config/mysticalcustomization/crops/unobtainium.json",
-      "config/mysticalcustomization/crops/vibranium.json",
-      "config/mysticalcustomization/crops/xychorium_gem.json",
-      "config/mysticalcustomization/tiers/magical.json",
-      "kubejs/client_scripts/tooltips.js",
-      "resourcepacks/ATM10_Korean/assets/mysticalagradditions/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json"
+      "config/ftbquests/quests/lang/ko_kr.snbt"
     ],
-    "hash_matches": 17,
+    "hash_matches": 18,
     "unexpected_changes": []
   },
   "review_items": [],

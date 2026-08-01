@@ -375,5 +375,90 @@
   "task.51A3E013D2B3D744.title": "Machine Upgrades",
   "task.64FADC78A8AD3FE4.title": "Seeds",
   "task.773CA1FDC4CEFCEF.title": "AllRightsReserved",
-  "task.7D9A58EBADE91F54.title": "Inferium Tools"
+  "task.7D9A58EBADE91F54.title": "Inferium Tools",
+  "quest.09D76E9B8CABC31E.quest_desc": [
+    "For &5&lCreative Essence&r you'll need 4 &5Insanium Essence Blocks&r. Each Block is 9 &5Essence&r now let me do the math... \\n\\nYou'll need 9,216 &aInferium Essence&r to get just one of these Blocks. So you'll need 36,864 &aInferium Essence&r total!"
+  ],
+  "quest.09D76E9B8CABC31E.title": "4 &5Insanium Blocks",
+  "quest.0C7D96DB3573EF9C.quest_desc": [
+    ""
+  ],
+  "quest.0C7D96DB3573EF9C.quest_subtitle": "&oAbility to create life.",
+  "quest.0C7D96DB3573EF9C.title": "&5&lCreative Essence",
+  "quest.13517D17E6BF015F.quest_desc": [
+    "With &bDiamond Armor&r and a few &aInferium Items&r we can craft &aInferium Armor&r! \\n\\nThey can also be upgraded with Tinkering!"
+  ],
+  "quest.13517D17E6BF015F.quest_subtitle": "21",
+  "quest.13517D17E6BF015F.title": "&aInferium Armor",
+  "quest.1A96C595CBA42840.quest_desc": [
+    "Kivi Seeds can be used to grow Kivi Essence which can be crafted in Kivi!"
+  ],
+  "quest.1A96C595CBA42840.title": "Kivi Automation",
+  "quest.1D27EE427ECFD6CE.quest_desc": [
+    "Upgraded version of &cTertium&r."
+  ],
+  "quest.1D27EE427ECFD6CE.quest_subtitle": "27",
+  "quest.1D27EE427ECFD6CE.title": "&9Imperium Armor",
+  "quest.2007EF64F0406090.quest_subtitle": "&f24 &cAttack Damage",
+  "quest.215AD616E6847E9A.quest_desc": [
+    "Each &5Insanium Gemstone&r is 2 &5Insanium Essence&r. So each &5Gemstone Block&r is 18 &5Insanium Essence&r. \\n\\nThat means we can take our 9,216 &aInferium Essence&r for the &5Insanium Blocks&r and double it to get 18,432 &aInferium Essence&r for just the 4 &5Insanium Gemstone Blocks&r."
+  ],
+  "quest.215AD616E6847E9A.title": "4 &5Insanium Gemstone Blocks",
+  "quest.232A06C9FF0EE7B2.quest_desc": [
+    "Menril Seeds can be used to automate Menril Berries, Menril Logs and Menril Saplings."
+  ],
+  "quest.232A06C9FF0EE7B2.quest_subtitle": "Automating Menril",
+  "quest.2A4FE9644F3B9DC1.quest_desc": [
+    "Upgraded version of &2Prudentium&r."
+  ],
+  "quest.2A4FE9644F3B9DC1.quest_subtitle": "26",
+  "quest.2A4FE9644F3B9DC1.title": "&cTertium Armor",
+  "quest.3145B847A15F97F2.quest_desc": [
+    "You can combine the Essences from &2&lMystical Agriculture&r to make... &8Coal&r. \\n\\nObviously it works as an amazing Fuel source but &5Insanium Coal&r seems a little too insane for me. "
+  ],
+  "quest.3145B847A15F97F2.title": "&5Insanium Coal Block",
+  "quest.3F55F3CC8519D783.quest_desc": [
+    "The Soulium Spawner is the Spawner gifted to us by Mystical Agriculture. It uses Mob Essence and Energy to spawn the mobs. Mob Essence is gotten through harvesting Mob Plants, made by Soul Jars. So you'll have to kill the mobs first, or use the Soul Extractor."
+  ],
+  "quest.3F55F3CC8519D783.quest_subtitle": "Mystical Agriculture's Spawner",
+  "quest.4A9CB8778D37049F.quest_desc": [
+    "You'll need to use an Awakening Ritual to get the Items to do another Awakening Ritual on &4Supremium Armor&r. \\n\\nI think it is worth it; it's the best Armor you can get from &2&lMystical&r!"
+  ],
+  "quest.4A9CB8778D37049F.quest_subtitle": "36",
+  "quest.4A9CB8778D37049F.title": "&6Awakened Supremium Armor",
+  "quest.4DCEC4B97E24B6F1.quest_subtitle": "&f17 &cAttack Damage",
+  "quest.5064D5F99E2C69C8.quest_desc": [
+    "Upgraded version of &9Imperium&r."
+  ],
+  "quest.5064D5F99E2C69C8.quest_subtitle": "29",
+  "quest.5064D5F99E2C69C8.title": "&4Supremium Armor",
+  "quest.52B61FB01D7C12A4.quest_desc": [
+    "Upgraded version of &aInferium&r."
+  ],
+  "quest.52B61FB01D7C12A4.quest_subtitle": "23",
+  "quest.52B61FB01D7C12A4.title": "&2Prudentium Armor",
+  "quest.5791F3000D18E2C9.quest_desc": [
+    "The &8Wither&r has a tendency to break and blow up Blocks. \\n\\nMost players do not enjoy this, so the &8Witherproof Bricks&r are just what you are looking for! \\n\\nThey are just like &8Witherproof Blocks&r, just with a better design!"
+  ],
+  "quest.5791F3000D18E2C9.title": "&8Witherproof Bricks",
+  "quest.57F107892FFA1F52.quest_desc": [
+    "To grow Nether Star Seeds you'll need a Crux below the Farmland. Yes growing Nether Stars needed to be made more expensive! \\n\\nTo make the Nether Star Crux you'll need &7Withering Souls&r which have a 1/3 chance drop from &8Withers&r."
+  ],
+  "quest.5A6670364ADE0858.quest_subtitle": "&f29 &cAttack Damage",
+  "quest.6552E301C370D203.quest_subtitle": "&f7 &cAttack Damage",
+  "quest.680ECE3D8DCDC515.quest_subtitle": "&f13 &cAttack Damage",
+  "quest.6E3AD764A67829CB.quest_desc": [
+    "Like its inferior brother, the &bInfusion Crystal&r, the &cMaster Infusion Crystal&r does everything the former can as well. \\n\\nThis one just has Infinite Uses and can upgrade 4 Blocks of Essence to the next one in Block form! \\n\\nIt does require &cSupremium&r to make it, but trust me it's worth it!"
+  ],
+  "quest.6E3AD764A67829CB.title": "&cMaster Infusion Crystal",
+  "quest.7377C657CED885AC.quest_desc": [
+    "&2&lMystical Agriculture&r is a mod about agriculture, but what are you farming for?\\n\\nPretty much anything, from Honey to Steel to Wither Skeletons.\\n\\nYou'll need to do a lot of farming with this mod to make the &6&lATM Star&r!"
+  ],
+  "quest.7377C657CED885AC.title": "&2&lMystical Agriculture",
+  "quest.7766E66A14643F4D.quest_desc": [
+    "&6Awakening&r is a relatively new addition to &2&lMystical Agriculture&r. Through the &6Awakening Ritual&r you can make &6Awakened Essence&r. \\n\\nThen you can combine those with Ingots to get this Block!"
+  ],
+  "quest.7766E66A14643F4D.title": "&6Awakened Supremium Ingot Block",
+  "quest.7EDF2CC08FC774F9.quest_subtitle": "&f10 &cAttack Damage",
+  "quest.7F076FC4F2187692.quest_subtitle": "&f8 &cAttack Damage"
 }

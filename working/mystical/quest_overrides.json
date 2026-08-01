@@ -2,7 +2,7 @@
   "quest.01C169A7FA424F6E.quest_subtitle": "티어: &a2",
   "quest.02D45E3FB37ED0AD.quest_subtitle": "티어: &63",
   "quest.04A7AA70C23830FF.quest_desc": [
-    "낫은 많은 양의 유기 물질을 제거하는 데 사용할 수 있는 도구입니다. 낫은 당신이 캐는 블록 주변의 영역에 있는 블록들을 파괴합니다."
+    "낫은 넓은 범위의 식물을 한꺼번에 제거하는 도구입니다. 채굴한 블록 주변의 식물 블록도 함께 파괴합니다."
   ],
   "quest.04B6E31120663EB2.quest_subtitle": "티어: &a2",
   "quest.0591CAFD665CE151.quest_subtitle": "티어: &b4",
@@ -21,7 +21,7 @@
   "quest.0B37355262121DD5.quest_desc": [
     "&a주입 제단&r은 모든 씨앗을 만드는 방법입니다. 먼저 제단을 놓고 나면 받침대를 어디에 놓아야 하는지 보여줍니다.\\n\\n주입을 시작하려면 제단에 &4레드스톤 신호&r가 필요합니다."
   ],
-  "quest.0B37355262121DD5.quest_subtitle": "시드 생성 중",
+  "quest.0B37355262121DD5.quest_subtitle": "씨앗 만들기",
   "quest.0B37355262121DD5.title": "&4주입 제단",
   "quest.0BE6CE2C264140AD.quest_subtitle": "티어: &a2",
   "quest.0E1ABCAA87120367.quest_subtitle": "티어: &c5",
@@ -31,7 +31,7 @@
   "quest.10098A4B38BBF0B1.quest_subtitle": "티어: &a2",
   "quest.13124A7E22999850.quest_subtitle": "티어: &e1",
   "quest.140DADB32EF10D58.quest_desc": [
-    "드래곤 알 시드는 그로우하기 위해 아래에 드래곤 알 크룩스가 놓여 있어야 합니다."
+    "드래곤 알 씨앗이 자라려면 경작지 아래에 드래곤 알 크룩스를 놓아야 합니다."
   ],
   "quest.140DADB32EF10D58.quest_subtitle": "티어: &56",
   "quest.15279CAC2FFE6B35.quest_subtitle": "티어: &c5",
@@ -39,12 +39,12 @@
   "quest.15D764CAF047EA7A.title": "&c터튬 갑옷&r",
   "quest.1609BF52108238B0.quest_subtitle": "티어: &e1",
   "quest.1636F3F12E92CAEA.quest_desc": [
-    "물뿌리개를 사용하려면 물 근원 블록을 우클릭하여 물로 채워야 합니다. 물로 채워지면 작물에 대고 우클릭을 홀드하여 물뿌리개의 AOE 내에 있는 작물에 물을 줄 수 있습니다.",
+    "물뿌리개를 사용하려면 물 원천 블록을 오른쪽 클릭해 물을 채우세요. 작물을 겨냥한 채 오른쪽 버튼을 누르고 있으면 물뿌리개의 효과 범위 안에 있는 작물에 물을 줍니다.",
     "",
-    "라텍스 물뿌리개는 자동 물 주기 기능이 있습니다. 공중에서 Shift 키를 누른 채로 오른 클릭하면 자동 물 주기 토글을 켜거나 끌 수 있습니다. 켜져 있으면 물뿌리개에 마법 부여가 된 것처럼 보일 것입니다."
+    "에센스 물뿌리개에는 자동 물 주기 기능이 있습니다. 블록을 겨냥하지 않은 상태에서 Shift + 오른쪽 클릭하면 이 기능을 켜거나 끌 수 있습니다. 켜져 있을 때는 물뿌리개가 마법 부여된 것처럼 빛납니다."
   ],
   "quest.16E3031D800B40D5.quest_desc": [
-    "소울리움 스포너는 몹 라텍스를 사용하여 몹을 생성합니다. 예를 들어 가스트 라텍스를 넣으면 가스트를 생성할 수 있습니다."
+    "소울륨 소환기는 몹 에센스를 사용해 몹을 소환합니다. 예를 들어 가스트 에센스를 넣으면 가스트를 소환할 수 있습니다."
   ],
   "quest.19AAC139177442C1.quest_subtitle": "티어: &63",
   "quest.19FFD64154AFC89D.quest_subtitle": "티어: &b4",
@@ -54,45 +54,45 @@
   ],
   "quest.1C4ABF4518638A82.title": "&4수프레뮴 사과",
   "quest.1CC4F8570A7A99EB.quest_desc": [
-    "&d라텍스&r는 Mystical Agriculture에서 당신의 모든 그로우 요구의 시작점입니다.\\n\\n&e인페리움 라텍스&r는 모든 라텍스의 아래쪽 가로띠 티어입니다. 당신은 채굴, 몹 처치, 또는 시드를 만들어 그로우하여 얻을 수 있습니다!\\n\\n더 크고 더 나은 라텍스를 만들려면 &9주입 수정&r을 만들어야 합니다."
+    "&d에센스&r는 Mystical Agriculture에서 자원을 재배하는 출발점입니다.\\n\\n&e인퍼륨 에센스&r는 모든 에센스의 기본 등급입니다. 광석을 채굴하거나 몹을 처치하거나 씨앗을 만들어 재배하면 얻을 수 있습니다! \\n\\n더 높은 등급의 에센스를 만들려면 &9주입 수정&r이 필요합니다. "
   ],
   "quest.1CC4F8570A7A99EB.quest_subtitle": "티어: &e1",
   "quest.1CC4F8570A7A99EB.title": "&a인퍼륨",
   "quest.1CF8263756EE8F2A.quest_desc": [
     "이 특별한 &e가루&r는 &d신비로운 깨달음&r으로 마법 부여된 &d에센스 무기&r로 처치했을 때 위더와 엔더 드래곤으로부터 얻을 수 있습니다."
   ],
-  "quest.1CF8263756EE8F2A.title": "&5인지하는 가루&r",
+  "quest.1CF8263756EE8F2A.title": "&5인지의 가루&r",
   "quest.1E0F92F07FDD162E.quest_desc": [
-    "자원 작물을 만들려면 &b번영 씨앗 베이스&r가 필요합니다."
+    "자원 작물을 만들려면 &b번영 씨앗 기반재&r가 필요합니다."
   ],
-  "quest.1E0F92F07FDD162E.quest_subtitle": "나는 그 (시드) 아래쪽 가로띠에 푹 빠져있어",
-  "quest.1E0F92F07FDD162E.title": "&b번영 씨앗 베이스",
+  "quest.1E0F92F07FDD162E.quest_subtitle": "씨앗의 기반부터 다져요",
+  "quest.1E0F92F07FDD162E.title": "&b번영 씨앗 기반재",
   "quest.1E2B363E3365A62F.quest_desc": [
     "올더모듐 시드는 자라기 위해 아래에 마법이 걸린 토양이 필요합니다."
   ],
   "quest.1E2B363E3365A62F.quest_subtitle": "티어: &b마법",
-  "quest.1E414D285E7A5FE2.title": "&cTertium 도구",
+  "quest.1E414D285E7A5FE2.title": "&c터튬 도구",
   "quest.1E7DC8E0493BE99E.quest_subtitle": "티어: &e1",
   "quest.1F7591DB6D8EC1E7.quest_desc": [
     "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 증가 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)\\n - 성급함 II (3:00)"
   ],
-  "quest.1F7591DB6D8EC1E7.title": "&5인세니움 사과",
+  "quest.1F7591DB6D8EC1E7.title": "&5인사늄 사과",
   "quest.1F88C697817A7680.quest_desc": [
     "강화 효과:\\n\\n - 흡수 II (3:00)"
   ],
-  "quest.1F88C697817A7680.title": "&a인페리움 사과",
+  "quest.1F88C697817A7680.title": "&a인퍼륨 사과",
   "quest.1FF82E21F1C0C73B.quest_subtitle": "티어: &c5",
   "quest.202B1F54D3F06DAB.quest_desc": [
-    "이것은 4개의 슈프리뮴과 주입 수정을 결합하여 만든 6티어 라텍스입니다."
+    "6등급 에센스입니다. 수프레뮴 4개와 주입 수정을 조합해 만듭니다."
   ],
   "quest.202B1F54D3F06DAB.quest_subtitle": "티어: &56",
   "quest.202B1F54D3F06DAB.title": "&5인사늄",
   "quest.212EF8601746C500.quest_desc": [
     "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 증가 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)"
   ],
-  "quest.212EF8601746C500.title": "&9임페리움 사과",
+  "quest.212EF8601746C500.title": "&9임퍼륨 사과",
   "quest.217DB12EA32E1724.quest_desc": [
-    "&b주입 수정&r은 씨앗의 티어를 올리는 데 필요합니다. 예를 들어 수정을 인페리움 라텍스 4개와 결합하면 프루덴티움 라텍스 1개를 얻을 수 있습니다.\\n\\n나중에는 파괴되지 않는 주입 수정을 제작할 수 있습니다."
+    "&b주입 수정&r은 에센스의 등급을 올리는 데 필요합니다. 예를 들어 인퍼륨 에센스 4개와 주입 수정을 조합하면 프루덴튬 에센스 1개를 얻습니다.\\n\\n나중에는 내구도가 무한한 주입 수정도 만들 수 있습니다."
   ],
   "quest.217DB12EA32E1724.title": "&b주입 수정",
   "quest.219A5BDA5A01A420.quest_desc": [
@@ -100,14 +100,14 @@
   ],
   "quest.219A5BDA5A01A420.title": "&4마스터 주입 수정",
   "quest.21A90474590FCDB8.quest_desc": [
-    "\"화로\"는 더 빠른 속도와 더 나은 효율을 위해 상위 버전으로 변환할 수 있는 바닐라 화로의 상위 버전입니다."
+    "\"화로\"는 바닐라 화로의 상위 버전입니다. 기계 업그레이드를 장착해 속도와 연료 효율을 높일 수 있습니다."
   ],
   "quest.21A90474590FCDB8.title": "화로",
   "quest.21F4CFF171246537.quest_subtitle": "티어: &b4",
   "quest.21F654C968722841.quest_subtitle": "티어: &b4",
   "quest.222739E77C745519.quest_subtitle": "티어: &b4",
   "quest.224CE21E56703F6E.quest_desc": [
-    "그 완드는 주입 제단을 작동시키는 데 사용할 수 있습니다. 제단을 오른손으로 클릭하여 주입 과정을 작동시키세요."
+    "마법봉으로 주입 제단을 활성화할 수 있습니다. 제단을 오른쪽 클릭해 주입 과정을 시작하세요."
   ],
   "quest.224CE21E56703F6E.quest_subtitle": "당신은 마법사입니다(이름을 넣으세요)!",
   "quest.224CE21E56703F6E.title": "&2지팡이",
@@ -128,7 +128,7 @@
   "quest.2A049419C78E96F4.quest_subtitle": "티어: &a2",
   "quest.2A2CC461B9620BDC.quest_subtitle": "티어: &a2",
   "quest.2A7E3F2CD335EAD0.quest_desc": [
-    "&a라텍스 장비&r를 만들기 위한 여정을 시작하려면 먼저 인페리움 갑옷을 만들어야 합니다.\\n\\n이 장비는 라텍스처럼 더 높은 티어로 상위 버전으로 변환할 수 있습니다. 또한 &9땜장이 작업대&r로 &b증강&r할 수도 있습니다!"
+    "&a에센스 장비&r 제작은 인퍼륨 방어구부터 시작합니다.\\n\\n에센스처럼 더 높은 등급으로 업그레이드할 수 있으며, &b땜장이 작업대&r에서 &9증강&r도 장착할 수 있습니다!"
   ],
   "quest.2A7E3F2CD335EAD0.title": "&a인퍼륨 갑옷",
   "quest.2AECDD9E2DEA708C.quest_subtitle": "티어: &a2",
@@ -144,7 +144,7 @@
   ],
   "quest.2C73E3C5113BF2AC.quest_subtitle": "티어: &a2",
   "quest.2C9C9CB71941DC01.quest_desc": [
-    "이것은 3티어 라텍스이며, 4개의 프루덴티움과 주입 수정을 결합하여 만들어집니다."
+    "3등급 에센스입니다. 프루덴튬 4개와 주입 수정을 조합해 만듭니다."
   ],
   "quest.2C9C9CB71941DC01.quest_subtitle": "티어: &63",
   "quest.2C9C9CB71941DC01.title": "&c터튬",
@@ -156,32 +156,32 @@
   "quest.2DDA04088C8220D2.title": "&b번영 파편",
   "quest.2E37997A065A29F1.quest_subtitle": "티어: &c5",
   "quest.2FA6B8A1C8713DE0.quest_desc": [
-    "티어 6 또는 마법이 걸린 시드를 키우려면 시드가 자라는 농지 바로 아래에 특정 크럭스가 있어야 합니다."
+    "6등급 또는 마법 등급 씨앗이 자라려면 경작지 바로 아래에 해당 크룩스를 놓아야 합니다."
   ],
   "quest.2FA6B8A1C8713DE0.title": "&5인사늄 경작지",
   "quest.30DF8297FEEC9F22.quest_subtitle": "티어: &63",
-  "quest.30E9255DEC69C061.title": "&4슈프리뮴 도구",
+  "quest.30E9255DEC69C061.title": "&4수프레뮴 도구",
   "quest.31A370550BD592B6.quest_desc": [
-    "니트로 수정 시드는 그로우하기 위해 아래에 니트로 수정 크럭스가 놓여 있어야 합니다."
+    "니트로 수정 씨앗이 자라려면 경작지 아래에 니트로 수정 크룩스를 놓아야 합니다."
   ],
   "quest.31A370550BD592B6.quest_subtitle": "티어: &56",
   "quest.31BAC57972148E1F.quest_subtitle": "티어: &a2",
   "quest.31EC6244E4A3CBD6.quest_subtitle": "티어: &b4",
   "quest.32B01BD789F0B037.quest_desc": [
-    "각성된 슈프레뮴 및 기타 티어 라텍스는 &6프로덕티브 비&r 모드를 사용하여 농사를 지을 수 있습니다."
+    "각성 수프레뮴과 다른 등급의 에센스는 &6Productive Bees&r를 이용해 생산할 수 있습니다."
   ],
-  "quest.32B01BD789F0B037.title": "각성된 수프레뮴 자동화",
+  "quest.32B01BD789F0B037.title": "각성 수프레뮴 자동화",
   "quest.3339445194568D77.title": "&2프루덴티움 도구",
   "quest.3384308C78D86059.quest_subtitle": "티어: &a2",
   "quest.33D23C65E7274A8F.quest_desc": [
-    "수프레뮴 에센스를 깨우려면 새로운 제단과 4개의 새로운 받침대, 그리고 4개의 &c에센스 용기&r를 만들어야 합니다.\\n\\n에센스 용기를 채우려면 시작 원소 에센스인 불, 물, Earth, 그리고 공기가 필요합니다."
+    "수프레뮴 에센스를 각성하려면 새 제단과 받침대 4개, &c에센스 용기&r 4개가 필요합니다.\\n\\n에센스 용기에는 기본 원소 에센스인 불, 물, 대지, 공기를 채워야 합니다."
   ],
   "quest.33D23C65E7274A8F.title": "&d각성&r",
   "quest.342D1FA0BCBB847A.quest_subtitle": "티어: &b4",
   "quest.37B297640F537383.quest_desc": [
-    "조율이 안된 증강은 주입 제단에서 다양한 증강을 생성하는 데 사용됩니다. 이 멋진 증강들로 &e성급함&r, &1야간 투시&r, &b낙하 피해 저항&r, &6불 저항&r 등을 얻으세요!"
+    "미조율 증강은 주입 제단에서 여러 증강을 만드는 재료입니다. 이 증강으로 &e성급함&r, &1야간 투시&r, &b추락 피해 무효&r, &6화염 저항&r 등 다양한 효과를 얻을 수 있습니다!"
   ],
-  "quest.37B297640F537383.title": "&f조율이 안된 증강",
+  "quest.37B297640F537383.title": "&f미조율 증강",
   "quest.38A77DBAD24C4B53.quest_subtitle": "티어: &63",
   "quest.3AD4367855B3E595.quest_subtitle": "티어: &b4",
   "quest.3B884E05AE2EEBFC.quest_subtitle": "티어: &c5",
@@ -190,7 +190,7 @@
   ],
   "quest.3BB3AA6C29285837.title": "&2프루덴티움 사과",
   "quest.3C9F5EB59D72AC90.quest_desc": [
-    "각성된 수프레뮴 주괴 블록은 &6ATM의 별&r을 제작하는 데 필요합니다."
+    "각성 수프레뮴 주괴 블록은 &6ATM의 별&r을 제작하는 데 필요합니다."
   ],
   "quest.3DDB7C8E61BA048F.quest_subtitle": "티어: &a2",
   "quest.3E555B364FD88B43.quest_subtitle": "범위: &c45&r 블록",
@@ -214,13 +214,13 @@
   ],
   "quest.4221D6CDDF90DACB.quest_subtitle": "티어: &b4",
   "quest.44B22160850ACAB2.quest_desc": [
-    "네더의 별 시드는 자라기 위해 아래에 놓인 네더의 별 크룩스가 필요합니다."
+    "네더의 별 씨앗이 자라려면 경작지 아래에 네더의 별 크룩스를 놓아야 합니다."
   ],
   "quest.44B22160850ACAB2.quest_subtitle": "티어: &56",
   "quest.4526E151BAE88310.quest_subtitle": "티어: &e1",
   "quest.4530C14828C3D153.quest_subtitle": "티어: &b4",
   "quest.45549E52B3CE2D23.quest_desc": [
-    "낫은 넓은 지역의 작물을 한 번에 수확할 수 있는 도구입니다. 꽤 괜찮은 무기로도 사용할 수 있습니다."
+    "대낫은 넓은 범위의 작물을 한 번에 수확하는 도구이며 무기로도 쓸 수 있습니다."
   ],
   "quest.47045A0E8E3457C2.quest_subtitle": "티어: &63",
   "quest.4821419D44F8083F.quest_desc": [
@@ -230,7 +230,7 @@
   ],
   "quest.4821419D44F8083F.quest_subtitle": "범위: &e9&r 블록",
   "quest.4821419D44F8083F.title": "&a인퍼륨 성장 가속기",
-  "quest.48BF71269DEA1AB1.title": "&4슈프리뮴 농지",
+  "quest.48BF71269DEA1AB1.title": "&4수프레뮴 경작지",
   "quest.4A4C14AF947D93EF.quest_subtitle": "티어: &b4",
   "quest.4D8B82FBA0FFD49E.quest_subtitle": "티어: &63",
   "quest.4DF23FC932F5EB7D.quest_subtitle": "티어: &b4",
@@ -238,20 +238,20 @@
   "quest.4E7990AEBCCC3C95.quest_subtitle": "티어: &b4",
   "quest.4EB7245727EE1EF9.quest_subtitle": "티어: &63",
   "quest.4EF5DE3FBA2A7AE3.quest_desc": [
-    "인페리움 라텍스로 시작하여, 라텍스 &9도구&r와 &9갑옷&r을 만들기 위한 주괴를 만들 수 있습니다.\\n\\n라텍스 도구는 더 높은 티어로 상위 버전으로 변환할 수 있으며, 갑옷과 마찬가지로 &3땜장이 작업대&r에서 &5증강&r될 수 있습니다."
+    "인퍼륨 에센스로 주괴를 만들면 에센스 &9도구&r와 &9방어구&r를 제작할 수 있습니다.\\n\\n에센스 도구는 더 높은 등급으로 업그레이드할 수 있으며, 방어구처럼 &3땜장이 작업대&r에서 &5증강&r을 장착할 수 있습니다."
   ],
-  "quest.4EF5DE3FBA2A7AE3.title": "&a인페리움 도구",
+  "quest.4EF5DE3FBA2A7AE3.title": "&a인퍼륨 도구",
   "quest.4F0DD86CF6E5F1B5.quest_subtitle": "티어: &b4",
   "quest.4F137DB561F45306.title": "&2프루덴튬 갑옷&r",
   "quest.51592B271E56C6B2.quest_subtitle": "티어: &a2",
   "quest.5210DC0095996B62.quest_subtitle": "티어: &b4",
   "quest.521C9B00B1D87DEB.quest_subtitle": "티어: &b4",
   "quest.52BB58D470560219.quest_subtitle": "범위: &c54&r 블록",
-  "quest.52BB58D470560219.title": "&6각성된 슈프리뮴 성장 가속기",
+  "quest.52BB58D470560219.title": "&6각성 수프레뮴 성장 가속기",
   "quest.5311404799117060.quest_subtitle": "티어: &b4",
   "quest.53E5A8F2B05C2989.quest_subtitle": "티어: &63",
   "quest.54735C5FCD2077B3.quest_desc": [
-    "&aMystical Agriculture&r은 &a시드&r를 사용하여 다양한 바닐라 및 모드가 적용된 리소스를 그로우할 수 있도록 하는 리소스 생성 모드입니다."
+    "&aMystical Agriculture&r는 &a씨앗&r을 재배해 바닐라와 여러 모드의 다양한 자원을 생산하는 모드입니다."
   ],
   "quest.54735C5FCD2077B3.title": "&aMystical Agriculture!",
   "quest.54D72C234EA76054.quest_subtitle": "티어: &e1",
@@ -268,11 +268,11 @@
   "quest.593A32072E7FD91D.quest_subtitle": "티어: &c5",
   "quest.594F6ED00D1619EE.quest_subtitle": "티어: &a2",
   "quest.5A17C762CDB680B5.quest_subtitle": "티어: &63",
-  "quest.5B1E0E3E876339E7.title": "&4슈프리뮴 갑옷",
+  "quest.5B1E0E3E876339E7.title": "&4수프레뮴 갑옷",
   "quest.5B52389583A70E66.quest_subtitle": "티어: &c5",
   "quest.5BC4250E4C9F803C.title": "&9임퍼륨 경작지",
   "quest.5C590DB2F3D935E5.quest_desc": [
-    "씨앗 재처리 장치는 라텍스 씨앗을 다시 라텍스로 변환할 수 있습니다."
+    "씨앗 재처리기는 에센스 씨앗을 다시 해당 에센스로 변환합니다."
   ],
   "quest.5C590DB2F3D935E5.quest_subtitle": "재활용!",
   "quest.5EE485880EA9FACF.quest_subtitle": "티어: &63",
@@ -282,30 +282,30 @@
   "quest.5F6ACDE014A61F46.title": "&c터튬 사과",
   "quest.5F72C0C82F3C0310.quest_subtitle": "티어: &c5",
   "quest.6235B9923BE0AAEB.quest_desc": [
-    "마법 부여자는 아이템과 라텍스를 사용하여 마법 부여가 가능한 아이템에 마법을 부여할 수 있는 블록입니다."
+    "인챈터는 아이템과 에센스를 사용해 마법 부여 가능한 아이템에 마법을 부여하는 블록입니다."
   ],
-  "quest.6235B9923BE0AAEB.title": "&b마법 부여자",
+  "quest.6235B9923BE0AAEB.title": "&b인챈터",
   "quest.62D572BAB055F56F.quest_subtitle": "티어: &e1",
   "quest.64B04D1CBC923789.quest_subtitle": "티어: &b4",
   "quest.6501A410F1543C70.quest_desc": [
-    "신비로운 비료는 뼈 가루처럼 작동하지만, 더 좋습니다. 사용하는 즉시 무엇이든 완전히 자라게 합니다."
+    "신비로운 비료는 뼛가루보다 강력합니다. 사용한 작물이나 묘목을 즉시 완전히 성장시킵니다."
   ],
   "quest.6501A410F1543C70.title": "&d신비로운 비료",
   "quest.66AADD32A528A56D.quest_subtitle": "티어: &63",
   "quest.66B503EB65475B98.quest_subtitle": "티어: &63",
   "quest.66C52B137A4FF869.quest_desc": [
-    "이것은 4개의 tertium을 주입 수정과 함께 결합하여 만든 티어 4 라텍스입니다."
+    "4등급 에센스입니다. 터튬 4개와 주입 수정을 조합해 만듭니다."
   ],
   "quest.66C52B137A4FF869.quest_subtitle": "티어: &b4",
-  "quest.66C52B137A4FF869.title": "&9임페리움",
+  "quest.66C52B137A4FF869.title": "&9임퍼륨",
   "quest.67AA59BD340FEC62.quest_subtitle": "티어: &63",
   "quest.67DBE6C59C0D9D1B.quest_desc": [
-    "이것은 4개의 임페리움과 주입 수정이 결합되어 만들어진 티어 4 라텍스입니다."
+    "4등급 에센스입니다. 임퍼륨 4개와 주입 수정을 조합해 만듭니다."
   ],
   "quest.67DBE6C59C0D9D1B.quest_subtitle": "티어: &c5",
   "quest.67DBE6C59C0D9D1B.title": "&4수프레뮴",
-  "quest.67DDFA6FB1F9EECA.title": "&9임페리움 도구",
-  "quest.685C4A646E092A82.title": "&6각성된 슈프리뮴 갑옷",
+  "quest.67DDFA6FB1F9EECA.title": "&9임퍼륨 도구",
+  "quest.685C4A646E092A82.title": "&6각성 수프레뮴 갑옷",
   "quest.6950FC974624C6AA.quest_subtitle": "티어: &63",
   "quest.69F63F3B48E4344E.quest_subtitle": "티어: &63",
   "quest.6A18B971C3DB83AE.quest_subtitle": "티어: &63",
@@ -318,7 +318,7 @@
   "quest.70E4EBA7C9901007.quest_subtitle": "티어: &b4",
   "quest.712EB19B26D405DD.quest_subtitle": "티어: &e1",
   "quest.73350AD668200E99.quest_desc": [
-    "이것은 2티어 라텍스이며, 주입 수정과 함께 4개의 인페리움을 결합하여 만들어집니다."
+    "2등급 에센스입니다. 인퍼륨 4개와 주입 수정을 조합해 만듭니다."
   ],
   "quest.73350AD668200E99.quest_subtitle": "티어: &a2",
   "quest.73350AD668200E99.title": "&2프루덴티움",
@@ -326,15 +326,15 @@
   "quest.7388D8168AF78B9A.quest_subtitle": "티어: &63",
   "quest.754500BB7FD8C413.quest_subtitle": "티어: &b4",
   "quest.75560045ED084900.quest_desc": [
-    "대부분의 시드는 만들기가 단순하지만, &9몹 시드&r를 만들려면 네더로 가서 &8Soulium&r(을)를 집어 들어야 합니다.",
+    "대부분의 씨앗은 쉽게 만들 수 있지만, &9몹 씨앗&r을 만들려면 네더에서 &8소울륨&r을 구해야 합니다. ",
     "",
-    "찾은 돌과 광석으로 &3Soulium Dagger&r와 &3Soul Jars&r를 만들어야 합니다. 단검으로 몹을 죽여서 &b영혼&r을 모을 수 있으며, 이 영혼은 주입 제단에서 해당 몹 시드를 만드는 데 사용됩니다.",
+    "찾은 영혼석과 소울륨 광석으로 &3소울륨 단검&r과 &3영혼 항아리&r를 만드세요. 단검으로 몹을 처치하면 &b영혼&r을 모을 수 있으며, 주입 제단에서 해당 몹의 씨앗을 만들 때 사용합니다. ",
     "",
-    "또는, &3영혼 추출기&r 내부에 영혼 항아리를 넣고 몹 아이템을 사용하여 채울 수도 있습니다. 예를 들어, 썩은 살점을 추가하면 좀비 영혼의 일부를 얻을 수 있습니다."
+    "다른 방법으로는 &3영혼 추출기&r에 영혼 항아리와 몹 전리품을 넣어 채울 수 있습니다. 예를 들어 썩은 살점을 넣으면 좀비 영혼의 일부를 얻습니다."
   ],
-  "quest.75560045ED084900.title": "몹 시드 생성 중",
+  "quest.75560045ED084900.title": "몹 씨앗 만들기",
   "quest.7580037DB8ADEB3C.quest_desc": [
-    "야옹 야옹, 나는 Cow...이야"
+    "야옹 야옹, 나는 소야..."
   ],
   "quest.7580037DB8ADEB3C.quest_subtitle": "티어: &a2",
   "quest.75D09040185B0E40.quest_subtitle": "티어: &a2",
@@ -343,15 +343,15 @@
   "quest.7655E1C6C5E5469F.quest_subtitle": "범위: &a18&r 블록",
   "quest.7655E1C6C5E5469F.title": "&2프루덴튬 성장 가속기",
   "quest.77C6667B4C37589C.quest_desc": [
-    "기계 상위 버전으로 변환은 &aMystical Agriculture&r 기계의 속도 증가에 사용됩니다."
+    "기계 업그레이드는 &aMystical Agriculture&r 기계의 작동 속도를 높입니다."
   ],
   "quest.780E0163033CCD9B.quest_subtitle": "티어: &b4",
   "quest.787E714014EC2C02.quest_subtitle": "티어: &63",
   "quest.7A103577EAE7B3F1.quest_desc": [
-    "이것은 5단계 - 각성된 라텍스이며, 각성 제단에서 4개의 인지하는 가루, 각 원소 라텍스 10개, 그리고 1개의 수프레뮴 블록을 합쳐서 만듭니다."
+    "5등급 각성 에센스입니다. 각성 제단에서 인지의 가루 4개, 각 원소 에센스 10개, 수프레뮴 블록 1개를 조합해 만듭니다."
   ],
   "quest.7A103577EAE7B3F1.quest_subtitle": "티어: &c5 - 각성",
-  "quest.7A103577EAE7B3F1.title": "&6각성된 슈프리뮴",
+  "quest.7A103577EAE7B3F1.title": "&6각성 수프레뮴",
   "quest.7A89560F303A8BE6.quest_subtitle": "티어: &63",
   "quest.7AD9DF3FFCB03495.quest_subtitle": "티어: &a2",
   "quest.7ADE214373DE135F.quest_subtitle": "티어: &63",
@@ -359,21 +359,107 @@
   "quest.7CFA92CC48D1E7E3.quest_subtitle": "티어: &c5",
   "quest.7D43016926E77150.title": "&9임퍼륨 갑옷&r",
   "quest.7DFF18CFEB0B8DBE.quest_desc": [
-    "가능한 한 빨리 &a인페리움&r을 그로우 시작하는 것이 좋습니다!\\n\\n이러한 시드를 그로우하는 데 필수는 아니지만, 시드의 그로우 속도(특히 인페리움 시드)를 증가시키는 &e에센스 농지&r를 생성할 수도 있습니다. 그러나 특정 시드는 특정 농지에 심어야 합니다."
+    "가능한 한 빨리 &a인퍼륨&r 재배를 시작하세요!\\n\\n씨앗을 기르는 데 꼭 필요하지는 않지만, &e에센스 경작지&r를 만들면 씨앗, 특히 인퍼륨 씨앗의 성장 속도가 증가합니다. 다만 일부 씨앗은 정해진 등급의 경작지에만 심을 수 있습니다."
   ],
   "quest.7DFF18CFEB0B8DBE.title": "&a인퍼륨 경작지",
   "quest.7EFEE009212A4FD4.quest_subtitle": "티어: &63",
-  "task.011F410922A4D859.title": "낫",
+  "task.011F410922A4D859.title": "대낫",
   "task.0C92F7E44100B2BA.title": "터튬 도구",
   "task.2DA0BD7B2834A560.title": "위더프루프 블록",
   "task.323D34AF775A642B.title": "낫",
-  "task.34551E919FD101CF.title": "임페리움 도구",
-  "task.3E133AC7B615971D.title": "슈프리뮴 도구",
+  "task.34551E919FD101CF.title": "임퍼륨 도구",
+  "task.3E133AC7B615971D.title": "수프레뮴 도구",
   "task.41910A3BC6C0E838.title": "프루덴티움 도구",
-  "task.4F6E8F2EC33DB910.title": "각성된 슈프리뮴 도구",
+  "task.4F6E8F2EC33DB910.title": "각성 수프레뮴 도구",
   "task.518B9569DCE0A771.title": "AllRightsReserved",
   "task.51A3E013D2B3D744.title": "기계 업그레이드",
   "task.64FADC78A8AD3FE4.title": "씨앗",
   "task.773CA1FDC4CEFCEF.title": "AllRightsReserved",
-  "task.7D9A58EBADE91F54.title": "인페리움 도구"
+  "task.7D9A58EBADE91F54.title": "인퍼륨 도구",
+  "quest.09D76E9B8CABC31E.quest_desc": [
+    "&5&l크리에이티브 에센스&r를 만들려면 &5인사늄 에센스 블록&r 4개가 필요합니다. 블록 하나에는 &5에센스&r 9개가 들어갑니다. 계산해 보면... \\n\\n블록 하나에 &a인퍼륨 에센스&r 9,216개가 필요하므로, 총 &a인퍼륨 에센스&r 36,864개가 필요합니다!"
+  ],
+  "quest.09D76E9B8CABC31E.title": "4 &5인사늄 블록",
+  "quest.0C7D96DB3573EF9C.quest_desc": [
+    ""
+  ],
+  "quest.0C7D96DB3573EF9C.quest_subtitle": "&o생명체를 생성하는 능력.",
+  "quest.0C7D96DB3573EF9C.title": "&5&l크리에이티브 에센스",
+  "quest.13517D17E6BF015F.quest_desc": [
+    "&b다이아몬드 방어구&r와 몇 가지 &a인퍼륨 아이템&r으로 &a인퍼륨 방어구&r를 만들 수 있습니다! \\n\\n땜장이 작업대에서 증강도 장착할 수 있습니다!"
+  ],
+  "quest.13517D17E6BF015F.quest_subtitle": "21",
+  "quest.13517D17E6BF015F.title": "&a인퍼륨 갑옷",
+  "quest.1A96C595CBA42840.quest_desc": [
+    "키비 씨앗을 재배하면 키비로 조합할 수 있는 키비 에센스를 얻습니다!"
+  ],
+  "quest.1A96C595CBA42840.title": "키비 자동화",
+  "quest.1D27EE427ECFD6CE.quest_desc": [
+    "&c터튬&r 방어구의 상위 등급입니다."
+  ],
+  "quest.1D27EE427ECFD6CE.quest_subtitle": "27",
+  "quest.1D27EE427ECFD6CE.title": "&9임퍼륨 갑옷",
+  "quest.2007EF64F0406090.quest_subtitle": "&f24 &c공격 피해",
+  "quest.215AD616E6847E9A.quest_desc": [
+    "&5인사늄 보석&r 하나에는 &5인사늄 에센스&r 2개가 필요합니다. 따라서 &5보석 블록&r 하나에는 &5인사늄 에센스&r 18개가 들어갑니다. \\n\\n&5인사늄 블록&r에 필요한 &a인퍼륨 에센스&r 9,216개의 두 배, 즉 &5인사늄 보석 블록&r 4개에는 &a인퍼륨 에센스&r 18,432개가 필요합니다."
+  ],
+  "quest.215AD616E6847E9A.title": "4 &5인사늄 보석 블록",
+  "quest.232A06C9FF0EE7B2.quest_desc": [
+    "멘릴 씨앗으로 멘릴 열매, 멘릴 원목, 멘릴 묘목 생산을 자동화할 수 있습니다."
+  ],
+  "quest.232A06C9FF0EE7B2.quest_subtitle": "멘릴 자동화",
+  "quest.2A4FE9644F3B9DC1.quest_desc": [
+    "&2프루덴티움&r의 상위 버전."
+  ],
+  "quest.2A4FE9644F3B9DC1.quest_subtitle": "26",
+  "quest.2A4FE9644F3B9DC1.title": "&c터튬 갑옷",
+  "quest.3145B847A15F97F2.quest_desc": [
+    "&2&lMystical Agriculture&r의 에센스를 조합해... &8석탄&r을 만들 수 있습니다. \\n\\n훌륭한 연료지만 &5인사늄 석탄&r은 이름처럼 정말 엄청납니다. "
+  ],
+  "quest.3145B847A15F97F2.title": "&5인사늄 석탄 블록",
+  "quest.3F55F3CC8519D783.quest_desc": [
+    "소울륨 소환기는 Mystical Agriculture가 제공하는 소환기입니다. 몹 에센스와 에너지를 사용해 몹을 소환합니다. 몹 에센스는 영혼 항아리로 만든 몹 작물을 수확해 얻습니다. 따라서 먼저 몹을 처치하거나 영혼 추출기를 사용해야 합니다."
+  ],
+  "quest.3F55F3CC8519D783.quest_subtitle": "Mystical Agriculture 소환기",
+  "quest.4A9CB8778D37049F.quest_desc": [
+    "&4수프레뮴 갑옷&r에 각성 의식을 진행하려면, 먼저 다른 각성 의식으로 필요한 재료를 만들어야 합니다. \\n\\n그만한 가치가 있습니다. &2&lMystical Agriculture&r에서 얻을 수 있는 최고의 방어구니까요!"
+  ],
+  "quest.4A9CB8778D37049F.quest_subtitle": "36",
+  "quest.4A9CB8778D37049F.title": "&6각성 수프레뮴 갑옷",
+  "quest.4DCEC4B97E24B6F1.quest_subtitle": "&f17 &c공격 피해",
+  "quest.5064D5F99E2C69C8.quest_desc": [
+    "&9임퍼륨&r 방어구의 상위 등급입니다."
+  ],
+  "quest.5064D5F99E2C69C8.quest_subtitle": "29",
+  "quest.5064D5F99E2C69C8.title": "&4수프레뮴 갑옷",
+  "quest.52B61FB01D7C12A4.quest_desc": [
+    "&a인퍼륨&r 방어구의 상위 등급입니다."
+  ],
+  "quest.52B61FB01D7C12A4.quest_subtitle": "23",
+  "quest.52B61FB01D7C12A4.title": "&2프루덴튬 갑옷",
+  "quest.5791F3000D18E2C9.quest_desc": [
+    "&8위더&r는 블록을 부수고 폭발시키는 습성이 있습니다. \\n\\n이를 막고 싶다면 &8위더 방호 벽돌&r이 알맞습니다! \\n\\n&8위더 방호 블록&r과 기능은 같지만 모양이 더 멋집니다!"
+  ],
+  "quest.5791F3000D18E2C9.title": "&8위더 방호 벽돌",
+  "quest.57F107892FFA1F52.quest_desc": [
+    "네더의 별 씨앗을 재배하려면 경작지 아래에 크룩스가 필요합니다. 네, 네더의 별 재배 비용이 더 비싸졌습니다! \\n\\n네더의 별 크룩스를 만들려면 &7시듦의 영혼&r이 필요하며, &8위더&r가 1/3 확률로 떨어뜨립니다."
+  ],
+  "quest.5A6670364ADE0858.quest_subtitle": "&f29 &c공격 피해",
+  "quest.6552E301C370D203.quest_subtitle": "&f7 &c공격 피해",
+  "quest.680ECE3D8DCDC515.quest_subtitle": "&f13 &c공격 피해",
+  "quest.6E3AD764A67829CB.quest_desc": [
+    "하위 등급인 &b주입 수정&r처럼 &c마스터 주입 수정&r도 같은 작업을 할 수 있습니다. \\n\\n사용 횟수가 무한하며 에센스 블록 4개를 다음 등급의 블록으로 올릴 수 있습니다! \\n\\n제작에는 &c수프레뮴&r이 필요하지만 충분히 가치가 있습니다!"
+  ],
+  "quest.6E3AD764A67829CB.title": "&c마스터 주입 수정",
+  "quest.7377C657CED885AC.quest_desc": [
+    "&2&lMystical Agriculture&r는 농사를 통해 자원을 얻는 모드입니다. 무엇을 재배할 수 있냐고요?\\n\\n꿀부터 강철, 위더 스켈레톤까지 거의 모든 것을 얻을 수 있습니다.\\n\\n&6&lATM의 별&r을 만들려면 이 모드에서 많은 자원을 재배해야 합니다!"
+  ],
+  "quest.7377C657CED885AC.title": "&2&lMystical Agriculture",
+  "quest.7766E66A14643F4D.quest_desc": [
+    "&6각성&r은 &2&lMystical Agriculture&r에 비교적 최근 추가된 기능입니다. &6각성 의식&r으로 &6각성 에센스&r를 만들 수 있습니다. \\n\\n그 에센스와 주괴를 조합하면 이 블록을 얻습니다!"
+  ],
+  "quest.7766E66A14643F4D.title": "&6각성 수프레뮴 주괴 블록",
+  "quest.7EDF2CC08FC774F9.quest_subtitle": "&f10 &c공격 피해",
+  "quest.7F076FC4F2187692.quest_subtitle": "&f8 &c공격 피해",
+  "task.231C01B33E5B4FF0.title": "각성 수프레뮴 벌 생성 알"
 }
