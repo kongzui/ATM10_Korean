@@ -242,6 +242,14 @@ TARGETS = (
         "enderstorage",
         "EnderStorage",
     ),
+    Target("basic_logistics", "pipez-", "pipez", "Pipez"),
+    Target(
+        "basic_logistics",
+        "Modern-Dynamics-",
+        "moderndynamics",
+        "Modern Dynamics",
+    ),
+    Target("basic_logistics", "xnet-", "xnet", "XNet"),
 )
 
 FAMILY_LABELS = {
@@ -258,6 +266,7 @@ FAMILY_LABELS = {
     "deeper_and_darker": "Deeper and Darker",
     "refined_storage": "Refined Storage 2",
     "functional_storage": "Functional Storage·Pocket Storage·EnderStorage",
+    "basic_logistics": "Pipez·Modern Dynamics·XNet",
 }
 
 QUEST_CHAPTERS = {
@@ -274,6 +283,7 @@ QUEST_CHAPTERS = {
     "deeper_and_darker": ("deeper_and_darker",),
     "refined_storage": ("refined_storage",),
     "functional_storage": (),
+    "basic_logistics": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -292,6 +302,7 @@ QUEST_TEXT_MARKERS = {
         "enderstorage",
         "ender storage",
     ),
+    "basic_logistics": ("pipez", "modern dynamics", "xnet"),
 }
 
 EXTRA_SCOPE = {
@@ -347,6 +358,9 @@ ALLOWED_ORIGINALS = {
     "EnderStorage",
     "Shift",
     "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
+    "Pipez",
+    "Modern Dynamics",
+    "XNet",
     "Pedro Ricardo",
     "TohokuAlpha",
     "KuLou_D",

@@ -1,0 +1,66 @@
+{
+  "quest.2329AA0AFBEF1E13.quest_desc": [
+    "&e&lPipez&r는 가장 간단한 &f&l물류&r 모드입니다. 모드 전체를 이 퀘스트 페이지 하나에 담고도 다른 모드를 소개할 공간이 남을 정도예요!",
+    "",
+    "옮기려는 대상에 알맞은 파이프를 연결하고 파이프 렌치로 각 면의 추출·입력·연결 안 함 상태를 설정하세요.",
+    "",
+    "다른 모드의 렌치도 &e&lPipez&r에 사용할 수 있습니다!",
+    "",
+    "(아주 많이 사용하면 렉이 생길 수 있지만, 그래도 &5&lMekanism&r 파이프보다는 덜합니다.)"
+  ],
+  "quest.2329AA0AFBEF1E13.title": "&l&ePipez",
+  "quest.2A976D41F79C34B1.quest_desc": [
+    "&e&lPipez&r에는 자체 아이템 필터 기능이 있으며, 사용하려면 최소 고급 파이프 업그레이드가 필요합니다. 고급 파이프 업그레이드를 장착한 뒤 추가 버튼을 눌러 필터를 만들 수 있습니다. \\n아이템, 태그 또는 NBT를 필터 조건으로 추가할 수 있습니다. \\n\\n목적지 필터도 추가할 수 있습니다. 목적지를 지정하려면 필터 목적지 도구를 들고 인벤토리를 웅크린 채 우클릭하세요. \\n\\n필터는 허용 목록 또는 차단 목록으로 설정해야 합니다. 허용 목록은 조건에 맞는 것만, 차단 목록은 조건에 맞지 않는 것만 통과시킵니다."
+  ],
+  "quest.2F4458E9921DEB86.quest_desc": [
+    "이 &e&lPipez&r 파이프는 주로 &5&lMekanism&r을 위해 사용합니다. &5&lMekanism&r은 물질의 마지막 상태인 &a기체&r를 추가합니다. &a기체&r는 다른 &e&lPipez&r로 운반할 수 없으므로 수소나 리튬을 옮기려면 &a가스 파이프&r가 필요합니다. \\n\\n(&5&lMekanism&r의 물질이 &a기체&r인지, &b유체&r인지, 주입 물질인지 헷갈릴 수 있습니다. 기계 안에서는 &a기체&r 또는 &b유체&r라고 표시될 수 있으며, 표시가 없다면 JEI에서 해당 물질이 쓰이는 다른 제작법을 확인해 보세요!)",
+    "{image:atm:textures/questpics/logistics/pipez_gas.png width:200 height:50 align:center}"
+  ],
+  "quest.2F4458E9921DEB86.title": "&a가스 파이프&r",
+  "quest.33433A443B65D252.quest_desc": [
+    "&b물&r=&b파란색&r, &b물&r=&b유체&r, 따라서 &b파란색&r=&b유체&r\\n\\n많은 모드가 고유한 &b유체&r를 추가하며, Minecraft에도 &b물&r과 &c용암&r이 있습니다. 이런 &b유체&r를 옮길 때는 &b유체 파이프&r가 유용합니다. \\n\\n싱크대에 연결하면 무한한 &b물&r을 운반할 수도 있습니다!",
+    "{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
+  ],
+  "quest.33433A443B65D252.title": "&b유체 파이프",
+  "quest.36836AD948F96B9F.quest_desc": [
+    "가장 단순한 &e&l파이프&r인 &e아이템 파이프&r입니다. \\n\\n한 인벤토리에서 다른 인벤토리로 아이템을 옮깁니다. 상자에서 다른 상자로, 농장에서 저장 시스템으로, 채석기에서 제련기로 운반할 수 있습니다. \\n\\n옮길 대상에 &e파이프&r를 연결하고 렌치로 어느 면에서 추출할지 설정하면 됩니다.",
+    "{image:atm:textures/questpics/logistics/pipez_item.png width:200 height:50 align:center}"
+  ],
+  "quest.36836AD948F96B9F.title": "&e아이템 파이프",
+  "quest.4FBAB3A0FBF8CE2F.quest_desc": [
+    "모든 것을 한꺼번에 옮길 수 있다면 무엇을 운반할지 고민할 필요가 없겠죠! &5범용 파이프&r는 &c에너지 파이프&r보다도 대상을 가리지 않으며 &e아이템&r, &b유체&r, &c에너지&r를 모두 운반할 수 있습니다.",
+    "{image:atm:textures/questpics/logistics/pipez_universal.png width:200 height:50 align:center}"
+  ],
+  "quest.4FBAB3A0FBF8CE2F.title": "&5범용 파이프",
+  "quest.53EC96FA0E7C4ED4.quest_desc": [
+    "모든 기술 모드에는 FE든 RF든 그 밖의 방식이든 &c에너지&r가 필요합니다! &c에너지 파이프&r는 에너지 종류를 가리지 않고 운반합니다. \\n\\n일부 기계는 &c에너지&r 입출력 면이 정해져 있으니 꼭 확인하세요!",
+    "{image:atm:textures/questpics/logistics/pipez_energy.png width:200 height:50 align:center}"
+  ],
+  "quest.53EC96FA0E7C4ED4.title": "&c에너지 파이프",
+  "quest.6112956E19017D2D.quest_desc": [
+    "논리 케이블은 &e&lPipez&r나 &5&lMeka 파이프&r와 작동 방식이 다릅니다. 일반 파이프는 호퍼처럼 아이템이 1번 인벤토리에서 파이프를 거쳐 2번 인벤토리로 이동합니다. 논리 케이블은 중간 단계를 생략하므로 렉도 크게 줄어듭니다. \\n\\n논리 케이블은 입력기와 인터페이스를 연결하는 데 사용합니다."
+  ],
+  "quest.6A962535CD68713E.quest_desc": [
+    "&e&lPipez&r의 전송량을 늘려 보세요!\\n\\n모든 업그레이드는 &e&lPipez&r의 전송량을 높이고 &e&l파이프&r에서 사용할 수 있는 옵션을 추가합니다.\\n\\n기본 업그레이드는 &e&lPipez&r에 레드스톤 제어, 가까운 곳부터·먼 곳부터·순환 분배·무작위 분배 방식과 필터 기능을 추가합니다.\\n\\n개선된·고급·궁극의 업그레이드는 새 기능을 추가하지 않지만 전송량을 더 높입니다!"
+  ],
+  "quest.1409C17773B6A131.quest_desc": [
+    "\\n모든 업그레이드는 &e&lPipez&r의 전송량을 높이고 &e&l파이프&r에서 사용할 수 있는 옵션을 추가합니다.\\n\\n기본 업그레이드는 &e&lPipez&r에 레드스톤 제어, 가까운 곳부터·먼 곳부터·순환 분배·무작위 분배 방식과 필터 기능을 추가합니다.\\n\\n개선된·고급·궁극의 업그레이드는 새 기능을 추가하지 않지만 전송량을 더 높입니다!"
+  ],
+  "quest.1409C17773B6A131.title": "&9Pipez: &a업그레이드",
+  "quest.4EEAB467C722ECE7.quest_desc": [
+    "파이프 업그레이드로 성능을 높일 수 있는 간단한 파이프입니다.\\n\\n블록에서 에너지를 '추출'하려면 블록 옆에 파이프를 놓고, 연결된 면을 파이프 렌치로 웅크린 채 우클릭하여 추출 상태로 바꾸세요.\\n\\n&e&lPipez&r는 아이템, 기체, 유체를 운반하는 파이프도 제공합니다. 이 기능을 하나로 합친 &a범용 파이프&r도 만들 수 있습니다.\\n\\n다른 모드의 렌치도 &e&lPipez&r에 사용할 수 있습니다!"
+  ],
+  "quest.4EEAB467C722ECE7.title": "&9Pipez: &a에너지 파이프",
+  "quest.69B5D716568AA9EB.quest_desc": [
+    "&d&lCamol&r은 &l모든 것을 위장할 수 있게 해 줍니다.&r Pipez부터 Mekanism 케이블, ATM Star, 심지어 주방 싱크대까지 위장할 수 있어요.\\n\\n&d&l위장 블록&r을 위장 재료로 쓸 블록과 함께 제작한 뒤, 케이블처럼 가리고 싶은 블록을 우클릭하세요.\\n\\n기본 &d&l위장 블록&r은 가려진 블록의 충돌 형태를 따릅니다. 제작대에 단독으로 넣으면 형태 유지 버전으로 바뀌며, 이 버전은 위장 재료 블록의 형태를 따릅니다.\\n\\n&d&l위장 블록&r을 제거하려면 다른 위장 블록을 들고 위장된 블록을 우클릭하세요.",
+    "{@pagebreak}",
+    "{image:atm:textures/questpics/building_tips/camol_example.png width:200 height:100 align:center}"
+  ],
+  "quest.4869C413646CC4CC.quest_desc": [
+    "발전기에서 전력을 내보내는 것이 좋겠죠. 그런데 어떻게 옮길까요?",
+    "",
+    "처음에는 &aPipez&r 모드의 &c에너지 파이프&r를 사용하거나, 이미 해당 모드를 시작했다면 &9Powah&r의 &c에너지 케이블&r을 사용할 수 있습니다.",
+    "",
+    "옛날 방식이 그립다면 이 팩의 &6Ender IO&r가 제공하는 &6에너지 도관&r을 사용할 수도 있습니다."
+  ]
+}

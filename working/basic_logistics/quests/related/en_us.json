@@ -1,0 +1,66 @@
+{
+  "quest.2329AA0AFBEF1E13.quest_desc": [
+    "&e&lPipez&r is the simplest &f&lLogistics&r Mod. It's so simple that the entire mod is fit in this Quest Page while having room for more Mods!",
+    "",
+    "Attach the specific Pipe to where you want to move items and use the Pipe Wrench to configure what side Pulls, Pushes, or doesn't connect.",
+    "",
+    "Other Wrenches do work with &e&lPipez&r as well!",
+    "",
+    "(Can be laggy when used in mass, still not as laggy as &5&lMekanism&r pipes though)."
+  ],
+  "quest.2329AA0AFBEF1E13.title": "&l&ePipez",
+  "quest.2A976D41F79C34B1.quest_desc": [
+    "&e&lPipez&r do have their own way of Filtering Items, you need atleast an Advanced Upgrade to get it though. When an Advanced Upgrade is in you can click the Add button to add Filters. \\nThen you can add: Item, Tag, or NBT in the Filter. \\n\\nThere you can also add the set Destination Filter. To set it, Shift Right Click an Inventory with it. \\n\\nYou'll also have to set it to either Whitelist the Filter or Blacklist, so only the Filter or everything but the Filter."
+  ],
+  "quest.2F4458E9921DEB86.quest_desc": [
+    "These &e&lPipez&r are mostly due to &5&lMekanism&r. &5&lMekanism&r adds the last state of matter in the form of &aGas&r. &aGas&r can't be moved with any of the other &e&lPipez&r so if you need to move Hydrogen or Lithium you'll need &aGas Pipez&r. \\n\\n(I've always had problems telling whether the &5&lMekanism&r item is &aGas&r, &bFluid&r, or even Infuse Type. When it's in a Machine it might tell &aGas&r or &bFluid&r, which can help teach you. If it doesn't you can check JEI for other recipes that might involve it!)",
+    "{image:atm:textures/questpics/logistics/pipez_gas.png width:200 height:50 align:center}"
+  ],
+  "quest.2F4458E9921DEB86.title": "&aGas Pipez&r",
+  "quest.33433A443B65D252.quest_desc": [
+    "&bWater&r=&bBlue&r &bWater&r=&bFluid&r therefore &bBlue&r=&bFluid&r\\n\\nLots of Mods have their own &bFluids&r, with even Minecraft having their own, with &bWater&r and &cLava&r. You'll most likely need to move those &bFluids&r and a good way of doing so is with &bFluid Pipes&r. \\n\\nThis can be connected to Sinks to move Infinite &bWater&r!",
+    "{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
+  ],
+  "quest.33433A443B65D252.title": "&bFluid Pipez",
+  "quest.36836AD948F96B9F.quest_desc": [
+    "The simplest of the simplest of &e&lPipes&r, the &eItem Pipe&r. \\n\\nIt will move Items from one Inventory to another. Could be from one Chest to another, could be a Farm to a System, or even a Quarry to a Smelter. \\n\\nVery simple just connect the &ePipes&r to what you want moved, and use your Wrench to configure which side it Pulls from. ",
+    "{image:atm:textures/questpics/logistics/pipez_item.png width:200 height:50 align:center}"
+  ],
+  "quest.36836AD948F96B9F.title": "&eItem Pipez",
+  "quest.4FBAB3A0FBF8CE2F.quest_desc": [
+    "Why worry about what's being moved when you can just move everything! &5Universal Pipez&r are even less discriminatory than &cEnergy Pipez&r. They can move &eItems&r, &bFluids&r, or &cEnergy&r. ",
+    "{image:atm:textures/questpics/logistics/pipez_universal.png width:200 height:50 align:center}"
+  ],
+  "quest.4FBAB3A0FBF8CE2F.title": "&5Universal Pipez",
+  "quest.53EC96FA0E7C4ED4.quest_desc": [
+    "Every Tech Mod needs &cEnergy&r, whether it's FE, RF or something else! &cEnergy Pipez&r don't discriminate, it just moves! \\n\\nSome Machines have strict IO ports for &cEnergy&r so make sure to check for those!",
+    "{image:atm:textures/questpics/logistics/pipez_energy.png width:200 height:50 align:center}"
+  ],
+  "quest.53EC96FA0E7C4ED4.title": "&cEnergy Pipez",
+  "quest.6112956E19017D2D.quest_desc": [
+    "Logic Cables are different from other &e&lPipez&r or &5&lMeka pipes&r. The other Pipes act as hoppers, the items move from 1 Inventory, into the Pipe, then into the 2nd Inventory. Logic Cables just skip the middle man which also skips a lotta lag. \\n\\nThey are just for connecting Importers and Interfaces."
+  ],
+  "quest.6A962535CD68713E.quest_desc": [
+    "&e&lPipez&r move more! \\n\\nAll Upgrades increase the amount the &e&lPipez&r move and also grant more options to use with the &e&lPipe&r. \\n\\nBasic Upgrade allows Redstone Activation with &e&lPipez&r, to change distribution either:Closest First, Farthest First, Round-Robin, or Random, and to add Filters.\\n\\nImproved, Advanced, and Ultimate upgrades don't grant anything new they just move more!"
+  ],
+  "quest.1409C17773B6A131.quest_desc": [
+    "\\\\nAll Upgrades increase the amount the &e&lPipez&r move and also grant more options to use with the &e&lPipe&r. \\\\n\\\\nBasic Upgrade allows Redstone Activation with &e&lPipez&r, to change distribution either:Closest First, Farthest First, Round-Robin, or Random, and to add Filters.\\\\n\\\\nImproved, Advanced, and Ultimate upgrades don't grant anything new they just move more!"
+  ],
+  "quest.1409C17773B6A131.title": "&9Pipez: &aUpgrades",
+  "quest.4EEAB467C722ECE7.quest_desc": [
+    "These are simple pipes that can be upgraded with Pipe Upgrades.\\n\\nTo 'extract' power from a block, place the pipe down next to the block, and on the side that is connected, shift+right-click with the pipe wrench to set the pipe to extract.\\n\\nThe &e&lPipez&r mod also offers ways to transport items, gases, and liquids as well! Or you can make an All-In-One Pipe called the &aUniversal Pipe&r.\\n\\nOther Wrenches work with &e&lPipez&r as well!"
+  ],
+  "quest.4EEAB467C722ECE7.title": "&9Pipez: &aEnergy Pipes",
+  "quest.69B5D716568AA9EB.quest_desc": [
+    "&d&lCamol&r is the answer to camouflaging &lEVERYTHING.&r From Pipez to Mekanism Cables to ATM Stars, and everything but the- no, wait, the Kitchen Sink, too.\\n\\nCraft the &d&lCamo Block&r together with the block you want to use for the camo, then right click it on the block you want to camouflage, like some kind of cable or something.\\n\\nBy default the &d&lCamo Block&r will take on the collision shape of the camoed block. You can change this to the Shape Retaining version by putting it into a crafting grid by itself. This will make it take on the shape of the camoing block.\\n\\nIf you want to remove a &d&lCamo Block&r, right click the camoed block with another Camo Block.",
+    "{@pagebreak}",
+    "{image:atm:textures/questpics/building_tips/camol_example.png width:200 height:100 align:center}"
+  ],
+  "quest.4869C413646CC4CC.quest_desc": [
+    "Transferring power out of your generators is probably a good idea, but how can you do it? ",
+    "",
+    "To start, you can use &cEnergy Pipes&r from the &aPipez&r mod, or you can use the &9Powah&r &cEnergy Cables&r if you have already started using that mod. ",
+    "",
+    "Or if you want a throwback, this pack has &6EnderIO&r and you can use the &6Energy Conduits&r from it."
+  ]
+}

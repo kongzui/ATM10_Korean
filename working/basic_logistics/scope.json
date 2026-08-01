@@ -1,0 +1,117 @@
+{
+  "family": "Pipez·Modern Dynamics·XNet",
+  "installed": [
+    {
+      "label": "Pipez",
+      "jar": "pipez-neoforge-1.21.1-1.2.19.jar",
+      "namespace": "pipez",
+      "direct_integration": false,
+      "english_keys": 84,
+      "bundled_korean_keys": 83,
+      "metadata_mentions_family": [
+        "pipez"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 17
+    },
+    {
+      "label": "Modern Dynamics",
+      "jar": "Modern-Dynamics-0.9.6.jar",
+      "namespace": "moderndynamics",
+      "direct_integration": false,
+      "english_keys": 72,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "moderndynamics"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 8,
+      "advancement_examples": [
+        "data/moderndynamics/advancement/recipes/tools/wrench.json",
+        "data/moderndynamics/advancement/recipes/transportation/attractor.json",
+        "data/moderndynamics/advancement/recipes/transportation/extractor.json",
+        "data/moderndynamics/advancement/recipes/transportation/filter.json",
+        "data/moderndynamics/advancement/recipes/transportation/fluid_pipe.json",
+        "data/moderndynamics/advancement/recipes/transportation/inhibitor.json",
+        "data/moderndynamics/advancement/recipes/transportation/item_pipe.json",
+        "data/moderndynamics/advancement/recipes/transportation/machine_extender.json"
+      ],
+      "recipes": 26
+    },
+    {
+      "label": "XNet",
+      "jar": "xnet-1.21-7.0.7.jar",
+      "namespace": "xnet",
+      "direct_integration": false,
+      "english_keys": 186,
+      "bundled_korean_keys": 76,
+      "metadata_mentions_family": [
+        "xnet"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 37,
+      "advancement_examples": [
+        "data/xnet/advancement/recipes/misc/advanced_connector_blue.json",
+        "data/xnet/advancement/recipes/misc/advanced_connector_blue_dye.json",
+        "data/xnet/advancement/recipes/misc/advanced_connector_green.json",
+        "data/xnet/advancement/recipes/misc/advanced_connector_green_dye.json",
+        "data/xnet/advancement/recipes/misc/advanced_connector_red.json",
+        "data/xnet/advancement/recipes/misc/advanced_connector_red_dye.json",
+        "data/xnet/advancement/recipes/misc/advanced_connector_routing.json",
+        "data/xnet/advancement/recipes/misc/advanced_connector_yellow.json",
+        "data/xnet/advancement/recipes/misc/advanced_connector_yellow_dye.json",
+        "data/xnet/advancement/recipes/misc/antenna.json",
+        "data/xnet/advancement/recipes/misc/antenna_base.json",
+        "data/xnet/advancement/recipes/misc/antenna_dish.json",
+        "data/xnet/advancement/recipes/misc/connector_blue.json",
+        "data/xnet/advancement/recipes/misc/connector_blue_dye.json",
+        "data/xnet/advancement/recipes/misc/connector_green.json",
+        "data/xnet/advancement/recipes/misc/connector_green_dye.json",
+        "data/xnet/advancement/recipes/misc/connector_red.json",
+        "data/xnet/advancement/recipes/misc/connector_red_dye.json",
+        "data/xnet/advancement/recipes/misc/connector_routing.json",
+        "data/xnet/advancement/recipes/misc/connector_upgrade.json"
+      ],
+      "recipes": 74
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "rftoolsbase-1.21-6.0.11.jar",
+      "dependency_mentions": [
+        "xnet"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "Pipez",
+      "jar": "pipez-neoforge-1.21.1-1.2.19.jar",
+      "namespace": "pipez",
+      "english_keys": 84,
+      "bundled_ko_kr": 77,
+      "new_translation_required": 7
+    },
+    {
+      "label": "Modern Dynamics",
+      "jar": "Modern-Dynamics-0.9.6.jar",
+      "namespace": "moderndynamics",
+      "english_keys": 72,
+      "new_translation_required": 72
+    },
+    {
+      "label": "XNet",
+      "jar": "xnet-1.21-7.0.7.jar",
+      "namespace": "xnet",
+      "english_keys": 186,
+      "bundled_ko_kr": 56,
+      "new_translation_required": 130
+    }
+  ]
+}
