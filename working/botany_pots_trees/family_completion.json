@@ -1,0 +1,38 @@
+{
+  "family": "Botany Pots·Botany Trees",
+  "language_namespaces": 1,
+  "language_keys": 238,
+  "bundled_reviewed_reuse": 0,
+  "project_output_reviewed_reuse": 0,
+  "new_or_edited_language": 238,
+  "botany_trees_language_file": false,
+  "recipe_sets": {
+    "botany_pots": 1301,
+    "botany_trees": 368,
+    "botany_pots_mystical_integration": 166,
+    "total_checked": 1835,
+    "unexpected_display_literals": 0
+  },
+  "ftbquests": {
+    "display_keys": 0,
+    "quests_checked": 0,
+    "tasks_checked": 0
+  },
+  "guides": 0,
+  "advancements": 0,
+  "kubejs_files_reviewed": 10,
+  "new_kubejs_visible_literals": 0,
+  "existing_kubejs_translations_verified": 2,
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp/backups/20260801_213259_736761/backup_manifest.json",
+    "selected_files": 1,
+    "changed_files": 1,
+    "hash_matches": 1,
+    "unexpected_changes": []
+  },
+  "remaining": 0,
+  "errors": [],
+  "status": "complete"
+}

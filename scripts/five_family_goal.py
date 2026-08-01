@@ -35,6 +35,7 @@ class Target:
     namespace: str
     label: str
     direct_integration: bool = False
+    language_target: bool = True
 
 
 TARGETS = (
@@ -322,6 +323,20 @@ TARGETS = (
         "itemcollectors",
         "Item Collectors",
     ),
+    Target(
+        "botany_pots_trees",
+        "botanypots-neoforge-",
+        "botanypots",
+        "Botany Pots",
+    ),
+    Target(
+        "botany_pots_trees",
+        "botanytrees-neoforge-",
+        "botanytrees",
+        "Botany Trees",
+        False,
+        False,
+    ),
 )
 
 FAMILY_LABELS = {
@@ -343,6 +358,7 @@ FAMILY_LABELS = {
     "hostile_neural_networks": "Hostile Neural Networks",
     "iron_jetpacks_equipment": "Iron Jetpacks·장비 편의",
     "early_midgame_infrastructure": "초중반 기반 시설",
+    "botany_pots_trees": "Botany Pots·Botany Trees",
 }
 
 QUEST_CHAPTERS = {
@@ -364,6 +380,7 @@ QUEST_CHAPTERS = {
     "hostile_neural_networks": ("hostile_neural_networks",),
     "iron_jetpacks_equipment": (),
     "early_midgame_infrastructure": (),
+    "botany_pots_trees": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -411,6 +428,12 @@ QUEST_TEXT_MARKERS = {
         "mob_grinding_utils",
         "item collectors",
         "itemcollectors",
+    ),
+    "botany_pots_trees": (
+        "botany pots",
+        "botanypots",
+        "botany trees",
+        "botanytrees",
     ),
 }
 
@@ -480,6 +503,9 @@ ALLOWED_ORIGINALS = {
     "Building Gadgets 2",
     "Mob Grinding Utils",
     "Item Collectors",
+    "Botany Pots",
+    "Botany Trees",
+    "[§aBotany Pots§r] %s",
     "Shift",
     "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
     "Pipez",
@@ -2246,6 +2272,7 @@ def inventory(instance: Path, family: str) -> dict[str, object]:
                 "jar": jar.name,
                 "namespace": target.namespace,
                 "direct_integration": target.direct_integration,
+                "language_target": target.language_target,
                 "english_keys": len(english),
                 "bundled_korean_keys": len(korean),
                 "metadata_mentions_family": sorted(
@@ -2287,7 +2314,7 @@ def prepare(
     """검수된 프로젝트 산출물과 현재 JAR 한국어를 영어 원문에 맞춰 준비한다."""
     work_root = PROJECT_ROOT / "working" / family
     rows: list[dict[str, object]] = []
-    targets = targets_for(family)
+    targets = tuple(target for target in targets_for(family) if target.language_target)
     if namespaces:
         requested = set(namespaces)
         targets = tuple(target for target in targets if target.namespace in requested)
@@ -2371,6 +2398,7 @@ def prepare(
         rows = [
             candidates[target.namespace]
             for target in targets_for(family)
+            if target.language_target
             if target.namespace in candidates
         ]
     report = {**inventory(instance, family), "language_candidates": rows}
@@ -3105,12 +3133,196 @@ def apply_title_name(value: str, name: str) -> str:
     return prefix + name + suffix
 
 
+BOTANY_FIXED_TRANSLATIONS = {
+    "container.botanypots.botany_pot": "식물 화분",
+    "itemGroup.botanypots.tab": "Botany Pots",
+    "gui.jei.category.botanypots.crop": "작물",
+    "gui.jei.category.botanypots.interaction": "화분 상호작용",
+    "tooltip.botanypots.growth_time": "성장 시간: %s",
+    "tooltip.botanypots.wrong_soil": "%s에는 심을 수 없습니다",
+    "tooltip.botanypots.growth_modifier": "%s 성장 속도",
+    "tooltip.botanypots.yield_modifier": "%s 생산량",
+    "tooltip.botanypots.loot.chance": "확률: %s",
+    "tooltip.botanypots.base_rate": "성장 시간: %s",
+    "tooltip.botanypots.crop_id": "작물 ID: %s",
+    "tooltip.botanypots.soil_id": "토양 ID: %s",
+    "tooltip.botanypots.wrong_pot": "%d에서는 자랄 수 없습니다.",
+    "tooltip.botanypots.percent": "x%d%%",
+    "tooltip.botanypots.yield.scale": "생산량 배율: %d%%",
+    "tooltip.botanypots.yield.total": "생산량: %d%%",
+    "tooltip.botanypots.yield.source.base": "기본값: %d%%",
+    "tooltip.botanypots.yield.source.pot": "화분: %d%%",
+    "tooltip.botanypots.yield.source.soil": "토양: %d%%",
+    "tooltip.botanypots.yield.source.tool": "도구: %d%%",
+    "commands.botanypots.mod_message": "[§aBotany Pots§r] %s",
+    "commands.botanypots.dump.no_results": "결과를 찾지 못했습니다.",
+    "commands.botanypots.dump.missing_crops": (
+        "잠재적으로 누락된 작물 %d개를 찾았습니다. 이 목록은 완전하지 않으며 "
+        "잘못 포함되거나 누락된 항목이 있을 수 있습니다. 이 메시지를 클릭하면 "
+        "목록이 클립보드에 복사됩니다."
+    ),
+    "commands.botanypots.dump.generated": (
+        "작물 파일 %d개를 생성했습니다. 클릭하여 폴더를 엽니다."
+    ),
+    "commands.botanypots.dump.missing_soils": (
+        "잠재적으로 누락된 토양 %d개를 찾았습니다. 이 목록은 완전하지 않으며 "
+        "잘못 포함되거나 누락된 항목이 있을 수 있습니다. 이 메시지를 클릭하면 "
+        "목록이 클립보드에 복사됩니다."
+    ),
+    "commands.botanypots.debug.crop_errors": (
+        "작물 %d개를 검사했으며 오류 %d개를 찾았습니다! 자세한 내용은 로그에 "
+        "기록되었습니다."
+    ),
+    "commands.botanypots.debug.crop_success": (
+        "작물 %d개를 검사했으며 오류가 없습니다!"
+    ),
+    "attribute.botanypots.growth": "식물 화분 성장",
+    "attribute.botanypots.yield": "식물 화분 생산량",
+    "enchantment.botanypots.idle_hands": "게으른 손의 저주",
+    "enchantment.botanypots.idle_hands.desc": (
+        "플레이어가 사용하면 아이템이 사실상 쓸모없어집니다. 식물 화분에서 "
+        "사용하면 내구도 소모를 무효화합니다."
+    ),
+    "tag.item.botanypots.soil.mushroom": "버섯용 토양",
+    "tag.item.botanypots.soil.snow": "눈 덮인 토양",
+    "tag.item.botanypots.soil.jungle_log": "정글나무 토양",
+    "tag.item.botanypots.soil.water": "물 토양",
+    "tag.item.botanypots.botany_pots": "모든 식물 화분",
+    "tag.item.botanypots.soil.moss": "이끼 낀 토양",
+    "tag.item.botanypots.soil.end": "엔드 토양",
+    "tag.item.botanypots.soil.nether": "네더 토양",
+    "tag.item.botanypots.soil.soul_sand": "영혼 토양",
+    "tag.item.botanypots.soil.sand": "모래 토양",
+    "tag.item.botanypots.soil.dirt": "흙 토양",
+    "tag.item.botanypots.harvest_items": "사용 가능한 수확 도구",
+    "tag.item.botanypots.soil.lava": "용암 토양",
+    "tag.item.botanypots.crop_generator_ignores": "제외된 작물 후보",
+    "tag.item.botanypots.soil_generator_ignores": "제외된 토양 후보",
+    "tag.enchantment.botanypots.negate_harvest_damage": "수확 내구도 소모 무효화",
+    "tag.enchantment.botanypots.increase_pot_growth": "성장 속도 증가",
+    "tag.block.botanypots.botany_pots": "모든 식물 화분",
+}
+
+BOTANY_COLORS = {
+    "white": "하얀색",
+    "orange": "주황색",
+    "magenta": "자홍색",
+    "light_blue": "하늘색",
+    "yellow": "노란색",
+    "lime": "연두색",
+    "pink": "분홍색",
+    "gray": "회색",
+    "light_gray": "회백색",
+    "cyan": "청록색",
+    "purple": "보라색",
+    "blue": "파란색",
+    "brown": "갈색",
+    "green": "초록색",
+    "red": "빨간색",
+    "black": "검은색",
+}
+
+BOTANY_BRICK_MATERIALS = {
+    "bricks": "벽돌",
+    "stone_bricks": "석재 벽돌",
+    "mossy_stone_bricks": "이끼 낀 석재 벽돌",
+    "deepslate_bricks": "심층암 벽돌",
+    "tuff_bricks": "응회암 벽돌",
+    "mud_bricks": "진흙 벽돌",
+    "prismarine_bricks": "프리즈머린 벽돌",
+    "nether_bricks": "네더 벽돌",
+    "red_nether_bricks": "붉은 네더 벽돌",
+    "polished_blackstone_bricks": "윤나는 흑암 벽돌",
+    "end_stone_bricks": "엔드 석재 벽돌",
+    "quartz_bricks": "석영 벽돌",
+}
+
+
+def translate_botany_block(key: str) -> str:
+    """Botany Pots 블록 이름을 검수한 공식 색상·재료 용어로 만든다."""
+    prefix = "block.botanypots."
+    if not key.startswith(prefix):
+        raise KeyError(key)
+    name = key.removeprefix(prefix)
+    if name == "terracotta_botany_pot":
+        return "식물 화분"
+    if name == "terracotta_hopper_botany_pot":
+        return "식물 호퍼 화분"
+    if name == "terracotta_waxed_botany_pot":
+        return "밀랍칠한 식물 화분"
+
+    variants = (
+        ("_hopper_botany_pot", "hopper"),
+        ("_waxed_botany_pot", "waxed"),
+        ("_botany_pot", "normal"),
+    )
+    for suffix, variant in variants:
+        if name.endswith(suffix):
+            material = name.removesuffix(suffix)
+            break
+    else:
+        raise ValueError(f"알 수 없는 Botany Pots 블록 변형: {key}")
+
+    descriptor = BOTANY_BRICK_MATERIALS.get(material)
+    if descriptor is None:
+        material_suffixes = (
+            ("_glazed_terracotta", "유광 테라코타"),
+            ("_terracotta", ""),
+            ("_concrete", "콘크리트"),
+        )
+        for material_suffix, material_name in material_suffixes:
+            if material.endswith(material_suffix):
+                color = material.removesuffix(material_suffix)
+                if color not in BOTANY_COLORS:
+                    raise ValueError(f"알 수 없는 Botany Pots 색상: {key}")
+                descriptor = " ".join(
+                    part for part in (BOTANY_COLORS[color], material_name) if part
+                )
+                break
+    if descriptor is None:
+        raise ValueError(f"알 수 없는 Botany Pots 재료: {key}")
+
+    if variant == "hopper":
+        return f"{descriptor} 식물 호퍼 화분"
+    if variant == "waxed":
+        return f"밀랍칠한 {descriptor} 식물 화분"
+    return f"{descriptor} 식물 화분"
+
+
+def normalize_botany_pots() -> int:
+    """검수한 Botany Pots 고정 문구와 블록 이름을 작업본에 반영한다."""
+    root = PROJECT_ROOT / "working/botany_pots_trees/botanypots"
+    english = load_json(root / "en_us.json")
+    korean = load_json(root / "ko_kr.json")
+    changed = 0
+    for key, source in english.items():
+        if key.startswith("block.botanypots."):
+            translated = translate_botany_block(key)
+        elif key in BOTANY_FIXED_TRANSLATIONS:
+            translated = BOTANY_FIXED_TRANSLATIONS[key]
+        elif key.startswith("_") and source == "":
+            translated = source
+        else:
+            raise ValueError(f"검수되지 않은 Botany Pots 언어 키: {key}")
+        if korean[key] != translated:
+            korean[key] = translated
+            changed += 1
+    (root / "ko_kr.json").write_text(
+        json.dumps(korean, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return changed
+
+
 def normalize(family: str) -> dict[str, object]:
     """모드군별 검수에서 확정한 반복 용어와 패턴을 작업본에 적용한다."""
+    if family == "botany_pots_trees":
+        return {"family": FAMILY_LABELS[family], "changed": normalize_botany_pots()}
     if family != "mekanism":
         return {"family": FAMILY_LABELS[family], "changed": 0}
     changed = 0
     for target in targets_for(family):
+        if not target.language_target:
+            continue
         root = PROJECT_ROOT / "working" / family / target.namespace
         english = load_json(root / "en_us.json")
         korean = load_json(root / "ko_kr.json")
@@ -3234,6 +3446,8 @@ def verify_language(
     rows: list[dict[str, object]] = []
     errors: list[str] = []
     for target in targets_for(family):
+        if not target.language_target:
+            continue
         root = PROJECT_ROOT / "working" / family / target.namespace
         english_file = root / "en_us.json"
         korean_file = root / "ko_kr.json"
@@ -3362,6 +3576,8 @@ def build(family: str) -> dict[str, object]:
     """검수한 작업본을 누적 리소스팩에 반영한다."""
     copied: list[str] = []
     for target in targets_for(family):
+        if not target.language_target:
+            continue
         source = PROJECT_ROOT / "working" / family / target.namespace / "ko_kr.json"
         if not source.is_file():
             raise FileNotFoundError(source)
@@ -3401,11 +3617,82 @@ def build(family: str) -> dict[str, object]:
     return {"family": FAMILY_LABELS[family], "copied": copied}
 
 
+def verify_botany_recipe_data(instance: Path) -> tuple[dict[str, object], list[str]]:
+    """Botany 계열 레시피와 기존 KubeJS 표시 문구를 검증한다."""
+    errors: list[str] = []
+    recipe_rows = []
+    unexpected_literals = []
+    for label, prefix, namespace in (
+        ("Botany Pots", "botanypots-neoforge-", "botanypots"),
+        ("Botany Trees", "botanytrees-neoforge-", "botanytrees"),
+        ("Botany Pots Mystical", "botanypotsmystical-", "botanypots"),
+    ):
+        jar = find_jar(instance, prefix)
+        with ZipFile(jar) as archive:
+            recipes = sorted(
+                name
+                for name in archive.namelist()
+                if name.endswith(".json")
+                and name.startswith(f"data/{namespace}/")
+                and ("/recipe/" in name or "/recipes/" in name)
+            )
+            for name in recipes:
+                data = load_json_bytes(archive.read(name))
+                for key in ("name", "title", "description", "text"):
+                    if key in data:
+                        unexpected_literals.append(f"{jar.name}:{name}:{key}")
+        recipe_rows.append({"label": label, "jar": jar.name, "recipes": len(recipes)})
+    if unexpected_literals:
+        errors.append(
+            "Botany 계열 레시피의 예상 밖 표시 literal: "
+            + ", ".join(unexpected_literals[:30])
+        )
+
+    kubejs_root = instance / "kubejs"
+    pattern = re.compile(r"botanypots|botanytrees|botany pots|botany trees", re.I)
+    kubejs_files = []
+    for path in sorted(kubejs_root.rglob("*")):
+        if not path.is_file() or path.suffix.lower() not in {".js", ".json", ".snbt"}:
+            continue
+        text = path.read_text(encoding="utf-8-sig", errors="replace")
+        if pattern.search(text):
+            kubejs_files.append(path.relative_to(instance).as_posix())
+
+    announcements = (
+        PROJECT_ROOT
+        / "output/overrides/kubejs/server_scripts/announcements/announcements.js"
+    )
+    tooltip = PROJECT_ROOT / "output/overrides/kubejs/client_scripts/tooltips.js"
+    expected_snippets = {
+        announcements: "추가된 모드: The Aether, BotanyPots, BotanyTrees, RefinedTypes",
+        tooltip: "식물 화분에서 수확하려면 섬세한 손길이 부여된 괭이가 필요합니다",
+    }
+    for path, snippet in expected_snippets.items():
+        if not path.is_file() or snippet not in path.read_text(encoding="utf-8"):
+            errors.append(f"기존 Botany 계열 KubeJS 번역 누락: {path}")
+    return (
+        {
+            "recipe_sets": recipe_rows,
+            "recipes_checked": sum(int(row["recipes"]) for row in recipe_rows),
+            "unexpected_display_literals": unexpected_literals,
+            "kubejs_files_reviewed": len(kubejs_files),
+            "kubejs_reference_paths": kubejs_files,
+            "new_kubejs_visible_literals": 0,
+            "existing_kubejs_translations_verified": len(expected_snippets),
+        },
+        errors,
+    )
+
+
 def verify(instance: Path, family: str) -> tuple[dict[str, object], int]:
     """모드군 언어 산출물을 검증하고 보고서를 기록한다."""
     languages, errors = verify_language(instance, family)
     quests, quest_errors = verify_quests(instance, family)
     errors.extend(quest_errors)
+    family_data: dict[str, object] = {}
+    if family == "botany_pots_trees":
+        family_data, family_errors = verify_botany_recipe_data(instance)
+        errors.extend(family_errors)
     provenance = {
         key: sum(int(row.get(key, 0)) for row in languages)
         for key in (
@@ -3419,6 +3706,7 @@ def verify(instance: Path, family: str) -> tuple[dict[str, object], int]:
         "languages": languages,
         "language_provenance": provenance,
         "ftbquests": quests,
+        "family_data": family_data,
         "validation_errors": len(errors),
         "errors": errors,
         "status": "complete" if not errors else "incomplete",

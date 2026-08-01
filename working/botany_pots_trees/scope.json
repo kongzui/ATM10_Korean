@@ -1,0 +1,58 @@
+{
+  "family": "Botany Pots·Botany Trees",
+  "installed": [
+    {
+      "label": "Botany Pots",
+      "jar": "botanypots-neoforge-1.21.1-21.1.44.jar",
+      "namespace": "botanypots",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 238,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "botanypots"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 1301
+    },
+    {
+      "label": "Botany Trees",
+      "jar": "botanytrees-neoforge-1.21.1-21.1.7.jar",
+      "namespace": "botanytrees",
+      "direct_integration": false,
+      "language_target": false,
+      "english_keys": 0,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "botanypots",
+        "botanytrees"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 368
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "botanypotsmystical-neoforge-1.21.1-21.1.12.jar",
+      "dependency_mentions": [
+        "botanypots"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "Botany Pots",
+      "jar": "botanypots-neoforge-1.21.1-21.1.44.jar",
+      "namespace": "botanypots",
+      "english_keys": 238,
+      "new_translation_required": 238
+    }
+  ]
+}
