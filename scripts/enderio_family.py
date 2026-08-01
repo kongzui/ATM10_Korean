@@ -233,16 +233,16 @@ def translate_batch_one() -> None:
     translations = {
         "advancements.enderio.place_capacitor_bank.description": "축전기 뱅크를 제작하세요",
         "advancements.enderio.place_capacitor_bank.title": "모듈식 전력 저장고",
-        "advancements.enderio.rich.description": "다른 사람들에게 부자로 보이세요",
+        "advancements.enderio.rich.description": "다른 사람들이 부자라고 생각하게 하세요",
         "advancements.enderio.rich.title": "다른 사람들에게는 비밀이에요",
-        "advancements.enderio.richer.description": "다른 사람들에게 더 부자로 보이세요",
+        "advancements.enderio.richer.description": "다른 사람들이 더 부자라고 생각하게 하세요",
         "advancements.enderio.richer.title": "이거 진짜 맞나요?",
         "advancements.enderio.use_glider.description": "가죽 몇 장을 정말 믿으시나요?",
         "advancements.enderio.use_glider.title": "장엄한 비행",
         "block.enderio.advanced_capacitor_bank": "고급 축전기 뱅크",
         "block.enderio.alloy_smelter": "합금 제련기",
         "block.enderio.attractor_obelisk": "유인 오벨리스크",
-        "block.enderio.aversion_obelisk": "회피 오벨리스크",
+        "block.enderio.aversion_obelisk": "퇴치 오벨리스크",
         "block.enderio.basic_capacitor_bank": "기본 축전기 뱅크",
         "block.enderio.block_detector": "블록 감지기",
         "block.enderio.cloud_seed": "구름 씨앗",
@@ -594,7 +594,7 @@ def translate_batch_three() -> None:
         "item.enderio.conductive_alloy_nugget": "전도성 합금 조각",
         "item.enderio.conduit": "<누락> 도관",
         "item.enderio.conduit_binder": "도관 결합재",
-        "item.enderio.conduit_binder_composite": "도관 결합재 복합물",
+        "item.enderio.conduit_binder_composite": "도관 결합재 혼합물",
         "item.enderio.conduit_facade": "도관 위장판",
         "item.enderio.conduit_probe": "도관 탐침",
         "item.enderio.confusing_powder": "혼란 가루",
@@ -666,7 +666,7 @@ def translate_batch_three() -> None:
         "item.enderio.redstone_alloy_nugget": "레드스톤 합금 조각",
         "item.enderio.redstone_and_filter": "레드스톤 AND 필터",
         "item.enderio.redstone_counting_filter": "레드스톤 계수 필터",
-        "item.enderio.redstone_filter_base": "레드스톤 필터 기반",
+        "item.enderio.redstone_filter_base": "레드스톤 필터 기반재",
         "item.enderio.redstone_nand_filter": "레드스톤 NAND 필터",
         "item.enderio.redstone_nor_filter": "레드스톤 NOR 필터",
         "item.enderio.redstone_not_filter": "레드스톤 NOT 필터",
@@ -717,7 +717,7 @@ def translate_batch_three() -> None:
         "jei.enderio.soul_binding.title": "영혼 결속",
         "jei.enderio.soul_engine.title": "영혼 엔진",
         "jei.enderio.tank.title": "유체 탱크",
-        "jei.enderio.vat.title": "발효조 발효",
+        "jei.enderio.vat.title": "발효",
         "jei.enderio.weather_change.title": "날씨 오벨리스크",
         "key.enderio.toggle_magnet": "전자석 켜기/끄기",
         "key.enderio.travel_staff": "이동의 지팡이",
@@ -831,8 +831,8 @@ def translate_batch_four() -> None:
         "tooltip.enderio.energy_equivalence": "FE와 같은 Ender IO 에너지 단위입니다.",
         "tooltip.enderio.filter.configured": "설정됨",
         "tooltip.enderio.filter.not_allowed_component_match": "이 필터는 현재 이 아이템에서 사용할 수 없는 구성 요소 일치를 사용합니다. 제작 칸에서 필터를 초기화하여 이 경고를 없애세요.",
-        "tooltip.enderio.filter.unconfigured_hint": "웅크린 상태에서 사용하여 설정",
-        "tooltip.enderio.fluid_tank.contents_tooltip": "%d/%d mB / %s",
+        "tooltip.enderio.filter.unconfigured_hint": "웅크린 상태에서 사용하여 설정하세요",
+        "tooltip.enderio.fluid_tank.contents_tooltip": "%d/%d mB, 유체: %s",
         "tooltip.enderio.fluid_tank.empty_tooltip": "빈 탱크",
         "tooltip.enderio.glass.blocks_light": "빛을 차단함",
         "tooltip.enderio.glass.emits_light": "빛을 방출함",
@@ -851,7 +851,7 @@ def translate_batch_four() -> None:
         "tooltip.enderio.machine.sag_mill.grinding_ball.title": "SAG 분쇄기 분쇄구",
         "tooltip.enderio.machine.status.active": "기계 작동 중",
         "tooltip.enderio.machine.status.blocked_by_redstone": "레드스톤 신호로 기계가 차단됨",
-        "tooltip.enderio.machine.status.drain.no_source": "배수구 아래에 원천 블록이 있어야 작동함",
+        "tooltip.enderio.machine.status.drain.no_source": "배수구 아래에 유체 원천 블록이 있어야 작동함",
         "tooltip.enderio.machine.status.empty_tank": "탱크가 비어 있음",
         "tooltip.enderio.machine.status.energy_full": "에너지 저장소가 가득 참",
         "tooltip.enderio.machine.status.full_tank": "탱크가 가득 참",
@@ -860,7 +860,7 @@ def translate_batch_four() -> None:
         "tooltip.enderio.machine.status.no_capacitor": "이 기계를 사용하려면 축전기를 설치하세요",
         "tooltip.enderio.machine.status.no_energy": "기계를 사용할 전력이 부족함",
         "tooltip.enderio.machine.status.output_full": "출력 공간이 부족함",
-        "tooltip.enderio.no_soul_bound": "이 아이템에는 영혼을 귀속할 수 있습니다.",
+        "tooltip.enderio.no_soul_bound": "이 아이템에는 영혼을 결속할 수 있습니다.",
         "tooltip.enderio.show_advanced_tooltip": "<Shift 누르기>",
         "tooltip.enderio.soul_bound": "귀속된 영혼: %s",
         "tooltip.enderio.tool.soul_vial.health": "생명력: %s/%s",
@@ -920,9 +920,9 @@ def build_outputs() -> None:
     if not isinstance(long_value, list):
         raise TypeError(f"퀘스트 값 자료형이 배열이 아닙니다: {long_key}")
     corrected_long = [
-        value.replace("소울라리움", "솔라리움").replace(
-            "&a&lEnderIO&r", "&a&lEnder IO&r"
-        )
+        value.replace("소울라리움", "솔라리움")
+        .replace("&a&lEnderIO&r", "&a&lEnder IO&r")
+        .replace("&d소스&r", "&d마나&r")
         for value in long_value
     ]
     quest_overrides: dict[str, quest_snbt.TranslationValue] = {
@@ -1063,6 +1063,24 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
             errors.append(f"EvilCraft Ender IO 연동 출력 불일치: {key}")
 
     instance = resolve_source_root()
+    live_related_languages = (
+        (
+            instance
+            / "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json",
+            related_language,
+        ),
+        (
+            instance
+            / "resourcepacks/ATM10_Korean/assets/productivebees/lang/ko_kr.json",
+            {bee_key: bee_value},
+        ),
+    )
+    for path, expected_values in live_related_languages:
+        values = load_json(path)
+        for key, expected in expected_values.items():
+            if values.get(key) != expected:
+                errors.append(f"Ender IO 실제 연동 용어 불일치: {path}:{key}")
+
     chapters, _ = parse_chapters(instance / "config/ftbquests/quests")
     fallback_tasks = [
         task
@@ -1098,8 +1116,6 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
         expected_changes = {
             "config/ftbquests/quests/lang/ko_kr.snbt",
             "resourcepacks/ATM10_Korean/assets/enderio/lang/ko_kr.json",
-            "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json",
-            "resourcepacks/ATM10_Korean/assets/productivebees/lang/ko_kr.json",
         }
         targets = manifest.get("targets", [])
         if manifest.get("status") != "applied_and_verified" or len(targets) != 1:
@@ -1148,6 +1164,7 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
         "bundled_korean_reuse": 0,
         "quest_corrections": len(quest_overrides),
         "related_language_corrections": 5,
+        "related_live_language_keys_checked": 5,
         "related_quest_corrections": len(bee_quests),
         "advancement_display_fields": integration_scope["advancements"][
             "display_fields"

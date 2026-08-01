@@ -8,6 +8,7 @@
   "bundled_korean_reuse": 0,
   "quest_corrections": 13,
   "related_language_corrections": 5,
+  "related_live_language_keys_checked": 5,
   "related_quest_corrections": 10,
   "advancement_display_fields": 6,
   "kubejs_display_strings": 0,
@@ -16,14 +17,12 @@
   "deployment": {
     "status": "applied_and_verified",
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp\\backups\\20260715_154001_194035\\backup_manifest.json",
+    "backup_manifest": "temp\\backups\\20260801_115526_955250\\backup_manifest.json",
     "changed_paths": [
       "config/ftbquests/quests/lang/ko_kr.snbt",
-      "resourcepacks/ATM10_Korean/assets/enderio/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/productivebees/lang/ko_kr.json"
+      "resourcepacks/ATM10_Korean/assets/enderio/lang/ko_kr.json"
     ],
-    "hash_matches": 4,
+    "hash_matches": 2,
     "unexpected_changes": []
   },
   "remaining": 0,

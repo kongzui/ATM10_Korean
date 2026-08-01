@@ -1,0 +1,76 @@
+{
+  "status": "quality_review_completed_and_deployed",
+  "completed_at": "2026-08-01T11:56:02+09:00",
+  "scope": "Ender IO 언어, FTB Quests, Patchouli 가이드, KubeJS, 발전 과제 및 fallback 표시",
+  "installed": [
+    "enderio-8.2.11-beta.jar"
+  ],
+  "language": {
+    "namespaces": 1,
+    "total_keys_reviewed": 605,
+    "quality_review_corrections": 10,
+    "newly_translated": 0
+  },
+  "guide": {
+    "patchouli_json_reviewed": 2,
+    "runtime_translation_required": false,
+    "quality_review_corrections": 0
+  },
+  "ftbquests": {
+    "dedicated_chapters_reviewed": 0,
+    "display_keys_reviewed": 13,
+    "quality_review_keys_corrected": 1,
+    "item_fallbacks_checked": 1,
+    "custom_name_or_literal_component_issues": 0
+  },
+  "advancements": {
+    "files_reviewed": 983,
+    "translated_display_keys_reviewed": 6,
+    "literal_display_fields": 0,
+    "missing_language_keys": 0
+  },
+  "kubejs": {
+    "files_referencing_enderio_reviewed": 18,
+    "direct_user_literals_reviewed": 0,
+    "quality_review_occurrences_corrected": 0
+  },
+  "related_dependencies": {
+    "language_keys_reviewed": 20,
+    "live_language_keys_checked": 5,
+    "productive_bees_quest_keys_reviewed": 19,
+    "full_related_language_files_applied": false
+  },
+  "review_totals": {
+    "visible_values_reviewed": 638,
+    "existing_korean_reviewed_and_reused": 627,
+    "quality_review_corrections": 11,
+    "newly_translated": 0
+  },
+  "deployment": {
+    "source_root_configured": false,
+    "game_root_configured": true,
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "files_applied": 2,
+    "backup_root": "temp/backups/20260801_115526_955250/game_root",
+    "backup_manifest": "temp/backups/20260801_115526_955250/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_instance_changes": []
+  },
+  "validation": {
+    "language_keys_match_current_en_us": true,
+    "json_and_snbt_syntax": "passed",
+    "duplicate_keys": 0,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "line_breaks_preserved": true,
+    "quest_fallback_paths_checked": true,
+    "working_output_match": true,
+    "source_jar_quests_guides_and_kubejs_unchanged": true,
+    "deployed_hashes_match": true,
+    "live_files_matching_output": 2,
+    "related_dependency_language_keys_checked": 5,
+    "game_runtime_verified": false,
+    "validation_errors": 0
+  },
+  "remaining_review_items": []
+}
