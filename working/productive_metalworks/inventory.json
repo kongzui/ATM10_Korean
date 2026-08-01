@@ -1,0 +1,67 @@
+{
+  "family": "Productive Metalworks",
+  "installed": [
+    {
+      "label": "Productive Metalworks",
+      "jar": "productivemetalworks-1.21.1-1.15.0.jar",
+      "namespace": "productivemetalworks",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 376,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "productivemetalworks"
+      ],
+      "guide_candidates": 8,
+      "guide_examples": [
+        "assets/productivemetalworks/models/item/book.json",
+        "assets/productivemetalworks/patchouli_books/guide/en_us/categories/intro.json",
+        "assets/productivemetalworks/patchouli_books/guide/en_us/categories/sgear.json",
+        "assets/productivemetalworks/patchouli_books/guide/en_us/entries/intro.json",
+        "assets/productivemetalworks/patchouli_books/guide/en_us/entries/sgear.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/guide_book.json",
+        "data/productivemetalworks/patchouli_books/guide/book.json",
+        "data/productivemetalworks/recipe/crafting/guide_book.json"
+      ],
+      "advancements": 147,
+      "advancement_examples": [
+        "data/productivemetalworks/advancement/recipes/misc/blasting/fire_brick.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_fire_bricks.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_fire_bricks_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_fire_bricks_from_dye_single.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_foundry_capacitor_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_foundry_controller.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_foundry_controller_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_foundry_drain.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_foundry_drain_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_foundry_tank.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_foundry_tank_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_foundry_window.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/black_foundry_window_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/blue_fire_bricks_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/blue_fire_bricks_from_dye_single.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/blue_foundry_capacitor_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/blue_foundry_controller_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/blue_foundry_drain_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/blue_foundry_tank_from_dye.json",
+        "data/productivemetalworks/advancement/recipes/misc/crafting/blue_foundry_window_from_dye.json"
+      ],
+      "recipes": 1265
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "dyenamicsandfriends-1.21.1-2.2.2.jar",
+      "dependency_mentions": [
+        "productivemetalworks"
+      ]
+    },
+    {
+      "jar": "sgearmetalworks-1.21.1-1.5.0.jar",
+      "dependency_mentions": [
+        "productivemetalworks"
+      ]
+    }
+  ]
+}

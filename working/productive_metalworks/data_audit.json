@@ -1,0 +1,16 @@
+{
+  "jar": "productivemetalworks-1.21.1-1.15.0.jar",
+  "guide_files_checked": 5,
+  "guide_translation_keys": 18,
+  "missing_guide_keys": [],
+  "advancements_checked": 147,
+  "advancement_display_entries": 0,
+  "recipes_checked": 1118,
+  "recipe_visible_field_entries": 0,
+  "kubejs_reference_files_checked": 34,
+  "kubejs_visible_field_entries": 0,
+  "existing_sgearmetalworks_keys": 132,
+  "existing_sgearmetalworks_output_matches": true,
+  "errors": [],
+  "status": "complete"
+}

@@ -349,6 +349,12 @@ TARGETS = (
         "allthecompressed",
         "All The Compressed",
     ),
+    Target(
+        "productive_metalworks",
+        "productivemetalworks-",
+        "productivemetalworks",
+        "Productive Metalworks",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -372,6 +378,7 @@ FAMILY_LABELS = {
     "early_midgame_infrastructure": "초중반 기반 시설",
     "botany_pots_trees": "Botany Pots·Botany Trees",
     "all_the_ores_compressed": "All The Ores·All The Compressed",
+    "productive_metalworks": "Productive Metalworks",
 }
 
 QUEST_CHAPTERS = {
@@ -395,6 +402,7 @@ QUEST_CHAPTERS = {
     "early_midgame_infrastructure": (),
     "botany_pots_trees": (),
     "all_the_ores_compressed": (),
+    "productive_metalworks": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -454,6 +462,10 @@ QUEST_TEXT_MARKERS = {
         "alltheores",
         "all the compressed",
         "allthecompressed",
+    ),
+    "productive_metalworks": (
+        "productive metalworks",
+        "productivemetalworks",
     ),
 }
 
@@ -531,6 +543,7 @@ ALLOWED_ORIGINALS = {
     "All The Compressed",
     "AllTheCompressed",
     "Extreme Reactors",
+    "Productive Metalworks",
     "Shift",
     "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
     "Pipez",

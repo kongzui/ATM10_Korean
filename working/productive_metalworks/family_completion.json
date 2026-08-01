@@ -1,0 +1,48 @@
+{
+  "family": "Productive Metalworks",
+  "status": "complete",
+  "language": {
+    "main_keys": 376,
+    "dyenamics_integration_keys": 109,
+    "existing_sgearmetalworks_keys_verified": 132,
+    "existing_translation_reused": 145,
+    "existing_translation_corrected": 2,
+    "newly_translated": 485,
+    "untranslated": 0
+  },
+  "ftbquests": {
+    "chapters": 1,
+    "quests_checked": 12,
+    "tasks_checked": 15,
+    "display_keys": 15,
+    "project_output_reused": 13,
+    "project_output_corrected": 2,
+    "untranslated": 0
+  },
+  "other_surfaces": {
+    "guide_files_checked": 5,
+    "guide_translation_keys": 18,
+    "advancements_checked": 147,
+    "advancement_display_entries": 0,
+    "recipes_checked": 1118,
+    "recipe_visible_field_entries": 0,
+    "kubejs_reference_files_checked": 34,
+    "kubejs_visible_field_entries": 0
+  },
+  "validation": {
+    "specialized": "complete",
+    "family": "complete",
+    "syntax_and_format_errors": 0,
+    "unexpected_instance_changes": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/dyenamicsandfriends/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/productivemetalworks/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260801_220633_351669/backup_manifest.json"
+  }
+}
