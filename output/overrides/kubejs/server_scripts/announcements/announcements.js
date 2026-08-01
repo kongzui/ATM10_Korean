@@ -11,19 +11,19 @@ let currentVersion = null
 
 // Add your announcements here
 function initAnnouncements(){
-  addAnnouncement("4.0", "Added mods: Ars Creo, Ice and Fire, Oritech,")
-  addAnnouncement("4.1", "Added mods: Oritech Things")
-  addAnnouncement("4.2", "Removed mods: Oritech Things")
-  addAnnouncement("4.3", "Added mods: Ars Controle, Create Aquatic Ambitions, Create Hypertube, Mekanism More Machines")
+  addAnnouncement("4.0", "추가된 모드: Ars Creo, Ice and Fire, Oritech")
+  addAnnouncement("4.1", "추가된 모드: Oritech Things")
+  addAnnouncement("4.2", "제거된 모드: Oritech Things")
+  addAnnouncement("4.3", "추가된 모드: Ars Controle, Create Aquatic Ambitions, Create Hypertube, Mekanism More Machines")
   addAnnouncement("4.5", "추가된 모드: Expanded AE, Industrialization Overdrive, RFTools Storage")
   addAnnouncement("4.6", "추가된 모드: The Aether, BotanyPots, BotanyTrees, RefinedTypes")
-  addAnnouncement("4.6", "Removed mods: Harvest with ease, FTB Ultimine does that now")
-  addAnnouncement("4.7", "Added mods: Draconic Evolution and BotanyPots-Mystical")
-  addAnnouncement("4.12", "Added mods: ModularBees")
-  addAnnouncement("4.13", "Added mods: Dyson Cube Project")
-  addAnnouncement("5.0", "Removed mods: Modular Machinery Reborn, use Modern Industrialization")
+  addAnnouncement("4.6", "제거된 모드: Harvest with ease, 이제 FTB Ultimine이 같은 기능을 제공합니다")
+  addAnnouncement("4.7", "추가된 모드: Draconic Evolution, BotanyPots-Mystical")
+  addAnnouncement("4.12", "추가된 모드: ModularBees")
+  addAnnouncement("4.13", "추가된 모드: Dyson Cube Project")
+  addAnnouncement("5.0", "제거된 모드: Modular Machinery Reborn, 대신 Modern Industrialization을 사용하세요")
   addAnnouncement("5.3", Text.of("버전 6.0 이상으로 업데이트할 때를 대비해 ").append(Text.blue("Eternal Starlight")).append("와 ").append(Text.blue("Hyperbox")).append(" 모드를 ").append(Text.red("제거")).append("할 준비를 하고 있습니다"))
-  addAnnouncement("5.5", Text.of("We just launched ").append(Text.green("All The Mons (ATM10 + Cobblemon)").clickOpenUrl("https://www.curseforge.com/minecraft/modpacks/all-the-mons").hover(Text.translatable("mco.notification.visitUrl.buttonText.default"))).append(" for public beta testing!"))
+  addAnnouncement("5.5", Text.of("공개 베타 테스트용으로 ").append(Text.green("All The Mons (ATM10 + Cobblemon)").clickOpenUrl("https://www.curseforge.com/minecraft/modpacks/all-the-mons").hover(Text.translatable("mco.notification.visitUrl.buttonText.default"))).append("을 출시했습니다!"))
 }
 
 ServerEvents.loaded(event => {
@@ -53,7 +53,7 @@ PlayerEvents.loggedIn(event => {
     if (currentDismissed.compareTo(key) < 0 && currentVersion.compareTo(key) >= 0) {
       ableToDismiss = true
       if (printHeader) {
-        event.player.tell(Text.translatable("=====[  %s  ]=====", Text.yellow("All The Mods Announcements").bold()).gold().bold())
+        event.player.tell(Text.translatable("=====[  %s  ]=====", Text.yellow("All The Mods 공지").bold()).gold().bold())
         printHeader = false
       }
       for (let component of listComponents) {
@@ -76,15 +76,15 @@ PlayerEvents.loggedIn(event => {
 ServerEvents.basicPublicCommand("dismiss_announcements", event => {
   let player = event.player
   if (player == null) {
-    event.cancel("Player was not found!")
+    event.cancel("플레이어를 찾을 수 없습니다!")
   } else {
     let pData = player.getPersistentData()
     if (event.input == "clear") {
       pData.putString("LastDismissedAnnouncementVersion", "0.0.0")
-      event.respond(Text.yellow("Cleared dismissed version!"))
+      event.respond(Text.yellow("닫은 공지의 버전 기록을 지웠습니다!"))
     } else {
       if (currentVersion == null) {
-        event.cancel("Current version of the modpack is null, is BetterCompatibilityCheck installed?")
+        event.cancel("현재 모드팩 버전이 비어 있습니다. BetterCompatibilityCheck가 설치되어 있나요?")
       } else {
         pData.putString("LastDismissedAnnouncementVersion", currentVersion.toString())
         event.respond(Text.translatable("announcements.atm.dismissed_up_to_version", currentVersion.toString()).yellow())

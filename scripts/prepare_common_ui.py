@@ -8,7 +8,13 @@ import json
 from pathlib import Path
 from zipfile import ZipFile
 
-from common_ui_catalog import GROUPS, TARGETS, Target
+from common_ui_catalog import (
+    GROUPS,
+    PACK_LANGUAGE_TARGETS,
+    TARGETS,
+    PackLanguageTarget,
+    Target,
+)
 from local_paths import PROJECT_ROOT, resolve_source_root
 
 WORK_ROOT = PROJECT_ROOT / "working/common_ui"
@@ -96,6 +102,52 @@ def prepare_target(
     return rows
 
 
+def prepare_pack_target(
+    instance: Path, target: PackLanguageTarget, force: bool
+) -> dict[str, object]:
+    """팩의 KubeJS 언어 파일을 현재 원문에 맞춰 검수 초안으로 만든다."""
+    source_dir = instance / target.relative_dir
+    english_path = source_dir / "en_us.json"
+    korean_path = source_dir / "ko_kr.json"
+    english = json.loads(english_path.read_text(encoding="utf-8-sig"))
+    jar_korean = (
+        json.loads(korean_path.read_text(encoding="utf-8-sig"))
+        if korean_path.is_file()
+        else {}
+    )
+    project_path = OUTPUT_ASSETS / target.namespace / "lang/ko_kr.json"
+    project_korean = (
+        json.loads(project_path.read_text(encoding="utf-8"))
+        if project_path.is_file()
+        else {}
+    )
+    draft = {
+        key: project_korean.get(key, jar_korean.get(key, value))
+        for key, value in english.items()
+    }
+    output = WORK_ROOT / target.group / target.namespace / "ko_kr.json"
+    if output.exists() and not force:
+        raise FileExistsError(f"기존 검수 파일을 덮어쓰지 않습니다: {output}")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(
+        json.dumps(draft, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return {
+        "group": target.group,
+        "source": target.relative_dir,
+        "namespace": target.namespace,
+        "english_keys": len(english),
+        "project_output_candidates": len(set(english) & set(project_korean)),
+        "pack_korean_candidates": len(
+            (set(english) - set(project_korean)) & set(jar_korean)
+        ),
+        "untranslated_draft": sum(
+            draft[key] == value for key, value in english.items()
+        ),
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("group", choices=GROUPS + ("all",))
@@ -112,6 +164,13 @@ def main() -> int:
     rows = []
     for target in selected:
         rows.extend(prepare_target(instance, target, args.force))
+    pack_selected = [
+        target
+        for target in PACK_LANGUAGE_TARGETS
+        if args.group == "all" or target.group == args.group
+    ]
+    for target in pack_selected:
+        rows.append(prepare_pack_target(instance, target, args.force))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 

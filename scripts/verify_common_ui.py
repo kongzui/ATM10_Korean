@@ -10,7 +10,13 @@ import shutil
 from pathlib import Path
 from zipfile import ZipFile
 
-from common_ui_catalog import GROUPS, TARGETS, Target
+from common_ui_catalog import (
+    GROUPS,
+    PACK_LANGUAGE_TARGETS,
+    TARGETS,
+    PackLanguageTarget,
+    Target,
+)
 from local_paths import PROJECT_ROOT, resolve_source_root
 from prepare_common_ui import WORK_ROOT, find_jar, load_json
 
@@ -122,6 +128,39 @@ def verify_target(
     return rows
 
 
+def verify_pack_target(
+    instance: Path, target: PackLanguageTarget, copy_output: bool
+) -> dict[str, object]:
+    """팩의 KubeJS 언어 파일도 JAR 언어 파일과 같은 기준으로 검증한다."""
+    english_path = instance / target.relative_dir / "en_us.json"
+    english = json.loads(english_path.read_text(encoding="utf-8-sig"))
+    working = WORK_ROOT / target.group / target.namespace / "ko_kr.json"
+    korean = json.loads(working.read_text(encoding="utf-8"))
+    errors = []
+    if list(korean) != list(english):
+        missing = sorted(set(english) - set(korean))
+        extra = sorted(set(korean) - set(english))
+        errors.append(f"키 또는 순서 불일치: 누락={missing}, 초과={extra}")
+    for key in english.keys() & korean.keys():
+        validate_value(key, english[key], korean[key], errors)
+    if working.read_bytes().startswith(b"\xef\xbb\xbf"):
+        errors.append("UTF-8 BOM이 있습니다")
+    if errors:
+        raise RuntimeError(f"{target.namespace} 검증 실패:\n" + "\n".join(errors[:30]))
+    output = OUTPUT_ROOT / target.namespace / "lang/ko_kr.json"
+    if copy_output:
+        output.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(working, output)
+    return {
+        "group": target.group,
+        "source": target.relative_dir,
+        "namespace": target.namespace,
+        "keys": len(english),
+        "output": output.relative_to(PROJECT_ROOT).as_posix(),
+        "validation": "passed",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("group", choices=GROUPS + ("all",))
@@ -137,6 +176,13 @@ def main() -> int:
     rows = []
     for target in selected:
         rows.extend(verify_target(instance, target, args.copy_output))
+    pack_selected = [
+        target
+        for target in PACK_LANGUAGE_TARGETS
+        if args.group == "all" or target.group == args.group
+    ]
+    for target in pack_selected:
+        rows.append(verify_pack_target(instance, target, args.copy_output))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 

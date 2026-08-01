@@ -15,6 +15,15 @@ class Target:
     key_prefixes: tuple[str, ...] = ()
 
 
+@dataclass(frozen=True)
+class PackLanguageTarget:
+    """모드 JAR 밖의 팩 언어 파일 정보."""
+
+    group: str
+    namespace: str
+    relative_dir: str
+
+
 TARGETS = (
     Target("atm10_common", "ftb-quests-neoforge-", ("ftbquests",)),
     Target("atm10_common", "ftbquestslangsplitter-", ("ftbquestslangsplitter",)),
@@ -85,8 +94,12 @@ TARGETS = (
 )
 
 
+PACK_LANGUAGE_TARGETS = (
+    PackLanguageTarget("atm10_common", "atm", "kubejs/assets/atm/lang"),
+)
+
+
 NO_LANGUAGE_TARGETS = {
-    "atm10_common": ("KubeJS",),
     "jei": ("FTB JEI Extras", "AE2 JEI Integration"),
     "curios_effects": ("Enchantment Descriptions (설치되지 않음)",),
     "convenience": ("Ars Polymorphia",),
