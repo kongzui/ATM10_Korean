@@ -45,9 +45,25 @@ def validate_value(
     if isinstance(english, str):
         if not translatable and english != korean:
             errors.append(f"비번역 필드 변경: {location}")
-        if protected(english, PLACEHOLDER) != protected(korean, PLACEHOLDER):
+        protected_english = english
+        protected_korean = korean
+        is_jei_search_mode = (
+            key.startswith("jei.config.client.search.")
+            and key.endswith("SearchMode")
+            and english[:1] in "@#$^&%"
+        )
+        if is_jei_search_mode:
+            if korean[:1] != english[:1]:
+                errors.append(f"JEI 검색 접두사 불일치: {location}")
+            protected_english = english[1:]
+            protected_korean = korean[1:]
+        if protected(protected_english, PLACEHOLDER) != protected(
+            protected_korean, PLACEHOLDER
+        ):
             errors.append(f"자리표시자 불일치: {location}")
-        if protected(english, FORMAT_CODE) != protected(korean, FORMAT_CODE):
+        if protected(protected_english, FORMAT_CODE) != protected(
+            protected_korean, FORMAT_CODE
+        ):
             errors.append(f"서식 코드 불일치: {location}")
         if english.count("\n") != korean.count("\n"):
             errors.append(f"줄바꿈 수 불일치: {location}")

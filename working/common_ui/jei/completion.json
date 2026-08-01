@@ -25,16 +25,17 @@
     }
   ],
   "counts": {
-    "existing_korean_reused": 233,
-    "existing_korean_corrected": 82,
+    "existing_korean_reused": 149,
+    "existing_korean_corrected": 166,
     "newly_translated": 0,
     "output_keys": 315
   },
   "related_scope": {
-    "ftb_quests": "JEI 텍스처를 장식에 쓰는 모드별 퀘스트 2건만 확인; 문구 소유자가 아니므로 수정 없음",
-    "kubejs": "JEI 사용 안내가 포함된 개별 모드 문구만 확인; 범위 밖이라 수정 없음",
-    "advancements": "JEI 자체 발전 과제 없음",
-    "guide_ui": "JEI 자체 가이드 본문 없음"
+    "ftb_quests": "현재 영어 8436키에서 JEI를 직접 언급한 25키를 확인했으며 모두 개별 모드 퀘스트라 수정하지 않음",
+    "kubejs": "RecipeViewer.js 등의 JEI 직접 표시 후보는 개별 모드 아이템·유체 안내라 수정하지 않음",
+    "advancements": "JEI, FTB JEI Extras, Refined Storage JEI Integration에 발전 과제 JSON 없음",
+    "guide_ui": "세 JAR에 가이드 파일 없음",
+    "fallback": "검색 별칭·태그·재료 정보·오류 표시를 포함한 현재 영어 315키를 모두 대조함"
   },
   "validation": {
     "json": "passed",
@@ -42,10 +43,22 @@
     "placeholders": "passed",
     "format_codes": "passed",
     "line_breaks": "passed",
-    "utf8_bom": false
+    "utf8_bom": false,
+    "jei_search_prefixes": "passed",
+    "python_ruff": "passed"
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "configured_targets": [
+      "game_root"
+    ],
+    "selected_paths": 2,
+    "changed_paths": 2,
+    "unexpected_changes": [],
+    "backup_manifest": "temp/backups/20260801_145549_996854/backup_manifest.json"
   },
   "notes": [
     "다른 모드 아이템명·툴팁·전용 조합법 문구는 수정하지 않음",
-    "Refined Storage JEI Integration의 기존 ko_kr 값 9개가 영어여서 한국어로 교정"
+    "AE2 JEI Integration은 제외 목록에 속하므로 언어 리소스 부재만 확인하고 본문을 재검수하지 않음"
   ]
 }
