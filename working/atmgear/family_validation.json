@@ -7,8 +7,9 @@
   "quest_display_keys_checked": 175,
   "quest_tasks_checked": 109,
   "kubejs_literals_checked": 44,
-  "live_hash_matches": 30,
-  "expected_live_files": 30,
+  "related_dependency_language_keys_checked": 1,
+  "live_hash_matches": 29,
+  "expected_live_files": 29,
   "remaining": 0,
   "validation_errors": 0,
   "errors": []

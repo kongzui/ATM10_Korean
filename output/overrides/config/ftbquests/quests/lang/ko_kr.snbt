@@ -306,8 +306,8 @@
 	quest.03C54B07106091DD.title: "&c제련로 프리즘"
 	quest.03DCDFB32CD4BD85.quest_desc: ["&e&l칼리번&r에는 몇 가지 필요한 것들이 있습니다. 퀘스트에 이미 명시된 것도 있고, 아직 그렇지 않은 것도 있습니다. \\n먼저, &3마법의 호수&r와 5000 &4마법&r이 필요합니다.\\n\\n다음으로, &5강타&r 마법이 부여된 &b다이아몬드 검&r이 필요합니다 (레벨이 높을수록 좋습니다).\\n\\n마지막으로, &b검&r을 &3호수&r에 던지면 바닥에서 &e&l칼리번&r을 찾을 수 있습니다!"]
 	quest.03DCDFB32CD4BD85.title: "&e&l칼리번"
-	quest.03E05018D64DDEE1.quest_desc: ["&e수확 티어 5&r는 사실상 Allthemodium 광석을 위한 단계이며, 그 밖의 용도는 많지 않습니다."]
-	quest.03E05018D64DDEE1.title: "&e수확 티어 5"
+	quest.03E05018D64DDEE1.quest_desc: ["&e채굴 등급 5&r는 사실상 Allthemodium 광석을 위한 단계이며, 그 밖의 용도는 많지 않습니다."]
+	quest.03E05018D64DDEE1.title: "&e채굴 등급 5"
 	quest.03E6FA4DCB71162E.quest_desc: ["&b색상 적용기&f는 케이블을 염색하는 충전식 도구입니다. 특정 색상의 바닐라 염료나 &e페인트볼&f을 넣는 전용 &e저장 셀&f처럼 작동하며, &e눈덩이&f를 넣으면 색을 지워 케이블을 플루익스 색상으로 되돌릴 수 있습니다.\\n\\n케이블 한 구간을 칠할 때 내부 배터리에서 100AE를 사용하며, 완전히 충전하면 총 3400개 구간을 칠할 수 있습니다."]
 	quest.03E6FA4DCB71162E.title: "색상 적용기"
 	quest.03ED9B0DFE8B4574.quest_desc: [
@@ -341,7 +341,7 @@
 	quest.046C417B2ADF3AA7.quest_desc: ["카드는 한계가 있습니다. 아이템 추출은 작업 당 8개의 아이템만 추출할 수 있습니다. 액체 추출은 5 양동이만 추출합니다. 화학 물질과 에너지에 대해서는 신만이 아십니다. \\n\\n이것은 모드가 적용된 &2&lMinecraft&r이므로 이러한 제한으로는 충분하지 않으므로 오버클럭해야 합니다.\\n\\n카드의 오른쪽 상단에 오버클럭 장치를 던지면 전송할 수 있는 용량이 상위 버전으로 변환됩니다!"]
 	quest.046C417B2ADF3AA7.quest_subtitle: "최대: 4"
 	quest.0480DF316ACF12DA.quest_subtitle: "서부솔송나무 + 정글나무"
-	quest.0484051446480B54.quest_desc: ["엄청난 피해를 주고, 나무를 베어 쓰러뜨립니다! 무엇이 더 필요하십니까?"]
+	quest.0484051446480B54.quest_desc: ["엄청난 피해를 주고 나무를 통째로 베어 쓰러뜨립니다! 더 바랄 게 있나요?"]
 	quest.0484051446480B54.title: "&6Allthemodium &5합금 &3도끼"
 	quest.0496E8E786262464.quest_desc: ["&2오버월드&r를 당신에게 정말 설명해야 하나요?"]
 	quest.0496E8E786262464.title: "&2오버월드&r: 보스 &m3 4&r 5명의 영역"
@@ -584,7 +584,7 @@
 	quest.07BEB974DF1E5AD3.title: "&5네더라이트 발전기"
 	quest.07BEE6FEC14765DC.quest_desc: ["점토, 철, 슬라임볼, 그리고 more...이 필요한 꽤 간단한 레시피입니다.\\n\\n자석석은 약탈하기에 가장 좋습니다. 모드는 &c&l네더&r 전체의 전리품 풀에 이것들을 추가하므로 만들지 말고 그냥 찾으세요!\\n\\n왁스는 &6&lForbidden \\\\\\& Arcanus&r에서 추가된 새로운 아이템으로, 꿀 병과 슬라임볼의 혼합물입니다!\\n\\n&6다크스톤 받침대&r에서 사용하여 &7자화된 받침대&r를 얻을 수 있으며, 이는 호퍼(및 파이프와 같은 호퍼와 유사한 아이템)와 함께 작동합니다.\\n\\n또한 부츠와 함께 사용하여 아이템이 인벤토리로 끌려 들어오기 위해 얼마나 가까이 있어야 하는지 늘릴 수 있습니다!"]
 	quest.07CC809B6482AB09.quest_subtitle: "티어: &a2"
-	quest.07FDA46D83F8360D.quest_desc: ["&6Allthemodium 조각&r 4개와 엔더 진주 하나로 텔레포트 패드를 만들 수 있습니다.\\n\\nMinecraft 차원 중 한 곳에 설치하면 다른 차원으로 이동합니다. \\n\\n주 장비 슬롯과 보조 장비 슬롯을 모두 비우고 웅크린 채 우클릭해야 합니다! 중요한 내용이니 꼭 읽어 주세요! \\n\\n양손이 모두 비어 있어야 합니다!"]
+	quest.07FDA46D83F8360D.quest_desc: ["&6Allthemodium 조각&r 4개와 엔더 진주 하나로 텔레포트 패드를 만들 수 있습니다.\\n\\nMinecraft 차원 중 한 곳에 설치하면 다른 차원으로 이동합니다. \\n\\n양손을 모두 비우고 웅크린 채 우클릭해야 합니다! 중요한 내용이니 꼭 읽어 주세요! \\n\\n양손이 모두 비어 있어야 합니다!"]
 	quest.07FDA46D83F8360D.title: "텔레포트 패드"
 	quest.0813CEDCC201216A.quest_subtitle: "카폭 + 올드 퓨스틱"
 	quest.08245411AFDB63DB.quest_desc: ["이 퀘스트는 &6AllTheMods 운영진&r 또는 &2커뮤니티 기여자&r가 AllTheMods 모드팩에서 사용할 수 있도록 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &e모든 권리 보유&r로 배포되므로, &6AllTheMods 팀&r의 명시적인 허가 없이 다른 공개 모드팩에 이 퀘스트를 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 문구가 보인다면 편집 모드입니다."]
@@ -654,8 +654,8 @@
 	]
 	quest.094D28B7A0170039.quest_subtitle: "바닐라 벌에게 호퍼를 먹이세요"
 	quest.094D28B7A0170039.title: "수집기 벌"
-	quest.09733948CBCB3FB9.quest_desc: ["&d수확 티어 6&r은 가장 높은 단계입니다. Vibranium과 Unobtainium을 포함해 파괴할 수 있는 모든 블록을 채굴할 수 있습니다."]
-	quest.09733948CBCB3FB9.title: "&d수확 티어 6"
+	quest.09733948CBCB3FB9.quest_desc: ["&d채굴 등급 6&r은 가장 높은 단계입니다. Vibranium과 Unobtainium을 포함해 파괴할 수 있는 모든 블록을 채굴할 수 있습니다."]
+	quest.09733948CBCB3FB9.title: "&d채굴 등급 6"
 	quest.097DE7038A746847.quest_subtitle: "갈대 둥지에서 스폰됩니다"
 	quest.0980661B2F7FBC10.quest_desc: [
 		"양초 위를 뛰어넘으며 꼭대기까지 올라가세요! \\n\\n위에 도착하면 꿀 고치를 찾을 수 있습니다. \\n\\n발을 데지 않게 조심하세요.\\n"
@@ -1413,7 +1413,7 @@
 	quest.15D764CAF047EA7A.title: "&c터튬 갑옷&r"
 	quest.15DC6770B112EE69.quest_desc: [
 		"용해 챔버는 &l&7Industrial Foregoing&r이 추가하는 기계로, &3Vibranium&r과 &5Unobtainium&r을 결합할 때도 사용합니다. \\n\\n같은 모드의 몹 도살 공장에서 얻는 &d분홍색 슬라임&r이 필요합니다. \\n\\n&b&l디 아더&r의 피글린 마을에서 흔히 발견되는 영혼 용암도 필요합니다. \\n\\n주괴와 피글리치 심장을 정확한 순서로 넣고 전력을 공급하면 완성됩니다!\\n"
-		"{ \"text\": \"Industrial Foregoing 퀘스트\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }"
+		"{ \"text\": \"Industrial Foregoing 퀘스트라인\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }"
 	]
 	quest.15FEA03A2CDBA33B.quest_desc: ["&b&l디 아더&r는 여러 해 동안 수없이 바뀌었지만 언제나 모험을 위한 차원이었습니다! \\n\\n새로운 생물 군계와 블록, 구조물이 수십 개나 있습니다. \\n\\n피글린 마을, 고대 피라미드, 던전뿐 아니라 When Dungeons Arise와 &b&lIce &fand &cFire&r의 구조물도 있습니다. 각 구조물만의 특별한 전리품을 포함해 훌륭한 보상이 가득합니다! \\n\\n&3Vibranium&r과 다른 광석을 캐거나 구조물에서 더 좋은 물건을 찾을 수도 있습니다! \\n\\n다만 &b&l디 아더&r에서는 채석장으로 캘 수 없는 블록이 많습니다. 여기서는 쉽게 넘어갈 수 없어요."]
 	quest.15FEA03A2CDBA33B.title: "&l&b디 아더&r"
@@ -1712,7 +1712,7 @@
 	quest.19D02325579F2AA8.quest_desc: ["화산성 마나링크는 불태울 수 있는 아이템을 소모하여 마나를 생성합니다. 아크우드 통나무는 추가 마나를 생성합니다.\\n\\n아이템을 태우면서 주변의 돌을 용암으로 변환합니다.\\n\\n이것은 또한 용암 릴리를 생성합니다."]
 	quest.19DE6EBEA8219E8E.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.19DFAEB6D88F3580.quest_desc: ["넣기 업그레이드를 사용하면 서랍에서 모든 면으로 아이템을 밀어낼 수 있습니다."]
-	quest.19E356E67EF17E4A.quest_desc: ["역사상 가장 훌륭한 도구입니다! 스위스 군용 칼과 비슷하지만 더 좋죠! \\n\\n최고 채굴 등급으로 광물을 캐고, 나무를 손쉽게 베고, 길을 만들며, 공격력도 강합니다!"]
+	quest.19E356E67EF17E4A.quest_desc: ["역사상 가장 훌륭한 도구입니다! 스위스 군용 칼과 비슷하지만 더 좋죠! \\n\\n최고 채굴 등급으로 블록을 캐고, 나무를 손쉽게 베고, 길을 만들며, 공격력도 강합니다!"]
 	quest.19E356E67EF17E4A.title: "&6Allthemodium &5합금 &3팩셀"
 	quest.19E6757F04098A0C.quest_desc: [
 		"사용 가능한 상위 버전으로 변환:"
@@ -2233,7 +2233,7 @@
 	quest.228CB313BAB6406E.title: "&5&l크리에이티브 &8기관차"
 	quest.2296CE4418AE62D4.quest_desc: ["&6Allthemodium 방어구&r에 &d&lArs Nouveau&r 주문 강화 효과를 더한 장비입니다!"]
 	quest.2296CE4418AE62D4.quest_subtitle: "24"
-	quest.2296CE4418AE62D4.title: "&6Allthemodium 아케니스트 장비"
+	quest.2296CE4418AE62D4.title: "&6Allthemodium 비전술사 장비"
 	quest.22A0A9C81A5C85A1.quest_subtitle: "모든 부품을 하나로 묶기"
 	quest.22ADCF96AE3E609B.quest_desc: ["&d고대 묘목&r은 &a숲의 의식&r을 사용하여 생성됩니다. 그로우되면 나무는 오라의 보통 레벨을 유지하려고 시도합니다 (너무 높거나 너무 낮지 않게). \\n\\n오라가 떨어지면 잎이 부패하기 시작하고 프로세스를 되돌립니다."]
 	quest.22ADCF96AE3E609B.quest_subtitle: "그 고대 묘목들은 아닙니다"
@@ -3331,7 +3331,7 @@
 	quest.3512A883CD4E007C.quest_subtitle: "폰데로사소나무 + 가문비나무"
 	quest.3512F47DADC07EAE.quest_desc: ["&5Unobtainium 방어구&r에 &d&lArs Nouveau&r 주문 강화 효과를 더한 장비입니다!"]
 	quest.3512F47DADC07EAE.quest_subtitle: "40"
-	quest.3512F47DADC07EAE.title: "&5Unobtainium 아케니스트 장비"
+	quest.3512F47DADC07EAE.title: "&5Unobtainium 비전술사 장비"
 	quest.3514E9C1A8C7400C.quest_subtitle: "티어: &b2"
 	quest.3514E9C1A8C7400C.title: "&b간단한 기계 프레임"
 	quest.351769579833FA9E.title: "Bee-laxing with the Hom-bees"
@@ -5260,7 +5260,7 @@
 	quest.52A29269A23F85B3.title: "&9예티 의상"
 	quest.52AFABA08674B6A8.quest_desc: ["&3Vibranium 방어구&r에 &d&lArs Nouveau&r 주문 강화 효과를 더한 장비입니다!"]
 	quest.52AFABA08674B6A8.quest_subtitle: "32"
-	quest.52AFABA08674B6A8.title: "&3Vibranium 아케니스트 장비"
+	quest.52AFABA08674B6A8.title: "&3Vibranium 비전술사 장비"
 	quest.52B22C07818981D0.quest_subtitle: "구리 + 니켈"
 	quest.52B22C07818981D0.title: "콘스탄탄 벌"
 	quest.52B2ADE472707372.quest_subtitle: "골든 딜리셔스 사과 + 그래니 스미스 사과"
@@ -5432,7 +5432,7 @@
 	]
 	quest.552CA2ABE659A507.quest_desc: ["&c용암&r이 들어가고, 에너지가 나옵니다."]
 	quest.552CA2ABE659A507.title: "&c마그마틱 발전기"
-	quest.552F0B9B00F4F914.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서는 명시적인 허가 없이 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 퀘스트가 보인다면 편집 모드에 있는 것입니다."]
+	quest.552F0B9B00F4F914.quest_desc: ["이 퀘스트는 &6AllTheMods 스태프&r 또는 &2커뮤니티 기여자&r가 AllTheMods 모드팩에 사용하기 위해 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r 라이선스로 보호되므로, &6AllTheMods 팀&r의 명시적인 허가 없이 다른 공개 모드팩에 이 퀘스트를 사용할 수 없습니다. \\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 문구가 보인다면 편집 모드입니다."]
 	quest.553220A2CD7CAFE4.quest_desc: ["크리스마스 동안 모든 resents...상자 외형이 바뀌지만, 화로는 몹시 눈에 거슬립니다! 이제 포장지로 바꿀 수 있습니다! &l철 화로&r에 우클릭하면 연휴 준비 완료! 연휴가 끝나면 Shift + 우클릭으로 포장을 풀 수 있습니다!"]
 	quest.553220A2CD7CAFE4.quest_subtitle: "모두 포장 완료"
 	quest.553ADA7040B652CD.quest_desc: ["&4&l채굴 드릴&r, &2&l원형 톱&r, 그리고 &b&l화학 투척기&r는 보통 1,000mB 또는 1 양동이 분량의 &b액체&r를 담을 수 있습니다. \\n\\n보통이라는 건 항상 그렇다는 의미는 아닙니다! 대형 탱크를 사용하면 이제 2,000mB 또는 2 양동이 분량을 담을 수 있습니다. \\n\\n많아 보이지 않겠지만, 저를 믿으세요. 정말 많습니다."]
@@ -5674,7 +5674,7 @@
 	]
 	quest.5A1DCD6C7F712A78.title: "넵투늄 낚싯대"
 	quest.5A23107C363A209E.quest_subtitle: "다양한 엔드 재료를 만듭니다"
-	quest.5A26738AC904DC39.quest_desc: ["13개의 주문 슬롯!"]
+	quest.5A26738AC904DC39.quest_desc: ["주문 슬롯 13개!"]
 	quest.5A26738AC904DC39.title: "&6Allthemodium 주문서"
 	quest.5A2908437EC43AC6.quest_subtitle: "티어: &54"
 	quest.5A2A718C569F3C19.quest_desc: ["&0석탄&r을 &l코크스 오븐&r에서 &0제련&r하면 &0코크스&r를 얻을 수 있습니다! 아니면 제가 부르는 것처럼 그냥 &0코크&r라고 부르죠! \\n\\n이것은 거의 &8석탄&l과 같지만 &rIE&7에서 더 많은 용도로 사용됩니다. \\n\\n이것을 철과 결합하여 &r강철&0을 얻거나, 분쇄하여 &r코크스 가루&0를 얻을 수 있으며, &r흑연&0에 필요하거나 용광로의 연료로 사용할 수 있습니다."]
@@ -6073,7 +6073,7 @@
 	quest.5F834F8C607A8B77.quest_desc: ["&6&lThe Bumblezone&r의 구조물에서 찾거나 &5여왕벌&r과 거래해 얻어야 합니다! \\n\\n착용한 상태에서 스페이스바를 누르고 있으면 잠시 날 수 있습니다. \\n\\n하지만 &6벌&8처&6럼&r 날개가 너무 작아 무거운 몸을 오랫동안 띄우지는 못합니다."]
 	quest.5F9B8ACCE0C8389E.quest_desc: ["더욱 재미있는 작은 &4&l마호 츠카이&r 무기를 얻으려면 &7「강화」두루마리&r가 필요합니다.\\n\\n하나를 얻으려면 &7양피지&r를 내려놓고 그 위에 강화 의식을 수행한 다음 &7천&r을 집어 드세요."]
 	quest.5F9B8ACCE0C8389E.title: "&7강화 두루마리"
-	quest.5FA68047A3C05E80.quest_desc: ["15개의 주문 슬롯!"]
+	quest.5FA68047A3C05E80.quest_desc: ["주문 슬롯 15개!"]
 	quest.5FA68047A3C05E80.title: "&5Unobtainium 주문서"
 	quest.5FA9BC0D8476D322.quest_desc: ["배낭 안의 음식을 플레이어에게 자동으로 먹입니다."]
 	quest.5FB29F3F4DF17765.quest_desc: ["때로는 모든 모듈이 한 번에 여러 스택을 이동하는 것을 원하지 않을 수 있습니다. 따라서 모듈 1개만 그렇게 하도록 하려면 증강을 사용하세요! 이것은 상위 버전으로 변환과 함께 스택되지 않으며 though... 사실 그것들을 오버라이드합니다."]
@@ -6447,8 +6447,8 @@
 	quest.66C52B137A4FF869.quest_desc: ["이것은 4개의 tertium을 주입 수정과 함께 결합하여 만든 티어 4 라텍스입니다."]
 	quest.66C52B137A4FF869.quest_subtitle: "티어: &b4"
 	quest.66C52B137A4FF869.title: "&9임페리움"
-	quest.66E88F916B638B3B.quest_desc: ["조금 헷갈릴 수 있습니다. &5크리에이티브 &e마도서&r가 여러 개 있거든요! 여기서 필요한 것은 &d&lAll the Arcanist Gear&r의 마도서입니다. \\n\\n이 마도서를 만들려면 먼저 &l&dArs Nouveau&r의 크리에이티브 &e마도서&r를 제작해야 합니다. 그 조합에는 &e대마법사의 마도서&r, &6&lATM의 별&r, 몇 가지 추가 아이템이 필요합니다. \\n\\n&eUnobtainium 마도서&r와 성능은 같지만 마나가 무한하고 모든 문양이 해금되어 있습니다! \\n\\n모든 주문 위력을 손에 넣는 겁니다. 으하하하!"]
-	quest.66E88F916B638B3B.title: "&5&l크리에이티브 &e마도서"
+	quest.66E88F916B638B3B.quest_desc: ["조금 헷갈릴 수 있습니다. &5크리에이티브 &e주문서&r가 여러 개 있거든요! 우리가 원하는 것은 &d&lAll The Arcanist Gear&r의 주문서입니다. \\n\\n먼저 &l&dArs Nouveau&r의 크리에이티브 &e주문서&r를 제작해야 합니다. 이 주문서를 만들려면 &e대마법사 주문서&r, &6&lATM의 별&r과 몇 가지 아이템이 필요합니다. \\n\\n&eUnobtainium 주문서&r와 설정은 같지만 마나가 무한하고 모든 문양이 잠금 해제되어 있습니다! \\n\\n모든 주문 위력을 손에 넣는 겁니다, 으하하하!"]
+	quest.66E88F916B638B3B.title: "&5&l크리에이티브 &e주문서"
 	quest.66ECC26BC81D0093.title: "등급: &b기본"
 	quest.66FE4552E09B5EFF.quest_desc: ["프리즘은 많은 &6&l포비든 \\\\\\& 아르카누스&r 제작법과 이후 다른 모드에서 중요합니다! \\n\\n프리즘을 제작하려면 &3엘리멘타리움&r이(가) 필요합니다. 엘리멘타리움은 정글 사원, 사막 피라미드, 수중 폐허에서 찾을 수 있습니다. \\n\\n찾을 수 없는 곳을 알려주는 것이 더 쉬울 것 같아요!"]
 	quest.66FE4552E09B5EFF.title: "&3엘리멘타리움"
@@ -6784,7 +6784,7 @@
 		"재미있는 아이템입니다. 발견하거나, 제작하거나, 거래로 얻을 수 있습니다.\\n\\n원하는 색으로 염색한 뒤 당연히 머리에 쓸 수 있습니다!\\n\\n그러면 &6벌&8들&6은&8요&r 플레이어를 꽃으로 착각해 따라옵니다.\\n\\n\"Duck Amuck\"의 Daffy처럼 보이게도 합니다."
 		"{image:atm:textures/questpics/bumblezone/bumble_duckamuck.png width:100 height:100 align:center}"
 	]
-	quest.6C5F9D0D447EFB9C.quest_desc: ["&l&2바닐라&r 방어구가 전부라고 생각하셨나요? \\n\\n&6Allthemodium 방어구&r는 방어력과 방어 강도가 더 높고, 마법 피해 보호와 여러 강화 효과도 제공합니다. 자세한 내용은 &6&lAllthemodium&r 퀘스트 페이지에서 확인하세요! \\n\\n제작하려면 &c네더라이트&r가 필요합니다."]
+	quest.6C5F9D0D447EFB9C.quest_desc: ["&l&2바닐라&r 방어구가 전부라고 생각하셨나요? \\n\\n&6Allthemodium 방어구&r는 방어력과 방어 강도가 더 높고, 마법 피해 저항과 여러 강화 효과도 제공합니다. 자세한 내용은 &6&lAllthemodium&r 퀘스트 페이지에서 확인하세요! \\n\\n제작하려면 &c네더라이트&r가 필요합니다."]
 	quest.6C5F9D0D447EFB9C.quest_subtitle: "24"
 	quest.6C5F9D0D447EFB9C.title: "&6Allthemodium 방어구"
 	quest.6C6F4EB5CBE2FBC2.quest_desc: ["철 점봉은 철 곡괭이로 캘 수 있는 광물을 찾을 수 있어 약간 더 좋습니다! 다이아몬드, 레드스톤, 그리고 금을 찾을 수 있습니다."]
@@ -6851,7 +6851,7 @@
 	quest.6D6E07564D8FDD8D.quest_desc: ["&a익스트림 리액터&r는 크기, 효율 등에서 완전히 사용자 지정 가능한 멀티 블록 원자로를 제공합니다.\\n\\n익스트림 리액터 시작에 대해 더 자세히 알아보려면 해당 모드의 퀘스트 챕터를 확인하세요!"]
 	quest.6D6E07564D8FDD8D.quest_subtitle: "사용자 지정이 가능한 원자로!"
 	quest.6D6E07564D8FDD8D.title: "&9익스트림 리액터: &a원자로"
-	quest.6D738730B371B152.quest_desc: ["&l&7채굴 차원&r은 지표에 아무것도 없는 완전한 평지 세계입니다. \\n\\n지표 아래에는 거의 모든 광석이 있습니다. \\n\\n동굴도, 몹 생성도, 방해물도 없고 여러 종류의 돌과 광석뿐입니다! \\n\\n광석은 &7&l채굴 차원&r의 Y 높이와 지층에 따라 다르게 생성됩니다. &7&l채굴 차원&r에서는 높이와 지층을 확인하세요.\\n\\n채석기를 설치하는 것을 권합니다."]
+	quest.6D738730B371B152.quest_desc: ["&l&7채굴 차원&r은 지표에 아무것도 없는 완전한 평지 세계입니다. \\n\\n지표 아래에는 거의 모든 광석이 있습니다. \\n\\n&7&l채굴 차원&r에는 동굴도, 몹 생성도, 방해물도 없고 여러 종류의 돌과 광석뿐입니다! \\n\\n광석은 &7&l채굴 차원&r의 Y 높이와 지층에 따라 다르게 생성됩니다. \\n\\n채석기를 설치하는 것을 권합니다."]
 	quest.6D738730B371B152.title: "&l&7채굴 차원"
 	quest.6D75CF34957ECCD9.quest_desc: ["에너지 배터리를 사용하면 FE를 저장할 수 있습니다. 전송하려면 &6에너지 인터페이스&r가 필요합니다."]
 	quest.6D75CF34957ECCD9.quest_subtitle: "에너지 저장"
@@ -6933,7 +6933,7 @@
 	]
 	quest.6EC289857CDC4969.title: "엔트"
 	quest.6ECDD26CCCBC07C3.quest_desc: [
-		"&c네더라이트 방어구&r에서 바로 업그레이드하므로 &5마법 부여&r가 유지됩니다. \\n\\n&6Allthemodium&r 풀세트는 방어력 24, 방어 강도 20, 밀치기 저항 50%를 제공합니다. \\n\\n그게 전부가 아닙니다! \\n\\n&6투구&r: &9수중 호흡&r, &3&l워든&r의 &0어둠 효과&r 면역, &7겉날개&r 충돌 피해 무효. \\n&6흉갑&r: &d마법 피해 저항&r 50%와 &c화염 저항&r. \\n&6레깅스&r: &9물갈퀴&r와 &0위더&r 면역. \\n&6부츠&r: 낙하 피해 저항, &b가루눈&r과 &c용암&r 위 보행."
+		"&c네더라이트 방어구&r에서 바로 업그레이드하므로 &5마법 부여&r가 유지됩니다. \\n\\n&6Allthemodium&r 풀세트는 방어력 24, 방어 강도 20, 밀치기 저항 50%를 제공합니다. \\n\\n그게 전부가 아닙니다! \\n\\n&6투구&r: &9수중 호흡&r, &3&l워든&r의 &0어둠 효과&r 면역, &7겉날개&r 충돌 피해 무효. \\n&6흉갑&r: &d마법 피해 저항&r 50%와 &c화염 저항&r. \\n&6레깅스&r: &9물갈퀴&r와 &0시듦&r 면역. \\n&6부츠&r: 낙하 피해 저항, &b가루눈&r과 &c용암&r 위 보행."
 		"{image:atm:textures/questpics/allthemodium/all_armor_all.png width:100 height:175 align:center}"
 	]
 	quest.6ECDD26CCCBC07C3.title: "&6Allthemodium 방어구"
@@ -7441,8 +7441,8 @@
 	quest.761D21C6FBD13EE1.quest_subtitle: "다이아몬드 벌에게 페리도트를 먹이세요"
 	quest.761D21C6FBD13EE1.title: "감람석 벌"
 	quest.762581CAE5F5DDC1.quest_desc: [
-		"멋진 마법 모드네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 &6Allthemodium&r을 결합합니다! \\n\\n마법 부여 장치는 여러 조합에 쓰이는 멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 놓고, 같은 Y 높이의 주변에 받침대를 배치하세요. \\n\\n받침대에 재료를 순서와 관계없이 올리고 주변에 마나를 준비한 뒤 장치에 마나 보석을 넣으면 제작이 시작됩니다. 그러면 &5Unobtainium&r-&6Allthemodium&r 합금 주괴가 완성됩니다!\\n"
-		"{ \"text\": \"Ars Nouveau 퀘스트\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
+		"마법 모드라니 멋지네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 &6Allthemodium&r을 결합합니다! \\n\\n마법 부여 장치는 여러 제작법에 쓰이는 멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 놓고, 같은 Y 높이의 주변에 받침대를 배치하세요. \\n\\n받침대에 아이템을 순서와 관계없이 올리고 주변에 근원을 준비한 뒤, 장치에 근원 보석을 놓으면 제작이 시작됩니다! 그러면 &5Unobtainium&r-&6Allthemodium&r 합금 주괴가 완성됩니다!\\n"
+		"{ \"text\": \"Ars Nouveau 퀘스트라인\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
 	]
 	quest.762B8309E1A31B99.quest_desc: ["각 상위 버전으로 변환 시 +0.5 방어와 +1 갑옷 강도가 추가됩니다."]
 	quest.762B8309E1A31B99.quest_subtitle: "최대: 4"
@@ -7523,7 +7523,7 @@
 	quest.777BB82B56038ED3.quest_desc: ["&4&l모르간&r의 공격력을 올리는 유일한 방법은 주민을 죽이는 것입니다. 아기 주민은 훨씬 더 많은 공격력을 줍니다! \\n\\n농장을 잘 갖춰 놓으셨기를 바랍니다. 그러면 수많은 주민들의 죽음 후에 &4&l모르간&r을 최대로 강화할 수 있습니다. \\n\\n또한 &4&l모르간&r을 들고 우클릭을 하면 특수 공격을 할 수 있습니다."]
 	quest.777BB82B56038ED3.title: "최대치 &4&l모르간"
 	quest.779CA0C49F93C4F9.quest_subtitle: "흑요석 59,049개"
-	quest.77AD61FCA9BC9AFB.quest_desc: ["14개의 주문 슬롯!"]
+	quest.77AD61FCA9BC9AFB.quest_desc: ["주문 슬롯 14개!"]
 	quest.77AD61FCA9BC9AFB.title: "&3Vibranium 주문서"
 	quest.77B5B23A2C01ED7E.quest_desc: ["&9키네티케이터&r는 아이템과 경험치를 위한 자석처럼 작동합니다.\\n\\n&e리버스 키네티케이터&r는 대신 아이템과 경험치를 밀어냅니다."]
 	quest.77B5B23A2C01ED7E.quest_subtitle: "자석"
@@ -7772,8 +7772,8 @@
 	quest.7B2008977702D0C8.quest_desc: ["공기 압축기에서 압력을 생성할 때, 압력이 빠져나갈 곳이 없다면 그냥 사라집니다. 압력을 만들기 전에 압력이 빠져나갈 곳이 있는지 확인하세요."]
 	quest.7B2008977702D0C8.quest_subtitle: "RF나 FE는 어떻게 된 거죠?"
 	quest.7B3613C01F0B1373.quest_desc: [
-		"&3비브라늄&r과 &6올더모디움&r을 결합하려면 &l&cPowah!&r의 힘이 필요합니다! \\n\\n에너지 주입 오브를 놓고 에너지 주입 막대가 오브를 향하게 배치하세요. 막대는 전력원 위에 놓아야 하며, 등급에 따라 저장량과 전송량이 달라집니다. \\n\\n주괴, 피글리치 심장 2개, 1배 압축 니트로 수정 블록을 오브에 넣으세요. 순서는 상관없습니다. 막대를 통해 10억 FE를 공급하면 완성됩니다!\\n"
-		"{ \"text\": \"Powah! 퀘스트\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }"
+		"&3Vibranium&r과 &6Allthemodium&r을 결합하려면 &l&cPowah&r의 에너지 주입 오브가 필요합니다! \\n\\n에너지 주입 오브를 놓고 에너지 주입 막대가 오브를 향하게 배치하세요. 막대는 전력원 위에 놓아야 하며, 등급에 따라 저장하고 전송하는 에너지양이 달라집니다. \\n\\n주괴, 피글리치 심장 2개, 압축 니트로 수정 블록 X1을 오브에 넣으세요. 순서는 상관없습니다. 막대를 통해 1 Billion FE를 공급하면 완성됩니다!\\n"
+		"{ \"text\": \"Powah 퀘스트라인\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }"
 	]
 	quest.7B3920DE6306A94A.quest_subtitle: "만다린 + 금귤"
 	quest.7B40A9DAA119DE59.quest_subtitle: "결정질 + 네온 뻐꾸기 벌"

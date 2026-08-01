@@ -73,7 +73,7 @@ def language_counts(instance: Path) -> tuple[list[dict[str, object]], dict[str, 
 
 
 def expected_deployments(guide: dict[str, object]) -> dict[str, Path]:
-    """이번 단계에서 실제로 달라져야 하는 30개 파일을 만든다."""
+    """이 계열이 소유한 실제 적용 파일 29개를 만든다."""
     expected: dict[str, Path] = {}
     for target in TARGETS:
         relative = f"assets/{target.namespace}/lang/ko_kr.json"
@@ -94,7 +94,7 @@ def expected_deployments(guide: dict[str, object]) -> dict[str, Path]:
     expected["config/ftbquests/quests/lang/ko_kr.snbt"] = (
         PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     )
-    for namespace in ("powah", "forbidden_arcanus"):
+    for namespace in ("forbidden_arcanus",):
         relative = f"assets/{namespace}/lang/ko_kr.json"
         expected[f"resourcepacks/ATM10_Korean/{relative}"] = (
             PROJECT_ROOT / f"output/resourcepack/ATM10_Korean/{relative}"
@@ -143,8 +143,8 @@ def main() -> int:
         errors.append("FTB Quests 검증 보고에 해결되지 않은 오류가 있습니다.")
 
     changed_paths = backup["targets"][0]["changed_paths"]
-    if set(changed_paths) != set(expected):
-        errors.append("적용 매니페스트의 변경 경로가 4단계 계획과 다릅니다.")
+    if not set(expected).issubset(changed_paths):
+        errors.append("적용 매니페스트에 계열 소유 파일이 모두 기록되지 않았습니다.")
     if backup["targets"][0]["unexpected_changes"]:
         errors.append("실제 적용 중 계획 밖 변경이 기록되었습니다.")
     live_hash_matches = 0
@@ -154,6 +154,28 @@ def main() -> int:
             errors.append(f"실제 적용 파일이 산출물과 다릅니다: {relative}")
         else:
             live_hash_matches += 1
+
+    related_language_checks = 0
+    for namespace, values in {
+        "powah": {"block.powah.energizing_orb": "에너지 주입 오브"},
+    }.items():
+        output_path = (
+            PROJECT_ROOT
+            / f"output/resourcepack/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"
+        )
+        live_path = (
+            instance / f"resourcepacks/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"
+        )
+        output_values = json.loads(output_path.read_text(encoding="utf-8"))
+        live_values = json.loads(live_path.read_text(encoding="utf-8"))
+        for key, expected_value in values.items():
+            if (
+                output_values.get(key) != expected_value
+                or live_values.get(key) != expected_value
+            ):
+                errors.append(f"연동 언어 키가 확정 번역과 다릅니다: {namespace}:{key}")
+            else:
+                related_language_checks += 1
 
     direct_dependencies = {
         "Ars Nouveau": find_one(instance, "ars_nouveau-"),
@@ -257,6 +279,7 @@ def main() -> int:
         "quest_display_keys_checked": quest["display_keys_checked"],
         "quest_tasks_checked": quest["tasks_checked"],
         "kubejs_literals_checked": kube["translated_literal_occurrences"],
+        "related_dependency_language_keys_checked": related_language_checks,
         "live_hash_matches": live_hash_matches,
         "expected_live_files": len(expected),
         "remaining": 0,

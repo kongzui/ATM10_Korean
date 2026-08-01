@@ -69,12 +69,12 @@ TERM_REPLACEMENTS = (
     ("엔더IO", "Ender IO"),
 )
 LITERAL_REPLACEMENTS = {
-    "INDUSTRIAL FOREGOING QUESTLINE": "Industrial Foregoing 퀘스트",
-    "ARS NOUVEAU QUESTLINE": "Ars Nouveau 퀘스트",
-    "POWAH QUESTLINE": "Powah 퀘스트",
+    "INDUSTRIAL FOREGOING QUESTLINE": "Industrial Foregoing 퀘스트라인",
+    "ARS NOUVEAU QUESTLINE": "Ars Nouveau 퀘스트라인",
+    "POWAH QUESTLINE": "Powah 퀘스트라인",
 }
 RELATED_ITEM_LANGUAGES = {
-    "powah": {"block.powah.energizing_orb": "에너자이징 오브"},
+    "powah": {"block.powah.energizing_orb": "에너지 주입 오브"},
     "forbidden_arcanus": {
         "item.forbidden_arcanus.eternal_stella": "이터널 스텔라",
         "block.forbidden_arcanus.hephaestus_forge": "헤파에스토스 대장간",
@@ -90,8 +90,8 @@ def paragraph(text: str) -> list[str]:
 FIRST_TEXT_OVERRIDES = {
     "quest.07FDA46D83F8360D.quest_desc": (
         "&6Allthemodium 조각&r 4개와 엔더 진주 하나로 텔레포트 패드를 만들 수 있습니다."
-        "\n\nMinecraft 차원 중 한 곳에 설치하면 다른 차원으로 이동합니다. \n\n주 장비 "
-        "슬롯과 보조 장비 슬롯을 모두 비우고 웅크린 채 우클릭해야 합니다! 중요한 내용이니 "
+        "\n\nMinecraft 차원 중 한 곳에 설치하면 다른 차원으로 이동합니다. \n\n양손을 "
+        "모두 비우고 웅크린 채 우클릭해야 합니다! 중요한 내용이니 "
         "꼭 읽어 주세요! \n\n양손이 모두 비어 있어야 합니다!"
     ),
     "quest.111E4ACF7D570EE8.quest_desc": (
@@ -137,7 +137,7 @@ FIRST_TEXT_OVERRIDES = {
     ),
     "quest.19E356E67EF17E4A.quest_desc": (
         "역사상 가장 훌륭한 도구입니다! 스위스 군용 칼과 비슷하지만 더 좋죠! \n\n최고 "
-        "채굴 등급으로 광물을 캐고, 나무를 손쉽게 베고, 길을 만들며, 공격력도 강합니다!"
+        "채굴 등급으로 블록을 캐고, 나무를 손쉽게 베고, 길을 만들며, 공격력도 강합니다!"
     ),
     "quest.201EE3566D4D3123.quest_desc": (
         "&6Allthemodium&r을 캐려면 &c네더라이트&r 등급 이상의 곡괭이가 필요합니다! "
@@ -194,9 +194,9 @@ FIRST_TEXT_OVERRIDES = {
     ),
     "quest.6D738730B371B152.quest_desc": (
         "&l&7채굴 차원&r은 지표에 아무것도 없는 완전한 평지 세계입니다. \n\n지표 아래에는 "
-        "거의 모든 광석이 있습니다. \n\n동굴도, 몹 생성도, 방해물도 없고 여러 종류의 돌과 "
+        "거의 모든 광석이 있습니다. \n\n&7&l채굴 차원&r에는 동굴도, 몹 생성도, 방해물도 "
+        "없고 여러 종류의 돌과 "
         "광석뿐입니다! \n\n광석은 &7&l채굴 차원&r의 Y 높이와 지층에 따라 다르게 생성됩니다. "
-        "&7&l채굴 차원&r에서는 높이와 지층을 확인하세요."
         "\n\n채석기를 설치하는 것을 권합니다."
     ),
     "quest.6E0624750DF8CD18.quest_desc": (
@@ -208,7 +208,7 @@ FIRST_TEXT_OVERRIDES = {
         "\n\n&6Allthemodium&r 풀세트는 방어력 24, 방어 강도 20, 밀치기 저항 50%를 "
         "제공합니다. \n\n그게 전부가 아닙니다! \n\n&6투구&r: &9수중 호흡&r, &3&l워든&r의 "
         "&0어둠 효과&r 면역, &7겉날개&r 충돌 피해 무효. \n&6흉갑&r: &d마법 피해 저항&r "
-        "50%와 &c화염 저항&r. \n&6레깅스&r: &9물갈퀴&r와 &0위더&r 면역. \n&6부츠&r: "
+        "50%와 &c화염 저항&r. \n&6레깅스&r: &9물갈퀴&r와 &0시듦&r 면역. \n&6부츠&r: "
         "낙하 피해 저항, &b가루눈&r과 &c용암&r 위 보행."
     ),
     "quest.762581CAE5F5DDC1.quest_desc": (
@@ -227,8 +227,8 @@ FIRST_TEXT_OVERRIDES = {
         "준비하세요!"
     ),
     "quest.7B3613C01F0B1373.quest_desc": (
-        "&3Vibranium&r과 &6Allthemodium&r을 결합하려면 &l&cPowah&r의 에너자이징 오브가 "
-        "필요합니다! \n\n에너자이징 오브를 놓고 에너자이징 막대가 오브를 향하게 배치하세요. "
+        "&3Vibranium&r과 &6Allthemodium&r을 결합하려면 &l&cPowah&r의 에너지 주입 오브가 "
+        "필요합니다! \n\n에너지 주입 오브를 놓고 에너지 주입 막대가 오브를 향하게 배치하세요. "
         "막대는 전력원 위에 놓아야 하며, 등급에 따라 저장하고 전송하는 에너지양이 달라집니다. "
         "\n\n주괴, 피글리치 심장 2개, 압축 니트로 수정 블록 X1을 오브에 넣으세요. 순서는 "
         "상관없습니다. 막대를 통해 1 Billion FE를 공급하면 완성됩니다!\n"
@@ -292,15 +292,15 @@ FIRST_TEXT_OVERRIDES = {
     ),
     "quest.66E88F916B638B3B.quest_desc": (
         "조금 헷갈릴 수 있습니다. &5크리에이티브 &e주문서&r가 여러 개 있거든요! 우리가 "
-        "원하는 것은 &d&lAll The Arcanist Gear&r의 주문서입니다. \n\n이 주문서를 만들려면 "
-        "먼저 &l&dArs Nouveau&r의 크리에이티브 &e주문서&r를 제작해야 합니다. 거기에 "
-        "&e대마법사 주문서&r, &6&lATM의 별&r과 몇 가지 아이템이 필요합니다. \n\n"
+        "원하는 것은 &d&lAll The Arcanist Gear&r의 주문서입니다. \n\n먼저 "
+        "&l&dArs Nouveau&r의 크리에이티브 &e주문서&r를 제작해야 합니다. 이 주문서를 "
+        "만들려면 &e대마법사 주문서&r, &6&lATM의 별&r과 몇 가지 아이템이 필요합니다. \n\n"
         "&eUnobtainium 주문서&r와 설정은 같지만 마나가 무한하고 모든 문양이 잠금 해제되어 "
         "있습니다! \n\n모든 주문 위력을 손에 넣는 겁니다, 으하하하!"
     ),
     "quest.6C5F9D0D447EFB9C.quest_desc": (
         "&l&2바닐라&r 방어구가 전부라고 생각하셨나요? \n\n&6Allthemodium 방어구&r는 "
-        "방어력과 방어 강도가 더 높고, 마법 피해 보호와 여러 강화 효과도 제공합니다. 자세한 "
+        "방어력과 방어 강도가 더 높고, 마법 피해 저항과 여러 강화 효과도 제공합니다. 자세한 "
         "내용은 &6&lAllthemodium&r 퀘스트 페이지에서 확인하세요! \n\n제작하려면 "
         "&c네더라이트&r가 필요합니다."
     ),
@@ -400,6 +400,29 @@ VALUE_OVERRIDES: dict[str, snbt.TranslationValue] = {
     "quest.7154D73516548149.title": "&l&6Allthemodium",
     "quest.7279700A93E8630B.title": "&5Unobtainium&r",
     "quest.72DDA413D73E3235.title": "&3Vibranium 방어구",
+    "quest.0484051446480B54.quest_desc": paragraph(
+        "엄청난 피해를 주고 나무를 통째로 베어 쓰러뜨립니다! 더 바랄 게 있나요?"
+    ),
+    "quest.03E05018D64DDEE1.quest_desc": paragraph(
+        "&e채굴 등급 5&r는 사실상 Allthemodium 광석을 위한 단계이며, 그 밖의 용도는 "
+        "많지 않습니다."
+    ),
+    "quest.03E05018D64DDEE1.title": "&e채굴 등급 5",
+    "quest.09733948CBCB3FB9.quest_desc": paragraph(
+        "&d채굴 등급 6&r은 가장 높은 단계입니다. Vibranium과 Unobtainium을 포함해 "
+        "파괴할 수 있는 모든 블록을 채굴할 수 있습니다."
+    ),
+    "quest.09733948CBCB3FB9.title": "&d채굴 등급 6",
+    "quest.552F0B9B00F4F914.quest_desc": paragraph(
+        "이 퀘스트는 &6AllTheMods 스태프&r 또는 &2커뮤니티 기여자&r가 AllTheMods "
+        "모드팩에 사용하기 위해 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 "
+        "&eAll Rights Reserved&r 라이선스로 보호되므로, &6AllTheMods 팀&r의 명시적인 "
+        "허가 없이 다른 공개 모드팩에 이 퀘스트를 사용할 수 없습니다. \\n\\n이 퀘스트는 "
+        "의도적으로 숨겨져 있습니다. 이 문구가 보인다면 편집 모드입니다."
+    ),
+    "quest.5A26738AC904DC39.quest_desc": paragraph("주문 슬롯 13개!"),
+    "quest.5FA68047A3C05E80.quest_desc": paragraph("주문 슬롯 15개!"),
+    "quest.77AD61FCA9BC9AFB.quest_desc": paragraph("주문 슬롯 14개!"),
 }
 
 
@@ -537,8 +560,15 @@ def main() -> int:
             / f"output/resourcepack/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"
         )
         path.parent.mkdir(parents=True, exist_ok=True)
+        existing = (
+            json.loads(path.read_text(encoding="utf-8")) if path.is_file() else {}
+        )
+        if not isinstance(existing, dict):
+            raise TypeError(f"관련 언어 파일 최상위 값이 객체가 아닙니다: {path}")
+        existing.update(values)
         path.write_text(
-            json.dumps(values, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+            json.dumps(existing, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
         )
         related_language_files.append(path.relative_to(PROJECT_ROOT).as_posix())
 
