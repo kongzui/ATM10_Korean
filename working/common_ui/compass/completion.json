@@ -19,16 +19,16 @@
     }
   ],
   "counts": {
-    "existing_korean_reused": 138,
-    "existing_korean_corrected": 163,
-    "newly_translated": 72,
+    "existing_korean_reused": 342,
+    "existing_korean_corrected": 31,
+    "newly_translated": 0,
     "output_keys": 373,
-    "related_quest_descriptions_corrected": 1
+    "related_quest_strings_corrected": 1
   },
   "related_scope": {
-    "ftb_quests": "나침반 두 종류를 함께 안내하는 팁 퀘스트 설명 1개를 UI 용어에 맞춰 교정",
+    "ftb_quests": "20개 파일의 39개 참조를 대조하고, 두 나침반을 안내하는 팁 퀘스트 자막의 생물군계 띄어쓰기 1건을 교정; 명시적 제목·설명과 Smart Filter task fallback 정상",
     "kubejs": "Explorer's Compass 조합법과 Waystones 태그만 확인; 사용자 표시 문구 없음",
-    "advancements_and_guides": "세 모드가 직접 소유한 추가 번역 대상 없음",
+    "advancements_and_guides": "세 JAR의 조합법 advancement 60개는 display가 없고, 가이드 자산도 없어 추가 번역 대상 없음",
     "reward_tables": "웨이스톤·워프 플레이트 아이템 참조만 확인; 이름은 리소스팩 번역 사용"
   },
   "validation": {
@@ -38,6 +38,22 @@
     "format_codes": "passed",
     "line_breaks": "passed",
     "utf8_bom": false,
-    "snbt_target_line": "passed"
+    "snbt_target_line": "passed",
+    "full_ftbquests_title_verifier": "이번 범위 밖의 공통 챕터 작업본 불일치 5건으로 중단"
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "configured_targets": [
+      "game_root"
+    ],
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/explorerscompass/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/naturescompass/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/waystones/lang/ko_kr.json"
+    ],
+    "unexpected_changes": [],
+    "backup_manifest": "temp/backups/20260801_153400_279533/backup_manifest.json"
   }
 }
