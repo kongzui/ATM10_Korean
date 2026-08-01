@@ -22,7 +22,7 @@
     {
       "type": "patchouli:text",
       "title": "전리품",
-      "text": "침략자는 $(l:apotheosis:adventure/mobs/invader_items)특별한 어픽스 아이템$()을 반드시 떨어뜨리며, 일반 몹과 달리 추가 보너스 전리품 표를 가질 수도 있습니다.$(p)보석을 떨어뜨릴 확률도 더 높습니다."
+      "text": "침략자는 $(l:apotheosis:adventure/mobs/invader_items)특별한 어픽스 아이템$()을 반드시 떨어뜨리며, 일반 몹과 달리 추가 보너스 전리품 테이블을 가질 수도 있습니다.$(p)보석을 떨어뜨릴 확률도 더 높습니다."
     }
   ]
 }

@@ -11,7 +11,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "이 방식으로 스포너를 채굴하면 내구도가 추가로 소모됩니다.$(p)몹 스포너에는 작동 방식을 결정하는 여러 $(l:apotheosis:spawner/stats)스포너 능력치$()가 있습니다.$(p)이 능력치는 $(l:apotheosis:spawner/modifiers)스포너 변경 요소$()로 바꿀 수 있습니다."
+      "text": "이 방식으로 스포너를 채굴하면 내구도가 추가로 소모됩니다.$(p)몹 스포너에는 작동 방식을 결정하는 여러 $(l:apotheosis:spawner/stats)스포너 능력치$()가 있습니다.$(p)이 능력치는 $(l:apotheosis:spawner/modifiers)스포너 개조법$()으로 바꿀 수 있습니다."
     }
   ]
 }

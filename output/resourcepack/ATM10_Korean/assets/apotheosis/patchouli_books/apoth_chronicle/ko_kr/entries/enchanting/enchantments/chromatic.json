@@ -1,5 +1,5 @@
 {
-  "name": "색 왜곡",
+  "name": "색수차",
   "icon": "minecraft:enchanted_book",
   "category": "apotheosis:enchanting/enchantments",
   "flag": "apotheosis:enchanting",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(9)색 왜곡$()은 가위용 마법 부여입니다.$(p)깎은 모든 양털을 무작위 색으로 바꿉니다."
+      "text": "$(9)색수차$()는 가위용 마법 부여입니다.$(p)깎은 모든 양털을 무작위 색으로 바꿉니다."
     }
   ]
 }
