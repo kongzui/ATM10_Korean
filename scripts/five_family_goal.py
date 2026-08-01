@@ -250,6 +250,12 @@ TARGETS = (
         "Modern Dynamics",
     ),
     Target("basic_logistics", "xnet-", "xnet", "XNet"),
+    Target(
+        "modular_routers",
+        "modular-routers-",
+        "modularrouters",
+        "Modular Routers",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -267,6 +273,7 @@ FAMILY_LABELS = {
     "refined_storage": "Refined Storage 2",
     "functional_storage": "Functional Storage·Pocket Storage·EnderStorage",
     "basic_logistics": "Pipez·Modern Dynamics·XNet",
+    "modular_routers": "Modular Routers",
 }
 
 QUEST_CHAPTERS = {
@@ -284,6 +291,7 @@ QUEST_CHAPTERS = {
     "refined_storage": ("refined_storage",),
     "functional_storage": (),
     "basic_logistics": (),
+    "modular_routers": ("modular_router",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -303,6 +311,7 @@ QUEST_TEXT_MARKERS = {
         "ender storage",
     ),
     "basic_logistics": ("pipez", "modern dynamics", "xnet"),
+    "modular_routers": ("modular routers", "modularrouters"),
 }
 
 EXTRA_SCOPE = {
@@ -356,6 +365,8 @@ ALLOWED_ORIGINALS = {
     "Functional Storage",
     "Pocket Storage",
     "EnderStorage",
+    "Modular Routers",
+    "FTB Filter System",
     "Shift",
     "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
     "Pipez",

@@ -1,0 +1,11 @@
+{
+  "name": "크리에이티브 모듈",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:creative_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "크리에이티브 모듈은 제작할 수 없는 특수 모듈로, 아무것도 없는 곳에서 아이템을 만들어 라우터 버퍼에 넣습니다.$(p)모듈의 필터를 아이템 목록으로 사용하며 틱마다 순환 방식으로 다음 아이템을 만듭니다. 허용/차단 목록이나 NBT 일치 같은 다른 필터 설정은 무시합니다."
+    }
+  ]
+}

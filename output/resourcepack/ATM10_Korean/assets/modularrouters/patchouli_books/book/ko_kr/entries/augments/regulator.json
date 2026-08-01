@@ -1,0 +1,27 @@
+{
+  "name": "조절기 증강",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:regulator_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "인벤토리 또는 라우터 버퍼로 보내거나 그곳에서 가져올 아이템 수를 정밀하게 제어하는 증강입니다.$(p)조절기 증강을 넣은 모듈의 GUI에는 한도를 설정하는 숫자 입력란이 추가됩니다. 이 한도의 의미는 모듈에 따라 달라집니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)발신기 $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$ / $(l:modules/sender_3)Mk3/$ 모듈과 $(l:modules/player)플레이어 모듈/$ (삽입 모드)은 인벤토리에 해당 아이템이 설정 수량보다 적을 때만 아이템을 보냅니다.$(li)회수기 $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$ 모듈과 $(l:modules/player)플레이어 모듈/$ (추출 모드)은 인벤토리에 해당 아이템이 설정 수량보다 많을 때만 아이템을 가져옵니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l:modules/dropper)공급기/$, $(l:modules/flinger)투척기/$, $(l:modules/placer)배치기/$, $(l:modules/void)공허/$ 모듈은 라우터 버퍼에 해당 아이템이 설정 수량보다 많을 때만 작동합니다.$(li)$(l:modules/breaker)파괴기/$와 $(l:modules/vacuum)흡입/$ 모듈은 라우터 버퍼에 해당 아이템이 설정 수량보다 적을 때만 작동합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)유체 $(l:modules/fluid)Mk1/$ / $(l:modules/fluid_2)Mk2/$ 모듈에서는 아이템 수 대신 대상 탱크 용량의 백분율이나 mB 단위 절대량을 한도로 설정할 수 있습니다(GUI에서 선택). 유체를 가져올 때는 대상의 유체가 설정량보다 $(italic)많을/$ 때만, 내보낼 때는 설정량보다 $(italic)적을/$ 때만 작동합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:regulator_augment"
+    }
+  ]
+}

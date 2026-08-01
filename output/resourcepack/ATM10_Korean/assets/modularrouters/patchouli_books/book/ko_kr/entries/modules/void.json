@@ -1,0 +1,15 @@
+{
+  "name": "공허 모듈",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:void_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 위험한 모듈은 라우터 버퍼의 아이템을 영구적으로 파괴합니다! 귀중한 아이템을 실수로 삭제하지 않도록 $(l:intro/modules#filter)허용 목록 필터/$를 반드시 설정하는 것이 좋습니다..."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:void_module"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "family": "Modular Routers",
+  "installed": [
+    {
+      "label": "Modular Routers",
+      "jar": "modular-routers-13.2.5+mc1.21.1.jar",
+      "namespace": "modularrouters",
+      "direct_integration": false,
+      "english_keys": 371,
+      "bundled_korean_keys": 357,
+      "metadata_mentions_family": [
+        "modularrouters"
+      ],
+      "guide_candidates": 125,
+      "guide_examples": [
+        "assets/modularrouters/models/item/manual.json",
+        "assets/modularrouters/patchouli_books/book/en_us/categories/augments.json",
+        "assets/modularrouters/patchouli_books/book/en_us/categories/filters.json",
+        "assets/modularrouters/patchouli_books/book/en_us/categories/intro.json",
+        "assets/modularrouters/patchouli_books/book/en_us/categories/modules.json",
+        "assets/modularrouters/patchouli_books/book/en_us/categories/router.json",
+        "assets/modularrouters/patchouli_books/book/en_us/categories/upgrades.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/augments/fast_pickup.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/augments/mimic.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/augments/pickup_delay.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/augments/pushing.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/augments/range_down.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/augments/range_up.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/augments/redstone.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/augments/regulator.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/augments/stack.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/augments/xp_vacuum.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/filters/bulk_item.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/filters/ftb_filter_system.json",
+        "assets/modularrouters/patchouli_books/book/en_us/entries/filters/inspection.json"
+      ],
+      "advancements": 54,
+      "advancement_examples": [
+        "data/modularrouters/advancement/recipes/misc/activator_module.json",
+        "data/modularrouters/advancement/recipes/misc/augment_core.json",
+        "data/modularrouters/advancement/recipes/misc/blank_module.json",
+        "data/modularrouters/advancement/recipes/misc/blank_upgrade.json",
+        "data/modularrouters/advancement/recipes/misc/blast_upgrade.json",
+        "data/modularrouters/advancement/recipes/misc/bulk_item_filter.json",
+        "data/modularrouters/advancement/recipes/misc/camouflage_upgrade.json",
+        "data/modularrouters/advancement/recipes/misc/detector_module.json",
+        "data/modularrouters/advancement/recipes/misc/distributor_module.json",
+        "data/modularrouters/advancement/recipes/misc/dropper_module.json",
+        "data/modularrouters/advancement/recipes/misc/energy_distributor_module.json",
+        "data/modularrouters/advancement/recipes/misc/energy_output_module.json",
+        "data/modularrouters/advancement/recipes/misc/energy_upgrade.json",
+        "data/modularrouters/advancement/recipes/misc/extruder_module_2.json",
+        "data/modularrouters/advancement/recipes/misc/fast_pickup_augment.json",
+        "data/modularrouters/advancement/recipes/misc/filter_round_robin_augment.json",
+        "data/modularrouters/advancement/recipes/misc/flinger_module.json",
+        "data/modularrouters/advancement/recipes/misc/fluid_module.json",
+        "data/modularrouters/advancement/recipes/misc/fluid_module_2.json",
+        "data/modularrouters/advancement/recipes/misc/fluid_module_2_x4.json"
+      ],
+      "recipes": 112
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Modular Routers",
+      "jar": "modular-routers-13.2.5+mc1.21.1.jar",
+      "namespace": "modularrouters",
+      "english_keys": 371,
+      "bundled_ko_kr": 265,
+      "new_translation_required": 106
+    }
+  ]
+}

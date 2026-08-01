@@ -1,0 +1,19 @@
+{
+  "name": "스마트 필터",
+  "icon": "modularrouters:bulk_item_filter",
+  "category": "modularrouters:intro",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)스마트 필터/$는 일반 아이템 대신 $(l:intro/modules)모듈/$의 필터 슬롯에 넣습니다. 아이템 자체를 직접 비교하는 대신 필터별 특수 일치 기능을 제공합니다.$(p)예를 들어 $(l:filters/bulk_item)대량 아이템 필터/$는 서로 다른 아이템을 최대 54개까지 빠르게 비교하며, 기존 인벤토리에서 항목을 가져와 설정할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "modularrouters:textures/patchouli/bulk_filter.png"
+      ],
+      "text": "$(italic)회수기 모듈 Mk2에 설치한 대량 아이템 필터/$",
+      "border": true
+    }
+  ]
+}

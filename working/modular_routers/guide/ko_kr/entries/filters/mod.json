@@ -1,0 +1,19 @@
+{
+  "name": "모드 필터",
+  "category": "modularrouters:filters",
+  "icon": "modularrouters:mod_filter",
+  "pages": [
+    {
+      "type": "text",
+      "text": "아이템이 속한 모드를 기준으로 일치 여부를 판단하는 필터입니다. 설치한 필터 하나마다 모드를 최대 6개까지 추가할 수 있습니다.$(li)필터를 $(thing)우클릭/$하여 GUI를 여세요. 모듈에 설치된 필터는 $(thing)가운데 클릭/$하거나 필터 위에서 $(bold)$(4)[$(k:modularrouters.configure)]/$ 키를 눌러도 됩니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)GUI 왼쪽 위 아이템 슬롯에 아무 아이템이나 넣으면 오른쪽에 그 아이템의 모드 이름이 표시됩니다. $(bold)$(2)+/$ 버튼을 눌러 아래 모드 목록에 추가하세요.$(li)항목 옆의 빨간 $(bold)$(4)X/$ 버튼을 누르면 목록에서 해당 모드를 제거합니다.$(p)바닐라 아이템도 추가할 수 있으며, 해당 '모드'는 $(italic)Minecraft/$로 표시됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:mod_filter"
+    }
+  ]
+}

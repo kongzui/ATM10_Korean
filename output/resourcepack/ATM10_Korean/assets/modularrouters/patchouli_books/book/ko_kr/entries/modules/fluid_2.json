@@ -1,0 +1,19 @@
+{
+  "name": "유체 모듈 Mk2",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:fluid_module_2",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:modules/fluid_1)유체 모듈 Mk1/$처럼 버퍼에 유체 용기 아이템이 있으면 라우터 안팎으로 유체를 전송합니다. 이 모듈은 최대 12블록 떨어진 대상도 지정할 수 있으며 $(l:augments/range_up)범위 증가 증강/$을 사용하면 최대 24블록까지 늘어납니다."
+    },
+    {
+      "type": "text",
+      "text": "모듈을 들고 아무 블록이나 $(thing)웅크린 채 우클릭/$하여 대상으로 지정하세요.$(p)대상 블록이 반드시 유체 탱크일 필요는 없습니다. 대상을 지정한 뒤 블록을 부수면 모듈이 그 위치의 월드에 양동이의 유체를 비울 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:fluid_module_2"
+    }
+  ]
+}

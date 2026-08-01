@@ -1,0 +1,199 @@
+{
+  "block.modularrouters.modular_router": "모듈러 라우터",
+  "config.jade.plugin_modularrouters.router": "모듈러 라우터",
+  "item.modularrouters.augment_core": "증강 코어",
+  "item.modularrouters.fast_pickup_augment": "빠른 줍기 증강",
+  "item.modularrouters.filter_round_robin_augment": "필터 순환 선택 증강",
+  "item.modularrouters.flinger_module": "투척기 모듈",
+  "item.modularrouters.fluid_upgrade": "유체 전송 업그레이드",
+  "item.modularrouters.mimic_augment": "모방 증강",
+  "item.modularrouters.pickup_delay_augment": "줍기 지연 증강",
+  "item.modularrouters.pushing_augment": "밀기 증강",
+  "item.modularrouters.range_down_augment": "범위 감소 증강",
+  "item.modularrouters.range_up_augment": "범위 증가 증강",
+  "item.modularrouters.redstone_augment": "레드스톤 증강",
+  "item.modularrouters.regulator_augment": "조절기 증강",
+  "item.modularrouters.stack_augment": "스택 증강",
+  "item.modularrouters.vacuum_module": "흡입 모듈",
+  "item.modularrouters.xp_vacuum_augment": "경험치 흡입 증강",
+  "modularrouters.gui.config.breakerParticles": "파괴기 입자 효과 표시",
+  "modularrouters.gui.config.ecoTimeout": "에코 모드 유휴 전환 시간",
+  "modularrouters.gui.config.extruder2MaxRange": "압출기 Mk2 절대 최대 범위(범위 업그레이드 적용)",
+  "modularrouters.gui.config.extruderPushEntities": "압출기 Mk1/2가 확장될 때 엔티티 밀기",
+  "modularrouters.gui.config.extruderSound": "압출기 모듈이 확장되거나 회수될 때 소리 재생",
+  "modularrouters.gui.config.flingerEffects": "투척기 모듈 작동 시 소리와 연기 효과 재생",
+  "modularrouters.gui.config.lowPowerTickRate": "에코 모드 틱 주기",
+  "modularrouters.gui.config.mainTitle": "Modular Routers 설정",
+  "modularrouters.gui.config.moduleGuiBackgroundTint": "모듈 GUI 배경에 색상 적용",
+  "modularrouters.gui.config.placerParticles": "배치기 입자 효과 표시",
+  "modularrouters.gui.config.puller2MaxRange": "회수기 Mk2 절대 최대 범위(범위 업그레이드 적용)",
+  "modularrouters.gui.config.pullerParticles": "회수기 입자 효과 표시",
+  "modularrouters.gui.config.sender1MaxRange": "발신기 Mk1 절대 최대 범위(범위 업그레이드 적용)",
+  "modularrouters.gui.config.sender2MaxRange": "발신기 Mk2 절대 최대 범위(범위 업그레이드 적용)",
+  "modularrouters.gui.config.senderParticles": "발신기가 아이템을 보낼 때 입자 효과 표시",
+  "modularrouters.gui.config.startWithGuide": "새 플레이어에게 설명서 지급",
+  "modularrouters.gui.config.vacuumMaxRange": "흡입 모듈 절대 최대 범위(범위 업그레이드 적용)",
+  "modularrouters.gui.config.vacuumParticles": "흡입 모듈 입자 효과 표시",
+  "modularrouters.guiText.label.fluidForceEmpty": "강제 비우기",
+  "modularrouters.guiText.popup.augments": "§a§n증강§r\n\n이 네 슬롯에는 모듈의 기능을 바꾸거나 향상하는 제작 아이템인 모듈 증강을 넣을 수 있습니다.\n\n각 증강의 기능은 증강 아이템의 툴팁에서 확인하세요.\n\n증강 복제를 막기 위해 모듈 아이템을 하나만 들고 있을 때만 증강을 넣거나 뺄 수 있습니다.",
+  "modularrouters.guiText.popup.activator.action": "§a§n행동§r\n\n활성기 모듈은 다음 행동을 흉내 낼 수 있습니다.\n- 라우터 버퍼의 아이템으로 블록 우클릭(예: 괭이 사용, 레버 전환)\n- 주변 엔티티 우클릭(예: 라우터 버퍼의 양동이로 소의 우유 짜기)",
+  "modularrouters.guiText.popup.activator.entity": "§a§n엔티티 모드§r\n\n모듈이 작동할 때 주변(3블록 이내)의 어떤 엔티티를 대상으로 삼을지 정합니다.\n- 가장 가까운 엔티티\n- 무작위 엔티티\n- 범위 내 엔티티 순환 선택",
+  "modularrouters.guiText.popup.distributor.strategy": "§a§n분배 방식§r\n\n대상 인벤토리를 시도할 순서를 정합니다. 다음 네 가지 방식이 있습니다.\n\n§e순환 분배§r - 대상 인벤토리를 차례대로 시도합니다.\n\n§e무작위§r - 매 틱 무작위 인벤토리를 시도합니다.\n\n§e가까운 곳부터§r - 아이템을 넣을 공간이 있는 가장 가까운 인벤토리를 사용합니다.\n\n§e먼 곳부터§r - 아이템을 넣을 공간이 있는 가장 먼 인벤토리를 사용합니다.",
+  "modularrouters.guiText.popup.filter": "§a§n필터§r\n\n여기에 아이템의 고스트 복사본을 놓아 모듈이 처리할 대상을 정합니다. 라우터 버퍼의 아이템이 필터 조건과 일치하지 않으면 모듈이 작동하지 않습니다. 아래의 필터 제어 버튼도 확인하세요.",
+  "modularrouters.guiText.popup.flinger.pitch": "§a§n투척기 피치§r\n\n도 단위의 수직 오프셋입니다.\n\n- 모듈이 수평을 향하면 수평(X 또는 Z)축에서 위아래로 기울어집니다.\n- 모듈이 위나 아래를 향하면 수직(Y)축에서 벗어나는 각도입니다.",
+  "modularrouters.guiText.popup.flinger.speed": "§a§n투척기 속도§r\n\n라우터가 아이템을 던질 때 부여하는 속도입니다.\n\n대략 속도 1.0, 피치 30, 수평 방향으로 설정하면 아이템을 해당 방향으로 약 20블록 던집니다.",
+  "modularrouters.guiText.popup.flinger.yaw": "§a§n투척기 요§r\n\n도 단위의 수평 오프셋입니다.\n\n- 모듈이 수평을 향하면 수평(X 또는 Z)축에서 좌우로 틀어집니다.\n- 모듈이 위나 아래를 향하면 수직(Y)축에서 벗어나는 각도입니다. 피치가 0이 아닐 때만 의미가 있습니다.",
+  "modularrouters.guiText.popup.fluid.direction": "§a§n전송 방향§r\n\n라우터가 유체를 월드나 탱크로 내보낼지, 월드나 탱크에서 가져올지 정합니다.",
+  "modularrouters.guiText.tooltip.fluidRegulatorTooltip": "§b유체 조절 켜짐\n라우터에서 내보낼 때: 목적지 탱크의 유체가 설정량보다 적을 때만 넣습니다.\n라우터로 가져올 때: 원본 탱크의 유체가 설정량보다 많을 때만 빼냅니다.",
+  "modularrouters.guiText.tooltip.activator.entityMode": "엔티티",
+  "modularrouters.guiText.tooltip.loadFilter": "필터 불러오기\n%s @ %s에서\n§o기존 필터 내용을 덮어씁니다!",
+  "modularrouters.guiText.tooltip.maxFluidPerOp": "전송 속도: %d틱마다 %d mB(틱당 %d mB)",
+  "modularrouters.guiText.tooltip.mergeFilter": "필터 병합\n%s @ %s에서",
+  "modularrouters.guiText.tooltip.regulatorTooltip": "§b아이템 조절 켜짐\n삽입할 때: 인벤토리의 해당 아이템이 설정 수량보다 적을 때만 넣습니다.\n추출할 때: 인벤토리의 해당 아이템이 설정 수량보다 많을 때만 뺍니다.",
+  "modularrouters.itemText.augments": "증강:",
+  "modularrouters.itemText.fluid.maxTransfer": "유체 속도: 작업당 최대 %s mB",
+  "modularrouters.itemText.misc.blacklist": "차단 목록",
+  "modularrouters.itemText.misc.bulkItemFilter.count": "필터에 아이템 %d개",
+  "modularrouters.itemText.misc.configureHint": "▶ [%s] 또는 [%s]을(를) 눌러 설정",
+  "modularrouters.itemText.misc.energyUsage": "에너지 사용량: 작업당 %s FE",
+  "modularrouters.itemText.misc.filter.count": "• 필터에 항목 %d개",
+  "modularrouters.itemText.misc.flingerDetails": "속도: %s | 피치: %s | 요: %s",
+  "modularrouters.itemText.misc.holdShiftKey": "▶ 설정은 [%s], 자세한 정보는 [%s] 키를 누르세요",
+  "modularrouters.itemText.misc.rangeInfo": "범위: %s [기본 %s, 최대 %s]",
+  "modularrouters.itemText.misc.upgrades": "업그레이드",
+  "modularrouters.itemText.misc.whitelist": "허용 목록",
+  "modularrouters.itemText.sync.tuning": "조정값: %s",
+  "modularrouters.itemText.usage.item.extruder_module_1": "라우터의 레드스톤 신호에 따라 모듈 방향을 따라 블록을 배치하거나 제거합니다.\n기본적으로 신호가 있으면 배치하고 없으면 제거합니다. 동작을 바꾸려면 모듈에 레드스톤 증강을 추가하세요.",
+  "modularrouters.itemText.usage.item.fast_pickup_augment": "흡입 모듈이 드롭된 아이템의 일반적인 줍기 지연을 무시하게 합니다.",
+  "modularrouters.itemText.usage.item.filter_round_robin_augment": "기본적인 하나라도 일치/모두 일치 방식 대신 실행 틱마다 필터의 아이템 하나와 비교합니다. 비교할 아이템은 오름차순으로 순환 선택합니다.\n아이템을 정해진 순서대로 처리할 때 유용합니다.",
+  "modularrouters.itemText.usage.item.flinger_module": "라우터 버퍼의 아이템을 먼 거리까지 던집니다. 모듈 GUI에서 속도, 피치, 요를 조절할 수 있습니다.",
+  "modularrouters.itemText.usage.item.fluid_module_2": "라우터와 주변 블록 사이에서 유체를 전송합니다.\n• 라우터 버퍼에 유체 용기 아이템이 있어야 합니다.\n• 탱크 또는 월드와 유체를 주고받을 수 있습니다.",
+  "modularrouters.itemText.usage.item.fluid_module": "라우터와 모듈 방향에 인접한 블록 사이에서 유체를 전송합니다.\n• 라우터 버퍼에 유체 용기 아이템이 있어야 합니다.\n• 탱크 또는 월드와 유체를 주고받을 수 있습니다.",
+  "modularrouters.itemText.usage.item.fluidUpgradeRouter": "• 이 라우터의 유체 전송 속도: %d mB/틱",
+  "modularrouters.itemText.usage.item.mimic_augment": "압출기 Mk2가 배치하는 가짜 블록이 모방 대상 블록의 조명, 레드스톤 출력, 경도와 폭발 저항도 따라 하게 합니다.",
+  "modularrouters.itemText.usage.item.muffler_upgrade": "라우터와 모듈의 소리·입자 효과를 억제합니다.\n• 1개: 소리 효과 억제\n• 2개 이상: 입자 효과도 억제\n• 3개 이상: 라우터 작동 애니메이션도 억제",
+  "modularrouters.itemText.usage.item.pickup_delay_augment": "드롭하거나 던진 아이템의 줍기 지연을 증강 하나당 10틱 늘립니다.",
+  "modularrouters.itemText.usage.item.range_down_augment": "증강 하나당 모듈의 범위를 1블록 줄입니다.",
+  "modularrouters.itemText.usage.item.range_up_augment": "증강 하나당 모듈의 범위를 1블록 늘립니다(절대 최대 범위는 모듈 툴팁 참조).",
+  "modularrouters.itemText.usage.item.security_upgrade": "라우터를 보호하여 목록에 등록된 플레이어만 접근할 수 있게 합니다.\n또한 활성기 모듈의 공격으로부터 소유자를 보호하고 여러 모듈이 소유자인 것처럼 작동하게 하므로, 청크 보호 구역에서 매우 유용합니다.\n• 플레이어 우클릭: 이 업그레이드에 추가\n• 플레이어를 웅크린 채 우클릭: 제거",
+  "modularrouters.itemText.usage.item.sender_module_1": "라우터 버퍼의 아이템을 X/Y/Z축을 따라 있는 인벤토리로 보냅니다.\n대상이 보여야 하며 불투명 블록이 경로를 막습니다.",
+  "modularrouters.itemText.usage.item.sender_module_2": "라우터 버퍼의 아이템을 주변 인벤토리로 보냅니다.\n대상이 보이지 않아도 됩니다.",
+  "modularrouters.itemText.usage.item.vacuum_module": "월드의 주변 아이템을 라우터 버퍼로 흡입합니다.\n기본적으로 모든 방향에서 작동하지만 한 방향에서만 작동하도록 설정할 수 있습니다.",
+  "modularrouters.itemText.usage.item.void_module": "§c§o주의§r\n버퍼의 아이템을 영구적으로 파괴합니다!",
+  "modularrouters.itemText.usage.item.activator_module": "라우터 버퍼의 아이템을 사용해 블록과 엔티티를 우클릭합니다.\n라우터가 가짜 플레이어처럼 행동합니다.",
+  "modularrouters.itemText.usage.item.pushing_augment": "압출기 Mk1/2가 블록을 압출할 때 엔티티를 밀어내는 힘을 늘립니다. 중첩할 수 있습니다.",
+  "modularrouters.itemText.usage.item.xp_vacuum_augment": "흡입 모듈이 아이템 대신 경험치 구슬을 수집하게 합니다.\n경험치는 설치된 모드에 따라 여러 고체·유체 형태로 바꿀 수 있으며, 기본 Minecraft의 경험치 병은 항상 사용할 수 있습니다. 유체 경험치로 바꾸려면 mB 단위 유체를 저장할 수 있는 탱크가 필요합니다. 탱크 아이템을 라우터 버퍼에 넣거나, 탱크 블록을 라우터 옆에 놓고 모듈 GUI에서 방출 모드를 켜세요.",
+  "modularrouters.jei.recipe.module_reset.description": "모듈을 새로 제작한 상태로 완전히 초기화합니다. 주의: 필터 설정과 마법 부여를 포함한 모든 데이터가 사라집니다(설치된 증강은 반환됩니다).",
+  "quest.09E25B1CD6CABD5A.quest_desc": [
+    "이 업그레이드는 라우터를 FramedBlocks의 블록처럼 위장하게 합니다.\n\n블록을 웅크린 채 우클릭하면 라우터의 외형을 그 블록으로 바꿉니다.\n\n잃어버리지 않도록 조심하세요!"
+  ],
+  "quest.0CE236731DF15DFF.quest_desc": [
+    "왜 기다려야 할까요? 보통 Minecraft에서 드롭된 아이템은 다시 주울 수 있을 때까지 잠시 기다려야 합니다.\n\n하지만 기다릴 필요가 있을까요?\n\n빠른 줍기 증강을 사용하면 흡입 모듈이 기다리지 않고 아이템을 즉시 줍습니다.\n\n렉을 줄이는 데도 아주 좋아요!"
+  ],
+  "quest.0D5691403AEC25A8.quest_desc": [
+    "라우터는 농사에도 사용할 수 있습니다!\n\n먼저 간단한 농장을 만드세요. 활성기 모듈을 작물 쪽으로 향하게 한 뒤, 작물을 수집할 흡입 모듈을 라우터에 넣으세요. 마지막으로 모듈과 필요한 아이템을 라우터에 넣고 레드스톤 신호를 주면 농사를 시작합니다!",
+    "{image:atm:textures/questpics/router/router_farm.png width:60 height:150 align:center}"
+  ],
+  "quest.0DC8B68CDF945348.quest_desc": [
+    "라우터는 주기도 하고 가져가기도 합니다.\n\n이 모듈은 건축가와 광부에게 유용합니다! 라우터 버퍼의 아이템을 플레이어 인벤토리로 보내거나, 플레이어 인벤토리의 아이템을 버퍼로 가져오도록 설정할 수 있습니다.\n\n굴을 일직선으로 팔 때 조약돌과 심층암을 인벤토리에서 자동으로 꺼내 쓰레기통으로 보내는 식으로 활용해 보세요."
+  ],
+  "quest.10672B5991E5FC34.quest_desc": [
+    "내 물건이니 만지지 마세요.\n\n이 업그레이드를 넣으면 소유자만 라우터를 사용하고 설정을 바꿀 수 있습니다."
+  ],
+  "quest.143AE6889BDA9EF5.quest_desc": [
+    "모듈의 일반 필터 슬롯이 부족하다면 대량 아이템 필터를 사용하세요!\n\n하나의 필터에 훨씬 많은 아이템을 넣고 허용 목록이나 차단 목록으로 쓸 수 있습니다. 설정한 뒤 일반 아이템 필터 자리에 넣으면 됩니다.\n\n더 특수한 필터를 제작할 때도 필요합니다!"
+  ],
+  "quest.177396B9C4F9B3E2.quest_desc": [
+    "왜 기다려야 하냐고요? 사라지기 쉬운 아이템처럼 기다려야 할 이유가 있을 수도 있겠네요. 그건 미처 생각하지 못했어요.\n\n줍기 지연 증강을 장착하면 흡입 모듈이 드롭된 아이템을 줍기 전에 증강 하나당 10틱씩 더 기다립니다!"
+  ],
+  "quest.185074907753AE77.quest_desc": [
+    "라우터를 사용할 정도라면 게임 지식도 충분하길 바랍니다.\n\n혹시 모르니 설명하자면, 아이템을 공허화한다는 것은 삭제한다는 뜻입니다.\n\n라우터로 들어온 아이템은 영원히 사라집니다!\n\n이 모듈에는 필터를 함께 사용하는 것을 권장합니다..."
+  ],
+  "quest.1A806C1A54B26EB5.quest_desc": [
+    "모든 모듈이 더 넓은 범위에서 작동할 필요는 없겠죠? 흡입 모듈이 월드에 떨어뜨린 아이템까지 바로 빨아들이지 않게 여유 공간을 두고 싶다면 범위를 줄여 보세요."
+  ],
+  "quest.1AA81C41431FD145.quest_desc": [
+    "당겨요! 당겨요! 또 당겨요!\n\n회수기는 발신기와 반대로 인벤토리의 아이템을 라우터 버퍼로 가져옵니다.\n\n인벤토리는 라우터에 인접해야 합니다."
+  ],
+  "quest.20D4568857887D38.quest_desc": [
+    "라우터로 위더를 소환하는 것처럼 위험한 작업을 할 수도 있습니다.\n\n라우터를 보호하려면 방폭 업그레이드가 필요합니다.\n\nTNT도 위더도 라우터를 파괴할 수 없고, 플레이어만 파괴할 수 있습니다."
+  ],
+  "quest.233C7CAA573D6045.quest_desc": [
+    "모듈은 라우터가 수행할 작업을 정합니다.\n\n상자에서 아이템을 가져오거나 상자에 넣거나, 두 작업을 모두 수행하는 등 다양한 기능을 제공합니다!\n\n모듈은 라우터에 직접 넣으며 여러 개를 설치할 수 있습니다.\n\n필터와 증강은 개별 모듈에 넣습니다."
+  ],
+  "quest.2447208F1DC74FFE.quest_desc": [
+    "라우터는 시끄러울 수 있으며, 수백 개를 놓으면 소음도 그대로 겹칩니다.\n\n그럴 때는 소음기 업그레이드를 사용해 보세요!"
+  ],
+  "quest.247DAE5B4E1AC7F1.quest_desc": [
+    "물을 가져오고,\n물을 내보냅니다.\n\n유체 모듈은 라우터 옆의 유체 원천을 버퍼 안 탱크로 가져오거나, 버퍼 안 탱크의 유체를 모듈 앞에 놓습니다.\n\n라우터에 인접한 블록에만 작동합니다. 더 넓은 범위가 필요하다면..."
+  ],
+  "quest.2DD5F0693780B10A.quest_desc": [
+    "압출기 Mk2와 함께 사용하면 압출된 블록이 실제 블록의 성질도 모방합니다. 레드스톤 블록은 레드스톤 신호를 내고, 발광석은 빛을 내며, 잔디 블록은 투명하게 처리됩니다. 단, 이 증강을 장착해야 합니다!\n화로나 농축기 같은 블록 엔티티에는 작동하지 않습니다."
+  ],
+  "quest.309B6B8368E535A0.quest_desc": [
+    "라우터는 자체 틱이 올 때마다 작업을 수행합니다.\n\n기본 주기는 20틱, 즉 1초입니다.\n\n속도 업그레이드를 사용하면 이 틱 수를 줄일 수 있습니다!"
+  ],
+  "quest.326C63F7DC713E71.quest_desc": [
+    "분배기는 발신기 모듈의 이복형제 같은 장치입니다(Mk2 쪽을 닮은 Mk3라고 할 수 있죠).\n\n인벤토리 1개가 아니라 선택한 여러 인벤토리로 아이템을 보냅니다.\n\n순환 분배, 무작위, 가까운 곳부터, 먼 곳부터의 네 가지 방식을 지원합니다. 순환 분배는 포커 딜러처럼 각 인벤토리에 차례로 같은 양을 보내고, 무작위는 매번 임의의 인벤토리를 선택합니다. 나머지 두 방식은 라우터와의 거리에 따라 대상을 정합니다."
+  ],
+  "quest.38954551309F42A7.quest_desc": [
+    "발신기 모듈 Mk2는 Mk1과 비슷하지만 제약이 더 적습니다.\n\nMk2는 대상이 같은 XYZ축에 있거나 직접 보일 필요가 없습니다.\n\n하지만 다음 단계의 모듈이 없다면 같은 차원 안에 있어야 합니다..."
+  ],
+  "quest.3C54C36CE97A48DC.quest_desc": [
+    "드로퍼는 떨어뜨리고,\n디스펜서는 발사하고,\n투척기는 던집니다!\n\n투척기 모듈은 버퍼의 아이템을 얌전히 내려놓는 대신 멀리 던집니다. 얼마나 멀리 던질지는 직접 정할 수 있어요!"
+  ],
+  "quest.417B88FEB1B8F44E.quest_desc": [
+    "이 모듈은 정말 잘 빨아들입니다! 말 그대로요!\n\n흡입 모듈은 설정한 영역의 아이템을 흡입하여 라우터 버퍼로 옮깁니다. 흡수 호퍼와 비슷합니다.\n\n경험치 흡입 증강과 함께 사용할 수도 있습니다!"
+  ],
+  "quest.4A03A671757B2EBF.quest_desc": [
+    "내구도, 유체 수준, 에너지 수준, 마법 부여 단계, 음식 회복량을 검사 필터의 조건으로 사용할 수 있습니다.\n\n먼저 값이 지정한 수보다 큰지, 작은지, 같은지 또는 이 조건들의 조합인지 선택합니다.\n\n비교할 수를 입력하고 더하기 버튼을 눌러 필터에 추가하세요.\n\n내구도가 높은 도구나 회복량이 높은 음식만 보관하는 데 활용할 수 있습니다."
+  ],
+  "quest.4EAFE7B240AF0A4D.quest_desc": [
+    "필요한 곳까지 닿지 않나요? 범위 증가 증강을 사용해 보세요!\n\n모듈이 더 먼 곳까지 작동하게 됩니다. 흡입 모듈은 더 멀리 있는 아이템을 줍고, 유체 모듈은 더 먼 곳에 닿습니다."
+  ],
+  "quest.4FA5192164E4A427.quest_desc": [
+    "유체는 아이템처럼 스택으로 쌓이지 않으므로 업그레이드 방식도 조금 다릅니다. 전송 단위는 다르지만 이 업그레이드도 한 번에 더 많은 양을 옮기게 합니다."
+  ],
+  "quest.53A5F5E49EA8D5AF.quest_desc": [
+    "Modular Routers로 간단하고 정돈된 몹 농장을 만드는 예시입니다(몹을 처치하는 방법은 포함하지 않습니다).\n\n위더 스켈레톤 농장을 예로 들어 볼게요.\n\n먼저 흡입 모듈로 아이템을 버퍼에 가져옵니다. 다음으로 공허 모듈로 돌 검을 제거합니다. 모든 아이템을 지우지 않도록 돌 검을 넣은 허용 목록을 만들고 내구도 일치는 끄세요. 전리품을 보관할 곳도 필요합니다. 서랍 시스템을 추천해요. 마지막으로 발신기 모듈로 전리품을 저장 시스템에 보냅니다.\n\n이게 전부입니다!",
+    "{image:atm:textures/questpics/router/router_mob.png width:200 height:65 align:center}"
+  ],
+  "quest.553C44F85E508DE3.quest_desc": [
+    "이 업그레이드는 라우터 1개가 아니라 여러 라우터에 함께 사용한다는 점이 독특합니다.\n\n여러 라우터를 같은 시점에 작동시키려면 각 라우터에 동기화 업그레이드가 필요합니다.\n\n업그레이드의 GUI에서 같은 값으로 조정해야 합니다."
+  ],
+  "quest.5560F303C452E110.quest_desc": [
+    "압출기는 블록과 엔티티를 밀어냅니다. 그렇다면 조금 더 강하게 밀어내도 되겠죠!\n\n블록이 아니라 엔티티를 더 강하게 밉니다."
+  ],
+  "quest.5FB29F3F4DF17765.quest_desc": [
+    "모든 모듈이 한 번에 여러 스택을 옮기게 하고 싶지 않을 때도 있습니다. 모듈 1개만 그렇게 하려면 스택 증강을 사용하세요! 라우터의 스택 업그레이드와 중첩되지는 않으며, 해당 모듈에서는 업그레이드 효과를 대신합니다."
+  ],
+  "quest.63E4529AF8894018.quest_desc": [
+    "&lModular Routers&r는 물류 모드입니다.\n\n모든 것은 모듈러 라우터에서 시작하니 하나 만들어 보세요!\n\n버퍼는 아이템이 드나드는 라우터의 단일 아이템 슬롯입니다. 대부분의 모듈이 작동하려면 레드스톤 신호도 필요합니다."
+  ],
+  "quest.63E4529AF8894018.title": "&lModular Routers",
+  "quest.6648BC7D14233006.title": "&l증강",
+  "quest.674F28BCA2E4A3C8.quest_desc": [
+    "아이템을 옮길 때 라우터는 손에 닿는 것을 모조리 가져갈 만큼 욕심을 부릴 수 있습니다!\n\n조절기 증강을 사용하면 옮길 수량을 제한할 수 있습니다."
+  ],
+  "quest.6B747129A85AA768.quest_desc": [
+    "이제 흡수 호퍼와 더욱 비슷해집니다!\n\n경험치 흡입 증강을 장착하면 흡입 모듈이 아이템 대신 경험치 구슬을 수집합니다. 모은 경험치를 어떻게 쓸지는 여러분에게 달렸어요!"
+  ],
+  "quest.71A1FD0772453B51.quest_desc": [
+    "가위로 양을, 양동이로 소를 일일이 우클릭하기 귀찮지 않나요? 21세기라면 모든 일을 로봇이 해야죠! 아니면 적어도 라우터라도요.\n\n활성기 모듈은 플레이어가 대상을 우클릭하는 것처럼 작동합니다.\n\n우클릭할 대상, 엔티티 공격 또는 사용 여부, 웅크린 채 우클릭할지, 대상과의 거리 등을 모듈에서 설정할 수 있습니다."
+  ],
+  "quest.71FDF8CD953E46FC.quest_desc": [
+    "퀘스트에 크리에이티브 아이템이 있어서 놀랐나요? 하하하!\n\n걱정하지 마세요. 이 챕터를 완료하는 데 그 아이템은 필요하지 않습니다. 그냥 놀라게 해 보고 싶었어요.\n\n가끔은 저도 장난을 칠 수 있잖아요..."
+  ],
+  "quest.73D60868024FF907.quest_desc": [
+    "유체 모듈 Mk2입니다!\n\n인접한 곳뿐만 아니라 주변에 있는 모든 유체 원천을 대상으로 사용할 수 있습니다."
+  ],
+  "quest.75FE0B514448865B.quest_desc": [
+    "업그레이드는 라우터에 직접 넣으며, 라우터 하나에 최대 5개까지 장착할 수 있습니다. 업그레이드는 적용 가능한 모든 모듈에 영향을 주며 대부분 중첩할 수 있습니다!"
+  ],
+  "quest.76062D375E4CC8DD.quest_desc": [
+    "필터와 순환 분배를 각각 살펴봤으니 이제 둘을 합쳐 봅시다! Mystical Agriculture 씨앗을 만들 때처럼 아이템을 정해진 순서대로 처리하는 데 유용합니다."
+  ],
+  "quest.7F8DEDD0A54D1E11.quest_desc": [
+    "드로퍼 모듈은 무엇을 할까요?\n이름처럼 아이템을 떨어뜨립니다...\n\n버퍼의 아이템을 땅에 드롭합니다.\n\nBotania 같은 모드와 함께 쓰면 유용할 수 있습니다!"
+  ]
+}

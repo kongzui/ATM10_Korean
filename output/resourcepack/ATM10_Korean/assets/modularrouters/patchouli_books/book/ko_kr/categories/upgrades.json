@@ -1,0 +1,6 @@
+{
+  "name": "업그레이드",
+  "description": "모듈러 라우터에 업그레이드를 설치하여 기능을 강화하거나 변경할 수 있습니다.",
+  "icon": "modularrouters:speed_upgrade",
+  "sortnum": 3
+}

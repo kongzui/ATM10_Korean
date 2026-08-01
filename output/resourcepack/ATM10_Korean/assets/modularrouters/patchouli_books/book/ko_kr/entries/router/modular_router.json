@@ -1,0 +1,53 @@
+{
+  "name": "모듈러 라우터",
+  "icon": "modularrouters:modular_router",
+  "category": "modularrouters:router",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)모듈러 라우터/$는 라우팅 시스템의 핵심입니다. 설치된 모든 모듈을 실행하고 아이템, 블록과 유체를 여러 방식으로 옮깁니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "modularrouters:textures/patchouli/router_gui.png"
+      ],
+      "text": "$(italic)여러 모듈과 업그레이드가 설치된 모듈러 라우터 GUI/$",
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "1. 버퍼",
+      "text": "$(thing)모듈러 라우터/$에는 아이템 한 스택을 담을 수 있는 한 칸짜리 버퍼가 있습니다. 일반 인벤토리로 공개되므로 $(item)호퍼/$와 다른 모드의 파이프 시스템으로 아이템을 넣고 뺄 수 있습니다.$(p)라우터에 붙인 $(item)레드스톤 비교기/$도 예상대로 슬롯이 찬 정도를 측정합니다."
+    },
+    {
+      "type": "text",
+      "title": "2. 모듈 슬롯",
+      "text": "$(thing)모듈러 라우터/$에는 $(l:intro/modules)모듈/$ 슬롯이 아홉 개 있습니다. 라우터는 속도 업그레이드에 따라 초당 1~10회 작동하며, 매번 왼쪽에서 오른쪽으로 각 모듈을 차례로 $(thing)실행/$합니다.$(p)모듈을 꺼내지 않고 설정하려면 모듈 위에 커서를 두고 $(4)$(bold)[$(k:modularrouters.configure)]/$ 키를 누르거나 라우터 GUI에서 모듈을 $(thing)가운데 클릭/$하세요."
+    },
+    {
+      "type": "text",
+      "title": "3. 업그레이드 슬롯",
+      "text": "$(thing)모듈러 라우터/$에는 $(l:intro/upgrades)업그레이드/$ 슬롯이 다섯 개 있습니다. 업그레이드는 여러 방식으로 라우터의 기능을 향상합니다. 예를 들어 $(l:upgrades/speed)속도 업그레이드/$ 하나마다 라우터 틱이 조금 빨라지고, $(l:upgrades/stack)스택 업그레이드/$ 하나마다 작업당 더 많은 아이템을 처리할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "4. 레드스톤 제어",
+      "text": "$(thing)모듈러 라우터/$는 오른쪽 위 버튼으로 레드스톤 입력에 반응하는 방식을 설정할 수 있습니다.$(li)기본값: 레드스톤 신호와 관계없이 항상 작동$(li)레드스톤 신호가 $(italic)없을/$ 때만 작동$(li)레드스톤 신호가 $(italic)있을/$ 때만 작동$(li)작동 안 함$(li)레드스톤 펄스(이전보다 강한 신호)를 받으면 $(italic)한 번/$ 작동"
+    },
+    {
+      "type": "text",
+      "title": "5. 에코 모드",
+      "text": "환경을 생각하는 마음으로, 라우터가 한동안 유휴 상태이면 자동으로 느려지는 기능이 있습니다.$(p)에코 모드를 켠 상태에서 최근 $(ttcolor)$(t:모드 설정의 'ecoTimeout'에서 조절 가능)5초/$ 동안 라우터가 아무 작업도 하지 않았다면 $(ttcolor)$(t:모드 설정의 'lowPowerTickRate'에서 조절 가능)5초/$마다 한 번만 틱하도록 느려집니다($(l:upgrades/speed)속도 업그레이드/$와 무관). 하지만 작업을 하나라도 처리하면 즉시 일반 틱 속도로 돌아갑니다."
+    },
+    {
+      "type": "text",
+      "title": "에코 모드(계속)",
+      "text": "주로 이용자가 많은 서버에서 CPU 사용량을 줄이기 위한 기능이지만, 가끔만 작동하고 빠른 아이템 전송이 중요하지 않은 라우터에도 유용합니다. 예를 들어 양 농장에서 $(l:modules/vacuum)흡입 모듈/$이 깎인 양털을 주기적으로 모으는 경우가 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:modular_router"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "레드스톤 증강",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:redstone_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "모든 모듈에 넣을 수 있는 증강입니다.$(p)일반적으로 모듈은 별도 조건 없이 라우터가 작동할 때 함께 작동합니다. 이 증강을 모듈에 넣으면 모듈별 레드스톤 동작을 정할 수 있으며, 모듈 GUI에 이를 제어하는 버튼이 추가됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:redstone_augment"
+    }
+  ]
+}

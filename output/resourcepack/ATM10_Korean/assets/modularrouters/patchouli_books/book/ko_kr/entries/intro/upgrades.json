@@ -1,0 +1,11 @@
+{
+  "name": "업그레이드",
+  "icon": "modularrouters:speed_upgrade",
+  "category": "modularrouters:intro",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)업그레이드/$는 $(l:intro/modular_router)모듈러 라우터/$의 기능을 여러 방식으로 향상합니다. 업그레이드는 8종류이며 모듈러 라우터에는 업그레이드 슬롯이 5개 있습니다.$(p)한 슬롯에 업그레이드를 여러 개 넣을 수 있지만 종류별 최대 수량이 정해져 있습니다. 자세한 내용은 각 업그레이드 페이지나 아이템 툴팁을 확인하세요."
+    }
+  ]
+}

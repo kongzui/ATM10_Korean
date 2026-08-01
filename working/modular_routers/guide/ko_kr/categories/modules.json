@@ -1,0 +1,6 @@
+{
+  "name": "모듈",
+  "description": "모듈은 모듈러 라우터에 넣어 라우터의 기능을 결정합니다.",
+  "icon": "modularrouters:sender_module_1",
+  "sortnum": 2
+}

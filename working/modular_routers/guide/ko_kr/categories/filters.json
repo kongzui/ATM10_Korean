@@ -1,0 +1,6 @@
+{
+  "name": "스마트 필터",
+  "description": "스마트 필터는 일반 아이템 대신 모듈의 필터 슬롯에 넣어 더욱 정교한 아이템 일치 기능을 제공하는 아이템 모음입니다.",
+  "icon": "modularrouters:bulk_item_filter",
+  "sortnum": 5
+}

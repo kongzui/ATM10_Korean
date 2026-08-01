@@ -1,0 +1,15 @@
+{
+  "name": "유체 전송 업그레이드",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:fluid_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:modules/fluid)유체 모듈 Mk1/$과 $(l:modules/fluid_2)유체 모듈 Mk2/$에만 영향을 주는 업그레이드입니다.$(p)$(l:router/modular_router)라우터/$의 양방향 전체 유체 전송 속도를 기본 50mB/틱에서 업그레이드 하나마다 10mB/틱씩, 최대 400mB/틱까지 높입니다. 따라서 라우터에 넣을 수 있는 유체 전송 업그레이드는 최대 35개입니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:fluid_upgrade"
+    }
+  ]
+}

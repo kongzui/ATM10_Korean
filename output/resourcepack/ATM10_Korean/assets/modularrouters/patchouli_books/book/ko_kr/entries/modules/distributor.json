@@ -1,0 +1,19 @@
+{
+  "name": "분배기 모듈",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:distributor_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "여러 대상으로 아이템을 보낼 수 있도록 확장한 $(l:modules/sender_2)발신기 모듈 Mk2/$입니다. 인벤토리를 $(thing)웅크린 채 우클릭/$하면 분배기 모듈에 추가하고, 다시 $(thing)웅크린 채 우클릭/$하면 제거합니다.$(p)분배기 모듈에는 대상을 최대 8개까지 지정할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "GUI 오른쪽 제어 버튼에서 분배 방식을 세부 설정할 수 있습니다.$(li)$(bold)순환 분배/$ - 각 인벤토리에 가능한 한 고르게 차례로 분배$(li)$(bold)무작위/$ - 대상 중 하나를 무작위로 선택$(li)$(bold)가까운 곳부터/$ - 아이템을 넣을 공간이 있는 가장 가까운 대상부터 채움$(li)$(bold)먼 곳부터/$ - 아이템을 넣을 공간이 있는 가장 먼 대상부터 채움"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:distributor_module"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "배치기 모듈",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:placer_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "라우터 버퍼의 아이템을 블록으로 바꾸어 모듈의 $(l:intro/modules#direction)설정 방향/$으로 라우터에 인접한 위치에 놓습니다.$(li)아이템이 블록이 아니거나 대상 공간이 막혀 있으면 아무 작업도 하지 않습니다.$(li)일반 Minecraft 배치 규칙을 따르므로, 예를 들어 사탕수수는 물과 인접한 모래나 흙에만 놓을 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)유체 블록과 키 큰 잔디처럼 교체 가능한 블록은 새 블록으로 교체됩니다.$(li)배치기 모듈은 경작지에 씨앗을 심고 인접한 정글나무 원목에 코코아 콩을 심을 수도 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:placer_module"
+    }
+  ]
+}

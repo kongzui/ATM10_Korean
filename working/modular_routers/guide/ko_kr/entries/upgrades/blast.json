@@ -1,0 +1,15 @@
+{
+  "name": "방폭 업그레이드",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:blast_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "라우터가 폭발 피해와 보스 몹의 파괴에 완전히 면역이 되게 하는 업그레이드입니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:blast_upgrade"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "감지기 모듈",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:detector_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 모듈은 아이템을 직접 조작하지 않고 라우터 버퍼의 특정 아이템을 감지합니다. 버퍼 내용이 모듈 필터와 일치하면 라우터가 $(l:intro/modules#direction)설정 방향/$으로 레드스톤 신호를 냅니다.$(p)신호 세기(기본값: 15)와 신호 유형(기본값: 약함)은 모듈 GUI에서 조절할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:detector_module"
+    }
+  ]
+}

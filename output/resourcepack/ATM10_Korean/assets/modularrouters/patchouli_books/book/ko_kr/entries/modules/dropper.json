@@ -1,0 +1,15 @@
+{
+  "name": "공급기 모듈",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:dropper_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "라우터 버퍼의 아이템을 월드에 아이템 엔티티로 떨어뜨립니다. 모듈의 $(l:intro/modules#direction)설정 방향/$으로 라우터에 인접한 위치에 드롭합니다. 아이템에 성가신 무작위 속도를 더하는 기본 Minecraft의 $(item)공급기/$와 달리 움직이지 않게 놓습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:dropper_module"
+    }
+  ]
+}

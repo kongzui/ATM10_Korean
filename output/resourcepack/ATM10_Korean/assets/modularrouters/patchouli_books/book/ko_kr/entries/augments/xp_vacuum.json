@@ -1,0 +1,19 @@
+{
+  "name": "경험치 흡입 증강",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:xp_vacuum_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 증강은 $(l:modules/vacuum)흡입 모듈/$에만 넣을 수 있습니다.$(p)장착하면 흡입 모듈이 아이템 대신 경험치 구슬을 흡수합니다. 구슬은 병당 7XP의 비율로 $(item)경험치 병/$으로 변환됩니다. 이는 경험치 병을 깨서 얻는 경험치의 평균값입니다."
+    },
+    {
+      "type": "text",
+      "text": "설치된 다른 모드에 따라 경험치 구슬을 경험치 유체로 바꿀 수도 있습니다. 유체를 담은 탱크가 라우터 버퍼 안이나 라우터 옆에 있어야 합니다. 옆에 놓았다면 흡입 모듈 GUI에서 $(bold)방출/$ 버튼을 켜세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:xp_vacuum_augment"
+    }
+  ]
+}
