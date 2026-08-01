@@ -19,7 +19,7 @@
   ],
   "quest.0D26E5EF6CFCFDBF.quest_subtitle": "찌르기",
   "quest.0DF4B01CC5B49E4E.quest_desc": [
-    "이 설계도를 사용하여 기본적인 검을 만들 수 있습니다! 믿을 수 있는 피해량과 믿을 수 있는 속도를 제공합니다."
+    "이 주형으로 기본 검을 만들 수 있습니다! 믿을 만한 피해량과 속도를 제공합니다."
   ],
   "quest.0DF4B01CC5B49E4E.quest_subtitle": "믿음직한 옛 친구",
   "quest.0EF9F10A2178451F.quest_desc": [
@@ -40,7 +40,7 @@
   ],
   "quest.2156C00E30424844.title": "&c&l주조소&r &4탱크",
   "quest.222D08F43B995FED.quest_subtitle": "이것을 찌그러뜨려 보세요",
-  "quest.22A0A9C81A5C85A1.quest_subtitle": "모든 것을 함께 잡고 있기",
+  "quest.22A0A9C81A5C85A1.quest_subtitle": "모든 부품을 하나로 묶기",
   "quest.262036FE8E87F50A.quest_subtitle": "3x3 채굴",
   "quest.26F9DB31A835B69C.quest_desc": [
     "&n주조소&r: &a확인&r \\n&n주조소의 액체 금속&r: &a확인&r \\n\\n이제 어떻게 꺼낼까요? \\n\\n앞에서 만난 &c&l주조소&r &b배출구&r를 새 친구인 &c&l주조소&r &7탭&r과 연결할 차례입니다. \\n\\n&b배출구&r에 &c&l주조소&r &7탭&r을 설치하면 그 아래의 블록으로 &7액체 금속&r을 흘려보낼 수 있습니다. \\n\\n&8주조 대야&r는 약 900mB의 &7액체 금속&r을 완전한 &7금속 블록&r으로 만듭니다. \\n\\n또는 &8주조대&r를 사용하면 다음에 필요한 물건을 만들 수 있습니다..."
@@ -54,7 +54,7 @@
   "quest.2EB96FF06627FD9A.quest_desc": [
     "회수기를 사용하면 장비를 분해하여 원래의 아이템으로 되돌릴 수 있습니다.\\n\\n예를 들어 다이아몬드 부츠를 넣으면 다이아몬드 4개를 되돌려 받을 수 있습니다."
   ],
-  "quest.2EB96FF06627FD9A.quest_subtitle": "(몇몇) 아이템 분해!",
+  "quest.2EB96FF06627FD9A.quest_subtitle": "(일부) 아이템 분해!",
   "quest.2EB96FF06627FD9A.title": "회수기",
   "quest.3722B43822F80470.quest_desc": [
     "검보다 피해량은 높지만, 속도는 더 느립니다."
@@ -81,7 +81,7 @@
   "quest.3D2C6FF462B17205.quest_subtitle": "찌르기 찌르기",
   "quest.3F39BEB788175CEF.quest_subtitle": "3x3 파기!",
   "quest.405DCD3E36232EEA.quest_desc": [
-    "검보다 피해는 덜하지만, 더 긴 사거리를 가집니다."
+    "검보다 피해는 낮지만, 도달 거리가 더 깁니다."
   ],
   "quest.405DCD3E36232EEA.quest_subtitle": "내면의 스파르탄을 깨우세요",
   "quest.427516AA3E8C9442.quest_subtitle": "다용도 괭이",
@@ -97,7 +97,7 @@
   "quest.67216EC5274F08B9.quest_subtitle": "털깎이 목동이 사용함",
   "quest.69383DA579901E7E.quest_subtitle": "도끼에 대해 물어봐도 될까요?",
   "quest.6A393C7A24899E3E.quest_desc": [
-    "재료 등급기 촉매와 함께 주괴를 재료 등급기에 넣으면 재료에 등급이 매겨집니다.\\n\\n등급이 좋을수록 재료의 스탯이 더 좋습니다.\\n\\n최고 등급은 \"MAX\"입니다."
+    "재료 등급기 촉매와 함께 주괴를 재료 등급기에 넣으면 재료에 등급이 매겨집니다.\\n\\n등급이 좋을수록 재료의 능력치가 더 좋습니다.\\n\\n최고 등급은 \"MAX\"입니다."
   ],
   "quest.6A393C7A24899E3E.quest_subtitle": "재료 시험기",
   "quest.6B78378BC8036227.title": "1단계 등급기 촉매제",
@@ -112,14 +112,14 @@
   "quest.711826BBCA832EE2.title": "&8주형",
   "quest.766C80E5D7B7A916.quest_subtitle": "하나 고르세요!",
   "quest.769D5DE66D13B256.quest_desc": [
-    "이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 제작했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 권한 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."
+    "이 퀘스트는 &6AllTheMods 스태프&r 또는 &2커뮤니티 기여자&r가 AllTheMods 모드팩에 사용하기 위해 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r 라이선스로 보호되므로, &6AllTheMods 팀&r의 명시적인 허가 없이 다른 공개 모드팩에 이 퀘스트를 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 문구가 보인다면 편집 모드입니다."
   ],
   "quest.7C3D763CF22D167A.quest_desc": [
     "별빛 충전기는 재료에 \"별빛 충전\" 특성을 부여할 수 있습니다.\\n\\n밤하늘이 보이는 곳에서 별빛 충전기를 중심으로 구조물을 지어야 하며 밤에만 별빛 에너지를 얻습니다.\\n\\n충전기는 7x7 구조물의 중앙에 놓고 각 모서리에 기둥을 세워야 합니다. 각 기둥에는 \"별빛 충전기 기둥 덮개\"가 필요합니다.\\n\\n재료마다 충전기 촉매제도 하나씩 필요합니다."
   ],
   "quest.7C3D763CF22D167A.quest_subtitle": "재료에 특성 부여",
   "quest.7C3D763CF22D167A.title": "&d별빛 충전기",
-  "quest.7D690A7D0FF6E328.title": "3티어 재료 등급기 촉매",
+  "quest.7D690A7D0FF6E328.title": "3단계 등급기 촉매제",
   "quest.7E13007340A818C5.quest_desc": [
     "별빛 충전기용 1단계 기둥 덮개입니다."
   ],

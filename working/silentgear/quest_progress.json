@@ -3,8 +3,8 @@
   "chapter": "silent_gear",
   "source_display_keys": 81,
   "fallback_titles_added": 7,
-  "existing_korean_kept": 43,
-  "existing_korean_corrected": 16,
+  "existing_korean_kept": 36,
+  "existing_korean_corrected": 23,
   "newly_completed": 29,
   "classification": {
     "translated_or_localized": 79,
@@ -14,7 +14,7 @@
     "manual_review": 0
   },
   "remaining": 0,
-  "base_sha256": "020e4988322b7685f6b47f0d60e97f2821497767d8bbc2673ac22a4ea3ccc489",
-  "output_sha256": "020e4988322b7685f6b47f0d60e97f2821497767d8bbc2673ac22a4ea3ccc489",
+  "base_sha256": "011b24e6129d6554fc23966071fc4453052a2c07561ce386e04cbffefea3d26a",
+  "output_sha256": "7b593c336c87108ac467cdbef565227eb88486309b1e62f7e492430e8aaba621",
   "status": "passed"
 }

@@ -1,0 +1,80 @@
+{
+  "status": "quality_review_completed_and_deployed",
+  "completed_at": "2026-08-01T11:35:40+09:00",
+  "scope": "Silent Gear 계열 언어, 데이터 표시, 발전 과제, FTB Quests, KubeJS, 가이드 및 fallback 표시",
+  "installed": [
+    "silent-gear-1.21.1-neoforge-4.2.1.1.jar",
+    "silent-lib-1.21.1-neoforge-10.6.0.jar",
+    "silentgems-1.21.1-neoforge-5.1.3.jar",
+    "sgearmetalworks-1.21.1-1.5.0.jar"
+  ],
+  "language": {
+    "namespaces": 4,
+    "total_keys_reviewed": 1446,
+    "data_only_keys_reviewed": 7,
+    "quality_review_corrections": 157,
+    "newly_translated": 0
+  },
+  "guide": {
+    "patchouli_templates_reviewed": 1,
+    "independent_guide_pages": 0,
+    "dynamic_material_book_keys_checked": 338
+  },
+  "ftbquests": {
+    "chapters_reviewed": 1,
+    "quests_checked": 69,
+    "tasks_checked": 77,
+    "display_keys_reviewed": 81,
+    "fallback_titles_reviewed": 7,
+    "quality_review_keys_corrected": 7,
+    "quest_fallbacks_checked": 43,
+    "related_tasks_outside_chapter_checked": 2,
+    "custom_name_components": 0
+  },
+  "advancements": {
+    "files_reviewed": 36,
+    "translate_keys_reviewed": 72,
+    "display_path": "language translate keys",
+    "untranslated_keys": 0
+  },
+  "kubejs": {
+    "trait_files_reviewed": 4,
+    "direct_user_literals_reviewed": 9,
+    "active_material_translate_keys_reviewed": 3,
+    "quality_review_occurrences_corrected": 0
+  },
+  "review_totals": {
+    "visible_values_reviewed": 1550,
+    "existing_korean_reviewed_and_reused": 1386,
+    "quality_review_corrections": 164,
+    "newly_translated": 0
+  },
+  "deployment": {
+    "source_root_configured": false,
+    "game_root_configured": true,
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "files_applied": 4,
+    "backup_root": "temp/backups/20260801_113523_874668/game_root",
+    "backup_manifest": "temp/backups/20260801_113523_874668/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_instance_changes": []
+  },
+  "validation": {
+    "language_keys_match_current_en_us": true,
+    "json_and_snbt_syntax": "passed",
+    "duplicate_keys": 0,
+    "placeholders_preserved": true,
+    "numbers_preserved": true,
+    "format_codes_preserved": true,
+    "line_breaks_preserved": true,
+    "data_translate_keys_checked": 338,
+    "quest_fallback_paths_checked": true,
+    "working_output_match": true,
+    "source_jars_quests_and_kubejs_unchanged": true,
+    "deployed_hashes_match": true,
+    "live_files_matching_output": 10,
+    "game_runtime_verified": false,
+    "validation_errors": 0
+  },
+  "remaining_review_items": []
+}
