@@ -1,0 +1,18 @@
+{
+  "mod.universalgrid": "manual_translation",
+  "item.universalgrid.wireless_universal_grid": "manual_translation",
+  "item.universalgrid.creative_wireless_universal_grid": "manual_translation",
+  "key.universalgrid.open_wireless_universal_grid": "manual_translation",
+  "key.universalgrid.switch_wireless_universal_grid_type": "manual_translation",
+  "text.autoconfig.universalgrid.title": "manual_translation",
+  "universalgrid.configuration.title": "manual_translation",
+  "universalgrid.configuration.section.universalgrid.common.toml": "manual_translation",
+  "universalgrid.configuration.section.universalgrid.common.toml.title": "manual_translation",
+  "gui.universalgrid.grid.grid_type": "manual_translation",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid": "manual_translation",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.tooltip": "manual_translation",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity": "manual_translation",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity.tooltip": "manual_translation",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.gridType": "manual_translation",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.gridType.tooltip": "manual_translation"
+}

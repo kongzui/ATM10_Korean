@@ -1,0 +1,267 @@
+{
+  "family": "Refined Storage 2",
+  "installed": [
+    {
+      "label": "Refined Storage 2",
+      "jar": "refinedstorage-neoforge-2.0.9.jar",
+      "namespace": "refinedstorage",
+      "direct_integration": false,
+      "english_keys": 788,
+      "bundled_korean_keys": 778,
+      "metadata_mentions_family": [
+        "refinedstorage"
+      ],
+      "guide_candidates": 1,
+      "guide_examples": [
+        "assets/refinedstorage/models/item/book.json"
+      ],
+      "advancements": 27,
+      "advancement_examples": [
+        "data/refinedstorage/advancement/autocrafting.json",
+        "data/refinedstorage/advancement/autocrafting_on_demand.json",
+        "data/refinedstorage/advancement/better_than_a_barrel.json",
+        "data/refinedstorage/advancement/conditional_connecting.json",
+        "data/refinedstorage/advancement/connecting.json",
+        "data/refinedstorage/advancement/construction.json",
+        "data/refinedstorage/advancement/destruction.json",
+        "data/refinedstorage/advancement/detecting.json",
+        "data/refinedstorage/advancement/drives.json",
+        "data/refinedstorage/advancement/exporting.json",
+        "data/refinedstorage/advancement/importing.json",
+        "data/refinedstorage/advancement/interface_to_the_world.json",
+        "data/refinedstorage/advancement/interfacing_with_disks.json",
+        "data/refinedstorage/advancement/managing_patterns.json",
+        "data/refinedstorage/advancement/monitoring.json",
+        "data/refinedstorage/advancement/no_cables_required.json",
+        "data/refinedstorage/advancement/portable_storage.json",
+        "data/refinedstorage/advancement/root.json",
+        "data/refinedstorage/advancement/security.json",
+        "data/refinedstorage/advancement/storing_externally.json"
+      ],
+      "recipes": 420
+    },
+    {
+      "label": "Extra Disks",
+      "jar": "ExtraDisks-1.21.1-4.0.15.jar",
+      "namespace": "extradisks",
+      "direct_integration": false,
+      "english_keys": 127,
+      "bundled_korean_keys": 46,
+      "metadata_mentions_family": [
+        "extradisks",
+        "refinedstorage"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 77,
+      "advancement_examples": [
+        "data/extradisks/advancement/infinite_storage.json",
+        "data/extradisks/advancement/recipes/misc/advanced_machine_casing.json",
+        "data/extradisks/advancement/recipes/misc/advanced_storage_housing.json",
+        "data/extradisks/advancement/recipes/misc/blocks/1024k_item_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/1048576b_chemical_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/1048576b_fluid_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/1048576k_item_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/16384b_fluid_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/16384k_item_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/256k_item_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/262144b_chemical_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/262144b_fluid_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/262144k_item_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/4096k_item_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/65536b_chemical_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/65536b_fluid_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/65536k_item_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/8388608b_chemical_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/infinite_chemical_storage_block.json",
+        "data/extradisks/advancement/recipes/misc/blocks/infinite_fluid_storage_block.json"
+      ],
+      "recipes": 188
+    },
+    {
+      "label": "Extra Storage",
+      "jar": "ExtraStorage-1.21.1-5.0.9.jar",
+      "namespace": "extrastorage",
+      "direct_integration": false,
+      "english_keys": 46,
+      "bundled_korean_keys": 44,
+      "metadata_mentions_family": [
+        "extrastorage",
+        "refinedstorage"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 43,
+      "advancement_examples": [
+        "data/extrastorage/advancement/recipes/misc/advanced_exporter.json",
+        "data/extrastorage/advancement/recipes/misc/advanced_importer.json",
+        "data/extrastorage/advancement/recipes/misc/diamond_crafter.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shaped/disk_1024k.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shaped/disk_1048576b_fluid.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shaped/disk_16384b_fluid.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shaped/disk_16384k.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shaped/disk_256k.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shaped/disk_262144b_fluid.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shaped/disk_4096k.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shaped/disk_65536b_fluid.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shapeless/disk_1024k.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shapeless/disk_1048576b_fluid.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shapeless/disk_16384b_fluid.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shapeless/disk_16384k.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shapeless/disk_256k.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shapeless/disk_262144b_fluid.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shapeless/disk_4096k.json",
+        "data/extrastorage/advancement/recipes/misc/disk/shapeless/disk_65536b_fluid.json",
+        "data/extrastorage/advancement/recipes/misc/gold_crafter.json"
+      ],
+      "recipes": 96
+    },
+    {
+      "label": "Refined Types",
+      "jar": "refined-types-1.21.1-0.3.2.jar",
+      "namespace": "refinedtypes",
+      "direct_integration": false,
+      "english_keys": 164,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "refinedstorage",
+        "refinedtypes"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 112,
+      "advancement_examples": [
+        "data/refinedtypes/advancement/recipes/misc/blocks/1024b_source_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/1024k_energy_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/1048576b_source_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/1048576k_energy_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/1k_soul_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/2097152k_soul_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/256b_source_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/256k_energy_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/262144b_source_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/262144k_energy_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/262144k_soul_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/32768k_soul_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/4096k_soul_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/512k_soul_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/64b_source_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/64k_energy_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/64k_soul_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/65536b_source_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/65536k_energy_storage_block.json",
+        "data/refinedtypes/advancement/recipes/misc/blocks/8192b_source_storage_block.json"
+      ],
+      "recipes": 218
+    },
+    {
+      "label": "Universal Grid",
+      "jar": "universalgrid-neoforge-1.21.1-0.3.2.jar",
+      "namespace": "universalgrid",
+      "direct_integration": false,
+      "english_keys": 16,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "refinedstorage",
+        "universalgrid"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 1
+    },
+    {
+      "label": "Refined Storage - Curios Integration",
+      "jar": "refinedstorage-curios-integration-1.0.0.jar",
+      "namespace": "refinedstorage_curios_integration",
+      "direct_integration": true,
+      "english_keys": 1,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "refinedstorage",
+        "refinedstorage_curios_integration"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
+    },
+    {
+      "label": "Refined Storage - JEI Integration",
+      "jar": "refinedstorage-jei-integration-neoforge-1.0.0.jar",
+      "namespace": "refinedstorage_jei_integration",
+      "direct_integration": true,
+      "english_keys": 10,
+      "bundled_korean_keys": 10,
+      "metadata_mentions_family": [
+        "refinedstorage",
+        "refinedstorage_jei_integration"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
+    },
+    {
+      "label": "Refined Storage - Mekanism Integration",
+      "jar": "refinedstorage-mekanism-integration-1.1.1.jar",
+      "namespace": "refinedstorage_mekanism_integration",
+      "direct_integration": true,
+      "english_keys": 37,
+      "bundled_korean_keys": 37,
+      "metadata_mentions_family": [
+        "refinedstorage",
+        "refinedstorage_mekanism_integration"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 1,
+      "advancement_examples": [
+        "data/refinedstorage_mekanism_integration/advancement/storing_chemicals.json"
+      ],
+      "recipes": 22
+    },
+    {
+      "label": "Quartz Arsenal",
+      "jar": "refinedstorage-quartz-arsenal-neoforge-1.0.8.jar",
+      "namespace": "refinedstorage_quartz_arsenal",
+      "direct_integration": true,
+      "english_keys": 22,
+      "bundled_korean_keys": 22,
+      "metadata_mentions_family": [
+        "refinedstorage",
+        "refinedstorage_quartz_arsenal"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 1
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "cabletiers-neoforge-1.21.1-0.6.12.jar",
+      "dependency_mentions": [
+        "refinedstorage",
+        "refinedtypes"
+      ]
+    },
+    {
+      "jar": "enderio-8.2.11-beta.jar",
+      "dependency_mentions": [
+        "refinedstorage"
+      ]
+    },
+    {
+      "jar": "interdimensionalwirelesstransmitter-neoforge-1.21.1-0.1.5.jar",
+      "dependency_mentions": [
+        "refinedstorage"
+      ]
+    }
+  ]
+}

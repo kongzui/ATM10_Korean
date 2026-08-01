@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""다섯 모드군의 설치 범위와 언어 작업본을 준비하고 검증한다."""
+"""주요 모드군의 설치 범위와 언어 작업본을 준비하고 검증한다."""
 
 from __future__ import annotations
 
@@ -152,6 +152,78 @@ TARGETS = (
         "deeperdarker",
         "Deeper and Darker",
     ),
+    Target(
+        "refined_storage",
+        "refinedstorage-neoforge-",
+        "refinedstorage",
+        "Refined Storage 2",
+    ),
+    Target(
+        "refined_storage",
+        "ExtraDisks-",
+        "extradisks",
+        "Extra Disks",
+    ),
+    Target(
+        "refined_storage",
+        "ExtraStorage-",
+        "extrastorage",
+        "Extra Storage",
+    ),
+    Target(
+        "refined_storage",
+        "refined-types-",
+        "refinedtypes",
+        "Refined Types",
+    ),
+    Target(
+        "refined_storage",
+        "universalgrid-",
+        "universalgrid",
+        "Universal Grid",
+    ),
+    Target(
+        "refined_storage",
+        "refinedstorage-curios-integration-",
+        "refinedstorage_curios_integration",
+        "Refined Storage - Curios Integration",
+        True,
+    ),
+    Target(
+        "refined_storage",
+        "refinedstorage-jei-integration-",
+        "refinedstorage_jei_integration",
+        "Refined Storage - JEI Integration",
+        True,
+    ),
+    Target(
+        "refined_storage",
+        "refinedstorage-mekanism-integration-",
+        "refinedstorage_mekanism_integration",
+        "Refined Storage - Mekanism Integration",
+        True,
+    ),
+    Target(
+        "refined_storage",
+        "refinedstorage-quartz-arsenal-",
+        "refinedstorage_quartz_arsenal",
+        "Quartz Arsenal",
+        True,
+    ),
+    Target(
+        "refined_storage",
+        "cabletiers-",
+        "cabletiers",
+        "Cable Tiers",
+        True,
+    ),
+    Target(
+        "refined_storage",
+        "interdimensionalwirelesstransmitter-",
+        "interdimensionalwirelesstransmitter",
+        "Interdimensional Wireless Transmitter",
+        True,
+    ),
 )
 
 FAMILY_LABELS = {
@@ -166,6 +238,7 @@ FAMILY_LABELS = {
     "bumblezone": "The Bumblezone",
     "eternal_starlight": "Eternal Starlight",
     "deeper_and_darker": "Deeper and Darker",
+    "refined_storage": "Refined Storage 2",
 }
 
 QUEST_CHAPTERS = {
@@ -180,6 +253,7 @@ QUEST_CHAPTERS = {
     "bumblezone": ("bumblezone",),
     "eternal_starlight": ("eternal_starlight",),
     "deeper_and_darker": ("deeper_and_darker",),
+    "refined_storage": ("refined_storage",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -229,6 +303,16 @@ ALLOWED_ORIGINALS = {
     "The Bumblezone",
     "Eternal Starlight",
     "Deeper and Darker",
+    "Refined Storage",
+    "Refined Storage 2",
+    "Extra Disks",
+    "Extra Storage",
+    "Refined Types",
+    "Universal Grid",
+    "Quartz Arsenal",
+    "Cable Tiers",
+    "Interdimensional Wireless Transmitter",
+    "Refined Storage - Quartz Arsenal",
     "Pedro Ricardo",
     "TohokuAlpha",
     "KuLou_D",
@@ -2017,11 +2101,23 @@ def inventory(instance: Path, family: str) -> dict[str, object]:
     }
 
 
-def prepare(instance: Path, family: str, force: bool) -> dict[str, object]:
+def prepare(
+    instance: Path,
+    family: str,
+    force: bool,
+    namespaces: list[str] | None = None,
+) -> dict[str, object]:
     """검수된 프로젝트 산출물과 현재 JAR 한국어를 영어 원문에 맞춰 준비한다."""
     work_root = PROJECT_ROOT / "working" / family
     rows: list[dict[str, object]] = []
-    for target in targets_for(family):
+    targets = targets_for(family)
+    if namespaces:
+        requested = set(namespaces)
+        targets = tuple(target for target in targets if target.namespace in requested)
+        missing = requested - {target.namespace for target in targets}
+        if missing:
+            raise ValueError("알 수 없는 네임스페이스: " + ", ".join(sorted(missing)))
+    for target in targets:
         jar = find_jar(instance, target.jar_prefix)
         english_path, korean_path = language_paths(target.namespace)
         with ZipFile(jar) as archive:
@@ -2087,9 +2183,21 @@ def prepare(instance: Path, family: str, force: bool) -> dict[str, object]:
                 **dict(sorted(counts.items())),
             }
         )
-    report = {**inventory(instance, family), "language_candidates": rows}
     work_root.mkdir(parents=True, exist_ok=True)
-    (work_root / "scope.json").write_text(
+    scope_path = work_root / "scope.json"
+    if namespaces and scope_path.is_file():
+        previous = load_json(scope_path)
+        candidates = {
+            row["namespace"]: row for row in previous.get("language_candidates", [])
+        }
+        candidates.update({row["namespace"]: row for row in rows})
+        rows = [
+            candidates[target.namespace]
+            for target in targets_for(family)
+            if target.namespace in candidates
+        ]
+    report = {**inventory(instance, family), "language_candidates": rows}
+    scope_path.write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return report
@@ -3057,6 +3165,7 @@ def main() -> int:
     )
     parser.add_argument("family", choices=tuple(FAMILY_LABELS))
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--namespace", action="append")
     args = parser.parse_args()
     instance = resolve_source_root()
     if args.command == "inventory":
@@ -3069,7 +3178,7 @@ def main() -> int:
         )
         status = 0
     elif args.command == "prepare":
-        result = prepare(instance, args.family, args.force)
+        result = prepare(instance, args.family, args.force, args.namespace)
         status = 0
     elif args.command == "prepare-quests":
         result = prepare_quests(instance, args.family, args.force)

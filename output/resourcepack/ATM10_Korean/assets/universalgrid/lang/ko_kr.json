@@ -1,0 +1,18 @@
+{
+  "mod.universalgrid": "통합 그리드",
+  "item.universalgrid.wireless_universal_grid": "무선 통합 그리드",
+  "item.universalgrid.creative_wireless_universal_grid": "크리에이티브 무선 통합 그리드",
+  "key.universalgrid.open_wireless_universal_grid": "무선 통합 그리드 열기",
+  "key.universalgrid.switch_wireless_universal_grid_type": "무선 통합 그리드 유형 전환",
+  "text.autoconfig.universalgrid.title": "Universal Grid 설정",
+  "universalgrid.configuration.title": "Universal Grid 설정",
+  "universalgrid.configuration.section.universalgrid.common.toml": "Universal Grid 설정",
+  "universalgrid.configuration.section.universalgrid.common.toml.title": "Universal Grid 설정",
+  "gui.universalgrid.grid.grid_type": "그리드 유형",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid": "무선 통합 그리드",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.tooltip": "무선 통합 그리드 설정입니다.",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity": "에너지 용량",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity.tooltip": "무선 통합 그리드의 에너지 용량입니다.",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.gridType": "그리드 유형",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.gridType.tooltip": "무선 통합 그리드에서 선택한 그리드 유형입니다."
+}

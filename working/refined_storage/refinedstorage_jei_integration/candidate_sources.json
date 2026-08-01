@@ -1,0 +1,12 @@
+{
+  "gui.refinedstorage_jei_integration.grid.synchronizer": "reviewed_original",
+  "gui.refinedstorage_jei_integration.grid.synchronizer.help": "project_output_review",
+  "gui.refinedstorage_jei_integration.grid.synchronizer.two_way": "project_output_review",
+  "gui.refinedstorage_jei_integration.grid.synchronizer.two_way.help": "project_output_review",
+  "gui.refinedstorage_jei_integration.transfer.missing_but_all_autocraftable": "project_output_review",
+  "gui.refinedstorage_jei_integration.transfer.missing_but_some_autocraftable": "project_output_review",
+  "gui.refinedstorage_jei_integration.transfer.ctrl_click_to_autocraft": "project_output_review",
+  "gui.refinedstorage_jei_integration.transfer.all_autocraftable": "project_output_review",
+  "gui.refinedstorage_jei_integration.transfer.some_autocraftable": "project_output_review",
+  "alias.refinedstorage_jei_integration.refinedstorage1_disk_manipulator": "project_output_review"
+}

@@ -1,0 +1,30 @@
+{
+  "family": "Refined Storage 2",
+  "language_namespaces": 11,
+  "language_keys": 1411,
+  "bundled_reviewed_reuse": 29,
+  "existing_project_reuse": 19,
+  "new_or_edited_language": 1363,
+  "quest_display_keys": 148,
+  "manual_quest_translations": 126,
+  "existing_project_quest_reuse": 1,
+  "reviewed_original_quest_values": 21,
+  "quests_checked": 72,
+  "tasks_checked": 80,
+  "first_task_fallbacks_checked": 14,
+  "removed_redundant_item_task_titles": 1,
+  "kubejs_display_strings": 0,
+  "guide_content_translation_required": false,
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp\\backups\\20260801_195550_530306\\backup_manifest.json",
+    "selected_files": 12,
+    "changed_files": 11,
+    "hash_matches": 12,
+    "unexpected_changes": []
+  },
+  "remaining": 0,
+  "errors": [],
+  "status": "complete"
+}

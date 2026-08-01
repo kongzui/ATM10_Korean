@@ -1,0 +1,12 @@
+{
+  "mod.interdimensional_wireless_transmitter": "reviewed_original",
+  "block.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter": "manual_translation",
+  "gui.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter.distance": "manual_translation",
+  "item.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter.help": "manual_translation",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter": "manual_translation",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter.tooltip": "manual_translation",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter.energyUsage": "manual_translation",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter.energyUsage.tooltip": "manual_translation",
+  "advancements.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter": "manual_translation",
+  "advancements.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter.description": "manual_translation"
+}
