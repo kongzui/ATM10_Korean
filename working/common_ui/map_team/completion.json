@@ -19,15 +19,17 @@
     }
   ],
   "counts": {
-    "existing_korean_reused": 957,
-    "existing_korean_corrected": 735,
-    "newly_translated": 137,
+    "existing_korean_reused": 1321,
+    "existing_korean_corrected": 508,
+    "newly_translated": 0,
     "output_keys": 1829
   },
   "related_scope": {
-    "ftb_quests": "FTB Chunks 웨이포인트 이미지와 FTB Teams 아이콘 참조만 확인; 소유 UI 문구 없음",
-    "kubejs": "웨이스톤 상호작용 허용 태그 참조만 확인; 사용자 표시 문구 없음",
-    "advancements_and_guides": "세 모드가 직접 소유한 추가 번역 대상 없음"
+    "ftb_quests": "welcome 챕터의 FTB Chunks 이미지 2개·FTB Teams 아이콘 2개와 /ftbteams party create 안내 1개를 현재 영어와 대조했으며 한국어 의미가 일치해 유지함",
+    "kubejs": "ftbchunks:interact_whitelist에 Waystones를 추가하는 태그 1개만 있으며 사용자 표시 문구 없음",
+    "advancements": "세 JAR과 KubeJS data에 직접 관련 발전 과제 JSON 없음",
+    "guide_ui": "세 JAR에 사용자 표시 가이드 자산 없음",
+    "fallback": "현재 영어 1829키를 세 출력 파일에서 모두 명시적으로 제공하며 좌표·RGB·FPS·공식 모드명처럼 영어와 같아야 하는 41개 값도 확인함"
   },
   "validation": {
     "json": "passed",
@@ -36,5 +38,19 @@
     "format_codes": "passed",
     "line_breaks": "passed",
     "utf8_bom": false
-  }
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "configured_targets": [
+      "game_root"
+    ],
+    "selected_paths": 3,
+    "changed_paths": 3,
+    "unexpected_changes": [],
+    "backup_manifest": "temp/backups/20260801_152505_389306/backup_manifest.json"
+  },
+  "notes": [
+    "JourneyMap 396키, FTB Chunks 85키, FTB Teams 27키를 현재 원문 의미와 공식 모드명 기준으로 교정함",
+    "미작업·부분 완료·재검수 필요인 다른 모드 소유 문구는 수정하지 않음"
+  ]
 }
