@@ -1,0 +1,13 @@
+{
+  "quest.01F3F0C25BA72BDA.quest_desc": [
+    "Aside from the storage of items and fluids, AE2 also provides a native way of storing entire &estructures&f inside of storage cells, not too dissimilarly to the Compact Machines mod. ",
+    "",
+    "The &bSpatial IO Port&f allows structures contained within a &bSpatial Containment Structure&f to be captured within a specially-designed storage cell, activated via a redstone signal. ",
+    "",
+    "If a mob or player happens to stand inside of the SCS while the space is being captured, they too will be transported to where the rest of the space goes, i.e. in a dedicated dimension. Just make sure you have a way to get back out and in if you're the one being captured."
+  ],
+  "quest.0539AF15A10B2859.quest_desc": [
+    "&lCompact Machines&r allow you to enter a compacted dimension. After placing a &lCompact Machine&r, you can enter it using the Personal Shrinking Device.\\n\\nThe size of the &lCompact Machine&r is dependent on the recipe, ranging from 5x5x5 to 45x45x45!\\n\\nYou can't break the &lCompact Machine&r's walls, and you can exit by Right Clicking the Personal Shrinking Device."
+  ],
+  "quest.0539AF15A10B2859.title": "&lCompact Machines"
+}

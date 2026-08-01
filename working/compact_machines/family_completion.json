@@ -1,0 +1,49 @@
+{
+  "family": "Compact Machines",
+  "status": "complete",
+  "language": {
+    "main_keys": 58,
+    "kubejs_extra_keys": 8,
+    "existing_translation_reused": 2,
+    "existing_translation_corrected": 1,
+    "newly_translated": 66,
+    "untranslated": 0
+  },
+  "ftbquests": {
+    "display_keys": 3,
+    "project_output_reused": 2,
+    "project_output_corrected": 1,
+    "untranslated": 0
+  },
+  "kubejs": {
+    "reference_files_checked": 22,
+    "visible_scripts_translated": 2,
+    "visible_literal_occurrences_translated": 4
+  },
+  "other_surfaces": {
+    "advancements_checked": 12,
+    "advancement_display_entries": 0,
+    "recipes_checked": 12,
+    "recipe_visible_field_entries": 0,
+    "room_templates_checked": 8,
+    "room_template_visible_entries": 0
+  },
+  "validation": {
+    "specialized": "complete",
+    "family": "complete",
+    "javascript_syntax": "complete",
+    "syntax_and_format_errors": 0,
+    "unexpected_instance_changes": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "kubejs/server_scripts/mods/Hyperbox/hyperbox.js",
+      "kubejs/startup_scripts/hyperbox/hyperbox.js",
+      "resourcepacks/ATM10_Korean/assets/compactmachines/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260801_221234_415464/backup_manifest.json"
+  }
+}

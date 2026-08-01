@@ -355,6 +355,12 @@ TARGETS = (
         "productivemetalworks",
         "Productive Metalworks",
     ),
+    Target(
+        "compact_machines",
+        "compactmachines-neoforge-",
+        "compactmachines",
+        "Compact Machines",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -379,6 +385,7 @@ FAMILY_LABELS = {
     "botany_pots_trees": "Botany Pots·Botany Trees",
     "all_the_ores_compressed": "All The Ores·All The Compressed",
     "productive_metalworks": "Productive Metalworks",
+    "compact_machines": "Compact Machines",
 }
 
 QUEST_CHAPTERS = {
@@ -403,6 +410,7 @@ QUEST_CHAPTERS = {
     "botany_pots_trees": (),
     "all_the_ores_compressed": (),
     "productive_metalworks": (),
+    "compact_machines": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -466,6 +474,10 @@ QUEST_TEXT_MARKERS = {
     "productive_metalworks": (
         "productive metalworks",
         "productivemetalworks",
+    ),
+    "compact_machines": (
+        "compact machines",
+        "compactmachines",
     ),
 }
 
@@ -544,6 +556,7 @@ ALLOWED_ORIGINALS = {
     "AllTheCompressed",
     "Extreme Reactors",
     "Productive Metalworks",
+    "Compact Machines",
     "Shift",
     "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
     "Pipez",
@@ -3564,6 +3577,17 @@ def verify_language(
             hostile_integration = load_json(hostile_integration_path)
             expected_output.update(hostile_integration)
             integration_extra_keys = len(hostile_integration)
+        compact_extra_path = (
+            PROJECT_ROOT / "working/compact_machines/kubejs_extra_ko_kr.json"
+        )
+        if (
+            family == "compact_machines"
+            and target.namespace == "compactmachines"
+            and compact_extra_path.is_file()
+        ):
+            compact_extra = load_json(compact_extra_path)
+            expected_output.update(compact_extra)
+            integration_extra_keys = len(compact_extra)
         output_matches = output.is_file() and load_json(output) == expected_output
         if not output_matches:
             errors.append(f"누적 출력 불일치: {target.namespace}")

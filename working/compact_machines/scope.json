@@ -1,0 +1,46 @@
+{
+  "family": "Compact Machines",
+  "installed": [
+    {
+      "label": "Compact Machines",
+      "jar": "compactmachines-neoforge-7.0.81.jar",
+      "namespace": "compactmachines",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 58,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "compactmachines"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 12,
+      "advancement_examples": [
+        "data/compactmachines/advancement/recipes/building_blocks/wall.json",
+        "data/compactmachines/advancement/recipes/misc/enlarging_module.json",
+        "data/compactmachines/advancement/recipes/misc/shrinking_module.json",
+        "data/compactmachines/advancement/recipes/tools/personal_shrinking_device.json",
+        "data/compactmachines/datapacks/basic_templates/data/compactmachines/advancement/recipes/misc/new_machine_colossal.json",
+        "data/compactmachines/datapacks/basic_templates/data/compactmachines/advancement/recipes/misc/new_machine_farming.json",
+        "data/compactmachines/datapacks/basic_templates/data/compactmachines/advancement/recipes/misc/new_machine_giant.json",
+        "data/compactmachines/datapacks/basic_templates/data/compactmachines/advancement/recipes/misc/new_machine_large.json",
+        "data/compactmachines/datapacks/basic_templates/data/compactmachines/advancement/recipes/misc/new_machine_normal.json",
+        "data/compactmachines/datapacks/basic_templates/data/compactmachines/advancement/recipes/misc/new_machine_small.json",
+        "data/compactmachines/datapacks/basic_templates/data/compactmachines/advancement/recipes/misc/new_machine_soaryn.json",
+        "data/compactmachines/datapacks/basic_templates/data/compactmachines/advancement/recipes/misc/new_machine_tiny.json"
+      ],
+      "recipes": 24
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Compact Machines",
+      "jar": "compactmachines-neoforge-7.0.81.jar",
+      "namespace": "compactmachines",
+      "english_keys": 58,
+      "new_translation_required": 58
+    }
+  ]
+}

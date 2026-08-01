@@ -1,0 +1,51 @@
+{
+  "family": "Compact Machines",
+  "languages": [
+    {
+      "label": "Compact Machines",
+      "jar": "compactmachines-neoforge-7.0.81.jar",
+      "namespace": "compactmachines",
+      "english_keys": 58,
+      "korean_keys": 58,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 8,
+      "new_or_edited": 58
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 0,
+    "project_output_reuse": 0,
+    "new_or_edited": 58
+  },
+  "ftbquests": {
+    "chapters": [
+      "building_tips.snbt"
+    ],
+    "quests_checked": 1,
+    "tasks_checked": 1,
+    "display_keys_checked": 3,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 0,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}
