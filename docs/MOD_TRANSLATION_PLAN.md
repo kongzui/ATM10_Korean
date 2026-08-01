@@ -95,9 +95,9 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Sophisticated Storage                          | 소피스티케이티드 스토리지                   | 상자·통과 다양한 저장소 업그레이드를 제공       | Sophisticated Core, Storage Create Integration, Storage in Motion                                                                                                 | 완료   | 기존 계획·전 구간 사용            |
 | Applied Energistics 2                          | Applied Energistics 2 (AE2)                 | 네트워크 기반 디지털 저장소와 자동 제작 시스템  | AE2WTLib, EnderDrives, ExtendedAE, AdvancedAE, MEGA Cells, Applied Flux, ExpandedAE, AE2 Import Export Card, AE2 Network Analyser, ME Requester, Ars Énergistique | 완료   | 기존 완료 기록과 적용본 확인      |
 | AE2 추가 연동 모드                             | AE2 추가 연동 모드                          | AE2 기능을 다른 기술·마법 시스템과 연결         | AE2 Crafting Tree, AEInfinityBooster, Applied Mekanistics, Immersive Energistics, PolyEng, Soulplied Energistics                                                  | 완료   | 기존 계획·설치된 연동 모드        |
-| Refined Storage 2                              | Refined Storage 2                           | 디스크와 그리드를 이용하는 디지털 저장소 시스템 | Extra Disks, Extra Storage, Universal Grid, Refined Types, Curios·Mekanism Integration, Quartz Arsenal                                                            | 미작업 | 기존 계획·전용 퀘스트 챕터        |
-| Functional Storage·Pocket Storage·EnderStorage | 펑셔널 스토리지·포켓 스토리지·엔더 스토리지 | 대량 저장, 휴대 저장과 원격 공유 저장소를 제공  | 세 본체와 관련 퀘스트·KubeJS                                                                                                                                      | 미작업 | 기존 계획·초중반 저장소           |
-| Compact Machines                               | 컴팩트 머신                                 | 작은 기계실 차원을 블록 하나에 구성             | 본체, 관련 퀘스트와 연동                                                                                                                                          | 미작업 | 신규: 독립적인 공간·자동화 시스템 |
+| Refined Storage 2                              | Refined Storage 2                           | 디스크와 그리드를 이용하는 디지털 저장소 시스템 | Extra Disks, Extra Storage, Universal Grid, Refined Types, Curios·Mekanism Integration, Quartz Arsenal                                                            | 완료   | 기존 계획·전용 퀘스트 챕터        |
+| Functional Storage·Pocket Storage·EnderStorage | 펑셔널 스토리지·포켓 스토리지·엔더 스토리지 | 대량 저장, 휴대 저장과 원격 공유 저장소를 제공  | 세 본체와 관련 퀘스트·KubeJS                                                                                                                                      | 완료   | 기존 계획·초중반 저장소           |
+| Compact Machines                               | 컴팩트 머신                                 | 작은 기계실 차원을 블록 하나에 구성             | 본체, 관련 퀘스트와 연동                                                                                                                                          | 완료   | 신규: 독립적인 공간·자동화 시스템 |
 
 ### 장비·캐릭터 성장·전투
 
@@ -108,7 +108,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Silent Gear                         | Silent Gear             | 재료와 부품을 조합해 장비를 제작하는 시스템     | Silent Lib, Silent Gems, Silent Gear Metalworks                      | 완료   | 기존 계획·전용 퀘스트 챕터         |
 | Allthemodium·ATM 장비               | 올더모디움·ATM 장비     | ATM 핵심 광물, 최종 장비와 ATM Star 진행을 담당 | All The Arcanist Gear, All the Wizard Gear, ATM Star 퀘스트와 KubeJS | 완료   | 기존 계획·팩 핵심 진행             |
 | Draconic Evolution                  | 드라코닉 에볼루션       | 모듈식 최종 장비, 에너지 저장과 반응로를 제공   | Brandon's Core는 의존성으로만 확인, 관련 퀘스트                      | 미작업 | 기존 계획·전용 퀘스트 챕터         |
-| Iron Jetpacks·장비 편의             | 아이언 제트팩·장비 편의 | 비행, 체력 확장과 휴대 장비 슬롯을 제공         | Iron Jetpacks, Baubley Heart Canisters, Tool Belt, Simple Magnets    | 미작업 | 신규: 자주 사용하는 성장·편의 장비 |
+| Iron Jetpacks·장비 편의             | 아이언 제트팩·장비 편의 | 비행, 체력 확장과 휴대 장비 슬롯을 제공         | Iron Jetpacks, Baubley Heart Canisters, Tool Belt, Simple Magnets    | 완료   | 신규: 자주 사용하는 성장·편의 장비 |
 | Gateways to Eternity·Hellish Trials | 영원의 관문·지옥의 시련 | 소환형 전투 도전과 단계별 보상을 제공           | 두 본체, Apotheosis 관련 보상과 퀘스트                               | 미작업 | 신규: 독립 전투 콘텐츠             |
 | Reliquary                           | 렐리쿼리                | 전리품 기반 유물, 도구와 마법성 아이템을 제공   | 본체, 관련 조합법과 퀘스트                                           | 미작업 | 신규: 독립 장비·유물 콘텐츠        |
 
@@ -118,8 +118,8 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | ----------------------------- | -------------------------------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ----------------------------------- |
 | Mekanism                      | 메카니즘                         | 광물 처리, 화학 물질, 발전과 대형 기계를 제공      | Mekanism Generators, Mekanism Tools, Mekanism Covers, Mekanistic Routers, MEKMM, Just Enough Mekanism Multiblocks                                  | 완료   | 기존 계획·대형 퀘스트 챕터          |
 | Powah!·Flux Networks          | 파와·플럭스 네트워크             | 발전·충방전과 무선 전력망을 제공                   | Powah!, Lollipop, Flux Networks, 관련 퀘스트·GuideME·KubeJS·발전 과제                                                                              | 완료   | 기존 계획·공통 전력 기반            |
-| Pipez·Modern Dynamics·XNet    | 파이프즈·모던 다이내믹스·엑스넷  | 아이템·액체·에너지 물류망과 필터를 제공            | 세 본체와 관련 연동                                                                                                                                | 미작업 | 기존 계획·공통 물류 기반            |
-| Create                        | Create                           | 회전력 기반 기계, 공정, 조립과 기차를 제공         | Create: Dragons Plus, Create Crafts & Additions, Create Enchantment Industry, Create Aquatic Ambitions, Create Hypertube, Create: Bells & Whistles | 미작업 | 기존 계획·대형 기술 모드            |
+| Pipez·Modern Dynamics·XNet    | 파이프즈·모던 다이내믹스·엑스넷  | 아이템·액체·에너지 물류망과 필터를 제공            | 세 본체와 관련 연동                                                                                                                                | 완료   | 기존 계획·공통 물류 기반            |
+| Create                        | Create                           | 회전력 기반 기계, 공정, 조립과 기차를 제공         | Create: Dragons Plus, Create Crafts & Additions, Create Enchantment Industry, Create Aquatic Ambitions, Create Hypertube, Create: Bells & Whistles | 완료   | 기존 계획·대형 기술 모드            |
 | Modern Industrialization      | 모던 인더스트리얼라이제이션      | 증기부터 전기·디지털 공정까지 이어지는 산업 시스템 | Extended Industrialization, Industrialization Overdrive                                                                                            | 미작업 | 기존 계획·전용 퀘스트 4개           |
 | Ender IO                      | Ender IO                         | 기계, 발전과 다중 채널 도관을 제공                 | 본체, 관련 퀘스트와 다른 모드 연동                                                                                                                 | 완료   | 기존 계획·대형 기술 모드            |
 | Immersive Engineering         | 이머시브 엔지니어링              | 전선·전압·컨베이어와 멀티블록 공정을 제공          | 본체, 관련 퀘스트와 가이드                                                                                                                         | 미작업 | 기존 계획·대형 퀘스트 챕터          |
@@ -130,7 +130,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Oritech                       | 오리테크                         | 광물 가공, 발전과 대형 산업 기계를 제공            | 본체, 전용 퀘스트 챕터                                                                                                                             | 미작업 | 신규: 전용 퀘스트·영어 1,255키      |
 | Extreme Reactors              | 익스트림 리액터                  | 대형 원자로와 터빈으로 전력을 생산                 | 본체, 전용 퀘스트 챕터; ZeroCore는 의존성                                                                                                          | 미작업 | 신규: ATM 후반 발전 콘텐츠          |
 | Railcraft Reborn              | 레일크래프트 리본                | 철도 물류, 증기와 대형 철도 설비를 제공            | 본체, 전용 퀘스트 챕터                                                                                                                             | 미작업 | 신규: 전용 퀘스트·영어 1,075키      |
-| Modular Routers               | 모듈러 라우터                    | 모듈을 조합해 아이템·블록·엔티티 작업을 자동화     | 본체, 전용 퀘스트 챕터                                                                                                                             | 미작업 | 신규: 자주 쓰는 범용 자동화         |
+| Modular Routers               | 모듈러 라우터                    | 모듈을 조합해 아이템·블록·엔티티 작업을 자동화     | 본체, 전용 퀘스트 챕터                                                                                                                             | 완료   | 신규: 자주 쓰는 범용 자동화         |
 | CC: Tweaked                   | CC: 트위크드                     | Lua 컴퓨터와 주변기기로 자동화를 프로그래밍        | Advanced Peripherals, More Red CC 호환                                                                                                             | 미작업 | 신규: 독립 프로그래밍 시스템        |
 | Super Factory Manager         | 슈퍼 팩토리 매니저               | 텍스트 기반 규칙으로 공장 물류를 제어              | 본체, 가이드와 관련 퀘스트                                                                                                                         | 미작업 | 신규: 독립 물류 프로그래밍 UI       |
 | RFTools                       | 알에프툴즈                       | 건축·전력·유틸리티·저장 장치를 제공하는 기술 모음  | Base, Builder, Power, Storage, Utility                                                                                                             | 미작업 | 신규: 설치된 주요 기술 모음         |
@@ -146,12 +146,12 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Mystical Agriculture            | 미스티컬 애그리컬처           | 작물로 광물과 각종 자원을 생산             | Mystical Agradditions, Mystical Customization, Botany Pots Mystical, 관련 퀘스트·KubeJS·발전 과제·가이드 | 완료   | 기존 계획·대형 퀘스트 챕터         |
 | Productive Bees                 | 프로덕티브 비즈               | 벌과 유전자를 이용해 자원을 생산           | Modular Bees, 관련 퀘스트·KubeJS·발전 과제·가이드                                                        | 완료   | 기존 계획·가장 큰 퀘스트 챕터      |
 | Productive Trees                | 프로덕티브 트리즈             | 다양한 나무를 수집·교배해 자원을 생산      | Productive Bees 직접 연동, 전용 퀘스트·KubeJS·발전 과제·가이드                                           | 완료   | 신규: 전용 퀘스트·영어 4,149키     |
-| Hostile Neural Networks         | 적대적 신경망                 | 몹 데이터 모델을 학습해 전리품을 자동 생산 | 본체, 전용 퀘스트 챕터                                                                                   | 미작업 | 신규: 대표 몹 자동화 모드          |
+| Hostile Neural Networks         | 적대적 신경망                 | 몹 데이터 모델을 학습해 전리품을 자동 생산 | 본체, 전용 퀘스트 챕터                                                                                   | 완료   | 신규: 대표 몹 자동화 모드          |
 | Farmer's Delight 계열           | 파머스 딜라이트 계열          | 조리·주방·농업과 식사 콘텐츠를 확장        | Farmer's Delight, Cooking for Blockheads, Farming for Blockheads                                         | 미작업 | 신규: 음식·농업 퀘스트의 중심      |
 | Pam's HarvestCraft 2            | 팸의 하베스트크래프트 2       | 작물·과일나무와 대량의 요리를 추가         | Crops, Food Core, Food Extended, Trees                                                                   | 미작업 | 신규: 영어 문구와 음식 항목이 많음 |
-| Botany Pots·Botany Trees        | 보타니 포츠·보타니 트리즈     | 화분에서 작물과 나무를 자동 재배           | 두 본체와 Mystical 연동                                                                                  | 미작업 | 신규: 초중반 자원 자동화           |
-| Productive Metalworks           | 프로덕티브 메탈웍스           | 금속 용해·주조와 재료 생산 설비를 제공     | 본체와 다른 자원 모드 연동                                                                               | 미작업 | 신규: 영어 376키의 생산 시스템     |
-| All The Ores·All The Compressed | 올 더 오어스·올 더 컴프레스드 | 팩 공통 광물과 대량 압축 블록을 제공       | Allthemodium·ATM Star·관련 퀘스트                                                                        | 미작업 | 신규: ATM 공통 자원·영어 항목 다수 |
+| Botany Pots·Botany Trees        | 보타니 포츠·보타니 트리즈     | 화분에서 작물과 나무를 자동 재배           | 두 본체와 Mystical 연동                                                                                  | 완료   | 신규: 초중반 자원 자동화           |
+| Productive Metalworks           | 프로덕티브 메탈웍스           | 금속 용해·주조와 재료 생산 설비를 제공     | 본체와 다른 자원 모드 연동                                                                               | 완료   | 신규: 영어 376키의 생산 시스템     |
+| All The Ores·All The Compressed | 올 더 오어스·올 더 컴프레스드 | 팩 공통 광물과 대량 압축 블록을 제공       | Allthemodium·ATM Star·관련 퀘스트                                                                        | 완료   | 신규: ATM 공통 자원·영어 항목 다수 |
 
 ### 마법·주문·의식
 
@@ -206,7 +206,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | 모드                     | 한글 표기                      | 어떤 모드인가                                   | 함께 확인할 범위                                                                                                                               | 상태   | 선정 근거                     |
 | ------------------------ | ------------------------------ | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ----------------------------- |
 | Integrated Dynamics 계열 | 인티그레이티드 다이내믹스 계열 | 변수·논리·터미널·물류·자동조합·스크립트를 제공  | Integrated Dynamics, Integrated Terminals, Integrated Tunnels, Integrated Crafting, Integrated Scripting, 호환 네임스페이스·관련 퀘스트·가이드 | 완료   | 기존 계획·전용 퀘스트 챕터    |
-| 초중반 기반 시설         | 초중반 기반 시설               | 자주 쓰는 기계·주민·건축·채굴·몹 처리 도구 묶음 | Iron Furnaces, Easy Villagers, Mining Gadgets, Building Gadgets, Mob Grinding Utils, Item Collectors                                           | 미작업 | 기존 계획·작은 독립 모드 묶음 |
+| 초중반 기반 시설         | 초중반 기반 시설               | 자주 쓰는 기계·주민·건축·채굴·몹 처리 도구 묶음 | Iron Furnaces, Easy Villagers, Mining Gadgets, Building Gadgets, Mob Grinding Utils, Item Collectors                                           | 완료   | 기존 계획·작은 독립 모드 묶음 |
 
 ## 완료된 작업 기록
 
@@ -228,5 +228,10 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
   The Undergarden, The Aether, The Bumblezone, Eternal Starlight, Deeper and Darker의
   본체 언어와 직접 연동 모드, 전용·관련 퀘스트, KubeJS·발전 과제·fallback 표시 경로를
   현재 설치 원문과 대조해 검수하고 적용 완료
+- **순차 번역 모드군 12개:** Refined Storage 2, Functional Storage 계열,
+  Pipez·Modern Dynamics·XNet, Modular Routers, Hostile Neural Networks,
+  Iron Jetpacks·장비 편의, 초중반 기반 시설, Botany Pots·Botany Trees,
+  All The Ores·All The Compressed, Productive Metalworks, Compact Machines와 Create 계열을
+  각각 검증 가능한 커밋으로 완료하고 실제 게임 적용까지 확인
 - **FTB Quests 공통 제목·탐색 기반:** 일부 완료. 다른 모드의 미완성 제목과 fallback은
   해당 모드를 선택했을 때 함께 검토
