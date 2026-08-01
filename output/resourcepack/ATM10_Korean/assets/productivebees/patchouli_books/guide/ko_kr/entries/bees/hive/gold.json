@@ -7,7 +7,7 @@
     {
       "type": "patchouli:text",
       "title": "금 벌",
-      "text": "$(l:bees/wild/crystalline)수정 같은 벌$(/l) 및 $(l:bees/solitary/mason)석공 벌$(/l)에서 번식합니다.",
+      "text": "$(l:bees/wild/crystalline)결정질 벌$(/l)과 $(l:bees/solitary/mason)석공 벌$(/l)을 교배해 얻습니다.",
       "anchor": "gold"
     },
     {

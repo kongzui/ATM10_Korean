@@ -1,13 +1,13 @@
 {
-  "name": "모듈러 드래곤 하이브",
+  "name": "모듈식 드래곤 벌통",
   "icon": "modularbees:modular_dragon_hive",
   "read_by_default": true,
   "category": "modularbees:beehive",
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "모듈러 드래곤 하이브",
-      "text": "용벌로부터 용의 숨결을 수집하는 특별한 벌집입니다."
+      "title": "모듈식 드래곤 벌통",
+      "text": "드라코닉 벌에게서 드래곤 브레스를 모으는 특별한 벌통입니다."
     },
     {
       "type": "patchouli:crafting",

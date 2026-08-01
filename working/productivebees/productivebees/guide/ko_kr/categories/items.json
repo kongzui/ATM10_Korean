@@ -1,5 +1,5 @@
 {
-  "name": "품목",
-  "description": "이 모드의 항목에 대한 정보",
+  "name": "아이템",
+  "description": "이 모드의 아이템을 설명합니다",
   "icon": "productivebees:bee_cage"
 }

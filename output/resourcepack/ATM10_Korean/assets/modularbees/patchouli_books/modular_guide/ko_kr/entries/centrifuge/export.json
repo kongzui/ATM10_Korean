@@ -1,12 +1,12 @@
 {
-  "name": "원심분리기 수출용 해치",
+  "name": "원심분리기 출력 해치",
   "icon": "modularbees:modular_centrifuge_export",
   "read_by_default": true,
   "category": "modularbees:centrifuge",
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "원심분리기 수출용 해치",
+      "title": "원심분리기 출력 해치",
       "text": "물류용 코어 블록의 프록시로 아이템/유체를 마주보는 상자/탱크로 자동 보낼 수 있습니다."
     },
     {

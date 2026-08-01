@@ -1,13 +1,13 @@
 {
-  "name": "불쾌한 벌",
+  "name": "점액질 벌",
   "icon": "minecraft:slime_ball",
   "read_by_default": true,
   "category": "productivebees:bees_wild",
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "불쾌한 벌",
-      "text": "늪지대 생물 군계의 끈적끈적한 둥지에서 발견되었습니다. 불쾌한 벌s는 늪지대에서 발견되는 수분 꽃을 선호하지만, 다른 생물 군계의 꽃으로도 괜찮습니다.",
+      "title": "점액질 벌",
+      "text": "늪 생물 군계의 점액질 둥지에서 발견됩니다. 늪에서 자라는 꽃을 선호하지만 다른 생물 군계의 꽃도 이용합니다.",
       "anchor": "slimy"
     },
     {

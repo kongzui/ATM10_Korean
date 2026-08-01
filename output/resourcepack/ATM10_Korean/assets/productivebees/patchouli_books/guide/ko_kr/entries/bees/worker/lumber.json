@@ -1,5 +1,5 @@
 {
-  "name": "재목 벌",
+  "name": "벌목 벌",
   "icon": "minecraft:wooden_axe",
   "read_by_default": true,
   "sortnum": 3,
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "재목 벌",
+      "title": "벌목 벌",
       "text": "근처의 나무를 조금씩 갉아먹고 벌집에 모읍니다."
     },
     {

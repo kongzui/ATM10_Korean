@@ -7,7 +7,7 @@
     {
       "type": "patchouli:text",
       "title": "에메랄드 벌",
-      "text": "$(l:bees/wild/slimy)불쾌한 벌$(/l) 및 $(l:bees/hive/diamond)다이아몬드 벌$(/l)에서 번식합니다.",
+      "text": "$(l:bees/wild/slimy)슬라임 벌$(/l)과 $(l:bees/hive/diamond)다이아몬드 벌$(/l)을 교배해 얻습니다.",
       "anchor": "emerald"
     },
     {

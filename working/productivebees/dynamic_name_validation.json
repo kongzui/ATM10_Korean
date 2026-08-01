@@ -9,7 +9,7 @@
   "examples": {
     "entity.productivebees.kyanite_bee": "남정석(Kyanite) 벌",
     "entity.productivebees.obsidian_bee": "흑요석(Obsidian) 벌",
-    "entity.productivebees.uru_metal_bee": "우루 금속(Uru Metal) 벌"
+    "entity.productivebees.uru_metal_bee": "우루 금속 벌"
   },
   "wordplay_names_preserved": {
     "entity.productivebees.creeper_bee": "CreeBee",

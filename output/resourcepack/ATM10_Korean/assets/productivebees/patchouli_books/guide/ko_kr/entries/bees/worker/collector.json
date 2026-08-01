@@ -1,5 +1,5 @@
 {
-  "name": "수집기 벌",
+  "name": "수집 벌",
   "icon": "minecraft:hopper",
   "read_by_default": true,
   "sortnum": 5,
@@ -7,8 +7,8 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "수집기 벌",
-      "text": "땅에 있는 물건을 모아 벌집에 넣습니다.$(br)농부 벌과 결합하여 자동화된 농장을 만드세요."
+      "title": "수집 벌",
+      "text": "바닥의 아이템을 주워 벌통에 넣습니다.$(br)농부 벌과 함께 사용하면 농장을 자동화할 수 있습니다."
     },
     {
       "type": "patchouli:entity",

@@ -1,5 +1,5 @@
 {
-  "name": "파는 사람 벌",
+  "name": "땅파기 벌",
   "icon": "productivebees:spawn_egg_digger_bee",
   "read_by_default": true,
   "sortnum": 6,
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "파는 사람 벌",
+      "title": "땅파기 벌",
       "text": "[안토포라 어바나]",
       "anchor": "digger"
     },

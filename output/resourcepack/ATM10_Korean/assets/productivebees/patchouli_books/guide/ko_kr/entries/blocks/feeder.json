@@ -1,12 +1,12 @@
 {
-  "name": "슬래브 공급",
+  "name": "먹이 반블록",
   "icon": "productivebees:feeder",
   "category": "productivebees:blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "productivebees:feeder",
-      "text": "벌에게 먹이를 주기 위한 수집 지점으로 사용할 수 있습니다. 3개의 아이템 블록을 보유하고 있습니다. 벌목 벌이나 채석장 벌이 이로부터 먹이를 먹으면 먹이통에 있는 무작위 아이템이 생산됩니다."
+      "text": "벌의 수분 대상을 한곳에 모아 둘 수 있으며 블록 아이템 3종을 보관합니다. 벌목 벌이나 채석 벌이 여기서 먹이를 먹으면 들어 있는 아이템 중 하나를 무작위로 생산합니다."
     },
     {
       "type": "patchouli:text",

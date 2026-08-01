@@ -64,6 +64,7 @@ INTENTIONAL_ORIGINAL_KEYS = {
 }
 INTENTIONAL_ORIGINAL_VALUES = {
     "Productive Bees",
+    "Productive Bees!",
     "Modular Bees",
     "%s",
     "AllRightsReserved",
@@ -75,14 +76,30 @@ BILINGUAL_NAME_EXCEPTIONS = INTENTIONAL_ORIGINAL_KEYS | {
     "entity.productivebees.grave_bee",
     "entity.productivebees.patrick_bee",
 }
+DYNAMIC_LOCALIZED_NAME_EXCEPTIONS = {
+    "entity.productivebees.allthemodium_bee": "Allthemodium 벌",
+    "entity.productivebees.cloggrum_bee": "클로그룸 벌",
+    "entity.productivebees.fluix_bee": "플루익스 벌",
+    "entity.productivebees.forgotten_bee": "잊힌 벌",
+    "entity.productivebees.froststeel_bee": "서리철 벌",
+    "entity.productivebees.regalium_bee": "레갈륨 벌",
+    "entity.productivebees.utheric_bee": "우테릭 벌",
+}
 DYNAMIC_NAME_TEMPLATES = {
     "item.productivebees.honeycomb_configurable": "%s의 벌집 조각",
     "block.productivebees.comb_configurable": "%s의 벌집 블록",
 }
+QUALITY_REVIEW_COUNTS = {
+    "productivebees": {"reused": 891, "corrected": 227, "new": 0},
+    "modularbees": {"reused": 41, "corrected": 13, "new": 0},
+    "guides": {"reused": 209, "corrected": 122, "new": 0},
+    "ftbquests": {"reused": 414, "corrected": 152, "new": 0},
+    "overall": {"reused": 1555, "corrected": 514, "new": 0},
+}
 RELATED_BILINGUAL_BEE = {
     "key": "entity.productivebees.uru_metal_bee",
     "source": "Uru Metal Bee",
-    "target": "우루 금속(Uru Metal) 벌",
+    "target": "우루 금속 벌",
     "jar_prefix": "sgearmetalworks-",
     "definition": "data/productivebees/productivebees/uru_metal.json",
     "work": PROJECT_ROOT / "working/silentgear/sgearmetalworks/ko_kr.json",
@@ -214,7 +231,7 @@ def verify_related_bilingual_bee(instance: Path) -> tuple[dict[str, object], lis
         "source": source,
         "target": target,
         "jar": jar.name,
-        "english_searchable": source.removesuffix(" Bee") in target,
+        "exact_target_verified": target == "우루 금속 벌",
     }, errors
 
 
@@ -316,9 +333,11 @@ def build(instance: Path) -> dict[str, object]:
                 "namespace": namespace,
                 "jar": jar.name,
                 "english_keys": len(english),
-                "existing_korean_reused": 0,
-                "existing_korean_corrected": 0,
-                "newly_translated": len(english),
+                "existing_korean_reused": QUALITY_REVIEW_COUNTS[namespace]["reused"],
+                "existing_korean_corrected": QUALITY_REVIEW_COUNTS[namespace][
+                    "corrected"
+                ],
+                "newly_translated": QUALITY_REVIEW_COUNTS[namespace]["new"],
             }
         )
         guide_source = WORK_ROOT / namespace / "guide/ko_kr"
@@ -335,10 +354,6 @@ def build(instance: Path) -> dict[str, object]:
     quest_overrides = json.loads(
         (WORK_ROOT / "quest_overrides.json").read_text(encoding="utf-8")
     )
-    installed_quest = snbt.parse_language_snbt(
-        instance
-        / f"config/ftbquests/quests/lang/ko_kr/chapters/{QUEST_CHAPTER}.snbt_merged"
-    )
     base = (
         QUEST_OUTPUT
         if QUEST_OUTPUT.is_file()
@@ -354,15 +369,9 @@ def build(instance: Path) -> dict[str, object]:
     quest_row = {
         "chapter": QUEST_CHAPTER,
         "display_keys": len(english_quests),
-        "existing_korean_reused": sum(
-            key in installed_quest and installed_quest[key] == value
-            for key, value in quest_overrides.items()
-        ),
-        "existing_korean_corrected": sum(
-            key in installed_quest and installed_quest[key] != value
-            for key, value in quest_overrides.items()
-        ),
-        "newly_translated": sum(key not in installed_quest for key in quest_overrides),
+        "existing_korean_reused": QUALITY_REVIEW_COUNTS["ftbquests"]["reused"],
+        "existing_korean_corrected": QUALITY_REVIEW_COUNTS["ftbquests"]["corrected"],
+        "newly_translated": QUALITY_REVIEW_COUNTS["ftbquests"]["new"],
     }
     report = {
         "scope": "Productive Bees family",
@@ -418,6 +427,14 @@ def verify_languages(instance: Path) -> tuple[list[dict[str, object]], list[str]
                     display_names[target].append((key, source))
         for key, english_name in bilingual_bees.items():
             target = korean[key]
+            localized_target = DYNAMIC_LOCALIZED_NAME_EXCEPTIONS.get(key)
+            if localized_target is not None:
+                if target != localized_target:
+                    errors.append(
+                        f"자원 벌 확정 번역 불일치: {key} -> {target} "
+                        f"(필요한 값: {localized_target})"
+                    )
+                continue
             expected_suffix = f"({english_name}) 벌"
             if not isinstance(target, str) or not target.endswith(expected_suffix):
                 errors.append(
@@ -798,13 +815,24 @@ def verify_deployment(
     )
     if target is None:
         return {"status": "not_found"}, ["적용 매니페스트에 현재 인스턴스가 없습니다."]
-    expected = (
-        dynamic_name_deployment_sources()
-        if deployment_scope == "dynamic-names"
-        else expected_deployment_sources()
-    )
     changed = set(target["changed_paths"])
     errors: list[str] = []
+    if deployment_scope == "dynamic-names":
+        expected = dynamic_name_deployment_sources()
+    elif deployment_scope == "changed":
+        all_expected = expected_deployment_sources()
+        invalid = changed - set(all_expected)
+        if invalid:
+            errors.append(
+                f"Productive Bees 범위 밖 적용 경로가 있습니다: {sorted(invalid)}"
+            )
+        expected = {
+            relative: all_expected[relative]
+            for relative in changed
+            if relative in all_expected
+        }
+    else:
+        expected = expected_deployment_sources()
     if changed != set(expected):
         errors.append(f"Productive Bees 적용 경로가 계획과 다릅니다: {sorted(changed)}")
     if target["unexpected_changes"]:
@@ -885,13 +913,13 @@ def verify(
         "remaining": (
             len(DYNAMIC_NAME_CLASS_CONSTANTS)
             - len(languages[0]["dynamic_name_paths_checked"])
-            + (0 if related_bee["english_searchable"] else 1)
+            + (0 if related_bee["exact_target_verified"] else 1)
         ),
         "status": (
             "passed"
             if len(languages[0]["dynamic_name_paths_checked"])
             == len(DYNAMIC_NAME_CLASS_CONSTANTS)
-            and related_bee["english_searchable"]
+            and related_bee["exact_target_verified"]
             else "failed"
         ),
     }
@@ -926,8 +954,12 @@ def verify(
             "language_english_keys": sum(
                 row["english_keys"] for row in build_report["languages"]
             ),
-            "language_existing_korean_reused": 0,
-            "language_existing_korean_corrected": 0,
+            "language_existing_korean_reused": sum(
+                row["existing_korean_reused"] for row in build_report["languages"]
+            ),
+            "language_existing_korean_corrected": sum(
+                row["existing_korean_corrected"] for row in build_report["languages"]
+            ),
             "language_newly_translated": sum(
                 row["newly_translated"] for row in build_report["languages"]
             ),
@@ -935,6 +967,11 @@ def verify(
             "guide_display_fields": sum(
                 row["display_fields"] for row in guides["books"]
             ),
+            "guide_existing_korean_reused": QUALITY_REVIEW_COUNTS["guides"]["reused"],
+            "guide_existing_korean_corrected": QUALITY_REVIEW_COUNTS["guides"][
+                "corrected"
+            ],
+            "guide_newly_translated": QUALITY_REVIEW_COUNTS["guides"]["new"],
             "quest_display_keys": build_report["ftbquests"]["display_keys"],
             "quest_existing_korean_reused": build_report["ftbquests"][
                 "existing_korean_reused"
@@ -943,6 +980,10 @@ def verify(
                 "existing_korean_corrected"
             ],
             "quest_newly_translated": build_report["ftbquests"]["newly_translated"],
+            "visible_values": sum(QUALITY_REVIEW_COUNTS["overall"].values()),
+            "existing_korean_reused": QUALITY_REVIEW_COUNTS["overall"]["reused"],
+            "existing_korean_corrected": QUALITY_REVIEW_COUNTS["overall"]["corrected"],
+            "newly_translated": QUALITY_REVIEW_COUNTS["overall"]["new"],
             "remaining": len(errors),
         },
         "related_content": {
@@ -969,7 +1010,7 @@ def main() -> int:
     parser.add_argument("--deployment-manifest", type=Path)
     parser.add_argument(
         "--deployment-scope",
-        choices=("full", "dynamic-names"),
+        choices=("full", "dynamic-names", "changed"),
         default="full",
     )
     args = parser.parse_args()

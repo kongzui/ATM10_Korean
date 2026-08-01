@@ -1,12 +1,12 @@
 {
-  "name": "사육실",
+  "name": "교배실",
   "icon": "productivebees:breeding_chamber",
   "category": "productivebees:blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "productivebees:breeding_chamber",
-      "text": "이 기계에서는 안전한 환경에서 벌을 사육할 수 있습니다. 두 마리의 부모 벌, 각각의 번식 품목, 자손을 위한 전원 및 빈 케이지를 기계에 공급합니다. 속도 업그레이드를 통해 프로세스 속도를 높일 수 있습니다."
+      "text": "이 기계에서는 안전한 환경에서 벌을 교배할 수 있습니다. 부모 벌 두 마리와 각각의 교배 재료, 전력, 새끼를 담을 빈 케이지를 넣으세요. 속도 업그레이드로 작업 시간을 줄일 수 있습니다."
     }
   ]
 }

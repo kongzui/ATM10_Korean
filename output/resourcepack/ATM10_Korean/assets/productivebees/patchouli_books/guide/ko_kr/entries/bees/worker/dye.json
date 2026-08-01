@@ -1,5 +1,5 @@
 {
-  "name": "먹이다 벌",
+  "name": "염료 벌",
   "icon": "minecraft:red_dye",
   "read_by_default": true,
   "sortnum": 6,
@@ -7,8 +7,8 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "먹이다 벌",
-      "text": "수분된 꽃을 기반으로 염료를 생성합니다."
+      "title": "염료 벌",
+      "text": "수분한 꽃에 따라 다른 염료를 생산합니다."
     },
     {
       "type": "patchouli:entity",

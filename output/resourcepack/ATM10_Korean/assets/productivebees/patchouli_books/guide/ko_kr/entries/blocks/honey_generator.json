@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "꿀 발전기은 두 가지 업그레이드를 허용합니다. $(l:items/upgrades#productivity)생산성 업그레이드$(/l)는 꿀 소비량을 낮춰줍니다. $(l:items/upgrades#speed)속도 업그레이드$(/l)는...속도를 증가시킵니다."
+      "text": "꿀 발전기에는 두 가지 업그레이드를 설치할 수 있습니다. $(l:items/upgrades#productivity)생산성 업그레이드$(/l)는 꿀 소비량을 줄이고, $(l:items/upgrades#speed)속도 업그레이드$(/l)는... 속도를 높입니다."
     }
   ]
 }
