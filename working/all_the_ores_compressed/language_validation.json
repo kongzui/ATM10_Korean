@@ -1,0 +1,77 @@
+{
+  "family": "All The Ores·All The Compressed",
+  "languages": [
+    {
+      "label": "All The Ores",
+      "jar": "alltheores-3.2.0_neoforge_1.21.1.jar",
+      "namespace": "alltheores",
+      "english_keys": 516,
+      "korean_keys": 516,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 292,
+      "new_or_edited": 224
+    },
+    {
+      "label": "All The Compressed",
+      "jar": "allthecompressed-1.21.1-4.4.0.jar",
+      "namespace": "allthecompressed",
+      "english_keys": 1796,
+      "korean_keys": 1796,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 865,
+      "new_or_edited": 904,
+      "project_output_reuse": 27
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 1157,
+    "project_output_reuse": 27,
+    "new_or_edited": 1128
+  },
+  "ftbquests": {
+    "chapters": [
+      "basic_power.snbt",
+      "chapter_2_the_star.snbt",
+      "extreme_reactors.snbt",
+      "immersive_engineering.snbt",
+      "mekanism.snbt",
+      "mekanism_reactors.snbt",
+      "mi_steam.snbt",
+      "occultism.snbt",
+      "oritech.snbt"
+    ],
+    "quests_checked": 33,
+    "tasks_checked": 66,
+    "display_keys_checked": 66,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 9,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

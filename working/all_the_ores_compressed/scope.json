@@ -1,0 +1,102 @@
+{
+  "family": "All The Ores·All The Compressed",
+  "installed": [
+    {
+      "label": "All The Ores",
+      "jar": "alltheores-3.2.0_neoforge_1.21.1.jar",
+      "namespace": "alltheores",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 516,
+      "bundled_korean_keys": 326,
+      "metadata_mentions_family": [
+        "alltheores"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 372,
+      "advancement_examples": [
+        "data/alltheores/advancement/recipes/misc/bronze_ore_hammer.json",
+        "data/alltheores/advancement/recipes/misc/copper_ore_hammer.json",
+        "data/alltheores/advancement/recipes/misc/crafting/aluminum/block_from_ingot.json",
+        "data/alltheores/advancement/recipes/misc/crafting/aluminum/gear.json",
+        "data/alltheores/advancement/recipes/misc/crafting/aluminum/ingot_from_block.json",
+        "data/alltheores/advancement/recipes/misc/crafting/aluminum/ingot_from_nugget.json",
+        "data/alltheores/advancement/recipes/misc/crafting/aluminum/nugget_from_ingot.json",
+        "data/alltheores/advancement/recipes/misc/crafting/aluminum/plate.json",
+        "data/alltheores/advancement/recipes/misc/crafting/aluminum/raw_block_from_raw.json",
+        "data/alltheores/advancement/recipes/misc/crafting/aluminum/raw_from_raw_block.json",
+        "data/alltheores/advancement/recipes/misc/crafting/aluminum/rod.json",
+        "data/alltheores/advancement/recipes/misc/crafting/brass/alloy_blending_from_dust.json",
+        "data/alltheores/advancement/recipes/misc/crafting/brass/block_from_ingot.json",
+        "data/alltheores/advancement/recipes/misc/crafting/brass/gear.json",
+        "data/alltheores/advancement/recipes/misc/crafting/brass/ingot_from_block.json",
+        "data/alltheores/advancement/recipes/misc/crafting/brass/ingot_from_nugget.json",
+        "data/alltheores/advancement/recipes/misc/crafting/brass/nugget_from_ingot.json",
+        "data/alltheores/advancement/recipes/misc/crafting/brass/plate.json",
+        "data/alltheores/advancement/recipes/misc/crafting/brass/rod.json",
+        "data/alltheores/advancement/recipes/misc/crafting/bronze/alloy_blending_from_dust.json"
+      ],
+      "recipes": 1410
+    },
+    {
+      "label": "All The Compressed",
+      "jar": "allthecompressed-1.21.1-4.4.0.jar",
+      "namespace": "allthecompressed",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 1796,
+      "bundled_korean_keys": 1670,
+      "metadata_mentions_family": [
+        "allthecompressed"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 3588,
+      "advancement_examples": [
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_log_1x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_log_2x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_log_3x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_log_4x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_log_5x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_log_6x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_log_7x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_log_8x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_log_9x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_planks_1x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_planks_2x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_planks_3x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_planks_4x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_planks_5x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_planks_6x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_planks_7x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_planks_8x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/acacia_planks_9x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/allthemodium_block_1x.json",
+        "data/allthecompressed/advancement/recipes/building_blocks/compress/allthemodium_block_2x.json"
+      ],
+      "recipes": 7192
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "All The Ores",
+      "jar": "alltheores-3.2.0_neoforge_1.21.1.jar",
+      "namespace": "alltheores",
+      "english_keys": 516,
+      "bundled_ko_kr": 314,
+      "new_translation_required": 202
+    },
+    {
+      "label": "All The Compressed",
+      "jar": "allthecompressed-1.21.1-4.4.0.jar",
+      "namespace": "allthecompressed",
+      "english_keys": 1796,
+      "bundled_ko_kr": 983,
+      "new_translation_required": 786,
+      "project_output_review": 27
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "family": "All The Ores·All The Compressed",
+  "status": "complete",
+  "language": {
+    "namespaces": 2,
+    "keys": 2312,
+    "bundled_exact_reuse": 1157,
+    "project_output_reuse": 27,
+    "new_or_edited": 1128,
+    "untranslated": 0
+  },
+  "ftbquests": {
+    "chapters": 9,
+    "quests_checked": 33,
+    "tasks_checked": 66,
+    "display_keys": 66,
+    "project_output_candidates": 52,
+    "new_translation_candidates": 14,
+    "reviewed_overrides": 28,
+    "untranslated": 0
+  },
+  "other_surfaces": {
+    "advancements_checked": 3960,
+    "advancement_display_entries": 0,
+    "recipes_checked": 4642,
+    "recipe_visible_field_entries": 0,
+    "kubejs_reference_files_checked": 36,
+    "kubejs_direct_visible_lines": 0
+  },
+  "validation": {
+    "specialized": "complete",
+    "family": "complete",
+    "syntax_and_format_errors": 0,
+    "unexpected_instance_changes": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/allthecompressed/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/alltheores/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260801_215320_297022/backup_manifest.json"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "quest.6D6E07564D8FDD8D.quest_desc": [
+    "&aExtreme Reactors&r offers multi-block Reactors that are completely customizable in size, efficiency, and more.\\n\\nTo learn more about getting started with Extreme Reactors, check out the quest chapter for the mod!"
+  ],
+  "quest.6D6E07564D8FDD8D.quest_subtitle": "Customizable Reactors!",
+  "quest.6D6E07564D8FDD8D.title": "&9Extreme Reactors: &aReactors",
+  "quest.034DB3C64F24C7B7.quest_desc": [
+    "&6&lAllTheOres&r is a built in-house mod made to help unify ores.\\n\\nWith that comes a ton of very useful decorative blocks!\\n\\n&dFluorite&r and &9Sapphire&r both look very cool!"
+  ],
+  "quest.034DB3C64F24C7B7.title": "&l&6AllTheOres&r Blocks",
+  "task.27DF6EE4B85F1792.title": "AllTheOres Blocks",
+  "quest.0AE28C998A3BF136.quest_subtitle": "531,441 Netherrack",
+  "quest.0F1CA44520BDEFEA.quest_subtitle": "6,561 Diamond Blocks",
+  "quest.23AE395433AED3C0.quest_desc": [
+    "The &6&lATM Star&r needs a few Blocks to hold together the different Items, and make its star shape! \\n\\nThe first Blocks are &5Unobtainium&r - &6Allthemodium&r &5Alloy&r &6Blocks&r. You need to use an Enchanting Apparatus from &d&lArs Nouveau&r to make them! To make 28 to be exact. \\n\\nFor 17 X3 Netherstar Blocks you'll need 111,537 Netherstars. (Please I am begging you use &l&bHNN&r just don't spawn and kill 111,537, please!)"
+  ],
+  "quest.23AE395433AED3C0.title": "&6&lThe Star's&r Casing",
+  "quest.3331EBE1BB4BF64D.quest_desc": [
+    "Nuclear Reactors can be pretty scary to some especially with the dangerous effects of them! \\n\\nLuckily the only thing scary about &a&lExtreme Reactors&r is how confusing it can be to follow the recipes! \\n\\nNot the explody part they don't do that."
+  ],
+  "quest.3331EBE1BB4BF64D.title": "&a&lExtreme Reactors",
+  "quest.372B5BF416CA83A4.quest_desc": [
+    "&5&lMekanism&r is one of the most popular Machine and Technology Mods. Quite frankly I have a hard time summarizing it as it has so much in it! \\n\\nIt has so much we even had to make 2 Quest Pages for it! \\n\\nThe stuff we need for the &6&lATM Star&r is in the Reactors page but you'll need to get through the Mekanism page to get there."
+  ],
+  "quest.372B5BF416CA83A4.title": "&5&lMekanism",
+  "quest.554F47A0AF7506EC.quest_subtitle": "59,049 End Stone",
+  "quest.6FC55CF56BE22866.quest_subtitle": "531,441 Dirt",
+  "quest.764609E41957DA69.quest_subtitle": "6,561 Emerald Blocks",
+  "quest.779CA0C49F93C4F9.quest_subtitle": "59,049 Obsidian",
+  "quest.14E5349DD740D026.quest_desc": [
+    "To insert fuel into the reactor, you'll need to pick one of the sides that has a &9Reactor Solid Access Port&r and pump in &eUranium&r from an inventory.\\n\\nThe easiest way to do this is to use something like a &aStorage Drawer&r or even just a &aChest&r with an &9Item Pipe&r connected at the top, like the image shown below.\\n",
+    "{image:atm:textures/questpics/extremereactors/importexample.png width:150 height:150 align:1}"
+  ],
+  "quest.14E5349DD740D026.title": "Fueling our Passive Reactor",
+  "quest.7C4E4793DA887DE4.quest_desc": [
+    "Based off of the original mod &eBig Reactors&r, &aExtreme Reactors&r allows you to build customizable multiblock Reactors!\\n\\nThe main element is of course, Uranium. You'll need this and a lot of coal and iron to get building.\\n\\nIf you're ever lost along the way, refer to &aThe Extreme Book&r for help! "
+  ],
+  "quest.7C4E4793DA887DE4.quest_subtitle": "It's not edible... trust me",
+  "quest.7C4E4793DA887DE4.title": "Welcome to &9Extreme Reactors&r!",
+  "quest.1A8F2408970BFCCF.quest_desc": [
+    "&eElectrum&r is an Alloy made from &eGold&r and &7Silver&r. \\n\\nYou can guess by its name it is used a ton in everything electricity related. Wires, Connectors, Transformers, ETC!"
+  ],
+  "quest.1A8F2408970BFCCF.title": "&eElectrum Ingot&r",
+  "quest.2262AB9F934165D0.quest_desc": [
+    "I don't care how you got it, I just need you to get it! \\n\\n&8&lImmersive Engineering&r adds a whole lot more uses to &8Steel&r than just simple builds, almost everything will need &8Steel&r to make it! \\n\\nTools, Mechanical Parts, and Building Blocks mainly. A lot are made with &8Steel Plates&r or &8Scaffolding&r. \\n\\nYou'll need a lot of it but the &l&cCrude Blast Furnace&r and &l&6Alloy Kin&r can't be automated so we might need a... "
+  ],
+  "quest.2262AB9F934165D0.title": "&8Steel Ingot",
+  "quest.30EA16BB8C169F86.quest_desc": [
+    "This one is a combination of &6Copper&r and &7Tin&r! \\n\\nIt's used a ton in &7&lModern Industrialization&r! But in &8&lIE&r... not that much..."
+  ],
+  "quest.30EA16BB8C169F86.title": "&6Bronze Ingot",
+  "quest.3EDDF96EA5056D28.quest_desc": [
+    "&6Copper&r and &7Nickel&r will make &6Constantan&r! \\nFinally this one is used quite a bit in &8&lIE&r, especially in Machines or Items using Heat and Metal, like Generators."
+  ],
+  "quest.3EDDF96EA5056D28.title": "&6Constantan Ingot",
+  "quest.4BA2F4AC2A08C294.quest_desc": [
+    "What's that? It's only the hardest and most expensive Multiblock in &8&lImmersive Engineering&r. The &c&lExcavator&r! \\n\\nThis giant behemoth will automatically collect Ores and Blocks from the Ground. \\n\\nThe Items it picks up will be &6Output&r from a Port in the Back of it. If there's no Inventory next to it, it will dispense the Items. \\n\\nThis is also a super &cEnergy&r hungry Machine, you'll need to use the Energy Ports on the Left Side of it to feed it!",
+    "{@pagebreak}",
+    "Place a &8Steel Block&r.",
+    "{image:atm:textures/questpics/immersive/immersive_excavator1.png width:100 height:100 align:center}",
+    "Add 3 &8Steel Scaffolding&r above the &8Steel Block&r and place 2 &8Steel Blocks&r on the ends.",
+    "{image:atm:textures/questpics/immersive/immersive_excavator2.png width:175 height:100 align:center}",
+    "After that place a 3x3 of &8Steel Scaffolding&r above the previous &8Scaffolding&r, and an extra one on each of the &8Steel Blocks&r. Then, using &8Steel Sheetmetal&r make a hoop off of the &8Scaffolding&r, including a &eLight Engineering Block&r and a &8Radiator Block&r. ",
+    "{image:atm:textures/questpics/immersive/immersive_excavator3.png width:150 height:100 align:center}",
+    "Above the &8Steel Scaffolding&r add more, with a &8Steel Block&r in the middle. Then, attach more &8Steel Blocks&r to the ends of those. On one side it'll be 3 &eLight Engineering Blocks&r and the other will be 3 &7Heavy Engineering Blocks&r. Above the &eLight Engineering Block&r in the last layer, will be another. And above the &8Radiator Block&r will be a &4Redstone Engineering Block&r. Next to it will be another &7Heavy Engineering Block&r and the rest will be &8Steel Sheetmetal&r.",
+    "{image:atm:textures/questpics/immersive/immersive_excavator4.png width:150 height:100 align:center}",
+    "Now for the middle part we'll be repeating what we did below the half, so now it's just &8Steel Scaffolding&r. On the side next to it with &eLight Engineering Blocks&r will be 3 more, same with the random &eLight Engineering Block&r on the otherside. Next to the 3 &eLight Engineering Blocks&r will be 2 &8Radiator Blocks&r, and everything else is &8Sheetmetal&r.",
+    "{image:atm:textures/questpics/immersive/immersive_excavator5.png width:150 height:100 align:center}",
+    "Above the &8Steel Scaffolding&r will be 1 &8Steel Block&r followed by 3 &8Scaffolding&r and another &8Block&r.",
+    "{image:atm:textures/questpics/immersive/immersive_excavator6.png width:150 height:100 align:center}",
+    "The final cherry on top, &8Steel Block&r!",
+    "{image:atm:textures/questpics/immersive/immersive_excavator7.png width:150 height:100 align:center}",
+    "Then, we just Right Click the &7Heavy Engineering Block&r in the back with our &6Hammer&r and it'll become the mighty &c&lExcavator&r!",
+    "{image:atm:textures/questpics/immersive/immersive_excavator.png width:125 height:100 align:center}"
+  ],
+  "quest.4BA2F4AC2A08C294.title": "&l&cExcavator",
+  "quest.4F56BFE6E4716F6D.quest_desc": [
+    "The &8&lArc Furnace&r is a massive and helpful Machine. It makes most other Machines useless! \\n\\nTo start you'll need &cEnergy&r Input from the outlets in the Back of the &8&lArc Furnace&r. It'll then need Fuel which are &0Graphite Electrodes&r. These can only be placed into its GUI, they can't be automated. \\n\\nYou'll then need to &6Input&r the &eItems&r into the Top Ports, near where the &0Graphite Electrodes&r are. When fueled and powered it'll melt down, just about anything. From &7Iron Rods&r to &7Iron Ingots&r, to &bFroststeel Helmets&r to &bFroststeel&r, to &eGold Pickaxes&r to &eGold&r! \\n\\nThe melted down &eItems&r will be &6Output&r into the Back below the Power Outlets. \\n\\nIt can also make Alloys from Metals!",
+    "{@pagebreak}",
+    "1st layer starts off with a U made of &8Steel Sheetmetal&r with the center being &7Heavy Engineering Block&r and the tips being &8Steel Blocks&r. The rest will be &8Steel Sheetmetal Slabs&r with a stray &8Steel Scaffolding&r and Cauldron.",
+    "{image:atm:textures/questpics/immersive/immersive_arc1.png width:100 height:100 align:center}",
+    "2nd layer starts with, above the &7Heavy Engineering Block&r and the 2 Blocks next to it will be &eLight Engineering Blocks&r. Then, the sides of the U will be &7Heavy Engineering Blocks&r. With more &8Steel Blocks&r above the previous ones. We'll also need a 2x3 of &4Reinforced Blast Bricks&r above the &8Slabs&r. Don't forget the &4Redstone Engineering Block&r above the &8Scaffolding&r!",
+    "{image:atm:textures/questpics/immersive/immersive_arc2.png width:100 height:100 align:center}",
+    "3rd has more &8Steel Blocks&r, more &eLight Engineering Blocks&r, and an extension of our &4Reinforced Blast Bricks&r. We'll also need 1 &8Steel Sheetmetal&r on each side.",
+    "{image:atm:textures/questpics/immersive/immersive_arc3.png width:100 height:100 align:center}",
+    "4th needs a &eLight Engineering Block&r placed in the middle above the others. Next to it will be 2 &8Steel Scaffolding&r. And we'll need to add more &4Reinforced Blast Brick&r but this time a Block of length short!",
+    "{image:atm:textures/questpics/immersive/immersive_arc4.png width:100 height:100 align:center}",
+    "5th and final layer is just 2 more &8Steel Scaffolding&r on top of the others. Then, &eLight Engineering Blocks&r above the previous one and in a line in front of it.",
+    "{image:atm:textures/questpics/immersive/immersive_arc5.png width:100 height:100 align:center}",
+    "Finally Right Click the Cauldron with the &6Hammer&r to finish it!",
+    "{image:atm:textures/questpics/immersive/immersive_arc.png width:100 height:100 align:center}"
+  ],
+  "quest.4F56BFE6E4716F6D.title": "&8&lArc Furnace",
+  "quest.73110103EF23BFDF.quest_desc": [
+    "A mix of &6Copper&r and &7Zinc&r. \\n\\nNot really used for much in &8&lIE&r... You can make Signs with it I guess..."
+  ],
+  "quest.73110103EF23BFDF.title": "&6Brass Ingot",
+  "quest.767E4FC03B6F6534.quest_desc": [
+    "Invar Ingots are made with &7Iron&r and &7Nickel&r. \\n\\nLike a lot of these Alloys they aren't useful in &8&lIE&r."
+  ],
+  "quest.767E4FC03B6F6534.title": "&7Invar Ingot",
+  "quest.47F38E606AD3FF53.quest_desc": [
+    "Some Recipes will require &7Ore Dusts&r! \\n\\nThanks to &6&lAllTheOres&r, we can make &7Ore Dusts&r in a million different ways! \\n\\nThe &5&lMekanism&r ways are with the &4&lCrusher&r and &d&lEnrichment Chamber&r. \\n\\nWe can &4Crush&r &7Ingots&f into &7Dust&r. Or &dEnrich&r &7Ore Blocks&r to get 2 &7Dusts&r."
+  ],
+  "quest.4B35C01F5D0AAC58.quest_desc": [
+    "Now that we have our &9&lMetallurgic Infusion&r and hopefully some &cEnergy&r, we can start making &8Steel&r! \\n\\nWe'll need &0Carbon&r in our &eChemical Bar&r. We can use &0Coal&f, &0Charcoal&r, or any varients of those in the &eChemical Slot&f to add &0Carbon&r. \\n\\nThen, if we add an &7Iron Ingot&f/&7Dust&r into the &4Item Slot&r, it will Infuse it with 10mB of Carbon to make Enriched Iron. \\n\\nWe'll need to repeat that step just now with adding 10mB of &0Carbon&r to turn our &7Enriched Iron&r into &8Steel Dust&r! Smelt the &8Dust&r to get a &8Steel Ingot&r. \\n\\n&8Steel&r is used for pretty much everything! Machines, Tools, Upgrades, Reactors, Energy Cells! You'll need a lot of it."
+  ],
+  "quest.4B35C01F5D0AAC58.title": "&8Steel ",
+  "quest.6F62B5510FA881CD.quest_desc": [
+    "&7Osmium&r is an Ore that spawns below Y Level 56. It's Ore is in similar shape to &aEmerald&r with the Color being a &bBlue-ish&7 Grey&r! \\n\\nIt will be useful for many of the &5Machines&r used in &5&lMekanism&r! So you'll need a lot of it! \\n\\nYou can also Craft &7Armor &fand &7Tools&r from it! The &7Armor &fand &7Sword&r are same Points as &cNetherite&r! While the &7Pickaxe&r is the same as an &7Iron Pickaxe&r."
+  ],
+  "quest.6F62B5510FA881CD.quest_subtitle": "The Base Crafting Ingot",
+  "quest.6F62B5510FA881CD.title": "&7Osmium",
+  "quest.7276892E129A739B.quest_desc": [
+    "You think this is all &5&lMekanism&r has? You don't even have a clue! \\n\\nBefore we get there though, let's get some &5Machines &fand &aSulfur&r ready! \\n\\nWe're going to have a long road ahead of us."
+  ],
+  "quest.7276892E129A739B.title": "&5&lMekanism: Reactors",
+  "quest.75E4751F7A802A44.quest_desc": [
+    "How fun! A shopping List of &cChemicals&r! What are we Walter White? \\n\\nFirst, and most important, for &aSulfuric Acid&r, is &eSulfur&r! Mine some then &bOxidize&r it to get &eSulfur Dioxide&r. \\n\\nWe'll need a little more &bOxygen&r though, so let's get some more with an &9&lElectrolytic Separator&r being fed &9Water&r. \\nThen, combine that new-found &bOxygen&r with the &eSulfur Dioxide&r in a &c&lChemical Infuser&r to get &cSulfur Trioxide&r. \\n\\nLeave that &eSulfur&r whatever for a moment until we get Water Vapor! To get Water Vapor, put &9Water&r through a &c&lRotary &bCondensator&r. ",
+    "{image:atm:textures/questpics/mek/mek_tier4_1.png width:200 height:100 align:center}"
+  ],
+  "quest.75E4751F7A802A44.quest_subtitle": "Tier 4 Ore Processing",
+  "quest.75E4751F7A802A44.title": "Creating &aSulfuric Acid",
+  "quest.078B69E9362A5496.quest_desc": [
+    "Yes, &5&lMekanism&r is that big! \\n\\nIf you want your &2&lReactors&r and Invincible Armor, then you are in the right spot! \\n\\nFirst, we'll need a &2&lFission Reactor&r and that needs &2Fissile Fuel&r. To make &2Fissile Fuel&r we'll need some &cSulfuric Trioxide&r. \\n\\nStart by putting &eSulfur&r into a &c&lChemical &eOxidizier&r to make &eSulfur Dioxide&r. \\n\\nThen, make some &bOxygen&r by processing &9Water&r through an &9&lElectrolytic Separator&r. \\n\\nNow we can &cTube&r that &bOxygen&r and &eSulfur Dioxide&r into a &c&lChemical Infuser&r to make our &cSulfur Trioxide&r."
+  ],
+  "quest.078B69E9362A5496.title": "&5&lMekanism: Reactors",
+  "quest.7D279FC39DA5C630.quest_desc": [
+    "We aren't done with our &cSulfur Trioxide&r yet! We will need some Water Vapor to process it further though. \\n\\nTo get Water Vapor we can use the &c&lRotary &bCondensator&r to turn &9Water&r into Water Vapor! \\nMore &cInfusing&r! Combine our Water Vapor with our &cSulfuric Trioxide&r to make &aSulfuric Acid&r. \\n\\nWell it's an Acid now... but not the right one... \\n\\nOh yeah, we'll need &dFluorite&r which we can get from Mining Ores. Then, use the &3&lChemical Dissolution Chamber&r to dilute the &aSulfuric Acid&r with &dFluorite&r to finally get our &7Hydrofluoric Acid&r!"
+  ],
+  "quest.7D279FC39DA5C630.title": "&cSulfur Trioxide&r into &7Hydrofluoric Acid",
+  "quest.1036837C9AD3F301.quest_desc": [
+    "The &#6E6D6DForge Hammer&r will allow you to easily crush &#FFAC3BCopper&r Ingots or Ore forms into its Dusts."
+  ],
+  "quest.253822C64BBBB1EB.quest_desc": [
+    "The &#6E6D6DForge Hammer&r will allow you to easily crush &#9AD5EDTin&r Ingots or Ore forms into its Dusts."
+  ],
+  "quest.7282DCB1547CEB63.quest_desc": [
+    "&#ED9553Bronze&r will act as the building block of the &7&nSteam Age&r. Cooking this dust will get you the &#ED9553Bronze Ingots&r we'll further use."
+  ],
+  "quest.7282DCB1547CEB63.title": "&#EDD653Bronze",
+  "quest.4F35D04721DFC9FF.quest_desc": [
+    "The first type of ritual we'll be performing is the &9Summoning Ritual&r. These rituals are used to summon different types of useful Demons to assist you in crushing, smelting, and more as you get to higher tiers of rituals.",
+    "",
+    "For our first ritual, we want to summon a &aFoliot Crusher&r Demon. This Demon will crush items for us, which is something we'll need to make some of the higher level Chalks!",
+    "",
+    "To start with, combine your Unbound Book with your &aDictionary of Spirits&r in a crafting grid. This will bind a Demon to the Book, which is what we'll need for the ritual.",
+    "",
+    "Speaking about your Dictionary of Spirits, it's time to open it up! On the left, click on the &dPentacles&r tab and click on &bAviar's Circle&r. You might have to advance through it by reading a little bit. There is also a way to click \\\"Mark All As Read\\\" so it unlocks everything in the Book.",
+    "",
+    "This is what we're going to use to summon our new friend. On the right side, you can click the eye in the bottom-left corner of the image to build an outline of the ritual for you in the world. This is super helpful!",
+    "",
+    "Once you've completed the multi-block ritual, place down 4 (or more for future rituals) Sacrificial Bowls anywhere within 8 block horizontal radius from the center Sacrificial Bowl and use the required items on them. Once you place your Bound Book in the Golden Sacrificial Bowl, the ritual will start!",
+    "",
+    "This is what the ritual will look like.",
+    "",
+    "{image:atm:textures/questpics/occultism/aviarcirclenew.png width:200 height:200 align:1}"
+  ],
+  "quest.4F35D04721DFC9FF.quest_subtitle": "Aviar's Circle",
+  "quest.4F35D04721DFC9FF.title": "&bOur First &dRitual",
+  "quest.5FE507DAEE770507.quest_desc": [
+    "Don't want to get a &9Marid Crusher&r for &bLight Blue Chalk&r? Then you can settle for a &aDjinni Crusher&r instead. &aOphyx' Calling&r is used for summoning &aDjinnis&r. This includes a Demonic Wife/Husband. &aDjinnis&r are able to crush ores more efficiently than Foliots, but not as efficiently as &cAfrits&r or &9Marids&r. They're also capable of crushing ice without melting it."
+  ],
+  "quest.5FE507DAEE770507.quest_subtitle": "An alternate path for light blue",
+  "quest.5FE507DAEE770507.title": "&aOphyx' Calling",
+  "quest.0C9F9196CA49FF8D.quest_subtitle": "Find nickel ore to find begin your journey",
+  "quest.0C9F9196CA49FF8D.title": "Oritech Beginnings"
+}

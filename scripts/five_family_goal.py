@@ -337,6 +337,18 @@ TARGETS = (
         False,
         False,
     ),
+    Target(
+        "all_the_ores_compressed",
+        "alltheores-",
+        "alltheores",
+        "All The Ores",
+    ),
+    Target(
+        "all_the_ores_compressed",
+        "allthecompressed-",
+        "allthecompressed",
+        "All The Compressed",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -359,6 +371,7 @@ FAMILY_LABELS = {
     "iron_jetpacks_equipment": "Iron Jetpacks·장비 편의",
     "early_midgame_infrastructure": "초중반 기반 시설",
     "botany_pots_trees": "Botany Pots·Botany Trees",
+    "all_the_ores_compressed": "All The Ores·All The Compressed",
 }
 
 QUEST_CHAPTERS = {
@@ -381,6 +394,7 @@ QUEST_CHAPTERS = {
     "iron_jetpacks_equipment": (),
     "early_midgame_infrastructure": (),
     "botany_pots_trees": (),
+    "all_the_ores_compressed": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -434,6 +448,12 @@ QUEST_TEXT_MARKERS = {
         "botanypots",
         "botany trees",
         "botanytrees",
+    ),
+    "all_the_ores_compressed": (
+        "all the ores",
+        "alltheores",
+        "all the compressed",
+        "allthecompressed",
     ),
 }
 
@@ -506,6 +526,11 @@ ALLOWED_ORIGINALS = {
     "Botany Pots",
     "Botany Trees",
     "[§aBotany Pots§r] %s",
+    "All The Ores",
+    "AllTheOres",
+    "All The Compressed",
+    "AllTheCompressed",
+    "Extreme Reactors",
     "Shift",
     "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
     "Pipez",
@@ -616,6 +641,7 @@ ALLOWED_ORIGINALS = {
     "Gravitational Modulating Additional Unit",
     "Mekanism - Gravitational Modulating Additional Unit",
 }
+ALLOWED_ORIGINALS.update({f"Kivi {level}x" for level in range(1, 10)})
 
 ALLOWED_NAME_COLLISIONS = {
     frozenset({"Energised Steel", "Energized Steel"}),
