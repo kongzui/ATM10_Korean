@@ -36,18 +36,18 @@
     }
   ],
   "counts": {
-    "existing_korean_reused": 1337,
-    "existing_korean_corrected": 216,
-    "newly_translated": 29,
+    "existing_korean_reused": 1315,
+    "existing_korean_corrected": 267,
+    "newly_translated": 0,
     "output_keys": 1582,
-    "related_quest_descriptions_corrected": 2,
-    "related_quest_titles_corrected": 1
+    "related_quest_descriptions_corrected": 2
   },
   "related_scope": {
-    "ftb_quests": "마법 해제 방법 퀘스트와 FTB Ultimine 비교 안내를 완성; 아이템 참조는 리소스팩 이름 사용",
-    "kubejs": "Tombstone 태그와 공지 참조만 확인; Polymorphic Fluid 문구는 Just Dire Things 소유라 범위 제외",
-    "advancements": "Tombstone과 Lootr가 소유한 발전 과제 문구를 언어 파일에서 검수",
-    "guide_ui": "Tombstone 개요서 44개 구조 오류를 영어 줄바꿈·자리표시자에 맞춰 복구"
+    "ftb_quests": "마법 해제 방법과 광맥 채굴 안내를 현재 영어와 대조해 아이템명·FTB Ultimine 표기 2건을 교정; 관련 아이템 task와 명시적 quest 제목·fallback도 확인",
+    "kubejs": "Tombstone 태그 1건과 FTB Ultimine 공지 1건은 번역 변경이 불필요함을 확인; Polymorphic Fluid 표시 문구는 Just Dire Things 소유라 범위 제외",
+    "advancements": "Tombstone display 149개와 Lootr display 14개가 모두 언어 키를 사용함을 확인하고 해당 제목·설명을 언어 파일에서 전수 검수",
+    "guide_ui": "Tombstone 개요서 문구를 현재 영어 줄바꿈·자리표시자와 대조해 검수; 여섯 JAR에 별도 GuideME·Patchouli·Modonomicon 가이드 자산 없음",
+    "ars_polymorphia": "설치된 ars_polymorphia-1.0.3.jar 34개 항목을 확인했으며 언어·발전 과제·가이드 자산 없음"
   },
   "validation": {
     "json": "passed",
@@ -58,6 +58,25 @@
     "line_breaks": "passed",
     "duplicate_quest_keys": 0,
     "invalid_quest_object_ids": 0,
-    "utf8_bom": false
+    "utf8_bom": false,
+    "quest_target_values": "passed",
+    "advancement_fallback": "passed"
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "configured_targets": [
+      "game_root"
+    ],
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/craftingtweaks/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/ftbultimine/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/lootr/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/polymorph/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/tombstone/lang/ko_kr.json"
+    ],
+    "unexpected_changes": [],
+    "backup_manifest": "temp/backups/20260801_161606_506550/backup_manifest.json"
   }
 }

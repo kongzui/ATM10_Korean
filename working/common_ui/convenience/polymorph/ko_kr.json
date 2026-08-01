@@ -1,5 +1,5 @@
 {
   "commands.polymorph.conflicts.starting": "충돌 가능한 제작법을 검색 중입니다...",
   "commands.polymorph.conflicts.success": "충돌 가능성이 있는 제작법 %d개를 찾았습니다. 자세한 내용은 logs/conflicts.log를 확인하세요.",
-  "polymorph.networking.failed": "Polymorph 네트워크 오류: %s"
+  "polymorph.networking.failed": "Polymorph 네트워크 연결 실패: %s"
 }
