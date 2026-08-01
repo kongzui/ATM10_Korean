@@ -1,0 +1,101 @@
+{
+  "block.functionalstorage.armory_cabinet": "장비 보관함",
+  "configurationtool.configmode": "설정 모드: ",
+  "configurationtool.configmode.swapped": "모드를 다음으로 변경했습니다: ",
+  "configurationtool.configmode.toggle_render": "아이템/유체 표시 숨기기/보이기",
+  "configurationtool.use": "빈 공간에서 웅크린 채 우클릭하면 모드를 바꿉니다. 서랍을 우클릭하면 해당 옵션을 전환합니다.",
+  "drawer_upgrade.functionalstorage.void.fluid": "초과된 유체를 소멸시킵니다",
+  "drawer_upgrade.functionalstorage.void.item": "초과된 아이템을 소멸시킵니다",
+  "frameddrawer.use": "텍스처 변경 방법: \n제작 창의 첫 번째 슬롯에는 서랍 바깥쪽 텍스처로 사용할 블록을, 두 번째 슬롯에는 서랍 안쪽 텍스처로 사용할 블록을, 세 번째 슬롯에는 프레임형 서랍을 넣으세요. 네 번째 슬롯에 블록을 넣으면 서랍 칸막이 텍스처도 바꿀 수 있습니다.\n",
+  "functionalupgrade.desc.execute_every_tick": "%s틱마다:",
+  "functionalupgrade.desc.generate_fluid": "%s mb의 %s를 생성합니다",
+  "functionalupgrade.desc.generate_item": "%s개의 %s를 생성합니다",
+  "gui.functionalstorage.open_gui": "웅크린 채 우클릭하여 GUI 열기",
+  "item.functionalstorage.max_storage_upgrade": "최대 저장 업그레이드",
+  "item.functionalstorage.obsidian_upgrade": "흑요석 생성기 업그레이드",
+  "item.functionalstorage.water_generator_upgrade": "물 생성기 업그레이드",
+  "item.utility.downgrade": "각 슬롯의 최대 보관량을 아이템 64개로 낮춥니다.",
+  "item.utility.slot.desc": "GUI에서 우클릭하여 슬롯을 변경합니다.",
+  "key.categories.storage": "저장소",
+  "linkingtool.ender.warning": "서랍에 아이템이 있어 주파수를 바꿀 수 없습니다. 이 안전 확인을 무시하려면 웅크린 채 다시 우클릭하세요.",
+  "linkingtool.drawer.clear": "서랍 주파수를 초기화했습니다",
+  "linkingtool.ender.changed": "서랍 주파수를 변경했습니다",
+  "linkingtool.linkingaction.remove": "제거",
+  "linkingtool.linkingmode.multiple.desc": "두 지점 사이의 여러 서랍을 연결합니다.",
+  "storageupgrade.desc.modify_factor_div": "%s을(를) %s로 나눕니다.",
+  "storageupgrade.desc.modify_factor_mult": "%s에 %s를 곱합니다.",
+  "item.enderstorage.ender_pouch": "엔더 주머니",
+  "block.enderstorage.ender_chest": "엔더 상자",
+  "enderstorage.command.no_colour": "잘못된 색상: %s",
+  "enderstorage.command.no_arguments": "인수 개수가 잘못되었습니다",
+  "enderstorage.serverop": "관리자",
+  "item.pocketstorage.psu_1": "포켓 저장 장치 등급: 1",
+  "item.pocketstorage.psu_1.info": "서로 다른 아이템을 %s종류까지, 각각 최대 %s개 보관합니다.",
+  "item.pocketstorage.psu_1.info2": "같은 아이템을 자동으로 주우며",
+  "item.pocketstorage.psu_1.info3": "초과분은 소멸시킵니다.",
+  "item.pocketstorage.psu_2": "포켓 저장 장치 등급: 2",
+  "item.pocketstorage.psu_2.info": "서로 다른 아이템을 %s종류까지, 각각 최대 %s개 보관합니다.",
+  "item.pocketstorage.psu_2.info2": "같은 아이템을 자동으로 주우며",
+  "item.pocketstorage.psu_2.info3": "초과분은 소멸시킵니다.",
+  "item.pocketstorage.psu_3": "포켓 저장 장치 등급: 3",
+  "item.pocketstorage.psu_3.info": "서로 다른 아이템을 %s종류까지, 각각 최대 %s개 보관합니다.",
+  "item.pocketstorage.psu_3.info2": "같은 아이템을 자동으로 주우며",
+  "item.pocketstorage.psu_3.info3": "초과분은 소멸시킵니다.",
+  "item.pocketstorage.psu_4": "포켓 저장 장치 등급: 4",
+  "item.pocketstorage.psu_4.info": "서로 다른 아이템을 %s종류까지, 각각 최대 %s개 보관합니다.",
+  "item.pocketstorage.psu_4.info2": "같은 아이템을 자동으로 주우며",
+  "item.pocketstorage.psu_4.info3": "초과분은 소멸시킵니다.",
+  "pocketstorage.util.count": "개수 ",
+  "pocketstorage.util.deposit": "상자에 %s하여 내용물을 넣습니다.",
+  "pocketstorage.util.invalid_uuid": "알 수 없는 UUID",
+  "pocketstorage.util.key_shift": "Shift",
+  "pocketstorage.util.migration": "저장 장치를 이전했습니다.",
+  "pocketstorage.util.no_data_items": "포켓 저장 장치에는 데이터가 없는 단순한 아이템만 넣을 수 있습니다.",
+  "pocketstorage.util.shift": "정보를 보려면 <%s> 키를 누르세요.",
+  "pocketstorage.util.sneak_left": "웅크린 채 좌클릭",
+  "pocketstorage.util.sneak_right": "웅크린 채 우클릭",
+  "pocketstorage.util.upgrade": "저장 장치를 업그레이드했습니다.",
+  "pocketstorage.util.withdraw": "상자에 %s하여 일치하는 내용물을 꺼냅니다.",
+  "quest.2B57C8D2F98A9279.quest_desc": [
+    "&l&7Pocket Storage&r는 간단한 휴대용 저장 장치를 추가하는 모드입니다.\n\n우클릭하여 열고 아이템을 넣을 수 있습니다. 각 아이템에는 최대 보관량이 있으며, 이를 넘긴 아이템은 소멸합니다. 저장된 것과 같은 종류의 아이템이 바닥에 떨어져 있으면 자동으로 주워 담습니다.\n\n상자에 내용물을 빠르게 넣거나 상자에서 꺼내는 기능도 있습니다.\n\n등급이 높을수록 슬롯 수와 아이템 최대 보관량이 늘어납니다."
+  ],
+  "quest.2B57C8D2F98A9279.title": "&l&7Pocket Storage",
+  "quest.6877F33323910716.quest_desc": [
+    "4등급 포켓 저장 장치는 아이템 슬롯이 64개이고, 각 슬롯에 아이템을 1,048,575개씩 보관합니다. 총 보관량은 67,108,800개입니다. 이제 백팩 자리를 대신할 수 있겠네요!\n\n네더의 별 몇 개만 있으면 됩니다. 모드 환경에서는 성능에 비해 비싼 편도 아니죠!"
+  ],
+  "quest.1A4B1CA7EC15348E.quest_desc": [
+    "&a연결 도구&r를 사용하면 엔더 서랍 2개를 연결해 내용물을 동기화할 수 있습니다.\n\n서랍 형태의 엔더 상자처럼 작동합니다.\n\n연결하려면 &a연결 도구&r로 첫 번째 엔더 서랍의 바깥쪽 면을 좌클릭한 뒤, 웅크린 채 우클릭으로 두 번째 엔더 서랍을 선택하세요."
+  ],
+  "quest.1A4B1CA7EC15348E.quest_subtitle": "차원의 서랍...",
+  "quest.0E5AE195158CF344.quest_subtitle": "x32 저장 업그레이드",
+  "quest.0E5AE195158CF344.title": "&d네더라이트 업그레이드",
+  "quest.1B72E95569B07E18.quest_subtitle": "x24 저장 업그레이드",
+  "quest.1CACE201C6AA0913.quest_desc": [
+    "이 업그레이드는 서랍이 가득 찼을 때 들어오는 초과 아이템을 소멸시킵니다.\n\n아이템이 넘치거나 저장 공간이 꽉 차서 자동화 장치가 막히는 일을 방지할 때 유용합니다."
+  ],
+  "quest.3B570B3DB5F6D2CB.quest_subtitle": "x16 저장 업그레이드",
+  "quest.485D5664A17E16DF.quest_subtitle": "x8 저장 업그레이드",
+  "quest.122FBF5110E4CFF2.quest_desc": [
+    "철 다운그레이드는 서랍의 슬롯당 최대 보관량을 한 스택으로 낮춥니다. 아이템 재고를 유지하되 너무 많이 쌓이지 않게 할 때 유용합니다."
+  ],
+  "quest.508A8366219175FE.quest_desc": [
+    "구성 도구는 서랍이 안에 든 아이템 종류를 기억하도록 잠그는 데 사용합니다.\n\n서랍에 아이템을 넣고 꺼내는 자동화 시스템을 구성할 때 유용합니다. 잠긴 서랍은 비어도 지정된 아이템 종류가 다른 것으로 바뀌지 않습니다!"
+  ],
+  "quest.61A22707DBC83818.quest_desc": [
+    "컨트롤러 접속 포인트는 저장소 컨트롤러에 연결하면 컨트롤러처럼 아이템을 넣고 꺼낼 수 있습니다. 서랍 네트워크의 추가 출입구 역할을 합니다."
+  ],
+  "quest.6FBAE89EE782DABA.quest_desc": [
+    "설치한 뒤 다른 서랍과 &a연결 도구&r로 연결하면 컨트롤러가 '허브' 역할을 합니다.\n\n컨트롤러를 빠르게 두 번 우클릭하면 인벤토리에서 서랍 네트워크에 보관 중인 종류의 아이템이 모두 네트워크로 옮겨집니다.\n\n빈손으로 웅크린 채 컨트롤러를 우클릭하면 업그레이드 탭이 열립니다. 일반 저장 업그레이드를 슬롯에 넣어 컨트롤러 범위를 늘릴 수 있습니다. 최대 범위는 각 방향으로 40블록, 전체 80x80x80 크기입니다."
+  ],
+  "quest.70902EF96F060672.quest_desc": [
+    "이 업그레이드는 서랍의 모든 면에서 레드스톤 신호를 출력하며, 신호 세기로 서랍이 얼마나 차 있는지 나타냅니다.\n\n슬롯이 여러 개인 서랍에서는 감시할 슬롯을 설정할 수 있습니다.\n\n0 - 비어 있음\n15 - 가득 참"
+  ],
+  "quest.0682DC1F2417DAEB.quest_desc": [
+    "Functional Storage는 같은 아이템을 대량으로 보관하는 서랍과 여러 저장 편의 아이템을 추가하는 모드입니다.\n\n조약돌이나 흙처럼 많이 쌓이는 아이템을 보관할 때 유용합니다."
+  ],
+  "quest.0682DC1F2417DAEB.title": "Functional Storage",
+  "quest.5EE945A1185E8336.quest_desc": [
+    "&l&7Functional Storage&r는 같은 아이템을 여러 스택 보관하는 &7서랍&r을 추가합니다. 업그레이드를 장착하면 더 많은 스택을 보관할 수 있습니다!\n\n조약돌이나 씨앗처럼 많이 모이는 아이템을 넣기에 좋습니다!"
+  ],
+  "quest.5EE945A1185E8336.title": "&l&7Functional Storage&r"
+}

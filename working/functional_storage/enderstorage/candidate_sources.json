@@ -1,0 +1,10 @@
+{
+  "item.enderstorage.ender_pouch": "manual_translation",
+  "block.enderstorage.ender_chest": "manual_translation",
+  "enderstorage.command.no_colour": "manual_translation",
+  "enderstorage.command.usage": "reviewed_original",
+  "enderstorage.command.no_freq": "bundled_ko_kr",
+  "block.enderstorage.ender_tank": "bundled_ko_kr",
+  "enderstorage.command.no_arguments": "manual_translation",
+  "enderstorage.serverop": "manual_translation"
+}

@@ -224,6 +224,24 @@ TARGETS = (
         "Interdimensional Wireless Transmitter",
         True,
     ),
+    Target(
+        "functional_storage",
+        "functionalstorage-",
+        "functionalstorage",
+        "Functional Storage",
+    ),
+    Target(
+        "functional_storage",
+        "pocketstorage-",
+        "pocketstorage",
+        "Pocket Storage",
+    ),
+    Target(
+        "functional_storage",
+        "EnderStorage-",
+        "enderstorage",
+        "EnderStorage",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -239,6 +257,7 @@ FAMILY_LABELS = {
     "eternal_starlight": "Eternal Starlight",
     "deeper_and_darker": "Deeper and Darker",
     "refined_storage": "Refined Storage 2",
+    "functional_storage": "Functional Storage·Pocket Storage·EnderStorage",
 }
 
 QUEST_CHAPTERS = {
@@ -254,6 +273,7 @@ QUEST_CHAPTERS = {
     "eternal_starlight": ("eternal_starlight",),
     "deeper_and_darker": ("deeper_and_darker",),
     "refined_storage": ("refined_storage",),
+    "functional_storage": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -263,6 +283,15 @@ QUEST_CHAPTER_OUTPUT = (
 
 QUEST_VALIDATION_TEXT_EQUIVALENTS = {
     "quest.7B3613C01F0B1373.quest_desc": (("1 Billion", "10억"),),
+}
+
+QUEST_TEXT_MARKERS = {
+    "functional_storage": (
+        "functional storage",
+        "pocket storage",
+        "enderstorage",
+        "ender storage",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -313,6 +342,11 @@ ALLOWED_ORIGINALS = {
     "Cable Tiers",
     "Interdimensional Wireless Transmitter",
     "Refined Storage - Quartz Arsenal",
+    "Functional Storage",
+    "Pocket Storage",
+    "EnderStorage",
+    "Shift",
+    "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
     "Pedro Ricardo",
     "TohokuAlpha",
     "KuLou_D",
@@ -2293,6 +2327,11 @@ def related_quest_keys(instance: Path, family: str) -> dict[str, object]:
                 family == "mekanism" and "mekanism" in quest_snbt.flatten(value).lower()
             ):
                 related[key] = value
+            elif any(
+                marker in quest_snbt.flatten(value).lower()
+                for marker in QUEST_TEXT_MARKERS.get(family, ())
+            ):
+                related[key] = value
     return related
 
 
@@ -2338,29 +2377,37 @@ def prepare_quests(instance: Path, family: str, force: bool) -> dict[str, object
 
 
 def redundant_item_task_title_keys(instance: Path, family: str) -> set[str]:
-    """전용 챕터의 단일 ItemTask 중 중복 제목 키를 반환한다."""
+    """대상 범위의 단일 ItemTask 중 중복 제목 키를 반환한다."""
     english_keys: set[str] = set()
-    lang_root = instance / "config/ftbquests/quests/lang/en_us/chapters"
-    for chapter in QUEST_CHAPTERS[family]:
-        english_keys.update(
-            quest_snbt.parse_language_snbt(lang_root / f"{chapter}.snbt_merged")
-        )
+    for root in sorted((PROJECT_ROOT / "working" / family / "quests").glob("*")):
+        english_file = root / "en_us.json"
+        if english_file.is_file():
+            english_keys.update(load_json(english_file))
     chapters, _ = quest_audit.parse_chapters(instance / "config/ftbquests/quests")
-    dedicated = {
-        chapter["filename"]: chapter
-        for chapter in chapters
-        if Path(chapter["filename"]).stem in QUEST_CHAPTERS[family]
-    }
+    namespaces = {target.namespace for target in targets_for(family)}
+    dedicated_names = set(QUEST_CHAPTERS[family])
+    scoped_quests = []
+    for chapter in chapters:
+        if Path(chapter["filename"]).stem in dedicated_names:
+            scoped_quests.extend(chapter["quests"])
+        elif not dedicated_names:
+            scoped_quests.extend(
+                quest
+                for quest in chapter["quests"]
+                if any(
+                    task["item_id"].partition(":")[0] in namespaces
+                    for task in quest["tasks"]
+                )
+            )
     keys: set[str] = set()
-    for chapter in dedicated.values():
-        for quest in chapter["quests"]:
-            for task in quest["tasks"]:
-                if (
-                    task["type"] == "item"
-                    and task["item_id"] != "ftbfiltersystem:smart_filter"
-                    and f'task.{task["id"]}.title' in english_keys
-                ):
-                    keys.add(f'task.{task["id"]}.title')
+    for quest in scoped_quests:
+        for task in quest["tasks"]:
+            if (
+                task["type"] == "item"
+                and task["item_id"] != "ftbfiltersystem:smart_filter"
+                and f'task.{task["id"]}.title' in english_keys
+            ):
+                keys.add(f'task.{task["id"]}.title')
     return keys
 
 
@@ -2520,6 +2567,23 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
         for chapter in chapters
         if Path(chapter["filename"]).stem in QUEST_CHAPTERS[family]
     ]
+    if not QUEST_CHAPTERS[family]:
+        namespaces = {target.namespace for target in targets_for(family)}
+        dedicated = [
+            {
+                **chapter,
+                "quests": [
+                    quest
+                    for quest in chapter["quests"]
+                    if any(
+                        task["item_id"].partition(":")[0] in namespaces
+                        for task in quest["tasks"]
+                    )
+                ],
+            }
+            for chapter in chapters
+        ]
+        dedicated = [chapter for chapter in dedicated if chapter["quests"]]
     custom_names = [
         task
         for chapter in dedicated

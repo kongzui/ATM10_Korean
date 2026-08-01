@@ -1,0 +1,80 @@
+{
+  "family": "Functional Storage·Pocket Storage·EnderStorage",
+  "languages": [
+    {
+      "label": "Functional Storage",
+      "jar": "functionalstorage-1.21.1-1.5.7.jar",
+      "namespace": "functionalstorage",
+      "english_keys": 157,
+      "korean_keys": 157,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "bundled_exact_reuse": 121,
+      "new_or_edited": 36
+    },
+    {
+      "label": "Pocket Storage",
+      "jar": "pocketstorage-1.2.5+1.21.1-b3.jar",
+      "namespace": "pocketstorage",
+      "english_keys": 28,
+      "korean_keys": 28,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "new_or_edited": 28
+    },
+    {
+      "label": "EnderStorage",
+      "jar": "EnderStorage-1.21.1-2.13.0.191.jar",
+      "namespace": "enderstorage",
+      "english_keys": 8,
+      "korean_keys": 8,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "new_or_edited": 5,
+      "bundled_exact_reuse": 3
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 124,
+    "project_output_reuse": 0,
+    "new_or_edited": 69
+  },
+  "ftbquests": {
+    "chapters": [
+      "chapter_2_the_star.snbt",
+      "storage.snbt"
+    ],
+    "quests_checked": 19,
+    "tasks_checked": 20,
+    "display_keys_checked": 34,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 14,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

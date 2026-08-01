@@ -1,0 +1,28 @@
+{
+  "family": "Functional Storage·Pocket Storage·EnderStorage",
+  "language_namespaces": 3,
+  "language_keys": 193,
+  "bundled_reviewed_reuse": 124,
+  "new_or_edited_language": 69,
+  "quest_display_keys": 34,
+  "existing_project_quest_reuse": 20,
+  "manual_quest_translations": 14,
+  "quests_checked": 19,
+  "tasks_checked": 20,
+  "first_task_fallbacks_checked": 14,
+  "kubejs_display_strings": 0,
+  "guide_content_translation_required": false,
+  "advancement_display_fields": 0,
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp\\backups\\20260801_200528_975313\\backup_manifest.json",
+    "selected_files": 4,
+    "changed_files": 4,
+    "hash_matches": 4,
+    "unexpected_changes": []
+  },
+  "remaining": 0,
+  "errors": [],
+  "status": "complete"
+}

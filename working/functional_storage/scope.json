@@ -1,0 +1,107 @@
+{
+  "family": "Functional Storage·Pocket Storage·EnderStorage",
+  "installed": [
+    {
+      "label": "Functional Storage",
+      "jar": "functionalstorage-1.21.1-1.5.7.jar",
+      "namespace": "functionalstorage",
+      "direct_integration": false,
+      "english_keys": 157,
+      "bundled_korean_keys": 157,
+      "metadata_mentions_family": [
+        "functionalstorage"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 69,
+      "advancement_examples": [
+        "data/functionalstorage/advancement/recipes/misc/acacia_1.json",
+        "data/functionalstorage/advancement/recipes/misc/acacia_2.json",
+        "data/functionalstorage/advancement/recipes/misc/acacia_4.json",
+        "data/functionalstorage/advancement/recipes/misc/armory_cabinet.json",
+        "data/functionalstorage/advancement/recipes/misc/birch_1.json",
+        "data/functionalstorage/advancement/recipes/misc/birch_2.json",
+        "data/functionalstorage/advancement/recipes/misc/birch_4.json",
+        "data/functionalstorage/advancement/recipes/misc/cherry_1.json",
+        "data/functionalstorage/advancement/recipes/misc/cherry_2.json",
+        "data/functionalstorage/advancement/recipes/misc/cherry_4.json",
+        "data/functionalstorage/advancement/recipes/misc/collector_upgrade.json",
+        "data/functionalstorage/advancement/recipes/misc/compacting_drawer.json",
+        "data/functionalstorage/advancement/recipes/misc/compacting_framed_drawer.json",
+        "data/functionalstorage/advancement/recipes/misc/compacting_framed_drawer_from_simple.json",
+        "data/functionalstorage/advancement/recipes/misc/configuration_tool.json",
+        "data/functionalstorage/advancement/recipes/misc/controller_extension.json",
+        "data/functionalstorage/advancement/recipes/misc/copper_upgrade.json",
+        "data/functionalstorage/advancement/recipes/misc/crimson_1.json",
+        "data/functionalstorage/advancement/recipes/misc/crimson_2.json",
+        "data/functionalstorage/advancement/recipes/misc/crimson_4.json"
+      ],
+      "recipes": 145
+    },
+    {
+      "label": "Pocket Storage",
+      "jar": "pocketstorage-1.2.5+1.21.1-b3.jar",
+      "namespace": "pocketstorage",
+      "direct_integration": false,
+      "english_keys": 28,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "pocketstorage"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 4
+    },
+    {
+      "label": "EnderStorage",
+      "jar": "EnderStorage-1.21.1-2.13.0.191.jar",
+      "namespace": "enderstorage",
+      "direct_integration": false,
+      "english_keys": 8,
+      "bundled_korean_keys": 8,
+      "metadata_mentions_family": [
+        "enderstorage"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 6
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "industrial-foregoing-souls-1.21.1-1.10.7.jar",
+      "dependency_mentions": [
+        "functionalstorage"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "Functional Storage",
+      "jar": "functionalstorage-1.21.1-1.5.7.jar",
+      "namespace": "functionalstorage",
+      "english_keys": 157,
+      "bundled_ko_kr": 157
+    },
+    {
+      "label": "Pocket Storage",
+      "jar": "pocketstorage-1.2.5+1.21.1-b3.jar",
+      "namespace": "pocketstorage",
+      "english_keys": 28,
+      "new_translation_required": 28
+    },
+    {
+      "label": "EnderStorage",
+      "jar": "EnderStorage-1.21.1-2.13.0.191.jar",
+      "namespace": "enderstorage",
+      "english_keys": 8,
+      "bundled_ko_kr": 7,
+      "new_translation_required": 1
+    }
+  ]
+}
