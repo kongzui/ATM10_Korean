@@ -15,16 +15,17 @@
     }
   ],
   "counts": {
-    "existing_korean_reused": 136,
-    "existing_korean_corrected": 102,
-    "newly_translated": 10,
+    "existing_korean_reused": 193,
+    "existing_korean_corrected": 55,
+    "newly_translated": 0,
     "output_keys": 248
   },
   "related_scope": {
-    "ftb_quests": "Tempad 직접 참조와 전용 퀘스트 없음",
-    "kubejs": "tempad 네임스페이스의 다른 언어 참고 리소스만 확인; 한국어 사용자 문구는 리소스팩으로 제공",
-    "advancements": "tempad_static의 발전 과제 제목·설명 4키 검수",
-    "guide_ui": "지식 투사기 도움말과 앱·설정·시간 문 UI 전체 검수"
+    "ftb_quests": "현재 챕터 구조·영어·한국어 언어 파일에서 Tempad 네임스페이스·모드명·아이템 참조와 quest·task·fallback 표시 없음",
+    "kubejs": "tempad 네임스페이스의 포르투갈어 참고 언어 리소스만 확인; 한국어 사용자 문구는 리소스팩 산출물로 제공",
+    "advancements": "JAR의 발전 과제 JSON 30개 중 display 2개가 모두 tempad_static 번역 키 4개를 사용함을 확인하고 제목·설명을 검수",
+    "guide_ui": "지식 투사기 도움말 82키와 앱·설정·시간 문 UI를 전수 검수하고, 빠져 있던 접근 필터·메트로놈 부팅·투사기 설치·시간 문 소비 조건 4개 항목을 복원",
+    "fallback_display": "발전 과제 display에 literal 문구가 없고, 중첩 텍스트 컴포넌트 10개와 Jade·자막·상태 문구를 현재 영어와 대조"
   },
   "validation": {
     "json": "passed",
@@ -34,6 +35,21 @@
     "placeholders_including_named": "passed",
     "format_codes": "passed",
     "line_breaks": "passed",
-    "utf8_bom": false
+    "utf8_bom": false,
+    "non_positional_placeholder_semantics": "passed",
+    "scope_search": "passed"
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "configured_targets": [
+      "game_root"
+    ],
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/tempad/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/tempad_static/lang/ko_kr.json"
+    ],
+    "unexpected_changes": [],
+    "backup_manifest": "temp/backups/20260801_162944_185194/backup_manifest.json"
   }
 }
