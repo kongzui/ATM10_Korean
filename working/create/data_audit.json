@@ -1,0 +1,101 @@
+{
+  "jars": [
+    {
+      "namespace": "create",
+      "jar": "create-1.21.1-6.0.10.jar",
+      "advancements_checked": 1150,
+      "advancement_display_entries": 102,
+      "advancement_direct_literals": [],
+      "recipes_checked": 1884,
+      "recipe_direct_literals": [],
+      "ponder_json_assets_checked": 0,
+      "ponder_direct_literals": [],
+      "ponder_language_keys": 1052
+    },
+    {
+      "namespace": "create_dragons_plus",
+      "jar": "CreateDragonsPlus-1.11.2b.jar",
+      "advancements_checked": 4,
+      "advancement_display_entries": 0,
+      "advancement_direct_literals": [],
+      "recipes_checked": 119,
+      "recipe_direct_literals": [],
+      "ponder_json_assets_checked": 0,
+      "ponder_direct_literals": [],
+      "ponder_language_keys": 31
+    },
+    {
+      "namespace": "createaddition",
+      "jar": "createaddition-1.6.0.jar",
+      "advancements_checked": 25,
+      "advancement_display_entries": 0,
+      "advancement_direct_literals": [],
+      "recipes_checked": 152,
+      "recipe_direct_literals": [],
+      "ponder_json_assets_checked": 0,
+      "ponder_direct_literals": [],
+      "ponder_language_keys": 50
+    },
+    {
+      "namespace": "create_enchantment_industry",
+      "jar": "create-enchantment-industry-2.5.0-preview-alpha1.jar",
+      "advancements_checked": 46,
+      "advancement_display_entries": 32,
+      "advancement_direct_literals": [],
+      "recipes_checked": 47,
+      "recipe_direct_literals": [],
+      "ponder_json_assets_checked": 0,
+      "ponder_direct_literals": [],
+      "ponder_language_keys": 173
+    },
+    {
+      "namespace": "create_aquatic_ambitions",
+      "jar": "create_aquatic_ambitions-1.21.1-2.0.2.jar",
+      "advancements_checked": 12,
+      "advancement_display_entries": 0,
+      "advancement_direct_literals": [],
+      "recipes_checked": 96,
+      "recipe_direct_literals": [],
+      "ponder_json_assets_checked": 0,
+      "ponder_direct_literals": [],
+      "ponder_language_keys": 18
+    },
+    {
+      "namespace": "create_hypertube",
+      "jar": "create_hypertube-0.5.0-ALPHA-NEOFORGE.jar",
+      "advancements_checked": 5,
+      "advancement_display_entries": 0,
+      "advancement_direct_literals": [],
+      "recipes_checked": 7,
+      "recipe_direct_literals": [],
+      "ponder_json_assets_checked": 0,
+      "ponder_direct_literals": [],
+      "ponder_language_keys": 20
+    },
+    {
+      "namespace": "bellsandwhistles",
+      "jar": "bellsandwhistles-0.4.7-1.21.1.jar",
+      "advancements_checked": 0,
+      "advancement_display_entries": 0,
+      "advancement_direct_literals": [],
+      "recipes_checked": 53,
+      "recipe_direct_literals": [],
+      "ponder_json_assets_checked": 0,
+      "ponder_direct_literals": [],
+      "ponder_language_keys": 0
+    }
+  ],
+  "kubejs_reference_files_checked": 7,
+  "kubejs_reference_files": [
+    "server_scripts/Tweaks/recipes_fix.js",
+    "server_scripts/Tweaks/tags.js",
+    "server_scripts/modpack/atm_star.js",
+    "server_scripts/modpack/atm_star_creative.js",
+    "server_scripts/modpack/att_items.js",
+    "server_scripts/mods/Create/recipes.js",
+    "server_scripts/mods/Draconic Evolution/draconic_evo.js"
+  ],
+  "kubejs_direct_visible_lines": [],
+  "errors": [],
+  "status": "complete"
+}

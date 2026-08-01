@@ -1,0 +1,59 @@
+{
+  "family": "Create",
+  "status": "complete",
+  "language": {
+    "namespaces": 7,
+    "keys": 4950,
+    "bundled_exact_reuse": 3866,
+    "project_output_reuse": 186,
+    "new_or_edited": 898,
+    "untranslated": 0
+  },
+  "ftbquests": {
+    "chapters": 1,
+    "quests_checked": 90,
+    "tasks_checked": 99,
+    "display_keys": 197,
+    "project_output_reviewed": 4,
+    "newly_translated": 193,
+    "untranslated": 0
+  },
+  "kubejs": {
+    "reference_files_checked": 7,
+    "direct_visible_lines": 0
+  },
+  "other_surfaces": {
+    "advancements_checked": 1242,
+    "advancement_display_entries": 134,
+    "advancement_direct_literals": 0,
+    "recipes_checked": 2358,
+    "recipe_direct_literals": 0,
+    "ponder_language_keys": 1344,
+    "ponder_direct_literals": 0
+  },
+  "validation": {
+    "specialized_language": "complete",
+    "ftbquests": "complete",
+    "data_audit": "complete",
+    "family": "complete",
+    "ruff": "complete",
+    "python_compile": "complete",
+    "syntax_and_format_errors": 0,
+    "unexpected_instance_changes": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/bellsandwhistles/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/create/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/create_aquatic_ambitions/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/create_dragons_plus/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/create_enchantment_industry/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/create_hypertube/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/createaddition/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260801_225233_867232/backup_manifest.json"
+  }
+}

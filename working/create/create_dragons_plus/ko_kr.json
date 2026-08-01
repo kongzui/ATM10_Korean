@@ -349,6 +349,5 @@
   "tag.item.c.buckets.dye.white": "하얀색 염료 양동이",
   "tag.item.c.buckets.dye.yellow": "노란색 염료 양동이",
   "tag.item.create_dragons_plus.not_applicable_for_coloring": "자동 염색 조합법에 적용되지 않음",
-  "upgrade.create_dragons_plus.blaze_upgrade": "블레이즈 업그레이드",
-  "create_dragons_plus.fragile_fluid_tank.effect.infused_dragon_breath": "주변에 떨어진 아이템을 분해하며 장착한 아이템도 분해할 수 있습니다"
+  "upgrade.create_dragons_plus.blaze_upgrade": "블레이즈 업그레이드"
 }

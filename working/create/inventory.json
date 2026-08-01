@@ -1,0 +1,384 @@
+{
+  "family": "Create",
+  "installed": [
+    {
+      "label": "Create",
+      "jar": "create-1.21.1-6.0.10.jar",
+      "namespace": "create",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 3639,
+      "bundled_korean_keys": 3619,
+      "metadata_mentions_family": [
+        "create"
+      ],
+      "guide_candidates": 2,
+      "guide_examples": [
+        "data/create/advancement/recipes/misc/crafting/appliances/book.json",
+        "data/create/recipe/crafting/appliances/book.json"
+      ],
+      "advancements": 1150,
+      "advancement_examples": [
+        "data/create/advancement/andesite_alloy.json",
+        "data/create/advancement/andesite_casing.json",
+        "data/create/advancement/anvil_plough.json",
+        "data/create/advancement/arm_blaze_burner.json",
+        "data/create/advancement/arm_many_targets.json",
+        "data/create/advancement/backtank.json",
+        "data/create/advancement/belt.json",
+        "data/create/advancement/belt_funnel_kiss.json",
+        "data/create/advancement/brass.json",
+        "data/create/advancement/brass_casing.json",
+        "data/create/advancement/burner.json",
+        "data/create/advancement/cardboard.json",
+        "data/create/advancement/cardboard_armor.json",
+        "data/create/advancement/cardboard_armor_trim.json",
+        "data/create/advancement/cart_pickup.json",
+        "data/create/advancement/chained_drain.json",
+        "data/create/advancement/chocolate_bucket.json",
+        "data/create/advancement/chute.json",
+        "data/create/advancement/clockwork_bearing.json",
+        "data/create/advancement/compacting.json"
+      ],
+      "recipes": 2932
+    },
+    {
+      "label": "Create: Dragons Plus",
+      "jar": "CreateDragonsPlus-1.11.2b.jar",
+      "namespace": "create_dragons_plus",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 351,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "create",
+        "create_dragons_plus"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 4,
+      "advancement_examples": [
+        "data/create_dragons_plus/advancement/recipes/blaze_upgrade_smithing_template.json",
+        "data/create_dragons_plus/advancement/recipes/fluid_hatch.json",
+        "data/create_dragons_plus/advancement/recipes/fragile_fluid_tank.json",
+        "data/create_dragons_plus/advancement/recipes/levitite_fragile_fluid_tank.json"
+      ],
+      "recipes": 123
+    },
+    {
+      "label": "Create Crafts & Additions",
+      "jar": "createaddition-1.6.0.jar",
+      "namespace": "createaddition",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 261,
+      "bundled_korean_keys": 237,
+      "metadata_mentions_family": [
+        "create",
+        "createaddition"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 25,
+      "advancement_examples": [
+        "data/createaddition/advancement/recipes/building_blocks/crafting/biomass_pallet_block.json",
+        "data/createaddition/advancement/recipes/building_blocks/crafting/electrum_block.json",
+        "data/createaddition/advancement/recipes/combat/crafting/electrum_amulet.json",
+        "data/createaddition/advancement/recipes/food/smoking/cake_base_baked.json",
+        "data/createaddition/advancement/recipes/misc/crafting/barbed_wire.json",
+        "data/createaddition/advancement/recipes/misc/crafting/biomass_pellet_from_biomass_pallet_block.json",
+        "data/createaddition/advancement/recipes/misc/crafting/capacitor_1.json",
+        "data/createaddition/advancement/recipes/misc/crafting/capacitor_2.json",
+        "data/createaddition/advancement/recipes/misc/crafting/connector.json",
+        "data/createaddition/advancement/recipes/misc/crafting/diamond_grit_sandpaper.json",
+        "data/createaddition/advancement/recipes/misc/crafting/digital_adapter.json",
+        "data/createaddition/advancement/recipes/misc/crafting/electrum_ingot_from_electrum_block.json",
+        "data/createaddition/advancement/recipes/misc/crafting/electrum_ingot_from_nugget.json",
+        "data/createaddition/advancement/recipes/misc/crafting/electrum_nugget.json",
+        "data/createaddition/advancement/recipes/misc/crafting/festive_spool.json",
+        "data/createaddition/advancement/recipes/misc/crafting/large_connector.json",
+        "data/createaddition/advancement/recipes/misc/crafting/rolling_mill.json",
+        "data/createaddition/advancement/recipes/misc/crafting/small_light_connector.json",
+        "data/createaddition/advancement/recipes/misc/crafting/spool.json",
+        "data/createaddition/advancement/recipes/redstone/crafting/copper_spool.json"
+      ],
+      "recipes": 171
+    },
+    {
+      "label": "Create Enchantment Industry",
+      "jar": "create-enchantment-industry-2.5.0-preview-alpha1.jar",
+      "namespace": "create_enchantment_industry",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 565,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "create",
+        "create_dragons_plus",
+        "create_enchantment_industry"
+      ],
+      "guide_candidates": 15,
+      "guide_examples": [
+        "assets/create_enchantment_industry/blockstates/brass_bookshelf.json",
+        "assets/create_enchantment_industry/blockstates/creative_bookshelf.json",
+        "assets/create_enchantment_industry/models/block/brass_bookshelf.json",
+        "assets/create_enchantment_industry/models/block/creative_bookshelf.json",
+        "assets/create_enchantment_industry/models/item/blazes_enchanting_handbook.json",
+        "assets/create_enchantment_industry/models/item/brass_bookshelf.json",
+        "assets/create_enchantment_industry/models/item/creative_bookshelf.json",
+        "assets/create_enchantment_industry/models/item/incomplete_brass_bookshelf.json",
+        "data/create_enchantment_industry/advancement/recipes/blazes_enchanting_handbook.json",
+        "data/create_enchantment_industry/data_maps/enchantment/printing/enchanted_book/custom_cost.json",
+        "data/create_enchantment_industry/data_maps/fluid/printing/written_book/ingredient.json",
+        "data/create_enchantment_industry/loot_table/blocks/brass_bookshelf.json",
+        "data/create_enchantment_industry/loot_table/blocks/creative_bookshelf.json",
+        "data/create_enchantment_industry/recipe/crafting/blazes_enchanting_handbook.json",
+        "data/create_enchantment_industry/recipe/sequenced_assembly/brass_bookshelf.json"
+      ],
+      "advancements": 46,
+      "advancement_examples": [
+        "data/create_enchantment_industry/advancement/a_shower_experience.json",
+        "data/create_enchantment_industry/advancement/assembly_aesthetics.json",
+        "data/create_enchantment_industry/advancement/blaze_enchantery.json",
+        "data/create_enchantment_industry/advancement/blazing_centurion.json",
+        "data/create_enchantment_industry/advancement/blazing_enchantment.json",
+        "data/create_enchantment_industry/advancement/blazing_fusion.json",
+        "data/create_enchantment_industry/advancement/born_talent_of_fire.json",
+        "data/create_enchantment_industry/advancement/brand_registry.json",
+        "data/create_enchantment_industry/advancement/copiable_masterpiece.json",
+        "data/create_enchantment_industry/advancement/copiable_mystery.json",
+        "data/create_enchantment_industry/advancement/experienced_engineer.json",
+        "data/create_enchantment_industry/advancement/experienced_recycler.json",
+        "data/create_enchantment_industry/advancement/gone_with_the_foil.json",
+        "data/create_enchantment_industry/advancement/great_publisher.json",
+        "data/create_enchantment_industry/advancement/grind_to_polish.json",
+        "data/create_enchantment_industry/advancement/legacy_ignition.json",
+        "data/create_enchantment_industry/advancement/lightning_catalysis.json",
+        "data/create_enchantment_industry/advancement/lumen_nexus.json",
+        "data/create_enchantment_industry/advancement/magic_unbinding.json",
+        "data/create_enchantment_industry/advancement/omni_enchanter.json"
+      ],
+      "recipes": 61
+    },
+    {
+      "label": "Create Aquatic Ambitions",
+      "jar": "create_aquatic_ambitions-1.21.1-2.0.2.jar",
+      "namespace": "create_aquatic_ambitions",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 39,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "create",
+        "create_aquatic_ambitions"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 12,
+      "advancement_examples": [
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/brain_coral_block.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/bubble_coral_block.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/fire_coral_block.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/horn_coral_block.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/mechanical_conduit.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/prismarine_alloy.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/prismarine_alloy_block.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/prismarine_alloy_from_block.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/prismarine_alloy_rod.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/trident.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/crafting/materials/tube_coral_block.json",
+        "data/create_aquatic_ambitions/advancement/recipes/misc/smelting/veridium.json"
+      ],
+      "recipes": 107
+    },
+    {
+      "label": "Create Hypertube",
+      "jar": "create_hypertube-0.5.0-ALPHA-NEOFORGE.jar",
+      "namespace": "create_hypertube",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 55,
+      "bundled_korean_keys": 50,
+      "metadata_mentions_family": [
+        "create",
+        "create_hypertube"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 5,
+      "advancement_examples": [
+        "data/create_hypertube/advancement/recipes/misc/hyper_accelerator_small_cogwheel.json",
+        "data/create_hypertube/advancement/recipes/misc/hypertube.json",
+        "data/create_hypertube/advancement/recipes/misc/hypertube_entrance.json",
+        "data/create_hypertube/advancement/recipes/misc/hypertube_funnel.json",
+        "data/create_hypertube/advancement/recipes/misc/redstone_detector_tube_attachment.json"
+      ],
+      "recipes": 12
+    },
+    {
+      "label": "Create: Bells & Whistles",
+      "jar": "bellsandwhistles-0.4.7-1.21.1.jar",
+      "namespace": "bellsandwhistles",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 39,
+      "bundled_korean_keys": 28,
+      "metadata_mentions_family": [
+        "bellsandwhistles",
+        "create"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 53
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "[Neoforge]ctov-3.6.3.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "cc-tweaked-1.21.1-forge-1.113.1.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "FramedBlocks-10.6.0.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "ftb-quests-neoforge-2101.1.27.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "ftb-ranks-neoforge-2101.1.3.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "ftb-teams-neoforge-2101.1.10.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "integratedscripting-1.21.1-neoforge-1.0.22-373.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "minecolonies-1.1.1339-1.21.1-snapshot.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "NaturesAura-41.9.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "occultism-1.21.1-neoforge-1.223.0.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "rechiseledcreate-1.1.1-neoforge-mc1.21.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "SimpleBackups-1.21-4.0.30.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "sophisticatedbackpacks-1.21.1-3.25.64.1933.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "sophisticatedcore-1.21.1-1.4.60.2057.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "sophisticatedstorage-1.21.1-1.5.63.1872.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "sophisticatedstorageinmotion-1.21.1-0.10.30.276.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "structurize-1.0.831-1.21.1-snapshot.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "supplementaries-neoforge-1.21.1-3.7.4.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "tempad-1.21.1-3.0.4-all.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "theurgy-1.21.1-neoforge-1.73.1.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "yeetusexperimentus-neoforge-87.0.0.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    }
+  ]
+}

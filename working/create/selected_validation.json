@@ -1,0 +1,48 @@
+{
+  "namespaces": [
+    {
+      "namespace": "create",
+      "keys": 3639,
+      "untranslated": 0,
+      "complete": true
+    },
+    {
+      "namespace": "createaddition",
+      "keys": 261,
+      "untranslated": 0,
+      "complete": true
+    },
+    {
+      "namespace": "create_hypertube",
+      "keys": 55,
+      "untranslated": 0,
+      "complete": true
+    },
+    {
+      "namespace": "bellsandwhistles",
+      "keys": 39,
+      "untranslated": 0,
+      "complete": true
+    },
+    {
+      "namespace": "create_aquatic_ambitions",
+      "keys": 39,
+      "untranslated": 0,
+      "complete": true
+    },
+    {
+      "namespace": "create_dragons_plus",
+      "keys": 351,
+      "untranslated": 0,
+      "complete": true
+    },
+    {
+      "namespace": "create_enchantment_industry",
+      "keys": 565,
+      "untranslated": 0,
+      "complete": true
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

@@ -361,6 +361,43 @@ TARGETS = (
         "compactmachines",
         "Compact Machines",
     ),
+    Target("create", "create-1.21.1-", "create", "Create"),
+    Target(
+        "create",
+        "CreateDragonsPlus-",
+        "create_dragons_plus",
+        "Create: Dragons Plus",
+    ),
+    Target(
+        "create",
+        "createaddition-",
+        "createaddition",
+        "Create Crafts & Additions",
+    ),
+    Target(
+        "create",
+        "create-enchantment-industry-",
+        "create_enchantment_industry",
+        "Create Enchantment Industry",
+    ),
+    Target(
+        "create",
+        "create_aquatic_ambitions-",
+        "create_aquatic_ambitions",
+        "Create Aquatic Ambitions",
+    ),
+    Target(
+        "create",
+        "create_hypertube-",
+        "create_hypertube",
+        "Create Hypertube",
+    ),
+    Target(
+        "create",
+        "bellsandwhistles-",
+        "bellsandwhistles",
+        "Create: Bells & Whistles",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -386,6 +423,7 @@ FAMILY_LABELS = {
     "all_the_ores_compressed": "All The Ores·All The Compressed",
     "productive_metalworks": "Productive Metalworks",
     "compact_machines": "Compact Machines",
+    "create": "Create",
 }
 
 QUEST_CHAPTERS = {
@@ -411,6 +449,7 @@ QUEST_CHAPTERS = {
     "all_the_ores_compressed": (),
     "productive_metalworks": (),
     "compact_machines": (),
+    "create": ("create",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -478,6 +517,17 @@ QUEST_TEXT_MARKERS = {
     "compact_machines": (
         "compact machines",
         "compactmachines",
+    ),
+    "create": (
+        "&6&lcreate",
+        "create:",
+        "create dragons plus",
+        "createaddition",
+        "create enchantment industry",
+        "create aquatic ambitions",
+        "create hypertube",
+        "bells and whistles",
+        "bellsandwhistles",
     ),
 }
 
@@ -557,6 +607,20 @@ ALLOWED_ORIGINALS = {
     "Extreme Reactors",
     "Productive Metalworks",
     "Compact Machines",
+    "Create",
+    "Create 1.21",
+    "Create: Dragons Plus",
+    "Create Crafts & Additions",
+    "Create: Enchantment Industry",
+    "Create: Aquatic Ambitions",
+    "Create: Hypertube",
+    "Bells & Whistles",
+    "killtps",
+    "tickTime",
+    "Ctrl",
+    "&6&lCreate&r 1.21",
+    "&6&lCreate&r",
+    "&6&lCreate",
     "Shift",
     "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
     "Pipez",
@@ -679,6 +743,34 @@ ALLOWED_NAME_COLLISIONS = {
     frozenset({"Liveroot", "Liveroots"}),
     frozenset({"Naga Scale", "Naga Scales"}),
     frozenset({"Has: %s %s Candle", "Has: %s %s Candles"}),
+    frozenset({"R-Click", "When R-Clicked"}),
+    frozenset({"When Used on Blocks", "When used on Blocks"}),
+    frozenset({"Copper Backtank", "Copper Backtank Placeable"}),
+    frozenset({"Netherite Backtank", "Netherite Backtank Placeable"}),
+    frozenset(
+        {
+            "Will create a wire link between them and return an _Empty Spool_.",
+            "Will create a wire link between them, while retaining the _Empty Spool_.",
+        }
+    ),
+    frozenset({"ELECTRUM_AMULET", "Pale Gold Amulet"}),
+    frozenset({"BRASS_FIGURINE", "Brass Figurine"}),
+    frozenset({"COPPER_GOBLET", "Copper Goblet"}),
+    frozenset({"GOLD_GOBLET", "Ornate Goblet"}),
+    frozenset({"Bucket of Seed Oil", "SEED_OIL_BUCKET"}),
+    frozenset({"BIOETHANOL_BUCKET", "Bucket of Biofuel"}),
+    frozenset({"BIOMASS_PELLET", "Biomass Pellet"}),
+    frozenset({"CREATIVE_GENERATOR", "Creative Generator"}),
+    frozenset(
+        {
+            "Provides _⚡_ to _wires_ connected to the _connector_ marked with a upwards arrow.",
+            "Provides _⚡_ to _wires_ connected to the _connector_ marked with an upwards arrow.",
+        }
+    ),
+    frozenset({"REDSTONE_RELAY", "Redstone Relay"}),
+    frozenset({"DIGITAL_ADAPTER", "Digital Adapter"}),
+    frozenset({"BARBED_WIRE", "Barbed Wire"}),
+    frozenset({"ACCUMULATOR", "Accumulator"}),
 }
 
 MEKANISM_QUEST_WORDS = {
@@ -3588,6 +3680,35 @@ def verify_language(
             compact_extra = load_json(compact_extra_path)
             expected_output.update(compact_extra)
             integration_extra_keys = len(compact_extra)
+        create_extra_path = (
+            PROJECT_ROOT
+            / "working/create/integrations/create_enchantment_industry"
+            / target.namespace
+            / "ko_kr.json"
+        )
+        if family == "create" and create_extra_path.is_file():
+            create_extra = load_json(create_extra_path)
+            create_extra_source_path = create_extra_path.with_name("en_us.json")
+            if not create_extra_source_path.is_file():
+                errors.append(f"통합 원문 누락: {target.namespace}")
+            else:
+                create_extra_source = load_json(create_extra_source_path)
+                if set(create_extra_source) != set(create_extra):
+                    errors.append(f"통합 키 불일치: {target.namespace}")
+                for key, source_value in create_extra_source.items():
+                    if key not in create_extra:
+                        continue
+                    target_value = create_extra[key]
+                    errors.extend(validate_value(key, source_value, target_value))
+                    if (
+                        isinstance(source_value, str)
+                        and isinstance(target_value, str)
+                        and source_value == target_value
+                        and not is_allowed_original(source_value)
+                    ):
+                        errors.append(f"통합 미번역: {target.namespace}:{key}")
+            expected_output.update(create_extra)
+            integration_extra_keys += len(create_extra)
         output_matches = output.is_file() and load_json(output) == expected_output
         if not output_matches:
             errors.append(f"누적 출력 불일치: {target.namespace}")
@@ -3672,6 +3793,19 @@ def build(family: str) -> dict[str, object]:
         ):
             merged = load_json(destination)
             merged.update(load_json(hostile_integration_path))
+            destination.write_text(
+                json.dumps(merged, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+        create_extra_path = (
+            PROJECT_ROOT
+            / "working/create/integrations/create_enchantment_industry"
+            / target.namespace
+            / "ko_kr.json"
+        )
+        if family == "create" and create_extra_path.is_file():
+            merged = load_json(destination)
+            merged.update(load_json(create_extra_path))
             destination.write_text(
                 json.dumps(merged, ensure_ascii=False, indent=2) + "\n",
                 encoding="utf-8",
