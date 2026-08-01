@@ -34,16 +34,17 @@
     }
   ],
   "counts": {
-    "existing_korean_reused": 35,
-    "existing_korean_corrected": 26,
-    "newly_translated": 2,
+    "existing_korean_reused": 59,
+    "existing_korean_corrected": 4,
+    "newly_translated": 0,
     "output_keys": 63
   },
   "related_scope": {
-    "ftb_quests": "모드 네임스페이스와 직접 UI 문구 참조 없음",
-    "kubejs": "직접 사용자 표시 문구 없음",
-    "advancements": "Better Advancements 자체 UI 1키만 검수; 발전 과제 내용은 소유 모드 범위로 유지",
-    "guide_ui": "직접 관련 대상 없음"
+    "ftb_quests": "현재 챕터 구조·영어·한국어 언어 파일에서 여섯 모드의 네임스페이스·모드명·아이템 참조와 fallback 표시 없음",
+    "kubejs": "현재 스크립트와 자산에서 여섯 모드의 직접 사용자 표시 문구 없음",
+    "advancements": "여섯 JAR에 자체 display 발전 과제 없음; Better Advancements의 남은 항목 수 UI 1키를 현재 영어와 대조해 검수",
+    "guide_ui": "여섯 JAR에 GuideME·Patchouli·Modonomicon 가이드 자산 없음",
+    "mouse_tweaks": "설치된 MouseTweaks-neoforge-mc1.21-2.26.1.jar 35개 항목을 확인했으며 언어·발전 과제·가이드 자산 없음"
   },
   "validation": {
     "json": "passed",
@@ -51,6 +52,33 @@
     "placeholders": "passed",
     "format_codes": "passed",
     "line_breaks": "passed",
-    "utf8_bom": false
+    "utf8_bom": false,
+    "scope_search": "passed",
+    "fallback_display": "passed"
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "configured_targets": [
+      "game_root"
+    ],
+    "selected_paths": [
+      "resourcepacks/ATM10_Korean/assets/appleskin/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/betteradvancements/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/controlling/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/invtweaks/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/trashslot/lang/ko_kr.json"
+    ],
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/appleskin/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/betteradvancements/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/controlling/lang/ko_kr.json"
+    ],
+    "unchanged_verified_paths": [
+      "resourcepacks/ATM10_Korean/assets/invtweaks/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/trashslot/lang/ko_kr.json"
+    ],
+    "unexpected_changes": [],
+    "backup_manifest": "temp/backups/20260801_162008_955737/backup_manifest.json"
   }
 }

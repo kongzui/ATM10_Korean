@@ -16,7 +16,7 @@
   "appleskin.configuration.showSaturationHudOverlay.tooltip": "참이면 현재 포화도를 허기 바 위에 표시합니다.",
   "appleskin.configuration.showFoodStatsInDebugOverlay": "디버그 화면에 음식 수치 표시",
   "appleskin.configuration.showFoodStatsInDebugOverlay.tooltip": "참이면 디버그 화면에 허기·포화도·소모도 수치를 표시합니다.",
-  "appleskin.configuration.showVanillaAnimationsOverlay": "허기 HUD에 애니메이션 적용",
+  "appleskin.configuration.showVanillaAnimationsOverlay": "HUD 아이콘에 Minecraft 애니메이션 적용",
   "appleskin.configuration.showVanillaAnimationsOverlay.tooltip": "참이면 체력·허기 오버레이가 Minecraft 아이콘 애니메이션에 맞춰 흔들립니다.",
   "appleskin.configuration.maxHudOverlayFlashAlpha": "깜박이는 HUD 아이콘의 최대 알파값",
   "appleskin.configuration.maxHudOverlayFlashAlpha.tooltip": "아이콘이 가장 잘 보일 때의 알파값입니다(1.0 = 완전 불투명, 0.0 = 완전 투명).",
