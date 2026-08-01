@@ -3,33 +3,32 @@
   "languages": {
     "evilcraft": {
       "keys_reviewed": 628,
-      "keys_changed": 52,
+      "keys_changed": 180,
       "changes_this_run": 0,
       "source_counts": {
-        "project_output_review": 575,
-        "manual_review": 52,
-        "project_output_review": 1
+        "manual_review": 180,
+        "project_output_review": 448
       }
     },
     "evilcraftcompat": {
       "keys_reviewed": 29,
-      "keys_changed": 5,
+      "keys_changed": 9,
       "changes_this_run": 0,
       "source_counts": {
-        "project_output_review": 12,
-        "manual_review": 5,
-        "new_translation_required": 12
+        "manual_review": 9,
+        "new_translation_required": 12,
+        "project_output_review": 8
       }
     }
   },
   "ftbquests": {
     "keys_reviewed": 97,
-    "keys_changed": 19,
-    "changes_this_run": 1,
+    "keys_changed": 56,
+    "changes_this_run": 0,
     "source_counts": {
-      "manual_review": 19,
+      "manual_review": 56,
       "new_translation_required": 1,
-      "project_output_review": 77
+      "project_output_review": 40
     }
   }
 }

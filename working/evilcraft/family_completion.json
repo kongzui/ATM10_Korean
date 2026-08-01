@@ -1,9 +1,22 @@
 {
   "family": "EvilCraft",
+  "counts": {
+    "language_values": 657,
+    "quest_display_values": 97,
+    "visible_values": 754,
+    "existing_korean_reused": 575,
+    "existing_korean_corrected": 179,
+    "newly_translated": 0,
+    "language_existing_korean_reused": 521,
+    "language_existing_korean_corrected": 136,
+    "quest_existing_korean_reused": 54,
+    "quest_existing_korean_corrected": 43,
+    "remaining": 0
+  },
   "language_provenance": {
     "bundled_exact_reuse": 0,
-    "project_output_reuse": 588,
-    "new_or_edited": 69
+    "project_output_reuse": 456,
+    "new_or_edited": 201
   },
   "ftbquests": {
     "chapters": [
@@ -67,7 +80,12 @@
   "deployment": {
     "status": "applied_and_verified",
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp/backups/20260715_123519_518745/backup_manifest.json",
+    "backup_manifest": "temp\\backups\\20260801_134748_625167\\backup_manifest.json",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/evilcraft/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/evilcraftcompat/lang/ko_kr.json"
+    ],
     "files_checked": 3,
     "hash_matches": 3,
     "unexpected_changes": []

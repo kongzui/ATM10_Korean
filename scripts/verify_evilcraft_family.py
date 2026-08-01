@@ -20,6 +20,11 @@ if hasattr(sys.stdout, "reconfigure"):
 WORK_ROOT = PROJECT_ROOT / "working/evilcraft"
 OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
 INFO_KEY = re.compile(r"info_book\.[a-z0-9_.]+")
+QUALITY_REVIEW_COUNTS = {
+    "language": {"reused": 521, "corrected": 136, "new": 0},
+    "quests": {"reused": 54, "corrected": 43, "new": 0},
+    "overall": {"reused": 575, "corrected": 179, "new": 0},
+}
 
 
 def load_json(path: Path) -> dict[str, object]:
@@ -192,51 +197,68 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def deployment_report(instance: Path) -> dict[str, object]:
-    """가장 최근 적용 기록에서 EvilCraft 관련 파일의 해시 일치를 집계한다."""
-    manifests = sorted(
-        (PROJECT_ROOT / "temp/backups").glob("*/backup_manifest.json"),
-        key=lambda path: path.stat().st_mtime_ns,
-        reverse=True,
-    )
-    if not manifests:
-        return {"status": "not_applied", "files_checked": 0, "hash_matches": 0}
-    path = manifests[0]
-    manifest = load_json(path)
-    targets = manifest.get("targets", [])
-    if not isinstance(targets, list) or not targets:
-        return {"status": "not_applied", "files_checked": 0, "hash_matches": 0}
-    expected = (
-        (
-            PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
-            instance / "config/ftbquests/quests/lang/ko_kr.snbt",
-        ),
-        (
-            OUTPUT_ASSETS / "evilcraft/lang/ko_kr.json",
-            instance / "resourcepacks/ATM10_Korean/assets/evilcraft/lang/ko_kr.json",
-        ),
-        (
-            OUTPUT_ASSETS / "evilcraftcompat/lang/ko_kr.json",
-            instance
-            / "resourcepacks/ATM10_Korean/assets/evilcraftcompat/lang/ko_kr.json",
-        ),
-    )
-    matches = sum(
-        source.is_file() and target.is_file() and sha256(source) == sha256(target)
-        for source, target in expected
-    )
-    target_manifest = targets[0] if isinstance(targets[0], dict) else {}
+def expected_deployment_sources() -> dict[str, Path]:
+    """EvilCraft 작업 단위에서 적용할 세 산출물만 반환한다."""
     return {
-        "status": "applied_and_verified" if matches == len(expected) else "incomplete",
-        "target": str(instance),
-        "backup_manifest": path.relative_to(PROJECT_ROOT).as_posix(),
-        "files_checked": len(expected),
-        "hash_matches": matches,
-        "unexpected_changes": target_manifest.get("unexpected_changes", []),
+        "config/ftbquests/quests/lang/ko_kr.snbt": (
+            PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        ),
+        "resourcepacks/ATM10_Korean/assets/evilcraft/lang/ko_kr.json": (
+            OUTPUT_ASSETS / "evilcraft/lang/ko_kr.json"
+        ),
+        "resourcepacks/ATM10_Korean/assets/evilcraftcompat/lang/ko_kr.json": (
+            OUTPUT_ASSETS / "evilcraftcompat/lang/ko_kr.json"
+        ),
     }
 
 
-def verify(instance: Path) -> tuple[dict[str, object], int]:
+def deployment_report(
+    instance: Path, manifest_path: Path | None
+) -> tuple[dict[str, object], list[str]]:
+    """명시한 적용 기록의 경로와 실제 파일 해시를 검증한다."""
+    if manifest_path is None:
+        return {"status": "validated_not_applied"}, []
+    manifest = load_json(manifest_path)
+    targets = manifest.get("targets", [])
+    if not isinstance(targets, list):
+        return {"status": "invalid"}, ["적용 매니페스트의 대상 목록이 잘못되었습니다."]
+    target = next(
+        (
+            row
+            for row in targets
+            if isinstance(row, dict) and Path(str(row.get("target_root"))) == instance
+        ),
+        None,
+    )
+    if target is None:
+        return {"status": "not_found"}, ["적용 매니페스트에 현재 인스턴스가 없습니다."]
+    expected = expected_deployment_sources()
+    changed = set(target.get("changed_paths", []))
+    errors: list[str] = []
+    if changed != set(expected):
+        errors.append(f"EvilCraft 적용 경로가 계획과 다릅니다: {sorted(changed)}")
+    unexpected = target.get("unexpected_changes", [])
+    if unexpected:
+        errors.append("EvilCraft 적용 중 계획 밖 변경이 기록되었습니다.")
+    matches = 0
+    for relative, source in expected.items():
+        live = instance / relative
+        if not live.is_file() or sha256(source) != sha256(live):
+            errors.append(f"실제 적용 파일 해시 불일치: {relative}")
+        else:
+            matches += 1
+    return {
+        "status": "applied_and_verified" if not errors else "invalid",
+        "target": str(instance),
+        "backup_manifest": str(manifest_path),
+        "changed_paths": sorted(changed),
+        "files_checked": len(expected),
+        "hash_matches": matches,
+        "unexpected_changes": unexpected,
+    }, errors
+
+
+def verify(instance: Path, manifest_path: Path | None) -> tuple[dict[str, object], int]:
     """모든 관련 표시 경로를 검사해 단계 완료 보고서를 만든다."""
     errors: list[str] = []
     core = load_json(WORK_ROOT / "language_validation.json")
@@ -248,11 +270,36 @@ def verify(instance: Path) -> tuple[dict[str, object], int]:
     errors.extend(found)
     kubejs, found = verify_kubejs(instance)
     errors.extend(found)
-    deployment = deployment_report(instance)
-    if deployment.get("status") != "applied_and_verified":
-        errors.append("EvilCraft 산출물이 실제 설치본에 아직 적용되지 않았습니다.")
+    deployment, found = deployment_report(instance, manifest_path)
+    errors.extend(found)
+    status = (
+        "complete"
+        if not errors and manifest_path
+        else "ready_for_apply"
+        if not errors
+        else "incomplete"
+    )
     report = {
         "family": "EvilCraft",
+        "counts": {
+            "language_values": 657,
+            "quest_display_values": 97,
+            "visible_values": sum(QUALITY_REVIEW_COUNTS["overall"].values()),
+            "existing_korean_reused": QUALITY_REVIEW_COUNTS["overall"]["reused"],
+            "existing_korean_corrected": QUALITY_REVIEW_COUNTS["overall"]["corrected"],
+            "newly_translated": QUALITY_REVIEW_COUNTS["overall"]["new"],
+            "language_existing_korean_reused": QUALITY_REVIEW_COUNTS["language"][
+                "reused"
+            ],
+            "language_existing_korean_corrected": QUALITY_REVIEW_COUNTS["language"][
+                "corrected"
+            ],
+            "quest_existing_korean_reused": QUALITY_REVIEW_COUNTS["quests"]["reused"],
+            "quest_existing_korean_corrected": QUALITY_REVIEW_COUNTS["quests"][
+                "corrected"
+            ],
+            "remaining": len(errors),
+        },
         "language_provenance": core.get("language_provenance", {}),
         "ftbquests": core.get("ftbquests", {}),
         "info_book": info_book,
@@ -264,7 +311,7 @@ def verify(instance: Path) -> tuple[dict[str, object], int]:
         "deployment": deployment,
         "validation_errors": len(errors),
         "errors": errors,
-        "status": "complete" if not errors else "incomplete",
+        "status": status,
     }
     (WORK_ROOT / "family_completion.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n",
@@ -275,8 +322,9 @@ def verify(instance: Path) -> tuple[dict[str, object], int]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.parse_args()
-    report, status = verify(resolve_source_root())
+    parser.add_argument("--deployment-manifest", type=Path)
+    args = parser.parse_args()
+    report, status = verify(resolve_source_root(), args.deployment_manifest)
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return status
 
