@@ -262,6 +262,30 @@ TARGETS = (
         "hostilenetworks",
         "Hostile Neural Networks",
     ),
+    Target(
+        "iron_jetpacks_equipment",
+        "IronJetpacks-",
+        "ironjetpacks",
+        "Iron Jetpacks",
+    ),
+    Target(
+        "iron_jetpacks_equipment",
+        "baubley-heart-canisters-",
+        "bhc",
+        "Baubley Heart Canisters",
+    ),
+    Target(
+        "iron_jetpacks_equipment",
+        "ToolBelt-",
+        "toolbelt",
+        "Tool Belt",
+    ),
+    Target(
+        "iron_jetpacks_equipment",
+        "simplemagnets-",
+        "simplemagnets",
+        "Simple Magnets",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -281,6 +305,7 @@ FAMILY_LABELS = {
     "basic_logistics": "Pipez·Modern Dynamics·XNet",
     "modular_routers": "Modular Routers",
     "hostile_neural_networks": "Hostile Neural Networks",
+    "iron_jetpacks_equipment": "Iron Jetpacks·장비 편의",
 }
 
 QUEST_CHAPTERS = {
@@ -300,6 +325,7 @@ QUEST_CHAPTERS = {
     "basic_logistics": (),
     "modular_routers": ("modular_router",),
     "hostile_neural_networks": ("hostile_neural_networks",),
+    "iron_jetpacks_equipment": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -323,6 +349,16 @@ QUEST_TEXT_MARKERS = {
     "hostile_neural_networks": (
         "hostile neural networks",
         "hostilenetworks",
+    ),
+    "iron_jetpacks_equipment": (
+        "iron jetpacks",
+        "ironjetpacks",
+        "baubley heart canisters",
+        "baubley-heart-canisters",
+        "tool belt",
+        "toolbelt",
+        "simple magnets",
+        "simplemagnets",
     ),
 }
 
@@ -381,6 +417,10 @@ ALLOWED_ORIGINALS = {
     "FTB Filter System",
     "Hostile Neural Networks",
     "Thermal",
+    "Iron Jetpacks",
+    "Baubley Heart Canisters",
+    "Tool Belt",
+    "Simple Magnets",
     "Shift",
     "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
     "Pipez",

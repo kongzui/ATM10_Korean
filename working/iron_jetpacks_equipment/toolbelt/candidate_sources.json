@@ -1,0 +1,15 @@
+{
+  "item.toolbelt.belt": "bundled_ko_kr",
+  "item.toolbelt.pouch": "bundled_ko_kr",
+  "key.toolbelt.open": "manual_translation",
+  "key.toolbelt.category": "bundled_ko_kr",
+  "key.toolbelt.slot": "bundled_ko_kr",
+  "key.toolbelt.cycle.left": "manual_translation",
+  "key.toolbelt.cycle.right": "manual_translation",
+  "text.toolbelt.empty": "bundled_ko_kr",
+  "text.toolbelt.swap": "manual_translation",
+  "text.toolbelt.insert": "bundled_ko_kr",
+  "text.toolbelt.extract": "bundled_ko_kr",
+  "text.toolbelt.tooltip": "bundled_ko_kr",
+  "text.toolbelt": "bundled_ko_kr"
+}

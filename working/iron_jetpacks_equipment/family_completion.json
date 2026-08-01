@@ -1,0 +1,31 @@
+{
+  "family": "Iron Jetpacks·장비 편의",
+  "language_namespaces": 4,
+  "jar_language_keys": 159,
+  "data_only_advancement_keys": 8,
+  "output_language_keys": 167,
+  "bundled_reviewed_reuse": 54,
+  "new_or_edited_language": 113,
+  "quest_display_keys": 9,
+  "manual_quest_translations": 9,
+  "quests_checked": 4,
+  "tasks_checked": 4,
+  "first_task_fallbacks_checked": 0,
+  "guide_files": 0,
+  "advancement_display_fields": 8,
+  "advancement_missing_translation_keys": 0,
+  "kubejs_files_reviewed": 3,
+  "kubejs_visible_literals_translated": 2,
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp\\backups\\20260801_210102_156182\\backup_manifest.json",
+    "selected_files": 6,
+    "changed_files": 6,
+    "hash_matches": 6,
+    "unexpected_changes": []
+  },
+  "remaining": 0,
+  "errors": [],
+  "status": "complete"
+}

@@ -150,8 +150,8 @@ ItemEvents.modifyTooltips(allthemods => {
     ])
 
     allthemods.add('toolbelt:belt', [
-        Text.of("§7Has it's own slot to be placed in"),
-        Text.of("§7Check your Keybinds for \"Open Belt Slot Inventory\"")
+        Text.of("§7전용 장착 슬롯이 있습니다"),
+        Text.of("§7키 설정에서 \"허리띠 슬롯 인벤토리 열기\"를 확인하세요")
     ])
 
 	//Easy Villagers

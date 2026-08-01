@@ -1,0 +1,141 @@
+{
+  "family": "Iron Jetpacks·장비 편의",
+  "installed": [
+    {
+      "label": "Iron Jetpacks",
+      "jar": "IronJetpacks-1.21.1-8.0.11.jar",
+      "namespace": "ironjetpacks",
+      "direct_integration": false,
+      "english_keys": 42,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "ironjetpacks"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 5
+    },
+    {
+      "label": "Baubley Heart Canisters",
+      "jar": "baubley-heart-canisters-1.21.1-1.4.1.jar",
+      "namespace": "bhc",
+      "direct_integration": false,
+      "english_keys": 66,
+      "bundled_korean_keys": 34,
+      "metadata_mentions_family": [
+        "bhc"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 38,
+      "advancement_examples": [
+        "data/bhc/advancement/recipes/combat/blade_of_vitality.json",
+        "data/bhc/advancement/recipes/combat/blue_heart_patch.json",
+        "data/bhc/advancement/recipes/combat/blue_heartpulse_belt_smithing.json",
+        "data/bhc/advancement/recipes/combat/green_heart_patch.json",
+        "data/bhc/advancement/recipes/combat/green_heartpulse_belt_smithing.json",
+        "data/bhc/advancement/recipes/combat/red_heart_patch.json",
+        "data/bhc/advancement/recipes/combat/red_heartpulse_belt.json",
+        "data/bhc/advancement/recipes/combat/vigor_bow.json",
+        "data/bhc/advancement/recipes/combat/yellow_heart_patch.json",
+        "data/bhc/advancement/recipes/combat/yellow_heartpulse_belt_smithing.json",
+        "data/bhc/advancement/recipes/food/enchanted_golden_apple.json",
+        "data/bhc/advancement/recipes/food/relic_apple.json",
+        "data/bhc/advancement/recipes/food/relic_apple_rotated.json",
+        "data/bhc/advancement/recipes/misc/blue_heart.json",
+        "data/bhc/advancement/recipes/misc/blue_heart_canister.json",
+        "data/bhc/advancement/recipes/misc/blue_heart_melted_from_green_heart_melted.json",
+        "data/bhc/advancement/recipes/misc/blue_heart_melted_from_smelting.json",
+        "data/bhc/advancement/recipes/misc/canister.json",
+        "data/bhc/advancement/recipes/misc/green_heart.json",
+        "data/bhc/advancement/recipes/misc/green_heart_canister.json"
+      ],
+      "recipes": 76
+    },
+    {
+      "label": "Tool Belt",
+      "jar": "ToolBelt-1.21.1-2.2.10.jar",
+      "namespace": "toolbelt",
+      "direct_integration": false,
+      "english_keys": 13,
+      "bundled_korean_keys": 13,
+      "metadata_mentions_family": [
+        "toolbelt"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 11,
+      "advancement_examples": [
+        "data/toolbelt/advancement/recipes/misc/belt_upgrade_1_via_sewing.json",
+        "data/toolbelt/advancement/recipes/misc/belt_upgrade_2_via_sewing.json",
+        "data/toolbelt/advancement/recipes/misc/belt_upgrade_3_via_sewing.json",
+        "data/toolbelt/advancement/recipes/misc/belt_upgrade_4_via_sewing.json",
+        "data/toolbelt/advancement/recipes/misc/belt_upgrade_5_via_sewing.json",
+        "data/toolbelt/advancement/recipes/misc/belt_upgrade_6_via_sewing.json",
+        "data/toolbelt/advancement/recipes/misc/belt_upgrade_7_via_sewing.json",
+        "data/toolbelt/advancement/recipes/tools/belt.json",
+        "data/toolbelt/advancement/recipes/tools/belt_via_sewing.json",
+        "data/toolbelt/advancement/recipes/tools/pouch.json",
+        "data/toolbelt/advancement/recipes/tools/pouch_via_sewing.json"
+      ],
+      "recipes": 22
+    },
+    {
+      "label": "Simple Magnets",
+      "jar": "simplemagnets-1.1.12c-neoforge-mc1.21.jar",
+      "namespace": "simplemagnets",
+      "direct_integration": false,
+      "english_keys": 38,
+      "bundled_korean_keys": 35,
+      "metadata_mentions_family": [
+        "simplemagnets"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 4,
+      "advancement_examples": [
+        "data/simplemagnets/advancement/recipes/misc/advanced_demagnetization_coil.json",
+        "data/simplemagnets/advancement/recipes/misc/advancedmagnet.json",
+        "data/simplemagnets/advancement/recipes/misc/basic_demagnetization_coil.json",
+        "data/simplemagnets/advancement/recipes/misc/basicmagnet.json"
+      ],
+      "recipes": 8
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Iron Jetpacks",
+      "jar": "IronJetpacks-1.21.1-8.0.11.jar",
+      "namespace": "ironjetpacks",
+      "english_keys": 42,
+      "new_translation_required": 42
+    },
+    {
+      "label": "Baubley Heart Canisters",
+      "jar": "baubley-heart-canisters-1.21.1-1.4.1.jar",
+      "namespace": "bhc",
+      "english_keys": 66,
+      "bundled_ko_kr": 34,
+      "new_translation_required": 32
+    },
+    {
+      "label": "Tool Belt",
+      "jar": "ToolBelt-1.21.1-2.2.10.jar",
+      "namespace": "toolbelt",
+      "english_keys": 13,
+      "bundled_ko_kr": 13
+    },
+    {
+      "label": "Simple Magnets",
+      "jar": "simplemagnets-1.1.12c-neoforge-mc1.21.jar",
+      "namespace": "simplemagnets",
+      "english_keys": 38,
+      "bundled_ko_kr": 30,
+      "new_translation_required": 8
+    }
+  ]
+}
