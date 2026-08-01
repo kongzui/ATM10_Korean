@@ -1,0 +1,23 @@
+{
+  "name": "가로 벽",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/horizontal_wall.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "가로 벽 모드는 여러 방식으로 작동합니다. 위에 배치를 켜면 바라보는 블록 위에 영역을 만들고, 블록 옆면을 바라보면 플레이어 쪽으로 영역을 늘립니다. $(br2)위에 배치를 끄면 바라보는 블록 주위에 영역을 만듭니다.$(br2)오른쪽 그림에서 각 방식을 확인하세요."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "가로 벽",
+      "images": [
+        "buildinggadgets2:textures/book/images/horzwall1.png",
+        "buildinggadgets2:textures/book/images/horzwall3.png",
+        "buildinggadgets2:textures/book/images/horzwall2.png"
+      ],
+      "border": true,
+      "text": "위 그림을 전환하여 서로 다른 선택지를 확인하세요"
+    }
+  ]
+}

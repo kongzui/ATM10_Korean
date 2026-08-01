@@ -1,0 +1,23 @@
+{
+  "name": "세로 벽",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/vertical_wall.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "세로 벽 모드는 바라보는 블록의 윗면이나 아랫면에서 위쪽 또는 아래쪽으로 벽을 만듭니다. $(br2)블록 옆면을 바라보면 블록 주위에 벽을 만듭니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "세로 벽",
+      "images": [
+        "buildinggadgets2:textures/book/images/vertwall2.png",
+        "buildinggadgets2:textures/book/images/vertwall4.png",
+        "buildinggadgets2:textures/book/images/vertwall3.png"
+      ],
+      "border": true,
+      "text": "위 그림을 전환하여 서로 다른 선택지를 확인하세요"
+    }
+  ]
+}

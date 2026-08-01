@@ -1,0 +1,21 @@
+{
+  "itemcollectors.block.basic_collector": "new_translation_required",
+  "itemcollectors.basic_collector.info": "bundled_ko_kr",
+  "itemcollectors.basic_collector.info.range": "new_translation_required",
+  "itemcollectors.block.advanced_collector": "new_translation_required",
+  "itemcollectors.advanced_collector.info": "bundled_ko_kr",
+  "gui.itemcollectors.basic_collector.range": "bundled_ko_kr",
+  "gui.itemcollectors.basic_collector.range.increase": "bundled_ko_kr",
+  "gui.itemcollectors.basic_collector.range.decrease": "bundled_ko_kr",
+  "gui.itemcollectors.advanced_collector.whitelist.on": "bundled_ko_kr",
+  "gui.itemcollectors.advanced_collector.whitelist.off": "bundled_ko_kr",
+  "gui.itemcollectors.advanced_collector.durability.on": "bundled_ko_kr",
+  "gui.itemcollectors.advanced_collector.durability.off": "bundled_ko_kr",
+  "gui.itemcollectors.advanced_collector.filter": "bundled_ko_kr",
+  "gui.itemcollectors.advanced_collector.show_area.on": "bundled_ko_kr",
+  "gui.itemcollectors.advanced_collector.show_area.off": "bundled_ko_kr",
+  "itemcollectors.advancement.recipes/misc/advanced_collector.title": "manual_translation",
+  "itemcollectors.advancement.recipes/misc/advanced_collector.description": "manual_translation",
+  "itemcollectors.advancement.recipes/misc/basic_collector.title": "manual_translation",
+  "itemcollectors.advancement.recipes/misc/basic_collector.description": "manual_translation"
+}

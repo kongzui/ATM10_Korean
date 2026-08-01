@@ -1,0 +1,26 @@
+{
+  "name": "파괴 장치",
+  "sortnum": 5,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:gadget_destruction[buildinggadgets2:forge_energy=2000000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "파괴 장치를 사용하면 넓은 영역을 매우 쉽게 비울 수 있습니다. 제거한 블록은 모두 $(bold)삭제됩니다!$(clear).$(br2)먼저 설정 메뉴를 열어 영역을 조절하세요. 이 영역은 바라보는 블록과 블록 면을 기준으로 합니다.$(br2)블록의 윗면을 바라보면 '위' 방향은 플레이어 화면을 기준으로 정해집니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "파괴 장치",
+      "images": [
+        "buildinggadgets2:textures/book/images/destruction1.png",
+        "buildinggadgets2:textures/book/images/destruction2.png"
+      ],
+      "border": true,
+      "text": "영역을 파괴합니다. 화살표를 눌러 다른 그림도 확인하세요!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "설정이 마음에 들면 블록을 우클릭하여 강조된 모든 블록을 삭제하세요. 해당 블록은 월드에서 제거됩니다. $(br2)실수했다면 이 작업을 실행 취소할 수 있습니다. 장치가 삭제했던 블록을 월드에 되돌리는 것이므로 실행 취소할 때 인벤토리의 아이템을 사용하지 않습니다."
+    }
+  ]
+}

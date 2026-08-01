@@ -156,7 +156,7 @@ ItemEvents.modifyTooltips(allthemods => {
 
 	//Easy Villagers
     allthemods.add(['easy_villagers:trader', 'easy_villagers:auto_trader'], [
-        Text.of("§aRight click with job site block to put it inside and allow trade restocking")
+        Text.of("§a직업 블록을 들고 우클릭하면 안에 넣어 거래를 다시 채울 수 있습니다")
     ])
 
 	//Hyperbox

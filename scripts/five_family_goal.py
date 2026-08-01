@@ -286,6 +286,42 @@ TARGETS = (
         "simplemagnets",
         "Simple Magnets",
     ),
+    Target(
+        "early_midgame_infrastructure",
+        "ironfurnaces-neoforge-",
+        "ironfurnaces",
+        "Iron Furnaces",
+    ),
+    Target(
+        "early_midgame_infrastructure",
+        "easy-villagers-neoforge-",
+        "easy_villagers",
+        "Easy Villagers",
+    ),
+    Target(
+        "early_midgame_infrastructure",
+        "mininggadgets-",
+        "mininggadgets",
+        "Mining Gadgets",
+    ),
+    Target(
+        "early_midgame_infrastructure",
+        "buildinggadgets2-",
+        "buildinggadgets2",
+        "Building Gadgets",
+    ),
+    Target(
+        "early_midgame_infrastructure",
+        "mob_grinding_utils-",
+        "mob_grinding_utils",
+        "Mob Grinding Utils",
+    ),
+    Target(
+        "early_midgame_infrastructure",
+        "itemcollectors-",
+        "itemcollectors",
+        "Item Collectors",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -306,6 +342,7 @@ FAMILY_LABELS = {
     "modular_routers": "Modular Routers",
     "hostile_neural_networks": "Hostile Neural Networks",
     "iron_jetpacks_equipment": "Iron Jetpacks·장비 편의",
+    "early_midgame_infrastructure": "초중반 기반 시설",
 }
 
 QUEST_CHAPTERS = {
@@ -326,6 +363,7 @@ QUEST_CHAPTERS = {
     "modular_routers": ("modular_router",),
     "hostile_neural_networks": ("hostile_neural_networks",),
     "iron_jetpacks_equipment": (),
+    "early_midgame_infrastructure": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -359,6 +397,20 @@ QUEST_TEXT_MARKERS = {
         "toolbelt",
         "simple magnets",
         "simplemagnets",
+    ),
+    "early_midgame_infrastructure": (
+        "iron furnaces",
+        "ironfurnaces",
+        "easy villagers",
+        "easy_villagers",
+        "mining gadgets",
+        "mininggadgets",
+        "building gadgets",
+        "buildinggadgets2",
+        "mob grinding utils",
+        "mob_grinding_utils",
+        "item collectors",
+        "itemcollectors",
     ),
 }
 
@@ -421,6 +473,13 @@ ALLOWED_ORIGINALS = {
     "Baubley Heart Canisters",
     "Tool Belt",
     "Simple Magnets",
+    "Iron Furnaces",
+    "Easy Villagers",
+    "Mining Gadgets",
+    "Building Gadgets",
+    "Building Gadgets 2",
+    "Mob Grinding Utils",
+    "Item Collectors",
     "Shift",
     "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
     "Pipez",
@@ -1691,6 +1750,11 @@ MEKANISM_CUSTOM_NAMES = {
     "Purificaters": ("정화기", 1),
 }
 
+EARLY_INFRASTRUCTURE_CUSTOM_NAMES = {
+    "Spooky Pumpkin": ("으스스한 호박", 1),
+    "Christmas Tree Sapling": ("크리스마스트리 묘목", 1),
+}
+
 MEKANISM_QUEST_ITEM_TITLES = {
     "quest.162CE44400A63575.title": "금속공학 주입기",
     "quest.08DDE018A804BFE7.title": "농축기",
@@ -2568,6 +2632,25 @@ def build_quests(instance: Path, family: str) -> dict[str, object]:
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_text(text, encoding="utf-8")
         structure_overrides.append(str(destination.relative_to(PROJECT_ROOT)))
+    if family == "early_midgame_infrastructure":
+        source = instance / "config/ftbquests/quests/chapters/generators.snbt"
+        text = source.read_text(encoding="utf-8-sig")
+        for english_name, (
+            korean_name,
+            expected,
+        ) in EARLY_INFRASTRUCTURE_CUSTOM_NAMES.items():
+            english_needle = f'\\"{english_name}\\"'
+            english_count = text.count(english_needle)
+            if english_count not in {0, expected}:
+                raise ValueError(
+                    f"퀘스트 사용자 지정 이름 개수 불일치: {english_name}="
+                    f"{english_count} (예상 {expected})"
+                )
+            text = text.replace(english_needle, f'\\"{korean_name}\\"')
+        destination = QUEST_CHAPTER_OUTPUT / "generators.snbt"
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_text(text, encoding="utf-8")
+        structure_overrides.append(str(destination.relative_to(PROJECT_ROOT)))
     return {
         "family": FAMILY_LABELS[family],
         "merged_keys": len(combined),
@@ -2757,6 +2840,33 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
             if remaining or actual_korean != expected_korean:
                 errors.append(
                     "Smart Filter 구조 오버라이드 검증 실패: "
+                    f"영어={remaining}, 한국어={actual_korean}/{expected_korean}"
+                )
+            else:
+                unresolved_custom_names = []
+    if family == "early_midgame_infrastructure" and custom_names:
+        structure_path = QUEST_CHAPTER_OUTPUT / "generators.snbt"
+        if not structure_path.is_file():
+            errors.append("초중반 기반 시설 퀘스트 구조 오버라이드 누락")
+        else:
+            structure_text = structure_path.read_text(encoding="utf-8")
+            remaining = [
+                name
+                for name in EARLY_INFRASTRUCTURE_CUSTOM_NAMES
+                if f'\\"{name}\\"' in structure_text
+            ]
+            expected_korean = sum(
+                expected for _, expected in EARLY_INFRASTRUCTURE_CUSTOM_NAMES.values()
+            )
+            actual_korean = sum(
+                structure_text.count(f'\\"{name}\\"')
+                for name in {
+                    value[0] for value in EARLY_INFRASTRUCTURE_CUSTOM_NAMES.values()
+                }
+            )
+            if remaining or actual_korean != expected_korean:
+                errors.append(
+                    "초중반 기반 시설 사용자 지정 이름 검증 실패: "
                     f"영어={remaining}, 한국어={actual_korean}/{expected_korean}"
                 )
             else:

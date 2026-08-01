@@ -1,0 +1,131 @@
+{
+  "family": "초중반 기반 시설",
+  "languages": [
+    {
+      "label": "Iron Furnaces",
+      "jar": "ironfurnaces-neoforge-1.21.1-4.3.2.jar",
+      "namespace": "ironfurnaces",
+      "english_keys": 143,
+      "korean_keys": 143,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 143
+    },
+    {
+      "label": "Easy Villagers",
+      "jar": "easy-villagers-neoforge-1.21.1-1.1.42.jar",
+      "namespace": "easy_villagers",
+      "english_keys": 32,
+      "korean_keys": 32,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 12,
+      "new_or_edited": 20
+    },
+    {
+      "label": "Mining Gadgets",
+      "jar": "mininggadgets-1.18.6.jar",
+      "namespace": "mininggadgets",
+      "english_keys": 85,
+      "korean_keys": 85,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 85
+    },
+    {
+      "label": "Building Gadgets",
+      "jar": "buildinggadgets2-1.3.9.jar",
+      "namespace": "buildinggadgets2",
+      "english_keys": 112,
+      "korean_keys": 112,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 112
+    },
+    {
+      "label": "Mob Grinding Utils",
+      "jar": "mob_grinding_utils-1.1.10+mc1.21.1.jar",
+      "namespace": "mob_grinding_utils",
+      "english_keys": 146,
+      "korean_keys": 146,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 144,
+      "project_output_reuse": 2
+    },
+    {
+      "label": "Item Collectors",
+      "jar": "itemcollectors-1.1.10-neoforge-mc1.21.jar",
+      "namespace": "itemcollectors",
+      "english_keys": 19,
+      "korean_keys": 19,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 13,
+      "bundled_exact_reuse": 6
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 18,
+    "project_output_reuse": 2,
+    "new_or_edited": 517
+  },
+  "ftbquests": {
+    "chapters": [
+      "apotheosis_2.snbt",
+      "chapter_2_the_star.snbt",
+      "generators.snbt",
+      "tips_and_tricks.snbt"
+    ],
+    "quests_checked": 33,
+    "tasks_checked": 47,
+    "display_keys_checked": 79,
+    "source_english_custom_names": 2,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 6,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

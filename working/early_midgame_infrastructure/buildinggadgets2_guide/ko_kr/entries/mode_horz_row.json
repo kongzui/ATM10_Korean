@@ -1,0 +1,24 @@
+{
+  "name": "가로줄",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/horizontal_row.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "가로줄 모드는 플레이어가 바라보는 방향을 따라 멀어지는 쪽으로 블록을 설치합니다. 다리를 지을 때 유용합니다! $(br2)'위에 배치'를 켜서 설치 위치가 어떻게 바뀌는지 확인해 보세요. $(br2)교체 장치에서도 사용할 수 있으며, 플레이어가 바라보는 방향의 '왼쪽과 오른쪽'에 있는 블록을 교체합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "가로줄",
+      "images": [
+        "buildinggadgets2:textures/book/images/horzrow1.png",
+        "buildinggadgets2:textures/book/images/horzrow3.png",
+        "buildinggadgets2:textures/book/images/horzrow2.png",
+        "buildinggadgets2:textures/book/images/horzrow4.png"
+      ],
+      "border": true,
+      "text": "위 그림을 전환하여 서로 다른 선택지를 확인하세요"
+    }
+  ]
+}

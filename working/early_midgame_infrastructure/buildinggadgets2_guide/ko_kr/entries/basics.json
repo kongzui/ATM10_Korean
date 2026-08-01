@@ -1,0 +1,16 @@
+{
+  "name": "기본 사항",
+  "sortnum": 0,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:template",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 모드의 모든 장치는 대부분의 기능을 사용할 때 Forge Energy(FE)가 필요합니다. $(br2)여러 모드가 Forge Energy로 아이템을 충전하는 기능을 제공하지만, 그런 모드가 없다면 Charging Gadgets를 사용할 수도 있습니다! 가까운 모드 저장소에서 찾아보세요!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "설정 메뉴 키(기본값 'g')를 누르고 있으면 설정 메뉴가 열립니다. $(br2)장치마다 설정이 다르므로 자세한 내용은 $(l:buildinggadgets2:mechanics)부가 기능$(/l) 장을 확인하세요!"
+    }
+  ]
+}

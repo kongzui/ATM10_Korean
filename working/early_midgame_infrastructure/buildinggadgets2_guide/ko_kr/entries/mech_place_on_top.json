@@ -1,0 +1,22 @@
+{
+  "name": "위에 배치",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/place_on_top.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "위에 배치 기능은 모드마다 조금씩 다르게 작동하며, 일부 모드에는 아무 영향도 주지 않습니다.$(br2)일반적으로 블록 주위에 설치하는 대신 블록 위에 설치합니다. 직접 켜 보고 미리 보기가 어떻게 달라지는지 확인하세요!$(br2)예시는 오른쪽의 두 그림을 확인하세요."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "위에 배치",
+      "images": [
+        "buildinggadgets2:textures/book/images/placeontop1.png",
+        "buildinggadgets2:textures/book/images/placeontop2.png"
+      ],
+      "border": true,
+      "text": "위 그림을 전환하여 서로 다른 선택지를 확인하세요"
+    }
+  ]
+}

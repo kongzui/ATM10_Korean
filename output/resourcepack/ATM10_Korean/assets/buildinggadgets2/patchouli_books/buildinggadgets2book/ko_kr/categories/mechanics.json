@@ -1,0 +1,6 @@
+{
+  "name": "부가 기능",
+  "description": "건축 외에 사용할 수 있는 기능을 설명합니다.",
+  "icon": "buildinggadgets2:textures/book/icons/anchor.png",
+  "sortnum": 2
+}

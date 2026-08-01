@@ -1,0 +1,33 @@
+{
+  "name": "교체 장치",
+  "sortnum": 2,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:gadget_exchanging[buildinggadgets2:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "교체 장치는 한 종류의 블록을 다른 블록으로 바꿀 수 있습니다! 다만 공기 블록은 교체할 수 없습니다. 그런 작업에는 $(l:buildinggadgets2:buildinggadget)건축 장치$(/l)를 사용하세요! $(br2)먼저 장치에 에너지가 있는지 확인하세요. $(br2)그다음 월드의 블록을 웅크린 채 우클릭하여 교체 후 사용할 블록을 지정하세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "설정 키를 누른 채로 $(l:buildinggadgets2:modes)교체 모드$(/l)를 선택할 수 있습니다. 각 모드는 이 설명서의 해당 항목에서 설명합니다. 기본 모드는 $(l:buildinggadgets2:mode_surface)표면$(/l)입니다. $(br2)월드의 블록을 바라보면 기존 블록 위에 놓일 블록의 반투명 미리 보기가 나타납니다. 필요한 아이템이나 에너지가 부족한 블록에는 빨간색이 겹쳐 표시됩니다. 우클릭하면 보이는 대로 블록을 교체합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "교체 미리 보기",
+      "images": [
+        "buildinggadgets2:textures/book/images/ghost_render_exchange.png"
+      ],
+      "border": true,
+      "text": "교체될 모습을 미리 봅니다"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "우클릭하면 교체를 시작합니다. 새로 설치할 아이템은 인벤토리에서 꺼내며, 필요한 아이템이 없는 블록은 건너뜁니다. $(br2)제거한 블록의 아이템은 플레이어에게 돌아옵니다. $(br2)참고: 이 도구에는 섬세한 손길을 부여할 수 있습니다. 섬세한 손길이 없으면 잔디 블록은 흙으로 돌아오는 식입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "교체 장치에서도 $(l:buildinggadgets2:undo)실행 취소$(/l)를 사용할 수 있지만 필요한 아이템을 보유해야 합니다.$(br2)예를 들어 잔디 블록을 석재 벽돌로 교체했다면 이를 되돌릴 때 인벤토리에 잔디 블록이 있어야 합니다. 필요하다면 섬세한 손길을 부여하는 것도 잊지 마세요!"
+    }
+  ]
+}

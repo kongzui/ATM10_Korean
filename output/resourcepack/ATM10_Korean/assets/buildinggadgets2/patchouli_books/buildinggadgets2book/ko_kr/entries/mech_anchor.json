@@ -1,0 +1,21 @@
+{
+  "name": "기준점",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/anchor.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "기준점을 사용하면 바라보는 블록을 '고정'하여 자유롭게 움직이거나 다른 곳을 볼 수 있습니다. 단축키를 사용하거나 설정 메뉴에서 선택할 수 있습니다. $(br2)기준점이 고정된 동안 언제든 우클릭하여 구조물을 건축할 수 있습니다.$(br2)참고: 범위를 바꾼 뒤에는 기준점을 해제하고 다시 지정해야 변경 사항이 적용될 수 있습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "기준점",
+      "images": [
+        "buildinggadgets2:textures/book/images/anchor1.png"
+      ],
+      "border": true,
+      "text": "미리 보기의 기준점을 고정하세요!"
+    }
+  ]
+}
