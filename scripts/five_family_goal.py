@@ -256,6 +256,12 @@ TARGETS = (
         "modularrouters",
         "Modular Routers",
     ),
+    Target(
+        "hostile_neural_networks",
+        "HostileNeuralNetworks-",
+        "hostilenetworks",
+        "Hostile Neural Networks",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -274,6 +280,7 @@ FAMILY_LABELS = {
     "functional_storage": "Functional Storage·Pocket Storage·EnderStorage",
     "basic_logistics": "Pipez·Modern Dynamics·XNet",
     "modular_routers": "Modular Routers",
+    "hostile_neural_networks": "Hostile Neural Networks",
 }
 
 QUEST_CHAPTERS = {
@@ -292,6 +299,7 @@ QUEST_CHAPTERS = {
     "functional_storage": (),
     "basic_logistics": (),
     "modular_routers": ("modular_router",),
+    "hostile_neural_networks": ("hostile_neural_networks",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -312,6 +320,10 @@ QUEST_TEXT_MARKERS = {
     ),
     "basic_logistics": ("pipez", "modern dynamics", "xnet"),
     "modular_routers": ("modular routers", "modularrouters"),
+    "hostile_neural_networks": (
+        "hostile neural networks",
+        "hostilenetworks",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -367,6 +379,8 @@ ALLOWED_ORIGINALS = {
     "EnderStorage",
     "Modular Routers",
     "FTB Filter System",
+    "Hostile Neural Networks",
+    "Thermal",
     "Shift",
     "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
     "Pipez",
@@ -3126,6 +3140,7 @@ def verify_language(
         expected_output = dict(korean)
         guide_extra_path = PROJECT_ROOT / "working/ars_nouveau/guide_extra_ko_kr.json"
         guide_extra_keys = 0
+        integration_extra_keys = 0
         if family == "ars_nouveau" and guide_extra_path.is_file():
             guide_extra = {
                 key: value
@@ -3134,6 +3149,18 @@ def verify_language(
             }
             expected_output.update(guide_extra)
             guide_extra_keys = len(guide_extra)
+        hostile_integration_path = (
+            PROJECT_ROOT
+            / "working/eternal_starlight/integrations/hostilenetworks/ko_kr.json"
+        )
+        if (
+            family == "hostile_neural_networks"
+            and target.namespace == "hostilenetworks"
+            and hostile_integration_path.is_file()
+        ):
+            hostile_integration = load_json(hostile_integration_path)
+            expected_output.update(hostile_integration)
+            integration_extra_keys = len(hostile_integration)
         output_matches = output.is_file() and load_json(output) == expected_output
         if not output_matches:
             errors.append(f"누적 출력 불일치: {target.namespace}")
@@ -3170,6 +3197,7 @@ def verify_language(
                 "translation_induced_name_collisions": len(collisions),
                 "output_matches": output_matches,
                 "guide_extra_keys": guide_extra_keys,
+                "integration_extra_keys": integration_extra_keys,
                 **dict(provenance),
             }
         )
@@ -3200,6 +3228,21 @@ def build(family: str) -> dict[str, object]:
                     if key.startswith(f"{target.namespace}.")
                 }
             )
+            destination.write_text(
+                json.dumps(merged, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+        hostile_integration_path = (
+            PROJECT_ROOT
+            / "working/eternal_starlight/integrations/hostilenetworks/ko_kr.json"
+        )
+        if (
+            family == "hostile_neural_networks"
+            and target.namespace == "hostilenetworks"
+            and hostile_integration_path.is_file()
+        ):
+            merged = load_json(destination)
+            merged.update(load_json(hostile_integration_path))
             destination.write_text(
                 json.dumps(merged, ensure_ascii=False, indent=2) + "\n",
                 encoding="utf-8",

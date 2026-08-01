@@ -1,0 +1,10 @@
+{
+  "quest.2F76D074AEA84A4D.quest_desc": [
+    "빈 &b데이터 모델&r로 &d엔더 드래곤&r을 우클릭하면 &d엔더 드래곤 &b데이터 모델&r을 만들 수 있습니다. \\n\\n퀘스트에는 어느 등급이든 사용할 수 있지만, &d&l드래곤 영혼&r을 만들려면 &b데이터 모델&r이 &6자가 인식&r 등급이어야 합니다. \\n\\n&6자가 인식&r 등급으로 올리려면 &d드래곤&r을 계속 처치하거나 예측을 엄청나게 많이 만들어야 합니다!"
+  ],
+  "quest.2F76D074AEA84A4D.title": "&d엔더 드래곤 &b데이터 모델",
+  "quest.7A579E233C69871F.quest_desc": [
+    "&b&lHostile Neural Networks&r는 몹을 시뮬레이션해 전리품을 얻는 모드입니다! \\n\\n핵심은 이것뿐입니다."
+  ],
+  "quest.7A579E233C69871F.title": "&b&lHostile Neural Networks"
+}

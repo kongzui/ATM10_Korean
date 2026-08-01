@@ -1,0 +1,33 @@
+{
+  "family": "Hostile Neural Networks",
+  "language_namespaces": 1,
+  "language_keys": 271,
+  "bundled_reviewed_reuse": 44,
+  "new_or_edited_language": 227,
+  "integration_keys_preserved": 17,
+  "merged_output_keys": 288,
+  "quest_display_keys": 28,
+  "existing_project_quest_reuse": 14,
+  "manual_quest_translations": 14,
+  "quests_checked": 49,
+  "tasks_checked": 51,
+  "first_task_fallbacks_checked": 42,
+  "redundant_item_task_titles_removed": 1,
+  "explicit_fallback_titles_added": 1,
+  "guide_files": 0,
+  "advancement_display_fields": 0,
+  "kubejs_referencing_files_reviewed": 16,
+  "kubejs_changes_required": false,
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp\\backups\\20260801_205146_466739\\backup_manifest.json",
+    "selected_files": 2,
+    "changed_files": 2,
+    "hash_matches": 2,
+    "unexpected_changes": []
+  },
+  "remaining": 0,
+  "errors": [],
+  "status": "complete"
+}

@@ -1,0 +1,23 @@
+{
+  "family": "Hostile Neural Networks",
+  "installed": [
+    {
+      "label": "Hostile Neural Networks",
+      "jar": "HostileNeuralNetworks-1.21.1-6.4.1.jar",
+      "namespace": "hostilenetworks",
+      "direct_integration": false,
+      "english_keys": 271,
+      "bundled_korean_keys": 98,
+      "metadata_mentions_family": [
+        "hostilenetworks"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 37
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": []
+}
