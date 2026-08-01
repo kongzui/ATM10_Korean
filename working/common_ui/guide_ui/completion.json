@@ -26,16 +26,16 @@
     }
   ],
   "counts": {
-    "existing_korean_reused": 139,
-    "existing_korean_corrected": 65,
+    "existing_korean_reused": 166,
+    "existing_korean_corrected": 38,
     "newly_translated": 0,
     "output_keys": 204
   },
   "related_scope": {
-    "ftb_quests": "Patchouli 가이드북 아이템 참조만 확인; 개별 모드 책 본문과 퀘스트 문구는 수정하지 않음",
-    "kubejs": "책장 태그와 가이드 리소스 참조를 확인; 개별 모드 언어·가이드 본문은 범위 제외",
-    "advancements": "프레임워크 UI가 직접 소유한 추가 번역 대상 없음",
-    "guide_bodies": "Modonomicon 데모 책 137키와 Patchouli 내장 책 13키를 명시적으로 제외"
+    "ftb_quests": "10개 챕터의 Patchouli 가이드북 component 참조 13건을 확인; 모두 개별 모드 책 아이템을 가리키며 프레임워크 소유 제목·task·fallback 문구 없음",
+    "kubejs": "Patchouli 책장 태그 1건과 가이드 아이템 조합법 제외 목록 1건을 확인; 한국어 사용자 표시 문구 없음",
+    "advancements": "네 프레임워크 JAR 모두 표시 advancement 없음",
+    "guide_bodies": "Modonomicon 개발용 데모 책 137키와 Patchouli 내장 시험 책 13키는 공통 프레임워크 UI가 아니므로 명시적으로 제외; 실제 모드별 가이드 본문은 각 소유 모드 범위 유지"
   },
   "validation": {
     "json": "passed",
@@ -45,5 +45,20 @@
     "line_breaks": "passed",
     "utf8_bom": false,
     "scope_filter": "passed"
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "configured_targets": [
+      "game_root"
+    ],
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/akashictome/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/guideme/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/modonomicon/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/patchouli/lang/ko_kr.json"
+    ],
+    "unexpected_changes": [],
+    "backup_manifest": "temp/backups/20260801_155108_982024/backup_manifest.json"
   }
 }
