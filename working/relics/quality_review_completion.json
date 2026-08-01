@@ -1,0 +1,76 @@
+{
+  "status": "quality_review_completed_and_deployed",
+  "completed_at": "2026-08-01T11:18:48+09:00",
+  "scope": "Relics·Artifacts 계열 언어, 발전 과제, FTB Quests, KubeJS, 가이드 및 fallback 표시",
+  "installed": [
+    "artifacts-neoforge-13.2.1.jar",
+    "relics-1.21.1-0.12.8.jar",
+    "reliquified_artifacts-1.21.1-1.0.7.jar"
+  ],
+  "language": {
+    "namespaces": 3,
+    "total_keys_reviewed": 1562,
+    "existing_korean_reviewed_and_reused": 1419,
+    "quality_review_corrections": 143,
+    "newly_translated": 0
+  },
+  "guide": {
+    "patchouli_or_guideme_files_reviewed": 0,
+    "direct_guide_strings": 0
+  },
+  "ftbquests": {
+    "chapters_reviewed": 2,
+    "display_keys_reviewed": 217,
+    "existing_korean_reviewed_and_reused": 214,
+    "quality_review_keys_corrected": 3,
+    "literal_hover_values_reviewed_and_reused": 10,
+    "quest_fallbacks_checked": 3,
+    "item_resourcepack_title_matches_checked": 63,
+    "related_tasks_outside_chapters_checked": 1,
+    "custom_name_components": 0
+  },
+  "advancements": {
+    "provider": "Artifacts",
+    "files_reviewed": 3,
+    "display_path": "language translate keys",
+    "untranslated_keys": 0
+  },
+  "kubejs": {
+    "language_namespace_reference_checked": true,
+    "comment_and_data_references_checked": 2,
+    "direct_user_literals_remaining": 0,
+    "override_files_needed": 0
+  },
+  "review_totals": {
+    "visible_values_reviewed": 1789,
+    "existing_korean_reviewed_and_reused": 1643,
+    "quality_review_corrections": 146,
+    "newly_translated": 0
+  },
+  "deployment": {
+    "source_root_configured": false,
+    "game_root_configured": true,
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "files_applied": 4,
+    "backup_root": "temp/backups/20260801_111817_405364/game_root",
+    "backup_manifest": "temp/backups/20260801_111817_405364/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_instance_changes": []
+  },
+  "validation": {
+    "language_keys_match_current_en_us": true,
+    "json_and_snbt_syntax": "passed",
+    "duplicate_keys": 0,
+    "placeholders_preserved": true,
+    "numbers_preserved": true,
+    "format_codes_preserved": true,
+    "line_breaks_preserved": true,
+    "quest_fallback_paths_checked": true,
+    "working_output_match": true,
+    "source_jars_quests_and_kubejs_unchanged": true,
+    "deployed_hashes_match": true,
+    "game_runtime_verified": false,
+    "validation_errors": 0
+  },
+  "remaining_review_items": []
+}

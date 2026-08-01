@@ -5,9 +5,9 @@
     "relics"
   ],
   "source_display_keys": 217,
-  "existing_korean_kept": 66,
-  "existing_korean_corrected": 145,
-  "newly_completed": 6,
+  "existing_korean_kept": 214,
+  "existing_korean_corrected": 3,
+  "newly_completed": 0,
   "classification": {
     "translated_or_localized": 209,
     "intentional_original": 8,
@@ -27,8 +27,8 @@
   ],
   "remaining": 0,
   "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
-  "base_sha256": "8e00a63e9aaa131f452da505bdb8cfa64e910c3e072524855587482bfe3e6ed2",
-  "output_sha256": "8e00a63e9aaa131f452da505bdb8cfa64e910c3e072524855587482bfe3e6ed2",
+  "base_sha256": "dee891dd76c98c1578d009d44b2d4d7bb729fa64692e5d1bfdbdd6ab93dc5a47",
+  "output_sha256": "011b24e6129d6554fc23966071fc4453052a2c07561ce386e04cbffefea3d26a",
   "literal_chapter": {
     "source": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/chapters/relics.snbt",
     "output": "output/overrides/config/ftbquests/quests/chapters/relics.snbt",
