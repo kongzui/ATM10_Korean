@@ -125,6 +125,844 @@ SOURCE_OVERRIDES = {
 }
 
 KEY_OVERRIDES = {
+    "general.integratedcrafting.description": (
+        "Integrated Dynamics 네트워크에서 자동 제작을 합니다."
+    ),
+    "advancement.integratedcrafting.craft_crafting_interface_attuned.desc": (
+        "동조된 제작 인터페이스를 제작하세요"
+    ),
+    "parttype.integratedcrafting.interface_crafting.info": (
+        "대상 기계에서 제작할 제작법 변수를 보관합니다."
+    ),
+    "parttype.integratedcrafting.interface_crafting_attuned.info": (
+        "대상 기계가 제공하는 모든 제작법을 처리합니다."
+    ),
+    "aspect.integratedcrafting.read.list.network.recipes.info": (
+        "사용 가능한 모든 제작법의 목록입니다."
+    ),
+    "aspect.integratedcrafting.read.list.network.craftingjobs.info": (
+        "실행 중인 모든 제작 작업을 제작법 목록으로 표시합니다."
+    ),
+    "aspect.integratedcrafting.read.list.network.craftingingredients.info": (
+        "현재 제작 중인 모든 재료의 목록입니다."
+    ),
+    "aspect.integratedcrafting.write.recipe.craft": "제작법 실행",
+    "aspect.integratedcrafting.write.integer.craft": "에너지 생성",
+    "info_book.integratedcrafting.introduction.text4": (
+        "다음 절에서는 이 자동 제작 과정이 어떻게 작동하는지 설명합니다."
+    ),
+    "info_book.integratedcrafting.crafting_interface.basics.text2": (
+        "&l제작 인터페이스&r가 기계 &o(제작대나 화로 등)&r를 바라보게 놓으면, "
+        "해당 기계에 연결되어 제작법을 처리합니다."
+    ),
+    "info_book.integratedcrafting.crafting_interface.basics.text3": (
+        "&l제작 인터페이스&r GUI에 &8제작법&0이 담긴 &l변수 카드&r를 넣으면, 연결된 "
+        "기계에서 그 제작법을 처리할 수 있다고 네트워크에 알립니다."
+    ),
+    "info_book.integratedcrafting.crafting_interface.crafting.text1": (
+        "이 절에서는 &l제작 인터페이스&r가 제작 과정을 처리하는 방식을 설명합니다. 모드를 "
+        "제대로 활용하고 발생한 문제를 진단하는 데 꼭 필요한 내용입니다."
+    ),
+    "info_book.integratedcrafting.crafting_interface.crafting.text4": (
+        "다음 그림은 제작대와 화로로 자동 제작할 때 필요한 최소 구성의 예입니다."
+    ),
+    "info_book.integratedcrafting.crafting_interface.configuration.text1": (
+        "대부분의 &lIntegrated Dynamics&r 부품처럼 &l제작 인터페이스&r에서도 채널, "
+        "우선순위, 작동 간격 등의 설정을 바꿀 수 있습니다."
+    ),
+    "info_book.integratedcrafting.crafting_interface.recipe_feedback.text1": (
+        "&l제작 인터페이스&r에 &l변수 카드&r를 넣으면 제작법이 연결된 기계에서 유효한지 "
+        "&2초록색 확인 표시&0 또는 &4빨간 X 표시&0로 알려 줍니다. 표시 위에 마우스를 "
+        "올리면 자세한 내용을 볼 수 있습니다."
+    ),
+    "info_book.integratedcrafting.crafting_interface.recipe_feedback.text2": (
+        "예를 들어 상자 제작법을 화로에 연결된 &l제작 인터페이스&r에 잘못 넣었을 때 즉시 "
+        "알려 주는 사전 확인 기능입니다."
+    ),
+    "info_book.integratedcrafting.crafting_interface.debugging_jobs.text2": (
+        "&l네트워크 판독기&r의 제작 관련 애스펙트로 네트워크에서 사용 가능한 제작법, "
+        "실행 중인 제작 작업, 부족한 제작 재료의 목록을 읽어 문제를 진단할 수 있습니다. "
+        "이 목록을 &l디스플레이 패널&r에 표시하면 원인을 찾는 데 도움이 됩니다."
+    ),
+    "info_book.integratedcrafting.crafting_writer.text2": (
+        "다음 애스펙트로 지정한 제작법, 출력 아이템, 출력 유체 또는 출력 에너지의 제작 "
+        "작업을 시작할 수 있습니다. 애스펙트 설정에서는 제작 채널, 실행 중인 작업이 새 "
+        "작업을 막을지, 부족한 입력 재료도 제작할지, 저장소에 재료가 있으면 새 작업을 "
+        "막을지를 정할 수 있습니다."
+    ),
+    "info_book.integratedcrafting.crafting_writer.text3": (
+        "&l변수 카드&r로 &o아무것도&r 제작하지 않게 하려면 빈 값을 넣으세요. 예를 들어 "
+        "실제 아이템을 지정하지 않은 &8아이템&0 자료형의 &l변수 카드&r를 넣으면 됩니다."
+    ),
+    "info_book.integratedcrafting.crafting_writer.text4": (
+        "&lIntegrated Terminals&r이 설치되어 있으면 &l저장 터미널&r에서 제작 작업을 "
+        "화면으로 직접 시작할 수 있습니다."
+    ),
+    "info_book.integratedcrafting.tutorials.autocrafting_trigger.text5": (
+        "올바르게 구성했다면 참나무 원목 하나가 참나무 판자 4개로 바뀝니다. 판자를 "
+        "꺼냈을 때 다른 원목이 남아 있으면 판자 4개를 다시 제작합니다. &l제작 작성기&r의 "
+        "애스펙트 설정을 조정해 저장소 내용물을 무시하고 가능한 만큼 계속 제작하게 할 "
+        "수도 있습니다."
+    ),
+    "info_book.integratedcrafting.tutorials.autocrafting_trigger.text6": (
+        "이 절 마지막의 그림은 튜토리얼 완료에 필요한 구성 요소의 예입니다."
+    ),
+    "general.integratedterminals.description": (
+        "Integrated Dynamics 네트워크를 살펴보고 관리하는 터미널입니다."
+    ),
+    "gui.integratedterminals.amount": "수량",
+    "gui.integratedterminals.terminal_storage.to_craft": "제작 예정: %s",
+    "gui.integratedterminals.terminal_storage.missing": "부족: %s",
+    "gui.integratedterminals.terminal_storage.craftinggrid.autorefill": (
+        "제작 격자 자동 채우기"
+    ),
+    "gui.integratedterminals.terminal_storage.craftinggrid.autorefill.type.storage": (
+        "§a공급원: 네트워크"
+    ),
+    "gui.integratedterminals.terminal_storage.craftinggrid.autorefill.type.player": (
+        "§a공급원: 플레이어"
+    ),
+    "gui.integratedterminals.terminal_storage.craftinggrid.autorefill.type.storage_player": (
+        "§a공급원: 네트워크, 플레이어"
+    ),
+    "gui.integratedterminals.terminal_storage.craftinggrid.autorefill.type.player_storage": (
+        "§a공급원: 플레이어, 네트워크"
+    ),
+    "gui.integratedterminals.terminal_storage.scale.info": (
+        "저장소 격자의 크기를 설정합니다."
+    ),
+    "gui.integratedterminals.terminal_storage.scale.scalexy": ("§a높이/너비 자동 조절"),
+    "gui.integratedterminals.terminal_storage.scale.scaley": "§a높이 자동 조절",
+    "gui.integratedterminals.terminal_storage.scale.scalex": "§a너비 자동 조절",
+    "gui.integratedterminals.terminal_storage.scale.medium": "§a중형",
+    "gui.integratedterminals.terminal_crafting_job.craftingplan.empty": (
+        "비어 있는 제작 작업"
+    ),
+    "gui.integratedterminals.craftingplan.status.invalid.desc": "저장소 재료 부족",
+    "gui.integratedterminals.craftingplan.status.pending_inputs.desc": "입력 재료 부족",
+    "gui.integratedterminals.craftingplan.status.finished": "완료",
+    "key.integratedterminals.terminal.portable.open": (
+        "첫 번째 휴대용 저장 터미널 열기"
+    ),
+    "advancement.integratedterminals.menril_glass": "빛을 밝히는 유리",
+    "parttype.integratedterminals.terminal_crafting_job.tooltip.nohandlers": (
+        "주의: 사용할 수 있는 제작 처리기가 없습니다. Integrated Crafting 같은 다른 "
+        "모드를 설치하면 사용할 수 있습니다."
+    ),
+    "info_book.integratedterminals.introduction.text2": (
+        "예를 들어 &l저장 터미널&r에서는 연결된 &o에너지 배터리&r 같은 &o저장 "
+        "네트워크&r를 살펴보고 조작할 수 있습니다. &lIntegrated Tunnels&r의 &o아이템&r·"
+        "&o유체&r 저장 기능처럼 다른 모드가 추가한 저장 기능도 함께 사용할 수 있습니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.introduction.text1": (
+        "&l저장 터미널&r은 &l케이블&r에 설치하여 연결된 네트워크의 저장소를 GUI로 "
+        "관리하는 부품입니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.usage.text1": (
+        "&l저장 터미널&r에는 현재 네트워크에 연결된 모든 &o저장 네트워크&r가 탭으로 "
+        "표시되며, 필요하면 채널별로 나뉩니다. 예를 들어 &o에너지 배터리&r가 여러 개면 "
+        "에너지 탭에 전체 에너지 합계가 표시됩니다. &lIntegrated Tunnels&r의 &o아이템&r·"
+        "&o유체&r 저장 기능처럼 다른 모드가 추가한 저장 기능도 조작할 수 있습니다. 각 탭 "
+        "아래에는 현재 수량과 최대 수량이 표시됩니다. 이 가이드에서는 아이템, 유체, "
+        "에너지처럼 저장할 수 있는 &o대상&r을 모두 &l재료&r라고 부릅니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.usage.text2": (
+        "재료는 보기만 하는 것이 아니라 직접 옮길 수도 있습니다. 일반 인벤토리처럼 "
+        "클릭하여 집고 다시 클릭하여 놓으세요. 에너지와 유체는 인벤토리에서 배터리나 "
+        "탱크 같은 용기 아이템을 클릭해야 합니다. Shift+클릭하면 한꺼번에 옮깁니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.usage.text3": (
+        "저장소 재료를 든 상태에서 해당 슬롯을 다시 클릭하면 수량이 조금 늘고, "
+        "Shift+클릭하면 많이 늘어납니다. 우클릭하면 같은 방식으로 수량을 줄입니다. "
+        "저장소 재료 위에서 마우스 휠을 굴려도 같은 조작을 할 수 있습니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.usage.text4": (
+        "저장소 재료를 든 상태에서 우클릭하면 적은 수량을, 좌클릭하면 든 수량 전부를, "
+        "가운데 클릭하면 절반을 옮깁니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.usage.text6": (
+        "검색 상자에서 이름으로 표시할 재료를 걸러낼 수 있습니다. 공백으로 구분한 조건을 "
+        "더 입력하면 결과를 세부적으로 검색할 수 있고, &oor&r 조건은 '|'로 구분합니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.usage.text7": (
+        "접두사로 검색 대상을 바꿀 수 있습니다. 기본값은 재료 이름이며, 문자열 앞에 "
+        "&o'@'&r를 붙이면 모드, &o'#'&r을 붙이면 툴팁, &o'$'&r을 붙이면 아이템 "
+        "태그를 검색합니다. 예를 들어 &o'$plank @minecraft'&r는 Minecraft가 추가한 모든 "
+        "판자를 표시합니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.usage.text8": (
+        "아이템 저장 네트워크가 있으면 제작 탭도 추가됩니다. 아이템 탭에 제작 격자가 "
+        "통합된 형태이며, 격자 내용물을 인벤토리나 네트워크로 보내기, 재료 균등 분배, "
+        "제작 후 자동 채우기 설정 같은 편의 기능을 제공합니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.autocrafting.text3": (
+        "사용 가능한 모든 제작법은 해당 탭과 채널에 표시됩니다. 제작법을 클릭해 실행 "
+        "횟수를 정하면 필요한 재료와 부족한 재료가 담긴 제작 계획이 표시되고, 확인하면 "
+        "작업이 시작됩니다. 실행 중인 모든 작업은 &l제작 작업 터미널&r에서 볼 수 있습니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.power_usage.text1": (
+        "숙련된 사용자는 반복 클릭을 줄여 시간을 아낄 수 있습니다. &l저장 터미널&r에는 "
+        "검색창 선택, 탭 이동, 제작 격자 비우기, 제작 격자 재료 균등 분배 같은 작업을 "
+        "빠르게 하는 &o단축키&r가 있습니다. 단축키 목록은 이 절 마지막에 나옵니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.power_usage.text2": (
+        "JEI가 설치되어 있으면 제작법 Shift+클릭으로 제작 격자를 빠르게 채울 수 있습니다. "
+        "자동 채우기 모드에서 선택한 공급원이 아이템을 가져올 위치를 결정합니다. JEI와 "
+        "&l저장 터미널&r의 검색창을 서로 동기화할 수도 있습니다."
+    ),
+    "info_book.integratedterminals.storage_terminal.portable.text2": (
+        "&l휴대용 저장 터미널&r을 특정 네트워크에 연결하려면 그 네트워크에 &l전방향 "
+        "커넥터&r가 있어야 합니다. &l휴대용 저장 터미널&r을 들고 &l전방향 커넥터&r를 "
+        "우클릭하면 연결됩니다."
+    ),
+    "info_book.integratedterminals.tutorials.introduction.text1": (
+        "이 절에는 &lIntegrated Dynamics&r 네트워크를 살펴보고 관리하는 "
+        "&lIntegrated Dynamics&r 애드온인 &lIntegrated Terminals&r의 사용법을 배우는 "
+        "튜토리얼이 있습니다."
+    ),
+    "info_book.integratedterminals.tutorials.storage_terminal.text1": (
+        "&l저장 터미널&r은 연결된 네트워크의 저장 내용물을 보여 주고 직접 조작하게 "
+        "합니다. 재료 유형은 탭별로 나뉘며, 각 탭은 채널·검색어·&l변수 카드&r로 "
+        "필터링하고 여러 기준으로 정렬할 수 있습니다. 자세한 내용은 가이드를 참고하세요."
+    ),
+    "info_book.integratedterminals.tutorials.storage_terminal_filtering.text1": (
+        "&l저장 터미널&r의 유용한 기능 중 하나는 재료 &o필터링&r입니다. 이 튜토리얼에서는 "
+        "텍스트 기반과 변수 기반의 두 가지 방식을 다룹니다. 발전 과제는 두 번째 방식으로만 "
+        "달성합니다. 저장소는 Integrated Tunnels의 아이템 인터페이스로 연결합니다."
+    ),
+    "info_book.integratedterminals.tutorials.storage_terminal_filtering.text3": (
+        "두 번째 단계에서는 &l저장 터미널&r GUI 오른쪽 아래의 &l변수&r 슬롯으로 "
+        "필터링합니다. &lIntegrated Dynamics 논리 프로그래머&r에서 재료 유형을 입력받고 "
+        "표시 여부를 &9불리언&0으로 출력하는 &l술어&r를 만든 뒤 &l변수&r에 저장하세요. 이 "
+        "튜토리얼에서는 &o마법 부여 가능&r한 아이템을 모두 걸러냅니다. &l논리 "
+        '프로그래머&r에서 &l술어&r 자료형의 &o"Item Enchantable"&r을 찾아 &l변수&r에 '
+        "작성하고, &l저장 터미널&r의 아이템 탭에서 &l변수&r를 &l변수&r 슬롯에 넣으세요."
+    ),
+    "advancement.integratedscripting.terminal_open.desc": (
+        "스크립팅 터미널 GUI를 여세요."
+    ),
+    "advancement.integratedscripting.terminal_display.desc": (
+        "디스플레이 패널에 스크립트 값을 표시하세요"
+    ),
+    "operator.integratedscripting.integratedscript.basename": "통합 스크립트 %s",
+    "item.integratedscripting.scripting_disk.id": "ID: %s",
+    "item.integratedscripting.scripting_disk.bytes": "바이트: %s",
+    "info_book.integratedscripting.introduction.text1": (
+        "&lIntegrated Scripting&r은 &lIntegrated Dynamics&r 네트워크에서 복잡한 작업을 "
+        "스크립트로 처리하게 하는 &lIntegrated Dynamics&r 애드온입니다. 기본적으로 "
+        "JavaScript 스크립트 언어를 지원합니다."
+    ),
+    "info_book.integratedscripting.introduction.text2": (
+        "복잡한 연산을 여러 변수 카드로 시각적으로 잇는 대신 편리한 스크립트 문법으로 "
+        "&lIntegrated Dynamics&r 논리 연산을 정의할 수 있습니다."
+    ),
+    "info_book.integratedscripting.introduction.text3": (
+        '예를 들어 &o"내구도가 있고 X 모드가 추가했으며 다이아몬드 곡괭이로만 캘 수 있는 '
+        '블록에 해당하는 아이템"&r 같은 복잡한 목록 필터나, &o"이 목록에서 스택 크기가 '
+        '두 번째로 큰 아이템 가져오기"&r를 쉽게 정의할 수 있습니다.'
+    ),
+    "info_book.integratedscripting.introduction.text4": (
+        "이 모드를 사용하려면 기본 프로그래밍 지식을 익히는 것이 좋지만, 뒤쪽의 "
+        "튜토리얼을 따라가며 배울 수도 있습니다."
+    ),
+    "info_book.integratedscripting.materials.text1": (
+        "스크립팅을 시작하려면 &l멘데사이트&r 블록이 필요합니다. 가공하기 쉬워 스크립트를 "
+        "저장하고 처리하는 재료로 알맞습니다. &l건조대&r에서 &l멘릴 수지&r와 &l안산암&r을 "
+        "결합하면 &l멘데사이트&r를 만들 수 있습니다."
+    ),
+    "info_book.integratedscripting.concepts.text1": (
+        "네트워크에서 스크립트를 편집·저장·제공하려면 &l스크립팅 터미널&r, &l스크립팅 "
+        "디스크&r, &l스크립팅 드라이브&r의 세 요소가 필요합니다."
+    ),
+    "info_book.integratedscripting.concepts.text2": (
+        "&l스크립팅 디스크&r는 스크립트 원문을 저장하지만 혼자서는 아무 작업도 하지 "
+        "못합니다."
+    ),
+    "info_book.integratedscripting.concepts.text3": (
+        "&l스크립팅 드라이브&r에는 &l스크립팅 디스크&r 하나를 넣을 수 있으며, 디스크의 "
+        "내용을 네트워크에 제공합니다."
+    ),
+    "info_book.integratedscripting.concepts.text4": (
+        "&l스크립팅 터미널&r에서는 현재 네트워크의 &l스크립팅 드라이브&r가 제공하는 모든 "
+        "스크립트를 보고 관리하고 편집할 수 있습니다."
+    ),
+    "info_book.integratedscripting.concepts.text5": (
+        "이제 각 요소를 차례로 자세히 알아봅니다."
+    ),
+    "info_book.integratedscripting.disk.text1": (
+        "&l스크립팅 디스크&r는 스크립트를 저장하며 &l스크립팅 드라이브&r에 넣어 "
+        "사용합니다. &l변수 카드&r와 &l멘데사이트&r를 조합해 만들 수 있습니다."
+    ),
+    "info_book.integratedscripting.disk.text2": (
+        "&l스크립팅 디스크&r를 &l스크립팅 드라이브&r에 넣으면 고유 숫자 ID가 부여됩니다. "
+        "&l스크립팅 터미널&r은 이 ID로 디스크의 스크립트를 수정하고, 스크립트 요소를 "
+        "&l변수 카드&r에 연결할 때도 같은 ID를 사용합니다."
+    ),
+    "info_book.integratedscripting.disk.text3": (
+        "&l스크립팅 디스크&r는 다른 네트워크의 &l스크립팅 드라이브&r로 옮겨도 스크립트 "
+        "데이터가 사라지지 않습니다. 다만 해당 ID를 참조하는 &l변수 카드&r가 디스크와 같은 "
+        "네트워크에 없으면 오류를 냅니다."
+    ),
+    "info_book.integratedscripting.disk.text4": (
+        "&l스크립팅 디스크&r의 저장 용량에는 제한이 없지만, 관리하기 쉽도록 스크립트를 "
+        "여러 디스크에 나누는 것을 권장합니다."
+    ),
+    "info_book.integratedscripting.drive.text1": (
+        "&l스크립팅 드라이브&r는 &lIntegrated Dynamics&r 네트워크에 연결하는 블록입니다. "
+        "&l스크립팅 디스크&r 하나를 넣어 그 안의 스크립트를 네트워크에 제공합니다."
+    ),
+    "info_book.integratedscripting.drive.text2": (
+        "&l변수 저장소&r와 &l주크박스&r에 &l스크립팅 디스크&r를 조합하여 제작합니다."
+    ),
+    "info_book.integratedscripting.terminal.text1": (
+        "&l스크립팅 터미널&r은 네트워크의 &l스크립팅 디스크&r에 저장된 스크립트를 "
+        "관리하도록 &lIntegrated Dynamics&r 네트워크에 연결하는 부품입니다."
+    ),
+    "info_book.integratedscripting.terminal.text2": (
+        "설치한 터미널을 우클릭하면 스크립트를 편집하는 간단한 &o통합 개발 환경&r(IDE)이 "
+        "열립니다."
+    ),
+    "info_book.integratedscripting.terminal.text3": (
+        "화면 왼쪽 위에서 네트워크에 연결된 &l스크립팅 디스크&r의 ID를 선택하면, 그 "
+        "디스크에 저장된 모든 스크립트 파일이 아래 목록에 표시됩니다."
+    ),
+    "info_book.integratedscripting.terminal.text7": (
+        "편집기는 간단한 구문 강조만 제공하고 현재는 구문 오류를 찾아내지 못합니다. 오류는 "
+        "&l변수 카드&r로 스크립트를 실행할 때 표시됩니다."
+    ),
+    "info_book.integratedscripting.terminal.text8": (
+        "스크립트 멤버를 &lIntegrated Dynamics&r 논리로 사용하려면 &l변수 카드&r에 "
+        "바인딩하세요."
+    ),
+    "info_book.integratedscripting.terminal.text9": (
+        "먼저 텍스트 편집기에서 변수 이름이나 함수 이름 같은 스크립트 멤버를 커서로 "
+        "선택하세요."
+    ),
+    "info_book.integratedscripting.terminal.text10": (
+        "그런 다음 화면 오른쪽 슬롯에 &l변수 카드&r를 넣으면 선택한 스크립트 멤버에 "
+        "바인딩됩니다."
+    ),
+    "info_book.integratedscripting.terminal.text11": (
+        "이제 &l변수 카드&r를 네트워크의 다른 곳에서 사용할 수 있습니다. 변수 멤버는 "
+        "&l디스플레이 패널&r에 표시하고, 함수 멤버는 아이템 목록 필터의 연산자로 사용할 "
+        "수 있습니다."
+    ),
+    "info_book.integratedscripting.writing.js.text1": (
+        "이 모드에서는 JavaScript 문법으로 스크립트를 작성하며, ECMAScript(ECMA-262)의 "
+        "모든 기능을 사용할 수 있습니다."
+    ),
+    "info_book.integratedscripting.writing.variables.text1": (
+        "Integrated Dynamics의 모든 자료형(예: &6정수&0, &9불리언&0, &8아이템&0 등)은 "
+        "JavaScript와 서로 변환해 사용할 수 있습니다."
+    ),
+    "info_book.integratedscripting.writing.variables.text2": (
+        "JavaScript에서 만든 값을 정적 &l변수 카드&r로 사용하려면 &olet&r 또는 &oconst&r로 "
+        "변수 멤버를 정의하는 방법이 가장 간단합니다."
+    ),
+    "info_book.integratedscripting.writing.variables.text4": (
+        "이 값을 &l변수 카드&r에서 사용하려면 스크립팅 터미널 편집기에서 변수 멤버 이름을 "
+        "선택하고 오른쪽 슬롯에 빈 &l변수 카드&r를 넣으세요. 이제 이 &l변수 카드&r를 "
+        "&l디스플레이 패널&r에 표시하는 등 평소처럼 사용할 수 있습니다."
+    ),
+    "info_book.integratedscripting.writing.variables.text5": (
+        "JavaScript 변수는 특정 값을 가진 긴 &4문자열&0처럼 &l논리 프로그래머&r에서 만들기 "
+        "어려운 복잡한 값을 정의할 때 특히 유용합니다. 아래에서 이런 값을 만드는 예를 볼 "
+        "수 있습니다."
+    ),
+    "info_book.integratedscripting.writing.functions.text1": (
+        "&2연산자&0는 Integrated Dynamics 논리에서 값처럼 다룰 수 있으므로 JavaScript "
+        "함수로도 만들 수 있습니다."
+    ),
+    "info_book.integratedscripting.writing.functions.text3": (
+        "함수는 여러 인수를 받습니다. Integrated Dynamics 논리에서 함수를 실행하면 일반 "
+        "Integrated Dynamics 값이 JavaScript 값으로 변환되어 인수로 전달됩니다."
+    ),
+    "info_book.integratedscripting.writing.functions.text4": (
+        "JavaScript 함수를 &2연산자&0로 &l변수 카드&r에 바인딩하는 방법은 상수나 변수와 "
+        "같습니다. 스크립팅 터미널 편집기에서 함수 멤버 이름을 선택하고 &l변수 카드&r에 "
+        "바인딩하세요. 이제 이 값은 &2연산자&0를 받는 모든 곳에서 사용할 수 있습니다."
+    ),
+    "info_book.integratedscripting.writing.functions.text5": (
+        "예를 들어 &8아이템&0 인수 하나를 받아 &9불리언&0을 반환하는 함수를 만들면, "
+        "상자에서 읽은 아이템 목록을 거르는 필터 &2연산자&0로 사용할 수 있습니다."
+    ),
+    "info_book.integratedscripting.writing.functions.text6": (
+        "아래에서 만들 수 있는 여러 함수 유형의 예를 볼 수 있습니다."
+    ),
+    "info_book.integratedscripting.writing.globals.text1": (
+        "JavaScript 코드에서는 전역 &oidContext&r 변수의 &oops&r 필드를 통해 Integrated "
+        "Dynamics의 모든 연산자를 함수로 호출할 수 있습니다. 새 연산자를 만들 때 기존 "
+        "연산자를 활용할 수 있는 방법입니다."
+    ),
+    "info_book.integratedscripting.writing.globals.text2": (
+        "예를 들어 아래처럼 아이템이 쌓이는지, 스택 크기가 16 이상인지 확인하는 &8아이템&0 "
+        "필터를 작성할 수 있습니다."
+    ),
+    "info_book.integratedscripting.writing.globals.text3": (
+        "실행할 연산자의 이름은 &l논리 프로그래머&r의 연산자 툴팁이나 이 가이드의 논리 "
+        "프로그래밍 절에 있는 연산자 목록에서 전역 이름을 확인하세요."
+    ),
+    "info_book.integratedscripting.writing.globals.text4": (
+        "&oidContext&r로 연산자를 호출하는 코드가 너무 길어지면 두 번째 예처럼 연산자를 "
+        "사용자 정의 상수 변수에 저장할 수 있습니다. 다음 절에서 설명하는 &o객체 "
+        "메서드&r를 사용할 수도 있습니다."
+    ),
+    "info_book.integratedscripting.writing.methods.text1": (
+        "전역 함수를 길게 호출하지 않고 &l객체 메서드&r로 더 간결한 코드를 작성할 수 "
+        "있습니다."
+    ),
+    "info_book.integratedscripting.writing.methods.text2": (
+        "&8블록&0, &8아이템&0, &8유체&0 같은 객체 자료형은 JavaScript에서 사용할 때 "
+        "&l메서드&r를 제공합니다."
+    ),
+    "info_book.integratedscripting.advanced.transient_storage.text1": (
+        "Integrated Dynamics는 함수형 프로그래밍 원칙을 따르므로 &l지연기&r 같은 외부 "
+        "수단을 제외하면 상태를 저장하지 않습니다."
+    ),
+    "info_book.integratedscripting.advanced.transient_storage.text2": (
+        "JavaScript는 함수형 프로그래밍과 명령형 프로그래밍을 모두 지원하므로 상태를 "
+        "일부 저장할 수 있습니다."
+    ),
+    "info_book.integratedscripting.advanced.transient_storage.text3": (
+        "구체적으로 함수 밖에 변경 가능한 변수(예: &olet&r)를 선언하면 함수 호출로 값을 "
+        "수정할 수 있습니다."
+    ),
+    "info_book.integratedscripting.advanced.transient_storage.text4": (
+        "이 방식으로 함수 호출 횟수를 세거나 특정 값의 이동 평균을 계산하는 등 상태를 "
+        "추적할 수 있습니다."
+    ),
+    "info_book.integratedscripting.advanced.transient_storage.text6": (
+        "따라서 이 값이 항상 남아 있다고 가정하면 안 됩니다. 영구 데이터 저장이 필요하면 "
+        "&l지연기&r를 사용하는 편이 좋습니다."
+    ),
+    "info_book.integratedscripting.advanced.external_editing.text1": (
+        "싱글플레이 또는 멀티플레이 게임이 실행되는 파일 시스템에 접근할 수 있다면 외부 "
+        "편집기에서도 스크립트 파일을 열 수 있습니다. 선호하는 IDE(Vi 등, 물론 Emacs는 "
+        "아니고요)로 스크립트를 작성할 수 있습니다."
+    ),
+    "info_book.integratedscripting.advanced.external_editing.text2": (
+        "스크립트 파일은 &oworld/integratedscripting/&r 디렉터리에 있습니다(싱글플레이 "
+        "월드는 &osaves/&r 아래를 확인하세요). 안에는 ID별 &l스크립팅 디스크&r 디렉터리가 "
+        "있고, 각 &l스크립팅 디스크&r 디렉터리에 해당 디스크의 모든 스크립트 파일이 "
+        "저장됩니다."
+    ),
+    "info_book.integratedscripting.advanced.external_editing.text4": (
+        "외부 편집기가 파일 변경 감지를 지원한다면(현대적인 IDE는 대부분 지원합니다), "
+        "&l스크립팅 터미널&r에서 스크립트를 바꿨을 때 외부 편집기의 파일도 갱신됩니다."
+    ),
+    "info_book.integratedscripting.advanced.logging.text2": (
+        "JavaScript에서 &oconsole.log()&r와 &oconsole.error()&r 같은 함수를 호출하면 각각 "
+        "&o표준 출력&r과 &o표준 오류&r 스트림에 메시지를 기록합니다."
+    ),
+    "info_book.integratedscripting.advanced.logging.text3": (
+        "이 함수를 호출한 로그 메시지는 스크립트별 &o.stdout&r 또는 &o.stderr&r 파일에 "
+        "기록됩니다."
+    ),
+    "info_book.integratedscripting.advanced.logging.text4": (
+        "예를 들어 스크립트가 &omyfile.js&r라면 로그 메시지는 &omyfile.js.stdout&r에 "
+        "기록됩니다."
+    ),
+    "info_book.integratedscripting.advanced.logging.text5": (
+        "&o.stdout&r와 &o.stderr&r 파일은 &l스크립팅 터미널&r이나 외부 편집으로 열 수 "
+        "있습니다."
+    ),
+    "info_book.integratedscripting.advanced.typescript.text1": (
+        "TypeScript는 JavaScript에 자료형 지원을 더한 널리 쓰이는 상위 집합 언어입니다. "
+        "변수와 함수의 자료형을 정의하여 자료형에 안전한 JavaScript 코드를 작성할 수 "
+        "있습니다."
+    ),
+    "info_book.integratedscripting.advanced.typescript.text2": (
+        "Integrated Scripting은 순수 JavaScript만 실행하지만, 모든 전역 함수와 자료형, "
+        "메서드의 TypeScript &o타입 정의 파일&r을 제공합니다."
+    ),
+    "info_book.integratedscripting.advanced.typescript.text3": (
+        "외부 IDE에서 스크립트를 편집할 때 타입 정의 파일을 불러오면 자료형에 안전한 "
+        "스크립트를 작성할 수 있습니다. TypeScript와 사용법을 알고 있을 때만 권장합니다."
+    ),
+    "info_book.integratedscripting.advanced.typescript.text4": (
+        "타입 정의 파일은 &oworld/integratedscripting/integratedscripting.d.ts&r에 "
+        "있습니다(싱글플레이 월드는 &osaves/&r 아래를 확인하세요). 월드를 다시 시작할 "
+        "때마다 자동으로 생성되므로 직접 수정하지 마세요."
+    ),
+    "info_book.integratedscripting.tutorials.introduction.text1": (
+        "이 절에는 복잡한 작업을 스크립트로 처리하는 &lIntegrated Dynamics&r 애드온인 "
+        "&lIntegrated Scripting&r의 사용법을 배우는 튜토리얼이 있습니다."
+    ),
+    "info_book.integratedscripting.tutorials.basics.text1": (
+        "&l멘데사이트&r 블록은 스크립팅 관련 아이템의 기본 제작 재료입니다. &l건조대&r로 "
+        "만들어 보세요!"
+    ),
+    "info_book.integratedscripting.tutorials.basics.text2": (
+        "다음으로 &l멘데사이트&r 블록을 사용해 &l스크립팅 디스크&r와 &l스크립팅 "
+        "드라이브&r를 만듭니다. &l스크립팅 디스크&r는 스크립트 데이터를 저장하고, "
+        "&l스크립팅 드라이브&r는 그 디스크를 네트워크에 연결합니다."
+    ),
+    "info_book.integratedscripting.tutorials.basics.text3": (
+        "마지막으로 &l스크립팅 드라이브&r를 놓고 &l스크립팅 디스크&r를 넣으세요. 다음 "
+        "튜토리얼부터 스크립트를 저장할 수 있습니다."
+    ),
+    "info_book.integratedscripting.tutorials.terminal.text2": (
+        "먼저 &l스크립팅 터미널&r을 제작해 &l스크립팅 드라이브&r와 연결된 케이블에 놓고, "
+        "&l스크립팅 터미널&r을 우클릭해 여세요."
+    ),
+    "info_book.integratedscripting.tutorials.terminal.text3": (
+        "편집기에는 네트워크에서 접근 가능한 여러 &l스크립팅 디스크&r의 모든 스크립트 "
+        "파일이 표시됩니다. 화면 왼쪽 위의 화살표로 &l스크립팅 디스크&r를 전환할 수 "
+        "있습니다."
+    ),
+    "info_book.integratedscripting.tutorials.terminal.text4": (
+        '아직 네트워크에 스크립트 파일이 없으므로 화면 왼쪽 아래의 "+" 버튼을 눌러 새 '
+        "파일을 만드세요. 새 파일을 열고 화면 오른쪽 텍스트 영역을 클릭하여 "
+        "&oJavaScript&r 코드를 작성합니다."
+    ),
+    "info_book.integratedscripting.tutorials.terminal.text6": (
+        "마지막으로 상수를 &l변수 카드&r에 바인딩합니다. 화면 오른쪽 슬롯에 빈 &l변수 "
+        "카드&r를 넣고 커서로 변수를 두 번 클릭하세요. 완성된 &l변수 카드&r는 상수 값에 "
+        "바인딩되며, 이제 이 &l변수 카드&r를 네트워크 어디서든 사용할 수 있습니다. "
+        "&l디스플레이 패널&r에 표시해 보세요!"
+    ),
+    "info_book.integratedscripting.tutorials.functions.text1": (
+        "JavaScript로 상수를 만드는 것도 재미있지만, 스크립트의 진짜 힘은 &o함수&r를 "
+        "만들 때 드러납니다."
+    ),
+    "info_book.integratedscripting.tutorials.functions.text2": (
+        "JavaScript 함수는 &2연산자&0로 &l변수 카드&r에 바인딩해 일반 Integrated "
+        "Dynamics 논리에서 사용할 수 있습니다. Integrated Tunnels 출력기의 필터를 "
+        "정의하거나, 목록에 있는 아이템 스택 크기의 중간값처럼 복잡한 값을 계산할 수 "
+        "있습니다."
+    ),
+    "info_book.integratedscripting.tutorials.functions.text3": (
+        "이 튜토리얼에서는 &8아이템&0 인수 하나를 받아 &9불리언&0을 출력하는 함수를 "
+        "만듭니다. 이 함수는 아이템 목록을 거르는 필터 연산자로 사용할 수 있습니다."
+    ),
+    "info_book.integratedscripting.tutorials.functions.text6": (
+        "필터링된 목록의 결과를 &l디스플레이 패널&r에 표시하면 튜토리얼이 완료됩니다."
+    ),
+    "info_book.integratedscripting.tutorials.functions.text7": (
+        "예제 스크립트에서는 아이템의 &oisStackable()&r 및 &ostacksize()&r 같은 내장 "
+        "메서드를 호출할 수 있습니다. 사용 가능한 메서드의 자세한 목록은 가이드 뒤쪽에서 "
+        "확인하세요."
+    ),
+    "general.integratedtunnels.description": (
+        "Integrated Dynamics 네트워크로 아이템·유체·에너지 등을 전송합니다."
+    ),
+    "advancement.integratedtunnels.interface_item": "아이템 인터페이스",
+    "advancement.integratedtunnels.interface_fluid": "유체 인터페이스",
+    "advancement.integratedtunnels.interface_energy": "에너지 인터페이스",
+    "advancement.integratedtunnels.import_items_list": "목록 기반 아이템 입력",
+    "advancement.integratedtunnels.import_items_list.desc": (
+        "아이템 입력기로 목록에 있는 모든 아이템을 인벤토리에 입력하세요"
+    ),
+    "advancement.integratedtunnels.pickup_items_limit.desc": (
+        "월드 아이템 입력기로 한 번에 아이템 5개를 주우세요"
+    ),
+    "advancement.integratedtunnels.place_logwood.desc": (
+        "월드 블록 출력기에서 'logs' 태그 목록을 사용해 아무 통나무나 배치하세요"
+    ),
+    "advancement.integratedtunnels.player_simulator": "플레이어 시뮬레이션",
+    "parttype.integratedtunnels.interface_filter_energy.info": (
+        "에너지 저장 장치를 네트워크에 연결하고 통과 여부를 필터링합니다."
+    ),
+    "parttype.integratedtunnels.importer_world_energy.info": (
+        "월드의 에너지를 주워 네트워크로 가져옵니다."
+    ),
+    "parttype.integratedtunnels.exporter_world_energy.info": (
+        "네트워크의 에너지를 월드로 내보냅니다."
+    ),
+    "parttype.integratedtunnels.importer_world_item.info": (
+        "월드의 아이템을 주워 네트워크로 가져옵니다."
+    ),
+    "parttype.integratedtunnels.exporter_world_item.info": (
+        "네트워크의 아이템을 월드에 놓습니다."
+    ),
+    "parttype.integratedtunnels.importer_world_fluid.info": (
+        "월드의 유체를 주워 네트워크로 가져옵니다."
+    ),
+    "parttype.integratedtunnels.exporter_world_fluid.info": (
+        "네트워크의 유체를 월드에 놓습니다."
+    ),
+    "parttype.integratedtunnels.player_simulator.info": (
+        "플레이어의 행동을 시뮬레이션합니다."
+    ),
+    "info_book.integratedtunnels.player": "플레이어 시뮬레이션",
+    "info_book.integratedtunnels.tutorials.introduction.text1": (
+        "이 절에는 아이템·유체·에너지를 전송하는 &lIntegrated Dynamics&r 애드온인 "
+        "&lIntegrated Tunnels&r의 사용법을 배우는 튜토리얼이 있습니다."
+    ),
+    "info_book.integratedtunnels.tutorials.export_items_limit.text1": (
+        "&l인벤토리 판독기&r로 대상 인벤토리의 아이템 수를 읽고, 전체 수량이 &610&0보다 "
+        "커질 때까지만 아이템을 옮기세요."
+    ),
+    "info_book.integratedtunnels.tutorials.import_items_list": "아이템 목록 입력",
+    "info_book.integratedtunnels.tutorials.world_item_importer_exporter.text1": (
+        "&o아이템 입력기&r와 &o아이템 출력기&r처럼 &l월드 아이템 입력기&r는 월드의 "
+        "아이템을 네트워크로 줍고, &l월드 아이템 출력기&r는 네트워크의 아이템을 월드에 "
+        "놓습니다. &o셜커 상자&r처럼 인벤토리가 있는 드롭된 아이템과도 상호작용합니다."
+    ),
+    "info_book.integratedtunnels.tutorials.drop_all_items.text1": (
+        "&l월드 아이템 출력기&r에 빈 &l변수 카드&r를 넣어 네트워크의 모든 아이템을 "
+        "바닥에 떨어뜨리세요."
+    ),
+    "info_book.integratedtunnels.tutorials.pickup_items_limit": ("제한된 아이템 줍기"),
+    "info_book.integratedtunnels.tutorials.pickup_items_limit.text1": (
+        "&l변수 카드&r에 상수 &65&0를 작성하고 &l월드 아이템 입력기&r에 넣어 대상 "
+        "공간에서 한 번에 아이템 5개를 주우세요."
+    ),
+    "info_book.integratedtunnels.tutorials.break_stone.text1": (
+        "&8돌&0 아이템 값을 참조하는 &l변수 카드&r를 만들어 &l월드 블록 입력기&r에 "
+        "넣으면 돌 블록만 부숩니다. 애스펙트 설정에서 섬세한 손길을 켜 조약돌 대신 돌을 "
+        "얻을 수 있는지도 확인해 보세요."
+    ),
+    "info_book.integratedtunnels.tutorials.place_logwood.text1": (
+        "통나무만 놓는 &l월드 블록 출력기&r 시스템을 만들어 보세요. &l태그 값&r 연산자로 "
+        "&ologs&r 태그에 속한 모든 아이템 목록을 가져오면 됩니다."
+    ),
+    "info_book.integratedtunnels.tutorials.click_sword.text1": (
+        "반복 클릭은 지루하니 &l플레이어 시뮬레이터&r에 맡겨 보세요. 먼저 장치를 제작하고 "
+        "&o다이아몬드 검&r이 든 &l변수 카드&r를 넣으면 아이템 네트워크의 &o다이아몬드 "
+        "검&r을 사용해 자동으로 공격합니다."
+    ),
+    "gui.integrateddynamics.button.add": "추가",
+    "gui.integrateddynamics.partoffset.offsets.max": "최대 오프셋: %s",
+    "parttype.integrateddynamics.tooltip.maxoffset": "최대 오프셋: %s",
+    "operator.integrateddynamics.list.append": "끝에 추가",
+    "proxy.integrateddynamics.error.proxy_invalid_type": (
+        "ID가 %s인 프록시는 %s 자료형 변수를 노출해야 하지만 %s이(가) 발견되었습니다."
+    ),
+    "delay.integrateddynamics.error.delay_invalid_type": (
+        "ID가 %s인 지연기는 %s 자료형 변수를 노출해야 하지만 %s이(가) 발견되었습니다."
+    ),
+    "operator.integrateddynamics.error.operator_recursion_limit": (
+        "연산자 재귀 한계 %s에 도달해 %s을(를) 호출할 수 없습니다. 게임을 멈추게 하려던 "
+        "것은 아니죠?"
+    ),
+    "gui.integratedscripting.removal_dialog.message": ('"%s" 항목을 삭제하시겠습니까?'),
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_dripping_lava.info": (
+        "지정한 속도로 뚝뚝 떨어지는 용암 입자를 방출합니다."
+    ),
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_falling_lava.info": (
+        "지정한 속도로 낙하하는 용암 입자를 방출합니다."
+    ),
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_dripping_water.info": (
+        "지정한 속도로 뚝뚝 떨어지는 물 입자를 방출합니다."
+    ),
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_falling_water.info": (
+        "지정한 속도로 낙하하는 물 입자를 방출합니다."
+    ),
+    "aspect.integrateddynamics.read.boolean.world.mob": "몹 존재 여부",
+    "aspect.integrateddynamics.read.boolean.world.animal": "동물 존재 여부",
+    "aspect.integrateddynamics.read.boolean.world.player": "플레이어 존재 여부",
+    "aspect.integrateddynamics.read.boolean.world.item": "아이템 존재 여부",
+    "operator.integrateddynamics.entity.ismob": "몹인지 여부",
+    "operator.integrateddynamics.entity.isanimal": "동물인지 여부",
+    "operator.integrateddynamics.entity.isplayer": "플레이어인지 여부",
+    "operator.integrateddynamics.entity.isitem": "아이템인지 여부",
+    "operator.integrateddynamics.operator.reduce": "축약",
+    "operator.integrateddynamics.string.split_on": "기준 문자열로 나누기",
+    "operator.integrateddynamics.list.slice": "일부 잘라내기",
+    "info_book.integrateddynamics.introduction.text1": (
+        "오랫동안 자동화 방법은 지나치게 제한적이었습니다. &1Integrated Dynamics&0는 논리 "
+        "시스템 자동화의 대표 모드를 목표로 합니다. &lMinecraft&r와 여러 모드의 요소를 "
+        "폭넓게 연결하여, 표현력이 높고 몰입감 있는 논리 프로그래밍 환경을 제공합니다."
+    ),
+    "info_book.integrateddynamics.introduction.text2": (
+        "레드스톤 회로는 단순하면서도 쓸 만하고 이해하기 쉬운 자동화 방법입니다. 하지만 그 "
+        "단순함이 불편할 때도 있습니다. 복잡한 자동화 네트워크에서는 회로가 매우 커져 "
+        "관리하기 어려워지고, 작은 누수 하나만으로도 큰 문제가 생길 수 있습니다."
+    ),
+    "info_book.integrateddynamics.introduction.text3": (
+        "이 가이드의 목적은 두 가지입니다. 먼저 모드의 핵심 개념을 배우는 &l튜토리얼&r을 "
+        "제공합니다. 다음으로 튜토리얼을 원하지 않는 플레이어를 위해 모든 요소와 작동 "
+        "방식을 설명하는 자세한 &l설명서&r를 제공합니다."
+    ),
+    "info_book.integrateddynamics.introduction.text4": (
+        "아래쪽 화살표를 클릭하면 페이지를 넘기고, Shift+클릭하면 페이지 대신 절 단위로 "
+        "이동합니다. 큰 절의 첫 페이지에는 하위 절로 바로 이동하는 목차가 있습니다. 제작법에 "
+        "나오는 설명 대상 아이템을 클릭하면 해당 절로 이동합니다. 왼쪽 위 버튼은 상위 절로, "
+        "오른쪽 위 버튼은 직전에 보았던 페이지로 이동합니다."
+    ),
+    "info_book.integrateddynamics.tutorials.menrilBasics.text2": (
+        "그다음 &l멘릴 원목&r을 처리할 &l압착기&r와 &l건조대&r를 만드세요. &l압착기&r에 "
+        "원목 블록을 놓고 평평해질 때까지 위에서 뛰면 됩니다. 그러면 &l멘릴 수지&r가 "
+        "&l압착기&r의 양옆으로 흘러나옵니다. &l건조대&r를 &l압착기&r 옆에 놓아 방금 짠 "
+        "&l멘릴 수지&r를 받으세요."
+    ),
+    "info_book.integrateddynamics.tutorials.networkFoundations.text1": (
+        "이 모드의 핵심은 자동화 제어 네트워크를 만드는 것입니다. &l논리 케이블&r 10개로 "
+        "네트워크를 만들어 보세요."
+    ),
+    "info_book.integrateddynamics.tutorials.basicNetworkComponents.text1": (
+        "&l변수 카드&r를 값에 바인딩하는 방법 중 하나는 &l판독기&r로 값을 읽는 것입니다. "
+        "먼저 기본 판독기를 몇 개 만드세요. 그런 다음 &l변수 카드&r의 값을 보여 주는 "
+        "&l디스플레이 패널&r도 만드세요."
+    ),
+    "info_book.integrateddynamics.tutorials.aspects.text5": (
+        "다음으로 &l레드스톤 작성기&r를 만들고, 레드스톤 판독기가 읽은 최대 정수 "
+        "레드스톤 값을 출력하게 하세요."
+    ),
+    "info_book.integrateddynamics.tutorials.logicOperations.text1": (
+        "판독기에서 읽은 값을 표시하는 것도 유용하지만, &2연산자&0로 여러 값을 결합하면 "
+        "훨씬 흥미로운 일을 할 수 있습니다. 모든 &2연산자&0는 &l논리 프로그래머&r에서 "
+        "찾을 수 있습니다."
+    ),
+    "info_book.integrateddynamics.tutorials.logicOperations.text2": (
+        "아이템과 블록 형태가 모두 있는 &l논리 프로그래머&r를 만드세요. GUI를 열면 모든 "
+        "&l연산자&r 목록이 표시됩니다."
+    ),
+    "info_book.integrateddynamics.tutorials.logicOperations.text5": (
+        "&l변수 카드&r에 값을 쓴 뒤에도 카드를 &l논리 프로그래머&r에 다시 넣어 언제든지 "
+        "수정할 수 있습니다."
+    ),
+    "info_book.integrateddynamics.tutorials.logicOperations.text6": (
+        "&1Integrated Dynamics&0는 변수를 &o지연 평가&r합니다. 따라서 이 &l덧셈&r "
+        "&l변수 카드&r에 두 &6정수&0의 합이 직접 저장되는 것이 아니라, 네트워크에서 값이 "
+        "필요할 때 변수 참조를 따라 덧셈을 수행합니다. 네트워크가 참조한 &l변수 카드&r를 "
+        "찾을 수 있도록 &l변수 저장소&r를 제작해 놓으세요. 두 &6정수&0 &l변수 카드&r를 "
+        "저장소에 넣으면 네트워크에서 사용할 수 있습니다."
+    ),
+    "info_book.integrateddynamics.tutorials.logicOperations.text7": (
+        "마지막으로 케이블을 &l변수 저장소&r에 연결하고 &l디스플레이 패널&r을 부착한 뒤, "
+        "&l덧셈&r &l변수 카드&r를 넣어 합계를 표시하세요."
+    ),
+    "info_book.integrateddynamics.tutorials.logicOperations.text8": (
+        "복잡한 자동화를 만들 때 &l논리 프로그래머&r와 &l변수 저장소&r를 자주 사용하게 "
+        "됩니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.value_types.recipe.text1": (
+        "&8재료&0를 입력받아 다른 &8재료&0 값을 출력하는 추상 제작법입니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.value_types.recipe.text2": (
+        "제작법은 &l논리 프로그래머&r에서 직접 만들거나, &l기계 판독기&r로 지원되는 "
+        "기계에서 읽을 수 있습니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.value_types.recipe.text4": (
+        "GUI에서 기존 &l변수 카드&r의 제작법을 찾을 때 Shift를 누르면 각 제작법의 출력 "
+        "아이템을 잠시 표시할 수 있습니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.value_types.recipe.text5": (
+        "&l논리 프로그래머&r의 입력 슬롯을 Shift+클릭하면 세부 속성을 설정할 수 있습니다. "
+        "NBT를 비교할지, 제작 후 완전히 소모되지 않는 아이템을 여러 제작법에서 재사용할지, "
+        "태그가 같은 대체 아이템을 허용할지 등을 정합니다."
+    ),
+    "info_book.integrateddynamics.manual.parts.offsets.text1": (
+        "부품은 기본적으로 바로 앞의 위치를 대상으로 합니다. &l부품 향상&r을 적용하면 부품의 "
+        "&l오프셋&r 화면에서 대상 위치를 바꿀 수 있습니다."
+    ),
+    "info_book.integrateddynamics.manual.parts.offsets.text3": (
+        "오프셋은 직접 입력하거나 &l렌치&r로 눈앞에서 지정할 수 있습니다. &l렌치&r를 오프셋 "
+        "모드로 바꾸고 Shift+우클릭하면 위치가 저장됩니다. 그 &l렌치&r로 부품을 우클릭하면 "
+        "저장한 위치를 부품에 적용합니다."
+    ),
+    "info_book.integrateddynamics.manual.parts.offsets.text4": (
+        "오프셋은 고정값뿐 아니라 &l변수 카드&r를 이용한 &o동적&r 값으로도 정의할 수 "
+        "있습니다."
+    ),
+    "info_book.integrateddynamics.manual.machines.energy_battery.text2": (
+        "이 배터리는 &lRF&r 기반 전력과 &lTesla&r 전력을 모두 받습니다."
+    ),
+    "info_book.integrateddynamics.manual.machines.energy_battery.text4": (
+        "배터리를 인벤토리에 둔 상태에서 Shift+우클릭하면 &l자동 공급&r 모드를 켤 수 "
+        "있습니다. 이 모드에서는 양손에 든 아이템에 에너지를 자동으로 채웁니다."
+    ),
+    "info_book.integrateddynamics.manual.diagnostics.text1": (
+        "관리자 권한이 있는 플레이어는 서버의 모든 네트워크 틱 소요 시간을 살펴보는 "
+        "&l네트워크 진단&r 도구를 사용할 수 있습니다."
+    ),
+    "info_book.integrateddynamics.manual.diagnostics.text2": (
+        "&o\\integrateddynamics networkdiagnostics&r 명령을 실행하면 이 도구에 사용할 임시 "
+        "로컬 웹 서버가 시작됩니다."
+    ),
+    "info_book.integrateddynamics.manual.diagnostics.text3": (
+        "명령 실행 뒤 표시된 링크를 클릭하면 웹 브라우저에서 모든 네트워크와 구성 요소의 "
+        "표가 열립니다. 행을 클릭하면 월드에서 해당 요소를 강조하고, &l순간이동&r 버튼을 "
+        "클릭하면 플레이어가 해당 위치로 이동합니다."
+    ),
+    "info_book.integrateddynamics.tutorials.nbt.text4": (
+        "마지막으로 이 &3책&0 하위 태그의 &3id&0 필드를 읽습니다. 이번에는 직전에 읽은 "
+        "하위 태그가 아니라 루트에서 시작해 &lNBT 경로&r 표현식을 적용합니다. 이 표현식은 "
+        "깊이 중첩된 &4NBT&0 값을 읽을 때 유용합니다. 예를 들어 &3NBT&0 태그 &3{ root: { "
+        "child1: { child2: ”some value” }}}&0에 &4”.root.child1.child2”&0를 적용하면 "
+        "&3”some value”&0가 출력됩니다. &lNBT 경로&r의 고급 기능은 설명서의 고급 절에서 "
+        "다룹니다."
+    ),
+    "info_book.integrateddynamics.manual.prerequisites.squeezer.text1": (
+        "&l압착기&r는 게임 초반에 블록과 아이템을 밟아 부수거나 압착하는 기계입니다. "
+        "플레이어뿐 아니라 어떤 엔티티든 위로 뛰거나 떨어져 작동시킬 수 있습니다. 결과 "
+        "아이템은 인접한 인벤토리나 바닥으로 나오고, 결과 유체는 기계 안에 남았다가 옆에 "
+        "대상 탱크가 있으면 양쪽 중 한 곳으로 흐릅니다. 레드스톤 신호로 내부 발판을 "
+        "초기화할 수 있습니다. 특히 &l멘릴 원목&r에서 수지를 짜는 데 사용합니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text1": (
+        "복잡한 &3NBT&0 태그에서 깊이 중첩된 값을 읽으려면 연산자를 길게 연결해야 할 수 "
+        "있습니다. 이 작업을 단순하게 하도록 &4문자열&0 기반 &lNBT 경로 표현식&r으로 "
+        "&3NBT&0 태그 안의 경로를 지정할 수 있습니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text2": (
+        "가장 간단한 NBT 경로 표현식은 &4.fieldName&0 또는 &4[”fieldName”]&0 같은 &l필드 "
+        "선택기&r를 연속해서 사용합니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text3": (
+        "예를 들어 &3NBT&0 태그 &3{ root: { child1: { child2: ”some value” }}}&0에 "
+        "&4”.root.child1.child2”&0를 적용하면 &3”some value”&0가 출력됩니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text4": (
+        "필드 이름 배열이나 와일드카드로 여러 필드를 선택할 수 있습니다. 예: "
+        "&4[fieldA,fieldB]&0 또는 &4*&0"
+    ),
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text5": (
+        "예를 들어 &3NBT&0 태그 &3{ a: { b1: { c: ”some value” }}}&0에 "
+        "&4”.a[b1,b2]*”&0를 적용하면 &3”some value”&0가 출력됩니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text6": (
+        "NBT 목록에서는 &4[1]&0처럼 인덱스를 지정해 특정 원소를 선택할 수 있습니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text7": (
+        "예를 들어 &3NBT&0 태그 &3{ a: [10,20] }&0에 &4”.a[1]”&0을 적용하면 "
+        "&3”20”&0이 출력됩니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text8": (
+        "슬라이스 연산자 &4[start:end:step]&0로 여러 목록 인덱스를 선택할 수 있습니다. "
+        "시작값만 필수이고 나머지는 생략할 수 있습니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text9": (
+        "예를 들어 &3NBT&0 태그 &3{ a: [0,1,2,3,4,5] }&0에 &4”.a[1:4:2]”&0를 "
+        "적용하면 &3[1,3]&0이 출력됩니다."
+    ),
+    "info_book.integrateddynamics.manual.parts.writer.effect.text1": (
+        "지정한 값과 설정에 따라 입자를 방출합니다."
+    ),
+    "info_book.integrateddynamics.manual.machines.materializer.text1": (
+        "동적 &l변수 카드&r의 현재 값을 고정하려면 &l구체화 장치&r를 사용합니다. 동적 "
+        "&l변수 카드&r와 새 빈 &l변수 카드&r를 넣으면, 동적 &l변수 카드&r의 현재 값이 "
+        "정적 값으로 새 카드에 저장됩니다."
+    ),
+    "info_book.integrateddynamics.manual.machines.materializer.text3": (
+        "&l변수 카드&r는 파이프로 &l구체화 장치&r에 넣거나 꺼낼 수 있습니다."
+    ),
+    "info_book.integrateddynamics.tutorials.advancedOperations.text1": (
+        "앞 튜토리얼에서 보았듯 &l논리 프로그래머&r는 숫자 덧셈보다 훨씬 많은 일을 할 "
+        "수 있습니다. 이번에는 고급 데이터 구조와 연산자 연결을 알아봅니다."
+    ),
+    "info_book.integrateddynamics.tutorials.advancedOperations.text2": (
+        "먼저 &6정수&0 &61&0, &610&0, &6100&0이 담긴 정적 &7목록&0을 만들고 "
+        "&l디스플레이 패널&r에 표시하세요."
+    ),
+    "info_book.integrateddynamics.tutorials.advancedOperations.text3": (
+        "&7아이템&0은 이 모드의 자료형 중 하나입니다. 정적 &7아이템&0 &l변수 카드&r를 "
+        "만들고 아이템의 모드 이름을 동적으로 가져와 &l디스플레이 패널&r에 표시하세요."
+    ),
+    "info_book.integrateddynamics.tutorials.advancedOperations.text4": (
+        "참조된 변수를 찾을 수 있도록 &l변수 저장소&r에 넣어야 합니다."
+    ),
+    "info_book.integrateddynamics.tutorials.theValueOfOperators.text1": (
+        "&1Integrated Dynamics&0에서 &2연산자&0는 값처럼 다룰 수 있습니다. 지금까지는 "
+        "&l논리 프로그래머&r에서 직접 사용했지만, 이번에는 &2연산자&0를 &l변수 카드&r에 "
+        "저장하고 동적으로 호출하는 방법을 알아봅니다."
+    ),
+    "info_book.integrateddynamics.tutorials.theValueOfOperators.text4": (
+        "&2연산자&0에는 &o술어&r 결합, &2연산자&0 인수 순서 뒤집기, &7목록&0 처리 등 "
+        "여러 고급 연산이 있습니다."
+    ),
     "block.integrateddynamics.materializer": "구체화 장치",
     "block.integrateddynamics.menril_sapling": "멘릴 묘목",
     "block.integrateddynamics.invisible_light": "보이지 않는 빛",
@@ -550,6 +1388,27 @@ KEY_OVERRIDES = {
 }
 
 QUEST_KEY_OVERRIDES = {
+    "quest.232A06C9FF0EE7B2.quest_desc": (
+        "멘릴 씨앗으로 멘릴 열매, 멘릴 원목, 멘릴 묘목 생산을 자동화할 수 있습니다."
+    ),
+    "quest.1B5C86AE05678420.quest_desc": (
+        "인터페이스를 우클릭하면 여러 옵션이 나타납니다. 각 기능은 다음과 같습니다.\n\n"
+        "&l면 설정&r: 화면 위쪽에서 인터페이스가 어느 면에 있는 것처럼 작동할지 정합니다. "
+        "입력·출력 면이 정해진 기계에 유용합니다.\n\n&l틱/작업&r: 10틱/작업으로 "
+        "설정하면 10틱(0.5초)마다 한 번 입력하거나 출력합니다.\n\n&l우선순위&r: "
+        "우선순위가 더 높은 인터페이스의 인벤토리로 아이템을 먼저 보냅니다.\n\n"
+        "&l아이템/에너지 채널&r: 시스템을 여러 채널로 나누어 네트워크의 서로 다른 "
+        "위치에서 입력하고 출력할 수 있습니다."
+    ),
+    "quest.4D62C62B523C69EC.quest_desc": (
+        "발전기는 석탄처럼 연소 가능한 연료로 FE를 생성합니다."
+    ),
+    "quest.03C40D6A5D722543.quest_desc": (
+        "변수 카드는 아이템 입력 같은 상호작용을 시작하는 데 필요합니다. 입력기의 슬롯에 "
+        "변수 카드를 넣으세요.\n\n카드 옆의 '+' 버튼에서 입력량, 대상 아이템 슬롯, 채널 "
+        "등 거의 모든 설정을 바꿀 수 있습니다.\n\n아이템을 단순히 옮기기만 한다면 카드를 "
+        "넣고 필요할 때 전송량 제한만 조절하면 됩니다."
+    ),
     "quest.499CF9F39CED8899.title": "&bIntegrated Dynamics",
     "quest.499CF9F39CED8899.quest_desc": (
         "&bIntegrated Dynamics&r(ID)는 저장과 아이템·에너지·유체 운송 등에 쓰는 물류 "
@@ -1202,6 +2061,7 @@ def normalize_korean(namespace: str, key: str, source: str, candidate: str) -> s
         ("인벤토리 리더", "인벤토리 판독기"),
         ("Inventory Reader", "인벤토리 판독기"),
         ("논리 프로그래머 레시피", "논리 프로그래머 제작법"),
+        ("로직 프로그래머", "논리 프로그래머"),
         ("가치", "값"),
         ("타겟", "대상"),
         ("목표의", "대상의"),
@@ -1220,6 +2080,24 @@ def normalize_korean(namespace: str, key: str, source: str, candidate: str) -> s
         ("경로 경로", "경로"),
         ("정규경로 표현식", "정규 표현식"),
         ("메서드은", "메서드는"),
+        ("메서드을", "메서드를"),
+        ("애스펙트을", "애스펙트를"),
+        ("함수은", "함수는"),
+        ("값를", "값을"),
+        ("되어있", "되어 있"),
+        ("사용가능", "사용 가능"),
+        ("첫번째", "첫 번째"),
+        ("두번째", "두 번째"),
+        ("세번째", "세 번째"),
+        ("Shift-클릭", "Shift+클릭"),
+        ("리스트", "목록"),
+        ("운영자", "연산자"),
+        ("산수 덧셈", "산술 덧셈"),
+        ("구체화장치", "구체화 장치"),
+        ("성정", "설정"),
+        ("Menril Logs", "멘릴 원목"),
+        ("Menril Resin", "멘릴 수지"),
+        ("Variable Store", "변수 저장소"),
         ("Ticks/Operation", "틱/작업"),
         ("Ticking", "작동"),
         ("&lAny&r", "&l모든 유형&r"),

@@ -1,27 +1,28 @@
 {
   "family": "Integrated Dynamics family",
+  "counts": {
+    "language_values": 2948,
+    "quest_display_values": 74,
+    "visible_values": 3022,
+    "existing_korean_reused": 2645,
+    "existing_korean_corrected": 377,
+    "newly_translated": 0,
+    "language_existing_korean_reused": 2577,
+    "language_existing_korean_corrected": 371,
+    "quest_existing_korean_reused": 68,
+    "quest_existing_korean_corrected": 6,
+    "remaining": 0
+  },
   "sections": {
     "language": {
       "keys_checked": 2948,
       "namespace_files": 7,
       "unexpected_exact_originals": 0,
-      "reviewed_translation_collision_groups": 32,
+      "reviewed_translation_collision_groups": 26,
       "collision_groups": [
         {
           "namespace": "integrateddynamics",
-          "translated": "추가",
-          "keys": [
-            "gui.integrateddynamics.button.add",
-            "operator.integrateddynamics.list.append"
-          ],
-          "sources": [
-            "Add",
-            "Append"
-          ]
-        },
-        {
-          "namespace": "integrateddynamics",
-          "translated": "최대 오프셋:%s",
+          "translated": "최대 오프셋: %s",
           "keys": [
             "gui.integrateddynamics.partoffset.offsets.max",
             "parttype.integrateddynamics.tooltip.maxoffset"
@@ -107,18 +108,6 @@
         },
         {
           "namespace": "integrateddynamics",
-          "translated": "id가 %s인 프록시는 자료형이 %s인 변수를 노출하기를 예상했지만 %s 이(가) 발견되었습니다.",
-          "keys": [
-            "proxy.integrateddynamics.error.proxy_invalid_type",
-            "delay.integrateddynamics.error.delay_invalid_type"
-          ],
-          "sources": [
-            "Delay with id %s is expected to expose a variable with type %s while %s is found.",
-            "Proxy with id %s is expected to expose a variable with type %s while %s is found."
-          ]
-        },
-        {
-          "namespace": "integrateddynamics",
           "translated": "애스펙트",
           "keys": [
             "aspect.integrateddynamics.name",
@@ -140,30 +129,6 @@
           "sources": [
             "Audio",
             "Sound"
-          ]
-        },
-        {
-          "namespace": "integrateddynamics",
-          "translated": "특정 속도로 떨어지는 용암 입자를 방출합니다.",
-          "keys": [
-            "aspect.integrateddynamics.write.double.effect.particle.minecraft_dripping_lava.info",
-            "aspect.integrateddynamics.write.double.effect.particle.minecraft_falling_lava.info"
-          ],
-          "sources": [
-            "Emit a dripping lava particle with a certain velocity.",
-            "Emit a falling lava particle with a certain velocity."
-          ]
-        },
-        {
-          "namespace": "integrateddynamics",
-          "translated": "특정 속도로 떨어지는 물 입자를 방출합니다.",
-          "keys": [
-            "aspect.integrateddynamics.write.double.effect.particle.minecraft_dripping_water.info",
-            "aspect.integrateddynamics.write.double.effect.particle.minecraft_falling_water.info"
-          ],
-          "sources": [
-            "Emit a dripping water particle with a certain velocity.",
-            "Emit a falling water particle with a certain velocity."
           ]
         },
         {
@@ -207,54 +172,6 @@
         },
         {
           "namespace": "integrateddynamics",
-          "translated": "몹 여부",
-          "keys": [
-            "aspect.integrateddynamics.read.boolean.world.mob",
-            "operator.integrateddynamics.entity.ismob"
-          ],
-          "sources": [
-            "Has Mob",
-            "Is Mob"
-          ]
-        },
-        {
-          "namespace": "integrateddynamics",
-          "translated": "동물 여부",
-          "keys": [
-            "aspect.integrateddynamics.read.boolean.world.animal",
-            "operator.integrateddynamics.entity.isanimal"
-          ],
-          "sources": [
-            "Has Animal",
-            "Is Animal"
-          ]
-        },
-        {
-          "namespace": "integrateddynamics",
-          "translated": "플레이어 여부",
-          "keys": [
-            "aspect.integrateddynamics.read.boolean.world.player",
-            "operator.integrateddynamics.entity.isplayer"
-          ],
-          "sources": [
-            "Has Player",
-            "Is Player"
-          ]
-        },
-        {
-          "namespace": "integrateddynamics",
-          "translated": "아이템 여부",
-          "keys": [
-            "aspect.integrateddynamics.read.boolean.world.item",
-            "operator.integrateddynamics.entity.isitem"
-          ],
-          "sources": [
-            "Has Item",
-            "Is Item"
-          ]
-        },
-        {
-          "namespace": "integrateddynamics",
           "translated": "논리",
           "keys": [
             "operator.integrateddynamics.logical",
@@ -263,31 +180,6 @@
           "sources": [
             "Logic",
             "Logical"
-          ]
-        },
-        {
-          "namespace": "integrateddynamics",
-          "translated": "감소",
-          "keys": [
-            "operator.integrateddynamics.arithmetic.decrement",
-            "operator.integrateddynamics.integer.decrement",
-            "operator.integrateddynamics.operator.reduce"
-          ],
-          "sources": [
-            "Decrement",
-            "Reduce"
-          ]
-        },
-        {
-          "namespace": "integrateddynamics",
-          "translated": "분할",
-          "keys": [
-            "operator.integrateddynamics.string.split_on",
-            "operator.integrateddynamics.list.slice"
-          ],
-          "sources": [
-            "Slice",
-            "Split On"
           ]
         },
         {
@@ -369,6 +261,42 @@
         },
         {
           "namespace": "integratedtunnels",
+          "translated": "아이템 인터페이스",
+          "keys": [
+            "advancement.integratedtunnels.interface_item",
+            "parttype.integratedtunnels.interface_item"
+          ],
+          "sources": [
+            "Item Interface",
+            "Item Interfacing"
+          ]
+        },
+        {
+          "namespace": "integratedtunnels",
+          "translated": "유체 인터페이스",
+          "keys": [
+            "advancement.integratedtunnels.interface_fluid",
+            "parttype.integratedtunnels.interface_fluid"
+          ],
+          "sources": [
+            "Fluid Interface",
+            "Fluid Interfacing"
+          ]
+        },
+        {
+          "namespace": "integratedtunnels",
+          "translated": "에너지 인터페이스",
+          "keys": [
+            "advancement.integratedtunnels.interface_energy",
+            "parttype.integratedtunnels.interface_energy"
+          ],
+          "sources": [
+            "Energy Interface",
+            "Energy Interfacing"
+          ]
+        },
+        {
+          "namespace": "integratedtunnels",
           "translated": "모든 아이템 입력",
           "keys": [
             "advancement.integratedtunnels.import_all_items",
@@ -401,6 +329,18 @@
           "sources": [
             "Drop All Items",
             "Omni Item Dropping"
+          ]
+        },
+        {
+          "namespace": "integratedtunnels",
+          "translated": "제한된 아이템 줍기",
+          "keys": [
+            "advancement.integratedtunnels.pickup_items_limit",
+            "info_book.integratedtunnels.tutorials.pickup_items_limit"
+          ],
+          "sources": [
+            "Limited Item Pickup",
+            "Pick up Items with Limit"
           ]
         }
       ]
@@ -448,6 +388,7 @@
       "status": "applied_and_verified",
       "targets": 1,
       "expected_files_per_target": 8,
+      "changed_files": 7,
       "hash_matches": 8
     }
   },

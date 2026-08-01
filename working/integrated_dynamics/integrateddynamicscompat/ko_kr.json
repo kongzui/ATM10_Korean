@@ -20,7 +20,7 @@
   "config.jade.plugin_integrateddynamicscompat.mechanical_drying_basin": "기계식 건조대",
   "config.jade.plugin_integrateddynamicscompat.proxy": "프록시",
   "config.jade.plugin_integrateddynamicscompat.part": "부품",
-  "error.jei.integrateddynamics.recipetransfer.recipe.toobig.desc": "로직 프로그래머 제작법 패턴에 비해 너무 큽니다.",
+  "error.jei.integrateddynamics.recipetransfer.recipe.toobig.desc": "논리 프로그래머 제작법 패턴에 비해 너무 큽니다.",
   "gui.integrateddynamics.jei.category.time.seconds": "%s",
   "aspect.integrateddynamics.read.itemstack.charsetpipe.content": "파이프 아이템",
   "aspect.integrateddynamics.read.itemstack.charsetpipe.content.info": "현재 이 파이프를 통과하는 아이템입니다.",

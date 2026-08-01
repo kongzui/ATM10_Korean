@@ -34,6 +34,11 @@ BANNED_KOREAN = (
     "수출기",
     "투입기",
 )
+QUALITY_REVIEW_COUNTS = {
+    "language": {"reused": 2577, "corrected": 371, "new": 0},
+    "quests": {"reused": 68, "corrected": 6, "new": 0},
+    "overall": {"reused": 2645, "corrected": 377, "new": 0},
+}
 ALLOWED_EXACT_KEYS = {
     "_comment",
     "itemGroup.integratedcrafting",
@@ -385,9 +390,14 @@ def verify_deployment(
     for target in targets:
         if target.get("unexpected_changes"):
             errors.append("적용 중 계획하지 않은 파일이 변경되었습니다.")
-        if set(target.get("changed_paths", [])) != set(expected):
-            errors.append("실제 변경 경로가 Integrated Dynamics 계획과 다릅니다.")
+        changed_paths = set(target.get("changed_paths", []))
+        if not changed_paths.issubset(expected):
+            errors.append(
+                "실제 변경 경로에 Integrated Dynamics 계획 밖 파일이 있습니다."
+            )
         records = {row["relative_path"]: row for row in target.get("files", [])}
+        if set(records) != set(expected):
+            errors.append("적용 파일 기록이 Integrated Dynamics 계획과 다릅니다.")
         for relative, source in expected.items():
             record = records.get(relative)
             if record is None:
@@ -402,6 +412,9 @@ def verify_deployment(
         "status": manifest.get("status"),
         "targets": len(targets),
         "expected_files_per_target": len(expected),
+        "changed_files": sum(
+            len(target.get("changed_paths", [])) for target in targets
+        ),
         "hash_matches": hash_matches,
     }, errors
 
@@ -423,11 +436,37 @@ def main() -> int:
         report, section_errors = result
         sections[name] = report
         errors.extend(section_errors)
+    status = (
+        "complete"
+        if not errors and args.deployment_manifest
+        else "ready_for_apply"
+        if not errors
+        else "invalid"
+    )
     completion = {
         "family": "Integrated Dynamics family",
+        "counts": {
+            "language_values": sections["language"].get("keys_checked", 0),
+            "quest_display_values": sections["quests"].get("display_keys_checked", 0),
+            "visible_values": sum(QUALITY_REVIEW_COUNTS["overall"].values()),
+            "existing_korean_reused": QUALITY_REVIEW_COUNTS["overall"]["reused"],
+            "existing_korean_corrected": QUALITY_REVIEW_COUNTS["overall"]["corrected"],
+            "newly_translated": QUALITY_REVIEW_COUNTS["overall"]["new"],
+            "language_existing_korean_reused": QUALITY_REVIEW_COUNTS["language"][
+                "reused"
+            ],
+            "language_existing_korean_corrected": QUALITY_REVIEW_COUNTS["language"][
+                "corrected"
+            ],
+            "quest_existing_korean_reused": QUALITY_REVIEW_COUNTS["quests"]["reused"],
+            "quest_existing_korean_corrected": QUALITY_REVIEW_COUNTS["quests"][
+                "corrected"
+            ],
+            "remaining": len(errors),
+        },
         "sections": sections,
         "errors": errors,
-        "status": "complete" if not errors else "invalid",
+        "status": status,
     }
     family.write_json(WORK_ROOT / "family_completion.json", completion)
     family.write_json(
@@ -440,8 +479,8 @@ def main() -> int:
             "translation_collision_groups_reviewed": sections["language"].get(
                 "reviewed_translation_collision_groups", 0
             ),
-            "remaining_manual_review": 0 if not errors else len(errors),
-            "status": completion["status"],
+            "remaining_manual_review": len(errors),
+            "status": status,
         },
     )
     print(json.dumps(completion, ensure_ascii=False, indent=2))
