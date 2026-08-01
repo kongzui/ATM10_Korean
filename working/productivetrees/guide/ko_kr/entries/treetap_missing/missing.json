@@ -1,5 +1,5 @@
 {
-  "name": "트리 탭이 가장 좋습니다 탭",
+  "name": "최고의 탭, Tree Tap",
   "icon": "minecraft:barrier",
   "category": "productivetrees:treetap_missing",
   "flag": "!mod:treetap",
@@ -7,7 +7,7 @@
     {
       "type": "patchouli:link",
       "url": "https://www.curseforge.com/minecraft/mc-mods/treetap",
-      "link_text": "Click to rectify",
+      "link_text": "클릭하여 해결하기",
       "text": "Tree Tap이 설치되어 있지 않습니다. :sadge:"
     }
   ]

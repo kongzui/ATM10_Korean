@@ -5,24 +5,31 @@
   ],
   "counts": {
     "language_english_keys": 4149,
-    "language_existing_korean_reused": 0,
-    "language_existing_korean_corrected": 0,
-    "language_newly_translated": 4149,
+    "language_existing_korean_reused": 4069,
+    "language_existing_korean_corrected": 80,
+    "language_newly_translated": 0,
     "tree_bases": 163,
     "guide_files": 13,
-    "guide_display_fields": 35,
+    "guide_display_fields": 36,
+    "guide_existing_korean_reused": 23,
+    "guide_existing_korean_corrected": 13,
+    "guide_newly_translated": 0,
     "quest_display_keys": 185,
-    "quest_existing_korean_reused": 60,
-    "quest_existing_korean_corrected": 124,
-    "quest_newly_translated": 1,
+    "quest_existing_korean_reused": 180,
+    "quest_existing_korean_corrected": 10,
+    "quest_newly_translated": 0,
     "related_quest_keys": 5,
+    "visible_values": 4375,
+    "existing_korean_reused": 4272,
+    "existing_korean_corrected": 103,
+    "newly_translated": 0,
     "remaining": 0
   },
   "related_content": {
     "guide": {
       "files": 13,
-      "display_fields": 35,
-      "translated": 31
+      "display_fields": 36,
+      "translated": 32
     },
     "advancements": {
       "files_checked": 2843,
@@ -76,6 +83,7 @@
     "tree_bases": 163,
     "unique_korean_bases": 163,
     "generated_block_keys_checked": 3350,
+    "advanced_beehive_keys_checked": 162,
     "exception_block_keys_classified": 417,
     "intentional_original_bases": 21,
     "intentional_original_generated_keys": 412
@@ -83,25 +91,22 @@
   "deployment": {
     "status": "applied_and_verified",
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp\\backups\\20260714_232634_071120\\backup_manifest.json",
+    "scope": "changed",
+    "backup_manifest": "temp\\backups\\20260801_132416_598481\\backup_manifest.json",
     "changed_paths": [
       "config/ftbquests/quests/lang/ko_kr.snbt",
       "resourcepacks/ATM10_Korean/assets/productivetrees/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/categories/guide.json",
       "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/categories/stuff.json",
-      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/categories/treetap.json",
-      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/categories/treetap_missing.json",
       "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/guide/start.json",
       "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/stuff/pollen.json",
       "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/stuff/pollen_sieve.json",
-      "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/stuff/pollen_sifter.json",
       "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/stuff/sawmill.json",
       "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/stuff/stripper.json",
       "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/treetap/date_palm_juice.json",
       "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/treetap/maple_syrup.json",
       "resourcepacks/ATM10_Korean/assets/productivetrees/patchouli_books/guide/ko_kr/entries/treetap_missing/missing.json"
     ],
-    "hash_matches": 15,
+    "hash_matches": 11,
     "unexpected_changes": []
   },
   "review_items": [],

@@ -12,7 +12,7 @@
     {
       "type": "patchouli:smelting",
       "recipe": "productivetrees:maple_syrup",
-      "text": "단풍나무 수액은 메이플 시럽, 맛있고 맛있는 메이플 시럽을 만듭니다."
+      "text": "단풍나무 수액으로 맛있고 또 맛있는 메이플 시럽을 만들 수 있습니다."
     }
   ]
 }

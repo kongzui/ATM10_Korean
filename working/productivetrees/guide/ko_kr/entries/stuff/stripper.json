@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "productivetrees:stripper",
-      "text": "나무 껍질을 벗긴 채로 벗겨냅니다. 작동하려면 도끼가 필요합니다."
+      "text": "원목의 껍질을 벗깁니다. 작동하려면 도끼가 필요합니다."
     },
     {
       "type": "patchouli:crafting",

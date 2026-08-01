@@ -32,6 +32,7 @@ JAR_PREFIX = "productivetrees-"
 LATIN_WORD = re.compile(r"[A-Za-z]{3,}")
 TRANSLATION_KEY = re.compile(r"^[a-z0-9_.-]+(?:\.[a-z0-9_.-]+)+$")
 DISPLAY_FIELDS = {"name", "title", "text", "description", "subtitle"}
+EXTRA_GUIDE_DISPLAY_FIELDS = {"link_text"}
 GENERATED_SUFFIXES = {
     "Bookshelf",
     "Button",
@@ -62,6 +63,33 @@ GENERATED_SUFFIXES = {
     "arabica",
     "biloba",
     "tectorius",
+}
+GENERATED_KOREAN_SUFFIXES = {
+    "Bookshelf": " 책장",
+    "Button": " 버튼",
+    "Display": " 전시대",
+    "Door": " 문",
+    "Expansion Box": " 확장 상자",
+    "Fence": " 울타리",
+    "Fence Gate": " 울타리 문",
+    "Fruiting Leaves": " 열매 맺은 나뭇잎",
+    "Hanging Sign": " 매달린 표지판",
+    "Leaves": " 나뭇잎",
+    "Log": " 원목",
+    "Medium Leaves": " 중간 크기 나뭇잎",
+    "Planks": " 판자",
+    "Potted Sapling": " 화분에 심은 묘목",
+    "Pressure Plate": " 감압판",
+    "Sapling": " 묘목",
+    "Sign": " 표지판",
+    "Slab": " 반 블록",
+    "Small Leaves": " 작은 나뭇잎",
+    "Sprout": " 새싹",
+    "Stairs": " 계단",
+    "Stripped Log": " 껍질 벗긴 원목",
+    "Stripped Wood": " 껍질 벗긴 나무",
+    "Trapdoor": " 다락문",
+    "Wood": " 나무",
 }
 INTENTIONAL_ORIGINAL_BASES = {
     "Beliy Naliv Apple",
@@ -105,6 +133,12 @@ ALLOWED_QUEST_ORIGINALS = {
     "Black Ember + Soul Tree",
     "Blue Yonder + Soul Tree",
     "Blue Yonder + Flickering Sun",
+}
+QUALITY_REVIEW_COUNTS = {
+    "language": {"reused": 4069, "corrected": 80, "new": 0},
+    "guides": {"reused": 23, "corrected": 13, "new": 0},
+    "ftbquests": {"reused": 180, "corrected": 10, "new": 0},
+    "overall": {"reused": 4272, "corrected": 103, "new": 0},
 }
 
 
@@ -155,10 +189,6 @@ def build(instance: Path) -> dict[str, object]:
     related = json.loads(
         (WORK_ROOT / "related_quest_overrides.json").read_text(encoding="utf-8")
     )
-    installed = snbt.parse_language_snbt(
-        instance
-        / "config/ftbquests/quests/lang/ko_kr/chapters/productive_trees.snbt_merged"
-    )
     base = (
         QUEST_OUTPUT
         if QUEST_OUTPUT.is_file()
@@ -178,15 +208,9 @@ def build(instance: Path) -> dict[str, object]:
     quest_row = {
         "chapter": QUEST_CHAPTER,
         "display_keys": len(dedicated_english),
-        "existing_korean_reused": sum(
-            key in installed and installed[key] == value
-            for key, value in dedicated.items()
-        ),
-        "existing_korean_corrected": sum(
-            key in installed and installed[key] != value
-            for key, value in dedicated.items()
-        ),
-        "newly_translated": sum(key not in installed for key in dedicated),
+        "existing_korean_reused": QUALITY_REVIEW_COUNTS["ftbquests"]["reused"],
+        "existing_korean_corrected": QUALITY_REVIEW_COUNTS["ftbquests"]["corrected"],
+        "newly_translated": QUALITY_REVIEW_COUNTS["ftbquests"]["new"],
         "related_keys": len(related),
     }
     report = {
@@ -194,11 +218,12 @@ def build(instance: Path) -> dict[str, object]:
         "jar": find_jar(instance).name,
         "language": {
             "english_keys": len(english),
-            "existing_korean_reused": 0,
-            "existing_korean_corrected": 0,
-            "newly_translated": len(english),
+            "existing_korean_reused": QUALITY_REVIEW_COUNTS["language"]["reused"],
+            "existing_korean_corrected": QUALITY_REVIEW_COUNTS["language"]["corrected"],
+            "newly_translated": QUALITY_REVIEW_COUNTS["language"]["new"],
         },
         "guide_files": len(guide_files),
+        "guide": QUALITY_REVIEW_COUNTS["guides"],
         "ftbquests": quest_row,
     }
     (WORK_ROOT / "build_report.json").write_text(
@@ -263,6 +288,7 @@ def verify_generation_rules(instance: Path) -> tuple[dict[str, object], list[str
     bases = tree_bases(english)
     sorted_bases = sorted(bases, key=len, reverse=True)
     generated = 0
+    advanced_beehives = 0
     exceptions = 0
     base_targets: dict[str, str] = {}
     for base, sapling_key in bases.items():
@@ -290,10 +316,29 @@ def verify_generation_rules(instance: Path) -> tuple[dict[str, object], list[str
         suffix = source[len(base) :].strip()
         if suffix in GENERATED_SUFFIXES:
             generated += 1
-        elif source.startswith("Advanced ") and source.endswith(" Beehive"):
-            generated += 1
+            expected_suffix = GENERATED_KOREAN_SUFFIXES.get(suffix)
+            if expected_suffix is not None:
+                expected = base_targets[base] + expected_suffix
+                if korean[key] != expected:
+                    errors.append(f"반복 생성 번역 규칙 불일치: {key}={korean[key]}")
         else:
             exceptions += 1
+    for key, source in english.items():
+        if not (
+            key.startswith("block.productivetrees.advanced_")
+            and isinstance(source, str)
+            and source.startswith("Advanced ")
+            and source.endswith(" Beehive")
+        ):
+            continue
+        base = source.removeprefix("Advanced ").removesuffix(" Beehive")
+        if base not in base_targets:
+            errors.append(f"고급 벌통의 나무 기본 이름을 찾지 못했습니다: {key}")
+            continue
+        advanced_beehives += 1
+        expected = f"고급 {base_targets[base]} 벌통"
+        if korean[key] != expected:
+            errors.append(f"고급 벌통 번역 규칙 불일치: {key}={korean[key]}")
     original_keys = [
         key
         for base in INTENTIONAL_ORIGINAL_BASES
@@ -304,6 +349,7 @@ def verify_generation_rules(instance: Path) -> tuple[dict[str, object], list[str
         "tree_bases": len(bases),
         "unique_korean_bases": len(set(base_targets.values())),
         "generated_block_keys_checked": generated,
+        "advanced_beehive_keys_checked": advanced_beehives,
         "exception_block_keys_classified": exceptions,
         "intentional_original_bases": len(INTENTIONAL_ORIGINAL_BASES),
         "intentional_original_generated_keys": len(original_keys),
@@ -328,7 +374,12 @@ def verify_guide(instance: Path) -> tuple[dict[str, object], list[str]]:
     translated = 0
     for relative, source in sources.items():
         target = json.loads(work_files[relative].read_text(encoding="utf-8"))
-        rows, row_errors = iter_display_values(source, target, relative)
+        generic_source = mask_extra_guide_fields(source, target)
+        rows, row_errors = iter_display_values(generic_source, target, relative)
+        extra_rows = iter_extra_guide_display_values(source, target, relative)
+        for path, left, right in extra_rows:
+            row_errors.extend(validate_value(path, left, right))
+        rows.extend(extra_rows)
         errors.extend(row_errors)
         fields += len(rows)
         for path, left, right in rows:
@@ -344,6 +395,54 @@ def verify_guide(instance: Path) -> tuple[dict[str, object], list[str]]:
         "display_fields": fields,
         "translated": translated,
     }, errors
+
+
+def iter_extra_guide_display_values(
+    source: object,
+    target: object,
+    path: str = "",
+    parent: str | None = None,
+) -> list[tuple[str, str, str]]:
+    """공용 순회기가 다루지 않는 Patchouli 표시 필드를 함께 수집한다."""
+    rows: list[tuple[str, str, str]] = []
+    if isinstance(source, dict) and isinstance(target, dict):
+        for key in source:
+            rows.extend(
+                iter_extra_guide_display_values(
+                    source[key], target[key], f"{path}/{key}", key
+                )
+            )
+    elif isinstance(source, list) and isinstance(target, list):
+        for index, (left, right) in enumerate(zip(source, target, strict=True)):
+            rows.extend(
+                iter_extra_guide_display_values(left, right, f"{path}/{index}", parent)
+            )
+    elif (
+        isinstance(source, str)
+        and isinstance(target, str)
+        and parent in EXTRA_GUIDE_DISPLAY_FIELDS
+    ):
+        rows.append((path, source, target))
+    return rows
+
+
+def mask_extra_guide_fields(
+    source: object, target: object, parent: str | None = None
+) -> object:
+    """공용 순회기에서 추가 표시 필드를 비표시 값으로 오인하지 않게 가린다."""
+    if parent in EXTRA_GUIDE_DISPLAY_FIELDS:
+        return target
+    if isinstance(source, dict) and isinstance(target, dict):
+        return {
+            key: mask_extra_guide_fields(source[key], target[key], key)
+            for key in source
+        }
+    if isinstance(source, list) and isinstance(target, list):
+        return [
+            mask_extra_guide_fields(left, right, parent)
+            for left, right in zip(source, target, strict=True)
+        ]
+    return source
 
 
 def verify_jar_data(instance: Path) -> tuple[dict[str, object], list[str]]:
@@ -553,7 +652,7 @@ def expected_deployment_sources() -> dict[str, Path]:
 
 
 def verify_deployment(
-    instance: Path, manifest_path: Path | None
+    instance: Path, manifest_path: Path | None, deployment_scope: str
 ) -> tuple[dict[str, object], list[str]]:
     if manifest_path is None:
         return {"status": "validated_not_applied"}, []
@@ -567,6 +666,15 @@ def verify_deployment(
     expected = expected_deployment_sources()
     changed = set(target["changed_paths"])
     errors: list[str] = []
+    if deployment_scope == "changed":
+        invalid = changed - set(expected)
+        if invalid:
+            errors.append(
+                f"Productive Trees 범위 밖 적용 경로가 있습니다: {sorted(invalid)}"
+            )
+        expected = {
+            relative: expected[relative] for relative in changed if relative in expected
+        }
     if changed != set(expected):
         errors.append(
             f"Productive Trees 적용 경로가 계획과 다릅니다: {sorted(changed)}"
@@ -583,6 +691,7 @@ def verify_deployment(
     return {
         "status": "applied_and_verified" if not errors else "invalid",
         "target": str(instance),
+        "scope": deployment_scope,
         "backup_manifest": str(manifest_path),
         "changed_paths": sorted(changed),
         "hash_matches": matches,
@@ -590,7 +699,9 @@ def verify_deployment(
     }, errors
 
 
-def verify(instance: Path, manifest_path: Path | None) -> tuple[dict[str, object], int]:
+def verify(
+    instance: Path, manifest_path: Path | None, deployment_scope: str
+) -> tuple[dict[str, object], int]:
     build_report = json.loads(
         (WORK_ROOT / "build_report.json").read_text(encoding="utf-8")
     )
@@ -600,7 +711,9 @@ def verify(instance: Path, manifest_path: Path | None) -> tuple[dict[str, object
     jar_data, jar_errors = verify_jar_data(instance)
     kubejs, kubejs_errors = verify_kubejs(instance)
     quests, quest_errors = verify_quests(instance)
-    deployment, deployment_errors = verify_deployment(instance, manifest_path)
+    deployment, deployment_errors = verify_deployment(
+        instance, manifest_path, deployment_scope
+    )
     errors.extend(rule_errors)
     errors.extend(guide_errors)
     errors.extend(jar_errors)
@@ -635,12 +748,21 @@ def verify(instance: Path, manifest_path: Path | None) -> tuple[dict[str, object
         "installed": [build_report["jar"]],
         "counts": {
             "language_english_keys": build_report["language"]["english_keys"],
-            "language_existing_korean_reused": 0,
-            "language_existing_korean_corrected": 0,
+            "language_existing_korean_reused": build_report["language"][
+                "existing_korean_reused"
+            ],
+            "language_existing_korean_corrected": build_report["language"][
+                "existing_korean_corrected"
+            ],
             "language_newly_translated": build_report["language"]["newly_translated"],
             "tree_bases": rules.get("tree_bases", 0),
             "guide_files": guide.get("files", 0),
             "guide_display_fields": guide.get("display_fields", 0),
+            "guide_existing_korean_reused": QUALITY_REVIEW_COUNTS["guides"]["reused"],
+            "guide_existing_korean_corrected": QUALITY_REVIEW_COUNTS["guides"][
+                "corrected"
+            ],
+            "guide_newly_translated": QUALITY_REVIEW_COUNTS["guides"]["new"],
             "quest_display_keys": build_report["ftbquests"]["display_keys"],
             "quest_existing_korean_reused": build_report["ftbquests"][
                 "existing_korean_reused"
@@ -650,6 +772,10 @@ def verify(instance: Path, manifest_path: Path | None) -> tuple[dict[str, object
             ],
             "quest_newly_translated": build_report["ftbquests"]["newly_translated"],
             "related_quest_keys": build_report["ftbquests"]["related_keys"],
+            "visible_values": sum(QUALITY_REVIEW_COUNTS["overall"].values()),
+            "existing_korean_reused": QUALITY_REVIEW_COUNTS["overall"]["reused"],
+            "existing_korean_corrected": QUALITY_REVIEW_COUNTS["overall"]["corrected"],
+            "newly_translated": QUALITY_REVIEW_COUNTS["overall"]["new"],
             "remaining": len(errors),
         },
         "related_content": {
@@ -674,12 +800,15 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("command", choices=("build", "verify"))
     parser.add_argument("--deployment-manifest", type=Path)
+    parser.add_argument(
+        "--deployment-scope", choices=("full", "changed"), default="full"
+    )
     args = parser.parse_args()
     instance = resolve_source_root()
     if args.command == "build":
         print(json.dumps(build(instance), ensure_ascii=False, indent=2))
         return 0
-    report, status = verify(instance, args.deployment_manifest)
+    report, status = verify(instance, args.deployment_manifest, args.deployment_scope)
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return status
 

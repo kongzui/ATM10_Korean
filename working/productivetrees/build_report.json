@@ -3,17 +3,22 @@
   "jar": "productivetrees-1.21.1-1.0.0.jar",
   "language": {
     "english_keys": 4149,
-    "existing_korean_reused": 0,
-    "existing_korean_corrected": 0,
-    "newly_translated": 4149
+    "existing_korean_reused": 4069,
+    "existing_korean_corrected": 80,
+    "newly_translated": 0
   },
   "guide_files": 13,
+  "guide": {
+    "reused": 23,
+    "corrected": 13,
+    "new": 0
+  },
   "ftbquests": {
     "chapter": "productive_trees",
     "display_keys": 185,
-    "existing_korean_reused": 60,
-    "existing_korean_corrected": 124,
-    "newly_translated": 1,
+    "existing_korean_reused": 180,
+    "existing_korean_corrected": 10,
+    "newly_translated": 0,
     "related_keys": 5
   }
 }

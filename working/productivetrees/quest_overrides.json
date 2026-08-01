@@ -14,7 +14,7 @@
   "quest.056E1E3B1ED14917.quest_subtitle": "티크 + 짙은 참나무",
   "quest.05F428C34DD00B61.quest_subtitle": "Blue Yonder + Rippling Willow",
   "quest.0661E9669E639621.quest_desc": [
-    "일부 묘목은 수분될 수 없습니다. 이 묘목은 무작위로 다른 나무로 자랄 수 있습니다.\\n\\n예를 들어 &4붉은 배롱나무 묘목&r을 얻으려면 먼저 보라색 배롱나무 묘목을 키우세요. 거기에서 &4붉은 배롱나무 나무&r를 얻을 기회가 있을 것입니다.\\n\\n돌연변이 가능성은 낮으므로 계속해서 나무를 키워보세요."
+    "일부 묘목은 수분시킬 수 없습니다. 이런 묘목은 일정 확률로 다른 나무로 자랍니다.\\n\\n예를 들어 &4붉은 배롱나무 묘목&r을 얻으려면 먼저 보라색 배롱나무 묘목을 키우세요. 이 묘목이 &4붉은 배롱나무&r로 자랄 수 있습니다.\\n\\n돌연변이 확률은 낮으므로 나무를 여러 번 길러 보세요."
   ],
   "quest.0661E9669E639621.quest_subtitle": "자가 번식?",
   "quest.06EA86F9F6C9DECF.quest_subtitle": "자두 + 복숭아",
@@ -39,9 +39,9 @@
   "quest.1815661333016983.quest_subtitle": "대추야자 + 검은 체리",
   "quest.18601369F049D10D.quest_subtitle": "실론흑단 + 보라색 배롱나무",
   "quest.18A2F6BA778D96B1.quest_desc": [
-    "이 묘목은 보루 안의 상자에서 찾을 수 있어요."
+    "이 묘목은 보루 잔해 안의 상자에서 찾을 수 있어요."
   ],
-  "quest.18A2F6BA778D96B1.quest_subtitle": "요새 상자",
+  "quest.18A2F6BA778D96B1.quest_subtitle": "보루 잔해 상자",
   "quest.18D4BE3AF7869DE2.quest_subtitle": "실론흑단 + 감나무",
   "quest.19C22C5B247F4D7D.quest_subtitle": "실론흑단 + 카폭",
   "quest.1A09AF508EFAE0EC.quest_subtitle": "시트론 + 키라임",
@@ -63,7 +63,7 @@
   "quest.23A5F5C9BC7B5CC7.quest_subtitle": "자두 + 호두나무",
   "quest.257D8912FC58DB59.quest_subtitle": "브라질우드 + 마호가니",
   "quest.25D8BE0280B6E7F1.quest_desc": [
-    "이 퀘스트는 AllTheMods 모드팩에 사용하기 위해 &6AllTheMods 직원&r 또는 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이센스가 부여되므로 이 퀘스트는 명시적인 허가 없이 &6AllTheMods Team&r이 출시하지 않은 공개 팩에 사용할 수 없습니다. \\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 퀘스트가 보인다면 편집 모드에 있는 것입니다."
+    "이 퀘스트는 AllTheMods 모드팩에서 사용하도록 &6AllTheMods 운영진&r 또는 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r 라이선스로 배포되므로, 명시적인 허가 없이 &6AllTheMods 팀&r이 출시하지 않은 공개 팩에서 이 퀘스트를 사용할 수 없습니다. \\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 지금 보인다면 편집 모드에 있는 것입니다."
   ],
   "quest.25F4D4A723B298A4.quest_subtitle": "Red Delicious Apple + 자작나무",
   "quest.263FBD9ED2756190.quest_subtitle": "호두나무 + 코코넛",
@@ -131,15 +131,15 @@
   "quest.5160D62F07A642A7.quest_subtitle": "마가목 + 너도밤나무",
   "quest.526A9655A62C93F4.quest_subtitle": "유럽잎갈나무 + 폰데로사소나무",
   "quest.526CED9509FAA79B.quest_subtitle": "Blue Yonder + Firecracker",
-  "quest.52B2ADE472707372.quest_subtitle": "골든 딜리셔스 사과 + 그래니 스미스 사과",
+  "quest.52B2ADE472707372.quest_subtitle": "Golden Delicious Apple + 그래니 스미스 사과",
   "quest.53292D808E8F5218.quest_subtitle": "야생자두나무 + 행운",
   "quest.53BA0C64804ADD24.quest_subtitle": "포멜로 + 야생 체리",
   "quest.53BDD0459F7B1D60.quest_subtitle": "커피나무 + 티크",
   "quest.543F00603790AD3E.quest_desc": [
-    "(로그) 원목 박피기는 기계에 장착된 도끼를 사용하여 자동으로 로그를 제거합니다."
+    "원목 박피기는 기계에 넣은 도끼를 사용해 원목의 껍질을 자동으로 벗깁니다."
   ],
   "quest.543F00603790AD3E.quest_subtitle": "제발 하지 마세요",
-  "quest.543F00603790AD3E.title": "스트리핑",
+  "quest.543F00603790AD3E.title": "원목 박피",
   "quest.54E7967B45B20F36.quest_subtitle": "호랑가시나무 + 보라색 배롱나무",
   "quest.5577F49A93ADB19C.quest_desc": [
     "&lProductive Trees&r는 &lProductive Bees&r의 자매 모드예요.\\n\\n여러 나무를 얻으려면 수분된 나뭇잎이 필요하고, 수분에는 꽃가루와 벌이 필요해요.\\n\\n나무 근처에서 벌이 꽃을 찾아다니면 자동으로 나뭇잎을 수분해요. 벌통에 꽃가루 체 업그레이드를 설치해 꽃가루를 직접 얻고 사용할 수도 있어요! 하나는 선물로 드릴게요!"
@@ -186,11 +186,11 @@
   "quest.768C07D1B5EB1FEB.quest_desc": [
     "이 묘목은 차가운 바다 폐허의 수상한 모래와 수상한 자갈에서 찾을 수 있어요."
   ],
-  "quest.768C07D1B5EB1FEB.quest_subtitle": "콜드 오션 루인 Sus 블록",
+  "quest.768C07D1B5EB1FEB.quest_subtitle": "차가운 바다 폐허의 수상한 블록",
   "quest.76A0592F4C294545.quest_desc": [
-    "제재소는 통나무를 톱밥으로 자르고 제작에서 얻는 것보다 더 많은 판자를 만듭니다. 톱밥은 종이를 만드는 데 사용할 수 있습니다.\\n\\n - Fustic 통나무는 Fustic을 제공합니다.\\n - 브라질우드 통나무와 로그우드 통나무는 헤마톡실린도 제공합니다."
+    "제재소는 원목을 톱밥과, 일반 제작보다 더 많은 판자로 가공합니다. 톱밥은 종이를 만드는 데 사용할 수 있습니다.\\n\\n - 올드 퓨스틱 원목에서는 퓨스틱도 나옵니다.\\n - 브라질우드 원목과 로그우드 원목에서는 헤마톡실린도 나옵니다."
   ],
-  "quest.76A0592F4C294545.quest_subtitle": "나도 우드",
+  "quest.76A0592F4C294545.quest_subtitle": "나무랄 데 없네요",
   "quest.76A0592F4C294545.title": "제재",
   "quest.77D3546953550E39.quest_subtitle": "폰데로사소나무 + 가문비나무",
   "quest.799CC9FEEDE471B1.quest_subtitle": "망고 + 팔각",
