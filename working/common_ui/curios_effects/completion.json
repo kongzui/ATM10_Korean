@@ -8,9 +8,9 @@
       "keys": 48
     },
     {
-      "name": "Enchantment Descriptions",
-      "installed": false,
-      "note": "설치 JAR과 모드 메타데이터에서 찾을 수 없음"
+      "jar": "enchdesc-neoforge-1.21.1-21.1.10.jar",
+      "namespace": "enchdesc",
+      "keys": 182
     },
     {
       "jar": "moreoverlays-1.24.2-mc1.21.1-neoforge.jar",
@@ -19,15 +19,15 @@
     }
   ],
   "counts": {
-    "existing_korean_reused": 57,
-    "existing_korean_corrected": 31,
-    "newly_translated": 0,
-    "output_keys": 88
+    "existing_korean_reused": 91,
+    "existing_korean_corrected": 41,
+    "newly_translated": 138,
+    "output_keys": 270
   },
   "related_scope": {
-    "ftb_quests": "Curios charm 태그를 쓰는 스마트 필터 1건만 확인; 표시 문구 없음",
-    "kubejs": "Curios 슬롯 태그 추가 3건만 확인; 사용자 표시 문구 없음",
-    "advancements_and_guides": "설치된 두 모드가 직접 소유한 추가 번역 대상 없음"
+    "ftb_quests": "Curios charm 태그 Smart Filter 1건과 Curios를 언급하는 명시적 퀘스트 설명 6개를 대조; 설명은 제외 완료 모드 2개, 미작업 모드 2개와 별도 소형 모드 2개 소유라 이번 범위에서는 변경하지 않음; 이 작업군이 소유한 제목·task·fallback 문구 없음",
+    "kubejs": "Curios 슬롯 태그 추가 3건과 다른 모드의 비한국어 자산 참조만 확인; 이 작업군이 소유한 사용자 표시 문구 없음",
+    "advancements_and_guides": "세 JAR 모두 표시 advancement와 GuideME·Modonomicon·Patchouli 자산 없음"
   },
   "validation": {
     "json": "passed",
@@ -35,6 +35,22 @@
     "placeholders": "passed",
     "format_codes": "passed",
     "line_breaks": "passed",
-    "utf8_bom": false
+    "utf8_bom": false,
+    "visible_english_remaining": 0,
+    "ruff": "passed"
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "configured_targets": [
+      "game_root"
+    ],
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/curios/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/enchdesc/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/moreoverlays/lang/ko_kr.json"
+    ],
+    "unexpected_changes": [],
+    "backup_manifest": "temp/backups/20260801_154541_940490/backup_manifest.json"
   }
 }

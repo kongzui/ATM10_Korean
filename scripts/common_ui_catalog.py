@@ -47,6 +47,7 @@ TARGETS = (
     Target("compass", "NaturesCompass-", ("naturescompass",)),
     Target("compass", "ExplorersCompass-", ("explorerscompass",)),
     Target("curios_effects", "curios-neoforge-", ("curios",)),
+    Target("curios_effects", "enchdesc-neoforge-", ("enchdesc",)),
     Target("curios_effects", "moreoverlays-", ("moreoverlays",)),
     Target("guide_ui", "guideme-", ("guideme",)),
     Target(
@@ -101,7 +102,6 @@ PACK_LANGUAGE_TARGETS = (
 
 NO_LANGUAGE_TARGETS = {
     "jei": ("FTB JEI Extras", "AE2 JEI Integration"),
-    "curios_effects": ("Enchantment Descriptions (설치되지 않음)",),
     "convenience": ("Ars Polymorphia",),
     "inventory_controls": ("Mouse Tweaks",),
 }
