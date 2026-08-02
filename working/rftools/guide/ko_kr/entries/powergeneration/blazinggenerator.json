@@ -1,0 +1,27 @@
+{
+  "name": "블레이징 발전기",
+  "icon": "rftoolspower:blazing_generator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:blazing_generator": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "블레이징 발전기는 가열된 블레이즈 막대를 태워 FE를 생산합니다. 일반 블레이즈 막대는 먼저 $(l:rftoolsbase:powergeneration/blazingagitator)블레이징 교반기$(/l)에서 가공해야 합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:blazing_generator"
+    },
+    {
+      "type": "text",
+      "text": "블레이징 로드에는 전력 출력과 지속 시간이라는 두 가지 중요한 값이 있습니다. 고품질 로드는 더 많은 FE/t를 생성합니다, 지속 시간이 긴 막대는 발전기를 더 오래 작동시킵니다."
+    },
+    {
+      "type": "text",
+      "text": "발전기는 최대 4개의 막대를 사용할 수 있으며 지속적으로 작동할 때 가장 잘 작동합니다. 삽입된 로드의 최대 잠재력에 도달하기 전에 워밍업하는 시간이 필요합니다."
+    }
+  ]
+}

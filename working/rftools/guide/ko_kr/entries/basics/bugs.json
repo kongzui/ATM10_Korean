@@ -1,0 +1,16 @@
+{
+  "name": "버그를 발견하셨나요?",
+  "icon": "minecraft:tnt",
+  "category": "rftoolsbase:category_basics",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "McJty 모드에서 버그를 발견했다면 다음 링크로 신고해 주세요. 모드팩에서만 생기는 문제라면 먼저 모드팩 제작자에게 알려 문제의 원인을 확인하세요."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l:https://github.com/McJtyMods/DeepResonance/issues)깊은 공명$() $(li)$(l:https://github.com/McJtyMods/RFToolsBase/issues)RFTools 베이스$() $(li)$(l:https://github.com/McJtyMods/RFToolsBuilder/issues)RFTools 빌더$() $(li)$(l:https://github.com/McJtyMods/RFToolsControl/issues)RFTools 제어$() $(li)$(l:https://github.com/McJtyMods/RFToolsDimensions/issues)RFTools 치수$() $(li)$(l:https://github.com/McJtyMods/RFToolsPower/issues)RFTools 파워$() $(li)$(l:https://github.com/McJtyMods/RFToolsStorage/issues)RFTools 저장소$() $(li)$(l:https://github.com/McJtyMods/RFToolsUtility/issues)RFTools 유틸리티$() $(li)$(l:https://github.com/McJtyMods/XNet/issues)XNet$()"
+    }
+  ]
+}

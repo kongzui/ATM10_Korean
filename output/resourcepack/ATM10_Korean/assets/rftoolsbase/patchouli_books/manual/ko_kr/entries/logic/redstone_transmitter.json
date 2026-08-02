@@ -1,0 +1,18 @@
+{
+  "name": "레드스톤 송신기",
+  "icon": "rftoolsutility:redstone_transmitter",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:redstone_transmitter": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 블록은 레드스톤 신호를 받으면 특정 채널에 레드스톤 신호를 무선으로 보냅니다. 레드스톤 수신기 블록과 함께 사용하세요. 이 블록을 내려놓으면 채널이 생성됩니다. 다른 송신기나 수신기를 우클릭하여 이 송신기를 기존 채널에 연결할 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:rftoolsbase:logic/redstone_receiver)레드스톤 수신기$(/l)로 신호를 받으세요.$(br2)GUI에서 채널에 알아보기 쉬운 이름을 지정할 수 있습니다."
+    }
+  ]
+}

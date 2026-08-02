@@ -1,0 +1,20 @@
+{
+  "name": "제작기",
+  "icon": "rftoolsutility:crafter3",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:crafter1": 0,
+    "rftoolsutility:crafter2": 0,
+    "rftoolsutility:crafter3": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "제작기는 블록과 아이템을 자동으로 제작합니다. 최고 등급은 조합법을 최대 8개까지 처리합니다.$(br2)재료용 입력 슬롯 26개와 출력 슬롯 4개가 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "R 버튼으로 슬롯의 내용물을 $(l)기억$()시키면 해당 입력 또는 출력 슬롯에는 지정한 아이템만 들어갑니다. 기억을 지우려면 F 버튼을 누르세요.$(br2)$(5)주입$()하면 전력 사용량이 줄어듭니다.$(br2)제작기는 $(l:rftoolsbase:tools/filtermodule)필터 모듈$(/l)을 지원합니다."
+    }
+  ]
+}

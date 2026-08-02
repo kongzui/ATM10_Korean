@@ -1,0 +1,240 @@
+{
+  "family": "RFTools",
+  "installed": [
+    {
+      "label": "RFTools Base",
+      "jar": "rftoolsbase-1.21-6.0.11.jar",
+      "namespace": "rftoolsbase",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 55,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "rftoolsbase"
+      ],
+      "guide_candidates": 19,
+      "guide_examples": [
+        "assets/rftoolsbase/models/item/manual.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_basics.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_machines.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsbase.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_tools.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/basics/bugs.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/basics/dimensional_shards.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/basics/machine_bases.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/basics/machine_frames.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/basics/modules.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/information_screen.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/infusing.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/tools/craftingcard.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/tools/filtermodule.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/tools/smartwrench.json",
+        "assets/rftoolsbase/patchouli_books/manual/en_us/entries/tools/tablet.json",
+        "data/rftoolsbase/advancement/recipes/misc/manual.json",
+        "data/rftoolsbase/patchouli_books/manual/book.json",
+        "data/rftoolsbase/recipe/manual.json"
+      ],
+      "advancements": 12,
+      "advancement_examples": [
+        "data/rftoolsbase/advancement/recipes/misc/crafting_card.json",
+        "data/rftoolsbase/advancement/recipes/misc/dimensionalshard.json",
+        "data/rftoolsbase/advancement/recipes/misc/filter_module.json",
+        "data/rftoolsbase/advancement/recipes/misc/information_screen.json",
+        "data/rftoolsbase/advancement/recipes/misc/infused_diamond.json",
+        "data/rftoolsbase/advancement/recipes/misc/infused_enderpearl.json",
+        "data/rftoolsbase/advancement/recipes/misc/machine_base.json",
+        "data/rftoolsbase/advancement/recipes/misc/machine_frame.json",
+        "data/rftoolsbase/advancement/recipes/misc/machine_infuser.json",
+        "data/rftoolsbase/advancement/recipes/misc/manual.json",
+        "data/rftoolsbase/advancement/recipes/misc/smartwrench.json",
+        "data/rftoolsbase/advancement/recipes/misc/tablet.json"
+      ],
+      "recipes": 24
+    },
+    {
+      "label": "RFTools Builder",
+      "jar": "rftoolsbuilder-1.21-7.0.5.jar",
+      "namespace": "rftoolsbuilder",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 97,
+      "bundled_korean_keys": 76,
+      "metadata_mentions_family": [
+        "rftoolsbase",
+        "rftoolsbuilder"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 42,
+      "advancement_examples": [
+        "data/rftoolsbuilder/advancement/recipes/misc/blue_shield_template_block.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/builder.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/composer.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/green_shield_template_block.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/mover.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/mover_control.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/mover_control2.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/mover_control3.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/mover_control4.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/mover_control_back.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/mover_controller.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/mover_status.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/projector.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/red_shield_template_block.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/scanner.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/shape_card_def.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/shape_card_liquid.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/shape_card_pump.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/shape_card_pump_clear.json",
+        "data/rftoolsbuilder/advancement/recipes/misc/shape_card_pump_dirt.json"
+      ],
+      "recipes": 84
+    },
+    {
+      "label": "RFTools Power",
+      "jar": "rftoolspower-1.21-7.0.6.jar",
+      "namespace": "rftoolspower",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 65,
+      "bundled_korean_keys": 53,
+      "metadata_mentions_family": [
+        "rftoolsbase",
+        "rftoolspower"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 19,
+      "advancement_examples": [
+        "data/rftoolspower/advancement/recipes/misc/blazing_agitator.json",
+        "data/rftoolspower/advancement/recipes/misc/blazing_generator.json",
+        "data/rftoolspower/advancement/recipes/misc/blazing_infuser.json",
+        "data/rftoolspower/advancement/recipes/misc/cell1.json",
+        "data/rftoolspower/advancement/recipes/misc/cell2.json",
+        "data/rftoolspower/advancement/recipes/misc/cell3.json",
+        "data/rftoolspower/advancement/recipes/misc/coalgenerator.json",
+        "data/rftoolspower/advancement/recipes/misc/dimensionalcell.json",
+        "data/rftoolspower/advancement/recipes/misc/dimensionalcell_advanced.json",
+        "data/rftoolspower/advancement/recipes/misc/dimensionalcell_simple.json",
+        "data/rftoolspower/advancement/recipes/misc/ender_monitor.json",
+        "data/rftoolspower/advancement/recipes/misc/endergenic.json",
+        "data/rftoolspower/advancement/recipes/misc/pearl_injector.json",
+        "data/rftoolspower/advancement/recipes/misc/power_core1.json",
+        "data/rftoolspower/advancement/recipes/misc/power_core2.json",
+        "data/rftoolspower/advancement/recipes/misc/power_core3.json",
+        "data/rftoolspower/advancement/recipes/misc/power_level.json",
+        "data/rftoolspower/advancement/recipes/misc/power_monitor.json",
+        "data/rftoolspower/advancement/recipes/misc/powercell_card.json"
+      ],
+      "recipes": 38
+    },
+    {
+      "label": "RFTools Storage",
+      "jar": "rftoolsstorage-1.21-6.0.5.jar",
+      "namespace": "rftoolsstorage",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 41,
+      "bundled_korean_keys": 53,
+      "metadata_mentions_family": [
+        "rftoolsbase",
+        "rftoolsstorage"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 8,
+      "advancement_examples": [
+        "data/rftoolsstorage/advancement/recipes/misc/dump_module.json",
+        "data/rftoolsstorage/advancement/recipes/misc/modular_storage.json",
+        "data/rftoolsstorage/advancement/recipes/misc/storage_control_module.json",
+        "data/rftoolsstorage/advancement/recipes/misc/storage_module0.json",
+        "data/rftoolsstorage/advancement/recipes/misc/storage_module1.json",
+        "data/rftoolsstorage/advancement/recipes/misc/storage_module2.json",
+        "data/rftoolsstorage/advancement/recipes/misc/storage_module3.json",
+        "data/rftoolsstorage/advancement/recipes/misc/storage_scanner.json"
+      ],
+      "recipes": 16
+    },
+    {
+      "label": "RFTools Utility",
+      "jar": "rftoolsutility-1.21-7.0.12.jar",
+      "namespace": "rftoolsutility",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 242,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "rftoolsbase",
+        "rftoolsutility"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 67,
+      "advancement_examples": [
+        "data/rftoolsutility/advancement/recipes/misc/advanced_charged_porter.json",
+        "data/rftoolsutility/advancement/recipes/misc/analog.json",
+        "data/rftoolsutility/advancement/recipes/misc/blindness_module.json",
+        "data/rftoolsutility/advancement/recipes/misc/button_module.json",
+        "data/rftoolsutility/advancement/recipes/misc/charged_porter.json",
+        "data/rftoolsutility/advancement/recipes/misc/clock_module.json",
+        "data/rftoolsutility/advancement/recipes/misc/counter.json",
+        "data/rftoolsutility/advancement/recipes/misc/counter_module.json",
+        "data/rftoolsutility/advancement/recipes/misc/counterplus_module.json",
+        "data/rftoolsutility/advancement/recipes/misc/crafter1.json",
+        "data/rftoolsutility/advancement/recipes/misc/crafter2.json",
+        "data/rftoolsutility/advancement/recipes/misc/crafter3.json",
+        "data/rftoolsutility/advancement/recipes/misc/destination_analyzer.json",
+        "data/rftoolsutility/advancement/recipes/misc/dialing_device.json",
+        "data/rftoolsutility/advancement/recipes/misc/digit.json",
+        "data/rftoolsutility/advancement/recipes/misc/energy_module.json",
+        "data/rftoolsutility/advancement/recipes/misc/energyplus_module.json",
+        "data/rftoolsutility/advancement/recipes/misc/environmental_controller.json",
+        "data/rftoolsutility/advancement/recipes/misc/featherfalling_module.json",
+        "data/rftoolsutility/advancement/recipes/misc/featherfallingplus_module.json"
+      ],
+      "recipes": 204
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "RFTools Base",
+      "jar": "rftoolsbase-1.21-6.0.11.jar",
+      "namespace": "rftoolsbase",
+      "english_keys": 55,
+      "new_translation_required": 55
+    },
+    {
+      "label": "RFTools Builder",
+      "jar": "rftoolsbuilder-1.21-7.0.5.jar",
+      "namespace": "rftoolsbuilder",
+      "english_keys": 97,
+      "bundled_ko_kr": 50,
+      "new_translation_required": 47
+    },
+    {
+      "label": "RFTools Power",
+      "jar": "rftoolspower-1.21-7.0.6.jar",
+      "namespace": "rftoolspower",
+      "english_keys": 65,
+      "bundled_ko_kr": 39,
+      "new_translation_required": 26
+    },
+    {
+      "label": "RFTools Storage",
+      "jar": "rftoolsstorage-1.21-6.0.5.jar",
+      "namespace": "rftoolsstorage",
+      "english_keys": 41,
+      "bundled_ko_kr": 40,
+      "new_translation_required": 1
+    },
+    {
+      "label": "RFTools Utility",
+      "jar": "rftoolsutility-1.21-7.0.12.jar",
+      "namespace": "rftoolsutility",
+      "english_keys": 242,
+      "new_translation_required": 242
+    }
+  ]
+}

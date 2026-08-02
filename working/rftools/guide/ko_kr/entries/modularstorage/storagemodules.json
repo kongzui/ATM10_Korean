@@ -1,0 +1,35 @@
+{
+  "name": "저장소 모듈",
+  "icon": "rftoolsstorage:storage_module0",
+  "category": "rftoolsbase:category_rftoolsstorage_modularstorage",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_module0": 0,
+    "rftoolsstorage:storage_module1": 0,
+    "rftoolsstorage:storage_module2": 0,
+    "rftoolsstorage:storage_module3": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "저장 모듈은 모듈식 저장소에 아이템을 실제로 보관합니다. 1티어는 100스택, 2티어는 200스택, 3티어는 300스택, 4티어는 500스택을 저장합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_module0"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_module1",
+      "recipe2": "rftoolsstorage:storage_module2"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_module3"
+    },
+    {
+      "type": "text",
+      "text": "정형 NBT 조합법으로 업그레이드하면 모듈 내용물이 유지됩니다. 귀중한 모듈을 다른 시스템으로 옮기기 전에 백업하세요."
+    }
+  ]
+}

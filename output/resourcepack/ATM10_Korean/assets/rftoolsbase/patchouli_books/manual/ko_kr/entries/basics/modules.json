@@ -1,0 +1,15 @@
+{
+  "name": "모듈",
+  "icon": "rftoolsbase:filter_module",
+  "category": "rftoolsbase:category_basics",
+  "extra_recipe_mappings": {
+    "rftoolsbase:filter_module": 0,
+    "rftoolsbase:crafting_card": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "RFTools 기술 모드의 다양한 기계는 모듈을 지원합니다. 이는 기능을 수정하거나 제공하기 위해 기계에 삽입할 수 있는 아이템입니다. 대부분의 경우(기계가 모듈을 지원하는 경우) 기계의 모듈을 우클릭하여 삽입할 수 있습니다."
+    }
+  ]
+}

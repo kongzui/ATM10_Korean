@@ -1,0 +1,40 @@
+{
+  "name": "채석장 카드",
+  "icon": "rftoolsbuilder:shape_card_quarry",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_quarry": 1,
+    "rftoolsbuilder:shape_card_quarry_clear": 2,
+    "rftoolsbuilder:shape_card_quarry_silk": 3,
+    "rftoolsbuilder:shape_card_quarry_fortune": 4,
+    "rftoolsbuilder:shape_card_quarry_clear_silk": 3,
+    "rftoolsbuilder:shape_card_quarry_clear_fortune": 4
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "채석장 카드는 빌더가 선택한 영역의 모든 블록을 채굴하도록 합니다. 일반 채석장 카드는 채굴된 블록을 구성된 필러 블록으로 대체합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry_clear"
+    },
+    {
+      "type": "text",
+      "text": "투명 변형은 필러 대신 공기를 남깁니다. 섬세한 손길 변형은 블록을 보존하는 반면 행운 변형은 가능한 경우 드롭을 향상시킵니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry_silk"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry_fortune"
+    }
+  ]
+}

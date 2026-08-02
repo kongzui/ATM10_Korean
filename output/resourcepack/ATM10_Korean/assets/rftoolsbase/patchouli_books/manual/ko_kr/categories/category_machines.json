@@ -1,0 +1,7 @@
+{
+  "name": "기계",
+  "description": "모든 기계",
+  "parent": "rftoolsbase:category_rftoolsbase",
+  "icon": "rftoolsbase:machine_infuser",
+  "sortnum": 30
+}

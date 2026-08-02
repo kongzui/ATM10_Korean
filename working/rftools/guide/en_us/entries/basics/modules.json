@@ -1,0 +1,15 @@
+{
+  "name": "Modules",
+  "icon": "rftoolsbase:filter_module",
+  "category": "rftoolsbase:category_basics",
+  "extra_recipe_mappings": {
+    "rftoolsbase:filter_module": 0,
+    "rftoolsbase:crafting_card": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Various machines in the RFTools tech mods support modules. These are items that can be inserted in the machine to modify or provide functionalities. In most cases (when a machine supports modules) you can just right click with the module on the machine to insert it"
+    }
+  ]
+}

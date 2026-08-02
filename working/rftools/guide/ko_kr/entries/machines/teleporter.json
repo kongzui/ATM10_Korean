@@ -1,0 +1,37 @@
+{
+  "name": "충전된 포터",
+  "icon": "rftoolsutility:charged_porter",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:charged_porter": 0,
+    "rftoolsutility:advanced_charged_porter": 0,
+    "rftoolsutility:teleport_probe": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "충전된 포터는 $(l:rftoolsbase:machines/matter_receiver)물질 수신기$(/l)를 목적지로 사용하는 휴대용 순간이동 도구입니다. 사용하기 전에 FE로 충전해야 합니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "포터",
+      "recipe": "rftoolsutility:charged_porter",
+      "recipe2": "rftoolsutility:advanced_charged_porter"
+    },
+    {
+      "type": "text",
+      "title": "대상",
+      "text": "포터를 들고 물질 수신기를 우클릭해 목적지를 저장하세요. 기본 포터는 목적지 하나, 고급 포터는 여러 목적지를 저장하고 전환할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "사용",
+      "text": "충전된 포터를 사용하여 순간이동을 시작하세요. 수신기는 여전히 존재하고 사용 가능해야 합니다. 고급 포터는 여러 기지 사이를 이동하는 플레이어에게 더 좋습니다."
+    },
+    {
+      "type": "text",
+      "title": "순간이동 프로브",
+      "text": "순간이동 프로브는 수신기 정보와 포터 대상을 검사하는 데 도움이 되며, 이는 대규모 텔레포터 네트워크를 디버깅할 때 유용합니다."
+    }
+  ]
+}

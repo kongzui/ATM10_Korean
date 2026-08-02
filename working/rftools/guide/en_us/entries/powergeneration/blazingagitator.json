@@ -1,0 +1,27 @@
+{
+  "name": "Blazing Agitator",
+  "icon": "rftoolspower:blazing_agitator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:blazing_agitator": 0
+  },
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Blazing Agitator prepares blaze rods for the $(l:rftoolsbase:powergeneration/blazinggenerator)Blazing Generator$(/l). It uses a little FE to turn normal rods into Blazing Rods."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:blazing_agitator"
+    },
+    {
+      "type": "text",
+      "text": "Nearby rods in the input grid improve each other. Better rods finish faster and gain better power quality, so it pays to keep a few strong rods in the grid."
+    },
+    {
+      "type": "text",
+      "text": "The nine lock buttons keep finished rods from moving to output. Use them to keep high-quality rods in place as boosters for future rods."
+    }
+  ]
+}

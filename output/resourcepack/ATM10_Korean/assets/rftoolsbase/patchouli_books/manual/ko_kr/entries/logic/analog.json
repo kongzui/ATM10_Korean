@@ -1,0 +1,33 @@
+{
+  "name": "아날로그 연산기",
+  "icon": "rftoolsutility:analog",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:analog": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)아날로그 연산기$()는 A와 B 입력을 비교한 결과에 따라 입력 신호를 계산합니다.$(br2)블록을 우클릭하면 출력(O), 입력(I), 두 비교 입력(A, B)의 위치를 보여 주는 GUI가 열립니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "아날로그 연산기",
+      "recipe": "rftoolsutility:analog",
+      "text": "GUI에 대한 그림과 설명은 뒷면을 참조하세요."
+    },
+    {
+      "type": "text",
+      "title": "GUI",
+      "text": "GUI는 출력 측면을 보여줍니다, 입력측, 그리고 A/B 비교 입력. 각 비교 결과에 대해 입력 신호에 적용되는 승수 및 오프셋을 구성합니다."
+    },
+    {
+      "type": "text",
+      "text": "아날로그 연산기 아래에는 A = B, A < B, A > B의 세 조건이 있습니다.$(br2)각 조건에서 입력 신호에 곱할 값과 더할 값을 정할 수 있습니다. 예를 들어 신호 강도를 두 배로 만든 뒤 10을 더할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "신호를 나누거나 값을 빼려면 각각 1보다 작은 수를 곱하거나 음수를 더하세요. 예를 들어 0.5를 곱하면 절반이 되고 -10을 더하면 10이 줄어듭니다.$(br2)레드스톤 신호는 0부터 15까지만 사용하므로 범위를 벗어난 결과는 각각 0 또는 15로 제한됩니다.$(br2)$(i)수학은 재미있지 않나요?$()"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Pearl Injector",
+  "icon": "rftoolspower:pearl_injector",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:pearl_injector": 0
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Pearl Injector inserts ender pearls into an $(l:rftoolsbase:powergeneration/endergenic)Endergenic Generator$(/l). Place it facing the generator or directly below it."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:pearl_injector"
+    },
+    {
+      "type": "text",
+      "text": "On a redstone pulse it converts one ender pearl into an endergenic pearl and injects it. If the target generator is already holding a pearl, the new pearl is lost."
+    }
+  ]
+}

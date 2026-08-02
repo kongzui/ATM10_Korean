@@ -1,0 +1,7 @@
+{
+  "name": "발전",
+  "description": "전력을 생산할 수 있는 기계.",
+  "parent": "rftoolsbase:category_rftoolspower",
+  "icon": "rftoolspower:coalgenerator",
+  "sortnum": 10
+}

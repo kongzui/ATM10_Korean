@@ -1,0 +1,23 @@
+{
+  "name": "진주 주입기",
+  "icon": "rftoolspower:pearl_injector",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:pearl_injector": 0
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "진주 주입기는 엔더 진주를$(l:rftoolsbase:powergeneration/endergenic)엔더제닉 생성기$(/l). 발전기를 향하게 하거나 발전기 바로 아래에 놓습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:pearl_injector"
+    },
+    {
+      "type": "text",
+      "text": "레드스톤 펄스에서는 엔더 진주 하나를 엔더제닉 진주로 변환하여 주입합니다. 대상 생성기가 이미 진주를 보유하고 있는 경우, 새로운 진주가 사라졌습니다."
+    }
+  ]
+}

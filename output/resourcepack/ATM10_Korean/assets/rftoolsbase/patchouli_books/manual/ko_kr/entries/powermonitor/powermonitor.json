@@ -1,0 +1,20 @@
+{
+  "name": "전력 모니터",
+  "icon": "rftoolspower:power_monitor",
+  "category": "rftoolsbase:category_rftoolspower_monitor",
+  "extra_recipe_mappings": {
+    "rftoolspower:power_monitor": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 로직 블록은 입력측이 반대쪽을 향하도록 배치할 수 있습니다.$(thing)에너지 블록$(). 여기에는 신호를 방출해야 하는 전력 범위를 제어하는 데 사용할 수 있는 GUI가 있습니다.$(thing)레드스톤 신호$(). $(br2)레드스톤은 전력 수준이 최소 백분율 이상, 최대 백분율 미만일 때 방출됩니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "전력 모니터",
+      "recipe": "rftoolspower:power_monitor"
+    }
+  ]
+}

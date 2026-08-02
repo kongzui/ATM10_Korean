@@ -453,8 +453,8 @@
 	quest.05B0A7D0B991050F.title: "원자로 (강화)"
 	quest.05B5E640F1B68A28.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_golem.png width:100 height:150 align:center}"]
 	quest.05B5E640F1B68A28.title: "&3골렘 강철&r"
-	quest.05B6DB75AEC01187.quest_desc: ["RFTools Power에는 전력을 저장하는 &9파워셀&r이 있는데, 이는 전력을 저장하기 위해 사용자 정의하고 상위 버전으로 변환할 수 있는 멀티 블록 저장 장치입니다.\\n\\n전력의 입출력을 결정하려면 렌치가 필요합니다."]
-	quest.05B6DB75AEC01187.title: "&9RFTools 파워: &c파워셀"
+	quest.05B6DB75AEC01187.quest_desc: ["RFTools Power의 &9파워셀&r은 서로 연결해 쓰는 멀티블록 전력 저장 장치입니다. 설정을 바꾸고 상위 등급으로 업그레이드할 수 있습니다.\\n\\n렌치로 각 면의 전력 입력과 출력을 지정하세요."]
+	quest.05B6DB75AEC01187.title: "&9RFTools Power: &c파워셀"
 	quest.05D8C6EF8FCD6250.quest_desc: [
 		"프라이모젤 구는 JDT가 추가하는 첫 번째 티어의 구이며, 오버월드의 기본 재료로 제작합니다."
 		""
@@ -6419,9 +6419,9 @@
 	quest.6718043D0F2D1830.quest_desc: ["DireWolf는 자신의 카드를 &5&lMekanism&r의 여러 물질 상태와 함께 사용할 수 있게 해 달라는 요청을 받았습니다. 이 카드는 가압 튜브가 운반하는 모든 물질을 옮길 수 있습니다. 화학 물질, 주입 유형, 안료가 대상입니다."]
 	quest.6718043D0F2D1830.title: "&5화학 물질 카드"
 	quest.672134A1A620EEAB.quest_desc: [
-		"힘을 저장하는 방법은 여러 가지가 있습니다!"
+		"전력을 저장하는 방법은 다양합니다! "
 		""
-		"&9파와&r는 상위 버전으로 변환할 수 있는 &a에너지 셀&r을 사용하여 훌륭한 저장 공간을 제공하거나, &aRFTools&r의 멀티블록 스타일인 &aPowercells&r를 항상 사용할 수도 있습니다! 선택은 당신의 몫입니다."
+		"&9Powah!&r의 업그레이드 가능한 &a에너지 셀&r을 사용해도 좋고, &aRFTools&r의 멀티블록형 &a파워셀&r을 사용해도 좋습니다! 원하는 쪽을 선택하세요. "
 		""
 		"참고: 퀘스트를 완료하려면 아이템 중 하나만 만들면 됩니다."
 	]

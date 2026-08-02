@@ -1,0 +1,23 @@
+{
+  "name": "기본 형상 카드",
+  "icon": "rftoolsbuilder:shape_card_def",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_def": 1
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "기본 형상 카드는 형상, 크기, 오프셋과 채움·비움 모드를 저장합니다. 빌더에서 블록을 배치하거나 방어막 프로젝터에서 형상 방어막을 정의할 때 사용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_def"
+    },
+    {
+      "type": "text",
+      "text": "카드를 우클릭해 상자, 구, 원기둥, 원뿔, 원환체, 각기둥, 스캔 또는 합성 형상을 편집하세요. 웅크린 채 사용하면 월드에서 위치를 선택할 수 있습니다."
+    }
+  ]
+}

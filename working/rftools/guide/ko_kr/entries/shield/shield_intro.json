@@ -1,0 +1,18 @@
+{
+  "name": "소개",
+  "icon": "minecraft:experience_bottle",
+  "category": "rftoolsbase:category_rftoolsbuilder_shield",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shield_block1": 0,
+    "rftoolsbuilder:shield_block2": 0,
+    "rftoolsbuilder:shield_block3": 0,
+    "rftoolsbuilder:shield_block4": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "방어막 프로젝터는 몹으로부터 영역을 보호하거나 일부 영역에 몹을 유지하는 데 사용할 수 있습니다. 피해를 입힐 수도 있습니다"
+    }
+  ]
+}

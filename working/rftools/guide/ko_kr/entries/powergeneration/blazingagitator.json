@@ -1,0 +1,27 @@
+{
+  "name": "블레이징 교반기",
+  "icon": "rftoolspower:blazing_agitator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:blazing_agitator": 0
+  },
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "text",
+      "text": "블레이징 교반기는 블레이즈 막대를 $(l:rftoolsbase:powergeneration/blazinggenerator)블레이징 발전기$(/l)의 연료로 가공합니다. 소량의 FE를 사용해 일반 막대를 가열된 블레이즈 막대로 만듭니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:blazing_agitator"
+    },
+    {
+      "type": "text",
+      "text": "입력 격자에서 서로 이웃한 막대는 품질을 높여 줍니다. 품질이 좋은 막대는 더 빨리 완성되고 전력 품질도 좋아지므로 격자에 강한 막대를 몇 개 유지하세요."
+    },
+    {
+      "type": "text",
+      "text": "9개의 잠금 버튼은 완성된 로드가 출력으로 이동하는 것을 방지합니다. 향후 로드를 위한 부스터로 고품질 로드를 제자리에 유지하는 데 사용하세요."
+    }
+  ]
+}

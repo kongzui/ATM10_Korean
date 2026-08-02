@@ -1,0 +1,23 @@
+{
+  "name": "탈것 카드",
+  "icon": "rftoolsbuilder:vehicle_card",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:vehicle_card": 1
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "탈것 카드는 탈것을 구성하는 블록을 저장합니다. 탈것 빌더가 유효한 공간 챔버의 내용을 카드에 담습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:vehicle_card"
+    },
+    {
+      "type": "text",
+      "text": "카드를 무버에 넣으면 해당 지점에 탈것을 배치합니다. 이후 무버 제어기로 연결된 무버 사이에서 탈것을 이동할 수 있습니다."
+    }
+  ]
+}

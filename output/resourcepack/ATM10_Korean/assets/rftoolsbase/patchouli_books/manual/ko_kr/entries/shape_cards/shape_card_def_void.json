@@ -1,0 +1,19 @@
+{
+  "name": "무효 카드",
+  "icon": "rftoolsbuilder:shape_card_void",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_void": 1
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "보이드 카드를 사용하면 빌더는 드롭을 생성하지 않고 선택한 영역의 블록을 제거할 수 있습니다. 공간을 빠르게 비울 때 사용하세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_void"
+    }
+  ]
+}

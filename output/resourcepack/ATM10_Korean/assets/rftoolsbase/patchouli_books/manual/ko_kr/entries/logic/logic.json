@@ -1,0 +1,24 @@
+{
+  "name": "논리 회로",
+  "icon": "rftoolsutility:logic",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:logic": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "레드스톤 입력 3개와 출력 1개가 있습니다. GUI에서 각 입력 조합의 출력을 끔, 켬, 유지 중 하나로 정하세요. '유지'는 입력이 해당 조합으로 바뀌기 전의 출력 상태를 그대로 유지합니다."
+    },
+    {
+      "type": "text",
+      "title": "GUI",
+      "text": "GUI에는 세 가지 입력 측면에 대한 모든 입력 조합이 나열됩니다. 각 행을 끄기, 켜기 또는 유지로 설정합니다. 유지은 이전 출력 상태를 유지합니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "손가락",
+      "recipe": "rftoolsutility:logic"
+    }
+  ]
+}

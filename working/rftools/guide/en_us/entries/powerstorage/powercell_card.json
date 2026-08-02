@@ -1,0 +1,23 @@
+{
+  "name": "Powercell Card",
+  "icon": "rftoolspower:powercell_card",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:powercell_card": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "This card links $(l:rftoolsbase:powerstorage/dimensionalcell)Dimensional Cells$(/l) together. A new card starts unlinked. Insert it into a Dimensional Cell to create or copy a link."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:powercell_card"
+    },
+    {
+      "type": "text",
+      "text": "Use the linked card on other Dimensional Cells to join them to the same remote storage network."
+    }
+  ]
+}

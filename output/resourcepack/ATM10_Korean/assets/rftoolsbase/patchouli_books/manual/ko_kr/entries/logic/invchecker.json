@@ -1,0 +1,25 @@
+{
+  "name": "인벤토리 검사기",
+  "icon": "rftoolsutility:invchecker",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:invchecker": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)인벤토리 검사기$()는 뒤쪽 인벤토리의 지정 슬롯에 설정 수량보다 많은 아이템이 있으면 $(thing)레드스톤 신호$()를 냅니다. GUI에서 슬롯과 아이템, 선택 사항인 $(thing)아이템 태그$(), 피해값 일치 여부를 설정합니다. 아이템과 태그를 비우면 해당 슬롯의 모든 아이템을 셉니다."
+    },
+    {
+      "type": "text",
+      "title": "GUI",
+      "text": "GUI에서 슬롯, 스택 수, 선택 사항인 아이템 태그, 피해값 모드와 기준 수량을 설정합니다. 해당 슬롯의 모든 유효한 아이템을 세려면 아이템 또는 태그 조건을 비워 두세요."
+    },
+    {
+      "type": "crafting",
+      "heading": "손가락",
+      "recipe": "rftoolsutility:invchecker",
+      "text": "슬롯 수는 0부터 시작한다는 점을 기억하세요!"
+    }
+  ]
+}

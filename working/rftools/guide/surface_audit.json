@@ -1,0 +1,30 @@
+{
+  "advancement_files": 148,
+  "advancement_display_nodes": 0,
+  "advancement_display_examples": [],
+  "kubejs_reference_files": [
+    "kubejs/assets/rftoolsbase/lang/pt_br.json",
+    "kubejs/assets/rftoolsbuilder/lang/pt_br.json",
+    "kubejs/assets/rftoolspower/lang/pt_br.json",
+    "kubejs/assets/rftoolsstorage/lang/pt_br.json",
+    "kubejs/assets/rftoolsutility/lang/pt_br.json",
+    "kubejs/client_scripts/RecipeViewer.js",
+    "kubejs/server_scripts/announcements/announcements.js",
+    "kubejs/server_scripts/modpack/miningDim.js",
+    "kubejs/server_scripts/mods/rftools/Recipes.js",
+    "kubejs/server_scripts/Unification/crops.js"
+  ],
+  "kubejs_direct_display_text_found": false,
+  "config_files_checked": [
+    "config/rftoolsbase-server.toml",
+    "config/rftoolsbuilder-client.toml",
+    "config/rftoolsbuilder-server.toml",
+    "config/rftoolspower-server.toml",
+    "config/rftoolsstorage-client.toml",
+    "config/rftoolsstorage-server.toml",
+    "config/rftoolsutility-client.toml",
+    "config/rftoolsutility-server.toml"
+  ],
+  "config_display_translation_required": false,
+  "status": "complete"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "화면 링크",
+  "icon": "rftoolsutility:screen_link",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:screen_link": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "화면 연결기는 $(l:rftoolsbase:machines/screen)화면$(/l)의 위치를 저장해 $(l:rftoolsbase:tools/tablet)태블릿$(/l)에서 원격으로 열 수 있게 합니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "화면 링크",
+      "recipe": "rftoolsutility:screen_link"
+    },
+    {
+      "type": "text",
+      "title": "연결",
+      "text": "화면 링크가 있는 화면을 우클릭하여 저장하세요. 화면이 아닌 블록을 우클릭하면 저장된 대상이 지워집니다."
+    },
+    {
+      "type": "text",
+      "title": "태블릿",
+      "text": "연결기를 태블릿에 넣으세요. 화면이 있는 청크가 로드되어 있으면 태블릿으로 원격 화면을 엽니다. 웅크린 채 사용하면 태블릿 관리 화면이 열립니다."
+    }
+  ]
+}

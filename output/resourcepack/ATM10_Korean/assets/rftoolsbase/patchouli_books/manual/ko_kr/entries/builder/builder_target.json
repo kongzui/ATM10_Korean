@@ -1,0 +1,20 @@
+{
+  "name": "타겟팅",
+  "icon": "minecraft:compass",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "빌더가 영향을 미칠 대상 영역을 제어하는 방법에는 여러 가지가 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "형상 카드에 크기와 오프셋을 직접 입력할 수 있습니다.$(br2)오프셋은 항상 빌더를 기준으로 하며, 0,0,0이면 빌더가 영역의 중심에 놓입니다."
+    },
+    {
+      "type": "text",
+      "text": "빌더를 웅크린 채 우클릭해 영역 선택을 시작할 수 있습니다. 또는 형상 카드에서 크기를 정하고 GUI의 기준점 버튼으로 오프셋을 조절하세요."
+    }
+  ]
+}

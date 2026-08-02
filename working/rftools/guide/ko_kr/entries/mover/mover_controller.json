@@ -1,0 +1,19 @@
+{
+  "name": "무버 제어기",
+  "icon": "rftoolsbuilder:mover_controller",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:mover_controller": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "무버 제어기는 여러 무버를 연결합니다. 무버 하나에 인접하게 설치한 뒤 사용해 연결 가능한 다른 무버를 찾으세요."
+    },
+    {
+      "type": "text",
+      "text": "두 개의 무버는 기본 방향 중 하나로 서로 128 블록 내에 있을 때 연결됩니다."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "물질 빔 발사기",
+  "icon": "rftoolsutility:matter_beamer",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:matter_beamer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "물질 빔 발사기는 재료 아이템을 $(l:rftoolsbase:machines/spawner)생성기$(/l)로 보냅니다. 입력 슬롯이 하나이며 작동 중에는 FE를 사용합니다. 연결된 생성기가 사용할 수 있는 아이템만 전송합니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "물질 빔 발사기",
+      "recipe": "rftoolsutility:matter_beamer"
+    },
+    {
+      "type": "text",
+      "title": "연결",
+      "text": "물질 빔 발사기를 렌치로 선택한 뒤 대상 생성기를 렌치로 사용하세요. 선택한 빔 발사기를 다시 렌치로 사용하면 목적지가 지워집니다."
+    },
+    {
+      "type": "text",
+      "title": "작업",
+      "text": "빔 발사기에 레드스톤 신호를 주고 생성기 조합법에 필요한 재료를 넣으세요. $(5)주입$()하면 펄스마다 더 많은 아이템을 보내고 FE 소모량이 줄어듭니다."
+    }
+  ]
+}

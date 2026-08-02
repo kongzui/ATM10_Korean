@@ -1,0 +1,55 @@
+{
+  "name": "Endergenic Generator",
+  "icon": "rftoolspower:endergenic",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:endergenic": 0,
+    "rftoolspower:ender_monitor": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Endergenic power is timing based. A Pearl Injector creates an endergenic pearl, generators catch and fire it, and good timing turns the pearl arrival into FE."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:endergenic",
+      "recipe2": "rftoolspower:ender_monitor"
+    },
+    {
+      "type": "text",
+      "text": "A basic setup needs at least two Endergenic Generators, one Pearl Injector, redstone timing, and a destination set with a wrench."
+    },
+    {
+      "type": "image",
+      "images": [
+        "rftoolspower:textures/manual/endergenic.png"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Generator states: Idle waits. Charging can receive a pearl. Holding means a pearl was captured and is consuming FE until it is fired again."
+    },
+    {
+      "type": "text",
+      "text": "Step 1: pulse the Pearl Injector to inject a pearl into the first generator. Step 2: pulse that generator to fire the pearl toward its paired generator."
+    },
+    {
+      "type": "text",
+      "text": "Step 3: pulse the receiving generator into Charging before the pearl arrives. The ideal capture point is tick 10 of its 15-tick charging cycle."
+    },
+    {
+      "type": "text",
+      "text": "Step 4: fire the pearl onward quickly. A held pearl costs FE every tick and can be lost if held too long or if the generator runs out of power."
+    },
+    {
+      "type": "text",
+      "text": "Use a wrench to pair generators. The chat message shows travel time in ticks, up to 4 ticks. That travel time is the key value for your redstone timing."
+    },
+    {
+      "type": "text",
+      "text": "Ender Monitors help automate timing by watching generator state. Even well-tuned setups can lose pearls, so keep pearl supply and startup logic in mind."
+    }
+  ]
+}

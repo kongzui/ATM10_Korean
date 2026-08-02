@@ -1,0 +1,37 @@
+{
+  "name": "공간 챔버",
+  "icon": "rftoolsbuilder:space_chamber_card",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:space_chamber": 1,
+    "rftoolsbuilder:space_chamber_controller": 2,
+    "rftoolsbuilder:space_chamber_card": 3
+  },
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "text",
+      "text": "공간 챔버는 빌더나 탈것 빌더가 복사·이동할 영역을 표시합니다. 챔버 블록과 제어기 하나로 영역을 정의하세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber_controller"
+    },
+    {
+      "type": "text",
+      "text": "채널을 저장하려면 스페이스 카드가 있는 제어기를 웅크린 채 우클릭하세요. 챔버 내용물을 검사하려면 공중에서 카드를 우클릭하세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber_card"
+    },
+    {
+      "type": "text",
+      "text": "지원 블록은 스캔 및 빌드에 사용되는 임시 도우미 블록입니다. 의도적으로 가볍기 때문에 더 이상 필요하지 않으면 지울 수 있습니다."
+    }
+  ]
+}

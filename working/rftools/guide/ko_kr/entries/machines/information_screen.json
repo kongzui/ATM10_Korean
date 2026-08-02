@@ -1,0 +1,18 @@
+{
+  "name": "정보 화면",
+  "icon": "rftoolsbase:information_screen",
+  "category": "rftoolsbase:category_machines",
+  "extra_recipe_mappings": {
+    "rftoolsbase:information_screen": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "정보 화면은 일부 정보를 표시하기 위해 기계 옆에 배치할 수 있는 작은 화면입니다. 기본적으로 이 화면에는 에너지 정보가 표시되지만 일부 시스템(예: RFTools Power의 파워셀)에는 에너지 정보가 표시됩니다. 추가 보기 옵션"
+    },
+    {
+      "type": "text",
+      "text": "정보 화면에서 렌치를 사용하면 디스플레이 모드가 전환됩니다(부착된 기계에서 지원하는 경우)."
+    }
+  ]
+}

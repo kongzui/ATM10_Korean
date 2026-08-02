@@ -1,0 +1,7 @@
+{
+  "name": "모듈식 저장소",
+  "description": "유연한 저장소 솔루션",
+  "parent": "rftoolsbase:category_rftoolsstorage",
+  "icon": "rftoolsstorage:modular_storage",
+  "sortnum": 10
+}

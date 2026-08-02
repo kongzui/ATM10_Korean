@@ -1,0 +1,29 @@
+{
+  "name": "화면 제어기",
+  "icon": "rftoolsutility:screen_controller",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:screen_controller": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "화면 제어기는 주변의 $(l:rftoolsbase:machines/screen)화면$(/l)에 전력을 공급합니다. GUI의 '스캔' 버튼을 누르면 32×32×32 범위의 모든 화면을 연결합니다.$(br2)$(5)주입$()하면 범위가 넓어집니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "화면 제어기",
+      "recipe": "rftoolsutility:screen_controller"
+    },
+    {
+      "type": "text",
+      "title": "스캐닝",
+      "text": "제어기를 범위 내에 놓고 FE를 입력하고 스캔을 누릅니다. 화면을 추가, 제거, 이동한 후 다시 검사하세요."
+    },
+    {
+      "type": "text",
+      "title": "범위",
+      "text": "기본 스캔 영역은 제어기 주변의 32x32x32 블록입니다.$(5)주입$()제어기는 이 범위를 증가시킵니다."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "다이얼링 장치",
+  "icon": "rftoolsutility:dialing_device",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:dialing_device": 0,
+    "rftoolsutility:simple_dialer": 0,
+    "rftoolsutility:destination_analyzer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "다이얼링 장치는 $(l:rftoolsbase:machines/matter_transmitter)물질 송신기$(/l)를 $(l:rftoolsbase:machines/matter_receiver)물질 수신기$(/l)와 연결합니다. 송신기는 근처에 있어야 하지만 수신기는 다른 차원처럼 멀리 있어도 됩니다.$(br2)$(5)주입$()하면 전력 사용량이 줄어듭니다."
+    },
+    {
+      "type": "text",
+      "text": "먼저 물질 송신기를 선택하세요. 주변에 하나뿐이면 자동으로 선택됩니다. 그다음 아래 목록에서 물질 수신기를 고르고 '연결' 또는 '한 번 연결'을 선택합니다. '한 번 연결'은 누군가 순간이동하면 즉시 연결을 끊습니다."
+    }
+  ]
+}

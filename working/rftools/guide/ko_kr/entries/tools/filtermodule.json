@@ -1,0 +1,18 @@
+{
+  "name": "필터 모듈",
+  "icon": "rftoolsbase:filter_module",
+  "category": "rftoolsbase:category_tools",
+  "extra_recipe_mappings": {
+    "rftoolsbase:filter_module": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "필터 모듈은 기계가 받을 아이템을 허용 목록이나 차단 목록으로 제한합니다. 빌더, 모듈식 저장소, 제작기 등 여러 기계가 지원합니다.$(br2)블록, 아이템과 태그를 등록할 수 있으며 NBT와 피해값 일치 여부도 설정할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(5)인벤토리를 웅크린 채 우클릭$()하면 그 안의 아이템과 블록을 필터에 추가합니다.$(br)$(5)월드의 블록을 웅크린 채 우클릭$()하면 해당 블록을 추가합니다.$(br2)필터 모듈 GUI에서 태그를 직접 추가하거나 블록과 아이템을 해당 태그로 변환할 수도 있습니다."
+    }
+  ]
+}

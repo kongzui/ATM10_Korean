@@ -1,0 +1,19 @@
+{
+  "name": "원격 모듈",
+  "icon": "rftoolsstorage:storage_module6",
+  "category": "rftoolsbase:category_rftoolsstorage_modularstorage",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_module6": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "원격 저장소 모듈은 이 버전의 레거시/내부 모듈이며 일반 진행의 일부가 아닙니다."
+    },
+    {
+      "type": "text",
+      "text": "일반적인 원격 사용에는 저장소 스캐너에 연결한 $(l:rftoolsbase:scanner/modules)저장소 제어 모듈$(/l)을 태블릿에 넣으세요."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "와이어",
+  "icon": "rftoolsutility:wire",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:wire": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)와이어$()는 $(thing)입력 신호$()를 $(thing)출력$()으로 그대로 전달합니다. 단순하고 지연이 거의 없지만 직선으로만 연결됩니다.$(br2)$(l:rftoolsbase:basics/machine_bases)기계 기반$()으로 만든 다른 블록처럼 벽이나 천장에도 설치할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "와이어",
+      "recipe": "rftoolsutility:wire"
+    }
+  ]
+}

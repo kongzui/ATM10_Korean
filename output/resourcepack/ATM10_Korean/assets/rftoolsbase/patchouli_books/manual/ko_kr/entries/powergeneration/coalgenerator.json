@@ -1,0 +1,23 @@
+{
+  "name": "석탄 발전기",
+  "icon": "rftoolspower:coalgenerator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:coalgenerator": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "석탄 발전기는 간단한 초기 FE 발전기입니다. 석탄이나 석탄 블록을 삽입하면 인근 기계나 연결된 케이블의 전력으로 태워집니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:coalgenerator"
+    },
+    {
+      "type": "text",
+      "text": "내부 버퍼가 있어 출력이 잠시 막혀도 계속 연소합니다. 석탄 블록은 오랫동안 자동으로 가동할 때 편리합니다."
+    }
+  ]
+}

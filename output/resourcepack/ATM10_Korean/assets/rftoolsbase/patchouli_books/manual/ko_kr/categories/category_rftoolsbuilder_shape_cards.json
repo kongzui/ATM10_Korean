@@ -1,0 +1,7 @@
+{
+  "name": "형상 카드",
+  "description": "빌더와 방어막 프로젝터에서 사용할 영역의 형상을 정의하는 카드를 설명합니다.",
+  "parent": "rftoolsbase:category_rftoolsbuilder",
+  "icon": "rftoolsbuilder:shape_card_def",
+  "sortnum": 10
+}

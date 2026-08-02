@@ -1,0 +1,112 @@
+{
+  "family": "RFTools",
+  "languages": [
+    {
+      "label": "RFTools Base",
+      "jar": "rftoolsbase-1.21-6.0.11.jar",
+      "namespace": "rftoolsbase",
+      "english_keys": 55,
+      "korean_keys": 55,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 55
+    },
+    {
+      "label": "RFTools Builder",
+      "jar": "rftoolsbuilder-1.21-7.0.5.jar",
+      "namespace": "rftoolsbuilder",
+      "english_keys": 97,
+      "korean_keys": 97,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 93,
+      "bundled_exact_reuse": 4
+    },
+    {
+      "label": "RFTools Power",
+      "jar": "rftoolspower-1.21-7.0.6.jar",
+      "namespace": "rftoolspower",
+      "english_keys": 65,
+      "korean_keys": 65,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 54,
+      "bundled_exact_reuse": 11
+    },
+    {
+      "label": "RFTools Storage",
+      "jar": "rftoolsstorage-1.21-6.0.5.jar",
+      "namespace": "rftoolsstorage",
+      "english_keys": 41,
+      "korean_keys": 41,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 12,
+      "new_or_edited": 29
+    },
+    {
+      "label": "RFTools Utility",
+      "jar": "rftoolsutility-1.21-7.0.12.jar",
+      "namespace": "rftoolsutility",
+      "english_keys": 242,
+      "korean_keys": 242,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 242
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 27,
+    "project_output_reuse": 0,
+    "new_or_edited": 473
+  },
+  "ftbquests": {
+    "chapters": [],
+    "quests_checked": 0,
+    "tasks_checked": 0,
+    "display_keys_checked": 3,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 0,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

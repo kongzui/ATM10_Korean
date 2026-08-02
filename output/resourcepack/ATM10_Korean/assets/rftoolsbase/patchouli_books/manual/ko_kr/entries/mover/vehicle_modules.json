@@ -1,0 +1,41 @@
+{
+  "name": "탈것 모듈",
+  "icon": "rftoolsbuilder:vehicle_control_module",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:vehicle_control_module": 1,
+    "rftoolsbuilder:vehicle_status_module": 2,
+    "rftoolsbuilder:mover_control": 3,
+    "rftoolsbuilder:mover_control2": 3,
+    "rftoolsbuilder:mover_control3": 3,
+    "rftoolsbuilder:mover_control4": 3,
+    "rftoolsbuilder:mover_status": 4
+  },
+  "sortnum": 50,
+  "pages": [
+    {
+      "type": "text",
+      "text": "탈것 모듈은 무버 제어기와 상호 작용하는 화면 모듈입니다. 모듈을 들고 무버 제어기에 사용해 연결하세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:vehicle_control_module"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:vehicle_status_module"
+    },
+    {
+      "type": "text",
+      "text": "제어 모듈은 탈것을 선택한 무버로 보냅니다. 상태 모듈은 RFTools 화면에 탈것 정보를 표시합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:mover_control"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:mover_status"
+    }
+  ]
+}

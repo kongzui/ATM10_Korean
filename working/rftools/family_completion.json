@@ -1,0 +1,49 @@
+{
+  "family": "RFTools",
+  "status": "complete",
+  "language": {
+    "namespaces": 5,
+    "keys": 500,
+    "bundled_exact_reuse_after_review": 27,
+    "bundled_korean_reused_without_review": 0,
+    "new_or_edited": 473,
+    "untranslated": 0
+  },
+  "ftbquests": {
+    "chapters": 0,
+    "related_display_keys": 3,
+    "project_output_reviewed": 3,
+    "untranslated": 0
+  },
+  "guide": {
+    "files": 92,
+    "visible_fields_reviewed": 346,
+    "untranslated": 0
+  },
+  "other_surfaces": {
+    "advancements_checked": 148,
+    "advancement_display_entries": 0,
+    "kubejs_reference_files_checked": 10,
+    "kubejs_direct_display_text_found": false,
+    "config_files_checked": 8,
+    "config_display_translation_required": false
+  },
+  "validation": {
+    "specialized_language": "complete",
+    "ftbquests": "complete",
+    "guide": "complete",
+    "surface_audit": "complete",
+    "family": "complete",
+    "ruff": "complete",
+    "python_compile": "complete",
+    "syntax_and_format_errors": 0
+  },
+  "deployment": {
+    "status": "deferred_java_running",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "java_process_ids": [
+      19660,
+      31372
+    ]
+  }
+}

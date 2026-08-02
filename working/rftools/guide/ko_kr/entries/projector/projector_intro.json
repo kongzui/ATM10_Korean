@@ -1,0 +1,15 @@
+{
+  "name": "프로젝터",
+  "icon": "rftoolsbuilder:projector",
+  "category": "rftoolsbase:category_rftoolsbuilder_projector",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:projector": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "프로젝터는 도형 카드의 내용을 세상에 투사합니다.$(br2)다른 기계에서 사용하기 전에 모양을 미리 보거나 시각화하는 데 사용합니다."
+    }
+  ]
+}

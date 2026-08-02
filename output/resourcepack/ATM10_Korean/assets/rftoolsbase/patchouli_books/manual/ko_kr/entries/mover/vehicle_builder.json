@@ -1,0 +1,15 @@
+{
+  "name": "탈것 빌더",
+  "icon": "rftoolsbuilder:vehicle_builder",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:vehicle_builder": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "탈것 빌더는 공간 챔버의 블록으로 탈것을 만듭니다.$(br2)먼저 올바른 공간 챔버를 완성한 뒤 탈것 빌더로 해당 영역을 탈것으로 바꾸세요."
+    }
+  ]
+}

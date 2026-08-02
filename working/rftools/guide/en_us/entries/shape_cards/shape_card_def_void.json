@@ -1,0 +1,19 @@
+{
+  "name": "Void Card",
+  "icon": "rftoolsbuilder:shape_card_void",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_void": 1
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Void Card makes the Builder remove blocks in the selected area without producing drops. Use it for clearing space quickly."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_void"
+    }
+  ]
+}

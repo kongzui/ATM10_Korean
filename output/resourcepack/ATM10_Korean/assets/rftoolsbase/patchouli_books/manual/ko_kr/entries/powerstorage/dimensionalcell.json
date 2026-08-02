@@ -1,0 +1,49 @@
+{
+  "name": "차원 셀",
+  "icon": "rftoolspower:dimensionalcell",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:dimensionalcell_simple": 0,
+    "rftoolspower:dimensionalcell": 0,
+    "rftoolspower:dimensionalcell_advanced": 0,
+    "rftoolspower:dimensionalcell_creative": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "차원 셀은 여러 차원에 걸쳐 연결할 수 있는 전력 저장 장치입니다. $(l:rftoolsbase:powerstorage/powercell)파워셀$(/l)처럼 FE를 저장하고 전송하지만, 연결된 셀끼리는 맞닿지 않아도 전력을 공유합니다."
+    },
+    {
+      "type": "text",
+      "text": "차원 셀은 $(l:rftoolsbase:powerstorage/powercell_card)파워셀 카드$(/l)로 연결합니다. 연결되지 않은 카드를 넣어 새 연결을 만들거나 기존 셀의 연결을 다른 카드에 복사하세요."
+    },
+    {
+      "type": "text",
+      "text": "GUI에는 연결·복사용 카드 슬롯, FE 아이템 충전 슬롯, 네트워크 저장량 표시줄, 면 모드 버튼과 FE 입출력 통계 버튼이 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "없음, 입력, 출력 버튼은 모든 면을 FE 무시, 수신, 전송으로 설정합니다. 각 면은 $(l:rftoolsbase:tools/smartwrench)스마트 렌치$(/l)로도 바꿀 수 있습니다. 파란색은 입력, 노란색은 출력, 빈 면은 비활성화입니다."
+    },
+    {
+      "type": "text",
+      "text": "차원 셀을 $(thing)출력 모드$()로 쓰면 원격 셀에서 RF를 가져올 때 소량의 비용이 듭니다. 보통 몇 퍼센트에 불과하지만 누적될 수 있습니다. 차원 셀을 $(l:rftoolsbase:machines/infusing)주입$()하면 이 비용이 줄어듭니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell_simple",
+      "text": "기본 차원 셀은 250,000 RF를 저장하고 최대 1,250 RF/t를 입출력합니다. $(l:rftoolsbase:machines/infusing)주입$()하면 전송 속도가 빨라집니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell",
+      "text": "중급 차원 셀은 1,000,000 RF를 저장하고 최대 5,000 RF/t를 입출력합니다. $(l:rftoolsbase:machines/infusing)주입$()하면 전송 속도가 빨라집니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell_advanced",
+      "text": "고급 차원 셀은 4,000,000 RF를 저장하고 최대 20,000 RF/t를 입출력합니다. $(l:rftoolsbase:machines/infusing)주입$()하면 전송 속도가 빨라집니다."
+    }
+  ]
+}

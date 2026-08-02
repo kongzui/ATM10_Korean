@@ -1,0 +1,51 @@
+{
+  "name": "파워셀",
+  "icon": "rftoolspower:cell1",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:cell1": 0,
+    "rftoolspower:cell2": 0,
+    "rftoolspower:cell3": 0,
+    "rftoolspower:power_core1": 0,
+    "rftoolspower:power_core2": 0,
+    "rftoolspower:power_core3": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)파워셀$()은 많은 전력을 저장합니다. 하나씩 설치하거나 서로 맞닿게 놓아 멀티블록 구조로 연결할 수 있습니다. 등급이 달라도 연결되며, 파워셀끼리 RF를 자동으로 분배합니다."
+    },
+    {
+      "type": "text",
+      "text": "파워셀에는 UI가 없습니다. 원하는 면을 $(l:rftoolsbase:tools/smartwrench)스마트 렌치$()의 $(thing)렌치 모드$()로 사용해 입력, 출력 또는 사용하지 않음으로 설정하세요. 파란색은 입력, 노란색은 출력, 빈 면은 둘 다 사용하지 않음을 뜻합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:power_core1",
+      "recipe2": "rftoolspower:cell1"
+    },
+    {
+      "type": "text",
+      "text": "기본적으로$(item)파워셀(낮음)$()각각 500,000RF를 보유할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:power_core2",
+      "recipe2": "rftoolspower:cell2"
+    },
+    {
+      "type": "text",
+      "text": "기본적으로$(item)파워셀(중형)$()각각 4,000,000RF를 보유할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:power_core3",
+      "recipe2": "rftoolspower:cell3"
+    },
+    {
+      "type": "text",
+      "text": "기본적으로$(item)파워셀(고)$()각각 20,000,000RF를 보유할 수 있습니다. RF가 너무 많네요!"
+    }
+  ]
+}

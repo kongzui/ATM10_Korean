@@ -1,0 +1,11 @@
+{
+  "name": "RFTools 기술 가이드",
+  "landing_text": "RFTools 계열부터 XNet, Deep Resonance와 그 밖의 McJty 기술을 설명하는 통합 가이드입니다.$(br)버그를 발견했다면 $(l:rftoolsbase:basics/bugs)여기$()에 신고해 주세요.",
+  "creative_tab": "rftoolsbase",
+  "dont_generate_book": true,
+  "custom_book_item": "rftoolsbase:manual",
+  "show_progress": false,
+  "book_texture": "rftoolsbase:textures/manual/book_techguide.png",
+  "use_resource_pack": true,
+  "version": 1
+}

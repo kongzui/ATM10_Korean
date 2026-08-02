@@ -1,0 +1,19 @@
+{
+  "name": "손가락",
+  "icon": "rftoolsutility:digit",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:digit": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 블록은 단순히 입력 신호의 강도에 해당하는 0부터 F(16진수)까지의 숫자를 표시합니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "손가락",
+      "recipe": "rftoolsutility:digit"
+    }
+  ]
+}

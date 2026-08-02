@@ -1,0 +1,20 @@
+{
+  "name": "Power Level",
+  "icon": "rftoolspower:power_level",
+  "category": "rftoolsbase:category_rftoolspower_monitor",
+  "extra_recipe_mappings": {
+    "rftoolspower:power_level": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "This logic block can be placed with its input side facing an $(thing)energy block$(). It will show a digit representing the amount of power in that block, and it will also emit a redstone signal with that strength, ranging from 0 to 9."
+    },
+    {
+      "type": "crafting",
+      "heading": "Power Level",
+      "recipe": "rftoolspower:power_level"
+    }
+  ]
+}

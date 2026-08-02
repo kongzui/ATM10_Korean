@@ -1,0 +1,7 @@
+{
+  "name": "전력 저장",
+  "description": "지역적으로나 다차원적으로 전력을 저장하기 위한 솔루션입니다.",
+  "parent": "rftoolsbase:category_rftoolspower",
+  "icon": "rftoolspower:dimensionalcell",
+  "sortnum": 20
+}

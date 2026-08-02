@@ -1,0 +1,49 @@
+{
+  "name": "주입",
+  "icon": "rftoolsbase:machine_infuser",
+  "category": "rftoolsbase:category_machines",
+  "extra_recipe_mappings": {
+    "rftoolsbase:machine_infuser": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)기계 주입기$()는 $(l:rftoolsbase:basics/dimensional_shards)차원 조각$()을 사용해 여러 기계의 $(thing)효율$()을 높입니다. 대부분 전력 요구량이 줄고, 일부 장치는 추가 효과도 얻습니다.$(br2)기계 주입기 자체를 $(thing)주입$()하면 주입기의 전력 사용량이 줄어듭니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbase:machine_infuser",
+      "text": "설치한 다른 모드에 따라 기계 주입기의 추가 용도에 대해서는 뒷면을 참조하세요."
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsutility",
+      "title": "RFTools Utility",
+      "text": "$(li)$(l:rftoolsutility:machines/environmental)환경 제어기$() $(li)$(l:rftoolsutility:machines/dialing_device)다이얼링 장치$() $(li)$(l:rftoolsutility:machines/matter_receiver)물질 수신기$() $(li)$(l:rftoolsutility:machines/matter_transmitter)물질 송신기$()(+속도) $(li)$(l:rftoolsutility:machines/spawner)생성기$() $(li)$(l:rftoolsutility:machines/matter_beamer)물질 빔 발사기$()(+속도, 필요 아이템 감소) $(li)$(l:rftoolsutility:machines/screen_controller)화면 제어기$()(+범위) $(li)$(l:rftoolsutility:machines/crafter)제작기$()"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsstorage",
+      "title": "RFTools Storage",
+      "text": "$(li)$(l:rftoolsstorage:scanner/scanner)저장소 스캐너$()"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolspower",
+      "title": "RFTools Power",
+      "text": "$(li)$(l:rftoolspower:powergeneration/coalgenerator)석탄 발전기$() $(li)$(l:rftoolspower:powergeneration/endergenic)엔더제닉 발전기$()(+발전량, 진주 보관 중 전력 손실 감소) $(li)$(l:rftoolspower:powerstorage/dimensionalcell)차원 셀$()(장거리 RF 추출 비용 감소, RF/t 출력 증가) $(li)$(l:rftoolspower:powergeneration/blazingagitator)블레이징 교반기$()(+가열된 블레이즈 막대 품질) $(li)$(l:rftoolspower:powergeneration/blazinggenerator)블레이징 발전기$()(+발전량)"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsdim",
+      "title": "RFTools 치수",
+      "text": "$(li)$(l:rftoolsdim:dimlets/researcher)연구원$()(+속도)$(li)$(l:rftoolsdim:dimensions/dimension_builder)차원 작성기$()(+속도)"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsbuilder",
+      "title": "RFTools 빌더",
+      "text": "$(li)$(l:rftoolsbuilder:shield/shield_intro)방어막프로젝터$()(+피해값)$(li)$(l:rftoolsbuilder:builder/builder_intro)빌더$()(+속도)"
+    }
+  ]
+}

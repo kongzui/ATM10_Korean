@@ -1,0 +1,7 @@
+{
+  "name": "저장소 스캐너",
+  "description": "주변 인벤토리를 한곳에서 이용하게 해 주는 저장소 스캐너를 설명합니다.",
+  "parent": "rftoolsbase:category_rftoolsstorage",
+  "icon": "rftoolsstorage:storage_scanner",
+  "sortnum": 20
+}

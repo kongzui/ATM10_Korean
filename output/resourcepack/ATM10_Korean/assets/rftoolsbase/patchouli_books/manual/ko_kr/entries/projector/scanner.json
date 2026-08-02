@@ -1,0 +1,19 @@
+{
+  "name": "스캐너",
+  "icon": "rftoolsbuilder:scanner",
+  "category": "rftoolsbase:category_rftoolsbuilder_projector",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:scanner": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "스캐너는 세계의 한 부분을 스캔하고 그 결과를 도형 카드에 저장합니다."
+    },
+    {
+      "type": "text",
+      "text": "왼쪽 위 슬롯에 입력 형상 카드를 넣으세요. 이 카드가 스캔할 영역의 크기와 오프셋을 정합니다.$(br2)$(thing)스캔$()을 누르면 결과가 왼쪽 아래 슬롯의 형상 카드에 기록됩니다."
+    }
+  ]
+}

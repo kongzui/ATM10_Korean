@@ -1,0 +1,29 @@
+{
+  "name": "탱크",
+  "icon": "rftoolsutility:tank",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:tank": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "기본적으로 최대 32 버킷을 담을 수 있는 유체 용기입니다. 필터 슬롯에 특정 유체가 담긴 버킷을 배치하여 유체 유형을 제한할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "탱크",
+      "recipe": "rftoolsutility:tank"
+    },
+    {
+      "type": "text",
+      "title": "사용",
+      "text": "버킷이나 기타 유체 용기를 우클릭하여 탱크를 채우거나 비웁니다. 파이프는 유체 기능과 상호 작용할 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "필터",
+      "text": "필터 슬롯에 채워진 버킷을 넣어 탱크를 해당 유체에 고정합니다. 유체를 다시 허용하려면 필터 아이템을 제거하세요."
+    }
+  ]
+}

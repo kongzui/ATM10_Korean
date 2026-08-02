@@ -507,6 +507,11 @@ TARGETS = (
         "sfm",
         "Super Factory Manager",
     ),
+    Target("rftools", "rftoolsbase-", "rftoolsbase", "RFTools Base"),
+    Target("rftools", "rftoolsbuilder-", "rftoolsbuilder", "RFTools Builder"),
+    Target("rftools", "rftoolspower-", "rftoolspower", "RFTools Power"),
+    Target("rftools", "rftoolsstorage-", "rftoolsstorage", "RFTools Storage"),
+    Target("rftools", "rftoolsutility-", "rftoolsutility", "RFTools Utility"),
 )
 
 FAMILY_LABELS = {
@@ -544,6 +549,7 @@ FAMILY_LABELS = {
     "railcraft_reborn": "Railcraft Reborn",
     "cc_tweaked": "CC: Tweaked·Advanced Peripherals·More Red",
     "super_factory_manager": "Super Factory Manager",
+    "rftools": "RFTools",
 }
 
 QUEST_CHAPTERS = {
@@ -586,6 +592,7 @@ QUEST_CHAPTERS = {
     "railcraft_reborn": ("railcraft",),
     "cc_tweaked": (),
     "super_factory_manager": (),
+    "rftools": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -717,6 +724,14 @@ QUEST_TEXT_MARKERS = {
     "super_factory_manager": (
         "super factory manager",
         "sfm:",
+    ),
+    "rftools": (
+        "rftools",
+        "rftoolsbase",
+        "rftoolsbuilder",
+        "rftoolspower",
+        "rftoolsstorage",
+        "rftoolsutility",
     ),
 }
 
@@ -3934,6 +3949,10 @@ def is_allowed_original(source: str) -> bool:
 
 def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     """모드 고유 식별명처럼 키 문맥에서만 원문 유지가 필요한 값을 판정한다."""
+    if family == "rftools" and (
+        key.startswith("itemGroup.rftools") or key == "key.categories.rftools"
+    ):
+        return True
     if family == "actually_additions" and key in {
         "misc.actuallyadditions.energy_name",
         "misc.actuallyadditions.power_long",

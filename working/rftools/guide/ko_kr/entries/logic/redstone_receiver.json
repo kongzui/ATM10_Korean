@@ -1,0 +1,18 @@
+{
+  "name": "레드스톤 수신기",
+  "icon": "rftoolsutility:redstone_receiver",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:redstone_receiver": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "연결된 레드스톤 송신기의 신호를 받습니다. 이 수신기를 들고 송신기나 연결된 다른 수신기를 우클릭하면 같은 채널에 연결됩니다. 아날로그 모드를 켜면 송신한 신호 강도를 그대로 출력합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:rftoolsbase:logic/redstone_transmitter)레드스톤 송신기$(/l) 또는 $(l:rftoolsbase:machines/screen)화면$(/l)으로 레드스톤 신호를 보내세요."
+    }
+  ]
+}
