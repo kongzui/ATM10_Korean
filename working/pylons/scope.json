@@ -1,0 +1,47 @@
+{
+  "family": "Pylons",
+  "installed": [
+    {
+      "label": "Pylons",
+      "jar": "pylons-1.21.1-5.4.2.jar",
+      "namespace": "pylons",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 94,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "pylons"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 13,
+      "advancement_examples": [
+        "data/pylons/advancement/recipes/misc/block_filter.json",
+        "data/pylons/advancement/recipes/misc/clear_mob_filter.json",
+        "data/pylons/advancement/recipes/misc/clear_player_filter.json",
+        "data/pylons/advancement/recipes/misc/clear_potion_filter.json",
+        "data/pylons/advancement/recipes/misc/expulsion_pylon.json",
+        "data/pylons/advancement/recipes/misc/harvester_pylon.json",
+        "data/pylons/advancement/recipes/misc/infusion_pylon.json",
+        "data/pylons/advancement/recipes/misc/interdiction_pylon.json",
+        "data/pylons/advancement/recipes/misc/lifeless_filter.json",
+        "data/pylons/advancement/recipes/misc/mob_filter.json",
+        "data/pylons/advancement/recipes/misc/player_filter.json",
+        "data/pylons/advancement/recipes/misc/potion_filter.json",
+        "data/pylons/advancement/recipes/misc/protection_pylon.json"
+      ],
+      "recipes": 44
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Pylons",
+      "jar": "pylons-1.21.1-5.4.2.jar",
+      "namespace": "pylons",
+      "english_keys": 94,
+      "new_translation_required": 94
+    }
+  ]
+}

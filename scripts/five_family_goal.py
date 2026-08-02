@@ -518,6 +518,7 @@ TARGETS = (
     Target("xycraft", "xycraft_override-", "xycraft_override", "XyCraft Override"),
     Target("laser_io_mffs", "laserio-", "laserio", "LaserIO"),
     Target("laser_io_mffs", "mffs-", "mffs", "MFFS"),
+    Target("pylons", "pylons-", "pylons", "Pylons"),
 )
 
 FAMILY_LABELS = {
@@ -558,6 +559,7 @@ FAMILY_LABELS = {
     "rftools": "RFTools",
     "xycraft": "XyCraft",
     "laser_io_mffs": "LaserIO·MFFS",
+    "pylons": "Pylons",
 }
 
 QUEST_CHAPTERS = {
@@ -603,6 +605,7 @@ QUEST_CHAPTERS = {
     "rftools": (),
     "xycraft": ("xycraft",),
     "laser_io_mffs": (),
+    "pylons": ("pylons",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -758,6 +761,14 @@ QUEST_TEXT_MARKERS = {
         "modular force field system",
         "modular force fields",
     ),
+    "pylons": (
+        "pylons:",
+        "expulsion pylon",
+        "harvester pylon",
+        "infusion pylon",
+        "interdiction pylon",
+        "protection pylon",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -785,6 +796,7 @@ ALLOWED_ORIGINALS = {
     "Super Factory Manager",
     "SFM",
     "XyCraft",
+    "Pylons",
     "Mekanism",
     "Mekanism: Generators",
     "Mekanism: Tools",
@@ -3989,6 +4001,8 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
         "itemGroup.laserio",
         "advancements.mffs.root.title",
     }:
+        return True
+    if family == "pylons" and key == "itemGroup.pylons":
         return True
     if family == "actually_additions" and key in {
         "misc.actuallyadditions.energy_name",
