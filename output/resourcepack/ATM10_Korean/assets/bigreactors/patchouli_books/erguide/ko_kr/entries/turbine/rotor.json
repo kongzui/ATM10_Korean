@@ -1,0 +1,41 @@
+{
+  "name": "회전자",
+  "icon": "bigreactors:reinforced_turbinerotorshaft",
+  "category": "bigreactors:turbine",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "회전자 설계는 터빈의 $(l:bigreactors:turbine/innerworking)에너지 생산$(/l)에 직접 영향을 주므로 가장 중요한 요소입니다.$(br2)회전자는 네 종류의 블록으로 만듭니다:$(li)$(l:bigreactors:turbine/part-rotorbearing)회전자 베어링$(/l) 하나$(li)$(l:bigreactors:turbine/part-rotorshaft)회전자 축$(/l) 여러 개$(li)$(l:bigreactors:turbine/part-rotorblade)회전자 날개$(/l) 여러 개$(li)$(l:bigreactors:turbine/part-casing)터빈 외장$(/l) 하나"
+    },
+    {
+      "type": "bigreactors:zcmultiblock",
+      "multiblock_id": "bigreactors:bookturbinerotor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)회전자 만들기$()$(br2)회전자는 터빈의 X, Y, Z축 중 어느 방향으로든 만들 수 있습니다.$(br2)첫 블록은 보통 터빈 면 중앙에 놓는 $(l:bigreactors:turbine/part-rotorbearing)회전자 베어링$(/l)입니다.$(br2)베어링에서 시작해 반대편 면의 $(l:bigreactors:turbine/part-casing)터빈 외장$(/l)에 닿을 때까지 $(l:bigreactors:turbine/part-rotorshaft)회전자 축$(/l)을 이어 놓으세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "축을 완성했으면 $(l:bigreactors:turbine/part-rotorblade)회전자 날개$(/l)를 놓으세요. $(l:bigreactors:turbine/part-rotorshaft)회전자 축$(/l)에 직각으로 붙이거나 이미 놓은 날개 옆에 이어 놓을 수 있습니다.$(br2)원하는 조합으로 날개를 필요한 만큼 놓을 수 있습니다.$(br)날개 수와 각 날개의 증기 용량은 회전자 속도에 직접 영향을 줍니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)날개는 몇 개가 필요할까요?$()$(br2)날개 종류마다 회전자를 돌리는 데 $(italic)사용$()할 수 있는 최대 증기량이 정해져 있습니다.$(br2)인벤토리에서 날개에 마우스를 올려 용량을 확인하세요.$(br2)이 값과 제어기 화면에서 설정한 증기 유량을 비교해 필요한 날개 수를 계산하세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)유도 코일$()$(br2)에너지를 실제로 생성하려면 회전자 끝, 즉 닫는 $(l:bigreactors:turbine/part-casing)터빈 외장$(/l) 블록 가까이에 $(l:bigreactors:turbine/coils)유도 코일$(/l)을 놓아야 합니다.$(br2)$(italic)$(l:bigreactors:turbine/part-controller)제어기$(/l) 화면에서 코일을 연결하는 것도 잊지 마세요!$()$(br2)코일 고리는 최대 세 줄까지 놓을 수 있고, 각 고리는 코일 블록을 최대 여덟 개까지 사용합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "여러 코일 종류를 섞어 사용할 수 있으며, 이때 터빈은 모든 코일 속성의 평균값을 사용합니다.$(br2)처음에는 구하기 쉽고 값싼 코일을 사용한 뒤, 희귀하고 비싼 코일을 구할 때마다 조금씩 교체할 수 있습니다.$(br2)다음 페이지에는 앞에서 본 회전자에 $(l:bigreactors:turbine/coils)유도 코일$(/l)을 추가한 예시가 나옵니다."
+    },
+    {
+      "type": "bigreactors:zcmultiblock",
+      "multiblock_id": "bigreactors:bookturbinerotor_coil"
+    }
+  ]
+}

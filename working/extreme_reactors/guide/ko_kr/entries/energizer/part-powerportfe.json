@@ -1,0 +1,22 @@
+{
+  "name": "수동형 FE 전력 포트",
+  "icon": "bigreactors:energizerpowerport_fe",
+  "category": "bigreactors:energizer-parts",
+  "read_by_default": true,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:energizerpowerport_fe",
+      "link_recipe": true,
+      "title": "수동형 FE 전력 포트",
+      "text": "수동형 FE 전력 포트로 에너자이저에 에너지를 넣거나 꺼낼 수 있습니다.$(br2)Forge Energy 호환 케이블이나 기계를 연결할 수 있지만, 연결된 블록이 스스로 에너지를 보내거나 가져가야 합니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Passive FE Power Port",
+      "crafting.recipe1": "bigreactors:energizer/powerport_fe",
+      "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() yes"
+    }
+  ]
+}

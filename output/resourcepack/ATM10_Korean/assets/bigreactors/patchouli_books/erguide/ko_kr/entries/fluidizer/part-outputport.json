@@ -1,0 +1,22 @@
+{
+  "name": "출력 포트",
+  "icon": "bigreactors:fluidizeroutputport",
+  "category": "bigreactors:fluidizer-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:fluidizeroutputport",
+      "link_recipe": true,
+      "title": "출력 포트",
+      "text": "출력 포트로 유체화기의 유체 연료를 꺼낼 수 있습니다.$(br2)파이프를 연결하면 연료를 자동으로 내보냅니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Output Port",
+      "crafting.recipe1": "bigreactors:fluidizer/outputport",
+      "usage.text": "$(l)Mandatory:$() at least one is required$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Forge Energy 전력 탭",
+  "icon": "bigreactors:reinforced_turbinepowertapfe_active",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbinepowertapfe_active",
+      "link_recipe": true,
+      "title": "Forge Energy 전력 탭",
+      "text": "Forge Energy 전력 탭으로 터빈의 에너지를 꺼낼 수 있습니다.$(br2)Forge Energy $(l:bigreactors:misc/powersystem)전력 체계$(/l)로 출력하므로 이 체계와 호환되는 파이프나 기계에만 연결할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "터빈 하나에는 $(l:bigreactors:misc/powersystem)전력 체계$(/l)를 하나만 사용할 수 있으므로 전력 탭도 한 종류만 설치할 수 있습니다.$(br2)전력 탭은 $(l:bigreactors:misc/passiveactiveparts)수동형과 능동형$(/l)으로 제공됩니다."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic (Passive)",
+      "recipe1": "bigreactors:turbine/basic/passivetap_fe",
+      "title2": "Reinforced (Passive)",
+      "recipe2": "bigreactors:turbine/reinforced/passivetap_fe"
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic (Active)",
+      "recipe1": "bigreactors:turbine/basic/activetap_fe",
+      "title2": "Reinforced (Active)",
+      "recipe2": "bigreactors:turbine/reinforced/activetap_fe"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수 여부:$() 없음$(br)$(l)설치 가능 위치:$() 틀이 아닌 모든 면$(br)$(l)종류:$() 전체$(br)$(l)화면:$() 없음$(br)$(l)전력 체계:$() Forge Energy"
+    }
+  ]
+}

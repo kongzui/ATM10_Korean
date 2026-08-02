@@ -1,0 +1,22 @@
+{
+  "name": "외장",
+  "icon": "bigreactors:reprocessorcasing",
+  "category": "bigreactors:reprocessor-parts",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reprocessorcasing",
+      "link_recipe": true,
+      "title": "외장",
+      "text": "외장은 재처리기의 기본 구성 블록입니다.$(br2)틀을 만들고 다른 부품을 제작하는 데 필요합니다. 유리를 쓰지 않으려면 재처리기의 면도 외장으로 채울 수 있습니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Casing",
+      "crafting.recipe1": "bigreactors:reprocessor/casing",
+      "usage.text": "$(l)Mandatory:$() they are required to build the frame$(br)$(l)Valid positions:$() any$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

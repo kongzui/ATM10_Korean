@@ -1,0 +1,83 @@
+{
+  "family": "Extreme Reactors·ZeroCore",
+  "installed": [
+    {
+      "label": "Extreme Reactors",
+      "jar": "ExtremeReactors2-1.21.1-2.4.28.jar",
+      "namespace": "bigreactors",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 522,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "bigreactors"
+      ],
+      "guide_candidates": 99,
+      "guide_examples": [
+        "assets/bigreactors/models/item/erguide.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/energizer-parts.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/energizer.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/fluidizer-parts.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/fluidizer.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/intro.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/misc.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/reactor-operational_mode.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/reactor-parts.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/reactor-variants.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/reactor.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/reprocessor-parts.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/reprocessor.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/turbine-parts.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/turbine-variants.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/categories/turbine.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/entries/energizer/howtobuild.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/entries/energizer/part-casing.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/entries/energizer/part-cell.json",
+        "assets/bigreactors/patchouli_books/erguide/en_us/entries/energizer/part-computerport.json"
+      ],
+      "advancements": 157,
+      "advancement_examples": [
+        "data/bigreactors/advancement/recipes/building_blocks/energizer/casing.json",
+        "data/bigreactors/advancement/recipes/building_blocks/energizer/chargingport_fe.json",
+        "data/bigreactors/advancement/recipes/building_blocks/energizer/computerport.json",
+        "data/bigreactors/advancement/recipes/building_blocks/energizer/controller.json",
+        "data/bigreactors/advancement/recipes/building_blocks/energizer/powerport_fe.json",
+        "data/bigreactors/advancement/recipes/building_blocks/energizer/powerport_fe_active.json",
+        "data/bigreactors/advancement/recipes/building_blocks/fluidizer/casing.json",
+        "data/bigreactors/advancement/recipes/building_blocks/fluidizer/controller.json",
+        "data/bigreactors/advancement/recipes/building_blocks/fluidizer/fluidinjector.json",
+        "data/bigreactors/advancement/recipes/building_blocks/fluidizer/glass.json",
+        "data/bigreactors/advancement/recipes/building_blocks/fluidizer/outputport.json",
+        "data/bigreactors/advancement/recipes/building_blocks/fluidizer/powerport.json",
+        "data/bigreactors/advancement/recipes/building_blocks/fluidizer/solidinjector.json",
+        "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/activetap_fe.json",
+        "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/casing.json",
+        "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/casing_recycle.json",
+        "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/casing_recycle_glass.json",
+        "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/chargingfe.json",
+        "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/controller_ingots_uranium.json",
+        "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/controller_ingots_yellorium.json"
+      ],
+      "recipes": 314
+    },
+    {
+      "label": "ZeroCore",
+      "jar": "ZeroCore2-1.21.1-2.4.21.jar",
+      "namespace": "zerocore",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 50,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "zerocore"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": []
+}

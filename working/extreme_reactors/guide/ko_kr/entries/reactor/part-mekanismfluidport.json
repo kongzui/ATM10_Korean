@@ -1,0 +1,22 @@
+{
+  "name": "Mekanism 유체 포트",
+  "icon": "bigreactors:reinforced_reactorfluidport_mekanism_passive",
+  "category": "bigreactors:reactor-parts",
+  "read_by_default": true,
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_reactorfluidport_mekanism_passive",
+      "link_recipe": true,
+      "title": "Mekanism 유체 포트",
+      "text": "Mekanism 유체 포트는 $(l:bigreactors:reactor/active)능동 냉각$(/l) 원자로의 증기를 Mekanism 화학 기체로 꺼냅니다.$(br2)원자로 속 유체에 Mekanism 회전식 조합법이 있으면 증기를 자동으로 기체로 바꾸며, 조합법에 정의된 변환 비율을 따릅니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Reinforced (Passive)",
+      "crafting.recipe1": "bigreactors:reactor/reinforced/passivefluidport_mekanism",
+      "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() Reinforced$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

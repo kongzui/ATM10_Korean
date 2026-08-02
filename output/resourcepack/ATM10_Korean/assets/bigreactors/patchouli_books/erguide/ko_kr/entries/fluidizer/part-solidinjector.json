@@ -1,0 +1,22 @@
+{
+  "name": "고체 주입기",
+  "icon": "bigreactors:fluidizersolidinjector",
+  "category": "bigreactors:fluidizer-parts",
+  "read_by_default": true,
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:fluidizersolidinjector",
+      "link_recipe": true,
+      "title": "고체 주입기",
+      "text": "고체 주입기로 주괴 같은 고체 연료를 유체화기에 넣어 유체로 바꾸거나, 다른 연료와 섞어 새 연료를 만들 수 있습니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Solid Injector",
+      "crafting.recipe1": "bigreactors:fluidizer/solidinjector",
+      "usage.text": "$(l)Mandatory:$() see $(l:bigreactors:fluidizer/operational_mode)operational mode$(/l)$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() yes"
+    }
+  ]
+}

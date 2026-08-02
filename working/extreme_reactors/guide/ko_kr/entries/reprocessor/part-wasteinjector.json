@@ -1,0 +1,22 @@
+{
+  "name": "폐기물 주입기",
+  "icon": "bigreactors:reprocessorwasteinjector",
+  "category": "bigreactors:reprocessor-parts",
+  "read_by_default": true,
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reprocessorwasteinjector",
+      "link_recipe": true,
+      "title": "폐기물 주입기",
+      "text": "폐기물 주입기로 원자로의 폐기물을 재처리기에 넣습니다.$(br2)화면에서 손으로 넣거나 파이프를 연결해 자동으로 공급할 수 있습니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Waste Injector",
+      "crafting.recipe1": "bigreactors:reprocessor/wasteinjector",
+      "usage.text": "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() top face (not on frame)$(br)$(l)Graphical interface:$() yes"
+    }
+  ]
+}

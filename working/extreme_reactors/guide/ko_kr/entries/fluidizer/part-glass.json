@@ -1,0 +1,22 @@
+{
+  "name": "유리",
+  "icon": "bigreactors:fluidizerglass",
+  "category": "bigreactors:fluidizer-parts",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:fluidizerglass",
+      "link_recipe": true,
+      "title": "유리",
+      "text": "유리는 외장 대신 사용해 유체화기 내부를 보여 주는 장식 블록입니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Glass",
+      "crafting.recipe1": "bigreactors:fluidizer/glass",
+      "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

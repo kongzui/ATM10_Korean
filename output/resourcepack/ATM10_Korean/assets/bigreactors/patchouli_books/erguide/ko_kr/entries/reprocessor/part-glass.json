@@ -1,0 +1,22 @@
+{
+  "name": "유리",
+  "icon": "bigreactors:reprocessorglass",
+  "category": "bigreactors:reprocessor-parts",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reprocessorglass",
+      "link_recipe": true,
+      "title": "유리",
+      "text": "유리는 외장 대신 사용해 재처리기 내부를 보여 주는 장식 블록입니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Glass",
+      "crafting.recipe1": "bigreactors:reprocessor/glass",
+      "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any vertical face (not on frame)$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

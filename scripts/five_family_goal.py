@@ -467,6 +467,13 @@ TARGETS = (
         "Actually Additions",
     ),
     Target("oritech", "oritech-neoforge-", "oritech", "Oritech"),
+    Target(
+        "extreme_reactors",
+        "ExtremeReactors2-",
+        "bigreactors",
+        "Extreme Reactors",
+    ),
+    Target("extreme_reactors", "ZeroCore2-", "zerocore", "ZeroCore"),
 )
 
 FAMILY_LABELS = {
@@ -500,6 +507,7 @@ FAMILY_LABELS = {
     "just_dire_things": "Just Dire Things",
     "actually_additions": "Actually Additions",
     "oritech": "Oritech",
+    "extreme_reactors": "Extreme Reactors·ZeroCore",
 }
 
 QUEST_CHAPTERS = {
@@ -538,6 +546,7 @@ QUEST_CHAPTERS = {
     "just_dire_things": ("justdirethings",),
     "actually_additions": (),
     "oritech": ("oritech",),
+    "extreme_reactors": ("extreme_reactors",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -648,6 +657,12 @@ QUEST_TEXT_MARKERS = {
         "actuallyadditions",
     ),
     "oritech": ("oritech",),
+    "extreme_reactors": (
+        "extreme reactors",
+        "big reactors",
+        "bigreactors",
+        "zerocore",
+    ),
 }
 
 EXTRA_SCOPE = {

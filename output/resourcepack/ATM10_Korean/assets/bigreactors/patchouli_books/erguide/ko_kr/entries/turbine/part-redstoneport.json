@@ -1,0 +1,39 @@
+{
+  "name": "레드스톤 포트",
+  "icon": "bigreactors:reinforced_turbineredstoneport",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbineredstoneport",
+      "link_recipe": true,
+      "title": "레드스톤 포트",
+      "text": "레드스톤 포트로 레드스톤 신호를 사용해 터빈을 자동화할 수 있습니다.$(br2)포트 화면을 열어 설정하세요. 신호를 받는 입력 설정 세 가지와 신호를 내보내는 출력 설정 네 가지 중에서 선택할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)입력 설정$()$(br2)레드스톤 신호를 받으면 다음 동작 중 하나를 수행합니다.$(br2)$(li)$(o)켜기/끄기: $()받은 신호에 따라 터빈을 켜거나 끕니다.$(li)$(o)유도 코일: $()유도 코일을 연결하거나 연결 해제합니다.$(li)$(o)유량: $()터빈 내부 증기의 최대 유량을 변경합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)출력 설정$()$(br2)다음 조건 중 하나를 만족하면 레드스톤 신호를 내보냅니다.$(br2)$(li)$(o)회전자 속도: $()회전자 속도가 설정값보다 높거나 낮거나 범위 안에 있을 때입니다.$(li)$(o)냉각재 양: $()냉각재 양이 설정값보다 높거나 낮거나 범위 안에 있을 때입니다.$(li)$(o)증기 양: $()증기 양이 설정값보다 높거나 낮거나 범위 안에 있을 때입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(o)저장된 에너지: $()내부 에너지 버퍼의 에너지 양이 설정값보다 높거나 낮거나 범위 안에 있을 때 신호를 출력합니다.$(br2)터빈을 완전히 자동화하려면 보통 레드스톤 포트가 두 개 이상 필요합니다.$(br2)더 복잡한 자동화는 $(l:bigreactors:turbine/part-computerport)컴퓨터 포트$(/l)를 확인하세요."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic",
+      "recipe1": "bigreactors:turbine/basic/redstoneport",
+      "title2": "Reinforced",
+      "recipe2": "bigreactors:turbine/reinforced/redstoneport"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수:$() 아니요$(br)$(l)설치 가능 위치: $() 모든 면(프레임에 없음)$(br)$(l)종류:$() 모두$(br)$(l)화면: $() 예"
+    }
+  ]
+}

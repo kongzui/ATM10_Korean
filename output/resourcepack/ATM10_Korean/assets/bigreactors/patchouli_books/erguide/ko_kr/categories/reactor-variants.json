@@ -1,0 +1,7 @@
+{
+  "name": "종류",
+  "description": "원자로 부품의 여러 종류를 설명합니다.$(br2)일부 부품은 특정 종류에서 기능을 지원하지 않아 사용할 수 없습니다.",
+  "icon": "bigreactors:basic_reactorpowertapfe_active",
+  "parent": "bigreactors:reactor",
+  "sortnum": 2
+}

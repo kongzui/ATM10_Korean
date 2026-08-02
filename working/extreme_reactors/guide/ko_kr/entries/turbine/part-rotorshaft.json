@@ -1,0 +1,27 @@
+{
+  "name": "회전자 축",
+  "icon": "bigreactors:reinforced_turbinerotorshaft",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbinerotorshaft",
+      "link_recipe": true,
+      "title": "회전자 축",
+      "text": "회전자 축은 터빈 $(l:bigreactors:turbine/rotor)회전자$(/l)의 중심 부품입니다.$(br2)축 블록은 터빈 안에서 $(l:bigreactors:turbine/part-rotorbearing)회전자 베어링$(/l)부터 반대편 $(l:bigreactors:turbine/part-casing)터빈 외장$(/l)까지 끊김 없이 이어져야 합니다.$(br2)"
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic",
+      "recipe1": "bigreactors:turbine/basic/shaft",
+      "title2": "Reinforced",
+      "recipe2": "bigreactors:turbine/reinforced/shaft"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수 여부:$() 있음$(br)$(l)설치 가능 위치:$() 터빈 내부$(br)$(l)종류:$() 전체$(br)$(l)화면:$() 없음"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "family": "Extreme Reactors·ZeroCore",
+  "languages": [
+    {
+      "label": "Extreme Reactors",
+      "jar": "ExtremeReactors2-1.21.1-2.4.28.jar",
+      "namespace": "bigreactors",
+      "english_keys": 522,
+      "korean_keys": 522,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 522
+    },
+    {
+      "label": "ZeroCore",
+      "jar": "ZeroCore2-1.21.1-2.4.21.jar",
+      "namespace": "zerocore",
+      "english_keys": 50,
+      "korean_keys": 50,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 50
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 0,
+    "project_output_reuse": 0,
+    "new_or_edited": 572
+  },
+  "ftbquests": {
+    "chapters": [
+      "extreme_reactors.snbt"
+    ],
+    "quests_checked": 33,
+    "tasks_checked": 54,
+    "display_keys_checked": 78,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 3,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 5,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

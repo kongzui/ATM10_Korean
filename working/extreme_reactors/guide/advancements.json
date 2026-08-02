@@ -1,0 +1,944 @@
+[
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/energizer/casing.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/energizer/chargingport_fe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/energizer/computerport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/energizer/controller.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/energizer/powerport_fe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/energizer/powerport_fe_active.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/fluidizer/casing.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/fluidizer/controller.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/fluidizer/fluidinjector.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/fluidizer/glass.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/fluidizer/outputport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/fluidizer/powerport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/fluidizer/solidinjector.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/activetap_fe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/casing.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/casing_recycle.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/casing_recycle_glass.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/chargingfe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/controller_ingots_uranium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/controller_ingots_yellorium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/controlrod.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/fuelrod_ingots_uranium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/fuelrod_ingots_yellorium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/glass.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/passivetap_fe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/redstoneport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/basic/solidaccessport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/activefluidport_forge.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/activetap_fe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/casing.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/casing_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/casing_recycle.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/casing_recycle_glass.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/casing_upgrade.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/casing_upgrade_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/chargingfe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/computerport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/computerport_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/controller_ingots_uranium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/controller_ingots_yellorium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/controlrod.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/controlrod_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/fluidaccessport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/fluidaccessport_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/fuelrod_alt_ingots_uranium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/fuelrod_alt_ingots_yellorium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/fuelrod_ingots_uranium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/fuelrod_ingots_yellorium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/glass.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/passivefluidport_forge.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/passivefluidport_mekanism.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/passivetap_fe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/redstoneport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/redstoneport_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/solidaccessport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reactor/reinforced/solidaccessport_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reprocessor/casing.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reprocessor/collector.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reprocessor/controller.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reprocessor/fluidinjector.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reprocessor/glass.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reprocessor/outputport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reprocessor/powerport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/reprocessor/wasteinjector.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/activefluidport_forge.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/activetap_fe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/bearing.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/blade.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/casing.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/casing_recycle.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/casing_recycle_glass.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/chargingfe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/controller.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/glass.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/passivefluidport_forge.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/passivetap_fe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/redstoneport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/basic/shaft.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/inanite_block.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/insanite_block.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/ludicrite_block.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/activefluidport_forge.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/activetap_fe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/bearing.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/bearing_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/blade.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/blade_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/casing.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/casing_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/casing_recycle.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/casing_recycle_glass.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/casing_upgrade.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/casing_upgrade_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/chargingfe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/computerport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/computerport_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/controller.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/glass.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/passivefluidport_forge.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/passivetap_fe.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/redstoneport.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/redstoneport_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/shaft.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/reinforced/shaft_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/building_blocks/turbine/ridiculite_block.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/fluidmixing/redfrigium_1.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/fluidmixing/redfrigium_2.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/fluidmixing/verderium_1.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/fluidmixing/verderium_2.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solid/blutonium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solid/blutonium9.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solid/cyanite.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solid/cyanite9.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solid/magentite.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solid/magentite9.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solid/yellorium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solid/yellorium9.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solidmixing/cryomisi_1.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solidmixing/cryomisi_2.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solidmixing/tangerium_1.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solidmixing/tangerium_2.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solidmixing/verderium9_1.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solidmixing/verderium9_2.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solidmixing/verderium_1.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/fluidizer/solidmixing/verderium_2.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/blasting/graphite_from_charcoal.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/blasting/graphite_from_coal.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/blasting/graphite_from_coalblock.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/blasting/yellorium_from_ore.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/blasting/yellorium_from_raw.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/blutonium_component_to_storage.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/blutonium_storage_to_component.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/cyanite_component_to_storage.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/cyanite_storage_to_component.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/graphite_component_to_storage.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/graphite_storage_to_component.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/magentite_component_to_storage.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/magentite_storage_to_component.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/raw_yellorium_component_to_storage.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/raw_yellorium_storage_to_component.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/yellorium_component_to_storage.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/crafting/yellorium_storage_to_component.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/energizer/energizercell.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/energizer/energycore.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/misc/book/erguide.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/misc/book/erguide_alt.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/smelting/graphite_from_charcoal.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/smelting/graphite_from_coal.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/smelting/graphite_from_coalblock.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/smelting/yellorium_from_ore.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/misc/smelting/yellorium_from_raw.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/reprocessor/blutonium_to_ludicrite.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/reprocessor/cyanite_to_blutonium.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/reprocessor/ludicrite_to_ridiculite.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/reprocessor/ridiculite_to_inanite.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/reprocessor/rossinite_to_insanite.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/bigreactors/advancement/recipes/tools/misc/wrench.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  }
+]

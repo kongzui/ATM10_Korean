@@ -1,0 +1,16 @@
+{
+  "name": "전력 체계",
+  "icon": "minecraft:redstone_block",
+  "category": "bigreactors:misc",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Extreme Reactors의 에너지 생성기는 특정 전력 체계에 종속되지 않도록 설계되었습니다.$(br2)생성된 에너지는 내부 버퍼에 저장되며, 전력 탭으로 꺼낼 때 연결된 전력 체계에 맞게 변환됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "원자로나 터빈에 설치한 전력 탭이 기계의 출력 전력 체계를 결정합니다.$(br2)현재는 $(l:bigreactors/part-forgepowertap)Forge Energy 전력 탭$(/l)이 있으며, $(bold)Forge Energy$() 장치로 에너지를 보냅니다.$(br2)새 전력 탭 종류를 추가하면 다른 전력 체계도 지원할 수 있습니다."
+    }
+  ]
+}

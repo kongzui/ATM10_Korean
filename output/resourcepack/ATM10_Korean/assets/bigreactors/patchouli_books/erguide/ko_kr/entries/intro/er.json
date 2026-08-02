@@ -1,0 +1,31 @@
+{
+  "name": "Extreme Reactors",
+  "icon": "bigreactors:basic_reactorcasing",
+  "category": "bigreactors:intro",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Minecraft용 $(bold)Extreme Reactors$() 모드에 오신 것을 환영합니다. 고급 원자로와 터빈으로 막대한 원자력 에너지를 다룰 수 있습니다. 여러 발전 구조를 조합해 필요한 용량과 효율에 맞는 전력 설비를 만드세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)개요$()$(br)$(bold)Extreme Reactors$()에서는 여러 부품과 구성을 사용해 원자로와 터빈을 만들고 관리합니다. 에너지 생산과 유체 흐름을 조절해 효율 높은 발전 체계를 구축할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)주요 장치$()$(li)$(o)$(bold)원자로:$() 발전 설비의 중심입니다. 수동 냉각과 능동 냉각 중 하나를 선택하고 연료 종류, 제어봉 삽입량, 폐기물 배출을 관리해 성능을 최적화하세요.$(li)$(o)$(bold)터빈:$() 원자로가 만든 증기로 복잡한 회전자를 돌려 에너지를 생성합니다. 기본형부터 강화형까지 다양한 설계로 유체 입출력과 발전량을 필요에 맞게 확장할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)자동화와 제어$()$(br)레드스톤 신호로 원자로와 터빈을 제어하면 다른 Minecraft 기계와 연동할 수 있습니다. 유체, 에너지, 폐기물을 다루는 여러 포트와 화면을 이용해 설비 전체를 자동화하세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)건설과 구성$()$(br)원자로와 터빈에는 외장, 회전자 축, 유도 코일과 여러 포트가 필요합니다. 이 가이드는 각 부품의 조립 방법과 효율적인 설정을 설명합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)시작하기$()$(br)$(bold)Extreme Reactors$()를 익히면서 에너지 생산과 관리의 균형을 찾아보세요. 모드 플레이 경험과 관계없이 이 가이드에서 원자력 발전에 필요한 지식과 도구를 배울 수 있습니다."
+    }
+  ]
+}

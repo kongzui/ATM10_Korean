@@ -1,0 +1,26 @@
+{
+  "name": "연료 주입 포트",
+  "icon": "bigreactors:reinforced_reactorfluidaccessport",
+  "category": "bigreactors:reactor-parts",
+  "read_by_default": true,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reinforced_reactorfluidaccessport",
+      "link_recipe": true,
+      "title": "연료 주입 포트",
+      "text": "연료 주입 포트는 원자로의 $(l:bigreactors:reactor/part-fuelrod)연료봉$(/l)에 유체 연료를 넣고 유체 폐기물을 꺼냅니다.$(br2)화면에서 포트를 $(bold)입력 모드$()로 설정하면 유체 연료를 받고, $(bold)출력 모드$()로 설정하면 유체 폐기물을 내보냅니다."
+    },
+    {
+      "type": "crafting-text",
+      "text": "$(l:bigreactors/wrench)렌치$(/l)로 포트의 입력·출력 모드를 바꿀 수 있습니다.$(br2)고체 반입출 포트와 달리 연료 주입 포트를 사용하면 재료가 손실되지 않습니다.",
+      "title1": "Reinforced",
+      "recipe": "bigreactors:reactor/reinforced/fluidaccessport"
+    },
+    {
+      "type": "part_usage",
+      "text": "$(l)필수 여부:$() 없음$(br)$(l)설치 가능 위치:$() 틀이 아닌 모든 면$(br)$(l)종류:$() 강화$(br)$(l)화면:$() 있음$(br)$(l)렌치:$() $(l:bigreactors:misc/wrench)렌치$(/l)로 포트 모드를 전환할 수 있습니다."
+    }
+  ]
+}

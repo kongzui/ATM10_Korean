@@ -1,0 +1,31 @@
+{
+  "name": "Forge 충전 포트",
+  "icon": "bigreactors:reinforced_reactorchargingportfe",
+  "category": "bigreactors:reactor-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_reactorchargingportfe",
+      "link_recipe": true,
+      "title": "Forge 충전 포트",
+      "text": "Forge 충전 포트는 $(l:bigreactors/passive)수동 냉각$(/l) 원자로에 저장된 에너지로 Forge Energy $(l:bigreactors/powersystem)전력 체계$(/l)를 사용하는 아이템을 충전합니다.$(br2)포트 화면을 열고 충전할 아이템을 가운데 입력 슬롯에 넣으세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "아이템의 에너지 버퍼가 가득 차면 수집할 수 있도록 자동으로 인터페이스 출력 슬롯으로 이동됩니다.$(br2)어떤 이유로든 충전 프로세스를 중지해야 하는 경우 꺼내기 버튼을 눌러 항목을 출력 슬롯으로 즉시 이동하세요."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic",
+      "recipe1": "bigreactors:reactor/basic/chargingfe",
+      "title2": "Reinforced",
+      "recipe2": "bigreactors:reactor/reinforced/chargingfe"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수:$() 아니요$(br)$(l)설치 가능 위치: $() 모든 면(프레임에 없음)$(br)$(l)종류:$() 모두$(br)$(l)화면: $() 예"
+    }
+  ]
+}

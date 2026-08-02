@@ -1,0 +1,31 @@
+{
+  "name": "Forge 충전 포트",
+  "icon": "bigreactors:reinforced_turbinechargingportfe",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbinechargingportfe",
+      "link_recipe": true,
+      "title": "Forge 충전 포트",
+      "text": "Forge 충전 포트는 터빈에 저장된 에너지로 Forge Energy $(l:bigreactors:misc/powersystem)전력 체계$(/l)를 사용하는 아이템을 충전합니다.$(br2)포트 화면을 열고 충전할 아이템을 가운데 입력 슬롯에 넣으세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "아이템의 에너지 버퍼가 가득 차면 출력 슬롯으로 자동 이동합니다.$(br2)충전을 중단하려면 배출 버튼을 눌러 아이템을 즉시 출력 슬롯으로 옮기세요."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic",
+      "recipe1": "bigreactors:turbine/basic/chargingfe",
+      "title2": "Reinforced",
+      "recipe2": "bigreactors:turbine/reinforced/chargingfe"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수:$() 아니요$(br)$(l)설치 가능 위치: $() 모든 면(프레임에 없음)$(br)$(l)종류:$() 모두$(br)$(l)화면: $() 예"
+    }
+  ]
+}

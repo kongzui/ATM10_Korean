@@ -1,0 +1,20 @@
+{
+  "jar": "ExtremeReactors2-1.21.1-2.4.28.jar",
+  "localized_guide_files": 93,
+  "book_files": 1,
+  "total_guide_files": 94,
+  "advancements": 157,
+  "advancements_with_display": 0,
+  "advancements_with_literal_display": 0,
+  "kubejs_reference_files": [
+    "kubejs/assets/extreme_reactors2/lang/pt_br.json",
+    "kubejs/client_scripts/RecipeViewer.js",
+    "kubejs/server_scripts/modpack/att_items.js",
+    "kubejs/server_scripts/mods/ExtremeReactors/Recipes.js",
+    "kubejs/server_scripts/mods/MysticalAgriculture/Compatibility.js",
+    "kubejs/server_scripts/Tweaks/tags.js",
+    "kubejs/server_scripts/Unification/ingots.js"
+  ],
+  "kubejs_foreign_language_files_excluded": 1,
+  "kubejs_visible_literals": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "건설 방법",
+  "icon": "bigreactors:reprocessorcollector",
+  "category": "bigreactors:reprocessor",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "재처리기는 가로 3블록, 세로 3블록, 높이 7블록이며 외장과 다른 장치 부품으로 만듭니다.$(br)기계의 수직 면에서는 외장 대신 유리를 사용할 수 있지만 틀에는 사용할 수 없습니다.$(br2)부품별 설치 위치 제한은 각 재처리기 부품 페이지에서 확인하세요."
+    },
+    {
+      "type": "zcmultiblock",
+      "multiblock_id": "bigreactors:bookreprocessor"
+    }
+  ]
+}

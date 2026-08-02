@@ -1,0 +1,22 @@
+{
+  "name": "유체 주입기",
+  "icon": "bigreactors:reprocessorfluidinjector",
+  "category": "bigreactors:reprocessor-parts",
+  "read_by_default": true,
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reprocessorfluidinjector",
+      "link_recipe": true,
+      "title": "유체 주입기",
+      "text": "유체 주입기로 폐기물 재처리에 필요한 유체를 공급합니다.$(br2)폐기물 종류에 따라 필요한 유체가 다를 수 있습니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Fluid Injector",
+      "crafting.recipe1": "bigreactors:reprocessor/fluidinjector",
+      "usage.text": "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() any vertical face (not on frame)$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

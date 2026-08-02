@@ -1,0 +1,27 @@
+{
+  "name": "유리",
+  "icon": "bigreactors:reinforced_turbineglass",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbineglass",
+      "link_recipe": true,
+      "title": "유리",
+      "text": "유리는 $(l:bigreactors:turbine/part-casing)터빈 외장$(/l) 대신 사용해 터빈 내부를 보여 주는 장식 블록입니다."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic",
+      "recipe1": "bigreactors:turbine/basic/glass",
+      "title2": "Reinforced",
+      "recipe2": "bigreactors:turbine/reinforced/glass"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수 여부:$() 없음$(br)$(l)설치 가능 위치:$() 틀이 아닌 모든 면$(br)$(l)종류:$() 전체$(br)$(l)화면:$() 없음"
+    }
+  ]
+}

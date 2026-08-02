@@ -1,0 +1,17 @@
+{
+  "name": "작동 원리",
+  "icon": "bigreactors:basic_turbinerotorbearing",
+  "category": "bigreactors:turbine",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "터빈은 어떻게 에너지를 생성할까요?$(br2)$(l:bigreactors/rotor)회전자$(/l)를 돌려서 생성합니다.$(br2)터빈의 증기 탱크에 있는 유체는 $(l:bigreactors/part-controller)제어기$(/l) 화면에서 설정한 유량에 따라 $(l:bigreactors/rotor)회전자$(/l) 공간으로 들어갑니다.$(br2)각 $(l:bigreactors/part-rotorblade)회전자 날개$(/l)가 증기를 조금씩 받아 $(l:bigreactors/rotor)회전자$(/l)를 돌립니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bigreactors/coils)유도 코일$(/l)을 $(l:bigreactors/part-controller)연결$(/l)하면 $(l:bigreactors/rotor)회전자$(/l) 속도와 모든 코일의 평균 효율·저항 값에 따라 에너지가 생성됩니다.$(br2)$(italic)이 설명은 좋은 터빈을 설계하는 데 필요한 정도로 실제 내부 작동을 단순화한 내용입니다.$()"
+    }
+  ]
+}

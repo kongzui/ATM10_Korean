@@ -1,0 +1,22 @@
+{
+  "name": "외장",
+  "icon": "bigreactors:energizercasing",
+  "category": "bigreactors:energizer-parts",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:energizercasing",
+      "link_recipe": true,
+      "title": "외장",
+      "text": "외장 블록은 에너자이저의 구성 블록입니다.$(br2)프레임과 면을 만드는 데 필요하며 다른 부품을 만드는 데도 사용됩니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Casing",
+      "crafting.recipe1": "bigreactors:energizer/casing",
+      "usage.text": "$(l)Mandatory:$() they are required to build the frame and the faces$(br)$(l)Valid positions:$() any$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "컴퓨터 포트",
+  "icon": "bigreactors:energizercomputerport",
+  "category": "bigreactors:energizer-parts",
+  "read_by_default": true,
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:energizercomputerport",
+      "link_recipe": true,
+      "title": "컴퓨터 포트",
+      "text": "컴퓨터 포트로 에너자이저를 컴퓨터에 연결해 상태 정보를 읽을 수 있습니다.$(br2)연결된 컴퓨터에는 표준 메서드가 제공되며, 이를 호출해 에너자이저 상태를 조회할 수 있습니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Computer Port",
+      "crafting.recipe1": "bigreactors:energizer/computerport",
+      "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

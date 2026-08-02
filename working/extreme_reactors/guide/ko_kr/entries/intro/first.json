@@ -1,0 +1,66 @@
+{
+  "name": "첫 원자로",
+  "icon": "bigreactors:basic_reactorcasing",
+  "category": "bigreactors:intro",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "원자로는 아주 많은 에너지를 생산하는 멀티블록 기계입니다.$(br2)멀티블록 기계는 월드에 여러 블록을 서로 맞닿게 배치해 만듭니다.$(br2)원자로 제작과 가동에는 옐로륨 주괴가 필요하므로 옐로라이트 광석을 채굴해 제련하세요."
+    },
+    {
+      "type": "bigreactors:zcmultiblock",
+      "multiblock_id": "bigreactors:bookfirstbasicreactor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "첫 원자로를 만들려면 다음 기본 원자로 블록을 준비하세요:$(br2)$(li)외장 22개$(li)제어기 1개$(li)제어봉 1개$(li)연료봉 1개$(li)고체 반입출 포트 1개$(li)능동형 Forge Energy 전력 탭 1개$(br2)유리는 선택 사항이며 외장 블록으로 대신할 수 있습니다."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Casing",
+      "recipe1": "bigreactors:reactor/basic/casing",
+      "title2": "Glass",
+      "recipe2": "bigreactors:reactor/basic/glass"
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Controller",
+      "recipe1": "bigreactors:reactor/basic/controller_ingots_uranium",
+      "title2": "Control Rod",
+      "recipe2": "bigreactors:reactor/basic/controlrod"
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Fuel Rod",
+      "recipe1": "bigreactors:reactor/basic/fuelrod_ingots_uranium",
+      "title2": "Access Port",
+      "recipe2": "bigreactors:reactor/basic/solidaccessport"
+    },
+    {
+      "type": "bigreactors:crafting-text",
+      "title": "Forge 전력 탭",
+      "recipe": "bigreactors:reactor/basic/activetap_fe",
+      "text": "필요한 블록을 모두 만들었다면 첫 원자로를 건설할 준비가 되었습니다.$(br2)아래 도면처럼 블록을 놓고, 중앙 연료봉 아래에는 외장을 놓으세요."
+    },
+    {
+      "type": "bigreactors:zcmultiblock",
+      "multiblock_id": "bigreactors:bookfirstbasicreactor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "마지막 블록을 놓으면 원자로가 완성되고 제어기를 우클릭해 화면을 열 수 있습니다.$(br2)완성되지 않으면 설치한 블록을 우클릭하세요. 문제를 설명하는 오류 메시지가 표시됩니다. 오류를 고친 뒤 원자로가 완성되었는지 다시 확인하세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "원자로가 준비되었으니 연료를 넣을 차례입니다.$(br2)옐로륨 주괴를 더 준비하고 고체 반입출 포트를 우클릭하세요. 포트를 입력 모드로 바꾼 뒤 주괴를 입력 슬롯에 넣습니다.$(br2)주괴는 빠르게 소비되어 원자로 연료로 바뀝니다.$(br2)제어기 화면을 열고 원자로를 켜세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "원자로가 가열되면 에너지가 서서히 생성되어 내부 에너지 버퍼에 저장됩니다.$(br2)저장된 에너지를 사용하려면 능동형 Forge 전력 탭에 에너지 파이프나 기계를 연결하세요.$(br)연결된 블록이 에너지를 받을 수 있으면 전력 탭이 에너지를 보냅니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "축하합니다. 첫 원자로를 완성했습니다!$(br2)게임 초반에 필요한 에너지를 생산하고, 가이드의 나머지 내용을 읽은 뒤 더 큰 원자로와 터빈을 만들어 보세요."
+    }
+  ]
+}

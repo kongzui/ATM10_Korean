@@ -1,0 +1,20 @@
+{
+  "name": "크리에이티브 증기 생성기",
+  "icon": "bigreactors:reinforced_turbinecreativesteamgenerator",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbinecreativesteamgenerator",
+      "link_recipe": true,
+      "title": "증기 생성기",
+      "text": "증기 생성기는 터빈에 증기를 계속 공급하는 크리에이티브 전용 부품입니다.$(br2)터빈이 켜져 있을 때만 해당 부품 종류가 허용하는 최대량까지 증기 탱크에 자동으로 증기를 공급합니다."
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수 여부:$() 없음$(br)$(l)설치 가능 위치:$() 틀이 아닌 모든 면$(br)$(l)종류:$() 전체$(br)$(l)화면:$() 없음$(br)$(l)크리에이티브 모드:$() 크리에이티브 전용이며 조합법이 없습니다."
+    }
+  ]
+}

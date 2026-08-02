@@ -1,0 +1,17 @@
+{
+  "name": "건설 방법",
+  "icon": "bigreactors:energizercell",
+  "category": "bigreactors:energizer",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "에너자이저는 에너지 셀로 완전히 채워진 외장 블록과 기타 장치 부품의 조합으로 제작된 3x3x3(최소 크기) 기계입니다.$(br2)각 부품을 배치할 수 있는 위치에 대한 제한 사항은 각 에너자이저 부품 페이지를 확인하세요."
+    },
+    {
+      "type": "zcmultiblock",
+      "multiblock_id": "bigreactors:bookenergizer"
+    }
+  ]
+}

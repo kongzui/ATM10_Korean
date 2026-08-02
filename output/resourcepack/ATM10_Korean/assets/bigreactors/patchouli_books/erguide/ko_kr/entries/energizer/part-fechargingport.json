@@ -1,0 +1,26 @@
+{
+  "name": "FE 충전 포트",
+  "icon": "bigreactors:energizerchargingport_fe",
+  "category": "bigreactors:energizer-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:energizerchargingport_fe",
+      "link_recipe": true,
+      "title": "FE 충전 포트",
+      "text": "Forge 충전 포트는 에너자이저에 저장된 에너지로 Forge Energy $(l:bigreactors:misc/powersystem)전력 체계$(/l)를 사용하는 아이템을 충전합니다.$(br2)포트 화면을 열고 충전할 아이템을 가운데 입력 슬롯에 넣으세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "아이템의 에너지 버퍼가 가득 차면 출력 슬롯으로 자동 이동합니다.$(br2)충전을 중단하려면 배출 버튼을 눌러 아이템을 즉시 출력 슬롯으로 옮기세요."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "FE Charging Port",
+      "crafting.recipe1": "bigreactors:energizer/chargingport_fe",
+      "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() yes"
+    }
+  ]
+}

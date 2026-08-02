@@ -1,0 +1,17 @@
+{
+  "name": "강화",
+  "icon": "bigreactors:reinforced_reactorcasing",
+  "category": "bigreactors:turbine-variants",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "강화형은 필요한 만큼 큰 터빈을 만들어 막대한 에너지를 생성할 수 있습니다.$(br2)최대 크기는 Extreme Reactors 설정에서 플레이어, 모드팩 제작자나 서버 관리자가 최대 256블록까지 지정할 수 있습니다.$(br2)강화 터빈은 회전자를 돌리는 데 최대 2000mB/t의 증기를 사용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "강화 터빈은 구조가 튼튼하고 발전 용량이 매우 크지만, 제작 비용이 더 들고 다른 종류보다 효율이 낮습니다. 큰 발전 용량이 이런 단점을 충분히 보완합니다."
+    }
+  ]
+}

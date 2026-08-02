@@ -1,0 +1,17 @@
+{
+  "name": "Inner workings",
+  "icon": "bigreactors:basic_turbinerotorbearing",
+  "category": "bigreactors:turbine",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "How does a Turbine generate energy?$(br2)By spinning its $(l:bigreactors/rotor)Rotor$(/l).$(br2)The fluid from the Turbine Vapor Fluid Tank is pumped into the $(l:bigreactors/rotor)Rotor$(/l) chamber at the rate you configured in the $(l:bigreactors/part-controller)Controller$(/l) graphical interface.$(br2)A small amount of the vapor is captured by each $(l:bigreactors/part-rotorblade)Rotor Blade$(/l), causing the $(l:bigreactors/rotor)Rotor$(/l) to spin."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When the $(l:bigreactors/coils)Induction Coils$(/l) are $(l:bigreactors/part-controller)engaged$(/l), energy is generated depending on the $(l:bigreactors/rotor)Rotor$(/l) speed and the average values of properties like efficiency and drag amount of all your coil blocks.$(br2)$(italic)Please note that, while this overview allows you to create the best Turbines possible, it is an oversimplification of what's really going on inside your Turbine.$()"
+    }
+  ]
+}

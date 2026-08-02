@@ -1,0 +1,15 @@
+{
+  "name": "익스트림 렌치",
+  "icon": "bigreactors:wrench",
+  "category": "bigreactors:misc",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:wrench",
+      "link_recipe": true,
+      "title": "익스트림 렌치",
+      "text": "익스트림 렌치는 말 그대로 렌치입니다.$(br2)반입출 포트나 유체 포트 같은 부품의 입력·출력 모드를 바꿀 수 있습니다.$(br2)Forge 렌치 태그가 지정되어 있어 다른 모드에서도 사용할 수 있습니다."
+    }
+  ]
+}

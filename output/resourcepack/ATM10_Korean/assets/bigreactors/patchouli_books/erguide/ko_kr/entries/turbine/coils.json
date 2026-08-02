@@ -1,0 +1,21 @@
+{
+  "name": "유도 코일",
+  "icon": "minecraft:gold_block",
+  "category": "bigreactors:turbine",
+  "read_by_default": true,
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "유도 코일은 보통 금속 블록이며, 회전자 축 둘레에 놓습니다. 코일을 연결하면 회전 속도를 낮추는 대신 에너지를 추출합니다.$(br2)코일 종류에 따라 회전 중인 회전자에서 에너지를 뽑는 효율과 속도가 다릅니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "보통 희귀하거나 제작 비용이 높은 블록일수록 성능이 좋습니다.$(br2)Extreme Reactors는 기본적으로 여러 Minecraft 및 모드 블록을 유도 코일로 등록합니다.$(br2)다른 모드나 모드팩에서 유도 코일을 추가하거나 기본값을 변경·제거할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "유효한 코일만 터빈 내부의 회전자 축 둘레에 놓을 수 있습니다. 유효하지 않은 블록을 넣으면 멀티블록이 완성되지 않습니다.$(br2)유도 코일로 사용할 수 있는 블록은 Minecraft의 $(italic)고급 툴팁$() 기능(F3 + H)을 켰을 때 전용 툴팁으로 확인할 수 있습니다."
+    }
+  ]
+}

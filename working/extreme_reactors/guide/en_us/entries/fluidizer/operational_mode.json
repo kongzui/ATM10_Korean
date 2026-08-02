@@ -1,0 +1,17 @@
+{
+  "name": "Operational mode",
+  "icon": "bigreactors:verderium_bucket",
+  "category": "bigreactors:fluidizer",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Fluidizer can process materials in the following three different modes, depending on the type and number of Injectors in the machine:$(br2)$(li)$(o)Solid mode: $() turns solid fuel sources (like ingots) into fluid fuel. To enable this mode, you need one, and only one, Solid Injector in the machine"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(o)Solid Mixing mode: $() turns two solid fuel sources (like ingots) into fluid and mixes them to create a new fuel type. To enable this mode, you need two, and only two, Solid Injectors in the machine.$(li)$(o)Fluid Mixing mode: $() mixes two fluid fuels into a new fuel type. To enable this mode, you need two, and only two, Fluid Injectors in the machine."
+    }
+  ]
+}

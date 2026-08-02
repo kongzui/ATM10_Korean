@@ -1,0 +1,7 @@
+{
+  "name": "유체화기 부품",
+  "description": "유체화기는 다음 부품으로 만듭니다.$(br2)모든 부품이 필수이지만, 유리는 기계의 네 수직 면에서 외장을 대신할 수 있고 주입기는 작동 방식에 맞춰 선택합니다.$(br2)주입기의 종류와 수에 따라 $(l:bigreactors:fluidizer/operational_mode)작동 방식$(/l)이 결정됩니다.",
+  "icon": "bigreactors:fluidizercontroller",
+  "parent": "bigreactors:fluidizer",
+  "sortnum": 5
+}

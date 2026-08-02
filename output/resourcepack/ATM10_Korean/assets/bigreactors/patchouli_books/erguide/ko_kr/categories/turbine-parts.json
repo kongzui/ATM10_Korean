@@ -1,0 +1,7 @@
+{
+  "name": "터빈 부품",
+  "description": "터빈은 다음 부품으로 만듭니다.$(br2)필수 부품과 선택 부품이 있으며, 터빈 종류에 따라 사용할 수 없는 부품도 있습니다. 각 부품 페이지에서 종류별 사용 가능 여부를 확인하세요.",
+  "icon": "bigreactors:basic_turbinecontroller",
+  "parent": "bigreactors:turbine",
+  "sortnum": 3
+}
