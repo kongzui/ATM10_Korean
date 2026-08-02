@@ -1,0 +1,15 @@
+{
+  "family": "Oritech",
+  "chapters": {
+    "oritech": {
+      "display_keys": 85,
+      "new_translation_required": 83,
+      "project_output_review": 2
+    },
+    "related": {
+      "display_keys": 4,
+      "new_translation_required": 3,
+      "project_output_review": 1
+    }
+  }
+}

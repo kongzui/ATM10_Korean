@@ -1,0 +1,153 @@
+{
+  "oritech": {
+    "quest.01C0DC225CB25A0C.quest_subtitle": "헌터 애드온을 사용하면 레이저가 몹을 표적으로 삼을 수 있습니다.",
+    "quest.01C0DC225CB25A0C.title": "몹에게 상처를 줌",
+    "quest.02315D55EB638E3C.quest_subtitle": "바이오매스를 만들어 활용하세요",
+    "quest.0C9F9196CA49FF8D.quest_subtitle": "여행을 시작하려면 니켈 광석을 찾으세요",
+    "quest.0C9F9196CA49FF8D.title": "Oritech의 시작",
+    "quest.0EC0F93FA4B4BE49.quest_desc": [
+      "이 기계는 &5Enderic Lasers&r를 통해서만 전원을 공급받을 수 있습니다. 고가의 아이템을 제작하는 데 사용됩니다."
+    ],
+    "quest.0EC0F93FA4B4BE49.quest_subtitle": "궁극의 제작 기계",
+    "quest.114EACA9B32B32FB.quest_subtitle": "당신은 거래를 알고...",
+    "quest.11A4C57600E692EC.quest_subtitle": "기계의 에너지 용량 증가",
+    "quest.124CD4B8876B81F6.quest_subtitle": "생산한 전력을 저장하세요.",
+    "quest.124CD4B8876B81F6.title": "에너지 저장",
+    "quest.161EDD68FF1A7F1B.quest_subtitle": "용암 위를 달리다",
+    "quest.1630CFBFB562C43B.quest_subtitle": "액체연료를 이용해 전력생산",
+    "quest.175509632CBF8631.quest_desc": [
+      "모든 분쇄 레시피의 수율이 향상됩니다."
+    ],
+    "quest.175509632CBF8631.quest_subtitle": "더 나은 분쇄기",
+    "quest.1831B35A3239B583.quest_subtitle": "여러 레시피를 한 번에 만들기",
+    "quest.1B2BD489D5173B40.quest_subtitle": "이것을 얻는 방법은 다양합니다",
+    "quest.1D9A00C81C2A97F0.quest_subtitle": "압도적",
+    "quest.1DBF1D4061518B0B.quest_subtitle": "하나를 더 많은 것으로 바꾸다",
+    "quest.1DBF1D4061518B0B.title": "광석 정제",
+    "quest.1F139091C1B4E50B.quest_subtitle": "정상적인 회로",
+    "quest.208F759905CF7744.quest_desc": [
+      "드론 포트는 상당히 빠르지만 작동하려면 최소 &450 블록&r 거리가 필요합니다.",
+      "",
+      "드론 포트를 사용하려면 두 개를 설치하세요. 한 포트에 &5표적 지정기&r를 들고 &a웅크린 채 우클릭&r하여 위치를 저장한 다음, 다른 포트의 UI를 열고 그 안에 &5표적 지정기&r를 넣으세요.",
+      "",
+      "이제 &5표적 지정자&r를 입력한 드론 포트에 아이템이 있으면 드론을 발사하여 아이템을 운반합니다."
+    ],
+    "quest.208F759905CF7744.quest_subtitle": "응, 드론도 있어",
+    "quest.24310BEACE75749D.quest_desc": [
+      "애드온은 &5Oritech&r에 대한 모듈뿐만 아니라 업그레이드로도 작동합니다.",
+      "",
+      "애드온은 슬롯처럼 보이는 플러그에 추가됩니다. 애드온 수는 사용되는 기계 핵에 따라 다릅니다.",
+      "",
+      "",
+      "{image:atm:textures/questpics/oritech/ori-addon-slot.png width:50 height:100 align:left}",
+      "",
+      "애드온은 또한 기계에 애드온을 추가합니다. 때로는 레시피가 작동할 수 있도록 특정 애드온을 추가해야 할 수도 있습니다."
+    ],
+    "quest.24310BEACE75749D.quest_subtitle": "가치있게 만들기",
+    "quest.290C1416EA2B5DF2.quest_subtitle": "좀 건조한 것 같아",
+    "quest.2A69272FD3C57924.quest_subtitle": "약간 더 좋음",
+    "quest.310FA9380CB3E0BB.quest_subtitle": "원심분리기에 액체를 추가할 수 있습니다.",
+    "quest.334AB2ED426108C7.quest_subtitle": "원하는 대로 부르세요. 갈기갈기 찢어지죠",
+    "quest.35BC118040E7428F.quest_desc": [
+      "엔데릭 레이저는 다양한 용도로 사용됩니다.",
+      "",
+      "1. 그들은 매우 보기 좋은 방식으로 에너지를 전달할 수 있습니다.",
+      "2. 재료를 변환하는 데 사용됩니다.",
+      "3. 그들은 블록을 부술 수 있습니다.",
+      "4. 그들은 자수정 성장을 가속화합니다."
+    ],
+    "quest.35BC118040E7428F.quest_subtitle": "고양이 주변에서는 사용하지 마세요.",
+    "quest.38F4448F9603FE68.quest_subtitle": "2 위대함을 향한 추가 단계",
+    "quest.3DD27DED791C6A0B.quest_desc": [
+      "&5Oritech&r를 사용하여 광석을 처리하려면 &6Fluid Addon&r 및 &aPulveriser&r와 함께 &aCentrifuge&r를 사용해야 합니다. &6Fragment Forge&r."
+    ],
+    "quest.3DD27DED791C6A0B.quest_subtitle": "최대 출력",
+    "quest.3DD27DED791C6A0B.title": "광석 처리",
+    "quest.3EB34CC8A3B0DB3C.quest_subtitle": "햄스터 사료로는 작동하지 않습니다.",
+    "quest.418E0A23EC74F320.quest_desc": [
+      "미래의 노력을 위한 중요한 기계입니다."
+    ],
+    "quest.418E0A23EC74F320.quest_subtitle": "당신은 내 머리를 둥글게 돌리고 있습니다...",
+    "quest.46EFCAE81C09368A.quest_desc": [
+      "기계 핵는 &9Oritech&r의 기본을 구성합니다. 기계 핵가 있는 머신을 우클릭하여 빌드하세요.",
+      "",
+      "이는 기계의 속도나 효율성에 직접적인 영향을 주지 않고 수정자 수에만 영향을 미칩니다."
+    ],
+    "quest.46EFCAE81C09368A.quest_subtitle": "모든 기계는 기계 핵를 사용합니다.",
+    "quest.46EFCAE81C09368A.title": "기계 핵",
+    "quest.49D03933633D6A45.quest_subtitle": "It's AI",
+    "quest.4CFA7EE8174E3FD8.quest_subtitle": "에너지 투입율 증가",
+    "quest.4EAD06B0B3AD7D6E.quest_subtitle": "조각 원시 광석",
+    "quest.4EAD06B0B3AD7D6E.title": "덩어리",
+    "quest.4ED29ACF4A699E1B.quest_subtitle": "더 좋아",
+    "quest.4F89C04CEBF812F9.quest_subtitle": "보석을 주괴로 제련하세요",
+    "quest.4F89C04CEBF812F9.title": "잉곳",
+    "quest.50243E5CF1B156ED.quest_desc": [
+      "&5플루토늄 더스트&r를 얻으려면 Fragment Forge에서 &aRaw Uranium&r를 조각화하여 &5Small Plutonium Dust&r를 획득하거나 &5Enderic을 발사해야 합니다. &aUranite Crystal&r의 레이저&r."
+    ],
+    "quest.50243E5CF1B156ED.quest_subtitle": "우라나이트에서 플루토늄까지",
+    "quest.5189D72ED3808DC6.quest_desc": [
+      "&aShift를 우클릭&r 자수정 클러스터의 대상 지정자를 누른 다음 &ashift를 우클릭&r 레이저를 우클릭하여 대상을 설정합니다.",
+      "",
+      "이 작은 크리스탈은 보기에 좋을 뿐만 아니라 그 이상의 역할을 합니다. 그들은 에너지를 저장할 수 있으며 더 복잡한 기계를 만드는 데 사용됩니다."
+    ],
+    "quest.5189D72ED3808DC6.quest_subtitle": "레이저로 자수정 충전",
+    "quest.53880926982968FD.quest_subtitle": "내 이름을 말해봐",
+    "quest.53D5A6F210DF199C.quest_subtitle": "10k rf/t를 원활하게 전송",
+    "quest.53D5A6F210DF199C.title": "에너지 전달",
+    "quest.55DCCC4035B8BB2A.quest_subtitle": "네더라이트와 백금을 혼합하세요",
+    "quest.58819CE09A648A43.quest_subtitle": "이는 대부분의 기계를 만드는 데 사용됩니다.",
+    "quest.58819CE09A648A43.title": "기본 건물 구성요소",
+    "quest.5932B5AD48F6AB74.quest_desc": [
+      "&5Pipe Booster&r와 함께 전원을 사용하여 &2Oritech&r 파이프의 추출 속도를 높입니다."
+    ],
+    "quest.5932B5AD48F6AB74.quest_subtitle": "더 빠르게 만듭니다",
+    "quest.5E9AF8BB2C67DCCE.quest_subtitle": "액체를 운반하는 다양한 방법",
+    "quest.5E9AF8BB2C67DCCE.title": "액체 운반",
+    "quest.5F8363EC8F4499B6.quest_subtitle": "합금 만들기",
+    "quest.6134991F25B25B42.quest_desc": [
+      "&l어셈블러&r를 사용하면 &a새로운 아이템&r를 제작할 수 있을 뿐만 아니라 일부 다른 아이템의 수율도 향상됩니다."
+    ],
+    "quest.6134991F25B25B42.quest_subtitle": "공예가 그 이상",
+    "quest.6134991F25B25B42.title": "물건을 하나로 모으기",
+    "quest.6539582429A70EE8.quest_subtitle": "Oritech은 이 팩의 대부분의 소스에서 생성된 전력을 사용할 수 있습니다.",
+    "quest.6EBFA16D212A7B22.quest_subtitle": "최고",
+    "quest.6FFD0301AC8C83ED.quest_subtitle": "더 적은 에너지 사용",
+    "quest.7032AC2B9066CC39.quest_desc": [
+      "애드온 슬롯에 배치하면 애드온을 배치할 수 있는 더 많은 공간을 얻게 됩니다."
+    ],
+    "quest.7032AC2B9066CC39.quest_subtitle": "더 많은 애드온!",
+    "quest.7084E47579D62B52.quest_subtitle": "더 많은 작업을 수행할 수 있는 회로",
+    "quest.70FAD4013FA8A14A.quest_subtitle": "처리 속도를 높이세요",
+    "quest.72E7AE66F2A7C4C4.quest_subtitle": "기계에 유체 사용",
+    "quest.7937DE650CABC1FF.quest_subtitle": "용광로 연료로 작동",
+    "quest.7CBAD1047B087803.quest_desc": [
+      "이제 &eclumps&r가 생겼습니다. 원심분리기의 유체 애드온을 사용하면 &a황산&r를 여기에 입력할 수 있습니다. &eclumps&r를 이 산으로 처리하면 보석을 얻을 수 있습니다.",
+      "",
+      "또는 더 낮은 수율을 위해 &9Water&r를 사용할 수 있습니다.",
+      "",
+      "&l&o&nNote&r",
+      "",
+      "현재, 먼지나 덩어리를 출력하는 일부 레시피가 손상되었습니다."
+    ],
+    "quest.7CBAD1047B087803.quest_subtitle": "덩어리를 원심분리하면 보석이 나오는데....?",
+    "quest.7CBAD1047B087803.title": "보석으로 변해가는 중",
+    "quest.7D2F41DD9774DDA7.title": "물품 운반",
+    "task.2687A493F6A78164.title": "보석",
+    "task.3CC9C741B461AD4B.title": "덩어리",
+    "task.400E42F53FDE783C.title": "잉곳",
+    "task.6E85FE06F0AA556A.title": "보석",
+    "task.7C454550A8F933AC.title": "발전",
+    "task.7C85CBE79E91F28B.title": "애드온"
+  },
+  "related": {
+    "quest.28DB59B20109D0D4.quest_desc": [
+      "&6&lOritech&r는 많은 &l멀티블록 기계&r, 위험한 블록 및 다채로운 제목 블록으로 알려진 기술 모드입니다(알아보세요!). \\n\\n많은 기계, 다양한 합금 및 재료, 그리고 많은 시간이 필요합니다. \\n\\n시작하려면 &6자기 코일&r가 필요합니다. 행운을 빕니다!"
+    ],
+    "quest.28DB59B20109D0D4.title": "&6&lOritech",
+    "quest.486B5A605D79EA10.quest_desc": [
+      "&cManhattan &aModule&r는 복잡한 레시피입니다. &cTNT&r, &d플루토늄 펠릿&r 및 &5Heisenberg Compensators&r가 필요합니다. 좋아요, 어쩌면 2/3가 복잡할 수도 있습니다. \\n\\n&d플루토늄 펠릿&r를 만들려면 먼저 &5A메시스트 파편&r에 에너지를 공급하세요. 이렇게 하면 &5Fluxite&r가 만들어지며, &l&5입자 가속기&r에서 &aUranium Dust&r와 함께 사용하여 &d플루토늄을 만들 수 있습니다. 먼지&r. \\n\\n&d플루토늄 가루&r는 플라스틱 시트와 주괴로 제작하여 &dPellets&r를 만들 수 있습니다. \\n\\n &5Heisenberg Compensator&r에는 사용할 수 있는 2 레시피가 있습니다. 각각에는 &c&lAtomic Forge&r부터 &cEngrave&r까지 &bAdamant Ingots&r가 필요합니다. \\n\\n1. &bUnholy Intelligence&r와 함께 있습니다. 이는 &2Dubious Container&r를 &5Strange Matter&r로 채워서 생성됩니다. &5Strange Matter&r는 &cLava&r 및 &3Enderic 화합물&r를 &d&lFluid를 통해 배치하여 발견됩니다. 2 추가 챔버가 부착된 Refinery&r. \\n\\n2. &e슈퍼 AI 칩&r와 함께 있습니다. &2&lMinecraft&r의 AI? 예, 그리고 제작을 위해서는 &c&lAtomic Forge&r와 함께 &cEngraving&r의 레시피 트리가 필요합니다. 확실히 &8Silicon&r가 많이 있습니다."
+    ],
+    "quest.486B5A605D79EA10.title": "&c맨해튼 &a모듈"
+  }
+}

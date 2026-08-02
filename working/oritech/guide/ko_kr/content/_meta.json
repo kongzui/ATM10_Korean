@@ -1,0 +1,14 @@
+{
+  "arcane": "아케인",
+  "building": "빌딩 블록",
+  "components": "구성 요소",
+  "equipment": "장비",
+  "generate_meta.sh": "메타 생성",
+  "machines": "기계",
+  "nuclear": "핵무기",
+  "particle": "입자 가속기",
+  "logistics": "기호 논리학",
+  "resources": "자원",
+  "collect_ids.sh": "ID 수집",
+  "create_dirs.sh": "디렉토리 생성"
+}

@@ -1,0 +1,75 @@
+{
+  "family": "Oritech",
+  "installed": [
+    {
+      "label": "Oritech",
+      "jar": "oritech-neoforge-1.21.1-1.2.8.jar",
+      "namespace": "oritech",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 1255,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "oritech"
+      ],
+      "guide_candidates": 75,
+      "guide_examples": [
+        "assets/oracle_index/books/oritech/content/_meta.json",
+        "assets/oracle_index/books/oritech/content/arcane/_meta.json",
+        "assets/oracle_index/books/oritech/content/building/_meta.json",
+        "assets/oracle_index/books/oritech/content/components/_meta.json",
+        "assets/oracle_index/books/oritech/content/equipment/_meta.json",
+        "assets/oracle_index/books/oritech/content/logistics/_meta.json",
+        "assets/oracle_index/books/oritech/content/machines/_meta.json",
+        "assets/oracle_index/books/oritech/content/machines/addons/_meta.json",
+        "assets/oracle_index/books/oritech/content/machines/augmentations/_meta.json",
+        "assets/oracle_index/books/oritech/content/machines/gantries/_meta.json",
+        "assets/oracle_index/books/oritech/content/machines/powergen/_meta.json",
+        "assets/oracle_index/books/oritech/content/machines/processing/_meta.json",
+        "assets/oracle_index/books/oritech/content/machines/utility/_meta.json",
+        "assets/oracle_index/books/oritech/content/nuclear/_meta.json",
+        "assets/oracle_index/books/oritech/content/particle/_meta.json",
+        "assets/oracle_index/books/oritech/content/resources/_meta.json",
+        "assets/oracle_index/books/oritech/content/resources/world/_meta.json",
+        "assets/oracle_index/books/oritech/data/oritech/properties/item.json",
+        "assets/oracle_index/books/oritech/docs/_meta.json",
+        "assets/oracle_index/books/oritech/docs/getting_started/_meta.json"
+      ],
+      "advancements": 296,
+      "advancement_examples": [
+        "data/oritech/advancement/recipes/building_blocks/crafting/slab/carbon.json",
+        "data/oritech/advancement/recipes/building_blocks/crafting/slab/iron.json",
+        "data/oritech/advancement/recipes/building_blocks/crafting/slab/machine.json",
+        "data/oritech/advancement/recipes/building_blocks/crafting/slab/nickel.json",
+        "data/oritech/advancement/recipes/building_blocks/crafting/stairs/carbon.json",
+        "data/oritech/advancement/recipes/building_blocks/crafting/stairs/iron.json",
+        "data/oritech/advancement/recipes/building_blocks/crafting/stairs/machine.json",
+        "data/oritech/advancement/recipes/building_blocks/crafting/stairs/nickel.json",
+        "data/oritech/advancement/recipes/misc/adamant_blockblock.json",
+        "data/oritech/advancement/recipes/misc/adamant_blockblockinv.json",
+        "data/oritech/advancement/recipes/misc/adamant_ingot_from_blasting_adamant_dust.json",
+        "data/oritech/advancement/recipes/misc/adamant_ingot_from_smelting_adamant_dust.json",
+        "data/oritech/advancement/recipes/misc/biomass_blockblock.json",
+        "data/oritech/advancement/recipes/misc/biomass_blockblockinv.json",
+        "data/oritech/advancement/recipes/misc/biosteel_blockblock.json",
+        "data/oritech/advancement/recipes/misc/biosteel_blockblockinv.json",
+        "data/oritech/advancement/recipes/misc/biosteel_ingot_from_blasting_biosteel_dust.json",
+        "data/oritech/advancement/recipes/misc/biosteel_ingot_from_smelting_biosteel_dust.json",
+        "data/oritech/advancement/recipes/misc/blasting/compat/create/crushed_nickel_to_nickel_ingot.json",
+        "data/oritech/advancement/recipes/misc/blasting/compat/create/crushed_platinum_to_platinum_ingot.json"
+      ],
+      "recipes": 1261
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Oritech",
+      "jar": "oritech-neoforge-1.21.1-1.2.8.jar",
+      "namespace": "oritech",
+      "english_keys": 1255,
+      "new_translation_required": 1255
+    }
+  ]
+}

@@ -466,6 +466,7 @@ TARGETS = (
         "actuallyadditions",
         "Actually Additions",
     ),
+    Target("oritech", "oritech-neoforge-", "oritech", "Oritech"),
 )
 
 FAMILY_LABELS = {
@@ -498,6 +499,7 @@ FAMILY_LABELS = {
     "industrial_foregoing": "Industrial Foregoing·Industrial Foregoing Souls",
     "just_dire_things": "Just Dire Things",
     "actually_additions": "Actually Additions",
+    "oritech": "Oritech",
 }
 
 QUEST_CHAPTERS = {
@@ -535,6 +537,7 @@ QUEST_CHAPTERS = {
     "industrial_foregoing": ("industrial_foregoing",),
     "just_dire_things": ("justdirethings",),
     "actually_additions": (),
+    "oritech": ("oritech",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -644,6 +647,7 @@ QUEST_TEXT_MARKERS = {
         "actually additions",
         "actuallyadditions",
     ),
+    "oritech": ("oritech",),
 }
 
 EXTRA_SCOPE = {
@@ -751,6 +755,7 @@ ALLOWED_ORIGINALS = {
     "Soulplied Energistics",
     "Just Dire Things",
     "Actually Additions",
+    "Oritech",
     "&lIndustrial Foregoing",
     "&bIndustrial Foregoing &#27AEB9Souls",
     "XOR",

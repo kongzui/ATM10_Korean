@@ -1,0 +1,37 @@
+---
+title: 애드온 접합기
+id: oritech:shrinker_block
+type: block
+custom:
+    RF 용량: "50,000,000"
+    최대 RF 입력: "833,333"
+    필요한 코어: "4"
+    애드온 슬롯: "1"
+---
+
+애드온 스플라이서는
+ 여러 기계 애드온을 단일 블록으로 압축하는 데 사용되는 멀티블록입니다.
+ 다양한 애드온을
+[기계의 심장(애드온)](@oritech:machine_combi_addon)로 결합할 수 있습니다.
+
+<center>
+<ModAsset location="oritech:area/shrinker_area" width={512} />
+</center>
+
+---
+
+**압축 공정**
+
+접합기를 사용하려면 결합할 애드온을 확장기에 연결하고 기계의 에너지를 가득 채우세요.
+인터페이스에서 작동시키거나 레드스톤으로 **중앙부**에 전력을 공급하면,
+월드에 설치된 애드온 블록을 소모하고 결합 블록 하나를 인벤토리로 출력합니다.
+
+<center>
+<ModAsset location="oritech:area/shrinker_setup_area" width={512} />
+</center>
+
+<Callout variant="warning">
+    압축은 되돌릴 수 없습니다. 속도, 효율, 생산량처럼 기계 능력치에 영향을 주는 애드온만 접합할 수 있습니다.
+    증기 보일러, 레드스톤, 인벤토리 프록시, 사냥처럼 직접 상호작용이 필요한 애드온은 압축할 수 없습니다.
+    또한 "기계의 심장"은 다른 애드온과 결합할 수 없으며 단독으로만 장착해야 합니다.
+</Callout>

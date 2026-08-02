@@ -1,0 +1,26 @@
+{
+  "mdx_files": 165,
+  "meta_files": 20,
+  "advancements": {
+    "displayed": 27,
+    "literal_display": [],
+    "missing_translation_keys": []
+  },
+  "kubejs": {
+    "reference_files": [
+      "data/apotheosis/data_maps/item/loot_category_overrides.json",
+      "data/oritech/recipe/pulverizer/coal.json",
+      "data/oritech/worldgen/configured_feature/resource_node_common.json",
+      "data/oritech/worldgen/configured_feature/resource_node_rare.json",
+      "server_scripts/announcements/announcements.js",
+      "server_scripts/modpack/att_items.js",
+      "server_scripts/mods/Oritech/recipes.js",
+      "server_scripts/mods/Oritech/tags.js",
+      "server_scripts/Tweaks/tags.js",
+      "server_scripts/Unification/creosote.js"
+    ],
+    "direct_visible_literal_files": []
+  },
+  "errors": [],
+  "status": "complete"
+}
