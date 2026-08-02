@@ -133,11 +133,11 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Modular Routers               | 모듈러 라우터                    | 모듈을 조합해 아이템·블록·엔티티 작업을 자동화     | 본체, 전용 퀘스트 챕터                                                                                                                             | 완료   | 신규: 자주 쓰는 범용 자동화         |
 | CC: Tweaked                   | CC: 트위크드                     | Lua 컴퓨터와 주변기기로 자동화를 프로그래밍        | Advanced Peripherals, More Red CC 호환                                                                                                             | 완료   | 신규: 독립 프로그래밍 시스템        |
 | Super Factory Manager         | 슈퍼 팩토리 매니저               | 텍스트 기반 규칙으로 공장 물류를 제어              | 본체, SFML 예제와 관련 퀘스트                                                                                                                      | 완료   | 신규: 독립 물류 프로그래밍 UI       |
-| RFTools                       | 알에프툴즈                       | 건축·전력·유틸리티·저장 장치를 제공하는 기술 모음  | Base, Builder, Power, Storage, Utility                                                                                                             | 미작업 | 신규: 설치된 주요 기술 모음         |
-| XyCraft                       | 자이크래프트                     | 자원, 기계, 저장 탱크와 기술 블록을 제공           | Core, Machines, World, Override                                                                                                                    | 미작업 | 신규: 전용 퀘스트 챕터              |
-| LaserIO·MFFS                  | 레이저 IO·MFFS                   | 레이저 물류망과 에너지 방어장·포스 필드를 제공     | 두 본체와 관련 연동                                                                                                                                | 미작업 | 신규: 독립 기술 UI와 설정 다수      |
-| Steve's Carts                 | 스티브 카트                      | 모듈식 광산 수레를 조립해 운송과 작업을 자동화     | 본체, 관련 조합법과 가이드                                                                                                                         | 미작업 | 신규: 영어 709키의 독립 자동화      |
-| Pylons                        | 파일런                           | 범위형 효과·수확·청크 관련 자동화 장치를 제공      | 본체, 전용 퀘스트 챕터                                                                                                                             | 미작업 | 신규: ATM 퀘스트에 포함             |
+| RFTools                       | 알에프툴즈                       | 건축·전력·유틸리티·저장 장치를 제공하는 기술 모음  | Base, Builder, Power, Storage, Utility, 관련 퀘스트·Patchouli·KubeJS·발전 과제·설정                                                                | 완료   | 신규: 설치된 주요 기술 모음         |
+| XyCraft                       | 자이크래프트                     | 자원, 기계, 저장 탱크와 기술 블록을 제공           | Core, Machines, World, Override, 전용 퀘스트·KubeJS·발전 과제                                                                                     | 완료   | 신규: 전용 퀘스트 챕터              |
+| LaserIO·MFFS                  | 레이저 IO·MFFS                   | 레이저 물류망과 에너지 방어장·포스 필드를 제공     | 두 본체, 관련 퀘스트·Patchouli·KubeJS·발전 과제                                                                                                   | 완료   | 신규: 독립 기술 UI와 설정 다수      |
+| Steve's Carts                 | 스티브 카트                      | 모듈식 광산 수레를 조립해 운송과 작업을 자동화     | 본체, 관련 퀘스트·KubeJS·발전 과제                                                                                                                | 완료   | 신규: 영어 709키의 독립 자동화      |
+| Pylons                        | 파일런                           | 범위형 효과·수확·청크 관련 자동화 장치를 제공      | 본체, 전용·관련 퀘스트·발전 과제                                                                                                                  | 완료   | 신규: ATM 퀘스트에 포함             |
 
 ### 농업·자원 생산·몹 자동화
 
@@ -239,5 +239,10 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
   영어 원문에 대조하고, 직접 연동 모드·FTB Quests·KubeJS·가이드·발전 과제·기타 표시 경로를
   계열별로 검수해 각각 커밋하고 실제 게임 적용까지 확인. Super Factory Manager는 새 언어
   280키와 게임 내 SFML 예제 17개를 완료
+- **추가 기술·자동화 모드군 5개:** RFTools, XyCraft, LaserIO·MFFS, Pylons,
+  Steve's Carts의 언어 2,369키와 FTB Quests 표시 112키를 현재 영어 원문에 대조하고,
+  Patchouli 181파일의 표시 문구 772개·KubeJS·발전 과제·설정을 계열별로 검수해
+  `0c06cfd`, `9523f06`, `b0dcc80`, `92ed683`, `c13fa3e`로 각각 커밋 완료. Java가
+  실행 중이어서 실제 게임 적용은 안전 규칙에 따라 보류
 - **FTB Quests 공통 제목·탐색 기반:** 일부 완료. 다른 모드의 미완성 제목과 fallback은
   해당 모드를 선택했을 때 함께 검토
