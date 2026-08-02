@@ -1,0 +1,17 @@
+{
+  "name": "광석 세척 공장",
+  "icon": "industrialforegoing:washing_factory",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 19,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "액상 고기와 광석을 사용하여 이 기계는 해당 고기를 해당 광석의 생광석 고기로 변환합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:washing_factory"
+    }
+  ]
+}

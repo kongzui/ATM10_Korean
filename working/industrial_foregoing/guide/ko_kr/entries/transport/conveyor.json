@@ -1,0 +1,27 @@
+{
+  "name": "컨베이어",
+  "icon": "industrialforegoing:conveyor",
+  "category": "industrialforegoing:transport",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "컨베이어는 품목, 개체 및 유체를 운반하는 데 사용할 수 있습니다. 그들은 $(l:conveyor_upgrades)업그레이드$()를 사용하여 세계와 상호 작용할 수 있습니다. 품목과 개체는 컨베이어에서 위아래로 이동할 수 있지만 유체는 수평으로만 이동할 수 있습니다. $(br2)컨베이어는 염료로 우클릭하여 색상을 지정할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:conveyor"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:glowstone_dust",
+      "text": "발광석을 사용하면 컨베이어가 항목과 개체를 매우 빠르게 이동할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:plastic",
+      "text": "플라스틱을 사용하면 물품이 컨베이어 위에 있을 때 들어올려지는 것을 방지할 수 있습니다."
+    }
+  ]
+}

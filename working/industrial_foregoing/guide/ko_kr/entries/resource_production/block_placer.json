@@ -1,0 +1,17 @@
+{
+  "name": "블록 배치기",
+  "icon": "industrialforegoing:block_placer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "블록을 배치합니다.$(br2)내부 컨테이너의 블록을 배치하고 $(6)1000$()RF를 사용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:block_placer"
+    }
+  ]
+}

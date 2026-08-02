@@ -1,0 +1,103 @@
+{
+  "family": "Industrial Foregoing·Industrial Foregoing Souls",
+  "installed": [
+    {
+      "label": "Industrial Foregoing",
+      "jar": "industrialforegoing-1.21-3.6.38.jar",
+      "namespace": "industrialforegoing",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 678,
+      "bundled_korean_keys": 583,
+      "metadata_mentions_family": [
+        "industrialforegoing"
+      ],
+      "guide_candidates": 162,
+      "guide_examples": [
+        "assets/industrialforegoing/models/item/book_manual.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/categories/agriculture_husbandry.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/categories/basics.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/categories/generators.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/categories/misc.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/categories/resource_production.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/categories/tools.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/categories/transport.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/animal_baby_separator.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/animal_feeder.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/animal_rancher.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/essence.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/fertilizer.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/hydroponic_bed.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/meat.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/mob_crusher.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/mob_duplicator.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/mob_slaughter_factory.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/pink_slime.json",
+        "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/plant_fertilizer.json"
+      ],
+      "advancements": 212,
+      "advancement_examples": [
+        "data/industrialforegoing/advancement/crusher/cobblestone.json",
+        "data/industrialforegoing/advancement/crusher/gravel.json",
+        "data/industrialforegoing/advancement/crusher/sand.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/advanced_machine_frame.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/black_laser_lens.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/blue_laser_lens.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/brown_laser_lens.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/cyan_laser_lens.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/efficiency_addon_tier_1.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/efficiency_addon_tier_2.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/gray_laser_lens.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/green_laser_lens.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/infinity_drill.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/infinity_hammer.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/infinity_launcher.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/infinity_nuke.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/infinity_saw.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/infinity_trident.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/light_blue_laser_lens.json",
+        "data/industrialforegoing/advancement/dissolution_chamber/light_gray_laser_lens.json"
+      ],
+      "recipes": 315
+    },
+    {
+      "label": "Industrial Foregoing Souls",
+      "jar": "industrial-foregoing-souls-1.21.1-1.10.7.jar",
+      "namespace": "industrialforegoingsouls",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 5,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "industrialforegoing",
+        "industrialforegoingsouls"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 4,
+      "advancement_examples": [
+        "data/industrialforegoingsouls/advancement/laser_drill_ore/echo_shard.json",
+        "data/industrialforegoingsouls/advancement/recipes/misc/soul_laser_base.json",
+        "data/industrialforegoingsouls/advancement/recipes/misc/soul_network_pipe.json",
+        "data/industrialforegoingsouls/advancement/recipes/misc/soul_surge.json"
+      ],
+      "recipes": 7
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+      "dependency_mentions": [
+        "industrialforegoing"
+      ]
+    },
+    {
+      "jar": "soulplied_energistics-1.0.2.jar",
+      "dependency_mentions": [
+        "industrialforegoing",
+        "industrialforegoingsouls"
+      ]
+    }
+  ]
+}

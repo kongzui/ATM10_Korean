@@ -1,0 +1,17 @@
+{
+  "name": "모의 수경 재배대",
+  "icon": "industrialforegoing:simulated_hydroponic_bed",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계에 전원을 공급하면 수경 시뮬레이션 프로세서 데이터를 기반으로 농작물 방울이 생성됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:simulated_hydroponic_bed"
+    }
+  ]
+}

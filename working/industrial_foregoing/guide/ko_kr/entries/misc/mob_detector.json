@@ -1,0 +1,17 @@
+{
+  "name": "몹 감지기",
+  "icon": "industrialforegoing:mob_detector",
+  "category": "industrialforegoing:misc",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계는 앞에 개체 수를 감지하고 감지된 개체 수와 동일한 강도로 뒤쪽에 레드스톤 신호를 내보냅니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_detector"
+    }
+  ]
+}

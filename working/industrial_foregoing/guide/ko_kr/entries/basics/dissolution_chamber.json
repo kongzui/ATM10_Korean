@@ -1,0 +1,17 @@
+{
+  "name": "용해 챔버",
+  "icon": "industrialforegoing:dissolution_chamber",
+  "category": "industrialforegoing:basics",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "최대 $(6)8$() 아이템 및/또는 $(6)1$() 유체를 사용하여 재료를 제작하는 데 사용되는 강력한 기계입니다. 이 기계는 품목 및/또는 유체를 생산할 수 있습니다. $(br2)모든 레시피는 형태가 없으므로 재료가 어느 슬롯에나 들어갈 수 있습니다. $(br2) 레시피가 있으면 기계는 더 많은 항목이 삽입되는 것을 방지하기 위해 모든 슬롯을 잠급니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:dissolution_chamber"
+    }
+  ]
+}

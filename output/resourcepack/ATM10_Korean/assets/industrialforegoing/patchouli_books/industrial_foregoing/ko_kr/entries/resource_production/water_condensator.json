@@ -1,0 +1,17 @@
+{
+  "name": "물 응축기",
+  "icon": "industrialforegoing:water_condensator",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 11,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "주변의 소스블록에서 $(6)물$()를 생성하는 기계입니다. $(br2)적어도 $(6)2 수자원블록$()에 인접하면 작동을 시작합니다.$(br)추가 소스블록을 추가하고 공급합니다. $(6)1000()RF는 작업당 기계 속도를 크게 향상시킵니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:water_condensator"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "jar": "industrialforegoing-1.21-3.6.38.jar",
+  "souls_jar": "industrial-foregoing-souls-1.21.1-1.10.7.jar",
+  "mifa_jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+  "soulplied_jar": "soulplied_energistics-1.0.2.jar",
+  "english_files": 80,
+  "japanese_files": 79,
+  "advancements": 239,
+  "advancements_with_display": 0,
+  "kubejs_reference_files": [
+    "kubejs/data/industrialforegoing/recipe/laser_drill_ore/raw_materials/azure_silver.json",
+    "kubejs/data/industrialforegoing/recipe/laser_drill_ore/raw_materials/glowstone_dust.json",
+    "kubejs/data/industrialforegoing/recipe/laser_drill_ore/raw_materials/obsidian.json",
+    "kubejs/data/industrialforegoing/recipe/laser_drill_ore/raw_materials/raw_allthemodium.json",
+    "kubejs/data/industrialforegoing/recipe/laser_drill_ore/raw_materials/raw_unobtainium.json",
+    "kubejs/data/industrialforegoing/recipe/laser_drill_ore/raw_materials/raw_vibranium.json",
+    "kubejs/data/industrialforegoing/recipe/stonework_generate/deepslate.json",
+    "kubejs/data/minecraft/tags/block/enderman_holdable.json",
+    "kubejs/server_scripts/modpack/atm_alloys.js",
+    "kubejs/server_scripts/modpack/att_items.js",
+    "kubejs/server_scripts/mods/Indusrial Foregoing/Dissolution Chamber.js",
+    "kubejs/server_scripts/mods/Indusrial Foregoing/Laser Drill.js",
+    "kubejs/server_scripts/mods/industrialforegoingsouls/recipes.js",
+    "kubejs/server_scripts/mods/mifa/recipes.js",
+    "kubejs/server_scripts/mods/modular_machinery/recipes/atm/general.js",
+    "kubejs/server_scripts/mods/MysticalAgriculture/Recipes.js",
+    "kubejs/server_scripts/mods/Productive Bees/Tags.js",
+    "kubejs/server_scripts/Tweaks/tags.js",
+    "kubejs/server_scripts/Unification/gears.js"
+  ],
+  "kubejs_visible_literals": []
+}

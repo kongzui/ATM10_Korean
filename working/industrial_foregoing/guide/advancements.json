@@ -1,0 +1,1436 @@
+[
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/crusher/cobblestone.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/crusher/gravel.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/crusher/sand.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/advanced_machine_frame.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/black_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/blue_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/brown_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/cyan_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/efficiency_addon_tier_1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/efficiency_addon_tier_2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/gray_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/green_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/infinity_drill.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/infinity_hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/infinity_launcher.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/infinity_nuke.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/infinity_saw.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/infinity_trident.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/light_blue_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/light_gray_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/lime_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/magenta_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/mechanical_dirt.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/mycelial_reactor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/orange_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/pink_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/pink_slime_ball.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/pink_slime_ingot.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/processing_addon_tier_1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/processing_addon_tier_2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/purple_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_0.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_10.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_11.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_3.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_4.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_5.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_6.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_7.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_8.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/range_addon_tier_9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/red_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/simple_machine_frame.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/speed_addon_tier_1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/speed_addon_tier_2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/supreme_machine_frame.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/white_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/xp_bottles.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/yellow_laser_lens.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/fluid_extractor/acacia.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/fluid_extractor/birch.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/fluid_extractor/cherry.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/fluid_extractor/dark_oak.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/fluid_extractor/default.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/fluid_extractor/jungle.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/fluid_extractor/mangrove.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/fluid_extractor/oak.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/fluid_extractor/spruce.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_fluid/ether.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_fluid/lava.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ancient_debris.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/coal_ore.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/diamond_ore.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/emerald_ore.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/glowstone.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/lapis_ore.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/nether_quartz_ore.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/arcane.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/bitumen.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/cinnabar.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/draconium.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/fluorite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/niter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/peridot.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/ruby.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/sapphire.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/sodalite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/sulfur.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/ores/yellorite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/aluminum.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/ardite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/bauxite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/cinnabar.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/cobalt.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/copper.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/galena.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/gold.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/iridium.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/iron.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/lead.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/nickel.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/osmium.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/platinum.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/pyrite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/sheldonite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/silver.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/tetrahedrite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/tin.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/tungsten.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/uranium.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/yellorite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/raw_materials/yellorium.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/laser_drill_ore/redstone_ore.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/animal_baby_separator.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/animal_feeder.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/animal_rancher.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/biofuel_generator.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/bioreactor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/block_breaker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/block_placer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/conveyor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/conveyor_blinking_upgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/conveyor_bouncing_upgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/conveyor_detection_upgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/conveyor_dropping_upgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/conveyor_extraction_upgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/conveyor_insertion_upgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/conveyor_splitting_upgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/diamond_gear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/dissolution_chamber.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/dye_mixer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/enchantment_applicator.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/enchantment_extractor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/enchantment_factory.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/enchantment_sorter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/fermentation_station.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/fluid_collector.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/fluid_extractor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/fluid_laser_base.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/fluid_placer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/fluid_sieving_machine.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/fluid_transporter_type.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/gold_gear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/hydroponic_bed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/hydroponic_simulation_processor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/infinity_backpack.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/infinity_charger.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/iron_gear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/item_transporter_type.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_drill.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_black_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_blue_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_brown_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_cyan_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_gray_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_green_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_light_blue_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_light_gray_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_lime_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_magenta_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_orange_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_pink_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_purple_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_red_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_white_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/laser_lens_yellow_recolor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/latex_processing_unit.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/machine_frame_pity.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/machine_settings_copier.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/marine_fisher.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/material_stonework_factory.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/meat_feeder.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mob_crusher.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mob_detector.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mob_duplicator.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mob_imprisonment_tool.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mob_slaughter_factory.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_crimed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_culinary.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_death.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_disenchantment.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_ender.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_explosive.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_frosty.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_furnace.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_halitosis.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_magma.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_meatallurgic.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_netherstar.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_pink.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_potion.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_rocket.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/mycelial_slimey.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/ore_laser_base.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/pink_slime.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/pink_slime_block.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/pitiful_generator.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/plant_fertilizer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/plant_gatherer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/plant_sower.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/plastic.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/potion_brewer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/resourceful_furnace.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/sewage_composter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/sewer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/simulated_hydroponic_bed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/sludge_refiner.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/spores_recreator.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/stasis_chamber.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/straw.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/washing_factory.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/water_condensator.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/wither_builder.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/recipes/misc/world_transporter_type.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/stonework_generate/andesite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/stonework_generate/cobblestone.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/stonework_generate/diorite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/stonework_generate/granite.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/stonework_generate/netherrack.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrialforegoing-1.21-3.6.38.jar",
+    "path": "data/industrialforegoing/advancement/stonework_generate/obsidian.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrial-foregoing-souls-1.21.1-1.10.7.jar",
+    "path": "data/industrialforegoingsouls/advancement/laser_drill_ore/echo_shard.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrial-foregoing-souls-1.21.1-1.10.7.jar",
+    "path": "data/industrialforegoingsouls/advancement/recipes/misc/soul_laser_base.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrial-foregoing-souls-1.21.1-1.10.7.jar",
+    "path": "data/industrialforegoingsouls/advancement/recipes/misc/soul_network_pipe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "industrial-foregoing-souls-1.21.1-1.10.7.jar",
+    "path": "data/industrialforegoingsouls/advancement/recipes/misc/soul_surge.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/efficiency_addon_3.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/efficiency_addon_4.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/efficiency_addon_5.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/efficiency_addon_6.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/efficiency_addon_7.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/efficiency_addon_8.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/industrialforegoing.efficiency_addon_tier_2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/industrialforegoing.processing_addon_tier_2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/industrialforegoing.speed_addon_tier_2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/processing_addon_3.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/processing_addon_4.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/processing_addon_5.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/processing_addon_6.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/processing_addon_7.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/processing_addon_8.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/speed_addon_3.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/speed_addon_4.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/speed_addon_5.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/speed_addon_6.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/speed_addon_7.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/industrialforegoing/advancement/dissolution_chamber/speed_addon_8.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/minecraft/advancement/recipes/misc/netherite_gear_smithing.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+    "path": "data/minecraft/advancement/recipes/root.json",
+    "has_display": false,
+    "display": null
+  }
+]

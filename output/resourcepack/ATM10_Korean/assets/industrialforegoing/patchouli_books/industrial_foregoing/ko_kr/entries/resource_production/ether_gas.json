@@ -1,0 +1,13 @@
+{
+  "name": "에테르 가스(버킷)",
+  "icon": "industrialforegoing:ether_gas_bucket",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "위더 바로 위에 $(l:resource_production/fluid_laser_base)유체 레이저 베이스$()를 놓았을 때 생성되는 액체입니다."
+    }
+  ]
+}

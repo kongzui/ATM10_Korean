@@ -1,0 +1,17 @@
+{
+  "name": "동물 새끼 분리기",
+  "icon": "industrialforegoing:animal_baby_separator",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)새끼$() 동물과 성체 동물을 분리하는 데 사용되는 기계입니다. 아기 동물은 기계 뒤쪽으로 순간이동됩니다. GUI에서 이동되는 몹의 유형을 변경할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_baby_separator"
+    }
+  ]
+}

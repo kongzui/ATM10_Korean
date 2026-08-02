@@ -1,0 +1,17 @@
+{
+  "name": "인피니티 삼지창",
+  "icon": "industrialforegoing:infinity_trident",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "인피니티 삼지창은 삼지창의 능력을 극대화하는 도구입니다. 등급을 높이면 $(6)충성$(), $(6)급류$(), $(6)집전$() 효과의 레벨이 올라갑니다.$(br2)집전 효과와 적중 피해는 광역으로 적용됩니다."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_trident"
+    }
+  ]
+}

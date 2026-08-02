@@ -1,0 +1,6 @@
+{
+  "name": "발전기",
+  "description": "여러 자원으로 FE를 생산하는 발전기를 설명합니다.",
+  "icon": "industrialforegoing:pitiful_generator",
+  "sortnum": 2
+}

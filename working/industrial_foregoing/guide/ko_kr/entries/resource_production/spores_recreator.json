@@ -1,0 +1,17 @@
+{
+  "name": "포자 재생기",
+  "icon": "industrialforegoing:spores_recreator",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 8,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)균류$()를 복제합니다.$(br2)$(6)40$()RF/t와 작업당 $(6)물$() $(6)100$()mb가 필요합니다.$(br2)네더 균류는 $(6)용암$()이 필요합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:spores_recreator"
+    }
+  ]
+}

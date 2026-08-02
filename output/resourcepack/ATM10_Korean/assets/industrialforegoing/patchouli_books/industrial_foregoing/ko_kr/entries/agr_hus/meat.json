@@ -1,0 +1,13 @@
+{
+  "name": "고기 (버킷)",
+  "icon": "industrialforegoing:meat_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 10,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:agr_hus/mob_slaughter_factory)몹 도살 공장$()에서 생산되는 액체입니다."
+    }
+  ]
+}

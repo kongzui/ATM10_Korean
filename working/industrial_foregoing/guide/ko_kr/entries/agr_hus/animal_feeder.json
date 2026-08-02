@@ -1,0 +1,17 @@
+{
+  "name": "동물 사료 자동 공급기",
+  "icon": "industrialforegoing:animal_feeder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 8,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)$() 동물에게 사료를 공급하여 새끼를 낳을 수 있도록 하는 기계입니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_feeder"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "유체 수집기",
+  "icon": "industrialforegoing:fluid_collector",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 7,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "앞에 있는 유체 소스 블록을 배출합니다. $(br2)내부 용기의 유체를 배치하고 $(6)1000$()RF를 사용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_collector"
+    }
+  ]
+}

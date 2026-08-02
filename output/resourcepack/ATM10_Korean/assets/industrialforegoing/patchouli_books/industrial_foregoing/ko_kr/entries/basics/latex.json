@@ -1,0 +1,13 @@
+{
+  "name": "라텍스(유체)",
+  "icon": "industrialforegoing:latex_bucket",
+  "category": "industrialforegoing:basics",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 유체는 $(l:basics/latex_processing_unit)라텍스 처리 장치$()에서 작은 건조 고무를 만드는 데 사용됩니다."
+    }
+  ]
+}

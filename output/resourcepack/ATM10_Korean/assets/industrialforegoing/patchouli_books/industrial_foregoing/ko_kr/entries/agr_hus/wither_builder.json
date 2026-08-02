@@ -1,0 +1,16 @@
+{
+  "name": "위더 건설기",
+  "icon": "industrialforegoing:wither_builder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "위더를 소환하는 구조물을 만드는 기계입니다. 전력, $(6)위더 해골 3개$(), $(6)영혼 모래 4개$()를 공급하면 작업 영역에 구조물을 완성합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:wither_builder"
+    }
+  ]
+}

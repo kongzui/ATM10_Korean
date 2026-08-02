@@ -1,0 +1,17 @@
+{
+  "name": "능숙한 화로",
+  "icon": "industrialforegoing:resourceful_furnace",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "3 화로 1.$(br2) 녹은 아이템당 $(6)2$()mb의 정수를 반환합니다. $(6)40$()RF/t가 필요합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:resourceful_furnace"
+    }
+  ]
+}

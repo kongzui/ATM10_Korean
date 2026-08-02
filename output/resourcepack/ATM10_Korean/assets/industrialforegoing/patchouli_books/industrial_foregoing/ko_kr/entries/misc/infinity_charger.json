@@ -1,0 +1,17 @@
+{
+  "name": "인피니티 충전기",
+  "icon": "industrialforegoing:infinity_charger",
+  "category": "industrialforegoing:misc",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "전력을 저장할 수 있는 아이템을 충전합니다. 특히 $(6)인피니티$() 아이템을 매우 빠르게 충전합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:infinity_charger"
+    }
+  ]
+}

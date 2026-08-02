@@ -1,0 +1,17 @@
+{
+  "name": "불길한 발전기",
+  "icon": "industrialforegoing:pitiful_generator",
+  "category": "industrialforegoing:generators",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "석탄과 같은 가연성 연료를 소비하는 매우 비효율적인 발전기입니다. $(br2)너무 비효율적이어서 장비 에너지 버퍼가 가득 차면 계속 연료를 소비하게 됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:pitiful_generator"
+    }
+  ]
+}

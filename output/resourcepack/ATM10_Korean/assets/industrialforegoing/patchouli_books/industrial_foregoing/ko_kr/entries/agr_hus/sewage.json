@@ -1,0 +1,13 @@
+{
+  "name": "하수(버킷)",
+  "icon": "industrialforegoing:sewage_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:agr_hus/sewer)오물통$()에서 생산되는 유체. 당신은 그것에 대해 알고 싶지 않습니다."
+    }
+  ]
+}

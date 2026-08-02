@@ -1,0 +1,17 @@
+{
+  "name": "마법 부여 적용기",
+  "icon": "industrialforegoing:enchantment_applicator",
+  "category": "industrialforegoing:misc",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "모루와 같은 방식으로 작동하지만 경험치 대신 $(l:agr_husb/essence)정수$()를 사용합니다. 비용이 너무 높게 표시되어도 탱크에 정수가 충분하면 작업할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_applicator"
+    }
+  ]
+}

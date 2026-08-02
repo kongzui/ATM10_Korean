@@ -1,0 +1,21 @@
+{
+  "name": "균사 반응기",
+  "icon": "industrialforegoing:mycelial_reactor",
+  "category": "industrialforegoing:generators",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)균사 네트워크$()(균사체가 존재하는 하위 공간)를 통해 다른 $(6)균사 발전기$()를 감지하고 막대한 FE를 생산합니다.$(br2)작동하려면 각 종류의 균사 발전기가 동시에 하나씩 가동 중이어야 합니다."
+    },
+    {
+      "type": "text",
+      "text": "어쩌면 이 네트워크를 사용하면 미래에 새로운 기술이 발견될 수도 있습니다."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/mycelial_reactor"
+    }
+  ]
+}

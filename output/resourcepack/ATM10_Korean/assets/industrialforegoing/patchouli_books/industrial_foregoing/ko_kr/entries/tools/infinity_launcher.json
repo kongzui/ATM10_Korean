@@ -1,0 +1,17 @@
+{
+  "name": "인피니티 런처",
+  "icon": "industrialforegoing:infinity_launcher",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "인피니티 런처는 일정 범위 안의 개체를 몹 포획기에 넣거나 풀어주는 도구입니다. GUI에서 모드를 고르고 발사하면 인벤토리의 몹 포획기를 사용해 대상을 포획하거나 풀어줍니다."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_launcher"
+    }
+  ]
+}

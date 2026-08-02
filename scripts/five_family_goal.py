@@ -428,6 +428,32 @@ TARGETS = (
         "pneumaticcraft",
         "PneumaticCraft: Repressurized",
     ),
+    Target(
+        "industrial_foregoing",
+        "industrialforegoing-",
+        "industrialforegoing",
+        "Industrial Foregoing",
+    ),
+    Target(
+        "industrial_foregoing",
+        "industrial-foregoing-souls-",
+        "industrialforegoingsouls",
+        "Industrial Foregoing Souls",
+    ),
+    Target(
+        "industrial_foregoing",
+        "mifa-neoforge-",
+        "mifa",
+        "More Industrial Foregoing Addons",
+        True,
+    ),
+    Target(
+        "industrial_foregoing",
+        "soulplied_energistics-",
+        "soulplied_energistics",
+        "Soulplied Energistics",
+        True,
+    ),
 )
 
 FAMILY_LABELS = {
@@ -457,6 +483,7 @@ FAMILY_LABELS = {
     "modern_industrialization": "Modern Industrialization",
     "immersive_engineering": "Immersive Engineering",
     "pneumaticcraft": "PneumaticCraft: Repressurized",
+    "industrial_foregoing": "Industrial Foregoing·Industrial Foregoing Souls",
 }
 
 QUEST_CHAPTERS = {
@@ -491,6 +518,7 @@ QUEST_CHAPTERS = {
     ),
     "immersive_engineering": ("immersive_engineering",),
     "pneumaticcraft": ("pneumaticcraft",),
+    "industrial_foregoing": ("industrial_foregoing",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -585,6 +613,12 @@ QUEST_TEXT_MARKERS = {
     "pneumaticcraft": (
         "pneumaticcraft",
         "pneumaticcraft: repressurized",
+    ),
+    "industrial_foregoing": (
+        "industrial foregoing",
+        "industrialforegoing",
+        "industrial foregoing souls",
+        "industrialforegoingsouls",
     ),
 }
 
@@ -686,6 +720,13 @@ ALLOWED_ORIGINALS = {
     "PneumaticCraft: Repressurized",
     "PneumaticCraft",
     "&4&lPneumaticCraft",
+    "Industrial Foregoing",
+    "Industrial Foregoing Souls",
+    "Industrial Foregoing &#27AEB9Souls",
+    "Industrial Foregoing: Souls",
+    "Soulplied Energistics",
+    "&lIndustrial Foregoing",
+    "&bIndustrial Foregoing &#27AEB9Souls",
     "XOR",
     "Xor",
     "ME Wire",
@@ -2026,6 +2067,10 @@ MODERN_INDUSTRIALIZATION_QUEST_FALLBACK_TITLES = {
     "quest.6F9C270C3794BAD1.title": "HE MOX 막대",
 }
 
+INDUSTRIAL_FOREGOING_QUEST_FALLBACK_TITLES = {
+    "quest.2E8E292ED596A104.title": "&5보라색 레이저 렌즈",
+}
+
 MEKANISM_QUEST_ITEM_TITLES = {
     "quest.162CE44400A63575.title": "금속공학 주입기",
     "quest.08DDE018A804BFE7.title": "농축기",
@@ -2859,6 +2904,8 @@ def build_quests(instance: Path, family: str) -> dict[str, object]:
             )
     if family == "modern_industrialization":
         combined.update(MODERN_INDUSTRIALIZATION_QUEST_FALLBACK_TITLES)
+    if family == "industrial_foregoing":
+        combined.update(INDUSTRIAL_FOREGOING_QUEST_FALLBACK_TITLES)
     installed_base = instance / "config/ftbquests/quests/lang/ko_kr.snbt"
     base = QUEST_OUTPUT if QUEST_OUTPUT.is_file() else installed_base
     restored: dict[str, object] = {}
@@ -3741,6 +3788,25 @@ def validate_value(key: str, source: object, target: object) -> list[str]:
     return errors
 
 
+def validate_family_value(
+    family: str, key: str, source: object, target: object
+) -> list[str]:
+    """모드별 표시 문법을 반영해 자료형과 보호 토큰을 검사한다."""
+    if (
+        family == "industrial_foregoing"
+        and key.startswith("text.industrialforegoing.book.")
+        and isinstance(source, str)
+        and isinstance(target, str)
+    ):
+        source_braces = re.findall(r"\{[^{}]+\}", source)
+        target_braces = re.findall(r"\{[^{}]+\}", target)
+        if len(source_braces) != len(target_braces):
+            return [f"설명서 강조 구문 개수 불일치: {key}"]
+        source = re.sub(r"\{[^{}]+\}", "{}", source)
+        target = re.sub(r"\{[^{}]+\}", "{}", target)
+    return validate_value(key, source, target)
+
+
 def is_allowed_original(source: str) -> bool:
     """고유명사·키·식별자처럼 의도적으로 유지 가능한 값을 판정한다."""
     stripped = source.strip()
@@ -3800,7 +3866,7 @@ def verify_language(
         names_by_korean: dict[str, list[str]] = defaultdict(list)
         for key, source in english.items():
             target_value = korean[key]
-            errors.extend(validate_value(key, source, target_value))
+            errors.extend(validate_family_value(family, key, source, target_value))
             if (
                 key.startswith(("item.", "block."))
                 and isinstance(source, str)

@@ -1,0 +1,38 @@
+{
+  "quest.15DC6770B112EE69.quest_desc": [
+    "The Dissolution Chamber is a Machine added by &l&7Industrial Foregoing&r. It's also how we'll combine &3Vibranium&r and &5Unobtainium&r. \\n\\nYou'll need &dPink Slime&r which you get from the Mob Slaughter Factory which is another Machine added by IF. \\n\\nYou'll also need Soul Lava which is found in &b&lThe Other&r, common in the Piglin Village. \\n\\nAfter those you'll need to put your Ingots and Piglich Hearts in the exact order, power it, and it'll be done!\\n",
+    "{ \"text\": \"INDUSTRIAL FOREGOING QUESTLINE\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }"
+  ],
+  "quest.21C2458FED19363C.quest_desc": [
+    "It uses &aEssence&r along with a mob in a Mob Imprisonment Tool to spawn a copy of that mob."
+  ],
+  "quest.21C2458FED19363C.quest_subtitle": "Industrial Foregoing's Spawner",
+  "quest.0BB42C5861B22D32.quest_desc": [
+    "The &bMycelial Reactor&r consists of all the Mycelial Generators working at the same time, near the reactor block, and it produces a total of &a25MFE/t&r.\\n\\nAll sounds good, but you need to automate some stuff to get it working, see what each Mycelial Generator consumes to work, and automate it, most things are simple, but others, not that much... &olooking at Disenchanting Mycelial Generator&r.\\n\\nBut after you get it all automated, you don't need to stop at one, you can make more reactors."
+  ],
+  "quest.0BB42C5861B22D32.quest_subtitle": "It's not Yourcelial Reactor",
+  "quest.0BB42C5861B22D32.title": "&9Industrial Foregoing: &bMycelial Reactor",
+  "quest.11374A3B5BD644F5.quest_desc": [
+    "&lIndustrial Foregoing&r is a Tech Mod with tons of Machines and Tools. All following the same Color Code! \\n\\nYou'll need to start with Rubber and yes there is a Quest page for it!"
+  ],
+  "quest.11374A3B5BD644F5.title": "&lIndustrial Foregoing",
+  "quest.23254CE8487D2E68.quest_desc": [
+    "The &8Wither Builder&r is one of the greatest Machines you can get from &lIndustrial Foregoing&r, and because of that it's expensive. \\n\\nFirst you will need the parts that make a &8Wither&r and a drop from the &8Wither&r. \\n\\nThen, you'll need a &6Supreme Machine Frame&r which you need &bEther Gas&r to make. Guess what you need for &bEther Gas&r? That's right! A &8Wither&r! You'll need a Laser Drill working on a &8Wither&r to get it. \\n\\n&8Withers&r like to leave and kill things so a Stasis Chamber would make milking them easier! "
+  ],
+  "quest.23254CE8487D2E68.title": "&8Wither Builder",
+  "quest.4B12425E74C5E511.quest_desc": [
+    "The &cExplosive Mycelial Generator&r does an amazing job at soaking up Explosions. \\n\\nWe could use that for a &d&lPulsating &8Black Hole&r!"
+  ],
+  "quest.4B12425E74C5E511.title": "&cExplosive Mycelial Generator",
+  "quest.7E4367252A39BE6C.quest_desc": [
+    "&c&lPowah&r is about power! Generating Power like FE to use Machines from other Mods like &5&lMekanism&r or &lIndustrial Foregoing&r! \\n\\nThere's different Tiers you'll have to craft up to and of course we'll need the last one for the &6&lStar&r!"
+  ],
+  "quest.2E9D1131DC21CC5B.quest_desc": [
+    "&lIndustrial Foregoing&r has its sleak futuristic design, &5&lMekanism&r has its dull modern design, and &8&lImmersive Engineering&r takes it much more retro! \\n\\nEverything is &6Brown&r, &7Grey&r, and &8Dark Grey&r! \\n\\nThe Mod all starts with the &6Engineer's Hammer&r. These can be used to make Plates, Dust, or just building our Multiblocks! \\n\\nBTW, did I tell you we'll be making a lot of those in this Mod? Hope you like them!"
+  ],
+  "quest.47043AF7D1FABC43.quest_desc": [
+    "There's many ways to extract Enchantments from Items onto Books. This quest will focus on many of such methods.\\n\\n&cSuper Factory Manager&r: One of the cheapest ways I can think of to disenchant your gear, with no &aExperience&r cost whatsoever. Drop your Enchanted Item and a bunch of Books on a block of &5Obsidian&r, then make a falling &8Anvil&r land on top of the Enchanted Item and the Books.\\n\\n&bDis-Enchanting Table&r: Simply put an Enchanted Item in the Left Slot and a Book in the Middle Slot. Then, the Enchants will go to the Right Slot in Book form! Costs &aExperience&r.\\nYou can also use Enchanted Books instead of the Item to split up its Enchantments.\\n\\n&6Draconic Evolution Disenchanter&r: This one lets you choose a specific enchantment from an Enchanted Item to move to a Book. Costs &aExperience&r.",
+    "{@pagebreak}",
+    "&cEvilCraft Purifier and Blook&r: Uses &cBlood&r to extract enchantments from an Enchanted Item onto a &cBlook&r.\\n\\n&5&lApothic Enchanting Tomes&r: When used in an anvil, these will extract all enchantments from the Enchanted Item.\\nThe &8Tome of Scrapping&r only extracts half of the enchantments from the Item, destroying that item in the process.\\nThe &8Tome of Superior Scrapping&r extracts all enchantments from the Item, destroying that item in the process.\\nThe &8Tome of Extraction&r extracts all enchantments from the Item, keeping the item in the process.\\nCheck out the &5&lApothic Enchanting&r chapter to learn more about how to infuse these Tomes.\\n\\n&bIndustrial Foregoing Enchantment Extractor&r: Recommended for automated disenchanting. Place an Enchanted Item and Books into the machine, and it will extract Enchantments from the Item. You can also have the enchantments be turned into &aEssence&r instead, if you prefer.\\n\\n&8Corail Tombstone Book of Disenchantment&r: Occasionally, Decorative Graves will have a Grave Soul roaming them. You can right click on that Grave Soul with the Book in your offhand and an Enchanted Item in your main hand, and it may strip those enchantments and return them as books. Will corrupt the Grave slightly, so be careful with this method.\\n\\n&5Actually Additions Lens of Disenchanting&r: These Lens go into an Atomic Reconstructor. Throw an Enchanted Item and a single Book in front of the Laser that the Atomic Reconstructor emits, and it will separate a single Enchantment from the Item onto the Book"
+  ]
+}

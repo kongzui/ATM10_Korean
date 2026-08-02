@@ -1,0 +1,51 @@
+{
+  "name": "컨베이어 업그레이드",
+  "icon": "industrialforegoing:conveyor_extraction_upgrade",
+  "category": "industrialforegoing:transport",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_extraction_upgrade",
+      "title": "추출",
+      "text": "인벤토리에서 아이템과 액체를 추출합니다. 플레이어 인벤토리에서도 아이템을 추출할 수 있습니다. $(br2)추출해야 하는 항목과 유체는 GUI에서 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_insertion_upgrade",
+      "title": "삽입",
+      "text": "인벤토리에 아이템과 액체를 삽입합니다. 2 모드가 있으며, 컨베이어에 닿는 항목을 삽입하거나 업그레이드에 직접 닿는 항목을 삽입합니다. $(br2)삽입해야 하는 항목과 유체는 GUI에서 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_detection_upgrade",
+      "title": "발각",
+      "text": "컨베이어 위에 있는 품목과 개체를 감지합니다. $(br2)탐지해야 하는 항목과 엔터티는 GUI에서 필터링할 수 있습니다. 엔터티는 내부에 엔터티가 있는 MIB를 사용하여 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_bouncing_upgrade",
+      "title": "잘 튀는",
+      "text": "컨베이어 위에 있는 항목과 개체를 발사합니다. 수직 및 수평 강도는 GUI에서 변경할 수 있습니다. $(br2)실행해야 하는 항목 및 엔터티는 GUI에서 필터링할 수 있습니다. 엔터티는 내부에 엔터티가 있는 MIB를 사용하여 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_dropping_upgrade",
+      "title": "적하",
+      "text": "컨베이어 바로 아래에 있는 항목과 개체를 떨어뜨립니다. $(br2) 삭제해야 하는 항목과 엔터티는 GUI에서 필터링할 수 있습니다. 엔터티는 내부에 엔터티가 있는 MIB를 사용하여 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_blinking_upgrade",
+      "title": "깜박임",
+      "text": "컨베이어 위에 있는 아이템과 개체를 순간이동시킵니다. 수직 및 수평 거리는 GUI에서 변경할 수 있습니다. $(br2)실행해야 하는 항목과 엔터티는 GUI에서 필터링할 수 있습니다. 엔터티는 내부에 엔터티가 있는 MIB를 사용하여 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_splitting_upgrade",
+      "title": "파편",
+      "text": "GUI에 정의된 비율로 컨베이어 위에 있는 품목과 개체를 분할합니다. 배포가 필요한 모든 측면에서 업그레이드가 필요합니다."
+    }
+  ]
+}

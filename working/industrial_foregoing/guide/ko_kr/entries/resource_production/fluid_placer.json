@@ -1,0 +1,17 @@
+{
+  "name": "유체 배치기",
+  "icon": "industrialforegoing:fluid_placer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br2)내부 용기에서 유체를 배치하고 $(6)1000$()RF를 사용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_placer"
+    }
+  ]
+}

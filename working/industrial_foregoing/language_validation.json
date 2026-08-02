@@ -1,0 +1,97 @@
+{
+  "family": "Industrial Foregoing·Industrial Foregoing Souls",
+  "languages": [
+    {
+      "label": "Industrial Foregoing",
+      "jar": "industrialforegoing-1.21-3.6.38.jar",
+      "namespace": "industrialforegoing",
+      "english_keys": 678,
+      "korean_keys": 678,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 356,
+      "bundled_exact_reuse": 322
+    },
+    {
+      "label": "Industrial Foregoing Souls",
+      "jar": "industrial-foregoing-souls-1.21.1-1.10.7.jar",
+      "namespace": "industrialforegoingsouls",
+      "english_keys": 5,
+      "korean_keys": 5,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 5
+    },
+    {
+      "label": "More Industrial Foregoing Addons",
+      "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+      "namespace": "mifa",
+      "english_keys": 3,
+      "korean_keys": 3,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 3
+    },
+    {
+      "label": "Soulplied Energistics",
+      "jar": "soulplied_energistics-1.0.2.jar",
+      "namespace": "soulplied_energistics",
+      "english_keys": 4,
+      "korean_keys": 4,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "project_output_reuse": 4
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 322,
+    "project_output_reuse": 4,
+    "new_or_edited": 364
+  },
+  "ftbquests": {
+    "chapters": [
+      "industrial_foregoing.snbt"
+    ],
+    "quests_checked": 78,
+    "tasks_checked": 111,
+    "display_keys_checked": 122,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 10,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 54,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

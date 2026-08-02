@@ -1,0 +1,17 @@
+{
+  "name": "블록 파괴기",
+  "icon": "industrialforegoing:block_breaker",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "작업당 $(6)1000$()RF의 비용으로 앞에 있는 모든 블록을 부수고 내부 인벤토리에 배치합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:block_breaker"
+    }
+  ]
+}

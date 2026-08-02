@@ -1,0 +1,6 @@
+{
+  "name": "자원 생산",
+  "description": "광석, 유체와 여러 자원을 자동으로 생산하고 가공하는 기계를 설명합니다.",
+  "icon": "industrialforegoing:water_condensator",
+  "sortnum": 5
+}

@@ -1,0 +1,17 @@
+{
+  "name": "레이저 드릴",
+  "icon": "industrialforegoing:laser_drill",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "전력을 공급하면 작업 영역에서 가장 먼저 찾은 $(l:resource_production/ore_laser_base)광석 레이저 베이스$() 또는 $(l:resource_production/fluid_laser_base)유체 레이저 베이스$()를 충전합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:laser_drill"
+    }
+  ]
+}

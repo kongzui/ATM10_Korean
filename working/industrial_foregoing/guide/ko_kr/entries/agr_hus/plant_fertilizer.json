@@ -1,0 +1,21 @@
+{
+  "name": "식물 비료 공급기",
+  "icon": "industrialforegoing:plant_fertilizer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)$() 뼛가루를 식물에 적용하는 데 사용되는 기계입니다. $(br2) 기계는 다음 식물로 이동하기 전에 더 이상 뼛가루를 수용할 수 없을 때까지 동일한 작물에 계속 비료를 적용합니다. 이로 인해 $(6)해바라기$()와 같이 항상 뼛가루를 받아들이는 식물이나 최종 성장 상태에 도달하지 못하는 식물에 기계가 멈출 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "식물 비료는 다음을 허용합니다: $(br)$(li)뼈 식사 $(li)비료"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_fertilizer"
+    }
+  ]
+}

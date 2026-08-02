@@ -1,0 +1,17 @@
+{
+  "name": "몹 포획기",
+  "icon": "industrialforegoing:mob_imprisonment_tool",
+  "category": "industrialforegoing:tools",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "MIB가 있는 엔터티를 $(6)오른쪽 누르기$()하면 해당 엔터티는 MIB 내에 저장됩니다. $(br2)지면에 있는 개체를 $(6)오른쪽 누르기$()로 풀어줄 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_imprisonment_tool"
+    }
+  ]
+}

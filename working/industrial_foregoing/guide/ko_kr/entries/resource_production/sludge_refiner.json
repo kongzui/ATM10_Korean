@@ -1,0 +1,17 @@
+{
+  "name": "슬러지 정제기",
+  "icon": "industrialforegoing:sludge_refiner",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 10,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)슬러지$()를 유용한 자원으로 바꾸는 기계입니다.$(br2)$(6)슬러지$()는 $(l:agriculture_n_husbandry/plant_gatherer)식물 수확기$()에서 얻습니다. 공급하면 $(6)여러 자원$()을 무작위로 생산합니다.$(br)이 과정에는 $(6)1000$()RF/t가 필요하므로 충분한 전력을 저장해 두세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sludge_refiner"
+    }
+  ]
+}

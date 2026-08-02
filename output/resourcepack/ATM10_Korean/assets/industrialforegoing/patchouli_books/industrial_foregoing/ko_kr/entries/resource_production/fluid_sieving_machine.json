@@ -1,0 +1,17 @@
+{
+  "name": "유체 체질기",
+  "icon": "industrialforegoing:fluid_sieving_machine",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 21,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "발효된 광석 고기와 모래를 사용하는 이 기계는 고기를 처음 생성된 광석의 먼지로 변환합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_sieving_machine"
+    }
+  ]
+}
