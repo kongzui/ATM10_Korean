@@ -8,4 +8,3 @@ EVERY 20 TICKS DO
     -- 실제 이동은 여기에서 이루어집니다
     OUTPUT TO b
 END
-

@@ -24,6 +24,7 @@ OUTPUT_ROOT = (
 )
 EXCLUDED_FILES = {"changelog.sfml"}
 PRESERVED_COMMENT_FILES = {"thank_you.sfml"}
+TRAILING_BLANK_FILES = {"a_simple_program.sfml", "known_issues.sfml"}
 PRESERVED_COMMENT_BODIES = {
     '#the_bumblezone:essence/calming_arena/drowned_bonus_held_item"',
     '#the_bumblezone:essence/knowing/block_entity_forced_highlighting"',
@@ -289,6 +290,15 @@ def split_ending(line: str) -> tuple[str, str]:
     return line, ""
 
 
+def trim_trailing_blank_lines(data: bytes) -> bytes:
+    text = data.decode("utf-8")
+    match = re.search(r"(?:(?:\r\n|\n|\r)){2,}$", text)
+    if not match:
+        return data
+    ending = "\r\n" if "\r\n" in text else "\n"
+    return (text[: match.start()] + ending).encode("utf-8")
+
+
 def translate_line(filename: str, raw_line: str) -> str:
     line, ending = split_ending(raw_line)
     match = NAME_RE.fullmatch(line)
@@ -339,7 +349,11 @@ def prepare(force: bool) -> dict[str, object]:
             if name.startswith(SOURCE_PREFIX) and name.endswith(".sfml")
         )
         for name in names:
-            (ENGLISH_ROOT / Path(name).name).write_bytes(archive.read(name))
+            filename = Path(name).name
+            data = archive.read(name)
+            if filename in TRAILING_BLANK_FILES:
+                data = trim_trailing_blank_lines(data)
+            (ENGLISH_ROOT / filename).write_bytes(data)
     report = {
         "jar": jar.name,
         "source_files": len(names),
@@ -347,6 +361,7 @@ def prepare(force: bool) -> dict[str, object]:
         "excluded": {
             "changelog.sfml": "과거 버전 변경 기록이며 현재 기능 안내가 아니므로 제외",
         },
+        "normalization": "파일 끝의 빈 줄만 제거하고 마지막 줄바꿈은 보존",
     }
     write_json(WORK_ROOT / "template_inventory.json", report)
     return report
