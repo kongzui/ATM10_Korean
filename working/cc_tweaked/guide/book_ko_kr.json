@@ -1,0 +1,9 @@
+{
+  "name": "Advanced Peripherals",
+  "landing_text": "이 설명서는 Advanced Peripherals가 추가하는 모든 주변 장치의 기본 정보를 제공합니다.$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/)공식 문서$(/l)$()를 참고하세요.",
+  "book_texture": "patchouli:textures/gui/book_blue.png",
+  "model": "advancedperipherals:book",
+  "creative_tab": "advancedperipheralstab",
+  "version": 1,
+  "use_resource_pack": true
+}

@@ -1,0 +1,9 @@
+label은 컴퓨터 또는 연결된 디스크 드라이브에 있는 플로피 디스크의 레이블을 가져오거나 설정합니다.
+
+ex:
+"label get"는 컴퓨터의 레이블을 출력합니다.
+"label get left"는 왼쪽 드라이브에 있는 디스크의 레이블을 출력합니다.
+"label set "My Computer""는 컴퓨터의 레이블을 "My Computer"로 설정합니다.
+"label set left "My Programs"" - 왼쪽 드라이브의 디스크 레이블을 "My Programs"로 설정합니다.
+"label clear"는 컴퓨터의 레이블을 지웁니다.
+"label clear left"는 왼쪽 드라이브에 있는 디스크의 레이블을 지웁니다.

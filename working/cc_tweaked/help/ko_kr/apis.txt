@@ -1,0 +1,4 @@
+apis는 CraftOS의 프로그램에서 사용할 수 있는 현재 로드된 API를 나열합니다.
+
+특정 API에 대한 도움말을 보려면 "help <api>"를 입력하세요.
+추가 API를 로드하려면 os.loadAPI( path )를 호출하세요.

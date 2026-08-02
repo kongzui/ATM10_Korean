@@ -1,0 +1,20 @@
+{
+  "name": "축산 오토마타 코어",
+  "icon": "advancedperipherals:husbandry_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "축산 오토마타 코어",
+      "item": "advancedperipherals:husbandry_automata_core",
+      "text": "닭 3마리, 소 3마리, 양 3마리를 흡수하면 약한 오토마타 코어가 축산 오토마타 코어로 변합니다!$(p)약한 코어보다 강할 뿐 아니라 동물과 상호 작용하는 능력도 제공하는 듯합니다!"
+    },
+    {
+      "type": "link",
+      "text": "약한 오토마타 코어의 능력에 더해 동물과 상호 작용하고 내부에 보관할 수도 있습니다!$(p)터틀이 부서지면 보관한 동물이 모두 사라집니다.",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/husbandry_automata/",
+      "link_text": "API 문서"
+    }
+  ]
+}

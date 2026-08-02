@@ -1,0 +1,8 @@
+wget은 인터넷에서 파일을 다운로드하는 프로그램입니다. 이는 다른 플레이어가 만든 프로그램을 다운로드할 때 유용합니다.
+파일 이름을 지정하지 않으면 wget은 URL의 앵커, 매개변수, 끝 슬래시를 제거한 뒤 마지막 슬래시 다음 부분을 파일 이름으로 사용합니다.
+이 프로그램을 사용하려면 ComputerCraft.cfg에서 HTTP API를 활성화해야 합니다.
+ex:
+"wget http://pastebin.com/raw/CxaWmPrX test"는 URL http://pastebin.com/raw/CxaWmPrX에서 파일을 받아 "test"로 저장합니다.
+"wget http://example.org/test.lua/?foo=bar#qzu"는 URL http://example.org/test.lua/?foo=bar#qzu에서 파일을 다운로드하여 "test.lua"로 저장합니다.
+"wget http://example.org/"는 URL http://example.org에서 파일을 다운로드하여 "example.org"로 저장합니다.
+"wget run http://pastebin.com/raw/CxaWmPrX"는 URL http://pastebin.com/raw/CxaWmPrX에서 파일을 다운로드하고 즉시 실행합니다.

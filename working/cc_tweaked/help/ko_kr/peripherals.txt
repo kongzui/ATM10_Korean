@@ -1,0 +1,7 @@
+"peripherals" 프로그램은 이 컴퓨터에서 액세스할 수 있는 모든 주변 장치를 나열합니다.
+주변 장치는 CraftOS 컴퓨터와 터틀이 peripheral API로 제어할 수 있는 외부 장치입니다.
+주변 장치 API 사용에 대해 알아보려면 "help peripheral"를 입력하세요.
+디스크 드라이브 사용에 대해 알아보려면 "help drives"를 입력하세요.
+모뎀 사용에 대해 알아보려면 "help modems"를 입력하세요.
+모니터 사용에 대해 알아보려면 "help monitors"를 입력하세요.
+프린터 사용에 대해 알아보려면 "help printers"를 입력하세요.

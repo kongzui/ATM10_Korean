@@ -1,0 +1,19 @@
+설정 API의 함수:
+settings.get( name, [default] )
+settings.set( name, value )
+settings.unset( name )
+settings.load( path )
+settings.save( path )
+settings.clear()
+settings.getNames()
+
+기본 설정:
+shell.autocomplete - 셸에서 자동 완성을 활성화합니다.
+lua.autocomplete - Lua 프로그램에서 자동 완성을 활성화합니다.
+edit.autocomplete - 편집 프로그램에서 자동 완성을 활성화합니다.
+edit.default_extension - 편집 프로그램으로 생성된 파일의 기본 파일 확장자를 설정합니다.
+paint.default_extension - 그림판 프로그램으로 생성된 파일의 기본 파일 확장자를 설정합니다.
+bios.use_multishell - 고급 컴퓨터, 터틀, 포켓 컴퓨터 및 명령 컴퓨터에서 다중 셸을 활성화합니다.
+shell.allow_disk_startup - 'startup' 스크립트가 든 디스크 드라이브를 컴퓨터에 연결했을 때, 컴퓨터가 시작되면 해당 스크립트를 자동으로 실행할지 설정합니다.
+shell.allow_startup - 컴퓨터 루트에 'startup' 스크립트가 있을 때 컴퓨터가 시작되면 해당 스크립트를 자동으로 실행할지 설정합니다.
+list.show_hidden - list 프로그램이 숨김 파일을 표시할지 설정합니다.

@@ -1,0 +1,22 @@
+터미널 API의 함수:
+term.write( text )
+term.blit( text, textColor, backgroundColor )
+term.clear()
+term.clearLine()
+term.getCursorPos()
+term.setCursorPos( x, y )
+term.setCursorBlink( blink )
+term.isColor()
+term.setTextColor( color )
+term.setBackgroundColor( color )
+term.getTextColor()
+term.getBackgroundColor()
+term.getSize()
+term.scroll( n )
+term.redirect( object )
+term.current()
+term.setPaletteColor( color, r, g, b )
+term.getPaletteColor( color )
+
+터미널에서 발생하는 이벤트:
+"term_resize": 터미널 크기가 바뀔 때 발생합니다. 멀티태스킹 환경이나 "monitor" 프로그램으로 출력을 리디렉션했을 때 발생할 수 있습니다.

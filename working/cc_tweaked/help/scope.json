@@ -1,0 +1,9 @@
+{
+  "jar": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+  "help_files_found": 99,
+  "operational_help_translation_targets": 97,
+  "excluded_non_operational_files": {
+    "changelog.md": "현재 기능 설명이 아닌 과거 버전 변경 기록",
+    "credits.md": "번역하면 안 되는 기여자 이름과 원문 인용 중심의 크레디트"
+  }
+}

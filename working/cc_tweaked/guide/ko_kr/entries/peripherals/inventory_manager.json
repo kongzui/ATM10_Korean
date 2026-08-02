@@ -1,0 +1,30 @@
+{
+  "name": "인벤토리 관리자",
+  "icon": "advancedperipherals:inventory_manager",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "인벤토리 관리자는 플레이어 인벤토리와 통신합니다. 메모리 카드를 든 채 우클릭한 뒤 관리자에 넣어야 사용할 수 있습니다.$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/peripherals/inventory_manager/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:inventory_manager"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:inventory_manager"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "인벤토리 관리자를 컴퓨터에 연결해 사용하세요!"
+    }
+  ]
+}

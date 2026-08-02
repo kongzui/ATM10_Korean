@@ -1,0 +1,7 @@
+비트 연산 API의 함수(참고: 이 API는 향후 버전에서 제거됩니다. 대신 bit32를 사용하세요):
+bit.bnot(n)          -- bitwise not (~n)
+bit.band(m, n)       -- bitwise and (m & n)
+bit.bor(m, n)        -- bitwise or (m | n)
+bit.bxor(m, n)       -- bitwise xor (m ^ n)
+bit.brshift(n, bits) -- right shift (n >> bits)
+bit.blshift(n, bits) -- left shift (n << bits)

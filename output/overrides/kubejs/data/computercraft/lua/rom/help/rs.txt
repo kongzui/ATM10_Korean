@@ -1,0 +1,19 @@
+레드스톤 API의 함수:
+rs.getSides( )
+rs.getInput( side )
+rs.setOutput( side, boolean )
+rs.getOutput( side )
+rs.getAnalogInput( side )
+rs.setAnalogOutput( side, number )
+rs.getAnalogOutput( side )
+
+RedPower 번들 케이블 작업을 위한 레드스톤 API의 함수:
+rs.getBundledInput( side )
+rs.testBundledInput( side, color )
+rs.setBundledOutput( side, colors )
+rs.getBundledOutput( side )
+사용 예를 보려면 "help bundled"를 입력하세요.
+
+레드스톤 API에서 발생하는 이벤트:
+"redstone", 레드스톤 입력 상태가 변경될 때. getInput() 또는 getBundledInput()를 사용하여 변경 사항을 검사합니다.
+이벤트 시스템에 대해 알아보려면 "help events"를 입력하세요.

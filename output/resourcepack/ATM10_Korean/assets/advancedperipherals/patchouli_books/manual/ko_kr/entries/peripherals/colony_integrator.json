@@ -1,0 +1,30 @@
+{
+  "name": "식민지 연동기",
+  "icon": "advancedperipherals:colony_integrator",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "식민지 연동기는 MineColonies의 식민지와 상호 작용합니다.$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/peripherals/colony_integrator/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:colony_integrator"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:colony_integrator"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "식민지 영역 안에서 식민지 연동기를 컴퓨터에 연결해 사용하세요!"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+os(운영 체제) API의 함수:
+os.version()
+os.getComputerID()
+os.getComputerLabel()
+os.setComputerLabel()
+os.run( environment, programpath, arguments )
+os.loadAPI( path )
+os.unloadAPI( name )
+os.pullEvent( [filter] )
+os.queueEvent( event, arguments )
+os.clock()
+os.startTimer( timeout )
+os.cancelTimer( token )
+os.sleep( timeout )
+os.time( [source] )
+os.day( [source] )
+os.epoch( [source] )
+os.setAlarm( time )
+os.cancelAlarm( token )
+os.shutdown()
+os.reboot()
+
+os API에서 발생하는 이벤트:
+"timer"는 os.startTimer()에 의해 시작된 시간 초과가 완료될 때 발생합니다. 인수는 os.startTimer()에서 반환된 토큰입니다.
+"alarm": os.setAlarm()에 지정한 시각이 되면 발생합니다. 인수는 os.setAlarm()이 반환한 토큰입니다.
+이벤트 시스템에 대해 알아보려면 "help events"를 입력하세요.

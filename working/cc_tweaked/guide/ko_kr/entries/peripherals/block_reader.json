@@ -1,0 +1,31 @@
+{
+  "name": "블록 리더",
+  "icon": "advancedperipherals:block_reader",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "앞에 있는 블록과 블록 엔티티의 데이터를 읽습니다.$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/peripherals/block_reader/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:block_reader"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:block_reader",
+          "T": "minecraft:dirt"
+        },
+        "pattern": [
+          [
+            "0PT"
+          ]
+        ]
+      },
+      "text": "블록 리더를 컴퓨터와 조사할 블록에 맞닿게 연결해 사용하세요!"
+    }
+  ]
+}

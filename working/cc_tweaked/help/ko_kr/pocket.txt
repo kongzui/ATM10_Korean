@@ -1,0 +1,6 @@
+pocket은 포켓 컴퓨터에서 사용할 수 있는 API로, 업그레이드를 수정할 수 있습니다.
+pocket API의 함수:
+pocket.equipBack()
+pocket.unequipBack()
+
+업그레이드를 장착할 때 현재 선택한 슬롯부터 인벤토리에서 알맞은 업그레이드를 찾습니다. 없으면 보조 손을 확인합니다.

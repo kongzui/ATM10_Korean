@@ -1,0 +1,12 @@
+{
+  "files": 97,
+  "prose_lines_reviewed": 331,
+  "code_lines_preserved": 363,
+  "untranslated": 0,
+  "excluded_non_operational_files": {
+    "changelog.md": "현재 기능 설명이 아닌 과거 버전 변경 기록",
+    "credits.md": "번역하면 안 되는 기여자 이름과 원문 인용 중심의 크레디트"
+  },
+  "errors": [],
+  "status": "complete"
+}

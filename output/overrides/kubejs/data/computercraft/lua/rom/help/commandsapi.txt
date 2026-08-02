@@ -1,0 +1,15 @@
+명령 API의 함수:
+commands.exec( command )
+commands.execAsync( command )
+commands.list()
+commands.getBlockPosition()
+commands.getBlockInfo( x, y, z )
+commands.getBlockInfos( minx, miny, minz, maxx, maxy, maxz )
+
+명령 API를 사용하여 다음과 같이 명령을 직접 호출할 수도 있습니다.
+commands.say( "Hello World" )
+commands.give( "dan200", "minecraft:diamond", 64 )
+이는 모든 명령에서 작동합니다. 비동기적으로 실행하려면 "commands" 대신 "commands.async"를 사용하세요.
+
+명령 API는 명령 컴퓨터에서만 사용할 수 있습니다.
+모든 명령에 대한 문서를 보려면 https://minecraft.wiki/w/Commands를 방문하세요.

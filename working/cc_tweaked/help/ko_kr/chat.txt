@@ -1,0 +1,5 @@
+"chat"로 레드넷 고속도로를 서핑하세요, CraftOS용 네트워크 채팅 프로그램! 채팅방을 호스팅하고 친구를 초대하세요! 각 컴퓨터에는 유선 또는 무선 모뎀이 필요합니다. 채팅을 실행할 때, 사용 가능한 명령 목록을 보려면 "/help"를 입력하세요.
+
+ex:
+"chat host forgecraft"가 "forgecraft"라는 이름의 채팅방을 생성합니다.
+"chat join forgecraft direwolf20"는 "direwolf20"라는 닉네임을 사용하여 "forgecraft"라는 이름의 채팅방에 연결합니다.

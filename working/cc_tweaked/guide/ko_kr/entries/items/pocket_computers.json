@@ -1,0 +1,15 @@
+{
+  "name": "포켓 컴퓨터 애드온",
+  "icon": "computercraft:pocket_computer_advanced",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "다음 주변 장치를 포켓 컴퓨터 업그레이드로 제공합니다:$(li)$(9)$(l:peripherals/environment_detector)환경 감지기$(/l)$()$(li)$(9)$(l:peripherals/player_detector)플레이어 감지기$(/l)$()$(li)$(9)$(l:peripherals/chat_box)채팅 상자$(/l)$()$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/items/pocket_computer/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "text",
+      "text": "포켓 컴퓨터와 조합하면 해당 주변 장치를 추가할 수 있습니다. 단, 관련 이벤트는 사용할 수 없습니다."
+    }
+  ]
+}

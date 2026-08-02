@@ -1,0 +1,15 @@
+번들 출력을 설정하려면:
+c = colors.combine( colors.red, colors.blue )
+rs.setBundledOutput( "left", c )
+
+c = colors.combine( c, colors.green )
+rs.setBundledOutput( "left", c )
+
+c = colors.subtract( c, colors.blue )
+rs.setBundledOutput( "left", c )
+
+번들 입력을 얻으려면:
+c = rs.getBundledInput( "right" )
+red = colors.test( c, colors.red )
+
+와이어 색상 목록을 보려면 "help colors"를 입력하세요.

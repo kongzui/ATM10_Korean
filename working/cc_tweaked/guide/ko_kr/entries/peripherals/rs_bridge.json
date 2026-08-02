@@ -1,0 +1,30 @@
+{
+  "name": "RS 브리지",
+  "icon": "advancedperipherals:rs_bridge",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "RS 브리지는 Refined Storage와 상호 작용합니다. 아이템을 가져오거나 제작하고, 전체 아이템 목록을 읽는 등의 작업을 할 수 있습니다.$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/peripherals/rs_bridge/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:rs_bridge"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:rs_bridge"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "RS 브리지를 컴퓨터에 연결해 사용하세요!"
+    }
+  ]
+}

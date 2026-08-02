@@ -1,0 +1,30 @@
+{
+  "name": "NBT 저장소",
+  "icon": "advancedperipherals:nbt_storage",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "NBT 저장소는 사용자 지정 데이터를 블록에 넣고 꺼낼 수 있는 블록입니다. 주로 ID 지원을 위해 제공됩니다.$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/peripherals/nbt_storage/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:nbt_storage"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:nbt_storage"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "NBT 저장소를 컴퓨터에 연결해 사용하세요!"
+    }
+  ]
+}

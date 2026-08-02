@@ -1,0 +1,81 @@
+{
+  "family": "CC: Tweaked·Advanced Peripherals·More Red",
+  "languages": [
+    {
+      "label": "CC: Tweaked",
+      "jar": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+      "namespace": "computercraft",
+      "english_keys": 235,
+      "korean_keys": 235,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 61,
+      "new_or_edited": 174
+    },
+    {
+      "label": "Advanced Peripherals",
+      "jar": "AdvancedPeripherals-1.21.1-0.7.62b.jar",
+      "namespace": "advancedperipherals",
+      "english_keys": 86,
+      "korean_keys": 86,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 9,
+      "new_or_edited": 77
+    },
+    {
+      "label": "More Red",
+      "jar": "morered-1.21.1-6.0.0.3.jar",
+      "namespace": "morered",
+      "english_keys": 51,
+      "korean_keys": 51,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 51
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 70,
+    "project_output_reuse": 0,
+    "new_or_edited": 302
+  },
+  "ftbquests": {
+    "chapters": [],
+    "quests_checked": 0,
+    "tasks_checked": 0,
+    "display_keys_checked": 0,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 0,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

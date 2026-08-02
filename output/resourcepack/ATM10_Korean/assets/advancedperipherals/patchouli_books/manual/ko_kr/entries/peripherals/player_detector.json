@@ -1,0 +1,30 @@
+{
+  "name": "플레이어 감지기",
+  "icon": "advancedperipherals:player_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "플레이어 감지기는 일정 범위 안의 플레이어를 감지하며, 자신을 클릭한 플레이어도 알아냅니다.$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/peripherals/player_detector/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:player_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:player_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "플레이어 감지기를 컴퓨터에 연결해 사용하세요!"
+    }
+  ]
+}

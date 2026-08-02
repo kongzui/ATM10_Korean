@@ -1,0 +1,9 @@
+키 API에는 "key" 이벤트에서 반환할 수 있는 모든 키 코드에 대한 상수가 포함되어 있습니다.
+
+사용 예:
+local sEvent, nKey = os.pullEvent()
+if sEvent == "key" and nKey == keys.enter then
+   -- Do something
+end
+
+전체 참조는 https://www.minecraft.wiki/w/Key_codes, 또는 소스 코드를 참조하세요.

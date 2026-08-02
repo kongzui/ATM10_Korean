@@ -1,0 +1,30 @@
+{
+  "name": "지질 스캐너",
+  "icon": "advancedperipherals:geo_scanner",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "지질 스캐너는 주변 블록과 자신이 놓인 청크의 정보를 제공합니다. 스캔 사이에는 재사용 대기시간이 있으니 코드에서 고려해야 합니다.$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/peripherals/geo_scanner/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:geo_scanner"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:geo_scanner"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "지질 스캐너를 컴퓨터에 연결해 사용하세요!"
+    }
+  ]
+}

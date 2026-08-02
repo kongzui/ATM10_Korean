@@ -1,0 +1,9 @@
+색상 API의 기능
+(redstone.setBundledOutput에 사용됨):
+colors.combine( color1, color2, color3, ... )
+colors.subtract( colors, color1, color2, ... )
+colors.test( colors, color )
+colors.rgb8( r, g, b )
+
+색상 API의 색상 상수(오름차순 비트 순서):
+colors.white, colors.orange, colors.magenta, colors.lightBlue, colors.yellow, colors.lime, colors.pink, colors.gray, colors.lightGray, colors.cyan, colors.purple, colors.blue, colors.brown, colors.green, colors.red, colors.black.

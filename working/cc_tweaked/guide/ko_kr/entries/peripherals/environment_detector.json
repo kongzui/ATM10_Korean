@@ -1,0 +1,30 @@
+{
+  "name": "환경 감지기",
+  "icon": "advancedperipherals:environment_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "환경 감지기는 현재 시간, 달의 위상, 블록의 밝기 등 여러 환경 정보를 가져옵니다.$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/peripherals/environment_detector/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:environment_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:environment_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "환경 감지기를 컴퓨터에 연결해 사용하세요!"
+    }
+  ]
+}

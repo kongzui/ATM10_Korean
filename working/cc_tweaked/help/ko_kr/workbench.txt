@@ -1,0 +1,4 @@
+작업대는 제작용 터틀에 달린 주변 장치입니다. 주변 장치 API 사용법은 "help peripheral"을 입력해 확인하세요. 터틀에 작업대가 달려 있으면 peripheral.getType()은 "workbench"를 반환합니다.
+
+작업대가 제공하는 메서드:
+craft( channel )

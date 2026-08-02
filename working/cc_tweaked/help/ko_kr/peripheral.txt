@@ -1,0 +1,16 @@
+주변 장치 API는 외부 주변 장치와 상호작용하기 위한 것입니다. 사용 가능한 주변 장치에 대해 알아보려면 "help peripherals"를 입력하세요.
+
+주변 장치 API의 함수:
+peripheral.getNames()
+peripheral.isPresent( name )
+peripheral.getName( peripheral )
+peripheral.getType( name )
+peripheral.getMethods( name )
+peripheral.call( name, methodName, param1, param2, etc )
+peripheral.wrap( name )
+peripheral.find( type, [fnFilter] )
+
+주변 장치 API에서 발생하는 이벤트:
+새 주변 장치가 연결된 경우 "peripheral". 인수는 이름입니다.
+주변 장치가 제거된 경우 "peripheral_detach". 인수는 이름입니다.
+이벤트 시스템에 대해 알아보려면 "help events"를 입력하세요.

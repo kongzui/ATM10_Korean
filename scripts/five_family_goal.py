@@ -480,6 +480,27 @@ TARGETS = (
         "railcraft",
         "Railcraft Reborn",
     ),
+    Target(
+        "cc_tweaked",
+        "cc-tweaked-1.21.1-forge-1.120.0",
+        "computercraft",
+        "CC: Tweaked",
+    ),
+    Target(
+        "cc_tweaked",
+        "AdvancedPeripherals-",
+        "advancedperipherals",
+        "Advanced Peripherals",
+    ),
+    Target("cc_tweaked", "morered-1.21.1-6.0", "morered", "More Red"),
+    Target(
+        "cc_tweaked",
+        "MoreRed-CCT-Compat-",
+        "moreredxcctcompat",
+        "More Red × CC: Tweaked Compat",
+        True,
+        False,
+    ),
 )
 
 FAMILY_LABELS = {
@@ -515,6 +536,7 @@ FAMILY_LABELS = {
     "oritech": "Oritech",
     "extreme_reactors": "Extreme Reactors·ZeroCore",
     "railcraft_reborn": "Railcraft Reborn",
+    "cc_tweaked": "CC: Tweaked·Advanced Peripherals·More Red",
 }
 
 QUEST_CHAPTERS = {
@@ -555,6 +577,7 @@ QUEST_CHAPTERS = {
     "oritech": ("oritech",),
     "extreme_reactors": ("extreme_reactors",),
     "railcraft_reborn": ("railcraft",),
+    "cc_tweaked": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -675,6 +698,14 @@ QUEST_TEXT_MARKERS = {
         "railcraft",
         "rail craft",
     ),
+    "cc_tweaked": (
+        "cc: tweaked",
+        "computercraft",
+        "advanced peripherals",
+        "advancedperipherals",
+        "more red",
+        "morered",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -759,6 +790,10 @@ ALLOWED_ORIGINALS = {
     "AllTheCompressed",
     "Extreme Reactors",
     "Railcraft Reborn",
+    "CC: Tweaked",
+    "ComputerCraft",
+    "Advanced Peripherals",
+    "More Red",
     "Productive Metalworks",
     "Compact Machines",
     "Create",

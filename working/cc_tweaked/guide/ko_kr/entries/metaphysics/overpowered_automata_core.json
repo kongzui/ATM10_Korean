@@ -1,0 +1,25 @@
+{
+  "name": "초강력 오토마타 코어",
+  "icon": "advancedperipherals:overpowered_weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "초강력 약한 오토마타 코어",
+      "item": "advancedperipherals:overpowered_weak_automata_core",
+      "text": "형이상학의 법칙을 벗어나려는 첫 시도입니다. 기대만큼 성공적이지는 않았습니다.$(p)아무 오토마타 코어나 네더의 별과 단순히 조합했더니 무언가가 만들어졌습니다..."
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:overpowered_weak_automata_core",
+      "recipe2": "advancedperipherals:overpowered_end_automata_core"
+    },
+    {
+      "type": "link",
+      "text": "초강력 오토마타 코어는 아이템을 사용할 때 내구도를 소비하지 않습니다.$(p)하지만 대가가 따릅니다. 연료가 부족한 상태로 작업하면 업그레이드가 즉시 부서집니다.",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/overpowered_automata/",
+      "link_text": "API 문서"
+    }
+  ]
+}

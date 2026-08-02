@@ -1,0 +1,15 @@
+{
+  "name": "청크 제어기",
+  "icon": "advancedperipherals:chunk_controller",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "청크 제어기는 청크 터틀의 제작 재료입니다.$(p)터틀이나 고급 터틀과 조합하면 청크를 계속 불러오는 터틀이 됩니다!$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/items/chunk_controller/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:chunk_controller"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "약한 오토마타 코어",
+  "icon": "advancedperipherals:weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "약한 오토마타 코어",
+      "item": "advancedperipherals:weak_automata_core",
+      "text": "약한 오토마타 코어는 터틀을 강력한 오토마타로 바꾸는 업그레이드입니다!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:weak_automata_core"
+    },
+    {
+      "type": "link",
+      "text": "터틀에 여러 능력을 제공합니다.$(li)도구로 블록 캐기$(li)아이템이나 빈손으로 블록 클릭$(li)주변의 모든 아이템 또는 지정 아이템 흡수$(li)주변 아이템 감지$(li)시야 안의 블록이나 터틀 감지$(li)인벤토리의 RF 아이템으로 터틀 충전",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/weak_automata/",
+      "link_text": "API 문서"
+    },
+    {
+      "type": "text",
+      "text": "약한 코어는 형이상학 연구의 시작일 뿐입니다! 이 빈 그릇은 몹의 영혼 조각을 받아들일 준비가 되어 있습니다. 여러 몹을 영혼에 먹이면 고급 형태를 얻을 수 있을 듯합니다.$(li)$(l:metaphysics/end_automata_core)엔드 오토마타 코어$(li)$(l:metaphysics/husbandry_automata_core)축산 오토마타 코어"
+    }
+  ]
+}

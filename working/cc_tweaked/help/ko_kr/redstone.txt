@@ -1,0 +1,9 @@
+레드스톤 프로그램은 컴퓨터에서 레드스톤 입력 및 출력을 가져오거나 설정하거나 펄스하는 데 사용할 수 있습니다.
+
+ex:
+"redstone probe"는 컴퓨터에 대한 모든 레드스톤 입력을 나열합니다.
+"redstone set left true"는 왼쪽 레드스톤 출력을 켭니다.
+"redstone set right blue false"는 오른쪽 레드스톤 출력에 있는 번들 케이블의 파란색 선을 끕니다.
+"redstone pulse front 10 1" 명령은 앞쪽 레드스톤 출력으로 1초짜리 펄스를 10회 보냅니다.
+
+레드스톤 Lua API에 대한 정보를 보려면 "help redstoneapi" 또는 "help rs"를 입력하세요.
