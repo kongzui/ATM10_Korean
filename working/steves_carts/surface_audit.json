@@ -1,0 +1,10 @@
+{
+  "advancement_files": 5,
+  "advancement_display_nodes": 0,
+  "kubejs_reference_files": [
+    "kubejs/client_scripts/RecipeViewer.js",
+    "kubejs/server_scripts/modpack/att_items.js"
+  ],
+  "kubejs_direct_display_lines": [],
+  "status": "complete"
+}

@@ -519,6 +519,7 @@ TARGETS = (
     Target("laser_io_mffs", "laserio-", "laserio", "LaserIO"),
     Target("laser_io_mffs", "mffs-", "mffs", "MFFS"),
     Target("pylons", "pylons-", "pylons", "Pylons"),
+    Target("steves_carts", "stevescarts-", "stevescarts", "Steve's Carts"),
 )
 
 FAMILY_LABELS = {
@@ -560,6 +561,7 @@ FAMILY_LABELS = {
     "xycraft": "XyCraft",
     "laser_io_mffs": "LaserIO·MFFS",
     "pylons": "Pylons",
+    "steves_carts": "Steve's Carts",
 }
 
 QUEST_CHAPTERS = {
@@ -606,6 +608,7 @@ QUEST_CHAPTERS = {
     "xycraft": ("xycraft",),
     "laser_io_mffs": (),
     "pylons": ("pylons",),
+    "steves_carts": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -769,6 +772,7 @@ QUEST_TEXT_MARKERS = {
         "interdiction pylon",
         "protection pylon",
     ),
+    "steves_carts": ("stevescarts", "steve's carts"),
 }
 
 EXTRA_SCOPE = {
@@ -797,6 +801,7 @@ ALLOWED_ORIGINALS = {
     "SFM",
     "XyCraft",
     "Pylons",
+    "Steve's Carts",
     "Mekanism",
     "Mekanism: Generators",
     "Mekanism: Tools",
@@ -4003,6 +4008,8 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     }:
         return True
     if family == "pylons" and key == "itemGroup.pylons":
+        return True
+    if family == "steves_carts" and key.startswith("stevescarts.creativetab."):
         return True
     if family == "actually_additions" and key in {
         "misc.actuallyadditions.energy_name",

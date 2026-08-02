@@ -1,0 +1,38 @@
+{
+  "family": "Steve's Carts",
+  "installed": [
+    {
+      "label": "Steve's Carts",
+      "jar": "stevescarts-1.21-1.2.18-neoforge.jar",
+      "namespace": "stevescarts",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 709,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "stevescarts"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 4,
+      "advancement_examples": [
+        "data/stevescarts/advancement/recipes/misc/blockadvdetector.json",
+        "data/stevescarts/advancement/recipes/misc/galgadorian_metal.json",
+        "data/stevescarts/advancement/recipes/misc/module_chunk_loader.json",
+        "data/stevescarts/advancement/recipes/misc/reinforced_metal.json"
+      ],
+      "recipes": 199
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Steve's Carts",
+      "jar": "stevescarts-1.21-1.2.18-neoforge.jar",
+      "namespace": "stevescarts",
+      "english_keys": 709,
+      "new_translation_required": 709
+    }
+  ]
+}

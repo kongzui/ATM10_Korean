@@ -1,0 +1,43 @@
+{
+  "family": "Steve's Carts",
+  "status": "complete",
+  "language": {
+    "namespaces": 1,
+    "keys": 709,
+    "bundled_korean_candidates": 0,
+    "bundled_korean_reused_without_review": 0,
+    "new_or_edited": 709,
+    "untranslated": 0
+  },
+  "ftbquests": {
+    "chapters": 1,
+    "quests_checked": 2,
+    "tasks_checked": 2,
+    "display_keys": 4,
+    "existing_project_candidates_reviewed": 4,
+    "new_translation_required": 0,
+    "untranslated": 0
+  },
+  "other_surfaces": {
+    "guide_files": 0,
+    "advancements_checked": 5,
+    "advancement_display_entries": 0,
+    "kubejs_reference_files_checked": 2,
+    "kubejs_direct_display_lines": 0
+  },
+  "validation": {
+    "specialized_language": "complete",
+    "ftbquests": "complete",
+    "surface_audit": "complete",
+    "family": "complete",
+    "syntax_and_format_errors": 0
+  },
+  "deployment": {
+    "status": "deferred_java_running",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "java_process_ids": [
+      19660,
+      31372
+    ]
+  }
+}

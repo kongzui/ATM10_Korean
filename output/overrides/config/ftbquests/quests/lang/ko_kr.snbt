@@ -3054,8 +3054,8 @@
 	quest.309059DEDEE7AECD.quest_desc: ["땅에 떨어진 아이템을 수집하여 둥지로 가져갑니다."]
 	quest.309059DEDEE7AECD.quest_subtitle: "수집 벌에게 셜커 껍데기 먹이기"
 	quest.309059DEDEE7AECD.title: "비축 벌"
-	quest.309B0B2898893B4E.quest_desc: ["&b&l스티브의 카트&r는 upgrading... 카트에 관한 모든 것입니다! \\n\\n어떤 종류의 상위 버전으로 변환이 있을까요? 싱크대 빼고는 거의 모든 것이 있습니다!\\n\\n드릴부터 총, 아케이드 기계까지! 카트로 무엇을 더 원하시나요?"]
-	quest.309B0B2898893B4E.title: "&l&b스티브의 카트"
+	quest.309B0B2898893B4E.quest_desc: ["&b&lSteve's Carts&r는 카트를 업그레이드하는 모드입니다! \\n\\n어떤 업그레이드가 있냐고요? 싱크대만 빼면 거의 다 있습니다! \\n\\n드릴부터 총과 아케이드 기계까지! 카트에 무엇을 더 바라겠어요?"]
+	quest.309B0B2898893B4E.title: "&l&bSteve's Carts"
 	quest.309B6B8368E535A0.quest_desc: ["라우터는 자체 틱이 올 때마다 작업을 수행합니다.\\n\\n기본 주기는 20틱, 즉 1초입니다.\\n\\n속도 업그레이드를 사용하면 이 틱 수를 줄일 수 있습니다!"]
 	quest.30A61E1A1EFA81E6.quest_desc: ["&2강철잎&r은 엄밀히 말하면 주괴이며, &9&lThe Twilight Forest&r의 상자에서 발견할 수 있습니다. \\n방어구 부위마다 서로 다른 마법 부여가 적용됩니다!"]
 	quest.30A61E1A1EFA81E6.quest_subtitle: "20"
@@ -5440,8 +5440,8 @@
 		"{image:atm:textures/questpics/bumblezone/bumble_overgrown.png width:200 height:100 align:center}"
 	]
 	quest.55B9B9C3AA01D323.title: "&5무성한 꽃"
-	quest.55BF254B1831359B.quest_desc: ["&5갈라도리안 드릴&r은 우리가 카트에 부착할 수 있는 최고의 드릴입니다.\\n\\n그 위대함 때문에 제작하는 데 difficult...더 많은 노력difficult...이 필요합니다.\\n&3안정화된 금속&r이 아주 많이 필요하다고만 해두죠! 제작법을 따르세요!"]
-	quest.55BF254B1831359B.title: "&5갈라도리안 드릴"
+	quest.55BF254B1831359B.quest_desc: ["&5갈가도리안 드릴&r은 카트에 장착할 수 있는 최고의 드릴입니다. \\n\\n그만큼 제작하기도 더 어렵습니다... \\n&3안정화 금속&r이 아주 많이 필요하다고만 해 두죠! 조합법을 따라가세요!"]
+	quest.55BF254B1831359B.title: "&5갈가도리안 드릴"
 	quest.55C4824DAD905512.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.55D7CD0FA8F1AE48.quest_desc: ["우리가 모두 여기에 있는 이유는 &5기차&r 때문입니다. 이 모드의 이름은 &l&7Railcraft&r입니다. 놀라지 마세요. \\n\\n2가지 주요 &5기차&r와 1개의 특별한 채굴 &5기차&r가 있습니다.\\n\\n이 &5기차&r들은 혼자서는 조금 지루할 수 있으니, &7광산 수레&r를 부착해 보는 건 어떨까요! &7광산 수레&r와 &7광산 수레&r를 연결하고 &5기차&r와 연결하는 것을 연결이라고 하며, 연결을 해제하는 것을 연결 해제이라고 합니다. &5기차&r와 &7광산 수레&r를 연결하려면 &4쇠지렛대&r 또는 연결 &c선로 키트&r가 있는 &6선로&r를 사용하세요."]
 	quest.55D7CD0FA8F1AE48.title: "&7&l수레&r 그리고 &5&l기차&r!"
