@@ -1,0 +1,19 @@
+{
+  "name": "자살 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/suicide_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$는 즉시 아이템 형식으로 바뀌고 아이템 개체로 땅에 떨어집니다. 프로그램 실행은 물론 즉시 종료됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/suicide_piece.png"
+      ],
+      "text": "$(italic)이상입니다, 여러분/$"
+    }
+  ]
+}

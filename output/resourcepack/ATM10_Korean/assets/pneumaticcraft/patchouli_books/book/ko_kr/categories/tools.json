@@ -1,0 +1,6 @@
+{
+  "name": "도구",
+  "description": "이들은 편리한 목적을 다하는 다양한 소지 아이템(도구나 무기)입니다.",
+  "icon": "pneumaticcraft:pneumatic_wrench[pneumaticcraft:air=30000]",
+  "sortnum": 6
+}

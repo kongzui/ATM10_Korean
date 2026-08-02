@@ -1,0 +1,73 @@
+{
+  "name": "조건",
+  "icon": "minecraft:comparator",
+  "category": "pneumaticcraft:programming",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Conditions/$는 무언가를 확인하고 확인에 성공하면 프로그램의 다른 부분으로 이동할 수 있는 위젯 모음입니다. $(p)모든 $(thing)Condition/$ 위젯은 $(l:programming/text)Text/$ 위젯 매개변수(항상 가장 아래쪽에 있음)를 사용합니다. 매개변수)는 $(thing)레이블 이름/$로 구성됩니다."
+    },
+    {
+      "type": "text",
+      "text": "조건이 $(thing)true/$를 평가하면 $(l:programming/flow_control)프로그램 실행/$는 해당 위젯의 $(thing)Text/$ 매개변수와 동일한 이름을 가진 $(l:programming/label)Label/$ 위젯으로 점프합니다. $(italic)오른쪽/$ 쪽. 조건이 $(thing)false/$이면 $(italic)왼손에 있는 $(thing)Text/$ 매개변수와 동일한 이름을 가진 $(thing)Label/$로 점프합니다. side/$.$(p)$(thing)Condition/$ 위젯이 유효한 $(thing)Text/$ 매개변수를 찾을 수 없는 경우 다음 위젯(연결된)으로 진행됩니다. $(italic)아래/$)."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/condition_widget.png"
+      ],
+      "border": "true",
+      "text": "$(italic)신호가 10 이상이면 드론을 파괴하는 레드스톤 조건 위젯/$"
+    },
+    {
+      "type": "text",
+      "text": "대부분의 $(thing)조건/$ 위젯은 $(thing)오른쪽 클릭/$하여 설정 GUI를 열 수 있습니다. GUI에는 일반적으로 '='/'>=' 옵션과 숫자를 입력할 수 있는 텍스트 필드가 포함됩니다. $(p)이것을 사용하면 조건 (예 : 가슴의 아이템 수)을 예를 들어 10 그냥 ( '='모드, 텍스트 필드 10), 20 이상 ('>=' 모드, 텍스트 필드 '21'), 12 미만('>=' 모드, 텍스트 필드 '12', 그러나 조건이 $(thing)false/$인지 여부를 확인)로 설정)"
+    },
+    {
+      "type": "text",
+      "title": "측정",
+      "text": "모든 $(thing)조건/$ 위젯의 GUI ($(l:programming/condition_item)조건 : 아이템 필터/$ 제외)에는 $(thing)측정값/$의 텍스트 필드가 있으며 $(l:programming/variables)변수/$의 이름을 입력할 수 있습니다. 여기서 변수 이름을 지정하면 드론이 수행한 측정값이 변수의 X 필드에 저장됩니다. $(p)이것은 나중에 다른 변수와 마찬가지로 사용할 수 있습니다. 예를 들어 유체 탱크의 레벨을 측정하여 간판에 쓸 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "측정 (계속)",
+      "text": "측정 변수 이름을 지정하면 조건 위젯에 분기 텍스트 위젯이 없어도 오류가 발생하지 않습니다 (일반적으로 적어도 1 분기가 필요합니다). 즉, 조건 위젯은 순수하게 양을 측정하는 데 사용할 수 있습니다. 실행은 평소대로 아래로 진행합니다. $(p)참고 : 압력 측정 조건에서 측정 된 압력은 밀리바로 저장됩니다 (예 : 5.5 바는 5500입니다)."
+    },
+    {
+      "type": "text",
+      "title": "조건 유형",
+      "text": "조건은 $(thing)세계 조건/$와 $(thing)드론 조건/$의 2 범주로 나뉩니다. $(p)월드 조건은 월드 내에 있는 것을 확인하는 데 사용됩니다. 예를 들어, $(item)가슴/$에는 특정 수의 아이템이 있는지, 어딘가에 블록이 존재하는지 등이 있습니다. $(p)$(thing)드론 조건/$는 특히 $(l:tools/drone)드론/$를 대상으로 합니다. 예를 들어, 드론은 특정 아이템이 있는지 또는 특정 압력이 있는지 여부입니다."
+    },
+    {
+      "type": "text",
+      "text": "블록을 검사하는 모든 $(thing)월드 조건/$에는 여러 블록을 검사할 때 쓰는 $(thing)하나라도/모두/$ 옵션이 있습니다.$(li)$(thing)하나라도/$ 모드에서는 선택한 $(l:programming/area)영역/$의 블록 중 $(italic)하나/$만 일치해도 $(thing)참/$입니다.$(li)$(thing)모두/$ 모드에서는 $(italic)모든/$ 블록이 일치해야 $(thing)참/$입니다."
+    },
+    {
+      "type": "relations",
+      "title": "세계 조건",
+      "entries": [
+        "pneumaticcraft:programming/condition_block",
+        "pneumaticcraft:programming/condition_coordinate",
+        "pneumaticcraft:programming/condition_entity",
+        "pneumaticcraft:programming/condition_item",
+        "pneumaticcraft:programming/condition_item_inventory",
+        "pneumaticcraft:programming/condition_liquid_inventory",
+        "pneumaticcraft:programming/condition_pressure",
+        "pneumaticcraft:programming/condition_redstone",
+        "pneumaticcraft:programming/condition_rf"
+      ]
+    },
+    {
+      "type": "relations",
+      "title": "드론 조건",
+      "entries": [
+        "pneumaticcraft:programming/drone_condition_item",
+        "pneumaticcraft:programming/drone_condition_liquid",
+        "pneumaticcraft:programming/drone_condition_entity",
+        "pneumaticcraft:programming/drone_condition_pressure",
+        "pneumaticcraft:programming/drone_condition_rf"
+      ]
+    }
+  ]
+}

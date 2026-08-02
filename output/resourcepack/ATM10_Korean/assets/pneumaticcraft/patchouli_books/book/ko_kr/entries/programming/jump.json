@@ -1,0 +1,23 @@
+{
+  "name": "점프 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/jump_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 위젯은 $(l:programming/flow_control)프로그램 플로우/$에만 초점을 맞추고 있습니다. 프로그램이 $(thing)점프/$ 위젯에 도달하면 연결된 $(l:programming/text)텍스트/$ 위젯을 검사하고 일치하는 이름을 가진 $(l:programming/label)레이블/$ 위젯에 어떤 이유로 실패하면 실행은 $(l:programming/start)시작/$ 위젯으로 돌아갑니다. (이 폴백 동작은 일반적으로 발생하지 않습니다.)"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)Jump/$ 위젯은 프로그램 흐름에서 여러 $(italic)branches/$를 병합하는 데 사용할 수 있습니다(모두 동일한 $(l:programming/label)Label/$로 점프하는 두 개 이상의 점프를 사용하거나 단순히 섹션을 자체 '서브루틴'으로 분리하여 프로그램을 구성하는 방법). 유용한 팁은 다음과 같습니다. $(l:programming/programmer)Programmer/$ GUI 왼쪽 하단에 있는 $(bold)Show Flow/$ 확인란을 선택하면 동일한 이름의 $(thing)Jump/Condition/Label/$ 위젯을 연결하는 줄이 표시됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/jump_piece.png"
+      ],
+      "text": "$(italic)아마/$"
+    }
+  ]
+}

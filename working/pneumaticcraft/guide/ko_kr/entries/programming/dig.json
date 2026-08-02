@@ -1,0 +1,34 @@
+{
+  "name": "채굴 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/dig_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$는 지정된 $(l:programming/area)영역/$ 내의 블록을 굴착/채굴합니다. 블록에서 드롭된 아이템은 $(item)드론/$에 의해 픽업되지 않습니다. 블록이 시추되는 순서는 $(l:programming/place)배치/$ 위젯과 유사합니다. 또한 $(thing)배치/$ 위젯과 마찬가지로 영역을 레이어별로 드릴할지 여부(위에서 아래로 또는 아래에서 위로)를 제어할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "도구 사용",
+      "text": "$(item)드론/$의 $(l:programming/inventory_import)가져오기/$를 광택이나 삽 등으로 하여 그 툴을 사용할 수 있습니다. $(item)드론/$가 여러 도구를 가지고 다니는 경우 파는 블록에 가장 적합한 도구가 자동으로 사용됩니다. $(p)$(thing)굴착 도구 필요/$의 체크 박스를 선택하면 드론이 도구없이 (이것은 매우 시간이 걸립니다) 파내려고하는 것을 방지 할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "채굴 횟수 제한",
+      "text": "GUI의 $(thing)블록 상호 작용 제한/$의 확인란을 선택하고 제한을 설정하여 시추 작업 수를 지정된 수로 제한할 수 있습니다. 예를 들어, 1로 설정하면 $(item)드론/$는 프로그램의 다음 위젯으로 이동하기 전에 (영역의 블록 수에 관계없이) 하나의 블록 만 시추합니다. 이를 사용하면 몇 블록만 굴착한 다음 도구의 내구성을 확인하고 깨지기 전에 수리할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "블록 필터링",
+      "text": "마지막으로 $(l:programming/item_filter)아이템 필터/$를 사용하여 채굴할 수 있는 블록을 지정할 수 있습니다. $(p)작물 등의 블록에서 사용하는 경우는 작물을 파괴했을 때에 취득하는 아이템(즉, $(item)밀/$작물의 경우는 $(item)종/$)로 필터합니다. 예외는 아이템을 $(italic)결코/$ 드롭하지 않는 블록 (실크 터치를 사용해도)입니다. 여기에는 필터 설정 GUI에 특정 $(thing)블록에서 일치하는/$ 옵션이 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/dig_piece.png"
+      ],
+      "text": "$(italic)하이호/$"
+    }
+  ]
+}

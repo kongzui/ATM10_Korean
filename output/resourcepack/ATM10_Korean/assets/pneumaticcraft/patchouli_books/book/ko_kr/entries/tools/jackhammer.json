@@ -1,0 +1,62 @@
+{
+  "name": "공압식 착암기",
+  "icon": "pneumaticcraft:jackhammer[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:jackhammer",
+      "text": "$(item)공압식 암석 기계/$는 매우 다재다능한 채굴 도구로 $(l:base_concepts/pressure)압력/$를 사용하여 모든 종류의 블록을 효과적으로 파괴할 수 있습니다. 채굴 속도와 공기 용량은 각각 $(l:machines/charging_station)충전 스테이션/$에서 $(l:base_concepts/upgrades#speed)속도 업그레이드/$ 및 $(l:base_concepts/upgrades#volume)용량 업그레이드/$를 사용하여 업그레이드할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "드릴 비트",
+      "text": "새로 제작된 착암기는 $(thing)드릴 비트/$가 없기 때문에 그다지 유용하지 않습니다. 하나를 삽입해야 합니다. Jackhammer를 우클릭하여 구성 GUI를 열고 오른쪽 상단 슬롯에 비트를 놓습니다. $(p)드릴 비트에는 4가지 유형이 있으며 전력과 비용이 오름차순입니다. $(li)Iron/$$(li)압축 철/$$(li)Diamond/$$(li)Netherite/$"
+    },
+    {
+      "type": "text",
+      "title": "굴착 모드",
+      "text": "암석 기계는 여러 $(thing)광맥 채굴/$ 기능을 포함한 여러 가지 굴착 모드를 지원하므로 넓은 영역을 빠르고 쉽게 굴착할 수 있습니다. 지원되는 굴착 모드는 사용 중인 $(thing)드릴 비트/$에 따라 다릅니다. 뛰어난 비트는 더 많은 굴착 모드를 지원합니다 (굴착 속도도 향상). $(p)굴착 모드를 설정하려면 암석 기계의 GUI를 열고 (오른쪽 클릭) 오른쪽 하단의 버튼을 사용하세요 (다른 쪽 참조)."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/jackhammer_gui.png"
+      ],
+      "text": "$(italic)네더라이트의 드릴 비트를 장착하고 3x3 굴착 모드를 선택한 암석 기계의 GUI/$"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "마법",
+      "text": "착암기는 일반적으로 $(thing)EEnchanting Table/$에서 마법을 부여할 수 없지만 GUI를 통해 $(thing)Silk Touch/$ 또는 $(thing)Fortune/$ 마법이 부여된 책을 삽입하는 것은 가능합니다. 책 슬롯(중앙 상단)에 책을 넣으면 착암기에 마법이 부여됩니다."
+    },
+    {
+      "type": "text",
+      "title": "마법 (계속)",
+      "text": "이것은 필요에 따라 실크 터치와 행운의 책을 쉽게 교환 할 수 있다는 장점이 있습니다. $(p)필요한 책을 얻기가 어려운 경우 (바닐라 책의 인챈트는 매우 무작위입니다)는 $(l:manufacturing/pressure_chamber)압력 실/$를 사용하면 도구에서 인챈트를 벗겨 책에 배치 할 수 있다는 것을 기억하십시오."
+    },
+    {
+      "type": "crafting",
+      "text": "착암기 제작",
+      "recipe": "pneumaticcraft:jackhammer"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/iron_drill_bit"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/compressed_iron_drill_bit"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/diamond_drill_bit"
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/netherite_drill_bit"
+    }
+  ]
+}

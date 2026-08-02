@@ -1,0 +1,6 @@
+{
+  "name": "물류",
+  "description": "물류 시스템은 물품과 유체를 이동하고 인벤토리와 탱크를 보충하는 강력한 방법입니다.",
+  "icon": "pneumaticcraft:logistics_drone[pneumaticcraft:air=120000]",
+  "sortnum": 8
+}

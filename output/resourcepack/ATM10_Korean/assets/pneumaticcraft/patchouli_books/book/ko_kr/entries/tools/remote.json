@@ -1,0 +1,63 @@
+{
+  "name": "리모컨",
+  "icon": "pneumaticcraft:remote",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "리모컨을 사용하면 $(l:programming/variables#global)전역 변수/$ 조작을 통해 $(l:tools/drone)Drones/$ 또는 $(l:machines/universal_sensor)Universal Sensors/$를 원격으로 제어하는 ​​자신만의 GUI를 만들 수 있습니다. $(item)범용 센서/$를 사용하면 $(item)리모컨/$를 사용하여 무선 레드스톤을 만들 수 있습니다!$(p)자신만의 GUI 만들기를 시작하려면 $(thing)sneak+오른쪽 클릭/$ $(item)리모컨/$를 눌러 편집기 창을 엽니다."
+    },
+    {
+      "type": "text",
+      "text": "창에 대한 입력은 $(l:programming/programmer)프로그래머/$에서의 프로그래밍과 유사하게 작동합니다. 오른쪽 패널에서 위젯을 클릭하고 왼쪽 메인 패널로 드래그하면 됩니다. $(p)위젯을 복사하려면 기존 위젯을 $(thing)중간 클릭/$로 드래그합니다. 위젯의 속성을 편집하려면 위젯을 $(thing)우클릭/$합니다. 예를 들어 버튼의 경우 다음 창이 열립니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/remote_button.png"
+      ],
+      "text": "이 창에서 버튼의 모양과 동작을 설정할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "다음 속성은 $(italic)all/$ 위젯에 공통적으로 적용됩니다. $(li)$(thing)Text/$ - 위젯에 표시된 텍스트$(li)$(thing)Tooltip/$ - 위젯 위로 마우스를 가져갈 때 표시되는 도구 설명 widget$(li)$(thing)E변수/$ 활성화 - 위젯을 $(l:programming/coordinate_operator)변수/$에 연결하여 위젯 표시 여부를 제어할 수 있습니다. X/Y/Z 필드에 값을 지정하면 연결된 변수가 지정한 값과 동일한 경우에만 위젯이 표시되도록 할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "라벨 위젯",
+      "anchor": "label",
+      "text": "이 위젯은 정보 제공을 위해 선택적 도구 설명과 함께 일부 텍스트를 표시합니다. 레이블은 $(italic)변경/$ 변수를 변경할 수 없지만 $(thing)${#globalvarname}/$ 구문을 사용하여 $(italic)display/$ 변수를 사용할 수 있습니다. 이는 디버깅 목적으로 유용할 수 있습니다.$(p)레이블 위젯에는 기본 필드 이외의 필드가 없습니다."
+    },
+    {
+      "type": "text",
+      "title": "버튼 위젯",
+      "text": "버튼 위젯은 누를 때 링크된 변수의 값을 설정합니다. $(li)$(thing)변수 이름/$ - 연결된 $(l:programming/variables#global)전역 변수/$. $(li)$(thing)설정값/$ - 버튼을 누를 때 링크된 변수에 할당할 X/Y/Z 값입니다. $(li)$(thing)폭/높이/$ - 버튼 치수."
+    },
+    {
+      "type": "text",
+      "title": "체크박스 위젯",
+      "text": "체크 박스 위젯은 체크되어 있으면 링크된 변수의 X 값을 1로 설정하고, 그렇지 않으면 0로 설정합니다. $(li)$(thing)변수 이름/$ - 연결된 $(l:programming/variables#global)전역 변수/$."
+    },
+    {
+      "type": "text",
+      "title": "드롭다운 위젯",
+      "text": "드롭다운 위젯은 연결된 변수의 X 값을 선택한 요소의 인덱스로 설정합니다. $(li)$(thing)드롭다운 요소/$ - 텍스트 레이블의 쉼표로 구분된 목록입니다. $(li)$(thing)변수 이름/$ - 연결된 $(l:programming/variables#global)전역 변수/$. $(li)$(thing)정렬됨/$ - 선택되어 있으면 목록의 요소가 알파벳순으로 정렬됩니다. 그렇지 않으면 요소가 지정된 순서대로 표시됩니다."
+    },
+    {
+      "type": "text",
+      "title": "예",
+      "text": "편집기 GUI 왼쪽에 있는 $(thing)Pastebin/$ 버튼을 사용하여 $(l:https://pastebin.com/4yxKG5Jc)이 레이아웃을 가져옵니다./$.$(p)이렇게 하면 전역 변수 $(thing)signal1, signal2 &를 설정하는 세 개의 확인란이 추가됩니다. signal3/$.$(p)이제 $(l:machines/universal_sensor)범용 센서/$ 3개를 배치하고 약간의 압력을 가하세요. 각 $(item)Sensor/$에 $(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 넣으세요. 각 $(item)Sensor/$에서 일부 레드스톤을 실행합니다(레드스톤을 별도로 유지하려면 블록을 따로 배치하세요)."
+    },
+    {
+      "type": "text",
+      "title": "예(계속)",
+      "text": "각 $(item)센서/$ GUI:$(li)$(thing)디스펜서/$ 버튼을 선택합니다.$(li)$(thing)World/$$(li)선택 $(thing)전역 변수/$$(li)$(thing)변수 이름/$ 텍스트 필드에 'signal1', 'signal2' 및 'signal3'를 입력합니다. 각각.$(p)이제 $(thing)/$를 우클릭하고 $(item)리모컨/$를 선택하고 각 확인란을 선택/선택 취소해 보세요. 해당 $(item)Sensor/$는 적절하게 레드스톤 신호를 방출합니다: 무선 레드스톤!"
+    },
+    {
+      "type": "crafting",
+      "text": "리모컨 제작",
+      "recipe": "pneumaticcraft:remote"
+    }
+  ]
+}

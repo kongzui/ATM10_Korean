@@ -1,0 +1,17 @@
+{
+  "name": "정비사 마을 사람",
+  "icon": "minecraft:emerald",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "흥미로운 $(pncr)구성 요소를 보유하고 있는 $(thing)villager/$에 대한 보고를 들어보셨습니다. 분명히 그는 $(l:manufacturing/pressure_chamber)Pressure Chamber/$ 사고에 연루된 것 같습니다. 어쨌든 요즘 그는 마을에 있는 자신의 집에서 노는 것을 더 좋아합니다. 실패하면 $(l:machines/charging_station)충전소/$가 실업자 마을 사람들에게 매력적일 수 있습니다..."
+    },
+    {
+      "type": "entity",
+      "name": "정비사",
+      "entity": "minecraft:villager{VillagerData:{profession:'pneumaticcraft:mechanic'}}",
+      "text": "$(italic)$(l:tools/amadron_tablet)아마드론의 팬이 아니다./$"
+    }
+  ]
+}

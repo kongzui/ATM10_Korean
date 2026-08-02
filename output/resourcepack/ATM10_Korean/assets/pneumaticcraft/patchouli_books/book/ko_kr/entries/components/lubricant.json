@@ -1,0 +1,17 @@
+{
+  "name": "윤활유",
+  "icon": "pneumaticcraft:lubricant_bucket",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)윤활유/$는 $(l:base_concepts/upgrades#speed)속도 업그레이드/$를 만드는 데 필요합니다. $(p)이것은 $(l:manufacturing/thermopneumatic_processing_plant)열공압 처리 공장/$에서 $(l:manufacturing/refinery)디젤/$ (또는 $(l:renewables/biodiesel)바이오디젤/$) 및 $(item)레드스톤/$를 사용하여 만들어집니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:lubricant_bucket",
+      "text": "$(italic)미끄러운 물건/$"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "정전기 압축기",
+  "icon": "pneumaticcraft:electrostatic_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)정전 압축기/$는 $(l:base_concepts/pressure_tiers)티어 2/$ 공기 $(l:base_concepts/pressure)압축기/$로 $(thing)번개/$를 에너지로 사용하여 압축 공기를 생성합니다. $(p)번개에 닿으면 즉시 200,000mL의 공기를 생성합니다. 상당히 많을 것 같지만, 대전 크리퍼가 몸을 숙인 채 돌아 다니는 것을 얼마나 자주 볼 수 있습니까? 낙뢰시키지 않으면 안됩니다."
+    },
+    {
+      "type": "text",
+      "text": "번개가 칠 확률을 높이려면 $(item)철창/$이나 $(item)피뢰침/$으로 만든 $(ttcolor)$(t:'pneumaticraft:electrostatic_grid' 블록 태그로 격자 블록을 바꿀 수 있습니다)격자/$를 압축기와 이 기계에 연결하세요. 격자가 번개의 도체 역할을 합니다.$(p)격자가 클수록 좋습니다. 격자 블록은 수평 반경 5블록, 위아래 5블록 이내에 둘 수 있지만, 모두 서로 이어져 $(item)정전기 압축기/$에 연결되어야 합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/electrostatic_compressor.png"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "왼쪽 이미지에서는 중앙 압축기만이 효율을 극대화하기 위해 주변에 충분한 크기의 그리드를 갖추고 있습니다. 다른 컴프레서가 스트라이크를 트리거 할 가능성은 낮아집니다 (그러나 그리드의 중앙에 컴프레서가 하나만있는 경우보다 여전히 효과적입니다)."
+    },
+    {
+      "type": "text",
+      "text": "$(thing)grid/$에 여러 개의 $(item)E정전기 압축기/$를 사용하면 충격으로 인한 공기가 균등하게 공유됩니다.$(p)충돌 후 압력이 너무 높아질 때 압축기가 터지는 것을 방지하려면 $(item)Iron을 연결할 수 있습니다. 압축기 하단에 Bars/$가 있습니다. 이렇게 하면 에너지가 기계로 들어가는 대신 땅으로 소산될 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "이러한 손실은 압축기의 위험 압력에 도달한 경우에만 발생하며, 더 빨리 발생하지는 않습니다. 압축기 아래의 각 $(item)Iron Bar/$ $(italic)직접적으로/$(동일한 Y축)는 최대 10,000mL의 과잉 공기를 소산합니다. $(p)따라서 공유 $(thing)grid/$에 10 압축기가 있는 경우, $(ttcolor)$(t:200000 / 10 = 20000 air produced per compressor; 10000 x 2 = 20000 air dissipated)만 2 그리드 블록/$가 각 압축기 아래에 필요합니다. (압축기에 $(l:base_concepts/upgrades#security)Security Upgrades/$를 추가할 수도 있지만 비용이 더 많이 들고 효율성도 떨어집니다.)"
+    },
+    {
+      "type": "text",
+      "text": "번개가 칠 확률을 더 높이려면 압축기 $(italic)바로 위/$에 격자 블록을 최대 10개까지 쌓아 $(thing)피뢰침/$을 만들 수 있습니다. 블록 하나마다 번개가 칠 확률이 조금씩 높아집니다."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)참고:/$이전 버전의 $(pncr)와 달리 자연 번개는 $(italic)/$가 압축기에 공기를 추가하지 않습니다(다른 모드를 사용하여 번개를 생성하는 것은 매우 남용 가능했습니다). 대신 압축기는 \"가짜\" 볼트를 생성할 가능성이 적습니다. 이 기회는 맑은 날씨에는 $(italic)very/$ 적지만, $(thing)비가 내리는/$에서는 향상되고, $(thing)폭풍/$에서는 극적으로 향상됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)정전기 압축기/$ 제작",
+      "recipe": "pneumaticcraft:electrostatic_compressor"
+    }
+  ]
+}

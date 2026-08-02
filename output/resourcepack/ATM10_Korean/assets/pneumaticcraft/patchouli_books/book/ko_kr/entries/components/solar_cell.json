@@ -1,0 +1,16 @@
+{
+  "name": "태양 전지",
+  "icon": "pneumaticcraft:solar_cell",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:assembly_controller",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)태양 전지/$는 $(l:compressors/solar_compressor)태양 압축기/$를 생성하고 수리하는 데 사용됩니다."
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/solar_cell"
+    }
+  ]
+}

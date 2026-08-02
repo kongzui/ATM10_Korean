@@ -1,0 +1,32 @@
+{
+  "name": "스마트 상자",
+  "icon": "pneumaticcraft:smart_chest",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)스마트 가슴/$는 72 슬롯의 체스트로, (동생의 $(l:machines/reinforced_chest)강화된 가슴/$와 마찬가지로) 흑요석 레벨의 폭발 내성이 있어, 망가져도 인벤토리가 유지 하지만 그 밖에도 몇 가지 매우 강력한 기능이 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "슬롯 필터링",
+      "text": "$(li)아이템이 들어 있는 슬롯을 $(thing)Alt+왼쪽 클릭/$하면 스마트 가슴은 해당 슬롯을 필터링하여 해당 아이템만 수락합니다. $(li)필터링된 슬롯을 $(thing)Alt+왼쪽 클릭/$ 하면 필터링을 다시 삭제할 수 있습니다. $(li)빈 슬롯을 $(thing)Alt+왼쪽 클릭/$하면 해당 슬롯과 그 이후의 모든 슬롯이 닫히고 인벤토리의 크기가 크게 줄어듭니다. $(li)첫 번째 닫힌 슬롯을 $(thing)Alt+왼쪽 클릭/$하면 닫힌 모든 슬롯이 다시 열립니다."
+    },
+    {
+      "type": "text",
+      "title": "아이템 내보내는 중",
+      "text": "스마트 가슴의 각 면은 아이템을 꺼내거나, 넣거나, 아무것도 하지 않는(디폴트) 것과 같이 개별적으로 설정할 수 있습니다. 면을 설정하려면 GUI의 $(thing)측면에 있는 설정/$ 탭을 엽니다. $(p)아이템을 발행하도록 설정된 면은 스마트 가슴에서 해당 면의 인접한 인벤토리로 아이템을 전송하려고 합니다. $(item)발사기 업그레이드/$가 설치된 경우 인접한 인벤토리가 없는 경우 가슴은 아이템을 세계로 배출합니다."
+    },
+    {
+      "type": "text",
+      "title": "아이템 가져오는 중",
+      "text": "아이템을 넣도록 설정된 면은 해당 면의 인접한 인벤토리에서 아이템을 넣으려고 합니다. $(p)$(l:base_concepts/upgrades#magnet)자석 업그레이드/$를 설치하면 가슴이 지면에 있는 가까운 아이템을 흡수할 수 있습니다. 이것은 아이템을 넣도록 설정된 면에서만 작동합니다. 디폴트의 ​​픽업 영역은 넣는 면에 인접하는 3x3x3의 입방체로, $(l:base_concepts/upgrades#range)레인지 업그레이드/$로 확대할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "스마트 상자 제작",
+      "recipe": "pneumaticcraft:smart_chest"
+    }
+  ]
+}

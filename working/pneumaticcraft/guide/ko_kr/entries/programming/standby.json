@@ -1,0 +1,19 @@
+{
+  "name": "대기 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/standby_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 위젯이 실행되면 $(l:tools/drone)드론/$는 프로펠러를 끄고 하늘에서 떨어집니다. 드론은 대기 모드에서는 공기를 사용하지 않으므로이 위젯을 사용하면 $(l:base_concepts/pressure)공기/$를 절약 할 수 있습니다. $(p)그러나 $(thing)드론/$는 다른 위젯을 계속 실행합니다. 실제 작업을 수행하는 위젯을 실행하자마자 $(thing)드론/$는 프로펠러를 다시 켭니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/standby_piece.png"
+      ],
+      "text": "$(italic)잠자는 숲의 미녀/$"
+    }
+  ]
+}

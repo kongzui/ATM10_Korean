@@ -1,0 +1,14 @@
+{
+  "family": "PneumaticCraft: Repressurized",
+  "chapters": {
+    "pneumaticcraft": {
+      "display_keys": 279,
+      "new_translation_required": 12,
+      "project_output_review": 267
+    },
+    "related": {
+      "display_keys": 21,
+      "project_output_review": 21
+    }
+  }
+}

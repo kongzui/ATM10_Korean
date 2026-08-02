@@ -1,0 +1,19 @@
+{
+  "name": "조건: 유체 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_liquid_inventory_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다. $(p)$(thing)조건 : 유체/$ 위젯을 사용하면 연결된 $(l:programming/area)영역/$ 위젯의 탱크 또는 유체 블록에 일정량의 유체가 있는지 (원격) 확인할 수 있습니다. 연결된 $(l:programming/liquid_filter)유체 필터/$ 위젯이 허용하는 유체만 계산됩니다(모든 유체를 허용하려면 필터 생략)."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_liquid_inventory_piece.png"
+      ],
+      "text": "$(italic)조건: 유체 위젯/$"
+    }
+  ]
+}

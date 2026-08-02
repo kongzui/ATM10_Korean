@@ -1,0 +1,43 @@
+{
+  "quest.070CAEAD49B8DBA3.quest_desc": [
+    "For 8 Stacks of &7Compressed Iron Blocks&r and an &6&lATM Star&r you can get the &5Creative &7Compressed Iron Block&r! \\n\\nThis can be set to any temperature you want it to be set to, which can then be used in your Machines. \\n\\n8 Stacks of &7Compressed Iron Blocks&r equals 4,608 &7Compressed Iron Ingots&r... good luck!"
+  ],
+  "quest.070CAEAD49B8DBA3.title": "&5&lCreative &7Compressed Iron Blocks",
+  "quest.1D87415343E65AA7.quest_desc": [
+    "The &5Creative &8Compressor&r allows you to choose any Bar Pressure you want! Positive, Negative, even 0! It can be used within Machines. \\n\\nYou'll need 4 stacks of Advanced Pressure Tubes, Advanced Liquid Compressor, Advanced Air Compressor, Electrostatic Compressor, and a Flux Compressor. \\n\\nI don't know what's harder getting the &6&lStar&r or remembering all the Items you need to make this!"
+  ],
+  "quest.1D87415343E65AA7.title": "&5&lCreative &8Compressor",
+  "quest.1102B27CBF564127.quest_desc": [
+    "Spawner Agitators are different from the other listed Modification items, this one is provided by PneumaticCraft instead of Apothic Spawners. Without the Apothic Spawners mod being in the Modpack, having an Agitator on a Spawner will make it spawn mobs no matter where the Player is. With Apothic Spawners, which yes we do have, it won't change that but rather will keep spawned mobs from despawning incase you leave the chunks."
+  ],
+  "quest.1102B27CBF564127.quest_subtitle": "Don't you despawn on me, Mobs",
+  "quest.72AE56D34834D28E.quest_desc": [
+    "Another one from PneumaticCraft? Oh this one is the actual Spawner I see. Like the Draconic Stabilized Spawner you'll need a Vanilla Spawner first. Once you have one, place a Spawner Extrator above the Spawner and give it below -0.5 Bars to get it to work. Once it's done it'll give you a Spawner Core filled with whatever mob was in it and it will leave you with an Empty Spawner. Then use the Empty Spawner to craft a Pressurized Spawner and then put the Spawner Core into it. (To upgrade the Core use a Vacuum Trap to suck up the mobs that will go into the Spawner Core). Once you do that the Spawner will now need Pressure to work, ignores Light Level, and is Redstone Activated."
+  ],
+  "quest.72AE56D34834D28E.quest_subtitle": "PneumaticCraft's Spawner",
+  "quest.21B96130EA516B82.quest_desc": [
+    "\"I am Compressed Iron Man!\" \\n\\nIt can be used and upgraded with compressed Air!"
+  ],
+  "quest.21B96130EA516B82.quest_subtitle": "15",
+  "quest.21B96130EA516B82.title": "&8Pneumatic Armor",
+  "quest.6ED2CDD01659FD10.quest_desc": [
+    "This armor set has same Armor Points as Iron but is better in both Toughness and Knockback Resistance."
+  ],
+  "quest.6ED2CDD01659FD10.quest_subtitle": "15",
+  "quest.6ED2CDD01659FD10.title": "&7Compressed Iron Armor",
+  "quest.5716E84828EC0C23.quest_desc": [
+    "Plastic Construction Bricks are Blocks made through &l&7PneumaticCraft: Repressurized&r. \\n\\nJust like their real life counter parts they hurt to step on! \\n\\nSo either wear Shoes or smooth down the Bricks."
+  ],
+  "quest.39F9C825B03DA317.quest_desc": [
+    "&8Aerial Interface&r works as a link between it's own internal storage and your Inventory. Basically whatever goes in it, goes to you. \\n\\nYou'll need a whole assembly line to craft it, the Quests should help you!"
+  ],
+  "quest.39F9C825B03DA317.title": "&8Aerial Interface",
+  "quest.3AAB71E9BDFD4C1E.quest_desc": [
+    "No pressure! Well actually you'll need a lot of Pressure with using &4&lPneumaticCraft&r. \\n\\nThat's kinda what it's all about..."
+  ],
+  "quest.3AAB71E9BDFD4C1E.title": "&4&lPneumaticCraft",
+  "quest.3C7C9EE57AD00A76.quest_desc": [
+    "You can craft these?!?!?! I've always just looted for them. \\n\\nYou can change if they home in on targets or fly straight. When homing you can change between the settings of &cSpeed&r, &6Damage&r, and &aTurn Speed&r."
+  ],
+  "quest.3C7C9EE57AD00A76.title": "&cMicromissiles"
+}

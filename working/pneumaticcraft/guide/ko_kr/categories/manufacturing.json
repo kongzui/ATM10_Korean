@@ -1,0 +1,6 @@
+{
+  "name": "제조",
+  "description": "다른 $(pncr)기계 및 공구를 빌드하기 위한 부품을 제조하는 데 사용되는 기계 및 시스템입니다.",
+  "icon": "pneumaticcraft:assembly_controller",
+  "sortnum": 3
+}

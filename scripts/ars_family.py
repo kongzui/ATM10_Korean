@@ -2227,6 +2227,7 @@ PROTECTED = re.compile(
     r"|%(?:\d+\$)?[a-zA-Z%]"
     r"|\{[A-Za-z0-9_]+\}"
     r"|\$\([^)]*\)"
+    r"|/\$"
     r"|[&§][0-9A-FK-ORa-fk-or]"
     r"|<[^>]+>"
     r"|\\n"
@@ -2311,11 +2312,17 @@ def restore_text(text: str, protected: list[str]) -> str:
     return text
 
 
-def request_translation(source: str) -> str:
-    """보호 처리한 영어 문장을 한국어 자동 번역 후보로 요청한다."""
+def request_translation(source: str, source_language: str = "en") -> str:
+    """보호 처리한 원문을 한국어 자동 번역 후보로 요청한다."""
     masked, protected = mask_text(source)
     query = urllib.parse.urlencode(
-        {"client": "gtx", "sl": "en", "tl": "ko", "dt": "t", "q": masked}
+        {
+            "client": "gtx",
+            "sl": source_language,
+            "tl": "ko",
+            "dt": "t",
+            "q": masked,
+        }
     )
     request = urllib.request.Request(
         f"{GOOGLE_TRANSLATE}?{query}",

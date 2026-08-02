@@ -1,0 +1,19 @@
+{
+  "name": "드론 조건: 업그레이드 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_upgrades_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)드론 조건: 업그레이드/$ 위젯을 사용하여 이 $(l:tools/drone)드론/$에 설치된 업그레이드 수를 확인할 수 있습니다. 확인할 업그레이드 아이템에 설정된 하나 이상의 첨부된 $(l:programming/item_filter)아이템 필터/$ 위젯을 사용하여 확인할 업그레이드를 지정합니다. 필터가 없으면 모든 유형의 설치된 모든 업그레이드가 계산됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_upgrades_piece.png"
+      ],
+      "text": "$(italic)드론 조건 : 업그레이드 위젯/$"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "보안 스테이션",
+  "icon": "pneumaticcraft:security_station",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "적대적인 플레이어로부터 영역을 보호하려면 $(thing)보안 스테이션/$를 사용할 수 있습니다. $(p)이 디바이스는 범위 내의 블록에 대한 신뢰할 수 없는 플레이어의 모든 플레이어의 상호작용을 방지합니다. 즉, 인벤토리나 GUI를 열 수 없으며 블록을 배치하거나 파괴할 수 없습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:security_station",
+      "text": "이것은 훌륭하게 들리지만 $(thing)보안 스테이션/$를 설정하려면 보안을 보장하기 위해 몇 가지 작업을 수행해야 합니다. 왜냐하면 $(thing)보안 스테이션/$가 $(l:machines/security_station#hacking)해킹될 수 있기 때문입니다./$ 보안 스테이션 해킹 시스템은 $(l:https://www.youtube.com/watch?v=nQ0rPLlU8v4)Deus Ex: Revolution 해킹 시스템/$에 크게 영향을 받습니다."
+    },
+    {
+      "type": "text",
+      "title": "설정",
+      "text": "$(thing)보안 스테이션/$를 설정하려면 네트워크 그리드에 $(l:components/network_components)Network Components/$를 배치하여 $(thing)network/$를 형성해야 합니다. 모든 네트워크에는 하나의 $(l:components/network_components#diagnostic)진단 서브루틴/$, 하나의 $(l:components/network_components#io_port)Network IO 포트/$, 하나의 $(l:components/network_components#registry)Network Registry/$.$(p)가 있어야 합니다. 이 세 개의 특수 노드는 모두 서로 연결되어야 하며 이는 $(l:components/network_components#node)Network Nodes/$로 수행됩니다."
+    },
+    {
+      "type": "text",
+      "title": "해킹 무효",
+      "flag": "!pneumaticcraft:securityStationHacking",
+      "text": "이 서버에서 보안 스테이션의 해킹은 설정에 따라 비활성화됩니다. 즉, 한 번 설정하면 어떤 플레이어도 보안 스테이션을 해킹할 수 없지만 이전 페이지에서 설명한 대로 올바른 구성 요소를 사용하여 설정해야 합니다. 다만, 다음 페이지의 대부분($(thing)허가된 친구/$이외)는 여기에서는 적용되지 않습니다."
+    },
+    {
+      "type": "text",
+      "title": "규칙",
+      "text": "$(l:machines/security_station#hacking)hacker/$는 $(thing)Network IO Port/$에서 시작하고 $(thing)Diagnostic Subroutine/$ 또는 $(thing)Network Registry/$를 캡처하는 목표를 가지고 있습니다.$(p)$(thing)Diagnostic Subroutine/$의 목표는 다음과 같습니다. $(thing)Network IO Port/$에서 해커의 진입점을 추적합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(thing)네트워크 노드/$ 구성 요소를 큰 스택에 배치하면 $(italic)노드 평가/$ 증가 그리고 $(thing)해커/$와 $(thing)진단/$ 모두 그들을 캡처하는 데 걸리는 시간이 길어집니다. 그러나 $(thing)진단/$는 $(thing)해커/$ 보다 빨리 추적할 수 있으므로 진단보다 해커에게 불리하다는 점에 유의하십시오."
+    },
+    {
+      "type": "text",
+      "title": "해커 도구",
+      "text": "해커가 입수를 시도해야 할 몇 가지 유용한 아이템이 있습니다. 둘 다 제작가 아니며 월드에서 찾아야합니다 (마을 사람들의 거래 또는 던전 전리품) : $(li)$(l:components/nuke_virus)핵 바이러스/$. 이것은 하나의 노드를 즉시 캡처하는 데 사용할 수 있습니다. $(li)$(l:components/stop_worm)STOP! Worm/$. 이것은 진단 추적의 진행을 일시적으로 중지할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "업그레이드",
+      "text": "$(thing)보안 스테이션/$에는 몇 가지 업그레이드가 필요합니다. $(li)$(l:base_concepts/upgrades#entity_tracker)개체 추적기s/$는 $(l:machines/security_station#hacking)hacker/$가 감지될 가능성을 높입니다. 수익 감소가 있으며 최대 보호는 노드 해킹 시도당 99%입니다. $(li)$(l:base_concepts/upgrades#range)Range 업그레이드/$ 스테이션의 보호 범위를 업그레이드당 1만큼 증가시키고 모든 방향에서 최대 16 블록까지(최대 보호 영역은 33x33x33 블록)."
+    },
+    {
+      "type": "text",
+      "title": "업그레이드 (계속)",
+      "text": "$(li)$(l:base_concepts/upgrades#security)보안 업그레이드/$는 해커가 해킹을 시작하기 위해 $(l:armor/pneumatic_helmet)공압 헬멧/$에 필요한 $(thing)보안 업그레이드/$의 수를 늘립니다. 해커는 보안 업그레이드가 얼마나 필요한지 알려주지 않으며, 보안 스테이션은 해킹을 시도하지만 보안 업그레이드가 부족하여 할 수 없는 플레이어에게 저항할 수 없는 약간의 피해를 입힐 것입니다."
+    },
+    {
+      "type": "text",
+      "title": "친구 허가",
+      "text": "친절한 플레이어를 $(thing)보안 스테이션/$에 추가하여 보호된 영역 내에서 상호 작용할 수 있습니다. 측면의 $(bold)신뢰할 수 있는 플레이어/$ 탭을 사용하여 플레이어 이름을 입력합니다. $(p)더 이상 신뢰할 수 없는 플레이어를 삭제할 수도 있습니다. 삭제하려면 플레이어의 이름을 클릭하기만 하면 됩니다."
+    },
+    {
+      "type": "text",
+      "title": "해킹하다",
+      "text": "누군가가 귀하의 $(thing)보안 스테이션/$를 해킹하면 $(bold)Problems/$ 및 $(bold)Status/$ 탭에서 이를 확인할 수 있으며 $(italic)who/$가 귀하의 시스템을 해킹했음도 표시됩니다. 이제 이 플레이어들(및 이 플레이어들만)은 해당 지역 내의 블록과 상호 작용할 수 있습니다. 보안을 복원하려면 GUI의 $(bold)Reboot/$ 버튼을 통해 $(italic)reboot/$ 및 $(thing)보안 스테이션/$를 수행해야 합니다. 재부팅 과정에는 60초가 소요되며, 이 시간 동안 해당 영역은 전혀 보호되지 않습니다."
+    },
+    {
+      "type": "text",
+      "title": "해킹하다",
+      "anchor": "hacking",
+      "text": "귀하의 소유가 아닌 $(thing)보안 스테이션/$를 해킹하려면 최소 하나(아마도 다수)의 $(l:base_concepts/upgrades#security)보안 업그레이드/$가 설치된 $(l:armor/pneumatic_helmet)공압 헬멧/$가 필요합니다. 이렇게 하면 반대쪽과 비슷한 GUI가 나타납니다. 해킹 방법에 대한 가이드는 $(l:https://www.youtube.com/watch?v=Lgmpslbrrwo)이 비디오(매우 오래되었지만 여전히 관련성이 있음)/$를 시청하세요.$(p)노드를 캡처하려면 $(thing)왼쪽 버튼을 클릭하세요./$. 캡처된 노드를 강화하려면 $(thing)오른쪽 클릭/$; 강화된 노드는 진단을 캡처하는 데 약간 더 오래 걸립니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/hacking.png"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "팁",
+      "text": "$(li)$(thing)보안 스테이션/$는 안전하게 숨기고 보호하십시오. $(li)여러 $(thing)보안 스테이션/$에서 영역을 보호할 수 있지만 모두 해킹해야 합니다. $(li)전투 프로그램을 갖춘 $(l:tools/drone)드론/$ 및 $(l:machines/sentry_turret)센트리 터렛/$와 같은 활성 방어를 고려하십시오. $(li)해킹된 $(thing)시큐리티 스테이션/$는 $(#f00)레드스톤 신호/$를 발하도록(듯이) 설정할 수 있어 이것에 의해 추가의 대책(스테이션 아래에 TNT를 마련할 수 있습니까?"
+    },
+    {
+      "type": "crafting",
+      "text": "보안 스테이션 제작",
+      "recipe": "pneumaticcraft:security_station"
+    }
+  ]
+}

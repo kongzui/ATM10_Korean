@@ -1,0 +1,17 @@
+{
+  "name": "튜브 접합부",
+  "icon": "pneumaticcraft:tube_junction",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)튜브 정션/$는 2 하나의 $(l:tubes/pressure_tubes)압력 튜브/$(임의의 $(l:base_concepts/pressure_tiers)압력 티어/$)를 연결하지 않고."
+    },
+    {
+      "type": "crafting",
+      "text": "튜브 접합부 제작",
+      "recipe": "pneumaticcraft:tube_junction"
+    }
+  ]
+}

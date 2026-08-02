@@ -1,0 +1,19 @@
+{
+  "name": "조건: RF 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_rf_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)Condition/$ 위젯입니다.$(p)$(thing)Condition: RF/$ 위젯을 사용하면 연결된 블록의 $(thing)Forge Energy(FE)/$ 레벨이 있는지 (원격) 확인할 수 있습니다. $(l:programming/area)Area/$ 위젯은 구성된 FE 임계값과 일치합니다. $(p)$(italic)이름에도 불구하고 이 위젯은 RF(Redstone Flux)가 아닌 FE를 확인합니다. 이름은 역사적입니다./$"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_rf_piece.png"
+      ],
+      "text": "$(italic)조건 : RF 위젯/$"
+    }
+  ]
+}

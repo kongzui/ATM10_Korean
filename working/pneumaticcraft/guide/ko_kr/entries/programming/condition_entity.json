@@ -1,0 +1,23 @@
+{
+  "name": "조건: 개체 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_entity_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)Condition/$ 위젯입니다.$(p)$(thing)Condition: Entity/$ 위젯을 사용하면 연결된 $(l:programming/area)Area/$ 위젯의 개체 수를 계산할 수 있습니다. 이는 $(l:base_concepts/entity_filter)Entity Filter/$로 사용되는 선택적 $(l:programming/text)Text/$ 위젯을 연결하여 필터링할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "이 위젯에 연결된 $(l:programming/area)영역/$ 위젯의 영역 유형은 $(thing)상자/$여야 합니다. 이것은 지원되는 유일한 모양입니다. 그러나 영역의 화이트리스트/블랙리스트를 사용하여 다른 모양을 만들 수도 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_entity_piece.png"
+      ],
+      "text": "$(italic)조건: 개체 위젯/$"
+    }
+  ]
+}

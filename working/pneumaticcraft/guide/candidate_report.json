@@ -1,0 +1,13 @@
+{
+  "unique_visible_values": 1398,
+  "manual_term_candidates": 106,
+  "automatic_candidates": 1292,
+  "japanese_assisted_candidates": 1109,
+  "japanese_source_conflicts": 2,
+  "japanese_structure_mismatches": [
+    "entries/manufacturing/pressure_chamber.json",
+    "entries/programming/place.json"
+  ],
+  "japanese_tag_mismatches": 160,
+  "review_status": "candidate_requires_full_review"
+}

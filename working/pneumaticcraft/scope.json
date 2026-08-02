@@ -1,0 +1,83 @@
+{
+  "family": "PneumaticCraft: Repressurized",
+  "installed": [
+    {
+      "label": "PneumaticCraft: Repressurized",
+      "jar": "pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar",
+      "namespace": "pneumaticcraft",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 2268,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "pneumaticcraft"
+      ],
+      "guide_candidates": 713,
+      "guide_examples": [
+        "assets/pneumaticcraft/blockstates/manual_compressor.json",
+        "assets/pneumaticcraft/models/block/manual_compressor_base.json",
+        "assets/pneumaticcraft/models/item/manual.json",
+        "assets/pneumaticcraft/models/item/manual_compressor.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/armor.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/base_concepts.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/components.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/compressors.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/logistics.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/machines.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/manufacturing.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/programming.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/renewables.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/semiblocks.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/spawning.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/tools.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/tubes.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/widget_cond.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/widget_flow.json",
+        "assets/pneumaticcraft/patchouli_books/book/en_us/categories/widget_interact.json"
+      ],
+      "advancements": 361,
+      "advancement_examples": [
+        "data/pneumaticcraft/advancement/advanced_pressure_tube.json",
+        "data/pneumaticcraft/advancement/aerial_interface.json",
+        "data/pneumaticcraft/advancement/air_compressor.json",
+        "data/pneumaticcraft/advancement/amadron_tablet.json",
+        "data/pneumaticcraft/advancement/aphorism_tile.json",
+        "data/pneumaticcraft/advancement/assembly_controller.json",
+        "data/pneumaticcraft/advancement/biodiesel.json",
+        "data/pneumaticcraft/advancement/block_hack.json",
+        "data/pneumaticcraft/advancement/drill_bit_netherite.json",
+        "data/pneumaticcraft/advancement/empty_pcb.json",
+        "data/pneumaticcraft/advancement/entity_hack.json",
+        "data/pneumaticcraft/advancement/etchacid_bucket.json",
+        "data/pneumaticcraft/advancement/ethanol.json",
+        "data/pneumaticcraft/advancement/flight.json",
+        "data/pneumaticcraft/advancement/flux_compressor.json",
+        "data/pneumaticcraft/advancement/fly_into_wall.json",
+        "data/pneumaticcraft/advancement/jackhammer.json",
+        "data/pneumaticcraft/advancement/liquid_compressor.json",
+        "data/pneumaticcraft/advancement/logistics_configurator.json",
+        "data/pneumaticcraft/advancement/logistics_drone.json"
+      ],
+      "recipes": 749
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
+      "dependency_mentions": [
+        "pneumaticcraft"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "PneumaticCraft: Repressurized",
+      "jar": "pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar",
+      "namespace": "pneumaticcraft",
+      "english_keys": 2268,
+      "new_translation_required": 2266,
+      "project_output_review": 2
+    }
+  ]
+}

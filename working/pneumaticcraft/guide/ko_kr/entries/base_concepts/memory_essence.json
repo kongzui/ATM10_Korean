@@ -1,0 +1,16 @@
+{
+  "name": "메모리 에센스",
+  "icon": "pneumaticcraft:memory_essence_bucket",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Memory Essence/$는 플레이어의 기억과 경험을 액체 형태로 표현하는 액체입니다. 바닐라 마법 부여 또는 특정 $(pncr)제작 과정를 위해 나중에 사용하기 위해 추출하고 저장할 수 있습니다. $(p)$(item)메모리 에센스/$:$(li)1를 얻는 방법에는 두 가지가 있습니다. $(l:tools/memory_stick)Memory Stick/$$(li)2 사용. $(l:machines/aerial_interface)공중 인터페이스/$ 포함."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:memory_essence_bucket",
+      "text": "$(italic)경험이 풍부한/$"
+    }
+  ]
+}

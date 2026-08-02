@@ -1,0 +1,6 @@
+{
+  "name": "세미블록/가젯",
+  "description": "$(thing)세미블록/$는 블록이 아닌 블록처럼 배치할 수 있어 실제 블록과 같은 공간에 존재할 수 있는 흥미로운 아이템입니다. $(p)기술적으로 세미 블록이기도 한 $(l:logistics/frames)물류 프레임/$도 참조하세요.",
+  "icon": "pneumaticcraft:transfer_gadget",
+  "sortnum": 7
+}

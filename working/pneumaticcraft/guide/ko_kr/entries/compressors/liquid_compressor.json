@@ -1,0 +1,17 @@
+{
+  "name": "액체 압축기",
+  "icon": "pneumaticcraft:liquid_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)유체 압축기/$는 $(l:base_concepts/pressure)압축 공기/$를 생성할 수 있는 간단한 발전기입니다. 이 발전기는 유체 연료를 연소시켜 압축 공기를 생성합니다. 사용 가능한 연료와 그 효과를 확인하려면 유체 압축기 GUI에서 $(bold)사용 가능한 연료/$ 탭을 엽니다. 여기에는 용암과 같은 고온 유체도 포함됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)액체 압축기/$ 제작",
+      "recipe": "pneumaticcraft:liquid_compressor"
+    }
+  ]
+}

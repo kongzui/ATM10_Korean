@@ -1,0 +1,30 @@
+{
+  "name": "온도 조절기 모듈",
+  "icon": "pneumaticcraft:thermostat_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 튜브 모듈은 마주보는 블록의 온도를 측정하고 설정된 임계값보다 온도가 높은 경우에 설정된 채널에서 레드스톤 신호를 제공합니다(신호를 내려면 출력 모드에서 $(l:tubes/redstone_module)레드스톤 모듈/$를 사용)."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "온도 조절기 모듈에 $(l:tubes/module_expansion_card)모듈 확장 카드/$를 적용하면 고급 GUI가 잠금 해제되어 $(#f00)레드스톤 신호/$의 전송을보다 세밀하게 제어 할 수 있습니다. 기본적으로 임계값 레벨을 지정할 수 있습니다. 신호는 그 레벨 이하에서는 오프가 되고, 그 레벨 이상에서는 완전하게 온(또는 그 역)이 됩니다. GUI에서 $(bold)고급 설정/$ 전환을 선택하면 더욱 상세한 제어가 가능합니다. (위 참조)"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/thermostat_gui.png"
+      ],
+      "text": "$(italic)0°C 미만 = 레드스톤 0, 1000°C 초과 = 레드스톤 15, 0~1000°C = 보간(예: 200°C = 레드스톤 3)/$",
+      "anchor": "img"
+    },
+    {
+      "type": "crafting",
+      "text": "온도 조절 모듈 제작",
+      "recipe": "pneumaticcraft:thermostat_module"
+    }
+  ]
+}

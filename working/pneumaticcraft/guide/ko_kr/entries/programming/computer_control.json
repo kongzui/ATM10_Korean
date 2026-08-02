@@ -1,0 +1,20 @@
+{
+  "name": "컴퓨터 제어 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/computer_control_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "flag": "|mod:computercraft,mod:opencomputers",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Computer Control/$ 위젯을 사용하면 $(l:tools/drone)Drones/$를 $(thing)ComputerCraft/$ 또는 $(thing)OpenComputers/$ 컴퓨터를 통해 제어할 수 있습니다. 이 작업을 수행하는 방법에 대한 자세한 내용은 $(l:machines/drone_interface)Drone 인터페이스/$를 참조하세요."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/computer_control_piece.png"
+      ],
+      "text": "$(italic)내 마음은 어디에 있는지/$"
+    }
+  ]
+}

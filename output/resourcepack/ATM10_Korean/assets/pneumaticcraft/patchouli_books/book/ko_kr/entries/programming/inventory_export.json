@@ -1,0 +1,23 @@
+{
+  "name": "인벤토리 내보내기 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/inventory_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:programming/inventory_import)Inventory Import/$ 위젯의 반대: $(l:tools/drone)Drone/$는 지정된 $(l:programming/area)area/$ 내의 가장 가까운 인벤토리로 이동하여 $(item)Drone의/$ 인벤토리에서 아이템을 떨어뜨립니다.$(p)$(thing)설정을 위해 위젯을 우클릭/$합니다. 드론이 아이템을 내보낼 인벤토리 측면을 지정할 수 있는 GUI입니다. 내보낼 최대 아이템 수를 지정할 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "또한 임의의 수(0 포함)의 $(l:programming/item_filter)아이템 필터/$ 위젯을 연결하여 내보낼 수 있는 아이템을 제한할 수 있습니다. $(italic)오른쪽/$ 필터는 화이트리스트 역할을 하며 $(italic)왼쪽/$ 필터는 블랙리스트 역할을 합니다. $(p)이 위젯은 $(item)드론의/$ 인벤토리가 비어 있거나 내보낼 아이템을 수락할 수 있는 인벤토리가 영역에 없을 때 실행됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/inventory_export_piece.png"
+      ],
+      "text": "$(italic)어쨌든/$"
+    }
+  ]
+}

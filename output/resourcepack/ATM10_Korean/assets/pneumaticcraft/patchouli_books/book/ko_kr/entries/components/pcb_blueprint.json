@@ -1,0 +1,17 @@
+{
+  "name": "PCB 설계도",
+  "icon": "pneumaticcraft:pcb_blueprint",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)PCB 블루프린트/$는 $(l:manufacturing/uv_light_box)UV 라이트 박스/$를 만드는 데 필요한 특수 구성 요소입니다. $(p)정상적인 작성은 불가능하며, 일반적으로 $(l:tools/amadron_tablet)아마드론 태블릿/$를 통하거나 $(l:base_concepts/villagers)정비사의 마을인/$를 통해 거래해야 합니다."
+    },
+    {
+      "type": "pneumaticcraft:amadron_trade",
+      "recipe": "pneumaticcraft:amadron/pcb_blueprint",
+      "text": "$(item)PCB 블루프린트/$에 대한 거래입니다."
+    }
+  ]
+}

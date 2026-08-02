@@ -1,0 +1,26 @@
+{
+  "name": "UV 라이트 박스",
+  "icon": "pneumaticcraft:uv_light_box",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pcb_blueprint",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)UV 라이트 박스/$는 $(l:components/pcb)PCB/$를 특정 위치 (PCB의 위에 놓여 있는 $(l:components/pcb_blueprint)청사진/$에 의하여 결정됩니다)에 UV 빛에 $(p)노출 과정에는 최대 10가 필요합니다. 기계에 $(l:base_concepts/upgrades#speed)속도 업그레이드/$를 추가하면 더 짧아집니다."
+    },
+    {
+      "type": "text",
+      "text": "10분이 경과하면 $(item)PCB/$가 $(l:manufacturing/etching_acid)에칭산/$로 정상적으로 에칭될 가능성이 100%가 됩니다. 그러나 PCB를 단시간에 노출시킬 수도 있습니다. 이 경우, PCB가 정상적으로 에칭될 가능성은 낮아진다. $(p)노출의 진행은 전체 진행 상황이 낮을수록 빨라지고 끝에 가까워짐에 따라 느려집니다."
+    },
+    {
+      "type": "text",
+      "title": "임계값 자동화",
+      "text": "GUI 슬라이더를 사용하여 완료 임계값을 수동으로 조정할 수 있지만 레드스톤 신호를 사용하여 설정할 수도 있습니다. 레드스톤 모드를 $(thing)신호의 보간/$로 설정합니다. 이 모드에서는 임계값은 신호 레벨 마다 25%+5%에 고정(단, 신호가 0인 경우는 기계가 무효가 되기 때문에, 실제로는 30%~100%가 됩니다) 됩니다. $(p)이 기능은 한 번에 여러 개의 라이트박스 임계값을 설정할 때 유용합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "UV 라이트 박스 제작",
+      "recipe": "pneumaticcraft:uv_light_box"
+    }
+  ]
+}

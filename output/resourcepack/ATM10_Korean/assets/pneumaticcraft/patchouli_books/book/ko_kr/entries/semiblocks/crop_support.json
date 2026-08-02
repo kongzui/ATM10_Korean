@@ -1,0 +1,17 @@
+{
+  "name": "작물 지지대",
+  "icon": "pneumaticcraft:crop_support",
+  "category": "pneumaticcraft:semiblocks",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)crop/$를 사용하여 농지에 배치하면 해당 작물의 성장 속도가 향상됩니다. $(thing)녹색 입자/$는 $(item)자르기 지지대/$가 성장 속도를 높일 때 표시하기 위해 방출됩니다.$(p)$(item)자르기 지지대/$를 제거하려면 아래에 있는 블록을 부수거나 $(thing)sneak-right-click/$ $(l:tools/logistics_configurator)물류 설정기/$ 또는 다른 $(item)Crop Support/$가 있는 블록."
+    },
+    {
+      "type": "crafting",
+      "text": "작물 지지대 제작",
+      "recipe": "pneumaticcraft:crop_support"
+    }
+  ]
+}

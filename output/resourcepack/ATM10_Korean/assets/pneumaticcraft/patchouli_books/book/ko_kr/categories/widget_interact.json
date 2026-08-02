@@ -1,0 +1,7 @@
+{
+  "name": "월드 인터랙션 위젯",
+  "description": "어떤 방식으로 월드와 상호 작용하는 위젯입니다.",
+  "icon": "pneumaticcraft:textures/progwidgets/dig_piece.png",
+  "parent": "pneumaticcraft:programming",
+  "sortnum": 2
+}

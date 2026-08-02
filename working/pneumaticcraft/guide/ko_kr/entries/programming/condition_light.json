@@ -1,0 +1,19 @@
+{
+  "name": "조건: 광원 레벨 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_light_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다. $(p)$(thing)조건 : 광원 레벨/$ 위젯을 사용하면 연결된 $(l:programming/area)영역/$ 위젯의 블록 광 레벨이 설정된 광원 임계 값과 일치하는지 여부를 (원격으로)"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_light_piece.png"
+      ],
+      "text": "$(italic)조건 : 광원 레벨 위젯/$"
+    }
+  ]
+}

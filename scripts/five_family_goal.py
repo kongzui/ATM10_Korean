@@ -422,6 +422,12 @@ TARGETS = (
         "immersiveengineering",
         "Immersive Engineering",
     ),
+    Target(
+        "pneumaticcraft",
+        "pneumaticcraft-repressurized-",
+        "pneumaticcraft",
+        "PneumaticCraft: Repressurized",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -450,6 +456,7 @@ FAMILY_LABELS = {
     "create": "Create",
     "modern_industrialization": "Modern Industrialization",
     "immersive_engineering": "Immersive Engineering",
+    "pneumaticcraft": "PneumaticCraft: Repressurized",
 }
 
 QUEST_CHAPTERS = {
@@ -483,6 +490,7 @@ QUEST_CHAPTERS = {
         "mi_endgame",
     ),
     "immersive_engineering": ("immersive_engineering",),
+    "pneumaticcraft": ("pneumaticcraft",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -573,6 +581,10 @@ QUEST_TEXT_MARKERS = {
     "immersive_engineering": (
         "immersive engineering",
         "immersiveengineering",
+    ),
+    "pneumaticcraft": (
+        "pneumaticcraft",
+        "pneumaticcraft: repressurized",
     ),
 }
 
@@ -671,6 +683,11 @@ ALLOWED_ORIGINALS = {
     "Extended Industrialization",
     "Industrialization Overdrive",
     "Immersive Engineering",
+    "PneumaticCraft: Repressurized",
+    "PneumaticCraft",
+    "&4&lPneumaticCraft",
+    "XOR",
+    "Xor",
     "ME Wire",
     "Vajra",
     "Alt",

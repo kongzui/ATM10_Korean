@@ -1,0 +1,47 @@
+{
+  "name": "인쇄 회로 기판",
+  "icon": "pneumaticcraft:printed_circuit_board",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)인쇄 회로 기판/$(PCB)는 많은 상위 계층 기계 및 도구에 사용되는 중요한 구성 요소입니다. $(item)PCB/$를 만들려면 몇 가지 단계가 필요합니다.$(p)먼저 반대쪽 그림과 같이 $(l:manufacturing/pressure_chamber)압력 챔버/$에서 $(item)E빈 PCB/$를 만듭니다. 그런 다음 진행하는 방법에는 두 가지가 있습니다(뒷면 참조)."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/empty_pcb"
+    },
+    {
+      "type": "text",
+      "title": "방법 그 1",
+      "text": "이 방법은 처음에 사용할 수 있는 유일한 방법이며 추가 자동화 및 가열 인프라가 없으면 다소 시간이 걸립니다. $(item)PCB/$를 $(l:manufacturing/uv_light_box)UV 라이트 박스/$에 넣고 화학적으로 개발하여 노출된 $(item)빈 PC B/$를 $(l:manufacturing/etching_tank)에칭 탱크/$에 넣어 $(item)조립되지 않은 PCB/$로 변환할 수 있습니다."
+    },
+    {
+      "type": "blasting",
+      "title": "불량 PCB 재활용",
+      "recipe": "pneumaticcraft:empty_pcb_from_failed_pcb",
+      "text": "$(item)빈 PCB/$가 $(l:manufacturing/uv_light_box)UV 라이트박스/$에 100% 노출되지 않으면 에칭 과정가 실패할 수 있습니다. $(item)불량 PCB/$는 $(item)용광로/$에서 재활용할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "방법 그 2",
+      "item": "pneumaticcraft:assembly_controller",
+      "text": "$(l:manufacturing/assembly_system)조립 시스템/$를 만들 수 있으면이를 사용하여 $(item)조립 프로그램 : 레이저/$로 $(item)빈 PCB/$를 $(item)조립되지 않은 PCB/$로 직접 변환할 수 있습니다. 이 경우 $(item)UV 라이트 박스/$로 노출하거나 $(item)에칭 탱크/$를 사용할 필요가 없습니다."
+    },
+    {
+      "type": "text",
+      "title": "방법 그 2 (계속)",
+      "text": "$(p)조립 시스템은 $(item)조립되지 않은 PCB/$를 제조하는 매우 편리하고 매우 빠른 옵션입니다. 그러나 충분한 자동화 및 가열 인프라가 있는 경우, 특히 PCB를 대량 생산해야 하는 경우 $(thing)UV 라이트박스/에칭 탱크/$의 조합이 훨씬 빨라집니다."
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/unassembled_pcb"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:printed_circuit_board",
+      "text": "마지막으로 $(l:components/capacitor)커패시터/$ 및 $(l:components/transistor)트랜지스터/$를 추가하여 완성된 $(item)인쇄 회로 기판/$를 조립합니다."
+    }
+  ]
+}

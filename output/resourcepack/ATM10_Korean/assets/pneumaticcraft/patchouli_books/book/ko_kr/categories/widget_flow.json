@@ -1,0 +1,7 @@
+{
+  "name": "흐름 제어 위젯",
+  "description": "프로그램 흐름에 영향을 주는 위젯입니다.",
+  "icon": "pneumaticcraft:textures/progwidgets/start_piece.png",
+  "parent": "pneumaticcraft:programming",
+  "sortnum": 1
+}

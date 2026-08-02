@@ -1,0 +1,38 @@
+{
+  "name": "기본 재료",
+  "icon": "pneumaticcraft:ingot_iron_compressed",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr)는 지상에 여분의 광석을 생성하지 않습니다. 시작하려면 $(item)철 주괴/$만 필요합니다. 이것은 mod 전체의 많은 조리법에서 사용되는 $(item)압축 철 주괴 $()로 변환됩니다. $(p)이렇게하려면 $(item)철 주괴/$를 지상에 던져 근처에서 폭발을 일으 킵니다. $(item)TNT/$로 잘 작동하지만 다른 폭발이라도 괜찮습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/compressed_iron.png"
+      ],
+      "text": "$(italic)한 걸음 내리는/$"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "compressed_iron_ingot",
+      "item": "pneumaticcraft:ingot_iron_compressed",
+      "text": "경고: 폭발의 부작용으로 주괴의 약 20%를 잃게 됩니다. 이를 방지하려면 $(l:manufacturing/pressure_chamber)압력 챔버/$에서 $(item)압축 철괴/$를 제작할 수도 있습니다. 그러나 $(thing)압력 챔버/$ 자체를 제작하려면 $(item)압축 철괴/$가 필요하므로 약간의 초기 손실은 피할 수 없습니다."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/compressed_iron_ingot"
+    },
+    {
+      "type": "crafting",
+      "anchor": "compressed_iron_block",
+      "recipe": "pneumaticcraft:compressed_iron_block_from_ingot",
+      "text": "$(item)압축 철 블록/$는 뛰어난 $(l:base_concepts/heat)열 전도체/$이며 열을 발생하는 기계에 $(l:machines/heat_sink)방열판/$를 설치하는 데 사용할 수 있는 측면을 늘립니다. 그러나 $(l:machines/heat_pipe)열 파이프/$도 참조하세요."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/compressed_iron_block"
+    }
+  ]
+}

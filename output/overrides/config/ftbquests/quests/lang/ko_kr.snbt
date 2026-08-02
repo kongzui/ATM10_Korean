@@ -81,7 +81,7 @@
 	quest.000C1ECD781F3F81.title: "&2&l자연"
 	quest.001DE8028CAF0A08.quest_subtitle: "쉿... 너무 시끄러워...."
 	quest.002163B909070CF8.quest_desc: [
-		"특정 블록/액체에 대한 세부 정보를 벽을 뚫고 볼 수 있습니다."
+		"벽 너머에 있는 특정 블록과 유체의 상세 정보도 볼 수 있습니다.\\n"
 		"{image:atm:textures/questpics/pneumaticcraft/block_tracker.png width:150 height:150 align:center}"
 	]
 	quest.002163B909070CF8.quest_subtitle: "최대: 1"
@@ -746,7 +746,7 @@
 	quest.0A7B0D0B81E138DE.title: "&e&l공학자의 도구상자"
 	quest.0A8F44B9B3C8FC0F.quest_subtitle: "티어: &63"
 	quest.0A912B2E2BE34920.quest_desc: [
-		"비록 지표면에서 원유를 찾을 수 있지만, 시추는 많은 양의 기름을 얻는 좋은 방법입니다. 먼저 &3지진 센서&r를 사용하여 당신의 밑에 기름이 있는지 확인한 다음, 드릴 파이프로 채워진 &3가스 리프트&r를 사용하여 기름을 시추하세요. (이것은 작동하려면 압력이 필요합니다)."
+		"지표에서도 원유를 찾을 수 있지만, 굴착하면 많은 양을 얻을 수 있습니다. 먼저 &3지진 센서&r로 아래에 원유가 있는 곳을 찾으세요. 그다음 드릴 파이프를 채운 &3가스 리프트&r로 원유를 퍼 올리세요. 작동하려면 압력이 필요합니다.\\n"
 		"{image:pneumaticcraft:textures/patchouli/oil_pumping.png width:200 height:200 align:right fit:true}"
 	]
 	quest.0A912B2E2BE34920.quest_subtitle: "석유 시추"
@@ -763,8 +763,8 @@
 	quest.0ADBE90B33ACC9FB.title: "&z무지개 발전기"
 	quest.0AE28C998A3BF136.quest_subtitle: "531,441 네더랙"
 	quest.0AE6AD813928DE4F.quest_desc: ["외부 가열기는 &2&l바닐라&r 화로와 같은 화로에 사용할 수 있습니다. &c&l조잡한 용광로&r에는 안 됩니다! \\n\\n바닥에서 &c에너지&r를 받아 열로 사용합니다. \\n\\n열은 다른 양쪽 면에서 인접한 블록으로 나옵니다. \\n\\n기술적으로는 프리히터를 제작하여 &4&l개량 용광로&r에 사용되지만, 저는 그걸로 치지 않습니다!"]
-	quest.0AEAEA976ED0C470.quest_desc: ["&3충전소&r는 압력을 사용하여 &a뉴매틱크래프트&r의 다양한 도구와 장치를 충전하는 데 사용됩니다."]
-	quest.0AEAEA976ED0C470.quest_subtitle: "혼합된 끈은 어디에 있나요?"
+	quest.0AEAEA976ED0C470.quest_desc: ["&3충전소&r는 압력을 사용하여 &aPneumaticCraft&r의 다양한 도구와 장치를 충전하는 데 사용됩니다."]
+	quest.0AEAEA976ED0C470.quest_subtitle: "전선은 어디 있죠?"
 	quest.0AEC181F5E21A299.quest_desc: ["혹시 누군가가 \"수박 발전\"에 대해 이야기하는 것을 들어본 적이 있다면, 바로 이것입니다. Mekanism의 &d기체 연소 발전기&r는 수박 조각으로 만든 &9에틸렌&r을 연료로 사용해 상당한 양의 전력을 생산할 수 있습니다.\\n\\n&d에틸렌&r을 생산하려면 먼저 &e분쇄기&r에서 유기 물질을 분쇄하여 &6바이오 연료&r를 만드세요. 일반적으로 수박 조각이 이 용도로 사용됩니다! 그런 다음 바이오 연료를 &d가압 반응 장치&r(줄여서 PRC)에 넣으세요.\\n\\nPRC는 에틸렌을 생성하기 위해 물, 바이오 연료 및 약간의 수소가 필요합니다. &9전해 분리기&r에서 물을 분리하여 수소를 얻을 수 있습니다.\\n\\n에틸렌 생산을 시작했으면 기체 연소 발전기로 펌핑하여 발전을 시작하세요!"]
 	quest.0AEC181F5E21A299.quest_subtitle: "수박 파워!"
 	quest.0AEC181F5E21A299.title: "&9Mekanism: &d기체 연소 발전기"
@@ -1196,7 +1196,7 @@
 	quest.122E6E7CABCB17E7.quest_desc: ["크리퍼는 고양이를 무서워합니다. 게다가 아주 단순해서 &7고양이 슬리퍼&r가 진짜 고양이라고 믿어 버리죠. \\n\\n이 &7슬리퍼&r를 신으면 크리퍼가 달아나며 적대하지 않습니다. \\n\\n피해를 받으면 고양이 소리도 납니다! 다만 언제나 사뿐히 착지한다고 장담할 수는 없어요."]
 	quest.122E6E7CABCB17E7.quest_subtitle: "발"
 	quest.122E6E7CABCB17E7.title: "&7고양이 슬리퍼&r"
-	quest.122EDEC12C9A05D2.quest_desc: ["모든 것이 폭발할 수 있다는 것을 제가 깜빡했나요? ...\\n\\n다행히 쉬운 해결책이 있습니다! &3보안 상위 버전으로 변환&r은 기계에 설치했을 때 폭발하지 않도록 합니다. 넣을 수 있는 모든 기계에 넣으세요."]
+	quest.122EDEC12C9A05D2.quest_desc: ["모든 것이 폭발할 수 있다는 것을 제가 깜빡했나요? ...\\n\\n다행히 쉬운 해결책이 있습니다! &3보안 업그레이드&r은 기계에 설치했을 때 폭발하지 않도록 합니다. 넣을 수 있는 모든 기계에 넣으세요."]
 	quest.122EDEC12C9A05D2.quest_subtitle: "만약 쉬운 Solution...이 있다면"
 	quest.122EDEC12C9A05D2.title: "폭발 방지?"
 	quest.122FBF5110E4CFF2.quest_desc: ["철 다운그레이드는 서랍의 슬롯당 최대 보관량을 한 스택으로 낮춥니다. 아이템 재고를 유지하되 너무 많이 쌓이지 않게 할 때 유용합니다."]
@@ -2176,7 +2176,7 @@
 	quest.21AB14A8553896E9.quest_desc: ["여러분, 제 말을 제대로 못 들으신 것 같은데, &e&l프로덕티브 비&r라고 말씀드렸잖아요! 아, 다른 모드가 있네요! \\n\\n이것은 &e&l프로덕티브 비&r와 관련이 있는데, 나무 번식을 위해 필요할 거예요.\\n\\n아니요, 나무는 밀을 사용하여 번식하지 않고, 벌을 사용합니다.\\n\\n&o나무와 벌&r."]
 	quest.21AB14A8553896E9.title: "&2&lProductive Trees"
 	quest.21B8116BDADD7476.quest_subtitle: "파파야 + 카카오"
-	quest.21B96130EA516B82.quest_desc: ["저는 압축된 철인간입니다!\\n\\n이것은 압축된 공기와 함께 사용하고 상위 버전으로 변환할 수 있습니다!"]
+	quest.21B96130EA516B82.quest_desc: ["저는 압축된 철인간입니다!\\n\\n이것은 압축된 공기와 함께 사용하고 업그레이드할 수 있습니다!"]
 	quest.21B96130EA516B82.quest_subtitle: "15"
 	quest.21B96130EA516B82.title: "&8공압 갑옷"
 	quest.21BEE9867796933A.quest_desc: [" 여러 세대에 걸쳐 &6유목민&r과 &6전령&r이 사용한 &5기수의 피리&r는 &9탈것&r에게 익숙한 소리를 냅니다. 한 음은 탈것을 곁으로 &c부르고&r, 다른 음은 필요할 때까지 얌전히 &c기다리게&r 합니다. \\n\\n 이 신비한 힘은 피리 안에 최대 &c탈것 2마리&r를 &5보관&r하고, 원하는 때에 &c꺼내거나&r &6불러들이게&r 합니다. &c웅크린 채&r 마우스 휠을 굴려 보관된 탈것을 &c전환&r하세요. 탈것을 &c완전히 꺼내려면&r 웅크린 채 오른쪽 버튼을 누르면 됩니다. \\n\\n- &l능력은 1개입니다: \\n\\n &6마구간&r: \\n길들인 &9탈것&r을 오른쪽 버튼으로 눌러 &6기수의 피리&r에 넣고, 다시 눌러 꺼내거나 &6불러들입니다&r. 최대 &c2&r마리를 &c보관&r하며 웅크린 상태에서 전환할 수 있습니다. 완전히 꺼내려면 &c웅크린&r 채 오른쪽 버튼을 누르세요. \\n\\n- &6노래&r로 &6탈것&r을 이끌며 &9동료&r를 절대 두고 가지 않는 이를 위한 &6유물&r입니다."]
@@ -2284,7 +2284,7 @@
 	quest.23631A4A743D4F0C.title: "&l&b금 간&r 금속"
 	quest.236EA8D18ECD5FE8.quest_desc: ["생성 방식이 꽤 독특합니다! &b&l이그니스&r를 처치하면 네더 요새에 &b이그나이티드 버서커&r가 생성될 수 있습니다. \\n\\n&b레버넌트&r와 비슷하지만 방패 대신 검을 듭니다! 검은 방패처럼 피해를 막지 못하는 대신 더 큰 피해를 줍니다. \\n\\n체력은 65 &4하트&r로 훨씬 낮으며, 죽을 때 꺼져 가는 불씨를 떨어뜨립니다. 꺼져 가는 불씨 4개로 &b타오르는 재&r 1개를 만들 수 있습니다."]
 	quest.236EA8D18ECD5FE8.title: "&b이그나이티드 버서커"
-	quest.23737103592776C2.quest_desc: ["&3등유 램프&r는 연료(등유가 &3best&r)를 사용하여 빛을 내는 훌륭한 &3light&r &3source&r입니다."]
+	quest.23737103592776C2.quest_desc: ["&3등유 램프&r는 연료를 사용해 빛을 내는 훌륭한 광원이며, 등유가 가장 좋은 연료입니다."]
 	quest.23737103592776C2.quest_subtitle: "메가 횃불은 아무것도 아니에요!"
 	quest.237D11FF5B09BA88.quest_desc: [
 		"고유 능력:"
@@ -2749,7 +2749,7 @@
 		"참고: 자막은 무언가에 넣을 수 있는 해당 &3업그레이드&r의 최대 수량을 알려줍니다."
 	]
 	quest.2AED15E3AC0346FE.quest_subtitle: "매우 유용한 물건"
-	quest.2AED15E3AC0346FE.title: "간단한 상위 버전으로 변환"
+	quest.2AED15E3AC0346FE.title: "간단한 업그레이드"
 	quest.2AF31F1769085641.quest_desc: [
 		"&a재처리 장치&r는 멀티블록 구조물의 건설을 완료하기 위한 특정 규칙이 있는 3x3x7 멀티블록 구조입니다."
 		""
@@ -2945,9 +2945,9 @@
 	quest.2E89A03BA809634E.title: "&9특수 투사체 설계도"
 	quest.2E89ABF1A6145184.quest_subtitle: "브라질우드 + 카폭"
 	quest.2E8F851A4E98F741.quest_desc: [
-		"&3공압 갑옷&r 자체도 훌륭하지만, 이 갑옷을 더욱 멋지게 만들고 싶다면 상위 버전으로 변환을 설치해야 합니다. 기본적으로 'U' 키를 눌러 상위 버전으로 변환 GUI를 여세요. 일부 상위 버전으로 변환은 압력을 사용하고, 일부는 사용하지 않습니다."
+		"&3공압 갑옷&r 자체도 훌륭하지만, 이 갑옷을 더욱 멋지게 만들고 싶다면 업그레이드을 설치해야 합니다. 기본적으로 'U' 키를 눌러 업그레이드 GUI를 여세요. 일부 업그레이드은 압력을 사용하고, 일부는 사용하지 않습니다."
 		""
-		"뉴매틱크래프트의 다른 도구를 업그레이드하는 것과 마찬가지로, &3공압 갑옷&r을 업그레이드하려면 압력이 있는 충전소가 필요합니다."
+		"PneumaticCraft의 다른 도구를 업그레이드하는 것과 마찬가지로, &3공압 갑옷&r을 업그레이드하려면 압력이 있는 충전소가 필요합니다."
 		""
 		"참고: 자막은 무언가에 넣을 수 있는 해당 업그레이드의 최대 수량을 알려줍니다."
 	]
@@ -3093,7 +3093,7 @@
 	quest.310969B8FE0A94DE.title: "Apothic Spawners"
 	quest.311F43D48B9C26FF.quest_desc: ["&d흑요석 발전기&r는 &a에메랄드&r 및 &5네더라이트 발전기&r보다 더 느리지만, 이들을 모두 합친 것보다 더 많은 업그레이드를 가지고 있습니다!"]
 	quest.311F43D48B9C26FF.title: "&d흑요석 발전기"
-	quest.312331F6DB0CE5F4.quest_desc: ["1티어보다 더 빠릅니다."]
+	quest.312331F6DB0CE5F4.quest_desc: ["Tier I보다 더 빠릅니다."]
 	quest.312331F6DB0CE5F4.quest_subtitle: "최대: 1"
 	quest.31324A6F96CAC112.quest_desc: ["&b유체 펌프&r는 병에 담는 용도로만 사용되는 것이 아니라, &b유체&r를 더 빠르게 옮기는 데에도 사용할 수 있습니다! \\n\\n&6공학자의 망치&r를 사용하여 &b유체 펌프&r의 &9입력&r 및 &6출력&r 면을 설정할 수 있습니다. \\n\\n그런 다음 &4레드스톤&r 또는 &c에너지&r로 전력을 공급할 수 있으며, &c에너지&r는 &b유체&r를 &4레드스톤&r보다 훨씬 빠르게 이동시킵니다."]
 	quest.31324A6F96CAC112.title: "&b유체 펌프"
@@ -3479,9 +3479,9 @@
 	quest.3705D303CF423804.title: "&e파워 글러브&r"
 	quest.3707C3EDA1C5A0B2.quest_subtitle: "Firecracker + Flickering Sun"
 	quest.3708A4780ACEB34E.quest_desc: ["이 모드팩에서 퀘스트는 선택 사항입니다. 퀘스트를 완료하지 않아도 모든 모드를 이용할 수 있습니다!\\n\\n메인 퀘스트라인 밖의 개별 퀘스트라인은 대부분 모드 가이드 역할을 합니다. 전체 진행 순서를 따라가고 싶다면 메인 퀘스트라인을 확인하세요!"]
-	quest.371A34B297C8A8EF.quest_desc: ["뉴매틱크래프트는 기압에 관한 모든 것입니다! 이 퀘스트가 모드의 모든 것을 다루지는 않겠지만, 많은 것을 다룰 것입니다! JEI를 확인하고, 툴팁을 읽고, PCB:R을 읽는 것을 잊지 마세요. 모두 매우 유용합니다.\\n\\n시작하려면 &3압축된 철 주괴&r를 제작해야 합니다! 가장 쉬운 방법은 땅에 구멍을 내고 철 주괴(또는 블록)를 던져 넣은 다음 TNT로 폭파시키는 것입니다!\\n\\n폭발로 인해 일부가 손실될 수 있지만, 감수해야 할 위험입니다!"]
+	quest.371A34B297C8A8EF.quest_desc: ["PneumaticCraft는 기압에 관한 모든 것입니다! 이 퀘스트가 모드의 모든 것을 다루지는 않겠지만, 많은 것을 다룰 것입니다! JEI를 확인하고, 툴팁을 읽고, PCB:R을 읽는 것을 잊지 마세요. 모두 매우 유용합니다.\\n\\n시작하려면 &3압축된 철 주괴&r를 제작해야 합니다! 가장 쉬운 방법은 땅에 구멍을 내고 철 주괴(또는 블록)를 던져 넣은 다음 TNT로 폭파시키는 것입니다!\\n\\n폭발로 인해 일부가 손실될 수 있지만, 감수해야 할 위험입니다!"]
 	quest.371A34B297C8A8EF.quest_subtitle: "공기의 힘"
-	quest.371A34B297C8A8EF.title: "뉴매틱크래프트: 재가압"
+	quest.371A34B297C8A8EF.title: "PneumaticCraft: 재가압"
 	quest.371A382CF1DDF2B2.quest_desc: ["&b용량 카드&f를 버스에 설치하면 필터 슬롯 수가 늘어납니다. 반입·반출 버스는 한 칸에서 최대 아홉 칸으로, 저장 버스는 18칸에서 최대 63칸으로 늘어납니다."]
 	quest.371E09ED2A3F6BDC.quest_subtitle: "어두운 곳의 빈 고급 벌통에서 생성"
 	quest.371E09ED2A3F6BDC.title: "ZomBee"
@@ -3670,13 +3670,13 @@
 	quest.3A4C17878FC8315B.quest_desc: ["&6Allthemodium 화로&r는 네더라이트 화로와 성능이 거의 같습니다. &3Vibranium 화로&r로 업그레이드하려면 필요합니다."]
 	quest.3A4C17878FC8315B.title: "&6Allthemodium 화로"
 	quest.3A79E24283523E58.quest_subtitle: "가문비나무 + 자작나무"
-	quest.3A9AC6AB4407DC32.quest_desc: ["모든 제작법이 동일한 부품을 필요로 하는 것은 아니지만, 설치된 모든 것을 사용하여 &3조립 라인&r을 설정할 수 있습니다. 모든 것에 사용할 수 있는 간단한 &3조립 라인&r 설정이 아래 이미지에 표시되어 있습니다. 각 부품에 대한 중요한 정보는 퀘스트를 읽어보세요.\\n\\n속도 상위 버전으로 변환은 이 과정을 훨씬 더 빠르게 만듭니다!"]
+	quest.3A9AC6AB4407DC32.quest_desc: ["모든 제작법이 동일한 부품을 필요로 하는 것은 아니지만, 설치된 모든 것을 사용하여 &3조립 라인&r을 설정할 수 있습니다. 모든 것에 사용할 수 있는 간단한 &3조립 라인&r 설정이 아래 이미지에 표시되어 있습니다. 각 부품에 대한 중요한 정보는 퀘스트를 읽어보세요.\\n\\n속도 업그레이드은 이 과정을 훨씬 더 빠르게 만듭니다!"]
 	quest.3A9AC6AB4407DC32.quest_subtitle: "약간의 조립 필요"
 	quest.3A9AC6AB4407DC32.title: "조립 라인 사용하기"
 	quest.3AA836E8EDB52097.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_lapis.png width:100 height:150 align:center}"]
 	quest.3AA836E8EDB52097.title: "&9청금석&r"
-	quest.3AAB71E9BDFD4C1E.quest_desc: ["압박감은 없어요! 음, 사실 &4&l뉴매틱크래프트&r를 사용하려면 압력이 많이 필요할 거예요. \\n\\n그게 전부예요 about..."]
-	quest.3AAB71E9BDFD4C1E.title: "&4&l뉴매틱크래프트"
+	quest.3AAB71E9BDFD4C1E.quest_desc: ["압박감은 없어요! 음, 사실 &4&lPneumaticCraft&r를 사용하려면 압력이 많이 필요할 거예요. \\n\\n그게 전부예요 about..."]
+	quest.3AAB71E9BDFD4C1E.title: "&4&lPneumaticCraft"
 	quest.3ABE7074E500494D.quest_desc: ["&7강철&r은 &5&lMekanism&r의 대부분의 기계에 사용됩니다... 게다가 갑옷에도 쓰여서 좋죠!"]
 	quest.3ABE7074E500494D.quest_subtitle: "20"
 	quest.3ABE7074E500494D.title: "&7강철 갑옷"
@@ -4161,7 +4161,7 @@
 	quest.420FE84DEE12CCE0.quest_desc: ["&e금 화로&r는 철 화로보다 빠르며, 조리 시간은 120틱입니다.\\n\\n&7은 화로&r나 철 화로에서 업그레이드하며, 이후 &b다이아몬드 화로&r로 업그레이드할 수 있습니다!"]
 	quest.420FE84DEE12CCE0.title: "&e금 화로"
 	quest.4221D6CDDF90DACB.quest_subtitle: "티어: &b4"
-	quest.423B8DA485C1308C.quest_desc: ["&3가솔린&r은 LPG를 만드는 데 사용할 수 있습니다."]
+	quest.423B8DA485C1308C.quest_desc: ["&3휘발유&r은 LPG를 만드는 데 사용할 수 있습니다."]
 	quest.423B8DA485C1308C.quest_subtitle: "가스, 가스, 가스"
 	quest.423B8DA485C1308C.title: "휘발유"
 	quest.425E375A9EC127EB.quest_desc: [
@@ -4267,7 +4267,7 @@
 	quest.4407BD7B5F033765.quest_desc: ["또 다른 제작 가능한 &e주문서&r이며, 패턴에 따라 이것은 훨씬 더 비쌉니다. 신비한 천, 금, 그리고 마법이 부여된 책이 필요합니다. 어떤 책인지는 까다롭지 않으며, 단지 마법이 부여되기만 하면 됩니다! \\n\\n10개의 &3주문&r 슬롯이 있으며 엄청난 마나 촉진을 부여합니다!"]
 	quest.4407BD7B5F033765.title: "마법이 부여된 주문서"
 	quest.440B1E1D4951F808.quest_desc: [
-		"&3스마트 상자&r는 72개의 슬롯이 있는 방폭 상자이며, 완전 설정 가능한 전방향 호퍼가 내장되어 있고 상위 버전으로 변환 슬롯이 있습니다. 2개 상자로 합칠 수 없습니다. 셜커 상자처럼 작동하기도 합니다."
+		"&3스마트 상자&r는 폭발에 견디는 72칸 상자입니다. 완전히 설정 가능한 전방향 호퍼가 내장되어 있고 업그레이드 슬롯도 있습니다. 두 상자로 합칠 수는 없으며 셜커 상자처럼 내용물을 보존합니다."
 		"{image:atm:textures/questpics/pneumaticcraft/smart_chest_ui.png width:200 height:100 align:center}"
 	]
 	quest.440B1E1D4951F808.quest_subtitle: "상자 괴짜들"
@@ -4371,7 +4371,7 @@
 	quest.460A8F17F3ED6CAF.quest_subtitle: "최초의 메가바이트입니다."
 	quest.460A8F17F3ED6CAF.title: "1M MEGA 저장 부품"
 	quest.461C8F1E88AA58D9.quest_desc: [
-		"이것들은 뉴매틱크래프트 액체의 양동이 버전을 사용하여 제작법에 사용될 수 있습니다.\\n\\n&3유체 탱크&r가 다른 &3유체 탱크&r 위에 놓여지고 렌치로 함께 조여지면 하나의 큰 탱크가 됩니다."
+		"PneumaticCraft 유체가 든 양동이를 사용하는 제조법에 이 탱크를 활용할 수 있습니다.\\n\\n&3유체 탱크&r를 다른 &3유체 탱크&r 위에 놓고 렌치로 연결하면 하나의 큰 탱크처럼 작동합니다.\\n"
 		"{image:pneumaticcraft:textures/patchouli/small_tanks.png width:250 height:250 align:center fit:true}"
 	]
 	quest.461C8F1E88AA58D9.quest_subtitle: "32,000mb"
@@ -4599,7 +4599,7 @@
 	quest.4A05C037C0EE40BD.quest_subtitle: "네트워크 만들기"
 	quest.4A05C037C0EE40BD.title: "논리 케이블"
 	quest.4A076530297F4A97.quest_desc: [
-		"이 3가지 부품으로 멋진 &3엘리베이터&r를 만들 수 있습니다."
+		"이 3개 부품으로 멋진 &3엘리베이터&r를 만들 수 있습니다.\\n"
 		"{image:pneumaticcraft:textures/patchouli/elevator.png width:1 height:1 align:left fit:true}"
 	]
 	quest.4A076530297F4A97.title: "엘리베이터"
@@ -5193,7 +5193,7 @@
 	quest.5210DC0095996B62.quest_subtitle: "티어: &b4"
 	quest.5212A4D67B1851EF.quest_desc: ["이 재미있는 작은 &7&l열쇠&r는 울버린 발톱과 유사하게 작동하며, 외형 또한 매우 유사합니다! \\n\\n이것을 홀드하면 과녁 주위에 원형이 나타납니다. 왼손 클릭을 사용하여 과녁으로 순간 이동하여 타격하세요!\\n\\n이것은 매우 먼 거리에도 사용할 수 있습니다! (제가 찾은 바로는 100 블록 이상입니다).\\n\\n철 검과 거의 같은 피해를 줍니다."]
 	quest.5212A4D67B1851EF.title: "&7&l접근사출의 열쇠"
-	quest.521656D425E2FDBA.quest_desc: ["2티어보다 훨씬 더 빠릅니다."]
+	quest.521656D425E2FDBA.quest_desc: ["Tier II보다 훨씬 더 빠릅니다."]
 	quest.521656D425E2FDBA.quest_subtitle: "최대: 1"
 	quest.5218DAE147AC9F44.quest_desc: ["톱날 통을 사용하면 &2&l원형톱&r에서 더 많은 &8톱날&r 또는 &8톱날과 같은 아이템&r을 보관할 수 있습니다. \\n\\n&8톱날&r (또는 &8톱날과 같은 아이템&r) 사이를 전환하려면 Shift 키를 누른 채로 스크롤하세요.\\n\\n이것은 부서진 &8톱날&r을 교체하거나 &8연마 디스크&r로 전환하는 데 유용합니다!"]
 	quest.5219D2F2B13F57F3.quest_desc: [
@@ -5248,7 +5248,7 @@
 	quest.52C7FAA044E07628.quest_desc: ["불사의 토템을 떠올린 뒤, 그것이 훨씬 강력해진 모습을 생각해 보세요. 바로 &f지속의 정수&r입니다. \\n\\n치명적인 피해를 받기 직전에 재생성 지점으로 순간이동하며 체력과 허기가 모두 회복되고 해로운 효과가 제거됩니다. 말 그대로 생명을 구합니다. \\n\\n죽을 뻔한 위치와 원인을 적은 일지도 줍니다. \\n\\n생명을 구한 뒤에는 40분의 재사용 대기시간이 생기고, 가지고 있는 다른 모든 정수에도 재사용 대기시간을 부여합니다. "]
 	quest.52C7FAA044E07628.title: "&f지속의 정수"
 	quest.52CDB46F6CBF007B.quest_subtitle: "이거 파는 거 재밌으세요?"
-	quest.52D3697F1F5625C7.quest_desc: ["&3에칭 산&r은 압력 챔버에서 용융된 Plastic...and와 다른 재료들로 만들어집니다. 에칭 탱크에서 사용됩니다."]
+	quest.52D3697F1F5625C7.quest_desc: ["&3에칭 산&r은 압력 챔버에서 용융 플라스틱과 몇 가지 재료로 만들며, 에칭 탱크에서 사용합니다."]
 	quest.52D3697F1F5625C7.quest_subtitle: "Ask... 하지 마세요."
 	quest.52D4FCE72B15BC46.quest_desc: ["\"더 좋은 양동이\"를 원하신 적이 있나요? 에델우드 양동이로 가질 수 있습니다! \\n\\n에델우드 판자 몇 개만 있으면 물 또는 우유 4 양동이를 담을 수 있는 더 좋은 양동이를 얻을 수 있습니다. \\n\\n용암 3 양동이도 담을 수 있습니다! 무게가 더 나가서 4개가 아닌 3개만 담을 수 있습니다."]
 	quest.52E59FCB39D66BCF.quest_desc: ["수동 발전에 매우 유용한 &9열 발전기&r는 &c열원&r 위에 설치하고 물을 계속 공급하면 FE를 생산합니다.\\n\\n현재 사용할 수 있는 열원은 3가지입니다. 발전량이 가장 낮은 마그마 블록, 그보다 나은 용암 근원 블록, 가장 많은 열을 제공하는 &c타오르는 수정 블록&r이 있습니다."]
@@ -5261,7 +5261,7 @@
 	]
 	quest.52F85CED20C8B1E9.quest_desc: ["&e에너지&r는 어떻게든 이동해야 하며, 가능하다면 우리가 원하는 곳으로 이동해야 합니다. &2아이템&r, &9액체&r 및 &5화학 물질&r과 마찬가지로 이동시키세요!"]
 	quest.52F85CED20C8B1E9.title: "&e에너지 카드"
-	quest.5303509A1C2B1CCD.quest_desc: ["&3공압식 착암기&r는 압력을 사용하여 광물을 캡니다. 상위 버전으로 변환하여 더욱 강력하게 만들 수 있습니다!"]
+	quest.5303509A1C2B1CCD.quest_desc: ["&3공압식 착암기&r는 압력을 사용하여 광물을 캡니다. 업그레이드하여 더욱 강력하게 만들 수 있습니다!"]
 	quest.5303509A1C2B1CCD.quest_subtitle: "미안해, 잭!"
 	quest.5311404799117060.quest_subtitle: "티어: &b4"
 	quest.53154550397E9704.quest_desc: [
@@ -5274,8 +5274,8 @@
 	quest.53292D808E8F5218.quest_subtitle: "야생자두나무 + 행운"
 	quest.532F3E6868A29037.quest_desc: ["이전의 강화: 속도를 생각해 보세요. 이제 그것이 무언가를 훨씬 더 빠르게 만든다고 생각해 보세요!\\n\\n이러한 강화는 기계에서 사용하여 40% 더 빠르게 작동하도록 만들 수 있습니다!\\n네, 이 효과는 중첩됩니다.\\n\\n아니요, 벌집에서는 사용할 수 없습니다. 생산성을 위한 것입니다!"]
 	quest.532F3E6868A29037.quest_subtitle: "벌 빼고 모두 초고속"
-	quest.53518D4ED99A242F.quest_desc: ["&3위장 도포기&r는 다른 블록 내부에 뉴매틱크래프트 기계를 숨기는 데 사용할 수 있습니다."]
-	quest.53518D4ED99A242F.quest_subtitle: "당신의 설정을 멋지게 보이도록 만들고 싶으신가요?"
+	quest.53518D4ED99A242F.quest_desc: ["&3위장 도포기&r는 다른 블록 내부에 PneumaticCraft 기계를 숨기는 데 사용할 수 있습니다."]
+	quest.53518D4ED99A242F.quest_subtitle: "장치를 멋지게 꾸미고 싶나요?"
 	quest.535525EA4DF4AB59.quest_desc: ["&c플레이어 송신기&r는 결속 카드를 연결한 플레이어의 방어구, 도구와 인벤토리 아이템에 에너지를 공급합니다.\\n\\n가장 마지막이자 제작하기 어려운 &c니트로 등급&r 송신기는 &6&lATM Star&r 제작에 필요합니다."]
 	quest.535525EA4DF4AB59.title: "&c니트로 플레이어 송신기"
 	quest.53594EBA9F7BA840.quest_desc: ["고급 아이템 언로더는 일반 부품과 똑같지만 어느 방향에서든 사용할 수 있습니다. 방향 외에는 다른 점이 없습니다."]
@@ -5477,7 +5477,7 @@
 	quest.570223A03231DF8C.title: "개편된 엔더맨"
 	quest.5703EDAFCF9E7719.quest_subtitle: "티어: &63"
 	quest.57167FE67CFAC255.quest_subtitle: "필터에 벌을 추가하는 데 사용됩니다"
-	quest.5716E84828EC0C23.quest_desc: ["플라스틱 건설 벽돌은 &l&7뉴매틱크래프트: 리프레셔라이즈드&r를 통해 만들어진 블록입니다. \\n\\n실생활의 대응책과 마찬가지로 밟으면 아픕니다!\\n\\n그러니 신발을 신거나 벽돌을 부드럽게 다듬으세요."]
+	quest.5716E84828EC0C23.quest_desc: ["플라스틱 건설 벽돌은 &l&7PneumaticCraft: 리프레셔라이즈드&r를 통해 만들어진 블록입니다. \\n\\n실생활의 대응책과 마찬가지로 밟으면 아픕니다!\\n\\n그러니 신발을 신거나 벽돌을 부드럽게 다듬으세요."]
 	quest.5716E84828EC0C23.title: "플라스틱 건설 벽돌"
 	quest.571CC5558B87377D.quest_desc: [
 		"수정 대포는 &6&lThe Bumblezone&r이 추가하는 재미있고 위험한 무기입니다! \\n\\n모든 대포가 그렇듯 연습하는 편이 좋습니다. 대포 사격장은 이를 위해 만들어졌습니다! \\n\\n많은 대포와 &5수정&r, 맞힐 표적이 준비되어 있습니다! 표적 블록을 맞힌 뒤 보상도 가져갈 수 있습니다."
@@ -5668,7 +5668,7 @@
 	quest.5A955C0F53AED3ED.title: "&b영혼의 사슬"
 	quest.5A9C646718EE92C2.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_vibranium.png width:100 height:150 align:center}"]
 	quest.5A9C646718EE92C2.title: "&3Vibranium&r"
-	quest.5A9D6672385D3D82.quest_desc: ["상위 버전으로 변환 시 청금석 4개가 아닌 1개만 사용합니다."]
+	quest.5A9D6672385D3D82.quest_desc: ["업그레이드 시 청금석 4개가 아닌 1개만 사용합니다."]
 	quest.5A9D6672385D3D82.quest_subtitle: "청금석 저장 중"
 	quest.5AA3E5DFECB4AC4D.quest_desc: ["AE2에는 수정 성장을 크게 가속하는 장치도 있습니다.\\n\\n싹 틔우는 서투스 석영 주변에 수정 성장 가속기를 설치하고 전력을 공급하면 수정이 빠르게 자랍니다!"]
 	quest.5AAF6CA41209B365.title: "&3Vibranium 도구"
@@ -5849,7 +5849,7 @@
 	quest.5D74D73092ACD2F2.quest_desc: ["&5코랄 골렘&r은 &5가라앉은 도시&r 안에서 생성되며, &5&l레비아탄&r을 쓰러뜨린 뒤에는 바다에서도 생성됩니다. \\n\\n더 큰 친척인 &5코랄서스&r와 비슷하지만 체력은 110 &4하트&r로 더 적고 &5심연꾼&r이 탈 수 없습니다. \\n\\n대신 공격 종류는 더 많습니다! 뛰어들거나 주변 땅을 내려치고, 직접 후려치기도 합니다. \\n\\n죽으면 결정화된 산호 파편을 떨어뜨리며, 파편으로 결정화된 산호를 만들 수 있습니다. 이것들은 &5심연의 제물&r을 만드는 데 사용됩니다."]
 	quest.5D74D73092ACD2F2.title: "&5코랄 골렘"
 	quest.5D7B34761E8FD212.quest_desc: [
-		"&3정전기 압축기&r는 번개가 칠 때 아주 많은 압력을 생성합니다.\\n\\n자세한 내용은 JEI의 \"정보\" 탭을 확인하세요."
+		"&3정전기 압축기&r는 번개를 맞아 많은 압력을 생성합니다.\\n\\n자세한 내용은 JEI의 \"정보\" 탭을 확인하세요.\\n"
 		"{image:pneumaticcraft:textures/patchouli/electrostatic_compressor.png width:100 height:100 align:left fit:true}"
 	]
 	quest.5D7B34761E8FD212.title: "번개의 압력"
@@ -5924,7 +5924,7 @@
 	quest.5E6585F7627247E3.quest_subtitle: "업그레이드로 자동화를!"
 	quest.5E6D7C1D7957DD4D.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_forgotten.png width:100 height:150 align:center}"]
 	quest.5E6D7C1D7957DD4D.title: "&a잊힌 금속&r"
-	quest.5E71F8A046C60346.quest_desc: ["누가 당신에게 뉴매틱크래프트가 힘을 생성하는 것이 아니라고 말했나요?\\n\\n&3뉴매틱 다이나모&r를 사용하면 압력을 FE로 전환할 수 있습니다. 툴팁을 읽거나 PNC:R에서 작동 방식에 대해 읽어보세요."]
+	quest.5E71F8A046C60346.quest_desc: ["PneumaticCraft가 동력을 생산하는 모드가 아니라고 누가 그랬나요?\\n\\n&3공압 다이나모&r는 압력을 FE로 바꿉니다. 툴팁이나 PNC:R 설명서를 읽어 작동 방식을 확인하세요."]
 	quest.5E71F8A046C60346.quest_subtitle: "압력 = 힘"
 	quest.5E71F8A046C60346.title: "전력 생성 중"
 	quest.5E750DB2244A67A1.quest_desc: [
@@ -6270,7 +6270,7 @@
 		"{image:atm:textures/questpics/immersive/immersive_saw.png width:100 height:100 align:center}"
 	]
 	quest.63F5314A1072FA05.title: "&e&l제재소"
-	quest.63F6F4EBCEB914B0.quest_desc: ["&3압력 챔버&r는 &3압력 챔버 벽&r으로 이루어진 중요한 멀티블록 구조물입니다 (면은 &3압력 챔버 유리&r로 대체할 수 있습니다). 압력 챔버는 3x3x3 멀티블록만큼 작거나 5x5x5 멀티블록만큼 클 수 있습니다. 5x5x5를 만드는 데 필요한 블록은 이 퀘스트를 완료하는 데 필요한 것입니다.\\n\\n압력 챔버를 사용하려면 이전에 만든 &3압력 튜브&r를 사용하여 &3압력 챔버 밸브&r에 압력을 파이프로 연결해야 합니다. 압력 밸브에 보안 상위 버전으로 변환을 넣는 것을 잊지 마세요. &l서로 다른 제작법은 서로 다른 압력의 수&r를 필요로 합니다.\\n\\n압력 챔버로 아이템을 넣고 빼낼 수 있어야 합니다. 이럴 때 &3압력 챔버 인터페이스&r가 필요합니다. 바깥쪽이 파란색이면 아이템을 가져오는 용도이고, 금색이면 아이템을 출력하는 용도입니다. 각 면에 하나씩 배치하세요."]
+	quest.63F6F4EBCEB914B0.quest_desc: ["&3압력 챔버&r는 &3압력 챔버 벽&r으로 이루어진 중요한 멀티블록 구조물입니다 (면은 &3압력 챔버 유리&r로 대체할 수 있습니다). 압력 챔버는 3x3x3 멀티블록만큼 작거나 5x5x5 멀티블록만큼 클 수 있습니다. 5x5x5를 만드는 데 필요한 블록은 이 퀘스트를 완료하는 데 필요한 것입니다.\\n\\n압력 챔버를 사용하려면 이전에 만든 &3압력 튜브&r를 사용하여 &3압력 챔버 밸브&r에 압력을 파이프로 연결해야 합니다. 압력 밸브에 보안 업그레이드을 넣는 것을 잊지 마세요. &l서로 다른 제작법은 서로 다른 압력의 수&r를 필요로 합니다.\\n\\n압력 챔버로 아이템을 넣고 빼낼 수 있어야 합니다. 이럴 때 &3압력 챔버 인터페이스&r가 필요합니다. 바깥쪽이 파란색이면 아이템을 가져오는 용도이고, 금색이면 아이템을 출력하는 용도입니다. 각 면에 하나씩 배치하세요."]
 	quest.63F6F4EBCEB914B0.quest_subtitle: "가압 중!"
 	quest.63F6F4EBCEB914B0.title: "압력 챔버"
 	quest.640D6ADA17709D3A.quest_subtitle: "노란 메란티 + 카폭"
@@ -6381,7 +6381,7 @@
 	quest.6648BC7D14233006.title: "&l증강"
 	quest.666EA8B8F13EB292.quest_desc: ["이 아이템은 몹을 포획하여 수송하거나 보관하는 데 사용됩니다. 또한 &6ATM Star&r에도 필요합니다."]
 	quest.666EA8B8F13EB292.title: "&d빈 영혼 보석"
-	quest.6674270897997BF7.quest_desc: ["평소보다 더 높이 점프할 수 있게 하고 탄력 있게 만들어 더 빠르게 이동할 수 있습니다.\\n\\n레깅스에는 이러한 상위 버전으로 변환을 한 번에 한 단계만 적용할 수 있습니다."]
+	quest.6674270897997BF7.quest_desc: ["평소보다 더 높이 점프할 수 있게 하고 탄력 있게 만들어 더 빠르게 이동할 수 있습니다.\\n\\n레깅스에는 이러한 업그레이드을 한 번에 한 단계만 적용할 수 있습니다."]
 	quest.6674270897997BF7.quest_subtitle: "최대: 1"
 	quest.66762A4743104157.quest_desc: ["또 다른 제작 가능한 &e마법책&r입니다. 이번 것은 조금 더 비쌉니다! 호글린에게서 드롭되는 돼지 가죽이 필요합니다.\\n\\n이것은 8개의 &3마법&r을 담을 수 있는데, 기술적으로는 여전히 낮은 편이지만 더 좋습니다!"]
 	quest.66762A4743104157.title: "수습생의 주문서"
@@ -6501,7 +6501,7 @@
 	]
 	quest.680E960554CEE76B.title: "&5&l수정 협곡"
 	quest.680ECE3D8DCDC515.quest_subtitle: "&f13 &c공격 피해"
-	quest.681A3F31FB242555.quest_desc: ["&3에탄올&r은 바이오 디젤을 만드는 데 사용할 수 있습니다."]
+	quest.681A3F31FB242555.quest_desc: ["&3에탄올&r은 바이오디젤을 만드는 데 사용할 수 있습니다."]
 	quest.681A3F31FB242555.title: "에탄올"
 	quest.682034C680FDEDC2.quest_desc: [
 		"&9Mekanism의&r &a유도 매트릭스&r는 전력을 저장하는 가장 좋은 방법 중 하나입니다.\\n\\nMekanism이 제공하는 최고의 전력 저장 장치를 찾고 있다면 &aMekanism:&r &d반응기&r 퀘스트 장을 확인하세요.\\n"
@@ -6561,7 +6561,7 @@
 	quest.68DABFFB6B3E1A57.title: "눈 갑옷 장식"
 	quest.68E6AE1B9EBCEFFF.title: "&3Vibranium 철퇴"
 	quest.68F92455A9483AD6.quest_desc: ["제트 부츠를 사용한 경우에만 이 퀘스트가 표시됩니다.\\n\\n피해를 받지 않고 제트 부츠를 사용할 방법은 없습니다. 심지어 try..."]
-	quest.68F92455A9483AD6.quest_subtitle: "당신은 겉날개를 사용하는 것이 어렵다고 생각했나요?"
+	quest.68F92455A9483AD6.quest_subtitle: "겉날개가 어렵다고 생각했나요?"
 	quest.68F92455A9483AD6.title: "제트 부츠"
 	quest.690B89D23134B624.quest_desc: [
 		"분필을 잡고 &d로나자의 연락&r 의식을 끌어온 다음, 최고급 분필을 만들 준비를 하세요!"
@@ -6753,7 +6753,7 @@
 	quest.6C5F9D0D447EFB9C.title: "&6Allthemodium 방어구"
 	quest.6C6F4EB5CBE2FBC2.quest_desc: ["철 점봉은 철 곡괭이로 캘 수 있는 광물을 찾을 수 있어 약간 더 좋습니다! 다이아몬드, 레드스톤, 그리고 금을 찾을 수 있습니다."]
 	quest.6C9191DA4B1039D6.quest_desc: ["멘릴 열매를 먹으면 짧은 시간 동안 야간 투시 효과를 얻을 수 있습니다."]
-	quest.6CA01DCE1F4A0EC3.quest_desc: ["모드의 다음 단계에서는 &3원유&r를 수집해야 합니다. 이 오일은 오버월드 &3표면&r에서 자연적으로 발견할 수 있습니다."]
+	quest.6CA01DCE1F4A0EC3.quest_desc: ["다음 단계로 진행하려면 &3원유&r가 필요합니다. 원유는 오버월드 지표에서 자연적으로 발견할 수 있습니다."]
 	quest.6CA01DCE1F4A0EC3.quest_subtitle: "플라스틱으로 가는 길"
 	quest.6CA01DCE1F4A0EC3.title: "원유"
 	quest.6CA1D90CCE17097D.quest_subtitle: "일회용 벼락 지팡이"
@@ -6978,7 +6978,7 @@
 		"- 망치"
 		"- 텔레포터 떨굼"
 	]
-	quest.6FD65139CD50A8C0.quest_desc: ["그게 가능하기나 한가? \\n\\n이 공정을 자동화하고 싶다면 &e프로덕티브 비&r 또는 &a신비농업&r을 사용할 수 있습니다. 아니면 자동화할 수도 있겠죠, with...explosions."]
+	quest.6FD65139CD50A8C0.quest_desc: ["그게 가능하기나 할까요?\\n\\n이 과정을 자동화하려면 &eProductive Bees&r나 &aMystical Agriculture&r를 사용할 수 있습니다. 아니면... 폭발로 자동화할 수도 있겠네요."]
 	quest.6FD65139CD50A8C0.quest_subtitle: "폭파하는 것에 질리셨나요?"
 	quest.6FEED25FFAC4101F.quest_desc: ["&a스트리지어의 고급 결합&r을 사용하여 회색 페이스트를 생성할 수 있습니다. 이것을 불순한 하얀색 분필 조각에 발라 회색 분필을 만드세요."]
 	quest.6FEED25FFAC4101F.title: "&8회색 분필"
@@ -7185,12 +7185,12 @@
 	quest.72AB70FD8D8FABBF.quest_subtitle: "&c네더&r!"
 	quest.72AB70FD8D8FABBF.title: "고속도로에서 to..."
 	quest.72C09FD89C28B1EC.quest_desc: [
-		"만들게 될 &3정유소&r는 1x1x5 멀티블록이며, 1개의 &3정유소 컨트롤러&r(아래쪽)와 4개의 &3정유소 출력&r(위쪽)으로 구성됩니다. 작동하려면 오일과 열을 주입해야 합니다. 그러면 디젤, 등유, 휘발유 및 LPG가 생산됩니다. &3단열재&r를 양쪽에 설치하면 따뜻하게 유지하는 데 도움이 됩니다."
+		"이번에 만들 &3정유기&r는 아래쪽 &3정유기 제어기&r 1개와 그 위의 &3정유기 출력부&r 네 개로 구성된 1x1x5 멀티블록입니다. 원유와 열을 공급하면 디젤, 등유, 휘발유, LPG를 생산합니다. 옆면에 &3단열재&r를 붙이면 열을 유지하는 데 도움이 됩니다."
 		""
 		"{image:atm:textures/questpics/pneumaticcraft/oil_refinery.png width:300 height:150 align:center}"
 	]
 	quest.72C09FD89C28B1EC.quest_subtitle: "이제 좀 되어가고 있네"
-	quest.72C09FD89C28B1EC.title: "정유소"
+	quest.72C09FD89C28B1EC.title: "정유기"
 	quest.72CE46D28C9E7452.quest_desc: ["정밀 스코프는 &5&l레일건&r과 &d&l리볼버&r 모두에 사용할 수 있습니다.\\n\\n&d&l리볼버&r와 &5&l레일건&r으로 가운데 클릭을 눌러 스코프를 사용한 다음 스크롤하여 배율을 조정할 수 있습니다."]
 	quest.72D578686C47B154.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_red.png width:100 height:150 align:center}"]
 	quest.72D578686C47B154.title: "&5붉은 별빛 수정&r"
@@ -7249,7 +7249,7 @@
 	quest.7377C657CED885AC.quest_desc: ["&2&lMystical Agriculture&r는 농사를 통해 자원을 얻는 모드입니다. 무엇을 재배할 수 있냐고요?\\n\\n꿀부터 강철, 위더 스켈레톤까지 거의 모든 것을 얻을 수 있습니다.\\n\\n&6&lATM의 별&r을 만들려면 이 모드에서 많은 자원을 재배해야 합니다!"]
 	quest.7377C657CED885AC.title: "&2&lMystical Agriculture"
 	quest.7386A8433698946C.quest_desc: [
-		"아이템을 선택하면 이 업그레이드가 주변 상자나 바닥에서 해당 아이템을 검색합니다. 상자에서 찾으려면 블록 추적기 업그레이드가 필요하고, 바닥에서 찾으려면 개체 추적기 업그레이드가 필요합니다."
+		"아이템을 선택하면 이 업그레이드가 주변 상자나 바닥에서 해당 아이템을 찾습니다. 상자 안을 검색하려면 블록 추적기 업그레이드가, 바닥의 아이템을 검색하려면 개체 추적기 업그레이드가 필요합니다.\\n"
 		"{image:atm:textures/questpics/pneumaticcraft/item_search_upgrade.png width:200 height:200 align:center}"
 	]
 	quest.7386A8433698946C.quest_subtitle: "최대: 1"
@@ -7293,7 +7293,7 @@
 	quest.73FC51144FC2DA52.title: "&7흡혈 장갑&r"
 	quest.73FF01D830A669AA.quest_desc: ["용광 &4증강&r은 철 화로를 철 용광로로 바꿉니다! 용광 조리법만 처리할 수 있는 대신 속도가 두 배가 됩니다. 이 효과는 다른 증강과 화로 등급의 효과에도 중첩됩니다."]
 	quest.73FF01D830A669AA.title: "&4용광 증강&r"
-	quest.74015945716FD10A.quest_desc: ["이 &3전방향 호퍼&r는 모든 면에서 아이템을 넣을 수 있으며, 일반 호퍼보다 훨씬 빠르게 상위 버전으로 변환할 수도 있습니다! 파이프가 필요 없을 때 유용합니다."]
+	quest.74015945716FD10A.quest_desc: ["이 &3전방향 호퍼&r는 모든 면에서 아이템을 넣을 수 있으며, 일반 호퍼보다 훨씬 빠르게 업그레이드할 수도 있습니다! 파이프가 필요 없을 때 유용합니다."]
 	quest.74015945716FD10A.quest_subtitle: "설정 가능한 호퍼"
 	quest.7408CCF998D9CD37.quest_desc: ["제작 가능한 &e주문 책&r... 네, 제작하기 쉽지 않습니다.\\n\\n가장 얻기 힘든 것은 &9고대 도시&r 상자에서 찾을 수 있는 낡은 책입니다. &4혈액 병&r은 몹 (또는 심지어 자신)을 모닥불 위 또는 연금술 가마솥 위의 가마솥에 넣어서 얻을 수 있습니다. &5번개 병&r은 충전된 크리퍼에게 병을 사용하여 얻을 수 있습니다.\\n\\n일단 이 모든 것을 마치면 고대의 서를 제작할 수 있습니다. 12개의 &3주문&r 슬롯은 매우 유용합니다!"]
 	quest.7408CCF998D9CD37.title: "고대의 코덱스"
@@ -7409,7 +7409,7 @@
 		"마법 모드라니 멋지네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 &6Allthemodium&r을 결합합니다! \\n\\n마법 부여 장치는 여러 제작법에 쓰이는 멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 놓고, 같은 Y 높이의 주변에 받침대를 배치하세요. \\n\\n받침대에 아이템을 순서와 관계없이 올리고 주변에 근원을 준비한 뒤, 장치에 근원 보석을 놓으면 제작이 시작됩니다! 그러면 &5Unobtainium&r-&6Allthemodium&r 합금 주괴가 완성됩니다!\\n"
 		"{ \"text\": \"Ars Nouveau 퀘스트라인\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
 	]
-	quest.762B8309E1A31B99.quest_desc: ["각 상위 버전으로 변환 시 +0.5 방어와 +1 갑옷 강도가 추가됩니다."]
+	quest.762B8309E1A31B99.quest_desc: ["각 업그레이드 시 +0.5 방어와 +1 갑옷 강도가 추가됩니다."]
 	quest.762B8309E1A31B99.quest_subtitle: "최대: 4"
 	quest.762C54C261ED5D29.quest_subtitle: "티크 + 마호가니"
 	quest.763AE58CF620695E.quest_desc: ["이 &9설계도&r은 다른 많은 것들과 마찬가지로 제작할 수 있습니다.\\n\\n&8&lImmersive Engineering&r에는 자체 현수막 무늬가 함께 제공됩니다!\\n\\n하지만 이를 제작하려면 &9설계도&r이 필요합니다."]
@@ -7587,7 +7587,7 @@
 	quest.7941938014E97A30.quest_subtitle: "오버월드의 범블 벌 벌집에서 스폰됩니다"
 	quest.7941938014E97A30.title: "범블 벌"
 	quest.795143471F31A64A.quest_subtitle: "레이저 제작법에 필요합니다"
-	quest.7953C87C488A2AF7.quest_desc: ["아이언 맨처럼 날 수 있습니다.\\n\\n부츠에는 이러한 상위 버전으로 변환을 한 번에 한 레벨만 적용할 수 있습니다. 각 레벨은 이전 레벨보다 더 많은 압력을 사용합니다.\\n\\n이러한 업그레이드를 제작만 하지 말고 사용하세요."]
+	quest.7953C87C488A2AF7.quest_desc: ["아이언 맨처럼 날 수 있습니다.\\n\\n부츠에는 이러한 업그레이드을 한 번에 한 레벨만 적용할 수 있습니다. 각 레벨은 이전 레벨보다 더 많은 압력을 사용합니다.\\n\\n이러한 업그레이드를 제작만 하지 말고 사용하세요."]
 	quest.7953C87C488A2AF7.quest_subtitle: "최대: 1"
 	quest.795A860668072830.quest_desc: ["{image:atm:textures/questpics/allthemodium/all_armor_vibarcane.png width:100 height:175 align:center}"]
 	quest.795A860668072830.title: "&3Vibranium 비전술사 방어구"
@@ -8781,7 +8781,7 @@
 	quest.105442DA79829777.quest_desc: ["&7책&r 8권과 모루로 &8폐기의 서&r를 만들 수 있습니다. 정확히는 8권이 만들어지지만 무슨 뜻인지는 아시겠죠! \\n\\n모루에서 아이템과 &8서&r를 조합하면 아이템의 &5마법 부여&r 절반을 떼어 낼 수 있습니다. \\n\\n작업이 끝나면 아이템은 파괴되어 사라집니다. 그대로 사용하기보다는 업그레이드하는 것을 권장합니다!"]
 	quest.105442DA79829777.quest_subtitle: "마법 부여 절반 추출, 아이템 파괴"
 	quest.105442DA79829777.title: "&8폐기의 서"
-	quest.1102B27CBF564127.quest_desc: ["스포너 교반기는 목록의 다른 개조 재료와 달리 Apothic Spawners가 아닌 PneumaticCraft가 제공합니다. 모드팩에 Apothic Spawners가 없다면 교반기를 단 스포너는 플레이어 위치와 상관없이 몹을 생성합니다. 이 모드팩처럼 Apothic Spawners가 있으면 플레이어 무시 기능을 추가하는 대신, 플레이어가 청크를 떠나도 생성된 몹이 사라지지 않게 합니다."]
+	quest.1102B27CBF564127.quest_desc: ["생성기 교반기는 목록의 다른 개조 재료와 달리 Apothic Spawners가 아닌 PneumaticCraft가 제공합니다. 모드팩에 Apothic Spawners가 없다면 교반기를 단 생성기는 플레이어 위치와 상관없이 몹을 생성합니다. 이 모드팩처럼 Apothic Spawners가 있으면 플레이어 무시 기능을 추가하는 대신, 플레이어가 청크를 떠나도 생성된 몹이 사라지지 않게 합니다."]
 	quest.1102B27CBF564127.quest_subtitle: "내 앞에서 사라지지 마, 몹들아"
 	quest.1403D677CF2815C3.quest_desc: ["&5&l재련 작업대&r는 &9&l간이 재련 작업대&r의 모든 기능을 더 뛰어나게 수행합니다! \\n\\n기존 희귀도에 더해 &5영웅&r과 &6신화 &e어픽스&r도 부여할 수 있습니다!"]
 	quest.1403D677CF2815C3.title: "(상위) &5&l재련 작업대&r"
@@ -8879,8 +8879,8 @@
 	quest.6EF206A0BD5BAC0A.quest_subtitle: "&5영웅"
 	quest.6EF206A0BD5BAC0A.title: "&5비전 모래"
 	quest.7080F026A37F1832.quest_desc: ["이 퀘스트는 AllTheMods 모드팩에서 사용하도록 &6AllTheMods 스태프&r 또는 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r로 배포되므로, 명시적인 허가 없이 &6AllTheMods 팀&r이 출시하지 않은 공개 모드팩에서 이 퀘스트를 사용할 수 없습니다. \\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 문구가 보인다면 편집 모드입니다."]
-	quest.72AE56D34834D28E.quest_desc: ["PneumaticCraft가 추가한 또 다른 장치인가요? 이번에는 실제 스포너군요. Draconic Evolution의 안정화된 스포너처럼 먼저 바닐라 스포너가 필요합니다. 스포너 위에 스포너 추출기를 놓고 -0.5bar 미만의 압력을 공급해 작동시키세요. 작업이 끝나면 기존 몹이 담긴 스포너 코어와 빈 스포너를 얻습니다. 빈 스포너로 가압 스포너를 만든 뒤 스포너 코어를 넣으세요. (코어를 업그레이드하려면 진공 트랩으로 코어에 담을 몹을 빨아들이세요.) 이제 스포너는 압력으로 작동하고 밝기를 무시하며 레드스톤 신호로 활성화됩니다."]
-	quest.72AE56D34834D28E.quest_subtitle: "PneumaticCraft 스포너"
+	quest.72AE56D34834D28E.quest_desc: ["PneumaticCraft가 추가한 또 다른 장치인가요? 이번에는 실제 생성기군요. Draconic Evolution의 안정화된 생성기처럼 먼저 바닐라 생성기가 필요합니다. 생성기 위에 생성기 추출기를 놓고 -0.5bar 미만의 압력을 공급해 작동시키세요. 작업이 끝나면 기존 몹이 담긴 생성기 코어와 빈 생성기를 얻습니다. 빈 생성기로 가압 생성기를 만든 뒤 생성기 코어를 넣으세요. (코어를 업그레이드하려면 진공 트랩으로 코어에 담을 몹을 빨아들이세요.) 이제 생성기는 압력으로 작동하고 밝기를 무시하며 레드스톤 신호로 활성화됩니다."]
+	quest.72AE56D34834D28E.quest_subtitle: "PneumaticCraft 생성기"
 	quest.76A3A2A97AB66C43.quest_desc: ["&9영원한 봉쇄 상자&r에 가둔 복수령으로 스폰 알을 만들고 싶나요?\\n\\n&9영혼 소생기&r에 충분한 &c피&r와 달걀, 그리고 원하는 복수령이 든 &9영원한 봉쇄 상자&r를 넣으면 스폰 알 생성을 시도합니다!\\n\\n참고: 일부 몹은 스폰 알로 만들 수 없습니다."]
 	quest.77A8E8122870BBCE.quest_desc: ["엄밀히 말해 스폰 알은 아니지만 몹을 스포너에 결박할 수 있으므로 여기에 포함했습니다. 이 끈을 얻는 방법은 &5&lApothic Enchanting&r 챕터에서 확인하세요."]
 	quest.77A8E8122870BBCE.quest_subtitle: "스폰 알이 아니잖아!"

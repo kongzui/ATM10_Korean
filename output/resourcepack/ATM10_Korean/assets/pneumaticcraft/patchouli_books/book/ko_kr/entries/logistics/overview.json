@@ -1,0 +1,25 @@
+{
+  "name": "물류 개요",
+  "icon": "pneumaticcraft:logistics_configurator",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:root",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr)의 $(thing)물류 시스템/$는 물품과 유체를 운반하고 인벤토리와 탱크를 보충하는 흥미로운 방법을 제공합니다. $(p)인벤토리 및 탱크는 아이템과 유체를 블록 안팎으로 이동시키는 방법을 제어하는 ​​장착 가능한 가젯인 $(l:logistics/frames)물류 프레임/$로 표시할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "이 인벤토리는 $(l:logistics/logistics_drone)물류 드론/$ 또는 $(l:tubes/pressure_tubes)압력 튜브/$에 연결되고 $(l:tubes/logistics_module)물류 모듈/$에 연결됩니다. $(p)$(thing)물류 시스템/$는 $(l:https://wiki.factorio.com/Logistic_network)Factorio/$에 크게 영향을 받고 있으며, 게임을 한 적이 있다면 그 개념은 익숙할 것입니다. 주요 차이점은 이 모드는 다른 물류 가슴이 아니라 기존 인벤토리/탱크에 연결하기 위한 $(l:logistics/frames)프레임/$를 제공한다는 것입니다."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "pneumaticcraft:logistics/frames",
+        "pneumaticcraft:logistics/logistics_drone",
+        "pneumaticcraft:tubes/logistics_module"
+      ]
+    }
+  ]
+}

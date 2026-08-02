@@ -1,0 +1,22 @@
+{
+  "name": "미니건",
+  "icon": "pneumaticcraft:minigun[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)미니건/$는 $(l:base_concepts/pressure)압축 공기/$와 $(l:tools/minigun_ammo)탄약/$에서 작동하는 소지 무기입니다. 탄약은 $(l:tools/minigun_ammo#magazine)미니건의 매거진/$에 삽입해야 합니다. 플레이어의 인벤토리에서 소비되지 않습니다. $(p)미니건을 발사하려면 $(thing)오른쪽 클릭/$를 누르고 있습니다. 총신이 회전하기 시작하고 속도가 오르자마자 발사됩니다."
+    },
+    {
+      "type": "text",
+      "title": "업그레이드",
+      "text": "$(item)미니건/$의 많은 기능(스핀업 속도, 범위, 물약 발동 확률 등)은 $(l:machines/charging_station)충전 스테이션/$에서 업그레이드할 수 있습니다. $(p)각 업그레이드 및 그 효과에 대한 전체 문서는 충전 스테이션 업그레이드 GUI에서 참조할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "미니건 제작",
+      "recipe": "pneumaticcraft:minigun"
+    }
+  ]
+}

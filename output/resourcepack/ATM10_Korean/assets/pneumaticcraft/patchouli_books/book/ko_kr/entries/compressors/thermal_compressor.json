@@ -1,0 +1,49 @@
+{
+  "name": "열 압축기",
+  "icon": "pneumaticcraft:thermal_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)열 압축기/$는 반대편(수평)의 $(l:base_concepts/heat)온도/$ 차이를 이용하여 $(l:base_concepts/pressure)압축 공기/$를 생성하는 간단한 압축기입니다. 온도 구배가 클수록 생성되는 공기의 양이 많아집니다. $(p)참고: 이 컴프레서는 $(l:machines/vortex_tube)볼텍스 튜브/$에서만 작동할 수 없습니다. 순압력 손실이 발생합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/thermal_compressor.png"
+      ],
+      "border": "true",
+      "text": "$(italic)용암과 얼음 덩어리를 사용하여 온도 구배를 생성하는 열 압축기/$"
+    },
+    {
+      "type": "text",
+      "text": "$(item)열 압축기의/$ 남북면과 동서면은 서로 열적으로 연결되어 있지만, 남북 또는 동서간의 상호 연결이 없기 때문에 1 컴프레서에서 2 독립 온도 기울기를 가지고 $(p)열은 연결 전반에 걸쳐 균등화되기 때문에 유효한 온도차를 유지하기 위해서는 어느 정도의 노력이 필요합니다."
+    },
+    {
+      "type": "text",
+      "title": "신청",
+      "text": "$(item)Thermal Compressor/$를 사용할 수 있는 세 가지 주요 상황은 다음과 같습니다. $(li)$(item)볼텍스 튜브/$의 $(italic)one/$ 쪽에서 발생하는 폐열(또는 냉기!)을 활용합니다. 일반적으로 볼텍스 튜브의 뜨겁거나 차가운 쪽만 사용하고 $(l:machines/heat_sink)Heat Sink/$를 통해 다른 쪽을 환기시킵니다. 그러나 $(item)Thermal Compressor/$는 이러한 폐열이나 냉기 중 일부를 공기압으로 회수할 수 있는 기회를 제공합니다."
+    },
+    {
+      "type": "text",
+      "title": "응용 프로그램 (계속)",
+      "text": "$(li)$(l:compressors/advanced_air_compressor)고급 공기 압축기/$와 같은 고성능 압축기의 폐열을 이용합니다. 일반적으로 하나 이상의 $(l:tools/heat_sink)방열판/$를 사용하여 이 열을 대기로 방출하지만, 열 압축기를 사용하면 이 폐열의 일부를 압력으로 재사용할 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "응용 프로그램 (계속)",
+      "text": "$(li)대량의 자연적으로 뜨겁거나 차가운 물질, 예를 들어 $(l:base_concepts/heat_sources)용암이나 다른 모드/$의 블록을 얻는 방법이 있다면 이들을 사용하여 압력을 생성 할 수 있습니다. 또한 열원과 사용된 열원의 배치와 제거를 자동화할 필요가 있습니다. $(l:tools/drone)드론/$는 다른 많은 모드 솔루션과 마찬가지로 이것을 실현할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "레드스톤 제어",
+      "text": "이 컴프레서는 $(#f00)레드스톤 신호/$에 의해 제어할 수 있습니다. 비활성화하면 압력 생성이 중지되고 남북면과 동서면 사이의 열 저항이 크게 증가합니다 (열은 약간 새지 만 압축기가 작동 할 때보다 훨씬 적습니다). 이는 압력이 필요하지 않은 경우, 예를 들어 튜브 네트워크가 완전히 가압될 때 열차로 에너지를 축적하는 데 도움이 됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)열 압축기/$ 제작",
+      "recipe": "pneumaticcraft:thermal_compressor"
+    }
+  ]
+}

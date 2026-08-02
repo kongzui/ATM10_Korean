@@ -1,0 +1,38 @@
+{
+  "name": "바이오디젤 개요",
+  "icon": "minecraft:book",
+  "category": "pneumaticcraft:renewables",
+  "priority": "true",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 재생 가능한 $(thing)Biodiesel/$ 생산에 대한 매우 빠른 안내서입니다. 특정 주제에 대한 자세한 내용은 여기의 단계를 따르고 이 섹션의 다른 페이지를 참조하세요(다른 페이지는 진행이 잠겨 있을 수 있지만 전제 조건 단계를 완료하면 잠금이 해제됩니다)."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:yeast_culture_bucket",
+      "text": "1a단계: $(thing)효모 배양액/$을 만드세요. 버섯과 물을 $(l:manufacturing/thermopneumatic_processing_plant)열공압 처리 공장/$에서 혼합합니다. 공장의 온도는 30~60°C여야 하며, 생물군계와 고도에 따라 이 온도를 맞추기 쉬울 수도, 어려울 수도 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:sugar",
+      "text": "절차 1b (선택 사항): 효모 배양액이 들어 있는 양동이가 최소한 1 되면, 월드의 풀에 붓고 풀에 설탕을 떨어뜨려 배양에 인접한 블록 공간에 양동이의 물을 붓는 것으로 더 빨리 더 효모 배양액을 생산할 수 있습니다. 붓는 물에 문화가 복제됩니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:ethanol_bucket",
+      "text": "2단계: $(thing)효모 배양액/$과 $(thing)설탕/$을 $(l:manufacturing/thermopneumatic_processing_plant)열공압 처리 공장/$에 넣어 $(thing)에탄올/$을 만드세요. 1a단계와 마찬가지로 온도 조건을 맞춰야 합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:vegetable_oil_bucket",
+      "text": "3단계: 약간의 압력을 공급한 $(l:manufacturing/thermopneumatic_processing_plant)열공압 처리 공장/$에서 $(thing)씨앗/$이나 $(thing)작물/$을 압착해 $(thing)식물성 기름/$을 만드세요."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:biodiesel_bucket",
+      "text": "절차 4: $(thing)에탄올/$와 $(thing)식물성 기름/$를 $(l:manufacturing/fluid_mixer)유체 혼합기/$로 혼합합니다. 축하합니다, 재생 가능 연료가 생겼습니다!"
+    }
+  ]
+}

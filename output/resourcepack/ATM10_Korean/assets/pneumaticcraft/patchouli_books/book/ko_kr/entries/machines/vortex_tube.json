@@ -1,0 +1,22 @@
+{
+  "name": "볼텍스 튜브",
+  "icon": "pneumaticcraft:vortex_tube",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)볼텍스 튜브/$는 $(l:https://en.wikipedia.org/wiki/vortex_tube)실제 물리학/$를 기반으로 하는 장치입니다. 내부로 유입되는 $(l:base_concepts/pressure)air/$를 $(l:base_concepts/heat)뜨거운 부분과 차가운/$부분으로 나누어 튜브의 한쪽 면을 가열하고 반대쪽 면을 냉각시킵니다. 뜨거운 면과 차가운 면은 열적으로 연결되어 있으므로 열을 활용하고 싶을 때는 차가운 면을 환기시키는 것이 더 효율적이고, 차가운 면을 사용하고 싶다면 그 반대의 경우도 더 효율적입니다. 이는 $(l:machines/heat_sink)히트싱크/$를 사용하여 수행할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:vortex_tube",
+      "text": "$(thing)볼텍스 튜브/$를 놓거나 회전시키면 뜨거운 끝이 앞으로 향합니다. 각 끝에는 어느 쪽이든을 나타내는 얇은 빨간색 또는 파란색 띠가 있습니다. $(p)$(thing)볼텍스 튜브/$를 작동하려면 가압 공기가 필요합니다. 압력이 높을수록 온도차가 커지지만 공기 사용률도 높아집니다."
+    },
+    {
+      "type": "crafting",
+      "text": "볼텍스 튜브 제작",
+      "recipe": "pneumaticcraft:vortex_tube"
+    }
+  ]
+}

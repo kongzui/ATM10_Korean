@@ -1,0 +1,17 @@
+{
+  "name": "압력계",
+  "icon": "pneumaticcraft:pressure_gauge",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 다른 장치를 만들기 위한 구성 요소입니다. 그 자체로는 도움이되지 않습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "압력계 제작",
+      "recipe": "pneumaticcraft:pressure_gauge"
+    }
+  ]
+}

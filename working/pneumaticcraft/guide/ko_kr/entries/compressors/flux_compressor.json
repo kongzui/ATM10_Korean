@@ -1,0 +1,17 @@
+{
+  "name": "플럭스 압축기",
+  "icon": "pneumaticcraft:flux_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)자속 압축기/$는 $(thing)Forge 에너지/$($(thing)레드스톤 플럭스/$ 및 다양한 다른 모드 에너지 시스템과 호환됩니다)를 $(l:base_concepts/pressure)압축 공기/$로 변환합니다. 기본 40FE/tick을 소비하지만 $(l:base_concepts/upgrades#speed)속도 업그레이드/$로 업그레이드할 수 있습니다. $(p)자속 압축기의 용량은 100,000FE로 FE를 소비하는 속도의 2 배의 속도로 받아들입니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)자속 압축기/$ 제작 $(p)이 발전기는 온도가 상승하면 효율이 떨어지고 결국 공기가 전혀 생성되지 않으므로 $(l:base_concepts/heat)냉각/$ 해야 합니다.",
+      "recipe": "pneumaticcraft:flux_compressor"
+    }
+  ]
+}

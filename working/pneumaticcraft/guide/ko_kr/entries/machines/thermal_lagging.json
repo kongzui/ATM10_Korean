@@ -1,0 +1,22 @@
+{
+  "name": "단열재",
+  "icon": "pneumaticcraft:thermal_lagging",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "아마도 알고 계시겠지만, $(l:base_concepts/heat)Heat/$를 사용하는 $(pncr)기계는 노출된 채로 두면 공기 중으로 열이 손실됩니다. 이러한 기계를 거의 모든 비공기, 비열 전도성 블록으로 덮을 수 있지만 $(thing)Thermal Lagged/$는 특히 단열 기계에 적합합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:thermal_lagging",
+      "text": "$(thing)열 래깅/$에는 마치 래깅이 존재하지도 않은 것처럼 뒤에 있는 블록을 $(italic)클릭하여/$할 수 있게 해주는 유용한 속성이 있습니다.$(p)이는 $(item)곡괭이/$, $(item)wrench/$ 유형을 보유하고 있지 않는 한 적용됩니다. $(thing)sneaking/$를 사용하면 제거 또는 기타 상호 작용을 위해 지연 자체를 타겟팅할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "단열재 제작",
+      "recipe": "pneumaticcraft:thermal_lagging"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "조건 위젯",
+  "description": "조건을 평가하는 위젯입니다.",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_block_piece.png",
+  "parent": "pneumaticcraft:programming",
+  "sortnum": 3
+}

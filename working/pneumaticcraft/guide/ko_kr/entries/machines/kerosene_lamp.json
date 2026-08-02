@@ -1,0 +1,25 @@
+{
+  "name": "등유 램프",
+  "icon": "pneumaticcraft:kerosene_lamp",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:refinery",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)등유 램프/$는 예상대로 $(l:manufacturing/refinery)등유/$에서 작동하는 강력한 광원입니다. 이것은 $(thing)Thaumcraft의 Arcane Lamp)/$와 같은 익숙한 장거리 광원과 유사합니다. $(p)$(italic)기술적으로 램프는 모든 연소 연료에서 작동하지만 이 램프에서는 등유가 다른 연료보다 효율적입니다. 심지어 LPG도 있습니다./$"
+    },
+    {
+      "type": "text",
+      "text": "$(item)등유 램프/$의 기본 범위는 10블록이며 GUI에서 최대 30블록까지 조정할 수 있습니다. 범위가 커질수록 연료 소비량은 제곱으로 늘어나므로 범위를 두 배로 늘리면 연료를 네 배 사용합니다.$(p)그래도 연료 소모량은 적습니다. 등유 1000mB와 기본 범위 10블록 기준으로 약 $(ttcolor)$(t:모드 설정의 'D:keroseneLampFuelEfficiency'에서 효율을 바꿀 수 있습니다)현실 시간 40분/$ 동안 작동합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(item)등유 램프/$는 대부분의 $(pncr)블록과 마찬가지로 $(thing)redstone/$로 제어할 수 있습니다. 일반적인 켜기/끄기 모드 외에도 $(bold)Interpolate Signal/$ 모드도 있습니다. 이는 이름에서 알 수 있듯이 신호 강도에 따라 램프의 범위를 보간합니다.$(p)E.g. 10 블록의 기본 최대 범위를 가정할 때 8의 $(#f00)redstone 신호/$(15 중)가 적용되면 램프의 범위는 5입니다."
+    },
+    {
+      "type": "crafting",
+      "text": "등유 램프 제작",
+      "recipe": "pneumaticcraft:kerosene_lamp"
+    }
+  ]
+}

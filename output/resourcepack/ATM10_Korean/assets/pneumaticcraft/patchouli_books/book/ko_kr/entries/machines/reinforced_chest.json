@@ -1,0 +1,17 @@
+{
+  "name": "강화 상자",
+  "icon": "pneumaticcraft:reinforced_chest",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)강화된 가슴/$는 흑요석 수준의 폭발 저항을 가진 36 슬롯의 가슴으로 파괴되어도 인벤토리를 유지합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "강화 상자 제작",
+      "recipe": "pneumaticcraft:reinforced_chest"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "물류 모듈",
+  "icon": "pneumaticcraft:logistics_module",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "자세한 내용은 설명서의 $(thing)압력 튜브/$ 섹션에 있는 $(l:tubes/logistics_module)물류 모듈 아이템/$를 참조하세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:logistics_module",
+      "text": "물류 모듈 제작"
+    }
+  ]
+}

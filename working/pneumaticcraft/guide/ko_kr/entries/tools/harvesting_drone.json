@@ -1,0 +1,33 @@
+{
+  "name": "수확 드론",
+  "icon": "pneumaticcraft:harvesting_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)수확 드론/$는 $(l:tools/drone)드론/$의 특수한 비프로그램형으로 배치된 브로 쿠를 중심으로 17x17x17 입방체에서 $(l:programming/harvest)작물 / 나무 수확/$ 작업을 수행합니다. 드론은 수확한 아이템을 $(italic)픽업하지 않습니다/$."
+    },
+    {
+      "type": "spotlight",
+      "title": "자동 충전",
+      "item": "pneumaticcraft:charging_station",
+      "text": "다른 드론과 마찬가지로 작동하려면 $(l:base_concepts/pressure)압력/$이 필요합니다. 공기가 부족해지면 $(l:tools/drone#charging)발사기 업그레이드가 설치된 충전소/$를 자동으로 찾아갑니다."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:harvesting_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "text",
+      "title": "도구 사용",
+      "text": "모든 유형의 $(item)Hoe/$가 포함된 인벤토리에 대해 $(thing)sneak+오른쪽 클릭으로/$를 사용하여 $(item)수확 드론/$를 배포하는 경우 드론은 해당 괭이를 사용하여 자동으로 작물을 다시 심고, 괭이 장착. 다시 심는 것에 신경 쓰지 않는다면 드론을 다른 블록에 배치하면 됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "수확 드론은 도끼 대신 괭이를 사용하여 나무를 자르는 방법을 찾았습니다. 그들은 그러한 영리한 존재입니다.",
+      "recipe": "pneumaticcraft:harvesting_drone"
+    }
+  ]
+}

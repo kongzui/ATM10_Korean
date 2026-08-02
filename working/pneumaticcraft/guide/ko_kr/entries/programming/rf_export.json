@@ -1,0 +1,19 @@
+{
+  "name": "RF 내보내기 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/rf_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$에는 100,000FE(Forge 에너지)의 내부 버퍼가 있습니다. 이 위젯을 사용하면 드론 스토리지에서 에너지를 제공하는 블록으로 에너지를 내보낼 수 있습니다 (예 : $(item)Thermal Expansion의 Energy Cell/$ 또는 $(item)Immersive Engineering 커패시터/$). $(p)$(italic)이 이름에도 불구하고 이 위젯은 RF(Redstone Flux)가 아닌 FE(Forge 에너지)를 내보냅니다. 이름은 역사적인 것입니다./$"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/rf_export_piece.png"
+      ],
+      "text": "$(italic)RF 내보내기 위젯/$"
+    }
+  ]
+}

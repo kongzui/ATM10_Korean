@@ -1,0 +1,24 @@
+{
+  "name": "간판 편집 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/edit_sign_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "연결된 $(l:programming/area)Area/$의 모든 $(item)Signs/$ 및/또는 $(l:machines/aphorism_tile)Aphorism Tiles/$를 연결된 $(l:programming/text)Text/$에서 지정한 텍스트로 편집합니다. widget(s).$(p)E연결된 각 $(thing)Text/$ 위젯은 한 줄을 나타냅니다. 여러 $(thing)Text/$ 위젯을 연결하여 여러 줄 메시지를 설정할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "변수",
+      "text": "텍스트에 $(thing)${<var_name>}/$를 포함하여 $(l:programming/variables)변수/$의 값을 삽입할 수도 있습니다(예: $(p)$(formula)Counter). ${counter}/$$(p)는 $(thing)로 확장됩니다. 카운터: 1, 2, 3/$ $(thing)counter/$ 변수가 $(thing)x=1,y=2,z=3/$로 설정되었습니다. $(l:programming/variables#special)Special/$ 및 $(l:programming/variables#global)전역 변수/$도 여기에서 사용할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/edit_sign_piece.png"
+      ],
+      "text": "$(italic)간판 편집 위젯/$"
+    }
+  ]
+}

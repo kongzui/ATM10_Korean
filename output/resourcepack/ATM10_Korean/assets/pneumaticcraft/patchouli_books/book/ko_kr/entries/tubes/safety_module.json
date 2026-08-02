@@ -1,0 +1,26 @@
+{
+  "name": "안전 모듈",
+  "icon": "pneumaticcraft:safety_tube_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 튜브 모듈은 튜브의 $(l:base_concepts/pressure)압력/$를 특정 값으로 제한하여 $(thing)폭발/$를 방지하는 데 사용됩니다. 과도한 압력은 대기 중에 확산되어 $(thing)에너지 손실/$를 의미합니다. 따라서 이 모듈은 레드스톤 신호를 전송하여 압축기를 끌 수 있는 $(l:tubes/pressure_gauge_module)압력계 모듈/$와 함께 사용하는 것이 가장 좋습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(item)안전 모듈/$의 기본 임계값은 튜브 위험 압력보다 0.1bar 낮습니다:$(li)기본 $(item)압력 튜브/$: 4.9bar$(li)$(item)고급 압력 튜브/$: 19.9bar$(p)1.12.2 버전에서는 임계값을 정할 때 레드스톤 신호가 필요했지만 현재는 작동 방식이 바뀌었습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "$(l:tubes/module_expansion_card)모듈 확장 카드/$를 안전 모듈에 적용하면 모듈은 GUI(오른쪽 클릭)를 획득하여 임계값 레벨을 보다 세밀하게 제어할 수 있습니다. GUI에서 정확한 임계값을 설정하거나 $(bold)고급 설정/$ 확인란을 사용하여 신호에 따라 보간된 임계값 레벨을 설정할 수 있습니다. 이것은 $(l:tubes/pressure_gauge_module#img)압력계의 GUI/$와 매우 비슷하지만 반대로 작동합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "안전 모듈 제작",
+      "recipe": "pneumaticcraft:safety_tube_module"
+    }
+  ]
+}

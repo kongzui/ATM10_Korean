@@ -1,0 +1,23 @@
+{
+  "name": "휴대용 압력계",
+  "icon": "pneumaticcraft:manometer[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "압력계를 사용하면 공압 네트워크에서 $(l:base_concepts/pressure)압력/$를 측정할 수 있습니다. 또한 일부 공압 기계/튜브에는 특별한 정보가 있습니다. 예를 들어, $(l:tubes/safety_module)안전 튜브 모듈/$는 안전 임계값을 표시합니다. 따라서 레드스톤 수학에 익숙하지 않은 경우 이 도구가 도움이 될 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "휴대용 압력계 제작",
+      "recipe": "pneumaticcraft:manometer"
+    },
+    {
+      "type": "text",
+      "title": "기타 모드",
+      "flag": "|mod:theoneprobe,mod:hwyla",
+      "text": "$(thing)The One Probe/$나 $(thing)WAILA/HWYLA/$ 같은 모드가 설치되어 있으면 $(item)압력계/$를 사용할 일이 적을 수 있습니다."
+    }
+  ]
+}

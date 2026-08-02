@@ -1,0 +1,16 @@
+{
+  "name": "업그레이드 기반",
+  "icon": "pneumaticcraft:upgrade_matrix",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)업그레이드 매트릭스/$는 $(l:base_concepts/upgrades)업그레이드/$ 제작에 $(item)Lapis Lazuli/$ 대신 사용할 수 있습니다. 업그레이드 매트릭스를 사용하면 Lapis 사용량이 크게 감소한다는 이점이 있습니다. 이는 Lapis가 제한되어 있고 제작할 업그레이드가 많으면 도움이 될 수 있습니다."
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/upgrade_matrix"
+    }
+  ]
+}

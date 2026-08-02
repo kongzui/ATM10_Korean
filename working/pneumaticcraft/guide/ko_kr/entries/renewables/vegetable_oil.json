@@ -1,0 +1,20 @@
+{
+  "name": "식물성 기름",
+  "icon": "pneumaticcraft:vegetable_oil_bucket",
+  "category": "pneumaticcraft:renewables",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)식물성 기름/$은 $(l:manufacturing/thermopneumatic_processing_plant)열공압 처리 공장/$에서 여러 $(thing)씨앗/$과 $(thing)작물/$로 만들 수 있습니다. 보통 다 자란 작물보다 씨앗에서 기름을 더 많이 얻습니다. 식물성 기름은 $(l:renewables/biodiesel)바이오디젤/$ 생산에 필요합니다."
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/vegetable_oil_from_seeds"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/vegetable_oil_from_crops"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "진공 덫",
+  "icon": "pneumaticcraft:vacuum_trap",
+  "category": "pneumaticcraft:spawning",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Vacuum Trap/$은 나중에 $(l:spawning/pressurized_spawner)Pressurized Spawner/$에서 사용하기 위해 몹을 가두어 그 정수를 $(l:spawning/spawner_core)생성기 코어/$에 흡수하는 데 사용되는 기계입니다.$(p)$(thing)Vacuum Trap/$를 사용하려면 다음 단계를 수행해야 합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)1. 진공 트랩 압력이 -0.5 bar 이하인지 확인합니다. 여기에서는 $(l:base_concepts/upgrades#volume)용량 업그레이드/$를 권장합니다. 또한 진공 트랩을 이동할 때 축적된 진공을 유지하기 위해 덩굴로 깨지는 대신 렌치를 사용하세요. $(li)2. 캡처된 몹을 수락하기 위해 가득 차지 않은 $(l:spawning/spawner_core)생성기 코어/$를 삽입합니다. $(li)3. $(thing)스니크하고 오른쪽 클릭/$하거나 레드스톤 신호를 적용하여 진공 트랩 도어를 엽니다."
+    },
+    {
+      "type": "text",
+      "title": "제한",
+      "text": "진공 트랩은 다음을 캡처하지 않습니다. $(li)Players$(li)Drones$(li)Boss 몹(Wither, Ender Dragon...)$(li)Tamed 동물$(li)바닐라 생성기로 생성된 모든 몹$(p)또한 개체 ID를 추가하여 몹을 블랙리스트에 올릴 수 있습니다. (예: $(thing)minecraft:zombie/$)를 $(thing)pneumaticcraft:vacuum_trap_blacklisted/$ 개체 유형 태그로 변경합니다."
+    },
+    {
+      "type": "text",
+      "title": "메모리 에센스",
+      "text": "진공 트랩 탱크에 적어도 100mB의 $(l:base_concepts/memory_essence)메모리 에센스/$가 포함되어 있으면 Mob의 흡수 효율이 크게 향상됩니다. 설치된 $(thing)생성기 코어/$의 에센스에 1% 공헌하는 대신, 포획된 Mob는 2~4% 공헌합니다. 즉, 코어를 채우기 위해서 100체의 Mob를 포획하는 대신에 25~50체의 Mob를 포획하는 것만으로 됩니다. Mob을 포획할 때마다 100mB의 메모리 에센스가 사용됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "진공 덫 제작",
+      "recipe": "pneumaticcraft:vacuum_trap"
+    }
+  ]
+}

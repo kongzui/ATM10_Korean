@@ -1,0 +1,12 @@
+{
+  "name": "태그 필터",
+  "icon": "pneumaticcraft:tag_filter",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:machines/tag_workbench)태그 작업대/$를 참조하세요."
+    }
+  ]
+}

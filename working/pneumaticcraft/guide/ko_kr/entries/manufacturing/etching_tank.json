@@ -1,0 +1,27 @@
+{
+  "name": "에칭 탱크",
+  "icon": "pneumaticcraft:etching_tank",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:etchacid_bucket",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Etching 탱크/$는 먼저 $(l:manufacturing/etching_acid)에칭 산/$로 채워져야 합니다. 그런 다음 $(l:manufacturing/uv_light_box)UV 라이트 박스/$.$(p)에 이미 부분적으로 또는 완전히 노출된 빈 PCB'/$'를 25 $(thing)E까지 삽입합니다. 에칭 산을 세상에 붓고 PCB를 풀에 던지는 것도 가능하지만 에칭 탱크를 사용하는 것은 훨씬 안전하고 빠른 방법입니다."
+    },
+    {
+      "type": "text",
+      "title": "자동화",
+      "text": "$(thing)빈 PCB/$는 어느 쪽에서나 운반할 수 있습니다. 에칭에 성공한 $(thing)조립되지 않은 PCB/$는 오른쪽 상단 출력 슬롯으로 이동되고 $(thing)불량 PCB/$는 오른쪽 하단 슬롯으로 이동합니다. 자동 추출의 경우, 기계의 측면에서 조립되지 않은 PCB를 추출하여 불량 PCB를 상단 또는 하단에서 추출합니다. 불량 PCB를 $(thing)용광로/$로 옮기고 노광되지 않은 빈 PCB를 되돌려 과정를 재개함으로써 이를 자동화할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "난방",
+      "text": "$(l:base_concepts/heat)열/$가 없으면 에칭 탱크는 PCB를 완전히 에칭하는 데 150 초 (물론 최대 25 개까지 동시에 에칭 할 수 있습니다) 걸립니다. 탱크에 열을 가하면 처리 시간을 더욱 단축하여 최단 30 초로 만들 수 있습니다. 탱크가 뜨거울수록 처리 시간이 빨라집니다. 그러나 가열하면 PCB의 에칭 중에 소량의 에칭산이 소모된다는 점에 유의하십시오."
+    },
+    {
+      "type": "crafting",
+      "text": "에칭 탱크 제작",
+      "recipe": "pneumaticcraft:etching_tank"
+    }
+  ]
+}

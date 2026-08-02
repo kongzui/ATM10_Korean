@@ -1,0 +1,18 @@
+{
+  "name": "조립 프로그램",
+  "icon": "pneumaticcraft:assembly_program_laser",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)조립 프로그램/$는 어떤 조작을 수행해야 하는지 알려주기 위해 $(l:manufacturing/assembly_system)조립 컨트롤러/$에 삽입해야 합니다. 이들은 만들 수 없으며 대신 $(thing)정비사의 마을인/$ 또는 $(l:tools/amadron_tablet)아마드론 태블릿/$를 통해 거래해야 합니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "드릴 및 레이저",
+      "item": "pneumaticcraft:assembly_program_drill_laser",
+      "text": "$(item)조립 프로그램 : 드릴 및 레이저/$는 약간 특수합니다. 드릴과 레이저 레시피를 모두 다루는 대신 $(italic)및/$ 레이저 단계를 포함하는 2 단계의 조리법을 1 프로그램으로 제공합니다 (예 : $(l:tubes/pressure_tubes#advanced)고기능 압력 튜브/$)."
+    }
+  ]
+}

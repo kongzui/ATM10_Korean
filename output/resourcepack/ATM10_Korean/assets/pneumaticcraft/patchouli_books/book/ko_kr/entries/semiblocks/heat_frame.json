@@ -1,0 +1,25 @@
+{
+  "name": "열 프레임",
+  "icon": "pneumaticcraft:heat_frame",
+  "category": "pneumaticcraft:semiblocks",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 아이템은 임의의 $(thing)인벤토리/$에 위치할 수 있습니다. 인접한 $(l:base_concepts/heat)열원/$에 의해 가열되면 인벤토리 내의 모든 아이템을 정련 (또는 냉각되면 동결)하려고합니다. 완성된 아이템에 대한 공간이 인벤토리에 있는 경우에만 성공합니다. 적용되는 열이 많을수록 정련 과정가 빨라지고 최대로 1 초당 1 아이템이 됩니다. 마찬가지로 냉각이 진행될수록 물체를 동결하는 속도가 빨라집니다."
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "$(thing)히트 프레임/$는 냉각용 $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$지원을 갖추고 있습니다 (제련에는 통상의 $(item)화로/$ 레시피는 추가 및 삭제할 수 있습니다. 자세한 내용은 아래 링크를 참조하세요.",
+      "url": "https://crafttweaker.readthedocs.io/en/latest/#Mods/PneumaticCraft_Repressurized/Heat_Frame_Cooling/",
+      "link_text": "CraftTweaker Docs"
+    },
+    {
+      "type": "crafting",
+      "text": "열 프레임 제작",
+      "recipe": "pneumaticcraft:heat_frame"
+    }
+  ]
+}

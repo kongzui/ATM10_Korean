@@ -1,0 +1,22 @@
+{
+  "name": "충전 모듈",
+  "icon": "pneumaticcraft:charging_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 튜브 모듈을 사용하면 압력이 가해지는 아이템을 그것이 향하고 있는 인벤토리(예를 들어, 공압 툴이 들어 있는 체스트)나, 장거리 공기 전송용의 $(l:components/air_canister)공기 용기/$(아마도 어떤 엔더 인벤토리 시스템 경유 등)에 충전(또는 방출)할 수 있습니다. $(p)이 모듈을 $(l:machines/aerial_interface)공중 인터페이스/$를 향해 플레이어 인벤토리의 아이템을 채울 수도 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "충전 모듈에 $(l:tubes/module_expansion_card)모듈 확장 카드/$를 적용하면 모듈 충전 속도가 10mL/tick(아이템당)에서 100mL/tick(아이템당)으로 증가합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "충전 모듈 제작",
+      "recipe": "pneumaticcraft:charging_module"
+    }
+  ]
+}

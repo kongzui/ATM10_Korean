@@ -1,0 +1,25 @@
+{
+  "name": "GPS 영역 도구",
+  "icon": "pneumaticcraft:gps_area_tool",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)GPS Area Tool/$는 전 세계의 $(italic)two/$ 좌표를 저장할 수 있는 $(l:tools/gps_tool)GPS Tool/$의 고급 버전입니다. $(thing)첫 번째 좌표를 변경하려면 블록을 우클릭/$하고($(#f00)P1/$), 두 번째 좌표를 변경하려면 $(thing)왼쪽 클릭/$($(#0f0)P2/$).$(p)마우스 휠을 스크롤하여 좌표를 빠르게 조정할 수 있습니다. 몸을 숙인 채하는 동안; 변경된 좌표는 마지막으로 클릭한 좌표가 됩니다."
+    },
+    {
+      "type": "text",
+      "text": "스니크하는 동안 공중에서 우클릭하거나 왼쪽 클릭하면 \"활성\" 좌표가 기록되지만 저장되지 않습니다. 이것은 마우스 휠을 스크롤하여 조정된 좌표입니다. $(p)공중에서 $(thing)오른쪽/$ 또는 $(thing)왼쪽/$ 클릭하면 정확한 블록 좌표를 입력하는 GUI가 열립니다. 필요한 경우 $(#f00)P1/$ 버튼 또는 $(#0f0)P2/$ 버튼을 클릭합니다. $(p)GUI를 사용하면 도구의 $(thing)영역 유형/$를 변경하여 다양한 구성으로 영역을 미리 볼 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(item)GPS 영역 도구/$는 기본 $(l:tools/gps_tool#variables)GPS 도구/$와 마찬가지로 $(l:programming/variables#global)전역 변수/$를 지원하지만 물론 $(italic)two/$ 변수는 다음과 같을 수 있습니다. 사용되었습니다.$(p)$(l:programming/programmer)Programmer/$, $(thing)왼쪽 클릭/$에서 $(item)GPS 영역 도구/$를 사용하여 프로그래밍 영역 배경을 새로 만듭니다. $(l:programming/area)Area/$ 퍼즐 조각을 사용하거나 기존 $(l:programming/area)Area/$ 퍼즐 조각을 $(thing)왼쪽 클릭/$하여 이 도구의 설정으로 업데이트하세요."
+    },
+    {
+      "type": "crafting",
+      "text": "GPS 영역 도구 제작",
+      "recipe": "pneumaticcraft:gps_area_tool"
+    }
+  ]
+}

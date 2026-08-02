@@ -1,0 +1,23 @@
+{
+  "name": "아이템 획득 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/item_pick_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$는 월드의 아이템 개체를 가져와 인벤토리에 넣습니다. 이 위젯에 연결된 $(l:programming/area)영역/$ 위젯의 영역 유형은 $(thing)상자/$여야 합니다. 이것은 지원되는 유일한 모양입니다. 그러나 여러 영역의 화이트리스트/블랙리스트를 사용하여 더 복잡한 모양을 만들 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:programming/item_filter)아이템 필터/$ 위젯을 추가하여 선택할 수 있는 아이템을 제한할 수 있습니다(블랙리스트 필터는 $(thing)왼쪽/$에 배치됨). $(p)이 위젯은 지상에 떨어진 아이템(아이템 필터를 통과하는 것)이 드론의 인벤토리에 맞지 않거나 픽업할 아이템이 남아 있지 않은 경우에 실행됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/item_pick_piece.png"
+      ],
+      "text": "$(italic)내 물건. 내 물건. 내 물건./$"
+    }
+  ]
+}

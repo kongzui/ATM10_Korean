@@ -1,0 +1,17 @@
+{
+  "name": "수동 압축기",
+  "icon": "pneumaticcraft:manual_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)수동 컴프레서/$는 게임 초반에 수작업 (메인 핸드와 오프 핸드 모두 아무것도 가지지 않는 상태)와 만복도에서 $(l:base_concepts/pressure)압축 공기/$를 생성하는 컴프레서입니다. 컴프레서를 마우스 오른쪽 버튼으로 누른 상태에서 공기를 보내고 압축합니다. 압축기의 압력이 높을수록 각 펌프에 걸리는 시간이 길어져 더 이상 공기를 공급할 수 없습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)수동 압축기/$ 제작",
+      "recipe": "pneumaticcraft:manual_compressor"
+    }
+  ]
+}

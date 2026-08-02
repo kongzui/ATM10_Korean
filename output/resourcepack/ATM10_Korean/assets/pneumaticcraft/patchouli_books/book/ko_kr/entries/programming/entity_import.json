@@ -1,0 +1,29 @@
+{
+  "name": "개체 가져오기 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/entity_import_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$이 지정한 $(l:programming/area)영역/$에서 연결된 $(l:programming/text)텍스트/$ 위젯의 선택적 $(l:base_concepts/entity_filter)개체 필터/$와 일치하는 가장 가까운 개체를 찾아 운반합니다.$(p)플레이어도 운반할 수 있지만 $(thing)몸을 숙이면/$ $(item)드론/$에서 쉽게 내릴 수 있습니다. 조종할 수 있는 비행 개체에 실려 이동하는 것도 나름의 장점이 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "경험치 오브",
+      "text": "드론은 이 위젯을 사용하여 $(thing)경험치 오브/$를 가져올 수도 있습니다. $(item)@orb/$ 개체 필터는 경험치 오브와 일치합니다. 가져온 오브는 $(l:base_concepts/memory_essence)메모리 에센스/$로 변환되어 드론 내부 탱크에 저장됩니다. 그런 다음 $(l:programming/liquid_export)유체 내보내기/$ 위젯을 사용하여 유체 탱크로 전송할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "지역 제한",
+      "text": "이 위젯에 연결된 $(l:programming/area)영역/$ 위젯의 영역 유형은 $(thing)상자/$여야 합니다. 이것은 지원되는 유일한 모양입니다. 그러나 영역의 화이트리스트/블랙리스트를 사용하여 다른 모양을 만들 수도 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/entity_import_piece.png"
+      ],
+      "text": "$(italic)외계인에 의한 납치/$"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "드론 조건: 개체 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_entity_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다. $(p)$(thing)드론 조건 : 개체/$ 위젯을 사용하면이 $(l:tools/drone)드론/$가 현재 운반하는 개체를 확인할 수 있습니다. 선택적 $(l:programming/text)텍스트/$ 위젯을 $(l:base_concepts/entity_filter)개체 필터/$와 함께 추가하여 확인할 개체를 필터링할 수 있습니다. $(thing)텍스트/$ 위젯이 없는 경우 $(italic)중 하나가/$의 개체를 운반하는 경우 조건이 true가 됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_entity_piece.png"
+      ],
+      "text": "$(italic)드론 조건: 개체 위젯/$"
+    }
+  ]
+}

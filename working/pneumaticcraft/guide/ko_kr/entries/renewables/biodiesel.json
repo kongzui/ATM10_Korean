@@ -1,0 +1,17 @@
+{
+  "name": "바이오디젤",
+  "icon": "pneumaticcraft:biodiesel_bucket",
+  "category": "pneumaticcraft:renewables",
+  "advancement": "pneumaticcraft:ethanol",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)바이오디젤/$는 $(l:renewables/ethanol)Ethanol/$ 및 $(l:renewables/vegetable_oil)식물성 기름/$를 사용하여 $(l:manufacturing/fluid_mixer)Fluid Mixer/$에서 생산할 수 있습니다. 이는 일반 $(thing)Diesel/$만큼 좋은 연료이지만 재생 가능하게 생산된다는 장점이 있습니다. $(p)바이오디젤은 또한 $(l:components/plastic)Plastic/$ 및 $(thing)열공압 처리 공장/$의 $(l:components/lubricant)윤활유/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:biodiesel_bucket",
+      "text": "음식에서 연료? 무엇을 좋아하지 않아?"
+    }
+  ]
+}

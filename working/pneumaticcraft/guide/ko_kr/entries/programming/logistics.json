@@ -1,0 +1,19 @@
+{
+  "name": "물류 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/logistics_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 위젯은 $(l:tools/drone)드론/$를 $(l:logistics/logistics_drone)물류 드론/$처럼 작동하지만 기본 물류 드론 기능보다 유연성이 높습니다 : $(li)기타 위젯 예를 들어, 보다 효율적인 공중 사용을 위한 $(l:programming/standby)대기/$ 위젯 등입니다. $(li)사용자 정의 $(l:programming/area)영역/$를 정의 할 수 있습니다 (표준 물류 드론에는 드론을 중심으로 33x33x33의 영역이 있으며 변경할 수 없습니다)"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/logistics_piece.png"
+      ],
+      "text": "$(italic)물류 위젯/$"
+    }
+  ]
+}

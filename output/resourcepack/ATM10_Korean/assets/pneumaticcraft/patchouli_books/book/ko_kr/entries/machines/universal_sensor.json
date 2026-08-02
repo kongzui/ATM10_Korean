@@ -1,0 +1,32 @@
+{
+  "name": "범용 센서",
+  "icon": "pneumaticcraft:universal_sensor",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)범용 센서/$는 이름처럼 다양한 용도로 쓸 수 있습니다. 월드의 상태를 측정하고 결과에 따라 $(#f00)레드스톤 신호/$를 출력합니다.$(p)범용 기능에는 비용이 듭니다. $(ttcolor)$(t:상시 레드스톤 방출기는 무료로 사용할 수 있습니다)거의 모든/$ 경우 작동에 틱당 1mL의 $(l:base_concepts/pressure)공기/$가 필요하며, 센서가 작동하려면 알맞은 $(l:base_concepts/upgrades)업그레이드/$도 필요합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:universal_sensor",
+      "text": "현재 센서가 측정할 수 있는 조건은 15 종류 이상이며, 특정 좌표에 블록이 있는지, Twitcher의 스트리밍이 있는지를 확인할 수 있습니다. $(thing)범용 센서/$ GUI를 열고 사용 가능한 기능과 설명을 확인하세요."
+    },
+    {
+      "type": "text",
+      "title": "업그레이드",
+      "text": "해당 센서 범주를 선택할 수 있도록 하려면 $(l:base_concepts/upgrades#entity_tracker)개체 추적기/$, $(l:base_concepts/upgrades#dispenser)Dispenser/$ 또는 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$와 $(l:tools/gps_tool)GPS 도구/$를 삽입해야 합니다. 예: 범위 내의 개체 수를 계산하려면 $(item)개체 추적기 Upgrade/$를 설치해야 합니다."
+    },
+    {
+      "type": "text",
+      "title": "예: 개체 수 계산",
+      "text": "동물이 많이있는 울타리가 있고 충분한 수만큼 죽이고 싶습니다. $(p)$(l:base_concepts/upgrades#entity_tracker)개체 트래커 업그레이드/$ 및 인클로저의 크기를 커버하기에 충분한 $(l:base_concepts/upgrades#range)범위 업그레이드/$를 추가합니다. $(p)그런 다음 GUI에서 $(thing)개체/$ 버튼을 선택한 다음 $(thing)범위 내/$를 선택하고 마지막으로 동물 유형 (예 : 'cow')와 일치하는 $(l:base_concepts/entity_filter)개체 필터/$를 입력합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "범용 센서 제작",
+      "recipe": "pneumaticcraft:universal_sensor"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "keys": 2268,
+  "candidate_keys": 2266,
+  "candidate_sources": {
+    "automatic_translation_candidate": 2135,
+    "manual_term_candidate": 116,
+    "reviewed_original_candidate": 15
+  },
+  "invalid_candidates": [],
+  "review_status": "candidate_requires_full_review"
+}

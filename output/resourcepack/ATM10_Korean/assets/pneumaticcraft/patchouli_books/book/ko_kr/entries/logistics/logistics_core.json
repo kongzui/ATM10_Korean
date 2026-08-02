@@ -1,0 +1,25 @@
+{
+  "name": "물류 코어",
+  "icon": "pneumaticcraft:logistics_core",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 모든 $(l:logistics/overview)물류/$ 관련 아이템 및 장치의 기본 생성 구성 요소입니다."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "pneumaticcraft:logistics/frames",
+        "pneumaticcraft:logistics/logistics_drone",
+        "pneumaticcraft:tubes/logistics_module"
+      ]
+    },
+    {
+      "type": "crafting",
+      "text": "물류 코어 제작",
+      "recipe": "pneumaticcraft:logistics_core"
+    }
+  ]
+}

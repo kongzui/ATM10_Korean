@@ -1,0 +1,19 @@
+{
+  "name": "시작 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/start_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)시작/$ 위젯은 프로그램의 첫 위젯이며 $(l:programming/flow_control)프로그램 실행/$이 시작되는 곳입니다.$(p)$(italic)반드시/$ 하나만 있어야 합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/start_piece.png"
+      ],
+      "text": "$(italic)마클라우드라고 부르세요/$"
+    }
+  ]
+}

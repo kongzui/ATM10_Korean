@@ -1,0 +1,64 @@
+{
+  "name": "건축 자재",
+  "icon": "pneumaticcraft:reinforced_bricks",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr)는 일부 $(item)Stone/$ 및 약간의 $(item)압축 철/$로 만들어진 $(thing)Reinforced Stone/$ 블록 유형 컬렉션을 추가합니다. 많은 제작법에는 어떤 형태로든 강화석이 필요합니다. $(p)강화석 블록은 건축에 매우 적합하며 모든 유형은 폭발 저항이 높습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:compressed_stone",
+      "text": "게다가, $(thing)압축된 돌/$와 그 다양한 제품은 미관 목적에 도움이 될 수 있습니다. $(thing)강화된 돌/$와 마찬가지로 뛰어난 내폭성을 갖추고 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:reinforced_stone",
+      "recipe2": "pneumaticcraft:reinforced_stone_slab"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:reinforced_bricks",
+      "recipe2": "pneumaticcraft:reinforced_bricks_from_tile"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:reinforced_brick_tile",
+      "recipe2": "pneumaticcraft:reinforced_brick_stairs"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:reinforced_brick_slab",
+      "recipe2": "pneumaticcraft:reinforced_brick_wall"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:reinforced_brick_pillar"
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/compressed_stone"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:compressed_stone_slab",
+      "recipe2": "pneumaticcraft:compressed_brick_pillar"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:compressed_bricks",
+      "recipe2": "pneumaticcraft:compressed_bricks_from_tile"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:compressed_brick_tile",
+      "recipe2": "pneumaticcraft:compressed_brick_stairs"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:compressed_brick_slab",
+      "recipe2": "pneumaticcraft:compressed_brick_wall"
+    }
+  ]
+}

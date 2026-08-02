@@ -1,0 +1,38 @@
+{
+  "name": "진공 펌프",
+  "icon": "pneumaticcraft:vacuum_pump",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)진공 펌프/$는 진공을 만드는 데 사용되는 기계입니다. 이를 위해 기계는 $(l:base_concepts/pressure)압축 공기/$를 소모합니다. $(p)정압은 $(#0c0)'+'측/$에 적용해야 합니다. 최소 작동 압력에 도달하면 $(item)진공 펌프/$가 흡입을 시작하고 $(#c00)'-'측/$의 압력이 최저 -1.0 바까지 떨어지고 진공이됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/vacuum_pump.png"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "신청",
+      "text": "음압(진공)에는 다음과 같은 용도가 있습니다. $(li)Disenchanting: $(l:manufacturing/pressure_chamber)압력 챔버/$에 두 개 이상의 마법과 바닐라 $(item)Book/$가 포함된 $(item)마법 부여된 아이템/$ 또는 $(item)마법 부여된 책/$을 배치하고 챔버에 충분한 음압을 제공합니다. 무작위 마법 부여가 아이템에서 책으로 옮겨집니다. $(li)$(l:tubes/air_grate_module)공기 창살 모듈/$는 부정적인 압력이 가해지면 개체를 자신에게 끌어당깁니다."
+    },
+    {
+      "type": "text",
+      "title": "응용 프로그램 (계속)",
+      "text": "$(li)$(l:spawning/vacuum_trap)진공 트랩/$ 및 $(l:spawning/spawner_extractor)생성기 추출 장치/$는 $(l:spawning/pressurized_spawner)가압 생성기/$의 제작 및 사용에 필요합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "진공 펌프 제작",
+      "recipe": "pneumaticcraft:vacuum_pump"
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "header": "흡입의 인챈트 해제",
+      "recipe": "pneumaticcraft:pressure_chamber/pressure_chamber_disenchanting"
+    }
+  ]
+}

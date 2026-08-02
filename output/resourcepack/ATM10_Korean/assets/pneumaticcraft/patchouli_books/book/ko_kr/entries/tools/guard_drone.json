@@ -1,0 +1,45 @@
+{
+  "name": "가드 드론",
+  "icon": "pneumaticcraft:guard_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)가드 드론/$는 모든 인벤토리 블록에 대해 배포해야 하는 특수한 프로그램 불가능한 유형의 $(l:tools/drone)드론/$입니다. 무기로 사용할 아이템을 1개 가져오고 범위 내의 Mob을 공격합니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "자동 충전",
+      "item": "pneumaticcraft:charging_station",
+      "text": "다른 드론과 마찬가지로 작동하려면 $(l:base_concepts/pressure)압력/$이 필요합니다. 공기가 부족해지면 $(l:tools/drone#charging)발사기 업그레이드가 설치된 충전소/$를 자동으로 찾아갑니다."
+    },
+    {
+      "type": "text",
+      "title": "범위",
+      "text": "$(thing)가드 드론/$는 배치 위치에서 수평 방향으로 16 블록, 위쪽으로 8 블록, 아래쪽으로 5 블록 이내의 적대적인 Mob을 타겟으로 합니다. $(p)세로 범위가 좁은 이유는 동굴 깊숙이 있는 Mob의 검출과 텔레포트를 최소화하기 때문입니다. 텔레포트하면 공기가 낭비되어 드론에 무슨 일이 있었는지 모르게 되어 버립니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "무기",
+      "item": "minecraft:netherite_sword",
+      "text": "$(thing)가드 드론/$는 인벤토리에 무엇이 포함되어 있는지 상관하지 않습니다. 그러므로 유용한 근접 무기를 거기에 넣으십시오. 무기가 부서지고 인벤토리에 대체 무기가 없으면 드론이 무장하지 않고 계속 싸우게되어 매우 비효율적입니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "원거리 전투",
+      "item": "pneumaticcraft:minigun_upgrade",
+      "text": "드론에는 대신 $(l:base_concepts/upgrades#minigun)미니건 업그레이드/$를 장착할 수도 있습니다. 이 경우 $(l:tools/minigun_ammo)미니건의 총탄/$를 인벤토리에 추가해야 합니다."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:guard_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "crafting",
+      "text": "경비 드론 제작",
+      "recipe": "pneumaticcraft:guard_drone"
+    }
+  ]
+}

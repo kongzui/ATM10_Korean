@@ -1,0 +1,29 @@
+{
+  "name": "열공압 처리 공장",
+  "icon": "pneumaticcraft:thermopneumatic_processing_plant",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:refinery",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)열공압 처리 공장/$은 $(l:base_concepts/pressure)압력/$이나 $(l:base_concepts/heat)열/$로 재료를 처리하며 다음 용도로 사용합니다:$(li)$(thing)LPG/$ 100mB와 $(item)석탄/$ 1개로 $(l:components/plastic)플라스틱/$ 1000mB를 만듭니다. 열은 필요하지만 압력은 필요하지 않습니다.$(li)$(thing)디젤/$ 1000mB와 $(item)레드스톤 가루/$ 1개로 $(l:components/lubricant)윤활유/$ 1000mB를 만듭니다. 이 과정도 열은 필요하지만 압력은 필요하지 않습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(item)열공압 처리 플랜트/$를 사용하면 $(l:manufacturing/refinery)정유기/$에서 생산된 무거운 연료를 80% 회수율로 가벼운 연료로 분해할 수 있습니다. $(li)디젤 -> 등유 $(li)등유 -> 휘발유 $(li)휘발유 -> LPG$(p)열과 압력이 모두 필요합니다."
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "$(thing)열공압 처리 공장/$는 $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$를 지원합니다. 레시피를 추가하거나 삭제할 수 있습니다. 자세한 내용은 아래 링크를 참조하세요.",
+      "url": "https://docs.blamejared.com/1.16/en/mods/PneumaticCraft-Repressurized/ThermoPlant",
+      "link_text": "CraftTweaker Docs"
+    },
+    {
+      "type": "crafting",
+      "text": "열공압 처리 공장 제작",
+      "recipe": "pneumaticcraft:thermopneumatic_processing_plant"
+    }
+  ]
+}

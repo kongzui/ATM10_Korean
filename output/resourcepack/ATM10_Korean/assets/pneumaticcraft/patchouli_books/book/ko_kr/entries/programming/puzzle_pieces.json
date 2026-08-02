@@ -1,0 +1,20 @@
+{
+  "name": "퍼즐 조각",
+  "icon": "pneumaticcraft:textures/progwidgets/start_piece.png",
+  "category": "pneumaticcraft:programming",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)프로그래밍 퍼즐/$ 또는 $(thing)퍼즐 조각/$는 $(l:programming/programmer)Programmer/$로 $(l:tools/drone)Drone/$를 프로그래밍하는 데 사용되는 물리적 아이템입니다. 드론이 프로그래밍되면 모두 소모되지만 더 작은(또는 빈) 프로그램으로 $(item)Drone/$를 덮어쓰면 검색할 수 있습니다. $(p)$(item)Programmer/$ GUI에 있는 $(thing)Puzzle Pieces/$의 가상 표현은 $(thing)프로그래밍이라고 합니다. 위젯/$."
+    },
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$에 프로그램을 작성하려면 인벤토리에 $(thing)퍼즐 조각/$가 있거나 $(item)프로그래머/$에 인접한 인벤토리. $(p)크리에이티브 모드의 경우 프로그래밍은 완전히 무료입니다. 조각은 필요하지 않습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:programming_puzzle"
+    }
+  ]
+}

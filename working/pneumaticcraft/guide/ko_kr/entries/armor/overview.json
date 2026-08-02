@@ -1,0 +1,78 @@
+{
+  "name": "공압 방어구 개요",
+  "icon": "minecraft:written_book",
+  "category": "pneumaticcraft:armor",
+  "priority": "true",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr)를 $(thing)아이언 맨/$의 HUD와 결합하면 어떻게됩니까? 대답은 $(thing)공압 방어구/$입니다! $(p)이 방어구는 토니 스타크 장난감에서 힌트를 얻었지만 무적이라는 것은 아닙니다. 기본적으로이 방어구는 동등한 $(thing)철 방어구/$의 각 부위보다 약간 보호 성능과 내구성이 우수합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pneumatic_armor.png"
+      ],
+      "border": "true",
+      "text": "압축된 아이언맨"
+    },
+    {
+      "type": "text",
+      "text": "그러나 이 방어구는 업그레이드 가능성이 매우 높습니다. 업그레이드를 사용하려면 (및 방어구를 가압하려면) 방어구를 $(l:machines/charging_station)충전 스테이션/$에 놓습니다. $(p)모든 부분에 공통적인 업그레이드는 다음 페이지에서 설명합니다. 사이트별 업그레이드는 각 방어구 사이트 페이지에서 개별적으로 설명합니다."
+    },
+    {
+      "type": "text",
+      "text": "방어구의 부위를 장비하면 몇 초 이내에 $(thing)기동/$합니다. $(thing)$(k:pneumaticcraft.armor.options)/$를 누르면 GUI가 열리고 설치된 업그레이드를 구성하고 방어구의 HUD를 조정할 수 있습니다. 설치된 업그레이드가 증가하면 GUI에 표시되는 옵션도 증가합니다. $(p)모든 업그레이드는 GUI의 확인란에서 켜거나 끌 수 있습니다. 또한 각 확인란에 키를 바인딩하여 GUI 외부에서 기능을 빠르게 전환할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:anvil",
+      "title": "수리",
+      "text": "귀중한 갑옷을 양호한 상태로 유지하는 방법에는 몇 가지가 있습니다. $(li)압축 철괴를 사용하여 $(thing)Anvil/$에서 수리할 수 있습니다.$(li)$(thing)Item Life Upgrades/$를 각 부품에 추가하여 자체 수리하도록 합니다.$(li)$(thing)Mending/$ 마법 부여를 적용합니다. 각 조각에"
+    },
+    {
+      "type": "text",
+      "title": "착색",
+      "text": "모든 갑옷 부분은 기본 회색 텍스처에서 동적으로 색상을 다시 지정할 수 있습니다. 각 부품에는 독립적으로 조정할 수 있는 $(thing)기본/$ 및 $(thing)보조/$ 색상이 있으며 헬멧 $(thing)eyepiece/$도 고유한 색상을 가질 수 있습니다. $(p)색상을 조정하려면 기본 방어구 GUI 화면에서 $(bold)Colors.../$ 화면을 사용하세요. 이를 위해 특별한 업그레이드가 필요하지 않습니다. 그것은 내장된 기능입니다!"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:speed_upgrade",
+      "text": "$(l:base_concepts/upgrades#speed)속도 업그레이드/$는 각 방어구의 시작 시간을 줄입니다. 또한 $(l:base_concepts/upgrades#entity_tracker)개체 추적기/$ 및 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$에 대한 $(l:armor/pneumatic_helmet)Helmet/$ 잠금 시간을 줄이고 $(l:armor/pneumatic_leggings)Leggings/$이동 속도를 높입니다. $(l:base_concepts/pressure)공기 소모/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:volume_upgrade",
+      "text": "$(l:base_concepts/upgrades#volume)용량 업그레이드/$는 각 방어구 부위의 $(l:base_concepts/pressure)공기 저장 용량/$를 증가시켜 방어구를 채우는 데 걸리는 시간이 길어지지만 사용 시 압력이 손실되는 것이 느려집니다. 용량 업그레이드는 25로 제한되며 업그레이드를 추가할수록 효과가 줄어듭니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:armor_upgrade",
+      "text": "$(l:base_concepts/upgrades#armor)갑옷 업그레이드/$는 각 방어구의 보호와 내구성을 향상시킵니다. 2 하나의 업그레이드를 설치하면 각 사이트는 해당 $(thing)다이아몬드 방어구/$와 동일합니다. 최대 4 하나의 업그레이드에서 보호는 $(thing)다이아몬드 방어구/$보다 낫습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:item_life_upgrade",
+      "text": "$(l:base_concepts/upgrades#item_life)아이템 라이프 업그레이드/$는 $(l:base_concepts/pressure)공기/$의 비용으로 방어구의 일부를 천천히 복구합니다. 각 부위에 최대 5개의 업그레이드를 설치할 수 있어 단계적으로 고속화됩니다(단, 공기 효율은 낮습니다)."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gilded_upgrade",
+      "text": "$(l:base_concepts/upgrades#gilded)Gilded Upgrade/$는 모든 갑옷 부분에 설치할 수 있으며 $(thing)Piglins/$를 속여 실제로 $(thing)Gold Armor/$를 착용하고 있다고 믿게 만듭니다. 바보 피글린스."
+    },
+    {
+      "type": "spotlight",
+      "flag": "mod:mekanism",
+      "title": "Mekanism 방사선",
+      "item": "pneumaticcraft:radiation_shielding_upgrade",
+      "text": "$(l:base_concepts/upgrades#radiation_shielding)방사선 보호 업그레이드/$는 Mekanism의 독점적 인 $(l:https://wiki.aidancbrady.com/wiki/Radiation_Shielding_Unit)방사선 보호 장치/$와 마찬가지로 Mekanism 방사선의 유해한 영향에 대한 보호를 제공합니다. 완전한 보호를 받으려면 모든 방어구 부위에 보호 업그레이드가 장착되어 있어야 합니다."
+    },
+    {
+      "type": "text",
+      "title": "Thaumcraft",
+      "flag": "mod:thaumcraft",
+      "text": "$(l:base_concepts/upgrades#thaumcraft)Thaumcraft 업그레이드/$는 해당 $(thing)마도사의 방어구/$와 같은 비스 할인을 제공합니다. 또한 $(l:armor/helmet)헬멧/$에 설치하면 $(item)Goggles of Revealing/$처럼 $(thing)오라 노드/$를 보여 주고 보관함에 든 $(thing)위상/$의 양을 표시합니다."
+    }
+  ]
+}

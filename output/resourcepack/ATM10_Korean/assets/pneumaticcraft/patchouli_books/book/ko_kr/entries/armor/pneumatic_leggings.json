@@ -1,0 +1,37 @@
+{
+  "name": "공압 각반",
+  "icon": "pneumaticcraft:pneumatic_leggings",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)공압 레깅스/$는 4 있는 $(thing)공압 방어구/$ 중 1입니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_leggings",
+      "text": "공압 각반 제작"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:speed_upgrade",
+      "text": "갑옷의 초기화 시간을 줄이는 것 외에도 레깅스의 $(l:base_concepts/upgrades#speed)속도 업그레이드/$는 더 중요한 효과를 갖습니다. 매우 적은 $(l:base_concepts/pressure)공기 비용/$로 $(thing)이동 속도/$를 증가시킵니다.  최대 4 속도 업그레이드를 설치할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "속도 업그레이드 (계속)",
+      "text": "방어구의 GUI를 사용하면 업그레이드를 교체하기 위해 $(l:machines/charging_station)충전 스테이션/$를 찾을 필요없이 속도를 변경하려는 경우 속도 부스트를 현장에서 줄일 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:jumping_upgrade_1",
+      "text": "$(l:base_concepts/upgrades#jumping_1)도약 업그레이드/$를 사용하면 약간의 공기 소모으로 점프 능력이 향상됩니다. 도약 업그레이드에는 4의 두 가지 레벨이 있습니다. $(p)점프 중에 $(thing)$(k:key.sneak)/$를 누르면 점프 높이가 1의 업그레이드와 동일하게 내려갑니다."
+    },
+    {
+      "type": "text",
+      "title": "도약 업그레이드 (계속)",
+      "text": "방어구 GUI를 사용하면 업그레이드를 교체하기 위해 $(l:machines/charging_station)충전 스테이션/$를 찾을 필요없이 점프 높이를 변경하려는 경우 점프 부스트를 즉시 줄일 수 있습니다."
+    }
+  ]
+}
