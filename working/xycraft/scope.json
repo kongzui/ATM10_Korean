@@ -1,0 +1,130 @@
+{
+  "family": "XyCraft",
+  "installed": [
+    {
+      "label": "XyCraft Core",
+      "jar": "xycraft_core-0.7.53-all.jar",
+      "namespace": "xycraft_core",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 106,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "xycraft_core"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
+    },
+    {
+      "label": "XyCraft Machines",
+      "jar": "xycraft_machines-0.7.53.jar",
+      "namespace": "xycraft_machines",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 225,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "xycraft_core",
+        "xycraft_machines"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 48
+    },
+    {
+      "label": "XyCraft World",
+      "jar": "xycraft_world-0.7.53.jar",
+      "namespace": "xycraft_world",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 324,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "xycraft_core",
+        "xycraft_world"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
+    },
+    {
+      "label": "XyCraft Override",
+      "jar": "xycraft_override-0.7.53.jar",
+      "namespace": "xycraft_override",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 135,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "xycraft_core",
+        "xycraft_override",
+        "xycraft_world"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 135,
+      "advancement_examples": [
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/bricks_blue.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/bricks_dark.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/bricks_green.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/bricks_light.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/bricks_red.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_deepslate_blue.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_deepslate_dark.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_deepslate_green.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_deepslate_light.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_deepslate_red.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_nether_bricks_blue.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_nether_bricks_dark.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_nether_bricks_green.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_nether_bricks_light.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_nether_bricks_red.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_polished_blackstone_blue.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_polished_blackstone_dark.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_polished_blackstone_green.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_polished_blackstone_light.json",
+        "data/xycraft_override/advancement/recipes/building_blocks/shaped/chiseled_polished_blackstone_red.json"
+      ],
+      "recipes": 270
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "XyCraft Core",
+      "jar": "xycraft_core-0.7.53-all.jar",
+      "namespace": "xycraft_core",
+      "english_keys": 106,
+      "new_translation_required": 106
+    },
+    {
+      "label": "XyCraft Machines",
+      "jar": "xycraft_machines-0.7.53.jar",
+      "namespace": "xycraft_machines",
+      "english_keys": 225,
+      "new_translation_required": 225
+    },
+    {
+      "label": "XyCraft World",
+      "jar": "xycraft_world-0.7.53.jar",
+      "namespace": "xycraft_world",
+      "english_keys": 324,
+      "new_translation_required": 324
+    },
+    {
+      "label": "XyCraft Override",
+      "jar": "xycraft_override-0.7.53.jar",
+      "namespace": "xycraft_override",
+      "english_keys": 135,
+      "new_translation_required": 135
+    }
+  ]
+}

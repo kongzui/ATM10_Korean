@@ -273,7 +273,7 @@
 		"{image:atm:textures/questpics/bumblezone/bumble_garden.png width:200 height:100 align:center}"
 	]
 	quest.02F4C3BEBD8427AD.title: "매달린 정원"
-	quest.030AC1AF8F735550.quest_desc: ["탱크에 액체를 넣으려면 파이프가 필요합니다.\\n\\n수력 펌프는 느린 속도지만 무료로 물을 자동으로 넣을 수 있습니다!"]
+	quest.030AC1AF8F735550.quest_desc: ["탱크에 유체를 넣으려면 파이프가 필요합니다.\\n\\n수력 펌프는 느리지만 아무 비용 없이 탱크에 물을 자동으로 채울 수 있습니다!"]
 	quest.030AC1AF8F735550.title: "파이프"
 	quest.03250A0202C25E80.quest_desc: ["&9귀속되지 않은 마리드&r 악마를 &4아브라스의 강화 소환&r으로 소환하여 성공적으로 처치한 후, 떨굼 설정으로 얻을 수 있는 &9마리드 라텍스&r를 사용하여 \"최고\" 색상의 분필인 파란색 분필을 제작할 수 있습니다."]
 	quest.03250A0202C25E80.title: "&9파란색 분필"
@@ -518,7 +518,7 @@
 		"{image:atm:textures/questpics/theurgy/theurgy_vessel_1.png width:100 height:125 align:center}"
 	]
 	quest.06AD25DB96F3A1CC.title: "&c수은&r 용기"
-	quest.06B85804163DD18B.quest_desc: ["소아린 상자(소아린은 XyCraft의 제작자입니다)는 XyCraft의 상자입니다.\\n\\n블록을 파괴할 때 아이템을 보관하지 않습니다! 저 사각형들은 무슨 역할을 할까요?"]
+	quest.06B85804163DD18B.quest_desc: ["Soaryn 상자(Soaryn은 XyCraft의 제작자입니다)는 XyCraft의 상자입니다.\\n\\n블록을 부수면 안의 아이템을 보존하지 않습니다! 상자에 있는 네모 칸들은 무슨 역할을 할까요?"]
 	quest.06D13E319C26C949.quest_desc: [
 		"핏빛 버섯 습지에는 거대한 핏빛 버섯이 자랍니다.\\n\\n피를 보면 불안해지니 설명은 짧게 끝낼게요."
 		"{image:atm:textures/questpics/undergarden/undergarden_blood.png width:200 height:100 align:center}"
@@ -628,8 +628,8 @@
 	quest.08DDE018A804BFE7.quest_desc: ["&d&l농축기&r은 투입된 &d&e아이템&r을 농축합니다. &e아이템&r을 &4빨간색 슬롯&r에 넣으면 &d농축된 아이템&r이 &9파란색 슬롯&r에서 나옵니다.\\n\\n&d농축 아이템&r이란 무엇인가요? 아니면 &e아이템&r이 &d농축&r되면 어떻게 되나요? 우리는 그것을 만들 수 있는 &e아이템&r을 더 많이 얻거나 &e아이템&r 자체를 변경합니다!\\n\\n광석 1개에서 가루 2개를 얻을 수 있고, 꽃 한 개에서 더 많은 염료를 얻을 수 있습니다. &6구리&r 단계를 변경하거나 &2이끼&r를 &7조약돌&r에서 제거할 수도 있습니다!\\n\\n&d&l농축기&r의 이후 단계에서는 더 많은 슬롯으로 한 번에 더 많은 &e아이템&r을 &d농축&f할 수 있습니다.\\n\\n자동 정렬 기능도 제공됩니다. 버튼 하나로 &e아이템&r의 스택이 각 슬롯에 균등하게 분배되어 &d&l기계&r가 더 효율적으로 작동하도록 설정할 수 있습니다."]
 	quest.08DDE018A804BFE7.quest_subtitle: "원시 광석을 가루로 분해합니다."
 	quest.08E47A27EFFB7C6B.quest_subtitle: "마른 분홍색 블록 5개"
-	quest.08E484DD3E751697.quest_subtitle: "Roy G. Biv의 B"
-	quest.08E484DD3E751697.title: "&b파란색 자이코륨 젬"
+	quest.08E484DD3E751697.quest_subtitle: "ROYGBIV의 B"
+	quest.08E484DD3E751697.title: "&b파란색 자이코륨 보석"
 	quest.0910C28A609ECBC1.quest_desc: ["&6꿀 나침반&r은 &6&lThe Bumblezone&r이 추가하는 매우 유용한 도구입니다. \\n\\n제작하거나 거래로 얻을 수 있습니다. \\n\\n&e벌통&r을 Shift+우클릭하면 해당 &e벌통&r의 위치를 추적합니다. &lProductive Bees 벌통&r도 포함됩니다. 허공을 우클릭하면 벌집 미로를 찾습니다."]
 	quest.0910C28A609ECBC1.title: "&6꿀 나침반"
 	quest.09223F02621781BF.quest_subtitle: "철 + 석공"
@@ -903,8 +903,8 @@
 		""
 		"건물을 복사하거나 다른 사람과 공유할 때 사용할 수 있습니다!"
 	]
-	quest.0D01524F249E25D7.quest_subtitle: "누가 불을 껐지?"
-	quest.0D01524F249E25D7.title: "&8어두운 자이코륨 젬"
+	quest.0D01524F249E25D7.quest_subtitle: "누가 불을 껐나요?"
+	quest.0D01524F249E25D7.title: "&8검은색 자이코륨 보석"
 	quest.0D18BBB04693885A.quest_desc: ["스트리지오르의 상위 결속은 &6주입 의식&r의 두 번째 티어입니다. 이것은 여러 가지 다른 것들에 사용되지만, 우리가 필요로 하는 주요한 것들은 주입된 곡괭이와 회색 반죽입니다."]
 	quest.0D18BBB04693885A.quest_subtitle: "\"모든 것\" 의식"
 	quest.0D18BBB04693885A.title: "&a스트리지오르의 상위 결속"
@@ -1376,7 +1376,7 @@
 	quest.151D836C7B0E6FAF.title: "&3Vibranium 방패"
 	quest.15279CAC2FFE6B35.quest_subtitle: "티어: &c5"
 	quest.1533D98B3B2A758E.quest_desc: ["산산조각 검은 외별 스켈레톤에게서 얻거나, 떨어뜨린 칼날로 제작할 수 있습니다. \\n\\n검보다는 삼지창에 가깝게 사용합니다. 직접 휘두르는 대신 던진 뒤, 사용 키를 눌러 충성 마법이 부여된 삼지창처럼 칼날을 회수하고 필요하면 다시 눌러 장전합니다."]
-	quest.15540271BF17C2E4.quest_desc: ["&lXyCraft에 오신 것을 환영합니다!&r\\n\\n이 모드 시리즈는 주로 XyCraft: 세계와 기계에 전념합니다!\\n세계는 채굴하는 동안 발견할 수 있는 젬을 제공합니다."]
+	quest.15540271BF17C2E4.quest_desc: ["&lXyCraft에 오신 것을 환영합니다!&r\\n\\n이 모드 계열은 주로 XyCraft: World와 Machines로 이루어져 있습니다!\\nWorld에서는 채굴 중에 여러 색상의 자이코륨 보석을 찾을 수 있습니다."]
 	quest.15540271BF17C2E4.title: "&lXyCraft"
 	quest.15564C11744D6AA0.quest_desc: ["필요한 &e각인기 프레스&r를 모두 모았다면 이제 &e프로세서&f를 만들 차례입니다. 프로세서는 ME 네트워크에 연결되는 대부분의 장치를 제작하는 핵심 재료입니다."]
 	quest.15564C11744D6AA0.title: "프로세서"
@@ -1467,7 +1467,7 @@
 	quest.16A04B2FC3F0D902.quest_desc: ["&7클로그룸&r 도구는 철 도구와 비슷하지만, 철보다는 진흙처럼 보입니다!\\n\\n다만 클로그룸 검은 철 검보다 더 강합니다."]
 	quest.16A04B2FC3F0D902.title: "&7클로그룸&r 도구"
 	quest.16AAC61729C44881.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 제작했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 명시적인 허가 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
-	quest.16B4A00948D1F60D.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 제작했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 명시적인 허가 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
+	quest.16B4A00948D1F60D.quest_desc: ["이 퀘스트는 AllTheMods 모드팩에서 사용하기 위해 &6AllTheMods 제작진&r 또는 &2커뮤니티 기여자&r가 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r 라이선스로 배포되므로, 명시적인 허가 없이 &6AllTheMods 팀&r이 출시하지 않은 공개 팩에서 이 퀘스트를 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 내용이 보인다면 편집 모드입니다."]
 	quest.16B88F46021E956D.quest_desc: ["&l&6신성 마법&r에는 기계가 있으므로 당연히 물류가 필요합니다! &c수은&r을 사용하여 &c수은 전선&r 및 기타 아이템을 사용하여 아이템과 액체를 장소에서 장소로 이동할 수 있습니다! 전선은 실제로 아이템을 이동시키는 것입니다."]
 	quest.16B88F46021E956D.title: "&c수은&r을 이용한 물류"
 	quest.16D0F1E3CEB60ABF.title: "철 낚싯대"
@@ -1754,7 +1754,7 @@
 		"{image:atm:textures/questpics/cataclysm/cataclysm_prison.png width:200 height:100 align:center}"
 	]
 	quest.1A8F438DB8508276.title: "&3서리 감옥&r: &3&l말레딕투스의 거처"
-	quest.1A96C595CBA42840.quest_desc: ["키비 씨앗을 재배하면 키비로 조합할 수 있는 키비 에센스를 얻습니다!"]
+	quest.1A96C595CBA42840.quest_desc: ["키비 씨앗으로 키비 정수를 기를 수 있으며, 키비 정수를 조합해 키비를 만들 수 있습니다!"]
 	quest.1A96C595CBA42840.title: "키비 자동화"
 	quest.1AA81C41431FD145.quest_desc: ["당겨요! 당겨요! 또 당겨요!\\n\\n회수기는 발신기와 반대로 인벤토리의 아이템을 라우터 버퍼로 가져옵니다.\\n\\n인벤토리는 라우터에 인접해야 합니다."]
 	quest.1AAF0B31B47AF23D.quest_desc: ["각 ME 장치는 레드스톤 신호에 반응하도록 설정할 수 있습니다. &b레드스톤 카드&f를 설치하면 레드스톤 신호가 있을 때만 작동하거나 반대로 작동하도록 설정할 수 있습니다.\\n\\n&bME 토글 버스&f를 사용하면 이 동작을 ME 네트워크의 &o일부 구역&r 전체에 적용할 수 있습니다. 일반 토글 버스는 신호가 있을 때 해당 구역을 켜고, &e반전된&f 토글 버스는 신호가 있을 때 구역을 끕니다."]
@@ -1934,7 +1934,7 @@
 	quest.1DE0F289821F55D1.title: "&a분필로 기록하기"
 	quest.1DF026030780AE96.quest_subtitle: "벌집에 있는 벌로부터 유전자를 추출합니다"
 	quest.1DFC9F33D9FD6357.quest_subtitle: "카카오 + 캔들넛"
-	quest.1E00DBAACDF4404F.quest_desc: ["수집기는 매우 저렴한 흡수 호퍼처럼 작동합니다.\\n\\n수집기는 반경 3 블록 내의 모든 아이템을 수집하여 아래쪽 인벤토리 또는 자체 인벤토리에 넣습니다. 레드스톤으로 끌 수 있습니다!"]
+	quest.1E00DBAACDF4404F.quest_desc: ["수집기는 값싼 흡수 호퍼처럼 작동합니다.\\n\\n반경 3블록 안의 아이템을 주워 아래쪽 인벤토리나 자신의 인벤토리에 넣습니다. 레드스톤 신호로 끌 수도 있습니다!"]
 	quest.1E0C6409B2573CCA.quest_desc: [
 		"&l능력 유형:&r 액티브"
 		""
@@ -2214,7 +2214,7 @@
 	]
 	quest.226B8B60AF864FEF.title: "&3Vibranium 대장장이 형판&r"
 	quest.22739522F0D33D7B.quest_desc: ["우울호박은 호박처럼 자연적으로 자라며 재배할 수 있습니다.\\n\\n호박처럼 파이나 랜턴으로 만들 수 있습니다!\\n\\n하지만 호박과 달리 폭발물로도 만들 수 있습니다..."]
-	quest.2278A98DCDF713D7.quest_desc: ["이제 탱크를 만들 시간입니다! 먼저 건축 블록과 밸브가 최소 1개 필요합니다. 유리와 아이템 IO는 선택 사항입니다.\\n\\n탱크는 건축 블록 틀로 만들어야 합니다. 건축 블록은 투명하거나, 중력의 영향을 받거나, 자연적인 흙 또는 잔디가 아닌 모든 것입니다.\\n\\n돌, 나무 또는 금속과 같은 아이템으로 틀과 모서리를 만들어야 합니다. 유리, 밸브, 아이템 IO는 벽에 배치해야 하며 내부는 비어 있어야 합니다.\\n\\n크기는 13x13x13까지만 가능합니다. 모두 완료되면 밸브를 우클릭하면 'Formed(형성됨)'라고 표시되거나 문제점을 알려줍니다."]
+	quest.2278A98DCDF713D7.quest_desc: ["이제 탱크를 만들 차례입니다! 먼저 건축 블록과 밸브가 최소 1개 필요합니다. 유리와 아이템 입출력기는 선택 사항입니다.\\n\\n탱크는 건축 블록으로 틀을 만들어야 합니다. 투명하지 않고, 중력의 영향을 받지 않으며, 자연 흙이나 잔디가 아닌 블록을 건축 블록으로 사용할 수 있습니다.\\n\\n돌·나무·금속 같은 블록으로 틀과 모서리를 만들고, 유리·밸브·아이템 입출력기는 벽에 설치하세요. 내부는 비어 있어야 합니다.\\n\\n최대 크기는 13x13x13입니다. 구조를 완성한 뒤 밸브를 우클릭하면 ‘완성됨’이라고 표시되거나 문제점을 알려 줍니다."]
 	quest.2278A98DCDF713D7.title: "&l탱크"
 	quest.227BEFEF59977CC4.quest_subtitle: "자단 + 티크"
 	quest.227DBA8836021B0B.quest_desc: ["Ars Nouveau의 기계 동력은 &9마나&r라고 합니다. \\n\\n마나를 모으려면 마나 단지가 필요합니다. \\n\\n마나는 양동이로 옮기거나 마나 단지를 부숴 통째로 옮길 수도 있습니다."]
@@ -2716,7 +2716,7 @@
 	quest.2AB0FA084739827A.quest_desc: ["&9터널 굴착기&r를 실제로 사용하려면 &9터널 굴착기 헤드&r가 필요합니다.\\n\\n4가지 스타일이 있으며 &9굴착기 헤드&r에 따라 채굴합니다.\\n\\n마법 부여가 가능하고 내구도가 있으므로 마법 부여를 하는 것이 좋습니다!"]
 	quest.2AB0FA084739827A.title: "&9터널 굴착기, 굴착기 헤드"
 	quest.2ABAE97E992BB800.title: "벌집 조각 현수막 무늬"
-	quest.2AC7BC448C007BDB.quest_desc: ["키위를 알루미늄으로 강화하면 기계를 제작하는 데 필요한 기계 틀을 얻을 수 있습니다."]
+	quest.2AC7BC448C007BDB.quest_desc: ["키비를 알루미늄으로 보강하면 기계를 만드는 데 필요한 기계 틀을 얻을 수 있습니다."]
 	quest.2ACFD25B43F0499C.quest_subtitle: "이페 + 행운"
 	quest.2AD13B965611DC86.quest_desc: [
 		"&l&6The Bumblezone&r에서 가장 흥미로운 생물군계로 손꼽히는 &7&l울부짖는 구조물&r입니다. \\n\\n땅에는 설탕이 스며든 돌, &e조각용 밀랍&r, &6꿀&r로 된 가시가 솟아 있습니다. \\n\\n진짜 흥미로운 것은 땅 위에 있습니다. &l&7울부짖는 구조물&r 전역에 &7부유 구조물&r이 떠 있습니다. \\n\\n고대 밀랍으로 만들어졌으며, 이 재료는 뒤에서 더 알아보게 됩니다."
@@ -2785,8 +2785,8 @@
 	quest.2B4D4E741D855B5A.title: "&d심해의 주괴"
 	quest.2B57C8D2F98A9279.quest_desc: ["&l&7Pocket Storage&r는 간단한 휴대용 저장 장치를 추가하는 모드입니다.\\n\\n우클릭하여 열고 아이템을 넣을 수 있습니다. 각 아이템에는 최대 보관량이 있으며, 이를 넘긴 아이템은 소멸합니다. 저장된 것과 같은 종류의 아이템이 바닥에 떨어져 있으면 자동으로 주워 담습니다.\\n\\n상자에 내용물을 빠르게 넣거나 상자에서 꺼내는 기능도 있습니다.\\n\\n등급이 높을수록 슬롯 수와 아이템 최대 보관량이 늘어납니다."]
 	quest.2B57C8D2F98A9279.title: "&l&7Pocket Storage"
-	quest.2B5E14A47062F83C.quest_subtitle: "Roy G. Biv의 R"
-	quest.2B5E14A47062F83C.title: "&c붉은 자이코륨 젬"
+	quest.2B5E14A47062F83C.quest_subtitle: "ROYGBIV의 R"
+	quest.2B5E14A47062F83C.title: "&c빨간색 자이코륨 보석"
 	quest.2B60D123123A5E8E.quest_desc: ["왜 에너지가 갈 위치를 설정해야 할까요? 그냥 자유롭게 놔두는 건 어때요!\\n\\n벌 떼를 풀어주는 것처럼, 에너지는 거의 즉시 모든 곳으로 퍼져나갈 것입니다 (윙윙거리는 소리는 덜 나겠지만요). 주변에 에너지가 필요한 모든 블록은 무선으로 충전될 것입니다."]
 	quest.2B857941D7BBA0B8.quest_desc: ["&6&lThe Bumblezone&r의 구조물에서 발견하거나 &5여왕벌&r과 거래해 얻습니다! \\n\\n&6꿀 블록&r에 달라붙거나 &e꽃가루&r 때문에 느려지는 것이 싫었나요? 꿀벌 레깅스가 해결해 줍니다! 이런 블록 사이를 더 쉽게 움직이며, 벌 갑옷을 많이 착용할수록 이동이 더 수월해집니다! \\n\\n&e꽃가루&r 안에서 Shift를 눌러 꽃가루를 모을 수도 있습니다! "]
 	quest.2B864D741F7C7549.quest_desc: ["&lProductive Trees&r는 나무를 교배해 더 많은 나무를 만드는 모드예요.\\n\\n&2&lMinecraft&r에 여러 새로운 목재 종류를 더해요!\\n\\n특별한 기능을 가진 목재도 있답니다!"]
@@ -2821,15 +2821,15 @@
 	quest.2C387BFA6EE6FDB7.title: "&c우테리움 갑옷"
 	quest.2C4299D33D419AA0.quest_desc: ["&2&l오버월드&r에 텔레포트 패드를 설치하면 &7&l채굴 차원&r으로 이동합니다."]
 	quest.2C4299D33D419AA0.title: "&2&l오버월드"
-	quest.2C4ECA4F5B1639F4.quest_desc: ["빛의 밭은 많은 빛을 보여주지는 않지만, 메가 횃불처럼 작동합니다.\\n\\n몹은 주변 설정된 영역에서 생성되지 않습니다. 해당 영역은 약 32 블록 반경입니다."]
-	quest.2C4ECA4F5B1639F4.title: "&f빛의 밭"
+	quest.2C4ECA4F5B1639F4.quest_desc: ["광원장은 눈에 잘 보이는 빛을 내지는 않지만 거대 횃불처럼 작동합니다.\\n\\n주변 약 32블록 반경에서는 몹이 생성되지 않습니다."]
+	quest.2C4ECA4F5B1639F4.title: "&f광원장"
 	quest.2C5A7E4CD8B57E08.quest_desc: ["그롱글 나무는 그롱글생장지 생물 군계에서만 자라는, 정글 나무처럼 키가 큰 나무입니다! \\n\\n&e그롱이&r도 이 나무에서 나타납니다."]
 	quest.2C5D78630C7AD57F.quest_desc: ["범위를 증가시키고, 다른 것에 사용했을 때 다른 동작을 수행합니다."]
 	quest.2C5D78630C7AD57F.quest_subtitle: "더 가까이 오세요!"
 	quest.2C73E3C5113BF2AC.quest_desc: ["삐 삐, 나는 양이야"]
 	quest.2C73E3C5113BF2AC.quest_subtitle: "티어: &a2"
-	quest.2C7D62231AD6406A.quest_desc: ["XyCraft에는 멋진 유체 탱크 멀티블록이 있습니다!"]
-	quest.2C7D62231AD6406A.title: "&b액체 저장 및 조작"
+	quest.2C7D62231AD6406A.quest_desc: ["XyCraft에는 훌륭한 멀티블록 유체 탱크가 있습니다!"]
+	quest.2C7D62231AD6406A.title: "&b유체 저장 및 운반"
 	quest.2C8152581F9FBCB7.quest_desc: [
 		"마지막으로 망간 용액을 전기 분해하면 작은 망간 가루를 얻을 수 있습니다."
 		""
@@ -3346,7 +3346,7 @@
 	quest.354086C858E10154.title: "폐기물 재처리"
 	quest.3543563DF036D461.quest_desc: ["드래고니스트 가루를 만들려면 &9Uphyxes의 반전된 탑&r을 수행해야 합니다. 하지만 자홍색 분필을 만들려면 &9Marid 분쇄기&r를 통해서만 얻을 수 있는 재료도 필요합니다."]
 	quest.3543563DF036D461.title: "&#AD00C8자홍색 분필"
-	quest.355244420EA47546.quest_desc: ["제작기는 자동 제작기입니다. 아래의 인벤토리에서 아이템을 가져와 설정된 제작법대로 제작합니다.\\n\\nCtrl 키를 누른 채 클릭하면 제작법을 잠글 수 있습니다. 하지만 제작된 아이템을 파이프로 내보내야 합니다."]
+	quest.355244420EA47546.quest_desc: ["제작기는 자동 조합 장치입니다. 아래쪽 인벤토리에서 아이템을 가져와 지정한 조합법을 만듭니다.\\n\\nCtrl+클릭으로 조합법을 잠글 수 있습니다. 완성된 아이템은 파이프로 꺼내야 합니다."]
 	quest.355244420EA47546.quest_subtitle: "자동 제작기"
 	quest.356102D5B5F3CA1E.quest_desc: ["&6&lForbidden \\\\\\& Arcanus&r 에서 추가된 합금은 &5흑요석 강철&r 입니다.\\n\\n이 합금은 &l&b클리바노&r 에서 철 원석과 &5흑요석&r 을 결합하여 생성됩니다.\\n\\n실제로 합금을 만들려면 장인의 유물이 필요합니다!\\n\\n또한 &6구리&r 가 잔여물로 생성되는데, 아마도 의도된 것은 아닐 겁니다 happen..."]
 	quest.356102D5B5F3CA1E.title: "&5흑요석 강철&r"
@@ -3641,7 +3641,7 @@
 	quest.39B85DB54B1037FE.quest_subtitle: "두꺼운 검"
 	quest.39DAC0592300992A.quest_desc: ["&9금속 프레스 몰드 설계도&r를 제작할 수 있습니다.\\n\\n&7&l금속 프레스 멀티블록&r은 &7금속 판&r과 &e아이템&r 제작을 자동화합니다.\\n\\n&7금속&r을 압축하려면 몰드가 필요합니다.\\n\\n몰드를 만들려면 이러한 &9설계도&r가 필요합니다!"]
 	quest.39DAC0592300992A.title: "&9금속 프레스 몰드 설계도"
-	quest.39E4FC9BA89E44BC.quest_desc: ["막대기가 달린 풍선은 초반에 제한적인 크리에이티브 비행의 근원입니다.\\n\\n막대기를 내려놓으면 풍선에 부착됩니다! 너무 멀리 가지 말고 스페이스를 두 번 닿아 비행을 시작하세요. 너무 멀리 가면 분리되어 떨어집니다."]
+	quest.39E4FC9BA89E44BC.quest_desc: ["막대에 매단 풍선은 초반에 제한적으로 크리에이티브 비행을 할 수 있게 해 줍니다.\\n\\n막대를 설치하면 풍선에 연결됩니다! 스페이스바를 두 번 눌러 날 수 있지만 너무 멀리 가지 마세요. 멀리 가면 줄이 끊어져 떨어집니다."]
 	quest.39E4FC9BA89E44BC.quest_subtitle: "위로!"
 	quest.39F142224D5210A9.quest_desc: ["&3바이오디젤&r은 &3윤활유&r와 &3용융 플라스틱&r을 만드는 데 사용할 수 있습니다."]
 	quest.39F142224D5210A9.quest_subtitle: "바이오/디젤"
@@ -3936,8 +3936,8 @@
 	quest.3E8C2E7769DFBF35.title: "&e전기 기관차"
 	quest.3E8C7D92F99496BE.quest_desc: ["&5심연의 눈&r은 &5&l레비아탄&r과 싸우기 위해 당신을 &5가라앉은 도시&r로 데려갈 것입니다."]
 	quest.3E8C7D92F99496BE.title: "&5심연의 눈&r"
-	quest.3E970E76372AB094.quest_desc: ["&2가속화된 큰 화분&r은 몇 가지 변경 사항이 있지만 일반 농지와 유사하게 작동합니다.\\n\\n자동으로 물이 공급되며 일반 농지보다 더 빠릅니다."]
-	quest.3E970E76372AB094.title: "&2가속화된 큰 화분"
+	quest.3E970E76372AB094.quest_desc: ["&2가속 화분&r은 일반 경작지와 비슷하지만 몇 가지 차이가 있습니다.\\n\\n자동으로 물이 공급되며 일반 경작지보다 작물이 빨리 자랍니다."]
+	quest.3E970E76372AB094.title: "&2가속 화분"
 	quest.3E99F4CD379DE9D7.quest_desc: ["이 퀘스트는 &6AllTheMods 스태프&r 또는 &2커뮤니티 기여자&r가 AllTheMods 모드팩에 사용하기 위해 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r로 배포되므로, &6AllTheMods 팀&r의 명시적인 허가 없이 다른 공개 팩에서 이 퀘스트를 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 문장이 보인다면 편집 모드입니다."]
 	quest.3EA2578C3A56FAE8.quest_desc: ["영혼 추출기를 사용하면 항아리를 넣고 몹 아이템을 사용하여 영혼 항아리를 채울 수 있습니다. 예를 들어 썩은 살점을 추가하면 좀비 영혼의 일부를 얻을 수 있습니다."]
 	quest.3EA3A6414AB8A39C.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_flow.png width:100 height:150 align:center}"]
@@ -3990,7 +3990,7 @@
 	quest.3F5B5D6B788E0A73.title: "&4&lEvilCraft"
 	quest.3F663416E824720C.quest_desc: ["&c구리 케이싱&r은 유체 물류 기계 대부분에 필요합니다.\\n\\n물을 놓거나 퍼 올릴 때 모두 구리 케이싱을 사용합니다.\\n\\n안산암 케이싱처럼 껍질 벗긴 원목에 구리 주괴를 사용해 만듭니다.&c&r&b&r&9&r&c&r&9&r&c&r&8&r"]
 	quest.3F68BA498E877C8C.quest_subtitle: "Roy Biv의 가운데 이름"
-	quest.3F68BA498E877C8C.title: "&a초록색 자이코륨 젬"
+	quest.3F68BA498E877C8C.title: "&a초록색 자이코륨 보석"
 	quest.3F8A5CBEAE024748.quest_desc: ["약탈자의 눈, 블레이즈의 눈, 셜커의 눈은 각각 특정 구조물을 찾는 데 사용됩니다."]
 	quest.3F8A5CBEAE024748.quest_subtitle: "나는 네게서 눈을 뗄 수 없어."
 	quest.3F8A5CBEAE024748.title: "구조물 탐지기"
@@ -4076,9 +4076,9 @@
 	quest.40C776497D68367F.quest_desc: ["덩굴, 붉은색과 푸른색 수정 이끼 카펫, 달빛 열매, 동굴 이끼, 붉은색과 푸른색 수정 뿌리입니다. \\n\\n이 중 하나를 보조 손에 들고 탐색의 눈을 사용하면 저주받은 정원을 찾습니다."]
 	quest.40C776497D68367F.title: "달빛 괴수 탐색 아이템"
 	quest.40DB6E3DE87F16EF.quest_desc: [
-		"&d드래곤의 숨결&r은 강력하고 (냄새나고) 신비로운 아이템입니다. 강력하다는 것은 그것으로부터 에너지를 만들 수 있다는 뜻이며, 그것도 많이요! &5할리토시스 발전기&r는 &d드래곤의 숨결&r로부터 에너지를 만듭니다!"
+		"&d드래곤의 숨결&r은 강력하고, 냄새가 고약하며, 신비로운 아이템입니다. 강력하다는 건 많은 에너지를 만들 수 있다는 뜻이죠! &5구취 발전기&r는 &d드래곤의 숨결&r로 에너지를 만듭니다!"
 		""
-		"(참고로 &d드래곤의 숨결&r은 드래곤 머리를 사용하여 XyCraft의 추출기로 농사지을 수 있습니다)."
+		"(참고로 드래곤 머리와 XyCraft 추출기를 사용하면 &d드래곤의 숨결&r을 자동으로 얻을 수 있습니다.)"
 	]
 	quest.40DB6E3DE87F16EF.title: "&5할리토시스 발전기"
 	quest.40E4F1172A164DD1.quest_subtitle: "정글에서 코코아 꼬투리를 파괴할 때 생성될 확률"
@@ -4254,9 +4254,9 @@
 	quest.43EF5513A1C52A37.quest_desc: ["&3열공압 처리 공장&r은 용융 플라스틱을 만드는 데 사용되며, LPG, 석탄 및 약간의 열을 펌프로 주입하기만 하면 됩니다."]
 	quest.43EF5513A1C52A37.quest_subtitle: "이름이 길수록 좋습니다."
 	quest.43EF5513A1C52A37.title: "열공압 처리"
-	quest.43F08B510FC1C06F.quest_desc: ["아이템 IO는 탱크 안팎으로 아이템을 전송하는 능력을 제공합니다. 출력 및 입력을 위해 토글할 수 있습니다."]
-	quest.43F08B510FC1C06F.quest_subtitle: "아이템이 오고 가는 곳"
-	quest.43F08B510FC1C06F.title: "아이템 IO"
+	quest.43F08B510FC1C06F.quest_desc: ["아이템 입출력기를 사용하면 탱크에 아이템을 넣거나 꺼낼 수 있습니다. 입력과 출력 모드를 전환할 수 있습니다."]
+	quest.43F08B510FC1C06F.quest_subtitle: "아이템이 드나드는 곳"
+	quest.43F08B510FC1C06F.title: "아이템 입출력기"
 	quest.43FD4AEBB9548E57.quest_desc: [
 		"안개줄기 숲은 쪽빛 버섯 습지와 이웃한 생물 군계입니다.\\n\\n이곳도 푸른빛을 띠고 쪽빛 버섯이 자라지만, 안개줄기 나무가 훨씬 큽니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_smogstem.png width:200 height:100 align:center}"
@@ -4638,7 +4638,7 @@
 	quest.4A854CD5EC70733E.quest_desc: ["배낭에 제작대 GUI를 추가합니다."]
 	quest.4A88472F1581EE7E.quest_desc: ["&4&l마호 츠카이&r에 오신 것을 환영합니다. \\n\\n아니요, &4&l모르간 검&r을 즉시 얻을 수는 없습니다. 실제로 모드를 조금 플레이해야 합니다. \\n\\n시작하려면 약간의 피해를 입으세요. 출혈 효과가 나타날 것입니다. 사라지기 전에 shift 키를 누른 상태로 단단한 블록에서 M 키를 눌러 첫 번째 &c마법진&r을 배치하세요. \\n\\n일명 &c마호진&r!"]
 	quest.4A88472F1581EE7E.title: "&4&l마호 츠카이"
-	quest.4A92237E17ED5F1C.quest_desc: ["The Void 컨테이너는 모든 인벤토리를 쓰레기통으로 만듭니다. 인벤토리 위에 올려놓으면 더 이상 아이템이 남지 않습니다!"]
+	quest.4A92237E17ED5F1C.quest_desc: ["공허 컨테이너는 모든 인벤토리를 쓰레기통으로 바꿉니다. 인벤토리 위에 놓으면 들어온 아이템이 사라집니다!"]
 	quest.4A9CB8778D37049F.quest_desc: ["&4수프레뮴 갑옷&r에 각성 의식을 진행하려면, 먼저 다른 각성 의식으로 필요한 재료를 만들어야 합니다. \\n\\n그만한 가치가 있습니다. &2&lMystical Agriculture&r에서 얻을 수 있는 최고의 방어구니까요!"]
 	quest.4A9CB8778D37049F.quest_subtitle: "36"
 	quest.4A9CB8778D37049F.title: "&6각성 수프레뮴 갑옷"
@@ -5896,7 +5896,7 @@
 		"{image:atm:textures/questpics/bumblezone/bumble_flower.png width:175 height:200 align:center}"
 	]
 	quest.5E180764FBEE666B.title: "&5결정꽃"
-	quest.5E1D4169C083ACEF.quest_desc: ["&c점화판&r은 레드스톤 신호를 받으면 전방에 불을 스폰합니다.\\n\\n신호가 멈추면 불을 끕니다."]
+	quest.5E1D4169C083ACEF.quest_desc: ["&c점화판&r은 레드스톤 신호를 받으면 앞쪽에 불을 붙입니다.\\n\\n신호가 끊기면 불도 꺼집니다."]
 	quest.5E1D4169C083ACEF.title: "&c점화판"
 	quest.5E228ACA1B13AD04.quest_desc: ["이제 발사하고 때립니다!"]
 	quest.5E24012A3D9B72A1.quest_desc: [
@@ -6189,8 +6189,8 @@
 	quest.623796B1D7981E59.quest_desc: ["'Terraria도 해 보세요!'\\n\\n장착하면 하트 5개, 즉 체력 10을 추가로 얻습니다! 기본 최대 체력이 총 30이 됩니다."]
 	quest.623796B1D7981E59.quest_subtitle: "허리띠"
 	quest.623796B1D7981E59.title: "&4수정 심장&r"
-	quest.623E6A855B363C8D.quest_desc: ["&9물 블록&r은 움직이는 부분 없이 물처럼 작동합니다.\\n\\n이것으로 조약돌 생성기를 만들 수 있고, 농지에 물을 줄 수도 있지만, 이걸로 MLG 클러치는 할 수 없습니다. (물고기도 들어가려고 하겠지만 결국 죽을 것입니다)."]
-	quest.623E6A855B363C8D.quest_subtitle: "물, 하지만 단단한 얼음?"
+	quest.623E6A855B363C8D.quest_desc: ["&9물 블록&r은 흐르지 않는 고체 블록처럼 놓이지만 물과 같은 역할을 합니다.\\n\\n조약돌 생성기를 만들거나 경작지에 물을 댈 수 있지만, 낙하할 때 물 양동이처럼 사용할 수는 없습니다. 물고기도 들어가려 하지만 결국 죽습니다."]
+	quest.623E6A855B363C8D.quest_subtitle: "고체 물이라니, 얼음인가요?"
 	quest.623E6A855B363C8D.title: "&9물 블록"
 	quest.6255E2FE6DD4084A.quest_subtitle: "호랑가시나무 + 오리나무"
 	quest.6258F26293B9C1C1.quest_desc: ["&9&lCrystalix&r가 우리에게 무엇을 주냐고요?\\n유리를 줍니다! 모든 종류의 유리를요! 보통, 투명, 그리고 테두리 있는 유리가 있습니다.\\n\\n테두리 있는 유리는 일반적인 &2&lMinecraft&r 유리 패턴입니다. 테두리와 모서리 근처에 픽셀이 있어 유리라는 것을 알 수 있습니다. 투명 유리는 테두리는 있지만 모서리 근처에 픽셀이 없어 내부가 모두 투명합니다. 보통 유리는 테두리나 픽셀이 없고, 완전히 100% 투명하며 한 가지 색상입니다.\\n\\n각 &9&lCrystalix&r 유리에는 고유한 속성도 있습니다. 쉐이더 없음, 강화, 빛, 그리고 유령입니다.\\n\\n쉐이더 없음은 쉐이더와 심지어 &2&lMinecraft&r 조명에 반응하는 방식에 영향을 줍니다. 강화는 폭발 저항에 영향을 줍니다. 빛은 빛을 내는지, 빛을 무시하는지, 아니면 빛을 통과시키는 일반 유리처럼 작동하는지에 영향을 줍니다. 유령은 누가 유리를 통과할 수 있는지 변경할 수 있으며, 이 속성이 가장 많은 설정을 가지고 있습니다."]
@@ -6288,8 +6288,8 @@
 	]
 	quest.6431A384DDFBF439.title: "네트워크 도구"
 	quest.6434796EAAF2A4EC.quest_desc: ["이 퀘스트를 모두 완료한 뒤 &5여왕&r을 우클릭하면 벌의 정수를 받습니다. \\n\\n&l먹으세요!&r \\n\\n이제 이곳에서 거의 모든 일을 안전하게 할 수 있습니다. 모든 &e벌통&r과 &6벌집 조각&r, &6꿀 슬라임&r에게서 &6꿀&r을 안전하게 얻습니다. 벌집의 분노 없이 벌집 미로를 지나고, 채굴 피로 없이 &5왕좌 기둥&r에 들어가며, 해로운 효과 없이 고대 밀랍 위를 걸을 수 있습니다. &6액체 꿀&r이나 로열 젤리에 들어가면 훌륭한 효과도 얻습니다. \\n\\n가장 좋은 점은 죽어도 이 능력이 유지된다는 것입니다! 이제 게임 후반부로 들어갈 수 있습니다!"]
-	quest.643FB1A3ED0EA9EC.quest_desc: ["밸브는 탱크의 심장입니다. 이곳에서 액체를 펌핑하거나 파이프로 연결할 수 있습니다."]
-	quest.643FB1A3ED0EA9EC.quest_subtitle: "액체가 들어오고 나가는 곳"
+	quest.643FB1A3ED0EA9EC.quest_desc: ["밸브는 탱크의 핵심입니다. 이곳을 통해 유체를 펌프나 파이프로 넣고 꺼냅니다."]
+	quest.643FB1A3ED0EA9EC.quest_subtitle: "유체가 드나드는 곳"
 	quest.643FB1A3ED0EA9EC.title: "밸브"
 	quest.6451D5022BCB5E7E.quest_desc: ["영원한 스테이크, 아, 잠깐, 모드가 잘못됐네. &c무한한 햄&r은 무한한 식량 근원 역할을 합니다. 뼈에서 모든 고기를 먹으면 잠시 후 재생성됩니다. 배를 더 채우도록 상위 버전으로 변환할 수 있습니다.\\n\\n&c무한한 햄&r의 두 번째 능력은 물약에 재워두는 것입니다. 그렇게 하면 &c햄&r을 먹을 때마다 해당 물약 효과를 얻게 됩니다. 고기를 전부 먹으면 효과는 사라집니다."]
 	quest.6451D5022BCB5E7E.quest_subtitle: "광산 수갱 또는 스트롱홀드에서 발견됨"
@@ -6312,8 +6312,8 @@
 	quest.64B04D1CBC923789.quest_subtitle: "티어: &b4"
 	quest.64C105E1E2F97900.quest_desc: ["스파이크 망치는 일반 &6선로&r에서 모드를 전환하는 데 사용됩니다. 교차로를 만드는 데 매우 유용합니다!"]
 	quest.64C105E1E2F97900.title: "바꿔 봐"
-	quest.64D0D69ADB8820DA.quest_desc: ["&8액체 무효화기&r는 연결된 모든 물을 멈추는 블록입니다.\\n\\n근원 블록 또는 흐르는 물, 반경 1 블록 내의 모든 것이 사라집니다."]
-	quest.64D0D69ADB8820DA.title: "&8액체 무효화기"
+	quest.64D0D69ADB8820DA.quest_desc: ["&8유체 소멸기&r는 연결된 물을 모두 없애는 블록입니다.\\n\\n원천이든 흐르는 물이든 반경 1블록 안에 있으면 사라집니다."]
+	quest.64D0D69ADB8820DA.title: "&8유체 소멸기"
 	quest.64D0E66CB4FBEC82.quest_desc: ["시작하려면 &6초보자의 마도서&r를 제작하세요! \\n\\n마도서에서는 주문을 만들고 저장할 수 있습니다. \\n\\n&9C&r 키를 누르면 '주문 만들기' 화면이 열립니다. 왼쪽의 주요 3개 탭은 주문 제작, 색상 선택기, 사역마입니다. \\n\\n초보자의 마도서로는 1티어 문양만 만들고 사용할 수 있습니다. 더 강력한 주문을 만들려면 마도서를 업그레이드하세요!"]
 	quest.64D0E66CB4FBEC82.quest_subtitle: "첫 번째 마도서"
 	quest.64D0E66CB4FBEC82.title: "마도서"
@@ -6608,8 +6608,8 @@
 	quest.69A517AB8A801939.title: "&6위더 처치&5"
 	quest.69B7DE2283B4EE6C.quest_desc: ["&b제작 보조 처리 유닛&f은 패턴 공급기가 연결된 장치로 아이템을 더 빠르게 보내거나 여러 재료를 동시에 만들게 하여 제작 속도를 높입니다.\\n\\n기본 AE2 보조 처리 유닛은 작업 '스레드' 하나를 추가하고, &dMEGA Cells&f의 유닛은 블록 하나에서 스레드 4개를 제공합니다."]
 	quest.69B7DE2283B4EE6C.quest_subtitle: "CPU 코어 더 다운로드"
-	quest.69F11A94D44AB5CF.quest_subtitle: "빛이 너무 많아!"
-	quest.69F11A94D44AB5CF.title: "&f밝은 자이코륨 젬"
+	quest.69F11A94D44AB5CF.quest_subtitle: "빛이 너무 밝아요!"
+	quest.69F11A94D44AB5CF.title: "&f하얀색 자이코륨 보석"
 	quest.69F63F3B48E4344E.quest_subtitle: "티어: &63"
 	quest.6A07D09831428CB9.quest_desc: [
 		"&4&l네더&r가 무섭다면 &b바다&r로 떠나 &b바다 책장&r을 사용해 보세요! \\n\\n&b바다 책장&r은 &5아르카나&r를 처음 제공하는 책장으로, &53% 아르카나&r와 &a이터나 3&r을 제공합니다. \\n\\n일반 &7책장&r보다 낫죠? \\n\\n&d&l주입&r에는 16개가 필요합니다... 정확히는 &d&l주입&r 설비에 15개, &d&l주입된&r 책장으로 만들 1개가 필요해요! \\n\\n&4지옥 책장&r 때처럼 여분을 드릴 테니 지금은 11개만 모으세요!"
@@ -6784,8 +6784,8 @@
 	quest.6CD7D99AA102A5C3.title: "&l물류"
 	quest.6CE7115DA2B23776.quest_desc: ["약한 one...일기보다 별로 나을 건 없지만\\n\\n이것은 약한 일기보다 &3주문&r 하나를 더 담을 수 있습니다! 강력한 &3주문&r 하나를 더 준비할 수 있다는 뜻이죠!"]
 	quest.6CE7115DA2B23776.title: "철제 일지"
-	quest.6D0876A402C22067.quest_desc: ["XyCraft는 약간의 아이템 저장 및 조작 기능을 가지고 있습니다. 하지만 액체 저장 및 조작만큼 많지는 않습니다!"]
-	quest.6D0876A402C22067.title: "&6아이템 저장 및 조작"
+	quest.6D0876A402C22067.quest_desc: ["XyCraft에는 아이템 저장과 운반 기능도 있습니다. 다만 유체 저장과 운반만큼 다양하지는 않습니다!"]
+	quest.6D0876A402C22067.title: "&6아이템 저장 및 운반"
 	quest.6D09511D64DDC282.quest_desc: ["&d워든&r은 최소 3번 이상 &3스컬크 비명체&r 근처에 있는 &5스컬크 센서&r를 작동시켜 소환할 수 있습니다.\\n\\n재미있는 사실: 워든은 장님입니다! 소리를 들어야만 당신을 찾을 수 있으니, 날아다니거나 웅크리세요!\\n\\n팁: 원거리 공격이나 근접 공격을 사용하든 상관없습니다. 워든은 당신을 찾아낼 것이고, 당신을 때릴 것입니다. 너무 멀리 가면 땅속으로 파고들어 당신 옆으로 나타날 것입니다! 행운을 빌어요 :D"]
 	quest.6D09511D64DDC282.title: "&5워든 처치"
 	quest.6D0A876D4E4D35AB.quest_desc: ["크리에이티브 에센스는 &6ATM의 별&r을 제작하는 데 필요합니다."]
@@ -7127,8 +7127,8 @@
 	quest.71C552678A0F649F.quest_subtitle: "21"
 	quest.71C552678A0F649F.title: "&7오스뮴 갑옷"
 	quest.71C58666D4BC2508.quest_desc: ["부싯돌과 부시처럼 작동합니다!"]
-	quest.71D133BA3EC6F4FD.quest_desc: ["추출기는 바로 아래에 있는 블록 또는 아이템을 \"그로우\"시키고 바로 위에 있는 인벤토리로 이동시킵니다.\\n\\n이것은 여러 유형의 돌과 함께 작동하는 조약돌 발전기, 자수정 발전기, 심지어 다른 것들과 함께 드래곤 알 발전기에도 사용될 수 있습니다!"]
-	quest.71D133BA3EC6F4FD.quest_subtitle: "돌 농사! (기타)"
+	quest.71D133BA3EC6F4FD.quest_desc: ["추출기는 아래쪽의 블록이나 아이템을 ‘길러서’ 위쪽 인벤토리로 옮깁니다.\\n\\n여러 종류의 돌을 만드는 조약돌 생성기, 자수정 생성기, 심지어 드래곤 알 생성기 등으로 활용할 수 있습니다!"]
+	quest.71D133BA3EC6F4FD.quest_subtitle: "돌 농사! 그리고 그 이상"
 	quest.71E1454990DEC451.quest_desc: [
 		"&b정원메기&r는 &b작은 정원메기&r보다 크고 사나운 물고기입니다.\\n\\n전리품도 없고 양동이에 담을 수도 없습니다. 주는 것이라고는 고통뿐입니다!"
 		"{image:atm:textures/questpics/undergarden/undergarden_gwib.png width:100 height:100 align:center}"
@@ -7364,8 +7364,8 @@
 	quest.75560045ED084900.title: "몹 씨앗 만들기"
 	quest.756628F4B7F79446.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_aramber.png width:100 height:150 align:center}"]
 	quest.756628F4B7F79446.title: "&c아마램버&r"
-	quest.7574A782DCFB87CE.quest_desc: ["키위는 주로 장식과 기계를 만드는 데 한 쌍으로 사용할 수 있습니다.\\n\\n키위는 XyCraft의 기계 틀 및 기타 기계에 필요합니다. 장식용 블록을 만들기 위해 석재 절단기에서 자이코륨 젬과 함께 사용할 수 있습니다."]
-	quest.7574A782DCFB87CE.title: "&l&7키위"
+	quest.7574A782DCFB87CE.quest_desc: ["키비는 주로 장식 블록과 기계를 만드는 데 사용합니다.\\n\\nXyCraft의 기계 틀과 여러 기계를 만들려면 키비가 필요합니다. 석재 절단기에서 자이코륨 보석과 함께 사용하면 장식 블록을 만들 수 있습니다."]
+	quest.7574A782DCFB87CE.title: "&l&7키비"
 	quest.7578ED590C84EA3A.quest_desc: ["이제 뜨거운 주괴를 사용하여 프리저로 냉각시켜 사용할 수 있는 주괴로 만들어야 합니다."]
 	quest.757B14D08A9A03C4.quest_desc: ["다른 모드 기계처럼 Iron Furnaces에도 면 설정이 있습니다. 화면 왼쪽 위를 클릭하면 입력, 출력과 레드스톤 작동 방식을 설정할 수 있습니다. 레드스톤 설정은 화로가 언제 제련할지 정합니다. 위쪽 버튼은 연결된 인벤토리에서 아이템을 자동으로 가져오거나 내보낼지 정해요. 각 상자는 화로의 한 면을 나타내며 입력, 출력, 입출력, 연료 입력 또는 사용 안 함으로 지정할 수 있습니다. 파이프로 아이템을 넣고 뺄 때 중요한 설정입니다. 화로 설정 연결기를 사용하면 이 설정을 다른 화로에 그대로 복사할 수 있습니다!"]
 	quest.757B14D08A9A03C4.title: "면 설정"
@@ -8297,7 +8297,7 @@
 	task.4DFDEAD81868CEF4.title: "초콜릿 채굴 벌"
 	task.4E28970476CABACD.title: "금이 간 조명"
 	task.4E6F5A4B1FE8CB23.title: "루트민 5마리 처치"
-	task.4EEF358CAC170CC4.title: "자이코륨 젬"
+	task.4EEF358CAC170CC4.title: "자이코륨 보석"
 	task.4F13A02FB0055A62.title: "팀 생성하기"
 	task.4F6E8F2EC33DB910.title: "각성 수프레뮴 도구"
 	task.4FC90CCB41E58D5A.title: "염료 벌"
@@ -8357,7 +8357,7 @@
 	task.61E3800DF5D25567.title: "Allthemodium 비전술사 방어구"
 	task.61FFB3326113FE18.title: "오 더 바이옴스 위브 곤 나무"
 	task.6205B6B93B306A12.title: "상자"
-	task.624ADD79136376C0.title: "XyCraft 세계 아이템"
+	task.624ADD79136376C0.title: "XyCraft World 아이템"
 	task.62F11A588B293CA6.title: "모든 권리 보유"
 	task.6304FF8A9E8957FE.title: "Unobtainium 도구"
 	task.631388151555159B.title: "발신기 모듈"
@@ -8410,7 +8410,7 @@
 	task.6F475689ED4EDF59.title: "마카우 모드 아이템"
 	task.70367F545A9CB4D0.title: "침대"
 	task.7058D3373DA87B34.title: "AllRightsReserved"
-	task.706FA543A6C675D3.title: "AllRightsReserved"
+	task.706FA543A6C675D3.title: "All Rights Reserved"
 	task.70972BAFF5896EA8.title: "신비농업 곡괭이"
 	task.712552C459B5BD54.title: "Ars Nouveau 나무"
 	task.7197FBBA21C0F94A.title: "방어구"
@@ -8757,7 +8757,7 @@
 	quest.0923C941A9696122.title: "256M 휴대용 아이템 셀"
 	quest.49FDD8666356A3E7.quest_desc: ["&2폭발내성 케이싱&r이나 256M 휴대용 아이템 셀 중 하나 또는 둘 다 사용하여 &3&l불가능한 확률 장치&r를 만들 수 있습니다. \\n\\n잠깐, 하나 또는 둘 다라고 했나요? \\n\\n네, 맞습니다! &2폭발내성 케이싱&r 2개, 256M 휴대용 아이템 셀 2개 또는 두 재료를 하나씩 사용할 수 있습니다."]
 	quest.49FDD8666356A3E7.title: "&2폭발내성 케이싱&f 또는 256M 휴대용 아이템 셀"
-	quest.1EECA19DF9CF6A0C.quest_desc: ["&6XyCraft&r를 사용하면 플럭스 가루도 자동화할 수 있습니다!\\n\\n기반암 위에 충전된 레드스톤 결정 블록을 놓고, 결정 블록의 모든 면을 흑요석 4개로 둘러싼 다음 위에 추출기를 설치하세요.\\n이제 추출기 위에 저장소를 놓으면 완성입니다!"]
+	quest.1EECA19DF9CF6A0C.quest_desc: ["&6XyCraft&r를 사용하면 플럭스 가루도 자동화할 수 있습니다!\\n\\n기반암 위에 충전된 레드스톤 결정 블록을 놓고, 결정 블록의 네 옆면을 흑요석 4개로 둘러싼 다음 위에 추출기를 설치하세요.\\n마지막으로 추출기 위에 저장소를 놓으면 완성입니다!"]
 	quest.1EECA19DF9CF6A0C.title: "플럭스 가루 자동화"
 	quest.5AE851B8074BC7E6.title: "레드스톤 크리스탈 벌"
 	quest.77B6A7151B3E5980.quest_desc: ["&a광맥 채굴&r은 제한된 FTB Ultimine 기능입니다.\\n\\n광석이나 통나무를 채굴할 때, 이에 연결된 동일한 블록도 함께 깨집니다.\\n\\n많은 시간을 절약할 수 있지만... FTB Ultimine도 있습니다... 그래서요."]

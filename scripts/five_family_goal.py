@@ -512,6 +512,10 @@ TARGETS = (
     Target("rftools", "rftoolspower-", "rftoolspower", "RFTools Power"),
     Target("rftools", "rftoolsstorage-", "rftoolsstorage", "RFTools Storage"),
     Target("rftools", "rftoolsutility-", "rftoolsutility", "RFTools Utility"),
+    Target("xycraft", "xycraft_core-", "xycraft_core", "XyCraft Core"),
+    Target("xycraft", "xycraft_machines-", "xycraft_machines", "XyCraft Machines"),
+    Target("xycraft", "xycraft_world-", "xycraft_world", "XyCraft World"),
+    Target("xycraft", "xycraft_override-", "xycraft_override", "XyCraft Override"),
 )
 
 FAMILY_LABELS = {
@@ -550,6 +554,7 @@ FAMILY_LABELS = {
     "cc_tweaked": "CC: Tweaked·Advanced Peripherals·More Red",
     "super_factory_manager": "Super Factory Manager",
     "rftools": "RFTools",
+    "xycraft": "XyCraft",
 }
 
 QUEST_CHAPTERS = {
@@ -593,6 +598,7 @@ QUEST_CHAPTERS = {
     "cc_tweaked": (),
     "super_factory_manager": (),
     "rftools": (),
+    "xycraft": ("xycraft",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -733,6 +739,14 @@ QUEST_TEXT_MARKERS = {
         "rftoolsstorage",
         "rftoolsutility",
     ),
+    "xycraft": (
+        "xycraft",
+        "xycraft_core",
+        "xycraft_machines",
+        "xycraft_world",
+        "xycraft_override",
+        "xychorium",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -759,6 +773,7 @@ ALLOWED_ORIGINALS = {
     "TRUE: %s",
     "Super Factory Manager",
     "SFM",
+    "XyCraft",
     "Mekanism",
     "Mekanism: Generators",
     "Mekanism: Tools",
@@ -3949,6 +3964,12 @@ def is_allowed_original(source: str) -> bool:
 
 def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     """모드 고유 식별명처럼 키 문맥에서만 원문 유지가 필요한 값을 판정한다."""
+    if family == "xycraft" and (
+        key.startswith("itemGroup.xycraft_")
+        or key == "key.category.xycraft_core.key_binds"
+        or key == "unit.xycraft.xynergy"
+    ):
+        return True
     if family == "rftools" and (
         key.startswith("itemGroup.rftools") or key == "key.categories.rftools"
     ):

@@ -1,0 +1,14 @@
+{
+  "family": "XyCraft",
+  "chapters": {
+    "xycraft": {
+      "display_keys": 55,
+      "new_translation_required": 1,
+      "project_output_review": 54
+    },
+    "related": {
+      "display_keys": 6,
+      "project_output_review": 6
+    }
+  }
+}

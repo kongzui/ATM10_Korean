@@ -1,0 +1,14 @@
+{
+  "quest.1EECA19DF9CF6A0C.quest_desc": [
+    "&6XyCraft&r를 사용하면 플럭스 가루도 자동화할 수 있습니다!\\n\\n기반암 위에 충전된 레드스톤 결정 블록을 놓고, 결정 블록의 네 옆면을 흑요석 4개로 둘러싼 다음 위에 추출기를 설치하세요.\\n마지막으로 추출기 위에 저장소를 놓으면 완성입니다!"
+  ],
+  "quest.1EECA19DF9CF6A0C.title": "플럭스 가루 자동화",
+  "task.4B13D48FF9D2530E.title": "XyCraft 조명",
+  "task.5DEABD15EDE5736F.title": "XyCraft 유리",
+  "task.624ADD79136376C0.title": "XyCraft World 아이템",
+  "quest.40DB6E3DE87F16EF.quest_desc": [
+    "&d드래곤의 숨결&r은 강력하고, 냄새가 고약하며, 신비로운 아이템입니다. 강력하다는 건 많은 에너지를 만들 수 있다는 뜻이죠! &5구취 발전기&r는 &d드래곤의 숨결&r로 에너지를 만듭니다!",
+    "",
+    "(참고로 드래곤 머리와 XyCraft 추출기를 사용하면 &d드래곤의 숨결&r을 자동으로 얻을 수 있습니다.)"
+  ]
+}
