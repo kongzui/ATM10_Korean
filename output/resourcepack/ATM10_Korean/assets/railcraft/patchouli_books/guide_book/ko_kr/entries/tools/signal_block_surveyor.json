@@ -1,0 +1,11 @@
+{
+  "name": "신호 구간 측량기",
+  "icon": "railcraft:signal_block_surveyor",
+  "category": "railcraft:tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "신호 구간 측량기는 구간 신호기 두 개를 연결해 하나의 신호 구간을 만듭니다. 첫 신호기를 우클릭해 측량을 시작한 뒤 반대쪽 신호기로 이동해 다시 우클릭하세요. 유효한 구간이면 연결 성공 메시지가, 실패하면 이유를 알려 주는 메시지가 표시됩니다."
+    }
+  ]
+}

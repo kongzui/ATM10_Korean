@@ -1,0 +1,11 @@
+{
+  "name": "고속 가속 선로",
+  "icon": "railcraft:high_speed_booster_track",
+  "category": "railcraft:tracks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "전력이 있으면 광산 수레를 고속으로 가속하고, 전력이 없으면 일반 광산 수레 속도로 감속합니다.$(br2)고속 선로의 최대 속도에 도달하려면 이 선로나 고속 전환 선로가 필요합니다."
+    }
+  ]
+}

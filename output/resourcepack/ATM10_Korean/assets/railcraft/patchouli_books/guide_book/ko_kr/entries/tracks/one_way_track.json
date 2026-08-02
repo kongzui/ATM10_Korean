@@ -1,0 +1,11 @@
+{
+  "name": "단방향 선로",
+  "icon": "railcraft:iron_one_way_track",
+  "category": "railcraft:tracks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "전력이 없을 때는 일반 레일처럼 작동합니다. 전력이 들어오면 화살표 반대 방향으로 오는 광산 수레의 움직임을 되돌립니다. 방향을 바꾸는 과정에서 속도는 조금 줄어듭니다."
+    }
+  ]
+}

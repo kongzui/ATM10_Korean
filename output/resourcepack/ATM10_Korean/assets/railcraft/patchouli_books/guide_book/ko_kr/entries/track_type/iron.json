@@ -1,0 +1,11 @@
+{
+  "name": "철 선로",
+  "icon": "minecraft:rail",
+  "category": "railcraft:track_type",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "표준 철 선로는 바닐라 Minecraft 레일과 거의 같습니다. 표준 레일과 목재 노반으로 제작하며, 다른 Railcraft 유연 선로처럼 선로 키트를 설치할 수 있습니다."
+    }
+  ]
+}

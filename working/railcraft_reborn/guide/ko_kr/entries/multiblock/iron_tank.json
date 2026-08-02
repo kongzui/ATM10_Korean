@@ -1,0 +1,20 @@
+{
+  "name": "철 탱크",
+  "icon": "railcraft:white_iron_tank_valve",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "크레오소트유나 바이오 연료, 심지어 꿀까지 넘쳐나나요? 해결책이 있습니다!$(br2)산업 시설의 멋진 중심물이 될 철 탱크를 소개합니다!$(br2)크기는 3×3, 5×5, 7×7, 9×9의 네 종류이며 높이는 4블록부터 8블록까지 정할 수 있습니다. 원하는 크기에 맞춰 철 탱크 벽으로 틀을 만드세요."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "철 탱크",
+      "multiblock_id": "railcraft:iron_tank"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "윗면·아랫면·옆면을 탱크 벽, 게이지, 밸브를 원하는 조합으로 채우세요.$(br2)탱크를 쌓아 올릴 수도 있습니다. 두 탱크가 맞닿는 중앙에 밸브 블록을 각각 하나씩 놓으면 됩니다."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "강화 선로",
+  "icon": "railcraft:reinforced_track",
+  "category": "railcraft:track_type",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "강화 선로는 철 선로보다 다음 장점이 있습니다.$(li)폭발 저항이 45로 높아 TNT 폭발도 견딥니다.$(li)철 선로보다 25% 빠릅니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "고속 선로보다 훨씬 느리지만 훨씬 안전합니다.$(br2)다만 지지 블록이 사라지면 선로가 항상 떨어지므로 폭발 저항이 높은 블록 위에 설치하세요."
+    }
+  ]
+}

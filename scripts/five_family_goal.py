@@ -474,6 +474,12 @@ TARGETS = (
         "Extreme Reactors",
     ),
     Target("extreme_reactors", "ZeroCore2-", "zerocore", "ZeroCore"),
+    Target(
+        "railcraft_reborn",
+        "railcraft-reborn-",
+        "railcraft",
+        "Railcraft Reborn",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -508,6 +514,7 @@ FAMILY_LABELS = {
     "actually_additions": "Actually Additions",
     "oritech": "Oritech",
     "extreme_reactors": "Extreme Reactors·ZeroCore",
+    "railcraft_reborn": "Railcraft Reborn",
 }
 
 QUEST_CHAPTERS = {
@@ -547,6 +554,7 @@ QUEST_CHAPTERS = {
     "actually_additions": (),
     "oritech": ("oritech",),
     "extreme_reactors": ("extreme_reactors",),
+    "railcraft_reborn": ("railcraft",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -663,6 +671,10 @@ QUEST_TEXT_MARKERS = {
         "bigreactors",
         "zerocore",
     ),
+    "railcraft_reborn": (
+        "railcraft",
+        "rail craft",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -746,6 +758,7 @@ ALLOWED_ORIGINALS = {
     "All The Compressed",
     "AllTheCompressed",
     "Extreme Reactors",
+    "Railcraft Reborn",
     "Productive Metalworks",
     "Compact Machines",
     "Create",

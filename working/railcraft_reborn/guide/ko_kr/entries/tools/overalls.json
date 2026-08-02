@@ -1,0 +1,15 @@
+{
+  "name": "작업복",
+  "icon": "railcraft:overalls",
+  "category": "railcraft:tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "작업복 없는 철도 기술자가 완성된 모습일까요? 그럴 리 없습니다!$(br2)최고의 방어구는 아니지만 선로 위에서 납작한 동전처럼 되는 사고를 어느 정도 막아 줍니다. 정확한 원리는 몰라도 민첩성과 상황 인식을 높여 준다고 해 두죠."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "기관차에 부딪힐 때 받는 피해를 줄이고, 내구도를 소모해 전기 피해도 막아 줍니다."
+    }
+  ]
+}

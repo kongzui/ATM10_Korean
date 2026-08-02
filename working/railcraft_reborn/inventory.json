@@ -1,0 +1,73 @@
+{
+  "family": "Railcraft Reborn",
+  "installed": [
+    {
+      "label": "Railcraft Reborn",
+      "jar": "railcraft-reborn-1.21.1-1.2.10.jar",
+      "namespace": "railcraft",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 1075,
+      "bundled_korean_keys": 6,
+      "metadata_mentions_family": [
+        "railcraft"
+      ],
+      "guide_candidates": 61,
+      "guide_examples": [
+        "assets/railcraft/blockstates/logbook.json",
+        "assets/railcraft/blockstates/manual_rolling_machine.json",
+        "assets/railcraft/models/block/logbook.json",
+        "assets/railcraft/models/block/logbook_template.json",
+        "assets/railcraft/models/block/manual_rolling_machine.json",
+        "assets/railcraft/models/item/logbook.json",
+        "assets/railcraft/models/item/manual_rolling_machine.json",
+        "assets/railcraft/models/item/routing_table_book.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/categories/multiblock.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/categories/signal_boxes.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/categories/tools.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/categories/track_type.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/categories/tracks.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/blast_furnace.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/coke_oven.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/crusher.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/iron_tank.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/steam_boiler.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/steam_oven.json",
+        "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/steam_turbine.json"
+      ],
+      "advancements": 542,
+      "advancement_examples": [
+        "data/railcraft/advancement/carts/bed_cart.json",
+        "data/railcraft/advancement/carts/jukebox_cart.json",
+        "data/railcraft/advancement/carts/link_carts.json",
+        "data/railcraft/advancement/carts/locomotive.json",
+        "data/railcraft/advancement/carts/root.json",
+        "data/railcraft/advancement/carts/seasons.json",
+        "data/railcraft/advancement/carts/surprise.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_bucket.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_axe.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_boots.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_chestplate.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_crowbar.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_door.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_helmet.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_hoe.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_horse_armor.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_ingot.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_leggings.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_pickaxe.json",
+        "data/railcraft/advancement/recipes/blast_furnace/blasting_iron_shovel.json"
+      ],
+      "recipes": 1193
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
+      "dependency_mentions": [
+        "railcraft"
+      ]
+    }
+  ]
+}

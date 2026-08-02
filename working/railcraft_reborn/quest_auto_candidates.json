@@ -1,0 +1,275 @@
+{
+  "railcraft": {
+    "quest.008D186B4E0ED14F.quest_desc": [
+      "Steam Oven은 Steam을 유용한 용도로 사용하는 또 다른 기계입니다. \\n\\n증기를 스팀 오븐에 넣으면 그 안에 있는 모든 항목의 용광로 역할을 합니다. 광석으로 주괴를 만들고 음식을 요리합니다. \\n\\n스팀 오븐 블록의 2x2x2 머신입니다.",
+      "{image:atm:textures/questpics/railcraft/rail_oven.png width:100 height:100 align:center}"
+    ],
+    "quest.008D186B4E0ED14F.title": "스팀 오븐",
+    "quest.020E6AF37A0421C8.quest_desc": [
+      "물탱크는 외부에 통이 있는 것과 같습니다. 그냥 이 통이 훨씬 더 크네요. 물을 모아 증기기관차용 물을 담을 수 있습니다. \\n\\n 생성되는 물의 양은 생물 군계에 따라 다르며 하늘에서 볼 수 있습니다. \\n\\n중심이 비어 있는 3x3x3 물 탱크 블록으로 만들어졌습니다.",
+      "{image:atm:textures/questpics/railcraft/rail_tank.png width:100 height:100 align:center}"
+    ],
+    "quest.020E6AF37A0421C8.title": "수조",
+    "quest.032B654201E71618.quest_desc": [
+      "이 &c트랙 키트&r는 &7Carts&r(Mobs라고도 불리는 엔터티)와 함께 엔터티를 사용하기 위한 것입니다. \\n\\n &cE 탑승 키트&r는 근처의 모든 몹을 픽업하여 &7Cart&r에 넣습니다. \\n &c 하선 키트&r는 &7Carts&r에서 몹을 내립니다. \\n&c덤핑 키트&r는 &6트랙&r 아래의 &7Carts&r에 있는 몹을 떨어뜨립니다."
+    ],
+    "quest.032B654201E71618.title": "&c추적 키트&r 이동 개체용",
+    "quest.035C52EF63AD23A7.quest_desc": [
+      "그래서 모드 이름이, &lRailCraft&r, 그리고 그것이 무엇을 중심으로 돌아가는지, &5기차&r, &6Rails&r는 매우 중요합니다. \\n\\n &2Vanilla&r 제품은 이러한 많은 제품에서 작동하지만 우리 모두는 그것이 형편없다는 것을 알고 있습니다. 업그레이드한 경우에는 레시피에 좀 더 특별한 아이템이 필요합니다! 그것들을 만들어 보세요! (아이템을 만들기 위해 기계를 사용해야 할 수도 있으니 퀘스트의 해당 부분을 확인하세요!)"
+    ],
+    "quest.035C52EF63AD23A7.title": "&6&l레일&r!",
+    "quest.068294A7C21DE550.quest_desc": [
+      "&c트랙 키트&r는 &6rails&r로 제작하여 특별한 &6rails&r를 만드는 데 사용됩니다. \\n\\n 이 &6rails&r는 &5Train&r와 같은 모든 것에 도움이 될 것입니다: &5Train&r 중지, &5Train&r 이동, 그리고 레드스톤을 방출합니다."
+    ],
+    "quest.068294A7C21DE550.title": "&c&l트랙&r!",
+    "quest.08457BEED799E600.quest_desc": [
+      "이러한 새로운 &7Carts&r는 주로 &6Tracks&r를 배치하는 데 사용됩니다.\\n\\n&7Track Layer&r는 배치됩니다. &6추적&r 동안 &7트랙 제거기&r는 &6트랙을 제거합니다.&r.\\n\\n&7트랙 릴레이&r는 &6트랙을 대체합니다.&r 다른 것들과 &7Track UnderCutter&r는 &6Tracks&r 아래의 블록을 대체합니다."
+    ],
+    "quest.08457BEED799E600.title": "&7카트&r 및 &6트랙",
+    "quest.0A43FD0B5C76C1C5.quest_desc": [
+      "&l&7RailCraft&r는 철을 강철로 변환할 수 있는 용광로 멀티블록을 추가합니다! \\n\\n 그것을 건설하려면 34 용광로 벽돌이 필요합니다. 3 블록 너비가 됩니다., 3 블록 길이, 4 블록 높이가 높습니다. 정중앙에 있는 두 블록은 속이 비어 있어야 합니다. 모두 함께 구성되고 GUI에 액세스할 수 있게 되면 완료되었음을 알 수 있습니다. \\n\\n철을 어떤 형태로든 넣을 수 있습니다., 강철과 알갱이 모래를 얻으려면",
+      "{image:atm:textures/questpics/railcraft/rail_furnace.png width:100 height:100 align:center}"
+    ],
+    "quest.0A43FD0B5C76C1C5.title": "고로(강철)로",
+    "quest.104049993CC62E7F.quest_desc": [
+      "고급 항목 로더는 일반 항목의 모든 기능을 갖추고 있지만 &6Track&r 근처 어디에서나 사용할 수 있습니다. 옆에, ~ 위에, 반대편 옆에. 방향을 변경하려면 &4Crowbar&r를 사용하세요."
+    ],
+    "quest.104049993CC62E7F.title": "고급 아이템 로더",
+    "quest.1698565EBB68DC85.quest_desc": [
+      "&6Wye Track&r는 스파이크 몰(Spike Maul)을 사용하여 만든 두 번째 트랙입니다. 두 개의 &6Tracks&r를 하나로 연결합니다. 하나의 &6Track&r가 다른 것과 교차하는 경우 &6Wye&r는 첫 번째 &6Track&r의 &7Carts&r를 교차하는 것으로 이동합니다.",
+      "{image:atm:textures/questpics/railcraft/rail_wye.png width:100 height:100 align:center}"
+    ],
+    "quest.1698565EBB68DC85.title": "&6Wye 트랙",
+    "quest.170118E3C3C072E5.quest_desc": [
+      "&6Junction&r는 Spike Maul이 만든 마지막 &6Track&r입니다. &6Tracks의 일반 교차로 역할을 합니다. &7Carts&r는 이전과 동일한 방식으로 계속 진행하지만 이제 &6Tracks&r가 교차할 수 있습니다. 2 &7Carts&r가 서로 충돌하면 어떻게 되나요? 폭발한다!!! 농담이지만 ​​&eElectric Locomotives&r는 그럴 것입니다.",
+      "{image:atm:textures/questpics/railcraft/rail_junction.png width:100 height:100 align:center}"
+    ],
+    "quest.170118E3C3C072E5.title": "&6접합 트랙",
+    "quest.175D943160C10646.quest_desc": [
+      "&l&7RailCraft&r는 다양한 용도로 많은 시스템을 사용하지만 주로 리소스 생성을 위해 사용합니다.",
+      "",
+      "모두 철괴로 시작합니다!"
+    ],
+    "quest.175D943160C10646.title": "&l&7기계",
+    "quest.17F7964611D893BE.quest_desc": [
+      "유체 로더는 &3Steam Locomotives&r를 작동 상태로 유지하는 데 도움이 됩니다. &6Tracks&r보다 몇 블록 위에 배치해야 하며 &5Locomotive&r 또는 &7Carts&r에 유체를 배포합니다."
+    ],
+    "quest.17F7964611D893BE.title": "유체 로더",
+    "quest.184F98BE0F6710E2.quest_desc": [
+      "이 2 &c트랙 키트&r는 &7Carts&r 및 Redstone을 사용하기 위한 것입니다.\\n\\n&cActivator 키트&r는 무엇이든 활성화합니다. &7Cart&r가 그 문제를 해결합니다. \\n&c감지기 키트&r는 &7Cart&r가 지나갈 때마다 레드스톤 신호를 활성화합니다. \\n\\n 둘 다 일반 &6tracks&r에 대한 &2Vanilla&r 카운터와 유사합니다."
+    ],
+    "quest.184F98BE0F6710E2.title": "Redstone 사용을 위한 &c트랙 키트&r",
+    "quest.21693C4DE6531D73.quest_desc": [
+      "크러셔는 이름 그대로입니다. 블록을 부수어 제작 재료를 얻을 수 있습니다., 벽돌 계단의 벽돌처럼, 또는 잉곳의 먼지. \\n\\n하지만 작동하려면 전원이 필요합니다! \\n\\n하나를 만들려면 크러셔 블록의 3x2x2가 필요합니다.",
+      "{image:atm:textures/questpics/railcraft/rail_crusher.png width:100 height:100 align:center}"
+    ],
+    "quest.21693C4DE6531D73.title": "파쇄기",
+    "quest.249E5C6893387E15.quest_desc": [
+      "이러한 &cTracks&r는 &5Locomotives&r 및 &7Carts&r를 중지하기 위해 만들어졌습니다. \\n\\n&c잠금 키트&r는 &7Carts&r를 중지하고 레드스톤 펄스가 주어졌을 때만 시작합니다. \\n&c버퍼 키트&r는 &6트랙&r의 끝을 위한 것입니다., 중지하고 시작하지 않습니다. \\n&c게이트 키트&r는 &6track&r와 연결된 울타리 게이트를 배포합니다."
+    ],
+    "quest.249E5C6893387E15.title": "&c정지용 &r트랙 키트&7카트&r",
+    "quest.283AB56F81EF03A5.quest_desc": [
+      "&6E전기 레일&r 및 &eE전기 기관차&r에 전원을 공급하려면 &e프레임이 필요합니다. 프레임&r에는 전원이 공급되어야 하며 &eFrame&r에 연결된 각 프레임에 전원이 공급됩니다."
+    ],
+    "quest.283AB56F81EF03A5.title": "&e프레임",
+    "quest.2869AB982799CF0C.quest_desc": [
+      "&c편도 트랙 키트&r는 매우 간단합니다. &7Carts&r는 화살표가 향하는 방향으로만 이동할 수 있습니다."
+    ],
+    "quest.2869AB982799CF0C.title": "&c트랙 키트&r 편도",
+    "quest.2A30595DC6DDBFF7.quest_desc": [
+      "&6E전기 트랙&r는 &eE전기 기관차&r에 사용됩니다. &eFrames&r에 의해 구동되어야 하며, 만지면 다칠 것입니다.",
+      "{image:atm:textures/questpics/railcraft/rail_electric_rail.png width:150 height:100 align:center}"
+    ],
+    "quest.2A30595DC6DDBFF7.title": "&6E전기 트랙",
+    "quest.2AB0FA084739827A.quest_desc": [
+      "실제로 &9터널 보어&r를 사용하려면 &9터널 보어 헤드&r가 필요합니다. \\n\\n4 다양한 스타일로 제공되며 &9보어 헤드&r에 따라 채굴됩니다. \\n\\n인챈트도 가능하고 내구성도 있어서 인챈트하고 싶어질 거예요!"
+    ],
+    "quest.2AB0FA084739827A.title": "&9터널 보어, 보어 헤드",
+    "quest.2D00F85379A4D591.quest_desc": [
+      "아이템 로더는 RailCraft의 가장 기본적인 디스펜서입니다. 이는 &6Track&r 위에 있어야 하며 아래의 &7Carts&r에 로드하려는 항목으로 구성할 수 있습니다."
+    ],
+    "quest.2D00F85379A4D591.title": "아이템 로더",
+    "quest.31094CC16E710040.quest_desc": [
+      "&4Crowbar&r는 RailCraft의 주요 도구입니다. \\n\\n&5기관차&r에 사용하면 향하는 방향이 변경됩니다. \\n\\n Shift를 클릭하면 &5Locomotives&r 및 &7Carts&r를 연결할 수 있습니다. \\n\\n&7Carts&r에 사용하면 살짝 밀어냅니다. \\n\\n그리고 특수 트랙에서 사용하면 모드가 변경됩니다. \\n\\n 다른 &4 지렛대&r는 다른 모양과 손상을 제공합니다."
+    ],
+    "quest.31094CC16E710040.quest_subtitle": "\"뭐야, 나한테 훔칠 거야?\"",
+    "quest.365D4B1DC953D406.quest_desc": [
+      "&7Cart&r 디스펜서는 이름에서 알 수 있듯이 작동합니다. &7Carts&r를 앞에 있는 &6Tracks&r에 분배할 수 있습니다. 분배하려면 레드스톤 신호가 필요합니다."
+    ],
+    "quest.365D4B1DC953D406.title": "&7Cart&r 디스펜서",
+    "quest.38451B61E3FC075B.quest_desc": [
+      "잠깐만요, 강철이 다시 생겼다는 것은 (석탄) 콜라를 다시 얻는다는 의미이기도 합니까? 예! \\n(석탄) 콜라를 얻으려면 콜라 오븐이 필요합니다. 이를 만들려면 26 코크스 오븐 벽돌이 필요하고 3x3x3를 중앙에 1 블록과 함께 배치합니다. GUI에 액세스할 수 있고 모두 하나의 텍스처일 때 완료되었음을 알 수 있습니다. \\n\\n석탄이나 석탄 블록을 배치하여 (석탄) 콜라와 액체 크레오소트를 얻으세요! 언제든지 로그인을 하면 숯과 크레아소트를 얻을 수 있습니다.",
+      "{image:atm:textures/questpics/railcraft/rail_coke.png width:100 height:100 align:center}"
+    ],
+    "quest.38451B61E3FC075B.title": "콜라 오븐",
+    "quest.3E75AFE3482834C5.quest_desc": [
+      "&lRailCraft&r는 &5Trains&r를 기반으로 한 전체 모드입니다! \\n\\n&7광산 수레&r에서 &eE전기 기관차&r에서 &9터널 구멍&r까지! &5Train&r 액세서리도 모두 갖추고 있습니다! 교통 신호등, &5Trains&r에 전력을 공급하는 증기 보일러, 그리고 이 모든 것을 자동화합니다. \\n\\n모델 &5Train&r 연인을 위한 모델 모드!"
+    ],
+    "quest.3E75AFE3482834C5.title": "&7&lRailCraft",
+    "quest.3E8C2E7769DFBF35.quest_desc": [
+      "&3Steam Locomotive&r와 달리 &eElectric Locomotive&r에는 아무것도 넣을 필요가 없습니다. \\n\\n&6Electric Tracks&r 아래에 있는 &eFrames&r의 전원으로 작동합니다. \\n\\n예, &6Electric Tracks&r에서만 실행할 수 있습니다.",
+      "{image:atm:textures/questpics/railcraft/rail_electric.png width:100 height:100 align:center}"
+    ],
+    "quest.3E8C2E7769DFBF35.title": "&eE전기 기관차",
+    "quest.4071BBBE12CACD2D.quest_desc": [
+      "&5Train&r 디스펜서는 &7Cart&r 디스펜서의 더 나은 버전입니다. 전체 &5Locomotive&r 등을 분배할 수 있습니다! 배포하려는 패턴을 설정한 다음 레드스톤 신호를 보냅니다."
+    ],
+    "quest.4071BBBE12CACD2D.title": "기차 디스펜서",
+    "quest.425E375A9EC127EB.quest_desc": [
+      "&6강화 트랙&r는 일반 &6rails&r의 업그레이드 버전입니다! 좀 더 빠르고 폭발하지 않습니다.",
+      "{@pagebreak}",
+      "1",
+      "{image:atm:textures/questpics/railcraft/rail_reinforced1.png width:150 height:100 align:center}",
+      "{@pagebreak}",
+      "2",
+      "{image:atm:textures/questpics/railcraft/rail_reinforced2.png width:150 height:100 align:center}",
+      "{@pagebreak}",
+      "3",
+      "{image:atm:textures/questpics/railcraft/rail_reinforced3.png width:150 height:100 align:center}",
+      "{@pagebreak}",
+      "4",
+      "{image:atm:textures/questpics/railcraft/rail_reinforced4.png width:150 height:100 align:center}"
+    ],
+    "quest.425E375A9EC127EB.title": "&6강화 트랙",
+    "quest.475E307844E3AF7F.quest_desc": [
+      "물 보일러는 &l&7RailCraft&r의 가장 유용한 기계 중 일부입니다. 연료 화실과 그 위에 일종의 보일러가 필요합니다. Fueled Firebox는 1x1 2x2 또는 3x3일 수 있습니다. Firebox의 크기에 따라 상단에 있는 보일러의 크기가 달라집니다. 1x1 Firebox의 경우 1x1 보일러만 가질 수 있습니다. 2x2 Firebox의 경우 2x2x3 보일러일 수 있습니다. 3x3 Firebox의 경우 3x3x4일 수 있습니다. 액체 연료는 크레오소트를 가열하는 데 필요합니다. Solid Firebox의 경우 용광로에서 사용할 수 있는 모든 것을 사용합니다.",
+      "{image:atm:textures/questpics/railcraft/rail_big_boiler.png width:100 height:100 align:center}"
+    ],
+    "quest.475E307844E3AF7F.title": "보일러",
+    "quest.4A44623D8A307473.quest_desc": [
+      "&6고속 전기 트랙&r는 &6E전기 트랙&r와 비슷하지만 더 빠릅니다! 또한 일반 &6고속 트랙&r에 필요한 것과 &6E전기 트랙&r에 필요한 것이 필요합니다. &c속도를 높여 &r 및 &e프레임&r에 전원을 공급합니다. 이제 모퉁이 주변을 조심하고 만질 때 조심해야 합니다!",
+      "{image:atm:textures/questpics/railcraft/rail_electric_speed.png width:150 height:100 align:center}"
+    ],
+    "quest.4A44623D8A307473.title": "&6고속 전기 트랙",
+    "quest.50A286C268F38E09.quest_desc": [
+      "이 퀘스트 페이지에서 나는 플레이어가 내가 참조하는 내용을 이해할 수 있도록 돕기 위해 텍스트를 색칠하는 데 많은 시간을 들였습니다. 나만 깨닫는다면 훨씬 더 혼란스러울 수도 있다, 그래서 여기 전설이 있습니다! \\n\\n&5Purple&r는 기차 또는 기관차입니다., 그래서 전기기관차와 증기기관차, 카트를 모두 부착했습니다. \\n&6Gold&r는 모든 트랙 및 레일입니다., 특수 레일은 포함되지만 트랙 키트는 포함되지 않습니다. \\n&cLight Red&r는 모든 트랙 키트를 나타냅니다. \\n&4진한 빨간색&r는 크로바용입니다. \\n&3Cyan&r는 증기기관차 전용입니다. \\n&eYellow&r는 전기기관차 전용입니다. \\n&9Blue&r는 터널 굴착용입니다. \\n&7Grey&r는 광산 수레 및 특수 카트용입니다."
+    ],
+    "quest.50A286C268F38E09.title": "색상 범례",
+    "quest.5128B119DFFF0C4C.quest_desc": [
+      "&3증기 기관차&r는 가장 기본적인 &5Locomotive&r입니다. 물을 주면 동력을 얻을 수 있다, 용광로 연료, 그리고 기다리고 있습니다. 계속 작동하려면 지속적인 물이 필요합니다. \\n\\n 꼭대기에서 나오는 연기가 수증기라는 뜻이니 걱정하지 마세요., 이는 환경에 안전합니다. 글쎄요, 석탄 부분은 환경에 가장 좋지 않습니다... 어, &2Minecraft&r 우리가 무슨 상관이야!",
+      "{image:atm:textures/questpics/railcraft/rail_steam_locomotive.png width:100 height:100 align:center}"
+    ],
+    "quest.5128B119DFFF0C4C.title": "&3증기기관차",
+    "quest.5180CDD196518F64.quest_desc": [
+      "&6스트랩 아이언 트랙&r, &6버려진 트랙&r처럼, 싸구려 스케이트에 딱 맞습니다. 다른 &6tracks&r보다 훨씬 느리게 이동하지만 탈선 위험은 없습니다!",
+      "{image:atm:textures/questpics/railcraft/rail_strap.png width:150 height:100 align:center}"
+    ],
+    "quest.5180CDD196518F64.title": "&6스트랩 아이언 트랙",
+    "quest.53594EBA9F7BA840.quest_desc": [
+      "고급 아이템 언로더는 일반 부품과 동일하지만 어느 방향에서나 사용할 수 있습니다. 방향 외에 다른 점은 없습니다."
+    ],
+    "quest.53594EBA9F7BA840.title": "고급 아이템 언로더",
+    "quest.541D270451DA4320.quest_desc": [
+      "서로 다른 특수 &6Tracks&r 사이에서 차선을 이동하려면 스위치 트랙이 필요합니다. 화살표는 어디로 가는지 보여줍니다."
+    ],
+    "quest.54F2CB52D3A7BA87.quest_desc": [
+      "아이템 언로더는 아이템 로더와 반대입니다. &7Carts&r에서 항목을 가져옵니다. 이는 또한 &6Track&r 위에 있어야 합니다."
+    ],
+    "quest.54F2CB52D3A7BA87.title": "아이템 언로더",
+    "quest.55D7CD0FA8F1AE48.quest_desc": [
+      "우리 모두가 여기에 있는 이유, &5기차&r. 모드 이름은 &l&7RailCraft&r입니다. 놀라지 마세요. \\n\\n2에는 다른 주요 &5Trains&r 및 1 특수 채굴 &5Train&r가 있습니다. \\n\\n이 &5기차&r 자체는 약간 지루할 수 있습니다., 그렇다면 &7Carts&r를 첨부해 보는 것은 어떨까요! &7Carts&r를 &7Carts&r 및 &5Trains&r와 연결하는 것을 커플링이라고 합니다., 연결을 해제하는 것은 분리하는 것입니다. &5Trains&r 및 &7Carts&r를 연결하려면 &4Crowbar&r 또는 &6Track&r를 커플링 &cTrack과 함께 사용하세요. 키트&r."
+    ],
+    "quest.55D7CD0FA8F1AE48.title": "&7&l카트&r 'N' &5&l기차&r!",
+    "quest.5820EDEF71340A1A.quest_desc": [
+      "&6Abandoned Tracks&r는 저렴한 스케이트와 미학에 좋습니다. 지원 없이 몇 개의 블록을 연결하는 데 사용할 수 있습니다. 같은 방향으로 가는 블록으로부터 2 블록만큼 떨어져 있을 수 있습니다., 또는 반대 방향에서 한 블록. 탈선의 위험이 있지만, 기본적으로 &7Cart&r는 &6rails&r에서 떨어져 나옵니다.",
+      "{image:atm:textures/questpics/railcraft/rail_abandoned.png width:150 height:100 align:center}"
+    ],
+    "quest.5820EDEF71340A1A.title": "&6버려진 트랙",
+    "quest.5E750DB2244A67A1.quest_desc": [
+      "&6Turnout 트랙&r는 스파이크 몰(Spike Maul)로 &6track&r를 타격한 첫 번째 트랙입니다. 두 가지 방향으로 가는 데 도움이 될 수 있습니다., 앞으로 그리고 옆으로. &6track&r 옆에 있는 스위치로 전환할 수 있습니다.",
+      "{image:atm:textures/questpics/railcraft/rail_turnout.png width:100 height:100 align:center}"
+    ],
+    "quest.5E750DB2244A67A1.title": "&6투표율 트랙",
+    "quest.5F458D79D43D8842.quest_desc": [
+      "이 퀘스트는 &6AllTheMods Staff&r가 작성했습니다., 또는 AllTheMods Modpacks에 사용하기 위한 &2커뮤니티 기여자&r.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이센스가 부여됩니다., 이 퀘스트는 명시적인 내용 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다. 허가.\\n\\n이 퀘스트는 의도적으로 숨겨졌습니다., 만약 당신이 이것을 보고 있다면, 편집 모드에 있습니다."
+    ],
+    "quest.609CA1ACFA981BD5.quest_desc": [
+      "&cRouting Kit&r는 통과 티켓과 함께 사용됩니다."
+    ],
+    "quest.609CA1ACFA981BD5.title": "&c트랙 키트&r 라우팅",
+    "quest.61C93ABE07742DCD.quest_desc": [
+      "증기 터빈은 증기를 사용하여 FE 및 EU 에너지를 만듭니다. \\n\\n3x2x2 증기 터빈 하우징 전용 건물입니다., 그리고 그 안에 터빈 모터가 필요할 거예요, 그리고 스팀이 들어왔습니다.",
+      "{image:atm:textures/questpics/railcraft/rail_turbine.png width:100 height:100 align:center}"
+    ],
+    "quest.61C93ABE07742DCD.title": "증기 터빈",
+    "quest.64C105E1E2F97900.quest_desc": [
+      "스파이크 몰은 일반 &6Tracks&r에서 모드를 전환하는 데 사용됩니다. 교차로를 만드는 데 매우 도움이 됩니다!"
+    ],
+    "quest.64C105E1E2F97900.title": "'전환해 줘'",
+    "quest.677C5D35DADA4A42.quest_desc": [
+      "&c커플러&r는 &7Carts&r를 연결하거나 분리하는 데 사용됩니다. 커플링은 &7Carts&r를 연결하기 위한 문구입니다. \\n\\n&4Crowbar&r로 구성하여 결합할 수 있습니다., 분리하다, 아니면 자동 커플. 작동하려면 레드스톤이 필요합니다."
+    ],
+    "quest.677C5D35DADA4A42.title": "&c트랙 키트&r 커플러",
+    "quest.6C14D1B60124C2B2.quest_desc": [
+      "&9터널 보어&r는 특히 산이나 언덕 아래에 &6Rails&r를 자동으로 배치하는 데 적합합니다. \\n\\n작동을 시작하려면 3가 필요합니다. &9보어 헤드&r, 석탄과 같은 연료, 및 &6Rails&r. 모든 3가 확보되면 그냥 놓아두세요! \\n\\n안에 들어가는 항목을 추적하는 것을 잊지 마세요!",
+      "{image:atm:textures/questpics/railcraft/rail_tunnel.png width:100 height:100 align:center}"
+    ],
+    "quest.6C14D1B60124C2B2.title": "&9터널 보어",
+    "quest.6C163E005351FF6D.quest_desc": [
+      "&c휘슬 키트&r가 Redstone과 함께 활성화되면 &5Locomotives&r가 휘파람을 울립니다."
+    ],
+    "quest.6C163E005351FF6D.title": "&c트랙 키트&r 휘슬",
+    "quest.6DB65926EE6D6C2E.quest_desc": [
+      "이 &c트랙 키트&r는 &7Carts&r의 추진력을 변화시키기 위한 것입니다. \\n\\n&c전환 키트&r 통과 속도 변경 &5기관차&r, 레드스톤 전력이 필요합니다. \\n&c부스터 키트&r는 전원이 켜진 경우 &7Cart&r의 속도를 높이고 전원이 꺼진 경우 &7Cart&r의 속도를 낮춥니다. \\n&c제어 키트&r는 &7Carts&r를 약간 밀어줍니다., 전원을 켜면 밀어넣는 방향이 바뀌게 됩니다. \\n&c스로틀 키트&r는 지나가는 &5Locomotive&r의 속도를 구성된 속도로 변경합니다., 레드스톤으로 전원을 공급해야 합니다. \\n&c런처 키트&r는 말 그대로 &7Cart&r를 던집니다!"
+    ],
+    "quest.6DB65926EE6D6C2E.title": "&c트랙 키트&r 이동용 &7카트&r",
+    "quest.6E7C4228CD2B6BB9.quest_desc": [
+      "이 &4쇠지렛대&r에는 &5기관차&r의 외형을 바꾸는 여러 모드가 있습니다. 보관함에서 아이템에 마우스를 올리면 설명이 나오는 기본 모드, &7회색&r으로 바꾸는 없음 모드, 으스스하게 꾸미는 &6H&r&5a&r&6l&r&5l&r&6o&r&5w&r&6e&r&5e&r&6n&r 모드, 축제 분위기로 꾸미는 &cC&r&2h&r&cr&r&2i&r&cs&r&2t&r&cm&r&2a&r&cs&r 모드가 있습니다!"
+    ],
+    "quest.75DD345164EE5CD9.quest_desc": [
+      "&6고속 트랙&r는 &6강화 트랙&r와 비슷하지만 확실히 더 빠릅니다. 하지만 속도를 높이려면 &c트랙 키트&r가 필요합니다! 그리고 모퉁이에서는 조심하세요.",
+      "{image:atm:textures/questpics/railcraft/rail_speed.png width:150 height:100 align:center}"
+    ],
+    "quest.75DD345164EE5CD9.title": "&6고속 트랙",
+    "quest.78D8F40AA9568511.quest_desc": [
+      "전동 롤링 머신은 수동 롤링 머신의 훨씬 더 나은 버전입니다. \\n\\n 물건을 만들기 위해 기계를 계속 들여다볼 필요가 없으며 자동으로 모든 물건을 제작합니다. \\n\\n유일한 문제는 전원이 필요하다는 것입니다!"
+    ],
+    "quest.7D40B80DBBC4E160.quest_desc": [
+      "수동 롤링 기계는 철도 공예에 필요한 다양한 재료를 만드는 작은 제작 기계가 될 것입니다! \\n\\n레시피를 넣으면 1보다 더 많은 양을 만들 수 있게 되면 레시피를 보고 있는 동안 자동으로 제작됩니다. 제작하는 동안 롤링 머신을 떠나면 제작이 중단되고 인벤토리에 들어갑니다. \\n\\n마지막 레시피를 수동으로 빌드해야 합니다!"
+    ],
+    "quest.7F187E291C3D5BA7.quest_desc": [
+      "유체 언로더는 유체 로더와 정반대입니다. &6Track&r를 넘어서는 대신 아래에 있습니다. &3Steam Locomotives&r 물을 주는 대신 물을 사용합니다. 왜 그렇게 하고 싶은지 모르겠지만 할 수 있습니다!"
+    ],
+    "quest.7F187E291C3D5BA7.title": "유체 언로더",
+    "quest.7F4B734CFB0F0306.quest_desc": [
+      "이 새로운 &7Carts&r는 특수 &2Vanilla&r &7Carts&r와 유사합니다. 탱크&r가 장착된 &7Minecart는 그 안에 들어 있는 모든 액체를 잡고 이동합니다. 에너지 셀&r가 장착된 &7Minecart는 대신 에너지를 보유하고 이동합니다!"
+    ],
+    "quest.7F4B734CFB0F0306.title": "새로운 카트",
+    "task.025A45B704969EAE.title": "와이 트랙",
+    "task.03AE084C781CBA31.title": "트랙 키트",
+    "task.11741300813AF742.title": "모든 권리 보유",
+    "task.15BD622D04888DD8.title": "카트",
+    "task.19E2DE9D89B89D7B.title": "스파이크 몰스",
+    "task.1E77B21EA9F2E9A7.title": "연료 화실",
+    "task.2606DDF2AE263B42.title": "트랙 키트",
+    "task.2A2D77813F3127A6.title": "울타리",
+    "task.3490AE43AD653256.title": "투표율 트랙",
+    "task.382933BEE2BCBD64.title": "터널 보어 헤드",
+    "task.395D321BFFDB098A.title": "접합 트랙",
+    "task.3E8F4263F7053EDD.title": "카트",
+    "task.653ED58A9B65C796.title": "지렛대",
+    "task.6A4FADC04E1C9DA7.title": "증기 보일러 탱크",
+    "task.6C12449632AD53DC.title": "트랙 키트",
+    "task.6D074E91F5BFC2A8.title": "트랙 키트",
+    "task.7B128D5D8D5530A8.title": "착색",
+    "task.7BB13793B38DFC2C.title": "모든 권리 보유"
+  },
+  "related": {
+    "quest.228CB313BAB6406E.quest_desc": [
+      "분명히 이것은 기본적으로 레시피가 없었습니다! Mod Dev가 생존에서 &5Creative&r 기관차를 사용하는 것을 원하지 않는 것과 같습니다. \\n\\n나는 그들이 너무 OP라고 생각하지 않았으므로 &5Trains&r를 즐기십시오! \\n\\n연료나 에너지가 필요 없이 일반 &3기관차&r처럼 작동합니다! &6Rails&r만 있으면 됩니다."
+    ],
+    "quest.228CB313BAB6406E.title": "&5&l크리에이티브 &8기관차",
+    "quest.22E007025C19EC0A.quest_desc": [
+      "&l&7Railcraft&r, 기차와 함께, 장식용 돌을 추가합니다! \\n\\n채석된 돌과 심연석을 함께 제작하여 연마된 돌을 만들 수 있습니다., 조각된, 또는 브릭 버전! \\n\\n또한 계단과 석판도 잊지 마세요! "
+    ],
+    "quest.22E007025C19EC0A.title": "&l&7Railcraft&r 돌",
+    "quest.59B6C6BF0550D13D.title": "&7&lRailcraft&r 유리",
+    "quest.5F7F753FD72BFBBF.quest_desc": [
+      "&l&7Railcraft&r에 의해 더 많은 블록이 추가되었습니까? 기차에 관한 것인지조차 의심되기 시작했습니다!"
+    ],
+    "quest.5F7F753FD72BFBBF.title": "&l&7Railcraft&r 컬러 블록",
+    "task.40B245AFD0DAB3A0.title": "철도용 유리",
+    "task.50BED71A6677392E.title": "철도용 돌",
+    "task.6D2E8755BB3463FF.title": "철도용 컬러 블록"
+  }
+}

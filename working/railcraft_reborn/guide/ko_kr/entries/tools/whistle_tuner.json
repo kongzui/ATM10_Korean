@@ -1,0 +1,11 @@
+{
+  "name": "기적 조율기",
+  "icon": "railcraft:whistle_tuner",
+  "category": "railcraft:tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "기관차에 딱 맞는 기적 소리를 찾고 있나요? 이 도구를 들고 기관차를 한 번 치면 음높이를 바꿀 수 있습니다."
+    }
+  ]
+}

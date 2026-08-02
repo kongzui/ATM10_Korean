@@ -1,0 +1,13 @@
+{
+  "family": "Railcraft Reborn",
+  "chapters": {
+    "railcraft": {
+      "display_keys": 117,
+      "project_output_review": 117
+    },
+    "related": {
+      "display_keys": 10,
+      "project_output_review": 10
+    }
+  }
+}

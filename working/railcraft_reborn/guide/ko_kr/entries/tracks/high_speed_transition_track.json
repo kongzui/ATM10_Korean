@@ -1,0 +1,11 @@
+{
+  "name": "고속 전환 선로",
+  "icon": "railcraft:high_speed_transition_track",
+  "category": "railcraft:tracks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "방향이 있는 고속 전환 선로입니다. 전력이 있으면 화살표 방향의 광산 수레를 가속합니다. 반대 방향으로 오는 수레는 전력이 있으면 일반 속도까지 감속하고, 전력이 없으면 완전히 멈춥니다."
+    }
+  ]
+}

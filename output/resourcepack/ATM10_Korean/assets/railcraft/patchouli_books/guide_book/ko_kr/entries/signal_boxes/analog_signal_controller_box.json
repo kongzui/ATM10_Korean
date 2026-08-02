@@ -1,0 +1,11 @@
+{
+  "name": "아날로그 신호 제어기 박스",
+  "icon": "railcraft:analog_signal_controller_box",
+  "category": "railcraft:signal_boxes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "아날로그 신호 제어기 박스는 일반 제어기 박스와 달리 레드스톤 신호 세기에 따라 다른 신호 표시를 내보냅니다. 예를 들어 신호 세기 5에서는 녹색, 0에서는 빨간색을 내보내고 15에서는 꺼지도록 화면에서 설정할 수 있습니다."
+    }
+  ]
+}

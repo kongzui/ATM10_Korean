@@ -1,0 +1,16 @@
+{
+  "name": "물 탱크",
+  "icon": "railcraft:water_tank_siding",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "물 탱크는 철도에 물을 공급하는 수동 설비로, 주변 환경에서 물을 모아 탱크를 채웁니다. 물 400양동이를 저장해 증기 기관차나 다른 물 소비 장치를 보충할 수 있습니다. 물이 차는 속도는 생물군계, 날씨, 하늘이 보이는 실외인지에 따라 달라집니다. 사막 횡단 철도에는 적합하지 않습니다.$(br2)코크스로와 비슷하게 물 탱크 측판으로 가운데가 빈 3x3x3 구조를 만드세요."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "수조",
+      "multiblock_id": "railcraft:water_tank"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Railcraft Reborn 가이드",
+  "landing_text": "Railcraft Reborn의 사용법을 설명하는 가이드입니다.$(br2)현재 베타 버전이며 새로운 분류가 추가될 예정입니다.",
+  "version": 1,
+  "creative_tab": "railcraft:main_tab",
+  "use_resource_pack": true
+}

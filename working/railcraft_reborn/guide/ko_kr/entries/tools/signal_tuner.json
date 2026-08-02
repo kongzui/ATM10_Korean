@@ -1,0 +1,11 @@
+{
+  "name": "신호 조율기",
+  "icon": "railcraft:signal_tuner",
+  "category": "railcraft:tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 전자 주파수 스캐너는 제어기와 수신기를 연결합니다. 제어기를 우클릭한 뒤 연결할 수신기로 이동해 다시 우클릭하세요. 성공하면 화면에 메시지가 표시됩니다. 기존 연결을 지울 때도 제어기나 수신기를 우클릭해 사용할 수 있습니다."
+    }
+  ]
+}

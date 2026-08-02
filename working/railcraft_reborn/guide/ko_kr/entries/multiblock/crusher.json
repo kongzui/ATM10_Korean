@@ -1,0 +1,16 @@
+{
+  "name": "암석 분쇄기",
+  "icon": "railcraft:crusher",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "암석 분쇄기는 여러 재료를 가공하는 3x2x2 구조입니다. 강철 블록·피스톤·다이아몬드로 만든 특수 블록 12개로 건설합니다. 재료로 환산하면 강철 블록 3개, 피스톤 12개, 다이아몬드 12개가 필요합니다. 암석 분쇄기끼리는 붙여 지을 수 없으며 사이를 최소 한 블록 띄워야 합니다."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "암석 분쇄기",
+      "multiblock_id": "railcraft:crusher"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "고속 선로",
+  "icon": "railcraft:high_speed_track",
+  "category": "railcraft:track_type",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "고속 선로는 일반 선로와 조금 다릅니다. 광산 수레가 평소보다 2.5배 빠르게 달릴 수 있지만 직선 구간에서만 안전합니다. 이 속도는 설정에서 바꿀 수 있습니다. 속도를 먼저 줄이지 않고 선로를 벗어나거나 충돌하면 폭발합니다. 자세한 내용은 관련 항목을 확인하세요."
+    }
+  ]
+}

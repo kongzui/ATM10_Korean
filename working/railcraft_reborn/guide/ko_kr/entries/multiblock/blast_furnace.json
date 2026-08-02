@@ -1,0 +1,16 @@
+{
+  "name": "용광로",
+  "icon": "railcraft:blast_furnace_bricks",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "용광로는 가운데가 비어 있는 3x3x4 벽돌 구조로, 철 주괴를 강철 주괴로 바꿉니다.$(br2)네더 벽돌·영혼 모래·마그마 크림으로 만든 특수 벽돌 34개가 필요합니다. 재료로 환산하면 네더 벽돌 36개, 영혼 모래 36개, 마그마 크림 9개로 용광로 하나를 만들 수 있습니다. 용광로끼리는 붙여 지을 수 없으며 사이를 최소 한 블록 띄워야 합니다."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "용광로",
+      "multiblock_id": "railcraft:blast_furnace"
+    }
+  ]
+}

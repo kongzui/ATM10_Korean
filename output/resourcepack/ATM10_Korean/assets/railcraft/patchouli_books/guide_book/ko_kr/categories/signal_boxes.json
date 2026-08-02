@@ -1,0 +1,5 @@
+{
+  "name": "신호 박스",
+  "description": "신호 시스템을 제어하고 연동하는 여러 신호 박스를 설명합니다.",
+  "icon": "railcraft:signal_controller_box"
+}

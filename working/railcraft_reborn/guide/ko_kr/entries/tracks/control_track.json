@@ -1,0 +1,11 @@
+{
+  "name": "제어 선로",
+  "icon": "railcraft:iron_control_track",
+  "category": "railcraft:tracks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "제어 선로는 한 방향으로만 광산 수레를 약하게 가속하고 반대 방향의 수레는 서서히 감속합니다. 전력을 공급하면 방향이 반대로 바뀝니다. 제작 비용이 낮고 양쪽으로 열여섯 블록까지 전력을 전달합니다. 기본 방향은 쇠지렛대로 바꿀 수 있습니다."
+    }
+  ]
+}
