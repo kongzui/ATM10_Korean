@@ -1,0 +1,12 @@
+광석
+땅을 파요
+<&alu>§l보크사이트 광석§r은 월드의 <config;i;ores.bauxite.min_y>~<config;i;ores.bauxite.max_y> 높이에서 찾을 수 있으며, 채굴하려면 돌 이상의 곡괭이나 공구가 필요합니다.<br>
+보크사이트 원석을 제련하면 고전압 설비의 핵심 재료인 알루미늄 주괴가 됩니다.
+<&lead>§l납 광석§r은 월드의 <config;i;ores.lead.min_y>~<config;i;ores.lead.max_y> 높이에서 찾을 수 있으며, 채굴하려면 철 이상의 곡괭이나 공구가 필요합니다.<br>
+납 원석을 제련하면 초기 축전기, 탄환, 산업용 염료에 쓰이는 납 주괴가 됩니다.
+<&silver>§l은 광석§r은 월드의 <config;i;ores.silver.min_y>~<config;i;ores.silver.max_y> 높이에서 찾을 수 있으며, 채굴하려면 철 이상의 곡괭이나 공구가 필요합니다.<br>
+은 원석을 제련하면 은 주괴가 됩니다. 거울에 쓰거나 금과 합금하여 훨씬 좋은 전도체인 일렉트럼을 만들 수 있습니다.
+<&nickel>§l니켈 광석§r은 월드의 <config;i;ores.nickel.min_y>~<config;i;ores.nickel.max_y> 높이에서 찾을 수 있으며, <config;i;ores.deep_nickel.max_y> 아래에서 더 많이 나옵니다. 채굴하려면 철 이상의 곡괭이나 공구가 필요합니다.<br>
+니켈 원석을 제련하면 니켈 주괴가 됩니다. 축전기에 쓰거나 구리와 합금해 <link;thermoelectric_generator;열전 발전기;start>에 사용하는 콘스탄탄을 만들 수 있습니다.
+<&uranium>§l우라늄 광석§r은 월드의 <config;i;ores.uranium.min_y>~<config;i;ores.uranium.max_y> 높이에서 찾을 수 있으며, 채굴하려면 철 이상의 곡괭이나 공구가 필요합니다.<br>
+우라늄 원석을 제련하면 우라늄 주괴가 되지만 이 금속의 용도는 많지 않습니다. 우라늄 블록은 <link;thermoelectric_generator;열전 발전기;start>의 열원으로 쓸 수 있으며, 앞으로의 연구에도 활용될 것입니다.

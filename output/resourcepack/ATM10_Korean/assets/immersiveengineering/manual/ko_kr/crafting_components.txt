@@ -1,0 +1,17 @@
+제작 부품
+빠질 수 없는 부품
+많은 기계와 공구는 여러 하위 부품으로 구성됩니다. 자주 사용하게 될 부품을 다음 페이지에서 자세히 설명합니다.<br>
+간단한 부품은 일반 §2제작대§r에서 만들 수 있지만, 고급 부품에는 <link;engineers_workbench;전용 작업대>가 필요합니다.<np>
+<&basic_engineering>§2기본 공학 블록§r은 아주 다양한 기계의 주된 건축 자재입니다. 특히 운송과 전력 저장 장치를 비롯한 대부분의 단일 블록 기계에서 핵심 뼈대를 이룹니다.
+<&mech_components>§2철 기계 부품§r과 §2강철 기계 부품§r은 크고 작은 기계 대부분에 꼭 필요합니다.<br>
+이 부품을 자주 만들게 된다면 <link;blueprints;설계도>를 마련해 두는 것이 좋습니다.<np>
+<&component_blueprint>
+설계도를 만드는 방법은 <link;blueprints;여기;molds_components>에서 확인할 수 있습니다.<br>
+이 설계도를 <link;engineers_workbench;공학자의 작업대>에서 사용하면 간단한 부품을 더 적은 재료로 만들 수 있습니다.<br>
+다음 페이지에서 설명할 고급 부품에는 반드시 설계도가 필요합니다.<np>
+<&elec_components>§2전자 부품§r은 기계 부품보다 복잡하고 사용 빈도도 낮습니다. 하지만 <link;item_batcher;아이템 배치 처리기>나 <link;turrets;포탑>처럼 정밀한 제어가 필요한 장치에 꼭 필요합니다.<np>
+<&light_bulbs>§2백열전구§r는 탄화한 대나무 또는 종이 필라멘트로 만들며, 전력이 공급되면 빛과 열을 냅니다. 주로 <link;engineered_lighting;랜턴;electric_lantern>을 만드는 데 사용합니다.<np>
+<&tubes>자주 쓰이지는 않지만 §2진공관§r도 중요한 부품입니다. 값비싼 이 재료는 <link;engineers_circuit_workbench;논리 회로>와 복잡한 전자 기계에 쓰입니다.<np>
+<&pcb>§2회로 백플레인§r은 절연된 구리 기판입니다. 여러 부품을 납땜하여 <link;engineers_circuit_workbench;논리 회로>를 만들 수 있습니다.
+
+

@@ -1,0 +1,9 @@
+코크스와 흑연
+석탄 재료
+<&coke>석탄 코크스는 숯과 유사한 정제된 형태의 탄소입니다. 코크스는 <link;coke_oven;코크스로>.<br>의 석탄에서 생성됩니다.
+<link;crude_blast_furnace;가장 단순한>부터 <link;arc_furnace;가장 고급인 기계>까지 모든 형태의 제강에 사용되며 석탄보다 더 나은 용광로 연료입니다.
+<&graphite>고순도 열분해(HOP) 흑연은 특수 공학 구조에 사용되는 흑연의 복잡한 동소체입니다.<br>
+HOP 흑연 가루는 <link;squeezer;압착기>에 있는 8개의 코크스 가루를 압축하여 생성됩니다.
+그 가루는 다음 페이지에 표시된 대로 <link;bottling_machine;병입기>에서 다른 모양으로 형성될 수 있습니다.
+<&shaping><link;accumulators;HV 축전기>를 조립하는 데 흑연판이 사용되는 동안 먼지는 <link;arc_furnace;아크로>를 작동하는 데 필수적인 전극으로 성형될 수도 있습니다.<br>
+둘 다 먼지를 포장하는 병입기의 컨베이어에 먼지와 일치하는 금형을 놓고 <link;industrial_fluids;크레오소트유;creosote_oil>로 포화시켜 모양을 만들어서 만들어집니다.

@@ -1,0 +1,30 @@
+{
+  "quest.360B150190A5C894.quest_desc": [
+    "One thing that bugs many Modded Players is that &5Enchanting&r can't be completely automated! And you can't choose which &5Enchants&r you want, you have to get Lucky! \\n\\nWell don't worry both those wishes have been fulfilled! With the &5&lRunic Enchanter&r. \\n\\nTo use it, you won't have to touch the &5Enchanting Table&r, just pipe in the right Items, &dSource&r, and &aXP Fluid&r. \\n\\n&aXP Fluid&r will need to be obtained by bottling some form of &aLiquid XP&r with the Bottling Machine from &8&lImmersive Engineering&r, then processing it through &7&lExtended Industrialization&r Canning Machine. \\n\\nYou'll need to make &dInfused Dragon's Breath&r and &5Mending Books&r to remake the &6&lATM Star&r!",
+    "{@pagebreak}",
+    "(&bLight Blue Carpet&r is &bSoul-Touched Deepshelf&r",
+    "&5Purple Carpet&r is &5Echoing Sculkshelf&r",
+    "&9Blue Carpet&r is &9Soul-Touched Sculkshelf&r)",
+    "{image:atm:textures/questpics/chap3/creative_enchanter1.png width:125 height:100 align:center}",
+    "The base of the &5&lRunic Enchanter&r is full of practically everything! It has &9Darkstone&r galore, Bookshelves, &7Rune Blocks&r, and &bArcane Crystal Blocks&r!",
+    "{image:atm:textures/questpics/chap3/creative_enchanter2.png width:125 height:100 align:center}",
+    "We will continue in a similar way, just replace our &7Rune Blocks&r and &bArcane Crystal Blocks&r with &6Gilded Chiseled Polished Darkstone&r and &6Darkstone Pillars&r. Yeah those new looking funny squares are the tops of &6Darkstone Pillars&r!",
+    "{image:atm:textures/questpics/chap3/creative_enchanter3.png width:125 height:100 align:center}",
+    "Don't worry it is getting easier! Keep a few more Bookshelves as well as adding &6Darkstone Pedestals&r and an &5Enchanting Table&r.",
+    "{image:atm:textures/questpics/chap3/creative_enchanter4.png width:125 height:100 align:center}",
+    "Heck this one is even easier! Just 4 &bSoul Lanterns&r on top of the last Bookshelves.",
+    "{image:atm:textures/questpics/chap3/creative_enchanter5.png width:125 height:100 align:center}",
+    "Okay this one is too easier! Just place a &7Quantum Injector&r a Block above the &5Enchanting Table&r.",
+    "{image:atm:textures/questpics/chap3/creative_enchanter6.png width:150 height:150 align:center}",
+    "{image:atm:textures/questpics/chap3/creative_enchanter7.png width:150 height:150 align:center}",
+    "Probably should have told you earlier but the Hatches go in the Bottom of the &5&lRunic Enchanter&r... sorry!"
+  ],
+  "quest.5EC1B868720BF521.quest_desc": [
+    "&8&lImmersive Engineering&r is all about Multiblock Machines, fun Tools, and of course engineering. \\n\\nDon't worry you won't need 4 years of college for this! But a Manual might help you get started."
+  ],
+  "quest.5EC1B868720BF521.title": "&8&lImmersive Engineering",
+  "quest.616F9B78B16B42A5.quest_desc": [
+    "The recipe for the &6Tesla Coil&r might seem complicated, especially in a recipe tree, but we can break it down to be simpler!\\n\\nThe &7Aluminum Plates&r are very simple, just needing to use a Hammer on Ingots or the Metal Press Multiblock.\\n\\nThe &8Iron Mechanical Component&r is simple as well, just a few Iron Plates and a &6Copper Ingot&r.\\n\\n&eElectrum Coil Block&r will need a bunch of &eElectrum Ingots&r cut up into Wires. &eElectrum&r is an alloy of &eGold&r and Silver.\\n\\nThe &6Advanced Electronic Component&r is a whole array of using the Engineers Workbench and &9Blueprints&r. It's Duroplast Sheet requires a lot of refining and fermenting with Multiblock Machines!\\n\\nThe last item, the &cHV Accumulator&r needs some simple Items like &8Steel&r, &7Aluminum Plate&r, &cRedstone Acid&r, and &4Treated Wood&r. It also needs a more complicated Item called &8HOP Graphite Ingot&r."
+  ],
+  "quest.616F9B78B16B42A5.title": "&6Tesla Coil"
+}

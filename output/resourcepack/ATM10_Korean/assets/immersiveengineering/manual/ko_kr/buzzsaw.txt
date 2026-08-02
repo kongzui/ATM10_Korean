@@ -1,0 +1,10 @@
+원형톱
+레이븐홈에는 가지 않아요
+<&recipes>이 대형 휴대용 원형톱은 깔끔한 공장을 가로막는 나무와 식물을 빠르게 치우도록 설계되었습니다.<br>
+<link;engineers_workbench;공학자의 작업대;start>에서 톱날을 장착하고 <link;industrial_fluids;바이오디젤;biodiesel>이나 다른 연료를 채우면 작은 자작나무부터 거대한 정글 나무까지 잘라낼 수 있습니다.<br>
+다른 여러 공구처럼 원형톱도 <link;engineers_workbench;공학자의 작업대>에서 개조할 수 있습니다. 업그레이드는 내부 탱크 크기, 보관할 수 있는 톱날 수, 톱날 내구도에 영향을 줍니다.<np>
+<&rockcutter_recipe>일반 톱날을 §2암석 절단 날§r로 바꾸면 §2섬세한 손길§r 마법 부여처럼 땅에서 돌을 온전한 블록으로 잘라낼 수 있습니다. 다만 끝에 다이아몬드를 붙인 이 날은 나무를 자르거나 벌목하는 데에는 쓸 수 없습니다.<np>
+<&grinding_recipe>§2연마 원반§r은 미세한 알루미늄 연마재를 <link;resin_and_duroplast;페놀 수지>에 굳혀 만듭니다. 내구도는 낮지만 금속 블록을 빠르게 자르는 데 탁월하며, 다른 재료에서는 쉽게 부서집니다. 또한 §2도끼§r처럼 구리 블록의 산화막이나 밀랍을 긁어내고 원목의 껍질을 벗길 수 있습니다.<np>
+<&tank_recipe>§2대형 탱크§r는 원형톱의 유체 용량을 2000 mb 늘립니다.<np>
+<&lube_recipe>§2고급 윤활 시스템§r은 톱날에 윤활유를 추가하여 내구도가 줄어드는 속도를 늦춥니다.<np>
+<&quiver_recipe>원형톱 옆면에 §2톱날 보관함§r을 부착하면 톱날 2개를 추가로 가지고 다닐 수 있습니다. <config;b;tools.chemthrower.scroll;몸을 숙인 채 스크롤하거나;사용하여> 설정에서 지정한 §l<keybind;key.immersiveengineering.chemthrowerSwitch>§r 키로 보관된 톱날을 전환할 수 있습니다.

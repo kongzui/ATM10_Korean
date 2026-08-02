@@ -416,6 +416,12 @@ TARGETS = (
         "industrialization_overdrive",
         "Industrialization Overdrive",
     ),
+    Target(
+        "immersive_engineering",
+        "ImmersiveEngineering-",
+        "immersiveengineering",
+        "Immersive Engineering",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -443,6 +449,7 @@ FAMILY_LABELS = {
     "compact_machines": "Compact Machines",
     "create": "Create",
     "modern_industrialization": "Modern Industrialization",
+    "immersive_engineering": "Immersive Engineering",
 }
 
 QUEST_CHAPTERS = {
@@ -475,6 +482,7 @@ QUEST_CHAPTERS = {
         "mi_digital",
         "mi_endgame",
     ),
+    "immersive_engineering": ("immersive_engineering",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -562,6 +570,10 @@ QUEST_TEXT_MARKERS = {
         "industrialization overdrive",
         "industrialization_overdrive",
     ),
+    "immersive_engineering": (
+        "immersive engineering",
+        "immersiveengineering",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -569,6 +581,13 @@ EXTRA_SCOPE = {
         {
             "label": "Ars Polymorphia",
             "jar_prefix": "ars_polymorphia-",
+            "expected": True,
+        },
+    ),
+    "immersive_engineering": (
+        {
+            "label": "Immersive Energistics",
+            "jar_prefix": "Immersive-Energistics-",
             "expected": True,
         },
     ),
@@ -651,6 +670,7 @@ ALLOWED_ORIGINALS = {
     "Modern Industrialization",
     "Extended Industrialization",
     "Industrialization Overdrive",
+    "Immersive Engineering",
     "ME Wire",
     "Vajra",
     "Alt",
@@ -3717,6 +3737,21 @@ def is_allowed_original(source: str) -> bool:
     )
 
 
+def is_family_allowed_original(family: str, key: str, source: str) -> bool:
+    """모드 고유 식별명처럼 키 문맥에서만 원문 유지가 필요한 값을 판정한다."""
+    if family == "immersive_engineering" and (
+        key.startswith("item.immersiveengineering.shader.name.")
+        or key
+        in {
+            "desc.immersiveengineering.flavour.fluidStack",
+            "gui.immersiveengineering.config.radio_tower.khz",
+            "item.immersiveengineering.revolver.einhorn",
+        }
+    ):
+        return True
+    return is_allowed_original(source)
+
+
 def verify_language(
     instance: Path, family: str
 ) -> tuple[list[dict[str, object]], list[str]]:
@@ -3759,7 +3794,7 @@ def verify_language(
                 isinstance(source, str)
                 and isinstance(target_value, str)
                 and source == target_value
-                and not is_allowed_original(source)
+                and not is_family_allowed_original(family, key, source)
             ):
                 untranslated.append(key)
         collisions = []
@@ -3870,8 +3905,8 @@ def verify_language(
         provenance = Counter()
         for key, target_value in korean.items():
             source_value = english[key]
-            reusable = target_value != source_value or is_allowed_original(
-                str(target_value)
+            reusable = target_value != source_value or is_family_allowed_original(
+                family, key, str(target_value)
             )
             if key in bundled and target_value == bundled[key] and reusable:
                 provenance["bundled_exact_reuse"] += 1

@@ -1,0 +1,13 @@
+수지와 듀로플라스트
+환상적인 플라스틱!
+<&resin><link;industrial_fluids;페놀 수지;resin_acetaldehyde>는 플라스틱 제품을 만드는 첫 단계입니다.<br>
+이 수지를 만들려면 먼저 §2은 판§r을 촉매로 사용해 <link;industrial_fluids;에탄올;plant_oil_ethanol>을 산화하여 전구체인 <link;industrial_fluids;아세트알데히드;resin_acetaldehyde>를 만들어야 합니다.<br>
+그런 다음 이 전구체를 <link;industrial_fluids;크레오소트유;creosote_oil>와 혼합합니다. 두 공정 모두 <link;refinery;§o§n정유기§r>에서 이루어집니다.<np>
+<&duroplast>
+듀로플라스트는 <link;resin_and_duroplast;페놀 수지;resin>로 만든 합성 플라스틱입니다. 이 놀라운 신소재는 단단하고 불에 타지 않으며 전기가 통하지 않아 전기 공학용 절연체로 매우 적합합니다.<br>
+플라스틱 수지는 성형하기 쉬워 판이나 블록 등 여러 형태로 만들 수도 있습니다.<np>
+<&duroplast_sheet>병입기에서 <link;metal_press;주형;mold_recipes>에 수지를 채워 듀로플라스트 아이템을 만듭니다. <link;bottling_machine;§o§n병입기§r>는 주형 안에 충분한 열과 압력을 가해 수지를 굳힐 수 있습니다.<br>
+완성된 판은 <link;crafting_components;고급 전자 부품;elec_components>과 <link;crafting_components;회로 백플레인;pcb>을 만드는 데 절연체로 쓰입니다.<np>
+<&duroplast_block>듀로플라스트 블록은 색상이 모두의 취향에 맞지는 않더라도 건축과 장식에 사용할 수 있습니다. 더 중요한 점은 <link;basic_wiring;전선 연결기와 릴레이;connector_recipes>를 만들 때 §2테라코타§r 대신 쓸 수 있어 필요한 점토의 양을 줄인다는 것입니다!<np>
+<&fiberboard>섬유판은 압축한 <link;sawmill;톱밥;sawdust>을 수지와 섞어 만든 조밀한 블록입니다. 나무와 같은 성질을 지녀 대부분의 제작법에서 판자 대신 사용할 수 있습니다. 버려질 부산물을 재활용하는 훌륭한 방법입니다!
+<&empty_shell>수지를 사용해 <link;revolver_cartridges;리볼버 탄약통;empty>용 빈 포탄도 만들 수 있어 더 저렴하고 손쉽게 대량 생산할 수 있습니다.

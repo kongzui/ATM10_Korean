@@ -1,0 +1,15 @@
+{
+  "keys": 1952,
+  "changed": 0,
+  "newly_translated_or_allowed": 956,
+  "unresolved": 7,
+  "unresolved_examples": [
+    "advancement.immersiveengineering.main_root",
+    "advancement.immersiveengineering.secret_achtung.desc",
+    "desc.immersiveengineering.flavour.fluidStack",
+    "desc.immersiveengineering.info.operator.imply",
+    "desc.immersiveengineering.info.operator.nimply",
+    "gui.immersiveengineering.config.radio_tower.khz",
+    "gui.immersiveengineering.config.radio_tower.range_m"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "family": "Immersive Engineering",
+  "chapters": {
+    "immersive_engineering": {
+      "display_keys": 245,
+      "new_translation_required": 18,
+      "project_output_review": 227
+    },
+    "related": {
+      "display_keys": 5,
+      "project_output_review": 5
+    }
+  }
+}

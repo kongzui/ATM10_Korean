@@ -1,0 +1,88 @@
+{
+  "family": "Immersive Engineering",
+  "installed": [
+    {
+      "label": "Immersive Engineering",
+      "jar": "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "namespace": "immersiveengineering",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 1952,
+      "bundled_korean_keys": 1235,
+      "metadata_mentions_family": [
+        "immersiveengineering"
+      ],
+      "guide_candidates": 121,
+      "guide_examples": [
+        "assets/immersiveengineering/manual/accumulator_backpack.json",
+        "assets/immersiveengineering/manual/accumulators.json",
+        "assets/immersiveengineering/manual/alloy_kiln.json",
+        "assets/immersiveengineering/manual/arc_furnace.json",
+        "assets/immersiveengineering/manual/assembler.json",
+        "assets/immersiveengineering/manual/autoload.json",
+        "assets/immersiveengineering/manual/automated_engineers_workbench.json",
+        "assets/immersiveengineering/manual/automaton_wolves.json",
+        "assets/immersiveengineering/manual/balloon.json",
+        "assets/immersiveengineering/manual/basic_metal_products.json",
+        "assets/immersiveengineering/manual/basic_tools.json",
+        "assets/immersiveengineering/manual/basic_wiring.json",
+        "assets/immersiveengineering/manual/blueprints.json",
+        "assets/immersiveengineering/manual/bottling_machine.json",
+        "assets/immersiveengineering/manual/buzzsaw.json",
+        "assets/immersiveengineering/manual/catwalks.json",
+        "assets/immersiveengineering/manual/charging_station.json",
+        "assets/immersiveengineering/manual/chemical_thrower.json",
+        "assets/immersiveengineering/manual/chutes.json",
+        "assets/immersiveengineering/manual/circuit_breakers.json"
+      ],
+      "advancements": 734,
+      "advancement_examples": [
+        "data/immersiveengineering/advancement/main/buy_oremap.json",
+        "data/immersiveengineering/advancement/main/buy_shaderbag.json",
+        "data/immersiveengineering/advancement/main/chorus_cloche.json",
+        "data/immersiveengineering/advancement/main/chute_bonk.json",
+        "data/immersiveengineering/advancement/main/connect_wire.json",
+        "data/immersiveengineering/advancement/main/craft_batcher.json",
+        "data/immersiveengineering/advancement/main/craft_drop_conveyor.json",
+        "data/immersiveengineering/advancement/main/craft_extract_conveyor.json",
+        "data/immersiveengineering/advancement/main/craft_hammer.json",
+        "data/immersiveengineering/advancement/main/craft_heater.json",
+        "data/immersiveengineering/advancement/main/craft_pump.json",
+        "data/immersiveengineering/advancement/main/craft_router.json",
+        "data/immersiveengineering/advancement/main/craft_treatedwood.json",
+        "data/immersiveengineering/advancement/main/craft_workbench.json",
+        "data/immersiveengineering/advancement/main/creosote.json",
+        "data/immersiveengineering/advancement/main/kill_illager.json",
+        "data/immersiveengineering/advancement/main/main_root.json",
+        "data/immersiveengineering/advancement/main/make_steel.json",
+        "data/immersiveengineering/advancement/main/mb_blastfurnace.json",
+        "data/immersiveengineering/advancement/main/mb_cokeoven.json"
+      ],
+      "recipes": 1934
+    }
+  ],
+  "extra_scope": [
+    {
+      "label": "Immersive Energistics",
+      "installed": true,
+      "jars": [
+        "Immersive-Energistics-1.1.0-beta.jar"
+      ],
+      "language_target": false
+    }
+  ],
+  "other_dependency_mentions": [
+    {
+      "jar": "Immersive-Energistics-1.1.0-beta.jar",
+      "dependency_mentions": [
+        "immersiveengineering"
+      ]
+    },
+    {
+      "jar": "occultism-1.21.1-neoforge-1.223.0.jar",
+      "dependency_mentions": [
+        "immersiveengineering"
+      ]
+    }
+  ]
+}
