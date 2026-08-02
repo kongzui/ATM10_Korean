@@ -1,0 +1,67 @@
+{
+  "family": "Modern Industrialization",
+  "status": "complete",
+  "language": {
+    "namespaces": 3,
+    "base_keys": 2125,
+    "kubejs_extra_keys": 24,
+    "output_keys": 2149,
+    "machine_translation_candidates_reviewed": 1243,
+    "bundled_exact_reuse": 996,
+    "bundled_candidates_corrected": 247,
+    "newly_translated": 906,
+    "untranslated": 0
+  },
+  "ftbquests": {
+    "dedicated_chapters": 4,
+    "related_groups": 1,
+    "quests_checked": 171,
+    "tasks_checked": 258,
+    "source_display_keys": 217,
+    "fallback_titles_added": 5,
+    "project_output_reviewed": 29,
+    "newly_translated": 188,
+    "custom_names_translated": 28,
+    "untranslated": 0
+  },
+  "guides": {
+    "pages": 39,
+    "bundled_candidates_reviewed": 36,
+    "new_pages": 3,
+    "untranslated": 0
+  },
+  "kubejs": {
+    "reference_files_checked": 24,
+    "direct_visible_names_translated": 3,
+    "language_extra_keys": 24
+  },
+  "other_surfaces": {
+    "advancements_checked": 71,
+    "advancement_direct_literals": 0,
+    "recipes_checked": 3223,
+    "recipe_direct_literals": 0
+  },
+  "validation": {
+    "specialized_language": "complete",
+    "ftbquests": "complete",
+    "guides": "complete",
+    "data_audit": "complete",
+    "family": "complete",
+    "ruff": "complete",
+    "python_compile": "complete",
+    "syntax_and_format_errors": 0,
+    "unexpected_instance_changes": 0,
+    "jar_changes": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "selected_files": 47,
+    "changed_files": 46,
+    "hash_mismatches": 0,
+    "backup_manifests": [
+      "temp/backups/20260802_155452_701968/backup_manifest.json",
+      "temp/backups/20260802_155719_025473/backup_manifest.json"
+    ]
+  }
+}

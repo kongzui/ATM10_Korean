@@ -1,0 +1,21 @@
+{
+  "namespaces": [
+    {
+      "namespace": "modern_industrialization",
+      "keys": 1767,
+      "untranslated": 0
+    },
+    {
+      "namespace": "extended_industrialization",
+      "keys": 328,
+      "untranslated": 0
+    },
+    {
+      "namespace": "industrialization_overdrive",
+      "keys": 30,
+      "untranslated": 0
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

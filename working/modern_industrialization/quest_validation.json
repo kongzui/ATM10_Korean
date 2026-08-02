@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "group": "mi_steam",
+      "keys": 39,
+      "untranslated": 0
+    },
+    {
+      "group": "mi_electric",
+      "keys": 73,
+      "untranslated": 0
+    },
+    {
+      "group": "mi_digital",
+      "keys": 60,
+      "untranslated": 0
+    },
+    {
+      "group": "mi_endgame",
+      "keys": 11,
+      "untranslated": 0
+    },
+    {
+      "group": "related",
+      "keys": 34,
+      "untranslated": 0
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

@@ -138,17 +138,17 @@ global.iceAndFirePearls = (/** @type {$ServerLevel_}} */ level, /** @type {$Play
 StartupEvents.registry('fluid', allthemods => {
     allthemods.create('liquid_souls', 'thin')
         .tint(0xc9eaff)
-        .displayName('Liquid Souls')
+        .displayName('액체 영혼')
         .noBlock()
 
     allthemods.create('unrefined_liquid_souls', 'thin')
         .tint(0xccebff)
-        .displayName('Unrefined Liquid Souls')
+        .displayName('정제되지 않은 액체 영혼')
         .noBlock()
 
     allthemods.create('liquid_aureal', 'thin')
         .tint(0x7abaff)
-        .displayName('Liquid Aureal')
+        .displayName('액체 Aureal')
         .noBlock()
 })
 

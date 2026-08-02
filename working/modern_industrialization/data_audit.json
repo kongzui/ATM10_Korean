@@ -1,0 +1,250 @@
+{
+  "jars": [
+    {
+      "namespace": "modern_industrialization",
+      "jar": "Modern-Industrialization-2.4.3.jar",
+      "advancements_checked": 71,
+      "advancement_direct_literals": [],
+      "recipes_checked": 2990,
+      "recipe_direct_literals": []
+    },
+    {
+      "namespace": "extended_industrialization",
+      "jar": "extended-industrialization-1.15.42-1.21.1.jar",
+      "advancements_checked": 0,
+      "advancement_direct_literals": [],
+      "recipes_checked": 225,
+      "recipe_direct_literals": []
+    },
+    {
+      "namespace": "industrialization_overdrive",
+      "jar": "industrialization_overdrive-1.11.2+1.21.1.jar",
+      "advancements_checked": 0,
+      "advancement_direct_literals": [],
+      "recipes_checked": 8,
+      "recipe_direct_literals": []
+    }
+  ],
+  "kubejs_reference_files_checked": 24,
+  "kubejs_reference_files": [
+    "client_scripts/RecipeViewer.js",
+    "server_scripts/Tweaks/tags.js",
+    "server_scripts/Unification/coke.js",
+    "server_scripts/Unification/creosote.js",
+    "server_scripts/Unification/crops.js",
+    "server_scripts/Unification/gears.js",
+    "server_scripts/Unification/ingots.js",
+    "server_scripts/modpack/atm_alloy_tools.js",
+    "server_scripts/modpack/att_items.js",
+    "server_scripts/modpack/miningDim.js",
+    "server_scripts/modpack/runic_multis/controllers.js",
+    "server_scripts/mods/Actually Additions/Crusher.js",
+    "server_scripts/mods/Dyenamics/recipes.js",
+    "server_scripts/mods/Modern Industrialization/AE_Compat.js",
+    "server_scripts/mods/Modern Industrialization/Aluminum.js",
+    "server_scripts/mods/Modern Industrialization/Cobble_Gen.js",
+    "server_scripts/mods/Modern Industrialization/Electric_Blast_Furnace.js",
+    "server_scripts/mods/Modern Industrialization/Quarry.js",
+    "server_scripts/mods/Modern Industrialization/Replicator.js",
+    "server_scripts/mods/Modern Industrialization/Vacuum Freezer.js",
+    "server_scripts/mods/Modern Industrialization/distillation.js",
+    "server_scripts/mods/MysticalAgriculture/Tags.js",
+    "server_scripts/mods/modular_machinery/recipes/atm/multiblock_parts.js",
+    "startup_scripts/CustomAdditions.js"
+  ],
+  "kubejs_visible_overrides_checked": [
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 7,
+      "value": "§b마법 토양"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 9,
+      "value": "공기 에센스 블록"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 10,
+      "value": "대지 에센스 블록"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 11,
+      "value": "불 에센스 블록"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 12,
+      "value": "물 에센스 블록"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 14,
+      "value": "Blaze Powder Block"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 16,
+      "value": "Saltpeter Block"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 22,
+      "value": "범용 별빛 예측"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 25,
+      "value": "고요한 Allthemodium 판"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 26,
+      "value": "고요한 Vibranium 판"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 27,
+      "value": "고요한 Unobtainium 판"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 29,
+      "value": "ATM의 별 조각"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 30,
+      "value": "ATM의 별 조각"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 31,
+      "value": "ATM의 별 조각"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 32,
+      "value": "ATM의 별 조각"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 33,
+      "value": "ATM의 별 조각"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 49,
+      "value": "Allthemodium 태양 돛 패키지"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 50,
+      "value": "Allthemodium 빔 패키지"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 141,
+      "value": "액체 영혼"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 146,
+      "value": "정제되지 않은 액체 영혼"
+    },
+    {
+      "path": "startup_scripts/CustomAdditions.js",
+      "line": 151,
+      "value": "액체 Aureal"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 8,
+      "value": "Allthemodium 드릴"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 12,
+      "value": "Allthemodium 드릴 헤드"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 16,
+      "value": "Allthemodium 곡면 판"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 20,
+      "value": "Allthemodium 볼트"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 25,
+      "value": "Vibranium 드릴"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 29,
+      "value": "Vibranium 드릴 헤드"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 33,
+      "value": "Vibranium 곡면 판"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 37,
+      "value": "Vibranium 볼트"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 42,
+      "value": "Unobtainium 드릴"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 46,
+      "value": "Unobtainium 드릴 헤드"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 50,
+      "value": "Unobtainium 곡면 판"
+    },
+    {
+      "path": "startup_scripts/Modern-Industrialization/atm_stuff.js",
+      "line": 54,
+      "value": "Unobtainium 볼트"
+    }
+  ],
+  "kubejs_language_extra_keys": [
+    "block.modern_industrialization.auto_forge",
+    "block.modern_industrialization.deepslate_iridium_ore",
+    "block.modern_industrialization.ev_runic_transformer",
+    "block.modern_industrialization.runic_crucible",
+    "block.modern_industrialization.runic_enchanter",
+    "block.modern_industrialization.runic_energy_input_hatch",
+    "block.modern_industrialization.runic_energy_output_hatch",
+    "block.modern_industrialization.runic_ev_transformer",
+    "block.modern_industrialization.runic_fluid_input_hatch",
+    "block.modern_industrialization.runic_fluid_output_hatch",
+    "block.modern_industrialization.runic_item_input_hatch",
+    "block.modern_industrialization.runic_item_output_hatch",
+    "block.modern_industrialization.runic_storage_unit",
+    "block.modern_industrialization.runic_superconductor_transformer",
+    "block.modern_industrialization.star_altar",
+    "block.modern_industrialization.superconductor_runic_transformer",
+    "cable_tier_long.modern_industrialization.runic",
+    "cable_tier_short.modern_industrialization.runic",
+    "machine_casing.extended_industrialization.large_steel_crate",
+    "machine_casing.modern_industrialization.runic",
+    "rei_categories.modern_industrialization.auto_forge",
+    "rei_categories.modern_industrialization.runic_crucible",
+    "rei_categories.modern_industrialization.runic_enchanter",
+    "rei_categories.modern_industrialization.star_altar"
+  ],
+  "errors": [],
+  "status": "complete"
+}

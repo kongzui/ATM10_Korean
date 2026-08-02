@@ -1,0 +1,174 @@
+{
+  "quest.00C95A190BE2CBF9.quest_desc": [
+    "&#994ABA스티렌&r을 얻으려면 &#C2C969철 가루&r를 &#69C9B6에틸벤젠&r 및 증기와 반응시켜야 합니다. &#69C9B6에틸벤젠&r은 &#CDCF95증기 분해된 나프타&r를 증류하여 만듭니다."
+  ],
+  "quest.00C95A190BE2CBF9.title": "고급 증류",
+  "quest.011B8BD02D80DDD4.quest_desc": [
+    "월드 곳곳에서 &#6E2D6E텅스텐 광석&r을 쉽게 찾을 수 있습니다. 캐면 &#A140A1텅스텐 원석&r을 얻습니다."
+  ],
+  "quest.024BD22824C7F53A.quest_desc": [
+    "&#F0C87D증기 분해된 나프타&r를 증류하면 &#8FD5E3톨루엔&r을 얻습니다."
+  ],
+  "quest.09BE81548CD81068.quest_desc": [
+    "드디어 &#FFEB6EAllthemods Star&r에 필요한 부품을 만들 단계에 도달했습니다!!"
+  ],
+  "quest.0B60DA8F65E5DF06.quest_desc": [
+    "&#A140A1텅스텐 원석&r을 여러 방법으로 분쇄하여 &#C452C4텅스텐 가루&r를 얻을 수 있습니다."
+  ],
+  "quest.0C229BE9B57269EF.quest_desc": [
+    "&#EBA844칸탈 가루&r는 &#816DF7전기 용광로&r에서 제련해야 합니다."
+  ],
+  "quest.0CD36928116E868E.quest_desc": [
+    "&#F783F3염화 비닐&r에 &#9683F7작은 납 가루&r 또는 &#FEA8FF작은 크롬 가루&r를 혼합하면 &#F36EF5폴리염화비닐&r이 됩니다."
+  ],
+  "quest.0EA327E405EDFF02.quest_desc": [
+    "&#9C6C35아세틸렌&r과 &#DEAB6D염산&r을 혼합하면 &#F783F3염화 비닐&r이 됩니다."
+  ],
+  "quest.1A83615B7E1D3540.quest_desc": [
+    "연료가 든 &#45BF56원자로&r에 &9물&r을 넣으면 &#8F49C4중수소&r를 얻습니다. 다른 방법도 있지만 &#45BF56원자로&r가 가장 빠릅니다."
+  ],
+  "quest.226187AA3F1B6DB1.quest_desc": [
+    "&#D4C35D모래&r, &8부싯돌&r, &#8DF0EE질소&r와 &#69C9C7톨루엔&r을 혼합하면 &#D66D40산업용 TNT&r가 됩니다."
+  ],
+  "quest.22B8D57337944D9C.quest_desc": [
+    "이제 &#DF9DE0뜨거운 티타늄 주괴&r를 &#5CD1CF진공 냉각기&r에서 식혀 사용할 수 있는 &#F069F0티타늄 주괴&r로 만들 수 있습니다."
+  ],
+  "quest.22B8D57337944D9C.title": "&#F069F0티타늄 주괴",
+  "quest.23DB52ECA259F36D.quest_desc": [
+    "&#45BF56원자로&r에서 중수를 처리하면 &#EB5266삼중수소&r와 &#C09EDE중수 증기&r가 생성됩니다.",
+    "",
+    "&#EB5266삼중수소&r는 고급 부품에 사용합니다. &#C09EDE중수 증기&r는 &#DEAB47열교환기&r에서 &#8C47C9중수&r로 재활용할 수 있습니다."
+  ],
+  "quest.267A357B28228694.quest_desc": [
+    "&#4DB85E랜덤 액세스 메모리&r는 &#5EC7E6화학 반응로&r에서 &#A1A1A1스티렌-부타디엔 고무&r, &#D15EE6아르곤&r, &7안티모니 가루&r, &#5ED2E6알루미늄 가루&r와 &#5D76C2실리콘 웨이퍼&r로 만듭니다."
+  ],
+  "quest.282A23C3E7561796.quest_desc": [
+    "&#94C0E3처리 배열&r은 여러 기계를 병렬로 작동하는 것처럼 처리하는 대형 멀티블록입니다. 최대 병렬 작업 수는 &#94E3A264&r입니다.",
+    "",
+    "멀티블록을 만들려면 먼저 제어기 GUI에서 병렬로 모사할 기계 수를 선택하세요.",
+    "",
+    "{image:atm:textures/questpics/modernindustrialization/proc_array_gui.png width:175 height:100 align:center}",
+    "",
+    "{@pagebreak}",
+    "사용하려는 기계를 GUI 오른쪽 슬롯에 넣으세요. 실행할 병렬 작업 수와 같은 수의 기계가 필요합니다.",
+    "",
+    "&#94C0E3처리 배열&r에는 일반적인 업그레이드도 모두 넣을 수 있습니다."
+  ],
+  "quest.2A95F4F998835B43.quest_subtitle": "조각 9개 -> 주괴 1개",
+  "quest.3003598CE8B1FAAA.quest_subtitle": "더 나은 기술",
+  "quest.3003598CE8B1FAAA.title": "더욱 고급인 부품",
+  "quest.31CB278B4BA7B25E.quest_desc": [
+    "&#B5E7F7액화 공기&r를 원심분리하면 &#A5CAD9산소&r, &#78ADC2질소&r와 &#DD91ED아르곤&r, 총 3가지 산출물이 나옵니다. 이 &#DD91ED아르곤&r은 곧 사용합니다."
+  ],
+  "quest.31CB278B4BA7B25E.quest_subtitle": "그럴듯하네요",
+  "quest.31CB278B4BA7B25E.title": "공기 원심분리",
+  "quest.352A226915809E1B.quest_desc": [
+    "이제 &#A57DE3포장기&r에서 &#7DD2E3스테인리스강&r, &#B37DE3텅스텐&r과 &#E37DDB티타늄 주괴&r를 합쳐 새로운 &#3946E3혼합 방폭 주괴&r를 만들 수 있습니다. "
+  ],
+  "quest.35FDC436DE07635F.quest_desc": [
+    "&#DB62DE폭발 압축기&r는 폭발물의 힘으로 자원을 결합합니다. &#8762DE혼합 방폭 합금 주괴&r를 더 효율적으로 만드는 등 여러 유용한 자원을 생산합니다."
+  ],
+  "quest.3601DD545E1D11B4.quest_desc": [
+    "&#DD91ED아르곤&r을 &#83729E실리콘 가루&r 및 &#AAA0BA작은 이리듐 가루&r와 반응시키면 &#919191단결정 실리콘&r이 됩니다.",
+    "",
+    "&#AAA0BA이리듐&r 광석은 오버월드에서 찾을 수 있습니다."
+  ],
+  "quest.36D35C35BBC0A555.quest_subtitle": "가장 효율적인 방법",
+  "quest.386ABEB4249D157D.quest_desc": [
+    "&#919191단결정 실리콘&r 하나를 잘라 &#8FA4B5실리콘 웨이퍼&r 32개를 만들 수 있습니다."
+  ],
+  "quest.3891F8D4201E6BFD.quest_desc": [
+    "&#EBA844칸탈 주괴&r를 가는 전선으로 가공하고 케이블 형태로 성형하여 &#EBA844칸탈 코일&r을 만듭니다. ",
+    "",
+    "&#EBA844칸탈 코일&r을 사용하면 &#816DF7전기 용광로&r가 훨씬 높은 &#F76D6D온도&r에서 작동하여 더 많은 제작법을 처리합니다.",
+    "",
+    "&#816DF7전기 용광로&r GUI에서 코일을 바꿔야 합니다.",
+    "",
+    "{image:atm:textures/questpics/modernindustrialization/switch_to_kanthal.png width:150 height:75 align:center}"
+  ],
+  "quest.39A0BA6E2A72A681.quest_desc": [
+    "&#99F0F0스테인리스강&r, &#ADDBDB알루미늄&r과 &#E9A8F7크롬 가루&r를 혼합하면 &#EBA844칸탈 가루&r가 됩니다."
+  ],
+  "quest.3A0C8BCE197A448B.quest_desc": [
+    "&#827AFF스티렌-부타디엔&r에 &#9683F7작은 납 가루&r 또는 &#FEA8FF작은 크롬 가루&r를 혼합하면 &#A1A1A1스티렌-부타디엔 고무&r가 됩니다."
+  ],
+  "quest.3ACC27B786CDCF22.quest_desc": [
+    "&#3ABEC7전기 압축기를 사용하면 &#CE5ADB작은 텅스텐 가루&r를 &#AF22BF텅스텐 조각&r으로 만들 수 있습니다."
+  ],
+  "quest.3B1CDC2DD05CAE80.quest_desc": [
+    "&#F36EF5폴리염화비닐&r, &#6EBAF5백금 판, &#C4C362카드뮴 배터리&r, &#F7BB57어닐링 구리 케이블&r과 &#57BFF7디지털 회로 기판&r을 조합하면 &#EBE56E처리 유닛 기판&r이 됩니다."
+  ],
+  "quest.3CB05026BC4C5577.quest_desc": [
+    "현재는 &#3946E3혼합 방폭 주괴&r를 &#6F93C7전기 압축기&r에서 처리하여 &#986FC7방폭 합금판&r을 매우 비효율적으로 만들 수 있습니다."
+  ],
+  "quest.3FE2A649F07DF28D.quest_subtitle": "Extreme Reactors 블루토늄을 분쇄해 플루토늄 가루를 얻을 수 있습니다",
+  "quest.3FE489E6B1FAC24B.quest_subtitle": "소모된 연료봉 재활용",
+  "quest.3FE489E6B1FAC24B.title": "플루토늄 얻기",
+  "quest.40F2EDB9384CE782.quest_desc": [
+    "&#DBE37F증기 분해된 경유&r를 증류하면 &#9C6C35아세틸렌&r을 얻습니다."
+  ],
+  "quest.4A06CCE1FE0F333C.quest_desc": [
+    "&#74C3DB공기 흡입구&r를 &#46CAF2진공 냉각기&r에 넣으면 &#B5E7F7액화 공기&r를 얻습니다."
+  ],
+  "quest.4A618CA66AD6223D.quest_subtitle": "더욱 많은 전력 입력",
+  "quest.4F870252E9FB1A41.quest_desc": [
+    "원자로에는 연료봉을 넣어 연료를 공급합니다. 이 연료봉은 제작할 수 있는 가장 기본적인 종류입니다."
+  ],
+  "quest.50F97171D25CD2EE.quest_desc": [
+    "&#6EDDFF터보 업그레이드&r는 개당 용량을 &#FFEB6E512EU/t&r만큼 늘립니다."
+  ],
+  "quest.56A4F5D301BC1E93.quest_desc": [
+    "&#6EDDFF터보 업그레이드&r는 개당 용량을 &#FFEB6E64EU/t&r만큼 늘립니다."
+  ],
+  "quest.58F7C11C241DD7A4.quest_desc": [
+    "&#6AADD9증류탑&r은 &#A3D2F0증류소&r를 업그레이드한 형태입니다. 같은 입력에서 여러 산출물을 얻는 것이 가장 큰 장점입니다.",
+    "",
+    "구조물을 만들려면 &#6AADD9증류탑&r 제어기 GUI에서 높이를 선택하세요. 필요한 산출물 수에 따라 높이가 달라집니다. &#76759E원유&r를 처리하려면 높이가 3블록이어야 합니다."
+  ],
+  "quest.58F7C11C241DD7A4.quest_subtitle": "효율이 중요합니다",
+  "quest.5A4406F89DB802F0.quest_desc": [
+    "&#BB95CF스티렌&r과 &#D46C85부타디엔&r을 반응시키면 &#827AFF스티렌-부타디엔&r이 됩니다."
+  ],
+  "quest.5B45AB96953FA61C.title": "디지털 시대",
+  "quest.633D6361DA680C75.quest_desc": [
+    "&#E6ED98경유&r와 증기를 혼합하면 &#DBE37F증기 분해된 경유&r를 얻습니다."
+  ],
+  "quest.66E78F599CD50579.quest_desc": [
+    "&#49C472원자로&r에서는 고급 자원을 처리할 수 있습니다. 여기서는 &#8F49C4중수소&r와 &#EB5266삼중수소&r를 생산합니다.",
+    "",
+    "이 자원 목록은 \"대형\" 원자로를 만드는 데 도움이 됩니다. 더 작은 원자로는 속도와 효율이 낮아 권장하지 않습니다.",
+    "{@pagebreak}",
+    "효율적인 원자로를 만드는 방법은 여기서 모두 설명하기에는 너무 복잡합니다. 대신 사용하기 좋은 설계를 소개합니다.",
+    "",
+    "다음은 &#49C472대형 원자로&r에서 &#8F49C4중수소&r를 생산하는 설계입니다.",
+    "{image:atm:textures/questpics/modernindustrialization/large_reactor.png width:100 height:100 align:center}",
+    "",
+    "다음은 &#EB5266삼중수소&r를 생산하는 &#49C472극대형 원자로&r 설계입니다.",
+    "",
+    "{image:atm:textures/questpics/modernindustrialization/largest_reactor.png width:100 height:100 align:center}"
+  ],
+  "quest.66E78F599CD50579.quest_subtitle": "폭발하지 않습니다",
+  "quest.672B69448F1D458B.quest_desc": [
+    "&#FAAD28열교환기&r는 &#4D7DFFExtreme Reactors&r 터빈을 좋아하는 플레이어에게 안성맞춤입니다. 엄청난 양의 증기를 생산할 수 있습니다."
+  ],
+  "quest.672B69448F1D458B.quest_subtitle": "증기가 콸콸콸",
+  "quest.6A9AE3514B5151C9.quest_desc": [
+    "&#CFB951칸탈 코일&r을 사용하면 &#C356C4티타늄 원석&r을 &#DF9DE0뜨거운 티타늄 주괴&r로 처리할 수 있습니다. 이 과정에는 &#D49B70망간 황산 용액&r이 필요합니다."
+  ],
+  "quest.6F183B06683D1213.quest_desc": [
+    "&#EBA844뜨거운 칸탈 주괴&r는 &#6DC0F7진공 냉각기&r로 식힐 수 있습니다."
+  ],
+  "quest.6F3974CAAA555FD0.quest_subtitle": "RAM 관리하기",
+  "quest.75619C7174C6703C.quest_desc": [
+    "우라늄 가루를 원심분리하면 우라늄 동위원소를 얻으며, 이를 더 좋은 연료봉으로 가공할 수 있습니다."
+  ],
+  "quest.75619C7174C6703C.title": "우라늄 가루 원심분리",
+  "quest.78EC7D19BE24FE06.quest_subtitle": "폭발하지 않습니다",
+  "quest.7AF6C95816E82861.quest_desc": [
+    "&#8F49C4중수소&r와 &#AABBFA산소&r를 &#5B75D4화학 반응&r시키면 &#9C51DB중수&r가 됩니다. 중수는 &#45BF56원자로&r에 다시 넣을 수 있습니다."
+  ],
+  "quest.7C73740F1B515F2C.quest_desc": [
+    "&#C452C4텅스텐 가루&r는 가공할 수 있도록 훨씬 작은 형태로 분쇄해야 합니다."
+  ],
+  "task.08F68CC089765088.title": "우회 요령"
+}

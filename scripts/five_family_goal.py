@@ -398,6 +398,24 @@ TARGETS = (
         "bellsandwhistles",
         "Create: Bells & Whistles",
     ),
+    Target(
+        "modern_industrialization",
+        "Modern-Industrialization-",
+        "modern_industrialization",
+        "Modern Industrialization",
+    ),
+    Target(
+        "modern_industrialization",
+        "extended-industrialization-",
+        "extended_industrialization",
+        "Extended Industrialization",
+    ),
+    Target(
+        "modern_industrialization",
+        "industrialization_overdrive-",
+        "industrialization_overdrive",
+        "Industrialization Overdrive",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -424,6 +442,7 @@ FAMILY_LABELS = {
     "productive_metalworks": "Productive Metalworks",
     "compact_machines": "Compact Machines",
     "create": "Create",
+    "modern_industrialization": "Modern Industrialization",
 }
 
 QUEST_CHAPTERS = {
@@ -450,6 +469,12 @@ QUEST_CHAPTERS = {
     "productive_metalworks": (),
     "compact_machines": (),
     "create": ("create",),
+    "modern_industrialization": (
+        "mi_steam",
+        "mi_electric",
+        "mi_digital",
+        "mi_endgame",
+    ),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -528,6 +553,14 @@ QUEST_TEXT_MARKERS = {
         "create hypertube",
         "bells and whistles",
         "bellsandwhistles",
+    ),
+    "modern_industrialization": (
+        "modern industrialization",
+        "modern_industrialization",
+        "extended industrialization",
+        "extended_industrialization",
+        "industrialization overdrive",
+        "industrialization_overdrive",
     ),
 }
 
@@ -615,6 +648,16 @@ ALLOWED_ORIGINALS = {
     "Create: Aquatic Ambitions",
     "Create: Hypertube",
     "Bells & Whistles",
+    "Modern Industrialization",
+    "Extended Industrialization",
+    "Industrialization Overdrive",
+    "ME Wire",
+    "Vajra",
+    "Alt",
+    "[CurseForge]",
+    "%s / %s %sEU",
+    "LE MOX 막대",
+    "HE MOX 막대",
     "killtps",
     "tickTime",
     "Ctrl",
@@ -1925,6 +1968,27 @@ EARLY_INFRASTRUCTURE_CUSTOM_NAMES = {
     "Christmas Tree Sapling": ("크리스마스트리 묘목", 1),
 }
 
+MODERN_INDUSTRIALIZATION_CUSTOM_NAMES = {
+    "Item Input": ("아이템 입력", 5),
+    "Item Output": ("아이템 출력", 4),
+    "Energy Input": ("에너지 입력", 6),
+    "Fluid Input": ("유체 입력", 4),
+    "Fluid Output": ("유체 출력", 4),
+    "Uranium Rods": ("우라늄 막대", 1),
+    "HE Uranium Rods": ("HE 우라늄 막대", 1),
+    "LE Uranium Rods": ("LE 우라늄 막대", 1),
+    "LE Mox Rods": ("LE MOX 막대", 1),
+    "HE Mox Rods": ("HE MOX 막대", 1),
+}
+
+MODERN_INDUSTRIALIZATION_QUEST_FALLBACK_TITLES = {
+    "quest.4F870252E9FB1A41.title": "우라늄 막대",
+    "quest.5E7682F4C95DCDCA.title": "HE 우라늄 막대",
+    "quest.5C36DA71C58A5365.title": "LE 우라늄 막대",
+    "quest.44ED74C0F2F43B3B.title": "LE MOX 막대",
+    "quest.6F9C270C3794BAD1.title": "HE MOX 막대",
+}
+
 MEKANISM_QUEST_ITEM_TITLES = {
     "quest.162CE44400A63575.title": "금속공학 주입기",
     "quest.08DDE018A804BFE7.title": "농축기",
@@ -2756,6 +2820,8 @@ def build_quests(instance: Path, family: str) -> dict[str, object]:
                     if key not in redundant_keys
                 }
             )
+    if family == "modern_industrialization":
+        combined.update(MODERN_INDUSTRIALIZATION_QUEST_FALLBACK_TITLES)
     installed_base = instance / "config/ftbquests/quests/lang/ko_kr.snbt"
     base = QUEST_OUTPUT if QUEST_OUTPUT.is_file() else installed_base
     restored: dict[str, object] = {}
@@ -2823,6 +2889,37 @@ def build_quests(instance: Path, family: str) -> dict[str, object]:
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_text(text, encoding="utf-8")
         structure_overrides.append(str(destination.relative_to(PROJECT_ROOT)))
+    if family == "modern_industrialization":
+        source_root = instance / "config/ftbquests/quests/chapters"
+        source_texts: dict[str, str] = {}
+        for chapter in ("mi_digital", "mi_electric"):
+            source = source_root / f"{chapter}.snbt"
+            source_texts[chapter] = source.read_text(encoding="utf-8-sig")
+        for english_name, (
+            korean_name,
+            expected,
+        ) in MODERN_INDUSTRIALIZATION_CUSTOM_NAMES.items():
+            english_needle = f'\\"{english_name}\\"'
+            korean_needle = f'\\"{korean_name}\\"'
+            english_count = sum(
+                text.count(english_needle) for text in source_texts.values()
+            )
+            korean_count = sum(
+                text.count(korean_needle) for text in source_texts.values()
+            )
+            if (english_count, korean_count) not in {(expected, 0), (0, expected)}:
+                raise ValueError(
+                    "Modern Industrialization 사용자 지정 이름 개수 불일치: "
+                    f"{english_name}=영어 {english_count}, 한국어 {korean_count} "
+                    f"(예상 {expected})"
+                )
+            for chapter, text in source_texts.items():
+                source_texts[chapter] = text.replace(english_needle, korean_needle)
+        for chapter, text in source_texts.items():
+            destination = QUEST_CHAPTER_OUTPUT / f"{chapter}.snbt"
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_text(text, encoding="utf-8")
+            structure_overrides.append(str(destination.relative_to(PROJECT_ROOT)))
     return {
         "family": FAMILY_LABELS[family],
         "merged_keys": len(combined),
@@ -3039,6 +3136,43 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
             if remaining or actual_korean != expected_korean:
                 errors.append(
                     "초중반 기반 시설 사용자 지정 이름 검증 실패: "
+                    f"영어={remaining}, 한국어={actual_korean}/{expected_korean}"
+                )
+            else:
+                unresolved_custom_names = []
+    if family == "modern_industrialization" and custom_names:
+        structure_paths = [
+            QUEST_CHAPTER_OUTPUT / f"{chapter}.snbt"
+            for chapter in ("mi_digital", "mi_electric")
+        ]
+        missing_paths = [path for path in structure_paths if not path.is_file()]
+        if missing_paths:
+            errors.append(
+                "Modern Industrialization 퀘스트 구조 오버라이드 누락: "
+                + ", ".join(path.name for path in missing_paths)
+            )
+        else:
+            structure_text = "\n".join(
+                path.read_text(encoding="utf-8") for path in structure_paths
+            )
+            remaining = [
+                name
+                for name in MODERN_INDUSTRIALIZATION_CUSTOM_NAMES
+                if f'\\"{name}\\"' in structure_text
+            ]
+            expected_korean = sum(
+                expected
+                for _, expected in MODERN_INDUSTRIALIZATION_CUSTOM_NAMES.values()
+            )
+            actual_korean = sum(
+                structure_text.count(f'\\"{name}\\"')
+                for name in {
+                    value[0] for value in MODERN_INDUSTRIALIZATION_CUSTOM_NAMES.values()
+                }
+            )
+            if remaining or actual_korean != expected_korean:
+                errors.append(
+                    "Modern Industrialization 사용자 지정 이름 검증 실패: "
                     f"영어={remaining}, 한국어={actual_korean}/{expected_korean}"
                 )
             else:
@@ -3709,6 +3843,19 @@ def verify_language(
                         errors.append(f"통합 미번역: {target.namespace}:{key}")
             expected_output.update(create_extra)
             integration_extra_keys += len(create_extra)
+        modern_industrialization_extra_path = (
+            PROJECT_ROOT / "working/modern_industrialization/kubejs_extra_ko_kr.json"
+        )
+        if (
+            family == "modern_industrialization"
+            and target.namespace == "modern_industrialization"
+            and modern_industrialization_extra_path.is_file()
+        ):
+            modern_industrialization_extra = load_json(
+                modern_industrialization_extra_path
+            )
+            expected_output.update(modern_industrialization_extra)
+            integration_extra_keys += len(modern_industrialization_extra)
         output_matches = output.is_file() and load_json(output) == expected_output
         if not output_matches:
             errors.append(f"누적 출력 불일치: {target.namespace}")
