@@ -120,7 +120,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Powah!·Flux Networks          | 파와·플럭스 네트워크             | 발전·충방전과 무선 전력망을 제공                   | Powah!, Lollipop, Flux Networks, 관련 퀘스트·GuideME·KubeJS·발전 과제                                                                              | 완료   | 기존 계획·공통 전력 기반            |
 | Pipez·Modern Dynamics·XNet    | 파이프즈·모던 다이내믹스·엑스넷  | 아이템·액체·에너지 물류망과 필터를 제공            | 세 본체와 관련 연동                                                                                                                                | 완료   | 기존 계획·공통 물류 기반            |
 | Create                        | Create                           | 회전력 기반 기계, 공정, 조립과 기차를 제공         | Create: Dragons Plus, Create Crafts & Additions, Create Enchantment Industry, Create Aquatic Ambitions, Create Hypertube, Create: Bells & Whistles | 완료   | 기존 계획·대형 기술 모드            |
-| Modern Industrialization      | 모던 인더스트리얼라이제이션      | 증기부터 전기·디지털 공정까지 이어지는 산업 시스템 | Extended Industrialization, Industrialization Overdrive                                                                                            | 미작업 | 기존 계획·전용 퀘스트 4개           |
+| Modern Industrialization      | 모던 인더스트리얼라이제이션      | 증기부터 전기·디지털 공정까지 이어지는 산업 시스템 | Extended Industrialization, Industrialization Overdrive, 관련 퀘스트·GuideME·KubeJS                                                                 | 완료   | 기존 계획·전용 퀘스트 4개           |
 | Ender IO                      | Ender IO                         | 기계, 발전과 다중 채널 도관을 제공                 | 본체, 관련 퀘스트와 다른 모드 연동                                                                                                                 | 완료   | 기존 계획·대형 기술 모드            |
 | Immersive Engineering         | 이머시브 엔지니어링              | 전선·전압·컨베이어와 멀티블록 공정을 제공          | 본체, 관련 퀘스트와 가이드                                                                                                                         | 미작업 | 기존 계획·대형 퀘스트 챕터          |
 | PneumaticCraft: Repressurized | 뉴매틱크래프트: 리프레셔라이즈드 | 압력·온도·드론 프로그래밍 자동화를 제공            | 본체, 관련 퀘스트와 가이드                                                                                                                         | 미작업 | 기존 계획·대형 퀘스트 챕터          |
@@ -228,10 +228,10 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
   The Undergarden, The Aether, The Bumblezone, Eternal Starlight, Deeper and Darker의
   본체 언어와 직접 연동 모드, 전용·관련 퀘스트, KubeJS·발전 과제·fallback 표시 경로를
   현재 설치 원문과 대조해 검수하고 적용 완료
-- **순차 번역 모드군 12개:** Refined Storage 2, Functional Storage 계열,
+- **순차 번역 모드군 13개:** Refined Storage 2, Functional Storage 계열,
   Pipez·Modern Dynamics·XNet, Modular Routers, Hostile Neural Networks,
   Iron Jetpacks·장비 편의, 초중반 기반 시설, Botany Pots·Botany Trees,
-  All The Ores·All The Compressed, Productive Metalworks, Compact Machines와 Create 계열을
-  각각 검증 가능한 커밋으로 완료하고 실제 게임 적용까지 확인
+  All The Ores·All The Compressed, Productive Metalworks, Compact Machines, Create 계열과
+  Modern Industrialization 계열을 각각 검증 가능한 커밋으로 완료하고 실제 게임 적용까지 확인
 - **FTB Quests 공통 제목·탐색 기반:** 일부 완료. 다른 모드의 미완성 제목과 fallback은
   해당 모드를 선택했을 때 함께 검토
