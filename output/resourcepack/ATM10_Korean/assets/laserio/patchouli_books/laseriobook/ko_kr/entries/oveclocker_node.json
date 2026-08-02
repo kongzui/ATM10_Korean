@@ -1,0 +1,39 @@
+{
+  "name": "노드 오버클러커",
+  "icon": "laserio:overclocker_node",
+  "sortnum": 3,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "노드 오버클러커는 작동 방식이 조금 복잡합니다.$(br2)각 $(l:laserio:laser_node)노드$(/l)는 한 면에서 틱당 카드 하나만 처리합니다. $(br2)한 면에 추출 카드가 3개라면 첫 카드만 해당 틱에 작동하고, 첫 카드가 아무 작업도 하지 못했을 때만 두 번째 카드가 작동합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "노드 오버클러커 없음",
+      "images": [
+        "laserio:textures/book/entries/overclocker_node1.png"
+      ],
+      "border": true,
+      "text": "노드 오버클러커가 설치되어 있지 않습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "노드 한 면에 설치한 노드 오버클러커 하나마다 틱당 처리할 카드가 하나씩 늘어납니다. 최대 8개를 설치하면 슬롯 9개의 카드를 모두 처리할 수 있습니다. $(br2)삽입 카드는 $(l)$(#ff0000)오버클러커가 필요하지 않으며$(), $(l)추출 및 재고 유지 카드에만$() 필요합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "2 노드 오버클러커",
+      "images": [
+        "laserio:textures/book/entries/overclocker_node2.png"
+      ],
+      "border": true,
+      "text": "두 개의 노드 오버클러커가 설치되어 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "노드 오버클러커",
+      "recipe": "laserio:overclocker_node"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "수집 모듈",
+  "icon": "mffs:collection_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:collection_module",
+      "link_recipe": true,
+      "text": "$(l:mffs:machines/projector)역장 프로젝터$()의 매트릭스 슬롯에 $(l:mffs:projector_modules/disintegration_module)$(5)분해 모듈$()과 $(5)수집 모듈$()을 함께 넣으면 파괴된 블록의 아이템을 프로젝터 주변 인벤토리로 모읍니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:collection_module",
+      "text": "$(5)컬렉션 모듈$() 제작."
+    }
+  ]
+}

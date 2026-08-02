@@ -1,0 +1,16 @@
+{
+  "name": "레드스톤 모드",
+  "sortnum": 11,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/redstonehigh.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "레드스톤 모드는 $(l:laserio:redstonechannel)레드스톤 채널$(/l)의 신호가 카드에 미치는 영향을 정합니다.$(br2)기본값은 $(bold)무시$()이며, 이때 카드는 레드스톤 신호와 관계없이 항상 작동합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)'낮음'에서는 레드스톤 채널에 신호가 없을 때만 작동합니다. 채널 버튼은 레드스톤 모드 버튼 오른쪽에 있습니다.$(br2)'높음'에서는 레드스톤 채널에 신호가 있을 때만 작동합니다."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "프로젝터 모드",
+  "description": "역장 프로젝터에 사용 가능한 다양한 필드 형태.",
+  "sortnum": 3,
+  "icon": "mffs:cube_mode"
+}

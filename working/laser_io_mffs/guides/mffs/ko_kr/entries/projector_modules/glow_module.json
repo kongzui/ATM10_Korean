@@ -1,0 +1,27 @@
+{
+  "name": "발광 모듈",
+  "icon": "mffs:glow_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:glow_module",
+      "link_recipe": true,
+      "text": "$(5)발광 모듈$()을 $(l:mffs:machines/projector)역장 프로젝터$()에 넣으면 역장 주변을 밝힙니다. $(5)발광 모듈$()을 설치하면 역장이 빛을 내며 $(5)발광 모듈$()은 최대 64개까지 넣을 수 있습니다. 모듈을 더 넣을수록 밝아져 최대 발광석 밝기에 도달합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:glow_module",
+      "text": "$(5)글로우 모듈$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/glow_module.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "$(5)발광 모듈$()을 설치한 역장을 투사하는 역장 프로젝터입니다."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "신원 카드",
+  "icon": "mffs:id_card",
+  "category": "mffs:tools",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:id_card",
+      "link_recipe": true,
+      "text": "MFFS $(5)신분증 카드$()는 $(l:mffs:machines/biometric_identifier)생체 인식 카드와 함께 사용됩니다. 플레이어의 권리와 특권을 관리하는 식별자 $()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:id_card",
+      "text": "$(5)신분증 카드$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "사용법",
+      "text": "신분증을 사용하기 전에, 플레이어에게 할당해야 합니다. 신분증을 들고 있는 동안 Shift 키를 누른 채 마우스 오른쪽 버튼을 클릭하면 신분증을 자신에게 할당할 수 있습니다. 다른 플레이어에게 Shift 키를 누른 채 마우스 오른쪽 버튼을 클릭하여 카드를 할당할 수도 있습니다. 저장된 신원을 삭제하려면 카드를 다시 활성화하세요."
+    }
+  ]
+}

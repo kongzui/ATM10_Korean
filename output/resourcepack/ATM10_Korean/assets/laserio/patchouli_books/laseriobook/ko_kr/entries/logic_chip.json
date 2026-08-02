@@ -1,0 +1,22 @@
+{
+  "name": "로직 칩",
+  "icon": "laserio:logic_chip",
+  "sortnum": 0,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "로직 칩은 LaserIO의 주요 제작 재료입니다. $(br2)'바닐라' 소재로 제작된 유일한 아이템입니다, 이후의 모든 아이템은 어떤 방식으로든 칩을 사용합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "미가공 논리 칩",
+      "recipe": "laserio:logic_chip_raw"
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "논리 칩",
+      "recipe": "laserio:logic_chip"
+    }
+  ]
+}

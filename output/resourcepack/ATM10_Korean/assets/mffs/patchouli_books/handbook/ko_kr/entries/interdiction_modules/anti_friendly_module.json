@@ -1,0 +1,18 @@
+{
+  "name": "우호적 몹 차단 모듈",
+  "icon": "mffs:anti_friendly_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:anti_friendly_module",
+      "link_recipe": true,
+      "text": "$(5)우호적 몹 차단 모듈$()은 $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()에 넣는 선택 모듈입니다. 설치하면 스캔 범위에 들어온 양, 소, 주민 같은 우호적 엔티티를 감지해 거의 즉시 처치합니다. 플레이어와 적대적 몹은 피해를 입지 않습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:anti_friendly_module",
+      "text": "$(5)친화적 모듈$()를 제작합니다."
+    }
+  ]
+}

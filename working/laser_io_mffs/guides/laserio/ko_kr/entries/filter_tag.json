@@ -1,0 +1,29 @@
+{
+  "name": "태그 필터",
+  "sortnum": 2,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_tag",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "태그 필터는 자원의 태그를 기준으로 필터링합니다.$(br2)Minecraft는 태그로 비슷한 자원을 묶습니다. 예를 들어 철 주괴에는 금·구리·주석 주괴 등에도 붙는 'forge:ingots' 태그가 있습니다.$(br2)따라서 아이템 하나만 등록해 모든 주괴를 분류할 수 있습니다!"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "태그 UI",
+      "images": [
+        "laserio:textures/book/entries/filter_tag.png"
+      ],
+      "border": true,
+      "text": "태그 UI"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "먼저 오른쪽 위 슬롯에 아이템을 넣습니다. 그 아이템의 태그 목록이 $(#0000ff)파란색$()으로 나타납니다. 원하는 태그를 선택하고 + 버튼을 누르세요. Shift를 누른 채 + 버튼을 누르면 모든 태그가 추가됩니다.$(br2)목록에서 태그를 제거하려면 선택한 뒤 - 버튼을 누르세요. $(br2)Shift+클릭으로 태그를 바로 추가하거나 제거할 수도 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "X 버튼은 목록 전체를 지웁니다.$(br2)목록은 '또는' 조건으로 작동하므로 목록의 태그 중 하나라도 일치하는 아이템이 필터링됩니다.$(br2)태그 필터는 NBT 비교를 지원하지 않습니다."
+    }
+  ]
+}

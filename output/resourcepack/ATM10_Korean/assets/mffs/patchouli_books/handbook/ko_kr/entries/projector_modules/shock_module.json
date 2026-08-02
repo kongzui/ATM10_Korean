@@ -1,0 +1,18 @@
+{
+  "name": "충격 모듈",
+  "icon": "mffs:shock_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:shock_module",
+      "link_recipe": true,
+      "text": "$(l:mffs:machines/projector)힘 장 프로젝터$()에 $(5)충격 모듈$()를 배치하면 힘 장에 전기가 통하게 됩니다. 플레이어나 개체가 전기장과 접촉했을 때, 충격을 받아 손상될 수 있습니다. 프로젝터에 추가된 각 $(5)충격 모듈$()는 플레이어나 개체에 가해지는 피해를 하트 절반씩 증가시킵니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:shock_module",
+      "text": "$(5)충격 모듈$()를 제작합니다."
+    }
+  ]
+}

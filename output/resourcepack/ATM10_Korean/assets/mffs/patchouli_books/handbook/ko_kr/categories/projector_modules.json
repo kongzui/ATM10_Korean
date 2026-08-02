@@ -1,0 +1,6 @@
+{
+  "name": "프로젝터 모듈",
+  "description": "역장 프로젝터에 사용 가능한 업그레이드 모듈.",
+  "sortnum": 4,
+  "icon": "mffs:dome_module"
+}

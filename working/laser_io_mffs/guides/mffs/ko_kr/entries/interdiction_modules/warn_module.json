@@ -1,0 +1,18 @@
+{
+  "name": "경고 모듈",
+  "icon": "mffs:warn_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:warn_module",
+      "link_recipe": true,
+      "text": "$(5)경고 모듈$()을 $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()의 매트릭스 슬롯에 넣으면 작동 범위 안의 권한 없는 모든 플레이어에게 주기적으로 경고를 보냅니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:warn_module",
+      "text": "$(5)경고 모듈$() 제작법입니다."
+    }
+  ]
+}

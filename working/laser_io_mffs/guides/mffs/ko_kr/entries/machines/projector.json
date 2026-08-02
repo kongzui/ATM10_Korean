@@ -1,0 +1,36 @@
+{
+  "name": "역장 프로젝터",
+  "icon": "mffs:projector",
+  "category": "mffs:machines",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:projector",
+      "link_recipe": true,
+      "text": "$(9)역장 프로젝터$()는 MFFS 기계 제품군의 기본 부분입니다. 포트론 에너지를 사용하여 다양한 모양과 크기의 역장을 세상에 투사합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:projector",
+      "text": "$(9)역장 프로젝터$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "사용법",
+      "text": "역장을 만들려면 $(9)역장 프로젝터$()와 가까운 $(l:mffs:machines/fortron_capacitor)포트론 축전기$()를 연결해 $(l:mffs:getting_started/fortron)포트론$()을 공급하세요. 다음 방법 가운데 하나를 사용합니다:$(li)$(9)역장 프로젝터$()를 우클릭하고 화면에 축전기와 같은 주파수 번호 입력$(li)$(l:mffs:tools/frequency_card)주파수 카드$()를 들고 프로젝터를 Shift+우클릭"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:mffs:projector_modes)프로젝터 모드 아이템$() 중 하나를 제작하여 어떤 역장 모양을 생성할지 결정하세요. 프로젝터를 마우스 오른쪽 버튼으로 클릭하고 바깥쪽 화살표로 둘러싸인 중앙(빨간색) 슬롯에 프로젝터 모드 아이템을 배치합니다. 다수의 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$() 아이템을 제작하여 왼쪽 슬롯에 넣습니다. $(9)역장 프로젝터$() 화면의 매트릭스. 프로젝터의 매트릭스 슬롯에 사용되는 각 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()는 역장 반경을 한 블록만큼 늘립니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "화면 아래 숫자는 설정한 크기와 모양의 역장을 유지하는 데 필요한 포트론 양입니다. 레드스톤 신호로 프로젝터를 활성화하세요. 충분한 $(l:mffs:getting_started/fortron)포트론$()이 있다면 프로젝터가 빨간색에서 파란색으로 바뀌고 $(9)역장 프로젝터$()가 역장을 투사합니다.$(p)역장을 통과하려면 $(l:mffs:machines/biometric_identifier)생체 인식 식별기$()가 필요합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "업그레이드 가능성",
+      "text": "$(9)역장 프로젝터$()는 여러 모듈로 강화할 수 있습니다.$(li)$(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$(): 투사할 역장의 모양을 조절합니다.$(li)$(l:mffs:upgrade_modules/speed_module)$(5)속도 모듈$(): 역장을 더 빠르게 생성합니다.$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)용량 모듈$(): 프로젝터가 저장할 수 있는 $(l:mffs:getting_started/fortron)포트론$() 양을 늘립니다.$()"
+    }
+  ]
+}

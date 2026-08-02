@@ -1,0 +1,65 @@
+{
+  "name": "레이저 노드",
+  "icon": "laserio:laser_node",
+  "sortnum": 0,
+  "category": "laserio:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "레이저 노드는 인접한 블록과 상호 작용하는 LaserIO의 핵심 블록입니다. $(br2)$(l:laserio:card_item)아이템 카드$(/l) 같은 카드를 사용하면 인접한 블록과 아이템, 유체, 에너지 또는 레드스톤을 주고받을 수 있습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "레이저 노드",
+      "images": [
+        "laserio:textures/book/entries/laser_node1.png"
+      ],
+      "border": true,
+      "text": "상자와 상호 작용하는 노드"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "노드의 각 면에는 카드를 넣는 3x3 슬롯이 있습니다. 노드의 해당 면을 우클릭하면 화면이 열립니다. $(br2)원하는 면에 접근하기 어렵다면 위쪽 버튼으로 작업할 면을 바꿀 수 있습니다.$(br2)옆 그림에서는 노드가 서쪽 인벤토리와 상호 작용합니다. "
+    },
+    {
+      "type": "patchouli:image",
+      "title": "레이저 노드 UI",
+      "images": [
+        "laserio:textures/book/entries/laser_node_gui1.png"
+      ],
+      "border": true,
+      "text": "카드가 포함된 노드 UI"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "노드는 동시에 여러 개의 인접한 인벤토리와 상호 작용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "레이저 노드 작동",
+      "images": [
+        "laserio:textures/book/entries/laser_node2.png"
+      ],
+      "border": true,
+      "text": "2 상자 사이의 노드"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:laserio:laser_wrench)레이저 렌치$(/l)로 노드를 연결하면 멀리 떨어진 인벤토리도 연결할 수 있습니다. 연결 하나의 최대 거리는 8블록입니다.$(br2)노드가 더 멀리 떨어져 있다면 $(l:laserio:laser_connector)레이저 커넥터$()를 사용하세요."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "연결된 레이저 노드",
+      "images": [
+        "laserio:textures/book/entries/laser_node3.png"
+      ],
+      "border": true,
+      "text": "두 개의 노드가 연결됨"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "레이저 노드",
+      "recipe": "laserio:laser_node"
+    }
+  ]
+}

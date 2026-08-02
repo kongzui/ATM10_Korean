@@ -1,0 +1,32 @@
+{
+  "name": "모드",
+  "sortnum": 1,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/modestocker.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "모드는 카드의 기본 동작을 정합니다. 다음 페이지에서 각 모드를 설명합니다.$(br2)아이템·유체·에너지 카드는 다음 세 가지 모드를 지원하며 아이템 카드를 예로 듭니다.$(br2)레드스톤 카드는 별도의 모드를 사용합니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item[laserio:card_transfer_mode=0b]",
+      "text": "삽입 모드 카드는 추출 모드 카드가 꺼낸 대상이 들어갈 곳입니다.$(br2)재고 유지 모드 카드는 삽입 모드 카드에서 대상을 가져옵니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item[laserio:card_transfer_mode=1b]",
+      "text": "추출 모드 카드는 인접한 블록에서 대상을 꺼냅니다. 예를 들어 인접한 상자에서 아이템을 꺼내 삽입 카드로 보냅니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item[laserio:card_transfer_mode=2b]",
+      "text": "재고 유지 모드 카드는 필터에 지정된 아이템을 찾아 같은 네트워크의 다른 삽입 노드에서 가져옵니다.$(br2)필터를 허용 모드로 설정해야 합니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item[laserio:card_transfer_mode=3b]",
+      "text": "센서 카드는 대상을 옮기지 않습니다. 인접한 인벤토리를 검사해 내용이 필터와 일치하면 레드스톤 채널로 신호를 보냅니다.$(br2)센서 모드에는 필터가 필요합니다."
+    }
+  ]
+}

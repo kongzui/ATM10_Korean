@@ -1,0 +1,21 @@
+{
+  "name": "아이템 카드",
+  "sortnum": 1,
+  "category": "laserio:cards",
+  "icon": "laserio:card_item",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "아이템 카드는 상자와 화로 같은 인벤토리 사이에서 아이템을 전송합니다.$(br2)오버클러커별 수치는 다음 페이지에서 설명합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "오버클러커별 최대 아이템/틱:$(br2)$(li)0개: 8 아이템/20t$(li)1개:  16 아이템/15t$(li)2개: 32 아이템/10t$(li)3개: 48 아이템/5t$(li)4개: 64 아이템/1t"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "아이템 카드",
+      "recipe": "laserio:card_item"
+    }
+  ]
+}

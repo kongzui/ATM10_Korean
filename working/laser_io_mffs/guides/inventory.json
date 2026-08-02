@@ -1,0 +1,10 @@
+{
+  "laserio": {
+    "jar": "laserio-1.9.11.jar",
+    "files": 40
+  },
+  "mffs": {
+    "jar": "mffs-5.4.27.jar",
+    "files": 49
+  }
+}

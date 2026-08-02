@@ -1,0 +1,20 @@
+{
+  "name": "우선 사항",
+  "sortnum": 3,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/modeinserter.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "우선순위는 삽입 모드에서만 사용할 수 있습니다.$(br2)삽입 카드의 처리 순서를 정합니다. 기본값은 '가까운 곳부터'이며, 추출 카드는 가장 가까운 인벤토리부터 삽입을 시도합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "삽입 카드의 우선순위를 바꾸면 먼저 들어갈 인벤토리를 정할 수 있습니다. 높은 값이 먼저이므로 10, 0, -10 순서입니다. $(br2)우선순위가 같으면 가까운 곳부터 처리합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "좌클릭하면 1 증가하고 우클릭하면 1 감소합니다. Shift를 누르면 변화량이 10배, Ctrl을 누르면 64배가 됩니다.$(br2)두 키를 함께 누르면 640배가 됩니다.$(br2)예를 들어 Shift+우클릭하면 10 감소합니다."
+    }
+  ]
+}

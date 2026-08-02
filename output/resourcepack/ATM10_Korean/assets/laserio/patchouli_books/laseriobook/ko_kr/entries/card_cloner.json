@@ -1,0 +1,21 @@
+{
+  "name": "카드 복제기",
+  "icon": "laserio:card_cloner",
+  "sortnum": 2,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "카드 복제기로 한 카드의 설정을 다른 카드에 복사해 붙여넣을 수 있습니다! $(l:laserio:laser_node)레이저 노드$(/l) 화면에서 카드 복제기를 커서로 집은 뒤 카드를 좌클릭하면 설정을 복사합니다. $(br2)다른 카드를 우클릭하면 저장한 설정을 붙여넣습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "붙여넣을 때 필요한 $(l:laserio:overclocker_card)오버클러커$(/l)와 $(l:laserio:filters)필터$(/l)는 현재 사용 중인 $(l:laserio:card_holder)카드 보관함$(/l)에서 자동으로 꺼내거나 되돌려 놓습니다. 플레이어 인벤토리에서는 꺼내지 않습니다.$(br2)필요한 아이템이 하나라도 없으면 붙여넣기 전체가 실패하며, 일부 설정만 붙여넣지는 않습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "카드 복제기",
+      "recipe": "laserio:card_cloner"
+    }
+  ]
+}

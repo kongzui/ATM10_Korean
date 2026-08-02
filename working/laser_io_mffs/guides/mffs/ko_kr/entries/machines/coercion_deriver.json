@@ -1,0 +1,37 @@
+{
+  "name": "강제 유도기",
+  "icon": "mffs:coercion_deriver",
+  "category": "mffs:machines",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:coercion_deriver",
+      "link_recipe": true,
+      "text": "$(9)강제 유도기$()는 다른 MFFS 기계에 필요한 FE 에너지를 $(l:mffs:getting_started/fortron)포트론$()으로 바꾸는 기계입니다. $(9)강제 유도기$()를 $(l:mffs:machines/fortron_capacitor)포트론 축전기$()와 함께 사용해 축전기를 $(l:mffs:getting_started/fortron)포트론$()으로 채우면, 축전기가 $(l:mffs:getting_started/fortron)포트론$()을 다른 기계에 분배합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:coercion_deriver",
+      "text": "$(9)강제 유도기$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "사용법",
+      "text": "$(l:mffs:getting_started/fortron)포트론$()을 만들려면 $(9)강제 유도기$()를 FE 전원에 연결하고 레드스톤 신호로 활성화하세요. 전원과 신호가 공급되면 $(9)강제 유도기$()가 빨간색에서 파란색으로 바뀌며 $(l:mffs:getting_started/fortron)포트론$()을 생성합니다. $(9)강제 유도기$()의 주파수 번호를 맞추면 $(l:mffs:machines/fortron_capacitor)포트론 축전기$() 같은 다른 MFFS 기계와 연결할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "주파수는 다음 방법으로 설정합니다:$(li)강제 유도기를 우클릭하고 화면에 원하는 주파수 번호 입력$(li)주파수 카드를 들고 강제 유도기를 Shift+우클릭$(p)$(9)강제 유도기$()의 $(l:mffs:getting_started/fortron)포트론$() 생성량은 화살표 옆 슬롯에 $(2)청금석$()이나 $(2)네더 석영$()을 넣어 높일 수 있습니다. 그러면 $(l:mffs:getting_started/fortron)포트론$() 출력이 약 20배로 늘어납니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "작동 모드",
+      "text": "$(9)강제 유도기$()에는 유도와 통합 두 가지 모드가 있습니다. 기본 '유도' 모드는 FE를 $(l:mffs:getting_started/fortron)포트론$()으로 계속 변환합니다. 화면 중앙의 $(2)유도$() 버튼을 누르면 $(2)통합$() 모드로 전환되며, 다시 누르면 돌아옵니다. 통합 모드에서는 반대로 $(l:mffs:getting_started/fortron)포트론$()을 FE로 변환합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "업그레이드 가능성",
+      "text": "강제 유도기는 모듈로 성능을 높일 수 있습니다.$(li)$(l:mffs:upgrade_modules/speed_module)$(5)속도 모듈$(): $(2)청금석$()이나 $(2)네더 석영$()의 증폭 효과를 높입니다.$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)용량 모듈$(): 저장할 수 있는 $(l:mffs:getting_started/fortron)포트론$()의 양을 늘립니다.$()"
+    }
+  ]
+}

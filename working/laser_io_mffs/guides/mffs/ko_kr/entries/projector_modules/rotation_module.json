@@ -1,0 +1,18 @@
+{
+  "name": "회전 모듈",
+  "icon": "mffs:rotation_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:rotation_module",
+      "link_recipe": true,
+      "text": "$(5)회전 모듈$()을 $(l:mffs:machines/projector)역장 프로젝터$()의 해당 방향 슬롯에 넣으면 x, y, z축을 기준으로 역장을 회전합니다. $(5)회전 모듈$()을 각 축의 슬롯에 넣으세요. $(li)동쪽·서쪽: 좌우 회전$(li)위·아래: 상하 회전$(li)남쪽·북쪽: 기울기 회전$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:rotation_module",
+      "text": "$(5)회전 모듈$() 제작."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "구체 모드",
+  "icon": "mffs:sphere_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:sphere_mode",
+      "link_recipe": true,
+      "text": "기본적으로 $(2)구체 모드$()는 두께가 정확히 1블록인 구 모양 역장을 만듭니다. $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()마다 역장 크기가 1블록 늘어납니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:sphere_mode",
+      "text": "$(2)구체 모드$() 제작법입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "현장 조정",
+      "text": "방향 화살표로 표시된 아이템 슬롯에 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()를 추가합니다. 모듈당 1 블록만큼 역장의 반경을 증가시킵니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/sphere_mode.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "확장된 $(2)구체 모드$() 필드가 투영되고 있습니다."
+    }
+  ]
+}

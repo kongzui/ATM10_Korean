@@ -1,0 +1,32 @@
+{
+  "name": "관 모드",
+  "icon": "mffs:tube_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:tube_mode",
+      "link_recipe": true,
+      "text": "기본적으로 $(2)관 모드$()는 두께가 정확히 1블록인 네모난 관 모양의 역장을 만듭니다. 관 모양 역장은 수평으로 이어지는 네 개의 막힌 면으로 이루어지며, 프로젝터의 앞뒤 방향이 관의 열린 면이 됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:tube_mode",
+      "text": "$(2)튜브 모드$() 제작."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "현장 조정",
+      "text": "방향 화살표가 있는 슬롯에 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()을 넣으면 해당 방향으로만 역장이 1블록 늘어납니다. 예를 들어 역장 높이를 1블록 늘리려면 화면 왼쪽 위나 오른쪽 위를 가리키는 슬롯에 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()을 넣으세요."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/tube_mode.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "확장된 $(2)관 모드$() 필드가 투영되고 있습니다."
+    }
+  ]
+}

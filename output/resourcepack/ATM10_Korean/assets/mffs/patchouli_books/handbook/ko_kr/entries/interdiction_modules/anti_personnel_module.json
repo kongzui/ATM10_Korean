@@ -1,0 +1,18 @@
+{
+  "name": "플레이어 차단 모듈",
+  "icon": "mffs:anti_personnel_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:anti_personnel_module",
+      "link_recipe": true,
+      "text": "$(5)대개인 모듈$()는 $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()용 옵션 모듈입니다. 이 모듈을 설치하면, 매트릭스는 동작 범위에 들어오는 승인되지 않은 플레이어를 자동으로 감지하여 거의 즉각적으로 죽입니다. 우호적이거나 적대적인 몹은 피해를 입지 않습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:anti_personnel_module",
+      "text": "$(5)대인 모듈$()를 제작합니다."
+    }
+  ]
+}

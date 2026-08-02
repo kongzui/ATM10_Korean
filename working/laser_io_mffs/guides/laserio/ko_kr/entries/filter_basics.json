@@ -1,0 +1,29 @@
+{
+  "name": "기본 역학",
+  "icon": "laserio:logic_chip",
+  "sortnum": 0,
+  "category": "laserio:filters",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "필터를 우클릭하면 설정 화면이 열립니다. 카드 안에 넣은 필터도 카드 화면에서 설정할 수 있습니다.$(br2)필터는 삽입·추출·재고 유지할 아이템을 제한합니다.$(br2)1. 허용 또는 차단$(br)2. NBT 비교$(br)3. 필터 슬롯"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "필터 UI",
+      "images": [
+        "laserio:textures/book/entries/filter_basic.png"
+      ],
+      "border": true,
+      "text": "기본 필터 UI"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "허용 또는 차단$(br2)허용 모드에서는 필터에 등록한 아이템을 허용합니다. 예를 들어 삽입 카드는 조약돌을 받고, 추출 카드는 조약돌을 꺼낼 수 있습니다.$(br2)차단 모드에서는 반대로 작동합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "NBT 비교$(br2)NBT 비교를 켜면 필터가 아이템의 NBT 태그도 확인합니다. 예를 들어 검의 손상도는 NBT에 저장되므로, 손상되지 않은 다이아몬드 검과 손상되거나 마법 부여된 검을 서로 다르게 취급합니다.$(br2)NBT 비교를 끄면 상태와 관계없이 모든 다이아몬드 검이 일치합니다. "
+    }
+  ]
+}

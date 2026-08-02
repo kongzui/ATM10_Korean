@@ -1,0 +1,43 @@
+{
+  "name": "고급 커넥터",
+  "icon": "laserio:laser_connector_advanced",
+  "sortnum": 2,
+  "category": "laserio:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "고급 레이저 커넥터는 $(l:laserio:laser_connector)레이저 커넥터$(/l)처럼 8블록 이내의 기본 커넥터와 노드에 연결됩니다. $(br2)고급 커넥터끼리는 하나의 상대와만 짝을 이룹니다. 두 고급 커넥터 사이의 연결 거리는 차원이 달라도 무제한입니다!"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "고급 커넥터",
+      "images": [
+        "laserio:textures/book/entries/laser_connector_advanced1.png"
+      ],
+      "border": true,
+      "text": "서로 연결된 두 개의 고급 커넥터"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이미 짝이 있는 고급 커넥터를 새 커넥터와 연결하면 기존 연결이 끊어지고 새 연결이 생깁니다. $(br2)$(l:laserio:laser_wrench)레이저 렌치$(/l)를 들고 커넥터를 바라보면 짝이 된 커넥터의 좌표가 표시됩니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "파트너 좌표",
+      "images": [
+        "laserio:textures/book/entries/laser_connector_advanced2.png"
+      ],
+      "border": true,
+      "text": "파트너 커넥터의 좌표 표시"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "고급 레이저 커넥터는 청크를 강제로 불러오지 않습니다. 청크 로딩은 직접 관리해야 하며, 불러오지 않은 청크의 노드는 작동하지 않습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "고급 레이저 커넥터",
+      "recipe": "laserio:laser_connector_advanced"
+    }
+  ]
+}

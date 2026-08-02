@@ -1,0 +1,21 @@
+{
+  "name": "유체 카드",
+  "sortnum": 2,
+  "category": "laserio:cards",
+  "icon": "laserio:card_fluid",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "유체 카드는 탱크 같은 인벤토리 사이에서 유체를 전송합니다.$(br2)오버클러커별 수치는 다음 페이지에서 설명합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "오버클러커별 최대 mB/틱:$(br2)$(li)0개: 5,000mb/20t$(li)1개:  10,000mb/15t$(li)2개: 20,000mb/10t$(li)3개: 30,000mb/5t$(li)4개: 40,000mb/1t"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "유체 카드",
+      "recipe": "laserio:card_fluid"
+    }
+  ]
+}

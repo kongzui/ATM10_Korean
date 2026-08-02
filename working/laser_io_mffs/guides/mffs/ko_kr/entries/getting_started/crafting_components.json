@@ -1,0 +1,19 @@
+{
+  "name": "구성 요소 제작",
+  "icon": "mffs:focus_matrix",
+  "category": "mffs:getting_started",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:focus_matrix",
+      "link_recipe": true,
+      "text": "$(l:mffs:projector_modes)제작에 사용되는 견고한 철판프로젝터 모드$(), $(l:mffs:projector_modules)프로젝터 모듈$() 및 $(l:mffs:machines)기계$(). 커플이 가까이에 있다는 것은 항상 좋은 일입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:focus_matrix",
+      "text": "포커스 매트릭스 제작."
+    }
+  ]
+}

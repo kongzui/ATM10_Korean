@@ -1,0 +1,36 @@
+{
+  "name": "피라미드 모드",
+  "icon": "mffs:pyramid_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:pyramid_mode",
+      "link_recipe": true,
+      "text": "기본적으로, $(2)피라미드 모드$()는 프로젝터가 피라미드와 같은 모양의 힘장을 생성하도록 설정합니다. 피라미드형 모양의 두께는 크기에 따라 다릅니다. 각 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()는 모든 방향에서 1 블록만큼 필드 크기를 증가시킵니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:pyramid_mode",
+      "text": "$(2)피라미드 모드$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "현장 조정",
+      "text": "$(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()를 방향 화살표로 표시된 아이템 슬롯에 배치하면 다른 효과가 나타납니다. 모듈은 왼쪽 중 하나에 배치됩니다. 오른쪽, 앞면 또는 뒷면 아이템 슬롯은 동시에 반대 방향으로 1 블록만큼 필드를 확장합니다. 위쪽 또는 아래쪽 아이템 슬롯에 모듈을 배치하면 해당 방향으로만 1 블록만큼 필드의 크기가 조정됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "예를 들어 역장 높이를 1블록 늘리려면 화면 왼쪽 위나 오른쪽 위를 가리키는 슬롯에 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()을 넣으세요."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/pyramid_mode.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "확장된 $(2)피라미드 모드$() 필드가 투영되고 있습니다."
+    }
+  ]
+}

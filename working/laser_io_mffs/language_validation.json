@@ -1,0 +1,66 @@
+{
+  "family": "LaserIO·MFFS",
+  "languages": [
+    {
+      "label": "LaserIO",
+      "jar": "laserio-1.9.11.jar",
+      "namespace": "laserio",
+      "english_keys": 95,
+      "korean_keys": 95,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 95
+    },
+    {
+      "label": "MFFS",
+      "jar": "mffs-5.4.27.jar",
+      "namespace": "mffs",
+      "english_keys": 181,
+      "korean_keys": 181,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 181
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 0,
+    "project_output_reuse": 0,
+    "new_or_edited": 276
+  },
+  "ftbquests": {
+    "chapters": [
+      "basic_logistics.snbt"
+    ],
+    "quests_checked": 17,
+    "tasks_checked": 17,
+    "display_keys_checked": 25,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 11,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

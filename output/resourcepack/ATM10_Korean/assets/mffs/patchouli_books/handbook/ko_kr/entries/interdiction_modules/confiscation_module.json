@@ -1,0 +1,33 @@
+{
+  "name": "압수 모듈",
+  "icon": "mffs:confiscation_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:confiscation_module",
+      "link_recipe": true,
+      "text": "$(5)압수 모듈$()은 $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()가 플레이어의 아이템을 자동으로 빼앗게 하는 선택 모듈입니다. 작동 범위 안의 플레이어 인벤토리를 검사해 금지된 아이템을 압수합니다. 손에 들었거나 장착했거나 인벤토리에 보관한 아이템 모두에 적용됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:confiscation_module",
+      "text": "$(5)압수 모듈$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "필터 모드",
+      "text": "필터 모드 설정 및 하단을 따라 실행되는 9 관련 슬롯 $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()의 화면는 모듈의 동작을 구성하는 데 사용됩니다. 필터 모드 설정에는 금지(기본값)와 허용의 두 가지 상태가 있습니다. $(br2)압수된 아이템은 다음으로 수집됩니다. $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()에 인접한 인벤토리입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "금지됨",
+      "text": "토글 버튼에 '금지됨'이라고 표시된 경우, $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()는 9(빨간색) 슬롯을 금지된 아이템 목록으로 처리합니다. 그건 압수해야 해. 이 물건들만 압수됩니다, 플레이어는 자신이 가지고 있는 다른 아이템을 보관할 수 있습니다. 9 아이템 슬롯이 모두 비어 있는 경우, 매트릭스는 플레이어로부터 모든 아이템을 압수해야 한다고 가정합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "허용된",
+      "text": "토글 버튼이 '허용됨'으로 표시되는 경우, 매트릭스는 9(녹색) 슬롯을 플레이어가 보관할 수 있는 아이템 목록으로 처리합니다. 그 외 모든 물품은 압수됩니다. 모든 9 슬롯이 비어 있는 경우, $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()는 모든 품목이 허용되며 어떤 품목도 압수하지 않는다고 가정합니다."
+    }
+  ]
+}

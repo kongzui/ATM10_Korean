@@ -1,0 +1,26 @@
+{
+  "name": "레이저 렌치",
+  "icon": "laserio:laser_wrench",
+  "sortnum": 1,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "레이저 렌치는 여러 블록을 연결하는 데 주로 사용합니다.$(br2)$(l:laserio:laser_node)노드$(/l)나 $(l:laserio:laser_connector)커넥터$(/l)를 Shift+우클릭해 선택한 뒤 다른 블록을 우클릭하면 연결됩니다.$(br2)최대 연결 거리는 8블록입니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "레이저 렌치",
+      "images": [
+        "laserio:textures/book/entries/laser_wrench.png"
+      ],
+      "border": true,
+      "text": "현재 선택된 블록은 녹색으로 강조 표시됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "레이저 렌치",
+      "recipe": "laserio:laser_wrench"
+    }
+  ]
+}

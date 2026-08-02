@@ -1,0 +1,18 @@
+{
+  "name": "생성 차단 모듈",
+  "icon": "mffs:anti_spawn_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:anti_spawn_module",
+      "link_recipe": true,
+      "text": "$(5)생성 차단 모듈$()은 $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()에 넣는 선택 모듈입니다. 설치하면 작동 범위 안에서 우호적·적대적 엔티티가 생성되지 않습니다. 다만 플레이어가 작동 범위 바로 밖에서 생성 알을 사용하면 보호 영역 안에도 엔티티를 생성할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:anti_spawn_module",
+      "text": "$(5)산란 방지 모듈$()를 제작합니다."
+    }
+  ]
+}

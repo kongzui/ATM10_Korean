@@ -1,0 +1,18 @@
+{
+  "name": "주파수 카드",
+  "icon": "mffs:frequency_card",
+  "category": "mffs:tools",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:frequency_card",
+      "link_recipe": true,
+      "text": "$(5)주파수 카드$()는, 기계와 상호작용하기 위한 주파수를 기억하고 생성합니다. 주파수는 기계의 주파수 슬롯에 배치하여 설정할 수 있습니다. 어떤 기계에서든 이 기능을 사용하면 해당 기계의 주파수가 카드에 설정된 대로 설정됩니다. 카드를 들고 있는 동안 Shift 키를 누른 채 마우스 오른쪽 버튼을 클릭하면 임의의 주파수를 생성할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:frequency_card",
+      "text": "$(5)주파수 카드$()를 제작합니다."
+    }
+  ]
+}

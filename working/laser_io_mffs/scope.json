@@ -1,0 +1,141 @@
+{
+  "family": "LaserIO·MFFS",
+  "installed": [
+    {
+      "label": "LaserIO",
+      "jar": "laserio-1.9.11.jar",
+      "namespace": "laserio",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 95,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "laserio"
+      ],
+      "guide_candidates": 111,
+      "guide_examples": [
+        "assets/laserio/patchouli_books/laseriobook/en_us/categories/blocks.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/categories/cards.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/categories/filters.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/categories/items.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/categories/mechanics.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/basics.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_chemical.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_cloner.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_energy.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_fluid.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_holder.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_item.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_redstone.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/channel.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/exact.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/extractamount.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/filter_basic.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/filter_basics.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/filter_count.json",
+        "assets/laserio/patchouli_books/laseriobook/en_us/entries/filter_mod.json"
+      ],
+      "advancements": 30,
+      "advancement_examples": [
+        "data/laserio/advancement/recipes/misc/card_chemical.json",
+        "data/laserio/advancement/recipes/misc/card_chemical_nbtclear.json",
+        "data/laserio/advancement/recipes/misc/card_cloner.json",
+        "data/laserio/advancement/recipes/misc/card_energy.json",
+        "data/laserio/advancement/recipes/misc/card_energy_nbtclear.json",
+        "data/laserio/advancement/recipes/misc/card_fluid.json",
+        "data/laserio/advancement/recipes/misc/card_fluid_nbtclear.json",
+        "data/laserio/advancement/recipes/misc/card_holder.json",
+        "data/laserio/advancement/recipes/misc/card_item.json",
+        "data/laserio/advancement/recipes/misc/card_item_nbtclear.json",
+        "data/laserio/advancement/recipes/misc/card_redstone.json",
+        "data/laserio/advancement/recipes/misc/card_redstone_nbtclear.json",
+        "data/laserio/advancement/recipes/misc/filter_basic.json",
+        "data/laserio/advancement/recipes/misc/filter_basic_nbtclear.json",
+        "data/laserio/advancement/recipes/misc/filter_count.json",
+        "data/laserio/advancement/recipes/misc/filter_count_nbtclear.json",
+        "data/laserio/advancement/recipes/misc/filter_mod.json",
+        "data/laserio/advancement/recipes/misc/filter_mod_nbtclear.json",
+        "data/laserio/advancement/recipes/misc/filter_nbt.json",
+        "data/laserio/advancement/recipes/misc/filter_nbt_nbtclear.json"
+      ],
+      "recipes": 61
+    },
+    {
+      "label": "MFFS",
+      "jar": "mffs-5.4.27.jar",
+      "namespace": "mffs",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 181,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "mffs"
+      ],
+      "guide_candidates": 53,
+      "guide_examples": [
+        "assets/mffs/models/item/handbook.json",
+        "assets/mffs/patchouli_books/handbook/en_us/categories/getting_started.json",
+        "assets/mffs/patchouli_books/handbook/en_us/categories/interdiction_modules.json",
+        "assets/mffs/patchouli_books/handbook/en_us/categories/machines.json",
+        "assets/mffs/patchouli_books/handbook/en_us/categories/projector_modes.json",
+        "assets/mffs/patchouli_books/handbook/en_us/categories/projector_modules.json",
+        "assets/mffs/patchouli_books/handbook/en_us/categories/tools.json",
+        "assets/mffs/patchouli_books/handbook/en_us/categories/upgrade_modules.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/getting_started/crafting_components.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/getting_started/fortron.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/getting_started/gathering_resources.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/getting_started/introduction.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/anti_friendly_module.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/anti_hostile_module.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/anti_personnel_module.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/anti_spawn_module.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/block_access_module.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/block_alter_module.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/confiscation_module.json",
+        "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/warn_module.json"
+      ],
+      "advancements": 53,
+      "advancement_examples": [
+        "data/mffs/advancement/camouflage.json",
+        "data/mffs/advancement/custom_camouflage.json",
+        "data/mffs/advancement/field_shape.json",
+        "data/mffs/advancement/field_shock.json",
+        "data/mffs/advancement/grant_book_on_first_join.json",
+        "data/mffs/advancement/projector.json",
+        "data/mffs/advancement/recipes/misc/anti_friendly_module.json",
+        "data/mffs/advancement/recipes/misc/anti_hostile_module.json",
+        "data/mffs/advancement/recipes/misc/anti_personnel_module.json",
+        "data/mffs/advancement/recipes/misc/anti_spawn_module.json",
+        "data/mffs/advancement/recipes/misc/battery.json",
+        "data/mffs/advancement/recipes/misc/biometric_identifier.json",
+        "data/mffs/advancement/recipes/misc/blank_card.json",
+        "data/mffs/advancement/recipes/misc/block_access_module.json",
+        "data/mffs/advancement/recipes/misc/block_alter_module.json",
+        "data/mffs/advancement/recipes/misc/camouflage_module.json",
+        "data/mffs/advancement/recipes/misc/capacity_module.json",
+        "data/mffs/advancement/recipes/misc/coercion_deriver.json",
+        "data/mffs/advancement/recipes/misc/collection_module.json",
+        "data/mffs/advancement/recipes/misc/confiscation_module.json"
+      ],
+      "recipes": 87
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "LaserIO",
+      "jar": "laserio-1.9.11.jar",
+      "namespace": "laserio",
+      "english_keys": 95,
+      "new_translation_required": 95
+    },
+    {
+      "label": "MFFS",
+      "jar": "mffs-5.4.27.jar",
+      "namespace": "mffs",
+      "english_keys": 181,
+      "new_translation_required": 181
+    }
+  ]
+}

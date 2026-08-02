@@ -1,0 +1,50 @@
+{
+  "name": "사용자 지정 모드",
+  "icon": "mffs:custom_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:custom_mode",
+      "link_recipe": true,
+      "text": "$(2)사용자 지정 모드$()는 원하는 모양이나 구조의 역장을 만들 수 있는 가장 유연한 모드입니다. 사용자가 만든 블록 모양을 $(2)사용자 지정 모드$() 아이템이 분석해 저장하면 프로젝터가 원본의 $(9)정확한 복제본$()을 역장으로 만듭니다. 다리, 집, 거대한 요새처럼 $(9)만들 수 있는 모든 구조$()를 역장으로 구현할 수 있습니다!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:custom_mode",
+      "text": "$(2)사용자 정의 모드$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "사용법",
+      "text": "$(2)사용자 정의 모드$() 아이템을 보유하고 세계의 두 블록에서 사용하세요. 이 두 개의(기본 및 보조) 블록은 $(2)사용자 지정 모드$()가 분석할 수 있는 3D 공간을 정의합니다. 각 블록을 클릭할 때마다, 세계에서의 좌표는 '기본 위치'와 '보조 위치'로 저장됩니다. 은신 중에 사용하면 $(2)사용자 정의 모드$() 아이템에 선택한 지점 사이에 존재하는 모든 블록을 분석하고 저장하도록 지시할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "프로젝터에 $(2)사용자 지정 모드$()를 넣으면 알려진 모드 모양과 다르다는 표시로 무작위 홀로그램이 계속 나타납니다. 이는 정상 동작입니다. 원한다면 방향 화살표가 있는 슬롯에 $(l:mffs:projector_modules/translation_module)$(5)이동 모듈$()을 넣어 프로젝터를 기준으로 역장이 나타날 위치를 정할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "현장 조정",
+      "text": "다른 프로젝터 모드처럼 $(2)사용자 지정 모드$() 역장도 $(l:mffs:projector_modules/rotation_module)$(5)회전 모듈$()과 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()로 각각 회전하거나 크기를 바꿀 수 있습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/custom_mode.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "$(2)사용자 정의 모드$() 필드가 투영되고 있습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/custom_mode_camo.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "$(l:mffs:projector_modules/camouflage_module)$(5) 위장 모듈$()가 적용된 상태로 투영되는 $(2)사용자 정의 모드$() 필드."
+    }
+  ]
+}

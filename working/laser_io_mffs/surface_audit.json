@@ -1,0 +1,11 @@
+{
+  "advancement_files": 83,
+  "advancement_display_nodes": 9,
+  "advancement_direct_literals": 0,
+  "kubejs_reference_files": [
+    "kubejs/assets/mffs/lang/ru_ru.json",
+    "kubejs/server_scripts/mods/ModularForceFieldSystem/recipes.js"
+  ],
+  "kubejs_direct_display_lines": [],
+  "status": "complete"
+}

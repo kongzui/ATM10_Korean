@@ -1,0 +1,12 @@
+{
+  "name": "레드스톤 채널",
+  "sortnum": 11,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/redstoneignore.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "카드에는 기본 채널과 별개인 '레드스톤 채널'이 있습니다.$(br2)이 채널의 레드스톤 신호가 카드에 영향을 줍니다. $(l:laserio:redstonemode)레드스톤 모드$(/l)와 $(l:laserio:card_redstone)레드스톤 카드$(/l) 아이템을 참고하세요."
+    }
+  ]
+}

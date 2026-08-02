@@ -1,0 +1,18 @@
+{
+  "name": "크기 모듈",
+  "icon": "mffs:scale_module",
+  "category": "mffs:upgrade_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:scale_module",
+      "link_recipe": true,
+      "text": "$(5)크기 모듈$()은 여러 MFFS 기계의 거리 관련 성능을 높입니다. 기계에 따라 효과가 다르며 주로 다음 기능을 제공합니다: $(li)역장 크기 증가$(li)차단 영역 증가$(li)$(l:mffs:machines/coercion_deriver)강제 유도기$()의 연료 증폭 효과 증가"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:scale_module",
+      "text": "$(5)크기 모듈$() 제작법입니다."
+    }
+  ]
+}

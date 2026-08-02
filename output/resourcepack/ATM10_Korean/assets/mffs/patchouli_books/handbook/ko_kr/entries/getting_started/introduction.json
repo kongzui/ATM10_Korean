@@ -1,0 +1,29 @@
+{
+  "name": "소개",
+  "icon": "minecraft:lectern",
+  "category": "mffs:getting_started",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Modular Force Field Systems$()(MFFS)는 Minecraft에 $(3)역장$(), $(5)첨단 기계$(), $(6)방어 수단$()을 추가하는 모드입니다. 핵폭발이 집을 날려 버리거나 다른 사람이 비밀 기지에 들어오는 일에 지치셨나요? $(l)MFFS가 해결해 드립니다!$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/overview.png"
+      ],
+      "border": true,
+      "text": "MFFS 역장 기술 개요"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "역장은 다양한 용도로 사용될 수 있습니다. 포함 사항: $(li)집에 침입자가 들어오지 못하게 하기$(li)건물 구조$(li)수중 기지 만들기 또는 에어록$(li)다가오는 몹 제거$(li)트랩에 갇힌 적을 포획$(li)탄도로부터 보호 미사일$(li)플레이어의 아이템 압수$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "MFFS에는 $(3)전기 에너지에 대한 종속성을 제거할 수 있는 구성 옵션도 있습니다$(), 바닐라 마인크래프트 내에서 사용하거나 다른 모드와 함께 사용할 수 있습니다. MFFS는 $(2)멀티 플레이어$() 세계에서 가장 일반적으로 사용됩니다. 그러나 확실히 $(2)싱글 플레이어$()에도 많은 이점을 제공합니다."
+    }
+  ]
+}

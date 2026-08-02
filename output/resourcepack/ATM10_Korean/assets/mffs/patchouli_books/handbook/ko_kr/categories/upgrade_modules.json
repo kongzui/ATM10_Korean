@@ -1,0 +1,6 @@
+{
+  "name": "업그레이드 모듈",
+  "description": "역장 장비에 대해 보편적으로 사용 가능한 업그레이드 모듈입니다.",
+  "sortnum": 2,
+  "icon": "mffs:scale_module"
+}
