@@ -1,0 +1,12 @@
+{
+  "name": "다형성 촉매",
+  "sortnum": 25,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:polymorphic_catalyst",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "다형성 촉매는 물을 다형성 유체로 변환하는 데 사용되는 핵심 성분입니다. 이는 물의 분자 구조 조정을 통해 다른 원소 특성을 받아들이고 결합할 수 있게 하여 모드 내에서 다양한 특수 유체를 생산하는 기초가 됩니다."
+    }
+  ]
+}

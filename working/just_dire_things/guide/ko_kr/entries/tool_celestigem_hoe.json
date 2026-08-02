@@ -1,0 +1,17 @@
+{
+  "name": "셀레스티젬 괭이",
+  "sortnum": 17,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:celestigem_hoe[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:tool_blazegold_hoe)블레이즈골드 괭이$(/l)의 상위 티어이며 내구도 대신 Forge Energy를 사용합니다. 이 괭이로 경작하면 보이드시머 토양이 됩니다.$(br2)괭이에 전리품 순간이동 능력이 있고 인벤토리에 연결되어 있으면 자동 수확한 아이템이 해당 인벤토리로 이동합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:celestigem_hoe",
+      "text": "셀레스티젬 괭이 제작"
+    }
+  ]
+}

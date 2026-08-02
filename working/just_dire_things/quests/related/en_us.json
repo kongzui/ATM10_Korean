@@ -1,0 +1,48 @@
+{
+  "quest.5660E81BBEED6DC3.quest_desc": [
+    "The &dSoul Binding Crystal&r is the most difficult one to craft. \\n&3Ender Pearl Fragments&r can be crafted from &3Ender Pearls&r which can be farmed from &5Endermen&r. You can use an Extractor to get infinite &5Amethyst&r. Quartz can be farmed from &2&lMA&r. \\n\\nNow we need to focus on the Souls. To start we need normal Souls! Which we usually use a Soul Extractor on Soul Sand to take the Soul out of it. \\n\\nBut that's from using an Item, and it changes the Soul Sand... First, we can replace ourselves by using a Clicker from &3&lJust Dire Things&r! \\n\\nNow we just need to replace the Souless Sand with Soul Sand, which can be used with Block Breakers and Placers, also from &3&lJust Dire Things&r. \\n\\nNow we can combine Souls with &5Corrupti Dust&r and Trapped Souls (farmed Items from &5Lunar Guardian&r) to get Corrupt Souls. \\n\\nFinally, combine Souls with Liquid Aureal and the Holy Hand Grenade to make Enchanted Souls. The Holy Hand Grenade is from a line of recipes from &c&lReliquary&r."
+  ],
+  "quest.10AA2B20D86747F7.quest_desc": [
+    "&bFerricore&r has same stats as Iron but has other abilities Iron wishes it had! \\n\\nCheck out the Item descriptions to learn more of what they can do!"
+  ],
+  "quest.10AA2B20D86747F7.quest_subtitle": "15",
+  "quest.10AA2B20D86747F7.title": "&bFerricore Amor",
+  "quest.1A8440C0048EEB02.quest_desc": [
+    "&cBlazegold&r has same stats as Iron but has other abilities Iron wishes it had! \\n\\nCheck out the Item descriptions to learn more of what they can do!"
+  ],
+  "quest.1A8440C0048EEB02.quest_subtitle": "15",
+  "quest.1A8440C0048EEB02.title": "&cBlazegold Armor",
+  "quest.161878AB4236C58B.quest_subtitle": "&f6.5 &cAttack Damage",
+  "quest.1756F81ACFC56C58.quest_subtitle": "Tier: &e5",
+  "quest.252169A6EB4DD75B.quest_subtitle": "&f9 &cAttack Damage",
+  "quest.36B9D5A99E1AA85C.quest_subtitle": "&f8 &cAttack Damage",
+  "quest.6EFA73A4D01F0052.quest_subtitle": "&f7 &cAttack Damage",
+  "task.68667F586AF5D058.title": "Just Dire Things Diamond Pickaxes",
+  "quest.40C068B2B8AC0F33.quest_desc": [
+    "Terraforming is an important part to even the simplest of Builds. But we &2&lMinecraft&r Players just simply don't have the time or effort to do so. \\n\\nSo why not let Machines do it for us? \\n\\nQuarries are very easy ways of doing so but they all start with Block Breakers. The Simple Block Breaker will only break what is in front of it, not the most helpful... \\n\\nBut the Advanced Block Breaker will Mine a set Area! Much better for Terraforming!"
+  ],
+  "quest.40C068B2B8AC0F33.title": "Quarries and Mines",
+  "quest.6A46A9F04D2A0748.quest_desc": [
+    "Direwolf is a name synonymous with Modded Minecraft and &3&lJust Dire Things&r is one of his babies. \\n\\nIt revolves around Goo, yeah I know sounds enticing!"
+  ],
+  "quest.6A46A9F04D2A0748.title": "&3&lJust Dire Things",
+  "quest.6D1E8399AD39FFC8.quest_desc": [
+    "The &7Paradox Machine&r can, for a price of a lot of Power and &aTime Fluid&r, take a Snapshot of blocks and entities in the designated area; then it can duplicate it. \\n\\nLots of Blocks and Entities are blacklisted by configs so no duplicating Bees!"
+  ],
+  "quest.6D1E8399AD39FFC8.title": "&7Paradox Machine",
+  "quest.0C25F73C0E0FB22A.quest_desc": [
+    "Another Essence needed for our &c&lAutomatic Forge&r is &aExperience&r! Well it's &aFluid XP&r from &3&lJust Dire Things&r. \\n\\nTo get &aXP Fluid&r we'll need an &aExperience Holder&r, these can be set to collect &aXP&r in a set area with the Collect XP option. \\n\\nDon't worry, Mobs killed by &7Spiked Plates&r will still drop &aXP&r, so put these next to your Farms! \\n\\nYou can also deposit other forms of &aFluid XP&r into it or even your own &aXP&r levels!"
+  ],
+  "quest.0C25F73C0E0FB22A.title": "Auto &aExperience",
+  "quest.3DF1435A15515DA9.quest_desc": [
+    "To get Souls automatically we'll need a few Machines from &3&lJust Dire Things&r. \\nWe'll need a Block Placer, set to place Soul Sand. \\n\\nWe'll then need an Advanced Clicker with a Soul Extractor set to where the Soul Sand we'll be placed. The Clicker needs to be configured to Hold Click, for quite a few Ticks. \\n\\nFinally, we'll need an Advanced Block Placer set to break where the Soul Sand will be. Remember to set its filter to only break Soulless Sand, and equip it with a Tool! \\n\\nAll these machines will need Power (beside Block Placer if you use the normal version) and Advanced Breaker and Advanced Clicker will need their tools which have Durability.",
+    "{@pagebreak}",
+    "{image:atm:textures/questpics/forbidden/forbidden_autosoul.png width:150 height:100 align:center}",
+    "In this image the Breaker is on the Left, the Placer is Below, and the Clicker is on the Right but its placement does not matter!"
+  ],
+  "quest.3DF1435A15515DA9.title": "Automatic Souls",
+  "quest.4E014B495668A601.quest_desc": [
+    "Now that we have our &aExperience Holder&r collecting &aXP&r, we can just pipe the &aXP Fluid&r into our &c&lAuto Forge&r!"
+  ],
+  "quest.4E014B495668A601.title": "&aXP Fluid&r"
+}

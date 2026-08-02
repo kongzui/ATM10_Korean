@@ -1,0 +1,17 @@
+{
+  "name": "광석 채굴",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_oreminer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "광석 채굴 업그레이드는 페리코어 이상의 곡괭이에 설치하는 패시브 능력입니다. 직접 캔 광석과 이어진 같은 광석 블록을 자동으로 함께 채굴합니다. 광석에만 적용되는 자동 광맥 채굴과 비슷합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "광석 채굴 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_oreminer"
+    }
+  ]
+}

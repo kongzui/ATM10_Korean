@@ -1,0 +1,17 @@
+{
+  "name": "페리코어 흉갑",
+  "sortnum": 2,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:ferricore_chestplate",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "강력한 보호 기능을 제공하는 페리코어 흉갑은 표준 철 방어구보다 더 오래 견딜 수 있도록 제작되었습니다. 또한 특별 업그레이드를 통해 방어 능력을 강화할 수도 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "페리코어 흉갑 제작",
+      "recipe": "justdirethings:ferricore_chestplate"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "플레이어 접근기",
+  "sortnum": 21,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:playeraccessor",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "플레이어 접근기는 호퍼나 파이프 같은 외부 장치가 플레이어 인벤토리에 아이템을 직접 넣거나 꺼내게 하는 보조 블록입니다. 플레이어 인벤토리를 자동화 시스템에 연결할 때 사용합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "화면의 버튼으로 각 면이 접근할 인벤토리 슬롯을 정합니다.$(br2)예를 들어 윗면은 방어구 슬롯에 장착하거나 꺼내고, 아랫면은 보조 손 슬롯과 상호 작용하도록 설정할 수 있습니다."
+    }
+  ]
+}

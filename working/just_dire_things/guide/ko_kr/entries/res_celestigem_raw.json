@@ -1,0 +1,12 @@
+{
+  "name": "미가공 셀레스티젬 광석",
+  "sortnum": 4,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:raw_celestigem_ore",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "다이아몬드 블록을 보이드시머 구로 변환하면 미가공 셀레스티젬 광석이 됩니다. 이 블록을 채굴하면 $(l:justdirethings:res_celestigem)셀레스티젬$(/l)을 얻습니다."
+    }
+  ]
+}

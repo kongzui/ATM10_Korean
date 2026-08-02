@@ -1,0 +1,17 @@
+{
+  "name": "셀레스티젬 활",
+  "sortnum": 18,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:bow_celestigem[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "셀레스티젬 활은 $(l:justdirethings:tool_blazegold_bow)블레이즈골드 활$(/l)의 상위 티어로, 내구도 대신 최대 10,000 FE의 Forge Energy를 사용합니다.$(br2)물약 캔 슬롯 세 개가 있어 효과를 조합할 수 있습니다. $(l:justdirethings:item_potion_canister)물약 캔$(/l)을 넣어 화살에 효과를 부여하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:bow_celestigem",
+      "text": "셀레스티젬 활 제작"
+    }
+  ]
+}

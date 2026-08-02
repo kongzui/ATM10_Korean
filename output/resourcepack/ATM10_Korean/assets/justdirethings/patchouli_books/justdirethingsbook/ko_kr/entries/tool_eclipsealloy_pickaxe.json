@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 곡괭이",
+  "sortnum": 21,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_pickaxe[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이클립스 합금 곡괭이는 뛰어난 내구도와 큰 에너지 저장량을 갖춰 매우 단단한 재료도 효율적으로 채굴합니다.$(br2)높은 티어의 채굴 업그레이드를 지원합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:eclipsealloy_pickaxe",
+      "text": "이클립스 합금 곡괭이 제작"
+    }
+  ]
+}

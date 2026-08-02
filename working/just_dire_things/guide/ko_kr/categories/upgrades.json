@@ -1,0 +1,6 @@
+{
+  "name": "업그레이드",
+  "description": "방어구와 도구에 적용할 수 있는 업그레이드를 설명합니다.",
+  "icon": "justdirethings:upgrade_mobscanner",
+  "sortnum": 5
+}

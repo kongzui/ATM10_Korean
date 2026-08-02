@@ -1,0 +1,17 @@
+{
+  "name": "간단한 블록 배치기",
+  "sortnum": 5,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockplacert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "간단한 블록 배치기는 인벤토리의 블록을 앞쪽 공간에 자동으로 놓습니다.$(br2)방향 버튼으로 어느 면을 향해 배치할지 정할 수 있어 횃불처럼 방향이 있는 블록에 유용합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "간단한 블록 배치기",
+      "recipe": "justdirethings:blockplacert1"
+    }
+  ]
+}

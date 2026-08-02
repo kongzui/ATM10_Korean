@@ -454,6 +454,12 @@ TARGETS = (
         "Soulplied Energistics",
         True,
     ),
+    Target(
+        "just_dire_things",
+        "justdirethings-",
+        "justdirethings",
+        "Just Dire Things",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -484,6 +490,7 @@ FAMILY_LABELS = {
     "immersive_engineering": "Immersive Engineering",
     "pneumaticcraft": "PneumaticCraft: Repressurized",
     "industrial_foregoing": "Industrial Foregoing·Industrial Foregoing Souls",
+    "just_dire_things": "Just Dire Things",
 }
 
 QUEST_CHAPTERS = {
@@ -519,6 +526,7 @@ QUEST_CHAPTERS = {
     "immersive_engineering": ("immersive_engineering",),
     "pneumaticcraft": ("pneumaticcraft",),
     "industrial_foregoing": ("industrial_foregoing",),
+    "just_dire_things": ("justdirethings",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -619,6 +627,10 @@ QUEST_TEXT_MARKERS = {
         "industrialforegoing",
         "industrial foregoing souls",
         "industrialforegoingsouls",
+    ),
+    "just_dire_things": (
+        "just dire things",
+        "justdirethings",
     ),
 }
 
@@ -725,6 +737,7 @@ ALLOWED_ORIGINALS = {
     "Industrial Foregoing &#27AEB9Souls",
     "Industrial Foregoing: Souls",
     "Soulplied Energistics",
+    "Just Dire Things",
     "&lIndustrial Foregoing",
     "&bIndustrial Foregoing &#27AEB9Souls",
     "XOR",

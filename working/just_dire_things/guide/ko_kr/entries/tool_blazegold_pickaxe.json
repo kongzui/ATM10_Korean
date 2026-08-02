@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 곡괭이",
+  "sortnum": 8,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_pickaxe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:tool_ferricore_pickaxe)페리코어 곡괭이$(/l)보다 빠르고 '용암 수리'가 포함되어 있어 용암에 떨어지면 스스로 수리됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_pickaxe",
+      "text": "블레이즈골드 곡괭이 제작"
+    }
+  ]
+}

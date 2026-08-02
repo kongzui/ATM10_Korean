@@ -1,0 +1,17 @@
+{
+  "name": "셀레스티젬 곡괭이",
+  "sortnum": 14,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:celestigem_pickaxe[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Forge Energy 저장 공간로 $(l:justdirethings:tool_blazegold_pickaxe)블레이즈골드 곡괭이$(/l)를 향상시킨 이 도구는 최대 10,000 FE까지 수용합니다. 계속 사용하려면 $(l:justdirethings:item_pocket_generator)휴대용 발전기$(/l)로 충전하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:celestigem_pickaxe",
+      "text": "셀레스티젬 곡괭이 제작"
+    }
+  ]
+}

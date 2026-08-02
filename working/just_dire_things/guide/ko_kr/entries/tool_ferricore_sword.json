@@ -1,0 +1,17 @@
+{
+  "name": "페리코어 검",
+  "sortnum": 1,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:ferricore_sword",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "페리코어 검은 철 검보다 공격력과 내구도가 조금 높은 근접 무기입니다. 여러 특수 능력을 업그레이드해 전투 성능을 더 높일 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:ferricore_sword",
+      "text": "페리코어 검을 제작하는 방법은 다음과 같습니다."
+    }
+  ]
+}

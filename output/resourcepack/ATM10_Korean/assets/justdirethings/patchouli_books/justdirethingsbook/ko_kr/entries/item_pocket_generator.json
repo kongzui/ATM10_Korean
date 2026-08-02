@@ -1,0 +1,21 @@
+{
+  "name": "휴대용 발전기",
+  "sortnum": 2,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:pocket_generator",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "휴대용 발전기는 이동 중에 도구와 방어구의 Forge Energy를 충전하는 휴대용 전원입니다.$(br2)아이템을 클릭해 화면을 열고 석탄이나 이 모드의 특수 석탄을 연료로 넣으세요!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "높은 티어의 연료는 더 뜨겁고 오래 타므로 틱당 더 많은 Forge Energy를 생산합니다. $(l:justdirethings:item_fuel_canister)연료 캔$(/l)도 사용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "휴대용 발전기 제작",
+      "recipe": "justdirethings:pocket_generator"
+    }
+  ]
+}

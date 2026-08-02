@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 흉갑",
+  "sortnum": 6,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:blazegold_chestplate",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "블레이즈골드 흉갑은 향상된 방어 기능을 제공할 뿐만 아니라 용암 수리 기능도 갖추고 있습니다. 이 흉갑을 용암 원천 블록에 떨어뜨려 완전히 수리하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "블레이즈골드 흉갑 제작",
+      "recipe": "justdirethings:blazegold_chestplate"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "연료 캔",
+  "sortnum": 1,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:fuel_canister",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "연료 캔은 많은 연료를 저장하고 운반합니다.$(br2)아이템을 우클릭해 화면을 연 뒤 Shift + 클릭하거나 연료를 집어 슬롯에 놓으세요. 석탄과 목재 같은 연료는 사용할 수 있지만 용암 양동이는 사용할 수 없습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "저장된 연료량은 툴팁에 표시됩니다. 연료 캔을 화로와 발전기 같은 기계에 넣으면 캔에 저장된 연료를 사용합니다. 광석 한 개를 제련하면서 석탄 한 개를 통째로 낭비하지 않아도 됩니다!$(br2)참고: 넣은 연료 아이템은 다시 꺼낼 수 없습니다!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 모드의 연료를 넣으면 연료 배수 속성도 전달되며 캔 안의 기존 연료와 평균을 냅니다. $(l:justdirethings:item_pocket_generator)휴대용 발전기$(/l)나 $(l:justdirethings:mach_generatort1)석탄 발전기$(/l)에서 사용할 때 적용되는 배수는 연료 캔의 툴팁에서 확인할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "연료 캔 제작",
+      "recipe": "justdirethings:fuel_canister"
+    }
+  ]
+}

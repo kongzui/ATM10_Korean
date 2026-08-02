@@ -1,0 +1,17 @@
+{
+  "name": "페리코어 레깅스",
+  "sortnum": 3,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:ferricore_leggings",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "편안함과 보호 기능을 모두 고려하여 설계된 페리코어 레깅스는 향상된 내구성과 이동 속도를 높이기 위한 추가 업그레이드 옵션을 제공합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "페리코어 레깅스 제작",
+      "recipe": "justdirethings:ferricore_leggings"
+    }
+  ]
+}

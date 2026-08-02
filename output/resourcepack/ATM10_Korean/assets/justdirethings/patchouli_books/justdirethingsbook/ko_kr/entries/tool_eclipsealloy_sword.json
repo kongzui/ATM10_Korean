@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 검",
+  "sortnum": 20,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_sword[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이클립스 합금 검은 Just Dire Things 전투 도구의 최종 티어이며, 가장 강력한 업그레이드를 지원할 만큼 에너지 용량이 큽니다.$(br2)이클립스 합금으로 만든 이 도구는 공격력과 내구도가 뛰어나 강력한 공격 능력에 적합합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:eclipsealloy_sword",
+      "text": "이클립스 합금 검 제작"
+    }
+  ]
+}

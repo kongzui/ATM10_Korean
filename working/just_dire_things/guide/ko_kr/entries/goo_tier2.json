@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈블룸 구",
+  "sortnum": 2,
+  "category": "justdirethings:goo",
+  "icon": "justdirethings:gooblock_tier2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "블레이즈블룸 구에는 네더의 불타는 기운이 담겨 있습니다. 금을 태양 에너지가 깃든 블레이즈골드로 바꾸며, 제작과 마법 양쪽에서 더 좋은 재료를 제공합니다.$(br2)자원을 조작하고 정제하는 능력이 한 단계 높아진 중간 티어의 구입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "블레이즈블룸 구 제작",
+      "recipe": "justdirethings:gooblock_tier2"
+    }
+  ]
+}

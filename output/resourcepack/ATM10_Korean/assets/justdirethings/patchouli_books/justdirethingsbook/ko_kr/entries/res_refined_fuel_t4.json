@@ -1,0 +1,16 @@
+{
+  "name": "이클립스 엠버 연료",
+  "sortnum": 29,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:refined_t4_fluid_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:res_coal_t4)이클립스 엠버$(/l)를 $(l:justdirethings:res_refined_fuel_t3)보이드플레임 연료$(/l)에 떨어뜨려 정제되지 않은 이클립스 엠버 연료를 만드세요. 이 유체를 섀도우펄스 구 옆에 놓으면 최종 티어 연료로 정제됩니다. 틱당 FE와 총 FE 생성량이 가장 큽니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "정제된 이클립스 엠버 연료는 효율적인 연료이며 $(l:justdirethings:mach_generatorfluidt1)유체 연료 발전기$(/l)에서 에너지를 생성하는 데 사용할 수 있습니다."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "물약 캔",
+  "sortnum": 20,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:potion_canister",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "물약 캔을 우클릭하면 물약 병을 넣는 화면이 열립니다. 넣은 물약은 캔 내부에 저장됩니다.$(br2)물약 캔을 활의 전용 슬롯에 장착하면 발사한 화살에 물약 효과가 적용됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "물약 캔을 사용하려면 활에 필요한 업그레이드를 설치해야 합니다.$(br2)활의 도구 설정 화면에서 물약 캔을 알맞은 슬롯에 넣었는지도 확인하세요."
+    }
+  ]
+}

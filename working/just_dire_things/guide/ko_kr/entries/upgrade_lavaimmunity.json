@@ -1,0 +1,17 @@
+{
+  "name": "용암 면역",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_lavaimmunity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "용암 면역 업그레이드는 용암 피해를 완전히 막아 줍니다.$(br2)작동 중에는 Forge Energy를 소비하므로 에너지가 떨어지지 않게 주의하세요!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "용암 면역 제작",
+      "recipe": "justdirethings:upgrade_lavaimmunity"
+    }
+  ]
+}

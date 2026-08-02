@@ -1,0 +1,21 @@
+{
+  "jar": "justdirethings-1.5.7.jar",
+  "english_files": 165,
+  "advancements": 392,
+  "advancements_with_display": 0,
+  "kubejs_reference_files": [
+    "kubejs/assets/emi/index/stacks/removals.json",
+    "kubejs/client_scripts/RecipeViewer.js",
+    "kubejs/data/productivebees/recipe/centrifuge/honeycomb_experience_fluid.json",
+    "kubejs/server_scripts/modpack/att_items.js",
+    "kubejs/server_scripts/mods/Actually Additions/Fluid_Fuels.js",
+    "kubejs/server_scripts/mods/AdditionalEnchantedMiner/Recipes.js",
+    "kubejs/server_scripts/mods/Indusrial Foregoing/Dissolution Chamber.js",
+    "kubejs/server_scripts/mods/JustDireThings/Recipes.js",
+    "kubejs/server_scripts/mods/modular_machinery/recipes/atm/auto_hephaestus_forge.js",
+    "kubejs/server_scripts/mods/modular_machinery/recipes/atm/runic_enchanter.js",
+    "kubejs/server_scripts/mods/Time In A Bottle/Recipes.js",
+    "kubejs/server_scripts/Tweaks/tags.js"
+  ],
+  "kubejs_visible_literals": []
+}

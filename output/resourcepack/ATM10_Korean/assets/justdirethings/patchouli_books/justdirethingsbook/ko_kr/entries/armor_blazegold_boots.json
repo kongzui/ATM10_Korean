@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 부츠",
+  "sortnum": 8,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:blazegold_boots",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "블레이즈골드 부츠는 향상된 발 보호 기능을 제공하며 용암 수리 기능과 함께 제공됩니다. 이 부츠를 완전히 수리하려면 용암 원천 블록에 떨어뜨리세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "블레이즈골드 부츠 제작",
+      "recipe": "justdirethings:blazegold_boots"
+    }
+  ]
+}

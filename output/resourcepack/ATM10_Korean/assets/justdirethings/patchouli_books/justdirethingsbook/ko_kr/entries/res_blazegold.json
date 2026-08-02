@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 주괴",
+  "sortnum": 3,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:blazegold_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "블레이즈골드 주괴는 $(l:justdirethings:res_blazegold_raw)미가공 블레이즈골드 광석$(/l)에서 얻은 블레이즈골드 원석을 제련해 만듭니다. 마법적 성질을 지닌 아이템의 핵심 재료입니다."
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "블레이즈골드 원석 제련",
+      "recipe": "justdirethings:blazegold_ingot_smelted"
+    }
+  ]
+}

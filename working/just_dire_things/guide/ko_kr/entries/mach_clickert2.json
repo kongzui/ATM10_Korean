@@ -1,0 +1,17 @@
+{
+  "name": "고급 클릭기",
+  "sortnum": 8,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:clickert2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "고급 클릭기는 $(l:justdirethings:mach_clickert1)간단한 클릭기$(/l)의 상위 버전으로, 더 넓은 영역에서 작동하고 블록과 엔티티 필터를 지원합니다.$(br2)엔티티 필터에는 생성 알이나 생물 포획기를 사용하세요.$(br2)적대적 몹을 좌클릭하도록 설정하면 몹 농장에, 성체를 우클릭하도록 설정하면 동물 번식기에 활용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "고급 클릭기",
+      "recipe": "justdirethings:clickert2"
+    }
+  ]
+}

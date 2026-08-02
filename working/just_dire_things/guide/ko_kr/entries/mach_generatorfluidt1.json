@@ -1,0 +1,17 @@
+{
+  "name": "간단한 유체 연료 발전기",
+  "sortnum": 20,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:generatorfluidt1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "간단한 유체 연료 발전기는 보다 효율적인 에너지 생산을 위해 정제된 연료를 사용하여 $(l:justdirethings:mach_generatort1)간단한 석탄 발전기$(/l)의 기능을 확장합니다.$(br2)연료 옵션은 $(l:justdirethings:res_refined_fuel_t2)정제 연료$(/l) 섹션을 참조하세요. 사용 가능한 3 티어의 연료가 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "간단한 유체 연료 발전기",
+      "recipe": "justdirethings:generatorfluidt1"
+    }
+  ]
+}

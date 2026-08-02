@@ -1,0 +1,17 @@
+{
+  "name": "미가공 블레이즈골드 광석",
+  "sortnum": 2,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:raw_blazegold_ore",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "금 블록을 블레이즈블룸 구로 변환하면 미가공 블레이즈골드 광석이 됩니다. 이를 채굴해 얻은 블레이즈골드 원석을 제련하면 $(l:justdirethings:res_blazegold)블레이즈골드 주괴$(/l)가 됩니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "justdirethings:raw_blazegold",
+      "text": "미가공 블레이즈골드 광석을 부수면 블레이즈골드 원석이 나옵니다"
+    }
+  ]
+}

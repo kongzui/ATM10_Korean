@@ -1,0 +1,21 @@
+{
+  "name": "이클립스 게이트 지팡이",
+  "sortnum": 7,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:eclipsegate_wand[justdirethings:forge_energy=100000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이클립스 게이트 지팡이는 마법 도구의 최종 티어입니다.$(br2)$(l:justdirethings:item_voidshift_wand)보이드 시프트 지팡이$(/l)의 능력에 이클립스 게이트가 추가됩니다. 블록을 우클릭하면 그 주변과 뒤쪽 블록이 잠시 사라집니다!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "잠시 뒤 블록은 원래 상태로 돌아옵니다. 상자 같은 블록 엔티티에는 영향을 주지 않습니다.$(br2)설정 화면에서 능력의 범위를 조정할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "이클립스 게이트 지팡이 제작",
+      "recipe": "justdirethings:eclipsegate_wand"
+    }
+  ]
+}

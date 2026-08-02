@@ -1,0 +1,17 @@
+{
+  "name": "시간 조작 방지",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_time_protection",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:res_time_crystal)시간 수정$(/l)은 강력하지만 들고 다니면 의도하지 않은 시간 왜곡이 생길 수 있습니다. 더 연구하면 시간을 바꾸는 장치와 능력에도 쓰일 수 있습니다.$(br2)이 업그레이드를 장착하면 시간 조작으로 생기는 이상 현상에서 보호받습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "시간 조작 방지 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_time_protection"
+    }
+  ]
+}

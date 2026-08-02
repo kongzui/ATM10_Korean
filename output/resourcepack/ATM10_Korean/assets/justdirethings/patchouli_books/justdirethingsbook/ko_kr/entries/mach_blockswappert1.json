@@ -1,0 +1,29 @@
+{
+  "name": "간단한 교환기",
+  "sortnum": 13,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockswappert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "간단한 교환기는 서로 연결된 두 위치의 블록이나 엔티티를 맞바꿉니다.$(br2)교환기 두 개를 놓은 뒤 페리코어 렌치로 첫 번째와 두 번째 교환기를 차례로 우클릭하세요. 연결되었다는 메시지가 표시됩니다.$(br2)화면의 초록색 버튼에서도 연결 위치를 확인할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)블록$() 버튼을 켜면 두 교환기 앞의 블록을 서로 바꾸고, 끄면 블록을 무시합니다.$(br2)$(l)엔티티$() 버튼의 대상 설정은 $(l:justdirethings:mach_clickert1)간단한 클릭기$(/l)의 엔티티 필터와 같습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "상자 같은 블록 엔티티도 내용물과 함께 정상적으로 교환됩니다.$(br2)서로 다른 상자나 기계를 맞바꾸거나 월드의 두 블록 종류를 한꺼번에 교체할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "엔티티를 타겟팅할 때 두 위치(타겟 플레이어) 간 순간 이동의 초기 형태로 사용하거나 일부 몹이나 엔티티를 잡아서 다른 곳으로 보낼 수 있습니다. $(br2)예를 들어 아기 동물을 앞에 배치하고 성인만 순간 이동하도록 설정할 수 있습니다. 아기가 자라면 순간이동을 할 거예요!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "간단한 교환기",
+      "recipe": "justdirethings:blockswappert1"
+    }
+  ]
+}

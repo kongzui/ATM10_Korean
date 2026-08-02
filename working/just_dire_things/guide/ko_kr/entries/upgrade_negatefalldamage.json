@@ -1,0 +1,17 @@
+{
+  "name": "낙하 피해 무효화",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_negatefalldamage",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "낙하 피해 무효화 업그레이드로 우발적인 추락으로부터 자신을 보호하세요. 이 업그레이드는 모든 추락 피해를 흡수하여 안전한 착륙을 보장합니다.$(br2)참고: 추락을 완화하기 위해 에너지를 사용합니다. 더 많은 피해를 차단할수록 더 많은 에너지를 사용합니다. 셀레스티젬 부츠에는 에너지가 많지 않습니다...."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "낙하 피해 무효화 제작",
+      "recipe": "justdirethings:upgrade_negatefalldamage"
+    }
+  ]
+}

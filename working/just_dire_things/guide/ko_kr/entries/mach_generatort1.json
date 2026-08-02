@@ -1,0 +1,21 @@
+{
+  "name": "간단한 석탄 발전기",
+  "sortnum": 19,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:generatort1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "간단한 석탄 발전기는 화로에서 태울 수 있는 일반 연료나 이 모드의 특수 석탄으로 Forge Energy(FE)를 만듭니다. $(l:justdirethings:res_coal_t1)프라이멀 석탄$(/l), $(l:justdirethings:res_coal_t2)블레이즈 엠버$(/l), $(l:justdirethings:res_coal_t3)보이드플레임 석탄$(/l), $(l:justdirethings:res_coal_t4)이클립스 엠버$(/l) 순으로 티어가 높아지며 틱당 FE와 총 생성량이 모두 늘어납니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "석탄 단계를 업그레이드할 때마다 에너지 생산 효율이 향상되어 동일한 양의 석탄에서도 더 긴 운영 시간과 더 많은 에너지 출력이 가능해집니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "제작법",
+      "recipe": "justdirethings:generatort1"
+    }
+  ]
+}

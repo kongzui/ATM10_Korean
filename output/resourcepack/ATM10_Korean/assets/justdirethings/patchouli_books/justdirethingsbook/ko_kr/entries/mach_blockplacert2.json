@@ -1,0 +1,17 @@
+{
+  "name": "고급 블록 배치기",
+  "sortnum": 6,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockplacert2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "고급 블록 배치기는 $(l:justdirethings:mach_blockplacert1)간단한 블록 배치기$(/l)의 상위 버전입니다.$(br2)필터로 아이템을 놓을 바탕 블록을 지정합니다. 돌을 필터에 넣으면 돌 블록에만 배치합니다. 방향을 '아래'로 설정했다면 돌 블록의 윗면에만 배치합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "고급 블록 배치기",
+      "recipe": "justdirethings:blockplacert2"
+    }
+  ]
+}

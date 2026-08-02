@@ -1,0 +1,17 @@
+{
+  "name": "지면 강타",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_groundstomp",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "지면 강타 업그레이드로 지진의 힘을 발휘하세요. 활성화되면 이 업그레이드는 근처 엔티티를 밀어내는 충격파를 생성합니다. $(br2)이 기능은 활성화된 기능이므로 사용하려면 단축키를 할당해야 합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "지면 강타 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_groundstomp"
+    }
+  ]
+}

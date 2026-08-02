@@ -1,0 +1,17 @@
+{
+  "name": "위상 이동",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_phase",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "위상 이동 업그레이드를 발동하면 바닥을 제외한 벽과 장애물을 통과할 수 있습니다.$(br2)기반암이나 모드팩에서 따로 지정한 블록은 여전히 통과하지 못할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "위상 이동 제작",
+      "recipe": "justdirethings:upgrade_phase"
+    }
+  ]
+}

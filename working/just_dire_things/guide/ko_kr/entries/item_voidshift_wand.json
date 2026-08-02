@@ -1,0 +1,21 @@
+{
+  "name": "보이드 시프트 지팡이",
+  "sortnum": 6,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:voidshift_wand[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:item_blazejet_wand)블레이즈젯 지팡이$(/l)의 다음 티어인 보이드 시프트 지팡이는 차원 에너지로 더 복잡한 능력을 사용합니다.$(br2)새로운 보이드 시프트 능력으로 바라보는 방향의 일정 거리까지 순간이동할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "도구 설정 화면에서 발동 단축키나 마우스 버튼을 지정하세요. 개인적으로 공기 폭발은 우클릭, 보이드 시프트는 좌클릭을 추천합니다.$(br2)최대 이동 거리를 줄이거나 플레이어 표시를 켜고 끌 수도 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "보이드 시프트 지팡이 제작",
+      "recipe": "justdirethings:voidshift_wand"
+    }
+  ]
+}

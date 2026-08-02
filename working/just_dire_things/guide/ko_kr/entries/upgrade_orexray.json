@@ -1,0 +1,17 @@
+{
+  "name": "광석 엑스레이",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_orexray",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "광석 엑스레이 업그레이드로 숨겨진 보물을 찾아보세요. 이 강력한 도구를 사용하면 단단한 블록을 통해 돌 속에 숨겨진 귀중한 광석을 찾아낼 수 있습니다. $(br2)이 업그레이드는 광석 스캐너 업그레이드를 대체하며 동일한 방식으로 활성화됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "광석 엑스레이 제작",
+      "recipe": "justdirethings:upgrade_orexray"
+    }
+  ]
+}

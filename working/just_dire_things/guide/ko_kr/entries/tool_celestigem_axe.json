@@ -1,0 +1,17 @@
+{
+  "name": "셀레스티젬 도끼",
+  "sortnum": 16,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:celestigem_axe[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:tool_blazegold_axe)블레이즈골드 도끼$(/l)의 상위 티어로, 내구도 대신 최대 10,000 FE의 Forge Energy를 사용합니다. $(l:justdirethings:item_pocket_generator)휴대용 발전기$(/l)로 충전하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:celestigem_axe",
+      "text": "셀레스티젬 도끼 제작"
+    }
+  ]
+}

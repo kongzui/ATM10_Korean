@@ -1,0 +1,21 @@
+{
+  "name": "다형성 지팡이",
+  "sortnum": 21,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:polymorphic_wand",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "다형성 지팡이는 블레이즈골드의 잠재 에너지로 다형성 유체를 활성화해 몹을 무작위로 다른 종류로 바꿉니다!$(br2)적대적 몹에게 사용하면 다른 적대적 몹으로, 비적대적 몹에게 사용하면 다른 비적대적 몹으로 바뀝니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 기본 지팡이로는 결과로 나올 몹을 지정할 수 없고 적대적 몹과 비적대적 몹을 서로 바꿀 수도 없습니다. 하지만 지팡이를 업그레이드하면 가능할지도 모릅니다!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "다형성 지팡이",
+      "recipe": "justdirethings:polymorphic_wand"
+    }
+  ]
+}

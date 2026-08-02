@@ -1,0 +1,17 @@
+{
+  "name": "미끼",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_decoy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "미끼 업그레이드로 적의 주의를 분산시키세요. 미끼를 배치하여 적의 주의를 돌리면 전투에서 전략적 이점을 얻을 수 있습니다. $(br2) 미끼를 생성하려면 연결된 단축키로 이 기능을 활성화하세요. 근처의 적들은 그것이 사라질 때까지 일정 시간 동안 강제로 공격하게 됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "미끼 제작",
+      "recipe": "justdirethings:upgrade_decoy"
+    }
+  ]
+}

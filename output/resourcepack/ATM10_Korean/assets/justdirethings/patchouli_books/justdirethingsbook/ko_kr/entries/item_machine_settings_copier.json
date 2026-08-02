@@ -1,0 +1,17 @@
+{
+  "name": "기계 설정 복사기",
+  "sortnum": 9,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:machinesettingscopier",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "기계 설정 복사기는 기계 사이에서 설정을 복사합니다. $(l:justdirethings:machines)기계$(/l)를 Shift + 우클릭해 설정을 복사한 뒤 다른 기계를 우클릭해 붙여넣으세요. 공중을 클릭하면 복사할 설정을 고르는 화면이 열립니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "기계 설정 복사기 제작",
+      "recipe": "justdirethings:machinesettingscopier"
+    }
+  ]
+}

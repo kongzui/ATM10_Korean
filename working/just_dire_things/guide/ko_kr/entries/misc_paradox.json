@@ -1,0 +1,20 @@
+{
+  "name": "패러독스",
+  "sortnum": 1,
+  "category": "justdirethings:misc",
+  "icon": "justdirethings:coal_t4",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)경고!!$()$(br2)패러독스는 $(l:justdirethings:mach_paradox)패러독스 기계$(/l)를 과도하게 사용하면 생기는 불안정한 시공간 현상입니다.$(br2)처음에는 작지만 시간이 지날수록 커지며, 크기가 커질수록 더 많은 것을 집어삼킬 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "패러독스는 작동 영역의 블록, 아이템, 엔티티를 흡수하며 한번 삼킨 것은 되찾을 수 없습니다! 어디로 갔는지는 아무도 모릅니다.$(br2)확실한 것은 많이 삼킬수록 더 빨리 커진다는 점입니다.$(br2)다행히 크기에는 한계가 있는 듯합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "현재 패러독스에 관해 알려진 사실은 거의 없습니다. 지금까지 확인된 것은 $(l:justdirethings:res_time_crystal)시간 수정$(/l)을 먹이면 봉인할 수 있다는 것뿐입니다.$(br2)시간 수정 하나를 던져 넣으면 됩니다.$(br2)연구가 진행되면 더 많은 사실이 밝혀질 것입니다."
+    }
+  ]
+}

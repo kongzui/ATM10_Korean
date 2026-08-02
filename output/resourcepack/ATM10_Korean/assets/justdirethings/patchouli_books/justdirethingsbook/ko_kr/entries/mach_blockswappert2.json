@@ -1,0 +1,21 @@
+{
+  "name": "고급 교환기",
+  "sortnum": 14,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockswappert2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "고급 교환기는 $(l:justdirethings:mach_blockswappert1)간단한 교환기$(/l)에 작동 영역과 블록·엔티티 필터를 추가한 상위 버전입니다.$(br2)블록과 엔티티를 넓은 영역에서 필터링할 수 있습니다.$(br2)연결된 교환기 두 개는 반경 설정을 공유하므로 한쪽에서 바꾸면 다른 쪽에도 복사됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "고급 블록 교환기는 집 전체와 그 내용물을 한 장소에서 다른 장소로 순간이동할 수 있습니다. 아니면 모든 새끼 동물을 다른 위치로 보내는 데 사용할 수도 있습니다. $(br2)생물 포획기를 사용하여 필터링하면 더욱 정확하게 작업할 수 있습니다. 파란색 양(또는 아홀로틀)을 캡처하고 필터 설정에서 'NBT 비교'를 지정하세요. 이렇게 하면 파란색 양만 순간이동할 수 있습니다. '거부' 모드로 설정하면 파란색 양을 제외한 모든 양이 텔레포트됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "고급 교환기",
+      "recipe": "justdirethings:blockswappert2"
+    }
+  ]
+}

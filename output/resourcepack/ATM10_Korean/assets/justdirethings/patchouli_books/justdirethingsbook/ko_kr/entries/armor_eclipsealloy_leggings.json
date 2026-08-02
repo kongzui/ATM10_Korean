@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 레깅스",
+  "sortnum": 22,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:eclipsealloy_leggings[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "최고의 내구성을 위해 제작된 이 레깅스는 Forge Energy의 500,000 FE로 구동됩니다. $(l:justdirethings:item_pocket_generator)휴대용 발전기$(/l)를 사용하여 에너지 수준과 기능을 유지하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "이클립스 합금 레깅스 제작",
+      "recipe": "justdirethings:eclipsealloy_leggings"
+    }
+  ]
+}

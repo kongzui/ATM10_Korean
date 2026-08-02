@@ -1,0 +1,17 @@
+{
+  "name": "고급 유체 배치기",
+  "sortnum": 16,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:fluidplacert2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "고급 유체 배치기는 $(l:justdirethings:mach_fluidplacert1)간단한 유체 배치기$(/l)의 상위 버전으로, 더 넓은 영역에 유체를 놓습니다.$(br2)$(l:justdirethings:mach_blockplacert2)고급 블록 배치기$(/l)처럼 필터 슬롯에서 유체를 놓을 바탕 블록을 지정할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "고급 유체 배치기",
+      "recipe": "justdirethings:fluidplacert2"
+    }
+  ]
+}

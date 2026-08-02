@@ -1,0 +1,17 @@
+{
+  "name": "해로운 효과 제거",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_debuffremover",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "해로운 효과 제거 업그레이드는 받은 부정적인 효과를 자동으로 제거하여 최고의 전투 상태를 유지합니다. $(br2)이것은 활성화된 능력이므로 도구 설정 화면에서 단축키를 설정해야 합니다. 재사용 대기 시간도 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "해로운 효과 제거 제작",
+      "recipe": "justdirethings:upgrade_debuffremover"
+    }
+  ]
+}

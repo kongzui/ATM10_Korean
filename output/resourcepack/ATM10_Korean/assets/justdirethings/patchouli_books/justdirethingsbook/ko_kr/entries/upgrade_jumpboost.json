@@ -1,0 +1,17 @@
+{
+  "name": "점프 강화",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_jumpboost",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "점프 강화 업그레이드로 더 높이 도약하세요. 이 개선 사항은 점프 높이를 높여 장애물을 더 쉽게 극복하고 높은 지역에 도달할 수 있게 해줍니다. $(br2) 페리코어 티어 부츠에 설치할 수 있지만 높은 티어의 부츠를 사용하면 더 높은 점프가 가능합니다. 설정 화면에서 슬라이더를 사용하여 조정할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "점프 강화 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_jumpboost"
+    }
+  ]
+}

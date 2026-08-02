@@ -1,0 +1,12 @@
+{
+  "name": "시간 유체",
+  "sortnum": 31,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:time_fluid_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "시간 유체는 시간을 조작하는 모든 아이템과 블록에 에너지를 공급하는 다목적 유체입니다. 거의 투명한 것을 보면 이 시간 흐름에 완전히 속하지 않는 듯합니다.$(br2)$(l:justdirethings:res_time_crystal)시간 수정$(/l)을 $(l:justdirethings:res_polymorphic_fluid)다형성 유체$(/l)에 떨어뜨리면 만들어집니다."
+    }
+  ]
+}

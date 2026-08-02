@@ -1,0 +1,12 @@
+{
+  "name": "블레이즈 엠버",
+  "sortnum": 22,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:coal_t2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "블레이즈 엠버는 $(l:justdirethings:res_coal_t1)프라이멀 석탄$(/l) 블록을 $(l:justdirethings:gooblock_tier2)블레이즈블룸 구$(/l) 옆에 놓으면 만들어집니다. 이전 단계보다 더 뜨겁고 효율적으로 타서 더 많은 RF/t를 생산합니다."
+    }
+  ]
+}

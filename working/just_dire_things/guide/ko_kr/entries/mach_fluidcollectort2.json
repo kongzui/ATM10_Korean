@@ -1,0 +1,17 @@
+{
+  "name": "고급 유체 수집기",
+  "sortnum": 18,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:fluidcollectort2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "고급 유체 수집기는 $(l:justdirethings:mach_fluidcollectort1)간단한 유체 수집기$(/l)보다 넓은 영역의 유체를 회수하고 필터도 지원합니다.$(br2)필터 슬롯에 원하는 유체 양동이를 넣어 회수할 유체를 지정하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "고급 유체 수집기",
+      "recipe": "justdirethings:fluidcollectort2"
+    }
+  ]
+}

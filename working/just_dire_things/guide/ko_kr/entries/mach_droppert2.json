@@ -1,0 +1,21 @@
+{
+  "name": "고급 공급기",
+  "sortnum": 12,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:droppert2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "고급 공급기는 $(l:justdirethings:mach_droppert1)간단한 공급기$(/l)의 상위 버전입니다.$(br2)다른 고급 기계와 달리 반경은 바꿀 수 없지만 오프셋을 조정해 공급기에서 더 먼 위치에 아이템을 떨어뜨릴 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "3x3 인벤토리에 떨어뜨릴 아이템을 넣습니다.$(br2)아래쪽 필터 슬롯은 허용할 아이템과 배출 순서를 정합니다. 조약돌 다음에 레드스톤을 등록하면 조약돌을 먼저, 레드스톤을 다음에 떨어뜨립니다.$(br2)차례가 된 레드스톤이 없으면 보충될 때까지 배출을 멈춥니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "고급 공급기",
+      "recipe": "justdirethings:droppert2"
+    }
+  ]
+}

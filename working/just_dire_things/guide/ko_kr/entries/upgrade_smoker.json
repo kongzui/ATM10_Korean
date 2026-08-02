@@ -1,0 +1,17 @@
+{
+  "name": "훈연",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_smoker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "훈연 업그레이드는 몹이 떨어뜨리는 음식 전리품을 자동으로 훈연합니다. 예를 들어 익히지 않은 소고기가 스테이크로 바뀝니다.$(br2)사용할 때 내구도를 조금 소비합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "훈연 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_smoker"
+    }
+  ]
+}

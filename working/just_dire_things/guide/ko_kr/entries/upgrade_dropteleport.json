@@ -1,0 +1,17 @@
+{
+  "name": "드롭 텔레포트",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_dropteleport",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "전리품 순간이동 업그레이드를 통해 전리품을 안전하게 보호하세요. 이 혁신적인 업그레이드는 드롭된 아이템을 연결된 인벤토리로 직접 순간 이동시킵니다. $(br2)Shift로 상자와 같은 인벤토리의 도구를 우클릭하여 연결하세요. 이제 광석이나 몹의 드롭이 바로 그곳으로 순간이동합니다!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "드롭 텔레포트 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_dropteleport"
+    }
+  ]
+}

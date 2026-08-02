@@ -1,0 +1,17 @@
+{
+  "name": "망각",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_stupefy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "망각 업그레이드는 바라보는 적이 즉시 플레이어를 잊게 합니다. 단축키로 발동하면 적이 잠시 동안 플레이어를 다시 대상으로 삼지 못합니다.$(br2)이 능력에는 재사용 대기 시간이 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "망각 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_stupefy"
+    }
+  ]
+}

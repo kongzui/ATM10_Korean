@@ -1,0 +1,25 @@
+{
+  "name": "간단한 공급기",
+  "sortnum": 11,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:droppert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "간단한 공급기는 아이템을 월드에 떨어뜨립니다.$(br2)방향 버튼으로 아이템을 떨어뜨릴 방향을 바꿉니다. 기본값은 일반 공급기처럼 아래쪽이며, 공급기가 바라보는 블록 공간에 아이템이 생성됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "화면의 숫자 버튼은 한 번에 떨어뜨릴 아이템 수를 정합니다.$(br2)기본값은 1이며 숫자를 늘리면 한 번에 더 많이 떨어뜨립니다.$(br2)64로 설정하면 최대 한 묶음을 한꺼번에 떨어뜨립니다.$(br2)아이템이 64개보다 적어도 현재 들어 있는 수량만큼 정상적으로 떨어뜨립니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "'줍기 지연' 버튼은 떨어뜨린 아이템을 다시 주울 수 있기까지의 시간을 정합니다.$(br2)Minecraft에서는 보통 땅에 떨어뜨린 아이템을 바로 줍지 못하는 짧은 지연이 있습니다. 이 버튼은 공급기가 떨어뜨린 아이템의 지연을 조정합니다.$(br2)기본값은 0이므로 즉시 주울 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "간단한 공급기",
+      "recipe": "justdirethings:droppert1"
+    }
+  ]
+}

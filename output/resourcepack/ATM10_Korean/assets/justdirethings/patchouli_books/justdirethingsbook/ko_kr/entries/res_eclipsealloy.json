@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 주괴",
+  "sortnum": 7,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:eclipsealloy_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이클립스 합금 원석을 제련하면 뛰어난 내구도와 강도를 지닌 이클립스 합금 주괴가 됩니다. 원석은 $(l:justdirethings:res_eclipsealloy_raw)미가공 이클립스 합금 광석$(/l)을 채굴해 얻으며, 강력하고 튼튼한 아이템을 만드는 최상위 재료입니다."
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "이클립스 합금 원석 제련",
+      "recipe": "justdirethings:eclipsealloy_ingot_smelted"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "투척형",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_splash",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "투척형 업그레이드로 원거리 공격을 강화하세요. 이 업그레이드는 화살 충격을 스플래시 효과로 변환하여 더 넓은 지역에 충격을 퍼뜨립니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "투척형 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_splash"
+    }
+  ]
+}

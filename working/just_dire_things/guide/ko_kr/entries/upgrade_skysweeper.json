@@ -1,0 +1,17 @@
+{
+  "name": "낙하물 제거",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_skysweeper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "낙하물 제거는 페리코어 삽 이상에 설치되는 패시브 능력입니다. 중력(자갈이나 모래 등)으로 블록을 부수면 그 위에 있는 일치하는 블록도 자동으로 부숴집니다.  더 이상 채굴 중에 자갈이 떨어지지 않습니다!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "낙하물 제거 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_skysweeper"
+    }
+  ]
+}

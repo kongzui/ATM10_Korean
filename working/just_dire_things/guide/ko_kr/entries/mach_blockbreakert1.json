@@ -1,0 +1,17 @@
+{
+  "name": "간단한 블록 파괴기",
+  "sortnum": 3,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockbreakert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "간단한 블록 파괴기는 곡괭이나 삽 같은 도구로 앞의 블록을 파괴합니다. 도구 없이는 작동하지 않으며, 플레이어가 직접 사용할 때처럼 블록을 부술 때마다 도구의 내구도나 에너지를 소비합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "간단한 블록 파괴기",
+      "recipe": "justdirethings:blockbreakert1"
+    }
+  ]
+}

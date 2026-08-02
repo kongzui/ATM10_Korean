@@ -1,0 +1,16 @@
+{
+  "name": "기계 기본 사항",
+  "sortnum": 0,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockbreakert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Just Dire Things의 대부분의 기계에는 단순 버전과 고급 버전의 두 가지 변형이 있습니다. $(br2)단순 버전은 에너지가 필요하지 않지만 일반적으로 바로 앞에 있는 블록이나 엔티티에만 영향을 미칠 수 있습니다. 플레이어는 속도(틱) 버튼을 사용하여 작동 속도를 제어할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "고급 형태의 블록은 훨씬 더 강력하지만 작동하려면 에너지가 필요합니다. $(br2)일반적으로 넓은 영역에 영향을 미칠 수 있으며(UI에서 설정 가능) 플레이어가 영향을 받는 아이템을 제어할 수 있는 필터가 있습니다.$(br2)또한 블록에 배치된 모든 Forge Energy 아이템을 자동으로 충전합니다."
+    }
+  ]
+}

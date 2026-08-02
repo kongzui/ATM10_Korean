@@ -1,0 +1,1962 @@
+[
+  {
+    "path": "data/justdirethings/advancement/recipes/building_blocks/blazegold_ingot_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/building_blocks/celestigem_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/building_blocks/charcoal_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/building_blocks/coal_t1_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/building_blocks/coal_t2_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/building_blocks/coal_t3_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/building_blocks/coal_t4_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/building_blocks/eclipsealloy_ingot_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/building_blocks/ferricore_ingot_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/building_blocks/time_crystal_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_axe-leafbreaker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_axe-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_axe-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_axe-treefeller.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_axe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_block_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_boots-groundstomp.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_boots-jumpboost.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_boots-stepheight.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_boots-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_boots.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_chestplate-extinguish.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_chestplate-invulnerability.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_chestplate-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_chestplate.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_helmet-mindfog.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_helmet-stupefy.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_helmet-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_helmet.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_hoe-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_hoe-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_hoe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_ingot_blasted.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_ingot_smelted.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_leggings-runspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_leggings-swimspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_leggings-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_leggings-walkspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_leggings.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_pickaxe-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_pickaxe-oreminer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_pickaxe-orescanner.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_pickaxe-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_pickaxe-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_pickaxe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_shovel-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_shovel-lawnmower.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_shovel-skysweeper.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_shovel-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_shovel-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_shovel.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_sword-cauterizewounds.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_sword-mobscanner.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_sword-smoker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_sword-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazegold_sword.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blazejet_wand.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockbreakert1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockbreakert1_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockbreakert2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockbreakert2_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockplacert1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockplacert1_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockplacert2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockplacert2_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockswappert1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockswappert1_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockswappert2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/blockswappert2_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_blazegold-potionarrow.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_blazegold-splash.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_blazegold-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_blazegold.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_celestigem-homing.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_celestigem-lingering.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_celestigem-potionarrow.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_celestigem-splash.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_celestigem-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_celestigem.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_eclipsealloy-epicarrow.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_eclipsealloy-homing.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_eclipsealloy-lingering.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_eclipsealloy-phase.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_eclipsealloy-potionarrow.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_eclipsealloy-splash.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_eclipsealloy-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_eclipsealloy.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_ferricore-potionarrow.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/bow_ferricore.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/budding_time_amethyst.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/budding_time_timeblock.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_axe-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_axe-leafbreaker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_axe-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_axe-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_axe-treefeller.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_axe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_block_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_boots-groundstomp.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_boots-jumpboost.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_boots-negatefalldamage.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_boots-stepheight.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_boots-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_boots.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_chestplate-elytra.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_chestplate-extinguish.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_chestplate-invulnerability.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_chestplate-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_chestplate.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_helmet-mindfog.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_helmet-nightvision.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_helmet-stupefy.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_helmet-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_helmet-waterbreathing.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_helmet.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_hoe-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_hoe-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_hoe-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_hoe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_leggings-decoy.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_leggings-runspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_leggings-swimspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_leggings-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_leggings-walkspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_leggings.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_paxel-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_paxel-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_paxel-lawnmower.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_paxel-leafbreaker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_paxel-oreminer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_paxel-orescanner.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_paxel-skysweeper.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_paxel-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_paxel-treefeller.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_paxel.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_pickaxe-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_pickaxe-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_pickaxe-oreminer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_pickaxe-orescanner.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_pickaxe-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_pickaxe-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_pickaxe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_shovel-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_shovel-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_shovel-lawnmower.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_shovel-skysweeper.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_shovel-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_shovel-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_shovel.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_sword-cauterizewounds.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_sword-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_sword-mobscanner.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_sword-smoker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_sword-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/celestigem_sword.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/charcoal_block_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/clickert1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/clickert1_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/clickert2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/clickert2_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/coalblock_t1_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/coalblock_t2_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/coalblock_t3_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/coalblock_t4_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/creaturecatcher.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/droppert1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/droppert1_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/droppert2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/droppert2_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_axe-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_axe-instabreak.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_axe-leafbreaker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_axe-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_axe-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_axe-treefeller.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_axe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_block_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_boots-earthquake.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_boots-groundstomp.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_boots-jumpboost.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_boots-negatefalldamage.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_boots-stepheight.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_boots-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_boots.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_chestplate-deathprotection.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_chestplate-elytra.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_chestplate-extinguish.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_chestplate-flight.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_chestplate-invulnerability.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_chestplate-lavaimmunity.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_chestplate-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_chestplate-time_protection.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_chestplate.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_helmet-debuffremover.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_helmet-mindfog.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_helmet-nightvision.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_helmet-noai.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_helmet-stupefy.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_helmet-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_helmet-waterbreathing.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_helmet.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_hoe-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_hoe-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_hoe-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_hoe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_ingot_blasted.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_ingot_smelted.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_leggings-decoy.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_leggings-phase.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_leggings-runspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_leggings-swimspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_leggings-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_leggings-walkspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_leggings.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-instabreak.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-lawnmower.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-leafbreaker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-oreminer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-orexray.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-skysweeper.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel-treefeller.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_paxel.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_pickaxe-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_pickaxe-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_pickaxe-instabreak.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_pickaxe-oreminer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_pickaxe-orexray.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_pickaxe-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_pickaxe-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_pickaxe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_shovel-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_shovel-hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_shovel-instabreak.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_shovel-lawnmower.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_shovel-skysweeper.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_shovel-smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_shovel-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_shovel.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_sword-cauterizewounds.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_sword-dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_sword-glowing.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_sword-smoker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_sword-templateupgrade.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsealloy_sword.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/eclipsegate_wand.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/energytransmitter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/energytransmitter_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/experienceholder.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/experienceholder_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_axe-leafbreaker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_axe-treefeller.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_axe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_block_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_boots-jumpboost.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_boots-stepheight.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_boots.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_chestplate-invulnerability.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_chestplate.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_helmet-mindfog.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_helmet.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_hoe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_ingot_blasted.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_ingot_smelted.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_leggings-runspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_leggings-walkspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_leggings.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_pickaxe-oreminer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_pickaxe-orescanner.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_pickaxe.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_shovel-lawnmower.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_shovel-skysweeper.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_shovel.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_sword-mobscanner.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_sword.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/ferricore_wrench.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/fluid_canister.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/fluidcollectort1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/fluidcollectort1_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/fluidcollectort2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/fluidcollectort2_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/fluidplacert1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/fluidplacert1_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/fluidplacert2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/fluidplacert2_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/fuel_canister.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/generatorfluidt1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/generatorfluidt1_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/generatort1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/generatort1_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/gooblock_tier1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/gooblock_tier2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/gooblock_tier3.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/gooblock_tier4.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/inventory_holder.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/inventory_holder_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/itemcollector.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/itemcollector_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/machinesettingscopier.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/paradoxmachine.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/playeraccessor.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/playeraccessor_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/pocket_generator.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/polymorphic_catalyst.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/polymorphic_fluid_block-fluiddrop.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/polymorphic_wand.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/polymorphic_wand_v2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/portal_fluid_block-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/portal_fluid_catalyst.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/portalgun.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/portalgun_v2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/potion_canister.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/raw_blazegold_ore-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/raw_celestigem_ore-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/raw_coal_t1_ore-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/raw_coal_t1_ore-goospread_tag.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/raw_coal_t2_ore-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/raw_coal_t3_ore-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/raw_coal_t4_ore-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/raw_eclipsealloy_ore-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/raw_ferricore_ore-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/refined_t2_fluid_block-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/refined_t3_fluid_block-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/refined_t4_fluid_block-goospread.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/sensort1.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/sensort1_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/sensort2.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/sensort2_nbtclear.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/template_blazegold-duplicate.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/template_blazegold.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/template_celestigem-duplicate.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/template_celestigem.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/template_eclipsealloy-duplicate.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/template_eclipsealloy.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/template_ferricore-duplicate.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/template_ferricore.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/time_crystal_block_9x9.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/time_fluid_block-fluiddrop.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/time_wand.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/totem_of_death_recall.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/unrefined_t2_fluid_block-fluiddrop.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/unrefined_t3_fluid_block-fluiddrop.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/unrefined_t4_fluid_block-fluiddrop.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/unstable_portal_fluid_block-fluiddrop.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_blank.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_cauterizewounds.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_deathprotection.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_debuffremover.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_decoy.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_dropteleport.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_earthquake.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_elytra.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_epicarrow.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_extinguish.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_flight.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_glowing.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_groundstomp.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_hammer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_homing.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_instabreak.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_invulnerability.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_jumpboost.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_lavaimmunity.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_lawnmower.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_leafbreaker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_lingering.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_mindfog.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_mobscanner.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_negatefalldamage.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_nightvision.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_noai.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_oreminer.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_orescanner.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_orexray.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_phase.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_potionarrow.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_runspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_skysweeper.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_smelter.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_smoker.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_splash.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_stepheight.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_stupefy.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_swimspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_time_protection.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_treefeller.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_walkspeed.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/upgrade_waterbreathing.json",
+    "has_display": false,
+    "display": null
+  },
+  {
+    "path": "data/justdirethings/advancement/recipes/misc/voidshift_wand.json",
+    "has_display": false,
+    "display": null
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "이클립스 합금 팍셀",
+  "sortnum": 26,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_paxel[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이클립스 합금 팍셀은 곡괭이, 도끼, 삽의 기능을 하나로 합친 최종 티어 도구입니다.$(br2)대장장이 작업대에서 이클립스 합금 곡괭이·도끼·삽을 합치거나 $(l:justdirethings:tool_celestigem_paxel)셀레스티젬 팍셀$(/l)을 업그레이드해 제작합니다. 두 방법 모두 설치된 업그레이드를 유지합니다."
+    }
+  ]
+}

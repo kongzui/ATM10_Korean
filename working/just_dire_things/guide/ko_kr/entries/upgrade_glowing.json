@@ -1,0 +1,17 @@
+{
+  "name": "빛나는",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_glowing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 업그레이드는 근처의 모든 생명체(몹과 비적대적 동물 모두)에게 '빛나는' 효과를 적용합니다!$(br2)이것은 액티브 능력이며 몹 스캐너를 대체합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "빛나는 제작",
+      "recipe": "justdirethings:upgrade_glowing"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 투구",
+  "sortnum": 5,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:blazegold_helmet",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "블레이즈골드 투구는 이전 티어인 페리코어 투구보다 방어력이 높고 용암 수리 능력이 있습니다. 용암 원천 블록에 떨어뜨리면 완전히 수리됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "블레이즈골드 투구 제작",
+      "recipe": "justdirethings:blazegold_helmet"
+    }
+  ]
+}

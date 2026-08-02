@@ -1,0 +1,17 @@
+{
+  "name": "비행",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_flight",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "비행 업그레이드는 크리에이티브 모드처럼 생존 모드에서도 자유롭게 날 수 있게 합니다.$(br2)비행 중에는 Forge Energy를 계속 소비하므로 에너지가 떨어지지 않게 주의하세요!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "비행 제작",
+      "recipe": "justdirethings:upgrade_flight"
+    }
+  ]
+}

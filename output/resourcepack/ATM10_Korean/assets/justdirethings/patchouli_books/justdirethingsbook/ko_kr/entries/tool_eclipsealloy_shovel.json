@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 삽",
+  "sortnum": 22,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_shovel[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이클립스 합금 삽은 큰 에너지 용량으로 많은 블록을 효율적으로 파낼 수 있습니다.$(br2)매우 까다로운 굴착 작업에 적합합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:eclipsealloy_shovel",
+      "text": "이클립스 합금 삽 제작"
+    }
+  ]
+}

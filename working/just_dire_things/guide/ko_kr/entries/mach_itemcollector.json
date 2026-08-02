@@ -1,0 +1,17 @@
+{
+  "name": "아이템 수집기",
+  "sortnum": 1,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:itemcollector",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "아이템 수집기는 티어 1 자원으로 만들지만 $(l:justdirethings:mach_advanced_controls)고급 기계$(/l)처럼 작동합니다. 작동 영역의 아이템 엔티티를 빨아들여 연결된 인벤토리에 넣습니다.$(br2)화면에서 수집할 아이템을 필터링하고 수집 속도를 높일 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "아이템 수집기",
+      "recipe": "justdirethings:itemcollector"
+    }
+  ]
+}

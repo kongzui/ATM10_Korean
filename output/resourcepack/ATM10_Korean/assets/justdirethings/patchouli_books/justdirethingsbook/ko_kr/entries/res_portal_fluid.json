@@ -1,0 +1,17 @@
+{
+  "name": "포털 유체",
+  "sortnum": 30,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:portal_fluid_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "고급 포털 건에는 포털 유체가 필요합니다. 포털 유체 촉매를 다형성 유체 원천에 떨어뜨려 불안정한 포털 유체를 만드세요.$(br2)불안정한 포털 유체는 엔드 밖에서 즉시 분해됩니다!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:portal_fluid_catalyst",
+      "text": "포털 유체 촉매는 불안정한 포털 유체를 만드는 데 사용합니다.$(br2)보이드시머 구 이상으로 유체를 안정화하면 엔드 밖에서도 유지할 수 있습니다."
+    }
+  ]
+}

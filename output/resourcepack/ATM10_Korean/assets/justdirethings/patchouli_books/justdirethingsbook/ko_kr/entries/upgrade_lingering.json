@@ -1,0 +1,17 @@
+{
+  "name": "잔류형",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_lingering",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "잔류형 업그레이드로 효과 범위를 확대하세요. 이 업그레이드를 사용하면 활의 물약이 지속적인 효과를 남기게 되어 환경과 적에게 지속되는 영향을 미치게 됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "잔류형 제작",
+      "recipe": "justdirethings:upgrade_lingering"
+    }
+  ]
+}

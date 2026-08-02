@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 도끼",
+  "sortnum": 10,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_axe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:tool_ferricore_axe)페리코어 도끼$(/l)보다 빠르게 절단됩니다. 용암 속에서 자동으로 스스로 수리되는 '용암 수리'를 보유하고 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_axe",
+      "text": "블레이즈골드 도끼 제작"
+    }
+  ]
+}

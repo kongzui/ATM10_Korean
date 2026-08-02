@@ -1,0 +1,17 @@
+{
+  "name": "귀환",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_homing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "유도 업그레이드로 정밀도를 높이세요. 이 업그레이드로 수정된 발사체는 가까운 목표물을 찾아 사격이 빗나가는 일이 없도록 보장합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "유도 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_homing"
+    }
+  ]
+}

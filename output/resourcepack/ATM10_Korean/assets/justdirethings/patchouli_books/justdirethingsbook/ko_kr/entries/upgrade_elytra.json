@@ -1,0 +1,17 @@
+{
+  "name": "겉날개",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_elytra",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "겉날개 업그레이드로 하늘을 날아보세요. 이 업그레이드는 갑옷에 겉날개 날개를 장착하여 추락 시 날아갈 수 있게 해줍니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "겉날개 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_elytra"
+    }
+  ]
+}

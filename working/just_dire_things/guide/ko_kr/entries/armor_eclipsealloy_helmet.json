@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 투구",
+  "sortnum": 20,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:eclipsealloy_helmet[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이클립스 합금 투구는 대용량 500,000 FE와 함께 Forge Energy를 사용하는 방어구 기술의 정점입니다. 잠재력을 최대한 활용하려면 $(l:justdirethings:item_pocket_generator)휴대용 발전기$(/l)를 사용하여 충전 상태를 유지하는 것이 좋습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "이클립스 합금 투구 제작",
+      "recipe": "justdirethings:eclipsealloy_helmet"
+    }
+  ]
+}

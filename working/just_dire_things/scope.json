@@ -1,0 +1,75 @@
+{
+  "family": "Just Dire Things",
+  "installed": [
+    {
+      "label": "Just Dire Things",
+      "jar": "justdirethings-1.5.7.jar",
+      "namespace": "justdirethings",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 488,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "justdirethings"
+      ],
+      "guide_candidates": 331,
+      "guide_examples": [
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/categories/armor.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/categories/goo.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/categories/items.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/categories/machines.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/categories/misc.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/categories/resources.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/categories/tools.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/categories/upgrades.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_basics.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_blazegold_boots.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_blazegold_chestplate.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_blazegold_helmet.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_blazegold_leggings.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_celestigem_boots.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_celestigem_chestplate.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_celestigem_helmet.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_celestigem_leggings.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_eclipsealloy_boots.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_eclipsealloy_chestplate.json",
+        "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/entries/armor_eclipsealloy_helmet.json"
+      ],
+      "advancements": 392,
+      "advancement_examples": [
+        "data/justdirethings/advancement/recipes/building_blocks/blazegold_ingot_9x9.json",
+        "data/justdirethings/advancement/recipes/building_blocks/celestigem_9x9.json",
+        "data/justdirethings/advancement/recipes/building_blocks/charcoal_9x9.json",
+        "data/justdirethings/advancement/recipes/building_blocks/coal_t1_9x9.json",
+        "data/justdirethings/advancement/recipes/building_blocks/coal_t2_9x9.json",
+        "data/justdirethings/advancement/recipes/building_blocks/coal_t3_9x9.json",
+        "data/justdirethings/advancement/recipes/building_blocks/coal_t4_9x9.json",
+        "data/justdirethings/advancement/recipes/building_blocks/eclipsealloy_ingot_9x9.json",
+        "data/justdirethings/advancement/recipes/building_blocks/ferricore_ingot_9x9.json",
+        "data/justdirethings/advancement/recipes/building_blocks/time_crystal_9x9.json",
+        "data/justdirethings/advancement/recipes/misc/blazegold_axe-leafbreaker.json",
+        "data/justdirethings/advancement/recipes/misc/blazegold_axe-smelter.json",
+        "data/justdirethings/advancement/recipes/misc/blazegold_axe-templateupgrade.json",
+        "data/justdirethings/advancement/recipes/misc/blazegold_axe-treefeller.json",
+        "data/justdirethings/advancement/recipes/misc/blazegold_axe.json",
+        "data/justdirethings/advancement/recipes/misc/blazegold_block_9x9.json",
+        "data/justdirethings/advancement/recipes/misc/blazegold_boots-groundstomp.json",
+        "data/justdirethings/advancement/recipes/misc/blazegold_boots-jumpboost.json",
+        "data/justdirethings/advancement/recipes/misc/blazegold_boots-stepheight.json",
+        "data/justdirethings/advancement/recipes/misc/blazegold_boots-templateupgrade.json"
+      ],
+      "recipes": 785
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Just Dire Things",
+      "jar": "justdirethings-1.5.7.jar",
+      "namespace": "justdirethings",
+      "english_keys": 488,
+      "new_translation_required": 488
+    }
+  ]
+}

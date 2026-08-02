@@ -1,0 +1,25 @@
+{
+  "name": "고급 블록 파괴기",
+  "sortnum": 4,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockbreakert2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "고급 블록 파괴기는 $(l:justdirethings:mach_blockbreakert1)간단한 블록 파괴기$(/l)의 상위 버전으로, 훨씬 넓은 영역의 블록을 부술 수 있습니다.$(br2)$(l)블록 필터/아이템 필터$()$(br2)필터에서 파괴할 대상을 지정합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "'블록 필터' 모드는 파괴할 블록 자체를 지정합니다. 조약돌을 넣으면 조약돌 블록만 부숩니다.$(br2)'아이템 필터' 모드는 파괴 후 나오는 아이템을 기준으로 합니다. 조약돌을 넣으면 조약돌 블록뿐 아니라 조약돌을 떨어뜨리는 돌도 부술 수 있습니다. 단, 곡괭이에 섬세한 손길이 있으면 결과가 달라집니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)방향 버튼$()$(br2)블록을 어느 면에서 때리는 것으로 처리할지 정합니다. 보통은 차이가 없지만 도구에 망치 같은 범위 능력이 있으면 파괴 영역이 펼쳐질 방향을 제어할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "고급 블록 파괴기",
+      "recipe": "justdirethings:blockbreakert2"
+    }
+  ]
+}

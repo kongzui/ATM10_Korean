@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 레깅스",
+  "sortnum": 7,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:blazegold_leggings",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "블레이즈골드 레깅스는 뛰어난 이동성과 보호 기능을 제공합니다. 전체 수리를 위해 이 레깅스를 용암 원천 블록에 떨어뜨려 용암 수리 능력을 활용하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "블레이즈골드 레깅스 제작",
+      "recipe": "justdirethings:blazegold_leggings"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 활",
+  "sortnum": 12,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:bow_blazegold",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:tool_ferricore_bow)페리코어 활$(/l)보다 강하며 용암 수리 능력이 있습니다.$(br2)$(l:justdirethings:item_potion_canister)물약 캔$(/l) 슬롯도 두 개 제공합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:bow_blazegold",
+      "text": "블레이즈골드 활 제작"
+    }
+  ]
+}

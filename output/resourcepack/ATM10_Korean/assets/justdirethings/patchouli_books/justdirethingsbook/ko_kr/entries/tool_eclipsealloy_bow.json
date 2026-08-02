@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 활",
+  "sortnum": 25,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:bow_eclipsealloy[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이클립스 합금 활은 큰 에너지 용량을 지닌 최종 티어 원거리 무기입니다.$(br2)$(l:justdirethings:item_potion_canister)물약 캔$(/l) 슬롯 네 개로 화살에 다양한 효과를 부여할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:bow_eclipsealloy",
+      "text": "이클립스 합금 활 제작"
+    }
+  ]
+}

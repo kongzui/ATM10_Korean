@@ -1,0 +1,17 @@
+{
+  "name": "수영 속도",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_swimspeed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "수영 속도 업그레이드를 통해 전례 없는 민첩성으로 바다를 항해하세요. 이 개선 사항은 수영 속도를 크게 향상시켜 더 빠른 수중 탐험을 가능하게 합니다. $(br2)더 높은 티어의 갑옷을 사용하면 설정 메뉴의 슬라이더를 사용하여 훨씬 더 빠른 탐색이 가능합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "수영 속도 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_swimspeed"
+    }
+  ]
+}
