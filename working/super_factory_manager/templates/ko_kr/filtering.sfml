@@ -1,0 +1,40 @@
+name "필터링"
+
+-- 수량 제한을 사용한 기본 필터링
+EVERY 20 TICKS DO
+    INPUT
+        5 stone,
+        3 iron_ingot,
+        cobblestone, -- 마지막 쉼표를 써도 됩니다
+    FROM a
+    OUTPUT TO b
+END
+
+-- 별표를 사용하면 부분 일치로 검색합니다
+every 20 ticks do
+    -- 따옴표로 감싼 패턴은 전체 정규식을 사용합니다
+    OUTPUT ".*ingot.*" to b
+
+    -- 따옴표가 없으면 "*"가 ".*"로 변환됩니다
+    -- 이쪽이 더 짧아서 편리합니다
+    INPUT *ingot* from a
+end
+
+-- 아이템을 제외할 수도 있습니다
+EVERY 20 TICKS DO
+    INPUT *ingot* EXCEPT iron_ingot, gold_ingot FROM a
+    INPUT EXCEPT cobblestone FROM z
+    OUTPUT 5 EXCEPT copper_ingot TO b
+END
+
+-- EXCEPT는 명령문 전체에 적용되는 한정자입니다
+EVERY 20 TICKS DO
+    INPUT
+        *iron*,
+        *copper*
+    EXCEPT
+        *block* -- iron_block과 copper_block이 모두 제외됩니다
+    FROM chest
+
+    OUTPUT TO chest2
+END

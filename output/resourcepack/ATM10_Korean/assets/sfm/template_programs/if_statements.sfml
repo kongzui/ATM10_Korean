@@ -1,0 +1,28 @@
+name "IF 명령문"
+-- 인벤토리 세 개에 모두 "a" 라벨이 지정되어 있습니다
+
+--       a              a                 a
+--  | 5 stone |    | 5 stone |    | 10 stone |
+
+-- every a has = 5 stone    - FALSE (모든 인벤토리가 그렇지는 않습니다!)
+-- each a has >= 5 stone    - TRUE ("every"의 별칭)
+-- some a has eq 5 stone    - TRUE
+-- one a has = 5 stone       - FALSE (하나보다 많습니다!)
+-- lone a has = 5 stone      - FALSE (조건을 만족하는 인벤토리가 하나보다 많습니다!)
+-- overall a has eq 5 stone - FALSE (전체 돌은 총 20개이며 5개가 아닙니다)
+-- a has eq 5 stone           - FALSE (기본 동작은 'overall'입니다)
+
+every 20 ticks do
+    INPUT FROM source
+
+    if some source has gt 10 minecraft:iron_ingot then
+        OUTPUT TO dest1
+    end
+
+    if
+        not source has > 20 stone
+        and source has ge 20 cobblestone
+    then
+        output 20 to dest2
+    end
+end

@@ -1,0 +1,33 @@
+NAME "유체 및 기타 자원 유형"
+
+EVERY 20 TICKS DO
+    -- 기본 자원 유형은 sfm:item입니다
+    INPUT stone FROM a
+    -- 다음과 같습니다
+    INPUT sfm:item:*:stone FROM a
+
+    -- 모든 유체를 이동하려면 다음처럼 작성합니다
+    INPUT fluid:: from a
+    OUTPUT fluid:: to b
+    -- 이는 INPUT sfm:fluid:*:* FROM a로 확장됩니다
+
+    -- 다음 표현은 서로 같습니다
+    INPUT fluid::water FROM a
+    INPUT sfm:fluid:*:water FROM a
+
+    INPUT iron_ingot FROM a
+    INPUT sfm:item:*:iron_ingot FROM a
+
+    -- 이전 버전에서는 아이템 네임스페이스의 기본값이 "minecraft"였습니다
+    INPUT iron_ingot FROM a
+    INPUT sfm:item:minecraft:iron_ingot FROM a
+    -- 이름 충돌이 거의 없으므로 이제는 그렇지 않습니다
+    -- 충돌한다면 필요한 경우 모드 ID를 직접 지정하면 됩니다
+    INPUT totally_not_minecraft:iron_ingot FROM a
+END
+
+-- 다음 자원 유형을 지원합니다
+-- (이 예제는 자동 생성되므로 항상 최신 상태입니다)
+EVERY 20 TICKS DO
+    $REPLACE_RESOURCE_TYPES_HERE$
+END

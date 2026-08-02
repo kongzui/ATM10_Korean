@@ -1,0 +1,41 @@
+NAME "AE2 각인기"
+
+-- 라벨:
+-- logic, engineering, calculation, silicon, last => 각인기
+-- materials, results => 상자
+EVERY 20 TICKS DO
+    INPUT FROM materials
+
+    OUTPUT RETAIN 2 gold_ingot TO EACH logic SLOTS 2
+    OUTPUT RETAIN 2 diamond TO EACH engineering SLOTS 2
+    OUTPUT RETAIN 2 certus_quartz_crystal TO EACH calculation SLOTS 2
+
+    OUTPUT RETAIN 2 silicon TO EACH silicon SLOTS 2
+
+    OUTPUT RETAIN 2 redstone TO EACH last SLOTS 2
+    OUTPUT RETAIN 2 printed_silicon TO EACH last SLOTS 1
+
+    OUTPUT
+        RETAIN 2 printed_calculation_processor,
+        RETAIN 2 printed_engineering_processor,
+        RETAIN 2 printed_logic_processor
+    TO EACH last SLOTS 0
+FORGET
+    INPUT FROM logic, engineering, calculation, silicon west side
+    output to materials
+FORGET
+    INPUT FROM last west SIDE
+    OUTPUT TO results
+END
+EVERY 200 TICKS DO
+    IF SOME last HAS LT 3 THEN
+-- 일부 재료만 들어 있는 각인기가 있습니다.
+-- 완성 가능한 재료 조합이 여러 각인기에 나뉘어 있지 않도록 재료를 다시 모읍니다
+-- 잘못 분산된 상태를 정리합니다.
+-- 이 트리거 간격은 한 번의 제작에 걸리는 시간보다 길어야 합니다
+-- 그래야 SFM이 제작에 충분한 재료가 든 각인기에서 재료를 빼내
+-- 제작을 방해하지 않습니다.
+        INPUT FROM last
+        OUTPUT TO materials
+    END
+END

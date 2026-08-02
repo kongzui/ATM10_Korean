@@ -1,0 +1,39 @@
+NAME "라운드 로빈"
+
+EVERY 20 TICKS DO
+    -- 대부분은 라운드 로빈이 필요하지 않습니다
+    -- 대신 retain을 사용해 보세요!
+
+    INPUT fluid::water FROM source
+    OUTPUT RETAIN 1000 fluid::water TO EACH thingy
+    -- "thingy" 라벨이 붙은 각 블록에 물을 1양동이보다 많이 넣지 않습니다
+
+
+    FORGET
+
+    INPUT RETAIN 5 stone FROM first
+    OUTPUT TO second
+    -- 마지막 돌 5개는 가져오지 않습니다
+END
+
+-- 다른 방법으로 라운드 로빈 기능을 사용할 수 있습니다
+-- 명령문이 실행될 때마다 대상을 순환하므로 가장 빠른 방식은 아닙니다
+
+EVERY 20 TICKS DO
+    INPUT FROM source
+    OUTPUT 128 dirt TO dest ROUND ROBIN BY BLOCK
+    -- "dest" 라벨이 붙은 모든 블록에 출력하는 대신
+    -- 이 명령문이 실행될 때 블록 하나만 선택합니다
+    -- 명령문을 실행할 때마다 선택하는 블록이 순서대로 바뀝니다
+
+    FORGET
+
+    INPUT FROM "storage a", "storage b" ROUND ROBIN BY LABEL
+    OUTPUT 8 bone_meal TO EACH dispenser
+    -- 모든 라벨로 출력하는 대신
+    -- 명령문을 실행할 때마다 라벨 하나를 선택합니다
+    -- 즉, 다음 두 입력을 번갈아 사용합니다
+    -- INPUT FROM "storage a"
+    -- 그리고
+    -- INPUT FROM "storage b"
+END

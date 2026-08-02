@@ -501,6 +501,12 @@ TARGETS = (
         True,
         False,
     ),
+    Target(
+        "super_factory_manager",
+        "Super Factory Manager (SFM)-MC1.21.1-",
+        "sfm",
+        "Super Factory Manager",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -537,6 +543,7 @@ FAMILY_LABELS = {
     "extreme_reactors": "Extreme Reactors·ZeroCore",
     "railcraft_reborn": "Railcraft Reborn",
     "cc_tweaked": "CC: Tweaked·Advanced Peripherals·More Red",
+    "super_factory_manager": "Super Factory Manager",
 }
 
 QUEST_CHAPTERS = {
@@ -578,6 +585,7 @@ QUEST_CHAPTERS = {
     "extreme_reactors": ("extreme_reactors",),
     "railcraft_reborn": ("railcraft",),
     "cc_tweaked": (),
+    "super_factory_manager": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -706,6 +714,10 @@ QUEST_TEXT_MARKERS = {
         "more red",
         "morered",
     ),
+    "super_factory_manager": (
+        "super factory manager",
+        "sfm:",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -726,6 +738,12 @@ EXTRA_SCOPE = {
 }
 
 ALLOWED_ORIGINALS = {
+    "Discord",
+    "FALSE: %s",
+    "FORGET %s",
+    "TRUE: %s",
+    "Super Factory Manager",
+    "SFM",
     "Mekanism",
     "Mekanism: Generators",
     "Mekanism: Tools",

@@ -1,0 +1,8 @@
+name "레드스톤 아이템 이동"
+
+EVERY 20 TICKS DO
+    -- redstone은 키워드입니다
+    -- 이제 따옴표 없이도 사용할 수 있습니다 :D
+    input redstone from a
+    output minecraft:redstone to b
+END

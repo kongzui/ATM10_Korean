@@ -1,0 +1,8 @@
+{
+  "jar": "Super Factory Manager (SFM)-MC1.21.1-4.32.0.jar",
+  "source_files": 18,
+  "selected_files": 17,
+  "excluded": {
+    "changelog.sfml": "과거 버전 변경 기록이며 현재 기능 안내가 아니므로 제외"
+  }
+}

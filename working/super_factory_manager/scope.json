@@ -1,0 +1,50 @@
+{
+  "family": "Super Factory Manager",
+  "installed": [
+    {
+      "label": "Super Factory Manager",
+      "jar": "Super Factory Manager (SFM)-MC1.21.1-4.32.0.jar",
+      "namespace": "sfm",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 280,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "sfm"
+      ],
+      "guide_candidates": 2,
+      "guide_examples": [
+        "data/sfm/recipe/enchanted_book_copy.json",
+        "data/sfm/recipe/written_book_copy.json"
+      ],
+      "advancements": 13,
+      "advancement_examples": [
+        "data/sfm/advancement/recipes/misc/cable.json",
+        "data/sfm/advancement/recipes/misc/disk.json",
+        "data/sfm/advancement/recipes/misc/fancy_cable.json",
+        "data/sfm/advancement/recipes/misc/fancy_to_cable.json",
+        "data/sfm/advancement/recipes/misc/manager.json",
+        "data/sfm/advancement/recipes/misc/network_tool.json",
+        "data/sfm/advancement/recipes/misc/printing_press.json",
+        "data/sfm/advancement/recipes/misc/tough_cable.json",
+        "data/sfm/advancement/recipes/misc/tough_fancy_to_fancy.json",
+        "data/sfm/advancement/recipes/misc/tough_to_cable.json",
+        "data/sfm/advancement/recipes/misc/tunnelled_manager.json",
+        "data/sfm/advancement/recipes/misc/water_tank.json",
+        "data/sfm/advancement/recipes/misc/xp_goop.json"
+      ],
+      "recipes": 30
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Super Factory Manager",
+      "jar": "Super Factory Manager (SFM)-MC1.21.1-4.32.0.jar",
+      "namespace": "sfm",
+      "english_keys": 280,
+      "new_translation_required": 280
+    }
+  ]
+}
