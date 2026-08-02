@@ -1,0 +1,170 @@
+[
+  {
+    "path": "data/actuallyadditions/advancement/craft_coal_generator.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftCoalGen.desc",
+      "achievement.actuallyadditions.craftCoalGen"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_coffee_machine.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftCoffeeMachine.desc",
+      "achievement.actuallyadditions.craftCoffeeMachine"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_crusher.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftCrusher.desc",
+      "achievement.actuallyadditions.craftCrusher"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_double_crusher.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftDoubleCrusher.desc",
+      "achievement.actuallyadditions.craftDoubleCrusher"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_empowerer.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftEmpowerer.desc",
+      "achievement.actuallyadditions.craftEmpowerer"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_energyface.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftEnergyface.desc",
+      "achievement.actuallyadditions.craftEnergyface"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_item_interface.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftItemInterface.desc",
+      "achievement.actuallyadditions.craftItemInterface"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_laser_relay.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftLaserRelay.desc",
+      "achievement.actuallyadditions.craftLaserRelay"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_laser_relay_advanced.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftLaserRelayAdvanced.desc",
+      "achievement.actuallyadditions.craftLaserRelayAdvanced"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_laser_relay_extreme.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftLaserRelayExtreme.desc",
+      "achievement.actuallyadditions.craftLaserRelayExtreme"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_laser_relay_item.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftLaserRelayItem.desc",
+      "achievement.actuallyadditions.craftLaserRelayItem"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_leaf_generator.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftLeafGen.desc",
+      "achievement.actuallyadditions.craftLeafGen"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_liquiface.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftLiquiface.desc",
+      "achievement.actuallyadditions.craftLiquiface"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_phantom_face.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftPhantomface.desc",
+      "achievement.actuallyadditions.craftPhantomface"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/craft_reconstructor.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.craftReconstructor.desc",
+      "achievement.actuallyadditions.craftReconstructor"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/make_first_crystal.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.makeCrystal.desc",
+      "achievement.actuallyadditions.makeCrystal"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/pickup_coffee.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.pickUpCoffee.desc",
+      "achievement.actuallyadditions.pickUpCoffee"
+    ],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/recipes/misc/lamp_controller.json",
+    "has_display": false,
+    "translation_keys": [],
+    "literal_display": false
+  },
+  {
+    "path": "data/actuallyadditions/advancement/root.json",
+    "has_display": true,
+    "translation_keys": [
+      "achievement.actuallyadditions.openBooklet.desc",
+      "achievement.actuallyadditions.openBooklet"
+    ],
+    "literal_display": false
+  }
+]

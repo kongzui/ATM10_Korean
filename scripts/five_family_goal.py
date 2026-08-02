@@ -460,6 +460,12 @@ TARGETS = (
         "justdirethings",
         "Just Dire Things",
     ),
+    Target(
+        "actually_additions",
+        "actuallyadditions-",
+        "actuallyadditions",
+        "Actually Additions",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -491,6 +497,7 @@ FAMILY_LABELS = {
     "pneumaticcraft": "PneumaticCraft: Repressurized",
     "industrial_foregoing": "Industrial Foregoing·Industrial Foregoing Souls",
     "just_dire_things": "Just Dire Things",
+    "actually_additions": "Actually Additions",
 }
 
 QUEST_CHAPTERS = {
@@ -527,6 +534,7 @@ QUEST_CHAPTERS = {
     "pneumaticcraft": ("pneumaticcraft",),
     "industrial_foregoing": ("industrial_foregoing",),
     "just_dire_things": ("justdirethings",),
+    "actually_additions": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -631,6 +639,10 @@ QUEST_TEXT_MARKERS = {
     "just_dire_things": (
         "just dire things",
         "justdirethings",
+    ),
+    "actually_additions": (
+        "actually additions",
+        "actuallyadditions",
     ),
 }
 
@@ -738,6 +750,7 @@ ALLOWED_ORIGINALS = {
     "Industrial Foregoing: Souls",
     "Soulplied Energistics",
     "Just Dire Things",
+    "Actually Additions",
     "&lIndustrial Foregoing",
     "&bIndustrial Foregoing &#27AEB9Souls",
     "XOR",
@@ -3835,6 +3848,15 @@ def is_allowed_original(source: str) -> bool:
 
 def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     """모드 고유 식별명처럼 키 문맥에서만 원문 유지가 필요한 값을 판정한다."""
+    if family == "actually_additions" and key in {
+        "misc.actuallyadditions.energy_name",
+        "misc.actuallyadditions.power_long",
+        "misc.actuallyadditions.power_single",
+        "misc.actuallyadditions.power_double",
+        "misc.actuallyadditions.power_name_long",
+        "booklet.actuallyadditions.chapter.rf",
+    }:
+        return True
     if family == "immersive_engineering" and (
         key.startswith("item.immersiveengineering.shader.name.")
         or key
