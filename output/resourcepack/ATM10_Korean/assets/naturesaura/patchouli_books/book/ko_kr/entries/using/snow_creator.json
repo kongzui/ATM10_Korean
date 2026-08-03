@@ -1,0 +1,21 @@
+{
+  "name": "겨울의 부름",
+  "icon": "naturesaura:snow_creator",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "때로, 특히 명절에는 추위가 찾아와 온 세상을 하얀 담요로 덮고 싶어질 때가 있습니다. 요즘에는 $(italic)어떤 상황$()로 인해 이런 일이 훨씬 더 드물어졌습니다. $(item)겨울의 부름$()는 약간의 $(aura)를 제공하여 주변의 넓은 지역에 눈을 내리게 하여 이러한 현상을 다시 발생시킵니다."
+    },
+    {
+      "type": "text",
+      "text": "또한, 물이 얼어붙어 얼음이 되고 아주 가끔 땅을 덮는 데 도움이 되는 눈 골렘이 생성됩니다. 이 프로세스를 진행하려면 $(thing)레드스톤 신호$()를 제공해야 합니다. 신호 강도가 높을수록 눈이 내리는 지역이 넓어집니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)겨울의 부름$()$(p)$(italic)빙하 집진기 만들기",
+      "recipe": "naturesaura:snow_creator"
+    }
+  ]
+}

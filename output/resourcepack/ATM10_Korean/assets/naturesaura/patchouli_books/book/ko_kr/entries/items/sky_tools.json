@@ -1,0 +1,37 @@
+{
+  "name": "스카이시커의 도구",
+  "icon": "naturesaura:sky_pickaxe",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "신의 힘은 분명히 엄청나며 마법 식물학자들은 결코 이해하지 못할 수도 있습니다. 그러나 이를 조금 맛보는 아주 간단한 방법은 $(item)스카이시커의 도구$()입니다. 일반 도구로도 작동하지만 각각에는 $(item)다이아몬드$() 대응 도구와 구별되는 추가 $(thing)특별한 능력$()가 있습니다.$(br)또한 이러한 도구는 $(l:items/infused_iron_tools)식물학자의 도구$()와 동일한 방식으로 $(thing)수리하다$()일 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)하늘추적자의 곡괭이$()는 채굴된 모든 아이템이 즉시 사용자의 인벤토리에 들어가도록 하여 귀중한 다이아몬드가 아래 용암으로 떨어질 가능성을 제거합니다.",
+      "recipe": "naturesaura:sky_pickaxe"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)하늘추적자의 손도끼$()는 $(thing)몰래 상호작용하는$()와 함께 활성화되면 $(thing)작은 나무$()를 단번에 절단하는 데 매우 효율적입니다.",
+      "recipe": "naturesaura:sky_axe"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)하늘추적자의 삽$()를 사용하면 다양한 경로를 훨씬 쉽게 만들 수 있습니다. $(thing)블록$()를 보조 손에 들고 있을 때 삽을 사용하면 대상 블록이 잡고 있는 블록과 함께 $(thing)교체됨$()가 됩니다.",
+      "recipe": "naturesaura:sky_shovel"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)하늘추적자의 괭이$()는 농부들에게 두 가지 도움을 줍니다. 첫째, $(thing)더 큰 지역$() 땅을 경작하는 것입니다. 또한 $(item)키가 큰 풀$() 조각을 파괴하면 다소 넓은 지역에 있는 다른 모든 수풀 같은 블록도 함께 파괴됩니다.",
+      "recipe": "naturesaura:sky_hoe"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)하늘추적자의 검$()는 몬스터를 처리하는 훌륭한 방법입니다. 공격을 받으면 잠시 동안 $(item)공중부양$() 효과를 받아 하늘로 솟아올랐다가 잠시 후 다시 추락하게 됩니다.",
+      "recipe": "naturesaura:sky_sword"
+    }
+  ]
+}

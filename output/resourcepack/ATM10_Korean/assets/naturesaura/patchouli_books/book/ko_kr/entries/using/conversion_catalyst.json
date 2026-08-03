@@ -1,0 +1,122 @@
+{
+  "name": "변환 촉매",
+  "icon": "naturesaura:conversion_catalyst",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:using/altar)자연의 제단$()는 아이템에 $(aura)의 힘을 주입할 뿐 아니라 다른 종류로 변환할 수도 있습니다.$(br)$(item)변환 촉매$()를 만들고 제단 주변의 아래쪽 $(item)황금 돌 벽돌$() 네 개 중 하나 위에 놓은 뒤, 평소처럼 재료를 제단에 올리세요."
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "text": "$(l:practices/tree_ritual)숲의 의식$()를 사용하여 $(item)변환 촉매$()를 생성합니다.",
+      "recipe": "naturesaura:conversion_catalyst"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "최종 $(aura)에서 $(item)용의 숨결$() 생성",
+      "recipe": "naturesaura:breath"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "좀비의 유해에서 $(item)가죽$() 생성",
+      "recipe": "naturesaura:leather"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "세상의 곡물로 $(item)소울샌드$() 만들기",
+      "recipe": "naturesaura:soul_sand"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "네더의 포자에서 $(item)네더 사마귀$() 생성",
+      "recipe": "naturesaura:nether_wart"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "네더의 광석에서 $(item)프리즈머린 파편$()를 불러내세요",
+      "recipe": "naturesaura:prismarine"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(thing)물$()가 빈 $(item)병$() 내부에 축적되도록 함",
+      "recipe": "naturesaura:water"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)숯$()를 $(item)석탄$()로 전환",
+      "recipe": "naturesaura:coal"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)스펙트럼 화살$() 생성",
+      "recipe": "naturesaura:arrow"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)합창꽃$() 생성",
+      "recipe": "naturesaura:chorus"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)발효된 거미 눈$() 생성",
+      "recipe": "naturesaura:fermented"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)선두$() 생성",
+      "recipe": "naturesaura:lead"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)유독한 감자$() 정화",
+      "recipe": "naturesaura:potato"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)프리즈머린 수정$() 생성",
+      "recipe": "naturesaura:prismarine_crystal"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)토끼 발$() 생성",
+      "recipe": "naturesaura:rabbit_foot"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)금박을 입힌 흑암$() 생성",
+      "recipe": "naturesaura:gilded_blackstone"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)진홍색 곰팡이$() 생성",
+      "recipe": "naturesaura:crimson_fungus"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)뒤틀린 곰팡이$() 생성",
+      "recipe": "naturesaura:warped_fungus"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)사과$()를 $(item)계란$()로 전환",
+      "recipe": "naturesaura:egg"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)물$()를 $(item)우유$()$(p)$(italic)예수님처럼$()로 전환",
+      "recipe": "naturesaura:milk"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)자수정 파편$()를 $(item)엔더 진주$()로 전환",
+      "recipe": "naturesaura:ender_pearl"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)영혼의 흙$()를 $(item)가스트 눈물$()로 전환",
+      "recipe": "naturesaura:ghast_tear"
+    }
+  ]
+}

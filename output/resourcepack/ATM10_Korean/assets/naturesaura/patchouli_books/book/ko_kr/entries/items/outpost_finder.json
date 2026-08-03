@@ -1,0 +1,17 @@
+{
+  "name": "약탈자의 눈",
+  "icon": "naturesaura:outpost_finder",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:aura_bottle_overworld",
+  "pages": [
+    {
+      "type": "text",
+      "text": "전 세계에서 여러 가지 사건이 발생하는 경우 $(item)탐험가 지도$()를 사용하여 쉽게 찾을 수 있습니다. 그러나 이 지도는 세계의 모든 구조물에 대해 찾을 수 없습니다. 특히 $(thing)약탈자 전초기지$()는 이 방식으로 검색할 수 없습니다. 이 문제를 해결하기 위해 마법 식물학자들은 던지면 가장 가까운 $(thing)약탈자 전초기지$()를 향해 날아가는 $(item)약탈자의 눈$()를 만들었습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)약탈자의 눈$() 생성",
+      "recipe": "naturesaura:outpost_finder"
+    }
+  ]
+}

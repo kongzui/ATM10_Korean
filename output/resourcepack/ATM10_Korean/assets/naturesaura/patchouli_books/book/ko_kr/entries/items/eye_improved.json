@@ -1,0 +1,25 @@
+{
+  "name": "환경 안구",
+  "icon": "naturesaura:eye_improved",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:end_flower",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:items/eye)환경의 눈$()는 이론적으로 매우 유용합니다. 그러나 많은 마법 식물학자들은 주변 환경에서 $(aura)를 측정하는 제한된 범위로 인해 어려움을 겪고 있습니다. 이 문제에 대한 간단한 해결책은 $(item)환경 안구$().$(br)입니다. $(item)환경의 눈$()와 유사하게 작동하지만 주요 차이점은 해당 영역의 $(aura)에 대한 게이지가 훨씬 더 크다는 것입니다. $(thing)두 배나 크다$()입니다."
+    },
+    {
+      "type": "text",
+      "text": "확장된 막대는 $(aura) 레벨이 충분히 높거나 낮은 경우에만 표시된다는 점에 유의해야 합니다. $(p)두 번째로, $(item)환경 안구$()에는 사용자가 서있는 위치에서 현재 발생하는 모든 $(thing)오라 불균형$() 효과를 표시하는 기능이 있습니다. 오라 바 옆에 아이콘 형태로 표시됩니다. 어떤 아이콘이 어떤 효과를 나타내는지 확인하려면 이 책의 $(thing)오라 불균형$() 섹션을 사용할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "효과 아이콘에 줄이 그어져 있으면 $(l:effects/effect_powder)효과 가루$()가 필요한 효과가 존재하지 않거나 현재 해당 가루에 의해 억제되고 있는 효과입니다. $(br)추가 특전은 $(item)환경의 눈$()를 핫바에 보관해야 하는 반면 $(item)환경 안구$()는 사용자 인벤토리의 어느 곳에나 있을 수 있다는 것입니다. work.$(br)$(item)환경의 눈$()의 다른 모든 속성은 예상대로 $(item)환경 안구$()로 이어집니다."
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "text": "$(l:practices/tree_ritual)숲의 의식$()를 사용하여 $(item)환경 안구$() 생성",
+      "recipe": "naturesaura:eye_improved"
+    }
+  ]
+}

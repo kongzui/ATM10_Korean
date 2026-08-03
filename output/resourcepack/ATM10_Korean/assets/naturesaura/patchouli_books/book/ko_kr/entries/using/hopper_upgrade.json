@@ -1,0 +1,17 @@
+{
+  "name": "호퍼 업그레이드",
+  "icon": "naturesaura:hopper_upgrade",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)호퍼$()로 아이템을 모으면 편리하지만 넓은 지역에서는 한계가 있습니다. $(item)호퍼 업그레이드$()를 $(item)호퍼$() 위에 놓으면 아이템을 줍는 범위가 약 $(thing)일곱$() 블록 크게 늘어납니다.$(br)아이템을 주울 때마다 소량의 $(aura)를 사용합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)호퍼 업그레이드$() 제작",
+      "recipe": "naturesaura:hopper_upgrade"
+    }
+  ]
+}

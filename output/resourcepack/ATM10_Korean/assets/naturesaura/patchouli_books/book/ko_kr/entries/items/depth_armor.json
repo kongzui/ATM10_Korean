@@ -1,0 +1,22 @@
+{
+  "name": "영혼타조의 갑옷",
+  "icon": "naturesaura:depth_chest",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:depth_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)영혼걸음꾼의 갑옷$()를 착용하면 마법 식물학자는 몸 속에 솟아오르는 암흑 에너지를 느낄 수 있습니다. 이 갑옷은 $(l:items/sky_armor)상대방$()처럼 수리할 수 있지만 $(thing)세트 보너스$()도 제공합니다. 갑옷의 모든 부분을 착용하거나 흉갑을 $(item)겉날개$()로 교체할 때 갑옷에 맞으면 근처의 모든 적들이 몇 초 동안 땅과 융합되어 $(thing)완전히 가만히 서 있다$() 상태가 됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:depth_helmet",
+      "recipe2": "naturesaura:depth_chest"
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:depth_pants",
+      "recipe2": "naturesaura:depth_shoes"
+    }
+  ]
+}

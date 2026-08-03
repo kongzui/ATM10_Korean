@@ -1,0 +1,67 @@
+{
+  "name": "분쇄 촉매",
+  "icon": "naturesaura:crushing_catalyst",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:using/altar)자연의 제단$()는 아이템에 $(aura)의 힘을 주입할 뿐 아니라 특정 아이템을 다른 형태로 $(thing)분쇄$()할 수도 있습니다.$(br)$(item)분쇄 촉매$()를 만들고 제단 주변의 아래쪽 $(item)황금 돌 벽돌$() 네 개 중 하나 위에 놓은 뒤, 평소처럼 재료를 제단에 올리세요."
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "text": "$(l:practices/tree_ritual)숲의 의식$()를 사용하여 $(item)분쇄 촉매$()를 생성합니다.",
+      "recipe": "naturesaura:crushing_catalyst"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)뼈$()를 분쇄하여 $(item)뼛가루$() 만들기",
+      "recipe": "naturesaura:bone"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "지팡이에서 $(item)설탕$()를 제거하여 수확",
+      "recipe": "naturesaura:sugar"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "네더의 재료로 $(item)블레이즈 파우더$() 만들기",
+      "recipe": "naturesaura:blaze"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)발광석$()를 삭제하여 $(item)발광석 가루$() 만들기",
+      "recipe": "naturesaura:glowstone"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)조약돌$()를 분쇄하여 $(item)모래$()를 만듭니다.",
+      "recipe": "naturesaura:sand"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)황금 잎$()에서 $(item)금가루$() 만들기",
+      "recipe": "naturesaura:gold_powder"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)자수정 블록$()를 $(item)샤드$()로 줄이기",
+      "recipe": "naturesaura:amethyst"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)포장된 진흙$()를 $(item)진흙$()로 다시 전환",
+      "recipe": "naturesaura:mud"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)네더 사마귀 블록$()에서 $(item)황천 사마귀$() 추출",
+      "recipe": "naturesaura:nether_wart_crushing"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(item)영혼의 흙$()를 $(item)소울샌드$()로 전환",
+      "recipe": "naturesaura:soul_sand_crushing"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "월드아이",
+  "icon": "naturesaura:chunk_loader",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:aura_bottle_end",
+  "flag": "naturesaura:chunk_loader",
+  "pages": [
+    {
+      "type": "text",
+      "text": "우리가 살고 있는 세상에서 핵심 요소는 제대로 이해된 적이 없습니다. 아무도 보지 않는 곳에서는 아무 일도 일어나지 않는 것 같습니다. 시간 자체가 정지하는 것 같습니다. 이러한 자연 현상은 때때로 문제가 될 수 있으며, 특히 장거리 자동 운송의 경우 더욱 그렇습니다. 그러나 $(item)월드아이$()는 $(thing)활동적인$()를 유지해야 하는 영역을 관찰하는 동시에 소량의 작업이 필요합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(aura)는 시야를 유지합니다. $(p)설정하려면 간단히 내려놓고 $(thing)레드스톤 신호$()를 제공하세요. 신호가 강할수록 블록의 반경은 더 커지며 약 30가 최대값입니다. 이러한 방식으로 관찰이 작동하는 방식의 특성으로 인해 범위가 항상 정확하게 충족되지는 않습니다. 즉, 로드될 영역이 예상 범위보다 $(thing)약간 더 크다$()인 경우가 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)월드아이$()Z$(p)$(italic)A 청크 로드 생성",
+      "recipe": "naturesaura:chunk_loader"
+    }
+  ]
+}

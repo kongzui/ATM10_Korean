@@ -1,0 +1,15 @@
+{
+  "jar": "NaturesAura-41.9.jar",
+  "advancement_files": 25,
+  "advancement_display_uses_language_keys": true,
+  "patchouli_files": 100,
+  "kubejs_reference_files": [
+    "kubejs/assets/naturesaura/lang/ru_ru.json",
+    "kubejs/client_scripts/RecipeViewer.js",
+    "kubejs/server_scripts/mods/modular_machinery/recipes/atm/multiblock_parts.js",
+    "kubejs/server_scripts/mods/Reliquary/Recipes.js"
+  ],
+  "kubejs_direct_display_lines": [],
+  "errors": [],
+  "status": "complete"
+}

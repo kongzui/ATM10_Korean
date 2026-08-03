@@ -1,0 +1,6 @@
+{
+  "name": "오라 불균형",
+  "description": "세계에서 $(aura)를 빼내거나 더 추가하는 것을 $(thing)오라 불균형$()라고 하며 이는 긍정적인 효과와 부정적인 효과를 모두 가질 수 있습니다. 이 카테고리에 나열되어 있습니다.",
+  "icon": "naturesaura:textures/gui/patchouli/categories/effects.png",
+  "sortnum": 20
+}

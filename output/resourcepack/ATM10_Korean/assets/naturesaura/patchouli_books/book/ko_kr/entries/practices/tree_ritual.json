@@ -1,0 +1,52 @@
+{
+  "name": "숲의 의식",
+  "icon": "naturesaura:wood_stand",
+  "category": "naturesaura:practices",
+  "advancement": "naturesaura:gold_leaf",
+  "priority": true,
+  "turnin": "naturesaura:wood_stand",
+  "pages": [
+    {
+      "type": "text",
+      "text": "마법 식물학자로 시작할 때 $(aura) 자체를 직접 탐구하기 전에 보다 직접적인 수준에서 자연의 힘을 사용하는 것이 유익하다는 것이 입증되었습니다. $(item)숲의 의식$()는 $(l:practices/gold_trees)금가루$()의 특성을 사용하여 천연 성분의 힘을 신선하게 자라는 나무에 직접 통합하여 그 과정에서 나무를 삼키는 동시에 유용한 도구와 아이템으로 변화시킵니다."
+    },
+    {
+      "type": "text",
+      "text": "이 $(thing)의례$()를 구성하려면 다음 페이지에 표시된 구성에 $(item)금가루$()를 배치해야 하며 재료를 담을 주위에 일부 $(item)나무 스탠드$()가 있어야 합니다. $(br)그런 다음 올바른 $(item)어린 나무$()를 중앙에 배치해야 하며 일종의 비료를 통해 또는 시간의 불가피성을 통해 성장하면 의식이 다음과 같이 발생합니다. start.$(br) 의식에는 $(bold)특정 유형의 묘목$()가 필요하므로 주의가 필요합니다."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "naturesaura:tree_ritual",
+      "text": "$(item)숲의 의식$()를 준비 중입니다. $(item)우드 스탠드$()가 모두 존재할 필요는 없습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)나무 스탠드$() 생성",
+      "recipe": "naturesaura:wood_stand"
+    },
+    {
+      "type": "text",
+      "text": "의식과 함께 $(item)토큰$()에 대한 지식을 얻을 수 있습니다. 주요 감정을 묘사하는 나무 조각상은 각각의 상징이 주입된 나무로 만들어졌습니다. 이 피규어에는 $(aura) 자체의 엄청난 힘과 그것이 나타내는 감정의 힘이 결합되어 있습니다. $(p)앞으로 이 $(item)토큰$()는 핵심 구성 요소가 될 것입니다."
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "recipe": "naturesaura:token_joy",
+      "text": "자연, 탐험, 아름다움에서 찾은 기쁨을 불러일으키는 아이템이 담긴 $(item)기쁨의 증표$() 만들기"
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "recipe": "naturesaura:token_fear",
+      "text": "일시적인 느낌을 나타내는 아이템이 주입된 $(item)공포의 토큰$() 생성, 낙하"
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "recipe": "naturesaura:token_anger",
+      "text": "폭발성, 불, 어둠 등 어두운 구성 요소가 주입된 $(item)분노의 토큰$() 만들기"
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "recipe": "naturesaura:token_sorrow",
+      "text": "눈물, 취약성, 죽음이 주입된 $(item)슬픔의 증표$() 만들기"
+    }
+  ]
+}

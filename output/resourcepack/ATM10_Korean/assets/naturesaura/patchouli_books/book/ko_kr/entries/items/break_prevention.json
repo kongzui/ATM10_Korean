@@ -1,0 +1,17 @@
+{
+  "name": "Eir의 토큰",
+  "icon": "naturesaura:break_prevention",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "가장 필요할 때 아끼는 $(thing)도구$()가 부서지면 수리할 수도 없고 부여한 마법도 모두 잃습니다. 이를 막으려면 $(item)Eir의 토큰$()을 $(thing)모루$()에서 도구에 적용하세요. 토큰을 적용한 도구는 내구도가 바닥나도 부서지지 않고 $(thing)작동만 멈춥니다$()."
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "text": "$(l:practices/tree_ritual)숲의 의식$()를 사용하여 $(item)Eir의 토큰$() 생성",
+      "recipe": "naturesaura:break_prevention"
+    }
+  ]
+}

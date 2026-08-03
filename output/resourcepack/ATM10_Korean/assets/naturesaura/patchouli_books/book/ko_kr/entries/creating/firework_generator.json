@@ -1,0 +1,25 @@
+{
+  "name": "폭죽의 시선",
+  "icon": "naturesaura:firework_generator",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:offering",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)불꽃$()는 보기에도 아름다운 반면, 정말 좋아 보이는 제품을 만드는 데는 약간의 비용이 듭니다. $(item)폭죽의 시선$()는 특히 이 의견을 공유하는 것 같습니다. 주변 지상에 있는 $(thing)떨어졌다$() 폭죽을 소모하면 공중으로 쏘아올립니다. 한번 터지면 폭발적이고 다채로운 에너지가 흡수되며, 불꽃의 복잡도를 바탕으로"
+    },
+    {
+      "type": "text",
+      "text": "결과적으로 $(aura)가 생성되어 환경으로 확산됩니다. 복잡성의 경우 특히 불꽃 생성에 사용되는 항목의 $(thing)값$()가 중요하지만 $(thing)불꽃놀이 별$()의 양, $(thing)그림 물감$()의 양 및 기타 변수도 각 샷에서 생성되는 $(aura)의 양을 고려합니다."
+    },
+    {
+      "type": "text",
+      "text": "또한 $(item)폭죽의 시선$()에 의해 이미 폭죽이 공중으로 발사되고 있거나 폭발 에너지를 소비하는 동안 폭죽을 수집 영역에 더 이상 떨어뜨리면 폭죽이 소모되지만 $(aura)는 생성되지 않습니다. 이는 자동화를 위해 일종의 $(thing)시간제 노동자$()를 설정하는 것이 현명할 것임을 의미합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:firework_generator",
+      "text": "$(item)폭죽의 시선$() 생성"
+    }
+  ]
+}

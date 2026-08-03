@@ -1,0 +1,22 @@
+{
+  "kind": "quests",
+  "scopes": [
+    {
+      "keys": 64,
+      "untranslated_candidates": [
+        "quest.5C990F7E5D345A6F.quest_desc[1]",
+        "quest.497AE687B7E95DE8.quest_desc[1]"
+      ],
+      "errors": [],
+      "scope": "quests/natures_aura"
+    },
+    {
+      "keys": 5,
+      "untranslated_candidates": [],
+      "errors": [],
+      "scope": "quests/related"
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

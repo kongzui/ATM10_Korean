@@ -1,0 +1,6 @@
+{
+  "name": "오라 활용",
+  "description": "전 세계에서 $(aura)를 수집할 때 인간이 묻는 본능적인 질문은 다음과 같습니다. $(italic)\"이것을 어떻게 활용할 수 있나요?\"$() 이 카테고리에는 바로 그 점을 설명하는 항목이 있습니다.",
+  "icon": "naturesaura:textures/gui/patchouli/categories/using.png",
+  "sortnum": 15
+}

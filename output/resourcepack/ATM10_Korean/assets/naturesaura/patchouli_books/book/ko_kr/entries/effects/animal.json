@@ -1,0 +1,21 @@
+{
+  "name": "출산율 증가",
+  "icon": "minecraft:egg",
+  "category": "naturesaura:effects",
+  "advancement": "naturesaura:positive_imbalance",
+  "pages": [
+    {
+      "type": "text",
+      "text": "한 지역의 $(aura)가 $(l:items/eye)환경의 눈$() 눈금의 약 ⅔를 넘고 근처에 $(l:effects/effect_powder)다산의 가루$()가 있으면, 소·양·돼지 같은 $(item)동물$()이 이따금 먹이를 주지 않아도 $(thing)번식$()합니다. 이 과정에서 힘에 이끌려 사랑에 빠진 듯 $(aura)를 조금 소모합니다."
+    },
+    {
+      "type": "text",
+      "text": "또한 한동안 땅에 아이템으로 누워 있던 $(item)계란$()는 던질 필요 없이 $(thing)해치$()를 닭 안으로 넣습니다. $(p) 해당 지역에 충분한 동물이 존재하면 이 두 효과는 모두 중단되어 인구 과잉을 방지합니다."
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "recipe": "naturesaura:animal_powder",
+      "text": "$(l:effects/effect_powder)다산의 가루$()를 생성합니다."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "발두르의 지팡이",
+  "icon": "naturesaura:light_staff",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "더 높은 세계의 신들은 $(thing)빛$()를 세상에 캐스팅하는 힘을 포함하여 오랫동안 많은 힘을 보유해 왔습니다. 다음 페이지에 설명된 방식으로 신성한 재료를 결합하면 $(thing)빛의 광선$()를 발사하는 지팡이를 만들 수 있습니다. 이 지팡이는 블록에 부딪히면 마치 $(item)발광석$()가 설치된 것처럼 주변 지역이 밝아집니다."
+    },
+    {
+      "type": "text",
+      "text": "또한 광선이 어떤 종류의 생물체에 닿으면 $(thing)불길$()가 상승하게 됩니다. $(p) 이런 종류의 광선을 발사하려면 사용자가 소량의 $(aura)를 휴대해야 합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)발두르의 지팡이$() 생성",
+      "recipe": "naturesaura:light_staff"
+    }
+  ]
+}

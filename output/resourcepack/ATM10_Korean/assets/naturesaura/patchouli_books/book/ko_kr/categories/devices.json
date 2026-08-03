@@ -1,0 +1,6 @@
+{
+  "name": "기계 장치",
+  "description": "일부 기계는 $(aura)의 성능을 직접 활용하지 않고 이를 사용하여 생성된 항목을 활용하여 다른 장치가 할 수 없는 기능을 달성합니다. 이 섹션에는 그러한 장치와 도구가 포함되어 있습니다.",
+  "icon": "naturesaura:textures/gui/patchouli/categories/devices.png",
+  "sortnum": 30
+}

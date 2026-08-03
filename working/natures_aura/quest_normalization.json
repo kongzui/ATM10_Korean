@@ -1,0 +1,14 @@
+{
+  "quests": [
+    {
+      "scope": "natures_aura",
+      "reviewed_keys": 64
+    },
+    {
+      "scope": "related",
+      "reviewed_keys": 5
+    }
+  ],
+  "item_titles_matched_to_resourcepack": 5,
+  "status": "complete"
+}

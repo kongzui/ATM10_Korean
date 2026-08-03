@@ -1,0 +1,21 @@
+{
+  "name": "크림슨밀",
+  "icon": "naturesaura:crimson_meal",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:aura_bottle_nether",
+  "pages": [
+    {
+      "type": "text",
+      "text": "대부분의 경우 $(item)뼛가루$()는 식물에 비료를 주어 식물이 훨씬 더 빨리 자라도록 하는 목적을 수행합니다. 그러나 $(thing)네더$() 차원의 경우 단순한 뼛가루는 그다지 좋지 않습니다. $(br)그러나 이 문제는 $(item)크림슨밀$()를 사용하면 쉽게 피할 수 있습니다.$(br) 이 물질은 뼛가루와 유사한 방식으로 $(item)네더 사마귀$() 식물의 성장을 더 빠르게 만들 뿐만 아니라"
+    },
+    {
+      "type": "text",
+      "text": "하지만 완전히 성장한 $(item)네더 사마귀$()가 더 높은 생산량을 위해 수확할 수 있는 거대한 $(thing)네더 사마귀 버섯$()로 변하게 됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)크림슨밀$() 생성",
+      "recipe": "naturesaura:crimson_meal"
+    }
+  ]
+}

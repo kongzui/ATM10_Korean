@@ -567,6 +567,12 @@ TARGETS = (
         "forbidden_arcanus",
         "Forbidden and Arcanus",
     ),
+    Target(
+        "natures_aura",
+        "NaturesAura-",
+        "naturesaura",
+        "Nature's Aura",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -612,6 +618,7 @@ FAMILY_LABELS = {
     "draconic_evolution": "Draconic Evolution",
     "irons_spells": "Iron's Spells 'n Spellbooks",
     "forbidden_arcanus": "Forbidden and Arcanus",
+    "natures_aura": "Nature's Aura",
 }
 
 QUEST_CHAPTERS = {
@@ -662,6 +669,7 @@ QUEST_CHAPTERS = {
     "draconic_evolution": ("draconic_evolution",),
     "irons_spells": ("iron_spells_and_spellbooks",),
     "forbidden_arcanus": ("forbidden__arcanus",),
+    "natures_aura": ("natures_aura",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -845,6 +853,13 @@ QUEST_TEXT_MARKERS = {
         "forbidden_arcanus",
         "hephaestus forge",
         "eternal stella",
+    ),
+    "natures_aura": (
+        "nature's aura",
+        "naturesaura",
+        "aura cache",
+        "aura altar",
+        "natural altar",
     ),
 }
 
@@ -4098,6 +4113,12 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     ):
         return True
     if family == "forbidden_arcanus" and key == "itemGroup.forbidden_arcanus.main":
+        return True
+    if family == "natures_aura" and key in {
+        "item_group.naturesaura.tab",
+        "advancement.naturesaura.root",
+        "command.naturesaura.aura.usage",
+    }:
         return True
     if family == "actually_additions" and key in {
         "misc.actuallyadditions.energy_name",

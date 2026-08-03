@@ -1,0 +1,6 @@
+{
+  "name": "자연 관행",
+  "description": "$(aura)와 관련되지만 반드시 수집 및 저장과 관련이 있는 것은 아니지만 장기적으로 도움이 될 수 있는 다른 관행이 있을 수 있습니다. 이 카테고리는 어떤 관행이 존재하고 어떻게 실행하는지에 대한 정보를 제공합니다.",
+  "icon": "naturesaura:textures/gui/patchouli/categories/practices.png",
+  "sortnum": 5
+}

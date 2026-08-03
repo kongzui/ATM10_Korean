@@ -1,0 +1,26 @@
+{
+  "name": "식물학자의 갑옷",
+  "icon": "naturesaura:infused_iron_chest",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:items/infused_iron_tools)도구$() 외에도 식물학자는 갑옷, 특히 $(item)식물학자의 갑옷$()를 통해 보호를 받을 수 있습니다. 철갑옷만큼 방어력이 뛰어나며, 같은 종류의 도구와 마찬가지로 $(l:items/aura_cache)오라 캐시$()를 들고 잠입하면 잃어버린 내구도를 재충전할 수 있습니다. 그러나 갑옷에는 전체 갑옷 세트를 한 번에 착용할 때 적용되는 $(thing)세트 보너스$()도 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "그런 다음 몹이 착용자를 공격하면 짧은 $(item)시들게 하는$() 효과가 적용되어 가시 마법과 유사한 방식으로 피해를 입게 됩니다. $(br)또한 전체 세트를 장착한 상태에서 $(l:items/shockwave_creator)분노의 아뮬렛$()를 사용하면 짧은 시간 동안 해당 효과에 맞은 모든 몹에게 위축 효과가 적용됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:infused_helmet",
+      "recipe2": "naturesaura:infused_chest"
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:infused_pants",
+      "recipe2": "naturesaura:infused_shoes"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "신들에게 바치는 공물",
+  "icon": "naturesaura:offering_table",
+  "category": "naturesaura:practices",
+  "advancement": "naturesaura:infused_materials",
+  "turnin": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)주입된 철분$()는 좋고 건강하며 스스로 다양한 일을 할 수 있을 만큼 타고난 힘을 가지고 있습니다. 그러나 더 발전된 메커니즘을 위해서는 더 강력한 금속이 필요합니다. 이를 위해서 그리고 다른 많은 일을 위해서는 $(item)신들에게 바치는 공물$()가 필요합니다. $(br)신은 오랫동안 가장 강력하고 강력한 존재였으며 따라서 인간에게 알려진 가장 강한 금속을 보유하고 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "신들 자신을 부르는 방법을 만들려면 다음 페이지에 설명된 대로 주변에 꽃이 있는 $(item)헌금 테이블$()를 놓으십시오. 그런 다음 공양을 시작하려면 제공하고 싶은 항목을 테이블 위의 그릇에 놓은 다음 신을 부르는 항목(대부분의 경우 $(item)소명의 정신$())을 테이블 가까이에 던집니다. $(br) 그러면 요청한 항목이 운이 좋으면 하늘에서 비가 내릴 것입니다."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "naturesaura:offering_table",
+      "text": "$(item)신들에게 바치는 공물$()를 준비 중입니다. 어떤 종류의 꽃이라도 사용할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)헌금 테이블$() 생성",
+      "recipe": "naturesaura:offering_table"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)부름의 영혼$() 생성",
+      "recipe": "naturesaura:calling_spirit"
+    },
+    {
+      "type": "naturesaura:offering",
+      "text": "신성한 에너지가 주입된 강력한 금속인 $(item)하늘 주괴$()를 요구합니다.",
+      "recipe": "naturesaura:sky_ingot"
+    },
+    {
+      "type": "naturesaura:offering",
+      "text": "$(item)타락한 금$()를 사용하여 $(item)하늘 주괴$()를 요청하면 수율이 높아집니다.",
+      "recipe": "naturesaura:sky_ingot_from_gold"
+    },
+    {
+      "type": "naturesaura:offering",
+      "text": "$(item)기쁨의 증표$()를 훨씬 더 강력한 버전인 $(item)행복감의 토큰$()로 교체합니다.",
+      "recipe": "naturesaura:token_euphoria"
+    },
+    {
+      "type": "naturesaura:offering",
+      "text": "$(item)공포의 토큰$()를 훨씬 더 강력한 버전인 $(item)공포의 토큰$()로 교체합니다.",
+      "recipe": "naturesaura:token_terror",
+      "anchor": "terror"
+    },
+    {
+      "type": "naturesaura:offering",
+      "text": "$(item)분노의 토큰$()를 훨씬 더 강력한 버전인 $(item)분노의 토큰$()로 교체합니다.",
+      "recipe": "naturesaura:token_rage"
+    },
+    {
+      "type": "naturesaura:offering",
+      "text": "$(item)슬픔의 증표$()를 훨씬 더 강력한 버전인 $(item)슬픔의 증표$()로 교체합니다.",
+      "recipe": "naturesaura:token_grief"
+    }
+  ]
+}

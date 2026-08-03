@@ -1,0 +1,17 @@
+{
+  "name": "육체적인 눈",
+  "icon": "naturesaura:animal_container",
+  "category": "naturesaura:devices",
+  "advancement": "naturesaura:eye",
+  "pages": [
+    {
+      "type": "text",
+      "text": "때때로 농부로서 $(thing)동물$()를 작은 영역에 격리하여 도망가는 것을 방지하고 싶을 때가 있습니다. $(br)$(item)육체적인 눈$()는 주변에 블록이 없어도 동물이 효과 영역을 벗어나는 것을 방지합니다. 이 격리를 위한 $(thing)범위$()는 적용된 $(thing)레드스톤 신호$()에 의해 결정됩니다. 강할수록 면적이 더 커집니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)육체적인 눈$() 생성",
+      "recipe": "naturesaura:animal_container"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "family": "Nature's Aura",
+  "chapters": {
+    "natures_aura": {
+      "display_keys": 64,
+      "new_translation_required": 3,
+      "project_output_review": 61
+    },
+    "related": {
+      "display_keys": 5,
+      "project_output_review": 5
+    }
+  }
+}

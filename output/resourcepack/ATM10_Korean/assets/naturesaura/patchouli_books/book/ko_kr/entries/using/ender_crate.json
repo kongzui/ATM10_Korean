@@ -1,0 +1,21 @@
+{
+  "name": "엔더 상자",
+  "icon": "naturesaura:ender_crate",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:aura_bottle_end",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)엔더 상자$()는 품목을 안전하게 보관하려는 모든 사람에게 훌륭한 기술이지만 해당 품목에 대해 $(thing)운송$()의 쉬운 수단을 제공하지는 않습니다. 이를 위해 $(item)엔더 상자$()가 완벽합니다. 함께 연결된 두 개 이상의 상자는 차원 간에서도 동일한 인벤토리를 공유하므로 항목을 쉽게 운반할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "물론, 상자와 발생하는 각 상호 작용에는 일부 $(aura)가 필요합니다. $(br)하나 이상의 상자를 연결하려면 상자를 $(item)엔더의 눈$()와 함께 $(thing)모루$()에 배치한 다음 원하는 이름을 적어 $(item)엔더 이름$()를 부여해야 합니다.$(br)다른 사람이 상자를 부를 수 있다는 우려가 있는 경우 같은 이름의 상자가 있으면 해당 이름의 상자 안에 $(l:practices/offering#terror)공포의 토큰$()를 넣기만 하면 $(thing)잠긴$()라는 이름을 부여할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)엔더 상자$() 생성",
+      "recipe": "naturesaura:ender_crate"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "영원한 샘",
+  "icon": "naturesaura:spring",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:offering",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)영원한 샘$()은 $(thing)물$()의 여러 기능을 단단한 구조물 하나에 담아, 물이 존재하기에는 $(thing)너무 뜨거운$() 곳에서도 사용할 수 있습니다. $(item)영원한 샘$()은 위에 있는 $(item)가마솥$(), 근처의 $(item)스펀지$(), 샘에 사용한 $(item)양동이$()에 물을 채우며, 주변 다섯 블록 범위의 $(thing)경작지$()에도 수분을 공급합니다."
+    },
+    {
+      "type": "text",
+      "text": "또한 $(item)파이프$()와 같은 고급 기계는 물을 끌어낼 수 있습니다. 또한 스프링은 다음과 같은 방식으로 $(item)용암$()와 상호 작용할 수 있습니다. 용암이 수평으로 한 블록 떨어진 곳에 배치되면 $(item)조약돌$() 블록이 생성됩니다. 동일하게 수행되지만 수직으로 수행되면 대신 $(item)결석$()가 생성됩니다. 샘 바로 옆에 있는 용암 블록은 $(item)흑요석$().$(n)로 변합니다. 물론 이러한 모든 작업에는 다양한 양의 $(aura)가 필요합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)영원한 샘$() 조립",
+      "recipe": "naturesaura:spring"
+    }
+  ]
+}

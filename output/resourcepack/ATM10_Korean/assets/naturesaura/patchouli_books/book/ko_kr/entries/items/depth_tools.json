@@ -1,0 +1,37 @@
+{
+  "name": "영혼걸음꾼의 도구",
+  "icon": "naturesaura:depth_pickaxe",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:depth_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Soulstrider의 도구$()는 하늘, 땅, 심해의 재료를 조합하여 만들어지는 도구로서 매우 강력합니다. 일반 도구로도 작동하지만 각각에는 $(item)네더라이트$() 대응 도구와 구별되는 추가 $(thing)특별한 능력$()가 있습니다.$(br)또한 이러한 도구는 $(l:items/sky_tools)스카이시커의 도구$()와 동일한 방식으로 $(thing)수리하다$()일 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)영혼걸음꾼의 곡괭이$()를 $(thing)몰래 상호작용하는$()와 함께 활성화하면 전체 $(thing)광맥$()를 하나로 모두 채굴하여 훨씬 더 효율적으로 채굴할 수 있습니다.",
+      "recipe": "naturesaura:depth_pickaxe"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)영혼걸음꾼의 손도끼$()는 $(thing)몰래 상호작용하는$()와 함께 활성화되면 매우 큰 $(thing)어떤 종류의 나무라도$()를 단번에 절단하는 데 매우 효율적입니다.",
+      "recipe": "naturesaura:depth_axe"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)영혼타조의 삽$()는 $(item)흙$()와 같은 불모의 블록과 상호작용할 때 이를 아름다운 잔디 블록으로 바꾸고, 그 과정에서 주변의 $(thing)넓은 지역$()에 대해서도 그렇게 합니다.",
+      "recipe": "naturesaura:depth_shovel"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)영혼타조의 괭이$()는 나무가 저절로 완전히 떨어질 때까지 기다리는 것을 좋아하지 않는 식물학자들을 도와 매우 넓은 지역에서 단 한 번의 스윙으로 $(item)나뭇잎$()를 깨뜨릴 수 있도록 해줍니다.",
+      "recipe": "naturesaura:depth_hoe"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)영혼걸음꾼의 검$()의 엄청난 크기는 더 많은 몬스터 그룹을 공격할 때 사용됩니다. 그 중 하나를 공격하면 마치 더 강력한 버전의 $(item)스위핑 에지$()에 마법을 부여한 것처럼 다소 넓은 지역에 있는 여러 마리가 공격을 받습니다. 물론 이 두 가지 능력이 상호 배타적인 것도 아닙니다.",
+      "recipe": "naturesaura:depth_sword"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "family": "natures_aura",
+  "english_files": 3,
+  "unique_strings": 309,
+  "candidate_requests": 309,
+  "candidate_failures": [],
+  "outputs": [
+    {
+      "source": "working/natures_aura/naturesaura/en_us.json",
+      "output": "working/natures_aura/naturesaura/auto_candidates.json",
+      "strings": 242
+    },
+    {
+      "source": "working/natures_aura/quests/natures_aura/en_us.json",
+      "output": "working/natures_aura/quests/natures_aura/auto_candidates.json",
+      "strings": 66
+    },
+    {
+      "source": "working/natures_aura/quests/related/en_us.json",
+      "output": "working/natures_aura/quests/related/auto_candidates.json",
+      "strings": 5
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "오라 식물",
+  "icon": "naturesaura:aura_bloom",
+  "category": "naturesaura:practices",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(aura)의 발견에 도움이 된 자연 현상은 세계 거의 모든 곳에서 나타나는 특정 종류의 식물입니다. 이 식물은 처음 자랄 때 주변 지역에 자연적으로 더 높은 농도의 $(aura)가 포함되도록 하는 것으로 알려져 있습니다. 또한 이 모든 식물은 $(item)화분$()에 완벽하게 들어맞아 멋진 장식 역할을 합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "naturesaura:aura_bloom",
+      "link_recipe": true,
+      "text": "$(item)오라 꽃$()는 일반적으로 작은 패치로 $(thing)잔디$()가 있는 모든 종류의 영역에서 자랍니다. 이와 같은 영역을 찾는 것은 $(aura)를 처음 시작할 때 특히 유용할 수 있습니다. 여기에서 $(l:practices/aura_bottle)병과 코르크$()를 사용하여 $(aura)를 수집하는 것이 환경에 훨씬 덜 파괴적이기 때문입니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "naturesaura:aura_cactus",
+      "link_recipe": true,
+      "text": "$(item)오라 선인장$()는 $(thing)메사$() 지역뿐만 아니라 모든 색상의 황량한 지역에서 자랍니다. 이 지역은 일반적으로 발견할 수 있는 식물이 많지 않아 꽤 불모지이므로 좋은 출발점이 될 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "naturesaura:aura_mushroom",
+      "link_recipe": true,
+      "text": "$(item)오라 버섯$()는 균사체가 만연한 섬에서 발견되며, 거대한 버섯과 밝은 빨간색 소와 함께 나타납니다. 이 지역에서는 아름다운 보라색 오라 입자가 땅에서 솟아오르게 됩니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "naturesaura:crimson_aura_mushroom",
+      "link_recipe": true,
+      "text": "$(item)진홍$() 및 $(item)뒤틀린 오라 버섯$()는 $(thing)네더$()의 숲이 우거진 지역에서 발견할 수 있으며, 이곳에서 오라가 없는 상대와 함께 싹이 트게 됩니다. 이 지옥 같은 지역에서 마법 식물학자로 시작하면 특히 유익할 수 있습니다."
+    }
+  ]
+}

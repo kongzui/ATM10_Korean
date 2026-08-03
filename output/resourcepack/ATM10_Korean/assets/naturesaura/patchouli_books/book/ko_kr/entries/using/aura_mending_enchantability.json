@@ -1,0 +1,17 @@
+{
+  "name": "자연의 치유",
+  "icon": "minecraft:enchanted_book",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:infused_tools",
+  "flag": "mod:enchantability",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(aura)를 사용하여 수리하는 모든 종류의 도구는 마법의 식물학자가 사악한 적이나 위험한 높이와 접촉하기 전까지는 훌륭합니다. 이 시점에서는 $(thing)자신을 치유하다$() 기능이 확실히 유용할 것입니다."
+    },
+    {
+      "type": "text",
+      "text": "$(item)자연의 치유$() 마법이 부여된 책을 얻으면 $(item)엔더 상자$()의 마법 슬롯에 삽입하여 $(item)자연의 치유$() 효과를 얻을 수 있습니다. 이 효과는 $(thing)몰래$()가 인벤토리에 있는 $(aura) 컨테이너에서 $(aura)를 소모하는 동안 천천히 사용자의 체력을 최대화합니다."
+    }
+  ]
+}

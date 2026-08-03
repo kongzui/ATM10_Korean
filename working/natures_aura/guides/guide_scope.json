@@ -1,0 +1,404 @@
+{
+  "files": [
+    {
+      "path": "categories/creating.json",
+      "display_strings": 2
+    },
+    {
+      "path": "categories/devices.json",
+      "display_strings": 2
+    },
+    {
+      "path": "categories/effects.json",
+      "display_strings": 2
+    },
+    {
+      "path": "categories/intro.json",
+      "display_strings": 2
+    },
+    {
+      "path": "categories/items.json",
+      "display_strings": 2
+    },
+    {
+      "path": "categories/practices.json",
+      "display_strings": 2
+    },
+    {
+      "path": "categories/using.json",
+      "display_strings": 2
+    },
+    {
+      "path": "entries/creating/ancient_tree.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/creating/animal_generator.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/creating/chorus_generator.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/creating/end_flower.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/creating/firework_generator.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/creating/flower_generator.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/creating/generator_limit_remover.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/creating/moss_generator.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/creating/oak_generator.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/creating/on_generating.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/creating/potion_generator.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/creating/projectile_generator.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/creating/slime_split_generator.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/devices/animal_container.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/devices/aura_detector.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/devices/aura_timer.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/devices/auto_crafter.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/devices/grated_chute.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/devices/item_distributor.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/devices/mover_cart.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/devices/pickup_stopper.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/devices/powder_placer.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/effects/anger.json",
+      "display_strings": 2
+    },
+    {
+      "path": "entries/effects/animal.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/effects/breathlessness.json",
+      "display_strings": 2
+    },
+    {
+      "path": "entries/effects/cache_recharge.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/effects/decay.json",
+      "display_strings": 2
+    },
+    {
+      "path": "entries/effects/effect_powder.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/effects/explosions.json",
+      "display_strings": 2
+    },
+    {
+      "path": "entries/effects/nether_decay.json",
+      "display_strings": 2
+    },
+    {
+      "path": "entries/effects/nether_grass.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/effects/ore_spawn.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/effects/plant_boost.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/intro/aura.json",
+      "display_strings": 6
+    },
+    {
+      "path": "entries/intro/baubles.json",
+      "display_strings": 2
+    },
+    {
+      "path": "entries/intro/botany.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/intro/intro.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/aura_cache.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/aura_trove.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/break_prevention.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/cave_finder.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/items/color_changer.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/items/crimson_meal.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/items/death_ring.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/items/depth_armor.json",
+      "display_strings": 2
+    },
+    {
+      "path": "entries/items/depth_ingot.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/depth_tools.json",
+      "display_strings": 7
+    },
+    {
+      "path": "entries/items/end_city_finder.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/ender_access.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/eye.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/items/eye_improved.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/items/fortress_finder.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/infused_iron_armor.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/infused_iron_tools.json",
+      "display_strings": 8
+    },
+    {
+      "path": "entries/items/light_staff.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/items/loot_finder.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/items/netherite_finder.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/items/outpost_finder.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/pet_reviver.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/items/range_visualizer.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/shockwave_creator.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/items/sky_armor.json",
+      "display_strings": 2
+    },
+    {
+      "path": "entries/items/sky_tools.json",
+      "display_strings": 7
+    },
+    {
+      "path": "entries/practices/aura_bottle.json",
+      "display_strings": 6
+    },
+    {
+      "path": "entries/practices/aura_plants.json",
+      "display_strings": 6
+    },
+    {
+      "path": "entries/practices/gold_trees.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/practices/offering.json",
+      "display_strings": 12
+    },
+    {
+      "path": "entries/practices/tree_ritual.json",
+      "display_strings": 10
+    },
+    {
+      "path": "entries/using/altar.json",
+      "display_strings": 9
+    },
+    {
+      "path": "entries/using/animal_spawner.json",
+      "display_strings": 7
+    },
+    {
+      "path": "entries/using/aura_mending.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/using/aura_mending_enchantability.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/using/blast_furnace_booster.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/using/chunk_loader.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/using/conversion_catalyst.json",
+      "display_strings": 24
+    },
+    {
+      "path": "entries/using/crushing_catalyst.json",
+      "display_strings": 13
+    },
+    {
+      "path": "entries/using/dimension_rail.json",
+      "display_strings": 7
+    },
+    {
+      "path": "entries/using/ender_crate.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/using/field_creator.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/using/furnace_heater.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/using/hopper_upgrade.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/using/lower_limiter.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/using/placer.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/using/rf_converter.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/using/snow_creator.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/using/spawn_lamp.json",
+      "display_strings": 3
+    },
+    {
+      "path": "entries/using/spring.json",
+      "display_strings": 4
+    },
+    {
+      "path": "entries/using/time_changer.json",
+      "display_strings": 5
+    },
+    {
+      "path": "entries/using/weather_changer.json",
+      "display_strings": 4
+    },
+    {
+      "path": "templates/altar.json",
+      "display_strings": 0
+    },
+    {
+      "path": "templates/animal_spawner.json",
+      "display_strings": 0
+    },
+    {
+      "path": "templates/offering.json",
+      "display_strings": 0
+    },
+    {
+      "path": "templates/tree_ritual.json",
+      "display_strings": 0
+    }
+  ]
+}

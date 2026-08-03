@@ -1,0 +1,75 @@
+{
+  "family": "Nature's Aura",
+  "installed": [
+    {
+      "label": "Nature's Aura",
+      "jar": "NaturesAura-41.9.jar",
+      "namespace": "naturesaura",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 242,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "naturesaura"
+      ],
+      "guide_candidates": 351,
+      "guide_examples": [
+        "assets/naturesaura/models/item/book.json",
+        "assets/naturesaura/patchouli_books/book/en_us/categories/creating.json",
+        "assets/naturesaura/patchouli_books/book/en_us/categories/devices.json",
+        "assets/naturesaura/patchouli_books/book/en_us/categories/effects.json",
+        "assets/naturesaura/patchouli_books/book/en_us/categories/intro.json",
+        "assets/naturesaura/patchouli_books/book/en_us/categories/items.json",
+        "assets/naturesaura/patchouli_books/book/en_us/categories/practices.json",
+        "assets/naturesaura/patchouli_books/book/en_us/categories/using.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/ancient_tree.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/animal_generator.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/chorus_generator.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/end_flower.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/firework_generator.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/flower_generator.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/generator_limit_remover.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/moss_generator.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/oak_generator.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/on_generating.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/potion_generator.json",
+        "assets/naturesaura/patchouli_books/book/en_us/entries/creating/projectile_generator.json"
+      ],
+      "advancements": 25,
+      "advancement_examples": [
+        "data/naturesaura/advancement/altar.json",
+        "data/naturesaura/advancement/aura_bottle_end.json",
+        "data/naturesaura/advancement/aura_bottle_nether.json",
+        "data/naturesaura/advancement/aura_bottle_overworld.json",
+        "data/naturesaura/advancement/aura_cache.json",
+        "data/naturesaura/advancement/conversion_catalyst.json",
+        "data/naturesaura/advancement/depth_ingot.json",
+        "data/naturesaura/advancement/depth_tools.json",
+        "data/naturesaura/advancement/end_flower.json",
+        "data/naturesaura/advancement/eye.json",
+        "data/naturesaura/advancement/eye_improved.json",
+        "data/naturesaura/advancement/furnace_heater.json",
+        "data/naturesaura/advancement/get_book.json",
+        "data/naturesaura/advancement/gold_leaf.json",
+        "data/naturesaura/advancement/infused_materials.json",
+        "data/naturesaura/advancement/infused_tools.json",
+        "data/naturesaura/advancement/negative_imbalance.json",
+        "data/naturesaura/advancement/offering.json",
+        "data/naturesaura/advancement/placer.json",
+        "data/naturesaura/advancement/positive_imbalance.json"
+      ],
+      "recipes": 241
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Nature's Aura",
+      "jar": "NaturesAura-41.9.jar",
+      "namespace": "naturesaura",
+      "english_keys": 242,
+      "new_translation_required": 242
+    }
+  ]
+}

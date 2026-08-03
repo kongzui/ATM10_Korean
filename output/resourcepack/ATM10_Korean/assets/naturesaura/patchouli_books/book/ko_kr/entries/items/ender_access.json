@@ -1,0 +1,17 @@
+{
+  "name": "엔더 안구",
+  "icon": "naturesaura:ender_access",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:aura_bottle_end",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)엔더 안구$()는 간단히 말해서 $(l:using/ender_crate)엔더 상자$()의 휴대용 버전입니다. 똑같은 방식으로 $(thing)엔더 이름$()를 부여한 후 손에 쥐고 상호 작용하면 저장소가 바로 열립니다. 이를 위해서는 일부 $(aura)가 배수되는 $(l:items/aura_cache)오라 캐시$()가 필요합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)엔더 안구$() 생성",
+      "recipe": "naturesaura:ender_access"
+    }
+  ]
+}

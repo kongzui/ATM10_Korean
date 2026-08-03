@@ -1,0 +1,21 @@
+{
+  "name": "미네랄 축적",
+  "icon": "minecraft:diamond_ore",
+  "category": "naturesaura:effects",
+  "advancement": "naturesaura:positive_imbalance",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:creating/generator_limit_remover)생성 촉매$()를 사용하면 $(l:items/eye)환경의 눈$()에 보이는 지점 너머에 $(aura)를 생성할 수 있습니다. 이 기능을 사용하면 더 높은 수준의 불균형 효과가 발생할 수 있습니다. 주변에 약간의 $(l:effects/effect_powder)풍부한 핵의 가루$()가 있으면 $(item)미네랄 축적$()가 발생하기 시작합니다."
+    },
+    {
+      "type": "text",
+      "text": "다양한 희귀도의 $(thing)광석$()는 오버월드의 $(item)결석$() 블록과 네더의 $(item)네더랙$() 블록에 나타나기 시작하며, 예상대로 이러한 광석이 생성되는 동안 상당히 많은 양의 천연 $(aura)가 배출됩니다. $(p)물론, 이와 같은 생성 기능은 일종의 자동화에 사용될 수 있습니다. $(l:using/field_creator)오라 장 생성기$()와 같은 블록."
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "recipe": "naturesaura:ore_spawn_powder",
+      "text": "$(l:effects/effect_powder)풍부한 핵의 가루$()를 생성합니다."
+    }
+  ]
+}

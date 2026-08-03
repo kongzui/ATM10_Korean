@@ -1,0 +1,34 @@
+{
+  "name": "오라 보틀링",
+  "icon": "naturesaura:aura_bottle[naturesaura:aura_bottle_data={'aura_type':'naturesaura:overworld'}]",
+  "category": "naturesaura:practices",
+  "advancement": "naturesaura:gold_leaf",
+  "turnin": "naturesaura:aura_bottle_overworld",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(aura)와 그 존재는 오랫동안 연구자들에게 수수께끼였습니다. 과거에는 $(item)병$()를 사용하여 $(aura)를 수집하고 그렇게 육안으로 볼 수 있으므로 더 자세히 분석할 수 있었습니다. 얼마 지나지 않아 정보가 없는 민간인들이 불만을 제기하기 시작했습니다. \"다른 과학자들은 이미 병을 사용하고 있는데 이로 인해 문제가 발생할 것입니다.\"라고 그들은 말했습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "따라서 일관되지 않은 모든 비난을 차단하기 위해 그들은 $(item)병과 코르크$()를 만들었습니다. 병을 들고 있는 동안 공기와 상호 작용하여 $(aura)를 수집하는 데만 사용할 수 있는 병과 유사하지만 약간 다른 도구입니다.",
+      "recipe": "naturesaura:bottle_two_the_rebottling"
+    },
+    {
+      "type": "spotlight",
+      "item": "naturesaura:aura_bottle[naturesaura:aura_bottle_data={'aura_type':'naturesaura:overworld'}]",
+      "link_recipe": true,
+      "text": "물론, 당신이 현재 있는 세계에 따라 수집되는 $(aura)의 유형은 조금씩 다를 것입니다. 예를 들어, 일반 세계에서는 $(aura)가 햇빛의 형태로 수집될 수 있고, 네더 영역에서는 $(aura)가 유령의 형태로 수집될 수 있으며, 엔드 영역에서는 $(aura)가 과잉 어둠의 형태로 존재합니다."
+    },
+    {
+      "type": "text",
+      "text": "또한 이러한 방식으로 $(aura) 컬렉션은 $(item)디스펜서$()를 사용하여 쉽게 자동화할 수 있습니다. 빈 $(item)병 및 코르크$()를 여기에 넣으면 해당 컬렉션이 열려서 그 과정에서 $(aura)로 채워지게 됩니다. 나중에 디스펜서에 의해 다시 흡입되지 않으므로 $(item)호퍼$()와 같은 추가 도구가 필요합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "naturesaura:vacuum_bottle",
+      "link_recipe": true,
+      "text": "마지막으로 일부 지역에서는 $(l:items/eye)환경의 눈$()가 표시할 수 있는 것보다 훨씬 낮은 $(aura)가 심각하게 부족하여 공기에 산소가 거의 없습니다. 이와 같은 영역에서 $(item)병과 코르크$()를 사용하면 이 공기를 병에 담아 병 안에 거의 완벽한 $(aura) 진공 상태를 포착할 수 있습니다."
+    }
+  ]
+}

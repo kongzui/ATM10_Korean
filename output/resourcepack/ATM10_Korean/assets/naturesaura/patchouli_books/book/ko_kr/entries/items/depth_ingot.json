@@ -1,0 +1,17 @@
+{
+  "name": "심연 주괴",
+  "icon": "naturesaura:depth_ingot",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "처음 탄생한 지 몇 년이 지난 후, 마법 식물학자들은 마침내 새로운 수단을 통해 $(aura)의 힘을 활용할 수 있는 새로운 물질인 신비롭고 이해하기 어려운 $(item)네더라이트$()를 발견했습니다. 이를 통해 가장 강력한 재료인 $(item)심연 주괴$()를 만들 수 있습니다. 예상대로 이러한 주괴는 $(l:items/depth_armor)갑옷$() 및 $(l:items/depth_tools)도구$()로 전환될 수도 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)심연 주괴$() 생성",
+      "recipe": "naturesaura:depth_ingot_creation"
+    }
+  ]
+}

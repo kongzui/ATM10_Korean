@@ -1,0 +1,17 @@
+{
+  "name": "성역의 램프",
+  "icon": "naturesaura:spawn_lamp",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:aura_bottle_end",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)성역의 램프$()는 훌륭한 장식용 제품이면서도 또 다른 매우 유용한 기능을 가지고 있습니다. $(thing)레드스톤 신호$()와 함께 제공되면 주변의 최대 48 블록 영역에 있는 모든 몬스터가 조명 수준에 관계없이 모두 $(thing)그만 나타나라$()로 전환됩니다. 이를 위해 레드스톤 신호의 강도에 따라 범위가 결정됩니다. 몬스터를 처치할 때마다 소량의 $(aura)가 사용됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)성역의 램프$()$(p)$(italic)모브프루피우스 람푸스$() 생성",
+      "recipe": "naturesaura:spawn_lamp"
+    }
+  ]
+}

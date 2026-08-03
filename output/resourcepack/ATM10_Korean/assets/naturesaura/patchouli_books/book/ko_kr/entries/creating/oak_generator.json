@@ -1,0 +1,21 @@
+{
+  "name": "수관 감소기",
+  "icon": "naturesaura:oak_generator",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "분명히, 나무를 다루는 모든 사람은 삶의 어느 시점에서 다음과 같은 잘 알려진 문제에 직면하게 됩니다. $(item)참나무 묘목$()는 보기, 관리 및 자르기가 어려운 $(thing)큰 나무$()로 성장합니다. $(br)$(item)수관 감소기$()는 그 자체로 두 가지 목적을 제공하는 블록입니다.$(br)참나무가 있는 영역 가까이에 배치 최대 10 블록 정도 떨어진 곳에서 성장하면"
+    },
+    {
+      "type": "text",
+      "text": "$(br) 이 과정에서 큰 나무로 성장한 묘목의 추가 자연 에너지는 상당한 양의 $(aura)로 변환되어 환경에 공급됩니다.$(br)$(thing)세상의$() 영역은 문제의 나무가 자연적으로 자라는 유일한 영역이므로 이 장치가 사용할 수 있는 유일한 영역이기도 합니다. 효과.$(br)분명히 이것을 활용하는 가장 좋은 방법은 자동 $(thing)나무 농장$()를 사용하는 것입니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:oak_generator",
+      "text": "$(item)수관 감소기$() 생성"
+    }
+  ]
+}

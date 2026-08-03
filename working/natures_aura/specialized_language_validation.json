@@ -1,0 +1,17 @@
+{
+  "kind": "language",
+  "scopes": [
+    {
+      "keys": 242,
+      "untranslated_candidates": [
+        "advancement.naturesaura.root",
+        "command.naturesaura.aura.usage",
+        "item_group.naturesaura.tab"
+      ],
+      "errors": [],
+      "scope": "naturesaura"
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

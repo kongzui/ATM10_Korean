@@ -1,0 +1,25 @@
+{
+  "name": "필멸자의 해독자",
+  "icon": "naturesaura:animal_generator",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "천연 물질을 통해 $(aura)를 만드는 것은 양날의 검이 될 수 있습니다. $(item)필멸자의 해독자$()를 사용하여 $(aura)를 만드는 것은 특히 그렇습니다. 근처에 있는 수동적 동물을 죽이면 동물의 영혼이 해방되어 상당히 많은 양의 $(aura) 형태로 환경으로 퍼집니다. 이로 인해 아기 동물의 영혼이 덜 충족되어 $(aura)가 덜 분산됩니다."
+    },
+    {
+      "type": "text",
+      "text": "동물이 $(thing)오래$() 살아 있을수록 훨씬 많은 $(aura)를 생성합니다. 따라서 동물을 바로 도축하지 않고 잠시 기다리게 하는 장치를 만들면 훨씬 효율적입니다. 영혼에서 가장 많은 힘을 얻으려면 약 $(thing)한 시간 반$()을 기다리세요."
+    },
+    {
+      "type": "text",
+      "text": "또한, 영혼이 흡수된 동물은 일반적인 드롭으로 약탈할 수 없다는 점에 유의해야 합니다. 또한 이미 영혼을 변환하는 과정에 $(item)필멸자의 해독자$()에 죽음을 공급하면 동물의 영혼이 해방되지 않고 잔해도 떨어지지 않게 됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:animal_generator",
+      "text": "$(item)필멸자의 해독자$() 생성"
+    }
+  ]
+}

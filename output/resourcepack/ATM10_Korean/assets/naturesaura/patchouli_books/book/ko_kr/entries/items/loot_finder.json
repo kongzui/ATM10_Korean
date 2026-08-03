@@ -1,0 +1,21 @@
+{
+  "name": "부의 지팡이",
+  "icon": "naturesaura:loot_finder",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:offering",
+  "pages": [
+    {
+      "type": "text",
+      "text": "세계 곳곳에는 아이템이 가득 든 $(item)상자$()와 $(item)상자가 실린 광산 수레$() 같은 여러 $(thing)보물$()이 있습니다.$(p)$(item)재물의 지팡이$()를 휘두르면 약 64블록 안의 각 보관함을 약 일 분 동안 $(thing)강조 표시$()하여 쉽게 찾을 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "이렇게 하면 사용자가 마법처럼 보이는 위치로 이동하여 보물을 수집할 수 있는 충분한 시간을 얻을 수 있습니다. $(p)당연히 직원이 이러한 방식으로 부를 발견할 수 있으려면 상당한 양의 $(aura)가 $(l:items/aura_cache)오라 캐시$() 또는 이와 유사한 곳에 저장되어야 합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)부의 지팡이$() 생성",
+      "recipe": "naturesaura:loot_finder"
+    }
+  ]
+}

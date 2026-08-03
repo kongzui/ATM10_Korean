@@ -1,0 +1,26 @@
+{
+  "name": "고대 나무",
+  "icon": "naturesaura:ancient_leaves",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:wood_stand",
+  "pages": [
+    {
+      "type": "text",
+      "text": "특정 지역에서 $(aura)를 보충하는 기본 방법은 $(item)고대 나무$()입니다. $(item)고대 묘목$()가 생성되면 일반 나무처럼 자라지만 잎은 $(aura) 수준을 서서히 정상으로 증가시키기 시작합니다. $(br)그러나 이 과정에서 나무는 잘 작동하지 않습니다. 잎의 $(aura)가 세계로 배출됨에 따라 잎이 죽기 시작하고 충분히 배수되면 나무는 맨손으로 남습니다."
+    },
+    {
+      "type": "text",
+      "text": "또한 이 나무는 일치하는 색 구성표로 인해 세계의 더 지옥 같은 지역에서 특히 아름답게 보이지만 $(thing)세상의$() 영역 외부에 있는 $(italic)작동하지 않습니다$()는 식물이 적절한 방식으로 번성할 수 있는 유일한 영역이기 때문입니다."
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "text": "$(l:practices/tree_ritual)숲의 의식$()를 사용하여 $(item)고대 묘목$() 생성",
+      "recipe": "naturesaura:ancient_sapling"
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:ancient_planks",
+      "recipe2": "naturesaura:ancient_stick"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "quest.05E668CE6687AC64.quest_desc": [
+    "Joy&r의 &bToken은 제작해야 하는 첫 번째 토큰이며, 토큰은 &aNature의 Aura&r에 있는 아이템을 위한 중요한 제작 재료입니다."
+  ],
+  "quest.05E668CE6687AC64.title": "&b환희의 토큰",
+  "quest.0B6D35F5B3A11FD2.quest_desc": [
+    "&9Aura 캐시&r는 &aAura&r를 저장하는 데 사용할 수 있습니다!"
+  ],
+  "quest.0B6D35F5B3A11FD2.quest_subtitle": "캐싱 중!",
+  "quest.0B6D35F5B3A11FD2.title": "&9Aura 캐시",
+  "quest.0EFD0A4AE82153E8.quest_desc": [
+    "다른 아이템을 위해서도 이 토큰을 제작해야 합니다."
+  ],
+  "quest.0EFD0A4AE82153E8.title": "기타 토큰",
+  "quest.0FD26FD88E801C0E.quest_desc": [
+    "&2탄생의 제단&r를 사용하면 수많은 바닐라 몹을 만들 수 있습니다. &d 탄생의 영혼&r는 오라가 많은 지역에서 동물을 사육하여 만들어집니다. "
+  ],
+  "quest.0FD26FD88E801C0E.quest_subtitle": "마법으로 아기를 낳다",
+  "quest.0FD26FD88E801C0E.title": "&2탄생의 제단",
+  "quest.12D3C7FC4B3DAB23.quest_desc": [
+    "&b환경 눈&r는 숲의 &aRitual&r를 사용하여 제작할 수 있으며 참 슬롯에 착용하여 모니터링할 수 있습니다. 화면 왼쪽 상단의 오라 레벨."
+  ],
+  "quest.12D3C7FC4B3DAB23.quest_subtitle": "환경에 대한 눈",
+  "quest.1ABEC7DE47BD6286.quest_desc": [
+    "&5Ender 상자&r는 항목을 운반하는 데 사용할 수 있는 &5Ender 상자&r입니다.\\n\\n&5ender Oculars&r는 다음의 휴대용 버전입니다. &5엔더 상자&r."
+  ],
+  "quest.1ABEC7DE47BD6286.quest_subtitle": "이리저리!",
+  "quest.1ABEC7DE47BD6286.title": "&5Ender 상자 및 접안렌즈",
+  "quest.1D39634260A47C9A.quest_desc": [
+    "공양 테이블에서 &2주입 철괴&r 또는 &6오염된 금괴&r를 사용하면 하늘의 &b주괴&r를 얻을 수 있습니다."
+  ],
+  "quest.1D39634260A47C9A.title": "&b하늘의 주괴",
+  "quest.20F9EF925DB1CE05.quest_desc": [
+    "&2Natural Altar&r는 1 &2Natural Altar&r로 만든 멀티블록 구조입니다., 20 판자, 16 석재 벽돌, 8 &e황금 돌 벽돌&r 및 4 조각된 돌 벽돌.\\n\\n천연 제단은 각 제조법에 대한 오라를 사용하며 다음과 같습니다. 모드를 계속 진행하려면 \\n\\n이 퀘스트의 오른쪽 이미지에 멀티블록 설정이 표시됩니다."
+  ],
+  "quest.20F9EF925DB1CE05.title": "&2자연 변경",
+  "quest.22ADCF96AE3E609B.quest_desc": [
+    "&d고대 묘목&r는 숲&r의 &aRitual을 사용하여 생성됩니다. 그들이 자랄 때, 나무는 오라의 정상적인 수준(너무 높거나 낮지 않음)을 유지하려고 시도합니다.\\n\\n오라가 떨어지면, 잎이 부패하기 시작하고 과정이 역전됩니다."
+  ],
+  "quest.22ADCF96AE3E609B.quest_subtitle": "그 고대 묘목은 아니지",
+  "quest.22ADCF96AE3E609B.title": "고대 나무",
+  "quest.24599D45F5D1606E.quest_desc": [
+    "&bAura Trove&r는 &9Aura 캐시&r의 업그레이드 버전입니다."
+  ],
+  "quest.24599D45F5D1606E.quest_subtitle": "보물 창고!",
+  "quest.24599D45F5D1606E.title": "&bAura 보물",
+  "quest.2B4D4E741D855B5A.quest_desc": [
+    "2 &b하늘의 주괴 결합&r, 2 &6오염된 금괴&r 및 1 &5Netherite Scrap&r를 제작 그리드에 함께 사용하면 &d심해의 주괴&r를 만들 수 있습니다."
+  ],
+  "quest.2B4D4E741D855B5A.title": "&d심해의 주괴",
+  "quest.34ABEF75AE1E5A0F.quest_desc": [
+    "고대 지식의 지팡이는 오라를 사용하여 근처의 &5고대 잔해&r를 강조 표시합니다."
+  ],
+  "quest.34ABEF75AE1E5A0F.quest_subtitle": "네더라이트 찾기",
+  "quest.3C2F5AB815A6C949.quest_desc": [
+    "&2주입된 철 주괴&r를 만들려면 &2자연 제단에 철 주괴를 놓으십시오.&r.\\n\\n이 과정은 &6Tainted Gold를 사용하는 것보다 더 빠릅니다."
+  ],
+  "quest.3EC90ADA4E322B14.quest_desc": [
+    "&6오염된 금괴&r를 만들려면 &2자연 제단&r에 &e금괴&r를 놓습니다.\\n\\n이 프로세스는 다음보다 오래 걸립니다. &2주입된 철&r를 사용합니다."
+  ],
+  "quest.3EC90ADA4E322B14.quest_subtitle": "그 금을 오염시키세요!",
+  "quest.3EC90ADA4E322B14.title": "&6오염된 골드",
+  "quest.3F8A5CBEAE024748.quest_desc": [
+    "약탈자의 눈, 불꽃의 눈, 셜커의 눈은 각각 특정 구조물을 찾는 데 사용됩니다."
+  ],
+  "quest.3F8A5CBEAE024748.quest_subtitle": "난 당신을 바라보고 있어요",
+  "quest.3F8A5CBEAE024748.title": "구조 검색기",
+  "quest.497AE687B7E95DE8.quest_desc": [
+    "&a숲의 의식&r는 8 나무 스탠드를 사용하여 다중 블록 구조를 만들어 수행할 수 있습니다., 16 &e금 가루&r 및 참나무 또는 정글 묘목, 레시피에 따라 다릅니다.\\n\\n의식을 시작하려면 레시피에 필요한 아이템을 나무 스탠드에 놓고 성장시키세요. 중간에 묘목이 필요합니다. 레시피에는 &e금가루&r가 소모됩니다., 그래서 많이 필요할 거예요.",
+    "{image:atm:textures/questpics/natures_aura/forest_ritual.png 너비:295 높이:150 정렬:중심}"
+  ],
+  "quest.497AE687B7E95DE8.title": "&a숲의 의식",
+  "quest.4AD4FDF70B9BFCC9.quest_desc": [
+    "헌금 테이블에서 토큰을 사용하면 토큰이 업그레이드됩니다. 이러한 업그레이드된 토큰은 고급 제작법에 필요합니다."
+  ],
+  "quest.4AD4FDF70B9BFCC9.title": "업그레이드된 토큰",
+  "quest.4F03B152479C4AC0.quest_desc": [
+    "&b부자의 지팡이&r는 아우라를 사용하여 약 1 분 동안 64 블록 raidius의 모든 저장소 컨테이너를 강조 표시합니다.\\n\\n이것은 전리품 상자를 찾고 있거나 광산 어딘가에 상자를 놓는 경우 매우 유용할 수 있습니다."
+  ],
+  "quest.4F03B152479C4AC0.title": "&b재물의 지팡이",
+  "quest.4F9D6109EEA5D26A.quest_desc": [
+    "&e황금 잎&r를 깨면 높은 확률로 &e금 가루&r에 필요한 &e금박&r를 떨어뜨릴 수 있습니다."
+  ],
+  "quest.4F9D6109EEA5D26A.quest_subtitle": "반딧불이의 아우라",
+  "quest.4F9D6109EEA5D26A.title": "&e금박",
+  "quest.54F7AD64A403C9BF.quest_desc": [
+    "이 촉매제는 &2Natural Altar&r에 기둥 토퍼로 추가할 수 있습니다. 더 많은 아이템을 다른 아이템으로 바꾸거나 분해할 수 있습니다.\\n\\n붕괴 촉매제를 사용하면 다음과 같은 아이템을 만들 수 있습니다. 각 금박을 2 대신 4 금가루로 바꾸세요! "
+  ],
+  "quest.54F7AD64A403C9BF.title": "촉매",
+  "quest.5A011CE8EEA3F9D8.quest_desc": [
+    "Aura는 병과 코르크를 사용하여 공중에서 마우스 오른쪽 버튼을 클릭하여 병에 담을 수 있습니다. 오라는 수집되는 위치에 따라 다양한 형태를 취합니다. \\n\\n오버월드에서는 &aSunlight&r로 병에 담겨 있습니다., In the Nether it's &4Ghosts&r and in the End it's &0Darkness&r.\\n\\n병과 코르크를 사용한 지역에 오라가 심각하게 부족한 경우, &0병에 담긴 진공청소기&r를 받게 됩니다."
+  ],
+  "quest.5A011CE8EEA3F9D8.quest_subtitle": "아우라를 병에 담다",
+  "quest.5A011CE8EEA3F9D8.title": "오라의 병",
+  "quest.5A0EB2ADEBC7EE2B.quest_desc": [
+    "이 퀘스트는 &6AllTheMods Staff&r가 작성했습니다., 또는 AllTheMods Modpacks에 사용하기 위한 &2커뮤니티 기여자&r.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이센스가 부여됩니다., 이 퀘스트는 명시적인 내용 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다. 허가.\\n\\n이 퀘스트는 의도적으로 숨겨졌습니다., 만약 당신이 이것을 보고 있다면, 편집 모드에 있습니다."
+  ],
+  "quest.5C990F7E5D345A6F.quest_desc": [
+    "신에게 바치는 공양은 1 공양대와 36 꽃으로 만든 멀티블록 구조입니다. 제물을 만들려면 부름의 영혼이 필요합니다.\\n",
+    "{image:atm:textures/questpics/natures_aura/offering.png 너비:295 높이:150 정렬:중심}"
+  ],
+  "quest.5C990F7E5D345A6F.quest_subtitle": "꽃의 숲에서 신들에게 새 목욕을 바치다",
+  "quest.71B6F013C8A60EB6.quest_desc": [
+    "&2Canopy Diminisher&r 및 &2Herbivorous Absorber&r는 모두 간단하고 쉽게 오라를 생성하는 방법입니다."
+  ],
+  "quest.71B6F013C8A60EB6.quest_subtitle": "더 많은 아우라!",
+  "quest.71B6F013C8A60EB6.title": "아우라 창조",
+  "quest.7DAED14CEC4CDA51.quest_desc": [
+    "&aNature의 Aura&r는 &aAura&r를 사용하고 보충하는 마법 모드입니다. 이 퀘스트에서는 기본 사항 중 일부만 살펴봅니다.\\n\\n시작하려면, &e골드 너겟&r로 만든 &eBrilliant Fiber&r를 만드세요., &a잎&r 및 &a잔디&r. &eBrilliant Fiber&r가 있는 나뭇잎을 마우스 오른쪽 버튼으로 클릭하면 &e황금 나뭇잎&r.\\n\\n로 변경됩니다. &a천연 오라의 책&r, 또한 이를 사용하여 &aNature의 Aura&r에서 다중 블록을 만드는 방법을 보여줄 수도 있습니다."
+  ],
+  "quest.7DAED14CEC4CDA51.title": "&e&a자연의 오라에 오신 것을 환영합니다",
+  "task.0CA0B32D52395A39.title": "판자",
+  "task.15698B55CCAD2433.title": "모든 권리 보유",
+  "task.2E97226C40818239.title": "월경",
+  "task.4C6370D2B7EF8685.title": "모든 권리 보유",
+  "task.52874F5B79ECAE65.title": "돌 벽돌",
+  "task.55628B1EECBB5E94.title": "의식용 묘목"
+}
