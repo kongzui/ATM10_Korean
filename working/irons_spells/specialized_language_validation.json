@@ -1,0 +1,37 @@
+{
+  "kind": "language",
+  "scopes": [
+    {
+      "keys": 1298,
+      "untranslated_candidates": [
+        "tooltip.irons_spellbooks.shift_tooltip"
+      ],
+      "errors": [],
+      "scope": "irons_spellbooks"
+    },
+    {
+      "keys": 262,
+      "untranslated_candidates": [
+        "material.irons_jewelry.vibranium",
+        "material.irons_jewelry.unobtainium",
+        "material.irons_jewelry.allthemodium"
+      ],
+      "errors": [],
+      "scope": "irons_jewelry"
+    },
+    {
+      "keys": 67,
+      "untranslated_candidates": [],
+      "errors": [],
+      "scope": "irons_lib"
+    },
+    {
+      "keys": 2,
+      "untranslated_candidates": [],
+      "errors": [],
+      "scope": "irons_patreon_lib"
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

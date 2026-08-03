@@ -1,0 +1,398 @@
+{
+  "quest.000C1ECD781F3F81.quest_desc": [
+    "&2&lNature&r는 우리의 적 &2Poisoning&r 및 &2Weakening&r에 의해 지구를 유리하게 사용하기 위해 만들어졌습니다! 대기업이 지구에 하는 일과 똑같습니다! \\n&2&lNature's&r 초점 재료는 &2독성 감자&r입니다. \\n\\n&2스크롤&r는 &a밝은 녹색&r이며 &2짙은 녹색&r 텍스트가 있습니다."
+  ],
+  "quest.000C1ECD781F3F81.title": "&2&l자연",
+  "quest.00D80AA4CDD8335C.quest_desc": [
+    "&6&lPriest&r &6Holy&r가 충분하지 않습니까? 그렇다면 &6Lightbringer Chestplate&r를 제작할 수 있습니다! \\n\\n먼저, you'll need the &6사제 로브&r, 당신이 만들 수 있는 것. \\n\\n&bMithril&r와 체인으로 만든 3 &b미스릴 직물&r가 필요합니다. \\n\\n그러면, &dDivine Soulshard&r를 획득해야 하며 &6Chestplate&r를 제작할 수 있습니다. \\n\\n이 &6가슴판&r는 &6사제 로브&r와 동일한 방어점을 갖습니다., 하지만 다른 모든 것은 훨씬 좋아집니다! \\n\\n방어 강인함을 얻습니다., 밀쳐내기 저항, 물론 더 많은 &3Spell Power&r와 마나도 있습니다."
+  ],
+  "quest.00D80AA4CDD8335C.title": "&6빛의 인도자 가슴갑옷",
+  "quest.01119871B1D5C576.quest_desc": [
+    "거의 모든 &6Village&r에는 &6&lPriests&r가 포함될 수 있습니다. 여기에는 수정된 &6Villages&r가 포함됩니다. \\n\\n보통 그들은 시장처럼 &6Village&r 중앙에 걸려 있습니다. 모든 &6Village&r에 하나가 있는 것은 아닙니다.",
+    "{image:atm:textures/questpics/iron_spells/spells_village.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.01119871B1D5C576.title": "&6마을",
+  "quest.0436DF3308681913.quest_desc": [
+    "왕좌에는 과거 &4&lKing&r의 유적이 놓여 있습니다. 하지만 일단 가까이 오면, 그리고 그것들을 만져보세요, 당신은 그들이 다시 살아나는 것을 보게 될 것입니다; &4&lKing&r는 더 이상 죽지 않습니다! 하지만 살인만이 그를 살릴 수 있을 거에요... 그리고 당신은 가장 가까운 생명체입니다. \\n\\n&4&l죽은 왕&r는 가장 어려운 보스입니다, 그는 400 &cHearts&r를 보유하고 있으며 실제 보스 바(및 음악)를 보유한 유일한 사람입니다. 그는 모든 클래스의 다양한 &3Spells&r를 사용할 수 있습니다., &2독화살&r에서 &2Nature&r에서 &6Blight&r에서 &6Holy&r에서 &aFangs&r까지 &aEvokation&r에서! 그는 텔레포트도 할 수 있다, 죽은자를 소환하다, &4혈액 지팡이&r로 당신을 공격하세요. \\n\\n당신이 그를 죽일 수 있다면 그는 모든 종류의 &3Scrolls&r를 떨어뜨릴 것입니다., &7공백 룬&r, &4혈액 지팡이&r 및 네크로노미콘을 떨어뜨릴 수도 있습니다.",
+    "{image:atm:textures/questpics/iron_spells/spells_king.png 너비:100 높이:200 정렬:중심}"
+  ],
+  "quest.0436DF3308681913.title": "&4&l죽은 왕",
+  "quest.0474C15D3AE3C2C9.quest_desc": [
+    "&cDecrepit Scythe&r는 Tyros&r의 &c&lEcho가 당신을 죽이는 데 사용하는 것입니다. 우리 버전이 훨씬 작습니다. \\n\\n&5Decrepit Flamberge&r와 매우 유사한 통계를 가지고 있습니다., 약간만, 즉 공격 속도가 약간 더 빨라진다는 뜻입니다. \\n\\n&6Pyrium&r로 업그레이드할 수도 있습니다., 이렇게 하면 더 많은 피해와 &3Spell&r가 추가됩니다! \\n\\n&3주문 &cHellrazer&r가 얻는 것은 &cRaise Hell&r입니다. 이렇게 하면 주변 모든 방향으로 &cFire&r의 파도가 전송됩니다. 이것은 &cFire&r를 확산시키지는 않지만 근처의 모든 몹에게 엄청난 피해를 입힐 것입니다!"
+  ],
+  "quest.0474C15D3AE3C2C9.title": "&c노후한 낫",
+  "quest.05DBDD86FCFF3BA8.title": "&5Lightning&r 업그레이드 오브",
+  "quest.06F2C42E6408149E.quest_desc": [
+    "&c&lPyromancer&r에게서 이것을 훔치지 않았기를 바랍니다. 그는 좋은 사람입니다!",
+    "{image:atm:textures/questpics/iron_spells/spells_outfit_pyromancer.png 너비:50 높이:100 정렬:중앙}"
+  ],
+  "quest.06F2C42E6408149E.title": "&c파이로맨서 의상",
+  "quest.06F8EDF7513F8611.title": "&dEpic&r 잉크",
+  "quest.08767A1E6D48A5EA.quest_desc": [
+    "&7회색 수염 지팡이&r는 매우 저렴한 지팡이입니다. 가격과 품질면에서 저렴합니다. \\n\\n3 &4Damage&r만 수행하지만 25% 마나 재생 및 10% &3Spell Power&r를 제공합니다. \\n\\n &3Spells&r를 사용하여 처치하는 경우 매우 유용합니다!"
+  ],
+  "quest.08767A1E6D48A5EA.quest_subtitle": "흰수염은 언제쯤 될까요?",
+  "quest.08767A1E6D48A5EA.title": "&7회색수염 지팡이",
+  "quest.0CE1F6DE5FD6A6D9.title": "&aEvocation&r 업그레이드 오브",
+  "quest.0E594BC58CC7476F.quest_desc": [
+    "그는 사악할 수도 있지만 여전히 패셔너블합니다.",
+    "{image:atm:textures/questpics/iron_spells/spells_outfit_archevoker.png 너비:60 높이:100 정렬:중앙}"
+  ],
+  "quest.0E594BC58CC7476F.title": "&aArchevoker 복장",
+  "quest.0EED5D755D2C866A.quest_desc": [
+    "&d&lEnder&r는 &dEndermen&r 및 &dEnder Dragon&r의 모든 권한을 가져오는 데 사용됩니다., 물론 우리 자신을 위해서도 사용합니다. &d순간이동&r, &d불덩어리&r, 그리고 &dDragon's Breath&r는 이들 중 일부에 불과합니다! \\n\\n&d&lEnder's&r 초점 재료는 &dEnder Pearls&r입니다. \\n\\n및 해당 &d스크롤&r는 &5Purple&r이며 &dPink&r 텍스트가 있습니다."
+  ],
+  "quest.0EED5D755D2C866A.title": "&d&lender",
+  "quest.0F8B349EBC9110D6.quest_desc": [
+    "이것은 얻는 재미가 있는 것입니다! 먼저 &5번개 막대&r와 &5에너지화된 코어&r가 필요합니다. \\n\\n그러면, 폭풍우 때, &5E에너자이징된 Core&r를 &5Lightning Rod&r에서 마우스 오른쪽 버튼으로 클릭합니다. 올바르게 수행된 경우, &5Lightning&r가 공격합니다. 그러면 &5번개 막대&r가 &5Rod o' Lightning&r로 바뀌게 됩니다! \\n\\n이 막대는 5 &4Damage&r를 수행하고 15% 시전 시간 감소를 유지합니다. 하지만 이제 &5번개 주문&r에 대해 5% &3Spell Power&r만 제공하고 15% &3Spell Power&f를 제공합니다."
+  ],
+  "quest.0F8B349EBC9110D6.title": "&5로드 오 라이트닝",
+  "quest.12498F8B5740F66E.quest_desc": [
+    "&bWizard Gear&r는 &lIron의 주문&r의 기본 방어구입니다! \\n\\n다른 모든 방어구도 이를 사용하여 제작됩니다., 또는 무언가로 제작되었습니다. 그것으로 제작되었습니다! \\n\\n제작하려면 &5아케인 옷감&r만 필요합니다. \\n\\n최대 마나를 대폭 증가시킵니다., &bDiamond Armor&r와 동일한 방어구 포인트, 주문력 부스트를 제공합니다!"
+  ],
+  "quest.12498F8B5740F66E.title": "&b마법사 기어",
+  "quest.1338EED4F26F3EFF.quest_desc": [
+    "&3Spellbreaker&r는 우리가 제작할 수 있는 비싸고 강력한 무기입니다. \\n\\n&b무기 부품&r가 필요합니다, &b다이아몬드&f, 그리고 2 &b미스릴 주괴&r를 만들어 보세요. \\n\\n&3Spellbreaker&r는 10 &4Hearts of Damage&r를 수행하며 검보다 약간 빠릅니다. \\n\\n또한 내부에 &3Spell&r가 있습니다., &3주문 반대&r. 마피아가 당신에게 &3Spell&r를 사용하는 경우, 이것을 사용하여 그들이 그것을 사용하지 못하게 하세요!"
+  ],
+  "quest.1338EED4F26F3EFF.title": "&3주문파괴자",
+  "quest.13F77C38AC015E9F.quest_desc": [
+    "산 위의 높은 곳, 구름 위 높이에는 또 다른 &bTower&r가 있습니다. 이것은 당신의 척추를 떨게 만듭니다. \\n\\n&bTower&r는 돌로 만들어졌습니다., 다크 오크, 그리고 딥슬레이트. 두 번째 타워가 분기되어 있습니다. 외부에는 1층으로 올라가는 계단이 있습니다. 거기에서 내부 계단을 올라가 침실이나 두 번째 타워로 올라갈 수 있습니다. \\n\\n아니면 저 계단 뒤에서 지하실로 내려가는 사다리를 타고 모험을 떠날 수도 있습니다., &b&lCryomancer&r가 어디에 있을 가능성이 가장 높습니다. \\n\\n&bTower&r에서는 비문 테이블을 찾을 수 있습니다., 자수정, 그리고 전리품 상자!",
+    "{image:atm:textures/questpics/iron_spells/spells_mountaintower.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.13F77C38AC015E9F.title": "&b마운틴 타워",
+  "quest.161477ABCC437BD2.quest_desc": [
+    "&bBoreal Blade&r는 멋진 검입니다! 성격도 현명하고 온도도 현명합니다. \\n\\n&b무기 부품&r로 만들어졌습니다., &bIce&r, &b미스릴 주괴&r, 및 &bIce 독 약병&r. \\n\\n&b&lIce Spider&r 퀘스트를 확인하고 &bIce Venom&r를 획득하세요! \\n\\n이 블레이드는 엄청난 피해를 줍니다! 16 &4Hearts&r에서. 스윙이 느리긴 하지만, 도끼와 같은 속도. \\n\\n&bBoreal Blade&r와 함께 제공되는 &3Spell&r는 &b동상&r입니다. 또 다른 효과입니다.. 그것이 무엇을 하는지 잘 모르겠습니다."
+  ],
+  "quest.161477ABCC437BD2.title": "&b보리얼 블레이드",
+  "quest.19542103E042BDB5.quest_desc": [
+    "{image:atm:textures/questpics/iron_spells/spells_outfit_shadow.png 너비:60 높이:100 정렬:중앙}"
+  ],
+  "quest.19542103E042BDB5.title": "&d섀도워커 복장",
+  "quest.19B057DFF331E41C.quest_desc": [
+    "&4허수아비 의상&r는 &9방황하는 마술사&r보다 약간 더 좋습니다., 3를 사용하면 마나의 배와 방어구 포인트가 더 늘어납니다. \\n\\n 하지만 제작하려면 더 많은 아이템이 필요합니다. \\n\\n이제 &5Essence&r 대신 &5Arcane Cloth&r가 필요합니다., &eHay Bales&r 및 &6Pumpkins&r도 있습니다."
+  ],
+  "quest.19B057DFF331E41C.title": "&4허수아비 의상",
+  "quest.1A0368CB49B8CBFF.quest_desc": [
+    "이 &e주문서&r는 &cBlazes&r의 희귀한 드롭입니다. 내 &cBlaze&r 농장에서 1를 얻었을 때 혼란스러웠기 때문에 그 사실을 기억합니다. \\n\\n&c화재 주문&r에 부스트를 제공하며 10 &3Spell&r 슬롯이 있습니다."
+  ],
+  "quest.1A0368CB49B8CBFF.quest_subtitle": "더운! 더운! 더운!",
+  "quest.1A0368CB49B8CBFF.title": "&cBlaze 사용 설명서",
+  "quest.1BE69992D2C5085B.quest_desc": [
+    "&n&aEvocation:&r\\n영혼이나 신을 불러냅니다. \\n\\n&a&lEvokation&r는 &aEvokers&r가 수행하는 작업에 관한 모든 것입니다., 주로 소환합니다. &aFangs&r이든 &aVexes&r이든 소환되면 &aEvokation&r일 가능성이 높습니다. \\n\\n&a&lEvokation의&r 초점 재료는 &aEmeralds&r입니다. 룬을 제작하거나 &a&lArchevoker&r에서 얻을 수 있습니다. \\n\\n&aEvokation Scrolls&r는 &fWhite&r 및 &0Black&r 텍스트입니다."
+  ],
+  "quest.1BE69992D2C5085B.title": "&a&lE직업",
+  "quest.1CAEC4C273EDDB99.quest_desc": [
+    "여기 있어요! 거기 있어요! 그것은 어디에나 있고 썩었습니다! 대부분의 상자에서 찾을 수 있습니다. \\n\\n8 &3주문&r를 보유할 수 있지만 주문 저항이 낮아집니다."
+  ],
+  "quest.1CAEC4C273EDDB99.title": "썩은 주문서",
+  "quest.204B969DA081056A.quest_desc": [
+    "이들은 &2Vanilla&r 적대적인 몹이 생성되는 거의 모든 곳에서 생성될 수 있습니다. 그들은 상사가 아니다, 적들이 더 많아! \\n\\n그들은 &cHealth&r의 25 포인트를 가지고 있으며 &aEvokers&r와 같이 지상에서 &aFangs&r를 여러 공격합니다. 하고 &bSnowball&r를 사용하면 쏠 수 있습니다. \\n\\n또한 좀비와 해골을 소환하여 당신과 싸울 수도 있습니다. 이것들은 아무것도 떨어뜨리지 않으며 땅에서 갑옷과 함께 생성됩니다. \\n\\n그들은 때때로 &3Scroll&r와 함께 사망 시 신비한 정수를 드롭합니다!",
+    "{image:atm:textures/questpics/iron_spells/spells_necromancer.png 너비:100 높이:200 정렬:중심}"
+  ],
+  "quest.204B969DA081056A.title": "네크로맨서",
+  "quest.24150DE600C2D761.quest_desc": [
+    "이것은 우리를 E10에서 Teen 등급으로 단독으로 데려갑니다. &4&lBlood&r는 자신의 &cHealth&r를 위해 적을 처치하는 게임입니다! 대부분의 공격은 당신을 치료할 것입니다. \\n\\n&4&lBlood's&r 초점 재료는 &4혈액 약병&r which you get from cook a Mob or Player in a auldron. \\n\\n&4Scrolls&r는 &4Dark Red&r 텍스트가 있는 갈색(갈색 색상 없음)입니다."
+  ],
+  "quest.24150DE600C2D761.title": "&4&l혈액",
+  "quest.24BAC1C0392E950E.quest_desc": [
+    "이제 온라인 수업을 들으면서 하나가 될 수 있다고 들었습니다.",
+    "{image:atm:textures/questpics/iron_spells/spells_outfit_priest.png 너비:60 높이:100 정렬:중앙}"
+  ],
+  "quest.24BAC1C0392E950E.title": "&6프리스트 복장",
+  "quest.258B4890CF13D199.quest_desc": [
+    "&aMagehunter&r는 얻기 매우 이상한 무기입니다. 그것을 얻는 방법이 매우 구체적이기 때문에 이상합니다. \\n\\n얻으려면, &aEvoker Fort&r로 이동해야 하며 2nd Floor의 &aVindicator&r가 이를 갖게 됩니다. 그것을 얻으려면 그를 죽여라. \\n\\n&a검&r는 좋은 검입니다, 일반 검 속도로 10 &4Hearts of Damage&r를 수행합니다. \\n\\n이를 들고 있는 동안 약간의 &3주문 저항&r을 얻을 수 있습니다. 게다가 일부는 인챈트와 함께 제공될 수도 있습니다., 내가 그랬어!"
+  ],
+  "quest.258B4890CF13D199.title": "&a마법사냥꾼",
+  "quest.25F79B40579B3909.quest_desc": [
+    "&5Decrepit Flamberge&r는 &5Ancient Knights&r 및 일부 &5Cursed Armor Stands&r가 선택한 검입니다. \\n\\n그것은 또한 우리가 그것을 얻을 수 있는 곳입니다, 그 놈들을 죽여라! \\n\\n&5네더라이트 검&r처럼 생겼습니다, 단지 만들 때 흔들리고 있었다면 말이죠. \\n\\n11 &4Hearts of Damage&r를 수행하지만 검보다 약간 느립니다. \\n\\n&6Pyrium&r로 업그레이드하여 공격 속도를 높일 수 있습니다."
+  ],
+  "quest.25F79B40579B3909.title": "&5Decrepit Flamberge",
+  "quest.2664373E8977E7BE.quest_desc": [
+    "뱀파이어처럼 &4Blood&r를 아는 사람이 있을까요! 아무도, 그 사람이야! \\n\\n이 &e주문서&r는 폐허가 된 책 외에 만드는 것이 그리 어렵지 않습니다. \\n\\n다른 항목은 &5아케인 주괴&r 및 &4피의 피지&r입니다. &4Bloody Vellum&r는 &dHogskin&r를 &4Blood&r로 가득 찬 연금술사 가마솥에 담가서 만들어집니다. \\n\\n&e주문서&r에는 10 주문 슬롯이 있습니다., &4Blood Slash&r 및 &4Blood Step&r에 추가 레벨을 제공합니다!"
+  ],
+  "quest.2664373E8977E7BE.title": "&4뱀파이어 주문서",
+  "quest.27CF1A2587321A2C.quest_desc": [
+    "당신이 상상할 수 있는 최고의 &e주문서&r! 15 &3Spell&r 슬롯! 15 &3 주문&r도 있나요?!?! 아 잠깐만요 예 15가 있습니다. 그렇게 많지는 않습니다... \\n\\n이전과 동일하게 수행: 이전 도서, 주괴, 및 템플릿."
+  ],
+  "quest.27CF1A2587321A2C.title": "&5Unobtainium&r 주문서",
+  "quest.294418130521FDF4.quest_desc": [
+    "&bMithril&r는 &2&lOverworld&r 아래에서만 생성되는 광석입니다. \\n\\nY 레벨 -40 ~ &8Bedrock&r 주변에 생성됩니다. &cLava Pools&r가 있는 곳 바로 근처에 있습니다! \\n\\n 채굴하려면 &5Netherite 곡괭이&r가 필요하며 Fortune을 사용하지 않는 한 1 &bRaw Mithril&r만 드롭됩니다. \\n\\n이 &b 원시 미스릴&r를 제련하면 &b미스릴 고철&r를 만들 수 있습니다. 레시피에 사용할 수 있습니다., 아니면 4를 결합하여 &b미스릴 주괴&r를 만들 수도 있습니다!"
+  ],
+  "quest.294418130521FDF4.title": "&bMithril 얻기",
+  "quest.29605960803BE885.quest_desc": [
+    "&dAmethyst Rapier&r는 성능에 비해 상당히 저렴합니다! \\n\\n그냥 &b무기 부품&f, &d아메시스트&r, 그리고 체인. \\n\\n&dA메시스트 레이피어&r는 8 &4심장 피해&r를 수행합니다., &5Netherite Sword&r와 동일합니다. 이것은 2.3의 공격 속도로 훨씬 더 빠르게 스윙합니다. \\n\\n&d자수정 레이피어&r의 특별한 부분은 내장된 주문입니다! &dE초격 공격&r. \\n\\n&dRapier&r를 누른 상태에서 (V)를 눌러, 그러면 &dE초잉 타격 효과&r를 얻게 됩니다. &dRapier&r로 몹을 공격하면 충격파가 나옵니다. 근처에 있는 다른 몹에게 피해를 입힐 수 있습니다."
+  ],
+  "quest.29605960803BE885.title": "&d자수정 레이피어",
+  "quest.29BDCF3C1B11B4C6.quest_desc": [
+    "&6파이리움 스태프&r는 가장 강력한 스태프입니다... 잘 &4손상&r 현명한, 파워와이즈가 아닙니다. \\n\\n2 &6피륨 주괴&r가 필요합니다., &5Netherite 주괴&r, 및 &5아케인 천&r. \\n\\n&5네더라이트 주괴&f and &5아케인 옷감&r are easy, &6피리움&r... 그다지 많지는 않습니다. &cCitadel&r에서 2 금고를 열어야 합니다. \\n\\n&6Pyrium Staff&r는 &cFire에 5% &3Spell Power&r 및 15%를 제공합니다. 주문&r. 뿐만 아니라 10% 캐스팅 시간도 단축됩니다!"
+  ],
+  "quest.29BDCF3C1B11B4C6.title": "&6파이륨 지팡이",
+  "quest.2A787B99A8B0C767.quest_desc": [
+    "매우 중요한 블록이자 매우 일반적인 블록입니다! 대부분의 &lIron 주문&r 구조물에서 제작하거나 찾을 수 있습니다. \\n\\n&eSpell Books&r에서 &3Scrolls&r를 추가하고 제거하는 데 사용됩니다! &e주문서&r를 책 슬롯에 던진 다음 그 아래에 &3Scroll&r를 던집니다. &3Scroll&r를 제거하려는 경우, 그것을 클릭한 다음 오른쪽에서 인벤토리로 가져가세요.",
+    "{image:atm:textures/questpics/iron_spells/spells_table_gui.png 너비:150 높이:100 정렬:중심}"
+  ],
+  "quest.2B901ECF97FFA181.quest_desc": [
+    "마침내 고대 지식 조각을 결합하면 다음을 얻을 수 있습니다... &9eldritch 원고&r! 그게 바로 마지막 수업이에요! \\n\\n&9Eldritch&r가 마지막 클래스입니다, 모든 &3주문 중 가장 강력한 &r입니다. &9Echo Shards&r로 제작되며 사용하려면 &9Manuscript&r에서 배워야 합니다. 각 &9Manuscript&r는 한 번만 사용됩니다."
+  ],
+  "quest.2B901ECF97FFA181.quest_subtitle": "9번째 클래스",
+  "quest.2B901ECF97FFA181.title": "&9&l엘드리치",
+  "quest.2BB910B217DF3A12.quest_subtitle": "왜 젖어 있나요? 호수에 있었나요?",
+  "quest.2BB910B217DF3A12.title": "&dEnder&r 업그레이드 오브",
+  "quest.2D84DA544D7A24FA.quest_desc": [
+    "이 퀘스트는 &6AllTheMods Staff&r가 작성했습니다., 또는 AllTheMods Modpacks에 사용하기 위한 &2커뮤니티 기여자 &r. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이센스가 부여됩니다., 이 퀘스트는 명시적인 허가 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다. \\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다., 만약 당신이 이것을 보고 있다면, 편집 모드에 있습니다."
+  ],
+  "quest.2E6F1C8718EB8C66.title": "&4Blood&r 업그레이드 오브",
+  "quest.3009018DEC1EC952.quest_desc": [
+    "&2Overworld&r에는 보스가 생성될 수 있는 6 구조물이 있습니다! (7th가 있지만 거기에는 보스가 없습니다)."
+  ],
+  "quest.3009018DEC1EC952.title": "&l어드벤처 타임!",
+  "quest.300F2E45D185A9A1.quest_desc": [
+    "&lIron&r는 우리에게 훌륭하고 매우 재미있는 매직 모드를 가져왔습니다! &lIron's Spells 'N Spellbooks!&r \\n\\n&lIron's Spells&r는 &3Spells&r를 만들고 사용하는 데 관한 모든 것입니다! 각 &3Spell&r에는 희귀도가 있습니다., 수준, 그리고 수업! 그리고 그들 모두는 마법서에서 사용될 수 있습니다. \\n\\n &7Iron&r 및 &cRedstone&r로는 원하는 것을 무엇이든 만들 수 없습니다., 넌 엉덩이부터 나가야 할 거야, 모험, 그리고 싸워라!"
+  ],
+  "quest.300F2E45D185A9A1.title": "&lIron의 주문 'N 주문서",
+  "quest.30B7AF815D9D7553.quest_desc": [
+    "&c&lPyromancer&r의 &c불타버린 타워&r. 어떤 사람들은 &cTower&r를 볼 수 있을 만큼 가까이 있다고 말합니다., 그러면 열기를 느낄 수 있을 만큼 가까이 다가가게 됩니다. \\n\\n&c파이로맨서 타워&r는 내부가 가문비나무와 참나무로 만들어진 주로 석재 유형의 불탄 타워입니다. 또한 구조의 일부인 &cTower&r 근처에 두 번째 건물도 있습니다. \\n\\n 상단에는 연기의 원인과 &5Armor Pile&r가 나와 있습니다. \\n\\n&c&lPyromancer&r를 찾으려면 지하로 내려가야 합니다!",
+    "{image:atm:textures/questpics/iron_spells/spells_pyromancertower.png 너비:200 높이:100 정렬:중앙}"
+  ],
+  "quest.30B7AF815D9D7553.title": "&c파이로맨서 타워",
+  "quest.32D2CE292E088939.title": "&cFire&r 업그레이드 오브",
+  "quest.34FC02F47F52887F.quest_desc": [
+    "이 &eSpellbook&r는 확실히 12 &3Spell Slots&r에서 작업할 수 있게 해줍니다! \\n\\n&b얼음 독 약병&r가 필요합니다., which are made from &bIcy Fangs&r 또는 &bIce Spider Den&r에서 약탈합니다. \\n\\n&5아케인 옷감&r 만들기가 매우 쉽습니다. 그리고 &bMithril Scraps&r를 채굴해야 합니다! \\n\\n&eSpellbook&r의 느낌이 얼마나 차가운지 판단합니다., &bIce Spells&r에 도움이 된다고 생각합니다."
+  ],
+  "quest.34FC02F47F52887F.title": "&b서리줄 마법서",
+  "quest.36B283532D70776A.quest_desc": [
+    "&a Speed&r의 부츠는 여기에서 얻을 수 있는 최고의 부츠입니다. \\n\\n먼저, &aArchevokers 부츠&r가 필요합니다. 손재주가 싫다면, 직접 제작하는 것을 추천합니다. \\n\\n그러면, &bMithril Weave&r가 필요합니다. 이것은 &b미스릴 주괴&r와 체인의 조합입니다. 이것들은 Crafting Armor에만 사용되므로 거의 몇 개만 있으면 됩니다. \\n\\n마지막은 &d디바인 소울샤드&r입니다. \\n\\n이 &a부츠&r는 다른 부츠보다 더 많은 마나를 제공합니다., &3주문력&r, 게다가 그것들이 당신을 더 빠르게 만들어 주나요? 어떻게 하면 속도가 빨라지나요? 이동 및 &3주문 시전&r 속도를 높이면 됩니다!"
+  ],
+  "quest.36B283532D70776A.title": "&a속도의 장화",
+  "quest.36F87173D8CD1D68.quest_desc": [
+    "&5Lightning&r를 타세요! &5&lLightning&r는 전기를 사용하여 자신을 죽이고 지원하는 것에 관한 것입니다. 일부 공격은 실제 &5Lightning&r처럼 작동하기도 합니다! \\n\\n&5&lLightning's&r 초점 재료는 &5Bottle 'O Lightning&r which you get from a 빈 병 on a Charged Creeper. 더 많은 &5Lightning&r를 만들려면 &5Lightning&r가 필요합니다! \\n\\n&5스크롤&r는 &bLight Blue&r 텍스트가 포함된 &7Grey&r입니다."
+  ],
+  "quest.36F87173D8CD1D68.title": "&5&l번개",
+  "quest.373EBEB2E96D9361.quest_desc": [
+    "Snowy Biomes를 탐험하는 동안 낡은 교회처럼 보이는 것을 발견할 수도 있습니다. \\n\\n그 안에 무엇이 들어있는지 빼고, &6Holy&r가 아닙니다! \\n\\n지하로 내려가 지하 묘지로 이동하세요. 여기에 Stray Spawner가 많이 있을 것입니다., 파우더 스노우 트랩, 그리고 전리품! \\n\\n&b얼음 거미 알&r... 그것들을 깨뜨리면 경고를 받을 것입니다..."
+  ],
+  "quest.373EBEB2E96D9361.title": "&bIce 스파이더 덴",
+  "quest.395A33977B18B9AD.quest_desc": [
+    "&5갑옷더미&r를 수확하려고 시도한 후 마치 그것을 사용하는 시체가 있는 것처럼 다시 살아나는 것처럼 보입니다. 그들은 또한 Spawners에서 나올 수도 있습니다. \\n\\n60 &4하트&r를 가지고 있으며 마법을 사용하지 않는다는 점에서 다른 보스들과 다릅니다., 오히려 나는 그것이 마법으로 만들어진 것이라고 믿습니다. 그들은 검을 휘두르거나 여러분에게 돌진하여 공격할 것입니다. \\n\\n내가 본 바로는 그들은 다른 &5&lKnights&r 외에 보이는 모든 것을 공격할 것입니다! \\n\\nOnce가 죽으면 그들은 Netherite Scraps와 &cCinder Essence&r를 떨어뜨렸습니다. 드물게 &5Weapon&r를 떨어뜨리고 &cCitadel&r에 있는 무기는 오래된 키를 떨어뜨립니다.",
+    "{image:atm:textures/questpics/iron_spells/spells_knight.png 너비:100 높이:150 정렬:중심}"
+  ],
+  "quest.395A33977B18B9AD.title": "&5&l고대 기사",
+  "quest.3A85110725E81CDF.quest_desc": [
+    "이전에 &2&lMinecraft&r를 플레이한 적이 있다면, 당신은 Armor가 무엇인지, 그것이 무엇을 하는지 알아야 합니다! \\n\\n&lIron의 주문&r는 자체 유형의 방어구도 추가합니다. \\n\\n이 기능은 일반 방어구처럼 작동하지만 각각 마법의 힘을 다르게 강화합니다. 더 높은 &3Spell Power&r처럼, 더 많은 마나, 심지어 원소 부스트도 있습니다."
+  ],
+  "quest.3A85110725E81CDF.title": "&l갑옷",
+  "quest.3DCD38634176BD92.quest_desc": [
+    "&6Allthemodium&r &e주문서&r를 스미딩 테이블의 비브라늄 주괴 및 템플릿과 결합하세요.\\n\\n이 템플릿 요새에서 의심스러운 영혼 모래를 털어내면 얻을 수 있습니다."
+  ],
+  "quest.3DCD38634176BD92.title": "&3Vibranium&r 주문서",
+  "quest.3E8077AB45C79E6A.quest_desc": [
+    "확실히 일반 마인크래프트 가마솥보다 낫습니다! \\n\\n연금술사 가마솥은 다음을 수행할 수 있습니다: \\n1. 몹이나 플레이어를 요리하여 &4Blood&r를 얻는 데 사용됩니다. \\n2. 물약을 만들고 업그레이드하세요. \\n3. 두루마리에서 잉크를 얻을 확률이 절반입니다. \\n4. 희귀도의 4 잉크를 결합하여 더 높은 희귀도를 얻으세요. ",
+    "{image:atm:textures/questpics/iron_spells/spells_cauldron.png 너비:100 높이:100 정렬:중심}"
+  ],
+  "quest.401BB95B740385B7.title": "&6Holy&r 업그레이드 오브",
+  "quest.4104ABDC0E577350.title": "&2Nature&r 업그레이드 오브",
+  "quest.420CB9502DF8E1BC.quest_desc": [
+    "&b&l얼음 거미&r. \\n\\n50 &4하트&r 및 20 방어구 포인트를 보유한 적입니다. \\n\\n가까이 가면 그들은 당신을 물거나 많은 팔 중 하나로 당신을 때릴 것입니다! \\n더 멀리 가면 그들은 일종의 &bIcy 누에고치&r를 쏠 것입니까? 제 생각에는? 그것이 무엇이든, 그것은 당신에게 피해를 입히고 &b당신을 제자리에 고정시킵니다.&r. 아니면 지상에서 당신을 향해 &bIce Rocks&r 라인을 보내 당신에게 피해를 줄 수도 있습니다. \\n\\n죽으면 문자열을 떨어뜨립니다., &5아케인 에센스&r, 때로는 &bIcy Fang&r도 있습니다."
+  ],
+  "quest.420CB9502DF8E1BC.title": "&b&l얼음 거미",
+  "quest.4407BD7B5F033765.quest_desc": [
+    "또 다른 Craftable &eSpell Book&r 패턴을 따르면 이 책은 훨씬 더 비쌉니다. 신비한 옷이 필요합니다, 금, 그리고 마법에 걸린 책. 어떤 책에 마법을 부여해야 하는지는 까다롭지 않습니다! \\n\\n10 &3Spell&r 슬롯이 있고 엄청난 마나 부스트를 제공합니다!"
+  ],
+  "quest.4407BD7B5F033765.title": "마법에 걸린 주문서",
+  "quest.445C21949ADA1FE3.quest_desc": [
+    "고대 코덱스를 &6Allthemodium Ingot&r 및 Smithing Table의 템플릿과 결합하세요.\\n\\n템플릿을 얻을 수 있습니다. &9고대 도시&r에서 의심스러운 점토를 닦는 중."
+  ],
+  "quest.445C21949ADA1FE3.title": "&6Allthemodium&r 주문서",
+  "quest.44E8D5DAD7E22724.quest_desc": [
+    "충분히 재미있다, 이건 많이 업그레이드되지 않습니다. \\n\\n&3주문력&r는 동일하게 유지됩니다., 마나는 그대로 유지됩니다, 방어구 포인트도 동일하게 유지됩니다. 유일한 변화는 Armor Toughness의 추가입니다. \\n\\n그건 말이 되지만, 그것은 단지 &bWizard Gear&r를 위한 &5Netherite 업그레이드&r일 뿐입니다!"
+  ],
+  "quest.44E8D5DAD7E22724.title": "&c네더라이트 전투마법사 갑옷",
+  "quest.4567A27C53A01903.quest_desc": [
+    "Tyros&r의 &c&lEcho는 &lIron의&r에게서 얻을 수 있는 첫 번째 실제 보스입니다! \\n\\n그는 16 방어구 포인트가 있는 1000 &4하트&r를 보유하고 있습니다. 뿐만 아니라 &5고대 기사&r를 소환하여 그와 싸울 수 있는 능력도 있습니다! \\n\\n&c&lFirst Flamebearer&r라는 직함으로 추측할 수 있습니다., 그가 &cFire Magic&r를 사용하여 공격한다는 것을 알게 될 것입니다. \\n\\n그는 &cScythe&r를 휘둘러 당신을 공격하거나 지면을 강타하여 모든 방향으로 &cFire&r 파동을 발사할 수 있습니다. \\n\\nA 몇 가지 추가 공격에는 &cFirey Swords&r가 포함됩니다., 그는 당신에게 연속으로 무리를 던질 수도 있고 수십 마리를 소환하여 땅에서 일어나 당신에게 피해를 줄 수도 있습니다. \\n\\n그가 마지막 공격에서 &cFireballs&r를 사용하고 있습니다., 그는 가만히 서 있거나 공중으로 높이 뛰어올라 당신에게 던질 것입니다! \\n\\n&4Health&r의 4분의 1을 수행하면 그는 무릎을 꿇을 것입니다. 이때가 그를 가장 세게 때릴 수 있는 때입니다! 하지만 300 &4Hearts&r에 도달하면 무기와 방어구를 업그레이드하게 됩니다. &5Ancient Knights&r도 업그레이드할 수 있습니다! \\n\\n어떻게든 그를 죽일 수 있다면, 그는 &cScythe&r와 &dDivine Soulshard&r를 떨어뜨릴 것입니다. 게다가 에센스도 있지만 우리가 &cScythe&r를 얻었으니 누가 신경쓰겠어요!",
+    "{image:atm:textures/questpics/iron_spells/spells_echo.png 너비:125 높이:100 정렬:중심}"
+  ],
+  "quest.4567A27C53A01903.title": "&c&lE첫 번째 불꽃 운반자 티로스의 초",
+  "quest.489833A2A6C39151.quest_desc": [
+    "그는 당신이 그것을 훔칠 수 있다는 뜻이었습니다. 나는 상관하지 않습니다.",
+    "{image:atm:textures/questpics/iron_spells/spells_outfit_cryomancer.png 너비:60 높이:100 정렬:중앙}"
+  ],
+  "quest.489833A2A6C39151.title": "&b크리오맨스cr 의상",
+  "quest.48C68664319B0294.quest_desc": [
+    "이 특별한 주문서를 얻으려면 &4&l죽은 왕&r를 처치해야 합니다! \\n\\n10 &3Spell&r 슬롯이 있지만 4가 이미 사용되었습니다. &4블러드 슬래시&r, &4혈액 단계&r, &4흡입의 광선&r, &4Blaze Storm&r가 이미 장착되어 있어 분리할 수 없습니다."
+  ],
+  "quest.48C68664319B0294.title": "네크로노미콤",
+  "quest.4CCA1E2AAA9AB9D9.quest_desc": [
+    "이 사람은 언제 Mod에 올 예정입니까?",
+    "{image:atm:textures/questpics/iron_spells/spells_outfit_electromancer.png 너비:50 높이:100 정렬:중심}"
+  ],
+  "quest.4CCA1E2AAA9AB9D9.title": "&5E전자기사 복장",
+  "quest.4E3355FDCB65BB63.quest_desc": [
+    "&aEvokers&r는 강력하고 치명적인 Minecraft의 미니보스로 알려져 있습니다. 물론 &lIron&r에는 훨씬 더 강력하고 치명적인 버전이 추가되었습니다! 그리고 그렇습니다. 이 &eBook&r는 두 가지 모두에서 희귀한 드롭입니다! \\n\\n10 주문 슬롯이 있지만 3가 사용 중입니다. &a팽 스트라이크&r, &a팡 워드&r, 및 &aVex Swarm&r는 모두 &eBook&r와 함께 제공되며 이동할 수 없습니다. \\n\\n또한 &a&lEvocation&r를 향상시킵니다!"
+  ],
+  "quest.4E3355FDCB65BB63.title": "&a 환기의 그리모어",
+  "quest.541446863A72B96C.title": "&7공통&r 잉크",
+  "quest.548F85EE6B6F1811.quest_desc": [
+    "Piglins와 마찬가지로 &2&lApotheocarist&r는 다음과 같습니다., 그는 또한 중립적입니다. 그는 동료 Piglins처럼 &eGold&r에 관심이 없습니다., 그를 공격하는 사람들. \\n\\n그와 거래할 수 있습니다: 그에게 에메랄드 또는 물약을 위한 물약 성분을 제공합니다., 물약 성분, 및 &2자연 스크롤&r. \\n\\n그를 죽이고 싶다면 그에게는 60 하트가 있습니다. 그는 물약과 &2자연 주문&r로 당신을 공격할 것입니다. 상처를 입었을 때 그는 물약으로 치료하려고 노력할 것입니다, (내 생각엔 그 사람이 포션을 정말 좋아하는 것 같아요.) \\n\\n죽으면 신비한 정수를 떨어뜨립니다., 잉크, &2자연 룬&r, 그리고 &2자연 두루마리&r!",
+    "{image:atm:textures/questpics/iron_spells/spells_apotheocarist.png 너비:100 높이:200 정렬:중심}"
+  ],
+  "quest.548F85EE6B6F1811.title": "&2&l약제사",
+  "quest.551A4916F032ACCF.quest_desc": [
+    "Arcane Anvil은 &lIron Spells&r의 모든 블록 중에서 가장 많이 사용됩니다. \\n\\n&3Spells&r를 동일한 잉크와 결합하여 레벨을 올릴 수 있습니다. \\n&3Scrolls&r를 무기로 결합하여 함께 사용할 수 있습니다., 검처럼. \\n업그레이드 오브를 사용하여 반지에 대한 친화도를 설정할 수도 있습니다., 또는 무기와 장비에 업그레이드 오브를 추가하세요.",
+    "{image:atm:textures/questpics/iron_spells/spells_anvil_gui.png 너비:100 높이:100 정렬:중심}"
+  ],
+  "quest.555ED1E39131D91B.quest_desc": [
+    "&bTower&r에 들어오지 말았어야 했어요, &b&lCryomancer&r는 플레이어를 좋아하지 않습니다., 그들은 당신에게 적대적입니다. \\n\\n&b&lCryomancer&r는 즉시 &bIce Spells&r로 당신을 공격하기 시작합니다. 당신에게 불리하게 동물을 이용할 수도 있습니다! 싸움에서 이기기 위해 동물을 희생시키는 행위, 그 사람 정말 냉정해요! \\n\\n죽으면 신비한 정수를 떨어뜨립니다., 잉크, &b얼음 룬&r, 및 &bIce 스크롤&r.",
+    "{image:atm:textures/questpics/iron_spells/spells_cryomancer.png 너비:100 높이:200 정렬:중심}"
+  ],
+  "quest.555ED1E39131D91B.title": "&b&l크리오맨서",
+  "quest.59E68086A8B99EA7.quest_desc": [
+    "&c&lPyromancer&r(Pie Romancer와 다름)는 &lIron의 Spells&r에 의해 추가된 또 다른 중립 몹입니다. 그는 &cfire&r에 자신과 가까운 몹을 설정할 수도 있습니다... \\n\\n그에게 모든 것을 &cFire&r와 교환할 수 있습니다., 잉크, 심지어 &cFire Scrolls&r도 있습니다. \\n\\n그와 싸워 몸의 머리카락을 모두 위험에 빠뜨리고 싶다면 준비를 하세요., 그는 60 하트를 가지고 있습니다. 그는 &c화재 주문&r를 사용하여 당신을 &cFire&r로 설정할 것입니다., 질문도 아니고. \\n\\n죽으면 신비한 정수를 떨어뜨립니다., 잉크, &c불의 룬&r, 그리고 &c화염 주문&r!",
+    "{image:atm:textures/questpics/iron_spells/spells_pyromancer.png 너비:100 높이:200 정렬:중심}"
+  ],
+  "quest.59E68086A8B99EA7.title": "&c&l파이로맨서",
+  "quest.5B013A3A37D6902B.quest_desc": [
+    "&9고대 도시&r의 상자에 흩어져 있는 고대 지식의 조각을 찾을 수 있습니다. \\n\\n1를 사용하려면 &9Echo 샤드&r도 필요합니다. 조각을 결합하여 &9Spells&r 및 2에 대해 알아보세요. 실제로 &9Spells&r를 만드세요."
+  ],
+  "quest.5B013A3A37D6902B.title": "고대 도시로",
+  "quest.5DE863C3FB6492BE.quest_desc": [
+    "{image:atm:textures/questpics/iron_spells/spells_outfit_cultist.png 너비:60 높이:100 정렬:중앙}"
+  ],
+  "quest.5DE863C3FB6492BE.title": "&4컬티스트 의상",
+  "quest.5ED368C926E5F32C.quest_desc": [
+    "&3Spells&r의 마지막 클래스가 있는데 언급하는 것을 잊어버렸습니다. 글쎄, 이 &9Spells&r에 대한 모든 지식은 잊혀졌기 때문에 나만 그런 것이 아닙니다. \\n\\n 추억을 되찾으려면 걸어야 해, 조용히, 기억의 길 아래로. &9고대 도시&r입니다."
+  ],
+  "quest.5ED368C926E5F32C.title": "마지막 수업...",
+  "quest.6046CA1F6AFE2AEA.quest_desc": [
+    "&4The Blood Staff&r is a Drop from &4&lThe Dead King&r. Probably because it is quite literally his Staff! \\n\\nThis Staff does 8 &4Damage&r, more than the previous ones. \\n\\nIt gives 5% &3Spell Power&r to all &3Spells&r and 15% to just &4Blood Spells&r as well as 10% Summon Power."
+  ],
+  "quest.6046CA1F6AFE2AEA.title": "&4혈의 지팡이",
+  "quest.60FAD8BF235E381B.title": "&bRare&r 잉크",
+  "quest.615C3E012B2DECD3.quest_desc": [
+    "&e주문서&r! &3Spells&r를 어디에 더 넣으시겠습니까? \\n\\n&3Scrolls&r를 &eSpellbook&r에 모두 비문 테이블에 추가하면 됩니다. 보유할 수 있는 일정 금액이 있지만 더 이상 희귀성에 대해 걱정할 필요가 없습니다. \\n\\n&3Scrolls&r가 &eSpellbook&r에 추가되면 소모되지 않지만 마나가 소모됩니다."
+  ],
+  "quest.615C3E012B2DECD3.title": "&eSpellBooks&r!",
+  "quest.6187837A51BA09DC.quest_desc": [
+    "&cCitadel&r는 &lIron의 주문&r가 제공하는 가장 큰 구조입니다. 거의 전적으로 &0Blackstone&r로 만들어졌습니다. \\n\\n본관을 둘러싸고 연결되어 있는 거대한 벽과 탑이 있습니다. 여기에는 &5Ancient Knight&r 생성 장치와 전리품 통이 있습니다. \\n\\n본관 1층에는 도서관/연구실이 있습니다. 여기에는 수십억 권의 책과 상자 등이 있습니다. &5고대 기사&r! \\n\\n위층에는 성채 금고와 &5저주받은 갑옷 스탠드&r가 있습니다. 조심스럽게 전리품을 가져가세요, 그들은 자신의 재산을 방어할 수도 있습니다! \\n\\n최상층은 경기장..."
+  ],
+  "quest.6187837A51BA09DC.title": "&c성채",
+  "quest.637C87D8968CD51A.title": "&a일반적이지 않은&r 잉크",
+  "quest.639531AB27DCD267.quest_desc": [
+    "&7Runes&r는 클래스와 해당 부품을 만드는 방법입니다. &7Blank Rune&r를 얻으려면 &4&lDead King&r를 죽이거나 오그라드는 돌로 새겨진 룬을 닦아낼 수 있습니다. \\n\\n각각 고유한 &3Scrolls&r를 갖는 다양한 클래스(1 비밀 클래스)가 있는 8가 있습니다., 초점 재료, 업그레이드, 그리고 의상. "
+  ],
+  "quest.639531AB27DCD267.title": "&l클래스",
+  "quest.641888DC7BC40AA9.quest_desc": [
+    "삼엄하게 경비된 &aFortress&r에는 &a&lArchevoker&r와 그의 추종자들이 살고 있습니다. \\n거대한 가문비나무 벽과 그 안에 있는 거대한 돌 &aFortress&r를 보면 그 모습을 알 수 있습니다. \\n\\nIllagers, 옹호자, &aEvokers&r, Ravagers는 Walls 및 &aFortress&r 내에서 찾을 수 있습니다. 그들을 지나서 계단으로 올라가는 길을 찾을 수 있습니다, 지붕으로 가는 파쿠르, 그리고 상단에서 Fort&r의 리더인 &a&l를 만나보세요. \\n\\n철저하게 보호되고 있는 &aFort&r에는 수많은 전리품이 있습니다.",
+    "{image:atm:textures/questpics/iron_spells/spells_evokerfort.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.641888DC7BC40AA9.title": "&aE보커 포트",
+  "quest.652A14E17DDE97E6.quest_desc": [
+    "제작하려면 폐허가 된 책이 필요한 또 다른 것입니다. &9고대 도시&r 상자에서 폐허가 된 책을 찾을 수 있습니다. \\n\\n&dEnder Dragon&r에서 드롭되는 드래곤 스킨도 필요합니다! \\n\\n12 &3Spell&r 슬롯이 있고 &d엔더 주문&r를 강화합니다!"
+  ],
+  "quest.652A14E17DDE97E6.title": "&d드래곤스킨 주문서",
+  "quest.660D8AD3EE975340.quest_desc": [
+    "&b무기 부품&r는 몇 가지 무기를 제작하는 데 필요합니다. \\n\\n그리고 그렇습니다, 이것도 제작해야 합니다. \\n\\n매우 간단합니다., 3 &b미스릴 주괴&r 및 2 &5아케인 주괴&r만 있으면 됩니다. \\n\\n&5아케인 주괴&r는 1 &6구리 주괴&r 및 8 &5Arcane로 만들어집니다. Essence&r."
+  ],
+  "quest.660D8AD3EE975340.title": "&b무기 부품",
+  "quest.66762A4743104157.quest_desc": [
+    "또 다른 제작 가능한 &eSpellbook&r, 이게 좀 더 비싸요! Hoglins의 드롭인 Hogskin이 필요합니다. \\n\\n이것은 기술적으로 여전히 낮은 편에 있는 8 &3Spells&r를 담을 수 있지만 더 좋습니다!"
+  ],
+  "quest.66762A4743104157.title": "견습생의 주문서",
+  "quest.67308C5DDF4A10D2.quest_desc": [
+    "&9방황하는 마술사 갑옷&r는 &lIron의 주문&r가 제공할 수 있는 가장 약한 것입니다. \\n\\n말 그대로 &7가죽 갑옷&r의 업그레이드입니다! 누가 &7Leather Armor&r를 만드나요?!?!?! \\n\\n&7가죽 갑옷&r와 &5아케인 에센스&r를 제작대에 던져서 제작하세요. \\n\\n이렇게 하면 각 조각이 더 많은 방어구 포인트와 약간의 마나 부스트를 제공하게 됩니다!"
+  ],
+  "quest.67308C5DDF4A10D2.title": "&9방황하는 마술사 의상",
+  "quest.67439337E29A308B.quest_desc": [
+    "&eArtificer's Cane&r는 &7회색 수염 지팡이&r보다 비싸고 그로 인해 더 강력합니다. \\n\\n이제 4 &4Damage&r를 수행하고 15% 감소 쿨다운 및 시전 시간과 10% &3Spell Power&r를 제공합니다. \\n\\nI는 그것이 더 낫다고만 말했습니다., 훨씬 낫다고는 말하지 않았습니다!"
+  ],
+  "quest.67439337E29A308B.title": "&e기술자의 지팡이",
+  "quest.67A587F4BAD76C70.quest_desc": [
+    "가장 기본적인 &eSpellbook&r가 가장 저렴합니다! \\n\\n총 5 &3Spells&r만 보유할 수 있습니다."
+  ],
+  "quest.67A587F4BAD76C70.title": "허술한 일지",
+  "quest.67D40A1A9332C03D.title": "&6Legendary&r 잉크",
+  "quest.68B44B9E939F4228.quest_desc": [
+    "&aFort&r 상단에는 &a&lArchevoker&r가 있습니다. 플레이어와 그를 공격하는 사람에게만 적대적입니다. \\n\\n그는 60 하트를 가지고 있습니다, 일반 &aEvoker&r와 같은 공격과 그 이상! &a불꽃놀이&r, &aShield&r, 그리고 &a바람의 폭발&r! \\n\\n죽으면 신비한 정수를 떨어뜨립니다., 잉크, &aE발화 룬&r, &aE발원 두루마리&r, 그리고 희귀한 &a Evokation의 그리모어&r를 획득하세요!",
+    "{image:atm:textures/questpics/iron_spells/spells_evoker.png 너비:100 높이:200 정렬:중심}"
+  ],
+  "quest.68B44B9E939F4228.title": "&a&lArchevoker",
+  "quest.6963EC8A71D66AE3.quest_desc": [
+    "진흙투성 맹그로브 습지 깊은 곳에는 &2&lApotheocarist&r라고 불리는 마피아와 같은 은둔자의 피난처가 있습니다. \\n\\n주변에 아무도 없음, 그의 물약에 필요한 것만 주변에 있습니다. \\n\\n&2Hut&r에서 &2&lApotheocarist&r를 찾을 수 있습니다. \\n\\n여기서 물약이 들어 있는 가마솥과 양조 스탠드도 찾을 수 있습니다!",
+    "{image:atm:textures/questpics/iron_spells/spells_magrovehut.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.6963EC8A71D66AE3.title": "&2맹그로브 오두막",
+  "quest.69763C2E2F454A73.quest_desc": [
+    "&c&lFire&r는 분명히 &cFire&r와 관련이 있습니다. 대부분의 두루마리는 &cFire&r를 사용하여 물건을 태우고 다치게 합니다. \\n\\n&c&lFire의 &r 초점 재료는 &cBlaze Rods&r입니다. &c불꽃 룬&r를 제작하거나 &c&lPyromancer&r를 처치하여 얻을 수 있습니다. \\n\\n&c스크롤&r는 &cLight Red&r이며 &8Grey&r 텍스트가 있습니다."
+  ],
+  "quest.69763C2E2F454A73.title": "&c&l화재",
+  "quest.69838E3F12218D68.quest_desc": [
+    "스크롤 포지, 당신은 그것이 무엇을하는지 짐작할 수 있습니다! \\n\\n&3스크롤&r를 만듭니다! \\n\\n잉크를 추가하여 희귀도를 설정하세요. 실제 &3Scroll&r용 용지입니다. 그런 다음 원하는 &3Spell&r 유형의 항목(&c&lFire&r의 경우 &cBlaze Rod&r), &2독성 감자&r for &2&lNature&r, 등). 마지막으로 원하는 &3Spell&r를 선택하면 생성됩니다!",
+    "{image:atm:textures/questpics/iron_spells/spells_scroll_gui.png 너비:150 높이:100 정렬:중앙}"
+  ],
+  "quest.6CE7115DA2B23776.quest_desc": [
+    "Flimsy보다 별로 좋지는 않네요... \\n\\n이것은 허술한 일지보다 더 많은 &3Spell&r 하나를 담을 수 있습니다! 매우 강력한 &3Spell&r가 하나 더 준비되어 있습니다!"
+  ],
+  "quest.6CE7115DA2B23776.title": "강철결속 일지",
+  "quest.6D232F6D8E8DA546.quest_desc": [
+    "할로윈을 전후해 대인기!",
+    "{image:atm:textures/questpics/iron_spells/spells_outfit_plagued.png 너비:60 높이:100 정렬:중앙}"
+  ],
+  "quest.6D232F6D8E8DA546.title": "&2오염된 의상",
+  "quest.6DB5732177AABB87.quest_desc": [
+    "&lIron의 주문&r에서 가장 크고 가장 어려운 구조물입니다. \\n\\n심판 지하 구조물은 재판실과 유사합니다. Wayward Compass를 사용하여 찾을 수도 있습니다! \\n\\n여기에는 생성자가 많이 있습니다., 평가판 생성기, 그리고 물론 전리품. \\n\\n가장 중요한 방은 왕좌의 방입니다., 일단 거기 도착하면, &4&lDead King&r의 해골이 다시 살아납니다! (그렇지 않으면 클릭해야 할 수도 있습니다).",
+    "{image:atm:textures/questpics/iron_spells/spells_catacombs.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.6DB5732177AABB87.title": "&4카타콤",
+  "quest.6F5F1C525CF08F96.quest_desc": [
+    "지팡이와... 아이템과 같은 지팡이는 쥐고 있을 때 마법 부스트를 주는 무기입니다! \\n\\n 게다가 스타일리시해요!"
+  ],
+  "quest.6F5F1C525CF08F96.title": "지팡이, 막대, 지팡이",
+  "quest.71F0E9C36AA02B46.quest_desc": [
+    "글쎄요, 이 경기장은 꽤 비어 있는 것 같아요... 아 잠깐만 이게 뭐야! \\n\\n&c신더러스 영혼 룬&r. 거의 열쇠구멍처럼 생겼네요, 단지 노후된 열쇠가 작동하지 않을 뿐입니다. \\n\\n날 믿어주세요, 그들은 그렇지 않습니다. \\n\\n대신 &cCinderous Soulcaller&r가 필요합니다! &cCinder Essence&r로 만들어졌습니다., &5네더라이트 조각&r, 및 &9Echo 샤드&r. \\n\\n&5Netherite Scraps&r are from &5Ancient Debris&r, &9Echo 파편&r are from &9Ancient City&r, 그리고 &cCinder Essence&r는 &5고대 기사&r의 드롭입니다!"
+  ],
+  "quest.71F0E9C36AA02B46.title": "&c신더러스 영혼소환사",
+  "quest.7270A37E31A70C91.quest_desc": [
+    "&6&lHoly&r는 모든 메딕/지원 플레이어를 위한 것입니다. 주로 치유와 도움을 위한 것입니다. \\n\\n&6&lHoly's&r 초점 재료는 제작된 &6신성한 진주&r입니다. 이것들로 룬을 만들거나 &6&lPriest&r를 죽여 &6신성한 룬&r를 얻을 수 있습니다. \\n\\n&6신성한 두루마리&r는 &6Gold&r 텍스트가 포함된 &fWhite&r입니다."
+  ],
+  "quest.7270A37E31A70C91.title": "&6&l거룩한",
+  "quest.72AB70FD8D8FABBF.quest_subtitle": "&c네더&r!",
+  "quest.72AB70FD8D8FABBF.title": "고속도로에서...",
+  "quest.73D6B980D35082A0.quest_desc": [
+    "설명하는 데 시간이 걸리므로 인내심을 가지십시오. \\n\\n먼저, &aEvoker Fort&r를 찾으세요. \\n다음, 그 안에 숨겨진 연구 도서를 찾으세요. 그 다음에, &aFort&r에 인질로 있는 상인이 번역하게 하세요. (우리 인질 퀘스트 번역가처럼요!) \\nOnce, &6Village&r에 있는 &6&lPriest&r에게 가져가서 &e주문서&r로 교환하세요! \\n\\n&6신성한 주문을 강화합니다.&r 인질은 걱정하지 마세요. 상인은 매우 매우 드뭅니다., 계속 찾아보세요!"
+  ],
+  "quest.73D6B980D35082A0.title": "&6주민 성경",
+  "quest.7408CCF998D9CD37.quest_desc": [
+    "제작 가능한 &e주문서&r... 그래요 만들기가 쉽지 않아요. \\n\\n가장 구하기 어려운 것은 폐허가 된 책입니다., &9고대 도시&r 상자에서 찾을 수 있습니다. &4혈액 약병&r는 모닥불 위의 가마솥이나 연금술 가마솥에 몹(또는 자신)을 넣어서 얻을 수 있습니다. &5Bottle O' Lightning&r는 충전된 크리퍼에 병을 사용하면 나옵니다. \\n\\n모든 작업을 수행하면 고대 코덱스를 제작할 수 있습니다. 12 &3Spell&r 슬롯은 매우 유용합니다!"
+  ],
+  "quest.7408CCF998D9CD37.title": "고대 코덱스",
+  "quest.76558D23A70AFF78.title": "&bIce&r 업그레이드 오브",
+  "quest.78AA7BFABBFB9973.quest_desc": [
+    "&2&lNature's&r &e주문서&r. \\n\\n10 &3주문 &r가 있고 &2자연 주문&r를 강화합니다! \\n\\n제작하려면 썩은 주문서가 필요합니다..."
+  ],
+  "quest.78AA7BFABBFB9973.title": "&2드루이드 고서",
+  "quest.794D6F9B8DB31E7D.quest_desc": [
+    "&bIce Staff&r는 저를 꽤 혼란스럽게 했지만 다행히도 이제 알았습니다! \\n\\n&bPermafrost 샤드&r 및 &bFrosted Helve&r가 필요합니다. &bPermafrost 파편&r는 아이스 브레이커 구조 내의 전리품입니다. 이들은 Icy Biomes의 난파선입니다. \\n\\n &b 반투명 헬브&r는 제작 아이템입니다. 그것은 &5아케인 주괴 &f및 &b 얼어붙은 뼈&r를 사용합니다. 후자는 &bStrays&r의 드롭입니다. \\n\\n&b얼음 지팡이&r는 5 &4Damage&r를 수행하고 25%의 마나 재생을 제공합니다. 모든 &3Spell&r에게 5% &3Spell Power&r를 제공합니다., &bIce Spells&r에 대해서만 15%입니다."
+  ],
+  "quest.794D6F9B8DB31E7D.title": "&b얼음 지팡이",
+  "quest.79EC8A49368421BF.quest_desc": [
+    "&6Pyrium&r는 &cCitadels&r 금고에서 확인된 전리품입니다... \\n\\n이 볼트를 제외하고는 일반 평가판 키를 사용하지 않습니다. 우와, 그것은 거의 하나의 열쇠가 모든 자물쇠를 열 수 없는 것과 같습니다! \\n\\n낡은 열쇠가 필요합니다, 이는 &cCitadel&r에 있는 &5Ancient Knights&r에게서 드롭됩니다. 그들은 타워와 도서관의 낮은 레벨에서 생성됩니다."
+  ],
+  "quest.79EC8A49368421BF.title": "&6피륨",
+  "quest.7C79BCE482A06199.quest_desc": [
+    "&b&lIce&r는 겨울철 주문에 관한 모든 것입니다. &bIce&r 및 &bSnow&r를 사용하여 적을 냉각시키고 피해를 줍니다. \\n\\n&b&lIce's&r 초점 재료는 &bStrays&r에서 드랍되는 &b얼어붙은 뼈&r입니다. 이를 사용하여 &bIce Rune&r를 제작하거나 &b&lCryomancer&r를 죽여서 얻을 수 있습니다. \\n\\n&bScrolls&r는 &bLight Blue&r이며 &9Darker Blue&r 텍스트가 있습니다."
+  ],
+  "quest.7C79BCE482A06199.title": "&b&l얼음",
+  "quest.7F85669FEA41CD97.quest_desc": [
+    "&6Village&r의 중립 수호자입니다. 그는 근처의 모든 적대적인 몹을 공격할 것입니다. 아이언 골렘 같지만 왠지 낯이 익은 것 같은데요? 의상을 입은 사람은 우리가 아는 사람일까요? \\n\\n&aEvoker Forts&r에 맞서기 위해 곧 제작될 Furled Map을 위해 그와 에메랄드와 치유 물약을 교환할 수 있습니다! \\n\\n당신이 그를 죽이고 싶다면 그는 &6신성한 주문&r로 당신을 반복적으로 공격할 것입니다. 그는 또한 낮아지면 자신을 치유할 것입니다. \\n\\n죽으면 신비한 정수를 떨어뜨립니다., 잉크, &6신성한 룬&r, 및 &6신성한 두루마리&r.",
+    "{image:atm:textures/questpics/iron_spells/spells_priest.png 너비:100 높이:200 정렬:중심}"
+  ],
+  "quest.7F85669FEA41CD97.title": "&6&l프리스트",
+  "quest.7FC54AF87CBDD222.quest_desc": [
+    "&5고대 전장&r는 과거의 단편일 뿐입니다. \\n\\n무슨 일이 일어났는지 누가 알겠습니까? \\n\\n누가 누구와 싸웠는지 누가 알겠습니까? 지금 우리가 가지고 있는 것은 벽의 일부와 이 &5갑옷 더미&r뿐입니다. 곡괭이로 채굴하여 획득하는 것이 좋습니다.",
+    "{image:atm:textures/questpics/iron_spells/spells_battleground.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.7FC54AF87CBDD222.title": "&5고대 전장",
+  "task.00C6A5CB44392D7E.title": "모든 권리 보유",
+  "task.1CC0E97BB8DC4F35.title": "5 네크로맨서 처치",
+  "task.6D7DD99A02A8F451.title": "더 딥 다크(Deep Dark)를 방문하세요",
+  "task.76B722B1AE7B6CF2.title": "모든 권리 보유"
+}

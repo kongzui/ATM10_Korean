@@ -1,0 +1,99 @@
+{
+  "family": "Iron's Spells 'n Spellbooks",
+  "languages": [
+    {
+      "label": "Iron's Spells 'n Spellbooks",
+      "jar": "irons_spellbooks-1.21.1-3.16.1.jar",
+      "namespace": "irons_spellbooks",
+      "english_keys": 1298,
+      "korean_keys": 1298,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 1135,
+      "new_or_edited": 131,
+      "project_output_reuse": 32
+    },
+    {
+      "label": "Iron's Jewelry",
+      "jar": "irons_jewelry-1.21.1-2.0.1.jar",
+      "namespace": "irons_jewelry",
+      "english_keys": 262,
+      "korean_keys": 262,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 216,
+      "new_or_edited": 46
+    },
+    {
+      "label": "Iron's Lib",
+      "jar": "irons_lib-1.21.1-1.1.0.jar",
+      "namespace": "irons_lib",
+      "english_keys": 67,
+      "korean_keys": 67,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 67
+    },
+    {
+      "label": "Iron's Patreon Lib",
+      "jar": "irons_lib-1.21.1-1.1.0.jar",
+      "namespace": "irons_patreon_lib",
+      "english_keys": 2,
+      "korean_keys": 2,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 2
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 1351,
+    "project_output_reuse": 32,
+    "new_or_edited": 246
+  },
+  "ftbquests": {
+    "chapters": [
+      "iron_spells_and_spellbooks.snbt"
+    ],
+    "quests_checked": 102,
+    "tasks_checked": 127,
+    "display_keys_checked": 237,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 4,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 5,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

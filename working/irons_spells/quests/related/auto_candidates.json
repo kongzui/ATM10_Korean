@@ -1,0 +1,79 @@
+{
+  "quest.0ED11FCF6298CE85.quest_desc": [
+    "&e&l철의 주문&r &4혈액 갑옷&r!"
+  ],
+  "quest.0ED11FCF6298CE85.quest_subtitle": "20",
+  "quest.0ED11FCF6298CE85.title": "&4컬티스트 의상",
+  "quest.215C9C2B2240FAA1.quest_desc": [
+    "&e&l철의 주문&r &5E전기 갑옷&r!"
+  ],
+  "quest.215C9C2B2240FAA1.quest_subtitle": "20",
+  "quest.215C9C2B2240FAA1.title": "&5E전자기사 복장",
+  "quest.24A7B2902E7430A1.quest_desc": [
+    "&7가죽 갑옷&r 그 위에 약간의 아케인을 뿌렸습니다. \\n\\n주문의 마나를 약간 증가시킵니다."
+  ],
+  "quest.24A7B2902E7430A1.quest_subtitle": "15",
+  "quest.24A7B2902E7430A1.title": "&9방황하는 마술사 장비",
+  "quest.24FDA15A7ACDF021.quest_desc": [
+    "&5Unobtainium Armor&r 하지만 &e&lIron의 주문&r 주문에 대한 버프가 있습니다!"
+  ],
+  "quest.260C7F3C1F51221D.quest_desc": [
+    "&e&l철의 주문&r &aE직업 방어구&r!"
+  ],
+  "quest.260C7F3C1F51221D.quest_subtitle": "20",
+  "quest.260C7F3C1F51221D.title": "&aArchevoker 복장",
+  "quest.361EF9E4973E3522.quest_desc": [
+    "&e&l철의 주문&r &d엔더 갑옷&r!"
+  ],
+  "quest.361EF9E4973E3522.quest_subtitle": "20",
+  "quest.361EF9E4973E3522.title": "&d섀도워커 복장",
+  "quest.3D72E3E53E7306FA.quest_desc": [
+    "&e&l철의 주문&r &c불꽃 갑옷&r!"
+  ],
+  "quest.3D72E3E53E7306FA.quest_subtitle": "20",
+  "quest.3D72E3E53E7306FA.title": "&c파이로맨서 의상",
+  "quest.4B65100885AE762D.quest_desc": [
+    "&e&l철의 주문&r &6신성한 갑옷&r!"
+  ],
+  "quest.4B65100885AE762D.quest_subtitle": "20",
+  "quest.4B65100885AE762D.title": "&6프리스트 복장",
+  "quest.4DD66E31859EA593.quest_desc": [
+    "&3비브라늄 갑옷&r 하지만 &e&lIron의 주문&r 주문에 대한 버프가 있습니다!"
+  ],
+  "quest.5391385A75535EC8.quest_desc": [
+    "&e&l철의 주문&r &2자연 방어구&r!"
+  ],
+  "quest.5391385A75535EC8.quest_subtitle": "20",
+  "quest.5391385A75535EC8.title": "&2오염된 의상",
+  "quest.5BA84F6282D9CAF1.quest_desc": [
+    "&6Allthemodium Armor&r 하지만 &e&lIron의 주문&r 주문에 대한 버프가 있습니다!"
+  ],
+  "quest.654F5C84114A31A1.quest_desc": [
+    "매우 간단하고 저렴한 &e&lIron's Spells&r 방어구, 초기 게임에 도움이 됩니다!"
+  ],
+  "quest.654F5C84114A31A1.quest_subtitle": "20",
+  "quest.654F5C84114A31A1.title": "&4허수아비 의상",
+  "quest.66B5A8D259E12BF5.quest_desc": [
+    "잠깐만요 그러면 &cNetherite&r와 동일한 통계가 있다는 뜻인가요? 게다가 주문 부스트? \\n\\n왜 일반 &cNetherite&r를 원하는 사람이 있을까요?"
+  ],
+  "quest.66B5A8D259E12BF5.quest_subtitle": "20",
+  "quest.66B5A8D259E12BF5.title": "&4Netherite Battlemage 의상",
+  "quest.686EB173C94301C0.quest_desc": [
+    "&e&l철의 주문&r &b얼음 갑옷&r!"
+  ],
+  "quest.686EB173C94301C0.quest_subtitle": "20",
+  "quest.686EB173C94301C0.title": "&b크라이오맨서 의상",
+  "quest.791A981914CE345F.quest_subtitle": "&f10 &c공격 피해",
+  "quest.340CDF4357E22A43.quest_desc": [
+    "Iron은 우리에게 매우 재미있는 탐험 및 마법 모드를 제공했습니다! 마법과 함께, 마법을 위해 싸우세요! 그보다 더 멋진 것은 없습니다! \\n\\nIt에는 환영받는 퀘스트 페이지가 있습니다. "
+  ],
+  "quest.340CDF4357E22A43.title": "&e&lIron의 주문 및 주문서",
+  "quest.45D10F53CA18B8EE.quest_desc": [
+    "안타깝게도 몹 드롭에서는 &5Lightning&r 룬을 얻을 수 없습니다., 대신 &5Bottle O' Lightning&r로 제작해야 합니다. \\n\\n충전된 크리퍼에 빈 병을 사용하면 &5Bottle O' Lightning&r를 얻을 수 있습니다. \\n\\n위험해요 알아요..."
+  ],
+  "quest.45D10F53CA18B8EE.title": "&5Lightning&r 업그레이드 오브",
+  "quest.7BC616DDB5933479.quest_desc": [
+    "이것은 &5혈액 약병&r와 두루마리용 일반 성분으로 만들 수 있습니다. \\n업그레이드할 수 있는 레벨 10 및 &6Legendary&r인지 확인해야 합니다."
+  ],
+  "quest.7BC616DDB5933479.title": "&4위더 해골 스크롤"
+}

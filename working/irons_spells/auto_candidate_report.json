@@ -1,0 +1,42 @@
+{
+  "family": "irons_spells",
+  "english_files": 6,
+  "unique_strings": 1654,
+  "candidate_requests": 1636,
+  "candidate_failures": [
+    "&4The Blood Staff&r is a Drop from &4&lThe Dead King&r. Probably because it is quite literally his Staff! \\n\\nThis Staff does 8 &4Damage&r, more than the previous ones. \\n\\nIt gives 5% &3Spell Power&r to all &3Spells&r and 15% to just &4Blood Spells&r as well as 10% Summon Power.: 자동 번역 후보 요청 실패: \\n\\nIt gives 5% &3Spell Power&r to all &3Spells&r and 15% to just &4Blood Spells&r as well as 10% Summon Power."
+  ],
+  "outputs": [
+    {
+      "source": "working/irons_spells/irons_jewelry/en_us.json",
+      "output": "working/irons_spells/irons_jewelry/auto_candidates.json",
+      "strings": 262
+    },
+    {
+      "source": "working/irons_spells/irons_lib/en_us.json",
+      "output": "working/irons_spells/irons_lib/auto_candidates.json",
+      "strings": 67
+    },
+    {
+      "source": "working/irons_spells/irons_patreon_lib/en_us.json",
+      "output": "working/irons_spells/irons_patreon_lib/auto_candidates.json",
+      "strings": 2
+    },
+    {
+      "source": "working/irons_spells/irons_spellbooks/en_us.json",
+      "output": "working/irons_spells/irons_spellbooks/auto_candidates.json",
+      "strings": 1298
+    },
+    {
+      "source": "working/irons_spells/quests/iron_spells_and_spellbooks/en_us.json",
+      "output": "working/irons_spells/quests/iron_spells_and_spellbooks/auto_candidates.json",
+      "strings": 220
+    },
+    {
+      "source": "working/irons_spells/quests/related/en_us.json",
+      "output": "working/irons_spells/quests/related/auto_candidates.json",
+      "strings": 43
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}

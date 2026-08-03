@@ -1,0 +1,174 @@
+{
+  "family": "Iron's Spells 'n Spellbooks",
+  "installed": [
+    {
+      "label": "Iron's Spells 'n Spellbooks",
+      "jar": "irons_spellbooks-1.21.1-3.16.1.jar",
+      "namespace": "irons_spellbooks",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 1298,
+      "bundled_korean_keys": 1253,
+      "metadata_mentions_family": [
+        "irons_spellbooks"
+      ],
+      "guide_candidates": 1309,
+      "guide_examples": [
+        "assets/irons_spellbooks/animations/casting_animations.json",
+        "assets/irons_spellbooks/animations/ice_block_animations.json",
+        "assets/irons_spellbooks/animations/ice_spider.animation.json",
+        "assets/irons_spellbooks/animations/root_animations.json",
+        "assets/irons_spellbooks/animations/spectral_hammer.animation.json",
+        "assets/irons_spellbooks/animations/spectral_hammer.json",
+        "assets/irons_spellbooks/animations/summoned_weapon_animations.json",
+        "assets/irons_spellbooks/animations/void_tentacle_animations.json",
+        "assets/irons_spellbooks/animations/wisp.animation.json",
+        "assets/irons_spellbooks/animations/wizard_armor_animation.json",
+        "assets/irons_spellbooks/blockstates/alchemist_cauldron.json",
+        "assets/irons_spellbooks/blockstates/arcane_anvil.json",
+        "assets/irons_spellbooks/blockstates/arcane_debris.json",
+        "assets/irons_spellbooks/blockstates/armor_pile.json",
+        "assets/irons_spellbooks/blockstates/blood_cauldron.json",
+        "assets/irons_spellbooks/blockstates/bone_vault.json",
+        "assets/irons_spellbooks/blockstates/book_stack.json",
+        "assets/irons_spellbooks/blockstates/brazier.json",
+        "assets/irons_spellbooks/blockstates/brazier_soul.json",
+        "assets/irons_spellbooks/blockstates/cinderous_soul_rune.json"
+      ],
+      "advancements": 85,
+      "advancement_examples": [
+        "data/irons_spellbooks/advancement/irons_spellbooks/enter_catacombs.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/ink_legendary.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/ink_root.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/make_arcane_anvil.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/make_inscription_table.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/make_scroll_forge.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/make_wayward_compass.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/root.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_blaze.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_blood.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_dead_king.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_diamond.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_dragon.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_druidic.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_equip.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_evoker.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_frostbranded.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_gold.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_iron.json",
+        "data/irons_spellbooks/advancement/irons_spellbooks/spell_book_netherite.json"
+      ],
+      "recipes": 312
+    },
+    {
+      "label": "Iron's Jewelry",
+      "jar": "irons_jewelry-1.21.1-2.0.1.jar",
+      "namespace": "irons_jewelry",
+      "direct_integration": true,
+      "language_target": true,
+      "english_keys": 262,
+      "bundled_korean_keys": 280,
+      "metadata_mentions_family": [
+        "irons_jewelry"
+      ],
+      "guide_candidates": 3,
+      "guide_examples": [
+        "assets/irons_jewelry/models/item/jewelcrafting_guide.json",
+        "data/irons_jewelry/recipe/jewelcrafting_guide.json",
+        "data/irons_jewelry/recipe/jewelcrafting_guide_duplicate.json"
+      ],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 3
+    },
+    {
+      "label": "Iron's Lib",
+      "jar": "irons_lib-1.21.1-1.1.0.jar",
+      "namespace": "irons_lib",
+      "direct_integration": true,
+      "language_target": true,
+      "english_keys": 67,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "irons_lib"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 1
+    },
+    {
+      "label": "Iron's Patreon Lib",
+      "jar": "irons_lib-1.21.1-1.1.0.jar",
+      "namespace": "irons_patreon_lib",
+      "direct_integration": true,
+      "language_target": true,
+      "english_keys": 2,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "irons_lib",
+        "irons_patreon_lib"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
+      "dependency_mentions": [
+        "irons_spellbooks"
+      ]
+    },
+    {
+      "jar": "allthewizardgear-1.21.1-1.1.12.jar",
+      "dependency_mentions": [
+        "irons_spellbooks"
+      ]
+    },
+    {
+      "jar": "atlas_api-1.21.1-1.2.0.jar",
+      "dependency_mentions": [
+        "irons_jewelry"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "Iron's Spells 'n Spellbooks",
+      "jar": "irons_spellbooks-1.21.1-3.16.1.jar",
+      "namespace": "irons_spellbooks",
+      "english_keys": 1298,
+      "bundled_ko_kr": 1169,
+      "new_translation_required": 83,
+      "project_output_review": 46
+    },
+    {
+      "label": "Iron's Jewelry",
+      "jar": "irons_jewelry-1.21.1-2.0.1.jar",
+      "namespace": "irons_jewelry",
+      "english_keys": 262,
+      "bundled_ko_kr": 220,
+      "new_translation_required": 42
+    },
+    {
+      "label": "Iron's Lib",
+      "jar": "irons_lib-1.21.1-1.1.0.jar",
+      "namespace": "irons_lib",
+      "english_keys": 67,
+      "new_translation_required": 67
+    },
+    {
+      "label": "Iron's Patreon Lib",
+      "jar": "irons_lib-1.21.1-1.1.0.jar",
+      "namespace": "irons_patreon_lib",
+      "english_keys": 2,
+      "new_translation_required": 2
+    }
+  ]
+}

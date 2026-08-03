@@ -1,0 +1,15 @@
+{
+  "quests": [
+    {
+      "scope": "iron_spells_and_spellbooks",
+      "reviewed_keys": 194
+    },
+    {
+      "scope": "related",
+      "reviewed_keys": 43
+    }
+  ],
+  "new_descriptions_manually_reviewed": 39,
+  "item_titles_matched_to_resourcepack": 48,
+  "status": "all_current_quest_display_keys_reviewed"
+}

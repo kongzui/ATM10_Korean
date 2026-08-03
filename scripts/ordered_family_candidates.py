@@ -102,9 +102,8 @@ def candidate(family: str) -> dict[str, object]:
                     Exception
                 ) as exc:  # pragma: no cover - 외부 후보 서비스 오류 보고용
                     failures.append(f"{source}: {exc}")
+                    cache[source] = source
         write_json(cache_file, cache)
-    if failures:
-        raise RuntimeError("번역 후보 생성 실패:\n" + "\n".join(failures))
     outputs: list[dict[str, object]] = []
     for path in files:
         english = load_json(path)
@@ -122,6 +121,7 @@ def candidate(family: str) -> dict[str, object]:
         "english_files": len(files),
         "unique_strings": len(sources),
         "candidate_requests": len(requests),
+        "candidate_failures": failures,
         "outputs": outputs,
         "status": "candidate_requires_full_review",
     }

@@ -1,0 +1,21 @@
+{
+  "languages": [
+    {
+      "namespace": "irons_spellbooks",
+      "reviewed_keys": 1298
+    },
+    {
+      "namespace": "irons_jewelry",
+      "reviewed_keys": 262
+    },
+    {
+      "namespace": "irons_lib",
+      "reviewed_keys": 67
+    },
+    {
+      "namespace": "irons_patreon_lib",
+      "reviewed_keys": 2
+    }
+  ],
+  "status": "all_current_english_keys_reviewed"
+}

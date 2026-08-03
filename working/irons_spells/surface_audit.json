@@ -1,0 +1,22 @@
+{
+  "main_jar": "irons_spellbooks-1.21.1-3.16.1.jar",
+  "installed_targets": 4,
+  "advancement_files": 85,
+  "advancement_display_uses_language_keys": true,
+  "kubejs_reference_files": [
+    "kubejs/data/theurgy/recipe/incubation/mithril_ingot.json",
+    "kubejs/server_scripts/modpack/att_items.js",
+    "kubejs/server_scripts/modpack/miningDim.js",
+    "kubejs/server_scripts/mods/Actually Additions/Crusher.js",
+    "kubejs/server_scripts/mods/EnderIO/sagMill.js",
+    "kubejs/server_scripts/mods/Irons Spells Spellbooks/Recipes.js",
+    "kubejs/server_scripts/mods/Mekanism/Recipes.js",
+    "kubejs/server_scripts/Tweaks/disable_loot_table_ids.json",
+    "kubejs/server_scripts/Tweaks/recipes_fix.js",
+    "kubejs/server_scripts/Tweaks/tags.js",
+    "kubejs/startup_scripts/Theurgy/SulfurAdditions.js"
+  ],
+  "kubejs_direct_display_lines": [],
+  "errors": [],
+  "status": "complete"
+}

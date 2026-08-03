@@ -534,6 +534,33 @@ TARGETS = (
         True,
         False,
     ),
+    Target(
+        "irons_spells",
+        "irons_spellbooks-",
+        "irons_spellbooks",
+        "Iron's Spells 'n Spellbooks",
+    ),
+    Target(
+        "irons_spells",
+        "irons_jewelry-",
+        "irons_jewelry",
+        "Iron's Jewelry",
+        True,
+    ),
+    Target(
+        "irons_spells",
+        "irons_lib-",
+        "irons_lib",
+        "Iron's Lib",
+        True,
+    ),
+    Target(
+        "irons_spells",
+        "irons_lib-",
+        "irons_patreon_lib",
+        "Iron's Patreon Lib",
+        True,
+    ),
 )
 
 FAMILY_LABELS = {
@@ -577,6 +604,7 @@ FAMILY_LABELS = {
     "pylons": "Pylons",
     "steves_carts": "Steve's Carts",
     "draconic_evolution": "Draconic Evolution",
+    "irons_spells": "Iron's Spells 'n Spellbooks",
 }
 
 QUEST_CHAPTERS = {
@@ -625,6 +653,7 @@ QUEST_CHAPTERS = {
     "pylons": ("pylons",),
     "steves_carts": (),
     "draconic_evolution": ("draconic_evolution",),
+    "irons_spells": ("iron_spells_and_spellbooks",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -795,6 +824,13 @@ QUEST_TEXT_MARKERS = {
         "draconic reactor",
         "chaos guardian",
         "draconium",
+    ),
+    "irons_spells": (
+        "iron's spells",
+        "irons_spellbooks",
+        "iron's jewelry",
+        "irons_jewelry",
+        "irons_lib",
     ),
 }
 
@@ -4035,6 +4071,16 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
         return True
     if family == "draconic_evolution" and key == (
         "module.draconicevolution.undying.energy.value"
+    ):
+        return True
+    if family == "irons_spells" and (
+        key == "tooltip.irons_spellbooks.shift_tooltip"
+        or key
+        in {
+            "material.irons_jewelry.allthemodium",
+            "material.irons_jewelry.vibranium",
+            "material.irons_jewelry.unobtainium",
+        }
     ):
         return True
     if family == "actually_additions" and key in {

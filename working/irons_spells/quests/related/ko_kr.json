@@ -1,0 +1,79 @@
+{
+  "quest.0ED11FCF6298CE85.quest_desc": [
+    "&e&l철의 마법&r &4피 갑옷&r!"
+  ],
+  "quest.0ED11FCF6298CE85.quest_subtitle": "20",
+  "quest.0ED11FCF6298CE85.title": "&4이교도 의상",
+  "quest.215C9C2B2240FAA1.quest_desc": [
+    "&e&l아이언의 마법&r &5전기 갑옷&r!"
+  ],
+  "quest.215C9C2B2240FAA1.quest_subtitle": "20",
+  "quest.215C9C2B2240FAA1.title": "&5전기술사 복장",
+  "quest.24A7B2902E7430A1.quest_desc": [
+    "&7가죽 갑옷&r에 약간의 신비로운 힘이 뿌려져 있습니다.\\n\\n마법 주문에 필요한 마나를 약간 증가시켜 줍니다."
+  ],
+  "quest.24A7B2902E7430A1.quest_subtitle": "15",
+  "quest.24A7B2902E7430A1.title": "&9떠돌이 마법사 장비",
+  "quest.24FDA15A7ACDF021.quest_desc": [
+    "&5Unobtainium 방어구&r에 &e&lIron's Spells&r 주문 강화 효과를 더한 장비입니다!"
+  ],
+  "quest.260C7F3C1F51221D.quest_desc": [
+    "&e&l아이언의 마법&r &a소환 갑옷&r!"
+  ],
+  "quest.260C7F3C1F51221D.quest_subtitle": "20",
+  "quest.260C7F3C1F51221D.title": "&a대소환사의 복장",
+  "quest.361EF9E4973E3522.quest_desc": [
+    "&e&l아이언의 마법&r &d엔더 갑옷&r!"
+  ],
+  "quest.361EF9E4973E3522.quest_subtitle": "20",
+  "quest.361EF9E4973E3522.title": "&d섀도우 워커 의상",
+  "quest.3D72E3E53E7306FA.quest_desc": [
+    "&e&l아이언의 마법&r &c화염 갑옷&r!"
+  ],
+  "quest.3D72E3E53E7306FA.quest_subtitle": "20",
+  "quest.3D72E3E53E7306FA.title": "&c화염술사 복장",
+  "quest.4B65100885AE762D.quest_desc": [
+    "&e&l아이언의 마법&r &6신성 갑옷&r!"
+  ],
+  "quest.4B65100885AE762D.quest_subtitle": "20",
+  "quest.4B65100885AE762D.title": "&6사제 복장",
+  "quest.4DD66E31859EA593.quest_desc": [
+    "&3Vibranium 방어구&r에 &e&lIron's Spells&r 주문 강화 효과를 더한 장비입니다!"
+  ],
+  "quest.5391385A75535EC8.quest_desc": [
+    "&e&l아이언의 마법&r &2자연 갑옷&r!"
+  ],
+  "quest.5391385A75535EC8.quest_subtitle": "20",
+  "quest.5391385A75535EC8.title": "&2역병 의상",
+  "quest.5BA84F6282D9CAF1.quest_desc": [
+    "&6Allthemodium 방어구&r에 &e&lIron's Spells&r 주문 강화 효과를 더한 장비입니다!"
+  ],
+  "quest.654F5C84114A31A1.quest_desc": [
+    "매우 단순하고 저렴한 &e&l아이언의 마법&r 갑옷, 초반 게임에 도움이 됩니다!"
+  ],
+  "quest.654F5C84114A31A1.quest_subtitle": "20",
+  "quest.654F5C84114A31A1.title": "&4허수아비 의상",
+  "quest.66B5A8D259E12BF5.quest_desc": [
+    "잠깐, 네더라이트&c와 같은 스탯&r을 가지고 있다는 거야? 게다가 주문 증가까지? 그리고 제작하는 데 대장장이 형판도 필요 없어? \\n\\n도대체 누가 일반 &c네더라이트&r를 원하겠어!"
+  ],
+  "quest.66B5A8D259E12BF5.quest_subtitle": "20",
+  "quest.66B5A8D259E12BF5.title": "&4네더라이트 전투 마법사 의상",
+  "quest.686EB173C94301C0.quest_desc": [
+    "&e&l아이언의 마법&r &b얼음 갑옷&r!"
+  ],
+  "quest.686EB173C94301C0.quest_subtitle": "20",
+  "quest.686EB173C94301C0.title": "&b냉기술사 의상",
+  "quest.791A981914CE345F.quest_subtitle": "&f10 &c 공격 피해",
+  "quest.340CDF4357E22A43.quest_desc": [
+    "철은 우리에게 매우 재미있는 탐험과 마법 모드를 선사했습니다! 마법으로, 주문을 위해 싸우세요! 그보다 더 멋진 건 없죠!\\n\\n여기에는 여러분을 환영하는 퀘스트 페이지가 있습니다."
+  ],
+  "quest.340CDF4357E22A43.title": "&e&lIron's Spells 'n Spellbooks",
+  "quest.45D10F53CA18B8EE.quest_desc": [
+    "안타깝게도 몹 드롭으로는 &5번개&r 룬을 얻을 수 없습니다. 대신 &5번개의 병&r으로 제작해야 합니다.\\n\\n&5번개의 병&r은 충전된 크리퍼에게 빈 병을 사용하여 얻을 수 있습니다.\\n\\n위험하다는 건 알아요..."
+  ],
+  "quest.45D10F53CA18B8EE.title": "&5번개 업그레이드 구슬&r",
+  "quest.7BC616DDB5933479.quest_desc": [
+    "이것은 &5혈액 병&r과 두루마리를 만들기 위한 일반 재료로 만들 수 있습니다. \\n반드시 레벨 10으로 만들고 &6전설&r 등급으로 업그레이드으로 변환해야 합니다."
+  ],
+  "quest.7BC616DDB5933479.title": "&4위더 해골 두루마리"
+}

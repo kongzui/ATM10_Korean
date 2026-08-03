@@ -1,0 +1,48 @@
+{
+  "kind": "quest",
+  "scopes": [
+    {
+      "keys": 194,
+      "untranslated_candidates": [
+        "quest.19542103E042BDB5.quest_desc[0]",
+        "quest.3E8077AB45C79E6A.quest_desc[1]",
+        "quest.548F85EE6B6F1811.quest_desc[1]",
+        "quest.30B7AF815D9D7553.quest_desc[1]",
+        "quest.0436DF3308681913.quest_desc[1]",
+        "quest.24BAC1C0392E950E.quest_desc[1]",
+        "quest.641888DC7BC40AA9.quest_desc[1]",
+        "quest.7F85669FEA41CD97.quest_desc[1]",
+        "quest.5DE863C3FB6492BE.quest_desc[0]",
+        "quest.59E68086A8B99EA7.quest_desc[1]",
+        "quest.06F2C42E6408149E.quest_desc[1]",
+        "quest.555ED1E39131D91B.quest_desc[1]",
+        "quest.68B44B9E939F4228.quest_desc[1]",
+        "quest.551A4916F032ACCF.quest_desc[1]",
+        "quest.4567A27C53A01903.quest_desc[1]",
+        "quest.204B969DA081056A.quest_desc[1]",
+        "quest.6DB5732177AABB87.quest_desc[1]",
+        "quest.6963EC8A71D66AE3.quest_desc[1]",
+        "quest.2A787B99A8B0C767.quest_desc[1]",
+        "quest.01119871B1D5C576.quest_desc[1]",
+        "quest.6D232F6D8E8DA546.quest_desc[1]",
+        "quest.7FC54AF87CBDD222.quest_desc[1]",
+        "quest.489833A2A6C39151.quest_desc[1]",
+        "quest.69838E3F12218D68.quest_desc[1]",
+        "quest.395A33977B18B9AD.quest_desc[1]",
+        "quest.0E594BC58CC7476F.quest_desc[1]",
+        "quest.4CCA1E2AAA9AB9D9.quest_desc[1]",
+        "quest.13F77C38AC015E9F.quest_desc[1]"
+      ],
+      "errors": [],
+      "scope": "quests/iron_spells_and_spellbooks"
+    },
+    {
+      "keys": 43,
+      "untranslated_candidates": [],
+      "errors": [],
+      "scope": "quests/related"
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}
