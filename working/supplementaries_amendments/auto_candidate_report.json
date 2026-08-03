@@ -1,0 +1,25 @@
+{
+  "family": "supplementaries_amendments",
+  "english_files": 3,
+  "unique_strings": 723,
+  "candidate_requests": 0,
+  "candidate_failures": [],
+  "outputs": [
+    {
+      "source": "working/supplementaries_amendments/amendments/en_us.json",
+      "output": "working/supplementaries_amendments/amendments/auto_candidates.json",
+      "strings": 107
+    },
+    {
+      "source": "working/supplementaries_amendments/quests/related/en_us.json",
+      "output": "working/supplementaries_amendments/quests/related/auto_candidates.json",
+      "strings": 0
+    },
+    {
+      "source": "working/supplementaries_amendments/supplementaries/en_us.json",
+      "output": "working/supplementaries_amendments/supplementaries/auto_candidates.json",
+      "strings": 683
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}

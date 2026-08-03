@@ -627,6 +627,18 @@ TARGETS = (
         "farmingforblockheads",
         "Farming for Blockheads",
     ),
+    Target(
+        "supplementaries_amendments",
+        "supplementaries-",
+        "supplementaries",
+        "Supplementaries",
+    ),
+    Target(
+        "supplementaries_amendments",
+        "amendments-",
+        "amendments",
+        "Amendments",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -680,6 +692,7 @@ FAMILY_LABELS = {
     "securitycraft": "SecurityCraft",
     "reliquary": "Reliquary",
     "farmers_delight": "Farmer's Delight 계열",
+    "supplementaries_amendments": "Supplementaries·Amendments",
 }
 
 QUEST_CHAPTERS = {
@@ -738,6 +751,7 @@ QUEST_CHAPTERS = {
     "securitycraft": (),
     "reliquary": (),
     "farmers_delight": (),
+    "supplementaries_amendments": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -784,6 +798,10 @@ QUEST_TEXT_MARKERS = {
         "cookingforblockheads",
         "farming for blockheads",
         "farmingforblockheads",
+    ),
+    "supplementaries_amendments": (
+        "supplementaries",
+        "amendments",
     ),
     "hostile_neural_networks": (
         "hostile neural networks",
@@ -1272,6 +1290,7 @@ ALLOWED_ORIGINALS.update({f"Kivi {level}x" for level in range(1, 10)})
 ALLOWED_ORIGINALS.update(
     {"Farmer's Delight", "Cooking for Blockheads", "Farming for Blockheads"}
 )
+ALLOWED_ORIGINALS.update({"Supplementaries", "Amendments"})
 
 ALLOWED_NAME_COLLISIONS = {
     frozenset({"Energised Steel", "Energized Steel"}),
@@ -4251,6 +4270,11 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     }:
         return True
     if family == "farmers_delight" and source.startswith("Cooking for Blockheads "):
+        return True
+    if family == "supplementaries_amendments" and (
+        key.startswith(("jukebox_song.", "painting."))
+        or key == "message.supplementaries.fluid_tooltip"
+    ):
         return True
     if family == "xycraft" and (
         key.startswith("itemGroup.xycraft_")

@@ -1,0 +1,127 @@
+{
+  "family": "Supplementaries·Amendments",
+  "installed": [
+    {
+      "label": "Supplementaries",
+      "jar": "supplementaries-neoforge-1.21.1-3.7.4.jar",
+      "namespace": "supplementaries",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 683,
+      "bundled_korean_keys": 665,
+      "metadata_mentions_family": [
+        "supplementaries"
+      ],
+      "guide_candidates": 42,
+      "guide_examples": [
+        "assets/supplementaries/blockstates/book_pile.json",
+        "assets/supplementaries/blockstates/book_pile_horizontal.json",
+        "assets/supplementaries/models/block/book_pile.json",
+        "assets/supplementaries/models/block/books/book_and_quill.json",
+        "assets/supplementaries/models/block/books/book_black.json",
+        "assets/supplementaries/models/block/books/book_blue.json",
+        "assets/supplementaries/models/block/books/book_brown.json",
+        "assets/supplementaries/models/block/books/book_cyan.json",
+        "assets/supplementaries/models/block/books/book_enchanted.json",
+        "assets/supplementaries/models/block/books/book_gene.json",
+        "assets/supplementaries/models/block/books/book_gray.json",
+        "assets/supplementaries/models/block/books/book_green.json",
+        "assets/supplementaries/models/block/books/book_light_blue.json",
+        "assets/supplementaries/models/block/books/book_light_gray.json",
+        "assets/supplementaries/models/block/books/book_lime.json",
+        "assets/supplementaries/models/block/books/book_magenta.json",
+        "assets/supplementaries/models/block/books/book_orange.json",
+        "assets/supplementaries/models/block/books/book_pink.json",
+        "assets/supplementaries/models/block/books/book_purple.json",
+        "assets/supplementaries/models/block/books/book_red.json"
+      ],
+      "advancements": 322,
+      "advancement_examples": [
+        "data/supplementaries/advancement/adventure/globe.json",
+        "data/supplementaries/advancement/adventure/road_sign.json",
+        "data/supplementaries/advancement/husbandry/angry_birds.json",
+        "data/supplementaries/advancement/husbandry/soap.json",
+        "data/supplementaries/advancement/husbandry/sus_stew.json",
+        "data/supplementaries/advancement/husbandry/turn_table.json",
+        "data/supplementaries/advancement/husbandry/wrench.json",
+        "data/supplementaries/advancement/nether/goblet.json",
+        "data/supplementaries/advancement/recipe/altimeter.json",
+        "data/supplementaries/advancement/recipe/antique_book.json",
+        "data/supplementaries/advancement/recipe/antique_book_clean.json",
+        "data/supplementaries/advancement/recipe/antique_map.json",
+        "data/supplementaries/advancement/recipe/antique_map_clean.json",
+        "data/supplementaries/advancement/recipe/ash_brick.json",
+        "data/supplementaries/advancement/recipe/ash_brick_slab.json",
+        "data/supplementaries/advancement/recipe/ash_brick_stairs.json",
+        "data/supplementaries/advancement/recipe/ash_brick_wall.json",
+        "data/supplementaries/advancement/recipe/ash_bricks.json",
+        "data/supplementaries/advancement/recipe/ash_soot.json",
+        "data/supplementaries/advancement/recipe/awnings/awning.json"
+      ],
+      "recipes": 626
+    },
+    {
+      "label": "Amendments",
+      "jar": "amendments-neoforge-1.21-2.1.1.jar",
+      "namespace": "amendments",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 107,
+      "bundled_korean_keys": 57,
+      "metadata_mentions_family": [
+        "amendments",
+        "supplementaries"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 2
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "dummmmmmy-1.21-2.0.12-neoforge.jar",
+      "dependency_mentions": [
+        "supplementaries"
+      ]
+    },
+    {
+      "jar": "FramedBlocks-10.6.0.jar",
+      "dependency_mentions": [
+        "amendments"
+      ]
+    },
+    {
+      "jar": "moonlight-neoforge-1.21.1-3.0.19.jar",
+      "dependency_mentions": [
+        "supplementaries"
+      ]
+    },
+    {
+      "jar": "sawmill-neoforge-1.21-1.7.7.jar",
+      "dependency_mentions": [
+        "supplementaries"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "Supplementaries",
+      "jar": "supplementaries-neoforge-1.21.1-3.7.4.jar",
+      "namespace": "supplementaries",
+      "english_keys": 683,
+      "bundled_ko_kr": 618,
+      "new_translation_required": 65
+    },
+    {
+      "label": "Amendments",
+      "jar": "amendments-neoforge-1.21-2.1.1.jar",
+      "namespace": "amendments",
+      "english_keys": 107,
+      "bundled_ko_kr": 57,
+      "new_translation_required": 50
+    }
+  ]
+}

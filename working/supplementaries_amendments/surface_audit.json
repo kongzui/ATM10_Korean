@@ -1,0 +1,16 @@
+{
+  "jars": [
+    {
+      "jar": "supplementaries-neoforge-1.21.1-3.7.4.jar",
+      "advancements": 322,
+      "recipes": 626
+    },
+    {
+      "jar": "amendments-neoforge-1.21-2.1.1.jar",
+      "advancements": 0,
+      "recipes": 2
+    }
+  ],
+  "kubejs_direct_display_lines": [],
+  "status": "complete"
+}

@@ -1,0 +1,17 @@
+{
+  "languages": [
+    {
+      "namespace": "supplementaries",
+      "keys": 683,
+      "reused": 618,
+      "new": 65
+    },
+    {
+      "namespace": "amendments",
+      "keys": 107,
+      "reused": 57,
+      "new": 50
+    }
+  ],
+  "status": "complete"
+}

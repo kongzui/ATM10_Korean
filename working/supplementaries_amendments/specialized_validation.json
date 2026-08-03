@@ -1,0 +1,16 @@
+{
+  "languages": [
+    {
+      "namespace": "supplementaries",
+      "keys": 683,
+      "untranslated": []
+    },
+    {
+      "namespace": "amendments",
+      "keys": 107,
+      "untranslated": []
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}
