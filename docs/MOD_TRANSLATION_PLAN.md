@@ -107,7 +107,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Relics·Artifacts                    | 렐릭·아티팩트           | 장착형 유물과 성장·능력 해금 시스템을 제공      | Relics, Artifacts, Reliquified Artifacts                             | 완료   | 기존 계획·전용 퀘스트 챕터         |
 | Silent Gear                         | Silent Gear             | 재료와 부품을 조합해 장비를 제작하는 시스템     | Silent Lib, Silent Gems, Silent Gear Metalworks                      | 완료   | 기존 계획·전용 퀘스트 챕터         |
 | Allthemodium·ATM 장비               | 올더모디움·ATM 장비     | ATM 핵심 광물, 최종 장비와 ATM Star 진행을 담당 | All The Arcanist Gear, All the Wizard Gear, ATM Star 퀘스트와 KubeJS | 완료   | 기존 계획·팩 핵심 진행             |
-| Draconic Evolution                  | 드라코닉 에볼루션       | 모듈식 최종 장비, 에너지 저장과 반응로를 제공   | Brandon's Core는 의존성으로만 확인, 관련 퀘스트                      | 미작업 | 기존 계획·전용 퀘스트 챕터         |
+| Draconic Evolution                  | 드라코닉 에볼루션       | 모듈식 최종 장비, 에너지 저장과 반응로를 제공   | Brandon's Core는 의존성으로 확인, 전용·관련 퀘스트·KubeJS            | 완료   | 기존 계획·전용 퀘스트 챕터         |
 | Iron Jetpacks·장비 편의             | 아이언 제트팩·장비 편의 | 비행, 체력 확장과 휴대 장비 슬롯을 제공         | Iron Jetpacks, Baubley Heart Canisters, Tool Belt, Simple Magnets    | 완료   | 신규: 자주 사용하는 성장·편의 장비 |
 | Gateways to Eternity·Hellish Trials | 영원의 관문·지옥의 시련 | 소환형 전투 도전과 단계별 보상을 제공           | 두 본체, Apotheosis 관련 보상과 퀘스트                               | 미작업 | 신규: 독립 전투 콘텐츠             |
 | Reliquary                           | 렐리쿼리                | 전리품 기반 유물, 도구와 마법성 아이템을 제공   | 본체, 관련 조합법과 퀘스트                                           | 미작업 | 신규: 독립 장비·유물 콘텐츠        |
@@ -158,10 +158,10 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | 모드                        | 한글 표기              | 어떤 모드인가                                    | 함께 확인할 범위                                                                                                                                                                                                                     | 상태   | 선정 근거                         |
 | --------------------------- | ---------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | --------------------------------- |
 | Ars Nouveau                 | 아르스 누보            | 문양을 조합해 주문을 만들고 자동화하는 마법 모드 | Ars Additions, Ars Controle, Ars Creo, Ars Elemancy, Ars Elemental, Ars Ocultas, Ars Technica, Ars Unification, Not Enough Glyphs, Starbuncle Mania, Ars Énergistique, All the Arcanist Gear, 관련 퀘스트·Patchouli·KubeJS·발전 과제 | 완료   | 기존 계획·전용 퀘스트 챕터        |
-| Iron's Spells 'n Spellbooks | 아이언의 주문과 마법책 | 전투 주문, 마법 학파와 장비를 제공               | Iron's Jewelry, Iron's Lib는 의존성으로 확인                                                                                                                                                                                         | 미작업 | 기존 계획·대형 퀘스트 챕터        |
+| Iron's Spells 'n Spellbooks | 아이언의 주문과 마법책 | 전투 주문, 마법 학파와 장비를 제공               | Iron's Jewelry, Iron's Lib, Iron's Patreon Lib, 전용·관련 퀘스트                                                                                                                                                                     | 완료   | 기존 계획·대형 퀘스트 챕터        |
 | Occultism                   | 오컬티즘               | 의식·소환수·정령과 마법 저장소를 제공            | Occultism KubeJS, 사전과 전용 퀘스트                                                                                                                                                                                                 | 미작업 | 기존 계획·대형 퀘스트 챕터        |
 | Mahou Tsukai                | 마호우 츠카이          | 마법진과 마나를 이용하는 전투·의식 마법          | 본체, 관련 퀘스트                                                                                                                                                                                                                    | 미작업 | 기존 계획·전용 퀘스트 챕터        |
-| Forbidden and Arcanus       | 포비든 앤 아르카누스   | 신비 재료, 의식과 마법 장비를 제공               | 본체, 전용 퀘스트 챕터                                                                                                                                                                                                               | 미작업 | 기존 계획·전용 퀘스트 챕터        |
+| Forbidden and Arcanus       | 포비든 앤 아르카누스   | 신비 재료, 의식과 마법 장비를 제공               | 본체, 전용·관련 퀘스트, KubeJS 툴팁                                                                                                                                                                                                  | 완료   | 기존 계획·전용 퀘스트 챕터        |
 | Theurgy                     | 테우르기               | 연성술과 재료 변환 의식을 제공                   | Theurgy KubeJS, 전용 퀘스트와 가이드                                                                                                                                                                                                 | 미작업 | 기존 계획·전용 퀘스트 챕터        |
 | EvilCraft                   | 이블크래프트           | 피와 영혼을 이용하는 마법·기술 혼합 모드         | 본체, EvilCraft Compat, Origins of Darkness 가이드북, 전용 퀘스트·KubeJS·발전 과제                                                                                                                                                   | 완료   | 기존 계획·전용 퀘스트 챕터        |
 | Nature's Aura               | 네이처스 오라          | 자연의 오라를 모아 의식과 장치를 작동            | 본체, 전용 퀘스트와 가이드                                                                                                                                                                                                           | 미작업 | 신규: 전용 퀘스트 챕터            |
@@ -244,5 +244,9 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
   Patchouli 181파일의 표시 문구 772개·KubeJS·발전 과제·설정을 계열별로 검수해
   `0c06cfd`, `9523f06`, `b0dcc80`, `92ed683`, `c13fa3e`로 각각 커밋 완료. Java가
   실행 중이어서 실제 게임 적용은 안전 규칙에 따라 보류
+- **마법·최종 장비 모드군 3개:** Draconic Evolution, Iron's Spells 'n Spellbooks 계열,
+  Forbidden and Arcanus의 언어 2,652키와 FTB Quests 표시 661키를 현재 영어 원문에
+  대조하고, KubeJS·발전 과제·fallback 표시 경로를 검수해 `41863db`, `f95f3be`,
+  `f20c293`으로 각각 커밋하고 `source_root`에 적용 완료
 - **FTB Quests 공통 제목·탐색 기반:** 일부 완료. 다른 모드의 미완성 제목과 fallback은
   해당 모드를 선택했을 때 함께 검토
