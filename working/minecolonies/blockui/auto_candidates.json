@@ -1,0 +1,10 @@
+{
+  "blockui.container_gui.client_side_only": "컨테이너 콘텐츠는 통합 서버(싱글 플레이어, LAN 없음)에서 플레이할 때만 표시됩니다.",
+  "blockui.container_gui.empty": "이 컨테이너는 비어 있습니다.",
+  "blockui.tooltip.item_additional_info": "추가 정보를 표시하려면 %s를 누르세요.",
+  "blockui.tooltip.properties": "BlockState 속성:",
+  "blockui.config.default.boolean": "[기본값: %s]",
+  "blockui.config.default.string": "[기본값: %s]",
+  "blockui.config.default.enum": "[기본값: %s, 값: %s]",
+  "blockui.config.default.number": "[기본값: %s, 최소: %s, 최대: %s]"
+}

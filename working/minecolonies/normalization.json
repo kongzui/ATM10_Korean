@@ -1,0 +1,23 @@
+{
+  "languages": [
+    {
+      "namespace": "minecolonies",
+      "keys": 3817
+    },
+    {
+      "namespace": "structurize",
+      "keys": 236
+    },
+    {
+      "namespace": "domum_ornamentum",
+      "keys": 214
+    },
+    {
+      "namespace": "blockui",
+      "keys": 8
+    }
+  ],
+  "bundled_candidates_reviewed": 3817,
+  "related_quest_keys": 4,
+  "status": "complete"
+}

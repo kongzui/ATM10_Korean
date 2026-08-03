@@ -1,0 +1,151 @@
+{
+  "jars": [
+    {
+      "jar": "minecolonies-1.1.1339-1.21.1-snapshot.jar",
+      "language_target": true,
+      "advancements": 216,
+      "recipes": 343
+    },
+    {
+      "jar": "structurize-1.0.831-1.21.1-snapshot.jar",
+      "language_target": true,
+      "advancements": 0,
+      "recipes": 6
+    },
+    {
+      "jar": "domum-ornamentum-1.0.234-snapshot-main.jar",
+      "language_target": true,
+      "advancements": 56,
+      "recipes": 194
+    },
+    {
+      "jar": "blockui-1.0.211-1.21.1-snapshot.jar",
+      "language_target": true,
+      "advancements": 0,
+      "recipes": 0
+    },
+    {
+      "jar": "stylecolonies-1.15.54-1.21.1.jar",
+      "language_target": false,
+      "advancements": 0,
+      "recipes": 0
+    },
+    {
+      "jar": "towntalk-1.2.0.jar",
+      "language_target": false,
+      "advancements": 0,
+      "recipes": 0
+    }
+  ],
+  "minecolonies_guide_surfaces": [
+    {
+      "file": "data/minecolonies/colony/quests/guides/rallybanner.json",
+      "language_key_references": 12,
+      "literal_display_text": []
+    },
+    {
+      "file": "data/minecolonies/colony/quests/guides/clipboard.json",
+      "language_key_references": 7,
+      "literal_display_text": []
+    },
+    {
+      "file": "data/minecolonies/colony/quests/guides/buildergoggles.json",
+      "language_key_references": 7,
+      "literal_display_text": []
+    },
+    {
+      "file": "data/minecolonies/colony/quests/guides/resourcescroll.json",
+      "language_key_references": 7,
+      "literal_display_text": []
+    }
+  ],
+  "stylecolonies_audit_only_packs": [
+    {
+      "file": "blueprints/stylecolonies/aquatica/pack.json",
+      "name": "Aquatica",
+      "description": "Subnautica inspired underwater style! Cobbled DioCrete Hell Garunteed! REQUIRES a Deep Ocean to start.",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/High Magic/pack.json",
+      "name": "High Magic",
+      "description": "A mystical style powered by crystals! Watch as your colonists build crystals and power their buildings",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/Antique/pack.json",
+      "name": "Antique",
+      "description": "Sent out by the gods themselves to spread their cult, you venture out to create the most thriving Greek colony the world has ever seen! This style makes heavy use of birch and calcite blocks and is therefore best used in a forest or mountain.",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/steampunk/pack.json",
+      "name": "Steampunk",
+      "description": "Steampunk, Big and Challenging! 'copper hell' - Sapph",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/Functional Fantasy/pack.json",
+      "name": "Functional Fantasy",
+      "description": "Modern architecture and fantasy. Escape proof animal pens and a fire breathing dragon",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/Hive/pack.json",
+      "name": "Hive",
+      "description": "Bee-lieve in yourself and build the sweetest home! A complex connected style ideal for hanging in open spaces.",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/fairytale/pack.json",
+      "name": "FairyTale",
+      "description": "A town within a magical forest with a secret hidden within the past, present, and future.",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/Farthest Frontier/pack.json",
+      "name": "Farthest Frontier",
+      "description": "[Advanced] Based on the strategy game, Farthest Frontier, protect and guide your people as you forge a town from untamed wilderness at the edge of the known world.",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/Crimson_Keep/pack.json",
+      "name": "Crimson Keep",
+      "description": "A modular keep that is kinda expensive",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/underwaterbase/pack.json",
+      "name": "Underwater Base",
+      "description": "Exploit the treasures hidden in the DEEPEST oceans. Prepare yourself to clean-up an ocean monument to succeed! Try to settle with in a 20 blocks (at least) deep ocean.",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/Tropical/pack.json",
+      "name": "Tropical",
+      "description": "Get the Beach Towels and enjoy the Beach. Tropical is a stilt based style to be placed above shallow water.",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/frontier/pack.json",
+      "name": "Frontier",
+      "description": "Frontier, your home on the range! ",
+      "classification": "공식 구조물 팩 메타데이터"
+    },
+    {
+      "file": "blueprints/stylecolonies/corrupted/pack.json",
+      "name": "Corrupted",
+      "description": "A corrupted pogota",
+      "classification": "공식 구조물 팩 메타데이터"
+    }
+  ],
+  "towntalk_audit_only_surface": {
+    "language_files": [],
+    "embedded_pack_description": {
+      "translate": "Town Talk Resources"
+    },
+    "sound_registry_only": true
+  },
+  "kubejs_direct_display_lines": [],
+  "status": "complete"
+}

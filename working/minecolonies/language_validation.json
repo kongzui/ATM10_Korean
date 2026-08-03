@@ -1,0 +1,98 @@
+{
+  "family": "MineColonies 계열",
+  "languages": [
+    {
+      "label": "MineColonies",
+      "jar": "minecolonies-1.1.1339-1.21.1-snapshot.jar",
+      "namespace": "minecolonies",
+      "english_keys": 3817,
+      "korean_keys": 3817,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 3061,
+      "new_or_edited": 756
+    },
+    {
+      "label": "Structurize",
+      "jar": "structurize-1.0.831-1.21.1-snapshot.jar",
+      "namespace": "structurize",
+      "english_keys": 236,
+      "korean_keys": 236,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 236
+    },
+    {
+      "label": "Domum Ornamentum",
+      "jar": "domum-ornamentum-1.0.234-snapshot-main.jar",
+      "namespace": "domum_ornamentum",
+      "english_keys": 214,
+      "korean_keys": 214,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 214
+    },
+    {
+      "label": "BlockUI",
+      "jar": "blockui-1.0.211-1.21.1-snapshot.jar",
+      "namespace": "blockui",
+      "english_keys": 8,
+      "korean_keys": 8,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 8
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 3061,
+    "project_output_reuse": 0,
+    "new_or_edited": 1214
+  },
+  "ftbquests": {
+    "chapters": [
+      "basic_tools.snbt",
+      "building_tips.snbt"
+    ],
+    "quests_checked": 2,
+    "tasks_checked": 2,
+    "display_keys_checked": 4,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 1,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

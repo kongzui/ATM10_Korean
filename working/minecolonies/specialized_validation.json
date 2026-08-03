@@ -1,0 +1,26 @@
+{
+  "scopes": [
+    {
+      "scope": "minecolonies",
+      "keys": 3817
+    },
+    {
+      "scope": "structurize",
+      "keys": 236
+    },
+    {
+      "scope": "domum_ornamentum",
+      "keys": 214
+    },
+    {
+      "scope": "blockui",
+      "keys": 8
+    },
+    {
+      "scope": "related",
+      "keys": 4
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

@@ -1,0 +1,10 @@
+{
+  "blockui.container_gui.client_side_only": "new_translation_required",
+  "blockui.container_gui.empty": "new_translation_required",
+  "blockui.tooltip.item_additional_info": "new_translation_required",
+  "blockui.tooltip.properties": "new_translation_required",
+  "blockui.config.default.boolean": "new_translation_required",
+  "blockui.config.default.string": "new_translation_required",
+  "blockui.config.default.enum": "new_translation_required",
+  "blockui.config.default.number": "new_translation_required"
+}

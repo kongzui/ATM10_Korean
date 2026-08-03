@@ -1,0 +1,28 @@
+{
+  "unique_requests": 689,
+  "new_requests": 689,
+  "failures": [],
+  "outputs": [
+    {
+      "scope": "minecolonies",
+      "keys": 3817
+    },
+    {
+      "scope": "structurize",
+      "keys": 236
+    },
+    {
+      "scope": "domum_ornamentum",
+      "keys": 214
+    },
+    {
+      "scope": "blockui",
+      "keys": 8
+    },
+    {
+      "scope": "related",
+      "keys": 4
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}

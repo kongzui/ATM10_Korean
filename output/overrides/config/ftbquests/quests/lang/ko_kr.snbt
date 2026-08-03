@@ -3806,7 +3806,7 @@
 		""
 		"적대적 몹이 플레이어를 감지하는 범위를 줄입니다."
 	]
-	quest.3CD307DDD6A5F5A3.quest_subtitle: "&f4 &c공격 피해"
+	quest.3CD307DDD6A5F5A3.quest_subtitle: "&f4 &c공격력"
 	quest.3CE3D9245F8EC005.quest_desc: ["MEGA 저장 부품의 네 번째 등급으로, &e67108864&f(65536k) 바이트의 저장 공간을 제공합니다."]
 	quest.3CE3D9245F8EC005.quest_subtitle: "x4^3"
 	quest.3CE3D9245F8EC005.title: "64M MEGA 저장 부품"
@@ -4294,7 +4294,7 @@
 	quest.4485C4ABD57874EB.title: "&b&l어플라이드 에너제틱스"
 	quest.44B22160850ACAB2.quest_desc: ["네더의 별 씨앗이 자라려면 경작지 아래에 네더의 별 크룩스를 놓아야 합니다."]
 	quest.44B22160850ACAB2.quest_subtitle: "티어: &56"
-	quest.44BD0B40EB5451AF.quest_desc: ["보급 캠프/선박은 &lMinecolonies&r에서 추가된 아이템입니다. 이것들은 당신이 살고 콜로니를 시작할 수 있는 기지를 즉시 만들 수 있도록 만들어졌습니다! \\n\\n오른쪽 클릭하여 메뉴를 열면 원하는 캠프/선박 유형을 선택해야 합니다!\\n\\n그런 다음 배치할 장소를 찾아야 합니다. 땅은 평평해야 하며, 빨간색 외곽선 블록은 무엇이 필요한지 알려줍니다!\\n\\n일단 설정되면, 당신의 새로운 캠프/선박은 완전히 무료로 건설될 것입니다!\\n\\n그것은 마을회관, 침대, 보급품, 그리고 더 많은 것을 갖게 될 것입니다!"]
+	quest.44BD0B40EB5451AF.quest_desc: ["보급 캠프와 보급선은 &lMineColonies&r에서 추가하는 아이템입니다. 거주할 기지와 콜로니를 즉시 시작할 수 있게 해 줍니다! \\n\\n우클릭해 메뉴를 열고 원하는 캠프나 선박 유형을 선택하세요. \\n\\n그다음 설치할 장소를 찾으세요. 땅은 평평해야 하며, 빨간 윤곽선으로 표시된 블록은 치워야 합니다. \\n\\n배치를 확정하면 새 캠프나 선박이 자원 소모 없이 완성됩니다! \\n\\n마을회관, 침대, 보급품 등 정착에 필요한 여러 물품이 들어 있습니다."]
 	quest.44BD0B40EB5451AF.title: "치팅"
 	quest.44D5EDB8711EC7A0.quest_desc: ["&2&l바닐라&r에서는 철퇴로 모든 재미를 누릴 수 없었습니다! 그래서 당연히 &6Allthemodium&r으로 업그레이드할 수 있습니다! \\n\\n&6Allthemodium 블록&r으로 철퇴를 업그레이드하여 &6Allthemodium 철퇴&r를 획득하세요.\\n\\n더 높은 기본 피해, 더 높은 낙하 피해를 주며, 마법 부여도 동일합니다!"]
 	quest.44D5EDB8711EC7A0.title: "&6Allthemodium 철퇴"
@@ -4672,8 +4672,8 @@
 	]
 	quest.4AD8363D7359A072.quest_subtitle: "기본 학습"
 	quest.4AD8363D7359A072.title: "&d우리의 첫 번째 원자로"
-	quest.4AE8D8826F894EC7.quest_desc: ["&l&5Domun Ornamentum&r은 &l&6프레임 블록&r과 &l&b칩&r을 합쳐 놓은 것과 같습니다! \\n\\n건축가 절단기를 사용하여 다양한 모양과 블록 변형을 만들 수 있습니다. \\n\\n블록을 만들 때 먼저 그룹(문, 빛 등)을 선택하세요. \\n그런 다음 변형을 선택하세요. \\n그 후, 만들고 싶은 블록을 추가해야 합니다! 어떤 블록은 두 가지 다른 블록을 선택해야 하지만, 어떤 블록은 하나만 필요합니다."]
-	quest.4AE8D8826F894EC7.title: "&l&5도문 오르나멘툼&r"
+	quest.4AE8D8826F894EC7.quest_desc: ["&l&5Domum Ornamentum&r은 &l&6Framed Blocks&r와 &l&bChipped&r를 합친 것과 비슷한 모드입니다! \\n\\n건축가의 절단기로 다양한 모양과 변형 블록을 만들 수 있습니다. \\n\\n먼저 문, 조명 같은 블록 그룹을 고르세요. \\n그다음 변형을 선택하세요. \\n마지막으로 완성품에 사용할 재료 블록을 넣으세요. 어떤 블록은 서로 다른 재료 두 개가 필요하고, 어떤 블록은 한 개만 필요합니다."]
+	quest.4AE8D8826F894EC7.title: "&l&5Domum Ornamentum&r"
 	quest.4AEB4BF7624ABA0F.quest_subtitle: "Firecracker + Soul Tree"
 	quest.4AFA3CB55F6C10C2.quest_subtitle: "판다누스 + 코코넛"
 	quest.4B12425E74C5E511.quest_desc: ["&c균사 폭발 발전기&r는 폭발 소리를 흡수하는 데 굉장한 성능을 발휘합니다.\\n\\n&d맥동하는 &l&8블랙홀&r에 그것을 사용할 수 있습니다!"]

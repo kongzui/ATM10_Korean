@@ -664,6 +664,41 @@ TARGETS = (
         "pamhc2trees",
         "Pam's HarvestCraft 2 - Trees",
     ),
+    Target(
+        "minecolonies",
+        "minecolonies-",
+        "minecolonies",
+        "MineColonies",
+    ),
+    Target(
+        "minecolonies",
+        "structurize-",
+        "structurize",
+        "Structurize",
+    ),
+    Target(
+        "minecolonies",
+        "domum-ornamentum-",
+        "domum_ornamentum",
+        "Domum Ornamentum",
+    ),
+    Target("minecolonies", "blockui-", "blockui", "BlockUI"),
+    Target(
+        "minecolonies",
+        "stylecolonies-",
+        "stylecolonies",
+        "StyleColonies",
+        False,
+        False,
+    ),
+    Target(
+        "minecolonies",
+        "towntalk-",
+        "towntalk",
+        "TownTalk",
+        False,
+        False,
+    ),
 )
 
 FAMILY_LABELS = {
@@ -720,6 +755,7 @@ FAMILY_LABELS = {
     "supplementaries_amendments": "Supplementaries·Amendments",
     "ice_and_fire": "Ice and Fire",
     "pams_harvestcraft_2": "Pam's HarvestCraft 2 계열",
+    "minecolonies": "MineColonies 계열",
 }
 
 QUEST_CHAPTERS = {
@@ -781,6 +817,7 @@ QUEST_CHAPTERS = {
     "supplementaries_amendments": (),
     "ice_and_fire": ("ice__fire",),
     "pams_harvestcraft_2": (),
+    "minecolonies": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -839,6 +876,15 @@ QUEST_TEXT_MARKERS = {
         "pamhc2foodcore",
         "pamhc2foodextended",
         "pamhc2trees",
+    ),
+    "minecolonies": (
+        "minecolonies",
+        "minecolonies:",
+        "structurize:",
+        "domum_ornamentum:",
+        "blockui:",
+        "stylecolonies:",
+        "towntalk:",
     ),
     "hostile_neural_networks": (
         "hostile neural networks",
@@ -4304,6 +4350,15 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     }:
         return True
     if family == "pams_harvestcraft_2" and key.startswith("itemGroup.pamhc2"):
+        return True
+    if family == "minecolonies" and key in {
+        "itemGroup.minecolonies",
+        "key.minecolonies.categories.general",
+        "item.sceptersteel.scanformat",
+        "key.structurize.categories.general",
+        "itemGroup.structurize",
+        "itemGroup.domum_ornamentum.general",
+    }:
         return True
     if family == "reliquary" and key in {
         "itemGroup.reliquary",
