@@ -1,0 +1,34 @@
+{
+  "family": "Draconic Evolution",
+  "installed": [
+    {
+      "label": "Draconic Evolution",
+      "jar": "Draconic-Evolution-1.21.1-3.1.4.632.jar",
+      "namespace": "draconicevolution",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 735,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "draconicevolution"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 179
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Draconic Evolution",
+      "jar": "Draconic-Evolution-1.21.1-3.1.4.632.jar",
+      "namespace": "draconicevolution",
+      "english_keys": 735,
+      "new_translation_required": 734,
+      "project_output_review": 1
+    }
+  ]
+}

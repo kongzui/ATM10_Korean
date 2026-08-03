@@ -1,0 +1,14 @@
+{
+  "family": "Draconic Evolution",
+  "chapters": {
+    "draconic_evolution": {
+      "display_keys": 258,
+      "new_translation_required": 258
+    },
+    "related": {
+      "display_keys": 8,
+      "new_translation_required": 3,
+      "project_output_review": 5
+    }
+  }
+}

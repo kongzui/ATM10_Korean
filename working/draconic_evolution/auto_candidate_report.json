@@ -1,0 +1,24 @@
+{
+  "family": "draconic_evolution",
+  "english_files": 3,
+  "unique_strings": 910,
+  "candidate_requests": 898,
+  "outputs": [
+    {
+      "source": "working/draconic_evolution/draconicevolution/en_us.json",
+      "output": "working/draconic_evolution/draconicevolution/auto_candidates.json",
+      "strings": 735
+    },
+    {
+      "source": "working/draconic_evolution/quests/draconic_evolution/en_us.json",
+      "output": "working/draconic_evolution/quests/draconic_evolution/auto_candidates.json",
+      "strings": 286
+    },
+    {
+      "source": "working/draconic_evolution/quests/related/en_us.json",
+      "output": "working/draconic_evolution/quests/related/auto_candidates.json",
+      "strings": 15
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}

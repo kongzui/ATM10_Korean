@@ -1,0 +1,25 @@
+{
+  "quest.52FAF122466FDDC9.quest_desc": [
+    "Stabilized Spawner is Draconic Evolution's version of the Spawner. When you use one of the Cores on a Spawner it will become a Stabilized Spawner. You can swap the Cores but you won't be able to change the stats as now they are set by the Cores. The better the Core the more mobs spawn and at a faster rate."
+  ],
+  "quest.52FAF122466FDDC9.quest_subtitle": "Draconic Evolution's Spawner",
+  "quest.377D6CF86BC1C64F.quest_desc": [
+    "The &8Tome of Scrapping&r will only take off half the &5Enchantments&r, while the &8Tome of Superior Scrapping&r will take every &5Enchantment&r off the Item! \\n\\nBoth of these &8Tomes&r will break the Item in use though. \\n\\nTo &d&lInfuse&r our &8Tome of Scrapping&r into a &8Tome of Superior Scrapping&r we can use 3 &9Echoing Sculkshelves&r and 15 Bookshelves, or 4 Draconium Blocks."
+  ],
+  "quest.677D0C23D53A77CA.quest_desc": [
+    "&bDraconic Evolution&r adds a multiblock called the &dEnergy Core&r.",
+    "",
+    "While it may seem confusing, the final tier can hold &m9,223,372,036,854,775,808 FE&r basically infinite power.",
+    "",
+    "For more information check out the Draconic Evolution Chapter",
+    "{image:atm:textures/questpics/draconic/draconic_core_8on.png width:100 height:100 align:1}"
+  ],
+  "quest.677D0C23D53A77CA.quest_subtitle": "Basically Infinite Storage",
+  "quest.677D0C23D53A77CA.title": "&9Draconic Evolution: &dEnergy Core",
+  "quest.2E0275C21D3F0DA3.title": "Draconium Bee",
+  "quest.47043AF7D1FABC43.quest_desc": [
+    "There's many ways to extract Enchantments from Items onto Books. This quest will focus on many of such methods.\\n\\n&cSuper Factory Manager&r: One of the cheapest ways I can think of to disenchant your gear, with no &aExperience&r cost whatsoever. Drop your Enchanted Item and a bunch of Books on a block of &5Obsidian&r, then make a falling &8Anvil&r land on top of the Enchanted Item and the Books.\\n\\n&bDis-Enchanting Table&r: Simply put an Enchanted Item in the Left Slot and a Book in the Middle Slot. Then, the Enchants will go to the Right Slot in Book form! Costs &aExperience&r.\\nYou can also use Enchanted Books instead of the Item to split up its Enchantments.\\n\\n&6Draconic Evolution Disenchanter&r: This one lets you choose a specific enchantment from an Enchanted Item to move to a Book. Costs &aExperience&r.",
+    "{@pagebreak}",
+    "&cEvilCraft Purifier and Blook&r: Uses &cBlood&r to extract enchantments from an Enchanted Item onto a &cBlook&r.\\n\\n&5&lApothic Enchanting Tomes&r: When used in an anvil, these will extract all enchantments from the Enchanted Item.\\nThe &8Tome of Scrapping&r only extracts half of the enchantments from the Item, destroying that item in the process.\\nThe &8Tome of Superior Scrapping&r extracts all enchantments from the Item, destroying that item in the process.\\nThe &8Tome of Extraction&r extracts all enchantments from the Item, keeping the item in the process.\\nCheck out the &5&lApothic Enchanting&r chapter to learn more about how to infuse these Tomes.\\n\\n&bIndustrial Foregoing Enchantment Extractor&r: Recommended for automated disenchanting. Place an Enchanted Item and Books into the machine, and it will extract Enchantments from the Item. You can also have the enchantments be turned into &aEssence&r instead, if you prefer.\\n\\n&8Corail Tombstone Book of Disenchantment&r: Occasionally, Decorative Graves will have a Grave Soul roaming them. You can right click on that Grave Soul with the Book in your offhand and an Enchanted Item in your main hand, and it may strip those enchantments and return them as books. Will corrupt the Grave slightly, so be careful with this method.\\n\\n&5Actually Additions Lens of Disenchanting&r: These Lens go into an Atomic Reconstructor. Throw an Enchanted Item and a single Book in front of the Laser that the Atomic Reconstructor emits, and it will separate a single Enchantment from the Item onto the Book"
+  ]
+}

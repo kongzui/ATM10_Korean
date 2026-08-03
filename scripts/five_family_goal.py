@@ -520,6 +520,20 @@ TARGETS = (
     Target("laser_io_mffs", "mffs-", "mffs", "MFFS"),
     Target("pylons", "pylons-", "pylons", "Pylons"),
     Target("steves_carts", "stevescarts-", "stevescarts", "Steve's Carts"),
+    Target(
+        "draconic_evolution",
+        "Draconic-Evolution-",
+        "draconicevolution",
+        "Draconic Evolution",
+    ),
+    Target(
+        "draconic_evolution",
+        "BrandonsCore-",
+        "brandonscore",
+        "Brandon's Core",
+        True,
+        False,
+    ),
 )
 
 FAMILY_LABELS = {
@@ -562,6 +576,7 @@ FAMILY_LABELS = {
     "laser_io_mffs": "LaserIO·MFFS",
     "pylons": "Pylons",
     "steves_carts": "Steve's Carts",
+    "draconic_evolution": "Draconic Evolution",
 }
 
 QUEST_CHAPTERS = {
@@ -609,6 +624,7 @@ QUEST_CHAPTERS = {
     "laser_io_mffs": (),
     "pylons": ("pylons",),
     "steves_carts": (),
+    "draconic_evolution": ("draconic_evolution",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -773,6 +789,13 @@ QUEST_TEXT_MARKERS = {
         "protection pylon",
     ),
     "steves_carts": ("stevescarts", "steve's carts"),
+    "draconic_evolution": (
+        "draconic evolution",
+        "draconicevolution",
+        "draconic reactor",
+        "chaos guardian",
+        "draconium",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -802,6 +825,7 @@ ALLOWED_ORIGINALS = {
     "XyCraft",
     "Pylons",
     "Steve's Carts",
+    "Draconic Evolution",
     "Mekanism",
     "Mekanism: Generators",
     "Mekanism: Tools",
@@ -1175,7 +1199,7 @@ MEKANISM_QUEST_TEXT_REPLACEMENTS = {
         (
             "해당 안료를 가져와 &cD&ey&ae&bd&r, &cD&ey&be&r일 수 있는 "
             "블록 및 아이템에 적용합니다.",
-            "안료를 사용해 &cD&ey&ae&bd&r 가능한 블록과 아이템을 " "&cD&ey&be&r합니다.",
+            "안료를 사용해 &cD&ey&ae&bd&r 가능한 블록과 아이템을 &cD&ey&be&r합니다.",
         ),
     ),
     "quest.08DDE018A804BFE7.quest_desc": (
@@ -1230,7 +1254,7 @@ MEKANISM_QUEST_TEXT_REPLACEMENTS = {
         (
             "&e아이템&r 1개와 &c화학 물질&r 1개로 1개의 새로운 "
             "&e아이템&r을 만들어보세요",
-            "&e아이템&r 1개와 &c화학 물질&r 1개로 새로운 &e아이템&r " "1개를 만듭니다",
+            "&e아이템&r 1개와 &c화학 물질&r 1개로 새로운 &e아이템&r 1개를 만듭니다",
         ),
         ("&c&l로터리 &b응축기&r", "&c&l회전 &b콘덴서&r"),
     ),
@@ -2034,15 +2058,13 @@ MEKANISM_QUEST_TEXT_REPLACEMENTS = {
     ),
     "quest.234C2C3144817018.quest_desc": (
         (
-            "&6열&r을 제외한 모든 것. 게다가 &e아이템&r 출력과 &c화학&r 출력 "
-            "해치까지!",
+            "&6열&r을 제외한 모든 것. 게다가 &e아이템&r 출력과 &c화학&r 출력 해치까지!",
             "&6열&r을 제외한 모든 입력과 &e아이템&r 출력, &c화학 물질&r 출력 "
             "해치가 필요합니다!",
         ),
         (
             "32 &b폴로늄 펠릿&r을 한 번에 만들거나, 8 &a기재&r를 64으로 만드세요!",
-            "&b폴로늄 펠릿&r 32개를 한 번에 만들거나, &a기질&r 8개로 64개를 "
-            "만드세요!",
+            "&b폴로늄 펠릿&r 32개를 한 번에 만들거나, &a기질&r 8개로 64개를 만드세요!",
         ),
     ),
     "quest.3561A33758A1E8C3.quest_desc": (
@@ -2094,7 +2116,7 @@ MEKANISM_QUEST_TEXT_REPLACEMENTS = {
             "&8핵폐기물&r 10,240을 &b폴로늄&r 2,048로 바꿉니다.",
         ),
         (
-            "게다가 2,048 &a육불화우라늄&r를 2,048 &2핵분열성 연료&r에 " "추가합니다.",
+            "게다가 2,048 &a육불화우라늄&r를 2,048 &2핵분열성 연료&r에 추가합니다.",
             "또 &a육불화우라늄&r 2,048을 &2핵분열성 연료&r 2,048로 바꿉니다.",
         ),
     ),
@@ -3036,9 +3058,9 @@ def redundant_item_task_title_keys(instance: Path, family: str) -> set[str]:
             if (
                 task["type"] == "item"
                 and task["item_id"] != "ftbfiltersystem:smart_filter"
-                and f'task.{task["id"]}.title' in english_keys
+                and f"task.{task['id']}.title" in english_keys
             ):
-                keys.add(f'task.{task["id"]}.title')
+                keys.add(f"task.{task['id']}.title")
     return keys
 
 
@@ -3283,7 +3305,7 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
         for task in quest["tasks"]
     ]
     explicit_task_titles = [
-        task for task in tasks if f'task.{task["id"]}.title' in english_display
+        task for task in tasks if f"task.{task['id']}.title" in english_display
     ]
     redundant_single_item_titles = [
         task
@@ -3293,7 +3315,7 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
     unremoved_titles = [
         task
         for task in redundant_single_item_titles
-        if f'task.{task["id"]}.title' in output
+        if f"task.{task['id']}.title" in output
     ]
     if unremoved_titles:
         errors.append(
@@ -3304,10 +3326,10 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
         quest
         for chapter in dedicated
         for quest in chapter["quests"]
-        if f'quest.{quest["id"]}.title' not in english_display
+        if f"quest.{quest['id']}.title" not in english_display
     ]
     for quest in first_task_fallbacks:
-        quest_title_key = f'quest.{quest["id"]}.title'
+        quest_title_key = f"quest.{quest['id']}.title"
         if quest_title_key in output:
             title_text = quest_snbt.flatten(output[quest_title_key])
             if LATIN_WORD.search(quest_audit.strip_formatting(title_text)) and not (
@@ -3322,7 +3344,7 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
             errors.append(f"제목과 Task가 모두 없는 퀘스트: {quest['id']}")
             continue
         first_task = quest["tasks"][0]
-        task_title_key = f'task.{first_task["id"]}.title'
+        task_title_key = f"task.{first_task['id']}.title"
         if task_title_key in english_display:
             continue
         item_id = first_task["item_id"]
@@ -4010,6 +4032,10 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     if family == "pylons" and key == "itemGroup.pylons":
         return True
     if family == "steves_carts" and key.startswith("stevescarts.creativetab."):
+        return True
+    if family == "draconic_evolution" and key == (
+        "module.draconicevolution.undying.energy.value"
+    ):
         return True
     if family == "actually_additions" and key in {
         "misc.actuallyadditions.energy_name",

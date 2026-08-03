@@ -1,0 +1,17 @@
+{
+  "advancement_files": 0,
+  "advancement_display_nodes": 0,
+  "kubejs_reference_files": [
+    "kubejs/data/apotheosis/data_maps/item/loot_category_overrides.json",
+    "kubejs/server_scripts/announcements/announcements.js",
+    "kubejs/server_scripts/modpack/miningDim.js",
+    "kubejs/server_scripts/mods/Draconic Evolution/draconic_evo.js",
+    "kubejs/server_scripts/Tweaks/clearing_recipes.js"
+  ],
+  "kubejs_direct_display_lines": [
+    "kubejs/server_scripts/announcements/announcements.js:21"
+  ],
+  "existing_kubejs_translations_verified": 1,
+  "unhandled_kubejs_display": [],
+  "status": "complete"
+}
