@@ -1,0 +1,66 @@
+{
+  "family": "Ice and Fire",
+  "installed": [
+    {
+      "label": "Ice and Fire",
+      "jar": "iceandfire-2.0-beta.17.jar",
+      "namespace": "iceandfire",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 1744,
+      "bundled_korean_keys": 1195,
+      "metadata_mentions_family": [
+        "iceandfire"
+      ],
+      "guide_candidates": 10,
+      "guide_examples": [
+        "assets/iceandfire/patchouli_books/iceandfire/en_us/categories/introduction.json",
+        "assets/iceandfire/patchouli_books/iceandfire/en_us/entries/introduction.json",
+        "assets/iceandfire/tinkers/book/en_us/modifiers/flame.json",
+        "assets/iceandfire/tinkers/book/en_us/modifiers/frost.json",
+        "assets/iceandfire/tinkers/book/index.json",
+        "assets/iceandfire/tinkers/book/ru_ru/modifiers/flame.json",
+        "assets/iceandfire/tinkers/book/ru_ru/modifiers/frost.json",
+        "assets/iceandfire/tinkers/book/sections/modifiers.json",
+        "assets/iceandfire/tinkers/book/zh_cn/modifiers/flame.json",
+        "assets/iceandfire/tinkers/book/zh_cn/modifiers/frost.json"
+      ],
+      "advancements": 336,
+      "advancement_examples": [
+        "data/iceandfire/advancement/iceandfire/bestiary.json",
+        "data/iceandfire/advancement/iceandfire/deathworm_egg.json",
+        "data/iceandfire/advancement/iceandfire/dragon_egg.json",
+        "data/iceandfire/advancement/iceandfire/dragon_flute.json",
+        "data/iceandfire/advancement/iceandfire/dragon_forge_brick.json",
+        "data/iceandfire/advancement/iceandfire/dragon_forge_core.json",
+        "data/iceandfire/advancement/iceandfire/dragon_horn.json",
+        "data/iceandfire/advancement/iceandfire/dragon_meal.json",
+        "data/iceandfire/advancement/iceandfire/dragon_staff.json",
+        "data/iceandfire/advancement/iceandfire/dragonarmor.json",
+        "data/iceandfire/advancement/iceandfire/dragonbone_flaming_sword.json",
+        "data/iceandfire/advancement/iceandfire/dragonbone_tool.json",
+        "data/iceandfire/advancement/iceandfire/dragonsteel.json",
+        "data/iceandfire/advancement/iceandfire/dragonsteel_weapon.json",
+        "data/iceandfire/advancement/iceandfire/gorgon_head.json",
+        "data/iceandfire/advancement/iceandfire/jar_pixie.json",
+        "data/iceandfire/advancement/iceandfire/kill_cyclops.json",
+        "data/iceandfire/advancement/iceandfire/kill_deathworm.json",
+        "data/iceandfire/advancement/iceandfire/kill_ghost.json",
+        "data/iceandfire/advancement/iceandfire/kill_hydra.json"
+      ],
+      "recipes": 693
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Ice and Fire",
+      "jar": "iceandfire-2.0-beta.17.jar",
+      "namespace": "iceandfire",
+      "english_keys": 1744,
+      "new_translation_required": 1,
+      "project_output_review": 1743
+    }
+  ]
+}

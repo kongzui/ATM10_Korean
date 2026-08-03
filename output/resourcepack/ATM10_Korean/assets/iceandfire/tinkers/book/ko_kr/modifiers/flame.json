@@ -1,0 +1,34 @@
+{
+  "modifier": "flame",
+  "text": [
+    {
+      "text": "화염 드래곤의 피로 도구를 코팅하면 적에게 불을 붙이는 힘이 깃듭니다."
+    },
+    {
+      "text": "\n"
+    },
+    {
+      "text": "드래곤스틸 도구에는 적용할 수 없습니다. Blizzard와 함께 사용할 수 없습니다."
+    },
+    {
+      "text": "\n"
+    }
+  ],
+  "effects": [
+    "적에게 10초 동안 불을 붙입니다",
+    "드래곤 화염 추가 피해",
+    "단일 단계만 존재"
+  ],
+  "demoTool": [
+    "tconstruct:broadsword",
+    "tconstruct:cleaver",
+    "tconstruct:hammer",
+    "tconstruct:arrow",
+    "tconstruct:longsword",
+    "tconstruct:shortbow",
+    "tconstruct:frypan",
+    "tconstruct:crossbow",
+    "tconstruct:scythe",
+    "tconstruct:shuriken"
+  ]
+}

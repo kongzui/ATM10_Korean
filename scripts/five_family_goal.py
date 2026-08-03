@@ -639,6 +639,7 @@ TARGETS = (
         "amendments",
         "Amendments",
     ),
+    Target("ice_and_fire", "iceandfire-", "iceandfire", "Ice and Fire"),
 )
 
 FAMILY_LABELS = {
@@ -693,6 +694,7 @@ FAMILY_LABELS = {
     "reliquary": "Reliquary",
     "farmers_delight": "Farmer's Delight 계열",
     "supplementaries_amendments": "Supplementaries·Amendments",
+    "ice_and_fire": "Ice and Fire",
 }
 
 QUEST_CHAPTERS = {
@@ -752,6 +754,7 @@ QUEST_CHAPTERS = {
     "reliquary": (),
     "farmers_delight": (),
     "supplementaries_amendments": (),
+    "ice_and_fire": ("ice__fire",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -803,6 +806,7 @@ QUEST_TEXT_MARKERS = {
         "supplementaries",
         "amendments",
     ),
+    "ice_and_fire": ("ice and fire", "iceandfire"),
     "hostile_neural_networks": (
         "hostile neural networks",
         "hostilenetworks",
@@ -1291,6 +1295,7 @@ ALLOWED_ORIGINALS.update(
     {"Farmer's Delight", "Cooking for Blockheads", "Farming for Blockheads"}
 )
 ALLOWED_ORIGINALS.update({"Supplementaries", "Amendments"})
+ALLOWED_ORIGINALS.update({"Ice and Fire", "&b&lIce &fand &cFire&r"})
 
 ALLOWED_NAME_COLLISIONS = {
     frozenset({"Energised Steel", "Energized Steel"}),
@@ -4258,6 +4263,13 @@ def is_allowed_original(source: str) -> bool:
 
 def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     """모드 고유 식별명처럼 키 문맥에서만 원문 유지가 필요한 값을 판정한다."""
+    if family == "ice_and_fire" and key in {
+        "advancements.iceandfire.root.title",
+        "itemGroup.iceandfire",
+        "modifier.in_the_garage",
+        "modifier.surf_wax_america",
+    }:
+        return True
     if family == "reliquary" and key in {
         "itemGroup.reliquary",
         "keybind.reliquary.category",

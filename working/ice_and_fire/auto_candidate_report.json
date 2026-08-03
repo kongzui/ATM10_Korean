@@ -1,0 +1,25 @@
+{
+  "family": "ice_and_fire",
+  "english_files": 3,
+  "unique_strings": 1588,
+  "candidate_requests": 1435,
+  "candidate_failures": [],
+  "outputs": [
+    {
+      "source": "working/ice_and_fire/iceandfire/en_us.json",
+      "output": "working/ice_and_fire/iceandfire/auto_candidates.json",
+      "strings": 1744
+    },
+    {
+      "source": "working/ice_and_fire/quests/ice__fire/en_us.json",
+      "output": "working/ice_and_fire/quests/ice__fire/auto_candidates.json",
+      "strings": 228
+    },
+    {
+      "source": "working/ice_and_fire/quests/related/en_us.json",
+      "output": "working/ice_and_fire/quests/related/auto_candidates.json",
+      "strings": 0
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}

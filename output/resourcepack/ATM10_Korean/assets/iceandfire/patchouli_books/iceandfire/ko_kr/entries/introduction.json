@@ -1,0 +1,15 @@
+{
+  "name": "소개",
+  "icon": "minecraft:writable_book",
+  "category": "iceandfire:introduction",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "iceandfire:manuscript"
+      },
+      "title": "소개",
+      "text": "괴물 도감 표지 뒤에 낡고 해진 쪽지가 붙어 있습니다. 쪽지에는 이렇게 적혀 있습니다:$(br)“초자연적인 도구 설계와 신비로운 생물을 찾는 방법을 기록한 이 필사본을 미지의 경이를 탐험하려는 이에게 바칩니다. 이 책이 모험에 도움이 되기를 바랍니다.”"
+    }
+  ]
+}

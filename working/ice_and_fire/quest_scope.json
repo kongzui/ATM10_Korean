@@ -1,0 +1,12 @@
+{
+  "family": "Ice and Fire",
+  "chapters": {
+    "ice__fire": {
+      "display_keys": 173,
+      "new_translation_required": 173
+    },
+    "related": {
+      "display_keys": 0
+    }
+  }
+}

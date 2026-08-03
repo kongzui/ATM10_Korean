@@ -1,0 +1,35 @@
+{
+  "modifier": "frost",
+  "text": [
+    {
+      "text": "얼음 드래곤의 피로 도구를 코팅하면 적을 얼음에 가두는 힘이 깃듭니다."
+    },
+    {
+      "text": "\n"
+    },
+    {
+      "text": "드래곤스틸 도구에는 적용할 수 없습니다. Inferno와 함께 사용할 수 없습니다."
+    },
+    {
+      "text": "\n"
+    }
+  ],
+  "effects": [
+    "적을 10초 동안 얼음에 가둡니다",
+    "드래곤 냉기 추가 피해",
+    "둔화 효과 부여",
+    "단일 단계만 존재"
+  ],
+  "demoTool": [
+    "tconstruct:broadsword",
+    "tconstruct:cleaver",
+    "tconstruct:hammer",
+    "tconstruct:arrow",
+    "tconstruct:longsword",
+    "tconstruct:shortbow",
+    "tconstruct:frypan",
+    "tconstruct:crossbow",
+    "tconstruct:scythe",
+    "tconstruct:shuriken"
+  ]
+}

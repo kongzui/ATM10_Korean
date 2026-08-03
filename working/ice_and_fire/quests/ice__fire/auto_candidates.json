@@ -1,0 +1,404 @@
+{
+  "quest.02DEAB3F1198BFBE.quest_desc": [
+    "&b고대의 뒤틀린 숲&r는 &b&lThe Other&r 내의 또 다른 숲입니다. \\n\\n&b뒤틀린 Nylium&r 바닥이 있고 그 아래에 &cNetherrack&r가 있습니다. \\n\\n&b 대신뒤틀린 나무&r/버섯/무엇이든, &b소울 트리&r가 있습니다!"
+  ],
+  "quest.02DEAB3F1198BFBE.title": "&b고대 뒤틀린 숲",
+  "quest.03326C2FF16F64C3.quest_desc": [
+    "&8트롤 가죽 갑옷&r는 &8Trolls&r의 특정 생물군계에서 만들어집니다. 다른 생물 군계는 모양 외에는 아무것도 바꾸지 않습니다. \\n\\nE각 풀 세트는 철과 &bDiamond&r 사이에 &7방어구 포인트&r를 제공합니다., 총 17 &7방어구 포인트&r. \\n\\nE&8Armor&r는 각각 발사체 피해를 덜 받습니다! 모든 방어구에 발사체 보호 기능을 부여하는 동시에 보호 기능도 얻을 수 있는 것과 비슷합니다! \\n\\n 게다가 당신은 &8Troll&r처럼 보일 것입니다!"
+  ],
+  "quest.03326C2FF16F64C3.title": "&8트롤 가죽 갑옷",
+  "quest.0481E975F317F64D.quest_desc": [
+    "&b아이스 드래곤&f에는 &bIce&r가 필요합니다., &c파이어 드래곤 &f&cFire&r 필요, &5Lightning Dragon Egg&r를 비오는 날 밖에 두어야 하는 이유는 무엇입니까? \\n\\n아 잠깐만요 실제로 그렇죠? \\n\\n&5Lightning Dragon Egg&r를 지상에 &bSky&r에 노출되도록 남겨두세요., 비가 오면 부화가 시작됩니다. \\n\\n6 몇 분 동안 지속적으로 비가 내린 후, &5Lightning&r는 &5Egg &f를 공격하고 &5&lLightning Dragon&r는 부화합니다. \\n\\n &5Lightning&r는 &cFire&r를 시작할 수 있습니다., &5&lBaby&r를 손상시킬 수 있습니다., 그래서 당신은 그것에 조심하고 싶습니다!"
+  ],
+  "quest.0481E975F317F64D.title": "&5Egg&r를 빗속에 남겨두세요",
+  "quest.05113AC92BC1B192.quest_desc": [
+    "&a&lHydras&r는 &b&lIce &f 및 &cFire&r가 제공하는 가장 견고한 제품 중 일부입니다. \\n\\n친환경일 수 있습니다, 물오리, 또는 빨간색. 모두 팔이나 다리가 없는 3 머리 도마뱀입니다. \\n\\n&a&lHydras&r는 450 &4Hearts&r 이상이지만 2 &7Armor만 있습니다. 포인트&r. \\n\\n공격이 꽤 많으며 가장 간단한 공격은 바이트입니다. 또한 앞에 &a독 숨결&r를 사용할 수도 있습니다., &dDragon's Breath&r와 유사합니다. 가장 위험한 것은 &aVenom&r를 사용할 때입니다., 이제 다른 공격이 &aPoison&r를 유발하게 됩니다! \\n\\n충분한 데미지를 입혔을 때, &a&lHydras&r는 머리를 잃습니다. &cFire&r에 있지 않는 한, 머리는 그 자리에 2를 더 많이 생성합니다. 더 많은 머리, 더 많은 피해를 입힐수록... 그것을 방지하자! 재생 덕분에 그들은 받는 피해를 거의 모두 돌려받습니다., 그러니 반드시 &cFire&r가 필요합니다! \\n\\n그런데, 최대 9 헤드를 가질 수 있습니다. 내가 &cFire&r를 가져오라고 했나요?",
+    "{image:atm:textures/questpics/iceandfire/iaf_hydra.png 너비:200 높이:100 정렬:중앙}"
+  ],
+  "quest.05113AC92BC1B192.title": "&a&l히드라",
+  "quest.06ECF443FBCC12FC.quest_desc": [
+    "&e데스 웜 알&r를 획득하여 &e데스 웜&r를 길들일 수 있습니다., &e죽음의 벌레&r를 죽임으로써. &eEgg&r를 계란처럼 던지면 &eTamed Death Worm&r가 생성됩니다. \\n&eTamed Death Worms&r는 일반 애완동물처럼 행동하지 않습니다., 그들은 당신을 따르거나 보호하지 않을 것입니다 ... 그들은 무엇을 합니까? \\n\\n1인용, 그들은 초과 근무를 하면서 더 많은 &4Hearts&r와 크기를 얻으며 성장할 것입니다! \\n\\n또한 그들은 스폰된 곳에서 특정 범위를 돌아다닐 것입니다. 그 지역 내에서는 그들은 당신이나 어떤 수동적인 몹도 공격하지 않을 것입니다., 하지만 적대적인 사람은 공격할 것입니다! \\n\\n양손으로 낚싯대를 사용할 수도 있습니다., &e데스 웜즈&r를 타고, 길들여지지 않았더라도! \\n\\n말처럼 탈 수 있지만 (G)를 눌러 사용할 수 있는 공격도 얻습니다. 이 공격은 &eGiant Death Worms&r가 사용하는 것과 같은 방식입니다!"
+  ],
+  "quest.06ECF443FBCC12FC.title": "&e데스 웜&r 서핑!",
+  "quest.07AF1D5C24B069DD.quest_desc": [
+    "&0Cockatrice Specter&r는 &0Cockatrice Eyes&r 및 &0Wither&r 부품으로 만들어졌습니다. 또 다른 눈을 기다려? 우리는 왜 눈을 수집하고 있나요? \\n\\n&0Specter&r를 사용하면 2 초 동안 (일부) 몹에게 &0Wither&r III을 제공할 수 있습니다. \\n\\n약 20 블록의 범위를 가지며 쿨다운이 있습니다."
+  ],
+  "quest.07AF1D5C24B069DD.title": "&8코카트리스 스펙터",
+  "quest.09ABD5D978373A54.quest_desc": [
+    "&aHydra Heart&r는 &a&lHydras&r의 매우 희귀한 드롭이지만 저를 믿으세요., 노력할 가치가 있습니다! \\n\\nHotbar 내에 있을 때, 메인 핸드 포함, 그것은 당신에게 재생을 줄 것입니다. \\n하지만 잠깐만요, &4Hearts&r가 적을수록 재생 레벨이 증가합니다!"
+  ],
+  "quest.09ABD5D978373A54.title": "&a히드라 하트",
+  "quest.0B3AC4E923332AC6.quest_desc": [
+    "&b&lIce Dragons&r 중 가장 강한 것은 &bIce Dragon Caves&r에서 생성되는 동물입니다., &lStage 4&r 및 &l5&r에서 가장 높은 &lStages&r입니다! \\n\\n&b얼음 용 동굴&r는 뾰족한 블록과 &b얼음 블록&r로 거대합니다., 그러니 돌아다닐 때 조심하세요. \\n\\n아, 그리고 &b&lIce Dragon&r도 있어요, 그게 가장 많은 공간을 차지해요! 여기서는 날거나 수영을 할 수 없으니 걱정하지 마세요., 그냥 파이팅! \\n\\n 이러한 &bE원소 공격&r는 더 많은 피해를 입히고 &bFreeze&r는 더 많은 블록과 몹을 공격합니다. 뿐만 아니라 일반 공격도 이전보다 훨씬 더 많은 피해를 줍니다. \\n\\n그리고 손상이 충분히 나쁘지 않은 경우, 그들은 또한 수백 개의 &4하트&r와 최대 20 &7방어구 포인트&r를 보유하고 있습니다! 이 나쁜 놈들은 장난하는 게 아니야! \\n\\n당신이 죽인 &b&lDragon&r가 &lStage 4&r인 경우 또는 &l5&r, 여성이다, 빈 병을 사용하지 않으면 &bIce Dragon Egg&r를 얻을 수도 있습니다. 이것들은 다음과 함께 사용될 수 있습니다..."
+  ],
+  "quest.0B3AC4E923332AC6.title": "&l스테이지 4-5 &b아이스 드래곤",
+  "quest.0C176F04D32B75DD.quest_desc": [
+    "&cFire Dragonsteel&r는 &c&lFire DragonForge&r에서 &cFire Dragon Blood&r와 &7Iron&r를 결합하여 만들어졌습니다. \\n\\n그것으로 무기를 만들 수 있어요! 이것들은 엄청난 피해를 입힐 것입니다, 게다가 Mobs를 밀어내고 &cFire&r에 설정합니다. \\n\\n무기와 함께 방어구도 함께 제공됩니다. 이 갑옷은 엄청난 능력치를 제공합니다, 정말 멋져 보여요! 또한 &cDragons 원소 공격&r로부터 우리를 추가로 보호합니다! \\n\\n왜 우리를 위해 Armor를 구입해야 할까요? &c&lDragons&r도 어떻습니까! 이거 비용이 훨씬 더 많이 들어요, 그러나 특히 다른 &c&lDragons&r에 대해 &c&lDragon&r에 대한 엄청난 보호 기능을 제공합니다."
+  ],
+  "quest.0C176F04D32B75DD.title": "&c파이어 드래곤스틸",
+  "quest.0DABAD0803DCEA1E.quest_desc": [
+    "&c&lDragon&r는 이제 우리의 것입니다! 우리는 그것을 어떻게 사용합니까? \\n\\n먼저, 도구가 필요해요! &7드래곤 지휘 지팡이&r, 지시를 내리도록 합니다. &7Dragon Horn&r는 &c&lDragons&r를 고정하고 운반합니다. 그리고 &7Dragon Flute&r는 &c&lFlying Dragons&r를 호출합니다. \\n\\n&c&lDragon&r를 마우스 오른쪽 버튼으로 클릭하면 인벤토리와 UI를 볼 수 있습니다. 여기서 우리는 그 시대를 봅니다., &4건강&f, &lStage&r 및 인벤토리를 변경합니다. 어떤 갑옷을 입고 있는지, 배너를 착용하고 있는지! \\n\\n&7Dragon Command Staff&r를 사용하여 호위 여부를 변경할 수 있습니다., 방랑, 또는 체류. 호위는 그들이 당신을 따르고 당신과 함께 싸울 것임을 의미합니다. 방황한다는 것은 그들이 특정 지역 주위를 날아다는 것을 의미합니다., 그 안에 있는 몬스터를 공격합니다. 머무르는 것은 그 자리에 앉아서 아무것도 하지 않는다는 것을 의미합니다! \\n\\n&7Dragon Horn&r는 &c&lDragon&r에 장착하는 데 사용할 수 있습니다. 여기서는 연령을 확인할 수 있는 항목에 안전하고 컴팩트하게 보관됩니다., 성별, 그리고 이름. \\n\\n마지막 항목, &7Dragon Flute&r는 모든 길들여진 비행 몹에 사용됩니다. &7Flute&r를 사용할 때 비행 중인 경우, 그들은 땅에 내려올 것이다."
+  ],
+  "quest.0DABAD0803DCEA1E.title": "&c&lDragon 명령하기",
+  "quest.0F9DCF36112C9922.quest_desc": [
+    "&9Tide Guardian Armor&r는 &b빛나는 비늘&r 및 &9바다뱀 비늘&r로 만들어졌습니다. \\n\\n&9바다뱀 비늘&r의 색상은 &9Tide Guardian Armor&r의 색상을 결정합니다. 그리고 색상 혼합이 없습니다! \\n\\n&9Tide Guardian Armor&r의 총 방어구 포인트는 23입니다., 이는 &cNetherite&r 그 이상입니다! \\n\\n각 방어구는 &9수중 호흡&r도 제공합니다. &9Boots&r만 사용하는 경우에도 마찬가지입니다. 또한 착용한 각 갑옷 조각에 대해 &4Strength&r 레벨을 제공합니다. &4힘 IV&r를 제공하는 풀 세트!"
+  ],
+  "quest.0F9DCF36112C9922.title": "&9타이드 가디언 아머",
+  "quest.0FE94BE5ADB6E595.quest_desc": [
+    "&b고대 뒤틀린 숲&r 안에 숨겨진 &a히드라 동굴&r를 찾을 수 있습니다. 여기저기 돌아다니다가 우연히 발견할 가능성이 가장 높습니다., 워낙 잘 숨겨져 있으니까. \\n\\n그들은 &7돌 벽돌&r와 그 안에 해골 두개골이 있는 &b고대 뒤틀린 숲&r 내의 작은 속이 빈 언덕입니다. \\n\\n그 안에서는 너무 많은 전리품을 찾을 수 없습니다., 대부분은 &7Manuscripts&r 및 해골입니다. 드물게 &e골드 &f 또는 &aEmeralds&r!",
+    "{image:atm:textures/questpics/iceandfire/iaf_struct_hydra.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.0FE94BE5ADB6E595.title": "&a히드라 동굴",
+  "quest.1042A0DC0A9321BB.quest_desc": [
+    "여기에 &5&lDragon&r가 있는 것이 확실합니까? 내가 보는 건 &9Electric Blue&f/&5Amethyst&f/&6Copper&f/&0Black&r뿐인가요? \\n\\n잠깐만요... 그것은 &5Lightning Dragon Cave&r 내의 &lStage 4&r 또는 &l5 &5Dragon&r입니다! \\n\\n&5동굴&r는 거대할 수 있습니다., 하지만 &5&lDragon&r는 크기가 거의 같습니다! 이는 &5&lDragon&r가 너무 많이 날아다니지 않는다는 것을 의미합니다., 하지만 이는 공격에 더 집중한다는 의미입니다. \\n\\n예, &5&lLightning Dragons&r가 가장 기본적인 데미지를 준다는 사실로 판단하면, 이제 그들은 더 많은 피해를 입힙니다... 망할 수도 있습니다. \\n\\n시간을 들여 그들과 싸우세요, 재생성하고 부활할 수 있습니다! 그들은 할 수 없습니다! \\n\\n 그들을 죽이고 병을 사용하지 않았을 때, &5Lightning Dragon Egg&r를 떨어뜨릴 수도 있습니다. 아, 그러려면 역시 여자여야 하는데... 암컷만이 알을 낳는다고 꼭 ​​말해야 합니까?"
+  ],
+  "quest.1042A0DC0A9321BB.title": "&l스테이지 4-5 &5라이트닝 드래곤",
+  "quest.10642351AD9A9907.quest_desc": [
+    "&3암피테어 화살&r는 닭 깃털을 &3암피테레 깃털&r로 교체하여 만들어집니다. \\n\\n이 &3화살표&r는 기본적으로 자체적으로 펀치 II입니다! \\n\\n몹이 한 방에 맞았을 때, 그들은 넉백되어 위쪽으로 보내질 것입니다. \\n\\n 펀치 II 활에 &3암피테 화살표&r를 사용한다고 들었습니다., 적중하면 마피아가 폭발합니다! (이것은 거짓말입니다)."
+  ],
+  "quest.10642351AD9A9907.title": "&3암피테 화살표",
+  "quest.10CA52D15EAB71A3.quest_desc": [
+    "&e다른 사막&r는 &b&l다른 &r에서 식별하기 가장 쉬운 생물 군계입니다. 평평하다, &e샌디&r, 그리고 평평하다. \\n\\n&e모래&f로 만들어졌습니다., &e사암&r, 그리고 그 밑에 무엇이든지. 또한 여기에서 &4Cyclops Caves&r를 찾을 수 있습니다. \\n\\n선인장이나 죽은 덤불은 없지만 다른 어떤 생물 군계보다 &b&lIce &f 및 &cFire&r 몹이 더 많습니다!"
+  ],
+  "quest.10CA52D15EAB71A3.title": "&e다른 사막",
+  "quest.121DE9824813D558.quest_desc": [
+    "&2Gorgon Temple&r는 &2&lGorgon 자매&r 중 하나를 안전하게 보유하고 있습니다. \\n\\n&2신전&r는 &7돌 벽돌&r &7다른 영혼 모래 계곡&r에서 생성되는 구조물입니다. \\n\\n&2&lGorgon&r가 있는 지하실로 가는 계단을 열려면 그 안에 있는 올바른 레버를 뒤집어야 합니다.",
+    "{image:atm:textures/questpics/iceandfire/iaf_struct_gorgon.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.121DE9824813D558.title": "&2고르곤 사원",
+  "quest.131164DA08BB87B3.quest_desc": [
+    "히포그리스는 길들일 수 있습니다! \\n\\n먼 거리에서 토끼 발로. 토끼 발을 그들 근처에 던지면 그들은 그것을 먹을 것입니다. \\n\\n그들은 Food Mobs의 Tame과 비슷합니다., 얼마나 필요한지 누가 알겠어요! 그들은 1 토끼 발만 원할 수도 있고 다른 사람은 토끼 발 전체 스택이 필요할 수도 있습니다! \\n\\n그들이 누워 있으면, 그것이 그들이 길들여졌다는 것을 당신이 아는 방법입니다. 그 다음에, Shift 마우스 오른쪽 버튼을 클릭하면 인벤토리를 열 수 있습니다. 이제 우리는 그것을 탈 수 있도록 안장을 줄 수 있습니다, 아이템을 보관할 수 있는 상자, 심지어 갑옷까지! \\n\\n비행할 때 스페이스 바를 사용하여 위로 날아갈 수 있습니다., 이를 가속화하려면 시간이 필요합니다. 앞으로 나아가기 위한 WASD, 뒤쪽에, 왼쪽, 아니면 맞다. 그리고 (X)는 아래로 내려갑니다. \\n\\n&eDeath Worm&r처럼 (G)를 사용하여 몹을 공격할 수도 있습니다!"
+  ],
+  "quest.131164DA08BB87B3.title": "히포그리스와 함께 &bSkys&r를 지배하세요",
+  "quest.136C40D8350651DC.quest_desc": [
+    "&c사이렌 제도&r는 &7다른 영혼 모래 계곡&r에 나타납니다. \\n\\n그들은 &7돌 블록&r로 만들어진 거의 작은 섬입니다., 그중 유일하고 독특한 부분은 &cSirens&r입니다! \\n\\n먼저 귀마개를 착용하고 싶을 수도 있습니다... 그들의 노래는 꽤 눈길을 끕니다!",
+    "{image:atm:textures/questpics/iceandfire/iaf_struct_siren.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.136C40D8350651DC.title": "&c사이렌 섬",
+  "quest.14CF23064A6035CD.quest_desc": [
+    "G-g-g-g-&a유령&r! &a저주받은 상자&r가 열려 있을 때 생성됩니다., 또는 &9Nighttime&r의 &aGraveyard Soil&r에서 얻을 수 있습니다. \\n\\n그들은 빛나고 있습니다, 투명한, 그리고 흰색 중 하나, &a녹색&f, 또는 &bBlue&r. \\n\\n&aGhosts&r에는 140 &4Hearts &f 및 2 &7방어구 포인트&r가 있습니다. \\n\\n그들은 대부분 좀비처럼 당신을 공격하지만 좀비와는 다릅니다., &aGhosts&r는 날고 블록을 통과하여 계속 공격할 수 있습니다!",
+    "{image:atm:textures/questpics/iceandfire/iaf_ghost.png 너비:100 높이:150 정렬:중앙}"
+  ],
+  "quest.14CF23064A6035CD.title": "&a유령",
+  "quest.1713E5D74658F095.quest_desc": [
+    "&cSirens&r look just like Mermaids, half Woman half Fish. \\n\\nThe top half is the woman part by the way. And they will change form when aggrovated. \\n\\nThey spawn in groups in &cSiren Islands&r. Don't worry, even being half Fish they can still move on Land to Kill you... just slower. \\n\\nThey have 150 &4Hearts&r and no Armor. To make up for the lack of Armor they will &cHypnotise&r you with their Song if you aren't wearing Earplugs. \\n\\nBesides &cHypnotism&r, they also have some Attacks. In the &9Water&r they will charge at you and Bite you. On land they will smack you with their Claws.",
+    "{image:atm:textures/questpics/iceandfire/iaf_siren.png 너비:250 높이:100 정렬:중앙}"
+  ],
+  "quest.1713E5D74658F095.title": "&c사이렌",
+  "quest.176D31AF1B0925AA.quest_desc": [
+    "&c&lFire DragonForge&r는 &cDragon 부품&r의 3x3x3 멀티블록입니다! \\n\\n첫 번째 레이어는 &cFire DragonForge Bricks&r의 십자가로 시작됩니다. 그 다음에, &7Dragon Bone Blocks&r로 모서리를 채우세요. ",
+    "{image:atm:textures/questpics/iceandfire/chap3_fire1.png 너비:100 높이:100 정렬:중심}",
+    "두 번째 레이어에는 중앙에 &cFire DragonForge Core&r가 있고 벽 중앙 내 옆에 &cDragonForge Aperature&r가 있습니다. 그리고 레이어의 나머지 부분을 &cFire DragonForge Bricks&r로 채웁니다. ",
+    "{image:atm:textures/questpics/iceandfire/chap3_fire2.png 너비:100 높이:100 정렬:중심}",
+    "마지막 레이어는 첫 번째 레이어의 반복입니다!",
+    "{image:atm:textures/questpics/iceandfire/chap3_fire4.png 너비:100 높이:100 정렬:중심}",
+    "{@pagebreak}",
+    "&c&lFire DragonForge&r는 멀티블록입니다. 기다리다, 우리가 몬스터들과 싸우고 놀아야 한다고 생각했나요? \\n\\n가 구축되면 &c&lFire DragonForge&r에 아이템을 배치할 수 있습니다. &7Iron &f 및 &cFire Dragon Blood&r 또는 합금 재료. \\n\\n그러면, &cHeat&r가 필요해요! 가급적이면 &c&lFire Dragon&r를 선택하세요! \\n\\n&cHeat &rit 근처에 있는 &c&lTamed Fire Dragon&r를 사용할 수 있습니다., 또는 &c&lDragonForge&r 근처에 &c&lWild Fire Dragon&r를 연결하세요. \\n\\n야생 또는 길들임, &c불 숨결&r는 통과하면 상처를 입습니다."
+  ],
+  "quest.176D31AF1B0925AA.title": "&c&l파이어 드래곤포지",
+  "quest.1CB063BBEC35712B.quest_desc": [
+    "공중의 불꽃으로 알 수 있어, 이것은 &dAmethyst Geode&r가 아닙니다., &5Lightning Dragons Cave&r입니다. \\n\\n더 구체적으로는 &lStage 4&r 및 &l5 &5Lightning Dragon&r입니다. \\n\\n 이 &5동굴&r에는 &6구리 &f 및 &dAmethyst&r와 엄청난 전리품을 얻을 수 있는 상자가 가득합니다. \\n\\n몬스터와 &5&lDragon&r도 마찬가지입니다. 응, 그것들을 잊는 것은 매우 어렵습니다! ",
+    "{image:atm:textures/questpics/iceandfire/iaf_struct_lightningcave.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.1CB063BBEC35712B.title": "&5번개 용 동굴",
+  "quest.210542B036255FBF.quest_desc": [
+    "이 3x3x3 멀티블록을 제작하는 데 필요한 고무 장갑이 있기를 바랍니다! 그렇지 않나요? 아 글쎄요! \\n\\n먼저, &5Lightning DragonForge Bricks&r와 &7Dragon Bone Blocks&r의 십자가를 옆에 놓습니다. ",
+    "{image:atm:textures/questpics/iceandfire/chap3_light1.png 너비:100 높이:100 정렬:중심}",
+    "그 다음에, &5Lightning DragonForge Core Block&r를 중앙에 배치합니다. 그 옆에, &5Lightning DragonForge Aperature&r를 배치하고 나머지는 &5DragonForge Bricks&r로 채우세요! ",
+    "{image:atm:textures/questpics/iceandfire/chap3_light2.png 너비:100 높이:100 정렬:중심}",
+    "마지막 레이어가 낯익네요... 아마 첫 번째 레이어라서 그런 것 같아요!",
+    "{image:atm:textures/questpics/iceandfire/chap3_light4.png 너비:100 높이:100 정렬:중심}",
+    "{@pagebreak}",
+    "일부 아이템을 강제로 결합하려면 에너지를 사용하여 &5Zapped&r를 적용해야 합니다! 아니요, FE 아님, AE, 아니면 MF... 우리에게 무엇이 필요할까요? \\n\\n&5&lDragons&r의 &dMagic &f를 사용해보세요! &5&lLightning DragonForge&r와 함께하세요! \\n\\n 항목을 &5&lDragonForge&r에 배치하고 &5Zap&r의 &5번개 공격&r를 사용합니다. &5&l라이트닝 드래곤&r. \\n\\n &5&lDragon&r는 길들이거나 야생으로 만들 수 있습니다., 하지만 야생은 가장 친절하지도, 가장 조용하지도 않습니다... 그러니 체인링크를 이용해 도망가지 못하도록 합시다!"
+  ],
+  "quest.210542B036255FBF.title": "&5&l라이트닝 드래곤포지",
+  "quest.2738184B6A688D2C.quest_desc": [
+    "&8스팀팔리안 깃털&r를 사용하면 닭 깃털 대신 화살을 만들어 &8스팀팔리안 화살&r를 만들 수 있습니다. \\n\\n이 화살은 제작하기가 더 어렵지만 이를 보완할 것입니다! \\n\\n화살이 더 빠르게 날아갑니다., 더 멀리, 그리고 빨리 떨어지지 않을 것입니다."
+  ],
+  "quest.2738184B6A688D2C.title": "&8스탬팔리안 화살",
+  "quest.2A26CE0E88B62002.quest_desc": [
+    "&4&lCyclops&r가 사망하면 양고기, 양모, 심지어 가죽과 같은 양 관련 아이템을 떨어뜨릴까요? \\n\\n매우 드물지만 해골이나 &4Eye&r를 떨어뜨릴 수도 있습니다! \\n\\n&4E사이클롭스의 눈&r, 보유하면 근처에 있는 모든 적대적인 적에게 약점 II가 부여됩니다. \\n\\n 주손이 무기를 사용할 수 있도록 보조 손에 들고 있는 것이 좋습니다!"
+  ],
+  "quest.2A26CE0E88B62002.title": "&4E사이클롭스의 눈",
+  "quest.2B2BB53FA86A07B7.quest_desc": [
+    "&b얼음 드래곤 알&r는 &c파이어 드래곤&r와 반대입니다. \\n\\n&cFire&r의 따뜻한 사랑의 포옹이 필요한 대신, 그들은 &bIce&r의 차갑고 황량한 고립이 필요합니다! \\n\\n 일부 &9Water&r에 &bIce Dragon Egg&r를 던지면 &b&f가 동결됩니다. &9Water&r. \\n\\n6 몇 분 후에 &bEgg &f 및 &bIce&r에서 부화합니다! \\n\\n도움 없이 두 가지 모두에서 벗어날 수 있으니 걱정하지 마세요."
+  ],
+  "quest.2B2BB53FA86A07B7.title": "아이스 버킷 챌린지!",
+  "quest.2B84A4377688B189.quest_desc": [
+    "&9Sea Serpent&r를 죽일 만큼 항해에 적합하다면 그들은 &9Fangs&f를 떨어뜨릴 것입니다., 색상과 관련된 &9Scales&r도 마찬가지입니다. \\n\\n &9송곳니 &f 및 &9Scales&r는 &9조류 화살 &f 및 &9Tide를 제작하는 데 필요합니다. Tridents&r이지만 &9Scales&r만 해당됩니다. &9Tide Guardian Armor&r에 사용됩니다!"
+  ],
+  "quest.2B84A4377688B189.title": "&9바다뱀 비늘 &f및 &9Fangs",
+  "quest.2B90982E3B1E545C.quest_desc": [
+    "&4Bestiary&r는 &b&lIce &f 및 &cFire&r...에 대한 가이드입니다. \\n\\n알겠습니다, 내꺼 고장났어? 왜 비어 있나요? \\n\\n몬스터 페이지를 가져오기 위해 &7Manuscripts&r를 추가하려면 &4Bestiary Lectern&r가 필요합니다. \\n\\n&4Bestiary&r와 일부 &7Manuscripts&r를 모두 &4Bestiary Lectern&r에 넣고 배우고 싶은 것을 선택하세요. 이렇게 하면 &7Manuscripts&r가 모두 사용되어 가이드에 추가됩니다."
+  ],
+  "quest.2B90982E3B1E545C.title": "게임 내 가이드",
+  "quest.2D71532A99C167AA.quest_desc": [
+    "&3Amphitheres&r는 &e다른 사막&r에서 발견되는 거대한 중립 반 새 반 뱀 괴물입니다., 아마도 메소아메리카 부족의 신으로 칭송받았을 것입니다. \\n\\n그들은 뱀의 몸과 새의 날개와 머리를 가지고 있습니다. 이 날개를 사용하면 &e다른 사막&r 위로 날아갈 수 있습니다. \\n\\n다음 색상도 제공됩니다: 마젠타, 빨간색, 주황색, 청록색, 그리고 블루. \\n\\n그들은 모두 갑옷 없이 50 &4하트&r를 가지고 있습니다. 속도가 있으면 갑옷이 필요하지 않습니다! \\n\\n비행 중에는 공격하지 않습니다., 당신이 그들을 자극하더라도. 대신 그들은 도망치려고 할 것입니다. 그래도 발사체로 때리면, 그들은 추락하여 지상에 머물도록 강요받을 것입니다. \\n\\n지면에서 그들은 당신을 물 것입니다, 당신에게 꼬리를 휘두르세요, 강력한 날개를 사용하여 돌풍을 일으킬 수도 있습니다!",
+    "{image:atm:textures/questpics/iceandfire/iaf_amphithere.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.2D71532A99C167AA.title": "&3암피테레스",
+  "quest.2E0FBBE43D92CA42.quest_desc": [
+    "리드가 도움이 될 수 있습니다, 하지만 그들은 매우 약해요! \\n\\n왜 업그레이드를 받지 않으시나요? \\n\\nChain 링크는 몹(&c&lDragons&r와 같은 위험한 링크 포함)에 연결되어 이동하는 데 사용할 수 있습니다. \\n\\n또는 체인 링크를 벽에 부착하여 리드처럼 고정하세요. 예, 돌담처럼! \\n\\n몹이 아무리 탈출을 시도해도 링크는 깨지지 않습니다! \\n\\n&c&lDragon&r에서 사용하는 경우, &c&lDragons&r로 벽을 부술 수 없는지 확인하세요..."
+  ],
+  "quest.2E7D6A54B361B727.quest_desc": [
+    "2 &8스팀팔리안 깃털&r(및 막대기)를 사용하면 &8스팀팔리안 단검&r를 제작할 수 있습니다! \\n\\n 철검만큼 데미지를 주지만 공격 속도는 훨씬 빠릅니다. \\n\\n일반 검보다 거의 두 배 빠른 속도, 도끼보다 3배 빠릅니다!"
+  ],
+  "quest.2E7D6A54B361B727.title": "&8스팀팔리안 단검",
+  "quest.315913D32319F010.quest_desc": [
+    "Jar를 사용하여 &dPixies&r를 캡처하고 노예화할 수 있습니다. 예, 물론 &b&lIce &f 및 &cFire&r의 유일한 수동적 몹 중 하나를 노예로 삼을 것입니다! \\n\\n기분이 ​​좋아지면, 적어도 그들은 며칠에 한 번씩 1 &dPixie Dust&r를 만듭니다. \\n먼저, &dPixie&r에서 Jar를 사용하기만 하면 해당 Jar에 캡처됩니다. \\n\\n그러면, 그것을 깨서 자유롭게 하거나 그대로 두고 &dPixie Dust&r를 얻을 때까지 기다릴 수 있습니다. \\n\\n&dPixie Dust&r가 앉아 있으면 준비가 되어 있다는 것을 알게 될 것입니다! 그냥 마우스 오른쪽 버튼으로 클릭하여 수집하세요."
+  ],
+  "quest.315913D32319F010.title": "&dPixies의 노예화",
+  "quest.3166CA00032C18F7.quest_desc": [
+    "&b&lIce &f 및 &cFire&r에는 수십 마리의 애완동물과 길들인 몹이 있습니다. 다행히도 거의 모든 것을 같은 방식으로 제어할 수 있습니다! \\n\\n스틱 포함! \\n\\n막대로 길들인 몹을 마우스 오른쪽 버튼으로 클릭하면 지침을 변경할 수 있습니다. \\n\\n모두 지침이 다르지만 목록은 다음과 같습니다. 앉기/머무르기, 방랑, 순찰, 및 팔로우/호위. \\n\\n앉아 있으면 마피아가 그 자리에 유지됩니다. 그들은 상처를 입지 않는 이상 다른 몹을 움직이거나 싸우지 않을 것이다. \\nWandering을 사용하면 마피아가 당신이 있는 곳에서 자유롭게 이동할 수 있습니다. 길들인 몹이 몹을 공격하는 것을 좋아한다면, 그러면 방황할 때 그렇게 됩니다. \\n\\n순찰을 수행하면 몹이 설정된 홈에서 특정 거리까지만 걷게 됩니다. 그러니까 Wandering이 네 주변에 없는 것처럼, 대신 그것은 집 주변에 있습니다! \\n\\n다음을 수행하면 마피아가 당신이 어디를 가든 당신을 따라다닐 것입니다! \\n\\n길들인 몹을 Shift 키로 스틱으로 마우스 오른쪽 버튼으로 클릭하여 홈으로 설정할 수 있습니다."
+  ],
+  "quest.3166CA00032C18F7.title": "&b&lIce &f및 &cFire&r 몹 길들이기",
+  "quest.32992E3534B86521.quest_desc": [
+    "&lStage 1&r부터 &l3 &cFire Dragons&r는 &cFire Dragon Roosts&r에서 생성됩니다. \\n\\n&c&lFire Dragons&r는 다음 색상으로 제공됩니다. &4Red&f, &2Emerald&f, &6브론즈&f, 및 &8Grey&r. 그들은 또한 머리에 4 뿔이 있고 꼬리와 같은 클럽이 있습니다. \\n\\n&c&lFire Dragons&r는 Day Flying around에서 찾을 수 있습니다. &c둥지&r 근처의 모든 몹을 흡연합니다. 일단 가까이 오면, 그들은 당신을 공격할 것입니다. 그렇다면 그들이 무엇을 하기를 기대해야 할까요? \\n\\n&c화재 공격&f는 &cFire Breath&r이며 &lStage 2&r 이상에서만 사용할 수 있습니다. 이것은 당신에게 &cFlames&r를 쏘아 방해하는 모든 것을 태울 것입니다. 그들은 또한 &cFireball Attack&r를 가지고 있습니다. 이것은 Ghast Fireball과 같습니다... 훨씬 더 나빠요! &lStage 3&r 이상에서만 사용할 수 있습니다. \\n\\n충분히 가까이 다가가면 꼬리로 당신을 때릴 수도 있습니다., 너를 물다, 또는 당신을 물린 후 입에서 당신을 때리십시오. \\n\\n달려보고 싶으신가요? 그들은 당신을 쫓아 날아갈 것입니다. 숨어볼까? 그들은 몸으로 블록을 부술 수 있습니다! 싸워야 할 것 같습니다! \\n\\nE초기 &lStages&r &cE요소 공격&r는 가장 큰 걱정거리가 아닙니다., 오히려 최악의 것은 날아서 당신을 따라가는 능력입니다. 체인 링크처럼 탈출을 막을 수 있는 방법을 가져오세요., 또는 발사체를 사용하여 공격하세요!",
+    "{@pagebreak}",
+    "&c&lFire Dragon&r를 처치하면 시체가 되어 땅에 움직이지 않게 됩니다. \\n\\n&cScales&r를 제거하려면 빈 손으로 마우스 오른쪽 버튼을 클릭하세요. 그 다음에, &cFlesh &f 및 &cHeart&r를 제거합니다. \\n\\n또는 &cScales&f를 얻는 대신 빈 병을 사용할 수 있습니다., &cFlesh&f, 그리고 &cHeart&r 각 병에 &cFire Dragon Blood&r를 채울 것입니다. \\n\\n모두 제거되면 Dragon의 &7Skeleton&r로 변합니다. 야생에 있는 자들과 마찬가지로, &7Bones&f 및 이후 버전의 &7Skull&r를 쓰러뜨리려면 빈 손으로 마우스 오른쪽 버튼을 클릭하세요."
+  ],
+  "quest.32992E3534B86521.title": "&l스테이지 1-3 &c파이어 드래곤",
+  "quest.32C45C6C811FB5F9.quest_desc": [
+    "분명히 &dPixies&r는 케이크와 같습니다. 그 사람에게 바로 떨어뜨려서 건네주면, 그들은 당신의 친구가 될 것입니다! \\n\\n그들이 당신의 친구일 때, 그들은 당신을 따를 것이다, 앉아서 머물라고 말하지 않는 한. \\n\\n색상이 중요해지는 시기입니다., 각 색상은 가까이 있거나 친구가 될 때 서로 다른 효과를 주기 때문입니다! \\n\\n&bBlue&r: 속도를 제공합니다. \\n\\n&dPink&r: 힘을 부여합니다. \\n\\n&eYellow&r: 가속을 제공합니다. \\n\\n&aGreen&r: 행운을 줍니다. \\n\\n&5보라색&r: 점프 부스트를 제공합니다."
+  ],
+  "quest.32C45C6C811FB5F9.title": "&dPixies와 친구가 되기",
+  "quest.37DB7871590921CF.quest_desc": [
+    "&b해마&r를 길들일 수 있습니다! 다시마를 먹이면 됩니다. \\n\\n길들여졌을 때, 안장으로 마우스 오른쪽 버튼을 클릭하면 됩니다., 말처럼 탈 수 있도록. \\n\\n땅에서 천천히 기어다니거나 빠르게 수영할 수 있습니다. &9수중&r. &9수중&r가 등에 업혀 있을 때, &9수중 호흡&r를 받게 됩니다! \\n\\n점프도 할 수 있어요! 너무 높지는 않은데..."
+  ],
+  "quest.37DB7871590921CF.title": "&m매너티&r &b해마&r 길들이기",
+  "quest.3804364077F4BAD4.quest_desc": [
+    "아주 드물게 &dPixies&r가 사망 시 &dWings&r를 잃을 수도 있습니다. 그들은 더 이상 필요하지 않을 것입니다, 그들은 죽었어... 하지만 당신은 그들을 죽인 것에 대해 여전히 기분이 좋지 않을 것입니다! \\n\\n또는 무고한 생명의 죽음을 슬퍼하는 대신 그들의 유해로 무기를 만들 수 있습니다! \\n\\n남자, 당신은 정말 괴물입니다. \\n\\n&d픽시 지팡이&r는 &d픽시 더스트&r를 사용하여 &d픽시 빔&r를 발사합니다! 이것들은 부딪힌 모든 것에 손상을 입히고 공중부양과 빛을 발하게 합니다."
+  ],
+  "quest.3804364077F4BAD4.title": "&d픽시 지팡이",
+  "quest.38CAB3EF0D89B8F4.quest_desc": [
+    "사람들이 새가 공룡과 가장 가까운 친척이라는 말을 들어본 적이 있나요? 잘, &0Cockatrice&r가 그렇게 말하는 이유입니다! \\n\\n&0Cockatrice&r는 쥬라기 공원에 나오는 랩터의 형태와 살상력을 가지고 있습니다., 닭과 거의 똑같아 보이지만! \\n\\n 기술적으로 그들은 중립적이며 140 &4심장&r와 2 &7방어구 포인트&r를 가지고 있습니다. \\n\\n그들은 &5Endermen&r처럼 중립적입니다., 때리지 마세요, 그들을 때리려고 노력하다, 아니면 그들의 눈을 들여다보세요. \\n\\n예, &0코카트리스 눈&r는 치명적입니다., 당신이 그들을 조사하면 당신은 &0Wither&r를 얻을 것입니다, 메스꺼움, 지지, 그리고 약점. 눈가리개를 착용하여 &0E눈 공격&r을 차단할 수 있지만, 그들은 그것을 위협으로 받아들이고 다른 공격을 사용할 것입니다. 그냥 당신을 걷어차는 것입니다. \\n\\nI 그들을 비난하지 마세요, 눈가리개를 착용하는 유일한 이유는 &2&lGorgon&r 또는 &0Cockatrice&r를 죽이기 위해서입니다., 그리고 이 주변에는 고르곤이 하나도 보이지 않아요!",
+    "{이미지:atm:textures/questpics/iceandfire/iaf_cockatrice.png 너비:200 높이:100 정렬:중앙}"
+  ],
+  "quest.38CAB3EF0D89B8F4.title": "&8코카트리스",
+  "quest.39107884D6C80D41.quest_desc": [
+    "&a환상의 주괴&r(및 &aEctoplasm&r)는 &aGraveyard Soil&r에서 생성되는 &aGhosts&r에서만 획득할 수 있습니다. \\n\\n&a환상의 주괴&r와 &7드래곤 본 소드&r를 결합하여 &a환상의 검&r를 제작할 수 있습니다! \\n\\n현재, 일반 검처럼 공격합니다., 하지만 수정되면 블록을 통과하여 공격하는 몹을 향해 발사됩니다!"
+  ],
+  "quest.39107884D6C80D41.title": "&a환상의 검",
+  "quest.395417A7ABC3658F.quest_desc": [
+    "&2Gorgon Head&r는 &2&lGorgon&r에서 확인된 유일한 드롭입니다. \\n\\n1만 사용 가능, 당신이 그것을 사용할 때, 무효가 됩니다. \\n\\n몹을 보면서 마우스 오른쪽 버튼을 클릭하면, 그럼 놔줘, 몹은 &7석상&r로 변합니다. \\n\\nThe Mob은 죽지만 어떤 드롭도 주지 않습니다..."
+  ],
+  "quest.395417A7ABC3658F.title": "&2고르곤 헤드",
+  "quest.3C0671BE5E94730E.quest_desc": [
+    "&4&lCyclops&r는 &4Caves&r 내부 또는 주변에서 찾을 수 있습니다. \\n\\n그들은 인간과 같은 거대한 존재입니다. 10 주변에는 키가 크고 울 킬트만 입습니다. 인간처럼 수염이 있을 수도 있고 없을 수도 있습니다., 다른 인간이 아닌 일부 인간처럼 그들은 1 눈만 가지고 있습니다., 그리고 확실히 모든 인간과는 달리 그들은 머리에 뿔을 가지고 있습니다. \\n\\n&4&l사이클롭스&r에는 650 &4Hearts&r 및 20 &7Armor가 있습니다. 포인트&r. \\n\\n그들은 단 하나의 공격만을 가지고 있으며 그것은 당신을 집어 들고 당신의 머리를 물어뜯는 것입니다. 응, 이 공격은 엄청난 피해를 입히고 방어도를 무시합니다. \\n\\n멀리 떨어져 있으면 요금을 청구할 수도 있습니다. Leaves와 같은 일부 블록을 통과할 수 있지만 나머지 블록은 갇히게 됩니다. \\n\\n그들의 유일한 공격은 매우 가까운 원거리 공격입니다., 그러니 활이나 마법을 이용해 멀리서 싸우는 것이 가장 좋습니다! 활을 잘 쏘는 사람이라면, &4Eye&r(경적에 더 가까운 것 같음)로 공격하여 눈을 멀게 할 수 있습니다! \\n\\n 이렇게 하면 10 &4Hearts&r에 피해가 발생하고 그들이 당신을 찾기 더 어려워집니다.",
+    "{image:atm:textures/questpics/iceandfire/iaf_cyclops.png 너비:100 높이:200 정렬:중앙}"
+  ],
+  "quest.3C0671BE5E94730E.title": "&4&l사이클롭스",
+  "quest.3D88FEFA4C63CB20.quest_desc": [
+    "이 퀘스트는 &6AllTheMods Staff&r가 작성했습니다., 또는 AllTheMods Modpacks에 사용하기 위한 &2커뮤니티 기여자&r.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이센스가 부여됩니다., 이 퀘스트는 명시적인 내용 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다. 허가.\\n\\n이 퀘스트는 의도적으로 숨겨졌습니다., 만약 당신이 이것을 보고 있다면, 편집 모드에 있습니다."
+  ],
+  "quest.406433F7FF3B0E7B.quest_desc": [
+    "&bIce Dragonsteel&r는 &b&lIce DragonForge&r에서 &b Ice Dragon Blood&r와 &7Iron&r를 결합하여 만들어졌습니다. \\n\\n그것으로 무기를 만들 수 있어요! 이것들은 엄청난 피해를 입힐 것입니다, 그리고 &bFreeze&r 적중당한 몹. \\n\\n무기와 함께 방어구도 함께 제공됩니다. 이 갑옷은 엄청난 능력치를 제공합니다, 정말 멋져 보여요! 또한 &bDragons 원소 공격&r로부터 우리를 추가로 보호합니다! \\n\\n왜 우리를 위해 Armor를 구입해야 할까요? &b&lDragons&r도 어떻습니까! 이거 비용이 훨씬 더 많이 들어요, 그러나 특히 다른 &b&lDragons&r에 대해 &b&lDragon&r에 대한 엄청난 보호 기능을 제공합니다."
+  ],
+  "quest.406433F7FF3B0E7B.title": "&b아이스 드래곤스틸",
+  "quest.41C7DEAB41F4B700.quest_desc": [
+    "&2&lGorgons&r는 그 때문에 저주를 받은 헛된 여성들이었습니다. 이제 그들은 머리에 뱀이 있는 반 뱀 반 여자 괴물로 변했습니다. \\n\\n&2&lGorgons&r에는 300 &4Hearts&f 및 2 &7Armor가 있습니다. 포인트&r. \\n\\n그들은 눈에 띄는 모든 몹을 죽일 수 있는 매우 강력한 공격을 가지고 있습니다. 눈을 들여다보면 &7석상&r로 변신합니다. \\n\\n이 공격은 모든 몹을 &7조각상&r로 만듭니다., 이것은 마피아를 죽이지만 드롭을 주지는 않습니다. 그러면 플레이어도 즉시 죽게 됩니다. \\n\\n눈가리개를 착용하지 않으면! 이렇게 하면 약간의 실명을 얻을 수 있지만 즉각적인 죽음을 방지할 수 있습니다. 게다가 그들은 당신을 때릴 수도 있습니다.",
+    "{image:atm:textures/questpics/iceandfire/iaf_gorgon.png 너비:100 높이:150 정렬:중앙}"
+  ],
+  "quest.41C7DEAB41F4B700.title": "A &2&l고르곤",
+  "quest.41F9CC26C7D86AE9.quest_desc": [
+    "&b해마 지느러미&r 및 스틱 포함, Modded &2&lMinecraft&r 전체에서 최고의 무기를 제작할 수 있습니다! \\n\\n&b해마 슬래퍼&r! \\n\\n아니요, 피해가 가장 크지 않을 것입니다... 하지만 적중한 몹은 둔화 III 및 메스꺼움 III에 영향을 받게 됩니다! \\n\\n알겠습니다, 응, 그건 최고는 아니야, 그것은 농담 무기에 가깝습니다 ... 하지만 아직!"
+  ],
+  "quest.41F9CC26C7D86AE9.title": "&b해마 슬래퍼",
+  "quest.42626A0CD814353D.quest_desc": [
+    "&5Lightning Dragons&r는 지상의 보금자리에서 하루를 보냅니다. \\n\\n그들은 &cFire Dragon Roosts&r처럼 보입니다., &cCharred&r 대신 &5Crackled&r입니다! 그리고 &eGold&r 대신 &6Copper&r입니다! \\n\\n예, 가장 어려운 &5&lDragon&r는 최악의 &6Ingot&r를 얻습니다... 말이 되네요. \\n\\n&lStage 1&r ~ &lStage 3&r가 생성되는 위치입니다.",
+    "{이미지:atm:textures/questpics/iceandfire/iaf_struct_lightningroost.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.42626A0CD814353D.title": "&5라이트닝 드래곤 루스트",
+  "quest.43008E93B34F4F06.quest_desc": [
+    "&9바다뱀 비늘 &f 및 &9Fangs&r에 막대기를 추가하면 &9Tide Arrow&r를 만들 수 있습니다. \\n\\n 이는 일반 화살표처럼 작동하지만 &9Water&r로 인해 속도가 느려지지 않습니다."
+  ],
+  "quest.43008E93B34F4F06.title": "&9조수 화살",
+  "quest.435890CE1A1B3C04.quest_desc": [
+    "&4사이클롭스 동굴&r는 다행히 땅 밑에 있지 않습니다! 대신 &eThe Other Desert&r의 지상 위에 생성됩니다. \\n\\n외모로 알아볼 수 있습니다., 그것은 전체가 &7Stone&r로 만들어진 커다란 돔입니다! \\n\\n&4사이클롭스 동굴&r 내에서 &4&l사이클롭스&r와 그의 양을 찾을 수 있습니다! 양은 우리 안에 있으며 흰색이거나 &eYellow&r입니다. \\n\\n&4동굴&r의 전리품은 대부분 양과 관련이 있습니다., 양모에서 가위까지, 심지어 양고기까지... 더 좋은 용어로 말하면 &eGold Piles&r도 있습니다!",
+    "{image:atm:textures/questpics/iceandfire/iaf_struct_cyclops.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.435890CE1A1B3C04.title": "&4사이클롭스의 동굴",
+  "quest.43630EF0B85AE7E1.quest_desc": [
+    "땅 속 깊은 곳에서 거대한 &c숯 동굴&r를 찾을 수 있습니다. \\n\\n12개의 블록 길이, 넓은, 그리고 높다. &eGold&r와 상자가 가득 채워져 있습니다. \\n\\n어둠으로 인해 더 많은 몹이 생성될 수 있습니다. 하지만 동굴 안에는 거대한 &c&lFire Dragon&r가 있을 것입니다. \\n\\n암흑 시대에 마을을 파괴했던 것과 똑같습니다. 표면 위의 어떤 것보다 더 강력합니다. \\n\\n&lStage 4&r 및 &l5 &cFire Dragons&r가 있습니다. \\n\\n악몽은 바로 그것들로 구성됩니다.",
+    "{image:atm:textures/questpics/iceandfire/iaf_struct_firecave.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.43630EF0B85AE7E1.title": "&c파이어 드래곤 동굴",
+  "quest.43922DB543DC05C0.quest_desc": [
+    "&lStage 1&r부터 &l3 &bIce Dragons&r는 &bIce Dragon Roosts&r에서 생성됩니다. \\n\\n&b&lIce Dragons&r 등장 &bBlue&f, 하얀색, &9사파이어&r, 및 &7Silver&r 색상. 또한 머리에는 6 뿔이 있고 코에는 다른 뿔이 있습니다. 게다가 Tail 같은 팬도요. \\n\\n&b&lIce Dragons&r는 Snowy Biomes의 &bIce Dragon Roosts&r 주변에서 비행하거나 수영하는 모습을 볼 수 있습니다. 침입자를 발견하면 그들은 당신을 처리하기 위해 수십 가지의 무서운 공격을 사용할 것입니다. 좋다... \\n\\n그들의 &b얼음 숨결&r는 &b를 동결&r 플레이어와 블록을 방해합니다. &lStage 2&r 이상 &b&lIce Dragons&r만 &bIcey Breath&r를 사용할 수 있습니다. 그것으로 충분하지 않다면, 그들은 또한 당신에게 &bIceball&r를 쏠 수도 있습니다. 이것들은 폭발하고 근처의 모든 몹이 &bFreeze&r됩니다! 다행히 &lStage 3&r 이상만 이 공격을 사용할 수 있습니다. \\n\\n그들은 &bE요소 공격&r만 사용하는 것이 아닙니다., 그들은 또한 당신을 꼬리로 채찍질할 수도 있습니다, 너를 물다, 아니면 입으로 당신의 몸을 망칠 수도 있습니다! 게다가 날개를 펄럭이면 당신을 그들에게서 쫓아낼 수 있습니다. \\n\\n그들의 &bIcey 공격&r는 &bFreeze&r를 손상시킬 수 있으므로 최대한 피하는 것이 가장 좋습니다. 가능한 한 범위를 유지하고 피난처를 찾는 것을 두려워하지 마십시오. Flying Pets가 하늘에서 &bFrozen&r를 얻으면 큰 도움이 되지 않습니다!",
+    "{@pagebreak}",
+    "&b&lIce Dragon&r와의 싸움에서 살아남아 승리한 후, &b&lIce Dragon&r는 시체가 됩니다. 눈과 얼음 사이에서 잃지 않도록 노력하세요. \\n\\n그러면, 빈 손으로 시체를 마우스 오른쪽 버튼으로 클릭하면 &bScales&f가 제거됩니다., &bFlesh&f, 및 &b&lIce Dragon&r의 &bHeart&r. \\n\\n빈 손으로 마우스 오른쪽 버튼을 클릭하는 대신, 빈 병을 사용해보세요! 이렇게 하면 &bScales &f 또는 &bFlesh&r 대신 &bIce Dragon Blood&r가 제공됩니다. \\n\\n맛있는 부분이 모두 제거되면, &7Dragon Skeleton&r가 됩니다. 그 다음에, &7Bones&f 및 &7Skull&r를 제거할 수 있습니다., 같은 방법으로 &bScales &f 또는 &bBlood&r를 얻었습니다!"
+  ],
+  "quest.43922DB543DC05C0.title": "&l스테이지 1-3 &b아이스 드래곤",
+  "quest.445DB66B81146E91.quest_desc": [
+    "마쿠아후이틀은 많은 메소아메리카 부족들이 사용했던 무기였습니다. 일반적으로 &5Obsidian Shards&r가 캐스팅된 클럽이었습니다. \\n\\n&5Obsidian&r는 실제 생활에서 훨씬 더 취약합니다., &2&lMinecraft&r보다 날카롭습니다. 사람들이 Macuahuitls에 맞으면 &5Obsidian&r로 찢겨지고 그 덩어리가 부서질 것입니다. 돌이킬 수 없는 피해를 입히고 있습니다! \\n\\n&3Amphithere Macuahuitl&r는 실제 생활과 유사하게 사용되고 제작되었습니다., 하지만 &3Amphithere Feathers&r를 사용하면 더욱 강력해집니다! \\n\\n지금, 그것은 당신의 적을 뒤로 던져서 너무 세게 기절시켜서 방패로 자신을 방어할 수조차 없게 할 것입니다!"
+  ],
+  "quest.445DB66B81146E91.title": "&3암피테레 마쿠아후이틀",
+  "quest.45068FB6758D3BA1.quest_desc": [
+    "&b&lIce DragonForge&r는 &b&lIce Dragon&r로 만든 3x3x3 멀티블록입니다. &b벽돌&r! \\n\\n 첫 번째 레이어는 &bIce DragonForge Bricks&r로 만든 십자가로 시작됩니다. 사각형을 채우려면 &7드래곤 뼈 블록&r가 필요합니다. ",
+    "{image:atm:textures/questpics/iceandfire/chap3_ice1.png 너비:100 높이:100 정렬:중심}",
+    "두 번째 레이어는 더 까다롭습니다. &bIce DragonForge Core&r를 중앙에 배치합니다., 옆에 &bIce DragonForge Aperature&r가 있습니다. 이 레이어의 나머지 부분은 &bIce DragonForge Bricks&r로 구성됩니다. ",
+    "{image:atm:textures/questpics/iceandfire/chap3_ice2.png 너비:100 높이:100 정렬:중심}",
+    "첫 번째 레이어를 기억하시나요? 이제 다시 실행해 보겠습니다. 바로 위에 있습니다!",
+    "{image:atm:textures/questpics/iceandfire/chap3_ice4.png 너비:100 높이:100 정렬:중심}",
+    "{@pagebreak}",
+    "&b&lIce DragonForge&r는 &b&lIce Dragons&r의 내부 단열재를 사용하여 &bFreeze&r 항목이 너무 차갑기 때문에 함께 단조됩니다! \\n\\n&7Iron &f 및 &bIce Dragon Blood&r를 선택하여 &bIce Dragon Steel&r 또는 기타 합금 아이템을 만드세요! \\n\\n해당 항목을 &b&lDragonForge&r에 던져야 합니다., 그런 다음 식혀주세요. \\n\\n잠깐만요, &3Blue Ice&r만으로는 충분하지 않나요? &3Blue Ice&r보다 &bColder&r가 무엇인가요? \\n\\n&b아이스 드래곤 브레스&r! 근처에 있는 &b&lIce Dragon&r를 사용할 수 있습니다., 저절로 길들여졌든, 야생에 묶였든."
+  ],
+  "quest.45068FB6758D3BA1.title": "&b&l아이스 드래곤포지",
+  "quest.45084D3A3E5DB63B.quest_desc": [
+    "트롤은 다양한 아이템을 떨어뜨릴 수 있습니다! 이는 대부분 Biome에 의해 결정됩니다. \\n\\n하지만 모든 트롤은 엄니를 떨어뜨립니다., 그들의 가죽, 그리고 그들이 들고 있는 무기. \\n\\n엄니와 가죽은 모두 트롤 가죽 갑옷에 사용됩니다."
+  ],
+  "quest.45084D3A3E5DB63B.title": "&8트롤 가죽 &f및 &8엄니",
+  "quest.46AADB01BBD156D2.quest_desc": [
+    "2에서 다양한 방법으로 &0Cockatrice&r를 길들일 수 있습니다. 1. &0썩은 계란&r 2. 노력. \\n\\n&0썩은 달걀&r를 던져 길들인 &0아기 코카트리스&r를 얻으세요. 아니면 &0Cockatrice&r를 오랫동안 쳐다보면서 살아남으세요. \\n\\n&0Tamed Cockatrice&r는 &0Eyes&r를 보면 해를 끼치 지 않습니다., 실제로 그들은 당신을 보호할 것입니다! \\n\\n개처럼 몬스터를 공격합니다., 당신을 공격하는 것은 무엇이든 죽여라, &0E눈 빔&r를 사용할 수도 있습니다!"
+  ],
+  "quest.46AADB01BBD156D2.title": "눈팅 콘테스트에서 우승했습니다",
+  "quest.47A7F4972D58A7D5.quest_desc": [
+    "&c&lTamed Dragons&r는 시간이 지남에 따라 성장합니다. &lStage&r 증가, &4하트&f, &7갑옷&r, 그리고 더! \\n\\n시간이 걸립니다... 그리고 우리는 그것을 좋아하지 않습니다. \\n\\n&c드래곤 식사&r를 만들어보세요! \\n\\n&c&l길들인 드래곤&r가 &c드래곤 식사&r를 먹으면 한 입에 며칠 동안 노화됩니다!"
+  ],
+  "quest.47A7F4972D58A7D5.title": "&c&lDragon에게 먹이 주기",
+  "quest.47E4BA6643A4BA85.quest_desc": [
+    "&3Amphithere&r를 길들이는 것은 인간이 늑대를 개로 길들이는 것과 유사합니다. 물어뜯는 일이 많이 수반됩니다... \\n\\n먼저, &3Flying Amphithere&r를 발사체로 쳐서 &bSky&r에서 쓰러뜨려야 합니다. \\n\\n그러면, 마우스 오른쪽 버튼을 클릭하면 뒤로 뛸 수 있습니다. 말과 마찬가지로! 하지만 이 말은 당신을 물기 위해 머리를 뒤로 젖힐 것입니다. \\n\\n길들이기 위해, 당신은 각 바이트에서 살아남아 계속 유지해야 합니다. 시간이 지나면 그것은 포기하고 당신을 사랑할 것입니다. \\n\\n그들이 당신을 사랑하면, 당신은 그들을 탈 수 있습니다! 컨트롤은 다소 불안정하지만 조금만 사용해 보시면(그리고 이 퀘스트를 읽으시면) 더 잘 이해하실 수 있을 것입니다! \\n\\n라이딩 시, 스페이스바를 길게 눌러 &3Amphithere&r가 위쪽으로 날아가도록 할 수 있습니다. 그러면 그것이 있는 곳에서 바로 위로 날아갈 것입니다. 네가 놓아줄 때, 땅으로 다시 떨어지기 시작합니다. \\n\\n비행 시 WASD를 사용하여 각 방향으로 이동할 수 있습니다., 하지만 스페이스 바를 사용하지 않을 때 마우스 커서를 사용하여 글라이드를 위쪽이나 아래쪽으로 지시할 수도 있습니다. \\n\\n&e데스 웜&r처럼, 라이딩 시 (G)를 사용하여 &3Amphithere&r로 공격할 수 있습니다."
+  ],
+  "quest.47E4BA6643A4BA85.title": "&3Amphithere 길들이기",
+  "quest.48B1BD7D86CAC4A0.quest_desc": [
+    "아니요, &c&lThe Nether&r와는 다릅니다. 좋습니다. &c&lThe Nether&r에 있는 것과 같습니다. \\n\\n&7소울 샌드&r가 가득합니다. \\n\\n화석을 꺼내고 구멍을 더 추가하기만 하면 이걸 얻을 수 있습니다! \\n\\n또한 &b&l다른 &r에 있습니다!"
+  ],
+  "quest.48B1BD7D86CAC4A0.title": "&7다른 영혼 모래 계곡",
+  "quest.4A84C8578C2F7F71.quest_desc": [
+    "일부 &e데스 웜 키틴 &f및 &e데스 웜 혀&r(체인 라인 포함)를 사용하면 &e데스 웜 건틀릿&r를 만들 수 있습니다! \\n\\n 이들은 기본적으로 &eDeath Worms&r의 위험한 부분으로 작동합니다. \\n\\n마우스 오른쪽 버튼을 클릭하면 &eDeath Worm Tongue&r를 몹에게 보낼 수 있습니다. 그들에게 맞으면, 약간의 피해를 입히고 당신 쪽으로 끌어당길 것입니다. \\n\\n안타깝게도 쿨다운이 있습니다... &eTongue&r가 다시 들어가야 합니다."
+  ],
+  "quest.4A84C8578C2F7F71.title": "&e데스 웜 건틀릿",
+  "quest.4AFDC9ACAC926654.quest_desc": [
+    "때로는 닭고기 달걀이 특별할 수도 있습니다. 2 노른자를 먹거나 4 닭을 부화시키는 것과 같습니다! 아니면 공룡을 부화시키세요! \\n\\n잠깐만요... 무엇? \\n\\n때때로 닭이 &0썩은 계란&r를 낳습니다. &0썩은 계란&r를 던져 &0새끼 코카트리스&r를 부화시킬 수 있습니다! \\n\\n이 &0아기 코카트리스&r는 자동으로 길들여지며 성장해야 합니다."
+  ],
+  "quest.4AFDC9ACAC926654.title": "&0썩은 계란",
+  "quest.4B65720872B062F8.quest_desc": [
+    "&lStage 1&r부터 &l3 &5Lightning Dragons&r는 &5Lightning Dragon Roosts&r에서 생성됩니다. \\n\\n&9E일렉트릭 블루&r가 들어있습니다., &d아메시스트&f, &6구리&f, 및 &0Black&r. &5라이트닝 드래곤&r에는 머리에만 있는 6 뿔이 있습니다., 뿐만 아니라 뾰족한 꼬리도 가지고 있습니다! \\n\\n잠깐만요, 이 &5&lDragons&r는 &9Daytime&r에 깨어나지 않습니다! 아, 그들은 야행성입니다! 그들은 &eDay&r 동안 잠을 자고 &9Nighttime&r 동안 사냥을 할 것입니다. 그들은 혼란스러울 수 있는 서서 잠만 자고 있습니다. \\n\\n&5&lLightning Dragons&r는 단순히 플레이어에게 초래할 수 있는 피해 때문에 가장 강력한 &5&lDragons&r로 간주됩니다. &5E원소 공격&r는 &bFreezing &for &cBurning&r와 같은 효과를 일으키지 않습니다., 대신에 더 많은 피해를 보상해 줄 것입니다! \\n\\n그들의 &5번개 숨결&r는 당신이 어디에 있든 당신을 따라다닐 것이며 그들의 &5번개 공&r는 엄청난 폭발을 일으킬 것입니다! \\n\\n그게 그들이 할 수 있는 전부는 아니니 걱정하지 마세요! 그들은 또한 뾰족한 꼬리로 당신을 때릴 수도 있습니다, 너를 물다, 너를 갈기갈기 찢는다, 그리고 그들의 날개의 힘으로 당신을 뒤로 던져버릴 것입니다. \\n\\n &eDay&r에서 &5&lLightning Dragons&r와 싸우는 것이 가장 좋습니다. 그러면 몹 수가 줄어들고 잠들게 됩니다. 또한 피해를 줄이기 위해 많은 방어구와 저항력이 필요할 것입니다!",
+    "{@pagebreak}",
+    "당신이 하나를 죽였나요? &5&l라이트닝 드래곤&r? 어떻게? \\n\\n웰, 당신이 거짓말을 하고 있는 것도 아니고 그들이 단지 자고 있는 것도 아니라면 그들은 이제 시체가 되어야 합니다. \\n&5&lLightning Dragon&r 시체를 빈 손으로 마우스 오른쪽 버튼으로 클릭하여 &5Scales&f,&5 Flesh&f를 떼어냅니다., 및 &5Heart&r. \\n\\n빈 병이 담긴 시체를 마우스 오른쪽 버튼으로 클릭하면 &5Scales&f를 얻을 수 없습니다., &5Flesh&f, 또는 &5Hearts&r 대신 &5Lightning Dragon Blood&r를 받게 됩니다. \\n\\n &5Scales &f 또는 &5Blood&r를 제거하면 &7Dragon Skeleton&r가 됩니다. \\n\\n빈 손으로 &7Skeleton&r를 마우스 오른쪽 버튼으로 클릭하면 킬에서 &7Bones &f 및 &7Skull&r를 얻을 수 있습니다!"
+  ],
+  "quest.4B65720872B062F8.title": "&l스테이지 1-3 &5라이트닝 드래곤",
+  "quest.4ED6B18DF7D51E13.quest_desc": [
+    "&e죽음의 벌레&r는 &eDesert&r의 모래를 파고드는 괴물처럼 침출됩니다. \\n\\n3가 있습니다. 색상: 흰색, 탠 껍질, 그리고 레드. 그런데 모두 똑같은 모습을 하고 있습니다. 이빨이 큰 입, 그리고 어두운 스파이크가 있는 몸체. 그게 다야! 눈 없음, 코, 귀, 아니면 정말 다른 것. \\n\\n다양한 크기로 제공됩니다., 폭이 거의 1/4 블록에서, 3x3 블록 너비입니다. 크기에 따라 건강도 결정됩니다, 50 &4Hearts &f부터 300 &4Hearts&r까지. 하지만 모두 4 &7방어 포인트&r를 가지고 있습니다! \\n\\n모든 &eDeath Worms&r는 &eSand&r 아래를 파고 발견되면 이를 통해 돌진합니다. 그러면 그들은 당신에게 다가올 것입니다! 크기가 더 크면 &eSand&r에서 튀어나와 충돌할 수도 있습니다. &eSand&r가 충분히 크면 모든 곳에 던질 것입니다! \\n\\n 그들을 공격하려면 그들이 &eSand&r에서 나올 때까지 기다려야 합니다... 또는 근처에 &4T&0N&4T&r를 켜면 삼켜버릴 것입니다!",
+    "{image:atm:textures/questpics/iceandfire/iaf_worm.png 너비:100 높이:100 정렬:중앙}"
+  ],
+  "quest.4ED6B18DF7D51E13.title": "&e데스 웜",
+  "quest.59D91C5E11F67FC3.quest_desc": [
+    "&b고대 뒤틀린 숲&r의 라이벌입니다. \\n\\n이 &cForest&r에는 아래 &cNetherrack&r와 함께 &cCrimson Nylium&r 접지가 있습니다. \\n\\n&b소울 트리&r 대신, 이 &c숲&r에는 &c악마 나무&r가 있습니다. 으아아 무섭다!"
+  ],
+  "quest.59D91C5E11F67FC3.title": "&c고대 진홍의 숲",
+  "quest.5D6A4E574823446F.quest_desc": [
+    "모든 &8트롤&r에는 500 &4하트 &f 및 10 &7방어구 포인트&r가 있습니다. \\n\\n그들은 &8무기&r를 휘둘러 약간의 피해를 줍니다., 하지만 그들이 당신에게 다가갈 수 없다면 그들은 &8Weapon&r로 땅을 강타하여 더 많은 피해를 입히고 밀쳐낼 것입니다! \\n\\n고맙게도 &8Trolls&r에는 약점이 있습니다! 실제 트롤과 똑같습니다, 그들은 &eSun&r를 싫어하고 그것에 노출되면 &7Stone&r로 변할 것입니다! &b&lThe Other&r에서 항상 &9Nighttime&r가 아니었다면. \\n\\n모든 &8트롤&r는 대략 4 블록 높이에 빛나는 눈을 가진 엄니를 가지고 있습니다. 또한 &8트롤 축 &f 및 &8Hammers&r를 모두 고정할 수 있습니다. \\n\\n&8숲의 트롤&r는 회색 피부에 머리카락은 없지만 노란 눈을 가지고 있습니다. 그들은 보유할 것이다, &8Axes &f 및 &8Hammers&r와 함께, &8이끼 낀 돌 기둥&r 및 &8나무 줄기&r. 이들은 &c고대 진홍의 숲&r에서 생성됩니다. \\n&8프로스트 트롤&r have Light Blue/Grey Skin, 흰머리로. 그들은 또한 &8 서리 낀 나무 줄기&f 및 &8 서리 낀 기둥&r를 무기로 보유할 것입니다. &b고대 뒤틀린 숲&r의 스폰입니다. \\n\\n&8산악 트롤&r는 &8숲 트롤&r의 더 가벼운 버전처럼 보입니다., 하지만 이러한 것들은 일반 &8Stone Columns&r를 보유하고 &8Tree Trunks&r를 보유하지 않습니다. 이들은 &3The Other&r Biome에서 생성됩니다.",
+    "{image:atm:textures/questpics/iceandfire/iaf_troll.png 너비:100 높이:200 정렬:중앙}"
+  ],
+  "quest.5D6A4E574823446F.title": "&8트롤",
+  "quest.5E45C9C2D72EDBCC.quest_desc": [
+    "&cCrimson Forest&r를 산책하는 동안 낄낄거리는 소리가 들릴 수도 있습니다. \\n\\n공원이나 집에서 들으면 귀엽겠지만, &c숲&r에서는 조금 더 무섭습니다! \\n\\n하지만 걱정하지 마세요, 그 낄낄거림은 매우 친절해요. &dPixie Villages&r 내의 &dPixies&r에서 온 것입니다! \\n\\n&dPixie Villages&r는 &dPixies&r를 위한 하우징으로 변신한 작은 통나무와 버섯입니다!",
+    "{image:atm:textures/questpics/iceandfire/iaf_struct_pixie.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.5E45C9C2D72EDBCC.title": "&d픽시 빌리지",
+  "quest.6009E239E2E15236.quest_desc": [
+    "히포그리스는 말과 독수리의 혼합체입니다. 뒷부분은 말의 모양이고 앞부분은 독수리와 같습니다. \\n\\n그들은 날개 덕분에 매우 빠른 비행자입니다., 20 &4Hearts&r도 있습니다. \\n\\nHippogryths는 전투를 위해 돌진하지 않지만 너무 가까이 다가가면 스스로 방어합니다. 그들은 발톱을 사용하여 약간의 피해를 주거나 공중으로 높이 차서 낙하 피해를 입습니다. \\n\\n저들을 길들이는 것이 나을지도 모릅니다... 당신이 정말로 히포그리스 탈론 검을 원하지 않는 이상 말이죠.",
+    "{image:atm:textures/questpics/iceandfire/iaf_hippogryth.png 너비:130 높이:100 정렬:중심}"
+  ],
+  "quest.6009E239E2E15236.title": "히포그리스",
+  "quest.617C6D6C35B4917D.quest_desc": [
+    "&dPixies&r는 날개를 달고 있습니다., 빛나는, &dPixie Villages&r 내부와 그 주변에 사는 작은 숙녀 여러분! \\n\\n그들은 플레이어가 Vexes 크기에 더 가까운 것처럼 보입니다. 또한 몇 가지 다른 색상도 있습니다: 파란색, 녹색, 노란색, 분홍색, 그리고 보라색. 이것은 나중에 중요할 것입니다. \\n\\n그들은 5 하트만 갖고 있으며 완전히 수동적입니다! 드디어 멋진 마피아가 탄생했습니다! \\n\\n그들을 학살하는 대신 (그들은 좋아하지 않는 것 같습니다), 그들은 불평하는 경향이 있습니다) 우리는 그들을 길들이거나 노예로 만들 수 있습니다! \\n\\n걱정하지 마세요, 끔찍한 부도덕한 괴물들아, 노예화는 살인보다 더 많은 보상을 제공합니다!",
+    "{image:atm:textures/questpics/iceandfire/iaf_pixie.png 너비:100 높이:125 정렬:중심}"
+  ],
+  "quest.617C6D6C35B4917D.title": "&d픽시",
+  "quest.65E98FCE27B552F4.quest_desc": [
+    "&aHydra Teeth&r는 &a&lHydras&r의 일반적인 드롭입니다. \\n\\n플린트 대신 이를 사용하여 일반 화살표를 만드는 대신 &a히드라 화살표&r를 만들 수 있습니다. \\n\\n&a히드라 화살&r는 적중한 몹에게 다음을 제공합니다., &a독&r, 그리고 그들이 가져간 일부 &4Health&r를 돌려드릴 것입니다."
+  ],
+  "quest.65E98FCE27B552F4.title": "&a히드라 화살",
+  "quest.661114AFCBBD5F28.quest_desc": [
+    "&aGraveyards&r는 &3다른 &r 전체에서 일반적으로 생성됩니다. 그런데 그들은 묘지처럼 보입니다. \\n\\n여기서 자연적으로 생성되는 &a저주받은 상자 &f및 &a묘지 토양&r를 찾을 수 있습니다. \\n\\n&0Wither Roses&r 및 Skeleton Skulls도 찾을 수 있습니다., &a저주받은 상자&r 내의 전리품도 있습니다.",
+    "{이미지:atm:textures/questpics/iceandfire/iaf_struct_ghost.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.661114AFCBBD5F28.title": "&a묘지",
+  "quest.666FFDFDB7C869F5.quest_desc": [
+    "&8Stymphalian Birds&r는 분명히 &8Metal&r로 만들어진 화난 새입니다. 적어도, 그것은 근처에 있었고 그들에게 공격을 받았다는 나의 추정입니다. \\n\\n그들은 &8회색 부리 &f및 &8발톱&r를 가진 갈색 새입니다. 그들은 또한 그룹으로 이동하며 모두 적대적입니다. \\n\\n&8스팀팔리안 새&r have 12 &4하트 &f 및 4 &7방어구 포인트&r. \\n\\n그들은 2 공격을 가지고 있습니다: 1. &8Feathers&r를 스팸으로 보내는 매우 기본적인 공격입니다. 피해는 많지 않지만 넉백이 끔찍하고 빠릅니다! 2. &8Feathers&r보다 더 많은 피해를 입히는 단순한 바이트입니다. \\n\\n또한 그들은 당신에게 날아오거나 매우 빠르게 후퇴할 수도 있습니다! \\n\\nOne &8Bird&r 자체는 큰 문제가 되지 않습니다., 하지만 그들은 보통 스스로 오지 않습니다! 한 번에 하나씩 데리고 빠르게 다가가는 것이 가장 좋습니다.",
+    "{image:atm:textures/questpics/iceandfire/iaf_bird.png 너비:200 높이:100 정렬:중앙}"
+  ],
+  "quest.666FFDFDB7C869F5.title": "&8스팀팔리안 새",
+  "quest.6774BBE7C7C5D7EB.quest_desc": [
+    "모든 &eDeath Worms&r는 해당 색상과 관련된 &eChitins&r를 드롭합니다. \\n\\n&eChitins&r는 &e데스 웜 키틴 갑옷 &f또는 &e데스 웜 건틀릿&r를 만드는 데 사용할 수 있습니다! \\n\\n두 가지 모두에 대해 동일한 색상 &eChitins&r를 사용해야 합니다., 믹스 앤 매칭이 없습니다."
+  ],
+  "quest.6774BBE7C7C5D7EB.title": "&e데스 웜 키틴",
+  "quest.6800E0113DE9A4DB.quest_desc": [
+    "&c&lDragons&r는 &b&lIce &f 및 &cFire&r 전체에서 가장 위험하고 중요한 몬스터입니다! \\n\\n&c&lDragon&r의 요소는 어떤 생물 군계에서 생성되는지를 결정합니다. \\n\\n단계가 다릅니다(1부터 5까지). 이는 &4Health&r를 결정합니다., 손상, 액, 그리고 스폰. \\n\\n찾아야 할 것, 죽이다, &6&lATM10&r에서 최고의 전리품을 얻기 위해 길들이기도 합니다! \\n\\n &7Bones&r를 얻으려면 먼저 죽은 &c&lDragons&r를 찾아보세요.",
+    "{@pagebreak}",
+    "&l스테이지 1-3&r는 &cRoosts&r에서 생성되고 &l스테이지 4&r 및 &l5&r는 &cCaves&r에서 생성됩니다. &l4&r 및 &l5&r만 &cEggs&r를 삭제합니다. &lStage&r가 높을수록, 색상이 어두워지고 크기가 커집니다! \\n\\n&lStage 1&r: 50 &4Hearts &f부터 350까지 &4하트&r뿐만 아니라 2 &7방어구 포인트&r부터 6까지! &l스테이지 1&r는 상대만 물 수 있습니다., 그들은 &cE원소 숨결&r를 사용할 수 없습니다. \\n\\n&lStage 2&r: 350 &4Hearts &fto 600 &4하트&r. 또한 6 &7 방어구 포인트&f ~ 10 &7 방어구 포인트&r를 가질 수도 있습니다. 이제 &cE원소 숨결&r를 사용하여 싸울 수 있습니다. \\n\\n&lStage 3&r: 600 &4Hearts &f에서 900까지 가질 수 있습니다. &4하트&r 및 10 ~ 12 &7방어구 포인트&r. 이제 이 &c&lDragons&r는 &cE원소 숨결&f부터 &cE원소 충전&r까지 모든 공격을 하게 됩니다. \\n\\n&lStage 4&r: 모든 동일한 능력과 공격을 유지하며 이제 &cEggs&r를 삭제합니다. &lStage 4&r는 900 &4Hearts&r부터 1200까지를 포함합니다! 또한 16 &7Armor Points&r에 추가 12가 있습니다. \\n\\n&lStage 5&r: 가장 크고 가장 강력한 &c&lDragons&r만 가능합니다. 1200부터 1500+ &4Hearts&r까지 가질 수 있습니다! 16부터 20 &7방어구 포인트&r까지. 기본적으로 &cNetherite Armor&r를 착용합니다., 왜냐하면 그들은 그만큼 강력하기 때문입니다!"
+  ],
+  "quest.6800E0113DE9A4DB.title": "&c&lDragons&r 및 해당 &lStages",
+  "quest.69211D34F8182976.quest_desc": [
+    "히포그리스 발톱은 히포그리스가 죽을 때 얻을 수 있는 희귀한 드롭입니다. \\n\\n이것으로 검을 만들 수 있어요! \\n\\n이 검은 철검과 매우 유사합니다., 하지만 항상 스위핑 공격을 합니다. \\n\\n이것은 범위 내에 있는 모든 몹을 공격합니다., 하나만이 아니야! 대부분의 검은 완전히 충전된 상태에서만 작동합니다., 하지만 탈론 소드는 기다려주지 않습니다! \\n\\n더 많은 피해를 입히므로 다이아몬드 검에 더 가까워집니다. 히포그리스 발톱은 히포그리스가 죽을 때 얻을 수 있는 희귀한 드롭입니다. \\n\\n이것으로 검을 만들 수 있어요! \\n\\n이 검은 철검과 매우 유사합니다., 하지만 항상 스위핑 공격을 합니다. \\n\\n이것은 범위 내에 있는 모든 몹을 공격합니다., 하나만이 아니야! 대부분의 검은 완전히 충전된 상태에서만 작동합니다., 하지만 탈론 소드는 기다려주지 않습니다! \\n\\n더 많은 피해를 입히므로 다이아몬드 검에 더 가까워집니다."
+  ],
+  "quest.6ECB27052FCB874E.quest_desc": [
+    "&bHippocampus&r 및 &9Sea Serpents&r는 아직 &b&l다른&r로 이동되지 않았습니다! \\n이들은 여전히 ​​&2&lOverworld&r 내의 &9Oceans&r 내에서 발견됩니다!"
+  ],
+  "quest.6ECB27052FCB874E.title": "우리는 아직 이사하지 않았습니다!",
+  "quest.6FE6F50029D690C0.quest_desc": [
+    "&9Tide Tridents&r는 정확히 Tridents와 같습니다., 모든면에서 더 좋습니다! \\n\\n이것들은 제작 가능합니다, 더 많은 피해를 입습니다, 그리고 몹을 뚫으세요! \\n\\n그리고 그들은 여전히 ​​일반 삼지창 인챈트를 사용합니다. \\n\\n무엇을 더 원하겠습니까!"
+  ],
+  "quest.6FE6F50029D690C0.title": "&9타이드 트라이던트",
+  "quest.70099F9B69F9D055.quest_desc": [
+    "불행하게도 &bIce&r에서 Y 레벨 0 정도까지 떨어진 사람들은 무섭고 추운 동굴을 만나게 될 수도 있습니다. \\n\\nA 미끄러운 &bIce &f및 &bIcicles&r가 아래를 가리키는 동굴로 가득 차 있습니다. \\n\\n물론 가장 강력한 &b&lIce Dragons&r에 속한 &b동굴 &r입니다. &lStage 4 &r 및 &l5 &bIce Dragons&r. \\n\\n적어도 &7Silver&r와 상자가 가득합니다! \\n\\n그리고 &8프로스트 트롤&r를 포함한 몹도 있습니다...",
+    "{image:atm:textures/questpics/iceandfire/iaf_struct_icecave.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.70099F9B69F9D055.title": "&b얼음용 동굴",
+  "quest.703790CCCE440946.quest_desc": [
+    "&3다른 &r, &b&l다른&r와 다릅니다. &3다른 &r는 생물군계입니다, &b&l다른 &r는 차원입니다. \\n\\nColor 및 Bold가 얼마나 유용한지 확인하세요. \\n\\n 생물 군계는 &3고대 나무&r 및 &3고대 잔디&r로 구성됩니다. 뿐만 아니라 그들을 구별하는 데 도움이 되는 거대한 산이 있습니다. \\n\\n 이 생물 군계의 색상이 &3Ancient Stone&r에 가장 잘 어울리는 것 같아요!"
+  ],
+  "quest.703790CCCE440946.quest_subtitle": "생물군계",
+  "quest.703790CCCE440946.title": "&3기타",
+  "quest.70AD5D79881EE1B5.quest_desc": [
+    "&bIce Dragon Roosts&r는 &lStage 1&r ~ &lStage 3 &bIce Dragons&r의 둥지로 땅 위에 생성됩니다. \\n\\n그들은 기본적으로 &bIce&r인 &b냉동 블록&r로 만들어졌습니다. \\n\\n&7실버&r 더미가 가득하고 상자가 있습니다., 대부분 &7Silver&r가 포함되어 있습니다. ",
+    "{image:atm:textures/questpics/iceandfire/iaf_struct_iceroost.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.70AD5D79881EE1B5.title": "&b아이스 드래곤 루스트",
+  "quest.72FB345F3A7E7288.quest_desc": [
+    "&5Lightning Dragonsteel&r는 &5&lLightning DragonForge&r에서 &5Lightning Dragon Blood&r와 &7Iron&r를 결합하여 만들어졌습니다. \\n\\n그것으로 무기를 만들 수 있어요! 이것들은 엄청난 피해를 입힐 것입니다, 게다가 히트할 때마다 &5Lightning&r를 소환합니다. \\n\\n무기와 함께 방어구도 함께 제공됩니다. 이 갑옷은 엄청난 능력치를 제공합니다, 정말 멋져 보여요! 또한 &5Dragons 원소 공격&r로부터 우리를 추가로 보호합니다! \\n\\n왜 우리를 위해 Armor를 구입해야 할까요? &5&lDragons&r도 어떻습니까! 이거 비용이 훨씬 더 많이 들어요, 그러나 특히 다른 &5&lDragons&r에 대해 &5&lDragon&r에 대한 엄청난 보호 기능을 제공합니다."
+  ],
+  "quest.72FB345F3A7E7288.title": "&5라이트닝 드래곤스틸",
+  "quest.74C648FC8733310B.quest_desc": [
+    "&9Sea Serpents&r는 선원들이 이야기하는 것입니다. &9Ocean&r 심해의 거대 괴수들이 &9Water&r에서 튀어나와 단 한 입으로 수십 명의 남자를 잡아먹습니다! \\n\\n&9바다뱀&r 범위는 몇 블록 길이부터 30 이상까지 다양합니다! 또한 해당 크기는 50에서 250 &4Hearts&r 이상으로 &4Health&r를 증가시킵니다. \\n\\n외관은 색상과 크기 외에 동일하게 유지됩니다. 다들 팔다리가 없네, 오직 머리에서 몸으로 꼬리로. \\n\\n그들은 범위에 따라 꽤 많은 공격을 합니다. 당신이 그들과 가까이 있다면, 그들은 당신을 물고 상당한 피해를 입힐 것입니다! 당신이 멀리 있다면 그들은 당신에게 &9Water Streams&r를 쏘아 시간이 지남에 따라 피해를 입힐 것입니다. &9Water&r를 벗어났지만 범위 내에 있는 경우, 그들은 공중으로 뛰어올라 당신에게 뛰어들 수도 있습니다! \\n\\n이 공격은 근처의 모든 몹에게 막대한 피해를 입히고 밀쳐냅니다.",
+    "{image:atm:textures/questpics/iceandfire/iaf_serpent.png 너비:150 높이:100 정렬:중앙}"
+  ],
+  "quest.74C648FC8733310B.title": "&9바다뱀",
+  "quest.760864EE43FB33AC.quest_desc": [
+    "&bHippocampus&r는 기본적으로 우리가 해마와 같기를 바라는 것입니다. \\n\\n머리와 앞발굽은 말과 비슷하지만 등은 물고기에 가깝습니다. 몸 전체도 &bScales&r 및 지느러미로 덮여 있습니다. \\n\\n빨간색으로 표시됩니다., 주황색, 노란색, 연두빛, 녹색, 라이트 블루, 그리고 블루! \\n\\n&b해마&r에는 20 하트가 있으며 완전히 수동적입니다. 그들은 반격하지 않을 것입니다! \\n\\n죽으면 &b반짝이는 비늘&r를 떨어뜨리고 아주 드물게 &b해마 지느러미&r를 떨어뜨립니다.",
+    "{image:atm:textures/questpics/iceandfire/iaf_hippocampus.png 너비:150 높이:100 정렬:중심}"
+  ],
+  "quest.760864EE43FB33AC.title": "&b해마",
+  "quest.765CD913CC3896B2.quest_desc": [
+    "&lStage 4&r 및 &l5 &cFire Dragons&r는 &cCaves&r 내에서 표면 아래 깊숙이 안전하게 봉인되어 있습니다. 오직 가장 멍청한 자만이 기꺼이 그곳으로 내려가서 그들과 싸울 것입니다! \\n\\n&c파이어 드래곤 동굴&r는 거대한 구조물이지만 여전히 폐쇄되어 있습니다. 이는 &c&lDragon&r가 쉽게 날아가서 탈출할 수 없다는 것을 의미합니다... 하지만 당신도 마찬가지다. \\n이 거대한 &c&lDragons&r와 싸우려면 최고의 장비가 필요합니다, 인챈트, 그리고 물약. 특히 &cBurning&r가 당신을 죽이는 것을 방지하는 것입니다! \\n공격은 더 많은 피해를 입히고 &cE원소 공격&r 확산과 &cBurning&r는 이전보다 훨씬 더 강력합니다! 전체 &cNetherite&r와 일치하는 &3&lWarden&r 및 &7Armor Points&r와 동일한 &4Health&r를 가지고 있다는 것을 잊지 마세요! \\n\\n&lStage 4&r 또는 &l5 &c암컷 파이어 드래곤&r를 죽이면(그리고 병을 사용하지 않음) &cEgg&r. 이 &cDragon Eggs&r는 &2&lVanilla&r &dDragon Egg&r보다 훨씬 낫습니다."
+  ],
+  "quest.765CD913CC3896B2.title": "&l스테이지 4-5 &c파이어 드래곤",
+  "quest.77793642678CB886.quest_desc": [
+    "&c&l파이어 드래곤&r를 부화시키는 것은 매우 쉽습니다. \\n\\n &cFIRE&r에서 &cEGG&r를 설정하세요! \\n\\nE가장 쉬운 방법은 &cEgg &f를 &cNetherrack&r에 배치한 다음 플린트와 강철을 사용하여 &cFire&r에 설정하는 것입니다. \\n\\n6 분 후에 &cEgg&r가 부화하고 &c&lBaby Fire Dragon&r가 길들여진 당신을 생성합니다! \\n\\n아니요, &c&lBaby&r는 &cFire&r로 인한 피해를 입지 않습니다., 그것은 &c&l파이어 드래곤&r입니다!"
+  ],
+  "quest.77793642678CB886.title": "&cEgg 요리하기",
+  "quest.7B21D2FAD5F3246A.quest_desc": [
+    "&b&lIce &f 및 &cFire&r에 오신 것을 환영합니다! 이제 &b&l다른 &r \\n\\n이 모드에는 수많은 괴물과 몹이 추가됩니다., 모두 어떤 형태의 신화와 관련이 있거나 일부는 Mod에 완전히 고유합니다! \\n\\n&b&l기타&r 곳곳에서 이러한 괴물을 발견할 수 있습니다., 하지만 조심해, 그들 모두는 친절하지 않습니다! "
+  ],
+  "quest.7B21D2FAD5F3246A.title": "&b&lIce &f및 &cFire&r",
+  "quest.7C5FC2015F1E6DB1.quest_desc": [
+    "모든 &8Trolls&r에는 무기가 들어 있습니다. 그들은 &8Weapons&r를 사용하여 당신을 죽이려고 합니다. \\n\\n아주 드물게 그들은 사망 시 &8무기&r를 떨어뜨립니다. \\n\\n이 &8무기&r는 모두 거대합니다! 그러나 플레이어는 여전히 그것을 보유하고 사용할 수 있습니다! 엄청난 피해를 입히지만 스윙 속도가 매우 느립니다."
+  ],
+  "quest.7C5FC2015F1E6DB1.title": "&8트롤 무기",
+  "quest.7CBF22CCCF599F26.quest_desc": [
+    "&cSiren Flute&r를 만들려면 이전에 언급한 &b빛나는 비늘&r가 필요합니다., 그리고 &cSiren Tear&r도 있습니다. \\n\\n&c사이렌 눈물&r is rare Drops from &cSirens&r and will make the &cFlute&r or the Banner. \\n\\n &c 사이렌 피리&r는 기본적으로 당신이 보고 있는 몹에게 약점 1 백만을 제공합니다. 그들은 사랑에 빠질 것이다, 그리고 사랑에 빠졌을 때 그들은 당신을 공격하지 않을 것입니다. \\n\\n &cFlute&r에는 쿨다운이 있습니다."
+  ],
+  "quest.7CBF22CCCF599F26.title": "&c사이렌 피리",
+  "quest.7D086BC5AC152E27.quest_desc": [
+    "&c사이렌&r가 사망하면 &3프리즈마린 파편&f가 떨어집니다., &3수정&f, 그리고... &b빛나는 비늘&r!!! \\n\\n&b빛나는 비늘&r는 몇 가지 아이템을 제작하는 데 사용할 수 있습니다., 포함: &9Tide Guardian Armor&f, &c사이렌 피리&f, 및 &9수중 호흡 물약&r. \\n\\n그럼 그 수가 너무 많아서 기쁘네요!"
+  ],
+  "quest.7D086BC5AC152E27.title": "&b빛나는 비늘",
+  "quest.7FA9EA93602A98EC.quest_desc": [
+    "&cFire Dragon Roosts&r는 &c숯 블록&r와 재로 만들어진 땅 위에서 발견되는 둥지입니다. \\n\\n&lStage 1&r ~ &lStage 3 &cFire Dragons&r로 생성됩니다. &c&lDragon&r가 클수록, &cRoost&r가 클수록! \\n\\n이 &cRoosts&r에는 상자와 함께 &eGold&r 더미가 있습니다. 상자에는 최대 &b다이아몬드&r까지만 보관됩니다., 하지만 여전히 매우 도움이 됩니다!",
+    "{image:atm:textures/questpics/iceandfire/iaf_struct_fireroost.png 너비:200 높이:100 정렬:중심}"
+  ],
+  "quest.7FA9EA93602A98EC.title": "&c파이어 드래곤 루스트",
+  "task.73AE639A41A16778.title": "모든 권리 보유"
+}

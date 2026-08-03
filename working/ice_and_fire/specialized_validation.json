@@ -1,0 +1,24 @@
+{
+  "scopes": [
+    {
+      "scope": "iceandfire",
+      "keys": 1744
+    },
+    {
+      "scope": "ice__fire",
+      "keys": 173
+    },
+    {
+      "scope": "related",
+      "keys": 0
+    }
+  ],
+  "guides": [
+    "patchouli_books/iceandfire/ko_kr/categories/introduction.json",
+    "patchouli_books/iceandfire/ko_kr/entries/introduction.json",
+    "tinkers/book/ko_kr/modifiers/flame.json",
+    "tinkers/book/ko_kr/modifiers/frost.json"
+  ],
+  "errors": [],
+  "status": "complete"
+}

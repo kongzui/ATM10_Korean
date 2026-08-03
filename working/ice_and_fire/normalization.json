@@ -1,0 +1,34 @@
+{
+  "language_keys": 1744,
+  "bundled_candidates_reviewed": 1118,
+  "new_translations_reviewed": 626,
+  "quests": [
+    {
+      "scope": "ice__fire",
+      "keys": 173
+    },
+    {
+      "scope": "related",
+      "keys": 0
+    }
+  ],
+  "guides": [
+    {
+      "source": "assets/iceandfire/patchouli_books/iceandfire/en_us/categories/introduction.json",
+      "output": "output/resourcepack/ATM10_Korean/assets/iceandfire/patchouli_books/iceandfire/ko_kr/categories/introduction.json"
+    },
+    {
+      "source": "assets/iceandfire/patchouli_books/iceandfire/en_us/entries/introduction.json",
+      "output": "output/resourcepack/ATM10_Korean/assets/iceandfire/patchouli_books/iceandfire/ko_kr/entries/introduction.json"
+    },
+    {
+      "source": "assets/iceandfire/tinkers/book/en_us/modifiers/flame.json",
+      "output": "output/resourcepack/ATM10_Korean/assets/iceandfire/tinkers/book/ko_kr/modifiers/flame.json"
+    },
+    {
+      "source": "assets/iceandfire/tinkers/book/en_us/modifiers/frost.json",
+      "output": "output/resourcepack/ATM10_Korean/assets/iceandfire/tinkers/book/ko_kr/modifiers/frost.json"
+    }
+  ],
+  "status": "complete"
+}

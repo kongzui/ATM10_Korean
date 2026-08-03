@@ -1,0 +1,52 @@
+{
+  "family": "Ice and Fire",
+  "languages": [
+    {
+      "label": "Ice and Fire",
+      "jar": "iceandfire-2.0-beta.17.jar",
+      "namespace": "iceandfire",
+      "english_keys": 1744,
+      "korean_keys": 1744,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 710,
+      "new_or_edited": 1034
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 710,
+    "project_output_reuse": 0,
+    "new_or_edited": 1034
+  },
+  "ftbquests": {
+    "chapters": [
+      "ice__fire.snbt"
+    ],
+    "quests_checked": 87,
+    "tasks_checked": 104,
+    "display_keys_checked": 173,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 1,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 3,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}
