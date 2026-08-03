@@ -1,0 +1,15 @@
+{
+  "quests": [
+    {
+      "scope": "forbidden__arcanus",
+      "reviewed_keys": 123
+    },
+    {
+      "scope": "related",
+      "reviewed_keys": 35
+    }
+  ],
+  "new_values_manually_reviewed": 16,
+  "item_titles_matched_to_resourcepack": 25,
+  "status": "all_current_quest_display_keys_reviewed"
+}

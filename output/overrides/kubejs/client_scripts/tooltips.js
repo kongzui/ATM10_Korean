@@ -56,11 +56,11 @@ ItemEvents.modifyTooltips(allthemods => {
 
     //Forbidden Arcanus
     allthemods.add('forbidden_arcanus:hephaestus_forge_tier_1',[
-        Text.of("§c§lShift-Right-Click§r§c the §c§lSmithing Table§r§c with §lMundabitur Dust"),
-        Text.of("§c█ = Gilded Chiseled Polished Darkstone with Smithing Table on top"),
-        Text.of("§7█ = Polished Darkstone"),
-        Text.of("§5█§7 = Gilded Chiseled Polished Darkstone"),
-        Text.of("§6█§7 = Chiseled Arcane Polished Darkstone"),
+        Text.of("§c§lShift+우클릭§r§c으로 §c§l대장장이 작업대§r§c에 §l문다비투르 가루§r§c를 사용하세요"),
+        Text.of("§c█ = 금박 조각된 광택 다크스톤 위에 대장장이 작업대"),
+        Text.of("§7█ = 광택 다크스톤"),
+        Text.of("§5█§7 = 금박 조각된 광택 다크스톤"),
+        Text.of("§6█§7 = 조각된 비전 광택 다크스톤"),
         Text.of("§0███§7███§0███"),
         Text.of("§0█§7███§5█§7███§0█"),
         Text.of("§0█§7█§5█§7███§5█§7█§0█"),
@@ -73,74 +73,74 @@ ItemEvents.modifyTooltips(allthemods => {
 
     ])
     allthemods.add('forbidden_arcanus:clibano_core',[
-        Text.of("§c§lShift-Right-Click§r§c the §c§lClibano Core§r§c with §c§lMundabitur Dust"),
-        Text.of("§5█§7 = Polished Darkstone"),
-        Text.of("§7█ = Polished Darkstone Bricks"),
-        Text.of("§6█§7 = Clibano Core"),
-        Text.of("§7Right to Left -> Bottom to Top"),
+        Text.of("§c§lShift+우클릭§r§c으로 §c§l클리바노 코어§r§c에 §c§l문다비투르 가루§r§c를 사용하세요"),
+        Text.of("§5█§7 = 광택 다크스톤"),
+        Text.of("§7█ = 광택 다크스톤 벽돌"),
+        Text.of("§6█§7 = 클리바노 코어"),
+        Text.of("§7오른쪽에서 왼쪽 -> 아래에서 위"),
         Text.of("§5█§7█§5█§0█§7███§0█§5█§7█§5█"),
         Text.of("§7███§0█§7█§0█§7█§0█§7███"),
         Text.of("§5█§7█§5█§0█§7█§6█§7█§0█§5█§7█§5█"),
     ])
     allthemods.add('forbidden_arcanus:growing_edelwood',[
-        Text.of("§4Obtainable from the Wandering Trader"),
-        Text.of("§4Or by using a Corrupt Soul on an Oak Sapling"),
+        Text.of("§4떠돌이 상인에게서 얻을 수 있습니다"),
+        Text.of("§4참나무 묘목에 타락한 영혼을 사용해도 됩니다"),
     ])
     allthemods.add('forbidden_arcanus:magnetized_darkstone_pedestal',[
-        Text.of("§7Use Ferrognetic Mixture on the Darkstone Pedestal"),
+        Text.of("§7다크스톤 받침대에 페로마그네틱 혼합물을 사용하세요"),
     ])
     allthemods.add('forbidden_arcanus:soul',[
-        Text.of("§7Use a Soul Extractor on Soul Sand"),
-        Text.of("§7Rarely spawns in world"),
+        Text.of("§7영혼 모래에 영혼 추출기를 사용하세요"),
+        Text.of("§7월드에 드물게 나타납니다"),
     ])
     allthemods.add('forbidden_arcanus:enchanted_soul',[
-        Text.of("§7Use a Splash Aureal Bottle on a normal soul")
+        Text.of("§7일반 영혼에 투척용 아우레알 병을 사용하세요")
     ])
     allthemods.add('forbidden_arcanus:corrupt_soul',[
-        Text.of("§7Rarely spawns when killing mobs")
+        Text.of("§7몹을 처치할 때 드물게 나타납니다")
     ])
     allthemods.add('forbidden_arcanus:blood_test_tube',[
-        Text.of("§7Hold a test tube in your off-hand and then kill mobs")
+        Text.of("§7시험관을 보조 손에 들고 몹을 처치하세요")
     ])
     allthemods.add('forbidden_arcanus:xpetrified_orb',[
-        Text.of("§7Only obtainable via the Black Hole"),
-        Text.of("§7To make a Black Hole throw Dark Matter together with Corrupti Dust on the ground"),
-        Text.of("§7Feed it enough xp to make it spit out an Xpetrified Orb")
+        Text.of("§7블랙홀에서만 얻을 수 있습니다"),
+        Text.of("§7어둠의 물질과 코럽티 가루를 바닥에 함께 던지면 블랙홀이 생깁니다"),
+        Text.of("§7블랙홀에 경험치를 충분히 주면 엑스페트리파이드 구슬이 나옵니다")
     ])
     allthemods.add('forbidden_arcanus:dragon_scale',[
-        Text.of("§7Dropped by the Ender Dragon")
+        Text.of("§7엔더 드래곤이 떨어뜨립니다")
     ])
     allthemods.add('forbidden_arcanus:stella_arcanum',[
-        Text.of("§7Very rarely spawns between Y -44 and Y 42"),
-        Text.of("§cWill explode when you mine it!")
+        Text.of("§7Y -44에서 Y 42 사이에 매우 드물게 생성됩니다"),
+        Text.of("§c채굴하면 폭발합니다!")
     ])
     allthemods.add(/forbidden_arcanus:runic_[sd]/,[
-        Text.of("§7Spawns at the bottom of the world up to Y 2"),
+        Text.of("§7월드 바닥부터 Y 2 사이에 생성됩니다"),
     ])
     allthemods.add(['forbidden_arcanus:arcane_crystal_ore', 'forbidden_arcanus:deepslate_arcane_crystal_ore'],[
-        Text.of("§7Very rarely spawns between Y -40 and Y 14"),
-        Text.of("§7Most common at Y -13")
+        Text.of("§7Y -40에서 Y 14 사이에 매우 드물게 생성됩니다"),
+        Text.of("§7Y -13에서 가장 흔합니다")
     ])
     allthemods.add('forbidden_arcanus:artisan_relic',[
-        Text.of("§aFound in the Armorer, Toolsmith, or Weaponsmith villager buildings"),
+        Text.of("§a갑옷 제조인, 도구 대장장이 또는 무기 대장장이 주민 건물에서 찾을 수 있습니다"),
     ])
     allthemods.add('forbidden_arcanus:crescent_moon',[
-        Text.of("§cUnobtainable"),
+        Text.of("§c획득할 수 없습니다"),
     ])
     allthemods.add('forbidden_arcanus:crimson_stone',[
-        Text.of("§aFound in Pillager Outposts"),
+        Text.of("§a약탈자 전초기지에서 찾을 수 있습니다"),
     ])
     allthemods.add('forbidden_arcanus:soul_crimson_stone',[
-        Text.of("§cWill turn into a Crimson Stone after 1 use"),
+        Text.of("§c한 번 사용하면 크림슨 스톤으로 바뀝니다"),
     ])
     allthemods.add('forbidden_arcanus:elementarium',[
-        Text.of("§aFound in Jungle Temples, Desert Pyramids, and Underwater Ruins"),
+        Text.of("§a정글 사원, 사막 피라미드, 해저 폐허에서 찾을 수 있습니다"),
     ])
     allthemods.add('forbidden_arcanus:divine_pact',[
-        Text.of("§aFound in the Village and Pyramid in The Other"),
+        Text.of("§a디 아더의 마을과 피라미드에서 찾을 수 있습니다"),
     ])
     allthemods.add('forbidden_arcanus:maledictus_pact',[
-        Text.of("§aFound in Treasure Bastions"),
+        Text.of("§a보물 보루 잔해에서 찾을 수 있습니다"),
     ])
 
     //Mystical Agriculture

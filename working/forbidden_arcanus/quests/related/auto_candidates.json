@@ -1,0 +1,142 @@
+{
+  "quest.00F00B0B66059996.quest_desc": [
+    "좋습니다 또 다른 &lMultiblock&r! 이것은 어떤 해군 기지보다 더 많은 포트를 필요로 합니다!\\n\\n&3유체 입력 &f및 &3출력&r 해치와 &6항목 입력 &f및 &6출력&r 해치.\\n\\nNow, 이것은 결국 약간의 과정이므로 주의 깊게 따르십시오!\\n\\n먼저, Soul Tree에서 유체 추출기(&lIF&r)를 사용하여 얻을 수 있는 &7정제되지 않은 액체 영혼&r가 필요합니다.\\n\\nNext, &9Source Condenser&r를 사용하여 얻을 수 있는 &dLiquefied Source&r가 필요합니다. &9Source 콘덴서&r는 근처의 Source Jar에서 소스를 가져와서 &d액체화 소스&r!\\n\\n그런 다음, &b&l룬 도가니&r를 사용하여 영혼을 결합할 수 있습니다., &7정제되지 않은 액체 영혼&r, 그리고 &d액화 소스&r가 함께 액체 영혼으로 변합니다!\\n\\n마지막으로, Liquid Souls를 사용하겠습니다., &d액화 소스&r, &l&5Mekanism&r의 일부 아이템으로 &5Obsidiansteel&r를 제작할 수 있습니다.",
+    "{@pagebreak}",
+    "{image:atm:textures/questpics/chap3/creative_crucible1.png 너비:125 높이:100 정렬:중심}",
+    "&l&b룬 도가니&r의 첫 번째 레이어에는 중간에 &6금박 조각 광택 암흑석&r가 있습니다., 주변에는 &9Polished Darkstone&r가 있습니다. 그 다음에, 측면에는 거꾸로 된 &9광택나는 암흑석 계단&r가 있습니다., 모서리에 &7룬 블록&r가 있습니다.",
+    "{image:atm:textures/questpics/chap3/creative_crucible2.png 너비:125 높이:100 정렬:중심}",
+    "중앙을 두드려서 &b아케인 수정&r와 그 주변에 &9광택 있는 암흑석 계단&r를 배치합니다. On the side will be &6아케인 광택나는 암흑석 기둥&r, 해치로 대체되는 &9광택 있는 암흑석&r, 및 &6아케인 광택 다크스톤&r.",
+    "{image:atm:textures/questpics/chap3/creative_crucible3.png 너비:125 높이:100 정렬:중심}",
+    "각 모서리에 &b아케인 수정 블록&r를 배치하고 하루를 보내세요!",
+    "{image:atm:textures/questpics/chap3/creative_crucible4.png 너비:125 높이:100 정렬:중심}",
+    "마지막으로, 공간 블록을 두고 &7Quantum Injector&r를 중간 &bArcane Crystal Block&r 위에 배치합니다.",
+    "{image:atm:textures/questpics/chap3/creative_crucible5.png 너비:150 높이:100 정렬:중심}",
+    "{image:atm:textures/questpics/chap3/creative_crucible6.png 너비:150 높이:100 정렬:중심}",
+    "중간 레이어에 있는 &9 광택 있는 다크스톤 블록&r가 해치를 배치할 장소입니다!"
+  ],
+  "quest.00F00B0B66059996.title": "&b&l룬 도가니",
+  "quest.050CCE5D1DD6B21E.quest_desc": [
+    "가장 중요한 &lMutliblocks&r 중 하나, 주로 다른 &lMultiblocks&r에 필요하기 때문입니다. \\n\\n여기서 &bFluid 입력&r가 필요합니다(각 &bInput&r는 1 유형의 &bFluid&r만 보유할 수 있으므로 다음이 필요합니다. 여러), &cE에너지 입력&r, 및 &eItem 입력&r 및 출력 해치. \\n\\n해치를 사용하여 모든 &e항목&r를 입력할 수 있습니다., &b유체&r, 그리고 &cEnergy&r를 사용하면 아이템을 제작할 수 있습니다., 다른 &5멀티블록 컨트롤러&r처럼! \\n\\n또는 &6스타 부품&r에 필요한 아이템을 제작하세요! &4Blood&f가 많이 필요합니다., &bAureal&f, 위, 그리고 그들을 위한 &cEnergy&r!",
+    "{@pagebreak}",
+    "{image:atm:textures/questpics/chap3/creative_forge1.png 너비:150 높이:100 정렬:중심}",
+    "첫 번째 레이어는 매우 간단합니다. &9 연마된 다크스톤 블록 &f 및 &9Stairs&r 몇 개만 있으면 됩니다. &7룬 블록&r 및 &6아케인 광택 다크스톤&r와 함께. 아 잠깐만, 가장 중요한 블록을 잊어버릴 뻔했어요! &5포지 블록&r",
+    "{image:atm:textures/questpics/chap3/creative_forge2.png 너비:150 높이:100 정렬:중심}",
+    "다음 레이어에는 &9Blocks&f에 더 많은 &9Darkstone&r가 포함됩니다., &9계단&f, &9Slabs&r 및 심지어 &6금박을 입힌 신비한 광택 암흑석&r 및 &6조각으로 장식된 광택나는 신비한 암흑석&r도 있습니다. 4 &b아케인 수정 오벨리스크&r를 잊지 마세요!",
+    "{image:atm:textures/questpics/chap3/creative_forge3.png 너비:150 높이:100 정렬:중심}",
+    "이건 아주 쉽습니다! 중앙에 &9&lTier 5 &6Forge&r 사각형과 8 &6Darkstone 받침대&r 2 블록이 떨어져 있습니다.",
+    "{image:atm:textures/questpics/chap3/creative_forge4.png 너비:150 높이:100 정렬:중심}",
+    "아무 것도 추가되지 않았기 때문에 레이어를 건너뛰겠습니다! 대신에, 그들 사이에 공간 블록이 있습니다. &7Quantum Injector&r를 &9&lTier 5 &6Forge&r 위에 놓습니다. ",
+    "{image:atm:textures/questpics/chap3/creative_forge5.png 너비:200 높이:100 정렬:중심}",
+    "{image:atm:textures/questpics/chap3/creative_forge6.png 너비:200 높이:100 정렬:중심}",
+    "마지막은 해치를 몇 개 더 배치하는 것입니다! 우리는 그들이 필요합니다!"
+  ],
+  "quest.050CCE5D1DD6B21E.title": "&c&l자동 헤파이스토스 포지",
+  "quest.0EF9C391EE42824A.quest_desc": [
+    "이것은 조금 더 비싸지만 조금 더 재미있습니다! \\n\\n&bDiamonds&r는 거의 모든 Mod를 통해 얻을 수 있습니다. \\n\\n&7Flint&r는 다양한 자갈 처리 방법을 통해 얻을 수 있습니다., 눌러 터뜨리는, 풍요롭게...? \\n\\nDripstone 및 Dripstone Block(4 Dripstone)은 추출기 또는 혼합기에서 생성할 수 있습니다., 하지만 둘 다 더 많은 것을 만들려면 원본 Dripstone이 필요합니다."
+  ],
+  "quest.0EF9C391EE42824A.title": "&7테라스톰프 프리즘",
+  "quest.14C27D44D3C8EDF5.quest_desc": [
+    "1. 당신은 아마도 &dEnd Cities&r를 약탈할 것입니다. \\n\\n2. 자동화하려면 모든 항목을 가져와야 합니다. \\n\\n뼛가루, &7화약&r, &4Redstone&r, &c블레이즈 파우더&r, Phantom Membrane은 모두 &b&lHNN&r 또는 &2&lMA&r를 사용하여 자동화할 수 있습니다. \\n\\n&b아케인 수정&r는 &6&lBees&r 또는 &2&lMA&r가 필요합니다. &bDust&r에 제련하세요."
+  ],
+  "quest.14C27D44D3C8EDF5.title": "&c먼다비투르 더스트",
+  "quest.173541B0765DA13E.quest_desc": [
+    "내가 주장하는 것은 자동화하기 가장 쉬운 것입니다. \\n\\n팬텀 멤브레인, 깃털, Wool은 &b&lHNN&r를 통해 자동화할 수 있습니다. \\n\\n&7Bat Wing&r만이 생성기를 통해 파밍해야 하는 것이 더 어렵습니다!"
+  ],
+  "quest.173541B0765DA13E.title": "&f회오리바람 프리즘",
+  "quest.1C566975C4EC5D93.quest_desc": [
+    "솔직히 이것에는 &2&lMA&r를 사용하십시오. 모두 얻는 가장 쉬운 방법입니다. \\n\\n 대량 &2Turtle&r 사육자와 대량 &bGuardian&r 도축장을 만들지 마세요. TPS가 중요해요!"
+  ],
+  "quest.1C566975C4EC5D93.title": "&9바다 프리즘",
+  "quest.1FFF00B5D90C3905.quest_desc": [
+    "&cMundabitur Dust&r를 다양한 방법으로 얻을 수 있으므로 &bArcane Crystals&r에 대해 간단히 소개하겠습니다! \\n\\n예, 제작하려는 경우 제작 재료입니다. \\n\\n먼저 &b아케인 수정&r를 채굴해야 합니다. 그 다음에, &2&lMA&r 또는 &6&lBees&r를 사용하여 더 많은 것을 만들 수 있습니다!"
+  ],
+  "quest.1FFF00B5D90C3905.title": "&b아케인 수정",
+  "quest.360B150190A5C894.quest_desc": [
+    "많은 모드 플레이어를 괴롭히는 한 가지 사실은 &5Enchanting&r가 완전히 자동화될 수 없다는 것입니다! 그리고 원하는 &5Enchants&r를 선택할 수 없습니다., 럭키를 얻어야 해! \\n\\n걱정하지 마세요. 두 가지 소원이 모두 이루어졌습니다! &5&l룬 마법부여&r를 사용하세요. \\n\\n사용하려면, &5마법 테이블&r를 건드릴 필요가 없습니다., 올바른 항목을 파이프로 연결하면 됩니다., &d소스&r, 및 &aXP Fluid&r. \\n\\n&aXP Fluid&r는 &8&lImmersive의 병입 기계를 사용하여 &aLiquid XP&r의 일부 형태를 병입하여 얻어야 합니다. 엔지니어링&r, 그런 다음 &7&l확장된 산업화&r 통조림 기계를 통해 처리합니다. \\n\\n&6&lATM Star&r를 리메이크하려면 &dInfused Dragon's Breath&r 및 &5Mending Books&r를 만들어야 합니다!",
+    "{@pagebreak}",
+    "(&b밝은 파란색 카펫&r는 &b영혼이 담긴 깊은 선반&r입니다.",
+    "&5보라색 카펫&r는 &5ESculkshelf&r를 선택합니다.",
+    "&9블루 카펫&r는 &9영혼이 담긴 조각선반&r입니다)",
+    "{image:atm:textures/questpics/chap3/creative_enchanter1.png 너비:125 높이:100 정렬:중심}",
+    "&5&lRunic Enchanter&r의 베이스에는 거의 모든 것이 들어있습니다! &9Darkstone&r가 풍부합니다., 책장, &7룬 블록&r, 그리고 &b아케인 수정 블록&r!",
+    "{image:atm:textures/questpics/chap3/creative_enchanter2.png 너비:125 높이:100 정렬:중심}",
+    "우리는 비슷한 방식으로 계속할 것입니다, &7룬 블록&r 및 &b아케인 수정 블록&r를 &6금박 끌로 깎은 광택 다크스톤&r 및 &6다크스톤 기둥&r로 교체하세요. 네, 새로 생긴 재미있는 사각형은 &6Darkstone Pillars&r의 꼭대기입니다!",
+    "{image:atm:textures/questpics/chap3/creative_enchanter3.png 너비:125 높이:100 정렬:중심}",
+    "점점 쉬워지니 걱정하지 마세요! 책장을 몇 개 더 유지하고 &6Darkstone 받침대&r와 &5Enchanting Table&r를 추가하세요.",
+    "{image:atm:textures/questpics/chap3/creative_enchanter4.png 너비:125 높이:100 정렬:중심}",
+    "도대체 이게 더 쉬워요! 마지막 책장 위에 4 &bSoul Lanterns&r만 올려주세요.",
+    "{image:atm:textures/questpics/chap3/creative_enchanter5.png 너비:125 높이:100 정렬:중심}",
+    "좋아 이건 너무 쉬워요! &7Quantum Injector&r를 &5Enchanting Table&r 위에 블록을 배치하기만 하면 됩니다.",
+    "{image:atm:textures/questpics/chap3/creative_enchanter6.png 너비:150 높이:150 정렬:중심}",
+    "{image:atm:textures/questpics/chap3/creative_enchanter7.png 너비:150 높이:150 정렬:중심}",
+    "아마도 더 일찍 말했어야 했지만 해치는 &5&lRunic Enchanter&r 바닥에 들어갑니다... 죄송합니다!"
+  ],
+  "quest.360B150190A5C894.title": "&5&l룬 마법부여사",
+  "quest.427BBEB1F24E9DEE.quest_desc": [
+    "대부분의 &5Corrupti Dust&r는 쉽게 자동화됩니다. \\n\\n&4네더 워트&r는 모든 자동 파밍으로 만들 수 있습니다. &cBlaze Powder&r 및 &3Enderpearl 조각&r는 &b&lHNN&r로 만들 수 있습니다. 그리고 &b아케인 수정&r는 다른 퀘스트에 표시됩니다. \\n\\nJust &5Obsidiansteel&r는 &b&lRunic Crucible&r에서 자동화되어야 합니다."
+  ],
+  "quest.427BBEB1F24E9DEE.title": "&5부패한 먼지",
+  "quest.5660E81BBEED6DC3.quest_desc": [
+    "&d영혼 결속 수정&r는 제작하기 가장 어려운 수정입니다. \\n&3Ender 진주 조각&r는 &5endermen&r에서 재배할 수 있는 &3Ender 진주&r에서 제작할 수 있습니다. 추출기를 사용하여 무한한 &5Amethyst&r를 얻을 수 있습니다. 석영은 &2&lMA&r에서 재배할 수 있습니다. \\n\\n이제 우리는 영혼에 집중해야 합니다. 시작하려면 정상적인 영혼이 필요합니다! 우리는 일반적으로 Soul Sand에서 Soul Extractor를 사용하여 Soul을 꺼냅니다. \\n\\n하지만 그건 아이템을 사용해서 그런 거죠, 그리고 그것은 Soul Sand를 변화시킵니다... 첫 번째, &3&lJust Dire Things&r의 Clicker를 사용하여 스스로를 교체할 수 있습니다! \\n\\n이제 Soulless Sand를 Soul Sand로 교체하면 됩니다., 블록 차단기 및 배치기와 함께 사용할 수 있습니다., &3&lJust Dire Things&r에서도 마찬가지입니다. \\n\\n이제 영혼을 &5부패 먼지&r 및 갇힌 영혼(&5Lunar Guardian&r에서 파밍한 아이템)과 결합하여 부패한 영혼을 얻을 수 있습니다. \\n\\n마침내, Souls와 Liquid Aureal 및 Holy Hand Grenade를 결합하여 Enchanted Souls를 만드세요. 신성한 수류탄은 &c&lReliquary&r의 레시피 라인에서 나왔습니다."
+  ],
+  "quest.5660E81BBEED6DC3.title": "&d영혼 결속 수정",
+  "quest.6076D1DB438EB997.quest_desc": [
+    "아주 간단한 레시피, &7Coal&r만 필요, &c블레이즈 파우더&r, 그리고 &b아케인 크리스탈 블록&r. \\n\\n&7Coal&r 및 &bArcane Crystal&r는 채석장을 통해 얻을 수 있습니다., &6&lBees&r, 또는 &2&lMA&r. \\n\\n&cBlaze Powder&r는 언급된 마지막 두 모드에서 얻을 수 있습니다., 또는 농장 및 &b&lHNN&r. &cBlaze Powder&r를 얻는 방법은 너무 많습니다."
+  ],
+  "quest.6076D1DB438EB997.title": "&c제련기 프리즘",
+  "quest.766EEB89C6DF3575.quest_desc": [
+    "Eternal Stella는 Smithing Table의 아이템과 결합하여 아이템을 깨지지 않게 만드는 데 사용할 수 있습니다. 아니면 합금 도구를 만드는 데 사용할 수도 있습니다! \\n\\n먼저, 재료가 많이 포함된 Tier 3 Forge가 필요합니다. \\n\\n그러면, 3 Xpetrified Orbs가 필요합니다. 얻으려면 블랙홀 아이템을 공급해야 합니다. \\n\\nPlus, 채굴해야 하는 스텔라라이트 조각! 그리고 &6Allthemodium Ingot&r도 마찬가지입니다."
+  ],
+  "quest.7CC96CE9901F25BB.quest_desc": [
+    "&l&5Forbidden 및 Arcanus&r는 또 다른 마법 모드입니다., 이것은 Multiblock 구조를 중심으로 회전하는 것입니다., 헤파이스토스 대장간.\\n\\n 대장간 툴팁의 지침을 따르도록 만드세요! 일단 만들어지면 4 재료를 공급하여 의식: Aureal을 강화할 수 있습니다., 위, 피, 및 Experience.\\n\\n또한 의식을 통해 Forge를 업그레이드해야 합니다(JEI에서 모두 찾을 수 있음)."
+  ],
+  "quest.022C38096F79EF07.quest_desc": [
+    "&6&lForbidden \\& Arcanus&r는 Arcane을 사용하여 Forge와 함께 의식을 수행하여 더 강해지는 것에 관한 것입니다! \\n\\n또는 대부분이 알고 있는 용도, 영원한 스텔라. 당신이 알고 있는 모드에는 더 많은 것이 있습니다! "
+  ],
+  "quest.022C38096F79EF07.title": "&6&l금지됨 \\& Arcanus",
+  "quest.1FCC474860587169.quest_desc": [
+    "나중에 레시피를 얻으려면 &6Smelter Prism&r가 필요할 가능성이 높으며 이를 얻으려면 Tier 1 Forge만 필요하므로 걱정하지 마세요! \\n\\nJEI에서 Forge의 각 스텟이 얼마나 필요한지 확인할 수 있습니다! 게다가 4 &6블레이즈 가루&r도 필요합니다., 2 &8석탄&r, 그리고 &b아케인 크리스탈&r. \\n\\n마지막으로, Jungle Temples에서 찾을 수 있는 &9EElementarium&r가 필요합니다., 사막 피라미드, 그리고 수중 유적!"
+  ],
+  "quest.1FCC474860587169.title": "&6제련기 프리즘",
+  "quest.2CECCA9D05D3EF12.quest_desc": [
+    "&2Eternal Stella&r는 상당히 비쌉니다. 먼저 Tier 3 Forge가 필요합니다! \\n\\n그러면, 당신은 채굴할 수 있는 &7스텔라라이트 조각&r가 필요합니다. 그리고 더 이상 채굴할 수 없는 3 &aXpetried Orbs&r를 획득해야 합니다. 대신 그것을 얻으려면 블랙홀 &aEXP&r를 공급해야 합니다! \\n\\n마침내, &2Eternal Stella&r를 얻으려면 &6AllTheModium Ingot&r가 필요합니다. 어떤 도구와도 결합하여 무적으로 만들 수 있기 때문에 왜 그렇게 비싼지 이해가 갑니다!"
+  ],
+  "quest.2CECCA9D05D3EF12.title": "&2E터널 스텔라",
+  "quest.70CCE558E03227AB.quest_desc": [
+    "The &6&lRunic Star Altar&r is a Multiblock made by our very own &3Drack.ion&r via &7&lModern Industrialization&r! \\n\\nIt is a 15x8x15 Structure which starts with the &5Runic Star Altar Block&r. Place it down then use a &eWrench&r (from &7&lModern Industrialization&r) on it. Doing so will give you highlights you can follow to build the Mulitblock. \\n\\nAfter you've built it (with help from the 2nd Page of the Quest or &eWrench&r) on each side of the &6&lAltar&r you can replace the &9Polished Darkstone&r next to the &6Arcane Polished Darkstone&r with Hatches. These are needed for the actual &6&lStar&r Crafting. \\n\\nUse Item Input Hatches (all from &l&7Modern Industrialization&r), these are where the Recipe will be placed into. Item Output Hatches are where &6&lThe Star&r will come from. And Energy Inputs are needed to power the &6&lAltar&r! \\nTalking about Energy, the &6&lStar Altar&r will need a boost for getting enough FE/t. To get that we can use stacks of Upgrades from &7&lModern Industrialization&r. These are placed into the &5Altar Block&r and when we Hold Shift when viewing the Item, we can see how much it boosts the &6&lAltar&r! \\n\\nYou can check the &5Altar Block&r to start Recipes with the &6&lAltar&r or if it is not built correctly, it will tell you. \\n\\n(BTW the Loot Bag used in its recipe is from the &5&lLunar Monstrosity&r. Also the direction of blocks like &9Stairs&r or &6Pillars&r do not matter for the &6Altar&r).",
+    "{@pagebreak}",
+    "{image:atm:textures/questpics/chap2/atmstar_layer1.png 너비:125 높이:75 정렬:중심}",
+    "1st 레이어는 &5Altar와 함께 &9Polished Darkstone&r, &9Polished Darkstone Stairs&r 및 &6Arcane Polished Darkstone&r입니다. Block&r.",
+    "{image:atm:textures/questpics/chap2/atmstar_layer2.png 너비:125 높이:75 정렬:중심}",
+    "2nd 레이어는 &9Polished Darkstone&r, &9Stairs&r에 더 가깝고 이제 &6Gilded Chiseled Polished Darkstone&r입니다.",
+    "{image:atm:textures/questpics/chap2/atmstar_layer3.png 너비:125 높이:100 정렬:중심}",
+    "3rd는 &b아케인 수정 오벨리스크&r, &7룬 블록&r, &6아케인 조각으로 다듬어진 광택 다크스톤&r 및 &9광택 다크스톤을 추가합니다. 석판&r!",
+    "{image:atm:textures/questpics/chap2/atmstar_layer4.png 너비:125 높이:100 정렬:중심}",
+    "4번째 레이어에는 &6Darkstone 받침대&r가 있습니다., 중앙의 &7자화된 다크스톤 받침대&r, 및 &6아케인 광택나는 암흑석 기둥&r.",
+    "{image:atm:textures/questpics/chap2/atmstar_layer5.png 너비:125 높이:100 정렬:중심}",
+    "5번째 레이어는 매우 간단합니다. &6Pillars&r가 좀 더 있습니다.",
+    "{image:atm:textures/questpics/chap2/atmstar_layer6.png 너비:125 높이:100 정렬:중심}",
+    "6번째 레이어에는 &7자화 다크스톤 받침대&r 위에 더 많은 &6기둥&r와 &7Quantum Injector&r가 필요합니다.",
+    "{image:atm:textures/questpics/chap2/atmstar_layer7.png 너비:100 높이:100 정렬:중심}",
+    "7th도 매우 간단합니다. &6Pillars&r가 더 많습니다!",
+    "{image:atm:textures/questpics/chap2/atmstar_layer8.png 너비:100 높이:100 정렬:중심}",
+    "마지막 레이어에는 물론 더 많은 &7룬 블록&r 및 &b아케인 수정 블록&r와 함께 더 많은 &6기둥&r가 필요합니다.",
+    "{image:atm:textures/questpics/chap2/atmstar_layer9.png 너비:125 높이:100 정렬:중심}",
+    "이제 Utrem Jar를 추가할 수 있습니다! &5Altar Block&r는 항아리가 가득 차지 않았을 때 짜증나는 것처럼 보였습니다...",
+    "{image:atm:textures/questpics/chap2/atmstar_layer10.png 너비:200 높이:100 정렬:중심}",
+    "{image:atm:textures/questpics/chap2/atmstar_layer11.png 너비:200 높이:100 정렬:중심}",
+    "&6&lAltar&r를 시작하기 위해 마지막으로 해야 할 일, 해치를 추가하고 있습니다. 그림과 같이 &6아케인 광택 암흑석&r 외부에 배치하세요., 몇 가지 항목 입력이 필요합니다, 출력, 및 에너지 입력."
+  ],
+  "quest.70CCE558E03227AB.quest_subtitle": "&l&6ATM 별 제작",
+  "quest.70CCE558E03227AB.title": "&l&6룬별 제단",
+  "quest.61999669BDE127F9.quest_desc": [
+    "아직 눈치 채지 못했다면 의식을 반복해서 만들고 다시 만드는 것은 초크의 내구성에 큰 부담을 줍니다.",
+    "",
+    "초크가 깨질까봐 걱정된다면, 하지만 새로운 분필을 다시 만들기 위해 전체 의식을 수행하고 싶지는 않습니다., 그렇다면 이 의식은 당신을 위한 것입니다!",
+    "",
+    "&aDijinni&r의 힘을 사용하면 모든 색상의 분필을 최대한 복구할 수 있습니다!",
+    "",
+    "또는 Forbidden Arcanus 모드의 &aEternal Stella&r와 같은 것을 사용하여 초크를 영구적으로 보존할 수 있습니다!"
+  ],
+  "quest.6BFF78D4218DF1F2.quest_subtitle": "헤파이스토스 대장간에서 제작"
+}

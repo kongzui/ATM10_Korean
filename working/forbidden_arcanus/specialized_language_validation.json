@@ -1,0 +1,15 @@
+{
+  "kind": "language",
+  "scopes": [
+    {
+      "keys": 288,
+      "untranslated_candidates": [
+        "itemGroup.forbidden_arcanus.main"
+      ],
+      "errors": [],
+      "scope": "forbidden_arcanus"
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

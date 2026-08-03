@@ -561,6 +561,12 @@ TARGETS = (
         "Iron's Patreon Lib",
         True,
     ),
+    Target(
+        "forbidden_arcanus",
+        "forbidden_arcanus-",
+        "forbidden_arcanus",
+        "Forbidden and Arcanus",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -605,6 +611,7 @@ FAMILY_LABELS = {
     "steves_carts": "Steve's Carts",
     "draconic_evolution": "Draconic Evolution",
     "irons_spells": "Iron's Spells 'n Spellbooks",
+    "forbidden_arcanus": "Forbidden and Arcanus",
 }
 
 QUEST_CHAPTERS = {
@@ -654,6 +661,7 @@ QUEST_CHAPTERS = {
     "steves_carts": (),
     "draconic_evolution": ("draconic_evolution",),
     "irons_spells": ("iron_spells_and_spellbooks",),
+    "forbidden_arcanus": ("forbidden__arcanus",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -831,6 +839,12 @@ QUEST_TEXT_MARKERS = {
         "iron's jewelry",
         "irons_jewelry",
         "irons_lib",
+    ),
+    "forbidden_arcanus": (
+        "forbidden and arcanus",
+        "forbidden_arcanus",
+        "hephaestus forge",
+        "eternal stella",
     ),
 }
 
@@ -4082,6 +4096,8 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
             "material.irons_jewelry.unobtainium",
         }
     ):
+        return True
+    if family == "forbidden_arcanus" and key == "itemGroup.forbidden_arcanus.main":
         return True
     if family == "actually_additions" and key in {
         "misc.actuallyadditions.energy_name",

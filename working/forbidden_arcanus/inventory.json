@@ -1,0 +1,52 @@
+{
+  "family": "Forbidden and Arcanus",
+  "installed": [
+    {
+      "label": "Forbidden and Arcanus",
+      "jar": "forbidden_arcanus-2.6.1.jar",
+      "namespace": "forbidden_arcanus",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 288,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "forbidden_arcanus"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 188,
+      "advancement_examples": [
+        "data/forbidden_arcanus/advancement/recipes/apply_modifier/smithing/apply_aquatic_modifier.json",
+        "data/forbidden_arcanus/advancement/recipes/apply_modifier/smithing/apply_demolishing_modifier.json",
+        "data/forbidden_arcanus/advancement/recipes/apply_modifier/smithing/apply_eternal_modifier.json",
+        "data/forbidden_arcanus/advancement/recipes/apply_modifier/smithing/apply_fiery_modifier.json",
+        "data/forbidden_arcanus/advancement/recipes/apply_modifier/smithing/apply_magnetized_modifier.json",
+        "data/forbidden_arcanus/advancement/recipes/apply_modifier/smithing/apply_soulbound_modifier.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/arcane_crystal_from_arcane_crystal_block.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/arcane_edelwood_planks.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/arcane_polished_darkstone_pillar.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/arcane_polished_darkstone_slab.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/arcane_polished_darkstone_stairs.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/aurum_planks.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/aurum_slab.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/aurum_stairs.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/aurum_wood.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/chiseled_arcane_polished_darkstone.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/chiseled_polished_darkstone.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/clibano_core.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/corrupted_arcane_crystal_from_corrupted_arcane_crystal_block.json",
+        "data/forbidden_arcanus/advancement/recipes/building_blocks/cracked_polished_darkstone_bricks.json"
+      ],
+      "recipes": 376
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "bibliowoods-1.21.1-1.6.2.jar",
+      "dependency_mentions": [
+        "forbidden_arcanus"
+      ]
+    }
+  ]
+}
