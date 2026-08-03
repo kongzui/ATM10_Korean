@@ -1,0 +1,20 @@
+{
+  "scopes": [
+    {
+      "keys": 551,
+      "untranslated": [],
+      "validation_errors": 0,
+      "status": "complete",
+      "scope": "language"
+    },
+    {
+      "keys": 2,
+      "untranslated": [],
+      "validation_errors": 0,
+      "status": "complete",
+      "scope": "quests"
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

@@ -1,0 +1,55 @@
+{
+  "family": "Reliquary",
+  "installed": [
+    {
+      "label": "Reliquary",
+      "jar": "reliquary-1.21.1-2.0.74.1509.jar",
+      "namespace": "reliquary",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 551,
+      "bundled_korean_keys": 362,
+      "metadata_mentions_family": [
+        "reliquary"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 148,
+      "advancement_examples": [
+        "data/reliquary/advancement/recipes/misc/alkahestry_altar.json",
+        "data/reliquary/advancement/recipes/misc/alkahestry_tome.json",
+        "data/reliquary/advancement/recipes/misc/angelheart_vial.json",
+        "data/reliquary/advancement/recipes/misc/angelic_feather.json",
+        "data/reliquary/advancement/recipes/misc/aphrodite_potion.json",
+        "data/reliquary/advancement/recipes/misc/apothecary_cauldron.json",
+        "data/reliquary/advancement/recipes/misc/apothecary_mortar.json",
+        "data/reliquary/advancement/recipes/misc/barrel_assembly.json",
+        "data/reliquary/advancement/recipes/misc/bat_wing.json",
+        "data/reliquary/advancement/recipes/misc/bullets/blaze_bullet.json",
+        "data/reliquary/advancement/recipes/misc/bullets/buster_bullet.json",
+        "data/reliquary/advancement/recipes/misc/bullets/concussive_bullet.json",
+        "data/reliquary/advancement/recipes/misc/bullets/ender_bullet.json",
+        "data/reliquary/advancement/recipes/misc/bullets/exorcism_bullet.json",
+        "data/reliquary/advancement/recipes/misc/bullets/neutral_bullet.json",
+        "data/reliquary/advancement/recipes/misc/bullets/sand_bullet.json",
+        "data/reliquary/advancement/recipes/misc/bullets/seeker_bullet.json",
+        "data/reliquary/advancement/recipes/misc/bullets/storm_bullet.json",
+        "data/reliquary/advancement/recipes/misc/catalyzing_gland.json",
+        "data/reliquary/advancement/recipes/misc/chelicerae.json"
+      ],
+      "recipes": 375
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Reliquary",
+      "jar": "reliquary-1.21.1-2.0.74.1509.jar",
+      "namespace": "reliquary",
+      "english_keys": 551,
+      "bundled_ko_kr": 361,
+      "new_translation_required": 190
+    }
+  ]
+}

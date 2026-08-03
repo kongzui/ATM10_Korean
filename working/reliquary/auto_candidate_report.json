@@ -1,0 +1,20 @@
+{
+  "family": "reliquary",
+  "english_files": 2,
+  "unique_strings": 491,
+  "candidate_requests": 408,
+  "candidate_failures": [],
+  "outputs": [
+    {
+      "source": "working/reliquary/quests/related/en_us.json",
+      "output": "working/reliquary/quests/related/auto_candidates.json",
+      "strings": 2
+    },
+    {
+      "source": "working/reliquary/reliquary/en_us.json",
+      "output": "working/reliquary/reliquary/auto_candidates.json",
+      "strings": 551
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}
