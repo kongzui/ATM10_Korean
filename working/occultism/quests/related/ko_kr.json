@@ -1,0 +1,25 @@
+{
+  "quest.201EE3566D4D3123.quest_desc": [
+    "&6Allthemodium&r을 채굴하려면 &c네더라이트&r 등급 이상의 곡괭이가 필요합니다!\\n\\n광석을 얻었다면 행운, Occultism 또는 Mekanism으로 처리해 생산량부터 늘리는 것을 권장합니다. 그다음에는 여러 활용법을 선택할 수 있습니다.\\n\\n먼저 &6조각&r으로 텔레포트 패드 2개를 만드세요! &7&l채굴 차원&r에서 &6Allthemodium&r을 더 찾거나 &b&lThe Other&r로 이동해 새로운 모험을 할 수 있습니다.\\n\\n그다음에는 &3Vibranium&r을 채굴할 수 있도록 곡괭이를 업그레이드하는 것을 권장합니다. 이후 선택은 여러분의 몫입니다!",
+    "{image:atm:textures/questpics/allthemodium/all_1.png width:100 height:100 align:center}"
+  ],
+  "quest.61217D80BFF8A858.quest_subtitle": "정말 Occultism과는 아무 관련이 없습니다",
+  "task.485E17B9E80D5DFF.title": "Occultism 곡괭이",
+  "quest.216DA9782EBDFF34.quest_desc": [
+    "아무리 좋은 책과 아이템이 있어도 악마가 모든 명령에 따르며 노예처럼 일한다는 설정은 비현실적인 것 같습니다.\\n\\n그래도 퀘스트를 따라가면 실제로 그렇게 부릴 수 있습니다."
+  ],
+  "quest.216DA9782EBDFF34.title": "&b&lOccultism",
+  "quest.4195800B4D7631E2.quest_desc": [
+    "&6Eziveus' Spectral Compulsion&r 의식으로 &7웜홀 프레임&r, 석영 2개, &3엔더 진주&r를 조합해 안정된 웜홀을 만들 수 있습니다!"
+  ],
+  "quest.4195800B4D7631E2.title": "&6안정된 웜홀",
+  "quest.67C76EDD4BCCFF3F.quest_desc": [
+    "&bStrigeor's Higher Binding&r으로 &b빈 영혼 보석&r을 만들 수 있습니다.\\n\\n몹을 안전하게 운반하거나 &d&l드래곤 영혼&r을 만드는 데 사용합니다.\\n\\n둘 다 해 보는 것을 권장합니다!"
+  ],
+  "quest.67C76EDD4BCCFF3F.title": "&b빈 영혼 보석",
+  "quest.4E5238F00CEED8B2.quest_desc": [
+    "초반에는 원광석을 바로 제련해야 하지만, 그러면 추가 자원을 놓치게 됩니다!\\n\\n원광석당 생산량을 두 배로 늘리는 방법은 여럿이며, 가장 쉬운 방법 중 하나는 &e광석 망치&r를 만들어 사용하는 것입니다.\\n\\n광석 망치는 원광석 1개를 광석 가루 2개로 만들며, 가루를 제련하면 주괴 생산량이 두 배가 됩니다!\\n\\n원광석 하나에서 더 많이 얻고 싶다면 &5Occultism&r을 확인하세요!"
+  ],
+  "quest.41FD145B911BD625.title": "이에스늄 벌",
+  "quest.3D5852E6D0ADF651.title": "차원 저장소"
+}

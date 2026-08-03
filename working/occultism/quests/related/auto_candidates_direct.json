@@ -1,0 +1,25 @@
+{
+  "quest.201EE3566D4D3123.quest_desc": [
+    "&6Allthemodium&r를 채굴하려면 &c네더ite&r 등급 이상의 곡괭이가 필요합니다! \\n\\n마침내 광석을 얻으면(먼저 더 많은 것을 얻으려면 Fortune, Occultism 또는 Mekanism으로 처리하는 것이 좋습니다) 광석으로 무엇을 할지에 대한 몇 가지 선택을 할 수 있습니다. \\n\\nI &6Nuggets&r로 텔레포트 패드 2개를 만드는 것이 좋습니다! 이를 사용하여 &7&lMining Dimension&r로 이동하여 더 많은 &6Allthemodium&r 또는 &b&lThe Other&r를 찾아 다른 모험을 찾을 수 있습니다. \\n\\n그런 다음 &3Vibranium&r를 채굴할 수 있도록 곡괭이를 업그레이드하는 것이 좋습니다. 나머지는 모두 당신에게 달려 있습니다!",
+    "{image:atm:textures/questpics/allthemodium/all_1.png 너비:100 높이:100 정렬:중앙}"
+  ],
+  "quest.61217D80BFF8A858.quest_subtitle": "맹세컨대 Occultism와는 아무 관련이 없습니다",
+  "task.485E17B9E80D5DFF.title": "Occultism 곡괭이",
+  "quest.216DA9782EBDFF34.quest_desc": [
+    "나는 이 모드가 비현실적이라고 생각한다. 나는 당신이 어떤 책이나 아이템을 가지고 있는지 상관하지 않습니다. 나는 악마가 당신의 모든 명령을 따르고 당신의 노예로 일할 것이라고 생각하지 않습니다. \\n\\n에 관계없이 퀘스트를 수행하면 됩니다."
+  ],
+  "quest.216DA9782EBDFF34.title": "&b&l비밀주의",
+  "quest.4195800B4D7631E2.quest_desc": [
+    "&6Eziveus의 스펙트럼 강박 &r 의식을 통해 우리는 &7웜홀 프레임&r, 석영 2개, &3Enderpearl&r를 결합하여 웜홀을 얻을 수 있습니다!"
+  ],
+  "quest.4195800B4D7631E2.title": "&6안정적인 웜홀",
+  "quest.67C76EDD4BCCFF3F.quest_desc": [
+    "&bStrigeor의 상위 속박&r를 통해 우리는 &bEmpty 영혼 보석&r를 만들 수 있습니다. \\n\\n몹을 안전하게 수송하거나 &d&lDragon Soul&r를 만드는 데 사용할 수 있습니다. \\n\\n개인적으로는 둘 다 해야 한다고 생각해요!"
+  ],
+  "quest.67C76EDD4BCCFF3F.title": "&bE빈 영혼 보석",
+  "quest.4E5238F00CEED8B2.quest_desc": [
+    "처음에 원광석을 제련하는 것이 필요하지만 추가 자원을 놓치게 됩니다!\\n\\n원광석당 생산량을 두 배로 늘리는 방법에는 여러 가지가 있지만 가장 쉬운 방법 중 하나는 &e광석 Hammer&r.\\n\\n를 만들어 사용하는 것입니다. 1개의 원시 광석을 2개의 광석 가루로 만들어 주괴로 제련할 수 있어 잉곳 생산량을 효과적으로 두 배로 늘릴 수 있습니다! \\n\\n원광석당 더 많은 것을 원하시나요? &5Occultism&r 모드를 확인해 보세요!"
+  ],
+  "quest.41FD145B911BD625.title": "에스늄 벌",
+  "quest.3D5852E6D0ADF651.title": "차원 저장소"
+}

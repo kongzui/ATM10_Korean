@@ -1,0 +1,25 @@
+{
+  "quest.201EE3566D4D3123.quest_desc": [
+    "To mine &6Allthemodium&r you'll need a Pickaxe that is &cNetherite&r Tier or higher! \\n\\nOnce you finally get the Ore (first I recommend processing it either with Fortune, Occultism, or Mekanism to get more) then you can get a few choices of what to do with it. \\n\\nI recommend making 2 Teleport Pads with the &6Nuggets&r! You can use those to get to the &7&lMining Dimension&r to find more &6Allthemodium&r or &b&lThe Other&r to find other adventures. \\n\\nAfter that I recommend upgrading your Pickaxe so you can Mine &3Vibranium&r. The rest is all up to you!",
+    "{image:atm:textures/questpics/allthemodium/all_1.png width:100 height:100 align:center}"
+  ],
+  "quest.61217D80BFF8A858.quest_subtitle": "Nothing to do with Occultism I swear",
+  "task.485E17B9E80D5DFF.title": "Occultism Pickaxes",
+  "quest.216DA9782EBDFF34.quest_desc": [
+    "I think this Mod is unrealistic. I don't care what Books or Items you have, I don't think the Demonic will follow your every command and work as a slave for you. \\n\\nRegardless you can follow the Quests to do so."
+  ],
+  "quest.216DA9782EBDFF34.title": "&b&lOccultism",
+  "quest.4195800B4D7631E2.quest_desc": [
+    "Through the ritual of &6Eziveus' Spectral Compulsion&r we can combine a &7Wormhole Frame&r, 2 Quartz, and an &3Enderpearl&r to get our Wormhole!"
+  ],
+  "quest.4195800B4D7631E2.title": "&6Stable Wormhole",
+  "quest.67C76EDD4BCCFF3F.quest_desc": [
+    "Through &bStrigeor's Higher Binding&r we can make an &bEmpty Soul Gem&r. \\n\\nThese can be used to transport Mobs safely, or make the &d&lDragon Soul&r. \\n\\nPersonally I think we should do both!"
+  ],
+  "quest.67C76EDD4BCCFF3F.title": "&bEmpty Soul Gem",
+  "quest.4E5238F00CEED8B2.quest_desc": [
+    "Smelting down raw ores in the beginning is necessary, but you are missing out on extra resources!\\n\\nThere are several ways to double your output per raw ore, but one of the easiest ways is by creating and using an &eOre Hammer&r.\\n\\nThese will break down 1 raw ore into 2 ore dust, which can be smelted into ingots, effectively doubling your ingot output!\\n\\nWant more per raw ore? Check out the mod &5Occultism&r!"
+  ],
+  "quest.41FD145B911BD625.title": "Iesnium Bee",
+  "quest.3D5852E6D0ADF651.title": "Dimensional Storage"
+}

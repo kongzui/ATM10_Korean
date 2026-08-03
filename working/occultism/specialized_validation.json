@@ -1,0 +1,27 @@
+{
+  "scopes": [
+    {
+      "keys": 3587,
+      "untranslated_candidates": [],
+      "errors": [],
+      "status": "complete",
+      "scope": "occultism"
+    },
+    {
+      "keys": 162,
+      "untranslated_candidates": [],
+      "errors": [],
+      "status": "complete",
+      "scope": "quests/occultism"
+    },
+    {
+      "keys": 12,
+      "untranslated_candidates": [],
+      "errors": [],
+      "status": "complete",
+      "scope": "quests/related"
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

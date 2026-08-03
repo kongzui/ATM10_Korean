@@ -585,6 +585,12 @@ TARGETS = (
         "theurgy",
         "Theurgy",
     ),
+    Target(
+        "occultism",
+        "occultism-",
+        "occultism",
+        "Occultism",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -633,6 +639,7 @@ FAMILY_LABELS = {
     "natures_aura": "Nature's Aura",
     "roots_classic": "Roots Classic",
     "theurgy": "Theurgy",
+    "occultism": "Occultism",
 }
 
 QUEST_CHAPTERS = {
@@ -686,6 +693,7 @@ QUEST_CHAPTERS = {
     "natures_aura": ("natures_aura",),
     "roots_classic": (),
     "theurgy": ("theurgy",),
+    "occultism": ("occultism",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -695,6 +703,23 @@ QUEST_CHAPTER_OUTPUT = (
 
 QUEST_VALIDATION_TEXT_EQUIVALENTS = {
     "quest.7B3613C01F0B1373.quest_desc": (("1 Billion", "10억"),),
+    "quest.1BDB369FD243D4C6.quest_desc": (("one level", "1 level"),),
+    "quest.29C83B00AC4AFC23.quest_desc": (("four", "4"),),
+    "quest.2A3683BF7E50EF83.quest_desc": (("Third Eye", "제3의 눈"),),
+    "quest.2A5004EB99AE4F96.quest_desc": (("Third Eye", "제3의 눈"),),
+    "quest.33106E24A3B5DDD8.quest_desc": (("Third Eye", "제3의 눈"),),
+    "quest.367E891A50991436.quest_desc": (("three", "3"),),
+    "quest.47358ADC1470C82A.quest_desc": (("Third Eye", "제3의 눈"),),
+    "quest.4C873491F6F0FFAF.quest_desc": (("Third Eye", "제3의 눈"),),
+    "quest.6FFFAE334DFAAAAB.quest_desc": (("one fourth", "4분의 1"),),
+    "quest.78ECC28DD4BA9696.quest_desc": (("Third Eye", "제3의 눈"),),
+}
+
+FAMILY_LANGUAGE_EXTRA_KEYS = {
+    "occultism": {
+        "book.occultism.dictionary_of_spirits.crafting_rituals."
+        "craft_eldritch_chalice.ritual2.text"
+    },
 }
 
 QUEST_TEXT_MARKERS = {
@@ -893,6 +918,16 @@ QUEST_TEXT_MARKERS = {
         "mercury distiller",
         "reformation array",
     ),
+    "occultism": (
+        "occultism",
+        "dictionary of spirits",
+        "dimensional storage",
+        "iesnium",
+        "afrit",
+        "foliot",
+        "djinni",
+        "marid",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -926,6 +961,22 @@ ALLOWED_ORIGINALS = {
     "Nature's Aura",
     "Roots Classic",
     "Theurgy",
+    "Occultism",
+    "Abras Conjure",
+    "Fatma's Incentivized Attraction",
+    "Ihagan's Enthrallment",
+    "Kandar's Opened Conjure",
+    "Odus' Open Convocation",
+    "Ophyx' Calling",
+    "Osorin's Unbound Calling",
+    "Ronaza's Contact",
+    "Sevira's Permanent Confinement",
+    "Strigeor's Higher Binding",
+    "Susjes Simple Circle",
+    "Tibira's Attraction",
+    "Uphyxes' Inverted Tower",
+    "Xeovrenth Adjure",
+    "Eziveus' Spectral Compulsion",
     "Mekanism",
     "Mekanism: Generators",
     "Mekanism: Tools",
@@ -4164,6 +4215,11 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
         "tooltip.theurgy.extended_heading",
     }:
         return True
+    if family == "occultism" and key in {
+        "itemGroup.occultism",
+        "item.occultism.dictionary_of_spirits",
+    }:
+        return True
     if family == "actually_additions" and key in {
         "misc.actuallyadditions.energy_name",
         "misc.actuallyadditions.power_long",
@@ -4204,7 +4260,10 @@ def verify_language(
         english = load_json(english_file)
         korean = load_json(korean_file)
         sources = load_json(root / "candidate_sources.json")
-        if list(english) != list(korean):
+        expected_keys = list(english) + list(
+            FAMILY_LANGUAGE_EXTRA_KEYS.get(family, set())
+        )
+        if expected_keys != list(korean):
             errors.append(f"키 또는 순서 불일치: {target.namespace}")
             continue
         raw = korean_file.read_text(encoding="utf-8")
@@ -4250,7 +4309,7 @@ def verify_language(
         output = OUTPUT_ASSETS / target.namespace / "lang/ko_kr.json"
         expected_output = dict(korean)
         guide_extra_path = PROJECT_ROOT / "working/ars_nouveau/guide_extra_ko_kr.json"
-        guide_extra_keys = 0
+        guide_extra_keys = len(FAMILY_LANGUAGE_EXTRA_KEYS.get(family, set()))
         integration_extra_keys = 0
         if family == "ars_nouveau" and guide_extra_path.is_file():
             guide_extra = {
@@ -4338,6 +4397,9 @@ def verify_language(
             )
         provenance = Counter()
         for key, target_value in korean.items():
+            if key not in english:
+                provenance["new_or_edited"] += 1
+                continue
             source_value = english[key]
             reusable = target_value != source_value or is_family_allowed_original(
                 family, key, str(target_value)

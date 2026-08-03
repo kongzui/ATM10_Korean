@@ -1,0 +1,14 @@
+{
+  "family": "Occultism",
+  "chapters": {
+    "occultism": {
+      "display_keys": 162,
+      "new_translation_required": 24,
+      "project_output_review": 138
+    },
+    "related": {
+      "display_keys": 12,
+      "project_output_review": 12
+    }
+  }
+}

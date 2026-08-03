@@ -1,0 +1,85 @@
+{
+  "family": "Occultism",
+  "installed": [
+    {
+      "label": "Occultism",
+      "jar": "occultism-1.21.1-neoforge-1.223.0.jar",
+      "namespace": "occultism",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 3587,
+      "bundled_korean_keys": 3587,
+      "metadata_mentions_family": [
+        "occultism"
+      ],
+      "guide_candidates": 296,
+      "guide_examples": [
+        "assets/occultism/models/item/book_of_binding_afrit.json",
+        "assets/occultism/models/item/book_of_binding_bound_afrit.json",
+        "assets/occultism/models/item/book_of_binding_bound_djinni.json",
+        "assets/occultism/models/item/book_of_binding_bound_foliot.json",
+        "assets/occultism/models/item/book_of_binding_bound_marid.json",
+        "assets/occultism/models/item/book_of_binding_djinni.json",
+        "assets/occultism/models/item/book_of_binding_empty.json",
+        "assets/occultism/models/item/book_of_binding_foliot.json",
+        "assets/occultism/models/item/book_of_binding_marid.json",
+        "assets/occultism/models/item/book_of_calling_djinni_manage_machine.json",
+        "assets/occultism/models/item/book_of_calling_foliot_cleaner.json",
+        "assets/occultism/models/item/book_of_calling_foliot_farmer.json",
+        "assets/occultism/models/item/book_of_calling_foliot_lumberjack.json",
+        "assets/occultism/models/item/book_of_calling_foliot_transport_items.json",
+        "assets/occultism/models/item/taboo_book.json",
+        "data/occultism/advancement/recipes/misc/crafting/book_of_binding_afrit.json",
+        "data/occultism/advancement/recipes/misc/crafting/book_of_binding_afrit_from_empty.json",
+        "data/occultism/advancement/recipes/misc/crafting/book_of_binding_bound_djinni_from_calling.json",
+        "data/occultism/advancement/recipes/misc/crafting/book_of_binding_bound_foliot_from_calling.json",
+        "data/occultism/advancement/recipes/misc/crafting/book_of_binding_djinni.json"
+      ],
+      "advancements": 1131,
+      "advancement_examples": [
+        "data/occultism/advancement/chalks/black.json",
+        "data/occultism/advancement/chalks/blue.json",
+        "data/occultism/advancement/chalks/brown.json",
+        "data/occultism/advancement/chalks/cyan.json",
+        "data/occultism/advancement/chalks/gray.json",
+        "data/occultism/advancement/chalks/green.json",
+        "data/occultism/advancement/chalks/light_blue.json",
+        "data/occultism/advancement/chalks/light_gray.json",
+        "data/occultism/advancement/chalks/lime.json",
+        "data/occultism/advancement/chalks/magenta.json",
+        "data/occultism/advancement/chalks/orange.json",
+        "data/occultism/advancement/chalks/pink.json",
+        "data/occultism/advancement/chalks/purple.json",
+        "data/occultism/advancement/chalks/rainbow.json",
+        "data/occultism/advancement/chalks/red.json",
+        "data/occultism/advancement/chalks/root.json",
+        "data/occultism/advancement/chalks/void.json",
+        "data/occultism/advancement/chalks/white.json",
+        "data/occultism/advancement/chalks/yellow.json",
+        "data/occultism/advancement/occultism/craft_dark_iesnium_sacrificial_bowl.json"
+      ],
+      "recipes": 1857
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
+      "dependency_mentions": [
+        "occultism"
+      ]
+    },
+    {
+      "jar": "bibliowoods-1.21.1-1.6.2.jar",
+      "dependency_mentions": [
+        "occultism"
+      ]
+    },
+    {
+      "jar": "occultism_kubejs-1.21.1-neoforge-1.11.0.jar",
+      "dependency_mentions": [
+        "occultism"
+      ]
+    }
+  ]
+}
