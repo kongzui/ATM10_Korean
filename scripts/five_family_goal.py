@@ -579,6 +579,12 @@ TARGETS = (
         "rootsclassic",
         "Roots Classic",
     ),
+    Target(
+        "theurgy",
+        "theurgy-",
+        "theurgy",
+        "Theurgy",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -626,6 +632,7 @@ FAMILY_LABELS = {
     "forbidden_arcanus": "Forbidden and Arcanus",
     "natures_aura": "Nature's Aura",
     "roots_classic": "Roots Classic",
+    "theurgy": "Theurgy",
 }
 
 QUEST_CHAPTERS = {
@@ -678,6 +685,7 @@ QUEST_CHAPTERS = {
     "forbidden_arcanus": ("forbidden__arcanus",),
     "natures_aura": ("natures_aura",),
     "roots_classic": (),
+    "theurgy": ("theurgy",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -877,6 +885,14 @@ QUEST_TEXT_MARKERS = {
         "sylvan armor",
         "wildwood armor",
     ),
+    "theurgy": (
+        "theurgy",
+        "alchemical salt",
+        "alchemical sulfur",
+        "sal ammoniac",
+        "mercury distiller",
+        "reformation array",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -909,6 +925,7 @@ ALLOWED_ORIGINALS = {
     "Draconic Evolution",
     "Nature's Aura",
     "Roots Classic",
+    "Theurgy",
     "Mekanism",
     "Mekanism: Generators",
     "Mekanism: Tools",
@@ -4139,6 +4156,13 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     }:
         return True
     if family == "roots_classic" and key == "itemGroup.rootsclassic":
+        return True
+    if family == "theurgy" and key in {
+        "item_group.theurgy",
+        "book.theurgy.the_hermetica.name",
+        "theurgy.misc.unit.millibuckets",
+        "tooltip.theurgy.extended_heading",
+    }:
         return True
     if family == "actually_additions" and key in {
         "misc.actuallyadditions.energy_name",

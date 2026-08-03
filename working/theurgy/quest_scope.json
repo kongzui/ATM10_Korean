@@ -1,0 +1,13 @@
+{
+  "family": "Theurgy",
+  "chapters": {
+    "theurgy": {
+      "display_keys": 87,
+      "new_translation_required": 2,
+      "project_output_review": 85
+    },
+    "related": {
+      "display_keys": 0
+    }
+  }
+}

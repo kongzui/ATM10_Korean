@@ -1,0 +1,27 @@
+{
+  "family": "theurgy",
+  "english_files": 3,
+  "unique_strings": 1348,
+  "candidate_requests": 170,
+  "candidate_failures": [
+    "§aRight-Click§r§7 with ingredients to place them in the vat for processing.\n§aShift-right-Click§r§7 with an empty hand to close or open the vat to start or stop processing.\n: 자동 번역 후보 요청 실패: §aShift-right-Click§r§7 with an empty hand to close or open the vat to start or stop processing."
+  ],
+  "outputs": [
+    {
+      "source": "working/theurgy/quests/related/en_us.json",
+      "output": "working/theurgy/quests/related/auto_candidates.json",
+      "strings": 0
+    },
+    {
+      "source": "working/theurgy/quests/theurgy/en_us.json",
+      "output": "working/theurgy/quests/theurgy/auto_candidates.json",
+      "strings": 103
+    },
+    {
+      "source": "working/theurgy/theurgy/en_us.json",
+      "output": "working/theurgy/theurgy/auto_candidates.json",
+      "strings": 2744
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}

@@ -1,0 +1,78 @@
+{
+  "family": "Theurgy",
+  "installed": [
+    {
+      "label": "Theurgy",
+      "jar": "theurgy-1.21.1-neoforge-1.73.1.jar",
+      "namespace": "theurgy",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 2744,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "theurgy"
+      ],
+      "guide_candidates": 94,
+      "guide_examples": [
+        "data/theurgy/advancement/book_root.json",
+        "data/theurgy/modonomicon/books/the_hermetica/book.json",
+        "data/theurgy/modonomicon/books/the_hermetica/categories/apparatus.json",
+        "data/theurgy/modonomicon/books/the_hermetica/categories/getting_started.json",
+        "data/theurgy/modonomicon/books/the_hermetica/categories/logistics.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/basic_vat_automation.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/calcination_oven.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/caloric_flux_emitter.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/digestion_vat.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/distiller.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/fermentation_vat.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/how_to.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/incubator.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/intro.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/liquefaction_cauldron.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/mercury_catalyst.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/mercury_flux.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/pyromantic_brazier.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/reformation_array.json",
+        "data/theurgy/modonomicon/books/the_hermetica/entries/apparatus/result_pedestal.json"
+      ],
+      "advancements": 9,
+      "advancement_examples": [
+        "data/theurgy/advancement/book_root.json",
+        "data/theurgy/advancement/has_amethyst_rod.json",
+        "data/theurgy/advancement/has_basic_rod.json",
+        "data/theurgy/advancement/has_liquefaction_cauldron.json",
+        "data/theurgy/advancement/has_precious_rod.json",
+        "data/theurgy/advancement/has_rare_rod.json",
+        "data/theurgy/advancement/has_t2_rod.json",
+        "data/theurgy/advancement/has_t3_rod.json",
+        "data/theurgy/advancement/has_t4_rod.json"
+      ],
+      "recipes": 1730
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [
+    {
+      "jar": "occultism-1.21.1-neoforge-1.223.0.jar",
+      "dependency_mentions": [
+        "theurgy"
+      ]
+    },
+    {
+      "jar": "theurgy_kubejs-1.21.1-neoforge-1.5.1.jar",
+      "dependency_mentions": [
+        "theurgy"
+      ]
+    }
+  ],
+  "language_candidates": [
+    {
+      "label": "Theurgy",
+      "jar": "theurgy-1.21.1-neoforge-1.73.1.jar",
+      "namespace": "theurgy",
+      "english_keys": 2744,
+      "new_translation_required": 2737,
+      "project_output_review": 7
+    }
+  ]
+}
