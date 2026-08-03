@@ -1,0 +1,8 @@
+{
+  "unique_strings": 554,
+  "candidate_requests": 75,
+  "candidate_failures": [
+    "구조 불일치: The SecurityCraft Manual shows basic information regarding all the blocks and items SecurityCraft adds. For more in-dept"
+  ],
+  "status": "candidate_requires_full_review"
+}

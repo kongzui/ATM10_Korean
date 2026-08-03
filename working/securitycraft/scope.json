@@ -1,0 +1,76 @@
+{
+  "family": "SecurityCraft",
+  "installed": [
+    {
+      "label": "SecurityCraft",
+      "jar": "[1.21.1] SecurityCraft v1.10.1.jar",
+      "namespace": "securitycraft",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 1521,
+      "bundled_korean_keys": 1017,
+      "metadata_mentions_family": [
+        "securitycraft"
+      ],
+      "guide_candidates": 34,
+      "guide_examples": [
+        "assets/securitycraft/blockstates/reinforced_bookshelf.json",
+        "assets/securitycraft/blockstates/reinforced_chiseled_bookshelf.json",
+        "assets/securitycraft/models/block/reinforced_bookshelf.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_empty_slot_bottom_left.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_empty_slot_bottom_mid.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_empty_slot_bottom_right.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_empty_slot_top_left.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_empty_slot_top_mid.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_empty_slot_top_right.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_inventory.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_occupied_slot_bottom_left.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_occupied_slot_bottom_mid.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_occupied_slot_bottom_right.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_occupied_slot_top_left.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_occupied_slot_top_mid.json",
+        "assets/securitycraft/models/block/reinforced_chiseled_bookshelf_occupied_slot_top_right.json",
+        "assets/securitycraft/models/block/template_reinforced_chiseled_bookshelf_slot_bottom_left.json",
+        "assets/securitycraft/models/block/template_reinforced_chiseled_bookshelf_slot_bottom_mid.json",
+        "assets/securitycraft/models/block/template_reinforced_chiseled_bookshelf_slot_bottom_right.json"
+      ],
+      "advancements": 834,
+      "advancement_examples": [
+        "data/securitycraft/advancement/recipes/building_blocks/ancient_debris_mine.json",
+        "data/securitycraft/advancement/recipes/building_blocks/blast_furnace_mine.json",
+        "data/securitycraft/advancement/recipes/building_blocks/chiseled_crystal_quartz.json",
+        "data/securitycraft/advancement/recipes/building_blocks/chiseled_crystal_quartz_from_crystal_quartz_stonecutting.json",
+        "data/securitycraft/advancement/recipes/building_blocks/coal_mine.json",
+        "data/securitycraft/advancement/recipes/building_blocks/cobbled_deepslate_mine.json",
+        "data/securitycraft/advancement/recipes/building_blocks/cobblestone_mine.json",
+        "data/securitycraft/advancement/recipes/building_blocks/copper_mine.json",
+        "data/securitycraft/advancement/recipes/building_blocks/crystal_quartz.json",
+        "data/securitycraft/advancement/recipes/building_blocks/crystal_quartz_bricks.json",
+        "data/securitycraft/advancement/recipes/building_blocks/crystal_quartz_bricks_from_crystal_quartz_stonecutting.json",
+        "data/securitycraft/advancement/recipes/building_blocks/crystal_quartz_pillar.json",
+        "data/securitycraft/advancement/recipes/building_blocks/crystal_quartz_pillar_from_crystal_quartz_stonecutting.json",
+        "data/securitycraft/advancement/recipes/building_blocks/crystal_quartz_slab.json",
+        "data/securitycraft/advancement/recipes/building_blocks/crystal_quartz_slab_from_crystal_quartz_stonecutting.json",
+        "data/securitycraft/advancement/recipes/building_blocks/crystal_quartz_stairs.json",
+        "data/securitycraft/advancement/recipes/building_blocks/crystal_quartz_stairs_from_crystal_quartz_stonecutting.json",
+        "data/securitycraft/advancement/recipes/building_blocks/deepslate_coal_mine.json",
+        "data/securitycraft/advancement/recipes/building_blocks/deepslate_copper_mine.json",
+        "data/securitycraft/advancement/recipes/building_blocks/deepslate_diamond_mine.json"
+      ],
+      "recipes": 1675
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "SecurityCraft",
+      "jar": "[1.21.1] SecurityCraft v1.10.1.jar",
+      "namespace": "securitycraft",
+      "english_keys": 1521,
+      "bundled_ko_kr": 1016,
+      "new_translation_required": 505
+    }
+  ]
+}

@@ -597,6 +597,12 @@ TARGETS = (
         "mahoutsukai",
         "Mahou Tsukai",
     ),
+    Target(
+        "securitycraft",
+        "[1.21.1] SecurityCraft",
+        "securitycraft",
+        "SecurityCraft",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -647,6 +653,7 @@ FAMILY_LABELS = {
     "theurgy": "Theurgy",
     "occultism": "Occultism",
     "mahou_tsukai": "Mahou Tsukai",
+    "securitycraft": "SecurityCraft",
 }
 
 QUEST_CHAPTERS = {
@@ -702,6 +709,7 @@ QUEST_CHAPTERS = {
     "theurgy": ("theurgy",),
     "occultism": ("occultism",),
     "mahou_tsukai": ("mahou_tsukai",),
+    "securitycraft": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -944,6 +952,11 @@ QUEST_TEXT_MARKERS = {
         "caliburn",
         "morgan",
     ),
+    "securitycraft": (
+        "securitycraft",
+        "security craft",
+        "reinforced stone",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -979,6 +992,7 @@ ALLOWED_ORIGINALS = {
     "Theurgy",
     "Occultism",
     "Mahou Tsukai",
+    "SecurityCraft",
     "Nobu",
     "/maxmahou player_name new_mahou_limit",
     "/mahoukodoku player_name kodoku_value",
