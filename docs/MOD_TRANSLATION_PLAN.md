@@ -110,7 +110,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Draconic Evolution                  | 드라코닉 에볼루션       | 모듈식 최종 장비, 에너지 저장과 반응로를 제공   | Brandon's Core는 의존성으로 확인, 전용·관련 퀘스트·KubeJS            | 완료   | 기존 계획·전용 퀘스트 챕터         |
 | Iron Jetpacks·장비 편의             | 아이언 제트팩·장비 편의 | 비행, 체력 확장과 휴대 장비 슬롯을 제공         | Iron Jetpacks, Baubley Heart Canisters, Tool Belt, Simple Magnets    | 완료   | 신규: 자주 사용하는 성장·편의 장비 |
 | Gateways to Eternity·Hellish Trials | 영원의 관문·지옥의 시련 | 소환형 전투 도전과 단계별 보상을 제공           | 두 본체, Apotheosis 관련 보상과 퀘스트                               | 미작업 | 신규: 독립 전투 콘텐츠             |
-| Reliquary                           | 렐리쿼리                | 전리품 기반 유물, 도구와 마법성 아이템을 제공   | 본체, 관련 조합법과 퀘스트                                           | 미작업 | 신규: 독립 장비·유물 콘텐츠        |
+| Reliquary                           | 렐리쿼리                | 전리품 기반 유물, 도구와 마법성 아이템을 제공   | 본체, 관련 조합법과 퀘스트                                           | 완료   | 신규: 독립 장비·유물 콘텐츠        |
 
 ### 전력·물류·기술 자동화
 
@@ -147,8 +147,8 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Productive Bees                 | 프로덕티브 비즈               | 벌과 유전자를 이용해 자원을 생산           | Modular Bees, 관련 퀘스트·KubeJS·발전 과제·가이드                                                        | 완료   | 기존 계획·가장 큰 퀘스트 챕터      |
 | Productive Trees                | 프로덕티브 트리즈             | 다양한 나무를 수집·교배해 자원을 생산      | Productive Bees 직접 연동, 전용 퀘스트·KubeJS·발전 과제·가이드                                           | 완료   | 신규: 전용 퀘스트·영어 4,149키     |
 | Hostile Neural Networks         | 적대적 신경망                 | 몹 데이터 모델을 학습해 전리품을 자동 생산 | 본체, 전용 퀘스트 챕터                                                                                   | 완료   | 신규: 대표 몹 자동화 모드          |
-| Farmer's Delight 계열           | 파머스 딜라이트 계열          | 조리·주방·농업과 식사 콘텐츠를 확장        | Farmer's Delight, Cooking for Blockheads, Farming for Blockheads                                         | 미작업 | 신규: 음식·농업 퀘스트의 중심      |
-| Pam's HarvestCraft 2            | 팸의 하베스트크래프트 2       | 작물·과일나무와 대량의 요리를 추가         | Crops, Food Core, Food Extended, Trees                                                                   | 미작업 | 신규: 영어 문구와 음식 항목이 많음 |
+| Farmer's Delight 계열           | 파머스 딜라이트 계열          | 조리·주방·농업과 식사 콘텐츠를 확장        | Farmer's Delight, Cooking for Blockheads, Farming for Blockheads                                         | 완료   | 신규: 음식·농업 퀘스트의 중심      |
+| Pam's HarvestCraft 2            | 팸의 하베스트크래프트 2       | 작물·과일나무와 대량의 요리를 추가         | Crops, Food Core, Food Extended, Trees                                                                   | 완료   | 신규: 영어 문구와 음식 항목이 많음 |
 | Botany Pots·Botany Trees        | 보타니 포츠·보타니 트리즈     | 화분에서 작물과 나무를 자동 재배           | 두 본체와 Mystical 연동                                                                                  | 완료   | 신규: 초중반 자원 자동화           |
 | Productive Metalworks           | 프로덕티브 메탈웍스           | 금속 용해·주조와 재료 생산 설비를 제공     | 본체와 다른 자원 모드 연동                                                                               | 완료   | 신규: 영어 376키의 생산 시스템     |
 | All The Ores·All The Compressed | 올 더 오어스·올 더 컴프레스드 | 팩 공통 광물과 대량 압축 블록을 제공       | Allthemodium·ATM Star·관련 퀘스트                                                                        | 완료   | 신규: ATM 공통 자원·영어 항목 다수 |
@@ -178,7 +178,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | The Bumblezone                              | 범블존                                       | 벌집 차원에서 탐험·수집·보스 콘텐츠를 제공      | 본체, Dyenamics and Friends 직접 연동, 전용·관련 퀘스트·발전 과제·fallback 표시                               | 완료   | 신규: 전용 퀘스트·영어 1,788키       |
 | Eternal Starlight                           | 이터널 스타라이트                            | 별빛 테마 차원, 생물군계, 던전과 보스를 제공    | 본체, Bibliowoods·Hostile Neural Networks 직접 연동, 전용·관련 퀘스트·KubeJS·발전 과제·인게임 책              | 완료   | 신규: 전용 퀘스트·영어 1,788키       |
 | Deeper and Darker                           | 디퍼 앤 다커                                 | 딥 다크를 확장하고 다른 차원과 장비를 제공      | 본체, Bibliowoods 직접 연동, 전용·관련 퀘스트·KubeJS·발전 과제·fallback 표시                                  | 완료   | 신규: 전용 퀘스트 챕터               |
-| Ice and Fire                                | 아이스 앤 파이어                             | 드래곤과 신화 생물, 장비와 탐험 콘텐츠를 제공   | 본체, 전용 퀘스트 챕터                                                                                        | 미작업 | 신규: 전용 퀘스트·영어 1,744키       |
+| Ice and Fire                                | 아이스 앤 파이어                             | 드래곤과 신화 생물, 장비와 탐험 콘텐츠를 제공   | 본체, 전용 퀘스트 챕터                                                                                        | 완료   | 신규: 전용 퀘스트·영어 1,744키       |
 | Oh The Biomes We've Gone·Regions Unexplored | 오 더 바이옴즈 위브 곤·리전스 언익스플로어드 | 오버월드와 여러 차원의 생물군계를 확장          | 두 본체와 나무·블록 이름                                                                                      | 미작업 | 신규: 대규모 생물군계·영어 항목 다수 |
 | 구조물·던전 모음                            | 구조물·던전 모음                             | 월드 곳곳에 던전과 탐험 구조물을 추가           | YUNG's Better 시리즈, When Dungeons Arise, Dungeon Crawl, Repurposed Structures, Structory, Moog's Structures | 미작업 | 신규: 설치된 대표 구조물 모드 묶음   |
 
@@ -186,7 +186,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 
 | 모드          | 한글 표기        | 어떤 모드인가                                   | 함께 확인할 범위                                                | 상태   | 선정 근거                            |
 | ------------- | ---------------- | ----------------------------------------------- | --------------------------------------------------------------- | ------ | ------------------------------------ |
-| MineColonies  | 마인콜로니       | 주민 직업·건설·연구를 관리하는 식민지 운영 모드 | Structurize, Domum Ornamentum, BlockUI, StyleColonies, TownTalk | 미작업 | 기존 계획·영어 3,817키의 대형 콘텐츠 |
+| MineColonies  | 마인콜로니       | 주민 직업·건설·연구를 관리하는 식민지 운영 모드 | Structurize, Domum Ornamentum, BlockUI, StyleColonies, TownTalk | 완료   | 기존 계획·영어 3,817키의 대형 콘텐츠 |
 | SecurityCraft | SecurityCraft     | 잠금·감시·보호 블록과 보안 설정을 제공          | 본체, 카메라·키패드·권한 UI                                     | 완료   | 신규: 영어 1,521키·높은 UI 비중      |
 
 ### 건축·장식·생활
@@ -197,7 +197,7 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
 | Chisel·Rechiseled                 | 치즐·리치즐드                    | 건축 블록의 다양한 질감 변형을 제공                | Chisel, Rechiseled, Rechiseled: Create                                                                       | 미작업 | 신규: 영어 블록 이름이 매우 많음      |
 | BiblioCraft 계열                  | 비블리오크래프트 계열            | 가구·진열·보관과 대규모 목재 변형을 제공           | BiblioCraft, BiblioWoods, BiblioBiomes                                                                       | 미작업 | 신규: 설치 목록 최대 규모의 언어 항목 |
 | Macaw's 시리즈                    | 마코 시리즈                      | 문·창문·지붕·가구·다리 등 건축 부품을 제공         | 설치된 Macaw's Doors, Windows, Roofs, Furniture, Bridges, Lights, Fences, Paths, Stairs, Trapdoors, Holidays | 미작업 | 신규: 여러 건축 애드온이 함께 설치됨  |
-| Supplementaries·Amendments        | 서플리멘터리즈·어멘드먼츠        | 바닐라풍 생활·장식·상호작용 요소를 확장            | 두 본체와 관련 퀘스트·설정                                                                                   | 미작업 | 신규: 널리 쓰이는 생활 확장 모드      |
+| Supplementaries·Amendments        | 서플리멘터리즈·어멘드먼츠        | 바닐라풍 생활·장식·상호작용 요소를 확장            | 두 본체와 관련 퀘스트·설정                                                                                   | 완료   | 신규: 널리 쓰이는 생활 확장 모드      |
 | Handcrafted·Refurbished Furniture | 핸드크래프티드·리퍼비시드 퍼니처 | 가구와 실내 장식 블록을 제공                       | 두 본체와 관련 조합법                                                                                        | 미작업 | 신규: 영어 장식 항목이 많음           |
 | FramedBlocks                      | 프레임드 블록                    | 다른 블록의 외형을 입힐 수 있는 건축 프레임을 제공 | 본체, AE2·기술 모드 연동                                                                                     | 미작업 | 신규: 범용 건축·위장 블록             |
 
@@ -253,5 +253,12 @@ JEI 작업에서는 JEI 자체 검색·북마크·버튼·설정·공통 안내�
   전용·관련 FTB Quests, 가이드·설명서, KubeJS와 발전 과제 표시 경로를 검수해 `e73c246`,
   `a370764`, `0334b0d`, `c1d44a4`, `bb21d20`, `9e9b5a8`로 각각 커밋하고
   `source_root`에 적용 완료
+- **순차 번역 모드군 6개:** Reliquary, Farmer's Delight 계열,
+  Supplementaries·Amendments, Ice and Fire, Pam's HarvestCraft 2, MineColonies 계열의
+  언어 9,707키를 현재 설치 영어 원문과 대조해 검수했다. 검수 후 재사용 5,428키와
+  신규·수정 4,279키, 관련 FTB Quests 표시 224키, Ice and Fire 가이드 4파일과
+  MineColonies 내장 가이드 4종의 표시 경로를 검증했다. StyleColonies 구조물 팩 메타데이터와
+  TownTalk 음성 리소스는 언어 파일이 없는 감사 전용 범위로 확인했다. `b8cbc0f`, `e2178b7`,
+  `5bc4711`, `0fe1ff0`, `6c54cd7`, `9a6a201`로 계열별 커밋하고 `game_root`에 적용 완료
 - **FTB Quests 공통 제목·탐색 기반:** 일부 완료. 다른 모드의 미완성 제목과 fallback은
   해당 모드를 선택했을 때 함께 검토
