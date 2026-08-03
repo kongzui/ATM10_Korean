@@ -1,0 +1,26 @@
+{
+  "scopes": [
+    {
+      "scope": "farmersdelight",
+      "keys": 479,
+      "untranslated": []
+    },
+    {
+      "scope": "cookingforblockheads",
+      "keys": 260,
+      "untranslated": []
+    },
+    {
+      "scope": "farmingforblockheads",
+      "keys": 55,
+      "untranslated": []
+    },
+    {
+      "scope": "related",
+      "keys": 45,
+      "untranslated": []
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

@@ -1,0 +1,21 @@
+{
+  "jars": [
+    {
+      "jar": "FarmersDelight-1.21.1-1.3.2.jar",
+      "advancements": 218,
+      "guide_candidates": 2
+    },
+    {
+      "jar": "cookingforblockheads-neoforge-1.21.1-21.1.23.jar",
+      "advancements": 154,
+      "guide_candidates": 9
+    },
+    {
+      "jar": "farmingforblockheads-neoforge-1.21.1-21.1.13.jar",
+      "advancements": 6,
+      "guide_candidates": 0
+    }
+  ],
+  "kubejs_direct_display_lines": [],
+  "status": "complete"
+}

@@ -609,6 +609,24 @@ TARGETS = (
         "reliquary",
         "Reliquary",
     ),
+    Target(
+        "farmers_delight",
+        "FarmersDelight-",
+        "farmersdelight",
+        "Farmer's Delight",
+    ),
+    Target(
+        "farmers_delight",
+        "cookingforblockheads-",
+        "cookingforblockheads",
+        "Cooking for Blockheads",
+    ),
+    Target(
+        "farmers_delight",
+        "farmingforblockheads-",
+        "farmingforblockheads",
+        "Farming for Blockheads",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -661,6 +679,7 @@ FAMILY_LABELS = {
     "mahou_tsukai": "Mahou Tsukai",
     "securitycraft": "SecurityCraft",
     "reliquary": "Reliquary",
+    "farmers_delight": "Farmer's Delight 계열",
 }
 
 QUEST_CHAPTERS = {
@@ -718,6 +737,7 @@ QUEST_CHAPTERS = {
     "mahou_tsukai": ("mahou_tsukai",),
     "securitycraft": (),
     "reliquary": (),
+    "farmers_delight": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -757,6 +777,14 @@ QUEST_TEXT_MARKERS = {
     "basic_logistics": ("pipez", "modern dynamics", "xnet"),
     "modular_routers": ("modular routers", "modularrouters"),
     "reliquary": ("reliquary",),
+    "farmers_delight": (
+        "farmer's delight",
+        "farmersdelight",
+        "cooking for blockheads",
+        "cookingforblockheads",
+        "farming for blockheads",
+        "farmingforblockheads",
+    ),
     "hostile_neural_networks": (
         "hostile neural networks",
         "hostilenetworks",
@@ -1241,6 +1269,9 @@ ALLOWED_ORIGINALS = {
     "Mekanism - Gravitational Modulating Additional Unit",
 }
 ALLOWED_ORIGINALS.update({f"Kivi {level}x" for level in range(1, 10)})
+ALLOWED_ORIGINALS.update(
+    {"Farmer's Delight", "Cooking for Blockheads", "Farming for Blockheads"}
+)
 
 ALLOWED_NAME_COLLISIONS = {
     frozenset({"Energised Steel", "Energized Steel"}),
@@ -4212,6 +4243,14 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
         "itemGroup.reliquary",
         "keybind.reliquary.category",
     }:
+        return True
+    if family == "farmers_delight" and source in {
+        "Farmer's Delight",
+        "Cooking for Blockheads",
+        "Farming for Blockheads",
+    }:
+        return True
+    if family == "farmers_delight" and source.startswith("Cooking for Blockheads "):
         return True
     if family == "xycraft" and (
         key.startswith("itemGroup.xycraft_")

@@ -1,0 +1,30 @@
+{
+  "family": "farmers_delight",
+  "english_files": 4,
+  "unique_strings": 789,
+  "candidate_requests": 86,
+  "candidate_failures": [],
+  "outputs": [
+    {
+      "source": "working/farmers_delight/cookingforblockheads/en_us.json",
+      "output": "working/farmers_delight/cookingforblockheads/auto_candidates.json",
+      "strings": 260
+    },
+    {
+      "source": "working/farmers_delight/farmersdelight/en_us.json",
+      "output": "working/farmers_delight/farmersdelight/auto_candidates.json",
+      "strings": 479
+    },
+    {
+      "source": "working/farmers_delight/farmingforblockheads/en_us.json",
+      "output": "working/farmers_delight/farmingforblockheads/auto_candidates.json",
+      "strings": 55
+    },
+    {
+      "source": "working/farmers_delight/quests/related/en_us.json",
+      "output": "working/farmers_delight/quests/related/auto_candidates.json",
+      "strings": 45
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}

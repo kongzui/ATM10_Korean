@@ -1,0 +1,119 @@
+{
+  "family": "Farmer's Delight 계열",
+  "installed": [
+    {
+      "label": "Farmer's Delight",
+      "jar": "FarmersDelight-1.21.1-1.3.2.jar",
+      "namespace": "farmersdelight",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 479,
+      "bundled_korean_keys": 479,
+      "metadata_mentions_family": [
+        "farmersdelight"
+      ],
+      "guide_candidates": 2,
+      "guide_examples": [
+        "data/farmersdelight/advancement/recipes/misc/book_from_canvas.json",
+        "data/farmersdelight/recipe/book_from_canvas.json"
+      ],
+      "advancements": 218,
+      "advancement_examples": [
+        "data/farmersdelight/advancement/main/craft_knife.json",
+        "data/farmersdelight/advancement/main/eat_nourishing_food.json",
+        "data/farmersdelight/advancement/main/get_fd_seed.json",
+        "data/farmersdelight/advancement/main/get_ham.json",
+        "data/farmersdelight/advancement/main/get_mushroom_colony.json",
+        "data/farmersdelight/advancement/main/get_rich_soil.json",
+        "data/farmersdelight/advancement/main/harvest_ropelogged_tomato.json",
+        "data/farmersdelight/advancement/main/harvest_straw.json",
+        "data/farmersdelight/advancement/main/hit_raider_with_rotten_tomato.json",
+        "data/farmersdelight/advancement/main/master_chef.json",
+        "data/farmersdelight/advancement/main/obtain_netherite_knife.json",
+        "data/farmersdelight/advancement/main/place_campfire.json",
+        "data/farmersdelight/advancement/main/place_cooking_pot.json",
+        "data/farmersdelight/advancement/main/place_feast.json",
+        "data/farmersdelight/advancement/main/place_organic_compost.json",
+        "data/farmersdelight/advancement/main/place_skillet.json",
+        "data/farmersdelight/advancement/main/plant_all_crops.json",
+        "data/farmersdelight/advancement/main/plant_rice.json",
+        "data/farmersdelight/advancement/main/root.json",
+        "data/farmersdelight/advancement/main/use_cutting_board.json"
+      ],
+      "recipes": 530
+    },
+    {
+      "label": "Cooking for Blockheads",
+      "jar": "cookingforblockheads-neoforge-1.21.1-21.1.23.jar",
+      "namespace": "cookingforblockheads",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 260,
+      "bundled_korean_keys": 257,
+      "metadata_mentions_family": [
+        "cookingforblockheads"
+      ],
+      "guide_candidates": 8,
+      "guide_examples": [
+        "assets/cookingforblockheads/models/item/crafting_book.json",
+        "assets/cookingforblockheads/models/item/recipe_book.json",
+        "data/cookingforblockheads/advancement/recipes/misc/crafting_book.json",
+        "data/cookingforblockheads/advancement/recipes/misc/recipe_book.json",
+        "data/cookingforblockheads/advancement/recipes/misc/recipe_book_from_smelting_no_filter_edition.json",
+        "data/cookingforblockheads/recipe/crafting_book.json",
+        "data/cookingforblockheads/recipe/recipe_book.json",
+        "data/cookingforblockheads/recipe/recipe_book_from_smelting_no_filter_edition.json"
+      ],
+      "advancements": 154,
+      "advancement_examples": [
+        "data/cookingforblockheads/advancement/recipes/decorations/black_kitchen_floor.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/blue_kitchen_floor.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/brown_kitchen_floor.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/cabinet.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/connector.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/cooking_table.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/counter.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/cutting_board.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/cyan_kitchen_floor.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_black_cabinet.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_black_connector.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_black_cooking_table.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_black_counter.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_black_fridge.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_black_oven.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_black_sink.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_blue_cabinet.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_blue_connector.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_blue_cooking_table.json",
+        "data/cookingforblockheads/advancement/recipes/decorations/dye_blue_counter.json"
+      ],
+      "recipes": 310
+    },
+    {
+      "label": "Farming for Blockheads",
+      "jar": "farmingforblockheads-neoforge-1.21.1-21.1.13.jar",
+      "namespace": "farmingforblockheads",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 55,
+      "bundled_korean_keys": 33,
+      "metadata_mentions_family": [
+        "farmingforblockheads"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 6,
+      "advancement_examples": [
+        "data/farmingforblockheads/advancement/recipes/decorations/chicken_nest.json",
+        "data/farmingforblockheads/advancement/recipes/decorations/feeding_trough.json",
+        "data/farmingforblockheads/advancement/recipes/decorations/market.json",
+        "data/farmingforblockheads/advancement/recipes/misc/green_fertilizer.json",
+        "data/farmingforblockheads/advancement/recipes/misc/red_fertilizer.json",
+        "data/farmingforblockheads/advancement/recipes/misc/yellow_fertilizer.json"
+      ],
+      "recipes": 757
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": []
+}

@@ -1,0 +1,79 @@
+{
+  "quest.1591013DDD4766E1.quest_desc": [
+    "&l&cCooking for Blockheads&r is all about making the Kitchen your home. \\n\\nI recommend using everything it gives as every Item has a use and looks amazing!"
+  ],
+  "quest.1591013DDD4766E1.title": "&l&cCooking for Blockheads&r",
+  "quest.5D5563142917495A.quest_desc": [
+    "&l&eFarmer's Delight&r is all about Farming and Cooking Food Items! We can also use those same Items for Decoration and usage! \\n\\nThe Stove, Pots, and Pans are perfect for a Kitchen. \\n\\nThe Food Barrels are great for a Pantry. \\n\\nThe Farm stuff is great for outdoor decor and the Cabinets are perfect for anywhere!"
+  ],
+  "quest.5D5563142917495A.title": "&l&eFarmer's Delight&r",
+  "task.225F53F8A0E9E822.title": "Cooking for Blockheads",
+  "task.4B274207A9646FE9.title": "Farmer's Delight",
+  "quest.0EFF1AA37772156B.quest_desc": [
+    "This block provides water to the multi-block kitchen.\\n\\nIt can also provide infinite water by pumping water out via cables or pipes."
+  ],
+  "quest.0EFF1AA37772156B.quest_subtitle": "1 Block does the trick!",
+  "quest.0EFF1AA37772156B.title": "The Sink = Infinite Water",
+  "quest.13AFCD3B6F62B986.quest_desc": [
+    "Provides Ice and Snow recipes!"
+  ],
+  "quest.13AFCD3B6F62B986.quest_subtitle": "Ice, Ice, Baby!",
+  "quest.13AFCD3B6F62B986.title": "Ice Upgrade",
+  "quest.1515B32545F51266.quest_desc": [
+    "Allows you to attach power to the Stove."
+  ],
+  "quest.1515B32545F51266.title": "Heating Upgrade",
+  "quest.1F114EB0AAB86DB4.quest_desc": [
+    "Markets provide you with a villager than can sell you anything if you have the right amount of emeralds.\\n\\nSpoiler: It's usually just 1 Emerald per item, luckily, they have EVERYTHING."
+  ],
+  "quest.1F114EB0AAB86DB4.quest_subtitle": "The Villager has more than one way to Spawn",
+  "quest.1F114EB0AAB86DB4.title": "Purchasing Farm Supplies",
+  "quest.2786D5AC19163524.quest_desc": [
+    "This block enables smelting recipes in your kitchen multi-block!"
+  ],
+  "quest.2786D5AC19163524.quest_subtitle": "No Timer Needed",
+  "quest.2786D5AC19163524.title": "Honey, there's a Furnace in the Kitchen",
+  "quest.28C9EDBF6607E180.quest_desc": [
+    "This block is part of a multi-block kitchen.\\n\\nThis will show you every recipe that is available to you with the food you have in your inventory, or stored in the kitchen multi-block.\\n\\nYou can finally create a nice kitchen in Minecraft."
+  ],
+  "quest.28C9EDBF6607E180.quest_subtitle": "Betty White was born before Sliced Bread",
+  "quest.28C9EDBF6607E180.title": "THE BEST THING SINCE SLICED BREAD",
+  "quest.37CA6F9F0226F10E.quest_desc": [
+    "This block stores items for cooking.\\n\\nYou can also place other kitchen multi-block items on it, like toasters and a Cow in a Jar."
+  ],
+  "quest.37CA6F9F0226F10E.quest_subtitle": "We need more cooking space",
+  "quest.37CA6F9F0226F10E.title": "Need more cooking space?",
+  "quest.45F83C2750F70F9B.quest_desc": [
+    "Go ahead, put a Book in a Furnace and smelt it."
+  ],
+  "quest.45F83C2750F70F9B.quest_subtitle": "Totally won't catch on fire...",
+  "quest.45F83C2750F70F9B.title": "Making a Kitchen, with a Book",
+  "quest.47764EFC822E462A.quest_desc": [
+    "This block produces milk over time, and enables milk recipes for the kitchen multi-block.\\n\\nTo get a cow in the jar, place the jar in a hole. Lure the cow to fall in said hole above the jar, then drop an anvil on it.\\n\\nI have no clue what this glass is made of, but it's stronger than my relationship with Chicken."
+  ],
+  "quest.47764EFC822E462A.quest_subtitle": "Phenomenal Milking Powers....Itty bitty living space",
+  "quest.47764EFC822E462A.title": "A Cow in a Jar",
+  "quest.58495CFBF4F20CE9.quest_desc": [
+    "This works just like the kitchen counter, except in the air.\\n\\nAnd you can't put things on top of it."
+  ],
+  "quest.58495CFBF4F20CE9.quest_subtitle": "So much room for activities!",
+  "quest.58495CFBF4F20CE9.title": "Even More Storage",
+  "quest.58D5BD3106BFD94A.quest_desc": [
+    "Craft the next version of the book. I promise you, it's worth it.\\n\\nI'll even give you a Diamond back."
+  ],
+  "quest.58D5BD3106BFD94A.quest_subtitle": "This is totally worth it",
+  "quest.58D5BD3106BFD94A.title": "Cooking with the power of Diamonds",
+  "quest.0BCC79C1D002F532.quest_desc": [
+    "To make the &bArcane Crystal Dust&r into &bLiquid Aureal&r, we'll need a liquid! Infact we'll need THE Liquid... which is &9Water&r! \\n\\nJust pipe &9Water&r from a &9Sink&r, it's infinite."
+  ],
+  "quest.0BCC79C1D002F532.title": "Infinite &9Water&r!!!",
+  "quest.03840E4C74731E0C.quest_desc": [
+    "Listen, I have been telling you guys to use &9Electric Pumps&r for most of the &5&lMekanism&r Quests. \\n\\nBut to be honest I have to let you guys graduate. The &2&lReactors&r will need more &9Water&r so I grant you, the &9Sink&r! \\n\\nThe &9Sink&r has Infinite &9Water&r and can be &bPiped&r out from practically any Mod. I recommend using &9&lID&r if available because it can pull over 2 Billion mB of &9Water&r each Tick! \\n\\nThe reason I have been using the &9Electric Pumps&r is not because I don't trust you with &9Sinks&r rather it is for these reasons. 1. it will stay for Modpacks that don't have &9Sinks&r and 2. it is from &5&lMekanism&r. "
+  ],
+  "quest.03840E4C74731E0C.title": "&9Water &bCoolant",
+  "quest.722978AC0C1B2649.quest_desc": [
+    "Easy item to automate infinite &9water&r. \\n\\nNeed more &9water&r? Make another!"
+  ],
+  "quest.722978AC0C1B2649.quest_subtitle": "Can be used as Reactor Coolant",
+  "quest.722978AC0C1B2649.title": "Infinite &9Water&r"
+}

@@ -1,0 +1,24 @@
+{
+  "languages": [
+    {
+      "namespace": "farmersdelight",
+      "reviewed_keys": 479,
+      "reused_candidates": 477,
+      "new_translations": 2
+    },
+    {
+      "namespace": "cookingforblockheads",
+      "reviewed_keys": 260,
+      "reused_candidates": 251,
+      "new_translations": 9
+    },
+    {
+      "namespace": "farmingforblockheads",
+      "reviewed_keys": 55,
+      "reused_candidates": 21,
+      "new_translations": 34
+    }
+  ],
+  "quest_keys": 45,
+  "status": "complete"
+}
