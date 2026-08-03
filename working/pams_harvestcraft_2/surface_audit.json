@@ -1,0 +1,30 @@
+{
+  "jars": [
+    {
+      "jar": "pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar",
+      "advancements": 0,
+      "recipes": 177,
+      "guide_files": 0
+    },
+    {
+      "jar": "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+      "advancements": 18,
+      "recipes": 236,
+      "guide_files": 0
+    },
+    {
+      "jar": "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+      "advancements": 0,
+      "recipes": 887,
+      "guide_files": 0
+    },
+    {
+      "jar": "pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar",
+      "advancements": 0,
+      "recipes": 77,
+      "guide_files": 0
+    }
+  ],
+  "kubejs_direct_display_lines": [],
+  "status": "complete"
+}

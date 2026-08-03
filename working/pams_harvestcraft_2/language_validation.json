@@ -1,0 +1,94 @@
+{
+  "family": "Pam's HarvestCraft 2 계열",
+  "languages": [
+    {
+      "label": "Pam's HarvestCraft 2 - Crops",
+      "jar": "pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar",
+      "namespace": "pamhc2crops",
+      "english_keys": 320,
+      "korean_keys": 320,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 320
+    },
+    {
+      "label": "Pam's HarvestCraft 2 - Food Core",
+      "jar": "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+      "namespace": "pamhc2foodcore",
+      "english_keys": 203,
+      "korean_keys": 203,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 203
+    },
+    {
+      "label": "Pam's HarvestCraft 2 - Food Extended",
+      "jar": "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+      "namespace": "pamhc2foodextended",
+      "english_keys": 872,
+      "korean_keys": 872,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 872
+    },
+    {
+      "label": "Pam's HarvestCraft 2 - Trees",
+      "jar": "pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar",
+      "namespace": "pamhc2trees",
+      "english_keys": 158,
+      "korean_keys": 158,
+      "untranslated": 0,
+      "untranslated_examples": [],
+      "duplicate_keys": 0,
+      "translation_induced_name_collisions": 0,
+      "output_matches": true,
+      "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
+      "new_or_edited": 158
+    }
+  ],
+  "language_provenance": {
+    "bundled_exact_reuse": 0,
+    "project_output_reuse": 0,
+    "new_or_edited": 1553
+  },
+  "ftbquests": {
+    "chapters": [],
+    "quests_checked": 0,
+    "tasks_checked": 0,
+    "display_keys_checked": 0,
+    "source_english_custom_names": 0,
+    "unresolved_english_custom_names": 0,
+    "explicit_task_titles": 0,
+    "source_redundant_single_item_task_titles": 0,
+    "remaining_redundant_single_item_task_titles": 0,
+    "first_task_quest_fallbacks": 0,
+    "fallback_paths_checked": [
+      "chapter/group title",
+      "quest title/subtitle/description",
+      "task title",
+      "item hover name",
+      "custom_name/literal component",
+      "first-task quest fallback"
+    ]
+  },
+  "family_data": {},
+  "validation_errors": 0,
+  "errors": [],
+  "status": "complete"
+}

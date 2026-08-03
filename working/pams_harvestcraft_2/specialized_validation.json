@@ -1,0 +1,22 @@
+{
+  "languages": [
+    {
+      "namespace": "pamhc2crops",
+      "keys": 320
+    },
+    {
+      "namespace": "pamhc2foodcore",
+      "keys": 203
+    },
+    {
+      "namespace": "pamhc2foodextended",
+      "keys": 872
+    },
+    {
+      "namespace": "pamhc2trees",
+      "keys": 158
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

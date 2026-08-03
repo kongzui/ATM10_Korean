@@ -1,0 +1,105 @@
+{
+  "family": "Pam's HarvestCraft 2 계열",
+  "installed": [
+    {
+      "label": "Pam's HarvestCraft 2 - Crops",
+      "jar": "pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar",
+      "namespace": "pamhc2crops",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 320,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "pamhc2crops"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 177
+    },
+    {
+      "label": "Pam's HarvestCraft 2 - Food Core",
+      "jar": "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+      "namespace": "pamhc2foodcore",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 203,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "pamhc2foodcore"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 200
+    },
+    {
+      "label": "Pam's HarvestCraft 2 - Food Extended",
+      "jar": "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+      "namespace": "pamhc2foodextended",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 872,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "pamhc2foodextended"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 887
+    },
+    {
+      "label": "Pam's HarvestCraft 2 - Trees",
+      "jar": "pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar",
+      "namespace": "pamhc2trees",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 158,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "pamhc2trees"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 77
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Pam's HarvestCraft 2 - Crops",
+      "jar": "pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar",
+      "namespace": "pamhc2crops",
+      "english_keys": 320,
+      "new_translation_required": 320
+    },
+    {
+      "label": "Pam's HarvestCraft 2 - Food Core",
+      "jar": "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+      "namespace": "pamhc2foodcore",
+      "english_keys": 203,
+      "new_translation_required": 203
+    },
+    {
+      "label": "Pam's HarvestCraft 2 - Food Extended",
+      "jar": "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+      "namespace": "pamhc2foodextended",
+      "english_keys": 872,
+      "new_translation_required": 872
+    },
+    {
+      "label": "Pam's HarvestCraft 2 - Trees",
+      "jar": "pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar",
+      "namespace": "pamhc2trees",
+      "english_keys": 158,
+      "new_translation_required": 158
+    }
+  ]
+}

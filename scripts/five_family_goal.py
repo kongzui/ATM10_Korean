@@ -640,6 +640,30 @@ TARGETS = (
         "Amendments",
     ),
     Target("ice_and_fire", "iceandfire-", "iceandfire", "Ice and Fire"),
+    Target(
+        "pams_harvestcraft_2",
+        "pamhc2crops-",
+        "pamhc2crops",
+        "Pam's HarvestCraft 2 - Crops",
+    ),
+    Target(
+        "pams_harvestcraft_2",
+        "pamhc2foodcore-",
+        "pamhc2foodcore",
+        "Pam's HarvestCraft 2 - Food Core",
+    ),
+    Target(
+        "pams_harvestcraft_2",
+        "pamhc2foodextended-",
+        "pamhc2foodextended",
+        "Pam's HarvestCraft 2 - Food Extended",
+    ),
+    Target(
+        "pams_harvestcraft_2",
+        "pamhc2trees-",
+        "pamhc2trees",
+        "Pam's HarvestCraft 2 - Trees",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -695,6 +719,7 @@ FAMILY_LABELS = {
     "farmers_delight": "Farmer's Delight 계열",
     "supplementaries_amendments": "Supplementaries·Amendments",
     "ice_and_fire": "Ice and Fire",
+    "pams_harvestcraft_2": "Pam's HarvestCraft 2 계열",
 }
 
 QUEST_CHAPTERS = {
@@ -755,6 +780,7 @@ QUEST_CHAPTERS = {
     "farmers_delight": (),
     "supplementaries_amendments": (),
     "ice_and_fire": ("ice__fire",),
+    "pams_harvestcraft_2": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -807,6 +833,13 @@ QUEST_TEXT_MARKERS = {
         "amendments",
     ),
     "ice_and_fire": ("ice and fire", "iceandfire"),
+    "pams_harvestcraft_2": (
+        "pam's harvestcraft",
+        "pamhc2crops",
+        "pamhc2foodcore",
+        "pamhc2foodextended",
+        "pamhc2trees",
+    ),
     "hostile_neural_networks": (
         "hostile neural networks",
         "hostilenetworks",
@@ -4269,6 +4302,8 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
         "modifier.in_the_garage",
         "modifier.surf_wax_america",
     }:
+        return True
+    if family == "pams_harvestcraft_2" and key.startswith("itemGroup.pamhc2"):
         return True
     if family == "reliquary" and key in {
         "itemGroup.reliquary",

@@ -1,0 +1,24 @@
+{
+  "languages": [
+    {
+      "namespace": "pamhc2crops",
+      "keys": 320
+    },
+    {
+      "namespace": "pamhc2foodcore",
+      "keys": 203
+    },
+    {
+      "namespace": "pamhc2foodextended",
+      "keys": 872
+    },
+    {
+      "namespace": "pamhc2trees",
+      "keys": 158
+    }
+  ],
+  "existing_korean_reused": 0,
+  "new_translations_reviewed": 1553,
+  "related_quest_keys": 0,
+  "status": "complete"
+}

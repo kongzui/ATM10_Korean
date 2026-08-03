@@ -1,0 +1,35 @@
+{
+  "family": "pams_harvestcraft_2",
+  "english_files": 5,
+  "unique_strings": 1546,
+  "candidate_requests": 121,
+  "candidate_failures": [],
+  "outputs": [
+    {
+      "source": "working/pams_harvestcraft_2/pamhc2crops/en_us.json",
+      "output": "working/pams_harvestcraft_2/pamhc2crops/auto_candidates.json",
+      "strings": 320
+    },
+    {
+      "source": "working/pams_harvestcraft_2/pamhc2foodcore/en_us.json",
+      "output": "working/pams_harvestcraft_2/pamhc2foodcore/auto_candidates.json",
+      "strings": 203
+    },
+    {
+      "source": "working/pams_harvestcraft_2/pamhc2foodextended/en_us.json",
+      "output": "working/pams_harvestcraft_2/pamhc2foodextended/auto_candidates.json",
+      "strings": 872
+    },
+    {
+      "source": "working/pams_harvestcraft_2/pamhc2trees/en_us.json",
+      "output": "working/pams_harvestcraft_2/pamhc2trees/auto_candidates.json",
+      "strings": 158
+    },
+    {
+      "source": "working/pams_harvestcraft_2/quests/related/en_us.json",
+      "output": "working/pams_harvestcraft_2/quests/related/auto_candidates.json",
+      "strings": 0
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}
