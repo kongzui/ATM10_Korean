@@ -1,0 +1,27 @@
+{
+  "scopes": [
+    {
+      "keys": 1923,
+      "untranslated_candidates": [],
+      "errors": [],
+      "status": "complete",
+      "scope": "mahoutsukai"
+    },
+    {
+      "keys": 70,
+      "untranslated_candidates": [],
+      "errors": [],
+      "status": "complete",
+      "scope": "quests/mahou_tsukai"
+    },
+    {
+      "keys": 0,
+      "untranslated_candidates": [],
+      "errors": [],
+      "status": "complete",
+      "scope": "quests/related"
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

@@ -1,0 +1,13 @@
+{
+  "family": "Mahou Tsukai",
+  "chapters": {
+    "mahou_tsukai": {
+      "display_keys": 70,
+      "new_translation_required": 4,
+      "project_output_review": 66
+    },
+    "related": {
+      "display_keys": 0
+    }
+  }
+}

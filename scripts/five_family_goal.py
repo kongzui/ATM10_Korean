@@ -591,6 +591,12 @@ TARGETS = (
         "occultism",
         "Occultism",
     ),
+    Target(
+        "mahou_tsukai",
+        "mahoutsukai-",
+        "mahoutsukai",
+        "Mahou Tsukai",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -640,6 +646,7 @@ FAMILY_LABELS = {
     "roots_classic": "Roots Classic",
     "theurgy": "Theurgy",
     "occultism": "Occultism",
+    "mahou_tsukai": "Mahou Tsukai",
 }
 
 QUEST_CHAPTERS = {
@@ -694,6 +701,7 @@ QUEST_CHAPTERS = {
     "roots_classic": (),
     "theurgy": ("theurgy",),
     "occultism": ("occultism",),
+    "mahou_tsukai": ("mahou_tsukai",),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -702,6 +710,7 @@ QUEST_CHAPTER_OUTPUT = (
 )
 
 QUEST_VALIDATION_TEXT_EQUIVALENTS = {
+    "quest.4C647369D976E67E.quest_desc": (("a dozen", "12"),),
     "quest.7B3613C01F0B1373.quest_desc": (("1 Billion", "10억"),),
     "quest.1BDB369FD243D4C6.quest_desc": (("one level", "1 level"),),
     "quest.29C83B00AC4AFC23.quest_desc": (("four", "4"),),
@@ -928,6 +937,13 @@ QUEST_TEXT_MARKERS = {
         "djinni",
         "marid",
     ),
+    "mahou_tsukai": (
+        "mahou tsukai",
+        "mahoutsukai",
+        "mahoujin",
+        "caliburn",
+        "morgan",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -962,6 +978,10 @@ ALLOWED_ORIGINALS = {
     "Roots Classic",
     "Theurgy",
     "Occultism",
+    "Mahou Tsukai",
+    "Nobu",
+    "/maxmahou player_name new_mahou_limit",
+    "/mahoukodoku player_name kodoku_value",
     "Abras Conjure",
     "Fatma's Incentivized Attraction",
     "Ihagan's Enthrallment",

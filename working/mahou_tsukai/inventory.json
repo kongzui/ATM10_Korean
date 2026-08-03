@@ -1,0 +1,49 @@
+{
+  "family": "Mahou Tsukai",
+  "installed": [
+    {
+      "label": "Mahou Tsukai",
+      "jar": "mahoutsukai-1.21.1-v1.36.27.jar",
+      "namespace": "mahoutsukai",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 1923,
+      "bundled_korean_keys": 1864,
+      "metadata_mentions_family": [
+        "mahoutsukai"
+      ],
+      "guide_candidates": 4,
+      "guide_examples": [
+        "assets/mahoutsukai/models/item/funbook.json",
+        "assets/mahoutsukai/models/item/guidebook.json",
+        "data/mahoutsukai/recipe/guidebook.json",
+        "data/mahoutsukai/recipe/william_book_cloning.json"
+      ],
+      "advancements": 19,
+      "advancement_examples": [
+        "data/mahoutsukai/advancement/bakuretsu.json",
+        "data/mahoutsukai/advancement/beam.json",
+        "data/mahoutsukai/advancement/boogie_woogie.json",
+        "data/mahoutsukai/advancement/breadcrumbs.json",
+        "data/mahoutsukai/advancement/butterfly_effect.json",
+        "data/mahoutsukai/advancement/clarent.json",
+        "data/mahoutsukai/advancement/emrys.json",
+        "data/mahoutsukai/advancement/flying_pigs.json",
+        "data/mahoutsukai/advancement/gandr.json",
+        "data/mahoutsukai/advancement/greater_grail.json",
+        "data/mahoutsukai/advancement/kodoku.json",
+        "data/mahoutsukai/advancement/lesser_grail.json",
+        "data/mahoutsukai/advancement/morgan.json",
+        "data/mahoutsukai/advancement/nobu.json",
+        "data/mahoutsukai/advancement/replica.json",
+        "data/mahoutsukai/advancement/root.json",
+        "data/mahoutsukai/advancement/secret_calibur.json",
+        "data/mahoutsukai/advancement/sword_in_the_lake.json",
+        "data/mahoutsukai/advancement/treasury_projection.json"
+      ],
+      "recipes": 33
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": []
+}
