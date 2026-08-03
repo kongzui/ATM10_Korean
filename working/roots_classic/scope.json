@@ -1,0 +1,50 @@
+{
+  "family": "Roots Classic",
+  "installed": [
+    {
+      "label": "Roots Classic",
+      "jar": "RootsClassic-1.21.1-1.5.7.jar",
+      "namespace": "rootsclassic",
+      "direct_integration": false,
+      "language_target": true,
+      "english_keys": 483,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "rootsclassic"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 16,
+      "advancement_examples": [
+        "data/rootsclassic/advancement/recipes/food/fruit_salad.json",
+        "data/rootsclassic/advancement/recipes/food/rooty_stew.json",
+        "data/rootsclassic/advancement/recipes/misc/altar.json",
+        "data/rootsclassic/advancement/recipes/misc/attuned_standing_stone.json",
+        "data/rootsclassic/advancement/recipes/misc/brazier.json",
+        "data/rootsclassic/advancement/recipes/misc/ender_pearl.json",
+        "data/rootsclassic/advancement/recipes/misc/growth_powder.json",
+        "data/rootsclassic/advancement/recipes/misc/healing_poultice.json",
+        "data/rootsclassic/advancement/recipes/misc/imbuer.json",
+        "data/rootsclassic/advancement/recipes/misc/mortar.json",
+        "data/rootsclassic/advancement/recipes/misc/mundane_standing_stone.json",
+        "data/rootsclassic/advancement/recipes/misc/mutating_powder.json",
+        "data/rootsclassic/advancement/recipes/misc/pestle.json",
+        "data/rootsclassic/advancement/recipes/misc/pestle2.json",
+        "data/rootsclassic/advancement/recipes/misc/runic_tablet.json",
+        "data/rootsclassic/advancement/recipes/tools/bark_knife.json"
+      ],
+      "recipes": 100
+    }
+  ],
+  "extra_scope": [],
+  "other_dependency_mentions": [],
+  "language_candidates": [
+    {
+      "label": "Roots Classic",
+      "jar": "RootsClassic-1.21.1-1.5.7.jar",
+      "namespace": "rootsclassic",
+      "english_keys": 483,
+      "new_translation_required": 483
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scopes": [
+    {
+      "keys": 483,
+      "untranslated_candidates": [
+        "itemGroup.rootsclassic"
+      ],
+      "errors": [],
+      "status": "complete",
+      "scope": "language"
+    },
+    {
+      "keys": 10,
+      "untranslated_candidates": [
+        "quest.2171DC0B13C4BD43.title"
+      ],
+      "errors": [],
+      "status": "complete",
+      "scope": "quests"
+    }
+  ],
+  "errors": [],
+  "status": "complete"
+}

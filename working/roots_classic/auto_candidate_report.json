@@ -1,0 +1,20 @@
+{
+  "family": "roots_classic",
+  "english_files": 2,
+  "unique_strings": 440,
+  "candidate_requests": 437,
+  "candidate_failures": [],
+  "outputs": [
+    {
+      "source": "working/roots_classic/quests/related/en_us.json",
+      "output": "working/roots_classic/quests/related/auto_candidates.json",
+      "strings": 10
+    },
+    {
+      "source": "working/roots_classic/rootsclassic/en_us.json",
+      "output": "working/roots_classic/rootsclassic/auto_candidates.json",
+      "strings": 483
+    }
+  ],
+  "status": "candidate_requires_full_review"
+}

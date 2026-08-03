@@ -573,6 +573,12 @@ TARGETS = (
         "naturesaura",
         "Nature's Aura",
     ),
+    Target(
+        "roots_classic",
+        "RootsClassic-",
+        "rootsclassic",
+        "Roots Classic",
+    ),
 )
 
 FAMILY_LABELS = {
@@ -619,6 +625,7 @@ FAMILY_LABELS = {
     "irons_spells": "Iron's Spells 'n Spellbooks",
     "forbidden_arcanus": "Forbidden and Arcanus",
     "natures_aura": "Nature's Aura",
+    "roots_classic": "Roots Classic",
 }
 
 QUEST_CHAPTERS = {
@@ -670,6 +677,7 @@ QUEST_CHAPTERS = {
     "irons_spells": ("iron_spells_and_spellbooks",),
     "forbidden_arcanus": ("forbidden__arcanus",),
     "natures_aura": ("natures_aura",),
+    "roots_classic": (),
 }
 
 QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
@@ -861,6 +869,14 @@ QUEST_TEXT_MARKERS = {
         "aura altar",
         "natural altar",
     ),
+    "roots_classic": (
+        "roots classic",
+        "rootsclassic",
+        "living pickaxe",
+        "living sword",
+        "sylvan armor",
+        "wildwood armor",
+    ),
 }
 
 EXTRA_SCOPE = {
@@ -891,6 +907,8 @@ ALLOWED_ORIGINALS = {
     "Pylons",
     "Steve's Carts",
     "Draconic Evolution",
+    "Nature's Aura",
+    "Roots Classic",
     "Mekanism",
     "Mekanism: Generators",
     "Mekanism: Tools",
@@ -4119,6 +4137,8 @@ def is_family_allowed_original(family: str, key: str, source: str) -> bool:
         "advancement.naturesaura.root",
         "command.naturesaura.aura.usage",
     }:
+        return True
+    if family == "roots_classic" and key == "itemGroup.rootsclassic":
         return True
     if family == "actually_additions" and key in {
         "misc.actuallyadditions.energy_name",
