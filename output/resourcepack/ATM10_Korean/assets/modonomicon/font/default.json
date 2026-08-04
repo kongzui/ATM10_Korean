@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "reference",
-      "id": "minecraft:include/space"
+      "id": "modonomicon:include/space"
     },
     {
       "type": "ttf",
@@ -16,14 +16,11 @@
     },
     {
       "type": "reference",
-      "id": "minecraft:include/default",
-      "filter": {
-        "uniform": false
-      }
+      "id": "modonomicon:include/default"
     },
     {
       "type": "reference",
-      "id": "minecraft:include/unifont"
+      "id": "modonomicon:include/unifont"
     }
   ]
 }
