@@ -1,0 +1,29 @@
+{
+  "family": "framedblocks",
+  "language_keys": 436,
+  "existing_korean_reused": 0,
+  "new_or_corrected_language_translations": 436,
+  "ftbquests": {
+    "reviewed_keys": 6,
+    "existing_korean_reused": 1,
+    "corrected_keys": 5,
+    "display_work": "complete"
+  },
+  "kubejs_references": 0,
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/framedblocks/lang/ko_kr.json",
+    "config/ftbquests/quests/lang/ko_kr.snbt"
+  ],
+  "errors": [],
+  "status": "complete",
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/framedblocks/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260808_121204_555241/backup_manifest.json",
+    "errors": []
+  }
+}
