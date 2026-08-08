@@ -1,0 +1,68 @@
+{
+  "family": "MineColonies 계열",
+  "reviewed_visible_pairs": 4279,
+  "existing_korean_retained": 4213,
+  "existing_korean_corrected": 66,
+  "missing_translations_added": 0,
+  "language_keys": {
+    "minecolonies": 3817,
+    "structurize": 236,
+    "domum_ornamentum": 214,
+    "blockui": 8
+  },
+  "ftbquests": {
+    "related_quests": 2,
+    "tasks": 2,
+    "display_keys": 4,
+    "corrected": 1,
+    "fallback_paths_checked": true
+  },
+  "other_surfaces": {
+    "minecolonies_guide_language_references": 33,
+    "advancement_files": 272,
+    "stylecolonies_pack_metadata_strings_audited_only": 26,
+    "towntalk_pack_description_strings_audited_only": 1,
+    "kubejs_direct_display_lines": 0
+  },
+  "corrections": {
+    "accuracy": [
+      "재시작 후 유지되지 않는 청크 로딩 설정의 반대 의미를 교정",
+      "콜로니 이름, ID, 위치와 거리 자리표시자의 표시 순서를 원문 순서로 복구",
+      "침략 종료 문장의 방어 성공 의미와 사망 메시지의 동작 의미를 복구",
+      "JEI와 발전 과제에서 빠진 단계, 희귀도, 도구 사용과 처리 조건을 보완"
+    ],
+    "sentence_quality": [
+      "작업 지시, 배달원 회수, 식당 튜토리얼과 연구 효과 문장을 자연스럽게 교정"
+    ],
+    "terminology": [
+      "작업 지시, 건축가, 나무꾼 작업소와 건축 도구 표기를 프로젝트 용어와 통일",
+      "FTB Quests의 공식 모드명 Framed Blocks 표기를 복구"
+    ],
+    "formatting": [
+      "깨진 키릴 문자와 잘못 들어간 퍼센트 기호를 제거",
+      "이(가) 조사 앞 불필요한 공백을 정리하고 자리표시자 수와 순서를 보존"
+    ]
+  },
+  "validation": {
+    "specialized": "passed",
+    "common": "passed",
+    "missing_keys": 0,
+    "extra_keys": 0,
+    "duplicate_keys": 0,
+    "translation_induced_name_collisions": 0,
+    "placeholder_and_format_errors": 0
+  },
+  "deployment": {
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "planned_files": 5,
+    "changed_files": 2,
+    "hashes_match": true,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260808_222123_747043/backup_manifest.json",
+    "minecraft_screen_verified": false
+  },
+  "manual_review": [
+    "StyleColonies 구조물 팩 설명 13개와 TownTalk 내장 팩 설명은 원본 JAR 내부의 비언어 메타데이터라 JAR을 수정하지 않고 감사만 완료"
+  ],
+  "status": "complete"
+}

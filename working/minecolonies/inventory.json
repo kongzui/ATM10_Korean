@@ -176,37 +176,5 @@
         "structurize"
       ]
     }
-  ],
-  "language_candidates": [
-    {
-      "label": "MineColonies",
-      "jar": "minecolonies-1.1.1339-1.21.1-snapshot.jar",
-      "namespace": "minecolonies",
-      "english_keys": 3817,
-      "new_translation_required": 2,
-      "project_output_review": 3815
-    },
-    {
-      "label": "Structurize",
-      "jar": "structurize-1.0.831-1.21.1-snapshot.jar",
-      "namespace": "structurize",
-      "english_keys": 236,
-      "new_translation_required": 3,
-      "project_output_review": 233
-    },
-    {
-      "label": "Domum Ornamentum",
-      "jar": "domum-ornamentum-1.0.234-snapshot-main.jar",
-      "namespace": "domum_ornamentum",
-      "english_keys": 214,
-      "project_output_review": 214
-    },
-    {
-      "label": "BlockUI",
-      "jar": "blockui-1.0.211-1.21.1-snapshot.jar",
-      "namespace": "blockui",
-      "english_keys": 8,
-      "project_output_review": 8
-    }
   ]
 }

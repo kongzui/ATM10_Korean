@@ -14,8 +14,8 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "bundled_exact_reuse": 3061,
-      "new_or_edited": 756
+      "bundled_exact_reuse": 3009,
+      "project_output_reuse": 808
     },
     {
       "label": "Structurize",
@@ -30,7 +30,8 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "new_or_edited": 236
+      "project_output_reuse": 233,
+      "new_or_edited": 3
     },
     {
       "label": "Domum Ornamentum",
@@ -45,7 +46,7 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "new_or_edited": 214
+      "project_output_reuse": 214
     },
     {
       "label": "BlockUI",
@@ -60,13 +61,13 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "new_or_edited": 8
+      "project_output_reuse": 8
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 3061,
-    "project_output_reuse": 0,
-    "new_or_edited": 1214
+    "bundled_exact_reuse": 3009,
+    "project_output_reuse": 1263,
+    "new_or_edited": 3
   },
   "ftbquests": {
     "chapters": [

@@ -85,7 +85,7 @@ KEY_EXACT.update(
         ),
         "com.minecolonies.coremod.request.crafting.display": "%d * 제작법: %s",
         "com.minecolonies.coremod.gui.workerhuts.assignedbed": (
-            "%s이(가) %s이(가) 되었습니다. %s(%s)에 새 주민을 위한 빈 침대가 생겼습니다."
+            "%s이(가) %s 직업을 맡았습니다. %s(%s)에 새 주민을 위한 빈 침대가 생겼습니다."
         ),
         "com.minecolonies.coremod.gui.workerhuts.knighttraineeassignbed": (
             "%s이(가) 기사 훈련병이 되었습니다. %s(%s)에 새 주민을 위한 빈 침대가 생겼습니다."
@@ -172,6 +172,85 @@ KEY_EXACT.update(
             "제한 사항:\n\n 1. 건물 단계에 따라 경비원이 사용할 수 있는 도구가 "
             "늘어납니다:\n   0단계. 나무/금 도구\n   1단계. 돌 도구\n   2단계. 철 도구\n   "
             "3단계. 다이아몬드 도구\n   4-5단계. 마법 부여된 도구\n\n "
+        ),
+        "minecolonies.config.loadtime.comment": (
+            "플레이어가 떠난 뒤 청크가 로드된 상태로 유지되는 시간입니다. 재시작 후에는 "
+            "유지되지 않습니다. 기본값: 10분"
+        ),
+        "minecolonies.config.builderbuildblockdelay.comment": (
+            "블록을 하나 설치한 뒤의 지연 시간입니다. 값을 높이면 지연 시간도 늘어납니다."
+        ),
+        "tile.blockhut.noworkerassigned": (
+            "일꾼이 없는 작업소에는 작업 지시를 배정할 수 없습니다."
+        ),
+        "tile.blockhut.cannotbuild": (
+            "건설할 수 없는 건축가에게 작업 지시를 배정할 수 없습니다."
+        ),
+        "entity.deliveryman.forcepickupfailed": (
+            "처리할 수 없습니다. 이미 회수 작업이 진행 중입니다!"
+        ),
+        "death.attack.entity.minecolonies.chiefbarbarian": (
+            "%s이(가) 바바리안 대족장에게 으깨졌습니다"
+        ),
+        "death.attack.entity.minecolonies.campchiefbarbarian": (
+            "%s이(가) 바바리안 대족장에게 으깨졌습니다"
+        ),
+        "death.attack.entity.minecolonies.chiefpirate": (
+            "%s이(가) 해적 선장에게 으깨졌습니다"
+        ),
+        "death.attack.entity.minecolonies.campchiefpirate": (
+            "%s이(가) 해적 선장에게 으깨졌습니다"
+        ),
+        "com.minecolonies.command.whereami.closecolony": (
+            "어떤 콜로니 안에도 없습니다. 가장 가까운 콜로니는 %s(ID: %s)이며 약 "
+            "%s블록 떨어져 있습니다."
+        ),
+        "com.minecolonies.command.whereami.incolony": (
+            "%s 콜로니(ID: %s) 안에 있습니다. 콜로니 중심은 약 %s블록 떨어져 있습니다."
+        ),
+        "com.minecolonies.command.whoami.hascolony": (
+            "플레이어: %s. 소유 콜로니는 %s(ID: %s, 위치: %s)입니다."
+        ),
+        "com.minecolonies.coremod.buildtool.indestructible": (
+            "건물 블록을 설치하지 못했습니다! 설치할 위치의 블록은 파괴할 수 없습니다!"
+        ),
+        "com.minecolonies.coremod.raid.end.barbarian_raid1": (
+            "%s에서 온 바바리안들은 방어선을 뚫지 못하고 최후를 맞았습니다."
+        ),
+        "com.minecolonies.coremod.pvp.attack.start": (
+            "§c조심하세요. %s§c이(가) 경비원들을 이끌고 공격하고 있습니다!"
+        ),
+        "com.minecolonies.coremod.progress.newchild": (
+            "새 아이 %s이(가) 이제 %s에서 행복하게 살고 있습니다!"
+        ),
+        "advancements.minecolonies.build.lumberjack.description": (
+            "건축 도구로 나무꾼 작업소를 배치하고 완공하여 더 많은 건물에 쓸 목재를 "
+            "모으세요."
+        ),
+        "advancements.minecolonies.build.smeltery_5.description": (
+            "5단계 제련소는 광석 블록을 처리할 때 행운 4를 적용합니다. 이보다 더 좋을 "
+            "수는 없겠죠!"
+        ),
+        "com.minecolonies.coremod.jei.baker": (
+            "빵을 굽고, 단계가 오르면 다른 음식도 만듭니다. 3단계부터 추가 제작법을 "
+            "가르칠 수 있습니다."
+        ),
+        "com.minecolonies.coremod.jei.sifter": (
+            "흔한 자원에서 드물게 귀중한 자원을 걸러냅니다. 거름망은 오래가지만 결국 "
+            "부서질 수 있습니다."
+        ),
+        "com.minecolonies.core.settlementcovenant3.hasclose": (
+            "또한, 이웃 정착지 %s(이곳에서 %s블록 이내)와 건설적인 관계를 맺을 것을 "
+            "엄숙히 약속합니다."
+        ),
+        "com.minecolonies.research.civilian.gorger.subtitle": "더!???",
+        "com.minecolonies.research.effects.sleeplessmultiplier.description": (
+            "경비원에게 필요한 수면 시간 감소"
+        ),
+        "minecolonies.quests.tutorial.restaurant.obj0.answer0.reply": (
+            "식당의 웨이터는 화로에서 음식을 자동으로 요리할 뿐 아니라 배고픈 주민에게 "
+            "음식도 나눠 줍니다. 이제 방법은 아시죠? 제작대에서 식당 블록을 만드세요. "
+            "이번에는 사과를 판자로 둘러싸고 맨 위에 건축 도구를 놓으면 됩니다.'"
         ),
         "com.minecolonies.research.civilian.scholarly.subtitle": "향후 십 년간 할 숙제... 확인!",
         "minecolonies.config.averageemptycolonydistance.comment": (
@@ -799,6 +878,8 @@ KEY_EXACT.update(
 )
 
 REPLACEMENTS = (
+    ("%s (이) 가", "%s이(가)"),
+    ("%s (이)가", "%s이(가)"),
     ("Minecolonies", "MineColonies"),
     ("Structurize하다", "Structurize"),
     ("Struturize", "Structurize"),

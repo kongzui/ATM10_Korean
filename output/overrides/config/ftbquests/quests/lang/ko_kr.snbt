@@ -4672,7 +4672,7 @@
 	]
 	quest.4AD8363D7359A072.quest_subtitle: "기본 학습"
 	quest.4AD8363D7359A072.title: "&d우리의 첫 번째 원자로"
-	quest.4AE8D8826F894EC7.quest_desc: ["&l&5Domum Ornamentum&r은 &l&6FramedBlocks&r와 &l&bChipped&r를 합친 것과 비슷한 모드입니다! \\n\\n건축가의 절단기로 다양한 모양과 변형 블록을 만들 수 있습니다. \\n\\n먼저 문, 조명 같은 블록 그룹을 고르세요. \\n그다음 변형을 선택하세요. \\n마지막으로 완성품에 사용할 재료 블록을 넣으세요. 어떤 블록은 서로 다른 재료 두 개가 필요하고, 어떤 블록은 한 개만 필요합니다."]
+	quest.4AE8D8826F894EC7.quest_desc: ["&l&5Domum Ornamentum&r은 &l&6Framed Blocks&r와 &l&bChipped&r를 합친 것과 비슷한 모드입니다! \\n\\n건축가의 절단기로 다양한 모양과 변형 블록을 만들 수 있습니다. \\n\\n먼저 문, 조명 같은 블록 그룹을 고르세요. \\n그다음 변형을 선택하세요. \\n마지막으로 완성품에 사용할 재료 블록을 넣으세요. 어떤 블록은 서로 다른 재료 두 개가 필요하고, 어떤 블록은 한 개만 필요합니다."]
 	quest.4AE8D8826F894EC7.title: "&l&5Domum Ornamentum&r"
 	quest.4AEB4BF7624ABA0F.quest_subtitle: "Firecracker + Soul Tree"
 	quest.4AFA3CB55F6C10C2.quest_subtitle: "판다누스 + 코코넛"
