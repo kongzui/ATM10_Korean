@@ -1,0 +1,29 @@
+{
+  "reviewed_language_keys": 425,
+  "existing_korean_reused": 57,
+  "existing_korean_corrected": 2,
+  "new_language_translations": 366,
+  "candidate_sources": {
+    "endermanoverhaul": {
+      "new_translation": 135
+    },
+    "creeperoverhaul": {
+      "bundled_korean_reused_after_review": 57,
+      "bundled_korean_corrected": 2,
+      "new_translation": 3
+    },
+    "livingthings": {
+      "new_translation": 106
+    },
+    "variantsandventures": {
+      "new_translation": 122
+    }
+  },
+  "guide_files": 41,
+  "guide_direct_strings_translated": 122,
+  "guide_intentional_same_strings": 2,
+  "quest_existing_korean_reused": 1,
+  "quest_existing_korean_corrected": 8,
+  "quest_keys": 9,
+  "status": "complete"
+}

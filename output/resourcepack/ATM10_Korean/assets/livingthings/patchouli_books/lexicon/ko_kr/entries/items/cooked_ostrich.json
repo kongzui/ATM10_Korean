@@ -1,0 +1,16 @@
+{
+  "name": "익힌 타조고기",
+  "icon": "livingthings:cooked_ostrich",
+  "category": "livingthings:item_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br)$(bold)획득:$()$(br)생타조고기를 제련하면 얻을 수 있습니다"
+    },
+    {
+      "type": "spotlight",
+      "item": "livingthings:cooked_ostrich",
+      "text": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다"
+    }
+  ]
+}

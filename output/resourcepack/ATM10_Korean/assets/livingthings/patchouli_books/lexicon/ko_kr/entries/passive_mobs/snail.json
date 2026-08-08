@@ -1,0 +1,19 @@
+{
+  "name": "달팽이",
+  "icon": "livingthings:snail_spawn_egg",
+  "category": "livingthings:passive_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br2)$(bold)체력: $()2하트$(br2)$(bold)번식 아이템: $()$(li)당근$(li)사과$(br2)염료로 달팽이를 (웅크린 채) 우클릭하면 색을 바꿀 수 있습니다$(br2)$(bold)전리품:$()$(li)슬라임볼 1-2개"
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:snail",
+      "rotate": false,
+      "scale": 1.0,
+      "default_rotation": 45,
+      "text": "$(bold)숲$(), $(bold)늪$(), $(bold)평원$()을 비롯한 거의 모든 생물군계에서 찾을 수 있습니다."
+    }
+  ]
+}

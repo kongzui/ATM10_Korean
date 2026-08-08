@@ -1,0 +1,746 @@
+[
+  {
+    "path": "categories/hostile_mobs_category.json.name",
+    "source": "Hostile Mobs",
+    "target": "적대적 몹",
+    "status": "translated"
+  },
+  {
+    "path": "categories/hostile_mobs_category.json.description",
+    "source": "Be aware of these mobs, because they might attack you!",
+    "target": "공격할 수 있으니 이 몹들을 조심하세요!",
+    "status": "translated"
+  },
+  {
+    "path": "categories/item_category.json.name",
+    "source": "Items",
+    "target": "아이템",
+    "status": "translated"
+  },
+  {
+    "path": "categories/item_category.json.description",
+    "source": "All the items",
+    "target": "모든 아이템을 소개합니다.",
+    "status": "translated"
+  },
+  {
+    "path": "categories/neutral_mobs_category.json.name",
+    "source": "Neutral Mobs",
+    "target": "중립적 몹",
+    "status": "translated"
+  },
+  {
+    "path": "categories/neutral_mobs_category.json.description",
+    "source": "These mobs will only defend themselves, if you attack them first!",
+    "target": "먼저 공격할 때만 자신을 방어하는 몹입니다!",
+    "status": "translated"
+  },
+  {
+    "path": "categories/passive_mobs_category.json.name",
+    "source": "Passive Mobs",
+    "target": "비공격적 몹",
+    "status": "translated"
+  },
+  {
+    "path": "categories/passive_mobs_category.json.description",
+    "source": "These mobs will never hurt anyone!",
+    "target": "누구도 공격하지 않는 몹입니다!",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/ancient_blaze.json.name",
+    "source": "Ancient Blaze",
+    "target": "고대 블레이즈",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/ancient_blaze.json.pages[0].text",
+    "source": "Another boss from the Nether!$(br2)$(bold)Health: $()125 Hearts$(br)$(bold)Attack-Damage: $()3 Hearts$(br2)$(bold)Attacks: $()$(li)6 Large Fireballs$(li)∞ Small Fireballs",
+    "target": "네더의 또 다른 보스입니다!$(br2)$(bold)체력: $()125하트$(br)$(bold)공격 피해: $()3하트$(br2)$(bold)공격: $()$(li)대형 화염구 6개$(li)∞개의 소형 화염구",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/ancient_blaze.json.pages[1].text",
+    "source": "can be created with a ritual (next page)",
+    "target": "의식을 통해 만들 수 있습니다(다음 쪽).",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/ancient_blaze.json.pages[2].text",
+    "source": "$(bold)Summoning$()$(br2)To summon the ancient blaze you need to place a$(br)Jack o'Lantern on top of two glowstone blocks.$(br2)Once the ancient blaze is summoned it will be invulnerable until it charged up it's 6 large fireballs.$(br2)The amount of large fireballs can be seen by the amount of sticks flying around.",
+    "target": "$(bold)소환$()$(br2)고대 블레이즈를 소환하려면 발광석 블록 두 개 위에$(br)잭오랜턴을 놓으세요.$(br2)소환된 고대 블레이즈는 대형 화염구 6개를 모두 충전할 때까지 무적입니다.$(br2)주변을 날아다니는 막대 수로 충전된 대형 화염구 수를 알 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/ancient_blaze.json.pages[3].text",
+    "source": "$(bold)Death$()$(br2)When dying, it will drop it's helmet.$(br2)The ancient blaze will spawn 4 normal blazes to revenge it's death.",
+    "target": "$(bold)죽음$()$(br2)죽을 때 투구를 떨어뜨립니다.$(br2)고대 블레이즈가 죽으면 복수하려는 일반 블레이즈 4마리가 생성됩니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/baby_ender_dragon.json.name",
+    "source": "Baby Enderdragon",
+    "target": "아기 엔더 드래곤",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/baby_ender_dragon.json.pages[0].text",
+    "source": "A semi dangerous animal that has a weakness for chorus fruits!$(br)Tamed baby enderdragons will follow you around.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Taming Items: $()$(li)Chorus Fruit",
+    "target": "후렴과를 무척 좋아하는 제법 위험한 동물입니다!$(br)길들인 아기 엔더 드래곤은 플레이어를 따라다닙니다.$(br2)$(bold)체력: $()5하트$(br2)$(bold)길들이기 아이템: $()$(li)후렴과",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/baby_ender_dragon.json.pages[1].text",
+    "source": "Can be hatched by placing a dragon egg on top of a purpur pillar. ",
+    "target": "퍼퍼 기둥 위에 드래곤 알을 놓으면 부화시킬 수 있습니다. ",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/lion.json.name",
+    "source": "Lion",
+    "target": "사자",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/lion.json.pages[0].text",
+    "source": "A dangerous animal!$(br2)$(bold)Health: $()10 Hearts$(br)$(bold)Attack-Damage: $()2.5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Raw Beef$(li)Raw Chicken$(li)Raw Rabbit",
+    "target": "위험한 동물입니다!$(br2)$(bold)체력: $()10하트$(br)$(bold)공격 피해: $()2.5하트$(br2)$(bold)번식 아이템: $()$(li)익히지 않은 소고기$(li)익히지 않은 닭고기$(li)익히지 않은 토끼고기",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/lion.json.pages[1].text",
+    "source": "Can be found in all $(bold)Savanna$() biomes.",
+    "target": "모든 $(bold)사바나$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/nether_knight.json.name",
+    "source": "Nether Knight",
+    "target": "네더 기사",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/nether_knight.json.pages[0].text",
+    "source": "Deadly fighter that is guarding the nether fortress.",
+    "target": "네더 요새를 지키는 치명적인 전사입니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/nether_knight.json.pages[1].text",
+    "source": "",
+    "target": "",
+    "status": "intentional_same"
+  },
+  {
+    "path": "entries/hostile_mobs/shark.json.name",
+    "source": "Shark",
+    "target": "상어",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/shark.json.pages[0].text",
+    "source": "A fast water creature, that will hunt down players!$(br2)$(bold)Health: $()11 Hearts$(br)$(bold)Attack-Damage: $()3 Hearts$(br2)$(bold)Drops:$()$(li)0-3 Shark Tooth$(li)1-2 Raw Cod",
+    "target": "플레이어를 추격하는 빠른 수중 생물입니다!$(br2)$(bold)체력: $()11하트$(br)$(bold)공격 피해: $()3하트$(br2)$(bold)전리품:$()$(li)상어 이빨 0-3개$(li)생대구 1-2개",
+    "status": "translated"
+  },
+  {
+    "path": "entries/hostile_mobs/shark.json.pages[1].text",
+    "source": "Can be found in all $(bold)Ocean$() biomes.",
+    "target": "모든 $(bold)바다$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ancient_helmet.json.name",
+    "source": "Ancient Helmet",
+    "target": "고대 투구",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ancient_helmet.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)Can be dropped by an Ancient Blaze.",
+    "target": "$(br)$(bold)획득:$()$(br)고대 블레이즈가 떨어뜨릴 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ancient_helmet.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)adds Fire Resistance Effect when worn",
+    "target": "$(br)$(bold)용도:$()$(li)착용하면 화염 저항 효과를 부여합니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/banana.json.name",
+    "source": "Banana",
+    "target": "바나나",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/banana.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be obtained by breaking jungle leaves",
+    "target": "$(br)$(bold)획득:$()$(br)정글 나뭇잎을 부수면 얻을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/banana.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_crab.json.name",
+    "source": "Cooked Crab Meat",
+    "target": "익힌 게살",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_crab.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be obtained by smelting Raw Crab",
+    "target": "$(br)$(bold)획득:$()$(br)생게살을 제련하면 얻을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_crab.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_elephant.json.name",
+    "source": "Cooked Elephant Meat",
+    "target": "익힌 코끼리고기",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_elephant.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be obtained by smelting Raw Elephant Meat",
+    "target": "$(br)$(bold)획득:$()$(br)생코끼리고기를 제련하면 얻을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_elephant.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_giraffe.json.name",
+    "source": "Cooked Giraffe Meat",
+    "target": "익힌 기린고기",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_giraffe.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be obtained by smelting Raw Giraffe Meat",
+    "target": "$(br)$(bold)획득:$()$(br)생기린고기를 제련하면 얻을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_giraffe.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_lion.json.name",
+    "source": "Cooked Lion Meat",
+    "target": "익힌 사자고기",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_lion.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be obtained by smelting Raw Lion Meat",
+    "target": "$(br)$(bold)획득:$()$(br)생사자고기를 제련하면 얻을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_lion.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_ostrich.json.name",
+    "source": "Cooked Ostrich Meat",
+    "target": "익힌 타조고기",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_ostrich.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be obtained by smelting Raw Ostrich Meat",
+    "target": "$(br)$(bold)획득:$()$(br)생타조고기를 제련하면 얻을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/cooked_ostrich.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/crab.json.name",
+    "source": "Raw Crab Meat",
+    "target": "생게살",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/crab.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be dropped by Crabs",
+    "target": "$(br)$(bold)획득:$()$(br)게가 떨어뜨릴 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/crab.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten$(li)can be smelted to Cooked Crab Meat",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다$(li)제련하여 익힌 게살을 만들 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/crab_shell.json.name",
+    "source": "Crab Shell",
+    "target": "게 껍데기",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/crab_shell.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be dropped by Crabs",
+    "target": "$(br)$(bold)획득:$()$(br)게가 떨어뜨릴 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/crab_shell.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)no known usages",
+    "target": "$(br)$(bold)용도:$()$(li)알려진 용도가 없습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/elephant.json.name",
+    "source": "Raw Elephant Meat",
+    "target": "생코끼리고기",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/elephant.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be dropped by Elephants",
+    "target": "$(br)$(bold)획득:$()$(br)코끼리가 떨어뜨릴 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/elephant.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten$(li)can be smelted to Cooked Elephant Meat",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다$(li)제련하여 익힌 코끼리고기를 만들 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/giraffe.json.name",
+    "source": "Raw Giraffe Meat",
+    "target": "생기린고기",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/giraffe.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be dropped by Giraffes",
+    "target": "$(br)$(bold)획득:$()$(br)기린이 떨어뜨릴 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/giraffe.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten$(li)can be smelted to Cooked Giraffe Meat",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다$(li)제련하여 익힌 기린고기를 만들 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/lion.json.name",
+    "source": "Raw Lion Meat",
+    "target": "생사자고기",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/lion.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be dropped by Lions",
+    "target": "$(br)$(bold)획득:$()$(br)사자가 떨어뜨릴 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/lion.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten$(li)can be smelted to Cooked Lion Meat",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다$(li)제련하여 익힌 사자고기를 만들 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ostrich.json.name",
+    "source": "Raw Ostrich Meat",
+    "target": "생타조고기",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ostrich.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be dropped by Ostrichs",
+    "target": "$(br)$(bold)획득:$()$(br)타조가 떨어뜨릴 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ostrich.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be eaten$(li)can be smelted to Cooked Ostrich Meat",
+    "target": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다$(li)제련하여 익힌 타조고기를 만들 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ostrich_egg.json.name",
+    "source": "Ostrich Egg",
+    "target": "타조 알",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ostrich_egg.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)If an ostrich nest contains an egg and a player right-clicks it, the egg can be dropped$(br2)Can be dropped by an ostrich that was about do build its nest",
+    "target": "$(br)$(bold)획득:$()$(br)알이 든 타조 둥지를 우클릭하면 알을 꺼낼 수 있습니다$(br2)둥지를 만들려던 타조가 떨어뜨릴 수도 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ostrich_egg.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(br)can be placed in an ostrich nest, to hatch a baby ostrich",
+    "target": "$(br)$(bold)용도:$()$(br)타조 둥지에 놓아 아기 타조를 부화시킬 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ostrich_nest.json.name",
+    "source": "Ostrich Nest",
+    "target": "타조 둥지",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ostrich_nest.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)If mined without a silk-touch tool the nest will fall apart and you get a few sticks.",
+    "target": "$(br)$(bold)획득:$()$(br)섬세한 손길 도구 없이 캐면 둥지가 부서지고 막대기 몇 개를 얻습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/ostrich_nest.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(br)can be placed$(br)an ostrichs might lay an egg into it",
+    "target": "$(br)$(bold)용도:$()$(br)설치할 수 있습니다$(br)타조가 안에 알을 낳을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/seahorse_bucket.json.name",
+    "source": "Bucket of Seahorse",
+    "target": "해마가 든 양동이",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/seahorse_bucket.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)right-click a seahorse with a water bucket to capture it in a bucket",
+    "target": "$(br)$(bold)획득:$()$(br)물 양동이로 해마를 우클릭하면 양동이에 담을 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/shark_tooth.json.name",
+    "source": "Shark Tooth",
+    "target": "상어 이빨",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/shark_tooth.json.pages[0].text",
+    "source": "$(br)$(bold)Obtaining:$()$(br)can be dropped by Sharks",
+    "target": "$(br)$(bold)획득:$()$(br)상어가 떨어뜨릴 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/items/shark_tooth.json.pages[1].text",
+    "source": "$(br)$(bold)Usage:$()$(li)can be used for arrows$(li)can be crafted to bone meal",
+    "target": "$(br)$(bold)용도:$()$(li)화살 재료로 사용할 수 있습니다$(li)뼛가루로 제작할 수 있습니다",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/crab.json.name",
+    "source": "Crab",
+    "target": "게",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/crab.json.pages[0].text",
+    "source": "$(br2)$(bold)Health: $()4 Hearts$(br)$(bold)Attack-Damage: $()0.5 Heart$(br2)$(bold)Breeding Items: $()$(li)Raw Cod$(br2)$(bold)Drops:$()$(li)1-2 Raw Crab$(li)0-1 Crab Shell",
+    "target": "$(br2)$(bold)체력: $()4하트$(br)$(bold)공격 피해: $()0.5하트$(br2)$(bold)번식 아이템: $()$(li)생대구$(br2)$(bold)전리품:$()$(li)생게살 1-2개$(li)게 껍데기 0-1개",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/crab.json.pages[1].text",
+    "source": "Can be found in $(bold)Swamp$() and $(bold)Beach$() biomes.",
+    "target": "$(bold)늪$()과 $(bold)해변$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/elephant.json.name",
+    "source": "Elephant",
+    "target": "코끼리",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/elephant.json.pages[0].text",
+    "source": "Huge animals that will be angry when you attack them!$(br2)$(bold)Health: $()30 Hearts$(br)$(bold)Attack-Damage: $()3.5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat (only tamed ones)$(br2)Can be tamed with apples. Tamed Elephants can be equipped with a saddle, and then with a chest.",
+    "target": "공격하면 화를 내는 거대한 동물입니다!$(br2)$(bold)체력: $()30하트$(br)$(bold)공격 피해: $()3.5하트$(br2)$(bold)번식 아이템: $()$(li)밀(길들인 개체만)$(br2)사과로 길들일 수 있습니다. 길들인 코끼리에는 안장을 장착한 뒤 상자도 장착할 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/elephant.json.pages[1].text",
+    "source": "Can be found in all $(bold)Savanna$() biomes.",
+    "target": "모든 $(bold)사바나$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/giraffe.json.name",
+    "source": "Giraffe",
+    "target": "기린",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/giraffe.json.pages[0].text",
+    "source": "Huge animals that will be angry when you attack them!$(br2)$(bold)Health: $()15 Hearts$(br)$(bold)Attack-Damage: $()2 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat",
+    "target": "공격하면 화를 내는 거대한 동물입니다!$(br2)$(bold)체력: $()15하트$(br)$(bold)공격 피해: $()2하트$(br2)$(bold)번식 아이템: $()$(li)밀",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/giraffe.json.pages[1].text",
+    "source": "Can be found in all $(bold)Savanna$() biomes.",
+    "target": "모든 $(bold)사바나$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/monkey.json.name",
+    "source": "Monkey",
+    "target": "원숭이",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/monkey.json.pages[0].text",
+    "source": "$(br2)$(bold)Health: $()3 Hearts$(br)$(bold)Attack-Damage: $()1.5 Heart$(br2)$(bold)Breeding Items: $()$(li)Apples$(li)Bananas$(br2)$(bold)Drops:$()$(li)1-2 Leather$(li)0-1 Banana",
+    "target": "$(br2)$(bold)체력: $()3하트$(br)$(bold)공격 피해: $()1.5하트$(br2)$(bold)번식 아이템: $()$(li)사과$(li)바나나$(br2)$(bold)전리품:$()$(li)가죽 1-2개$(li)바나나 0-1개",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/monkey.json.pages[1].text",
+    "source": "Can be found in all $(bold)Jungle$() biomes.",
+    "target": "모든 $(bold)정글$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/raccoon.json.name",
+    "source": "Raccoon",
+    "target": "라쿤",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/raccoon.json.pages[0].text",
+    "source": "Medium-sized mammals that clean their food thoroughly before eating it.$(br2)$(bold)Health: $()5 Hearts$(br)$(bold)Attack-Damage: $()1 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat$(li)Apple$(li)Carrot$(li)Potato$(li)Beetroot",
+    "target": "먹기 전에 먹이를 깨끗이 씻는 중형 포유류입니다.$(br2)$(bold)체력: $()5하트$(br)$(bold)공격 피해: $()1하트$(br2)$(bold)번식 아이템: $()$(li)밀$(li)사과$(li)당근$(li)감자$(li)비트",
+    "status": "translated"
+  },
+  {
+    "path": "entries/neutral_mobs/raccoon.json.pages[1].text",
+    "source": "Can be found in $(bold)Forest$() and $(bold)Plain$() biomes.",
+    "target": "$(bold)숲$()과 $(bold)평원$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/flamingo.json.name",
+    "source": "Flamingo",
+    "target": "홍학",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/flamingo.json.pages[0].text",
+    "source": "Pink bird that stands most of the time on one leg.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Raw Salmon$(li)Raw Cod",
+    "target": "대부분 한쪽 다리로 서 있는 분홍색 새입니다.$(br2)$(bold)체력: $()5하트$(br2)$(bold)번식 아이템: $()$(li)생연어$(li)생대구",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/flamingo.json.pages[1].text",
+    "source": "Can be found in $(bold)Swamps$() and at $(bold)Rivers$().",
+    "target": "$(bold)늪$()과 $(bold)강$()에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/koala.json.name",
+    "source": "Koala",
+    "target": "코알라",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/koala.json.pages[0].text",
+    "source": "Very slow animal, that will sleep most of the day.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat$(br2)$(bold)Drops:$()$(li)1-2 Leather",
+    "target": "하루 대부분을 자며 보내는 매우 느린 동물입니다.$(br2)$(bold)체력: $()5하트$(br2)$(bold)번식 아이템: $()$(li)밀$(br2)$(bold)전리품:$()$(li)가죽 1-2개",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/koala.json.pages[1].text",
+    "source": "Can be found in all $(bold)Jungle$() biomes.",
+    "target": "모든 $(bold)정글$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/mantaray.json.name",
+    "source": "Mantaray",
+    "target": "쥐가오리",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/mantaray.json.pages[0].text",
+    "source": "Aquatic animal that looks like it's flying through the sea.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Drops:$()$(li)1-2 Raw Cod",
+    "target": "바닷속을 날아다니는 것처럼 보이는 수생 동물입니다.$(br2)$(bold)체력: $()5하트$(br2)$(bold)전리품:$()$(li)생대구 1-2개",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/mantaray.json.pages[1].text",
+    "source": "Can be found in all $(bold)Ocean$() biomes.",
+    "target": "모든 $(bold)바다$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/ostrich.json.name",
+    "source": "Ostrich",
+    "target": "타조",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/ostrich.json.pages[0].text",
+    "source": "Fast running bird that can be ridden without a saddle.$(br2)$(bold)Health: $()10 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat$(br2)$(bold)Breeding Behavior:$()$(br)    Next Page ...",
+    "target": "안장 없이 탈 수 있는 빠른 새입니다.$(br2)$(bold)체력: $()10하트$(br2)$(bold)번식 아이템: $()$(li)밀$(br2)$(bold)번식 행동:$()$(br)    다음 쪽...",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/ostrich.json.pages[1].text",
+    "source": "Can be found in all $(bold)Savanna$() biomes.",
+    "target": "모든 $(bold)사바나$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/ostrich.json.pages[2].text",
+    "source": "$(bold)Breeding Behavior:$()$(br2)After two ostrichs fell in love, one of them will search the nearest sand-block to build a nest on it.$(br)If there is already an empty nest nearby, the ostrich will choose this to lay the egg.$(br)The egg will need some time, before an ostrich baby will hatch.",
+    "target": "$(bold)번식 행동:$()$(br2)타조 두 마리가 사랑에 빠지면 한 마리가 가장 가까운 모래 블록을 찾아 그 위에 둥지를 만듭니다.$(br)주변에 빈 둥지가 있으면 그곳에 알을 낳습니다.$(br)시간이 지나면 알에서 아기 타조가 부화합니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/ostrich.json.pages[3].text",
+    "source": "An ostrich laying an egg into its nest.",
+    "target": "타조가 둥지에 알을 낳는 모습입니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/owl.json.name",
+    "source": "Owl",
+    "target": "올빼미",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/owl.json.pages[0].text",
+    "source": "Nocturnal bird that can spawn in different color variations.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Melon Seeds$(li)Pumpkin Seeds$(li)Beetroot Seeds$(br2)$(bold)Taming Item: $()$(li)Wheat Seeds",
+    "target": "여러 색상으로 생성되는 야행성 새입니다.$(br2)$(bold)체력: $()5하트$(br2)$(bold)번식 아이템: $()$(li)수박씨$(li)호박씨$(li)비트 씨앗$(br2)$(bold)길들이기 아이템: $()$(li)밀 씨앗",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/owl.json.pages[1].text",
+    "source": "Can be found in $(bold)Forest$() biomes.",
+    "target": "$(bold)숲$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/peacock.json.name",
+    "source": "Peacock",
+    "target": "공작",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/peacock.json.pages[0].text",
+    "source": "Peacocks are a type of large pheasant known for their beautiful colored feathers.$(br2)$(bold)Health: $()4 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat",
+    "target": "공작은 아름다운 색의 깃털로 유명한 대형 꿩의 한 종류입니다.$(br2)$(bold)체력: $()4하트$(br2)$(bold)번식 아이템: $()$(li)밀",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/peacock.json.pages[1].text",
+    "source": "Can be found in $(bold)Savannas$() and in $(bold)Jungles$().",
+    "target": "$(bold)사바나$()와 $(bold)정글$()에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/penguin.json.name",
+    "source": "Penguin",
+    "target": "펭귄",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/penguin.json.pages[0].text",
+    "source": "A cute animal that is very talkative.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Raw Salmon$(li)Raw Cod$(li)Pufferfish",
+    "target": "수다스러운 귀여운 동물입니다.$(br2)$(bold)체력: $()5하트$(br2)$(bold)번식 아이템: $()$(li)생연어$(li)생대구$(li)복어",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/penguin.json.pages[1].text",
+    "source": "Can be found in $(bold)Snowy$() biomes.",
+    "target": "$(bold)눈 덮인$() 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/seahorse.json.name",
+    "source": "Seahorse",
+    "target": "해마",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/seahorse.json.pages[0].text",
+    "source": "Colorful animal that wanders through the ocean in groups.$(br2)$(bold)Health: $()2 Hearts",
+    "target": "무리를 지어 바다를 돌아다니는 화려한 동물입니다.$(br2)$(bold)체력: $()2하트",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/seahorse.json.pages[1].text",
+    "source": "Can be found in $(bold)Warm$() and $(bold)Luke Warm Oceans$().",
+    "target": "$(bold)따뜻한 바다$()와 $(bold)미지근한 바다$()에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/shroomie.json.name",
+    "source": "Shroomie",
+    "target": "슈루미",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/shroomie.json.pages[0].text",
+    "source": "Helpful animal that will plant at least one mushroom when you give them one.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat$(br2)$(bold)Drops:$()$(li)1-2 Red Mushroom$(br)    --- or ---$(li)1-2 Brown Mushroom",
+    "target": "버섯을 주면 적어도 하나를 심어 주는 유용한 동물입니다.$(br2)$(bold)체력: $()5하트$(br2)$(bold)번식 아이템: $()$(li)밀$(br2)$(bold)전리품:$()$(li)빨간색 버섯 1-2개$(br)    --- 또는 ---$(li)갈색 버섯 1-2개",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/shroomie.json.pages[1].text",
+    "source": "Can be found in all $(bold)Mushroom Fields$().",
+    "target": "모든 $(bold)버섯 들판$()에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/snail.json.name",
+    "source": "Snail",
+    "target": "달팽이",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/snail.json.pages[0].text",
+    "source": "$(br2)$(bold)Health: $()2 Hearts$(br2)$(bold)Breeding Items: $()$(li)Carrots$(li)Apples$(br2)can be recolored by (sneak-)rightclicking the snail with any dye$(br2)$(bold)Drops:$()$(li)1-2 Slime Balls",
+    "target": "$(br2)$(bold)체력: $()2하트$(br2)$(bold)번식 아이템: $()$(li)당근$(li)사과$(br2)염료로 달팽이를 (웅크린 채) 우클릭하면 색을 바꿀 수 있습니다$(br2)$(bold)전리품:$()$(li)슬라임볼 1-2개",
+    "status": "translated"
+  },
+  {
+    "path": "entries/passive_mobs/snail.json.pages[1].text",
+    "source": "Can be found in nearly all various biomes like $(bold)Forests$(), $(bold)Swamps$() or $(bold)Plains$().",
+    "target": "$(bold)숲$(), $(bold)늪$(), $(bold)평원$()을 비롯한 거의 모든 생물군계에서 찾을 수 있습니다.",
+    "status": "translated"
+  },
+  {
+    "path": "book.json.name",
+    "source": "item.livingthings.lexicon",
+    "target": "item.livingthings.lexicon",
+    "status": "intentional_same"
+  },
+  {
+    "path": "book.json.landing_text",
+    "source": "This book holds the knowledge about the added mobs and items",
+    "target": "이 책에는 추가된 몹과 아이템에 관한 지식이 담겨 있습니다.",
+    "status": "translated"
+  }
+]

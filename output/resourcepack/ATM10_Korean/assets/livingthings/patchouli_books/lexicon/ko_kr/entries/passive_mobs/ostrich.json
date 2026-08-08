@@ -1,0 +1,32 @@
+{
+  "name": "타조",
+  "icon": "livingthings:ostrich_spawn_egg",
+  "category": "livingthings:passive_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "안장 없이 탈 수 있는 빠른 새입니다.$(br2)$(bold)체력: $()10하트$(br2)$(bold)번식 아이템: $()$(li)밀$(br2)$(bold)번식 행동:$()$(br)    다음 쪽..."
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:ostrich",
+      "rotate": false,
+      "scale": 1.0,
+      "default_rotation": 45,
+      "offset": 0.1,
+      "text": "모든 $(bold)사바나$() 생물군계에서 찾을 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)번식 행동:$()$(br2)타조 두 마리가 사랑에 빠지면 한 마리가 가장 가까운 모래 블록을 찾아 그 위에 둥지를 만듭니다.$(br)주변에 빈 둥지가 있으면 그곳에 알을 낳습니다.$(br)시간이 지나면 알에서 아기 타조가 부화합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "livingthings:textures/other/ostrich_laying_egg.png"
+      ],
+      "border": true,
+      "text": "타조가 둥지에 알을 낳는 모습입니다."
+    }
+  ]
+}

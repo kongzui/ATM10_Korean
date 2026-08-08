@@ -1,0 +1,16 @@
+{
+  "name": "생기린고기",
+  "icon": "livingthings:giraffe",
+  "category": "livingthings:item_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br)$(bold)획득:$()$(br)기린이 떨어뜨릴 수 있습니다"
+    },
+    {
+      "type": "spotlight",
+      "item": "livingthings:giraffe",
+      "text": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다$(li)제련하여 익힌 기린고기를 만들 수 있습니다"
+    }
+  ]
+}

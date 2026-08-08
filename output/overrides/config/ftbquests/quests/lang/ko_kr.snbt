@@ -1999,8 +1999,8 @@
 	quest.1F146FE1002643B2.quest_subtitle: "브라질우드 + 로즈 유칼립투스"
 	quest.1F18B64C84C8809D.title: "&l&9오버월드 현상금:&r&e 거미"
 	quest.1F1B4948FCC14BB4.quest_subtitle: "은전나무 + 가문비나무"
-	quest.1F31EBF49079F9D3.quest_desc: ["개편된 크리퍼는 여러 생물 군계에 맞는 다양한 종류의 크리퍼를 제공합니다. \\n\\n각각 다른 떨굼 설정을 가지고 있으며, 심지어 몇몇은 친근하기까지 합니다!\\n\\n모두 고양이를 무서워합니다 though..."]
-	quest.1F31EBF49079F9D3.title: "개편된 크리퍼"
+	quest.1F31EBF49079F9D3.quest_desc: ["Creeper Overhaul은 생물군계마다 서로 다른 크리퍼를 추가합니다. \\n\\n종류마다 전리품이 다르고, 몇몇은 우호적이기까지 합니다! \\n\\n그래도 모두 고양이를 무서워합니다..."]
+	quest.1F31EBF49079F9D3.title: "Creeper Overhaul"
 	quest.1F6C8117F3CED939.title: "&6Allthemodium 활"
 	quest.1F7591DB6D8EC1E7.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 증가 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)\\n - 성급함 II (3:00)"]
 	quest.1F7591DB6D8EC1E7.title: "&5인사늄 사과"
@@ -2810,8 +2810,8 @@
 	quest.2BC325DEBDD2F5CA.quest_subtitle: "티어: &b마법"
 	quest.2BCB788924BBD849.quest_desc: ["제가 가장 좋아하면서도 가장 강력한 무기 중 하나입니다. \\n\\n&b소각자&r는 일반 검처럼 사용하고 마법을 부여할 수 있습니다! \\n하지만 우클릭을 길게 누른 뒤 몇 초 후 놓으면 바라보는 방향의 땅에서 거대한 불길이 솟아올라 폭발합니다. \\n\\n크기도 거대해 멋질 뿐 아니라 공격 범위도 더 넓습니다!"]
 	quest.2BCB788924BBD849.title: "&b소각자"
-	quest.2BD077EFE77B8EBB.quest_desc: ["좀비는 다른 생물 군계에서 생성되는 여러 종류가 있습니다.\\n\\n허스크 - 사막에서 생성됩니다.\\n드라운드 - 물속에서 생성됩니다.\\n젤리드 - 추운 생물 군계에서 생성됩니다.\\n티켓 - 정글에서 생성됩니다."]
-	quest.2BD077EFE77B8EBB.title: "좀비 종류"
+	quest.2BD077EFE77B8EBB.quest_desc: ["좀비는 생물군계에 따라 여러 변종으로 생성됩니다. \\n\\n허스크 - 사막에서 생성됩니다. \\n드라운드 - 물속에서 생성됩니다. \\n젤리드 - 추운 생물군계에서 생성됩니다. \\n시킷 - 정글에서 생성됩니다."]
+	quest.2BD077EFE77B8EBB.title: "좀비 변종"
 	quest.2BE538246C672689.quest_desc: ["주조소를 사용하여 &#F2EB2E비브라늄 벌 생성 알&r 위에 &#9332D9용융 언옵테이늄&r을 붓습니다."]
 	quest.2BE538246C672689.quest_subtitle: "올더모듐 + 바이브라늄"
 	quest.2BE538246C672689.title: "언옵테이늄 벌"
@@ -5478,8 +5478,8 @@
 	quest.56EC79AF11B0869E.quest_subtitle: "최대 빙의"
 	quest.56EC79AF11B0869E.title: "&9Xeovrenth Adjure"
 	quest.56FB82DEB944F758.quest_desc: ["&a왜곡의 철퇴&r와 유사하게 작동하지만, 대신 광역 폭발을 일으킵니다."]
-	quest.570223A03231DF8C.quest_desc: ["개편된 엔더맨은 개편된 크리퍼와 유사한 모드입니다! 물론 엔더맨에 관한 것이죠!\\n\\n이 모든 엔더맨은 다양한 생물 군계에서 찾을 수 있으며, 각자 고유한 방식으로 특별합니다! 어떤 엔더맨은 다른 공격을 하고, 어떤 엔더맨은 다른 진주를 드롭하며, 모두 다른 외형을 가지고 있습니다!"]
-	quest.570223A03231DF8C.title: "개편된 엔더맨"
+	quest.570223A03231DF8C.quest_desc: ["Enderman Overhaul은 Creeper Overhaul과 비슷하지만, 이번에는 엔더맨을 다룹니다! \\n\\n다양한 생물군계에서 저마다 독특한 엔더맨을 만날 수 있습니다. 공격 방식이 다르거나 특별한 진주를 떨어뜨리며, 생김새도 모두 다릅니다!"]
+	quest.570223A03231DF8C.title: "Enderman Overhaul"
 	quest.5703EDAFCF9E7719.quest_subtitle: "티어: &63"
 	quest.57167FE67CFAC255.quest_subtitle: "필터에 벌을 추가하는 데 사용됩니다"
 	quest.5716E84828EC0C23.quest_desc: ["플라스틱 건설 벽돌은 &l&7PneumaticCraft: 리프레셔라이즈드&r를 통해 만들어진 블록입니다. \\n\\n실생활의 대응책과 마찬가지로 밟으면 아픕니다!\\n\\n그러니 신발을 신거나 벽돌을 부드럽게 다듬으세요."]
@@ -6535,8 +6535,8 @@
 		"{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:center fit:true}"
 	]
 	quest.682034C680FDEDC2.title: "더 많은 전력 저장소"
-	quest.6827836C8E675A94.quest_desc: ["스켈레톤은 좀비처럼 다양한 종류가 있습니다!\\n\\n스트레이 - 추운 생물 군계에서 생성됩니다.\\n보그드 - 늪과 시련의 회당에서 생성됩니다.\\n머크 - 산호초의 수중에서 생성됩니다.\\n초록빛의 - 정글에서 생성됩니다."]
-	quest.6827836C8E675A94.title: "스켈레톤 종류"
+	quest.6827836C8E675A94.quest_desc: ["스켈레톤도 좀비처럼 여러 변종이 있습니다! \\n\\n스트레이 - 추운 생물군계에서 생성됩니다. \\n보그드 - 늪과 시련의 회당에서 생성됩니다. \\n머크 - 산호초의 물속에서 생성됩니다. \\n버던트 - 정글에서 생성됩니다."]
+	quest.6827836C8E675A94.title: "스켈레톤 변종"
 	quest.68318811CCC28320.quest_desc: ["&c굳은 피 조각&r과 &9다크 파워 젬&r을 조합하면 피 주입 코어를 만듭니다.\\n\\n&9피 주입 코어&r는 EvilCraft의 여러 기계에 쓰이는 핵심 제작 부품입니다."]
 	quest.68318811CCC28320.title: "&a주입 코어"
 	quest.683B58B699D4D381.quest_subtitle: "파란띠무늬벌이 있는 벌집에서 스폰됩니다."

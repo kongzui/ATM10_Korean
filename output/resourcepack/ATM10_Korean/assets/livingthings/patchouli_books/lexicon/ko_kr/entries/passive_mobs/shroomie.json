@@ -1,0 +1,19 @@
+{
+  "name": "슈루미",
+  "icon": "livingthings:shroomie_spawn_egg",
+  "category": "livingthings:passive_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "버섯을 주면 적어도 하나를 심어 주는 유용한 동물입니다.$(br2)$(bold)체력: $()5하트$(br2)$(bold)번식 아이템: $()$(li)밀$(br2)$(bold)전리품:$()$(li)빨간색 버섯 1-2개$(br)    --- 또는 ---$(li)갈색 버섯 1-2개"
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:shroomie{ShroomieType:1}",
+      "rotate": false,
+      "default_rotation": 30,
+      "offset": 0.1,
+      "text": "모든 $(bold)버섯 들판$()에서 찾을 수 있습니다."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "고대 블레이즈",
+  "icon": "livingthings:ancient_blaze_spawn_egg",
+  "category": "livingthings:hostile_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "네더의 또 다른 보스입니다!$(br2)$(bold)체력: $()125하트$(br)$(bold)공격 피해: $()3하트$(br2)$(bold)공격: $()$(li)대형 화염구 6개$(li)∞개의 소형 화염구"
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:ancient_blaze{Shoots:6}",
+      "rotate": false,
+      "scale": 1.0,
+      "default_rotation": 35,
+      "text": "의식을 통해 만들 수 있습니다(다음 쪽)."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)소환$()$(br2)고대 블레이즈를 소환하려면 발광석 블록 두 개 위에$(br)잭오랜턴을 놓으세요.$(br2)소환된 고대 블레이즈는 대형 화염구 6개를 모두 충전할 때까지 무적입니다.$(br2)주변을 날아다니는 막대 수로 충전된 대형 화염구 수를 알 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)죽음$()$(br2)죽을 때 투구를 떨어뜨립니다.$(br2)고대 블레이즈가 죽으면 복수하려는 일반 블레이즈 4마리가 생성됩니다."
+    }
+  ]
+}

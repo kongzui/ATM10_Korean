@@ -1,0 +1,82 @@
+{
+  "family": "mob_expansion",
+  "namespaces": [
+    {
+      "namespace": "endermanoverhaul",
+      "jar": "endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
+      "jar_size": 1330403,
+      "jar_mtime_ns": 1783222267480389700,
+      "english_keys": 135,
+      "bundled_korean_keys": 0
+    },
+    {
+      "namespace": "creeperoverhaul",
+      "jar": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
+      "jar_size": 1185088,
+      "jar_mtime_ns": 1783222321918365800,
+      "english_keys": 62,
+      "bundled_korean_keys": 59
+    },
+    {
+      "namespace": "livingthings",
+      "jar": "livingthings-neoforge-1.21.1-2.3.0.jar",
+      "jar_size": 962953,
+      "jar_mtime_ns": 1783222411318238700,
+      "english_keys": 106,
+      "bundled_korean_keys": 0
+    },
+    {
+      "namespace": "variantsandventures",
+      "jar": "variantsandventures-neoforge-1.0.26+mc1.21.1.jar",
+      "jar_size": 1082397,
+      "jar_mtime_ns": 1783222317561244500,
+      "english_keys": 122,
+      "bundled_korean_keys": 0
+    }
+  ],
+  "english_keys": 425,
+  "guide_files": [
+    "categories/hostile_mobs_category.json",
+    "categories/item_category.json",
+    "categories/neutral_mobs_category.json",
+    "categories/passive_mobs_category.json",
+    "entries/hostile_mobs/ancient_blaze.json",
+    "entries/hostile_mobs/baby_ender_dragon.json",
+    "entries/hostile_mobs/lion.json",
+    "entries/hostile_mobs/nether_knight.json",
+    "entries/hostile_mobs/shark.json",
+    "entries/items/ancient_helmet.json",
+    "entries/items/banana.json",
+    "entries/items/cooked_crab.json",
+    "entries/items/cooked_elephant.json",
+    "entries/items/cooked_giraffe.json",
+    "entries/items/cooked_lion.json",
+    "entries/items/cooked_ostrich.json",
+    "entries/items/crab.json",
+    "entries/items/crab_shell.json",
+    "entries/items/elephant.json",
+    "entries/items/giraffe.json",
+    "entries/items/lion.json",
+    "entries/items/ostrich.json",
+    "entries/items/ostrich_egg.json",
+    "entries/items/ostrich_nest.json",
+    "entries/items/seahorse_bucket.json",
+    "entries/items/shark_tooth.json",
+    "entries/neutral_mobs/crab.json",
+    "entries/neutral_mobs/elephant.json",
+    "entries/neutral_mobs/giraffe.json",
+    "entries/neutral_mobs/monkey.json",
+    "entries/neutral_mobs/raccoon.json",
+    "entries/passive_mobs/flamingo.json",
+    "entries/passive_mobs/koala.json",
+    "entries/passive_mobs/mantaray.json",
+    "entries/passive_mobs/ostrich.json",
+    "entries/passive_mobs/owl.json",
+    "entries/passive_mobs/peacock.json",
+    "entries/passive_mobs/penguin.json",
+    "entries/passive_mobs/seahorse.json",
+    "entries/passive_mobs/shroomie.json",
+    "entries/passive_mobs/snail.json"
+  ],
+  "status": "prepared"
+}

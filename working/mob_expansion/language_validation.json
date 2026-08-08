@@ -1,0 +1,54 @@
+{
+  "family": "mob_expansion",
+  "languages": [
+    {
+      "namespace": "endermanoverhaul",
+      "keys": 135,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    {
+      "namespace": "creeperoverhaul",
+      "keys": 62,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    {
+      "namespace": "livingthings",
+      "keys": 106,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    {
+      "namespace": "variantsandventures",
+      "keys": 122,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    }
+  ],
+  "language_keys": 425,
+  "guide": {
+    "files": 41,
+    "direct_strings": 124,
+    "translated_strings": 122,
+    "intentional_same_strings": 2,
+    "untranslated": [],
+    "latin_residue": {},
+    "errors": []
+  },
+  "quests": {
+    "keys": 9,
+    "latin_residue": {},
+    "errors": []
+  },
+  "errors": [],
+  "status": "complete"
+}

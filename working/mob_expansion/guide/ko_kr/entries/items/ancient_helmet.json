@@ -1,0 +1,16 @@
+{
+  "name": "고대 투구",
+  "icon": "livingthings:ancient_helmet",
+  "category": "livingthings:item_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br)$(bold)획득:$()$(br)고대 블레이즈가 떨어뜨릴 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "livingthings:ancient_helmet",
+      "text": "$(br)$(bold)용도:$()$(li)착용하면 화염 저항 효과를 부여합니다"
+    }
+  ]
+}

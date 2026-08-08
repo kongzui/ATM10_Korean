@@ -1,0 +1,18 @@
+{
+  "name": "원숭이",
+  "icon": "livingthings:monkey_spawn_egg",
+  "category": "livingthings:neutral_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br2)$(bold)체력: $()3하트$(br)$(bold)공격 피해: $()1.5하트$(br2)$(bold)번식 아이템: $()$(li)사과$(li)바나나$(br2)$(bold)전리품:$()$(li)가죽 1-2개$(li)바나나 0-1개"
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:monkey",
+      "rotate": false,
+      "default_rotation": 35,
+      "text": "모든 $(bold)정글$() 생물군계에서 찾을 수 있습니다."
+    }
+  ]
+}

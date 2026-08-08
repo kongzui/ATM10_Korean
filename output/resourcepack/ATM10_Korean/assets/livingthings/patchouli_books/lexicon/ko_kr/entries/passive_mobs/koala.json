@@ -1,0 +1,20 @@
+{
+  "name": "코알라",
+  "icon": "livingthings:koala_spawn_egg",
+  "category": "livingthings:passive_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "하루 대부분을 자며 보내는 매우 느린 동물입니다.$(br2)$(bold)체력: $()5하트$(br2)$(bold)번식 아이템: $()$(li)밀$(br2)$(bold)전리품:$()$(li)가죽 1-2개"
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:koala",
+      "rotate": false,
+      "scale": 0.8,
+      "default_rotation": 42,
+      "offset": 0,
+      "text": "모든 $(bold)정글$() 생물군계에서 찾을 수 있습니다."
+    }
+  ]
+}
