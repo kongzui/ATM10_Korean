@@ -260,5 +260,77 @@
         "mekanism"
       ]
     }
+  ],
+  "language_candidates": [
+    {
+      "label": "Mekanism",
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "namespace": "mekanism",
+      "english_keys": 3239,
+      "project_output_review": 3239
+    },
+    {
+      "label": "Mekanism Generators",
+      "jar": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "namespace": "mekanismgenerators",
+      "english_keys": 364,
+      "project_output_review": 364
+    },
+    {
+      "label": "Mekanism Tools",
+      "jar": "MekanismTools-1.21.1-10.7.19.85.jar",
+      "namespace": "mekanismtools",
+      "english_keys": 800,
+      "project_output_review": 800
+    },
+    {
+      "label": "Mekanism Covers",
+      "jar": "mekanismcovers-1.3-BETA+1.21.jar",
+      "namespace": "mekanismcovers",
+      "english_keys": 3,
+      "project_output_review": 3
+    },
+    {
+      "label": "Mekanistic Routers",
+      "jar": "mekanisticrouters-1.2.0.jar",
+      "namespace": "mekanisticrouters",
+      "english_keys": 13,
+      "project_output_review": 13
+    },
+    {
+      "label": "Just Enough Mekanism Multiblocks",
+      "jar": "JustEnoughMekanismMultiblocks-1.21.1-7.15.jar",
+      "namespace": "jei_mekanism_multiblocks",
+      "english_keys": 77,
+      "project_output_review": 77
+    },
+    {
+      "label": "MEKMM",
+      "jar": "mekmm-1.21.1-1.3.3.jar",
+      "namespace": "mekmm",
+      "english_keys": 558,
+      "project_output_review": 558
+    },
+    {
+      "label": "Gravitational Modulating Additional Unit",
+      "jar": "GravitationalModulatingAdditionalUnit-1.21.1-6.4.jar",
+      "namespace": "gmut",
+      "english_keys": 11,
+      "project_output_review": 11
+    },
+    {
+      "label": "Applied Mekanistics",
+      "jar": "Applied-Mekanistics-1.6.3.jar",
+      "namespace": "appmek",
+      "english_keys": 15,
+      "project_output_review": 15
+    },
+    {
+      "label": "Refined Storage - Mekanism Integration",
+      "jar": "refinedstorage-mekanism-integration-1.1.1.jar",
+      "namespace": "refinedstorage_mekanism_integration",
+      "english_keys": 37,
+      "project_output_review": 37
+    }
   ]
 }

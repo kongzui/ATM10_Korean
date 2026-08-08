@@ -2,7 +2,7 @@
   "mekanisticrouters.guiText.popup.chemical.direction": "§a§n전송 방향§r\n\n여기에서 라우터가 탱크로 화학 물질을 밀어낼지, 아니면 탱크에서 화학 물질을 끌어올지를 제어할 수 있습니다.",
   "mekanisticrouters.guiText.popup.chemical.maxTransfer": "§a§n최대 전송량§r\n\n이것은 라우터가 한 번의 작동으로 전송하려고 시도하는 최대 화학 물질 양입니다.\n\n전송 속도는 라우터의 화학 물질 전송 업그레이드 수와 외부 탱크의 전송 속도(있는 경우)에 의해 여전히 제한됩니다. 따라서 이 숫자는 목표가 아닌 제한으로 간주해야 합니다.",
   "mekanisticrouters.itemText.chemical.maxTransfer": "화학 물질 속도: 최대 %s mB / 작동",
-  "mekanisticrouters.guiText.tooltip.chemicalTransferTooltip": "§b최대 화학 물질 전송량\n한 번의 작동으로 시도할 최대량(mB)입니다.\n이는 라우터의 전체 전송 속도(화학 물질 전송 및 속도 증가)에 의해 여전히 제한됩니다.",
+  "mekanisticrouters.guiText.tooltip.chemicalTransferTooltip": "§b최대 화학 물질 전송량\n한 번의 작동으로 시도할 최대량(mB)입니다.\n라우터의 전체 전송 속도(화학 물질 전송 및 속도 업그레이드)에 따라 제한됩니다.",
   "item.mekanisticrouters.chemical_module_mk2": "화학 물질 모듈 Mk2",
   "item.mekanisticrouters.chemical_module_mk1": "화학 물질 모듈 Mk1",
   "item.mekanisticrouters.chemical_refill_module": "화학 물질 재충전 모듈",

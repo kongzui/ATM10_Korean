@@ -1,0 +1,80 @@
+{
+  "family": "Mekanism",
+  "reviewed_at": "2026-08-08",
+  "scope": {
+    "language_namespaces": 10,
+    "language_pairs": 5117,
+    "ftbquests_display_pairs": 572,
+    "kubejs_ponder_occurrences": 87,
+    "total_display_pairs": 5776,
+    "advancement_files_checked": 125,
+    "recipes_scanned_for_ownership": 2858
+  },
+  "result": {
+    "unchanged_existing": 5462,
+    "corrected_existing": 314,
+    "new_missing_added": 0,
+    "unresolved_terms": 0,
+    "manual_review_items": 0
+  },
+  "ownership": {
+    "fully_reviewed": [
+      "Mekanism",
+      "Mekanism Generators",
+      "Mekanism Tools",
+      "Mekanism Covers",
+      "Mekanistic Routers",
+      "Just Enough Mekanism Multiblocks",
+      "MEKMM",
+      "Gravitational Modulating Additional Unit",
+      "Refined Storage - Mekanism Integration"
+    ],
+    "consistency_only": [
+      "Applied Mekanistics"
+    ],
+    "guides": "설치된 계열에서 GuideME, Patchouli, Modonomicon 가이드는 발견되지 않음",
+    "kubejs_ponder_files": 10
+  },
+  "major_corrections": {
+    "accuracy": [
+      "블록 엔티티 렌더링 범위를 낮출 때 팝인 현상이 늘어나는 단점을 반대로 설명한 문장을 교정",
+      "QIO 검색창 자동 초점 설정을 검색창 활성화와 비활성화로 잘못 설명한 문장을 교정",
+      "JEI 멀티블록의 Injection Rate를 융합 속도로 표시한 문구를 주입 속도로 교정",
+      "Mekanism Tools 여러 부위 갑옷 확률의 실제 중단 조건을 명확하게 교정"
+    ],
+    "sentence_quality": [
+      "나트륨 냉각재와 삼중수소 퀘스트의 기계 번역성 문장을 자연스럽게 교정",
+      "MEKMM 복제기 설정과 기계 설명의 조사 및 문장 구조를 교정"
+    ],
+    "terminology": [
+      "핵분열로, 핵융합로, 열적 증발 장치, 태양광 발전기, 풍력 발전기 명칭을 표시 경로 전체에서 통일",
+      "방어력, 방어 강도, 밀치기 저항, 피해량, 내구도, 마법 부여 적성 용어를 Mekanism Tools 전체에서 통일",
+      "기계 블록 이름과 컨테이너, 설정, JEI, 퀘스트 제목을 동일한 한국어 이름으로 통일"
+    ],
+    "formatting": [
+      "자리표시자, 숫자, 단위, 줄바꿈, 색상 및 강조 코드의 원문 대응을 모두 보존",
+      "mB, mB/t, MRF/t와 JSON 및 SNBT 이스케이프를 검증"
+    ]
+  },
+  "validation": {
+    "five_family_goal": "complete, validation_errors=0",
+    "language_missing": 0,
+    "duplicate_keys": 0,
+    "translation_induced_name_collisions": 0,
+    "ftbquests_fallbacks_checked": 5,
+    "kubejs_ponder_remaining_latin": 0,
+    "node_check": "passed",
+    "ruff_check": "passed",
+    "python_compileall": "passed",
+    "git_diff_check": "passed"
+  },
+  "deployment": {
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_files": 9,
+    "backup_manifest": "temp/backups/20260808_173604_219684/backup_manifest.json",
+    "hash_parity": true,
+    "unexpected_changes": [],
+    "post_apply_expected_changes": []
+  },
+  "minecraft_screen_verified": false
+}

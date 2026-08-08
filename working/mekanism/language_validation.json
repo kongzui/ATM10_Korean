@@ -13,9 +13,9 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "project_output_reuse": 1446,
-      "bundled_exact_reuse": 1776,
-      "new_or_edited": 17
+      "integration_extra_keys": 0,
+      "project_output_reuse": 1499,
+      "bundled_exact_reuse": 1740
     },
     {
       "label": "Mekanism Generators",
@@ -29,8 +29,9 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "bundled_exact_reuse": 198,
-      "project_output_reuse": 166
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 175,
+      "project_output_reuse": 189
     },
     {
       "label": "Mekanism Tools",
@@ -44,9 +45,9 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
       "bundled_exact_reuse": 185,
-      "project_output_reuse": 604,
-      "new_or_edited": 11
+      "project_output_reuse": 615
     },
     {
       "label": "Mekanism Covers",
@@ -60,6 +61,7 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
       "project_output_reuse": 3
     },
     {
@@ -74,6 +76,7 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
       "project_output_reuse": 13
     },
     {
@@ -88,8 +91,9 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "bundled_exact_reuse": 72,
-      "project_output_reuse": 5
+      "integration_extra_keys": 0,
+      "bundled_exact_reuse": 63,
+      "project_output_reuse": 14
     },
     {
       "label": "MEKMM",
@@ -103,8 +107,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "project_output_reuse": 556,
-      "new_or_edited": 2
+      "integration_extra_keys": 0,
+      "project_output_reuse": 558
     },
     {
       "label": "Gravitational Modulating Additional Unit",
@@ -118,7 +122,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "new_or_edited": 8,
+      "integration_extra_keys": 0,
+      "project_output_reuse": 8,
       "bundled_exact_reuse": 3
     },
     {
@@ -133,6 +138,7 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
       "project_output_reuse": 13,
       "bundled_exact_reuse": 2
     },
@@ -148,13 +154,14 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "new_or_edited": 37
+      "integration_extra_keys": 0,
+      "project_output_reuse": 37
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 2236,
-    "project_output_reuse": 2806,
-    "new_or_edited": 75
+    "bundled_exact_reuse": 2168,
+    "project_output_reuse": 2949,
+    "new_or_edited": 0
   },
   "ftbquests": {
     "chapters": [
@@ -179,6 +186,7 @@
       "first-task quest fallback"
     ]
   },
+  "family_data": {},
   "validation_errors": 0,
   "errors": [],
   "status": "complete"
