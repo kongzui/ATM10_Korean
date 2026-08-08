@@ -3,7 +3,7 @@
     {
       "type": "standard",
 
-     
+
 
       "summary": "Herbs and Harvest에는 새로운 작물 32종이 추가돼요.\n\n자세히 알아볼 주제를 아래에서 선택하세요:",
 
@@ -16,12 +16,12 @@
           "title": "herbsandharvest.guide_book.crops.tall",
           "target_page": 2
         },
-		
+
 		 {
           "title": "herbsandharvest.guide_book.crops.grapes",
           "target_page": 3
         },
-		
+
         {
           "title": "herbsandharvest.guide_book.crops.list",
           "target_page": 4
@@ -69,13 +69,13 @@
         }
       ]
     },
-	
+
 	 {
 		  "type": "standard",
 		  "title": "herbsandharvest.guide_book.crops.grapes",
 		  "summary": "포도 덩굴은 동굴 덩굴과 비슷하게 자라며 수확할 수 있는 열매를 맺어요.\n\n블록 아래에 심으면 시간이 지나면서 아래로 자라 열매를 맺어요.",
 
-		  "elements": [			
+		  "elements": [
 			  {
 				  "type": "image",
 				  "image_path": "textures/gui/guide/chapters/grapes/grapes.png",
@@ -91,11 +91,11 @@
 			  }
 		  ]
 	  },
-	  
+
 	   {
 		  "type": "standard",
 		  "title": "herbsandharvest.guide_book.crops.list",
-		  
+
 		  "sub_sections": [
 				{
 				  "title": "herbsandharvest.guide_book.crops.list.lista",
@@ -105,7 +105,7 @@
 				  "title": "herbsandharvest.guide_book.crops.list.listb",
 				  "target_page": 6
 				},
-				
+
 				 {
 				  "title": "herbsandharvest.guide_book.crops.list.listc",
 				  "target_page": 7
@@ -113,7 +113,7 @@
       ],
 		  "summary": "다음은 Herbs & Harvest의 모든 작물을 알파벳순으로 정리한 목록이에요.\n각 부분을 보려면 아래 링크를 선택하세요:",
 
-		  "elements": [			
+		  "elements": [
 			  {
 				  "type": "image",
 				  "image_path": "textures/gui/guide/chapters/intro/crops.png",
@@ -134,7 +134,7 @@
       "type": "standard",
 
       "title": "herbsandharvest.guide_book.crops.list.lista",
-	  
+
 	  "summary": "",
 
       "elements": [
@@ -185,20 +185,20 @@
 					"item": "herbsandharvest:cucumber",
 					"text": "guide.herbsandharvest.cucumber_desc"
 				  }
-				 
-				 
+
+
 			]
 		}
-		
+
       ]
-	  
+
     },
-	
+
 	  {
       "type": "standard",
 
       "title": "herbsandharvest.guide_book.crops.list.listb",
-	  
+
 	  "summary": "",
 
       "elements": [
@@ -208,7 +208,7 @@
 				  {
 					"item": "herbsandharvest:garlic_bulb",
 					"text": "guide.herbsandharvest.garlic_bulb_desc"
-				  },				  
+				  },
 				  {
 					"item": "herbsandharvest:green_bean",
 					"text": "guide.herbsandharvest.green_bean_desc"
@@ -259,22 +259,22 @@
 				  }
 			]
 		}
-		
+
       ]
     },
-	
+
 	  {
       "type": "standard",
 
       "title": "herbsandharvest.guide_book.crops.list.listc",
-	  
+
 	  "summary": "",
 
       "elements": [
 		{
 			"type": "icon_list",
 			"entries": [
-				 
+
 				  {
 					"item": "herbsandharvest:squash",
 					"text": "guide.herbsandharvest.squash_desc"
@@ -290,7 +290,7 @@
 				  {
 					"item": "herbsandharvest:tomato",
 					"text": "guide.herbsandharvest.tomato_desc"
-				  },				  
+				  },
 				  {
 					"item": "herbsandharvest:turnip",
 					"text": "guide.herbsandharvest.turnip_desc"
@@ -301,26 +301,26 @@
 				  }
 			]
 		},
-		
+
 		{
 			"type": "text",
 			"literal_text": "\n\n덩굴 작물 기르기:\n",
 			"text": null
 		},
-		
+
 		{
 			"type": "icon_list",
 			"entries": [
-				 
+
 				 {
 					"item": "herbsandharvest:grapes",
 					"text": "guide.herbsandharvest.grapes_desc"
 				  }
 			]
 		}
-		
+
       ]
     }
-	
+
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "pages": [ 
+  "pages": [
 
 		{
 			"type": "standard",
@@ -15,7 +15,7 @@
 					"title": "herbsandharvest.guide_book.trees.list",
 					"target_page": 2
 				}
-				
+
 			],
 
 			"elements": [
@@ -33,9 +33,9 @@
 					"text": null
 				}
 			]
-		  
+
 		},
-		
+
 		{
 			"type": "standard",
 
@@ -44,22 +44,22 @@
 			"summary": "과일나무는 둥근 모양에 짙은 녹색 잎이 있어요.\n\n오버월드의 거의 모든 생물군계에서 자연적으로 자라요.",
 
 			"elements": [
-			 
+
 				{
 				  "type": "text",
 				  "literal_text": "과일나무 잎에는 계속 열매가 자라며 뼛가루를 사용하면 더 빨리 수확할 수 있어요.\n\n과일나무 묘목은 오버월드 상자에서 찾을 수 있으며 화분에 심을 수도 있어요.",
 				  "text": null
 				}
-			 
+
 			]
-		  
+
 		},
-		
+
 	  	 {
 		  "type": "standard",
 
 		  "title": "herbsandharvest.guide_book.trees.list",
-		  
+
 		  "summary": "",
 
 		  "elements": [
@@ -98,20 +98,13 @@
 						"item": "herbsandharvest:plum_fruit_sapling",
 						"text": "guide.herbsandharvest.plum_sap_desc"
 					  }
-					  
+
 					]
 		}
-		
+
       ]
     }
-	  
-	
+
+
 	]
 }
-	
-
-	
-
-	
-	
-	

@@ -1226,6 +1226,12 @@ def read_book_files(jar: Path) -> dict[str, str]:
         return {name: archive.read(name).decode("utf-8") for name in names}
 
 
+def normalize_book_layout(raw: str) -> str:
+    """의미 없는 줄 끝 공백과 여분의 EOF 빈 줄만 정리해요."""
+    lines = raw.replace("\r\n", "\n").splitlines()
+    return "\n".join(line.rstrip(" \t") for line in lines).rstrip("\n") + "\n"
+
+
 def build_books() -> dict[str, object]:
     """가이드의 직접 표시 문구만 바꾸고 나머지 원문 구조는 보존해요."""
     sources = read_book_files(find_jar())
@@ -1249,7 +1255,7 @@ def build_books() -> dict[str, object]:
             translated_occurrences += 1
             return f"{match.group(1)}{json.dumps(translated, ensure_ascii=False)}"
 
-        rendered[name] = VISIBLE_BOOK_FIELD.sub(replace, raw)
+        rendered[name] = normalize_book_layout(VISIBLE_BOOK_FIELD.sub(replace, raw))
 
     source_set = {
         source
@@ -1547,7 +1553,10 @@ def visible_fields(raw: str) -> list[tuple[str, str]]:
 
 def normalized_book_structure(raw: str) -> str:
     """직접 표시 값만 표식으로 바꿔 나머지 바이트 구조를 비교해요."""
-    return VISIBLE_BOOK_FIELD.sub(lambda match: f'{match.group(1)}"__VISIBLE__"', raw)
+    replaced = VISIBLE_BOOK_FIELD.sub(
+        lambda match: f'{match.group(1)}"__VISIBLE__"', raw
+    )
+    return normalize_book_layout(replaced)
 
 
 def verify_books() -> tuple[dict[str, object], list[str]]:

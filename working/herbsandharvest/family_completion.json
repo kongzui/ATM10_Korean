@@ -6,7 +6,7 @@
   "family_validation": "complete",
   "deployment": {
     "status": "applied_and_verified",
-    "backup_manifest": "temp/backups/20260808_130656_333687/backup_manifest.json",
+    "backup_manifest": "temp/backups/20260808_130838_945748/backup_manifest.json",
     "expected_paths": [
       "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/basket.json",
       "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/blocks.json",
@@ -46,8 +46,7 @@
           "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/trees.json",
           "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/cover.json",
           "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/guide_book.json",
-          "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/toc.json",
-          "resourcepacks/ATM10_Korean/assets/herbsandharvest/lang/ko_kr.json"
+          "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/toc.json"
         ],
         "unexpected_changes": [],
         "hash_verified_paths": [

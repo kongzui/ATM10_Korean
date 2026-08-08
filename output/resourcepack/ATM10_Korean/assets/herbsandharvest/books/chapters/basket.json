@@ -1,15 +1,15 @@
 {
-  "pages": [ 
+  "pages": [
 
 		{
 			"type": "standard",
 
-			
+
 
 			"summary": "농산물 바구니에는 과일이나 채소 같은 작물 아이템을 최대 8스택까지 보관할 수 있어요.\n\n표시되는 아이템 하나가 한 스택을 뜻해요.",
 
 			"elements": [
-			 
+
 				{
 				  "type": "image",
 				  "image_path": "textures/gui/guide/chapters/basket/basket.png",
@@ -22,21 +22,14 @@
 				  "type": "text",
 				  "literal_text": "\n아이템을 꺼내려면 빈손으로 우클릭하세요. 가장 최근에 넣은 아이템부터 플레이어 인벤토리로 돌아와요.",
 				  "text": null
-				}				
-				
+				}
+
 			]
 		}
-		
-		
-	  
-	
-	
+
+
+
+
+
 	]
 }
-	
-
-	
-
-	
-	
-	

@@ -1,6 +1,6 @@
 {
-  "pages": [ 
-  
+  "pages": [
+
 		{
 			"type": "standard",
 
@@ -14,7 +14,7 @@
 				{
 					"title": "herbsandharvest.guide_book.herbs.list",
 					"target_page": 2
-				},								
+				},
 				{
 					"title": "herbsandharvest.guide_book.herbs.spices",
 					"target_page": 3
@@ -42,7 +42,7 @@
 		},
 
 		{
-			"type": "standard", 
+			"type": "standard",
 			"title": "herbsandharvest.guide_book.herbs.info",
 			"summary": "허브도 작물처럼 자라려면 경작지와 물이 필요해요.\n\n수확한 허브는 잔디나 흙에 놓아 장식할 수 있어요.\n\n화분에 심을 수도 있어요.",
 
@@ -65,16 +65,16 @@
 			]
 
 		},
-		
-		
-	  
-	  	
+
+
+
+
 
 		 {
 		  "type": "standard",
 
 		  "title": "herbsandharvest.guide_book.herbs.list",
-		  
+
 		  "summary": "",
 
 		  "elements": [
@@ -120,7 +120,7 @@
 					  {
 						"item": "herbsandharvest:fresh_parsley",
 						"text": "guide.herbsandharvest.fresh_parsley_desc"
-					  },				  
+					  },
 					  {
 						"item": "herbsandharvest:fresh_rosemary",
 						"text": "guide.herbsandharvest.fresh_rosemary_desc"
@@ -133,22 +133,22 @@
 						"item": "herbsandharvest:fresh_thyme",
 						"text": "guide.herbsandharvest.fresh_thyme_desc"
 					  }
-					  
+
 					]
 		}
-		
+
       ]
     },
-	
+
 	{
       "type": "standard",
 
       "title": "herbsandharvest.guide_book.herbs.spices",
-	  
+
 	  "summary": "통후추, 생강과 강황도 허브처럼 자라려면 경작지가 필요해요.\n\n통후추와 시나몬나무 묘목은 화분에 심을 수도 있어요.",
 
       "elements": [
-	  
+
 			{
 				"type": "text",
 				"literal_text": "\n\n향신료 목록:\n",
@@ -169,7 +169,7 @@
 						{
 							"item": "herbsandharvest:fresh_peppercorn",
 							"text": "guide.herbsandharvest.fresh_peppercorn_desc"
-						},						
+						},
 						{
 							"item": "herbsandharvest:thistle",
 							"text": "guide.herbsandharvest.thistle_desc"
@@ -178,12 +178,12 @@
 							"item": "herbsandharvest:turmeric_root",
 							"text": "guide.herbsandharvest.turmeric_desc"
 						}
-				]	
-			}			
+				]
+			}
 		]
-	  
+
     },
-	
+
 	 {
 		  "type": "standard",
 		  "title": "herbsandharvest.guide_book.herbs.thistle",
@@ -206,10 +206,10 @@
 		  ]
 
 	  },
-	  
+
 	    {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.herbs.cinn",
 
 		  "summary": "시나몬나무는 높이가 2블록이에요. 나무껍질이 계속 자라며 벗기면 시나몬을 얻을 수 있어요.\n\n시나몬나무 묘목은 열대 생물군계에서 자라거나 오버월드 상자에서 찾을 수 있어요.",
@@ -230,15 +230,15 @@
 		  ]
 
 	  }
-		
+
 	]
 }
-	
 
-	
 
-	
-	
-	
+
+
+
+
+
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "pages": [ 
- 
+  "pages": [
+
     {
       "type": "standard",
 
-     
+
 
       "summary": "팬트리 업데이트에서는 여러 블록을 추가해요. 자세히 알아볼 주제를 아래에서 선택하세요:",
 
@@ -12,7 +12,7 @@
         {
           "title": "herbsandharvest.guide_book.blocks.basin",
           "target_page": 1
-        },       
+        },
 		{
           "title": "herbsandharvest.guide_book.blocks.p_jars",
           "target_page": 2
@@ -53,18 +53,18 @@
           "title": "herbsandharvest.guide_book.blocks.drink",
           "target_page": 23
         }
-		
+
       ],
 
       "elements": [
-	  
+
 			]
     },
 
 
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.basin",
 
 		  "summary": "삽을 들고 모래 블록을 우클릭하면 염전을 만들 수 있어요.\n\n물 양동이를 사용하거나 비가 내려 물이 차게 하세요.\n\n그다음 물이 마를 때까지 기다리세요.",
@@ -86,10 +86,10 @@
 		  ]
 	  },
 
-	 
-	  
-	   
-	  
+
+
+
+
 	  	  {
 		  "type": "standard",
 		  "title": "herbsandharvest.guide_book.blocks.p_jars",
@@ -112,7 +112,7 @@
 		  ]
 
 	  },
-	  
+
 	  	{
 		  "type": "standard",
 		  "title": "herbsandharvest.guide_book.blocks.s_jars",
@@ -120,7 +120,7 @@
 		  "summary": "이 작은 향신료 병에는 조미료 한 스택을 보관할 수 있어요.\n\n병 안의 재료에 따라 라벨이 자동으로 바뀌어요.\n\n향신료 병은 부숴서 회수해도 내용물을 그대로 보관해요.",
 
 		  "elements": [
-		  
+
 			 	{
 				"type": "icon_list",
 				"entries": [
@@ -136,7 +136,7 @@
 						{
 							"item": "herbsandharvest:minced_onion",
 							"text": "guide.herbsandharvest.minced_onion_desc"
-						},									
+						},
 						{
 							"item": "herbsandharvest:ground_turmeric",
 							"text": "guide.herbsandharvest.ground_turmeric_desc"
@@ -157,17 +157,17 @@
 							"item": "minecraft:sugar",
 							"text": "guide.herbsandharvest.s_sugar_desc"
 						}
-				]	
+				]
 			}
-		
-			
+
+
 		  ]
 
 	    },
-	  
+
 	    {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.plates",
 
 		  "summary": "접시에는 아이템 하나를 놓아 전시할 수 있어요.\n\n식사용 접시로 팬 요리나 샤퀴테리 보드에서 1인분을 담아낼 수도 있어요.",
@@ -200,33 +200,33 @@
 						"item": "herbsandharvest:holiday_dinner_plate",
 						"text": "guide.herbsandharvest.hol_plate_desc"
 					  }
-					  
+
 					]
 			    }
-				
-			  
-			 
+
+
+
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.shelf",
 
 		  "summary": "치즈 숙성 선반은 상호작용할 수 있는 블록이며 화로와 비슷한 GUI를 사용해요. 자세히 알아볼 주제를 아래에서 선택하세요.",
-		  
+
 		   "sub_sections": [
         {
           "title": "herbsandharvest.guide_book.blocks.shelf.info",
           "target_page": 6
-        },      
+        },
         {
           "title": "herbsandharvest.guide_book.blocks.shelf.auto",
           "target_page": 7
         }
-		
+
       ],
 
 		  "elements": [
@@ -237,14 +237,14 @@
 				  "image_width": 110,
 				  "image_height": 62
 			  }
-			  
+
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.shelf.info",
 
 		  "summary": "선반을 클릭해 GUI를 열고 입력 칸에 숙성 전 치즈 휠을 넣으세요. GUI를 닫으면 선반 위에 치즈 휠이 보여요. 선반 하나에는 치즈 휠을 두 개까지 놓을 수 있어요.",
@@ -265,16 +265,16 @@
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.shelf.auto",
 
 		  "summary": "레드스톤으로 치즈 숙성 과정을 자동화할 수 있어요. ",
 
 		  "elements": [
-			  
+
 			  {
 				  "type": "text",
 				  "literal_text": "\n깔때기로 숙성 전 치즈 휠을 치즈 숙성 선반에 넣고, 숙성된 치즈 휠을 꺼낼 수 있어요.",
@@ -283,10 +283,10 @@
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.churn",
 
 		  "summary": "버터 교반기는 크림으로 버터를 만들어요. 교반기를 설치한 뒤 크림 양동이를 교반기에 사용하세요.",
@@ -307,24 +307,24 @@
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.stands",
 
 		  "summary": "디저트를 전시하는 스탠드는 두 종류예요. 자세히 알아보려면 아래 링크를 선택하세요.",
-		  
+
 		     "sub_sections": [
         {
           "title": "herbsandharvest.guide_book.blocks.stands.cake",
           "target_page": 10
-        },      
+        },
         {
           "title": "herbsandharvest.guide_book.blocks.stands.pastry",
           "target_page": 11
         }
-		
+
       ],
 
 		  "elements": [
@@ -338,16 +338,16 @@
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.stands.cake",
 
 		  "summary": "케이크 스탠드는 큰 단층 받침대예요. 케이크, 파이 또는 치즈케이크 하나를 놓거나 작은 페이스트리나 디저트를 최대 8개까지 놓을 수 있어요.",
 
-		  "elements": [			  
-			  
+		  "elements": [
+
 			  {
 				  "type": "text",
 				  "literal_text": "케이크 스탠드에 놓은 케이크, 파이 또는 치즈케이크는 원래 개수만큼 조각을 제공해요.\n\n참고: 짭짤한 파이도 케이크 스탠드에 놓을 수 있어요.",
@@ -356,16 +356,16 @@
 		  ]
 
 	  },
-	  
+
 	   {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.stands.pastry",
 
 		  "summary": "페이스트리 스탠드는 조금 더 작고 2단으로 되어 있어요.\n\n같은 종류의 작은 페이스트리나 디저트를 최대 8개까지 놓을 수 있어요.",
 
 		  "elements": [
-			
+
 			  {
 				  "type": "text",
 				  "literal_text": "\n\n머핀, 컵케이크, 쿠키와 롤을 페이스트리 스탠드에 놓을 수 있어요.",
@@ -374,19 +374,19 @@
 		  ]
 
 	  },
-	  
+
 	   {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.pot",
 
 		  "summary": "수프 냄비는 설치할 수 있는 음식 블록이에요. 자세히 알아보려면 아래 링크를 선택하세요.",
-		  
+
 		     "sub_sections": [
         {
           "title": "herbsandharvest.guide_book.blocks.pot.craft",
           "target_page": 13
-        },      
+        },
         {
           "title": "herbsandharvest.guide_book.blocks.pot.soup",
           "target_page": 14
@@ -399,7 +399,7 @@
           "title": "herbsandharvest.guide_book.blocks.pot.listc",
           "target_page": 16
         }
-		
+
       ],
 
 		  "elements": [
@@ -413,16 +413,16 @@
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.pot.craft",
 
 		  "summary": "수프를 만들려면 빈 수프 냄비가 필요해요. 제작법은 다음과 같아요:",
 
 		  "elements": [
-			
+
 			  {
 				  "type": "image",
 				  "image_path": "textures/gui/guide/chapters/blocks/pot_craft.png",
@@ -438,16 +438,16 @@
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.pot.soup",
 
 		  "summary": "빈 냄비와 재료를 조합하면 설치할 수 있는 수프 냄비가 만들어져요.\n\n수프 냄비를 데우려면 아래에 모닥불이나 불 같은 열원을 놓으세요.",
 
 		  "elements": [
-						 
+
 			  {
 				  "type": "text",
 				  "literal_text":  "수프 냄비가 데워지면 그릇을 사용해 수프를 담아내세요.",
@@ -461,39 +461,39 @@
 			  {
 				"type": "icon_list",
 				"entries": [
-					 
+
 					 {
 						"item": "herbsandharvest:broccoli_cheddar_soup",
 						"text": "guide.herbsandharvest.broc_cheddar_soup_desc"
 					  }
 				]
 			  },
-			  
+
 			  {
 				  "type": "text",
 				  "literal_text": "\n참고: 데운 냄비에만 그릇을 사용해 수프를 담을 수 있어요. 냄비 하나에서는 수프 8그릇이 나와요.",
 				  "text": null
 			  }
-			  
-			  
+
+
 		  ]
 
 	  },
-	  
+
 	    {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.pot.list",
 
 		  "summary": "플레이어가 수프의 주재료나 고기를 얻으면 해당 수프 레시피를 발견해요.\n\n수프 목록과 괄호 안에 표시된 발견 재료: ",
 
 		  "elements": [
-		  
+
 					{
 					  "type": "icon_list",
-					
+
 					  "entries": [
-						
+
 							{
 							"item": "herbsandharvest:beef_stew_pot",
 							"text": "guide.herbsandharvest.beef_stew_pot_desc"
@@ -509,37 +509,37 @@
 							{
 							"item": "herbsandharvest:chicken_noodle_pot",
 							"text": "guide.herbsandharvest.chicken_noodle_pot_desc"
-							},								  
+							},
 							{
 							"item": "herbsandharvest:chicken_rice_pot",
 							"text": "guide.herbsandharvest.chicken_rice_pot_desc"
 							}
-											  								  					  						 								  
-						  
+
+
 						]
 					}
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.pot.listc",
 
 		  "summary": "수프와 발견 재료(계속): ",
 
 		  "elements": [
-		  
+
 					{
 					  "type": "icon_list",
-					
-					  "entries": [					
-							
+
+					  "entries": [
+
 							{
 							"item": "herbsandharvest:corn_chowder_pot",
 							"text": "guide.herbsandharvest.corn_chowder_pot_desc"
-							},				 				  								  
+							},
 							{
 							"item": "herbsandharvest:pea_soup_pot",
 							"text": "guide.herbsandharvest.pea_soup_pot_desc"
@@ -555,29 +555,29 @@
 							{
 							"item": "herbsandharvest:tomato_soup_pot",
 							"text": "guide.herbsandharvest.tomato_soup_pot_desc"
-							},								 
+							},
 							{
 							"item": "herbsandharvest:vegetable_soup_pot",
 							"text": "guide.herbsandharvest.veg_soup_pot_desc"
-							}				  								  					  						 								  
-						  
+							}
+
 						]
 					}
-						 
-					
+
+
 		  ]
 
 	  },
-	  
-	  
-	  
+
+
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.pan",
 
 		  "summary": "구운 팬 요리도 설치할 수 있는 음식 블록이에요. 자세히 알아보려면 아래 링크를 선택하세요.",
-		  
+
 		     "sub_sections": [
         {
           "title": "herbsandharvest.guide_book.blocks.pan.info",
@@ -595,7 +595,7 @@
           "title": "herbsandharvest.guide_book.blocks.pan.listc",
           "target_page": 21
         }
-		
+
       ],
 
 		  "elements": [
@@ -609,16 +609,16 @@
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.pan.info",
 
 		  "summary": "구운 팬 요리를 만들려면 빈 베이킹 팬이 필요해요. 제작법은 다음과 같아요:",
 
 		  "elements": [
-		  
+
 		  {
 				  "type": "image",
 				  "image_path": "textures/gui/guide/chapters/blocks/pan_craft.png",
@@ -626,7 +626,7 @@
 				  "image_width": 110,
 				  "image_height": 62
 			  },
-						 
+
 			  {
 				  "type": "text",
 				  "literal_text": "\n\n빈 베이킹 팬은 설치할 수 있으며 빈손으로 다시 회수할 수 있어요.",
@@ -635,35 +635,35 @@
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.pan.make",
 
 		  "summary": "팬과 레시피 재료를 조합한 뒤 화로나 훈연기에 구우면 구운 팬 요리가 완성돼요.",
 
 		  "elements": [
-		  
+
 				{
 				  "type": "text",
 				  "literal_text": "구운 팬 요리는 설치할 수 있는 블록이에요. 팬 요리를 담아내려면 접시를 사용하세요. 팬 하나에서 8인분이 나와요.\n\n플레이어가 주재료나 고기를 얻으면 해당 팬 요리 레시피를 발견해요.",
 				  "text": null
-				}						 
-				
+				}
+
 		  ]
 
 	  },
-	  
+
 		{
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.pan.list",
 
 		  "summary": "팬 요리 레시피와 발견 재료:",
 
 		  "elements": [
-		  
+
 					{
 					"type": "icon_list",
 					"entries": [
@@ -671,7 +671,7 @@
 							{
 							"item": "herbsandharvest:wellington_pan",
 							"text": "guide.herbsandharvest.wellington_pan_desc"
-							},				 				  								  
+							},
 							{
 							"item": "herbsandharvest:chicken_pan",
 							"text": "guide.herbsandharvest.chicken_pan_desc"
@@ -688,29 +688,29 @@
 							"item": "herbsandharvest:lasagna_pan",
 							"text": "guide.herbsandharvest.lasagna_pan_desc"
 							}
-							
-							
-						]	
-					}							 
-				
-				]			
+
+
+						]
+					}
+
+				]
 
 	    },
-		
+
 		{
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.pan.listc",
 
 		  "summary": "팬 요리 레시피와 발견 재료(계속):",
 
 		  "elements": [
-		  
+
 					{
 					"type": "icon_list",
 					"entries": [
 
-														 
+
 							{
 							"item": "herbsandharvest:meatloaf_pan",
 							"text": "guide.herbsandharvest.meatloaf_pan_desc"
@@ -722,7 +722,7 @@
 							{
 							"item": "herbsandharvest:roast_pan",
 							"text": "guide.herbsandharvest.roast_pan_desc"
-							},								 
+							},
 							{
 							"item": "herbsandharvest:salmon_pan",
 							"text": "guide.herbsandharvest.salmon_pan_desc"
@@ -731,18 +731,18 @@
 							"item": "herbsandharvest:pears_pan",
 							"text": "guide.herbsandharvest.pears_pan_desc"
 							}
-							
-							
-						]	
-					}							 
-				
-				]			
+
+
+						]
+					}
+
+				]
 
 	    },
-	  
+
 	   {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.serve",
 
 		  "summary": "구운 팬 요리에 식사용 접시를 사용하면 해당 요리를 담은 음식 접시가 만들어져요.\n\n음식 접시는 설치할 수 있는 블록이며, 나중에 우클릭해 먹을 수 있어요.",
@@ -763,14 +763,14 @@
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.drink",
 
 		  "summary": "Herbs and Harvest에는 여러 음료가 있어요. 음료를 만들려면 유리 식기가 필요해요.\n\n자세히 알아보려면 아래 링크를 선택하세요:",
-		  
+
 		     "sub_sections": [
         {
           "title": "herbsandharvest.guide_book.blocks.drink.pitcher",
@@ -780,7 +780,7 @@
           "title": "herbsandharvest.guide_book.blocks.drink.cup",
           "target_page": 25
         }
-		
+
       ],
 
 		  "elements": [
@@ -794,16 +794,16 @@
 		  ]
 
 	  },
-	  
+
 	  {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.drink.pitcher",
 
 		  "summary": "음료 피처는 유리로 제작하며 재사용할 수 있어요.\n\n유리 피처를 제작해 여러 음료 레시피와 조합하면 설치할 수 있는 음료 피처가 만들어져요.",
 
 		  "elements": [
-		  
+
 		  {
 				  "type": "image",
 				  "image_path": "textures/gui/guide/chapters/blocks/pitcher_craft.png",
@@ -811,7 +811,7 @@
 				  "image_width": 110,
 				  "image_height": 62
 			  },
-						 
+
 			  {
 				  "type": "text",
 				  "literal_text": "유리컵에 피처를 사용해 음료를 따르세요. 피처 하나로 최대 4잔을 따를 수 있으며, 다 따르면 인벤토리에 빈 유리 피처가 남아요.",
@@ -820,16 +820,16 @@
 		  ]
 
 	  },
-	  
+
 	    {
 		  "type": "standard",
-		  
+
 		  "title": "herbsandharvest.guide_book.blocks.drink.cup",
 
 		  "summary": "컵도 유리로 제작하며 재사용할 수 있어요.\n\n설치한 유리컵은 빈손으로 다시 회수할 수 있어요.\n음료가 들어 있다면 회수해도 내용물이 유지돼요.",
 
 		  "elements": [
-		  
+
 		  {
 				  "type": "image",
 				  "image_path": "textures/gui/guide/chapters/blocks/cup_craft.png",
@@ -837,7 +837,7 @@
 				  "image_width": 110,
 				  "image_height": 62
 			  },
-						 
+
 			  {
 				  "type": "text",
 				  "literal_text": "음료가 든 컵을 회수하면 마실 수 있는 아이템이 되며, 다 마시면 인벤토리에 빈 컵이 남아요.",
@@ -846,9 +846,9 @@
 		  ]
 
 	  }
-	
 
 
-	
+
+
   ]
 }

@@ -3,7 +3,7 @@
 
     {
       "type": "standard",
-	  
+
 	   "title": "herbsandharvest.guide_book.book_title",
 
       "summary": "Mama's Herbs and Harvest 안내서",
@@ -17,11 +17,11 @@
           "image_height": 54
         },
         {
-          
+
 		  "type": "text",
 		  "literal_text": "이 안내서에서 다음 내용을 알려 드려요...",
 		  "text": null
-			 
+
 
         }
       ]

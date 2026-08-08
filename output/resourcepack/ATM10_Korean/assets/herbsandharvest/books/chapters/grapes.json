@@ -1,12 +1,12 @@
 {
-  "pages": [ 
+  "pages": [
 
 		 {
 		  "type": "standard",
 
 		  "summary": "포도 덩굴은 동굴 덩굴과 비슷하게 자라며 수확할 수 있는 열매를 맺어요.\n\n블록 아래에 심으면 시간이 지나면서 아래로 자라 열매를 맺어요.",
 
-		  "elements": [			
+		  "elements": [
 			  {
 				  "type": "image",
 				  "image_path": "textures/gui/guide/chapters/grapes/grapes.png",
@@ -22,15 +22,15 @@
 			  }
 		  ]
 	  }
-	
+
 	]
 }
-	
 
-	
 
-	
-	
-	
+
+
+
+
+
   ]
 }
