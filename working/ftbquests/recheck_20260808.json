@@ -1,0 +1,88 @@
+{
+  "family": "ATM10 and FTB Quests common UI",
+  "reviewed_at": "2026-08-08",
+  "scope": {
+    "language_namespaces": 4,
+    "language_pairs": 679,
+    "ftbquests_english_entries": 8436,
+    "ftbquests_korean_entries_before": 8581,
+    "ftbquests_chapters": 64,
+    "ftbquests_quests": 4601,
+    "ftbquests_tasks": 5792,
+    "navigation_titles_checked": 74,
+    "kubejs_direct_visible_strings": 19,
+    "total_existing_display_entries_reviewed": 9277
+  },
+  "result": {
+    "unchanged_existing": 9240,
+    "corrected_existing": 37,
+    "new_missing_added": 15,
+    "redundant_single_item_task_titles_removed": 28,
+    "unresolved_terms": 0,
+    "manual_review_items": 0
+  },
+  "ownership": {
+    "fully_reviewed": [
+      "FTB Quests",
+      "FTB Quests Lang Splitter",
+      "All The Tweaks common strings",
+      "atm KubeJS language",
+      "FTB Quests navigation and fallback paths"
+    ],
+    "ftbquests_surfaces": "chapter, group, quest, subtitle, description, task, item hover, custom_name and first-task fallback",
+    "kubejs_surfaces": [
+      "server_scripts/announcements/announcements.js",
+      "startup_scripts/update_checker.js"
+    ],
+    "guides": "공통 계열이 소유한 GuideME, Patchouli, Modonomicon 가이드 없음",
+    "advancements": "공통 계열이 소유한 발전 과제 없음"
+  },
+  "major_corrections": {
+    "accuracy": [
+      "configured stage를 설정된 스테이지로 바로잡고 passive mob을 비공격적 몹으로 교정",
+      "상대 순간이동 좌표가 장벽 블록 위치를 기준으로 계산된다는 조건을 정확하게 복원",
+      "광맥 채굴 설명의 대상과 FTB Ultimine 관계를 원문 정보가 모두 드러나도록 교정"
+    ],
+    "sentence_quality": [
+      "Hover Text, 퀘스트 세부 정보와 Backspace 동작 툴팁을 자연스럽고 구체적인 한국어로 교정",
+      "업데이트 알림의 제목과 사용 가능한 버전 문구를 한국어로 추가"
+    ],
+    "terminology": [
+      "퀘스트라인, 스테이지, 비공격적 몹, Backspace와 Escape 표기를 공통 UI 전체에서 통일",
+      "Smart Filter 범주 제목 8개를 명시하고 단일 아이템 hover와 중복되는 Task 제목 28개를 제거"
+    ],
+    "formatting": [
+      "자리표시자, 숫자, FE/t 단위, 색상 코드, 줄바꿈, 이스케이프와 Task ID를 보존",
+      "공식 모드명과 X/Y/Z 및 URL 같은 보호 토큰을 유지"
+    ]
+  },
+  "validation": {
+    "common_ui": "passed, 679 keys",
+    "ftbquests_object_ids_valid": true,
+    "duplicate_keys": 0,
+    "invalid_object_ids": 0,
+    "placeholder_number_format_errors": 0,
+    "redundant_single_item_task_titles_remaining": 0,
+    "ftbquests_korean_entries_after": 8566,
+    "family_scope_audit_candidates": 0,
+    "remaining_global_audit_candidates": 948,
+    "remaining_candidate_disposition": "후속 목록 계열, 목록 밖 모드, 공식 영문명 또는 정상 fallback 후보로 분리",
+    "node_check": "passed",
+    "ruff_format_check": "passed",
+    "ruff_check": "passed",
+    "python_compileall": "passed",
+    "git_diff_check": "passed"
+  },
+  "deployment": {
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_files": 3,
+    "backup_manifests": [
+      "temp/backups/20260808_182357_622780/backup_manifest.json",
+      "temp/backups/20260808_182803_564662/backup_manifest.json"
+    ],
+    "hash_parity": true,
+    "unexpected_changes": [],
+    "post_apply_expected_changes": []
+  },
+  "minecraft_screen_verified": false
+}

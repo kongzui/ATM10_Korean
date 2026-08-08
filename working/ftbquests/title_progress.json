@@ -5,8 +5,9 @@
   "ae2_quest_titles_added_or_corrected": 0,
   "ae2_item_task_titles_added_or_corrected": 0,
   "ae2_item_name_mismatches_corrected": 0,
-  "manual_title_fixes": 0,
-  "total_changed_keys": 4,
-  "output_sha256": "a0b032c4c6a8134e1c9ded7effffaf4ea13108e3b07ef232b774b0ad008de994",
+  "manual_title_fixes": 9,
+  "redundant_single_item_task_titles_removed": 0,
+  "total_changed_keys": 9,
+  "output_sha256": "36ddfaa606d259d36bc2d90c6ef955311808a46a818c7ec47d2471c1c2a0f7d4",
   "validation_errors": 0
 }

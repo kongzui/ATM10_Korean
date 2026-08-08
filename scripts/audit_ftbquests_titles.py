@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Any
 
 import build_ae2_quests as lang_snbt
+import ftbquests_title_rules as title_rules
 from local_paths import resolve_source_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -457,7 +458,12 @@ def main() -> int:
                     or installed_en.get(language_key, "")
                     or first_task["type"]
                 )
-            if text_value(current, desc_key) and not current_title:
+            fallback_needs_title = not fallback or looks_untranslated(fallback)
+            if (
+                text_value(current, desc_key)
+                and not current_title
+                and fallback_needs_title
+            ):
                 add_issue(
                     issues,
                     kind="quest",
@@ -469,7 +475,11 @@ def main() -> int:
                     item_id=item_id,
                     resourcepack_translation=resource_name,
                     problem_type="설명은 있으나 명시적 quest.title 없음",
-                    applied_fix=resource_name if resource_name else "",
+                    applied_fix=(
+                        resource_name
+                        if resource_name and not first_task["custom_name"]
+                        else ""
+                    ),
                 )
             if current_title and looks_untranslated(current_title):
                 add_issue(
@@ -523,7 +533,36 @@ def main() -> int:
                     or installed_ko.get(language_key, "")
                     or installed_en.get(language_key, "")
                 )
-                if not current_task_title and task["item_id"]:
+                hover_needs_title = not hover or looks_untranslated(hover)
+                source_item_name = installed_en.get(language_key, "")
+                redundant_item_title = bool(
+                    task["id"] in title_rules.REDUNDANT_SINGLE_ITEM_TASK_IDS
+                    or (
+                        task["item_id"]
+                        and source_item_name
+                        and strip_formatting(source_task_title)
+                        == strip_formatting(source_item_name)
+                    )
+                )
+                if (
+                    not current_task_title
+                    and source_task_title
+                    and not redundant_item_title
+                    and strip_formatting(source_task_title) != "AllRightsReserved"
+                ):
+                    add_issue(
+                        issues,
+                        kind="task",
+                        object_id=task["id"],
+                        chapter_id=chapter["id"],
+                        chapter_file=chapter["filename"],
+                        source_value=source_task_title,
+                        fallback_value=hover,
+                        item_id=task["item_id"],
+                        resourcepack_translation=resource_task_name,
+                        problem_type="영어 원문 task.title에 대응하는 한국어 없음",
+                    )
+                if not current_task_title and task["item_id"] and hover_needs_title:
                     add_issue(
                         issues,
                         kind="task",
@@ -535,7 +574,11 @@ def main() -> int:
                         item_id=task["item_id"],
                         resourcepack_translation=resource_task_name,
                         problem_type="명시적 task.title 없이 아이템 hover 사용",
-                        applied_fix=resource_task_name if resource_task_name else "",
+                        applied_fix=(
+                            resource_task_name
+                            if resource_task_name and not task["custom_name"]
+                            else ""
+                        ),
                     )
                 if current_task_title and looks_untranslated(current_task_title):
                     add_issue(
@@ -550,7 +593,11 @@ def main() -> int:
                         resourcepack_translation=resource_task_name,
                         problem_type="한국어 파일의 영어 task.title",
                     )
-                if task["custom_name"] and LATIN_WORD_RE.search(task["custom_name"]):
+                if (
+                    not current_task_title
+                    and task["custom_name"]
+                    and looks_untranslated(task["custom_name"])
+                ):
                     add_issue(
                         issues,
                         kind="task",

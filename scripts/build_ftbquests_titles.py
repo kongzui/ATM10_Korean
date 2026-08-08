@@ -11,6 +11,7 @@ from pathlib import Path
 
 import audit_ftbquests_titles as audit
 import build_ae2_quests as snbt
+import ftbquests_title_rules as title_rules
 from local_paths import resolve_source_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -25,6 +26,22 @@ TITLE_KEY_RE = re.compile(
 
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def remove_language_keys(text: str, keys: set[str]) -> str:
+    """SNBT 언어 객체에서 지정한 최상위 키를 제거한다."""
+    matches = list(snbt.ENTRY_RE.finditer(text))
+    removals: list[tuple[int, int]] = []
+    for index, match in enumerate(matches):
+        if match.group(1) not in keys:
+            continue
+        end = (
+            matches[index + 1].start() if index + 1 < len(matches) else text.rfind("}")
+        )
+        removals.append((match.start(), end))
+    for start, end in reversed(removals):
+        text = text[:start] + text[end:]
+    return text
 
 
 def main() -> int:
@@ -127,6 +144,11 @@ def main() -> int:
 
     before_text = OUTPUT_LANG.read_text(encoding="utf-8-sig")
     merged = snbt.merge_into_full_snbt(OUTPUT_LANG, overrides)
+    redundant_task_title_keys = {
+        f"task.{task_id}.title"
+        for task_id in title_rules.REDUNDANT_SINGLE_ITEM_TASK_IDS
+    }
+    merged = remove_language_keys(merged, redundant_task_title_keys)
     OUTPUT_LANG.write_text(merged, encoding="utf-8")
     reparsed = snbt.parse_language_snbt(OUTPUT_LANG)
     for key, value in overrides.items():
@@ -137,7 +159,7 @@ def main() -> int:
         for key in set(current) | set(reparsed)
         if current.get(key) != reparsed.get(key)
     }
-    unexpected = sorted(changed_keys - overrides.keys())
+    unexpected = sorted(changed_keys - overrides.keys() - redundant_task_title_keys)
     if unexpected:
         OUTPUT_LANG.write_text(before_text, encoding="utf-8")
         raise ValueError(f"제목 범위 밖의 키가 변경됐습니다: {unexpected}")
@@ -156,6 +178,9 @@ def main() -> int:
         "ae2_item_name_mismatches_corrected": ae2_item_name_corrections,
         "manual_title_fixes": sum(
             baseline.get(key) != value for key, value in manual.items()
+        ),
+        "redundant_single_item_task_titles_removed": sum(
+            key in current for key in redundant_task_title_keys
         ),
         "total_changed_keys": len(baseline_changed_keys),
         "output_sha256": sha256(OUTPUT_LANG),

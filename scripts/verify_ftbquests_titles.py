@@ -12,6 +12,7 @@ from pathlib import Path
 import audit_ftbquests_titles as audit
 import build_ae2_quests as snbt
 import build_ftbquests_titles as builder
+import ftbquests_title_rules as title_rules
 from local_paths import resolve_source_root
 
 COMMON_OVERRIDES = (
@@ -78,38 +79,6 @@ MEGACELLS_RELATED_QUEST_IDS = {
 APPFLUX_RELATED_QUEST_IDS = {
     "1EECA19DF9CF6A0C",
     "5AE851B8074BC7E6",
-}
-
-REDUNDANT_SINGLE_ITEM_TASK_IDS = {
-    "03EB390E79866058",
-    "065E5450AC87F1D5",
-    "0F2BCC279B5731AB",
-    "17B0E19125FCFA1A",
-    "17C7DC04BC22C0D7",
-    "181135E3A83C5B9E",
-    "263F0E416A8E1110",
-    "299DE26FF7293F34",
-    "2CC38211F4C54ED8",
-    "2EA19C4E46380CDA",
-    "345245C32DB7B4D4",
-    "3B35F86B42989063",
-    "4203F7ED807F3D30",
-    "429FA8057B666565",
-    "4471A530B55D4140",
-    "46C7D666D3A4A3D9",
-    "47BAD4AA76F9CF82",
-    "4DA6445DB5F3B85E",
-    "4EF5B261BAD2AC7D",
-    "4FCEB24FC83D22A9",
-    "50823C029014781A",
-    "55F718D796CEB1B1",
-    "5B5DBA0A7644A551",
-    "5BFAA4BB6651F71A",
-    "5C358DFF9CD0D1D9",
-    "5E017E6B7E3F56B7",
-    "6D4F62833424ADC0",
-    "79AEDC66EB312BCA",
-    "7B7C1C5BFEC92058",
 }
 
 
@@ -190,7 +159,7 @@ def main() -> int:
         raise ValueError("\n".join(validation_errors))
 
     mismatched_common = sorted(
-        key for key, value in scoped_overrides.items() if output.get(key) != value
+        key for key, value in common_overrides.items() if output.get(key) != value
     )
     if mismatched_common and args.scope == "all":
         raise ValueError(f"공통 챕터 작업본과 출력이 다릅니다: {mismatched_common}")
@@ -236,7 +205,7 @@ def main() -> int:
 
     invalid_removed_tasks = sorted(
         task_id
-        for task_id in REDUNDANT_SINGLE_ITEM_TASK_IDS
+        for task_id in title_rules.REDUNDANT_SINGLE_ITEM_TASK_IDS
         if task_id not in tasks_by_id
         or tasks_by_id[task_id]["type"] != "item"
         or not tasks_by_id[task_id]["item_id"]
@@ -244,7 +213,7 @@ def main() -> int:
     )
     restored_redundant_titles = sorted(
         task_id
-        for task_id in REDUNDANT_SINGLE_ITEM_TASK_IDS
+        for task_id in title_rules.REDUNDANT_SINGLE_ITEM_TASK_IDS
         if f"task.{task_id}.title" in output
     )
     if invalid_removed_tasks or (restored_redundant_titles and args.scope == "all"):
@@ -386,11 +355,8 @@ def main() -> int:
     report = json.loads(audit.REPORT_JSON.read_text(encoding="utf-8"))
     resolved_problem_types = {
         "목차 표기 불일치",
-        "리소스팩 아이템명과 quest.title 불일치",
-        "같은 아이템의 quest.title 표기 불일치",
         "제목/부제 형식 불일치: 색상/서식 코드 불일치",
         "제목/부제 형식 불일치: 숫자 불일치",
-        "한국어 파일의 영어 subtitle",
     }
     unresolved_fixed_types = sorted(
         problem_type
@@ -430,7 +396,9 @@ def main() -> int:
         "megacells_quest_item_titles_checked": megacells_item_titles_checked,
         "megacells_related_quest_titles_checked": len(MEGACELLS_RELATED_QUEST_IDS),
         "appflux_related_quest_titles_checked": len(APPFLUX_RELATED_QUEST_IDS),
-        "removed_single_item_task_titles_checked": len(REDUNDANT_SINGLE_ITEM_TASK_IDS),
+        "removed_single_item_task_titles_checked": len(
+            title_rules.REDUNDANT_SINGLE_ITEM_TASK_IDS
+        ),
         "placeholder_number_format_errors": 0,
         "utf8_bom_files": 0,
         "audit_candidates_remaining": report["remaining_issue_count"],
