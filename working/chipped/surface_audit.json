@@ -1,0 +1,51 @@
+{
+  "family": "chipped",
+  "jar_surfaces": {
+    "chipped": {
+      "data_json_files": 646,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "rechiseled_chipped": {
+      "data_json_files": 275,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    }
+  },
+  "references": {
+    "ftbquests": [
+      {
+        "path": "config/ftbquests/quests/chapters/building_tips.snbt",
+        "namespace_occurrences": 153,
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/chapter_2_the_star.snbt",
+        "namespace_occurrences": 3,
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
+        "namespace_occurrences": 1,
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "config/ftbquests/quests/reward_tables/3602F483568B92BA.snbt",
+        "namespace_occurrences": 1,
+        "visible_namespace_candidate_lines": []
+      }
+    ],
+    "kubejs": [],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "item_ids_use_resourcepack_names",
+  "kubejs_display_work": "no_related_references",
+  "errors": [],
+  "status": "complete"
+}

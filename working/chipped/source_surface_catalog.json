@@ -1,0 +1,68 @@
+{
+  "family": "chipped",
+  "jars": [
+    {
+      "label": "chipped",
+      "jar": "chipped-neoforge-1.21.1-4.0.2.jar",
+      "jar_size": 15020578,
+      "jar_mtime_ns": 1783222487277555700,
+      "language_files": [
+        "assets/chipped/lang/en_us.json"
+      ],
+      "data_json_files": 646,
+      "data_direct_fields": [],
+      "data_localized_fields": [],
+      "invalid_json": [],
+      "nbt_files": 0,
+      "nbt_visible_fields": [],
+      "guide_candidates": []
+    },
+    {
+      "label": "rechiseled_chipped",
+      "jar": "rechiseled_chipped-2.0-1.21.1.jar",
+      "jar_size": 177517,
+      "jar_mtime_ns": 1783222410228500700,
+      "language_files": [
+        "assets/rechiseled_chipped/lang/en_us.json"
+      ],
+      "data_json_files": 275,
+      "data_direct_fields": [],
+      "data_localized_fields": [],
+      "invalid_json": [],
+      "nbt_files": 0,
+      "nbt_visible_fields": [],
+      "guide_candidates": []
+    }
+  ],
+  "english_keys": 7265,
+  "block_keys": 6967,
+  "tag_keys": 276,
+  "other_keys": 22,
+  "integration_language_keys": 0,
+  "base_materials": 276,
+  "official_base_materials": 272,
+  "project_reviewed_base_materials": 4,
+  "parsed_blocks": 6895,
+  "unmatched_blocks": 72,
+  "modifier_tokens": 506,
+  "minecraft_asset": {
+    "version_json": "C:/Users/moon9/curseforge/minecraft/Install/versions/1.21.1/1.21.1.json",
+    "asset_index_id": "17",
+    "asset_index_sha1": "f46c17d5bbad70e53b823f37959f7934beb5de77",
+    "language_object_hash": "0043b84e0a950f6cb089d7ba0bc0e30ed41dfafb",
+    "language_object_size": 614231,
+    "language_path": "C:/Users/moon9/curseforge/minecraft/Install/assets/objects/00/0043b84e0a950f6cb089d7ba0bc0e30ed41dfafb",
+    "language_sha1_verified": true
+  },
+  "korean_candidates": {
+    "current_jar_korean_keys": 0,
+    "project_korean_before_family": false,
+    "instance_russian_candidate": {
+      "path": "kubejs/assets/chipped/lang/ru_ru.json",
+      "keys": 29,
+      "used_for_korean_translation": false
+    }
+  },
+  "errors": [],
+  "status": "prepared"
+}

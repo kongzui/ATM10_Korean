@@ -1,0 +1,33 @@
+{
+  "family": "chipped",
+  "reviewed_language_keys": 7265,
+  "bundled_korean_candidate_keys": 0,
+  "existing_korean_values_reused": 0,
+  "new_language_values": 7265,
+  "ftbquests_work": "item_ids_use_resourcepack_names",
+  "kubejs_work": "no_related_references",
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/chipped/lang/ko_kr.json"
+  ],
+  "deployment": {
+    "status": "applied_and_verified",
+    "backup_manifest": "temp/backups/20260808_152934_916021/backup_manifest.json",
+    "expected_paths": [
+      "resourcepacks/ATM10_Korean/assets/chipped/lang/ko_kr.json"
+    ],
+    "targets": [
+      {
+        "target_type": "game_root",
+        "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+        "changed_paths": [
+          "resourcepacks/ATM10_Korean/assets/chipped/lang/ko_kr.json"
+        ],
+        "unexpected_changes": [],
+        "hash_verified": true
+      }
+    ],
+    "errors": []
+  },
+  "errors": [],
+  "status": "complete"
+}

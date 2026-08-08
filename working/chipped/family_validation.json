@@ -1,0 +1,24 @@
+{
+  "family": "chipped",
+  "language": {
+    "reviewed_english_keys": 7265,
+    "output_keys": 7265,
+    "bundled_korean_candidate_keys": 0,
+    "existing_korean_values_reused": 0,
+    "new_language_values": 7265,
+    "intentional_same_keys": [
+      "itemGroup.chipped.main"
+    ],
+    "unexpected_name_collisions": {},
+    "errors": [],
+    "status": "complete"
+  },
+  "surface_audit": "complete",
+  "ftbquests": "item_ids_use_resourcepack_names",
+  "kubejs": "no_related_references",
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/chipped/lang/ko_kr.json"
+  ],
+  "errors": [],
+  "status": "complete"
+}

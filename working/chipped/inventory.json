@@ -1,0 +1,16 @@
+{
+  "family": "chipped",
+  "english_keys": 7265,
+  "block_keys": 6967,
+  "tag_keys": 276,
+  "other_keys": 22,
+  "integration_language_keys": 0,
+  "base_materials": 276,
+  "official_base_materials": 272,
+  "project_reviewed_base_materials": 4,
+  "parsed_blocks": 6895,
+  "unmatched_blocks": 72,
+  "modifier_tokens": 506,
+  "errors": [],
+  "status": "prepared"
+}
