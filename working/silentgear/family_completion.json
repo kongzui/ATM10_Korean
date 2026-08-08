@@ -5,8 +5,8 @@
       "namespace": "silentgear",
       "jar": "silent-gear-1.21.1-neoforge-4.2.1.1.jar",
       "english_keys": 1191,
-      "reused": 600,
-      "corrected": 203,
+      "reused": 595,
+      "corrected": 208,
       "new": 388,
       "data_only_keys": 5
     },
@@ -40,8 +40,8 @@
   ],
   "counts": {
     "language_english_keys": 1446,
-    "language_existing_korean_reused": 600,
-    "language_existing_korean_corrected": 203,
+    "language_existing_korean_reused": 595,
+    "language_existing_korean_corrected": 208,
     "language_newly_translated": 643,
     "data_only_keys_added": 7,
     "quest_display_keys": 81,
@@ -49,21 +49,24 @@
     "kubejs_literals_translated": 9,
     "remaining": 0
   },
+  "current_re_review": {
+    "visible_values_reviewed": 1550,
+    "existing_korean_reused": 1541,
+    "existing_korean_corrected": 9,
+    "newly_translated": 0
+  },
   "deployment": {
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
     "changed_paths": [
       "config/ftbquests/quests/lang/ko_kr.snbt",
-      "kubejs/data/silentgear/silentgear_traits/advanced_aquatic.json",
-      "kubejs/data/silentgear/silentgear_traits/advanced_flame_ward.json",
-      "kubejs/data/silentgear/silentgear_traits/cure_levitation.json",
-      "kubejs/data/silentgear/silentgear_traits/cure_nausea.json",
-      "resourcepacks/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/sgearmetalworks/lang/ko_kr.json",
       "resourcepacks/ATM10_Korean/assets/silentgear/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/silentgems/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/silentlib/lang/ko_kr.json"
+      "resourcepacks/ATM10_Korean/assets/sgearmetalworks/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/silentgems/lang/ko_kr.json"
     ],
-    "backup_manifest": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\temp\\backups\\20260714_204828_667466\\backup_manifest.json",
+    "backup_manifests": [
+      "temp/backups/20260808_221356_413686/backup_manifest.json",
+      "temp/backups/20260808_221411_541505/backup_manifest.json"
+    ],
     "unexpected_changes": []
   },
   "out_of_scope": [

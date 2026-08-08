@@ -77,14 +77,17 @@ def build_trait(instance: Path, name: str, rules: dict[str, tuple[str, str]]) ->
     for field in ("name", "description"):
         expected, translated = rules[field]
         component = value.get(field)
-        if not isinstance(component, dict) or component.get("text") != expected:
+        if not isinstance(component, dict) or component.get("text") not in {
+            expected,
+            translated,
+        }:
             raise RuntimeError(f"예상한 {field} 원문과 다릅니다: {source}")
         component["text"] = translated
         changes += 1
     if "extra_wiki_lines" in rules:
         expected, translated = rules["extra_wiki_lines"]
         lines = value.get("extra_wiki_lines")
-        if lines != [expected]:
+        if lines not in ([expected], [translated]):
             raise RuntimeError(f"예상한 위키 추가 문구와 다릅니다: {source}")
         value["extra_wiki_lines"] = [translated]
         changes += 1

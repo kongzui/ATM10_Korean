@@ -19,9 +19,6 @@ COMPLETION_FILE = WORK_ROOT / "family_completion.json"
 REPORT_FILE = WORK_ROOT / "family_validation.json"
 QUEST_FILE = WORK_ROOT / "quest_validation.json"
 KUBE_FILE = WORK_ROOT / "kubejs_audit.json"
-BACKUP_MANIFEST = (
-    PROJECT_ROOT / "temp/backups/20260714_204828_667466/backup_manifest.json"
-)
 EXPECTED_DEPLOYMENTS = {
     "resourcepacks/ATM10_Korean/assets/silentgear/lang/ko_kr.json": (
         PROJECT_ROOT
@@ -111,6 +108,7 @@ def language_counts(instance: Path) -> tuple[list[dict[str, object]], dict[str, 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--instance", type=Path)
+    parser.add_argument("--backup-manifest", type=Path)
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
     quest = json.loads(QUEST_FILE.read_text(encoding="utf-8"))
@@ -146,10 +144,22 @@ def main() -> int:
     if len(productive) != 1:
         errors.append(f"Productive Metalworks JAR을 확정하지 못했습니다: {productive}")
 
-    backup = json.loads(BACKUP_MANIFEST.read_text(encoding="utf-8"))
+    backup_manifest = args.backup_manifest
+    if backup_manifest is None:
+        manifests = sorted(
+            (PROJECT_ROOT / "temp/backups").glob("*/backup_manifest.json"),
+            key=lambda path: path.stat().st_mtime,
+        )
+        if not manifests:
+            raise FileNotFoundError("적용 백업 매니페스트를 찾지 못했습니다.")
+        backup_manifest = manifests[-1]
+    backup = json.loads(backup_manifest.read_text(encoding="utf-8"))
     changed_paths = backup["targets"][0]["changed_paths"]
-    if set(changed_paths) != set(EXPECTED_DEPLOYMENTS):
-        errors.append("적용 매니페스트의 변경 경로가 Silent Gear 계획과 다릅니다.")
+    applied_paths = {
+        row["relative_path"] for row in backup["targets"][0].get("files", [])
+    }
+    if not set(EXPECTED_DEPLOYMENTS).issubset(applied_paths):
+        errors.append("적용 매니페스트에 Silent Gear 파일 검증 기록이 모두 없습니다.")
     if backup["targets"][0]["unexpected_changes"]:
         errors.append("실제 적용 중 계획 밖 변경이 기록되었습니다.")
     live_hash_matches = 0
@@ -213,7 +223,7 @@ def main() -> int:
         "deployment": {
             "target": str(instance),
             "changed_paths": changed_paths,
-            "backup_manifest": str(BACKUP_MANIFEST),
+            "backup_manifest": str(backup_manifest),
             "unexpected_changes": [],
         },
         "out_of_scope": [

@@ -1,6 +1,6 @@
 {
-  "status": "quality_review_completed_and_deployed",
-  "completed_at": "2026-08-01T11:35:40+09:00",
+  "status": "re_review_completed_and_deployed",
+  "completed_at": "2026-08-08T22:14:18+09:00",
   "scope": "Silent Gear 계열 언어, 데이터 표시, 발전 과제, FTB Quests, KubeJS, 가이드 및 fallback 표시",
   "installed": [
     "silent-gear-1.21.1-neoforge-4.2.1.1.jar",
@@ -12,7 +12,8 @@
     "namespaces": 4,
     "total_keys_reviewed": 1446,
     "data_only_keys_reviewed": 7,
-    "quality_review_corrections": 157,
+    "existing_korean_reused": 1438,
+    "quality_review_corrections": 8,
     "newly_translated": 0
   },
   "guide": {
@@ -26,7 +27,8 @@
     "tasks_checked": 77,
     "display_keys_reviewed": 81,
     "fallback_titles_reviewed": 7,
-    "quality_review_keys_corrected": 7,
+    "existing_korean_reused": 80,
+    "quality_review_keys_corrected": 1,
     "quest_fallbacks_checked": 43,
     "related_tasks_outside_chapter_checked": 2,
     "custom_name_components": 0
@@ -45,8 +47,8 @@
   },
   "review_totals": {
     "visible_values_reviewed": 1550,
-    "existing_korean_reviewed_and_reused": 1386,
-    "quality_review_corrections": 164,
+    "existing_korean_reviewed_and_reused": 1541,
+    "quality_review_corrections": 9,
     "newly_translated": 0
   },
   "deployment": {
@@ -54,8 +56,14 @@
     "game_root_configured": true,
     "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
     "files_applied": 4,
-    "backup_root": "temp/backups/20260801_113523_874668/game_root",
-    "backup_manifest": "temp/backups/20260801_113523_874668/backup_manifest.json",
+    "backup_roots": [
+      "temp/backups/20260808_221356_413686/game_root",
+      "temp/backups/20260808_221411_541505/game_root"
+    ],
+    "backup_manifests": [
+      "temp/backups/20260808_221356_413686/backup_manifest.json",
+      "temp/backups/20260808_221411_541505/backup_manifest.json"
+    ],
     "post_apply_expected_changes": [],
     "unexpected_instance_changes": []
   },
