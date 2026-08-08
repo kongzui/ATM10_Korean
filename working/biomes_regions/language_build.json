@@ -1,0 +1,19 @@
+{
+  "family": "biomes_regions",
+  "mods": {
+    "biomeswevegone": {
+      "translated": 1169,
+      "expected": 1169,
+      "errors": [],
+      "status": "complete"
+    },
+    "regions_unexplored": {
+      "translated": 836,
+      "expected": 836,
+      "errors": [],
+      "status": "complete"
+    }
+  },
+  "errors": [],
+  "status": "complete"
+}

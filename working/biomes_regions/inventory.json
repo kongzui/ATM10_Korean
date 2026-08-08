@@ -1,0 +1,20 @@
+{
+  "family": "biomes_regions",
+  "mods": {
+    "biomeswevegone": {
+      "jar": "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.0.jar",
+      "jar_size": 20484967,
+      "jar_mtime_ns": 1783222381413909100,
+      "english_keys": 1169,
+      "bundled_korean_keys": 0
+    },
+    "regions_unexplored": {
+      "jar": "regions_unexplored-neoforge-1.21.1-0.5.9.jar",
+      "jar_size": 5365182,
+      "jar_mtime_ns": 1783222399191440900,
+      "english_keys": 836,
+      "bundled_korean_keys": 0
+    }
+  },
+  "status": "prepared"
+}

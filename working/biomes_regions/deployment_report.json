@@ -1,0 +1,27 @@
+{
+  "status": "applied_and_verified",
+  "backup_manifest": "temp/backups/20260808_134426_146289/backup_manifest.json",
+  "expected_paths": [
+    "config/ftbquests/quests/lang/ko_kr.snbt",
+    "resourcepacks/ATM10_Korean/assets/biomeswevegone/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/regions_unexplored/lang/ko_kr.json"
+  ],
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+      "changed_paths": [
+        "config/ftbquests/quests/lang/ko_kr.snbt",
+        "resourcepacks/ATM10_Korean/assets/biomeswevegone/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/regions_unexplored/lang/ko_kr.json"
+      ],
+      "unexpected_changes": [],
+      "hash_verified_paths": [
+        "config/ftbquests/quests/lang/ko_kr.snbt",
+        "resourcepacks/ATM10_Korean/assets/biomeswevegone/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/regions_unexplored/lang/ko_kr.json"
+      ]
+    }
+  ],
+  "errors": []
+}

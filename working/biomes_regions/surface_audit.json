@@ -1,0 +1,1328 @@
+{
+  "family": "biomes_regions",
+  "jars": [
+    {
+      "modid": "biomeswevegone",
+      "jar": "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.0.jar",
+      "data_json_files": 3361,
+      "data_counts": {
+        "advancement": 658,
+        "damage_type": 2,
+        "jukebox_song": 2,
+        "loot_modifiers": 1,
+        "loot_table": 986,
+        "neoforge": 5,
+        "recipe": 641,
+        "rs_pieces_spawn_counts": 12,
+        "rs_pool_additions": 12,
+        "tags": 216,
+        "worldgen": 826
+      },
+      "advancement_files": 658,
+      "advancement_displays": [
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/forgotten_fae.json",
+          "display": {
+            "background": "biomeswevegone:textures/block/lush_dirt.png",
+            "description": {
+              "translate": "advancements.biomeswevegone.adventure.forgotten_fae.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:music_disc_pixie_club"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.adventure.forgotten_fae.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/inside_quicksand.json",
+          "display": {
+            "background": "biomeswevegone:textures/block/lush_dirt.png",
+            "description": {
+              "translate": "advancements.biomeswevegone.adventure.inside_quicksand.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:quicksand"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.adventure.inside_quicksand.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/little_house_on_the_prairie.json",
+          "display": {
+            "background": "biomeswevegone:textures/block/lush_dirt.png",
+            "description": {
+              "translate": "advancements.biomeswevegone.adventure.little_house_on_the_prairie.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:prairie_grass"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.adventure.little_house_on_the_prairie.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/oh_the_biomes_weve_gone.json",
+          "display": {
+            "background": "biomeswevegone:textures/block/lush_dirt.png",
+            "description": {
+              "translate": "advancements.biomeswevegone.adventure.oh_the_biomes_weve_gone.description"
+            },
+            "frame": "challenge",
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:bwg_logo"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.adventure.oh_the_biomes_weve_gone.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/pale_in_comparison.json",
+          "display": {
+            "description": {
+              "translate": "advancements.biomeswevegone.adventure.pale_in_comparison.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:soul_fruit"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.adventure.pale_in_comparison.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/root.json",
+          "display": {
+            "announce_to_chat": false,
+            "background": "biomeswevegone:textures/block/lush_dirt.png",
+            "description": {
+              "translate": "advancements.biomeswevegone.adventure.root.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:bwg_logo"
+            },
+            "show_toast": false,
+            "title": {
+              "translate": "advancements.biomeswevegone.adventure.root.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/true_traveler.json",
+          "display": {
+            "background": "biomeswevegone:textures/block/lush_dirt.png",
+            "description": {
+              "translate": "advancements.biomeswevegone.adventure.true_traveler.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:music_disc_better_days"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.adventure.true_traveler.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/witches_road.json",
+          "display": {
+            "description": {
+              "translate": "advancements.biomeswevegone.adventure.witches_road.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:spirit_roots"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.adventure.witches_road.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/berrily_alive.json",
+          "display": {
+            "description": {
+              "translate": "advancements.biomeswevegone.husbandry.berrily_alive.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:blueberries"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.husbandry.berrily_alive.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/forager.json",
+          "display": {
+            "description": {
+              "translate": "advancements.biomeswevegone.husbandry.forager.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:white_puffball_cap"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.husbandry.forager.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/forgotten_nostalgia.json",
+          "display": {
+            "description": {
+              "translate": "advancements.biomeswevegone.husbandry.forgotten_nostalgia.description"
+            },
+            "frame": "challenge",
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:rose"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.husbandry.forgotten_nostalgia.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/granny_smith.json",
+          "display": {
+            "description": {
+              "translate": "advancements.biomeswevegone.husbandry.granny_smith.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:green_apple"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.husbandry.granny_smith.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/hot_diggity_not_dog.json",
+          "display": {
+            "description": {
+              "translate": "advancements.biomeswevegone.husbandry.hot_diggity_not_dog.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:cattail_sprout"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.husbandry.hot_diggity_not_dog.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/johnny_appleseed.json",
+          "display": {
+            "description": {
+              "translate": "advancements.biomeswevegone.husbandry.johnny_appleseed.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "minecraft:golden_apple"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.husbandry.johnny_appleseed.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/just_like_grandmas.json",
+          "display": {
+            "description": {
+              "translate": "advancements.biomeswevegone.husbandry.just_like_grandmas.description"
+            },
+            "frame": "goal",
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:green_apple_pie"
+            },
+            "title": {
+              "translate": "advancements.biomeswevegone.husbandry.just_like_grandmas.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/root.json",
+          "display": {
+            "announce_to_chat": false,
+            "description": {
+              "translate": "advancements.biomeswevegone.husbandry.root.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:green_apple"
+            },
+            "show_toast": false,
+            "title": {
+              "translate": "advancements.biomeswevegone.husbandry.root.title"
+            }
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/root.json",
+          "display": {
+            "announce_to_chat": false,
+            "background": "biomeswevegone:textures/block/lush_dirt.png",
+            "description": {
+              "translate": "advancements.biomeswevegone.description.root"
+            },
+            "icon": {
+              "count": 1,
+              "id": "biomeswevegone:bwg_logo"
+            },
+            "show_toast": false,
+            "title": {
+              "translate": "advancements.biomeswevegone.title.root"
+            }
+          }
+        }
+      ],
+      "recipe_files": 641,
+      "localized_data_fields": [
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/forgotten_fae.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.forgotten_fae.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/forgotten_fae.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.forgotten_fae.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/inside_quicksand.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.inside_quicksand.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/inside_quicksand.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.inside_quicksand.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/little_house_on_the_prairie.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.little_house_on_the_prairie.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/little_house_on_the_prairie.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.little_house_on_the_prairie.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/oh_the_biomes_weve_gone.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.oh_the_biomes_weve_gone.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/oh_the_biomes_weve_gone.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.oh_the_biomes_weve_gone.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/pale_in_comparison.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.pale_in_comparison.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/pale_in_comparison.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.pale_in_comparison.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/root.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.root.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/root.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.root.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/true_traveler.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.true_traveler.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/true_traveler.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.true_traveler.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/witches_road.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.witches_road.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/adventure/witches_road.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.adventure.witches_road.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/berrily_alive.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.berrily_alive.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/berrily_alive.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.berrily_alive.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/forager.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.forager.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/forager.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.forager.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/forgotten_nostalgia.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.forgotten_nostalgia.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/forgotten_nostalgia.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.forgotten_nostalgia.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/granny_smith.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.granny_smith.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/granny_smith.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.granny_smith.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/hot_diggity_not_dog.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.hot_diggity_not_dog.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/hot_diggity_not_dog.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.hot_diggity_not_dog.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/johnny_appleseed.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.johnny_appleseed.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/johnny_appleseed.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.johnny_appleseed.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/just_like_grandmas.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.just_like_grandmas.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/just_like_grandmas.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.just_like_grandmas.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/root.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.root.description"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/husbandry/root.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.husbandry.root.title"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/root.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.biomeswevegone.description.root"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/advancement/biomeswevegone/root.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.biomeswevegone.title.root"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/jukebox_song/better_days.json",
+          "path": "$.description",
+          "value": {
+            "translate": "jukebox_song.biomeswevegone.better_days"
+          }
+        },
+        {
+          "file": "data/biomeswevegone/jukebox_song/pixie_club.json",
+          "path": "$.description",
+          "value": {
+            "translate": "jukebox_song.biomeswevegone.pixie_club"
+          }
+        }
+      ],
+      "direct_visible_data_fields": [],
+      "invalid_json": []
+    },
+    {
+      "modid": "regions_unexplored",
+      "jar": "regions_unexplored-neoforge-1.21.1-0.5.9.jar",
+      "data_json_files": 2922,
+      "data_counts": {
+        "advancement": 671,
+        "damage_type": 2,
+        "loot_table": 790,
+        "recipe": 656,
+        "tags": 80,
+        "worldgen": 723
+      },
+      "advancement_files": 671,
+      "advancement_displays": [
+        {
+          "file": "data/regions_unexplored/advancement/ancient_specimens.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.ancient_specimens.description"
+            },
+            "frame": "challenge",
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:blue_bioshroom_stem"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.ancient_specimens.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/blind_as_a_bat.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.blind_as_a_bat.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:duskmelon_slice"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.blind_as_a_bat.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/downer.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.downer.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:dorcel"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.downer.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/eternal_expedition.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.eternal_expedition.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:brimwood_sapling"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.eternal_expedition.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/every_bit_of_the_rainbow.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.every_bit_of_the_rainbow.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:white_snowbelle"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.every_bit_of_the_rainbow.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/from_the_tree_tops.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.from_the_tree_tops.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:kapok_vines"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.from_the_tree_tops.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/got_wood.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.got_wood.description"
+            },
+            "frame": "challenge",
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:redwood_log"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.got_wood.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/light_as_a_frog.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.light_as_a_frog.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:flowering_lily_pad"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.light_as_a_frog.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/light_snack.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.light_snack.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:hanging_earlight_fruit"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.light_snack.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/mycologist.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.mycologist.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:blue_bioshroom"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.mycologist.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/parent.json",
+          "display": {
+            "announce_to_chat": false,
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:eucalyptus_sapling"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/pioneer.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.pioneer.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:hibiscus"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.pioneer.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/regions_explored.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.regions_explored.description"
+            },
+            "frame": "challenge",
+            "hidden": true,
+            "icon": {
+              "count": 1,
+              "id": "minecraft:leather_boots"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.regions_explored.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/spelunker.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.spelunker.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:dropleaf"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.spelunker.title"
+            }
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/this_tree_bleeds_red.json",
+          "display": {
+            "background": "regions_unexplored:textures/gui/advancements/backgrounds/argillite.png",
+            "description": {
+              "translate": "advancements.regions_unexplored.this_tree_bleeds_red.description"
+            },
+            "icon": {
+              "count": 1,
+              "id": "regions_unexplored:socotra_log"
+            },
+            "title": {
+              "translate": "advancements.regions_unexplored.this_tree_bleeds_red.title"
+            }
+          }
+        }
+      ],
+      "recipe_files": 656,
+      "localized_data_fields": [
+        {
+          "file": "data/regions_unexplored/advancement/ancient_specimens.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.ancient_specimens.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/ancient_specimens.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.ancient_specimens.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/blind_as_a_bat.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.blind_as_a_bat.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/blind_as_a_bat.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.blind_as_a_bat.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/downer.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.downer.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/downer.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.downer.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/eternal_expedition.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.eternal_expedition.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/eternal_expedition.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.eternal_expedition.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/every_bit_of_the_rainbow.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.every_bit_of_the_rainbow.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/every_bit_of_the_rainbow.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.every_bit_of_the_rainbow.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/from_the_tree_tops.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.from_the_tree_tops.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/from_the_tree_tops.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.from_the_tree_tops.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/got_wood.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.got_wood.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/got_wood.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.got_wood.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/light_as_a_frog.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.light_as_a_frog.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/light_as_a_frog.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.light_as_a_frog.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/light_snack.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.light_snack.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/light_snack.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.light_snack.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/mycologist.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.mycologist.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/mycologist.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.mycologist.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/parent.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/parent.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/pioneer.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.pioneer.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/pioneer.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.pioneer.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/regions_explored.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.regions_explored.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/regions_explored.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.regions_explored.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/spelunker.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.spelunker.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/spelunker.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.spelunker.title"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/this_tree_bleeds_red.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "advancements.regions_unexplored.this_tree_bleeds_red.description"
+          }
+        },
+        {
+          "file": "data/regions_unexplored/advancement/this_tree_bleeds_red.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "advancements.regions_unexplored.this_tree_bleeds_red.title"
+          }
+        }
+      ],
+      "direct_visible_data_fields": [],
+      "invalid_json": []
+    }
+  ],
+  "references": {
+    "ftbquests": [
+      {
+        "path": "config/ftbquests/quests/chapters/bounty_board.snbt",
+        "namespace_occurrences": {
+          "biomeswevegone": 1,
+          "regions_unexplored": 0
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/building_tips.snbt",
+        "namespace_occurrences": {
+          "biomeswevegone": 7,
+          "regions_unexplored": 23
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/productive_bees.snbt",
+        "namespace_occurrences": {
+          "biomeswevegone": 0,
+          "regions_unexplored": 2
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/tips_and_tricks.snbt",
+        "namespace_occurrences": {
+          "biomeswevegone": 1,
+          "regions_unexplored": 0
+        },
+        "visible_namespace_candidate_lines": []
+      }
+    ],
+    "kubejs": [
+      {
+        "path": "kubejs/client_scripts/registry_fix.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 3,
+          "regions_unexplored": 0
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/data/the_bumblezone/bz_bee_queen_trades/revival/dead_bush.json",
+        "namespace_occurrences": {
+          "biomeswevegone": 0,
+          "regions_unexplored": 1
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/mods/Biomes Weve Gone/tags.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 9,
+          "regions_unexplored": 0
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/mods/Immersive Engineering/Compatibility.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 1,
+          "regions_unexplored": 0
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_enchanter.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 1,
+          "regions_unexplored": 0
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/mods/MysticalAgriculture/Recipes.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 0,
+          "regions_unexplored": 23
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/mods/Regions Unexplored/Recipes.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 0,
+          "regions_unexplored": 1
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/mods/Xycraft/Extractor.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 6,
+          "regions_unexplored": 0
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/Tweaks/recipes.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 0,
+          "regions_unexplored": 1
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/Tweaks/recipes_fix.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 4,
+          "regions_unexplored": 3
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/Tweaks/registry_fix.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 2,
+          "regions_unexplored": 0
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/Unification/sawing.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 0,
+          "regions_unexplored": 12
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/startup_scripts/Farmer's Delight/Compatibility.js",
+        "namespace_occurrences": {
+          "biomeswevegone": 1,
+          "regions_unexplored": 0
+        },
+        "visible_namespace_candidate_lines": []
+      }
+    ],
+    "read_errors": []
+  },
+  "ftbquests": {
+    "quest_contexts": [
+      {
+        "chapter": "bounty_board.snbt",
+        "quest_id": "1F31EBF49079F9D3",
+        "task_ids": [
+          "731E8888AF95E703",
+          "2C1B4079B2636255",
+          "155EE6983A63B091",
+          "40AA310A66CB42C4",
+          "61001A53475D7303",
+          "4CCDC48B6CF0E9A6",
+          "697D13BE679C255C",
+          "65FC7DCD1AD3551C",
+          "60CC38041D477625",
+          "3D9CA8869A46294A",
+          "53BDC9D0909029C8",
+          "5C29B98A93C02002",
+          "6501298CA7F25C22",
+          "710A9E28A01EAE55",
+          "665BA2AB6D013133",
+          "48731DD4B285EF6D"
+        ]
+      },
+      {
+        "chapter": "building_tips.snbt",
+        "quest_id": "0BC106B34AD386E5",
+        "task_ids": [
+          "78F0D5822BF96CA9"
+        ]
+      },
+      {
+        "chapter": "building_tips.snbt",
+        "quest_id": "4EA2DB12E8F0068F",
+        "task_ids": [
+          "61FFB3326113FE18"
+        ]
+      },
+      {
+        "chapter": "building_tips.snbt",
+        "quest_id": "537B39B42C7D21ED",
+        "task_ids": [
+          "1AD43F80F89DF9D9"
+        ]
+      },
+      {
+        "chapter": "building_tips.snbt",
+        "quest_id": "1625C3A30E69D634",
+        "task_ids": [
+          "0740BC10E4D2568F"
+        ]
+      },
+      {
+        "chapter": "building_tips.snbt",
+        "quest_id": "0589911EB4D30FAD",
+        "task_ids": [
+          "4892144C32DCEB55"
+        ]
+      },
+      {
+        "chapter": "productive_bees.snbt",
+        "quest_id": "37367101B3DAA70F",
+        "task_ids": [
+          "3DE460F842195173"
+        ]
+      },
+      {
+        "chapter": "productive_bees.snbt",
+        "quest_id": "6BEE3578BD2C713C",
+        "task_ids": [
+          "4A6ADD52B113E3CA"
+        ]
+      },
+      {
+        "chapter": "tips_and_tricks.snbt",
+        "quest_id": "6E17595887A051C2",
+        "task_ids": [
+          "6E44925E265DC7E2"
+        ]
+      }
+    ],
+    "related_object_ids": [
+      "0589911EB4D30FAD",
+      "0740BC10E4D2568F",
+      "0BC106B34AD386E5",
+      "155EE6983A63B091",
+      "1625C3A30E69D634",
+      "1AD43F80F89DF9D9",
+      "1F31EBF49079F9D3",
+      "2C1B4079B2636255",
+      "37367101B3DAA70F",
+      "3D9CA8869A46294A",
+      "3DE460F842195173",
+      "40AA310A66CB42C4",
+      "48731DD4B285EF6D",
+      "4892144C32DCEB55",
+      "4A6ADD52B113E3CA",
+      "4CCDC48B6CF0E9A6",
+      "4EA2DB12E8F0068F",
+      "537B39B42C7D21ED",
+      "53BDC9D0909029C8",
+      "5C29B98A93C02002",
+      "60CC38041D477625",
+      "61001A53475D7303",
+      "61FFB3326113FE18",
+      "6501298CA7F25C22",
+      "65FC7DCD1AD3551C",
+      "665BA2AB6D013133",
+      "697D13BE679C255C",
+      "6BEE3578BD2C713C",
+      "6E17595887A051C2",
+      "6E44925E265DC7E2",
+      "710A9E28A01EAE55",
+      "731E8888AF95E703",
+      "78F0D5822BF96CA9"
+    ],
+    "related_keys": [
+      "quest.02F4C3BEBD8427AD.quest_desc",
+      "quest.0589911EB4D30FAD.quest_desc",
+      "quest.0589911EB4D30FAD.title",
+      "quest.0BC106B34AD386E5.quest_desc",
+      "quest.0BC106B34AD386E5.title",
+      "quest.1625C3A30E69D634.quest_desc",
+      "quest.1625C3A30E69D634.title",
+      "quest.1F31EBF49079F9D3.quest_desc",
+      "quest.1F31EBF49079F9D3.title",
+      "quest.37367101B3DAA70F.quest_desc",
+      "quest.37367101B3DAA70F.quest_subtitle",
+      "quest.4EA2DB12E8F0068F.quest_desc",
+      "quest.4EA2DB12E8F0068F.title",
+      "quest.537B39B42C7D21ED.quest_desc",
+      "quest.537B39B42C7D21ED.title",
+      "quest.6BEE3578BD2C713C.quest_subtitle",
+      "quest.6E17595887A051C2.quest_desc",
+      "quest.6E17595887A051C2.title",
+      "task.0740BC10E4D2568F.title",
+      "task.1AD43F80F89DF9D9.title",
+      "task.3DE460F842195173.title",
+      "task.4892144C32DCEB55.title",
+      "task.4A6ADD52B113E3CA.title",
+      "task.61FFB3326113FE18.title",
+      "task.6E44925E265DC7E2.title",
+      "task.78F0D5822BF96CA9.title"
+    ],
+    "reviewed_keys": 26,
+    "corrected_keys": 16,
+    "reviewed_reused_keys": 10,
+    "forbidden_translation_hits": {},
+    "errors": [],
+    "status": "complete"
+  },
+  "ftbquests_display_work": "related_keys_reviewed_and_corrected",
+  "kubejs_display_work": "ids_only",
+  "errors": [],
+  "status": "complete"
+}

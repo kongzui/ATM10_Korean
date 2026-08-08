@@ -441,8 +441,8 @@
 	quest.05850541675B2493.quest_desc: ["됩니다.\\n\\n당신은 &6&lATM의 별&r을 만들었습니다. 즉, 모드팩을 클리어했습니다!\\n\\n다음은 무엇일까요?"]
 	quest.05850541675B2493.quest_subtitle: "이것은 당신이 이겼다는 뜻인가요?"
 	quest.05850541675B2493.title: "&6&lATM의 별"
-	quest.0589911EB4D30FAD.quest_desc: ["&l&c리전스 언익스플로어드&r에서는 판자를 양털이나 유리처럼 페인트칠할 수 있는 기능도 추가되었습니다!"]
-	quest.0589911EB4D30FAD.title: "페인트 칠한 판자"
+	quest.0589911EB4D30FAD.quest_desc: ["&l&cRegions Unexplored&r에서는 판자를 양털이나 유리처럼 색칠할 수도 있어요!"]
+	quest.0589911EB4D30FAD.title: "색칠한 판자"
 	quest.0591CAFD665CE151.quest_subtitle: "티어: &b4"
 	quest.0596F6C70758EEC0.quest_desc: ["가장 비싸긴 하지만, 가장 예쁘기도 합니다!\\n\\n그리고 그것이 건축에 중요한 것이죠!"]
 	quest.05A4496705B6C6AF.quest_desc: [
@@ -812,8 +812,8 @@
 		"{image:atm:textures/questpics/eternal/starlight_ether.png width:200 height:100 align:center}"
 	]
 	quest.0BB8D556305EB307.title: "에테르 강"
-	quest.0BC106B34AD386E5.quest_desc: ["&l&c리전스 언익스플로어드&r는 또 다른 생물 군계 모드이며, 이번에는 &l&6AllTheMods!&r에 새로 추가되었습니다! \\n\\n물론 생물 군계와 함께 더 많은 나무가 제공됩니다!"]
-	quest.0BC106B34AD386E5.title: "&l&c리전스 언익스플로어드&r 통나무"
+	quest.0BC106B34AD386E5.quest_desc: ["&l&cRegions Unexplored&r는 &l&6AllTheMods!&r에 새로 합류한 또 하나의 생물군계 모드예요! \\n\\n새 생물군계가 생기면 당연히 나무도 더 많아지죠!"]
+	quest.0BC106B34AD386E5.title: "&l&cRegions Unexplored&r 원목"
 	quest.0BCC79C1D002F532.quest_desc: ["&b비전 수정 가루&r를 &b액체 아우레알&r로 만들려면 액체가 필요합니다! 사실 물&9&r이 필요합니다! \\n\\n&9싱크대&r에서 &9물&r을 끌어오세요. 무한합니다."]
 	quest.0BCC79C1D002F532.title: "무한한 &9물&r!!!"
 	quest.0BCCDE24D378F260.quest_subtitle: "등급: &d3"
@@ -1436,8 +1436,8 @@
 	quest.16255FB20F35A9D9.quest_desc: ["&3스노클&r을 착용하고 &9물&r에 들어가면 잠시 수중 호흡 효과를 얻습니다. 거북 등딱지와 비슷하지만 시간이 지나면 효과가 끝나니 조심하세요."]
 	quest.16255FB20F35A9D9.quest_subtitle: "머리"
 	quest.16255FB20F35A9D9.title: "&3스노클"
-	quest.1625C3A30E69D634.quest_desc: ["이 새로운 돌은 &l&c리전스 언익스플로어드&r 생물 군계에서 찾을 수 있습니다! \\n\\n아니요, 이끼 낀 돌은 &l&aOh The Biomes We've Gone&r의 것과 같지 않습니다.\\n\\n아니요, 이끼 낀 돌 벽돌과도 같지 않습니다."]
-	quest.1625C3A30E69D634.title: "&l&c리전스 언익스플로어드&r 돌"
+	quest.1625C3A30E69D634.quest_desc: ["이 새로운 돌은 &l&cRegions Unexplored&r 생물군계에서 찾을 수 있어요! \\n\\n이끼 낀 돌은 &l&aOh The Biomes We've Gone&r의 이끼 낀 돌과 다릅니다. \\n\\n이끼 낀 석재 벽돌과도 달라요."]
+	quest.1625C3A30E69D634.title: "&l&cRegions Unexplored&r 돌"
 	quest.16299B9AE87257DC.quest_desc: ["&b무선 터미널&f은 일반 터미널과 같은 기능을 무선으로 제공합니다.\\n\\n사용하기 전에 &e무선 액세스 포인트&r의 오른쪽 위 슬롯에 넣어 네트워크와 &e연결&f해야 합니다. 네트워크에 연결되지 않았거나 범위 밖에 있거나 전력이 부족하면 작동하지 않습니다.\\n\\n&e에너지 카드&f를 설치하면 무선 터미널의 내부 배터리 용량을 늘릴 수 있습니다."]
 	quest.16299B9AE87257DC.quest_subtitle: "바로 이것을 위해 여기까지 왔습니다"
 	quest.16299B9AE87257DC.title: "무선 터미널"
@@ -4967,8 +4967,8 @@
 	quest.4E8A05C3BFA80540.title: "저장소"
 	quest.4E8ECD407C8EA2DC.quest_subtitle: "만다린 + 포멜로"
 	quest.4E9B35DCA018FD42.title: "도구 업그레이드"
-	quest.4EA2DB12E8F0068F.quest_desc: ["&l&aOh The Biomes We've Gone&r은 &l&aOh The Biomes You'll Go&r의 후속작이며, Dr. Seuss의 책 \"Oh the Places You'll Go\"를 언어유희로 표현한 것입니다.\\n\\n수많은 멋진 새 생물 군계를 추가합니다! 새로운 식물, 암석, 그리고 물론 나무도 있습니다!"]
-	quest.4EA2DB12E8F0068F.title: "&l&a오 더 바이옴스 위브 곤&r 나무"
+	quest.4EA2DB12E8F0068F.quest_desc: ["&l&aOh The Biomes We've Gone&r은 &l&aOh The Biomes You'll Go&r의 후속 모드이며, 그 이름은 Dr. Seuss의 책 \"Oh the Places You'll Go\"를 비튼 말장난이에요.\\n\\n새로운 식물과 바위, 나무가 어우러진 아름다운 생물군계를 아주 많이 추가합니다!"]
+	quest.4EA2DB12E8F0068F.title: "&l&aOh The Biomes We've Gone&r 목재"
 	quest.4EAFE7B240AF0A4D.quest_desc: ["필요한 곳까지 닿지 않나요? 범위 증가 증강을 사용해 보세요!\\n\\n모듈이 더 먼 곳까지 작동하게 됩니다. 흡입 모듈은 더 멀리 있는 아이템을 줍고, 유체 모듈은 더 먼 곳에 닿습니다."]
 	quest.4EB7245727EE1EF9.quest_subtitle: "티어: &63"
 	quest.4EBED8ABC8C863A4.title: "&a등급 3&r: 더욱 많은 &c피"
@@ -5285,8 +5285,8 @@
 	quest.535525EA4DF4AB59.title: "&c니트로 플레이어 송신기"
 	quest.53594EBA9F7BA840.quest_desc: ["고급 아이템 하역기는 일반 부품과 똑같지만 어느 방향에서든 사용할 수 있습니다. 방향 외에는 다른 점이 없습니다."]
 	quest.53594EBA9F7BA840.title: "고급 아이템 하역기"
-	quest.537B39B42C7D21ED.quest_desc: ["&l&a오 더 바이옴스 위브 곤&r에서 추가된 새로운 생물 군계에서 4가지 새로운 돌 유형인 데사이트, 붉은 암석, 이끼 낀 돌, 그리고 바위 돌을 찾을 수 있습니다.\\n\\n이제 저는 바위 돌이 다른 돌들과 구별되어 바위라는 이름을 얻게 된 이유를 알고 싶습니다."]
-	quest.537B39B42C7D21ED.title: "&l&a오 더 바이옴스 위브 곤&r 돌"
+	quest.537B39B42C7D21ED.quest_desc: ["&l&aOh The Biomes We've Gone&r이 추가한 생물군계에서는 데이사이트, 붉은 바위, 이끼 낀 돌, 울퉁불퉁한 돌의 4가지 새로운 돌을 찾을 수 있어요. \\n\\n그런데 울퉁불퉁한 돌은 다른 돌보다 무엇이 더 울퉁불퉁해서 그런 이름을 얻었을까요?"]
+	quest.537B39B42C7D21ED.title: "&l&aOh The Biomes We've Gone&r 돌"
 	quest.53829B3E51936ACD.quest_desc: ["보조 손에 &b다이아몬드 검&r을, 주 손에 &7「강화」두루마리&r를 들고 우클릭을 길게 누르세요."]
 	quest.53829B3E51936ACD.title: "강화된 검"
 	quest.538821E23E39BE97.quest_desc: ["연료 효율 &2증강&r은 지구와 나무를 사랑하는 환경 친화적인 플레이어를 위한 장치입니다. 제련 속도가 절반으로 느려지는 대신 연료 효율이 두 배가 됩니다. 석탄 하나로 아이템 8개가 아니라 16개를 제련할 수 있어요!"]
@@ -6897,7 +6897,7 @@
 	quest.6E15447FC3D678E0.quest_desc: ["&b퍼지 카드&f는 내구도나 마법 부여 같은 (NBT) 메타데이터와 관계없이 필터 아이템을 일치시킵니다. &b반전 카드&f는 버스의 필터를 화이트리스트와 블랙리스트 사이에서 전환합니다."]
 	quest.6E15447FC3D678E0.quest_subtitle: "남은 두 개의 IO 카드"
 	quest.6E15447FC3D678E0.title: "느슨하게 말하자면"
-	quest.6E17595887A051C2.quest_desc: ["&l&2모드가 적용된 Minecraft&r는 새로운 주민 직업을 소개합니다!\\n\\nForge 망치: &5산업가&r\\n\\n충전기: &b플루익스 연구원&r\\n\\n고급 벌통: &6양봉가&r\\n\\n커피 메이커: &9엔지니어&r\\n\\n아케인 코어: &d으슥한 마법사&r\\n\\n채집가 테이블: &a채집가&r\\n\\n동력 롤링 기계: &e카트맨&r\\n수동 롤링 기계: &e궤도 기술자&r\\n\\n엔지니어 작업대: &7총기 제작자&r\\n하얀색 현수막: &7현수막 제작자&r\\n엔지니어 회로 작업대: &7전기기사&r\\n엔지니어 제작대: &7기계공&r\\n턴테이블: &7구조물 엔지니어&r\\n\\n충전소: &4압력 기능공&r\\n\\n톱: &8목수&r"]
+	quest.6E17595887A051C2.quest_desc: ["&l&2모드가 적용된 Minecraft&r는 새로운 주민 직업을 소개합니다!\\n\\nForge 망치: &5산업가&r\\n\\n충전기: &b플루익스 연구원&r\\n\\n고급 벌통: &6양봉가&r\\n\\n커피 메이커: &9엔지니어&r\\n\\n아케인 코어: &d으슥한 마법사&r\\n\\n채집가 작업대: &a채집가&r\\n\\n동력 롤링 기계: &e카트맨&r\\n수동 롤링 기계: &e궤도 기술자&r\\n\\n엔지니어 작업대: &7총기 제작자&r\\n하얀색 현수막: &7현수막 제작자&r\\n엔지니어 회로 작업대: &7전기기사&r\\n엔지니어 제작대: &7기계공&r\\n턴테이블: &7구조물 엔지니어&r\\n\\n충전소: &4압력 기능공&r\\n\\n톱: &8목수&r"]
 	quest.6E17595887A051C2.title: "모어 프로페션"
 	quest.6E3AD764A67829CB.quest_desc: ["하위 등급인 &b주입 수정&r처럼 &c마스터 주입 수정&r도 같은 작업을 할 수 있습니다. \\n\\n사용 횟수가 무한하며 에센스 블록 4개를 다음 등급의 블록으로 올릴 수 있습니다! \\n\\n제작에는 &c수프레뮴&r이 필요하지만 충분히 가치가 있습니다!"]
 	quest.6E3AD764A67829CB.title: "&c마스터 주입 수정"
@@ -8079,7 +8079,7 @@
 	task.064B1841F9288CC3.title: "블록"
 	task.06F2EC3901908BF1.title: "플라스틱 건설 벽돌"
 	task.073D1C45B3018BBA.title: "상자"
-	task.0740BC10E4D2568F.title: "리전스 언익스플로어드 돌"
+	task.0740BC10E4D2568F.title: "Regions Unexplored 돌"
 	task.074BDA389D0FB989.title: "금 간 구리"
 	task.0837FA64B9C50048.title: "원형톱용 톱날"
 	task.0896EE64F92CCD86.title: "Macaw's 문"
@@ -8146,7 +8146,7 @@
 	task.19E2DE9D89B89D7B.title: "스파이크 망치"
 	task.1A66B7FFB4E2163E.title: "바닐라 통나무"
 	task.1A7078C3984DD910.title: "네더라이트 블록"
-	task.1AD43F80F89DF9D9.title: "오 더 바이옴스 위브 곤 돌"
+	task.1AD43F80F89DF9D9.title: "Oh The Biomes We've Gone 돌"
 	task.1B916AE67F84E6D7.title: "첫 번째 주문 생성하기"
 	task.1BA8C5F08A824C08.title: "마카우의 조명과 전등"
 	task.1C045BB5FAFCF4D3.title: "인터페이스"
@@ -8307,7 +8307,7 @@
 	task.484375E0BC0F9177.title: "우리 친구들의 건축물"
 	task.4851C74261B5FA25.title: "AllRightsReserved"
 	task.485E17B9E80D5DFF.title: "Occultism 곡괭이"
-	task.4892144C32DCEB55.title: "페인트 칠한 판자"
+	task.4892144C32DCEB55.title: "색칠한 판자"
 	task.48A30B08A090BD75.title: "렌치"
 	task.48CF7A7622423DEA.title: "파이프 업그레이드"
 	task.49A8320F9EA7F4BD.title: "압축된 철 자동화"
@@ -8385,7 +8385,7 @@
 	task.616C07AFBAFA7AE4.title: "괭이"
 	task.61D93B13D496547D.title: "유체 저장소"
 	task.61E3800DF5D25567.title: "Allthemodium 비전술사 방어구"
-	task.61FFB3326113FE18.title: "오 더 바이옴스 위브 곤 나무"
+	task.61FFB3326113FE18.title: "Oh The Biomes We've Gone 목재"
 	task.6205B6B93B306A12.title: "상자"
 	task.624ADD79136376C0.title: "XyCraft World 아이템"
 	task.62F11A588B293CA6.title: "모든 권리 보유"
@@ -8465,7 +8465,7 @@
 	task.773CA1FDC4CEFCEF.title: "AllRightsReserved"
 	task.78D7794707E4BD83.title: "작물"
 	task.78ECC6C98CA985D7.title: "마카우의 울타리 및 담장"
-	task.78F0D5822BF96CA9.title: "리전스 언익스플로어드 통나무"
+	task.78F0D5822BF96CA9.title: "Regions Unexplored 원목"
 	task.79400615E3A7401D.title: "Building Gadgets"
 	task.79889CC26DCD7F19.title: "자가 변이"
 	task.79E961F671475850.title: "열 전도체"
