@@ -1,0 +1,77 @@
+{
+  "family": "furniture",
+  "jar_surfaces": {
+    "handcrafted": {
+      "advancement_files": 317,
+      "advancement_displays": [],
+      "recipe_files": 634,
+      "recipe_display_components": []
+    },
+    "refurbished_furniture": {
+      "advancement_files": 702,
+      "advancement_displays": [],
+      "recipe_files": 1411,
+      "recipe_display_components": []
+    }
+  },
+  "references": {
+    "ftbquests": [
+      {
+        "path": "config/ftbquests/quests/chapters/building_tips.snbt",
+        "namespaces": [
+          "handcrafted",
+          "refurbished_furniture"
+        ],
+        "visible_markers_in_file": [
+          "custom_name",
+          "lore"
+        ]
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/natures_aura.snbt",
+        "namespaces": [
+          "refurbished_furniture"
+        ],
+        "visible_markers_in_file": []
+      }
+    ],
+    "kubejs": [
+      {
+        "path": "kubejs/server_scripts/mods/Handcrafted/Recipes.js",
+        "namespaces": [
+          "handcrafted"
+        ],
+        "visible_markers_in_file": []
+      }
+    ],
+    "read_errors": []
+  },
+  "related_quest_keys": [
+    "quest.1FDC8725105D822A.quest_desc",
+    "quest.1FDC8725105D822A.title",
+    "quest.2B4801CD3E90BD40.quest_desc",
+    "quest.2B4801CD3E90BD40.title",
+    "quest.3E76BC1D0FC3E9A8.quest_desc",
+    "quest.3E76BC1D0FC3E9A8.title",
+    "quest.408F48C4442CE180.quest_desc",
+    "quest.408F48C4442CE180.title",
+    "quest.53CE66D760CEFD7E.quest_desc",
+    "quest.53CE66D760CEFD7E.title",
+    "quest.6012D6C3253895F0.quest_desc",
+    "quest.6012D6C3253895F0.title",
+    "quest.655BD0A54AF1E1CA.quest_desc",
+    "quest.655BD0A54AF1E1CA.title",
+    "task.02E980A373B13092.title",
+    "task.2828B5EAFCCB03E0.title",
+    "task.293E660E52F15F10.title",
+    "task.3C4997133CCECBE0.title",
+    "task.6A7ABDFC419B62A9.title",
+    "task.767AF1D5EC4B4ECD.title"
+  ],
+  "workbench_item_task_uses_translated_item_fallback": true,
+  "natures_aura_refurbished_texture_reference_only": true,
+  "ftbquests_display_work": "complete",
+  "kubejs_display_work": "recipe_ids_only",
+  "errors": [],
+  "status": "complete"
+}

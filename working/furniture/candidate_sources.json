@@ -1,0 +1,10 @@
+{
+  "handcrafted": {
+    "bundled_korean": "handcrafted-neoforge-1.21.1-4.0.3.jar:assets/handcrafted/lang/ko_kr.json",
+    "policy": "현재 영어 원문과 대조해 값마다 재검수"
+  },
+  "refurbished_furniture": {
+    "bundled_korean": null,
+    "policy": "현재 영어 원문과 대조해 값마다 재검수"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "family": "furniture",
+  "mods": {
+    "handcrafted": {
+      "reviewed_keys": 392,
+      "existing_korean_reused": 173,
+      "existing_korean_corrected": 67,
+      "new_translations": 152
+    },
+    "refurbished_furniture": {
+      "reviewed_keys": 654,
+      "existing_korean_reused": 0,
+      "existing_korean_corrected": 0,
+      "new_translations": 654
+    }
+  },
+  "reviewed_language_keys": 1046,
+  "existing_korean_reused": 173,
+  "new_or_corrected_language_keys": 873,
+  "quests": {
+    "reviewed_keys": 20,
+    "existing_korean_reused": 4,
+    "existing_korean_corrected": 11,
+    "new_translations": 5
+  },
+  "status": "complete"
+}

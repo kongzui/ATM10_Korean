@@ -1,0 +1,23 @@
+{
+  "family": "furniture",
+  "mods": [
+    {
+      "mod_id": "handcrafted",
+      "jar": "handcrafted-neoforge-1.21.1-4.0.3.jar",
+      "jar_size": 7132842,
+      "jar_mtime_ns": 1783222388459738300,
+      "english_keys": 392,
+      "bundled_korean_keys": 370
+    },
+    {
+      "mod_id": "refurbished_furniture",
+      "jar": "refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+      "jar_size": 7133477,
+      "jar_mtime_ns": 1783222342863825000,
+      "english_keys": 654,
+      "bundled_korean_keys": 0
+    }
+  ],
+  "english_keys": 1046,
+  "status": "prepared"
+}

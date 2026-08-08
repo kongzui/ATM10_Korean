@@ -1,0 +1,27 @@
+{
+  "family": "furniture",
+  "mods": {
+    "handcrafted": {
+      "keys": 392,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    "refurbished_furniture": {
+      "keys": 654,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    }
+  },
+  "language_keys": 1046,
+  "quests": {
+    "keys": 20,
+    "latin_residue": {},
+    "errors": []
+  },
+  "errors": [],
+  "status": "complete"
+}

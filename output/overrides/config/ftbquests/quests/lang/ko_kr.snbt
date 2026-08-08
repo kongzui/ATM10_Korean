@@ -2037,7 +2037,7 @@
 	quest.1FCF946B7BE3C0BD.title: "&c우테릭&r 도구"
 	quest.1FD60B7448CED1EB.quest_desc: ["이 &b&l마카우&r 모드는 새로운 유형의 울타리, 문, 그리고 벽을 추가합니다.\\n\\n네, 미늘 철선은 당신을 다치게 할 것입니다.\\n\\n아니요, 당신은 그것들 중 어떤 것도 보통으로는 점프해서 넘을 수 없습니다."]
 	quest.1FD60B7448CED1EB.title: "&b&l마카우의 울타리 및 담장"
-	quest.1FDC8725105D822A.quest_desc: ["주방에는 음식을 담고, 보존하고, 요리할 수 있는 많은 블록이 있습니다! \\n\\n음식을 요리하거나 준비하는 대부분의 블록은 에너지가 필요하므로 전기 설정을 확인하여 자세히 알아보세요!"]
+	quest.1FDC8725105D822A.quest_desc: ["주방에는 음식을 보관하고 신선하게 유지하며 조리할 수 있는 블록이 많습니다! \\n\\n음식을 조리하거나 손질하는 블록 대부분은 전력이 필요하므로, 자세한 내용은 전력 설비를 확인하세요!"]
 	quest.1FDC8725105D822A.title: "주방 세트"
 	quest.1FE052F643401232.quest_desc: ["배낭 업그레이드를 제작할 때 필요한 기반 부품입니다."]
 	quest.1FE052F643401232.quest_subtitle: "업그레이드의 기반"
@@ -2785,8 +2785,8 @@
 	quest.2B31E6C1707D8195.quest_desc: ["무선 네트워크를 사용하려면 &bME 무선 액세스 포인트&f가 필요합니다. 액세스 포인트는 &e무선 터미널&f이 네트워크에 접속할 수 있게 하며, &b무선 부스터&f를 설치한 수에 따라 제한된 작동 범위가 늘어납니다."]
 	quest.2B422B7E0CE3590D.quest_desc: ["압축 서랍은 내부에 넣은 아이템을 작은 조각 또는 블록 형태로 변환할 수 있습니다.\\n\\n예를 들어, 이 안에 철 주괴를 넣으면 9개의 작은 조각을 꺼낼 수 있고, 더 많은 철을 넣으면 철 블록으로 변환됩니다."]
 	quest.2B422B7E0CE3590D.quest_subtitle: "자동 압축/압축 해제"
-	quest.2B4801CD3E90BD40.quest_desc: ["&l&3Handcrafted&r는 모든 장식 관련 용품을 위한 것입니다.\\n\\n침실에는 침대(잠자기에 충분히 좋아 보이며, 저는 잠자리에 까다로운 사람입니다!)와 협탁이 있습니다.\\n\\n거실에는 의자와 테이블이 있습니다.\\n\\n주방에는 오븐, 판, 그리고 그릇이 있습니다.\\n\\n심지어 자랑하기 위한 조각상도 있습니다!"]
-	quest.2B4801CD3E90BD40.title: "&l&3수제&r"
+	quest.2B4801CD3E90BD40.quest_desc: ["&l&3Handcrafted&r는 실내 장식에 필요한 가구를 두루 추가합니다. \\n\\n침실에는 보기에도 편안한 침대와 협탁이 있습니다. 잠자리에 꽤 까다로운 저도 만족할 정도예요! \\n\\n거실에는 의자와 테이블이 있습니다. \\n\\n주방에는 오븐, 접시와 그릇이 있습니다. \\n\\n자랑하기 좋은 장식상까지 있습니다!"]
+	quest.2B4801CD3E90BD40.title: "&l&3Handcrafted&r"
 	quest.2B4D4E741D855B5A.quest_desc: ["제작 구역에서 &b하늘 주괴&r 2개, &6타락한 금 주괴&r 2개, &5네더라이트 조각&r 1개를 합치면 &d심연 주괴&r를 만들 수 있습니다."]
 	quest.2B4D4E741D855B5A.title: "&d심연 주괴"
 	quest.2B57C8D2F98A9279.quest_desc: ["&l&7Pocket Storage&r는 간단한 휴대용 저장 장치를 추가하는 모드입니다.\\n\\n우클릭하여 열고 아이템을 넣을 수 있습니다. 각 아이템에는 최대 보관량이 있으며, 이를 넘긴 아이템은 소멸합니다. 저장된 것과 같은 종류의 아이템이 바닥에 떨어져 있으면 자동으로 주워 담습니다.\\n\\n상자에 내용물을 빠르게 넣거나 상자에서 꺼내는 기능도 있습니다.\\n\\n등급이 높을수록 슬롯 수와 아이템 최대 보관량이 늘어납니다."]
@@ -3921,8 +3921,8 @@
 	quest.3E6706BC4C318A40.title: "오물통"
 	quest.3E75AFE3482834C5.quest_desc: ["&lRailcraft&r는 &5기차&r를 기반으로 하는 전체 모드입니다! \\n\\n&7광산 수레&r부터 &e전기 기관차&r 그리고 &9터널 굴착기&r까지! 모든 &5기차&r 관련 액세서리도 갖추고 있습니다! 신호등, &5기차&r에 동력을 공급하는 증기 보일러, 그리고 이 모든 것을 자동화할 수 있습니다. \\n\\n모델 &5기차&r 애호가를 위한 모델 모드!"]
 	quest.3E75AFE3482834C5.title: "&7&lRailcraft"
-	quest.3E76BC1D0FC3E9A8.quest_desc: ["&cMr Crayfish's&r Mod의 많은 아이템은 에너지를 사용합니다! \\n\\n이 아이템에 전력을 공급하려면 전기 발전기가 필요합니다. 전기 발전기는 석탄 또는 다른 화로 연료를 사용하여 전원을 켭니다! \\n\\n그런 다음 렌치가 필요합니다. 렌치를 사용하여 발전기를 에너지가 필요한 블록에 연결하세요.\\n\\n발전기 상단의 스위치를 켜고 연료가 있으면 연결된 모든 것에 전력을 공급합니다."]
-	quest.3E76BC1D0FC3E9A8.title: "전기 세트"
+	quest.3E76BC1D0FC3E9A8.quest_desc: ["&cMrCrayfish's&r 모드의 많은 아이템은 전력을 사용합니다! \\n\\n전력을 공급하려면 전기 발전기가 필요합니다. 발전기는 석탄이나 다른 화로 연료를 사용합니다! \\n\\n그런 다음 렌치로 발전기와 전력이 필요한 블록을 연결하세요. \\n\\n발전기 위쪽의 스위치를 켜고 연료를 넣으면 연결된 모든 장치에 전력을 공급합니다."]
+	quest.3E76BC1D0FC3E9A8.title: "전력 설비"
 	quest.3E8077AB45C79E6A.quest_desc: [
 		"확실히 일반적인 Minecraft 가마솥보다 낫습니다! \\n\\n연금술사 가마솥은 다음을 할 수 있습니다:\\n1. 몹 또는 플레이어를 요리하여 &4피&r를 얻는 데 사용할 수 있습니다.\\n2. 물약을 만들고 업그레이드으로 변환할 수 있습니다.\\n3. 두루마리에서 잉크를 얻을 확률이 절반입니다.\\n4. 희귀도가 같은 잉크 4개를 합쳐 더 높은 희귀도로 만들 수 있습니다."
 		"{image:atm:textures/questpics/iron_spells/spells_cauldron.png width:100 height:100 align:center}"
@@ -4055,7 +4055,7 @@
 	quest.40888A2C17D8FFF6.title: "언데드 나무"
 	quest.408D8B1CFBA22BAF.quest_desc: ["위더프루프 블록, 위더프루프 벽돌, 위더프루프 유리는 폭발 저항이 매우 높으며 위더나 엔더 드래곤에 의해 파괴되지 않습니다."]
 	quest.408D8B1CFBA22BAF.title: "&0위더프루프 블록"
-	quest.408F48C4442CE180.quest_desc: ["휴식을 취할 장소를 위한 충분한 빛과 저장 공간."]
+	quest.408F48C4442CE180.quest_desc: ["편안히 쉴 공간에 필요한 조명과 수납 가구를 넉넉히 제공합니다."]
 	quest.408F48C4442CE180.title: "침실 세트"
 	quest.40924F0D64253A38.quest_desc: ["물건이 아이템을 내보낼 수 있게 합니다."]
 	quest.40924F0D64253A38.quest_subtitle: "사라짐!"
@@ -5310,7 +5310,7 @@
 	quest.53B58FC3958750E7.quest_desc: ["설치기를 너무 많이 사용해서 블록을 파괴해야 하나요? \\n\\n티어와 마법 부여는 제작에 사용된 곡괭이에 따라 결정됩니다.\\n\\n이제 영역을 설정하고 필터를 설정한 다음 실행하세요!\\n\\n설치기와 함께 사용하여 광물을 아이템으로 바꾸는 등의 작업을 수행할 수 있습니다."]
 	quest.53BA0C64804ADD24.quest_subtitle: "포멜로 + 야생 체리"
 	quest.53BDD0459F7B1D60.quest_subtitle: "커피나무 + 티크"
-	quest.53CE66D760CEFD7E.quest_desc: ["싱크대, 변기, 그리고 욕조!\\n\\n상쾌함과 위생을 유지하는 데 필요한 모든 것!\\n\\n모두 물을 담을 수 있으며, 네, 변기에 앉을 수도 있습니다."]
+	quest.53CE66D760CEFD7E.quest_desc: ["싱크대, 변기와 욕조가 있습니다! \\n\\n몸을 깨끗하고 위생적으로 유지하는 데 필요한 모든 것이죠! \\n\\n모두 물을 담을 수 있으며, 변기에는 실제로 앉을 수도 있습니다."]
 	quest.53CE66D760CEFD7E.title: "욕실 세트"
 	quest.53DEA3DFEDC4809E.quest_desc: [
 		"걱정하지 마세요. Abras 계열의 마지막 의식입니다. &9마리드&r를 소환하지만, 빨간색 분필을 사용해도 악마를 &9속박&r할 만큼 강하지 않아 직접 싸워야 합니다."
@@ -6083,8 +6083,8 @@
 	quest.5FE4DAE8F41B1437.title: "&c광석 자석"
 	quest.5FE631066CAB7397.quest_desc: ["몹을 쉽게 가두고 이동시키는 데 사용됩니다."]
 	quest.600F66B13B29708B.quest_desc: ["&a플레이어&r 또는 &d늑대인간&r의 살점을 사용하여 &a무한한 식량 근원&r을 가몬보지아의 힘으로 만들 수 있습니다!"]
-	quest.6012D6C3253895F0.quest_desc: ["&cMrCrayfish&r는 모드가 적용된 &2&lMinecraft&r와 동의어입니다.\\n\\n그의 가장 많이 다운로드된 모드는 물론 가구 모드입니다!\\n\\n시작하려면 에너지가 필요한 작업대가 필요합니다."]
-	quest.6012D6C3253895F0.title: "&cMrCrayfish의 모드&c"
+	quest.6012D6C3253895F0.quest_desc: ["&cMrCrayfish&r는 모드가 적용된 &2&lMinecraft&r를 대표하는 이름입니다. \\n\\n가장 많이 다운로드된 작품은 역시 Furniture Mod입니다! \\n\\n시작하려면 전력을 사용해 작동하는 작업대가 필요합니다."]
+	quest.6012D6C3253895F0.title: "&cMrCrayfish's Furniture Mod: Refurbished&c"
 	quest.6013C6B2E0B81D73.quest_desc: [
 		"&6&l벌집 벽&r과 &6&l기둥&r 바깥쪽에는 제가 &6벌 탁아소&r라고 부르는 곳이 있습니다.\\n\\n&6꿀 블록&r과 벌집 유충 블록이 있으며, 안에는 성장 단계가 서로 다른 새끼 &6벌&8들&6이&8있&r습니다.\\n\\n&b설탕물&r 병, &6꿀이 든 병&r 또는 벌빵을 먹일 수 있습니다. 성장 단계는 4단계이며 4번째 단계에 먹이를 주면 새끼 &6벌&8이&6나&r옵니다. 때로는 &6꿀 슬라임&r도 생성됩니다!\\n\\n빈 벌집 유충 블록을 &5여왕벌&r에게 가져가면 다시 채울 수 있습니다!\\n\\n충분히 먹이를 주면 벌집의 보호를 얻고, 유충을 꺼내면 벌집의 분노를 얻습니다.\\n"
 		"{image:atm:textures/questpics/bumblezone/bumble_daycare.png width:200 height:100 align:center}"
@@ -6360,7 +6360,7 @@
 	quest.654F5C84114A31A1.quest_subtitle: "20"
 	quest.654F5C84114A31A1.title: "&4허수아비 의상"
 	quest.6552E301C370D203.quest_subtitle: "&f7 &c공격 피해"
-	quest.655BD0A54AF1E1CA.quest_desc: ["실내용 가구는 충분히 봤으니, 실외용은 어떨까요? 7월 4일 바비큐 파티를 실내에서 할 수는 없잖아요! \\n\\n야외 가구 세트는 그릴, 쿨러, 그리고 애국심 넘치는 마음으로 도착했음을 알려주는 손님들을 위한 초인종을 제공합니다!"]
+	quest.655BD0A54AF1E1CA.quest_desc: ["실내 가구는 충분히 살펴봤으니 이제 야외는 어떨까요? 칠월 4일 바비큐를 실내에서 할 수는 없잖아요! \\n\\n야외 세트에는 그릴과 쿨러가 있으며, 손님이 도착했음을 알릴 수 있는 초인종도 있습니다!"]
 	quest.655BD0A54AF1E1CA.title: "야외 세트"
 	quest.657B3116A6419420.quest_subtitle: "나만의 손잡이!"
 	quest.657DB994B029F61C.quest_desc: [
@@ -8267,7 +8267,7 @@
 	task.3BEA6C6A41D5ABEA.title: "화로 강화"
 	task.3C16167530BEC231.title: "AllRightsReserved"
 	task.3C18AB7133946682.title: "팩셀"
-	task.3C4997133CCECBE0.title: "수제"
+	task.3C4997133CCECBE0.title: "Handcrafted"
 	task.3C95552D03C16F3D.title: "전력 저장소"
 	task.3CAD6AD06BE4C3D3.title: "도구"
 	task.3CDFAF37BFB1C89C.title: "노란 목수 벌"
@@ -11857,4 +11857,9 @@
 	task.73AE639A41A16778.title: "모든 권리 보유"
 	task.4732C2BE50DB2A80.title: "Dyenamics 염료"
 	task.022D9FAD58AEE2C8.title: "Luminax 블록"
+	task.02E980A373B13092.title: "주방 세트"
+	task.2828B5EAFCCB03E0.title: "욕실 세트"
+	task.293E660E52F15F10.title: "야외 세트"
+	task.6A7ABDFC419B62A9.title: "전력 설비"
+	task.767AF1D5EC4B4ECD.title: "침실 세트"
 }

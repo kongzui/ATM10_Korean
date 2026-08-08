@@ -1,0 +1,31 @@
+{
+  "family": "furniture",
+  "language_keys": 1046,
+  "quest_keys": 20,
+  "surface_audit": "complete",
+  "family_validation": "complete",
+  "deployment": {
+    "status": "applied_and_verified",
+    "backup_manifest": "temp/backups/20260808_124851_228961/backup_manifest.json",
+    "targets": [
+      {
+        "target_type": "game_root",
+        "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+        "changed_paths": [
+          "config/ftbquests/quests/lang/ko_kr.snbt",
+          "resourcepacks/ATM10_Korean/assets/handcrafted/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/refurbished_furniture/lang/ko_kr.json"
+        ],
+        "unexpected_changes": [],
+        "hash_verified_paths": [
+          "config/ftbquests/quests/lang/ko_kr.snbt",
+          "resourcepacks/ATM10_Korean/assets/handcrafted/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/refurbished_furniture/lang/ko_kr.json"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "errors": [],
+  "status": "complete"
+}
