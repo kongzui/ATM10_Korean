@@ -1,0 +1,109 @@
+{
+  "family": "macaws_family",
+  "jar_surfaces": {
+    "mcwbridges": {
+      "data_json_files": 564,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "mcwdoors": {
+      "data_json_files": 541,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "mcwfurnitures": {
+      "data_json_files": 1349,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "mcwholidays": {
+      "data_json_files": 754,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "mcwlights": {
+      "data_json_files": 314,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "mcwfences": {
+      "data_json_files": 452,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "mcwpaths": {
+      "data_json_files": 666,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "mcwstairs": {
+      "data_json_files": 453,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "mcwwindows": {
+      "data_json_files": 675,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "mcwroofs": {
+      "data_json_files": 1258,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "mcwtrpdoors": {
+      "data_json_files": 572,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    }
+  },
+  "references": {
+    "ftbquests": [
+      {
+        "path": "config/ftbquests/quests/chapters/building_tips.snbt",
+        "occurrences": 12,
+        "unique_identifiers": 11,
+        "classification": "quest_item_and_smart_filter_references"
+      }
+    ],
+    "kubejs": [],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "complete",
+  "kubejs_display_work": "no_related_references",
+  "errors": [],
+  "status": "complete"
+}

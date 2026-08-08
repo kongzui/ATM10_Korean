@@ -1,0 +1,32 @@
+{
+  "family": "macaws_family",
+  "reviewed_language_keys": 3456,
+  "output_keys": {
+    "mcwbridges": 156,
+    "mcwdoors": 288,
+    "mcwfurnitures": 661,
+    "mcwholidays": 338,
+    "mcwlights": 146,
+    "mcwfences": 184,
+    "mcwpaths": 318,
+    "mcwstairs": 228,
+    "mcwwindows": 326,
+    "mcwroofs": 610,
+    "mcwtrpdoors": 201
+  },
+  "bundled_candidate_values_reused": 709,
+  "bundled_candidate_values_revised": 1720,
+  "new_language_values": 1027,
+  "translation_methods": {
+    "reviewed_name_grammar": 3403,
+    "reviewed_ui": 53
+  },
+  "ftbquests": {
+    "reviewed_keys": 33,
+    "existing_values_reused": 1,
+    "existing_values_revised": 32,
+    "new_values": 0
+  },
+  "errors": [],
+  "status": "complete"
+}

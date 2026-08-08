@@ -1,0 +1,55 @@
+{
+  "family": "macaws_family",
+  "reviewed_language_keys": 3456,
+  "bundled_candidate_values_reused": 709,
+  "bundled_candidate_values_revised": 1720,
+  "new_language_values": 1027,
+  "ftbquests_reviewed_keys": 33,
+  "ftbquests_existing_values_reused": 1,
+  "ftbquests_existing_values_revised": 32,
+  "ftbquests_new_values": 0,
+  "kubejs_work": "no_related_references",
+  "deployment": {
+    "status": "applied_and_verified",
+    "backup_manifest": "temp/backups/20260808_162758_931256/backup_manifest.json",
+    "expected_paths": [
+      "resourcepacks/ATM10_Korean/assets/mcwbridges/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mcwdoors/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mcwfurnitures/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mcwholidays/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mcwlights/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mcwfences/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mcwpaths/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mcwstairs/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mcwwindows/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mcwroofs/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/mcwtrpdoors/lang/ko_kr.json",
+      "config/ftbquests/quests/lang/ko_kr.snbt"
+    ],
+    "targets": [
+      {
+        "target_type": "game_root",
+        "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+        "changed_paths": [
+          "config/ftbquests/quests/lang/ko_kr.snbt",
+          "resourcepacks/ATM10_Korean/assets/mcwbridges/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/mcwdoors/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/mcwfences/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/mcwfurnitures/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/mcwholidays/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/mcwlights/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/mcwpaths/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/mcwroofs/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/mcwstairs/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/mcwtrpdoors/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/mcwwindows/lang/ko_kr.json"
+        ],
+        "unexpected_changes": [],
+        "hash_verified": true
+      }
+    ],
+    "errors": []
+  },
+  "errors": [],
+  "status": "complete"
+}

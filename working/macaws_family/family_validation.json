@@ -1,0 +1,166 @@
+{
+  "family": "macaws_family",
+  "language": {
+    "reviewed_english_keys": 3456,
+    "mods": {
+      "mcwbridges": {
+        "english_keys": 156,
+        "output_keys": 156,
+        "bundled_candidate_keys": 156,
+        "candidate_status": "valid_json",
+        "candidate_values_reused": 87,
+        "candidate_values_revised": 69,
+        "new_values": 0,
+        "unexpected_collapsed_name_count": 0
+      },
+      "mcwdoors": {
+        "english_keys": 288,
+        "output_keys": 288,
+        "bundled_candidate_keys": 287,
+        "candidate_status": "valid_json",
+        "candidate_values_reused": 64,
+        "candidate_values_revised": 223,
+        "new_values": 1,
+        "unexpected_collapsed_name_count": 0
+      },
+      "mcwfurnitures": {
+        "english_keys": 661,
+        "output_keys": 661,
+        "bundled_candidate_keys": 605,
+        "candidate_status": "valid_json",
+        "candidate_values_reused": 243,
+        "candidate_values_revised": 362,
+        "new_values": 56,
+        "unexpected_collapsed_name_count": 0
+      },
+      "mcwholidays": {
+        "english_keys": 338,
+        "output_keys": 338,
+        "bundled_candidate_keys": 336,
+        "candidate_status": "valid_json",
+        "candidate_values_reused": 64,
+        "candidate_values_revised": 272,
+        "new_values": 2,
+        "unexpected_collapsed_name_count": 0
+      },
+      "mcwlights": {
+        "english_keys": 146,
+        "output_keys": 146,
+        "bundled_candidate_keys": 137,
+        "candidate_status": "valid_json",
+        "candidate_values_reused": 34,
+        "candidate_values_revised": 103,
+        "new_values": 9,
+        "unexpected_collapsed_name_count": 0
+      },
+      "mcwfences": {
+        "english_keys": 184,
+        "output_keys": 184,
+        "bundled_candidate_keys": 153,
+        "candidate_status": "valid_json",
+        "candidate_values_reused": 23,
+        "candidate_values_revised": 130,
+        "new_values": 31,
+        "unexpected_collapsed_name_count": 0
+      },
+      "mcwpaths": {
+        "english_keys": 318,
+        "output_keys": 318,
+        "bundled_candidate_keys": 0,
+        "candidate_status": "absent",
+        "candidate_values_reused": 0,
+        "candidate_values_revised": 0,
+        "new_values": 318,
+        "unexpected_collapsed_name_count": 0
+      },
+      "mcwstairs": {
+        "english_keys": 228,
+        "output_keys": 228,
+        "bundled_candidate_keys": 228,
+        "candidate_status": "valid_json",
+        "candidate_values_reused": 56,
+        "candidate_values_revised": 172,
+        "new_values": 0,
+        "unexpected_collapsed_name_count": 0
+      },
+      "mcwwindows": {
+        "english_keys": 326,
+        "output_keys": 326,
+        "bundled_candidate_keys": 326,
+        "candidate_status": "valid_json",
+        "candidate_values_reused": 65,
+        "candidate_values_revised": 261,
+        "new_values": 0,
+        "unexpected_collapsed_name_count": 0
+      },
+      "mcwroofs": {
+        "english_keys": 610,
+        "output_keys": 610,
+        "bundled_candidate_keys": 0,
+        "candidate_status": "absent",
+        "candidate_values_reused": 0,
+        "candidate_values_revised": 0,
+        "new_values": 610,
+        "unexpected_collapsed_name_count": 0
+      },
+      "mcwtrpdoors": {
+        "english_keys": 201,
+        "output_keys": 201,
+        "bundled_candidate_keys": 201,
+        "candidate_status": "invalid_json_salvaged",
+        "candidate_values_reused": 73,
+        "candidate_values_revised": 128,
+        "new_values": 0,
+        "unexpected_collapsed_name_count": 0
+      }
+    },
+    "bundled_candidate_values_reused": 709,
+    "bundled_candidate_values_revised": 1720,
+    "new_language_values": 1027,
+    "intentional_no_hangul_keys": [
+      "itemGroup.christmas",
+      "itemGroup.halloween",
+      "itemGroup.mcwbridges",
+      "itemGroup.mcwdoors",
+      "itemGroup.mcwfences",
+      "itemGroup.mcwfurnitures",
+      "itemGroup.mcwlights",
+      "itemGroup.mcwpaths",
+      "itemGroup.mcwroofs",
+      "itemGroup.mcwstairs",
+      "itemGroup.mcwtrpdoors",
+      "itemGroup.mcwwindows",
+      "itemGroup.windows2"
+    ],
+    "unexpected_collapsed_names": {},
+    "errors": [],
+    "status": "complete"
+  },
+  "ftbquests": {
+    "reviewed_keys": 33,
+    "existing_values_reused": 1,
+    "existing_values_revised": 32,
+    "new_values": 0,
+    "remaining": 0,
+    "errors": [],
+    "status": "complete"
+  },
+  "surface_audit": "complete",
+  "kubejs": "no_related_references",
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/mcwbridges/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/mcwdoors/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/mcwfurnitures/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/mcwholidays/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/mcwlights/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/mcwfences/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/mcwpaths/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/mcwstairs/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/mcwwindows/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/mcwroofs/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/mcwtrpdoors/lang/ko_kr.json",
+    "config/ftbquests/quests/lang/ko_kr.snbt"
+  ],
+  "errors": [],
+  "status": "complete"
+}

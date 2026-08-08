@@ -239,8 +239,8 @@
 		"- 망치"
 		"- 전리품 순간이동"
 	]
-	quest.027E6E294D9E1375.quest_desc: ["&lCorail&r님, 메모하세요! 이것이 휴일을 보내는 방법입니다! (이것은 100% 마음에 드실 거라고 장담합니다. &lCorail&r님, 사랑합니다!) \\n\\n이 추가 기능은 크리스마스와 할로윈을 위한 다양한 장식들을 더합니다.\\n\\n크리스마스를 위한 크리스마스 트리, 선물, 빛부터 할로윈을 위한 호박, 거미, 마녀의 모자까지 말이죠."]
-	quest.027E6E294D9E1375.title: "&b&l마코의 휴일&r"
+	quest.027E6E294D9E1375.quest_desc: ["&lCorail&r님, 잘 보세요! 명절 장식은 이렇게 만드는 겁니다! (100% 애정을 담아 하는 말이에요. 사랑해요, &lCorail&r!) \\n\\n이 모드는 크리스마스와 할로윈 장식을 다양하게 추가합니다. \\n\\n크리스마스트리, 선물과 조명부터 할로윈 호박, 거미와 마녀 모자까지 있습니다."]
+	quest.027E6E294D9E1375.title: "&b&lMacaw's Holidays&r"
 	quest.027EF5C8A74B1596.quest_desc: [
 		"&6벌&8들&6의&8주&r 무기는 벌침입니다. \\n\\n그렇다면 우리 무기로도 써 보죠! 벌침 창은 제작하거나, 발견하거나, 거래로 얻을 수 있으며 삼지창처럼 작동합니다. \\n\\n훨씬 약한 대신 몹에게 독을 부여합니다!"
 		"{image:atm:textures/questpics/bumblezone/bumble_spear.png width:100 height:150 align:center}"
@@ -378,8 +378,8 @@
 	]
 	quest.04DD3F761C210822.title: "&l&c조잡한 용광로"
 	quest.04DEC6E210F06D65.quest_subtitle: "발사 + 코코볼로"
-	quest.04F5846E2468E807.quest_desc: ["&b&lMacaw's 문&r은 모든 종류의 다양한 문과 문의 변형을 추가합니다. \\n자작나무 디자인이지만 가문비나무로 만들고 싶으신가요? 가질 수 있습니다!\\n\\n심지어 병원 문도 있습니다!"]
-	quest.04F5846E2468E807.title: "&b&lMacaw's 문"
+	quest.04F5846E2468E807.quest_desc: ["&b&lMacaw's Doors&r는 여러 종류와 모양의 문을 추가합니다. \\n자작나무 무늬를 가문비나무 재질로 만들고 싶나요? 그렇게 만들 수 있습니다! \\n\\n심지어 병원 문도 있습니다!"]
+	quest.04F5846E2468E807.title: "&b&lMacaw's Doors"
 	quest.050CCE5D1DD6B21E.quest_desc: [
 		"가장 중요한 &l멀티블록&r 중 하나입니다. 다른 &l멀티블록&r을 만드는 데 필요하기 때문입니다. \\n\\n&b유체 입력&r 해치(각 &b입력&r에는 &b유체&r 1종류만 들어가므로 여러 개가 필요함), &c에너지 입력&r 해치, &e아이템 입력&r 및 출력 해치가 필요합니다. \\n\\n이 해치로 &e아이템&r, &b유체&r와 &c에너지&r를 공급하면 다른 &5멀티블록 제어기&r처럼 아이템을 제작합니다! \\n\\n&6별 부품&r에 필요한 아이템도 제작합니다. &4피&f, &b아우레알&f, 영혼과 &c에너지&r가 많이 필요합니다!"
 		"{@pagebreak}"
@@ -617,8 +617,8 @@
 	quest.08AC2D81A1004984.title: "&6Allthemodium &5합금 &3삼지창"
 	quest.08B60D8A25008CCC.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.08C0B0FD4DEA4E15.quest_desc: ["빻은 망간과 황산을 결합하면 망간 황산 용액을 얻을 수 있습니다."]
-	quest.08C66BCA3AAE765B.quest_desc: ["이것은 Non-&2&lMinecraft&r 블록을 추가하므로 논의하지 않는 것이 좋습니다."]
-	quest.08C66BCA3AAE765B.title: "&b&l마카우의 지붕"
+	quest.08C66BCA3AAE765B.quest_desc: ["이 모드는 &2&lMinecraft&r에 없는 블록을 추가하니 자세한 설명은 생략하겠습니다."]
+	quest.08C66BCA3AAE765B.title: "&b&lMacaw's Roofs"
 	quest.08C6B7D2DAE87222.quest_subtitle: "참나무 + 자작나무"
 	quest.08CE14FFED813992.quest_subtitle: "젖은 짙은 분홍색 블록 13개"
 	quest.08D1CC753F6B4283.quest_desc: ["엘더 가디언은 워든 이전에 Minecraft의 세 번째 보스로 여겨졌지만, 저는 그를 미니 보스로 생각합니다.\\n\\n엘더 가디언은 바다 유적에 스폰됩니다. 그들은 그곳에 3마리가 스폰되며 근처에 있는 누구에게나 채굴 피로를 가합니다.\\n\\n만약 당신이 바다 유적의 보물을 원한다면, 그들을 찾아 죽여야 합니다! (팁: 저는 항상 맨 위 방에 1마리, 맨 왼쪽, 맨 오른쪽에 1마리씩 있는 것을 발견했습니다!)\\n\\n그들은 80 하트를 가지고 있으며 일반 가디언처럼 레이저와 가시로 공격합니다!\\n\\n죽으면 그들은 스펀지, 프리즈머린, 그리고 그들의 lunch...을 드롭합니다."]
@@ -1388,7 +1388,7 @@
 	quest.15564C11744D6AA0.title: "프로세서"
 	quest.1556777B07BD7C2B.quest_subtitle: "유럽잎갈나무 + 설탕단풍나무"
 	quest.155A843A562DB7C4.quest_subtitle: "티어: &63"
-	quest.156605859D553276.quest_desc: ["창문, 창문 유리판, 창문 셔터, 커튼, 블라인드, 심지어 난간까지!\\n\\n그게 뭔지도 모르겠어요!"]
+	quest.156605859D553276.quest_desc: ["창문, 유리판, 덧문, 커튼, 블라인드, 심지어 난간벽까지 있습니다! \\n\\n난간벽이 뭔지는 저도 모르겠네요!"]
 	quest.156605859D553276.title: "&l&bMacaw's Windows&r"
 	quest.1568CBFA09827137.quest_desc: ["논리 프로그래머와 똑같은 기능을 하지만, 이 장치는 어디에서나 사용할 수 있습니다."]
 	quest.156FF8B7B724DC38.quest_desc: ["배낭으로 들어오거나 배낭에서 나가는 아이템을 필터링합니다."]
@@ -2035,8 +2035,8 @@
 	quest.1FCC474860587169.title: "&6제련 프리즘"
 	quest.1FCF946B7BE3C0BD.quest_desc: ["&c우테리움&r 도구는 다이아몬드 도구와 비슷하지만, 무기는 &c부패종&r에게 더 큰 피해를 줍니다! \\n\\n적이 만들어 낸 물질로 그 적을 더 강하게 공격하는 셈이죠. 대중문화에서 비슷한 장면이 잔뜩 떠오를 법한데, 지금은 하나도 생각나지 않네요..."]
 	quest.1FCF946B7BE3C0BD.title: "&c우테릭&r 도구"
-	quest.1FD60B7448CED1EB.quest_desc: ["이 &b&l마카우&r 모드는 새로운 유형의 울타리, 문, 그리고 벽을 추가합니다.\\n\\n네, 미늘 철선은 당신을 다치게 할 것입니다.\\n\\n아니요, 당신은 그것들 중 어떤 것도 보통으로는 점프해서 넘을 수 없습니다."]
-	quest.1FD60B7448CED1EB.title: "&b&l마카우의 울타리 및 담장"
+	quest.1FD60B7448CED1EB.quest_desc: ["이 &b&lMacaw's Fences and Walls&r 모드는 새로운 울타리, 울타리 문과 담장을 추가합니다. \\n\\n철조망에 닿으면 피해를 받습니다. \\n\\n어느 것이든 평범하게 점프해서 넘을 수는 없습니다."]
+	quest.1FD60B7448CED1EB.title: "&b&lMacaw's Fences and Walls"
 	quest.1FDC8725105D822A.quest_desc: ["주방에는 음식을 보관하고 신선하게 유지하며 조리할 수 있는 블록이 많습니다! \\n\\n음식을 조리하거나 손질하는 블록 대부분은 전력이 필요하므로, 자세한 내용은 전력 설비를 확인하세요!"]
 	quest.1FDC8725105D822A.title: "주방 세트"
 	quest.1FE052F643401232.quest_desc: ["배낭 업그레이드를 제작할 때 필요한 기반 부품입니다."]
@@ -3064,8 +3064,8 @@
 	quest.30AD7B15682E4D0E.quest_subtitle: "표지판이요? 들어본 적도 없어요!"
 	quest.30B0240543253EFB.quest_desc: ["Pylons는 &aMutant Gumdrop&r이 만든 훌륭한 모드입니다!\\n\\n규모가 작다고 얕보지 마세요! Minecraft 플레이를 편리하게 해 주는 다양한 파일런을 제공합니다.\\n\\n파일런 제작을 시작하려면 윤나는 흑암이 필요합니다."]
 	quest.30B0240543253EFB.title: "&lPylons"
-	quest.30B3BC91460C9B19.quest_desc: ["&b마카우 스케치&r는 매우 인기 있는 모드 개발자입니다. 그는 장식 모드로 유명합니다. 창문부터 길, 서랍까지 거의 모든 것을 만듭니다.\\n\\n이 모든 것을 제작할 수 있겠어요?"]
-	quest.30B3BC91460C9B19.title: "&b마카우의 모드"
+	quest.30B3BC91460C9B19.quest_desc: ["&bMacaw Sketch&r는 장식 모드로 잘 알려진 인기 모드 개발자입니다. \\n창문부터 길, 서랍까지 거의 모든 것을 만듭니다. \\n\\n전부 제작할 수 있을까요?"]
+	quest.30B3BC91460C9B19.title: "&bMacaw's Mods"
 	quest.30B7AF815D9D7553.quest_desc: [
 		"&c불탄 탑&r은 &c&l화염술사&r의 탑이에요. &c탑&r이 보일 만큼 가까이 왔다면 열기까지 느낄 수 있다고 해요. \\n\\n&c화염술사 탑&r은 주로 돌로 지어졌고 내부에는 가문비나무와 참나무가 쓰였어요. &c탑&r 가까이에는 같은 구조물에 속한 두 번째 건물도 있어요. \\n\\n꼭대기에서는 연기가 나는 원인과 &5갑옷 더미&r를 찾을 수 있어요. \\n\\n&c&l화염술사&r를 찾으려면 지하실로 내려가야 합니다!"
 		"{image:atm:textures/questpics/iron_spells/spells_pyromancertower.png width:200 height:100 align:center}"
@@ -3553,8 +3553,8 @@
 		"{image:atm:textures/questpics/railcraft/rail_coke.png width:100 height:100 align:center}"
 	]
 	quest.38451B61E3FC075B.title: "코크스로"
-	quest.3889D0255074CE85.quest_desc: ["&b마카우&r는 가구만으로는 충분하지 않다고 생각했습니다. 그는 자신의 마카우 집에 &b&l마카우 창문&r에서 나오는 자연광 이상의 것이 필요했습니다.\\n\\n그래서 이제 우리는 온갖 종류의 광원을 추가하는 &b&l마카우의 빛과 램프&r를 가지게 되었습니다.\\n\\n램프에서 랜턴, 샹들리에까지!"]
-	quest.3889D0255074CE85.title: "&l&b마카우의 조명과 전등&r"
+	quest.3889D0255074CE85.quest_desc: ["&bMacaw&r는 가구만으로는 부족하다고 생각했습니다. &b&lMacaw's Windows&r로 들어오는 자연광 말고도 집에 더 많은 조명이 필요했죠. \\n\\n그래서 여러 광원을 추가하는 &b&lMacaw's Lights and Lamps&r가 나왔습니다. \\n\\n램프부터 랜턴, 샹들리에까지 있습니다!"]
+	quest.3889D0255074CE85.title: "&l&bMacaw's Lights and Lamps&r"
 	quest.38954551309F42A7.quest_desc: ["발신기 모듈 Mk2는 Mk1과 비슷하지만 제약이 더 적습니다.\\n\\nMk2는 대상이 같은 XYZ축에 있거나 직접 보일 필요가 없습니다.\\n\\n하지만 다음 단계의 모듈이 없다면 같은 차원 안에 있어야 합니다..."]
 	quest.38A1295878B68F83.quest_desc: [
 		"아니요, 그런 뜻은 아닙니다."
@@ -3817,8 +3817,8 @@
 		"{image:atm:textures/questpics/pneumaticcraft/reinforced_chest_ui.png width:200 height:100 align:center}"
 	]
 	quest.3CFE522A4B7CC2EC.quest_subtitle: "일상적인 상자보다 더 좋습니다."
-	quest.3D1D5CB45D81A6E4.quest_desc: ["&b&lMacaw's 문&r과 유사하게, 이 모드는 다양한 유형과 버전의 덧문을 추가합니다. \\n\\n가문비나무 패턴이 있는 정글 덧문을 원하십니까? 이제 가능합니다!"]
-	quest.3D1D5CB45D81A6E4.title: "&b&lMacaw의 다락문"
+	quest.3D1D5CB45D81A6E4.quest_desc: ["&b&lMacaw's Doors&r처럼 이 모드도 여러 종류와 모양의 다락문을 추가합니다. \\n\\n정글나무 다락문에 가문비나무 무늬를 쓰고 싶나요? 이제 그렇게 만들 수 있습니다!"]
+	quest.3D1D5CB45D81A6E4.title: "&b&lMacaw's Trapdoors"
 	quest.3D26E7BFE0AA964A.quest_desc: [
 		"루미노피시는 심연에 사는 빛나는 물고기입니다.\\n\\n평범한 물고기처럼 낚거나 양동이에 담고 요리할 수도 있습니다!"
 		"{image:atm:textures/questpics/eternal/starlight_fish1.png width:100 height:100 align:center}"
@@ -5389,8 +5389,8 @@
 	quest.54F2CB52D3A7BA87.title: "아이템 하역기"
 	quest.54F7AD64A403C9BF.quest_desc: ["이 촉매는 &2자연의 제단&r 기둥 위에 놓습니다. 더 많은 아이템을 다른 아이템으로 바꾸거나 분해할 수 있습니다.\\n\\n분쇄 촉매를 사용하면 금빛 잎 하나에서 금가루를 2개가 아니라 4개 만들 수 있습니다!"]
 	quest.54F7AD64A403C9BF.title: "촉매"
-	quest.55160BAFFD9E2988.quest_desc: ["전형적인 &9마카우&r 모드, &9&lMacaw의 가구&r! \\n\\n필요한 모든 것을 추가합니다! 의자, 테이블, 책장, 심지어 서랍까지!"]
-	quest.55160BAFFD9E2988.title: "&l&9Macaw의 가구&r"
+	quest.55160BAFFD9E2988.quest_desc: ["대표적인 &9Macaw&r 모드인 &9&lMacaw's Furniture&r입니다! \\n\\n의자, 테이블, 책장과 서랍까지 필요한 가구를 두루 추가합니다!"]
+	quest.55160BAFFD9E2988.title: "&l&9Macaw's Furniture&r"
 	quest.55186B8602689B66.quest_desc: [
 		"&b메모리 카드&f에는 두 가지 기능이 있습니다. 먼저 화이트리스트 필터 같은 장치 설정을 저장하여 같은 종류의 다른 장치에 복사할 수 있습니다."
 		""
@@ -6162,8 +6162,8 @@
 	quest.615C3E012B2DECD3.title: "&e주문서&r!"
 	quest.616364E6AE05C341.quest_desc: ["&b미네랄 솔트&r는... 음 미네랄로 만들어집니다. \\n\\n어떤 형태로든 광석으로 채굴된 모든 것은 &b소금&r로 만들 수 있습니다. 원시 광석, 주괴, 보석은 모두 &b미네랄 솔트&r가 됩니다! \\n\\n언옵테이니움도 &b소금&r로 만들 수 있습니다! 제발 하지 마세요. 더 나은 대안이 너무 많습니다."]
 	quest.616364E6AE05C341.title: "&b미네랄 솔트"
-	quest.616ED6C49C37EB91.quest_desc: ["&b&l길과 통로&r는 수많은 다양한 카펫과 같은 블록(그리고 완전한 블록과 반쪽 블록 버전)을 추가합니다. \\n\\n이것들은 분명히 길로 사용되며, &2&lMinecraft&r의 흙 길 블록보다 훨씬 보기 좋습니다."]
-	quest.616ED6C49C37EB91.title: "&b&l마카우의 길과 포장"
+	quest.616ED6C49C37EB91.quest_desc: ["&b&lPaths and Pathways&r는 카펫처럼 얇은 블록을 다양하게 추가하며, 각각 온전한 블록과 반 블록 형태도 제공합니다. \\n\\n당연히 길을 꾸미는 데 쓰며, &2&lMinecraft&r의 흙 길 블록보다 훨씬 보기 좋습니다."]
+	quest.616ED6C49C37EB91.title: "&b&lMacaw's Paths and Pavings"
 	quest.616F9B78B16B42A5.quest_desc: ["&6테슬라 코일&r의 제작법은 특히 제작법 트리에서 보면 복잡해 보일 수 있지만, 더 단순하게 분해할 수 있습니다! \\n\\n&7알루미늄 판&r은 매우 단순하며, 주괴에 망치를 사용하거나 금속 프레스 멀티블록을 사용하면 됩니다.\\n\\n&8철 기계 부품&r 또한 몇 개의 철 판과 &6구리 주괴&r만 있으면 되므로 간단합니다.\\n\\n&e일렉트럼 코일 블록&r은 많은 &e일렉트럼 주괴&r를 전선으로 잘라야 합니다. &e호박금&r은 &e금&r과 은의 합금입니다.\\n\\n&6고급 전자 부품&r은 공학자의 작업대와 &9설계도&r을 사용하는 전체 배열입니다. 듀로플라스트 판은 멀티블록 기계로 많은 정제와 발효가 필요합니다!\\n\\n마지막 아이템인 &c고전압 축전기&r는 &8강철&r, &7알루미늄 판&r, &c레드스톤 산&r, &4방부목&r과 같은 간단한 아이템이 필요합니다. 또한 &8HOP 흑연 주괴&r라는 더 복잡한 아이템도 필요합니다."]
 	quest.616F9B78B16B42A5.title: "&6테슬라 코일"
 	quest.61768CFEDA041E4D.quest_desc: ["&6&lThe Bumblezone&r에 들어간 뒤에는 &2오버월드&r로 돌아가야 할 수도 있습니다. 가령 난로를 켜 놓고 왔다면요! \\n\\n&6&lThe Bumblezone&r을 나가려면 &e벌집 밀랍&r을 지나 위나 아래로 파서 공허에 들어가세요. \\n\\n이 공허는 플레이어를 죽이지 않고 &2오버월드&r에서 원래 있던 곳으로 순간이동시킵니다!"]
@@ -6692,8 +6692,8 @@
 	quest.6A8E748B642DD16F.title: "&b소금&r 용기"
 	quest.6A962535CD68713E.quest_desc: ["&e&lPipez&r의 전송량을 늘려 보세요!\\n\\n모든 업그레이드는 &e&lPipez&r의 전송량을 높이고 &e&l파이프&r에서 사용할 수 있는 옵션을 추가합니다.\\n\\n기본 업그레이드는 &e&lPipez&r에 레드스톤 제어, 가까운 곳부터·먼 곳부터·순환 분배·무작위 분배 방식과 필터 기능을 추가합니다.\\n\\n개선된·고급·궁극의 업그레이드는 새 기능을 추가하지 않지만 전송량을 더 높입니다!"]
 	quest.6ABDBE41880CFDA9.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 제작했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 권한 없이 출시하지 않은 공개 팩에서는 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
-	quest.6AC85C203E7C3482.quest_desc: ["당신은 &b&l마카우 모드&r의 모든 것을 하나씩 얻었습니다. 당신은 그것을 얻을 자격이 있다고 생각합니다. \\n\\n그리고 여기서 그것은 당신 자신의 &b마카우&r를 의미합니다!"]
-	quest.6AC85C203E7C3482.title: "완료됨 &b마카우&r"
+	quest.6AC85C203E7C3482.quest_desc: ["&b&lMacaw's Mods&r의 모든 아이템을 하나씩 모았습니다. 보상을 받을 자격이 충분하군요. \\n\\n그 보상이란 바로 나만의 &b마코앵무새&r입니다!"]
+	quest.6AC85C203E7C3482.title: "&b마코앵무새 획득 완료&r"
 	quest.6ACEEF0B32C7770A.quest_desc: [
 		"드디어! 진행 상황!"
 		""
@@ -8057,7 +8057,7 @@
 	reward_table.779C873798AE0A92.title: "마법: 가루들"
 	reward_table.79C7738D7CEDABD4.title: "MA: 5단계 씨앗 가방"
 	reward_table.7FB97C5850827C71.title: "PNC: 고급 티어"
-	task.00A904FBEDE80712.title: "마카우의 지붕"
+	task.00A904FBEDE80712.title: "Macaw's Roofs"
 	task.00C6A5CB44392D7E.title: "모든 권리 보유"
 	task.00CBF98DE4E9CC90.title: "AllRightsReserved"
 	task.00DDA48F9632A5C1.title: "오버월드를 방문하세요"
@@ -8082,7 +8082,7 @@
 	task.0740BC10E4D2568F.title: "Regions Unexplored 돌"
 	task.074BDA389D0FB989.title: "금 간 구리"
 	task.0837FA64B9C50048.title: "원형톱용 톱날"
-	task.0896EE64F92CCD86.title: "Macaw's 문"
+	task.0896EE64F92CCD86.title: "Macaw's Doors"
 	task.08DA73B1AC17E5F5.title: "제작 저장소"
 	task.098F1B932F851616.title: "파이프 업그레이드"
 	task.09C7E50E7E13C53C.title: "모든 권리 보유"
@@ -8148,7 +8148,7 @@
 	task.1A7078C3984DD910.title: "네더라이트 블록"
 	task.1AD43F80F89DF9D9.title: "Oh The Biomes We've Gone 돌"
 	task.1B916AE67F84E6D7.title: "첫 번째 주문 생성하기"
-	task.1BA8C5F08A824C08.title: "마카우의 조명과 전등"
+	task.1BA8C5F08A824C08.title: "Macaw's Lights and Lamps"
 	task.1C045BB5FAFCF4D3.title: "인터페이스"
 	task.1C7C0F345759111C.title: "출력기"
 	task.1CC0E97BB8DC4F35.title: "강령술사 5명 처치"
@@ -8163,7 +8163,7 @@
 	task.200CE35BF3C04F6F.title: "구리 상자"
 	task.201F519941A2C7F4.title: "AllRightsReserved"
 	task.20210147BF5613E5.title: "탐험 모드 철 검"
-	task.20374000F8ADE952.title: "Macaw의 다락문"
+	task.20374000F8ADE952.title: "Macaw's Trapdoors"
 	task.20D0DB49AFA7976F.title: "모든 축전기"
 	task.212BB84583FE4B8B.title: "농부 벌"
 	task.2153473228DA4678.title: "벌 번식 및 변환"
@@ -8210,11 +8210,11 @@
 	task.2E92D23F149C142D.title: "금 간 금속"
 	task.2E97226C40818239.title: "꽃"
 	task.2F28B803C75DA3B2.title: "엘더 가디언 1마리 처치"
-	task.2F94B8FED9BF6698.title: "마카우의 휴일"
+	task.2F94B8FED9BF6698.title: "Macaw's Holidays"
 	task.3007461CFCC0A013.title: "AllRightsReserved"
 	task.301665A6315B569C.title: "스토리지 컨트롤러"
 	task.30921D2007B35206.title: "탐험 모드 다이아몬드 곡괭이"
-	task.30933620783092A5.title: "Macaw의 가구"
+	task.30933620783092A5.title: "Macaw's Furniture"
 	task.31E6FDB712244B72.title: "64배 발전기"
 	task.3209E46C9B05C163.title: "다이아몬드 장비"
 	task.32309011F80C0A9E.title: "참고"
@@ -8290,7 +8290,7 @@
 	task.41FF171C7D97B574.title: "Chipped 보석 블록"
 	task.4209A06A392362DB.title: "입력기 \\& 출력기 GUI"
 	task.42DA8E971B27ACED.title: "쏟아져 나옴"
-	task.436475D6C527A458.title: "마카우의 길과 포장재"
+	task.436475D6C527A458.title: "Macaw's Paths and Pavings"
 	task.43FDC45CF464047E.title: "따뜻한 아이템"
 	task.440F173D6B5EE74E.title: "릴레이"
 	task.4448DE84ABA737BE.title: "범용 전선"
@@ -8299,7 +8299,7 @@
 	task.44CEA28EBD6C0898.title: "AllRightsReserved"
 	task.452736994864F623.title: "반짝임 강 방문"
 	task.452B65E139D9E12D.title: "와일든 키메라 1마리 처치"
-	task.46905D1E23255397.title: "마카우의 유리창"
+	task.46905D1E23255397.title: "Macaw's Windows"
 	task.46B42667B6BC1A3C.title: "네더 방문하기"
 	task.4709938E0FDCE0FB.title: "Allthemodium 방어구"
 	task.471F062B01D0DDA1.title: "채석 벌"
@@ -8311,7 +8311,7 @@
 	task.48A30B08A090BD75.title: "렌치"
 	task.48CF7A7622423DEA.title: "파이프 업그레이드"
 	task.49A8320F9EA7F4BD.title: "압축된 철 자동화"
-	task.49F387C7EAD579A2.title: "마카우 완료됨"
+	task.49F387C7EAD579A2.title: "마코앵무새 획득 완료"
 	task.49F46466DB8EDD61.title: "철 상자"
 	task.4A6ADD52B113E3CA.title: "가위벌"
 	task.4AA225E5056787B8.title: "AllRightsReserved"
@@ -8437,7 +8437,7 @@
 	task.6D9DBD885FE4C94C.title: "AllRightsReserved"
 	task.6E0961A56194F0A8.title: "땅파기 벌"
 	task.6E44925E265DC7E2.title: "일터"
-	task.6F475689ED4EDF59.title: "마카우 모드 아이템"
+	task.6F475689ED4EDF59.title: "Macaw's Mods 아이템"
 	task.70367F545A9CB4D0.title: "침대"
 	task.7058D3373DA87B34.title: "AllRightsReserved"
 	task.706FA543A6C675D3.title: "All Rights Reserved"
@@ -8464,7 +8464,7 @@
 	task.773B7F8C77B21B28.title: "Chipped 양털"
 	task.773CA1FDC4CEFCEF.title: "AllRightsReserved"
 	task.78D7794707E4BD83.title: "작물"
-	task.78ECC6C98CA985D7.title: "마카우의 울타리 및 담장"
+	task.78ECC6C98CA985D7.title: "Macaw's Fences and Walls"
 	task.78F0D5822BF96CA9.title: "Regions Unexplored 원목"
 	task.79400615E3A7401D.title: "Building Gadgets"
 	task.79889CC26DCD7F19.title: "자가 변이"
