@@ -6,7 +6,7 @@
   "quest.01F18150EC923482.title": "&3Refined Storage",
   "quest.03C78165C5CBD9E1.title": "&a16k 저장 부품",
   "quest.0945EC53626F58E6.quest_desc": [
-    "Refined Storage - Mekanism Integration 모드 덕분에 아이템과 유체 외에도 &3Refined Storage&r로 &a화학 물질&r을 저장할 수 있습니다.\\n\\nRefined Types 모드 덕분에 &4에너지&r, &5소스&r와 &9소울&r도 저장할 수 있습니다."
+    "Refined Storage - Mekanism Integration 모드 덕분에 아이템과 유체 외에도 &3Refined Storage&r로 &a화학 물질&r을 저장할 수 있습니다.\\n\\nRefined Types 모드 덕분에 &4에너지&r, &5마나&r와 &9영혼&r도 저장할 수 있습니다."
   ],
   "quest.0945EC53626F58E6.title": "&5기타 저장 부품",
   "quest.0D4FE97640F2CA60.quest_desc": [
@@ -106,7 +106,7 @@
   "quest.3FD801D7DE9176FB.title": "&e4k 저장 부품",
   "quest.4101F8275B41C79B.title": "&61k 저장 부품",
   "quest.43E8912CB307E421.quest_desc": [
-    "좋아요! 아이템을 가상 공간에 저장했지만 네트워크의 내용물을 어떻게 확인할까요?\\n\\n시스템에 접근하려면 &3그리드&r를 제작해야 합니다. 네트워크의 아이템을 보여 주는 가장 기본적인 화면입니다.\\n\\n&3그리드&r에서는 아이템, 유체, 에너지, 소스, 소울과 화학 물질을 보관하고 이용할 수 있습니다."
+    "좋아요! 아이템을 가상 공간에 저장했지만 네트워크의 내용물을 어떻게 확인할까요?\\n\\n시스템에 접근하려면 &3그리드&r를 제작해야 합니다. 네트워크의 아이템을 보여 주는 가장 기본적인 화면입니다.\\n\\n&3그리드&r에서는 아이템, 유체, 에너지, 마나, 영혼과 화학 물질을 보관하고 이용할 수 있습니다."
   ],
   "quest.43E8912CB307E421.quest_subtitle": "그리드에서 벗어나지 마세요",
   "quest.43E8912CB307E421.title": "&3그리드",

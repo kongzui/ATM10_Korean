@@ -1,0 +1,138 @@
+{
+  "family": "Refined Storage 2",
+  "scope": {
+    "primary": [
+      "refinedstorage",
+      "extradisks",
+      "extrastorage",
+      "refinedtypes",
+      "universalgrid",
+      "refinedstorage_curios_integration"
+    ],
+    "consistency_only": [
+      "refinedstorage_jei_integration",
+      "refinedstorage_mekanism_integration"
+    ],
+    "excluded": [
+      "cabletiers",
+      "interdimensionalwirelesstransmitter",
+      "refinedstorage_quartz_arsenal"
+    ]
+  },
+  "review_stats": {
+    "reviewed": 1288,
+    "unchanged": 1161,
+    "corrected": 127,
+    "missing_added": 0
+  },
+  "languages": [
+    {
+      "namespace": "refinedstorage",
+      "jar": "refinedstorage-neoforge-2.0.9.jar",
+      "ownership": "primary",
+      "keys": 788,
+      "name_collisions": 0,
+      "upstream_duplicate_keys": [],
+      "output_matches": true
+    },
+    {
+      "namespace": "extradisks",
+      "jar": "ExtraDisks-1.21.1-4.0.15.jar",
+      "ownership": "primary",
+      "keys": 127,
+      "name_collisions": 0,
+      "upstream_duplicate_keys": [
+        "_comment"
+      ],
+      "output_matches": true
+    },
+    {
+      "namespace": "extrastorage",
+      "jar": "ExtraStorage-1.21.1-5.0.9.jar",
+      "ownership": "primary",
+      "keys": 46,
+      "name_collisions": 0,
+      "upstream_duplicate_keys": [],
+      "output_matches": true
+    },
+    {
+      "namespace": "refinedtypes",
+      "jar": "refined-types-1.21.1-0.3.2.jar",
+      "ownership": "primary",
+      "keys": 164,
+      "name_collisions": 0,
+      "upstream_duplicate_keys": [],
+      "output_matches": true
+    },
+    {
+      "namespace": "universalgrid",
+      "jar": "universalgrid-neoforge-1.21.1-0.3.2.jar",
+      "ownership": "primary",
+      "keys": 16,
+      "name_collisions": 0,
+      "upstream_duplicate_keys": [],
+      "output_matches": true
+    },
+    {
+      "namespace": "refinedstorage_curios_integration",
+      "jar": "refinedstorage-curios-integration-1.0.0.jar",
+      "ownership": "primary",
+      "keys": 1,
+      "name_collisions": 0,
+      "upstream_duplicate_keys": [],
+      "output_matches": true
+    },
+    {
+      "namespace": "refinedstorage_jei_integration",
+      "jar": "refinedstorage-jei-integration-neoforge-1.0.0.jar",
+      "ownership": "consistency_only_family_5",
+      "keys": 10,
+      "name_collisions": 0,
+      "upstream_duplicate_keys": [],
+      "output_matches": true
+    },
+    {
+      "namespace": "refinedstorage_mekanism_integration",
+      "jar": "refinedstorage-mekanism-integration-1.1.1.jar",
+      "ownership": "consistency_only_family_2",
+      "keys": 37,
+      "name_collisions": 0,
+      "upstream_duplicate_keys": [],
+      "output_matches": true
+    }
+  ],
+  "quests": {
+    "quests": 52,
+    "tasks": 59,
+    "main_display_keys": 96,
+    "related_display_keys": 3,
+    "display_keys": 99,
+    "fallbacks_checked": 52,
+    "fallback_routes": {
+      "quest.title": 40,
+      "item_hover": 12
+    }
+  },
+  "surfaces": {
+    "guides": 0,
+    "advancement_files": 256,
+    "advancement_displays": 31,
+    "kubejs_visible_strings": 1,
+    "kubejs_note": "RefinedTypes 추가 공지는 이미 한국어이며, 나머지는 레시피·ID 참조입니다."
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\temp\\backups\\20260808_190213_564738\\backup_manifest.json",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/refinedstorage/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/refinedtypes/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/universalgrid/lang/ko_kr.json"
+    ],
+    "hash_matches": 4,
+    "unexpected_changes": []
+  },
+  "errors": [],
+  "status": "complete"
+}
