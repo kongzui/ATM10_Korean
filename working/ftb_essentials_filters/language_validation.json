@@ -1,0 +1,26 @@
+{
+  "family": "ftb_essentials_filters",
+  "namespaces": [
+    {
+      "namespace": "ftbessentials",
+      "keys": 94,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    {
+      "namespace": "ftbfiltersystem",
+      "keys": 65,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    }
+  ],
+  "keys": 159,
+  "existing_korean_reused": 0,
+  "new_translation_keys": 159,
+  "errors": [],
+  "status": "complete"
+}

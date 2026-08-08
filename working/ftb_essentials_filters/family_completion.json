@@ -1,0 +1,40 @@
+{
+  "family": "ftb_essentials_filters",
+  "versions": {
+    "ftbessentials": "2101.1.9",
+    "ftbfiltersystem": "21.1.4"
+  },
+  "language_keys": 159,
+  "existing_korean_reused": 0,
+  "new_translation_keys": 159,
+  "ftbquests": {
+    "smart_filter_tasks": 420,
+    "smart_filter_chapter_files": 50,
+    "custom_names_reviewed": 39,
+    "custom_name_english_candidates": [],
+    "ftbessentials_quest_display_keys": 1,
+    "read_errors": []
+  },
+  "modular_routers_guide": "reviewed_korean",
+  "kubejs_references": 0,
+  "output_files": [
+    "output/resourcepack/ATM10_Korean/assets/ftbessentials/lang/ko_kr.json",
+    "output/resourcepack/ATM10_Korean/assets/ftbfiltersystem/lang/ko_kr.json"
+  ],
+  "errors": [],
+  "status": "complete",
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/ftbessentials/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/ftbfiltersystem/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260808_104918_939019/backup_manifest.json",
+    "output_sha256": {
+      "ftbessentials": "2330094f8e14b13518b4678bf266c63a84f85c7ce434762f54e3d0030f8d06aa",
+      "ftbfiltersystem": "dc553f8159f74f5abed16eff33407ea0e4a15113d0dac481a1a6a7464f32dec1"
+    },
+    "errors": []
+  }
+}

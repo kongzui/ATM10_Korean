@@ -1,0 +1,24 @@
+{
+  "family": "ftb_essentials_filters",
+  "namespaces": [
+    {
+      "namespace": "ftbessentials",
+      "jar": "ftb-essentials-neoforge-2101.1.9.jar",
+      "jar_size": 209459,
+      "jar_mtime_ns": 1783222392156690100,
+      "english_keys": 94,
+      "bundled_korean": false
+    },
+    {
+      "namespace": "ftbfiltersystem",
+      "jar": "ftb-filter-system-neoforge-21.1.4.jar",
+      "jar_size": 211671,
+      "jar_mtime_ns": 1783222262918206700,
+      "english_keys": 65,
+      "bundled_korean": false
+    }
+  ],
+  "english_keys": 159,
+  "existing_korean_reused": 0,
+  "status": "prepared"
+}

@@ -1,0 +1,27 @@
+{
+  "family": "ftb_essentials_filters",
+  "jars": [
+    {
+      "namespace": "ftbessentials",
+      "jar": "ftb-essentials-neoforge-2101.1.9.jar",
+      "advancement_guide_entries": []
+    },
+    {
+      "namespace": "ftbfiltersystem",
+      "jar": "ftb-filter-system-neoforge-21.1.4.jar",
+      "advancement_guide_entries": []
+    }
+  ],
+  "ftbquests": {
+    "smart_filter_tasks": 420,
+    "smart_filter_chapter_files": 50,
+    "custom_names_reviewed": 39,
+    "custom_name_english_candidates": [],
+    "ftbessentials_quest_display_keys": 1,
+    "read_errors": []
+  },
+  "modular_routers_guide": "reviewed_korean",
+  "kubejs_references": [],
+  "errors": [],
+  "status": "complete"
+}
