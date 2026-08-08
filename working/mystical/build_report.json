@@ -5,8 +5,8 @@
       "namespace": "mysticalagriculture",
       "jar": "MysticalAgriculture-1.21.1-8.0.26.jar",
       "english_keys": 745,
-      "existing_korean_reused": 315,
-      "existing_korean_corrected": 119,
+      "existing_korean_reused": 313,
+      "existing_korean_corrected": 121,
       "newly_translated": 311,
       "output": "output/resourcepack/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json"
     },
@@ -20,25 +20,7 @@
       "output": "output/resourcepack/ATM10_Korean/assets/mysticalagradditions/lang/ko_kr.json"
     }
   ],
-  "intentional_original_crop_keys": [
-    "crop.mysticalagriculture.basalz",
-    "crop.mysticalagriculture.blitz",
-    "crop.mysticalagriculture.blizz",
-    "crop.mysticalagriculture.cyanite",
-    "crop.mysticalagriculture.draconium",
-    "crop.mysticalagriculture.elementium",
-    "crop.mysticalagriculture.hepatizon",
-    "crop.mysticalagriculture.knightmetal",
-    "crop.mysticalagriculture.manyullyn",
-    "crop.mysticalagriculture.menril",
-    "crop.mysticalagriculture.osmium",
-    "crop.mysticalagriculture.queens_slime",
-    "crop.mysticalagriculture.slimesteel",
-    "crop.mysticalagriculture.starmetal",
-    "crop.mysticalagriculture.terrasteel",
-    "crop.mysticalagriculture.uraninite",
-    "crop.mysticalagriculture.yellorium"
-  ],
+  "intentional_original_crop_keys": [],
   "customization_outputs": [
     "output/overrides/config/mysticalcustomization/crops/allthemodium.json",
     "output/overrides/config/mysticalcustomization/crops/azure_silver.json",
@@ -60,16 +42,16 @@
     "startup_source": "kubejs/startup_scripts/CustomAdditions.js",
     "startup_output": "output/overrides/kubejs/startup_scripts/CustomAdditions.js",
     "translated_literals": 7,
-    "output_sha256": "de96b8e913c6056388031f6fa5e1c1cd8032deac2925e44de166173a85341b10",
-    "startup_output_sha256": "ba33660378eecbe8c9788c51ebf17bb7309011babd5c1a3b8f2413811ff5ac44"
+    "output_sha256": "ca16c4849dced53a921bef275d5e69cbdac235cd997332b558ec532d192ce5c2",
+    "startup_output_sha256": "849bb2bdd6a7091e580868d5f2f54685fc95217c875d6807fe957310bc7fbeeb"
   },
   "ftbquests": {
     "chapter": "elmystical_agriculturerr",
     "dedicated_display_keys": 257,
     "related_display_keys": 49,
     "display_keys": 306,
-    "existing_korean_reused": 243,
-    "existing_korean_corrected": 63,
+    "existing_korean_reused": 223,
+    "existing_korean_corrected": 83,
     "newly_translated": 1,
     "fallback_title_additions": 1,
     "internal_original_keys": [

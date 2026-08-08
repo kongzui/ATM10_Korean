@@ -50,7 +50,7 @@
   "quest.19FFD64154AFC89D.quest_subtitle": "티어: &b4",
   "quest.1B700DB77B970E35.quest_subtitle": "티어: &b4",
   "quest.1C4ABF4518638A82.quest_desc": [
-    "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 증가 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)"
+    "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)"
   ],
   "quest.1C4ABF4518638A82.title": "&4수프레뮴 사과",
   "quest.1CC4F8570A7A99EB.quest_desc": [
@@ -68,13 +68,13 @@
   "quest.1E0F92F07FDD162E.quest_subtitle": "씨앗의 기반부터 다져요",
   "quest.1E0F92F07FDD162E.title": "&b번영 씨앗 기반재",
   "quest.1E2B363E3365A62F.quest_desc": [
-    "올더모듐 시드는 자라기 위해 아래에 마법이 걸린 토양이 필요합니다."
+    "Allthemodium 씨앗이 자라려면 경작지 아래에 마법 토양을 놓아야 합니다."
   ],
   "quest.1E2B363E3365A62F.quest_subtitle": "티어: &b마법",
   "quest.1E414D285E7A5FE2.title": "&c터튬 도구",
   "quest.1E7DC8E0493BE99E.quest_subtitle": "티어: &e1",
   "quest.1F7591DB6D8EC1E7.quest_desc": [
-    "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 증가 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)\\n - 성급함 II (3:00)"
+    "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)\\n - 성급함 II (3:00)"
   ],
   "quest.1F7591DB6D8EC1E7.title": "&5인사늄 사과",
   "quest.1F88C697817A7680.quest_desc": [
@@ -88,7 +88,7 @@
   "quest.202B1F54D3F06DAB.quest_subtitle": "티어: &56",
   "quest.202B1F54D3F06DAB.title": "&5인사늄",
   "quest.212EF8601746C500.quest_desc": [
-    "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 증가 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)"
+    "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)"
   ],
   "quest.212EF8601746C500.title": "&9임퍼륨 사과",
   "quest.217DB12EA32E1724.quest_desc": [
@@ -110,7 +110,7 @@
     "마법봉으로 주입 제단을 활성화할 수 있습니다. 제단을 오른쪽 클릭해 주입 과정을 시작하세요."
   ],
   "quest.224CE21E56703F6E.quest_subtitle": "당신은 마법사입니다(이름을 넣으세요)!",
-  "quest.224CE21E56703F6E.title": "&2지팡이",
+  "quest.224CE21E56703F6E.title": "&2마법봉",
   "quest.22D0C3F454F5E8F1.quest_subtitle": "티어: &b4",
   "quest.23C36E4B5DCEBFDD.quest_desc": [
     "이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 명시적인 허가 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."
@@ -135,7 +135,7 @@
   "quest.2AFBE48DA832FF02.quest_subtitle": "티어: &c5",
   "quest.2B0553F307A024F7.quest_subtitle": "티어: &c5",
   "quest.2BC325DEBDD2F5CA.quest_desc": [
-    "바이브라늄 시드는 자라기 위해 아래에 마법이 걸린 토양이 놓여 있어야 합니다."
+    "Vibranium 씨앗이 자라려면 경작지 아래에 마법 토양을 놓아야 합니다."
   ],
   "quest.2BC325DEBDD2F5CA.quest_subtitle": "티어: &b마법",
   "quest.2C2EF4EBB3C9EAE3.quest_subtitle": "티어: &a2",
@@ -171,7 +171,7 @@
     "각성 수프레뮴과 다른 등급의 에센스는 &6Productive Bees&r를 이용해 생산할 수 있습니다."
   ],
   "quest.32B01BD789F0B037.title": "각성 수프레뮴 자동화",
-  "quest.3339445194568D77.title": "&2프루덴티움 도구",
+  "quest.3339445194568D77.title": "&2프루덴튬 도구",
   "quest.3384308C78D86059.quest_subtitle": "티어: &a2",
   "quest.33D23C65E7274A8F.quest_desc": [
     "수프레뮴 에센스를 각성하려면 새 제단과 받침대 4개, &c에센스 용기&r 4개가 필요합니다.\\n\\n에센스 용기에는 기본 원소 에센스인 불, 물, 대지, 공기를 채워야 합니다."
@@ -186,9 +186,9 @@
   "quest.3AD4367855B3E595.quest_subtitle": "티어: &b4",
   "quest.3B884E05AE2EEBFC.quest_subtitle": "티어: &c5",
   "quest.3BB3AA6C29285837.quest_desc": [
-    "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 II (3:00)"
+    "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)"
   ],
-  "quest.3BB3AA6C29285837.title": "&2프루덴티움 사과",
+  "quest.3BB3AA6C29285837.title": "&2프루덴튬 사과",
   "quest.3C9F5EB59D72AC90.quest_desc": [
     "각성 수프레뮴 주괴 블록은 &6ATM의 별&r을 제작하는 데 필요합니다."
   ],
@@ -199,13 +199,13 @@
     "영혼 추출기를 사용하면 항아리를 넣고 몹 아이템을 사용하여 영혼 항아리를 채울 수 있습니다. 예를 들어 썩은 살점을 추가하면 좀비 영혼의 일부를 얻을 수 있습니다."
   ],
   "quest.404AA0F5557D7E35.quest_desc": [
-    "언옵테이니움 씨앗은 자라기 위해 아래에 마법이 걸린 토양이 필요합니다."
+    "Unobtainium 씨앗이 자라려면 경작지 아래에 마법 토양을 놓아야 합니다."
   ],
   "quest.404AA0F5557D7E35.quest_subtitle": "티어: &b마법",
   "quest.408D8B1CFBA22BAF.quest_desc": [
-    "위더프루프 블록, 위더프루프 벽돌, 위더프루프 유리는 폭발 저항이 매우 높으며 위더나 엔더 드래곤에 의해 파괴되지 않습니다."
+    "위더 방호 블록, 위더 방호 벽돌, 위더 방호 유리는 폭발 저항이 매우 높으며 위더나 엔더 드래곤이 파괴할 수 없습니다."
   ],
-  "quest.408D8B1CFBA22BAF.title": "&0위더프루프 블록",
+  "quest.408D8B1CFBA22BAF.title": "&0위더 방호 블록",
   "quest.409A92D40F539485.quest_subtitle": "티어: &e1",
   "quest.40B13424FA523E11.quest_subtitle": "티어: &a2",
   "quest.41D246E896BD791F.quest_subtitle": "티어: &63",
@@ -264,7 +264,7 @@
   "quest.56B58CAFCB707565.quest_subtitle": "티어: &63",
   "quest.5703EDAFCF9E7719.quest_subtitle": "티어: &63",
   "quest.573885D6EF32B7BC.quest_subtitle": "티어: &a2",
-  "quest.576ABF43FCF886B7.title": "&2프루덴티움 경작지",
+  "quest.576ABF43FCF886B7.title": "&2프루덴튬 경작지",
   "quest.593A32072E7FD91D.quest_subtitle": "티어: &c5",
   "quest.594F6ED00D1619EE.quest_subtitle": "티어: &a2",
   "quest.5A17C762CDB680B5.quest_subtitle": "티어: &63",
@@ -277,7 +277,7 @@
   "quest.5C590DB2F3D935E5.quest_subtitle": "재활용!",
   "quest.5EE485880EA9FACF.quest_subtitle": "티어: &63",
   "quest.5F6ACDE014A61F46.quest_desc": [
-    "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 II (3:00)\\n - 저항 II (3:00)"
+    "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)"
   ],
   "quest.5F6ACDE014A61F46.title": "&c터튬 사과",
   "quest.5F72C0C82F3C0310.quest_subtitle": "티어: &c5",
@@ -321,7 +321,7 @@
     "2등급 에센스입니다. 인퍼륨 4개와 주입 수정을 조합해 만듭니다."
   ],
   "quest.73350AD668200E99.quest_subtitle": "티어: &a2",
-  "quest.73350AD668200E99.title": "&2프루덴티움",
+  "quest.73350AD668200E99.title": "&2프루덴튬",
   "quest.7361BD20A6B95D14.quest_subtitle": "티어: &63",
   "quest.7388D8168AF78B9A.quest_subtitle": "티어: &63",
   "quest.754500BB7FD8C413.quest_subtitle": "티어: &b4",
@@ -365,11 +365,11 @@
   "quest.7EFEE009212A4FD4.quest_subtitle": "티어: &63",
   "task.011F410922A4D859.title": "대낫",
   "task.0C92F7E44100B2BA.title": "터튬 도구",
-  "task.2DA0BD7B2834A560.title": "위더프루프 블록",
+  "task.2DA0BD7B2834A560.title": "위더 방호 블록",
   "task.323D34AF775A642B.title": "낫",
   "task.34551E919FD101CF.title": "임퍼륨 도구",
   "task.3E133AC7B615971D.title": "수프레뮴 도구",
-  "task.41910A3BC6C0E838.title": "프루덴티움 도구",
+  "task.41910A3BC6C0E838.title": "프루덴튬 도구",
   "task.4F6E8F2EC33DB910.title": "각성 수프레뮴 도구",
   "task.518B9569DCE0A771.title": "AllRightsReserved",
   "task.51A3E013D2B3D744.title": "기계 업그레이드",
@@ -391,7 +391,7 @@
   "quest.13517D17E6BF015F.quest_subtitle": "21",
   "quest.13517D17E6BF015F.title": "&a인퍼륨 갑옷",
   "quest.1A96C595CBA42840.quest_desc": [
-    "키비 씨앗을 재배하면 키비로 조합할 수 있는 키비 에센스를 얻습니다!"
+    "키비 씨앗으로 키비 에센스를 기를 수 있으며, 키비 에센스를 조합해 키비를 만들 수 있습니다!"
   ],
   "quest.1A96C595CBA42840.title": "키비 자동화",
   "quest.1D27EE427ECFD6CE.quest_desc": [
@@ -409,7 +409,7 @@
   ],
   "quest.232A06C9FF0EE7B2.quest_subtitle": "멘릴 자동화",
   "quest.2A4FE9644F3B9DC1.quest_desc": [
-    "&2프루덴티움&r의 상위 버전."
+    "&2프루덴튬&r 방어구의 상위 등급입니다."
   ],
   "quest.2A4FE9644F3B9DC1.quest_subtitle": "26",
   "quest.2A4FE9644F3B9DC1.title": "&c터튬 갑옷",
@@ -420,7 +420,7 @@
   "quest.3F55F3CC8519D783.quest_desc": [
     "소울륨 소환기는 Mystical Agriculture가 제공하는 소환기입니다. 몹 에센스와 에너지를 사용해 몹을 소환합니다. 몹 에센스는 영혼 항아리로 만든 몹 작물을 수확해 얻습니다. 따라서 먼저 몹을 처치하거나 영혼 추출기를 사용해야 합니다."
   ],
-  "quest.3F55F3CC8519D783.quest_subtitle": "Mystical Agriculture 소환기",
+  "quest.3F55F3CC8519D783.quest_subtitle": "Mystical Agriculture의 소환기",
   "quest.4A9CB8778D37049F.quest_desc": [
     "&4수프레뮴 갑옷&r에 각성 의식을 진행하려면, 먼저 다른 각성 의식으로 필요한 재료를 만들어야 합니다. \\n\\n그만한 가치가 있습니다. &2&lMystical Agriculture&r에서 얻을 수 있는 최고의 방어구니까요!"
   ],

@@ -8,8 +8,8 @@
   ],
   "counts": {
     "language_english_keys": 849,
-    "language_existing_korean_reused": 343,
-    "language_existing_korean_corrected": 130,
+    "language_existing_korean_reused": 341,
+    "language_existing_korean_corrected": 132,
     "language_newly_translated": 376,
     "quest_display_keys": 306,
     "customization_literals": 13,
@@ -64,9 +64,10 @@
   "deployment": {
     "status": "applied_and_verified",
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp\\backups\\20260801_122334_024493\\backup_manifest.json",
+    "backup_manifest": "temp\\backups\\20260808_191304_561536\\backup_manifest.json",
     "changed_paths": [
-      "config/ftbquests/quests/lang/ko_kr.snbt"
+      "kubejs/client_scripts/tooltips.js",
+      "kubejs/startup_scripts/CustomAdditions.js"
     ],
     "hash_matches": 18,
     "unexpected_changes": []

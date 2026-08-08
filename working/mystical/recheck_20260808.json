@@ -1,0 +1,97 @@
+{
+  "status": "recheck_completed_and_deployed",
+  "completed_at": "2026-08-08T19:13:20+09:00",
+  "scope": "Mystical Agriculture 계열 언어, 설정 이름, FTB Quests, Patchouli 가이드, KubeJS, Botany Pots Mystical 및 발전 과제 표시",
+  "installed": [
+    "MysticalAgriculture-1.21.1-8.0.26.jar",
+    "MysticalAgradditions-1.21.1-8.0.13.jar",
+    "MysticalCustomization-1.21.1-6.0.2.jar",
+    "botanypotsmystical-neoforge-1.21.1-21.1.12.jar"
+  ],
+  "review_totals": {
+    "visible_values_reviewed": 1175,
+    "existing_korean_reviewed_and_reused": 1128,
+    "existing_korean_corrected": 47,
+    "newly_discovered_missing_translations": 0
+  },
+  "language": {
+    "mysticalagriculture_keys": 745,
+    "mysticalagradditions_keys": 104,
+    "total_keys_reviewed": 849,
+    "existing_korean_reviewed_and_reused": 822,
+    "existing_korean_corrected": 27,
+    "newly_discovered_missing_translations": 0
+  },
+  "ftbquests": {
+    "dedicated_chapters_reviewed": 1,
+    "dedicated_quests_checked": 183,
+    "dedicated_tasks_checked": 215,
+    "related_quests_outside_chapter_checked": 25,
+    "related_tasks_outside_chapter_checked": 43,
+    "display_keys_reviewed": 306,
+    "existing_korean_reviewed_and_reused": 286,
+    "existing_korean_corrected": 20,
+    "newly_discovered_missing_translations": 0,
+    "quest_fallbacks_checked": 140,
+    "task_item_fallbacks_checked": 244,
+    "resource_name_matches_checked": 35
+  },
+  "other_surfaces": {
+    "patchouli_json_files_reviewed": 77,
+    "patchouli_language_keys_reviewed": 169,
+    "mystical_customization_display_names_reviewed": 13,
+    "kubejs_reference_files_reviewed": 42,
+    "kubejs_direct_display_literals_reviewed": 7,
+    "botany_pots_mystical_recipes_reviewed": 166,
+    "botany_pots_mystical_display_literals": 0,
+    "advancement_display_files": 0
+  },
+  "major_corrections": {
+    "accuracy": [
+      "Added By 툴팁에서 생략된 추가 주체를 복원",
+      "증강 가이드에서 누락된 방어구 부위와 착용 조건을 복원",
+      "키비 씨앗 퀘스트의 동작 순서와 에센스 이름을 실제 표시 이름에 맞춤"
+    ],
+    "sentence_quality": [
+      "증강 설명의 중복된 착용자·갑옷 표현을 자연스럽게 정리",
+      "Empty와 스캔 연료 사용량 툴팁을 짧고 명확하게 정리",
+      "상위 방어구 설명과 Mystical Agriculture 소환기 부제를 완전한 문장으로 정리"
+    ],
+    "terminology": [
+      "영어로 남은 작물 재료명 17개를 직접 연동 모드의 검수된 이름과 통일",
+      "프루덴튬, 마법봉, 마법 토양, 위더 방호, 신속 이름을 언어 파일·퀘스트·Task에서 통일",
+      "Allthemodium, Vibranium, Unobtainium 공식 영문 재료명을 설정 이름과 통일"
+    ],
+    "format": [
+      "자리표시자, 숫자, Patchouli 태그, FTB Quests 줄바꿈 이스케이프와 색상 코드를 보존"
+    ]
+  },
+  "validation": {
+    "family_validator": "passed",
+    "common_ui_validator": "passed",
+    "json_and_snbt_syntax": "passed",
+    "language_keys_match_current_en_us": true,
+    "duplicate_keys": 0,
+    "placeholders_numbers_format_codes_and_line_breaks_preserved": true,
+    "patchouli_tags_preserved": true,
+    "quest_fallback_paths_checked": true,
+    "ruff_format_and_check": "passed",
+    "git_diff_check": "passed",
+    "deployed_hashes_matching_output": 18,
+    "unexpected_instance_changes": [],
+    "game_screen_verified": false
+  },
+  "deployment": {
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "unique_files_applied": 4,
+    "translation_backup_manifest": "temp/backups/20260808_191237_300447/backup_manifest.json",
+    "kubejs_backup_manifest": "temp/backups/20260808_191304_561536/backup_manifest.json",
+    "applied_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "kubejs/client_scripts/tooltips.js",
+      "kubejs/startup_scripts/CustomAdditions.js",
+      "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json"
+    ]
+  },
+  "remaining_review_items": []
+}

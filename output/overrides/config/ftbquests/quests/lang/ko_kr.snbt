@@ -1760,7 +1760,7 @@
 		"{image:atm:textures/questpics/cataclysm/cataclysm_prison.png width:200 height:100 align:center}"
 	]
 	quest.1A8F438DB8508276.title: "&3서리 감옥&r: &3&l말레딕투스의 거처"
-	quest.1A96C595CBA42840.quest_desc: ["키비 씨앗으로 키비 정수를 기를 수 있으며, 키비 정수를 조합해 키비를 만들 수 있습니다!"]
+	quest.1A96C595CBA42840.quest_desc: ["키비 씨앗으로 키비 에센스를 기를 수 있으며, 키비 에센스를 조합해 키비를 만들 수 있습니다!"]
 	quest.1A96C595CBA42840.title: "키비 자동화"
 	quest.1AA81C41431FD145.quest_desc: ["당겨요! 당겨요! 또 당겨요!\\n\\n회수기는 발신기와 반대로 인벤토리의 아이템을 라우터 버퍼로 가져옵니다.\\n\\n인벤토리는 라우터에 인접해야 합니다."]
 	quest.1AAF0B31B47AF23D.quest_desc: ["각 ME 장치는 레드스톤 신호에 반응하도록 설정할 수 있습니다. &b레드스톤 카드&f를 설치하면 레드스톤 신호가 있을 때만 작동하거나 반대로 작동하도록 설정할 수 있습니다.\\n\\n&bME 토글 버스&f를 사용하면 이 동작을 ME 네트워크의 &o일부 구역&r 전체에 적용할 수 있습니다. 일반 토글 버스는 신호가 있을 때 해당 구역을 켜고, &e반전된&f 토글 버스는 신호가 있을 때 구역을 끕니다."]
@@ -1826,7 +1826,7 @@
 	quest.1C27C74722A19FC1.quest_subtitle: "공급할 수 있는 만큼의 에너지"
 	quest.1C27C74722A19FC1.title: "&a메카슈트"
 	quest.1C474B46AECCCFE9.quest_subtitle: "자갈 또는 돌 벌집을 사용하여 생성됨"
-	quest.1C4ABF4518638A82.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 증가 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)"]
+	quest.1C4ABF4518638A82.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)"]
 	quest.1C4ABF4518638A82.title: "&4수프레뮴 사과"
 	quest.1C566975C4EC5D93.quest_desc: ["솔직히 그냥 이걸 위해 &2&lMA&r를 사용하세요. 그게 전부 얻는 가장 쉬운 방법입니다. \\n\\n제발 대량 &2터틀&r 교배기와 대량 &b가디언&r 도살 농장을 만들지 마세요. TPS가 중요합니다!"]
 	quest.1C566975C4EC5D93.title: "&9바다 프리즘"
@@ -1961,7 +1961,7 @@
 	quest.1E2A9446594638E2.quest_desc: [" 기묘한 &6엔드&r의 땅에 공간 자체를 비트는 &6유물&r, &5코러스 지팡이&r가 숨겨져 있습니다. \\n\\n 신비로운 &5코러스 식물&r로 만든 이 지팡이는 &2순간이동&r의 &5불안정한 힘&r을 품어, 사용자가 눈 &l깜짝&r할 사이 공간을 건너게 합니다. \\n\\n- &l능력은 1개입니다:&r \\n\\n &d순간이동&r: \\n 지팡이를 사용하면 &a&o짧은 거리&r만큼 앞으로 &9즉시 순간이동&r합니다. 내부 버퍼의 &e충전량을 소모&r하며, 충전량은 시간이 지나면 &e&o천천히&r 회복됩니다. \\n\\n- 한 걸음이 곧 &9사라짐&r이 되는 이동의 &6유물&r입니다."]
 	quest.1E2A9446594638E2.quest_subtitle: "모든 길을 걸어서 갈 필요는 없습니다..."
 	quest.1E2A9446594638E2.title: "&d코러스 지팡이&r"
-	quest.1E2B363E3365A62F.quest_desc: ["올더모듐 시드는 자라기 위해 아래에 마법이 걸린 토양이 필요합니다."]
+	quest.1E2B363E3365A62F.quest_desc: ["Allthemodium 씨앗이 자라려면 경작지 아래에 마법 토양을 놓아야 합니다."]
 	quest.1E2B363E3365A62F.quest_subtitle: "티어: &b마법"
 	quest.1E3471513C75CC54.quest_desc: ["피 양동이를 땅에 오래 두거나 건조 대야에 넣으면 &c굳은 피&r가 됩니다.\\n\\n비위생적이지만 진행하려면 마른 피까지 온갖 형태의 피가 필요합니다.\\n\\n굳은 피는 비를 맞거나 일반 도구로 부수면 다시 피로 돌아갑니다. &9부싯돌과 부시&r로 부수면 대신 &d굳은 피 조각&r을 얻습니다."]
 	quest.1E3471513C75CC54.title: "말라붙은... &c피?"
@@ -2002,7 +2002,7 @@
 	quest.1F31EBF49079F9D3.quest_desc: ["Creeper Overhaul은 생물군계마다 서로 다른 크리퍼를 추가합니다. \\n\\n종류마다 전리품이 다르고, 몇몇은 우호적이기까지 합니다! \\n\\n그래도 모두 고양이를 무서워합니다..."]
 	quest.1F31EBF49079F9D3.title: "Creeper Overhaul"
 	quest.1F6C8117F3CED939.title: "&6Allthemodium 활"
-	quest.1F7591DB6D8EC1E7.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 증가 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)\\n - 성급함 II (3:00)"]
+	quest.1F7591DB6D8EC1E7.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)\\n - 성급함 II (3:00)"]
 	quest.1F7591DB6D8EC1E7.title: "&5인사늄 사과"
 	quest.1F7DA060792D716A.quest_desc: [
 		"&d&l혼합기&r는 마치 엄마/할머니가 맛있는 간식을 만들기 위해 밀가루와 설탕에 계란을 섞을 때 사용하는 것과 같습니다! \\n\\n&d&l혼합기&r는 &e아이템&r과 &b유체&r를 섞을 것입니다. &b유체&r를 넣으려면 &d&l혼합기&r의 왼쪽에 있는 포트를 사용해야 합니다. &e아이템&r을 넣으려면 뒤쪽에 있는 포트를 사용해야 합니다. \\n\\n작동하려면 &c에너지&r를 &d&l혼합기&r 전면 상단의 포트에서 공급해야 합니다. \\n\\n일단 혼합되면 결과물이 기계 전면의 포트에서 나옵니다!"
@@ -2126,7 +2126,7 @@
 	quest.212EC1F41227184D.quest_desc: ["&e리치&r처럼 엔더 폭발을 쏘고 싶다면 &9황혼의 홀&r을 사용하세요!\\n\\n재충전하려면 제작 격자에서 &5엔더 진주&r와 조합하세요."]
 	quest.212EC1F41227184D.quest_subtitle: "엔더 폭발을 발사합니다"
 	quest.212EC1F41227184D.title: "&9황혼의 홀"
-	quest.212EF8601746C500.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 증가 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)"]
+	quest.212EF8601746C500.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)"]
 	quest.212EF8601746C500.title: "&9임퍼륨 사과"
 	quest.2149833F65D523E5.quest_desc: [
 		"&6벌&8대&6포&r처럼 수정 대포도 제작하거나, 구조물에서 발견하거나, &5여왕벌&r과 거래해 얻을 수 있습니다. \\n\\n쇠뇌처럼 사용합니다. 인벤토리에 &5꿀 수정 조각&r이 있을 때 우클릭을 누르고 있으면 &5수정&r 하나를 장전하고, 놓으면 발사합니다!"
@@ -2209,7 +2209,7 @@
 	quest.222D08F43B995FED.quest_subtitle: "이것을 찌그러뜨려 보세요"
 	quest.224CE21E56703F6E.quest_desc: ["마법봉으로 주입 제단을 활성화할 수 있습니다. 제단을 오른쪽 클릭해 주입 과정을 시작하세요."]
 	quest.224CE21E56703F6E.quest_subtitle: "당신은 마법사입니다(이름을 넣으세요)!"
-	quest.224CE21E56703F6E.title: "&2지팡이"
+	quest.224CE21E56703F6E.title: "&2마법봉"
 	quest.22572456571C3F8D.quest_desc: ["&3충전 모듈&r은 모듈이 가리키는 컨테이너 안의 가압 가능한 모든 것의 압력을 낮춥니다."]
 	quest.2262AB9F934165D0.quest_desc: ["어떻게 구했는지는 상관없어요. 일단 가져오기만 하세요! \\n\\n&8&lImmersive Engineering&r에서는 단순한 건축물 외에도 &8강철&r을 아주 많이 사용합니다. 거의 모든 것을 만드는 데 &8강철&r이 필요할 거예요! \\n\\n주로 도구, 기계 부품, 건축 블록에 쓰이며, 그중 많은 것이 &8강철 판&r이나 &8비계&r로 만들어집니다. \\n\\n많은 양이 필요하지만 &l&c조잡한 용광로&r와 &l&6합금 가마&r는 자동화할 수 없으니 다른 방법이 필요할지도 모릅니다..."]
 	quest.2262AB9F934165D0.title: "&8강철 주괴"
@@ -2677,7 +2677,7 @@
 		"이 광석은 전용 곡괭이로만 캘 수 있습니다. &d정령 조율 곡괭이 머리&r에 악마를 주입해 새로운 광석을 채굴할 곡괭이를 만드세요."
 	]
 	quest.2A3683BF7E50EF83.title: "전문 도구: 주입된 곡괭이"
-	quest.2A4FE9644F3B9DC1.quest_desc: ["&2프루덴티움&r의 상위 버전."]
+	quest.2A4FE9644F3B9DC1.quest_desc: ["&2프루덴튬&r 방어구의 상위 등급입니다."]
 	quest.2A4FE9644F3B9DC1.quest_subtitle: "26"
 	quest.2A4FE9644F3B9DC1.title: "&c터튬 갑옷"
 	quest.2A5004EB99AE4F96.quest_desc: [
@@ -2806,7 +2806,7 @@
 	quest.2BB5769119BA2472.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 &6AllTheMods Team&r에서 명시적인 허가 없이 출시되지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
 	quest.2BB910B217DF3A12.quest_subtitle: "왜 젖어 있지? 호수에 있었나?"
 	quest.2BB910B217DF3A12.title: "&d엔더 업그레이드 구슬&r"
-	quest.2BC325DEBDD2F5CA.quest_desc: ["바이브라늄 시드는 자라기 위해 아래에 마법이 걸린 토양이 놓여 있어야 합니다."]
+	quest.2BC325DEBDD2F5CA.quest_desc: ["Vibranium 씨앗이 자라려면 경작지 아래에 마법 토양을 놓아야 합니다."]
 	quest.2BC325DEBDD2F5CA.quest_subtitle: "티어: &b마법"
 	quest.2BCB788924BBD849.quest_desc: ["제가 가장 좋아하면서도 가장 강력한 무기 중 하나입니다. \\n\\n&b소각자&r는 일반 검처럼 사용하고 마법을 부여할 수 있습니다! \\n하지만 우클릭을 길게 누른 뒤 몇 초 후 놓으면 바라보는 방향의 땅에서 거대한 불길이 솟아올라 폭발합니다. \\n\\n크기도 거대해 멋질 뿐 아니라 공격 범위도 더 넓습니다!"]
 	quest.2BCB788924BBD849.title: "&b소각자"
@@ -3225,7 +3225,7 @@
 	quest.3334D15766A47A46.title: "PCB 자동화"
 	quest.333682022948E2F3.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_thioquartz.png width:100 height:150 align:center}"]
 	quest.333682022948E2F3.title: "&2티오쿼츠&r"
-	quest.3339445194568D77.title: "&2프루덴티움 도구"
+	quest.3339445194568D77.title: "&2프루덴튬 도구"
 	quest.33422FBDAE11AE82.quest_subtitle: "공간 벌에게 플루익스 진주를 먹이세요"
 	quest.33422FBDAE11AE82.title: "플루익스 벌"
 	quest.33433A443B65D252.quest_desc: [
@@ -3750,8 +3750,8 @@
 	quest.3BAEF1A3FDB818A4.quest_subtitle: "유럽잎갈나무 + 붉은 단풍나무"
 	quest.3BB0926C4C00BE1D.quest_desc: ["제트팩의 에너지가 떨어질 때마다 싫지 않나요? 이제 다시는 걱정할 필요가 없습니다! \\n\\n이전 단계의 모든 제트팩과 &6&lATM의 별&r, 그리고 더 비싼 아이템도 만들어야 할 수 있지만 그만한 가치가 있습니다! \\n\\n착용하고 평소처럼 사용하세요. 충전할 필요가 없을 뿐입니다."]
 	quest.3BB0926C4C00BE1D.title: "&5&l크리에이티브 제트팩"
-	quest.3BB3AA6C29285837.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 II (3:00)"]
-	quest.3BB3AA6C29285837.title: "&2프루덴티움 사과"
+	quest.3BB3AA6C29285837.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)"]
+	quest.3BB3AA6C29285837.title: "&2프루덴튬 사과"
 	quest.3BC0A50886A3222B.quest_desc: ["ATM10은 모드 Minecraft의 세계를 원하는 방식으로 자유롭게 탐험할 수 있는 키친싱크 모드팩입니다!\\n\\n질문이나 문제가 있다면 언제든 ATM Discord에 참여해 주세요!"]
 	quest.3BC0A50886A3222B.title: "&dAll The Mods 10에 오신 것을 환영합니다!"
 	quest.3BC94B0B922C0708.quest_desc: ["아이템, 유체 또는 에너지를 입력하는 장치를 만드는 데 쓰는 제작 재료입니다."]
@@ -4036,7 +4036,7 @@
 	]
 	quest.4040BFCD4BE56621.quest_subtitle: "빈방 없음"
 	quest.4040BFCD4BE56621.title: "허니텔"
-	quest.404AA0F5557D7E35.quest_desc: ["언옵테이니움 씨앗은 자라기 위해 아래에 마법이 걸린 토양이 필요합니다."]
+	quest.404AA0F5557D7E35.quest_desc: ["Unobtainium 씨앗이 자라려면 경작지 아래에 마법 토양을 놓아야 합니다."]
 	quest.404AA0F5557D7E35.quest_subtitle: "티어: &b마법"
 	quest.405D2571E61694FD.quest_desc: ["&d뚱이&a 벌&r을 &6&lATM의 별 블록&r으로 우클릭하면 &6별이 빛나는 벌&r을 얻을 수 있습니다! \\n\\n&6&lATM의 별 블록&r이 하나 더 필요할 겁니다. pollinate... 아마 미리 말했어야 했을 텐데요 before...\\n\\n&6별이 빛나는 벌&r은 &6별이 빛나는 벌집&r을 만들고, 이것은 원심분리기를 사용하여 희귀하게 &6별 조각&r을 얻을 수 있습니다!"]
 	quest.405D2571E61694FD.title: "&6별이 빛나는 벌&r!"
@@ -4053,8 +4053,8 @@
 	quest.407C2D00F22BD89D.quest_desc: ["이 업그레이드는 6개의 총알을 더 넣을 공간을 제공합니다! 총 14개까지 만들 수 있습니다."]
 	quest.40888A2C17D8FFF6.quest_desc: ["블러드 주입기로 &c언데드 묘목&r을 만들면 &d언데드 나무&r가 자랍니다.\\n\\n통나무와 판자는 EvilCraft의 여러 도구와 아이템을 만드는 데 쓰입니다."]
 	quest.40888A2C17D8FFF6.title: "언데드 나무"
-	quest.408D8B1CFBA22BAF.quest_desc: ["위더프루프 블록, 위더프루프 벽돌, 위더프루프 유리는 폭발 저항이 매우 높으며 위더나 엔더 드래곤에 의해 파괴되지 않습니다."]
-	quest.408D8B1CFBA22BAF.title: "&0위더프루프 블록"
+	quest.408D8B1CFBA22BAF.quest_desc: ["위더 방호 블록, 위더 방호 벽돌, 위더 방호 유리는 폭발 저항이 매우 높으며 위더나 엔더 드래곤이 파괴할 수 없습니다."]
+	quest.408D8B1CFBA22BAF.title: "&0위더 방호 블록"
 	quest.408F48C4442CE180.quest_desc: ["편안히 쉴 공간에 필요한 조명과 수납 가구를 넉넉히 제공합니다."]
 	quest.408F48C4442CE180.title: "침실 세트"
 	quest.40924F0D64253A38.quest_desc: ["물건이 아이템을 내보낼 수 있게 합니다."]
@@ -5523,7 +5523,7 @@
 		"{image:atm:textures/questpics/ars/imbuement.png width:200 height:150 align:1}"
 	]
 	quest.5766C8B9E850C186.quest_subtitle: "마나 보석 생성하기"
-	quest.576ABF43FCF886B7.title: "&2프루덴티움 경작지"
+	quest.576ABF43FCF886B7.title: "&2프루덴튬 경작지"
 	quest.577A5FC500E14C05.quest_subtitle: "로손편백 + 참나무"
 	quest.5791F3000D18E2C9.quest_desc: ["&8위더&r는 블록을 부수고 폭발시키는 습성이 있습니다. \\n\\n이를 막고 싶다면 &8위더 방호 벽돌&r이 알맞습니다! \\n\\n&8위더 방호 블록&r과 기능은 같지만 모양이 더 멋집니다!"]
 	quest.5791F3000D18E2C9.title: "&8위더 방호 벽돌"
@@ -6056,7 +6056,7 @@
 	quest.5F5E43B3F51CAE9E.quest_subtitle: "머리"
 	quest.5F5E43B3F51CAE9E.title: "&a미신의 모자"
 	quest.5F6152CF085D75D6.title: "원자로 (기본)"
-	quest.5F6ACDE014A61F46.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 속도 II (3:00)\\n - 저항 II (3:00)"]
+	quest.5F6ACDE014A61F46.quest_desc: ["강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)"]
 	quest.5F6ACDE014A61F46.title: "&c터튬 사과"
 	quest.5F72C0C82F3C0310.quest_subtitle: "티어: &c5"
 	quest.5F7F753FD72BFBBF.quest_desc: ["&l&7Railcraft&r에서 추가된 더 많은 블록? 나는 그것이 기차에 관한 것인지조차 의심하기 시작합니다!"]
@@ -7266,7 +7266,7 @@
 	quest.73325912C84F64A5.title: "시간 교환"
 	quest.73350AD668200E99.quest_desc: ["2등급 에센스입니다. 인퍼륨 4개와 주입 수정을 조합해 만듭니다."]
 	quest.73350AD668200E99.quest_subtitle: "티어: &a2"
-	quest.73350AD668200E99.title: "&2프루덴티움"
+	quest.73350AD668200E99.title: "&2프루덴튬"
 	quest.7338CA23B27B2AF8.quest_subtitle: "&f12 &c공격 피해"
 	quest.734411D931A8CDBF.quest_desc: ["파괴수는 더 어려운 습격에서만 생성되는 미니 보스입니다.\\n\\n습격이 무엇인지 모르거나 업데이트된 방식을 이해하지 못하더라도 괜찮습니다. 퀘스트가 있으니까요!\\n\\n약탈자 대장(깃발을 들고 있는)을 죽이면 불길한 물약을 얻을 수 있습니다. 그 물약을 마시면 흉조 효과를 얻게 됩니다. 그런 다음 마을 근처를 걸어가면 습격을 시작할 수 있습니다.\\n\\n습격은 싸울 약탈자, 변명자, 소환사, 마녀, 그리고 파괴수를 생성합니다!"]
 	quest.734411D931A8CDBF.title: "파괴수를 처치하세요"
@@ -8203,7 +8203,7 @@
 	task.2C816285392535F0.title: "AllRightsReserved"
 	task.2CE553B282962E01.title: "양동이"
 	task.2D0212699F99459F.title: "첫 번째 네트워크"
-	task.2DA0BD7B2834A560.title: "위더프루프 블록"
+	task.2DA0BD7B2834A560.title: "위더 방호 블록"
 	task.2E04D0F6EEABE677.title: "서랍"
 	task.2E3BC536B8A9FD91.title: "Unobtainium 마법사 방어구"
 	task.2E49798B39BAA192.title: "태양열 발전"
@@ -8285,7 +8285,7 @@
 	task.40B39896B6CD41C6.title: "방어구"
 	task.40C43560F454AD82.title: "Allthemodium 도구"
 	task.41602F0D9097E74F.title: "금이 간 테라코타"
-	task.41910A3BC6C0E838.title: "프루덴티움 도구"
+	task.41910A3BC6C0E838.title: "프루덴튬 도구"
 	task.41EEE559F6402D81.title: "크리에이티브 모듈"
 	task.41FF171C7D97B574.title: "Chipped 보석 블록"
 	task.4209A06A392362DB.title: "입력기 \\& 출력기 GUI"
@@ -8867,7 +8867,7 @@
 	quest.3D31B94CC42BCE43.quest_desc: ["&8추출의 서&r야말로 우리가 찾던 &8서&r입니다! 모든 &5마법 부여&r를 추출하면서 아이템은 그대로 남깁니다! \\n\\n만들려면 &8고급 폐기의 서&r를 &d&l주입&r해야 합니다. \\n\\n앞에서 사용한 설비를 그대로 활용하면 됩니다."]
 	quest.3D31B94CC42BCE43.quest_subtitle: "모든 마법 부여 추출, 아이템 보존"
 	quest.3F55F3CC8519D783.quest_desc: ["소울륨 소환기는 Mystical Agriculture가 제공하는 소환기입니다. 몹 에센스와 에너지를 사용해 몹을 소환합니다. 몹 에센스는 영혼 항아리로 만든 몹 작물을 수확해 얻습니다. 따라서 먼저 몹을 처치하거나 영혼 추출기를 사용해야 합니다."]
-	quest.3F55F3CC8519D783.quest_subtitle: "Mystical Agriculture 소환기"
+	quest.3F55F3CC8519D783.quest_subtitle: "Mystical Agriculture의 소환기"
 	quest.42746659C66CF17F.quest_subtitle: "로마가 불타지 않았다고 상상해 보세요..."
 	quest.42746659C66CF17F.title: "&6&o알렉산드리아 도서관"
 	quest.43167C59036E79A7.quest_desc: ["&8광부의 서&r는 모든 채굴 작업을 도와주며 &5효율&f, &5행운&f, &5섬세한 손길&r을 부여합니다. \\n\\n곡괭이, 도끼, 삽, 심지어 괭이에도 사용할 수 있습니다! \\n\\n&8어부의 서&r에는 낚싯대용 &5마법 부여&r만 나오며, 종류가 꽤 많습니다."]

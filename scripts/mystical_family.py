@@ -164,28 +164,27 @@ CROP_NAMES = {
     "Niotic Crystal": "나이오틱 수정",
     "Spirited Crystal": "스피리티드 수정",
     "Fluorite": "형석",
+    "Blizz": "블리즈",
+    "Blitz": "블리츠",
+    "Basalz": "바잘츠",
+    "Slimesteel": "슬림스틸",
+    "Manyullyn": "마눌린",
+    "Queen's Slime": "퀸즈 슬라임",
+    "Hepatizon": "헤파티존",
+    "Elementium": "엘레멘티움",
+    "Terrasteel": "테라스틸",
+    "Osmium": "오스뮴",
+    "Menril": "멘릴",
+    "Starmetal": "스타메탈",
+    "Draconium": "드라코늄",
+    "Yellorium": "옐로륨",
+    "Cyanite": "시아나이트",
+    "Uraninite": "우라니나이트",
+    "Knightmetal": "기사금속",
 }
 
-# 정착된 한국어가 불명확한 모드 고유 재료명은 원문을 유지한다.
-INTENTIONAL_CROP_ORIGINALS = {
-    "Blizz",
-    "Blitz",
-    "Basalz",
-    "Slimesteel",
-    "Manyullyn",
-    "Queen's Slime",
-    "Hepatizon",
-    "Elementium",
-    "Terrasteel",
-    "Osmium",
-    "Menril",
-    "Starmetal",
-    "Draconium",
-    "Yellorium",
-    "Cyanite",
-    "Uraninite",
-    "Knightmetal",
-}
+# 직접 연동 모드의 검수된 산출물에서 이름을 확정했으므로 원문 유지 항목은 없다.
+INTENTIONAL_CROP_ORIGINALS: set[str] = set()
 
 AUGMENT_NAMES = {
     "absorption": "흡수",
@@ -271,9 +270,11 @@ LANG_OVERRIDES = {
     "tooltip.mysticalagriculture.secondary_chance": "2차 확률: %s",
     "tooltip.mysticalagriculture.requires_effective_farmland": "%s에 심어야 합니다",
     "tooltip.mysticalagriculture.invalid_biome": "유효하지 않은 생물군계",
+    "tooltip.mysticalagriculture.empty": "비어 있음",
+    "tooltip.mysticalagriculture.added_by": "추가한 모드: %s",
     "tooltip.mysticalagriculture.machine_speed": "작동 속도: %st",
     "tooltip.mysticalagriculture.machine_fuel_usage": "연료 사용량: %s",
-    "tooltip.mysticalagriculture.machine_scan_fuel_usage": "탐색 연료 사용량: %s",
+    "tooltip.mysticalagriculture.machine_scan_fuel_usage": "스캔 연료 사용량: %s",
     "tooltip.mysticalagriculture.machine_area": "범위: %s",
     "tooltip.mysticalagriculture.machine_spawn_radius": "소환 반경: %s",
     "tooltip.mysticalagriculture.passive_soulium_dagger": "비적대적 생물에게서 추가 영혼을 얻습니다.",
@@ -388,13 +389,17 @@ BOOK_OVERRIDES = {
     "book.mysticalagriculture.entry.augments.page.1": "증강은 $(l:tinkering/essence_tools)에센스 도구$()와 $(l:tinkering/essence_armor)에센스 방어구$()에 장착하는 업그레이드입니다. $(l:tinkering/tinkering_table)땜장이 작업대$()에서 장비에 장착할 수 있습니다. $(br2)각 증강에는 장착 가능한 장비의 최소 등급이 정해져 있습니다. ",
     "book.mysticalagriculture.entry.augments.page.2": "이 가이드의 '증강' 장에서 각 증강의 기능을 확인할 수 있습니다.",
     "book.mysticalagriculture.entry.health_boost_augment.page.1": "생명력 강화 증강은 방어구를 착용한 동안 착용자의 하트를 2~10개 늘리는 방어구 증강입니다.",
+    "book.mysticalagriculture.entry.absorption_augment.page.1": "흡수 증강은 방어구를 착용한 동안 8분마다 흡수 하트를 2~10개 부여하는 방어구 증강입니다.",
     "book.mysticalagriculture.entry.night_vision_augment.page.1": "야간 투시 증강은 방어구를 착용한 동안 야간 투시 효과를 부여하는 투구 증강입니다.",
     "book.mysticalagriculture.entry.water_breathing_augment.page.1": "수중 호흡 증강은 방어구를 착용한 동안 수중 호흡 효과를 부여하는 투구 증강입니다.",
+    "book.mysticalagriculture.entry.jump_boost_augment.page.1": "점프 강화 증강은 방어구를 착용한 동안 점프 높이를 높이는 부츠 증강입니다.",
     "book.mysticalagriculture.entry.pathing_aoe_augment": "길 만들기 범위 증강",
     "book.mysticalagriculture.entry.speed_augment.page.1": "신속 증강은 방어구를 착용한 동안 이동 속도와 비행 속도를 높이는 레깅스 증강입니다.",
+    "book.mysticalagriculture.entry.no_fall_damage_augment.page.1": "추락 피해 방지 증강은 방어구를 착용한 동안 모든 추락 피해를 막는 부츠 증강입니다.",
     "book.mysticalagriculture.entry.mining_aoe_augment": "채굴 범위 증강",
     "book.mysticalagriculture.entry.tilling_aoe_augment": "경작 범위 증강",
     "book.mysticalagriculture.entry.step_assist_augment": "단차 오르기 증강",
+    "book.mysticalagriculture.entry.fire_resistance_augment.page.1": "화염 저항 증강은 방어구를 착용한 동안 화염 저항 효과를 부여하는 방어구 증강입니다.",
     "book.mysticalagriculture.entry.strength_augment.page.1": "힘 증강은 검이 주는 피해를 5~20만큼 늘리는 검 증강입니다.",
     "book.mysticalagriculture.entry.attack_aoe_augment": "공격 범위 증강",
     "book.mysticalagriculture.entry.attack_aoe_augment.page.1": "공격 범위 증강은 검의 공격 반경을 최대 6블록까지 늘리는 검 증강입니다.",
@@ -594,7 +599,7 @@ QUEST_OVERRIDES = {
     "quest.7DFF18CFEB0B8DBE.quest_desc": [
         "가능한 한 빨리 &a인퍼륨&r 재배를 시작하세요!\\n\\n씨앗을 기르는 데 꼭 필요하지는 않지만, &e에센스 경작지&r를 만들면 씨앗, 특히 인퍼륨 씨앗의 성장 속도가 증가합니다. 다만 일부 씨앗은 정해진 등급의 경작지에만 심을 수 있습니다."
     ],
-    "quest.3F55F3CC8519D783.quest_subtitle": "Mystical Agriculture 소환기",
+    "quest.3F55F3CC8519D783.quest_subtitle": "Mystical Agriculture의 소환기",
     "quest.3F55F3CC8519D783.quest_desc": [
         "소울륨 소환기는 Mystical Agriculture가 제공하는 소환기입니다. 몹 에센스와 에너지를 사용해 몹을 소환합니다. 몹 에센스는 영혼 항아리로 만든 몹 작물을 수확해 얻습니다. 따라서 먼저 몹을 처치하거나 영혼 추출기를 사용해야 합니다."
     ],
@@ -642,8 +647,44 @@ QUEST_OVERRIDES = {
     ],
     "quest.1A96C595CBA42840.title": "키비 자동화",
     "quest.1A96C595CBA42840.quest_desc": [
-        "키비 씨앗을 재배하면 키비로 조합할 수 있는 키비 에센스를 얻습니다!"
+        "키비 씨앗으로 키비 에센스를 기를 수 있으며, 키비 에센스를 조합해 키비를 만들 수 있습니다!"
     ],
+    "quest.1E2B363E3365A62F.quest_desc": [
+        "Allthemodium 씨앗이 자라려면 경작지 아래에 마법 토양을 놓아야 합니다."
+    ],
+    "quest.2BC325DEBDD2F5CA.quest_desc": [
+        "Vibranium 씨앗이 자라려면 경작지 아래에 마법 토양을 놓아야 합니다."
+    ],
+    "quest.404AA0F5557D7E35.quest_desc": [
+        "Unobtainium 씨앗이 자라려면 경작지 아래에 마법 토양을 놓아야 합니다."
+    ],
+    "quest.224CE21E56703F6E.title": "&2마법봉",
+    "quest.3339445194568D77.title": "&2프루덴튬 도구",
+    "quest.3BB3AA6C29285837.title": "&2프루덴튬 사과",
+    "quest.576ABF43FCF886B7.title": "&2프루덴튬 경작지",
+    "quest.73350AD668200E99.title": "&2프루덴튬",
+    "quest.2A4FE9644F3B9DC1.quest_desc": ["&2프루덴튬&r 방어구의 상위 등급입니다."],
+    "quest.1C4ABF4518638A82.quest_desc": [
+        "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)"
+    ],
+    "quest.1F7591DB6D8EC1E7.quest_desc": [
+        "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)\\n - 힘 II (3:00)\\n - 성급함 II (3:00)"
+    ],
+    "quest.212EF8601746C500.quest_desc": [
+        "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)\\n - 재생 II (3:00)"
+    ],
+    "quest.3BB3AA6C29285837.quest_desc": [
+        "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)"
+    ],
+    "quest.5F6ACDE014A61F46.quest_desc": [
+        "강화 효과:\\n\\n - 흡수 II (3:00)\\n - 신속 II (3:00)\\n - 저항 II (3:00)"
+    ],
+    "quest.408D8B1CFBA22BAF.quest_desc": [
+        "위더 방호 블록, 위더 방호 벽돌, 위더 방호 유리는 폭발 저항이 매우 높으며 위더나 엔더 드래곤이 파괴할 수 없습니다."
+    ],
+    "quest.408D8B1CFBA22BAF.title": "&0위더 방호 블록",
+    "task.2DA0BD7B2834A560.title": "위더 방호 블록",
+    "task.41910A3BC6C0E838.title": "프루덴튬 도구",
     "task.231C01B33E5B4FF0.title": "각성 수프레뮴 벌 생성 알",
     "task.011F410922A4D859.title": "대낫",
     "task.34551E919FD101CF.title": "임퍼륨 도구",
@@ -846,17 +887,25 @@ def add_book_overrides(data: dict[str, object]) -> None:
             f"받지 않게 하는 {slot} 증강입니다."
         )
     simple = {
-        "luck": ("행운", "낚시나 전리품 상자에서 얻는 전리품의 품질을 높입니다."),
-        "haste": ("성급함", "채굴 속도를 높입니다."),
+        "luck": (
+            "행운",
+            "행운 증강은 방어구를 착용한 동안 낚시나 전리품 상자에서 얻는 "
+            "전리품의 품질을 높이는 방어구 증강입니다.",
+        ),
+        "haste": (
+            "성급함",
+            "성급함 증강은 방어구를 착용한 동안 채굴 속도를 높이는 흉갑 증강입니다.",
+        ),
         "slow_falling": (
             "느린 낙하",
-            "천천히 떨어지게 합니다. $(br2)Shift 키를 누르면 이 효과를 잠시 무효화할 수 있습니다.",
+            "느린 낙하 증강은 방어구를 착용한 동안 천천히 떨어지게 하는 레깅스 "
+            "증강입니다. $(br2)Shift 키를 누르면 이 효과를 잠시 무효화할 수 있습니다.",
         ),
     }
-    for name, (title, sentence) in simple.items():
+    for name, (title, page) in simple.items():
         key = f"book.mysticalagriculture.entry.{name}_augment"
         data[key] = f"{title} 증강"
-        data[key + ".page.1"] = f"{title} 증강은 방어구를 착용한 동안 {sentence}"
+        data[key + ".page.1"] = page
 
 
 def build_language(instance: Path) -> tuple[list[dict[str, object]], set[str]]:
@@ -1570,6 +1619,7 @@ def verify_deployment(
     changed = set(target["changed_paths"])
     allowed_changes = {
         "config/ftbquests/quests/lang/ko_kr.snbt",
+        "kubejs/client_scripts/tooltips.js",
         "kubejs/startup_scripts/CustomAdditions.js",
         "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json",
         "resourcepacks/ATM10_Korean/assets/mysticalagradditions/lang/ko_kr.json",

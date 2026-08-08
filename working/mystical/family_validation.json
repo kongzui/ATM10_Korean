@@ -70,16 +70,17 @@
     "related_quests_outside_chapter_checked": 25,
     "quest_fallbacks_checked": 140,
     "task_item_fallbacks_checked": 244,
-    "resource_name_matches_checked": 32,
+    "resource_name_matches_checked": 35,
     "literal_components_checked": 0
   },
   "kubejs_literals_checked": 7,
   "deployment": {
     "status": "applied_and_verified",
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp\\backups\\20260801_122334_024493\\backup_manifest.json",
+    "backup_manifest": "temp\\backups\\20260808_191304_561536\\backup_manifest.json",
     "changed_paths": [
-      "config/ftbquests/quests/lang/ko_kr.snbt"
+      "kubejs/client_scripts/tooltips.js",
+      "kubejs/startup_scripts/CustomAdditions.js"
     ],
     "hash_matches": 18,
     "unexpected_changes": []
