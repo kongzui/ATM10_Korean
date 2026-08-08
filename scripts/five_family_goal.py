@@ -1224,6 +1224,7 @@ ALLOWED_ORIGINALS = {
     "Create: Dragons Plus",
     "Create Crafts & Additions",
     "Create: Enchantment Industry",
+    "Create: Apotheotic Industry",
     "Create: Aquatic Ambitions",
     "Create: Hypertube",
     "Bells & Whistles",

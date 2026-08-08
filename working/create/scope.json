@@ -249,12 +249,6 @@
       ]
     },
     {
-      "jar": "cc-tweaked-1.21.1-forge-1.120.0.jar",
-      "dependency_mentions": [
-        "create"
-      ]
-    },
-    {
       "jar": "FramedBlocks-10.6.0.jar",
       "dependency_mentions": [
         "create"
@@ -280,24 +274,6 @@
     },
     {
       "jar": "integratedscripting-1.21.1-neoforge-1.0.22-373.jar",
-      "dependency_mentions": [
-        "create"
-      ]
-    },
-    {
-      "jar": "minecolonies-1.1.1339-1.21.1-snapshot.jar",
-      "dependency_mentions": [
-        "create"
-      ]
-    },
-    {
-      "jar": "NaturesAura-41.9.jar",
-      "dependency_mentions": [
-        "create"
-      ]
-    },
-    {
-      "jar": "occultism-1.21.1-neoforge-1.223.0.jar",
       "dependency_mentions": [
         "create"
       ]
@@ -351,25 +327,7 @@
       ]
     },
     {
-      "jar": "structurize-1.0.831-1.21.1-snapshot.jar",
-      "dependency_mentions": [
-        "create"
-      ]
-    },
-    {
-      "jar": "supplementaries-neoforge-1.21.1-3.7.4.jar",
-      "dependency_mentions": [
-        "create"
-      ]
-    },
-    {
       "jar": "tempad-1.21.1-3.0.4-all.jar",
-      "dependency_mentions": [
-        "create"
-      ]
-    },
-    {
-      "jar": "theurgy-1.21.1-neoforge-1.73.1.jar",
       "dependency_mentions": [
         "create"
       ]
@@ -387,56 +345,49 @@
       "jar": "create-1.21.1-6.0.10.jar",
       "namespace": "create",
       "english_keys": 3639,
-      "bundled_ko_kr": 3611,
-      "new_translation_required": 27,
-      "project_output_review": 1
+      "project_output_review": 3639
     },
     {
       "label": "Create: Dragons Plus",
       "jar": "CreateDragonsPlus-1.11.2b.jar",
       "namespace": "create_dragons_plus",
       "english_keys": 351,
-      "new_translation_required": 341,
-      "project_output_review": 10
+      "project_output_review": 351
     },
     {
       "label": "Create Crafts & Additions",
       "jar": "createaddition-1.6.0.jar",
       "namespace": "createaddition",
       "english_keys": 261,
-      "bundled_ko_kr": 236,
-      "new_translation_required": 25
+      "project_output_review": 261
     },
     {
       "label": "Create Enchantment Industry",
       "jar": "create-enchantment-industry-2.5.0-preview-alpha1.jar",
       "namespace": "create_enchantment_industry",
       "english_keys": 565,
-      "new_translation_required": 389,
-      "project_output_review": 176
+      "project_output_review": 565
     },
     {
       "label": "Create Aquatic Ambitions",
       "jar": "create_aquatic_ambitions-1.21.1-2.0.2.jar",
       "namespace": "create_aquatic_ambitions",
       "english_keys": 39,
-      "new_translation_required": 39
+      "project_output_review": 39
     },
     {
       "label": "Create Hypertube",
       "jar": "create_hypertube-0.5.0-ALPHA-NEOFORGE.jar",
       "namespace": "create_hypertube",
       "english_keys": 55,
-      "bundled_ko_kr": 50,
-      "new_translation_required": 5
+      "project_output_review": 55
     },
     {
       "label": "Create: Bells & Whistles",
       "jar": "bellsandwhistles-0.4.7-1.21.1.jar",
       "namespace": "bellsandwhistles",
       "english_keys": 39,
-      "bundled_ko_kr": 25,
-      "new_translation_required": 14
+      "project_output_review": 39
     }
   ]
 }

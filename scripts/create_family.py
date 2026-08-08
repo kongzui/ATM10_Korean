@@ -803,6 +803,412 @@ def build_cei_overrides() -> dict[str, str]:
 OVERRIDES["create_enchantment_industry"] = build_cei_overrides()
 
 
+CREATE_RECHECK_TERM_REPLACEMENTS: dict[str, tuple[tuple[str, str], ...]] = {
+    "create": (
+        ("순서 기어쉬프트", "순차 기어변환기"),
+        ("기어쉬프트", "기어변환기"),
+        ("기계 손", "배치기"),
+        ("기계 팔", "기계식 팔"),
+        ("아이템 거치대", "보관소"),
+        ("퍼널", "깔때기"),
+        ("엔지니어의 고글", "기술자의 고글"),
+        ("증기 엔진", "증기 기관"),
+        ("엔진", "기관"),
+        ("투척기", "무게 추 달린 배출기"),
+        ("재고 확인기", "재고 표시기"),
+        ("재고 링크", "재고 연결기"),
+        ("개구리포트", "소포 개구리항"),
+        ("사슬 컨베이어", "체인 컨베이어"),
+        ("동형 감지기", "레드스톤 접점"),
+        ("엘리베이터 감지기", "엘리베이터 접점"),
+        ("아이템 금고", "아이템 저장고"),
+        ("물레바퀴", "수차"),
+        ("기차 계획표", "열차 운행 일정"),
+        ("계획표", "운행 일정"),
+        ("기차 조종기", "열차 조종석"),
+        ("기차 정거장", "열차역"),
+        ("정거장", "역"),
+        ("기차", "열차"),
+        ("택배", "소포"),
+        ("우체통", "우편함"),
+        ("금고", "저장고"),
+        ("한계점", "임계값"),
+        ("케이스", "케이싱"),
+        ("주입기", "주입구"),
+        ("핸드 크랭크", "손 크랭크"),
+        ("분쇄 휠", "분쇄 바퀴"),
+        ("디스플레이 화면", "디스플레이 보드"),
+        ("기적 장치", "증기 기적"),
+        ("연장 축", "연장봉"),
+        ("원형 섀시", "방사형 섀시"),
+        ("직선 섀시", "선형 섀시"),
+        ("호박금", "일렉트럼"),
+    ),
+    "createaddition": (
+        ("호박금", "일렉트럼"),
+        ("애뮬럿", "애뮬릿"),
+        ("교류발전기", "교류 발전기"),
+    ),
+    "create_dragons_plus": (
+        ("엔딩", "엔드 가공"),
+        ("팬 가공", "선풍기 가공"),
+    ),
+}
+
+
+CREATE_RECHECK_FIXES: dict[str, dict[str, str]] = {
+    "create": {
+        "advancement.create.long_travel.desc": "여행을 시작한 곳에서 5000블록 이상 떨어진 곳에서 하차하세요",
+        "advancement.create.saw_processing.desc": "위를 향한 기계식 톱으로 재료를 가공하세요",
+        "advancement.create.track_0.desc": "열차 선로를 얻으세요",
+        "advancement.create.track_crafting_factory.desc": "하나의 기계식 압착기로 열차 선로를 1000개 넘게 생산하세요",
+        "advancement.create.windmill_maxed.desc": "최대 세기의 풍차를 조립하세요",
+        "block.create.adjustable_chain_gearshift": "조정 가능한 체인 기어변환기",
+        "block.create.content_observer": "스마트 감지기",
+        "block.create.contraption_controls": "움직이는 장치 조작기",
+        "block.create.controller_rail": "조종 레일",
+        "block.create.controls": "열차 조종석",
+        "block.create.copycat_step": "모방 단차 블록",
+        "block.create.crushing_wheel": "분쇄 바퀴",
+        "block.create.crushing_wheel_controller": "분쇄 바퀴 조작기",
+        "block.create.display_board": "디스플레이 보드",
+        "block.create.elevator_contact": "엘리베이터 접점",
+        "block.create.encased_chain_drive": "케이싱 체인 드라이브",
+        "block.create.framed_glass": "틀 유리",
+        "block.create.framed_glass_door": "틀 유리문",
+        "block.create.framed_glass_pane": "틀 유리판",
+        "block.create.framed_glass_trapdoor": "틀 유리 다락문",
+        "block.create.horizontal_framed_glass": "수평 틀 유리",
+        "block.create.horizontal_framed_glass_pane": "수평 틀 유리판",
+        "block.create.item_vault": "아이템 저장고",
+        "block.create.linear_chassis": "선형 섀시",
+        "block.create.mechanical_roller": "기계식 롤러",
+        "block.create.package_frogport": "소포 개구리항",
+        "block.create.peculiar_bell": "기묘한 종",
+        "block.create.piston_extension_pole": "피스톤 연장봉",
+        "block.create.radial_chassis": "방사형 섀시",
+        "block.create.railway_casing": "열차 케이싱",
+        "block.create.redstone_contact": "레드스톤 접점",
+        "block.create.secondary_linear_chassis": "보조 선형 섀시",
+        "block.create.steam_whistle": "증기 기적",
+        "block.create.steam_whistle_extension": "증기 기적 연장관",
+        "block.create.stockpile_switch": "임계값 스위치",
+        "block.create.track": "열차 선로",
+        "block.create.track_signal": "열차 신호기",
+        "block.create.track_station": "열차역",
+        "block.create.vertical_framed_glass": "수직 틀 유리",
+        "block.create.vertical_framed_glass_pane": "수직 틀 유리판",
+        "block.create.water_wheel": "수차",
+        "block.create.large_water_wheel": "대형 수차",
+        "block.create.water_wheel_structure": "대형 수차",
+        "create.contraptions.roller_mode.straight_fill": "아래를 평평하게 채우기",
+        "create.contraptions.roller_mode.wide_fill": "아래를 경사지게 채우기",
+        "create.crafting_blueprint.filter_items_viable": "고급 필터 아이템도 사용 가능",
+        "create.crafting_blueprint.inferred": "조합법에서 자동 추론",
+        "create.crafting_blueprint.manually_assigned": "직접 지정",
+        "create.crafting_blueprint.optional": "선택 사항",
+        "create.crafting_blueprint.secondary_display_slot": "두 번째 전시 슬롯",
+        "create.display_source.station_summary.now": "지금",
+        "create.gui.assembly.exception": "이 움직이는 장치를 조립할 수 없습니다:",
+        "create.gui.assembly.exception.column_conflict": "이미 다른 엘리베이터가 이 접점 열을 대상으로 지정했습니다",
+        "create.gui.assembly.exception.noPistonPoles": "피스톤에 연장봉이 부족합니다",
+        "create.gui.assembly.exception.no_contacts": "엘리베이터 구조물에 수평 _레드스톤_ _접점_이 필요합니다",
+        "create.gui.assembly.exception.tooManyPistonPoles": "이 피스톤에 연장봉이 너무 많이 부착되어 있습니다.\n설정된 최댓값: %1$s개",
+        "create.gui.assembly.exception.too_many_contacts": "엘리베이터에는 _레드스톤_ _접점_을 두 개 이상 부착할 수 없습니다",
+        "create.gui.factory_panel.expected_output": "예상 출력: %1$s",
+        "create.gui.factory_panel.expected_output_tip": "되돌아오는 출력 수량",
+        "create.gui.factory_panel.expected_output_tip_1": "요청이 성공할 때마다",
+        "create.gui.schematicannon.option.dontReplaceSolid.description": "대포는 작업 구역의 고체 블록을 절대 교체하지 않고 비고체 블록과 공기만 교체합니다.",
+        "create.gui.schematicannon.option.replaceWithAny.description": "설계도의 해당 위치에 블록이 하나라도 있으면 대포가 작업 구역의 고체 블록을 교체합니다.",
+        "create.gui.schematicannon.option.replaceWithEmpty.description": "대포가 공기로 바뀔 위치까지 포함해 작업 구역의 모든 블록을 제거합니다.",
+        "create.gui.schematicannon.option.replaceWithSolid.description": "설계도의 해당 위치가 고체 블록일 때만 대포가 작업 구역의 고체 블록을 교체합니다.",
+        "create.gui.schematicannon.option.skipBlockEntities.description": "대포가 상자처럼 데이터를 저장하는 블록은 교체하지 않습니다.",
+        "create.gui.threshold_switch.title": "임계값 스위치",
+        "create.hint.empty_bearing": "_빈_ _손_으로 베어링을 _우클릭_하여 앞에 지은 구조물을 _부착_하세요.",
+        "create.hint.full_deployer": "이 _배치기_에는 _꺼내야_ 할 _넘친_ _아이템_이 있습니다. _호퍼_나 _깔때기_ 등으로 아이템을 빼내세요.",
+        "create.hint.full_deployer.title": "배치기가 작동할 수 없음",
+        "create.hint.mechanical_arm_no_targets": "이 _기계식_ _팔_에는 _대상_이 지정되지 않았습니다. _손에_ _기계식_ _팔_을 _들고_ 벨트, 보관소, 깔때기 등을 _우클릭_하여 대상으로 지정하세요.",
+        "create.ponder.andesite_tunnel.text_2": "안산암 터널의 옆면에 연결된 벨트가 있으면...",
+        "create.ponder.auto_schedule.text_1": "운행 일정으로 기관사에게 목적지를 지정할 수 있습니다.",
+        "create.ponder.auto_schedule.text_3": "역에는 표시된 방향으로만 접근할 수 있다는 점에 유의하세요.",
+        "create.ponder.auto_schedule.text_5": "역에 놓인 운행 일정은 도착한 열차에 자동으로 복사됩니다.",
+        "create.ponder.auto_schedule.text_6": "직접 전달할 때와 달리 기관사는 운행 일정 아이템을 가져가지 않습니다.",
+        "create.ponder.basin.text_3": "알맞은 부품이 있으면 대야에 배출구가 나타납니다.",
+        "create.ponder.basin.text_6": "배출구가 없으면 대야는 가공 결과물을 보관합니다.",
+        "create.ponder.bearing_modes.text_1": "멈추면 베어링이 구조물을 격자에 맞는 가장 가까운 각도로 배치합니다.",
+        "create.ponder.brass_funnel.text_3": "값 패널에서 추출할 묶음 크기를 정확히 설정할 수 있습니다.",
+        "create.ponder.cart_assembler.text_2": "레드스톤 신호가 없으면 지나가는 수레 장치를 다시 블록으로 해체합니다.",
+        "create.ponder.deployer_redstone.text_3": "따라서 신호가 잠깐 꺼지는 펄스로 정확히 한 번만 작동시킬 수 있습니다.",
+        "create.ponder.display_board.text_1": "디스플레이 보드는 크기를 확장할 수 있는 표지판입니다.",
+        "create.ponder.factory_gauge_links.text_3": "재고 수준이 목표치 이상이면 레드스톤 링크에 신호를 보냅니다.",
+        "create.ponder.factory_gauge_recipe.text_11": "게이지를 우클릭한 채로 유지할 목표 수량을 설정할 수 있습니다.",
+        "create.ponder.factory_gauge_recipe.text_13": "...지정된 주소로 새 재료를 보냅니다.",
+        "create.ponder.factory_gauge_recipe.text_14": "그런 다음 결과물은 연결된 인벤토리 중 하나로 돌아와야 합니다.",
+        "create.ponder.factory_gauge_restocker.text_10": "...물류 네트워크가 지정된 주소로 부족한 아이템을 더 보냅니다.",
+        "create.ponder.fan_processing.text_7": "선풍기의 속도는 가공 속도에 영향을 주지 않고 범위만 바꿉니다.",
+        "create.ponder.fluid_pipe_flow.text_1": "유체 파이프는 두 곳 이상의 유체 공급원과 대상을 연결할 수 있습니다.",
+        "create.ponder.fluid_pipe_interaction.text_3": "열린 끝 바로 앞의 유체 원천 블록을 흡수할 수 있고...",
+        "create.ponder.fluid_tank_sizes.text_4": "렌치로 탱크의 창을 열거나 닫을 수 있습니다.",
+        "create.ponder.funnel_compat.text_1": "깔때기는 여러 다른 부품과도 원활하게 상호작용합니다.",
+        "create.ponder.funnel_direction.text_2": "웅크린 채 설치하면 인벤토리에 아이템을 넣습니다.",
+        "create.ponder.funnel_intro.text_1": "깔때기는 인벤토리에서 아이템을 넣고 빼는 데 적합합니다.",
+        "create.ponder.gantry_cascaded.text_3": "이렇게 갠트리 시스템을 연쇄 연결해 여러 이동 축을 지원할 수 있습니다.",
+        "create.ponder.gantry_redstone.text_2": "대신 회전력이 운반대의 출력 축으로 전달됩니다.",
+        "create.ponder.gearbox.text_1": "회전축 사이로 동력을 옮기려면 장치가 금세 커집니다.",
+        "create.ponder.gearbox.text_2": "기어박스는 같은 구성을 더 작게 만들 수 있습니다.",
+        "create.ponder.hose_pulley.text_7": "도르래의 흡입과 배출 속도는 유체 네트워크의 처리량에 따라 결정됩니다.",
+        "create.ponder.hose_pulley_infinite.text_3": "파이프 망은 이런 도르래에서 유체를 무한히 가져오거나 내보낼 수 있습니다.",
+        "create.ponder.item_vault_sizes.text_1": "아이템 저장고를 연결하면 총 저장 용량을 늘릴 수 있습니다.",
+        "create.ponder.large_cogwheel.text_1": "큰 톱니바퀴는 서로 직각으로 맞물릴 수 있습니다.",
+        "create.ponder.large_water_wheel.text_2": "다른 면을 더 덮어도 회전력 출력은 더 늘어나지 않습니다.",
+        "create.ponder.mechanical_arm_filtering.text_6": "기계식 팔은 분배할 수 없는 아이템은 집지 않습니다.",
+        "create.ponder.mechanical_arm_modes.text_8": "'강제 순환' 모드는 출력 대상을 건너뛰지 않고 공간이 생길 때까지 기다립니다.",
+        "create.ponder.mechanical_arm_redstone.text_3": "따라서 신호가 잠깐 꺼지는 펄스로 정확히 한 번만 작동시킬 수 있습니다.",
+        "create.ponder.mechanical_crafter.text_7": "경로의 모든 슬롯에 아이템이 들어가면 조합이 시작됩니다.",
+        "create.ponder.mechanical_crafter_covers.text_3": "뒤쪽을 렌치로 연결해 만든 공유 입력은 덮인 조합기 너머까지 이어질 수 있습니다.",
+        "create.ponder.mechanical_harvester.text_2": "지나는 길의 다 자란 작물을 수확한 뒤 다시 심습니다.",
+        "create.ponder.mechanical_pump_speed.text_4": "같은 파이프 망에 연결된 펌프의 처리량은 합산됩니다.",
+        "create.ponder.mechanical_drill.text_2": "채굴 속도는 입력 회전 속도에 비례합니다.",
+        "create.ponder.mechanical_pump_speed.text_1": "회전 속도와 관계없이 기계식 펌프는 최대 16블록 떨어진 연결 파이프까지 영향을 줍니다.",
+        "create.ponder.mechanical_pump_speed.text_2": "입력 회전 속도를 높이면 유체 흐름이 전파되는 속도가 빨라지고...",
+        "create.ponder.mechanical_saw_breaker.text_2": "나무 전체를 베려면 땅과 이어진 마지막 원목 블록을 톱으로 잘라야 합니다.",
+        "create.ponder.package_frogport.text_17": "소포 주소를 '피터'로 지정합니다.",
+        "create.ponder.package_frogport.text_7": "유효한 목적지가 없으면 소포가 제자리에서 맴돕니다.",
+        "create.ponder.portable_fluid_interface.text_5": "연결된 동안 고정 인터페이스가 장치의 모든 탱크를 대신합니다.",
+        "create.ponder.portable_storage_interface.text_1": "움직이는 인벤토리는 자동화 장치로 접근하기 어렵습니다.",
+        "create.ponder.portable_storage_interface.text_5": "연결된 동안 고정 인터페이스가 장치의 모든 인벤토리를 대신합니다.",
+        "create.ponder.powered_latch.text_1": "레드스톤 걸쇠는 레드스톤으로 제어하는 레버입니다.",
+        "create.ponder.powered_latch.text_2": "뒤쪽에서 신호를 받으면 켜지고...",
+        "create.ponder.powered_latch.text_3": "...옆쪽에서 신호를 받으면 다시 꺼집니다.",
+        "create.ponder.powered_latch.text_4": "레드스톤 걸쇠는 직접 전환할 수도 있습니다.",
+        "create.ponder.powered_toggle_latch.text_1": "레드스톤 토글 걸쇠는 레드스톤으로 제어하는 레버입니다.",
+        "create.ponder.powered_toggle_latch.text_2": "뒤쪽에서 신호를 받으면 상태가 전환되어...",
+        "create.ponder.powered_toggle_latch.text_3": "...켜지거나 다시 꺼집니다.",
+        "create.ponder.powered_toggle_latch.text_4": "레드스톤 토글 걸쇠는 직접 전환할 수도 있습니다.",
+        "create.ponder.rope_pulley_attachment.text_3": "도르래 자체는 멈춘 상태에서만 구조물과 함께 움직일 수 있습니다.",
+        "create.ponder.rotation_speed_controller.text_1": "회전 속도 제어기는 축의 회전을 위쪽 큰 톱니바퀴로 전달합니다.",
+        "create.ponder.smart_observer.text_2": "일반 보관함 안의 아이템이나 유체를 감지할 수 있습니다.",
+        "create.ponder.spout_filling.text_1": "주입구는 아래에 놓인 유체 용기 아이템을 채울 수 있습니다.",
+        "create.ponder.steam_engine.text_2": "증기 기관에 축을 사용하면 회전력 출력이 만들어집니다.",
+        "create.ponder.steam_engine.text_6": "블레이즈 버너를 사용하면 출력 회전력을 높일 수 있습니다.",
+        "create.ponder.steam_engine.text_9": "출력 단계가 오를 때마다 증기 기관 하나가 최대 용량으로 더 작동할 수 있습니다.",
+        "create.ponder.steam_engine.text_11": "증기 기관 4개",
+        "create.ponder.steam_engine.text_13": "증기 기관 8개",
+        "create.ponder.steam_whistle.text_2": "탱크에 충분한 열이 있으면...",
+        "create.ponder.steam_whistle.text_4": "증기 기적 아이템을 블록에 사용하면 음높이가 낮아집니다.",
+        "create.ponder.steam_whistle.text_6": "기술자의 고글로 증기 기적의 현재 음높이를 확인할 수 있습니다.",
+        "create.ponder.stock_link.text_7": "최대 세기의 레드스톤 신호를 받으면 재고 연결기가 송출을 멈춥니다.",
+        "create.ponder.stressometer.text_1": "피로도 계측기는 연결된 회전망의 현재 피로도 용량을 표시합니다.",
+        "create.ponder.table_cloth.text_4": "재고 표시기를 재고 연결기에 연결한 뒤 상점에 놓으세요.",
+        "create.ponder.threshold_switch.text_3": "...스위치의 레드스톤 출력 상태가 바뀝니다.",
+        "create.ponder.threshold_switch.text_4": "신호는 하한에 도달할 때까지 유지됩니다.",
+        "create.ponder.tag.windmill_sails": "풍차 베어링용 날개",
+        "create.ponder.track_observer.text_3": "필터를 설정하면 일치하는 화물을 실은 열차에만 작동합니다.",
+        "create.ponder.track_placement.text_6": "달리기 키를 누른 채 연결하면...",
+        "create.ponder.train_assembly.text_2": "역은 선로망의 경유지입니다.",
+        "create.ponder.train_signal_signaling.text_5": "황동 신호기로 시작한 구간은 보통 일반 신호기로 끝납니다.",
+        "create.ponder.train_signal_signaling.text_7": "이 특수 신호기는 구간에 들어간 열차가...",
+        "create.ponder.train_signal_signaling.text_8": "...구간을 즉시 빠져나갈 수 없다면 정지시킵니다.",
+        "create.ponder.valve_pipe.text_3": "열리는 방향으로 회전력을 공급하면 밸브가 열립니다.",
+        "create.ponder.weighted_ejector.text_1": "무게 추 달린 배출기를 든 채 웅크리고 우클릭하면 목표 위치를 지정할 수 있습니다.",
+        "create.ponder.weighted_ejector.text_11": "몹이나 플레이어가 밟으면 무게 추 달린 배출기가 항상 작동합니다.",
+        "create.ponder.windmill_source.text_5": "풍차 날개 블록 수가 회전 속도를 결정합니다.",
+        "create.schedule.condition.player_count.or_above": "이상",
+        "create.schedule.no_stops": "이 운행 일정에는 아직 정차 지점이 없습니다",
+        "create.schematic.invalid": "[!] 잘못된 아이템 - 대신 설계도 탁자를 사용하세요",
+        "create.schematics.wrongFormat": "업로드하려는 설계도가 손상되었거나 잘못 인코딩되었습니다! GZIP 호환 형식으로 인코딩해야 합니다.",
+        "create.stock_keeper.cash_register_full": "구매 취소: 계산대에 공간이 부족합니다",
+        "create.track.slope_turn": "회전 구간에서는 경사로에 들어가거나 경사로를 벗어날 수 없습니다",
+        "create.train.status.no_package_target": "화물에 든 소포의 주소와 일치하는 우편함이 없습니다",
+        "create.train.status.opposite_driver": "이 경로에는 반대 방향을 바라보는 기관사가 필요합니다",
+        "item.create.attribute_filter": "속성 필터",
+        "item.create.attribute_filter.tooltip.behaviour1": "속성 필터의 _설정 창_을 엽니다.",
+        "item.create.crafting_blueprint.behaviour1": "전시할 아이템과 _조합법_을 _설정_할 수 있는 _조합_ _메뉴_를 엽니다.",
+        "item.create.crafting_blueprint.behaviour2": "_인벤토리_에서 찾은 일치하는 재료로 _설정된_ _조합법_을 _적용_합니다. _웅크리면_ 최대 _한 묶음_까지 조합합니다.",
+        "item.create.crafting_blueprint.tooltip.summary": "벽에 _설치_하면 손으로 쉽게 조합하도록 _재료_ _배치_를 _지정_할 수 있습니다. 각 슬롯은 조합법 하나를 나타냅니다.",
+        "item.create.electron_tube": "전자관",
+        "item.create.experience_nugget.tooltip.behaviour1": "담긴 _경험치_를 _획득_합니다.",
+        "item.create.extendo_grip": "연장 손잡이",
+        "item.create.extendo_grip.tooltip.behaviour1": "_주로 사용하는 손_에 든 아이템의 _도달 거리_를 늘립니다.",
+        "item.create.filter": "목록 필터",
+        "item.create.filter.tooltip.behaviour1": "목록 필터의 _설정 창_을 엽니다.",
+        "item.create.goggles.tooltip.behaviour1": "_회전 장치_는 추가되는 _피로도 부하_나 _용량_을 보여 줍니다. _피로도 계측기_는 _연결된 회전망의 통계_를 보여 줍니다. 일부 블록은 아이템과 유체 내용물도 표시합니다.",
+        "item.create.linked_controller.tooltip.behaviour1": "조작기를 _켜고 끕니다_. 활성화된 동안 _이동_ _키_로 조작합니다.",
+        "item.create.package": "골판지 소포",
+        "item.create.package_filter": "소포 필터",
+        "item.create.package_filter.tooltip.behaviour1": "소포 필터의 _설정 창_을 엽니다.",
+        "item.create.rare_package": "희귀 소포",
+        "item.create.sturdy_sheet": "견고한 판",
+        "item.create.sweet_roll": "달콤한 롤",
+        "item.create.whisk": "거품기",
+        "item.create.wand_of_symmetry.tooltip.behaviour2": "활성화된 거울을 _제거합니다_.",
+        "item.create.wrench.tooltip.summary": "여러 회전 장치를 다루는 다목적 도구입니다.",
+        "advancement.create.package_chute_throw.desc": "골판지 소포를 아이템 슈트로 던지세요\n§7(숨겨진 발전과제)",
+        "create.subtitle.package_pop": "소포가 부서짐",
+    },
+    "createaddition": {
+        "block.createaddition.accumulator.tooltip.behaviour1": "위 화살표가 그려진 _단자_에서 연결된 _전선_으로 _FE_를 공급합니다.",
+        "block.createaddition.accumulator.tooltip.behaviour2": "아래 화살표가 그려진 _단자_가 연결된 _전선_에서 _FE_를 공급받습니다.",
+        "block.createaddition.digital_adapter.tooltip.summary": "컴퓨터가 _디스플레이 보드_, _속도 계측기_, _피로도 계측기_, _밧줄 도르래_, _호스 도르래_, _엘리베이터 도르래_, _기계식 피스톤_, _기계식 베어링_, _회전 속도 제어기_와 상호작용하도록 하는 _ComputerCraft 주변기기_입니다.",
+        "createaddition.schedule.condition.energy_threshold": "에너지 화물 조건",
+        "effect.createaddition.shocking": "감전",
+        "fluid.createaddition.bioethanol": "바이오연료",
+        "item.createaddition.bioethanol_bucket": "바이오연료 양동이",
+        "item.createaddition.electrum_amulet": "연한 금빛 애뮬릿",
+        "item.createaddition.electrum_amulet.tooltip": "연한 금빛 애뮬릿",
+        "item.createaddition.electrum_amulet.tooltip.summary": "이 _애뮬릿_은 충전식 아이템에 _짜릿한⚡_ 효과를 줍니다! 손에 들고 있으면 다른 손의 아이템을 가끔 충전합니다.",
+        "item.createaddition.electrum_ingot": "일렉트럼 주괴",
+        "item.createaddition.electrum_nugget": "일렉트럼 조각",
+        "item.createaddition.electrum_rod": "일렉트럼 막대기",
+        "item.createaddition.electrum_sheet": "일렉트럼 판",
+        "item.createaddition.electrum_spool": "일렉트럼 전선 타래",
+        "item.createaddition.electrum_wire": "일렉트럼 철사",
+        "item.createaddition.brass_rod": "황동 막대기",
+        "item.createaddition.bronze_rod": "청동 막대기",
+        "item.createaddition.copper_rod": "구리 막대기",
+        "item.createaddition.gold_rod": "금 막대기",
+        "item.createaddition.iron_rod": "철 막대기",
+        "tag.fluid.c.ignites": "점화 가능한 유체",
+    },
+    "create_dragons_plus": {
+        "create.item_attributes.create_dragons_plus.endable": "엔드 가공 가능",
+        "create.item_attributes.create_dragons_plus.endable.inverted": "엔드 가공 불가",
+        "create_dragons_plus.ponder.bulk_ending.header": "대량 엔드 가공",
+        "create_dragons_plus.ponder.bulk_ending.text_1": "드래곤 머리 또는 용의 숨결을 통과한 바람은 대량 엔드 가공 장치를 만듭니다",
+        "recipe.create_dragons_plus.fan_ending": "대량 엔드 가공",
+        "tag.block.create_dragons_plus.fan_processing_catalysts.ending": "대량 엔드 가공 촉매",
+        "tag.fluid.create_dragons_plus.fan_processing_catalysts.ending": "대량 엔드 가공 촉매",
+    },
+    "create_enchantment_industry": {
+        "fluid.create_enchantment_industry.infused_dragon_breath": "주입된 용의 숨결",
+        "item.create_enchantment_industry.infused_dragon_breath_bucket": "주입된 용의 숨결 양동이",
+        "itemGroup.create_enchantment_industry.apotheotic": "Create: Apotheotic Industry",
+    },
+}
+
+
+CREATE_TOOLTIP_MARKUP_FIXES: dict[str, str] = {
+    "block.create.copycat_panel.tooltip.behaviour1": "가능하면 _손에 든 아이템_을 _재료_로 적용합니다. _다시 클릭_하면 _방향_ 또는 _레드스톤 동력_ 상태를 전환합니다. _렌치_로 _재료를 초기화_합니다.",
+    "block.create.copycat_step.tooltip.behaviour1": "가능하면 _손에 든 아이템_을 _재료_로 적용합니다. _다시 클릭_하면 _방향_ 또는 _레드스톤 동력_ 상태를 전환합니다. _렌치_로 _재료를 초기화_합니다.",
+    "block.create.cuckoo_clock.tooltip.behaviour1": "_현재 시각_을 보여 주고 하루에 두 번 곡을 연주합니다. _정오_와 _플레이어가 잘 수 있는 저녁_에 한 번씩 _작동_합니다.",
+    "block.create.cuckoo_clock.tooltip.summary": "공간을 _꾸미고_ _시간을 확인하기_ 좋은 정교한 공예품입니다.",
+    "block.create.haunted_bell.tooltip.behaviour1": "_적대적 몹_이 생성될 수 있는 주변의 _빛이 없는 지점_을 표시합니다.",
+    "block.create.item_hatch.tooltip.behaviour1": "설치된 _보관함_에 _손에 든 아이템_을 _넣습니다_. _웅크려 우클릭_하면 단축 바 아이템을 제외한 _모든 아이템_을 _넣습니다_.",
+    "block.create.metal_bracket.tooltip.summary": "_축과 톱니바퀴_ 및 _파이프_를 견고한 산업풍 부품으로 _장식_합니다.",
+    "block.create.nozzle.tooltip.summary": "_선풍기_ 앞에 부착해 개체에 미치는 효과를 _모든 방향_으로 퍼뜨립니다.",
+    "block.create.placard.tooltip.behaviour2": "현재 _아이템_을 _제거_합니다.",
+    "block.create.schematic_table.tooltip.summary": "저장된 설계도를 _빈 설계도_에 기록합니다.",
+    "block.create.schematicannon.tooltip.behaviour1": "설계도 대포의 _설정 창_을 엽니다.",
+    "block.create.seat.tooltip.behaviour1": "플레이어가 _좌석_에 앉습니다. 왼쪽 Shift를 누르면 _좌석_에서 내립니다.",
+    "block.create.seat.tooltip.summary": "앉아서 이동을 즐기세요! 플레이어를 움직이는 _장치_에 고정합니다. 가구로도 좋고 여러 색이 있습니다.",
+    "block.create.toolbox.tooltip.behaviour1": "_인벤토리 내용물_을 _보존_합니다.",
+    "block.create.toolbox.tooltip.behaviour2": "_근처_ _플레이어_가 _공구상자_ _단축키_를 눌러 내용물에 _원격으로_ 접근할 수 있습니다.",
+    "block.create.toolbox.tooltip.behaviour3": "_보관함 창_을 엽니다.",
+    "block.create.turntable.tooltip.summary": "_회전력_으로 멀미를 일으킵니다.",
+    "block.create.wooden_bracket.tooltip.summary": "_축과 톱니바퀴_ 및 _파이프_를 아늑한 나무 부품으로 _장식_합니다.",
+    "create.gui.contraptions.not_fast_enough": "이 %1$s은(는) _충분한_ _회전_ _속도_로 돌고 있지 않은 것 같습니다.",
+    "item.create.blaze_cake.tooltip.summary": "열심히 일하는 _블레이즈 버너_를 위한 맛있는 간식입니다. 힘껏 불타오르게 합니다!",
+    "item.create.builders_tea.tooltip.summary": "하루를 시작하기에 완벽한 음료로, _의욕_과 _포만감_을 줍니다.",
+    "item.create.cardboard_armor.tooltip.summary": "_착용 가능한_ _장비_로 _멋_과 _은신_을 높입니다.",
+    "item.create.cardboard_sword.tooltip.summary": "콩! _대체로_ _해롭지 않은_ 강력한 무기입니다.",
+    "item.create.copper_backtank.tooltip.behaviour1": "필요한 장비에 _압축_ _공기_를 공급합니다.",
+    "item.create.copper_backtank.tooltip.behaviour2": "회전 속도에 따라 _압축_ _공기_를 _모읍니다_.",
+    "item.create.copper_diving_boots.tooltip.behaviour1": "착용자는 액체에서 _더 빨리_ _가라앉고_, 물속에서 _걷고_ _뛸_ 수 있습니다. 또한 _기계식_ _벨트_의 영향을 받지 않습니다.",
+    "item.create.creative_blaze_cake.tooltip.summary": "_블레이즈 버너_를 위한 아주 특별한 간식입니다. 먹은 블레이즈 버너는 _연료가 절대 떨어지지 않습니다_.",
+    "item.create.extendo_grip.tooltip.behaviour2": "_내구도_를 _전혀_ 소모하지 않고 탱크의 _공기_ _압력_을 사용합니다.",
+    "item.create.extendo_grip.tooltip.summary": "사용자의 _도달 거리를 크게 늘립니다_. _산소통_의 _공기_ _압력_으로 작동할 수 있습니다.",
+    "item.create.handheld_worldshaper.tooltip.behaviour1": "_대상 블록_을 세계편집기가 설치할 _재료_로 지정합니다.",
+    "item.create.handheld_worldshaper.tooltip.behaviour3": "세계편집기의 _설정 창_을 엽니다.",
+    "item.create.linked_controller.tooltip.behaviour2": "_수동 설정 창_을 엽니다.",
+    "item.create.linked_controller.tooltip.behaviour3": "_연결 모드_를 켠 뒤 _버튼 여섯 개_ 중 하나를 눌러 _레드스톤 링크의 주파수_에 연결합니다.",
+    "item.create.linked_controller.tooltip.summary": "_손에 들고_ _조작_할 수 있으며, _레드스톤 링크_ 주파수를 _여섯_ _버튼_에 할당합니다.",
+    "item.create.netherite_backtank.tooltip.behaviour1": "필요한 장비에 _압축_ _공기_를 공급합니다.",
+    "item.create.netherite_backtank.tooltip.behaviour2": "회전 속도에 따라 _압축_ _공기_를 _모읍니다_.",
+    "item.create.netherite_diving_boots.tooltip.behaviour1": "착용자는 액체에서 _더 빨리_ _가라앉고_, 물속에서 _걷고_ _뛸_ 수 있습니다. 또한 _기계식_ _벨트_의 영향을 받지 않습니다.",
+    "item.create.netherite_diving_helmet.tooltip.summary": "_네더라이트 산소통_과 함께 착용하면 _극한의 열_로부터 보호받습니다. 효과를 보려면 _다리와 발_도 _네더라이트_로 덮어야 합니다.",
+    "item.create.potato_cannon.tooltip.behaviour2": "_내구도_를 _전혀_ 소모하지 않고 탱크의 _공기_ _압력_을 사용합니다.",
+    "item.create.potato_cannon.tooltip.summary": "집에서 기른 작물을 적에게 발사합니다. _산소통_의 _공기_ _압력_으로 작동할 수 있습니다.",
+    "item.create.sand_paper.tooltip.behaviour1": "_보조 손_에 들고 있거나 _바닥_에 놓인 아이템을 _바라보며_ 사용하면 광택을 냅니다.",
+    "item.create.schematic.tooltip.behaviour1": "화면의 도구로 위치를 지정할 수 있습니다.",
+    "item.create.schematic.tooltip.behaviour2": "정확한 _좌표_를 입력하는 _설정 창_을 엽니다.",
+    "item.create.schematic.tooltip.summary": "구조물의 홀로그램을 원하는 위치에 놓고 _설계도 대포_로 건설할 수 있습니다.",
+    "item.create.schematic_and_quill.tooltip.summary": "세계의 _구조물을 저장_해 _.nbt 파일_로 만들 때 사용합니다.",
+    "item.create.tree_fertilizer.tooltip.behaviour1": "_공간 조건_과 _관계없이_ 나무를 자라게 합니다.",
+}
+
+
+CREATE_RECHECK_FIXES["create"].update(CREATE_TOOLTIP_MARKUP_FIXES)
+CREATE_RECHECK_FIXES["createaddition"].update(
+    {
+        "block.createaddition.connector.tooltip.behaviour2": "_구리 전선 타래_, _금 전선 타래_, 또는 _일렉트럼 전선 타래_를 사용해 최대 4개의 다른 단자와 _전선으로 연결_합니다.",
+        "block.createaddition.small_light_connector.tooltip.behaviour2": "_구리 전선 타래_, _금 전선 타래_, 또는 _일렉트럼 전선 타래_를 사용해 최대 4개의 다른 단자와 _전선으로 연결_합니다.",
+        "block.createaddition.large_connector.tooltip.behaviour2": "_금 전선 타래_ 또는 _일렉트럼 전선 타래_를 사용해 최대 6개의 다른 단자와 _전선으로 연결_합니다.",
+    }
+)
+CREATE_RECHECK_FIXES["create_dragons_plus"].update(
+    {
+        "block.create_dragons_plus.fluid_hatch.tooltip.behaviour1": "_손에 든 아이템_의 _담긴 유체_를 설치된 _탱크_에 _넣습니다_. 아이템을 비울 수 없으면 반대로 _탱크_에서 아이템을 _채웁니다_.",
+    }
+)
+
+
+def build_recheck_overrides(namespace: str) -> dict[str, str]:
+    """검수한 기존 문구의 용어를 정규화하고 근거가 있는 교정을 덧씌운다."""
+    english = load_json(WORK_ROOT / namespace / "en_us.json")
+    korean = load_json(WORK_ROOT / namespace / "ko_kr.json")
+    translated: dict[str, str] = {}
+    replacements = CREATE_RECHECK_TERM_REPLACEMENTS.get(namespace, ())
+
+    def apply_replacements(source: str, target: str) -> str:
+        updated = target
+        for before, after in replacements:
+            updated = updated.replace(before, after)
+        if "날개" in updated and "풍차 날개" not in updated and "Sail" in source:
+            updated = updated.replace("날개", "풍차 날개")
+        if any(
+            token in source
+            for token in (
+                "Kinetic Input",
+                "Kinetic components",
+                "Kinetic Appliances",
+                "Kinetic Blocks",
+                "Kinetic Sources",
+                "Powered by Kinetics",
+                "Rotational Force",
+                "Rotational Input",
+                "Rotational Power",
+                "input rotation",
+                "kinetic contraptions",
+                "kinetic network",
+                "rotational force",
+                "rotational power",
+            )
+        ):
+            updated = updated.replace("동력", "회전력")
+        return updated
+
+    for key, source in english.items():
+        target = korean[key]
+        if not isinstance(source, str) or not isinstance(target, str):
+            continue
+        updated = apply_replacements(source, target)
+        if updated != target:
+            translated[key] = updated
+    for key, target in OVERRIDES[namespace].items():
+        source = english[key]
+        if not isinstance(source, str) or not isinstance(target, str):
+            continue
+        updated = apply_replacements(source, target)
+        if updated != target:
+            translated[key] = updated
+    translated.update(CREATE_RECHECK_FIXES.get(namespace, {}))
+    return translated
+
+
+for recheck_namespace in CREATE_RECHECK_FIXES | CREATE_RECHECK_TERM_REPLACEMENTS:
+    OVERRIDES[recheck_namespace].update(build_recheck_overrides(recheck_namespace))
+
+
 ALLOWED_ORIGINALS = {
     "",
     ".",
@@ -850,6 +1256,7 @@ ALLOWED_ORIGINALS = {
     "°",
     "Bells & Whistles",
     "Create: Aquatic Ambitions",
+    "Create: Apotheotic Industry",
     "Create: Hypertube",
 }
 
@@ -915,6 +1322,13 @@ def verify_selected() -> tuple[dict[str, object], list[str]]:
         for key, source in english.items():
             target = korean[key]
             errors.extend(validate_value(key, source, target))
+            if (
+                isinstance(source, str)
+                and isinstance(target, str)
+                and not source.isupper()
+                and source.count("_") != target.count("_")
+            ):
+                errors.append(f"강조 표식 불일치: {namespace}:{key}")
             if source == target and source not in ALLOWED_ORIGINALS:
                 untranslated.append(key)
         if namespace in complete_namespaces and untranslated:

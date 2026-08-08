@@ -3,12 +3,11 @@
   "chapters": {
     "create": {
       "display_keys": 190,
-      "new_translation_required": 186,
-      "project_output_review": 4
+      "project_output_review": 190
     },
     "related": {
       "display_keys": 7,
-      "new_translation_required": 7
+      "project_output_review": 7
     }
   }
 }

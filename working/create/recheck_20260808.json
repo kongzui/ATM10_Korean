@@ -1,0 +1,81 @@
+{
+  "family": "Create",
+  "reviewed_at": "2026-08-08",
+  "scope": {
+    "language_namespaces": 7,
+    "language_pairs": 4949,
+    "ftbquests_display_pairs": 197,
+    "total_display_pairs": 5146,
+    "ponder_language_pairs": 1344,
+    "advancement_files_checked": 1242,
+    "advancement_display_entries": 134,
+    "recipes_scanned_for_ownership": 2358,
+    "kubejs_reference_files_checked": 7
+  },
+  "result": {
+    "unchanged_existing": 4406,
+    "corrected_existing": 740,
+    "new_missing_added": 0,
+    "unresolved_terms": 0,
+    "manual_review_items": 0
+  },
+  "ownership": {
+    "fully_reviewed": [
+      "Create",
+      "Create: Dragons Plus",
+      "Create Crafts & Additions",
+      "Create Enchantment Industry",
+      "Create Aquatic Ambitions",
+      "Create Hypertube",
+      "Create: Bells & Whistles"
+    ],
+    "guides": "별도 GuideME, Patchouli, Modonomicon 문서는 없고 Ponder 언어 키 1344개를 전수 대조",
+    "kubejs_direct_visible_lines": 0,
+    "ftbquests_chapters": [
+      "create.snbt"
+    ]
+  },
+  "major_corrections": {
+    "accuracy": [
+      "기어박스의 장치 크기, 유체 파이프 연결 대상, 증기 기관 출력, 무게 추 달린 배출기 목표 위치의 반전 또는 누락을 교정",
+      "공장 게이지의 재료 전송 방향, 기계식 팔의 분배 불가 아이템 처리, 열차 신호 구간과 기관사 방향 조건을 원문대로 교정",
+      "임계값의 이상 조건, 설계도 대포 교체 모드, Create Crafts & Additions 애뮬릿의 충전 기능을 정확하게 복원"
+    ],
+    "sentence_quality": [
+      "Ponder의 기계 번역성 문장과 오탈자를 실제 조작 순서가 드러나는 짧은 한국어로 교정",
+      "툴팁은 기능과 조건을 간결하게, 열차와 물류 설명은 목적지와 입력 및 출력 방향이 명확하도록 다듬음"
+    ],
+    "terminology": [
+      "배치기, 깔때기, 기술자의 고글, 증기 기관, 열차, 소포, 재고 연결기와 재고 표시기를 모든 표시 경로에서 통일",
+      "케이싱, 회전력, 일렉트럼, 아이템 저장고, 임계값 스위치와 Ponder 및 FTB Quests 품목명을 통일"
+    ],
+    "formatting": [
+      "Create 툴팁 강조 표식의 원문 대응 불일치 51개와 애드온 5개를 복원",
+      "자리표시자, 숫자, 단위, 줄바꿈, 색상 코드, 이스케이프와 키 순서를 보존"
+    ]
+  },
+  "validation": {
+    "five_family_goal": "complete, validation_errors=0",
+    "create_family": "complete, untranslated=0",
+    "create_quests": "complete, untranslated=0",
+    "create_data_audit": "complete",
+    "language_missing": 0,
+    "duplicate_keys": 0,
+    "translation_induced_name_collisions": 0,
+    "ftbquests_fallbacks_checked": 2,
+    "tooltip_markup_mismatches": 0,
+    "common_ui": "passed",
+    "ruff_check": "passed",
+    "python_compileall": "passed",
+    "git_diff_check": "passed"
+  },
+  "deployment": {
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_files": 5,
+    "backup_manifest": "temp/backups/20260808_180543_814614/backup_manifest.json",
+    "hash_parity": true,
+    "unexpected_changes": [],
+    "post_apply_expected_changes": []
+  },
+  "minecraft_screen_verified": false
+}
