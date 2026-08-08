@@ -1,0 +1,21 @@
+{
+  "family": "bibliocraft_family",
+  "reviewed_language_keys": 22431,
+  "output_keys": {
+    "bibliocraft": 2021,
+    "bibliowoods": 10833,
+    "bibliobiomes": 9577
+  },
+  "material_source_names": 115,
+  "existing_project_values_reused": 2667,
+  "existing_project_values_revised": 630,
+  "new_language_values": 19134,
+  "translation_methods": {
+    "generated_reviewed_name": 22247,
+    "reviewed_message": 11,
+    "reviewed_tag": 53,
+    "reviewed_ui": 120
+  },
+  "errors": [],
+  "status": "complete"
+}

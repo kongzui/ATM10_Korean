@@ -1,0 +1,101 @@
+{
+  "family": "bibliocraft_family",
+  "language": {
+    "reviewed_english_keys": 22431,
+    "mods": {
+      "bibliocraft": {
+        "english_keys": 2021,
+        "output_keys": 2021,
+        "bundled_korean_candidate_keys": 0,
+        "project_korean_candidate_keys": 0,
+        "existing_project_values_reused": 0,
+        "existing_project_values_revised": 0,
+        "new_values": 2021,
+        "unexpected_collapsed_name_count": 0
+      },
+      "bibliowoods": {
+        "english_keys": 10833,
+        "output_keys": 10833,
+        "bundled_korean_candidate_keys": 0,
+        "project_korean_candidate_keys": 3297,
+        "existing_project_values_reused": 2667,
+        "existing_project_values_revised": 630,
+        "new_values": 7536,
+        "unexpected_collapsed_name_count": 0
+      },
+      "bibliobiomes": {
+        "english_keys": 9577,
+        "output_keys": 9577,
+        "bundled_korean_candidate_keys": 0,
+        "project_korean_candidate_keys": 0,
+        "existing_project_values_reused": 0,
+        "existing_project_values_revised": 0,
+        "new_values": 9577,
+        "unexpected_collapsed_name_count": 0
+      }
+    },
+    "existing_project_values_reused": 2667,
+    "existing_project_values_revised": 630,
+    "new_language_values": 19134,
+    "intentional_no_hangul_keys": [
+      "config.bibliocraft.compatibility.jei",
+      "gui.bibliocraft.clock.hours_hint",
+      "gui.bibliocraft.clock.minutes_hint",
+      "gui.bibliocraft.clock.time_separator",
+      "gui.bibliocraft.fancy_text_area.bold.short",
+      "gui.bibliocraft.fancy_text_area.color_hint",
+      "gui.bibliocraft.fancy_text_area.italic.short",
+      "gui.bibliocraft.fancy_text_area.obfuscated.short",
+      "gui.bibliocraft.fancy_text_area.scale_down",
+      "gui.bibliocraft.fancy_text_area.scale_up",
+      "gui.bibliocraft.fancy_text_area.strikethrough.short",
+      "gui.bibliocraft.fancy_text_area.underlined.short",
+      "gui.bibliocraft.stockroom_catalog.count",
+      "gui.bibliocraft.stockroom_catalog.sorting.container.alphabetical_asc",
+      "gui.bibliocraft.stockroom_catalog.sorting.container.alphabetical_desc",
+      "gui.bibliocraft.stockroom_catalog.sorting.container.distance_asc",
+      "gui.bibliocraft.stockroom_catalog.sorting.container.distance_desc",
+      "gui.bibliocraft.stockroom_catalog.sorting.item.alphabetical_asc",
+      "gui.bibliocraft.stockroom_catalog.sorting.item.alphabetical_desc",
+      "gui.bibliocraft.stockroom_catalog.sorting.item.count_asc",
+      "gui.bibliocraft.stockroom_catalog.sorting.item.count_desc",
+      "itemGroup.bibliocraft"
+    ],
+    "intentional_same_keys": [
+      "config.bibliocraft.compatibility.jei",
+      "gui.bibliocraft.clock.hours_hint",
+      "gui.bibliocraft.clock.minutes_hint",
+      "gui.bibliocraft.clock.time_separator",
+      "gui.bibliocraft.fancy_text_area.bold.short",
+      "gui.bibliocraft.fancy_text_area.color_hint",
+      "gui.bibliocraft.fancy_text_area.italic.short",
+      "gui.bibliocraft.fancy_text_area.obfuscated.short",
+      "gui.bibliocraft.fancy_text_area.scale_down",
+      "gui.bibliocraft.fancy_text_area.scale_up",
+      "gui.bibliocraft.fancy_text_area.strikethrough.short",
+      "gui.bibliocraft.fancy_text_area.underlined.short",
+      "gui.bibliocraft.stockroom_catalog.count",
+      "gui.bibliocraft.stockroom_catalog.sorting.container.alphabetical_asc",
+      "gui.bibliocraft.stockroom_catalog.sorting.container.alphabetical_desc",
+      "gui.bibliocraft.stockroom_catalog.sorting.container.distance_asc",
+      "gui.bibliocraft.stockroom_catalog.sorting.container.distance_desc",
+      "gui.bibliocraft.stockroom_catalog.sorting.item.alphabetical_asc",
+      "gui.bibliocraft.stockroom_catalog.sorting.item.alphabetical_desc",
+      "gui.bibliocraft.stockroom_catalog.sorting.item.count_asc",
+      "gui.bibliocraft.stockroom_catalog.sorting.item.count_desc"
+    ],
+    "unexpected_collapsed_names": {},
+    "errors": [],
+    "status": "complete"
+  },
+  "surface_audit": "complete",
+  "ftbquests": "no_related_references",
+  "kubejs": "no_visible_text_work",
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/bibliocraft/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/bibliowoods/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/bibliobiomes/lang/ko_kr.json"
+  ],
+  "errors": [],
+  "status": "complete"
+}

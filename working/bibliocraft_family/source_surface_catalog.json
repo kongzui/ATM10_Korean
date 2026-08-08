@@ -1,0 +1,112 @@
+{
+  "family": "bibliocraft_family",
+  "jars": [
+    {
+      "label": "bibliocraft",
+      "jar": "bibliocraft-1.21.1-1.6.5.jar",
+      "jar_size": 5471083,
+      "jar_mtime_ns": 1783222425839740400,
+      "jar_sha256": "7ed99fa5f0524e9e5ccfe82909eb75ba413d3c230d96863dc45c35d32938d43d",
+      "language_files": [
+        "assets/bibliocraft/lang/en_us.json"
+      ],
+      "data_json_files": 3990,
+      "data_direct_fields": [
+        {
+          "file": "data/bibliocraft/recipe/clipboard_merging.json",
+          "path": "$.component_mergers.bibliocraft:clipboard_content.title",
+          "value": "first",
+          "literal": "first"
+        },
+        {
+          "file": "data/bibliocraft/recipe/written_big_book_merging.json",
+          "path": "$.component_mergers.bibliocraft:written_big_book_content.title",
+          "value": "first",
+          "literal": "first"
+        },
+        {
+          "file": "data/bibliocraft/recipe/written_book_merging.json",
+          "path": "$.component_mergers.minecraft:written_book_content.title",
+          "value": "first",
+          "literal": "first"
+        }
+      ],
+      "data_localized_fields": [],
+      "invalid_json": [],
+      "nbt_files": 0,
+      "nbt_visible_fields": [],
+      "guide_candidates": []
+    },
+    {
+      "label": "bibliowoods",
+      "jar": "bibliowoods-1.21.1-1.6.2.jar",
+      "jar_size": 23234306,
+      "jar_mtime_ns": 1783222340540785800,
+      "jar_sha256": "7954e7bedd590694550851025280191db25b6c2d8f2e25bda85863c4cbd52f63",
+      "language_files": [
+        "assets/bibliowoods/lang/en_us.json"
+      ],
+      "data_json_files": 22166,
+      "data_direct_fields": [],
+      "data_localized_fields": [],
+      "invalid_json": [],
+      "nbt_files": 0,
+      "nbt_visible_fields": [],
+      "guide_candidates": []
+    },
+    {
+      "label": "bibliobiomes",
+      "jar": "bibliobiomes-1.21.1-1.6.1.jar",
+      "jar_size": 20181755,
+      "jar_mtime_ns": 1783222373890653300,
+      "jar_sha256": "a1c15706159314c1a6c84fb3e0295ceb4539cdc20cf42c0e05b0b036ce46d007",
+      "language_files": [
+        "assets/bibliobiomes/lang/en_us.json"
+      ],
+      "data_json_files": 19735,
+      "data_direct_fields": [],
+      "data_localized_fields": [],
+      "invalid_json": [],
+      "nbt_files": 0,
+      "nbt_visible_fields": [],
+      "guide_candidates": []
+    }
+  ],
+  "language_keys": {
+    "bibliocraft": 2021,
+    "bibliowoods": 10833,
+    "bibliobiomes": 9577
+  },
+  "bundled_korean_candidate_keys": {
+    "bibliocraft": 0,
+    "bibliowoods": 0,
+    "bibliobiomes": 0
+  },
+  "project_korean_candidate_keys": {
+    "bibliocraft": 0,
+    "bibliowoods": 3297,
+    "bibliobiomes": 0
+  },
+  "references": {
+    "ftbquests": [],
+    "kubejs": [
+      {
+        "path": "kubejs/server_scripts/mods/Bibliocraft/Recipes.js",
+        "occurrences": 1,
+        "unique_identifiers": 1,
+        "classification": "recipe_identifier_only",
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/Tweaks/disable_loot_table_ids.json",
+        "occurrences": 928,
+        "unique_identifiers": 928,
+        "classification": "loot_table_identifiers_only",
+        "visible_namespace_candidate_lines": []
+      }
+    ],
+    "read_errors": []
+  },
+  "reference_errors": [],
+  "status": "prepared"
+}

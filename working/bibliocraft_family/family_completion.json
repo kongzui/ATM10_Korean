@@ -1,0 +1,35 @@
+{
+  "family": "bibliocraft_family",
+  "reviewed_language_keys": 22431,
+  "bundled_korean_candidate_keys": 0,
+  "existing_project_values_reused": 2667,
+  "existing_project_values_revised": 630,
+  "new_language_values": 19134,
+  "ftbquests_work": "no_related_references",
+  "kubejs_work": "no_visible_text_work",
+  "deployment": {
+    "status": "applied_and_verified",
+    "backup_manifest": "temp/backups/20260808_160845_085899/backup_manifest.json",
+    "expected_paths": [
+      "resourcepacks/ATM10_Korean/assets/bibliocraft/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/bibliowoods/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/bibliobiomes/lang/ko_kr.json"
+    ],
+    "targets": [
+      {
+        "target_type": "game_root",
+        "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+        "changed_paths": [
+          "resourcepacks/ATM10_Korean/assets/bibliobiomes/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/bibliocraft/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/bibliowoods/lang/ko_kr.json"
+        ],
+        "unexpected_changes": [],
+        "hash_verified": true
+      }
+    ],
+    "errors": []
+  },
+  "errors": [],
+  "status": "complete"
+}
