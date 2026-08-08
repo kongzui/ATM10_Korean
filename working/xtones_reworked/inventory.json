@@ -1,0 +1,14 @@
+{
+  "family": "xtones_reworked",
+  "jar": "xtonesreworked-1.1.1-1.21.1.jar",
+  "jar_size": 1276690,
+  "jar_mtime_ns": 1783222454216633000,
+  "english_keys": 547,
+  "block_keys": 546,
+  "item_group_keys": 1,
+  "jar_languages": [
+    "assets/xtonesreworked/lang/en_us.json"
+  ],
+  "bundled_korean_keys": 0,
+  "status": "prepared"
+}

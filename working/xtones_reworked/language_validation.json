@@ -1,0 +1,11 @@
+{
+  "family": "xtones_reworked",
+  "keys": 547,
+  "families": 34,
+  "variants_per_family": 16,
+  "intentional_same_proper_names": 35,
+  "untranslated_candidates": [],
+  "unexpected_name_collisions": {},
+  "errors": [],
+  "status": "complete"
+}

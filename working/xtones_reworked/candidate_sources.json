@@ -1,0 +1,12 @@
+{
+  "current_jar_korean": null,
+  "project_korean_candidate_before_family": null,
+  "instance_kubejs_non_korean_candidate": {
+    "path": "kubejs/assets/xtonesreworked/lang/pt_br.json",
+    "language": "pt_br",
+    "keys": 547,
+    "same_keyset_as_current_english": true,
+    "used_for_korean_translation": false
+  },
+  "existing_korean_candidate_keys": 0
+}

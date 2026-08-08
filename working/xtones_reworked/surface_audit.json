@@ -1,0 +1,18 @@
+{
+  "family": "xtones_reworked",
+  "jar": "xtonesreworked-1.1.1-1.21.1.jar",
+  "recipe_files": 580,
+  "recipe_visible_fields": [],
+  "advancement_files": [],
+  "guide_files": [],
+  "kubejs_non_korean_candidate": "kubejs/assets/xtonesreworked/lang/pt_br.json",
+  "kubejs_candidate_used": false,
+  "references": {
+    "references_outside_non_korean_candidate": [],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "no_related_references",
+  "kubejs_display_work": "candidate_audited_no_korean_changes",
+  "errors": [],
+  "status": "complete"
+}
