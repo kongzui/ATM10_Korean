@@ -39,8 +39,8 @@
   ],
   "remaining": 0,
   "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
-  "base_sha256": "d06d541c4c5caa82c02ad76cdc4802a5df150a91a9bf0ba03f710205bf8fca10",
-  "output_sha256": "dee891dd76c98c1578d009d44b2d4d7bb729fa64692e5d1bfdbdd6ab93dc5a47",
+  "base_sha256": "5b5ec31079b7de741b6212afe2d1e556f75583aa7eaa2f594ed5d514873cd62e",
+  "output_sha256": "1a86a2d68cdfd0879cbaaee6373b32fd2bea38766e74af2e9532a3ba2d866cf4",
   "validation_errors": 0,
   "review_items": []
 }

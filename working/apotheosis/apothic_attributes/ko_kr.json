@@ -90,7 +90,7 @@
   "effect.apothic_attributes.detonation.desc": "만료 시 남은 화염 지속 시간을 기준으로 피해를 줍니다.",
   "effect.apothic_attributes.detonation.description": "만료 시 남은 화염 지속 시간을 기준으로 피해를 줍니다.",
   "effect.minecraft.night_vision.desc": "어둠 속에서도 볼 수 있습니다.",
-  "effect.minecraft.invisibility.desc": "장비를 제외하고 당신을 보이지 않게 만듭니다.",
+  "effect.minecraft.invisibility.desc": "장비를 제외하고 투명해집니다.",
   "effect.minecraft.jump_boost.desc": "점프 높이를 증가시킵니다.",
   "effect.minecraft.fire_resistance.desc": "화염 피해에 면역이 됩니다.",
   "effect.minecraft.water_breathing.desc": "익사하지 않게 합니다.",

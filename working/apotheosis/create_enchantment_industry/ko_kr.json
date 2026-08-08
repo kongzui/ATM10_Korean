@@ -162,7 +162,7 @@
   "item.create_enchantment_industry.incomplete_apotheotic_affix_template": "미완성 아포틱 어픽스 형판",
   "item.create_enchantment_industry.incomplete_brass_affix_template": "미완성 황동 어픽스 형판",
   "item.create_enchantment_industry.incomplete_crystal_affix_template": "미완성 수정 어픽스 형판",
-  "itemGroup.create_enchantment_industry.apotheotic": "Create: 아포틱 산업",
+  "itemGroup.create_enchantment_industry.apotheotic": "Create: Apotheotic Industry",
   "stat.create_enchantment_industry.compose_affix": "블레이즈 조율기 사용",
   "tooltip.create_enchantment_industry.affix_template.affix": "어픽스: %1$s 레벨 %2$s",
   "tooltip.create_enchantment_industry.affix_template.affixes": "어픽스: %1$s",

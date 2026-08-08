@@ -21,21 +21,23 @@
     "pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar"
   ],
   "counts": {
-    "language_keys": 1631,
+    "language_keys": 1622,
     "guide_fields": 526,
     "quest_keys": 246,
-    "existing_korean_reused": 1046,
-    "existing_korean_corrected": 499,
-    "newly_translated": 858,
+    "direct_item_fallbacks": 9,
+    "visible_values_reviewed": 2403,
+    "existing_korean_reused": 2386,
+    "existing_korean_corrected": 17,
+    "newly_translated": 0,
     "remaining": 0
   },
   "content": {
-    "resourcepack_namespaces": 13,
+    "resourcepack_namespaces": 6,
     "patchouli_files": 126,
     "ftbquests_chapters": 3,
     "direct_atm_star_tasks": 2,
     "kubejs_user_literals_remaining": 0,
-    "advancement_language_keys": 76,
+    "advancement_language_keys": 128,
     "custom_or_literal_quest_components": 0
   },
   "cross_normalization": {
@@ -58,12 +60,12 @@
   },
   "application": {
     "status": "applied_and_verified",
-    "applied_at": "2026-07-14T19:36:20",
+    "applied_at": "2026-08-08T20:06:06",
     "target_type": "game_root",
     "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
-    "changed_paths": 140,
-    "backup_root": "temp/backups/20260714_193616_282000/game_root",
-    "backup_manifest": "temp/backups/20260714_193616_282000/backup_manifest.json"
+    "changed_paths": 6,
+    "backup_root": "temp/backups/20260808_200600_054355/game_root",
+    "backup_manifest": "temp/backups/20260808_200600_054355/backup_manifest.json"
   },
   "completed_commits": [
     "347b2b9 Apotheosis 계열 언어 번역",

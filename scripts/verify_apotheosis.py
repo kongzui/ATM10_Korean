@@ -16,6 +16,14 @@ from local_paths import PROJECT_ROOT, resolve_source_root
 from prepare_apotheosis import WORK_ROOT, duplicate_keys, find_jar, load_json
 
 OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+INTEGRATION_OUTPUT_SOURCES = {
+    "create_enchantment_industry": (
+        PROJECT_ROOT / "working/create/create_enchantment_industry/ko_kr.json"
+    ),
+    "irons_spellbooks": (
+        PROJECT_ROOT / "working/irons_spells/irons_spellbooks/ko_kr.json"
+    ),
+}
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
 NUMBER = re.compile(r"(?<![A-Za-z])\d+(?:\.\d+)?%?")
@@ -72,6 +80,7 @@ ALLOWED_IDENTICAL_KEYS = {
     "create_enchantment_industry.gui.goggles.gem_cutter.result_line",
     "create_enchantment_industry.gui.goggles.gem_cutter.result_purity",
     "tooltip.create_enchantment_industry.affix_template.effect.line",
+    "itemGroup.create_enchantment_industry.apotheotic",
 }
 
 
@@ -171,7 +180,19 @@ def verify_target(
     output = OUTPUT_ROOT / target.namespace / "lang/ko_kr.json"
     if copy_output:
         output.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(working_path, output)
+        output_source = INTEGRATION_OUTPUT_SOURCES.get(target.namespace, working_path)
+        if output_source != working_path:
+            complete_korean = load_working(output_source)
+            mismatched = [
+                key
+                for key, value in korean.items()
+                if complete_korean.get(key) != value
+            ]
+            if mismatched:
+                raise RuntimeError(
+                    f"{target.namespace} 주 계열 작업본과 불일치: {mismatched[:40]}"
+                )
+        shutil.copyfile(output_source, output)
     reused = sum(candidate.get(key) == value for key, value in korean.items())
     return {
         "batch": target.batch,
