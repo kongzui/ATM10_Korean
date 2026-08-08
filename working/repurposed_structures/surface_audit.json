@@ -1,0 +1,16 @@
+{
+  "family": "repurposed_structures",
+  "data_localized_fields": 38,
+  "data_direct_fields": 0,
+  "nbt_visible_fields": 23,
+  "nbt_translated_fields": 15,
+  "references": {
+    "ftbquests": [],
+    "kubejs": [],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "no_related_references",
+  "kubejs_display_work": "no_related_references",
+  "errors": [],
+  "status": "complete"
+}

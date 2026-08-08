@@ -1,0 +1,11 @@
+{
+  "family": "repurposed_structures",
+  "reviewed_language_keys": 163,
+  "bundled_korean_candidate_keys": 32,
+  "existing_korean_values_reused": 5,
+  "new_or_corrected_language_values": 158,
+  "nbt_files": 3,
+  "nbt_replacements": 15,
+  "errors": [],
+  "status": "complete"
+}

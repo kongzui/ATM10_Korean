@@ -1,0 +1,423 @@
+{
+  "family": "repurposed_structures",
+  "jar": "repurposed_structures-7.5.21+1.21.1-neoforge.jar",
+  "jar_size": 8245469,
+  "jar_mtime_ns": 1783222417310383200,
+  "language_keys": 163,
+  "bundled_korean_candidate_keys": 32,
+  "data_json_files": 2412,
+  "data_localized_fields": [
+    {
+      "file": "data/repurposed_structures/advancement/ancient_cities.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Civilization from the Beyond"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/ancient_cities.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Ancient Cities"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/bastion_underground.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Bastions, Evil, and Bones..."
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/bastion_underground.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Enter an Underground Bastion"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/city_nether.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Blazing Cities"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/city_nether.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Enter a Nether City"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/city_overworld.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Skyward Cities"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/city_overworld.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Enter an Overworld City"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/fortress_jungle.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Decaying Glory"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/fortress_jungle.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Enter a Jungle Fortress"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/igloos.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Having a Hobbit Time!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/igloos.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Igloos!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/mansions.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Lavish Livings"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/mansions.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Mansions!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/mineshafts.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Toiling in the Mines"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/mineshafts.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Mineshafts!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/monuments.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Tributes and Sacrifices"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/monuments.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Monuments!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/outposts.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Territory Control"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/outposts.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Outposts!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/pyramids.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Raider of the Tombs"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/pyramids.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Pyramids!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/root.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Repurposed Structures"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/root.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Start exploring for structures!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/ruined_portal_end.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "The Useless Portal"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/ruined_portal_end.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find an End themed Ruined Portal!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/ruins.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Remains of the Past"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/ruins.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Ruins!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/shipwrecks.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Interdimensional Pirates"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/shipwrecks.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Shipwrecks!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/strongholds.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Following the Eyes"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/strongholds.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Strongholds!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/temples.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Unanswered Prayers"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/temples.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Temples!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/villages.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Sprawling Civilizations"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/villages.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Villages!"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/witch_huts.json",
+      "path": "$.display.title",
+      "value": {
+        "translate": "Hexes and Curses"
+      }
+    },
+    {
+      "file": "data/repurposed_structures/advancement/witch_huts.json",
+      "path": "$.display.description",
+      "value": {
+        "translate": "Find all new Witch Huts!"
+      }
+    }
+  ],
+  "data_direct_fields": [],
+  "nbt_files": 3162,
+  "nbt_visible_fields": [
+    {
+      "file": "data/repurposed_structures/structure/igloos/grassy/basement.nbt",
+      "path": "/blocks/241/nbt/front_text/messages/1",
+      "source": "{\"text\":\"<----\"}",
+      "literal": "<----"
+    },
+    {
+      "file": "data/repurposed_structures/structure/igloos/grassy/basement.nbt",
+      "path": "/blocks/241/nbt/front_text/messages/2",
+      "source": "{\"text\":\"---->\"}",
+      "literal": "---->"
+    },
+    {
+      "file": "data/repurposed_structures/structure/igloos/mangrove/basement.nbt",
+      "path": "/blocks/323/nbt/front_text/messages/1",
+      "source": "{\"text\":\"-->  <--\"}",
+      "literal": "-->  <--"
+    },
+    {
+      "file": "data/repurposed_structures/structure/igloos/mangrove/basement.nbt",
+      "path": "/blocks/323/nbt/front_text/messages/2",
+      "source": "{\"text\":\"-->  <--\"}",
+      "literal": "-->  <--"
+    },
+    {
+      "file": "data/repurposed_structures/structure/igloos/mushroom/basement.nbt",
+      "path": "/blocks/274/nbt/front_text/messages/1",
+      "source": "{\"text\":\"<----\"}",
+      "literal": "<----"
+    },
+    {
+      "file": "data/repurposed_structures/structure/igloos/mushroom/basement.nbt",
+      "path": "/blocks/274/nbt/front_text/messages/2",
+      "source": "{\"text\":\"---->\"}",
+      "literal": "---->"
+    },
+    {
+      "file": "data/repurposed_structures/structure/igloos/stone/basement.nbt",
+      "path": "/blocks/241/nbt/front_text/messages/1",
+      "source": "{\"text\":\"<----\"}",
+      "literal": "<----"
+    },
+    {
+      "file": "data/repurposed_structures/structure/igloos/stone/basement.nbt",
+      "path": "/blocks/241/nbt/front_text/messages/2",
+      "source": "{\"text\":\"---->\"}",
+      "literal": "---->"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+      "path": "/entities/0/nbt/Item/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+      "path": "/entities/2/nbt/Item/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+      "path": "/entities/6/nbt/Item/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+      "path": "/entities/9/nbt/Item/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+      "path": "/entities/11/nbt/Item/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+      "path": "/blocks/533/nbt/Items/2/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+      "path": "/entities/0/nbt/Item/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+      "path": "/entities/2/nbt/Item/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+      "path": "/entities/6/nbt/Item/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+      "path": "/entities/9/nbt/Item/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+      "path": "/entities/11/nbt/Item/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+      "path": "/blocks/467/nbt/Items/2/components/minecraft:custom_name",
+      "source": "{\"text\":\"Dry Whisky\",\"color\":\"gold\",\"italic\":false}",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/zombie/houses/shepherd.nbt",
+      "path": "/entities/0/nbt/Item/components/minecraft:custom_name",
+      "source": "Dry Whisky",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/zombie/houses/shepherd.nbt",
+      "path": "/entities/1/nbt/Item/components/minecraft:potion_contents/minecraft:custom_name",
+      "source": "Dry Whisky",
+      "literal": "Dry Whisky"
+    },
+    {
+      "file": "data/repurposed_structures/structure/villages/badlands/zombie/houses/shepherd.nbt",
+      "path": "/entities/4/nbt/Item/components/minecraft:custom_name",
+      "source": "Dry Whisky",
+      "literal": "Dry Whisky"
+    }
+  ],
+  "guide_candidates": [],
+  "invalid_json": [],
+  "errors": [],
+  "status": "prepared"
+}

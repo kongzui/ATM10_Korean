@@ -1,0 +1,17 @@
+[
+  {
+    "source": "data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+    "output": "output/overrides/kubejs/data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+    "replacements": 6
+  },
+  {
+    "source": "data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+    "output": "output/overrides/kubejs/data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+    "replacements": 6
+  },
+  {
+    "source": "data/repurposed_structures/structure/villages/badlands/zombie/houses/shepherd.nbt",
+    "output": "output/overrides/kubejs/data/repurposed_structures/structure/villages/badlands/zombie/houses/shepherd.nbt",
+    "replacements": 3
+  }
+]

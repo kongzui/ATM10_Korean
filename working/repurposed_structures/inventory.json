@@ -1,0 +1,15 @@
+{
+  "family": "repurposed_structures",
+  "jar": "repurposed_structures-7.5.21+1.21.1-neoforge.jar",
+  "language_keys": 163,
+  "bundled_korean_candidate_keys": 32,
+  "data_json_files": 2412,
+  "data_localized_fields": 38,
+  "data_direct_fields": 0,
+  "nbt_files": 3162,
+  "nbt_visible_fields": 23,
+  "nbt_unique_values": 4,
+  "guide_candidates": 0,
+  "errors": [],
+  "status": "prepared"
+}

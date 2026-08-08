@@ -1,0 +1,30 @@
+{
+  "status": "applied_and_verified",
+  "backup_manifest": "temp/backups/20260808_144942_741052/backup_manifest.json",
+  "expected_paths": [
+    "kubejs/data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+    "kubejs/data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+    "kubejs/data/repurposed_structures/structure/villages/badlands/zombie/houses/shepherd.nbt",
+    "resourcepacks/ATM10_Korean/assets/repurposed_structures/lang/ko_kr.json"
+  ],
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+      "changed_paths": [
+        "kubejs/data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+        "kubejs/data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+        "kubejs/data/repurposed_structures/structure/villages/badlands/zombie/houses/shepherd.nbt",
+        "resourcepacks/ATM10_Korean/assets/repurposed_structures/lang/ko_kr.json"
+      ],
+      "unexpected_changes": [],
+      "hash_verified_paths": [
+        "kubejs/data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+        "kubejs/data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+        "kubejs/data/repurposed_structures/structure/villages/badlands/zombie/houses/shepherd.nbt",
+        "resourcepacks/ATM10_Korean/assets/repurposed_structures/lang/ko_kr.json"
+      ]
+    }
+  ],
+  "errors": []
+}
