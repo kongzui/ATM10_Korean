@@ -35,7 +35,6 @@
   "block.dyenamicsandfriends.bumblezone_ultramarine_super_candle_base": "울트라마린색 대형 양초 받침",
   "block.dyenamicsandfriends.bumblezone_wine_string_curtain": "와인색 실 커튼",
   "block.dyenamicsandfriends.bumblezone_wine_super_candle_base": "와인색 대형 양초 받침",
-  "resourcePack.dyenamicsandfriends.the_bumblezone": "Dyenamics And Friends - The Bumblezone",
   "block.dyenamicsandfriends.productivemetalworks_amber_fire_bricks": "호박색 내화 벽돌",
   "block.dyenamicsandfriends.productivemetalworks_amber_foundry_capacitor": "호박색 주조소 축전기",
   "block.dyenamicsandfriends.productivemetalworks_amber_foundry_controller": "호박색 주조소 제어기",
@@ -144,5 +143,6 @@
   "block.dyenamicsandfriends.productivemetalworks_wine_foundry_drain": "와인색 주조소 배출구",
   "block.dyenamicsandfriends.productivemetalworks_wine_foundry_tank": "와인색 주조소 탱크",
   "block.dyenamicsandfriends.productivemetalworks_wine_foundry_window": "와인색 주조소 창",
-  "resourcePack.dyenamicsandfriends.productivemetalworks": "Dyenamics And Friends - Productive Metalworks"
+  "resourcePack.dyenamicsandfriends.productivemetalworks": "Dyenamics And Friends - Productive Metalworks",
+  "resourcePack.dyenamicsandfriends.the_bumblezone": "Dyenamics And Friends - The Bumblezone"
 }

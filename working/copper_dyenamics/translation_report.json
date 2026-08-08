@@ -1,0 +1,21 @@
+{
+  "reviewed_main_language_keys": 609,
+  "existing_main_korean_reused": 0,
+  "new_main_translations": 609,
+  "everythingcopper_keys": 356,
+  "dyenamics_keys": 253,
+  "dyenamicsandfriends_reviewed_integration_keys": 146,
+  "dyenamicsandfriends_existing_reused": 122,
+  "dyenamicsandfriends_existing_corrected": 24,
+  "quests": {
+    "reviewed_keys": 7,
+    "existing_korean_reused": 5,
+    "new_or_corrected": 2
+  },
+  "cataclysm_override": {
+    "source": "config/ftbquests/quests/chapters/cataclysm.snbt",
+    "output": "output/overrides/config/ftbquests/quests/chapters/cataclysm.snbt",
+    "custom_name_translations": 1
+  },
+  "status": "complete"
+}

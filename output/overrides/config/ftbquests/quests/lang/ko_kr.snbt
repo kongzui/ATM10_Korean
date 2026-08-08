@@ -8138,7 +8138,7 @@
 	task.1809F1F9A3043683.title: "엔더 드래곤 1마리 처치"
 	task.1869893A4F8E9E9C.title: "광물 망치"
 	task.1884D3DA3CCC1439.title: "모든 권리 보유"
-	task.18DA9065596F9097.title: "모드가 적용된 금속 철 곡괭이"
+	task.18DA9065596F9097.title: "모드 추가 금속 곡괭이"
 	task.194C02E800F974D6.title: "Vibranium 비전술사 방어구"
 	task.195338A3977C682E.title: "신비농업 블록"
 	task.1960B985B54B9FBD.title: "전력 케이블"
@@ -11855,4 +11855,5 @@
 	]
 	quest.7FA9EA93602A98EC.title: "&c화염 드래곤 둥지"
 	task.73AE639A41A16778.title: "모든 권리 보유"
+	task.4732C2BE50DB2A80.title: "Dyenamics 염료"
 }

@@ -1,0 +1,49 @@
+{
+  "family": "copper_dyenamics",
+  "jars": [
+    {
+      "mod_id": "everythingcopper",
+      "jar": "everythingcopper-1.21.1-2.4.5.jar",
+      "jar_size": 620493,
+      "jar_mtime_ns": 1783222338736707200,
+      "english_keys": 356,
+      "bundled_languages": [
+        "assets/everythingcopper/lang/de_de.json",
+        "assets/everythingcopper/lang/en_us.json",
+        "assets/everythingcopper/lang/ja_jp.json",
+        "assets/everythingcopper/lang/pt_br.json",
+        "assets/everythingcopper/lang/tr_tr.json"
+      ],
+      "bundled_korean_keys": 0
+    },
+    {
+      "mod_id": "dyenamics",
+      "jar": "dyenamics-1.21.1-3.4.2.jar",
+      "jar_size": 1198641,
+      "jar_mtime_ns": 1783222364188241800,
+      "english_keys": 253,
+      "bundled_languages": [
+        "assets/dyenamics/lang/en_us.json",
+        "assets/dyenamics/lang/ja_jp.json",
+        "assets/dyenamics/lang/ru_ru.json"
+      ],
+      "bundled_korean_keys": 0
+    },
+    {
+      "mod_id": "dyenamicsandfriends",
+      "jar": "dyenamicsandfriends-1.21.1-2.2.2.jar",
+      "jar_size": 8361784,
+      "jar_mtime_ns": 1783222401708401400,
+      "english_keys": 2090,
+      "bundled_languages": [
+        "assets/dyenamicsandfriends/lang/en_us.json",
+        "assets/dyenamicsandfriends/lang/uk_ua.json"
+      ],
+      "bundled_korean_keys": 0
+    }
+  ],
+  "main_language_keys": 609,
+  "dyenamicsandfriends_total_keys": 2090,
+  "dyenamicsandfriends_scoped_integration_keys": 146,
+  "status": "prepared"
+}

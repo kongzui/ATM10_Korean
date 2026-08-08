@@ -1,0 +1,37 @@
+{
+  "family": "copper_dyenamics",
+  "everythingcopper": {
+    "keys": 356,
+    "untranslated_candidates": [],
+    "latin_residue": {},
+    "unexpected_name_collisions": {},
+    "errors": []
+  },
+  "dyenamics": {
+    "keys": 253,
+    "untranslated_candidates": [],
+    "latin_residue": {},
+    "unexpected_name_collisions": {},
+    "errors": []
+  },
+  "dyenamicsandfriends": {
+    "current_jar_total_keys": 2090,
+    "scoped_integration_keys": 146,
+    "color_term_mismatches": [],
+    "errors": []
+  },
+  "quests": {
+    "keys": 7,
+    "latin_residue": {},
+    "cataclysm_custom_name_changes": 1,
+    "cataclysm_only_expected_change": true,
+    "errors": []
+  },
+  "create_color_links": {
+    "linked_keys": 90,
+    "mismatches": [],
+    "errors": []
+  },
+  "errors": [],
+  "status": "complete"
+}

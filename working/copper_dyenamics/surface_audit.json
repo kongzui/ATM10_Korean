@@ -1,0 +1,111 @@
+{
+  "family": "copper_dyenamics",
+  "advancements": {
+    "everythingcopper": {
+      "files": 45,
+      "translated_display_keys": [
+        "advancements.adventure.consume_copper_nugget.title",
+        "advancements.adventure.consume_copper_nugget.description",
+        "advancements.adventure.summon_copper_golem.title",
+        "advancements.adventure.summon_copper_golem.description"
+      ],
+      "direct_display_text": []
+    },
+    "dyenamics": {
+      "files": 252,
+      "translated_display_keys": [],
+      "direct_display_text": []
+    },
+    "dyenamicsandfriends": {
+      "files": 0,
+      "translated_display_keys": [],
+      "direct_display_text": []
+    }
+  },
+  "references": {
+    "ftbquests": [
+      {
+        "path": "config/ftbquests/quests/chapters/basic_armor.snbt",
+        "namespaces": [
+          "everythingcopper"
+        ],
+        "custom_name_literals": 0
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/basic_tools.snbt",
+        "namespaces": [
+          "everythingcopper"
+        ],
+        "custom_name_literals": 0
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/building_tips.snbt",
+        "namespaces": [
+          "dyenamics"
+        ],
+        "custom_name_literals": 1
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/cataclysm.snbt",
+        "namespaces": [
+          "dyenamics"
+        ],
+        "custom_name_literals": 1
+      }
+    ],
+    "kubejs": [
+      {
+        "path": "kubejs/server_scripts/mods/Dyenamics/recipes.js",
+        "namespaces": [
+          "dyenamics"
+        ],
+        "custom_name_literals": 0
+      },
+      {
+        "path": "kubejs/server_scripts/mods/Silent Gear/Recipes.js",
+        "namespaces": [
+          "everythingcopper"
+        ],
+        "custom_name_literals": 0
+      },
+      {
+        "path": "kubejs/server_scripts/Tweaks/recipes_fix.js",
+        "namespaces": [
+          "dyenamics",
+          "dyenamicsandfriends"
+        ],
+        "custom_name_literals": 0
+      },
+      {
+        "path": "kubejs/server_scripts/Tweaks/tags.js",
+        "namespaces": [
+          "dyenamics",
+          "dyenamicsandfriends"
+        ],
+        "custom_name_literals": 0
+      }
+    ],
+    "read_errors": []
+  },
+  "related_quest_keys": [
+    "quest.4745488579AAF603.quest_subtitle",
+    "quest.50B127137AA9E660.quest_desc",
+    "quest.50B127137AA9E660.quest_subtitle",
+    "quest.50B127137AA9E660.title",
+    "quest.64EED65F80A91D9E.quest_subtitle",
+    "task.18DA9065596F9097.title",
+    "task.4732C2BE50DB2A80.title"
+  ],
+  "smart_filters": {
+    "everythingcopper_pickaxes": true,
+    "dyenamics_dyes": true
+  },
+  "cataclysm_custom_name_translated": true,
+  "dyenamicsandfriends_total_keys": 2090,
+  "dyenamicsandfriends_scoped_integration_keys": 146,
+  "dyenamicsandfriends_full_addon_translation": "out_of_plan_scope",
+  "ftbquests_display_work": "complete",
+  "kubejs_display_work": "id_only_references_no_literal_changes",
+  "errors": [],
+  "status": "complete"
+}
