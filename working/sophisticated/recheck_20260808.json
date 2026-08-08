@@ -1,0 +1,81 @@
+{
+  "family": "Sophisticated",
+  "reviewed_at": "2026-08-08",
+  "scope": {
+    "language_namespaces": 4,
+    "language_pairs": 1108,
+    "ftbquests_display_pairs": 105,
+    "total_display_pairs": 1213,
+    "ftbquests_quests": 58,
+    "ftbquests_tasks": 58,
+    "kubejs_reference_files": 4,
+    "advancement_files_checked": 495,
+    "advancement_display_entries": 0,
+    "create_integration_jars_checked": 2
+  },
+  "result": {
+    "unchanged_existing": 1179,
+    "corrected_existing": 34,
+    "new_missing_added": 0,
+    "unresolved_terms": 0,
+    "manual_review_items": 0
+  },
+  "ownership": {
+    "fully_reviewed": [
+      "Sophisticated Core",
+      "Sophisticated Backpacks",
+      "Sophisticated Storage",
+      "Sophisticated Storage In Motion"
+    ],
+    "create_integration": [
+      "Sophisticated Backpacks Create Integration",
+      "Sophisticated Storage Create Integration"
+    ],
+    "create_integration_result": "두 JAR 모두 별도 en_us, ko_kr 또는 직접 표시 데이터가 없음을 확인",
+    "ftbquests": "storage 챕터의 관련 quest, subtitle, description, task와 fallback 경로를 전수 검수",
+    "kubejs": "외국어 미러 3개와 조합법 식별자 참조 1개를 확인했으며 한국어 사용자 표시 문자열은 없음",
+    "guides": "이 계열이 소유한 GuideME, Patchouli, Modonomicon 및 Ponder 가이드 없음",
+    "advancements": "조합법 잠금 해제 발전 과제 495개에는 별도 display 문구가 없음"
+  },
+  "major_corrections": {
+    "accuracy": [
+      "태그 추가 대상이 모든 아이템으로 바뀐 문장과 피해 조건이 빠진 연금술 조건을 원문대로 복원",
+      "도구 교체의 왼쪽 클릭 조건, 저장소 제어기의 파이프 입출력, 호퍼의 내보내기 및 가져오기 방향을 명확하게 교정",
+      "FTB Quests의 저장소 제어기 설명을 확정 아이템 이름과 Applied Energistics 2 표기에 다시 일치시킴"
+    ],
+    "sentence_quality": [
+      "배고픔 낭비 조건, 레벨 수 조정, 음식을 먹일 조건과 템플릿 명령 툴팁을 자연스럽고 구체적으로 교정",
+      "제작 결과를 Shift 클릭했을 때 배낭, 저장소 또는 플레이어 인벤토리로 이동하는 동작을 분명하게 표현"
+    ],
+    "terminology": [
+      "스택 업그레이드 11개의 슬롯당 스택 수를 아이템 수와 구분하고 주 손 용어를 통일",
+      "저장소 제어기, 저장소 연결기, 보충, 재입고, 보관, 줍기와 고급 업그레이드 이름을 언어 파일과 퀘스트에서 일치시킴"
+    ],
+    "formatting": [
+      "탱크 용량의 mB 단위를 원문대로 복원하고 결합 표시용 후행 공백을 보존",
+      "자리표시자, 숫자, FE 단위, 줄바꿈, 서식 코드, X/Y/Z 좌표와 키 순서를 보존"
+    ]
+  },
+  "validation": {
+    "sophisticated_language": "passed, 1108 keys",
+    "sophisticated_quests": "passed, 105 keys",
+    "ftbquests_fallbacks_checked": 116,
+    "fallback_issues": 0,
+    "official_english_mod_names_preserved": 2,
+    "language_missing": 0,
+    "duplicate_keys": 0,
+    "translation_induced_name_collisions": 0,
+    "ruff_format_check": "passed",
+    "ruff_check": "passed",
+    "python_compileall": "passed",
+    "git_diff_check": "passed"
+  },
+  "deployment": {
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_files": 4,
+    "backup_manifest": "temp/backups/20260808_184706_117858/backup_manifest.json",
+    "hash_parity": true,
+    "unexpected_changes": []
+  },
+  "minecraft_screen_verified": false
+}

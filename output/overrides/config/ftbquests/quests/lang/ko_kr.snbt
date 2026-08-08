@@ -2041,7 +2041,7 @@
 	quest.1FDC8725105D822A.title: "주방 세트"
 	quest.1FE052F643401232.quest_desc: ["배낭 업그레이드를 제작할 때 필요한 기반 부품입니다."]
 	quest.1FE052F643401232.quest_subtitle: "업그레이드의 기반"
-	quest.1FE17B1C7C639F88.quest_desc: ["스토리지 컨트롤러를 사용하면 여러 저장소를 하나의 거대한 다중 블록 저장소처럼 다룰 수 있습니다.\\n\\n스토리지 컨트롤러는 연결된 모든 저장소의 입출력 지점 역할을 하므로, 매우 큰 저장소 네트워크를 만들고 Applied Energistics나 Integrated Dynamics 같은 모드와 연동할 수 있습니다.\\n\\n저장소를 컨트롤러 옆이나 이미 연결된 저장소 옆에 놓으면 연결됩니다. 모든 방향으로 컨트롤러에서 14블록까지 작동합니다."]
+	quest.1FE17B1C7C639F88.quest_desc: ["저장소 제어기를 사용하면 여러 저장소를 하나의 큰 멀티블록 저장소처럼 다룰 수 있습니다.\\n\\n저장소 제어기는 연결된 모든 저장소의 입출력 지점 역할을 하므로, 거대한 저장소 네트워크를 만들고 Applied Energistics 2나 Integrated Dynamics 같은 모드와 연동할 수 있습니다.\\n\\n저장소를 제어기 옆이나 이미 연결된 저장소 옆에 놓으면 자동으로 연결됩니다. 모든 방향으로 제어기에서 14블록까지 작동합니다."]
 	quest.1FE47F03B5DF492D.quest_desc: ["{image:atm:textures/questpics/allthemodium/all_armor_unoarcane.png width:100 height:175 align:center}"]
 	quest.1FE47F03B5DF492D.title: "&5Unobtainium 비전술사 방어구"
 	quest.1FE7C52491E7499B.quest_desc: [

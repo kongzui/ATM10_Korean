@@ -7,6 +7,7 @@ import argparse
 import json
 import re
 import shutil
+from collections import Counter
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -17,6 +18,8 @@ from sophisticated_catalog import BATCHES, TARGETS, Target
 OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
+NUMBER = re.compile(r"\d+(?:[.,]\d+)*")
+UNIT = re.compile(r"(?<![A-Za-z0-9_])(?:FE|mB)(?![A-Za-z0-9_])")
 ALLOWED_IDENTICAL_KEYS = {
     "itemGroup.sophisticatedcore",
     "item.sophisticatedcore.storage.tooltip.energy",
@@ -71,8 +74,21 @@ def validate_value(
             errors.append(f"자리표시자 불일치: {key}")
         if protected(english, FORMAT_CODE) != protected(korean, FORMAT_CODE):
             errors.append(f"서식 코드 불일치: {key}")
+        source_without_placeholders = PLACEHOLDER.sub("", english)
+        target_without_placeholders = PLACEHOLDER.sub("", korean)
+        missing_numbers = Counter(
+            protected(source_without_placeholders, NUMBER)
+        ) - Counter(protected(target_without_placeholders, NUMBER))
+        if missing_numbers:
+            errors.append(f"원문 숫자 누락: {key}: {dict(missing_numbers)}")
+        if protected(english, UNIT) != protected(korean, UNIT):
+            errors.append(f"단위 불일치: {key}")
         if english.count("\n") != korean.count("\n"):
             errors.append(f"줄바꿈 수 불일치: {key}")
+        if len(english) - len(english.lstrip()) != len(korean) - len(korean.lstrip()):
+            errors.append(f"선행 공백 불일치: {key}")
+        if len(english) - len(english.rstrip()) != len(korean) - len(korean.rstrip()):
+            errors.append(f"후행 공백 불일치: {key}")
         return
     if english != korean:
         errors.append(f"비문자 값 변경: {key}")

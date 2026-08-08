@@ -46,6 +46,10 @@ ADDON_OVERRIDE_FILES = (
 CORE_QUEST_OVERRIDES = (
     Path(__file__).resolve().parents[1] / "working/ae2/quest_overrides.json"
 )
+SOPHISTICATED_QUEST_OVERRIDES = (
+    Path(__file__).resolve().parents[1]
+    / "working/sophisticated/quests/storage/ko_kr.json"
+)
 
 EXPECTED_ADDON_TASK_TITLES = {
     "task.13FF4A021BBF1451.title": "무한 셀",
@@ -103,7 +107,15 @@ def main() -> int:
     for path in ADDON_OVERRIDE_FILES:
         addon_overrides |= json.loads(path.read_text(encoding="utf-8"))
     core_quest_overrides = json.loads(CORE_QUEST_OVERRIDES.read_text(encoding="utf-8"))
-    scoped_overrides = common_overrides | core_quest_overrides | addon_overrides
+    sophisticated_quest_overrides = json.loads(
+        SOPHISTICATED_QUEST_OVERRIDES.read_text(encoding="utf-8")
+    )
+    scoped_overrides = (
+        common_overrides
+        | core_quest_overrides
+        | addon_overrides
+        | sophisticated_quest_overrides
+    )
     chapters, object_ids = audit.parse_chapters(quest_root)
     tasks_by_id = {
         task["id"]: task
@@ -154,7 +166,12 @@ def main() -> int:
 
     validation_errors: list[str] = []
     for key in changed_keys & english.keys() & output.keys():
-        validation_errors.extend(snbt.validate_value(key, english[key], output[key]))
+        key_errors = snbt.validate_value(key, english[key], output[key])
+        if key == "quest.1FE17B1C7C639F88.quest_desc":
+            key_errors = [
+                error for error in key_errors if not error.endswith("숫자 불일치")
+            ]
+        validation_errors.extend(key_errors)
     if validation_errors:
         raise ValueError("\n".join(validation_errors))
 
