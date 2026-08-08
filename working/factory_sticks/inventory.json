@@ -1,0 +1,23 @@
+{
+  "family": "factory_sticks",
+  "namespaces": [
+    {
+      "namespace": "factory_blocks",
+      "jar": "factory_blocks-neoforge-1.4.0+mc1.21.1.jar",
+      "jar_size": 809234,
+      "jar_mtime_ns": 1783222275413333500,
+      "english_keys": 101,
+      "bundled_korean": false
+    },
+    {
+      "namespace": "constructionstick",
+      "jar": "ConstructionSticks-1.21.1-1.4.1.jar",
+      "jar_size": 264441,
+      "jar_mtime_ns": 1783222363917438100,
+      "english_keys": 142,
+      "bundled_korean": false
+    }
+  ],
+  "english_keys": 243,
+  "status": "prepared"
+}

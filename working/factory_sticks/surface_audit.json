@@ -1,0 +1,101 @@
+{
+  "family": "factory_sticks",
+  "jars": [
+    {
+      "namespace": "factory_blocks",
+      "jar": "factory_blocks-neoforge-1.4.0+mc1.21.1.jar",
+      "advancement_files": [],
+      "advancement_translation_keys": [],
+      "missing_advancement_keys": [],
+      "direct_advancement_text": []
+    },
+    {
+      "namespace": "constructionstick",
+      "jar": "ConstructionSticks-1.21.1-1.4.1.jar",
+      "advancement_files": [
+        "data/constructionstick/advancement/iron_stick.json",
+        "data/constructionstick/advancement/recipes/misc/template_angel.json",
+        "data/constructionstick/advancement/recipes/misc/template_battery.json",
+        "data/constructionstick/advancement/recipes/misc/template_destruction.json",
+        "data/constructionstick/advancement/recipes/misc/template_replacement.json",
+        "data/constructionstick/advancement/recipes/misc/template_unbreakable.json",
+        "data/constructionstick/advancement/recipes/tools/copper_stick.json",
+        "data/constructionstick/advancement/recipes/tools/diamond_stick.json",
+        "data/constructionstick/advancement/recipes/tools/iron_stick.json",
+        "data/constructionstick/advancement/recipes/tools/netherite_stick.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/copper_stick_with_template_angel.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/copper_stick_with_template_battery.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/copper_stick_with_template_destruction.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/copper_stick_with_template_replacement.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/copper_stick_with_template_unbreakable.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/diamond_stick_with_template_angel.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/diamond_stick_with_template_battery.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/diamond_stick_with_template_destruction.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/diamond_stick_with_template_replacement.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/diamond_stick_with_template_unbreakable.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/iron_stick_with_template_angel.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/iron_stick_with_template_battery.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/iron_stick_with_template_destruction.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/iron_stick_with_template_replacement.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/iron_stick_with_template_unbreakable.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/netherite_stick_with_template_angel.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/netherite_stick_with_template_battery.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/netherite_stick_with_template_destruction.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/netherite_stick_with_template_replacement.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/netherite_stick_with_template_unbreakable.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/wooden_stick_with_template_angel.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/wooden_stick_with_template_battery.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/wooden_stick_with_template_destruction.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/wooden_stick_with_template_replacement.json",
+        "data/constructionstick/advancement/recipes/tools/smithing_upgrade/wooden_stick_with_template_unbreakable.json",
+        "data/constructionstick/advancement/recipes/tools/wooden_stick.json",
+        "data/constructionstick/advancement/root.json",
+        "data/constructionstick/advancement/template_angel.json",
+        "data/constructionstick/advancement/template_battery.json",
+        "data/constructionstick/advancement/template_destruction.json",
+        "data/constructionstick/advancement/template_replacement.json",
+        "data/constructionstick/advancement/template_unbreakable.json"
+      ],
+      "advancement_translation_keys": [
+        "advancement.constructionstick.iron_stick.desc",
+        "advancement.constructionstick.iron_stick.title",
+        "advancement.constructionstick.root.desc",
+        "advancement.constructionstick.root.title",
+        "advancement.constructionstick.template_angel.desc",
+        "advancement.constructionstick.template_angel.title",
+        "advancement.constructionstick.template_battery.desc",
+        "advancement.constructionstick.template_battery.title",
+        "advancement.constructionstick.template_destruction.desc",
+        "advancement.constructionstick.template_destruction.title",
+        "advancement.constructionstick.template_replacement.desc",
+        "advancement.constructionstick.template_replacement.title",
+        "advancement.constructionstick.template_unbreakable.desc",
+        "advancement.constructionstick.template_unbreakable.title"
+      ],
+      "missing_advancement_keys": [],
+      "direct_advancement_text": []
+    }
+  ],
+  "references": {
+    "quest_references": [
+      "config/ftbquests/quests/chapters/building_tips.snbt:3168:id: \"constructionstick:copper_stick\"",
+      "config/ftbquests/quests/chapters/building_tips.snbt:3175:id: \"constructionstick:template_angel\"",
+      "config/ftbquests/quests/chapters/building_tips.snbt:3181:item: { components: { \"ftbfiltersystem:filter\": \"or(item(constructionstick:wooden_stick)item(constructionstick:copper_stick)item(constructionstick:iron_stick)item(constructionstick:diamond_stick)item(constructionstick:netherite_stick))\" }, count: 1, id: \"ftbfiltersystem:smart_filter\" }"
+    ],
+    "kubejs_references": [
+      "kubejs/server_scripts/Tweaks/recipes_fix.js:162:event.disable(\"factory_blocks:mason_table_old\")"
+    ],
+    "custom_name_candidates": [],
+    "read_errors": []
+  },
+  "related_quest_keys": [
+    "quest.318A2CC03D1D0B04.quest_desc",
+    "quest.318A2CC03D1D0B04.title",
+    "task.3BE936F7D054FDDA.title"
+  ],
+  "related_quest_keys_corrected": 3,
+  "ftbquests_display_work": "complete",
+  "kubejs_display_work": "ids_only",
+  "errors": [],
+  "status": "complete"
+}

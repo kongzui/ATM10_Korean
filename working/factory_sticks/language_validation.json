@@ -1,0 +1,30 @@
+{
+  "family": "factory_sticks",
+  "namespaces": [
+    {
+      "namespace": "factory_blocks",
+      "keys": 101,
+      "existing_korean_reused": 0,
+      "new_translations": 101,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    {
+      "namespace": "constructionstick",
+      "keys": 142,
+      "existing_korean_reused": 0,
+      "new_translations": 142,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    }
+  ],
+  "keys": 243,
+  "existing_korean_reused": 0,
+  "new_translations": 243,
+  "errors": [],
+  "status": "complete"
+}

@@ -1,0 +1,30 @@
+{
+  "family": "factory_sticks",
+  "language_keys": 243,
+  "existing_korean_reused": 0,
+  "new_or_corrected_translations": 246,
+  "ftbquests": {
+    "reviewed_keys": 3,
+    "corrected_keys": 3,
+    "display_work": "complete"
+  },
+  "kubejs_references": 1,
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/factory_blocks/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/constructionstick/lang/ko_kr.json",
+    "config/ftbquests/quests/lang/ko_kr.snbt"
+  ],
+  "errors": [],
+  "status": "complete",
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/constructionstick/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/factory_blocks/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260808_114527_613482/backup_manifest.json",
+    "errors": []
+  }
+}
