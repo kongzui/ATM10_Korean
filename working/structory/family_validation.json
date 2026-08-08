@@ -1,0 +1,22 @@
+{
+  "family": "structory",
+  "language_keys": 0,
+  "data": {
+    "files": 4,
+    "replacements": 5,
+    "errors": [],
+    "status": "complete"
+  },
+  "nbt": {
+    "files": 3,
+    "replacements": 3,
+    "errors": [],
+    "status": "complete"
+  },
+  "surface_audit": "complete",
+  "ftbquests": "no_related_references",
+  "kubejs": "no_related_references",
+  "output_files": 7,
+  "errors": [],
+  "status": "complete"
+}

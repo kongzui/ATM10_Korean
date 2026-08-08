@@ -1,0 +1,123 @@
+{
+  "family": "structory",
+  "jars": [
+    {
+      "label": "structory",
+      "jar": "Structory_26.1_v1.3.16.jar",
+      "jar_size": 1261336,
+      "jar_mtime_ns": 1783222484689953400,
+      "language_files": [],
+      "data_json_files": 135,
+      "data_direct_fields": [],
+      "data_localized_fields": [],
+      "invalid_json": [],
+      "nbt_files": 238,
+      "nbt_visible_fields": [
+        {
+          "file": "data/structory/structure/entities/villager/bandit.nbt",
+          "path": "/entities/0/nbt/CustomName",
+          "source": "{\"text\":\"Bandit\"}",
+          "literal": "Bandit"
+        },
+        {
+          "file": "data/structory/structure/entities/villager/outlander.nbt",
+          "path": "/entities/0/nbt/CustomName",
+          "source": "{\"text\":\"Outlander\"}",
+          "literal": "Outlander"
+        },
+        {
+          "file": "data/structory/structure/entities/villager/vagabond.nbt",
+          "path": "/entities/0/nbt/CustomName",
+          "source": "{\"text\":\"Vagabond\"}",
+          "literal": "Vagabond"
+        },
+        {
+          "file": "data/structory/structure/harvest/old_manor/decor1.nbt",
+          "path": "/blocks/79/nbt/Text3",
+          "source": "{\"text\":\"I    r   e a\"}",
+          "literal": "I    r   e a"
+        },
+        {
+          "file": "data/structory/structure/harvest/old_manor/decor1.nbt",
+          "path": "/blocks/79/nbt/Text2",
+          "source": "{\"text\":\" e a\"}",
+          "literal": " e a"
+        },
+        {
+          "file": "data/structory/structure/harvest/old_manor/old_manor.nbt",
+          "path": "/blocks/20571/nbt/Text4",
+          "source": "{\"text\":\".                    \"}",
+          "literal": ".                    "
+        },
+        {
+          "file": "data/structory/structure/harvest/old_manor/old_manor.nbt",
+          "path": "/blocks/20571/nbt/Text1",
+          "source": "{\"text\":\".                   \"}",
+          "literal": ".                   "
+        },
+        {
+          "file": "data/structory/structure/harvest/old_mansion.nbt",
+          "path": "/blocks/16223/nbt/Text4",
+          "source": "{\"text\":\".                    \"}",
+          "literal": ".                    "
+        },
+        {
+          "file": "data/structory/structure/harvest/old_mansion.nbt",
+          "path": "/blocks/16223/nbt/Text1",
+          "source": "{\"text\":\".                   \"}",
+          "literal": ".                   "
+        }
+      ],
+      "guide_candidates": [],
+      "errors": []
+    },
+    {
+      "label": "structory_towers",
+      "jar": "Structory_Towers_26.1_v1.0.16.jar",
+      "jar_size": 491545,
+      "jar_mtime_ns": 1783222465992987800,
+      "language_files": [],
+      "data_json_files": 125,
+      "data_direct_fields": [
+        {
+          "file": "data/structory_towers/loot_table/potions/bad_omen.json",
+          "path": "$.pools[0].entries[0].functions[0].name.text",
+          "value": "Potion of Bad Omen",
+          "literal": "Potion of Bad Omen"
+        },
+        {
+          "file": "data/structory_towers/loot_table/potions/darkness.json",
+          "path": "$.pools[0].entries[0].functions[0].name.text",
+          "value": "Splash Potion of Darkness",
+          "literal": "Splash Potion of Darkness"
+        },
+        {
+          "file": "data/structory_towers/loot_table/potions/eternal_glowing.json",
+          "path": "$.pools[0].entries[0].functions[0].name.text",
+          "value": "Splash Potion of Eternal Glowing",
+          "literal": "Splash Potion of Eternal Glowing"
+        },
+        {
+          "file": "data/structory_towers/loot_table/potions/eternal_glowing.json",
+          "path": "$.pools[0].entries[0].functions[1].lore[0].text",
+          "value": "Glowing (∞)",
+          "literal": "Glowing (∞)"
+        },
+        {
+          "file": "data/structory_towers/loot_table/potions/heroism.json",
+          "path": "$.pools[0].entries[0].functions[0].name.text",
+          "value": "Potion of Heroism",
+          "literal": "Potion of Heroism"
+        }
+      ],
+      "data_localized_fields": [],
+      "invalid_json": [],
+      "nbt_files": 32,
+      "nbt_visible_fields": [],
+      "guide_candidates": [],
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "status": "prepared"
+}

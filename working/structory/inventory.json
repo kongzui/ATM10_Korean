@@ -1,0 +1,27 @@
+{
+  "family": "structory",
+  "jars": [
+    {
+      "label": "structory",
+      "jar": "Structory_26.1_v1.3.16.jar",
+      "language_files": 0,
+      "data_json_files": 135,
+      "data_direct_fields": 0,
+      "data_localized_fields": 0,
+      "nbt_files": 238,
+      "nbt_visible_fields": 9
+    },
+    {
+      "label": "structory_towers",
+      "jar": "Structory_Towers_26.1_v1.0.16.jar",
+      "language_files": 0,
+      "data_json_files": 125,
+      "data_direct_fields": 5,
+      "data_localized_fields": 0,
+      "nbt_files": 32,
+      "nbt_visible_fields": 0
+    }
+  ],
+  "errors": [],
+  "status": "prepared"
+}

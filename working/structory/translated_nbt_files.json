@@ -1,0 +1,17 @@
+[
+  {
+    "source": "data/structory/structure/entities/villager/bandit.nbt",
+    "output": "output/overrides/kubejs/data/structory/structure/entities/villager/bandit.nbt",
+    "replacements": 1
+  },
+  {
+    "source": "data/structory/structure/entities/villager/outlander.nbt",
+    "output": "output/overrides/kubejs/data/structory/structure/entities/villager/outlander.nbt",
+    "replacements": 1
+  },
+  {
+    "source": "data/structory/structure/entities/villager/vagabond.nbt",
+    "output": "output/overrides/kubejs/data/structory/structure/entities/villager/vagabond.nbt",
+    "replacements": 1
+  }
+]

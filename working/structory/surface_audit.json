@@ -1,0 +1,17 @@
+{
+  "family": "structory",
+  "language_work": "no_language_files",
+  "data_direct_fields": 5,
+  "nbt_visible_fields": 9,
+  "translated_nbt_fields": 3,
+  "preserved_decoration_fields": 6,
+  "references": {
+    "ftbquests": [],
+    "kubejs": [],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "no_related_references",
+  "kubejs_display_work": "no_related_references",
+  "errors": [],
+  "status": "complete"
+}

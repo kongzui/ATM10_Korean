@@ -1,0 +1,22 @@
+[
+  {
+    "source": "data/structory_towers/loot_table/potions/bad_omen.json",
+    "output": "output/overrides/kubejs/data/structory_towers/loot_table/potions/bad_omen.json",
+    "replacements": 1
+  },
+  {
+    "source": "data/structory_towers/loot_table/potions/darkness.json",
+    "output": "output/overrides/kubejs/data/structory_towers/loot_table/potions/darkness.json",
+    "replacements": 1
+  },
+  {
+    "source": "data/structory_towers/loot_table/potions/eternal_glowing.json",
+    "output": "output/overrides/kubejs/data/structory_towers/loot_table/potions/eternal_glowing.json",
+    "replacements": 2
+  },
+  {
+    "source": "data/structory_towers/loot_table/potions/heroism.json",
+    "output": "output/overrides/kubejs/data/structory_towers/loot_table/potions/heroism.json",
+    "replacements": 1
+  }
+]

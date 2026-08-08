@@ -1,0 +1,39 @@
+{
+  "status": "applied_and_verified",
+  "backup_manifest": "temp/backups/20260808_145317_298208/backup_manifest.json",
+  "expected_paths": [
+    "kubejs/data/structory/structure/entities/villager/bandit.nbt",
+    "kubejs/data/structory/structure/entities/villager/outlander.nbt",
+    "kubejs/data/structory/structure/entities/villager/vagabond.nbt",
+    "kubejs/data/structory_towers/loot_table/potions/bad_omen.json",
+    "kubejs/data/structory_towers/loot_table/potions/darkness.json",
+    "kubejs/data/structory_towers/loot_table/potions/eternal_glowing.json",
+    "kubejs/data/structory_towers/loot_table/potions/heroism.json"
+  ],
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+      "changed_paths": [
+        "kubejs/data/structory/structure/entities/villager/bandit.nbt",
+        "kubejs/data/structory/structure/entities/villager/outlander.nbt",
+        "kubejs/data/structory/structure/entities/villager/vagabond.nbt",
+        "kubejs/data/structory_towers/loot_table/potions/bad_omen.json",
+        "kubejs/data/structory_towers/loot_table/potions/darkness.json",
+        "kubejs/data/structory_towers/loot_table/potions/eternal_glowing.json",
+        "kubejs/data/structory_towers/loot_table/potions/heroism.json"
+      ],
+      "unexpected_changes": [],
+      "hash_verified_paths": [
+        "kubejs/data/structory/structure/entities/villager/bandit.nbt",
+        "kubejs/data/structory/structure/entities/villager/outlander.nbt",
+        "kubejs/data/structory/structure/entities/villager/vagabond.nbt",
+        "kubejs/data/structory_towers/loot_table/potions/bad_omen.json",
+        "kubejs/data/structory_towers/loot_table/potions/darkness.json",
+        "kubejs/data/structory_towers/loot_table/potions/eternal_glowing.json",
+        "kubejs/data/structory_towers/loot_table/potions/heroism.json"
+      ]
+    }
+  ],
+  "errors": []
+}

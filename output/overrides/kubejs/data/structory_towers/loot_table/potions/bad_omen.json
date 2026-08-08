@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 500,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "흉조의 물약",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_color": 424462,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:bad_omen",
+                      "duration": 1200
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
