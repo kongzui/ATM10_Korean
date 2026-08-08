@@ -1,0 +1,13 @@
+{
+  "betterstrongholds.commands.locate.stronghold": "대신 /locate structure betterstrongholds:stronghold 명령을 사용하세요!",
+  "Use /locate structure betterstrongholds:stronghold instead!": "대신 /locate structure betterstrongholds:stronghold 명령을 사용하세요!",
+  "text.autoconfig.betterstrongholds-fabric-1_21.title": "YUNG's Better Strongholds",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds": "YUNG's Better Strongholds",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general": "일반 설정",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.@Tooltip": "일반 설정입니다.",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.enableStructureRuin": "구조물 훼손 활성화",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.enableStructureRuin.@Tooltip[0]": "작은 구불구불한 동굴이 요새를 약간 훼손할 수 있게 합니다.",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.enableStructureRuin.@Tooltip[1]": "큰 동굴에는 영향을 받지 않습니다.",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.filledPortalFrameChance": "채워진 엔드 차원문 틀 확률",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.filledPortalFrameChance.@Tooltip": "각 엔드 차원문 틀이 엔더의 눈으로 채워진 상태로 생성될 확률입니다."
+}

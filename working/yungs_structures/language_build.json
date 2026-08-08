@@ -1,0 +1,62 @@
+{
+  "family": "yungs_structures",
+  "mods": [
+    {
+      "label": "betterdeserttemples",
+      "namespace": "betterdeserttemples",
+      "translated_keys": 13,
+      "status": "complete"
+    },
+    {
+      "label": "betterdungeons",
+      "namespace": "betterdungeons",
+      "translated_keys": 86,
+      "status": "complete"
+    },
+    {
+      "label": "betterendisland",
+      "namespace": "betterendisland",
+      "translated_keys": 13,
+      "status": "complete"
+    },
+    {
+      "label": "betterjungletemples",
+      "namespace": "betterjungletemples",
+      "translated_keys": 11,
+      "status": "complete"
+    },
+    {
+      "label": "bettermineshafts",
+      "namespace": "bettermineshafts",
+      "translated_keys": 60,
+      "status": "complete"
+    },
+    {
+      "label": "betterfortresses",
+      "namespace": "betterfortresses",
+      "translated_keys": 4,
+      "status": "complete"
+    },
+    {
+      "label": "betteroceanmonuments",
+      "namespace": "betteroceanmonuments",
+      "translated_keys": 4,
+      "status": "complete"
+    },
+    {
+      "label": "betterstrongholds",
+      "namespace": "betterstrongholds",
+      "translated_keys": 11,
+      "status": "complete"
+    },
+    {
+      "label": "betterwitchhuts",
+      "namespace": "betterwitchhuts",
+      "translated_keys": 4,
+      "status": "complete"
+    }
+  ],
+  "translated_keys": 206,
+  "errors": [],
+  "status": "complete"
+}

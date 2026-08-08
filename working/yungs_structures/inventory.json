@@ -1,0 +1,107 @@
+{
+  "family": "yungs_structures",
+  "jars": [
+    {
+      "label": "yungsapi",
+      "namespace": null,
+      "jar": "YungsApi-1.21.1-NeoForge-5.1.6.jar",
+      "jar_size": 388678,
+      "jar_mtime_ns": 1783222389204782300,
+      "english_keys": 0,
+      "bundled_korean_keys": 0
+    },
+    {
+      "label": "betterdeserttemples",
+      "namespace": "betterdeserttemples",
+      "jar": "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+      "jar_size": 905839,
+      "jar_mtime_ns": 1783222461906132500,
+      "english_keys": 13,
+      "bundled_korean_keys": 0
+    },
+    {
+      "label": "betterdungeons",
+      "namespace": "betterdungeons",
+      "jar": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "jar_size": 782160,
+      "jar_mtime_ns": 1783222368704179500,
+      "english_keys": 86,
+      "bundled_korean_keys": 0
+    },
+    {
+      "label": "betterendisland",
+      "namespace": "betterendisland",
+      "jar": "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
+      "jar_size": 398130,
+      "jar_mtime_ns": 1783222497495904100,
+      "english_keys": 13,
+      "bundled_korean_keys": 0
+    },
+    {
+      "label": "betterjungletemples",
+      "namespace": "betterjungletemples",
+      "jar": "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+      "jar_size": 795839,
+      "jar_mtime_ns": 1783222279923055000,
+      "english_keys": 11,
+      "bundled_korean_keys": 0
+    },
+    {
+      "label": "bettermineshafts",
+      "namespace": "bettermineshafts",
+      "jar": "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+      "jar_size": 493967,
+      "jar_mtime_ns": 1783222415492497800,
+      "english_keys": 60,
+      "bundled_korean_keys": 0
+    },
+    {
+      "label": "betterfortresses",
+      "namespace": "betterfortresses",
+      "jar": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "jar_size": 609639,
+      "jar_mtime_ns": 1783222327274224900,
+      "english_keys": 4,
+      "bundled_korean_keys": 0
+    },
+    {
+      "label": "betteroceanmonuments",
+      "namespace": "betteroceanmonuments",
+      "jar": "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+      "jar_size": 1025571,
+      "jar_mtime_ns": 1783222406903856400,
+      "english_keys": 4,
+      "bundled_korean_keys": 0
+    },
+    {
+      "label": "betterstrongholds",
+      "namespace": "betterstrongholds",
+      "jar": "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+      "jar_size": 461244,
+      "jar_mtime_ns": 1783222353682696200,
+      "english_keys": 11,
+      "bundled_korean_keys": 0
+    },
+    {
+      "label": "betterwitchhuts",
+      "namespace": "betterwitchhuts",
+      "jar": "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+      "jar_size": 174789,
+      "jar_mtime_ns": 1783222248189411400,
+      "english_keys": 4,
+      "bundled_korean_keys": 0
+    },
+    {
+      "label": "yungsextras",
+      "namespace": null,
+      "jar": "YungsExtras-1.21.1-NeoForge-5.1.1.jar",
+      "jar_size": 198183,
+      "jar_mtime_ns": 1783222440576790900,
+      "english_keys": 0,
+      "bundled_korean_keys": 0
+    }
+  ],
+  "english_keys": 206,
+  "bundled_korean_candidate_keys": 0,
+  "status": "prepared"
+}

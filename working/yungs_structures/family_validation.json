@@ -1,0 +1,148 @@
+{
+  "family": "yungs_structures",
+  "language": {
+    "mods": [
+      {
+        "label": "betterdeserttemples",
+        "namespace": "betterdeserttemples",
+        "keys": 13,
+        "expected_keys": 13,
+        "bundled_candidate_keys": 0,
+        "bundled_candidate_values_reused": 0,
+        "new_or_corrected_values": 13,
+        "intentional_same_keys": [
+          "betterdeserttemples.advancements.root.title",
+          "text.autoconfig.betterdeserttemples-fabric-1_21.title"
+        ],
+        "errors": [],
+        "status": "complete"
+      },
+      {
+        "label": "betterdungeons",
+        "namespace": "betterdungeons",
+        "keys": 86,
+        "expected_keys": 86,
+        "bundled_candidate_keys": 0,
+        "bundled_candidate_values_reused": 0,
+        "new_or_corrected_values": 86,
+        "intentional_same_keys": [
+          "YUNG's Better Dungeons",
+          "betterdungeons.advancements.root.title",
+          "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons",
+          "text.autoconfig.betterdungeons-fabric-1_21.title"
+        ],
+        "errors": [],
+        "status": "complete"
+      },
+      {
+        "label": "betterendisland",
+        "namespace": "betterendisland",
+        "keys": 13,
+        "expected_keys": 13,
+        "bundled_candidate_keys": 0,
+        "bundled_candidate_values_reused": 0,
+        "new_or_corrected_values": 13,
+        "intentional_same_keys": [
+          "text.autoconfig.betterendisland-fabric-1_21.title"
+        ],
+        "errors": [],
+        "status": "complete"
+      },
+      {
+        "label": "betterjungletemples",
+        "namespace": "betterjungletemples",
+        "keys": 11,
+        "expected_keys": 11,
+        "bundled_candidate_keys": 0,
+        "bundled_candidate_values_reused": 0,
+        "new_or_corrected_values": 11,
+        "intentional_same_keys": [
+          "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples",
+          "text.autoconfig.betterjungletemples-fabric-1_21.title"
+        ],
+        "errors": [],
+        "status": "complete"
+      },
+      {
+        "label": "bettermineshafts",
+        "namespace": "bettermineshafts",
+        "keys": 60,
+        "expected_keys": 60,
+        "bundled_candidate_keys": 0,
+        "bundled_candidate_values_reused": 0,
+        "new_or_corrected_values": 60,
+        "intentional_same_keys": [
+          "text.autoconfig.bettermineshafts-fabric-1_21.title"
+        ],
+        "errors": [],
+        "status": "complete"
+      },
+      {
+        "label": "betterfortresses",
+        "namespace": "betterfortresses",
+        "keys": 4,
+        "expected_keys": 4,
+        "bundled_candidate_keys": 0,
+        "bundled_candidate_values_reused": 0,
+        "new_or_corrected_values": 4,
+        "intentional_same_keys": [
+          "text.autoconfig.betterfortresses-fabric-1_21.title"
+        ],
+        "errors": [],
+        "status": "complete"
+      },
+      {
+        "label": "betteroceanmonuments",
+        "namespace": "betteroceanmonuments",
+        "keys": 4,
+        "expected_keys": 4,
+        "bundled_candidate_keys": 0,
+        "bundled_candidate_values_reused": 0,
+        "new_or_corrected_values": 4,
+        "intentional_same_keys": [
+          "text.autoconfig.betteroceanmonuments-fabric-1_21.title"
+        ],
+        "errors": [],
+        "status": "complete"
+      },
+      {
+        "label": "betterstrongholds",
+        "namespace": "betterstrongholds",
+        "keys": 11,
+        "expected_keys": 11,
+        "bundled_candidate_keys": 0,
+        "bundled_candidate_values_reused": 0,
+        "new_or_corrected_values": 11,
+        "intentional_same_keys": [
+          "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds",
+          "text.autoconfig.betterstrongholds-fabric-1_21.title"
+        ],
+        "errors": [],
+        "status": "complete"
+      },
+      {
+        "label": "betterwitchhuts",
+        "namespace": "betterwitchhuts",
+        "keys": 4,
+        "expected_keys": 4,
+        "bundled_candidate_keys": 0,
+        "bundled_candidate_values_reused": 0,
+        "new_or_corrected_values": 4,
+        "intentional_same_keys": [
+          "text.autoconfig.betterwitchhuts-fabric-1_21.title"
+        ],
+        "errors": [],
+        "status": "complete"
+      }
+    ],
+    "keys": 206,
+    "expected_keys": 206,
+    "errors": [],
+    "status": "complete"
+  },
+  "surface_audit": "complete",
+  "ftbquests": "no_related_references",
+  "kubejs": "namespace_ids_only",
+  "errors": [],
+  "status": "complete"
+}

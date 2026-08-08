@@ -1,0 +1,15 @@
+{
+  "betterdeserttemples.advancements.root.title": "YUNG's Better Desert Temples",
+  "betterdeserttemples.advancements.root.description": "사막 깊은 곳 어딘가에서...",
+  "betterdeserttemples.advancements.temple_clear.title": "영원한 안식",
+  "betterdeserttemples.advancements.temple_clear.description": "파라오를 처치하고 사원을 저주에서 해방하세요",
+  "betterdeserttemples.advancements.temple_entry.title": "고대의 무덤",
+  "betterdeserttemples.advancements.temple_entry.description": "개선된 사막 사원을 발견하세요",
+  "Use /locate structure betterdeserttemples:desert_temple instead!": "대신 /locate structure betterdeserttemples:desert_temple 명령을 사용하세요!",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.title": "YUNG's Better Desert Temples",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.disableVanillaPyramids": "바닐라 사막 피라미드 비활성화",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.disableVanillaPyramids.@Tooltip": "바닐라 사막 피라미드를 비활성화할지 설정합니다.",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.applyMiningFatigue": "채굴 피로 적용",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.applyMiningFatigue.@Tooltip[0]": "아직 공략하지 않은 사원 안의 플레이어에게",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.applyMiningFatigue.@Tooltip[1]": "채굴 피로를 적용할지 설정합니다."
+}

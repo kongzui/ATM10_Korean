@@ -1,0 +1,13 @@
+{
+  "Use /locate structure betterjungletemples:jungle_temple instead!": "대신 /locate structure betterjungletemples:jungle_temple 명령을 사용하세요!",
+  "text.autoconfig.betterjungletemples-fabric-1_21.title": "YUNG's Better Jungle Temples",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples": "YUNG's Better Jungle Temples",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general": "일반",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.@Tooltip": "일반 설정",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat": "모드 호환성",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.@Tooltip": "모드 호환성 설정",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.disableVanillaJungleTemples": "바닐라 정글 사원 비활성화",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.disableVanillaJungleTemples.@Tooltip": "바닐라 정글 사원을 비활성화할지 설정합니다.",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.pickYourPoisonEnabled": "Pick Your Poison 호환성 활성화",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.pickYourPoisonEnabled.@Tooltip": "개선된 정글 사원에 PYP 독침이 생성될지 설정합니다."
+}

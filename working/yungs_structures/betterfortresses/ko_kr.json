@@ -1,0 +1,6 @@
+{
+  "Use /locate structure betterfortresses:fortress instead!": "대신 /locate structure betterfortresses:fortress 명령을 사용하세요!",
+  "text.autoconfig.betterfortresses-fabric-1_21.title": "YUNG's Better Nether Fortresses",
+  "text.autoconfig.betterfortresses-fabric-1_21.option.general.disableVanillaFortresses": "바닐라 네더 요새 비활성화",
+  "text.autoconfig.betterfortresses-fabric-1_21.option.general.disableVanillaFortresses.@Tooltip": "바닐라 네더 요새를 비활성화할지 설정합니다."
+}
