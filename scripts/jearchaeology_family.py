@@ -31,6 +31,7 @@ PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
 NUMBER = re.compile(r"\d+(?:[./xX×]\d+)*")
 LATIN_WORD = re.compile(r"[A-Za-z]{3,}")
+BRACKET_TOKEN = re.compile(r"\[(?:ATM|BA|C|UC|R)\]")
 
 FIXED_BY_KEY = {
     "emi.category.jearchaeology.brushing": "솔질",
@@ -58,49 +59,49 @@ FIXED_BY_KEY = {
     "jearchaeology.brush.structure.fossil_jungle": "오셀롯 화석 [BA]",
     "jearchaeology.brush.structure.fossil_sheep": "양 화석 [BA]",
     "jearchaeology.brush.structure.fossil_villager": "주민 화석 [BA]",
-    "jearchaeology.brush.structure.archaeological_site_rare": ("고고학 유적지 [희귀]"),
+    "jearchaeology.brush.structure.archaeological_site_rare": "고고학 유적지 [R]",
     "jearchaeology.brush.structure.archaeological_site": "고고학 유적지",
     "jearchaeology.brush.structure.wishing_weald": "소원의 숲",
     "jearchaeology.brush.structure.observatory": "천문대",
 }
 
 PREHISTORIC_NAMES = {
-    "lush_den": "선사시대의 무성한 굴",
-    "sandy_den": "선사시대의 모래 굴",
-    "sunscorched_den": "선사시대의 햇볕에 그을린 굴",
-    "enhydro_agate": "선사시대의 엔하이드로 마노",
-    "eroded_pillar": "선사시대의 침식된 기둥",
-    "frozen_spike": "선사시대의 얼어붙은 첨탑",
-    "powdered_deposit": "선사시대의 가루 퇴적층",
-    "preserved_skeleton": "선사시대의 보존된 골격",
-    "submerged_impact": "선사시대의 물에 잠긴 충돌구",
-    "submerged_spike": "선사시대의 물에 잠긴 첨탑",
-    "sunscorched_remains": "선사시대의 햇볕에 그을린 유적",
-    "suspicious_mound": "선사시대의 수상한 둔덕",
-    "underwater_fissure": "선사시대의 수중 균열",
-    "mud_pit": "선사시대의 진흙 구덩이",
-    "rooted_pit": "선사시대의 뿌리내린 구덩이",
-    "dripstone_oasis": "선사시대의 점적석 오아시스",
-    "frozen_pond": "선사시대의 얼어붙은 연못",
-    "mossy_pond": "선사시대의 이끼 낀 연못",
-    "birch_tree": "선사시대의 자작나무",
-    "oak_tree": "선사시대의 참나무",
-    "spruce_tree": "선사시대의 가문비나무",
-    "hydrothermal_vents": "선사시대의 열수 분출공",
-    "vibrant_hydrothermal_vents": "선사시대의 생기 넘치는 열수 분출공",
+    "lush_den": "선사 시대의 무성한 굴",
+    "sandy_den": "선사 시대의 모래 굴",
+    "sunscorched_den": "선사 시대의 햇볕에 그을린 굴",
+    "enhydro_agate": "선사 시대의 엔하이드로 마노",
+    "eroded_pillar": "선사 시대의 침식된 기둥",
+    "frozen_spike": "선사 시대의 얼어붙은 첨탑",
+    "powdered_deposit": "선사 시대의 가루 퇴적층",
+    "preserved_skeleton": "선사 시대의 보존된 골격",
+    "submerged_impact": "선사 시대의 물에 잠긴 충돌구",
+    "submerged_spike": "선사 시대의 물에 잠긴 첨탑",
+    "sunscorched_remains": "선사 시대의 햇볕에 그을린 유적",
+    "suspicious_mound": "선사 시대의 수상한 둔덕",
+    "underwater_fissure": "선사 시대의 수중 균열",
+    "mud_pit": "선사 시대의 진흙 구덩이",
+    "rooted_pit": "선사 시대의 뿌리내린 구덩이",
+    "dripstone_oasis": "선사 시대의 점적석 오아시스",
+    "frozen_pond": "선사 시대의 얼어붙은 연못",
+    "mossy_pond": "선사 시대의 이끼 낀 연못",
+    "birch_tree": "선사 시대의 자작나무",
+    "oak_tree": "선사 시대의 참나무",
+    "spruce_tree": "선사 시대의 가문비나무",
+    "hydrothermal_vents": "선사 시대의 열수 분출공",
+    "vibrant_hydrothermal_vents": "선사 시대의 생기 넘치는 열수 분출공",
 }
 
 RUIN_NAMES = {
     "deserted_tower_ruins": "버려진 탑 폐허",
-    "deserted_gimmi_tower": "버려진 모으령 탑",
-    "frozen_gimmi_tower": "얼어붙은 모으령 탑",
-    "lush_gimmi_tower": "무성한 모으령 탑",
-    "rooted_gimmi_tower": "뿌리내린 모으령 탑",
-    "sunscorched_gimmi_tower": "햇볕에 그을린 모으령 탑",
-    "temperate_gimmi_tower": "온대 모으령 탑",
-    "stonjourner_henge_ruins": "돌헨진 환상열석 폐허",
-    "sol_henge_ruins": "솔 환상열석 폐허",
-    "luna_henge_ruins": "루나 환상열석 폐허",
+    "deserted_gimmi_tower": "버려진 Gimmi 탑",
+    "frozen_gimmi_tower": "얼어붙은 Gimmi 탑",
+    "lush_gimmi_tower": "무성한 Gimmi 탑",
+    "rooted_gimmi_tower": "뿌리내린 Gimmi 탑",
+    "sunscorched_gimmi_tower": "햇볕에 그을린 Gimmi 탑",
+    "temperate_gimmi_tower": "온대 Gimmi 탑",
+    "stonjourner_henge_ruins": "Stonjourner 환상열석 폐허",
+    "sol_henge_ruins": "Sol 환상열석 폐허",
+    "luna_henge_ruins": "Luna 환상열석 폐허",
     "crumbling_arch_ruins": "무너져 가는 아치 폐허",
     "rooted_arch_ruins": "뿌리내린 아치 폐허",
     "decaying_crypt_ruins": "쇠락한 지하 묘지 폐허",
@@ -114,12 +115,12 @@ RUIN_NAMES = {
 }
 
 RARITY_SUFFIXES = (
-    ("_rare_automaton", " [희귀]"),
-    ("_rare_bottom", " [희귀]"),
-    ("_rare_top", " [희귀]"),
-    ("_uncommon", " [고급]"),
-    ("_common", " [일반]"),
-    ("_rare", " [희귀]"),
+    ("_rare_automaton", " [R]"),
+    ("_rare_bottom", " [R]"),
+    ("_rare_top", " [R]"),
+    ("_uncommon", " [UC]"),
+    ("_common", " [C]"),
+    ("_rare", " [R]"),
 )
 
 OPTIONAL_COMPAT_JARS = {
@@ -250,16 +251,20 @@ def scan_text_surfaces(instance: Path) -> tuple[list[str], list[str]]:
         for path in sorted(item for item in root.rglob("*") if item.is_file()):
             if path.suffix.lower() not in extensions:
                 continue
+            relative_path = path.relative_to(instance).as_posix()
+            if (
+                relative_path
+                == "resourcepacks/ATM10_Korean/assets/jearchaeology/lang/ko_kr.json"
+            ):
+                continue
             try:
                 lines = path.read_text(encoding="utf-8-sig").splitlines()
             except UnicodeDecodeError as exc:
-                errors.append(f"{path.relative_to(instance).as_posix()}: {exc}")
+                errors.append(f"{relative_path}: {exc}")
                 continue
             for number, line in enumerate(lines, 1):
                 if "jearchaeology" in line.lower():
-                    matches.append(
-                        f"{path.relative_to(instance).as_posix()}:{number}:{line.strip()}"
-                    )
+                    matches.append(f"{relative_path}:{number}:{line.strip()}")
     return matches, errors
 
 
@@ -337,6 +342,7 @@ def verify() -> tuple[dict[str, object], list[str]]:
             ("자리표시자", PLACEHOLDER),
             ("서식 코드", FORMAT_CODE),
             ("숫자", NUMBER),
+            ("보호 약어", BRACKET_TOKEN),
         ):
             if Counter(pattern.findall(source)) != Counter(pattern.findall(target)):
                 errors.append(f"{label} 불일치: {key}")
@@ -344,7 +350,10 @@ def verify() -> tuple[dict[str, object], list[str]]:
             errors.append(f"줄바꿈 불일치: {key}")
         if source == target and LATIN_WORD.search(source):
             untranslated.append(key)
-        residue = sorted(set(LATIN_WORD.findall(target)) - {"ATM"})
+        residue = sorted(
+            set(LATIN_WORD.findall(target))
+            - {"ATM", "Gimmi", "Luna", "Sol", "Stonjourner"}
+        )
         if residue:
             latin_residue[key] = residue
     collisions: dict[str, list[str]] = defaultdict(list)

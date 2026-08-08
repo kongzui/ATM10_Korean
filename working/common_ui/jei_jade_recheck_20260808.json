@@ -1,0 +1,81 @@
+{
+  "family": "JEI and Jade common UI",
+  "reviewed_at": "2026-08-08",
+  "scope": {
+    "language_namespaces": 4,
+    "jei_language_pairs": 305,
+    "jade_language_pairs": 410,
+    "refined_storage_jei_integration_pairs": 10,
+    "just_enough_archaeology_pairs": 156,
+    "total_display_pairs": 881,
+    "ae2_integration_consistency_keys": 53,
+    "ftbquests_jei_references_checked": 25,
+    "kubejs_recipe_viewer_references_checked": 4
+  },
+  "result": {
+    "unchanged_existing": 723,
+    "corrected_existing": 158,
+    "new_missing_added": 0,
+    "unresolved_terms": 0,
+    "manual_review_items": 0
+  },
+  "ownership": {
+    "fully_reviewed": [
+      "Just Enough Items",
+      "Jade",
+      "Refined Storage JEI Integration",
+      "Just Enough Archaeology"
+    ],
+    "consistency_only": [
+      "Applied Energistics 2 direct JEI and Jade paths"
+    ],
+    "empty_or_no_language_surface": [
+      "AE2 JEI Integration",
+      "FTB JEI Extras"
+    ],
+    "emi": "EMI 본체는 설치되지 않았으며 Just Enough Archaeology가 소유한 EMI 범주 키는 전수 검수",
+    "ftbquests": "JEI 관련 참조 25개는 모두 한국어 대응을 확인했고 개별 모드 계열 소유이므로 수정하지 않음",
+    "kubejs": "레시피 뷰어 관련 표시 참조 4개는 Modern Industrialization 소유이므로 수정하지 않음",
+    "guides": "이 계열이 소유한 GuideME, Patchouli, Modonomicon 가이드 없음",
+    "advancements": "이 계열이 소유한 발전 과제 없음"
+  },
+  "major_corrections": {
+    "accuracy": [
+      "JEI 용광로 제련 범주와 제작 모드 재료 설명, Refined Storage 자동 제작 조작키를 원문대로 교정",
+      "Jade의 채굴 도구, 주손, 화면 읽기와 텍스트 음성 변환 기능 구분을 정확하게 복원"
+    ],
+    "sentence_quality": [
+      "JEI 검색 방식 설명에서 모드와 mode가 혼동되던 표현을 검색 방식으로 명확하게 교정",
+      "Jade 외형과 애니메이션 설명 및 음성 안내 토스트를 짧고 자연스러운 한국어로 교정"
+    ],
+    "terminology": [
+      "Prehistoric를 선사 시대로 통일하고 Gimmi, Stonjourner, Sol과 Luna 고유명을 보존",
+      "아이템과 재료, 채굴과 수확, 텍스트 음성 변환 용어를 실제 기능 문맥에 맞게 구분"
+    ],
+    "formatting": [
+      "Just Enough Archaeology 구조물 희귀도 표식 130개의 [C], [UC], [R] 약어를 원문대로 복원",
+      "JEI의 픽셀 및 XP 단위와 Jade의 D, s, m 단위, 자리표시자, 줄바꿈과 키 순서를 보존"
+    ]
+  },
+  "validation": {
+    "common_ui_jei": "passed, 315 keys",
+    "common_ui_jade": "passed, 410 keys",
+    "jearchaeology_family": "passed, 156 keys",
+    "language_missing": 0,
+    "duplicate_keys": 0,
+    "translation_induced_name_collisions": 0,
+    "protected_abbreviation_errors": 0,
+    "ruff_format_check": "passed",
+    "ruff_check": "passed",
+    "python_compileall": "passed",
+    "git_diff_check": "passed"
+  },
+  "deployment": {
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_files": 4,
+    "backup_manifest": "temp/backups/20260808_183809_516573/backup_manifest.json",
+    "hash_parity": true,
+    "unexpected_changes": []
+  },
+  "minecraft_screen_verified": false
+}
