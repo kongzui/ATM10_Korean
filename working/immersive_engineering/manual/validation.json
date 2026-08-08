@@ -1,6 +1,7 @@
 {
   "pages": 114,
-  "tag_parity": true,
+  "tag_order_parity": true,
+  "number_parity": true,
   "source_equal": 0,
   "review_status": "reviewed",
   "errors": [],

@@ -14,14 +14,14 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "new_or_edited": 1226,
-      "bundled_exact_reuse": 726
+      "new_or_edited": 1266,
+      "bundled_exact_reuse": 686
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 726,
+    "bundled_exact_reuse": 686,
     "project_output_reuse": 0,
-    "new_or_edited": 1226
+    "new_or_edited": 1266
   },
   "ftbquests": {
     "chapters": [

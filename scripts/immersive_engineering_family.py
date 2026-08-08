@@ -692,6 +692,130 @@ ALLOWED_KEYS = {
 }
 
 BUNDLED_KEY_OVERRIDES = {
+    "desc.immersiveengineering.flavour.buzzsaw.noBlade": "톱날이 장착되지 않았습니다.",
+    "desc.immersiveengineering.flavour.coil.construction1": "전력을 전달하지 않습니다.",
+    "desc.immersiveengineering.flavour.drill.noHead": "드릴 헤드가 장착되지 않았습니다.",
+    "desc.immersiveengineering.flavour.revolver.rose": "겉모습에 속을 수 있습니다.",
+    "desc.immersiveengineering.flavour.toolupgrade_railgun_capacitors": (
+        "레일건의 충전 시간이 줄어듭니다."
+    ),
+    "desc.immersiveengineering.flavour.toolupgrade_railgun_scope": (
+        "원거리 무기에 확대 기능을 추가합니다."
+    ),
+    "desc.immersiveengineering.info.filter.damage": (
+        "필터: 손상도<br>도구나 무기의<br>손상도를 무시하고<br>아이템을 필터링합니다."
+    ),
+    "desc.immersiveengineering.info.filter.tag": (
+        "필터: 태그<br>아이템의 태그를 기준으로<br>필터링합니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.angelsthesis": (
+        "테마곡에서 이름을 따왔으며, 색상은 에반게리온 초호기(EVA-01)를 바탕으로 했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.argo": (
+        "직접적인 모티브는 없지만, 스타일과 색상은 비디오 게임 'Destiny'에서 영감을 받았습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.crescentrose": (
+        '루비 로즈가 사용하는 "대구경 저격용 낫"에서 이름과 디자인을 따왔습니다.'
+    ),
+    "desc.immersiveengineering.info.shader.details.crimsonlotus": (
+        "작품의 주인공이자 제목에 등장하는 Gunman을 참고해 이름과 디자인을 정했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.darkfire": (
+        "리쿠와 테라가 사용하는 어둠의 불꽃 마법에서 이름과 디자인을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.dominator": (
+        "애니메이션 시리즈의 거대한 핸드캐논을 참고해 이름과 디자인을 정했습니다. 아쉽지만 변신하지는 않습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.dragonsbreath": (
+        "같은 이름의 이국적인 로켓 발사기에서 이름과 디자인을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.erruption": (
+        "특별한 모티브는 없으며, 블록 파괴 오버레이를 비롯한 바닐라 텍스처를 색다르게 활용했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.eyas": (
+        "핸드캐논 'Eyasluna'에서 이름과 디자인을 따왔습니다. Hawkmoon의 동생 격입니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.felix": (
+        "RvB 시즌 11~13의 용병 'Felix'에서 이름과 색상을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.fox": (
+        "아주 푹신합니다. 특정 IRC 채널과 그곳의 사람들을 참고해 이름을 정했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.glacis": (
+        "특별한 모티브는 없으며, 투명도를 실험해 보고자 만들었습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.hollow": (
+        "'Hollow Bastion'이라는 세계에서 이름과 디자인을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.ikelos": (
+        "워마인드 라스푸틴과 IKELOS 무기를 바탕으로 디자인했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.locus": (
+        "RvB 시즌 11~13의 용병 'Locus'에서 이름과 색상을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.lususnaturae": (
+        "Volume 4 사운드트랙의 곡에서 이름을 따왔습니다. 이름도 아주 멋지게 들립니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.massfusion": (
+        "Fallout 시리즈의 에너지 무기를 참고해 디자인했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.matrix": (
+        "특별한 모티브는 없으며, 파이프 오버레이를 다른 방식으로 활용했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.milo": (
+        "피라 니코스가 사용하는 창과 소총에서 이름과 디자인을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.n7": (
+        "연합 특수부대의 최고 등급에서 이름과 디자인을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.netherforged": (
+        "바닐라의 마그마 텍스처를 활용한 실험입니다. DOOM에서도 조금 영감을 받았을까요?"
+    ),
+    "desc.immersiveengineering.info.shader.details.normandy": (
+        "연합 색상으로 도색된 Normandy SR2에서 이름과 디자인을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.omnitool": (
+        "홀로그램 멀티툴에서 이름과 디자인을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.phoenix": (
+        "특별한 모티브는 없으며, 그라데이션형 셰이더를 색다르게 활용했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.qrow": (
+        "크로우 브란웬에서 이름을 따오고 그의 검과 낫을 바탕으로 디자인했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.radiant": (
+        "'Radiant Garden'이라는 세계에서 이름과 디자인을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.rosequartz": (
+        "최초로 만든 셰이더입니다!<br>직접적인 모티브는 없지만, 이름은 소설 „Inkheart“ 시리즈의 등장인물에서 영감을 받았습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.sharkface": (
+        "RvB 시즌 9와 13의 용병 'Sharkface'에서 이름과 색상을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.sponsor": (
+        "Fallout 시리즈를 뚜렷하게 참고한 디자인이지만 이름은 일부러 모호하게 정했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.sunstrike": (
+        "직접적인 모티브는 없지만, 이름과 색상은 비디오 게임 'Destiny'의 Sunbreaker Titan에서 영감을 받았습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.sutherland": (
+        "신성 브리타니아 제국이 사용하는 Knightmare Frame에서 이름과 디자인을 따왔습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.twili": (
+        "같은 이름의 종족을 참고해 이름과 디자인을 정했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.usurper": (
+        "왕위를 찬탈한 Zant를 참고해 이름과 디자인을 정했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.vaulttec": (
+        "누구나 알아볼 만한 대상을 참고해 색상과 이름을 정했습니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.waaagh": (
+        "노랑이 제일 큰 폭발을 내지!<br>40k 세계의 오크를 노골적으로 참고한 디자인입니다."
+    ),
+    "desc.immersiveengineering.info.shader.details.warbird": (
+        "지난 세계대전의 항공기에서 영감을 받은 디자인입니다."
+    ),
     "immersiveengineering.config.title": "",
     "itemGroup.immersiveengineering": "Immersive Engineering",
     "key.categories.immersiveengineering": "Immersive Engineering",

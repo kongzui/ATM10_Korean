@@ -9,7 +9,6 @@ import re
 import time
 import urllib.parse
 import urllib.request
-from collections import Counter
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -27,6 +26,8 @@ OUTPUT_ROOT = (
 CACHE_FILE = PROJECT_ROOT / "temp/immersive_engineering_manual_machine_cache.json"
 MANUAL_PREFIX = "assets/immersiveengineering/manual/en_us/"
 TAG_RE = re.compile(r"<[^>]*>|∽.|https?://\S+")
+FORMAT_CODE_RE = re.compile(r"§[0-9a-fk-or]", re.IGNORECASE)
+NUMBER_RE = re.compile(r"\d+(?:\.\d+)?")
 LATIN_WORD_RE = re.compile(r"[A-Za-z]{3,}")
 COMMON_ENGLISH_WORDS = {
     "and",
@@ -769,10 +770,13 @@ def verify() -> tuple[dict[str, object], list[str]]:
     for name in sorted(set(source_files) & set(target_files)):
         source = source_files[name].read_text(encoding="utf-8")
         target = target_files[name].read_text(encoding="utf-8")
-        if Counter(tag_signature(tag) for tag in TAG_RE.findall(source)) != Counter(
-            tag_signature(tag) for tag in TAG_RE.findall(target)
-        ):
-            errors.append(f"{name}: 링크 또는 서식 태그 불일치")
+        source_tags = [tag_signature(tag) for tag in TAG_RE.findall(source)]
+        target_tags = [tag_signature(tag) for tag in TAG_RE.findall(target)]
+        if source_tags != target_tags:
+            errors.append(f"{name}: 링크 또는 서식 태그 순서 불일치")
+        missing_numbers = source_numbers_missing(source, target)
+        if missing_numbers:
+            errors.append(f"{name}: 원문 숫자 누락 {missing_numbers}")
         if source == target and source:
             source_equal.append(name)
         if source and len(target.splitlines()) < 2:
@@ -789,7 +793,8 @@ def verify() -> tuple[dict[str, object], list[str]]:
             errors.append("설명서 영어 잔여 후보 검토가 끝나지 않았습니다.")
     report = {
         "pages": len(target_files),
-        "tag_parity": not any("태그 불일치" in error for error in errors),
+        "tag_order_parity": not any("태그 순서 불일치" in error for error in errors),
+        "number_parity": not any("원문 숫자 누락" in error for error in errors),
         "source_equal": len(source_equal),
         "review_status": review.get("status"),
         "errors": errors,
@@ -807,6 +812,27 @@ def tag_signature(tag: str) -> tuple[str, ...]:
         parts = tag[1:-1].split(";")
         return tuple(parts[:3])
     return (tag,)
+
+
+def visible_numbers(value: str) -> list[str]:
+    """태그와 서식 코드 바깥에 실제로 표시되는 숫자를 정규화한다."""
+    plain = FORMAT_CODE_RE.sub("", TAG_RE.sub(" ", value))
+    return [
+        str(float(number)) if "." in number else str(int(number))
+        for number in NUMBER_RE.findall(plain)
+    ]
+
+
+def source_numbers_missing(source: str, target: str) -> list[str]:
+    """한국어에서 사라진 영어 원문의 표시 숫자를 중복 개수까지 찾는다."""
+    remaining = visible_numbers(target)
+    missing = []
+    for number in visible_numbers(source):
+        if number in remaining:
+            remaining.remove(number)
+        else:
+            missing.append(number)
+    return missing
 
 
 def build() -> dict[str, object]:
