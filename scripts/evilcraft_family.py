@@ -528,6 +528,11 @@ LANGUAGE_OVERRIDES: dict[str, dict[str, str]] = {
     },
     "evilcraftcompat": {
         "item.items.evilcraft.veined_scribing_tools": "핏줄 필기 도구",
+        "info_book.evilcraftcompat.mod_integrations.enderio.text": (
+            "엔더 기반 기술은 매우 흥미롭습니다. 언젠가 이를 활용해 제 기계도 개선할 수 "
+            "있을 것 같습니다. 어쨌든 Ender IO의 기계로 &1다크 광석&0과 &1다크 젬&0을 "
+            "처리할 수 있으니 꽤 유용합니다."
+        ),
         "info_book.evilcraftcompat.mod_integrations.blood_magic.text": (
             "어느 날 &1마법사&0가 쓰던 듯한 &1피 구슬&0을 발견했습니다. 사용하자 제 "
             "&4피&0 연결망과 이어진 느낌이 들었습니다. &1블러드 주입기&0로 많은 "

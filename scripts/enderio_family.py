@@ -30,6 +30,11 @@ JAR_PATTERN = "enderio-*.jar"
 LANG_ROOT = "assets/enderio/lang"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[&§][0-9A-FK-ORa-fk-or]")
+NUMBER = re.compile(r"-?\d+(?:\.\d+)?")
+PROTECTED_UNIT = re.compile(r"(?<![A-Za-z])(?:µI|mB|mb|FE)(?![A-Za-z])")
+NUMBER_TRANSLATION_EXCEPTIONS = {
+    "item.enderio.octadic_capacitor": "Octadic을 의미가 같은 8중으로 번역",
+}
 BATCH_ONE_SIZE = 181
 BATCH_TWO_END = 361
 BATCH_THREE_END = 541
@@ -159,10 +164,17 @@ def prepare() -> None:
         write_json(WORK_ROOT / "ko_kr.json", bundled)
 
     identical = [key for key in english if english[key] == bundled.get(key)]
+    candidate_sources_path = WORK_ROOT / "candidate_sources.json"
+    previous_sources = (
+        load_json(candidate_sources_path) if candidate_sources_path.exists() else {}
+    )
     candidate_sources = {
-        key: "bundled_same_as_english_unusable"
-        if key in identical
-        else "bundled_korean_unreviewed"
+        key: previous_sources.get(
+            key,
+            "bundled_same_as_english_unusable"
+            if key in identical
+            else "bundled_korean_unreviewed",
+        )
         for key in english
     }
     write_json(WORK_ROOT / "candidate_sources.json", candidate_sources)
@@ -428,15 +440,15 @@ def translate_batch_two() -> None:
         "enderio.capacitor.modifier.fuel_efficiency.tooltip": "연료 효율 배율: %s",
         "enderio.damage_filter_mode.ignore": "내구도 무시",
         "enderio.damage_filter_mode.is_damageable": "내구도가 있음",
-        "enderio.damage_filter_mode.more_than_25": "내구도 25%% 초과 손상",
-        "enderio.damage_filter_mode.more_than_50": "내구도 50%% 초과 손상",
-        "enderio.damage_filter_mode.more_than_75": "내구도 75%% 초과 손상",
+        "enderio.damage_filter_mode.more_than_25": "손상도 25%% 초과",
+        "enderio.damage_filter_mode.more_than_50": "손상도 50%% 초과",
+        "enderio.damage_filter_mode.more_than_75": "손상도 75%% 초과",
         "enderio.damage_filter_mode.not_damageable": "내구도가 없음",
         "enderio.damage_filter_mode.not_damaged": "손상되지 않음",
         "enderio.damage_filter_mode.only_damaged": "손상된 것만",
-        "enderio.damage_filter_mode.up_to_25": "내구도 25%% 이하 손상",
-        "enderio.damage_filter_mode.up_to_50": "내구도 50%% 이하 손상",
-        "enderio.damage_filter_mode.up_to_75": "내구도 75%% 이하 손상",
+        "enderio.damage_filter_mode.up_to_25": "손상도 25%% 이하",
+        "enderio.damage_filter_mode.up_to_50": "손상도 50%% 이하",
+        "enderio.damage_filter_mode.up_to_75": "손상도 75%% 이하",
         "enderio.glass_collision.animals_block": "동물만 통과 불가",
         "enderio.glass_collision.animals_pass": "동물은 통과 가능",
         "enderio.glass_collision.mobs_block": "몬스터만 통과 불가",
@@ -832,7 +844,7 @@ def translate_batch_four() -> None:
         "tooltip.enderio.filter.configured": "설정됨",
         "tooltip.enderio.filter.not_allowed_component_match": "이 필터는 현재 이 아이템에서 사용할 수 없는 구성 요소 일치를 사용합니다. 제작 칸에서 필터를 초기화하여 이 경고를 없애세요.",
         "tooltip.enderio.filter.unconfigured_hint": "웅크린 상태에서 사용하여 설정하세요",
-        "tooltip.enderio.fluid_tank.contents_tooltip": "%d/%d mB, 유체: %s",
+        "tooltip.enderio.fluid_tank.contents_tooltip": "%d/%d mb, 유체: %s",
         "tooltip.enderio.fluid_tank.empty_tooltip": "빈 탱크",
         "tooltip.enderio.glass.blocks_light": "빛을 차단함",
         "tooltip.enderio.glass.emits_light": "빛을 방출함",
@@ -935,11 +947,11 @@ def build_outputs() -> None:
         ],
         long_key: corrected_long,
         "quest.5F1218CF8EFC607B.quest_desc": [
-            "&c&lLaserIO&r는 DireWolf가 &a&lEnder IO&r의 &l물류&r 시스템을 이어 만든 모드입니다.",
+            "&c&lLaserIO&r는 DireWolf가 &a&lEnderIO&r의 &l물류&r 기능을 이어 만든 모드입니다.",
             "",
-            "아이템을 &c레이저&r로 옮기는 것이 핵심입니다! &c레이저&r를 싫어할 사람이 있을까요?!",
+            "&c레이저&r로 아이템을 옮기는 모드예요! &c레이저&r를 싫어할 사람이 있나요?!",
             "",
-            "모든 것은 로직 칩에서 시작합니다.",
+            "모든 것은 논리 칩에서 시작합니다.",
         ],
         "quest.010A970FC91BD617.quest_subtitle": "합금 제련기에서 제작",
         "quest.035495984F84FB44.quest_subtitle": "합금 제련기에서 제작",
@@ -986,6 +998,21 @@ def build_outputs() -> None:
             "status": "complete",
         },
     )
+
+    evil_key = "info_book.evilcraftcompat.mod_integrations.enderio.text"
+    evil_translation = (
+        "엔더 기반 기술은 매우 흥미롭습니다. 언젠가 이를 활용해 제 기계도 개선할 수 "
+        "있을 것 같습니다. 어쨌든 Ender IO의 기계로 &1다크 광석&0과 &1다크 젬&0을 "
+        "처리할 수 있으니 꽤 유용합니다."
+    )
+    for relative in (
+        "working/evilcraft/evilcraftcompat/ko_kr.json",
+        "output/resourcepack/ATM10_Korean/assets/evilcraftcompat/lang/ko_kr.json",
+    ):
+        path = PROJECT_ROOT / relative
+        values = load_json(path)
+        values[evil_key] = evil_translation
+        write_json(path, values)
     if verify_family_outputs():
         raise ValueError("Ender IO 계열 전체 검증이 실패했습니다.")
     print(f"산출물 빌드 완료: 언어 {len(korean)}키, 퀘스트 {len(quest_overrides)}키")
@@ -1010,9 +1037,13 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
         errors.extend(quest_snbt.validate_value(key, quest_english[key], value))
 
     related_language = {
+        "crop.mysticalagriculture.redstone_alloy": "레드스톤 합금",
+        "crop.mysticalagriculture.conductive_alloy": "전도성 합금",
         "crop.mysticalagriculture.soularium": "솔라리움",
         "crop.mysticalagriculture.dark_steel": "다크 스틸",
         "crop.mysticalagriculture.pulsating_alloy": "맥동 합금",
+        "crop.mysticalagriculture.energetic_alloy": "에너지 합금",
+        "crop.mysticalagriculture.vibrant_alloy": "활기찬 합금",
         "crop.mysticalagriculture.end_steel": "엔드 스틸",
     }
     for relative in (
@@ -1024,14 +1055,24 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
             if values.get(key) != expected:
                 errors.append(f"Ender IO 연동 용어 불일치: {relative}:{key}")
 
-    bee_key = "entity.productivebees.pulsating_alloy_bee"
-    bee_value = "맥동 합금(Pulsating Alloy) 벌"
+    bee_language = {
+        "entity.productivebees.conductive_alloy_bee": "전도성 합금(Conductive Alloy) 벌",
+        "entity.productivebees.dark_steel_bee": "다크 스틸(Dark Steel) 벌",
+        "entity.productivebees.end_steel_bee": "엔드 스틸(End Steel) 벌",
+        "entity.productivebees.energetic_alloy_bee": "에너지 합금(Energetic Alloy) 벌",
+        "entity.productivebees.pulsating_alloy_bee": "맥동 합금(Pulsating Alloy) 벌",
+        "entity.productivebees.redstone_alloy_bee": "레드스톤 합금(Redstone Alloy) 벌",
+        "entity.productivebees.soularium_bee": "솔라리움(Soularium) 벌",
+        "entity.productivebees.vibrant_alloy_bee": "활기찬 합금(Vibrant Alloy) 벌",
+    }
     for relative in (
         "working/productivebees/productivebees/ko_kr.json",
         "output/resourcepack/ATM10_Korean/assets/productivebees/lang/ko_kr.json",
     ):
-        if load_json(PROJECT_ROOT / relative).get(bee_key) != bee_value:
-            errors.append(f"Ender IO 연동 용어 불일치: {relative}:{bee_key}")
+        values = load_json(PROJECT_ROOT / relative)
+        for key, expected in bee_language.items():
+            if values.get(key) != expected:
+                errors.append(f"Ender IO 연동 용어 불일치: {relative}:{key}")
 
     bee_quests = {
         "quest.010A970FC91BD617.quest_subtitle": "합금 제련기에서 제작",
@@ -1055,11 +1096,16 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
         PROJECT_ROOT
         / "output/resourcepack/ATM10_Korean/assets/evilcraftcompat/lang/ko_kr.json"
     )
-    for key in (
-        "info_book.evilcraftcompat.mod_integrations.enderio",
-        "info_book.evilcraftcompat.mod_integrations.enderio.text",
-    ):
-        if evil_output.get(key) != evil_work.get(key):
+    evil_language = {
+        "info_book.evilcraftcompat.mod_integrations.enderio": "Ender IO",
+        "info_book.evilcraftcompat.mod_integrations.enderio.text": (
+            "엔더 기반 기술은 매우 흥미롭습니다. 언젠가 이를 활용해 제 기계도 개선할 수 "
+            "있을 것 같습니다. 어쨌든 Ender IO의 기계로 &1다크 광석&0과 &1다크 젬&0을 "
+            "처리할 수 있으니 꽤 유용합니다."
+        ),
+    }
+    for key, expected in evil_language.items():
+        if evil_work.get(key) != expected or evil_output.get(key) != expected:
             errors.append(f"EvilCraft Ender IO 연동 출력 불일치: {key}")
 
     instance = resolve_source_root()
@@ -1072,7 +1118,7 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
         (
             instance
             / "resourcepacks/ATM10_Korean/assets/productivebees/lang/ko_kr.json",
-            {bee_key: bee_value},
+            bee_language,
         ),
     )
     for path, expected_values in live_related_languages:
@@ -1114,8 +1160,8 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
     if deployment_manifest is not None:
         manifest = load_json(deployment_manifest)
         expected_changes = {
-            "config/ftbquests/quests/lang/ko_kr.snbt",
             "resourcepacks/ATM10_Korean/assets/enderio/lang/ko_kr.json",
+            "resourcepacks/ATM10_Korean/assets/evilcraftcompat/lang/ko_kr.json",
         }
         targets = manifest.get("targets", [])
         if manifest.get("status") != "applied_and_verified" or len(targets) != 1:
@@ -1163,8 +1209,9 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
         "reviewed_originals": source_counts["reviewed_original"],
         "bundled_korean_reuse": 0,
         "quest_corrections": len(quest_overrides),
-        "related_language_corrections": 5,
-        "related_live_language_keys_checked": 5,
+        "related_language_corrections": 1,
+        "related_live_language_keys_checked": 16,
+        "direct_integration_entries_checked": 18,
         "related_quest_corrections": len(bee_quests),
         "advancement_display_fields": integration_scope["advancements"][
             "display_fields"
@@ -1176,6 +1223,15 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
             "runtime_translation_required"
         ],
         "fallback_paths_checked": 1,
+        "quality_review": {
+            "paired_entries": 636,
+            "retained": 628,
+            "corrected": 8,
+            "missing_added": 0,
+            "main_language_entries": 605,
+            "quest_consistency_entries": 13,
+            "direct_integration_entries": 18,
+        },
         "deployment": deployment,
         "remaining": len(errors),
         "errors": errors,
@@ -1213,6 +1269,8 @@ def verify(reviewed_keys: int | None = None, require_complete: bool = False) -> 
     placeholder_errors: list[str] = []
     format_errors: list[str] = []
     newline_errors: list[str] = []
+    number_errors: list[str] = []
+    unit_errors: list[str] = []
     for key, source in english.items():
         target = korean.get(key)
         if not isinstance(source, str) or not isinstance(target, str):
@@ -1224,6 +1282,14 @@ def verify(reviewed_keys: int | None = None, require_complete: bool = False) -> 
             format_errors.append(key)
         if source.count("\n") != target.count("\n"):
             newline_errors.append(key)
+        if key not in NUMBER_TRANSLATION_EXCEPTIONS and Counter(
+            NUMBER.findall(source)
+        ) != Counter(NUMBER.findall(target)):
+            number_errors.append(key)
+        if Counter(PROTECTED_UNIT.findall(source)) != Counter(
+            PROTECTED_UNIT.findall(target)
+        ):
+            unit_errors.append(key)
 
     reviewed_untranslated = [
         key
@@ -1253,6 +1319,10 @@ def verify(reviewed_keys: int | None = None, require_complete: bool = False) -> 
         errors.append("서식 코드 불일치: " + " | ".join(format_errors[:30]))
     if newline_errors:
         errors.append("줄바꿈 개수 불일치: " + " | ".join(newline_errors[:30]))
+    if number_errors:
+        errors.append("숫자 불일치: " + " | ".join(number_errors[:30]))
+    if unit_errors:
+        errors.append("보호 단위 불일치: " + " | ".join(unit_errors[:30]))
     if reviewed_untranslated:
         errors.append(
             "검토 완료 범위의 영어 잔존: " + " | ".join(reviewed_untranslated[:30])
@@ -1278,6 +1348,9 @@ def verify(reviewed_keys: int | None = None, require_complete: bool = False) -> 
         "placeholder_errors": len(placeholder_errors),
         "format_code_errors": len(format_errors),
         "newline_errors": len(newline_errors),
+        "number_errors": len(number_errors),
+        "protected_unit_errors": len(unit_errors),
+        "number_translation_exceptions": len(NUMBER_TRANSLATION_EXCEPTIONS),
         "duplicate_keys": 0,
         "translation_induced_name_collisions": len(collisions),
         "intentional_collision_exceptions": len(COLLISION_EXCEPTIONS),
