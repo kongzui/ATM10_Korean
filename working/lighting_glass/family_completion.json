@@ -1,0 +1,37 @@
+{
+  "family": "lighting_glass",
+  "language_keys": 813,
+  "quest_keys": 9,
+  "surface_audit": "complete",
+  "family_validation": "complete",
+  "deployment": {
+    "status": "applied_and_verified",
+    "backup_manifest": "temp/backups/20260808_123805_143713/backup_manifest.json",
+    "targets": [
+      {
+        "target_type": "game_root",
+        "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+        "changed_paths": [
+          "config/ftbquests/quests/lang/ko_kr.snbt",
+          "resourcepacks/ATM10_Korean/assets/additional_lights/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/connectedglass/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/glassential/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/luminax/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/simplylight/lang/ko_kr.json"
+        ],
+        "unexpected_changes": [],
+        "hash_verified_paths": [
+          "config/ftbquests/quests/lang/ko_kr.snbt",
+          "resourcepacks/ATM10_Korean/assets/additional_lights/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/connectedglass/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/glassential/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/luminax/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/simplylight/lang/ko_kr.json"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "errors": [],
+  "status": "complete"
+}

@@ -1,0 +1,101 @@
+{
+  "family": "lighting_glass",
+  "mods": [
+    {
+      "mod_id": "luminax",
+      "jar": "luminax-1.3.1_neoforge_1.21.1.jar",
+      "jar_size": 704672,
+      "jar_mtime_ns": 1783222371221548000,
+      "english_keys": 193,
+      "bundled_languages": [
+        "assets/luminax/lang/en_us.json"
+      ],
+      "bundled_korean_keys": 0
+    },
+    {
+      "mod_id": "simplylight",
+      "jar": "simplylight-1.5.3+1.21.1-b4.jar",
+      "jar_size": 1103352,
+      "jar_mtime_ns": 1783222420023694900,
+      "english_keys": 192,
+      "bundled_languages": [
+        "assets/simplylight/lang/en_no.json",
+        "assets/simplylight/lang/en_us.json",
+        "assets/simplylight/lang/es_es.json",
+        "assets/simplylight/lang/ja_jp.json",
+        "assets/simplylight/lang/ru_ru.json",
+        "assets/simplylight/lang/tr_tr.json",
+        "assets/simplylight/lang/zh_cn.json"
+      ],
+      "bundled_korean_keys": 0
+    },
+    {
+      "mod_id": "additional_lights",
+      "jar": "additional_lights-neoforge-1.21-2.1.10.jar",
+      "jar_size": 514194,
+      "jar_mtime_ns": 1783222350638817900,
+      "english_keys": 157,
+      "bundled_languages": [
+        "assets/additional_lights/lang/en_us.json",
+        "assets/additional_lights/lang/ko_kr.json",
+        "assets/additional_lights/lang/pt_br.json",
+        "assets/additional_lights/lang/ru_ru.json"
+      ],
+      "bundled_korean_keys": 157
+    },
+    {
+      "mod_id": "glassential",
+      "jar": "Glassential-renewed-1.21.1-3.4.4.jar",
+      "jar_size": 702385,
+      "jar_mtime_ns": 1783222481192311400,
+      "english_keys": 151,
+      "bundled_languages": [
+        "assets/glassential/lang/de_de.json",
+        "assets/glassential/lang/en_us.json",
+        "assets/glassential/lang/es_ar.json",
+        "assets/glassential/lang/es_es.json",
+        "assets/glassential/lang/es_mx.json",
+        "assets/glassential/lang/fr_fr.json",
+        "assets/glassential/lang/ja_jp.json",
+        "assets/glassential/lang/ko_kr.json",
+        "assets/glassential/lang/pt_br.json",
+        "assets/glassential/lang/ru_ru.json",
+        "assets/glassential/lang/zh_cn.json",
+        "assets/glassential/lang/zh_tw.json"
+      ],
+      "bundled_korean_keys": 14
+    },
+    {
+      "mod_id": "connectedglass",
+      "jar": "connectedglass-1.1.14-neoforge-mc1.21.jar",
+      "jar_size": 819976,
+      "jar_mtime_ns": 1783222269416443300,
+      "english_keys": 120,
+      "bundled_languages": [
+        "assets/connectedglass/lang/de_at.json",
+        "assets/connectedglass/lang/de_ch.json",
+        "assets/connectedglass/lang/de_de.json",
+        "assets/connectedglass/lang/en_us.json",
+        "assets/connectedglass/lang/es_ar.json",
+        "assets/connectedglass/lang/es_cl.json",
+        "assets/connectedglass/lang/es_es.json",
+        "assets/connectedglass/lang/es_mx.json",
+        "assets/connectedglass/lang/es_uy.json",
+        "assets/connectedglass/lang/es_ve.json",
+        "assets/connectedglass/lang/fr_fr.json",
+        "assets/connectedglass/lang/it_it.json",
+        "assets/connectedglass/lang/ja_jp.json",
+        "assets/connectedglass/lang/ko_kr.json",
+        "assets/connectedglass/lang/nl_be.json",
+        "assets/connectedglass/lang/nl_nl.json",
+        "assets/connectedglass/lang/ru_ru.json",
+        "assets/connectedglass/lang/tr_tr.json",
+        "assets/connectedglass/lang/uk_ua.json",
+        "assets/connectedglass/lang/vi_vn.json"
+      ],
+      "bundled_korean_keys": 120
+    }
+  ],
+  "english_keys": 813,
+  "status": "prepared"
+}

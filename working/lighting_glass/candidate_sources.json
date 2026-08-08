@@ -1,0 +1,27 @@
+{
+  "luminax": {
+    "candidate_keys": 0,
+    "missing_current_keys": 193,
+    "extra_candidate_keys": 0
+  },
+  "simplylight": {
+    "candidate_keys": 0,
+    "missing_current_keys": 192,
+    "extra_candidate_keys": 0
+  },
+  "additional_lights": {
+    "candidate_keys": 157,
+    "missing_current_keys": 0,
+    "extra_candidate_keys": 0
+  },
+  "glassential": {
+    "candidate_keys": 14,
+    "missing_current_keys": 137,
+    "extra_candidate_keys": 0
+  },
+  "connectedglass": {
+    "candidate_keys": 120,
+    "missing_current_keys": 1,
+    "extra_candidate_keys": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "family": "lighting_glass",
+  "mods": {
+    "luminax": {
+      "keys": 193,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    "simplylight": {
+      "keys": 192,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    "additional_lights": {
+      "keys": 157,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    "glassential": {
+      "keys": 151,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    "connectedglass": {
+      "keys": 120,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    }
+  },
+  "language_keys": 813,
+  "quests": {
+    "keys": 9,
+    "latin_residue": {},
+    "errors": []
+  },
+  "errors": [],
+  "status": "complete"
+}

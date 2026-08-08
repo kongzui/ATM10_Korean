@@ -1,0 +1,45 @@
+{
+  "family": "lighting_glass",
+  "mods": {
+    "luminax": {
+      "reviewed_keys": 193,
+      "existing_korean_reused": 0,
+      "existing_korean_corrected": 0,
+      "new_translations": 193
+    },
+    "simplylight": {
+      "reviewed_keys": 192,
+      "existing_korean_reused": 0,
+      "existing_korean_corrected": 0,
+      "new_translations": 192
+    },
+    "additional_lights": {
+      "reviewed_keys": 157,
+      "existing_korean_reused": 46,
+      "existing_korean_corrected": 111,
+      "new_translations": 0
+    },
+    "glassential": {
+      "reviewed_keys": 151,
+      "existing_korean_reused": 7,
+      "existing_korean_corrected": 7,
+      "new_translations": 137
+    },
+    "connectedglass": {
+      "reviewed_keys": 120,
+      "existing_korean_reused": 18,
+      "existing_korean_corrected": 101,
+      "new_translations": 1
+    }
+  },
+  "reviewed_language_keys": 813,
+  "existing_korean_reused": 71,
+  "new_or_corrected_language_keys": 742,
+  "quests": {
+    "reviewed_keys": 9,
+    "existing_korean_reused": 1,
+    "existing_korean_corrected": 7,
+    "new_translations": 1
+  },
+  "status": "complete"
+}
