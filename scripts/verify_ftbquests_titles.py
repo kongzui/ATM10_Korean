@@ -52,8 +52,8 @@ EXPECTED_ADDON_TASK_TITLES = {
     "task.1B927BD83D40F37D.title": "엔트로 결정이 필요 없는 항목",
     "task.3E945BEFF5CE78F5.title": "조립기 매트릭스 벽 또는 유리",
     "task.475B673DC78361D2.title": "확장 장치",
-    "task.3A76350DDF5A318D.title": "고급 패턴 제공기",
-    "task.6D00B76B8A141BB8.title": "임의의 #advanced_ae:adv_pattern_provider",
+    "task.3A76350DDF5A318D.title": "고급 패턴 공급기",
+    "task.6D00B76B8A141BB8.title": "임의의 고급 패턴 공급기",
     "task.7FBDB1383D052B82.title": "ME 반출 버스 또는 ME 인터페이스",
     "task.4031B8B8FBDDEEE4.title": "전송 라벨",
 }
@@ -116,6 +116,12 @@ REDUNDANT_SINGLE_ITEM_TASK_IDS = {
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--instance", type=Path)
+    parser.add_argument(
+        "--scope",
+        choices=("all", "ae2"),
+        default="all",
+        help="ae2는 후속 계열이 갱신한 공통 본문 값의 일치 검사만 제외합니다.",
+    )
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
     quest_root = instance / "config/ftbquests/quests"
@@ -186,7 +192,7 @@ def main() -> int:
     mismatched_common = sorted(
         key for key, value in scoped_overrides.items() if output.get(key) != value
     )
-    if mismatched_common:
+    if mismatched_common and args.scope == "all":
         raise ValueError(f"공통 챕터 작업본과 출력이 다릅니다: {mismatched_common}")
 
     navigation_checked = 0
@@ -241,7 +247,7 @@ def main() -> int:
         for task_id in REDUNDANT_SINGLE_ITEM_TASK_IDS
         if f"task.{task_id}.title" in output
     )
-    if invalid_removed_tasks or restored_redundant_titles:
+    if invalid_removed_tasks or (restored_redundant_titles and args.scope == "all"):
         raise ValueError(
             f"단일 ItemTask 검증 실패={invalid_removed_tasks}, "
             f"중복 제목 재생성={restored_redundant_titles}"

@@ -1,0 +1,63 @@
+{
+  "status": "quality_recheck_completed_and_deployed",
+  "completed_at": "2026-08-08T17:08:08+09:00",
+  "scope": "AE2 core, GuideME, named add-ons, direct integrations, FTB Quests and KubeJS",
+  "source_audit": {
+    "current_installed_jars": 21,
+    "unique_language_entries_reviewed": 2031,
+    "unique_ftbquests_entries_reviewed": 264,
+    "kubejs_user_visible_entries_reviewed": 39,
+    "unique_guideme_page_pairs_reviewed": 223,
+    "advancement_json_files_checked": 820,
+    "advancement_direct_display_literals": 0,
+    "patchouli_entries": 0,
+    "ponder_user_visible_entries": 0
+  },
+  "review_counts": {
+    "string_entries_reviewed": 2334,
+    "existing_korean_kept": 2328,
+    "existing_korean_corrected": 6,
+    "new_missing_translations": 0,
+    "guideme_pages_kept": 223,
+    "guideme_pages_corrected": 0
+  },
+  "corrections": {
+    "accuracy": 0,
+    "sentence_quality": 2,
+    "terminology": 4,
+    "formatting": 0,
+    "items": [
+      "Soulplied Energistics의 AE2 Interface와 AE2 Storage Bus를 확정 아이템명인 ME 인터페이스와 ME 저장 버스로 복원",
+      "Soulplied Energistics 툴팁의 별표 안쪽 불필요한 공백 제거",
+      "Theurgy의 Certus Quartz와 Fluix 직접 연동 이름을 서투스 석영과 플루익스로 통일",
+      "MEGA Cells 관련 퀘스트의 Blastproof Alloy와 Blastproof Casing을 확정 Modern Industrialization 아이템명에 맞춰 폭발내성으로 통일"
+    ]
+  },
+  "validation": {
+    "language_keys_and_order_match": true,
+    "json_and_snbt_syntax": true,
+    "placeholders_numbers_units_format_codes_preserved": true,
+    "guideme_structure_links_tags_resources_preserved": true,
+    "fallback_titles_checked": true,
+    "duplicate_keys": 0,
+    "name_conflicts": 0,
+    "validation_errors": 0,
+    "ruff_check": true,
+    "python_compileall": true,
+    "git_diff_check": true
+  },
+  "deployment": {
+    "target": "game_root",
+    "backup_manifest": "temp/backups/20260808_170751_742674/backup_manifest.json",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/soulplied_energistics/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/theurgy/lang/ko_kr.json"
+    ],
+    "hashes_match": true,
+    "unexpected_instance_changes": [],
+    "post_apply_expected_changes": []
+  },
+  "remaining_review_items": [],
+  "minecraft_game_screen_verified": false
+}

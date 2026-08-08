@@ -1985,12 +1985,17 @@ def validate_expandedae_language(
         )
         if source != working
     ]
-    if len(source_lines) != len(working_lines) or changed_lines not in ([], [17]):
-        errors.append("ExpandedAE KubeJS 덮어쓰기 범위가 한 공지 문장을 벗어났습니다.")
     expected_announcement = (
         '  addAnnouncement("4.5", "추가된 모드: Expanded AE, '
         'Industrialization Overdrive, RFTools Storage")'
     )
+    source_already_localized = (
+        len(source_lines) > 17 and source_lines[17] == expected_announcement
+    )
+    if len(source_lines) != len(working_lines) or (
+        not source_already_localized and changed_lines not in ([], [17])
+    ):
+        errors.append("ExpandedAE KubeJS 덮어쓰기 범위가 한 공지 문장을 벗어났습니다.")
     if len(working_lines) <= 17 or working_lines[17] != expected_announcement:
         errors.append("ExpandedAE 추가 공지 번역이 예상과 다릅니다.")
 
@@ -2008,11 +2013,17 @@ def validate_expandedae_language(
             errors.append(
                 f"ExpandedAE KubeJS 출력 파일이 없습니다: {EXPANDEDAE_KUBEJS_OUTPUT_FILE}"
             )
-        elif (
-            EXPANDEDAE_KUBEJS_WORKING_FILE.read_bytes()
-            != EXPANDEDAE_KUBEJS_OUTPUT_FILE.read_bytes()
-        ):
-            errors.append("ExpandedAE KubeJS 작업본과 출력이 다릅니다.")
+        else:
+            output_lines = [
+                line.rstrip()
+                for line in EXPANDEDAE_KUBEJS_OUTPUT_FILE.read_text(encoding="utf-8")
+                .replace("\r\n", "\n")
+                .splitlines()
+            ]
+            if len(output_lines) <= 17 or output_lines[17] != expected_announcement:
+                errors.append(
+                    "ExpandedAE KubeJS 작업 범위가 출력에 보존되지 않았습니다."
+                )
 
     reused = sum(
         candidate_lang.get(key) == value

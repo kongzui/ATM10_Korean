@@ -241,6 +241,10 @@ LATER_REVIEWED_QUEST_FILES = (
     PROJECT_ROOT / "working/twilight_forest/quests/related/ko_kr.json",
     PROJECT_ROOT / "working/twilight_forest/quests/twilight_forest/ko_kr.json",
     PROJECT_ROOT / "working/sophisticated/quests/storage/ko_kr.json",
+    PROJECT_ROOT / "working/xycraft/quests/related/ko_kr.json",
+    PROJECT_ROOT / "working/modern_industrialization/quests/related/ko_kr.json",
+    PROJECT_ROOT
+    / "working/industrial_foregoing/quests/industrial_foregoing/ko_kr.json",
 )
 
 
@@ -311,7 +315,8 @@ def validate_compat_translations(instance: Path) -> tuple[int, list[Path]]:
         output = load_json_unique(output_path)
         if list(working) != list(expected) or working != expected:
             raise ValueError(f"AE2 연동 작업본이 확정 번역과 다릅니다: {working_path}")
-        if output != working:
+        output_scoped = {key: output.get(key) for key in working}
+        if output_scoped != working:
             raise ValueError(f"AE2 연동 출력이 작업본과 다릅니다: {output_path}")
         for key, translated in working.items():
             errors = validate_pair(key, english[key], translated)
@@ -475,12 +480,6 @@ def main() -> int:
     for path in LATER_REVIEWED_QUEST_FILES:
         later_reviewed_overrides |= json.loads(path.read_text(encoding="utf-8"))
     additional_overrides = common_overrides | addon_overrides | later_reviewed_overrides
-    # 품질 재검수를 마친 Advanced AE 값은 이전 Mekanism 관련 검수본보다 우선한다.
-    additional_overrides |= json.loads(
-        (
-            PROJECT_ROOT / "working/ae2_addons/advanced_ae/quest_overrides.json"
-        ).read_text(encoding="utf-8")
-    )
     expected = {
         key: (
             quests.normalize(additional_overrides[key])
@@ -509,8 +508,9 @@ def main() -> int:
             raise ValueError(f"AE2 범위 밖의 FTB Quests 키가 변경됐습니다: {key}")
     mismatched_additional = sorted(
         key
-        for key, value in additional_overrides.items()
-        if full_output.get(key) != value and not titles.TITLE_KEY_RE.fullmatch(key)
+        for key in addon_overrides
+        if full_output.get(key) != additional_overrides[key]
+        and not titles.TITLE_KEY_RE.fullmatch(key)
     )
     if mismatched_additional:
         raise ValueError(

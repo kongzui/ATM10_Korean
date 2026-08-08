@@ -4214,8 +4214,8 @@
 	quest.429B5A81DF6C43FE.title: "&6Odus' Open Convocation"
 	quest.42AAEC41F2BC2474.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_glacite.png width:100 height:150 align:center}"]
 	quest.42AAEC41F2BC2474.title: "&b글라사이트&r"
-	quest.42AF4EBDA5D6CC36.quest_desc: ["가장 강한 금속 세 가지인 &5텅스텐&r, &d티타늄&r과 &7스테인리스강&r을 조합하면 &2방폭 합금&r을 만들 수 있습니다. 얼룩도 중요했나 보네요. \\n\\n이 재료를 조합하여 &2케이싱&r을 만드세요. \\n\\n&3&l불가능 확률 장치&r에는 &2방폭 케이싱&r 2개 또는 256M 휴대용 아이템 셀 2개가 필요하며, 두 재료를 섞어 써도 됩니다!"]
-	quest.42AF4EBDA5D6CC36.title: "&2방폭 케이싱"
+	quest.42AF4EBDA5D6CC36.quest_desc: ["가장 강한 금속 세 가지인 &5텅스텐&r, &d티타늄&r과 &7스테인리스강&r을 조합하면 &2폭발내성 합금&r을 만들 수 있습니다. 얼룩도 중요했나 보네요. \\n\\n이 재료를 조합하여 &2케이싱&r을 만드세요. \\n\\n&3&l불가능 확률 장치&r에는 &2폭발내성 케이싱&r 2개 또는 256M 휴대용 아이템 셀 2개가 필요하며, 두 재료를 섞어 써도 됩니다!"]
+	quest.42AF4EBDA5D6CC36.title: "&2폭발내성 케이싱"
 	quest.42CB494F72FA1FD1.quest_desc: ["&e벌통&r 또는 &e벌집&r 6개를 제작하세요. &l&6Productive Bees&r의 &e벌통&r도 포함됩니다!"]
 	quest.42D173B9FF8D16E4.quest_desc: ["초반에 사용할 발전 방식을 찾고 있나요? 여기에서 전력 생산을 시작하기 좋은 방법을 알아볼 수 있습니다.\\n\\n발전량은 많지 않지만, 초반에 보통 쉽고 저렴하게 마련할 수 있습니다!"]
 	quest.42D173B9FF8D16E4.quest_subtitle: "초반 전력"
