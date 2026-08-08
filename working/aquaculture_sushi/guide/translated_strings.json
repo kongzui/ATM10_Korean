@@ -1,0 +1,197 @@
+[
+  {
+    "path": "categories/getting_started.json.name",
+    "source": "Getting Started",
+    "target": "시작하기"
+  },
+  {
+    "path": "categories/getting_started.json.description",
+    "source": "How to get basic stuff",
+    "target": "기본 재료를 구하는 방법"
+  },
+  {
+    "path": "categories/using_tools.json.name",
+    "source": "Using your tools",
+    "target": "도구 사용법"
+  },
+  {
+    "path": "categories/using_tools.json.description",
+    "source": "Your hands are your best tool",
+    "target": "손은 가장 좋은 도구입니다"
+  },
+  {
+    "path": "categories/world.json.name",
+    "source": "World",
+    "target": "월드"
+  },
+  {
+    "path": "categories/world.json.description",
+    "source": "What is out there?",
+    "target": "월드에는 무엇이 있을까요?"
+  },
+  {
+    "path": "entries/getting_started/effects.json.name",
+    "source": "Eating Effects",
+    "target": "음식 효과"
+  },
+  {
+    "path": "entries/getting_started/effects.json.pages[0].text",
+    "source": "Using different types of ingredients to make a type of sushi will get you different effects to make your food better",
+    "target": "같은 초밥도 재료 종류를 바꾸면 음식의 성능을 높이는 서로 다른 효과를 얻습니다."
+  },
+  {
+    "path": "entries/getting_started/effects.json.pages[1].title",
+    "source": "Small Bites",
+    "target": "한입 크기"
+  },
+  {
+    "path": "entries/getting_started/effects.json.pages[1].text",
+    "source": "Eating when having this potion effect will give you a small chance of not consuming the item.",
+    "target": "이 효과가 있을 때 음식을 먹으면 낮은 확률로 아이템이 소모되지 않습니다."
+  },
+  {
+    "path": "entries/getting_started/effects.json.pages[2].title",
+    "source": "Acquired Taste",
+    "target": "익숙해진 맛"
+  },
+  {
+    "path": "entries/getting_started/effects.json.pages[2].text",
+    "source": "Eating when having this potion effect will give extra food.",
+    "target": "이 효과가 있을 때 음식을 먹으면 허기와 포만도를 추가로 회복합니다."
+  },
+  {
+    "path": "entries/getting_started/effects.json.pages[3].title",
+    "source": "Steady Hands",
+    "target": "정교한 손놀림"
+  },
+  {
+    "path": "entries/getting_started/effects.json.pages[3].text",
+    "source": "Using a cutting board when having this potion effect will give extra weights in your ingredients.",
+    "target": "이 효과가 있을 때 도마를 사용하면 재료의 무게가 더 늘어납니다."
+  },
+  {
+    "path": "entries/getting_started/ingredients.json.name",
+    "source": "Ingredients",
+    "target": "재료"
+  },
+  {
+    "path": "entries/getting_started/ingredients.json.pages[0].text",
+    "source": "Ingredients are 'usually' processed food ready to used when making food, most of them will have a weight to them and their weights can be combined in the crafting table or in a $(l:using_tools/cooler_box)Cooler Box$() to do it in automated way. $(br2)If ingredients don't combine it might be because it goes over the max amount.",
+    "target": "재료는 보통 요리에 바로 쓸 수 있게 가공한 음식입니다. 대부분 무게가 있으며, 제작대에서 합치거나 $(l:using_tools/cooler_box)냉장 상자$()로 자동 합칠 수 있습니다. $(br2)재료가 합쳐지지 않는다면 최대치보다 무거워졌기 때문일 수 있습니다."
+  },
+  {
+    "path": "entries/getting_started/ingredients.json.pages[1].text",
+    "source": "Most ingredients have an affect attached to them or an effect modifier that will modify/amplify effects from other ingredients.",
+    "target": "대부분의 재료에는 고유 효과나 효과 조정값이 있어 다른 재료의 효과를 변경하거나 강화합니다."
+  },
+  {
+    "path": "entries/getting_started/nori.json.name",
+    "source": "Nori",
+    "target": "김"
+  },
+  {
+    "path": "entries/getting_started/nori.json.pages[0].text",
+    "source": "To get Nori Sheets you will need to find some Kelp in the oceans and make a Dried Kelp Block with it. $(br2)Squishing a Dried Kelp Block (dropped as an item) between an Iron Block with a piston will get you some Nori Sheets.",
+    "target": "김을 만들려면 바다에서 다시마를 구해 말린 다시마 블록으로 만드세요. $(br2)아이템 상태의 말린 다시마 블록을 피스톤으로 철 블록에 눌러 붙이면 김을 얻을 수 있습니다."
+  },
+  {
+    "path": "entries/getting_started/nori.json.pages[1].title",
+    "source": "Nori Piston Crafting",
+    "target": "피스톤으로 김 만들기"
+  },
+  {
+    "path": "entries/using_tools/cooler_box.json.name",
+    "source": "Cooler Box",
+    "target": "냉장 상자"
+  },
+  {
+    "path": "entries/using_tools/cooler_box.json.pages[0].text",
+    "source": "A handy box used to combine automatically ingredients that have weight, just place them inside and they will be combined.",
+    "target": "무게가 있는 재료를 자동으로 합치는 편리한 상자입니다. 재료를 안에 넣으면 알아서 합쳐집니다."
+  },
+  {
+    "path": "entries/using_tools/cutting_board.json.name",
+    "source": "Cutting Board",
+    "target": "도마"
+  },
+  {
+    "path": "entries/using_tools/cutting_board.json.pages[0].text",
+    "source": "Chopping your ingredients is an important step for cooking, you can place your ingredients by right clicking the Cutting Board and right clicking with a $(6)Cleaver Knife$() those ingredients will get chopped up. $(br)To remove ingredients Sneak + Right Click the cutting board. $(br2)$(l:getting_started/effects)Steady Hands$() will be your friends when using the cutting boards.",
+    "target": "재료 손질은 요리의 중요한 단계입니다. 도마를 우클릭해 재료를 올린 뒤 $(6)중식도$()로 다시 우클릭하면 재료를 썰 수 있습니다. $(br)재료를 빼려면 웅크린 채 도마를 우클릭하세요. $(br2)도마를 사용할 때는 $(l:getting_started/effects)정교한 손놀림$() 효과가 도움이 됩니다."
+  },
+  {
+    "path": "entries/using_tools/rice_cooker.json.name",
+    "source": "Rice Cooker",
+    "target": "밥솥"
+  },
+  {
+    "path": "entries/using_tools/rice_cooker.json.pages[0].text",
+    "source": "A machine used to cook rice perfectly to $(6)Uncle Roger$() standards. To cook it you will need Rice, Water and some fuel to cook it up. $(br2)You won't have to worry about the weights in the output slot, Cooked Rice will be combined automatically.",
+    "target": "$(6)Uncle Roger$()의 기준에 맞게 밥을 완벽히 짓는 기계입니다. 쌀과 물, 연료를 넣어 밥을 지으세요. $(br2)출력 칸의 무게는 걱정하지 않아도 됩니다. 익힌 쌀은 자동으로 합쳐집니다."
+  },
+  {
+    "path": "entries/using_tools/roller.json.name",
+    "source": "Roller",
+    "target": "김발"
+  },
+  {
+    "path": "entries/using_tools/roller.json.pages[0].text",
+    "source": "A Roller is the most important tool when making sushi. To use a Roller properly and get the best food you will need to experiment with it first. $(br2)Making a roll will indicate you in the tooltip how far the perfect weight is and making a perfect roll will provide you with better food values and effects.",
+    "target": "김발은 초밥을 만들 때 가장 중요한 도구입니다. 김발을 제대로 사용해 최고의 음식을 만들려면 먼저 여러 조합을 시험해 보세요. $(br2)말이를 만들면 완벽한 무게와 얼마나 차이 나는지 툴팁에 표시되며, 완벽하게 말면 음식 수치와 효과가 더 좋아집니다."
+  },
+  {
+    "path": "entries/using_tools/roller.json.pages[1].text",
+    "source": "To use a Roller select what type of Sushi you want, then place in ingredients in the correct slot, select how much of those ingredients you want to use and then left click the Roller a bunch of times to get your Sushi. $(br2)You don't have to remember the perfect weight the Roller will show you already discovered perfect weights.",
+    "target": "김발에서 만들 초밥 종류를 고르고 알맞은 칸에 재료를 넣으세요. 사용할 재료의 양을 정한 뒤 김발을 여러 번 좌클릭하면 초밥이 완성됩니다. $(br2)완벽한 무게를 외울 필요는 없습니다. 이미 알아낸 무게는 김발이 표시해 줍니다."
+  },
+  {
+    "path": "entries/world/avocado.json.name",
+    "source": "Avocado",
+    "target": "아보카도"
+  },
+  {
+    "path": "entries/world/avocado.json.pages[0].text",
+    "source": "You can find Avocado trees in the world, mostly in plains. $(br2)You can harvest the avocado from the leaves by Right Click them when it's fully grown.",
+    "target": "월드의 평원에서 주로 아보카도나무를 찾을 수 있습니다. $(br2)열매가 완전히 자란 잎을 우클릭하면 아보카도를 수확할 수 있습니다."
+  },
+  {
+    "path": "entries/world/crops.json.name",
+    "source": "Crops",
+    "target": "작물"
+  },
+  {
+    "path": "entries/world/crops.json.pages[0].text",
+    "source": "You can get seeds by breaking grass. $(br2)Most of the crops are grown like normal crops except Rice that needs to be grown underwater on dirt.",
+    "target": "풀을 부수면 씨앗을 얻을 수 있습니다. $(br2)대부분은 일반 작물처럼 자라지만, 쌀은 물속의 흙에서 재배해야 합니다."
+  },
+  {
+    "path": "entries/world/fish.json.name",
+    "source": "Tuna and Shrimp",
+    "target": "참치와 새우"
+  },
+  {
+    "path": "entries/world/fish.json.pages[0].text",
+    "source": "You can find those adorable creatures in the Ocean. $(br2)Bring a saddle, who knows what you can do with it.",
+    "target": "바다에서 이 귀여운 생물들을 찾을 수 있습니다. $(br2)안장을 가져가 보세요. 어디에 쓸 수 있을지는 직접 확인해 보세요."
+  },
+  {
+    "path": "entries/world/seaweed.json.name",
+    "source": "Seaweed",
+    "target": "해초"
+  },
+  {
+    "path": "entries/world/seaweed.json.pages[0].text",
+    "source": "You can find Seaweed in Oceans.",
+    "target": "바다에서 해초를 찾을 수 있습니다."
+  },
+  {
+    "path": "entries/world/tobiko.json.name",
+    "source": "Tobiko",
+    "target": "날치알"
+  },
+  {
+    "path": "entries/world/tobiko.json.pages[0].text",
+    "source": "You can get Tobiko from killing fishes.",
+    "target": "물고기를 처치하면 날치알을 얻을 수 있습니다."
+  }
+]

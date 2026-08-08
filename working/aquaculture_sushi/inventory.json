@@ -1,0 +1,23 @@
+{
+  "family": "aquaculture_sushi",
+  "namespaces": [
+    {
+      "namespace": "aquaculture",
+      "jar": "Aquaculture-1.21.1-2.7.21.jar",
+      "jar_size": 605949,
+      "jar_mtime_ns": 1783222452465160200,
+      "english_keys": 291,
+      "bundled_korean_keys": 279
+    },
+    {
+      "namespace": "sushigocrafting",
+      "jar": "sushigocrafting-1.21-0.6.5.jar",
+      "jar_size": 724996,
+      "jar_mtime_ns": 1783222259033853700,
+      "english_keys": 108,
+      "bundled_korean_keys": 0
+    }
+  ],
+  "english_keys": 399,
+  "status": "prepared"
+}

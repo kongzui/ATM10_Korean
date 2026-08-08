@@ -864,8 +864,8 @@
 		"{image:atm:textures/questpics/bumblezone/bumble_floaters.png width:200 height:100 align:center}"
 	]
 	quest.0C8180524757B238.title: "&7부유물"
-	quest.0C82CE3AFBD48C1E.quest_desc: ["&l&a스시 고 제작&r은 많은 블록을 추가하지 않지만, 추가하는 블록들은 부엌에서 사용하시길 강력히 추천합니다! \\n\\n특히 밥솥은 더 이상 전자레인지로 밥을 할 필요가 없습니다."]
-	quest.0C82CE3AFBD48C1E.title: "&l&a스시 고 제작&r"
+	quest.0C82CE3AFBD48C1E.quest_desc: ["&l&aSushi Go Crafting&r은 블록을 많이 추가하지는 않지만, 추가되는 블록은 주방에서 꼭 사용해 볼 만합니다! \\n\\n특히 밥솥이 있으면 이제 쌀을 전자레인지로 익힐 필요가 없습니다."]
+	quest.0C82CE3AFBD48C1E.title: "&l&aSushi Go Crafting&r"
 	quest.0C856BBB1679A7DD.quest_desc: ["이 페이지에서는 여정에 도움이 될 유용한 아이템과 정보를 찾을 수 있습니다!"]
 	quest.0C856BBB1679A7DD.quest_subtitle: "그 밖의 유용한 아이템!"
 	quest.0C93D7A607AB8B83.quest_desc: ["청크를 소유하려면 &6M&r 키로 지도를 연 다음, 왼쪽 위의 &a소유한 청크&r 아이콘을 클릭하세요.\\n\\n청크를 좌클릭하거나 드래그하면 소유할 수 있습니다.\\n\\n청크를 강제 로드하려면 Shift 키를 누른 채 해당 청크를 좌클릭하세요. 제대로 설정되면 청크에 빗금이 표시됩니다."]
@@ -3272,7 +3272,7 @@
 	quest.340CDF4357E22A43.title: "&e&lIron's Spells 'n Spellbooks"
 	quest.340F93695FFF8D76.quest_desc: ["이것으로 &b&l화학 분사기&r는 화학 물질 슈터에 더 가까워질 것입니다.\\n\\n범위는 증가하지만 분사 폭은 적게 됩니다. 따라서 더 정확합니다!"]
 	quest.341486C9F277FEB7.title: "원자로 (스피리티드)"
-	quest.3416DB9F58D8AA2C.quest_desc: ["&3넵튜늄&r은 낚시를 통해 얻을 수 있는 넵튠의 보상에서 얻는 보상입니다! 또한 수중에 있을 때 버프를 부여합니다."]
+	quest.3416DB9F58D8AA2C.quest_desc: ["&3넵투늄&r은 낚시로 얻는 넵튠의 보물에서 나옵니다! \\n넵투늄 장비는 물속에서 유용한 강화 효과도 제공합니다."]
 	quest.3416DB9F58D8AA2C.quest_subtitle: "28"
 	quest.3416DB9F58D8AA2C.title: "&3넵투늄 갑옷"
 	quest.341BB1353A1E45EA.quest_desc: ["총 포탑은 컴퓨터 두뇌를 가진 &d&l리볼버&r처럼 작동합니다! \\n\\n총 포탑은 아래에서 &c에너지&r를 공급받아야 하며, 켜려면 &4레드스톤 신호&r가 필요합니다. 또는 &6공학자의 드라이버&r를 사용해 항상 켜둘 수도 있습니다. \\n\\n총 포탑은 &d&l리볼버&r와 동일한 &9탄약&r을 사용하며, 특수 &6투사체&r도 사용할 수 있습니다! 총알을 넣고 탄피를 배출하거나, 탄피 배출 버튼을 눌러 탄피를 떨어뜨릴 수도 있습니다. \\n\\n사격을 시작하기 전에, 공격 대상을 설정해야 합니다. 우선, 총 포탑은 설치한 사람은 공격하지 않습니다. 또한 입력란에 플레이어나 몹의 이름을 입력해 추가할 수 있습니다. 추가된 대상은 공격하지 않습니다! \\n\\n기본적으로 블랙리스트로 설정되어 있으며, 블랙리스트에 등록된 대상만 사격합니다. 동물은 패시브 몹을 의미합니다. 플레이어는 플레이어만을 의미합니다. 중립은 모든 중립 몹과 주민을 의미합니다. 적대적인 몹은 항상 공격하니 걱정하지 마세요!"]
@@ -8340,7 +8340,7 @@
 	task.529FFD7D692AEFA5.title: "특수 투사체"
 	task.52BB142F044075B4.title: "퀘스트"
 	task.539C6F64C251543B.title: "석탄"
-	task.53A6720343E57302.title: "스시 고 제작"
+	task.53A6720343E57302.title: "Sushi Go Crafting"
 	task.53A682560123F9B6.title: "글래센셜"
 	task.53C6E9EAC8AC15EB.title: "올더모듐 곡괭이"
 	task.53DE943DF951696B.title: "악마 광부"

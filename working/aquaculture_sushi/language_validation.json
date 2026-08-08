@@ -1,0 +1,35 @@
+{
+  "family": "aquaculture_sushi",
+  "namespaces": [
+    {
+      "namespace": "aquaculture",
+      "keys": 291,
+      "existing_korean_reused": 84,
+      "new_or_corrected": 207,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    {
+      "namespace": "sushigocrafting",
+      "keys": 108,
+      "existing_korean_reused": 0,
+      "new_or_corrected": 108,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    }
+  ],
+  "guide": {
+    "files": 15,
+    "direct_strings": 39,
+    "book_landing_strings": 1
+  },
+  "keys": 399,
+  "existing_korean_reused": 84,
+  "new_or_corrected_language_keys": 315,
+  "errors": [],
+  "status": "complete"
+}

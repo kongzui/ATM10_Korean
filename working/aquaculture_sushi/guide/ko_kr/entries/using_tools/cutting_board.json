@@ -1,0 +1,18 @@
+{
+  "name": "도마",
+  "icon": "sushigocrafting:cutting_board",
+  "category": "sushigocrafting:using_tools",
+  "sortnum": 3,
+  "read_by_default": false,
+  "pages": [
+    {
+      "type": "text",
+      "text": "재료 손질은 요리의 중요한 단계입니다. 도마를 우클릭해 재료를 올린 뒤 $(6)중식도$()로 다시 우클릭하면 재료를 썰 수 있습니다. $(br)재료를 빼려면 웅크린 채 도마를 우클릭하세요. $(br2)도마를 사용할 때는 $(l:getting_started/effects)정교한 손놀림$() 효과가 도움이 됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "sushigocrafting:cutting_board",
+      "recipe2": "sushigocrafting:cleaver_knife"
+    }
+  ]
+}

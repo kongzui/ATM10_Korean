@@ -1,0 +1,21 @@
+{
+  "name": "김발",
+  "icon": "sushigocrafting:roller",
+  "category": "sushigocrafting:using_tools",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "김발은 초밥을 만들 때 가장 중요한 도구입니다. 김발을 제대로 사용해 최고의 음식을 만들려면 먼저 여러 조합을 시험해 보세요. $(br2)말이를 만들면 완벽한 무게와 얼마나 차이 나는지 툴팁에 표시되며, 완벽하게 말면 음식 수치와 효과가 더 좋아집니다."
+    },
+    {
+      "type": "text",
+      "text": "김발에서 만들 초밥 종류를 고르고 알맞은 칸에 재료를 넣으세요. 사용할 재료의 양을 정한 뒤 김발을 여러 번 좌클릭하면 초밥이 완성됩니다. $(br2)완벽한 무게를 외울 필요는 없습니다. 이미 알아낸 무게는 김발이 표시해 줍니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "sushigocrafting:roller"
+    }
+  ]
+}

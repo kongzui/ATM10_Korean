@@ -1,0 +1,21 @@
+{
+  "name": "김",
+  "icon": "sushigocrafting:nori_sheets",
+  "category": "sushigocrafting:getting_started",
+  "sortnum": 2,
+  "read_by_default": false,
+  "pages": [
+    {
+      "type": "text",
+      "text": "김을 만들려면 바다에서 다시마를 구해 말린 다시마 블록으로 만드세요. $(br2)아이템 상태의 말린 다시마 블록을 피스톤으로 철 블록에 눌러 붙이면 김을 얻을 수 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "sushigocrafting:textures/gui/book/nori.png"
+      ],
+      "title": "피스톤으로 김 만들기",
+      "text": ""
+    }
+  ]
+}
