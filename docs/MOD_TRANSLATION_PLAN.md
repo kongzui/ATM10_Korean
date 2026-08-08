@@ -6,7 +6,7 @@
 선택한 모드의 처리 단계는 `PLAN.md`, 안전·번역·검증·적용·Git 규칙은 `AGENTS.md`, 사용자용
 설명과 명령은 `README.md`를 따른다.
 
-목록과 표의 위아래 배치와 콘텐츠 분류는 구현 우선순위가 아니다. 사용자는 어떤 분류의 모드든
+목록의 위아래 배치와 콘텐츠 분류는 구현 우선순위가 아니다. 사용자는 어떤 분류의 모드든
 자유롭게 선택할 수 있고, 서로 다른 분류의 모드를 하나의 작업으로 묶을 수도 있다. 선택하지
 않은 모드는 현재 작업이 끝난 뒤 자동으로 이어서 진행하지 않는다.
 
@@ -28,18 +28,12 @@
 모드팩 업데이트 뒤 작업을 시작할 때는 실제 설치 여부와 버전을 다시 확인한다. 설치 목록이
 달라졌다면 기억이나 다른 ATM 시리즈 구성을 근거로 추측하지 않고 이 문서를 갱신한다.
 
-미완료 항목 표의 `한글 표기`는 사용자가 모드 성격을 쉽게 찾기 위한 안내용 이름이다. 실제 게임 번역에서는
-프로젝트 용어집과 공식 모드명 유지 규칙을 다시 적용하며, 이 표의 음역을 자동으로 확정 명칭으로
-사용하지 않는다.
-
 ### 상태 의미
 
-| 상태        | 의미                                                                  |
-| ----------- | --------------------------------------------------------------------- |
-| 완료        | 전체 검토·검증·산출물 반영을 마치고 적용 완료 또는 보류 사유를 기록함 |
-| 부분 완료   | 일부 언어·퀘스트·가이드 또는 공통 범위만 완료됨                       |
-| 미작업      | 프로젝트 기준의 전체 검토 완료 기록이 없음                            |
-| 재검수 필요 | 완료 기록은 있으나 원문·버전·적용본 차이로 다시 확인해야 함           |
+- **완료** — 전체 검토·검증·산출물 반영을 마치고 적용 완료 또는 보류 사유를 기록한 상태다.
+- **부분 완료** — 일부 언어·퀘스트·가이드 또는 공통 범위만 완료한 상태다.
+- **미작업** — 프로젝트 기준의 전체 검토 완료 기록이 없는 상태다.
+- **재검수 필요** — 완료 기록은 있으나 원문·버전·적용본 차이로 다시 확인해야 하는 상태다.
 
 모드 JAR에 한국어가 포함되어 있어도 프로젝트 전체 검수를 마친 것은 아니므로 자동으로
 `완료`로 표시하지 않는다.
@@ -83,6 +77,12 @@
   Inventory Tweaks와 TrashSlot의 키 설정·정보 표시·인벤토리 조작 기능이다.
 - **Tempad** — 저장한 위치 사이를 이동하는 휴대용 순간이동 도구다. 관련 퀘스트와 KubeJS도
   함께 검수했다.
+- **클라이언트 메뉴·설정 UI** — 시작 메뉴, 그래픽·셰이더와 소리 차단 설정을 제공한다.
+  FancyMenu, Sodium Extra, Iris, Extreme Sound Muffler와 Fzzy Config를 함께 검수했다.
+- **FTB Essentials·FTB Filter System** — 순간이동 요청·홈·휴지통 명령과 스마트 필터 UI를
+  제공한다. 채팅 메시지·툴팁과 다른 FTB 모드 연동을 포함한다.
+- **Just Enough Archaeology** — JEI·EMI에서 고고학 솔질과 스니퍼 결과를 보여 준다. 본체의
+  조합법 범주·설명과 JEI·EMI 표시 경로를 함께 검수했다.
 
 공통 UI 완료 범위는 프레임워크와 공통 화면에 한정한다. 특정 모드의 아이템·블록 이름,
 전용 조합법 문구와 가이드 본문은 해당 모드의 완료 여부를 따른다.
@@ -117,6 +117,8 @@
 - **Iron Jetpacks·장비 편의** — 제트팩 비행, 추가 체력, 도구 벨트와 자석 같은 휴대 장비
   기능이다.
 - **Reliquary** — 전리품을 재료로 유물·도구·마법성 아이템을 만드는 모드다.
+- **Gateways to Eternity·Hellish Trials** — 소환형 전투 도전과 단계별 보상을 제공한다.
+  두 본체, Apotheosis 관련 보상과 퀘스트를 함께 검수했다.
 
 ### 전력·물류·기술 자동화
 
@@ -147,6 +149,10 @@
 - **LaserIO·MFFS** — 레이저 물류망과 에너지 방어장·포스 필드를 제공한다.
 - **Steve's Carts** — 모듈식 광산 수레를 조립해 운송·채굴·농사 작업을 자동화한다.
 - **Pylons** — 일정 범위에 효과를 부여하고 수확·청크 관련 작업을 자동화한다.
+- **Little Big Redstone·Redstone Pen** — 큰 레드스톤 회로를 작은 블록 안에 만들고 배선을
+  편집한다. 회로 편집 UI·인게임 가이드와 발전 과제를 함께 검수했다.
+- **QuarryPlus·소형 전력 도구** — 채굴기·펌프·발전기와 전력 측정 도구를 제공한다.
+  QuarryPlus, Generator Galore, Energy Meter의 설정과 Jade 표시를 포함한다.
 
 ### 농업·자원 생산·몹 자동화
 
@@ -163,6 +169,10 @@
 - **Botany Pots·Botany Trees** — 화분에서 작물과 나무를 자동 재배한다.
 - **Productive Metalworks** — 금속을 녹이고 주조해 재료를 생산하는 설비를 제공한다.
 - **All The Ores·All The Compressed** — 팩 공통 광물과 단계별 대량 압축 블록을 제공한다.
+- **Mama's Herbs and Harvest·Mama's MerryMaking** — 허브·치즈·음료·가공 음식과 계절
+  장식·의상을 추가한다. 인게임 가이드·채팅 안내와 효과 설명을 함께 검수했다.
+- **Aquaculture 2·Sushi Go Crafting** — 낚시·물고기·낚싯대와 초밥 조리·음식 효과를
+  확장한다. 음식 책·효과 설명과 관련 FTB Quests를 포함한다.
 
 ### 마법·주문·의식
 
@@ -190,6 +200,12 @@
 - **Eternal Starlight** — 별빛 테마 차원, 생물군계, 던전과 보스를 제공한다.
 - **Deeper and Darker** — 딥 다크를 확장하고 다른 차원과 장비를 제공한다.
 - **Ice and Fire** — 드래곤과 신화 생물, 전용 장비와 탐험 콘텐츠를 제공한다.
+- **Oh The Biomes We've Gone·Regions Unexplored** — 오버월드와 여러 차원의 생물군계를
+  확장한다. 두 본체의 생물군계·나무·블록 이름을 함께 검수했다.
+- **구조물·던전 모음** — YUNG's Better 시리즈, When Dungeons Arise, Dungeon Crawl,
+  Repurposed Structures, Structory와 Moog's Structures의 탐험 구조물 표시 경로를 검수했다.
+- **생물·몹 확장 모음** — Enderman Overhaul, Variants&Ventures, Living Things와 Creeper
+  Overhaul의 몹 이름·설정·자막을 함께 검수했다.
 
 ### 식민지·대형 독립 콘텐츠
 
@@ -201,6 +217,26 @@
 
 - **Supplementaries·Amendments** — 바닐라 분위기를 유지하면서 생활·장식·상호작용 블록과
   기능을 확장한다.
+- **Chipped** — 블록마다 많은 장식 변형과 가공 작업대를 제공한다. 본체와 Rechiseled Chipped
+  연동의 검색 이름·설명·표시 경로를 함께 검수했다.
+- **Chisel·Rechiseled** — 건축 블록의 다양한 질감 변형을 제공한다. Chisel, Rechiseled와
+  Rechiseled: Create를 함께 검수했다.
+- **BiblioCraft 계열** — 가구·진열·보관과 대규모 목재 변형을 제공한다. BiblioCraft,
+  BiblioWoods와 BiblioBiomes의 현재 영어 원문 전체를 함께 검수했다.
+- **Macaw's 시리즈** — 문·창문·지붕·가구·다리 등 건축 부품을 제공한다. Doors, Windows,
+  Roofs, Furniture, Bridges, Lights, Fences, Paths, Stairs, Trapdoors와 Holidays를 포함한다.
+- **Handcrafted·Refurbished Furniture** — 가구와 실내 장식 블록을 제공한다. 두 본체와 관련
+  조합법 표시를 함께 검수했다.
+- **FramedBlocks** — 다른 블록의 외형을 입힐 수 있는 건축 프레임을 제공한다. 본체와 AE2·기술
+  모드 연동을 함께 검수했다.
+- **XTones Reworked** — 여러 색상과 무늬의 대량 장식 블록을 제공한다. 본체, KubeJS 표시
+  후보와 조합법 경로를 함께 검수했다.
+- **Everything is Copper·Dyenamics** — 구리 장비·건축 부품과 추가 염료 색상 블록을 제공한다.
+  관련 FTB Quests와 Dyenamics and Friends 용어 연결을 포함한다.
+- **조명·유리 장식 모음** — Luminax, Simply Light, Additional Lights, Glassential Renewed와
+  Connected Glass의 조명·특수 유리·연결 유리를 함께 검수했다.
+- **Factory Blocks·Construction Sticks** — 공장풍 장식 블록과 블록을 빠르게 놓는 건축
+  도구를 제공한다. 툴팁·발전 과제와 조작 안내를 함께 검수했다.
 
 ### 복합 시스템·기타
 
@@ -208,63 +244,6 @@
   구성한다. Dynamics, Terminals, Tunnels, Crafting과 Scripting을 포함한다.
 - **초중반 기반 시설** — Iron Furnaces, Easy Villagers, Mining Gadgets, Building Gadgets,
   Mob Grinding Utils와 Item Collectors처럼 자주 쓰는 기계·주민·건축·채굴 도구 묶음이다.
-
-## 미완료 항목
-
-아래 표는 프로젝트 기준의 전체 원문 대조·검수 완료 기록이 없는 항목이다. JAR에 한국어가
-들어 있어도 검수 후보일 뿐이며, `함께 확인할 범위` 전체를 끝내기 전에는 완료로 바꾸지 않는다.
-분류는 찾기 쉽게 나눈 것이며 표의 순서는 작업 우선순위를 강제하지 않는다.
-
-### 공통 문구·공통 UI
-
-| 모드·항목 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
-| --------- | --------- | ------------- | ---------------- | ---- | --------- |
-| 클라이언트 메뉴·설정 UI | 클라이언트 메뉴·설정 UI | 시작 메뉴, 그래픽·셰이더와 소리 차단 설정을 제공 | FancyMenu, Sodium Extra, Iris, Extreme Sound Muffler, Fzzy Config | 미작업 | 메뉴·설명 중심 약 4,100키이며 기존 한국어도 전체 재검수 필요 |
-| FTB Essentials·FTB Filter System | FTB 필수 기능·필터 시스템 | 순간이동 요청·휴지통·홈 명령과 스마트 필터 UI를 제공 | 두 본체, 채팅 메시지·툴팁과 다른 FTB 모드 연동 | 미작업 | 플레이 중 읽는 메시지와 필터 오류 안내가 반복 노출 |
-| Just Enough Archaeology | JE 고고학 | JEI·EMI에서 고고학 솔질과 스니퍼 결과를 보여 줌 | 본체의 조합법 범주·설명, JEI·EMI 표시 | 미작업 | 영어 156키가 대부분 조합법 화면 설명 |
-
-### 장비·캐릭터 성장·전투
-
-| 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
-| ---- | --------- | ------------- | ---------------- | ---- | --------- |
-| Gateways to Eternity·Hellish Trials | 영원의 관문·지옥의 시련 | 소환형 전투 도전과 단계별 보상을 제공 | 두 본체, Apotheosis 관련 보상과 퀘스트 | 미작업 | 독립 전투 콘텐츠와 안내 문구 |
-
-### 전력·물류·기술 자동화
-
-| 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
-| ---- | --------- | ------------- | ---------------- | ---- | --------- |
-| Little Big Redstone·Redstone Pen | 리틀 빅 레드스톤·레드스톤 펜 | 큰 레드스톤 회로를 작은 블록 안에 만들고 배선을 편집 | 두 본체, 회로 편집 UI·인게임 가이드·발전 과제 | 미작업 | 영어 365키와 조작 안내·가이드 버튼 다수 |
-| QuarryPlus·소형 전력 도구 | 쿼리플러스·소형 전력 도구 | 채굴기·펌프·발전기와 전력 측정 도구를 제공 | QuarryPlus, Generator Galore, Energy Meter, 관련 설정·Jade 표시 | 미작업 | 기계 설정과 상태 설명을 읽어야 사용하는 독립 기능 |
-
-### 농업·음식·생활 생산
-
-| 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
-| ---- | --------- | ------------- | ---------------- | ---- | --------- |
-| Mama's Herbs and Harvest·Mama's MerryMaking | 마마의 허브 앤 하베스트·메리메이킹 | 허브·치즈·음료·가공 음식과 계절 장식·의상을 추가 | 두 본체, 인게임 가이드·채팅 안내·효과 설명 | 미작업 | 영어 1,337키이며 Herbs and Harvest에 가이드 설명 다수 |
-| Aquaculture 2·Sushi Go Crafting | 아쿠아컬처 2·스시 고 크래프팅 | 낚시·물고기·낚싯대와 초밥 조리·음식 효과를 확장 | 두 본체, 음식 책·효과 설명과 관련 FTB Quests | 미작업 | 영어 399키, 퀘스트 아이템과 읽는 책·효과 설명 존재 |
-
-### 탐험·차원·생물·구조물
-
-| 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
-| ---- | --------- | ------------- | ---------------- | ---- | --------- |
-| Oh The Biomes We've Gone·Regions Unexplored | 오 더 바이옴즈 위브 곤·리전스 언익스플로어드 | 오버월드와 여러 차원의 생물군계를 확장 | 두 본체와 나무·블록 이름 | 미작업 | 영어 2,005키의 대규모 생물군계 콘텐츠 |
-| 구조물·던전 모음 | 구조물·던전 모음 | 월드 곳곳에 던전과 탐험 구조물을 추가 | YUNG's Better 시리즈, When Dungeons Arise, Dungeon Crawl, Repurposed Structures, Structory, Moog's Structures | 미작업 | 설치된 대표 구조물 모드 묶음 |
-| 생물·몹 확장 모음 | 생물·몹 확장 모음 | 바이옴별 엔더맨, 바닐라 몹 변종과 새로운 동물을 추가 | Enderman Overhaul, Variants&Ventures, Living Things, Creeper Overhaul | 미작업 | 영어 약 425키와 몹 이름·설정·자막이 직접 노출 |
-
-### 건축·장식·생활
-
-| 모드 | 한글 표기 | 어떤 모드인가 | 함께 확인할 범위 | 상태 | 선정 근거 |
-| ---- | --------- | ------------- | ---------------- | ---- | --------- |
-| Chipped | 칩드 | 블록마다 많은 장식 변형과 가공 작업대를 제공 | 본체, Rechiseled Chipped 연동 | 미작업 | 영어 7,265키의 대형 장식 모드 |
-| Chisel·Rechiseled | 치즐·리치즐드 | 건축 블록의 다양한 질감 변형을 제공 | Chisel, Rechiseled, Rechiseled: Create | 미작업 | 영어 6,673키의 대형 건축 블록 계열 |
-| BiblioCraft 계열 | 비블리오크래프트 계열 | 가구·진열·보관과 대규모 목재 변형을 제공 | BiblioCraft, BiblioWoods, BiblioBiomes | 미작업 | 영어 22,431키로 설치 목록 최대 규모 |
-| Macaw's 시리즈 | Macaw's 시리즈 | 문·창문·지붕·가구·다리 등 건축 부품을 제공 | Doors, Windows, Roofs, Furniture, Bridges, Lights, Fences, Paths, Stairs, Trapdoors, Holidays | 미작업 | 여러 건축 애드온이 함께 설치됨 |
-| Handcrafted·Refurbished Furniture | 핸드크래프티드·리퍼비시드 퍼니처 | 가구와 실내 장식 블록을 제공 | 두 본체와 관련 조합법 | 미작업 | 영어 1,046키와 기능성 가구 설명 다수 |
-| FramedBlocks | 프레임드 블록 | 다른 블록의 외형을 입힐 수 있는 건축 프레임을 제공 | 본체, AE2·기술 모드 연동 | 미작업 | 범용 건축·위장 블록과 설정 툴팁 |
-| XTones Reworked | 엑스톤즈 리워크드 | 여러 색상과 무늬의 대량 장식 블록을 제공 | 본체, KubeJS 언어 후보와 조합법 표시 | 미작업 | 한국어 없이 영어 547키가 모두 블록 검색명으로 노출 |
-| Everything is Copper·Dyenamics | 에브리싱 이즈 코퍼·다이내믹스 | 구리 장비·건축 부품과 추가 염료 색상 블록을 제공 | 두 본체, Everything is Copper 관련 FTB Quests, Dyenamics and Friends 용어 연결 | 미작업 | 영어 609키와 퀘스트 아이템 이름이 직접 노출 |
-| 조명·유리 장식 모음 | 조명·유리 장식 모음 | 다양한 형태의 조명과 특수·연결 유리를 제공 | Luminax, Simply Light, Additional Lights, Glassential Renewed, Connected Glass | 미작업 | 영어 813키와 기능을 구분하는 툴팁 다수 |
-| Factory Blocks·Construction Sticks | 팩토리 블록·건축 막대 | 공장풍 장식 블록과 블록을 빠르게 놓는 건축 도구를 제공 | 두 본체, 툴팁·발전 과제와 조작 안내 | 미작업 | 영어 243키에 기능 설명과 발전 과제 포함 |
 
 ## 완료된 작업 기록
 
@@ -318,5 +297,11 @@
   MineColonies 내장 가이드 4종의 표시 경로를 검증했다. StyleColonies 구조물 팩 메타데이터와
   TownTalk 음성 리소스는 언어 파일이 없는 감사 전용 범위로 확인했다. `b8cbc0f`, `e2178b7`,
   `5bc4711`, `0fe1ff0`, `6c54cd7`, `9a6a201`로 계열별 커밋하고 `game_root`에 적용 완료
-- **FTB Quests 공통 제목·탐색 기반:** 공통 범위는 완료했다. 아직 선택되지 않은 모드의 제목과
-  fallback은 미완료 표의 해당 모드를 작업할 때 함께 검토한다.
+- **FTB Quests 공통 제목·탐색 기반:** 공통 범위와 완료 항목별 관련 제목·Task 제목·fallback
+  표시 경로를 모두 검수했다.
+- **후속 완료 모드군 21개:** 공통 UI 3개, 전투 1개, 기술 자동화 2개, 농업·음식 2개,
+  탐험·생물·구조물 3개와 건축·장식 10개 항목을 27개 검증 계열로 나눠 현재 설치 영어
+  원문 전체와 대조했다. 언어·FTB Quests·KubeJS·가이드·발전 과제·기타 표시 경로를 계열별로
+  검증하고 `600717a`부터 `daa2474`까지 28개 독립 커밋으로 완료했다. Dungeon Crawl은 번역할
+  표시 산출물이 없는 감사 전용 범위로 확인했고, 나머지 산출물은 `game_root`에 적용해 현재
+  304개 배포 경로의 해시 일치를 확인했다.
