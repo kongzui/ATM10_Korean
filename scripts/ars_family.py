@@ -395,8 +395,9 @@ KEY_OVERRIDES = {
         ),
         "starbunclemania.page.robin_mask": (
             "별다람쥐가 여러 보관함에 아이템을 차례로 분배하게 합니다. 이 장신구를 "
-            "착용한 별다람쥐는 바닥의 아이템만 주우며, 연결된 목적지 수에 맞춰 한 "
-            "보관함에 옮길 수량을 나눈 뒤 다음 보관함으로 이동합니다."
+            "착용하면 별다람쥐는 바닥에 떨어진 아이템만 줍습니다. 쌓인 별다람쥐 "
+            "한 마리마다 최대 스택 크기를 목적지 보관함 수로 나눈 만큼 운반한 뒤 "
+            "다음 보관함으로 이동합니다."
         ),
     },
     "ars_elemancy": {
@@ -542,10 +543,10 @@ QUALITY_OVERRIDES = {
             "손에 든 아이템을 해당 블록이나 개체에 사용할 수 있습니다."
         ),
         "ars_nouveau.glyph_desc.glyph_name": (
-            "주문 이름을 개체나 아이템에 붙입니다. 블록을 대상으로 하면 블록 위의 "
-            "개체와 떨어진 아이템에 이름을 붙이고, 자신을 대상으로 하면 보조 손의 "
-            "아이템에 이름을 붙입니다. 단축바에 이름표가 있으면 주문 이름 대신 "
-            "이름표의 이름을 사용합니다."
+            "설정된 주문 이름으로 개체의 이름을 지정합니다. 블록을 대상으로 하면 "
+            "주변 개체의 이름을 지정하거나, 가능하면 보관함 블록 자체의 이름을 "
+            "지정합니다. 자신 형태로 시전하면 보조 손에 든 아이템의 이름을 "
+            "지정합니다. 단축바에 이름표가 있으면 이름표의 이름이 우선합니다."
         ),
         "ars_nouveau.glyph_desc.glyph_break": (
             "평균 경도의 블록을 부숩니다. 증폭으로 보강하면 채굴 등급이 높아집니다. "
@@ -972,7 +973,7 @@ QUALITY_OVERRIDES = {
         "ars_elemental.armor_set.school_set.desc": "학파 세트 보너스(같은 원소 4부위)",
         "ars_elemental.armor_set.set_bonus.desc": "방어구 세트 보너스(2부위 또는 4부위)",
         "ars_elemental.armor_set.tempest_light.desc": (
-            "물과 공기 학파에 조율되어 기린과 네레이드 세트의 효과를 결합합니다."
+            "물과 공기 학파에 조율되어 올림피안과 네레이드 세트의 효과를 결합합니다."
         ),
         "ars_elemental.armor_set.tempest_heavy.desc": (
             "물과 공기 학파에 조율되어 스톰가드와 윈터가드 세트의 효과를 결합합니다."
@@ -981,7 +982,7 @@ QUALITY_OVERRIDES = {
             "물과 대지 학파에 조율되어 네레이드와 님프 세트의 효과를 결합합니다."
         ),
         "ars_elemental.armor_set.mire_heavy.desc": (
-            "물과 대지 학파에 조율되어 윈터가드와 윌드가드 세트의 효과를 결합합니다."
+            "화염과 공기 학파에 조율되어 윈터가드와 윌드가드 세트의 효과를 결합합니다."
         ),
         "ars_elemental.armor_set.cinder_light.desc": (
             "화염과 공기 학파에 조율되어 파이로매니악과 올림피안 세트의 효과를 결합합니다."
@@ -1518,7 +1519,7 @@ QUALITY_OVERRIDES = {
         "item.allthearcanistgear.creative_spell_book": "크리에이티브 마도서",
         "item.allthearcanistgear.unobtainium_spell_book": "Unobtainium 마도서",
         "item.allthearcanistgear.vibranium_spell_book": "Vibranium 마도서",
-        "tab.allthearcanistgear": "All the Arcanist Gear",
+        "tab.allthearcanistgear": "All The Arcanist Gear",
     },
 }
 
@@ -1693,7 +1694,7 @@ QUEST_OVERRIDES = {
         ),
         "quest.4ABACE222E647E2C.quest_subtitle": "마나로 희생물 대체",
         "quest.6D68D9941049E806.quest_desc": (
-            "이름처럼 이 생성기는 &d마나&r를 연료로 사용합니다. 소환할 몹이 든 "
+            "이름처럼 이 스포너는 &d마나&r를 연료로 사용합니다. 소환할 몹이 든 "
             "격리 단지를 주변에 놓아 대상을 정하세요."
         ),
         "quest.29D28983E0200A3C.quest_desc": (
@@ -1881,7 +1882,7 @@ QUEST_QUALITY_OVERRIDES = {
         ),
         "quest.66E88F916B638B3B.quest_desc": (
             "조금 헷갈릴 수 있습니다. &5크리에이티브 &e마도서&r가 여러 개 있거든요! "
-            "여기서 필요한 것은 &d&lAll the Arcanist Gear&r의 마도서입니다. \n\n이 "
+            "여기서 필요한 것은 &d&lAll The Arcanist Gear&r의 마도서입니다. \n\n이 "
             "마도서를 만들려면 먼저 &l&dArs Nouveau&r의 크리에이티브 &e마도서&r를 "
             "제작해야 합니다. 그 조합에는 &e대마법사의 마도서&r, &6&lATM의 별&r, "
             "몇 가지 추가 아이템이 필요합니다. \n\n&eUnobtainium 마도서&r와 성능은 "
@@ -1902,18 +1903,18 @@ QUEST_QUALITY_OVERRIDES = {
             '"value": "6AEDA2F9BEB57759" } }',
         ],
         "quest.0ABB2264CBB82470.quest_desc": "&d&lArs&r 철 등급 방어구입니다.",
-        "quest.0ABB2264CBB82470.title": "&5아케니스트 복장",
+        "quest.0ABB2264CBB82470.title": "&5비전술사 복장",
         "quest.0E2515424291BB59.quest_desc": (
             "&b다이아몬드&r 등급의 &d&lArs&r 방어구입니다!"
         ),
         "quest.19F58E291A543228.quest_desc": "&e금&r 등급의 &d&lArs&r 방어구입니다!",
-        "quest.2296CE4418AE62D4.title": "&6Allthemodium 아케니스트 장비",
+        "quest.2296CE4418AE62D4.title": "&6Allthemodium 비전술사 장비",
         "quest.29D28983E0200A3C.quest_desc": (
             "&l&dArs Nouveau&r는 마도서에 문양을 조합해 원하는 주문을 시전하는 마법 "
             "모드입니다!"
         ),
-        "quest.3512F47DADC07EAE.title": "&5Unobtainium 아케니스트 장비",
-        "quest.52AFABA08674B6A8.title": "&3Vibranium 아케니스트 장비",
+        "quest.3512F47DADC07EAE.title": "&5Unobtainium 비전술사 장비",
+        "quest.52AFABA08674B6A8.title": "&3Vibranium 비전술사 장비",
     },
 }
 for scope, overrides in QUEST_QUALITY_OVERRIDES.items():

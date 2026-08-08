@@ -1125,6 +1125,7 @@ ALLOWED_ORIGINALS = {
     "Pylons",
     "Steve's Carts",
     "Draconic Evolution",
+    "All The Arcanist Gear",
     "Nature's Aura",
     "Roots Classic",
     "Theurgy",

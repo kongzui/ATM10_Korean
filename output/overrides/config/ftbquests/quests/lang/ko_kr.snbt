@@ -753,7 +753,7 @@
 	quest.0A9D5C5D2F4CDCC3.title: "&5Unobtainium 철퇴"
 	quest.0ABB2264CBB82470.quest_desc: ["&d&lArs&r 철 등급 방어구입니다."]
 	quest.0ABB2264CBB82470.quest_subtitle: "15"
-	quest.0ABB2264CBB82470.title: "&5아케니스트 복장"
+	quest.0ABB2264CBB82470.title: "&5비전술사 복장"
 	quest.0AC8FE3B59D1B09D.quest_desc: ["양자 포획기는 몹을 이동시키는 데 매우 유용한 도구입니다.\\n\\n몹을 우클릭하여 \"포획\"한 다음, 다시 우클릭하면 놓아줍니다.\\n\\n사용하려면 일정량의 &b아우레알&r이 필요하며, 이는 몹의 체력에 따라 달라집니다. 체력이 높을수록 더 많은 &b아우레알&r이 필요합니다! 몹을 놓아주는 데는 비용이 들지 않습니다. 무료입니다.\\n\\n아, 잠깐, 제작법을 알려줘야겠죠! &7룬&r, &7문다비투르 가루&r 및 &c부싯돌&r로 제작되는 &8양자 코어&r가 필요합니다!\\n\\n스포너 조각은 섬세한 손길 없이 스포너를 채굴하면 전리품되며, 스포너가 파괴됩니다."]
 	quest.0ACC0092A8F722C6.quest_desc: ["&8&lIE&r의 대부분 기계는 작동하려면 &c에너지&r가 필요하며, &c전선&r은 그 에너지를 옮기는 수단입니다! \\n\\n&c전선 코일&r을 든 채 한쪽 부품을 우클릭한 다음, 같은 &c코일&r로 두 번째 부품을 우클릭하면 &c전선&r이 연결됩니다. 두 지점 사이가 막혀 있으면 연결할 수 없습니다. \\n\\n&c전선&r을 회수하려면 연결된 부품을 부수거나 믿음직한 &6전선 절단기&r를 사용하세요! \\n\\n&c전선&r의 등급에 따라 전송량이 달라지며, &5HV&r 전선이 가장 많이 전송합니다."]
 	quest.0ACC0092A8F722C6.title: "&c전선 코일"
@@ -4014,7 +4014,7 @@
 	quest.3FB0F22BEF7FE622.quest_desc: ["&8&l암야의 복제&r를 얻으려면 활성화할 &7두루마리&r 가운데 하나인 &7「피해 변환」두루마리&r가 필요합니다. \\n\\n빻은 철 1개와 &a빻은 에메랄드&r 2개로 피해 변환 의식을 수행해 만드세요."]
 	quest.3FB0F22BEF7FE622.title: "&7「피해 변환」두루마리"
 	quest.3FCEF8FF45E51608.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_quartz.png width:100 height:150 align:center}"]
-	quest.3FD702B5AB006402.quest_desc: ["어디든 떠다니고 싶었던 적이 있나요? \\n\\n이 벨트는 당신을 공중에 뜨게 해줍니다. 작동시키려면 공중에 있는 동안, 떨어지거나 점프하는 동안 웅크리기만 하세요."]
+	quest.3FD702B5AB006402.quest_desc: ["어디든 떠다니고 싶었던 적이 있나요? \\n\\n이 벨트를 착용하면 공중에 뜰 수 있습니다. 작동하려면 떨어지거나 점프해 공중에 있는 동안 웅크리세요."]
 	quest.3FD9DC6B7844A79C.quest_desc: ["저는 콘크리트가 얼마나 지루한지 항상 싫어했는데, 특히 현실에서요. \\n\\n음, 적어도 &2&lMinecraft&r에서는 &l&bChipped&r 모드를 통해 다양한 디자인을 얻을 수 있습니다!"]
 	quest.3FD9DC6B7844A79C.title: "&l&b금 간&r 콘크리트"
 	quest.3FF61A4D7A250AE1.quest_desc: ["다른 &5크리에이티브 &d에너지 셀&r과 혼동하기 쉬운 이 &5크리에이티브 &c에너지 셀&r을 만들려면 &c니트로 셀&r 4개가 필요합니다.\\n\\n각 &c니트로 셀&r에는 &a스피리티드 셀&r 2개가, 각 &a스피리티드 셀&r에는 &b나이오틱 셀&r 2개가 필요합니다. 이런 과정이 한동안 계속됩니다...\\n\\n계산은 제작법 트리에 맡기세요. 저는 더 중요한 일이 있거든요!"]
@@ -4277,7 +4277,7 @@
 	quest.440B1E1D4951F808.quest_subtitle: "상자 괴짜들"
 	quest.4415C9F8DA2D7E68.quest_desc: ["시아나이트로 터빈의 핵심인 &9터빈 제어기&r를 만들 수 있습니다.\\n\\n터빈도 원자로처럼 멀티블록 구조입니다! &d능동 냉각&r 원자로에서 만든 &7증기&r를 받아 엄청난 양의 전력을 생성합니다. 첫 터빈을 만들려면 몇 가지 부품이 더 필요합니다.\\n\\n참고: 기본 터빈 부품으로 만들 수 있는 최대 크기는 5x5x10입니다. 더 큰 터빈을 만들려면 &a강화 터빈 부품&r을 사용해야 합니다."]
 	quest.4415C9F8DA2D7E68.title: "터빈 제작"
-	quest.441C0659ED28D935.quest_desc: ["1티어 문양을 만들려면 3 레벨의 경험치가 필요합니다."]
+	quest.441C0659ED28D935.quest_desc: ["1티어 문양을 만들려면 3레벨의 경험치가 필요합니다."]
 	quest.441F37A95AB66E6B.quest_desc: ["이 퀘스트는 AllTheMods 모드팩에서 사용하도록 &6AllTheMods Staff&r 또는 &2커뮤니티 기여자&r가 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r로 배포되므로, &6AllTheMods Team&r의 명시적 허가 없이 다른 공개 모드팩에서 이 퀘스트를 사용할 수 없습니다. \\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 문구가 보인다면 편집 모드에 있는 것입니다."]
 	quest.442B1A1900BADAFC.quest_desc: ["&8&lIE&r의 일부 기계는 멀티블록이 아니라 단일 블록입니다! \\n\\n단지 1개의 블록으로 만들어졌다고 해서 중요하지 않다고 생각하지 마세요!"]
 	quest.442B1A1900BADAFC.title: "소형 기계"
@@ -6438,8 +6438,8 @@
 	quest.66C52B137A4FF869.quest_desc: ["4등급 에센스입니다. 터튬 4개와 주입 수정을 조합해 만듭니다."]
 	quest.66C52B137A4FF869.quest_subtitle: "티어: &b4"
 	quest.66C52B137A4FF869.title: "&9임퍼륨"
-	quest.66E88F916B638B3B.quest_desc: ["조금 헷갈릴 수 있습니다. &5크리에이티브 &e주문서&r가 여러 개 있거든요! 우리가 원하는 것은 &d&lAll The Arcanist Gear&r의 주문서입니다. \\n\\n먼저 &l&dArs Nouveau&r의 크리에이티브 &e주문서&r를 제작해야 합니다. 이 주문서를 만들려면 &e대마법사 주문서&r, &6&lATM의 별&r과 몇 가지 아이템이 필요합니다. \\n\\n&eUnobtainium 주문서&r와 설정은 같지만 마나가 무한하고 모든 문양이 잠금 해제되어 있습니다! \\n\\n모든 주문 위력을 손에 넣는 겁니다, 으하하하!"]
-	quest.66E88F916B638B3B.title: "&5&l크리에이티브 &e주문서"
+	quest.66E88F916B638B3B.quest_desc: ["조금 헷갈릴 수 있습니다. &5크리에이티브 &e마도서&r가 여러 개 있거든요! 여기서 필요한 것은 &d&lAll The Arcanist Gear&r의 마도서입니다. \\n\\n이 마도서를 만들려면 먼저 &l&dArs Nouveau&r의 크리에이티브 &e마도서&r를 제작해야 합니다. 그 조합에는 &e대마법사의 마도서&r, &6&lATM의 별&r, 몇 가지 추가 아이템이 필요합니다. \\n\\n&eUnobtainium 마도서&r와 성능은 같지만 마나가 무한하고 모든 문양이 해금되어 있습니다! \\n\\n모든 주문 위력을 손에 넣는 겁니다. 으하하하!"]
+	quest.66E88F916B638B3B.title: "&5&l크리에이티브 &e마도서"
 	quest.66ECC26BC81D0093.title: "등급: &b기본"
 	quest.66FE4552E09B5EFF.quest_desc: ["프리즘은 많은 &6&l포비든 \\\\\\& 아르카누스&r 제작법과 이후 다른 모드에서 중요합니다! \\n\\n프리즘을 제작하려면 &3엘리멘타리움&r이(가) 필요합니다. 엘리멘타리움은 정글 사원, 사막 피라미드, 수중 폐허에서 찾을 수 있습니다. \\n\\n찾을 수 없는 곳을 알려주는 것이 더 쉬울 것 같아요!"]
 	quest.66FE4552E09B5EFF.title: "&3엘레멘타리움"
@@ -6650,7 +6650,7 @@
 	quest.6A12188E50EAEB78.quest_desc: ["&z무지개 화로&r는 한 번에 아이템 한 스택을 제련합니다! \\n\\n제작하려면 &z무지개 코어&r가 필요합니다. 무지개 코어는 &c네더라이트 화로&r 2개와 &z무지개&r의 모든 색을 띤 유리로 만들어요! \\n\\n그다음에는 모드의 거의 모든 화로를 조합해 만드는 &z무지개 도금판&r이 필요합니다. &3&l불가능한 확률 장치&r를 만들려면 무지개 도금판 2개가 필요해요."]
 	quest.6A12188E50EAEB78.title: "2 &z무지개 화로"
 	quest.6A18B971C3DB83AE.quest_subtitle: "티어: &63"
-	quest.6A1C0B17B22CE50F.quest_desc: ["&9마나 촉진의 부적&r은 최대 마나를 증가시켜 줍니다.\\n\\n&6마나 재생의 부적&r은 마나 재생을 증가시켜 줍니다."]
+	quest.6A1C0B17B22CE50F.quest_desc: ["&9마나 촉진의 부적&r은 최대 마나를 증가시킵니다.\\n\\n&6마나 재생의 부적&r은 마나 재생을 증가시킵니다."]
 	quest.6A1C0B17B22CE50F.title: "마나 부적"
 	quest.6A21228B0511FF85.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_thermal.png width:100 height:150 align:center}"]
 	quest.6A21228B0511FF85.title: "&6열기 스프링스톤&r"
@@ -7435,8 +7435,8 @@
 	quest.761D21C6FBD13EE1.quest_subtitle: "다이아몬드 벌에게 페리도트를 먹이세요"
 	quest.761D21C6FBD13EE1.title: "감람석 벌"
 	quest.762581CAE5F5DDC1.quest_desc: [
-		"마법 모드라니 멋지네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 &6Allthemodium&r을 결합합니다! \\n\\n마법 부여 장치는 여러 제작법에 쓰이는 멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 놓고, 같은 Y 높이의 주변에 받침대를 배치하세요. \\n\\n받침대에 아이템을 순서와 관계없이 올리고 주변에 근원을 준비한 뒤, 장치에 근원 보석을 놓으면 제작이 시작됩니다! 그러면 &5Unobtainium&r-&6Allthemodium&r 합금 주괴가 완성됩니다!\\n"
-		"{ \"text\": \"Ars Nouveau 퀘스트라인\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
+		"멋진 마법 모드네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 &6Allthemodium&r을 결합합니다! \\n\\n마법 부여 장치는 여러 조합에 쓰이는 멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 놓고, 같은 Y 높이의 주변에 받침대를 배치하세요. \\n\\n받침대에 재료를 순서와 관계없이 올리고 주변에 마나를 준비한 뒤 장치에 마나 보석을 넣으면 제작이 시작됩니다. 그러면 &5Unobtainium&r-&6Allthemodium&r 합금 주괴가 완성됩니다!\\n"
+		"{ \"text\": \"Ars Nouveau 퀘스트\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
 	]
 	quest.762B8309E1A31B99.quest_desc: ["각 업그레이드 시 +0.5 방어와 +1 갑옷 강도가 추가됩니다."]
 	quest.762B8309E1A31B99.quest_subtitle: "최대: 4"
@@ -9824,11 +9824,11 @@
 	task.729C1974AE346ECA.title: "정화기"
 	quest.00F2C4A528873A6B.quest_desc: ["&l&b룬 도가니&r는 작동할 때 &d마나&r가 필요하지만, 이를 지원하는 &d마나 입력부&r는 없습니다. 대신 그 &d마나&r를 &d마나 응축기&r로 액체화할 수 있습니다. 일부 &d마나&r가 든 &d마나 단지&r를 &d마나 응축기&r 옆에 놓으면 &d액화 마나&r로 변환합니다. 이제 &9유체 입력부&r에서 다룰 수 있습니다."]
 	quest.00F2C4A528873A6B.title: "&l&d마나 응축"
-	quest.06B9D8973E9C6A2C.quest_desc: ["Occultism 챕터에 Ars Nouveau 아이템이 있는 이유는 두 모드를 잇는 Ars Ocultas 때문입니다. 폴리엇 분쇄기 같은 정령은 격리 항아리 안에서도 일할 수 있습니다. 파이프로 항아리에 아이템을 넣으면 정령이 처리한 뒤 인접한 보관함으로 내보냅니다. 항아리 아래쪽이 가장 안정적인 출력 면이며, 내보낼 보관함이 없으면 아이템을 월드에 떨어뜨립니다."]
-	quest.06B9D8973E9C6A2C.quest_subtitle: "정령도 격리 항아리에서 일할 수 있습니다"
-	quest.06B9D8973E9C6A2C.title: "Ars Ocultas: 영혼 항아리"
-	quest.4ABACE222E647E2C.quest_desc: ["희생 제단은 Ars Ocultas가 제공하는 또 다른 도구로, 제물 처리를 자동화합니다.\\n\\n중앙 그릇 아래에 제단을 놓으세요. 제물로 쓸 생물이 든 격리 항아리와 원천 항아리가 가까이 있으면, 살아 있는 제물 대신 원천을 소모할 수 있습니다."]
-	quest.4ABACE222E647E2C.quest_subtitle: "원천으로 제물 대체"
+	quest.06B9D8973E9C6A2C.quest_desc: ["Occultism 챕터에 Ars Nouveau 아이템이 있어 의아할 수 있습니다. 두 모드를 이어 주는 Ars Ocultas가 있기 때문입니다. 폴리오트 분쇄기 같은 영혼은 이 단지 안에서 작업할 수 있습니다. 영혼이 처리할 아이템을 파이프로 넣으면 인접한 보관함으로 결과를 내보냅니다. 단지 아래쪽이 가장 안정적인 출력 면이며, 보관함으로 내보낼 수 없으면 월드에 아이템을 떨어뜨립니다."]
+	quest.06B9D8973E9C6A2C.quest_subtitle: "영혼이 격리 단지 안에서 작업합니다"
+	quest.06B9D8973E9C6A2C.title: "Ars Ocultas: 영혼 단지"
+	quest.4ABACE222E647E2C.quest_desc: ["희생 제단은 Ars Ocultas가 제공하는 또 다른 도구로, 희생 의식을 자동화합니다.\\n\\n중앙 그릇 아래에 제단을 놓으세요. 희생물이 든 격리 단지와 마나 단지가 근처에 있으면 희생물 대신 마나를 사용할 수 있습니다."]
+	quest.4ABACE222E647E2C.quest_subtitle: "마나로 희생물 대체"
 	quest.6B7C016407F7AE3C.quest_desc: ["일반 무기로는 &d복수령&r을 공격할 수 없습니다. 그러면 어떻게 처치해야 할까요?\\n\\n관통 복수 빔을 발사하면 됩니다. 관통 복수 집중기를 어느 손이든 든 채 우클릭을 누르고 있으면 빔을 발사합니다."]
 	quest.6B7C016407F7AE3C.quest_subtitle: "복수령 처치하기"
 	quest.6B7C016407F7AE3C.title: ""

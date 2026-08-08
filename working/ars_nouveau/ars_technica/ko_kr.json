@@ -14,7 +14,7 @@
   "ars_technica.glyph_name.glyph_press": "압착",
   "ars_technica.glyph_desc.glyph_superheat": "퓨즈와 함께 사용하면 재료를 과열시킵니다.",
   "ars_technica.glyph_name.glyph_superheat": "과열",
-  "ars_technica.glyph_desc.glyph_fuse": "아이템 개체를 맹렬한 속도로 충돌시켜 융합합니다. 가열 혼합에는 제련을 사용하고, 과열 혼합에는 과열을 사용하십시오 (설정에서 활성화된 경우).",
+  "ars_technica.glyph_desc.glyph_fuse": "아이템 개체를 맹렬한 속도로 충돌시켜 융합합니다. 주변 유체 보관함에서 유체를 가져옵니다. 제련이나 과열(활성화된 경우)과 조합할 수 있습니다.",
   "ars_technica.glyph_name.glyph_fuse": "융합",
   "ars_technica.glyph_desc.glyph_whirl": "해당 지역에 회오리를 생성하여 아이템 개체를 원심 분리합니다. 물/섬광/제련/헥스와 결합하여 아이템을 세척/훈연/폭파/저주합니다.",
   "ars_technica.glyph_name.glyph_whirl": "회오리",
