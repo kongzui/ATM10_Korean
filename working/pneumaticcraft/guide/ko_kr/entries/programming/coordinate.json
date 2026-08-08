@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(thing)Coordinate/$는 $(l:programming/coordinate_operator)Coordinate Operator/$ 및 $(l:programming/condition_coordinate)Condition: Coordinate/$ 위젯에 대한 매개 변수로만 사용되는 위젯입니다. $(p)이 위젯은 제공하는 $(thing)Area/$ 위젯과 함께 $(l:programming/area)Area/$ 위젯과 비교할 수 있습니다. $(italic)two/$는 영역을 구성하는 좌표인 반면, 이 위젯을 사용하면 $(italic)one/$만 제공하면 됩니다. 좌표를 제공하는 방법에는 두 가지가 있습니다."
+      "text": "$(thing)좌표/$는 $(l:programming/coordinate_operator)좌표 Operator/$ 및 $(l:programming/condition_coordinate)조건: 좌표/$ 위젯에 대한 매개 변수로만 사용되는 위젯입니다. $(p)이 위젯은 제공하는 $(thing)영역/$ 위젯과 함께 $(l:programming/area)영역/$ 위젯과 비교할 수 있습니다. $(italic)two/$는 영역을 구성하는 좌표인 반면, 이 위젯을 사용하면 $(italic)one/$만 제공하면 됩니다. 좌표를 제공하는 방법에는 두 가지가 있습니다."
     },
     {
       "type": "text",

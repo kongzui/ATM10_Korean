@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(item)Tag Workbench/$는 $(l:https://minecraft.gamepedia.com/Tag)item 태그/$를 기준으로 아이템을 필터링하는 데 사용되는 $(item)Tag 필터/$를 생성하는 데 사용됩니다. 예: 필터링 시 모든 로그를 동일한 아이템으로 처리합니다. 태그 필터는 드론에서 사용되는 $(l:logistics/frames)Logistic Frame/$ 필터와 $(l:programming/item_filter)Item Filter/$ 프로그래밍 위젯에 배치할 수 있으며 태그 필터 목록의 아이템 태그가 있는 모든 아이템과 일치합니다."
+      "text": "$(item)Tag Workbench/$는 $(l:https://minecraft.gamepedia.com/Tag)item 태그/$를 기준으로 아이템을 필터링하는 데 사용되는 $(item)Tag 필터/$를 생성하는 데 사용됩니다. 예: 필터링 시 모든 로그를 동일한 아이템으로 처리합니다. 태그 필터는 드론에서 사용되는 $(l:logistics/frames)Logistic Frame/$ 필터와 $(l:programming/item_filter)아이템 필터/$ 프로그래밍 위젯에 배치할 수 있으며 태그 필터 목록의 아이템 태그가 있는 모든 아이템과 일치합니다."
     },
     {
       "type": "text",

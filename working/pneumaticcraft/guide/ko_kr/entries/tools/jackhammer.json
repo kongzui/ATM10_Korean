@@ -7,35 +7,35 @@
     {
       "type": "spotlight",
       "item": "pneumaticcraft:jackhammer",
-      "text": "$(item)공압식 암석 기계/$는 매우 다재다능한 채굴 도구로 $(l:base_concepts/pressure)압력/$를 사용하여 모든 종류의 블록을 효과적으로 파괴할 수 있습니다. 채굴 속도와 공기 용량은 각각 $(l:machines/charging_station)충전 스테이션/$에서 $(l:base_concepts/upgrades#speed)속도 업그레이드/$ 및 $(l:base_concepts/upgrades#volume)용량 업그레이드/$를 사용하여 업그레이드할 수 있습니다."
+      "text": "$(item)공압식 착암기/$는 $(l:base_concepts/pressure)압력/$으로 모든 종류의 블록을 같은 효율로 부수는 다용도 채굴 도구입니다. $(l:machines/charging_station)충전소/$에서 $(l:base_concepts/upgrades#speed)속도 업그레이드/$로 채굴 속도를, $(l:base_concepts/upgrades#volume)용량 업그레이드/$로 공기 용량을 늘릴 수 있습니다."
     },
     {
       "type": "text",
       "title": "드릴 비트",
-      "text": "새로 제작된 착암기는 $(thing)드릴 비트/$가 없기 때문에 그다지 유용하지 않습니다. 하나를 삽입해야 합니다. Jackhammer를 우클릭하여 구성 GUI를 열고 오른쪽 상단 슬롯에 비트를 놓습니다. $(p)드릴 비트에는 4가지 유형이 있으며 전력과 비용이 오름차순입니다. $(li)Iron/$$(li)압축 철/$$(li)Diamond/$$(li)Netherite/$"
+      "text": "새 착암기에는 $(thing)드릴 비트/$가 없어 그대로는 쓸모가 없습니다. 착암기를 우클릭해 설정 GUI를 열고 오른쪽 위 슬롯에 비트를 넣으세요.$(p)드릴 비트는 성능과 비용이 낮은 순서대로 네 종류입니다:$(li)철/$$(li)압축 철/$$(li)다이아몬드/$$(li)네더라이트/$"
     },
     {
       "type": "text",
       "title": "굴착 모드",
-      "text": "암석 기계는 여러 $(thing)광맥 채굴/$ 기능을 포함한 여러 가지 굴착 모드를 지원하므로 넓은 영역을 빠르고 쉽게 굴착할 수 있습니다. 지원되는 굴착 모드는 사용 중인 $(thing)드릴 비트/$에 따라 다릅니다. 뛰어난 비트는 더 많은 굴착 모드를 지원합니다 (굴착 속도도 향상). $(p)굴착 모드를 설정하려면 암석 기계의 GUI를 열고 (오른쪽 클릭) 오른쪽 하단의 버튼을 사용하세요 (다른 쪽 참조)."
+      "text": "착암기는 일부 $(thing)광맥 채굴/$ 기능을 포함한 여러 굴착 모드를 지원해 넓은 영역을 빠르게 파낼 수 있습니다. 사용할 수 있는 모드는 $(thing)드릴 비트/$에 따라 달라지며, 상위 비트일수록 채굴 속도가 빠르고 더 많은 굴착 모드를 지원합니다.$(p)착암기를 우클릭해 GUI를 열고 오른쪽 아래 버튼으로 굴착 모드를 선택하세요."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/patchouli/jackhammer_gui.png"
       ],
-      "text": "$(italic)네더라이트의 드릴 비트를 장착하고 3x3 굴착 모드를 선택한 암석 기계의 GUI/$"
+      "text": "$(italic)네더라이트 드릴 비트를 설치하고 3x3 굴착 모드를 선택한 착암기 GUI/$"
     },
     {
       "type": "spotlight",
       "item": "minecraft:enchanted_book",
       "title": "마법",
-      "text": "착암기는 일반적으로 $(thing)EEnchanting Table/$에서 마법을 부여할 수 없지만 GUI를 통해 $(thing)Silk Touch/$ 또는 $(thing)Fortune/$ 마법이 부여된 책을 삽입하는 것은 가능합니다. 책 슬롯(중앙 상단)에 책을 넣으면 착암기에 마법이 부여됩니다."
+      "text": "착암기는 $(thing)마법 부여대/$에서 일반적인 방법으로 마법을 부여할 수 없지만, GUI에서 $(thing)섬세한 손길/$이나 $(thing)행운/$ 마법이 붙은 책을 넣을 수 있습니다. 위쪽 가운데 책 슬롯에 넣은 책의 마법이 착암기에 적용됩니다."
     },
     {
       "type": "text",
       "title": "마법 (계속)",
-      "text": "이것은 필요에 따라 실크 터치와 행운의 책을 쉽게 교환 할 수 있다는 장점이 있습니다. $(p)필요한 책을 얻기가 어려운 경우 (바닐라 책의 인챈트는 매우 무작위입니다)는 $(l:manufacturing/pressure_chamber)압력 실/$를 사용하면 도구에서 인챈트를 벗겨 책에 배치 할 수 있다는 것을 기억하십시오."
+      "text": "필요에 따라 섬세한 손길 책과 행운 책을 쉽게 바꿔 쓸 수 있습니다.$(p)원하는 책을 얻기 어렵다면 $(l:manufacturing/pressure_chamber)압력 챔버/$로 도구의 마법을 추출해 책에 옮길 수 있다는 점을 기억하세요."
     },
     {
       "type": "crafting",

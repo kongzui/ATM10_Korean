@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(thing)ComputerCraft/$ 또는 $(thing)Open Computers/$가 설치되면 거의 모든 $(pncr)시스템과 상호 작용할 수 있으며 $(l:machines/drone_interface)Drones/$.$(p)여기 나열된 모든 시스템은 CC/OC 주변 장치로 상호 작용할 수 있습니다."
+      "text": "$(thing)ComputerCraft/$나 $(thing)Open Computers/$가 설치되어 있으면 거의 모든 $(pncr)기계와 $(l:machines/drone_interface)드론/$을 제어할 수 있습니다.$(p)이 페이지에 나오는 기계는 모두 CC/OC 주변 장치로 연결할 수 있습니다."
     },
     {
       "type": "text",
@@ -17,24 +17,24 @@
     {
       "type": "text",
       "title": "Open Computers",
-      "text": "컴퓨터를 $(item)어댑터/$를 사용하여 $(pnc)기계에 연결해야 합니다. 그러면 OC 구성 요소로 표시됩니다. OC의 Lua 환경에서 $(thing)=components.list()/$를 실행하면 표시됩니다. 그런 다음 다음 함수 중 하나를 사용할 수 있습니다. 예를 들어, $(thing)p = components.air_compressor.getPressure()/$는 연결된 $(item)공기 압축기/$의 현재 압력을 가져옵니다.",
+      "text": "컴퓨터와 $(pnc)기계는 $(item)어댑터/$로 연결해야 합니다. 그러면 OC 부품으로 인식되며 OC Lua 환경에서 $(thing)=components.list()/$를 실행해 확인할 수 있습니다. 이후 다음 함수를 사용할 수 있습니다. 예를 들어 $(thing)p = components.air_compressor.getPressure()/$는 연결된 $(item)공기 압축기/$의 현재 압력을 가져옵니다.",
       "flag": "mod:opencomputers"
     },
     {
       "type": "text",
       "title": "일반적인 방법",
-      "text": "다음 방법은 $(italic)all/$ $(pncr)기계에 공통적으로 적용됩니다. $(li)$(#800)getPressure(), getPressure(<side>)/$: 기계의 압력을 가져옵니다. <side>는 선택 사항이며 측면별 압력이 있는 $(l:machines/vacuum_pump)진공 펌프/$에만 유용합니다.$(li)$(#800)getDangerPressure()/$: 기계가 위험에 처한 압력을 가져옵니다. explosion$(li)$(#800)getCriticalPressure()/$: 기계가 확실히 폭발할 수 있는 최대 압력을 구합니다."
+      "text": "다음 메서드는 $(italic)모든/$ $(pncr)기계에 공통입니다:$(li)$(#800)getPressure(), getPressure(<side>)/$: 기계의 압력을 가져옵니다. <side>는 선택 사항이며, 면마다 압력이 다른 $(l:machines/vacuum_pump)진공 펌프/$에서만 필요합니다.$(li)$(#800)getDangerPressure()/$: 기계가 폭발할 위험이 생기는 압력을 가져옵니다.$(li)$(#800)getCriticalPressure()/$: 기계가 반드시 폭발하는 절대 최대 압력을 가져옵니다."
     },
     {
       "type": "text",
       "title": "열 관련 방법",
-      "text": "다음 방법은 $(l:base_concepts/heat)Heat/$:$(li)$(#800)getTemperature() 개념을 지원하는 $(italic)all/$ $(pncr)시스템에 공통적입니다. getTemperature(<side>)/$: 기계의 온도를 가져옵니다. <side>는 선택 사항이며 측면에 따라 온도가 다른 $(l:machines/vortex_tube)볼텍스 튜브/$에만 유용합니다."
+      "text": "다음 메서드는 $(l:base_concepts/heat)열/$을 지원하는 $(italic)모든/$ $(pncr)기계에 공통입니다:$(li)$(#800)getTemperature(), getTemperature(<side>)/$: 기계의 온도를 가져옵니다. <side>는 선택 사항이며 면마다 온도가 다른 $(l:machines/vortex_tube)볼텍스 튜브/$에서만 필요합니다."
     },
     {
       "type": "spotlight",
       "anchor": "air_cannon",
       "item": "pneumaticcraft:air_cannon",
-      "text": "$(li)$(#800)setExternalControl(<true/false>)/$: true인 경우 일반 방법(GPS 도구 삽입, 범위 업그레이드 변경 등)으로 대포가 회전하는 것을 방지합니다. $(li)$(#800)setTargetLocation(<x>,<y>,<z>)/$: GPS 도구에 저장된 위치가 아닌 지정된 대상 위치에 대포를"
+      "text": "$(li)$(#800)setExternalControl(<true/false>)/$: true이면 GPS 도구 삽입이나 범위 업그레이드 변경 같은 일반적인 방법으로 대포가 회전하지 못하게 합니다.$(li)$(#800)setTargetLocation(<x>,<y>,<z>)/$: GPS 도구에 저장한 위치 대신 지정한 좌표를 향하도록 대포를 조준합니다."
     },
     {
       "type": "text",
@@ -72,7 +72,7 @@
     {
       "type": "text",
       "title": "범용 센서 (계속)",
-      "text": "$(li)$(#800)setSensor(<sensorName>), setSensor(<index>), setSensor()/$: 현재 선택된 센서를 설정합니다. <sensorName>는 $(#800)getSensorNames()/$에 의해 반환되는 이름의 1입니다. <index>는 $(#800)getSensorNames()/$에서 반환되는 테이블의 인덱스입니다. 인수없이 $(#800)setSensor()/$를 사용하면 센서가 선택되지 않습니다. (머신은 아이들 상태가 되어, 공기를 사용하지 않습니다) 현재 삽입되고 있는 업그레이드로 센서가 가능한 경우는 true를 돌려줍니다."
+      "text": "$(li)$(#800)setSensor(<sensorName>), setSensor(<index>), setSensor()/$: 현재 센서를 선택합니다. <sensorName>은 $(#800)getSensorNames()/$가 반환한 이름 중 하나이고, <index>는 $(#800)getSensorNames()/$가 반환한 테이블의 인덱스입니다. 인수 없이 $(#800)setSensor()/$를 호출하면 센서를 선택하지 않아 기계가 대기 상태로 들어가고 공기를 사용하지 않습니다. 현재 설치된 업그레이드로 해당 센서를 사용할 수 있으면 true를 반환합니다. "
     },
     {
       "type": "text",

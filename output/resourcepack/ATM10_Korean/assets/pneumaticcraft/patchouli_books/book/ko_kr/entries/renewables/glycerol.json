@@ -22,7 +22,7 @@
       "type": "spotlight",
       "item": "minecraft:furnace",
       "title": "연료로",
-      "text": "$(thing)글리세롤/$도 4 하나의 $(thing)판재/$ 또는 $(thing)석탄/$의 절반에 해당합니다."
+      "text": "$(thing)글리세롤/$은 $(thing)판자/$ 4개나 $(thing)석탄/$ 반 개와 같은 열량을 내는 쓸 만한 연료입니다."
     }
   ]
 }

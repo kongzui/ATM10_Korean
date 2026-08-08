@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다. $(p)$(thing)조건: 좌표/$ 위젯은 2의 $(l:programming/coordinate)좌표/$를 비교합니다. 이러한 좌표, 보다 구체적으로 좌표의 모든 축(X/Y/Z)에 대해 다양한 테스트를 수행할 수 있습니다. 두 좌표의 1 축만 일치하는지, 2 하나가 일치하는지 또는 3 모두가 일치하는지 확인할 수 있습니다."
+      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다.$(p)$(thing)조건: 좌표/$ 위젯은 두 $(l:programming/coordinate)좌표/$를 비교합니다. 좌표의 각 축(X/Y/Z)에 여러 검사를 적용할 수 있으며, 두 좌표에서 축 하나나 둘 또는 세 축 모두가 일치하는지 확인할 수 있습니다."
     },
     {
       "type": "text",

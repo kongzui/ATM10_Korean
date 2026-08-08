@@ -7,12 +7,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "압력 튜브는 압축기와 기계 사이에서 압축 공기를 수송하는 $(pncr)의 주요 장치입니다. $(p)연결되지 않은 튜브에서 공기가 누출됩니다. 그러나 튜브의 측면은 $(l:tools/pneumatic_wrench)공압 렌치/$에서 우클릭하여 개폐를 전환할 수 있습니다. 다른 모드 렌치도 작동할 수 있습니다."
+      "text": "압력 튜브는 $(pncr)에서 압축기와 기계 사이로 압축 공기를 운반하는 기본 장치입니다.$(p)연결되지 않은 튜브에서는 공기가 샙니다! 다만 $(l:tools/pneumatic_wrench)공압 렌치/$로 우클릭하면 튜브의 각 면을 열거나 닫을 수 있습니다. 다른 모드의 렌치도 작동할 수 있습니다."
     },
     {
       "type": "image",
       "title": "튜브!",
-      "text": "$(italic)2 책 압력 튜브와 $(l:tubes/pressure_gauge_module)압력계/$를 $(italic)$(l:compressors/air_compressor)공기 압축기/$$(italic)와 $(l:machines/air_cannon)에어 캐논/$로 연결",
+      "text": "$(italic)압력 튜브 두 개와 $(l:tubes/pressure_gauge_module)압력계/$ $(italic)로 $(l:compressors/air_compressor)공기 압축기/$ $(italic)및 $(l:machines/air_cannon)에어 캐논/$을 연결한 모습",
       "images": [
         "pneumaticcraft:textures/patchouli/pressure_tubes.png"
       ],
@@ -20,11 +20,11 @@
     },
     {
       "type": "text",
-      "text": "압력 튜브에는 튜브에 다양한 기능을 추가하는 장착 가능한 부품인 $(l:tubes/tube_modules)튜브 모듈/$를 설치할 수 있습니다. 자세한 내용은 각 모듈의 개별 페이지를 참조하세요. $(p)압력 튜브는 $(l:tools/camo_applicator)위장 도포기/$로 가장할 수 있습니다."
+      "text": "압력 튜브에는 여러 기능을 추가하는 부착물인 $(l:tubes/tube_modules)튜브 모듈/$을 설치할 수 있습니다. 자세한 내용은 각 모듈 페이지를 확인하세요.$(p)압력 튜브는 $(l:tools/camo_applicator)위장 도포기/$로 숨길 수 있습니다."
     },
     {
       "type": "text",
-      "text": "3개의 $(l:base_concepts/pressure_tiers)티어/$ 튜브가 있습니다.$(br)$(li)티어 1 튜브는 최대 5바의 압력을 포함할 수 있으며 공기 용량은 1000mL입니다.$(li)티어 1.5 (강화) 튜브는 최대 10 bar의 압력을 처리할 수 있으며 1000mL의 용량도 있습니다.$(li)Tier 2(고급) 튜브는 최대 20 bar의 압력을 처리할 수 있으며 4000mL의 공기 용량을 갖습니다."
+      "text": "튜브에는 세 $(l:base_concepts/pressure_tiers)등급/$이 있습니다:$(br)$(li)1등급 튜브: 최대 5bar, 공기 용량 1000mL$(li)1.5등급(강화) 튜브: 최대 10bar, 공기 용량 1000mL$(li)2등급(고급) 튜브: 최대 20bar, 공기 용량 4000mL"
     },
     {
       "type": "crafting",

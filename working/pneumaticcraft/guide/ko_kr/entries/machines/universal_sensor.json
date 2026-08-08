@@ -16,7 +16,7 @@
     {
       "type": "text",
       "title": "업그레이드",
-      "text": "해당 센서 범주를 선택할 수 있도록 하려면 $(l:base_concepts/upgrades#entity_tracker)개체 추적기/$, $(l:base_concepts/upgrades#dispenser)Dispenser/$ 또는 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$와 $(l:tools/gps_tool)GPS 도구/$를 삽입해야 합니다. 예: 범위 내의 개체 수를 계산하려면 $(item)개체 추적기 Upgrade/$를 설치해야 합니다."
+      "text": "해당 센서 범주를 선택할 수 있도록 하려면 $(l:base_concepts/upgrades#entity_tracker)개체 추적기/$, $(l:base_concepts/upgrades#dispenser)발사기/$ 또는 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$와 $(l:tools/gps_tool)GPS 도구/$를 삽입해야 합니다. 예: 범위 내의 개체 수를 계산하려면 $(item)개체 추적기 업그레이드/$를 설치해야 합니다."
     },
     {
       "type": "text",

@@ -6,22 +6,22 @@
   "pages": [
     {
       "type": "text",
-      "text": "보다 높은 수준의 재료를 제작하려면 $(thing)조립 시스템/$ 및 $(thing)조립 기계/$의 컬렉션이 필요합니다. 이 기계는 수평으로 인접한 경우 서로 통신합니다. 기계의 각 유형은 1 단 하나 존재할 수 있습니다 ($(item)조립 IO 단위/$를 제외하고 아래 참조). 조립 라인은 $(l:base_concepts/pressure)압축 공기/$에서 작동하지만 전체 시스템에 전원을 공급하려면 조립 컨트롤러에 공기를 공급하기 만하면됩니다."
+      "text": "상위 등급 재료를 제작하려면 여러 $(thing)조립 기계/$로 이루어진 $(thing)조립 시스템/$이 필요합니다. 기계들은 수평으로 인접하면 서로 통신합니다. $(item)조립 IO 유닛/$을 제외한 각 종류의 기계는 하나씩만 둘 수 있습니다. 조립 라인은 $(l:base_concepts/pressure)압축 공기/$로 작동하지만, 전체 시스템에 동력을 공급할 때는 조립 제어기에만 공기를 공급하면 됩니다."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:assembly_controller",
-      "text": "$(thing)어셈블리 시스템/$의 두뇌. 이는 $(item)Controller/$에게 다른 $(thing)조립 기계/$를 제어하는 ​​방법을 알려주는 $(l:manufacturing/assembly_programs)programs/$를 허용합니다.$(p)컨트롤러의 디스플레이에는 상태에 대한 진단 정보가 표시됩니다. GUI를 열어 무슨 일이 일어나고 있는지 확인하세요."
+      "text": "$(thing)조립 시스템/$의 두뇌입니다. $(l:manufacturing/assembly_programs)프로그램/$을 받아 $(item)제어기/$가 다른 $(thing)조립 기계/$를 제어하는 방법을 정합니다.$(p)제어기 화면에는 현재 상태의 진단 정보가 표시됩니다. GUI를 열어 작동 상태를 확인하세요."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:assembly_io_unit_import",
-      "text": "$(item)IO 유닛/$는 인벤토리와 $(item)조립 플랫폼/$ 사이의 연결입니다. 이 로봇 팔은 대각선으로 닿을 수 있습니다. $(p)IO 장치는 완성된 아이템을 내보내거나 작성에 사용하는 아이템을 가져올 수 있습니다. 바닐라 $(item)가슴/$ 또는 개조된 인벤토리 블록과 같은 모든 인벤토리를 사용할 수 있습니다."
+      "text": "$(item)IO 유닛/$은 인벤토리와 $(item)조립 플랫폼/$을 연결합니다. 이 로봇 팔은 대각선 방향에도 닿습니다.$(p)IO 유닛은 완성품을 내보내거나 제작 재료를 가져올 수 있습니다. 바닐라 $(item)상자/$나 모드가 추가한 인벤토리 블록을 포함해 모든 인벤토리를 사용할 수 있습니다."
     },
     {
       "type": "text",
       "title": "조립 IO 유닛 (계속)",
-      "text": "$(thing)Assembly System/$에는 $(italic)two/$ $(item)IO 단위/$가 포함되어야 합니다. 하나의 가져오기 단위 및 하나의 내보내기 단위: $(6)orange/$는 내보내기 단위임을 의미하고 $(9)blue/$는 가져오기 단위를 의미합니다. $(item)IO Unit/$가 작동하려면 $(item)Assembly Platform/$에 접근할 수 있을 뿐만 아니라 아이템을 추출하거나 저장할 인벤토리(모드에 따라 다름)에 접근할 수 있어야 합니다."
+      "text": "$(thing)조립 시스템/$에는 $(italic)두 개/$의 $(item)IO 유닛/$, 즉 입력 유닛과 출력 유닛이 하나씩 필요합니다. $(6)주황색/$은 출력, $(9)파란색/$은 입력을 뜻합니다. $(item)IO 유닛/$이 작동하려면 $(item)조립 플랫폼/$과, 모드에 따라 아이템을 꺼내거나 보관할 인벤토리에 모두 닿아야 합니다."
     },
     {
       "type": "spotlight",
@@ -36,12 +36,12 @@
     {
       "type": "spotlight",
       "item": "pneumaticcraft:assembly_laser",
-      "text": "$(item)Assembly Laser/$는 재료를 절단하거나 아이템을 자르거나 가장자리를 자르는 데 사용됩니다. $(p)$(item)Assembly Drill/$과 마찬가지로 이 기계는 $(italic)/$가 대각선으로 도달할 수 없습니다."
+      "text": "$(item)조립 레이저/$는 재료를 자르거나 아이템을 나누고 모서리를 잘라 냅니다.$(p)$(item)조립 드릴/$과 마찬가지로 대각선에는 $(italic)닿지 않습니다/$."
     },
     {
       "type": "text",
-      "title": "사용하다",
-      "text": "$(thing)Assembly System/$로 아이템을 제작하려면 $(item)조립 제어기/$에 $(l:manufacturing/assembly_programs)Assembly Program/$를 넣고 필요한 아이템을 입력 인벤토리에 넣으세요.$(p)컨트롤러에 알려진 레시피와 일치하는 모든 아이템 삽입된 프로그램은 자동으로 처리됩니다."
+      "title": "사용법",
+      "text": "$(thing)조립 시스템/$으로 제작하려면 $(item)조립 제어기/$에 $(l:manufacturing/assembly_programs)조립 프로그램/$을 넣고 입력 인벤토리에 필요한 아이템을 넣으세요.$(p)제어기와 설치한 프로그램이 아는 제작법에 맞는 아이템은 자동으로 처리됩니다."
     },
     {
       "type": "link",

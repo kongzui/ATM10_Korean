@@ -1,12 +1,12 @@
 {
-  "name": "아이템 무효 위젯",
+  "name": "아이템 폐기 위젯",
   "icon": "pneumaticcraft:textures/progwidgets/void_item_piece.png",
   "category": "pneumaticcraft:widget_interact",
   "advancement": "pneumaticcraft:programmer",
   "pages": [
     {
       "type": "text",
-      "text": "이렇게하면 드론 인벤토리의 아이템이 즉시 영구적으로 파괴됩니다. 이것을 $(l:programming/item_filter)아이템 필터/$와 함께 사용하는 것이 좋습니다. 필터를 사용하면 필터에서 허용하는 아이템만 사용할 수 없습니다. $(p)해당 아이템이 $(item)드론의/$ 인벤토리에 남아 있지 않으면 위젯 실행이 종료됩니다."
+      "text": "드론 인벤토리의 아이템을 즉시 영구적으로 파괴하므로 주의하세요! $(l:programming/item_filter)아이템 필터/$와 함께 사용하는 것을 강력히 권장합니다. 필터를 사용하면 필터에서 허용한 아이템만 제거합니다.$(p)$(item)드론/$ 인벤토리에 대상 아이템이 하나도 남지 않으면 위젯 실행이 끝납니다."
     },
     {
       "type": "image",

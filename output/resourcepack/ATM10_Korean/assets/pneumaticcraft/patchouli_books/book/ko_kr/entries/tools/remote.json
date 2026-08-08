@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "리모컨을 사용하면 $(l:programming/variables#global)전역 변수/$ 조작을 통해 $(l:tools/drone)Drones/$ 또는 $(l:machines/universal_sensor)Universal Sensors/$를 원격으로 제어하는 ​​자신만의 GUI를 만들 수 있습니다. $(item)범용 센서/$를 사용하면 $(item)리모컨/$를 사용하여 무선 레드스톤을 만들 수 있습니다!$(p)자신만의 GUI 만들기를 시작하려면 $(thing)sneak+오른쪽 클릭/$ $(item)리모컨/$를 눌러 편집기 창을 엽니다."
+      "text": "리모컨으로 $(l:programming/variables#global)전역 변수/$를 조작하는 전용 GUI를 만들어 $(l:tools/drone)드론/$이나 $(l:machines/universal_sensor)범용 센서/$를 원격 제어할 수 있습니다. $(item)범용 센서/$와 $(item)리모컨/$을 함께 사용하면 무선 레드스톤도 만들 수 있습니다!$(p)$(item)리모컨/$을 $(thing)Shift+우클릭/$하면 GUI 편집기가 열립니다."
     },
     {
       "type": "text",
@@ -21,7 +21,7 @@
     },
     {
       "type": "text",
-      "text": "다음 속성은 $(italic)all/$ 위젯에 공통적으로 적용됩니다. $(li)$(thing)Text/$ - 위젯에 표시된 텍스트$(li)$(thing)Tooltip/$ - 위젯 위로 마우스를 가져갈 때 표시되는 도구 설명 widget$(li)$(thing)E변수/$ 활성화 - 위젯을 $(l:programming/coordinate_operator)변수/$에 연결하여 위젯 표시 여부를 제어할 수 있습니다. X/Y/Z 필드에 값을 지정하면 연결된 변수가 지정한 값과 동일한 경우에만 위젯이 표시되도록 할 수 있습니다."
+      "text": "다음 속성은 $(italic)all/$ 위젯에 공통적으로 적용됩니다. $(li)$(thing)텍스트/$ - 위젯에 표시된 텍스트$(li)$(thing)Tooltip/$ - 위젯 위로 마우스를 가져갈 때 표시되는 도구 설명 widget$(li)$(thing)변수/$ 활성화 - 위젯을 $(l:programming/coordinate_operator)변수/$에 연결하여 위젯 표시 여부를 제어할 수 있습니다. X/Y/Z 필드에 값을 지정하면 연결된 변수가 지정한 값과 동일한 경우에만 위젯이 표시되도록 할 수 있습니다."
     },
     {
       "type": "text",
@@ -47,12 +47,12 @@
     {
       "type": "text",
       "title": "예",
-      "text": "편집기 GUI 왼쪽에 있는 $(thing)Pastebin/$ 버튼을 사용하여 $(l:https://pastebin.com/4yxKG5Jc)이 레이아웃을 가져옵니다./$.$(p)이렇게 하면 전역 변수 $(thing)signal1, signal2 &를 설정하는 세 개의 확인란이 추가됩니다. signal3/$.$(p)이제 $(l:machines/universal_sensor)범용 센서/$ 3개를 배치하고 약간의 압력을 가하세요. 각 $(item)Sensor/$에 $(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 넣으세요. 각 $(item)Sensor/$에서 일부 레드스톤을 실행합니다(레드스톤을 별도로 유지하려면 블록을 따로 배치하세요)."
+      "text": "편집기 GUI 왼쪽의 $(thing)Pastebin/$ 버튼으로 $(l:https://pastebin.com/4yxKG5Jc)이 레이아웃/$을 가져오세요.$(p)전역 변수 $(thing)signal1, signal2, signal3/$을 설정하는 확인란 세 개가 추가됩니다.$(p)$(l:machines/universal_sensor)범용 센서/$ 세 개를 놓고 압력을 공급하세요. 각 $(item)센서/$에 $(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 넣고, 각 $(item)센서/$에서 레드스톤 선을 연결하세요. 선이 섞이지 않도록 센서를 한 블록씩 떨어뜨려 놓으세요."
     },
     {
       "type": "text",
       "title": "예(계속)",
-      "text": "각 $(item)센서/$ GUI:$(li)$(thing)디스펜서/$ 버튼을 선택합니다.$(li)$(thing)World/$$(li)선택 $(thing)전역 변수/$$(li)$(thing)변수 이름/$ 텍스트 필드에 'signal1', 'signal2' 및 'signal3'를 입력합니다. 각각.$(p)이제 $(thing)/$를 우클릭하고 $(item)리모컨/$를 선택하고 각 확인란을 선택/선택 취소해 보세요. 해당 $(item)Sensor/$는 적절하게 레드스톤 신호를 방출합니다: 무선 레드스톤!"
+      "text": "각 $(item)센서/$ GUI에서 다음과 같이 설정하세요:$(li)$(thing)발사기/$ 버튼 선택$(li)$(thing)월드/$ 선택$(li)$(thing)전역 변수/$ 선택$(li)$(thing)변수 이름/$ 입력란에 각각 'signal1', 'signal2', 'signal3' 입력$(p)이제 $(item)리모컨/$을 $(thing)우클릭/$하고 각 확인란을 켜고 꺼 보세요. 해당 $(item)센서/$가 알맞게 레드스톤 신호를 출력합니다. 무선 레드스톤 완성입니다!"
     },
     {
       "type": "crafting",

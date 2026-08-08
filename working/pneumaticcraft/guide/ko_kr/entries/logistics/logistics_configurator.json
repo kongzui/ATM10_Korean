@@ -11,7 +11,7 @@
     {
       "type": "spotlight",
       "item": "pneumaticcraft:logistics_configurator",
-      "text": "$(item)물류 설정기/$는 $(l:semiblocks/transfer_gadget)Transfer Gadget/$ 및 $(l:semiblocks/crop_support)Crop Support/$와 같은 다른 부착 가능한 가젯을 제거하는 데에도 사용할 수 있습니다($(thing)Sneak 마우스 오른쪽 버튼 클릭/$ 사용)."
+      "text": "$(item)물류 설정기/$는 $(l:semiblocks/transfer_gadget)전송 가젯/$ 및 $(l:semiblocks/crop_support)작물 지지대/$와 같은 다른 부착 가능한 가젯을 제거하는 데에도 사용할 수 있습니다($(thing)몸을 숙인 채 마우스 오른쪽 버튼 클릭/$ 사용)."
     },
     {
       "type": "crafting",

@@ -186,6 +186,11 @@ VALUE_OVERRIDES = {
     "Logistic Passive Provider Frame": "수동 공급자 물류 프레임",
     "Logistic Requester Frame": "요청자 물류 프레임",
     "Logistic Storage Frame": "저장 물류 프레임",
+    "Logistics Active Provider Frame": "능동 공급자 물류 프레임",
+    "Logistics Default Storage Frame": "기본 저장 물류 프레임",
+    "Logistics Passive Provider Frame": "수동 공급자 물류 프레임",
+    "Logistics Requester Frame": "요청자 물류 프레임",
+    "Logistics Storage Frame": "저장 물류 프레임",
     "LPG Bucket": "LPG 양동이",
     "Lubricant Bucket": "윤활유 양동이",
     "Network Component": "네트워크 부품",
@@ -334,6 +339,296 @@ VALUE_OVERRIDES = {
 }
 
 KEY_OVERRIDES = {
+    "pneumaticcraft.gui.tab.upgrades.charging_station.dispenser": (
+        "충전소에 충전 패드를 추가합니다. 그러면 충전소 바로 위의 드론과 아이템, "
+        "플레이어 인벤토리의 아이템을 충전하거나 방전할 수 있습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.advanced_air_compressor": (
+        "공기 압축기의 2등급 버전입니다. 화로에서 태울 수 있는 모든 연료로 압축 공기를 "
+        "틱당 50mL 생산하며 열도 발생합니다. 온도가 높을수록 효율이 낮아집니다. 온도계의 "
+        "아래쪽 화살표는 효율이 감소하기 시작하는 지점이고, 위쪽 화살표는 효율이 "
+        "0%%가 되는 지점입니다.\n\n이 모드의 다른 기계와 달리 온도가 너무 높아져도 "
+        "폭발하지 않습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.advanced_liquid_compressor": (
+        "액체 압축기의 고급 버전입니다. 압축 공기를 틱당 50mL로 훨씬 빠르게 생산하지만 "
+        "열도 발생합니다. 온도가 높을수록 효율이 낮아집니다. 온도계의 아래쪽 화살표는 "
+        "효율이 감소하기 시작하는 지점이고, 위쪽 화살표는 효율이 0%%가 되는 "
+        "지점입니다.\n\n이 모드의 다른 기계와 달리 온도가 너무 높아져도 폭발하지 "
+        "않습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.air_compressor": (
+        "화로에서 태울 수 있는 고체 연료를 연료 슬롯에 넣어 압축 공기를 생산합니다. "
+        "용암 양동이 같은 유체 연료는 사용할 수 없으므로 액체 압축기를 사용하세요."
+    ),
+    "gui.tooltip.block.pneumaticcraft.assembly_drill": (
+        "조립 라인의 일부입니다. 상하좌우로 바로 인접한 조립 플랫폼 위의 아이템을 "
+        "드릴로 가공합니다. 대각선으로 놓인 플랫폼에는 작동하지 않습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.assembly_laser": (
+        "조립 라인의 일부입니다. 상하좌우로 바로 인접한 조립 플랫폼 위의 아이템을 "
+        "레이저로 가공합니다. 대각선으로 놓인 플랫폼에는 작동하지 않습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.charging_station": (
+        "드론, 공압 렌치, 볼텍스 캐논처럼 압축 공기로 작동하는 아이템을 충전하거나 "
+        "방전합니다.\n\n업그레이드를 지원하는 아이템의 업그레이드를 설치하고 관리할 "
+        "때도 사용합니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.electrostatic_compressor": (
+        "현실에서는 매우 어려운 일이지만, 여기서는 번개로 압축 공기를 만들 수 있습니다. "
+        "이 압축기는 번개를 맞으면 즉시 공기 200,000mL를 생산합니다. 번개가 칠 확률을 "
+        "높이려면 압축기에 연결된 철창이나 피뢰침 격자를 설치하세요(기본 설정이며 "
+        "모드팩에서 바뀔 수 있으므로 JEI를 확인하세요).\n\n참고:\n"
+        "• 같은 격자에 정전기 압축기를 여러 개 설치하면 생산된 공기를 서로 나눕니다.\n"
+        "• 격자는 압축기에서 수평 반경 5블록, 수직 5블록까지 유효합니다. 격자당 최대 "
+        "250블록까지 설치할 수 있으며, 블록이 많을수록 번개가 칠 확률이 높아집니다.\n"
+        "• 압축기 바로 위에 철창이나 피뢰침을 최대 10개까지 기둥처럼 쌓아 확률을 더 "
+        "높일 수 있습니다.\n"
+        "• 남는 에너지를 방출해 폭발을 막으려면 압축기 바로 아래에 격자 블록 기둥을 "
+        "설치해 접지하세요. 필요한 블록 수는 연결된 압축기 수에 따라 달라집니다(‘정전기 "
+        "정보’ GUI 탭 참조).\n"
+        "• 번개가 칠 확률은 맑은 날에는 매우 낮고, 비가 오면 높아지며, 뇌우가 오면 "
+        "훨씬 높아집니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.etching_tank": (
+        "에칭 산을 채우고 UV 라이트 박스에 노출한 빈 PCB를 넣으세요. 50°C보다 높게 "
+        "가열하면 온도가 오를수록 에칭이 빨라지지만 에칭 산이 조금씩 소모됩니다.\n"
+        "미조립 PCB는 옆면에서, 실패한 PCB는 위아래에서 꺼낼 수 있습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.fluid_mixer": (
+        "압력을 사용해 두 유체를 혼합하여 유체나 아이템을 생산합니다.\n\n압력이 높을수록 "
+        "빠르게 작동하지만 공기도 더 빨리 소모합니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.gas_lift": (
+        "가스 리프트는 압력으로 유체를 퍼 올리는 펌프입니다. 작동하려면 압력과 드릴 "
+        "파이프가 필요합니다. 유체에 닿을 때까지 드릴 파이프를 아래로 설치하며, 단단한 "
+        "블록을 만나면 블록 경도에 비례하는 압력을 소모해 굴착합니다.\n작업 깊이가 "
+        "깊어질수록 필요한 최소 압력도 비례해 증가합니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.liquid_compressor": (
+        "여러 유체 연료로 압축 공기를 생산합니다. 사용할 수 있는 연료는 ‘사용 가능한 "
+        "연료’ 탭에서 효율이 높은 순서대로 확인할 수 있습니다. x1.5 같은 배수는 기준 "
+        "연료보다 그만큼 빠르게 연소해 공기를 더 빨리 생산하지만 연료도 더 빨리 "
+        "소모한다는 뜻입니다.\n\n연료는 파이프로 주입하거나, 유체 용기를 든 채 기계를 "
+        "우클릭하거나, 유체 용기를 위쪽 슬롯에 넣어 공급할 수 있습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.liquid_hopper": (
+        "유체를 옮기는 전방향 호퍼입니다.\n\n탱크 사이에서 유체를 운반할 뿐 아니라 "
+        "입력 쪽에 있는 양동이 같은 유체 용기는 비우고, 출력 쪽의 유체 용기는 채우려고 "
+        "시도합니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.security_station": (
+        "범위 안의 모든 블록을 다른 플레이어가 사용하거나 파괴하지 못하게 보호합니다. "
+        "‘신뢰하는 플레이어’ 탭에 친구를 추가하면 허용 목록에 넣을 수 있습니다.\n"
+        "가장 효과적인 네트워크 구성법은 설명서(Patchouli 필요)를 확인하세요. 보안 "
+        "스테이션은 적대적인 플레이어의 해킹을 100%% 막지는 못합니다. ‘테스트’ 버튼으로 "
+        "실제 해킹 전에 네트워크의 방어 성능을 시험할 수 있습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.sentry_turret": (
+        "감시 포탑은 자동 방어 무기입니다. 총기 탄약을 공급하면 16블록 이내의 살아 있는 "
+        "개체를 공격하며, 범위 업그레이드로 사거리를 늘릴 수 있습니다. ‘필터’ 입력란에서 "
+        "공격할 개체를 지정할 수 있습니다. 보안 스테이션의 보호 범위 안에서는 해당 "
+        "스테이션이 허용한 플레이어를 공격하지 않습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.thermal_compressor": (
+        "열 압축기는 블록의 서로 마주 보는 면 사이의 온도 차이로 압축 공기를 만듭니다. "
+        "한쪽에는 고온 블록을, 반대쪽에는 저온 블록을 놓으세요.\n\n남북 면끼리, 동서 "
+        "면끼리는 열적으로 연결되지만 NS와 EW 사이에는 교차 연결이 없습니다. 연결된 두 "
+        "면은 온도가 같아지려고 하므로 충분한 온도 차이를 계속 유지해야 합니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.thermopneumatic_processing_plant": (
+        "열공압 처리 공장은 유체를 다른 유체로 가공합니다. LPG와 석탄으로 용융 "
+        "플라스틱을 만들 수 있으며, 무거운 연료를 가벼운 연료로 분해할 수도 있습니다. "
+        "디젤은 등유로, 등유는 휘발유로, 휘발유는 LPG로 바꿀 수 있습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.universal_sensor": (
+        "여러 용도로 사용할 수 있는 센서입니다. 알맞은 업그레이드를 넣고 폴더 구조를 "
+        "탐색해 센서를 선택하세요. 센서는 노란색 글자의 버튼으로 표시됩니다.\n\n블록 "
+        "센서는 지정한 블록 위치에 따라 레드스톤 신호를 출력하므로 GPS 도구나 GPS 영역 "
+        "도구도 넣어야 합니다. GPS 영역 도구를 넣으면 감시 영역을 지정하며, 서버 성능을 "
+        "보호하기 위해 측정 간격이 길어집니다. 모든 블록 위치는 센서 범위 안에 있어야 "
+        "하므로 필요하면 범위 업그레이드를 설치하세요."
+    ),
+    "gui.tooltip.block.pneumaticcraft.uv_light_box": (
+        "빈 PCB에 UV를 쬐어 에칭 탱크에서 처리할 수 있게 합니다. 오래 노출할수록 에칭에 "
+        "성공할 확률이 높아지지만 진행 속도는 점점 느려집니다.\n\nPCB를 완료로 판단할 "
+        "임계값을 설정할 수 있습니다. 값을 낮추면 빨리 처리하는 대신 에칭에 실패할 "
+        "가능성이 커집니다. 실패한 PCB는 용광로에서 재활용해 다시 시도할 수 있습니다."
+    ),
+    "gui.tooltip.block.pneumaticcraft.vortex_tube": (
+        "들어오는 공기를 뜨거운 쪽과 차가운 쪽으로 나눕니다. 공기 소모량은 압력에 따라 "
+        "달라집니다. 두 면은 약하게 열이 통하므로 뜨거운 쪽을 이용하려면 차가운 쪽에 "
+        "방열판을 달아 냉각하고, 차가운 쪽을 이용하려면 반대로 해야 효율이 좋습니다."
+    ),
+    "gui.tooltip.item.pneumaticcraft.amadron_tablet": (
+        "아마드론 태블릿은 주민 거래처럼 아이템과 유체를 주문하는 데 사용합니다. 다만 "
+        "거래품은 주민보다 훨씬 멋진 드론이 배달합니다. 태블릿을 들고 인벤토리나 탱크를 "
+        "우클릭해 수거 및 배송 위치를 지정해야 합니다."
+    ),
+    "gui.tooltip.item.pneumaticcraft.heat_frame": (
+        "인벤토리에 부착할 수 있습니다. 인접한 열원으로 가열하면 인벤토리의 아이템을 "
+        "제련하고, 냉각하면 아이템을 얼리려고 합니다. 결과 아이템이 들어갈 공간이 있어야 "
+        "작동합니다. 열을 더 많이 공급할수록 빨라지며 초당 최대 1개를 제련할 수 "
+        "있습니다. 냉각도 온도가 낮을수록 빨라집니다."
+    ),
+    "gui.tooltip.item.pneumaticcraft.charging_module": (
+        "이 모듈이 가리키는 인벤토리의 가압 가능한 아이템을 가압하거나 감압합니다. "
+        "튜브와 아이템의 압력 차이에 따라 공기가 아이템으로 들어가거나 아이템에서 "
+        "나옵니다.\n\n모듈 확장 카드를 설치하면 공기가 훨씬 빠르게 흐릅니다."
+    ),
+    "pneumaticcraft.armor.hacking.finished.disabled": "비활성화됨",
+    "pneumaticcraft.config.common.advanced.dont_update_infinite_water_sources": (
+        "무한 물 생성 블록의 상태를 갱신하지 않음"
+    ),
+    "pneumaticcraft.gui.programmer.button.import": (
+        "프로그램 가져오기\n§7§oShift를 누르면 프로그램 병합"
+    ),
+    "pneumaticcraft.gui.tab.problems.solar_compressor.efficiency": (
+        "§f압축기가 최적 효율보다 낮게 작동하고 있습니다.\n효율: %s\n\n"
+        "§0최대 효율에 도달하려면 기계를 약 350°C까지 가열하되 %s°C를 넘기지 "
+        "마세요!\n"
+    ),
+    "pneumaticcraft.gui.remote.tooltip.boundToSecurityStation": (
+        "%s의 보안 스테이션에 연결됨"
+    ),
+    "pneumaticcraft.gui.progWidget.comment.tooltip.freeToUse": (
+        "§a이 조각은 퍼즐 조각을 소모하지 않습니다"
+    ),
+    "gui.tooltip.item.pneumaticcraft.transfer_gadget": (
+        "인벤토리나 탱크 옆면에 설치하면 부착된 블록과 인접한 인벤토리/탱크 사이에서 "
+        "아이템(2초당 1개)과 유체(2초당 100mB)를 천천히 옮깁니다. 별도의 블록 공간은 "
+        "차지하지 않습니다.\n빈손이나 물류 설정기로 우클릭: 전송 방향 전환\n물류 "
+        "설정기를 들고 몸을 숙인 채 우클릭: 가젯 분리(또는 그냥 공격해도 됩니다!)"
+    ),
+    "pneumaticcraft.armor.gui.coordinateTracker.navigateToSurface": "지상으로 이동...",
+    "pneumaticcraft.gui.micromissile.modeTooltip": (
+        "§e유도 모드: §f미사일이 개체 필터와 일치하는 가장 가까운 대상을 적극적으로 "
+        "탐색해 추적합니다. 최고 속도, 회전 속도, 피해량의 균형을 조절할 수 있습니다.\n"
+        "§e직선 모드: §f미사일이 직선으로만 날아가지만 매우 빠르고 큰 피해를 줍니다."
+    ),
+    "pneumaticcraft.gui.pastebin.retrievingFromPastebin": "Pastebin에서 불러오는 중...",
+    "pneumaticcraft.gui.redstoneModule.operation_compare": "상수 비교",
+    "pneumaticcraft.gui.remote.tooltip.sneakRightClickToEdit": (
+        "§a몸을 숙인 채 우클릭하여 편집"
+    ),
+    "pneumaticcraft.gui.tab.info.item.armor.feet.jet_bootsUpgrade": (
+        "§0부츠에 제트 부츠 업그레이드를 설치하면 많은 공기를 소모하는 대신 제한적으로 "
+        "비행할 수 있습니다. 업그레이드가 활성화된 동안 점프 키(기본값: Space)를 누르면 "
+        "바라보는 방향으로 추진됩니다. 점프 키를 놓으면 천천히 안전하게 내려가며, 몸을 "
+        "숙이면 더 빨리 하강합니다.\n더 빠르게 비행하고 공기를 더 많이 소모하는 5단계의 "
+        "업그레이드가 있습니다. 3단계 이상에서는 방어구 GUI에서 건축가 모드를 켤 수 "
+        "있습니다. 크리에이티브 비행에 가까운 조작과 빠른 공중 블록 파괴 기능을 제공하지만 "
+        "이동 속도는 낮아집니다. 5단계에서는 하강하지 않고 제자리에 떠 있을 수도 "
+        "있습니다.\n제트 부츠는 수중에서도 작동하지만 공기를 훨씬 더 많이 소모합니다."
+    ),
+    "pneumaticcraft.gui.tab.info.item.armor.legs.jumpingUpgrade": (
+        "§0각반에 도약 업그레이드를 설치하면 더 높이 점프할 수 있습니다. 더 높이 "
+        "점프하고 공기를 더 많이 소모하는 4단계가 있습니다. 점프하면서 몸을 숙이면 "
+        "1단계 업그레이드와 같은 높이로만 점프합니다. 낙하 피해 방지 기능도 포함되므로 "
+        "공압 부츠를 따로 신지 않아도 됩니다."
+    ),
+    "gui.tooltip.item.pneumaticcraft.jackhammer": (
+        "강력하고 다재다능한 굴착 도구입니다. 사용하려면 드릴 비트를 설치하세요.\n"
+        "▶ 몸을 숙인 채 우클릭: 설정 GUI 열기\n"
+        "▶ 몸을 숙인 채 마우스 휠: 굴착 모드 전환"
+    ),
+    "gui.tooltip.item.pneumaticcraft.memory_stick": (
+        "플레이어 경험치를 저장합니다.\n▶ 우클릭: 1레벨 저장\n"
+        "▶ 몸을 숙인 채 우클릭: 1레벨 회수\n▶ 좌클릭: 경험치 구슬 자동 흡수 전환"
+    ),
+    "gui.tooltip.item.pneumaticcraft.minigun": (
+        "손에 들고 사용하는 무기입니다. 총기 탄약을 탄창에 넣어야 작동합니다.\n"
+        "▶ 몸을 숙인 채 우클릭: 탄창 열기\n"
+        "▶ 몸을 숙인 채 마우스 휠: 잠글 탄약 슬롯 순환\n"
+        "충전소에서 이 미니건에 업그레이드를 설치할 수 있습니다."
+    ),
+    "gui.tooltip.item.pneumaticcraft.network_api": (
+        "드론 프로그램을 저장하는 부품입니다. 네트워크 데이터 저장소와 달리 프로그래밍할 "
+        "때 퍼즐 조각을 소모합니다. 프로그래밍 가능 제어기에서 실행할 프로그램으로 "
+        "사용하거나, 외부 프로그램 조각을 사용하는 드론에 연결할 수 있습니다."
+    ),
+    "pneumaticcraft.armor.gui.misc.colors.resetTooltip": (
+        "이전 색상으로 되돌립니다. Shift를 누르면 모든 색상을 초기값으로 되돌립니다."
+    ),
+    "pneumaticcraft.death.drone": "드론이 %s [%s, %s %s]에서 파괴되었습니다.",
+    "pneumaticcraft.gui.amadron.addTrade.problems.noSellingOrPayingBlock": (
+        "재입고하거나 대금을 받을 위치를 선택하지 않았습니다.\n§0아마드론 태블릿으로 "
+        "아이템/유체 위치를 선택하거나 GPS 버튼으로 사용자 지정 위치를 선택하세요."
+    ),
+    "pneumaticcraft.gui.amadron.button.selectPaymentBlock.tooltip": (
+        "플레이어가 판매 제안을 구매했을 때 아마드론이 대금을 넣을 인벤토리나 탱크를 "
+        "선택하세요.\n§7기본적으로 이 아마드론 태블릿에 지정된 인벤토리/탱크를 사용합니다."
+    ),
+    "pneumaticcraft.gui.amadron.button.selectSellingBlock.tooltip": (
+        "아마드론이 판매 제안을 재입고할 자원을 가져올 인벤토리나 탱크를 선택하세요.\n"
+        "§7기본적으로 이 아마드론 태블릿에 지정된 인벤토리/탱크를 사용합니다."
+    ),
+    "pneumaticcraft.gui.logistics_frame.min_fluid.tooltip": (
+        "이 프레임은 한 번에 이 양보다 적은 유체를 주문하지 않습니다. 드론이 적은 양을 "
+        "여러 번 나르는 대신 한 번에 효율적으로 운반하게 할 때 유용합니다. 요청 수량보다 "
+        "작은 값으로 설정하세요."
+    ),
+    "pneumaticcraft.gui.logistics_frame.stock_items.tooltip": (
+        "이 프레임은 항상 지정한 수량의 아이템을 재고로 유지하며, 이 수량보다 적게 "
+        "남으면 아이템을 공급하지 않습니다."
+    ),
+    "pneumaticcraft.gui.tab.info.item.armor.generic.airConditioningUpgrade": (
+        "§0공기 조절 업그레이드는 적당한 공기를 소모해 체온을 조절합니다. 방어구 각 "
+        "부위가 필요에 따라 몸을 식히거나 데워 쾌적한 체온을 유지합니다. 모든 부위에 "
+        "설치하면 가장 효과적이지만 일부만 설치해도 효과가 있습니다."
+    ),
+    "pneumaticcraft.gui.tab.info.item.armor.generic.armorUpgrade": (
+        "§0방어구 업그레이드는 해당 부위의 방어력을 조금 높입니다. 2개를 설치하면 "
+        "다이아몬드 방어구와 같은 방어력이 되며, 최대 개수를 설치하면 방어력이 크게 "
+        "높아집니다."
+    ),
+    "pneumaticcraft.gui.tab.info.item.armor.generic.creativeUpgrade": (
+        "§0방어구 부위에 크리에이티브 업그레이드를 설치하면 해당 부위의 내구도가 "
+        "줄지 않고 공기도 소모하지 않습니다."
+    ),
+    "pneumaticcraft.gui.tab.info.item.armor.generic.gildedUpgrade": (
+        "§0방어구 부위에 도금 업그레이드를 설치하면 피글린이 해당 부위를 금 방어구로 "
+        "인식합니다."
+    ),
+    "pneumaticcraft.gui.tab.info.item.armor.generic.item_lifeUpgrade": (
+        "§0아이템 수명 업그레이드는 공기를 소모해 해당 방어구 부위를 천천히 자동 "
+        "수리합니다. 여러 개를 설치하면 더 빨리 수리하지만 공기 효율은 점점 낮아집니다."
+    ),
+    "pneumaticcraft.gui.tab.info.item.armor.generic.thaumcraftUpgrade": (
+        "§0Thaumcraft 업그레이드를 설치하면 해당 마도사 방어구 부위와 같은 비스 할인을 "
+        "받습니다."
+    ),
+    "pneumaticcraft.gui.tab.info.item.drone.armorUpgrade": (
+        "§0방어구 업그레이드는 드론이 받는 물리 피해를 줄입니다. 하나만 설치해도 "
+        "플라스틱 건축 벽돌™에 착륙할 때 받는 피해를 막습니다. 업그레이드 하나당 방어력 "
+        "1이므로 15개는 철 방어구 한 벌과 같습니다.\n다만 6개를 초과해 설치하면 드론의 "
+        "이동 속도가 조금 느려지므로 방어력과 속도의 균형을 맞춰야 합니다."
+    ),
+    "pneumaticcraft.gui.tab.info.item.drone.chunkloaderUpgrade": (
+        "§0청크 로더 업그레이드 1개를 설치하면 드론이 있는 청크를 계속 불러옵니다. "
+        "2개는 동서남북 십자 모양의 5청크를, 3개는 3x3 영역의 9청크를 불러옵니다.${br}"
+        "이 기능으로 드론이 불러오지 않은 청크로 순간이동할 수는 없습니다. 필요하면 설정의 "
+        "'allow_navigate_to_unloaded_chunks'를 확인하세요."
+    ),
+    "pneumaticcraft.gui.tab.info.item.jackhammer.magnetUpgrade": (
+        "§0자석 업그레이드를 설치하고 광맥 굴착 모드를 사용하면 부서진 모든 블록이 처음 "
+        "캔 블록의 위치에 떨어집니다. 이 모드에서만 공기를 조금 더 소모합니다."
+    ),
+    "pneumaticcraft.gui.tab.problems.amadron.noInventory": (
+        "§f인벤토리 또는 유체 탱크가 없습니다.\n§0아마드론 태블릿을 들고 인벤토리나 "
+        "유체 탱크를 우클릭하세요."
+    ),
+    "pneumaticcraft.gui.universalSensor.desc.block_heat": (
+        "GPS (영역) 도구로 지정한 블록의 온도를 감시합니다. 감시하는 블록의 온도가 "
+        "입력란의 온도(°C)보다 높으면 레드스톤 신호 세기 15를, 아니면 0을 출력합니다.\n"
+        "입력란이 비어 있으면 0°C에서 신호 0, 400°C에서 신호 15가 되도록 온도에 "
+        "비례해 출력합니다.\n위치가 여러 개면 가장 온도가 높은 위치를 사용합니다."
+    ),
+    "pneumaticcraft.message.amadron.playerBought": (
+        "§e[Amadron] §6%s§b이(가) 다음 제안을 §6%d§b회 구매했습니다: §6%s§b, 대금: "
+        "§6%s§b."
+    ),
+    "pneumaticcraft.message.dispenser.direction": "§e배출 방향: %s",
     "gui.tooltip.block.pneumaticcraft.programmable_controller": (
         "프로그래밍 가능 제어기는 드론을 대신할 수 있는 기계입니다. 네트워크 API 또는 "
         "드론을 프로그래밍해 기어 슬롯에 넣으세요. 제어기는 10mL/틱의 공기를 사용하며 "
@@ -521,7 +816,115 @@ INLINE_TERM_REPLACEMENTS = (
     ("Torches", "횃불"),
 )
 
+WORD_TERM_REPLACEMENTS = (
+    ("Advanced Air Compressor", "고급 공기 압축기"),
+    ("Advanced Liquid Compressor", "고급 액체 압축기"),
+    ("Thermopneumatic Processing Plant", "열공압 처리 공장"),
+    ("Pressure Chamber Interface", "압력 챔버 인터페이스"),
+    ("Pressure Chamber", "압력 챔버"),
+    ("Network Data Storage", "네트워크 데이터 저장소"),
+    ("Network Storage", "네트워크 데이터 저장소"),
+    ("Network API", "네트워크 API"),
+    ("Entity Filter", "개체 필터"),
+    ("Item Filter", "아이템 필터"),
+    ("Assembly System", "조립 시스템"),
+    ("Assembly Program", "조립 프로그램"),
+    ("Thermal Compressor", "열 압축기"),
+    ("Liquid Compressor", "액체 압축기"),
+    ("Air Compressor", "공기 압축기"),
+    ("Electrostatic Compressor", "정전기 압축기"),
+    ("Security Station", "보안 스테이션"),
+    ("Universal Sensor", "범용 센서"),
+    ("Charging Station", "충전소"),
+    ("Drone Interface", "드론 인터페이스"),
+    ("Elevator Caller", "엘리베이터 호출기"),
+    ("Elevator Base", "엘리베이터 기반"),
+    ("Transfer Gadget", "전송 가젯"),
+    ("Crop Support", "작물 지지대"),
+    ("GPS Area Tool", "GPS 영역 도구"),
+    ("GPS Tool", "GPS 도구"),
+    ("Fluid Mixer", "유체 혼합기"),
+    ("Enchanting Table", "마법 부여대"),
+    ("Silk Touch", "섬세한 손길"),
+    ("Tripwire Hooks", "철사 덫 갈고리"),
+    ("End Portal", "엔드 차원문"),
+    ("Aphorism Tiles", "격언 타일"),
+    ("Signs", "표지판"),
+    ("Heat Sink", "방열판"),
+    ("Vortex Tube", "볼텍스 튜브"),
+    ("Air Cannon", "에어 캐논"),
+    ("Smart Chest", "스마트 상자"),
+    ("Vacuum Trap", "진공 덫"),
+    ("Memory Essence", "기억의 정수"),
+    ("Tag Filter", "태그 필터"),
+    ("Iron Bars", "철창"),
+    ("Mob Spawner", "몹 생성기"),
+    ("Silverfish", "좀벌레"),
+    ("Redstone", "레드스톤"),
+    ("redstone", "레드스톤"),
+    ("Programmer", "프로그래머"),
+    ("Conditions", "조건"),
+    ("Condition", "조건"),
+    ("Coordinates", "좌표"),
+    ("Coordinate", "좌표"),
+    ("Drones", "드론"),
+    ("Drone", "드론"),
+    ("Elevator", "엘리베이터"),
+    ("Dispenser", "발사기"),
+    ("Minigun", "미니건"),
+    ("Ethanol", "에탄올"),
+    ("Diesel", "디젤"),
+    ("Fortune", "행운"),
+    ("Sneak", "몸을 숙인 채"),
+    ("Surface", "지상"),
+    ("Tier", "등급"),
+    ("tier", "등급"),
+    ("Mob", "몹"),
+    ("wrench", "렌치"),
+    ("Refinery", "정유기"),
+    ("Furnace", "화로"),
+    ("Plastic", "플라스틱"),
+    ("Lubricant", "윤활유"),
+    ("Upgrades", "업그레이드"),
+    ("Upgrade", "업그레이드"),
+    ("Area", "영역"),
+    ("Text", "텍스트"),
+)
+
 TERM_REPLACEMENTS = (
+    ("열압식 가공 공장", "열공압 처리 공장"),
+    ("열압식 처리 공장", "열공압 처리 공장"),
+    ("열압 처리 공장", "열공압 처리 공장"),
+    ("기본 저장소 프레임", "기본 저장 물류 프레임"),
+    ("Default 스토리지 프레임", "기본 저장 물류 프레임"),
+    ("패시브 공급자 프레임", "수동 공급자 물류 프레임"),
+    ("활성 공급자 프레임", "능동 공급자 물류 프레임"),
+    ("스토리지 프레임", "저장 물류 프레임"),
+    ("저장소 프레임", "저장 물류 프레임"),
+    ("에어리얼 인터페이스", "공중 인터페이스"),
+    ("센트리 터렛", "감시 포탑"),
+    ("센트리 건", "감시 포탑"),
+    ("공압식 도어 베이스", "공압 문 기반"),
+    ("공압식 도어", "공압 문"),
+    ("액체 플라스틱", "용융 플라스틱"),
+    ("공기 사용량", "공기 소모량"),
+    ("공기 비용", "공기 소모량"),
+    ("공기료", "공기 소모량"),
+    ("공기 소모과", "공기 소모가"),
+    ("리소스", "자원"),
+    ("품목", "아이템"),
+    ("갑옷", "방어구"),
+    ("레깅스", "각반"),
+    ("과정가", "과정이"),
+    ("에칭 산를", "에칭 산을"),
+    ("리모컨를", "리모컨을"),
+    ("이 작품", "이 조각"),
+    ("작품의", "조각의"),
+    ("작품이", "조각이"),
+    ("배치하십시오", "배치하세요"),
+    ("삽입하십시오", "넣으세요"),
+    ("참조하십시오", "참조하세요"),
+    ("읽으십시오", "읽으세요"),
     ("고성능 에어컨 프레서", "고급 공기 압축기"),
     ("에어컨 프레서", "공기 압축기"),
     ("고성능 에어 컴프레서", "고급 공기 압축기"),
@@ -764,9 +1167,32 @@ def reviewed_value(key: str, source: str, candidate_value: str) -> str:
         if stem in SHAPED_BLOCKS:
             return SHAPED_BLOCKS[stem]
     value = candidate_value
+    value = value.replace("\u200b", "")
     for old, new in INLINE_TERM_REPLACEMENTS:
         value = value.replace(old, new)
+    for old, new in WORD_TERM_REPLACEMENTS:
+        value = re.sub(
+            rf"(?<![A-Za-z0-9_]){re.escape(old)}(?![A-Za-z0-9_])", new, value
+        )
     for old, new in TERM_REPLACEMENTS:
+        value = value.replace(old, new)
+    for old, new in (
+        ("$(item)E", "$(item)"),
+        ("$(thing)E", "$(thing)"),
+        ("§0E", "§0"),
+        ("§fE", "§f"),
+        (" PC B", " PCB"),
+        ("방법 그 1", "방법 1"),
+        ("방법 그 2", "방법 2"),
+        ("하면이를", "하면 이를"),
+        ("과정가", "과정이"),
+        ("공기 소모으로", "공기 소모가 큰 대신"),
+        ("제작가 아니며", "제작할 수 없으며"),
+        ("방어구을", "방어구를"),
+        ("공기 소모을", "공기 소모를"),
+        ("만큼 시원하거나", "만큼 체온을 낮추거나"),
+        ("모든 작은 도움이 됩니다", "일부만 설치해도 효과가 있습니다"),
+    ):
         value = value.replace(old, new)
     value = re.sub(r"[ \t]+([,.!?%])", r"\1", value)
     value = value.replace("~", "~")

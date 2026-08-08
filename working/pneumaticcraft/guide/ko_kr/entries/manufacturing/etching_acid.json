@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "에칭 산은 $(l:components/pcb)PCB/$를 화학적으로 현상하는 데 사용됩니다. 에칭 산은 $(l:manufacturing/pressure_chamber)압력 챔버/$에서 생성되고 $(l:manufacturing/etching_tank)에칭 탱크/$에서 사용됩니다. $(p)PCB 제조에 ​​대한 자세한 내용은 $(l:components/pcb)PCB/$ 아이템을 참조하세요."
+      "text": "에칭 산은 $(l:components/pcb)PCB/$를 화학적으로 현상하는 데 사용됩니다. 에칭 산은 $(l:manufacturing/pressure_chamber)압력 챔버/$에서 생성되고 $(l:manufacturing/etching_tank)에칭 탱크/$에서 사용됩니다. $(p)PCB 제조에 대한 자세한 내용은 $(l:components/pcb)PCB/$ 아이템을 참조하세요."
     },
     {
       "type": "pneumaticcraft:pressure_chamber",

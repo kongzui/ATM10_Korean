@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(pncr)를 $(thing)아이언 맨/$의 HUD와 결합하면 어떻게됩니까? 대답은 $(thing)공압 방어구/$입니다! $(p)이 방어구는 토니 스타크 장난감에서 힌트를 얻었지만 무적이라는 것은 아닙니다. 기본적으로이 방어구는 동등한 $(thing)철 방어구/$의 각 부위보다 약간 보호 성능과 내구성이 우수합니다."
+      "text": "$(pncr)에 $(thing)아이언맨/$의 HUD를 더하면 무엇이 될까요? 바로 $(thing)공압 방어구/$입니다!$(p)토니 스타크의 장비에서 영감을 받았다고 해서 무적은 아닙니다. 기본 상태에서는 같은 부위의 $(thing)철 방어구/$보다 방어력과 내구도가 조금 높을 뿐입니다. "
     },
     {
       "type": "image",
@@ -19,7 +19,7 @@
     },
     {
       "type": "text",
-      "text": "그러나 이 방어구는 업그레이드 가능성이 매우 높습니다. 업그레이드를 사용하려면 (및 방어구를 가압하려면) 방어구를 $(l:machines/charging_station)충전 스테이션/$에 놓습니다. $(p)모든 부분에 공통적인 업그레이드는 다음 페이지에서 설명합니다. 사이트별 업그레이드는 각 방어구 사이트 페이지에서 개별적으로 설명합니다."
+      "text": "하지만 이 방어구는 다양하게 업그레이드할 수 있습니다. 업그레이드를 설치하고 방어구를 가압하려면 $(l:machines/charging_station)충전소/$에 넣으세요.$(p)모든 부위에 공통으로 적용되는 업그레이드는 다음 페이지에서, 특정 부위 전용 업그레이드는 각 방어구 부위의 페이지에서 설명합니다."
     },
     {
       "type": "text",
@@ -29,17 +29,17 @@
       "type": "spotlight",
       "item": "minecraft:anvil",
       "title": "수리",
-      "text": "귀중한 갑옷을 양호한 상태로 유지하는 방법에는 몇 가지가 있습니다. $(li)압축 철괴를 사용하여 $(thing)Anvil/$에서 수리할 수 있습니다.$(li)$(thing)Item Life Upgrades/$를 각 부품에 추가하여 자체 수리하도록 합니다.$(li)$(thing)Mending/$ 마법 부여를 적용합니다. 각 조각에"
+      "text": "소중한 방어구를 수리하는 방법은 여러 가지입니다:$(li)압축 철 주괴로 $(thing)모루/$에서 수리$(li)각 부위에 $(thing)아이템 수명 업그레이드/$를 설치해 자동 수리$(li)각 부위에 $(thing)수선/$ 마법 부여 적용"
     },
     {
       "type": "text",
       "title": "착색",
-      "text": "모든 갑옷 부분은 기본 회색 텍스처에서 동적으로 색상을 다시 지정할 수 있습니다. 각 부품에는 독립적으로 조정할 수 있는 $(thing)기본/$ 및 $(thing)보조/$ 색상이 있으며 헬멧 $(thing)eyepiece/$도 고유한 색상을 가질 수 있습니다. $(p)색상을 조정하려면 기본 방어구 GUI 화면에서 $(bold)Colors.../$ 화면을 사용하세요. 이를 위해 특별한 업그레이드가 필요하지 않습니다. 그것은 내장된 기능입니다!"
+      "text": "모든 방어구 부위는 기본 회색 텍스처의 색을 자유롭게 바꿀 수 있습니다. 부위마다 $(thing)주 색상/$과 $(thing)보조 색상/$을 따로 조절할 수 있고, 헬멧의 $(thing)접안부/$에도 별도 색상을 지정할 수 있습니다.$(p)방어구 기본 GUI의 $(bold)색상.../$ 화면에서 조절하세요. 기본 기능이므로 별도 업그레이드는 필요하지 않습니다."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:speed_upgrade",
-      "text": "$(l:base_concepts/upgrades#speed)속도 업그레이드/$는 각 방어구의 시작 시간을 줄입니다. 또한 $(l:base_concepts/upgrades#entity_tracker)개체 추적기/$ 및 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$에 대한 $(l:armor/pneumatic_helmet)Helmet/$ 잠금 시간을 줄이고 $(l:armor/pneumatic_leggings)Leggings/$이동 속도를 높입니다. $(l:base_concepts/pressure)공기 소모/$."
+      "text": "$(l:base_concepts/upgrades#speed)속도 업그레이드/$는 각 방어구 부위의 기동 시간을 줄입니다. 또한 $(l:armor/pneumatic_helmet)헬멧/$의 $(l:base_concepts/upgrades#entity_tracker)개체 추적기/$와 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$가 대상을 포착하는 시간을 줄이고, $(l:armor/pneumatic_leggings)각반/$의 달리기 속도를 높이지만 $(l:base_concepts/pressure)공기/$를 소모합니다."
     },
     {
       "type": "spotlight",
@@ -49,24 +49,24 @@
     {
       "type": "spotlight",
       "item": "pneumaticcraft:armor_upgrade",
-      "text": "$(l:base_concepts/upgrades#armor)갑옷 업그레이드/$는 각 방어구의 보호와 내구성을 향상시킵니다. 2 하나의 업그레이드를 설치하면 각 사이트는 해당 $(thing)다이아몬드 방어구/$와 동일합니다. 최대 4 하나의 업그레이드에서 보호는 $(thing)다이아몬드 방어구/$보다 낫습니다."
+      "text": "$(l:base_concepts/upgrades#armor)방어구 업그레이드/$는 각 방어구 부위의 방어력과 강인함을 높입니다. 두 개를 설치하면 각 부위가 해당 $(thing)다이아몬드 방어구/$와 같은 성능을 내며, 최대 네 개를 설치하면 $(thing)다이아몬드 방어구/$보다 높은 방어력을 냅니다."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:item_life_upgrade",
-      "text": "$(l:base_concepts/upgrades#item_life)아이템 라이프 업그레이드/$는 $(l:base_concepts/pressure)공기/$의 비용으로 방어구의 일부를 천천히 복구합니다. 각 부위에 최대 5개의 업그레이드를 설치할 수 있어 단계적으로 고속화됩니다(단, 공기 효율은 낮습니다)."
+      "text": "$(l:base_concepts/upgrades#item_life)아이템 수명 업그레이드/$는 $(l:base_concepts/pressure)공기/$를 소모해 방어구 부위를 천천히 수리합니다. 부위마다 최대 5개를 설치할 수 있으며, 추가할수록 수리 속도는 빨라지지만 공기 효율은 낮아집니다."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:gilded_upgrade",
-      "text": "$(l:base_concepts/upgrades#gilded)Gilded Upgrade/$는 모든 갑옷 부분에 설치할 수 있으며 $(thing)Piglins/$를 속여 실제로 $(thing)Gold Armor/$를 착용하고 있다고 믿게 만듭니다. 바보 피글린스."
+      "text": "$(l:base_concepts/upgrades#gilded)도금 업그레이드/$를 어느 방어구 부위에든 설치하면 $(thing)피글린/$이 플레이어가 실제로 $(thing)금 방어구/$를 입었다고 착각합니다. 어리석은 피글린이네요."
     },
     {
       "type": "spotlight",
       "flag": "mod:mekanism",
       "title": "Mekanism 방사선",
       "item": "pneumaticcraft:radiation_shielding_upgrade",
-      "text": "$(l:base_concepts/upgrades#radiation_shielding)방사선 보호 업그레이드/$는 Mekanism의 독점적 인 $(l:https://wiki.aidancbrady.com/wiki/Radiation_Shielding_Unit)방사선 보호 장치/$와 마찬가지로 Mekanism 방사선의 유해한 영향에 대한 보호를 제공합니다. 완전한 보호를 받으려면 모든 방어구 부위에 보호 업그레이드가 장착되어 있어야 합니다."
+      "text": "$(l:base_concepts/upgrades#radiation_shielding)방사선 차폐 업그레이드/$는 Mekanism의 $(l:https://wiki.aidancbrady.com/wiki/Radiation_Shielding_Unit)방사선 차폐 장치/$와 마찬가지로 Mekanism 방사선의 해로운 효과를 막아 줍니다. 완전히 보호받으려면 모든 방어구 부위에 차폐 업그레이드를 설치해야 합니다."
     },
     {
       "type": "text",

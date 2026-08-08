@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(item)GPS 도구/$는 블록에서 $(thing)/$를 우클릭했을 때 블록의 좌표를 저장하는 아이템입니다. 이 데이터는 $(pncr)의 여러 위치에서 사용됩니다. 뒷면을 참조하세요. $(p)$(thing)공중에서/$ $(item)GPS 도구/$를 우클릭하면 좌표를 직접 조정할 수 있는 GUI가 열립니다.$(p)마우스 휠을 몸을 숙인 채 스크롤하면 플레이어가 향하는 축을 따라 좌표를 빠르게 조정할 수 있습니다."
+      "text": "$(item)GPS 도구/$로 블록을 $(thing)우클릭/$하면 그 블록의 좌표를 저장합니다. 이 정보는 $(pncr)의 여러 기능에서 사용합니다. 다음 페이지를 참고하세요.$(p)공중에서 $(item)GPS 도구/$를 $(thing)우클릭/$하면 좌표를 직접 조정하는 GUI가 열립니다.$(p)웅크린 채 마우스 휠을 돌리면 플레이어가 바라보는 축을 따라 좌표를 빠르게 조정합니다."
     },
     {
       "type": "text",
@@ -22,7 +22,7 @@
         "pneumaticcraft:programming/programmer",
         "pneumaticcraft:tools/amadron_tablet"
       ],
-      "text": "$(item)GPS Tool/$를 사용하는 기계 및 도구."
+      "text": "$(item)GPS 도구/$를 사용하는 기계 및 도구."
     },
     {
       "type": "crafting",

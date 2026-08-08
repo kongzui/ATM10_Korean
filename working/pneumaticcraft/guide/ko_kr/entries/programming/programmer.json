@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(item)프로그래머/$는 $(l:tools/drone)드론/$를 프로그래밍하는 데 사용되는 기계입니다. $(l:programming/puzzle_pieces)퍼즐 조각/$가 프로그래밍 GUI로 조립되는 비주얼 프로그래밍 시스템을 사용합니다. $(thing)프로그래머/$는 ​​작동하기 위해 $(l:base_concepts/pressure)압력/$가 필요하지 않습니다. $(thing)프로그래밍/$ 카테고리의 나머지 부분은 드론 프로그램을 작성하는 방법에 대한 자세한 정보를 제공합니다."
+      "text": "$(item)프로그래머/$는 $(l:tools/drone)드론/$를 프로그래밍하는 데 사용되는 기계입니다. $(l:programming/puzzle_pieces)퍼즐 조각/$가 프로그래밍 GUI로 조립되는 비주얼 프로그래밍 시스템을 사용합니다. $(thing)프로그래머/$는 작동하기 위해 $(l:base_concepts/pressure)압력/$가 필요하지 않습니다. $(thing)프로그래밍/$ 카테고리의 나머지 부분은 드론 프로그램을 작성하는 방법에 대한 자세한 정보를 제공합니다."
     },
     {
       "type": "crafting",
@@ -30,11 +30,11 @@
     },
     {
       "type": "text",
-      "text": "$(bold)3. 드론 슬롯/$$(p)여기에 프로그래밍할 $(l:tools/drone)Drone/$(또는 $(l:components/network_components)Network Storage/API/$)를 배치합니다. 드론을 프로그래밍할 준비가 되면 $(thing)⟶/$ 버튼을 눌러 프로그램을 작성하세요. 원하는 경우 왼쪽의 텍스트 필드를 사용하여 드론의 이름을 지정할 수 있습니다. 성공하면 음성 피드백을 들을 수 있습니다.$(p)$(thing)⟵/$ 버튼을 사용하여 드론(또는 네트워크 스토리지/API)에서 프로그램을 가져올 수도 있습니다."
+      "text": "$(bold)3. 드론 슬롯/$$(p)여기에 프로그래밍할 $(l:tools/drone)드론/$(또는 $(l:components/network_components)네트워크 데이터 저장소/API/$)를 배치합니다. 드론을 프로그래밍할 준비가 되면 $(thing)⟶/$ 버튼을 눌러 프로그램을 작성하세요. 원하는 경우 왼쪽의 텍스트 필드를 사용하여 드론의 이름을 지정할 수 있습니다. 성공하면 음성 피드백을 들을 수 있습니다.$(p)$(thing)⟵/$ 버튼을 사용하여 드론(또는 네트워크 스토리지/API)에서 프로그램을 가져올 수도 있습니다."
     },
     {
       "type": "text",
-      "text": "$(bold)4. 난이도 선택/$$(p)이 라디오 버튼은 트레이에서 사용할 수 있는 프로그래밍 위젯을 제어합니다. 또한 $(l:programming/coordinate_operator)variables/$.$(p)$(bold)5와 같은 일부 고급 기능을 활성화/비활성화합니다. 플레이어 인벤토리/$$(p)귀하의 인벤토리; $(l:tools/gps_tool)GPS 도구/$ 또는 $(l:tools/gps_area_tool)GPS 영역 도구/$가 있는 경우 $(l:programming/area)Area/$ 또는 $(l:programming/coordinate)Coordinate/$ 위젯에서 해당 도구를 클릭하여 해당 설정을 위젯으로 전송할 수 있습니다."
+      "text": "$(bold)4. 난이도 선택/$$(p)이 라디오 버튼은 트레이에서 사용할 수 있는 프로그래밍 위젯을 제어합니다. 또한 $(l:programming/coordinate_operator)variables/$.$(p)$(bold)5와 같은 일부 고급 기능을 활성화/비활성화합니다. 플레이어 인벤토리/$$(p)귀하의 인벤토리; $(l:tools/gps_tool)GPS 도구/$ 또는 $(l:tools/gps_area_tool)GPS 영역 도구/$가 있는 경우 $(l:programming/area)영역/$ 또는 $(l:programming/coordinate)좌표/$ 위젯에서 해당 도구를 클릭하여 해당 설정을 위젯으로 전송할 수 있습니다."
     },
     {
       "type": "text",
@@ -42,7 +42,7 @@
     },
     {
       "type": "text",
-      "text": "$(bold)7. 기타 버튼/$$(p)GUI의 왼쪽 가장자리에 있는 버튼은 순서대로 다음을 허용합니다: $(li)$(thing)Undo/$ 최대 마지막 20 작업$(li)$(thing)Redo/$이전 작업 undo$(li)$(thing)프로그램을 JSON 파일로 $(l:https://pastebin.com)pastebin.com/$에 가져오거나 내보내기/$(Pastebin 로그인 선택 사항)$(li)$(thing)전체 프로그램 삭제/$( 실행 취소)$(li)$(thing)프로그램을 $(thing)Relative/$ 좌표로 변환/$(자세한 내용은 $(l:programming/programmer#convert_relative)이 페이지/$ 참조)"
+      "text": "$(bold)7. 기타 버튼/$$(p)GUI 왼쪽 가장자리의 버튼은 순서대로 다음 기능을 제공합니다:$(li)$(thing)실행 취소/$: 최근 작업 최대 20개 취소$(li)$(thing)다시 실행/$: 마지막 실행 취소 복원$(li)$(thing)가져오기/내보내기/$: 프로그램을 JSON 파일로 $(l:https://pastebin.com)pastebin.com/$과 주고받기(Pastebin 로그인은 선택)$(li)$(thing)삭제/$: 전체 프로그램 삭제(실행 취소 가능)$(li)$(thing)변환/$: 프로그램을 $(thing)상대/$ 좌표로 변환(자세한 내용은 $(l:programming/programmer#convert_relative)이 페이지/$ 참고)"
     },
     {
       "type": "text",
@@ -53,7 +53,7 @@
     {
       "type": "text",
       "title": "프로그램 공유",
-      "text": "프로그램을 다른 플레이어와 공유하려면 다음과 같은 두 가지 옵션이 있습니다. $(li)$(thing)Pastebin/$ 버튼을 사용하여 프로그램을 $(l:https://pastebin.com)pastebin.com/$$(li)$(thing)Pastebin/$ GUI를 사용하면 프로그램을 클립보드에 기록하여 복사할 수도 있습니다. 붙여넣기$(li)프로그램을 $(l:tools/drone)Drone/$ 또는 $(l:components/network_components)Network Storage/Network API/$에 저장하고 해당 아이템을 서버의 다른 플레이어에게 줄 수 있습니다."
+      "text": "프로그램을 다른 플레이어와 공유하려면 다음과 같은 두 가지 옵션이 있습니다. $(li)$(thing)Pastebin/$ 버튼을 사용하여 프로그램을 $(l:https://pastebin.com)pastebin.com/$$(li)$(thing)Pastebin/$ GUI를 사용하면 프로그램을 클립보드에 기록하여 복사할 수도 있습니다. 붙여넣기$(li)프로그램을 $(l:tools/drone)드론/$ 또는 $(l:components/network_components)네트워크 데이터 저장소/네트워크 API/$에 저장하고 해당 아이템을 서버의 다른 플레이어에게 줄 수 있습니다."
     },
     {
       "type": "text",
@@ -65,7 +65,7 @@
       "type": "text",
       "anchor": "convert_relative",
       "title": "상대적으로 변환 (계속)",
-      "text": "$(thing)base position/$(예: 입력 상자의 위치)가 포함된 $(l:programming/coordinate)Coordinate/$ 위젯과 함께 고정된 $(l:programming/coordinate_operator)Coordinate Operator/$ 위젯 하나를 추가해야 합니다. 그런 다음 프로그램에서 사용되는 절대 위치(영역 또는 좌표)를 해당 기본 위치에 상대적인 좌표로 변환합니다. $(p)이제 프로그램 사용자는 프로그램을 사용하기 위해 단일 좌표만 조정하면 됩니다!"
+      "text": "$(thing)base position/$(예: 입력 상자의 위치)가 포함된 $(l:programming/coordinate)좌표/$ 위젯과 함께 고정된 $(l:programming/coordinate_operator)좌표 Operator/$ 위젯 하나를 추가해야 합니다. 그런 다음 프로그램에서 사용되는 절대 위치(영역 또는 좌표)를 해당 기본 위치에 상대적인 좌표로 변환합니다. $(p)이제 프로그램 사용자는 프로그램을 사용하기 위해 단일 좌표만 조정하면 됩니다!"
     },
     {
       "type": "text",

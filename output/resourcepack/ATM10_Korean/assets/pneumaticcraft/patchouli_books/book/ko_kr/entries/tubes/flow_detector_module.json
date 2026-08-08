@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "흐름 감지기 튜브 모듈은 튜브를 통해 $(thing)airflow/$를 측정하는 $(l:tubes/tube_modules#inline)inline/$ 모듈입니다. 이 결과로 $(p)$(formula)0.2 * 흐름(mL/틱)/$$(p)E.g를 사용하여 $(#f00)redstone 신호/$를 방출합니다. 20mL/공기 흐름 틱으로 신호 레벨은 20*0.2=4가 됩니다."
+      "text": "흐름 감지 모듈은 튜브 속 $(thing)공기 흐름/$을 측정하는 $(l:tubes/tube_modules#inline)인라인/$ 모듈입니다. 다음 공식에 따라 $(#f00)레드스톤 신호/$를 출력합니다:$(p)$(formula)0.2 × 흐름(mL/틱)/$$(p)예를 들어 공기가 20mL/틱으로 흐르면 신호 세기는 20 × 0.2 = 4입니다."
     },
     {
       "type": "text",
-      "text": "$(thing)흐름/$는 $(l:base_concepts/pressure)압력/$와 다른 물리량임을 유의하십시오. 흐름은 틱당 튜브를 통과하는 공기의 양입니다. 따라서 (예를 들어) 작동하지 않는 $(l:machines/elevators)엘리베이터/$가 있는 경우 흐름은 0가 되지만 작동 중일 때 공기를 소모하므로 흐름은 0 이외가 됩니다. 따라서 이 모듈을 사용하여 기계가 공기를 사용하는지 여부를 감지할 수 있습니다. $(p)흐름 감지 모듈은 $(l:tubes/module_expansion_card)모듈 확장 카드/$를 허용하지 않습니다."
+      "text": "$(thing)흐름/$은 $(l:base_concepts/pressure)압력/$과 다른 물리량입니다. 흐름은 틱마다 튜브를 통과하는 공기의 양입니다. 예를 들어 $(l:machines/elevators)엘리베이터/$가 멈춰 있으면 흐름은 0이지만, 작동해 공기를 소모하면 0보다 커집니다. 따라서 이 모듈로 기계의 공기 사용 여부를 감지할 수 있습니다.$(p)흐름 감지 모듈에는 $(l:tubes/module_expansion_card)모듈 확장 카드/$를 설치할 수 없습니다."
     },
     {
       "type": "crafting",

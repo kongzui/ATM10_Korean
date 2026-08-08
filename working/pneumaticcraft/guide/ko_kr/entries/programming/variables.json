@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(thing)Variables/$를 사용하면 드론 프로그램이 블록 위치(좌표라고도 함)를 저장하고 조작하여 고급 드론 기능을 제공할 수 있습니다. $(p)드론 프로그램 내에서 변수를 생성하거나 조작하려면 $(l:programming/coordinate_operator)Coordinate Operator/$ 및 $(l:programming/coordinate)Coordinate/$ 위젯을 사용하고, 변수에 대한 테스트를 실행하려면 $(l:programming/condition_coordinate)Condition을 사용하세요. 좌표/$ 위젯."
+      "text": "$(thing)Variables/$를 사용하면 드론 프로그램이 블록 위치(좌표라고도 함)를 저장하고 조작하여 고급 드론 기능을 제공할 수 있습니다. $(p)드론 프로그램 내에서 변수를 생성하거나 조작하려면 $(l:programming/coordinate_operator)좌표 Operator/$ 및 $(l:programming/coordinate)좌표/$ 위젯을 사용하고, 변수에 대한 테스트를 실행하려면 $(l:programming/condition_coordinate)조건을 사용하세요. 좌표/$ 위젯."
     },
     {
       "type": "text",
@@ -46,7 +46,7 @@
       "type": "text",
       "anchor": "special",
       "title": "특수 변수",
-      "text": "다음과 같은 특수 변수가 인식됩니다. $(li)$(thing)$owner_pos/$: $(l:tools/drone)Drone/$을 소유한 플레이어의 (헤드) 블록 위치 또는 소유자가 오프라인인 경우 (0,0,0). $(li)$(thing)$drone_pos/$: 블록 위치 드론 자체.$(li)$(thing)$player_pos=<name>/$: 플레이어 '<name>'(대소문자 구분 안 함) 또는 유효하지 않거나 오프라인 플레이어 이름의 경우 (0,0,0)의 (헤드) 블록 위치입니다."
+      "text": "다음과 같은 특수 변수가 인식됩니다. $(li)$(thing)$owner_pos/$: $(l:tools/drone)드론/$을 소유한 플레이어의 (헤드) 블록 위치 또는 소유자가 오프라인인 경우 (0,0,0). $(li)$(thing)$drone_pos/$: 블록 위치 드론 자체.$(li)$(thing)$player_pos=<name>/$: 플레이어 '<name>'(대소문자 구분 안 함) 또는 유효하지 않거나 오프라인 플레이어 이름의 경우 (0,0,0)의 (헤드) 블록 위치입니다."
     },
     {
       "type": "text",

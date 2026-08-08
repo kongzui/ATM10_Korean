@@ -6,17 +6,17 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(thing)센트리 터렛/$는 자율 방어 무기입니다. 범위 내에서 개체를 쏘기 위해 $(l:tools/minigun)미니 건/$와 $(l:tools/minigun_ammo)총 탄약/$ (이것은 사용자가 준비해야 함)를 통합 한 것을 사용합니다. 기본적으로 사거리는 16 블록이지만 $(l:base_concepts/upgrades#range)범위 업그레이드/$를 사용하여 최대 32 블록으로 업그레이드할 수 있습니다. $(p)센트리 터렛이 작동하려면 $(l:base_concepts/pressure)압력/$를 준비할 필요는 없지만 $(l:tools/minigun_ammo)탄약/$를 준비해야 합니다."
+      "text": "$(thing)감시 포탑/$은 자동 방어 무기입니다. 내장된 $(l:tools/minigun)미니건/$과 직접 공급해야 하는 $(l:tools/minigun_ammo)총기 탄약/$으로 범위 안의 개체를 공격합니다. 기본 사거리는 16블록이며 $(l:base_concepts/upgrades#range)범위 업그레이드/$로 최대 32블록까지 늘릴 수 있습니다.$(p)감시 포탑은 $(l:base_concepts/pressure)압력/$ 없이 작동하지만 $(l:tools/minigun_ammo)탄약/$은 반드시 공급해야 합니다."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:sentry_turret",
-      "text": "$(thing)센트리 터렛/$의 잠재적 타겟은 터렛 GUI에 $(l:base_concepts/entity_filter)개체 필터/$를 입력하여 필터링할 수 있습니다. 팝업 필터 도움말 페이지를 보려면 $(thing)F1/$를 길게 누릅니다. $(p)새로 설치된 터렛에는 $(thing)@mob/$의 기본 필터가 있지만 필터가 없는 터렛은 이를 설치한 플레이어를 공격하지 않습니다."
+      "text": "$(thing)감시 포탑/$의 잠재적 타겟은 터렛 GUI에 $(l:base_concepts/entity_filter)개체 필터/$를 입력하여 필터링할 수 있습니다. 팝업 필터 도움말 페이지를 보려면 $(thing)F1/$를 길게 누릅니다. $(p)새로 설치된 터렛에는 $(thing)@mob/$의 기본 필터가 있지만 필터가 없는 터렛은 이를 설치한 플레이어를 공격하지 않습니다."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:security_station",
-      "text": "$(thing)센트리 터렛/$는 1개 이상의 $(l:machines/security_station)보안 스테이션/$에 의해 커버됩니다 개체 필터가 설정된 방법에 관계없이 $(italic)모든/$ 보안 스테이션의 신뢰할 수 있는 목록에 있는 플레이어는 대상이 되지 않습니다."
+      "text": "$(thing)감시 포탑/$이 하나 이상의 $(l:machines/security_station)보안 스테이션/$ 범위 안에 있으면, 개체 필터 설정과 관계없이 $(italic)모든/$ 보안 스테이션의 신뢰 목록에 등록된 플레이어는 절대 공격하지 않습니다."
     },
     {
       "type": "image",

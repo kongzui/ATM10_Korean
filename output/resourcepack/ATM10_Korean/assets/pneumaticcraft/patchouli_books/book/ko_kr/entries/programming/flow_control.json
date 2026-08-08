@@ -19,7 +19,7 @@
     },
     {
       "type": "text",
-      "text": "흐름 제어에 영향을 미치는 몇 가지 특수 위젯이 더 있습니다. $(li)$(l:programming/standby)Standby/$ 위젯은 다른 위젯이 실제로 수행할 작업이 있을 때까지 드론을 '잠자기' 상태로 유지합니다. $(li)$(l:programming/suicide)Suicide/$ 위젯은 $(thing)Drone/$를 아이템으로 삭제하고 즉시 실행을 종료합니다."
+      "text": "흐름 제어에 영향을 미치는 몇 가지 특수 위젯이 더 있습니다. $(li)$(l:programming/standby)Standby/$ 위젯은 다른 위젯이 실제로 수행할 작업이 있을 때까지 드론을 '잠자기' 상태로 유지합니다. $(li)$(l:programming/suicide)Suicide/$ 위젯은 $(thing)드론/$를 아이템으로 삭제하고 즉시 실행을 종료합니다."
     }
   ]
 }

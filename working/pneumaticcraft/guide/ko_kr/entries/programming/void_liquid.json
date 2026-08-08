@@ -1,12 +1,12 @@
 {
-  "name": "유체 무효 위젯",
+  "name": "유체 폐기 위젯",
   "icon": "pneumaticcraft:textures/progwidgets/void_fluid_piece.png",
   "category": "pneumaticcraft:widget_interact",
   "advancement": "pneumaticcraft:programmer",
   "pages": [
     {
       "type": "text",
-      "text": "$(l:programming/void_item)아이템 무효 위젯/$와 마찬가지로 이것은 드론 탱크의 유체를 즉시 영구적으로 파괴하므로주의하십시오. 이것을 $(l:programming/liquid_filter)유체 필터/$와 함께 사용하는 것이 좋습니다. 필터를 사용하면 필터에서 허용하는 유체만 비활성화됩니다."
+      "text": "$(l:programming/void_item)아이템 제거 위젯/$과 마찬가지로 드론 탱크의 유체를 즉시 영구적으로 제거하므로 주의하세요! $(l:programming/liquid_filter)유체 필터/$와 함께 사용하는 것을 강력히 권장합니다. 필터를 사용하면 필터에서 허용한 유체만 제거합니다."
     },
     {
       "type": "image",

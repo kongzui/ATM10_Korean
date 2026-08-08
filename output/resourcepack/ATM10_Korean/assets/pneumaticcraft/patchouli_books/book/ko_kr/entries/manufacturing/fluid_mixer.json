@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(thing)유체 혼합기/$는 $(l:base_concepts/pressure)압력/$를 사용하여 2 하나의 유체를 혼합하여 결과 유체와 아이템을 생성합니다. 주요 용도는 $(l:renewables/biodiesel)바이오디젤/$의 제조입니다. $(p)유체 혼합기는 압력이 높을수록 동작이 빨라집니다 (단, 공기의 사용도 빨라집니다)."
+      "text": "$(thing)유체 혼합기/$는 $(l:base_concepts/pressure)압력/$으로 두 유체를 혼합해 유체 및 아이템 결과물을 만듭니다. 주로 $(l:renewables/biodiesel)바이오디젤/$을 생산할 때 사용합니다.$(p)압력이 높을수록 더 빨리 작동하지만 공기도 더 빨리 소모합니다."
     },
     {
       "type": "crafting",

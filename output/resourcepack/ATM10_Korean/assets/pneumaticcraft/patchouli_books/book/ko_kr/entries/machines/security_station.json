@@ -16,13 +16,13 @@
     {
       "type": "text",
       "title": "설정",
-      "text": "$(thing)보안 스테이션/$를 설정하려면 네트워크 그리드에 $(l:components/network_components)Network Components/$를 배치하여 $(thing)network/$를 형성해야 합니다. 모든 네트워크에는 하나의 $(l:components/network_components#diagnostic)진단 서브루틴/$, 하나의 $(l:components/network_components#io_port)Network IO 포트/$, 하나의 $(l:components/network_components#registry)Network Registry/$.$(p)가 있어야 합니다. 이 세 개의 특수 노드는 모두 서로 연결되어야 하며 이는 $(l:components/network_components#node)Network Nodes/$로 수행됩니다."
+      "text": "$(thing)보안 스테이션/$을 설정하려면 네트워크 격자에 $(l:components/network_components)네트워크 부품/$을 놓아 $(thing)네트워크/$를 만드세요. 네트워크마다 $(l:components/network_components#diagnostic)진단 서브루틴/$, $(l:components/network_components#io_port)네트워크 IO 포트/$, $(l:components/network_components#registry)네트워크 레지스트리/$가 하나씩 필요합니다.$(p)이 세 특수 노드는 모두 $(l:components/network_components#node)네트워크 노드/$로 서로 연결해야 합니다."
     },
     {
       "type": "text",
       "title": "해킹 무효",
       "flag": "!pneumaticcraft:securityStationHacking",
-      "text": "이 서버에서 보안 스테이션의 해킹은 설정에 따라 비활성화됩니다. 즉, 한 번 설정하면 어떤 플레이어도 보안 스테이션을 해킹할 수 없지만 이전 페이지에서 설명한 대로 올바른 구성 요소를 사용하여 설정해야 합니다. 다만, 다음 페이지의 대부분($(thing)허가된 친구/$이외)는 여기에서는 적용되지 않습니다."
+      "text": "이 서버에서는 설정으로 보안 스테이션 해킹이 비활성화되어 있습니다. 설치한 보안 스테이션을 다른 플레이어가 해킹할 수는 없지만, 이전 페이지의 올바른 부품으로 설정해야 합니다. 이후 페이지 중 $(thing)친구 허용/$을 제외한 대부분의 해킹 설명은 적용되지 않습니다."
     },
     {
       "type": "text",
@@ -36,12 +36,12 @@
     {
       "type": "text",
       "title": "해커 도구",
-      "text": "해커가 입수를 시도해야 할 몇 가지 유용한 아이템이 있습니다. 둘 다 제작가 아니며 월드에서 찾아야합니다 (마을 사람들의 거래 또는 던전 전리품) : $(li)$(l:components/nuke_virus)핵 바이러스/$. 이것은 하나의 노드를 즉시 캡처하는 데 사용할 수 있습니다. $(li)$(l:components/stop_worm)STOP! Worm/$. 이것은 진단 추적의 진행을 일시적으로 중지할 수 있습니다."
+      "text": "해커에게 유용하지만 제작할 수 없어 주민 거래나 던전 전리품으로 찾아야 하는 아이템이 두 가지 있습니다:$(li)$(l:components/nuke_virus)핵 바이러스/$: 노드 하나를 즉시 점령합니다.$(li)$(l:components/stop_worm)STOP! 웜/$: 진단 서브루틴의 추적 진행을 잠시 멈춥니다."
     },
     {
       "type": "text",
       "title": "업그레이드",
-      "text": "$(thing)보안 스테이션/$에는 몇 가지 업그레이드가 필요합니다. $(li)$(l:base_concepts/upgrades#entity_tracker)개체 추적기s/$는 $(l:machines/security_station#hacking)hacker/$가 감지될 가능성을 높입니다. 수익 감소가 있으며 최대 보호는 노드 해킹 시도당 99%입니다. $(li)$(l:base_concepts/upgrades#range)Range 업그레이드/$ 스테이션의 보호 범위를 업그레이드당 1만큼 증가시키고 모든 방향에서 최대 16 블록까지(최대 보호 영역은 33x33x33 블록)."
+      "text": "$(thing)보안 스테이션/$에는 다음 업그레이드를 사용할 수 있습니다:$(li)$(l:base_concepts/upgrades#entity_tracker)개체 추적기/$는 $(l:machines/security_station#hacking)해커/$가 감지될 확률을 높입니다. 추가할수록 효과가 줄며 노드 해킹 시도 한 번당 최대 보호 확률은 99%입니다.$(li)$(l:base_concepts/upgrades#range)범위 업그레이드/$는 개당 보호 범위를 1블록씩 늘려 모든 방향으로 최대 16블록, 즉 최대 33x33x33 영역을 보호합니다."
     },
     {
       "type": "text",
@@ -56,13 +56,13 @@
     {
       "type": "text",
       "title": "해킹하다",
-      "text": "누군가가 귀하의 $(thing)보안 스테이션/$를 해킹하면 $(bold)Problems/$ 및 $(bold)Status/$ 탭에서 이를 확인할 수 있으며 $(italic)who/$가 귀하의 시스템을 해킹했음도 표시됩니다. 이제 이 플레이어들(및 이 플레이어들만)은 해당 지역 내의 블록과 상호 작용할 수 있습니다. 보안을 복원하려면 GUI의 $(bold)Reboot/$ 버튼을 통해 $(italic)reboot/$ 및 $(thing)보안 스테이션/$를 수행해야 합니다. 재부팅 과정에는 60초가 소요되며, 이 시간 동안 해당 영역은 전혀 보호되지 않습니다."
+      "text": "누군가 $(thing)보안 스테이션/$을 해킹하면 $(bold)문제/$와 $(bold)상태/$ 탭에서 확인할 수 있고, 시스템을 해킹한 사람이 $(italic)누구인지/$도 표시됩니다. 이제 그 플레이어만 영역 안의 블록과 상호작용할 수 있습니다. 보안을 복구하려면 GUI의 $(bold)재부팅/$ 버튼으로 $(thing)보안 스테이션/$을 $(italic)재부팅/$하세요. 재부팅에는 60초가 걸리며, 그동안 영역은 전혀 보호되지 않습니다."
     },
     {
       "type": "text",
       "title": "해킹하다",
       "anchor": "hacking",
-      "text": "귀하의 소유가 아닌 $(thing)보안 스테이션/$를 해킹하려면 최소 하나(아마도 다수)의 $(l:base_concepts/upgrades#security)보안 업그레이드/$가 설치된 $(l:armor/pneumatic_helmet)공압 헬멧/$가 필요합니다. 이렇게 하면 반대쪽과 비슷한 GUI가 나타납니다. 해킹 방법에 대한 가이드는 $(l:https://www.youtube.com/watch?v=Lgmpslbrrwo)이 비디오(매우 오래되었지만 여전히 관련성이 있음)/$를 시청하세요.$(p)노드를 캡처하려면 $(thing)왼쪽 버튼을 클릭하세요./$. 캡처된 노드를 강화하려면 $(thing)오른쪽 클릭/$; 강화된 노드는 진단을 캡처하는 데 약간 더 오래 걸립니다."
+      "text": "다른 플레이어의 $(thing)보안 스테이션/$을 해킹하려면 하나 이상, 보통은 여러 $(l:base_concepts/upgrades#security)보안 업그레이드/$를 설치한 $(l:armor/pneumatic_helmet)공압 헬멧/$이 필요합니다. 그러면 맞은편 그림과 비슷한 GUI가 나타납니다. 해킹 방법은 $(l:https://www.youtube.com/watch?v=Lgmpslbrrwo)이 오래됐지만 여전히 유효한 영상/$을 참고하세요.$(p)노드를 $(thing)좌클릭/$하면 점령하고, 점령한 노드를 $(thing)우클릭/$하면 요새화합니다. 요새화한 노드는 진단 서브루틴이 점령하는 데 조금 더 오래 걸립니다."
     },
     {
       "type": "image",
@@ -73,7 +73,7 @@
     {
       "type": "text",
       "title": "팁",
-      "text": "$(li)$(thing)보안 스테이션/$는 안전하게 숨기고 보호하십시오. $(li)여러 $(thing)보안 스테이션/$에서 영역을 보호할 수 있지만 모두 해킹해야 합니다. $(li)전투 프로그램을 갖춘 $(l:tools/drone)드론/$ 및 $(l:machines/sentry_turret)센트리 터렛/$와 같은 활성 방어를 고려하십시오. $(li)해킹된 $(thing)시큐리티 스테이션/$는 $(#f00)레드스톤 신호/$를 발하도록(듯이) 설정할 수 있어 이것에 의해 추가의 대책(스테이션 아래에 TNT를 마련할 수 있습니까?"
+      "text": "$(li)$(thing)보안 스테이션/$을 잘 숨기고 보호하세요.$(li)여러 $(thing)보안 스테이션/$으로 한 영역을 보호하면 공격자는 모두 해킹해야 합니다.$(li)전투 프로그램을 설치한 $(l:tools/drone)드론/$이나 $(l:machines/sentry_turret)감시 포탑/$ 같은 능동 방어 수단을 고려하세요.$(li)해킹된 $(thing)보안 스테이션/$이 $(#f00)레드스톤 신호/$를 내보내도록 설정해 추가 방어 수단을 작동시킬 수도 있습니다. 예를 들면 스테이션 아래의 TNT가 있겠죠."
     },
     {
       "type": "crafting",

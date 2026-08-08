@@ -7,12 +7,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "공압 발생기는 $(l:base_concepts/pressure)압축 공기/$에서 $(thing)IndustrialCraft 2 EU/$를 생성할 수 있습니다. 이는 15 bar의 최소 작동 압력으로 표시되는 계층 2 기계입니다. 기본적으로 효율성은 40%이지만 config/$에서 $(ttcolor)$(t:See 'I:pneumaticGeneratorEfficiency')변경될 수 있습니다.$(p)$(l:base_concepts/upgrades#speed)Speed ​​업그레이드/$가 없으면 32 EU/tick의 속도로 출력됩니다. 1개의 업그레이드가 삽입된 경우: 128 EU/tick 및 2개의 업그레이드가 삽입된 경우: 512 EU/tick."
+      "text": "공압 발전기는 $(l:base_concepts/pressure)압축 공기/$로 $(thing)IndustrialCraft 2 EU/$를 생산합니다. 최소 작동 압력이 15bar인 2등급 기계입니다. 기본 효율은 40%이며 $(ttcolor)$(t:'I:pneumaticGeneratorEfficiency' 참조)설정에서 변경/$할 수 있습니다.$(p)$(l:base_concepts/upgrades#speed)속도 업그레이드/$가 없으면 32EU/틱, 하나를 설치하면 128EU/틱, 두 개를 설치하면 512EU/틱을 출력합니다."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:pneumatic_generator",
-      "text": "공기 사용량(mL/tick)은 $(p)$(formula)출력율 / E * 400/$로 표시됩니다. $(p)여기서 $(formula)E/$는 효율성 (퍼센트)입니다. 예를 들어 기본 효율이 40%이고 출력 속도가 32EU/tick인 경우 공기 사용량 = $(formula)32 / 40 * 400 = 320mL/tick/$입니다."
+      "text": "공기 소모량(mL/틱)은 다음과 같습니다:$(p)$(formula)출력 속도 / E × 400/$$(p)여기서 $(formula)E/$는 효율(%)입니다. 예를 들어 기본 효율 40%, 출력 속도 32EU/틱이면 공기 소모량은 $(formula)32 / 40 × 400 = 320mL/틱/$입니다."
     },
     {
       "type": "text",

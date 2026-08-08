@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(item)공압 다이너모/$는 $(l:base_concepts/pressure)압축 공기/$를 $(thing)Forge 에너지/$로 변환합니다. 이것은 $(thing)Redstone Flux/$ 및 기타 모드 에너지 시스템과 호환됩니다. 기본적으로 40 FE/tick을 생성하지만 $(l:base_concepts/upgrades#speed)속도 업그레이드/$로 업그레이드할 수 있습니다. $(item)자속 압축기/$의 FE 출력율은 현재의 FE 생성량의 2배로, 디폴트에서는 80FE/tick입니다만, 속도 업그레이드로 증가할 수 있습니다."
+      "text": "$(item)공압 다이너모/$는 $(l:base_concepts/pressure)압축 공기/$를 $(thing)Forge Energy/$로 변환하며, $(thing)레드스톤 Flux/$와 다른 모드의 에너지 시스템과 호환됩니다. 기본 생산량은 40FE/틱이며 $(l:base_concepts/upgrades#speed)속도 업그레이드/$로 늘릴 수 있습니다. $(item)자속 압축기/$의 FE 출력 한도는 현재 FE 생산량의 두 배이므로, 기본값은 80FE/틱이며 속도 업그레이드로 증가합니다."
     },
     {
       "type": "spotlight",

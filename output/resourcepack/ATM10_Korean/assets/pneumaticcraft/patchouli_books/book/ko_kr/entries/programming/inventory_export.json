@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(l:programming/inventory_import)Inventory Import/$ 위젯의 반대: $(l:tools/drone)Drone/$는 지정된 $(l:programming/area)area/$ 내의 가장 가까운 인벤토리로 이동하여 $(item)Drone의/$ 인벤토리에서 아이템을 떨어뜨립니다.$(p)$(thing)설정을 위해 위젯을 우클릭/$합니다. 드론이 아이템을 내보낼 인벤토리 측면을 지정할 수 있는 GUI입니다. 내보낼 최대 아이템 수를 지정할 수도 있습니다."
+      "text": "$(l:programming/inventory_import)Inventory Import/$ 위젯의 반대: $(l:tools/drone)드론/$는 지정된 $(l:programming/area)area/$ 내의 가장 가까운 인벤토리로 이동하여 $(item)드론의/$ 인벤토리에서 아이템을 떨어뜨립니다.$(p)$(thing)설정을 위해 위젯을 우클릭/$합니다. 드론이 아이템을 내보낼 인벤토리 측면을 지정할 수 있는 GUI입니다. 내보낼 최대 아이템 수를 지정할 수도 있습니다."
     },
     {
       "type": "text",

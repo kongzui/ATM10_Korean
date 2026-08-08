@@ -11,7 +11,7 @@
     {
       "type": "text",
       "title": "업그레이드",
-      "text": "$(l:base_concepts/upgrades#dispenser)Dispenser Upgrade/$를 설치하면 $(item)Air Cannon/$이 특정 아이템에 대해 바닐라 $(item)Dispenser/$처럼 작동합니다. TNT 또는 Fire Charges.$(p)$(l:base_concepts/upgrades#entity_tracker)개체 추적기 Upgrade/$를 사용하면 $(item)Air Cannon/$가 인벤토리에서 아이템을 발사하지 않고 대신 트리거될 때 가장 가까운 개체(당신 포함!)를 발사합니다."
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 설치하면 $(item)에어 캐논/$이 특정 아이템에 대해 바닐라 $(item)발사기/$처럼 작동합니다. TNT 또는 Fire Charges.$(p)$(l:base_concepts/upgrades#entity_tracker)개체 추적기 업그레이드/$를 사용하면 $(item)에어 캐논/$가 인벤토리에서 아이템을 발사하지 않고 대신 트리거될 때 가장 가까운 개체(당신 포함!)를 발사합니다."
     },
     {
       "type": "crafting",

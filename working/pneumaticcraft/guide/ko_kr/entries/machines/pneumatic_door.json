@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "이 특별한 문은 근처에 플레이어가 있으면 자동으로 열립니다. 단, $(l:base_concepts/pressure)공기압/$이 충분해야 합니다. 기본 감지 범위는 2 블록이지만 $(l:base_concepts/upgrades#range)범위 업그레이드/$.$(p)$(thing)공압식 도어/$를 구성하려면 $(thing)공압식 도어를 배치해야 합니다. Base/$는 도어 자체의 $(italic)상단 절반/$와 수평이 되도록 합니다."
+      "text": "이 특별한 문은 근처에 플레이어가 있으면 자동으로 열립니다. 단, $(l:base_concepts/pressure)공기압/$이 충분해야 합니다. 기본 감지 범위는 2 블록이지만 $(l:base_concepts/upgrades#range)범위 업그레이드/$.$(p)$(thing)공압 문/$를 구성하려면 $(thing)공압 문를 배치해야 합니다. Base/$는 도어 자체의 $(italic)상단 절반/$와 수평이 되도록 합니다."
     },
     {
       "type": "image",

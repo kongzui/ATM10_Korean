@@ -68,6 +68,321 @@ FORBIDDEN_GUIDE_FRAGMENTS = (
 )
 
 LOCATION_OVERRIDES = {
+    ("entries/compressors/advanced_liquid_compressor.json", 1): (
+        "$(item)고급 액체 압축기/$는 $(l:compressors/liquid_compressor)액체 압축기/$의 "
+        "$(l:base_concepts/pressure_tiers)2등급/$ 버전이며 최대 안전 압력은 20bar입니다. "
+        "기본적으로 틱당 50mL의 공기를 생산하고 "
+        "$(l:base_concepts/upgrades#speed)속도 업그레이드/$를 설치할 수 있습니다.$(p)"
+        "다만 이 발전기는 $(l:base_concepts/heat)냉각/$해야 합니다. 온도가 높아질수록 "
+        "효율이 떨어지며, 지나치게 뜨거우면 공기를 전혀 생산하지 않습니다."
+    ),
+    ("entries/compressors/electric_compressor.json", 1): (
+        "$(item)전기 압축기/$는 $(thing)IndustrialCraft 2의 EU/$로 압축 공기를 "
+        "생산합니다. 기본 효율은 40%이며, $(ttcolor)$(t:'I:electricCompressorEfficiency' "
+        "참조)설정에서 변경/$할 수 있습니다.$(p)IC2 1등급 기계처럼 작동하므로 32EU/t를 "
+        "초과해 입력하면 폭발합니다. 일반 IC2 기계처럼 IC2 $(item)변압기 업그레이드/$를 "
+        "추가하면 더 높은 전압을 받을 수 있습니다."
+    ),
+    ("entries/compressors/electric_compressor.json", 2): (
+        "틱당 공기 생산량(mL)은 다음과 같습니다:$(p)$(formula)입력 속도 / E × 400/$"
+        "$(p)여기서 $(formula)E/$는 효율(%)입니다.$(p)예를 들어 기본 효율 40%에서 "
+        "32EU/틱을 입력하면 압축 공기 생산량은 "
+        "$(formula)32 / 40 × 400 = 320mL/틱/$입니다."
+    ),
+    ("entries/compressors/electric_compressor.json", 3): (
+        "효율에는 기계의 $(l:base_concepts/heat)온도/$도 영향을 줍니다. 기계를 냉각해야 "
+        "하며, 온도가 높아질수록 효율이 낮아져 결국 공기를 전혀 생산하지 않게 됩니다."
+    ),
+    ("entries/base_concepts/heat.json", 1): (
+        "$(pncr)에는 $(thing)열/$ 시스템이 있습니다. 열은 현실과 비슷하게 블록에서 "
+        "블록으로 퍼지며 $(l:base_concepts/pressure)압력이 분산되는 방식/$과도 비슷합니다:"
+        "$(li)열은 더 뜨거운 물체에서 더 차가운 물체로 이동합니다.$(li)블록은 열 시스템을 "
+        "지원하는 인접 블록에만 열을 전달합니다("
+        "$(l:base_concepts/heat_sources)열원/$ 참조)."
+    ),
+    ("entries/base_concepts/heat.json", 2): (
+        "$(li)온도 차이가 클수록 열이 더 빨리 이동합니다.$(li)물체마다 "
+        "$(thing)열저항/$이 다릅니다. $(item)횃불/$과 $(item)공기/$는 열저항이 높고, "
+        "$(l:base_concepts/basic_materials#compressed_iron_block)압축 철 블록/$은 매우 "
+        "낮습니다. $(thing)열저항/$은 물체 사이에서 열이 이동하는 속도를 결정합니다."
+    ),
+    ("entries/base_concepts/heat.json", 3): (
+        "$(li)물체마다 $(thing)열용량/$도 다릅니다. 열용량이 높을수록 같은 양의 열을 "
+        "받아도 온도가 천천히 오르고, 같은 양의 열을 잃어도 천천히 내려갑니다. 즉, "
+        "열용량이 큰 블록은 $(thing)온도/$를 높이는 데 더 많은 $(thing)열/$이 필요하지만 "
+        "열을 잃을 때도 온도가 더 천천히 떨어집니다."
+    ),
+    ("entries/base_concepts/heat.json", 4): "단열",
+    ("entries/base_concepts/heat.json", 5): (
+        "기계의 면이 공기에 노출되면 열을 잃습니다. 노출 면이 많은 "
+        "$(l:manufacturing/refinery)정유기/$에서 특히 두드러지지만, "
+        "$(l:base_concepts/basic_materials#compressed_iron_block)압축 철 블록/$을 포함한 "
+        "모든 열전도 블록에 적용됩니다.$(p)열 손실을 막으려면 어느 면도 공기 블록에 "
+        "노출되지 않게 하세요. 열이 통하지 않는 블록이면 충분하며 완전한 블록일 필요도 "
+        "없습니다. $(item)다락문/$이나 $(item)반 블록/$도 효과가 있습니다."
+    ),
+    ("entries/base_concepts/heat.json", 6): "열원",
+    ("entries/base_concepts/heat.json", 7): (
+        "$(pncr)의 일부 기계는 방출해야 할 열을 만들고, 일부 기계는 작동하는 데 열이 "
+        "필요합니다.$(p)따라서 기계의 온도를 조절할 "
+        "$(l:base_concepts/heat_sources)방법/$을 마련해야 합니다."
+    ),
+    ("entries/tubes/pressure_tubes.json", 1): (
+        "압력 튜브는 $(pncr)에서 압축기와 기계 사이로 압축 공기를 운반하는 기본 "
+        "장치입니다.$(p)연결되지 않은 튜브에서는 공기가 샙니다! 다만 "
+        "$(l:tools/pneumatic_wrench)공압 렌치/$로 우클릭하면 튜브의 각 면을 열거나 닫을 "
+        "수 있습니다. 다른 모드의 렌치도 작동할 수 있습니다."
+    ),
+    ("entries/tubes/pressure_tubes.json", 2): "튜브!",
+    ("entries/tubes/pressure_tubes.json", 3): (
+        "$(italic)압력 튜브 두 개와 $(l:tubes/pressure_gauge_module)압력계/$ "
+        "$(italic)로 $(l:compressors/air_compressor)공기 압축기/$ "
+        "$(italic)및 $(l:machines/air_cannon)에어 캐논/$을 연결한 모습"
+    ),
+    ("entries/tubes/pressure_tubes.json", 4): (
+        "압력 튜브에는 여러 기능을 추가하는 부착물인 "
+        "$(l:tubes/tube_modules)튜브 모듈/$을 설치할 수 있습니다. 자세한 내용은 각 "
+        "모듈 페이지를 확인하세요.$(p)압력 튜브는 "
+        "$(l:tools/camo_applicator)위장 도포기/$로 숨길 수 있습니다."
+    ),
+    ("entries/tubes/pressure_tubes.json", 5): (
+        "튜브에는 세 $(l:base_concepts/pressure_tiers)등급/$이 있습니다:$(br)"
+        "$(li)1등급 튜브: 최대 5bar, 공기 용량 1000mL$(li)1.5등급(강화) 튜브: 최대 "
+        "10bar, 공기 용량 1000mL$(li)2등급(고급) 튜브: 최대 20bar, 공기 용량 4000mL"
+    ),
+    ("entries/base_concepts/heat_sources.json", 1): (
+        "$(thing)정적 열원/$은 인접한 기계에 열을 공급하거나 기계에서 열을 빼앗는 블록과 "
+        "유체입니다. 열이 너무 많이 드나들면 다른 블록이나 유체로 변할 수 있습니다. "
+        "열의 출입량은 해당 블록 외부에 별도로 기록되므로 블록을 부쉈다가 다시 놓아 "
+        "누적된 열을 초기화할 수는 없습니다."
+    ),
+    ("entries/base_concepts/heat_sources.json", 2): "바닐라 열원",
+    ("entries/base_concepts/heat_sources.json", 3): (
+        "다음 바닐라 블록과 유체가 정적 열원으로 작동합니다:$(li)공기$(li)얼음/꽁꽁 언 "
+        "얼음/푸른얼음$(li)눈$(li)횃불$(li)불(꺼질 수 있음)$(li)마그마(네더랙으로 "
+        "식음)$(li)물(얼거나 증발할 수 있음)$(li)용암(흑요석으로 식음)$(li)모닥불(꺼질 "
+        "수 있음)"
+    ),
+    ("entries/base_concepts/heat_sources.json", 4): "모드 열원",
+    ("entries/base_concepts/heat_sources.json", 5): (
+        "다른 모드의 여러 블록도 서로 다른 특성의 정적 열원으로 작동합니다:$(li)IC2 "
+        "증기와 과열 증기$(li)IC2 냉각수와 고온 냉각수$(li)IC2 및 Immersive Engineering "
+        "우라늄 블록$(li)Quark 블레이즈 랜턴$(li)Quark 유황과 영구동토$(li)Natura 열 "
+        "모래$(li)모드가 추가한 모든 유체에는 해당 모드가 정한 온도 특성이 있습니다."
+    ),
+    ("entries/base_concepts/heat_sources.json", 6): "사용자 지정 열원 추가",
+    ("entries/base_concepts/heat_sources.json", 7): (
+        "(모드팩 제작자용) 모든 블록의 열 특성은 데이터 팩에 정의됩니다. "
+        "$(thing)data/<mod-id>/pneumaticcraft/block_heat_properties/$에 JSON 파일을 "
+        "추가하여 새 정의를 만들거나 기본 정의를 덮어쓰거나 제거할 수 있습니다."
+    ),
+    ("entries/base_concepts/heat_sources.json", 8): (
+        "$(l:machines/vortex_tube)볼텍스 튜브/$는 "
+        "$(l:base_concepts/pressure)압력/$을 열과 냉기로 직접 바꾸는 $(thing)동적 "
+        "열원/$입니다. 효율을 높이려면 사용하지 않는 면에 "
+        "$(l:machines/heat_sink)방열판/$을 설치하는 것이 좋습니다."
+    ),
+    ("entries/base_concepts/heat_sources.json", 9): (
+        "$(l:semiblocks/heat_frame)열 프레임/$은 인벤토리의 아이템을 가열하거나 얼리는 "
+        "가젯입니다. 열 프레임은 $(thing)정적 열원/$에서 열을 직접 흡수하지 않으므로, "
+        "옆에 $(l:machines/heat_pipe)열 파이프/$를 놓아 열을 전달할 수 있습니다."
+    ),
+    ("entries/base_concepts/heat_sources.json", 10): (
+        "$(l:machines/heat_sink)방열판/$은 부착한 블록의 열이나 냉기를 대기로 효율적으로 "
+        "방출하는 블록입니다."
+    ),
+    ("entries/base_concepts/heat_sources.json", 11): (
+        "$(l:machines/heat_pipe)열 파이프/$는 압축 철로 만든 단열 코어로, 인접한 공기나 "
+        "유체 블록과 열을 주고받지 않고 블록 사이로 열을 전달합니다. "
+        "$(item)압축 철 블록/$으로 열을 전달하는 것보다 작고 저렴합니다. 열 파이프에 "
+        "$(item)방열판/$을 직접 부착할 수도 있습니다."
+    ),
+    ("entries/base_concepts/heat_sources.json", 12): (
+        "바닐라 $(item)화로/$를 $(l:machines/vortex_tube)볼텍스 튜브/$나 열을 만드는 "
+        "$(l:compressors/advanced_air_compressor)고급 공기 압축기/$ 같은 동적 열원에 "
+        "연결하면 화로가 열을 연료처럼 소비합니다. 고체 연료 없이 열만으로 화로를 "
+        "작동할 수 있어 편리하고 효율적입니다."
+    ),
+    ("entries/base_concepts/heat_sources.json", 13): "화로(계속)",
+    ("entries/base_concepts/heat_sources.json", 14): (
+        "화로는 100°C부터 열로 작동하며 온도가 높을수록 빨라집니다. 화로 주변에 열원을 "
+        "여러 개 놓으면 가열 효과가 커집니다.$(p)이 효과는 바닐라 $(item)용광로/$와 "
+        "$(item)훈연기/$에도 적용됩니다."
+    ),
+    ("entries/programming/area.json", 0): "영역 위젯",
+    ("entries/programming/area.json", 1): (
+        "$(thing)영역/$ 위젯은 다른 위젯의 매개변수로만 사용하며, 해당 위젯이 작동할 "
+        "영역(블록 하나일 수도 있음)을 지정합니다. 이 위젯을 사용하려면 "
+        "$(l:tools/gps_tool)GPS 도구/$나 $(l:tools/gps_area_tool)GPS 영역 도구/$가 "
+        "필요합니다.$(p)영역 위젯은 주로 다음 세 가지 방법으로 설정합니다:"
+    ),
+    ("entries/programming/area.json", 2): (
+        "1. $(l:programming/programmer)프로그래머/$ GUI에서 영역 위젯을 "
+        "$(thing)우클릭/$해 설정 GUI를 여세요. 두 $(thing)GPS/$ 버튼을 눌러 인벤토리의 "
+        "$(l:tools/gps_tool)GPS 도구/$를 선택하고 영역의 두 끝점을 지정한 뒤, 아래의 "
+        "선택 버튼으로 $(thing)영역 형태/$와 관련 매개변수를 정합니다."
+    ),
+    ("entries/programming/area.json", 3): (
+        "2. 월드에서 $(l:tools/gps_tool)GPS 도구/$나 $(l:tools/gps_area_tool)GPS 영역 "
+        "도구/$를 설정하세요. $(l:programming/programmer)프로그래머/$ GUI에서는 다음과 "
+        "같이 사용할 수 있습니다:$(li)기존 $(thing)영역/$ 위젯에 $(item)GPS (영역) "
+        "도구/$를 들고 $(thing)좌클릭/$하여 도구 설정을 위젯에 복사$(li)빈 프로그래밍 "
+        "영역에 $(item)GPS 도구/$를 들고 $(thing)좌클릭/$하여 새 "
+        "$(l:programming/coordinate)좌표/$ 위젯 생성$(li)빈 프로그래밍 영역에 "
+        "$(item)GPS 도구/$를 들고 $(thing)Shift+좌클릭/$하여 새 $(thing)영역/$ 위젯 "
+        "생성$(li)빈 프로그래밍 영역에 $(item)GPS 영역 도구/$를 들고 "
+        "$(thing)Shift+좌클릭/$하여 새 $(thing)영역/$ 위젯 생성"
+    ),
+    ("entries/programming/area.json", 4): (
+        "3. 고급 방법으로 $(l:programming/coordinate_operator)좌표 연산자/$ 위젯이 만든 "
+        "$(thing)변수/$를 사용할 수 있습니다. 변수를 쓰려면 "
+        "$(l:programming/programmer)프로그래머/$가 $(thing)고급/$ 모드여야 합니다. GPS "
+        "버튼 옆의 드롭다운에서 알려진 변수 이름을 고르면 그 변수의 위치를 해당 영역 "
+        "모서리로 사용합니다."
+    ),
+    ("entries/programming/area.json", 5): "$(italic)영역 위젯/$",
+    ("entries/programming/conditions.json", 0): "조건",
+    ("entries/programming/conditions.json", 1): (
+        "$(thing)조건/$ 위젯은 어떤 상태를 검사하고, 검사에 성공하면 프로그램의 다른 "
+        "부분으로 이동하게 합니다.$(p)모든 $(thing)조건/$ 위젯은 가장 아래쪽 매개변수로 "
+        "$(thing)레이블 이름/$을 지정한 $(l:programming/text)텍스트/$ 위젯을 받습니다."
+    ),
+    ("entries/programming/conditions.json", 2): (
+        "조건이 $(thing)참/$이면 $(l:programming/flow_control)프로그램 실행/$이 "
+        "$(italic)오른쪽/$의 "
+        "$(thing)텍스트/$ 매개변수와 같은 이름인 $(l:programming/label)레이블/$ 위젯으로 "
+        "이동합니다. 조건이 $(thing)거짓/$이면 $(italic)왼쪽/$의 $(thing)텍스트/$ "
+        "매개변수와 같은 이름인 $(thing)레이블/$로 이동합니다.$(p)$(thing)조건/$ 위젯이 "
+        "유효한 $(thing)텍스트/$ 매개변수를 찾지 못하면 "
+        "$(italic)아래쪽/$의 다음 위젯으로 계속 진행합니다."
+    ),
+    ("entries/programming/conditions.json", 3): (
+        "$(italic)레드스톤 신호가 10 이상이면 드론을 자폭시키는 레드스톤 조건 위젯/$"
+    ),
+    ("entries/programming/conditions.json", 4): (
+        "대부분의 $(thing)조건/$ 위젯은 $(thing)우클릭/$해 설정 GUI를 열 수 있습니다. "
+        "GUI에는 보통 '='와 '>=' 선택 항목과 숫자 입력란이 있습니다.$(p)이 설정으로 상자 "
+        "속 아이템 수 같은 값을 정확히 10개('=' 및 10), 20개 초과('>=' 및 21), 12개 "
+        "미만('>=' 및 12로 검사하되 조건이 $(thing)거짓/$인 분기)인지 검사할 수 있습니다."
+    ),
+    ("entries/programming/conditions.json", 5): "측정",
+    ("entries/programming/conditions.json", 6): (
+        "$(l:programming/condition_item)조건: 아이템 필터/$를 제외한 모든 $(thing)조건/$ "
+        "위젯 GUI에는 $(thing)측정/$ 입력란이 있습니다. 여기에 "
+        "$(l:programming/variables)변수/$ 이름을 입력하면 드론이 측정한 값을 변수의 X에 "
+        "저장합니다.$(p)이 값은 다른 변수처럼 사용할 수 있습니다. 예를 들어 유체 탱크의 "
+        "양을 측정해 표지판에 표시할 수 있습니다."
+    ),
+    ("entries/programming/conditions.json", 7): "측정(계속)",
+    ("entries/programming/conditions.json", 8): (
+        "측정 변수 이름을 입력하면 조건 위젯에 분기용 텍스트 위젯이 없어도 오류가 "
+        "아닙니다(보통은 분기가 하나 이상 필요함). 따라서 조건 위젯을 수량 측정에만 "
+        "사용하고 실행은 평소처럼 아래로 계속 진행할 수 있습니다.$(p)참고: 압력 측정 "
+        "조건은 값을 밀리바 단위로 저장합니다(예: 5.5bar는 5500)."
+    ),
+    ("entries/programming/conditions.json", 9): "조건 유형",
+    ("entries/programming/conditions.json", 10): (
+        "조건은 $(thing)월드 조건/$과 $(thing)드론 조건/$으로 나뉩니다.$(p)월드 조건은 "
+        "$(item)상자/$에 특정 수량의 아이템이 있는지, 어느 위치에 블록이 있는지처럼 "
+        "월드의 상태를 "
+        "검사합니다.$(p)$(thing)드론 조건/$은 드론이 특정 아이템이나 압력을 가지고 "
+        "있는지처럼 $(l:tools/drone)드론/$ 자체를 검사합니다."
+    ),
+    ("entries/programming/conditions.json", 12): "월드 조건",
+    ("entries/programming/conditions.json", 13): "드론 조건",
+    ("entries/programming/edit_sign.json", 0): "표지판 편집 위젯",
+    ("entries/programming/edit_sign.json", 1): (
+        "연결된 $(l:programming/area)영역/$ 안의 모든 $(item)표지판/$과 "
+        "$(l:machines/aphorism_tile)격언 타일/$을 연결된 "
+        "$(l:programming/text)텍스트/$ 위젯의 내용으로 바꿉니다.$(p)연결된 "
+        "$(thing)텍스트/$ 위젯 하나가 한 줄을 나타내며, 여러 "
+        "$(thing)텍스트/$ 위젯을 연결하면 여러 줄의 "
+        "문구를 설정할 수 있습니다."
+    ),
+    ("entries/programming/edit_sign.json", 2): "변수",
+    ("entries/programming/edit_sign.json", 3): (
+        "텍스트에 $(thing)${<var_name>}/$을 넣어 $(l:programming/variables)변수/$의 값을 "
+        "표시할 수도 있습니다. 예를 들어$(p)$(formula)Counter: ${counter}/$$(p)는 "
+        "$(thing)counter/$ 변수가 $(thing)x=1,y=2,z=3/$일 때 "
+        "$(thing)Counter: 1, 2, 3/$으로 표시됩니다. "
+        "$(l:programming/variables#special)특수/$ 변수와 "
+        "$(l:programming/variables#global)전역 변수/$도 사용할 수 있습니다."
+    ),
+    ("entries/programming/edit_sign.json", 4): "$(italic)표지판 편집 위젯/$",
+    ("entries/programming/drop_item.json", 0): "아이템 버리기 위젯",
+    ("entries/programming/drop_item.json", 1): (
+        "$(l:tools/drone)드론/$이 인벤토리의 아이템을 연결된 "
+        "$(l:programming/area)영역/$에 버립니다. $(thing)아이템 버리기/$ 위젯을 "
+        "$(thing)우클릭/$하면 영역의 각 위치에 버릴 아이템 수를 정할 수 있습니다. "
+        "$(thing)무작위/$ 모드는 바닐라 $(item)드로퍼/$처럼 작은 무작위 편차를 두고 "
+        "아이템을 버리며, $(thing)직선/$ 모드는 아이템을 곧바로 아래에 버립니다."
+    ),
+    ("entries/programming/drop_item.json", 2): (
+        "$(l:programming/item_filter)아이템 필터/$를 연결하면 필터가 허용한 아이템만 "
+        "버립니다.$(p)해당하는 아이템이 $(item)드론/$ 인벤토리에 하나도 남지 않거나 "
+        "$(item)드론/$이 영역의 모든 위치를 방문하면 위젯 실행이 끝납니다."
+    ),
+    ("entries/programming/drop_item.json", 3): "$(italic)아이템 버리기 위젯/$",
+    ("entries/tools/pneumatic_wrench.json", 0): "공압 렌치",
+    ("entries/tools/pneumatic_wrench.json", 1): (
+        "공압 렌치는 $(pncr)의 $(thing)렌치/$입니다. 다음 작업에 사용할 수 있습니다:"
+        "$(p)$(li)바닐라 및 모드 블록을 $(thing)우클릭/$해 회전$(li)$(pncr) 기계를 "
+        "$(thing)몸을 숙인 채 우클릭/$해 저장된 업그레이드와 공기를 보존한 아이템으로 "
+        "회수"
+    ),
+    ("entries/tools/pneumatic_wrench.json", 2): (
+        "$(li)$(l:base_concepts/drones)드론/$을 $(thing)우클릭/$해 아이템으로 회수"
+        "$(li)$(l:tubes/pressure_tubes)압력 튜브/$를 $(thing)우클릭/$해 각 면을 닫거나 "
+        "다시 열어 서로 분리$(p)$(item)공압 렌치/$를 사용하려면 먼저 "
+        "$(l:machines/charging_station)충전소/$에서 가압해야 합니다."
+    ),
+    ("entries/tools/minigun_ammo.json", 0): "미니건 탄약",
+    ("entries/tools/minigun_ammo.json", 1): (
+        "총기 탄약은 $(l:tools/minigun)미니건/$에서 사용합니다.$(p)탄약 종류에 따라 탄창 "
+        "하나에 최대 2000발이 들어갑니다. $(item)미니건/$을 발사하는 동안 탄약이 "
+        "계속 소모되며, "
+        "남은 탄약은 아이템 툴팁과 내구도 막대, 미니건을 장착했을 때 화면 중앙 조준경 "
+        "옆의 HUD에서 확인할 수 있습니다."
+    ),
+    ("entries/tools/minigun_ammo.json", 2): (
+        "탄약은 $(item)미니건/$의 탄창에 넣어야 하며 플레이어 인벤토리에서는 자동으로 "
+        "소모되지 않습니다. $(item)미니건/$을 $(thing)몸을 숙인 채 우클릭/$해 탄약을 "
+        "장전하세요.$(p)탄약은 1~4번 슬롯 순서로 소모됩니다. 슬롯을 $(thing)가운데 "
+        "클릭/$해 잠그면 $(item)미니건/$이 그 슬롯의 탄약만 사용하므로 여러 탄약을 "
+        "장전했을 때 유용합니다. 잠긴 슬롯을 다시 $(thing)가운데 클릭/$하면 잠금이 "
+        "풀립니다."
+    ),
+    ("entries/tools/minigun_ammo.json", 3): (
+        "일반 $(item)총기 탄약/$은 별도 효과가 없지만 2000발이 들어가는 큰 탄창을 "
+        "사용합니다.$(p)또한 $(l:tools/minigun_ammo#potions)물약/$과 조합해 효과를 "
+        "부여할 수 있는 유일한 탄약입니다."
+    ),
+    ("entries/tools/minigun_ammo.json", 4): (
+        "$(item)소이 미니건 탄약/$은 1000발이 들어가며 맞은 개체에 불을 붙입니다.$(p)"
+        "블록에도 불이 붙을 수 있으니 주의하세요!"
+    ),
+    ("entries/tools/minigun_ammo.json", 5): (
+        "$(item)중량 미니건 탄약/$은 500발이 들어가고 피해량이 매우 높지만, 무거워서 "
+        "사거리가 일반 탄약의 20%뿐입니다."
+    ),
+    ("entries/tools/minigun_ammo.json", 6): (
+        "$(item)방어구 관통 미니건 탄약/$은 500발이 들어갑니다. 제작 비용이 비싸지만 "
+        "일반 탄약보다 피해량이 조금 높고 대상의 방어구를 관통할 수 있습니다."
+    ),
+    ("entries/tools/minigun_ammo.json", 8): (
+        "$(item)빙결 미니건 탄약/$은 1000발이 들어갑니다. 맞은 대상을 느리게 만들고 "
+        "피해를 주는 빙결 구름으로 감쌀 수 있지만, 이 구름은 자신에게도 피해를 줄 수 "
+        "있습니다.$(p)불에 내성이 있는 대상에게 추가 피해를 주므로 $(#800)네더/$에서 "
+        "싸울 때 매우 효과적입니다."
+    ),
+    ("entries/tools/minigun_ammo.json", 9): "물약이 묻은 탄약",
+    ("entries/tools/minigun_ammo.json", 10): (
+        "일반 미니건 탄약을 아무 $(item)물약/$과 조합할 수 있습니다. 이렇게 만든 탄약은 "
+        "물리 피해를 주지 않는 대신 대상에게 물약 효과를 적용할 수 있습니다.$(p)"
+        "$(thing)투척용/$ 및 $(thing)잔류형/$ 물약도 사용할 수 있으며 예상대로 범위 효과가 "
+        "발생합니다. 다만 투척용 물약 탄약은 3배, 잔류형 물약 탄약은 6배 빠르게 "
+        "소모됩니다!"
+    ),
     ("entries/base_concepts/pressure_tiers.json", 0): "압력 등급",
     ("entries/base_concepts/pressure_tiers.json", 1): (
         "$(pncr)의 공압 기계에는 현재 세 가지 $(thing)등급/$이 있습니다:$(li)"
@@ -739,9 +1054,980 @@ LOCATION_OVERRIDES = {
         "작업을 실행해야 합니다. Lua 프로그램은 별도 스레드에서 실행되어 월드와 직접 "
         "상호작용하지 못하므로 드론에 다음 작업을 지시하고 완료 여부를 확인해야 합니다."
     ),
+    ("entries/programming/void_item.json", 1): (
+        "드론 인벤토리의 아이템을 즉시 영구적으로 파괴하므로 주의하세요! "
+        "$(l:programming/item_filter)아이템 필터/$와 함께 사용하는 것을 강력히 권장합니다. "
+        "필터를 사용하면 필터에서 허용한 아이템만 제거합니다.$(p)"
+        "$(item)드론/$ 인벤토리에 대상 아이템이 하나도 남지 않으면 위젯 실행이 끝납니다."
+    ),
+    ("entries/programming/void_liquid.json", 1): (
+        "$(l:programming/void_item)아이템 제거 위젯/$과 마찬가지로 드론 탱크의 유체를 "
+        "즉시 영구적으로 제거하므로 주의하세요! "
+        "$(l:programming/liquid_filter)유체 필터/$와 함께 사용하는 것을 강력히 권장합니다. "
+        "필터를 사용하면 필터에서 허용한 유체만 제거합니다."
+    ),
+    ("entries/tubes/tube_junction.json", 1): (
+        "$(thing)튜브 접합부/$는 두 $(l:tubes/pressure_tubes)압력 튜브/$를 서로 연결하지 "
+        "않고 교차시키는 간단한 장치입니다. 튜브의 "
+        "$(l:base_concepts/pressure_tiers)압력 등급/$은 달라도 됩니다."
+    ),
+    ("entries/machines/pneumatic_dynamo.json", 1): (
+        "$(item)공압 다이너모/$는 $(l:base_concepts/pressure)압축 공기/$를 "
+        "$(thing)Forge Energy/$로 변환하며, $(thing)Redstone Flux/$와 다른 모드의 에너지 "
+        "시스템과 호환됩니다. 기본 생산량은 40FE/틱이며 "
+        "$(l:base_concepts/upgrades#speed)속도 업그레이드/$로 늘릴 수 있습니다. "
+        "$(item)자속 압축기/$의 FE 출력 한도는 현재 FE 생산량의 두 배이므로, 기본값은 "
+        "80FE/틱이며 속도 업그레이드로 증가합니다."
+    ),
+    ("entries/machines/pneumatic_generator.json", 1): (
+        "공압 발전기는 $(l:base_concepts/pressure)압축 공기/$로 "
+        "$(thing)IndustrialCraft 2 EU/$를 생산합니다. 최소 작동 압력이 15bar인 "
+        "2등급 기계입니다. 기본 효율은 40%이며 "
+        "$(ttcolor)$(t:'I:pneumaticGeneratorEfficiency' 참조)설정에서 변경/$할 수 있습니다."
+        "$(p)$(l:base_concepts/upgrades#speed)속도 업그레이드/$가 없으면 32EU/틱, 하나를 "
+        "설치하면 128EU/틱, 두 개를 설치하면 512EU/틱을 출력합니다."
+    ),
+    ("entries/machines/pneumatic_generator.json", 2): (
+        "공기 소모량(mL/틱)은 다음과 같습니다:$(p)$(formula)출력 속도 / E × 400/$"
+        "$(p)여기서 $(formula)E/$는 효율(%)입니다. 예를 들어 기본 효율 40%, 출력 속도 "
+        "32EU/틱이면 공기 소모량은 $(formula)32 / 40 × 400 = 320mL/틱/$입니다."
+    ),
+    ("entries/machines/liquid_hopper.json", 2): (
+        "$(item)유체 호퍼/$는 $(9)입력/$ 면 앞의 바닥에 떨어진 아이템에서 유체를 "
+        "빼내고, $(6)출력/$ 면 앞의 아이템에는 유체를 넣으려고 합니다. 물 양동이, "
+        "용암 양동이, 다른 모드의 유체 용기 등이 대상입니다."
+    ),
+    ("entries/machines/liquid_hopper.json", 4): (
+        "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 $(item)유체 호퍼/$에 "
+        "설치하면 $(9)입력/$ 면의 유체 블록 1000mB를 빨아들이고, 저장한 유체 1000mB를 "
+        "$(6)출력/$ 면에 배치합니다. 예를 들어 물 펌프로 사용할 수 있습니다."
+    ),
+    ("entries/machines/heat_sink.json", 1): (
+        "$(item)방열판/$은 $(l:base_concepts/heat)열/$을 방출하는 블록입니다.$(p)"
+        "60°C보다 뜨겁거나 -60°C보다 차가운 $(item)방열판/$에 닿으면 피해를 받으니 "
+        "주의하세요!$(p)$(item)방열판/$은 직접 연결된 블록의 열만 방출합니다. 여러 "
+        "$(item)방열판/$을 연결하려면 $(l:machines/heat_pipe)열 파이프/$로 부착할 면을 "
+        "늘리세요."
+    ),
+    ("entries/machines/heat_sink.json", 3): "능동 냉각",
+    ("entries/machines/heat_sink.json", 4): (
+        "$(item)방열판/$을 $(l:tubes/air_grate_module#active_cooling)에어 그레이트 모듈/$ "
+        "범위 안에 두면 방열 효과가 커집니다. 모듈을 "
+        "$(l:tubes/pressure_tubes)압력 튜브/$에 부착하면 범위가 표시됩니다. 여러 에어 "
+        "그레이트 모듈의 냉각 효과는 중첩됩니다."
+    ),
+    ("entries/compressors/electrostatic_compressor.json", 1): (
+        "$(item)정전기 압축기/$는 $(thing)번개/$ 에너지로 압축 공기를 생산하는 "
+        "$(l:base_concepts/pressure_tiers)2등급/$ 공기 "
+        "$(l:base_concepts/pressure)압축기/$입니다.$(p)번개가 치면 즉시 공기 200,000mL를 "
+        "생산합니다. 많은 양이지만 대전된 크리퍼가 알아서 자주 찾아오지는 않으니, "
+        "압축기에 번개가 치도록 해야 합니다."
+    ),
+    ("entries/compressors/electrostatic_compressor.json", 3): (
+        "왼쪽 그림에서 최대 효율을 낼 만큼 큰 격자에 둘러싸인 것은 중앙 압축기뿐입니다. "
+        "다른 압축기는 번개를 일으킬 확률이 더 낮습니다. 그래도 격자 중앙에 압축기 하나만 "
+        "두는 것보다는 효과적입니다."
+    ),
+    ("entries/compressors/electrostatic_compressor.json", 4): (
+        "하나의 $(thing)격자/$에 $(item)정전기 압축기/$를 여러 대 연결하면 번개로 생산한 "
+        "공기가 압축기마다 똑같이 나뉩니다.$(p)번개가 친 뒤 압력이 너무 높아져 압축기가 "
+        "폭발하지 않도록 압축기 아래쪽에 $(item)철창/$을 연결할 수 있습니다. 그러면 "
+        "에너지가 기계로 들어가지 않고 땅으로 방출됩니다."
+    ),
+    ("entries/compressors/electrostatic_compressor.json", 5): (
+        "이 방출은 압축기가 위험 압력에 도달했을 때만 일어납니다. 압축기 $(italic)바로/$ "
+        "아래의 같은 Y축에 있는 $(item)철창/$ 하나마다 초과 공기를 최대 10,000mL까지 "
+        "방출합니다.$(p)따라서 압축기 10대를 하나의 $(thing)격자/$에 연결했다면 "
+        "$(ttcolor)$(t:압축기당 생산 공기 200000 / 10 = 20000, 철창 2개의 방출량 "
+        "10000 × 2 = 20000)압축기마다 아래에 격자 블록 2개/$만 있으면 됩니다. "
+        "($(l:base_concepts/upgrades#security)보안 업그레이드/$를 설치할 수도 있지만 더 "
+        "비싸고 효과는 낮습니다.)"
+    ),
+    ("entries/compressors/electrostatic_compressor.json", 7): (
+        "$(bold)참고:/$ 이전 버전의 $(pncr)와 달리 자연 번개는 압축기에 공기를 "
+        "$(italic)추가하지 않습니다/$. 다른 모드로 번개를 만들어 악용할 수 있었기 "
+        "때문입니다. 대신 압축기가 일정 확률로 ‘가짜’ 번개를 만듭니다. 맑은 날에는 이 "
+        "확률이 $(italic)매우/$ 낮지만 $(thing)비/$가 오면 높아지고, "
+        "$(thing)뇌우/$가 치면 크게 높아집니다."
+    ),
+    ("entries/base_concepts/memory_essence.json", 1): (
+        "$(item)기억의 정수/$는 플레이어의 기억과 경험을 액체로 나타낸 유체입니다. "
+        "추출해 저장했다가 바닐라 마법 부여나 일부 $(pncr) 제작 과정에 사용할 수 있습니다."
+        "$(p)$(item)기억의 정수/$를 얻는 방법은 두 가지입니다:$(li)1. "
+        "$(l:tools/memory_stick)메모리 스틱/$ 사용$(li)2. "
+        "$(l:machines/aerial_interface)공중 인터페이스/$ 사용"
+    ),
+    ("entries/semiblocks/transfer_gadget.json", 3): (
+        "빈손이나 $(l:tools/logistics_configurator)물류 설정기/$로 $(item)전송 도구/$를 "
+        "$(thing)우클릭/$하면 입력/출력 모드를 전환합니다. $(thing)Shift+우클릭/$하거나 "
+        "좌클릭해서 때리면 $(item)전송 도구/$를 제거합니다.$(p)속도가 느리고 제작법이 "
+        "저렴하므로 공간이 부족한 게임 초반의 아이템·유체 운반에 적합합니다."
+    ),
+    ("entries/semiblocks/heat_frame.json", 1): (
+        "이 아이템은 모든 $(thing)인벤토리/$에 설치할 수 있습니다. 인접한 "
+        "$(l:base_concepts/heat)열원/$으로 가열하면 인벤토리의 아이템을 제련하고, 냉각하면 "
+        "얼리려고 합니다. 결과 아이템을 넣을 공간이 있어야 작동합니다. 더 많이 가열할수록 "
+        "제련 속도가 빨라져 최대 초당 아이템 1개를 처리하며, 더 많이 냉각할수록 아이템을 "
+        "얼리는 속도가 빨라집니다."
+    ),
+    ("entries/semiblocks/heat_frame.json", 3): (
+        "$(thing)열 프레임/$은 냉각 제작법에 "
+        "$(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$를 지원합니다. "
+        "제련에는 일반 $(item)화로/$ 제작법을 사용합니다. 냉각 제작법은 추가하거나 제거할 "
+        "수 있으며, 자세한 내용은 아래 링크를 확인하세요."
+    ),
+    ("entries/programming/block_right_click.json", 2): (
+        "이 위젯은 프로그래머의 위젯 GUI에서 다음 두 모드 중 하나를 선택해 작동합니다:"
+        "$(li)아이템 모드 - $(thing)든 아이템/$의 우클릭 동작을 사용합니다. 예: 블록에 "
+        "$(item)부싯돌과 부시/$ 사용$(li)블록 모드 - $(thing)블록/$의 우클릭 동작을 "
+        "활성화합니다. 예: $(item)레버/$ 전환$(p)$(thing)아이템 모드/$에서는 연결된 "
+        "필터가 사용하는 $(italic)아이템/$에 적용되고, $(thing)블록 모드/$에서는 활성화할 "
+        "$(italic)블록/$에 적용됩니다."
+    ),
+    ("entries/programming/programmable_controller.json", 1): (
+        "프로그래밍 가능 제어기는 $(l:tools/drone)드론/$과 매우 비슷한 작업을 수행할 수 "
+        "있습니다. $(l:programming/programmer)프로그래머/$에서 프로그램을 작성해 "
+        "$(item)드론/$이나 $(l:components/network_components#network_api)네트워크 API/$에 "
+        "저장한 뒤 $(item)프로그래밍 가능 제어기/$에 넣으세요. "
+        "$(l:base_concepts/pressure)압력/$이 충분하면 $(item)프로그래밍 가능 제어기/$는 "
+        "$(item)드론/$에 프로그램했을 때와 똑같이 프로그램을 실행합니다. "
+    ),
+    ("entries/programming/programmable_controller.json", 3): (
+        "$(li)$(item)프로그래밍 가능 제어기/$는 다음 위젯을 실행할 수 없습니다: 컴퓨터 "
+        "조각, 개체 공격, 드론 조건: 개체, 개체 내보내기, 개체 가져오기, 순간이동, 대기, "
+        "자폭.$(p)$(item)프로그래밍 가능 제어기/$는 넓은 영역 굴착이나 대형 구조물 건설 "
+        "같은 대규모 작업에 특히 적합합니다."
+    ),
+    ("entries/programming/programmable_controller.json", 4): "아이템·유체 연결",
+    ("entries/programming/programmable_controller.json", 5): (
+        "$(thing)미니드론/$이 수집한 아이템과 유체는 $(item)프로그래밍 가능 제어기/$ "
+        "블록의 측면을 통해 넣거나 뺄 수 있습니다.$(p)기본 ‘드론’에는 인벤토리 슬롯 1개와 "
+        "16000mB 탱크가 있습니다. $(l:base_concepts/upgrades#inventory)인벤토리 "
+        "업그레이드/$를 최대 35개까지 추가해 인벤토리를 늘릴 수 있으며, 업그레이드마다 "
+        "탱크 용량도 1000mB씩 늘어납니다."
+    ),
+    ("entries/programming/programmable_controller.json", 8): "아이템 충전",
+    ("entries/programming/programmable_controller.json", 9): (
+        "프로그래밍 가능 제어기는 미니드론이 든 아이템, 즉 드론 인벤토리 0번 슬롯의 "
+        "아이템을 $(thing)충전/$할 수 있습니다. $(l:tools/jackhammer)착암기/$처럼 압축 "
+        "공기로 충전하는 아이템과 $(thing)Forge Energy/$ 아이템을 모두 지원하며, 제어기 "
+        "자체 버퍼의 공기 및 FE를 사용합니다. 충전은 기본적으로 꺼져 있으므로 제어기 GUI의 "
+        "$(thing)든 아이템 충전/$ 측면 탭에서 켜세요."
+    ),
+    ("entries/machines/smart_chest.json", 1): (
+        "$(item)스마트 상자/$는 슬롯이 72개인 상자입니다. 동생 격인 "
+        "$(l:machines/reinforced_chest)강화 상자/$처럼 흑요석 수준의 폭발 저항을 지니고, "
+        "부숴도 내용물을 보존합니다. 그 밖에도 매우 강력한 기능이 있습니다."
+    ),
+    ("entries/machines/smart_chest.json", 4): "아이템 밀어내기",
+    ("entries/machines/smart_chest.json", 5): (
+        "스마트 상자의 각 면은 아이템을 밀어내거나 끌어오거나 아무 작업도 하지 않도록 "
+        "따로 설정할 수 있습니다. 기본값은 아무 작업도 하지 않는 것입니다. GUI의 "
+        "$(thing)측면 설정/$ 탭에서 설정하세요.$(p)밀어내기로 설정한 면은 스마트 상자의 "
+        "아이템을 그 면에 인접한 인벤토리로 보냅니다. $(item)발사기 업그레이드/$를 "
+        "설치했다면 인접한 인벤토리가 없을 때 아이템을 월드에 배출합니다."
+    ),
+    ("entries/machines/smart_chest.json", 6): "아이템 끌어오기",
+    ("entries/machines/smart_chest.json", 7): (
+        "끌어오기로 설정한 면은 그 면에 인접한 인벤토리에서 아이템을 가져옵니다.$(p)"
+        "$(l:base_concepts/upgrades#magnet)자석 업그레이드/$를 설치하면 주변 바닥의 아이템도 "
+        "흡수합니다. 끌어오기로 설정한 면에서만 작동하며, 기본 수집 범위는 해당 면에 "
+        "인접한 3x3x3 정육면체입니다. $(l:base_concepts/upgrades#range)범위 업그레이드/$로 "
+        "범위를 늘릴 수 있습니다."
+    ),
+    ("entries/programming/void_item.json", 0): "아이템 폐기 위젯",
+    ("entries/programming/void_liquid.json", 0): "유체 폐기 위젯",
+    ("entries/manufacturing/assembly_system.json", 1): (
+        "상위 등급 재료를 제작하려면 여러 $(thing)조립 기계/$로 이루어진 "
+        "$(thing)조립 시스템/$이 필요합니다. 기계들은 수평으로 인접하면 서로 통신합니다. "
+        "$(item)조립 IO 유닛/$을 제외한 각 종류의 기계는 하나씩만 둘 수 있습니다. 조립 "
+        "라인은 $(l:base_concepts/pressure)압축 공기/$로 작동하지만, 전체 시스템에 동력을 "
+        "공급할 때는 조립 제어기에만 공기를 공급하면 됩니다."
+    ),
+    ("entries/manufacturing/assembly_system.json", 2): (
+        "$(thing)조립 시스템/$의 두뇌입니다. "
+        "$(l:manufacturing/assembly_programs)프로그램/$을 받아 $(item)제어기/$가 다른 "
+        "$(thing)조립 기계/$를 제어하는 방법을 정합니다.$(p)제어기 화면에는 현재 상태의 "
+        "진단 정보가 표시됩니다. GUI를 열어 작동 상태를 확인하세요."
+    ),
+    ("entries/manufacturing/assembly_system.json", 3): (
+        "$(item)IO 유닛/$은 인벤토리와 $(item)조립 플랫폼/$을 연결합니다. 이 로봇 팔은 "
+        "대각선 방향에도 닿습니다.$(p)IO 유닛은 완성품을 내보내거나 제작 재료를 가져올 수 "
+        "있습니다. 바닐라 $(item)상자/$나 모드가 추가한 인벤토리 블록을 포함해 모든 "
+        "인벤토리를 사용할 수 있습니다."
+    ),
+    ("entries/manufacturing/assembly_system.json", 5): (
+        "$(thing)조립 시스템/$에는 $(italic)두 개/$의 $(item)IO 유닛/$, 즉 입력 유닛과 "
+        "출력 유닛이 하나씩 필요합니다. $(6)주황색/$은 출력, $(9)파란색/$은 입력을 "
+        "뜻합니다. $(item)IO 유닛/$이 작동하려면 $(item)조립 플랫폼/$과, 모드에 따라 "
+        "아이템을 꺼내거나 보관할 인벤토리에 모두 닿아야 합니다."
+    ),
+    ("entries/manufacturing/assembly_system.json", 8): (
+        "$(item)조립 레이저/$는 재료를 자르거나 아이템을 나누고 모서리를 잘라 냅니다."
+        "$(p)$(item)조립 드릴/$과 마찬가지로 대각선에는 $(italic)닿지 않습니다/$."
+    ),
+    ("entries/manufacturing/assembly_system.json", 9): "사용법",
+    ("entries/manufacturing/assembly_system.json", 10): (
+        "$(thing)조립 시스템/$으로 제작하려면 $(item)조립 제어기/$에 "
+        "$(l:manufacturing/assembly_programs)조립 프로그램/$을 넣고 입력 인벤토리에 필요한 "
+        "아이템을 넣으세요.$(p)제어기와 설치한 프로그램이 아는 제작법에 맞는 아이템은 "
+        "자동으로 처리됩니다."
+    ),
+    ("entries/manufacturing/etching_tank.json", 1): (
+        "먼저 $(thing)에칭 탱크/$를 $(l:manufacturing/etching_acid)에칭 산/$으로 채우세요. "
+        "그런 다음 $(l:manufacturing/uv_light_box)UV 라이트 박스/$에서 일부 또는 전부 "
+        "노광한 $(thing)빈 PCB/$를 최대 25개 넣으세요.$(p)에칭 산을 월드에 붓고 PCB를 "
+        "그 안에 던져도 되지만, 에칭 탱크를 사용하면 훨씬 안전하고 빠릅니다."
+    ),
+    ("entries/manufacturing/etching_tank.json", 3): (
+        "$(thing)빈 PCB/$는 어느 면으로든 투입할 수 있습니다. 에칭에 성공한 "
+        "$(thing)미조립 PCB/$는 오른쪽 위 출력 슬롯으로, $(thing)불량 PCB/$는 오른쪽 "
+        "아래 슬롯으로 이동합니다. 자동으로 꺼낼 때는 미조립 PCB를 기계 옆면에서, 불량 "
+        "PCB를 위나 아래에서 꺼내세요. 불량 PCB를 $(thing)용광로/$로 보내 노광하지 않은 "
+        "빈 PCB로 되돌린 뒤 과정을 다시 시작하도록 자동화할 수도 있습니다."
+    ),
+    ("entries/manufacturing/etching_tank.json", 4): "가열",
+    ("entries/manufacturing/etching_tank.json", 5): (
+        "$(l:base_concepts/heat)열/$이 없으면 PCB 하나를 완전히 에칭하는 데 150초가 "
+        "걸립니다. 최대 25개를 동시에 에칭할 수 있습니다. 탱크를 가열하면 온도가 높을수록 "
+        "처리 시간이 짧아져 최소 30초까지 줄어듭니다. 다만 가열한 상태로 PCB를 에칭하면 "
+        "에칭 산이 조금씩 소모됩니다."
+    ),
+    ("entries/manufacturing/fluid_mixer.json", 1): (
+        "$(thing)유체 혼합기/$는 $(l:base_concepts/pressure)압력/$으로 두 유체를 혼합해 "
+        "유체 및 아이템 결과물을 만듭니다. 주로 $(l:renewables/biodiesel)바이오디젤/$을 "
+        "생산할 때 사용합니다.$(p)압력이 높을수록 더 빨리 작동하지만 공기도 더 빨리 "
+        "소모합니다."
+    ),
+    ("entries/manufacturing/refinery.json", 1): (
+        "$(item)정유기/$는 $(l:base_concepts/heat)열/$로 "
+        "$(l:base_concepts/oil)원유/$를 여러 연료로 정제하는 다중 블록 기계입니다. "
+        "100°C부터 작동하며 온도가 높을수록 빠르게 정제합니다. 생산 연료를 가벼운 "
+        "순서대로 나열하면 다음과 같습니다:$(li)$(thing)LPG(액화 석유 가스)/$"
+        "$(li)$(thing)휘발유/$$(li)$(thing)등유/$$(li)$(thing)디젤/$"
+    ),
+    ("entries/manufacturing/refinery.json", 2): (
+        "$(thing)정유기/$는 다중 블록 구조입니다. $(item)정유기 제어기/$를 놓고, 그 위나 "
+        "옆에 $(item)정유기 출력부/$를 2~4개 쌓으세요.$(p)구조의 크기에 따라 수율이 "
+        "달라집니다. 원유 10mB를 넣을 때:$(p)$(bold)출력부 2개/$"
+        "$(li)$(thing)LPG/$ 2mB$(li)$(thing)디젤/$ 4mB$(br)$(bold)출력부 3개/$"
+        "$(li)$(thing)LPG/$ 2mB$(li)$(thing)등유/$ 3mB$(li)$(thing)디젤/$ 2mB"
+    ),
+    ("entries/manufacturing/refinery.json", 3): (
+        "$(bold)출력부 4개/$$(li)$(thing)LPG/$ 2mB$(li)$(thing)휘발유/$ 3mB"
+        "$(li)$(thing)등유/$ 3mB$(li)$(thing)디젤/$ 2mB$(p)가장 가벼운 연료는 항상 "
+        "맨 위 $(item)정유기 출력부/$에, 가장 무거운 연료는 맨 아래에 들어갑니다. 기존 "
+        "구조에 $(item)정유기 출력부/$를 추가하면 작동을 계속할 수 있도록 이미 생산한 "
+        "유체를 알맞은 출력부로 자동 재배치합니다."
+    ),
+    ("entries/manufacturing/refinery.json", 6): (
+        "$(item)정유기/$에 $(item)비교기/$를 연결하면 $(item)정유기/$에 처리할 작업이 "
+        "있을 때 신호 세기 15, 없을 때 0을 출력합니다. 정제할 $(thing)원유/$가 "
+        "$(italic)있고/$ 정제 결과물을 "
+        "넣을 출력 탱크 공간도 있어야 작업이 있는 것으로 판단합니다.$(p)예를 들어 공기를 "
+        "절약하도록 $(l:machines/vortex_tube)볼텍스 튜브/$의 공기 공급을 자동으로 끌 때 "
+        "사용할 수 있습니다."
+    ),
+    ("entries/manufacturing/refinery.json", 8): (
+        "$(item)정유기/$는 여러 면이 공기에 노출된 다중 블록이라 단열하지 않으면 "
+        "$(l:base_concepts/heat)열/$을 빠르게 잃습니다. 효율을 높이려면 사용하지 않는 면을 "
+        "모두 덮는 것이 좋습니다. $(item)반 블록/$이나 $(item)다락문/$ 같은 블록을 포함해 "
+        "열이 통하지 않는 블록이면 무엇이든 사용할 수 있지만, 특히 "
+        "$(l:machines/thermal_lagging)단열재/$를 권장합니다."
+    ),
+    ("entries/manufacturing/refinery.json", 9): (
+        "$(l:machines/vortex_tube)볼텍스 튜브/$로 $(item)정유기/$를 가열하거나, "
+        "$(item)정유기/$ 블록 옆에 뜨거운 유체(용암 등)나 블록(마그마 블록 등)을 둘 수 "
+        "있습니다. 이런 유체와 블록은 열을 빼앗겨 소모되므로 해당 자원의 생산과 배치를 "
+        "자동화하는 편이 좋습니다."
+    ),
+    ("entries/manufacturing/refinery.json", 12): "정유기 제작",
+    ("entries/logistics/overview.json", 1): (
+        "$(pncr)의 $(thing)물류 시스템/$은 아이템과 유체를 운반하고 인벤토리와 탱크의 "
+        "재고를 유지하는 방법을 제공합니다.$(p)인벤토리와 탱크에 "
+        "$(l:logistics/frames)물류 프레임/$을 부착하면 해당 블록으로 아이템과 유체를 "
+        "넣고 빼는 방식을 제어할 수 있습니다."
+    ),
+    ("entries/logistics/overview.json", 2): (
+        "그 인벤토리는 $(l:logistics/logistics_drone)물류 드론/$이나, "
+        "$(l:tubes/logistics_module)물류 모듈/$을 부착한 "
+        "$(l:tubes/pressure_tubes)압력 튜브/$로 연결합니다.$(p)$(thing)물류 시스템/$은 "
+        "$(l:https://wiki.factorio.com/Logistic_network)Factorio/$에서 큰 영향을 받았습니다. "
+        "주된 차이는 별도의 물류 상자 대신 기존 인벤토리나 탱크에 부착할 "
+        "$(l:logistics/frames)프레임/$을 제공한다는 점입니다."
+    ),
+    ("entries/logistics/logistics_drone.json", 4): (
+        "$(item)물류 드론/$을 배치하면 배치 지점을 중심으로 한 33x33x33 범위 안에서 "
+        "$(l:logistics/frames)물류 프레임/$이 붙은 모든 인벤토리와 탱크를 대상으로 "
+        "작동합니다.$(p)아이템을 자주 옮기므로 이동 속도와 운반 용량을 높일 "
+        "$(l:base_concepts/upgrades#speed)속도/$ 및 "
+        "$(l:base_concepts/upgrades#inventory)인벤토리/$ 업그레이드를 권장합니다."
+    ),
+    ("entries/armor/overview.json", 1): (
+        "$(pncr)에 $(thing)아이언맨/$의 HUD를 더하면 무엇이 될까요? 바로 "
+        "$(thing)공압 방어구/$입니다!$(p)토니 스타크의 장비에서 영감을 받았다고 해서 "
+        "무적은 아닙니다. 기본 상태에서는 같은 부위의 $(thing)철 방어구/$보다 방어력과 "
+        "내구도가 조금 높을 뿐입니다. "
+    ),
+    ("entries/armor/overview.json", 3): (
+        "하지만 이 방어구는 다양하게 업그레이드할 수 있습니다. 업그레이드를 설치하고 "
+        "방어구를 가압하려면 $(l:machines/charging_station)충전소/$에 넣으세요.$(p)모든 "
+        "부위에 공통으로 적용되는 업그레이드는 다음 페이지에서, 특정 부위 전용 업그레이드는 "
+        "각 방어구 부위의 페이지에서 설명합니다."
+    ),
+    ("entries/armor/overview.json", 6): (
+        "소중한 방어구를 수리하는 방법은 여러 가지입니다:$(li)압축 철 주괴로 "
+        "$(thing)모루/$에서 수리$(li)각 부위에 $(thing)아이템 수명 업그레이드/$를 설치해 "
+        "자동 수리$(li)각 부위에 $(thing)수선/$ 마법 부여 적용"
+    ),
+    ("entries/armor/overview.json", 8): (
+        "모든 방어구 부위는 기본 회색 텍스처의 색을 자유롭게 바꿀 수 있습니다. 부위마다 "
+        "$(thing)주 색상/$과 $(thing)보조 색상/$을 따로 조절할 수 있고, 헬멧의 "
+        "$(thing)접안부/$에도 별도 색상을 지정할 수 있습니다.$(p)방어구 기본 GUI의 "
+        "$(bold)색상.../$ 화면에서 조절하세요. 기본 기능이므로 별도 업그레이드는 필요하지 "
+        "않습니다."
+    ),
+    ("entries/armor/overview.json", 9): (
+        "$(l:base_concepts/upgrades#speed)속도 업그레이드/$는 각 방어구 부위의 기동 시간을 "
+        "줄입니다. 또한 $(l:armor/pneumatic_helmet)헬멧/$의 "
+        "$(l:base_concepts/upgrades#entity_tracker)개체 추적기/$와 "
+        "$(l:base_concepts/upgrades#block_tracker)블록 추적기/$가 대상을 포착하는 시간을 "
+        "줄이고, $(l:armor/pneumatic_leggings)레깅스/$의 달리기 속도를 높이지만 "
+        "$(l:base_concepts/pressure)공기/$를 소모합니다."
+    ),
+    ("entries/armor/overview.json", 11): (
+        "$(l:base_concepts/upgrades#armor)방어구 업그레이드/$는 각 방어구 부위의 방어력과 "
+        "강인함을 높입니다. 두 개를 설치하면 각 부위가 해당 $(thing)다이아몬드 방어구/$와 "
+        "같은 성능을 내며, 최대 네 개를 설치하면 $(thing)다이아몬드 방어구/$보다 높은 "
+        "방어력을 냅니다."
+    ),
+    ("entries/armor/overview.json", 12): (
+        "$(l:base_concepts/upgrades#item_life)아이템 수명 업그레이드/$는 "
+        "$(l:base_concepts/pressure)공기/$를 소모해 방어구 부위를 천천히 수리합니다. 부위마다 "
+        "최대 5개를 설치할 수 있으며, 추가할수록 수리 속도는 빨라지지만 공기 효율은 "
+        "낮아집니다."
+    ),
+    ("entries/armor/overview.json", 13): (
+        "$(l:base_concepts/upgrades#gilded)도금 업그레이드/$를 어느 방어구 부위에든 설치하면 "
+        "$(thing)피글린/$이 플레이어가 실제로 $(thing)금 방어구/$를 입었다고 착각합니다. "
+        "어리석은 피글린이네요."
+    ),
+    ("entries/armor/overview.json", 15): (
+        "$(l:base_concepts/upgrades#radiation_shielding)방사선 차폐 업그레이드/$는 Mekanism의 "
+        "$(l:https://wiki.aidancbrady.com/wiki/Radiation_Shielding_Unit)방사선 차폐 장치/$와 "
+        "마찬가지로 Mekanism 방사선의 해로운 효과를 막아 줍니다. 완전히 보호받으려면 모든 "
+        "방어구 부위에 차폐 업그레이드를 설치해야 합니다."
+    ),
+    ("entries/armor/pneumatic_chestplate.json", 1): (
+        "$(item)공압 흉갑/$은 네 $(thing)공압 방어구/$ 부위 중 하나입니다.$(p)다른 세 "
+        "부위보다 $(l:base_concepts/pressure)공기 용량/$이 큽니다."
+    ),
+    ("entries/armor/pneumatic_chestplate.json", 3): (
+        "$(l:base_concepts/upgrades#security)보안 업그레이드/$를 설치하면 많은 공기를 "
+        "소모하는 대신 불과 용암으로부터 보호받습니다. 흉갑이 공기를 빠르게 방출해 주변 "
+        "불을 끄고 체온을 낮추며, 가까운 용암도 천천히 굳힙니다."
+    ),
+    ("entries/armor/pneumatic_chestplate.json", 5): (
+        "참고: 이 보호 기능은 화염 피해를 받기 직전에 작동합니다. 물약 등으로 이미 "
+        "보호받고 있다면 이 업그레이드는 작동하지 않습니다."
+    ),
+    ("entries/armor/pneumatic_chestplate.json", 7): (
+        "$(item)보안 업그레이드/$는 절연되지 않은 "
+        "$(l:https://minecraft.curseforge.com/projects/immersive-engineering)Immersive Engineering/$ "
+        "전선의 감전 피해도 막습니다. 막은 피해에 비례해 흉갑의 공기를 소모하며, 밀쳐내기 "
+        "효과는 막지 못합니다."
+    ),
+    ("entries/armor/pneumatic_chestplate.json", 10): (
+        "자석 업그레이드는 Botania의 $(item)솔레놀리아/$ 효과를 존중하며, Immersive "
+        "Engineering의 $(item)컨베이어 벨트/$에서 아이템을 끌어오지 않습니다."
+    ),
+    ("entries/armor/pneumatic_chestplate.json", 12): (
+        "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 설치하면 "
+        "$(l:machines/air_cannon)에어 캐논/$처럼 $(thing)$(k:pneumaticcraft.chestplate.launcher)/$"
+        " 키를 눌렀다 놓아 보조 손의 아이템이나 블록을 발사할 수 있습니다. 완전히 충전하는 "
+        "데 15틱(0.75초)이 걸리며, 더 일찍 키를 놓으면 낮은 속도로 발사합니다."
+    ),
+    ("entries/armor/pneumatic_chestplate.json", 14): (
+        "$(li)$(item)TNT/$나 $(item)화살/$처럼 일부 블록과 아이템은 "
+        "$(item)발사기/$와 비슷한 특수 동작을 합니다.$(li)$(item)횃불/$ 같은 블록은 "
+        "회전하며 날아가다가 무언가에 부딪히면 블록으로 돌아옵니다.$(li)그 밖의 아이템은 "
+        "아이템 개체로 발사됩니다."
+    ),
+    ("entries/armor/pneumatic_chestplate.json", 15): (
+        "흉갑에 $(l:base_concepts/upgrades#range)범위 업그레이드/$를 설치하고 활성화하면 "
+        "블록 상호작용 거리가 3.5블록 늘어납니다. 근접 공격 거리는 늘어나지 않으며, "
+        "작동하는 동안 소량의 공기를 계속 소모합니다."
+    ),
+    ("entries/compressors/thermal_compressor.json", 1): (
+        "$(item)열 압축기/$는 수평으로 마주 보는 면의 "
+        "$(l:base_concepts/heat)온도/$ 차이로 $(l:base_concepts/pressure)압축 공기/$를 "
+        "생산합니다. 온도 차이가 클수록 더 많은 공기를 생산합니다.$(p)참고: "
+        "$(l:machines/vortex_tube)볼텍스 튜브/$만으로 이 압축기를 작동하면 생산량보다 "
+        "소모량이 많아져 압력이 줄어듭니다."
+    ),
+    ("entries/compressors/thermal_compressor.json", 3): (
+        "$(item)열 압축기/$의 남북 면끼리, 동서 면끼리는 열이 통하지만 남북과 동서 "
+        "사이에는 열이 통하지 않습니다. 따라서 압축기 하나에 서로 독립된 온도 차이를 두 "
+        "개 만들 수 있습니다.$(p)연결된 면의 열은 서로 평형을 이루므로 유효한 온도 차이를 "
+        "유지할 방법이 필요합니다."
+    ),
+    ("entries/compressors/thermal_compressor.json", 4): "활용법",
+    ("entries/compressors/thermal_compressor.json", 5): (
+        "$(item)열 압축기/$의 주요 활용법은 세 가지입니다:$(li)$(item)볼텍스 튜브/$의 "
+        "$(italic)한쪽/$에서 버리는 열이나 냉기를 활용할 수 있습니다. 보통 볼텍스 튜브의 "
+        "뜨거운 쪽이나 차가운 쪽만 사용하고 반대쪽은 "
+        "$(l:machines/heat_sink)방열판/$으로 방출하지만, $(item)열 압축기/$를 사용하면 "
+        "그 에너지의 일부를 압력으로 회수할 수 있습니다."
+    ),
+    ("entries/compressors/thermal_compressor.json", 6): "활용법(계속)",
+    ("entries/compressors/thermal_compressor.json", 7): (
+        "$(li)$(l:compressors/advanced_air_compressor)고급 공기 압축기/$ 같은 상위 압축기의 "
+        "폐열을 활용할 수 있습니다. 보통은 하나 이상의 "
+        "$(l:tools/heat_sink)방열판/$으로 열을 대기에 방출하지만, 열 압축기를 사용하면 "
+        "폐열의 일부를 압력으로 회수할 수 있습니다."
+    ),
+    ("entries/compressors/thermal_compressor.json", 8): "활용법(계속)",
+    ("entries/compressors/thermal_compressor.json", 9): (
+        "$(li)$(l:base_concepts/heat_sources)용암이나 다른 모드의 블록/$처럼 자연적으로 "
+        "뜨겁거나 차가운 물질을 대량으로 얻을 수 있다면 압력 생산에 사용할 수 있습니다. "
+        "열원과 열을 다 쓴 자원을 놓고 치우는 작업도 자동화해야 할 수 있으며, "
+        "$(l:tools/drone)드론/$이나 다른 모드의 장치로 처리할 수 있습니다."
+    ),
+    ("entries/compressors/thermal_compressor.json", 11): (
+        "이 압축기는 $(#f00)레드스톤 신호/$로 제어할 수 있습니다. 비활성화하면 압력 "
+        "생산이 멈추고 남북 면과 동서 면 사이의 열저항이 크게 높아집니다. 열이 조금 새기는 "
+        "하지만 작동 중일 때보다 훨씬 적습니다. 튜브 네트워크가 완전히 가압된 경우처럼 "
+        "압력이 필요하지 않을 때 온도 차이의 형태로 에너지를 저장하는 데 유용합니다."
+    ),
+    ("entries/compressors/maunal_compressor.json", 1): (
+        "$(item)수동 압축기/$는 플레이어의 노동과 허기를 사용해 게임 초반에 "
+        "$(l:base_concepts/pressure)압축 공기/$를 생산합니다. 압축기를 우클릭한 채로 유지해 "
+        "공기를 펌프질하세요. 압력이 높아질수록 한 번 펌프질하는 시간이 길어지며, 결국 더 "
+        "이상 공기를 넣을 수 없게 됩니다."
+    ),
+    ("entries/tubes/logistics_module.json", 1): (
+        "이 강력한 모듈은 인벤토리를 $(l:logistics/overview)물류 시스템/$에 연결해 압력 "
+        "튜브를 통한 아이템과 유체 운반을 제어합니다.$(p)모듈이 가리키는 인벤토리나 유체 "
+        "탱크에는 $(l:logistics/frames)물류 프레임/$이 부착되어 있어야 합니다.$(p)물류 "
+        "모듈에는 $(l:tubes/module_expansion_card)모듈 확장 카드/$를 설치할 수 없습니다."
+    ),
+    ("entries/tubes/logistics_module.json", 2): (
+        "$(l:logistics/frames#passive_provider)수동 공급자/$ 프레임과 "
+        "$(l:logistics/frames#requester)요청자/$ 프레임이 붙은 상자를 연결하는 물류 모듈 두 개"
+    ),
+    ("entries/tubes/logistics_module.json", 3): (
+        "물류 모듈 네트워크는 $(l:tubes/pressure_tubes)압력 튜브/$로 서로 연결된 모든 "
+        "모듈로 이루어집니다. 공기를 사용하는 기계는 네트워크에 "
+        "$(italic)포함되지 않습니다/$.$(p)모듈 GUI에서 채널을 고르거나 $(item)염료/$로 "
+        "우클릭해 채널을 선택할 수 있습니다. 같은 색의 물류 모듈끼리만 통신하므로 네트워크 "
+        "하나에 $(thing)채널/$ 16개를 사용할 수 있습니다."
+    ),
+    ("entries/tubes/logistics_module.json", 4): (
+        "물류 모듈이 작동하려면 $(l:base_concepts/pressure)압력/$이 3bar 이상이어야 합니다. "
+        "소모하는 공기량은 거리, 운반량, 상수를 곱한 값입니다. 따라서 한 스택 전체를 "
+        "옮기거나 먼 거리로 옮길수록 공기가 더 많이 필요합니다. 공기는 "
+        "$(italic)수신/$ 물류 모듈 쪽으로 흐르므로 그 모듈에서 소모됩니다."
+    ),
+    ("entries/tubes/logistics_module.json", 5): (
+        "표시등은 다음 상태를 나타냅니다:$(p)$(li)$(#f00)빨간색/$: 압력 부족. 최소 "
+        "3bar를 공급하세요.$(li)$(#f80)주황색/$: 3bar보다 높지만 현재 거리만큼 아이템이나 "
+        "유체를 옮기기에는 부족합니다.$(li)$(#0f0)초록색/$: 압력 충분, 대기 중."
+        "$(li)$(#00f)파란색(점멸)/$: 아이템이나 유체를 운반 중입니다."
+    ),
+    ("entries/tubes/flow_detector_module.json", 1): (
+        "흐름 감지 모듈은 튜브 속 $(thing)공기 흐름/$을 측정하는 "
+        "$(l:tubes/tube_modules#inline)인라인/$ 모듈입니다. 다음 공식에 따라 "
+        "$(#f00)레드스톤 신호/$를 출력합니다:$(p)  "
+        "$(formula)0.2 × 흐름(mL/틱)/$$(p)예를 들어 공기가 20mL/틱으로 흐르면 신호 "
+        "세기는 20 × 0.2 = 4입니다."
+    ),
+    ("entries/tubes/flow_detector_module.json", 2): (
+        "$(thing)흐름/$은 $(l:base_concepts/pressure)압력/$과 다른 물리량입니다. 흐름은 "
+        "틱마다 튜브를 통과하는 공기의 양입니다. 예를 들어 "
+        "$(l:machines/elevators)엘리베이터/$가 멈춰 있으면 흐름은 0이지만, 작동해 공기를 "
+        "소모하면 0보다 커집니다. 따라서 이 모듈로 기계의 공기 사용 여부를 감지할 수 "
+        "있습니다.$(p)흐름 감지 모듈에는 "
+        "$(l:tubes/module_expansion_card)모듈 확장 카드/$를 설치할 수 없습니다."
+    ),
+    ("entries/machines/sentry_turret.json", 1): (
+        "$(thing)감시 포탑/$은 자동 방어 무기입니다. 내장된 "
+        "$(l:tools/minigun)미니건/$과 직접 공급해야 하는 "
+        "$(l:tools/minigun_ammo)총기 탄약/$으로 범위 안의 개체를 공격합니다. 기본 사거리는 "
+        "16블록이며 $(l:base_concepts/upgrades#range)범위 업그레이드/$로 최대 32블록까지 "
+        "늘릴 수 있습니다.$(p)감시 포탑은 $(l:base_concepts/pressure)압력/$ 없이 작동하지만 "
+        "$(l:tools/minigun_ammo)탄약/$은 반드시 공급해야 합니다."
+    ),
+    ("entries/machines/sentry_turret.json", 3): (
+        "$(thing)감시 포탑/$이 하나 이상의 $(l:machines/security_station)보안 스테이션/$ "
+        "범위 안에 있으면, 개체 필터 설정과 관계없이 $(italic)모든/$ 보안 스테이션의 신뢰 "
+        "목록에 등록된 플레이어는 절대 공격하지 않습니다."
+    ),
+    ("entries/machines/thermal_lagging.json", 1): (
+        "$(l:base_concepts/heat)열/$을 사용하는 $(pncr) 기계는 공기에 노출되면 열을 "
+        "잃습니다. 공기가 아니며 열을 전달하지 않는 블록이면 거의 무엇으로든 덮을 수 "
+        "있지만, $(thing)단열재/$는 기계를 단열하는 데 특히 적합합니다."
+    ),
+    ("entries/machines/thermal_lagging.json", 2): (
+        "$(thing)단열재/$는 없는 것처럼 $(italic)통과해서 클릭/$하여 뒤쪽 블록과 "
+        "상호작용할 수 있습니다.$(p)다만 $(item)곡괭이/$나 $(item)렌치/$를 들고 있거나 "
+        "$(thing)웅크린/$ 상태라면 단열재 자체를 대상으로 삼아 제거하거나 상호작용할 수 "
+        "있습니다."
+    ),
+    ("entries/tools/jackhammer.json", 1): (
+        "$(item)공압식 착암기/$는 $(l:base_concepts/pressure)압력/$으로 모든 종류의 "
+        "블록을 같은 효율로 부수는 다용도 채굴 도구입니다. "
+        "$(l:machines/charging_station)충전소/$에서 "
+        "$(l:base_concepts/upgrades#speed)속도 업그레이드/$로 채굴 속도를, "
+        "$(l:base_concepts/upgrades#volume)용량 업그레이드/$로 공기 용량을 늘릴 수 있습니다."
+    ),
+    ("entries/tools/jackhammer.json", 3): (
+        "새 착암기에는 $(thing)드릴 비트/$가 없어 그대로는 쓸모가 없습니다. 착암기를 "
+        "우클릭해 설정 GUI를 열고 오른쪽 위 슬롯에 비트를 넣으세요.$(p)드릴 비트는 성능과 "
+        "비용이 낮은 순서대로 네 종류입니다:$(li)철/$$(li)압축 철/$$(li)다이아몬드/$"
+        "$(li)네더라이트/$"
+    ),
+    ("entries/tools/jackhammer.json", 5): (
+        "착암기는 일부 $(thing)광맥 채굴/$ 기능을 포함한 여러 굴착 모드를 지원해 넓은 "
+        "영역을 빠르게 파낼 수 있습니다. 사용할 수 있는 모드는 $(thing)드릴 비트/$에 "
+        "따라 달라지며, 상위 비트일수록 채굴 속도가 빠르고 더 많은 굴착 모드를 지원합니다."
+        "$(p)착암기를 우클릭해 GUI를 열고 오른쪽 아래 버튼으로 굴착 모드를 선택하세요."
+    ),
+    ("entries/tools/jackhammer.json", 6): (
+        "$(italic)네더라이트 드릴 비트를 설치하고 3x3 굴착 모드를 선택한 착암기 GUI/$"
+    ),
+    ("entries/tools/jackhammer.json", 8): (
+        "착암기는 $(thing)마법 부여대/$에서 일반적인 방법으로 마법을 부여할 수 없지만, "
+        "GUI에서 $(thing)섬세한 손길/$이나 $(thing)행운/$ 마법이 붙은 책을 넣을 수 "
+        "있습니다. 위쪽 가운데 책 슬롯에 넣은 책의 마법이 착암기에 적용됩니다."
+    ),
+    ("entries/tools/jackhammer.json", 10): (
+        "필요에 따라 섬세한 손길 책과 행운 책을 쉽게 바꿔 쓸 수 있습니다.$(p)원하는 책을 "
+        "얻기 어렵다면 $(l:manufacturing/pressure_chamber)압력 챔버/$로 도구의 마법을 "
+        "추출해 책에 옮길 수 있다는 점을 기억하세요."
+    ),
+    ("entries/tools/camo_applicator.json", 1): (
+        "$(item)위장 도포기/$로 다음 $(pncr) 블록을 위장할 수 있습니다:$(li)"
+        "$(l:tubes/pressure_tubes)압력 튜브/$$(li)"
+        "$(l:machines/pneumatic_door)공압 문 받침/$$(li)"
+        "$(l:machines/elevators)엘리베이터 받침 및 호출기/$$(li)"
+        "$(l:machines/charging_station)충전소/$$(li)$(l:machines/heat_pipe)열 파이프/$"
+        "$(p)단단한 블록을 $(thing)우클릭/$하면 그 외형을 도포기에 복사하고, "
+        "$(thing)Shift+우클릭/$하면 복사한 블록을 지웁니다. "
+    ),
+    ("entries/tools/camo_applicator.json", 2): (
+        "그런 다음 위장할 수 있는 블록을 $(thing)우클릭/$하여 위장을 적용하거나 "
+        "제거하세요.$(p)위장을 적용하려면 인벤토리에 해당 블록이 실제로 있어야 하며, 적용할 "
+        "때 블록을 하나 소모합니다. 위장을 제거하면 그 블록을 돌려받습니다.$(p)위장한 "
+        "블록을 곡괭이나 알맞은 도구로 부수면 블록 대신 위장만 벗길 수도 있습니다."
+    ),
+    ("entries/tools/reinforced_chest_kit.json", 1): (
+        "$(item)강화 상자 업그레이드 키트/$는 내용물을 유지한 채 모든 나무 상자를 "
+        "$(l:machines/reinforced_chest)강화 상자/$로 즉시 업그레이드합니다. 나무 상자에 "
+        "키트를 들고 $(thing)Shift+우클릭/$하세요.$(p)참고: 업그레이드에 사용한 "
+        "$(item)나무 상자/$는 아이템으로 떨어집니다."
+    ),
+    ("entries/tools/reinforced_chest_kit.json", 2): (
+        "강화 상자 업그레이드 키트 제작$(p)강화 상자는 완전히 비어 있어야 합니다."
+    ),
+    ("entries/tools/smart_chest_kit.json", 1): (
+        "$(item)스마트 상자 업그레이드 키트/$는 내용물을 유지한 채 나무 상자나 "
+        "$(l:machines/reinforced_chest)강화 상자/$를 "
+        "$(l:machines/smart_chest)스마트 상자/$로 즉시 업그레이드합니다. 대상 상자에 키트를 "
+        "들고 $(thing)Shift+우클릭/$하세요."
+    ),
+    ("entries/tools/smart_chest_kit.json", 2): (
+        "$(p)참고: $(item)강화 상자/$에 사용하면 강화 상자가 아이템으로 떨어지고, "
+        "$(item)나무 상자/$에 사용하면 해당 상자가 아이템으로 떨어집니다."
+    ),
+    ("entries/tools/smart_chest_kit.json", 3): (
+        "스마트 상자 업그레이드 키트 제작$(p)스마트 상자는 완전히 비어 있고 설정되지 않은 "
+        "상태여야 합니다."
+    ),
+    ("entries/tools/memory_stick.json", 1): (
+        "$(item)메모리 스틱/$은 플레이어의 경험치 레벨을 추출하고 저장했다가 되돌리는 "
+        "휴대용 장치입니다:$(li)$(thing)우클릭/$: 플레이어의 경험치 1레벨을 스틱으로 이동"
+        "$(li)$(thing)Shift+우클릭/$: 스틱의 경험치 1레벨을 플레이어에게 이동"
+        "$(li)$(thing)좌클릭/$: 경험치 자동 흡수 전환. 플레이어가 얻는 경험치 구슬을 "
+        "스틱이 자동으로 흡수합니다."
+    ),
+    ("entries/tools/memory_stick.json", 2): (
+        "메모리 스틱에 저장한 경험치는 $(l:base_concepts/memory_essence)기억의 정수/$ "
+        "유체로도 꺼낼 수 있습니다. $(l:machines/tanks)유체 탱크/$를 "
+        "$(thing)우클릭/$하면 경험치를 탱크와 스틱 사이에서 옮깁니다. 다른 모드의 유체 "
+        "탱크도 사용할 수 있습니다. 빈 탱크를 우클릭하면 스틱에서 탱크로, 기억의 정수가 "
+        "든 탱크를 우클릭하면 탱크에서 스틱으로 옮기려고 합니다."
+    ),
+    ("entries/tools/memory_stick.json", 4): (
+        "$(thing)Curios/$ 모드가 설치되어 있으면 메모리 스틱을 Curios 슬롯에 넣어 인벤토리 "
+        "공간을 아낄 수 있습니다. 경험치 자동 흡수를 켰을 때 특히 유용합니다."
+    ),
+    ("entries/programming/item_assign.json", 2): (
+        "지정한 $(thing)변수/$에 아이템을 저장하려면 원하는 아이템을 설정한 "
+        "$(l:programming/item_filter)아이템 필터/$ 위젯을 $(thing)아이템 할당/$ 위젯의 "
+        "$(italic)오른쪽/$에 놓으세요. $(thing)아이템 할당/$ 위젯을 "
+        "$(thing)우클릭/$해 변수를 지정하면 그 아이템을 변수에 할당합니다. 필터에서는 "
+        "실제 아이템만 전달되며 필터 설정은 전달되지 않습니다.$(p)$(thing)아이템 필터/$ "
+        "위젯을 생략하면 드론이 든 아이템을 변수에 할당합니다."
+    ),
+    ("entries/spawning/vacuum_trap.json", 1): (
+        "$(item)진공 덫/$은 몹을 가두고 정수를 "
+        "$(l:spawning/spawner_core)생성기 코어/$에 흡수해 나중에 "
+        "$(l:spawning/pressurized_spawner)가압 생성기/$에서 사용하게 하는 기계입니다."
+        "$(p)$(thing)진공 덫/$은 다음 순서로 사용하세요:"
+    ),
+    ("entries/spawning/vacuum_trap.json", 2): (
+        "$(li)1. 진공 덫의 압력이 -0.5bar 이하인지 확인하세요. "
+        "$(l:base_concepts/upgrades#volume)용량 업그레이드/$를 권장합니다. 저장한 진공을 "
+        "보존하려면 진공 덫을 곡괭이로 부수지 말고 렌치로 회수하세요.$(li)2. 포획한 몹을 "
+        "받을, 가득 차지 않은 $(l:spawning/spawner_core)생성기 코어/$를 넣으세요.$(li)3. "
+        "진공 덫을 $(thing)Shift+우클릭/$하거나 레드스톤 신호를 공급해 문을 여세요."
+    ),
+    ("entries/spawning/vacuum_trap.json", 4): (
+        "진공 덫은 다음 대상을 절대 포획하지 않습니다:$(li)플레이어$(li)드론$(li)보스 몹"
+        "(위더, 엔더 드래곤 등)$(li)길들인 동물$(li)바닐라 생성기가 생성한 몹$(p)그 밖에 "
+        "개체 ID(예: $(thing)minecraft:zombie/$)를 "
+        "$(thing)pneumaticcraft:vacuum_trap_blacklisted/$ 개체 유형 태그에 추가해 포획 "
+        "대상에서 제외할 수 있습니다."
+    ),
+    ("entries/spawning/vacuum_trap.json", 5): "기억의 정수",
+    ("entries/spawning/vacuum_trap.json", 6): (
+        "진공 덫 탱크에 $(l:base_concepts/memory_essence)기억의 정수/$가 100mB 이상 있으면 "
+        "몹 흡수 효율이 크게 높아집니다. 포획한 몹 하나가 설치한 "
+        "$(thing)생성기 코어/$의 정수를 1% 대신 2~4% 채우므로, 코어 하나를 채우는 데 "
+        "몹 100마리 대신 25~50마리만 필요합니다. 몹을 포획할 때마다 기억의 정수 100mB를 "
+        "사용합니다."
+    ),
+    ("entries/programming/jump.json", 1): (
+        "이 위젯은 $(l:programming/flow_control)프로그램 흐름/$만 제어합니다. 프로그램이 "
+        "$(thing)점프/$ 위젯에 도달하면 연결된 $(l:programming/text)텍스트/$ 위젯을 읽고, "
+        "이름이 같은 $(l:programming/label)레이블/$ 위젯으로 이동하려고 합니다. 어떤 이유로든 "
+        "실패하면 $(l:programming/start)시작/$ 위젯으로 돌아갑니다. 일반적으로 이 대체 "
+        "동작이 일어날 일은 없습니다."
+    ),
+    ("entries/programming/jump.json", 2): (
+        "$(thing)점프/$ 위젯은 같은 $(l:programming/label)레이블/$로 이동하는 점프를 둘 "
+        "이상 사용해 프로그램 흐름의 여러 $(italic)분기/$를 합치거나, 구역을 각각의 "
+        "‘서브루틴’으로 나눠 프로그램을 정리할 때 사용할 수 있습니다. "
+        "$(l:programming/programmer)프로그래머/$ GUI 왼쪽 아래의 $(bold)흐름 표시/$를 "
+        "선택하면 같은 이름을 가진 $(thing)점프/조건/레이블/$ 위젯을 잇는 선이 표시됩니다."
+    ),
+    ("entries/programming/puzzle_pieces.json", 1): (
+        "$(thing)프로그래밍 퍼즐/$ 또는 $(thing)퍼즐 조각/$은 "
+        "$(l:programming/programmer)프로그래머/$로 $(l:tools/drone)드론/$을 프로그래밍할 때 "
+        "사용하는 실제 아이템입니다. 드론을 프로그래밍하면 소모되지만, 더 작거나 빈 "
+        "프로그램으로 $(item)드론/$을 덮어쓰면 남는 조각을 돌려받습니다.$(p)"
+        "$(item)프로그래머/$ GUI에 표시되는 $(thing)퍼즐 조각/$의 가상 형태를 "
+        "$(thing)프로그래밍 위젯/$이라고 합니다."
+    ),
+    ("entries/programming/puzzle_pieces.json", 2): (
+        "$(l:tools/drone)드론/$에 프로그램을 기록하려면 $(thing)퍼즐 조각/$을 인벤토리에 "
+        "가지고 있거나 $(item)프로그래머/$의 어느 면에든 인접한 인벤토리에 넣어야 합니다."
+        "$(p)크리에이티브 모드에서는 퍼즐 조각 없이 무료로 프로그래밍할 수 있습니다."
+    ),
+    ("entries/programming/condition_coordinate.json", 1): (
+        "이것은 $(l:programming/conditions)조건/$ 위젯입니다.$(p)"
+        "$(thing)조건: 좌표/$ 위젯은 두 $(l:programming/coordinate)좌표/$를 비교합니다. "
+        "좌표의 각 축(X/Y/Z)에 여러 검사를 적용할 수 있으며, 두 좌표에서 축 하나나 둘 또는 "
+        "세 축 모두가 일치하는지 확인할 수 있습니다."
+    ),
+    ("entries/base_concepts/oil.json", 1): (
+        "$(pncr)의 월드에 자연 생성되는 것은 $(thing)원유/$뿐입니다. 물 호수와 비슷하게 "
+        "생성되지만 지표보다 깊은 지하에서 발견될 가능성이 훨씬 큽니다. 따라서 "
+        "$(l:tools/seismic_sensor)지진 센서/$ 같은 탐사 도구를 사용하기를 권장합니다."
+    ),
+    ("entries/base_concepts/oil.json", 2): (
+        "원유는 두 가지 용도로 사용합니다. $(l:compressors/liquid_compressor)액체 압축기/$의 "
+        "고품질 연료로 쓰도록 $(l:manufacturing/refinery)정제/$하거나, "
+        "$(l:components/plastic)플라스틱/$과 $(l:components/lubricant)윤활유/$를 만듭니다."
+        "$(p)$(item)플라스틱/$은 $(pncr)의 여러 제작법에 쓰이고, $(item)윤활유/$는 "
+        "$(l:base_concepts/upgrades#speed)속도 업그레이드/$를 만드는 데 필요합니다."
+    ),
+    ("entries/base_concepts/oil.json", 3): (
+        "원유를 찾았다면 추출하고 운반해야 합니다. $(pncr)에서는 "
+        "$(l:machines/gas_lift)가스 리프트/$를 권장하지만 다른 모드의 유체 펌프도 사용할 "
+        "수 있습니다. 기지에서 먼 곳의 원유를 게임 초반에 운반할 때는 "
+        "$(l:machines/tanks)소형 탱크/$가 유용합니다. 유체를 32,000mB까지 담고 부숴도 "
+        "내용물을 보존합니다. 가스 리프트도 유체를 보존하므로 같은 용도로 쓸 수 있습니다."
+    ),
+    ("entries/tubes/tube_modules.json", 1): (
+        "$(thing)튜브 모듈/$은 $(l:tubes/pressure_tubes)압력 튜브/$의 옆면에 부착하거나 "
+        "튜브와 $(thing)인라인/$으로 연결하는 부품입니다.$(p)부착한 모듈은 "
+        "$(l:tools/pneumatic_wrench)공압 렌치/$로 $(thing)Shift+우클릭/$해 제거할 수 "
+        "있습니다."
+    ),
+    ("entries/machines/security_station.json", 4): (
+        "$(thing)보안 스테이션/$을 설정하려면 네트워크 격자에 "
+        "$(l:components/network_components)네트워크 부품/$을 놓아 $(thing)네트워크/$를 "
+        "만드세요. 네트워크마다 $(l:components/network_components#diagnostic)진단 서브루틴/$, "
+        "$(l:components/network_components#io_port)네트워크 IO 포트/$, "
+        "$(l:components/network_components#registry)네트워크 레지스트리/$가 하나씩 필요합니다."
+        "$(p)이 세 특수 노드는 모두 $(l:components/network_components#node)네트워크 노드/$로 "
+        "서로 연결해야 합니다."
+    ),
+    ("entries/machines/security_station.json", 13): (
+        "$(thing)보안 스테이션/$에는 다음 업그레이드를 사용할 수 있습니다:$(li)"
+        "$(l:base_concepts/upgrades#entity_tracker)개체 추적기/$는 "
+        "$(l:machines/security_station#hacking)해커/$가 감지될 확률을 높입니다. 추가할수록 "
+        "효과가 줄며 노드 해킹 시도 한 번당 최대 보호 확률은 99%입니다.$(li)"
+        "$(l:base_concepts/upgrades#range)범위 업그레이드/$는 개당 보호 범위를 1블록씩 늘려 "
+        "모든 방향으로 최대 16블록, 즉 최대 33x33x33 영역을 보호합니다."
+    ),
+    ("entries/machines/security_station.json", 19): (
+        "누군가 $(thing)보안 스테이션/$을 해킹하면 $(bold)문제/$와 $(bold)상태/$ 탭에서 "
+        "확인할 수 있고, 시스템을 해킹한 사람이 $(italic)누구인지/$도 표시됩니다. 이제 그 "
+        "플레이어만 영역 안의 블록과 상호작용할 수 있습니다. 보안을 복구하려면 GUI의 "
+        "$(bold)재부팅/$ 버튼으로 $(thing)보안 스테이션/$을 $(italic)재부팅/$하세요. "
+        "재부팅에는 60초가 걸리며, 그동안 영역은 전혀 보호되지 않습니다."
+    ),
+    ("entries/machines/security_station.json", 21): (
+        "다른 플레이어의 $(thing)보안 스테이션/$을 해킹하려면 하나 이상, 보통은 여러 "
+        "$(l:base_concepts/upgrades#security)보안 업그레이드/$를 설치한 "
+        "$(l:armor/pneumatic_helmet)공압 헬멧/$이 필요합니다. 그러면 맞은편 그림과 비슷한 "
+        "GUI가 나타납니다. 해킹 방법은 $(l:https://www.youtube.com/watch?v=Lgmpslbrrwo)이 "
+        "오래됐지만 여전히 유효한 영상/$을 참고하세요.$(p)노드를 $(thing)좌클릭/$하면 "
+        "점령하고, 점령한 노드를 $(thing)우클릭/$하면 요새화합니다. 요새화한 노드는 진단 "
+        "서브루틴이 점령하는 데 조금 더 오래 걸립니다."
+    ),
+    ("entries/machines/security_station.json", 23): (
+        "$(li)$(thing)보안 스테이션/$을 잘 숨기고 보호하세요.$(li)여러 "
+        "$(thing)보안 스테이션/$으로 한 영역을 보호하면 공격자는 모두 해킹해야 합니다."
+        "$(li)전투 프로그램을 설치한 $(l:tools/drone)드론/$이나 "
+        "$(l:machines/sentry_turret)감시 포탑/$ 같은 능동 방어 수단을 고려하세요.$(li)해킹된 "
+        "$(thing)보안 스테이션/$이 $(#f00)레드스톤 신호/$를 내보내도록 설정해 추가 방어 "
+        "수단을 작동시킬 수도 있습니다. 예를 들면 스테이션 아래의 TNT가 있겠죠."
+    ),
+    ("entries/tubes/regulator_module.json", 1): (
+        "조절기 모듈은 튜브를 통과할 수 있는 $(l:base_concepts/pressure)압력/$을 제한하는 "
+        "$(l:tubes/tube_modules#inline)인라인/$ 모듈입니다. 기본 상태에서는 튜브 등급과 "
+        "관계없이 레드스톤 신호 0에서 4.9bar로 제한하며, 신호가 15에 가까워질수록 제한값은 "
+        "0에 가까워집니다. 따라서 바로 옆의 레버를 켜면 조절기가 닫혀 공기 흐름을 막습니다."
+    ),
+    ("entries/tubes/regulator_module.json", 2): (
+        "조절기의 좁은 쪽이 설정 압력에 도달하면 공기가 더 이상 통과하지 않습니다. 이 "
+        "원리를 $(thing)변압기/$처럼 사용할 수 있습니다. 넓은 입력 쪽에는 고압 공기가 "
+        "들어오지만 조절기 튜브가 출력 압력을 임계값으로 제한합니다.$(p)따라서 상위 등급 "
+        "네트워크에서 하위 등급 튜브 네트워크로 공기를 안전하게 공급할 수 있습니다."
+    ),
+    ("entries/tubes/air_grate_module.json", 1): (
+        "이 모듈은 개체를 끌어당기거나 밀어냅니다. $(l:base_concepts/pressure)양압/$에서는 "
+        "개체를 밀어내고 $(thing)음압/$에서는 끌어당깁니다. 음압은 "
+        "$(l:machines/vacuum_pump)진공 펌프/$로 만듭니다. 아이템 개체가 충분히 가까워지면 "
+        "화로처럼 면별 입출력이 있는 인벤토리 규칙을 지키면서 인접한 인벤토리에 자동으로 "
+        "들어갑니다."
+    ),
+    ("entries/tubes/air_grate_module.json", 2): (
+        "모듈 범위는 다음 공식으로 계산합니다:$(p)양압:$(p)  "
+        "$(#272)범위 = 4 × 압력(bar)/$$(p)음압:$(p)  "
+        "$(#272)범위 = -16 × 압력(bar)/$$(p)예를 들어 2bar에서는 4 × 2 = 8블록까지 "
+        "밀어내고, -0.5bar에서는 -16 × -0.5 = 8블록까지 끌어당깁니다."
+    ),
+    ("entries/tubes/air_grate_module.json", 3): (
+        "에어 그레이트는 향하는 방향의 정육면체 영역에 있는 개체에만 영향을 주며, 개체를 "
+        "직접 볼 수 있어야 합니다.$(p)모듈을 우클릭하면 영향 범위가 몇 초 동안 표시됩니다."
+    ),
+    ("entries/tubes/air_grate_module.json", 5): (
+        "에어 그레이트 모듈은 $(l:machines/heat_sink)방열판/$을 능동 냉각할 수도 있습니다. "
+        "모듈 앞 3x3x3 범위의 방열판을 냉각하며, 모듈을 설치하면 이 범위가 표시됩니다."
+        "$(p)범위가 3블록 이상, 즉 압력이 0.75bar 이상일 때만 방열판을 냉각합니다."
+    ),
+    ("entries/renewables/glycerol.json", 5): (
+        "$(thing)글리세롤/$은 $(thing)판자/$ 4개나 $(thing)석탄/$ 반 개와 같은 열량을 "
+        "내는 쓸 만한 연료입니다."
+    ),
+    ("entries/tools/gps_tool.json", 1): (
+        "$(item)GPS 도구/$로 블록을 $(thing)우클릭/$하면 그 블록의 좌표를 저장합니다. 이 "
+        "정보는 $(pncr)의 여러 기능에서 사용합니다. 다음 페이지를 참고하세요.$(p)공중에서 "
+        "$(item)GPS 도구/$를 $(thing)우클릭/$하면 좌표를 직접 조정하는 GUI가 열립니다."
+        "$(p)웅크린 채 마우스 휠을 돌리면 플레이어가 바라보는 축을 따라 좌표를 빠르게 "
+        "조정합니다."
+    ),
+    ("entries/tools/remote.json", 1): (
+        "리모컨으로 $(l:programming/variables#global)전역 변수/$를 조작하는 전용 GUI를 "
+        "만들어 $(l:tools/drone)드론/$이나 $(l:machines/universal_sensor)범용 센서/$를 "
+        "원격 제어할 수 있습니다. $(item)범용 센서/$와 $(item)리모컨/$을 함께 사용하면 "
+        "무선 레드스톤도 만들 수 있습니다!$(p)$(item)리모컨/$을 "
+        "$(thing)Shift+우클릭/$하면 GUI 편집기가 열립니다."
+    ),
+    ("entries/components/reinforced_air_canister.json", 1): (
+        "$(l:components/air_canister)공기 용기/$처럼 $(thing)강화 공기 용기/$도 공기를 "
+        "저장하며 $(l:machines/charging_station)충전소/$에서 충전하거나 방출할 수 있습니다. "
+        "다만 용량이 6000mL로 더 크고 20bar까지 안전하게 충전할 수 있습니다."
+    ),
+    ("entries/components/reinforced_air_canister.json", 2): (
+        "$(thing)강화 공기 용기/$는 상자 같은 인벤토리와, "
+        "$(l:tubes/charging_module)충전 모듈/$을 부착한 "
+        "$(l:tubes/pressure_tubes)압력 튜브/$를 조합해 대량 공기 저장 장치로 사용할 수 "
+        "있습니다. $(l:machines/aerial_interface)공중 인터페이스/$와 바닐라 "
+        "$(thing)엔더 상자/$를 함께 사용하면 활용 범위가 더 넓어집니다."
+    ),
+    ("entries/machines/kerosene_lamp.json", 3): (
+        "$(item)등유 램프/$는 대부분의 $(pncr) 블록처럼 $(thing)레드스톤/$으로 제어할 수 "
+        "있습니다. 일반적인 켜기/끄기 모드 외에 $(bold)신호 보간/$ 모드가 있으며, 신호 "
+        "세기에 따라 램프 범위를 비례 조절합니다.$(p)예를 들어 기본 최대 범위가 10블록일 "
+        "때 $(#f00)레드스톤 신호/$ 8(최대 15)을 주면 범위는 5블록입니다."
+    ),
+    ("entries/logistics/frames.json", 1): (
+        "$(thing)물류 프레임/$은 인벤토리나 탱크에 부착해 "
+        "$(thing)물류 시스템/$의 일부로 지정하는 장치입니다.$(p)설치한 프레임은 "
+        "$(l:tools/logistics_configurator)물류 설정기/$로 $(thing)우클릭/$해 설정하고, "
+        "설정기로 $(thing)Shift+우클릭/$해 제거합니다. 아이템 상태의 프레임을 우클릭해 "
+        "미리 설정할 수도 있습니다."
+    ),
+    ("entries/tools/harvesting_drone.json", 5): (
+        "$(item)괭이/$ 하나만 든 인벤토리에 $(item)수확 드론/$을 "
+        "$(thing)Shift+우클릭/$해 배치하면 그 괭이로 작물을 자동으로 다시 심습니다. 이 "
+        "방식으로 배치한 드론은 괭이를 장착하지 않으면 작업하지 않습니다. 다시 심을 필요가 "
+        "없다면 다른 블록에 드론을 배치하세요."
+    ),
+    ("entries/tools/remote.json", 14): (
+        "편집기 GUI 왼쪽의 $(thing)Pastebin/$ 버튼으로 "
+        "$(l:https://pastebin.com/4yxKG5Jc)이 레이아웃/$을 가져오세요.$(p)전역 변수 "
+        "$(thing)signal1, signal2, signal3/$을 설정하는 확인란 세 개가 추가됩니다.$(p)"
+        "$(l:machines/universal_sensor)범용 센서/$ 세 개를 놓고 압력을 공급하세요. 각 "
+        "$(item)센서/$에 $(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 넣고, 각 "
+        "$(item)센서/$에서 레드스톤 선을 연결하세요. 선이 섞이지 않도록 센서를 한 블록씩 "
+        "떨어뜨려 놓으세요."
+    ),
+    ("entries/tools/remote.json", 16): (
+        "각 $(item)센서/$ GUI에서 다음과 같이 설정하세요:$(li)$(thing)발사기/$ 버튼 선택"
+        "$(li)$(thing)월드/$ 선택$(li)$(thing)전역 변수/$ 선택$(li)$(thing)변수 이름/$ "
+        "입력란에 각각 'signal1', 'signal2', 'signal3' 입력$(p)이제 $(item)리모컨/$을 "
+        "$(thing)우클릭/$하고 각 확인란을 켜고 꺼 보세요. 해당 $(item)센서/$가 알맞게 "
+        "레드스톤 신호를 출력합니다. 무선 레드스톤 완성입니다!"
+    ),
+    ("entries/base_concepts/cc_oc_integration.json", 1): (
+        "$(thing)ComputerCraft/$나 $(thing)Open Computers/$가 설치되어 있으면 거의 모든 "
+        "$(pncr) 기계와 $(l:machines/drone_interface)드론/$을 제어할 수 있습니다.$(p)이 "
+        "페이지에 나오는 기계는 모두 CC/OC 주변 장치로 연결할 수 있습니다."
+    ),
+    ("entries/base_concepts/cc_oc_integration.json", 5): (
+        "컴퓨터와 $(pnc) 기계는 $(item)어댑터/$로 연결해야 합니다. 그러면 OC 부품으로 "
+        "인식되며 OC Lua 환경에서 $(thing)=components.list()/$를 실행해 확인할 수 "
+        "있습니다. 이후 다음 함수를 사용할 수 있습니다. 예를 들어 "
+        "$(thing)p = components.air_compressor.getPressure()/$는 연결된 "
+        "$(item)공기 압축기/$의 현재 압력을 가져옵니다."
+    ),
+    ("entries/base_concepts/cc_oc_integration.json", 7): (
+        "다음 메서드는 $(italic)모든/$ $(pncr) 기계에 공통입니다:$(li)"
+        "$(#800)getPressure(), getPressure(<side>)/$: 기계의 압력을 가져옵니다. <side>는 "
+        "선택 사항이며, 면마다 압력이 다른 $(l:machines/vacuum_pump)진공 펌프/$에서만 "
+        "필요합니다.$(li)$(#800)getDangerPressure()/$: 기계가 폭발할 위험이 생기는 압력을 "
+        "가져옵니다.$(li)$(#800)getCriticalPressure()/$: 기계가 반드시 폭발하는 절대 최대 "
+        "압력을 가져옵니다."
+    ),
+    ("entries/base_concepts/cc_oc_integration.json", 9): (
+        "다음 메서드는 $(l:base_concepts/heat)열/$을 지원하는 $(italic)모든/$ $(pncr) "
+        "기계에 공통입니다:$(li)$(#800)getTemperature(), getTemperature(<side>)/$: 기계의 "
+        "온도를 가져옵니다. <side>는 선택 사항이며 면마다 온도가 다른 "
+        "$(l:machines/vortex_tube)볼텍스 튜브/$에서만 필요합니다."
+    ),
+    ("entries/base_concepts/cc_oc_integration.json", 10): (
+        "$(li)$(#800)setExternalControl(<true/false>)/$: true이면 GPS 도구 삽입이나 범위 "
+        "업그레이드 변경 같은 일반적인 방법으로 대포가 회전하지 못하게 합니다.$(li)"
+        "$(#800)setTargetLocation(<x>,<y>,<z>)/$: GPS 도구에 저장한 위치 대신 지정한 "
+        "좌표를 향하도록 대포를 조준합니다."
+    ),
+    ("entries/base_concepts/cc_oc_integration.json", 23): (
+        "$(li)$(#800)setSensor(<sensorName>), setSensor(<index>), setSensor()/$: 현재 센서를 "
+        "선택합니다. <sensorName>은 $(#800)getSensorNames()/$가 반환한 이름 중 하나이고, "
+        "<index>는 $(#800)getSensorNames()/$가 반환한 테이블의 인덱스입니다. 인수 없이 "
+        "$(#800)setSensor()/$를 "
+        "호출하면 센서를 선택하지 않아 기계가 대기 상태로 들어가고 공기를 사용하지 "
+        "않습니다. 현재 설치된 업그레이드로 해당 센서를 사용할 수 있으면 true를 반환합니다. "
+    ),
+    ("entries/components/plastic.json", 1): (
+        "$(item)플라스틱/$은 $(pncr)의 중요한 제작 재료입니다.$(p)"
+        "$(item)용융 플라스틱/$은 $(l:manufacturing/thermopneumatic_processing_plant)열공압 "
+        "처리 공장/$에서 $(l:manufacturing/refinery)LPG/$와 $(item)석탄/$, 또는 "
+        "$(l:renewables/biodiesel)바이오디젤/$과 $(item)숯/$으로 만듭니다."
+    ),
+    ("entries/armor/pneumatic_boots.json", 3): (
+        "남은 압력 말고는 아무 걱정 없이 하늘을 날고 싶다면 "
+        "$(l:base_concepts/upgrades#jet_boots_1)제트 부츠 업그레이드/$를 사용하세요. 총 "
+        "5등급이 있으며 등급이 높을수록 비행 속도와 공기 소모량이 함께 늘어납니다."
+    ),
+    ("entries/armor/pneumatic_boots.json", 7): (
+        "$(l:base_concepts/upgrades#jet_boots_3)제트 부츠 업그레이드 III등급/$ 이상이면 "
+        "$(thing)건축가 모드/$를 사용할 수 있습니다. 크리에이티브 모드와 비슷하지만 더 "
+        "느린 비행 조작과 향상된 공중 채굴 속도를 제공합니다.$(p)방어구 GUI에서 켜고 끌 수 "
+        "있으며 전환 키도 지정할 수 있습니다."
+    ),
+    ("entries/machines/aerial_interface.json", 1): (
+        "$(item)공중 인터페이스/$는 플레이어 인벤토리에 직접 연결하는 강력한 장치입니다. "
+        "충분히 $(l:base_concepts/pressure)가압/$되면 다른 인벤토리처럼 상호작용할 수 "
+        "있습니다. 아이템은 인터페이스에 머물지 않고 소유한 플레이어에게 "
+        "$(italic)직접/$ 전달됩니다. 예를 들어 "
+        "$(l:logistics/frames#requester)물류 요청자 프레임/$을 부착해 횃불 64개를 항상 "
+        "보충할 수 있습니다."
+    ),
+    ("entries/machines/drone_interface.json", 43): (
+        "$(#800)getAction()/$$(p)$(#800)setAction()/$으로 마지막에 설정한 작업을 문자열로 "
+        "반환합니다. 설정한 작업이 없으면 $(thing)nil/$을 반환합니다. 이 메서드가 nil을 "
+        "반환하지 않을 때만 $(#800)isActionDone()/$을 호출하도록 확인할 때 사용할 수 "
+        "있습니다."
+    ),
+    ("entries/machines/drone_interface.json", 46): (
+        "$(#800)getAllActions()/$$(p)현재 선택할 수 있는 모든 작업의 테이블을 반환합니다. "
+        "예: $(thing)pneumaticcraft:dig/$ 또는 $(thing)pneumaticcraft:place'/$. 각 작업은 "
+        "$(l:programming/programmer#ids)프로그래머/$ GUI의 프로그래밍 위젯과 직접 "
+        "대응합니다.$(p)기본 작업처럼 $(thing)pneumaticcraft:/$로 시작하는 작업은 "
+        "$(thing)pneumaticcraft:/$ 접두사를 생략할 수 있습니다."
+    ),
+    ("entries/machines/drone_interface.json", 60): (
+        "$(#800)isActionDone()/$$(p)현재 작업이 끝났으면 true를 반환합니다. 예를 들어 "
+        "'goto'가 목적지에 도착했거나, 'inventory import'가 더 가져올 수 없거나, 'dig'가 "
+        "가능한 모든 블록을 팠을 때입니다."
+    ),
+    ("entries/machines/drone_interface.json", 62): (
+        "$(#800)isConnectedToDrone()/$$(p)드론 프로그램이 ComputerCraft 조각에 도달해 "
+        "연결을 맺는 등, 드론이 이 드론 인터페이스에 연결되어 있으면 true를 반환합니다."
+    ),
+    ("entries/machines/security_station.json", 6): (
+        "이 서버에서는 설정으로 보안 스테이션 해킹이 비활성화되어 있습니다. 설치한 보안 "
+        "스테이션을 다른 플레이어가 해킹할 수는 없지만, 이전 페이지의 올바른 부품으로 "
+        "설정해야 합니다. 이후 페이지 중 $(thing)친구 허용/$을 제외한 대부분의 해킹 "
+        "설명은 적용되지 않습니다."
+    ),
+    ("entries/machines/security_station.json", 11): (
+        "해커에게 유용하지만 제작할 수 없어 주민 거래나 던전 전리품으로 찾아야 하는 "
+        "아이템이 두 가지 있습니다:$(li)$(l:components/nuke_virus)핵 바이러스/$: 노드 하나를 "
+        "즉시 점령합니다.$(li)$(l:components/stop_worm)STOP! 웜/$: 진단 서브루틴의 추적 "
+        "진행을 잠시 멈춥니다."
+    ),
+    ("entries/logistics/frames.json", 2): (
+        "다음 프레임 속성을 설정할 수 있습니다:$(li)모든 프레임은 $(thing)필터링/$으로 "
+        "제공하거나 받을 아이템과 유체를 제한합니다. "
+        "$(l:tools/tag_filter)태그 필터/$도 참고하세요.$(li)$(thing)필터/$ 측면 탭에서 "
+        "$(thing)아이템 NBT/$ 또는 $(thing)모드 ID/$ 일치 여부와 화이트리스트(기본값) 또는 "
+        "블랙리스트 적용 여부를 정할 수 있습니다."
+    ),
+    ("entries/base_concepts/pressure.json", 5): (
+        "$(li)많은 기계에 $(thing)최소 압력/$이 필요하지만 실제 작업은 $(thing)압력/$이 "
+        "아니라 $(thing)공기/$를 소모합니다. 압력은 저장한 공기량과 부피에 따라 결정되는 "
+        "값이라는 점을 기억하세요."
+    ),
+    ("entries/machines/tanks.json", 1): (
+        "유체 저장 탱크는 $(item)소형 탱크/$, $(item)중형 탱크/$, $(item)대형 탱크/$, "
+        "$(item)거대 탱크/$의 네 종류입니다. $(l:machines/liquid_hopper)유체 호퍼/$도 유체를 "
+        "저장하지만, 탱크는 더 조밀한 저장 공간과 유용한 쌓기 기능을 제공하며 유체를 "
+        "자동으로 옮기지 않습니다. 다만 $(l:base_concepts/upgrades#dispenser)발사기 "
+        "업그레이드/$를 설치하면 유체를 밀어낼 수 있습니다."
+    ),
+    ("entries/programming/programmer.json", 9): (
+        "$(bold)7. 기타 버튼/$$(p)GUI 왼쪽 가장자리의 버튼은 순서대로 다음 기능을 "
+        "제공합니다:$(li)$(thing)실행 취소/$: 최근 작업 최대 20개 취소$(li)$(thing)다시 "
+        "실행/$: 마지막 실행 취소 복원$(li)$(thing)가져오기/내보내기/$: 프로그램을 JSON "
+        "파일로 $(l:https://pastebin.com)pastebin.com/$과 주고받기(Pastebin 로그인은 선택)"
+        "$(li)$(thing)삭제/$: 전체 프로그램 삭제(실행 취소 가능)$(li)$(thing)변환/$: "
+        "프로그램을 $(thing)상대/$ 좌표로 변환(자세한 내용은 "
+        "$(l:programming/programmer#convert_relative)이 페이지/$ 참고)"
+    ),
 }
 
 GUIDE_OVERRIDES = {
+    "This is a crafting component for other devices. It has no use on its own.": (
+        "다른 장치를 제작하는 데 쓰는 부품이며, 단독으로는 기능이 없습니다."
+    ),
     (
         "$(#800)addBlacklistLiquidFilter(<liquid name>)/$$(p)Like the "
         "addWhitelistLiquidFilter(...), but to blacklist liquids."
@@ -1219,6 +2505,7 @@ def translate_visible(
                 reviewed = language.reviewed_value(
                     f"patchouli.{key}", child, candidate_value
                 )
+                reviewed = reviewed.replace("\u200b", "")
                 reviewed = reviewed.replace("/ $", "/$")
                 reviewed = re.sub(r"(\$\([^)]+\)) +", r"\1", reviewed)
                 reviewed = re.sub(r" +/\$", "/$", reviewed)

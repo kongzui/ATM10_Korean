@@ -5,15 +5,15 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(pncr)에서는 세계에서 생성되는 유일한 $(thing)원유/$입니다. 이것은 물 호수와 마찬가지로 생성되지만, 차이는 원유 호수가 지표보다 지하 깊게 생성 될 가능성이 훨씬 높다는 것입니다. 이러한 이유로 $(l:tools/seismic_sensor)지진 센서/$와 같은 도구의 지원을 적극 권장합니다."
+      "text": "$(pncr)의 월드에 자연 생성되는 것은 $(thing)원유/$뿐입니다. 물 호수와 비슷하게 생성되지만 지표보다 깊은 지하에서 발견될 가능성이 훨씬 큽니다. 따라서 $(l:tools/seismic_sensor)지진 센서/$ 같은 탐사 도구를 사용하기를 권장합니다."
     },
     {
       "type": "text",
-      "text": "원유에는 두 가지 목적이 있습니다. $(l:compressors/liquid_compressor)액체 압축기/$에 사용할 수 있는 고품질 연료로 $(l:manufacturing/refinery)정제/$되고, $(l:components/plastic)Plastic/$ 및 $(l:components/lubricant)Lubricant/$.$(p)$(item)Plastic/$을 만드는 데 사용됩니다. $(pncr)의 레시피와 $(item)Lubricant/$는 $(l:base_concepts/upgrades#speed)Speed Upgrades/$를 만드는 데 필요합니다."
+      "text": "원유는 두 가지 용도로 사용합니다. $(l:compressors/liquid_compressor)액체 압축기/$의 고품질 연료로 쓰도록 $(l:manufacturing/refinery)정제/$하거나, $(l:components/plastic)플라스틱/$과 $(l:components/lubricant)윤활유/$를 만듭니다.$(p)$(item)플라스틱/$은 $(pncr)의 여러 제작법에 쓰이고, $(item)윤활유/$는 $(l:base_concepts/upgrades#speed)속도 업그레이드/$를 만드는 데 필요합니다."
     },
     {
       "type": "text",
-      "text": "원유를 발견한 후에는 이를 추출하고 운송해야 합니다. 오일을 추출하는 데 권장되는 $(pncr)방법은 $(l:machines/gas_lift)Gas Lift/$를 사용하는 것이지만, 다른 모드의 유체 펌프도 사용할 수 있습니다. 기지에서 멀리 펌핑하는 경우 이동을 위한 초기 게임 솔루션 중 하나는 간단한 $(l:machines/tanks)Small Tank/$입니다. 이 탱크는 최대 32,000mB의 유체를 담을 수 있으며 파손 시 내용물을 유지합니다. (가스 리프트도 유체 내용물을 유지하므로 이 목적으로 사용할 수 있습니다.)"
+      "text": "원유를 찾았다면 추출하고 운반해야 합니다. $(pncr)에서는 $(l:machines/gas_lift)가스 리프트/$를 권장하지만 다른 모드의 유체 펌프도 사용할 수 있습니다. 기지에서 먼 곳의 원유를 게임 초반에 운반할 때는 $(l:machines/tanks)소형 탱크/$가 유용합니다. 유체를 32,000mB까지 담고 부숴도 내용물을 보존합니다. 가스 리프트도 유체를 보존하므로 같은 용도로 쓸 수 있습니다."
     },
     {
       "type": "image",

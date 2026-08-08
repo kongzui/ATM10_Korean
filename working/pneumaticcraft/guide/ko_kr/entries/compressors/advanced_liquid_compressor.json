@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(item)고급 액체 압축기/$는 $(l:compressors/liquid_compressor)액체 압축기/$의 $(l:base_concepts/pressure_tiers)tier 2/$ 버전으로, 최대 안전 압력은 20 bar입니다. 기본 50mL 공기/틱을 생성하고 $(l:base_concepts/upgrades#speed)속도 업그레이드/$.$(p)로 업그레이드할 수 있습니다. 그러나 이 발전기는 $(l:base_concepts/heat)cooled/$이어야 합니다. 온도가 상승하면 공기가 생성되지 않는 지점까지 효율성이 떨어지기 때문입니다. 모두."
+      "text": "$(item)고급 액체 압축기/$는 $(l:compressors/liquid_compressor)액체 압축기/$의 $(l:base_concepts/pressure_tiers)2등급/$ 버전이며 최대 안전 압력은 20bar입니다. 기본적으로 틱당 50mL의 공기를 생산하고 $(l:base_concepts/upgrades#speed)속도 업그레이드/$를 설치할 수 있습니다.$(p)다만 이 발전기는 $(l:base_concepts/heat)냉각/$해야 합니다. 온도가 높아질수록 효율이 떨어지며, 지나치게 뜨거우면 공기를 전혀 생산하지 않습니다."
     },
     {
       "type": "crafting",

@@ -14,12 +14,12 @@
     },
     {
       "type": "text",
-      "text": "$(thing)Elevator/$는 두 가지 모드 중 하나로 작동할 수 있습니다. $(li)$(bold)Redstone/$: 모든 $(item)Elevator에 적용되는 $(#f00)redstone 신호/$ Base/$는 신호 강도에 비례하여 엘리베이터의 높이를 제어합니다(신호 없음 = 0% 확장, 전체 신호 = 100% 확장).$(li)$(bold)Elevator Caller/$: $(l:machines/elevators#caller)Elevator Caller/$는 엘리베이터에 대해 좀 더 정교한 제어를 제공할 수 있습니다."
+      "text": "$(thing)엘리베이터/$는 두 가지 모드 중 하나로 작동할 수 있습니다. $(li)$(bold)레드스톤/$: 모든 $(item)엘리베이터에 적용되는 $(#f00)레드스톤 신호/$ Base/$는 신호 강도에 비례하여 엘리베이터의 높이를 제어합니다(신호 없음 = 0% 확장, 전체 신호 = 100% 확장).$(li)$(bold)엘리베이터 호출기/$: $(l:machines/elevators#caller)엘리베이터 호출기/$는 엘리베이터에 대해 좀 더 정교한 제어를 제공할 수 있습니다."
     },
     {
       "type": "text",
       "title": "멀티 블록 엘리베이터",
-      "text": "더 많은 $(item)엘리베이터 베이스/$를 수평으로 나란히 배치하면 더 큰 $(thing)엘리베이터/$를 만들 수 있습니다. 연결된 모든 $(thing)Elevator/$의 상단 $(item)Elevator Base/$가 동일한 높이에 있으면 $(thing)Elevators/$는 바닥($(l:machines/elevators#caller)Elevator Callers/$에 의해 정의됨)을 공유합니다. 입력하므로 단일 다중 블록으로 작동합니다."
+      "text": "더 많은 $(item)엘리베이터 베이스/$를 수평으로 나란히 배치하면 더 큰 $(thing)엘리베이터/$를 만들 수 있습니다. 연결된 모든 $(thing)엘리베이터/$의 상단 $(item)엘리베이터 기반/$가 동일한 높이에 있으면 $(thing)levators/$는 바닥($(l:machines/elevators#caller)엘리베이터 Callers/$에 의해 정의됨)을 공유합니다. 입력하므로 단일 다중 블록으로 작동합니다."
     },
     {
       "type": "text",
@@ -35,7 +35,7 @@
     {
       "type": "text",
       "title": "엘리베이터 전화 (계속)",
-      "text": "또한 $(item)Elevator Caller/$는 $(thing)Elevator/$가 바닥에 있을 때 $(#f00)redstone 신호/$를 방출하고 호출자에게 $(#f00)redstone 펄스/$를 제공하면 $(thing)Elevator/$를 바닥에 내려 놓습니다.$(p)마지막으로 $(item)Elevator Caller/$는 $(l:tools/camo_applicator)위장 도포기/$도구를 사용하여 다른 블록처럼 보이도록 위장할 수 있습니다."
+      "text": "또한 $(item)엘리베이터 호출기/$는 $(thing)엘리베이터/$가 바닥에 있을 때 $(#f00)레드스톤 신호/$를 방출하고 호출자에게 $(#f00)레드스톤 펄스/$를 제공하면 $(thing)엘리베이터/$를 바닥에 내려 놓습니다.$(p)마지막으로 $(item)엘리베이터 호출기/$는 $(l:tools/camo_applicator)위장 도포기/$도구를 사용하여 다른 블록처럼 보이도록 위장할 수 있습니다."
     },
     {
       "type": "image",

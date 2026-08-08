@@ -15,7 +15,7 @@
     {
       "type": "text",
       "anchor": "items",
-      "text": "$(li)$(item)Aphorism Tiles/$는 텍스트 대신 또는 텍스트와 함께 $(thing)items/$를 표시할 수도 있습니다. $(thing){item:<modid>:<itemid>}/$ 형식으로 텍스트를 한 줄에 입력하여 표시할 아이템을 지정할 수 있습니다. $(thing){item:minecraft:diamond}/$.$(li)또는 왼쪽 GUI 패널에서 $(thing)Insert Item.../$ 버튼을 클릭하고 검색 팝업에서 아이템을 선택합니다. 그러면 현재 줄의 모든 텍스트가 대체됩니다. 하나의 타일에 여러 아이템을 표시할 수 있습니다."
+      "text": "$(li)$(item)격언 타일/$는 텍스트 대신 또는 텍스트와 함께 $(thing)items/$를 표시할 수도 있습니다. $(thing){item:<modid>:<itemid>}/$ 형식으로 텍스트를 한 줄에 입력하여 표시할 아이템을 지정할 수 있습니다. $(thing){item:minecraft:diamond}/$.$(li)또는 왼쪽 GUI 패널에서 $(thing)Insert Item.../$ 버튼을 클릭하고 검색 팝업에서 아이템을 선택합니다. 그러면 현재 줄의 모든 텍스트가 대체됩니다. 하나의 타일에 여러 아이템을 표시할 수 있습니다."
     },
     {
       "type": "text",

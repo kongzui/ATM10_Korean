@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(thing)Ethanol/$는 $(l:renewables/yeast_culture)Yeast Culture/$ 및 $(thing)Sugar/$를 사용하여 $(l:manufacturing/thermopneumatic_processing_plant)열공압 처리 공장/$에서 생산할 수 있습니다. $(l:renewables/biodiesel)Biodiesel/$의 구성성분 중 하나입니다."
+      "text": "$(thing)에탄올/$는 $(l:renewables/yeast_culture)Yeast Culture/$ 및 $(thing)Sugar/$를 사용하여 $(l:manufacturing/thermopneumatic_processing_plant)열공압 처리 공장/$에서 생산할 수 있습니다. $(l:renewables/biodiesel)Biodiesel/$의 구성성분 중 하나입니다."
     },
     {
       "type": "text",

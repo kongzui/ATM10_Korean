@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "이러한 구성 요소는 주로 $(l:programming/security_station)보안 스테이션/$를 설정하는 데 사용되지만 일부는 제작 구성 요소로도 사용되며 $(l:components/network_components#network_storage)Network Storage/$ 및 $(l:components/network_components#network_api)Network API/$는 저장하는 데 사용할 수 있습니다. $(l:tools/drone)Drone/$ 프로그램."
+      "text": "이러한 구성 요소는 주로 $(l:programming/security_station)보안 스테이션/$를 설정하는 데 사용되지만 일부는 제작 구성 요소로도 사용되며 $(l:components/network_components#network_storage)네트워크 데이터 저장소/$ 및 $(l:components/network_components#network_api)네트워크 API/$는 저장하는 데 사용할 수 있습니다. $(l:tools/drone)드론/$ 프로그램."
     },
     {
       "type": "crafting",

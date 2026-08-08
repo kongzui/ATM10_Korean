@@ -16,7 +16,7 @@
     {
       "type": "text",
       "title": "충전 패드",
-      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 삽입하여 $(item)충전 스테이션/$를 $(thing)충전 패드/$로 바꿀 수 있습니다. $(li)충전소 위에 있는 바닥에 있는 아이템$(li)충전소 위에 서 있는 플레이어가 들고 있는 아이템$(li)충전소 바로 위에 있는 모든 유형의 $(l:tools/drone)Drone/$"
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 삽입하여 $(item)충전 스테이션/$를 $(thing)충전 패드/$로 바꿀 수 있습니다. $(li)충전소 위에 있는 바닥에 있는 아이템$(li)충전소 위에 서 있는 플레이어가 들고 있는 아이템$(li)충전소 바로 위에 있는 모든 유형의 $(l:tools/drone)드론/$"
     },
     {
       "type": "text",

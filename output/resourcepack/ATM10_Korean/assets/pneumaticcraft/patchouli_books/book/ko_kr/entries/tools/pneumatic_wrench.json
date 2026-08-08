@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "공압 렌치는 $(pncr)용 $(thing)wrench/$ 품목입니다. $(p)$(li)$(thing)오른쪽 클릭/$ 바닐라 및 수정된 블록을 회전시켜 $(li)$(thing)Sneak+오른쪽 클릭/$ $(pncr)머신을 다음과 같이 다양한 작업에 사용할 수 있습니다. 저장된 업그레이드와 기계 내부의 공기를 보존합니다."
+      "text": "공압 렌치는 $(pncr)의 $(thing)렌치/$입니다. 다음 작업에 사용할 수 있습니다:$(p)$(li)바닐라 및 모드 블록을 $(thing)우클릭/$해 회전$(li)$(pncr)기계를 $(thing)몸을 숙인 채 우클릭/$해 저장된 업그레이드와 공기를 보존한 아이템으로 회수"
     },
     {
       "type": "text",
-      "text": "$(li)$(thing)오른쪽 클릭/$ $(l:base_concepts/drones)Drones/$를 분해하여 아이템으로 드롭합니다.$(li)$(thing)오른쪽 클릭/$ $(l:tubes/pressure_tubes)압력 튜브/$는 섹션을 닫거나 다시 열어 섹션을 서로 격리합니다.$(p)$(item)공압 렌치/$는 사용하기 전에 $(l:machines/charging_station)충전 스테이션/$에서 압력을 가해야 합니다."
+      "text": "$(li)$(l:base_concepts/drones)드론/$을 $(thing)우클릭/$해 아이템으로 회수$(li)$(l:tubes/pressure_tubes)압력 튜브/$를 $(thing)우클릭/$해 각 면을 닫거나 다시 열어 서로 분리$(p)$(item)공압 렌치/$를 사용하려면 먼저 $(l:machines/charging_station)충전소/$에서 가압해야 합니다."
     },
     {
       "type": "crafting",
