@@ -50,6 +50,9 @@ SOPHISTICATED_QUEST_OVERRIDES = (
     Path(__file__).resolve().parents[1]
     / "working/sophisticated/quests/storage/ko_kr.json"
 )
+PRODUCTIVEBEES_QUEST_OVERRIDES = (
+    Path(__file__).resolve().parents[1] / "working/productivebees/quest_overrides.json"
+)
 
 EXPECTED_ADDON_TASK_TITLES = {
     "task.13FF4A021BBF1451.title": "무한 셀",
@@ -110,11 +113,15 @@ def main() -> int:
     sophisticated_quest_overrides = json.loads(
         SOPHISTICATED_QUEST_OVERRIDES.read_text(encoding="utf-8")
     )
+    productivebees_quest_overrides = json.loads(
+        PRODUCTIVEBEES_QUEST_OVERRIDES.read_text(encoding="utf-8")
+    )
     scoped_overrides = (
         common_overrides
         | core_quest_overrides
         | addon_overrides
         | sophisticated_quest_overrides
+        | productivebees_quest_overrides
     )
     chapters, object_ids = audit.parse_chapters(quest_root)
     tasks_by_id = {

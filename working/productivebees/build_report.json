@@ -5,16 +5,16 @@
       "namespace": "productivebees",
       "jar": "productivebees-1.21.1-13.13.5.jar",
       "english_keys": 1118,
-      "existing_korean_reused": 891,
-      "existing_korean_corrected": 227,
+      "existing_korean_reused": 1040,
+      "existing_korean_corrected": 78,
       "newly_translated": 0
     },
     {
       "namespace": "modularbees",
       "jar": "ModularBees-1.21.1-3.2-neoforge.jar",
       "english_keys": 54,
-      "existing_korean_reused": 41,
-      "existing_korean_corrected": 13,
+      "existing_korean_reused": 48,
+      "existing_korean_corrected": 6,
       "newly_translated": 0
     }
   ],
@@ -33,8 +33,8 @@
   "ftbquests": {
     "chapter": "productive_bees",
     "display_keys": 566,
-    "existing_korean_reused": 414,
-    "existing_korean_corrected": 152,
+    "existing_korean_reused": 411,
+    "existing_korean_corrected": 155,
     "newly_translated": 0
   },
   "outputs": [

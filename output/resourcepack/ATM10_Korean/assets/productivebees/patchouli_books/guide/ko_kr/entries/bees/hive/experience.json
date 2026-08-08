@@ -7,7 +7,7 @@
     {
       "type": "patchouli:text",
       "title": "경험 벌",
-      "text": "$(l:bees/hive/emerald)에메랄드 벌$(/l) 및 $(l:bees/hive/lapis)청금석 벌$(/l)에서 번식합니다.",
+      "text": "$(l:bees/hive/emerald)에메랄드 벌$(/l)과 $(l:bees/hive/lapis)청금석 벌$(/l)을 교배해 얻습니다.",
       "anchor": "experience"
     },
     {

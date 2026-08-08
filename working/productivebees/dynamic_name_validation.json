@@ -23,13 +23,19 @@
     "cy/jdkdigital/productivebees/compat/jei/ingredients/BeeIngredientHelper.class",
     "cy/jdkdigital/productivebees/compat/jei/ingredients/BeeIngredientRenderer.class"
   ],
-  "out_of_scope_same_mechanism": [
+  "direct_integrations": [
     {
-      "key": "entity.productivebees.allergy_bee",
-      "source": "Allergy Bee",
-      "current_target": "알레르기 벌",
       "provider": "Productive Trees",
-      "reason": "자원·재료 기반 벌이 아니므로 이번 작업에서 제외"
+      "jar": "productivetrees-1.21.1-1.0.0.jar",
+      "display_keys_checked": 5,
+      "keys": [
+        "entity.productivebees.allergy_bee",
+        "productivebees.devices.advanced_beehive",
+        "productivebees.ingredient.description.allergy_bee",
+        "productivetrees.devices.advanced_beehive",
+        "productivetrees.information.upgrade.upgrade_pollen_sieve.advanced_hive"
+      ],
+      "exact_targets_verified": true
     }
   ],
   "remaining": 0,

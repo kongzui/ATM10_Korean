@@ -7,7 +7,7 @@
     {
       "type": "patchouli:text",
       "title": "타오르는 벌",
-      "text": "$(l:bees/wild/magmatic)마그마틱 벌$(/l) 및 $(l:bees/solitary/nomad)유목민 벌$(/l)에서 번식합니다.",
+      "text": "$(l:bees/wild/magmatic)마그마틱 벌$(/l)과 $(l:bees/solitary/nomad)유목민 벌$(/l)을 교배해 얻습니다.",
       "anchor": "blazing"
     },
     {

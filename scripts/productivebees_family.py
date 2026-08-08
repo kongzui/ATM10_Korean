@@ -83,18 +83,21 @@ DYNAMIC_LOCALIZED_NAME_EXCEPTIONS = {
     "entity.productivebees.forgotten_bee": "잊힌 벌",
     "entity.productivebees.froststeel_bee": "서리철 벌",
     "entity.productivebees.regalium_bee": "레갈륨 벌",
+    "entity.productivebees.unobtainium_bee": "Unobtainium 벌",
     "entity.productivebees.utheric_bee": "우테릭 벌",
+    "entity.productivebees.vibranium_bee": "Vibranium 벌",
 }
 DYNAMIC_NAME_TEMPLATES = {
     "item.productivebees.honeycomb_configurable": "%s의 벌집 조각",
     "block.productivebees.comb_configurable": "%s의 벌집 블록",
 }
 QUALITY_REVIEW_COUNTS = {
-    "productivebees": {"reused": 891, "corrected": 227, "new": 0},
-    "modularbees": {"reused": 41, "corrected": 13, "new": 0},
-    "guides": {"reused": 209, "corrected": 122, "new": 0},
-    "ftbquests": {"reused": 414, "corrected": 152, "new": 0},
-    "overall": {"reused": 1555, "corrected": 514, "new": 0},
+    "productivebees": {"reused": 1040, "corrected": 78, "new": 0},
+    "modularbees": {"reused": 48, "corrected": 6, "new": 0},
+    "guides": {"reused": 302, "corrected": 29, "new": 0},
+    "ftbquests": {"reused": 411, "corrected": 155, "new": 0},
+    "productivetrees": {"reused": 4, "corrected": 1, "new": 0},
+    "overall": {"reused": 1805, "corrected": 269, "new": 0},
 }
 RELATED_BILINGUAL_BEE = {
     "key": "entity.productivebees.uru_metal_bee",
@@ -105,15 +108,33 @@ RELATED_BILINGUAL_BEE = {
     "work": PROJECT_ROOT / "working/silentgear/sgearmetalworks/ko_kr.json",
     "output": OUTPUT_ASSETS / "sgearmetalworks/lang/ko_kr.json",
 }
-OUT_OF_SCOPE_DYNAMIC_BEES = [
-    {
-        "key": "entity.productivebees.allergy_bee",
-        "source": "Allergy Bee",
-        "current_target": "알레르기 벌",
-        "provider": "Productive Trees",
-        "reason": "자원·재료 기반 벌이 아니므로 이번 작업에서 제외",
-    }
-]
+PRODUCTIVE_TREES_INTEGRATION = {
+    "jar_prefix": "productivetrees-",
+    "work": PROJECT_ROOT / "working/productivetrees/ko_kr.json",
+    "output": OUTPUT_ASSETS / "productivetrees/lang/ko_kr.json",
+    "values": {
+        "entity.productivebees.allergy_bee": ("Allergy Bee", "알레르기 벌"),
+        "productivebees.ingredient.description.allergy_bee": (
+            "Puts in an extra effort to collect pollen so your allergies don't act up "
+            "while working with trees.",
+            "나무 작업 중 알레르기가 생기지 않도록 꽃가루를 더 열심히 모읍니다.",
+        ),
+        "productivebees.devices.advanced_beehive": (
+            "Advanced Beehive",
+            "고급 벌통",
+        ),
+        "productivetrees.devices.advanced_beehive": (
+            "Advanced Beehive",
+            "고급 벌통",
+        ),
+        "productivetrees.information.upgrade.upgrade_pollen_sieve.advanced_hive": (
+            "With this upgrade installed in the hive some pollen collected by bees will "
+            "be sifted and deposited in the hive.",
+            "이 업그레이드를 벌통에 설치하면 벌이 수집한 꽃가루 일부를 걸러 벌통에 "
+            "보관합니다.",
+        ),
+    },
+}
 DYNAMIC_NAME_CLASS_CONSTANTS = {
     "cy/jdkdigital/productivebees/common/item/Honeycomb.class": (
         b"entity.productivebees.",
@@ -232,6 +253,43 @@ def verify_related_bilingual_bee(instance: Path) -> tuple[dict[str, object], lis
         "target": target,
         "jar": jar.name,
         "exact_target_verified": target == "우루 금속 벌",
+    }, errors
+
+
+def verify_productive_trees_integration(
+    instance: Path,
+) -> tuple[dict[str, object], list[str]]:
+    """Productive Trees가 소유한 Productive Bees 직접 연동 문구를 확인한다."""
+    errors: list[str] = []
+    jar = find_jar(instance, str(PRODUCTIVE_TREES_INTEGRATION["jar_prefix"]))
+    with ZipFile(jar) as archive:
+        english = load_json(archive, "assets/productivetrees/lang/en_us.json")
+
+    work = PRODUCTIVE_TREES_INTEGRATION["work"]
+    output = PRODUCTIVE_TREES_INTEGRATION["output"]
+    assert isinstance(work, Path)
+    assert isinstance(output, Path)
+    work_values = json.loads(work.read_text(encoding="utf-8"))
+    output_values = json.loads(output.read_text(encoding="utf-8"))
+    values = PRODUCTIVE_TREES_INTEGRATION["values"]
+    assert isinstance(values, dict)
+    for key, pair in values.items():
+        source, target = pair
+        if english.get(key) != source:
+            errors.append(f"Productive Trees 연동 영어 원문 불일치: {key}")
+        if work_values.get(key) != target:
+            errors.append(f"Productive Trees 연동 작업본 불일치: {key}")
+        if output_values.get(key) != target:
+            errors.append(f"Productive Trees 연동 산출물 불일치: {key}")
+        errors.extend(validate_value(key, source, target))
+    if sha256(work) != sha256(output):
+        errors.append("Productive Trees 연동 작업본과 산출물 해시 불일치")
+    return {
+        "provider": "Productive Trees",
+        "jar": jar.name,
+        "display_keys_checked": len(values),
+        "keys": sorted(values),
+        "exact_targets_verified": not errors,
     }, errors
 
 
@@ -476,6 +534,11 @@ def verify_languages(instance: Path) -> tuple[list[dict[str, object]], list[str]
     related_bee, related_errors = verify_related_bilingual_bee(instance)
     errors.extend(related_errors)
     rows[0]["related_bilingual_comb_bee"] = related_bee
+    productive_trees, productive_trees_errors = verify_productive_trees_integration(
+        instance
+    )
+    errors.extend(productive_trees_errors)
+    rows[0]["productive_trees_integration"] = productive_trees
     return rows, errors
 
 
@@ -683,8 +746,35 @@ def verify_quests(
         "Red Shroombee",
         "Warped Shroombee",
     }
+    chapters, _ = quest_audit.parse_chapters(instance / "config/ftbquests/quests")
+    chapter = next(
+        (row for row in chapters if row["filename"] == QUEST_CHAPTER + ".snbt"),
+        None,
+    )
+    if chapter is None:
+        return {}, ["Productive Bees 전용 챕터를 찾지 못했습니다."]
+    tasks_by_key = {
+        f"task.{task['id']}.title": task
+        for quest in chapter["quests"]
+        for task in quest["tasks"]
+    }
+    omitted_single_item_titles = 0
     for key, source in english.items():
         if key not in korean:
+            task = tasks_by_key.get(key)
+            if (
+                task
+                and task["type"] == "item"
+                and "ftbfiltersystem:smart_filter" not in task["item_id"]
+            ):
+                namespace, _, item_path = task["item_id"].partition(":")
+                item_name = translations.get(
+                    f"item.{namespace}.{item_path}",
+                    translations.get(f"block.{namespace}.{item_path}", ""),
+                )
+                if item_name:
+                    omitted_single_item_titles += 1
+                    continue
             errors.append(f"퀘스트 번역 키 누락: {key}")
             continue
         target = korean[key]
@@ -697,13 +787,6 @@ def verify_quests(
             if source_flat not in allowed_same:
                 errors.append(f"분류되지 않은 퀘스트 영어 유지: {key}={source_flat}")
 
-    chapters, _ = quest_audit.parse_chapters(instance / "config/ftbquests/quests")
-    chapter = next(
-        (row for row in chapters if row["filename"] == QUEST_CHAPTER + ".snbt"),
-        None,
-    )
-    if chapter is None:
-        return {}, errors + ["Productive Bees 전용 챕터를 찾지 못했습니다."]
     custom_names = [
         task
         for quest in chapter["quests"]
@@ -717,7 +800,7 @@ def verify_quests(
     for quest in chapter["quests"]:
         for task in quest["tasks"]:
             key = f"task.{task['id']}.title"
-            if key not in english:
+            if key not in english or key not in korean:
                 continue
             explicit += 1
             if (
@@ -756,6 +839,7 @@ def verify_quests(
         "tasks_checked": sum(len(row["tasks"]) for row in chapter["quests"]),
         "display_keys_checked": len(english),
         "explicit_task_titles_checked": explicit,
+        "omitted_single_item_task_titles": omitted_single_item_titles,
         "custom_names": len(custom_names),
         "redundant_single_item_task_titles": len(redundant),
         "related_tasks_outside_chapter_checked": len(related),
@@ -778,6 +862,9 @@ def expected_deployment_sources() -> dict[str, Path]:
         ),
         "resourcepacks/ATM10_Korean/assets/modularbees/lang/ko_kr.json": (
             OUTPUT_ASSETS / "modularbees/lang/ko_kr.json"
+        ),
+        "resourcepacks/ATM10_Korean/assets/productivetrees/lang/ko_kr.json": (
+            OUTPUT_ASSETS / "productivetrees/lang/ko_kr.json"
         ),
     }
     for _, namespace, book in TARGETS:
@@ -886,6 +973,8 @@ def verify(
     )
     related_bee = languages[0]["related_bilingual_comb_bee"]
     assert isinstance(related_bee, dict)
+    productive_trees = languages[0]["productive_trees_integration"]
+    assert isinstance(productive_trees, dict)
     dynamic_names = {
         "bilingual_resource_bees": languages[0]["bilingual_comb_bees"] + 1,
         "productivebees_language_bees": languages[0]["bilingual_comb_bees"],
@@ -909,17 +998,19 @@ def verify(
             )
         },
         "display_paths_checked": languages[0]["dynamic_name_paths_checked"],
-        "out_of_scope_same_mechanism": OUT_OF_SCOPE_DYNAMIC_BEES,
+        "direct_integrations": [productive_trees],
         "remaining": (
             len(DYNAMIC_NAME_CLASS_CONSTANTS)
             - len(languages[0]["dynamic_name_paths_checked"])
             + (0 if related_bee["exact_target_verified"] else 1)
+            + (0 if productive_trees["exact_targets_verified"] else 1)
         ),
         "status": (
             "passed"
             if len(languages[0]["dynamic_name_paths_checked"])
             == len(DYNAMIC_NAME_CLASS_CONSTANTS)
             and related_bee["exact_target_verified"]
+            and productive_trees["exact_targets_verified"]
             else "failed"
         ),
     }
@@ -980,6 +1071,18 @@ def verify(
                 "existing_korean_corrected"
             ],
             "quest_newly_translated": build_report["ftbquests"]["newly_translated"],
+            "productive_trees_integration_keys": productive_trees[
+                "display_keys_checked"
+            ],
+            "productive_trees_existing_korean_reused": QUALITY_REVIEW_COUNTS[
+                "productivetrees"
+            ]["reused"],
+            "productive_trees_existing_korean_corrected": QUALITY_REVIEW_COUNTS[
+                "productivetrees"
+            ]["corrected"],
+            "productive_trees_newly_translated": QUALITY_REVIEW_COUNTS[
+                "productivetrees"
+            ]["new"],
             "visible_values": sum(QUALITY_REVIEW_COUNTS["overall"].values()),
             "existing_korean_reused": QUALITY_REVIEW_COUNTS["overall"]["reused"],
             "existing_korean_corrected": QUALITY_REVIEW_COUNTS["overall"]["corrected"],

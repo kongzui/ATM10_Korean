@@ -7,7 +7,7 @@
     {
       "type": "patchouli:text",
       "title": "고대의 벌",
-      "text": "$(l:bees/hive/diamond)다이아몬드 벌$(/l)에서 변환되어 네더라이트 블록을 공급합니다.",
+      "text": "$(l:bees/hive/diamond)다이아몬드 벌$(/l)에게 네더라이트 블록을 먹이면 변환됩니다.",
       "anchor": "netherite"
     },
     {

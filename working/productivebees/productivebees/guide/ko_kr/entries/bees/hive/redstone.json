@@ -7,7 +7,7 @@
     {
       "type": "patchouli:text",
       "title": "레드스톤 벌",
-      "text": "$(l:bees/wild/glowing)빛나는 벌$(/l) 및 $(l:bees/solitary/chocolate_mining)초콜릿 채굴 벌$(/l)에서 번식합니다.",
+      "text": "$(l:bees/wild/glowing)빛나는 벌$(/l)과 $(l:bees/solitary/chocolate_mining)초콜릿 채굴 벌$(/l)을 교배해 얻습니다.",
       "anchor": "redstone"
     },
     {

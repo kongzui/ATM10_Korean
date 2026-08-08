@@ -7,7 +7,7 @@
     {
       "type": "patchouli:text",
       "title": "청금석 벌",
-      "text": "$(l:bees/hive/redstone)레드스톤 벌$(/l) 및 $(l:bees/solitary/blue_banded)파란색 줄무늬 벌$(/l)에서 번식합니다.",
+      "text": "$(l:bees/hive/redstone)레드스톤 벌$(/l)과 $(l:bees/solitary/blue_banded)파란색 줄무늬 벌$(/l)을 교배해 얻습니다.",
       "anchor": "lapis"
     },
     {

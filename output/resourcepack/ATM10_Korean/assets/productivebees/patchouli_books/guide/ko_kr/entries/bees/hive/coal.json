@@ -7,7 +7,7 @@
     {
       "type": "patchouli:text",
       "title": "석탄 벌",
-      "text": "$(l:bees/hive/redstone)Blazing Bee$(/l) 및 $(l:bees/solitary/leafcutter)나뭇잎꾼 벌$(/l)에서 번식합니다.",
+      "text": "$(l:bees/hive/redstone)BlazBee$(/l)와 $(l:bees/solitary/leafcutter)가위벌$(/l)을 교배해 얻습니다.",
       "anchor": "coal"
     },
     {
