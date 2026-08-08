@@ -1,0 +1,40 @@
+{
+  "family": "quarry_power",
+  "language_keys": 374,
+  "namespace_keys": {
+    "quarryplus": 240,
+    "generatorgalore": 70,
+    "energymeter": 64
+  },
+  "existing_korean_reused": 118,
+  "new_or_corrected_translations": 266,
+  "guide_direct_strings": 1,
+  "ftbquests": {
+    "reviewed_keys": 9,
+    "corrected_keys": 5,
+    "reviewed_reused_keys": 4
+  },
+  "kubejs_references": 15,
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/quarryplus/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/generatorgalore/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/energymeter/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/energymeter/guideme_guides/guide.json",
+    "config/ftbquests/quests/lang/ko_kr.snbt"
+  ],
+  "errors": [],
+  "status": "complete",
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "resourcepacks/ATM10_Korean/assets/energymeter/guideme_guides/guide.json",
+      "resourcepacks/ATM10_Korean/assets/energymeter/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/generatorgalore/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/quarryplus/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260808_113015_349585/backup_manifest.json",
+    "errors": []
+  }
+}

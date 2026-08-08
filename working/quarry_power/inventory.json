@@ -1,0 +1,31 @@
+{
+  "family": "quarry_power",
+  "namespaces": [
+    {
+      "namespace": "quarryplus",
+      "jar": "AdditionalEnchantedMiner-1.21.1-neoforge-21.1.153.jar",
+      "jar_size": 694672,
+      "jar_mtime_ns": 1783222488947516300,
+      "english_keys": 240,
+      "bundled_korean": true
+    },
+    {
+      "namespace": "generatorgalore",
+      "jar": "generatorgalore-1.21.1-1.6.3.jar",
+      "jar_size": 397687,
+      "jar_mtime_ns": 1783222345987572000,
+      "english_keys": 70,
+      "bundled_korean": false
+    },
+    {
+      "namespace": "energymeter",
+      "jar": "energymeter-neoforge-1.21.1-0.4.1.jar",
+      "jar_size": 394466,
+      "jar_mtime_ns": 1783222262427942600,
+      "english_keys": 64,
+      "bundled_korean": false
+    }
+  ],
+  "english_keys": 374,
+  "status": "prepared"
+}

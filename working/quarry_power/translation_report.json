@@ -1,0 +1,13 @@
+{
+  "reviewed_language_keys": 374,
+  "namespace_keys": {
+    "quarryplus": 240,
+    "generatorgalore": 70,
+    "energymeter": 64
+  },
+  "quarryplus_existing_korean_reused": 114,
+  "quarryplus_corrected": 126,
+  "new_language_translations": 134,
+  "guide_direct_strings": 1,
+  "status": "complete"
+}

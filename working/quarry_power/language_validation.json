@@ -1,0 +1,45 @@
+{
+  "family": "quarry_power",
+  "namespaces": [
+    {
+      "namespace": "quarryplus",
+      "keys": 240,
+      "existing_korean_reused": 114,
+      "new_or_corrected": 126,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    {
+      "namespace": "generatorgalore",
+      "keys": 70,
+      "existing_korean_reused": 0,
+      "new_or_corrected": 70,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    {
+      "namespace": "energymeter",
+      "keys": 64,
+      "existing_korean_reused": 0,
+      "new_or_corrected": 64,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    }
+  ],
+  "guide": {
+    "source": "assets/energymeter/guideme_guides/guide.json",
+    "translated_direct_strings": 1,
+    "matches_expected": true
+  },
+  "keys": 374,
+  "existing_korean_reused": 114,
+  "new_or_corrected_language_keys": 260,
+  "errors": [],
+  "status": "complete"
+}
