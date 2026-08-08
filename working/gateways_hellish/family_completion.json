@@ -1,0 +1,46 @@
+{
+  "family": "gateways_hellish",
+  "versions": {
+    "gateways": "5.1.0",
+    "hellish_trials": "1.0.5"
+  },
+  "language_keys": 96,
+  "gateway_data_strings": 1,
+  "hellish_nbt_strings": 21,
+  "ftbquests": {
+    "new_keys": 3,
+    "corrected_keys": 1,
+    "reviewed_existing_keys": 2
+  },
+  "kubejs_corrected_strings": 2,
+  "existing_korean_reused": 2,
+  "new_or_corrected_translations": 124,
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/gateways/lang/ko_kr.json",
+    "config/ftbquests/quests/lang/ko_kr.snbt",
+    "kubejs/client_scripts/tooltips.js",
+    "kubejs/data/gateways/gateways/hellish_fortress.json",
+    "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_corridor_3.nbt",
+    "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_main_0.nbt",
+    "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_vault_0_normal.nbt",
+    "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_vault_1_ominous.nbt"
+  ],
+  "errors": [],
+  "status": "complete",
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "changed_paths": [
+      "config/ftbquests/quests/lang/ko_kr.snbt",
+      "kubejs/client_scripts/tooltips.js",
+      "kubejs/data/gateways/gateways/hellish_fortress.json",
+      "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_corridor_3.nbt",
+      "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_main_0.nbt",
+      "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_vault_0_normal.nbt",
+      "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_vault_1_ominous.nbt",
+      "resourcepacks/ATM10_Korean/assets/gateways/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260808_110653_839427/backup_manifest.json",
+    "errors": []
+  }
+}

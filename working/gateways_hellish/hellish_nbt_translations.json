@@ -1,0 +1,131 @@
+[
+  {
+    "source": "data/hellish_trials/structure/nether_trial/nether_trial_corridor_3.nbt",
+    "output": "output/overrides/kubejs/data/hellish_trials/structure/nether_trial/nether_trial_corridor_3.nbt",
+    "translations": [
+      {
+        "path": "/entities/0/nbt/HandItems/0/components/minecraft:custom_name",
+        "source": "\"Azariel's Bow\"",
+        "target": "\"아자리엘의 활\""
+      },
+      {
+        "path": "/entities/1/nbt/Item/components/minecraft:custom_name",
+        "source": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Arrow of Instant Death\"}",
+        "target": "{\"color\":\"gold\",\"italic\":false,\"text\":\"즉사의 화살\"}"
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:custom_name",
+        "source": "\"Azariel's Journey\"",
+        "target": "\"아자리엘의 여정\""
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/0/raw",
+        "source": " I'm Azariel, I was born in a small village in the north of Iridel.\n I've not been a man of honor from birth, I have not achieved it by myself either.\n Puberty hit me real bad, got mad at my parents and left my hometown on a rebellious episode with nothing more than my bow;",
+        "target": " 나는 아자리엘이다. 이리델 북부의 작은 마을에서 태어났다.\n 태어날 때부터 명예로운 사람은 아니었고, 스스로 명예를 이룬 적도 없었다.\n 사춘기를 몹시 거칠게 보내며 부모님께 화를 내고, 활 하나만 든 채 반항심에 고향을 떠났다."
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/1/raw",
+        "source": "and a deep need for something I never had.\n ",
+        "target": "그리고 한 번도 가져 본 적 없는 무언가를 간절히 원했다.\n "
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/2/raw",
+        "source": "1687. T.A.        Somath.         \nThe first months I spent just trying to survive, keeping myself alive in the forest, rapidly I found out that my little adventure was not giving me what I wanted. It certainly helped me to get away from a life I never wished for.",
+        "target": "1687년 T.A.        소마스.         \n처음 몇 달은 숲에서 살아남으려 애쓰는 데 썼다. 얼마 지나지 않아 이 작은 모험으로는 원하는 것을 얻을 수 없다는 걸 깨달았다. 적어도 원치 않던 삶에서는 벗어날 수 있었다."
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/3/raw",
+        "source": "Spending my whole life as a blacksmith was something I couldn't bear. My first years learning the profession were not bad at all. Although it didn't take me long to realize I was longing for something more.",
+        "target": "평생 대장장이로 사는 것은 견딜 수 없었다. 처음 몇 년간 일을 배우는 건 나쁘지 않았지만, 더 많은 것을 갈망하고 있다는 걸 깨닫는 데 오래 걸리지 않았다."
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/4/raw",
+        "source": "1687. T.A.      Wedmath.\n My little escapade may have gotten out of hand. I'm thinking about going back home, this has not fulfilled me the way I expected it. \n I don't know what fate has in store for me. Maybe there is another way. \n But i'm not ready to go back just yet.",
+        "target": "1687년 T.A.      웨드마스.\n 짧은 일탈이 걷잡을 수 없이 커진 듯하다. 집으로 돌아갈까 생각 중이다. 기대했던 것은 얻지 못했다. \n 운명이 무엇을 준비했는지는 모른다. 다른 길이 있을지도 모른다. \n 하지만 아직 돌아갈 준비는 되지 않았다."
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/5/raw",
+        "source": "I'm not going to prolong this indefinitely. But I feel this is an opportunity I can't waste. I have to get something out of it. Travelling in the forest has felt like a waste of time, even more now since I´ve improved my surviving skills.\n I can survive on my own, but what's the  \n",
+        "target": "이 일을 끝없이 끌지는 않겠다. 하지만 놓칠 수 없는 기회라는 생각이 든다. 여기서 무언가를 얻어야 한다. 숲을 떠도는 건 시간 낭비처럼 느껴졌다. 생존 기술이 늘어난 지금은 더 그렇다.\n 혼자서 살아남을 수는 있지만, 그게 무슨  \n"
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/6/raw",
+        "source": "point in just surviving?\n\n I've heard some rumors, some mythus about a place that looks promising, not a very well-known tale in my town, but yet I feel it may be what i'm looking for. ",
+        "target": "살아남기만 하는 데 무슨 의미가 있을까?\n\n 유망해 보이는 장소에 관한 소문과 전설을 들었다. 우리 마을에서는 잘 알려지지 않은 이야기지만, 내가 찾던 곳일지도 모른다는 생각이 든다. "
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/7/raw",
+        "source": "1691. T.A.     Forelithe.\n This is hell. It was not a metaphor, they were not exaggerating, I am literally in hell. I´ve seen creatures I never thought could exist, I hear cryings everywhere, thw wwalls screamm, I hear voices that tell me things, horrbile things, I can't even tell if Iam the one who says them ",
+        "target": "1691년 T.A.     포어라이스.\n 여기는 지옥이다. 비유가 아니었고, 과장도 아니었다. 나는 말 그대로 지옥에 있다. 상상도 못 한 생물들을 보았고, 어디서나 울음소리가 들린다. 벽이 비명을 지르고, 목소리들이 끔찍한 말을 속삭인다. 그 말을 내가 하는 것인지조차 알 수 없다. "
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/8/raw",
+        "source": "I feel my mouth moving by itself. I hear noises that deafen me, see things that I wish I never had seen, the creatures here hate me, everything hates me, I hate me.\n This is not like in the forest, I don't know what i got myself into, I encountered some travelers, they seemed trustworthy",
+        "target": "내 입이 저절로 움직이는 느낌이다. 귀를 멀게 하는 소리가 들리고, 보지 말았어야 할 것들이 보인다. 이곳의 생물들은 나를 증오하고, 모든 것이 나를 증오하며, 나도 나를 증오한다.\n 숲과는 다르다. 내가 무슨 일에 뛰어들었는지 모르겠다. 몇몇 여행자를 만났고, 믿을 만해 보였다."
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/9/raw",
+        "source": "we were supposed to come here together, at least that is what they told me, I got into the portal first, never saw them again, I couldn´t find the way back, I just want to go back with my mom.",
+        "target": "함께 오기로 했다고, 적어도 그들은 그렇게 말했다. 내가 먼저 차원문에 들어왔고, 그 뒤로 다시는 보지 못했다. 돌아가는 길도 찾지 못했다. 그저 엄마에게 돌아가고 싶다."
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/10/raw",
+        "source": " I've been wandering around these catacombs for way too long now. I don't  know how many years its been. Gathering resources and gearing up for what awaits me in that dome.\n All this time, all this suffering can't be in vain. I'm not going back until I end every source of life in here. ",
+        "target": " 이 지하 묘지를 너무 오래 헤맸다. 몇 년이 지났는지도 모르겠다. 자원을 모으고 장비를 갖추며 저 돔 안에서 기다리는 것에 대비하고 있다.\n 이 모든 시간과 고통을 헛되게 할 수는 없다. 이곳의 모든 생명을 끝내기 전에는 돌아가지 않겠다. "
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/11/raw",
+        "source": "Many myths have been told around what's to expect in there.\n Some even say whoever emerge victorious from that dome will be granted their most deep desires, what they've been devoided of, what their soul cries for. There is where desires really come true.",
+        "target": "그 안에서 무엇을 만나게 될지 수많은 전설이 전해진다.\n 어떤 이야기는 돔에서 승리한 자가 가장 깊은 소망, 빼앗긴 것, 영혼이 울부짖으며 원하는 것을 받는다고 한다. 그곳에서 소원이 진짜로 이루어진다고."
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/12/raw",
+        "source": "The thing is... I can't believe in any of that crap. \n I am a man of faith, but i want nothing more than to come back home being something else than a scoundrel. Someone to respect. \n I don't know what brings you here, I don't know if the rumors are true, and",
+        "target": "하지만... 그런 헛소리는 믿을 수 없다. \n 나는 신앙심이 있는 사람이다. 하지만 악당이 아닌, 존중받는 누군가가 되어 고향에 돌아가고 싶을 뿐이다. \n 무엇이 너를 여기로 데려왔는지, 소문이 진실인지 나는 모르며,"
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/13/raw",
+        "source": "i never will.  \n Some part of me believes the tales are nothing but the essence of true human nature, yearning for something to have hope for.\n I'm not stirred for your mission, your longings, nor your life. But all of this can't be in vain. ",
+        "target": "앞으로도 영원히 모를 것이다.  \n 전설은 희망할 무언가를 갈망하는 인간 본성 그 자체일 뿐이라고 내 일부는 믿는다.\n 네 임무도, 갈망도, 목숨도 내 마음을 움직이지 않는다. 하지만 이 모든 것을 헛되게 할 수는 없다. "
+      },
+      {
+        "path": "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/14/raw",
+        "source": "Please, it all can not be in vain.",
+        "target": "부탁한다. 이 모든 것이 헛될 수는 없다."
+      }
+    ]
+  },
+  {
+    "source": "data/hellish_trials/structure/nether_trial/nether_trial_main_0.nbt",
+    "output": "output/overrides/kubejs/data/hellish_trials/structure/nether_trial/nether_trial_main_0.nbt",
+    "translations": [
+      {
+        "path": "/entities/0/nbt/CustomName",
+        "source": "{\"text\":\"Creeper of Eternal Edging\",\"color\":\"gold\"}",
+        "target": "{\"text\":\"끝없이 애태우는 크리퍼\",\"color\":\"gold\"}"
+      }
+    ]
+  },
+  {
+    "source": "data/hellish_trials/structure/nether_trial/nether_trial_vault_0_normal.nbt",
+    "output": "output/overrides/kubejs/data/hellish_trials/structure/nether_trial/nether_trial_vault_0_normal.nbt",
+    "translations": [
+      {
+        "path": "/blocks/0/nbt/config/key_item/components/minecraft:custom_name",
+        "source": "{\"bold\":true,\"color\":\"red\",\"italic\":false,\"text\":\"Nether Trial Key\"}",
+        "target": "{\"bold\":true,\"color\":\"red\",\"italic\":false,\"text\":\"네더 시련 열쇠\"}"
+      }
+    ]
+  },
+  {
+    "source": "data/hellish_trials/structure/nether_trial/nether_trial_vault_1_ominous.nbt",
+    "output": "output/overrides/kubejs/data/hellish_trials/structure/nether_trial/nether_trial_vault_1_ominous.nbt",
+    "translations": [
+      {
+        "path": "/blocks/0/nbt/config/key_item/components/minecraft:custom_name",
+        "source": "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"text\":\"Nether Trial Ominous Key\"}",
+        "target": "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"text\":\"불길한 네더 시련 열쇠\"}"
+      }
+    ]
+  }
+]

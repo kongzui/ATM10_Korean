@@ -1,0 +1,57 @@
+{
+  "family": "gateways_hellish",
+  "gateways_language_keys": 96,
+  "gateways_direct_data_strings": 1,
+  "hellish_language_files": [],
+  "hellish_guide_or_advancement_files": [],
+  "hellish_visible_nbt_paths": {
+    "data/hellish_trials/structure/nether_trial/nether_trial_corridor_3.nbt": [
+      "/entities/0/nbt/HandItems/0/components/minecraft:custom_name",
+      "/entities/1/nbt/Item/components/minecraft:custom_name",
+      "/entities/2/nbt/Item/components/minecraft:custom_name",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/0/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/1/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/2/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/3/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/4/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/5/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/6/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/7/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/8/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/9/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/10/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/11/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/12/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/13/raw",
+      "/entities/2/nbt/Item/components/minecraft:writable_book_content/pages/14/raw"
+    ],
+    "data/hellish_trials/structure/nether_trial/nether_trial_main_0.nbt": [
+      "/entities/0/nbt/CustomName"
+    ],
+    "data/hellish_trials/structure/nether_trial/nether_trial_vault_0_normal.nbt": [
+      "/blocks/0/nbt/config/key_item/components/minecraft:custom_name"
+    ],
+    "data/hellish_trials/structure/nether_trial/nether_trial_vault_1_ominous.nbt": [
+      "/blocks/0/nbt/config/key_item/components/minecraft:custom_name"
+    ]
+  },
+  "hellish_visible_nbt_strings": 21,
+  "ftbquests_reviewed": [
+    "quest.01EC5DB1A4A25B0B.quest_desc",
+    "quest.22E57BF23B9BA2C5.quest_desc",
+    "quest.6B5B01C612951BAF.quest_desc"
+  ],
+  "apotheosis_integration_keys": [
+    "apotheosis.endless_invader",
+    "apotheosis.tiered/ascent",
+    "apotheosis.tiered/frontier",
+    "apotheosis.tiered/pinnacle",
+    "apotheosis.tiered/summit"
+  ],
+  "kubejs_warning_lines": [
+    "§c경고: 다음 차원 밖에서는 3번째 웨이브에 붕괴합니다:",
+    "§c오버월드, 네더, 엔드, 황혼의 숲"
+  ],
+  "errors": [],
+  "status": "complete"
+}

@@ -1,0 +1,19 @@
+{
+  "family": "gateways_hellish",
+  "jars": [
+    {
+      "name": "GatewaysToEternity-1.21.1-5.1.0.jar",
+      "size": 646451,
+      "mtime_ns": 1783222495288436600
+    },
+    {
+      "name": "HellishTrials-neoforge-1.0.5.jar",
+      "size": 581988,
+      "mtime_ns": 1783222246645105800
+    }
+  ],
+  "gateways_english_keys": 96,
+  "gateways_bundled_korean": false,
+  "hellish_language_files": [],
+  "status": "prepared"
+}

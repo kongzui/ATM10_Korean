@@ -198,8 +198,8 @@ ItemEvents.modifyTooltips(allthemods => {
 	'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/summit"]',
 	'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/pinnacle"]'],
 	[
-		Text.of("§cWARNING: Will implode at wave 3 outside of the following dimensions:"),
-		Text.of("§cOverworld, The Nether, The End, The Twilight Forest")
+		Text.of("§c경고: 다음 차원 밖에서는 3번째 웨이브에 붕괴합니다:"),
+		Text.of("§c오버월드, 네더, 엔드, 황혼의 숲")
 	])
 	// Botany Pot Sculk
 	allthemods.add([

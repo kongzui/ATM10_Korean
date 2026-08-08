@@ -1,0 +1,40 @@
+{
+  "family": "gateways_hellish",
+  "language": {
+    "keys": 96,
+    "untranslated_candidates": [],
+    "latin_residue": {},
+    "unexpected_name_collisions": {},
+    "errors": []
+  },
+  "data": {
+    "gateway_json_verified": true,
+    "hellish_nbt_files": [
+      {
+        "path": "data/hellish_trials/structure/nether_trial/nether_trial_corridor_3.nbt",
+        "strings": 18,
+        "output_sha256": "df2e036d34cc7de96542353830f08b7f13d2d058b6f1b9abcb04d14bf7468098"
+      },
+      {
+        "path": "data/hellish_trials/structure/nether_trial/nether_trial_main_0.nbt",
+        "strings": 1,
+        "output_sha256": "cb3fccf61f06fa7b90c0318f9c6f871da9b35b3e4cf433011444f687048bede3"
+      },
+      {
+        "path": "data/hellish_trials/structure/nether_trial/nether_trial_vault_0_normal.nbt",
+        "strings": 1,
+        "output_sha256": "d13c318aa55f8e39d4380de2e95b09b92fcf1680f961c4cd4d9f7e31e705b268"
+      },
+      {
+        "path": "data/hellish_trials/structure/nether_trial/nether_trial_vault_1_ominous.nbt",
+        "strings": 1,
+        "output_sha256": "659e92552eee8f2adc42a561a1225f5c65c89c7ce2a4fbea84ae2725f26de2c5"
+      }
+    ],
+    "hellish_nbt_strings": 21,
+    "errors": []
+  },
+  "quest_language_keys": 8573,
+  "errors": [],
+  "status": "complete"
+}
