@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "동물에게서 $(l:agr_hus/sewage)오물$()을 수집하는 기계입니다. 자세한 과정은 굳이 알지 않는 편이 좋습니다."
+      "text": "동물에게서 $(l:agr_hus/sewage)오물$()을 모으고 경험치를 흡수해 정수로 바꾸는 기계입니다."
     },
     {
       "type": "crafting",

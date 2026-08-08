@@ -1,5 +1,5 @@
 {
-  "name": "에테르 가스(버킷)",
+  "name": "에테르 가스(양동이)",
   "icon": "industrialforegoing:ether_gas_bucket",
   "category": "industrialforegoing:resource_production",
   "sortnum": 13,
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "위더 바로 위에 $(l:resource_production/fluid_laser_base)유체 레이저 베이스$()를 놓았을 때 생성되는 액체입니다."
+      "text": "$(l:resource_production/fluid_laser_base)유체 레이저 베이스$()를 위더 바로 위에 놓았을 때 생산하는 유체입니다."
     }
   ]
 }

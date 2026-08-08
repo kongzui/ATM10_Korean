@@ -82,22 +82,45 @@
         "data/industrialforegoingsouls/advancement/recipes/misc/soul_surge.json"
       ],
       "recipes": 7
+    },
+    {
+      "label": "More Industrial Foregoing Addons",
+      "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
+      "namespace": "mifa",
+      "direct_integration": true,
+      "language_target": true,
+      "english_keys": 3,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "industrialforegoing",
+        "mifa"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
+    },
+    {
+      "label": "Soulplied Energistics",
+      "jar": "soulplied_energistics-1.0.2.jar",
+      "namespace": "soulplied_energistics",
+      "direct_integration": true,
+      "language_target": true,
+      "english_keys": 4,
+      "bundled_korean_keys": 0,
+      "metadata_mentions_family": [
+        "industrialforegoing",
+        "industrialforegoingsouls",
+        "soulplied_energistics"
+      ],
+      "guide_candidates": 0,
+      "guide_examples": [],
+      "advancements": 0,
+      "advancement_examples": [],
+      "recipes": 0
     }
   ],
   "extra_scope": [],
-  "other_dependency_mentions": [
-    {
-      "jar": "mifa-neoforge-1.21.x-2.1.0.jar",
-      "dependency_mentions": [
-        "industrialforegoing"
-      ]
-    },
-    {
-      "jar": "soulplied_energistics-1.0.2.jar",
-      "dependency_mentions": [
-        "industrialforegoing",
-        "industrialforegoingsouls"
-      ]
-    }
-  ]
+  "other_dependency_mentions": []
 }

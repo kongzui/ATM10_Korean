@@ -242,6 +242,314 @@ LOCATION_OVERRIDES = {
     ),
 }
 
+LOCATION_OVERRIDES.update(
+    {
+        ("entries/agr_hus/animal_feeder.json", "text"): (
+            "동물의 먹이를 공급하면 동물에게 $(6)먹이를 주어$() 번식시킵니다."
+        ),
+        ("entries/agr_hus/essence.json", "name"): "정수(양동이)",
+        ("entries/agr_hus/meat.json", "name"): "액상 고기(양동이)",
+        ("entries/agr_hus/meat.json", "text"): (
+            "$(l:agr_hus/mob_slaughter_factory)몹 도살 공장$()에서 생산하는 유체입니다."
+        ),
+        ("entries/agr_hus/pink_slime.json", "name"): "분홍색 슬라임(양동이)",
+        ("entries/agr_hus/pink_slime.json", "text"): (
+            "$(l:agr_hus/mob_slaughter_factory)몹 도살 공장$()에서 생산하는 유체입니다."
+        ),
+        ("entries/agr_hus/plant_fertilizer.json", "text"): (
+            "식물에 $(6)뼛가루를 사용$()하는 기계입니다.$(br2)다음 식물로 넘어가기 "
+            "전에 현재 작물이 더 이상 뼛가루를 받지 않을 때까지 계속 비료를 "
+            "줍니다. 따라서 $(6)해바라기$()처럼 뼛가루를 계속 받는 식물이나 최종 "
+            "성장 단계에 도달하지 않는 식물에서는 작업이 멈출 수 있습니다."
+        ),
+        ("entries/agr_hus/plant_fertilizer.json", "pages.1.text"): (
+            "식물 비료 공급기는 다음 아이템을 받습니다: " "$(br)$(li)뼛가루 $(li)비료"
+        ),
+        ("entries/agr_hus/plant_gatherer.json", "pages.1.text"): (
+            "식물 수확기는 우클릭으로 수확할 수 있는 작물도 직접 부숴 수확합니다. "
+            "하지만 에테르 가스를 조금 공급하면 작물을 자동으로 다시 심습니다."
+        ),
+        ("entries/agr_hus/sewage.json", "name"): "오물(양동이)",
+        ("entries/agr_hus/sewage.json", "text"): (
+            "$(l:agr_hus/sewer)오물통$()에서 생산하는 유체입니다. 자세한 내용은 "
+            "굳이 알지 않는 편이 좋습니다."
+        ),
+        ("entries/agr_hus/sewage_composter.json", "text"): (
+            "$(l:agr_hus/sewage)오물$()을 공급하면 "
+            "$(l:agr_hus/fertilizer)비료$()를 생산합니다."
+        ),
+        ("entries/agr_hus/sewer.json", "text"): (
+            "동물에게서 $(l:agr_hus/sewage)오물$()을 모으고 경험치를 흡수해 "
+            "정수로 바꾸는 기계입니다."
+        ),
+        ("entries/agr_hus/simulated_hydroponic_bed.json", "text"): (
+            "전력을 공급하면 수경 재배 모의 처리기의 작물 데이터를 바탕으로 "
+            "생산물을 생성합니다."
+        ),
+        ("entries/agr_hus/sludge.json", "name"): "슬러지(양동이)",
+        ("entries/basics/addons.json", "text"): (
+            "작업 영역이 있는 기계의 범위를 늘립니다. 모든 기계가 범위 업그레이드를 "
+            "받는 것은 아닙니다. 등급이 오를 때마다 범위가 1씩 증가합니다."
+        ),
+        ("entries/basics/addons.json", "pages.1.text"): (
+            "매 틱 진행 막대가 차는 양을 늘립니다. " "$(br2)1등급 -> +1$(br)2등급 -> +2"
+        ),
+        ("entries/basics/addons.json", "pages.2.title"): "효율",
+        ("entries/basics/addons.json", "pages.2.text"): (
+            "작업 한 번을 완료하는 데 필요한 틱 수를 줄입니다. "
+            "$(br2)1등급 -> -10%$(br)2등급 -> -20%"
+        ),
+        ("entries/basics/addons.json", "pages.3.text"): (
+            "기계가 처리를 마칠 때 완료하는 작업 횟수를 늘립니다. "
+            "$(br2)1등급 -> 작업 +1회 $(br)2등급 -> 작업 +2회"
+        ),
+        ("entries/basics/dissolution_chamber.json", "text"): (
+            "아이템 최대 $(6)8$()개와 유체 최대 $(6)1$()종류를 사용해 재료를 "
+            "제작하는 강력한 기계입니다. 아이템이나 유체를 생산할 수 있습니다."
+            "$(br2)모든 조합법은 무형이므로 재료를 어느 슬롯에 넣어도 됩니다."
+            "$(br2)조합법이 완성되면 추가 아이템이 들어오지 않도록 모든 슬롯을 "
+            "잠급니다."
+        ),
+        ("entries/basics/fluid_extractor.json", "pages.1.text"): (
+            "$(br2)$(6)원목마다 라텍스 생산량이 다릅니다. 생산량은 JEI에서 "
+            "확인하세요. $(6)전력 공급은 선택 사항이며, 공급하면 더 빨리 작동합니다."
+        ),
+        ("entries/generators/biofuel_generator.json", "text"): (
+            "$(l:generators/biofuel)바이오연료$()로 $(6)160$()RF/t를 생산하는 "
+            "발전기입니다.$(br2)내부 전력 버퍼가 가득 차면 연료 소비를 멈춥니다."
+        ),
+        ("entries/generators/pity.json", "name"): "조악한 발전기",
+        ("entries/generators/pity.json", "text"): (
+            "석탄 같은 가연성 연료를 사용하는 매우 비효율적인 발전기입니다."
+            "$(br2)내부 전력 버퍼가 가득 차도 연료를 계속 소비할 정도로 "
+            "비효율적입니다."
+        ),
+        ("entries/misc/enchantment_factory.json", "text"): (
+            "대량의 $(l:agr_hus/essence)정수$()와 아이템을 공급하면 해당 아이템에 "
+            "무작위 $(6)30$()레벨 마법을 부여합니다."
+        ),
+        ("entries/misc/enchantment_sorter.json", "text"): (
+            "마법이 부여된 아이템과 그렇지 않은 아이템을 분류합니다."
+        ),
+        ("entries/misc/mob_detector.json", "text"): (
+            "앞쪽의 개체 수를 감지해, 감지한 수와 같은 세기의 레드스톤 신호를 "
+            "뒤쪽으로 출력합니다."
+        ),
+        ("entries/resource_production/block_breaker.json", "text"): (
+            "앞의 블록을 부숴 내부 인벤토리에 넣습니다. 작업할 때마다 "
+            "$(6)1000$()RF를 사용합니다."
+        ),
+        ("entries/resource_production/block_placer.json", "text"): (
+            "블록을 배치합니다.$(br2)내부 인벤토리의 블록을 앞에 배치하며, "
+            "작업할 때마다 $(6)1000$()RF를 사용합니다."
+        ),
+        ("entries/resource_production/ether_gas.json", "name"): ("에테르 가스(양동이)"),
+        ("entries/resource_production/ether_gas.json", "text"): (
+            "$(l:resource_production/fluid_laser_base)유체 레이저 베이스$()를 위더 "
+            "바로 위에 놓았을 때 생산하는 유체입니다."
+        ),
+        ("entries/resource_production/fermentation_station.json", "text"): (
+            "생광석 고기가 설정한 양에 도달하면 내용물을 밀봉하고, 선택한 생산 "
+            "방식으로 고기를 발효합니다."
+        ),
+        ("entries/resource_production/fluid_collector.json", "text"): (
+            "앞의 유체 원천 블록을 빨아들입니다.$(br2)내부 탱크의 유체를 배치하며 "
+            "$(6)1000$()RF를 사용합니다."
+        ),
+        ("entries/resource_production/fluid_laser_base.json", "text"): (
+            "$(l:resource_production/laser_drill)레이저 드릴$()로 완전히 충전하면 "
+            "유체를 생산합니다. 소모되지 않는 특정 촉매가 필요하며, 기계를 특정 "
+            "생물군계에 설치하고 특정 깊이로 설정해야 합니다.$(br2)일부 유체는 "
+            "기계 아래에 특정 개체가 있어야 생산됩니다.$(br2)정확한 조건은 "
+            "JEI에서 확인하세요."
+        ),
+        ("entries/resource_production/fluid_placer.json", "text"): (
+            "유체를 배치합니다.$(br2)내부 탱크의 유체를 앞에 배치하며 "
+            "$(6)1000$()RF를 사용합니다."
+        ),
+        ("entries/resource_production/fluid_sieving_machine.json", "text"): (
+            "발효 광석 고기와 모래를 사용해, 고기를 처음 만들 때 사용한 광석의 "
+            "가루로 바꿉니다."
+        ),
+        ("entries/resource_production/mechanical_dirt.json", "pages.1.text"): (
+            "연결된 블록 하나에 $(6)전력$()이나 $(6)액상 고기$()를 공급하면 모든 "
+            "연결 블록에 똑같이 나누어집니다."
+        ),
+        ("entries/resource_production/ore_laser_base.json", "text"): (
+            "$(l:resource_production/laser_drill)레이저 드릴$()로 완전히 충전하면 "
+            "광석을 생산합니다. 각 광석의 가중치는 기계가 있는 생물군계와 설정한 "
+            "채굴 깊이에 따라 달라집니다.$(br2)레이저 렌즈는 해당 색상 광석의 "
+            "가중치를 높입니다.$(br2)정확한 값은 JEI에서 확인하세요."
+        ),
+        ("entries/resource_production/resourceful_furnace.json", "text"): (
+            "화로 3대를 하나로 합친 기계입니다.$(br2)아이템 하나를 제련할 때마다 "
+            "정수 $(6)2$()mb를 생산하며, $(6)40$()RF/t를 사용합니다."
+        ),
+        ("entries/resource_production/washing_factory.json", "text"): (
+            "액상 고기와 광석을 사용해 해당 광석의 생광석 고기를 만듭니다."
+        ),
+        ("entries/resource_production/water_condensator.json", "text"): (
+            "주변 원천 블록에서 $(6)물$()을 생산하는 기계입니다.$(br2)물 원천 "
+            "블록과 맞닿은 면이 $(6)2개 이상$()이면 작동합니다.$(br)맞닿은 원천 "
+            "블록을 늘리고 작업당 $(6)1000()RF를 공급하면 훨씬 빨라집니다."
+        ),
+        ("entries/tools/infinity_backpack.json", "text"): (
+            "인피니티 백팩은 많은 아이템을 휴대해 보관하는 도구입니다.$(br2)세 "
+            "가지 전용 유체를 담을 수 있습니다. $(6)바이오연료$()는 자동 기능을 "
+            "작동시키고, $(6)정수$()는 자동 줍기로 얻은 경험치를 저장하며, "
+            "$(6)액상 고기$()는 플레이어에게 자동으로 먹이를 줍니다."
+        ),
+        ("entries/tools/infinity_backpack.json", "pages.1.text"): (
+            "$(6)자석 모드$()를 켜면 주울 수 있는 주변 아이템이 플레이어에게 "
+            "순간이동합니다.$(br2)$(6)자동 줍기 모드$()를 켜면 플레이어가 주운 "
+            "아이템 중 백팩에 넣을 수 있는 것을 자동으로 백팩에 넣습니다.$(br2)"
+            "각 슬롯은 남는 아이템을 $(6)무효화$()하거나, 인벤토리의 덜 찬 스택을 "
+            "$(6)자동 보충$()하도록 설정할 수 있습니다."
+        ),
+        ("entries/tools/infinity_drill.json", "text"): (
+            "인피니티 드릴은 넓은 영역을 채굴하는 도구입니다. 등급이 높을수록 한 "
+            "번에 채굴하는 영역이 넓어집니다."
+        ),
+        ("entries/tools/infinity_hammer.json", "text"): (
+            "인피니티 해머는 범위 안의 적에게 피해를 주는 도구입니다. 등급이 "
+            "높아지면 더 높은 레벨의 $(6)참수$() 효과가 열려 몹 머리를 쉽게 "
+            "얻을 수 있습니다."
+        ),
+        ("entries/tools/infinity_hammer.json", "pages.1.text"): (
+            "지면을 우클릭하면 플레이어 앞의 원뿔형 영역에 $(6)분쇄$() 효과를 "
+            "일으킵니다."
+        ),
+        ("entries/tools/infinity_nuke.json", "text"): (
+            "인피니티 핵은 등급과 저장된 바이오연료 양에 따라 폭발 반경이 커지는 "
+            "대량 파괴 도구입니다. 클레임된 청크의 블록은 파괴하지 않습니다."
+            "$(br2)땅에 놓고 우클릭해 무장한 뒤, 부싯돌과 부시로 우클릭하면 "
+            "폭발합니다."
+        ),
+        ("entries/tools/infinity_saw.json", "text"): (
+            "인피니티 톱은 나무를 효율적으로 베는 도구입니다. 등급이 높을수록 한 "
+            "번에 더 많은 블록을 벱니다. 큰 나무는 같은 블록을 계속 파괴하세요."
+        ),
+        ("entries/tools/infinity_tools.json", "name"): "인피니티 도구",
+        ("entries/tools/infinity_tools.json", "text"): (
+            "인피니티 도구는 전력이 많을수록 강해지며, 등급을 높이면 특별한 기능이 "
+            "열릴 수 있습니다. $(l:biofuel)바이오연료$()를 채우면 사용할 때 전력 "
+            "대신 연료를 소비해 더 효율적으로 작동합니다.$(br2)$(6)웅크리고 "
+            "우클릭$()하면 도구 GUI를 엽니다."
+        ),
+        ("entries/tools/infinity_tools.json", "pages.1.text"): (
+            "도구 GUI에서 충전 기능을 꺼 $(6)충전$()을 막을 수 있습니다.$(br2)"
+            "등급은 7가지입니다: $(li)조악$(li)일반$(li)고급$(li)희귀$(li)영웅"
+            "$(li)전설$(li)유물 $(br2)모든 도구는 전리품을 플레이어에게 "
+            "순간이동시킵니다."
+        ),
+        ("entries/tools/infinity_tools.json", "pages.2.text"): (
+            "후원자가 되면 특별한 $(6)빛나는$() 외형의 도구를 얻을 수 있습니다!"
+        ),
+        ("entries/tools/mib.json", "text"): (
+            "MIB를 들고 개체를 $(6)우클릭$()하면 해당 개체를 MIB 안에 "
+            "보관합니다.$(br2)MIB를 들고 땅을 $(6)우클릭$()하면 개체를 꺼냅니다."
+        ),
+        ("entries/transport/conveyor.json", "text"): (
+            "컨베이어는 아이템, 개체와 유체를 운송합니다. "
+            "$(l:conveyor_upgrades)업그레이드$()를 장착하면 월드와 상호작용할 수 "
+            "있습니다. 아이템과 개체는 위아래로도 이동하지만 유체는 수평으로만 "
+            "이동합니다.$(br2)염료로 우클릭하면 컨베이어의 색을 바꿀 수 있습니다."
+        ),
+        ("entries/transport/conveyor.json", "pages.2.text"): (
+            "발광석을 사용하면 컨베이어가 아이템과 개체를 매우 빠르게 옮깁니다."
+        ),
+        ("entries/transport/conveyor.json", "pages.3.text"): (
+            "플라스틱을 사용하면 컨베이어 위의 아이템을 주울 수 없게 합니다."
+        ),
+        ("entries/transport/conveyor_upgrades.json", "pages.0.text"): (
+            "인벤토리에서 아이템과 유체를 추출하며, 플레이어 인벤토리에서도 "
+            "아이템을 꺼낼 수 있습니다.$(br2)추출할 아이템과 유체는 GUI에서 "
+            "필터링할 수 있습니다."
+        ),
+        ("entries/transport/conveyor_upgrades.json", "pages.1.text"): (
+            "인벤토리에 아이템과 유체를 넣습니다. 컨베이어에 닿은 아이템을 넣는 "
+            "모드와 업그레이드에 직접 닿은 아이템만 넣는 모드가 있습니다.$(br2)"
+            "삽입할 아이템과 유체는 GUI에서 필터링할 수 있습니다."
+        ),
+        ("entries/transport/conveyor_upgrades.json", "pages.2.title"): "감지",
+        ("entries/transport/conveyor_upgrades.json", "pages.2.text"): (
+            "컨베이어 위의 아이템과 개체를 감지합니다.$(br2)감지할 아이템과 개체는 "
+            "GUI에서 필터링할 수 있습니다. 개체가 든 MIB로 대상 개체를 "
+            "지정할 수도 있습니다."
+        ),
+        ("entries/transport/conveyor_upgrades.json", "pages.3.title"): "튕김",
+        ("entries/transport/conveyor_upgrades.json", "pages.3.text"): (
+            "컨베이어 위의 아이템과 개체를 공중으로 발사합니다. GUI에서 수직·수평 "
+            "세기를 바꿀 수 있습니다.$(br2)발사할 아이템과 개체는 GUI에서 "
+            "필터링할 수 있습니다. 개체가 든 MIB로 대상 개체를 지정할 수도 있습니다."
+        ),
+        ("entries/transport/conveyor_upgrades.json", "pages.4.title"): "낙하",
+        ("entries/transport/conveyor_upgrades.json", "pages.4.text"): (
+            "컨베이어 위의 아이템과 개체를 바로 아래로 떨어뜨립니다.$(br2)떨어뜨릴 "
+            "아이템과 개체는 GUI에서 필터링할 수 있습니다. 개체가 든 MIB로 대상 "
+            "개체를 지정할 수도 있습니다."
+        ),
+        ("entries/transport/conveyor_upgrades.json", "pages.5.title"): "순간이동",
+        ("entries/transport/conveyor_upgrades.json", "pages.5.text"): (
+            "컨베이어 위의 아이템과 개체를 순간이동시킵니다. GUI에서 수직·수평 "
+            "거리를 바꿀 수 있습니다.$(br2)순간이동시킬 아이템과 개체는 GUI에서 "
+            "필터링할 수 있습니다. 개체가 든 MIB로 대상 개체를 지정할 수도 있습니다."
+        ),
+        ("entries/transport/conveyor_upgrades.json", "pages.6.title"): "분배",
+        ("entries/transport/conveyor_upgrades.json", "pages.6.text"): (
+            "컨베이어 위의 아이템과 개체를 GUI에서 설정한 비율로 나눕니다. 분배할 "
+            "모든 면에 업그레이드를 장착해야 합니다."
+        ),
+        ("entries/transport/fluid_transporter.json", "text"): (
+            "유체 수송기는 1블록 떨어진 인벤토리 사이에서 유체를 옮깁니다. 추출 "
+            "쪽과 삽입 쪽에 각각 수송기가 필요합니다.$(br2)한 블록에 여러 종류의 "
+            "수송기를 함께 둘 수 있습니다. 삽입·추출 모드는 가운데 부분을 우클릭해 "
+            "바꿉니다."
+        ),
+        ("entries/transport/fluid_transporter.json", "pages.1.text"): (
+            "GUI에서 허용 목록과 차단 목록으로 전송 대상을 필터링할 수 있습니다."
+            "$(br2)업그레이드나 수송기를 제거하려면 수송기를 웅크리고 우클릭하세요."
+            "$(br2)삽입 모드에서 조절기 모드를 사용하면 인벤토리에 남겨 둘 아이템 "
+            "또는 유체의 양을 지정할 수 있습니다."
+        ),
+        ("entries/transport/fluid_transporter.json", "pages.2.text"): (
+            "수송기 바깥쪽 고리에 속도 업그레이드를 우클릭하면 작동 속도가 "
+            "빨라지고, 효율 업그레이드를 우클릭하면 전송량이 늘어납니다."
+        ),
+        ("entries/transport/item_transporter.json", "text"): (
+            "아이템 수송기는 1블록 떨어진 인벤토리 사이에서 아이템을 옮깁니다. "
+            "추출 쪽과 삽입 쪽에 각각 수송기가 필요합니다.$(br2)한 블록에 여러 "
+            "종류의 수송기를 함께 둘 수 있습니다. 삽입·추출 모드는 가운데 부분을 "
+            "우클릭해 바꿉니다."
+        ),
+        ("entries/transport/item_transporter.json", "pages.1.text"): (
+            "GUI에서 허용 목록과 차단 목록으로 전송 대상을 필터링할 수 있습니다."
+            "$(br2)업그레이드나 수송기를 제거하려면 수송기를 웅크리고 우클릭하세요."
+            "$(br2)삽입 모드에서 조절기 모드를 사용하면 인벤토리에 남겨 둘 아이템 "
+            "또는 유체의 양을 지정할 수 있습니다."
+        ),
+        ("entries/transport/item_transporter.json", "pages.2.text"): (
+            "수송기 바깥쪽 고리에 속도 업그레이드를 우클릭하면 작동 속도가 "
+            "빨라지고, 효율 업그레이드를 우클릭하면 전송량이 늘어납니다."
+        ),
+        ("entries/transport/world_transporter.json", "text"): (
+            "월드 수송기는 월드의 아이템을 인벤토리로 줍거나 인벤토리의 아이템을 "
+            "월드에 떨어뜨립니다.$(br2)한 블록에 여러 종류의 수송기를 함께 둘 수 "
+            "있습니다. 삽입·추출 모드는 가운데 부분을 우클릭해 바꿉니다."
+        ),
+        ("entries/transport/world_transporter.json", "pages.1.text"): (
+            "GUI에서 허용 목록과 차단 목록으로 전송 대상을 필터링할 수 있습니다."
+            "$(br2)업그레이드나 수송기를 제거하려면 수송기를 웅크리고 우클릭하세요."
+            "$(br2)삽입 모드에서 조절기 모드를 사용하면 인벤토리에 남겨 둘 아이템 "
+            "또는 유체의 양을 지정할 수 있습니다."
+        ),
+        ("entries/transport/world_transporter.json", "pages.2.text"): (
+            "수송기 바깥쪽 고리에 속도 업그레이드를 우클릭하면 작동 속도가 "
+            "빨라지고, 효율 업그레이드를 우클릭하면 전송량이 늘어납니다."
+        ),
+    }
+)
+
 GUIDE_REPLACEMENTS = (
     ("Mob Slaughter Factory", "몹 도살 공장"),
     ("Mob Imprisonment Tool", "몹 포획기"),

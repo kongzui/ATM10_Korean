@@ -8,6 +8,7 @@
   "advancements": 239,
   "advancements_with_display": 0,
   "kubejs_reference_files": [
+    "kubejs/data/industrialforegoing/patchouli_books/industrial_foregoing/book.json",
     "kubejs/data/industrialforegoing/recipe/laser_drill_ore/raw_materials/azure_silver.json",
     "kubejs/data/industrialforegoing/recipe/laser_drill_ore/raw_materials/glowstone_dust.json",
     "kubejs/data/industrialforegoing/recipe/laser_drill_ore/raw_materials/obsidian.json",

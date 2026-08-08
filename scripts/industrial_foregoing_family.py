@@ -139,10 +139,10 @@ KEY_OVERRIDES = {
     "soulkey.name": "워든 영혼",
     "soulkey.description": "영혼",
     "soulpliedenergistics.can_be_used_filter": (
-        "* AE2 인터페이스에서 영혼 요청에 사용할 수 있습니다*"
+        "*ME 인터페이스에서 영혼을 요청하는 데 사용할 수 있습니다*"
     ),
     "soulpliedenergistics.storage_bus": (
-        "* 위쪽 면에 연결한 AE2 저장소 버스로 영혼에 접근할 수 있습니다*"
+        "*상단에 ME 저장 버스를 연결하면 영혼에 접근할 수 있습니다*"
     ),
     "tag.item.industrialforegoing.machine_frame.pity": "조악한 기계 프레임",
     "tag.item.industrialforegoing.machine_frame.simple": "기본 기계 프레임",
@@ -233,6 +233,15 @@ KEY_OVERRIDES.update(
         "text.industrialforegoing.jei.recipe.title.bioreactor": (
             "생물 반응기 투입 가능 아이템"
         ),
+        "text.industrialforegoing.tooltip.fermentation_station.tank_half": (
+            "§6밀봉 조건: §f절반 이상"
+        ),
+        "text.industrialforegoing.tooltip.fermentation_station.tank_one": (
+            "§6밀봉 조건: §f1 양동이"
+        ),
+        "item.industrialforegoing.fluid_transfer_addon": "유체 전송 업그레이드",
+        "tooltip.industrialforegoing.mb_of": "mb의 %s",
+        "text.industrialforegoing.jei.recipe.mb_work": "mb/작업",
     }
 )
 

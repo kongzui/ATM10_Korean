@@ -14,8 +14,8 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "new_or_edited": 356,
-      "bundled_exact_reuse": 322
+      "new_or_edited": 359,
+      "bundled_exact_reuse": 319
     },
     {
       "label": "Industrial Foregoing Souls",
@@ -64,9 +64,9 @@
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 322,
+    "bundled_exact_reuse": 319,
     "project_output_reuse": 4,
-    "new_or_edited": 364
+    "new_or_edited": 367
   },
   "ftbquests": {
     "chapters": [
