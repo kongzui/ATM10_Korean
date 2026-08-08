@@ -1,0 +1,76 @@
+{
+  "family": "moogs_structures",
+  "source_catalog": {
+    "common": {
+      "language_keys": 0,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_visible_fields": 0
+    },
+    "mes": {
+      "language_keys": 7,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_visible_fields": 130
+    },
+    "mns": {
+      "language_keys": 7,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_visible_fields": 114
+    },
+    "mss": {
+      "language_keys": 7,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_visible_fields": 20
+    },
+    "mvs": {
+      "language_keys": 7,
+      "data_localized_fields": 0,
+      "data_direct_fields": 0,
+      "nbt_visible_fields": 86
+    }
+  },
+  "references": {
+    "ftbquests": [
+      {
+        "path": "config/ftbquests/quests/lang/en_us.snbt",
+        "namespace_occurrences": {
+          "mss": 0,
+          "mes": 2,
+          "mns": 0,
+          "mvs": 0
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "config/ftbquests/quests/lang/uk_ua.snbt",
+        "namespace_occurrences": {
+          "mss": 0,
+          "mes": 2,
+          "mns": 0,
+          "mvs": 0
+        },
+        "visible_namespace_candidate_lines": []
+      }
+    ],
+    "kubejs": [
+      {
+        "path": "kubejs/server_scripts/modpack/miningDim.js",
+        "namespace_occurrences": {
+          "mss": 0,
+          "mes": 1,
+          "mns": 0,
+          "mvs": 0
+        },
+        "visible_namespace_candidate_lines": []
+      }
+    ],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "namespace_ids_only",
+  "kubejs_display_work": "namespace_ids_only",
+  "errors": [],
+  "status": "complete"
+}

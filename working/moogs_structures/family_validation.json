@@ -1,0 +1,44 @@
+{
+  "family": "moogs_structures",
+  "language": {
+    "reviewed_english_keys": 28,
+    "output_keys": 28,
+    "bundled_korean_candidate_keys": 0,
+    "existing_korean_values_reused": 0,
+    "new_language_values": 28,
+    "intentional_same_keys": [
+      "mes:mes.curseforge",
+      "mes:mes.kofi",
+      "mes:mes.modrinth",
+      "mes:modmenu.nameTranslation.mes",
+      "mns:mns.curseforge",
+      "mns:mns.kofi",
+      "mns:mns.modrinth",
+      "mns:modmenu.nameTranslation.mns",
+      "mss:modmenu.nameTranslation.mss",
+      "mss:mss.curseforge",
+      "mss:mss.kofi",
+      "mss:mss.modrinth",
+      "mvs:modmenu.nameTranslation.mvs",
+      "mvs:mvs.curseforge",
+      "mvs:mvs.kofi",
+      "mvs:mvs.modrinth"
+    ],
+    "errors": [],
+    "status": "complete"
+  },
+  "nbt": {
+    "files": 44,
+    "translated_source_visible_fields": 257,
+    "sunzi_source_pages": 47,
+    "sunzi_output_pages": 96,
+    "errors": [],
+    "status": "complete"
+  },
+  "surface_audit": "complete",
+  "ftbquests": "namespace_ids_only",
+  "kubejs": "namespace_ids_only",
+  "output_files": 48,
+  "errors": [],
+  "status": "complete"
+}

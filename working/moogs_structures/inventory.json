@@ -1,0 +1,62 @@
+{
+  "family": "moogs_structures",
+  "jars": [
+    {
+      "label": "common",
+      "jar": "moogs_structures-neoforge-1.21.1-3.0.0.jar",
+      "language_keys": 0,
+      "bundled_korean_keys": 0,
+      "data_json_files": 0,
+      "data_direct_fields": 0,
+      "data_localized_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0
+    },
+    {
+      "label": "mes",
+      "jar": "MoogsEndStructures-1.21-2.0.3.jar",
+      "language_keys": 7,
+      "bundled_korean_keys": 0,
+      "data_json_files": 116,
+      "data_direct_fields": 0,
+      "data_localized_fields": 0,
+      "nbt_files": 67,
+      "nbt_visible_fields": 130
+    },
+    {
+      "label": "mns",
+      "jar": "MoogsNetherStructures-1.21-3.0.0.jar",
+      "language_keys": 7,
+      "bundled_korean_keys": 0,
+      "data_json_files": 315,
+      "data_direct_fields": 0,
+      "data_localized_fields": 0,
+      "nbt_files": 459,
+      "nbt_visible_fields": 114
+    },
+    {
+      "label": "mss",
+      "jar": "MoogsSoaringStructures-1.21-2.1.2.jar",
+      "language_keys": 7,
+      "bundled_korean_keys": 0,
+      "data_json_files": 191,
+      "data_direct_fields": 0,
+      "data_localized_fields": 0,
+      "nbt_files": 99,
+      "nbt_visible_fields": 20
+    },
+    {
+      "label": "mvs",
+      "jar": "MoogsVoyagerStructures-1.21-5.0.11.jar",
+      "language_keys": 7,
+      "bundled_korean_keys": 0,
+      "data_json_files": 431,
+      "data_direct_fields": 0,
+      "data_localized_fields": 0,
+      "nbt_files": 327,
+      "nbt_visible_fields": 86
+    }
+  ],
+  "errors": [],
+  "status": "prepared"
+}

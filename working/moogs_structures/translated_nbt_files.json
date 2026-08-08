@@ -1,0 +1,266 @@
+[
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_basic.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_basic.nbt",
+    "source_visible_replacements": 3
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_basic_middle.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_basic_middle.nbt",
+    "source_visible_replacements": 17
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_crashed.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_crashed.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_crashed_2.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_crashed_2.nbt",
+    "source_visible_replacements": 3
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_crashed_2_middle.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_crashed_2_middle.nbt",
+    "source_visible_replacements": 2
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_crashed_deepslate_middle.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_crashed_deepslate_middle.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_deepslate.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_deepslate.nbt",
+    "source_visible_replacements": 10
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_deepslate_2.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_deepslate_2.nbt",
+    "source_visible_replacements": 10
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_deepslate_2_middle.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_deepslate_2_middle.nbt",
+    "source_visible_replacements": 2
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_deepslate_3.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_deepslate_3.nbt",
+    "source_visible_replacements": 12
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_deepslate_3_middle.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_deepslate_3_middle.nbt",
+    "source_visible_replacements": 14
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/mega_ship_deepslate_middle.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/mega_ship_deepslate_middle.nbt",
+    "source_visible_replacements": 15
+  },
+  {
+    "namespace": "mes",
+    "source": "data/mes/structure/mega_ship/v1_21_9/mega_ship_deepslate_2_middle.nbt",
+    "output": "output/overrides/kubejs/data/mes/structure/mega_ship/v1_21_9/mega_ship_deepslate_2_middle.nbt",
+    "source_visible_replacements": 2
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/dragon_arena/c2.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/dragon_arena/c2.nbt",
+    "source_visible_replacements": 8
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/dragon_arena/v1_21_5/c2.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/dragon_arena/v1_21_5/c2.nbt",
+    "source_visible_replacements": 8
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/large_arena/r3.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/large_arena/r3.nbt",
+    "source_visible_replacements": 9
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/large_arena/v1_21_4/r3.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/large_arena/v1_21_4/r3.nbt",
+    "source_visible_replacements": 9
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/large_arena/v1_21_5/r3.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/large_arena/v1_21_5/r3.nbt",
+    "source_visible_replacements": 9
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/large_arena/v1_21_9/r3.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/large_arena/v1_21_9/r3.nbt",
+    "source_visible_replacements": 9
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_arenas/mobs/1.21/arena_gladiator.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_arenas/mobs/1.21/arena_gladiator.nbt",
+    "source_visible_replacements": 3
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_arenas/mobs/1.21/drakebone_tyrant.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_arenas/mobs/1.21/drakebone_tyrant.nbt",
+    "source_visible_replacements": 4
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_arenas/mobs/1.21/ember_sentinel.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_arenas/mobs/1.21/ember_sentinel.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_arenas/mobs/1.21/pit_brute.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_arenas/mobs/1.21/pit_brute.nbt",
+    "source_visible_replacements": 2
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_arenas/mobs/1.21/pit_vanguard.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_arenas/mobs/1.21/pit_vanguard.nbt",
+    "source_visible_replacements": 2
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/forks/roofless_fork_side_2_6.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/forks/roofless_fork_side_2_6.nbt",
+    "source_visible_replacements": 4
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/mobs/1.21/black_guard.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/mobs/1.21/black_guard.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/mobs/1.21/blaze_sentinel.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/mobs/1.21/blaze_sentinel.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/mobs/1.21/fortress_archer.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/mobs/1.21/fortress_archer.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/mobs/1.21/fortress_champion.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/mobs/1.21/fortress_champion.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/mobs/1.21/fortress_guard.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/mobs/1.21/fortress_guard.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/mobs/1.21/warden_of_the_keep.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/mobs/1.21/warden_of_the_keep.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/start/mega_crossing_north_straight_1.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/start/mega_crossing_north_straight_1.nbt",
+    "source_visible_replacements": 4
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/v1_21_5/forks/roofless_fork_side_2_6.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/v1_21_5/forks/roofless_fork_side_2_6.nbt",
+    "source_visible_replacements": 4
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/v1_21_5/start/mega_crossing_north_straight_1.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/v1_21_5/start/mega_crossing_north_straight_1.nbt",
+    "source_visible_replacements": 4
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/v1_21_9/forks/roofless_fork_side_2_6.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/v1_21_9/forks/roofless_fork_side_2_6.nbt",
+    "source_visible_replacements": 4
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/mega_fortress/v1_21_9/start/mega_crossing_north_straight_1.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/mega_fortress/v1_21_9/start/mega_crossing_north_straight_1.nbt",
+    "source_visible_replacements": 4
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/small_arena/front.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/small_arena/front.nbt",
+    "source_visible_replacements": 8
+  },
+  {
+    "namespace": "mns",
+    "source": "data/mns/structure/small_arena/v1_21_5/front.nbt",
+    "output": "output/overrides/kubejs/data/mns/structure/small_arena/v1_21_5/front.nbt",
+    "source_visible_replacements": 8
+  },
+  {
+    "namespace": "mvs",
+    "source": "data/mvs/structure/1_21_9/cathedral/base/base.nbt",
+    "output": "output/overrides/kubejs/data/mvs/structure/1_21_9/cathedral/base/base.nbt",
+    "source_visible_replacements": 2
+  },
+  {
+    "namespace": "mvs",
+    "source": "data/mvs/structure/1_21_9/gallows.nbt",
+    "output": "output/overrides/kubejs/data/mvs/structure/1_21_9/gallows.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mvs",
+    "source": "data/mvs/structure/cathedral/base/base.nbt",
+    "output": "output/overrides/kubejs/data/mvs/structure/cathedral/base/base.nbt",
+    "source_visible_replacements": 2
+  },
+  {
+    "namespace": "mvs",
+    "source": "data/mvs/structure/gallows.nbt",
+    "output": "output/overrides/kubejs/data/mvs/structure/gallows.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mvs",
+    "source": "data/mvs/structure/out_house/out_house.nbt",
+    "output": "output/overrides/kubejs/data/mvs/structure/out_house/out_house.nbt",
+    "source_visible_replacements": 1
+  },
+  {
+    "namespace": "mvs",
+    "source": "data/mvs/structure/sunzi_gate.nbt",
+    "output": "output/overrides/kubejs/data/mvs/structure/sunzi_gate.nbt",
+    "source_visible_replacements": 48
+  }
+]

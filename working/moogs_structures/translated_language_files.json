@@ -1,0 +1,22 @@
+[
+  {
+    "namespace": "mes",
+    "keys": 7,
+    "output": "output/resourcepack/ATM10_Korean/assets/mes/lang/ko_kr.json"
+  },
+  {
+    "namespace": "mns",
+    "keys": 7,
+    "output": "output/resourcepack/ATM10_Korean/assets/mns/lang/ko_kr.json"
+  },
+  {
+    "namespace": "mss",
+    "keys": 7,
+    "output": "output/resourcepack/ATM10_Korean/assets/mss/lang/ko_kr.json"
+  },
+  {
+    "namespace": "mvs",
+    "keys": 7,
+    "output": "output/resourcepack/ATM10_Korean/assets/mvs/lang/ko_kr.json"
+  }
+]

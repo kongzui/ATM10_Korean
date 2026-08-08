@@ -1,0 +1,13 @@
+{
+  "family": "moogs_structures",
+  "reviewed_language_keys": 28,
+  "bundled_korean_candidate_keys": 0,
+  "existing_korean_values_reused": 0,
+  "new_language_values": 28,
+  "translated_nbt_source_fields": 257,
+  "translated_nbt_files": 44,
+  "sunzi_source_pages": 47,
+  "sunzi_output_pages": 96,
+  "errors": [],
+  "status": "complete"
+}
