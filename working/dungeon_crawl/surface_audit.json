@@ -1,0 +1,26 @@
+{
+  "family": "dungeon_crawl",
+  "reviewed_language_keys": 0,
+  "bundled_korean_candidate_keys": 0,
+  "existing_korean_values_reused": 0,
+  "new_translations": 0,
+  "data_json_files_audited": 174,
+  "nbt_files_audited": 115,
+  "localizable_visible_fields": 0,
+  "metadata_surface": {
+    "classification": "jar_metadata_not_resourcepack_localizable",
+    "official_name_preserved": "Dungeon Crawl",
+    "english_description": "Dungeon Crawl, a spiritual successor to Roguelike Dungeons."
+  },
+  "ftbquests_work": "no_related_references",
+  "kubejs_work": "no_related_references",
+  "references": {
+    "ftbquests": [],
+    "kubejs": [],
+    "read_errors": []
+  },
+  "output_files": [],
+  "deployment": "not_applicable_no_outputs",
+  "errors": [],
+  "status": "complete"
+}

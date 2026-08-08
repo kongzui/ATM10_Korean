@@ -1,0 +1,14 @@
+{
+  "family": "dungeon_crawl",
+  "jar": "DungeonCrawl-NeoForge-1.21-2.3.17.jar",
+  "language_files": 0,
+  "data_json_files": 174,
+  "data_direct_fields": 0,
+  "data_localized_fields": 0,
+  "nbt_files": 115,
+  "nbt_visible_fields": 0,
+  "guide_candidates": 0,
+  "metadata_surface": "jar_metadata_not_resourcepack_localizable",
+  "errors": [],
+  "status": "prepared"
+}

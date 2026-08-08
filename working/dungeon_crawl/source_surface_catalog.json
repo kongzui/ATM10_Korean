@@ -1,0 +1,25 @@
+{
+  "family": "dungeon_crawl",
+  "jar": "DungeonCrawl-NeoForge-1.21-2.3.17.jar",
+  "jar_size": 738480,
+  "jar_mtime_ns": 1783222311344370700,
+  "language_files": [],
+  "data_json_files": 174,
+  "data_direct_fields": [],
+  "data_localized_fields": [],
+  "invalid_json": [],
+  "nbt_files": 115,
+  "nbt_visible_fields": [],
+  "guide_candidates": [],
+  "mod_metadata_file": "META-INF/neoforge.mods.toml",
+  "mod_metadata_sha256": "9e8c0a0fb57d06499cf9eb8708161b1135da4305025eb9a2eaae7f2f968d04b9",
+  "mod_metadata": {
+    "modId": "dungeoncrawl",
+    "displayName": "Dungeon Crawl",
+    "credits": "Original Mod by Greymerk (Roguelike Dungeons)",
+    "authors": "xiroc",
+    "description": "Dungeon Crawl, a spiritual successor to Roguelike Dungeons."
+  },
+  "errors": [],
+  "status": "prepared"
+}
