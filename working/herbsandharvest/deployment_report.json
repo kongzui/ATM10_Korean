@@ -1,0 +1,69 @@
+{
+  "status": "applied_and_verified",
+  "backup_manifest": "temp/backups/20260808_130656_333687/backup_manifest.json",
+  "expected_paths": [
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/basket.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/blocks.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/cheese.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/cover.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/crops.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/foods.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/grapes.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/herbs.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/intro.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/items.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/outro.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/title.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/trees.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/cover.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/guide_book.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/toc.json",
+    "resourcepacks/ATM10_Korean/assets/herbsandharvest/lang/ko_kr.json"
+  ],
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+      "changed_paths": [
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/basket.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/blocks.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/cheese.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/cover.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/crops.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/foods.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/grapes.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/herbs.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/intro.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/items.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/outro.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/title.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/trees.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/cover.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/guide_book.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/toc.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/lang/ko_kr.json"
+      ],
+      "unexpected_changes": [],
+      "hash_verified_paths": [
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/basket.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/blocks.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/cheese.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/cover.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/crops.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/foods.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/grapes.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/herbs.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/intro.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/items.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/outro.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/title.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/chapters/trees.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/cover.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/guide_book.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/books/toc.json",
+        "resourcepacks/ATM10_Korean/assets/herbsandharvest/lang/ko_kr.json"
+      ]
+    }
+  ],
+  "errors": []
+}

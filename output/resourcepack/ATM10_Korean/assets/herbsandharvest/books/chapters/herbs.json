@@ -1,0 +1,244 @@
+{
+  "pages": [ 
+  
+		{
+			"type": "standard",
+
+			"summary": "Herbs and Harvest에는 여러 허브와 향신료가 추가돼요. 자세히 알아볼 주제를 아래에서 선택하세요:",
+
+			"sub_sections": [
+				{
+					"title": "herbsandharvest.guide_book.herbs.info",
+					"target_page": 1
+				},
+				{
+					"title": "herbsandharvest.guide_book.herbs.list",
+					"target_page": 2
+				},								
+				{
+					"title": "herbsandharvest.guide_book.herbs.spices",
+					"target_page": 3
+				},
+				{
+				  "title": "herbsandharvest.guide_book.herbs.thistle",
+				  "target_page": 4
+				},
+				{
+				  "title": "herbsandharvest.guide_book.herbs.cinn",
+				  "target_page": 5
+				}
+			],
+
+			"elements": [
+				{
+				  "type": "image",
+				  "image_path": "textures/gui/guide/chapters/herbs/herbs.png",
+				  "caption": "herbsandharvest.guide_book.chapters.herbs.herbs_caption",
+				  "image_width": 110,
+				  "image_height": 62
+
+				}
+			]
+		},
+
+		{
+			"type": "standard", 
+			"title": "herbsandharvest.guide_book.herbs.info",
+			"summary": "허브도 작물처럼 자라려면 경작지와 물이 필요해요.\n\n수확한 허브는 잔디나 흙에 놓아 장식할 수 있어요.\n\n화분에 심을 수도 있어요.",
+
+			"elements": [
+
+				{
+					"type": "image",
+					"image_path": "textures/gui/guide/chapters/herbs/potted.png",
+					"caption": "herbsandharvest.guide_book.chapters.herbs.potted_caption",
+					"image_width": 110,
+					"image_height": 62
+
+				},
+
+				{
+					"type": "text",
+					"literal_text": "\n팬트리 업데이트에서는 신선한 허브를 다지거나 갈아 향신료 병에 보관한 뒤 레시피에 사용할 수 있어요.",
+					"text": null
+				}
+			]
+
+		},
+		
+		
+	  
+	  	
+
+		 {
+		  "type": "standard",
+
+		  "title": "herbsandharvest.guide_book.herbs.list",
+		  
+		  "summary": "",
+
+		  "elements": [
+				{
+				"type": "icon_list",
+				"entries": [
+					  {
+						"item": "herbsandharvest:fresh_basil",
+						"text": "guide.herbsandharvest.fresh_basil_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_bay_leaf",
+						"text": "guide.herbsandharvest.fresh_bay_leaf_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_chive",
+						"text": "guide.herbsandharvest.fresh_chive_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_cilantro",
+						"text": "guide.herbsandharvest.fresh_cilantro_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_dill",
+						"text": "guide.herbsandharvest.fresh_dill_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_lemongrass",
+						"text": "guide.herbsandharvest.fresh_lemongrass_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_mint",
+						"text": "guide.herbsandharvest.fresh_mint_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_mustard",
+						"text": "guide.herbsandharvest.fresh_mustard_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_oregano",
+						"text": "guide.herbsandharvest.fresh_oregano_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_parsley",
+						"text": "guide.herbsandharvest.fresh_parsley_desc"
+					  },				  
+					  {
+						"item": "herbsandharvest:fresh_rosemary",
+						"text": "guide.herbsandharvest.fresh_rosemary_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_sage",
+						"text": "guide.herbsandharvest.fresh_sage_desc"
+					  },
+					  {
+						"item": "herbsandharvest:fresh_thyme",
+						"text": "guide.herbsandharvest.fresh_thyme_desc"
+					  }
+					  
+					]
+		}
+		
+      ]
+    },
+	
+	{
+      "type": "standard",
+
+      "title": "herbsandharvest.guide_book.herbs.spices",
+	  
+	  "summary": "통후추, 생강과 강황도 허브처럼 자라려면 경작지가 필요해요.\n\n통후추와 시나몬나무 묘목은 화분에 심을 수도 있어요.",
+
+      "elements": [
+	  
+			{
+				"type": "text",
+				"literal_text": "\n\n향신료 목록:\n",
+				"text": null
+			},
+			{
+				"type": "icon_list",
+				"entries": [
+
+						{
+							"item": "herbsandharvest:cinnamon",
+							"text": "guide.herbsandharvest.cinnamon_desc"
+						},
+						{
+							"item": "herbsandharvest:ginger_root",
+							"text": "guide.herbsandharvest.ginger_desc"
+						},
+						{
+							"item": "herbsandharvest:fresh_peppercorn",
+							"text": "guide.herbsandharvest.fresh_peppercorn_desc"
+						},						
+						{
+							"item": "herbsandharvest:thistle",
+							"text": "guide.herbsandharvest.thistle_desc"
+						},
+						{
+							"item": "herbsandharvest:turmeric_root",
+							"text": "guide.herbsandharvest.turmeric_desc"
+						}
+				]	
+			}			
+		]
+	  
+    },
+	
+	 {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.herbs.thistle",
+
+		  "summary": "엉겅퀴는 오버월드의 거의 모든 생물군계에서 자라는 꽃이에요.\n\n엉겅퀴로 치즈 제조에 쓰는 레닛을 만들 수 있어요.",
+
+		  "elements": [
+			  {
+				  "type": "image",
+				  "image_path": "textures/gui/guide/chapters/plant/thistle.png",
+				  "caption": "herbsandharvest.guide_book.chapters.blocks.thistle_caption",
+				  "image_width": 110,
+				  "image_height": 62
+			  },
+			  {
+				  "type": "text",
+				  "literal_text": "엉겅퀴는 높이가 2블록이고 보라색과 분홍색 꽃이 피어요.\n\n키 큰 꽃처럼 뼛가루를 사용하고 재배할 수 있어요.",
+				  "text": null
+			  }
+		  ]
+
+	  },
+	  
+	    {
+		  "type": "standard",
+		  
+		  "title": "herbsandharvest.guide_book.herbs.cinn",
+
+		  "summary": "시나몬나무는 높이가 2블록이에요. 나무껍질이 계속 자라며 벗기면 시나몬을 얻을 수 있어요.\n\n시나몬나무 묘목은 열대 생물군계에서 자라거나 오버월드 상자에서 찾을 수 있어요.",
+
+		  "elements": [
+			  {
+				  "type": "image",
+				  "image_path": "textures/gui/guide/chapters/plant/cinn_tree.png",
+				  "caption": "herbsandharvest.guide_book.chapters.blocks.cinn_caption",
+				  "image_width": 110,
+				  "image_height": 62
+			  },
+			  {
+				  "type": "text",
+				  "literal_text": "시나몬을 얻으려면 도끼로 나무를 우클릭해 껍질을 벗기세요.\n\n껍질이 다 자랐다면 시나몬이 나와요.",
+				  "text": null
+			  }
+		  ]
+
+	  }
+		
+	]
+}
+	
+
+	
+
+	
+	
+	
+  ]
+}

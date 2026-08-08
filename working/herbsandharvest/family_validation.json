@@ -1,0 +1,35 @@
+{
+  "family": "herbsandharvest",
+  "language": {
+    "keys": 865,
+    "expected_keys": 865,
+    "untranslated_candidates": [],
+    "latin_residue": {},
+    "allowed_plural_collisions": 2,
+    "unexpected_name_collisions": {},
+    "errors": [],
+    "status": "complete"
+  },
+  "books": {
+    "files": 16,
+    "visible_occurrences": 160,
+    "visible_unique_sources": 150,
+    "translated_occurrences": 148,
+    "translated_unique_sources": 147,
+    "source_invalid_json_files": [
+      "assets/herbsandharvest/books/chapters/grapes.json",
+      "assets/herbsandharvest/books/chapters/herbs.json"
+    ],
+    "output_invalid_json_files": [
+      "assets/herbsandharvest/books/chapters/grapes.json",
+      "assets/herbsandharvest/books/chapters/herbs.json"
+    ],
+    "non_visible_structure_preserved": true,
+    "latin_residue": {},
+    "errors": [],
+    "status": "complete"
+  },
+  "surface_audit": "complete",
+  "errors": [],
+  "status": "complete"
+}

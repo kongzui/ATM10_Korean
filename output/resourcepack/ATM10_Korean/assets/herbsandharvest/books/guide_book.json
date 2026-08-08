@@ -1,0 +1,75 @@
+{
+  "title": "herbsandharvest.guide_book.title",
+  "chapters": [
+	{
+	  "id": "intro",
+	  "title": "herbsandharvest.guide_book.chapters.intro",
+	  "file": "chapters/intro.json"
+	},
+	
+	{
+	  "id": "crops",
+	  "title": "herbsandharvest.guide_book.chapters.crops",
+	  "file": "chapters/crops.json"
+	},
+	
+	{
+	  "id": "herbs",
+	  "title": "herbsandharvest.guide_book.chapters.herbs",
+	  "file": "chapters/herbs.json"
+	},
+	
+	{
+	  "id": "trees",
+	  "title": "herbsandharvest.guide_book.chapters.trees",
+	  "file": "chapters/trees.json"
+	},
+	
+	{
+	  "id": "basket",
+	  "title": "herbsandharvest.guide_book.chapters.basket",
+	  "file": "chapters/basket.json"		
+	},	
+	
+	{
+	  "id": "blocks",
+	  "title": "herbsandharvest.guide_book.chapters.blocks",
+	  "file": "chapters/blocks.json"
+	},  
+   	
+	{
+	  "id": "items",
+	  "title": "herbsandharvest.guide_book.chapters.items",
+	  "file": "chapters/items.json"
+	},
+	
+	{
+	  "id": "foods",
+	  "title": "herbsandharvest.guide_book.chapters.foods",
+	  "file": "chapters/foods.json"
+	},	
+	
+	{
+      "id": "cheese",
+      "title": "herbsandharvest.guide_book.chapters.cheese",
+      "file": "chapters/cheese.json"
+    },
+	
+	{
+      "id": "outro",
+      "title": "herbsandharvest.guide_book.chapters.outro",
+      "file": "chapters/outro.json"
+    }
+	
+	
+	
+	
+	
+		
+		
+	
+
+   
+	
+  ]
+}

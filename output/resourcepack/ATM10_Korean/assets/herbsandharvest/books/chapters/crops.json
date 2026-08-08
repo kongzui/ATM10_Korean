@@ -1,0 +1,326 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+
+     
+
+      "summary": "Herbs and Harvest에는 새로운 작물 32종이 추가돼요.\n\n자세히 알아볼 주제를 아래에서 선택하세요:",
+
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.crops.info",
+          "target_page": 1
+        },
+        {
+          "title": "herbsandharvest.guide_book.crops.tall",
+          "target_page": 2
+        },
+		
+		 {
+          "title": "herbsandharvest.guide_book.crops.grapes",
+          "target_page": 3
+        },
+		
+        {
+          "title": "herbsandharvest.guide_book.crops.list",
+          "target_page": 4
+        }
+      ],
+
+      "elements": [
+	   {
+				  "type": "image",
+				  "image_path": "textures/gui/guide/chapters/intro/crops.png",
+				  "caption": "herbsandharvest.guide_book.chapters.intro.crops_caption",
+				  "image_width": 110,
+				  "image_height": 62
+
+				}
+			]
+    },
+
+    {
+      "type": "standard",
+
+      "title": "herbsandharvest.guide_book.crops.info",
+	  "summary": "Herbs and Harvest 작물은 기본 게임의 작물과 똑같이 자라요.\n\n모든 작물은 경작지에 심을 수 있으며, 수확물과 씨앗을 얻으려면 작물을 부숴야 해요.",
+
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": "\n\n작물은 마을 농장에서, 씨앗은 오버월드 곳곳의 상자에서 찾을 수 있어요.\n\n수확물을 제작해 씨앗을 얻을 수도 있어요. 작업대에서 작물 하나로 씨앗 하나를 만들 수 있어요.",
+          "text": null
+        }
+      ]
+    },
+
+    {
+      "type": "standard",
+
+      "title": "herbsandharvest.guide_book.crops.tall",
+	  "summary": "키가 크게 자라는 작물은 다음과 같아요:\n\n옥수수, 가지, 완두콩, 토마토.",
+
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": "\n\n위쪽이나 아래쪽을 부수면 작물 전체가 부서지며, 다 자랐다면 수확물과 씨앗이 나와요.\n\n키 큰 작물을 심는 데에는 씨앗 하나만 필요하며, 수확한 뒤 다시 심어야 해요.",
+          "text": null
+        }
+      ]
+    },
+	
+	 {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.crops.grapes",
+		  "summary": "포도 덩굴은 동굴 덩굴과 비슷하게 자라며 수확할 수 있는 열매를 맺어요.\n\n블록 아래에 심으면 시간이 지나면서 아래로 자라 열매를 맺어요.",
+
+		  "elements": [			
+			  {
+				  "type": "image",
+				  "image_path": "textures/gui/guide/chapters/grapes/grapes.png",
+				  "caption": "herbsandharvest.guide_book.chapters.grapes.grapes_caption",
+				  "image_width": 110,
+				  "image_height": 62
+
+			  },
+			   {
+				  "type": "text",
+				  "literal_text": "동굴 덩굴처럼 뼛가루를 사용할 수 있어요.\n\n포도는 마을의 격자 울타리에서 자라는 것을 찾거나 오버월드 상자에서 얻을 수 있어요.",
+				  "text": null
+			  }
+		  ]
+	  },
+	  
+	   {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.crops.list",
+		  
+		  "sub_sections": [
+				{
+				  "title": "herbsandharvest.guide_book.crops.list.lista",
+				  "target_page": 5
+				},
+				{
+				  "title": "herbsandharvest.guide_book.crops.list.listb",
+				  "target_page": 6
+				},
+				
+				 {
+				  "title": "herbsandharvest.guide_book.crops.list.listc",
+				  "target_page": 7
+				}
+      ],
+		  "summary": "다음은 Herbs & Harvest의 모든 작물을 알파벳순으로 정리한 목록이에요.\n각 부분을 보려면 아래 링크를 선택하세요:",
+
+		  "elements": [			
+			  {
+				  "type": "image",
+				  "image_path": "textures/gui/guide/chapters/intro/crops.png",
+				  "caption": "herbsandharvest.guide_book.chapters.intro.crops_caption",
+				  "image_width": 110,
+				  "image_height": 62
+
+			  },
+			   {
+				  "type": "text",
+				  "literal_text": "",
+				  "text": null
+			  }
+		  ]
+	  },
+
+    {
+      "type": "standard",
+
+      "title": "herbsandharvest.guide_book.crops.list.lista",
+	  
+	  "summary": "",
+
+      "elements": [
+		{
+			"type": "icon_list",
+			"entries": [
+				   {
+					"item": "herbsandharvest:asparagus",
+					"text": "guide.herbsandharvest.asparagus_desc"
+				  },
+				  {
+					"item": "herbsandharvest:barley",
+					"text": "guide.herbsandharvest.barley_desc"
+				  },
+				  {
+					"item": "herbsandharvest:eggplant",
+					"text": "guide.herbsandharvest.eggplant_desc"
+				  },
+				  {
+					"item": "herbsandharvest:blackberry",
+					"text": "guide.herbsandharvest.blackberry_desc"
+				  },
+				  {
+					"item": "herbsandharvest:blueberry",
+					"text": "guide.herbsandharvest.blueberry_desc"
+				  },
+				  {
+					"item": "herbsandharvest:broccoli",
+					"text": "guide.herbsandharvest.broccoli_desc"
+				  },
+				  {
+					"item": "herbsandharvest:cabbage",
+					"text": "guide.herbsandharvest.cabbage_desc"
+				  },
+				  {
+					"item": "herbsandharvest:cauliflower",
+					"text": "guide.herbsandharvest.cauliflower_desc"
+				  },
+				  {
+					"item": "herbsandharvest:celery",
+					"text": "guide.herbsandharvest.celery_desc"
+				  },
+				  {
+					"item": "herbsandharvest:corn",
+					"text": "guide.herbsandharvest.corn_desc"
+				  },
+				  {
+					"item": "herbsandharvest:cucumber",
+					"text": "guide.herbsandharvest.cucumber_desc"
+				  }
+				 
+				 
+			]
+		}
+		
+      ]
+	  
+    },
+	
+	  {
+      "type": "standard",
+
+      "title": "herbsandharvest.guide_book.crops.list.listb",
+	  
+	  "summary": "",
+
+      "elements": [
+		{
+			"type": "icon_list",
+			"entries": [
+				  {
+					"item": "herbsandharvest:garlic_bulb",
+					"text": "guide.herbsandharvest.garlic_bulb_desc"
+				  },				  
+				  {
+					"item": "herbsandharvest:green_bean",
+					"text": "guide.herbsandharvest.green_bean_desc"
+				  },
+				  {
+					"item": "herbsandharvest:green_pepper",
+					"text": "guide.herbsandharvest.green_pepper_desc"
+				  },
+				  {
+					"item": "herbsandharvest:lettuce",
+					"text": "guide.herbsandharvest.lettuce_desc"
+				  },
+				  {
+					"item": "herbsandharvest:oats_item",
+					"text": "guide.herbsandharvest.oats_item_desc"
+				  },
+				  {
+					"item": "herbsandharvest:onion",
+					"text": "guide.herbsandharvest.onion_desc"
+				  },
+				  {
+					"item": "herbsandharvest:peanut",
+					"text": "guide.herbsandharvest.peanut_desc"
+				  },
+				  {
+					"item": "herbsandharvest:peas",
+					"text": "guide.herbsandharvest.peas_desc"
+				  },
+				  {
+					"item": "herbsandharvest:pineapple",
+					"text": "guide.herbsandharvest.pineapple_desc"
+				  },
+				  {
+					"item": "herbsandharvest:radish",
+					"text": "guide.herbsandharvest.radish_desc"
+				  },
+				  {
+					"item": "herbsandharvest:rice_item",
+					"text": "guide.herbsandharvest.rice_item_desc"
+				  },
+				  {
+					"item": "herbsandharvest:raspberry",
+					"text": "guide.herbsandharvest.raspberry_desc"
+				  },
+				  {
+					"item": "herbsandharvest:rye",
+					"text": "guide.herbsandharvest.rye_desc"
+				  }
+			]
+		}
+		
+      ]
+    },
+	
+	  {
+      "type": "standard",
+
+      "title": "herbsandharvest.guide_book.crops.list.listc",
+	  
+	  "summary": "",
+
+      "elements": [
+		{
+			"type": "icon_list",
+			"entries": [
+				 
+				  {
+					"item": "herbsandharvest:squash",
+					"text": "guide.herbsandharvest.squash_desc"
+				  },
+				  {
+					"item": "herbsandharvest:strawberry",
+					"text": "guide.herbsandharvest.strawberry_desc"
+				  },
+				  {
+					"item": "herbsandharvest:sweet_potato",
+					"text": "guide.herbsandharvest.sweet_potato_desc"
+				  },
+				  {
+					"item": "herbsandharvest:tomato",
+					"text": "guide.herbsandharvest.tomato_desc"
+				  },				  
+				  {
+					"item": "herbsandharvest:turnip",
+					"text": "guide.herbsandharvest.turnip_desc"
+				  },
+				  {
+					"item": "herbsandharvest:zucchini",
+					"text": "guide.herbsandharvest.zucchini_desc"
+				  }
+			]
+		},
+		
+		{
+			"type": "text",
+			"literal_text": "\n\n덩굴 작물 기르기:\n",
+			"text": null
+		},
+		
+		{
+			"type": "icon_list",
+			"entries": [
+				 
+				 {
+					"item": "herbsandharvest:grapes",
+					"text": "guide.herbsandharvest.grapes_desc"
+				  }
+			]
+		}
+		
+      ]
+    }
+	
+  ]
+}

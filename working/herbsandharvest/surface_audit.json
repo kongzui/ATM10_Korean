@@ -1,0 +1,46 @@
+{
+  "family": "herbsandharvest",
+  "jar": "herbsandharvest-1.21.1-15.jar",
+  "data_json_files": 2941,
+  "data_counts": {
+    "advancement": 195,
+    "loot_modifiers": 2396,
+    "loot_table": 119,
+    "neoforge": 10,
+    "recipe": 195,
+    "tags": 6,
+    "worldgen": 20
+  },
+  "advancement_files": 195,
+  "advancement_displays": [],
+  "recipe_files": 195,
+  "visible_data_fields": [],
+  "references": {
+    "ftbquests": [],
+    "kubejs": [
+      {
+        "path": "kubejs/server_scripts/mods/Immersive Engineering/Compatibility.js",
+        "namespace_occurrences": 1,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/mods/Minecolonies/tags.js",
+        "namespace_occurrences": 1,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/Unification/crops.js",
+        "namespace_occurrences": 63,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      }
+    ],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "not_present",
+  "kubejs_display_work": "ids_only",
+  "errors": [],
+  "status": "complete"
+}

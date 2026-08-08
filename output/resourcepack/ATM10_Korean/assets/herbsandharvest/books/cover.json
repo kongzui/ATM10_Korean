@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "type": "cover",
+
+      "title": "herbsandharvest.book.cover.title",
+
+      "summary": "농사와 수확, 살림을 위한 안내서\n\n이 책에는 식량을 기르고 필수품을 제작해 수확물을 든든한 식사로 만드는 데 필요한 모든 내용이 담겨 있어요.",
+
+      "elements": [
+       {
+				  "type": "image",
+				  "image_path": "textures/gui/guide/chapters/pantry.png",
+				  "caption": "herbsandharvest.guide_book.chapters.pantry_caption",
+				  "image_width": 110,
+				  "image_height": 62
+
+				},
+				
+				 {
+          "type": "text",
+          "literal_text": "목차를 사용해 장 사이를 이동하세요. 일부 장에는 하위 항목이 있으며, 장 제목을 클릭하면 해당 장의 첫 페이지로 돌아가요.",
+          "text": null
+        }
+      ]
+    }
+  ]
+}

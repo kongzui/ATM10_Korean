@@ -1,0 +1,1159 @@
+{
+  "pages": [ 
+ 
+    {
+      "type": "standard",
+
+     
+
+      "summary": "팬트리 업데이트에서는 여러 음식을 추가해요. 자세히 알아볼 주제를 아래에서 선택하세요:",
+
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.foods.meat",
+          "target_page": 1
+        },
+		 {
+          "title": "herbsandharvest.guide_book.foods.dairy",
+          "target_page": 2
+        },		
+        {
+          "title": "herbsandharvest.guide_book.foods.bfast",
+          "target_page": 8
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.bread",
+          "target_page": 9
+        },
+		 {
+          "title": "herbsandharvest.guide_book.foods.salad",
+          "target_page": 13
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.other",
+          "target_page": 14
+        },
+		 {
+          "title": "herbsandharvest.guide_book.foods.otherc",
+          "target_page": 15
+        },
+		{
+          "title": "herbsandharvest.guide_book.foods.otherd",
+          "target_page": 16
+        },
+		{
+          "title": "herbsandharvest.guide_book.foods.cond",
+          "target_page": 17
+        },
+		{
+          "title": "herbsandharvest.guide_book.foods.condc",
+          "target_page": 18
+        },
+		{
+          "title": "herbsandharvest.guide_book.foods.dessert",
+          "target_page": 19
+        }
+		
+      ],
+
+      	"elements": [
+				
+			]
+    },
+
+
+	  {
+		  "type": "standard",
+		  
+		  "title": "herbsandharvest.guide_book.foods.meat",
+
+		  "summary": "Herbs and Harvest에는 몇 가지 고기가 추가돼요.\n\n모두 기존 아이템으로 제작할 수 있으며, 구우면 익힌 형태가 돼요.\n\n고기는 레시피에 사용하거나 그대로 먹을 수 있어요.",
+
+		  "elements": [	
+
+				{
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:bacon",
+							"text": "guide.herbsandharvest.bacon_desc"
+						},
+						{
+							"item": "herbsandharvest:chicken_cutlet",
+							"text": "guide.herbsandharvest.chicken_cutlet_desc"
+						},
+						{
+							"item": "herbsandharvest:pepperoni",
+							"text": "guide.herbsandharvest.pepperoni_desc"
+						},
+						{
+							"item": "herbsandharvest:salami",
+							"text": "guide.herbsandharvest.salami_desc"
+						},
+						{
+							"item": "herbsandharvest:salmon_steak",
+							"text": "guide.herbsandharvest.salmon_steak_desc"
+						},
+						{
+							"item": "herbsandharvest:sausage",
+							"text": "guide.herbsandharvest.sausage_desc"
+						}
+										  
+
+						
+					]
+				}
+
+			 
+		  ]
+	  },
+	  
+	   {
+		  "type": "standard",
+		  
+		   "title": "herbsandharvest.guide_book.foods.dairy",
+		  
+		   "summary": "여러 유제품을 만들 수 있어요. 자세히 알아보려면 아래 링크를 선택하세요.",
+		  
+		   "sub_sections": [
+			{
+			  "title": "herbsandharvest.guide_book.foods.dairy.milk",
+			  "target_page": 3
+			},
+			{
+			  "title": "herbsandharvest.guide_book.foods.dairy.milk.got_milk",
+			  "target_page": 4
+			},
+			{
+			  "title": "herbsandharvest.guide_book.foods.dairy.cream",
+			  "target_page": 5
+			},
+			
+			 {
+			  "title": "herbsandharvest.guide_book.foods.dairy.butter",
+			  "target_page": 6
+			},
+			
+			{
+			  "title": "herbsandharvest.guide_book.foods.dairy.cheese",
+			  "target_page": 7
+			}
+		  ],   		 
+
+		  "elements": [			
+			
+			  
+		  ]
+	  },
+	  
+	   {
+		  "type": "standard",
+		  
+		  "title": "herbsandharvest.guide_book.foods.dairy.milk",
+
+		  "summary": "Herbs and Harvest에는 새로운 우유 3종이 추가돼요.\n\n우유는 레시피와 치즈 제조에 사용하거나 가마솥에서 데워 크림을 만들 수 있어요.",
+
+		  "elements": [	
+
+			 {
+				  "type": "text",
+				  "literal_text": "우유 종류는 다음과 같아요:\n",
+				  "text": null
+			  },
+
+				{
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:camel_milk_bucket",
+							"text": "guide.herbsandharvest.camel_milk_desc"
+						},
+						{
+							"item": "herbsandharvest:goat_milk_bucket",
+							"text": "guide.herbsandharvest.goat_milk_desc"
+						},
+						{
+							"item": "herbsandharvest:sheep_milk_bucket",
+							"text": "guide.herbsandharvest.sheep_milk_desc"
+						}
+						
+										  
+
+						
+					]
+				}
+			 
+		  ]
+	  },
+	  
+	  {
+		  "type": "standard",
+		  
+		  "title": "herbsandharvest.guide_book.foods.dairy.milk.got_milk",
+
+		  "summary": "우유 얻는 방법:\n\n소에게 하듯이 빈 양동이를 염소에게 사용하면 염소 우유를, 양에게 사용하면 양 우유를 얻어요. ",
+
+		  "elements": [			
+
+			  {
+				  "type": "text",
+				  "literal_text": "낙타 우유를 얻으려면 Shift 키를 누른 채 낙타에게 양동이를 사용하세요.\n\n참고: 낙타의 인벤토리가 열리거나 낙타에 탈 수도 있지만 우유는 정상적으로 얻어요.",
+				  "text": null
+			  }
+		  ]
+	  },
+	  
+	  {
+		  "type": "standard",
+		  
+		  "title": "herbsandharvest.guide_book.foods.dairy.cream",
+
+		  "summary": "크림은 데운 가마솥에서 만들어요.",
+
+		  "elements": [			
+				{
+				  "type": "text",
+				  "literal_text": "\n",
+				  "text": null
+				},
+
+
+				{
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:cream_bucket",
+							"text": "guide.herbsandharvest.cream_bucket_desc"
+						}
+						
+										  
+
+						
+					]
+				},
+			  {
+				  "type": "text",
+				  "literal_text": "\n\n아무 종류의 우유나 넣으면 시간이 지나 크림으로 변해요.\n\n양동이를 사용해 가마솥에서 크림을 꺼내세요.",
+				  "text": null
+			  }
+		  ]
+	  },
+	  
+	    {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.dairy.butter",
+
+		  "summary": "데운 가마솥에서 우유를 익히면 크림이 만들어져요.\n\n크림이 가득 찬 가마솥에 양동이를 사용해 크림을 얻으세요.",
+
+		  "elements": [
+				{
+				  "type": "text",
+				  "literal_text": "\n",
+				  "text": null
+				},
+				{
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:butter",
+							"text": "guide.herbsandharvest.butter_desc"
+						}
+						
+					]
+				},
+			  {
+				  "type": "text",
+				  "literal_text": "\n\n버터 교반기에 크림 양동이를 사용하면 버터를 만들 수 있어요.\n\n교반 작업이 끝나면 버터가 나와요.",
+				  "text": null
+			  }
+		  ]
+
+	  },
+	  
+	     {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.dairy.cheese",
+
+		  "summary": "치즈는 8종류로, 경성 치즈 4종과 연성 치즈 4종이 있어요.\n\n이 책의 치즈 제조 안내에서 각 치즈를 만드는 방법을 확인할 수 있어요.",
+
+		  "elements": [
+		  
+				{
+				  "type": "text",
+				  "literal_text": "연성 치즈는 다음과 같아요:",
+				  "text": null
+				},
+				{
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:caravane",
+							"text": "guide.herbsandharvest.caravane_desc"
+						},
+						{
+							"item": "herbsandharvest:chevre",
+							"text": "guide.herbsandharvest.chevre_desc"
+						},
+						{
+							"item": "herbsandharvest:feta",
+							"text": "guide.herbsandharvest.feta_desc"
+						},
+						{
+							"item": "herbsandharvest:ricotta",
+							"text": "guide.herbsandharvest.ricotta_desc"
+						}					  
+						
+					]
+				},
+				{
+				  "type": "text",
+				  "literal_text": "\n\n경성 치즈는 다음과 같아요:",
+				  "text": null
+				},
+				
+				{
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:aged_cheddar",
+							"text": "guide.herbsandharvest.aged_cheddar_desc"
+						},
+						{
+							"item": "herbsandharvest:aged_gouda",
+							"text": "guide.herbsandharvest.aged_gouda_desc"
+						},
+						{
+							"item": "herbsandharvest:aged_parmesan",
+							"text": "guide.herbsandharvest.aged_parmesan_desc"
+						},
+						{
+							"item": "herbsandharvest:aged_swiss",
+							"text": "guide.herbsandharvest.aged_swiss_desc"
+						}					  
+						
+					]
+				}
+		  ]
+
+	  },
+
+	  {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.bfast",
+
+		  "summary": "Herbs and Harvest에는 몇 가지 아침 식사 음식이 있어요.\n\n다음 목록에서 아침 식사 음식과 레시피 발견 아이템을 확인할 수 있어요:",
+
+		  "elements": [
+				{
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:avocado_toast",
+							"text": "guide.herbsandharvest.avo_toast_desc"
+						},
+						{
+							"item": "herbsandharvest:biscuits_gravy",
+							"text": "guide.herbsandharvest.bisc_grav_desc"
+						},
+						{
+							"item": "herbsandharvest:cooked_bacon",
+							"text": "guide.herbsandharvest.c_bacon_desc"
+						},
+						{
+							"item": "herbsandharvest:cooked_sausages",
+							"text": "guide.herbsandharvest.c_sausage_desc"
+						},
+						{
+							"item": "herbsandharvest:eggs",
+							"text": "guide.herbsandharvest.eggs_desc"
+						},
+						{
+							"item": "herbsandharvest:oatmeal",
+							"text": "guide.herbsandharvest.oatmeal_desc"
+						},
+						{
+							"item": "herbsandharvest:pancakes",
+							"text": "guide.herbsandharvest.pancakes_desc"
+						}
+						
+					]
+				}
+		  ]
+
+	  },
+	  
+	  	  {
+		  "type": "standard",
+		  
+		  "title": "herbsandharvest.guide_book.foods.bread",
+
+		  "summary": "Herbs and Harvest에는 여러 빵이 추가돼요. 자세히 알아보려면 아래 링크를 선택하세요:", 
+		  
+		     "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.foods.bread.grain",
+          "target_page": 10
+        },
+		 {
+          "title": "herbsandharvest.guide_book.foods.bread.grain.slice",
+          "target_page": 11
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.bread.sandwich",
+          "target_page": 12
+        }
+      ],
+
+		  "elements": [
+			 
+			  
+		  ]
+
+	  },
+	  
+	   
+	  
+	  	  {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.bread.grain",
+
+		  "summary": "Herbs and Harvest의 여러 곡물로 다양한 빵과 샌드위치를 만들 수 있어요.\n\n만들 수 있는 빵은 다음과 같아요:",
+
+		  "elements": [
+			
+			  {
+				  "type": "text",
+				  "literal_text": "\n",
+				  "text": null
+			  },
+			  {
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:barley_loaf",
+							"text": "guide.herbsandharvest.barley_bread_desc"
+						},
+						{
+							"item": "herbsandharvest:garlic_bread",
+							"text": "guide.herbsandharvest.garlic_bread_desc"
+						},
+						{
+							"item": "herbsandharvest:pumpernickel_loaf",
+							"text": "guide.herbsandharvest.pump_bread_desc"
+						},
+						{
+							"item": "herbsandharvest:rye_loaf",
+							"text": "guide.herbsandharvest.rye_bread_desc"
+						}
+						
+					]
+				}
+								
+				
+				
+		  ]
+
+	  },
+	   {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.bread.grain.slice",
+
+		  "summary": "빵 한 덩어리를 같은 종류의 빵 조각 8개로 제작할 수 있어요.",
+
+		  "elements": [
+			
+			  {
+				  "type": "text",
+				  "literal_text": "\n",
+				  "text": null
+			  },
+			  {
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:barley_slice",
+							"text": "guide.herbsandharvest.barley_slice_desc"
+						},
+						{
+							"item": "herbsandharvest:garlic_bread_slice",
+							"text": "guide.herbsandharvest.garlic_slice_desc"
+						},
+						{
+							"item": "herbsandharvest:pumpernickel_slice",
+							"text": "guide.herbsandharvest.pump_slice_desc"
+						},
+						{
+							"item": "herbsandharvest:rye_slice",
+							"text": "guide.herbsandharvest.rye_slice_desc"
+						}
+						
+					]
+				},
+								
+				{
+				  "type": "text",
+				  "literal_text": "\n\nMinecraft 빵도 빵 조각으로 제작할 수 있어요:",
+				  "text": null
+				},
+				{
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:bread_slice",
+							"text": "guide.herbsandharvest.bread_slice_desc"
+						}
+						
+					]
+				}
+				
+		  ]
+
+	  },
+	  
+	  	{
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.bread.sandwich",
+
+		  "summary": " 샌드위치마다 정해진 빵이 필요하며, 그 빵이 레시피 발견 아이템이기도 해요.\n\n샌드위치와 필요한 빵의 전체 목록은 다음과 같아요:",
+
+		  "elements": [
+		  
+				{
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:reuben",
+							"text": "guide.herbsandharvest.reuben_desc"
+						},
+						{
+							"item": "herbsandharvest:salami_rye",
+							"text": "guide.herbsandharvest.salami_rye_desc"
+						},
+						{
+							"item": "herbsandharvest:ham_swiss",
+							"text": "guide.herbsandharvest.ham_swiss_desc"
+						},
+						{
+							"item": "herbsandharvest:beef_cheddar",
+							"text": "guide.herbsandharvest.beef_cheddar_desc"
+						},
+						{
+							"item": "herbsandharvest:grilled_cheese",
+							"text": "guide.herbsandharvest.grilled_cheese_desc"
+						},
+						{
+							"item": "herbsandharvest:monte_cristo",
+							"text": "guide.herbsandharvest.monte_cristo_desc"
+						},
+						{
+							"item": "herbsandharvest:peanut_butter_jelly",
+							"text": "guide.herbsandharvest.pbj_desc"
+						}
+						
+					]
+				}
+		  ]
+
+	  },
+	  
+	  {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.salad",
+
+		  "summary": "Herbs and Harvest에는 샐러드가 4종류 있으며, 상추를 얻으면 각 레시피를 발견해요.\n\n샐러드를 먹고 나면 빈 그릇이 남아요.",
+
+		  "elements": [
+		  {
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:caesar_salad",
+							"text": "guide.herbsandharvest.caesar_salad_desc"
+						},
+						{
+							"item": "herbsandharvest:chef_salad",
+							"text": "guide.herbsandharvest.chef_salad_desc"
+						},
+						{
+							"item": "herbsandharvest:chicken_berry_salad",
+							"text": "guide.herbsandharvest.chicken_salad_desc"
+						},
+						{
+							"item": "herbsandharvest:garden_salad",
+							"text": "guide.herbsandharvest.garden_salad_desc"
+						}
+						
+					]
+				}
+			 
+			  
+		  ]
+
+	  },
+	  
+	   {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.other",
+
+		  "summary": "기타 음식과 발견 아이템은 다음과 같아요:",
+
+		  "elements": [
+			 
+			 
+			  {
+					"type": "icon_list",
+					"entries": [
+				 {
+							"item": "herbsandharvest:mashed_potatoes",
+							"text": "guide.herbsandharvest.mashed_pot_desc"
+						},
+						{
+							"item": "herbsandharvest:cornbread_stuffing",
+							"text": "guide.herbsandharvest.stuffing_desc"
+						},
+						{
+							"item": "herbsandharvest:vegetable_medley",
+							"text": "guide.herbsandharvest.veg_medley_desc"
+						},
+						
+						{
+							"item": "herbsandharvest:taco",
+							"text": "guide.herbsandharvest.taco_desc"
+						},
+						{
+							"item": "herbsandharvest:burrito",
+							"text": "guide.herbsandharvest.burrito_desc"
+						},
+						{
+							"item": "herbsandharvest:guacamole",
+							"text": "guide.herbsandharvest.guacamole_desc"
+						},
+						{
+							"item": "herbsandharvest:chips",
+							"text": "guide.herbsandharvest.chips_desc"
+						},
+						{
+							"item": "herbsandharvest:guacamole_chips",
+							"text": "guide.herbsandharvest.guacamole_chips_desc"
+						}
+						
+					]
+				}
+		  ]
+
+	  },
+	  
+	  	   {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.otherc",
+
+		  "summary": "기타 음식과 발견 아이템(계속):",
+
+		  "elements": [
+		    {
+					"type": "icon_list",
+					"entries": [
+				 
+						{
+							"item": "herbsandharvest:bagel",
+							"text": "guide.herbsandharvest.bagel_desc"
+						},
+						{
+							"item": "herbsandharvest:bagel_cream_cheese",
+							"text": "guide.herbsandharvest.bagel_cheese_desc"
+						},
+						{
+							"item": "herbsandharvest:bagel_with_salmon",
+							"text": "guide.herbsandharvest.bagel_salmon_desc"
+						},
+						{
+							"item": "herbsandharvest:graham_crackers",
+							"text": "guide.herbsandharvest.graham_cracker_desc"
+						}
+						
+					]
+				}
+			 
+			 
+		  ]
+
+	  },
+	  
+	   {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.otherd",
+
+		  "summary": "기타 음식과 발견 아이템(계속):",
+
+		  "elements": [
+		    {
+					"type": "icon_list",
+					"entries": [
+				 
+						
+						
+						{
+							"item": "herbsandharvest:beef_pie",
+							"text": "guide.herbsandharvest.beef_pie_desc"
+						},
+						{
+							"item": "herbsandharvest:chicken_pie",
+							"text": "guide.herbsandharvest.chicken_pie_desc"
+						},
+						{
+							"item": "herbsandharvest:lamb_pie",
+							"text": "guide.herbsandharvest.lamb_pie_desc"
+						},
+						{
+							"item": "herbsandharvest:pork_pie",
+							"text": "guide.herbsandharvest.pork_pie_desc"
+						}
+						
+					]
+				}
+			 
+			 
+		  ]
+
+	  },
+	  
+	  {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.cond",
+
+		  "summary": "조미료와 기타 재료를 제작할 때에는 레시피에 따라 그릇이나 향신료 병이 필요해요.\n\n조미료와 레시피 발견 아이템은 다음과 같아요:",
+
+		  "elements": [
+						{
+							"type": "icon_list",					
+					 
+							"entries": [
+								  {
+									"item": "herbsandharvest:mayo",
+									"text": "guide.herbsandharvest.mayonnaise_desc"
+								  },
+								  {
+									"item": "herbsandharvest:ketchup",
+									"text": "guide.herbsandharvest.ketchup_desc"
+								  },
+								  {
+									"item": "herbsandharvest:mustard",
+									"text": "guide.herbsandharvest.mustard_desc"
+								  },
+								  {
+									"item": "herbsandharvest:oil",
+									"text": "guide.herbsandharvest.vegetable_oil_desc"
+								  },
+								  {
+									"item": "herbsandharvest:peanut_butter",
+									"text": "guide.herbsandharvest.peanut_butter_desc"
+								  },
+								  {
+									"item": "herbsandharvest:raspberry_jam",
+									"text": "guide.herbsandharvest.raspberry_jam_desc"
+								  },
+								  {
+									"item": "herbsandharvest:blackberry_jam",
+									"text": "guide.herbsandharvest.blackberry_jam_desc"
+								  }
+							]
+						}
+					
+					]
+					
+		},
+			 
+			  
+	
+	  
+	   {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.condc",
+
+		  "summary": "조미료와 기타 재료(계속): ",
+
+		  "elements": [
+				{
+					"type": "icon_list",					
+			 
+					"entries": [
+						 
+						  {
+							"item": "herbsandharvest:sour_cream",
+							"text": "guide.herbsandharvest.sour_cream_desc"
+						  },
+						  {
+							"item": "herbsandharvest:cream_cheese",
+							"text": "guide.herbsandharvest.cream_cheese_desc"
+						  },
+						  {
+							"item": "herbsandharvest:whipped_cream",
+							"text": "guide.herbsandharvest.whipped_cream_desc"
+						  }
+					]
+				}
+					
+			]
+		},
+	
+	  
+	  
+	    {
+		  "type": "standard",
+		  
+		  "title": "herbsandharvest.guide_book.foods.dessert",
+
+		  "summary": "Herbs and Harvest에는 디저트가 아주 많아요. 자세히 알아보려면 아래 링크를 선택하세요:", 
+		  
+		     "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.foods.dessert.info",
+          "target_page": 20
+        },
+		{
+          "title": "herbsandharvest.guide_book.foods.dessert.infoc",
+          "target_page": 21
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dessert.cakes",
+          "target_page": 22
+        },
+		 {
+          "title": "herbsandharvest.guide_book.foods.dessert.ccakes",
+          "target_page": 23
+        },
+		{
+          "title": "herbsandharvest.guide_book.foods.dessert.pies",
+          "target_page": 24
+        },
+		 {
+          "title": "herbsandharvest.guide_book.foods.dessert.cookies",
+          "target_page": 25
+        },
+		{
+          "title": "herbsandharvest.guide_book.foods.dessert.muffin",
+          "target_page": 26
+        }
+      ],
+
+		  "elements": [
+			 
+			  {
+				  "type": "image",
+				  "image_path": "textures/gui/guide/chapters/items/dessert.png",
+				  "caption": "herbsandharvest.guide_book.chapters.items.dessert_caption",
+				  "image_width": 110,
+				  "image_height": 62
+
+				}
+			  
+		  ]
+
+	  },
+	  
+	  {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.dessert.info",
+
+		  "summary": "디저트에는 케이크, 치즈케이크, 파이, 쿠키, 컵케이크, 머핀, 시나몬 롤, 스위트 롤과 자두 푸딩이 있어요.",
+
+		  "elements": [
+			 
+			  {
+				  "type": "text",
+				  "literal_text": "케이크, 치즈케이크, 파이와 자두 푸딩은 모두 설치할 수 있는 블록이며, 빈손으로 클릭하면 디저트 조각을 얻어요.\n\n자두 푸딩을 제외하면 조각이 8개씩 나오고, 더 작은 자두 푸딩에서는 조각이 4개 나와요.",
+				  "text": null
+			  }
+		  ]
+
+	  },
+	  
+	  {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.dessert.infoc",
+
+		  "summary": "작은 디저트와 페이스트리는 한 번 먹으면 사라지는 음식 아이템이에요.\n\n앞서 설명했듯 작은 일회용 디저트와 페이스트리만 페이스트리 스탠드에 놓을 수 있어요.",
+
+		  "elements": [
+			 
+			  {
+				  "type": "text",
+				  "literal_text": "디저트 레시피 발견 아이템은 각 디저트 페이지에 적혀 있어요.",
+				  "text": null
+			  }
+		  ]
+
+	  },
+	  
+	   {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.dessert.cakes",
+
+		  "summary": "밀을 얻으면 모든 케이크 레시피를 발견해요.\n\n자두를 얻으면 자두 푸딩 레시피를 발견해요.\n\n케이크와 컵케이크는 다음과 같아요:",
+
+		  "elements": [
+		  
+				{
+					"type": "icon_list",					
+			 
+					"entries": [
+						 
+						  {
+							"item": "herbsandharvest:black_forest_cake",
+							"text": "guide.herbsandharvest.bforest_cake_desc"
+						  },
+						  {
+							"item": "herbsandharvest:carrot_cake",
+							"text": "guide.herbsandharvest.carrot_cake_desc"
+						  },
+						  {
+							"item": "herbsandharvest:strawberry_cake",
+							"text": "guide.herbsandharvest.straw_cake_desc"
+						  },
+						   {
+							"item": "herbsandharvest:yellow_cake",
+							"text": "guide.herbsandharvest.yellow_cake_desc"
+						  },
+						    {
+							"item": "herbsandharvest:pineapple_cake",
+							"text": "guide.herbsandharvest.pine_cake_desc"
+						  },
+						  {
+							"item": "herbsandharvest:plum_pudding",
+							"text": "guide.herbsandharvest.plum_pudd_desc"
+						  },
+						   {
+							"item": "herbsandharvest:black_forest_cupcake",
+							"text": "guide.herbsandharvest.bforest_ccake_desc"
+						  },
+						  {
+							"item": "herbsandharvest:carrot_cupcake",
+							"text": "guide.herbsandharvest.carrot_ccake_desc"
+						  },
+						  {
+							"item": "herbsandharvest:strawberry_cupcake",
+							"text": "guide.herbsandharvest.straw_ccake_desc"
+						  },
+						   {
+							"item": "herbsandharvest:yellow_cupcake",
+							"text": "guide.herbsandharvest.yellow_ccake_desc"
+						  }
+					]
+				}			  													 
+			
+		  ]
+
+	  },
+	  
+	  {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.dessert.ccakes",
+
+		  "summary": "크림치즈를 얻으면 모든 치즈케이크 레시피를 발견해요.",
+
+		  "elements": [  
+
+				{
+				  "type": "text",
+				  "literal_text": "\n치즈케이크:\n",
+				  "text": null
+				},
+			   {
+					"type": "icon_list",					
+			 
+					"entries": [
+						 
+						  {
+							"item": "herbsandharvest:cheesecake",
+							"text": "guide.herbsandharvest.ccake_desc"
+						  },
+						  {
+							"item": "herbsandharvest:blueberry_cheesecake",
+							"text": "guide.herbsandharvest.blue_ccake_desc"
+						  },
+						  {
+							"item": "herbsandharvest:raspberry_cheesecake",
+							"text": "guide.herbsandharvest.rasp_ccake_desc"
+						  }
+					]
+				}
+			 
+			  
+		  ]
+
+	  },
+	  
+	    {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.dessert.pies",
+
+		  "summary": "밀을 얻으면 파이 레시피를 발견해요.",
+
+		  "elements": [
+		  
+				{
+				  "type": "text",
+				  "literal_text": "\n파이:\n",
+				  "text": null
+				},
+				{
+					"type": "icon_list",					
+			 
+					"entries": [
+						 
+							  {
+								"item": "herbsandharvest:apple_pie",
+								"text": "guide.herbsandharvest.apple_pie_desc"
+							  },
+							  {
+								"item": "herbsandharvest:blueberry_pie",
+								"text": "guide.herbsandharvest.blueberry_pie_desc"
+							  },
+							  {
+								"item": "herbsandharvest:cherry_pie",
+								"text": "guide.herbsandharvest.cherry_pie_desc"
+							  },
+							  {
+								"item": "herbsandharvest:chocolate_pie",
+								"text": "guide.herbsandharvest.chocolate_pie_desc"
+							  },
+							  {
+								"item": "herbsandharvest:key_lime_pie",
+								"text": "guide.herbsandharvest.key_lime_pie_desc"
+							  },
+							  {
+								"item": "herbsandharvest:lemon_meringue_pie",
+								"text": "guide.herbsandharvest.lemon_meringue_pie_desc"
+							  },
+							  {
+								"item": "herbsandharvest:peach_pie",
+								"text": "guide.herbsandharvest.peach_pie_desc"
+							  }
+						]
+				}
+		  ]
+
+	  },
+	  
+	   {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.dessert.cookies",
+
+		  "summary": "쿠키 레시피도 밀을 얻으면 발견해요. ",
+
+		  "elements": [
+		  
+				{
+				  "type": "text",
+				  "literal_text": "쿠키: ",
+				  "text": null
+				},									 
+				{
+					"type": "icon_list",					
+			 
+					"entries": [
+						 
+							   {
+								"item": "herbsandharvest:oatmeal_raisin_cookie",
+								"text": "guide.herbsandharvest.oatmeal_raisin_cookie_desc"
+							  },
+							  {
+								"item": "herbsandharvest:peanut_butter_cookie",
+								"text": "guide.herbsandharvest.peanut_butter_cookie_desc"
+							  },
+							  {
+								"item": "herbsandharvest:snickerdoodle_cookie",
+								"text": "guide.herbsandharvest.snickerdoodle_desc"
+							  },
+							  {
+								"item": "herbsandharvest:sugar_cookie",
+								"text": "guide.herbsandharvest.sugar_cookie_desc"
+							  }
+							  
+						]
+				}
+		  ]
+
+	  },
+	  
+	  {
+		  "type": "standard",
+		  "title": "herbsandharvest.guide_book.foods.dessert.muffin",
+
+		  "summary": "밀을 얻으면 머핀과 롤 레시피를 발견해요.",
+
+		  "elements": [
+				{
+				  "type": "text",
+				  "literal_text": "\n머핀: ",
+				  "text": null
+				},
+			
+				{
+					"type": "icon_list",					
+			 
+					"entries": [
+						 
+							   {
+								"item": "herbsandharvest:apple_muffin",
+								"text": "guide.herbsandharvest.apple_muffin_desc"
+							  },
+							  {
+								"item": "herbsandharvest:blueberry_muffin",
+								"text": "guide.herbsandharvest.blueberry_muffin_desc"
+							  },
+							  {
+								"item": "herbsandharvest:pumpkin_muffin",
+								"text": "guide.herbsandharvest.pumpkin_muffin_desc"
+							  },
+							  {
+								"item": "herbsandharvest:sweet_berry_muffin",
+								"text": "guide.herbsandharvest.sweet_berry_muffin_desc"
+							  }
+							  
+						]
+				},
+				{
+				  "type": "text",
+				  "literal_text": "\n\n롤: ",
+				  "text": null
+				},
+			 
+				{
+					"type": "icon_list",					
+			 
+					"entries": [
+						 
+							  {
+								"item": "herbsandharvest:cinnamon_roll",
+								"text": "guide.herbsandharvest.cinnamon_roll_desc"
+							  },
+							  {
+								"item": "herbsandharvest:sweet_roll",
+								"text": "guide.herbsandharvest.sweet_roll_desc"
+							  }
+							  
+						]
+				}
+		  ]
+
+	  }
+	  
+	  
+	  
+	  
+	
+  ]
+}
