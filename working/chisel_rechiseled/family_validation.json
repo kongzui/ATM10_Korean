@@ -1,0 +1,55 @@
+{
+  "family": "chisel_rechiseled",
+  "language": {
+    "reviewed_english_keys": 6673,
+    "mods": {
+      "chisel": {
+        "english_keys": 2774,
+        "output_keys": 2774,
+        "bundled_korean_candidate_keys": 0,
+        "collapsed_name_count": 0
+      },
+      "rechiseled": {
+        "english_keys": 3656,
+        "output_keys": 3656,
+        "bundled_korean_candidate_keys": 0,
+        "collapsed_name_count": 0
+      },
+      "rechiseledcreate": {
+        "english_keys": 243,
+        "output_keys": 243,
+        "bundled_korean_candidate_keys": 0,
+        "collapsed_name_count": 0
+      }
+    },
+    "existing_korean_values_reused": 0,
+    "new_language_values": 6673,
+    "intentional_same_keys": [
+      "itemGroup.chisel.chisel",
+      "rechiseled.item_group"
+    ],
+    "collapsed_names": {},
+    "errors": [],
+    "status": "complete"
+  },
+  "ftbquest_validation": {
+    "reviewed_keys": 7,
+    "existing_korean_values_reused": 1,
+    "existing_korean_values_revised": 6,
+    "new_values": 0,
+    "remaining": 0,
+    "errors": [],
+    "status": "complete"
+  },
+  "surface_audit": "complete",
+  "ftbquests": "item_ids_use_resourcepack_names",
+  "kubejs": "no_related_references",
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/chisel/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/rechiseled/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/rechiseledcreate/lang/ko_kr.json",
+    "config/ftbquests/quests/lang/ko_kr.snbt"
+  ],
+  "errors": [],
+  "status": "complete"
+}

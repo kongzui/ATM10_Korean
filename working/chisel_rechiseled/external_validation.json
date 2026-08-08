@@ -1,0 +1,21 @@
+{
+  "verify_ftbquests_titles": {
+    "status": "failed_out_of_scope",
+    "reason": "이번 가족의 7개 키가 아닌 기존 공통 챕터 작업본과 누적 출력의 불일치예요.",
+    "mismatched_keys": [
+      "quest.03E05018D64DDEE1.quest_desc",
+      "quest.03E05018D64DDEE1.title",
+      "quest.09733948CBCB3FB9.quest_desc",
+      "quest.1EECA19DF9CF6A0C.quest_desc",
+      "quest.42AF4EBDA5D6CC36.quest_desc",
+      "quest.47043AF7D1FABC43.quest_desc",
+      "quest.538186D01429F05F.quest_desc",
+      "quest.5AE851B8074BC7E6.title",
+      "quest.6E17595887A051C2.quest_desc",
+      "quest.77B6A7151B3E5980.quest_desc",
+      "quest.78215D704E6095B0.quest_desc"
+    ],
+    "family_keys_in_mismatch": [],
+    "family_targeted_validation": "complete"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "family": "chisel_rechiseled",
+  "jar_surfaces": {
+    "chisel": {
+      "data_json_files": 1300,
+      "data_localized_fields": 0,
+      "localized_field_classification": "none",
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "rechiseled": {
+      "data_json_files": 3944,
+      "data_localized_fields": 2,
+      "localized_field_classification": "silent_recipe_advancement_metadata",
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    },
+    "rechiseledcreate": {
+      "data_json_files": 271,
+      "data_localized_fields": 2,
+      "localized_field_classification": "silent_recipe_advancement_metadata",
+      "data_direct_fields": 0,
+      "nbt_files": 0,
+      "nbt_visible_fields": 0,
+      "guide_candidates": 0
+    }
+  },
+  "references": {
+    "ftbquests": [
+      {
+        "path": "config/ftbquests/quests/chapters/building_tips.snbt",
+        "namespace_occurrences": {
+          "chisel": 1,
+          "rechiseled": 2
+        },
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "config/ftbquests/quests/reward_tables/3602F483568B92BA.snbt",
+        "namespace_occurrences": {
+          "chisel": 1
+        },
+        "visible_namespace_candidate_lines": []
+      }
+    ],
+    "kubejs": [],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "item_ids_use_resourcepack_names",
+  "kubejs_display_work": "no_related_references",
+  "errors": [],
+  "status": "complete"
+}

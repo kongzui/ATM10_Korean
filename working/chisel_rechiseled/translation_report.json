@@ -1,0 +1,33 @@
+{
+  "reviewed_language_keys": 6673,
+  "existing_korean_values_reused": 0,
+  "new_language_values": 6673,
+  "output_keys": {
+    "chisel": 2774,
+    "rechiseled": 3656,
+    "rechiseledcreate": 243
+  },
+  "translation_methods": {
+    "reviewed_name_composition": 6490,
+    "reviewed_ui": 37,
+    "reviewed_window_pattern": 146
+  },
+  "ftbquests": {
+    "reviewed_keys": 7,
+    "existing_korean_values_reused": 1,
+    "existing_korean_values_revised": 6,
+    "new_values": 0
+  },
+  "reference_sources": {
+    "minecraft_client_jar": "C:/Users/moon9/curseforge/minecraft/Install/versions/1.21.1/1.21.1.jar",
+    "minecraft_client_sha256": "499f6897d1837516680f3114072d8106e11c9adcd933fe5cf051b551089b0c99",
+    "minecraft_korean_asset": "C:/Users/moon9/curseforge/minecraft/Install/assets/objects/00/0043b84e0a950f6cb089d7ba0bc0e30ed41dfafb",
+    "minecraft_korean_asset_hash": "0043b84e0a950f6cb089d7ba0bc0e30ed41dfafb",
+    "minecraft_phrase_pairs": 2210,
+    "create_english": "working/create/create/en_us.json",
+    "create_korean": "working/create/create/ko_kr.json",
+    "create_phrase_pairs": 865
+  },
+  "errors": [],
+  "status": "complete"
+}

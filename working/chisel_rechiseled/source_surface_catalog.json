@@ -1,0 +1,124 @@
+{
+  "family": "chisel_rechiseled",
+  "jars": [
+    {
+      "label": "chisel",
+      "jar": "chisel-neoforge-2.0.1+mc1.21.1.jar",
+      "jar_size": 8268524,
+      "jar_mtime_ns": 1783222339734579500,
+      "language_files": [
+        "assets/chisel/lang/en_us.json",
+        "assets/chisel/lang/es_mx.json"
+      ],
+      "data_json_files": 1300,
+      "data_direct_fields": [],
+      "data_localized_fields": [],
+      "invalid_json": [],
+      "nbt_files": 0,
+      "nbt_visible_fields": [],
+      "guide_candidates": []
+    },
+    {
+      "label": "rechiseled",
+      "jar": "rechiseled-1.2.5-neoforge-mc1.21.jar",
+      "jar_size": 11498611,
+      "jar_mtime_ns": 1783222355261864200,
+      "language_files": [
+        "assets/rechiseled/lang/en_us.json",
+        "assets/rechiseled/lang/uk_ua.json"
+      ],
+      "data_json_files": 3944,
+      "data_direct_fields": [],
+      "data_localized_fields": [
+        {
+          "file": "data/rechiseled/advancement/recipes/misc/chisel.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "rechiseled.advancement.recipes/misc/chisel.title"
+          }
+        },
+        {
+          "file": "data/rechiseled/advancement/recipes/misc/chisel.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "rechiseled.advancement.recipes/misc/chisel.description"
+          }
+        }
+      ],
+      "invalid_json": [],
+      "nbt_files": 0,
+      "nbt_visible_fields": [],
+      "guide_candidates": []
+    },
+    {
+      "label": "rechiseledcreate",
+      "jar": "rechiseledcreate-1.1.1-neoforge-mc1.21.jar",
+      "jar_size": 983177,
+      "jar_mtime_ns": 1783222265826966700,
+      "language_files": [
+        "assets/rechiseledcreate/lang/en_us.json",
+        "assets/rechiseledcreate/lang/uk_ua.json"
+      ],
+      "data_json_files": 271,
+      "data_direct_fields": [],
+      "data_localized_fields": [
+        {
+          "file": "data/rechiseledcreate/advancement/recipes/misc/mechanical_chisel.json",
+          "path": "$.display.title",
+          "value": {
+            "translate": "rechiseledcreate.advancement.recipes/misc/mechanical_chisel.title"
+          }
+        },
+        {
+          "file": "data/rechiseledcreate/advancement/recipes/misc/mechanical_chisel.json",
+          "path": "$.display.description",
+          "value": {
+            "translate": "rechiseledcreate.advancement.recipes/misc/mechanical_chisel.description"
+          }
+        }
+      ],
+      "invalid_json": [],
+      "nbt_files": 0,
+      "nbt_visible_fields": [],
+      "guide_candidates": []
+    }
+  ],
+  "language_keys": {
+    "chisel": 2774,
+    "rechiseled": 3656,
+    "rechiseledcreate": 243
+  },
+  "total_english_keys": 6673,
+  "bundled_korean_candidate_keys": {
+    "chisel": 0,
+    "rechiseled": 0,
+    "rechiseledcreate": 0
+  },
+  "reference_sources": {
+    "minecraft_client_jar": "C:/Users/moon9/curseforge/minecraft/Install/versions/1.21.1/1.21.1.jar",
+    "minecraft_client_sha256": "499f6897d1837516680f3114072d8106e11c9adcd933fe5cf051b551089b0c99",
+    "minecraft_korean_asset": "C:/Users/moon9/curseforge/minecraft/Install/assets/objects/00/0043b84e0a950f6cb089d7ba0bc0e30ed41dfafb",
+    "minecraft_korean_asset_hash": "0043b84e0a950f6cb089d7ba0bc0e30ed41dfafb",
+    "minecraft_phrase_pairs": 2210,
+    "create_english": "working/create/create/en_us.json",
+    "create_korean": "working/create/create/ko_kr.json",
+    "create_phrase_pairs": 865
+  },
+  "ftbquests": {
+    "english_path": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10/config/ftbquests/quests/lang/en_us.snbt",
+    "english_size": 1505371,
+    "english_sha256": "05b9ce2b104142f1673f6d105ff9168387a237e1eecf2819d4b2883ffa5ca17b",
+    "reviewed_keys": [
+      "quest.09F49ED309152E24.quest_desc",
+      "quest.09F49ED309152E24.title",
+      "quest.3497C2E05DF5A87C.quest_desc",
+      "quest.3497C2E05DF5A87C.title",
+      "quest.5EB488C393B084C4.quest_desc",
+      "quest.5EB488C393B084C4.title",
+      "task.41FF171C7D97B574.title"
+    ],
+    "candidate_keys": 7
+  },
+  "errors": [],
+  "status": "prepared"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "applied_and_verified",
+  "backup_manifest": "temp/backups/20260808_154518_809536/backup_manifest.json",
+  "final_apply_manifest": "temp/backups/20260808_154837_879937/backup_manifest.json",
+  "backup_manifests": [
+    "temp/backups/20260808_154518_809536/backup_manifest.json",
+    "temp/backups/20260808_154837_879937/backup_manifest.json"
+  ],
+  "expected_paths": [
+    "resourcepacks/ATM10_Korean/assets/chisel/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/rechiseled/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/rechiseledcreate/lang/ko_kr.json",
+    "config/ftbquests/quests/lang/ko_kr.snbt"
+  ],
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+      "changed_paths": [
+        "resourcepacks/ATM10_Korean/assets/chisel/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/rechiseled/lang/ko_kr.json"
+      ],
+      "unexpected_changes": [],
+      "hash_verified": true
+    }
+  ],
+  "errors": []
+}
