@@ -6,6 +6,7 @@
       "jar": "Powah-6.2.10.jar",
       "namespace": "powah",
       "direct_integration": false,
+      "language_target": true,
       "english_keys": 190,
       "bundled_korean_keys": 0,
       "metadata_mentions_family": [
@@ -64,6 +65,7 @@
       "jar": "Powah-6.2.10.jar",
       "namespace": "lollipop",
       "direct_integration": false,
+      "language_target": true,
       "english_keys": 50,
       "bundled_korean_keys": 0,
       "metadata_mentions_family": [
@@ -80,6 +82,7 @@
       "jar": "FluxNetworks-1.21.1-8.0.0.jar",
       "namespace": "fluxnetworks",
       "direct_integration": false,
+      "language_target": true,
       "english_keys": 123,
       "bundled_korean_keys": 0,
       "metadata_mentions_family": [

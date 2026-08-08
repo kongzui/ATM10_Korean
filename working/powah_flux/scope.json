@@ -6,6 +6,7 @@
       "jar": "Powah-6.2.10.jar",
       "namespace": "powah",
       "direct_integration": false,
+      "language_target": true,
       "english_keys": 190,
       "bundled_korean_keys": 0,
       "metadata_mentions_family": [
@@ -64,6 +65,7 @@
       "jar": "Powah-6.2.10.jar",
       "namespace": "lollipop",
       "direct_integration": false,
+      "language_target": true,
       "english_keys": 50,
       "bundled_korean_keys": 0,
       "metadata_mentions_family": [
@@ -80,6 +82,7 @@
       "jar": "FluxNetworks-1.21.1-8.0.0.jar",
       "namespace": "fluxnetworks",
       "direct_integration": false,
+      "language_target": true,
       "english_keys": 123,
       "bundled_korean_keys": 0,
       "metadata_mentions_family": [
@@ -100,17 +103,14 @@
       "jar": "Powah-6.2.10.jar",
       "namespace": "powah",
       "english_keys": 190,
-      "project_output_review": 187,
-      "new_translation_required": 2,
-      "project_output_review": 1
+      "project_output_review": 190
     },
     {
       "label": "Lollipop",
       "jar": "Powah-6.2.10.jar",
       "namespace": "lollipop",
       "english_keys": 50,
-      "project_output_review": 49,
-      "new_translation_required": 1
+      "project_output_review": 50
     },
     {
       "label": "Flux Networks",

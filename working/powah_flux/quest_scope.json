@@ -3,13 +3,12 @@
   "chapters": {
     "powah": {
       "display_keys": 40,
-      "new_translation_required": 2,
-      "project_output_review": 38
+      "project_output_review": 40
     },
     "related": {
       "display_keys": 26,
-      "new_translation_required": 2,
-      "project_output_review": 24
+      "new_translation_required": 1,
+      "project_output_review": 25
     }
   }
 }

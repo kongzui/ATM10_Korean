@@ -1,6 +1,6 @@
 {
   "itemGroup.fluxnetworks": "Flux Networks",
-  "block.fluxnetworks.flux_block": "Flux 블록",
+  "block.fluxnetworks.flux_block": "플럭스 블록",
   "block.fluxnetworks.flux_controller": "플럭스 컨트롤러",
   "block.fluxnetworks.flux_point": "플럭스 포인트",
   "block.fluxnetworks.flux_plug": "플럭스 플러그",
@@ -47,8 +47,8 @@
   "gui.fluxnetworks.flux.name": "이름",
   "gui.fluxnetworks.flux.transferlimit": "전송 제한",
   "gui.fluxnetworks.flux.wireless": "무선 활성화",
-  "gui.fluxnetworks.flux.wirelessnetwork": "무선 충전 사용 가능",
-  "gui.fluxnetworks.flux.nonwirelessnetwork": "무선 충전 사용 불가",
+  "gui.fluxnetworks.flux.wirelessnetwork": "무선 충전 적용됨",
+  "gui.fluxnetworks.flux.nonwirelessnetwork": "무선 충전 적용되지 않음",
   "gui.fluxnetworks.flux.energy": "에너지",
   "gui.fluxnetworks.flux.energystored": "에너지 저장량",
   "gui.fluxnetworks.flux.buffer": "버퍼",
@@ -73,7 +73,7 @@
   "gui.fluxnetworks.label.selected": "아이템 %s개 선택됨",
   "gui.fluxnetworks.label.singleedit": "개별 편집 모드",
   "gui.fluxnetworks.label.batchedit": "일괄 편집 모드",
-  "gui.fluxnetworks.label.editingconnections": "%d 연결 편집 중",
+  "gui.fluxnetworks.label.editingconnections": "%d개 연결 편집 중",
   "gui.fluxnetworks.label.connections": "연결",
   "gui.fluxnetworks.label.customcolor": "사용자 지정 색상",
   "gui.fluxnetworks.label.connectingto": "%s에 연결 중",
@@ -107,7 +107,7 @@
   "gui.fluxnetworks.slot.mainhand": "주 손",
   "gui.fluxnetworks.slot.offhand": "보조 손",
   "gui.fluxnetworks.slot.armor": "갑옷 슬롯",
-  "gui.fluxnetworks.slot.curios": "큐리오스 슬롯",
+  "gui.fluxnetworks.slot.curios": "Curios 슬롯",
   "gui.fluxnetworks.stat.plug": "플러그",
   "gui.fluxnetworks.stat.point": "포인트",
   "gui.fluxnetworks.stat.controller": "컨트롤러",
@@ -121,5 +121,5 @@
   "gui.fluxnetworks.access.blocked": "외부인",
   "gui.fluxnetworks.access.superadmin": "최고 관리자",
   "gui.fluxnetworks.jei.creatingfluxrecipe": "플럭스 생성",
-  "gui.fluxnetworks.jei.leftclickhelp": "%s을(를) 왼쪽 클릭"
+  "gui.fluxnetworks.jei.leftclickhelp": "%s을(를) 좌클릭하세요"
 }

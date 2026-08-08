@@ -6,8 +6,8 @@
   ],
   "language_provenance": {
     "bundled_exact_reuse": 0,
-    "project_output_reuse": 360,
-    "new_or_edited": 3
+    "project_output_reuse": 363,
+    "new_or_edited": 0
   },
   "ftbquests": {
     "chapters": [
@@ -30,8 +30,8 @@
       "custom_name/literal component",
       "first-task quest fallback"
     ],
-    "reviewed_overrides": 49,
-    "matching_output": 49
+    "reviewed_overrides": 50,
+    "matching_output": 50
   },
   "guides": {
     "jar": "Powah-6.2.10.jar",
@@ -72,8 +72,11 @@
   },
   "quality_review": {
     "powah_language_corrections_checked": 33,
-    "lollipop_language_corrections_checked": 13,
+    "lollipop_language_corrections_checked": 15,
+    "flux_networks_language_corrections_checked": 6,
     "scopes_checked": [
+      "Flux Networks 작업본",
+      "Flux Networks 출력본",
       "GuideME 출력",
       "Lollipop 작업본",
       "Lollipop 출력본",
@@ -85,16 +88,14 @@
   },
   "deployment": {
     "status": "applied_and_verified",
-    "target": "C:\\Users\\moon9653nb\\Desktop\\ATM10_source",
-    "backup_manifest": "temp/backups/20260728_101314_768430/backup_manifest.json",
-    "files_checked": 5,
-    "hash_matches": 5,
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "backup_manifest": "temp/backups/20260808_222732_209579/backup_manifest.json",
+    "files_checked": 32,
+    "hash_matches": 32,
     "changed_paths": [
       "config/ftbquests/quests/lang/ko_kr.snbt",
-      "resourcepacks/ATM10_Korean/assets/lollipop/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/energy_blocks/energy_hopper.md",
-      "resourcepacks/ATM10_Korean/assets/powah/guides/powah/book/_ko_kr/items/binding_card_dim.md",
-      "resourcepacks/ATM10_Korean/assets/powah/lang/ko_kr.json"
+      "resourcepacks/ATM10_Korean/assets/fluxnetworks/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/lollipop/lang/ko_kr.json"
     ],
     "unexpected_changes": []
   },

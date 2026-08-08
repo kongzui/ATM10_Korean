@@ -1,0 +1,70 @@
+{
+  "family": "Powah!·Flux Networks",
+  "reviewed_visible_units": 457,
+  "existing_korean_retained": 447,
+  "existing_korean_corrected": 10,
+  "missing_translations_added": 0,
+  "language_keys": {
+    "powah": 190,
+    "lollipop": 50,
+    "fluxnetworks": 123
+  },
+  "ftbquests": {
+    "quests": 109,
+    "tasks": 114,
+    "display_keys": 66,
+    "corrected": 2,
+    "first_task_fallbacks": 92,
+    "unresolved_custom_names": 0
+  },
+  "guides": {
+    "type": "GuideME",
+    "pages": 28,
+    "corrected": 0,
+    "path_link_tag_parity": true
+  },
+  "other_surfaces": {
+    "advancement_files": 157,
+    "advancement_display_fields": 0,
+    "kubejs_reference_files": 18,
+    "kubejs_direct_display_candidates": 0
+  },
+  "corrections": {
+    "accuracy": [
+      "Flux Networks의 무선 충전 적용 상태를 가능 여부가 아닌 실제 적용 상태로 교정",
+      "플럭스 플러그의 작은 버퍼 예외 조건이 반대로 연결된 퀘스트 문장을 교정",
+      "Powah! 연동 퀘스트의 10억 FE와 1배 압축 재료 조건을 현재 원문에 맞게 복구"
+    ],
+    "sentence_quality": [
+      "연결 수량과 JEI 좌클릭 안내를 짧고 명확한 한국어로 교정"
+    ],
+    "terminology": [
+      "Flux 재료를 플럭스로 통일하고 공식 모드명 Curios를 영문으로 유지",
+      "Powah!, 비브라늄, 올더모디움과 에너지 주입 용어를 앞 계열 산출물과 일치시킴"
+    ],
+    "formatting": [
+      "Lollipop의 원문 mb 및 mb/t 단위 대소문자를 그대로 보존",
+      "자리표시자, FE/t, 색상 코드, 줄바꿈, GuideME 링크와 태그 순서를 보존"
+    ]
+  },
+  "validation": {
+    "specialized": "passed",
+    "common": "passed",
+    "missing_keys": 0,
+    "extra_keys": 0,
+    "duplicate_keys": 0,
+    "translation_induced_name_collisions": 0,
+    "placeholder_and_format_errors": 0
+  },
+  "deployment": {
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "planned_files": 32,
+    "changed_files": 3,
+    "hashes_match": true,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260808_222732_209579/backup_manifest.json",
+    "minecraft_screen_verified": false
+  },
+  "manual_review": [],
+  "status": "complete"
+}

@@ -13,8 +13,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "project_output_reuse": 188,
-      "new_or_edited": 2
+      "integration_extra_keys": 0,
+      "project_output_reuse": 190
     },
     {
       "label": "Lollipop",
@@ -28,8 +28,8 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
-      "project_output_reuse": 49,
-      "new_or_edited": 1
+      "integration_extra_keys": 0,
+      "project_output_reuse": 50
     },
     {
       "label": "Flux Networks",
@@ -43,13 +43,14 @@
       "translation_induced_name_collisions": 0,
       "output_matches": true,
       "guide_extra_keys": 0,
+      "integration_extra_keys": 0,
       "project_output_reuse": 123
     }
   ],
   "language_provenance": {
     "bundled_exact_reuse": 0,
-    "project_output_reuse": 360,
-    "new_or_edited": 3
+    "project_output_reuse": 363,
+    "new_or_edited": 0
   },
   "ftbquests": {
     "chapters": [
@@ -73,6 +74,7 @@
       "first-task quest fallback"
     ]
   },
+  "family_data": {},
   "validation_errors": 0,
   "errors": [],
   "status": "complete"

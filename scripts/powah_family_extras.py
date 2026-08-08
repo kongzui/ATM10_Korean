@@ -169,6 +169,14 @@ QUEST_OVERRIDES: dict[str, object] = {
         "있습니다."
     ],
     "quest.56B6ABF3D6EA0D84.title": "네트워크 전력 사용하기",
+    "quest.5F078A574A783B02.quest_desc": [
+        "플럭스 네트워크를 시작하는 데 필요한 첫 번째 아이템은 &9플럭스 플러그&r입니다."
+        '\\n\\n플러그는 부착된 블록에서 에너지를 "끌어오는" 데 사용됩니다. 작은 버퍼를 '
+        "제외하면 플러그 자체는 에너지를 저장하지 않으므로 모든 에너지를 소모할 염려는 "
+        "하지 마세요.\\n\\n에너지 큐브와 같은 에너지 저장 블록에 플러그를 배치하는 것이 "
+        "좋습니다. 케이블, 파이프 또는 전력을 생산하는 기계의 출력부에 직접 연결할 수도 "
+        "있습니다.\\n\\n첫 번째 네트워크를 설정하는 방법은 다음 퀘스트에서 확인하세요!"
+    ],
     "quest.79AD74A863EA43CB.quest_desc": [
         "Flux Networks에는 네트워크에서 사용할 전력을 저장하는 장치도 있습니다!"
         "\\n\\n플럭스 저장소는 매우 많은 전력을 저장하며 더 높은 등급으로 업그레이드할 수 "
@@ -386,6 +394,7 @@ LOLLIPOP_QUALITY_EXPECTED = {
     "info.lollipop.fluid": "유체",
     "info.lollipop.generates": "발전량",
     "info.lollipop.generating": "발전 중",
+    "info.lollipop.fe.per.mb": "%s FE/%s mb",
     "info.lollipop.io.mode": "입출력 모드",
     "info.lollipop.io.mode.all": "입력/출력",
     "info.lollipop.io.mode.extract": "출력",
@@ -393,6 +402,16 @@ LOLLIPOP_QUALITY_EXPECTED = {
     "info.lollipop.max.extract": "최대 출력",
     "info.lollipop.max.io": "최대 입출력",
     "info.lollipop.max.receive": "최대 입력",
+    "info.lollipop.mb.pet.tick": "%s mb/t",
+}
+
+FLUX_NETWORKS_QUALITY_EXPECTED = {
+    "block.fluxnetworks.flux_block": "플럭스 블록",
+    "gui.fluxnetworks.flux.wirelessnetwork": "무선 충전 적용됨",
+    "gui.fluxnetworks.flux.nonwirelessnetwork": "무선 충전 적용되지 않음",
+    "gui.fluxnetworks.label.editingconnections": "%d개 연결 편집 중",
+    "gui.fluxnetworks.slot.curios": "Curios 슬롯",
+    "gui.fluxnetworks.jei.leftclickhelp": "%s을(를) 좌클릭하세요",
 }
 
 FORBIDDEN_QUALITY_PHRASES = (
@@ -757,6 +776,14 @@ def verify_quality_review() -> tuple[dict[str, object], list[str]]:
             OUTPUT_ASSETS / "lollipop/lang/ko_kr.json",
             LOLLIPOP_QUALITY_EXPECTED,
         ),
+        "Flux Networks 작업본": (
+            WORK_ROOT / "fluxnetworks/ko_kr.json",
+            FLUX_NETWORKS_QUALITY_EXPECTED,
+        ),
+        "Flux Networks 출력본": (
+            OUTPUT_ASSETS / "fluxnetworks/lang/ko_kr.json",
+            FLUX_NETWORKS_QUALITY_EXPECTED,
+        ),
     }
     scanned: dict[str, str] = {}
     for label, (path, expected) in language_paths.items():
@@ -782,6 +809,9 @@ def verify_quality_review() -> tuple[dict[str, object], list[str]]:
     return {
         "powah_language_corrections_checked": len(POWAH_QUALITY_EXPECTED),
         "lollipop_language_corrections_checked": len(LOLLIPOP_QUALITY_EXPECTED),
+        "flux_networks_language_corrections_checked": len(
+            FLUX_NETWORKS_QUALITY_EXPECTED
+        ),
         "scopes_checked": sorted(scanned),
         "stale_phrases": stale,
     }, errors
