@@ -1,0 +1,1120 @@
+[
+  {
+    "source": "data/dungeons_arise/structure/aviary/aviary_part_15.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/aviary/aviary_part_15.nbt",
+    "replacements": [
+      {
+        "source": "The Boss",
+        "target": "우두머리"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/aviary/aviary_part_5.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/aviary/aviary_part_5.nbt",
+    "replacements": [
+      {
+        "source": "Free!",
+        "target": "무료!"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/aviary/aviary_part_7.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/aviary/aviary_part_7.nbt",
+    "replacements": [
+      {
+        "source": "Free!",
+        "target": "무료!"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/bathhouse/bathhouse_middle_1.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/bathhouse/bathhouse_middle_1.nbt",
+    "replacements": [
+      {
+        "source": "All Star",
+        "target": "올스타"
+      },
+      {
+        "source": "You are an",
+        "target": "당신은"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/bathhouse/bathhouse_top_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/bathhouse/bathhouse_top_0.nbt",
+    "replacements": [
+      {
+        "source": "The dichotomy of Machine and Man",
+        "target": "기계와 인간의 이분법"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/foundry/foundry_blaze_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/foundry/foundry_blaze_0.nbt",
+    "replacements": [
+      {
+        "source": "Foundry Guardian",
+        "target": "주조소 수호자"
+      },
+      {
+        "source": "Foundry Guardian",
+        "target": "주조소 수호자"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/foundry/foundry_piglin_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/foundry/foundry_piglin_0.nbt",
+    "replacements": [
+      {
+        "source": "Debris Miner",
+        "target": "잔해 광부"
+      },
+      {
+        "source": "Debris Miner",
+        "target": "잔해 광부"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/foundry/foundry_wither_skeleton_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/foundry/foundry_wither_skeleton_0.nbt",
+    "replacements": [
+      {
+        "source": "Forge Sentry",
+        "target": "대장간 파수꾼"
+      },
+      {
+        "source": "Forge Sentry",
+        "target": "대장간 파수꾼"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/foundry/foundry_wither_skeleton_1.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/foundry/foundry_wither_skeleton_1.nbt",
+    "replacements": [
+      {
+        "source": "Forge Sentry",
+        "target": "대장간 파수꾼"
+      },
+      {
+        "source": "Forge Sentry",
+        "target": "대장간 파수꾼"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/foundry/foundry_wither_skeleton_2.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/foundry/foundry_wither_skeleton_2.nbt",
+    "replacements": [
+      {
+        "source": "Forge Sentry",
+        "target": "대장간 파수꾼"
+      },
+      {
+        "source": "Forge Sentry",
+        "target": "대장간 파수꾼"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/foundry/foundry_wither_skeleton_3.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/foundry/foundry_wither_skeleton_3.nbt",
+    "replacements": [
+      {
+        "source": "Forge Sentry",
+        "target": "대장간 파수꾼"
+      },
+      {
+        "source": "Forge Sentry",
+        "target": "대장간 파수꾼"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/greenwood_pub/greenwood_pub_spawner_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/greenwood_pub/greenwood_pub_spawner_0.nbt",
+    "replacements": [
+      {
+        "source": "Unlicensed Alchemist",
+        "target": "무허가 연금술사"
+      },
+      {
+        "source": "Unlicensed Alchemist",
+        "target": "무허가 연금술사"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/greenwood_pub/greenwood_pub_spawner_1.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/greenwood_pub/greenwood_pub_spawner_1.nbt",
+    "replacements": [
+      {
+        "source": "Drunken Villager",
+        "target": "술 취한 주민"
+      },
+      {
+        "source": "Drunken Villager",
+        "target": "술 취한 주민"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/illager_windmill/illager_windmill_part_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/illager_windmill/illager_windmill_part_0.nbt",
+    "replacements": [
+      {
+        "source": "Termination",
+        "target": "종결"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/infested_temple/infested_temple_level_4.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/infested_temple/infested_temple_level_4.nbt",
+    "replacements": [
+      {
+        "source": "Custom Head ID: 61130",
+        "target": "커스텀 머리 ID: 61130"
+      },
+      {
+        "source": "Custom Head ID: 66488",
+        "target": "커스텀 머리 ID: 66488"
+      },
+      {
+        "source": "Custom Head ID: 66505",
+        "target": "커스텀 머리 ID: 66505"
+      },
+      {
+        "source": "Custom Head ID: 84053",
+        "target": "커스텀 머리 ID: 84053"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/infested_temple/infested_temple_main_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/infested_temple/infested_temple_main_0.nbt",
+    "replacements": [
+      {
+        "source": "Custom Head ID: 84053",
+        "target": "커스텀 머리 ID: 84053"
+      },
+      {
+        "source": "Custom Head ID: 66488",
+        "target": "커스텀 머리 ID: 66488"
+      },
+      {
+        "source": "Custom Head ID: 66498",
+        "target": "커스텀 머리 ID: 66498"
+      },
+      {
+        "source": "Custom Head ID: 66505",
+        "target": "커스텀 머리 ID: 66505"
+      },
+      {
+        "source": "Custom Head ID: 61130",
+        "target": "커스텀 머리 ID: 61130"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/infested_temple/infested_temple_vault_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/infested_temple/infested_temple_vault_0.nbt",
+    "replacements": [
+      {
+        "source": "Infested Temple Key",
+        "target": "감염된 사원 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/infested_temple/infested_temple_vault_1.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/infested_temple/infested_temple_vault_1.nbt",
+    "replacements": [
+      {
+        "source": "This key twists and turns, signaling its use for a higher vault.",
+        "target": "이 열쇠는 비틀리고 휘어져 있으며, 상위 금고에 쓰인다는 것을 나타냅니다."
+      },
+      {
+        "source": "Infested Temple Treasure Key",
+        "target": "감염된 사원 보물 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/infested_temple/infested_temple_vault_2.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/infested_temple/infested_temple_vault_2.nbt",
+    "replacements": [
+      {
+        "source": "Unsettlingly weightless, this key urges you forward of its own accord.",
+        "target": "불안할 만큼 무게가 없는 이 열쇠는 스스로 앞으로 나아가라고 재촉합니다."
+      },
+      {
+        "source": "Infested Temple Ominous Key",
+        "target": "감염된 사원 불길한 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/keep_kayra/keep_kayra_main_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/keep_kayra/keep_kayra_main_0.nbt",
+    "replacements": [
+      {
+        "source": "here?",
+        "target": "여기서?"
+      },
+      {
+        "source": "are you doing ",
+        "target": "하고 있는 거야"
+      },
+      {
+        "source": "What the h*ll",
+        "target": "대체 뭘"
+      },
+      {
+        "source": "To claim prize",
+        "target": "상품 수령용"
+      },
+      {
+        "source": "Swamp",
+        "target": "오두막"
+      },
+      {
+        "source": "Hut in the",
+        "target": "늪지의"
+      },
+      {
+        "source": "Plants",
+        "target": "식물"
+      },
+      {
+        "source": "Frogging the",
+        "target": "개구리화한"
+      },
+      {
+        "source": "Stars",
+        "target": "대장장이"
+      },
+      {
+        "source": "Forger of",
+        "target": "별의"
+      },
+      {
+        "source": "Cabin",
+        "target": "오두막"
+      },
+      {
+        "source": "Mountains",
+        "target": "산속"
+      },
+      {
+        "source": "Blessing",
+        "target": "축복"
+      },
+      {
+        "source": "Capybara's",
+        "target": "카피바라의"
+      },
+      {
+        "source": "the witch",
+        "target": "가마솥"
+      },
+      {
+        "source": "Cauldron of ",
+        "target": "마녀의"
+      },
+      {
+        "source": "Red and Blue",
+        "target": "빨강과 파랑"
+      },
+      {
+        "source": "Frogal ",
+        "target": "프로갈"
+      },
+      {
+        "source": "Fireflies",
+        "target": "비행"
+      },
+      {
+        "source": "Ride of the",
+        "target": "반딧불이의"
+      },
+      {
+        "source": "Sword",
+        "target": "무언가"
+      },
+      {
+        "source": "Kinda",
+        "target": "검 비슷한"
+      },
+      {
+        "source": "مدخل جنة الجحيم",
+        "target": "지옥 낙원의 입구"
+      },
+      {
+        "source": "Elephant",
+        "target": "코끼리"
+      },
+      {
+        "source": "Killer",
+        "target": "살인"
+      },
+      {
+        "source": "Heaven",
+        "target": "개구리"
+      },
+      {
+        "source": "Frog before",
+        "target": "천국 앞의"
+      },
+      {
+        "source": "Octopus",
+        "target": "문어"
+      },
+      {
+        "source": "Little",
+        "target": "작은"
+      },
+      {
+        "source": "Froggus",
+        "target": "운명"
+      },
+      {
+        "source": "The Fate of",
+        "target": "프로거스의"
+      },
+      {
+        "source": "Watcher",
+        "target": "감시자"
+      },
+      {
+        "source": "The",
+        "target": ""
+      },
+      {
+        "source": "Hathsin",
+        "target": "심연"
+      },
+      {
+        "source": "Depths of",
+        "target": "하스신의"
+      },
+      {
+        "source": "Hathsin",
+        "target": "심연"
+      },
+      {
+        "source": "Depths of",
+        "target": "하스신의"
+      },
+      {
+        "source": "Mountain",
+        "target": "산"
+      },
+      {
+        "source": "Celeste",
+        "target": "셀레스트"
+      },
+      {
+        "source": "Frogging Object",
+        "target": "개구리형 물체"
+      },
+      {
+        "source": "Unidentified",
+        "target": "미확인"
+      },
+      {
+        "source": "Gate 3",
+        "target": "3번 관문"
+      },
+      {
+        "source": "Pattern, help.",
+        "target": "무늬가 필요해."
+      },
+      {
+        "source": "I am a Stick!",
+        "target": "나는 막대기다!"
+      },
+      {
+        "source": "Hope",
+        "target": "봉화"
+      },
+      {
+        "source": "A beacon of",
+        "target": "희망의"
+      },
+      {
+        "source": "The Storm",
+        "target": "축복"
+      },
+      {
+        "source": "Blessed by",
+        "target": "폭풍의"
+      },
+      {
+        "source": "Cliffside Caves",
+        "target": "절벽 동굴"
+      },
+      {
+        "source": "Love",
+        "target": "존재한다"
+      },
+      {
+        "source": "Exist for ",
+        "target": "사랑을 위해"
+      },
+      {
+        "source": "with Diamonds",
+        "target": "하늘의 루시"
+      },
+      {
+        "source": "Lucy in the Sky",
+        "target": "다이아몬드와 함께"
+      },
+      {
+        "source": "Knights",
+        "target": "기사단"
+      },
+      {
+        "source": "Radiant ",
+        "target": "빛나는"
+      },
+      {
+        "source": "Eyes",
+        "target": "눈"
+      },
+      {
+        "source": "Emerald",
+        "target": "에메랄드"
+      },
+      {
+        "source": "flies",
+        "target": "한 숟갈"
+      },
+      {
+        "source": "A spoonful of",
+        "target": "파리"
+      },
+      {
+        "source": "flies",
+        "target": "한 숟갈"
+      },
+      {
+        "source": "A spoonful of",
+        "target": "파리"
+      },
+      {
+        "source": "Power",
+        "target": "힘이다"
+      },
+      {
+        "source": "Knowledge is",
+        "target": "아는 것이"
+      },
+      {
+        "source": "Our home",
+        "target": "우리의 집"
+      },
+      {
+        "source": "Bottom",
+        "target": "시티"
+      },
+      {
+        "source": "Bikini",
+        "target": "비키니"
+      },
+      {
+        "source": "and the frog",
+        "target": "그리고 개구리"
+      },
+      {
+        "source": "The good, the bad",
+        "target": "좋은 놈, 나쁜 놈"
+      },
+      {
+        "source": "rule them all",
+        "target": "절대 반지"
+      },
+      {
+        "source": "One ring to ",
+        "target": "모든 것을 지배할"
+      },
+      {
+        "source": "rule them all",
+        "target": "절대 반지"
+      },
+      {
+        "source": "One ring to ",
+        "target": "모든 것을 지배할"
+      },
+      {
+        "source": "be a painting 2",
+        "target": "그림 2"
+      },
+      {
+        "source": "To narrow to ",
+        "target": "좁혀 보니"
+      },
+      {
+        "source": "Ship",
+        "target": "배"
+      },
+      {
+        "source": "The End",
+        "target": "엔드의"
+      },
+      {
+        "source": "Gunflex",
+        "target": "건플렉스"
+      },
+      {
+        "source": "a painting",
+        "target": "그림"
+      },
+      {
+        "source": "To narrow to be",
+        "target": "좁혀 보니"
+      },
+      {
+        "source": "red cloud",
+        "target": "활"
+      },
+      {
+        "source": "A bow under a",
+        "target": "붉은 구름 아래"
+      },
+      {
+        "source": "Frogithiru",
+        "target": "프로기시루"
+      },
+      {
+        "source": "Next Home",
+        "target": "다음 보금자리"
+      },
+      {
+        "source": "Outside",
+        "target": "나갈 시간"
+      },
+      {
+        "source": "Time to go",
+        "target": "밖으로"
+      },
+      {
+        "source": "Creation shard",
+        "target": "창조의 파편"
+      },
+      {
+        "source": "The",
+        "target": ""
+      },
+      {
+        "source": "Creation shard",
+        "target": "창조의 파편"
+      },
+      {
+        "source": "The",
+        "target": ""
+      },
+      {
+        "source": "Love Letter",
+        "target": "연애편지"
+      },
+      {
+        "source": "A Golem's",
+        "target": "골렘의"
+      },
+      {
+        "source": "amphibian God",
+        "target": "손길"
+      },
+      {
+        "source": "The touch of our",
+        "target": "양서류 신의"
+      },
+      {
+        "source": "Elder",
+        "target": "말씀"
+      },
+      {
+        "source": "Words of the",
+        "target": "원로의"
+      },
+      {
+        "source": "not for us",
+        "target": "우리 자리가 아니다"
+      },
+      {
+        "source": "Hot place",
+        "target": "뜨거운 곳은"
+      },
+      {
+        "source": "the Update",
+        "target": "스켈레톤"
+      },
+      {
+        "source": "Skeleton before",
+        "target": "업데이트 이전"
+      },
+      {
+        "source": "Impostor",
+        "target": "임포스터"
+      },
+      {
+        "source": "The",
+        "target": ""
+      },
+      {
+        "source": "Meal",
+        "target": "식사"
+      },
+      {
+        "source": "A Melony",
+        "target": "멜론"
+      },
+      {
+        "source": "Harvest",
+        "target": "수확"
+      },
+      {
+        "source": "The",
+        "target": ""
+      },
+      {
+        "source": "Stingy Situation!",
+        "target": "인색한 상황!"
+      },
+      {
+        "source": "Wise",
+        "target": "레인도르트"
+      },
+      {
+        "source": "Reindordt The",
+        "target": "현자"
+      },
+      {
+        "source": "Faithful",
+        "target": "올로크"
+      },
+      {
+        "source": "Olloch The",
+        "target": "충직한"
+      },
+      {
+        "source": "Breakdown",
+        "target": "붕괴"
+      },
+      {
+        "source": "Froggy Mountain",
+        "target": "개구리 산"
+      },
+      {
+        "source": "Universe",
+        "target": "눈"
+      },
+      {
+        "source": "Eye of the",
+        "target": "우주의"
+      },
+      {
+        "source": "Old Palace",
+        "target": "옛 궁전"
+      },
+      {
+        "source": "Painting",
+        "target": "그림"
+      },
+      {
+        "source": "Mechanical",
+        "target": "기계식"
+      },
+      {
+        "source": "Ancestor",
+        "target": "선조"
+      },
+      {
+        "source": "Weakest",
+        "target": "가장 나약한"
+      },
+      {
+        "source": "Frash Bang!!",
+        "target": "섬광탄!!"
+      },
+      {
+        "source": "Throwing",
+        "target": "투척용"
+      },
+      {
+        "source": "The Blind Eye",
+        "target": "눈먼 눈"
+      },
+      {
+        "source": "Eye",
+        "target": "눈"
+      },
+      {
+        "source": "The All-seeing",
+        "target": "모든 것을 보는"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_lower_room_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_lower_room_0.nbt",
+    "replacements": [
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Custom Head ID: 110232",
+        "target": "커스텀 머리 ID: 110232"
+      },
+      {
+        "source": "Custom Head ID: 107146",
+        "target": "커스텀 머리 ID: 107146"
+      },
+      {
+        "source": "Custom Head ID: 106861",
+        "target": "커스텀 머리 ID: 106861"
+      },
+      {
+        "source": "Custom Head ID: 107583",
+        "target": "커스텀 머리 ID: 107583"
+      },
+      {
+        "source": "Custom Head ID: 110847",
+        "target": "커스텀 머리 ID: 110847"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_main_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_main_0.nbt",
+    "replacements": [
+      {
+        "source": "Traitor's web",
+        "target": "배신자의 거미줄"
+      },
+      {
+        "source": "Black Widow",
+        "target": "검은과부거미"
+      },
+      {
+        "source": "Custom Head ID: 88152",
+        "target": "커스텀 머리 ID: 88152"
+      },
+      {
+        "source": "Richard, the Survivor",
+        "target": "생존자 리처드"
+      },
+      {
+        "source": "Custom Head ID: 61130",
+        "target": "커스텀 머리 ID: 61130"
+      },
+      {
+        "source": "Custom Head ID: 66505",
+        "target": "커스텀 머리 ID: 66505"
+      },
+      {
+        "source": "Custom Head ID: 66488",
+        "target": "커스텀 머리 ID: 66488"
+      },
+      {
+        "source": "Custom Head ID: 84053",
+        "target": "커스텀 머리 ID: 84053"
+      },
+      {
+        "source": "Only the worthy",
+        "target": "자격 있는 자만"
+      },
+      {
+        "source": "shall ring",
+        "target": "종을"
+      },
+      {
+        "source": "the Bell.",
+        "target": "울릴 수 있다."
+      },
+      {
+        "source": "Custom Head ID: 66488",
+        "target": "커스텀 머리 ID: 66488"
+      },
+      {
+        "source": "Custom Head ID: 61130",
+        "target": "커스텀 머리 ID: 61130"
+      },
+      {
+        "source": "Custom Head ID: 84053",
+        "target": "커스텀 머리 ID: 84053"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Custom Head ID: 69990",
+        "target": "커스텀 머리 ID: 69990"
+      },
+      {
+        "source": "Custom Head ID: 39",
+        "target": "커스텀 머리 ID: 39"
+      },
+      {
+        "source": "Custom Head ID: 3252",
+        "target": "커스텀 머리 ID: 3252"
+      },
+      {
+        "source": "Custom Head ID: 80764",
+        "target": "커스텀 머리 ID: 80764"
+      },
+      {
+        "source": "Custom Head ID: 60038",
+        "target": "커스텀 머리 ID: 60038"
+      },
+      {
+        "source": "Custom Head ID: 59641",
+        "target": "커스텀 머리 ID: 59641"
+      },
+      {
+        "source": "Custom Head ID: 107384",
+        "target": "커스텀 머리 ID: 107384"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      },
+      {
+        "source": "Standard Death Arrows",
+        "target": "표준 죽음의 화살"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_middle_room_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_middle_room_0.nbt",
+    "replacements": [
+      {
+        "source": "This is not",
+        "target": "이것은"
+      },
+      {
+        "source": "a trap",
+        "target": "함정이 아니다"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_0.nbt",
+    "replacements": [
+      {
+        "source": "Kisegi Sanctuary Key",
+        "target": "키세기 성소 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_1.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_1.nbt",
+    "replacements": [
+      {
+        "source": "Meant for a more complex mechanism, this key may open higher vaults.",
+        "target": "더 복잡한 장치에 맞는 열쇠로, 상위 금고를 열 수 있습니다."
+      },
+      {
+        "source": "Two treasure keys are required to open a treasure vault.",
+        "target": "보물 금고를 열려면 보물 열쇠 두 개가 필요합니다."
+      },
+      {
+        "source": "Kisegi Sanctuary Treasure Key",
+        "target": "키세기 성소 보물 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_2.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_2.nbt",
+    "replacements": [
+      {
+        "source": "Covered in silk, this key seems to resonate with the voices of a thousand spiders.",
+        "target": "비단실에 덮인 이 열쇠에서는 수천 마리 거미의 목소리가 울리는 듯합니다."
+      },
+      {
+        "source": "Kisegi Sanctuary Ominous Key",
+        "target": "키세기 성소 불길한 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_3.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_3.nbt",
+    "replacements": [
+      {
+        "source": "A faint chant can be heard in the distance when holding this key. An arachnid chorus of familiar faces.",
+        "target": "이 열쇠를 들면 멀리서 희미한 성가가 들립니다. 익숙한 얼굴을 한 거미류의 합창입니다."
+      },
+      {
+        "source": "Kisegi Sanctuary Ominous Treasure Key",
+        "target": "키세기 성소 불길한 보물 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/mechanical_nest/mechanical_nest_spawner_2.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/mechanical_nest/mechanical_nest_spawner_2.nbt",
+    "replacements": [
+      {
+        "source": "Gearling",
+        "target": "기어링"
+      },
+      {
+        "source": "Gearling",
+        "target": "기어링"
+      },
+      {
+        "source": "Gearling",
+        "target": "기어링"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/mining_complex/mining_complex_dripstone_1.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/mining_complex/mining_complex_dripstone_1.nbt",
+    "replacements": [
+      {
+        "source": "They s4y",
+        "target": "그들은 말하지"
+      },
+      {
+        "source": "1ts f0r the",
+        "target": "더 큰"
+      },
+      {
+        "source": "great3r",
+        "target": "선을"
+      },
+      {
+        "source": "go0d...",
+        "target": "위해서라고..."
+      },
+      {
+        "source": "Cursed Pants",
+        "target": "저주받은 바지"
+      },
+      {
+        "source": "Poor's man clothing",
+        "target": "가난뱅이의 옷"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/mining_complex/mining_complex_dripstone_2.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/mining_complex/mining_complex_dripstone_2.nbt",
+    "replacements": [
+      {
+        "source": "TheY lI3 t0",
+        "target": "그들은 우리에게"
+      },
+      {
+        "source": "uS",
+        "target": "거짓말했어"
+      },
+      {
+        "source": "W3 weRe n0T ",
+        "target": "우리가 항상"
+      },
+      {
+        "source": "alW4yS l1Ke th3m",
+        "target": "그들과 같진 않았어"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/mining_complex/mining_complex_vault_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/mining_complex/mining_complex_vault_0.nbt",
+    "replacements": [
+      {
+        "source": "Mining Complex Treasure Key",
+        "target": "채굴 단지 보물 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/mushroom_village/mushroom_village_house_big_0.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/mushroom_village/mushroom_village_house_big_0.nbt",
+    "replacements": [
+      {
+        "source": "out of spores.",
+        "target": "못할 거야."
+      },
+      {
+        "source": "you'll never be",
+        "target": "영원히 벗어나지"
+      },
+      {
+        "source": "the fungus,",
+        "target": "포자에서"
+      },
+      {
+        "source": "If you walk with",
+        "target": "균류와 함께 걸으면"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/structure/mushroom_village/mushroom_village_house_small_7.nbt",
+    "output": "output/overrides/kubejs/data/dungeons_arise/structure/mushroom_village/mushroom_village_house_small_7.nbt",
+    "replacements": [
+      {
+        "source": "Fungus Turtle",
+        "target": "균류 거북"
+      }
+    ]
+  }
+]

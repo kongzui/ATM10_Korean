@@ -1,0 +1,16 @@
+{
+  "family": "dungeons_arise",
+  "jar": "DungeonsArise-1.21.1-2.1.68-release.jar",
+  "language_keys": 119,
+  "bundled_korean_candidate_keys": 0,
+  "data_json_files": 483,
+  "data_localized_fields": 83,
+  "data_direct_fields": 99,
+  "data_direct_unique_values": 57,
+  "nbt_files": 877,
+  "nbt_visible_fields": 620,
+  "nbt_direct_unique_values": 194,
+  "guide_candidates": 0,
+  "errors": [],
+  "status": "prepared"
+}

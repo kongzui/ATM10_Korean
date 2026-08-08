@@ -1,0 +1,34 @@
+{
+  "family": "dungeons_arise",
+  "source_catalog": {
+    "language_keys": 119,
+    "data_localized_fields": 83,
+    "data_direct_fields": 99,
+    "nbt_visible_fields": 620,
+    "guides": 0
+  },
+  "runtime_language_aliases": {
+    "enchantment.dungeons_arise.lolth_curse": "롤스의 저주"
+  },
+  "missing_localized_keys": [],
+  "references": {
+    "ftbquests": [],
+    "kubejs": [
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous.json",
+        "namespace_occurrences": 2,
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/worldgen/structure_set/major_structures.json",
+        "namespace_occurrences": 33,
+        "visible_namespace_candidate_lines": []
+      }
+    ],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "no_related_references",
+  "kubejs_display_work": "namespace_ids_only",
+  "errors": [],
+  "status": "complete"
+}

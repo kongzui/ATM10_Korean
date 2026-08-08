@@ -1,0 +1,12 @@
+{
+  "family": "dungeons_arise",
+  "reviewed_language_keys": 119,
+  "runtime_language_aliases": 1,
+  "language_output_keys": 120,
+  "data_files": 16,
+  "data_replacements": 99,
+  "nbt_files": 33,
+  "nbt_replacements": 230,
+  "errors": [],
+  "status": "complete"
+}

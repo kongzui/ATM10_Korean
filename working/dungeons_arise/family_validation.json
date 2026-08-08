@@ -1,0 +1,34 @@
+{
+  "family": "dungeons_arise",
+  "language": {
+    "reviewed_english_keys": 119,
+    "runtime_alias_keys": 1,
+    "output_keys": 120,
+    "bundled_korean_candidate_keys": 0,
+    "existing_korean_values_reused": 0,
+    "new_language_values": 120,
+    "intentional_same_keys": [
+      "advancement.dungeons_arise.wda_root.title"
+    ],
+    "errors": [],
+    "status": "complete"
+  },
+  "data": {
+    "files": 16,
+    "replacements": 99,
+    "errors": [],
+    "status": "complete"
+  },
+  "nbt": {
+    "files": 33,
+    "translated_visible_fields": 230,
+    "errors": [],
+    "status": "complete"
+  },
+  "surface_audit": "complete",
+  "ftbquests": "no_related_references",
+  "kubejs": "namespace_ids_only",
+  "output_files": 50,
+  "errors": [],
+  "status": "complete"
+}

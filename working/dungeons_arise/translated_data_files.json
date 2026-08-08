@@ -1,0 +1,494 @@
+[
+  {
+    "source": "data/dungeons_arise/loot_table/chests/bandit_towers/bandit_towers_supply.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/chests/bandit_towers/bandit_towers_supply.json",
+    "replacements": [
+      {
+        "source": "Tequila",
+        "target": "데킬라"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/chests/bandit_village/bandit_village_supply.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/chests/bandit_village/bandit_village_supply.json",
+    "replacements": [
+      {
+        "source": "Tequila",
+        "target": "데킬라"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/chests/bathhouse/bathhouse_barrels.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/chests/bathhouse/bathhouse_barrels.json",
+    "replacements": [
+      {
+        "source": "Absinthe",
+        "target": "압생트"
+      },
+      {
+        "source": "Vodka",
+        "target": "보드카"
+      },
+      {
+        "source": "Gin",
+        "target": "진"
+      },
+      {
+        "source": "Fernet",
+        "target": "페르네트"
+      },
+      {
+        "source": "Cider",
+        "target": "사과주"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/chests/bathhouse/bathhouse_normal.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/chests/bathhouse/bathhouse_normal.json",
+    "replacements": [
+      {
+        "source": "Absinthe",
+        "target": "압생트"
+      },
+      {
+        "source": "Vodka",
+        "target": "보드카"
+      },
+      {
+        "source": "Gin",
+        "target": "진"
+      },
+      {
+        "source": "Fernet",
+        "target": "페르네트"
+      },
+      {
+        "source": "Cider",
+        "target": "사과주"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/chests/greenwood_pub/greenwood_pub_barrels_hallways.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/chests/greenwood_pub/greenwood_pub_barrels_hallways.json",
+    "replacements": [
+      {
+        "source": "A powerful brew distilled from withered flesh.",
+        "target": "시든 살점에서 증류한 강력한 술입니다."
+      },
+      {
+        "source": "Distilled from tears of unborn children.",
+        "target": "태어나지 못한 아이들의 눈물로 증류했습니다."
+      },
+      {
+        "source": "Best served cold.",
+        "target": "차갑게 마실 때 가장 좋습니다."
+      },
+      {
+        "source": "Common beer with a touch of opioids.",
+        "target": "아편 성분을 살짝 넣은 흔한 맥주입니다."
+      },
+      {
+        "source": "Keeps villagers at bay.",
+        "target": "주민이 가까이 오지 못하게 합니다."
+      },
+      {
+        "source": "istilled from boiled frog legs and enhanced by the occult.",
+        "target": "삶은 개구리 다리에서 증류하고 주술로 강화했습니다."
+      },
+      {
+        "source": "Nobody shall build a fortress higher than a man's step.",
+        "target": "누구도 사람의 한 걸음보다 높은 요새를 지어서는 안 됩니다."
+      },
+      {
+        "source": "Particles of this brew seem to attract",
+        "target": "이 술의 입자는 주변 물체를 끌어당겨"
+      },
+      {
+        "source": "and asimilate nearby objects.",
+        "target": "흡수하는 듯합니다."
+      },
+      {
+        "source": "Its name is purely metaphorical.",
+        "target": "이 이름은 순전히 비유적인 표현입니다."
+      },
+      {
+        "source": "Some people describe its effects",
+        "target": "어떤 이들은 이 술의 효과가"
+      },
+      {
+        "source": "as incredibly light and liberating.",
+        "target": "놀랄 만큼 가볍고 자유롭다고 말합니다."
+      },
+      {
+        "source": "But captives always spill out the",
+        "target": "하지만 포로는 취기가 충분히 오르면"
+      },
+      {
+        "source": "truth when they're high enough.",
+        "target": "언제나 진실을 털어놓습니다."
+      },
+      {
+        "source": "True beer. Really, just beer.",
+        "target": "진짜 맥주입니다. 정말로 그냥 맥주예요."
+      },
+      {
+        "source": "Beer beer beer beer.",
+        "target": "맥주 맥주 맥주 맥주."
+      },
+      {
+        "source": "Distilled from magma cubes and freshly",
+        "target": "마그마 큐브와 갓 수확한"
+      },
+      {
+        "source": "harvested froglights.",
+        "target": "개구리불로 증류했습니다."
+      },
+      {
+        "source": "Increases resistance during hot situations.",
+        "target": "뜨거운 상황에서 저항력을 높여 줍니다."
+      },
+      {
+        "source": "Subjects can feel the thrill of business",
+        "target": "피실험자는 혈관을 타고 흐르는"
+      },
+      {
+        "source": "running through their veins.",
+        "target": "사업의 짜릿함을 느낄 수 있습니다."
+      },
+      {
+        "source": "Proyective techniques reveal",
+        "target": "투영 기법으로 일시적인"
+      },
+      {
+        "source": "temporary psychopatic tendencies.",
+        "target": "사이코패스 성향이 드러납니다."
+      },
+      {
+        "source": "Casts an aura of malice, and possibly bad breath.",
+        "target": "악의의 기운과 아마도 입 냄새까지 내뿜습니다."
+      },
+      {
+        "source": "Microscopic sponge particles",
+        "target": "미세한 스펀지 입자가"
+      },
+      {
+        "source": "that breathe on their own.",
+        "target": "스스로 숨을 쉽니다."
+      },
+      {
+        "source": "Despite all reports of whispers and",
+        "target": "속삭임과 침입적인 생각이"
+      },
+      {
+        "source": "intrusive thoughts, they should be",
+        "target": "보고되었지만, 해롭지 않은 것으로"
+      },
+      {
+        "source": "regarded as harmless.",
+        "target": "간주해야 합니다."
+      },
+      {
+        "source": "In most cases.",
+        "target": "대부분은요."
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/chests/infested_temple/infested_temple_vault_normal.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/chests/infested_temple/infested_temple_vault_normal.json",
+    "replacements": [
+      {
+        "source": "Infested Temple Treasure Key",
+        "target": "감염된 사원 보물 열쇠"
+      },
+      {
+        "source": "This key twists and turns, signaling its use for a higher vault.",
+        "target": "이 열쇠는 비틀리고 휘어져 있으며, 상위 금고에 쓰인다는 것을 나타냅니다."
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_normal.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_normal.json",
+    "replacements": [
+      {
+        "source": "Kisegi Sanctuary Treasure Key",
+        "target": "키세기 성소 보물 열쇠"
+      },
+      {
+        "source": "Meant for a more complex mechanism, this key may open higher vaults.",
+        "target": "더 복잡한 장치에 맞는 열쇠로, 상위 금고를 열 수 있습니다."
+      },
+      {
+        "source": "Two treasure keys are required to open a treasure vault.",
+        "target": "보물 금고를 열려면 보물 열쇠 두 개가 필요합니다."
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous.json",
+    "replacements": [
+      {
+        "source": "Kisegi Sanctuary Ominous Treasure Key",
+        "target": "키세기 성소 불길한 보물 열쇠"
+      },
+      {
+        "source": "A faint chant can be heard in the distance when holding this key. An arachnid chorus of familiar faces.",
+        "target": "이 열쇠를 들면 멀리서 희미한 성가가 들립니다. 익숙한 얼굴을 한 거미류의 합창입니다."
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/chests/mechanical_nest/mechanical_nest_supply.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/chests/mechanical_nest/mechanical_nest_supply.json",
+    "replacements": [
+      {
+        "source": "A powerful brew distilled from withered flesh.",
+        "target": "시든 살점에서 증류한 강력한 술입니다."
+      },
+      {
+        "source": "Note: Redistribute to the Mushroom Mines",
+        "target": "참고: 버섯 광산으로 재분배할 것."
+      },
+      {
+        "source": "Distilled from tears of unborn children.",
+        "target": "태어나지 못한 아이들의 눈물로 증류했습니다."
+      },
+      {
+        "source": "Best served cold.",
+        "target": "차갑게 마실 때 가장 좋습니다."
+      },
+      {
+        "source": "Note: Supplier has since cut contact.",
+        "target": "참고: 공급자가 이후 연락을 끊었음."
+      },
+      {
+        "source": "Common beer with a touch of opioids.",
+        "target": "아편 성분을 살짝 넣은 흔한 맥주입니다."
+      },
+      {
+        "source": "Keeps villagers at bay.",
+        "target": "주민이 가까이 오지 못하게 합니다."
+      },
+      {
+        "source": "Note: Supplier has since cut contact.",
+        "target": "참고: 공급자가 이후 연락을 끊었음."
+      },
+      {
+        "source": "istilled from boiled frog legs and enhanced by the occult.",
+        "target": "삶은 개구리 다리에서 증류하고 주술로 강화했습니다."
+      },
+      {
+        "source": "Nobody shall build a fortress higher than a man's step.",
+        "target": "누구도 사람의 한 걸음보다 높은 요새를 지어서는 안 됩니다."
+      },
+      {
+        "source": "Note: Supplier has stated their lifelong disdain",
+        "target": "참고: 공급자는 평생에 걸쳐"
+      },
+      {
+        "source": "for the \"frog-folks\".",
+        "target": "\"개구리 종족\"을 혐오한다고 밝혔음."
+      },
+      {
+        "source": "Abstain from delivering to the Keep.",
+        "target": "성채에는 납품하지 말 것."
+      },
+      {
+        "source": "Particles of this brew seem to attract",
+        "target": "이 술의 입자는 주변 물체를 끌어당겨"
+      },
+      {
+        "source": "and asimilate nearby objects.",
+        "target": "흡수하는 듯합니다."
+      },
+      {
+        "source": "Its name is purely metaphorical.",
+        "target": "이 이름은 순전히 비유적인 표현입니다."
+      },
+      {
+        "source": "Note: Supplier has since cut contact.",
+        "target": "참고: 공급자가 이후 연락을 끊었음."
+      },
+      {
+        "source": "Some people describe its effects",
+        "target": "어떤 이들은 이 술의 효과가"
+      },
+      {
+        "source": "as incredibly light and liberating.",
+        "target": "놀랄 만큼 가볍고 자유롭다고 말합니다."
+      },
+      {
+        "source": "But captives always spill out the",
+        "target": "하지만 포로는 취기가 충분히 오르면"
+      },
+      {
+        "source": "truth when they're high enough.",
+        "target": "언제나 진실을 털어놓습니다."
+      },
+      {
+        "source": "Note: Supplier has since cut contact.",
+        "target": "참고: 공급자가 이후 연락을 끊었음."
+      },
+      {
+        "source": "True beer. Really, just beer.",
+        "target": "진짜 맥주입니다. 정말로 그냥 맥주예요."
+      },
+      {
+        "source": "Beer beer beer beer.",
+        "target": "맥주 맥주 맥주 맥주."
+      },
+      {
+        "source": "Distilled from magma cubes and freshly",
+        "target": "마그마 큐브와 갓 수확한"
+      },
+      {
+        "source": "harvested froglights.",
+        "target": "개구리불로 증류했습니다."
+      },
+      {
+        "source": "Increases resistance during hot situations.",
+        "target": "뜨거운 상황에서 저항력을 높여 줍니다."
+      },
+      {
+        "source": "Note: Must be delivered to the lightning chambers.",
+        "target": "참고: 번개실로 배송해야 함."
+      },
+      {
+        "source": "Subjects can feel the thrill of business",
+        "target": "피실험자는 혈관을 타고 흐르는"
+      },
+      {
+        "source": "running through their veins.",
+        "target": "사업의 짜릿함을 느낄 수 있습니다."
+      },
+      {
+        "source": "Proyective techniques reveal",
+        "target": "투영 기법으로 일시적인"
+      },
+      {
+        "source": "temporary psychopatic tendencies.",
+        "target": "사이코패스 성향이 드러납니다."
+      },
+      {
+        "source": "Casts an aura of malice, and possibly bad breath.",
+        "target": "악의의 기운과 아마도 입 냄새까지 내뿜습니다."
+      },
+      {
+        "source": "Microscopic sponge particles",
+        "target": "미세한 스펀지 입자가"
+      },
+      {
+        "source": "that breathe on their own.",
+        "target": "스스로 숨을 쉽니다."
+      },
+      {
+        "source": "Despite all reports of whispers and",
+        "target": "속삭임과 침입적인 생각이"
+      },
+      {
+        "source": "intrusive thoughts, they should be",
+        "target": "보고되었지만, 해롭지 않은 것으로"
+      },
+      {
+        "source": "regarded as harmless.",
+        "target": "간주해야 합니다."
+      },
+      {
+        "source": "In most cases.",
+        "target": "대부분은요."
+      },
+      {
+        "source": "Note: Supplier has since cut contact.",
+        "target": "참고: 공급자가 이후 연락을 끊었음."
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/chests/mining_complex/mining_complex_barrel.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/chests/mining_complex/mining_complex_barrel.json",
+    "replacements": [
+      {
+        "source": "Mining Complex Treasure Key",
+        "target": "채굴 단지 보물 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/pots/infested_temple/infested_temple_pots.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/pots/infested_temple/infested_temple_pots.json",
+    "replacements": [
+      {
+        "source": "Rupee",
+        "target": "루피"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/pots/mining_complex/mining_complex_pots.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/pots/mining_complex/mining_complex_pots.json",
+    "replacements": [
+      {
+        "source": "Mining Complex Treasure Key",
+        "target": "채굴 단지 보물 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/spawners/infested_temple/infested_temple_normal.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/spawners/infested_temple/infested_temple_normal.json",
+    "replacements": [
+      {
+        "source": "Infested Temple Key",
+        "target": "감염된 사원 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/spawners/infested_temple/infested_temple_ominous.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/spawners/infested_temple/infested_temple_ominous.json",
+    "replacements": [
+      {
+        "source": "Infested Temple Ominous Key",
+        "target": "감염된 사원 불길한 열쇠"
+      },
+      {
+        "source": "Unsettlingly weightless, this key urges you forward of its own accord.",
+        "target": "불안할 만큼 무게가 없는 이 열쇠는 스스로 앞으로 나아가라고 재촉합니다."
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/spawners/kisegi_sanctuary/kisegi_sanctuary_normal.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/spawners/kisegi_sanctuary/kisegi_sanctuary_normal.json",
+    "replacements": [
+      {
+        "source": "Kisegi Sanctuary Key",
+        "target": "키세기 성소 열쇠"
+      }
+    ]
+  },
+  {
+    "source": "data/dungeons_arise/loot_table/spawners/kisegi_sanctuary/kisegi_sanctuary_ominous.json",
+    "output": "output/overrides/kubejs/data/dungeons_arise/loot_table/spawners/kisegi_sanctuary/kisegi_sanctuary_ominous.json",
+    "replacements": [
+      {
+        "source": "Kisegi Sanctuary Ominous Key",
+        "target": "키세기 성소 불길한 열쇠"
+      },
+      {
+        "source": "Covered in silk, this key seems to resonate with the voices of a thousand spiders.",
+        "target": "비단실에 덮인 이 열쇠에서는 수천 마리 거미의 목소리가 울리는 듯합니다."
+      },
+      {
+        "source": "Kisegi Sanctuary Key",
+        "target": "키세기 성소 열쇠"
+      }
+    ]
+  }
+]
