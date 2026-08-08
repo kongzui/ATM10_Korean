@@ -1,0 +1,40 @@
+{
+  "name": "메노라",
+  "icon": "merrymaking:menorah",
+  "category": "merrymaking:hanukkah",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/menorah.png"
+      ],
+      "text": "메노라"
+    },
+    {
+      "type": "spotlight",
+      "title": "메노라",
+      "item": "merrymaking:menorah",
+      "text": "메노라는 방향을 바꿔 설치할 수 있으며 샤마시부터 시작해 오른쪽에서 왼쪽으로 초를 하나씩 밝히는 방식을 재현했어요.$(br2)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "메노라 밝히기",
+      "text": "메노라를 밝히려면 다음이 필요해요: $(li)파란색 초 1개 $(li)흰색 초 8개 $(li)부싯돌과 부시 $(br2)메노라에는 파란색 초를 먼저 놓고 나머지 흰색 초를 차례로 놓으세요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "메노라 밝히기",
+      "text": "샤마시인 파란색 초를 먼저 놓고 불을 붙이세요. 그런 다음 두 번째 초를 놓고 불을 붙이세요. 모든 초에 불이 붙을 때까지 반복하세요.$(br2)밝힌 초가 많을수록 메노라가 더 밝은 빛을 내요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "문제 해결",
+      "text": "잘못된 색상의 초를 사용하면 가장 최근에 놓은 초가 돌아오므로 다시 시도할 수 있어요.$(br2)메노라가 켜지지 않으면 빈손으로 클릭해 모든 초를 꺼낸 뒤 올바른 순서로 다시 놓고 불을 붙이세요."
+    },
+    {
+      "type": "crafting",
+      "title": "메노라",
+      "recipe": "merrymaking:menorah"
+    }
+  ]
+}

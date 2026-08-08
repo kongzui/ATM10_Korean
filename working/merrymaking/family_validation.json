@@ -1,0 +1,27 @@
+{
+  "family": "merrymaking",
+  "language": {
+    "keys": 472,
+    "expected_keys": 472,
+    "untranslated_candidates": [],
+    "latin_residue": {},
+    "unexpected_name_collisions": {},
+    "errors": [],
+    "status": "complete"
+  },
+  "patchouli": {
+    "files": 48,
+    "visible_occurrences": 258,
+    "visible_unique_sources": 205,
+    "translated_occurrences": 258,
+    "proper_name_retained_occurrences": 0,
+    "non_visible_structure_preserved": true,
+    "untranslated_candidates": [],
+    "latin_residue": {},
+    "errors": [],
+    "status": "complete"
+  },
+  "surface_audit": "complete",
+  "errors": [],
+  "status": "complete"
+}

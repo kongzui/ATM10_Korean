@@ -1,0 +1,23 @@
+{
+  "name": "못난이 크리스마스 방어구를 입은 몹",
+  "icon": "merrymaking:mob_in_hat_item",
+  "category": "merrymaking:mobs",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "merrymaking:red_santa_hat",
+      "text": "온갖 좀비와 스켈레톤, 크리퍼, 심지어 좀비화 피글린까지 못난이 스웨터와 산타 모자를 쓰고 연말 분위기를 뽐내요! $(br2)방어구를 착용한 몹은 일정 확률로 방어구 부위를 떨어뜨려요."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/zombie_sweater.png"
+      ],
+      "text": "못난이 스웨터를 입은 좀비예요. 파티 준비가 끝났네요!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "참고: 이 기능은 설정할 수 있으며 설정 파일에서 비활성화할 수 있어요. $(br2)몹이 못난이 방어구를 떨어뜨리는 기능도 설정 파일에서 끌 수 있어요."
+    }
+  ]
+}

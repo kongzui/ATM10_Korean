@@ -1,0 +1,78 @@
+{
+  "name": "못난이 스웨터 방어구",
+  "icon": "merrymaking:red_santa_hat_leather",
+  "category": "merrymaking:armor",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/ugly_armor.png"
+      ],
+      "text": "못난이 크리스마스 방어구 세트"
+    },
+    {
+      "type": "spotlight",
+      "item": "merrymaking:red_ugly_christmas_sweater",
+      "title": "못난이 스웨터 방어구",
+      "text": "이 유쾌하고 촌스러운 연말 방어구는 2가지 색상이 있으며 서로 섞어 입을 수 있어요. $(br2)모자와 스웨터(투구와 흉갑)는 이를 착용한 몹에게서 일정 확률로 떨어져요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "방어구는 여러 단계로 나뉘며 대장장이 작업대에서 업그레이드할 수 있어요.$(br2)$(li)1단계(가죽): 제작하거나 몹에게서 획득 $(li)2단계(철): 대장장이 작업대에서 업그레이드 $(li)3단계(다이아몬드): 대장장이 작업대에서 업그레이드 $(li)4단계(네더라이트): 대장장이 작업대에서 업그레이드"
+    },
+    {
+      "type": "spotlight",
+      "item": "merrymaking:iron_upgrade_smithing_template",
+      "title": "대장장이 형판",
+      "text": "방어구를 2단계 이상으로 업그레이드하려면 특별한 대장장이 형판이 필요해요. 이 형판은 오버월드 곳곳의 상자에서 찾을 수 있으며 다음 레시피로 복제할 수 있어요:"
+    },
+    {
+      "type": "crafting",
+      "title": "형판 복제",
+      "recipe": "merrymaking:iron_upgrade_template_dupe",
+      "recipe2": "merrymaking:diamond_upgrade_template_dupe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "\"빨간색\" 못난이 크리스마스 방어구 세트는 가죽과 빨간색 양털로 제작해요. $(br2)\"초록색\" 세트는 가죽과 초록색 양털로 제작해요. $(br2)1단계 부위별 제작법은 다음과 같아요:"
+    },
+    {
+      "type": "crafting",
+      "title": "투구",
+      "recipe": "merrymaking:red_santa_hat_leather",
+      "recipe2": "merrymaking:reindeer_antlers_leather"
+    },
+    {
+      "type": "crafting",
+      "title": "흉갑",
+      "recipe": "merrymaking:red_ugly_sweater_leather",
+      "recipe2": "merrymaking:green_ugly_sweater_leather"
+    },
+    {
+      "type": "crafting",
+      "title": "각반",
+      "recipe": "merrymaking:plaid_pants_leather",
+      "recipe2": "merrymaking:striped_pants_leather"
+    },
+    {
+      "type": "crafting",
+      "title": "장화",
+      "recipe": "merrymaking:reindeer_slippers_leather",
+      "recipe2": "merrymaking:santa_slippers_leather"
+    },
+    {
+      "type": "patchouli:smithing",
+      "title": "2단계 업그레이드 예시",
+      "recipe": "minecraft:iron_santa_hat_smithing",
+      "recipe2": "minecraft:iron_green_sweater_smithing",
+      "text": "2단계 대장장이 레시피에는 철 업그레이드 대장장이 형판을 사용해요."
+    },
+    {
+      "type": "patchouli:smithing",
+      "title": "3단계 업그레이드 예시",
+      "recipe": "minecraft:iron_plaid_leggings_smithing",
+      "recipe2": "minecraft:diamond_reindeer_slippers_smithing",
+      "text": "3단계 대장장이 레시피에는 다이아몬드 업그레이드 대장장이 형판을 사용해요."
+    }
+  ]
+}

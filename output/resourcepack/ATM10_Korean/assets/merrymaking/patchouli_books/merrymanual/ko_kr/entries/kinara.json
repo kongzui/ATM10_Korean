@@ -1,0 +1,40 @@
+{
+  "name": "키나라",
+  "icon": "merrymaking:kinara",
+  "category": "merrymaking:kwanzaa",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/kinara.png"
+      ],
+      "text": "키나라"
+    },
+    {
+      "type": "spotlight",
+      "title": "키나라",
+      "item": "merrymaking:kinara",
+      "text": "키나라는 방향을 바꿔 설치할 수 있으며 원한다면 음케카 위에 놓을 수 있어요.$(br2)실제로 사용할 수 있고 콴자 촛불을 순서대로 밝히는 방식을 재현했어요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "키나라 밝히기",
+      "text": "키나라를 밝히려면 다음이 필요해요: $(li)검은색 초 1개 $(li)빨간색 초 3개 $(li)초록색 초 3개 $(li)부싯돌과 부시 $(br2)초는 검은색, 빨간색, 초록색, 빨간색, 초록색, 빨간색, 초록색 순서로 키나라에 놓으세요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "키나라 밝히기",
+      "text": "첫 번째 초를 놓고 불을 붙인 다음, 두 번째 초를 놓고 불을 붙이세요. 모든 초에 불이 붙을 때까지 반복하세요.$(br2)초를 밝힐 때마다 채팅 메시지가 나타나요. 밝힌 초가 많을수록 키나라가 더 밝은 빛을 내요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "문제 해결",
+      "text": "잘못된 색상의 초를 사용하면 가장 최근에 놓은 초가 돌아오므로 다시 시도할 수 있어요.$(br2)키나라가 켜지지 않으면 빈손으로 클릭해 모든 초를 꺼낸 뒤 올바른 순서로 다시 놓고 불을 붙이세요."
+    },
+    {
+      "type": "crafting",
+      "title": "키나라",
+      "recipe": "merrymaking:kinara"
+    }
+  ]
+}

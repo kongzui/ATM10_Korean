@@ -1,0 +1,17 @@
+{
+  "name": "안내서 제작법",
+  "icon": "merrymaking:merrymanual",
+  "category": "merrymaking:book",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "merrymaking:merrymanual",
+      "text": "이 안내서를 잃어버렸거나 하나 더 필요하다면 책 1권, 초록색 염료 1개, 막대사탕 1개로 만들 수 있어요."
+    },
+    {
+      "type": "crafting",
+      "title": "메리메이커 안내서",
+      "recipe": "merrymaking:merrymanual_recipe"
+    }
+  ]
+}

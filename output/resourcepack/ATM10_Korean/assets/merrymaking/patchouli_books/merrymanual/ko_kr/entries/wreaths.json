@@ -1,0 +1,28 @@
+{
+  "name": "리스",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:wreaths",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "merrymaking:christmas_wreath",
+      "text": "리스는 여러 용도로 쓸 수 있어요. 그대로 설치하거나 가로등에 달 수 있고, 문이나 울타리 문 같은 블록과 조합해 장식할 수도 있어요.$(br2)다음 3가지 종류가 있어요: $(li)일반 $(li)흰색 조명 $(li)다색 조명"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "리스를 만들려면 가문비나무 잎 8개와 리본 1개가 필요해요."
+    },
+    {
+      "type": "crafting",
+      "title": "리스",
+      "recipe": "merrymaking:wreath",
+      "text": "리스를 만들었다면 조명을 더해 한층 돋보이게 할 수 있어요.$(br2)조명 리스는 조합대에서 리스와 원하는 트리 조명을 조합해 만들어요:"
+    },
+    {
+      "type": "crafting",
+      "title": "조명 리스",
+      "recipe": "merrymaking:wreath_white_lights",
+      "recipe2": "merrymaking:wreath_multi_lights"
+    }
+  ]
+}

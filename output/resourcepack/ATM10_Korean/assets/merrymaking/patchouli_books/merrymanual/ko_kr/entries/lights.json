@@ -1,0 +1,141 @@
+{
+  "name": "축제 조명",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:lights",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "밝고 축제 분위기가 나는 조명으로 세계를 밝혀 보세요. 조명은 다음 4가지 종류가 있어요: $(li)클래식(큰 전구) $(li)미니(작은 전구) $(li)고드름 $(li)반짝이는 고드름"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "모든 조명은 흰색이나 다색 세트로 나와요. 클래식과 미니 조명에는 다음 8가지 모양이 있어요: $(li)가로 $(li)대각선(왼쪽) $(li)대각선(오른쪽) $(li)세로(왼쪽) $(li)세로(오른쪽) $(li)세로 모서리(왼쪽) $(li)세로 모서리(오른쪽) $(li)지붕 꼭대기"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "고드름과 반짝이는 고드름 조명에는 다음 4가지 모양이 있어요: $(li)가로 $(li)대각선(왼쪽) $(li)대각선(오른쪽) $(li)지붕 꼭대기"
+    },
+    {
+      "type": "spotlight",
+      "title": "가로 조명",
+      "item": "merrymaking:classic_lights_horizontal",
+      "text": "가로 조명은 모서리 안팎으로 이어지며 덩굴과 비슷한 방식으로 설치해요."
+    },
+    {
+      "type": "spotlight",
+      "title": "대각선 조명",
+      "item": "merrymaking:icicle_multi_diagonal_left",
+      "text": "대각선 고드름/반짝이는 고드름 조명은 설치 방식이 조금 특이하며 설치한 블록 아래로 뻗어요. 서로 더 잘 이어지도록 만든 모양이에요."
+    },
+    {
+      "type": "spotlight",
+      "title": "세로 조명",
+      "item": "merrymaking:classic_lights_vertical_right",
+      "text": "세로 조명은 블록의 왼쪽이나 오른쪽에 맞춰져요."
+    },
+    {
+      "type": "spotlight",
+      "title": "세로 모서리 조명",
+      "item": "merrymaking:mini_corner_lights_vertical_left",
+      "text": "세로 모서리 조명은 90도 각도로 두 갈래 조명을 만들며 블록의 왼쪽이나 오른쪽에 맞춰져요."
+    },
+    {
+      "type": "spotlight",
+      "title": "지붕 꼭대기 조명",
+      "item": "merrymaking:icicle_lights_cap",
+      "text": "지붕 꼭대기의 블록 수가 홀수일 때 남는 틈은 지붕 꼭대기 조명으로 채울 수 있어요. $(br2) 계속해서 레시피를 살펴보세요..."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "조명 제작은 전선부터 시작해요. 초록색 전선은 클래식 조명과 미니 조명에, 흰색 전선은 고드름 조명과 반짝이는 고드름 조명에 사용해요. $(br2) 2가지 전선의 레시피는 다음과 같아요:"
+    },
+    {
+      "type": "crafting",
+      "title": "전선",
+      "recipe": "merrymaking:green_wires",
+      "recipe2": "merrymaking:white_wires"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "다음 레시피로 조명에 사용할 전구를 제작하세요:"
+    },
+    {
+      "type": "crafting",
+      "title": "전구",
+      "recipe": "merrymaking:white_bulbs",
+      "recipe2": "merrymaking:multi_bulbs"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이제 기본형 조명을 제작할 차례예요. 앞에서 설명한 설치 모양을 만들 때 이 조명을 사용해요.$(br2)클래식, 미니, 고드름, 반짝이는 고드름 조명마다 서로 다른 기본형이 있어요.$(br2)참고: 미니 기본형은 크리스마스트리에도 사용되므로 트리 조명이라는 이름이 붙어 있어요."
+    },
+    {
+      "type": "crafting",
+      "title": "클래식 조명",
+      "recipe": "merrymaking:classic_lights_white",
+      "recipe2": "merrymaking:classic_lights_multi"
+    },
+    {
+      "type": "crafting",
+      "title": "미니(트리) 조명",
+      "recipe": "merrymaking:tree_lights_white",
+      "recipe2": "merrymaking:tree_lights_multi"
+    },
+    {
+      "type": "crafting",
+      "title": "고드름 조명",
+      "recipe": "merrymaking:icicle_lights_white",
+      "recipe2": "merrymaking:icicle_lights_multi"
+    },
+    {
+      "type": "crafting",
+      "title": "반짝이는 고드름 조명",
+      "recipe": "merrymaking:twinkling_icicle_lights_white",
+      "recipe2": "merrymaking:twinkling_icicle_lights_multi"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "기본형 조명을 마련했으니 이제 조명 블록을 제작할 수 있어요.$(br2)가로형과 지붕 꼭대기 모양에는 일반 제작법이 있어요. '왼쪽' 또는 '오른쪽'으로 나뉜 모양은 제작할 때 형판이 필요해요.$(br2)형판을 사용하는 조명은 기본형 조명 3개와 알맞은 형판을 조합대에 넣어 제작하세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "여기에는 종류별 예시 하나만 나오지만 모든 조명의 레시피 모양은 같아요.$(br2)세로형이나 모서리형이 없는 고드름과 반짝이는 고드름 조명만 예외예요."
+    },
+    {
+      "type": "crafting",
+      "title": "가로 조명",
+      "recipe": "merrymaking:classic_lights",
+      "recipe2": "merrymaking:mini_multi_lights"
+    },
+    {
+      "type": "crafting",
+      "title": "대각선 조명",
+      "recipe": "merrymaking:icicle_lights_diag_left",
+      "recipe2": "merrymaking:twinkling_icicle_lights_diag_right"
+    },
+    {
+      "type": "crafting",
+      "title": "세로 조명(오른쪽)",
+      "recipe": "merrymaking:classic_lights_vert_right",
+      "recipe2": "merrymaking:mini_multi_vert_right"
+    },
+    {
+      "type": "crafting",
+      "title": "세로 모서리(왼쪽)",
+      "recipe": "merrymaking:classic_lights_vert_corner_left",
+      "recipe2": "merrymaking:mini_lights_vert_corner_left"
+    },
+    {
+      "type": "crafting",
+      "title": "세로 모서리(오른쪽)",
+      "recipe": "merrymaking:classic_multi_vert_corner_right",
+      "recipe2": "merrymaking:mini_lights_vert_corner_right"
+    },
+    {
+      "type": "crafting",
+      "title": "지붕 꼭대기 조명",
+      "recipe": "merrymaking:icicle_multi_cap",
+      "recipe2": "merrymaking:mini_lights_cap"
+    }
+  ]
+}

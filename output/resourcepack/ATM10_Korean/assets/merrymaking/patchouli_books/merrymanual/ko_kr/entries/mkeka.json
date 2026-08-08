@@ -1,0 +1,22 @@
+{
+  "name": "음케카",
+  "icon": "merrymaking:mkeka",
+  "category": "merrymaking:kwanzaa",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "음케카",
+      "item": "merrymaking:mkeka",
+      "text": "음케카는 방향을 바꿔 설치할 수 있으며 키나라, 성배, 옥수수와 상호작용해요.$(br2)음케카에는 키나라 1개를 놓거나 다음 조합을 놓을 수 있어요: $(li)성배 1개 $(li)옥수수 최대 3개 $(li)성배 1개와 옥수수 최대 3개"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "음케카 위의 물건을 치우려면 빈손으로 클릭하세요."
+    },
+    {
+      "type": "crafting",
+      "title": "음케카",
+      "recipe": "merrymaking:mkeka"
+    }
+  ]
+}

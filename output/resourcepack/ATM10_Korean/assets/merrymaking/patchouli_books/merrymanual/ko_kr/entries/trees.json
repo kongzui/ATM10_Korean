@@ -1,0 +1,67 @@
+{
+  "name": "크리스마스트리",
+  "icon": "merrymaking:christmas_tree_spruce",
+  "category": "merrymaking:trees",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "작은 가문비나무",
+      "item": "merrymaking:christmas_tree_spruce",
+      "text": "크리스마스트리를 장식하려면 먼저 작은 가문비나무를 찾아 베어야 해요. 작은 가문비나무는 추운 생물군계에서 자라며 가문비나무 잎에서 묘목이 떨어질 때도 있어요."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/small_spruce.png"
+      ],
+      "text": "작은 가문비나무"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "나무를 구했다면 그대로 쓰거나 흰색 염료로 염색해 눈 덮인 크리스마스트리로 만들 수 있어요. $(br2) 다음으로 트리를 놓을 받침대를 제작하세요:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:snowy_christmas_tree",
+      "recipe2": "merrymaking:tree_stand"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/trees_stands.png"
+      ],
+      "text": "트리 받침대에 놓은 나무"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이제 트리를 장식할 준비가 됐어요. $(br2)트리 장식은 다음과 같아요: $(li)조명 $(li)장식구 $(li)달콤한 열매 가랜드 $(li)트리 꼭대기 장식$(br2)트리 조명과 장식구는 흰색과 밝은 다색 중에서 고를 수 있고, 트리 꼭대기 장식은 별과 리본 중에서 고를 수 있어요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": " 트리는 3개 부분으로 나뉘며 각 부분에 트리 조명 1세트, 장식구 1세트, 달콤한 열매 가랜드 1세트를 달 수 있어요. 꼭대기 부분에 트리 꼭대기 장식을 사용하면 트리 위에 장식 블록이 놓여요. 장식을 제거하거나 바꾸려면 장식 자체와 상호작용하세요.$(br2)원하는 트리 부분에 아이템을 사용해 장식하세요. 트리에 놓은 아이템은 빈손으로 클릭하면 제거할 수 있어요."
+    },
+    {
+      "type": "crafting",
+      "title": "장식구",
+      "recipe": "merrymaking:ornaments_white",
+      "recipe2": "merrymaking:ornaments_multi"
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "달콤한 열매 가랜드",
+      "recipe": "merrymaking:dried_berries_smelting"
+    },
+    {
+      "type": "crafting",
+      "title": "달콤한 열매 가랜드",
+      "recipe": "merrymaking:tree_garland"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/tree_with_presents.png"
+      ],
+      "text": "장식한 크리스마스트리"
+    }
+  ]
+}

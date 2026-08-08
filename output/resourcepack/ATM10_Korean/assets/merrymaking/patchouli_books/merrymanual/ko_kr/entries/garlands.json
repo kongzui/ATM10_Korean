@@ -1,0 +1,67 @@
+{
+  "name": "가랜드",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:garlands",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "가랜드는 조명과 매우 비슷해요. 지붕 꼭대기에는 가로형을 쓰므로 지붕 꼭대기 모양만 빼고 클래식/미니 조명과 같은 모양으로 설치할 수 있어요. 다음 3가지 종류가 있어요: $(li)일반 $(li)흰색 조명 $(li)다색 조명"
+    },
+    {
+      "type": "spotlight",
+      "title": "가로 가랜드",
+      "item": "merrymaking:garland_horizontal",
+      "text": "가로 가랜드는 조명처럼 모서리 안팎으로 이어져요."
+    },
+    {
+      "type": "spotlight",
+      "title": "대각선 가랜드",
+      "item": "merrymaking:garland_lights_diagonal_left",
+      "text": "대각선 가랜드는 고드름 조명처럼 설치한 곳의 아래쪽으로 조금 뻗어요. 서로 더 잘 맞물리게 하기 위한 모양이에요."
+    },
+    {
+      "type": "spotlight",
+      "title": "세로 가랜드",
+      "item": "merrymaking:garland_vertical_right",
+      "text": "세로 가랜드는 블록의 왼쪽이나 오른쪽에 맞춰져요."
+    },
+    {
+      "type": "spotlight",
+      "title": "세로 모서리 가랜드",
+      "item": "merrymaking:garland_vertical_corner_multi_right",
+      "text": "세로 모서리 가랜드는 90도 각도로 두 갈래 가랜드를 만들며 블록의 왼쪽이나 오른쪽에 맞춰져요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "먼저 가로 가랜드를 제작하세요.$(br2)여기에는 가문비나무 잎 3개와 리본 2개가 필요해요.$(br2)조명과 마찬가지로 다른 모양의 가랜드를 만들려면 형판도 필요해요. 계속해서 레시피를 살펴보세요..."
+    },
+    {
+      "type": "crafting",
+      "title": "가랜드와 리본",
+      "recipe": "merrymaking:garland_horizontal",
+      "recipe2": "merrymaking:garland_horizontal_lights_multi"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "조명 가랜드를 만들려면 조합대에서 가로 가랜드와 원하는 '트리' 조명을 조합하세요.$(br2)다른 모양은 다음과 같이 조합대에서 가랜드 3개와 형판을 조합해 만들어요:"
+    },
+    {
+      "type": "crafting",
+      "title": "대각선 가랜드",
+      "recipe": "merrymaking:garland_diag_left",
+      "recipe2": "merrymaking:garland_lights_diag_right"
+    },
+    {
+      "type": "crafting",
+      "title": "세로 가랜드",
+      "recipe": "merrymaking:garland_vert_left",
+      "recipe2": "merrymaking:garland_multi_vert_right"
+    },
+    {
+      "type": "crafting",
+      "title": "세로 모서리 가랜드",
+      "recipe": "merrymaking:garland_lights_vert_corner_right",
+      "recipe2": "merrymaking:garland_vert_corner_left"
+    }
+  ]
+}

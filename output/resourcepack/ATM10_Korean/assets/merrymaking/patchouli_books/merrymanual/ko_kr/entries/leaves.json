@@ -1,0 +1,25 @@
+{
+  "name": "조명이 달린 잎",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:wreaths",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "조명이 달린 잎",
+      "item": "merrymaking:spruce_leaves_lights_large_white",
+      "text": "겨울 나무와 덤불에 축제의 빛을 더해 보세요. 조합대에서 가문비나무 잎과 조명을 조합하면 조명이 달린 잎을 만들 수 있어요. $(br2)큰 조명 버전에는 클래식 기본 조명을, 보통 크기 버전에는 트리 조명을 사용하세요."
+    },
+    {
+      "type": "crafting",
+      "title": "조명이 달린 잎",
+      "recipe": "merrymaking:leaves_large_multi_lights",
+      "recipe2": "merrymaking:leaves_white_lights"
+    },
+    {
+      "type": "crafting",
+      "title": "조명이 달린 잎",
+      "recipe": "merrymaking:leaves_large_white_lights",
+      "recipe2": "merrymaking:leaves_multi_lights"
+    }
+  ]
+}

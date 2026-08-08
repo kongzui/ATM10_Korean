@@ -1,0 +1,17 @@
+{
+  "name": "콴자 음식",
+  "icon": "merrymaking:sweet_potato_pie",
+  "category": "merrymaking:kwanzaa",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "콴자 음식",
+      "item": "merrymaking:sweet_potato_pie"
+    },
+    {
+      "type": "crafting",
+      "title": "고구마 파이",
+      "recipe": "merrymaking:sweet_potato_pie"
+    }
+  ]
+}

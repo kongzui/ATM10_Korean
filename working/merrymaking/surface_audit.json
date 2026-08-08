@@ -1,0 +1,99 @@
+{
+  "family": "merrymaking",
+  "jar": "merrymaking-1.21.1-16.jar",
+  "data_json_files": 1173,
+  "data_counts": {
+    "advancement": 382,
+    "jukebox_song": 2,
+    "loot_modifiers": 30,
+    "loot_table": 369,
+    "neoforge": 3,
+    "patchouli_books": 1,
+    "recipe": 382,
+    "worldgen": 4
+  },
+  "advancement_files": 382,
+  "advancement_displays": [],
+  "recipe_files": 382,
+  "visible_data_fields": [],
+  "localized_data_fields": [
+    {
+      "file": "data/merrymaking/jukebox_song/christmas_disc_1.json",
+      "path": "description",
+      "value": {
+        "translate": "item.merrymaking.christmas_music_disc_1.desc"
+      }
+    },
+    {
+      "file": "data/merrymaking/jukebox_song/christmas_disc_2.json",
+      "path": "description",
+      "value": {
+        "translate": "item.merrymaking.christmas_music_disc_2.desc"
+      }
+    }
+  ],
+  "references": {
+    "ftbquests": [],
+    "kubejs": [
+      {
+        "path": "kubejs/data/merrymaking/loot_modifiers/present_in_dungeon.json",
+        "namespace_occurrences": 2,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/data/merrymaking/loot_modifiers/present_in_igloo.json",
+        "namespace_occurrences": 2,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/data/merrymaking/loot_modifiers/present_in_mineshaft.json",
+        "namespace_occurrences": 2,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/data/merrymaking/loot_modifiers/present_in_pyramid.json",
+        "namespace_occurrences": 2,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/data/merrymaking/loot_modifiers/present_in_ship.json",
+        "namespace_occurrences": 2,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/data/merrymaking/loot_modifiers/present_in_temple.json",
+        "namespace_occurrences": 2,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/data/merrymaking/loot_modifiers/tiny_spruce_from_spruce_leaves.json",
+        "namespace_occurrences": 2,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/Tweaks/recipes_fix.js",
+        "namespace_occurrences": 4,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      },
+      {
+        "path": "kubejs/server_scripts/Unification/crops.js",
+        "namespace_occurrences": 19,
+        "direct_name_candidate_lines": [],
+        "visible_namespace_candidate_lines": []
+      }
+    ],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "not_present",
+  "kubejs_display_work": "ids_only",
+  "errors": [],
+  "status": "complete"
+}

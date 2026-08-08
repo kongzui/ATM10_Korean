@@ -1,0 +1,19 @@
+{
+  "name": "기타 장식 블록",
+  "icon": "merrymaking:quartz_platter",
+  "category": "merrymaking:other",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "석영 플래터",
+      "item": "merrymaking:quartz_platter",
+      "text": "다음 블록은 장식용이지만 만찬과 음식 쟁반 레시피에도 사용해요: $(br2)$(li)석영 플래터 $(li)나무 쟁반"
+    },
+    {
+      "type": "crafting",
+      "title": "장식용 음식 쟁반",
+      "recipe": "merrymaking:quartz_platter",
+      "recipe2": "merrymaking:empty_tray"
+    }
+  ]
+}

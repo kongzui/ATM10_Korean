@@ -1,0 +1,94 @@
+{
+  "name": "축제 벽난로 선반",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:mantels",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "추운 밤에는 아름다운 벽난로 곁에서 몸을 녹여 보세요. 축제 벽난로 선반은 장식할 수 있고 불가에서 코코아를 마시기에 딱 좋아요. $(br2) 선반은 너비 3블록, 높이 3블록, 깊이 1블록이며 블록을 설치한 위치를 중심으로 생겨요. $(br2) 계속해서 장식 방법을 알아보세요..."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "축제 벽난로 선반",
+      "multiblock": {
+        "mapping": {
+          "A": "merrymaking:oak_mantel[facing=west,section=0]",
+          "B": "merrymaking:oak_mantel[facing=west,section=1]",
+          "C": "merrymaking:oak_mantel[facing=west,section=2]",
+          "D": "merrymaking:oak_mantel[facing=west,section=3]",
+          "E": "merrymaking:oak_mantel[facing=west,section=4]"
+        },
+        "pattern": [
+          [
+            "DCB"
+          ],
+          [
+            "E0A"
+          ]
+        ],
+        "symmetrical": true
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": "축제 벽난로 선반의 각 부분에 원하는 가로 가랜드나 크리스마스 양말을 사용해 장식할 수 있어요. $(br2) 양끝에 모서리를 만들려면 같은 가랜드를 하나 더 놓으세요.$(br2) 장식을 제거하려면 선반을 빈손으로 클릭하세요. $(br2) 계속해서 레시피를 살펴보세요..."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "벽난로 선반 장식하기",
+      "multiblock": {
+        "mapping": {
+          "A": "merrymaking:oak_mantel[facing=west,section=0,type=garland]",
+          "B": "merrymaking:oak_mantel[corner=true,facing=west,section=1,type=garland,stocking=true]",
+          "C": "merrymaking:oak_mantel[facing=west,section=2,type=garland,stocking=true]",
+          "D": "merrymaking:oak_mantel[corner=true,facing=west,section=3,type=garland,stocking=true]",
+          "E": "merrymaking:oak_mantel[facing=west,section=4,type=garland]"
+        },
+        "pattern": [
+          [
+            "DCB"
+          ],
+          [
+            "E0A"
+          ]
+        ],
+        "symmetrical": true
+      }
+    },
+    {
+      "type": "text",
+      "text": "축제 벽난로 선반은 기본 게임의 모든 나무 색상으로 만들 수 있어요. 다음과 같이 판자 4개와 반 블록 3개로 제작해요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:oak_mantel",
+      "text": "계속 읽으며 벽난로 선반 장식을 알아보세요..."
+    },
+    {
+      "type": "text",
+      "text": "축제 벽난로 선반 위에 꼭 맞도록 만든 전용 장식 블록이 있어요: $(br) $(li)촛대 장식 $(li)진저브레드 집 장식 $(li)랜턴과 포인세티아 장식 $(li)크리스마스트리 장식 $(li)랜턴과 장식구 장식 $(li)기쁨 장식"
+    },
+    {
+      "type": "text",
+      "text": "장식한 벽난로 선반을 클릭하면 장식 하나가 제거되므로, 선반 장식 블록이나 다른 블록을 선반 위에 놓을 때는 Shift 키를 누른 채 클릭해야 해요."
+    },
+    {
+      "type": "crafting",
+      "title": "벽난로 선반 장식",
+      "recipe": "merrymaking:mantel_deco_candles",
+      "recipe2": "merrymaking:mantel_deco_gbhouse"
+    },
+    {
+      "type": "crafting",
+      "title": "벽난로 선반 장식",
+      "recipe": "merrymaking:mantel_deco_lantern",
+      "recipe2": "merrymaking:mantel_deco_tree"
+    },
+    {
+      "type": "crafting",
+      "title": "벽난로 선반 장식",
+      "recipe": "merrymaking:mantel_deco_ball",
+      "recipe2": "merrymaking:mantel_deco_joy"
+    }
+  ]
+}
