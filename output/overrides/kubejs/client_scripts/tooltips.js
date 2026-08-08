@@ -32,15 +32,15 @@ ItemEvents.modifyTooltips(allthemods => {
 
     allthemods.add('allthemodium:allthemodium_ingot',[
         Text.of("§7§o찾으시는 주괴가 아닙니다"),
-        Text.of("§6[고요한 Allthemodium 판]을 찾아보세요")
+        Text.of("§6[Silent Gear Allthemodium 판]을 찾아보세요")
     ])
     allthemods.add('allthemodium:vibranium_ingot',[
         Text.of("§7§o찾으시는 주괴가 아닙니다"),
-        Text.of("§6[고요한 Vibranium 판]을 찾아보세요")
+        Text.of("§6[Silent Gear Vibranium 판]을 찾아보세요")
     ])
     allthemods.add('allthemodium:unobtainium_ingot',[
         Text.of("§7§o찾으시는 주괴가 아닙니다"),
-        Text.of("§6[고요한 Unobtainium 판]을 찾아보세요")
+        Text.of("§6[Silent Gear Unobtainium 판]을 찾아보세요")
     ])
 
 

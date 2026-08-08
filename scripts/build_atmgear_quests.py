@@ -65,19 +65,19 @@ TERM_REPLACEMENTS = (
     ("아르스 누보", "Ars Nouveau"),
     ("철의 마법", "Iron's Spells"),
     ("인더스트리얼 포어고잉", "Industrial Foregoing"),
-    ("포비든 앤 아케이너스", "Forbidden and Arcanus"),
+    ("포비든 앤 아케이너스", "Forbidden & Arcanus"),
     ("엔더IO", "Ender IO"),
 )
 LITERAL_REPLACEMENTS = {
     "INDUSTRIAL FOREGOING QUESTLINE": "Industrial Foregoing 퀘스트라인",
-    "ARS NOUVEAU QUESTLINE": "Ars Nouveau 퀘스트라인",
+    "ARS NOUVEAU QUESTLINE": "Ars Nouveau 퀘스트",
     "POWAH QUESTLINE": "Powah 퀘스트라인",
 }
 RELATED_ITEM_LANGUAGES = {
     "powah": {"block.powah.energizing_orb": "에너지 주입 오브"},
     "forbidden_arcanus": {
         "item.forbidden_arcanus.eternal_stella": "이터널 스텔라",
-        "block.forbidden_arcanus.hephaestus_forge": "헤파에스토스 대장간",
+        "block.forbidden_arcanus.hephaestus_forge": "헤파이스토스 대장간",
     },
 }
 
@@ -140,7 +140,7 @@ FIRST_TEXT_OVERRIDES = {
         "채굴 등급으로 블록을 캐고, 나무를 손쉽게 베고, 길을 만들며, 공격력도 강합니다!"
     ),
     "quest.201EE3566D4D3123.quest_desc": (
-        "&6Allthemodium&r을 캐려면 &c네더라이트&r 등급 이상의 곡괭이가 필요합니다! "
+        "&6Allthemodium&r을 채굴하려면 &c네더라이트&r 등급 이상의 곡괭이가 필요합니다! "
         "\n\n광석을 얻었다면 먼저 행운, Occultism, Mekanism으로 가공해 수량을 늘리는 것을 "
         "권합니다. 그다음에는 몇 가지 선택지가 있습니다. \n\n&6조각&r으로 텔레포트 패드 "
         "2개를 만들어 보세요! &7&l채굴 차원&r에서 &6Allthemodium&r을 더 찾거나 "
@@ -212,17 +212,17 @@ FIRST_TEXT_OVERRIDES = {
         "낙하 피해 저항, &b가루눈&r과 &c용암&r 위 보행."
     ),
     "quest.762581CAE5F5DDC1.quest_desc": (
-        "마법 모드라니 멋지네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 "
-        "&6Allthemodium&r을 결합합니다! \n\n마법 부여 장치는 여러 제작법에 쓰이는 "
+        "멋진 마법 모드네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 "
+        "&6Allthemodium&r을 결합합니다! \n\n마법 부여 장치는 여러 조합에 쓰이는 "
         "멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 놓고, 같은 Y 높이의 주변에 "
-        "받침대를 배치하세요. \n\n받침대에 아이템을 순서와 관계없이 올리고 주변에 근원을 "
-        "준비한 뒤, 장치에 근원 보석을 놓으면 제작이 시작됩니다! 그러면 "
+        "받침대를 배치하세요. \n\n받침대에 재료를 순서와 관계없이 올리고 주변에 마나를 "
+        "준비한 뒤 장치에 마나 보석을 넣으면 제작이 시작됩니다. 그러면 "
         "&5Unobtainium&r-&6Allthemodium&r 합금 주괴가 완성됩니다!\n"
     ),
     "quest.766EEB89C6DF3575.quest_desc": (
         "이터널 스텔라는 대장장이 작업대에서 아이템과 결합해 파괴 불가로 만들거나 합금 도구를 "
         "제작할 때 사용합니다! \n\n먼저 재료가 충분한 3티어 헤파에스토스 대장간이 "
-        "필요합니다. \n\n그다음 블랙홀에 아이템을 먹여 얻는 엑스페트리파이드 오브 3개가 "
+        "필요합니다. \n\n그다음 블랙홀에 아이템을 먹여 얻는 엑스페트리파이드 구슬 3개가 "
         "필요합니다. \n\n채굴해서 얻는 스텔라라이트 조각과 &6Allthemodium 주괴&r도 "
         "준비하세요!"
     ),
@@ -234,9 +234,9 @@ FIRST_TEXT_OVERRIDES = {
         "상관없습니다. 막대를 통해 1 Billion FE를 공급하면 완성됩니다!\n"
     ),
     "quest.7CC96CE9901F25BB.quest_desc": (
-        "&l&5Forbidden and Arcanus&r는 헤파에스토스 대장간이라는 멀티블록을 중심으로 하는 "
+        "&l&5Forbidden & Arcanus&r는 헤파이스토스 대장간이라는 멀티블록을 중심으로 하는 "
         "마법 모드입니다.\n\n대장간 툴팁의 설명에 따라 건설하세요! 완성하면 의식에 필요한 "
-        "오렐, 영혼, 피, 경험치의 4가지 자원을 공급할 수 있습니다.\n\n의식을 통해 대장간도 "
+        "아우레알, 영혼, 피, 경험치의 4가지 자원을 공급할 수 있습니다.\n\n의식을 통해 대장간도 "
         "업그레이드해야 합니다. 필요한 정보는 JEI에서 확인할 수 있습니다."
     ),
     "quest.7DE2154159D273C3.quest_desc": (
@@ -291,12 +291,12 @@ FIRST_TEXT_OVERRIDES = {
         "85 Million FE를 공급하면 합금이 각성합니다!"
     ),
     "quest.66E88F916B638B3B.quest_desc": (
-        "조금 헷갈릴 수 있습니다. &5크리에이티브 &e주문서&r가 여러 개 있거든요! 우리가 "
-        "원하는 것은 &d&lAll The Arcanist Gear&r의 주문서입니다. \n\n먼저 "
-        "&l&dArs Nouveau&r의 크리에이티브 &e주문서&r를 제작해야 합니다. 이 주문서를 "
-        "만들려면 &e대마법사 주문서&r, &6&lATM의 별&r과 몇 가지 아이템이 필요합니다. \n\n"
-        "&eUnobtainium 주문서&r와 설정은 같지만 마나가 무한하고 모든 문양이 잠금 해제되어 "
-        "있습니다! \n\n모든 주문 위력을 손에 넣는 겁니다, 으하하하!"
+        "조금 헷갈릴 수 있습니다. &5크리에이티브 &e마도서&r가 여러 개 있거든요! 여기서 "
+        "필요한 것은 &d&lAll The Arcanist Gear&r의 마도서입니다. \n\n이 마도서를 만들려면 "
+        "먼저 &l&dArs Nouveau&r의 크리에이티브 &e마도서&r를 제작해야 합니다. 그 조합에는 "
+        "&e대마법사의 마도서&r, &6&lATM의 별&r, 몇 가지 추가 아이템이 필요합니다. \n\n"
+        "&eUnobtainium 마도서&r와 성능은 같지만 마나가 무한하고 모든 문양이 해금되어 "
+        "있습니다! \n\n모든 주문 위력을 손에 넣는 겁니다. 으하하하!"
     ),
     "quest.6C5F9D0D447EFB9C.quest_desc": (
         "&l&2바닐라&r 방어구가 전부라고 생각하셨나요? \n\n&6Allthemodium 방어구&r는 "
@@ -394,7 +394,7 @@ VALUE_OVERRIDES: dict[str, snbt.TranslationValue] = {
     "quest.62DDE5B1287BEB36.title": (
         "&6각성한 &5Unobtainium&f-&3Vibranium&r 합금 블록"
     ),
-    "quest.66E88F916B638B3B.title": "&5&l크리에이티브 &e주문서",
+    "quest.66E88F916B638B3B.title": "&5&l크리에이티브 &e마도서",
     "quest.6C5F9D0D447EFB9C.title": "&6Allthemodium 방어구",
     "quest.6F76DA3BBAE8337B.title": "&5Unobtainium 방어구",
     "quest.7154D73516548149.title": "&l&6Allthemodium",

@@ -1,6 +1,6 @@
 {
-  "status": "quality_review_completed_and_deployed",
-  "completed_at": "2026-08-01T11:47:09+09:00",
+  "status": "re_review_completed_and_deployed",
+  "completed_at": "2026-08-08T22:06:59+09:00",
   "scope": "Allthemodium·ATM 장비 언어, FTB Quests, Patchouli 가이드, KubeJS, 발전 과제 및 fallback 표시",
   "installed": [
     "allthemodium-3.0.1_mc_1.21.1.jar",
@@ -10,7 +10,8 @@
   "language": {
     "namespaces": 3,
     "total_keys_reviewed": 350,
-    "quality_review_corrections": 13,
+    "existing_korean_reused": 350,
+    "quality_review_corrections": 0,
     "newly_translated": 0,
     "shared_material_keys_checked": 6
   },
@@ -18,6 +19,7 @@
     "patchouli_json_reviewed": 19,
     "book_metadata_overrides_reviewed": 1,
     "display_fields_reviewed": 47,
+    "existing_korean_reused": 47,
     "quality_review_corrections": 0
   },
   "ftbquests": {
@@ -26,7 +28,8 @@
     "related_quests_outside_chapter_checked": 26,
     "tasks_checked": 109,
     "display_keys_reviewed": 175,
-    "quality_review_keys_corrected": 18,
+    "existing_korean_reused": 173,
+    "quality_review_keys_corrected": 2,
     "quest_fallbacks_checked": 11,
     "task_item_fallbacks_checked": 86,
     "resource_name_matches_checked": 27,
@@ -40,7 +43,8 @@
   "kubejs": {
     "files_reviewed": 4,
     "direct_user_literals_reviewed": 44,
-    "quality_review_occurrences_corrected": 0
+    "existing_korean_reused": 38,
+    "quality_review_occurrences_corrected": 6
   },
   "related_dependencies": {
     "item_hover_keys_reviewed": 3,
@@ -49,17 +53,23 @@
   },
   "review_totals": {
     "visible_values_reviewed": 619,
-    "existing_korean_reviewed_and_reused": 588,
-    "quality_review_corrections": 31,
+    "existing_korean_reviewed_and_reused": 611,
+    "quality_review_corrections": 8,
     "newly_translated": 0
   },
   "deployment": {
     "source_root_configured": false,
     "game_root_configured": true,
     "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
-    "files_applied": 3,
-    "backup_root": "temp/backups/20260801_114650_904960/game_root",
-    "backup_manifest": "temp/backups/20260801_114650_904960/backup_manifest.json",
+    "files_applied": 5,
+    "backup_roots": [
+      "temp/backups/20260808_220611_996927/game_root",
+      "temp/backups/20260808_220653_163796/game_root"
+    ],
+    "backup_manifests": [
+      "temp/backups/20260808_220611_996927/backup_manifest.json",
+      "temp/backups/20260808_220653_163796/backup_manifest.json"
+    ],
     "post_apply_expected_changes": [],
     "unexpected_instance_changes": []
   },

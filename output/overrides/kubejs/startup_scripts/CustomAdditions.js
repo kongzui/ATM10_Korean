@@ -22,9 +22,9 @@ StartupEvents.registry('item', allthemods => {
         allthemods.create('starlight_prediction').displayName('범용 별빛 예측');
     }
 
-    allthemods.create('silent_allthemodium_plate').displayName('고요한 Allthemodium 판').glow(true);
-    allthemods.create('silent_vibranium_plate').displayName('고요한 Vibranium 판').glow(true);
-    allthemods.create('silent_unobtainium_plate').displayName('고요한 Unobtainium 판').glow(true);
+    allthemods.create('silent_allthemodium_plate').displayName('Silent Gear Allthemodium 판').glow(true);
+    allthemods.create('silent_vibranium_plate').displayName('Silent Gear Vibranium 판').glow(true);
+    allthemods.create('silent_unobtainium_plate').displayName('Silent Gear Unobtainium 판').glow(true);
 
     allthemods.create('atm_star_shard_1').displayName('ATM의 별 조각')
     allthemods.create('atm_star_shard_2').displayName('ATM의 별 조각')

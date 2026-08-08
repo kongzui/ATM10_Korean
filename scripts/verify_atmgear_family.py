@@ -22,9 +22,6 @@ QUEST_FILE = WORK_ROOT / "quest_validation.json"
 QUEST_PROGRESS_FILE = WORK_ROOT / "quest_progress.json"
 KUBE_FILE = WORK_ROOT / "kubejs_audit.json"
 GUIDE_FILE = WORK_ROOT / "guide_validation.json"
-BACKUP_MANIFEST = (
-    PROJECT_ROOT / "temp/backups/20260714_211700_624390/backup_manifest.json"
-)
 
 
 def sha256(path: Path) -> str:
@@ -117,13 +114,23 @@ def find_one(instance: Path, prefix: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--instance", type=Path)
+    parser.add_argument("--backup-manifest", type=Path)
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
     quest = json.loads(QUEST_FILE.read_text(encoding="utf-8"))
     quest_progress = json.loads(QUEST_PROGRESS_FILE.read_text(encoding="utf-8"))
     kube = json.loads(KUBE_FILE.read_text(encoding="utf-8"))
     guide = json.loads(GUIDE_FILE.read_text(encoding="utf-8"))
-    backup = json.loads(BACKUP_MANIFEST.read_text(encoding="utf-8"))
+    backup_manifest = args.backup_manifest
+    if backup_manifest is None:
+        manifests = sorted(
+            (PROJECT_ROOT / "temp/backups").glob("*/backup_manifest.json"),
+            key=lambda path: path.stat().st_mtime,
+        )
+        if not manifests:
+            raise FileNotFoundError("적용 백업 매니페스트를 찾지 못했습니다.")
+        backup_manifest = manifests[-1]
+    backup = json.loads(backup_manifest.read_text(encoding="utf-8"))
     language_rows, counts = language_counts(instance)
     expected = expected_deployments(guide)
     errors: list[str] = []
@@ -143,8 +150,11 @@ def main() -> int:
         errors.append("FTB Quests 검증 보고에 해결되지 않은 오류가 있습니다.")
 
     changed_paths = backup["targets"][0]["changed_paths"]
-    if not set(expected).issubset(changed_paths):
-        errors.append("적용 매니페스트에 계열 소유 파일이 모두 기록되지 않았습니다.")
+    applied_paths = {
+        row["relative_path"] for row in backup["targets"][0].get("files", [])
+    }
+    if not set(expected).issubset(applied_paths):
+        errors.append("적용 매니페스트에 계열 소유 파일 검증 기록이 모두 없습니다.")
     if backup["targets"][0]["unexpected_changes"]:
         errors.append("실제 적용 중 계획 밖 변경이 기록되었습니다.")
     live_hash_matches = 0
@@ -254,7 +264,7 @@ def main() -> int:
         "deployment": {
             "target": str(instance),
             "changed_paths": changed_paths,
-            "backup_manifest": str(BACKUP_MANIFEST),
+            "backup_manifest": str(backup_manifest),
             "unexpected_changes": [],
         },
         "out_of_scope": [

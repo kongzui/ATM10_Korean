@@ -59,7 +59,7 @@
   ],
   "quest.1FE47F03B5DF492D.title": "&5Unobtainium 비전술사 방어구",
   "quest.201EE3566D4D3123.quest_desc": [
-    "&6Allthemodium&r을 캐려면 &c네더라이트&r 등급 이상의 곡괭이가 필요합니다! \\n\\n광석을 얻었다면 먼저 행운, Occultism, Mekanism으로 가공해 수량을 늘리는 것을 권합니다. 그다음에는 몇 가지 선택지가 있습니다. \\n\\n&6조각&r으로 텔레포트 패드 2개를 만들어 보세요! &7&l채굴 차원&r에서 &6Allthemodium&r을 더 찾거나 &b&l디 아더&r로 가서 모험할 수 있습니다. \\n\\n그 뒤에는 &3Vibranium&r을 캘 수 있도록 곡괭이를 업그레이드하세요. 나머지는 여러분의 선택입니다!",
+    "&6Allthemodium&r을 채굴하려면 &c네더라이트&r 등급 이상의 곡괭이가 필요합니다! \\n\\n광석을 얻었다면 먼저 행운, Occultism, Mekanism으로 가공해 수량을 늘리는 것을 권합니다. 그다음에는 몇 가지 선택지가 있습니다. \\n\\n&6조각&r으로 텔레포트 패드 2개를 만들어 보세요! &7&l채굴 차원&r에서 &6Allthemodium&r을 더 찾거나 &b&l디 아더&r로 가서 모험할 수 있습니다. \\n\\n그 뒤에는 &3Vibranium&r을 캘 수 있도록 곡괭이를 업그레이드하세요. 나머지는 여러분의 선택입니다!",
     "{image:atm:textures/questpics/allthemodium/all_1.png width:100 height:100 align:center}"
   ],
   "quest.201EE3566D4D3123.title": "&6Allthemodium 주괴",
@@ -175,11 +175,11 @@
   ],
   "quest.71E4FD61787DE299.title": "&6Allthemodium 대장장이 형판",
   "quest.762581CAE5F5DDC1.quest_desc": [
-    "마법 모드라니 멋지네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 &6Allthemodium&r을 결합합니다! \\n\\n마법 부여 장치는 여러 제작법에 쓰이는 멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 놓고, 같은 Y 높이의 주변에 받침대를 배치하세요. \\n\\n받침대에 아이템을 순서와 관계없이 올리고 주변에 근원을 준비한 뒤, 장치에 근원 보석을 놓으면 제작이 시작됩니다! 그러면 &5Unobtainium&r-&6Allthemodium&r 합금 주괴가 완성됩니다!\\n",
-    "{ \"text\": \"Ars Nouveau 퀘스트라인\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
+    "멋진 마법 모드네요! &d&lArs Nouveau&r의 마법 부여 장치로 &5Unobtainium&r과 &6Allthemodium&r을 결합합니다! \\n\\n마법 부여 장치는 여러 조합에 쓰이는 멀티블록입니다. 아케인 코어 위에 마법 부여 장치를 놓고, 같은 Y 높이의 주변에 받침대를 배치하세요. \\n\\n받침대에 재료를 순서와 관계없이 올리고 주변에 마나를 준비한 뒤 장치에 마나 보석을 넣으면 제작이 시작됩니다. 그러면 &5Unobtainium&r-&6Allthemodium&r 합금 주괴가 완성됩니다!\\n",
+    "{ \"text\": \"Ars Nouveau 퀘스트\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }"
   ],
   "quest.766EEB89C6DF3575.quest_desc": [
-    "이터널 스텔라는 대장장이 작업대에서 아이템과 결합해 파괴 불가로 만들거나 합금 도구를 제작할 때 사용합니다! \\n\\n먼저 재료가 충분한 3티어 헤파에스토스 대장간이 필요합니다. \\n\\n그다음 블랙홀에 아이템을 먹여 얻는 엑스페트리파이드 오브 3개가 필요합니다. \\n\\n채굴해서 얻는 스텔라라이트 조각과 &6Allthemodium 주괴&r도 준비하세요!"
+    "이터널 스텔라는 대장장이 작업대에서 아이템과 결합해 파괴 불가로 만들거나 합금 도구를 제작할 때 사용합니다! \\n\\n먼저 재료가 충분한 3티어 헤파에스토스 대장간이 필요합니다. \\n\\n그다음 블랙홀에 아이템을 먹여 얻는 엑스페트리파이드 구슬 3개가 필요합니다. \\n\\n채굴해서 얻는 스텔라라이트 조각과 &6Allthemodium 주괴&r도 준비하세요!"
   ],
   "quest.77AD61FCA9BC9AFB.quest_desc": [
     "주문 슬롯 14개!"
@@ -194,7 +194,7 @@
     "{ \"text\": \"Powah 퀘스트라인\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }"
   ],
   "quest.7CC96CE9901F25BB.quest_desc": [
-    "&l&5Forbidden and Arcanus&r는 헤파에스토스 대장간이라는 멀티블록을 중심으로 하는 마법 모드입니다.\\n\\n대장간 툴팁의 설명에 따라 건설하세요! 완성하면 의식에 필요한 오렐, 영혼, 피, 경험치의 4가지 자원을 공급할 수 있습니다.\\n\\n의식을 통해 대장간도 업그레이드해야 합니다. 필요한 정보는 JEI에서 확인할 수 있습니다."
+    "&l&5Forbidden & Arcanus&r는 헤파이스토스 대장간이라는 멀티블록을 중심으로 하는 마법 모드입니다.\\n\\n대장간 툴팁의 설명에 따라 건설하세요! 완성하면 의식에 필요한 아우레알, 영혼, 피, 경험치의 4가지 자원을 공급할 수 있습니다.\\n\\n의식을 통해 대장간도 업그레이드해야 합니다. 필요한 정보는 JEI에서 확인할 수 있습니다."
   ],
   "quest.7DE2154159D273C3.quest_desc": [
     "&3Vibranium 방어구&r는 &6Allthemodium 방어구&r의 업그레이드입니다. \\n\\n모든 능력치가 높아져 방어력 32, 방어 강도 36, 밀치기 저항 80%를 제공합니다. \\n\\n새로운 효과나 능력은 없지만 &d마법 피해 저항&r이 75%로 높아집니다!",
@@ -300,9 +300,9 @@
   ],
   "quest.62DDE5B1287BEB36.title": "&6각성한 &5Unobtainium&f-&3Vibranium&r 합금 블록",
   "quest.66E88F916B638B3B.quest_desc": [
-    "조금 헷갈릴 수 있습니다. &5크리에이티브 &e주문서&r가 여러 개 있거든요! 우리가 원하는 것은 &d&lAll The Arcanist Gear&r의 주문서입니다. \\n\\n먼저 &l&dArs Nouveau&r의 크리에이티브 &e주문서&r를 제작해야 합니다. 이 주문서를 만들려면 &e대마법사 주문서&r, &6&lATM의 별&r과 몇 가지 아이템이 필요합니다. \\n\\n&eUnobtainium 주문서&r와 설정은 같지만 마나가 무한하고 모든 문양이 잠금 해제되어 있습니다! \\n\\n모든 주문 위력을 손에 넣는 겁니다, 으하하하!"
+    "조금 헷갈릴 수 있습니다. &5크리에이티브 &e마도서&r가 여러 개 있거든요! 여기서 필요한 것은 &d&lAll The Arcanist Gear&r의 마도서입니다. \\n\\n이 마도서를 만들려면 먼저 &l&dArs Nouveau&r의 크리에이티브 &e마도서&r를 제작해야 합니다. 그 조합에는 &e대마법사의 마도서&r, &6&lATM의 별&r, 몇 가지 추가 아이템이 필요합니다. \\n\\n&eUnobtainium 마도서&r와 성능은 같지만 마나가 무한하고 모든 문양이 해금되어 있습니다! \\n\\n모든 주문 위력을 손에 넣는 겁니다. 으하하하!"
   ],
-  "quest.66E88F916B638B3B.title": "&5&l크리에이티브 &e주문서",
+  "quest.66E88F916B638B3B.title": "&5&l크리에이티브 &e마도서",
   "quest.6C5F9D0D447EFB9C.quest_desc": [
     "&l&2바닐라&r 방어구가 전부라고 생각하셨나요? \\n\\n&6Allthemodium 방어구&r는 방어력과 방어 강도가 더 높고, 마법 피해 저항과 여러 강화 효과도 제공합니다. 자세한 내용은 &6&lAllthemodium&r 퀘스트 페이지에서 확인하세요! \\n\\n제작하려면 &c네더라이트&r가 필요합니다."
   ],

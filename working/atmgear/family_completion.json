@@ -35,48 +35,32 @@
     "language_existing_korean_corrected": 15,
     "language_newly_translated": 335,
     "guide_display_fields_translated": 47,
-    "quest_existing_korean_reused": 75,
-    "quest_existing_korean_corrected": 100,
+    "quest_existing_korean_reused": 85,
+    "quest_existing_korean_corrected": 90,
     "quest_newly_completed": 0,
     "related_item_hover_keys_added": 3,
     "kubejs_literals_translated": 44,
     "remaining": 0
+  },
+  "current_re_review": {
+    "visible_values_reviewed": 619,
+    "existing_korean_reused": 611,
+    "existing_korean_corrected": 8,
+    "newly_translated": 0
   },
   "deployment": {
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
     "changed_paths": [
       "config/ftbquests/quests/lang/ko_kr.snbt",
       "kubejs/client_scripts/tooltips.js",
-      "kubejs/data/allthemodium/patchouli_books/allthemodium_book/book.json",
-      "kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js",
       "kubejs/startup_scripts/CustomAdditions.js",
-      "kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js",
       "resourcepacks/ATM10_Korean/assets/allthearcanistgear/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/categories/armour.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/categories/dimensions.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/categories/food.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/categories/links.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/categories/misc.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/categories/ore.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/armour/allthemodium.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/dimensions/miningdim.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/dimensions/otherdim.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/dimensions/teleport_pad.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/food/atmapple.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/food/atmcarrot.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/links/discord.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/links/github.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/links/reddit.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/misc/tools.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/ore/allthemodium.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/ore/unobtainium.json",
-      "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/ore/vibranium.json",
-      "resourcepacks/ATM10_Korean/assets/allthewizardgear/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/forbidden_arcanus/lang/ko_kr.json",
-      "resourcepacks/ATM10_Korean/assets/powah/lang/ko_kr.json"
+      "resourcepacks/ATM10_Korean/assets/allthemodium/lang/ko_kr.json"
     ],
-    "backup_manifest": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\temp\\backups\\20260714_211700_624390\\backup_manifest.json",
+    "backup_manifests": [
+      "temp/backups/20260808_220611_996927/backup_manifest.json",
+      "temp/backups/20260808_220653_163796/backup_manifest.json"
+    ],
     "unexpected_changes": []
   },
   "out_of_scope": [

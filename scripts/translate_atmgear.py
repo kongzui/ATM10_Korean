@@ -286,9 +286,9 @@ ARCANIST = {
     "allthearcanistgear.perk_desc.thread_truesight": "진실의 시야를 부여하여 주변을 더 잘 볼 수 있습니다. 1단계는 야간 투시, 2단계는 실명 면역, 3단계는 어둠 면역, 4단계는 용암 투시를 부여합니다.",
     "allthearcanistgear.perk_desc.thread_vitality": "레벨마다 최대 체력이 하트 1개 증가합니다.",
     "allthearcanistgear.thread_of": "%s의 실타래",
-    "chat.allthearcanistgear.low_tier": "이 블록을 부수려면 더 강력한 주문서가 필요합니다.",
+    "chat.allthearcanistgear.low_tier": "이 블록을 부수려면 더 강력한 마도서가 필요합니다.",
     "chat.allthearcanistgear.too_weak": "이 블록을 부수려면 증폭 수치가 더 높아야 합니다.",
-    "item.allthearcanistgear.creative_spell_book": "크리에이티브 주문서",
+    "item.allthearcanistgear.creative_spell_book": "크리에이티브 마도서",
     "item.allthearcanistgear.thread_flight": "비행",
     "item.allthearcanistgear.thread_spectral_sight": "분광 시야",
     "item.allthearcanistgear.thread_truesight": "진실의 시야",
@@ -316,7 +316,7 @@ def translate_arcanist(key: str, source: str) -> str:
         "hat": "비전술사 모자",
         "leggings": "비전술사 레깅스",
         "robes": "비전술사 로브",
-        "spell_book": "주문서",
+        "spell_book": "마도서",
     }[match.group(2)]
     return f"{material} {item}"
 

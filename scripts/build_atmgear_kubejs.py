@@ -50,17 +50,17 @@ REPLACEMENTS: dict[str, list[tuple[str, str, int]]] = {
         ),
         (
             "§6Look for the [Silent Allthemodium Plate]",
-            "§6[고요한 Allthemodium 판]을 찾아보세요",
+            "§6[Silent Gear Allthemodium 판]을 찾아보세요",
             1,
         ),
         (
             "§6Look for the [Silent Vibranium Plate]",
-            "§6[고요한 Vibranium 판]을 찾아보세요",
+            "§6[Silent Gear Vibranium 판]을 찾아보세요",
             1,
         ),
         (
             "§6Look for the [Silent Unobtainium Plate]",
-            "§6[고요한 Unobtainium 판]을 찾아보세요",
+            "§6[Silent Gear Unobtainium 판]을 찾아보세요",
             1,
         ),
         (
@@ -80,9 +80,9 @@ REPLACEMENTS: dict[str, list[tuple[str, str, int]]] = {
         ),
     ],
     "kubejs/startup_scripts/CustomAdditions.js": [
-        ("Silent Allthemodium Plate", "고요한 Allthemodium 판", 1),
-        ("Silent Vibranium Plate", "고요한 Vibranium 판", 1),
-        ("Silent Unobtainium Plate", "고요한 Unobtainium 판", 1),
+        ("Silent Allthemodium Plate", "Silent Gear Allthemodium 판", 1),
+        ("Silent Vibranium Plate", "Silent Gear Vibranium 판", 1),
+        ("Silent Unobtainium Plate", "Silent Gear Unobtainium 판", 1),
         ("ATM Star Fragment", "ATM의 별 조각", 5),
         ("Allthemodium Solar Sail Package", "Allthemodium 태양 돛 패키지", 1),
         ("Allthemodium Beam Package", "Allthemodium 빔 패키지", 1),
@@ -110,6 +110,26 @@ REPLACEMENTS: dict[str, list[tuple[str, str, int]]] = {
     ],
 }
 
+LEGACY_REPLACEMENTS = {
+    "§6Look for the [Silent Allthemodium Plate]": (
+        "§6[고요한 Allthemodium 판]을 찾아보세요",
+    ),
+    "§6Look for the [Silent Vibranium Plate]": (
+        "§6[고요한 Vibranium 판]을 찾아보세요",
+    ),
+    "§6Look for the [Silent Unobtainium Plate]": (
+        "§6[고요한 Unobtainium 판]을 찾아보세요",
+    ),
+    "Silent Allthemodium Plate": ("고요한 Allthemodium 판",),
+    "Silent Vibranium Plate": ("고요한 Vibranium 판",),
+    "Silent Unobtainium Plate": ("고요한 Unobtainium 판",),
+}
+
+
+def literal_count(source: str, value: str) -> int:
+    """JavaScript의 완전한 작은따옴표·큰따옴표 문자열 수를 센다."""
+    return source.count(f"'{value}'") + source.count(f'"{value}"')
+
 
 def translate_file(
     instance: Path, relative: str, rules: list[tuple[str, str, int]]
@@ -120,16 +140,20 @@ def translate_file(
     translated = source
     changes = 0
     for original, replacement, expected in rules:
-        found = translated.count(original)
-        if found != expected:
+        original_count = literal_count(translated, original)
+        replacement_count = literal_count(translated, replacement)
+        legacy = LEGACY_REPLACEMENTS.get(original, ())
+        legacy_count = sum(literal_count(translated, value) for value in legacy)
+        if original_count + replacement_count + legacy_count != expected:
             raise RuntimeError(
                 f"예상한 KubeJS 원문 수와 다릅니다: {relative}:{original!r} "
-                f"expected={expected} actual={found}"
+                f"expected={expected} "
+                f"actual={original_count + replacement_count + legacy_count}"
             )
         translated = translated.replace(original, replacement)
+        for value in legacy:
+            translated = translated.replace(value, replacement)
         changes += expected
-    if translated == source:
-        raise RuntimeError(f"KubeJS 표시 문구가 바뀌지 않았습니다: {relative}")
     for original, _, _ in rules:
         if original in translated:
             raise RuntimeError(f"KubeJS 원문이 남았습니다: {relative}:{original!r}")
@@ -150,7 +174,9 @@ def main() -> int:
     }
     report = {
         "files": len(per_file),
-        "translated_literal_occurrences": sum(per_file.values()),
+        "translated_literal_occurrences": sum(
+            expected for rules in REPLACEMENTS.values() for _, _, expected in rules
+        ),
         "per_file": per_file,
         "custom_name_literals": 2,
         "remaining": 0,

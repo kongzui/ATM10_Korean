@@ -10,8 +10,8 @@
     "iron_spells_and_spellbooks.snbt": 3
   },
   "source_display_keys": 175,
-  "existing_korean_kept": 75,
-  "existing_korean_corrected": 100,
+  "existing_korean_kept": 85,
+  "existing_korean_corrected": 90,
   "newly_completed": 0,
   "literal_components_translated": 3,
   "custom_names": 0,
@@ -27,7 +27,7 @@
     "manual_review": 0
   },
   "remaining": 0,
-  "base_sha256": "09b8b78de13b557468beb9759ca9039eebb66dc070c99da6a5349e41629f4b56",
-  "output_sha256": "e1910a3d2364e582e918cc9493a8e0fffdac8fac57f87e1570df56ce2cb914bf",
+  "base_sha256": "5b92295364b612f43f665b40226dcc3d58a782d9078e9b1641a8706e8550456b",
+  "output_sha256": "407d0f0d449556c2380bc3d6648cf5a6e4f48d083bb74a95652a55f8d88b7298",
   "status": "passed"
 }
