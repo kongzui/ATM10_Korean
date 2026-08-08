@@ -1,0 +1,26 @@
+{
+  "family": "little_redstone",
+  "namespaces": [
+    {
+      "namespace": "little_big_redstone",
+      "keys": 293,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    },
+    {
+      "namespace": "redstonepen",
+      "keys": 72,
+      "untranslated_candidates": [],
+      "latin_residue": {},
+      "unexpected_name_collisions": {},
+      "errors": []
+    }
+  ],
+  "keys": 365,
+  "existing_korean_reused": 0,
+  "new_translation_keys": 365,
+  "errors": [],
+  "status": "complete"
+}

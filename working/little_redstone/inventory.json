@@ -1,0 +1,24 @@
+{
+  "family": "little_redstone",
+  "namespaces": [
+    {
+      "namespace": "little_big_redstone",
+      "jar": "little-big-redstone-1.9.0-1.21.1.jar",
+      "jar_size": 1562070,
+      "jar_mtime_ns": 1783222385818078200,
+      "english_keys": 293,
+      "bundled_korean": false
+    },
+    {
+      "namespace": "redstonepen",
+      "jar": "redstonepen-1.21-neoforge-1.11.42.jar",
+      "jar_size": 513816,
+      "jar_mtime_ns": 1783222357020043500,
+      "english_keys": 72,
+      "bundled_korean": false
+    }
+  ],
+  "english_keys": 365,
+  "existing_korean_reused": 0,
+  "status": "prepared"
+}

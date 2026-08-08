@@ -1,0 +1,47 @@
+{
+  "family": "little_redstone",
+  "little_big_redstone": {
+    "guide_classes": [
+      "net/swedz/little_big_redstone/guide/LBRGuide.class",
+      "net/swedz/little_big_redstone/guide/PausePlayGuideIconButton.class",
+      "net/swedz/little_big_redstone/guide/tags/block/FloatingBoxTagCompiler$1.class",
+      "net/swedz/little_big_redstone/guide/tags/block/FloatingBoxTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/block/LogicIndexTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/block/LytSizedHBox.class",
+      "net/swedz/little_big_redstone/guide/tags/block/LytSizedVBox.class",
+      "net/swedz/little_big_redstone/guide/tags/block/MarginFloatingImageCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/block/PaddedBoxTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/microchip/MicrochipGuidebookScene$Viewport.class",
+      "net/swedz/little_big_redstone/guide/tags/microchip/MicrochipGuidebookScene.class",
+      "net/swedz/little_big_redstone/guide/tags/microchip/MicrochipSceneTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/microchip/TimedRedstoneSignals.class",
+      "net/swedz/little_big_redstone/guide/tags/microchip/element/LogicElementTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/microchip/element/MicrochipObjectGuideTooltip.class",
+      "net/swedz/little_big_redstone/guide/tags/microchip/element/MicrochipSceneElementTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/microchip/element/MicrochipWireGuideTooltip.class",
+      "net/swedz/little_big_redstone/guide/tags/microchip/element/RedstoneSignalTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/microchip/element/WireElementTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/scene/InputOutputImplicitAnnotationStrategy.class",
+      "net/swedz/little_big_redstone/guide/tags/text/UnderlinedTextTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/truthtable/TruthTableTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/truthtable/element/TruthTableElementTagCompiler.class",
+      "net/swedz/little_big_redstone/guide/tags/truthtable/element/TruthTableStateTagCompiler.class"
+    ],
+    "language_keys_referenced_by_classes": 0,
+    "dynamic_translation_api": true,
+    "guide_help_keys": 27,
+    "guide_help_keys_fully_translated": true
+  },
+  "redstonepen": {
+    "advancement_files": [
+      "data/minecraft/advancements/recipes/redstone/craft_redstonepen.json",
+      "data/minecraft/advancements/recipes/redstone/craft_redstonepen_first.json",
+      "data/minecraft/advancements/recipes/redstone/craft_redstonequill.json"
+    ],
+    "direct_advancement_text": []
+  },
+  "ftbquests_kubejs_references": [],
+  "read_errors": [],
+  "errors": [],
+  "status": "complete"
+}

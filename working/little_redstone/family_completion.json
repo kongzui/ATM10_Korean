@@ -1,0 +1,33 @@
+{
+  "family": "little_redstone",
+  "language_keys": 365,
+  "namespace_keys": {
+    "little_big_redstone": 293,
+    "redstonepen": 72
+  },
+  "existing_korean_reused": 0,
+  "new_translation_keys": 365,
+  "ftbquests_kubejs_references": 0,
+  "guide_help_keys": 27,
+  "advancement_files": 3,
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/little_big_redstone/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/redstonepen/lang/ko_kr.json"
+  ],
+  "errors": [],
+  "status": "complete",
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/little_big_redstone/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/redstonepen/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260808_111801_544686/backup_manifest.json",
+    "output_sha256": {
+      "little_big_redstone": "81c2f0163f3c63b55d3a24ab0496528c60525ec50f3513306dd433cc2d182987",
+      "redstonepen": "3bc4a648744bef7b082e9bdad1441baf1a3b1cc77fbd625a1c7ba9613d539c13"
+    },
+    "errors": []
+  }
+}
