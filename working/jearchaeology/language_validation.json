@@ -1,0 +1,12 @@
+{
+  "family": "jearchaeology",
+  "jar": "jearchaeology-1.21.1-1.2.0.jar",
+  "keys": 156,
+  "existing_korean_reused": 0,
+  "new_translation_keys": 156,
+  "untranslated_candidates": [],
+  "latin_residue": {},
+  "unexpected_name_collisions": {},
+  "errors": [],
+  "status": "complete"
+}

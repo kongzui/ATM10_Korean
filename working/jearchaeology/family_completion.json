@@ -1,0 +1,25 @@
+{
+  "family": "jearchaeology",
+  "version": "1.21.1-1.2.0",
+  "language_keys": 156,
+  "existing_korean_reused": 0,
+  "new_translation_keys": 156,
+  "related_ftbquests": 0,
+  "related_kubejs": 0,
+  "guides_advancements": 0,
+  "output_files": [
+    "output/resourcepack/ATM10_Korean/assets/jearchaeology/lang/ko_kr.json"
+  ],
+  "errors": [],
+  "status": "complete",
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/jearchaeology/lang/ko_kr.json"
+    ],
+    "backup_manifest": "temp/backups/20260808_104249_071030/backup_manifest.json",
+    "output_sha256": "7375c5da0e7d949029fc9c7623adae9a54c9af9299cce0d40f6dfcdc6b054ed6",
+    "errors": []
+  }
+}

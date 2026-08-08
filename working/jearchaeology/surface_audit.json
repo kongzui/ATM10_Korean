@@ -1,0 +1,21 @@
+{
+  "family": "jearchaeology",
+  "jar": "jearchaeology-1.21.1-1.2.0.jar",
+  "jar_visible_entries": [
+    "META-INF/neoforge.mods.toml",
+    "assets/jearchaeology/lang/en_us.json",
+    "assets/jearchaeology/lang/ja_jp.json",
+    "data/c/tags/item/tools/brush.json",
+    "pack.mcmeta"
+  ],
+  "jar_advancement_guide_entries": [],
+  "related_ftbquests_kubejs_resourcepack_matches": [],
+  "optional_compatibility_jars": {
+    "better_archeology": [],
+    "cobblemon": [],
+    "mega_showdown": []
+  },
+  "metadata_note": "mods.toml의 영문 설명은 언어 키를 사용하지 않는 모드 목록 메타데이터이므로 리소스팩 번역 대상이 아닙니다.",
+  "scan_errors": [],
+  "status": "complete"
+}
