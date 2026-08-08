@@ -1,0 +1,10 @@
+{
+  "family": "client_ui",
+  "reviewed_language_keys": 4189,
+  "bundled_korean_candidate_keys": 3814,
+  "existing_korean_values_reused": 3138,
+  "new_or_corrected_language_values": 1051,
+  "ftbquests_work": "no_related_references",
+  "kubejs_work": "no_related_references",
+  "status": "complete"
+}

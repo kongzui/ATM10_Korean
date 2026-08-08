@@ -1,0 +1,56 @@
+{
+  "family": "client_ui",
+  "mods": [
+    {
+      "namespace": "fancymenu",
+      "english_keys": 3367,
+      "bundled_candidate_keys": 3367,
+      "bundled_candidate_values_reused": 2943,
+      "new_or_corrected_values": 424,
+      "status": "complete"
+    },
+    {
+      "namespace": "sodium-extra",
+      "english_keys": 380,
+      "bundled_candidate_keys": 380,
+      "bundled_candidate_values_reused": 139,
+      "new_or_corrected_values": 241,
+      "status": "complete"
+    },
+    {
+      "namespace": "iris",
+      "english_keys": 73,
+      "bundled_candidate_keys": 67,
+      "bundled_candidate_values_reused": 56,
+      "new_or_corrected_values": 17,
+      "status": "complete"
+    },
+    {
+      "namespace": "extremesoundmuffler",
+      "english_keys": 77,
+      "bundled_candidate_keys": 0,
+      "bundled_candidate_values_reused": 0,
+      "new_or_corrected_values": 77,
+      "status": "complete"
+    },
+    {
+      "namespace": "fzzy_config",
+      "english_keys": 287,
+      "bundled_candidate_keys": 0,
+      "bundled_candidate_values_reused": 0,
+      "new_or_corrected_values": 287,
+      "status": "complete"
+    },
+    {
+      "namespace": "iris_search",
+      "english_keys": 5,
+      "bundled_candidate_keys": 0,
+      "bundled_candidate_values_reused": 0,
+      "new_or_corrected_values": 5,
+      "status": "complete"
+    }
+  ],
+  "english_keys": 4189,
+  "errors": [],
+  "status": "complete"
+}

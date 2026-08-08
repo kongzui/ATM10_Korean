@@ -1,0 +1,56 @@
+{
+  "family": "client_ui",
+  "language_keys": 4189,
+  "existing_korean_values_reused": 3138,
+  "new_or_corrected_translations": 1051,
+  "ftbquests_work": "no_related_references",
+  "kubejs_work": "no_related_references",
+  "output_files": [
+    "resourcepacks/ATM10_Korean/assets/extremesoundmuffler/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/fancymenu/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/fzzy_config/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/iris/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/iris_search/lang/ko_kr.json",
+    "resourcepacks/ATM10_Korean/assets/sodium-extra/lang/ko_kr.json"
+  ],
+  "surface_audit": "complete",
+  "family_validation": "complete",
+  "deployment": {
+    "status": "applied_and_verified",
+    "backup_manifest": "temp/backups/20260808_140627_216108/backup_manifest.json",
+    "expected_paths": [
+      "resourcepacks/ATM10_Korean/assets/extremesoundmuffler/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/fancymenu/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/fzzy_config/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/iris/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/iris_search/lang/ko_kr.json",
+      "resourcepacks/ATM10_Korean/assets/sodium-extra/lang/ko_kr.json"
+    ],
+    "targets": [
+      {
+        "target_type": "game_root",
+        "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
+        "changed_paths": [
+          "resourcepacks/ATM10_Korean/assets/extremesoundmuffler/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/fancymenu/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/fzzy_config/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/iris/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/iris_search/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/sodium-extra/lang/ko_kr.json"
+        ],
+        "unexpected_changes": [],
+        "hash_verified_paths": [
+          "resourcepacks/ATM10_Korean/assets/extremesoundmuffler/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/fancymenu/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/fzzy_config/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/iris/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/iris_search/lang/ko_kr.json",
+          "resourcepacks/ATM10_Korean/assets/sodium-extra/lang/ko_kr.json"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "errors": [],
+  "status": "complete"
+}

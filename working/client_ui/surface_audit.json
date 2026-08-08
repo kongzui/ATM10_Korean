@@ -1,0 +1,68 @@
+{
+  "family": "client_ui",
+  "jars": [
+    {
+      "namespace": "fancymenu",
+      "jar": "fancymenu_neoforge_3.9.1_MC_1.21.1.jar",
+      "data_json_files": 0,
+      "localized_visible_fields": [],
+      "direct_visible_fields": [],
+      "guide_candidates": [],
+      "invalid_json": []
+    },
+    {
+      "namespace": "sodium-extra",
+      "jar": "sodium-extra-neoforge-0.8.7+mc1.21.1.jar",
+      "data_json_files": 0,
+      "localized_visible_fields": [],
+      "direct_visible_fields": [],
+      "guide_candidates": [],
+      "invalid_json": []
+    },
+    {
+      "namespace": "iris",
+      "jar": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "data_json_files": 0,
+      "localized_visible_fields": [],
+      "direct_visible_fields": [],
+      "guide_candidates": [],
+      "invalid_json": []
+    },
+    {
+      "namespace": "extremesoundmuffler",
+      "jar": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
+      "data_json_files": 0,
+      "localized_visible_fields": [],
+      "direct_visible_fields": [],
+      "guide_candidates": [],
+      "invalid_json": []
+    },
+    {
+      "namespace": "fzzy_config",
+      "jar": "fzzy_config-0.7.6+1.21+neoforge.jar",
+      "data_json_files": 0,
+      "localized_visible_fields": [],
+      "direct_visible_fields": [],
+      "guide_candidates": [],
+      "invalid_json": []
+    },
+    {
+      "namespace": "iris_search",
+      "jar": "IrisSearch-1.2.2-neoforge.jar",
+      "data_json_files": 0,
+      "localized_visible_fields": [],
+      "direct_visible_fields": [],
+      "guide_candidates": [],
+      "invalid_json": []
+    }
+  ],
+  "references": {
+    "ftbquests": [],
+    "kubejs": [],
+    "read_errors": []
+  },
+  "ftbquests_display_work": "no_related_references",
+  "kubejs_display_work": "no_related_references",
+  "errors": [],
+  "status": "complete"
+}

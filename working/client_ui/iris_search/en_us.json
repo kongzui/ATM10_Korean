@@ -1,0 +1,7 @@
+{
+  "iris_search.button.search": "Search",
+  "iris_search.button.clear": "Clear",
+  "iris_search.tooltip.search": "Search Shader Settings (Ctrl + F)",
+  "iris_search.tooltip.clear": "Exit Shader Search (Esc)",
+  "iris_search.search.hint": "Search options..."
+}
