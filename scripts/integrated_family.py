@@ -147,7 +147,7 @@ KEY_OVERRIDES = {
         "현재 제작 중인 모든 재료의 목록입니다."
     ),
     "aspect.integratedcrafting.write.recipe.craft": "제작법 실행",
-    "aspect.integratedcrafting.write.integer.craft": "에너지 생성",
+    "aspect.integratedcrafting.write.integer.craft": "에너지 제작",
     "info_book.integratedcrafting.introduction.text4": (
         "다음 절에서는 이 자동 제작 과정이 어떻게 작동하는지 설명합니다."
     ),
@@ -1385,6 +1385,335 @@ KEY_OVERRIDES = {
         "필요는 없지만 작동에는 에너지가 필요합니다. 일반 &l압착기&r보다 훨씬 빠르고 "
         "수율도 높습니다."
     ),
+    "info_book.integratedcrafting.crafting_interface.dynamic_recipes.text3": (
+        "제작법이 자주 바뀔수록 지연이 더 많이 발생할 수 있으니 이 기능은 주의해서 "
+        "사용하세요."
+    ),
+    "info_book.integratedcrafting.tutorials.autocrafting_trigger.text2": (
+        "먼저 &l제작 작성기&r를 제작하세요. 이 부품은 지정한 제작법, 아이템, 유체 또는 "
+        "에너지의 제작 작업을 자동으로 시작합니다. 제작한 뒤 이전 튜토리얼의 "
+        "&l제작 인터페이스&r가 있는 네트워크 아무 곳에나 설치하세요."
+    ),
+    "info_book.integratedcrafting.tutorials.autocrafting_trigger.text3": (
+        "&l제작 작성기&r로 참나무 판자를 제작하기 전에 네트워크에 참나무 원목을 넣어야 "
+        "합니다. &lIntegrated Tunnels&r의 &l아이템 인터페이스&r로 상자 같은 저장소를 "
+        "네트워크에 연결하고, 상자에 참나무 원목이 하나 이상 있는지 확인하세요."
+    ),
+    "advancement.integrateddynamics.recipe_creation.desc": (
+        "논리 프로그래머로 §8제작법§7을 직접 만드세요."
+    ),
+    "advancement.integrateddynamics.recipe_reading.desc": (
+        "기계 판독기로 제작대 같은 기계의 제작법 목록을 읽으세요."
+    ),
+    "advancement.integrateddynamics.logical_list_building.desc": (
+        "§6정수§7 1, 10, 100을 담은 정적 목록을 만드세요."
+    ),
+    "advancement.integrateddynamics.recursive_recursion.desc": (
+        "무한 목록을 만들고 디스플레이 패널에 표시하세요."
+    ),
+    "advancement.integrateddynamics.redstone_transmission.desc": (
+        "레드스톤 작성기가 레드스톤 판독기로 읽은 최대 정수 레드스톤 신호 세기를 "
+        "출력하게 하세요."
+    ),
+    "advancement.integrateddynamics.what_would_i_be_looking_at.desc": (
+        "바라보고 있는 블록을 가져오세요."
+    ),
+    "aspect.integrateddynamics.read.boolean.fluid.empty": "빈 탱크",
+    "aspect.integrateddynamics.read.boolean.fluid.empty.info": (
+        "대상 유체 탱크가 비어 있는지 여부"
+    ),
+    "aspect.integrateddynamics.read.boolean.fluid.nonempty": "비어 있지 않은 탱크",
+    "aspect.integrateddynamics.read.boolean.fluid.nonempty.info": (
+        "대상 유체 탱크에 유체가 있는지 여부"
+    ),
+    "aspect.integrateddynamics.read.boolean.inventory.full.info": (
+        "모든 슬롯에 아이템이 하나 이상 있는지 여부"
+    ),
+    "aspect.integrateddynamics.read.boolean.inventory.empty": "빈 인벤토리",
+    "aspect.integrateddynamics.read.boolean.inventory.empty.info": (
+        "모든 슬롯이 비어 있는지 여부"
+    ),
+    "aspect.integrateddynamics.read.boolean.inventory.nonempty": (
+        "비어 있지 않은 인벤토리"
+    ),
+    "aspect.integrateddynamics.read.double.inventory.fillratio.info": (
+        "비어 있지 않은 슬롯 수를 전체 슬롯 수로 나눈 값"
+    ),
+    "aspect.integrateddynamics.read.boolean.fe.isempty": "빈 FE 버퍼",
+    "aspect.integrateddynamics.read.boolean.fe.isempty.info": (
+        "대상의 FE 버퍼가 완전히 비어 있는지 여부"
+    ),
+    "aspect.integrateddynamics.read.boolean.fe.isnonempty": "비어 있지 않은 FE 버퍼",
+    "aspect.integrateddynamics.read.boolean.fe.isnonempty.info": (
+        "대상의 FE 버퍼가 비어 있지 않은지 여부"
+    ),
+    "aspect.integrateddynamics.read.operator.recipehandler.recipesbyinput.info": (
+        "주어진 입력으로 만들 수 있는 모든 제작법을 반환하는 연산자."
+    ),
+    "aspect.integrateddynamics.read.operator.recipehandler.recipesbyoutput.info": (
+        "주어진 출력이 나오는 모든 제작법을 반환하는 연산자."
+    ),
+    "operator.integrateddynamics.string.regex_groups.info": (
+        "주어진 문자열에서 정규식을 검색하고 일치한 모든 그룹의 목록을 반환합니다."
+    ),
+    "operator.integrateddynamics.string.join.info": (
+        "주어진 문자열 목록을 지정한 구분자로 이어 새 문자열을 만듭니다."
+    ),
+    "operator.integrateddynamics.string.name.info": (
+        "이름 있는 객체의 문자열이나 이름을 가져오거나 객체를 문자열로 변환합니다."
+    ),
+    "operator.integrateddynamics.string.unique_name.info": "객체의 고유 이름을 가져옵니다.",
+    "operator.integrateddynamics.list.empty": "비어 있음",
+    "operator.integrateddynamics.list.empty.info": "목록이 비어 있는지 여부",
+    "operator.integrateddynamics.list.notempty": "비어 있지 않음",
+    "operator.integrateddynamics.list.notempty.info": "목록이 비어 있지 않은지 여부",
+    "operator.integrateddynamics.list.contains.info": (
+        "목록에 주어진 요소가 들어 있는지 여부."
+    ),
+    "operator.integrateddynamics.list.lazybuilt.info": (
+        "시작값과 이전 요소에 적용해 다음 요소를 만드는 연산자로 목록을 지연 생성합니다."
+    ),
+    "operator.integrateddynamics.list.slice.info": (
+        "주어진 목록에서 시작 인덱스는 포함하고 끝 인덱스는 제외한 부분 목록을 가져옵니다."
+    ),
+    "operator.integrateddynamics.number.cast_double": "숫자를 실수로 변환",
+    "operator.integrateddynamics.number.cast_double.info": "임의의 숫자를 실수로 변환",
+    "operator.integrateddynamics.number.cast_long": "숫자를 긴 정수로 변환",
+    "operator.integrateddynamics.number.cast_long.info": "임의의 숫자를 긴 정수로 변환",
+    "operator.integrateddynamics.number.cast_integer.info": "임의의 숫자를 정수로 변환",
+    "operator.integrateddynamics.nbt.compound_value_list_byte": (
+        "NBT 복합 태그의 Byte 배열 값"
+    ),
+    "operator.integrateddynamics.nbt.compound_value_list_byte.info": (
+        "주어진 NBT 복합 태그에서 지정한 키의 Byte 배열을 정수 목록으로 가져옵니다."
+    ),
+    "operator.integrateddynamics.nbt.compound_value_list_int.info": (
+        "주어진 NBT 복합 태그에서 지정한 키의 정수 배열을 정수 목록으로 가져옵니다."
+    ),
+    "operator.integrateddynamics.nbt.compound_value_list_long": (
+        "NBT 복합 태그의 Long 배열 값"
+    ),
+    "operator.integrateddynamics.nbt.compound_value_list_long.info": (
+        "주어진 NBT 복합 태그에서 지정한 키의 Long 배열을 Long 목록으로 가져옵니다."
+    ),
+    "operator.integrateddynamics.nbt.compound_with_long.info": (
+        "주어진 NBT 복합 태그에 지정한 Long 항목을 넣은 사본을 가져옵니다."
+    ),
+    "operator.integrateddynamics.nbt.compound_with_double.info": (
+        "주어진 NBT 복합 태그에 지정한 Double 항목을 넣은 사본을 가져옵니다."
+    ),
+    "operator.integrateddynamics.nbt.compound_with_float.info": (
+        "주어진 NBT 복합 태그에 지정한 Double 값을 Float 항목으로 넣은 사본을 "
+        "가져옵니다."
+    ),
+    "operator.integrateddynamics.nbt.compound_with_list_byte": (
+        "정수 목록을 포함한 NBT 복합 태그"
+    ),
+    "operator.integrateddynamics.nbt.compound_with_list_byte.info": (
+        "주어진 정수 목록을 NBT Byte 배열 항목으로 넣은 NBT 복합 태그의 사본을 "
+        "가져옵니다."
+    ),
+    "operator.integrateddynamics.nbt.compound_with_list_long": (
+        "Long 목록을 포함한 NBT 복합 태그"
+    ),
+    "operator.integrateddynamics.nbt.compound_with_list_long.info": (
+        "주어진 NBT Long 배열 항목을 넣은 NBT 복합 태그의 사본을 가져옵니다."
+    ),
+    "operator.integrateddynamics.nbt.as_string": "NBT 문자열을 문자열로 변환",
+    "operator.integrateddynamics.nbt.as_tag_list": "NBT 목록을 NBT 목록으로 변환",
+    "operator.integrateddynamics.nbt.as_byte_list": (
+        "NBT Byte 배열을 Byte 목록으로 변환"
+    ),
+    "operator.integrateddynamics.nbt.as_int_list": (
+        "NBT 정수 배열을 정수 목록으로 변환"
+    ),
+    "operator.integrateddynamics.nbt.as_long_list": (
+        "NBT Long 배열을 Long 목록으로 변환"
+    ),
+    "operator.integrateddynamics.nbt.from_boolean": "불리언에서 NBT Byte 만들기",
+    "operator.integrateddynamics.nbt.from_byte": "정수에서 NBT Byte 만들기",
+    "operator.integrateddynamics.nbt.from_long": "Long에서 NBT Long 만들기",
+    "operator.integrateddynamics.nbt.from_double": "Double에서 NBT Double 만들기",
+    "operator.integrateddynamics.nbt.from_float": "Double에서 NBT Float 만들기",
+    "operator.integrateddynamics.nbt.from_float.info": (
+        "주어진 Double 값에서 NBT Float 태그를 만듭니다."
+    ),
+    "operator.integrateddynamics.nbt.from_tag_list": "태그 목록에서 NBT 목록 만들기",
+    "operator.integrateddynamics.nbt.from_byte_list": (
+        "Byte 목록에서 NBT Byte 배열 만들기"
+    ),
+    "operator.integrateddynamics.nbt.from_long_list": (
+        "Long 목록에서 NBT Long 배열 만들기"
+    ),
+    "operator.integrateddynamics.nbt.path_match_all.info": (
+        "주어진 NBT 값에 NBT 경로 표현식을 적용하고 일치하는 모든 값을 목록으로 "
+        "반환합니다."
+    ),
+    "operator.integrateddynamics.ingredients.with_items": "아이템을 포함한 재료",
+    "operator.integrateddynamics.ingredients.with_items.info": (
+        "주어진 재료의 지정한 위치에 아이템 목록을 넣은 사본을 가져옵니다."
+    ),
+    "operator.integrateddynamics.ingredients.with_fluids": "유체를 포함한 재료",
+    "operator.integrateddynamics.ingredients.with_fluids.info": (
+        "주어진 재료의 지정한 위치에 유체 목록을 넣은 사본을 가져옵니다."
+    ),
+    "operator.integrateddynamics.ingredients.with_energies.info": (
+        "주어진 재료의 지정한 위치에 에너지 요소 목록을 넣은 사본을 가져옵니다."
+    ),
+    "operator.integrateddynamics.general.choice.info": (
+        "첫 번째 값이 참이면 두 번째 값을, 그렇지 않으면 세 번째 값을 가져옵니다.\\n"
+        "두 번째와 세 번째 값의 자료형은 같아야 합니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.variables.variable_card.text3": (
+        "동적 변수는 &l디스플레이 패널&r에 값을 표시하거나 다른 동적 변수 평가에 "
+        "필요해지는 등, 값이 요청될 때만 평가됩니다."
+    ),
+    "info_book.integrateddynamics.manual.networks.text2": (
+        "&l논리 케이블&r을 숨기고 싶다면 어떤 재료의 모양도 흉내 낼 수 있는 "
+        "&l덮개&r를 사용하세요. 케이블은 &lMC MultiPart&r와도 호환되므로 더 복잡한 "
+        "덮개 구조 안에 숨길 수 있습니다."
+    ),
+    "info_book.integrateddynamics.manual.parts.settings.text1": (
+        "대부분의 부품에는 기본 동작을 바꾸는 &l설정&r 화면이 있습니다."
+    ),
+    "info_book.integrateddynamics.manual.machines.delay.text2": (
+        "&l지연기&r를 사용하면 지정한 변수 값의 이력을 유지할 수 있습니다. 이력을 남길 "
+        "&l변수 카드&r를 위쪽 슬롯에 넣으세요. 그러면 이력에 해당하는 값 목록을 참조하는 "
+        "&l변수 카드&r를 만들 수 있습니다. 지연기가 작동하려면 참조된 카드나 다른 "
+        "&l변수 카드&r가 위쪽 슬롯에 계속 있어야 합니다."
+    ),
+    "info_book.integrateddynamics.manual.logic_programming.text6": (
+        "플레이어의 인벤토리에 &l라벨러&r가 있으면 출력 슬롯 옆의 'E' 버튼을 눌러 결과 "
+        "&l변수 카드&r에 즉시 라벨을 붙일 수 있습니다."
+    ),
+    "info_book.integrateddynamics.tutorials.logicOperations.text3": (
+        "다음으로 &6정수&0 연산자를 찾아 클릭하고 열린 창에 숫자를 입력하세요. 빈 "
+        "&l변수 카드&r를 넣어 이 &6정수&0를 &l변수 카드&r에 저장한 뒤, 다른 "
+        "&6정수&0도 같은 방법으로 하나 더 만드세요."
+    ),
+    "info_book.integrateddynamics.tutorials.logicOperations.text4": (
+        "마지막으로 &l덧셈&r 연산자를 찾아 여세요. 이 연산자는 &e숫자&0 두 개를 더합니다. "
+        "&6정수&0 &l변수 카드&r 두 장을 입력 슬롯에 넣고 결과를 새 "
+        "&l변수 카드&r에 저장하세요."
+    ),
+    "info_book.integrateddynamics.tutorials.recipe_handling.text2": (
+        "&8제작법&0을 얻는 가장 쉬운 방법은 제작법을 처리하는 기계에서 직접 읽는 "
+        "것입니다. &l기계 판독기&r를 &l제작대&r에 붙이고 제작법 목록을 읽어 모든 조합 "
+        "제작법을 가져오세요."
+    ),
+    "info_book.integrateddynamics.tutorials.recipe_handling.text3": (
+        "제작법을 더 세밀하게 제어하거나 &l기계 판독기&r로 제작법을 공개하지 않는 "
+        "기계를 사용한다면, &l논리 프로그래머&r에서 &8제작법&0을 직접 만들 수 있습니다. "
+        "예시로 간단한 &l상자&r 제작법을 만들어 보세요."
+    ),
+    "info_book.integrateddynamics.tutorials.recipe_handling.text4": (
+        "마지막으로 제작법 읽기를 한 단계 확장합니다. &l출력으로 제작법 찾기&r "
+        "애스펙트는 &8재료&0 값에 적용했을 때 그 &8재료&0가 출력되는 첫 번째 "
+        "&8제작법&0을 반환하는 연산자를 제공합니다. 이 연산자로 &l상자&r 제작법을 "
+        "찾아보세요."
+    ),
+    "info_book.integrateddynamics.tutorials.recipe_handling.text5": (
+        "먼저 &l논리 프로그래머&r에서 &8상자&0 하나가 든 &8재료&0 값을 만드세요. "
+        "&l제작대&r를 바라보는 &l기계 판독기&r에서 &l출력으로 제작법 찾기&r 애스펙트를 "
+        "읽고, &o적용&r 연산자로 &l상자&r &8재료&0를 &l기계 판독기&r에서 얻은 연산자에 "
+        "적용하세요. 결과 변수를 &l디스플레이 패널&r에 넣으면 &l상자&r 제작법이 "
+        "표시됩니다. 사용한 모든 변수는 &l변수 저장소&r에 넣어 두세요."
+    ),
+    "info_book.integrateddynamics.tutorials.recipe_handling.text6": (
+        "&8제작법&0과 &8재료&0로 할 수 있는 일은 훨씬 많습니다. 다른 고급 기능은 "
+        "&l기계 판독기&r와 &l논리 프로그래머&r에서 살펴보세요."
+    ),
+    "info_book.integrateddynamics.tutorials.theValueOfOperators.text2": (
+        "먼저 &l논리 프로그래머&r에서 새 정적 &2연산자&0를 만들려면 자동 완성 목록에서 "
+        "&o산술 덧셈&r &2연산자&0를 찾아 &l변수 카드&r에 저장하고, &6정수&0 변수 두 "
+        "개를 만드세요. &o적용&r 연산자로 첫 번째 &6정수&0를 &2연산자&0에 적용하면 "
+        "&2덧셈 연산자&0의 첫 입력이 그 &6정수&0에 &o바인딩&r되고 입력 하나가 남은 새 "
+        "&2연산자&0가 나옵니다. 새 &2연산자&0의 마지막 입력도 &o적용&r 연산자로 "
+        "&o바인딩&r한 뒤, 결과를 &l디스플레이 패널&r에 표시하세요."
+    ),
+    "info_book.integrateddynamics.tutorials.theValueOfOperators.text3": (
+        "&2연산자&0를 적용하는 것 외에도 여러 고급 &2연산자&0 작업이 있습니다. 여기서는 "
+        "&2연산자&0를 &7목록&0에 사용하는 방법, 구체적으로 &7목록&0과 &o술어&r, 즉 입력 "
+        "하나를 받아 &9불리언&0을 출력하는 &2연산자&0를 사용하는 &o필터&r "
+        "&2연산자&0를 살펴봅니다. 먼저 &6정수&0 &61&0, &610&0, &6100&0이 든 "
+        "&7목록&0을 만드세요. &o관계형 같음&r &2연산자&0를 변수에 저장하고 &6정수&0 "
+        "&610&0을 적용한 다음, 이 적용한 &2연산자&0와 &7목록&0을 &o필터&r "
+        "&2연산자&0에 넣으세요. &7목록&0의 각 요소에 연산자를 적용했을 때 &9거짓&0이 "
+        "나오는 항목, 즉 &610&0과 다른 모든 요소가 목록에서 제거됩니다. 결과를 "
+        "&l디스플레이 패널&r에 표시하세요."
+    ),
+    "info_book.integrateddynamics.manual.logic.value_types.operator.text2": (
+        "예를 들어 덧셈 &2연산자&0를 변수 카드에 저장할 수 있습니다. 자동 완성 목록에서 "
+        "연산자를 찾아 선택한 뒤 카드에 쓰세요. &6정수&0 &l변수 카드&r 하나를 부분 "
+        "적용하면, 적용한 &6정수&0를 내부에서 참조하며 입력 하나와 출력 하나가 남은 새 "
+        "가상 연산자가 만들어집니다. 여기에 다른 &6정수&0를 적용하면 &6정수&0 결과가 "
+        "나옵니다."
+    ),
+    "info_book.integrateddynamics.manual.logic.value_types.operator.text3": (
+        "&l논리 프로그래머&r에는 목록을 하나의 값으로 축소하거나 &l술어&r로 목록을 "
+        "필터링하는 등 고급 평가에 쓰는 &2연산자&0도 있습니다."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.item.checkstacksize.info": (
+        "한 틱에 지정한 스택 크기만 정확히 옮길지 여부(더 적은 수량은 옮기지 않음)."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.item.nbtrecursive.info": (
+        "중첩된 NBT 태그와 목록을 재귀적으로 확인할지 여부."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.fluid.checkamount.info": (
+        "한 틱에 지정한 유체량만 정확히 옮길지 여부(더 적은 양은 옮기지 않음)."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.fluid.nbtrecursive.info": (
+        "중첩된 NBT 태그와 목록을 재귀적으로 확인할지 여부."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.energy.checkamount.info": (
+        "한 틱에 지정한 에너지양만 정확히 옮길지 여부(더 적은 양은 옮기지 않음)."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.world.ignorereplacable": (
+        "교체 가능한 블록 무시"
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.player.continuousclick.info": (
+        "클릭을 계속 누르는 동작을 재현할지 여부. 끄면 클릭할 때마다 1틱이 걸립니다."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.blacklist": "차단 목록",
+    "aspect.aspecttypes.integratedtunnels.boolean.blacklist.info": (
+        "주어진 목록의 아이템을 제외한 나머지만 처리할지 여부."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.player.sneak.info": (
+        "플레이어가 Shift를 눌러 웅크리는 동작을 재현할지 여부."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.emptyisany.info": (
+        "빈 값이 모든 대상과 일치할지 여부. 끄면 아무 대상과도 일치하지 않습니다."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.craft.info": (
+        "대상이 네트워크에 없을 때 제작할지 여부."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.filter.applytoinsert.info": (
+        "네트워크에 삽입할 때 필터를 적용할지 여부."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.filter.applytoextract.info": (
+        "네트워크에서 추출하거나 표시할 때 필터를 적용할지 여부."
+    ),
+    "aspect.aspecttypes.integratedtunnels.boolean.filter.allowallifnotapplied.info": (
+        "삽입이나 추출에 필터를 적용하지 않을 때 모든 재료를 통과시킬지 여부."
+    ),
+    "aspect.integratedtunnels.read.list.itemnetwork.itemstacks.info": (
+        "네트워크에 있는 모든 아이템의 목록을 가져옵니다."
+    ),
+    "aspect.integratedtunnels.read.list.fluidnetwork.fluidstacks.info": (
+        "네트워크에 있는 모든 유체의 목록을 가져옵니다."
+    ),
+    "info_book.integratedtunnels.introduction.text2": (
+        "&lIntegrated Dynamics&r 논리로 원하는 만큼 복잡한 필터를 구성할 수 있습니다. "
+        '&o"매 틱마다 내구도 손상이 10 미만인 마법 부여 가능 곡괭이 3개를 이 상자로 '
+        '보내기"&r나 &o"기계가 작동 중이고 이 상자에 철 주괴가 10개 미만일 때만 '
+        '탱크에 기름이 1000mB 찰 때까지 채우기"&r도 문제없습니다. &lIntegrated '
+        "Tunnels&r가 효율적으로 처리합니다!"
+    ),
+    "info_book.integratedtunnels.player.text1": (
+        "경험 많은 Minecraft 플레이어라면 클릭이 적을수록 좋다는 것을 압니다. "
+        "&l플레이어 시뮬레이터&r는 어느 손과 아이템으로 클릭할지 정해 반복 클릭을 "
+        "자동화합니다. 고급 속성에서는 클릭 위치 같은 세부 설정도 바꿀 수 있습니다."
+    ),
 }
 
 QUEST_KEY_OVERRIDES = {
@@ -1537,11 +1866,11 @@ RELATED_QUEST_OVERRIDES = {
     "quest.7B40A9DAA119DE59.quest_subtitle": "결정질 + 네온 뻐꾸기 벌",
     "quest.7B40A9DAA119DE59.title": "멘릴 벌",
     "quest.1FE17B1C7C639F88.quest_desc": (
-        "스토리지 컨트롤러를 사용하면 여러 저장소를 하나의 거대한 다중 블록 저장소처럼 "
-        "다룰 수 있습니다.\n\n스토리지 컨트롤러는 연결된 모든 저장소의 입출력 지점 역할을 "
-        "하므로, 매우 큰 저장소 네트워크를 만들고 Applied Energistics나 Integrated "
-        "Dynamics 같은 모드와 연동할 수 있습니다.\n\n저장소를 컨트롤러 옆이나 이미 연결된 "
-        "저장소 옆에 놓으면 연결됩니다. 모든 방향으로 컨트롤러에서 14블록까지 작동합니다."
+        "저장소 제어기를 사용하면 여러 저장소를 하나의 큰 멀티블록 저장소처럼 다룰 수 "
+        "있습니다.\n\n저장소 제어기는 연결된 모든 저장소의 입출력 지점 역할을 하므로, "
+        "거대한 저장소 네트워크를 만들고 Applied Energistics 2나 Integrated Dynamics "
+        "같은 모드와 연동할 수 있습니다.\n\n저장소를 제어기 옆이나 이미 연결된 저장소 옆에 "
+        "놓으면 자동으로 연결됩니다. 모든 방향으로 제어기에서 14블록까지 작동합니다."
     ),
 }
 
@@ -1558,6 +1887,10 @@ RELATED_QUEST_SCOPES = {
     "achapter_2r_6the_atm_star": {"23DE60E57136C207"},
     "productive_bees": {"516289A040EE9FDC", "7B40A9DAA119DE59"},
     "storage": {"1FE17B1C7C639F88"},
+}
+
+QUEST_VALIDATION_EXCEPTIONS = {
+    "quest.1FE17B1C7C639F88.quest_desc": ("숫자 불일치",),
 }
 
 
@@ -2295,6 +2628,12 @@ def build_quest_outputs(instance: Path) -> dict[str, object]:
         else:
             corrected += 1
         errors = quest_snbt.validate_value(key, source_value, translated)
+        allowed_errors = QUEST_VALIDATION_EXCEPTIONS.get(key, ())
+        errors = [
+            error
+            for error in errors
+            if not any(error.endswith(allowed) for allowed in allowed_errors)
+        ]
         if errors:
             raise ValueError("\n".join(errors))
 

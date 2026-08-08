@@ -4,13 +4,13 @@
     "language_values": 2948,
     "quest_display_values": 74,
     "visible_values": 3022,
-    "existing_korean_reused": 2645,
-    "existing_korean_corrected": 377,
+    "existing_korean_reused": 2913,
+    "existing_korean_corrected": 109,
     "newly_translated": 0,
-    "language_existing_korean_reused": 2577,
-    "language_existing_korean_corrected": 371,
-    "quest_existing_korean_reused": 68,
-    "quest_existing_korean_corrected": 6,
+    "language_existing_korean_reused": 2839,
+    "language_existing_korean_corrected": 109,
+    "quest_existing_korean_reused": 74,
+    "quest_existing_korean_corrected": 0,
     "remaining": 0
   },
   "sections": {
@@ -388,7 +388,7 @@
       "status": "applied_and_verified",
       "targets": 1,
       "expected_files_per_target": 8,
-      "changed_files": 7,
+      "changed_files": 0,
       "hash_matches": 8
     }
   },

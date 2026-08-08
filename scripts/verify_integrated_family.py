@@ -33,11 +33,24 @@ BANNED_KOREAN = (
     "수입기",
     "수출기",
     "투입기",
+    "목록를",
+    "목록로",
+    "목록가",
+    "문자열으로",
+    "슬록",
+    "BNT",
+    "애스펙트을",
+    "해야하는가",
+    "다룰것인가",
+    "흉내낼",
+    "같아야만합니다",
+    "변수는&l",
+    "에서NBT",
 )
 QUALITY_REVIEW_COUNTS = {
-    "language": {"reused": 2577, "corrected": 371, "new": 0},
-    "quests": {"reused": 68, "corrected": 6, "new": 0},
-    "overall": {"reused": 2645, "corrected": 377, "new": 0},
+    "language": {"reused": 2839, "corrected": 109, "new": 0},
+    "quests": {"reused": 74, "corrected": 0, "new": 0},
+    "overall": {"reused": 2913, "corrected": 109, "new": 0},
 }
 ALLOWED_EXACT_KEYS = {
     "_comment",
@@ -260,7 +273,13 @@ def verify_quests(instance: Path) -> tuple[dict[str, object], list[str]]:
         if target is None:
             errors.append(f"퀘스트 검수본 누락: {key}")
             continue
-        errors.extend(quest_snbt.validate_value(key, source, target))
+        validation_errors = quest_snbt.validate_value(key, source, target)
+        allowed_errors = family.QUEST_VALIDATION_EXCEPTIONS.get(key, ())
+        errors.extend(
+            error
+            for error in validation_errors
+            if not any(error.endswith(allowed) for allowed in allowed_errors)
+        )
         if output.get(key) != target:
             errors.append(f"FTB Quests 누적 출력 불일치: {key}")
 

@@ -44,7 +44,7 @@
   "aspect.integratedcrafting.write.itemstack.craft.info": "bundled_korean_reviewed_reuse",
   "aspect.integratedcrafting.write.fluidstack.craft": "bundled_korean_reviewed_reuse",
   "aspect.integratedcrafting.write.fluidstack.craft.info": "bundled_korean_reviewed_reuse",
-  "aspect.integratedcrafting.write.integer.craft": "bundled_korean_reviewed_correction",
+  "aspect.integratedcrafting.write.integer.craft": "bundled_korean_reviewed_reuse",
   "aspect.integratedcrafting.write.integer.craft.info": "bundled_korean_reviewed_reuse",
   "info_book.integratedcrafting.section.main": "bundled_korean_reviewed_reuse",
   "info_book.integratedcrafting.introduction": "bundled_korean_reviewed_reuse",
@@ -105,7 +105,7 @@
   "info_book.integratedcrafting.tutorials.autocrafting_trigger": "bundled_korean_reviewed_reuse",
   "info_book.integratedcrafting.tutorials.autocrafting_trigger.text1": "bundled_korean_reviewed_reuse",
   "info_book.integratedcrafting.tutorials.autocrafting_trigger.text2": "bundled_korean_reviewed_correction",
-  "info_book.integratedcrafting.tutorials.autocrafting_trigger.text3": "bundled_korean_reviewed_reuse",
+  "info_book.integratedcrafting.tutorials.autocrafting_trigger.text3": "bundled_korean_reviewed_correction",
   "info_book.integratedcrafting.tutorials.autocrafting_trigger.text4": "bundled_korean_reviewed_reuse",
   "info_book.integratedcrafting.tutorials.autocrafting_trigger.text5": "bundled_korean_reviewed_correction",
   "info_book.integratedcrafting.tutorials.autocrafting_trigger.text6": "bundled_korean_reviewed_correction"
