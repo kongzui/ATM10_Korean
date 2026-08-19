@@ -1,28 +1,34 @@
 {
   "group": "Jade",
   "status": "complete",
+  "audit": "별도 신규 전수 재검수",
   "installed_sources": [
     {
       "jar": "Jade-1.21.1-NeoForge-15.10.5.jar",
+      "sha256": "067bb4b007e1d6f6b79f0afe99c91252aa825472b99a76d33a60d24442f9e92d",
       "namespace": "jade",
       "keys": 410,
-      "source_korean_keys": 310
+      "source_korean_keys": 310,
+      "source_korean_keys_matching_current_english": 308
     }
   ],
   "counts": {
-    "existing_korean_reused": 313,
-    "existing_korean_corrected": 97,
+    "existing_project_korean_reviewed": 410,
+    "existing_korean_retained": 379,
+    "existing_korean_corrected": 31,
     "newly_translated": 0,
+    "remaining": 0,
     "output_keys": 410
   },
   "related_scope": {
-    "owned_text": "Jade·Minecraft 플러그인 UI, 설정, 상태 표시와 접근성 문구 410키 전체 검수",
-    "other_mod_plugins": "다른 모드가 소유한 Jade 플러그인 키는 해당 모드 범위로 유지",
-    "ftb_quests": "현재 config/ftbquests 전체에서 Jade 직접 참조 없음",
-    "kubejs": "Modern Industrialization 영어 언어 파일의 Jade 플러그인 2키는 미작업 모드 소유라 수정하지 않았고, MineColonies의 jade 광물 태그 1개는 비표시 데이터임",
-    "advancements": "Jade JAR에 발전 과제 JSON이 없고 KubeJS data에서도 Jade 직접 참조 없음",
+    "owned_text": "Jade·Minecraft 플러그인 UI, 설정, 상태 표시와 접근성 문구 410키 전체 재검수",
+    "other_mod_plugins": "51개 언어 파일의 다른 모드 소유 Jade 연동 199키를 추적했으며 각 소유 모드 차례에 전수 재검수",
+    "other_mod_owned_missing_keys_deferred": 9,
+    "ftb_quests": "현재 영어 FTB Quests 전체에서 Jade·WAILA·HWYLA 직접 참조 0키",
+    "kubejs": "Modern Industrialization 소유 Jade 플러그인 2키를 대조해 기존 번역을 유지했고 MineColonies jade 광물 태그 1개는 비표시 데이터로 확인",
+    "advancements": "Jade JAR과 KubeJS data에 Jade 소유 발전 과제 없음",
     "guide_ui": "Jade JAR에 사용자 표시 가이드 자산 없음",
-    "fallback": "현재 영어 410키를 모두 명시적으로 제공하며 JAR 기본 한국어에 없던 100키도 출력에서 보완함"
+    "fallback": "현재 영어 410키를 모두 명시적으로 제공하며 JAR 기본 한국어에 없던 102키도 출력에 포함"
   },
   "validation": {
     "json": "passed",
@@ -30,6 +36,8 @@
     "placeholders": "passed",
     "format_codes": "passed",
     "line_breaks": "passed",
+    "cross_mod_ownership": "passed",
+    "translation_induced_name_collisions": 0,
     "utf8_bom": false
   },
   "deployment": {
@@ -40,10 +48,11 @@
     "selected_paths": 1,
     "changed_paths": 1,
     "unexpected_changes": [],
-    "backup_manifest": "temp/backups/20260801_150505_045595/backup_manifest.json"
+    "backup_manifest": "temp/backups/20260820_051130_033873/backup_manifest.json"
   },
   "notes": [
-    "검색용 extra_msg의 영문 토큰과 Jade·Create·Crafting++ 같은 고유명사는 번역하지 않음",
-    "제외 목록과 미작업 모드가 소유한 Jade 연동 문구는 재검수하지 않음"
+    "Entity는 Minecraft 1.21.1 공식 한국어에 맞춰 개체로, Block Entity는 블록 엔티티로 구분",
+    "레드스톤 Power는 전력이 아니라 신호 세기로 교정",
+    "검색용 extra_msg의 영문 토큰과 Jade·Create·Crafting++ 같은 고유명사는 유지"
   ]
 }

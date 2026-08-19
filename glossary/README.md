@@ -98,6 +98,9 @@
 | Ingredient | 재료 | JEI UI 용어 | JEI 및 제작법 조회 연동 | 확정 | 아이템뿐 아니라 유체 등도 포함하므로 문맥 없이 `아이템`으로 좁히지 않음 |
 | Uses | 사용법 | JEI UI 용어 | JEI 및 제작법 조회 연동 | 확정 | 재료가 쓰이는 제작법을 찾는 조회 동작 |
 | Bookmark | 북마크 | JEI UI 용어 | JEI 및 제작법 조회 연동 | 확정 | 아이템·재료·제작법 북마크에 같은 용어 사용 |
+| Entity | 개체 | Minecraft 공식 일반 용어 | 전체 프로젝트 | 확정 | 일반 개체는 `엔티티`로 섞지 않으며, 고유 아이템명이나 코드 식별자는 예외 |
+| Block Entity | 블록 엔티티 | 기술 용어 | 전체 프로젝트 | 확정 | 일반 `Entity`의 `개체`와 구분되는 Minecraft의 저장 데이터 보유 블록 용어 |
+| Owner | 소유자 | 공통 UI 용어 | 전체 프로젝트 | 확정 | 설정·정보 오버레이에서 `주인`과 섞지 않음 |
 | MEGA Pattern Provider | MEGA 패턴 공급기 | 장치명 | MEGA Cells 및 Expanded AE 연동 목록 | 확정 | `ME MEGA 패턴 공급기`처럼 `ME`를 중복하지 않음 |
 | Greater Acceleration Card | 상급 가속 카드 | 업그레이드 카드명 | Expanded AE | 확정 | AE2의 `가속 카드`보다 높은 등급을 구분 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |

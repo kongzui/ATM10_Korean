@@ -63,6 +63,54 @@ JEI_KUBEJS_KOREAN = (
     'event.checkModVersion("jei", "19.22.0.316", '
     '"이 버전은 도구 내구도 문제를 일으킵니다")'
 )
+JADE_RECHECK_VALUES = {
+    "tooltip.jade.mode_comparator": "비교",
+    "tooltip.jade.power": "신호 세기: %d",
+    "jade.input_signal": "입력 신호: %d",
+    "gui.jade.by": "Snownee가 %s을 담아 만들었습니다",
+    "config.jade.display_entities": "개체 표시",
+    "config.jade.display_entities_extra_msg": "entity,엔티티,개체",
+    "config.jade.plugin_minecraft.entity": "Minecraft - 개체",
+    "config.jade.plugin_minecraft.entity_health": "개체 체력",
+    "config.jade.plugin_minecraft.entity_armor": "개체 방어력",
+    "config.jade.plugin_minecraft.potion_effects": "개체 상태 효과",
+    "config.jade.plugin_minecraft.container_entity": "보관함 개체",
+    "jade.instrument.hat": "클릭과 스틱",
+    "config.jade.plugin_minecraft.next_entity_drop": "개체의 다음 드롭 시간",
+    "config.jade.plugin_minecraft.next_entity_drop_desc": (
+        "달걀이나 아르마딜로 인갑처럼 개체가 다음 아이템을 떨어뜨릴 때까지 "
+        "남은 시간을 표시합니다."
+    ),
+    "jade.harvest_tool.unbreakable": "부서지지 않음",
+    "jade.locked": "보관함이 잠겨 있습니다",
+    "config.jade.plugin_minecraft.animal_owner": "동물 소유자",
+    "jade.owner": "소유자: %s",
+    "jade.seconds": "{0}초",
+    "jade.minutes": "{0}분",
+    "jade.minutes_seconds": "{0}분 {1}초",
+    "config.jade.plugin_jade_access.entity": "개체 세부 정보",
+    "jade.access.entity.white": "하얀색 %s",
+    "jade.access.entity.light_gray": "회백색 %s",
+    "jade.access.entity.lime": "연두색 %s",
+    "jade.access.entity.light_blue": "하늘색 %s",
+    "jade.access.entity.purple": "보라색 %s",
+    "jade.access.entity.magenta": "자홍색 %s",
+    "config.jade.plugin_jade_access.entity_variant": "개체 변형",
+    "config.jade.plugin_jade_access.held_item": "개체가 들고 있는 아이템",
+    "jade.ignore_list.comment": (
+        'Jade가 무시할 대상 목록입니다. "values" 목록에 레지스트리 ID를 '
+        "추가할 수 있습니다."
+    ),
+}
+JADE_KUBEJS_LANGUAGE = {
+    "config.jade.plugin_modern_industrialization.overclock": "Machine Overclock",
+    "config.jade.plugin_modern_industrialization.pipe": "Pipe Information",
+}
+JADE_KUBEJS_KOREAN = {
+    "config.jade.plugin_modern_industrialization.overclock": "기계 오버클럭",
+    "config.jade.plugin_modern_industrialization.pipe": "파이프 정보",
+}
+JADE_LANGUAGE_PREFIXES = ("config.jade.", "jade.", "waila.", "gui.waila.")
 
 
 def protected(value: object, pattern: re.Pattern[str]) -> list[str]:
@@ -337,6 +385,168 @@ def verify_jei_related(instance: Path) -> dict[str, object]:
     }
 
 
+def verify_jade_related(instance: Path) -> dict[str, object]:
+    """Jade 본체 밖의 실제 표시 경로와 연동 키 소유 범위를 검증한다."""
+    errors = []
+    output_path = OUTPUT_ROOT / "jade/lang/ko_kr.json"
+    korean = json.loads(output_path.read_text(encoding="utf-8"))
+    mismatches = sorted(
+        key
+        for key, expected in JADE_RECHECK_VALUES.items()
+        if korean.get(key) != expected
+    )
+    if mismatches:
+        errors.append(f"Jade 확정 교정값 불일치: {mismatches}")
+
+    source_lang = instance / "config/ftbquests/quests/lang/en_us.snbt"
+    quests = parse_language_snbt(source_lang)
+    quest_refs = sorted(
+        key
+        for key, value in quests.items()
+        if re.search(r"(?i)\b(?:jade|waila|hwyla)\b", flatten(value))
+    )
+    if quest_refs:
+        errors.append(f"예상하지 않은 Jade 관련 FTB Quests 키: {quest_refs}")
+
+    kubejs_language: dict[str, str] = {}
+    for path in sorted((instance / "kubejs").rglob("en_us.json")):
+        values = json.loads(path.read_text(encoding="utf-8-sig"))
+        for key, value in values.items():
+            if key.startswith(JADE_LANGUAGE_PREFIXES):
+                kubejs_language[key] = value
+    if kubejs_language != JADE_KUBEJS_LANGUAGE:
+        errors.append(f"KubeJS Jade 언어 키 범위 불일치: {kubejs_language}")
+
+    mi_output = json.loads(
+        (OUTPUT_ROOT / "modern_industrialization/lang/ko_kr.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    mi_working = json.loads(
+        (
+            PROJECT_ROOT
+            / "working/modern_industrialization/modern_industrialization/ko_kr.json"
+        ).read_text(encoding="utf-8")
+    )
+    for key, expected in JADE_KUBEJS_KOREAN.items():
+        if mi_output.get(key) != expected or mi_working.get(key) != expected:
+            errors.append(f"KubeJS Jade 연동 번역 불일치: {key}")
+
+    kubejs_script_refs = []
+    for path in sorted((instance / "kubejs").rglob("*.js")):
+        for number, line in enumerate(
+            path.read_text(encoding="utf-8-sig").splitlines(), start=1
+        ):
+            if re.search(r"(?i)\b(?:jade|waila|hwyla)\b", line):
+                kubejs_script_refs.append(
+                    f"{path.relative_to(instance).as_posix()}:{number}"
+                )
+    expected_script_ref = ["kubejs/server_scripts/mods/Minecolonies/tags.js:228"]
+    if kubejs_script_refs != expected_script_ref:
+        errors.append(f"KubeJS Jade 스크립트 참조 불일치: {kubejs_script_refs}")
+
+    related_language_files = 0
+    related_owned_keys = 0
+    missing_owned_keys = []
+    mods_root = instance / "mods"
+    jade_target = next(target for target in TARGETS if target.group == "jade")
+    jade_jar = find_jar(instance, jade_target)
+    for jar_path in sorted(mods_root.glob("*.jar")):
+        if jar_path == jade_jar:
+            continue
+        with ZipFile(jar_path) as archive:
+            for name in archive.namelist():
+                if not re.fullmatch(r"assets/[^/]+/lang/en_us\.json", name):
+                    continue
+                values = load_json(archive, name)
+                keys = sorted(
+                    key for key in values if key.startswith(JADE_LANGUAGE_PREFIXES)
+                )
+                if not keys:
+                    continue
+                related_language_files += 1
+                related_owned_keys += len(keys)
+                namespace = name.split("/")[1]
+                related_output = OUTPUT_ROOT / namespace / "lang/ko_kr.json"
+                translated = (
+                    json.loads(related_output.read_text(encoding="utf-8"))
+                    if related_output.is_file()
+                    else {}
+                )
+                missing_owned_keys.extend(
+                    f"{namespace}:{key}" for key in keys if key not in translated
+                )
+    if (related_language_files, related_owned_keys) != (51, 199):
+        errors.append(
+            "다른 모드 소유 Jade 연동 범위 불일치: "
+            f"파일={related_language_files}, 키={related_owned_keys}"
+        )
+
+    with ZipFile(jade_jar) as archive:
+        names = archive.namelist()
+        english = load_json(archive, "assets/jade/lang/en_us.json")
+    collisions: dict[str, set[str]] = {}
+    for key, value in korean.items():
+        collisions.setdefault(str(value), set()).add(str(english[key]))
+    collisions = {
+        value: source_values
+        for value, source_values in collisions.items()
+        if len(source_values) > 1
+    }
+    expected_collisions = {"위": {"Top", "Up"}}
+    if collisions != expected_collisions:
+        errors.append(f"Jade 번역 유발 이름 충돌 불일치: {collisions}")
+
+    class_files = sum(name.endswith(".class") for name in names)
+    json_files = sum(name.endswith(".json") for name in names)
+    advancement_files = sum(
+        name.endswith(".json") and "/advancement" in name.lower() for name in names
+    )
+    recipe_files = sum(
+        name.endswith(".json") and "/recipe" in name.lower() for name in names
+    )
+    guide_files = sum(
+        any(
+            marker in name.lower() for marker in ("patchouli", "guideme", "modonomicon")
+        )
+        for name in names
+    )
+    screen_json_files = sum(
+        name.endswith(".json") and "screen" in name.lower() for name in names
+    )
+    if (class_files, json_files, advancement_files, recipe_files, guide_files) != (
+        301,
+        18,
+        0,
+        0,
+        0,
+    ):
+        errors.append("Jade JAR 표시 경로 인벤토리가 달라졌습니다")
+    if screen_json_files:
+        errors.append(f"Jade 화면 JSON을 추가 검수해야 합니다: {screen_json_files}")
+    if errors:
+        raise RuntimeError("Jade 연관 경로 검증 실패:\n" + "\n".join(errors))
+    return {
+        "group": "jade",
+        "namespace": "jade_related_paths",
+        "source_jar_sha256": hashlib.sha256(jade_jar.read_bytes()).hexdigest(),
+        "class_files_reviewed": class_files,
+        "ftbquests_keys_reviewed": len(quest_refs),
+        "kubejs_language_values_reviewed": len(kubejs_language),
+        "kubejs_script_references_reviewed": len(kubejs_script_refs),
+        "other_mod_language_files_traced": related_language_files,
+        "other_mod_owned_keys_traced": related_owned_keys,
+        "other_mod_owned_missing_keys_deferred": len(missing_owned_keys),
+        "translation_induced_name_collisions": 0,
+        "direction_label_collisions_retained": len(collisions),
+        "advancement_files": advancement_files,
+        "recipe_files": recipe_files,
+        "guide_files": guide_files,
+        "screen_json_files": screen_json_files,
+        "validation": "passed",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("group", choices=GROUPS + ("all",))
@@ -361,6 +571,8 @@ def main() -> int:
         rows.append(verify_pack_target(instance, target, args.copy_output))
     if args.group in {"jei", "all"}:
         rows.append(verify_jei_related(instance))
+    if args.group in {"jade", "all"}:
+        rows.append(verify_jade_related(instance))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 

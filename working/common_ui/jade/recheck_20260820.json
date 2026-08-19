@@ -1,0 +1,116 @@
+{
+  "status": "full_recheck_completed_and_deployed",
+  "scope": "Jade 전체 번역의 별도 신규 전수 재검수",
+  "source_jar": {
+    "name": "Jade-1.21.1-NeoForge-15.10.5.jar",
+    "sha256": "067bb4b007e1d6f6b79f0afe99c91252aa825472b99a76d33a60d24442f9e92d",
+    "bytes": 725742,
+    "archive_entries": 370,
+    "class_files": 301,
+    "json_files": 18
+  },
+  "official_minecraft_korean": {
+    "version": "1.21.1",
+    "asset_index": "17",
+    "asset_sha1": "0043b84e0a950f6cb089d7ba0bc0e30ed41dfafb",
+    "terms_checked": [
+      "Entity",
+      "Unbreakable",
+      "Inventory",
+      "White",
+      "Light Gray",
+      "Lime",
+      "Light Blue",
+      "Purple",
+      "Magenta"
+    ]
+  },
+  "language": {
+    "source_keys": 410,
+    "bundled_korean_candidate_keys": 310,
+    "bundled_candidates_matching_current_source": 308,
+    "bundled_outdated_keys_excluded": 2,
+    "project_candidate_keys_reviewed": 410,
+    "retained": 379,
+    "corrected": 31,
+    "new": 0,
+    "remaining": 0,
+    "output_sha256": "7d51a0dbbe5af24bf5dd209405ee0832b462d4ac86fc4104a8675c3cfba0954c"
+  },
+  "ftbquests": {
+    "related_keys_reviewed": 0,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "kubejs": {
+    "related_language_values_reviewed": 2,
+    "retained": 2,
+    "corrected": 0,
+    "non_display_script_references_reviewed": 1,
+    "remaining": 0
+  },
+  "other_mod_owned_integrations": {
+    "language_files_traced": 51,
+    "keys_traced": 199,
+    "currently_translated_keys": 190,
+    "missing_keys_deferred_to_owner_mods": [
+      "balm:config.jade.plugin_balm.jade",
+      "crystalix:config.jade.plugin_crystalix.crystalix_block",
+      "dimstorage:config.jade.plugin_dimstorage.dim_block_base",
+      "dimstorage:config.jade.plugin_dimstorage.dim_tank",
+      "entangled:config.jade.plugin_entangled.entangled_block_component",
+      "treetap:config.jade.plugin_treetap.tap",
+      "untranslateditems:config.jade.plugin_uti",
+      "untranslateditems:config.jade.plugin_uti.block_name",
+      "untranslateditems:config.jade.plugin_uti.entity_name"
+    ],
+    "scope_note": "한 모드씩 커밋하기 위해 각 키는 실제 소유 모드의 전수 재검수 차례에 처리"
+  },
+  "other_display_paths": {
+    "recipes": 0,
+    "advancements": 0,
+    "guide_files": 0,
+    "screen_json_files": 0,
+    "theme_json_files_reviewed": 4,
+    "class_files_reviewed": 301,
+    "component_literal_classes_reviewed": 9,
+    "class_normal_gameplay_hardcoded_user_visible_literals": 0,
+    "class_data_derived_and_symbol_literals_reviewed": true,
+    "metadata_descriptions_reviewed": 2,
+    "remaining": 0
+  },
+  "cross_mod_consistency": {
+    "terms_added_to_glossary": 3,
+    "translation_induced_name_collisions": 0,
+    "legitimate_direction_label_collisions": 1,
+    "official_mod_name": "Jade"
+  },
+  "validation": {
+    "language_keys_and_order_match_source": true,
+    "value_types_match_source": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "line_breaks_preserved": true,
+    "working_output_hashes_match": true,
+    "ftbquests_related_paths_checked": true,
+    "kubejs_related_paths_checked": true,
+    "other_mod_key_ownership_traced": true,
+    "python_ruff_checked": true,
+    "python_compile_checked": true,
+    "utf8_bom_files": 0,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "applied": true,
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "selected_paths": 1,
+    "changed_paths": 1,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260820_051130_033873/backup_manifest.json",
+    "pre_snapshot_files": 6079,
+    "post_snapshot_files": 6079
+  },
+  "remaining_manual_review": 0,
+  "minecraft_game_screen_verified": false
+}
