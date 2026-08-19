@@ -1,0 +1,121 @@
+{
+  "scope": "Modonomicon 전체 번역 재검수",
+  "priority_reason": "Occultism과 Theurgy의 가이드북 333개 JSON 및 1,966개 번역 키를 표시하는 공통 가이드 프레임워크",
+  "source": {
+    "jar": "modonomicon-1.21.1-neoforge-1.120.1.jar",
+    "sha256": "f5753e656ea6f200f3862d95a3ffab660470f09cdd222566b562aa3e465dd703",
+    "bytes": 2403998,
+    "entries": 572,
+    "class_files": 411,
+    "language_files": 4,
+    "english_keys": 215,
+    "bundled_korean_keys": 0
+  },
+  "language_review": {
+    "source_keys_reviewed": 215,
+    "common_display_keys_reviewed": 78,
+    "project_candidates_retained": 52,
+    "project_candidates_corrected": 26,
+    "new_display_fallbacks": 3,
+    "effective_output_keys": 81,
+    "excluded_demo_book_keys_reviewed": 134,
+    "excluded_vanilla_advancement_keys_reviewed": 2,
+    "excluded_test_keys_reviewed": 1,
+    "harmful_item_block_name_collisions": 0
+  },
+  "display_paths": {
+    "class_referenced_language_keys": 74,
+    "common_display_class_references": 73,
+    "dynamic_item_keys": 1,
+    "neo_client_configuration_screen_registration_found": true,
+    "configuration_sections_reviewed": 1,
+    "configuration_options_reviewed": 3,
+    "configuration_comment_lines_reviewed": 4,
+    "configuration_labels_from_source_language": 4,
+    "configuration_tooltip_fallbacks_added": 3,
+    "neoforge_configuration_translation_convention_reviewed": ".configuration. and .tooltip",
+    "sound_subtitle_keys_reviewed": 1,
+    "hardcoded_advanced_tooltip_deferred": [
+      "Book ID: <book_id>"
+    ],
+    "deferred_reason": "고급 툴팁 문구가 Modonomicon 클래스에 직접 작성되어 리소스팩 언어 키로 교체할 수 없으며 원본 JAR은 수정하지 않습니다."
+  },
+  "related_guides": {
+    "provider_jars_reviewed": 2,
+    "provider_book_json_inventoried": 333,
+    "provider_multiblock_json_inventoried": 27,
+    "provider_translation_keys_inventoried": 1966,
+    "provider_bundled_korean_candidates": 1220,
+    "project_korean_candidates_present": 1966,
+    "project_korean_candidates_missing": 0,
+    "current_turn_provider_keys_reused": 0,
+    "deferred_to_owner_mod_turns": {
+      "Occultism": {
+        "book_json": 240,
+        "translation_keys": 1220,
+        "project_korean_candidates": 1220
+      },
+      "Theurgy": {
+        "book_json": 93,
+        "translation_keys": 746,
+        "project_korean_candidates": 746
+      }
+    }
+  },
+  "related_content": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_reference_files": 0,
+    "ftbquests_modonomicon_owned_display_strings": 0,
+    "kubejs_files_reviewed": 1020,
+    "kubejs_reference_files": 0,
+    "kubejs_modonomicon_owned_display_strings": 0,
+    "core_advancement_files": 0,
+    "core_recipe_files": 0,
+    "core_modonomicon_book_files": 0
+  },
+  "cross_mod_review": {
+    "project_language_files_reviewed": 285,
+    "official_name_rows_reviewed": 1,
+    "harmful_modonomicon_name_collisions": 0,
+    "resolved_mark_as_read_term": "읽음으로 표시 -> 읽은 것으로 표시",
+    "resolved_entity_term": "엔티티 -> 개체",
+    "resolved_jei_usage_term": "사용처 -> 사용법",
+    "resolved_fluid_unit": "mb -> mB",
+    "resolved_shapeless_term": "형태 없음 -> 모양 없음",
+    "cross_mod_shapeless_rows_reviewed": 15,
+    "remaining_shapeless_conflicting_strings_deferred_to_owner_mods": 8
+  },
+  "glossary_terms_added": 3,
+  "validation": "passed",
+  "validation_details": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_syntax_and_duplicate_keys": "passed",
+    "keys_types_placeholders_linebreaks_backslashes_format_codes_and_urls": "passed",
+    "class_config_sound_and_guide_display_paths": "passed",
+    "python_compile": "passed",
+    "ruff_format_changed_python": "passed",
+    "ruff_check_all": "passed",
+    "ruff_format_full": "pre-existing unrelated scripts/snapshot_instance.py would be reformatted",
+    "git_diff_check": "passed",
+    "instance_snapshot": "planned Modonomicon resourcepack file one changed; mods, FTB Quests, KubeJS and config unchanged"
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "target_type": "game_root",
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_path": "resourcepacks/ATM10_Korean/assets/modonomicon/lang/ko_kr.json",
+    "sha256": "229bfd0564d6424fff49e6d3d4a4971c9f42b232e3dd3e7261ab0dc72576062b",
+    "backup_manifest": "temp/backups/20260820_075659_331174/backup_manifest.json",
+    "unexpected_changes": 0
+  },
+  "remaining": {
+    "untranslated_common_display_keys": 0,
+    "manual_translation_review_items": 0,
+    "excluded_demo_book_keys": 134,
+    "excluded_other_source_keys": 3,
+    "upstream_hardcoded_display_literals": 1,
+    "provider_translation_keys_deferred_to_owner_mod_turns": 1966
+  }
+}

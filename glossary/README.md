@@ -194,6 +194,9 @@
 | Guide Book | 가이드북 | 아이템명 | Patchouli | 확정 | 한 단어로 붙여 쓰며 다른 모드의 고유 가이드 아이템명과 구분 |
 | Entry / Chapter | 항목 | Patchouli 가이드 UI 용어 | Patchouli 기반 가이드 | 확정 | 실제 데이터 단위가 `entry`이므로 이전 명칭인 `chapter`도 같은 화면에서는 `항목`으로 통일 |
 | Bookmark (Guide Book) | 책갈피 | Patchouli 가이드 UI 용어 | Patchouli 기반 가이드 | 확정 | 실제 책 페이지를 표시하는 기능이며 JEI의 `북마크`와 구분 |
+| Modonomicon | Modonomicon | 공식 모드명 | 전체 프로젝트 | 확정 | 뜻으로 번역하거나 한글로 음역하지 않음 |
+| Mark as Read | 읽은 것으로 표시 | 가이드 UI 용어 | Patchouli 및 Modonomicon 기반 가이드 | 확정 | `읽음으로 표시`와 섞지 않음 |
+| Millibucket | mB | 유체 부피 단위 | 전체 프로젝트 | 확정 | 대소문자를 구분하여 `mb`로 쓰지 않음 |
 
 ## 5. 보류 용어
 

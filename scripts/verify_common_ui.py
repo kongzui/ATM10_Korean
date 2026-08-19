@@ -27,6 +27,9 @@ OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
 GUIDEME_DISPLAY_FALLBACKS = WORK_ROOT / "guide_ui/guideme/display_fallbacks.json"
+MODONOMICON_DISPLAY_FALLBACKS = (
+    WORK_ROOT / "guide_ui/modonomicon/display_fallbacks.json"
+)
 CURIOS_SLOT_INTEGRATIONS = (
     PROJECT_ROOT / "working/common_ui/curios_effects/slot_integrations.json"
 )
@@ -575,6 +578,9 @@ def verify_target(
             fallback_values = {
                 "guideme": json.loads(
                     GUIDEME_DISPLAY_FALLBACKS.read_text(encoding="utf-8")
+                ),
+                "modonomicon": json.loads(
+                    MODONOMICON_DISPLAY_FALLBACKS.read_text(encoding="utf-8")
                 ),
                 "journeymap": JOURNEYMAP_CLASS_FALLBACKS,
                 "ftbchunks": FTBCHUNKS_CLASS_FALLBACKS,
