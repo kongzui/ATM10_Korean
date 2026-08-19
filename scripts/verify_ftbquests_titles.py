@@ -55,6 +55,10 @@ SOPHISTICATED_QUEST_OVERRIDES = (
 PRODUCTIVEBEES_QUEST_OVERRIDES = (
     Path(__file__).resolve().parents[1] / "working/productivebees/quest_overrides.json"
 )
+APPFLUX_QUEST_OVERRIDES = (
+    Path(__file__).resolve().parents[1]
+    / "working/ae2_addons/appflux/quest_overrides.json"
+)
 MODERN_INDUSTRIALIZATION_RELATED_OVERRIDES = (
     Path(__file__).resolve().parents[1]
     / "working/modern_industrialization/quests/related/ko_kr.json"
@@ -122,6 +126,22 @@ def main() -> int:
     productivebees_quest_overrides = json.loads(
         PRODUCTIVEBEES_QUEST_OVERRIDES.read_text(encoding="utf-8")
     )
+    appflux_quest_overrides = json.loads(
+        APPFLUX_QUEST_OVERRIDES.read_text(encoding="utf-8")
+    )
+    shared_appflux_keys = set(appflux_quest_overrides) & set(
+        productivebees_quest_overrides
+    )
+    conflicting_appflux_keys = sorted(
+        key
+        for key in shared_appflux_keys
+        if appflux_quest_overrides[key] != productivebees_quest_overrides[key]
+    )
+    if conflicting_appflux_keys:
+        raise ValueError(
+            "Applied Flux와 Productive Bees의 공통 퀘스트 번역이 다릅니다: "
+            f"{conflicting_appflux_keys}"
+        )
     modern_industrialization_related_overrides = json.loads(
         MODERN_INDUSTRIALIZATION_RELATED_OVERRIDES.read_text(encoding="utf-8")
     )
@@ -379,11 +399,21 @@ def main() -> int:
         for quest_id in APPFLUX_RELATED_QUEST_IDS
         if not audit.text_value(output, f"quest.{quest_id}.title")
     )
-    if redundant_appflux_item_task_titles or missing_appflux_related_titles:
+    mismatched_appflux_overrides = sorted(
+        key
+        for key, value in appflux_quest_overrides.items()
+        if output.get(key) != value
+    )
+    if (
+        redundant_appflux_item_task_titles
+        or missing_appflux_related_titles
+        or mismatched_appflux_overrides
+    ):
         raise ValueError(
             "Applied Flux 퀘스트 제목 검증 실패: "
             f"단일 아이템 중복 제목={redundant_appflux_item_task_titles}, "
-            f"관련 퀘스트 제목 누락={missing_appflux_related_titles}"
+            f"관련 퀘스트 제목 누락={missing_appflux_related_titles}, "
+            f"작업본 불일치={mismatched_appflux_overrides}"
         )
 
     report = json.loads(audit.REPORT_JSON.read_text(encoding="utf-8"))

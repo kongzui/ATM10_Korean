@@ -73,6 +73,10 @@
 | Quantum Armor | 퀀텀 갑옷 | 장비 세트명 | Advanced AE 및 관련 퀘스트 | 확정 | `양자 방어구`, `퀀텀 방어구`와 혼용하지 않음 |
 | Quantum Computer | 퀀텀 컴퓨터 | 멀티블록명 | Advanced AE 및 관련 퀘스트 | 확정 | 구성 블록 이름에도 `퀀텀 컴퓨터`를 생략하지 않음 |
 | Advanced Pattern Provider | 고급 패턴 공급기 | 장치명 | Advanced AE 및 관련 퀘스트 | 확정 | Extended AE의 `확장 패턴 공급기`와 구분 |
+| FE Storage Cell | FE 저장 셀 | 아이템·가이드 분류명 | Applied Flux | 확정 | 개별 아이템명에서는 원문의 `ME`와 용량 등급을 함께 보존 |
+| Flux Accessor | 플럭스 접근기 | 장치명 | Applied Flux | 확정 | `Flux Networks`의 플럭스 플러그·포인트와 구분 |
+| Redstone Crystal | 레드스톤 결정 | 재료명 | Applied Flux | 확정 | Productive Bees의 동적 벌 이름은 검색성을 위해 `레드스톤 크리스탈`을 유지 |
+| Energy Processor | 에너지 프로세서 | 회로명 | Applied Flux | 확정 | 인쇄 회로와 프레스는 AE2 회로 계열 명명 규칙을 따름 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |
 | Wireless Universal Terminal | 무선 범용 터미널 | 아이템명 | AE2WTLib 및 관련 퀘스트 | 확정 | `범용 무선 터미널`과 혼용하지 않음 |
 | Partition | 파티션 | 저장 셀 설정 용어 | AE2 본체와 직접 연동 콘텐츠 | 확정 | 저장 대상을 정하는 설정에는 `분할`을 사용하지 않음 |

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: appflux/appflux-index.md
-  title: 플럭스 셀
+  title: FE 저장 셀
   icon: appflux:fe_1k_cell
 categories:
 - flux cells
@@ -29,7 +29,7 @@ item_ids:
 - appflux:fe_256m_cell
 ---
 
-# 플럭스 셀
+# FE 저장 셀
 
 <Column>
   <Row>

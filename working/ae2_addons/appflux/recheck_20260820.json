@@ -1,11 +1,15 @@
 {
-  "status": "quality_review_completed",
+  "status": "completed_and_deployed",
   "scope": "Applied Flux 전체 한국어 품질 재검수",
   "reviewed_at": "2026-08-20",
   "source_jars": {
     "appflux": {
       "name": "AppliedFlux-1.21-2.1.5-neoforge.jar",
       "sha256": "57e6a2c0f38e660c9e8416f9081d8c515f5ad096d6793d7b7f039e8e210d245b"
+    },
+    "ae2_compatibility": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
     }
   },
   "language": {
@@ -48,6 +52,7 @@
   "other_display_systems": {
     "patchouli_pages": 0,
     "ponder_scenes": 0,
+    "class_files_reviewed": 73,
     "class_display_literals": 0,
     "config_comment_literals_reviewed": 5,
     "upstream_metadata_descriptions_reviewed": 1
@@ -61,22 +66,6 @@
       "레드스톤 결정 벌 -> 레드스톤 크리스탈 벌"
     ]
   },
-  "output_sha256": {
-    "assets/appflux/lang/ko_kr.json": "f12c425f8c2502d5e5430491b104dfab771776d03541c2287244fcdc62dda8b7",
-    "assets/appflux/ae2guide/_ko_kr/appflux/appflux-index.md": "5d9e687b138d6a58932ef4151760ecb0400dcda36e43b796ce9b1813947ee712",
-    "assets/appflux/ae2guide/_ko_kr/appflux/diamond_dust.md": "88d15f0d31d192c6d922f2f603c6858f3e83edabc20270055719ff5cbaaeb5a5",
-    "assets/appflux/ae2guide/_ko_kr/appflux/emerald_dust.md": "0124132b66ede47cf91b6d5f82bf519c246958d3c4726d5beeffded27c3c35af",
-    "assets/appflux/ae2guide/_ko_kr/appflux/energy_processor.md": "0cea8203bf1458cf3604bd8cf49ed2f2b5358c8c3cb972048316117edc9b90a4",
-    "assets/appflux/ae2guide/_ko_kr/appflux/flux_accessor.md": "0ccd9b43bc3a85950632df7962b3cfef97f8e621582b09938f402fcb475262af",
-    "assets/appflux/ae2guide/_ko_kr/appflux/flux_cells.md": "372ab96782674126891421114d52aecb5e9b7b76917d4dbebc16d8c654a01478",
-    "assets/appflux/ae2guide/_ko_kr/appflux/induction_card.md": "a91005290c18fc75fe60d8e0e400c45b0a008513bfa1548088fc131d371b4ac3",
-    "assets/appflux/ae2guide/_ko_kr/appflux/insulating_resin.md": "0e6b6d4a40d5e1df84a444b1546663032fcbe3f0cac67e40a75f10ef16d32060",
-    "assets/appflux/ae2guide/_ko_kr/appflux/mark_energy.md": "0d12de181296dc4793e78a179ad2b737f5422a62d2bc4c484185df77882c45b2",
-    "assets/appflux/ae2guide/_ko_kr/appflux/portable_flux_cells.md": "e29ef3ddf2b66fe485aa1c200f53df7053d1ede1e8b2844e9fd18e3f0746bb78",
-    "assets/appflux/ae2guide/_ko_kr/appflux/redstone_crystal.md": "ec86a252b9e506efb3f8b6c373d4fe9b64d67cfb33118b0371e9d0d7ed68d21d",
-    "assets/appflux/ae2guide/_ko_kr/appflux/terminal_interact.md": "1a5b08dbc7b5be8d7ccc006a58c120efbfe6673cf4e23672b30b0442d27e2bad",
-    "config/ftbquests/quests/lang/ko_kr.snbt": "0fa6777a1fdc809324cc2b663e589fa87c9d3dd85bb15dc8c20ee245f8ba322e"
-  },
   "validation": {
     "language_and_placeholder_errors": 0,
     "guide_structure_errors": 0,
@@ -85,7 +74,24 @@
     "kubejs_scope_errors": 0,
     "terminology_errors": 0,
     "json_errors": 0,
-    "static_check_errors": 0
+    "python_format_errors": 0,
+    "python_lint_errors": 0,
+    "python_compile_errors": 0,
+    "git_diff_errors": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "game_root",
+    "files_checked": 14,
+    "files_changed": 3,
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/appflux/ae2guide/_ko_kr/appflux/appflux-index.md",
+      "resourcepacks/ATM10_Korean/assets/appflux/ae2guide/_ko_kr/appflux/flux_cells.md",
+      "resourcepacks/ATM10_Korean/assets/appflux/ae2guide/_ko_kr/appflux/redstone_crystal.md"
+    ],
+    "backup_manifest": "temp/backups/20260820_035217_123710/backup_manifest.json",
+    "snapshot_files": 6077,
+    "unexpected_changes": 0
   },
   "remaining_manual_review": 0,
   "minecraft_game_screen_verified": false

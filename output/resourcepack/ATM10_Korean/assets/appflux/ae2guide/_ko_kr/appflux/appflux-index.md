@@ -8,7 +8,7 @@ navigation:
 
 Applied Flux를 사용하면 AE로 전력 시스템을 관리할 수 있습니다.
 
-## 플럭스 셀
+## FE 저장 셀
 <CategoryIndex category="flux cells"></CategoryIndex>
 
 ## 재료
