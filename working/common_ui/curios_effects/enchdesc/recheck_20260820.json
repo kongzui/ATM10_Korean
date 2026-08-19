@@ -1,0 +1,78 @@
+{
+  "scope": "Enchantment Descriptions 전체 번역 독립 재검수",
+  "priority_reason": "마법이 부여된 책의 툴팁에서 반복 노출되는 공통 설명 시스템",
+  "source": {
+    "jar": "enchdesc-neoforge-1.21.1-21.1.10.jar",
+    "sha256": "9424c9aff4edf4d8730c931df4253138aeaee745ec839af7078d292bb4eeaa16",
+    "bytes": 82629,
+    "entries": 52,
+    "classes": 7,
+    "json_files": 27,
+    "language_files": 25,
+    "advancement_files": 0,
+    "recipe_files": 0,
+    "guide_files": 0
+  },
+  "language_review": {
+    "english_keys": 182,
+    "description_keys": 166,
+    "bundled_korean_candidates": 45,
+    "bundled_korean_missing": 138,
+    "bundled_korean_legacy_extra": 1,
+    "existing_candidates_retained": 151,
+    "existing_candidates_corrected": 31,
+    "new_translations": 0
+  },
+  "dynamic_display_review": {
+    "installed_enchantment_definition_files": 98,
+    "installed_enchantment_ids": 97,
+    "installed_description_keys_available": 91,
+    "missing_source_descriptions": [
+      "ars_additions:spellweave",
+      "ars_elemental:soulbound",
+      "draconicevolution:reaper",
+      "farmersdelight:backstabbing",
+      "forbidden_arcanus:soul_looting",
+      "quarryplus:quarry_pickaxe"
+    ],
+    "missing_source_disposition": "영어 .desc 원문이 없어 추측 번역하지 않고 원본 누락으로 분리",
+    "dynamic_description_class_files": 1,
+    "config_display_mode": "마법이 부여된 책에서만 표시"
+  },
+  "cross_mod_review": {
+    "other_mod_english_description_keys": 96,
+    "other_mod_korean_description_keys": 70,
+    "owner_key_collisions_reviewed": 2,
+    "owner_key_collisions_corrected": 2,
+    "owner": "Deeper and Darker",
+    "harmful_collisions_remaining": 0,
+    "project_language_files_reviewed": 285
+  },
+  "related_content_review": {
+    "ftbquests_files": 142,
+    "ftbquests_direct_references": 0,
+    "kubejs_files": 1020,
+    "kubejs_direct_references": 0
+  },
+  "validation": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_syntax": "passed",
+    "keys_types_placeholders_linebreaks_and_format_codes": "passed",
+    "python_compile": "passed",
+    "ruff_check": "passed",
+    "git_diff_check": "passed",
+    "pre_snapshot_files": 6079,
+    "post_snapshot_files": 6079,
+    "unexpected_instance_changes": []
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_files": 1,
+    "changed_path": "resourcepacks/ATM10_Korean/assets/enchdesc/lang/ko_kr.json",
+    "output_sha256": "b35b231b930c2ea3ee49123452dd4de5909fe3f1099f4d2a7278e6222674f8a4",
+    "backup_manifest": "temp/backups/20260820_070220_211175/backup_manifest.json",
+    "unexpected_changes": []
+  }
+}
