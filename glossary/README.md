@@ -190,6 +190,10 @@
 | GuideME Guide | GuideME 가이드 | 아이템명 | GuideME | 확정 | AE2 등 다른 모드의 `가이드` 아이템과 이름이 겹치지 않게 모드명을 붙임 |
 | GUI Scale / UI Scaling | GUI 배율 | Minecraft UI 용어 | 전체 프로젝트 | 확정 | 화면 요소의 배율은 `UI 크기`, `GUI 크기`와 섞지 않음 |
 | Shapeless | 모양 없음 / 모양 없는 | 제작법 분류 | 전체 프로젝트 | 확정 | 단독 표시는 `모양 없음`, 제작법을 꾸밀 때는 `모양 없는`을 사용하고 `형태 없음`, `무형`, `무정형`과 섞지 않음 |
+| Patchouli | Patchouli | 공식 모드명 | 전체 프로젝트 | 확정 | 뜻으로 번역하거나 한글로 음역하지 않음 |
+| Guide Book | 가이드북 | 아이템명 | Patchouli | 확정 | 한 단어로 붙여 쓰며 다른 모드의 고유 가이드 아이템명과 구분 |
+| Entry / Chapter | 항목 | Patchouli 가이드 UI 용어 | Patchouli 기반 가이드 | 확정 | 실제 데이터 단위가 `entry`이므로 이전 명칭인 `chapter`도 같은 화면에서는 `항목`으로 통일 |
+| Bookmark (Guide Book) | 책갈피 | Patchouli 가이드 UI 용어 | Patchouli 기반 가이드 | 확정 | 실제 책 페이지를 표시하는 기능이며 JEI의 `북마크`와 구분 |
 
 ## 5. 보류 용어
 
