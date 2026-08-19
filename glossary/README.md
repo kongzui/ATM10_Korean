@@ -125,6 +125,10 @@
 | Global Waystone | 전체 공개 웨이스톤 | 공개 범위 용어 | Waystones 및 직접 연동 콘텐츠 | 확정 | 설정값 `GLOBAL`은 그대로 두되 사용자 설명에서 `글로벌`, `전역`과 섞지 않음 |
 | Warp Modifier | 워프 수정자 | 기능·아이템 용어 | Waystones 및 직접 연동 콘텐츠 | 확정 | 순간이동 시 상태 효과를 적용하는 기능 |
 | Cooldown | 재사용 대기시간 | 공통 UI 용어 | 전체 프로젝트 | 확정 | `재사용 대기 시간`, `쿨다운`과 섞지 않음 |
+| Nature's Compass | 자연의 나침반 | 아이템명 | Nature's Compass 및 관련 퀘스트 | 확정 | 모드 자체를 가리킬 때는 공식 영문 이름 `Nature's Compass` 유지 |
+| Biome | 생물군계 | Minecraft 공식 일반 용어 | 전체 프로젝트 | 확정 | `바이옴`과 섞지 않음 |
+| Dimension | 차원 | Minecraft 공식 일반 용어 | 전체 프로젝트 | 확정 | 사용자 표시 문구에서는 `디멘션`과 섞지 않음 |
+| Coordinates | 좌표 | Minecraft 공식 일반 용어 | 전체 프로젝트 | 확정 | `코디네이트`와 섞지 않음 |
 | MEGA Pattern Provider | MEGA 패턴 공급기 | 장치명 | MEGA Cells 및 Expanded AE 연동 목록 | 확정 | `ME MEGA 패턴 공급기`처럼 `ME`를 중복하지 않음 |
 | Greater Acceleration Card | 상급 가속 카드 | 업그레이드 카드명 | Expanded AE | 확정 | AE2의 `가속 카드`보다 높은 등급을 구분 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |

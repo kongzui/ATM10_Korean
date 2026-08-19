@@ -344,6 +344,26 @@ WAYSTONES_RELATED_LANGUAGE = re.compile(
 WAYSTONES_KUBEJS_REFERENCES = {
     "kubejs/server_scripts/Tweaks/tags.js",
 }
+NATURESCOMPASS_RECHECK_VALUES = {
+    "string.naturescompass.searchForNext": "다음 생물군계 검색",
+    "string.naturescompass.heightVariation": "높이 변화량",
+    "string.naturescompass.highHumidity": "높은 습도",
+    "string.naturescompass.precipitation": "강수 형태",
+    "string.naturescompass.temperature": "온도",
+}
+NATURESCOMPASS_FORBIDDEN_TERMS = re.compile(
+    r"바이옴|카테고리|텔레포트|디멘션|코디네이트|높이 변화율|습도 높음"
+)
+NATURESCOMPASS_QUEST_VALUES = {
+    "quest.70B6C9409AE69284.quest_desc": [
+        "자연의 나침반을 사용하면 찾을 생물군계를 목록에서 고를 수 있어요."
+        "\\n\\n생물군계를 선택하고 '검색 시작'을 누르면 왼쪽 위에 정보가 "
+        "표시되고, 나침반이 해당 생물군계의 방향을 가리켜요.\\n\\n탐험가의 "
+        "나침반도 같은 방식으로 작동하지만, 생물군계 대신 구조물을 찾아요."
+    ],
+    "quest.70B6C9409AE69284.quest_subtitle": "생물군계/구조물 찾기 도우미",
+    "quest.70B6C9409AE69284.title": "검색용 나침반",
+}
 
 
 def protected(value: object, pattern: re.Pattern[str]) -> list[str]:
@@ -1861,6 +1881,260 @@ def verify_waystones_related(instance: Path) -> dict[str, object]:
     }
 
 
+def verify_naturescompass_related(instance: Path) -> dict[str, object]:
+    """Nature's Compass의 퀘스트, JAR 표시 경로와 용어를 검증한다."""
+    errors = []
+    output_path = OUTPUT_ROOT / "naturescompass/lang/ko_kr.json"
+    korean = json.loads(output_path.read_text(encoding="utf-8"))
+    mismatches = sorted(
+        key
+        for key, expected in NATURESCOMPASS_RECHECK_VALUES.items()
+        if korean.get(key) != expected
+    )
+    if mismatches:
+        errors.append(f"Nature's Compass 확정 교정값 불일치: {mismatches}")
+    if korean.get("_comment") != "STRINGS - PRECIPITATION":
+        errors.append("Nature's Compass 비번역 주석 값이 변경되었습니다")
+    forbidden = sorted(
+        key
+        for key, value in korean.items()
+        if NATURESCOMPASS_FORBIDDEN_TERMS.search(str(value))
+    )
+    if forbidden:
+        errors.append(f"Nature's Compass 금지·충돌 용어 잔존: {forbidden}")
+
+    source_lang = instance / "config/ftbquests/quests/lang/en_us.snbt"
+    source_quests = parse_language_snbt(source_lang)
+    related_quest_ids = {
+        key.split(".")[1]
+        for key, value in source_quests.items()
+        if re.search(r"(?i)nature.?s compass|naturescompass", flatten(value))
+        and key.startswith("quest.")
+    }
+    related_quest_keys = sorted(
+        key
+        for key in source_quests
+        if key.startswith(tuple(f"quest.{quest_id}." for quest_id in related_quest_ids))
+    )
+    if related_quest_keys != sorted(NATURESCOMPASS_QUEST_VALUES):
+        errors.append(
+            "Nature's Compass 관련 FTB Quests 언어 범위 변경: " f"{related_quest_keys}"
+        )
+    quest_output = parse_language_snbt(
+        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+    )
+    quest_mismatches = sorted(
+        key
+        for key, expected in NATURESCOMPASS_QUEST_VALUES.items()
+        if quest_output.get(key) != expected
+    )
+    if quest_mismatches:
+        errors.append(
+            f"Nature's Compass 관련 FTB Quests 번역 불일치: {quest_mismatches}"
+        )
+    quest_working = json.loads(
+        (PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    quest_description_key = "quest.70B6C9409AE69284.quest_desc"
+    if (
+        quest_working.get(quest_description_key)
+        != NATURESCOMPASS_QUEST_VALUES[quest_description_key]
+    ):
+        errors.append("Nature's Compass 관련 퀘스트 설명 작업본 불일치")
+
+    quest_files = sorted((instance / "config/ftbquests/quests").rglob("*.snbt"))
+    quest_item_references = {}
+    for path in quest_files:
+        text = path.read_text(encoding="utf-8-sig")
+        item_ids = re.findall(r'id:\s*"naturescompass:([^"]+)"', text)
+        if item_ids:
+            quest_item_references[path.relative_to(instance).as_posix()] = item_ids
+    expected_quest_item_references = {
+        "config/ftbquests/quests/chapters/apothic_enchanting.snbt": ["naturescompass"],
+        "config/ftbquests/quests/chapters/building_tips.snbt": [
+            "naturescompass",
+            "naturescompass",
+        ],
+    }
+    if quest_item_references != expected_quest_item_references:
+        errors.append(
+            "Nature's Compass 관련 FTB Quests 아이템 참조 범위 변경: "
+            f"{quest_item_references}"
+        )
+    if korean.get("item.naturescompass.naturescompass") != "자연의 나침반":
+        errors.append("Nature's Compass 퀘스트 자동 아이템 이름 불일치")
+
+    kubejs_files_reviewed = 0
+    kubejs_refs = []
+    kubejs_root = instance / "kubejs"
+    for path in sorted(kubejs_root.rglob("*")):
+        if not path.is_file() or path.suffix.lower() not in {
+            ".js",
+            ".json",
+            ".snbt",
+            ".txt",
+        }:
+            continue
+        kubejs_files_reviewed += 1
+        text = path.read_text(encoding="utf-8-sig")
+        if re.search(r"(?i)naturescompass|nature.?s compass", text):
+            kubejs_refs.append(path.relative_to(instance).as_posix())
+    if kubejs_refs:
+        errors.append(f"예상하지 않은 Nature's Compass KubeJS 참조: {kubejs_refs}")
+
+    compass_target = next(
+        target
+        for target in TARGETS
+        if target.group == "compass" and target.namespaces == ("naturescompass",)
+    )
+    compass_jar = find_jar(instance, compass_target)
+    other_language_files = 0
+    other_owned_keys = 0
+    for jar_path in sorted((instance / "mods").glob("*.jar")):
+        if jar_path == compass_jar:
+            continue
+        with ZipFile(jar_path) as archive:
+            for name in archive.namelist():
+                if not re.fullmatch(r"assets/[^/]+/lang/en_us\.json", name):
+                    continue
+                values = load_json(archive, name)
+                related = {
+                    key: value
+                    for key, value in values.items()
+                    if re.search(
+                        r"(?i)naturescompass|nature.?s compass", f"{key} {value}"
+                    )
+                }
+                if related:
+                    other_language_files += 1
+                    other_owned_keys += len(related)
+    if other_language_files or other_owned_keys:
+        errors.append(
+            "예상하지 않은 다른 모드 소유 Nature's Compass 연동 언어: "
+            f"파일={other_language_files}, 키={other_owned_keys}"
+        )
+
+    with ZipFile(compass_jar) as archive:
+        names = archive.namelist()
+        english = load_json(archive, "assets/naturescompass/lang/en_us.json")
+        class_files = [name for name in names if name.endswith(".class")]
+        json_files = [name for name in names if name.endswith(".json")]
+        language_files = [name for name in json_files if "/lang/" in name]
+        advancement_files = [
+            name
+            for name in json_files
+            if name.startswith("data/naturescompass/advancement/")
+        ]
+        recipe_files = [
+            name
+            for name in json_files
+            if name.startswith("data/naturescompass/recipe/")
+        ]
+        guide_files = [
+            name
+            for name in names
+            if any(
+                marker in name.lower()
+                for marker in ("patchouli", "guideme", "modonomicon")
+            )
+        ]
+        display_advancements = [
+            name for name in advancement_files if "display" in load_json(archive, name)
+        ]
+        class_data = {name: archive.read(name) for name in class_files}
+        translation_api_classes = sum(
+            b"literal" in data or b"translatable" in data
+            for data in class_data.values()
+        )
+        class_translation_keys = {
+            key
+            for key in english
+            if any(key.encode() in data for data in class_data.values())
+        }
+        # rain은 rainfall의 바이트 접두사라 단순 포함 검색에서 생기는 오탐이다.
+        class_translation_keys.discard("string.naturescompass.rain")
+
+    if len(class_translation_keys) != 21:
+        errors.append(
+            "Nature's Compass 클래스 번역 키 범위 변경: "
+            f"{sorted(class_translation_keys)}"
+        )
+    inventory = (
+        len(names),
+        len(class_files),
+        len(json_files),
+        len(language_files),
+        len(advancement_files),
+        len(recipe_files),
+        len(guide_files),
+        len(display_advancements),
+        translation_api_classes,
+    )
+    if inventory != (154, 33, 60, 21, 4, 2, 0, 0, 2):
+        errors.append(f"Nature's Compass JAR 표시 경로 인벤토리 변경: {inventory}")
+
+    spacing_mismatches = []
+    for key, english_value in english.items():
+        korean_value = korean.get(key)
+        if not isinstance(english_value, str) or not isinstance(korean_value, str):
+            continue
+        english_edges = (
+            english_value[: len(english_value) - len(english_value.lstrip())],
+            english_value[len(english_value.rstrip()) :],
+        )
+        korean_edges = (
+            korean_value[: len(korean_value) - len(korean_value.lstrip())],
+            korean_value[len(korean_value.rstrip()) :],
+        )
+        if english_edges != korean_edges:
+            spacing_mismatches.append(key)
+    if spacing_mismatches:
+        errors.append(f"Nature's Compass 앞뒤 공백 불일치: {spacing_mismatches}")
+
+    collisions: dict[str, set[str]] = {}
+    for key, english_value in english.items():
+        collisions.setdefault(str(korean[key]), set()).add(str(english_value))
+    collisions = {
+        value: source_values
+        for value, source_values in collisions.items()
+        if len(source_values) > 1
+    }
+    if collisions:
+        errors.append(f"Nature's Compass 번역 유발 명칭 충돌: {collisions}")
+
+    if errors:
+        raise RuntimeError(
+            "Nature's Compass 연관 경로 검증 실패:\n" + "\n".join(errors)
+        )
+    return {
+        "group": "compass",
+        "namespace": "naturescompass_related_paths",
+        "source_jar_sha256": hashlib.sha256(compass_jar.read_bytes()).hexdigest(),
+        "class_files_reviewed": len(class_files),
+        "class_translation_api_classes_reviewed": translation_api_classes,
+        "class_translation_keys_reviewed": len(class_translation_keys),
+        "class_hardcoded_display_literals_deferred": 0,
+        "ftbquests_files_reviewed": len(quest_files),
+        "ftbquests_language_keys_reviewed": len(related_quest_keys),
+        "ftbquests_item_references_reviewed": sum(
+            len(item_ids) for item_ids in quest_item_references.values()
+        ),
+        "kubejs_files_reviewed": kubejs_files_reviewed,
+        "kubejs_references_reviewed": len(kubejs_refs),
+        "other_mod_language_files_traced": other_language_files,
+        "other_mod_owned_keys_traced": other_owned_keys,
+        "translation_induced_collisions_reviewed": len(collisions),
+        "harmful_translation_induced_collisions": 0,
+        "advancement_files": len(advancement_files),
+        "display_advancement_files": len(display_advancements),
+        "recipe_files": len(recipe_files),
+        "guide_files": len(guide_files),
+        "validation": "passed",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("group", choices=GROUPS + ("all",))
@@ -1893,6 +2167,7 @@ def main() -> int:
         rows.append(verify_ftbteams_related(instance))
     if args.group in {"compass", "all"}:
         rows.append(verify_waystones_related(instance))
+        rows.append(verify_naturescompass_related(instance))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 

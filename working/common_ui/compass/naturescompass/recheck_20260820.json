@@ -1,0 +1,102 @@
+{
+  "status": "full_recheck_completed_and_deployed",
+  "scope": "Nature's Compass 전체 번역의 별도 신규 전수 재검수",
+  "source_jar": {
+    "name": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+    "sha256": "0e249ac11b2f916c5570d9679e188da652fa5664ba9cdb7be5dc9ff69497539c",
+    "bytes": 224657,
+    "archive_entries": 154,
+    "class_files": 33,
+    "json_files": 60,
+    "language_files": 21
+  },
+  "language": {
+    "source_keys": 44,
+    "bundled_korean_candidate_keys": 44,
+    "bundled_candidates_matching_current_source": 44,
+    "bundled_outdated_keys_excluded": 0,
+    "bundled_missing_current_keys": 0,
+    "project_candidate_keys_reviewed": 44,
+    "retained": 39,
+    "corrected": 5,
+    "newly_translated": 0,
+    "remaining": 0,
+    "output_keys": 44,
+    "output_sha256": "3623a715fc699d1881e2b2efd1ba57d4294deb816cda5901846cc00df7ee12fc"
+  },
+  "ftbquests": {
+    "snbt_files_reviewed": 142,
+    "related_language_keys_reviewed": 3,
+    "existing_reviewed_translations_retained": 3,
+    "item_references_reviewed": 3,
+    "automatic_item_names_validated": 3,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "kubejs": {
+    "text_files_reviewed": 1020,
+    "references": 0,
+    "display_text_references": 0,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "other_mod_owned_integrations": {
+    "language_files_traced": 0,
+    "keys_traced": 0,
+    "term_conflicts": 0
+  },
+  "other_display_paths": {
+    "recipes": 2,
+    "advancements": 4,
+    "advancements_with_display": 0,
+    "guide_files": 0,
+    "class_files_reviewed": 33,
+    "class_translation_api_classes_reviewed": 2,
+    "class_translation_keys_reviewed": 21,
+    "resourcepack_untranslatable_upstream_literals": 0
+  },
+  "cross_mod_consistency": {
+    "terms_added_to_glossary": 4,
+    "terms": [
+      "Nature's Compass",
+      "Biome",
+      "Dimension",
+      "Coordinates"
+    ],
+    "translation_induced_collisions_reviewed": 0,
+    "harmful_translation_induced_collisions": 0,
+    "official_mod_name": "Nature's Compass",
+    "item_name": "자연의 나침반"
+  },
+  "validation": {
+    "source_keys_and_order_match": true,
+    "nontranslatable_comment_preserved": true,
+    "value_types_match_source": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "line_breaks_preserved": true,
+    "leading_and_trailing_spaces_preserved": true,
+    "working_output_target_hashes_match": true,
+    "ftbquests_related_paths_checked": true,
+    "kubejs_related_paths_checked": true,
+    "other_mod_key_ownership_traced": true,
+    "jar_classes_reviewed_with_javap": true,
+    "python_ruff_checked": true,
+    "python_compile_checked": true,
+    "utf8_bom_files": 0,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "applied": true,
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "selected_paths": 1,
+    "changed_paths": 1,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260820_061027_117895/backup_manifest.json",
+    "pre_snapshot_files": 6079,
+    "post_snapshot_files": 6079
+  },
+  "remaining_manual_review": 0,
+  "minecraft_game_screen_verified": false
+}
