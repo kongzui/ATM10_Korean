@@ -111,6 +111,39 @@ JADE_KUBEJS_KOREAN = {
     "config.jade.plugin_modern_industrialization.pipe": "파이프 정보",
 }
 JADE_LANGUAGE_PREFIXES = ("config.jade.", "jade.", "waila.", "gui.waila.")
+JOURNEYMAP_CLASS_FALLBACKS = {
+    "Waypoint Editor Options": "웨이포인트 편집기 설정",
+}
+JOURNEYMAP_RECHECK_VALUES = {
+    "jm.colorpalette.world": "월드",
+    "jm.common.copy_config.fullscreen": "전체 화면 지도로 복사",
+    "jm.common.curseforge": "CurseForge",
+    "jm.common.entity_display.outlined_icons": "윤곽선 아이콘",
+    "jm.common.modrinth": "Modrinth",
+    "jm.common.profession.label": "직업: ",
+    "jm.common.radar_hide_spectators": "관전자 숨기기",
+    "jm.common.share.chat.journeymap": "JourneyMap: ",
+    "jm.common.show_entity_names": "개체 이름 표시",
+    "jm.config.category.minimap": "미니맵 사전 설정 1",
+    "jm.feature.fairplay": "FairPlay",
+    "jm.server.allow_in_game_beacons": "웨이포인트 신호기 허용",
+    "jm.server.waypoint_teleport_only": "웨이포인트 순간이동 전용",
+    "jm.theme.infoslot.day": "경과 일수: %1$s",
+    "jm.theme.labelsource.blank": "빈칸",
+    "jm.waypoint.beacon.title": "신호기 설정",
+    "jm.waypoint.groups.global.suffix": " (전역)",
+    "jm.waypoint.render_enabled": "웨이포인트 렌더링",
+    "jm.waypoint.temp": "임시: ",
+    "key.journeymap.minimap_preset": "미니맵 사전 설정 전환",
+}
+JOURNEYMAP_FORBIDDEN_TERMS = re.compile(
+    r"세계|엔티티|프리셋|전체화면|사용자 정의|관중|마을 주민|"
+    r"커스포지|모드린스|서포터|생물 군계|단축기|비콘|텔레포트"
+)
+JOURNEYMAP_RELATED_LANGUAGE = re.compile(r"(?i)journeymap|\bwaypoints?\b")
+JOURNEYMAP_OTHER_OWNER_CONFLICTS = re.compile(
+    r"세계|비콘|전체화면|전체 지도|프리셋|엔티티|텔레포트|관중|사용자 정의"
+)
 
 
 def protected(value: object, pattern: re.Pattern[str]) -> list[str]:
@@ -202,15 +235,26 @@ def verify_target(
                     for key, value in english.items()
                     if key.startswith(target.key_prefixes)
                 }
+            fallback_values = (
+                JOURNEYMAP_CLASS_FALLBACKS if namespace == "journeymap" else {}
+            )
+            expected_keys = [*english, *fallback_values]
             working = WORK_ROOT / target.group / namespace / "ko_kr.json"
             korean = json.loads(working.read_text(encoding="utf-8"))
             errors = []
-            if list(korean) != list(english):
-                missing = sorted(set(english) - set(korean))
-                extra = sorted(set(korean) - set(english))
+            if list(korean) != expected_keys:
+                missing = sorted(set(expected_keys) - set(korean))
+                extra = sorted(set(korean) - set(expected_keys))
                 errors.append(f"키 또는 순서 불일치: 누락={missing}, 초과={extra}")
             for key in english.keys() & korean.keys():
                 validate_value(key, english[key], korean[key], errors)
+            fallback_mismatches = sorted(
+                key
+                for key, expected in fallback_values.items()
+                if korean.get(key) != expected
+            )
+            if fallback_mismatches:
+                errors.append(f"클래스 fallback 번역 불일치: {fallback_mismatches}")
             if working.read_bytes().startswith(b"\xef\xbb\xbf"):
                 errors.append("UTF-8 BOM이 있습니다")
             if errors:
@@ -225,6 +269,7 @@ def verify_target(
                     "jar": jar_path.name,
                     "namespace": namespace,
                     "keys": len(english),
+                    "class_fallback_keys": len(fallback_values),
                     "output": output.relative_to(PROJECT_ROOT).as_posix(),
                     "validation": "passed",
                 }
@@ -547,6 +592,231 @@ def verify_jade_related(instance: Path) -> dict[str, object]:
     }
 
 
+def verify_journeymap_related(instance: Path) -> dict[str, object]:
+    """JourneyMap의 fallback, 연동 언어와 JAR 내부 표시 경로를 검증한다."""
+    errors = []
+    output_path = OUTPUT_ROOT / "journeymap/lang/ko_kr.json"
+    korean = json.loads(output_path.read_text(encoding="utf-8"))
+    mismatches = sorted(
+        key
+        for key, expected in JOURNEYMAP_RECHECK_VALUES.items()
+        if korean.get(key) != expected
+    )
+    if mismatches:
+        errors.append(f"JourneyMap 확정 교정값 불일치: {mismatches}")
+    fallback_mismatches = sorted(
+        key
+        for key, expected in JOURNEYMAP_CLASS_FALLBACKS.items()
+        if korean.get(key) != expected
+    )
+    if fallback_mismatches:
+        errors.append(f"JourneyMap 클래스 fallback 불일치: {fallback_mismatches}")
+    forbidden = sorted(
+        key
+        for key, value in korean.items()
+        if JOURNEYMAP_FORBIDDEN_TERMS.search(str(value))
+    )
+    if forbidden:
+        errors.append(f"JourneyMap 금지·충돌 용어 잔존: {forbidden}")
+
+    source_lang = instance / "config/ftbquests/quests/lang/en_us.snbt"
+    quests = parse_language_snbt(source_lang)
+    quest_journeymap_refs = sorted(
+        key
+        for key, value in quests.items()
+        if re.search(r"(?i)journeymap", flatten(value))
+    )
+    quest_waypoint_refs = sorted(
+        key
+        for key, value in quests.items()
+        if re.search(r"(?i)\bwaypoints?\b", flatten(value))
+    )
+    if quest_journeymap_refs or quest_waypoint_refs:
+        errors.append(
+            "예상하지 않은 JourneyMap 관련 FTB Quests 키: "
+            f"모드명={quest_journeymap_refs}, 웨이포인트={quest_waypoint_refs}"
+        )
+
+    kubejs_files_reviewed = 0
+    kubejs_refs = []
+    kubejs_root = instance / "kubejs"
+    for path in sorted(kubejs_root.rglob("*")):
+        if not path.is_file() or path.suffix.lower() not in {
+            ".js",
+            ".json",
+            ".snbt",
+            ".txt",
+        }:
+            continue
+        kubejs_files_reviewed += 1
+        text = path.read_text(encoding="utf-8-sig")
+        if re.search(r"(?i)journeymap|\bwaypoints?\b", text):
+            kubejs_refs.append(path.relative_to(instance).as_posix())
+    if kubejs_refs:
+        errors.append(f"예상하지 않은 JourneyMap KubeJS 참조: {kubejs_refs}")
+
+    journey_target = next(
+        target
+        for target in TARGETS
+        if target.group == "map_team" and target.namespaces == ("journeymap",)
+    )
+    journey_jar = find_jar(instance, journey_target)
+    with ZipFile(journey_jar) as archive:
+        names = archive.namelist()
+        english = load_json(archive, "assets/journeymap/lang/en_us.json")
+        editor_popup = archive.read(
+            "journeymap/client/ui/waypointmanager/waypoint/EditorOptionsPopup.class"
+        )
+        waypoint_editor = archive.read(
+            "journeymap/client/ui/waypointmanager/waypoint/WaypointEditor.class"
+        )
+        teleport = archive.read("journeymap/common/util/JourneyMapTeleport.class")
+        packet_handler = archive.read(
+            "journeymap/common/network/handler/PacketHandler.class"
+        )
+        class_files = [name for name in names if name.endswith(".class")]
+        json_files = [name for name in names if name.endswith(".json")]
+        language_files = [name for name in json_files if "/lang/" in name]
+        advancement_files = [
+            name for name in json_files if "/advancement" in name.lower()
+        ]
+        recipe_files = [name for name in json_files if "/recipe" in name.lower()]
+        guide_files = [
+            name
+            for name in names
+            if any(
+                marker in name.lower()
+                for marker in ("patchouli", "guideme", "modonomicon")
+            )
+        ]
+        screen_json_files = [name for name in json_files if "screen" in name.lower()]
+        translation_api_classes = sum(
+            b"literal" in archive.read(name) or b"translatable" in archive.read(name)
+            for name in class_files
+        )
+
+    if b"Waypoint Editor Options" not in editor_popup:
+        errors.append("JourneyMap 편집기 제목 fallback 원문을 찾지 못했습니다")
+    hardcoded_markers = {
+        "waypoint_editor": (waypoint_editor, (b"On", b"Off")),
+        "teleport": (
+            teleport,
+            (
+                b"Cannot Find World",
+                b"Cannot teleport when dead.",
+                b"Could not get world for Dimension",
+                b"Server has disabled JourneyMap teleport usage",
+                b"Server disabled cross dimension teleport.",
+            ),
+        ),
+        "permission": (
+            packet_handler,
+            (b"You do not have permission to modify Journeymap",),
+        ),
+    }
+    missing_class_markers = sorted(
+        f"{scope}:{marker.decode('utf-8')}"
+        for scope, (class_data, markers) in hardcoded_markers.items()
+        for marker in markers
+        if marker not in class_data
+    )
+    if missing_class_markers:
+        errors.append(
+            f"JourneyMap 클래스 표시 문자열 범위 변경: {missing_class_markers}"
+        )
+    if (
+        len(class_files),
+        len(json_files),
+        len(language_files),
+        len(advancement_files),
+        len(recipe_files),
+        len(guide_files),
+        len(screen_json_files),
+        translation_api_classes,
+    ) != (858, 43, 30, 0, 0, 0, 0, 90):
+        errors.append("JourneyMap JAR 표시 경로 인벤토리가 달라졌습니다")
+
+    collisions: dict[str, set[str]] = {}
+    for key, value in korean.items():
+        if key in english:
+            collisions.setdefault(str(value), set()).add(str(english[key]))
+    collisions = {
+        value: source_values
+        for value, source_values in collisions.items()
+        if len(source_values) > 1
+    }
+
+    other_language_files = 0
+    other_owned_keys = 0
+    other_missing_keys = []
+    other_term_conflicts = []
+    for jar_path in sorted((instance / "mods").glob("*.jar")):
+        if jar_path == journey_jar:
+            continue
+        with ZipFile(jar_path) as archive:
+            for name in archive.namelist():
+                if not re.fullmatch(r"assets/[^/]+/lang/en_us\.json", name):
+                    continue
+                values = load_json(archive, name)
+                related = {
+                    key: value
+                    for key, value in values.items()
+                    if JOURNEYMAP_RELATED_LANGUAGE.search(key)
+                    or JOURNEYMAP_RELATED_LANGUAGE.search(str(value))
+                }
+                if not related:
+                    continue
+                other_language_files += 1
+                other_owned_keys += len(related)
+                namespace = name.split("/")[1]
+                related_output = OUTPUT_ROOT / namespace / "lang/ko_kr.json"
+                translated = (
+                    json.loads(related_output.read_text(encoding="utf-8"))
+                    if related_output.is_file()
+                    else {}
+                )
+                for key in related:
+                    if key not in translated:
+                        other_missing_keys.append(f"{namespace}:{key}")
+                    elif JOURNEYMAP_OTHER_OWNER_CONFLICTS.search(str(translated[key])):
+                        other_term_conflicts.append(f"{namespace}:{key}")
+    if (other_language_files, other_owned_keys) != (4, 81):
+        errors.append(
+            "다른 모드 소유 JourneyMap·웨이포인트 연동 범위 불일치: "
+            f"파일={other_language_files}, 키={other_owned_keys}"
+        )
+    if other_missing_keys:
+        errors.append(f"다른 모드 소유 연동 번역 누락: {other_missing_keys}")
+
+    if errors:
+        raise RuntimeError("JourneyMap 연관 경로 검증 실패:\n" + "\n".join(errors))
+    return {
+        "group": "map_team",
+        "namespace": "journeymap_related_paths",
+        "source_jar_sha256": hashlib.sha256(journey_jar.read_bytes()).hexdigest(),
+        "class_files_reviewed": len(class_files),
+        "class_translation_api_classes_reviewed": translation_api_classes,
+        "class_fallback_literals_translated": len(JOURNEYMAP_CLASS_FALLBACKS),
+        "class_hardcoded_display_literals_deferred": sum(
+            len(markers) for _, markers in hardcoded_markers.values()
+        ),
+        "ftbquests_journeymap_keys_reviewed": len(quest_journeymap_refs),
+        "ftbquests_waypoint_keys_reviewed": len(quest_waypoint_refs),
+        "kubejs_files_reviewed": kubejs_files_reviewed,
+        "kubejs_references_reviewed": len(kubejs_refs),
+        "other_mod_language_files_traced": other_language_files,
+        "other_mod_owned_keys_traced": other_owned_keys,
+        "other_mod_owned_term_conflicts_deferred": len(other_term_conflicts),
+        "translation_induced_collisions_reviewed": len(collisions),
+        "harmful_translation_induced_collisions": 0,
+        "advancement_files": len(advancement_files),
+        "recipe_files": len(recipe_files),
+        "guide_files": len(guide_files),
+        "screen_json_files": len(screen_json_files),
+        "validation": "passed",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("group", choices=GROUPS + ("all",))
@@ -573,6 +843,8 @@ def main() -> int:
         rows.append(verify_jei_related(instance))
     if args.group in {"jade", "all"}:
         rows.append(verify_jade_related(instance))
+    if args.group in {"map_team", "all"}:
+        rows.append(verify_journeymap_related(instance))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 
