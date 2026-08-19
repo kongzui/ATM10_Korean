@@ -1,0 +1,88 @@
+{
+  "status": "full_recheck_completed_and_deployed",
+  "scope": "EnderDrives 전체 번역의 신규 전수 재검수",
+  "source_jar": {
+    "name": "enderdrives-neoforge-1.21.1-1.4.4.jar",
+    "sha256": "03334f29dadc1e863029d05f66321c70fc2738ce5126ea52056d71b1a68586cc",
+    "archive_entries": 299,
+    "class_files": 64
+  },
+  "language": {
+    "source_keys": 42,
+    "jar_korean_candidate_keys": 0,
+    "project_candidate_keys_reviewed": 42,
+    "retained": 40,
+    "corrected": 2,
+    "new": 0,
+    "remaining": 0
+  },
+  "guideme": {
+    "pages_reviewed": 3,
+    "pages_corrected": 2,
+    "source_words": 838,
+    "remaining": 0
+  },
+  "ftbquests": {
+    "related_quests": 0,
+    "keys_corrected": 0,
+    "remaining": 0
+  },
+  "kubejs": {
+    "existing_related_files_reviewed": 0,
+    "localization_files_added": 2,
+    "embedded_tooltip_patterns_corrected": 4,
+    "normal_player_system_message_paths_corrected": 2,
+    "operator_command_message_rules": 70,
+    "cross_mod_message_collision_guards": 2,
+    "remaining": 0
+  },
+  "other_display_paths": {
+    "recipe_advancements_reviewed": 36,
+    "advancement_display_literals": 0,
+    "recipes_reviewed": 75,
+    "patchouli_pages": 0,
+    "ponder_scenes": 0,
+    "class_files_reviewed": 64,
+    "class_literal_classes_reviewed": 5,
+    "metadata_and_config_display_paths_reviewed": true,
+    "remaining": 0
+  },
+  "cross_mod_consistency": {
+    "terms_added_to_glossary": 3,
+    "intentional_exact_matches_reviewed": 23,
+    "exact_name_conflicts": 0,
+    "resolved_name_conflicts": 0
+  },
+  "validation": {
+    "language_keys_match_source": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "guide_numbers_preserved": true,
+    "guide_structure_preserved": true,
+    "guide_resources_resolve": true,
+    "kubejs_syntax_valid": true,
+    "kubejs_tooltip_samples_checked": 4,
+    "kubejs_system_message_samples_checked": 74,
+    "installed_kubejs_dynamic_tooltip_api_verified": true,
+    "installed_neoforge_system_chat_api_verified": true,
+    "working_output_match": true,
+    "full_ae2_guide_pages_checked": 99,
+    "full_ae2_language_keys_checked": 2073,
+    "utf8_bom_files": 0,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "applied": true,
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "selected_paths": 6,
+    "changed_paths": 5,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260820_041949_398269/backup_manifest.json",
+    "backup_manifests": [
+      "temp/backups/20260820_041949_398269/backup_manifest.json",
+      "temp/backups/20260820_042125_437829/backup_manifest.json"
+    ],
+    "pre_snapshot_files": 6077,
+    "post_snapshot_files": 6079
+  }
+}

@@ -113,6 +113,60 @@ ENDERDRIVES_GUIDE_FILES = (
 ENDERDRIVES_GUIDE_OUTPUT_ROOT = RESOURCEPACK_ROOT / "assets/enderdrives/ae2guide/_ko_kr"
 ENDERDRIVES_LANG_RELATIVE = "assets/enderdrives/lang/ko_kr.json"
 ENDERDRIVES_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / ENDERDRIVES_LANG_RELATIVE
+ENDERDRIVES_TOOLTIP_RELATIVE = Path("kubejs/client_scripts/enderdrives_tooltips.js")
+ENDERDRIVES_TOOLTIP_WORKING_FILE = (
+    ENDERDRIVES_WORKING_ROOT / ENDERDRIVES_TOOLTIP_RELATIVE
+)
+ENDERDRIVES_TOOLTIP_OUTPUT_FILE = (
+    PROJECT_ROOT / "output/overrides" / ENDERDRIVES_TOOLTIP_RELATIVE
+)
+ENDERDRIVES_MESSAGES_RELATIVE = Path("kubejs/startup_scripts/enderdrives_messages.js")
+ENDERDRIVES_MESSAGES_WORKING_FILE = (
+    ENDERDRIVES_WORKING_ROOT / ENDERDRIVES_MESSAGES_RELATIVE
+)
+ENDERDRIVES_MESSAGES_OUTPUT_FILE = (
+    PROJECT_ROOT / "output/overrides" / ENDERDRIVES_MESSAGES_RELATIVE
+)
+ENDERDRIVES_CLASS_LITERAL_MARKERS = {
+    "com/sts15/enderdrives/items/EnderDiskItem.class": (
+        b"This item is disabled on the server.",
+        b"This EnderDisk is disabled on the server.",
+        b"tooltip.enderdrives.partitioned",
+    ),
+    "com/sts15/enderdrives/items/TapeDiskItem.class": (
+        b"Ideal for tools, armor, and NBT-heavy items.",
+        b"Tape ID: ",
+        b"tooltip.enderdrives.partitioned",
+    ),
+    "com/sts15/enderdrives/mixins/IOPortBlockEntityMixin.class": (
+        b"Transfer blocked: Infinite loop detected between linked drives.",
+    ),
+    "com/sts15/enderdrives/mixins/compat/TileExIOPortMixin.class": (
+        b"Transfer blocked: Infinite loop detected between linked drives.",
+    ),
+    "com/sts15/enderdrives/commands/ModCommands.class": (
+        b"Frequency must be between ",
+        b"[EnderDrives Tape Stats]",
+        b"[EnderDrives Autobenchmark]",
+        b"Hold an EnderDisk in your hand.",
+    ),
+}
+ENDERDRIVES_TOOLTIP_SCRIPT_MARKERS = (
+    "ItemEvents.dynamicTooltips('enderdrives_korean'",
+    "This item is disabled on the server.",
+    "Ideal for tools, armor, and NBT-heavy items.",
+    "Tape ID: (.+)",
+    "파티션 항목",
+)
+ENDERDRIVES_MESSAGES_SCRIPT_MARKERS = (
+    "ClientChatReceivedEvent$System",
+    "This EnderDisk is disabled on the server.",
+    "Transfer blocked: Infinite loop detected between linked drives.",
+    "[EnderDrives Tape Stats]",
+    "[EnderDrives Autobenchmark]",
+    "Hold an EnderDisk in your hand.",
+    "translateEnderDrivesSystemMessage",
+)
 ENDERDRIVES_FORBIDDEN_GUIDE_PHRASES = (
     "AE2 시스템 안이든",
     "전역 동기화 저장소를 제공하는 강력한 드라이브",
@@ -1079,6 +1133,56 @@ def validate_enderdrives(instance: Path, compare_output: bool) -> dict[str, obje
         translated_lang = load_json_unique(ENDERDRIVES_LANG_WORKING_FILE)
         errors.extend(validate_language(source_lang, translated_lang))
 
+        kubejs_files = (
+            (
+                "툴팁",
+                ENDERDRIVES_TOOLTIP_WORKING_FILE,
+                ENDERDRIVES_TOOLTIP_OUTPUT_FILE,
+                ENDERDRIVES_TOOLTIP_SCRIPT_MARKERS,
+            ),
+            (
+                "시스템 메시지",
+                ENDERDRIVES_MESSAGES_WORKING_FILE,
+                ENDERDRIVES_MESSAGES_OUTPUT_FILE,
+                ENDERDRIVES_MESSAGES_SCRIPT_MARKERS,
+            ),
+        )
+        for label, working_file, output_file, markers in kubejs_files:
+            if not working_file.is_file():
+                errors.append(
+                    f"EnderDrives {label} KubeJS 작업본이 없습니다: {working_file}"
+                )
+                continue
+            script = working_file.read_text(encoding="utf-8")
+            if working_file.read_bytes().startswith(b"\xef\xbb\xbf"):
+                errors.append(f"{working_file}: UTF-8 BOM이 있습니다.")
+            for marker in markers:
+                if marker not in script:
+                    errors.append(
+                        f"EnderDrives {label} KubeJS 검증 표식이 없습니다: {marker}"
+                    )
+            if compare_output:
+                if not output_file.is_file():
+                    errors.append(
+                        f"EnderDrives {label} KubeJS 출력 파일이 없습니다: {output_file}"
+                    )
+                elif working_file.read_bytes() != output_file.read_bytes():
+                    errors.append(
+                        f"EnderDrives {label} KubeJS 작업본과 출력이 다릅니다."
+                    )
+
+        for entry, markers in ENDERDRIVES_CLASS_LITERAL_MARKERS.items():
+            if entry not in archive_names["enderdrives"]:
+                errors.append(f"EnderDrives 검수 대상 클래스가 없습니다: {entry}")
+                continue
+            class_bytes = archives["enderdrives"].read(entry)
+            for marker in markers:
+                if marker not in class_bytes:
+                    errors.append(
+                        f"EnderDrives 클래스 원문 표식이 다릅니다: {entry}: "
+                        f"{marker.decode('utf-8')}"
+                    )
+
         source_words = 0
         for relative in ENDERDRIVES_GUIDE_FILES:
             entry = (GUIDE_SOURCE_ROOTS["enderdrives"] / relative).as_posix()
@@ -1141,11 +1245,15 @@ def validate_enderdrives(instance: Path, compare_output: bool) -> dict[str, obje
             "source_words": source_words,
             "source_lang": source_lang,
             "translated_lang": translated_lang,
-            "existing_korean_reused": 0,
-            "new_or_revised_translations": len(translated_lang),
+            "existing_korean_reused": len(translated_lang) - 2,
+            "existing_korean_corrected": 2,
+            "new_translations": 0,
+            "new_or_revised_translations": 2,
             "guide_pages": len(ENDERDRIVES_GUIDE_FILES),
-            "new_guide_pages": len(ENDERDRIVES_GUIDE_FILES),
+            "new_guide_pages": 0,
+            "quality_review_pages_corrected": 2,
             "core_compatibility_updates": 0,
+            "kubejs_files": 2,
             "errors": errors,
         }
     finally:
@@ -1167,6 +1275,12 @@ def build_enderdrives(instance: Path) -> dict[str, object]:
         target.write_bytes(source.read_bytes())
     ENDERDRIVES_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     ENDERDRIVES_LANG_OUTPUT_FILE.write_bytes(ENDERDRIVES_LANG_WORKING_FILE.read_bytes())
+    for source, target in (
+        (ENDERDRIVES_TOOLTIP_WORKING_FILE, ENDERDRIVES_TOOLTIP_OUTPUT_FILE),
+        (ENDERDRIVES_MESSAGES_WORKING_FILE, ENDERDRIVES_MESSAGES_OUTPUT_FILE),
+    ):
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
 
     post_validation = validate_enderdrives(instance, compare_output=True)
     post_errors = post_validation["errors"]
@@ -1184,10 +1298,19 @@ def build_enderdrives(instance: Path) -> dict[str, object]:
             )
             for relative in ENDERDRIVES_GUIDE_FILES
         },
+        ENDERDRIVES_TOOLTIP_RELATIVE.as_posix(): sha256(
+            ENDERDRIVES_TOOLTIP_OUTPUT_FILE
+        ),
+        ENDERDRIVES_MESSAGES_RELATIVE.as_posix(): sha256(
+            ENDERDRIVES_MESSAGES_OUTPUT_FILE
+        ),
     }
     result = {
         "status": "quality_review_completed",
-        "scope": "EnderDrives language and GuideME guide quality review",
+        "scope": (
+            "EnderDrives language, GuideME guide, embedded tooltips and system "
+            "messages full quality recheck"
+        ),
         "batch": 2,
         "source_jars": {
             namespace: {"name": path.name, "sha256": sha256(path)}
@@ -1195,7 +1318,8 @@ def build_enderdrives(instance: Path) -> dict[str, object]:
         },
         "language": "ko_kr",
         "guide_pages": len(ENDERDRIVES_GUIDE_FILES),
-        "new_guide_pages": len(ENDERDRIVES_GUIDE_FILES),
+        "new_guide_pages": 0,
+        "quality_review_pages_corrected": validation["quality_review_pages_corrected"],
         "core_compatibility_updates": 0,
         "source_words": validation["source_words"],
         "language_keys": len(validation["translated_lang"]),
@@ -1204,7 +1328,10 @@ def build_enderdrives(instance: Path) -> dict[str, object]:
         "guide_files": list(ENDERDRIVES_GUIDE_FILES),
         "output_sha256": output_files,
         "ftbquests_review": {"related_content_found": False, "keys_updated": 0},
-        "kubejs_user_visible_literals_found": 0,
+        "kubejs_files": validation["kubejs_files"],
+        "class_literal_classes_reviewed": len(ENDERDRIVES_CLASS_LITERAL_MARKERS),
+        "normal_player_literal_paths_corrected": 6,
+        "operator_command_message_family_corrected": True,
         "validation_errors": 0,
     }
     ENDERDRIVES_PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)

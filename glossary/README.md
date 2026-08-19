@@ -78,6 +78,9 @@
 | Redstone Crystal | 레드스톤 결정 | 재료명 | Applied Flux | 확정 | Productive Bees의 동적 벌 이름은 검색성을 위해 `레드스톤 크리스탈`을 유지 |
 | Energy Processor | 에너지 프로세서 | 회로명 | Applied Flux | 확정 | 인쇄 회로와 프레스는 AE2 회로 계열 명명 규칙을 따름 |
 | Expanded Pattern Provider | ME 확대 패턴 공급기 | 장치명 | Expanded AE | 확정 | Extended AE의 `ME 확장 패턴 공급기`, Advanced AE의 `고급 패턴 공급기`와 구분 |
+| Ender Storage Component | 엔더 저장 부품 | 아이템명 | EnderDrives | 확정 | AE2의 `저장 부품` 계열 명명 규칙을 따름 |
+| Ender Item Storage Cell | 엔더 아이템 저장 셀 | 아이템명 | EnderDrives | 확정 | 용량 등급을 앞에 붙이고 `엔더 드라이브`와 구분 |
+| Tape Disk Item Storage Cell | 테이프 디스크 아이템 저장 셀 | 아이템명 | EnderDrives | 확정 | 가이드의 장치 분류명 `테이프 드라이브`와 구분 |
 | MEGA Pattern Provider | MEGA 패턴 공급기 | 장치명 | MEGA Cells 및 Expanded AE 연동 목록 | 확정 | `ME MEGA 패턴 공급기`처럼 `ME`를 중복하지 않음 |
 | Greater Acceleration Card | 상급 가속 카드 | 업그레이드 카드명 | Expanded AE | 확정 | AE2의 `가속 카드`보다 높은 등급을 구분 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |

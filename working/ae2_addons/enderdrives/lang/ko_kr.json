@@ -15,7 +15,7 @@
   "enderdrives.transfer_mode.bidirectional": "양방향",
   "enderdrives.transfer_mode.input": "입력 전용",
   "enderdrives.transfer_mode.output": "출력 전용",
-  "screen.enderdrives.frequency_selector": "엔더 주파수 선택",
+  "screen.enderdrives.frequency_selector": "엔더 주파수 선택기",
   "screen.enderdrives.frequency": "엔더 디스크 주파수",
   "screen.enderdrives.frequency_placeholder": "주파수...",
   "screen.enderdrives.frequency_label": "주파수",
@@ -37,7 +37,7 @@
   "tooltip.enderdrives.scope.private": "§7비공개: §e%s",
   "tooltip.enderdrives.scope.team": "§7팀: §e%s",
   "tooltip.enderdrives.scope.global": "§7전체 공개",
-  "tooltip.enderdrives.partitioned": "§7파티션 설정됨: §f%s개%s",
+  "tooltip.enderdrives.partitioned": "§7파티션 항목: §f%s개%s",
   "tooltip.enderdrives.unknown": "알 수 없음",
   "tooltip.enderdrives.tape.types": "%1$s / %2$s종",
   "tooltip.enderdrives.tape.bytes": "%1$s / %2$s바이트 사용"

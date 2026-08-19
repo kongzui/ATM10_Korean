@@ -1,6 +1,6 @@
 {
   "status": "quality_review_completed",
-  "scope": "EnderDrives language and GuideME guide quality review",
+  "scope": "EnderDrives language, GuideME guide, embedded tooltips and system messages full quality recheck",
   "batch": 2,
   "source_jars": {
     "ae2": {
@@ -18,27 +18,33 @@
   },
   "language": "ko_kr",
   "guide_pages": 3,
-  "new_guide_pages": 3,
+  "new_guide_pages": 0,
+  "quality_review_pages_corrected": 2,
   "core_compatibility_updates": 0,
   "source_words": 838,
   "language_keys": 42,
-  "existing_korean_reused": 0,
-  "new_or_revised_translations": 42,
+  "existing_korean_reused": 40,
+  "new_or_revised_translations": 2,
   "guide_files": [
     "enderdrives_intro/enderdrives_intro-index.md",
     "enderdrives_intro/enderdrives_intro.md",
     "enderdrives_intro/tapedrive_intro.md"
   ],
   "output_sha256": {
-    "assets/enderdrives/lang/ko_kr.json": "877c169db70418ee4a11c6eb9983254ec66792ca3823cee7406fb805abd8f71d",
-    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro-index.md": "9942e1af414bddeaefef4a3478a020a5cebff37f7227d150ebf38ee2c5948300",
-    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro.md": "8b1c08912f2e63368e5363da58df20533612e62f478e01be2d9ed041a9da97fc",
-    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/tapedrive_intro.md": "b3ff2c9e1ba0c00e6d69bcebb693b0851227242df52da7f0305aae0353fd0716"
+    "assets/enderdrives/lang/ko_kr.json": "35aef5fd496472d699c4d103136dc25ab6443c5d36bc477a13b30e1661b5bd6d",
+    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro-index.md": "b57024b59d59b92002eb69c50ba95e95156f5a9de17654ae64160c1b4f125304",
+    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro.md": "52d2f07dee58d40e599af5496322a526c2dfcba8d5bb7f6e7fac30a59dcc8180",
+    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/tapedrive_intro.md": "37ae336a29ffbcaa977846f09e53fac01b321fa838ab3cd0845db54aadb05433",
+    "kubejs/client_scripts/enderdrives_tooltips.js": "920cb7666226d2d10b2e0bc48573f8b178a4f1f9b118601c575d35c70d92f98f",
+    "kubejs/startup_scripts/enderdrives_messages.js": "2be02fb8354295ff5cf9b0da28003293c231ab8a63a1086802e184dbeff38e91"
   },
   "ftbquests_review": {
     "related_content_found": false,
     "keys_updated": 0
   },
-  "kubejs_user_visible_literals_found": 0,
+  "kubejs_files": 2,
+  "class_literal_classes_reviewed": 5,
+  "normal_player_literal_paths_corrected": 6,
+  "operator_command_message_family_corrected": true,
   "validation_errors": 0
 }

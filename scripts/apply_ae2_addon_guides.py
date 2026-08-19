@@ -65,6 +65,12 @@ def deployment_sources() -> dict[str, Path]:
         files = {
             "resourcepacks/ATM10_Korean/"
             + guides.ENDERDRIVES_LANG_RELATIVE: guides.ENDERDRIVES_LANG_OUTPUT_FILE,
+            guides.ENDERDRIVES_TOOLTIP_RELATIVE.as_posix(): (
+                guides.ENDERDRIVES_TOOLTIP_OUTPUT_FILE
+            ),
+            guides.ENDERDRIVES_MESSAGES_RELATIVE.as_posix(): (
+                guides.ENDERDRIVES_MESSAGES_OUTPUT_FILE
+            ),
         }
         files.update(
             {
