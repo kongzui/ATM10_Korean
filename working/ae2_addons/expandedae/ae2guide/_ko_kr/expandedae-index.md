@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: "애드온: ExpandedAE"
+  title: "애드온: Expanded AE"
   position: 150
 ---
 

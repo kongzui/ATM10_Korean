@@ -1,0 +1,73 @@
+{
+  "status": "full_recheck_completed_and_deployed",
+  "scope": "Expanded AE 전체 번역의 신규 전수 재검수",
+  "source_jar": {
+    "name": "expandedae-2.1.1.jar",
+    "sha256": "f39c0eb9c6271f54a44ffee092a29520f53000d1005849e6afada3ad9dffba14"
+  },
+  "language": {
+    "source_keys": 69,
+    "candidate_keys_reviewed": 69,
+    "retained": 66,
+    "corrected": 3,
+    "new": 0,
+    "remaining": 0
+  },
+  "guideme": {
+    "pages_reviewed": 5,
+    "pages_corrected": 5,
+    "source_words": 339,
+    "remaining": 0
+  },
+  "ftbquests": {
+    "related_quests": 0,
+    "keys_corrected": 0,
+    "remaining": 0
+  },
+  "kubejs": {
+    "related_files_reviewed": 2,
+    "announcement_literals_retained": 1,
+    "class_embedded_tooltip_literals_corrected": 1,
+    "remaining": 0
+  },
+  "other_display_paths": {
+    "recipe_advancements_reviewed": 34,
+    "advancement_display_literals": 0,
+    "patchouli_pages": 0,
+    "ponder_scenes": 0,
+    "class_files_reviewed": 120,
+    "class_embedded_literal_classes_reviewed": 2,
+    "reachable_user_visible_literals": 1,
+    "unreachable_dead_class_literals": 1,
+    "remaining": 0
+  },
+  "cross_mod_consistency": {
+    "terms_added_to_glossary": 3,
+    "intentional_exact_matches_reviewed": 24,
+    "exact_name_conflicts": 0,
+    "resolved_name_conflicts": 1
+  },
+  "validation": {
+    "language_keys_match_source": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "guide_structure_preserved": true,
+    "guide_resources_resolve": true,
+    "kubejs_syntax_valid": true,
+    "installed_kubejs_tooltip_api_verified": true,
+    "working_output_match": true,
+    "full_ae2_guide_pages_checked": 99,
+    "full_ae2_language_keys_checked": 2073,
+    "utf8_bom_files": 0,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "applied": true,
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_paths": 7,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260820_040234_385369/backup_manifest.json",
+    "pre_snapshot_files": 6077,
+    "post_snapshot_files": 6077
+  }
+}

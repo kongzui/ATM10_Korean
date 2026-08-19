@@ -18,7 +18,7 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-### ME 확대 패턴 공급기는 완전한 블록과 부품 형태가 모두 있는 더 큰 패턴 공급기이며,
+### ME 확대 패턴 공급기는 블록형과 부품형이 모두 있는 더 큰 패턴 공급기이며,
 ### 패턴을 최대 72개까지 담을 수 있습니다.
 ![ME 확대 패턴 공급기 화면](assets/exp_pp_screen.png)
 

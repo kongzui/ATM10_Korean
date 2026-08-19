@@ -1,27 +1,43 @@
 {
-  "status": "batch_15_completed",
-  "scope": "Ars Énergistique GuideME guide batch 15",
-  "batch": 15,
+  "status": "batch_12_completed",
+  "scope": "ExpandedAE GuideME guide batch 12",
+  "batch": 12,
   "source_jars": {
-    "arseng": {
-      "name": "arseng-2.1.1-beta.jar",
-      "sha256": "9e2b78101f08bf325589cb98ffba9d91171fdd76ba587d54bdef9d5de18080bc"
+    "ae2": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    },
+    "ae2wtlib": {
+      "name": "ae2wtlib-19.5.0.jar",
+      "sha256": "decf9a35c6d08c160a65a30fe623fd9c09ad5f5dd1790052917f19c82441bd16"
+    },
+    "expandedae": {
+      "name": "expandedae-2.1.1.jar",
+      "sha256": "f39c0eb9c6271f54a44ffee092a29520f53000d1005849e6afada3ad9dffba14"
     }
   },
   "language": "ko_kr",
-  "guide_pages": 1,
-  "new_guide_pages": 1,
+  "guide_pages": 5,
+  "new_guide_pages": 5,
   "core_compatibility_updates": 0,
-  "source_words": 4,
-  "language_keys": 17,
+  "source_words": 339,
+  "language_keys": 69,
   "existing_korean_reused": 0,
-  "new_or_revised_translations": 17,
+  "new_or_revised_translations": 69,
   "guide_files": [
-    "arseng-index.md"
+    "cards.md",
+    "exp_encoding.md",
+    "exp_pp.md",
+    "expandedae-index.md",
+    "qol-features.md"
   ],
   "output_sha256": {
-    "assets/arseng/lang/ko_kr.json": "d5e03557a4bd63ad8db552bfc2bfd5b292747ffab996e8b585fd938a49d5ea0f",
-    "assets/arseng/ae2guide/_ko_kr/arseng-index.md": "baf544fdb1f410ed0baec333dc513ed6b011c2a98bd30d70d85473e67ed36359"
+    "assets/expandedae/lang/ko_kr.json": "0babd68d80f592dc0e09e764477725052391f247b0fad014025e34a5b317f3d6",
+    "assets/expandedae/ae2guide/_ko_kr/cards.md": "2e6302e580c86d08e219013225e9771d3b0df85de1b7575f998b19d7c45f1e5e",
+    "assets/expandedae/ae2guide/_ko_kr/exp_encoding.md": "e2a9c33c755491e106c484a0885343dcfa43ca3deaa15829d3dc4652ef3744ce",
+    "assets/expandedae/ae2guide/_ko_kr/exp_pp.md": "5efc5a6759ffdb5e1525e1300712abd1b267be883941796fb14631f7b3228158",
+    "assets/expandedae/ae2guide/_ko_kr/expandedae-index.md": "194e81626075a918675a7ef17e9646e7a6b3b527eebdd23b5c4912c369b3e1d1",
+    "assets/expandedae/ae2guide/_ko_kr/qol-features.md": "45c4cdac5fe1228ff0118b3e34b036435bb7b8094550555cf14a14f2dc6a5f44"
   },
   "ftbquests_review": {
     "related_content_found": false,
@@ -29,6 +45,6 @@
     "handled_separately": true,
     "pending": false
   },
-  "kubejs_user_visible_literals_found": 0,
+  "kubejs_user_visible_literals_found": 1,
   "validation_errors": 0
 }

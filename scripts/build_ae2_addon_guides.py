@@ -489,6 +489,17 @@ EXPANDEDAE_KUBEJS_WORKING_FILE = EXPANDEDAE_WORKING_ROOT / EXPANDEDAE_KUBEJS_REL
 EXPANDEDAE_KUBEJS_OUTPUT_FILE = (
     PROJECT_ROOT / "output/overrides" / EXPANDEDAE_KUBEJS_RELATIVE
 )
+EXPANDEDAE_TOOLTIP_OUTPUT_FILE = (
+    PROJECT_ROOT / "output/overrides/kubejs/client_scripts/tooltips.js"
+)
+EXPANDEDAE_TOOLTIP_OVERRIDE = """    // Expanded AE
+    if (Platform.isLoaded('expandedae')) {
+        allthemods.modify('expandedae:exp_pattern_provider_upgrade', tooltip => {
+            tooltip.removeText(Text.of('a Pattern Provider to an Expanded Pattern Provider'))
+            tooltip.insert(1, Text.gray('패턴 공급기를 ME 확대 패턴 공급기로 업그레이드합니다'))
+        })
+    }
+"""
 EXPANDEDAE_BATCH_12_GUIDE_FILES = (
     "cards.md",
     "exp_encoding.md",
@@ -2065,6 +2076,13 @@ def validate_expandedae_language(
             if "assets/expandedae/lang/ko_kr.json" in archive.namelist()
             else {}
         )
+        upgrade_class = archive.read(
+            "lu/kolja/expandedae/item/misc/ExpPatternProviderUpgradeItem.class"
+        )
+        if b"a Pattern Provider to an Expanded Pattern Provider" not in upgrade_class:
+            errors.append(
+                "ExpandedAE 업그레이드 원문 툴팁을 클래스에서 확인할 수 없습니다."
+            )
     if not EXPANDEDAE_LANG_WORKING_FILE.is_file():
         errors.append(
             f"ExpandedAE 언어 작업본이 없습니다: {EXPANDEDAE_LANG_WORKING_FILE}"
@@ -2133,6 +2151,17 @@ def validate_expandedae_language(
             if len(output_lines) <= 17 or output_lines[17] != expected_announcement:
                 errors.append(
                     "ExpandedAE KubeJS 작업 범위가 출력에 보존되지 않았습니다."
+                )
+        if not EXPANDEDAE_TOOLTIP_OUTPUT_FILE.is_file():
+            errors.append(
+                "ExpandedAE 직접 삽입 툴팁 덮어쓰기 파일이 없습니다: "
+                f"{EXPANDEDAE_TOOLTIP_OUTPUT_FILE}"
+            )
+        else:
+            tooltip_output = EXPANDEDAE_TOOLTIP_OUTPUT_FILE.read_text(encoding="utf-8")
+            if tooltip_output.count(EXPANDEDAE_TOOLTIP_OVERRIDE) != 1:
+                errors.append(
+                    "ExpandedAE 직접 삽입 영어 툴팁 교체 블록이 정확히 하나가 아닙니다."
                 )
 
     reused = sum(
