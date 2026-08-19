@@ -24,9 +24,9 @@ ME 주입기는 유체, Mekanism 기체, Botania 마나, 심지어 에너지까�
 기본적으로 유체만 채울 수 있습니다. 다른 자원을 채우려면 해당 애드온을 설치해야 합니다.
 
 ### 지원 애드온:
-- Applied Flux 지원
-- Applied Mekanistics 지원
-- Applied Botanics Addon 지원
+- Applied Flux
+- Applied Mekanistics
+- Applied Botanics Addon
 
 ## ME 주입기로 자동 제작하기
 

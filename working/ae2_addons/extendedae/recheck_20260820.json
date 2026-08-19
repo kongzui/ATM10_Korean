@@ -1,0 +1,78 @@
+{
+  "status": "completed_and_deployed",
+  "scope": "Extended AE 전체 한국어 품질 재검수",
+  "reviewed_at": "2026-08-20",
+  "source_jars": {
+    "extendedae": {
+      "name": "ExtendedAE-1.21-2.2.33-neoforge.jar",
+      "sha256": "6652ed1ea4b71f585d48c05a195a77594a7a2bd1ecea0fc805db2122aafad734"
+    },
+    "ae2_compatibility": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    }
+  },
+  "language": {
+    "source_keys": 253,
+    "jar_candidate_keys": 78,
+    "existing_candidates_reviewed": 253,
+    "retained": 250,
+    "corrected": 3,
+    "new": 0
+  },
+  "guideme": {
+    "source_pages": 46,
+    "source_words": 2734,
+    "existing_candidates_reviewed": 46,
+    "retained": 44,
+    "corrected": 2,
+    "new": 0
+  },
+  "ftbquests": {
+    "related_quest_ids": 18,
+    "explicit_english_surfaces": 46,
+    "fallback_surfaces": 1,
+    "reviewed_surfaces": 47,
+    "retained": 43,
+    "corrected": 4,
+    "new": 0
+  },
+  "kubejs": {
+    "related_files_reviewed": 9,
+    "infinity_cell_names_reviewed": 37,
+    "retained": 37,
+    "corrected": 0,
+    "user_visible_script_literals": 0
+  },
+  "recipe_advancements": {
+    "files_reviewed": 52,
+    "display_literals": 0
+  },
+  "other_display_systems": {
+    "patchouli_pages": 0,
+    "ponder_scenes": 0
+  },
+  "cross_mod_consistency": {
+    "exact_name_conflicts": 0,
+    "intentional_shared_generic_name": "실리콘 블록",
+    "shared_terms_corrected": 1,
+    "corrected_term": "물질 덩어리"
+  },
+  "validation": {
+    "language_and_placeholder_errors": 0,
+    "guide_structure_errors": 0,
+    "quest_structure_errors": 0,
+    "terminology_errors": 0,
+    "json_errors": 0,
+    "static_check_errors": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "game_root",
+    "files": 4,
+    "backup_manifest": "temp/backups/20260820_033221_650369/backup_manifest.json",
+    "unexpected_changes": 0
+  },
+  "remaining_manual_review": 0,
+  "minecraft_game_screen_verified": false
+}

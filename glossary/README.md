@@ -74,6 +74,11 @@
 | Partition | 파티션 | 저장 셀 설정 용어 | AE2 본체와 직접 연동 콘텐츠 | 확정 | 저장 대상을 정하는 설정에는 `분할`을 사용하지 않음 |
 | Compression Cutoff | 압축 상한 | 대용량 셀 설정 용어 | MEGA Cells | 확정 | 자동 압축이 멈추는 가장 큰 형태이며 `기준값`과 혼용하지 않음 |
 | Bulk Item Storage Cell | MEGA 대용량 아이템 저장 셀 | 아이템명 | MEGA Cells 및 관련 퀘스트 | 확정 | 한 종류의 아이템을 사실상 무제한으로 저장하는 전용 셀 |
+| Entro | 엔트로 | 재료·시스템 고유명사 | Extended AE | 확정 | 엔트로피로 풀어 쓰지 않음 |
+| ME Canner | ME 주입기 | 기계명 | Extended AE | 확정 | 유체·화학 물질·에너지 등을 용기에 채우거나 비우는 기계 |
+| Assembler Matrix | 조립기 매트릭스 | 멀티블록명 | Extended AE | 확정 | 조합 매트릭스와 혼용하지 않음 |
+| Void Cell | ME 소거 셀 | 아이템명 | Extended AE | 확정 | Void 셀, 공허 셀과 혼용하지 않음 |
+| Threshold | 임계값 | 장치 설정 용어 | Extended AE | 확정 | 상한·하한 경계를 판정하는 값 |
 | Superdense Energy Cell | 초고밀도 에너지 셀 | 아이템·블록명 | MEGA Cells | 확정 | AE2의 `조밀한 에너지 셀`과 등급을 구분 |
 | Sky Steel | 하늘 강철 | 재료명 | MEGA Cells 및 압축 블록 | 확정 | Productive Bees의 벌 이름 `스카이 스틸 벌`과 구분 |
 | Improbable Probability Device | 불가능한 확률 장치 | 프로젝트 아이템명 | ATM Star 관련 퀘스트 | 확정 | `불가능 확률 장치`와 혼용하지 않음 |

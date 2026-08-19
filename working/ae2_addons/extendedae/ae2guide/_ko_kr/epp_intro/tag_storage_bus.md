@@ -25,4 +25,4 @@ c:raw_materials/*
 
 - 모든 주괴와 보석 허용
 
-태그 식: c:ingots/* | c:gems/*
+c:ingots/* | c:gems/*

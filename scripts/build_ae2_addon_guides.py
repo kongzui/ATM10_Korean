@@ -133,12 +133,15 @@ EXTENDEDAE_INFINITY_CELLS_RELATIVE = Path(
 )
 EXTENDEDAE_QUALITY_TRANSLATIONS = {
     "itemGroup.extendedae": "Extended AE",
+    "tag_display.tooltip.hint": "Shift 키를 누르고 있으면 태그를 표시합니다.",
     "gui.extendedae.ex_inscriber.next": "다음 각인 작업",
     "gui.extendedae.ex_inscriber.pre": "이전 각인 작업",
     "gui.extendedae.ex_inscriber.number": "각인 작업 %s",
     "gui.extendedae.pattern_modifier.multi.desc": (
         "입력 및 출력 수량을 %s배로 만듭니다."
     ),
+    "gui.extendedae.tag_storage_bus.desc.03": ("() = 연산 우선순위    * = 와일드카드"),
+    "gui.extendedae.void_cell.mode.1": "모드: 물질 덩어리",
     "gui.extendedae.set_output_sides.clear": "모든 출력 면 해제",
     "chat.config_modifier.success": "%s 설정을 수정했습니다.",
 }
@@ -148,6 +151,8 @@ EXTENDEDAE_FORBIDDEN_GUIDE_PHRASES = (
     "x16배",
     "999999",
     "ExtendedAE의",
+    "Applied Flux 지원",
+    "태그 식:",
 )
 EXTENDEDAE_BATCH_03_GUIDE_FILES = (
     "epp_intro/epp_intro-index.md",

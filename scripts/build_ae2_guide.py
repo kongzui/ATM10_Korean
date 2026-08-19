@@ -192,6 +192,7 @@ VISIBLE_IMAGE_RE = re.compile(r"!\[([^\]]*)\]\([^)]+\)")
 IMPORT_RE = re.compile(r'<ImportStructure\b[^>]*src="([^"]+)"')
 HEADING_RE = re.compile(r"(?m)^(#{1,6})\s+")
 ENGLISH_WORD_RE = re.compile(r"\b[A-Za-z]+(?:['’][A-Za-z]+)?\b")
+RESOURCE_ID_RE = re.compile(r"[a-z0-9_.-]+:[a-z0-9_./*-]+")
 
 
 def find_ae2_jar(instance: Path) -> Path:
@@ -257,6 +258,10 @@ def english_paragraph_candidates(text: str) -> list[str]:
     _, body = split_front_matter(text)
     candidates = []
     for paragraph in re.split(r"\n\s*\n", body):
+        resource_ids = RESOURCE_ID_RE.findall(paragraph)
+        resource_remainder = RESOURCE_ID_RE.sub("", paragraph)
+        if resource_ids and re.fullmatch(r"[\s|&^()!*]+", resource_remainder):
+            continue
         visible = INLINE_CODE_RE.sub(" ", paragraph)
         visible = VISIBLE_IMAGE_RE.sub(lambda match: f" {match.group(1)} ", visible)
         visible = VISIBLE_LINK_RE.sub(lambda match: f" {match.group(1)} ", visible)

@@ -580,6 +580,7 @@ def main() -> int:
         "공간 파일런",
         "공간 앵커",
         "불가능 확률 장치",
+        "파티션을 나누어",
     )
     remaining_quest_terms = [
         term for term in forbidden_quest_terms if term in quest_text
@@ -597,9 +598,15 @@ def main() -> int:
         ),
         "quest.16299B9AE87257DC.quest_subtitle": ("바로 이것을 위해",),
         "quest.26B3AE1E77A84BCB.quest_desc": ("충전된 서투스 석영", "천령석"),
+        "quest.27FC0C092EE00532.quest_desc": ("ME 주입기", "양동이", "화학 탱크"),
         "quest.33422FBDAE11AE82.quest_subtitle": ("공간 벌", "플루익스 진주"),
         "quest.33422FBDAE11AE82.title": ("플루익스 벌",),
+        "quest.3621155A4138EBCA.quest_desc": (
+            "파티션을 설정해 필터를 지정",
+            "물질 덩어리",
+        ),
         "quest.3DDB0DDA7571B2C1.title": ("ME 레벨 방출기",),
+        "quest.3CF32F2314839B1D.quest_desc": ("흠잡을 데 없는 싹 틔우는 서투스 석영",),
         "quest.42AF4EBDA5D6CC36.quest_desc": (
             "폭발내성 합금",
             "불가능한 확률 장치",
@@ -614,6 +621,10 @@ def main() -> int:
             "양자 얽힘 특이점 한 쌍",
         ),
         "quest.5233A447BAA4593C.quest_desc": ("조밀한 스마트 케이블", "피복 케이블"),
+        "quest.52CD31F48715B17C.quest_desc": (
+            "연결할 두 ME 무선 연결기",
+            "ME 무선 설정 키트",
+        ),
         "quest.5C22E3103544B120.quest_desc": ("피복 케이블", "조밀한 피복 케이블"),
         "quest.5CD8D169181C7339.quest_desc": (
             "충전 지팡이",
