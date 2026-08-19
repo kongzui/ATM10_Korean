@@ -1,0 +1,143 @@
+{
+  "status": "full_recheck_completed_and_deployed",
+  "scope": "FTB Chunks 전체 번역의 별도 신규 전수 재검수",
+  "source_jar": {
+    "name": "ftb-chunks-neoforge-2101.1.20.jar",
+    "sha256": "3bcd6f0032cec7310dc90b02b5a00e4cf1dd7a507f758bb353de864cb5e9241e",
+    "bytes": 655911,
+    "archive_entries": 370,
+    "class_files": 238,
+    "json_files": 38,
+    "language_files": 9
+  },
+  "language": {
+    "source_keys": 344,
+    "bundled_korean_candidate_keys": 74,
+    "bundled_candidates_matching_current_source": 58,
+    "bundled_outdated_keys_excluded": 16,
+    "bundled_missing_current_keys": 286,
+    "project_candidate_keys_reviewed": 344,
+    "retained": 258,
+    "corrected": 86,
+    "new_class_fallback_keys": 2,
+    "remaining": 0,
+    "output_keys": 346,
+    "output_sha256": "548fdcefdaa5b42480ccfdb4e65a35925a92ba866523f458a0a1d56b8dd05e57"
+  },
+  "ftbquests": {
+    "related_keys_reviewed": 2,
+    "existing_reviewed_translations_retained": 2,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "kubejs": {
+    "text_files_reviewed": 1020,
+    "technical_references_reviewed": 1,
+    "display_text_references": 0,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "other_mod_owned_integrations": {
+    "language_files_traced": 0,
+    "keys_traced": 0,
+    "ftbteams_dependency_keys_traced": 1,
+    "ftbteams_dependency_keys_translated": 1,
+    "scope_note": "FTB Teams 자체 번역 품질은 한 모드씩 커밋하기 위해 FTB Teams 전수 재검수 차례에 처리"
+  },
+  "other_display_paths": {
+    "recipes": 0,
+    "advancements": 0,
+    "guide_files": 0,
+    "sidebar_json_files_reviewed": 2,
+    "block_color_json_files_reviewed": 19,
+    "tag_json_files_reviewed": 6,
+    "class_files_reviewed": 238,
+    "class_translation_api_classes_reviewed": 54,
+    "class_fallback_literals_translated": 2,
+    "resourcepack_untranslatable_upstream_literals": {
+      "count": 18,
+      "commands": [
+        "Not on a dedicted server!"
+      ],
+      "client_waypoints_and_hover": [
+        "Click to copy",
+        "Transient Dev-Mode Waypoint",
+        "Death #<number>"
+      ],
+      "relative_time": [
+        "<time> ago",
+        "<time> from now"
+      ],
+      "slice_editor": [
+        "Add Slice",
+        "Remove Slice",
+        "Next Slice",
+        "Previous Slice",
+        "Export",
+        "Saved File"
+      ],
+      "debug_overlay": [
+        "TQ: <number>",
+        "Rgn: <position>",
+        "Mem: ~<number> MB",
+        "Updates: <number>",
+        "Last: <number> ns"
+      ],
+      "claim_result": [
+        "OK"
+      ],
+      "reason": "언어 키가 아닌 JAR 클래스 직접 문자열이라 리소스팩과 인스턴스 override로 바꿀 수 없음"
+    }
+  },
+  "cross_mod_consistency": {
+    "terms_added_to_glossary": 4,
+    "terms": [
+      "Chunk Claiming",
+      "Claimed Chunk",
+      "Claim Area",
+      "Force-load"
+    ],
+    "journeymap_terms_reused": [
+      "World",
+      "Waypoint",
+      "Minimap",
+      "Waypoint Beacon",
+      "Teleport"
+    ],
+    "entity_term_reused": "Entity -> 개체",
+    "translation_induced_collisions_reviewed": 0,
+    "harmful_translation_induced_collisions": 0,
+    "official_mod_name": "FTB Chunks"
+  },
+  "validation": {
+    "source_keys_and_order_match": true,
+    "class_fallback_keys_validated": true,
+    "value_types_match_source": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "line_breaks_preserved": true,
+    "leading_and_trailing_spaces_preserved": true,
+    "working_output_target_hashes_match": true,
+    "ftbquests_related_paths_checked": true,
+    "kubejs_related_paths_checked": true,
+    "other_mod_key_ownership_traced": true,
+    "jar_classes_reviewed_with_javap": true,
+    "python_ruff_checked": true,
+    "python_compile_checked": true,
+    "utf8_bom_files": 0,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "applied": true,
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "selected_paths": 1,
+    "changed_paths": 1,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260820_054414_964629/backup_manifest.json",
+    "pre_snapshot_files": 6079,
+    "post_snapshot_files": 6079
+  },
+  "remaining_manual_review": 0,
+  "minecraft_game_screen_verified": false
+}

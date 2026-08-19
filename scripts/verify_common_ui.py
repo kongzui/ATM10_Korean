@@ -144,6 +144,74 @@ JOURNEYMAP_RELATED_LANGUAGE = re.compile(r"(?i)journeymap|\bwaypoints?\b")
 JOURNEYMAP_OTHER_OWNER_CONFLICTS = re.compile(
     r"세계|비콘|전체화면|전체 지도|프리셋|엔티티|텔레포트|관중|사용자 정의"
 )
+FTBCHUNKS_CLASS_FALLBACKS = {
+    "ftbchunks.command.unloaded": "강제 로드를 해제한 청크: %d",
+    "ftbchunks.gui.open_creation_gui": "아이콘 만들기 화면 열기",
+}
+FTBCHUNKS_RECHECK_VALUES = {
+    "ftbchunks.config.client.appearance": "외형",
+    "ftbchunks.config.client.appearance.chunk_grid": "청크 격자",
+    "ftbchunks.config.client.appearance.only_surface_entities": "지표면 개체만",
+    "ftbchunks.config.client.waypoints.in_world_waypoints": "월드에 웨이포인트 표시",
+    "ftbchunks.config.client.waypoints.waypoint_fade_distance": (
+        "웨이포인트 신호기 최소 페이드 거리"
+    ),
+    "ftbchunks.config.client.waypoints.waypoint_dot_fade_distance": (
+        "웨이포인트 점 최소 페이드 거리"
+    ),
+    "ftbchunks.config.client.minimap.entities": "개체",
+    "ftbchunks.config.client.minimap.entity_heads": "개체 머리",
+    "ftbchunks.config.client.minimap.large_entities": "대형 개체",
+    "ftbchunks.config.client.minimap.visibility": "불투명도",
+    "ftbchunks.config.client.minimap.pointer_icon_mode": "대형 지도 포인터 아이콘 모드",
+    "ftbchunks.minimap.pointer_icon_mode.both": "둘 다",
+    "ftbchunks.gui.ally_whitelist": "동맹 허용 목록",
+    "ftbchunks.gui.ally_blacklist": "동맹 차단 목록",
+    "ftbchunks.gui.entity_icon_settings": "개체 아이콘 설정",
+    "ftbteamsconfig.ftbchunks.allow_pvp": "PvP 전투 허용",
+    "ftbteamsconfig.ftbchunks.entity_interact_mode": "개체 상호작용 모드",
+    "ftbteamsconfig.ftbchunks.nonliving_entity_attack_mode": "무생물 개체 공격 모드",
+    "ftbchunks.config.server.disable_protection.tooltip": (
+        "모든 사람을 신뢰할 수 있고 소유 지역을 강제 로드에만 사용하는 "
+        "개인 서버에 유용합니다."
+    ),
+    "ftbchunks.config.server.location_mode_override": '팀 "위치 공개 범위" 재정의',
+    "ftbchunks.action_prevented": (
+        "소유 지역 보호로 인해 이곳에서는 상호작용할 수 없습니다!"
+    ),
+    "ftbchunks.config.client.minimap.entity_icon": "개체 아이콘 표시 여부",
+    "ftbchunks.config.server.team_prop_defaults.def_entity_interact": (
+        "개체 상호작용 모드"
+    ),
+    "ftbchunks.config.server.team_prop_defaults.def_entity_attack": (
+        "무생물 개체 공격 모드"
+    ),
+    "ftbchunks.config.server.team_prop_defaults.def_player_visibility": (
+        "위치 공개 범위"
+    ),
+    "ftbchunks.config.server.team_prop_defaults.def_claim_visibility": (
+        "소유 지역 공개 범위"
+    ),
+    "minimap.info.ftbchunks.biome.title": "생물군계",
+    "ftbchunks.commands.owner": "소유자: ",
+}
+FTBCHUNKS_FORBIDDEN_TERMS = re.compile(
+    r"엔티티|클레임|화이트리스트|블랙리스트|세계의 웨이포인트|"
+    r"비콘|도트|바이옴|가시성|상호 작용|영토 보호|대형 미니맵"
+)
+FTBCHUNKS_QUEST_VALUES = {
+    "quest.0C93D7A607AB8B83.quest_desc": [
+        "청크를 소유하려면 &6M&r 키로 지도를 연 다음, 왼쪽 위의 "
+        "&a소유한 청크&r 아이콘을 클릭하세요.\\n\\n청크를 좌클릭하거나 "
+        "드래그하면 소유할 수 있습니다.\\n\\n청크를 강제 로드하려면 "
+        "Shift 키를 누른 채 해당 청크를 좌클릭하세요. 제대로 설정되면 "
+        "청크에 빗금이 표시됩니다."
+    ],
+    "task.103C42C743E2A2DB.title": "청크 소유",
+}
+FTBCHUNKS_KUBEJS_REFERENCES = {
+    "kubejs/server_scripts/Tweaks/tags.js",
+}
 
 
 def protected(value: object, pattern: re.Pattern[str]) -> list[str]:
@@ -235,9 +303,10 @@ def verify_target(
                     for key, value in english.items()
                     if key.startswith(target.key_prefixes)
                 }
-            fallback_values = (
-                JOURNEYMAP_CLASS_FALLBACKS if namespace == "journeymap" else {}
-            )
+            fallback_values = {
+                "journeymap": JOURNEYMAP_CLASS_FALLBACKS,
+                "ftbchunks": FTBCHUNKS_CLASS_FALLBACKS,
+            }.get(namespace, {})
             expected_keys = [*english, *fallback_values]
             working = WORK_ROOT / target.group / namespace / "ko_kr.json"
             korean = json.loads(working.read_text(encoding="utf-8"))
@@ -817,6 +886,297 @@ def verify_journeymap_related(instance: Path) -> dict[str, object]:
     }
 
 
+def verify_ftbchunks_related(instance: Path) -> dict[str, object]:
+    """FTB Chunks의 fallback, 연동 문구와 JAR 표시 경로를 검증한다."""
+    errors = []
+    output_path = OUTPUT_ROOT / "ftbchunks/lang/ko_kr.json"
+    korean = json.loads(output_path.read_text(encoding="utf-8"))
+    mismatches = sorted(
+        key
+        for key, expected in FTBCHUNKS_RECHECK_VALUES.items()
+        if korean.get(key) != expected
+    )
+    if mismatches:
+        errors.append(f"FTB Chunks 확정 교정값 불일치: {mismatches}")
+    fallback_mismatches = sorted(
+        key
+        for key, expected in FTBCHUNKS_CLASS_FALLBACKS.items()
+        if korean.get(key) != expected
+    )
+    if fallback_mismatches:
+        errors.append(f"FTB Chunks 클래스 fallback 불일치: {fallback_mismatches}")
+    forbidden = sorted(
+        key
+        for key, value in korean.items()
+        if FTBCHUNKS_FORBIDDEN_TERMS.search(str(value))
+    )
+    if forbidden:
+        errors.append(f"FTB Chunks 금지·충돌 용어 잔존: {forbidden}")
+
+    source_lang = instance / "config/ftbquests/quests/lang/en_us.snbt"
+    source_quests = parse_language_snbt(source_lang)
+    related_quest_keys = sorted(
+        key
+        for key, value in source_quests.items()
+        if re.search(
+            r"(?i)\b(?:claim(?:ed|ing)?|force[- ]?load(?:ed|ing)?) chunks?\b",
+            flatten(value),
+        )
+    )
+    if related_quest_keys != sorted(FTBCHUNKS_QUEST_VALUES):
+        errors.append(f"FTB Chunks 관련 퀘스트 범위 변경: {related_quest_keys}")
+    quest_output = parse_language_snbt(
+        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+    )
+    quest_mismatches = sorted(
+        key
+        for key, expected in FTBCHUNKS_QUEST_VALUES.items()
+        if quest_output.get(key) != expected
+    )
+    if quest_mismatches:
+        errors.append(f"FTB Chunks 관련 퀘스트 번역 불일치: {quest_mismatches}")
+    quest_working = json.loads(
+        (PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    working_quest_mismatches = sorted(
+        key
+        for key, expected in FTBCHUNKS_QUEST_VALUES.items()
+        if quest_working.get(key) != expected
+    )
+    if working_quest_mismatches:
+        errors.append(
+            "FTB Chunks 관련 퀘스트 작업본 불일치: " f"{working_quest_mismatches}"
+        )
+
+    kubejs_files_reviewed = 0
+    kubejs_refs = []
+    kubejs_root = instance / "kubejs"
+    for path in sorted(kubejs_root.rglob("*")):
+        if not path.is_file() or path.suffix.lower() not in {
+            ".js",
+            ".json",
+            ".snbt",
+            ".txt",
+        }:
+            continue
+        kubejs_files_reviewed += 1
+        text = path.read_text(encoding="utf-8-sig")
+        if re.search(
+            r"(?i)ftb.?chunks|\b(?:claim(?:ed|ing)?|"
+            r"force[- ]?load(?:ed|ing)?) chunks?\b",
+            text,
+        ):
+            kubejs_refs.append(path.relative_to(instance).as_posix())
+    if set(kubejs_refs) != FTBCHUNKS_KUBEJS_REFERENCES:
+        errors.append(f"FTB Chunks KubeJS 참조 범위 변경: {kubejs_refs}")
+
+    chunks_target = next(
+        target
+        for target in TARGETS
+        if target.group == "map_team" and target.namespaces == ("ftbchunks",)
+    )
+    chunks_jar = find_jar(instance, chunks_target)
+    other_language_files = 0
+    other_owned_keys = 0
+    for jar_path in sorted((instance / "mods").glob("*.jar")):
+        if jar_path == chunks_jar:
+            continue
+        with ZipFile(jar_path) as archive:
+            for name in archive.namelist():
+                if not re.fullmatch(r"assets/[^/]+/lang/en_us\.json", name):
+                    continue
+                values = load_json(archive, name)
+                related = {
+                    key: value
+                    for key, value in values.items()
+                    if re.search(r"(?i)ftb.?chunks", f"{key} {value}")
+                }
+                if related:
+                    other_language_files += 1
+                    other_owned_keys += len(related)
+    if other_language_files or other_owned_keys:
+        errors.append(
+            "예상하지 않은 다른 모드 소유 FTB Chunks 연동 언어: "
+            f"파일={other_language_files}, 키={other_owned_keys}"
+        )
+
+    teams_output = json.loads(
+        (OUTPUT_ROOT / "ftbteams/lang/ko_kr.json").read_text(encoding="utf-8")
+    )
+    if "ftbteams.team_not_found" not in teams_output:
+        errors.append("FTB Teams 의존 오류 메시지 번역이 없습니다")
+
+    with ZipFile(chunks_jar) as archive:
+        names = archive.namelist()
+        english = load_json(archive, "assets/ftbchunks/lang/en_us.json")
+        class_files = [name for name in names if name.endswith(".class")]
+        json_files = [name for name in names if name.endswith(".json")]
+        language_files = [name for name in json_files if "/lang/" in name]
+        advancement_files = [
+            name for name in json_files if "/advancement" in name.lower()
+        ]
+        recipe_files = [name for name in json_files if "/recipe" in name.lower()]
+        guide_files = [
+            name
+            for name in names
+            if any(
+                marker in name.lower()
+                for marker in ("patchouli", "guideme", "modonomicon")
+            )
+        ]
+        sidebar_files = [name for name in json_files if "/sidebar_buttons/" in name]
+        block_color_files = [
+            name for name in json_files if name.endswith("ftbchunks_block_colors.json")
+        ]
+        tag_files = [name for name in json_files if "/tags/" in name]
+        translation_api_classes = sum(
+            b"literal" in archive.read(name) or b"translatable" in archive.read(name)
+            for name in class_files
+        )
+        commands_class = archive.read("dev/ftb/mods/ftbchunks/FTBChunksCommands.class")
+        entity_row_class = archive.read(
+            "dev/ftb/mods/ftbchunks/client/gui/"
+            "EntityIconSettingsScreen$RowPanel.class"
+        )
+        hardcoded_markers = {
+            "commands": (commands_class, (b"Not on a dedicted server!",)),
+            "client": (
+                archive.read("dev/ftb/mods/ftbchunks/client/FTBChunksClient.class"),
+                (b"Click to copy", b"Transient Dev-Mode Waypoint", b"Death #"),
+            ),
+            "relative_time": (
+                archive.read(
+                    "dev/ftb/mods/ftbchunks/client/gui/"
+                    "ChunkScreenPanel$ChunkButton.class"
+                ),
+                (b" ago", b" from now"),
+            ),
+            "slice_editor": (
+                archive.read(
+                    "dev/ftb/mods/ftbchunks/client/gui/SliceCreationGUI.class"
+                ),
+                (
+                    b"Add Slice",
+                    b"Remove Slice",
+                    b"Next Slice",
+                    b"Previous Slice",
+                    b"Export",
+                    b"Saved File",
+                ),
+            ),
+            "debug": (
+                archive.read(
+                    "dev/ftb/mods/ftbchunks/client/minimap/components/"
+                    "DebugComponent.class"
+                ),
+                (b"TQ: ", b"Rgn: ", b"Mem: ~", b"Updates: ", b"Last: %,d ns"),
+            ),
+            "claim_result": (
+                archive.read("dev/ftb/mods/ftbchunks/data/ClaimedChunkImpl.class"),
+                (b"OK",),
+            ),
+        }
+
+    fallback_class_markers = {
+        "ftbchunks.command.unloaded": commands_class,
+        "ftbchunks.gui.open_creation_gui": entity_row_class,
+    }
+    missing_fallback_markers = sorted(
+        key
+        for key, class_data in fallback_class_markers.items()
+        if key.encode() not in class_data
+    )
+    if missing_fallback_markers:
+        errors.append(
+            f"FTB Chunks 클래스 fallback 호출 변경: {missing_fallback_markers}"
+        )
+    missing_hardcoded_markers = sorted(
+        f"{scope}:{marker.decode('utf-8')}"
+        for scope, (class_data, markers) in hardcoded_markers.items()
+        for marker in markers
+        if marker not in class_data
+    )
+    if missing_hardcoded_markers:
+        errors.append(
+            f"FTB Chunks 클래스 직접 표시 문자열 범위 변경: {missing_hardcoded_markers}"
+        )
+    inventory = (
+        len(names),
+        len(class_files),
+        len(json_files),
+        len(language_files),
+        len(advancement_files),
+        len(recipe_files),
+        len(guide_files),
+        len(sidebar_files),
+        len(block_color_files),
+        len(tag_files),
+        translation_api_classes,
+    )
+    if inventory != (370, 238, 38, 9, 0, 0, 0, 2, 19, 6, 54):
+        errors.append(f"FTB Chunks JAR 표시 경로 인벤토리 변경: {inventory}")
+
+    spacing_mismatches = []
+    for key, english_value in english.items():
+        korean_value = korean.get(key)
+        if not isinstance(english_value, str) or not isinstance(korean_value, str):
+            continue
+        english_edges = (
+            english_value[: len(english_value) - len(english_value.lstrip())],
+            english_value[len(english_value.rstrip()) :],
+        )
+        korean_edges = (
+            korean_value[: len(korean_value) - len(korean_value.lstrip())],
+            korean_value[len(korean_value.rstrip()) :],
+        )
+        if english_edges != korean_edges:
+            spacing_mismatches.append(key)
+    if spacing_mismatches:
+        errors.append(f"FTB Chunks 앞뒤 공백 불일치: {spacing_mismatches}")
+
+    collisions: dict[str, set[str]] = {}
+    for key, english_value in english.items():
+        collisions.setdefault(str(korean[key]), set()).add(str(english_value))
+    collisions = {
+        value: source_values
+        for value, source_values in collisions.items()
+        if len(source_values) > 1
+    }
+    if collisions:
+        errors.append(f"FTB Chunks 번역 유발 명칭 충돌: {collisions}")
+
+    if errors:
+        raise RuntimeError("FTB Chunks 연관 경로 검증 실패:\n" + "\n".join(errors))
+    return {
+        "group": "map_team",
+        "namespace": "ftbchunks_related_paths",
+        "source_jar_sha256": hashlib.sha256(chunks_jar.read_bytes()).hexdigest(),
+        "class_files_reviewed": len(class_files),
+        "class_translation_api_classes_reviewed": translation_api_classes,
+        "class_fallback_literals_translated": len(FTBCHUNKS_CLASS_FALLBACKS),
+        "class_hardcoded_display_literals_deferred": sum(
+            len(markers) for _, markers in hardcoded_markers.values()
+        ),
+        "ftbquests_keys_reviewed": len(related_quest_keys),
+        "kubejs_files_reviewed": kubejs_files_reviewed,
+        "kubejs_technical_references_reviewed": len(kubejs_refs),
+        "other_mod_language_files_traced": other_language_files,
+        "other_mod_owned_keys_traced": other_owned_keys,
+        "ftbteams_dependency_keys_traced": 1,
+        "translation_induced_collisions_reviewed": len(collisions),
+        "harmful_translation_induced_collisions": 0,
+        "advancement_files": len(advancement_files),
+        "recipe_files": len(recipe_files),
+        "guide_files": len(guide_files),
+        "sidebar_json_files": len(sidebar_files),
+        "block_color_json_files": len(block_color_files),
+        "tag_json_files": len(tag_files),
+        "validation": "passed",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("group", choices=GROUPS + ("all",))
@@ -845,6 +1205,7 @@ def main() -> int:
         rows.append(verify_jade_related(instance))
     if args.group in {"map_team", "all"}:
         rows.append(verify_journeymap_related(instance))
+        rows.append(verify_ftbchunks_related(instance))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 
