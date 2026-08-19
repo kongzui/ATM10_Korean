@@ -85,6 +85,9 @@
 | Export Card | 반출 카드 | 아이템명 | AE2 Import Export Card | 확정 | ME 시스템에서 플레이어 인벤토리로 옮기는 방향을 기준으로 함 |
 | ME Network Analyzer | ME 네트워크 분석기 | 아이템명 | AE2 Network Analyzer | 확정 | JAR 언어 파일의 미국식 철자 `Analyzer`를 공식 모드 표기에 유지함 |
 | ME Tick Profiler | ME 틱 프로파일러 | 아이템명 | AE2 Network Analyzer | 확정 | 틱 속도가 아니라 장치별 틱 처리 시간을 측정하는 도구 |
+| ME Requester | ME 요청기 | 블록명 | ME Requester | 확정 | ME 시스템에서 목표 재고를 자동 제작으로 유지하는 장치 |
+| ME Requester Terminal | ME 요청기 터미널 | 터미널명 | ME Requester | 확정 | 여러 ME 요청기를 한곳에서 관리하는 터미널 |
+| Wireless Requester Terminal | 무선 요청기 터미널 | 터미널명 | ME Requester | 확정 | AE2WTLib 연동 무선 터미널이며 유선 터미널명과 구분 |
 | MEGA Pattern Provider | MEGA 패턴 공급기 | 장치명 | MEGA Cells 및 Expanded AE 연동 목록 | 확정 | `ME MEGA 패턴 공급기`처럼 `ME`를 중복하지 않음 |
 | Greater Acceleration Card | 상급 가속 카드 | 업그레이드 카드명 | Expanded AE | 확정 | AE2의 `가속 카드`보다 높은 등급을 구분 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |

@@ -1,6 +1,6 @@
 {
-  "status": "merequester_full_language_completed",
-  "scope": "ME Requester full language file before guide batch 14",
+  "status": "quality_review_language_completed",
+  "scope": "ME Requester language full quality recheck",
   "batch": 14,
   "source_jars": {
     "merequester": {
@@ -10,25 +10,13 @@
   },
   "language": "ko_kr",
   "language_keys": 27,
-  "existing_korean_reused": 0,
-  "existing_korean_corrected": 0,
-  "new_translations": 27,
+  "existing_korean_reused": 25,
+  "existing_korean_corrected": 2,
+  "new_translations": 0,
   "ftbquests_keys_updated": 0,
-  "kubejs_files_reviewed": 0,
   "kubejs_user_visible_literals_found": 0,
-  "apply_roots": [
-    "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10"
-  ],
-  "game_root_configured": true,
-  "application_pending": false,
-  "application_pending_reason": null,
-  "backup_root": "temp/backups/20260713_213941_667253/game_root",
-  "backup_manifest": "temp/backups/20260713_213941_667253/backup_manifest.json",
-  "deployed_hashes_match": true,
-  "original_jars_modified": false,
-  "unexpected_instance_changes": [],
   "output_sha256": {
-    "assets/merequester/lang/ko_kr.json": "e50d7bb987f8038490a60541fd65ac682711ff0a7682df32a0b3fd0cbc89d982"
+    "assets/merequester/lang/ko_kr.json": "869627baf46aa351634e2e85a8120de5017d070c52354e69a9372a886cdddc59"
   },
   "validation_errors": 0
 }

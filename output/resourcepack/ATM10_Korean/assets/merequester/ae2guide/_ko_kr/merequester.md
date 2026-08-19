@@ -15,13 +15,13 @@ item_ids:
   <ItemImage id="requester_terminal" scale="3"/>
 </Row>
 
-[ME 시스템](ae2:getting-started.md#your-very-first-me-system)의 아이템과 유체 재고를 유지할 수 있게 해주는 애드온 모드입니다.
+[ME 시스템](ae2:getting-started.md#your-very-first-me-system)의 아이템과 유체 재고를 유지해 주는 애드온 모드입니다.
 <br/>
 
 ## 시작하기
 
-먼저 <ItemLink id="requester"/>를 놓고 네트워크에 연결하세요. [자동 제작](ae2:ae2-mechanics/autocrafting.md) 기능이
-있는 네트워크와 같아야 합니다. 이 네트워크에는 [제작 CPU](ae2:ae2-mechanics/autocrafting.md#the-crafting-cpu)와
+먼저 <ItemLink id="requester"/>를 놓고 [자동 제작](ae2:ae2-mechanics/autocrafting.md) 설비가 있는 바로 그
+네트워크에 연결하세요. 이 네트워크에는 [제작 CPU](ae2:ae2-mechanics/autocrafting.md#the-crafting-cpu)와
 <ItemLink id="ae2:pattern_provider"/>가 있어야 합니다.
 
 <RecipeFor id="requester"/>
@@ -50,8 +50,8 @@ item_ids:
 ### 재고로 유지할 대상
 
 두 번째 열에서 재고로 유지할 대상을 지정할 수 있습니다. 이 슬롯은 고스트 슬롯이므로 실제 아이템을 보관하지
-않습니다. 아이템을 슬롯으로 끌 때 오른쪽 클릭하면 수량을 1로 설정하고, 왼쪽 클릭하면 끌고 있는 아이템 묶음의
-수량을 사용합니다. 유체가 든 양동이를 슬롯으로 끌 때 오른쪽 클릭하면 담긴 유체를, 왼쪽 클릭하면 양동이 자체를
+않습니다. 아이템을 슬롯으로 끌 때 우클릭하면 수량을 1로 설정하고, 좌클릭하면 끌고 있는 아이템 묶음의
+수량을 사용합니다. 유체가 든 양동이를 슬롯으로 끌 때 우클릭하면 담긴 유체를, 좌클릭하면 양동이 자체를
 설정합니다. 아이템을 Shift+클릭하여 종류를 빠르게 설정할 수도 있습니다. 원하는 아이템이 인벤토리에 없다면
 Applied Energistics가 지원하는 조합법 뷰어에서 끌어다 놓을 수도 있습니다.
 <br/>
@@ -67,8 +67,8 @@ Applied Energistics가 지원하는 조합법 뷰어에서 끌어다 놓을 수�
 ### 일괄 요청량
 
 다음 입력란에서는 현재 재고가 목표 재고량보다 적어졌을 때 한 번에 요청할 수량을 지정합니다.<br/>
-여러 개별 작업 대신 전체 수량을 한 번에 요청하므로 [제작 CPU](ae2:ae2-mechanics/autocrafting.md#the-crafting-cpu)와
-제작에 사용하는 기계의 부담을 줄일 수 있습니다.
+전체 수량을 여러 개의 개별 작업으로 나누지 않고 한 번에 요청하므로
+[제작 CPU](ae2:ae2-mechanics/autocrafting.md#the-crafting-cpu)와 제작에 사용하는 기계의 부담을 줄일 수 있습니다.
 <br/>
 
 ### 적용 버튼
@@ -100,7 +100,7 @@ Applied Energistics가 지원하는 조합법 뷰어에서 끌어다 놓을 수�
 
 ### 빨간색 - 재료 부족
 
-현재 제작 작업을 시작하는 데 필요한 재료가 시스템에 부족합니다. 시스템에 재료가 충분해지면 바로 계속합니다.
+현재 제작 작업을 시작하는 데 필요한 재료가 시스템에 부족합니다. 시스템에 재료가 충분해지면 작업을 바로 계속합니다.
 <br/>
 
 ### 노란색 - 제작 중
@@ -111,13 +111,13 @@ Applied Energistics가 지원하는 조합법 뷰어에서 끌어다 놓을 수�
 
 ### 보라색 - 내보내는 중
 
-<ItemLink id="requester"/>가 현재 작업의 결과를 모두 받아 저장 시스템으로 내보내고 있습니다.<br/>
-보통은 이 상태가 보이지 않습니다. 너무 오래 지속된다면 저장 시스템에 공간이 부족하다는 뜻입니다.
+<ItemLink id="requester"/>가 현재 작업의 결과를 모두 받아 ME 시스템으로 내보내고 있습니다.<br/>
+보통은 이 상태가 보이지 않습니다. 너무 오래 지속된다면 ME 저장소에 공간이 부족하다는 뜻입니다.
 <br/>
 
 ### 블록 모습
 
-<ItemLink id="requester"/>의 요청 중 하나라도 대기 또는 비어 있음 이외의 상태라면 블록 모습이 바뀝니다.
+<ItemLink id="requester"/>의 요청 중 하나라도 대기나 비어 있음이 아닌 상태라면 블록 모습이 바뀝니다.
 
 <Row>
   <Column>

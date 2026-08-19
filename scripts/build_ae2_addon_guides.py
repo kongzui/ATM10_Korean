@@ -638,6 +638,26 @@ MEREQUESTER_QUEST_OVERRIDES_FILE = MEREQUESTER_WORKING_ROOT / "quest_overrides.j
 MEREQUESTER_LANGUAGE_COMPLETION_FILE = (
     MEREQUESTER_WORKING_ROOT / "language_completion.json"
 )
+MEREQUESTER_PROGRESS_FILE = MEREQUESTER_WORKING_ROOT / "quality_review_progress.json"
+MEREQUESTER_QUALITY_LANGUAGE_CORRECTIONS = {
+    "tooltip.merequester.requester_desc": (
+        "필요할 때 제작을 새로 요청해 아이템과 유체의 재고를 자동으로 유지합니다. "
+        "ME 네트워크에 연결해야 하며 ME 요청기 터미널에서 접근할 수 있습니다. "
+        "블록을 부수면 설정이 사라집니다. 메모리 카드로 설정을 복사할 수 있습니다."
+    ),
+    "tooltip.merequester.export_desc": (
+        "요청기가 제작 결과를 ME 시스템으로 내보내고 있습니다. 이 상태가 오래 "
+        "지속되면 ME 저장소에 빈 공간이 없는 것입니다."
+    ),
+}
+MEREQUESTER_FORBIDDEN_GUIDE_PHRASES = (
+    "유지할 수 있게 해주는",
+    "네트워크와 같아야 합니다",
+    "오른쪽 클릭",
+    "왼쪽 클릭",
+    "여러 개별 작업 대신",
+    "대기 또는 비어 있음 이외의 상태",
+)
 
 ARSENG_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/arseng"
 ARSENG_LANG_WORKING_FILE = ARSENG_WORKING_ROOT / "lang/ko_kr.json"
@@ -2643,6 +2663,12 @@ def validate_merequester_language(
     else:
         translated_lang = load_json_unique(MEREQUESTER_LANG_WORKING_FILE)
         errors.extend(validate_language(source_lang, translated_lang))
+        for key, expected in MEREQUESTER_QUALITY_LANGUAGE_CORRECTIONS.items():
+            if translated_lang.get(key) != expected:
+                errors.append(
+                    f"ME Requester 재검수 번역이 다릅니다: {key}="
+                    f"{translated_lang.get(key)!r}, 기대값={expected!r}"
+                )
         if list(source_lang) != list(translated_lang):
             errors.append("ME Requester 언어 키 순서가 영어 원문과 다릅니다.")
         if MEREQUESTER_LANG_WORKING_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
@@ -2703,15 +2729,16 @@ def build_merequester_language(instance: Path) -> dict[str, object]:
     assert isinstance(jar, Path)
     quest_keys, kubejs_keys = merequester_related_counts()
     result = {
-        "status": "merequester_full_language_completed",
-        "scope": "ME Requester full language file before guide batch 14",
+        "status": "quality_review_language_completed",
+        "scope": "ME Requester language full quality recheck",
         "batch": 14,
         "source_jars": {"merequester": {"name": jar.name, "sha256": sha256(jar)}},
         "language": "ko_kr",
         "language_keys": len(validation["translated_lang"]),
-        "existing_korean_reused": validation["existing_korean_reused"],
-        "existing_korean_corrected": validation["existing_korean_corrected"],
-        "new_translations": validation["new_translations"],
+        "existing_korean_reused": len(validation["translated_lang"])
+        - len(MEREQUESTER_QUALITY_LANGUAGE_CORRECTIONS),
+        "existing_korean_corrected": len(MEREQUESTER_QUALITY_LANGUAGE_CORRECTIONS),
+        "new_translations": 0,
         "ftbquests_keys_updated": quest_keys,
         "kubejs_user_visible_literals_found": kubejs_keys,
         "output_sha256": {
@@ -4183,6 +4210,12 @@ def validate_merequester_guide(
         )
         errors.extend(validate_numbers(MEREQUESTER_GUIDE_RELATIVE, source, translated))
         errors.extend(validate_tag_nesting(MEREQUESTER_GUIDE_RELATIVE, translated))
+        for phrase in MEREQUESTER_FORBIDDEN_GUIDE_PHRASES:
+            if phrase in translated:
+                errors.append(
+                    f"{MEREQUESTER_GUIDE_RELATIVE}: 재검수 전 표현이 남아 있습니다: "
+                    f"{phrase}"
+                )
         errors.extend(
             validate_resources(
                 archive_names, "merequester", MEREQUESTER_GUIDE_RELATIVE, translated
@@ -4207,7 +4240,11 @@ def validate_merequester_guide(
                     core.ENGLISH_WORD_RE.findall(core.extract_visible_text(source))
                 ),
                 "guide_pages": 1,
-                "new_guide_pages": 1,
+                "new_guide_pages": 0,
+                "quality_review_pages_corrected": 1,
+                "class_files_reviewed": sum(
+                    name.endswith(".class") for name in archive_names["merequester"]
+                ),
                 "core_compatibility_updates": 0,
             }
         )
@@ -4238,8 +4275,8 @@ def build_merequester_guide(instance: Path) -> dict[str, object]:
     assert isinstance(jars, dict)
     quest_keys, kubejs_keys = merequester_related_counts()
     result = {
-        "status": "batch_14_completed",
-        "scope": "ME Requester GuideME guide batch 14",
+        "status": "quality_review_completed",
+        "scope": "ME Requester language and GuideME full quality recheck",
         "batch": 14,
         "source_jars": {
             namespace: {"name": path.name, "sha256": sha256(path)}
@@ -4247,12 +4284,18 @@ def build_merequester_guide(instance: Path) -> dict[str, object]:
         },
         "language": "ko_kr",
         "guide_pages": 1,
-        "new_guide_pages": 1,
+        "new_guide_pages": 0,
+        "quality_review_pages_corrected": validation["quality_review_pages_corrected"],
         "core_compatibility_updates": 0,
         "source_words": validation["source_words"],
         "language_keys": len(validation["translated_lang"]),
-        "existing_korean_reused": validation["existing_korean_reused"],
-        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "existing_korean_reused": len(validation["translated_lang"])
+        - len(MEREQUESTER_QUALITY_LANGUAGE_CORRECTIONS),
+        "new_or_revised_translations": len(MEREQUESTER_QUALITY_LANGUAGE_CORRECTIONS),
+        "class_files_reviewed": validation["class_files_reviewed"],
+        "class_internal_diagnostic_literal_classes": 8,
+        "config_comment_literals_reviewed": 3,
+        "class_user_visible_literals_found": 0,
         "guide_files": [MEREQUESTER_GUIDE_RELATIVE],
         "output_sha256": {
             MEREQUESTER_LANG_RELATIVE: sha256(MEREQUESTER_LANG_OUTPUT_FILE),
@@ -4269,7 +4312,7 @@ def build_merequester_guide(instance: Path) -> dict[str, object]:
         "kubejs_user_visible_literals_found": kubejs_keys,
         "validation_errors": 0,
     }
-    PROGRESS_FILE.write_text(
+    MEREQUESTER_PROGRESS_FILE.write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return result
@@ -4446,6 +4489,7 @@ def main() -> int:
             "megacells",
             "ae2importexportcard",
             "ae2netanalyser",
+            "merequester",
         ),
         help="현재 활성 배치와 별개로 다시 빌드할 연동 모드",
     )
@@ -4479,6 +4523,10 @@ def main() -> int:
         result = build_netanalyser_language(instance)
     elif args.mod == "ae2netanalyser":
         result = build_netanalyser_guide(instance)
+    elif args.mod == "merequester" and args.language_only:
+        result = build_merequester_language(instance)
+    elif args.mod == "merequester":
+        result = build_merequester_guide(instance)
     elif args.language_only and ACTIVE_BATCH in {7, 8}:
         result = build_advancedae_language(instance)
     elif args.language_only and ACTIVE_BATCH in {9, 10}:

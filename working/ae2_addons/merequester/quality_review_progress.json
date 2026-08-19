@@ -1,8 +1,12 @@
 {
   "status": "quality_review_completed",
-  "scope": "ME Requester language, GuideME guide, FTB Quests, and KubeJS quality review",
+  "scope": "ME Requester language and GuideME full quality recheck",
   "batch": 14,
   "source_jars": {
+    "ae2": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    },
     "merequester": {
       "name": "merequester-neoforge-1.21.1-1.4.3.jar",
       "sha256": "68f3c861a802d48afeb6e3a48e8ee4f8633904340ac3f89f17493dc84490e385"
@@ -10,24 +14,30 @@
   },
   "language": "ko_kr",
   "guide_pages": 1,
+  "new_guide_pages": 0,
+  "quality_review_pages_corrected": 1,
+  "core_compatibility_updates": 0,
+  "source_words": 775,
   "language_keys": 27,
-  "existing_korean_reused": 0,
-  "new_or_revised_translations": 27,
-  "quality_review_corrections": 3,
-  "quality_review_guide_pages_corrected": 1,
+  "existing_korean_reused": 25,
+  "new_or_revised_translations": 2,
+  "class_files_reviewed": 75,
+  "class_internal_diagnostic_literal_classes": 8,
+  "config_comment_literals_reviewed": 3,
+  "class_user_visible_literals_found": 0,
+  "guide_files": [
+    "merequester.md"
+  ],
   "output_sha256": {
-    "assets/merequester/lang/ko_kr.json": "ef504f4c2a4614843964cc9766874a7e4026f6c9001ab14f3be6207c3a63b48e",
-    "assets/merequester/ae2guide/_ko_kr/merequester.md": "219dc9a28a442f99e439ffdb9efa299ccfeb856dcc7c216982f628a96850402b"
+    "assets/merequester/lang/ko_kr.json": "869627baf46aa351634e2e85a8120de5017d070c52354e69a9372a886cdddc59",
+    "assets/merequester/ae2guide/_ko_kr/merequester.md": "a47599b30fbfb1616f7f6c34ba1df669d75bb1872c1f88454d4e1a764379ff63"
   },
   "ftbquests_review": {
-    "related_keys_reviewed": 0,
-    "quality_review_keys_corrected": 0,
+    "related_content_found": false,
+    "keys_updated": 0,
+    "handled_separately": true,
     "pending": false
   },
-  "kubejs": {
-    "related_files_reviewed": 0,
-    "user_visible_literals_found": 0,
-    "quality_review_keys_corrected": 0
-  },
+  "kubejs_user_visible_literals_found": 0,
   "validation_errors": 0
 }

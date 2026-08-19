@@ -10,7 +10,7 @@
   "gui.merequester.requester_terminal": "ME 요청기 터미널",
   "gui.merequester.no_requesters": "ME 요청기를 찾을 수 없습니다!",
 
-  "tooltip.merequester.requester_desc": "필요할 때 새 제작을 요청하여 아이템과 유체 재고를 자동으로 유지합니다. ME 네트워크에 연결해야 하며 ME 요청기 터미널에서 접근할 수 있습니다. 블록을 부수면 설정이 사라집니다. 메모리 카드로 설정을 복사할 수 있습니다.",
+  "tooltip.merequester.requester_desc": "필요할 때 제작을 새로 요청해 아이템과 유체의 재고를 자동으로 유지합니다. ME 네트워크에 연결해야 하며 ME 요청기 터미널에서 접근할 수 있습니다. 블록을 부수면 설정이 사라집니다. 메모리 카드로 설정을 복사할 수 있습니다.",
 
   "tooltip.merequester.shift_for_more": "자세히 보려면 %s",
   "tooltip.merequester.enter_to_submit": "적용하려면 %s",
@@ -33,5 +33,5 @@
   "tooltip.merequester.link": "제작 중",
   "tooltip.merequester.link_desc": "시스템에서 요청한 아이템 또는 유체를 제작하고 있습니다.",
   "tooltip.merequester.export": "내보내는 중",
-  "tooltip.merequester.export_desc": "요청기가 제작 결과를 시스템으로 내보내고 있습니다. 이 상태가 오래 지속되면 내보낼 공간이 없는 것입니다."
+  "tooltip.merequester.export_desc": "요청기가 제작 결과를 ME 시스템으로 내보내고 있습니다. 이 상태가 오래 지속되면 ME 저장소에 빈 공간이 없는 것입니다."
 }
