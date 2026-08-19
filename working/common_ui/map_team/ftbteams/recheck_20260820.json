@@ -1,0 +1,126 @@
+{
+  "status": "full_recheck_completed_and_deployed",
+  "scope": "FTB Teams 전체 번역의 별도 신규 전수 재검수",
+  "source_jar": {
+    "name": "ftb-teams-neoforge-2101.1.10.jar",
+    "sha256": "a656f2aa0e11a933aab3ba697690aa0eb2041f65e6c5daa448897ee0a6d37a6c",
+    "bytes": 302712,
+    "archive_entries": 176,
+    "class_files": 131,
+    "json_files": 13,
+    "language_files": 11
+  },
+  "language": {
+    "source_keys": 107,
+    "bundled_korean_candidate_keys": 27,
+    "bundled_candidates_matching_current_source": 27,
+    "bundled_outdated_keys_excluded": 0,
+    "bundled_missing_current_keys": 80,
+    "project_candidate_keys_reviewed": 107,
+    "retained": 65,
+    "corrected": 42,
+    "new_sidebar_fallback_keys": 1,
+    "remaining": 0,
+    "output_keys": 108,
+    "output_sha256": "339fba5bdca645c2d1eb0964c88ccccfe21cf23bc51e00011b7e5a0653d81d2f"
+  },
+  "ftbquests": {
+    "related_keys_reviewed": 1,
+    "existing_reviewed_translations_retained": 1,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "kubejs": {
+    "text_files_reviewed": 1020,
+    "ftbteams_references": 0,
+    "display_text_references": 0,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "other_mod_owned_integrations": {
+    "language_files_traced": 4,
+    "keys_traced": 36,
+    "currently_translated_keys": 36,
+    "term_conflicts_deferred_to_owner_mods": [
+      "securitycraft:securitycraft.configuration.enable_team_ownership.tooltip",
+      "securitycraft:securitycraft.configuration.team_ownership_precedence.tooltip"
+    ],
+    "scope_note": "한 모드씩 커밋하기 위해 SecurityCraft 소유 키는 해당 모드 전수 재검수 차례에 교정"
+  },
+  "other_display_paths": {
+    "recipes": 0,
+    "advancements": 0,
+    "guide_files": 0,
+    "sidebar_json_files_reviewed": 2,
+    "class_files_reviewed": 131,
+    "class_translation_api_classes_reviewed": 35,
+    "new_sidebar_fallback_keys": 1,
+    "external_minecraft_translation_keys_traced": 1,
+    "resourcepack_untranslatable_upstream_literals": {
+      "count": 10,
+      "client_team_manager": [
+        "System",
+        "Unknown"
+      ],
+      "commands": [
+        "<none>",
+        "Team Type",
+        "Owner",
+        "Members",
+        "Server ID:"
+      ],
+      "party_team": [
+        "Already owner!",
+        "None",
+        "Allies:"
+      ],
+      "reason": "언어 키가 아닌 JAR 클래스 직접 문자열이라 리소스팩과 인스턴스 override로 바꿀 수 없음"
+    }
+  },
+  "cross_mod_consistency": {
+    "terms_added_to_glossary": 4,
+    "terms": [
+      "Team Member",
+      "Team Officer",
+      "Party Team",
+      "Team Chat"
+    ],
+    "translation_induced_collisions_reviewed": 1,
+    "harmless_collisions": [
+      "Ally와 Allies -> 동맹"
+    ],
+    "harmful_translation_induced_collisions": 0,
+    "official_mod_name": "FTB Teams"
+  },
+  "validation": {
+    "source_keys_and_order_match": true,
+    "sidebar_fallback_key_validated": true,
+    "value_types_match_source": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "line_breaks_preserved": true,
+    "leading_and_trailing_spaces_preserved": true,
+    "working_output_target_hashes_match": true,
+    "ftbquests_related_paths_checked": true,
+    "kubejs_related_paths_checked": true,
+    "other_mod_key_ownership_traced": true,
+    "jar_class_display_markers_checked": true,
+    "python_ruff_checked": true,
+    "python_compile_checked": true,
+    "utf8_bom_files": 0,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "applied": true,
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "selected_paths": 1,
+    "changed_paths": 1,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260820_055516_395542/backup_manifest.json",
+    "pre_snapshot_files": 6079,
+    "post_snapshot_files": 6079
+  },
+  "remaining_manual_review": 0,
+  "minecraft_game_screen_verified": false
+}

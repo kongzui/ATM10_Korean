@@ -212,6 +212,58 @@ FTBCHUNKS_QUEST_VALUES = {
 FTBCHUNKS_KUBEJS_REFERENCES = {
     "kubejs/server_scripts/Tweaks/tags.js",
 }
+FTBTEAMS_CLASS_FALLBACKS = {
+    "sidebar_button.ftbteams.team_lives": "팀 목숨",
+}
+FTBTEAMS_RECHECK_VALUES = {
+    "ftbteams.player_already_in_party": "'%s' 플레이어는 이미 파티에 속해 있습니다!",
+    "ftbteams.cant_edit": "편집할 수 없습니다: %s",
+    "ftbteams.not_member": "%s은(는) %s의 팀원이 아닙니다!",
+    "ftbteams.name_too_short": "팀 이름이 너무 짧습니다! (3글자 이상이어야 합니다)",
+    "ftbteams.team_already_exists": "'%s' 팀이 이미 존재합니다!",
+    "ftbteams.out_of_lives": ("파티에 남은 목숨이 없어 새 팀원을 초대할 수 없습니다!"),
+    "ftbteams.info.id": "긴 팀 ID: %s",
+    "ftbteams.info.members": "팀원:",
+    "ftbteams.info.members.none": "팀원 없음",
+    "ftbteams.list": "모든 FTB Teams: %s",
+    "ftbteams.cant_kick_owner": "소유자를 추방할 수 없습니다!",
+    "ftbteamsconfig.ftbteams.max_msg_history_size": "메시지 기록 최대 개수",
+    "ftbteams.privacy_mode.private": "비공개",
+    "ftbteams.privacy_mode.public": "공개",
+    "ftbteams.create_party.info": ("파티 팀을 만들어 팀원을 초대하고 함께 진행하세요."),
+    "ftbteams.gui.disband": "파티 해산",
+    "ftbteams.gui.disband.confirm": "파티를 해산하시겠습니까?",
+    "ftbteams.gui.add_members": "팀원 추가",
+    "ftbteams.gui.remove_ally": "%s와의 동맹 해제",
+    "ftbteams.gui.remove_ally.confirm": "%s와의 동맹을 해제하시겠습니까?",
+    "ftbteams.ranks.invited": "초대받음",
+    "ftbteams.ranks.member": "팀원",
+    "key.ftbteams.open_gui": "팀 화면 열기",
+    "ftbteams.message.invited": "%s에게 초대를 보냈습니다",
+    "ftbteams.message.joined": "%s 님이 파티에 참가했습니다!",
+    "ftbteams.message.demoted": "%s 님을 팀원으로 강등했습니다!",
+    "ftbteams.message.created_server_team": "'%s' 서버 팀을 만들었습니다!",
+    "ftbteams.message.deleted_server_team": "'%s' 서버 팀을 삭제했습니다!",
+    "ftbteams.message.team_disbanded": ("파티 팀을 강제로 해산했습니다: '%s' (%s)!"),
+    "ftbteams.message.chat_redirected.on": ("채팅 메시지가 팀 채팅으로 전송됩니다"),
+    "ftbteams.message.chat_redirected.off": ("채팅 메시지가 기본 채팅으로 전송됩니다"),
+    "ftbteams.message.added_stage": "팀 스테이지를 추가했습니다: %s",
+    "ftbteams.message.removed_stage": "팀 스테이지를 제거했습니다: %s",
+    "ftbteams.message.team_stages_header": "이 팀의 팀 스테이지(%s개):",
+    "ftbteams.click_show_info": "클릭하여 팀 정보 표시",
+}
+FTBTEAMS_FORBIDDEN_TERMS = re.compile(r"구성원|멤버|FTB 팀|팀 GUI|파티 해체|개인|공용")
+FTBTEAMS_QUEST_VALUES = {
+    "quest.5AC1BE754210429E.quest_desc": [
+        "친구들과 팀을 만들고 싶다면 &a/ftbteams party create (팀 이름)&r "
+        "명령어를 사용하세요!"
+    ],
+}
+FTBTEAMS_RELATED_LANGUAGE = re.compile(r"(?i)ftb.?teams|team.?stage")
+FTBTEAMS_OTHER_OWNER_CONFLICTS = {
+    "securitycraft:securitycraft.configuration.enable_team_ownership.tooltip",
+    "securitycraft:securitycraft.configuration.team_ownership_precedence.tooltip",
+}
 
 
 def protected(value: object, pattern: re.Pattern[str]) -> list[str]:
@@ -306,6 +358,7 @@ def verify_target(
             fallback_values = {
                 "journeymap": JOURNEYMAP_CLASS_FALLBACKS,
                 "ftbchunks": FTBCHUNKS_CLASS_FALLBACKS,
+                "ftbteams": FTBTEAMS_CLASS_FALLBACKS,
             }.get(namespace, {})
             expected_keys = [*english, *fallback_values]
             working = WORK_ROOT / target.group / namespace / "ko_kr.json"
@@ -1177,6 +1230,266 @@ def verify_ftbchunks_related(instance: Path) -> dict[str, object]:
     }
 
 
+def verify_ftbteams_related(instance: Path) -> dict[str, object]:
+    """FTB Teams의 fallback, 연동 문구와 JAR 표시 경로를 검증한다."""
+    errors = []
+    output_path = OUTPUT_ROOT / "ftbteams/lang/ko_kr.json"
+    korean = json.loads(output_path.read_text(encoding="utf-8"))
+    mismatches = sorted(
+        key
+        for key, expected in FTBTEAMS_RECHECK_VALUES.items()
+        if korean.get(key) != expected
+    )
+    if mismatches:
+        errors.append(f"FTB Teams 확정 교정값 불일치: {mismatches}")
+    fallback_mismatches = sorted(
+        key
+        for key, expected in FTBTEAMS_CLASS_FALLBACKS.items()
+        if korean.get(key) != expected
+    )
+    if fallback_mismatches:
+        errors.append(f"FTB Teams 표시 fallback 불일치: {fallback_mismatches}")
+    forbidden = sorted(
+        key
+        for key, value in korean.items()
+        if FTBTEAMS_FORBIDDEN_TERMS.search(str(value))
+    )
+    if forbidden:
+        errors.append(f"FTB Teams 금지·충돌 용어 잔존: {forbidden}")
+
+    source_lang = instance / "config/ftbquests/quests/lang/en_us.snbt"
+    source_quests = parse_language_snbt(source_lang)
+    related_quest_keys = sorted(
+        key
+        for key, value in source_quests.items()
+        if re.search(r"(?i)ftb.?teams", flatten(value))
+    )
+    if related_quest_keys != sorted(FTBTEAMS_QUEST_VALUES):
+        errors.append(f"FTB Teams 관련 퀘스트 범위 변경: {related_quest_keys}")
+    quest_output = parse_language_snbt(
+        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+    )
+    quest_mismatches = sorted(
+        key
+        for key, expected in FTBTEAMS_QUEST_VALUES.items()
+        if quest_output.get(key) != expected
+    )
+    if quest_mismatches:
+        errors.append(f"FTB Teams 관련 퀘스트 번역 불일치: {quest_mismatches}")
+    quest_working = json.loads(
+        (PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    working_quest_mismatches = sorted(
+        key
+        for key, expected in FTBTEAMS_QUEST_VALUES.items()
+        if quest_working.get(key) != expected
+    )
+    if working_quest_mismatches:
+        errors.append(
+            "FTB Teams 관련 퀘스트 작업본 불일치: " f"{working_quest_mismatches}"
+        )
+
+    kubejs_files_reviewed = 0
+    kubejs_refs = []
+    kubejs_root = instance / "kubejs"
+    for path in sorted(kubejs_root.rglob("*")):
+        if not path.is_file() or path.suffix.lower() not in {
+            ".js",
+            ".json",
+            ".snbt",
+            ".txt",
+        }:
+            continue
+        kubejs_files_reviewed += 1
+        text = path.read_text(encoding="utf-8-sig")
+        if re.search(r"(?i)ftb.?teams", text):
+            kubejs_refs.append(path.relative_to(instance).as_posix())
+    if kubejs_refs:
+        errors.append(f"예상하지 않은 FTB Teams KubeJS 참조: {kubejs_refs}")
+
+    teams_target = next(
+        target
+        for target in TARGETS
+        if target.group == "map_team" and target.namespaces == ("ftbteams",)
+    )
+    teams_jar = find_jar(instance, teams_target)
+    other_language_files = 0
+    other_owned_keys = 0
+    other_missing_keys = []
+    other_term_conflicts = []
+    for jar_path in sorted((instance / "mods").glob("*.jar")):
+        if jar_path == teams_jar:
+            continue
+        with ZipFile(jar_path) as archive:
+            for name in archive.namelist():
+                if not re.fullmatch(r"assets/[^/]+/lang/en_us\.json", name):
+                    continue
+                values = load_json(archive, name)
+                related = {
+                    key: value
+                    for key, value in values.items()
+                    if FTBTEAMS_RELATED_LANGUAGE.search(f"{key} {value}")
+                }
+                if not related:
+                    continue
+                other_language_files += 1
+                other_owned_keys += len(related)
+                namespace = name.split("/")[1]
+                related_output = OUTPUT_ROOT / namespace / "lang/ko_kr.json"
+                translated = (
+                    json.loads(related_output.read_text(encoding="utf-8"))
+                    if related_output.is_file()
+                    else {}
+                )
+                for key in related:
+                    marker = f"{namespace}:{key}"
+                    if key not in translated:
+                        other_missing_keys.append(marker)
+                    elif re.search(r"FTB 팀", str(translated[key])):
+                        other_term_conflicts.append(marker)
+    if (other_language_files, other_owned_keys) != (4, 36):
+        errors.append(
+            "다른 모드 소유 FTB Teams 연동 범위 불일치: "
+            f"파일={other_language_files}, 키={other_owned_keys}"
+        )
+    if other_missing_keys:
+        errors.append(f"다른 모드 소유 FTB Teams 연동 번역 누락: {other_missing_keys}")
+    if set(other_term_conflicts) != FTBTEAMS_OTHER_OWNER_CONFLICTS:
+        errors.append(
+            "다른 모드 소유 FTB Teams 용어 충돌 범위 변경: " f"{other_term_conflicts}"
+        )
+
+    with ZipFile(teams_jar) as archive:
+        names = archive.namelist()
+        english = load_json(archive, "assets/ftbteams/lang/en_us.json")
+        class_files = [name for name in names if name.endswith(".class")]
+        json_files = [name for name in names if name.endswith(".json")]
+        language_files = [name for name in json_files if "/lang/" in name]
+        advancement_files = [
+            name for name in json_files if "/advancement" in name.lower()
+        ]
+        recipe_files = [name for name in json_files if "/recipe" in name.lower()]
+        guide_files = [
+            name
+            for name in names
+            if any(
+                marker in name.lower()
+                for marker in ("patchouli", "guideme", "modonomicon")
+            )
+        ]
+        sidebar_files = [name for name in json_files if "/sidebar_buttons/" in name]
+        translation_api_classes = sum(
+            b"literal" in archive.read(name) or b"translatable" in archive.read(name)
+            for name in class_files
+        )
+        client_manager = archive.read(
+            "dev/ftb/mods/ftbteams/data/ClientTeamManagerImpl.class"
+        )
+        commands = archive.read("dev/ftb/mods/ftbteams/data/FTBTeamsCommands.class")
+        party_team = archive.read("dev/ftb/mods/ftbteams/data/PartyTeam.class")
+        utils = archive.read("dev/ftb/mods/ftbteams/data/FTBTUtils.class")
+
+    expected_sidebar_files = {
+        "assets/ftbteams/sidebar_buttons/my_team.json",
+        "assets/ftbteams/sidebar_buttons/team_lives.json",
+    }
+    if set(sidebar_files) != expected_sidebar_files:
+        errors.append(f"FTB Teams 사이드바 표시 경로 변경: {sidebar_files}")
+    hardcoded_markers = {
+        "client_team_manager": (client_manager, (b"System", b"Unknown")),
+        "commands": (
+            commands,
+            (b"<none>", b"Team Type", b"Owner", b"Members", b"Server ID:"),
+        ),
+        "party_team": (party_team, (b"Already owner!", b"None", b"Allies:")),
+    }
+    missing_hardcoded_markers = sorted(
+        f"{scope}:{marker.decode('utf-8')}"
+        for scope, (class_data, markers) in hardcoded_markers.items()
+        for marker in markers
+        if marker not in class_data
+    )
+    if missing_hardcoded_markers:
+        errors.append(
+            "FTB Teams 클래스 직접 표시 문자열 범위 변경: "
+            f"{missing_hardcoded_markers}"
+        )
+    if b"chat.copy.click" not in utils:
+        errors.append("FTB Teams의 Minecraft 복사 도움말 키 호출을 찾지 못했습니다")
+    inventory = (
+        len(names),
+        len(class_files),
+        len(json_files),
+        len(language_files),
+        len(advancement_files),
+        len(recipe_files),
+        len(guide_files),
+        len(sidebar_files),
+        translation_api_classes,
+    )
+    if inventory != (176, 131, 13, 11, 0, 0, 0, 2, 35):
+        errors.append(f"FTB Teams JAR 표시 경로 인벤토리 변경: {inventory}")
+
+    spacing_mismatches = []
+    for key, english_value in english.items():
+        korean_value = korean.get(key)
+        if not isinstance(english_value, str) or not isinstance(korean_value, str):
+            continue
+        english_edges = (
+            english_value[: len(english_value) - len(english_value.lstrip())],
+            english_value[len(english_value.rstrip()) :],
+        )
+        korean_edges = (
+            korean_value[: len(korean_value) - len(korean_value.lstrip())],
+            korean_value[len(korean_value.rstrip()) :],
+        )
+        if english_edges != korean_edges:
+            spacing_mismatches.append(key)
+    if spacing_mismatches:
+        errors.append(f"FTB Teams 앞뒤 공백 불일치: {spacing_mismatches}")
+
+    collisions: dict[str, set[str]] = {}
+    for key, english_value in english.items():
+        collisions.setdefault(str(korean[key]), set()).add(str(english_value))
+    collisions = {
+        value: source_values
+        for value, source_values in collisions.items()
+        if len(source_values) > 1
+    }
+    expected_collisions = {"동맹": {"Ally", "Allies"}}
+    if collisions != expected_collisions:
+        errors.append(f"FTB Teams 번역 유발 명칭 충돌 범위 변경: {collisions}")
+
+    if errors:
+        raise RuntimeError("FTB Teams 연관 경로 검증 실패:\n" + "\n".join(errors))
+    return {
+        "group": "map_team",
+        "namespace": "ftbteams_related_paths",
+        "source_jar_sha256": hashlib.sha256(teams_jar.read_bytes()).hexdigest(),
+        "class_files_reviewed": len(class_files),
+        "class_translation_api_classes_reviewed": translation_api_classes,
+        "class_hardcoded_display_literals_deferred": sum(
+            len(markers) for _, markers in hardcoded_markers.values()
+        ),
+        "external_minecraft_translation_keys_traced": 1,
+        "ftbquests_keys_reviewed": len(related_quest_keys),
+        "kubejs_files_reviewed": kubejs_files_reviewed,
+        "kubejs_references_reviewed": len(kubejs_refs),
+        "other_mod_language_files_traced": other_language_files,
+        "other_mod_owned_keys_traced": other_owned_keys,
+        "other_mod_owned_term_conflicts_deferred": len(other_term_conflicts),
+        "translation_induced_collisions_reviewed": len(collisions),
+        "harmful_translation_induced_collisions": 0,
+        "advancement_files": len(advancement_files),
+        "recipe_files": len(recipe_files),
+        "guide_files": len(guide_files),
+        "sidebar_json_files": len(sidebar_files),
+        "validation": "passed",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("group", choices=GROUPS + ("all",))
@@ -1206,6 +1519,7 @@ def main() -> int:
     if args.group in {"map_team", "all"}:
         rows.append(verify_journeymap_related(instance))
         rows.append(verify_ftbchunks_related(instance))
+        rows.append(verify_ftbteams_related(instance))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 
