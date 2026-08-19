@@ -1,0 +1,103 @@
+{
+  "scope": "More Overlays Updated 전체 번역 독립 재검수",
+  "priority_reason": "청크 경계·몹 생성 밝기·JEI 아이템 검색을 반복해서 표시하는 공통 플레이 보조 모드",
+  "source": {
+    "jar": "moreoverlays-1.24.2-mc1.21.1-neoforge.jar",
+    "sha256": "1ab0d1a49e31bbe5cf0cdfe5ba29fd923eca5ac60cdb51164780aa3db317c4b1",
+    "bytes": 112984,
+    "entries": 75,
+    "classes": 42,
+    "json_files": 7,
+    "language_files": 6,
+    "advancement_files": 0,
+    "recipe_files": 0,
+    "guide_files": 0
+  },
+  "language_review": {
+    "english_keys": 40,
+    "bundled_korean_candidates": 0,
+    "existing_project_candidates_reviewed": 40,
+    "existing_candidates_retained": 24,
+    "existing_candidates_corrected": 16,
+    "new_translations": 0,
+    "missing_translatable_keys": 0,
+    "english_values_retained": [
+      "key.moreoverlays.category"
+    ],
+    "english_value_reason": "공식 모드명 More Overlays Updated 유지"
+  },
+  "display_path_review": {
+    "config_sections": 4,
+    "config_options": 28,
+    "legacy_language_categories": [
+      "itemsearch"
+    ],
+    "direct_translation_classes": 3,
+    "jei_search_box_integration_reviewed": true,
+    "light_overlay_function": "광원 위치가 아니라 밝기에 따른 몹 생성 가능 여부를 표시",
+    "corrected_areas": [
+      "몹 생성 밝기 오버레이",
+      "2블록 공간 검사와 몹 생성 목록 검사",
+      "안전 밝기 레벨과 숫자 표시",
+      "청크 중앙선",
+      "몹 생성 불가 색상",
+      "사용자 지정 이름 검색",
+      "검색창과 제외된 슬롯"
+    ]
+  },
+  "hardcoded_display_review": {
+    "config_comment_tooltips": 32,
+    "status_and_state_literals": 9,
+    "total_user_visible_literals": 41,
+    "disposition": "언어 키를 호출하지 않는 원본 클래스 직접 표시 문구라 리소스팩으로 교체할 수 없어 상위 모드 제한으로 분리",
+    "original_jar_modified": false
+  },
+  "cross_mod_review": {
+    "project_language_files": 285,
+    "identical_korean_keys_reviewed": 30,
+    "identical_korean_values_reviewed": 4,
+    "benign_values": [
+      "렌더링 설정",
+      "설정 초기화",
+      "아이템 검색",
+      "저장"
+    ],
+    "harmful_collisions_remaining": 0,
+    "glossary_terms_added": 5
+  },
+  "related_content_review": {
+    "ftbquests_files": 142,
+    "ftbquests_direct_references": 0,
+    "kubejs_files": 1020,
+    "kubejs_direct_references": 0,
+    "ftbquests_or_kubejs_changes": 0
+  },
+  "validation": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_syntax_and_duplicate_keys": "passed",
+    "keys_types_placeholders_linebreaks_and_format_codes": "passed",
+    "config_and_class_display_paths": "passed",
+    "python_compile": "passed",
+    "ruff_format_changed_python": "passed",
+    "ruff_check_all": "passed",
+    "ruff_format_full": "pre-existing unrelated scripts/snapshot_instance.py would be reformatted",
+    "git_diff_check": "passed",
+    "instance_snapshot": "planned resourcepack file one changed; mods, FTB Quests and KubeJS unchanged"
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "target_type": "game_root",
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_path": "resourcepacks/ATM10_Korean/assets/moreoverlays/lang/ko_kr.json",
+    "sha256": "5fb2e76165371ea62058af3e7fec1525e40e407a3ed2de9912e36dcd0d727aaa",
+    "backup_manifest": "temp/backups/20260820_071115_422803/backup_manifest.json",
+    "unexpected_changes": 0
+  },
+  "remaining": {
+    "untranslated_language_keys": 0,
+    "manual_translation_review_items": 0,
+    "upstream_hardcoded_display_literals": 41
+  }
+}

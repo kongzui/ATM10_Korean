@@ -1,0 +1,18 @@
+{
+  "key.moreoverlays.lightoverlay.desc": "몹 생성 밝기 오버레이 표시 전환",
+  "config.moreoverlays.category.lightoverlay": "몹 생성 밝기 오버레이",
+  "config.moreoverlays.lightoverlay.ignorelayer": "2블록 공간 검사 생략",
+  "config.moreoverlays.lightoverlay.ignorespawnlist": "몹 생성 목록 검사 생략",
+  "config.moreoverlays.lightoverlay.simplecheck": "간소화된 개체 생성 검사",
+  "config.moreoverlays.lightoverlay.savelevel": "안전 밝기 레벨",
+  "config.moreoverlays.lightoverlay.spawn_numbers": "밝기를 숫자로 표시",
+  "config.moreoverlays.chunkbounds.radius": "경계 표시 반경",
+  "config.moreoverlays.chunkbounds.middle": "현재 청크 중앙선 표시",
+  "config.moreoverlays.rendersettings.chunk_mid_color": "청크: 중앙선 색상",
+  "config.moreoverlays.rendersettings.spawn_safe_color": "몹 생성: 생성 불가 색상",
+  "config.moreoverlays.searchoverlay.search_enabled": "아이템 검색 활성화",
+  "config.moreoverlays.searchoverlay.custom_search": "사용자 지정 이름 검색",
+  "config.moreoverlays.searchoverlay.search_box_color": "검색창 색상",
+  "config.moreoverlays.searchoverlay.search_slot_color": "제외된 슬롯 색상",
+  "config.moreoverlays.searchoverlay.search_slot_alpha": "제외된 슬롯 투명도"
+}
