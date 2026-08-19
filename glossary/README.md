@@ -117,6 +117,14 @@
 | Waypoint Beacon | 웨이포인트 신호기 | 지도 UI 용어 | JourneyMap 및 직접 연동 콘텐츠 | 확정 | `비콘`과 섞지 않으며 Minecraft의 신호기 블록과 문맥으로 구분 |
 | Teleport | 순간이동 | Minecraft 공식 동작 용어 | 전체 프로젝트 | 확정 | 사용자 표시 동작은 `텔레포트`와 섞지 않으며 명령 식별자는 예외 |
 | Spectator | 관전자 | Minecraft 공식 게임 모드 용어 | 전체 프로젝트 | 확정 | `관중`과 섞지 않음 |
+| Waystone | 웨이스톤 | 블록·시스템명 | Waystones 및 직접 연동 콘텐츠 | 확정 | 일반 지도 지점인 `웨이포인트`와 구분 |
+| Sharestone | 셰어스톤 | 블록명 | Waystones 및 직접 연동 콘텐츠 | 확정 | 색상별 이름에도 같은 음역 사용 |
+| Portstone | 포트스톤 | 블록명 | Waystones 및 직접 연동 콘텐츠 | 확정 | `포털석`처럼 뜻을 새로 만들지 않음 |
+| Warp Plate | 워프 플레이트 | 블록명 | Waystones 및 직접 연동 콘텐츠 | 확정 | 이동 동작 설명에서는 `순간이동`을 사용 |
+| Attuned Shard | 조율된 조각 | 아이템명 | Waystones 및 직접 연동 콘텐츠 | 확정 | 조율이 풀리거나 소모되는 상태 설명에도 `조율` 사용 |
+| Global Waystone | 전체 공개 웨이스톤 | 공개 범위 용어 | Waystones 및 직접 연동 콘텐츠 | 확정 | 설정값 `GLOBAL`은 그대로 두되 사용자 설명에서 `글로벌`, `전역`과 섞지 않음 |
+| Warp Modifier | 워프 수정자 | 기능·아이템 용어 | Waystones 및 직접 연동 콘텐츠 | 확정 | 순간이동 시 상태 효과를 적용하는 기능 |
+| Cooldown | 재사용 대기시간 | 공통 UI 용어 | 전체 프로젝트 | 확정 | `재사용 대기 시간`, `쿨다운`과 섞지 않음 |
 | MEGA Pattern Provider | MEGA 패턴 공급기 | 장치명 | MEGA Cells 및 Expanded AE 연동 목록 | 확정 | `ME MEGA 패턴 공급기`처럼 `ME`를 중복하지 않음 |
 | Greater Acceleration Card | 상급 가속 카드 | 업그레이드 카드명 | Expanded AE | 확정 | AE2의 `가속 카드`보다 높은 등급을 구분 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |

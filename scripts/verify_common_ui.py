@@ -264,6 +264,86 @@ FTBTEAMS_OTHER_OWNER_CONFLICTS = {
     "securitycraft:securitycraft.configuration.enable_team_ownership.tooltip",
     "securitycraft:securitycraft.configuration.team_ownership_precedence.tooltip",
 }
+WAYSTONES_CLASS_FALLBACKS = {
+    "tooltip.waystones.sharestone": "다른 셰어스톤으로 순간이동",
+    "tooltip.waystones.visibility": "공개 범위: %s",
+}
+WAYSTONES_RECHECK_VALUES = {
+    "item.waystones.crumbling_attuned_shard": "부서져 가는 조율된 조각",
+    "gui.waystones.waystone_settings.modifiers_active": "활성화된 수정자: %d개",
+    "gui.waystones.waystone_settings.visibility.activation": "활성화하면 표시",
+    "gui.waystones.waystone_settings.visibility.global": "모든 플레이어에게 표시",
+    "gui.waystones.inventory.confirm_return": (
+        "정말 이 웨이스톤으로 귀환하시겠습니까?"
+    ),
+    "chat.waystones.cannot_dimension_warp": ("이 월드 간에는 순간이동할 수 없습니다."),
+    "chat.waystones.cannot_transport_leashed_dimensional": (
+        "목줄에 묶인 몹과 함께 월드 사이를 이동할 수 없습니다."
+    ),
+    "chat.waystones.warp_plate_has_invalid_target": (
+        "이 워프 플레이트 안의 조각은 조율이 풀렸습니다."
+    ),
+    "tooltip.waystones.cooldown_left": "재사용 대기시간: %d초",
+    "tooltip.waystones.attuned_shard.attunement_lost": ("이 조각은 조율이 풀렸습니다."),
+    "tooltip.waystones.not_enough_xp": ("경험치가 부족합니다! (필요 레벨: %d)"),
+    "waystones.untitled_waystone": "이름 없는 웨이스톤",
+    "commands.waystones.list.entry.owned": "-     소유: %s (%s): %s",
+    "commands.waystones.list.entry.activated": "- 활성화: %s (%s): %s",
+    "commands.waystones.activate.success.single": (
+        "'%s' 웨이스톤을 %s 님에게 활성화했습니다."
+    ),
+    "commands.waystones.forget.success.single": (
+        "'%s' 웨이스톤을 %s 님에게서 비활성화했습니다."
+    ),
+    "commands.waystones.cooldown.reset.success.single": (
+        "재사용 대기시간 '%s': %s 님에게 초기화했습니다."
+    ),
+    "waystones.configuration.general.restrictedWaystones": "편집 제한 웨이스톤",
+    "waystones.configuration.general.allowedVisibilities.tooltip": (
+        "모든 플레이어가 전체 공개 웨이스톤을 만들 수 있게 하려면 "
+        '"GLOBAL"을 추가하세요.'
+    ),
+    "waystones.configuration.general.defaultVisibility.tooltip": (
+        "새로 배치하거나 발견한 웨이스톤을 기본적으로 전체 공개로 설정하려면 "
+        '"GLOBAL"로 설정하세요.'
+    ),
+    "waystones.configuration.teleports.enableCosts": "비용 사용",
+    "waystones.configuration.teleports.enableCooldowns": "재사용 대기시간 사용",
+    "waystones.configuration.teleports.enableModifiers": "수정자 사용",
+    "waystones.configuration.teleports.transportLeashed": "목줄에 묶인 몹 이동",
+    "waystones.configuration.teleports.entityDenyList": "개체 차단 목록",
+    "waystones.configuration.inventoryButton.inventoryButtonX": (
+        "인벤토리 워프 버튼 X 위치"
+    ),
+    "waystones.configuration.inventoryButton.inventoryButtonY": (
+        "인벤토리 워프 버튼 Y 위치"
+    ),
+    "waystones.configuration.worldGen.chunksBetweenWildWaystones": (
+        "야생 웨이스톤 간 청크 거리"
+    ),
+    "waystones.configuration.worldGen.wildWaystonesDimensionDenyList": (
+        "차원 차단 목록"
+    ),
+    "waystones.configuration.worldGen.nameGenerationPresets": ("이름 생성 사전 설정"),
+    "waystones.configuration.worldGen.spawnInVillages": "마을에 생성",
+    "waystones.configuration.compatibility": "모드 연동",
+    "waystones.configuration.compatibility.journeyMap": "JourneyMap 지원 사용",
+    "waystones.configuration.compatibility.dynmap": "Dynmap 지원 사용",
+    "waystones.configuration.blueMap.enabled": "BlueMap 지원 사용",
+    "waystones.configuration.blueMap.includeUndiscoveredWaystones": (
+        "미발견 웨이스톤 포함"
+    ),
+    "config.jade.plugin_waystones.waystone": "Waystones",
+}
+WAYSTONES_FORBIDDEN_TERMS = re.compile(
+    r"세계|엔티티|프리셋|텔레포트|재사용 대기 시간|글로벌|전역|" r"거부 목록|모드 통합"
+)
+WAYSTONES_RELATED_LANGUAGE = re.compile(
+    r"(?i)\b(?:waystones?|sharestones?|portstones?)\b"
+)
+WAYSTONES_KUBEJS_REFERENCES = {
+    "kubejs/server_scripts/Tweaks/tags.js",
+}
 
 
 def protected(value: object, pattern: re.Pattern[str]) -> list[str]:
@@ -359,6 +439,7 @@ def verify_target(
                 "journeymap": JOURNEYMAP_CLASS_FALLBACKS,
                 "ftbchunks": FTBCHUNKS_CLASS_FALLBACKS,
                 "ftbteams": FTBTEAMS_CLASS_FALLBACKS,
+                "waystones": WAYSTONES_CLASS_FALLBACKS,
             }.get(namespace, {})
             expected_keys = [*english, *fallback_values]
             working = WORK_ROOT / target.group / namespace / "ko_kr.json"
@@ -1490,6 +1571,296 @@ def verify_ftbteams_related(instance: Path) -> dict[str, object]:
     }
 
 
+def verify_waystones_related(instance: Path) -> dict[str, object]:
+    """Waystones의 fallback, 연동 문구와 JAR 표시 경로를 검증한다."""
+    errors = []
+    output_path = OUTPUT_ROOT / "waystones/lang/ko_kr.json"
+    korean = json.loads(output_path.read_text(encoding="utf-8"))
+    mismatches = sorted(
+        key
+        for key, expected in WAYSTONES_RECHECK_VALUES.items()
+        if korean.get(key) != expected
+    )
+    if mismatches:
+        errors.append(f"Waystones 확정 교정값 불일치: {mismatches}")
+    fallback_mismatches = sorted(
+        key
+        for key, expected in WAYSTONES_CLASS_FALLBACKS.items()
+        if korean.get(key) != expected
+    )
+    if fallback_mismatches:
+        errors.append(f"Waystones 클래스 fallback 불일치: {fallback_mismatches}")
+    forbidden = sorted(
+        key
+        for key, value in korean.items()
+        if WAYSTONES_FORBIDDEN_TERMS.search(str(value))
+    )
+    if forbidden:
+        errors.append(f"Waystones 금지·충돌 용어 잔존: {forbidden}")
+
+    source_lang = instance / "config/ftbquests/quests/lang/en_us.snbt"
+    source_quests = parse_language_snbt(source_lang)
+    related_quest_language_keys = sorted(
+        key
+        for key, value in source_quests.items()
+        if WAYSTONES_RELATED_LANGUAGE.search(flatten(value))
+    )
+    if related_quest_language_keys:
+        errors.append(
+            "예상하지 않은 Waystones 관련 FTB Quests 언어 키: "
+            f"{related_quest_language_keys}"
+        )
+
+    quest_files = sorted((instance / "config/ftbquests/quests").rglob("*.snbt"))
+    quest_item_references = {}
+    for path in quest_files:
+        text = path.read_text(encoding="utf-8-sig")
+        item_ids = re.findall(r'id:\s*"waystones:([^"]+)"', text)
+        if item_ids:
+            quest_item_references[path.relative_to(instance).as_posix()] = item_ids
+    expected_quest_item_references = {
+        "config/ftbquests/quests/reward_tables/common.snbt": [
+            "waystone",
+            "warp_plate",
+        ]
+    }
+    if quest_item_references != expected_quest_item_references:
+        errors.append(
+            "Waystones 관련 FTB Quests 아이템 참조 범위 변경: "
+            f"{quest_item_references}"
+        )
+    reward_item_names = {
+        "block.waystones.waystone": "웨이스톤",
+        "block.waystones.warp_plate": "워프 플레이트",
+    }
+    reward_name_mismatches = sorted(
+        key
+        for key, expected in reward_item_names.items()
+        if korean.get(key) != expected
+    )
+    if reward_name_mismatches:
+        errors.append(
+            f"Waystones 퀘스트 보상 표시 이름 불일치: {reward_name_mismatches}"
+        )
+
+    kubejs_files_reviewed = 0
+    kubejs_refs = []
+    kubejs_root = instance / "kubejs"
+    for path in sorted(kubejs_root.rglob("*")):
+        if not path.is_file() or path.suffix.lower() not in {
+            ".js",
+            ".json",
+            ".snbt",
+            ".txt",
+        }:
+            continue
+        kubejs_files_reviewed += 1
+        text = path.read_text(encoding="utf-8-sig")
+        if re.search(r"(?i)waystones?", text):
+            kubejs_refs.append(path.relative_to(instance).as_posix())
+    if set(kubejs_refs) != WAYSTONES_KUBEJS_REFERENCES:
+        errors.append(f"Waystones KubeJS 참조 범위 변경: {kubejs_refs}")
+
+    waystones_target = next(
+        target
+        for target in TARGETS
+        if target.group == "compass" and target.namespaces == ("waystones",)
+    )
+    waystones_jar = find_jar(instance, waystones_target)
+    other_language_files = 0
+    other_owned_keys = 0
+    other_missing_keys = []
+    for jar_path in sorted((instance / "mods").glob("*.jar")):
+        if jar_path == waystones_jar:
+            continue
+        with ZipFile(jar_path) as archive:
+            for name in archive.namelist():
+                if not re.fullmatch(r"assets/[^/]+/lang/en_us\.json", name):
+                    continue
+                values = load_json(archive, name)
+                related = {
+                    key: value
+                    for key, value in values.items()
+                    if WAYSTONES_RELATED_LANGUAGE.search(f"{key} {value}")
+                }
+                if not related:
+                    continue
+                other_language_files += 1
+                other_owned_keys += len(related)
+                namespace = name.split("/")[1]
+                related_output = OUTPUT_ROOT / namespace / "lang/ko_kr.json"
+                translated = (
+                    json.loads(related_output.read_text(encoding="utf-8"))
+                    if related_output.is_file()
+                    else {}
+                )
+                for key in related:
+                    if key not in translated:
+                        other_missing_keys.append(f"{namespace}:{key}")
+    if (other_language_files, other_owned_keys) != (1, 1):
+        errors.append(
+            "다른 모드 소유 Waystones 연동 범위 불일치: "
+            f"파일={other_language_files}, 키={other_owned_keys}"
+        )
+    if other_missing_keys:
+        errors.append(f"다른 모드 소유 Waystones 연동 번역 누락: {other_missing_keys}")
+
+    with ZipFile(waystones_jar) as archive:
+        names = archive.namelist()
+        english = load_json(archive, "assets/waystones/lang/en_us.json")
+        class_files = [name for name in names if name.endswith(".class")]
+        json_files = [name for name in names if name.endswith(".json")]
+        language_files = [name for name in json_files if "/lang/" in name]
+        advancement_files = [
+            name
+            for name in json_files
+            if name.startswith("data/waystones/advancement/")
+        ]
+        recipe_files = [
+            name for name in json_files if name.startswith("data/waystones/recipe/")
+        ]
+        guide_files = [
+            name
+            for name in names
+            if any(
+                marker in name.lower()
+                for marker in ("patchouli", "guideme", "modonomicon")
+            )
+        ]
+        display_advancements = [
+            name for name in advancement_files if "display" in load_json(archive, name)
+        ]
+        translation_api_classes = sum(
+            b"literal" in archive.read(name) or b"translatable" in archive.read(name)
+            for name in class_files
+        )
+        sharestone_class = archive.read(
+            "net/blay09/mods/waystones/block/SharestoneBlock.class"
+        )
+        visibility_class = archive.read(
+            "net/blay09/mods/waystones/client/gui/widget/"
+            "WaystoneVisbilityButton.class"
+        )
+        commands_class = archive.read(
+            "net/blay09/mods/waystones/command/ModCommands.class"
+        )
+        debug_class = archive.read(
+            "net/blay09/mods/waystones/handler/WaystoneDebugHandler.class"
+        )
+        biome_name_class = archive.read(
+            "net/blay09/mods/waystones/worldgen/namegen/BiomeNameGenerator.class"
+        )
+
+    fallback_class_markers = {
+        "tooltip.waystones.sharestone": sharestone_class,
+        "tooltip.waystones.visibility": visibility_class,
+    }
+    missing_fallback_markers = sorted(
+        key
+        for key, class_data in fallback_class_markers.items()
+        if key.encode() not in class_data
+    )
+    if missing_fallback_markers:
+        errors.append(
+            f"Waystones 클래스 fallback 호출 변경: {missing_fallback_markers}"
+        )
+    hardcoded_markers = {
+        "commands": (commands_class, (b"Unknown waystone style: \x01",)),
+        "debug": (
+            debug_class,
+            (
+                b"Waystone was successfully reset - it will re-initialize once it is next loaded.",
+                b"Client UUID: \x01",
+                b"Server UUID: \x01",
+            ),
+        ),
+        "biome_name": (biome_name_class, (b"Corrupted Lands",)),
+    }
+    missing_hardcoded_markers = sorted(
+        f"{scope}:{marker.decode('utf-8')}"
+        for scope, (class_data, markers) in hardcoded_markers.items()
+        for marker in markers
+        if marker not in class_data
+    )
+    if missing_hardcoded_markers:
+        errors.append(
+            "Waystones 클래스 직접 표시 문자열 범위 변경: "
+            f"{missing_hardcoded_markers}"
+        )
+    inventory = (
+        len(names),
+        len(class_files),
+        len(json_files),
+        len(language_files),
+        len(advancement_files),
+        len(recipe_files),
+        len(guide_files),
+        len(display_advancements),
+        translation_api_classes,
+    )
+    if inventory != (813, 297, 346, 23, 47, 47, 0, 0, 53):
+        errors.append(f"Waystones JAR 표시 경로 인벤토리 변경: {inventory}")
+
+    spacing_mismatches = []
+    for key, english_value in english.items():
+        korean_value = korean.get(key)
+        if not isinstance(english_value, str) or not isinstance(korean_value, str):
+            continue
+        english_edges = (
+            english_value[: len(english_value) - len(english_value.lstrip())],
+            english_value[len(english_value.rstrip()) :],
+        )
+        korean_edges = (
+            korean_value[: len(korean_value) - len(korean_value.lstrip())],
+            korean_value[len(korean_value.rstrip()) :],
+        )
+        if english_edges != korean_edges:
+            spacing_mismatches.append(key)
+    if spacing_mismatches:
+        errors.append(f"Waystones 앞뒤 공백 불일치: {spacing_mismatches}")
+
+    collisions: dict[str, set[str]] = {}
+    for key, english_value in english.items():
+        collisions.setdefault(str(korean[key]), set()).add(str(english_value))
+    collisions = {
+        value: source_values
+        for value, source_values in collisions.items()
+        if len(source_values) > 1
+    }
+    if collisions:
+        errors.append(f"Waystones 번역 유발 명칭 충돌: {collisions}")
+
+    if errors:
+        raise RuntimeError("Waystones 연관 경로 검증 실패:\n" + "\n".join(errors))
+    return {
+        "group": "compass",
+        "namespace": "waystones_related_paths",
+        "source_jar_sha256": hashlib.sha256(waystones_jar.read_bytes()).hexdigest(),
+        "class_files_reviewed": len(class_files),
+        "class_translation_api_classes_reviewed": translation_api_classes,
+        "class_fallback_literals_translated": len(WAYSTONES_CLASS_FALLBACKS),
+        "class_hardcoded_display_literals_deferred": sum(
+            len(markers) for _, markers in hardcoded_markers.values()
+        ),
+        "ftbquests_files_reviewed": len(quest_files),
+        "ftbquests_language_keys_reviewed": len(related_quest_language_keys),
+        "ftbquests_item_references_reviewed": sum(
+            len(item_ids) for item_ids in quest_item_references.values()
+        ),
+        "kubejs_files_reviewed": kubejs_files_reviewed,
+        "kubejs_technical_references_reviewed": len(kubejs_refs),
+        "other_mod_language_files_traced": other_language_files,
+        "other_mod_owned_keys_traced": other_owned_keys,
+        "translation_induced_collisions_reviewed": len(collisions),
+        "harmful_translation_induced_collisions": 0,
+        "advancement_files": len(advancement_files),
+        "display_advancement_files": len(display_advancements),
+        "recipe_files": len(recipe_files),
+        "guide_files": len(guide_files),
+        "validation": "passed",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("group", choices=GROUPS + ("all",))
@@ -1520,6 +1891,8 @@ def main() -> int:
         rows.append(verify_journeymap_related(instance))
         rows.append(verify_ftbchunks_related(instance))
         rows.append(verify_ftbteams_related(instance))
+    if args.group in {"compass", "all"}:
+        rows.append(verify_waystones_related(instance))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 
