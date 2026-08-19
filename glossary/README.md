@@ -71,6 +71,12 @@
 | Quantum Entangled Singularity | 양자 얽힘 특이점 | 아이템명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | `양자얽힘 특이점`으로 붙여 쓰지 않음 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |
 | Wireless Universal Terminal | 무선 범용 터미널 | 아이템명 | AE2WTLib 및 관련 퀘스트 | 확정 | `범용 무선 터미널`과 혼용하지 않음 |
+| Partition | 파티션 | 저장 셀 설정 용어 | AE2 본체와 직접 연동 콘텐츠 | 확정 | 저장 대상을 정하는 설정에는 `분할`을 사용하지 않음 |
+| Compression Cutoff | 압축 상한 | 대용량 셀 설정 용어 | MEGA Cells | 확정 | 자동 압축이 멈추는 가장 큰 형태이며 `기준값`과 혼용하지 않음 |
+| Bulk Item Storage Cell | MEGA 대용량 아이템 저장 셀 | 아이템명 | MEGA Cells 및 관련 퀘스트 | 확정 | 한 종류의 아이템을 사실상 무제한으로 저장하는 전용 셀 |
+| Superdense Energy Cell | 초고밀도 에너지 셀 | 아이템·블록명 | MEGA Cells | 확정 | AE2의 `조밀한 에너지 셀`과 등급을 구분 |
+| Sky Steel | 하늘 강철 | 재료명 | MEGA Cells 및 압축 블록 | 확정 | Productive Bees의 벌 이름 `스카이 스틸 벌`과 구분 |
+| Improbable Probability Device | 불가능한 확률 장치 | 프로젝트 아이템명 | ATM Star 관련 퀘스트 | 확정 | `불가능 확률 장치`와 혼용하지 않음 |
 | Spatial Pylon | 공간 지시탑 | 아이템·블록명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | `공간 파일런`으로 바꾸지 않음 |
 | Spatial Anchor | 공간 정박기 | 아이템·블록명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | 다른 모드의 일반적인 공간 앵커와 구분 |
 | Type | 종류 | 기술 용어 | AE2 저장 셀의 저장 종류 문맥 | 확정 | 일반적인 자료형이나 패턴 유형에는 적용하지 않음 |

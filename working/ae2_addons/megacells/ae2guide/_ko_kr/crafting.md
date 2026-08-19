@@ -48,15 +48,15 @@ item_ids:
 <RecipeFor id="64m_crafting_storage" />
 <RecipeFor id="256m_crafting_storage" />
 
-보너스로 MEGA는 <ItemLink id="ae2:crafting_accelerator" />에 해당하는 장치도 제공합니다. 보조 처리
-블록 하나마다 스레드가 하나가 아니라 무려 *네 개* 추가된다는 장점이 있습니다.
+보너스로 MEGA는 <ItemLink id="ae2:crafting_accelerator" />에 해당하는 **MEGA 제작 보조 처리
+유닛**도 제공합니다. 블록 하나마다 보조 처리 스레드가 하나가 아니라 무려 *네 개* 추가됩니다.
 
 <BlockImage id="mega_crafting_accelerator" scale="4" />
 <RecipeFor id="mega_crafting_accelerator" />
 
-완전한 구성을 갖추도록 <ItemLink id="ae2:crafting_monitor" />에 해당하는 MEGA 장치도 있습니다. 일반
-모니터와 기능상 차이는 없지만, CPU 멀티블록 전체에 매끈하고 어두운 외형을 유지하여 앞서 설명한 장치와
-시각적으로 통일할 수 있습니다.
+완전한 구성을 갖추도록 <ItemLink id="ae2:crafting_monitor" />에 해당하는 **MEGA 제작 모니터**도
+있습니다. 일반 모니터와 기능상 차이는 없지만, CPU 멀티블록 전체에 매끈하고 어두운 외형을 유지하여
+앞서 설명한 장치와 시각적으로 통일할 수 있습니다.
 
 <BlockImage id="mega_crafting_monitor" scale="4" />
 <RecipeFor id="mega_crafting_monitor" />

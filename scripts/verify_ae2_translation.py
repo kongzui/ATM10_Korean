@@ -579,6 +579,7 @@ def main() -> int:
         "Fluix 연구원",
         "공간 파일런",
         "공간 앵커",
+        "불가능 확률 장치",
     )
     remaining_quest_terms = [
         term for term in forbidden_quest_terms if term in quest_text
@@ -589,11 +590,24 @@ def main() -> int:
         )
     expected_quest_terms = {
         "quest.03E6FA4DCB71162E.quest_desc": ("페인트볼",),
+        "quest.0F03E75CF79BADD7.quest_desc": (
+            "MEGA 대용량 아이템 저장 셀",
+            "파티션",
+            "long 자료형의 최댓값",
+        ),
         "quest.16299B9AE87257DC.quest_subtitle": ("바로 이것을 위해",),
         "quest.26B3AE1E77A84BCB.quest_desc": ("충전된 서투스 석영", "천령석"),
         "quest.33422FBDAE11AE82.quest_subtitle": ("공간 벌", "플루익스 진주"),
         "quest.33422FBDAE11AE82.title": ("플루익스 벌",),
         "quest.3DDB0DDA7571B2C1.title": ("ME 레벨 방출기",),
+        "quest.42AF4EBDA5D6CC36.quest_desc": (
+            "폭발내성 합금",
+            "불가능한 확률 장치",
+        ),
+        "quest.460A8F17F3ED6CAF.quest_desc": (
+            "1M MEGA 저장 부품",
+            "1048576",
+        ),
         "quest.4B76FE0348DB0E45.quest_desc": (
             "ME 네트워크",
             "무선 터미널",
@@ -609,6 +623,11 @@ def main() -> int:
         ),
         "quest.5E24012A3D9B72A1.quest_desc": ("양동이 8개 분량", "8000 mB"),
         "quest.6E17595887A051C2.quest_desc": ("플루익스 연구원",),
+        "quest.69B7DE2283B4EE6C.quest_desc": (
+            "MEGA 제작 보조 처리 유닛",
+            "보조 처리 스레드 하나",
+            "스레드 4개",
+        ),
         "quest.75EE965CBA598FEA.quest_desc": (
             "여러 종류의",
             "무선 범용 터미널",

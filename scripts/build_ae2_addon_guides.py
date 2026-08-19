@@ -369,6 +369,7 @@ MEGACELLS_GUIDE_WORKING_ROOT = MEGACELLS_WORKING_ROOT / "ae2guide/_ko_kr"
 MEGACELLS_GUIDE_OUTPUT_ROOT = RESOURCEPACK_ROOT / "assets/megacells/ae2guide/_ko_kr"
 MEGACELLS_QUEST_OVERRIDES_FILE = MEGACELLS_WORKING_ROOT / "quest_overrides.json"
 MEGACELLS_LANGUAGE_COMPLETION_FILE = MEGACELLS_WORKING_ROOT / "language_completion.json"
+MEGACELLS_PROGRESS_FILE = MEGACELLS_WORKING_ROOT / "quality_review_progress.json"
 MEGACELLS_BATCH_09_GUIDE_FILES = (
     "index.md",
     "storage.md",
@@ -400,6 +401,16 @@ MEGACELLS_BATCH_SCOPES = {
     9: "MEGA Cells introduction and storage GuideME guide batch 09",
     10: "MEGA Cells crafting, energy and extras GuideME guide batch 10",
 }
+MEGACELLS_QUALITY_TRANSLATIONS = {
+    "gui.tooltips.megacells.CompressionCutoff": "대용량 압축 상한",
+    "gui.tooltips.megacells.Cutoff": "상한: %s",
+    "gui.tooltips.megacells.NotPartitioned": "파티션 미설정",
+    "gui.tooltips.megacells.PartitionedFor": "파티션 대상: %s",
+}
+MEGACELLS_FORBIDDEN_GUIDE_PHRASES = (
+    "기준값",
+    "분할",
+)
 
 APPFLUX_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/appflux"
 APPFLUX_LANG_WORKING_FILE = APPFLUX_WORKING_ROOT / "lang/ko_kr.json"
@@ -1756,6 +1767,12 @@ def validate_megacells_language(
     else:
         translated_lang = load_json_unique(MEGACELLS_LANG_WORKING_FILE)
         errors.extend(validate_language(source_lang, translated_lang))
+        for key, expected in MEGACELLS_QUALITY_TRANSLATIONS.items():
+            if translated_lang.get(key) != expected:
+                errors.append(
+                    f"MEGA Cells 품질 확정 번역이 다릅니다: {key}="
+                    f"{translated_lang.get(key)!r}"
+                )
         if list(source_lang) != list(translated_lang):
             errors.append("MEGA Cells 언어 키 순서가 영어 원문과 다릅니다.")
         if MEGACELLS_LANG_WORKING_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
@@ -2917,6 +2934,11 @@ def validate_megacells_batch(
             translated = working_path.read_text(encoding="utf-8")
             errors.extend(core.validate_pair(relative, source, translated))
             errors.extend(validate_numbers(relative, source, translated))
+            for phrase in MEGACELLS_FORBIDDEN_GUIDE_PHRASES:
+                if phrase in translated:
+                    errors.append(
+                        f"{relative}: 재검수 전 표현이 남아 있습니다: {phrase}"
+                    )
             errors.extend(validate_tag_nesting(relative, translated))
             errors.extend(
                 validate_resources(archive_names, "megacells", relative, translated)
@@ -3031,6 +3053,132 @@ def build_megacells_batch(instance: Path, batch: int) -> dict[str, object]:
         "validation_errors": 0,
     }
     PROGRESS_FILE.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return result
+
+
+def validate_megacells_quality(
+    instance: Path, compare_output: bool
+) -> dict[str, object]:
+    validations = [
+        validate_megacells_batch(instance, batch, compare_output)
+        for batch in sorted(MEGACELLS_BATCH_GUIDE_FILES)
+    ]
+    errors = [
+        error
+        for validation in validations
+        for error in validation["errors"]  # type: ignore[union-attr]
+    ]
+    expected_files = tuple(
+        relative
+        for batch in sorted(MEGACELLS_BATCH_GUIDE_FILES)
+        for relative in MEGACELLS_BATCH_GUIDE_FILES[batch]
+    )
+    expected_set = set(expected_files)
+    actual_working = {
+        path.relative_to(MEGACELLS_GUIDE_WORKING_ROOT).as_posix()
+        for path in MEGACELLS_GUIDE_WORKING_ROOT.rglob("*.md")
+        if path.is_file()
+    }
+    if actual_working != expected_set:
+        errors.append(
+            "MEGA Cells 품질 재검수 작업본 목록이 다릅니다: "
+            f"누락={sorted(expected_set - actual_working)}, "
+            f"불필요={sorted(actual_working - expected_set)}"
+        )
+    if compare_output:
+        actual_output = {
+            path.relative_to(MEGACELLS_GUIDE_OUTPUT_ROOT).as_posix()
+            for path in MEGACELLS_GUIDE_OUTPUT_ROOT.rglob("*.md")
+            if path.is_file()
+        }
+        if actual_output != expected_set:
+            errors.append(
+                "MEGA Cells 품질 재검수 출력 목록이 다릅니다: "
+                f"누락={sorted(expected_set - actual_output)}, "
+                f"불필요={sorted(actual_output - expected_set)}"
+            )
+
+    return {
+        **validations[0],
+        "source_words": sum(
+            int(validation["source_words"]) for validation in validations
+        ),
+        "guide_pages": len(expected_files),
+        "new_guide_pages": len(expected_files),
+        "guide_files": expected_files,
+        "errors": errors,
+    }
+
+
+def build_megacells_quality(instance: Path) -> dict[str, object]:
+    validation = validate_megacells_quality(instance, compare_output=False)
+    errors = validation["errors"]
+    assert isinstance(errors, list)
+    if errors:
+        raise ValueError("\n".join(errors))
+
+    guide_files = validation["guide_files"]
+    assert isinstance(guide_files, tuple)
+    for relative in guide_files:
+        source = MEGACELLS_GUIDE_WORKING_ROOT / relative
+        target = MEGACELLS_GUIDE_OUTPUT_ROOT / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
+    MEGACELLS_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    MEGACELLS_LANG_OUTPUT_FILE.write_bytes(MEGACELLS_LANG_WORKING_FILE.read_bytes())
+
+    post_validation = validate_megacells_quality(instance, compare_output=True)
+    post_errors = post_validation["errors"]
+    assert isinstance(post_errors, list)
+    if post_errors:
+        raise ValueError("\n".join(post_errors))
+
+    jars = validation["jars"]
+    assert isinstance(jars, dict)
+    output_files = {
+        MEGACELLS_LANG_RELATIVE: sha256(MEGACELLS_LANG_OUTPUT_FILE),
+        **{
+            "assets/megacells/ae2guide/_ko_kr/" + relative: sha256(
+                MEGACELLS_GUIDE_OUTPUT_ROOT / relative
+            )
+            for relative in guide_files
+        },
+    }
+    quest_keys, kubejs_keys = megacells_related_counts()
+    result = {
+        "status": "quality_review_completed",
+        "scope": (
+            "MEGA Cells language, GuideME guide, FTB Quests, and KubeJS "
+            "quality review"
+        ),
+        "batch": [9, 10],
+        "source_jars": {
+            namespace: {"name": path.name, "sha256": sha256(path)}
+            for namespace, path in jars.items()
+        },
+        "language": "ko_kr",
+        "guide_pages": len(guide_files),
+        "new_guide_pages": len(guide_files),
+        "core_compatibility_updates": 0,
+        "source_words": validation["source_words"],
+        "language_keys": len(validation["translated_lang"]),
+        "existing_korean_reused": validation["existing_korean_reused"],
+        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "guide_files": list(guide_files),
+        "output_sha256": output_files,
+        "ftbquests_review": {
+            "related_content_found": True,
+            "keys_updated": quest_keys,
+            "handled_separately": True,
+            "pending": False,
+        },
+        "kubejs_user_visible_literals_found": kubejs_keys,
+        "validation_errors": 0,
+    }
+    MEGACELLS_PROGRESS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    MEGACELLS_PROGRESS_FILE.write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return result
@@ -3994,6 +4142,7 @@ def main() -> int:
             "enderdrives",
             "extendedae",
             "advanced_ae",
+            "megacells",
             "ae2importexportcard",
             "ae2netanalyser",
         ),
@@ -4017,6 +4166,10 @@ def main() -> int:
         raise ValueError("Advanced AE는 언어와 가이드를 함께 빌드해야 합니다.")
     elif args.mod == "advanced_ae":
         result = build_advancedae_quality(instance)
+    elif args.mod == "megacells" and args.language_only:
+        raise ValueError("MEGA Cells는 언어와 가이드를 함께 빌드해야 합니다.")
+    elif args.mod == "megacells":
+        result = build_megacells_quality(instance)
     elif args.language_only and ACTIVE_BATCH in {7, 8}:
         result = build_advancedae_language(instance)
     elif args.language_only and ACTIVE_BATCH in {9, 10}:

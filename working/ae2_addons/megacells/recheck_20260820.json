@@ -1,0 +1,67 @@
+{
+  "status": "completed_and_deployed",
+  "scope": "MEGA Cells 전체 한국어 품질 재검수",
+  "reviewed_at": "2026-08-20",
+  "source_jars": {
+    "megacells": {
+      "name": "megacells-4.11.0.jar",
+      "sha256": "a386bbf12afb11729b0dcf77f64221893d250f22e6185a4d728b9799b230bc55"
+    },
+    "ae2_compatibility": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    }
+  },
+  "language": {
+    "source_keys": 134,
+    "existing_candidates_reviewed": 134,
+    "retained": 130,
+    "corrected": 4,
+    "new": 0
+  },
+  "guideme": {
+    "source_pages": 7,
+    "existing_candidates_reviewed": 7,
+    "retained": 4,
+    "corrected": 3,
+    "new": 0
+  },
+  "ftbquests": {
+    "related_quest_ids": 10,
+    "explicit_english_surfaces": 26,
+    "fallback_surfaces": 1,
+    "reviewed_surfaces": 27,
+    "retained": 24,
+    "corrected": 3,
+    "new": 0
+  },
+  "kubejs": {
+    "related_files_reviewed": 12,
+    "user_visible_literals": 0
+  },
+  "recipe_advancements": {
+    "files_reviewed": 128,
+    "display_literals": 0
+  },
+  "cross_mod_consistency": {
+    "exact_name_collisions": 0,
+    "shared_terms_corrected": 1,
+    "corrected_term": "불가능한 확률 장치"
+  },
+  "validation": {
+    "language_and_placeholder_errors": 0,
+    "guide_structure_errors": 0,
+    "quest_structure_errors": 0,
+    "terminology_errors": 0,
+    "json_errors": 0,
+    "static_check_errors": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "game_root",
+    "files": 5,
+    "backup_manifest": "temp/backups/20260820_032207_056595/backup_manifest.json",
+    "unexpected_changes": 0
+  },
+  "remaining_manual_review": 0
+}

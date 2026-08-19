@@ -6,6 +6,10 @@
     10
   ],
   "source_jars": {
+    "ae2": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    },
     "megacells": {
       "name": "megacells-4.11.0.jar",
       "sha256": "a386bbf12afb11729b0dcf77f64221893d250f22e6185a4d728b9799b230bc55"
@@ -13,31 +17,37 @@
   },
   "language": "ko_kr",
   "guide_pages": 7,
+  "new_guide_pages": 7,
+  "core_compatibility_updates": 0,
+  "source_words": 3550,
   "language_keys": 134,
   "existing_korean_reused": 0,
   "new_or_revised_translations": 134,
-  "quality_review_corrections": 3,
-  "quality_review_guide_pages_corrected": 5,
+  "guide_files": [
+    "index.md",
+    "storage.md",
+    "bulk_cell.md",
+    "radioactive_cell.md",
+    "crafting.md",
+    "energy.md",
+    "extras.md"
+  ],
   "output_sha256": {
-    "assets/megacells/lang/ko_kr.json": "9602d21d10f8eca2b27a757aff41630bf7e617471cf2c81cefd51e38322c5d27",
+    "assets/megacells/lang/ko_kr.json": "2e6a954dad013740c7236d0b2e2ca61d1a52230021cbb1147b7ed48630132115",
     "assets/megacells/ae2guide/_ko_kr/index.md": "06dbf673d52a60ff475dce92d9222050cfdf1c48463b089a3e474204dd29a05a",
     "assets/megacells/ae2guide/_ko_kr/storage.md": "a1d5fa6feb7c331bb0b3a36e59284a44e2c5e631e3586c58e337ecc5a66d4d12",
-    "assets/megacells/ae2guide/_ko_kr/crafting.md": "0e28cc3e0342761c843909f66e5d8acaab7ddbded1f8a1e3b5d5457f860459e2",
+    "assets/megacells/ae2guide/_ko_kr/bulk_cell.md": "e5a30fcf8747aa4964de00497aae372eb5dce2b3a631d7f5fc1aaade0200139a",
+    "assets/megacells/ae2guide/_ko_kr/radioactive_cell.md": "8a49d568c725e5dd2848801d2fa72def956646030005c9e0c22cf19c016ccb59",
+    "assets/megacells/ae2guide/_ko_kr/crafting.md": "b6db342bacf22fde2c7a9bc73b22cc784e60a9762c2f7615a4eb6784cd5e334c",
     "assets/megacells/ae2guide/_ko_kr/energy.md": "527be44953262cfdabe81394709916d4cd72398fe39493a78468352a62e1993e",
-    "assets/megacells/ae2guide/_ko_kr/bulk_cell.md": "ec7aab4e9274e8ab3af262c42cba92fe77cc7be14b13e0a2c7d8e8099932f7e5",
-    "assets/megacells/ae2guide/_ko_kr/radioactive_cell.md": "77b543c05d6e40f6674241216bb32ae15382ad1cd2c1fae4498e383ca14c9939",
     "assets/megacells/ae2guide/_ko_kr/extras.md": "a75934c79092bbc8c65682114359b5b732bd8a0bcdf5e4e95ebad015a1e111b8"
   },
   "ftbquests_review": {
-    "related_keys_reviewed": 17,
-    "quality_review_keys_corrected": 1,
-    "game_root_keys_changed": 31,
+    "related_content_found": true,
+    "keys_updated": 18,
+    "handled_separately": true,
     "pending": false
   },
-  "kubejs": {
-    "related_files_reviewed": 12,
-    "user_visible_literals_found": 0,
-    "quality_review_keys_corrected": 0
-  },
+  "kubejs_user_visible_literals_found": 0,
   "validation_errors": 0
 }

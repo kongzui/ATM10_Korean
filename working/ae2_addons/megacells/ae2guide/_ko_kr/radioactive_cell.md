@@ -34,7 +34,7 @@ MEGA는 여러 애드온을 폭넓게 연동하며, *Mekanism*과 ***Applied Mek
   <RecipeFor id="radioactive_chemical_cell" />
 </Row>
 
-방사성 셀은 방사성 화학 물질 한 종류만 저장할 수 있고 사용 전에 분할해야 한다는 점에서
+방사성 셀은 방사성 화학 물질 한 종류만 저장할 수 있고 사용 전에 파티션을 설정해야 한다는 점에서
 <ItemLink id="megacells:bulk_item_cell" />과 비슷합니다. 하지만 공통점은 여기까지입니다. 방사성 셀의
 저장량은 유한하며, 최대 *256[바이트](ae2:ae2-mechanics/bytes-and-types.md)*입니다. 그래도 이는 화학 물질
 *2048양동이*, 즉 핵폐기물 통 *4개* 분량을 셀 하나에 담는 것과 같습니다.
