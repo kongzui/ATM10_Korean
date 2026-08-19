@@ -364,6 +364,56 @@ NATURESCOMPASS_QUEST_VALUES = {
     "quest.70B6C9409AE69284.quest_subtitle": "생물군계/구조물 찾기 도우미",
     "quest.70B6C9409AE69284.title": "검색용 나침반",
 }
+EXPLORERSCOMPASS_STRUCTURE_FALLBACKS = (
+    WORK_ROOT / "compass/explorerscompass/structure_fallbacks.json"
+)
+EXPLORERSCOMPASS_STRUCTURE_OVERRIDES = (
+    WORK_ROOT / "compass/explorerscompass/structure_overrides.json"
+)
+EXPLORERSCOMPASS_RECHECK_VALUES = {
+    "string.explorerscompass.samples": "샘플 수",
+    "string.explorerscompass.searchForNext": "다음 구조물 검색",
+    "string.explorerscompass.raw_generation": "초기 지형 생성",
+    "string.explorerscompass.local_modifications": "지역 지형 변경",
+    "string.explorerscompass.top_layer_modification": "표면층",
+    "structure.minecraft.buried_treasure": "땅에 묻힌 보물",
+    "structure.minecraft.fortress": "네더 요새",
+    "structure.minecraft.mansion": "삼림 대저택",
+    "structure.minecraft.mineshaft_mesa": "악지 폐광",
+    "structure.minecraft.swamp_hut": "늪 오두막",
+}
+EXPLORERSCOMPASS_FORBIDDEN_TERMS = re.compile(
+    r"원시 생성|지역 수정|최상위 층|메사 폐광|늪지 오두막|"
+    r"바이옴|카테고리|텔레포트|디멘션|코디네이트"
+)
+EXPLORERSCOMPASS_KUBEJS_REFERENCES = {
+    "kubejs/server_scripts/mods/Explorer's Compass/Recipes.js",
+}
+EXPLORERSCOMPASS_ALLOWED_LATIN_STRUCTURE_VALUES = {
+    "structure.mvs.sunzi_gate": "Sunzi 문",
+    "structure.dungeons_arise.keep_kayra": "Kayra 성채",
+    "structure.dungeons_arise.kisegi_sanctuary": "Kisegi 성소",
+    "structure.dungeons_arise.thornborn_towers": "Thornborn 탑",
+    "structure.minecolonies.lostmesacity_colony": "Lost Mesa City 식민지",
+}
+EXPLORERSCOMPASS_ALLOWED_SEMANTIC_COLLISIONS = {
+    "늪 마을",
+    "늪 약탈자 전초기지",
+    "묘지",
+    "사막 약탈자 전초기지",
+    "사막 폐광",
+    "사바나 약탈자 전초기지",
+    "악지 마을",
+    "악지 약탈자 전초기지",
+    "야영지",
+    "얼음 폐광",
+    "정글 마을",
+    "정글 약탈자 전초기지",
+    "정글 폐광",
+    "타이가 약탈자 전초기지",
+    "피글린 마을",
+    "해변 약탈자 전초기지",
+}
 
 
 def protected(value: object, pattern: re.Pattern[str]) -> list[str]:
@@ -465,6 +515,23 @@ def verify_target(
             working = WORK_ROOT / target.group / namespace / "ko_kr.json"
             korean = json.loads(working.read_text(encoding="utf-8"))
             errors = []
+            integration_values = {}
+            if namespace == "explorerscompass":
+                structure_fallbacks = json.loads(
+                    EXPLORERSCOMPASS_STRUCTURE_FALLBACKS.read_text(encoding="utf-8")
+                )
+                structure_overrides = json.loads(
+                    EXPLORERSCOMPASS_STRUCTURE_OVERRIDES.read_text(encoding="utf-8")
+                )
+                overlap = sorted(
+                    structure_fallbacks.keys() & structure_overrides.keys()
+                )
+                if overlap:
+                    errors.append(f"구조물 fallback·override 키 중복: {overlap}")
+                integration_values = {**structure_fallbacks, **structure_overrides}
+                source_overlap = sorted(integration_values.keys() & korean.keys())
+                if source_overlap:
+                    errors.append(f"원문·구조물 연동 키 중복: {source_overlap}")
             if list(korean) != expected_keys:
                 missing = sorted(set(expected_keys) - set(korean))
                 extra = sorted(set(korean) - set(expected_keys))
@@ -485,7 +552,14 @@ def verify_target(
             output = OUTPUT_ROOT / namespace / "lang/ko_kr.json"
             if copy_output:
                 output.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copyfile(working, output)
+                if integration_values:
+                    combined = {**korean, **integration_values}
+                    output.write_text(
+                        json.dumps(combined, ensure_ascii=False, indent=2) + "\n",
+                        encoding="utf-8",
+                    )
+                else:
+                    shutil.copyfile(working, output)
             rows.append(
                 {
                     "group": target.group,
@@ -493,6 +567,7 @@ def verify_target(
                     "namespace": namespace,
                     "keys": len(english),
                     "class_fallback_keys": len(fallback_values),
+                    "integration_keys": len(integration_values),
                     "output": output.relative_to(PROJECT_ROOT).as_posix(),
                     "validation": "passed",
                 }
@@ -2135,6 +2210,503 @@ def verify_naturescompass_related(instance: Path) -> dict[str, object]:
     }
 
 
+def verify_explorerscompass_related(instance: Path) -> dict[str, object]:
+    """Explorer's Compass의 동적 구조물명과 모든 연관 표시 경로를 검증한다."""
+    errors = []
+    output_path = OUTPUT_ROOT / "explorerscompass/lang/ko_kr.json"
+    output = json.loads(output_path.read_text(encoding="utf-8"))
+    working = json.loads(
+        (WORK_ROOT / "compass/explorerscompass/ko_kr.json").read_text(encoding="utf-8")
+    )
+    structure_fallbacks = json.loads(
+        EXPLORERSCOMPASS_STRUCTURE_FALLBACKS.read_text(encoding="utf-8")
+    )
+    structure_overrides = json.loads(
+        EXPLORERSCOMPASS_STRUCTURE_OVERRIDES.read_text(encoding="utf-8")
+    )
+    expected_output = {**working, **structure_fallbacks, **structure_overrides}
+    if output != expected_output:
+        errors.append("Explorer's Compass 작업본·구조물 연동·산출물 병합 불일치")
+
+    mismatches = sorted(
+        key
+        for key, expected in EXPLORERSCOMPASS_RECHECK_VALUES.items()
+        if working.get(key) != expected
+    )
+    if mismatches:
+        errors.append(f"Explorer's Compass 확정 교정값 불일치: {mismatches}")
+    if working.get("_comment") != "STRINGS - STRUCTURES":
+        errors.append("Explorer's Compass 비번역 주석 값이 변경되었습니다")
+    forbidden = sorted(
+        key
+        for key, value in working.items()
+        if EXPLORERSCOMPASS_FORBIDDEN_TERMS.search(str(value))
+    )
+    if forbidden:
+        errors.append(f"Explorer's Compass 금지·충돌 용어 잔존: {forbidden}")
+
+    source_lang = instance / "config/ftbquests/quests/lang/en_us.snbt"
+    source_quests = parse_language_snbt(source_lang)
+    related_quest_ids = {
+        key.split(".")[1]
+        for key, value in source_quests.items()
+        if re.search(r"(?i)explorer.?s compass|explorerscompass", flatten(value))
+        and key.startswith("quest.")
+    }
+    related_quest_keys = sorted(
+        key
+        for key in source_quests
+        if key.startswith(tuple(f"quest.{quest_id}." for quest_id in related_quest_ids))
+    )
+    if related_quest_keys != sorted(NATURESCOMPASS_QUEST_VALUES):
+        errors.append(
+            "Explorer's Compass 관련 FTB Quests 언어 범위 변경: "
+            f"{related_quest_keys}"
+        )
+    quest_output = parse_language_snbt(
+        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+    )
+    quest_mismatches = sorted(
+        key
+        for key, expected in NATURESCOMPASS_QUEST_VALUES.items()
+        if quest_output.get(key) != expected
+    )
+    if quest_mismatches:
+        errors.append(
+            f"Explorer's Compass 관련 FTB Quests 번역 불일치: {quest_mismatches}"
+        )
+    quest_working = json.loads(
+        (PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    quest_description_key = "quest.70B6C9409AE69284.quest_desc"
+    if (
+        quest_working.get(quest_description_key)
+        != NATURESCOMPASS_QUEST_VALUES[quest_description_key]
+    ):
+        errors.append("Explorer's Compass 관련 퀘스트 설명 작업본 불일치")
+
+    quest_files = sorted((instance / "config/ftbquests/quests").rglob("*.snbt"))
+    quest_item_references = {}
+    for path in quest_files:
+        text = path.read_text(encoding="utf-8-sig")
+        item_ids = re.findall(r"explorerscompass:([a-z0-9_./-]+)", text)
+        if item_ids:
+            quest_item_references[path.relative_to(instance).as_posix()] = item_ids
+    expected_quest_item_references = {
+        "config/ftbquests/quests/chapters/tips_and_tricks.snbt": ["explorerscompass"],
+    }
+    if quest_item_references != expected_quest_item_references:
+        errors.append(
+            "Explorer's Compass 관련 FTB Quests 아이템 참조 범위 변경: "
+            f"{quest_item_references}"
+        )
+    if working.get("item.explorerscompass.explorerscompass") != "탐험가의 나침반":
+        errors.append("Explorer's Compass 퀘스트 자동 아이템 이름 불일치")
+
+    kubejs_files_reviewed = 0
+    kubejs_refs = []
+    kubejs_root = instance / "kubejs"
+    for path in sorted(kubejs_root.rglob("*")):
+        if not path.is_file() or path.suffix.lower() not in {
+            ".js",
+            ".json",
+            ".snbt",
+            ".txt",
+        }:
+            continue
+        kubejs_files_reviewed += 1
+        text = path.read_text(encoding="utf-8-sig")
+        if re.search(r"(?i)explorerscompass|explorer.?s compass", text):
+            kubejs_refs.append(path.relative_to(instance).as_posix())
+    if set(kubejs_refs) != EXPLORERSCOMPASS_KUBEJS_REFERENCES:
+        errors.append("Explorer's Compass KubeJS 참조 범위 변경: " f"{kubejs_refs}")
+    recipe_path = instance / next(iter(EXPLORERSCOMPASS_KUBEJS_REFERENCES))
+    recipe_text = recipe_path.read_text(encoding="utf-8-sig")
+    recipe_markers = {
+        "explorerscompass:explorers_compass",
+        "explorerscompass:explorerscompass",
+    }
+    missing_recipe_markers = sorted(
+        marker for marker in recipe_markers if marker not in recipe_text
+    )
+    if missing_recipe_markers:
+        errors.append(
+            "Explorer's Compass KubeJS 레시피 식별자 변경: " f"{missing_recipe_markers}"
+        )
+
+    compass_target = next(
+        target
+        for target in TARGETS
+        if target.group == "compass" and target.namespaces == ("explorerscompass",)
+    )
+    compass_jar = find_jar(instance, compass_target)
+    other_language_files = 0
+    other_owned_keys = 0
+    structure_ids = set()
+    bundled_english = {}
+    bundled_korean = {}
+    hidden_structure_ids = set()
+    unreadable_archives = []
+    unreadable_language_files = []
+    for jar_path in sorted((instance / "mods").glob("*.jar")):
+        try:
+            with ZipFile(jar_path) as archive:
+                for name in archive.namelist():
+                    structure_match = re.fullmatch(
+                        r"data/([^/]+)/worldgen/structure/(.+)\.json", name
+                    )
+                    if structure_match:
+                        structure_ids.add(
+                            f"{structure_match.group(1)}:{structure_match.group(2)}"
+                        )
+                    language_match = re.fullmatch(
+                        r"assets/([^/]+)/lang/(en_us|ko_kr)\.json", name
+                    )
+                    if language_match:
+                        try:
+                            values = load_json(archive, name)
+                        except (
+                            UnicodeDecodeError,
+                            json.JSONDecodeError,
+                            TypeError,
+                        ) as error:
+                            unreadable_language_files.append(
+                                (
+                                    language_match.group(1),
+                                    f"{jar_path.name}:{name}:{type(error).__name__}",
+                                )
+                            )
+                            continue
+                        if language_match.group(2) == "en_us":
+                            bundled_english.update(values)
+                        else:
+                            bundled_korean.update(values)
+                        related = {
+                            key: value
+                            for key, value in values.items()
+                            if re.search(
+                                r"(?i)explorerscompass|explorer.?s compass",
+                                f"{key} {value}",
+                            )
+                        }
+                        if related and jar_path != compass_jar:
+                            other_language_files += 1
+                            other_owned_keys += len(related)
+                    if name == (
+                        "data/c/tags/worldgen/structure/"
+                        "hidden_from_locator_selection.json"
+                    ):
+                        tag = load_json(archive, name)
+                        for value in tag.get("values", []):
+                            if isinstance(value, str) and not value.startswith("#"):
+                                hidden_structure_ids.add(value)
+        except (OSError, EOFError) as error:
+            unreadable_archives.append(f"{jar_path.name}:{type(error).__name__}")
+    if unreadable_archives:
+        errors.append(f"구조물 JAR 읽기 실패: {unreadable_archives}")
+    structure_namespaces = {
+        structure_id.split(":", 1)[0] for structure_id in structure_ids
+    }
+    relevant_unreadable_language_files = [
+        description
+        for namespace, description in unreadable_language_files
+        if namespace in structure_namespaces
+    ]
+    unrelated_unreadable_language_files = [
+        description
+        for namespace, description in unreadable_language_files
+        if namespace not in structure_namespaces
+    ]
+    if relevant_unreadable_language_files:
+        errors.append(
+            "구조물 관련 언어 파일 읽기 실패: " f"{relevant_unreadable_language_files}"
+        )
+    if other_language_files or other_owned_keys:
+        errors.append(
+            "예상하지 않은 다른 모드 소유 Explorer's Compass 연동 언어: "
+            f"파일={other_language_files}, 키={other_owned_keys}"
+        )
+
+    loose_structure_files = 0
+    for base in (
+        instance / "kubejs/data",
+        instance / "config/paxi/datapacks",
+    ):
+        if not base.exists():
+            continue
+        for path in sorted(base.rglob("*.json")):
+            match = re.search(
+                r"(?:^|/)data/([^/]+)/worldgen/structure/(.+)\.json$",
+                path.relative_to(instance).as_posix(),
+            )
+            if match:
+                structure_ids.add(f"{match.group(1)}:{match.group(2)}")
+                loose_structure_files += 1
+    if hidden_structure_ids:
+        errors.append(
+            "Explorer's Compass 숨김 구조물 태그 범위 변경: "
+            f"{sorted(hidden_structure_ids)}"
+        )
+
+    project_korean = {}
+    project_language_files = 0
+    for path in sorted(
+        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets").glob(
+            "*/lang/ko_kr.json"
+        )
+    ):
+        if path == output_path:
+            continue
+        project_language_files += 1
+        project_korean.update(json.loads(path.read_text(encoding="utf-8")))
+
+    def structure_translation_key(structure_id: str) -> str:
+        namespace, path = structure_id.split(":", 1)
+        return f"structure.{namespace}.{path.replace('/', '.')}"
+
+    project_existing_keys = set()
+    bundled_existing_keys = set()
+    expected_fallback_keys = set()
+    for structure_id in structure_ids:
+        key = structure_translation_key(structure_id)
+        english_value = bundled_english.get(key)
+        project_value = project_korean.get(key)
+        bundled_value = bundled_korean.get(key)
+        if isinstance(project_value, str) and project_value != english_value:
+            project_existing_keys.add(key)
+        elif isinstance(bundled_value, str) and bundled_value != english_value:
+            bundled_existing_keys.add(key)
+        else:
+            expected_fallback_keys.add(key)
+    source_counts = (
+        len(structure_ids),
+        len(project_existing_keys),
+        len(bundled_existing_keys),
+        len(expected_fallback_keys),
+    )
+    if source_counts != (855, 160, 68, 627):
+        errors.append(f"동적 구조물 번역 출처 범위 변경: {source_counts}")
+    if set(structure_fallbacks) != expected_fallback_keys:
+        missing = sorted(expected_fallback_keys - set(structure_fallbacks))
+        extra = sorted(set(structure_fallbacks) - expected_fallback_keys)
+        errors.append(f"동적 구조물 fallback 불일치: 누락={missing}, 초과={extra}")
+
+    ctov_existing_keys = {
+        structure_translation_key(structure_id)
+        for structure_id in structure_ids
+        if structure_id.startswith("ctov:")
+    } - expected_fallback_keys
+    expected_non_ctov_overrides = {
+        "structure.repurposed_structures.stronghold_nether",
+        "structure.twilightforest.lich_tower",
+        "structure.twilightforest.naga_courtyard",
+    }
+    expected_override_keys = ctov_existing_keys | expected_non_ctov_overrides
+    if set(structure_overrides) != expected_override_keys:
+        missing = sorted(expected_override_keys - set(structure_overrides))
+        extra = sorted(set(structure_overrides) - expected_override_keys)
+        errors.append(f"동적 구조물 교정 override 불일치: 누락={missing}, 초과={extra}")
+    if len(structure_overrides) != 71:
+        errors.append(f"동적 구조물 교정 수 변경: {len(structure_overrides)}")
+
+    invalid_fallbacks = sorted(
+        key
+        for key, value in structure_fallbacks.items()
+        if not key.startswith("structure.")
+        or not isinstance(value, str)
+        or not value.strip()
+        or "_" in value
+        or "/" in value
+    )
+    if invalid_fallbacks:
+        errors.append(f"동적 구조물 fallback 형식 오류: {invalid_fallbacks}")
+    latin_values = {
+        key: value
+        for key, value in structure_fallbacks.items()
+        if re.search(r"[A-Za-z]", value)
+    }
+    if latin_values != EXPLORERSCOMPASS_ALLOWED_LATIN_STRUCTURE_VALUES:
+        errors.append(f"동적 구조물 고유명사 원문 유지 범위 변경: {latin_values}")
+
+    effective_korean = {**bundled_korean, **project_korean}
+    effective_korean.update(structure_fallbacks)
+    effective_korean.update(structure_overrides)
+    missing_effective_names = sorted(
+        structure_id
+        for structure_id in structure_ids
+        if not isinstance(
+            effective_korean.get(structure_translation_key(structure_id)), str
+        )
+    )
+    if missing_effective_names:
+        errors.append(f"동적 구조물 한국어 표시 누락: {missing_effective_names}")
+
+    collision_groups: dict[str, list[tuple[str, str]]] = {}
+    for structure_id in structure_ids:
+        key = structure_translation_key(structure_id)
+        path = structure_id.split(":", 1)[1]
+        source_value = str(
+            bundled_english.get(key) or path.replace("/", " ").replace("_", " ")
+        )
+        korean_value = effective_korean[key]
+        collision_groups.setdefault(korean_value, []).append(
+            (structure_id, source_value)
+        )
+    semantic_collisions = {
+        korean_value: values
+        for korean_value, values in collision_groups.items()
+        if len(values) > 1
+        and len(
+            {re.sub(r"[^a-z0-9]+", " ", source.lower()).strip() for _, source in values}
+        )
+        > 1
+    }
+    if set(semantic_collisions) != EXPLORERSCOMPASS_ALLOWED_SEMANTIC_COLLISIONS:
+        errors.append(
+            "동적 구조물 의미 동일 충돌 범위 변경: " f"{sorted(semantic_collisions)}"
+        )
+
+    with ZipFile(compass_jar) as archive:
+        names = archive.namelist()
+        english = load_json(archive, "assets/explorerscompass/lang/en_us.json")
+        class_files = [name for name in names if name.endswith(".class")]
+        json_files = [name for name in names if name.endswith(".json")]
+        language_files = [name for name in json_files if "/lang/" in name]
+        advancement_files = [
+            name
+            for name in json_files
+            if name.startswith("data/explorerscompass/advancement/")
+        ]
+        recipe_files = [
+            name
+            for name in json_files
+            if name.startswith("data/explorerscompass/recipe/")
+        ]
+        guide_files = [
+            name
+            for name in names
+            if any(
+                marker in name.lower()
+                for marker in ("patchouli", "guideme", "modonomicon")
+            )
+        ]
+        display_advancements = [
+            name for name in advancement_files if "display" in load_json(archive, name)
+        ]
+        class_data = {name: archive.read(name) for name in class_files}
+        translation_api_classes = sum(
+            b"literal" in data or b"translatable" in data
+            for data in class_data.values()
+        )
+        class_translation_keys = {
+            key
+            for key in english
+            if any(key.encode() in data for data in class_data.values())
+        }
+        structure_utils = class_data[
+            "com/chaosthedude/explorerscompass/util/StructureUtils.class"
+        ]
+
+    inventory = (
+        len(names),
+        len(class_files),
+        len(json_files),
+        len(language_files),
+        len(advancement_files),
+        len(recipe_files),
+        len(guide_files),
+        len(display_advancements),
+        translation_api_classes,
+        len(class_translation_keys),
+    )
+    if inventory != (148, 36, 50, 11, 4, 2, 0, 0, 2, 19):
+        errors.append(f"Explorer's Compass JAR 표시 경로 인벤토리 변경: {inventory}")
+    for marker in (
+        b"c:hidden_from_locator_selection",
+        b"getPrettyStructureName",
+        b"net/minecraft/client/resources/language/I18n",
+    ):
+        if marker not in structure_utils:
+            errors.append(
+                "Explorer's Compass 동적 구조물 표시 경로 변경: "
+                f"{marker.decode('utf-8')}"
+            )
+
+    spacing_mismatches = []
+    for key, english_value in english.items():
+        korean_value = working.get(key)
+        if not isinstance(english_value, str) or not isinstance(korean_value, str):
+            continue
+        english_edges = (
+            english_value[: len(english_value) - len(english_value.lstrip())],
+            english_value[len(english_value.rstrip()) :],
+        )
+        korean_edges = (
+            korean_value[: len(korean_value) - len(korean_value.lstrip())],
+            korean_value[len(korean_value.rstrip()) :],
+        )
+        if english_edges != korean_edges:
+            spacing_mismatches.append(key)
+    if spacing_mismatches:
+        errors.append(f"Explorer's Compass 앞뒤 공백 불일치: {spacing_mismatches}")
+
+    core_collision_groups: dict[str, set[str]] = {}
+    for key, english_value in english.items():
+        core_collision_groups.setdefault(str(working[key]), set()).add(
+            str(english_value)
+        )
+    core_collisions = {
+        value: source_values
+        for value, source_values in core_collision_groups.items()
+        if len(source_values) > 1
+    }
+    if core_collisions != {"요새": {"Stronghold", "Strongholds"}}:
+        errors.append(f"Explorer's Compass 핵심 번역 충돌 변경: {core_collisions}")
+
+    if errors:
+        raise RuntimeError(
+            "Explorer's Compass 연관 경로 검증 실패:\n" + "\n".join(errors)
+        )
+    return {
+        "group": "compass",
+        "namespace": "explorerscompass_related_paths",
+        "source_jar_sha256": hashlib.sha256(compass_jar.read_bytes()).hexdigest(),
+        "class_files_reviewed": len(class_files),
+        "class_translation_api_classes_reviewed": translation_api_classes,
+        "class_translation_keys_reviewed": len(class_translation_keys),
+        "dynamic_structure_name_path_reviewed": True,
+        "structure_registry_entries_reviewed": len(structure_ids),
+        "structure_names_from_project_reviewed": len(project_existing_keys),
+        "structure_names_from_bundled_korean_reviewed": len(bundled_existing_keys),
+        "structure_fallbacks_newly_translated": len(structure_fallbacks),
+        "structure_existing_names_corrected": len(structure_overrides),
+        "structure_semantic_collisions_retained": len(semantic_collisions),
+        "harmful_structure_name_collisions": 0,
+        "loose_datapack_structure_files_reviewed": loose_structure_files,
+        "project_language_files_traced": project_language_files,
+        "ftbquests_files_reviewed": len(quest_files),
+        "ftbquests_language_keys_reviewed": len(related_quest_keys),
+        "ftbquests_item_references_reviewed": sum(
+            len(item_ids) for item_ids in quest_item_references.values()
+        ),
+        "kubejs_files_reviewed": kubejs_files_reviewed,
+        "kubejs_technical_references_reviewed": len(kubejs_refs),
+        "other_mod_language_files_traced": other_language_files,
+        "other_mod_owned_keys_traced": other_owned_keys,
+        "unrelated_malformed_language_files_deferred": len(
+            unrelated_unreadable_language_files
+        ),
+        "core_semantic_collisions_retained": len(core_collisions),
+        "advancement_files": len(advancement_files),
+        "display_advancement_files": len(display_advancements),
+        "recipe_files": len(recipe_files),
+        "guide_files": len(guide_files),
+        "validation": "passed",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("group", choices=GROUPS + ("all",))
@@ -2168,6 +2740,7 @@ def main() -> int:
     if args.group in {"compass", "all"}:
         rows.append(verify_waystones_related(instance))
         rows.append(verify_naturescompass_related(instance))
+        rows.append(verify_explorerscompass_related(instance))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 

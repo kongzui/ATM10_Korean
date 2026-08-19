@@ -129,6 +129,14 @@
 | Biome | 생물군계 | Minecraft 공식 일반 용어 | 전체 프로젝트 | 확정 | `바이옴`과 섞지 않음 |
 | Dimension | 차원 | Minecraft 공식 일반 용어 | 전체 프로젝트 | 확정 | 사용자 표시 문구에서는 `디멘션`과 섞지 않음 |
 | Coordinates | 좌표 | Minecraft 공식 일반 용어 | 전체 프로젝트 | 확정 | `코디네이트`와 섞지 않음 |
+| Explorer's Compass | 탐험가의 나침반 | 아이템명 | Explorer's Compass 및 관련 퀘스트 | 확정 | 모드 자체를 가리킬 때는 공식 영문 이름 `Explorer's Compass` 유지 |
+| Structure | 구조물 | Minecraft 공식 일반 용어 | 전체 프로젝트 | 확정 | 월드 생성 구조물은 `건축물`, `구조체`와 섞지 않음 |
+| Nether Fortress | 네더 요새 | Minecraft 구조물명 | 전체 프로젝트 | 확정 | Stronghold의 `요새`와 구분 |
+| Stronghold | 요새 | Minecraft 구조물명 | 전체 프로젝트 | 확정 | Nether Fortress를 단순히 `요새`로 번역하지 않음 |
+| Woodland Mansion | 삼림 대저택 | Minecraft 구조물명 | 전체 프로젝트 | 확정 | 구조물 이름에서는 일반적인 `저택`과 구분 |
+| Buried Treasure | 땅에 묻힌 보물 | Minecraft 구조물명 | 전체 프로젝트 | 확정 | 퀘스트와 지도 이름의 공식 표현에 맞춤 |
+| Swamp Hut | 늪 오두막 | Minecraft 구조물명 | 전체 프로젝트 | 확정 | `늪지 오두막`과 섞지 않음 |
+| Badlands | 악지 | Minecraft 생물군계명 | 전체 프로젝트 | 확정 | 새 표시는 공식 명칭을 쓰되 서로 다른 레거시 ID를 구분할 때만 `Mesa`를 `메사`로 유지 |
 | MEGA Pattern Provider | MEGA 패턴 공급기 | 장치명 | MEGA Cells 및 Expanded AE 연동 목록 | 확정 | `ME MEGA 패턴 공급기`처럼 `ME`를 중복하지 않음 |
 | Greater Acceleration Card | 상급 가속 카드 | 업그레이드 카드명 | Expanded AE | 확정 | AE2의 `가속 카드`보다 높은 등급을 구분 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |
