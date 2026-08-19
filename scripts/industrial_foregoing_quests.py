@@ -277,7 +277,7 @@ KEY_OVERRIDES.update(
         "quest.427C3AFC0FF131CD.title": "유체",
         "quest.57C4A0BAE739E903.quest_desc": [
             "용해 챔버는 고급 기계를 제작할 때 사용합니다.\\n\\n제작할 아이템에 "
-            "필요한 재료와 지정된 유체를 넣어야 합니다. 정확한 조합법은 JEI에서 "
+            "필요한 재료와 지정된 유체를 넣어야 합니다. 정확한 제작법은 JEI에서 "
             "확인하세요."
         ],
         "quest.690CFF61CE787D43.quest_desc": [

@@ -1,0 +1,90 @@
+{
+  "status": "full_recheck_completed_and_deployed",
+  "scope": "Just Enough Items 전체 번역의 별도 신규 전수 재검수",
+  "source_jar": {
+    "name": "jei-1.21.1-neoforge-19.27.0.343.jar",
+    "sha256": "137f60018968a50c6f00e3a8ca9be790391792d2f3e6eff66237f2e9b3bc1353",
+    "bytes": 1529892,
+    "archive_entries": 1159,
+    "class_files": 923,
+    "json_files": 31
+  },
+  "language": {
+    "source_keys": 305,
+    "bundled_korean_candidate_keys": 170,
+    "bundled_candidates_matching_current_source": 169,
+    "bundled_outdated_keys_excluded": 1,
+    "project_candidate_keys_reviewed": 305,
+    "retained": 295,
+    "corrected": 10,
+    "new": 0,
+    "remaining": 0,
+    "output_sha256": "aa63b31e7b39004741539e33be152849366a35d268f568c5e1af32c70c6f482f"
+  },
+  "ftbquests": {
+    "related_keys_reviewed": 25,
+    "retained": 19,
+    "corrected": 6,
+    "new": 0,
+    "remaining": 0,
+    "correction": "JEI 문맥의 Recipe를 제작법으로 통일"
+  },
+  "kubejs": {
+    "related_files_reviewed": 4,
+    "user_visible_values_reviewed": 4,
+    "retained": 3,
+    "corrected": 1,
+    "new_override_files": 1,
+    "remaining": 0,
+    "override_sha256": "50de2bfb5269093a17806e67c4100a30d36589a7bef873f48a75ca4864d8572f"
+  },
+  "other_display_paths": {
+    "recipes": 0,
+    "advancements": 0,
+    "guide_files": 0,
+    "screen_json_files": 0,
+    "class_files_reviewed": 923,
+    "class_normal_gameplay_user_visible_literals": 0,
+    "class_debug_test_literals_reviewed": true,
+    "config_validation_literals_reviewed": true,
+    "server_config_comment_literals_reviewed": 3,
+    "configured_mod_installed": false,
+    "metadata_descriptions_reviewed": 2,
+    "remaining": 0,
+    "note": "디버그·오류 진단과 모드 메타데이터의 비언어 리소스 문자열은 일반 플레이 번역 키가 아님"
+  },
+  "cross_mod_consistency": {
+    "terms_added_to_glossary": 5,
+    "translation_induced_name_collisions": 0,
+    "resolved_recipe_term_conflicts": 6,
+    "official_mod_name": "Just Enough Items"
+  },
+  "validation": {
+    "language_keys_and_order_match_source": true,
+    "value_types_match_source": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "line_breaks_preserved": true,
+    "search_prefixes_preserved": true,
+    "working_output_hashes_match": true,
+    "ftbquests_related_paths_checked": true,
+    "kubejs_exact_scope_checked": true,
+    "family_source_validators_checked": true,
+    "python_ruff_checked": true,
+    "python_compile_checked": true,
+    "utf8_bom_files": 0,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "applied": true,
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "selected_paths": 3,
+    "changed_paths": 3,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260820_045708_293257/backup_manifest.json",
+    "pre_snapshot_files": 6079,
+    "post_snapshot_files": 6079
+  },
+  "remaining_manual_review": 0,
+  "minecraft_game_screen_verified": false
+}

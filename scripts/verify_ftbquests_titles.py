@@ -63,6 +63,9 @@ MODERN_INDUSTRIALIZATION_RELATED_OVERRIDES = (
     Path(__file__).resolve().parents[1]
     / "working/modern_industrialization/quests/related/ko_kr.json"
 )
+JEI_RELATED_QUEST_OVERRIDES = (
+    Path(__file__).resolve().parents[1] / "working/common_ui/jei/quest_overrides.json"
+)
 
 EXPECTED_ADDON_TASK_TITLES = {
     "task.13FF4A021BBF1451.title": "무한 셀",
@@ -145,6 +148,9 @@ def main() -> int:
     modern_industrialization_related_overrides = json.loads(
         MODERN_INDUSTRIALIZATION_RELATED_OVERRIDES.read_text(encoding="utf-8")
     )
+    jei_related_quest_overrides = json.loads(
+        JEI_RELATED_QUEST_OVERRIDES.read_text(encoding="utf-8")
+    )
     scoped_overrides = (
         common_overrides
         | core_quest_overrides
@@ -152,6 +158,7 @@ def main() -> int:
         | sophisticated_quest_overrides
         | productivebees_quest_overrides
         | modern_industrialization_related_overrides
+        | jei_related_quest_overrides
     )
     chapters, object_ids = audit.parse_chapters(quest_root)
     tasks_by_id = {

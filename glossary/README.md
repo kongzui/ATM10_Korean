@@ -93,6 +93,11 @@
 | ME Source Converter | ME 마나 변환기 | 장치명 | Ars Énergistique | 확정 | 블록과 케이블 부품에 같은 이름을 사용 |
 | Portable Source Cell | 휴대용 마나 셀 | 아이템명 | Ars Énergistique | 확정 | AE2의 `휴대용 아이템 셀` 계열 명명 규칙을 따름 |
 | ME Source Storage Cell | ME 마나 저장 셀 | 아이템명 | Ars Énergistique | 확정 | 용량 등급을 앞에 붙이고 휴대용 셀과 구분 |
+| Recipe | 제작법 | 공통 UI·퀘스트 용어 | 전체 프로젝트 | 확정 | `조합법`, `레시피`로 섞지 않고 마인크래프트 공식 표현과 JEI UI를 따름 |
+| Recipe Category | 제작법 범주 | JEI UI 용어 | JEI 및 제작법 조회 연동 | 확정 | `카테고리` 대신 기존 프로젝트의 `범주`를 사용 |
+| Ingredient | 재료 | JEI UI 용어 | JEI 및 제작법 조회 연동 | 확정 | 아이템뿐 아니라 유체 등도 포함하므로 문맥 없이 `아이템`으로 좁히지 않음 |
+| Uses | 사용법 | JEI UI 용어 | JEI 및 제작법 조회 연동 | 확정 | 재료가 쓰이는 제작법을 찾는 조회 동작 |
+| Bookmark | 북마크 | JEI UI 용어 | JEI 및 제작법 조회 연동 | 확정 | 아이템·재료·제작법 북마크에 같은 용어 사용 |
 | MEGA Pattern Provider | MEGA 패턴 공급기 | 장치명 | MEGA Cells 및 Expanded AE 연동 목록 | 확정 | `ME MEGA 패턴 공급기`처럼 `ME`를 중복하지 않음 |
 | Greater Acceleration Card | 상급 가속 카드 | 업그레이드 카드명 | Expanded AE | 확정 | AE2의 `가속 카드`보다 높은 등급을 구분 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |
