@@ -1,0 +1,8 @@
+{
+  "scope": "AE2WTLib 전체 관련 FTB Quests 재검수",
+  "source_keys": 2,
+  "changed_keys": 2,
+  "output": "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+  "output_sha256": "67c4132987e6adcd4d845acab2a593a5b375e051f844f61632256d37a3cd8b27",
+  "validation_errors": 0
+}

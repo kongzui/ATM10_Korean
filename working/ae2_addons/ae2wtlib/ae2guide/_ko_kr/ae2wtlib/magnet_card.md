@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: ae2wtlib/ae2wtlib-index.md
-  title: 자석 카드
+  title: 무선 터미널 자석 카드
   icon: ae2wtlib:magnet_card
   position: 220
 categories:
@@ -10,7 +10,7 @@ item_ids:
 - ae2wtlib:magnet_card
 ---
 
-# 자석 카드
+# 무선 터미널 자석 카드
 
 <ItemImage id="ae2wtlib:magnet_card" scale="3" />
 

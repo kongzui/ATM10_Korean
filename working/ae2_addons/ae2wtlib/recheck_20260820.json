@@ -1,0 +1,78 @@
+{
+  "status": "quality_recheck_completed_and_deployed",
+  "completed_at": "2026-08-20T03:08:46+09:00",
+  "scope": "AE2WTLib language, GuideME, FTB Quests, recipe advancements, KubeJS integration and cross-mod terminology",
+  "source_audit": {
+    "source_jar": "ae2wtlib-19.5.0.jar",
+    "source_jar_sha256": "decf9a35c6d08c160a65a30fe623fd9c09ad5f5dd1790052917f19c82441bd16",
+    "ae2_compatibility_jar": "appliedenergistics2-19.2.17.jar",
+    "ae2_compatibility_jar_sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95",
+    "language_entries_reviewed": 46,
+    "guideme_pages_reviewed": 8,
+    "ftbquests_entries_reviewed": 2,
+    "recipe_advancements_reviewed": 10,
+    "kubejs_user_visible_literals_reviewed": 0
+  },
+  "review_counts": {
+    "language_entries_kept": 39,
+    "language_entries_corrected": 7,
+    "language_entries_new": 0,
+    "guideme_pages_kept": 6,
+    "guideme_pages_corrected": 2,
+    "ftbquests_entries_kept": 0,
+    "ftbquests_entries_corrected": 2,
+    "ftbquests_entries_new": 0
+  },
+  "corrections": {
+    "language_entries": [
+      "AE2WTLib 자석 카드를 무선 터미널 자석 카드로 구체화하여 Advanced AE의 별도 아이템과 구분",
+      "양자 브리지 카드 설명의 구조물 이름을 양자 네트워크 브리지로 통일"
+    ],
+    "guideme": [
+      "자석 카드 페이지의 아이템 이름을 리소스팩과 통일",
+      "양자 네트워크 브리지와 양자 얽힘 특이점 용어를 AE2 본체와 통일"
+    ],
+    "ftbquests": [
+      "양자 브리지 카드 설명의 구조물 이름과 특이점 띄어쓰기를 통일",
+      "무선 범용 터미널이 유지하는 확장 패턴 접근 기능을 실제 기능에 맞게 명확히 설명"
+    ]
+  },
+  "related_surfaces": {
+    "ftbquests_found": true,
+    "kubejs_integration_found": true,
+    "kubejs_user_visible_literals_found": 0,
+    "recipe_advancement_display_literals_found": 0,
+    "patchouli_or_ponder_found": false
+  },
+  "cross_mod_review": {
+    "name_conflicts_corrected": 1,
+    "corrected_conflict": "AE2WTLib와 Advanced AE의 서로 다른 Magnet Card가 모두 자석 카드로 표시되던 충돌"
+  },
+  "validation": {
+    "language_keys_and_order_match": true,
+    "json_and_snbt_syntax": true,
+    "placeholders_numbers_format_codes_preserved": true,
+    "guideme_structure_links_tags_resources_preserved": true,
+    "fallback_titles_checked": true,
+    "unrelated_ftbquest_keys_changed": 0,
+    "duplicate_keys": 0,
+    "working_output_match": true,
+    "validation_errors": 0,
+    "terminology_errors": 0,
+    "ruff_check": true,
+    "python_compileall": true,
+    "git_diff_check": true
+  },
+  "deployment": {
+    "target": "game_root",
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "backup_manifest": "temp/backups/20260820_030833_902349/backup_manifest.json",
+    "changed_files": 4,
+    "changed_config_files": 1,
+    "changed_resourcepack_files": 3,
+    "hashes_match": true,
+    "unexpected_instance_changes": []
+  },
+  "remaining_ae2wtlib_review_items": [],
+  "minecraft_game_screen_verified": false
+}

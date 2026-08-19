@@ -238,6 +238,7 @@ COMMON_QUEST_OVERRIDES = (
     PROJECT_ROOT / "working/ftbquests/common_chapter_overrides.json"
 )
 ADDON_QUEST_OVERRIDE_FILES = (
+    PROJECT_ROOT / "working/ae2_addons/ae2wtlib/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/aeinfinitybooster/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/soulplied_energistics/quest_overrides.json",
     PROJECT_ROOT / "working/ae2_addons/extendedae/quest_overrides.json",
@@ -596,7 +597,7 @@ def main() -> int:
         "quest.4B76FE0348DB0E45.quest_desc": (
             "ME 네트워크",
             "무선 터미널",
-            "양자얽힘 특이점 한 쌍",
+            "양자 얽힘 특이점 한 쌍",
         ),
         "quest.5233A447BAA4593C.quest_desc": ("조밀한 스마트 케이블", "피복 케이블"),
         "quest.5C22E3103544B120.quest_desc": ("피복 케이블", "조밀한 피복 케이블"),
@@ -611,7 +612,7 @@ def main() -> int:
         "quest.75EE965CBA598FEA.quest_desc": (
             "여러 종류의",
             "무선 범용 터미널",
-            "확장 패턴",
+            "확장 패턴 접근 기능",
         ),
         "task.14DEFFB80CC96BC1.title": ("ME 조밀한 피복 케이블",),
         "task.38E290AC5E011888.title": ("ME 조밀한 스마트 케이블",),

@@ -66,6 +66,11 @@
 | Molecular Assembler | 분자 조립기 | 아이템·블록명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | ExtendedAE의 `확장 분자 조립기`와 통일 |
 | Meteorite Compass | 운석 나침반 | 아이템명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | `운석 탐지기`로 바꾸지 않음 |
 | Quantum Link Chamber | 양자 연결 챔버 | 아이템·블록명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | 양자 네트워크 브리지 전체와 구분 |
+| Quantum Network Bridge | 양자 네트워크 브리지 | 구조물명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | `양자 브리지 카드`와 구분 |
+| Quantum Bridge Card | 양자 브리지 카드 | 아이템명 | AE2WTLib | 확정 | 양자 네트워크 브리지에 무선 터미널을 연결하는 카드 |
+| Quantum Entangled Singularity | 양자 얽힘 특이점 | 아이템명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | `양자얽힘 특이점`으로 붙여 쓰지 않음 |
+| Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |
+| Wireless Universal Terminal | 무선 범용 터미널 | 아이템명 | AE2WTLib 및 관련 퀘스트 | 확정 | `범용 무선 터미널`과 혼용하지 않음 |
 | Spatial Pylon | 공간 지시탑 | 아이템·블록명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | `공간 파일런`으로 바꾸지 않음 |
 | Spatial Anchor | 공간 정박기 | 아이템·블록명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | 다른 모드의 일반적인 공간 앵커와 구분 |
 | Type | 종류 | 기술 용어 | AE2 저장 셀의 저장 종류 문맥 | 확정 | 일반적인 자료형이나 패턴 유형에는 적용하지 않음 |

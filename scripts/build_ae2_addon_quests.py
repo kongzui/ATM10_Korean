@@ -17,6 +17,10 @@ MODS = {
         "scope": "Applied Energistics 2 core related FTB Quests",
         "working": "working/ae2",
     },
+    "ae2wtlib": {
+        "scope": "AE2WTLib 전체 관련 FTB Quests 재검수",
+        "working": "working/ae2_addons/ae2wtlib",
+    },
     "aeinfinitybooster": {
         "scope": "AEInfinityBooster 전체 관련 FTB Quests",
         "working": "working/ae2_addons/aeinfinitybooster",

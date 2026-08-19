@@ -72,13 +72,24 @@ GUIDE_ITEM_NAMES = {
     ),
 }
 AE2WTLIB_QUALITY_TRANSLATIONS = {
+    "ae2wtlib.configuration.magnet_card_range": ("무선 터미널 자석 카드 범위"),
+    "gui.ae2wtlib.magnetcard": "무선 터미널 자석 카드",
+    "gui.ae2wtlib.magnetcard.hotkey": "무선 터미널 자석 카드: %s",
+    "gui.ae2wtlib.slot.magnetcard.desc": "무선 터미널 자석 카드",
     "gui.ae2wtlib.terminal_empty": ("이 터미널에는 다른 터미널이 들어 있지 않습니다."),
+    "item.ae2wtlib.magnet_card": "무선 터미널 자석 카드",
+    "item.ae2wtlib.quantum_bridge_card.desc": (
+        "무선 터미널을 양자 네트워크 브리지에 연결하여 거리 제한 없이 "
+        "사용할 수 있게 합니다."
+    ),
+    "key.ae2.ae2wtlib_magnet": "무선 터미널 자석 카드 전환",
 }
 AE2WTLIB_FORBIDDEN_GUIDE_PHRASES = (
     "불러와져 있어야",
     "단축바의 아이템 수를 바꾸어",
     "왼클릭(또는 우클릭)",
     "다음(또는 이전)",
+    "양자얽힘 특이점",
 )
 PLACEHOLDER_RE = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{\d+\}")
 FORMAT_CODE_RE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")

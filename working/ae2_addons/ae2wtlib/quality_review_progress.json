@@ -31,15 +31,15 @@
   ],
   "core_compatibility_file": "items-blocks-machines/wireless_terminals.md",
   "output_sha256": {
-    "assets/ae2/ae2guide/_ko_kr/items-blocks-machines/wireless_terminals.md": "0bf6f3583c616cedcb92799bdde939a0431af3ccf0c4b0201c2bc3048b39bb88",
-    "assets/ae2wtlib/lang/ko_kr.json": "b25771012608edab4ef129bbf21554bed3d77f3a5c3a28f82b5809867b786990",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/ae2wtlib-index.md": "a45dd7de86e2d735010aff787785c2d6e8fe7131ae65ee4d427009ffa89dded6",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/magnet_card.md": "1a6f84428660f71f04dd0dfd88dde40e8e192ddabf10267e2846503cc0db1f0c",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/quantum_bridge_card.md": "f1761dfecc0cb6d7d616c2b7791f128235281c9db9331f96b14f8420dcfc378b",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/restock.md": "38b192cc3d8f75f9a6816c6b4c7b3b656110669863012e964cd7b6e280dcb8ab",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_crafting_terminal.md": "bebdf5d07d2825658124d9a3ff5b2346022d009096a1b75fb012897504dd2a24",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_terminals.md": "4bd7dcefc64efa842b015ee281330305694d5f189ce940c3f9f880f6fd623472",
-    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_universal_terminal.md": "789e0b8e7cf0ba724d013276c8ae85e0d90a556f9a33b3226869cac8b9929251"
+    "assets/ae2/ae2guide/_ko_kr/items-blocks-machines/wireless_terminals.md": "5ea0c6d131597e3000e25cef627cc66b2c3072d1f3c7320002bcc46ac1160c96",
+    "assets/ae2wtlib/lang/ko_kr.json": "565cf2e091c05ca8bc84eeb103dd3d2a9d42149e60e1081634c8e09a5edb7f50",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/ae2wtlib-index.md": "f4d9004f7204094cf4d227650717bae42f5f77cb81fa320aab168f926b9762bb",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/magnet_card.md": "a1b8bb6d7eda25acf985add4084c1728c3c89823244d8e136c050325e6b077d8",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/quantum_bridge_card.md": "d6f7486bfd3b3f41f50fac9644a7a19287d1f665b5bd5591baeb936d7fdc001e",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/restock.md": "07fb87c24c449a1df7142863dd2afcee381a57d87d295cccb9d1e966db917d8e",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_crafting_terminal.md": "d91aa97ff63cfd83e611971f62261c455fc1a77a10190aadc3ca8a3193337c01",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_terminals.md": "95dc70600a49fe60b6b6da815fa786a7a8da990ad4a8b14c474e854d261529d1",
+    "assets/ae2wtlib/ae2guide/_ko_kr/ae2wtlib/wireless_universal_terminal.md": "e45c9960359848ebeee706a4bd3a1f4d911aac6d1b9f2c7982a9bb4054aceaa3"
   },
   "ftbquests_review": {
     "related_chapter_found": true,
