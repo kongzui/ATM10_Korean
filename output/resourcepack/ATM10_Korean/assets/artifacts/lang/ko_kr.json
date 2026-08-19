@@ -363,7 +363,7 @@
   "artifacts.tooltip.when_hurt": "피해를 입었을 때:",
   "artifacts.tooltip.when_hurt.is_fire": "불에 의한 피해를 입었을 때:",
   "curios.identifier.feet": "발",
-  "curios.modifiers.feet": "발에 착용 시:",
+  "curios.modifiers.feet": "발에 착용했을 때:",
   "effect.artifacts.magnetism": "자력",
   "entity.artifacts.mimic": "미믹",
   "generic.attack_burning_duration": "공격 불태우기 지속시간",

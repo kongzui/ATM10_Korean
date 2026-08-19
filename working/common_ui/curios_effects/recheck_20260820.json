@@ -1,0 +1,98 @@
+{
+  "scope": "Curios 전체 번역 독립 재검수",
+  "priority_reason": "모든 장비 모드가 공유하는 상시 인벤토리·툴팁 기반 시스템",
+  "source": {
+    "jar": "curios-neoforge-9.5.1+1.21.1.jar",
+    "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+    "bytes": 410690,
+    "entries": 270,
+    "classes": 152,
+    "json_files": 31,
+    "language_files": 17,
+    "advancement_files": 0,
+    "recipe_files": 0,
+    "guide_files": 0
+  },
+  "core_language_review": {
+    "english_keys": 48,
+    "bundled_korean_candidates": 41,
+    "bundled_korean_missing": 7,
+    "existing_candidates_retained": 46,
+    "existing_candidates_corrected": 2,
+    "corrected_keys": [
+      "argument.entity.options.curios.description",
+      "curios.networking.failed"
+    ]
+  },
+  "dynamic_slot_review": {
+    "slot_definition_files": 76,
+    "entity_assignment_files": 33,
+    "effective_slot_types": 24,
+    "core_slot_types": 10,
+    "dynamic_slot_types": 14,
+    "integration_keys": 28,
+    "existing_translations_retained": 14,
+    "existing_translations_corrected": 4,
+    "new_translations": 10,
+    "name_collisions_corrected": {
+      "ring_and_rings": [
+        "반지",
+        "Cataclysm 반지"
+      ],
+      "charm_and_talisman": [
+        "부적",
+        "탈리스만"
+      ]
+    },
+    "harmful_name_collisions_remaining": 0,
+    "unregistered_entity_slot_reference": {
+      "slot": "example",
+      "source": "industrialforegoing-1.21-3.6.38.jar",
+      "disposition": "등록 정의가 없어 화면에 표시되지 않는 원본 데이터 오류로 제외"
+    }
+  },
+  "related_content_review": {
+    "ftbquests_files": 142,
+    "ftbquests_language_keys": 7,
+    "ftbquests_retained": 3,
+    "ftbquests_corrected": 4,
+    "ftbquests_technical_references": 1,
+    "kubejs_files": 1020,
+    "kubejs_references": 7,
+    "kubejs_display_literals_corrected": 1,
+    "other_mod_language_files_traced": 23,
+    "other_mod_language_keys_traced": 92,
+    "cross_mod_output_keys_corrected": 10,
+    "class_translation_api_files": 4
+  },
+  "terminology": {
+    "official_mod_name": "Curios",
+    "curio_slot": "장신구",
+    "slot": "슬롯",
+    "cosmetic": "치장용",
+    "charm": "부적",
+    "talisman": "탈리스만",
+    "entity": "개체"
+  },
+  "validation": {
+    "curios_verifier": "passed",
+    "json_syntax": "passed",
+    "snbt_syntax_and_duplicate_keys": "passed",
+    "placeholders_linebreaks_format_codes_and_numbers": "passed",
+    "kubejs_javascript_syntax": "passed",
+    "python_compile": "passed",
+    "ruff_check": "passed",
+    "git_diff_check": "passed",
+    "pre_snapshot_files": 6079,
+    "post_snapshot_files": 6079,
+    "unexpected_instance_changes": []
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "changed_files": 8,
+    "backup_manifest": "temp/backups/20260820_065333_731636/backup_manifest.json",
+    "curios_output_sha256": "c03f911b093fa875b471ac943257070953461d5a8b745567ff26f1272ce88821",
+    "unexpected_changes": []
+  }
+}

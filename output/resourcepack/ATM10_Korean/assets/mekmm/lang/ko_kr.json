@@ -366,7 +366,7 @@
   "description.mekmm.fluid_replicator": "물리학 법칙을 위반하고 특정 물질을 사용하여 액체를 복제할 수 있는 기계입니다.",
   "description.mekmm.chemical_replicator": "물리학 법칙을 위반하고 특정 물질을 사용하여 화학 물질을 복제할 수 있는 기계입니다.",
   "description.mekmm.ambient_gas_collector": "대기에서 신비로운 물질을 추출하는 기계입니다.",
-  "description.mekmm.wireless_charging_station": "인벤토리 및 갑옷(큐리오스 모드가 있다면 큐리오스 포함)을 무선 충전하는 기계입니다.",
+  "description.mekmm.wireless_charging_station": "인벤토리와 갑옷(Curios 포함)을 무선으로 충전하는 기계입니다.",
   "description.mekmm.wireless_transmission_station": "다섯 가지 유형의 물질을 무선으로 전송할 수 있는 기계입니다.",
   "description.mekmm.author_doll": "제작자의 스킨을 가진 인형입니다.(단순 장식)",
   "description.mekmm.modeler_doll": "모델러의 스킨을 가진 인형입니다.(mekmm에 텍스처와 모델을 제공해 주신 모든 분들께 감사드립니다)",

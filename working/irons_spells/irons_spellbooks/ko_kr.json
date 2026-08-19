@@ -1262,7 +1262,7 @@
   "affix.irons_spellbooks:sword/attribute/mana_regen": "마나가 샘솟는",
   "affix.irons_spellbooks:sword/attribute/mana_regen.suffix": "- 마나의 샘",
   "curios.identifier.spellbook": "주문서",
-  "curios.modifiers.spellbook": "주문서로 장착하면:",
+  "curios.modifiers.spellbook": "주문서로 장착했을 때:",
   "lore.citadel_book.title": "성채 서",
   "lore.citadel_book.construction_ledger": "수백 건의 건축 자재 운송이 기록된 장부처럼 보인다...",
   "lore.citadel_book.soul_research": "흩어진 '영혼'을 수집하고 연료처럼 실험한 과정을 다루는 연구서다...",

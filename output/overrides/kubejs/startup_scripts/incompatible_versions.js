@@ -8,7 +8,7 @@ KubeJSTweaks.checkCompatibility(event => {
   event.checkModVersion("utilitarian", "1.21.1-0.15.0", "This version is crashing when bonemealing small flowers")
   event.checkModVersion("amendments", "1.21-2.0.4", "This version is crashing when opening lecterns")
 
-  event.checkModLoaded("accessories_compat_layer", "This mod can cause Curio compatibility issues with other mods")
+  event.checkModLoaded("accessories_compat_layer", "이 모드는 다른 모드와 Curios 호환성 문제를 일으킬 수 있습니다")
   event.checkModLoaded("letmedespawn", "This mod can cause same items to not stack due to NBT issues")
 
 })

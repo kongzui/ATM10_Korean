@@ -15,7 +15,7 @@
   "commands.curios.dropAll.success": "%s 님의 모든 슬롯 아이템을 떨어뜨렸습니다",
   "commands.curios.reset.success": "%s 님의 슬롯을 초기화했습니다",
   "commands.curios.replace.success": "%s 슬롯의 아이템을 교체했습니다: 대상 %s, 새 아이템 %s",
-  "argument.entity.options.curios.description": "엔티티의 Curios 인벤토리",
+  "argument.entity.options.curios.description": "개체의 Curios 인벤토리",
   "argument.curios.type.unknown": "알 수 없는 Curios 슬롯 유형: %s",
   "curios.identifier.curio": "장신구",
   "curios.identifier.necklace": "목걸이",
@@ -46,5 +46,5 @@
   "gui.curios.toggle": "표시 여부 전환",
   "gui.curios.toggle.cosmetics": "치장 슬롯 표시 전환",
   "gui.curios.page": "페이지 %d / %d",
-  "curios.networking.failed": "Curios 네트워크 연결 실패"
+  "curios.networking.failed": "Curios 네트워크 오류"
 }

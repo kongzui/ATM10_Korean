@@ -30,6 +30,7 @@ LATIN_WORD = re.compile(r"[A-Za-z]{3,}")
 
 
 SPELLBOOK_NEW = {
+    "curios.modifiers.spellbook": "주문서로 장착했을 때:",
     "item.irons_spellbooks.ice_spider_pheromones": "얼음 거미 페로몬",
     "item.irons_spellbooks.tincture_of_forgetfulness": "망각의 팅크",
     "item.irons_spellbooks.tincture_of_forgetfulness.desc": "시련 금고를 초기화합니다",

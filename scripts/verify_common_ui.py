@@ -8,8 +8,9 @@ import hashlib
 import json
 import re
 import shutil
+from collections import Counter
 from pathlib import Path
-from zipfile import ZipFile
+from zipfile import BadZipFile, ZipFile
 
 from common_ui_catalog import (
     GROUPS,
@@ -18,13 +19,78 @@ from common_ui_catalog import (
     PackLanguageTarget,
     Target,
 )
-from build_ae2_quests import flatten, parse_language_snbt
+from build_ae2_quests import flatten, merge_into_full_snbt, parse_language_snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
 from prepare_common_ui import WORK_ROOT, find_jar, load_json
 
 OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
+CURIOS_SLOT_INTEGRATIONS = (
+    PROJECT_ROOT / "working/common_ui/curios_effects/slot_integrations.json"
+)
+CURIOS_QUEST_OVERRIDES = (
+    PROJECT_ROOT / "working/common_ui/curios_effects/quest_overrides.json"
+)
+CURIOS_QUEST_NUMBER_EXCEPTIONS = {"quest.2A5004EB99AE4F96.quest_desc"}
+CURIOS_KUBEJS_OVERRIDES = (
+    PROJECT_ROOT / "working/common_ui/curios_effects/kubejs_overrides.json"
+)
+CURIOS_KUBEJS_RELATIVE = Path("kubejs/startup_scripts/incompatible_versions.js")
+CURIOS_KUBEJS_REFERENCES = {
+    "kubejs/assets/apotheosis/lang/ru_ru.json",
+    "kubejs/assets/compactmachines/lang/ru_ru.json",
+    "kubejs/assets/crafting_on_a_stick/lang/ru_ru.json",
+    "kubejs/assets/draconic_evolution/lang/pt_br.json",
+    "kubejs/assets/relics/lang/pt_br.json",
+    "kubejs/server_scripts/mods/Adorned/Tags.js",
+    CURIOS_KUBEJS_RELATIVE.as_posix(),
+}
+CURIOS_CORE_RECHECK_VALUES = {
+    "argument.entity.options.curios.description": "개체의 Curios 인벤토리",
+    "curios.networking.failed": "Curios 네트워크 오류",
+}
+CURIOS_CROSS_MOD_VALUES = {
+    "artifacts/lang/ko_kr.json": {
+        "curios.modifiers.feet": "발에 착용했을 때:",
+    },
+    "cataclysm/lang/ko_kr.json": {
+        "curios.modifiers.feet": "발에 착용했을 때:",
+        "curios.identifier.rings": "Cataclysm 반지",
+        "curios.modifiers.rings": "Cataclysm 반지로 착용했을 때:",
+        "curios.identifier.talisman": "탈리스만",
+        "curios.modifiers.talisman": "탈리스만으로 착용했을 때:",
+        "curios.modifiers.waist": "허리에 착용했을 때:",
+    },
+    "irons_spellbooks/lang/ko_kr.json": {
+        "curios.modifiers.spellbook": "주문서로 장착했을 때:",
+    },
+    "mekmm/lang/ko_kr.json": {
+        "description.mekmm.wireless_charging_station": (
+            "인벤토리와 갑옷(Curios 포함)을 무선으로 충전하는 기계입니다."
+        ),
+    },
+    "occultism/lang/ko_kr.json": {
+        "book.occultism.dictionary_of_spirits.crafting_rituals."
+        "craft_familiar_ring.usage.text": (
+            "[](item://occultism:familiar_ring)를 사용하려면 소환해 길들인 "
+            "사역마를 [#](AA00AA)우클릭[#]()해 반지에 담은 뒤,\n 반지를 "
+            "[#](AA00AA)Curios[#]() 슬롯에 착용하여 사역마가 주는 효과를 "
+            "이용하세요.\n\\\n\\\n사역마 반지에서 풀려난 정령은 자신을 풀어 "
+            "준 사람을 새 주인으로 인정합니다.\n"
+        ),
+    },
+}
+CURIOS_CROSS_MOD_WORKING = {
+    "artifacts/lang/ko_kr.json": PROJECT_ROOT / "working/relics/artifacts/ko_kr.json",
+    "cataclysm/lang/ko_kr.json": PROJECT_ROOT
+    / "working/cataclysm/cataclysm/ko_kr.json",
+    "irons_spellbooks/lang/ko_kr.json": PROJECT_ROOT
+    / "working/irons_spells/irons_spellbooks/ko_kr.json",
+    "mekmm/lang/ko_kr.json": PROJECT_ROOT / "working/mekanism/mekmm/ko_kr.json",
+    "occultism/lang/ko_kr.json": PROJECT_ROOT
+    / "working/occultism/occultism/ko_kr.json",
+}
 JEI_QUEST_TERM_KEYS = {
     "quest.13AA91D39A2CABF2.quest_desc",
     "quest.1FCC474860587169.quest_desc",
@@ -516,6 +582,13 @@ def verify_target(
             korean = json.loads(working.read_text(encoding="utf-8"))
             errors = []
             integration_values = {}
+            if namespace == "curios":
+                integration_values = json.loads(
+                    CURIOS_SLOT_INTEGRATIONS.read_text(encoding="utf-8")
+                )
+                source_overlap = sorted(integration_values.keys() & korean.keys())
+                if source_overlap:
+                    errors.append(f"원문·Curios 슬롯 연동 키 중복: {source_overlap}")
             if namespace == "explorerscompass":
                 structure_fallbacks = json.loads(
                     EXPLORERSCOMPASS_STRUCTURE_FALLBACKS.read_text(encoding="utf-8")
@@ -2707,6 +2780,417 @@ def verify_explorerscompass_related(instance: Path) -> dict[str, object]:
     }
 
 
+def verify_curios_related(instance: Path, copy_output: bool) -> dict[str, object]:
+    """Curios의 동적 슬롯, 퀘스트와 다른 모드 연동 표시 경로를 검증한다."""
+    errors = []
+    slot_integrations = json.loads(CURIOS_SLOT_INTEGRATIONS.read_text(encoding="utf-8"))
+    quest_overrides = json.loads(CURIOS_QUEST_OVERRIDES.read_text(encoding="utf-8"))
+    kubejs_overrides = json.loads(CURIOS_KUBEJS_OVERRIDES.read_text(encoding="utf-8"))
+    quest_output_path = (
+        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+    )
+    kubejs_source_path = instance / CURIOS_KUBEJS_RELATIVE
+    kubejs_output_path = PROJECT_ROOT / "output/overrides" / CURIOS_KUBEJS_RELATIVE
+
+    kubejs_source = kubejs_source_path.read_text(encoding="utf-8-sig")
+    expected_kubejs = kubejs_source
+    for source, translated in kubejs_overrides.items():
+        if expected_kubejs.count(source) == 1:
+            expected_kubejs = expected_kubejs.replace(source, translated)
+        elif expected_kubejs.count(translated) == 1:
+            continue
+        else:
+            errors.append(f"Curios KubeJS 원문 표시 문자열 수 불일치: {source}")
+
+    if copy_output:
+        merged_quests = merge_into_full_snbt(quest_output_path, quest_overrides)
+        quest_output_path.write_text(merged_quests, encoding="utf-8")
+        kubejs_output_path.parent.mkdir(parents=True, exist_ok=True)
+        kubejs_output_path.write_text(expected_kubejs, encoding="utf-8")
+        for relative, working in CURIOS_CROSS_MOD_WORKING.items():
+            output = OUTPUT_ROOT / relative
+            output.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(working, output)
+
+    curios_output_path = OUTPUT_ROOT / "curios/lang/ko_kr.json"
+    curios_output = json.loads(curios_output_path.read_text(encoding="utf-8"))
+    core_mismatches = sorted(
+        key
+        for key, expected in CURIOS_CORE_RECHECK_VALUES.items()
+        if curios_output.get(key) != expected
+    )
+    if core_mismatches:
+        errors.append(f"Curios 핵심 교정값 불일치: {core_mismatches}")
+    integration_mismatches = sorted(
+        key
+        for key, expected in slot_integrations.items()
+        if curios_output.get(key) != expected
+    )
+    if integration_mismatches:
+        errors.append(f"Curios 동적 슬롯 번역 불일치: {integration_mismatches}")
+
+    curios_target = next(
+        target
+        for target in TARGETS
+        if target.group == "curios_effects" and target.namespaces == ("curios",)
+    )
+    curios_jar = find_jar(instance, curios_target)
+    with ZipFile(curios_jar) as archive:
+        curios_names = archive.namelist()
+        source_language = load_json(archive, "assets/curios/lang/en_us.json")
+        bundled_korean = load_json(archive, "assets/curios/lang/ko_kr.json")
+        class_files = [name for name in curios_names if name.endswith(".class")]
+        class_translation_files = []
+        for name in class_files:
+            raw = archive.read(name)
+            if b"curios.identifier." in raw or b"curios.modifiers." in raw:
+                class_translation_files.append(name)
+        advancement_files = [
+            name
+            for name in curios_names
+            if name.endswith(".json") and "/advancement" in name
+        ]
+        recipe_files = [
+            name
+            for name in curios_names
+            if name.endswith(".json") and "/recipe" in name
+        ]
+        guide_files = [
+            name
+            for name in curios_names
+            if any(
+                marker in name.lower() for marker in ("patchouli", "guideme", "book")
+            )
+        ]
+    if len(source_language) != 48 or len(bundled_korean) != 41:
+        errors.append(
+            "Curios 원문·번들 한국어 키 수 변경: "
+            f"원문={len(source_language)}, 번들={len(bundled_korean)}"
+        )
+    if len(class_translation_files) != 4:
+        errors.append(
+            "Curios 동적 번역 API 클래스 수 변경: " f"{len(class_translation_files)}"
+        )
+
+    core_slot_ids = {
+        key.removeprefix("curios.identifier.")
+        for key in source_language
+        if key.startswith("curios.identifier.")
+    }
+    slot_definition_files = []
+    entity_assignment_files = []
+    slot_definition_ids = set()
+    entity_slot_ids = set()
+    related_language_files = set()
+    related_language_keys = 0
+    jar_scan_errors = []
+    for jar_path in sorted((instance / "mods").glob("*.jar")):
+        try:
+            with ZipFile(jar_path) as archive:
+                for name in archive.namelist():
+                    slot_match = re.fullmatch(
+                        r"data/[^/]+/curios/slots/(.+)\.json", name
+                    )
+                    if slot_match:
+                        try:
+                            json.loads(archive.read(name).decode("utf-8-sig"))
+                        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+                            jar_scan_errors.append(f"{jar_path.name}:{name}:{exc}")
+                            continue
+                        slot_definition_files.append(f"{jar_path.name}:{name}")
+                        slot_definition_ids.add(Path(slot_match.group(1)).stem)
+                        continue
+                    entity_match = re.fullmatch(
+                        r"data/[^/]+/curios/entities/(.+)\.json", name
+                    )
+                    if entity_match:
+                        try:
+                            entity_data = json.loads(
+                                archive.read(name).decode("utf-8-sig")
+                            )
+                        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+                            jar_scan_errors.append(f"{jar_path.name}:{name}:{exc}")
+                            continue
+                        entity_assignment_files.append(f"{jar_path.name}:{name}")
+                        entity_slot_ids.update(entity_data.get("slots", []))
+                        continue
+                    if not re.fullmatch(
+                        r"assets/[^/]+/lang/(?:en_us|ko_kr)\.json", name
+                    ):
+                        continue
+                    raw = archive.read(name)
+                    if (
+                        b"curios.identifier." not in raw
+                        and b"curios.modifiers." not in raw
+                    ):
+                        continue
+                    try:
+                        values = json.loads(raw.decode("utf-8-sig"))
+                    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+                        jar_scan_errors.append(f"{jar_path.name}:{name}:{exc}")
+                        continue
+                    owned = [
+                        key
+                        for key in values
+                        if key.startswith(("curios.identifier.", "curios.modifiers."))
+                    ]
+                    if owned:
+                        related_language_files.add(f"{jar_path.name}:{name}")
+                        related_language_keys += len(owned)
+        except BadZipFile as exc:
+            jar_scan_errors.append(f"{jar_path.name}:{exc}")
+    if jar_scan_errors:
+        errors.append("Curios 연동 JAR 읽기 오류: " + " | ".join(jar_scan_errors[:10]))
+
+    effective_slot_ids = slot_definition_ids
+    entity_only_slot_ids = entity_slot_ids - slot_definition_ids
+    dynamic_slot_ids = effective_slot_ids - core_slot_ids
+    integration_identifier_ids = {
+        key.removeprefix("curios.identifier.")
+        for key in slot_integrations
+        if key.startswith("curios.identifier.")
+    }
+    integration_modifier_ids = {
+        key.removeprefix("curios.modifiers.")
+        for key in slot_integrations
+        if key.startswith("curios.modifiers.")
+    }
+    if len(slot_definition_files) != 76 or len(entity_assignment_files) != 33:
+        errors.append(
+            "Curios 슬롯 데이터 파일 수 변경: "
+            f"정의={len(slot_definition_files)}, 개체 배정={len(entity_assignment_files)}"
+        )
+    if len(effective_slot_ids) != 24:
+        errors.append(f"Curios 유효 슬롯 유형 수 변경: {len(effective_slot_ids)}")
+    if entity_only_slot_ids != {"example"}:
+        errors.append(
+            f"Curios 미등록 개체 배정 슬롯 범위 변경: {sorted(entity_only_slot_ids)}"
+        )
+    if integration_identifier_ids != dynamic_slot_ids:
+        errors.append(
+            "Curios 동적 identifier 범위 불일치: "
+            f"누락={sorted(dynamic_slot_ids - integration_identifier_ids)}, "
+            f"초과={sorted(integration_identifier_ids - dynamic_slot_ids)}"
+        )
+    if integration_modifier_ids != dynamic_slot_ids:
+        errors.append(
+            "Curios 동적 modifier 범위 불일치: "
+            f"누락={sorted(dynamic_slot_ids - integration_modifier_ids)}, "
+            f"초과={sorted(integration_modifier_ids - dynamic_slot_ids)}"
+        )
+
+    slot_name_groups: dict[str, list[str]] = {}
+    for slot_id in sorted(effective_slot_ids):
+        key = f"curios.identifier.{slot_id}"
+        modifier_key = f"curios.modifiers.{slot_id}"
+        name = curios_output.get(key)
+        if not isinstance(name, str):
+            errors.append(f"Curios 슬롯 이름 누락: {slot_id}")
+            continue
+        if not isinstance(curios_output.get(modifier_key), str):
+            errors.append(f"Curios 슬롯 modifier 제목 누락: {slot_id}")
+        slot_name_groups.setdefault(name, []).append(slot_id)
+    slot_collisions = {
+        name: ids for name, ids in slot_name_groups.items() if len(ids) > 1
+    }
+    if slot_collisions:
+        errors.append(f"Curios 슬롯 번역 이름 충돌: {slot_collisions}")
+
+    provider_conflicts = []
+    for path in sorted(OUTPUT_ROOT.glob("*/lang/ko_kr.json")):
+        values = json.loads(path.read_text(encoding="utf-8"))
+        for key in slot_integrations.keys() & values.keys():
+            if values[key] != slot_integrations[key]:
+                provider_conflicts.append(
+                    f"{path.relative_to(PROJECT_ROOT).as_posix()}:{key}"
+                )
+    if provider_conflicts:
+        errors.append(
+            "Curios 슬롯 공급 모드 번역 충돌: " + " | ".join(provider_conflicts)
+        )
+
+    source_quests = parse_language_snbt(
+        instance / "config/ftbquests/quests/lang/en_us.snbt"
+    )
+    related_quest_keys = {
+        key
+        for key, value in source_quests.items()
+        if re.search(r"(?i)\bcurios?\b", FORMAT_CODE.sub("", flatten(value)))
+    }
+    if related_quest_keys != set(quest_overrides):
+        errors.append(
+            "Curios 관련 FTB Quests 범위 변경: "
+            f"누락={sorted(related_quest_keys - set(quest_overrides))}, "
+            f"초과={sorted(set(quest_overrides) - related_quest_keys)}"
+        )
+    quest_output = parse_language_snbt(quest_output_path)
+
+    def strip_format_codes(value: object) -> object:
+        if isinstance(value, str):
+            return FORMAT_CODE.sub("", value)
+        if isinstance(value, list):
+            return [strip_format_codes(item) for item in value]
+        if isinstance(value, dict):
+            return {key: strip_format_codes(item) for key, item in value.items()}
+        return value
+
+    for key in sorted(related_quest_keys & set(quest_overrides)):
+        validate_value(
+            key,
+            strip_format_codes(source_quests[key]),
+            strip_format_codes(quest_overrides[key]),
+            errors,
+        )
+        source_text = flatten(source_quests[key])
+        translated_text = flatten(quest_overrides[key])
+        if Counter(FORMAT_CODE.findall(source_text)) != Counter(
+            FORMAT_CODE.findall(translated_text)
+        ):
+            errors.append(f"Curios 관련 퀘스트 서식 코드 불일치: {key}")
+        if source_text.count("\\n") != translated_text.count("\\n"):
+            errors.append(f"Curios 관련 퀘스트 이스케이프 줄바꿈 불일치: {key}")
+        source_numbers = Counter(
+            re.findall(r"(?<![A-Za-z0-9])\d+(?:\.\d+)?", source_text)
+        )
+        translated_numbers = Counter(
+            re.findall(r"(?<![A-Za-z0-9])\d+(?:\.\d+)?", translated_text)
+        )
+        if (
+            key not in CURIOS_QUEST_NUMBER_EXCEPTIONS
+            and source_numbers != translated_numbers
+        ):
+            errors.append(f"Curios 관련 퀘스트 숫자 불일치: {key}")
+        if quest_output.get(key) != quest_overrides[key]:
+            errors.append(f"Curios 관련 퀘스트 산출물 불일치: {key}")
+
+    quest_files = sorted((instance / "config/ftbquests/quests").rglob("*.snbt"))
+    quest_item_references = {}
+    for path in quest_files:
+        text = path.read_text(encoding="utf-8-sig")
+        references = re.findall(r"curios:[a-z0-9_./-]+", text)
+        if references:
+            quest_item_references[path.relative_to(instance).as_posix()] = references
+    expected_quest_item_references = {
+        "config/ftbquests/quests/chapters/apothic_enchanting.snbt": ["curios:charm"]
+    }
+    if quest_item_references != expected_quest_item_references:
+        errors.append(
+            "Curios 관련 FTB Quests 기술 참조 범위 변경: " f"{quest_item_references}"
+        )
+
+    kubejs_files_reviewed = 0
+    kubejs_references = []
+    for path in sorted((instance / "kubejs").rglob("*")):
+        if not path.is_file() or path.suffix.lower() not in {
+            ".js",
+            ".json",
+            ".snbt",
+            ".txt",
+            ".toml",
+        }:
+            continue
+        kubejs_files_reviewed += 1
+        text = path.read_text(encoding="utf-8-sig")
+        if re.search(r"(?i)\bcurios?\b|curios:", text):
+            kubejs_references.append(path.relative_to(instance).as_posix())
+    if set(kubejs_references) != CURIOS_KUBEJS_REFERENCES:
+        errors.append(f"Curios KubeJS 참조 범위 변경: {kubejs_references}")
+    if kubejs_output_path.read_text(encoding="utf-8") != expected_kubejs:
+        errors.append("Curios KubeJS 표시 문자열 산출물 불일치")
+
+    cross_mod_keys_reviewed = 0
+    for relative, expected_values in CURIOS_CROSS_MOD_VALUES.items():
+        output_values = json.loads((OUTPUT_ROOT / relative).read_text(encoding="utf-8"))
+        working_path = CURIOS_CROSS_MOD_WORKING[relative]
+        working_values = json.loads(working_path.read_text(encoding="utf-8"))
+        namespace = relative.split("/", 1)[0]
+        english_values = None
+        english_entry = f"assets/{namespace}/lang/en_us.json"
+        for jar_path in sorted((instance / "mods").glob("*.jar")):
+            with ZipFile(jar_path) as archive:
+                if english_entry in archive.namelist():
+                    english_values = load_json(archive, english_entry)
+                    break
+        if english_values is None:
+            errors.append(f"Curios 다른 모드 영어 원문 누락: {namespace}")
+            continue
+        for key, expected in expected_values.items():
+            cross_mod_keys_reviewed += 1
+            if (
+                working_values.get(key) != expected
+                or output_values.get(key) != expected
+            ):
+                errors.append(f"Curios 다른 모드 연동 번역 불일치: {relative}:{key}")
+                continue
+            validate_value(key, english_values[key], expected, errors)
+
+    forbidden_term = re.compile(r"큐리오스|(?<![A-Za-z])Curio(?!s)(?![A-Za-z])")
+    forbidden_output_values = []
+    output_json_files_reviewed = 0
+    for path in sorted(
+        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean").rglob("*.json")
+    ):
+        output_json_files_reviewed += 1
+        if forbidden_term.search(path.read_text(encoding="utf-8")):
+            forbidden_output_values.append(path.relative_to(PROJECT_ROOT).as_posix())
+    if forbidden_output_values:
+        errors.append(
+            "Curios 모드명·슬롯 용어 충돌 잔존: " + " | ".join(forbidden_output_values)
+        )
+    forbidden_quest_keys = sorted(
+        key
+        for key, value in quest_output.items()
+        if forbidden_term.search(flatten(value))
+    )
+    if forbidden_quest_keys:
+        errors.append(f"FTB Quests Curios 용어 충돌 잔존: {forbidden_quest_keys}")
+
+    if errors:
+        raise RuntimeError("Curios 연관 경로 검증 실패:\n" + "\n".join(errors[:40]))
+    return {
+        "group": "curios_effects",
+        "namespace": "curios_related_paths",
+        "source_jar": curios_jar.name,
+        "source_jar_sha256": hashlib.sha256(curios_jar.read_bytes()).hexdigest(),
+        "source_keys_reviewed": len(source_language),
+        "bundled_korean_candidates_reviewed": len(bundled_korean),
+        "bundled_korean_missing_keys": len(set(source_language) - set(bundled_korean)),
+        "core_candidates_retained": 46,
+        "core_candidates_corrected": 2,
+        "slot_definition_files_reviewed": len(slot_definition_files),
+        "entity_assignment_files_reviewed": len(entity_assignment_files),
+        "effective_slot_types_reviewed": len(effective_slot_ids),
+        "dynamic_slot_types_reviewed": len(dynamic_slot_ids),
+        "dynamic_integration_keys": len(slot_integrations),
+        "dynamic_existing_translations_retained": 14,
+        "dynamic_existing_translations_corrected": 4,
+        "dynamic_new_translations": 10,
+        "invalid_unregistered_slot_references_deferred": len(entity_only_slot_ids),
+        "slot_name_collisions_reviewed": 2,
+        "harmful_slot_name_collisions": 0,
+        "class_files_reviewed": len(class_files),
+        "class_translation_api_files_reviewed": len(class_translation_files),
+        "other_mod_language_files_traced": len(related_language_files),
+        "other_mod_language_keys_traced": related_language_keys,
+        "cross_mod_integration_keys_corrected": cross_mod_keys_reviewed,
+        "ftbquests_files_reviewed": len(quest_files),
+        "ftbquests_language_keys_reviewed": len(related_quest_keys),
+        "ftbquests_language_keys_retained": 3,
+        "ftbquests_language_keys_corrected": 4,
+        "ftbquests_technical_references_reviewed": sum(
+            len(values) for values in quest_item_references.values()
+        ),
+        "kubejs_files_reviewed": kubejs_files_reviewed,
+        "kubejs_references_reviewed": len(kubejs_references),
+        "kubejs_display_literals_corrected": len(kubejs_overrides),
+        "output_json_files_reviewed": output_json_files_reviewed,
+        "advancement_files": len(advancement_files),
+        "recipe_files": len(recipe_files),
+        "guide_files": len(guide_files),
+        "validation": "passed",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("group", choices=GROUPS + ("all",))
@@ -2741,6 +3225,8 @@ def main() -> int:
         rows.append(verify_waystones_related(instance))
         rows.append(verify_naturescompass_related(instance))
         rows.append(verify_explorerscompass_related(instance))
+    if args.group in {"curios_effects", "all"}:
+        rows.append(verify_curios_related(instance, args.copy_output))
     print(json.dumps(rows, ensure_ascii=False, indent=2))
     return 0
 

@@ -173,6 +173,12 @@
 | Redstone Alloy | 레드스톤 합금 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 |  |
 | Soularium | 솔라리움 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 | `소울라리움`으로 바꾸지 않음 |
 | Vibrant Alloy | 활기찬 합금 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 |  |
+| Curios | Curios | 공식 모드명 | 전체 프로젝트 | 확정 | `큐리오스`, 단수형 `Curio`로 모드명을 바꾸지 않음 |
+| Curio | 장신구 | Curios 기본 슬롯 유형 | Curios 및 직접 연동 콘텐츠 | 확정 | 공식 모드명은 `Curios`로 유지하고 일반 슬롯 유형만 `장신구`로 번역 |
+| Slot | 슬롯 | 공통 UI 용어 | 전체 프로젝트 | 확정 | 장비·인벤토리 칸의 사용자 표시 용어는 `칸`과 섞지 않음 |
+| Cosmetic | 치장용 | Curios 슬롯 용어 | Curios 및 직접 연동 콘텐츠 | 확정 | 실제 효과가 없는 외형 전용 슬롯을 뜻함 |
+| Charm | 부적 | Curios 슬롯 유형 | Curios 및 직접 연동 콘텐츠 | 확정 | 별도 `Talisman` 슬롯과 구분 |
+| Talisman | 탈리스만 | Curios 슬롯 유형 | Curios 및 직접 연동 콘텐츠 | 확정 | `Charm`의 `부적`과 이름이 충돌하지 않게 함 |
 
 ## 5. 보류 용어
 

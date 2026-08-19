@@ -321,7 +321,7 @@
   "book.occultism.dictionary_of_spirits.crafting_rituals.craft_familiar_ring.description": "나의 소중한",
   "book.occultism.dictionary_of_spirits.crafting_rituals.craft_familiar_ring.name": "익숙한 반지",
   "book.occultism.dictionary_of_spirits.crafting_rituals.craft_familiar_ring.spotlight.text": "사역마 링은 링에 장착된 [#](AA00AA)지니[#]()를 포함하는 [](item://occultism:soul_gem)로 구성됩니다. 링에 있는 [#](AA00AA)지니[#]()를\n사용하면 영혼 보석에 포착된 사역마가 착용자에게 효과를 적용할 수 있습니다.\n",
-  "book.occultism.dictionary_of_spirits.crafting_rituals.craft_familiar_ring.usage.text": "[](item://occultism:familiar_ring)를 사용하려면 소환해 길들인 사역마를 [#](AA00AA)우클릭[#]()해 반지에 담은 뒤,\n 반지를 [#](AA00AA)Curio[#]() 슬롯에 착용하여 사역마가 주는 효과를 이용하세요.\n\\\n\\\n사역마 반지에서 풀려난 정령은 자신을 풀어 준 사람을 새 주인으로 인정합니다.\n",
+  "book.occultism.dictionary_of_spirits.crafting_rituals.craft_familiar_ring.usage.text": "[](item://occultism:familiar_ring)를 사용하려면 소환해 길들인 사역마를 [#](AA00AA)우클릭[#]()해 반지에 담은 뒤,\n 반지를 [#](AA00AA)Curios[#]() 슬롯에 착용하여 사역마가 주는 효과를 이용하세요.\n\\\n\\\n사역마 반지에서 풀려난 정령은 자신을 풀어 준 사람을 새 주인으로 인정합니다.\n",
   "book.occultism.dictionary_of_spirits.crafting_rituals.craft_familiar_ring.usage.title": "용법",
   "book.occultism.dictionary_of_spirits.crafting_rituals.craft_foliot_miner.description": "돌, 돌 및 광석",
   "book.occultism.dictionary_of_spirits.crafting_rituals.craft_foliot_miner.intro.text": "광부 영혼은 [](item://occultism:dimensional_mineshaft)를 사용하여 다른 차원에서 자원을 얻습니다. 그들은 소환되어\n마법의 램프에 묶여 있으며, 광산을 통해서만 나갈 수 있습니다. 마법 램프는\n시간이 지남에 따라 성능이 저하되며, 일단 깨지면 영혼은 [#](AA00AA)다른 장소[#]()로 다시 방출됩니다.\n",

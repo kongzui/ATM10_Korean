@@ -158,6 +158,7 @@ ARTIFACT_TITLE_TRANSLATIONS = {
 }
 
 ARTIFACT_EXACT = {
+    "curios.modifiers.feet": "발에 착용했을 때:",
     "artifacts.advancements.adventurous_eater.description": "유물을 먹으세요",
     "artifacts.advancements.adventurous_eater.title": "모험적인 미식가",
     "artifacts.advancements.amateur_archaeologist.description": "유물을 찾으세요",

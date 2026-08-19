@@ -170,7 +170,12 @@ LANGUAGE_OVERRIDES: dict[str, str] = {
     "death.attack.cataclysm.lightning": "%s이(가) %s에게 감전당했습니다",
     "death.attack.cataclysm.emp": "%s이(가) 전기구이 통닭이 되어 버렸습니다",
     "death.attack.cataclysm.emp.player": ("%s이(가) 전기구이 통닭이 되어 버렸습니다"),
-    "curios.identifier.rings": "반지",
+    "curios.identifier.rings": "Cataclysm 반지",
+    "curios.modifiers.feet": "발에 착용했을 때:",
+    "curios.modifiers.rings": "Cataclysm 반지로 착용했을 때:",
+    "curios.identifier.talisman": "탈리스만",
+    "curios.modifiers.talisman": "탈리스만으로 착용했을 때:",
+    "curios.modifiers.waist": "허리에 착용했을 때:",
     "ability.cataclysm.amethyst_cluster": "자수정 군집",
     "ability.cataclysm.amethyst_cluster.desc": (
         "주변에 자수정 군집을 발사해 개체에게 피해를 줍니다."
@@ -795,7 +800,7 @@ QUEST_QUALITY_OVERRIDES: dict[str, str] = {
     "quest.689F32883C4E9502.title": "&4&lL_Ender's Cataclysm",
     "quest.69439426534EBDC4.quest_desc": (
         "&b타오르는 손길&r은 &b이그니티움&r으로 만들 수 있는 또 다른 아이템입니다! "
-        "\n\n손 칸에 착용하는 큐리오스 아이템입니다. \n\n착용하면 모든 공격이 일정 "
+        "\n\n손 슬롯에 착용하는 Curios 아이템입니다. \n\n착용하면 모든 공격이 일정 "
         "확률로 대상에게 &b불타는 낙인&r을 부여합니다. \n\n이 효과는 방어력과 방어 "
         "강도를 낮추며, &b&l이그니스&r에게 당하면 상당히 괴롭습니다."
     ),

@@ -368,7 +368,7 @@ EXACT_KEYS = {
     "book.occultism.dictionary_of_spirits.crafting_rituals.craft_familiar_ring.usage.text": (
         "[](item://occultism:familiar_ring)를 사용하려면 소환해 길들인 사역마를 "
         "[#](AA00AA)우클릭[#]()해 반지에 담은 뒤,\n"
-        " 반지를 [#](AA00AA)Curio[#]() 슬롯에 착용하여 사역마가 주는 효과를 "
+        " 반지를 [#](AA00AA)Curios[#]() 슬롯에 착용하여 사역마가 주는 효과를 "
         "이용하세요.\n\\\n\\\n"
         "사역마 반지에서 풀려난 정령은 자신을 풀어 준 사람을 새 주인으로 인정합니다.\n"
     ),
