@@ -1,0 +1,15 @@
+{
+  "guideme.configuration.adaptiveScaling": "GUI 배율 자동 조정",
+  "guideme.guidebook.CloseFullWidthView": "전체 너비 보기 종료",
+  "guideme.guidebook.ContentFrom": "콘텐츠 출처: ",
+  "guideme.guidebook.FullWidthView": "전체 너비로 보기",
+  "guideme.guidebook.HistoryGoBack": "한 페이지 뒤로",
+  "guideme.guidebook.HistoryGoForward": "한 페이지 앞으로",
+  "guideme.guidebook.HoldToShow": "[%s] 키를 길게 눌러 가이드 열기",
+  "guideme.guidebook.ItemInvalidGuideId": "설정된 가이드 ID가 잘못되었습니다: %s",
+  "guideme.guidebook.ResetView": "시점 초기화",
+  "guideme.guidebook.RunsCommand": "실행할 명령어:",
+  "guideme.guidebook.SearchNoResults": "검색 결과 없음",
+  "guideme.guidebook.ShapelessCrafting": "제작(모양 없음)",
+  "item.guideme.guide": "GuideME 가이드"
+}

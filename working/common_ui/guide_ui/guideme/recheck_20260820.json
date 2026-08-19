@@ -1,0 +1,87 @@
+{
+  "scope": "GuideME 전체 번역 재검수",
+  "source": {
+    "jar": "guideme-21.1.16.jar",
+    "sha256": "7938843929b065050375d7585398c9a478ae92a8f543ee6594161245750fd420",
+    "bytes": 9309277,
+    "entries": 5458,
+    "class_files": 5102,
+    "nonshaded_class_files": 618,
+    "language_files": 1,
+    "bundled_korean_files": 0
+  },
+  "language_review": {
+    "source_keys_reviewed": 36,
+    "project_candidates_retained": 23,
+    "project_candidates_corrected": 13,
+    "new_display_fallback_translations": 6,
+    "effective_output_keys": 42,
+    "english_values_retained": [
+      "key.guideme.category"
+    ],
+    "harmful_internal_name_collisions": 0
+  },
+  "display_paths": {
+    "guidebook_text_keys_reviewed": 23,
+    "config_sections_reviewed": 3,
+    "config_options_reviewed": 5,
+    "neoforge_configuration_screen_registration_reviewed": true,
+    "stale_upstream_language_key": "guideme.configuration.guide",
+    "actual_section_fallback_key": "guideme.configuration.guides",
+    "missing_recipe_setting_fallback_key": "guideme.configuration.hideMissingRecipeErrors",
+    "translated_tooltip_fallback_keys": 4,
+    "hardcoded_display_literals_deferred": [
+      "GuideME Guidebook",
+      "# Page not Found / Page ... could not be found.",
+      "AE2 Guidebook Search",
+      "Navigation Tree",
+      "Guide data exported to",
+      "Click to open export folder",
+      "Saved structure",
+      "Placed structure",
+      "Failed to place structure"
+    ],
+    "hardcoded_compiler_diagnostic_classes_deferred": 17,
+    "hardcoded_compiler_diagnostic_calls_reviewed": 46,
+    "deferred_reason": "GuideME 클래스에 직접 작성되어 리소스팩 언어 키로 교체할 수 없으며 원본 JAR은 수정하지 않습니다."
+  },
+  "related_guides": {
+    "provider_jars_reviewed": 16,
+    "provider_source_pages_reviewed": 318,
+    "current_goal_provider_pages_present": 224,
+    "future_owner_provider_pages_deferred": {
+      "Energy Meter": 2,
+      "Little Big Redstone": 25,
+      "Modern Industrialization": 39,
+      "Powah": 28
+    },
+    "future_owner_provider_pages_total": 94
+  },
+  "related_content": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_direct_references": 0,
+    "kubejs_files_reviewed": 1020,
+    "kubejs_foreign_language_files_reviewed": [
+      "kubejs/assets/guideme/lang/ru_ru.json"
+    ],
+    "kubejs_direct_display_references": 0,
+    "core_advancement_files": 0,
+    "core_recipe_files": 0
+  },
+  "cross_mod_review": {
+    "project_language_files_reviewed": 285,
+    "collision_rows_reviewed": 82,
+    "harmful_item_block_name_collisions": 0,
+    "resolved_item_name_collision": "item.guideme.guide를 GuideME 가이드로 구분",
+    "shapeless_term_conflicts_deferred_to_owner_mods": [
+      "create:create.recipe.automatic_shapeless",
+      "ftbultimine:ftbultimine.server_settings.misc.merge_tags",
+      "modonomicon:tooltip.modonomicon.recipe.crafting_shapeless",
+      "patchouli:patchouli.gui.lexicon.shapeless",
+      "twilightforest:config.twilightforest.shapeless_uncrafting",
+      "twilightforest:config.twilightforest.shapeless_uncrafting.tooltip"
+    ]
+  },
+  "glossary_terms_added": 4,
+  "validation": "passed"
+}
