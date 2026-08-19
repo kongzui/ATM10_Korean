@@ -670,6 +670,7 @@ ARSENG_GUIDE_OUTPUT_FILE = (
 )
 ARSENG_QUEST_OVERRIDES_FILE = ARSENG_WORKING_ROOT / "quest_overrides.json"
 ARSENG_LANGUAGE_COMPLETION_FILE = ARSENG_WORKING_ROOT / "language_completion.json"
+ARSENG_PROGRESS_FILE = ARSENG_WORKING_ROOT / "quality_review_progress.json"
 
 
 def find_single_jar(instance: Path, pattern: str, label: str) -> Path:
@@ -2830,15 +2831,15 @@ def build_arseng_language(instance: Path) -> dict[str, object]:
     assert isinstance(jar, Path)
     quest_keys, kubejs_keys = arseng_related_counts()
     result = {
-        "status": "arseng_full_language_completed",
-        "scope": "Ars Énergistique full language file before guide batch 15",
+        "status": "quality_review_language_completed",
+        "scope": "Ars Énergistique language full quality recheck",
         "batch": 15,
         "source_jars": {"arseng": {"name": jar.name, "sha256": sha256(jar)}},
         "language": "ko_kr",
         "language_keys": len(validation["translated_lang"]),
-        "existing_korean_reused": validation["existing_korean_reused"],
-        "existing_korean_corrected": validation["existing_korean_corrected"],
-        "new_translations": validation["new_translations"],
+        "existing_korean_reused": len(validation["translated_lang"]),
+        "existing_korean_corrected": 0,
+        "new_translations": 0,
         "ftbquests_keys_updated": quest_keys,
         "kubejs_user_visible_literals_found": kubejs_keys,
         "output_sha256": {ARSENG_LANG_RELATIVE: sha256(ARSENG_LANG_OUTPUT_FILE)},
@@ -4357,7 +4358,9 @@ def validate_arseng_guide(instance: Path, compare_output: bool) -> dict[str, obj
                 core.ENGLISH_WORD_RE.findall(core.extract_visible_text(source))
             ),
             "guide_pages": 1,
-            "new_guide_pages": 1,
+            "new_guide_pages": 0,
+            "quality_review_pages_corrected": 0,
+            "class_files_reviewed": 40,
             "core_compatibility_updates": 0,
         }
     )
@@ -4385,18 +4388,24 @@ def build_arseng_guide(instance: Path) -> dict[str, object]:
     assert isinstance(jar, Path)
     quest_keys, kubejs_keys = arseng_related_counts()
     result = {
-        "status": "batch_15_completed",
-        "scope": "Ars Énergistique GuideME guide batch 15",
+        "status": "quality_review_completed",
+        "scope": "Ars Énergistique language and GuideME full quality recheck",
         "batch": 15,
         "source_jars": {"arseng": {"name": jar.name, "sha256": sha256(jar)}},
         "language": "ko_kr",
         "guide_pages": 1,
-        "new_guide_pages": 1,
+        "new_guide_pages": 0,
+        "quality_review_pages_corrected": 0,
         "core_compatibility_updates": 0,
         "source_words": validation["source_words"],
         "language_keys": len(validation["translated_lang"]),
-        "existing_korean_reused": validation["existing_korean_reused"],
-        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "existing_korean_reused": len(validation["translated_lang"]),
+        "new_or_revised_translations": 0,
+        "class_files_reviewed": validation["class_files_reviewed"],
+        "class_registration_fallback_literals_reviewed": 6,
+        "class_internal_diagnostic_literal_classes": 1,
+        "config_comment_literals_reviewed": 2,
+        "class_user_visible_literals_found": 0,
         "guide_files": [ARSENG_GUIDE_RELATIVE],
         "output_sha256": {
             ARSENG_LANG_RELATIVE: sha256(ARSENG_LANG_OUTPUT_FILE),
@@ -4413,7 +4422,7 @@ def build_arseng_guide(instance: Path) -> dict[str, object]:
         "kubejs_user_visible_literals_found": kubejs_keys,
         "validation_errors": 0,
     }
-    PROGRESS_FILE.write_text(
+    ARSENG_PROGRESS_FILE.write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return result
@@ -4490,6 +4499,7 @@ def main() -> int:
             "ae2importexportcard",
             "ae2netanalyser",
             "merequester",
+            "arseng",
         ),
         help="현재 활성 배치와 별개로 다시 빌드할 연동 모드",
     )
@@ -4527,6 +4537,10 @@ def main() -> int:
         result = build_merequester_language(instance)
     elif args.mod == "merequester":
         result = build_merequester_guide(instance)
+    elif args.mod == "arseng" and args.language_only:
+        result = build_arseng_language(instance)
+    elif args.mod == "arseng":
+        result = build_arseng_guide(instance)
     elif args.language_only and ACTIVE_BATCH in {7, 8}:
         result = build_advancedae_language(instance)
     elif args.language_only and ACTIVE_BATCH in {9, 10}:

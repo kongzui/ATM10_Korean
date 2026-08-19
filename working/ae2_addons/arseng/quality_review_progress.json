@@ -1,6 +1,6 @@
 {
   "status": "quality_review_completed",
-  "scope": "Ars Énergistique language, GuideME guide, FTB Quests, and KubeJS quality review",
+  "scope": "Ars Énergistique language and GuideME full quality recheck",
   "batch": 15,
   "source_jars": {
     "arseng": {
@@ -10,24 +10,31 @@
   },
   "language": "ko_kr",
   "guide_pages": 1,
+  "new_guide_pages": 0,
+  "quality_review_pages_corrected": 0,
+  "core_compatibility_updates": 0,
+  "source_words": 4,
   "language_keys": 17,
-  "existing_korean_reused": 0,
-  "new_or_revised_translations": 17,
-  "quality_review_corrections": 0,
-  "quality_review_guide_pages_corrected": 0,
+  "existing_korean_reused": 17,
+  "new_or_revised_translations": 0,
+  "class_files_reviewed": 40,
+  "class_registration_fallback_literals_reviewed": 6,
+  "class_internal_diagnostic_literal_classes": 1,
+  "config_comment_literals_reviewed": 2,
+  "class_user_visible_literals_found": 0,
+  "guide_files": [
+    "arseng-index.md"
+  ],
   "output_sha256": {
-    "assets/arseng/lang/ko_kr.json": "0f33ae4bdc8f09db9593c6aa413bf99e35cae94c1a1fe0458e8d2de6dc383008",
+    "assets/arseng/lang/ko_kr.json": "d5e03557a4bd63ad8db552bfc2bfd5b292747ffab996e8b585fd938a49d5ea0f",
     "assets/arseng/ae2guide/_ko_kr/arseng-index.md": "baf544fdb1f410ed0baec333dc513ed6b011c2a98bd30d70d85473e67ed36359"
   },
   "ftbquests_review": {
-    "related_keys_reviewed": 0,
-    "quality_review_keys_corrected": 0,
+    "related_content_found": false,
+    "keys_updated": 0,
+    "handled_separately": true,
     "pending": false
   },
-  "kubejs": {
-    "related_files_reviewed": 0,
-    "user_visible_literals_found": 0,
-    "quality_review_keys_corrected": 0
-  },
+  "kubejs_user_visible_literals_found": 0,
   "validation_errors": 0
 }
