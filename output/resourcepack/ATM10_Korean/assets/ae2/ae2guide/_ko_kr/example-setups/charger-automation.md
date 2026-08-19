@@ -11,7 +11,7 @@ navigation:
 설비에 통합하기 위한 것입니다. <ItemLink id="charger" /> 하나만 자동화하려면 호퍼와 상자 등을 사용하세요.
 
 <ItemLink id="charger" /> 자동화는 상당히 간단합니다. <ItemLink id="pattern_provider" />가 재료를 충전기에 넣으면
-[파이프 서브넷](pipe-subnet.md)이나 다른 아이템 파이프가 결과물을 공급기로 되돌립니다.
+[파이프 서브네트워크](pipe-subnet.md)나 다른 아이템 파이프가 결과물을 공급기로 되돌립니다.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/charger_automation.snbt" />
@@ -31,7 +31,7 @@ navigation:
   </BoxAnnotation>
 
 <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-        메인 네트워크로
+        주 네트워크로
     </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
@@ -52,6 +52,6 @@ navigation:
 
 1. <ItemLink id="pattern_provider" />가 재료를 <ItemLink id="charger" />에 넣습니다.
 2. 충전기가 재료를 충전합니다.
-3. 초록색 서브넷의 <ItemLink id="import_bus" />가 충전기에서 결과물을 꺼내
+3. 초록색 서브네트워크의 <ItemLink id="import_bus" />가 충전기에서 결과물을 꺼내
    [네트워크 저장소](../ae2-mechanics/import-export-storage.md)에 저장하려 합니다.
-4. 초록색 서브넷의 유일한 저장소인 <ItemLink id="storage_bus" />가 결과물을 패턴 공급기에 저장하여 메인 네트워크로 되돌립니다.
+4. 초록색 서브네트워크의 유일한 저장소인 <ItemLink id="storage_bus" />가 결과물을 패턴 공급기에 저장하여 주 네트워크로 되돌립니다.

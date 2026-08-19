@@ -13,13 +13,13 @@ navigation:
 
 ![공정 흐름도](../assets/diagrams/processor_flow_diagram.png)
 
-여기서는 ["파이프" 서브넷](pipe-subnet.md)을 사용해 AE2만으로 만드는 자세한 방법을 설명합니다.
+여기서는 ["파이프" 서브네트워크](pipe-subnet.md)를 사용해 AE2만으로 만드는 자세한 방법을 설명합니다.
 
 이 구성은 <ItemLink id="pattern_provider" />를 사용하므로 [자동 제작](../ae2-mechanics/autocrafting.md)
 설비에 통합하기 위한 것입니다. 프로세서만 따로 자동화하려면 패턴 공급기를 다른 통으로 바꾸고 위쪽 통에 재료를 직접 넣으세요.
 
 이 구성은 이전 AE2 버전과도 호환됩니다. <ItemLink id="inscriber" />에 면별 입출력 제한이 있더라도
-파이프 서브넷이 올바른 면으로 넣고 꺼내기 때문입니다.
+파이프 서브네트워크가 올바른 면으로 넣고 꺼내기 때문입니다.
 
 ## 패턴 인코딩에서 배울 점
 
@@ -139,7 +139,7 @@ navigation:
   </BoxAnnotation>
 
 <DiamondAnnotation pos="7 1.5 0.5" color="#00ff00">
-        메인 네트워크로
+        주 네트워크로
     </DiamondAnnotation>
 
   <IsometricCamera yaw="185" pitch="5" />
@@ -176,11 +176,11 @@ navigation:
 ## 작동 원리
 
 1. <ItemLink id="pattern_provider" />가 재료를 통에 넣습니다.
-2. 첫 번째 [파이프 서브넷](pipe-subnet.md)(주황색)이 통에서 실리콘, 레드스톤 가루, 해당 프로세서 재료
+2. 첫 번째 [파이프 서브네트워크](pipe-subnet.md)(주황색)가 통에서 실리콘, 레드스톤 가루, 해당 프로세서 재료
    (금괴, 서투스 석영 수정 또는 다이아몬드)를 꺼내 적절한 <ItemLink id="inscriber" />에 넣습니다.
 3. 앞의 <ItemLink id="inscriber" /> 4대가 <ItemLink id="printed_silicon" />과 <ItemLink id="printed_logic_processor" />,
    <ItemLink id="printed_calculation_processor" /> 또는 <ItemLink id="printed_engineering_processor" />를 만듭니다.
-4. 두 번째와 세 번째 [파이프 서브넷](pipe-subnet.md)(초록색)이 앞의 <ItemLink id="inscriber" /> 4대에서 인쇄된 회로를 꺼내
+4. 두 번째와 세 번째 [파이프 서브네트워크](pipe-subnet.md)(초록색)가 앞의 <ItemLink id="inscriber" /> 4대에서 인쇄된 회로를 꺼내
    최종 조립용 다섯 번째 <ItemLink id="inscriber" />에 넣습니다.
 5. 다섯 번째 <ItemLink id="inscriber" />가 [프로세서](../items-blocks-machines/processors.md)를 조립합니다.
-6. 네 번째 [파이프 서브넷](pipe-subnet.md)(보라색)이 프로세서를 패턴 공급기에 넣어 메인 네트워크로 되돌립니다.
+6. 네 번째 [파이프 서브네트워크](pipe-subnet.md)(보라색)가 프로세서를 패턴 공급기에 넣어 주 네트워크로 되돌립니다.

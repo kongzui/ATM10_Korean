@@ -47,7 +47,7 @@ navigation:
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="3 0 1" max="4 1 2">
-        (5) 분자 제작기: 대장장이 형판 복제 패턴이 들어 있습니다.
+        (5) 분자 조립기: 대장장이 형판 복제 패턴이 들어 있습니다.
 
         ![패턴](../assets/diagrams/smithing_template_pattern_small.png)
 
@@ -64,7 +64,7 @@ navigation:
   </BoxAnnotation>
 
 <DiamondAnnotation pos="0 0.5 0.5" color="#00ff00">
-        메인 네트워크로
+        주 네트워크로
     </DiamondAnnotation>
 
   <IsometricCamera yaw="15" pitch="30" />

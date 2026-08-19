@@ -147,7 +147,7 @@ ME는 물질 에너지(Matter Energy)의 약자이며, 영어로는 각 글자�
     * <ItemLink id="drive" /> 1개
     * <ItemLink id="terminal" /> 또는 <ItemLink id="crafting_terminal" /> 1개
     * <ItemLink id="energy_acceptor" /> 1개
-    * [케이블](items-blocks-machines/cables.md) 몇 개. 유리, 차폐, 스마트 케이블은 가능하지만 조밀 케이블은 제외
+    * [케이블](items-blocks-machines/cables.md) 몇 개. 유리, 피복, 스마트 케이블은 가능하지만 조밀 케이블은 제외
     * [저장 셀](items-blocks-machines/storage_cells.md) 몇 개. 용량과 종류 수의 균형이 좋은 4k 등급을 권장합니다.
     4k와 1k 셀을 섞어 [파티션](items-blocks-machines/cell_workbench.md)을 설정하면 더 효율적이지만,
     여기서는 그 복잡한 내용까지 다루지 않습니다.

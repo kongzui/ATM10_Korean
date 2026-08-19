@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 분자 제작기
+  title: 분자 조립기
   icon: molecular_assembler
   position: 310
 categories:
@@ -10,11 +10,11 @@ item_ids:
 - ae2:molecular_assembler
 ---
 
-# 분자 제작기
+# 분자 조립기
 
 <BlockImage id="molecular_assembler" scale="8" />
 
-분자 제작기는 입력된 아이템으로 인접한 <ItemLink id="pattern_provider" />가 지정한 작업이나,
+분자 조립기는 입력된 아이템으로 인접한 <ItemLink id="pattern_provider" />가 지정한 작업이나,
 내부에 넣은 <ItemLink id="crafting_pattern" />, <ItemLink id="smithing_table_pattern" />, <ItemLink id="stonecutting_pattern" />의 작업을 수행한 뒤
 결과물을 인접한 인벤토리로 밀어냅니다.
 
@@ -26,7 +26,7 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 분자 제작기의 주요 용도
+## 분자 조립기의 주요 용도
 
 하지만 주된 용도는 <ItemLink id="pattern_provider" /> 옆에 설치하는 것입니다. 이때 패턴 공급기는 특별하게 작동하여
 관련 패턴 정보와 재료를 인접한 제작기로 보냅니다. 제작기는 결과물을 인접한 인벤토리, 즉 패턴 공급기의 반환 슬롯으로
@@ -39,7 +39,7 @@ item_ids:
 
 ## 업그레이드
 
-분자 제작기는 다음 [업그레이드](upgrade_cards.md)를 지원합니다.
+분자 조립기는 다음 [업그레이드](upgrade_cards.md)를 지원합니다.
 
 *   <ItemLink id="speed_card" />
 

@@ -153,7 +153,7 @@ item_ids:
 <ItemImage id="equal_distribution_card" scale="2" />
 
 균등 분배 카드는 <ItemLink id="cell_workbench" />에서 [저장 셀](storage_cells.md)에 장착할 수 있습니다.
-카드의 [파티션](cell_workbench.md)에 설정된 유형에 따라 셀을 같은 크기의 구역으로 나눠 한 아이템 유형이 셀 전체를 채우지 못하게 합니다.
+카드의 [파티션](cell_workbench.md)에 설정된 종류에 따라 셀을 같은 크기의 구역으로 나눠 한 아이템 종류가 셀 전체를 채우지 못하게 합니다.
 
 <RecipeFor id="equal_distribution_card" />
 

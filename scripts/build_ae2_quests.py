@@ -22,6 +22,10 @@ STRING_RE = re.compile(r'"(?:\\.|[^"\\])*"')
 FORMAT_RE = re.compile(r"&[0-9a-fklmnor]", re.IGNORECASE)
 PLACEHOLDER_RE = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{\d+\}")
 NUMBER_RE = re.compile(r"\d+(?:\.\d+)?")
+NUMBER_VALIDATION_EXCEPTIONS = {
+    # 원문의 `4`는 수량이 아니라 `for`를 대신한 말장난이다.
+    "quest.51236544BFEF487B.quest_subtitle",
+}
 
 TranslationValue: TypeAlias = str | list[str]
 
@@ -96,9 +100,9 @@ def validate_value(
         PLACEHOLDER_RE.findall(translated_text)
     ):
         errors.append(f"{key}: 자리표시자 불일치")
-    if Counter(NUMBER_RE.findall(source_text)) != Counter(
-        NUMBER_RE.findall(translated_text)
-    ):
+    if key not in NUMBER_VALIDATION_EXCEPTIONS and Counter(
+        NUMBER_RE.findall(source_text)
+    ) != Counter(NUMBER_RE.findall(translated_text)):
         errors.append(f"{key}: 숫자 불일치")
     if source_text.count("\\n") != translated_text.count("\\n"):
         errors.append(f"{key}: 줄바꿈 개수 불일치")

@@ -1,26 +1,26 @@
 ---
 navigation:
   parent: example-setups/example-setups-index.md
-  title: "메인 네트워크" 예제
+  title: "주 네트워크" 예제
   icon: controller
 ---
 
-# "메인 네트워크" 예제
+# "주 네트워크" 예제
 
-다른 많은 구성에서 "메인 네트워크"를 언급합니다. 여러 [장치](../ae2-mechanics/devices.md)를 어떻게 모아
+다른 많은 구성에서 "주 네트워크"를 언급합니다. 여러 [장치](../ae2-mechanics/devices.md)를 어떻게 모아
 하나의 시스템으로 만드는지 궁금할 수도 있습니다. 다음은 그 예입니다.
 
 <GameScene zoom="2.5" interactive={true}>
   <ImportStructure src="../assets/assemblies/small_base_network.snbt" />
 
     <BoxAnnotation color="#33dd33" min="5 1 10" max="9 7 14" thickness="0.05">
-        패턴 공급기와 분자 제작기를 큰 무리로 배치하면 제작·석재 절단·대장장이 작업 패턴을 많이 넣을 수 있습니다.
+        패턴 공급기와 분자 조립기를 큰 무리로 배치하면 제작·석재 절단·대장장이 작업 패턴을 많이 넣을 수 있습니다.
         체스판 모양은 좁은 공간에서 공급기들이 여러 조립기를 병렬로 사용하게 해 줍니다.
         8개씩 묶으면 채널이 잘못 연결될 수 없습니다.
     </BoxAnnotation>
 
     <BoxAnnotation color="#33dd33" min="13 10 12" max="14 11 14" thickness="0.05">
-        컨트롤러를 실제로 이렇게 크게 만들 필요는 없습니다. 다른 사람의 기지에서 보이는 거대한 고리나 정육면체 설계는
+        ME 제어기를 실제로 이렇게 크게 만들 필요는 없습니다. 다른 사람의 기지에서 보이는 거대한 고리나 정육면체 설계는
         주로 멋을 내기 위한 것입니다.
     </BoxAnnotation>
 
@@ -31,7 +31,7 @@ navigation:
 
     <BoxAnnotation color="#33dd33" min="2 1 10" max="4 4 13" thickness="0.05">
         다른 모드의 전력원, 즉 원자로·태양 전지판·발전기 등을 사용하는 편이 좋습니다.
-        진동 챔버도 그럭저럭 쓸 수 있지만, AE2는 모드팩에서 기지의 주 발전기를 사용하도록 설계되었습니다.
+        진동실도 그럭저럭 쓸 수 있지만, AE2는 모드팩에서 기지의 주 발전기를 사용하도록 설계되었습니다.
     </BoxAnnotation>
 
     <BoxAnnotation color="#33dd33" min="15 1 9" max="16 3 14" thickness="0.05">
@@ -77,8 +77,8 @@ navigation:
     </BoxAnnotation>
 
     <BoxAnnotation color="#33dd33" min="5 3 6" max="6 4 7" thickness="0.05">
-        서브넷에 장치가 8개보다 많다면(예: 8곳보다 많은 곳에 분배한다면)
-        자체 컨트롤러가 필요할 수도 있습니다.
+        서브네트워크에 장치가 8개보다 많다면(예: 8곳보다 많은 곳에 분배한다면)
+        자체 ME 제어기가 필요할 수도 있습니다.
     </BoxAnnotation>
 
     <BoxAnnotation color="#33dd33" min="7.3 1 3.3" max="9.7 4 6" thickness="0.05">

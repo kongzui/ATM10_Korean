@@ -1,0 +1,80 @@
+{
+  "status": "quality_recheck_completed_and_deployed",
+  "completed_at": "2026-08-20T02:46:01+09:00",
+  "scope": "AE2 core, GuideME, FTB Quests, KubeJS direct integration and cross-mod terminology",
+  "source_audit": {
+    "source_jar": "appliedenergistics2-19.2.17.jar",
+    "language_entries_reviewed": 1021,
+    "ftbquests_entries_reviewed": 173,
+    "guideme_pages_reviewed": 125,
+    "kubejs_ae2_entries_reviewed": 1
+  },
+  "review_counts": {
+    "language_entries_kept": 983,
+    "language_entries_corrected": 38,
+    "language_entries_new": 0,
+    "ftbquests_entries_kept": 166,
+    "ftbquests_entries_corrected": 7,
+    "ftbquests_entries_new": 0,
+    "guideme_pages_kept": 93,
+    "guideme_pages_corrected": 32,
+    "kubejs_entries_kept": 1,
+    "kubejs_entries_corrected": 0,
+    "kubejs_entries_new": 0
+  },
+  "corrections": {
+    "language_entries": [
+      "분자 제작기를 분자 조립기로 통일",
+      "운석 탐지기를 운석 나침반으로 통일",
+      "공간 요소를 공간 부품으로 통일",
+      "ME 양자 연결기 계열을 양자 연결 챔버로 통일",
+      "특이점 제작법과 레드스톤 제작 툴팁의 기능 의미 수정",
+      "장치 상태, 저장 용량과 잠금 해제 문구를 자연스럽게 수정"
+    ],
+    "ftbquests": [
+      "공간 파일런을 공간 지시탑으로 통일",
+      "공간 앵커를 공간 정박기로 통일",
+      "운석 나침반과 분자 조립기 표시 이름을 리소스팩과 통일",
+      "유체 셀 용량과 원문 말장난 제목을 자연스럽게 수정"
+    ],
+    "guideme": [
+      "분자 조립기, 공간 지시탑, 공간 정박기, 운석 나침반과 양자 네트워크 브리지 용어 통일",
+      "발사기를 공급기로 잘못 옮긴 양동이 자동화 설명 수정",
+      "저장 종류, 주 네트워크, 서브네트워크와 ME 제어기 용어 통일",
+      "양자 브리지 구성 블록 수 설명의 사실 오류 수정"
+    ]
+  },
+  "cross_mod_review": {
+    "name_conflicts_in_ae2_scope": 0,
+    "deferred_to_separate_mod_commits": [
+      "AE2WTLib의 양자얽힘 특이점 띄어쓰기",
+      "MEGA Cells 퀘스트의 저장 용량 표기"
+    ]
+  },
+  "validation": {
+    "language_keys_and_order_match": true,
+    "json_and_snbt_syntax": true,
+    "placeholders_numbers_format_codes_preserved": true,
+    "guideme_structure_links_tags_resources_preserved": true,
+    "fallback_titles_checked": true,
+    "unrelated_ftbquest_keys_changed": 0,
+    "duplicate_keys": 0,
+    "validation_errors": 0,
+    "terminology_errors": 0,
+    "ruff_check": true,
+    "python_compileall": true,
+    "git_diff_check": true
+  },
+  "deployment": {
+    "target": "game_root",
+    "target_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "backup_manifest": "temp/backups/20260820_024554_975842/backup_manifest.json",
+    "changed_files": 34,
+    "changed_config_files": 1,
+    "changed_resourcepack_files": 33,
+    "hashes_match": true,
+    "unexpected_instance_changes": []
+  },
+  "remaining_ae2_review_items": [],
+  "minecraft_game_screen_verified": false
+}

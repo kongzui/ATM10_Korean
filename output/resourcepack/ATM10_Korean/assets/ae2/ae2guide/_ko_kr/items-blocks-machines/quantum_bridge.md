@@ -41,14 +41,14 @@ item_ids:
 <BlockImage id="quantum_ring" scale="8" />
 
 이 블록 8개를 <ItemLink id="quantum_link" /> 주위에 놓으면 양자 네트워크 브리지가 만들어집니다.
-<ItemLink id="quantum_ring" /> 4개 중 <ItemLink id="quantum_link" />에 인접한 블록만 네트워크 연결을 받으며,
+<ItemLink id="quantum_ring" /> 8개 중 <ItemLink id="quantum_link" />에 인접한 4개만 네트워크 연결을 받으며,
 모서리의 4개 블록에는 케이블을 연결할 수 없습니다.
 
 ## 조합법
 
 <RecipeFor id="quantum_ring" />
 
-# ME 양자 연결기
+# ME 양자 연결 챔버
 
 <BlockImage id="quantum_link" scale="8" />
 

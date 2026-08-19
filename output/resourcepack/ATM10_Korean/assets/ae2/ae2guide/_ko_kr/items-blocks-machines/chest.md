@@ -51,7 +51,7 @@ ME 상자에는 <ItemLink id="terminal" /> 또는 <ItemLink id="crafting_termina
 | :----- | :------------------------------------------------------------------------------- |
 | 초록색 | 비어 있음                                                                        |
 | 파란색 | 내용물이 일부 있음                                                               |
-| 주황색 | [유형](../ae2-mechanics/bytes-and-types.md)이 가득 차 새 유형을 추가할 수 없음   |
+| 주황색 | [종류](../ae2-mechanics/bytes-and-types.md)가 가득 차 새 종류를 추가할 수 없음   |
 | 빨간색 | [바이트](../ae2-mechanics/bytes-and-types.md)가 가득 차 더 넣을 수 없음          |
 | 검은색 | 전력이 없거나 드라이브에 [채널](../ae2-mechanics/channels.md)이 없음             |
 

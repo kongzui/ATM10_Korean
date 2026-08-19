@@ -44,7 +44,7 @@ navigation:
   </BoxAnnotation>
 
 <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-        메인 네트워크로
+        주 네트워크로
     </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
@@ -66,7 +66,7 @@ navigation:
 1. <ItemLink id="pattern_provider" />가 재료를 <ItemLink id="interface" />에 넣습니다.
    (실제로는 최적화를 위해 저장 버스를 공급기 면의 연장처럼 취급하여 곧바로 통과시킵니다. 아이템은 인터페이스 안에 들어가지 않습니다.)
 2. 인터페이스는 아무것도 비축하지 않도록 설정되어 있으므로 재료를 [네트워크 저장소](../ae2-mechanics/import-export-storage.md)에 넣으려 합니다.
-3. 초록색 서브넷의 유일한 저장소는 <ItemLink id="storage_bus" />들입니다. 석탄으로 필터링한 버스는 옆면을 통해 화로의 연료 칸에 석탄을 넣습니다.
+3. 초록색 서브네트워크의 유일한 저장소는 <ItemLink id="storage_bus" />들입니다. 석탄으로 필터링한 버스는 옆면을 통해 화로의 연료 칸에 석탄을 넣습니다.
    석탄이 아닌 것으로 필터링한 버스는 윗면을 통해 제련할 아이템을 위쪽 칸에 넣습니다.
 4. 화로가 아이템을 제련합니다.
-5. 호퍼가 화로 밑면에서 결과물을 꺼내 공급기의 반환 칸에 넣어 메인 네트워크로 되돌립니다.
+5. 호퍼가 화로 밑면에서 결과물을 꺼내 공급기의 반환 칸에 넣어 주 네트워크로 되돌립니다.

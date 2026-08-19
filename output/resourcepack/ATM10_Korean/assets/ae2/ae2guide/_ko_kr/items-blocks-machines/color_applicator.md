@@ -28,8 +28,8 @@ item_ids:
 
 색상 적용기는 <ItemLink id="cell_workbench" />에서 다음 [업그레이드](upgrade_cards.md)를 장착할 수 있습니다.
 
-*   <ItemLink id="equal_distribution_card" />는 각 유형에 같은 양의 셀 바이트 공간을 할당해 한 유형이 셀 전체를 채우지 못하게 합니다.
-*   <ItemLink id="void_card" />는 셀이 가득 찼을 때 들어오는 아이템을 삭제합니다. 균등 분배 카드가 있으면 해당 유형에
+*   <ItemLink id="equal_distribution_card" />는 각 종류에 같은 양의 셀 바이트 공간을 할당해 한 종류가 셀 전체를 채우지 못하게 합니다.
+*   <ItemLink id="void_card" />는 셀이 가득 찼을 때 들어오는 아이템을 삭제합니다. 균등 분배 카드가 있으면 해당 종류에
     할당된 공간이 가득 찼을 때 삭제합니다. 반드시 파티션을 주의해서 설정하세요!
 *   <ItemLink id="energy_card" />는 배터리 용량을 늘립니다.
 

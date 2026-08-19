@@ -28,6 +28,7 @@ ALLOWED_IDENTICAL_TRANSLATIONS = {
     "gui.ae2.CompatibleUpgrade",
     "gui.ae2.CreativeTab",
     "gui.ae2.ETAFormat",
+    "gui.ae2.OCTunnel",
     "gui.ae2.ToastCraftingJobFinishedText",
     "gui.ae2.units.appliedenergistics",
     "gui.ae2.units.fe",
@@ -35,20 +36,51 @@ ALLOWED_IDENTICAL_TRANSLATIONS = {
     "theoneprobe.ae2.stored_energy",
 }
 CORE_TERM_TRANSLATIONS = {
+    "achievement.ae2.Compass.desc": "운석 나침반 제작",
     "ae2.emi_integration.category_inscriber": "각인기",
     "block.ae2.inscriber": "각인기",
+    "block.ae2.light_detector": "빛 감지 설비",
+    "block.ae2.molecular_assembler": "분자 조립기",
+    "block.ae2.quantum_link": "ME 양자 연결 챔버",
+    "block.ae2.quartz_vibrant_glass": "발광 석영 유리",
+    "block.ae2.spatial_anchor": "공간 정박기",
+    "block.ae2.spatial_pylon": "공간 지시탑",
     "gui.ae2.Inscriber": "각인기",
+    "gui.ae2.inWorldCraftingPresses": (
+        "각인기 프레스는 신비한 큐브를 부수어 얻을 수 있습니다. "
+        "신비한 큐브는 세계 곳곳의 운석 중심부에서 찾을 수 있으며, "
+        "운석 나침반으로 위치를 파악할 수 있습니다."
+    ),
+    "gui.ae2.MolecularAssembler": "분자 조립기",
+    "gui.ae2.QuantumLinkChamber": "양자 연결 챔버",
     "item.ae2.charged_staff": "충전 지팡이",
     "item.ae2.conversion_monitor": "ME 변환 모니터",
     "item.ae2.energy_level_emitter": "ME 에너지 레벨 방출기",
+    "item.ae2.fe_p2p_tunnel": "에너지 P2P 터널",
+    "item.ae2.inverted_toggle_bus": "ME 반전 토글 버스",
     "item.ae2.light_p2p_tunnel": "빛 P2P 터널",
     "item.ae2.matter_ball": "물질 덩어리",
+    "item.ae2.meteorite_compass": "운석 나침반",
+    "item.ae2.quantum_entangled_singularity": "양자 얽힘 특이점",
     "item.ae2.calculation_processor_press": "계산 회로 프레스",
     "item.ae2.engineering_processor_press": "공학 회로 프레스",
     "item.ae2.logic_processor_press": "논리 회로 프레스",
     **{
         f"item.ae2.cell_component_{size}": f"{size} ME 저장 부품"
         for size in ("1k", "4k", "16k", "64k", "256k")
+    },
+    **{
+        f"item.ae2.spatial_cell_component_{size}": f"{size}³ 공간 부품"
+        for size in ("2", "16", "128")
+    },
+    **{
+        f"block.ae2.smooth_sky_stone_{shape}": value
+        for shape, value in {
+            "block": "천령석 블록",
+            "slab": "천령석 블록 반 블록",
+            "stairs": "천령석 블록 계단",
+            "wall": "천령석 블록 담장",
+        }.items()
     },
     **{
         f"item.ae2.nether_quartz_{tool}": f"네더 석영 {translated}"
@@ -544,6 +576,8 @@ def main() -> int:
         "스카이 스톤",
         "플럭스 벌",
         "Fluix 연구원",
+        "공간 파일런",
+        "공간 앵커",
     )
     remaining_quest_terms = [
         term for term in forbidden_quest_terms if term in quest_text
@@ -572,7 +606,7 @@ def main() -> int:
             "페인트볼",
             "발광 페인트볼",
         ),
-        "quest.5E24012A3D9B72A1.quest_desc": ("8양동이", "8000 mB"),
+        "quest.5E24012A3D9B72A1.quest_desc": ("양동이 8개 분량", "8000 mB"),
         "quest.6E17595887A051C2.quest_desc": ("플루익스 연구원",),
         "quest.75EE965CBA598FEA.quest_desc": (
             "여러 종류의",

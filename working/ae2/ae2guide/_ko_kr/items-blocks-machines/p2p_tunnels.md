@@ -99,9 +99,9 @@ ME P2P 출력 8개가 다른 곳으로 내보냅니다. 각 P2P 터널 입력 �
   <IsometricCamera yaw="225" pitch="30" />
 </GameScene>
 
-다른 예시([양자 브리지](quantum_bridge.md)와 함께 사용하는 경우 포함)는 미처 다듬지 못한 이 그림판 도식을 참고하세요.
+다른 예시([양자 네트워크 브리지](quantum_bridge.md)와 함께 사용하는 경우 포함)는 미처 다듬지 못한 이 그림판 도식을 참고하세요.
 
-![P2P와 양자 브리지](../assets/diagrams/p2p_quantum_network.png)
+![P2P와 양자 네트워크 브리지](../assets/diagrams/p2p_quantum_network.png)
 
 ## 중첩
 

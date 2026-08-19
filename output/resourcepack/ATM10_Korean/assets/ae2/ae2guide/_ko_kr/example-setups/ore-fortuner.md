@@ -42,7 +42,7 @@ navigation:
     </DiamondAnnotation>
 
 <DiamondAnnotation pos="4 0.5 1.5" color="#00ff00">
-        메인 네트워크로
+        주 네트워크로
     </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
@@ -58,7 +58,7 @@ navigation:
 
 ## 작동 원리
 
-1. 초록색 서브넷의 <ItemLink id="import_bus" />가 첫 번째 통에서 블록을 가져와 [네트워크 저장소](../ae2-mechanics/import-export-storage.md)에 저장합니다.
-2. 초록색 서브넷의 유일한 저장소인 <ItemLink id="formation_plane" />이 블록을 설치합니다.
-3. 주황색 서브넷의 <ItemLink id="annihilation_plane" />이 행운을 적용해 블록을 캡니다.
-4. 주황색 서브넷의 <ItemLink id="storage_bus" />가 채굴 결과물을 두 번째 통에 저장합니다.
+1. 초록색 서브네트워크의 <ItemLink id="import_bus" />가 첫 번째 통에서 블록을 가져와 [네트워크 저장소](../ae2-mechanics/import-export-storage.md)에 저장합니다.
+2. 초록색 서브네트워크의 유일한 저장소인 <ItemLink id="formation_plane" />이 블록을 설치합니다.
+3. 주황색 서브네트워크의 <ItemLink id="annihilation_plane" />이 행운을 적용해 블록을 캡니다.
+4. 주황색 서브네트워크의 <ItemLink id="storage_bus" />가 채굴 결과물을 두 번째 통에 저장합니다.

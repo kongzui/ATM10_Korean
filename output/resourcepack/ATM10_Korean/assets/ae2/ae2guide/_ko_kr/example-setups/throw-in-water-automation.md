@@ -12,7 +12,7 @@ navigation:
 
 일부 제작법은 아이템을 물에 던져야 합니다(비슷한 구성으로 다른 곳에 아이템을 던질 수도 있습니다).
 <ItemLink id="formation_plane" />, <ItemLink id="annihilation_plane" />과 보조 설비로 자동화할 수 있으며,
-본질적으로 변형된 [파이프 서브넷](pipe-subnet.md) 두 개를 사용합니다.
+본질적으로 변형된 [파이프 서브네트워크](pipe-subnet.md) 두 개를 사용합니다.
 
 이 구성은 [충전기 자동화](charger-automation.md)와 함께 사용하여 <ItemLink id="charged_certus_quartz_crystal" />을 공급하도록 설계했습니다.
 
@@ -43,7 +43,7 @@ navigation:
   </BoxAnnotation>
 
 <DiamondAnnotation pos="3.9 0.5 1.5" color="#00ff00">
-        메인 네트워크 및 충전기 자동화로
+        주 네트워크 및 충전기 자동화로
         <GameScene zoom="3" background="transparent">
           <ImportStructure src="../assets/assemblies/charger_automation.snbt" />
           <IsometricCamera yaw="195" pitch="30" />
@@ -72,11 +72,11 @@ navigation:
 
 ## 작동 원리
 
-1. <ItemLink id="pattern_provider" />가 재료를 옆면에 붙은 초록색 서브넷의 <ItemLink id="interface" />에 넣습니다.
+1. <ItemLink id="pattern_provider" />가 재료를 옆면에 붙은 초록색 서브네트워크의 <ItemLink id="interface" />에 넣습니다.
 2. 인터페이스는 기본적으로 아무것도 비축하지 않도록 설정되어 있으므로 내용물을 [네트워크 저장소](../ae2-mechanics/import-export-storage.md)에 넣으려 합니다.
-3. 초록색 서브넷의 유일한 저장소인 <ItemLink id="formation_plane" />이 받은 아이템을 물에 떨어뜨립니다.
-4. 주황색 서브넷의 <ItemLink id="annihilation_plane" />이 방금 떨어진 아이템을 주우려 하지만 그러지 못합니다.
-   패턴 공급기 위의 <ItemLink id="storage_bus" />(주황색 서브넷의 유일한 저장소)가 제작 결과물만 받도록 필터링되어 있기 때문입니다.
+3. 초록색 서브네트워크의 유일한 저장소인 <ItemLink id="formation_plane" />이 받은 아이템을 물에 떨어뜨립니다.
+4. 주황색 서브네트워크의 <ItemLink id="annihilation_plane" />이 방금 떨어진 아이템을 주우려 하지만 그러지 못합니다.
+   패턴 공급기 위의 <ItemLink id="storage_bus" />(주황색 서브네트워크의 유일한 저장소)가 제작 결과물만 받도록 필터링되어 있기 때문입니다.
 5. 아이템이 월드 내 변환을 수행합니다.
 6. 이제 저장 버스가 해당 아이템을 저장할 수 있으므로 소멸 평면이 앞에 있는 아이템을 주울 수 있습니다.
 7. 저장 버스가 결과물을 패턴 공급기에 저장하여 네트워크로 되돌립니다.
