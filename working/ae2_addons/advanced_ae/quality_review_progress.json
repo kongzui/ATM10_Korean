@@ -39,27 +39,28 @@
     "aae_intro/reaction_chamber.md"
   ],
   "output_sha256": {
-    "assets/advanced_ae/lang/ko_kr.json": "ef77d1e8c71b5ee09823283e53c6346a8d2f4a21fad0eed4326ca90ad0b1e442",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/aae_intro-index.md": "9ca7e26a8bc81c4c269bc8fe7f7b80457394a0f28ab69940663f1dba99c74c50",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_io_bus.md": "d0b93ea670114cf378896d46892ab20e9660a858e9b330acd8c5d60268a5166b",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_pattern_encoder.md": "7c1d0d7e2747589901899944f631e0e3f731a54352beec8e8c0090bbe97f0d54",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_pattern_provider.md": "56486df0e1c13db731e5d7694301a86546b3e922c43fa5f416ca1a8f584d175b",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/app_upgrade_items.md": "125354200db86f4243a5fadc8e0bd1c5040735b0bf3c76f968b285497b1e1bd9",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/import_export_bus.md": "7a4ac89c03d20a0dd523b7516ad82f652144b345a77da55186ad15e369943b05",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/stock_export_bus.md": "de3c5866589ba9a0711f31b37c18ad5457fd0bd9fd09aa06df511e65d7806f92",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/throughput_monitor.md": "9788d90136786a4592afac134bb4e6b5d6d3e149b5f2aa51bd79e49bd4c7bfc9",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_armor.md": "b1505b3b79d8bb7b139296435c3d7c9150654c4dd572dc66363365c3e1228ed7",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_computer.md": "3e38660b813d7a189f1f92a0e95e2336537c63319f68feb6bca4ac8d1853d3bc",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_crafter.md": "3fd514aeca7346fc038b1585f1618d9ceeb9ef05a83648257b9150a3eaa1690b",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_crafter_terminal.md": "789785842f1600c41adb252ab64f14081620d562c9bcbd39638172fa699e8a0d",
-    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/reaction_chamber.md": "8f6fd1c08fccc1686dc3ce7eaa249c9e303bf252e77dab454cc680dc4ba17e94"
+    "assets/advanced_ae/lang/ko_kr.json": "a907ad3d8f0817ff7927f5aec1790ef82b621bce5f73115d0f6a6c893f4d21e0",
+    "kubejs/client_scripts/RecipeViewer.js": "39cc572ff69b0f1e7beefef82fa69ef7fb93cbe5e0c3eea7f6bfb1c09f3955b5",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/aae_intro-index.md": "2ec9322fa13a8e3dfe00c4268d65275c2008c5724ebad4d526b67b78f2eebca2",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_io_bus.md": "109be23d37aa85f4d8166d1311e6712bdbba394ed4d1680d6f26f26b76cc9a2f",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_pattern_encoder.md": "43526bbda28a32cf3d35aa086f27c809410d4cf91f6f4dc127ab633b0290ad10",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/advanced_pattern_provider.md": "d08f14bc1fe7f5585e987c093c2b291cb33a2e442e1f8c855499319b8a3edda3",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/app_upgrade_items.md": "695cb45edbfd50dcdc2302b0fed4fcffde6c87e42b2edb19c872de735045df8f",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/import_export_bus.md": "2da97b0c061b13f566e62baa55827df181a199b7ea559c70e9ae2fadd75aed34",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/stock_export_bus.md": "e44113f9d6f4b115f932e906f8434f8604790929540d3c2386c4f32c55f257e4",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/throughput_monitor.md": "4275b1df70f0408169f44e7b3c2dc65d63633c76c28d299d4aeffab322ca7445",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_armor.md": "2eeeac24b1d338d182fa2ce40e96f9e0a5fe3fbe67c28a6a1fd7167cffd22bcf",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_computer.md": "49e83aac8c464e0914e1900b7f981c685bd7510503cab26c3bbe0021e66559bb",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_crafter.md": "6bb6c73b2fb864909a5265efeb3e9fb2484021b2ecbf6d4defd86a4e332aaec5",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/quantum_crafter_terminal.md": "f49110d32df71c5bacec21d0ec88302271cf740356149eba321bdb5dbcbfda12",
+    "assets/advanced_ae/ae2guide/_ko_kr/aae_intro/reaction_chamber.md": "14da0ccdf33e74a7369726d7923f2f515a44fbda3cc38f92661e8ec540c689eb"
   },
   "ftbquests_review": {
     "related_content_found": true,
-    "keys_updated": 35,
+    "keys_updated": 50,
     "handled_separately": true,
     "pending": false
   },
-  "kubejs_user_visible_literals_found": 0,
+  "kubejs_user_visible_literals_found": 1,
   "validation_errors": 0
 }

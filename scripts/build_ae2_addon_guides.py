@@ -292,6 +292,18 @@ ADVANCEDAE_LANG_OUTPUT_FILE = RESOURCEPACK_ROOT / ADVANCEDAE_LANG_RELATIVE
 ADVANCEDAE_GUIDE_WORKING_ROOT = ADVANCEDAE_WORKING_ROOT / "ae2guide/_ko_kr"
 ADVANCEDAE_GUIDE_OUTPUT_ROOT = RESOURCEPACK_ROOT / "assets/advanced_ae/ae2guide/_ko_kr"
 ADVANCEDAE_QUEST_OVERRIDES_FILE = ADVANCEDAE_WORKING_ROOT / "quest_overrides.json"
+ADVANCEDAE_KUBEJS_RELATIVE = Path("kubejs/client_scripts/RecipeViewer.js")
+ADVANCEDAE_KUBEJS_WORKING_FILE = ADVANCEDAE_WORKING_ROOT / ADVANCEDAE_KUBEJS_RELATIVE
+ADVANCEDAE_KUBEJS_OUTPUT_FILE = (
+    PROJECT_ROOT / "output/overrides" / ADVANCEDAE_KUBEJS_RELATIVE
+)
+ADVANCEDAE_KUBEJS_SOURCE_TEXT = (
+    "§8In the Reaction Chamber: §e4000mb of Water§8 + "
+    "§e1x Quantum Infused Dust§8 = §b1000mb of Quantum Infusion"
+)
+ADVANCEDAE_KUBEJS_TRANSLATED_TEXT = (
+    "§8반응 챔버: §e물 4000 mB§8 + §e퀀텀 주입 가루 1개§8 = " "§b퀀텀 주입액 1000 mB"
+)
 ADVANCEDAE_LANGUAGE_COMPLETION_FILE = (
     ADVANCEDAE_WORKING_ROOT / "language_completion.json"
 )
@@ -300,6 +312,9 @@ ADVANCEDAE_QUALITY_TRANSLATIONS = {
     "block.advanced_ae.adv_pattern_provider": "고급 확장 패턴 공급기",
     "block.advanced_ae.small_adv_pattern_provider": "고급 패턴 공급기",
     "gui.advanced_ae.AdvancedIOBus": "ME 고급 입출력 버스",
+    "gui.tooltips.advanced_ae.AutoFeedTooltip": (
+        "ME 시스템의 음식으로 사용자의 허기를 자동으로 채우도록 설정할 수 있습니다."
+    ),
     "gui.tooltips.advanced_ae.MultiThreaderMultiplication": (
         "퀀텀 컴퓨터 멀티블록의 보조 처리 스레드 수를 %d배로 만듭니다. "
         "멀티블록당 %d개로 제한됩니다."
@@ -313,6 +328,12 @@ ADVANCEDAE_FORBIDDEN_GUIDE_PHRASES = (
     "ME 고급 I/O 버스",
     "몇 가지 스택",
     "보조 처리 장치",
+    "일반 제공기를 확장 제공기로",
+    "퀀텀 코어",
+    "퀀텀 가속기",
+    "퀀텀 멀티 스레더",
+    "완전한 블록 형태의 패턴 공급기",
+    "출력 수량을 조절하지는",
 )
 ADVANCEDAE_BATCH_07_GUIDE_FILES = (
     "aae_intro/aae_intro-index.md",
@@ -1636,7 +1657,63 @@ def advancedae_related_counts() -> tuple[int, int]:
     quest_overrides = json.loads(
         ADVANCEDAE_QUEST_OVERRIDES_FILE.read_text(encoding="utf-8")
     )
-    return len(quest_overrides), 0
+    return len(quest_overrides), 1
+
+
+def prepare_advancedae_kubejs(instance: Path) -> None:
+    source_file = instance / ADVANCEDAE_KUBEJS_RELATIVE
+    source = source_file.read_text(encoding="utf-8-sig").replace("\r\n", "\n")
+    source_count = source.count(ADVANCEDAE_KUBEJS_SOURCE_TEXT)
+    translated_count = source.count(ADVANCEDAE_KUBEJS_TRANSLATED_TEXT)
+    if source_count == 1 and translated_count == 0:
+        translated = source.replace(
+            ADVANCEDAE_KUBEJS_SOURCE_TEXT,
+            ADVANCEDAE_KUBEJS_TRANSLATED_TEXT,
+        )
+    elif source_count == 0 and translated_count == 1:
+        translated = source
+    else:
+        raise ValueError(
+            "Advanced AE KubeJS 반응 챔버 안내 원문을 하나로 확정할 수 없습니다: "
+            f"원문={source_count}, 번역={translated_count}"
+        )
+    ADVANCEDAE_KUBEJS_WORKING_FILE.parent.mkdir(parents=True, exist_ok=True)
+    ADVANCEDAE_KUBEJS_WORKING_FILE.write_text(translated, encoding="utf-8")
+
+
+def validate_advancedae_kubejs(instance: Path, compare_output: bool) -> list[str]:
+    errors: list[str] = []
+    source_file = instance / ADVANCEDAE_KUBEJS_RELATIVE
+    source = source_file.read_text(encoding="utf-8-sig").replace("\r\n", "\n")
+    expected = source.replace(
+        ADVANCEDAE_KUBEJS_SOURCE_TEXT,
+        ADVANCEDAE_KUBEJS_TRANSLATED_TEXT,
+    )
+    if not ADVANCEDAE_KUBEJS_WORKING_FILE.is_file():
+        errors.append(
+            f"Advanced AE KubeJS 작업본이 없습니다: {ADVANCEDAE_KUBEJS_WORKING_FILE}"
+        )
+        return errors
+    working = ADVANCEDAE_KUBEJS_WORKING_FILE.read_text(encoding="utf-8").replace(
+        "\r\n", "\n"
+    )
+    if working != expected:
+        errors.append("Advanced AE KubeJS 작업본이 현재 인스턴스 원문과 다릅니다.")
+    if ADVANCEDAE_KUBEJS_SOURCE_TEXT in working:
+        errors.append("Advanced AE KubeJS 반응 챔버 영어 안내가 남아 있습니다.")
+    if working.count(ADVANCEDAE_KUBEJS_TRANSLATED_TEXT) != 1:
+        errors.append("Advanced AE KubeJS 반응 챔버 한국어 안내가 하나가 아닙니다.")
+    if compare_output:
+        if not ADVANCEDAE_KUBEJS_OUTPUT_FILE.is_file():
+            errors.append(
+                f"Advanced AE KubeJS 출력 파일이 없습니다: {ADVANCEDAE_KUBEJS_OUTPUT_FILE}"
+            )
+        elif (
+            ADVANCEDAE_KUBEJS_WORKING_FILE.read_bytes()
+            != ADVANCEDAE_KUBEJS_OUTPUT_FILE.read_bytes()
+        ):
+            errors.append("Advanced AE KubeJS 작업본과 출력이 다릅니다.")
+    return errors
 
 
 def validate_advancedae_language(
@@ -2743,6 +2820,7 @@ def validate_advancedae_quality(
         for validation in validations
         for error in validation["errors"]  # type: ignore[union-attr]
     ]
+    errors.extend(validate_advancedae_kubejs(instance, compare_output))
     expected_files = tuple(
         relative
         for batch in sorted(ADVANCEDAE_BATCH_GUIDE_FILES)
@@ -2800,6 +2878,7 @@ def validate_advancedae_quality(
 
 
 def build_advancedae_quality(instance: Path) -> dict[str, object]:
+    prepare_advancedae_kubejs(instance)
     validation = validate_advancedae_quality(instance, compare_output=False)
     errors = validation["errors"]
     assert isinstance(errors, list)
@@ -2815,6 +2894,10 @@ def build_advancedae_quality(instance: Path) -> dict[str, object]:
         target.write_bytes(source.read_bytes())
     ADVANCEDAE_LANG_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     ADVANCEDAE_LANG_OUTPUT_FILE.write_bytes(ADVANCEDAE_LANG_WORKING_FILE.read_bytes())
+    ADVANCEDAE_KUBEJS_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    ADVANCEDAE_KUBEJS_OUTPUT_FILE.write_bytes(
+        ADVANCEDAE_KUBEJS_WORKING_FILE.read_bytes()
+    )
 
     post_validation = validate_advancedae_quality(instance, compare_output=True)
     post_errors = post_validation["errors"]
@@ -2826,6 +2909,7 @@ def build_advancedae_quality(instance: Path) -> dict[str, object]:
     assert isinstance(jars, dict)
     output_files = {
         ADVANCEDAE_LANG_RELATIVE: sha256(ADVANCEDAE_LANG_OUTPUT_FILE),
+        ADVANCEDAE_KUBEJS_RELATIVE.as_posix(): sha256(ADVANCEDAE_KUBEJS_OUTPUT_FILE),
         **{
             "assets/advanced_ae/ae2guide/_ko_kr/" + relative: sha256(
                 ADVANCEDAE_GUIDE_OUTPUT_ROOT / relative

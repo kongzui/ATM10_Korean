@@ -81,7 +81,7 @@
   "gui.tooltips.advanced_ae.AcceleratorThreads": "블록당 보조 처리 스레드 %d개를 제공합니다.",
   "gui.tooltips.advanced_ae.AnyButton": "고급 패턴 공급기에 인접한 면을 대상으로 지정합니다",
   "gui.tooltips.advanced_ae.AttackSpeedTooltip": "사용자의 공격 속도를 %s만큼 높입니다.",
-  "gui.tooltips.advanced_ae.AutoFeedTooltip": "ME 시스템의 음식을 사용자가 자동으로 먹도록 설정할 수 있습니다.",
+  "gui.tooltips.advanced_ae.AutoFeedTooltip": "ME 시스템의 음식으로 사용자의 허기를 자동으로 채우도록 설정할 수 있습니다.",
   "gui.tooltips.advanced_ae.AutoStockTooltip": "사용자 인벤토리에 정확한 수량의 아이템을 유지하도록 설정할 수 있습니다.",
   "gui.tooltips.advanced_ae.CamoTooltip": "업그레이드한 갑옷 부위의 표시 여부를 전환합니다.",
   "gui.tooltips.advanced_ae.ClearButton": "지우기",

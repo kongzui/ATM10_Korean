@@ -155,7 +155,7 @@
     "&5고급 패턴 공급기&r가 필요합니다. 사용법은 Extended AE 및 Advanced AE 챕터를 확인하세요. 다음으로 패턴을 인코딩해야 합니다. Modular Bees의 Royal Treats에 사용할 &4치유의 물약&r을 양조하는 예시로, 유리병 3개, 네더 사마귀 1개, 반짝이는 수박 조각 1개를 입력하여 &4치유의 물약&r 3개를 만드는 패턴을 인코딩하세요. 여기서는 &5고급 패턴 공급기&r의 특별한 기능 두 가지를 모두 사용합니다. 첫 번째는 아이템을 지정한 면으로 보내는 기능입니다. 이를 이용해 유리병을 기계의 위쪽 면으로 보냅니다. 다음과 같이 &5고급 패턴 인코더&r로 패턴을 인코딩하세요:",
     "{image:atm:textures/questpics/industrialforegoing/advanced_pattern.png width:200 height:100 align:center}",
     "{@pagebreak}",
-    "다음으로 &5고급 패턴 공급기&r에서 필터 반입을 활성화해야 합니다. 그러면 &5고급 패턴 공급기&r는 현재 활성화된 제작 작업과 일치하는 아이템만 받습니다. 따라서 물약을 너무 일찍 받아들이지 않습니다. 특히 같은 공급기를 사용하는 큰 제작 작업에서는 처리 업그레이드를 추가해도 좋습니다.\\n\\n마지막으로 물약 양조기의 면을 다음과 같이 설정하세요:",
+    "다음으로 &5고급 패턴 공급기&r에서 필터 반입을 활성화해야 합니다. 그러면 &5고급 패턴 공급기&r는 현재 활성화된 제작 작업과 일치하는 아이템만 받습니다. 따라서 물약을 너무 일찍 받아들이지 않습니다. 특히 같은 공급기를 사용하는 큰 제작 작업에서는 처리 애드온을 추가해도 좋습니다.\\n\\n마지막으로 물약 양조기의 면을 다음과 같이 설정하세요:",
     "{image:atm:textures/questpics/industrialforegoing/blaze_input.png width:125 height:100 align:center}",
     "{image:atm:textures/questpics/industrialforegoing/bottle_input.png width:125 height:100 align:center}",
     "{image:atm:textures/questpics/industrialforegoing/brewing_input.png width:125 height:100 align:center}",

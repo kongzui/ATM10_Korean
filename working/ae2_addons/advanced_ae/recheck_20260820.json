@@ -1,0 +1,84 @@
+{
+  "status": "completed_and_deployed",
+  "scope": "Advanced AE 전체 한국어 품질 재검수",
+  "reviewed_at": "2026-08-20",
+  "source_jars": {
+    "advanced_ae": {
+      "name": "AdvancedAE-1.6.11-1.21.1.jar",
+      "sha256": "891e1f8ee0f3ac1bbce03fc2848b761f9c52bea4533eb3419ae849582e15ced7"
+    },
+    "ae2_compatibility": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    }
+  },
+  "language": {
+    "source_keys": 246,
+    "jar_candidate_keys": 246,
+    "existing_candidates_reviewed": 246,
+    "retained": 245,
+    "corrected": 1,
+    "new": 0
+  },
+  "guideme": {
+    "source_pages": 13,
+    "source_words": 3226,
+    "existing_candidates_reviewed": 13,
+    "retained": 9,
+    "corrected": 4,
+    "new": 0
+  },
+  "ftbquests": {
+    "related_quest_ids": 40,
+    "explicit_english_surfaces": 54,
+    "existing_candidates_reviewed": 42,
+    "retained": 37,
+    "corrected": 5,
+    "new": 12,
+    "fallback_surfaces_reviewed": 23,
+    "fallback_surfaces_retained": 23,
+    "remaining_english_surfaces": 0
+  },
+  "kubejs": {
+    "related_files_reviewed": 5,
+    "identifier_or_recipe_only_files": 4,
+    "user_visible_literals": 1,
+    "corrected": 1
+  },
+  "recipe_advancements": {
+    "files_reviewed": 70,
+    "display_literals": 0
+  },
+  "other_display_systems": {
+    "patchouli_pages": 0,
+    "ponder_scenes": 0
+  },
+  "cross_mod_consistency": {
+    "exact_item_name_conflicts": 0,
+    "related_surface_conflicts_corrected": 3,
+    "corrected_terms": [
+      "양자 방어구 -> 퀀텀 갑옷",
+      "수정 조합기 -> 결정 조립기",
+      "처리 업그레이드 -> 처리 애드온"
+    ]
+  },
+  "validation": {
+    "language_and_placeholder_errors": 0,
+    "guide_structure_errors": 0,
+    "quest_structure_errors": 0,
+    "fallback_errors": 0,
+    "kubejs_scope_errors": 0,
+    "terminology_errors": 0,
+    "json_errors": 0,
+    "static_check_errors": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "game_root",
+    "files": 7,
+    "backup_manifest": "temp/backups/20260820_034142_798255/backup_manifest.json",
+    "unexpected_changes": 0
+  },
+  "remaining_manual_review": 0,
+  "minecraft_game_screen_verified": false
+}

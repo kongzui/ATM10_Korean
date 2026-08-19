@@ -69,6 +69,10 @@
 | Quantum Network Bridge | 양자 네트워크 브리지 | 구조물명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | `양자 브리지 카드`와 구분 |
 | Quantum Bridge Card | 양자 브리지 카드 | 아이템명 | AE2WTLib | 확정 | 양자 네트워크 브리지에 무선 터미널을 연결하는 카드 |
 | Quantum Entangled Singularity | 양자 얽힘 특이점 | 아이템명 | AE2 본체와 직접 연동 콘텐츠 | 확정 | `양자얽힘 특이점`으로 붙여 쓰지 않음 |
+| Quantum (Advanced AE) | 퀀텀 | 고유 기술 접두어 | Advanced AE | 확정 | AE2 본체의 양자 네트워크 브리지 계열은 `양자`를 유지 |
+| Quantum Armor | 퀀텀 갑옷 | 장비 세트명 | Advanced AE 및 관련 퀘스트 | 확정 | `양자 방어구`, `퀀텀 방어구`와 혼용하지 않음 |
+| Quantum Computer | 퀀텀 컴퓨터 | 멀티블록명 | Advanced AE 및 관련 퀘스트 | 확정 | 구성 블록 이름에도 `퀀텀 컴퓨터`를 생략하지 않음 |
+| Advanced Pattern Provider | 고급 패턴 공급기 | 장치명 | Advanced AE 및 관련 퀘스트 | 확정 | Extended AE의 `확장 패턴 공급기`와 구분 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |
 | Wireless Universal Terminal | 무선 범용 터미널 | 아이템명 | AE2WTLib 및 관련 퀘스트 | 확정 | `범용 무선 터미널`과 혼용하지 않음 |
 | Partition | 파티션 | 저장 셀 설정 용어 | AE2 본체와 직접 연동 콘텐츠 | 확정 | 저장 대상을 정하는 설정에는 `분할`을 사용하지 않음 |

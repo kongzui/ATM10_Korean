@@ -590,6 +590,8 @@ def main() -> int:
             f"FTB Quests에 AE2 비표준 용어가 남았습니다: {remaining_quest_terms}"
         )
     expected_quest_terms = {
+        "quest.34D14B807A2DAC0F.quest_desc": ("퀀텀 갑옷",),
+        "quest.268EA2DEC8840D13.quest_desc": ("결정 조립기",),
         "quest.03E6FA4DCB71162E.quest_desc": ("페인트볼",),
         "quest.0F03E75CF79BADD7.quest_desc": (
             "MEGA 대용량 아이템 저장 셀",
@@ -611,6 +613,21 @@ def main() -> int:
             "폭발내성 합금",
             "불가능한 확률 장치",
         ),
+        "quest.56DE217FEAE3F036.quest_subtitle": ("Mekanism, 바로 당신 말이에요",),
+        "quest.658DEAAD1E68E549.quest_desc": ("퀀텀 컴퓨터 코어",),
+        "quest.0D8B4DAB82ABEF9D.quest_desc": ("퀀텀 컴퓨터 가속기",),
+        "quest.78215D704E6095B0.quest_subtitle": ("완전히 무적이 되지는 않습니다",),
+        "quest.5E610C059737628B.quest_subtitle": ("단차 높이 최대 +3",),
+        "quest.0A354B4707894A62.quest_subtitle": ("점프 높이 최대 +3",),
+        "quest.67C7EF299BEC37DE.quest_subtitle": ("창의적 비행",),
+        "quest.4AC3EA41234BC5F0.quest_subtitle": ("최대 체력 +20",),
+        "quest.07E5B0BF7D8E055A.quest_subtitle": ("회피 확률 +30%",),
+        "quest.3B3F1DE1AF6EBC1E.quest_subtitle": ("힘 +10",),
+        "quest.6559C57A1A476489.quest_subtitle": ("공격 속도 +5",),
+        "quest.763A19067AEEF6D5.quest_subtitle": ("행운 +2",),
+        "quest.2E61219FC0BAB675.quest_subtitle": ("도달 거리 최대 +5",),
+        "quest.6033ABA2088BA70C.quest_subtitle": ("비행 관성 제거",),
+        "quest.3347CB6478F486C6.quest_subtitle": ("어디서나 셀 작업대 사용",),
         "quest.460A8F17F3ED6CAF.quest_desc": (
             "1M MEGA 저장 부품",
             "1048576",
@@ -678,6 +695,24 @@ def main() -> int:
             "ExtendedAE 무한 셀 KubeJS 키 검증 실패: "
             f"누락={missing_infinity_keys}, 범위 밖={unexpected_kube_keys}"
         )
+
+    advancedae_kubejs_path = (
+        PROJECT_ROOT / "output/overrides/kubejs/client_scripts/RecipeViewer.js"
+    )
+    advancedae_kubejs = advancedae_kubejs_path.read_text(encoding="utf-8")
+    advancedae_kubejs_source = (
+        "§8In the Reaction Chamber: §e4000mb of Water§8 + "
+        "§e1x Quantum Infused Dust§8 = §b1000mb of Quantum Infusion"
+    )
+    advancedae_kubejs_translation = (
+        "§8반응 챔버: §e물 4000 mB§8 + §e퀀텀 주입 가루 1개§8 = "
+        "§b퀀텀 주입액 1000 mB"
+    )
+    if (
+        advancedae_kubejs_source in advancedae_kubejs
+        or advancedae_kubejs.count(advancedae_kubejs_translation) != 1
+    ):
+        raise ValueError("Advanced AE KubeJS 반응 챔버 안내 번역이 일치하지 않습니다.")
 
     related_lang_terms = (
         (
@@ -766,6 +801,7 @@ def main() -> int:
         output_lang,
         quests.OUTPUT_FILE,
         kube_path,
+        advancedae_kubejs_path,
         pack_meta_path,
         PROGRESS_FILE,
         quests.PROGRESS_FILE,
@@ -791,6 +827,7 @@ def main() -> int:
             translated[key] == english[key] for key in ALLOWED_IDENTICAL_TRANSLATIONS
         ),
         "extendedae_infinity_cell_keys": len(infinity_keys),
+        "advancedae_kubejs_display_literals": 1,
         "unrelated_ftbquest_keys_changed": 0,
         "ftbquest_title_keys_changed": sum(
             full_current.get(key) != full_output.get(key)
