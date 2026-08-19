@@ -1,8 +1,12 @@
 {
   "status": "quality_review_completed",
-  "scope": "AE2 Network Analyser language, GuideME guide, FTB Quests, and KubeJS quality review",
+  "scope": "AE2 Network Analyzer language and GuideME full quality recheck",
   "batch": 13,
   "source_jars": {
+    "ae2": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    },
     "ae2netanalyser": {
       "name": "AE2NetworkAnalyzer-1.21-2.1.5-neoforge.jar",
       "sha256": "74b68e9ec57dbf21a0417ce099d61b834f88efb0de3cccba4413e5dcf9d69f3c"
@@ -10,24 +14,31 @@
   },
   "language": "ko_kr",
   "guide_pages": 2,
+  "new_guide_pages": 0,
+  "quality_review_pages_corrected": 2,
+  "core_compatibility_updates": 0,
+  "source_words": 428,
   "language_keys": 38,
-  "existing_korean_reused": 0,
-  "new_or_revised_translations": 38,
-  "quality_review_corrections": 3,
-  "quality_review_guide_pages_corrected": 1,
+  "existing_korean_reused": 37,
+  "new_or_revised_translations": 1,
+  "class_files_reviewed": 57,
+  "class_internal_diagnostic_literal_classes": 3,
+  "class_user_visible_literals_found": 0,
+  "guide_files": [
+    "ae2_network_analyser.md",
+    "ae2_tick_profiler.md"
+  ],
   "output_sha256": {
-    "assets/ae2netanalyser/lang/ko_kr.json": "961e821fbcbc950e83fa6e259ca310575a9f906ee8b2c26858009817f3ae2e35",
-    "assets/ae2netanalyser/ae2guide/_ko_kr/ae2_network_analyser.md": "621aec45bd07b507afe42baae6ed1c3689cd495cf130a7684ec8341b3ee51dd1"
+    "assets/ae2netanalyser/lang/ko_kr.json": "522539230817287fda3b5fbebefe44d70322d8e439dc29389efa648b5a619b68",
+    "assets/ae2netanalyser/ae2guide/_ko_kr/ae2_network_analyser.md": "aff10eecabee905f9e2eab36a5bc643acd01ebb4a27a2e3001500052bbed8c8a",
+    "assets/ae2netanalyser/ae2guide/_ko_kr/ae2_tick_profiler.md": "5cb013db7fe7e3335f0417bbfdbb6455ef6d1633d73e45de1c56938ff1694e92"
   },
   "ftbquests_review": {
-    "related_keys_reviewed": 0,
-    "quality_review_keys_corrected": 0,
+    "related_content_found": false,
+    "keys_updated": 0,
+    "handled_separately": true,
     "pending": false
   },
-  "kubejs": {
-    "related_files_reviewed": 0,
-    "user_visible_literals_found": 0,
-    "quality_review_keys_corrected": 0
-  },
+  "kubejs_user_visible_literals_found": 0,
   "validation_errors": 0
 }

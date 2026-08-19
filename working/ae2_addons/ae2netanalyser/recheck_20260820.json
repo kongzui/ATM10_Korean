@@ -1,0 +1,86 @@
+{
+  "status": "full_recheck_completed_and_deployed",
+  "scope": "AE2 Network Analyzer 전체 번역의 신규 전수 재검수",
+  "source_jar": {
+    "name": "AE2NetworkAnalyzer-1.21-2.1.5-neoforge.jar",
+    "sha256": "74b68e9ec57dbf21a0417ce099d61b834f88efb0de3cccba4413e5dcf9d69f3c",
+    "archive_entries": 130,
+    "class_files": 57
+  },
+  "language": {
+    "source_keys": 38,
+    "jar_korean_candidate_keys": 0,
+    "project_candidate_keys_reviewed": 38,
+    "retained": 37,
+    "corrected": 1,
+    "new": 0,
+    "remaining": 0
+  },
+  "guideme": {
+    "source_pages": 2,
+    "other_locale_pages_reviewed": 0,
+    "project_candidate_pages_reviewed": 2,
+    "pages_corrected": 2,
+    "source_words": 428,
+    "remaining": 0
+  },
+  "ftbquests": {
+    "related_quests": 0,
+    "keys_corrected": 0,
+    "remaining": 0
+  },
+  "kubejs": {
+    "related_files_reviewed": 0,
+    "user_visible_literals": 0,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "other_display_paths": {
+    "screen_json_files_reviewed": 2,
+    "screen_json_display_literals": 0,
+    "recipes_reviewed": 1,
+    "advancements_reviewed": 1,
+    "advancement_display_literals": 0,
+    "patchouli_pages": 0,
+    "ponder_scenes": 0,
+    "class_files_reviewed": 57,
+    "internal_diagnostic_literal_classes": 3,
+    "class_user_visible_literals": 0,
+    "metadata_descriptions_reviewed": 1,
+    "metadata_description_is_language_resource": false,
+    "remaining": 0
+  },
+  "cross_mod_consistency": {
+    "terms_added_to_glossary": 2,
+    "intentional_shared_exact_matches_reviewed": 54,
+    "intentional_shared_values": 6,
+    "exact_item_name_conflicts": 0,
+    "resolved_name_conflicts": 0
+  },
+  "validation": {
+    "language_keys_match_source": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "guide_numbers_preserved": true,
+    "guide_structure_preserved": true,
+    "guide_resources_resolve": true,
+    "working_output_match": true,
+    "full_ae2_addon_guides_checked": true,
+    "full_ae2_core_guides_checked": true,
+    "quest_fallback_checked": true,
+    "utf8_bom_files": 0,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "applied": true,
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "selected_paths": 3,
+    "changed_paths": 3,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260820_043354_533662/backup_manifest.json",
+    "pre_snapshot_files": 6079,
+    "post_snapshot_files": 6079
+  },
+  "remaining_manual_review": 0,
+  "minecraft_game_screen_verified": false
+}

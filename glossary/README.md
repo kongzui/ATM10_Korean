@@ -83,6 +83,8 @@
 | Tape Disk Item Storage Cell | 테이프 디스크 아이템 저장 셀 | 아이템명 | EnderDrives | 확정 | 가이드의 장치 분류명 `테이프 드라이브`와 구분 |
 | Import Card | 반입 카드 | 아이템명 | AE2 Import Export Card | 확정 | 플레이어 인벤토리에서 ME 시스템으로 옮기는 방향을 기준으로 함 |
 | Export Card | 반출 카드 | 아이템명 | AE2 Import Export Card | 확정 | ME 시스템에서 플레이어 인벤토리로 옮기는 방향을 기준으로 함 |
+| ME Network Analyzer | ME 네트워크 분석기 | 아이템명 | AE2 Network Analyzer | 확정 | JAR 언어 파일의 미국식 철자 `Analyzer`를 공식 모드 표기에 유지함 |
+| ME Tick Profiler | ME 틱 프로파일러 | 아이템명 | AE2 Network Analyzer | 확정 | 틱 속도가 아니라 장치별 틱 처리 시간을 측정하는 도구 |
 | MEGA Pattern Provider | MEGA 패턴 공급기 | 장치명 | MEGA Cells 및 Expanded AE 연동 목록 | 확정 | `ME MEGA 패턴 공급기`처럼 `ME`를 중복하지 않음 |
 | Greater Acceleration Card | 상급 가속 카드 | 업그레이드 카드명 | Expanded AE | 확정 | AE2의 `가속 카드`보다 높은 등급을 구분 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |

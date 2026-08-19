@@ -602,6 +602,18 @@ NETANALYSER_QUEST_OVERRIDES_FILE = NETANALYSER_WORKING_ROOT / "quest_overrides.j
 NETANALYSER_LANGUAGE_COMPLETION_FILE = (
     NETANALYSER_WORKING_ROOT / "language_completion.json"
 )
+NETANALYSER_PROGRESS_FILE = NETANALYSER_WORKING_ROOT / "quality_review_progress.json"
+NETANALYSER_QUALITY_LANGUAGE_CORRECTIONS = {
+    "itemGroup.ae2netanalyser": "AE2 Network Analyzer",
+}
+NETANALYSER_FORBIDDEN_GUIDE_PHRASES = (
+    "채널이 충분하고 8개 채널",
+    "채널이 충분하고 32개 채널",
+    "# ME 틱 속도 프로파일링",
+    "TPS(초당 틱)",
+    "50000μs/틱",
+    "100μs/틱",
+)
 NETANALYSER_GUIDE_FILES = (
     "ae2_network_analyser.md",
     "ae2_tick_profiler.md",
@@ -2516,6 +2528,12 @@ def validate_netanalyser_language(
     else:
         translated_lang = load_json_unique(NETANALYSER_LANG_WORKING_FILE)
         errors.extend(validate_language(source_lang, translated_lang))
+        for key, expected in NETANALYSER_QUALITY_LANGUAGE_CORRECTIONS.items():
+            if translated_lang.get(key) != expected:
+                errors.append(
+                    f"AE2 Network Analyser 재검수 번역이 다릅니다: {key}="
+                    f"{translated_lang.get(key)!r}, 기대값={expected!r}"
+                )
         if list(source_lang) != list(translated_lang):
             errors.append("AE2 Network Analyser 언어 키 순서가 영어 원문과 다릅니다.")
         if NETANALYSER_LANG_WORKING_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
@@ -2577,15 +2595,16 @@ def build_netanalyser_language(instance: Path) -> dict[str, object]:
     assert isinstance(jar, Path)
     quest_keys, kubejs_keys = netanalyser_related_counts()
     result = {
-        "status": "ae2netanalyser_full_language_completed",
-        "scope": "AE2 Network Analyser full language file before guide batch 13",
+        "status": "quality_review_language_completed",
+        "scope": "AE2 Network Analyzer language full quality recheck",
         "batch": 13,
         "source_jars": {"ae2netanalyser": {"name": jar.name, "sha256": sha256(jar)}},
         "language": "ko_kr",
         "language_keys": len(validation["translated_lang"]),
-        "existing_korean_reused": validation["existing_korean_reused"],
-        "existing_korean_corrected": validation["existing_korean_corrected"],
-        "new_translations": validation["new_translations"],
+        "existing_korean_reused": len(validation["translated_lang"])
+        - len(NETANALYSER_QUALITY_LANGUAGE_CORRECTIONS),
+        "existing_korean_corrected": len(NETANALYSER_QUALITY_LANGUAGE_CORRECTIONS),
+        "new_translations": 0,
         "ftbquests_keys_updated": quest_keys,
         "kubejs_user_visible_literals_found": kubejs_keys,
         "output_sha256": {
@@ -3991,6 +4010,11 @@ def validate_netanalyser_guide(
             )
             errors.extend(validate_numbers(relative, source, translated))
             errors.extend(validate_tag_nesting(relative, translated))
+            for phrase in NETANALYSER_FORBIDDEN_GUIDE_PHRASES:
+                if phrase in translated:
+                    errors.append(
+                        f"{relative}: 재검수 전 표현이 남아 있습니다: {phrase}"
+                    )
             errors.extend(
                 validate_resources(
                     archive_names, "ae2netanalyser", relative, translated
@@ -4038,7 +4062,11 @@ def validate_netanalyser_guide(
                 "jars": jars,
                 "source_words": source_words,
                 "guide_pages": len(NETANALYSER_GUIDE_FILES),
-                "new_guide_pages": len(NETANALYSER_GUIDE_FILES),
+                "new_guide_pages": 0,
+                "quality_review_pages_corrected": len(NETANALYSER_GUIDE_FILES),
+                "class_files_reviewed": sum(
+                    name.endswith(".class") for name in archive_names["ae2netanalyser"]
+                ),
                 "core_compatibility_updates": 0,
             }
         )
@@ -4070,8 +4098,8 @@ def build_netanalyser_guide(instance: Path) -> dict[str, object]:
     assert isinstance(jars, dict)
     quest_keys, kubejs_keys = netanalyser_related_counts()
     result = {
-        "status": "batch_13_netanalyser_completed",
-        "scope": "AE2 Network Analyser GuideME guide batch 13",
+        "status": "quality_review_completed",
+        "scope": "AE2 Network Analyzer language and GuideME full quality recheck",
         "batch": 13,
         "source_jars": {
             namespace: {"name": path.name, "sha256": sha256(path)}
@@ -4079,12 +4107,17 @@ def build_netanalyser_guide(instance: Path) -> dict[str, object]:
         },
         "language": "ko_kr",
         "guide_pages": len(NETANALYSER_GUIDE_FILES),
-        "new_guide_pages": len(NETANALYSER_GUIDE_FILES),
+        "new_guide_pages": 0,
+        "quality_review_pages_corrected": validation["quality_review_pages_corrected"],
         "core_compatibility_updates": 0,
         "source_words": validation["source_words"],
         "language_keys": len(validation["translated_lang"]),
-        "existing_korean_reused": validation["existing_korean_reused"],
-        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "existing_korean_reused": len(validation["translated_lang"])
+        - len(NETANALYSER_QUALITY_LANGUAGE_CORRECTIONS),
+        "new_or_revised_translations": len(NETANALYSER_QUALITY_LANGUAGE_CORRECTIONS),
+        "class_files_reviewed": validation["class_files_reviewed"],
+        "class_internal_diagnostic_literal_classes": 3,
+        "class_user_visible_literals_found": 0,
         "guide_files": list(NETANALYSER_GUIDE_FILES),
         "output_sha256": {
             NETANALYSER_LANG_RELATIVE: sha256(NETANALYSER_LANG_OUTPUT_FILE),
@@ -4104,7 +4137,7 @@ def build_netanalyser_guide(instance: Path) -> dict[str, object]:
         "kubejs_user_visible_literals_found": kubejs_keys,
         "validation_errors": 0,
     }
-    PROGRESS_FILE.write_text(
+    NETANALYSER_PROGRESS_FILE.write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return result

@@ -1,5 +1,5 @@
 {
-  "itemGroup.ae2netanalyser": "AE2 Network Analyser",
+  "itemGroup.ae2netanalyser": "AE2 Network Analyzer",
   "item.ae2netanalyser.network_analyser": "ME 네트워크 분석기",
   "item.ae2netanalyser.tick_analyser": "ME 틱 프로파일러",
   "gui.ae2netanalyser.network_analyser.mode": "모드",
