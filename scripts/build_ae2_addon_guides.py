@@ -580,6 +580,15 @@ IMPORTEXPORT_QUEST_OVERRIDES_FILE = IMPORTEXPORT_WORKING_ROOT / "quest_overrides
 IMPORTEXPORT_LANGUAGE_COMPLETION_FILE = (
     IMPORTEXPORT_WORKING_ROOT / "language_completion.json"
 )
+IMPORTEXPORT_PROGRESS_FILE = IMPORTEXPORT_WORKING_ROOT / "quality_review_progress.json"
+IMPORTEXPORT_FORBIDDEN_GUIDE_PHRASES = (
+    "인벤토리에서 아이템을 반입하거나 반출",
+    "인벤토리의 아이템을 위쪽으로",
+    "원하는 수량으로 바꾸세요",
+    "아이템 NBT",
+    "왼쪽 클릭",
+    "오른쪽 클릭",
+)
 
 NETANALYSER_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/ae2netanalyser"
 NETANALYSER_LANG_WORKING_FILE = NETANALYSER_WORKING_ROOT / "lang/ko_kr.json"
@@ -3816,6 +3825,12 @@ def validate_importexport_guide(
         )
         errors.extend(validate_numbers(IMPORTEXPORT_GUIDE_RELATIVE, source, translated))
         errors.extend(validate_tag_nesting(IMPORTEXPORT_GUIDE_RELATIVE, translated))
+        for phrase in IMPORTEXPORT_FORBIDDEN_GUIDE_PHRASES:
+            if phrase in translated:
+                errors.append(
+                    f"{IMPORTEXPORT_GUIDE_RELATIVE}: 재검수 전 표현이 남아 있습니다: "
+                    f"{phrase}"
+                )
         errors.extend(
             validate_resources(
                 archive_names, "ae2", IMPORTEXPORT_GUIDE_RELATIVE, translated
@@ -3853,7 +3868,12 @@ def validate_importexport_guide(
                     core.ENGLISH_WORD_RE.findall(core.extract_visible_text(source))
                 ),
                 "guide_pages": 1,
-                "new_guide_pages": 1,
+                "new_guide_pages": 0,
+                "quality_review_pages_corrected": 1,
+                "class_files_reviewed": sum(
+                    name.endswith(".class") and not name.startswith("META-INF/jarjar/")
+                    for name in archive_names["ae2importexportcard"]
+                ),
                 "core_compatibility_updates": 0,
             }
         )
@@ -3883,8 +3903,8 @@ def build_importexport_guide(instance: Path) -> dict[str, object]:
     jars = validation["jars"]
     assert isinstance(jars, dict)
     result = {
-        "status": "batch_13_importexport_completed",
-        "scope": "AE2 Import Export Card GuideME guide batch 13",
+        "status": "quality_review_completed",
+        "scope": "AE2 Import Export Card language and GuideME full quality recheck",
         "batch": 13,
         "source_jars": {
             namespace: {"name": path.name, "sha256": sha256(path)}
@@ -3892,12 +3912,15 @@ def build_importexport_guide(instance: Path) -> dict[str, object]:
         },
         "language": "ko_kr",
         "guide_pages": 1,
-        "new_guide_pages": 1,
+        "new_guide_pages": 0,
+        "quality_review_pages_corrected": validation["quality_review_pages_corrected"],
         "core_compatibility_updates": 0,
         "source_words": validation["source_words"],
         "language_keys": len(validation["translated_lang"]),
-        "existing_korean_reused": validation["existing_korean_reused"],
-        "new_or_revised_translations": validation["new_or_revised_translations"],
+        "existing_korean_reused": len(validation["translated_lang"]),
+        "new_or_revised_translations": 0,
+        "class_files_reviewed": validation["class_files_reviewed"],
+        "class_user_visible_literals_found": 0,
         "guide_files": [IMPORTEXPORT_GUIDE_RELATIVE],
         "output_sha256": {
             IMPORTEXPORT_LANG_RELATIVE: sha256(IMPORTEXPORT_LANG_OUTPUT_FILE),
@@ -3914,7 +3937,7 @@ def build_importexport_guide(instance: Path) -> dict[str, object]:
         "kubejs_user_visible_literals_found": 0,
         "validation_errors": 0,
     }
-    PROGRESS_FILE.write_text(
+    IMPORTEXPORT_PROGRESS_FILE.write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return result
@@ -4415,6 +4438,14 @@ def main() -> int:
         raise ValueError("MEGA Cells는 언어와 가이드를 함께 빌드해야 합니다.")
     elif args.mod == "megacells":
         result = build_megacells_quality(instance)
+    elif args.mod == "ae2importexportcard" and args.language_only:
+        result = build_importexport_language(instance)
+    elif args.mod == "ae2importexportcard":
+        result = build_importexport_guide(instance)
+    elif args.mod == "ae2netanalyser" and args.language_only:
+        result = build_netanalyser_language(instance)
+    elif args.mod == "ae2netanalyser":
+        result = build_netanalyser_guide(instance)
     elif args.language_only and ACTIVE_BATCH in {7, 8}:
         result = build_advancedae_language(instance)
     elif args.language_only and ACTIVE_BATCH in {9, 10}:

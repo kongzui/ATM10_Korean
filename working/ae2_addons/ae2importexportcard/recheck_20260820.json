@@ -1,0 +1,84 @@
+{
+  "status": "full_recheck_completed_and_deployed",
+  "scope": "AE2 Import Export Card 전체 번역의 신규 전수 재검수",
+  "source_jar": {
+    "name": "ae2importexportcard-1.21.1-1.5.0.jar",
+    "sha256": "63c59264947c2b386f5576971cd5c2fee0efd9eec6da7fb2992ef38117dc35bd",
+    "archive_entries": 93,
+    "class_files": 28
+  },
+  "language": {
+    "source_keys": 5,
+    "jar_korean_candidate_keys": 5,
+    "project_candidate_keys_reviewed": 5,
+    "retained": 5,
+    "corrected": 0,
+    "new": 0,
+    "remaining": 0
+  },
+  "guideme": {
+    "source_pages": 1,
+    "other_locale_pages_reviewed": 1,
+    "project_candidate_pages_reviewed": 1,
+    "pages_corrected": 1,
+    "source_words": 205,
+    "remaining": 0
+  },
+  "ftbquests": {
+    "related_quests": 0,
+    "keys_corrected": 0,
+    "remaining": 0
+  },
+  "kubejs": {
+    "related_files_reviewed": 0,
+    "user_visible_literals": 0,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "other_display_paths": {
+    "screen_json_files_reviewed": 2,
+    "screen_translation_key_paths": 2,
+    "recipes_reviewed": 2,
+    "advancements_reviewed": 0,
+    "patchouli_pages": 0,
+    "ponder_scenes": 0,
+    "class_files_reviewed": 28,
+    "internal_debug_literals_reviewed": 1,
+    "class_user_visible_literals": 0,
+    "metadata_descriptions_reviewed": 1,
+    "metadata_description_is_language_resource": false,
+    "remaining": 0
+  },
+  "cross_mod_consistency": {
+    "terms_added_to_glossary": 2,
+    "intentional_shared_ui_values_reviewed": 21,
+    "exact_item_name_conflicts": 0,
+    "resolved_name_conflicts": 0
+  },
+  "validation": {
+    "language_keys_match_source": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "guide_numbers_preserved": true,
+    "guide_structure_preserved": true,
+    "guide_resources_resolve": true,
+    "working_output_match": true,
+    "full_ae2_addon_guides_checked": true,
+    "full_ae2_core_guides_checked": true,
+    "quest_fallback_checked": true,
+    "utf8_bom_files": 0,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "applied": true,
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10",
+    "selected_paths": 2,
+    "changed_paths": 1,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260820_042755_246168/backup_manifest.json",
+    "pre_snapshot_files": 6079,
+    "post_snapshot_files": 6079
+  },
+  "remaining_manual_review": 0,
+  "minecraft_game_screen_verified": false
+}

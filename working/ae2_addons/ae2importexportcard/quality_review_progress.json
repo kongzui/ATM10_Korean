@@ -1,8 +1,12 @@
 {
   "status": "quality_review_completed",
-  "scope": "AE2 Import Export Card language, GuideME guide, FTB Quests, and KubeJS quality review",
+  "scope": "AE2 Import Export Card language and GuideME full quality recheck",
   "batch": 13,
   "source_jars": {
+    "ae2": {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    },
     "ae2importexportcard": {
       "name": "ae2importexportcard-1.21.1-1.5.0.jar",
       "sha256": "63c59264947c2b386f5576971cd5c2fee0efd9eec6da7fb2992ef38117dc35bd"
@@ -10,24 +14,28 @@
   },
   "language": "ko_kr",
   "guide_pages": 1,
+  "new_guide_pages": 0,
+  "quality_review_pages_corrected": 1,
+  "core_compatibility_updates": 0,
+  "source_words": 205,
   "language_keys": 5,
-  "existing_korean_reused": 1,
-  "new_or_revised_translations": 4,
-  "quality_review_corrections": 0,
-  "quality_review_guide_pages_corrected": 0,
+  "existing_korean_reused": 5,
+  "new_or_revised_translations": 0,
+  "class_files_reviewed": 28,
+  "class_user_visible_literals_found": 0,
+  "guide_files": [
+    "ae2importexportcard-index.md"
+  ],
   "output_sha256": {
     "assets/ae2importexportcard/lang/ko_kr.json": "96baa497fed1b3a3be04b056b201b2abff680fe5f8b93247389bbd8bc7d4ae7b",
-    "assets/ae2/ae2guide/_ko_kr/ae2importexportcard-index.md": "d96310b51564bc5ae96e4a294fdc57feaba5cb876b5da29e13184af83777ac2d"
+    "assets/ae2/ae2guide/_ko_kr/ae2importexportcard-index.md": "40ca87d0caa5fcf72eabb5bd8ec1a30ccd6a8d9f674154ce9f7b544946c22225"
   },
   "ftbquests_review": {
-    "related_keys_reviewed": 0,
-    "quality_review_keys_corrected": 0,
+    "related_content_found": false,
+    "keys_updated": 0,
+    "handled_separately": true,
     "pending": false
   },
-  "kubejs": {
-    "related_files_reviewed": 0,
-    "user_visible_literals_found": 0,
-    "quality_review_keys_corrected": 0
-  },
+  "kubejs_user_visible_literals_found": 0,
   "validation_errors": 0
 }

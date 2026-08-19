@@ -81,6 +81,8 @@
 | Ender Storage Component | 엔더 저장 부품 | 아이템명 | EnderDrives | 확정 | AE2의 `저장 부품` 계열 명명 규칙을 따름 |
 | Ender Item Storage Cell | 엔더 아이템 저장 셀 | 아이템명 | EnderDrives | 확정 | 용량 등급을 앞에 붙이고 `엔더 드라이브`와 구분 |
 | Tape Disk Item Storage Cell | 테이프 디스크 아이템 저장 셀 | 아이템명 | EnderDrives | 확정 | 가이드의 장치 분류명 `테이프 드라이브`와 구분 |
+| Import Card | 반입 카드 | 아이템명 | AE2 Import Export Card | 확정 | 플레이어 인벤토리에서 ME 시스템으로 옮기는 방향을 기준으로 함 |
+| Export Card | 반출 카드 | 아이템명 | AE2 Import Export Card | 확정 | ME 시스템에서 플레이어 인벤토리로 옮기는 방향을 기준으로 함 |
 | MEGA Pattern Provider | MEGA 패턴 공급기 | 장치명 | MEGA Cells 및 Expanded AE 연동 목록 | 확정 | `ME MEGA 패턴 공급기`처럼 `ME`를 중복하지 않음 |
 | Greater Acceleration Card | 상급 가속 카드 | 업그레이드 카드명 | Expanded AE | 확정 | AE2의 `가속 카드`보다 높은 등급을 구분 |
 | Magnet Card | 무선 터미널 자석 카드 | 아이템명 | AE2WTLib | 확정 | Advanced AE의 서로 다른 자석 카드와 구분 |
