@@ -227,6 +227,7 @@
 | AppleSkin | AppleSkin | 공식 모드명 | 전체 프로젝트 | 확정 | `Apple Skin`, `애플스킨`으로 바꾸지 않음 |
 | Saturation (food) | 포만도 | 음식 시스템 수치 | AppleSkin 및 음식 수치를 직접 표시하는 모드 | 확정 | 상태 효과의 `포만감`, 색상 채도와 구분하며 수치형 음식 속성에 사용 |
 | Food Exhaustion | 허기 소모도 | 음식 시스템 수치 | AppleSkin HUD·디버그 화면 | 확정 | 비용이나 증가량은 문맥에 따라 `허기 소모량`으로 표현 |
+| Mouse Tweaks | Mouse Tweaks | 공식 모드명 | 전체 프로젝트 | 확정 | `마우스 트윅`, `마우스 조정`으로 바꾸지 않음 |
 
 ## 5. 보류 용어
 

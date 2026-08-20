@@ -1,0 +1,20 @@
+{
+  "fml.menu.mods.info.description.mousetweaks": "기본 마우스 버튼에 여러 기능을 추가해 인벤토리 관리를 편리하게 합니다.",
+  "mousetweaks.configuration.title": "Mouse Tweaks 설정",
+  "mousetweaks.configuration.rmb_tweak": "오른쪽 버튼 드래그 기능",
+  "mousetweaks.configuration.wheel_tweak": "휠 아이템 이동 기능",
+  "mousetweaks.configuration.lmb_with_item": "아이템을 든 채 왼쪽 드래그",
+  "mousetweaks.configuration.lmb_without_item": "빈 커서로 왼쪽 드래그",
+  "mousetweaks.configuration.wheel_search_order": "휠 이동 시 검색 순서",
+  "mousetweaks.configuration.scroll_direction": "스크롤 방향",
+  "mousetweaks.configuration.scroll_scaling": "스크롤 입력당 이동량",
+  "mousetweaks.configuration.debug_mode": "디버그 모드",
+  "mousetweaks.configuration.value.first_to_last": "앞에서 뒤로",
+  "mousetweaks.configuration.value.last_to_first": "뒤에서 앞으로",
+  "mousetweaks.configuration.value.down_to_push_up_to_pull": "아래: 넣기, 위: 꺼내기",
+  "mousetweaks.configuration.value.up_to_push_down_to_pull": "위: 넣기, 아래: 꺼내기",
+  "mousetweaks.configuration.value.inventory_position_aware": "인벤토리 위치에 맞춤",
+  "mousetweaks.configuration.value.inventory_position_aware_inverted": "인벤토리 위치에 맞춤(반전)",
+  "mousetweaks.configuration.value.proportional": "휠 입력 횟수만큼 아이템 이동",
+  "mousetweaks.configuration.value.always_one": "항상 아이템 하나만 이동(macOS 호환)"
+}

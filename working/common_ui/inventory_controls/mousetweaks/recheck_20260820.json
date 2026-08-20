@@ -1,0 +1,89 @@
+{
+  "scope": "Mouse Tweaks 전체 표시 문구 재검수",
+  "priority_reason": "모든 인벤토리에서 드래그와 휠 이동을 반복해서 처리해 플레이 중 사용 빈도가 매우 높은 조작 모드",
+  "source": {
+    "jar": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+    "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b",
+    "bytes": 73938,
+    "entries": 35,
+    "class_files": 22,
+    "bundled_language_files": 0,
+    "metadata_display_strings": 1,
+    "hardcoded_config_display_strings": 17
+  },
+  "language_review": {
+    "source_display_strings_reviewed": 18,
+    "existing_korean_candidates_reviewed": 0,
+    "existing_korean_candidates_reused": 0,
+    "existing_korean_candidates_corrected": 0,
+    "newly_translated": 18,
+    "effective_output_keys": 18
+  },
+  "meaning_decisions": {
+    "lmb_rmb": "버튼 약어를 그대로 두지 않고 아이템 보유 여부와 왼쪽·오른쪽 드래그 동작을 명시",
+    "push_pull": "휠 방향에 따른 Push·Pull을 플레이어가 이해하기 쉬운 넣기·꺼내기로 번역",
+    "search_order": "First·Last를 실제 검색 방향인 앞에서 뒤로·뒤에서 앞으로로 구분",
+    "position_aware": "인벤토리의 화면 위치를 따르는 기능과 반전 값을 구분",
+    "scroll_scaling": "휠 입력 횟수에 비례하는 이동과 macOS 호환용 항상 하나 이동을 구분",
+    "mod_description": "기본 마우스 버튼 기능을 늘려 인벤토리 관리를 편리하게 하는 목적을 자연스럽게 전달"
+  },
+  "display_paths": {
+    "configuration_options_reviewed": 8,
+    "visible_title_and_labels": 9,
+    "cycle_values": 8,
+    "mod_metadata_description": 1,
+    "advancement_recipe_tag_guide_files": 0,
+    "resourcepack_keys_added": 18,
+    "kubejs_bridge": "클라이언트·Mouse Tweaks 설정 화면·한국어 키 존재 여부를 확인한 뒤 Init.Post와 Render.Pre의 LOWEST 우선순위에서 기존 위젯 문구만 교체",
+    "value_preservation": "현재 켜짐·꺼짐 상태와 설정 콜백은 건드리지 않고 표시 문자열만 교체"
+  },
+  "related_content": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_reference_files": 0,
+    "original_kubejs_files_reviewed": 893,
+    "original_kubejs_reference_files": 0,
+    "kubejs_display_overrides_added": 1,
+    "installed_mod_jars_reviewed": 480,
+    "installed_english_language_files_reviewed": 388,
+    "other_language_owner_overlaps": 0,
+    "project_language_files_reviewed": 286
+  },
+  "glossary_terms_added": 1,
+  "validation": "passed",
+  "validation_details": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_syntax_and_duplicate_keys": "passed",
+    "keys_types_numbers_placeholders_linebreaks_and_format_codes": "passed",
+    "config_metadata_hardcoded_screen_ftbquests_kubejs_and_owner_paths": "passed",
+    "kubejs_native_event_priority_signature": "passed",
+    "node_javascript_syntax": "passed",
+    "python_compile": "passed",
+    "ruff_format_changed_python": "passed",
+    "ruff_check_all": "passed",
+    "git_diff_check": "passed",
+    "live_game_ui": "실행 중인 Java·Minecraft가 없어 정적 표시 경로와 적용 결과로 검증",
+    "instance_snapshot": "새 Mouse Tweaks 언어 파일과 설정 화면 KubeJS 스크립트만 추가되고 원본 JAR·KubeJS JAR·설정 파일은 변경되지 않음"
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "target_type": "source_root",
+    "target_root": "C:/Users/moon9653nb/Desktop/ATM10_source",
+    "changed_paths": [
+      "kubejs/startup_scripts/mousetweaks_config_labels.js",
+      "resourcepacks/ATM10_Korean/assets/mousetweaks/lang/ko_kr.json"
+    ],
+    "mousetweaks_sha256": "5212e13522777feb24c25d8a01babc5b8e56c12933b914d1bd0e887b7188fdff",
+    "config_script_sha256": "7fcd1dee21582b2988886fc4ea4cc1cd27336db22a38d4ea363f2310d39d237b",
+    "backup_manifest": "temp/backups/20260820_110135_173167/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_changes": 0
+  },
+  "remaining": {
+    "untranslated_display_strings": 0,
+    "manual_translation_review_items": 0,
+    "ftbquests_or_kubejs_translation_review_items": 0,
+    "deferred_target_files": 0
+  }
+}

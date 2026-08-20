@@ -1,0 +1,20 @@
+{
+  "fml.menu.mods.info.description.mousetweaks": "A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.",
+  "mousetweaks.configuration.title": "Mouse Tweaks Options",
+  "mousetweaks.configuration.rmb_tweak": "RMB Tweak",
+  "mousetweaks.configuration.wheel_tweak": "Wheel Tweak",
+  "mousetweaks.configuration.lmb_with_item": "LMB Tweak With Item",
+  "mousetweaks.configuration.lmb_without_item": "LMB Tweak Without Item",
+  "mousetweaks.configuration.wheel_search_order": "Wheel Tweak Search Order",
+  "mousetweaks.configuration.scroll_direction": "Scroll Direction",
+  "mousetweaks.configuration.scroll_scaling": "Scroll Scaling",
+  "mousetweaks.configuration.debug_mode": "Debug Mode",
+  "mousetweaks.configuration.value.first_to_last": "First to Last",
+  "mousetweaks.configuration.value.last_to_first": "Last to First",
+  "mousetweaks.configuration.value.down_to_push_up_to_pull": "Down to Push, Up to Pull",
+  "mousetweaks.configuration.value.up_to_push_down_to_pull": "Up to Push, Down to Pull",
+  "mousetweaks.configuration.value.inventory_position_aware": "Inventory Position Aware",
+  "mousetweaks.configuration.value.inventory_position_aware_inverted": "Inventory Position Aware, Inverted",
+  "mousetweaks.configuration.value.proportional": "Multiple Wheel Clicks Move Multiple Items",
+  "mousetweaks.configuration.value.always_one": "Always Move One Item (macOS Compatibility)"
+}
