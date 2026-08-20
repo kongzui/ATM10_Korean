@@ -1,0 +1,80 @@
+{
+  "scope": "Controlling 전체 번역 재검수",
+  "priority_reason": "ATM10의 많은 모드 단축키를 검색하고 충돌·미할당 상태를 정리할 때 반복해서 사용하는 핵심 설정 UI 모드",
+  "source": {
+    "jar": "Controlling-neoforge-1.21.1-19.0.5.jar",
+    "sha256": "cc525fb6b030d9e4d33176983f278919e17b33935e2ca568929bdfa98f2b44a0",
+    "bytes": 77555,
+    "entries": 92,
+    "class_files": 42,
+    "language_files": 24,
+    "english_keys": 12,
+    "bundled_korean_keys": 10
+  },
+  "language_review": {
+    "source_keys_reviewed": 12,
+    "bundled_korean_candidates_reviewed": 10,
+    "bundled_korean_candidates_reused": 0,
+    "bundled_korean_candidates_rejected": 10,
+    "project_candidates_retained": 0,
+    "project_candidates_corrected": 12,
+    "newly_translated": 0,
+    "effective_output_keys": 12
+  },
+  "meaning_corrections": {
+    "display_filters": "모두·충돌·미할당 표시 대상을 단축키로 명확화",
+    "unbound_vs_available": "동작에 키가 없는 미할당 단축키와 아무 동작에도 쓰이지 않는 미사용 키를 구분",
+    "sort_order": "이름 기준 A→Z·Z→A와 할당 키 기준 A→Z·Z→A를 구분",
+    "toggle_free": "미할당 키 전환 -> 미사용 키 목록 전환",
+    "confirm_reset": "초기화 대상을 모든 단축키로 명시"
+  },
+  "display_paths": {
+    "class_referenced_language_keys": 12,
+    "available_keys_header_translation_path": "FreeKeysList.HeaderEntry가 ControllingConstants.COMPONENT_OPTIONS_AVAILABLE_KEYS를 사용함을 클래스에서 확인",
+    "advancement_recipe_tag_guide_files": 0,
+    "configuration_files": 0
+  },
+  "related_content": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_reference_files": 0,
+    "kubejs_files_reviewed": 892,
+    "kubejs_reference_files": 0,
+    "installed_mod_jars_reviewed": 480,
+    "installed_english_language_files_reviewed": 388,
+    "other_language_owner_overlaps": 0,
+    "project_language_files_reviewed": 285
+  },
+  "glossary_terms_added": 3,
+  "validation": "passed",
+  "validation_details": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_syntax_and_duplicate_keys": "passed",
+    "keys_types_placeholders_linebreaks_and_format_codes": "passed",
+    "class_translation_fallback_ftbquests_kubejs_and_owner_paths": "passed",
+    "python_compile": "passed",
+    "ruff_format_changed_python": "passed",
+    "ruff_check_all": "passed",
+    "git_diff_check": "passed",
+    "instance_snapshot": "계획한 Controlling 리소스팩 파일 1개만 변경되고 원본 JAR은 변경되지 않음"
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "target_type": "source_root",
+    "target_root": "C:/Users/moon9653nb/Desktop/ATM10_source",
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/controlling/lang/ko_kr.json"
+    ],
+    "controlling_sha256": "c901c83420140a792dca200fef1669f807d78a281d3f14aba84490197fe3d988",
+    "backup_manifest": "temp/backups/20260820_102318_036781/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_changes": 0
+  },
+  "remaining": {
+    "untranslated_language_keys": 0,
+    "manual_translation_review_items": 0,
+    "ftbquests_or_kubejs_translation_review_items": 0,
+    "deferred_target_files": 0
+  }
+}

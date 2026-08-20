@@ -220,6 +220,9 @@
 | Crafting Grid | 제작 칸 | 제작 UI 용어 | Crafting Tweaks 및 제작 화면 | 확정 | 사용자 화면에서는 `제작 격자`, `크래프팅 그리드`와 섞지 않음 |
 | Stack (items) | 한 묶음 | 아이템 수량 단위 | Crafting Tweaks 제작 수량 문구 | 확정 | 이 모드의 단축키와 설명에서는 `스택` 대신 사용하며 코드 식별자는 예외 |
 | Recipe Book | 제작법 책 | Minecraft UI 용어 | 전체 프로젝트 | 확정 | 바닐라 버튼 이름을 `제작 가이드`와 섞지 않음 |
+| Controlling | Controlling | 공식 모드명 | 전체 프로젝트 | 확정 | 단축키 검색 모드명은 뜻 번역이나 음역 없이 유지 |
+| Unbound Key Mapping | 미할당 단축키 | 키 설정 UI 용어 | Controlling 및 키 설정 화면 | 확정 | 동작에 키가 지정되지 않은 상태이며 `미사용 키`와 구분 |
+| Available Key | 미사용 키 | 키 설정 UI 용어 | Controlling 및 키 설정 화면 | 확정 | 어떤 단축키에도 쓰이지 않는 실제 입력 키이며 `미할당 단축키`와 구분 |
 
 ## 5. 보류 용어
 
