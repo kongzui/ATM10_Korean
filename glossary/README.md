@@ -200,6 +200,15 @@
 | Akashic Tome | Akashic Tome | 공식 모드명 | 전체 프로젝트 | 확정 | `어카쉭 톰`처럼 음역하거나 뜻으로 번역하지 않음 |
 | Whitelist / Blacklist | 허용 목록 / 차단 목록 | 필터·설정 용어 | 전체 프로젝트 | 확정 | `화이트리스트`, `블랙리스트`와 섞지 않음 |
 | FTB Ultimine | FTB Ultimine | 공식 모드명 | 전체 프로젝트 | 확정 | `Ultimine` 기능명도 영문 표기를 유지하며 다른 광맥 채굴 기능과 구분 |
+| Corail Tombstone | Corail Tombstone | 공식 모드명 | 전체 프로젝트 | 확정 | `Tombstone`만 쓰거나 모드명을 뜻으로 번역하지 않음 |
+| Decorative Grave | 장식 무덤 | 블록·기능명 | Corail Tombstone 및 관련 퀘스트 | 확정 | `장식용 무덤`, `장식된 무덤`, `장식 묘비`와 섞지 않음 |
+| Grave Soul | 무덤 영혼 | 개체·마법 자원명 | Corail Tombstone 및 관련 퀘스트 | 확정 | 장식 무덤에 깃들어 아이템의 마법을 활성화하는 영혼 |
+| Book of Disenchantment | 마법 해제의 책 | 아이템명 | Corail Tombstone 및 관련 퀘스트 | 확정 | `마법 해제 책`, `환멸의 책`과 섞지 않음 |
+| Magic Scroll | 마법 두루마리 | 아이템 분류명 | Corail Tombstone | 확정 | 같은 모드 안에서 `마법 스크롤`, `마법 주문서`와 섞지 않음 |
+| Main Hand / Offhand | 주 손 / 보조 손 | 장비·조작 용어 | 전체 프로젝트 | 확정 | `주손`, `다른 손`, `오프핸드`와 섞지 않음 |
+| Respawn / Respawn Point | 재생성 / 재생성 지점 | Minecraft 시스템 용어 | 전체 프로젝트 | 확정 | 사용자 표시 문구에서는 `리스폰`과 섞지 않으며 명령 식별자는 예외 |
+| Elytra | 겉날개 | Minecraft 아이템명 | 전체 프로젝트 | 확정 | 공식 한국어 이름을 사용하고 `엘리트라`와 섞지 않음 |
+| Grave's Bee | 무덤 벌 | 개체·퀘스트명 | Productive Bees와 Corail Tombstone 연동 | 확정 | `Grave`를 사람 이름으로 오해한 `그레이브스 벌`을 사용하지 않음 |
 
 ## 5. 보류 용어
 
