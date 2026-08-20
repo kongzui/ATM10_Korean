@@ -197,6 +197,8 @@
 | Modonomicon | Modonomicon | 공식 모드명 | 전체 프로젝트 | 확정 | 뜻으로 번역하거나 한글로 음역하지 않음 |
 | Mark as Read | 읽은 것으로 표시 | 가이드 UI 용어 | Patchouli 및 Modonomicon 기반 가이드 | 확정 | `읽음으로 표시`와 섞지 않음 |
 | Millibucket | mB | 유체 부피 단위 | 전체 프로젝트 | 확정 | 대소문자를 구분하여 `mb`로 쓰지 않음 |
+| Akashic Tome | Akashic Tome | 공식 모드명 | 전체 프로젝트 | 확정 | `어카쉭 톰`처럼 음역하거나 뜻으로 번역하지 않음 |
+| Whitelist / Blacklist | 허용 목록 / 차단 목록 | 필터·설정 용어 | 전체 프로젝트 | 확정 | `화이트리스트`, `블랙리스트`와 섞지 않음 |
 
 ## 5. 보류 용어
 

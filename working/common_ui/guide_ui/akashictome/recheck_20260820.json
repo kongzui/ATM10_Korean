@@ -1,0 +1,96 @@
+{
+  "scope": "Akashic Tome 전체 번역 재검수",
+  "priority_reason": "여러 모드의 가이드북을 한 아이템에서 전환하는 공통 가이드 도구이며 앞서 재검수한 GuideME·Patchouli·Modonomicon 묶음의 마지막 모드",
+  "source": {
+    "jar": "AkashicTome-1.8-30.jar",
+    "sha256": "c60f58fba975fe22681d69bd06dc93818e53a67830d9118167979852206f6ca8",
+    "bytes": 50256,
+    "entries": 53,
+    "class_files": 17,
+    "language_files": 10,
+    "english_keys": 11,
+    "bundled_korean_keys": 3
+  },
+  "language_review": {
+    "source_keys_reviewed": 11,
+    "bundled_korean_candidates_reviewed": 3,
+    "bundled_korean_candidates_reused": 0,
+    "bundled_korean_candidates_rejected": 3,
+    "project_candidates_retained": 8,
+    "project_candidates_corrected": 3,
+    "newly_translated": 0,
+    "effective_output_keys": 11,
+    "harmful_item_block_name_collisions": 0
+  },
+  "display_paths": {
+    "class_referenced_language_keys": 3,
+    "dynamic_item_registry_keys": 1,
+    "configuration_options_reviewed": 7,
+    "configuration_screen_registration_found": true,
+    "recipe_files_reviewed": 2,
+    "hardcoded_untranslatable_display_literals": 0,
+    "resolved_meaning_errors": {
+      "akashictome.click_morph": "모호한 변경 안내를 실제 기능인 책 전환으로 명시",
+      "akashictome.misc.shift_for_info": "SHIFT 키를 누르는 동안 정보가 표시된다는 조건을 자연스럽게 명시",
+      "akashictome.configuration.Hide Book Render": "일반 렌더링이 아니라 선택 화면의 3D 책 모델을 숨기는 옵션으로 명시"
+    }
+  },
+  "related_content": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_reference_files": 0,
+    "ftbquests_owned_display_strings": 0,
+    "kubejs_files_reviewed": 892,
+    "kubejs_reference_files": 0,
+    "kubejs_owned_display_strings": 0,
+    "configuration_reference_files": 2,
+    "configuration_references": [
+      "config/crash_assistant/modlist.json",
+      "config/jei/ingredient-list-mod-sort-order.ini"
+    ],
+    "configuration_reference_classification": "공식 영문 모드명과 로드 순서용 기술 메타데이터이며 별도 한국어 표시 키 없음",
+    "installed_mod_jars_reviewed": 480,
+    "installed_english_language_files_reviewed": 388,
+    "other_language_owner_conflicts": 0,
+    "core_advancement_files": 0,
+    "core_guide_files": 0
+  },
+  "cross_mod_review": {
+    "project_language_files_reviewed": 285,
+    "official_name_rows_reviewed": 2,
+    "harmful_akashic_tome_name_collisions": 0,
+    "resolved_official_name": "어카쉭 톰 -> Akashic Tome",
+    "resolved_filter_terms": "화이트리스트·블랙리스트 -> 허용 목록·차단 목록",
+    "resolved_interaction_term": "Shift-마우스 오른쪽 버튼으로 클릭 -> Shift+우클릭"
+  },
+  "glossary_terms_added": 2,
+  "validation": "passed",
+  "validation_details": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_syntax_and_duplicate_keys": "passed",
+    "keys_types_placeholders_linebreaks_and_format_codes": "passed",
+    "class_config_recipe_and_related_display_paths": "passed",
+    "python_compile": "passed",
+    "ruff_format_changed_python": "passed",
+    "ruff_check_all": "passed",
+    "git_diff_check": "passed",
+    "instance_snapshot": "계획한 Akashic Tome 리소스팩 파일 1개만 변경되고 mods·FTB Quests·KubeJS·config는 변경되지 않음"
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "target_type": "source_root",
+    "target_root": "C:/Users/moon9653nb/Desktop/ATM10_source",
+    "changed_path": "resourcepacks/ATM10_Korean/assets/akashictome/lang/ko_kr.json",
+    "sha256": "96da3401a95d3714476a69a1a3194990a47cf68192a0c6cb71f614045d447167",
+    "backup_manifest": "temp/backups/20260820_092120_919945/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_changes": 0
+  },
+  "remaining": {
+    "untranslated_language_keys": 0,
+    "manual_translation_review_items": 0,
+    "ftbquests_or_kubejs_follow_up_items": 0,
+    "upstream_hardcoded_display_literals": 0
+  }
+}
