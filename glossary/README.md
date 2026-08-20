@@ -224,6 +224,9 @@
 | Unbound Key Mapping | 미할당 단축키 | 키 설정 UI 용어 | Controlling 및 키 설정 화면 | 확정 | 동작에 키가 지정되지 않은 상태이며 `미사용 키`와 구분 |
 | Available Key | 미사용 키 | 키 설정 UI 용어 | Controlling 및 키 설정 화면 | 확정 | 어떤 단축키에도 쓰이지 않는 실제 입력 키이며 `미할당 단축키`와 구분 |
 | Better Advancements | Better Advancements | 공식 모드명 | 전체 프로젝트 | 확정 | 발전 과제 화면 개선 모드명은 뜻 번역이나 음역 없이 유지 |
+| AppleSkin | AppleSkin | 공식 모드명 | 전체 프로젝트 | 확정 | `Apple Skin`, `애플스킨`으로 바꾸지 않음 |
+| Saturation (food) | 포만도 | 음식 시스템 수치 | AppleSkin 및 음식 수치를 직접 표시하는 모드 | 확정 | 상태 효과의 `포만감`, 색상 채도와 구분하며 수치형 음식 속성에 사용 |
+| Food Exhaustion | 허기 소모도 | 음식 시스템 수치 | AppleSkin HUD·디버그 화면 | 확정 | 비용이나 증가량은 문맥에 따라 `허기 소모량`으로 표현 |
 
 ## 5. 보류 용어
 

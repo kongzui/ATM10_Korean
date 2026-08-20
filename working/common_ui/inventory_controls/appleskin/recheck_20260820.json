@@ -1,0 +1,94 @@
+{
+  "scope": "AppleSkin 전체 번역 재검수",
+  "priority_reason": "음식을 들거나 먹을 때 툴팁·허기 바·체력 바·디버그 화면에 항상 관여하는 ATM10 핵심 음식 HUD 모드",
+  "source": {
+    "jar": "appleskin-neoforge-mc1.21-3.0.9.jar",
+    "sha256": "38b48dd6231341c9f964ce6e42c57ec866c6cc8f72bec938390a59bafb3922df",
+    "bytes": 75804,
+    "entries": 78,
+    "class_files": 36,
+    "language_files": 21,
+    "english_keys": 22,
+    "bundled_korean_keys": 12
+  },
+  "language_review": {
+    "source_keys_reviewed": 22,
+    "bundled_korean_candidates_reviewed": 12,
+    "bundled_korean_candidates_reused": 2,
+    "bundled_korean_candidates_rejected": 10,
+    "project_candidates_retained": 6,
+    "project_candidates_corrected": 16,
+    "newly_translated": 0,
+    "effective_output_keys": 22
+  },
+  "meaning_corrections": {
+    "boolean_tooltips": "기계적으로 반복되던 '참이면'을 설정 화면에 자연스러운 '활성화하면'으로 교정",
+    "food_saturation": "음식 수치 문맥의 포화도를 관련 모드와 같은 포만도로 통일",
+    "food_exhaustion": "디버그 화면의 모호한 소모도를 허기 소모도로 명시",
+    "held_food": "음식이 허기를 회복한다는 어색한 문장을 음식으로 회복되는 허기량으로 교정",
+    "underlay": "진행 바를 자연스러운 진행 막대로 교정",
+    "health_overlay": "설정명에서 체력 바 오버레이임을 명시"
+  },
+  "display_paths": {
+    "configuration_options_reviewed": 10,
+    "mod_config_class_option_paths_reviewed": 10,
+    "mod_metadata_paths_reviewed": 2,
+    "advancement_recipe_tag_guide_files": 0,
+    "hardcoded_f3_display_paths_reviewed": 1,
+    "hardcoded_f3_before": "hunger: <값>, sat: <값>, exh: <값>/<최대값>",
+    "hardcoded_f3_after": "허기: <값>, 포만도: <값>, 허기 소모도: <값>/<최대값>",
+    "hardcoded_f3_solution": "클라이언트 환경에서 KubeJS NativeEvents의 LOWEST 우선순위로 AppleSkin이 추가한 한 줄만 값 손실 없이 교체"
+  },
+  "related_content": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_reference_files": 0,
+    "original_kubejs_files_reviewed": 892,
+    "original_kubejs_reference_files": 0,
+    "kubejs_display_overrides_added": 1,
+    "related_mod_term_paths_reviewed": 3,
+    "related_mod_term_note": "Sushi Go Crafting·FancyMenu의 음식 포만도 및 FTB Ultimine의 비용 문맥 허기 소모량과 구분을 확인",
+    "installed_mod_jars_reviewed": 480,
+    "installed_english_language_files_reviewed": 388,
+    "other_language_owner_overlaps": 0,
+    "project_language_files_reviewed": 285
+  },
+  "glossary_terms_added": 3,
+  "validation": "passed",
+  "validation_details": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_syntax_and_duplicate_keys": "passed",
+    "keys_types_numbers_placeholders_linebreaks_and_format_codes": "passed",
+    "config_metadata_hardcoded_f3_ftbquests_kubejs_and_owner_paths": "passed",
+    "kubejs_native_event_priority_signature": "passed",
+    "node_javascript_syntax": "passed",
+    "python_compile": "passed",
+    "ruff_format_changed_python": "passed",
+    "ruff_check_all": "passed",
+    "git_diff_check": "passed",
+    "instance_snapshot": "계획한 AppleSkin 언어 파일과 F3 표시용 KubeJS 스크립트만 변경되고 원본 JAR·KubeJS JAR·설정 파일은 변경되지 않음"
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "target_type": "source_root",
+    "target_root": "C:/Users/moon9653nb/Desktop/ATM10_source",
+    "changed_paths": [
+      "kubejs/startup_scripts/appleskin_debug_labels.js",
+      "resourcepacks/ATM10_Korean/assets/appleskin/lang/ko_kr.json"
+    ],
+    "language_before_sha256": "384acd847181876b1087330c1afd95dd2983bf512e3b95c4a9ba5844399d2ec0",
+    "appleskin_sha256": "82a521ed0f3f235227e0b256c73f69fa193aa97d3ae78654eae2a64708520a76",
+    "debug_script_sha256": "19e1faf838c5bbf60d947cde6cbbab50847b4da627f614dc49afabf3a93361a1",
+    "backup_manifest": "temp/backups/20260820_105022_354411/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_changes": 0
+  },
+  "remaining": {
+    "untranslated_language_keys": 0,
+    "hardcoded_english_display_paths": 0,
+    "manual_translation_review_items": 0,
+    "ftbquests_or_kubejs_translation_review_items": 0,
+    "deferred_target_files": 0
+  }
+}
