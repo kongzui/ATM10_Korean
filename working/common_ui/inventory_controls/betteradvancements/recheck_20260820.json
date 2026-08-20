@@ -1,0 +1,81 @@
+{
+  "scope": "Better Advancements 전체 번역 재검수",
+  "priority_reason": "모든 발전 과제 화면을 대체해 ATM10 진행 중 반복해서 보게 되는 핵심 UI 개선 모드",
+  "source": {
+    "jar": "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+    "sha256": "60b548bef04a2f0e1da686ee9035c2e3d4ed0459a17d7a4836fc26af6de6b60e",
+    "bytes": 98641,
+    "entries": 72,
+    "class_files": 36,
+    "language_files": 2,
+    "english_keys": 1,
+    "bundled_korean_keys": 0
+  },
+  "language_review": {
+    "source_keys_reviewed": 1,
+    "bundled_korean_candidates_reviewed": 0,
+    "bundled_korean_candidates_reused": 0,
+    "bundled_korean_candidates_rejected": 0,
+    "project_candidates_retained": 1,
+    "project_candidates_corrected": 0,
+    "newly_translated": 0,
+    "effective_output_keys": 1
+  },
+  "meaning_review": {
+    "betteradvancements.remaining": "완료 조건까지 남은 수라는 뜻과 %d 자리표시자를 분명히 보존한 기존 번역을 유지"
+  },
+  "display_paths": {
+    "class_referenced_language_keys": 1,
+    "criterion_grid": "CriterionGrid 클래스에서 betteradvancements.remaining 키를 직접 참조함을 확인",
+    "advancement_recipe_tag_guide_files": 0,
+    "configuration_files": 1,
+    "configuration_options_reviewed": 16,
+    "compatibility_display_files_reviewed": 1,
+    "compatibility_note": "Public GUI Announcement 호환 JSON은 화면 클래스·텍스처 매핑뿐이며 번역할 사용자 문구가 없음"
+  },
+  "related_content": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_reference_files": 0,
+    "kubejs_files_reviewed": 892,
+    "kubejs_reference_files": 1,
+    "kubejs_reference_note": "러시아어 리소스팩의 같은 언어 키만 있으며 한국어 표시 문구나 스크립트 직접 문구는 없음",
+    "installed_mod_jars_reviewed": 480,
+    "installed_english_language_files_reviewed": 388,
+    "other_language_owner_overlaps": 0,
+    "project_language_files_reviewed": 285
+  },
+  "glossary_terms_added": 1,
+  "validation": "passed",
+  "validation_details": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_syntax_and_duplicate_keys": "passed",
+    "keys_types_placeholders_linebreaks_and_format_codes": "passed",
+    "class_translation_config_compatibility_ftbquests_kubejs_and_owner_paths": "passed",
+    "python_compile": "passed",
+    "ruff_format_changed_python": "passed",
+    "ruff_check_all": "passed",
+    "git_diff_check": "passed",
+    "instance_snapshot": "계획한 Better Advancements 리소스팩 파일 1개만 변경되고 원본 JAR과 설정 파일은 변경되지 않음"
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "target_type": "source_root",
+    "target_root": "C:/Users/moon9653nb/Desktop/ATM10_source",
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/betteradvancements/lang/ko_kr.json"
+    ],
+    "before_sha256": "98c4c9e26fe6a9b796e3d598cb2f1e97ef780e57da061019c5d47a59b5b33092",
+    "betteradvancements_sha256": "ef8a38beb7df2a2fbd2785f7ed364bdc4dd88a6f1b96749a1070738035cbbefd",
+    "backup_manifest": "temp/backups/20260820_104123_741448/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_changes": 0
+  },
+  "remaining": {
+    "untranslated_language_keys": 0,
+    "manual_translation_review_items": 0,
+    "ftbquests_or_kubejs_translation_review_items": 0,
+    "deferred_target_files": 0
+  }
+}

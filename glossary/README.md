@@ -223,6 +223,7 @@
 | Controlling | Controlling | 공식 모드명 | 전체 프로젝트 | 확정 | 단축키 검색 모드명은 뜻 번역이나 음역 없이 유지 |
 | Unbound Key Mapping | 미할당 단축키 | 키 설정 UI 용어 | Controlling 및 키 설정 화면 | 확정 | 동작에 키가 지정되지 않은 상태이며 `미사용 키`와 구분 |
 | Available Key | 미사용 키 | 키 설정 UI 용어 | Controlling 및 키 설정 화면 | 확정 | 어떤 단축키에도 쓰이지 않는 실제 입력 키이며 `미할당 단축키`와 구분 |
+| Better Advancements | Better Advancements | 공식 모드명 | 전체 프로젝트 | 확정 | 발전 과제 화면 개선 모드명은 뜻 번역이나 음역 없이 유지 |
 
 ## 5. 보류 용어
 
