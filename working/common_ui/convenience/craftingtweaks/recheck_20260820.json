@@ -1,0 +1,86 @@
+{
+  "scope": "Crafting Tweaks 전체 번역 재검수",
+  "priority_reason": "ATM10의 제작대와 여러 대형 제작 칸에서 회전·분배·비우기·압축 기능을 반복해서 사용하는 고빈도 편의 모드",
+  "source": {
+    "jar": "craftingtweaks-neoforge-1.21.1-21.1.10.jar",
+    "sha256": "e3b5e22c2389f7fb8567b0caaaff43fa87f60ae004685de876180226fbbe63b0",
+    "bytes": 256064,
+    "entries": 150,
+    "class_files": 101,
+    "language_files": 10,
+    "english_keys": 40,
+    "bundled_korean_keys": 0
+  },
+  "language_review": {
+    "source_keys_reviewed": 40,
+    "bundled_korean_candidates_reviewed": 0,
+    "project_candidates_retained": 16,
+    "project_candidates_corrected": 24,
+    "newly_translated": 0,
+    "effective_output_keys": 40,
+    "source_equal_official_mod_name": 1
+  },
+  "meaning_corrections": {
+    "rotation": "일반 회전과 반시계 방향 회전의 방향을 명시적으로 구분",
+    "balance_and_spread": "수량 균등 분배와 제작 칸 전체 분산의 동작 차이를 명확화",
+    "item_and_stack": "아이템 1개와 한 묶음 압축·압축 해제를 구분",
+    "refill_last": "마지막 사용 아이템 -> 마지막 제작 재료 보충으로 실제 기능 교정",
+    "transfer_stack": "제작 칸으로 전송 -> 한 묶음을 제작 칸으로 이동",
+    "force_clear": "버림 -> 필요 시 바닥에 떨어뜨림으로 결과 명시",
+    "recipe_book": "제작 가이드 -> Minecraft 제작법 책으로 통일",
+    "disabled_addons": "애드온 상태 -> Crafting Tweaks 모드 연동 비활성화 목록"
+  },
+  "display_paths": {
+    "direct_class_language_keys": 6,
+    "configuration_options_reviewed": 8,
+    "embedded_grid_integrations_reviewed": 12,
+    "ae2_grid_integrations": 2,
+    "extended_crafting_grid_integrations": 8,
+    "simple_storage_network_grid_integrations": 1,
+    "toms_storage_grid_integrations": 1,
+    "advancement_recipe_tag_guide_files": 0
+  },
+  "related_content": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_reference_files": 0,
+    "kubejs_files_reviewed": 892,
+    "kubejs_reference_files": 0,
+    "installed_mod_jars_reviewed": 480,
+    "installed_english_language_files_reviewed": 388,
+    "other_language_owner_conflicts": 0,
+    "project_language_files_reviewed": 285
+  },
+  "glossary_terms_added": 4,
+  "validation": "passed",
+  "validation_details": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_syntax_and_duplicate_keys": "passed",
+    "keys_types_placeholders_linebreaks_format_codes_and_required_literals": "passed",
+    "class_config_embedded_grid_ftbquests_and_kubejs_paths": "passed",
+    "python_compile": "passed",
+    "ruff_format_changed_python": "passed",
+    "ruff_check_all": "passed",
+    "git_diff_check": "passed",
+    "instance_snapshot": "계획한 Crafting Tweaks 리소스팩 파일 1개만 변경되고 원본 JAR과 실제 설정 파일은 변경되지 않음"
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "target_type": "source_root",
+    "target_root": "C:/Users/moon9653nb/Desktop/ATM10_source",
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/craftingtweaks/lang/ko_kr.json"
+    ],
+    "craftingtweaks_sha256": "23038ab497d069195d2e65ca31b2281f358d2570a4cfdc036ca9017c52f257ef",
+    "backup_manifest": "temp/backups/20260820_101907_970207/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_changes": 0
+  },
+  "remaining": {
+    "untranslated_language_keys": 0,
+    "manual_translation_review_items": 0,
+    "ftbquests_or_kubejs_translation_review_items": 0,
+    "deferred_target_files": 0
+  }
+}

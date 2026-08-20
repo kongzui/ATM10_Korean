@@ -216,6 +216,10 @@
 | Structure Piece | 구조물 조각 | 구조물 판정 용어 | Lootr 및 구조물 관련 문구 | 확정 | 구조물 시작점과 별도로 검사하는 개별 구성 조각 |
 | Polymorph | Polymorph | 공식 모드명 | 전체 프로젝트 | 확정 | 제작법 충돌을 선택하는 모드명은 뜻 번역이나 음역 없이 유지 |
 | Recipe Conflict | 제작법 충돌 | 제작·명령 용어 | Polymorph 및 제작법 선택 UI | 확정 | `충돌 가능한 제작법`처럼 충돌 여부가 불명확한 표현을 사용하지 않음 |
+| Crafting Tweaks | Crafting Tweaks | 공식 모드명 | 전체 프로젝트 | 확정 | 뜻 번역이나 음역 없이 공식 표기 유지 |
+| Crafting Grid | 제작 칸 | 제작 UI 용어 | Crafting Tweaks 및 제작 화면 | 확정 | 사용자 화면에서는 `제작 격자`, `크래프팅 그리드`와 섞지 않음 |
+| Stack (items) | 한 묶음 | 아이템 수량 단위 | Crafting Tweaks 제작 수량 문구 | 확정 | 이 모드의 단축키와 설명에서는 `스택` 대신 사용하며 코드 식별자는 예외 |
+| Recipe Book | 제작법 책 | Minecraft UI 용어 | 전체 프로젝트 | 확정 | 바닐라 버튼 이름을 `제작 가이드`와 섞지 않음 |
 
 ## 5. 보류 용어
 
