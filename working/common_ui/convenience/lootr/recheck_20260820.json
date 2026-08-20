@@ -1,0 +1,103 @@
+{
+  "scope": "Lootr 전체 번역 재검수",
+  "priority_reason": "ATM10 탐험에서 개인별 전리품 상자·통·광산 수레를 반복해서 접하는 고빈도 편의 모드",
+  "source": {
+    "jar": "lootr-neoforge-1.21.1-1.11.37.120.jar",
+    "sha256": "f7b80bf86e02a1107fb1600aa6a02608ebcddb140b123a42d5ee199e5db65c8d",
+    "bytes": 976023,
+    "entries": 703,
+    "class_files": 308,
+    "language_files": 32,
+    "english_keys": 217,
+    "bundled_korean_keys": 217
+  },
+  "language_review": {
+    "source_keys_reviewed": 217,
+    "bundled_korean_candidates_reviewed": 217,
+    "bundled_korean_candidates_reused": 61,
+    "bundled_korean_candidates_rejected": 156,
+    "project_candidates_retained": 165,
+    "project_candidates_corrected": 52,
+    "newly_translated": 0,
+    "effective_output_keys": 217,
+    "source_equal_proper_nouns_and_command_syntax": 6,
+    "harmful_block_entity_name_collisions": 0
+  },
+  "display_paths": {
+    "class_referenced_language_keys": 170,
+    "configuration_options_reviewed": 51,
+    "client_config_options_reviewed": 3,
+    "common_config_options_reviewed": 48,
+    "advancement_files_reviewed": 14,
+    "loot_table_files_reviewed": 9,
+    "tag_files_reviewed": 56,
+    "guide_files": 0
+  },
+  "meaning_corrections": {
+    "decorated_loot_pot": "장식된 전리품 단지 -> 전리품이 든 장식된 도자기",
+    "instanced_loot": "개인별로 생성되는 전리품을 세계에 추가하는 기능으로 명확화",
+    "piecewise_check": "각 구조물에서 확인 작업 수행 -> 구조물 시작점뿐 아니라 조각별로 검사",
+    "player_loot_drop": "플레이어 소유 아이템처럼 보이던 문구 -> 플레이어별 전리품 드롭",
+    "decay": "부식·무너짐 혼용 -> 보관함 붕괴로 통일",
+    "refresh": "대상 목록·대기 틱·틱 처리 중 진행과 시작 조건을 구분",
+    "entity": "일반 Entity는 엔티티 -> 개체로 프로젝트 공통 용어 적용",
+    "commands": "조사가 깨질 수 있는 자리표시자 문장 -> 생성 위치와 전리품 테이블 표기 방식으로 교정"
+  },
+  "related_content": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_reference_files": 0,
+    "ftbquests_changes": 0,
+    "kubejs_files_reviewed": 892,
+    "kubejs_reference_files": 1,
+    "kubejs_reference": "kubejs/assets/the_bumblezone/lang/ru_ru.json",
+    "kubejs_korean_display_changes": 0,
+    "bumblezone_related_values_verified": 4,
+    "bumblezone_related_values_changed": 0,
+    "installed_mod_jars_reviewed": 480,
+    "installed_english_language_files_reviewed": 388,
+    "other_language_owner_conflicts": 0
+  },
+  "cross_mod_review": {
+    "project_language_files_reviewed": 285,
+    "harmful_name_collisions": 0,
+    "resolved_official_name": "Lootr 유지",
+    "resolved_container_term": "Lootr Container -> 전리품 보관함",
+    "resolved_instanced_loot_term": "Instanced Loot -> 개인별 전리품",
+    "resolved_entity_term": "일반 Entity -> 개체, Block Entity -> 블록 엔티티",
+    "bumblezone_compatibility": "꿀 고치의 Lootr 호환 문구 4개와 용어 일치 확인"
+  },
+  "glossary_terms_added": 5,
+  "validation": "passed",
+  "validation_details": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_syntax_and_duplicate_keys": "passed",
+    "keys_types_placeholders_linebreaks_and_format_codes": "passed",
+    "class_config_advancement_loot_table_tag_and_kubejs_display_paths": "passed",
+    "ftbquests_direct_reference_check": "passed: 직접 참조 없음",
+    "python_compile": "passed",
+    "ruff_format_changed_python": "passed",
+    "ruff_check_all": "passed",
+    "git_diff_check": "passed",
+    "instance_snapshot": "계획한 Lootr 리소스팩 파일 1개만 변경되고 원본 JAR과 설정 파일 2개는 변경되지 않음"
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "target_type": "source_root",
+    "target_root": "C:/Users/moon9653nb/Desktop/ATM10_source",
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/lootr/lang/ko_kr.json"
+    ],
+    "lootr_sha256": "b649a0115be5bb1416ead6992ed7cb207507025e791f1f8af13f5781364b4d2b",
+    "backup_manifest": "temp/backups/20260820_100958_307103/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_changes": 0
+  },
+  "remaining": {
+    "untranslated_language_keys": 0,
+    "manual_translation_review_items": 0,
+    "ftbquests_or_kubejs_translation_review_items": 0,
+    "deferred_target_files": 0
+  }
+}
