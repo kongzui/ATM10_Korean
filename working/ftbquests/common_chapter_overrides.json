@@ -24,7 +24,7 @@
   ],
   "quest.47043AF7D1FABC43.title": "&l&b마법 해제 방법",
   "quest.77B6A7151B3E5980.quest_desc": [
-    "&a광맥 채굴&r은 제한된 형태의 FTB Ultimine입니다.\\n\\n광석이나 원목을 채굴하면 연결된 같은 종류의 블록도 함께 부서집니다.\\n\\n시간을 많이 아껴 주지만... 우리에게는 FTB Ultimine도 있긴 하죠."
+    "&a광맥 채굴&r은 기능이 제한된 FTB Ultimine입니다.\\n\\n광석이나 원목을 캐면 서로 붙어 있는 같은 종류의 블록도 함께 부서집니다.\\n\\n시간을 많이 아낄 수 있지만... 이미 FTB Ultimine이 있긴 하죠."
   ],
   "quest.7658C1C663394E85.quest_desc": [
     "ATM에는 유용한 명령어가 많습니다. 그중 몇 가지를 소개합니다.\\n\\n&e/sethome&r (집 이름) | 나중에 /home (집 이름)으로 돌아올 수 있는 집을 설정합니다. 예: /sethome farm으로 설정한 뒤 /home farm으로 순간이동할 수 있습니다.\\n\\n&e/spawn&r | 오버월드의 스폰 지점으로 순간이동합니다.\\n\\n&e/rtp&r | 'Random Teleport'의 약자로, 월드의 무작위 위치로 순간이동합니다.\\n\\n참고: 이 명령어에는 재사용 대기시간과 사용 제한이 있습니다. 다음 위치의 설정 파일에서 변경할 수 있습니다.\\n\\n - 싱글 플레이 | &osaves/(월드 이름)/serverconfig/ftbessentials.snbt&r\\n\\n - 서버 | &oworld/serverconfig/ftbessentials.snbt&r"

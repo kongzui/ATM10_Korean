@@ -1,0 +1,109 @@
+{
+  "scope": "FTB Ultimine 전체 번역 재검수",
+  "priority_reason": "ATM10 초반부터 반복해서 사용하는 광역 채굴·우클릭 편의 기능이며 공통 가이드 UI 다음의 고빈도 공통 기능",
+  "source": {
+    "jar": "ftb-ultimine-neoforge-2101.1.15.jar",
+    "sha256": "1393a85ceb6e4794450d5f06043e3a033278e31b86de8e03950d8b87604b2213",
+    "bytes": 177109,
+    "entries": 173,
+    "class_files": 96,
+    "language_files": 10,
+    "english_keys": 89,
+    "bundled_korean_keys": 17
+  },
+  "language_review": {
+    "source_keys_reviewed": 89,
+    "bundled_korean_candidates_reviewed": 17,
+    "bundled_korean_candidates_reused": 8,
+    "bundled_korean_candidates_rejected": 9,
+    "project_candidates_retained": 54,
+    "project_candidates_corrected": 35,
+    "newly_translated": 0,
+    "effective_output_keys": 89,
+    "harmful_item_block_name_collisions": 0
+  },
+  "display_paths": {
+    "class_referenced_language_keys": 26,
+    "dynamic_shape_item_sidebar_and_config_keys": 63,
+    "client_config_options_reviewed": 10,
+    "server_config_options_reviewed": 16,
+    "attribute_config_files_reviewed": 4,
+    "sidebar_button_files_reviewed": 1,
+    "advancement_files": 0,
+    "recipe_files": 0,
+    "guide_files": 0,
+    "hardcoded_config_comments_reviewed": true,
+    "hardcoded_config_comment_classification": "SNBT 주석 생성용 영어이며 게임 내 설정 화면은 언어 키와 툴팁 키를 사용하므로 원본 JAR과 실제 설정 파일은 수정하지 않음"
+  },
+  "meaning_corrections": {
+    "right_click_tools": "여러 블록 파괴 -> 도끼의 껍질 벗기기·밀랍 제거, 괭이의 경작, 삽의 흙길 만들기 우클릭 동작을 여러 블록에 적용",
+    "exhaustion_per_block": "블록당 허기 소모량 -> 채굴 블록당 허기 소모 배수",
+    "preview_line_alpha": "윤곽선 투명도 -> 윤곽선 불투명도",
+    "shape_menu_context_lines": "모양 메뉴 컨텍스트 선 -> 선택한 모양 위아래에 표시할 주변 항목 수",
+    "merge_tags": "형태 없음·형태 있음 -> 모양 없음·모양 있음",
+    "partial_render": "렌더링됨 -> 화면에 표시된 블록 수"
+  },
+  "related_content": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_related_keys": 1,
+    "ftbquests_keys_corrected": 1,
+    "ftbquests_target_key": "quest.77B6A7151B3E5980.quest_desc",
+    "ftbquests_owner": "Mekanism Reactors의 광맥 채굴 유닛 설명",
+    "kubejs_files_reviewed": 892,
+    "kubejs_reference_files": 1,
+    "kubejs_reference": "kubejs/server_scripts/announcements/announcements.js",
+    "kubejs_existing_translation_verified": 1,
+    "configuration_reference_files": 4,
+    "installed_mod_jars_reviewed": 480,
+    "installed_english_language_files_reviewed": 388,
+    "other_language_owner_conflicts": 0
+  },
+  "cross_mod_review": {
+    "project_language_files_reviewed": 285,
+    "harmful_ultiminer_name_collisions": 0,
+    "resolved_official_name": "FTB Ultimine 유지",
+    "resolved_shapeless_term": "형태 없음 -> 모양 없음",
+    "resolved_overlay_scale_term": "오버레이 크기 조정 -> 오버레이 배율",
+    "resolved_cooldown_term": "재사용 대기 시간 -> 재사용 대기시간"
+  },
+  "glossary_terms_added": 1,
+  "validation": "passed",
+  "validation_details": {
+    "dedicated_verifier": "passed",
+    "common_ui_verifier": "passed",
+    "json_and_snbt_syntax_and_duplicate_keys": "passed",
+    "keys_types_placeholders_linebreaks_format_codes_and_quest_numbers": "passed",
+    "class_config_shape_item_sidebar_quest_and_kubejs_display_paths": "passed",
+    "scoped_ftbquests_value_and_structure": "passed",
+    "whole_ftbquests_title_verifier": "not_applicable: 제목 전용 검사기가 현재 누적 산출물의 설명문 변경을 제목 범위 밖 변경으로 분류",
+    "python_compile": "passed",
+    "ruff_format_changed_python": "passed",
+    "ruff_check_all": "passed",
+    "git_diff_check": "passed",
+    "instance_snapshot": "계획한 FTB Ultimine 리소스팩과 공지 스크립트 2개만 변경되고 mods·FTB Quests·config는 변경되지 않음"
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "java_processes": [],
+    "target_type": "source_root",
+    "target_root": "C:/Users/moon9653nb/Desktop/ATM10_source",
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/ftbultimine/lang/ko_kr.json",
+      "kubejs/server_scripts/announcements/announcements.js"
+    ],
+    "language_sha256": "3493ef8e66880c076ee676ea4d0dbd4750726c43a542cc69255f11cb00e8d43b",
+    "quest_sha256": "91d2663aaccd9bd29cec0afc0ca329f46ab738e4718ae53e7f77a2e51c3efc7e",
+    "announcement_sha256": "b930e00a50d2a46fac486887eeaa3c175e055c317ceb1af3e919dd123ad27451",
+    "quest_target_status": "deferred_aggregate_scope",
+    "quest_target_reason": "통합 ko_kr.snbt를 적용하면 이번 모드와 무관한 1,308줄도 함께 변경되므로 프로젝트 산출물 교정까지만 완료",
+    "backup_manifest": "temp/backups/20260820_093523_763206/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_changes": 0
+  },
+  "remaining": {
+    "untranslated_language_keys": 0,
+    "manual_translation_review_items": 0,
+    "ftbquests_or_kubejs_translation_review_items": 0,
+    "deferred_shared_quest_target_files": 1
+  }
+}
