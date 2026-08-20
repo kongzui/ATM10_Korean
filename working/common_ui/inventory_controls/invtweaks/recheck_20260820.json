@@ -1,0 +1,76 @@
+{
+  "scope": "Inventory Tweaks 전체 표시 문구 재검수",
+  "source": {
+    "jar": "invtweaks-1.21.1-1.3.2.jar",
+    "jar_sha256": "ceb5b20a43ca1c5bd707f60bb5d5fa61099c7a7ba50b19f6bddfe93f1ca0073c",
+    "jar_entries": 46,
+    "class_files_reviewed": 22,
+    "language_files_reviewed": 5,
+    "english_keys_reviewed": 4,
+    "bundled_korean_candidates_reviewed": 0
+  },
+  "translation": {
+    "project_candidates_retained": 4,
+    "project_candidates_corrected": 0,
+    "newly_translated": 1,
+    "effective_output_keys": 5,
+    "metadata_fallback_keys": 1,
+    "output_sha256": "798f3e1faede376a7e91ea96ed66c8b3c11d73fa3b5665d818a04c4b9e692cf4"
+  },
+  "display_paths": {
+    "key_mappings_reviewed": 4,
+    "icon_only_sort_buttons_reviewed": 1,
+    "log_only_literals_excluded": 1,
+    "configuration_options_reviewed": 8,
+    "configuration_files_read_only_reviewed": 2,
+    "mod_metadata_descriptions_reviewed": 1
+  },
+  "related_scope": {
+    "ftbquests_files_reviewed": 142,
+    "ftbquests_reference_files": 0,
+    "kubejs_files_reviewed": 894,
+    "kubejs_reference_files": 0,
+    "guide_assets": 0,
+    "related_mod_term_paths_reviewed": 1,
+    "other_language_owner_overlaps": 0
+  },
+  "validation": "passed",
+  "safety_snapshot": {
+    "unchanged_source_files": [
+      {
+        "path": "mods/invtweaks-1.21.1-1.3.2.jar",
+        "bytes": 77127,
+        "sha256": "ceb5b20a43ca1c5bd707f60bb5d5fa61099c7a7ba50b19f6bddfe93f1ca0073c",
+        "last_write_time_utc": "2026-07-05T03:31:32.4736552Z"
+      },
+      {
+        "path": "config/invtweaks-client.toml",
+        "bytes": 19532,
+        "sha256": "7db2a9a1c7e8f7cb78bfec7202a03fe350d11054b74821051ab5d6e2dde3e914",
+        "last_write_time_utc": "2026-07-05T04:05:02.5126693Z"
+      },
+      {
+        "path": "config/invtweaks-client-1.toml.bak",
+        "bytes": 19580,
+        "sha256": "bfd7a47f2a57b89a097dff2472c77c8332b61dc961b995c59bb2766dca480e20",
+        "last_write_time_utc": "2026-07-05T03:29:51.3161962Z"
+      }
+    ]
+  },
+  "application": {
+    "status": "applied_and_verified",
+    "configured_targets": [
+      "source_root"
+    ],
+    "game_root_configured": false,
+    "java_processes": [],
+    "changed_paths": [
+      "resourcepacks/ATM10_Korean/assets/invtweaks/lang/ko_kr.json"
+    ],
+    "invtweaks_sha256": "798f3e1faede376a7e91ea96ed66c8b3c11d73fa3b5665d818a04c4b9e692cf4",
+    "before_sha256": "5515aedb99c26a5fc35d21a6f7149f3763aa236945cef85f716bb569d2499900",
+    "backup_manifest": "temp/backups/20260820_111904_433798/backup_manifest.json",
+    "post_apply_expected_changes": [],
+    "unexpected_changes": 0
+  }
+}

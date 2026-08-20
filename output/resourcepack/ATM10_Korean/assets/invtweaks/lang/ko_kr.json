@@ -2,5 +2,6 @@
   "key.categories.invtweaks": "Inventory Tweaks ReFoxed",
   "key.invtweaks_sort_player.desc": "플레이어 인벤토리 정렬",
   "key.invtweaks_sort_inventory.desc": "외부 인벤토리 정렬",
-  "key.invtweaks_sort_either.desc": "커서 아래의 인벤토리 정렬"
+  "key.invtweaks_sort_either.desc": "커서 아래의 인벤토리 정렬",
+  "fml.menu.mods.info.description.invtweaks": "현대 버전의 Minecraft용 Inventory Tweaks입니다."
 }

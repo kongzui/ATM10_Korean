@@ -30,6 +30,11 @@ GUIDEME_DISPLAY_FALLBACKS = WORK_ROOT / "guide_ui/guideme/display_fallbacks.json
 MODONOMICON_DISPLAY_FALLBACKS = (
     WORK_ROOT / "guide_ui/modonomicon/display_fallbacks.json"
 )
+INVTWEAKS_METADATA_FALLBACKS = {
+    "fml.menu.mods.info.description.invtweaks": (
+        "현대 버전의 Minecraft용 Inventory Tweaks입니다."
+    ),
+}
 CURIOS_SLOT_INTEGRATIONS = (
     PROJECT_ROOT / "working/common_ui/curios_effects/slot_integrations.json"
 )
@@ -586,6 +591,7 @@ def verify_target(
                 "ftbchunks": FTBCHUNKS_CLASS_FALLBACKS,
                 "ftbteams": FTBTEAMS_CLASS_FALLBACKS,
                 "waystones": WAYSTONES_CLASS_FALLBACKS,
+                "invtweaks": INVTWEAKS_METADATA_FALLBACKS,
             }.get(namespace, {})
             expected_keys = [*english, *fallback_values]
             working = WORK_ROOT / target.group / namespace / "ko_kr.json"
