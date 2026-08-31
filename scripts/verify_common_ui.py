@@ -299,6 +299,27 @@ FTBTEAMS_CLASS_FALLBACKS = {
     "sidebar_button.ftbteams.team_lives": "팀 목숨",
 }
 FTBTEAMS_RECHECK_VALUES = {
+    "ftbteams.config.server.limited_lives": "파티 팀 목숨 제한",
+    "ftbteams.config.server.limited_lives.tooltip": (
+        "0보다 크면 파티 팀의 목숨이 제한됩니다:\n"
+        "• 팀원이 죽으면 파티 목숨이 하나 줄어듭니다\n"
+        "• 파티에 남은 목숨이 없을 때 팀원이 죽으면 파티에서 추방됩니다\n"
+        "• 파티 소유자가 죽으면 무작위 팀원이 소유자로 승격됩니다(관리자 우선)\n"
+        "• 남은 목숨이 없는 파티는 새 팀원을 초대할 수 없습니다."
+    ),
+    "ftbteams.config.server.max_party_size": "파티 팀 최대 인원",
+    "ftbteams.config.server.max_party_size.tooltip": (
+        "0보다 크면 파티 팀에 이 수보다 많은 플레이어가 들어갈 수 없습니다.\n"
+        "0이면 팀 인원에 제한이 없습니다.\n"
+        "참고: 이 설정을 바꿀 때 새 제한보다 큰 팀이 서버에 이미 있으면 현재 인원으로 "
+        "계속 활동할 수 있지만 새 팀원을 초대할 수는 없습니다."
+    ),
+    "ftbteams.party_api_only": (
+        "이 모드팩에서는 파티 팀을 직접 생성할 수 없습니다!\n%s"
+    ),
+    "ftbteams.party_full": (
+        "파티가 가득 차 새 플레이어를 추가할 수 없습니다! 최대 인원은 %s명입니다"
+    ),
     "ftbteams.player_already_in_party": "'%s' 플레이어는 이미 파티에 속해 있습니다!",
     "ftbteams.cant_edit": "편집할 수 없습니다: %s",
     "ftbteams.not_member": "%s은(는) %s의 팀원이 아닙니다!",
@@ -343,10 +364,7 @@ FTBTEAMS_QUEST_VALUES = {
     ],
 }
 FTBTEAMS_RELATED_LANGUAGE = re.compile(r"(?i)ftb.?teams|team.?stage")
-FTBTEAMS_OTHER_OWNER_CONFLICTS = {
-    "securitycraft:securitycraft.configuration.enable_team_ownership.tooltip",
-    "securitycraft:securitycraft.configuration.team_ownership_precedence.tooltip",
-}
+FTBTEAMS_OTHER_OWNER_CONFLICTS: set[str] = set()
 WAYSTONES_CLASS_FALLBACKS = {
     "tooltip.waystones.sharestone": "다른 셰어스톤으로 순간이동",
     "tooltip.waystones.visibility": "공개 범위: %s",
@@ -1591,8 +1609,7 @@ def verify_ftbteams_related(instance: Path) -> dict[str, object]:
     if forbidden:
         errors.append(f"FTB Teams 금지·충돌 용어 잔존: {forbidden}")
 
-    source_lang = instance / "config/ftbquests/quests/lang/en_us.snbt"
-    source_quests = parse_language_snbt(source_lang)
+    source_quests, source_quest_layout = load_quest_language(instance, "en_us")
     related_quest_keys = sorted(
         key
         for key, value in source_quests.items()
@@ -1600,8 +1617,8 @@ def verify_ftbteams_related(instance: Path) -> dict[str, object]:
     )
     if related_quest_keys != sorted(FTBTEAMS_QUEST_VALUES):
         errors.append(f"FTB Teams 관련 퀘스트 범위 변경: {related_quest_keys}")
-    quest_output = parse_language_snbt(
-        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+    quest_output, output_quest_layout = load_quest_language(
+        active_output_root() / "overrides", "ko_kr"
     )
     quest_mismatches = sorted(
         key
@@ -1683,7 +1700,7 @@ def verify_ftbteams_related(instance: Path) -> dict[str, object]:
                         other_missing_keys.append(marker)
                     elif re.search(r"FTB 팀", str(translated[key])):
                         other_term_conflicts.append(marker)
-    if (other_language_files, other_owned_keys) != (4, 36):
+    if (other_language_files, other_owned_keys) != (5, 37):
         errors.append(
             "다른 모드 소유 FTB Teams 연동 범위 불일치: "
             f"파일={other_language_files}, 키={other_owned_keys}"
@@ -1763,7 +1780,7 @@ def verify_ftbteams_related(instance: Path) -> dict[str, object]:
         len(sidebar_files),
         translation_api_classes,
     )
-    if inventory != (176, 131, 13, 11, 0, 0, 0, 2, 35):
+    if inventory != (179, 134, 13, 11, 0, 0, 0, 2, 35):
         errors.append(f"FTB Teams JAR 표시 경로 인벤토리 변경: {inventory}")
 
     spacing_mismatches = []
@@ -1809,6 +1826,8 @@ def verify_ftbteams_related(instance: Path) -> dict[str, object]:
         ),
         "external_minecraft_translation_keys_traced": 1,
         "ftbquests_keys_reviewed": len(related_quest_keys),
+        "ftbquests_source_layout": source_quest_layout,
+        "ftbquests_output_layout": output_quest_layout,
         "kubejs_files_reviewed": kubejs_files_reviewed,
         "kubejs_references_reviewed": len(kubejs_refs),
         "other_mod_language_files_traced": other_language_files,

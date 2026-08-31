@@ -1,0 +1,81 @@
+{
+  "status": "8.1_full_recheck_completed_and_deployed",
+  "scope": "ATM10 8.1 FTB Teams 전체 언어와 연동 표시 경로 재검수",
+  "source_jar": {
+    "name": "ftb-teams-neoforge-2101.1.11.jar",
+    "sha256": "e6bcd670493624e6906df872a9c6af4a33fe6405cac57a32c59cd4cd5838c655",
+    "bytes": 308236,
+    "archive_entries": 179,
+    "class_files": 134,
+    "json_files": 13,
+    "language_files": 11
+  },
+  "language": {
+    "source_keys": 112,
+    "bundled_korean_candidate_keys": 27,
+    "unchanged_project_translations_reused": 106,
+    "changed_source_translations_revised": 1,
+    "new_source_translations": 5,
+    "class_fallback_keys": 1,
+    "output_keys": 113,
+    "remaining": 0
+  },
+  "ftbquests": {
+    "source_layout": "split",
+    "output_layout": "split",
+    "related_keys_reviewed": 1,
+    "existing_reviewed_translations_retained": 1,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "kubejs": {
+    "text_files_reviewed": 951,
+    "ftbteams_references": 0,
+    "display_text_references": 0,
+    "corrected": 0,
+    "remaining": 0
+  },
+  "other_mod_owned_integrations": {
+    "language_files_traced": 5,
+    "keys_traced": 37,
+    "securitycraft_terms_corrected": 2,
+    "remaining_term_conflicts": 0,
+    "missing_translations": 0
+  },
+  "other_display_paths": {
+    "recipes": 0,
+    "advancements": 0,
+    "guide_files": 0,
+    "sidebar_json_files_reviewed": 2,
+    "class_files_reviewed": 134,
+    "class_translation_api_classes_reviewed": 35,
+    "external_minecraft_translation_keys_traced": 1,
+    "resourcepack_untranslatable_upstream_literals": 10
+  },
+  "validation": {
+    "source_keys_and_order_match": true,
+    "value_types_match_source": true,
+    "placeholders_preserved": true,
+    "format_codes_preserved": true,
+    "line_breaks_preserved": true,
+    "leading_and_trailing_spaces_preserved": true,
+    "working_output_target_hashes_match": true,
+    "ftbquests_related_paths_checked": true,
+    "kubejs_related_paths_checked": true,
+    "other_mod_key_ownership_traced": true,
+    "jar_class_display_markers_checked": true,
+    "securitycraft_family_verified": true,
+    "validation_errors": 0
+  },
+  "deployment": {
+    "applied": true,
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10 (1)",
+    "selected_paths": 2,
+    "unexpected_changes": 0,
+    "ftbteams_backup_manifest": "temp/backups/20260831_233455_705926/backup_manifest.json",
+    "securitycraft_backup_manifest": "temp/backups/20260831_233707_299279/backup_manifest.json"
+  },
+  "remaining_manual_review": 0,
+  "minecraft_game_screen_verified": false
+}

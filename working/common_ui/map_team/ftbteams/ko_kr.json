@@ -13,6 +13,7 @@
   "ftbteams.lost_a_life": "파티가 목숨을 잃었습니다! 남은 목숨: %s / %s",
   "ftbteams.kicked_no_lives": "파티에 남은 목숨이 없어 사망한 %s 플레이어를 추방했습니다!",
   "ftbteams.disbanded_no_lives": "남은 목숨과 플레이어가 없어 파티가 해산되었습니다!",
+  "ftbteams.party_full": "파티가 가득 차 새 플레이어를 추가할 수 없습니다! 최대 인원은 %s명입니다",
   "ftbteams.server_permissions_prevent": "서버 권한으로 인해 해당 작업을 수행할 수 없습니다.",
   "ftbteams.info.id": "긴 팀 ID: %s",
   "ftbteams.info.short_id": "짧은 팀 ID: %s",
@@ -24,7 +25,7 @@
   "ftbteams.property_not_found": "속성 ID를 찾을 수 없습니다!",
   "ftbteams.owner_cant_leave": "팀을 떠나기 전에 팀 소유권을 이전해야 합니다!",
   "ftbteams.cant_kick_owner": "소유자를 추방할 수 없습니다!",
-  "ftbteams.party_api_only": "이 모드팩에서는 파티 팀을 직접 생성할 수 없습니다!",
+  "ftbteams.party_api_only": "이 모드팩에서는 파티 팀을 직접 생성할 수 없습니다!\n%s",
   "ftbteams.api_override": "이 모드팩에서는 '내 팀' 버튼을 눌러 인벤토리에서만 파티를 생성할 수 있습니다!",
   "ftbteams.missing_data": "서버에서 팀 데이터를 받지 못했습니다!\nFTB Teams가 제대로 작동하지 않습니다.\n서버 로그에서 오류를 확인하고 서버가 온라인 모드인지 확인하세요.",
   "sidebar_button.ftbteams.my_team": "내 팀",
@@ -106,5 +107,9 @@
   "ftbteams.accept": "수락 ✔",
   "ftbteams.decline": "거절 ✘",
   "ftbteams.click_show_info": "클릭하여 팀 정보 표시",
+  "ftbteams.config.server.limited_lives": "파티 팀 목숨 제한",
+  "ftbteams.config.server.limited_lives.tooltip": "0보다 크면 파티 팀의 목숨이 제한됩니다:\n• 팀원이 죽으면 파티 목숨이 하나 줄어듭니다\n• 파티에 남은 목숨이 없을 때 팀원이 죽으면 파티에서 추방됩니다\n• 파티 소유자가 죽으면 무작위 팀원이 소유자로 승격됩니다(관리자 우선)\n• 남은 목숨이 없는 파티는 새 팀원을 초대할 수 없습니다.",
+  "ftbteams.config.server.max_party_size": "파티 팀 최대 인원",
+  "ftbteams.config.server.max_party_size.tooltip": "0보다 크면 파티 팀에 이 수보다 많은 플레이어가 들어갈 수 없습니다.\n0이면 팀 인원에 제한이 없습니다.\n참고: 이 설정을 바꿀 때 새 제한보다 큰 팀이 서버에 이미 있으면 현재 인원으로 계속 활동할 수 있지만 새 팀원을 초대할 수는 없습니다.",
   "sidebar_button.ftbteams.team_lives": "팀 목숨"
 }

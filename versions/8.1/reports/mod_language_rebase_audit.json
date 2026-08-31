@@ -4,15 +4,13 @@
   "translated_output_namespaces": 286,
   "affected_translated_namespaces": 55,
   "review_queue_keys": 2141,
-  "review_queue_missing_output_keys": 800,
-  "current_missing_output_keys": 2920,
+  "review_queue_missing_output_keys": 795,
+  "current_missing_output_keys": 2915,
   "review_queue_source_equal_output_keys": 18,
   "structurally_ready_affected_namespaces": 24,
   "unchanged_reusable_keys": 35319,
   "removed_source_keys": 255,
   "validation_errors": [
-    "ftbteams:ftbteams.party_api_only: 자리표시자 불일치",
-    "ftbteams:ftbteams.party_api_only: 줄바꿈 불일치",
     "industrialforegoing:text.industrialforegoing.book.animal_growth_increaser: 자리표시자 불일치",
     "industrialforegoing:text.industrialforegoing.book.animal_independence_selector: 자리표시자 불일치",
     "industrialforegoing:text.industrialforegoing.book.animal_resource_harvester: 자리표시자 불일치",
@@ -84,7 +82,6 @@
     "the_bumblezone:container.the_bumblezone.crystalline_flower.too_many_enchants: 줄바꿈 불일치"
   ],
   "validation_error_counts": {
-    "ftbteams": 2,
     "industrialforegoing": 57,
     "pneumaticcraft": 1,
     "relics": 2,
@@ -7277,7 +7274,7 @@
       "namespace": "ftbteams",
       "translated_output": true,
       "current_english_keys": 112,
-      "output_korean_keys": 108,
+      "output_korean_keys": 113,
       "unchanged_reusable_keys": 106,
       "unchanged_missing_keys": 0,
       "unchanged_missing_key_names": [],
@@ -7302,22 +7299,10 @@
         "ftbteams.party_api_only",
         "ftbteams.party_full"
       ],
-      "review_queue_missing_output_keys": 5,
-      "review_queue_missing_output_key_names": [
-        "ftbteams.config.server.limited_lives",
-        "ftbteams.config.server.limited_lives.tooltip",
-        "ftbteams.config.server.max_party_size",
-        "ftbteams.config.server.max_party_size.tooltip",
-        "ftbteams.party_full"
-      ],
-      "current_missing_output_keys": 5,
-      "current_missing_output_key_names": [
-        "ftbteams.config.server.limited_lives",
-        "ftbteams.config.server.limited_lives.tooltip",
-        "ftbteams.config.server.max_party_size",
-        "ftbteams.config.server.max_party_size.tooltip",
-        "ftbteams.party_full"
-      ],
+      "review_queue_missing_output_keys": 0,
+      "review_queue_missing_output_key_names": [],
+      "current_missing_output_keys": 0,
+      "current_missing_output_key_names": [],
       "review_queue_source_equal_output_keys": 0,
       "review_queue_source_equal_output_key_names": [],
       "installed_korean_candidates": 0,
@@ -7327,11 +7312,8 @@
       "output_only_key_names": [
         "sidebar_button.ftbteams.team_lives"
       ],
-      "validation_errors": 2,
-      "validation_error_details": [
-        "ftbteams:ftbteams.party_api_only: 자리표시자 불일치",
-        "ftbteams:ftbteams.party_api_only: 줄바꿈 불일치"
-      ],
+      "validation_errors": 0,
+      "validation_error_details": [],
       "current_key_coverage_complete": false,
       "structurally_ready": false,
       "sources": [
