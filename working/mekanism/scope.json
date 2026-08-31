@@ -134,12 +134,12 @@
     },
     {
       "label": "Just Enough Mekanism Multiblocks",
-      "jar": "JustEnoughMekanismMultiblocks-1.21.1-7.15.jar",
+      "jar": "JustEnoughMekanismMultiblocks-1.21.1-7.18.jar",
       "namespace": "jei_mekanism_multiblocks",
       "direct_integration": false,
       "language_target": true,
-      "english_keys": 77,
-      "bundled_korean_keys": 73,
+      "english_keys": 84,
+      "bundled_korean_keys": 80,
       "metadata_mentions_family": [
         "jei_mekanism_multiblocks",
         "mekanism"
@@ -152,11 +152,11 @@
     },
     {
       "label": "MEKMM",
-      "jar": "mekmm-1.21.1-1.3.3.jar",
+      "jar": "mekmm-1.21.1-1.4.1.jar",
       "namespace": "mekmm",
       "direct_integration": false,
       "language_target": true,
-      "english_keys": 558,
+      "english_keys": 702,
       "bundled_korean_keys": 0,
       "metadata_mentions_family": [
         "mekanism",
@@ -166,7 +166,7 @@
       "guide_examples": [],
       "advancements": 0,
       "advancement_examples": [],
-      "recipes": 433
+      "recipes": 501
     },
     {
       "label": "Gravitational Modulating Additional Unit",
@@ -254,9 +254,14 @@
       ]
     },
     {
-      "jar": "uti_afac-1.2.0+1.21.1-neoforge.jar",
+      "jar": "invasiveopts-1.0.23.jar",
       "dependency_mentions": [
-        "appmek",
+        "mekanism"
+      ]
+    },
+    {
+      "jar": "logisticsnetworks-1.21.1-1.13.0.jar",
+      "dependency_mentions": [
         "mekanism"
       ]
     }
@@ -299,16 +304,18 @@
     },
     {
       "label": "Just Enough Mekanism Multiblocks",
-      "jar": "JustEnoughMekanismMultiblocks-1.21.1-7.15.jar",
+      "jar": "JustEnoughMekanismMultiblocks-1.21.1-7.18.jar",
       "namespace": "jei_mekanism_multiblocks",
-      "english_keys": 77,
+      "english_keys": 84,
+      "bundled_ko_kr": 7,
       "project_output_review": 77
     },
     {
       "label": "MEKMM",
-      "jar": "mekmm-1.21.1-1.3.3.jar",
+      "jar": "mekmm-1.21.1-1.4.1.jar",
       "namespace": "mekmm",
-      "english_keys": 558,
+      "english_keys": 702,
+      "new_translation_required": 144,
       "project_output_review": 558
     },
     {

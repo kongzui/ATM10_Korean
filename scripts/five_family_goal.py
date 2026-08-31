@@ -1869,7 +1869,6 @@ MEKANISM_QUEST_TEXT_REPLACEMENTS = {
     ),
     "quest.120572510F525930.quest_desc": (
         ("열증발 플랜트", "열 증발 플랜트"),
-        ("&e소금물&r", "&e염수&r"),
         (
             "베이스는 4x4이고 &6열 증발 블록&r의 4x4뿐입니다",
             "바닥은 4x4 크기이며 &6열 증발 블록&r도 4x4로 배치합니다",
@@ -2604,13 +2603,6 @@ MEKANISM_QUEST_TEXT_REPLACEMENTS = {
         ("가스를 태워서 힘을 얻으세요", "기체를 태워 전력을 생산하세요"),
     ),
     "quest.3EC9D0DA61B45328.title": (("가스발전기", "기체 연소 발전기"),),
-    "quest.2F4458E9921DEB86.quest_desc": (
-        ("&a가스&r 형태의 마지막 물질 상태", "&a화학 물질&r이라는 별도 전송 형식"),
-        ("&a가스&r는 다른", "&a화학 물질&r은 다른"),
-        ("&a가스 파이프&r", "&a화학 물질 파이프&r"),
-        ("&a가스&r인지", "&a화학 물질&r인지"),
-        ("&a가스&r 또는 &b액체&r", "&a화학 물질&r 또는 &b액체&r"),
-    ),
 }
 
 MEKANISM_CUSTOM_NAMES = {
@@ -2956,7 +2948,7 @@ MEKANISM_KEY_OVERRIDES = {
         "대기 가스 수집기로 수집합니다(%1$s mB/t). 기계 위에는 블록을 놓지 마세요."
     ),
     "item.refinedstorage_mekanism_integration.chemical_storage_disk.help": (
-        "%s버킷을 저장합니다. 비어 있을 때 손에 들고 사용하면 화학 물질 저장 부품을 "
+        "%s 버킷을 저장합니다. 비어 있을 때 손에 들고 사용하면 화학 물질 저장 부품을 "
         "돌려받습니다. 화학 물질 저장 부품과 조합해 더 높은 등급으로 업그레이드할 수 "
         "있습니다."
     ),
@@ -2964,7 +2956,7 @@ MEKANISM_KEY_OVERRIDES = {
         "버킷을 무한히 저장합니다."
     ),
     "item.refinedstorage_mekanism_integration.chemical_storage_block.help": (
-        "%s버킷을 저장합니다. 비어 있을 때 손에 들고 사용하면 화학 물질 저장 부품과 "
+        "%s 버킷을 저장합니다. 비어 있을 때 손에 들고 사용하면 화학 물질 저장 부품과 "
         "기계 케이싱을 돌려받습니다. 화학 물질 저장 부품과 조합해 더 높은 등급으로 "
         "업그레이드할 수 있습니다."
     ),
@@ -2990,6 +2982,275 @@ MEKANISM_KEY_OVERRIDES = {
         "화학 물질 저장 블록 설정입니다."
     ),
 }
+
+MEKMM_81_KEY_OVERRIDES = {
+    "block.mekanism.deepslate_silver_ore": "심층암 은 광석",
+    "block.mekanism.silver_ore": "은 광석",
+    "block.mekmm.advanced_pressing_factory": "고급 압착 시스템",
+    "block.mekmm.basic_pressing_factory": "기본 압착 시스템",
+    "block.mekmm.block_raw_silver": "은 원석 블록",
+    "block.mekmm.block_silver": "은 블록",
+    "block.mekmm.creative_pressing_factory": "크리에이티브 압착 시스템",
+    "block.mekmm.deepslate_silver_ore": "심층암 은 광석",
+    "block.mekmm.dense_pressing_factory": "고밀도 압착 시스템",
+    "block.mekmm.elite_pressing_factory": "엘리트 압착 시스템",
+    "block.mekmm.multiversal_pressing_factory": "다중우주 압착 시스템",
+    "block.mekmm.overclocked_pressing_factory": "오버클럭 압착 시스템",
+    "block.mekmm.presser": "압착기",
+    "block.mekmm.quantum_pressing_factory": "양자 압착 시스템",
+    "block.mekmm.silver_ore": "은 광석",
+    "block.mekmm.solar_heat_generator": "태양열 발전기",
+    "block.mekmm.ultimate_pressing_factory": "궁극 압착 시스템",
+    "chemical.mekmm.clean_silver": "순수한 은 슬러리",
+    "chemical.mekmm.dirty_silver": "불순물이 섞인 은 슬러리",
+    "configuration.mekanism.world.silver.generate": "생성 여부",
+    "configuration.mekanism.world.silver.generate.tooltip": (
+        "은 광석을 월드 생성에 추가할지 결정합니다."
+    ),
+    "configuration.mekanism.world.silver.large.discard_chance": "폐기 확률",
+    "configuration.mekanism.world.silver.large.discard_chance.tooltip": (
+        "대형 은 광맥에서 공기에 직접 노출된 블록이 배치되지 않을 확률입니다."
+    ),
+    "configuration.mekanism.world.silver.large.generate": "생성 여부",
+    "configuration.mekanism.world.silver.large.generate.tooltip": (
+        "대형 은 광맥을 월드 생성에 추가할지 결정합니다. 참고: 은 광석 생성이 "
+        "활성화되어 있어야 합니다."
+    ),
+    "configuration.mekanism.world.silver.large.max": "최대 앵커",
+    "configuration.mekanism.world.silver.large.max.button": "최대 앵커 편집",
+    "configuration.mekanism.world.silver.large.max.tooltip": (
+        "대형 은 광맥의 최대(포함) 높이 앵커입니다. 대형 은 광맥이 생성될 수 있는 "
+        "최대 Y 높이를 정합니다."
+    ),
+    "configuration.mekanism.world.silver.large.max_size": "최대 크기",
+    "configuration.mekanism.world.silver.large.max_size.tooltip": (
+        "대형 은 광맥의 최대 블록 수입니다."
+    ),
+    "configuration.mekanism.world.silver.large.min": "최소 앵커",
+    "configuration.mekanism.world.silver.large.min.button": "최소 앵커 편집",
+    "configuration.mekanism.world.silver.large.min.tooltip": (
+        "대형 은 광맥의 최소(포함) 높이 앵커입니다. 대형 은 광맥이 생성될 수 있는 "
+        "최소 Y 높이를 정합니다."
+    ),
+    "configuration.mekanism.world.silver.large.per_chunk": "청크당",
+    "configuration.mekanism.world.silver.large.per_chunk.tooltip": (
+        "대형 은 광맥이 청크에서 생성될 확률입니다."
+    ),
+    "configuration.mekanism.world.silver.large.shape": "분포 모양",
+    "configuration.mekanism.world.silver.large.shape.tooltip": (
+        "대형 은 광맥을 배치할 때 사용할 분포 모양입니다."
+    ),
+    "configuration.mekanism.world.silver.large.top_level": "대형 광맥",
+    "configuration.mekanism.world.silver.large.top_level.button": "대형 광맥 편집",
+    "configuration.mekanism.world.silver.large.top_level.tooltip": (
+        "대형 은 광맥 생성 설정입니다."
+    ),
+    "configuration.mekanism.world.silver.small.discard_chance": "폐기 확률",
+    "configuration.mekanism.world.silver.small.discard_chance.tooltip": (
+        "작은 은 광맥에서 공기에 직접 노출된 블록이 배치되지 않을 확률입니다."
+    ),
+    "configuration.mekanism.world.silver.small.generate": "생성 여부",
+    "configuration.mekanism.world.silver.small.generate.tooltip": (
+        "작은 은 광맥을 월드 생성에 추가할지 결정합니다. 참고: 은 광석 생성이 "
+        "활성화되어 있어야 합니다."
+    ),
+    "configuration.mekanism.world.silver.small.max": "최대 앵커",
+    "configuration.mekanism.world.silver.small.max.button": "최대 앵커 편집",
+    "configuration.mekanism.world.silver.small.max.tooltip": (
+        "작은 은 광맥의 최대(포함) 높이 앵커입니다. 작은 은 광맥이 생성될 수 있는 "
+        "최대 Y 높이를 정합니다."
+    ),
+    "configuration.mekanism.world.silver.small.max_size": "최대 크기",
+    "configuration.mekanism.world.silver.small.max_size.tooltip": (
+        "작은 은 광맥의 최대 블록 수입니다."
+    ),
+    "configuration.mekanism.world.silver.small.min": "최소 앵커",
+    "configuration.mekanism.world.silver.small.min.button": "최소 앵커 편집",
+    "configuration.mekanism.world.silver.small.min.tooltip": (
+        "작은 은 광맥의 최소(포함) 높이 앵커입니다. 작은 은 광맥이 생성될 수 있는 "
+        "최소 Y 높이를 정합니다."
+    ),
+    "configuration.mekanism.world.silver.small.per_chunk": "청크당",
+    "configuration.mekanism.world.silver.small.per_chunk.tooltip": (
+        "작은 은 광맥이 청크에서 생성될 확률입니다."
+    ),
+    "configuration.mekanism.world.silver.small.shape": "분포 모양",
+    "configuration.mekanism.world.silver.small.shape.tooltip": (
+        "작은 은 광맥을 배치할 때 사용할 분포 모양입니다."
+    ),
+    "configuration.mekanism.world.silver.small.top_level": "작은 광맥",
+    "configuration.mekanism.world.silver.small.top_level.button": "작은 광맥 편집",
+    "configuration.mekanism.world.silver.small.top_level.tooltip": (
+        "작은 은 광맥 생성 설정입니다."
+    ),
+    "configuration.mekanism.world.silver.top_level": "은 생성 설정",
+    "configuration.mekanism.world.silver.top_level.button": "은 설정 편집",
+    "configuration.mekanism.world.silver.top_level.tooltip": "은 광석 생성 설정입니다.",
+    "configuration.mekmm.server.generator.solar_heat": "태양열 발전기",
+    "configuration.mekmm.server.generator.solar_heat.button": "태양열 발전기 편집",
+    "configuration.mekmm.server.generator.solar_heat.heat_gain_per_reflector": (
+        "반사판당 열 획득량"
+    ),
+    "configuration.mekmm.server.generator.solar_heat.heat_gain_per_reflector.tooltip": (
+        "햇빛이 최대일 때 반사판 하나에서 틱당 얻는 열입니다."
+    ),
+    "configuration.mekmm.server.generator.solar_heat.rated_temperature": (
+        "정격 발전 온도"
+    ),
+    "configuration.mekmm.server.generator.solar_heat.rated_temperature.tooltip": (
+        "발전 열 계수가 1에 도달하는 온도(K)입니다."
+    ),
+    "configuration.mekmm.server.generator.solar_heat.reflector_damage_rate": (
+        "반사판 손상 속도"
+    ),
+    "configuration.mekmm.server.generator.solar_heat.reflector_damage_rate.tooltip": (
+        "반사판 손상 임계값을 초과한 온도 1K당 매 틱 소모되는 반사판 내구도입니다."
+    ),
+    "configuration.mekmm.server.generator.solar_heat.reflector_damage_threshold": (
+        "반사판 손상 임계값"
+    ),
+    "configuration.mekmm.server.generator.solar_heat.reflector_damage_threshold.tooltip": (
+        "반사판 내구도가 소모되기 시작하는 온도(K)입니다."
+    ),
+    "configuration.mekmm.server.generator.solar_heat.target_conversion_temperature": (
+        "목표 변환 온도"
+    ),
+    "configuration.mekmm.server.generator.solar_heat.target_conversion_temperature.tooltip": (
+        "냉각재 열전달이 시작되는 온도(K)입니다."
+    ),
+    "configuration.mekmm.server.generator.solar_heat.tooltip": (
+        "태양열 발전기 설정입니다."
+    ),
+    "configuration.mekmm.server.generator.wind": "대형 풍력 발전기",
+    "configuration.mekmm.server.generator.wind.button": "대형 풍력 발전기 편집",
+    "configuration.mekmm.server.generator.wind.gen.max": "최대 에너지 생산량",
+    "configuration.mekmm.server.generator.wind.gen.max.tooltip": (
+        "대형 풍력 발전기가 생산할 수 있는 최대 에너지(J/t)입니다."
+    ),
+    "configuration.mekmm.server.generator.wind.gen.min": "최소 에너지 생산량",
+    "configuration.mekmm.server.generator.wind.gen.min.tooltip": (
+        "대형 풍력 발전기가 생산할 수 있는 최소 에너지(J/t)입니다."
+    ),
+    "configuration.mekmm.server.generator.wind.tooltip": "풍력 발전기 설정입니다.",
+    "configuration.mekmm.startup.wireless_transmission_station.chemical_tank_capacity": (
+        "무선 전송 스테이션 화학 물질 탱크 용량"
+    ),
+    "configuration.mekmm.startup.wireless_transmission_station.chemical_tank_capacity.button": (
+        "무선 전송 스테이션 화학 물질 탱크 용량 편집"
+    ),
+    "configuration.mekmm.startup.wireless_transmission_station.chemical_tank_capacity.tooltip": (
+        "무선 전송 스테이션 화학 물질 탱크의 용량(mB)입니다."
+    ),
+    "configuration.mekmm.startup.wireless_transmission_station.fluid_tank_capacity": (
+        "무선 전송 스테이션 유체 탱크 용량"
+    ),
+    "configuration.mekmm.startup.wireless_transmission_station.fluid_tank_capacity.button": (
+        "무선 전송 스테이션 유체 탱크 용량 편집"
+    ),
+    "configuration.mekmm.startup.wireless_transmission_station.fluid_tank_capacity.tooltip": (
+        "무선 전송 스테이션 유체 탱크의 용량(mB)입니다."
+    ),
+    "configuration.mekmm.startup.wireless_transmission_station.tank_capacity": (
+        "무선 전송 스테이션 탱크 용량"
+    ),
+    "configuration.mekmm.startup.wireless_transmission_station.tank_capacity.button": (
+        "무선 전송 스테이션 탱크 용량 편집"
+    ),
+    "configuration.mekmm.startup.wireless_transmission_station.tank_capacity.tooltip": (
+        "무선 전송 스테이션의 탱크 용량 설정입니다."
+    ),
+    "configuration.mekmm.storage.large_wind_generator.energy": (
+        "대형 풍력 발전기 에너지 저장소"
+    ),
+    "configuration.mekmm.storage.large_wind_generator.energy.tooltip": (
+        "대형 풍력 발전기의 기본 에너지 저장량(J)입니다."
+    ),
+    "configuration.mekmm.storage.presser.energy": "압착기 에너지 저장소",
+    "configuration.mekmm.storage.presser.energy.tooltip": (
+        "압착기의 기본 에너지 저장량(J)입니다."
+    ),
+    "configuration.mekmm.storage.solar_heat_generator.energy": (
+        "태양열 발전기 에너지 저장소"
+    ),
+    "configuration.mekmm.storage.solar_heat_generator.energy.tooltip": (
+        "태양열 발전기의 기본 에너지 저장량(J)입니다."
+    ),
+    "configuration.mekmm.usage.presser.energy": "압착기 에너지 사용량",
+    "configuration.mekmm.usage.presser.energy.tooltip": (
+        "압착기의 작업당 에너지 사용량(J)입니다."
+    ),
+    "container.mekmm.advanced_pressing_factory": "고급 압착 시스템",
+    "container.mekmm.basic_pressing_factory": "기본 압착 시스템",
+    "container.mekmm.creative_pressing_factory": "크리에이티브 압착 시스템",
+    "container.mekmm.dense_pressing_factory": "고밀도 압착 시스템",
+    "container.mekmm.elite_pressing_factory": "엘리트 압착 시스템",
+    "container.mekmm.multiversal_pressing_factory": "다중우주 압착 시스템",
+    "container.mekmm.overclocked_pressing_factory": "오버클럭 압착 시스템",
+    "container.mekmm.presser": "압착기",
+    "container.mekmm.quantum_pressing_factory": "양자 압착 시스템",
+    "container.mekmm.solar_heat_generator": "태양열 발전기",
+    "container.mekmm.ultimate_pressing_factory": "궁극 압착 시스템",
+    "description.mekanism.silver_ore": "전도성이 뛰어난 재료입니다.",
+    "description.mekmm.presser": "여러 아이템을 하나로 압착하는 기계입니다.",
+    "factory.mekmm.pressing": "압착",
+    "gui.mekmm.solar_heat.coolant_conversion_rate": "냉각재 변환 속도: %s",
+    "gui.mekmm.solar_heat.reflector_damage": "반사판 손상: %s/t",
+    "item.mekmm.clump_silver": "은 덩어리",
+    "item.mekmm.crystal_silver": "은 결정",
+    "item.mekmm.dirty_dust_silver": "불순물이 섞인 은 가루",
+    "item.mekmm.dust_silver": "은 가루",
+    "item.mekmm.enriched_silver": "농축 은",
+    "item.mekmm.ingot_silver": "은 주괴",
+    "item.mekmm.nugget_silver": "은 조각",
+    "item.mekmm.raw_silver": "은 원석",
+    "item.mekmm.reflector": "반사판",
+    "item.mekmm.shard_silver": "은 파편",
+    "large_wind_generator.mekmm.inactive": "기계가 활성화되지 않음",
+    "large_wind_generator.mekmm.same_block_nearby": "같은 기계에 둘러싸여 있음",
+    "mekmm.configuration.section.mekanismmoremachine.startup.toml": "시작 설정",
+    "mekmm.configuration.section.mekanismmoremachine.startup.toml.title": (
+        "Mekanism: MoreMachine - 시작 설정"
+    ),
+    "tag.block.c.ores.silver": "은 광석",
+    "tag.block.c.storage_blocks.raw_silver": "은 원석 저장 블록",
+    "tag.block.c.storage_blocks.silver": "은 저장 블록",
+    "tag.item.c.clumps.silver": "은 덩어리",
+    "tag.item.c.crystals.silver": "은 결정",
+    "tag.item.c.dirty_dusts.silver": "불순물이 섞인 은 가루",
+    "tag.item.c.dusts.silver": "은 가루",
+    "tag.item.c.enriched.silver": "농축 은",
+    "tag.item.c.ingots.silver": "은 주괴",
+    "tag.item.c.nuggets.silver": "은 조각",
+    "tag.item.c.ores.silver": "은 광석",
+    "tag.item.c.raw_materials.silver": "은 원석",
+    "tag.item.c.shards.silver": "은 파편",
+    "tag.item.c.storage_blocks.raw_silver": "은 원석 저장 블록",
+    "tag.item.c.storage_blocks.silver": "은 저장 블록",
+}
+MEKANISM_KEY_OVERRIDES.update(MEKMM_81_KEY_OVERRIDES)
+
+JEMM_81_KEY_OVERRIDES = {
+    "text.jei_mekanism_multiblocks.result.required_heater_usage": (
+        "필요한 히터 사용량"
+    ),
+    "text.jei_mekanism_multiblocks.tooltip.heater_near_and_1_sink_1": ("'%1$s'을(를)"),
+    "text.jei_mekanism_multiblocks.tooltip.heater_near_and_1_sink_2": (
+        "'%2$s' 바로 옆에 설치해야 합니다."
+    ),
+    "text.jei_mekanism_multiblocks.tooltip.max_damage_ticks": (
+        "손상도가 0%%에서 100%%가 되는 시간: %s틱"
+    ),
+    "text.jei_mekanism_multiblocks.tooltip.required_heater_usage.coldest": (
+        "가장 추운 생물 군계: %s"
+    ),
+    "text.jei_mekanism_multiblocks.tooltip.required_heater_usage.hottest": (
+        "가장 더운 생물 군계: %s"
+    ),
+    "text.jei_mekanism_multiblocks.tooltip.required_heater_usage.plain": (
+        "평원 생물 군계: %s"
+    ),
+}
+MEKANISM_KEY_OVERRIDES.update(JEMM_81_KEY_OVERRIDES)
 
 
 def sha256(path: Path) -> str:
@@ -4071,6 +4332,7 @@ def normalize_mekanism_value(key: str, english: str, korean: str) -> str:
             rf"{re.escape(old)}(?![A-Za-z])"
         )
         korean = re.sub(pattern, lambda match: match.group(1) + new, korean)
+    korean = korean.replace("Refined 유형", "Refined Types")
     korean = re.sub(r"단계 ([1-9])", r"\1단계", korean)
     korean = korean.replace("Tier ", "단계 ")
     return korean

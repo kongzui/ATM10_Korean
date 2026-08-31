@@ -3,18 +3,15 @@
   "chapters": {
     "mekanism": {
       "display_keys": 235,
-      "new_translation_required": 1,
-      "project_output_review": 234
+      "project_output_review": 235
     },
     "mekanism_reactors": {
-      "display_keys": 251,
-      "new_translation_required": 1,
-      "project_output_review": 250
+      "display_keys": 233,
+      "project_output_review": 233
     },
     "related": {
       "display_keys": 86,
-      "new_translation_required": 2,
-      "project_output_review": 84
+      "project_output_review": 86
     }
   }
 }

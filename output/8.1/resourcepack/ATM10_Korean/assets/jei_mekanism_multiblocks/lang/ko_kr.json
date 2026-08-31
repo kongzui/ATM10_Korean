@@ -63,6 +63,7 @@
   "text.jei_mekanism_multiblocks.result.supercharging_elements": "초충전 소자: %s",
   "text.jei_mekanism_multiblocks.result.processing_speed": "처리 속도",
   "text.jei_mekanism_multiblocks.result.boil_efficiency": "비등 효율",
+  "text.jei_mekanism_multiblocks.result.required_heater_usage": "필요한 히터 사용량",
   "text.jei_mekanism_multiblocks.tooltip.click_normal": "클릭: %s",
   "text.jei_mekanism_multiblocks.tooltip.click_shift": "SHIFT+클릭: %s",
   "text.jei_mekanism_multiblocks.tooltip.warning": "※ 경고",
@@ -72,8 +73,14 @@
   "text.jei_mekanism_multiblocks.tooltip.when_burn_rate": "'연소 속도'가 %s일 때.",
   "text.jei_mekanism_multiblocks.tooltip.when_temp_ge": "'온도'가 %s 이상일 때.",
   "text.jei_mekanism_multiblocks.tooltip.reactor_will_damage": "원자로가 피해를 입습니다.",
+  "text.jei_mekanism_multiblocks.tooltip.max_damage_ticks": "손상도가 0%%에서 100%%가 되는 시간: %s틱",
   "text.jei_mekanism_multiblocks.tooltip.water_will_losing": "물이 손실됩니다.",
   "text.jei_mekanism_multiblocks.tooltip.need_more": "'%s'이(가) 더 필요합니다.",
   "text.jei_mekanism_multiblocks.tooltip.production_per_flow": "유체당 생산량: %s.",
-  "text.jei_mekanism_multiblocks.tooltip.need_set_injection_rate": "핵융합로의 '주입 속도'를 %s(으)로 설정해야 합니다."
+  "text.jei_mekanism_multiblocks.tooltip.need_set_injection_rate": "핵융합로의 '주입 속도'를 %s(으)로 설정해야 합니다.",
+  "text.jei_mekanism_multiblocks.tooltip.required_heater_usage.plain": "평원 생물 군계: %s",
+  "text.jei_mekanism_multiblocks.tooltip.required_heater_usage.coldest": "가장 추운 생물 군계: %s",
+  "text.jei_mekanism_multiblocks.tooltip.required_heater_usage.hottest": "가장 더운 생물 군계: %s",
+  "text.jei_mekanism_multiblocks.tooltip.heater_near_and_1_sink_1": "'%1$s'을(를)",
+  "text.jei_mekanism_multiblocks.tooltip.heater_near_and_1_sink_2": "'%2$s' 바로 옆에 설치해야 합니다."
 }

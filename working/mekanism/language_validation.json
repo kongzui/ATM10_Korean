@@ -81,10 +81,10 @@
     },
     {
       "label": "Just Enough Mekanism Multiblocks",
-      "jar": "JustEnoughMekanismMultiblocks-1.21.1-7.15.jar",
+      "jar": "JustEnoughMekanismMultiblocks-1.21.1-7.18.jar",
       "namespace": "jei_mekanism_multiblocks",
-      "english_keys": 77,
-      "korean_keys": 77,
+      "english_keys": 84,
+      "korean_keys": 84,
       "untranslated": 0,
       "untranslated_examples": [],
       "duplicate_keys": 0,
@@ -92,15 +92,16 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "bundled_exact_reuse": 63,
-      "project_output_reuse": 14
+      "bundled_exact_reuse": 64,
+      "project_output_reuse": 13,
+      "new_or_edited": 7
     },
     {
       "label": "MEKMM",
-      "jar": "mekmm-1.21.1-1.3.3.jar",
+      "jar": "mekmm-1.21.1-1.4.1.jar",
       "namespace": "mekmm",
-      "english_keys": 558,
-      "korean_keys": 558,
+      "english_keys": 702,
+      "korean_keys": 702,
       "untranslated": 0,
       "untranslated_examples": [],
       "duplicate_keys": 0,
@@ -108,7 +109,8 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "project_output_reuse": 558
+      "project_output_reuse": 558,
+      "new_or_edited": 144
     },
     {
       "label": "Gravitational Modulating Additional Unit",
@@ -159,9 +161,9 @@
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 2168,
-    "project_output_reuse": 2949,
-    "new_or_edited": 0
+    "bundled_exact_reuse": 2169,
+    "project_output_reuse": 2948,
+    "new_or_edited": 151
   },
   "ftbquests": {
     "chapters": [
@@ -170,8 +172,8 @@
     ],
     "quests_checked": 184,
     "tasks_checked": 291,
-    "display_keys_checked": 572,
-    "source_english_custom_names": 0,
+    "display_keys_checked": 554,
+    "source_english_custom_names": 11,
     "unresolved_english_custom_names": 0,
     "explicit_task_titles": 24,
     "source_redundant_single_item_task_titles": 0,

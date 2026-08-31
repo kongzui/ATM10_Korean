@@ -63,6 +63,7 @@
   "text.jei_mekanism_multiblocks.result.supercharging_elements": "project_output_review",
   "text.jei_mekanism_multiblocks.result.processing_speed": "project_output_review",
   "text.jei_mekanism_multiblocks.result.boil_efficiency": "project_output_review",
+  "text.jei_mekanism_multiblocks.result.required_heater_usage": "bundled_ko_kr",
   "text.jei_mekanism_multiblocks.tooltip.click_normal": "project_output_review",
   "text.jei_mekanism_multiblocks.tooltip.click_shift": "project_output_review",
   "text.jei_mekanism_multiblocks.tooltip.warning": "project_output_review",
@@ -72,8 +73,14 @@
   "text.jei_mekanism_multiblocks.tooltip.when_burn_rate": "project_output_review",
   "text.jei_mekanism_multiblocks.tooltip.when_temp_ge": "project_output_review",
   "text.jei_mekanism_multiblocks.tooltip.reactor_will_damage": "project_output_review",
+  "text.jei_mekanism_multiblocks.tooltip.max_damage_ticks": "bundled_ko_kr",
   "text.jei_mekanism_multiblocks.tooltip.water_will_losing": "project_output_review",
   "text.jei_mekanism_multiblocks.tooltip.need_more": "project_output_review",
   "text.jei_mekanism_multiblocks.tooltip.production_per_flow": "project_output_review",
-  "text.jei_mekanism_multiblocks.tooltip.need_set_injection_rate": "project_output_review"
+  "text.jei_mekanism_multiblocks.tooltip.need_set_injection_rate": "project_output_review",
+  "text.jei_mekanism_multiblocks.tooltip.required_heater_usage.plain": "bundled_ko_kr",
+  "text.jei_mekanism_multiblocks.tooltip.required_heater_usage.coldest": "bundled_ko_kr",
+  "text.jei_mekanism_multiblocks.tooltip.required_heater_usage.hottest": "bundled_ko_kr",
+  "text.jei_mekanism_multiblocks.tooltip.heater_near_and_1_sink_1": "bundled_ko_kr",
+  "text.jei_mekanism_multiblocks.tooltip.heater_near_and_1_sink_2": "bundled_ko_kr"
 }
