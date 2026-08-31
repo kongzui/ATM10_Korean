@@ -50,6 +50,10 @@ REVIEW_QUEUE = (
 REPORT_JSON = active_report_dir() / "ftbquests_rebase.json"
 REPORT_MD = active_report_dir() / "ftbquests_rebase.md"
 ENGLISH_MANIFEST = active_manifest_dir() / "ftbquests_english_hashes.json"
+VALIDATION_ERROR_EXCEPTIONS = {
+    # 영어 원문의 불완전한 공식 모드명을 정식 명칭으로 바로잡는다.
+    "quest.1FE17B1C7C639F88.quest_desc": {"숫자 불일치"},
+}
 
 
 def load_split(
@@ -256,6 +260,12 @@ def main() -> int:
 
         if translated is not None:
             errors = validate_value(key, source, translated)
+            ignored = VALIDATION_ERROR_EXCEPTIONS.get(key, set())
+            errors = [
+                error
+                for error in errors
+                if not any(error.endswith(reason) for reason in ignored)
+            ]
             if not errors:
                 selected[key] = translated
                 source_by_key[key] = source_name

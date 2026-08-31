@@ -15,10 +15,38 @@ from version_context import active_output_root
 
 WORK_FILE = PROJECT_ROOT / "working/sophisticated/quests/storage/ko_kr.json"
 OUTPUT_FILE = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_SPLIT = OUTPUT_FILE.with_suffix("")
 NAMESPACE_RE = re.compile(
     r"sophisticated(?:backpacks|storage|core|storageinmotion):",
     re.IGNORECASE,
 )
+
+
+def chapter_language_path(instance: Path, locale: str) -> Path:
+    """현재 버전의 storage 챕터 언어 파일 경로를 반환한다."""
+    root = instance / f"config/ftbquests/quests/lang/{locale}/chapters"
+    for suffix in (".snbt", ".snbt_merged"):
+        path = root / f"storage{suffix}"
+        if path.is_file():
+            return path
+    raise FileNotFoundError(f"FTB Quests {locale} storage 챕터를 찾을 수 없습니다.")
+
+
+def load_output() -> dict[str, quest_snbt.TranslationValue]:
+    """병합 또는 분할 FTB Quests 한국어 산출물을 읽는다."""
+    if OUTPUT_FILE.is_file():
+        return quest_snbt.parse_language_snbt(OUTPUT_FILE)
+    if not OUTPUT_SPLIT.is_dir():
+        raise FileNotFoundError("FTB Quests 한국어 산출물을 찾을 수 없습니다.")
+    output: dict[str, quest_snbt.TranslationValue] = {}
+    for path in sorted(
+        OUTPUT_SPLIT.rglob("*.snbt"), key=lambda item: item.as_posix().lower()
+    ):
+        for key, value in quest_snbt.parse_language_snbt(path).items():
+            if key in output:
+                raise ValueError(f"분할 FTB Quests 출력 키가 중복됩니다: {key}")
+            output[key] = value
+    return output
 
 
 def load_working() -> dict[str, quest_snbt.TranslationValue]:
@@ -77,9 +105,7 @@ def scoped_language(
                 raise ValueError(f"Task ID를 찾지 못했습니다: {quest_id}")
             task_ids.add(task_id)
 
-    english = quest_snbt.parse_language_snbt(
-        quest_root / "lang/en_us/chapters/storage.snbt_merged"
-    )
+    english = quest_snbt.parse_language_snbt(chapter_language_path(instance, "en_us"))
     scoped = {
         key: value
         for key, value in english.items()
@@ -168,6 +194,11 @@ def kubejs_scope(instance: Path) -> dict[str, object]:
 def build(instance: Path) -> dict[str, object]:
     """검수 작업본을 누적 한국어 SNBT에 병합한다."""
 
+    if OUTPUT_SPLIT.is_dir() and not OUTPUT_FILE.is_file():
+        raise ValueError(
+            "분할 FTB Quests 출력은 scripts/rebase_ftbquests.py로 갱신해야 합니다."
+        )
+
     source, quests, tasks = scoped_language(instance)
     translated = load_working()
     validate(source, translated)
@@ -215,7 +246,7 @@ def verify(instance: Path) -> dict[str, object]:
     source, quests, tasks = scoped_language(instance)
     translated = load_working()
     validate(source, translated)
-    output = quest_snbt.parse_language_snbt(OUTPUT_FILE)
+    output = load_output()
     mismatches = [key for key, value in translated.items() if output.get(key) != value]
     if mismatches:
         raise ValueError(f"누적 SNBT와 작업본이 다릅니다: {mismatches}")
