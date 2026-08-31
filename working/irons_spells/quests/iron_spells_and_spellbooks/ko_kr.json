@@ -1,4 +1,20 @@
 {
+  "image.011E4B6218D76D3A.title": "고대 기사",
+  "image.0603F832DA138A7B.title": "두루마리 대장간",
+  "image.0C7130648130C896.title": "죽은 왕",
+  "image.1738DE4800011D8B.title": "거미 소굴",
+  "image.1EE2339CB09FDF9B.title": "화염술사의 탑",
+  "image.29FABA9C983D1601.title": "맹그로브 오두막",
+  "image.30F797309050ABCB.title": "비전 모루",
+  "image.3347BF8400EC3592.title": "시타델",
+  "image.38F99DB68682AB5E.title": "산악 탑",
+  "image.451CDFE56E407A48.title": "연금술사 가마솥",
+  "image.4BF4AB0B829E9AC5.title": "화염술사",
+  "image.4CC18CD4CE3866C8.title": "강령술사",
+  "image.5B166D12B729120B.title": "냉기술사",
+  "image.60B89CFF74362ACD.title": "Tyros의 메아리",
+  "image.759143506B8CE5E2.title": "소환사 요새",
+  "image.7C697E0FFFB970F2.title": "각인 테이블",
   "quest.000C1ECD781F3F81.quest_desc": [
     "&2&l자연&r은 &2독살&r하고 적을 &2약화&r시켜 우리에게 유리하도록 땅을 이용하기 위해 만들어졌습니다! 마치 거대 기업들이 지구 자체에 하는 짓과 같습니다! \\n&2&l자연&r의 집중 재료는 &2독 감자&r입니다. \\n\\n&2두루마리&r는 &a연한 초록색&r이며, &2진한 초록색&r 글자가 있습니다."
   ],
@@ -13,7 +29,7 @@
   ],
   "quest.01119871B1D5C576.title": "&6마을",
   "quest.0436DF3308681913.quest_desc": [
-    "왕좌에는 과거 &4&l왕&r의 유해가 놓여 있습니다. 하지만 가까이 다가가 만지는 순간, 그들은 되살아날 것입니다. &4&l왕&r은 더 이상 죽지 않았습니다! 하지만 그가 살아 있으려면 누군가를 죽여야 하며, 당신은 가장 가까이 있는 살아있는 무언가입니다.\\n\\n&4&l죽은 왕&r은 가장 어려운 보스이며, 400개의 &c하트&r를 가지고 있고 실제 보스 바(및 음악)를 가진 유일한 존재입니다. 그는 모든 클래스의 다양한 &3마법&r을 사용할 수 있습니다. &2자연&r의 &2독 화살&r부터 &6신성&r의 &6고사&r, 심지어 &a소환&r의 &a송곳니&r까지! 그는 또한 순간이동을 하고, 죽은 자를 소환하고, &4피의 지팡이&r로 당신을 공격할 수 있습니다.\\n\\n그를 죽일 수 있다면 그는 모든 종류의 &3두루마리&r, &7빈 룬&r을 떨어뜨리고, &4피의 지팡이&r와 네크로노미콘을 떨어뜨릴 수도 있습니다.",
+    "왕좌에는 과거 &4&l왕&r의 유해가 놓여 있습니다. 하지만 가까이 다가가 만지는 순간 유해가 되살아나며, &4&l왕&r은 더 이상 죽은 존재가 아니게 됩니다! 그가 살아 있으려면 누군가를 죽여야 하고, 마침 가장 가까이 있는 생명체는 바로 여러분입니다. \\n\\n&4&l죽은 왕&r은 &lIron's Spells 'N Spellbooks&r에서 처음 만나는 보스입니다. &c하트&r가 500개이며 전용 보스 바와 음악이 있습니다. 어느 계통에서든 다양한 &3마법&r을 사용할 수 있으며, &2자연&r 계통의 &2독 화살&r부터 &6신성&r 계통의 &6고사&r, 심지어 &a소환&r 계통의 &a송곳니&r까지 사용합니다! 순간이동하고 죽은 자를 소환하며 &4피의 지팡이&r로 공격하기도 합니다. \\n\\n죽은 왕을 쓰러뜨리면 온갖 &3두루마리&r와 뼈 열쇠를 떨어뜨리며, &4피의 지팡이&r와 네크로노미콘도 드롭할 수 있습니다.\\n\\n죽은 왕은 &9성물함&r으로 다시 되살릴 수 있습니다. 성물함 파편은 &4지하 묘지&r의 시련 생성기에서 얻을 수 있습니다.",
     "{image:atm:textures/questpics/iron_spells/spells_king.png width:100 height:200 align:center}"
   ],
   "quest.0436DF3308681913.title": "&4&l죽은 왕",
@@ -155,6 +171,12 @@
     "{image:atm:textures/questpics/iron_spells/spells_pyromancertower.png width:200 height:100 align:center}"
   ],
   "quest.30B7AF815D9D7553.title": "&c화염술사 탑",
+  "quest.3181D07337DEFD14.quest_desc": [
+    "흉조 또는 시련의 흉조 효과를 받은 상태에서 &4&l죽은 왕&r을 깨우면 &4&l왕&r이 더욱 강해집니다.\\n\\n이제 &c하트&r가 1000개이고, 더 큰 피해를 주며 더 빠르게 움직이고 날아다닙니다. 소환수가 주는 피해와 방어력도 증가합니다. 또한 &4언데드 균열&r을 소환해 자신을 위해 싸울 &4언데드&r를 불러내고, &a송곳니 소용돌이&r 마법도 사용할 수 있습니다.\\n\\n처치 보상도 좋아집니다. 평소 전리품에 더해 사악한 뼈 반지, &a송곳니 소용돌이&r 두루마리, 망각의 팅크, &7빈 룬석&r, 더 많은 &b비전 정수&r를 드롭할 수 있습니다.",
+    "{image:atm:textures/questpics/iron_spells/spells_king_ominous.png width:100 height:200 align:center}"
+  ],
+  "quest.3181D07337DEFD14.quest_subtitle": "또 저 왕인가요?",
+  "quest.3181D07337DEFD14.title": "&l불길한 죽은 왕",
   "quest.32D2CE292E088939.title": "&c화염 업그레이드 구슬&r",
   "quest.34FC02F47F52887F.quest_desc": [
     "이 &e서리낙인 주문서&r의 &3주문 슬롯&r 12개를 얻으려면 꽤 많은 일을 해야 해요! \\n\\n&b얼음 독 약병&r이 필요하며, &b얼음 송곳니&r로 만들거나 &b얼음 거미 소굴&r에서 전리품으로 얻을 수 있어요. \\n\\n제작하기 쉬운 &5비전 천&r과 직접 채굴해야 하는 &b미스릴 조각&r도 필요해요! \\n\\n&e주문서&r에서 느껴지는 냉기를 보니 &b얼음 주문&r을 강화해 주는 것 같네요."
@@ -216,7 +238,7 @@
     "그는 심술궂으니 네가 훔쳐도 상관없어.",
     "{image:atm:textures/questpics/iron_spells/spells_outfit_cryomancer.png width:60 height:100 align:center}"
   ],
-  "quest.489833A2A6C39151.title": "&b크라이오맨서 의상",
+  "quest.489833A2A6C39151.title": "&b냉기술사 의상",
   "quest.48C68664319B0294.quest_desc": [
     "이 특별한 주문서를 얻으려면 &4&l죽은 왕&r을 처치해야 합니다! \\n\\n10개의 &3주문&r 슬롯이 있지만 4개는 이미 사용 중입니다. &4피의 베기&r, &4피의 걸음&r, &4흡수의 광선&r 및 &4블레이즈 스톰&r이 이미 장착되어 있으며 제거할 수 없습니다."
   ],
@@ -255,6 +277,7 @@
   ],
   "quest.5B013A3A37D6902B.title": "고대 도시 속으로",
   "quest.5DE863C3FB6492BE.quest_desc": [
+    "우리와 함께하라!",
     "{image:atm:textures/questpics/iron_spells/spells_outfit_cultist.png width:60 height:100 align:center}"
   ],
   "quest.5DE863C3FB6492BE.title": "&4이교도 의상",

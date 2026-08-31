@@ -2,7 +2,7 @@
   "languages": [
     {
       "namespace": "irons_spellbooks",
-      "reviewed_keys": 1298
+      "reviewed_keys": 1315
     },
     {
       "namespace": "irons_jewelry",
@@ -10,7 +10,7 @@
     },
     {
       "namespace": "irons_lib",
-      "reviewed_keys": 67
+      "reviewed_keys": 70
     },
     {
       "namespace": "irons_patreon_lib",

@@ -156,6 +156,56 @@ SPELLBOOK_NEW = {
     "death.attack.irons_spellbooks.volt_strike.item": (
         "%1$s이(가) %2$s의 %3$s에 담긴 전격 일격에 쓰러졌습니다"
     ),
+    "block.irons_spellbooks.cooked_ice_spider_egg": "익힌 얼음 거미 알",
+    "item.irons_spellbooks.cooked_ice_spider_egg": "익힌 얼음 거미 알",
+    "item.irons_spellbooks.prepared_ice_spider_egg": "손질한 얼음 거미 알",
+    "entity.irons_spellbooks.echoing_arrow": "메아리 화살",
+    "entity.irons_spellbooks.echoing_sword": "메아리치는 타격",
+    "effect.irons_spellbooks.echoing_strikes.description": (
+        "비마법 공격을 하면 메아리가 생겨 일정 범위에 내리꽂히는 유령 검이나, "
+        "같은 대상을 꿰뚫는 마법 화살을 생성합니다. 메아리는 원래 공격 피해의 "
+        "일정 비율만큼 피해를 줍니다."
+    ),
+    "effect.irons_spellbooks.hastened.description": (
+        "이동 속도, 공격 속도와 채광 속도를 높이고 시전 시간을 줄입니다"
+    ),
+    "effect.irons_spellbooks.slowed.description": (
+        "이동 속도, 공격 속도와 채광 속도를 낮추고 시전 시간 감소 효과를 줄입니다"
+    ),
+    "potion.potency.6": "VI",
+    "potion.potency.7": "VII",
+    "potion.potency.8": "XIII",
+    "potion.potency.9": "IX",
+    "potion.potency.10": "X",
+    "spell.irons_spellbooks.echoing_strikes.guide": (
+        "비마법 공격을 하면 메아리가 생겨 일정 범위에 내리꽂히는 유령 검이나, "
+        "같은 대상을 꿰뚫는 마법 화살을 생성합니다. 메아리는 원래 공격 피해의 "
+        "일정 비율만큼 피해를 줍니다."
+    ),
+    "spell.irons_spellbooks.gravity_fissure.guide": (
+        "공중을 갈라 작은 블랙홀을 만듭니다. 블랙홀은 일직선으로 나아가며 주변 "
+        "생물을 중력 우물로 끌어당기지만 피해는 주지 않습니다."
+    ),
+    "spell.irons_spellbooks.haste.guide": (
+        "지정한 생물에게, 생물을 지정하지 않았다면 자신에게 가속 효과를 부여합니다. "
+        "일정 시간 동안 이동 속도, 공격 속도와 채광 속도가 증가하고 시전 시간이 "
+        "줄어듭니다."
+    ),
+    "spell.irons_spellbooks.scapegoat": "희생양",
+    "spell.irons_spellbooks.scapegoat.guide": (
+        "염소 모습의 마법 미끼를 만들어 냅니다. 미끼는 주변 적대적 몹의 주의를 "
+        "끌고 멀리 달아나며 일정 시간 동안 도발합니다."
+    ),
+    "spell.irons_spellbooks.slow.guide": (
+        "지정한 생물에게 둔화 효과를 부여합니다. 일정 시간 동안 대상의 이동 속도, "
+        "공격 속도와 채광 속도가 감소하고 시전 시간 감소 효과도 줄어듭니다."
+    ),
+    "tooltip.irons_spellbooks.hastened_description": "+%d%% 마법 가속",
+    "tooltip.irons_spellbooks.slowed_description": "-%d%% 마법 둔화",
+    "ui.irons_spellbooks.echoing_hits": "메아리 타격 %d회",
+    "ui.irons_spellbooks.hastened": "%d%% 마법 가속",
+    "ui.irons_spellbooks.slowed": "%d%% 마법 둔화",
+    "ui.irons_spellbooks.taunt_range": "도발 범위: %d",
 }
 
 JEWELRY_NEW = {
@@ -232,6 +282,9 @@ LIB_EXACT = {
     "transmog.irons_lib.silver_sorcerer": "은빛 마도사",
     "transmog.irons_lib.witchhunter": "마녀 사냥꾼",
     "transmog.irons_lib.traveler": "여행자",
+    "transmog.irons_lib.onyx_shadow": "오닉스 그림자",
+    "transmog.irons_lib.ruby_warrior": "루비 전사",
+    "transmog.irons_lib.sapphire_scholar": "사파이어 학자",
     "attribute.name.irons_lib.armor_pierce": "방어력 관통",
     "attribute.name.irons_lib.armor_pierce.desc": "적 방어력을 이 수치만큼 무시합니다",
     "attribute.name.irons_lib.mining_speed": "채굴 속도",
@@ -419,10 +472,19 @@ def normalize_language() -> dict[str, object]:
         korean = load_json(root / "ko_kr.json")
         candidates = load_json(root / "auto_candidates.json")
         sources = load_json(root / "candidate_sources.json")
+        exact = (
+            SPELLBOOK_NEW
+            if namespace == "irons_spellbooks"
+            else JEWELRY_NEW
+            if namespace == "irons_jewelry"
+            else LIB_EXACT
+            if namespace == "irons_lib"
+            else {}
+        )
         reviewed: dict[str, object] = {}
         for key, source in english.items():
-            value = korean[key]
-            if sources[key] == "new_translation_required":
+            value = exact.get(key, korean[key])
+            if key not in exact and sources[key] == "new_translation_required":
                 value = candidates[key]
             if isinstance(source, str) and isinstance(value, str):
                 if PLACEHOLDER.findall(source) != PLACEHOLDER.findall(
