@@ -156,17 +156,6 @@ def main() -> int:
                 "added_source_key_names": sorted(added),
                 "review_queue_keys": len(queue),
                 "review_queue_key_names": sorted(queue),
-                "review_queue_details": {
-                    key: {
-                        "baseline_english": baseline.get(key),
-                        "current_english": current[key],
-                        "installed_korean_candidate": current_ko.get(namespace, {}).get(
-                            key
-                        ),
-                        "project_output": output.get(key),
-                    }
-                    for key in sorted(queue)
-                },
                 "installed_korean_candidates": len(installed_candidates),
                 "removed_source_keys": len(removed),
                 "removed_source_key_names": sorted(removed),
