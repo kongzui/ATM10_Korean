@@ -26,6 +26,19 @@ NUMBER_RE = re.compile(r"\d+(?:\.\d+)?")
 NUMBER_VALIDATION_EXCEPTIONS = {
     # 원문의 `4`는 수량이 아니라 `for`를 대신한 말장난이다.
     "quest.51236544BFEF487B.quest_subtitle",
+    # 영어 단어로 쓴 one, four, third, fourth를 한국어 숫자로 정확히 옮겼다.
+    "quest.1BDB369FD243D4C6.quest_desc",
+    "quest.29C83B00AC4AFC23.quest_desc",
+    "quest.2A3683BF7E50EF83.quest_desc",
+    "quest.2A5004EB99AE4F96.quest_desc",
+    "quest.33106E24A3B5DDD8.quest_desc",
+    "quest.367E891A50991436.quest_desc",
+    "quest.47358ADC1470C82A.quest_desc",
+    "quest.4C873491F6F0FFAF.quest_desc",
+    "quest.6FFFAE334DFAAAAB.quest_desc",
+    "quest.78ECC28DD4BA9696.quest_desc",
+    # 원문의 &550%는 색상 코드 &5 뒤에 수치 50%를 붙여 쓴 것이다.
+    "quest.503AC506720FC59E.quest_desc",
 }
 
 TranslationValue: TypeAlias = str | list[str]

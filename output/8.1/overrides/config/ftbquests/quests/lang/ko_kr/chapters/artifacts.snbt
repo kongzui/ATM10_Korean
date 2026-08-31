@@ -1,0 +1,163 @@
+{
+	quest.010607466D565B53.quest_desc: ["대자연과 하나가 되어 보세요. \\n\\n&a뿌리내린 장화&r를 신으면 자연이 가장 든든한 친구가 됩니다! 잔디 위에 서 있으면 체력이 재생되고, 잔디 위에서 음식을 먹으면 주변 식물에 뼛가루를 뿌린 것처럼 자라납니다."]
+	quest.010607466D565B53.quest_subtitle: "발"
+	quest.010607466D565B53.title: "&a뿌리내린 장화"
+	quest.0A1D4228271DECA3.quest_desc: ["어디로 갔나요?\\n\\n아, 이전 크기의 절반으로 작아졌군요. 이제 1블록 높이의 틈 아래에도 들어갈 수 있습니다."]
+	quest.0A1D4228271DECA3.quest_subtitle: "목걸이"
+	quest.0A1D4228271DECA3.title: "&5축소의 부적&r"
+	quest.0E716B90E60C486B.quest_desc: ["때로는 싸우지 않고 달아나는 것이 최고의 전투법입니다! \\n\\n&4공황 목걸이&r를 착용하면 공격받았을 때 잠시 속도 증가 효과를 얻습니다. 도망치기에는 충분한 시간이죠!"]
+	quest.0E716B90E60C486B.quest_subtitle: "목걸이"
+	quest.0E716B90E60C486B.title: "&4공황 목걸이&r"
+	quest.11C5F17C6BB1237B.quest_desc: ["&5시든 팔찌&r를 착용하면 근접 공격으로 시듦 효과를 부여할 수 있습니다.\\n\\n활 사용자분들께는 미안해요!"]
+	quest.11C5F17C6BB1237B.quest_subtitle: "손목(손)"
+	quest.11C5F17C6BB1237B.title: "&5시든 팔찌&r"
+	quest.122E6E7CABCB17E7.quest_desc: ["크리퍼는 고양이를 무서워합니다. 게다가 아주 단순해서 &7고양이 슬리퍼&r가 진짜 고양이라고 믿어 버리죠. \\n\\n이 &7슬리퍼&r를 신으면 크리퍼가 달아나며 적대하지 않습니다. \\n\\n피해를 받으면 고양이 소리도 납니다! 다만 언제나 사뿐히 착지한다고 장담할 수는 없어요."]
+	quest.122E6E7CABCB17E7.quest_subtitle: "발"
+	quest.122E6E7CABCB17E7.title: "&7고양이 슬리퍼&r"
+	quest.145E7D1A88B83DDD.quest_desc: ["어디로 갔나요?"]
+	quest.145E7D1A88B83DDD.quest_subtitle: "스카프(목걸이)"
+	quest.145E7D1A88B83DDD.title: "&9투명화 스카프&r"
+	quest.161A90E134592D0E.quest_desc: ["일반 생소고기처럼 &c영원의 생고기&r를 구우면 &4영원의 스테이크&r를 얻을 수 있습니다!\\n\\n&c영원의 생고기&r와 똑같이 다시 생기지만, 허기와 포만감을 더 많이 채워 줍니다."]
+	quest.161A90E134592D0E.quest_subtitle: "고유"
+	quest.161A90E134592D0E.title: "&4영원의 스테이크"
+	quest.16255FB20F35A9D9.quest_desc: ["&3스노클&r을 착용하고 &9물&r에 들어가면 잠시 수중 호흡 효과를 얻습니다. 거북 등딱지와 비슷하지만 시간이 지나면 효과가 끝나니 조심하세요."]
+	quest.16255FB20F35A9D9.quest_subtitle: "머리"
+	quest.16255FB20F35A9D9.title: "&3스노클"
+	quest.19B393433FB0C62F.quest_desc: ["스트라이더가 &c용암&r 위를 걷는 비밀은 다리에 있습니다. 그래서 그 다리를 떼어 여러분이 대신 쓰게 했어요! \\n\\n웅크리면 &c용암&r 위를 안전하게 걸을 수 있지만, 웅크리기를 멈추면 용암에 빠집니다. 마그마 블록을 비롯한 &c뜨거운 블록&r 위도 안전하게 걸을 수 있습니다!"]
+	quest.19B393433FB0C62F.quest_subtitle: "발"
+	quest.19B393433FB0C62F.title: "&4스트라이더 신발&r"
+	quest.1E40ACF3E69A4100.quest_desc: ["꼭 마셔야 하냐고요? 그냥 지니고 있어도 작동하는 것 같아요... \\n\\n&6해독 용기&r는 시듦이나 독 같은 해로운 효과의 지속 시간을 줄여 줍니다! 마녀나 위더 스켈레톤을 상대할 때 아주 유용합니다."]
+	quest.1E40ACF3E69A4100.quest_subtitle: "허리띠"
+	quest.1E40ACF3E69A4100.title: "&6해독 용기&r"
+	quest.2215FB0777D7029D.quest_desc: ["스파이크든, 클리트든, 아이젠이든 뭐라고 불러도 좋아요! \\n\\n&7견고한 스파이크&r는 발을 단단히 붙잡아 공격에 밀려나지 않게 하고, 얼음 위에서도 미끄러지지 않게 합니다."]
+	quest.2215FB0777D7029D.quest_subtitle: "발"
+	quest.2215FB0777D7029D.title: "&7견고한 스파이크&r"
+	quest.221C9EDA651144BA.quest_desc: ["&9물&r이 뭐가 문제죠? \\n\\n&3침몰의 부적&r을 착용하면 &9물&r속을 공기 중처럼 움직일 수 있습니다! 물론 물속에서 숨을 쉴 수 있게 되는 것은 아니에요..."]
+	quest.221C9EDA651144BA.quest_subtitle: "목걸이"
+	quest.221C9EDA651144BA.title: "&3침몰의 부적&r"
+	quest.2607F3DC07049785.quest_desc: ["정성껏 차린 식사를 천천히 즐길 시간이 어디 있나요? 빠르게 먹고 마시면 되죠! \\n\\n아주 세련된 이 &6모자&r를 쓰면 음식과 음료를 훨씬 빠르게 섭취합니다."]
+	quest.2607F3DC07049785.quest_subtitle: "머리"
+	quest.2607F3DC07049785.title: "&6플라스틱 음료 모자"
+	quest.27E951F4F4F6F847.quest_desc: ["&a가시 펜던트&r와 비슷하지만 조금, 아니 훨씬 더 뜨겁습니다! \\n\\n&c불꽃 펜던트&r는 공격자에게 불을 붙일 수 있습니다. 공격자가 불타면 &c펜던트&r가 착용자에게 화염 저항도 부여합니다."]
+	quest.27E951F4F4F6F847.quest_subtitle: "목걸이"
+	quest.27E951F4F4F6F847.title: "&c불꽃 펜던트&r"
+	quest.29448D08C8777425.quest_desc: ["오늘 밤에는 물고기와 함께 잠들겠군요. \\n\\n&c낚시꾼 모자&r는 물고기가 더 빨리 물게 하고 희귀한 전리품을 낚을 확률을 높입니다!"]
+	quest.29448D08C8777425.quest_subtitle: "머리"
+	quest.29448D08C8777425.title: "&c낚시꾼 모자"
+	quest.2AD78E22988A92D3.quest_desc: ["다 보여요! \\n\\n&2야간 투시경&r을 착용하면 어둠 속을 볼 수 있습니다. 그 밖의 기능은 별로 없어요..."]
+	quest.2AD78E22988A92D3.quest_subtitle: "머리"
+	quest.2AD78E22988A92D3.title: "&2야간 투시경"
+	quest.321F16645640C462.quest_desc: ["엔더 진주는 재미있는 이동 수단입니다! 범블존에서도 유용하죠. 하지만 사용할 때마다 엔더 진주가 사라지고 2하트의 피해를 입는 점은 싫지 않나요? \\n\\n&9워프 드라이브&r가 그 문제를 해결합니다! 엔더 진주 대신 허기를 소모하며, 순간이동 피해도 받지 않습니다. 허기가 모두 떨어지면 다시 엔더 진주를 소모합니다."]
+	quest.321F16645640C462.quest_subtitle: "허리띠"
+	quest.321F16645640C462.title: "&9워프 드라이브&r"
+	quest.3446803FB59D8875.quest_desc: ["가시 효과를 부여합니다. 갑옷이 아니라 바로 여러분에게요! 복어처럼 말이죠!"]
+	quest.3446803FB59D8875.quest_subtitle: "목걸이"
+	quest.3446803FB59D8875.title: "&a가시 펜던트&r"
+	quest.3525D5DCC3A534D9.quest_desc: ["제가 가장 좋아하는 유물 중 하나예요! \\n\\n&9굴착 발톱&r은 1. 채굴 속도를 높여 모든 곡괭이에 효율을 더한 것처럼 만들고, 2. 맨손을 돌 곡괭이처럼 사용할 수 있게 합니다! \\n\\n건축을 비롯한 평소 플레이에 아주 유용합니다!"]
+	quest.3525D5DCC3A534D9.quest_subtitle: "손"
+	quest.3525D5DCC3A534D9.title: "&9굴착 발톱&r"
+	quest.3705D303CF423804.quest_desc: ["&a야성의 발톱&r과 반대되는 유물로, 착용하는 동안 공격 피해가 증가합니다."]
+	quest.3705D303CF423804.quest_subtitle: "손"
+	quest.3705D303CF423804.title: "&e파워 글러브&r"
+	quest.3B3BD39BA02DCA13.quest_desc: ["&6주머니 피스톤&r을 착용하면 공격으로 적을 훨씬 멀리 밀쳐 냅니다! \\n\\n&6주머니 피스톤&r과 &7견고한 스파이크&r가 맞붙으면 어느 쪽이 이길까요?"]
+	quest.3B3BD39BA02DCA13.quest_subtitle: "손"
+	quest.3B3BD39BA02DCA13.title: "&6주머니 피스톤&r"
+	quest.3E0643EA9183CDAE.quest_desc: ["'집게 사장님, 그건 그 사람의 모자였어요! 그 사람이 넘버 1이었어요!' \\n\\n일반 &6음료 모자&r와 기능은 완전히 같지만 훨씬 멋지게 생겼습니다!"]
+	quest.3E0643EA9183CDAE.quest_subtitle: "머리"
+	quest.3E0643EA9183CDAE.title: "&9장난감 음료 모자"
+	quest.3E1A3BC8642390B3.quest_desc: ["'나는 메리 포핀스다!' \\n\\n&4우산&r은 &l&3Artifacts&r가 추가하는 아주 유용한 도구입니다! 들고 오른쪽 버튼을 누르면 방패처럼 막을 수 있고, 그냥 들고 있으면 낙하 속도를 늦출 수도 있습니다! "]
+	quest.3E1A3BC8642390B3.quest_subtitle: "고유"
+	quest.3E1A3BC8642390B3.title: "&4우산&r"
+	quest.3EC8A0B89788D079.quest_desc: ["제게 손은 없고 &9오리발&r이 있어요. \\n\\n&9오리발&r은 물갈퀴보다 훨씬 강력하게 작동하여 &9물&r속에서 더 빠르게 헤엄치고 걸을 수 있게 합니다!"]
+	quest.3EC8A0B89788D079.quest_subtitle: "발"
+	quest.3EC8A0B89788D079.title: "&9오리발&r"
+	quest.427014BDE06DE631.quest_desc: ["내가 때리는 것은 모조리 불길에 휩싸인다!!!!!"]
+	quest.427014BDE06DE631.quest_subtitle: "손"
+	quest.427014BDE06DE631.title: "&c화염 건틀릿&r"
+	quest.436E4E3515BCCDE9.quest_desc: ["&b병 속의 구름&r을 장착하고 스페이스바를 두 번 누르면 이단 점프를 합니다! 파쿠르에 아주 유용하죠! \\n\\n&d토끼 점프화&r처럼 안전하게 떨어질 수 있는 높이도 늘어납니다!"]
+	quest.436E4E3515BCCDE9.quest_subtitle: "허리띠"
+	quest.436E4E3515BCCDE9.title: "&b병 속의 구름&r"
+	quest.4564B577CB4EC046.quest_desc: ["소를 수백 마리 잡다 보면 희귀한 소고기를 발견할 수 있습니다. 광우병에 걸린 고기가 아니라 &c영원의 생고기&r 말이에요!\\n\\n&c영원의 생고기&r는 일반 생소고기처럼 먹을 수 있지만 사라지지 않습니다. 대신 다시 먹을 수 있을 때까지 재사용 대기시간이 생깁니다.\\n\\n자동 급식 배낭에도 사용할 수 있어요!"]
+	quest.4564B577CB4EC046.quest_subtitle: "고유"
+	quest.4564B577CB4EC046.title: "&c영원의 생고기&r"
+	quest.4933CF4675E77D50.quest_desc: ["화염 피해를 받으면 &5흑요석 두개골&r이 활성화되어 잠시 화염 저항을 부여합니다. 불길에서 탈출하기에 충분히 오래가기를 바라야겠네요!"]
+	quest.4933CF4675E77D50.quest_subtitle: "허리띠"
+	quest.4933CF4675E77D50.title: "&5흑요석 두개골&r"
+	quest.4A7AEBEB87CEC274.quest_desc: ["특정 &c러닝화&r 브랜드를 말할 권리는 없는 것 같으니 어떤 신발인지 상상해 보세요. \\n\\n&c러닝화&r는 질주할 때 속도를 높여 더 빠르게 달리게 하고, 자동 점프 기능도 제공합니다..."]
+	quest.4A7AEBEB87CEC274.quest_subtitle: "발"
+	quest.4A7AEBEB87CEC274.title: "&c러닝화&r"
+	quest.4D3379D38237F830.quest_desc: ["&b이 신발&r을 신으면 기적처럼 &9물&r 위를 걸을 수 있습니다! \\n\\n정확히는 &9물&r 위를 달리는 기능이므로 질주해야 합니다. 질주를 멈추면 &9물&r속으로 가라앉기 시작합니다."]
+	quest.4D3379D38237F830.quest_subtitle: "발"
+	quest.4D3379D38237F830.title: "&b아쿠아 대셔&r"
+	quest.5040B3D29F238BC0.quest_desc: ["토끼야, 깡충. 토끼야, 깡충. 토끼야, 깡충.\\n\\n&d토끼 점프화&r를 신으면 두 배 높이 뛰고 낙하 피해는 절반만 받습니다! 낙하 피해에 무적이 되는 것은 아니니, 아주 높은 곳에서 떨어지면 여전히 죽을 수 있어요."]
+	quest.5040B3D29F238BC0.quest_subtitle: "발"
+	quest.5040B3D29F238BC0.title: "&d토끼 점프화&r"
+	quest.50A32AC6EDBC5854.quest_desc: ["음식만 먹으면 심심하지만 곁들임이 있으면 훨씬 낫죠. 특히 &6양파 링&r이라면요!\\n\\n&6양파 링&r을 착용하면 무엇을 먹든 잠시 성급함 효과를 얻습니다."]
+	quest.50A32AC6EDBC5854.quest_subtitle: "손"
+	quest.50A32AC6EDBC5854.title: "&6양파 링&r"
+	quest.589F1D502F680075.quest_desc: ["수영장 파티에 딱이에요! \\n\\n귀엽고 우스꽝스러운 모습뿐 아니라 &d헬륨 플라밍고&r는 공중에서 헤엄치게 해 줍니다. 네, 공중에서요! \\n\\n점프해 공중에 뜬 상태에서 Ctrl을 누르면 수영을 시작합니다. 물속처럼 위아래와 사방으로 움직일 수 있어요!"]
+	quest.589F1D502F680075.quest_subtitle: "허리띠"
+	quest.589F1D502F680075.title: "&d헬륨 플라밍고&r"
+	quest.5CE44C58A470E48E.quest_desc: ["&l&3Artifacts&r는 마인크래프트 모험을 더 쉽고 재미있게 해 주는 다양한 &l&3유물&r을 추가합니다!\\n\\n모든 &l&3Artifacts 유물&r은 탐험과 고고학, 또는 미믹 처치로 얻을 수 있습니다!\\n\\n미믹은 지하 야영지에서 평범한 상자처럼 위장하지만, 너무 가까이 다가가면 공격합니다!"]
+	quest.5CE44C58A470E48E.title: "&l&3Artifacts"
+	quest.5DE7C4FD5FA29236.quest_desc: ["엔더맨을 거의 잡았는데 순간이동해 버리면 싫죠? 사실 그 능력이 부러워서 화가 난 거예요! \\n\\n&5코러스 토템&r이 그 소원을 이뤄 줍니다. 죽을 정도의 공격을 받으면 순간이동하여 피합니다."]
+	quest.5DE7C4FD5FA29236.quest_subtitle: "허리띠"
+	quest.5DE7C4FD5FA29236.title: "&5코러스 토템&r"
+	quest.5EB7CE3A1DCD3E9B.quest_desc: ["그냥 &c자석&r입니다."]
+	quest.5EB7CE3A1DCD3E9B.quest_subtitle: "허리띠"
+	quest.5EB7CE3A1DCD3E9B.title: "&c만능 자석&r"
+	quest.5F5E43B3F51CAE9E.quest_desc: ["'마법처럼 맛있어요!' \\n\\n&a미신의 모자&r는 처치한 몹에 적용되는 약탈 레벨을 한 단계 높입니다! \\n\\n마법 부여와도 중첩됩니다! "]
+	quest.5F5E43B3F51CAE9E.quest_subtitle: "머리"
+	quest.5F5E43B3F51CAE9E.title: "&a미신의 모자"
+	quest.5FD6A738754F6013.quest_desc: ["이 퀘스트는 &6AllTheMods 스태프&r 또는 &2커뮤니티 기여자&r가 AllTheMods 모드팩에 사용하기 위해 작성했습니다. \\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r로 배포되므로, &6AllTheMods 팀&r의 명시적인 허가 없이 다른 공개 팩에서 이 퀘스트를 사용할 수 없습니다. \\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 문장이 보인다면 편집 모드입니다."]
+	quest.623796B1D7981E59.quest_desc: ["'Terraria도 해 보세요!'\\n\\n장착하면 하트 5개, 즉 체력 10을 추가로 얻습니다! 기본 최대 체력이 총 30이 됩니다."]
+	quest.623796B1D7981E59.quest_subtitle: "허리띠"
+	quest.623796B1D7981E59.title: "&4수정 심장&r"
+	quest.62622137648A4F56.quest_desc: ["광석을 캔 뒤 다른 도구로 제련하기 귀찮지 않나요? 이제 &7곡괭이 가열기&r로 더 게을러져도 됩니다!\\n\\n&7곡괭이 가열기&r를 착용하면 채굴한 광석이 자동으로 제련됩니다!\\n\\n광석 배율 처리를 하려면 조심해서 사용하세요."]
+	quest.62622137648A4F56.quest_subtitle: "손"
+	quest.62622137648A4F56.title: "&7곡괭이 가열기&r"
+	quest.6A452BFC8A967C39.quest_desc: ["이 &a발톱&r을 착용하면 아드레날린이 솟고 생각은 사라지며 힘이 넘쳐흐릅니다! \\n\\n&a야성의 발톱&r은 무기나 맨손의 공격 속도를 크게 높입니다."]
+	quest.6A452BFC8A967C39.quest_subtitle: "손"
+	quest.6A452BFC8A967C39.title: "&a야성의 발톱&r"
+	quest.6FBE5B5D5027B32C.quest_desc: ["이 &7모자&r를 쓰면 가축들이 바람처럼 빨라집니다! \\n\\n아주 예쁘기도 하고요."]
+	quest.6FBE5B5D5027B32C.quest_subtitle: "머리"
+	quest.6FBE5B5D5027B32C.title: "&7카우보이 모자"
+	quest.70C7D92844089DEB.quest_desc: ["다른 펜던트처럼 공격자에게 피해를 줄 수 있는데, 이번에는 번개입니다! \\n\\n운이 좋든 나쁘든 번개에 맞았을 때 피해를 받지 않게 해 주기도 합니다."]
+	quest.70C7D92844089DEB.quest_subtitle: "목걸이"
+	quest.70C7D92844089DEB.title: "&b충격 펜던트&r"
+	quest.7188DC06A28AE30E.quest_desc: ["이 &e황금 갈고리&r를 착용하면 쓰러뜨린 적에게서 얻는 경험치가 증가합니다!"]
+	quest.7188DC06A28AE30E.quest_subtitle: "손"
+	quest.7188DC06A28AE30E.title: "&e황금 갈고리&r"
+	quest.72D6265E35814927.quest_desc: ["체력과 피해가 있는 게임에는 보통 무적 시간이 있습니다. 피해를 받은 직후 잠시 무적이 되어 1. 단순한 공격에 순식간에 죽지 않고 2. 반격할 시간을 얻죠. \\n\\n&e십자가 목걸이&r는 이 무적 시간을 조금 더 늘려 줍니다. 반격할 시간도 더 생긴다는 뜻이에요!"]
+	quest.72D6265E35814927.quest_subtitle: "목걸이"
+	quest.72D6265E35814927.title: "&e십자가 목걸이&r"
+	quest.73B73870B29DFAD9.quest_desc: ["우리 중 하나다! 우리 중 하나다! \\n\\n&e주민 모자&r를 쓰면 주민들이 같은 마을 사람으로 여겨 외지인 세금을 없애 줍니다. 주민 거래 가격이 저렴해집니다."]
+	quest.73B73870B29DFAD9.quest_subtitle: "머리"
+	quest.73B73870B29DFAD9.title: "&e주민 모자"
+	quest.73FC51144FC2DA52.quest_desc: ["이 &7장갑&r을 착용하면 공격한 적의 생명력을 흡수합니다!\\n\\n아, 깜빡했네요... 으하하하!"]
+	quest.73FC51144FC2DA52.quest_subtitle: "손"
+	quest.73FC51144FC2DA52.title: "&7흡혈 장갑&r"
+	quest.74B352457BF1541B.quest_desc: ["저처럼 멀쩡한 사람이라면 가루눈을 싫어할 겁니다. 다행히 &l&3Artifacts&r에는 설피가 있어요! \\n\\n설피를 신으면 가죽 장화처럼 가루눈 위를 안전하게 걸으며, 모든 종류의 눈 위에서 이동 속도도 증가합니다!"]
+	quest.74B352457BF1541B.quest_subtitle: "발"
+	quest.7503823ACDDB0491.quest_desc: ["이것과 &a미신의 모자&r를 함께 쓰면 행운의 부적은 충분하겠네요!\\n&2행운의 스카프&r는 곡괭이에 적용되는 행운 레벨을 한 단계 높입니다."]
+	quest.7503823ACDDB0491.quest_subtitle: "스카프(목걸이)"
+	quest.7503823ACDDB0491.title: "&2행운의 스카프&r"
+	quest.789AF6D0A6321945.quest_desc: [
+			"그 무엇보다 중요하고, 강력하며, 위험한 &l&3유물&r입니다!"
+			"{@pagebreak}"
+			"너무 위험해서 무슨 기능인지 설명해도 될지 모르겠네요!"
+			"{@pagebreak}"
+			"그 힘을 감당할 수 있다고 확신한다면 계속 읽어 보세요..."
+			"{@pagebreak}"
+			"아직 돌아갈 수 있어요!"
+			"{@pagebreak}"
+			"좋아요, 경고했습니다..."
+			"{@pagebreak}"
+			"&d방귀 방석&r을 장착하고 Shift를 누르면 일정 확률로 방귀를 뀝니다."
+		]
+	quest.789AF6D0A6321945.quest_subtitle: "고유"
+	quest.789AF6D0A6321945.title: "&d방귀 방석&r"
+	task.376652638B9221C9.title: "AllRightsReserved"
+	task.68DC39876E14FC1B.title: "미믹 1마리 처치"
+	task.72E89066290E3040.title: "AllRightsReserved"
+}

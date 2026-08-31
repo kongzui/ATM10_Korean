@@ -1,0 +1,13 @@
+{
+	quest.0AE83A6CC21F96D4.quest_desc: ["&#3127F5특이점&r을 전기분해하면 &#DA27F5UU 물질&r이 됩니다. 이 과정에서 &#3127F5특이점&r은 &n&a소모되지 않습니다&r."]
+	quest.1E22A0D5F4B2EB0D.quest_subtitle: "헬륨으로 아르곤 냉각"
+	quest.27826D74ADC73556.quest_desc: ["&#ED8C61구리 가루&r와 &#90F0E7산소&r를 &#E3CE54칸탈 전기 용광로&r에서 가열하면 &#E87848뜨거운 어닐링 구리 주괴&r가 됩니다. 이를 &#4CBBD9진공 냉각기&r에서 식히면 &#E87848어닐링 구리 주괴&r를 얻습니다. 이 주괴를 분쇄하면 &#E87848어닐링 구리 가루&r가 됩니다."]
+	quest.3AB0822F02350DA3.quest_subtitle: "무한 피해"
+	quest.3B99290BE63F2968.quest_subtitle: "탄소 가루 압축"
+	quest.4F780343E3FFA43E.quest_subtitle: "여기가 끝입니다"
+	quest.53C167AF34694F8F.quest_desc: ["&#40B36A이트륨&r, &#DBA146어닐링 구리&r, &#33CC3A네오디뮴&r과 &#D6D290이리듐&r 가루를 혼합하면 &#5EDEE0초전도체 가루&r가 됩니다. 이를 &#E3CE54칸탈 전기 용광로&r에서 가열한 뒤 &#4CBBD9진공 냉각기&r에서 식히세요."]
+	quest.53C167AF34694F8F.quest_subtitle: "초전도하기"
+	quest.54C852CA6E056589.quest_subtitle: "핵 배터리"
+	quest.732DA855AFF62907.quest_desc: ["&8석탄&r을 원심분리하면 &7탄소 가루&r가 됩니다."]
+	task.121A74E938A0320C.title: "UU 물질"
+}

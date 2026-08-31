@@ -1,0 +1,113 @@
+{
+	quest.068128395837AF4F.quest_subtitle: "증기 기계와 동일"
+	quest.08C870DC50CA49FC.quest_desc: [
+			"&#5C5C5C원유&r 자체는 쓸모가 많지 않지만 증류소에서 처리하면 여러 용도로 사용할 수 있는 물질을 얻습니다."
+			""
+			"원유에서 &#C4C241황산 중유&r, &#CECC5F황산 경유&r와 &#D9D782황산 나프타&r를 생산할 수 있습니다."
+		]
+	quest.08C870DC50CA49FC.title: "&#5C5C5C원유 처리"
+	quest.0903F0D8642449B7.quest_desc: ["&6아날로그 회로&r에서 발전하여 이제 2비트보다 많은 정보를 처리할 수 있습니다. 새로운 기계들을 만들 수 있게 됩니다."]
+	quest.0A9ADDE68342B987.quest_desc: [
+			"&#43DEC2폴리에틸렌&r은 다음 화학 물질 처리 과정을 거쳐 만듭니다:"
+			""
+			"&8원유&r -> &#D2CD2D황산 경유&r -> &#DBD658경유&r -> &#E2DF78증기 분해된 경유&r -> &#44D1DB에틸렌&r -> &#43DEC2폴리에틸렌&r."
+		]
+	quest.0C94D76B87E49FFD.title: "철 처리"
+	quest.103728F2BAD5AE84.title: "고급 부품"
+	quest.1351D0594F1E6551.quest_desc: ["이 &#55EDA4기본 부품&r을 만들면 다음 처리 기술의 돌파구가 열립니다."]
+	quest.1351D0594F1E6551.title: "회로 부품"
+	quest.162807D14C173CB4.quest_desc: ["&#5599ED원심분리기&r는 충분히 빠르게 돌리면 새로운 물질이 튀어나온다는 이론을 증명합니다. 용도가 많지만 주로 &#F2AAE5크롬&r과 &#AD3497모자나이트&r 처리에 필요합니다. "]
+	quest.162807D14C173CB4.quest_subtitle: "빙글빙글 머리가 돌아가요..."
+	quest.1745124F83D033B9.title: "기본 부품"
+	quest.18C0EF38430C3E67.quest_subtitle: "디지털 시대"
+	quest.1A84DF4478D55C41.quest_subtitle: "증기 기계와 동일"
+	quest.1B4CD5AC8F6C3307.quest_desc: ["&#4497DB오버드라이브 모듈&r은 현재 제작법이 작동하지 않을 때도 기계의 효율을 유지합니다. 대신 기계를 현재 제작법에 고정하고 항상 전력을 소비하게 합니다."]
+	quest.1E0EF28175A7424F.quest_desc: ["이미 증기를 만들고 있으니 전기 생산에도 사용해 보세요. &#6363DB터빈&r을 설치하고 &7증기&r를 넣으면 &#DBDB63전기&r가 나옵니다."]
+	quest.1E0EF28175A7424F.quest_subtitle: "증기 -> 전기"
+	quest.1F21B578FAF4CCAC.quest_subtitle: "증기 기계와 동일"
+	quest.1F3E18129B871C49.quest_subtitle: "증기 기계와 동일"
+	quest.22AD9DF2BCC04575.quest_subtitle: "에너지 만들기"
+	quest.22AD9DF2BCC04575.title: "전기 생산"
+	quest.256C3DBA392B4236.quest_desc: ["망간 및 크롬의 산성 용액을 전기분해하면 이후 제작법에 사용할 가루를 얻습니다."]
+	quest.256C3DBA392B4236.quest_subtitle: "작은 가루 9개로 가루 1개"
+	quest.2EF0C033C540A7B1.title: "루비 처리"
+	quest.32D585D9F73CD9FD.quest_desc: ["&#EDDF55전기 용광로&r는 여러 자원을 제련할 수 있습니다. 제작법에 따라 구조물에 &#B8ED55특정 코일&r을 사용해야 합니다."]
+	quest.374C06B3999BB0D3.quest_desc: ["&#C2C78B철&r, &#EDB2EA크롬&r, &#BEC9A3니켈&r과 &7망간&r을 혼합하면 &#ADF0EE스테인리스강 가루&r가 됩니다."]
+	quest.3A03852E282DAA4D.quest_desc: ["&#ED8055전해조&r는 물질에 순간적으로 충분한 에너지를 가해 더 기본적인 자원으로 분해합니다."]
+	quest.3B9D9CB589DB2003.quest_desc: [
+			"&#71EBB4&nModern Industrialization&r 기계는 다른 모드와 다르게 작동합니다. 모든 기계에는 &#E5EB71효율 배수&r가 있으며, 같은 제작법을 계속 실행하면 증가합니다. &#E5EB71효율&r이 오르면 기계의 &#E5EB71속도&r도 증가하지만 &#E5EB71효율&r은 제작법이 바뀌면 초기화됩니다."
+			""
+			"부품을 계속 생산할 때는 기계 1대에 제작법 1개를 맡기는 것이 좋습니다. 이것이 이 모드가 의도한 플레이 방식이며, 나중에 업그레이드로 개선할 수 있습니다."
+			""
+			"{image:atm:textures/questpics/modernindustrialization/prod_line.png width:100 height:100 align:center}"
+			""
+			"{@pagebreak}"
+			"이 모드의 모든 기계는 FE를 전력으로 받을 수 있습니다. &c16 FE&r는 &#E1EB591 EU&r로 변환됩니다."
+		]
+	quest.3B9D9CB589DB2003.quest_subtitle: "알아 두면 유용합니다"
+	quest.3CE72DAF431269CD.quest_desc: ["&#D6AC2F자화기&r는 넣은 재료를 자화합니다."]
+	quest.401A3FD6A3511870.quest_subtitle: "열려라 참깨"
+	quest.401A3FD6A3511870.title: "논리 게이트"
+	quest.401B559649C54C5C.quest_desc: ["&#92CCF0수소&r와 &#519BC9염소&r를 혼합하면 &#4FB373염산&r이 됩니다. 염산은 &#F2A0E1크롬 가루&r를 처리할 때 사용합니다."]
+	quest.408EBED932656006.quest_desc: ["&7실리콘&r을 도핑하면 일반 &7실리콘&r보다 생산량이 크게 늘어납니다."]
+	quest.408EBED932656006.title: "도핑된 실리콘"
+	quest.413F338DB07BA88C.quest_subtitle: "증기 기계와 동일"
+	quest.4A5A143A79809BB6.quest_desc: [
+			"드디어 만들었군요. 전기 시대에 오신 것을 환영합니다. 이제 진짜 모험이 시작됩니다."
+			""
+			"먼저 배터리를 만들기 위한 배터리 합금이 필요합니다. 정말 짜릿하죠."
+		]
+	quest.4A5A143A79809BB6.quest_subtitle: "배터리 합금"
+	quest.4A5A143A79809BB6.title: "전기 시대"
+	quest.4E7B1B16C7CDA84C.quest_subtitle: "증기 기계와 동일"
+	quest.532BCAB3FBF91B1D.quest_desc: [
+			"&#44DB9C업그레이드&r는 기계가 더 높은 &#4467DB오버클럭&r 상태에 도달하도록 하여 최대 속도를 높입니다."
+			""
+			"기계에는 모든 등급의 업그레이드를 최대 한 스택까지 넣을 수 있습니다. &#CEDB44기본 업그레이드&r는 개당 최대 처리량을 &#F7F448+2EU/t&r만큼 늘립니다."
+		]
+	quest.548274CC00E67EC4.quest_desc: ["전기 전송은 간단합니다. &#F5B027발전기&r와 &#3CC1FA기계&r 사이를 케이블로 연결하세요. LV 케이블은 최대 &#EEFA3C256 EU/t&r를 전송합니다."]
+	quest.548274CC00E67EC4.quest_subtitle: "케이블 전송 한계"
+	quest.548274CC00E67EC4.title: "LV 케이블"
+	quest.54CE9493B63620C4.quest_desc: ["&#AC59EB디젤 발전기&r는 여러 액체 연료를 전기로 바꿉니다. 초반에 구하기 쉬운 연료는 &7크레오소트유&r와 &8합성유&r입니다."]
+	quest.54CE9493B63620C4.quest_subtitle: "액체 연료 -> 전기"
+	quest.55BB4005BB4CA316.title: "모자나이트 처리"
+	quest.5A62260FB3850092.quest_desc: ["&e황&r, &#6ACDE6산소&r와 &9물&r을 혼합하면 &#D3D955황산&r이 됩니다. 황산은 &7망간 가루&r를 처리할 때 사용합니다."]
+	quest.5AA8D2A1F3618615.quest_subtitle: "전기 옮기기"
+	quest.5B50AC47957F0CD7.quest_desc: ["&7석유 시추기&r는 &#7A7A7A셰일유&r와 &#918686원유&r를 시추합니다."]
+	quest.5B50AC47957F0CD7.quest_subtitle: "독수리 울음소리"
+	quest.5D404ED40C6C2690.quest_subtitle: "더 많은 전력 입력"
+	quest.604C003EE6B1CC6B.quest_subtitle: "증기 기계와 동일"
+	quest.6256612D46C88C0C.quest_desc: [
+			"&#723CFA변압기&r는 전력을 한 전압 범위에서 다른 범위로 변환합니다. "
+			""
+			"&#EBC471LV&r-&#DDE548MV&r &#723CFA변압기&r: &#EBC471LV&r 전력을 &#DDE548MV&r 전력으로 변환하며 입력 5개와 출력 1개가 있습니다."
+			""
+			"&#DDE548MV&r-&#EBC471LV&r &#723CFA변압기&r: &#DDE548MV&r 전력을 &#EBC471LV&r 전력으로 변환하며 입력 1개와 출력 5개가 있습니다."
+		]
+	quest.6256612D46C88C0C.quest_subtitle: "\"자유는 모든 지각 있는 존재의 권리다\""
+	quest.6256612D46C88C0C.title: "LV-MV 변압기"
+	quest.6647A9652EFDDCDF.quest_desc: ["&#ADF0EE뜨거운 스테인리스강 주괴&r를 &#56E3DF진공 냉각기&r에 넣어 식히면 사용할 수 있는 &#ADF0EE스테인리스강 주괴&r가 됩니다."]
+	quest.66D4256F79D5B30B.quest_subtitle: "증기 기계와 동일"
+	quest.6A25ED4059E224D2.quest_desc: [
+			"&#ED5585증류소&r는 특정 유체를 증류하여 용도에 더 알맞은 산출물을 만듭니다. "
+			""
+			"하나의 입력에서 여러 산출물이 나올 때 원하는 것을 얻으려면 제작법을 고정해야 합니다. GUI에서 자물쇠 아이콘과 화살표를 차례로 누른 뒤 원하는 제작법의 &7'+'&r 아이콘을 누르세요. "
+		]
+	quest.6A25ED4059E224D2.quest_subtitle: "제작법 고정"
+	quest.6E7DF4AF86A036EC.title: "셰일유 처리"
+	quest.72FFD9E471242D68.quest_desc: ["스테인리스강은 일반 화로보다 높은 제련 온도가 필요합니다. 앞서 만든 전기 용광로를 사용해야 합니다."]
+	quest.744E620B7DEBB483.quest_desc: ["&#27CFF5진공 냉각기&r는 &#E6AD1E뜨거운 주괴&r나 특정 유체를 냉각하여 이미 생산하던 아이템의 수율을 높입니다."]
+	quest.744E620B7DEBB483.quest_subtitle: "차갑게 식히기"
+	quest.76660075F254597E.quest_desc: ["&#F5B758고급 업그레이드&r는 개당 최대 사용량을 &#EDE02F16 EU/t&r만큼 늘립니다."]
+	quest.7E3B19796870C2B1.quest_desc: ["&#9955ED화학 반응로&r는 앞으로 가장 유용하게 사용할 기계 중 하나로, 여러 화학 물질을 만듭니다."]
+	quest.7EDBE88A2CFAB353.quest_desc: [
+			"&#562FD6조립기&r는 다양한 부품과 기계를 자동으로 제작합니다."
+			"이미 사용한 일부 제작법을 &a훨씬 저렴하게&r 처리하기도 합니다."
+		]
+	quest.7EDBE88A2CFAB353.quest_subtitle: "여러 대가 필요합니다"
+	quest.7FE5864E59D7B827.quest_desc: ["&#6784EB외피&r는 기계가 받을 수 있는 전력량을 제한합니다. 업그레이드를 넣을수록 더 많은 전력을 받도록 높은 등급의 &#6784EB외피&r가 필요합니다. &#6784EB외피&r 등급은 연결할 수 있는 케이블에도 영향을 줍니다."]
+	quest.7FE5864E59D7B827.quest_subtitle: "기본 구성 요소"
+	task.12433760FD40CB3A.title: "주의 깊게 읽으세요"
+	task.1489DD401D237541.title: "전기"
+	task.1FE598387B609AE5.title: "전기 전송"
+}

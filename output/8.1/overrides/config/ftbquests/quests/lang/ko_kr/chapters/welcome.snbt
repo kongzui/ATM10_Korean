@@ -1,0 +1,15 @@
+{
+	quest.0C93D7A607AB8B83.quest_desc: ["청크를 소유하려면 &6M&r 키로 지도를 연 다음, 왼쪽 위의 &a소유한 청크&r 아이콘을 클릭하세요.\\n\\n청크를 좌클릭하거나 드래그하면 소유할 수 있습니다.\\n\\n청크를 강제 로드하려면 Shift 키를 누른 채 해당 청크를 좌클릭하세요. 제대로 설정되면 청크에 빗금이 표시됩니다."]
+	quest.3708A4780ACEB34E.quest_desc: ["이 모드팩에서 퀘스트는 선택 사항입니다. 퀘스트를 완료하지 않아도 모든 모드를 이용할 수 있습니다!\\n\\n메인 퀘스트라인 밖의 개별 퀘스트라인은 대부분 모드 가이드 역할을 합니다. 전체 진행 순서를 따라가고 싶다면 메인 퀘스트라인을 확인하세요!"]
+	quest.3BC0A50886A3222B.quest_desc: ["ATM10은 모드 Minecraft의 세계를 원하는 방식으로 자유롭게 탐험할 수 있는 키친싱크 모드팩입니다!\\n\\n질문이나 문제가 있다면 언제든 ATM Discord에 참여해 주세요!"]
+	quest.3BC0A50886A3222B.title: "&dAll The Mods 10에 오신 것을 환영합니다!"
+	quest.49EDAA2F57D3BF1D.quest_desc: ["이 퀘스트는 &6AllTheMods 스태프&r 또는 &2커뮤니티 기여자&r가 AllTheMods 모드팩에서 사용할 수 있도록 작성했습니다.\\n\\n모든 &6AllTheMods&r 모드팩은 &eAll Rights Reserved&r 라이선스를 따릅니다. &6AllTheMods 팀&r의 명시적인 허가 없이 이 퀘스트를 팀에서 출시하지 않은 공개 모드팩에 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 내용이 보인다면 편집 모드입니다."]
+	quest.5AC1BE754210429E.quest_desc: ["친구들과 팀을 만들고 싶다면 &a/ftbteams party create (팀 이름)&r 명령어를 사용하세요!"]
+	quest.7658C1C663394E85.quest_desc: ["ATM에는 유용한 명령어가 많습니다. 그중 몇 가지를 소개합니다.\\n\\n&e/sethome&r (집 이름) | 나중에 /home (집 이름)으로 돌아올 수 있는 집을 설정합니다. 예: /sethome farm으로 설정한 뒤 /home farm으로 순간이동할 수 있습니다.\\n\\n&e/spawn&r | 오버월드의 스폰 지점으로 순간이동합니다.\\n\\n&e/rtp&r | 'Random Teleport'의 약자로, 월드의 무작위 위치로 순간이동합니다.\\n\\n참고: 이 명령어에는 재사용 대기시간과 사용 제한이 있습니다. 다음 위치의 설정 파일에서 변경할 수 있습니다.\\n\\n - 싱글 플레이 | &osaves/(월드 이름)/serverconfig/ftbessentials.snbt&r\\n\\n - 서버 | &oworld/serverconfig/ftbessentials.snbt&r"]
+	task.103C42C743E2A2DB.title: "청크 소유"
+	task.10A16F89D4AD238D.title: "유용한 명령어"
+	task.201F519941A2C7F4.title: "AllRightsReserved"
+	task.2C816285392535F0.title: "AllRightsReserved"
+	task.4F13A02FB0055A62.title: "팀 생성하기"
+	task.52BB142F044075B4.title: "퀘스트"
+}

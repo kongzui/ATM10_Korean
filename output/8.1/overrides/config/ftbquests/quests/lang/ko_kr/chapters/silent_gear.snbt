@@ -1,0 +1,82 @@
+{
+	quest.002D65E4D7E8F62B.title: "2단계 등급기 촉매제"
+	quest.036D5767E07005BC.quest_desc: ["&b배출구&r는 &7액체 금속&r을 꺼낼 때 사용합니다. 손이나 양동이로 다루기에는 너무 뜨겁거든요. \\n\\n&c&l주조소&r의 &7꼭지&r를 &b배출구&r에 연결하세요. 꼭지를 우클릭하면 &7액체 금속&r이 흘러나옵니다. \\n\\n&b배출구&r를 보면 &c&l주조소&r에 들어 있는 액체의 양도 확인할 수 있습니다!"]
+	quest.036D5767E07005BC.title: "&c&l주조소&r &b배출구"
+	quest.047F3F99035CE623.quest_subtitle: "광산이 그리워요"
+	quest.061A51A0EC13CA0F.quest_desc: ["이제 &a제어기&r, &b배출구&r, &4탱크&r가 있으니 블록 몇 가지가 더 필요합니다. \\n\\n먼저 &6액체 가열 코일&r은 &c&l주조소&r의 바닥을 이루며 주조소를 가열하는 데 필요합니다. \\n\\n나머지 구조물은 &c&l주조소&r 창 또는 &c내화 벽돌&r로 채웁니다. 말 그대로 건축 블록이죠! \\n\\n&c&l주조소&r의 모서리 틀은 비워도 되지만, 완성하려면 벽 4면과 바닥이 있어야 합니다. 빠진 블록이 있다면 &a제어기&r가 위치를 알려 줍니다. \\n\\n&a제어기&r와 &6액체 가열 코일&r, 벽만 제대로 갖추면 내부가 1x1인 작은 &c&l주조소&r도 만들 수 있습니다. \\n\\n하지만 &c&l주조소&r가 클수록 내부 공간도 넓어지므로 너무 작은 &c&l주조소&r를 만드는 것은 권하지 않습니다! \\n\\n&a제어기&r가 화로처럼 빛나고 &6액체 가열 코일&r이 &6주황색&r으로 변하면 &c&l주조소&r가 완성된 것입니다."]
+	quest.061A51A0EC13CA0F.title: "&c&l주조소&r 건설"
+	quest.083ABBA1C45FF960.quest_subtitle: "단순한 잔디 깎이"
+	quest.0947B4ED95B0267E.quest_desc: ["아이템과 도구를 코팅합니다.\\n\\n네더라이트는 훌륭한 코팅 재료입니다."]
+	quest.0947B4ED95B0267E.quest_subtitle: "네더라이트만을 위한 것이 절대 아닙니다."
+	quest.0D26E5EF6CFCFDBF.quest_desc: ["단검보다 높은 내구도를 가지지만, 피해량과 속도는 더 낮습니다."]
+	quest.0D26E5EF6CFCFDBF.quest_subtitle: "찌르기"
+	quest.0DF4B01CC5B49E4E.quest_desc: ["이 주형으로 기본 검을 만들 수 있습니다! 믿을 만한 피해량과 속도를 제공합니다."]
+	quest.0DF4B01CC5B49E4E.quest_subtitle: "믿음직한 옛 친구"
+	quest.0EF9F10A2178451F.quest_desc: ["&c&l주조소&r의 모든 부품은 꼭지, 주조대, 주조 대야를 제외하고 원하는 &z색상&r으로 염색할 수 있습니다. 서로 다른 &z색상&r도 한 &c&l주조소&r에서 함께 사용할 수 있으니 원한다면 알록달록한 &c&l주조소&r를 만들어 보세요."]
+	quest.0EF9F10A2178451F.title: "&z염색 가능한 &c&l주조소&r &z부품"
+	quest.0FEAD3CA2CC4A8B1.title: "3단계 별빛 충전기 촉매제"
+	quest.11B0B93D725ABE43.quest_desc: ["Silent Gear 장비는 &9수리 키트&r를 사용하여 수리할 수 있습니다.\\n\\n아이템을 수리하려면 제작 구역에 수리 키트를 놓고 도구를 수리하는 데 필요한 재료를 함께 넣으세요. 그러면 수리 키트가 \"채워집니다\".\\n\\n도구를 수리하려면 채워진 수리 키트를 제작 구역에서 수리하려는 도구와 결합하세요."]
+	quest.11B0B93D725ABE43.quest_subtitle: "모루는 필요하지 않습니다"
+	quest.158B24939A269D83.quest_desc: ["팁 업그레이드는 도구의 채굴 등급을 높이는 데 사용합니다.\\n\\n예를 들어 철 곡괭이와 다이아몬드 1개로 다이아몬드 팁 업그레이드를 만들어 곡괭이에 장착하면 흑요석을 캘 수 있고 능력치도 향상됩니다."]
+	quest.158B24939A269D83.quest_subtitle: "다이아몬드 3개를 찾지 못했을 때"
+	quest.2156C00E30424844.quest_desc: ["&4탱크&r는 &c&l주조소&r에 액체를 넣는 데 사용합니다. \\n\\n주로 연료를 넣습니다. \\n\\n대부분 &c용암&r이죠! \\n\\n현재로서는 용암이 &c&l주조소&r에 연료를 공급하는 거의 유일한 방법입니다."]
+	quest.2156C00E30424844.title: "&c&l주조소&r &4탱크"
+	quest.222D08F43B995FED.quest_subtitle: "이것을 찌그러뜨려 보세요"
+	quest.22A0A9C81A5C85A1.quest_subtitle: "모든 부품을 하나로 묶기"
+	quest.262036FE8E87F50A.quest_subtitle: "3x3 채굴"
+	quest.26F9DB31A835B69C.quest_desc: ["&n주조소&r: &a확인&r \\n&n주조소의 액체 금속&r: &a확인&r \\n\\n이제 어떻게 꺼낼까요? \\n\\n앞에서 만난 &c&l주조소&r &b배출구&r를 새 친구인 &c&l주조소&r &7꼭지&r와 연결할 차례입니다. \\n\\n&b배출구&r에 &c&l주조소&r &7꼭지&r를 설치하면 그 아래의 블록으로 &7액체 금속&r을 흘려보낼 수 있습니다. \\n\\n&8주조 대야&r는 약 900mB의 &7액체 금속&r을 완전한 &7금속 블록&r으로 만듭니다. \\n\\n또는 &8주조대&r를 사용하면 다음에 필요한 물건을 만들 수 있습니다..."]
+	quest.26F9DB31A835B69C.title: "아이템 주조"
+	quest.29131C3532610ADF.quest_desc: ["별빛 충전기용 2단계 기둥 덮개입니다."]
+	quest.29131C3532610ADF.title: "2단계 별빛 충전기 기둥 덮개"
+	quest.2BF119DD5D977409.title: "2단계 별빛 충전기 촉매제"
+	quest.2EB96FF06627FD9A.quest_desc: ["회수기를 사용하면 장비를 분해하여 원래의 아이템으로 되돌릴 수 있습니다.\\n\\n예를 들어 다이아몬드 부츠를 넣으면 다이아몬드 4개를 되돌려 받을 수 있습니다."]
+	quest.2EB96FF06627FD9A.quest_subtitle: "(일부) 아이템 분해!"
+	quest.2EB96FF06627FD9A.title: "회수기"
+	quest.3722B43822F80470.quest_desc: ["검보다 피해량은 높지만, 속도는 더 느립니다."]
+	quest.3722B43822F80470.quest_subtitle: "내면의 사무라이를 해방하세요"
+	quest.3930404D5C8B44EB.quest_desc: ["이것은 사용자 지정 합금을 만드는 데 사용됩니다.\\n\\n또한 티리안 강철을 얻을 수 있는 유일한 방법이기도 합니다!"]
+	quest.3930404D5C8B44EB.quest_subtitle: "재료 조합"
+	quest.39B85DB54B1037FE.quest_desc: ["검보다 약간 더 빠르지만, 피해량은 더 낮습니다."]
+	quest.39B85DB54B1037FE.quest_subtitle: "두꺼운 검"
+	quest.3AC03D1FA5C341A7.quest_desc: ["재결정기를 사용하면 다양한 수정을 결합하여 무기, 도구 및 갑옷을 만드는 데 사용할 새로운 수정을 만들 수 있습니다."]
+	quest.3B560B2ECE331CAF.quest_desc: ["별빛 충전기용 3단계 기둥 덮개입니다."]
+	quest.3B560B2ECE331CAF.title: "3단계 별빛 충전기 기둥 덮개"
+	quest.3D2C6FF462B17205.quest_desc: ["낮은 피해, 매우 빠른 공격 속도. 대상의 무적 시간을 감소시킵니다."]
+	quest.3D2C6FF462B17205.quest_subtitle: "찌르기 찌르기"
+	quest.3F39BEB788175CEF.quest_subtitle: "3x3 파기!"
+	quest.405DCD3E36232EEA.quest_desc: ["검보다 피해는 낮지만, 도달 거리가 더 깁니다."]
+	quest.405DCD3E36232EEA.quest_subtitle: "내면의 스파르탄을 깨우세요"
+	quest.427516AA3E8C9442.quest_subtitle: "다용도 괭이"
+	quest.45899579D9B92D91.quest_desc: ["&a제어기&r는 &c&l주조소&r의 핵심입니다. \\n\\n모든 &c&l주조소&r에는 제어기가 1개 이상 필요합니다. \\n\\n&c&l주조소&r를 사용하면 &c&l주조소&r의 GUI를 열어 &c&l주조소&r 내부 액체의 양을 확인할 수 있습니다. \\n\\n아이템을 &c&l주조소&r에 넣거나 꺼낼 때도 사용할 수 있습니다."]
+	quest.45899579D9B92D91.title: "&c&l주조소&r &a제어기"
+	quest.462C1F75A2FB9F02.quest_subtitle: "윌리는 어디에 있나요?"
+	quest.48D358470A019E7A.title: "1단계 별빛 충전기 촉매제"
+	quest.52CDB46F6CBF007B.quest_subtitle: "이거 파는 거 재밌으세요?"
+	quest.63CAD77A4488F2CE.quest_subtitle: "곡괭이 + 도끼 + 삽"
+	quest.657B3116A6419420.quest_subtitle: "나만의 손잡이!"
+	quest.67216EC5274F08B9.quest_subtitle: "털깎이 목동이 사용함"
+	quest.69383DA579901E7E.quest_subtitle: "도끼에 대해 물어봐도 될까요?"
+	quest.6A393C7A24899E3E.quest_desc: ["재료 등급기 촉매와 함께 주괴를 재료 등급기에 넣으면 재료에 등급이 매겨집니다.\\n\\n등급이 좋을수록 재료의 능력치가 더 좋습니다.\\n\\n최고 등급은 \"MAX\"입니다."]
+	quest.6A393C7A24899E3E.quest_subtitle: "재료 시험기"
+	quest.6B78378BC8036227.title: "1단계 등급기 촉매제"
+	quest.6BBC440BD0AD0E93.quest_desc: ["&9&lSilent Gear&r를 좋아하는 사람도 있고 &7&lTinker's Construct&r를 좋아하는 사람도 있습니다. \\n\\n둘 중 하나만 고르는 대신 &9&lSilent Gear&r와 &c&lProductive Metalworks&r를 함께 사용해 두 방식의 장점을 살렸습니다! \\n\\n&c&lProductive Metalworks&r에서는 &9&lSilent Gear&r 아이템을 얻는 방식이 달라집니다. 이제 &9청사진&r 대신 &8주형&r과 &c&l주조소&r가 필요합니다. \\n\\n&c&l주조소&r 제작은 &c내화 점토&r부터 시작하세요."]
+	quest.6BBC440BD0AD0E93.title: "&9&lSilent Gear&r와 &c&lProductive Metalworks"
+	quest.6BFD7854F078BF16.quest_subtitle: "이것을 꽉 잡으세요"
+	quest.711826BBCA832EE2.quest_desc: ["모든 &8주형&r은 같은 방법으로 만듭니다. \\n\\n&8주조대&r에 아이템을 놓고 그 위에 &8강철&r을 부으면 됩니다! \\n\\n&8강철&r은 &8강철 아이템이나 주괴&r를 녹여 얻을 수 있습니다. 또는 &7철&r 9개와 &0석탄&r 10개를 합금으로 만들 수도 있습니다. \\n\\n&c&l주조소&r가 &6가열&r되어 있고 서로 다른 &7액체 금속&r이 정확한 양만큼 들어 있으면 합금이 만들어집니다. 두 &7액체 금속&r이 하나의 새로운 &7액체 금속&r으로 합쳐집니다!"]
+	quest.711826BBCA832EE2.title: "&8주형"
+	quest.766C80E5D7B7A916.quest_subtitle: "하나 고르세요!"
+	quest.769D5DE66D13B256.quest_desc: ["이 퀘스트는 &6AllTheMods 스태프&r 또는 &2커뮤니티 기여자&r가 AllTheMods 모드팩에 사용하기 위해 작성했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r 라이선스로 보호되므로, &6AllTheMods 팀&r의 명시적인 허가 없이 다른 공개 모드팩에 이 퀘스트를 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 문구가 보인다면 편집 모드입니다."]
+	quest.7C3D763CF22D167A.quest_desc: ["별빛 충전기는 재료에 \"별빛 충전\" 특성을 부여할 수 있습니다.\\n\\n밤하늘이 보이는 곳에서 별빛 충전기를 중심으로 구조물을 지어야 하며 밤에만 별빛 에너지를 얻습니다.\\n\\n충전기는 7x7 구조물의 중앙에 놓고 각 모서리에 기둥을 세워야 합니다. 각 기둥에는 \"별빛 충전기 기둥 덮개\"가 필요합니다.\\n\\n재료마다 충전기 촉매제도 하나씩 필요합니다."]
+	quest.7C3D763CF22D167A.quest_subtitle: "재료에 특성 부여"
+	quest.7C3D763CF22D167A.title: "&d별빛 충전기"
+	quest.7D690A7D0FF6E328.title: "3단계 등급기 촉매제"
+	quest.7E13007340A818C5.quest_desc: ["별빛 충전기용 1단계 기둥 덮개입니다."]
+	quest.7E13007340A818C5.title: "1단계 별빛 충전기 기둥 덮개"
+	task.2AE89914A34BF3AD.title: "내화 벽돌 또는 주조소 창"
+	task.3B23E744D3B72AE8.title: "내화 벽돌 또는 주조소 창"
+	task.511ECEA2E9BD1F71.title: "#productivemetalworks:foundry_drains 태그의 아무 아이템"
+	task.51297F6E0D9BB58C.title: "#productivemetalworks:foundry_tanks 태그의 아무 아이템"
+	task.55E0635973A828B0.title: "AllRightsReserved"
+	task.6D9DBD885FE4C94C.title: "AllRightsReserved"
+	task.76E296A2AD3EFE92.title: "#productivemetalworks:foundry_controllers 태그의 아무 아이템"
+}

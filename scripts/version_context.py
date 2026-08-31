@@ -71,6 +71,16 @@ def active_output_root() -> Path:
     return output_root(load_version_context()["active_pack_version"])
 
 
+def active_pack_version() -> str:
+    """현재 번역 대상으로 선택한 ATM10 버전을 반환한다."""
+    return load_version_context()["active_pack_version"]
+
+
+def baseline_pack_version() -> str:
+    """재기준화 출발점으로 선택한 ATM10 버전을 반환한다."""
+    return load_version_context()["baseline_pack_version"]
+
+
 def output_relative_path(value: str | Path) -> Path:
     """구형·버전형 output 참조를 활성 output 내부 상대 경로로 정규화한다."""
     relative = Path(value)

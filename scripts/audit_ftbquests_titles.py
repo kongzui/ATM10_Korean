@@ -14,12 +14,13 @@ from typing import Any
 
 import build_ae2_quests as lang_snbt
 import ftbquests_title_rules as title_rules
+import rebase_ftbquests
 from local_paths import resolve_source_root
 from version_context import active_report_dir
 from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_LANG = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_LANG = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr"
 REPORT_JSON = active_report_dir() / "ftbquests_title_audit.json"
 REPORT_CSV = active_report_dir() / "ftbquests_title_audit.csv"
 FORMAT_RE = re.compile(r"&[0-9a-fklmnor]", re.IGNORECASE)
@@ -329,6 +330,24 @@ def text_value(values: dict[str, lang_snbt.TranslationValue], key: str) -> str:
     return "\n".join(value) if isinstance(value, list) else value
 
 
+def load_output_language(root: Path) -> dict[str, lang_snbt.TranslationValue]:
+    """현재 버전의 분할 FTB Quests 산출물을 중복 없이 읽는다."""
+    values: dict[str, lang_snbt.TranslationValue] = {}
+    key_files: dict[str, Path] = {}
+    for path in sorted(root.rglob("*.snbt"), key=lambda item: item.as_posix().lower()):
+        for key, value in lang_snbt.parse_language_snbt(path).items():
+            if key in values:
+                raise ValueError(
+                    f"출력 키가 여러 파일에 있습니다: {key} "
+                    f"({key_files[key]}, {path})"
+                )
+            values[key] = value
+            key_files[key] = path
+    if not values:
+        raise FileNotFoundError(f"분할 FTB Quests 출력이 없습니다: {root}")
+    return values
+
+
 def canonical_navigation(source: str, kind: str) -> str:
     if kind == "group":
         return GENERAL_GROUP_TITLES.get(source, source)
@@ -373,10 +392,12 @@ def main() -> int:
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
     quest_root = instance / "config/ftbquests/quests"
-    lang_root = quest_root / "lang"
-    english = lang_snbt.parse_language_snbt(lang_root / "en_us.snbt")
-    current = lang_snbt.parse_language_snbt(OUTPUT_LANG)
-    baseline = lang_snbt.parse_language_snbt(lang_root / "ko_kr.snbt")
+    english, _ = rebase_ftbquests.load_split(instance, "en_us")
+    current = load_output_language(OUTPUT_LANG)
+    baseline, _ = rebase_ftbquests.load_split(instance, "ko_kr")
+    omitted_keys = set(
+        json.loads(rebase_ftbquests.OMITTED_KEYS.read_text(encoding="utf-8"))
+    )
     chapters, object_ids = parse_chapters(quest_root)
     group_ids = set(
         re.findall(r"[0-9A-F]{16}", (quest_root / "chapter_groups.snbt").read_text())
@@ -417,6 +438,8 @@ def main() -> int:
     ):
         for object_id in sorted(ids):
             key = f"{prefix}.{object_id}.title"
+            if key in omitted_keys:
+                continue
             source = text_value(english, key)
             if not source:
                 continue
@@ -549,6 +572,7 @@ def main() -> int:
                 if (
                     not current_task_title
                     and source_task_title
+                    and task_key not in omitted_keys
                     and not redundant_item_title
                     and strip_formatting(source_task_title) != "AllRightsReserved"
                 ):
@@ -655,8 +679,9 @@ def main() -> int:
 
     changed_title_keys = {
         key
-        for key in set(baseline) | set(current)
+        for key in (set(baseline) | set(current)) & set(english)
         if baseline.get(key) != current.get(key)
+        and key.split(".")[1] in object_ids
         and (
             key.endswith(".title")
             or key.endswith(".quest_subtitle")

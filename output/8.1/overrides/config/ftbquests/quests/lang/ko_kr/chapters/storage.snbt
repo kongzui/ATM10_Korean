@@ -1,0 +1,170 @@
+{
+	quest.00DB5495C3A44999.quest_desc: ["인벤토리를 Shift+우클릭하면 배낭을 비웁니다."]
+	quest.0108F3EFDFD6DFD0.quest_desc: ["저장소 연결기를 사용하면 저장소 제어기나 그에 연결된 블록에 닿지 않은 별도의 저장소들을 연결할 수 있습니다.\\n\\n각 저장소를 하나씩 제어기에 직접 연결하지 않고도 멀티블록 저장소를 무선으로 이어 주는 방법입니다.\\n\\n연결 범위는 마찬가지로 14블록입니다."]
+	quest.019CA0E35F888222.quest_subtitle: "추가 필터 옵션"
+	quest.019CA0E35F888222.title: "&e고급 재입고 업그레이드"
+	quest.0298A17C2AAC5765.quest_desc: ["배낭의 슬롯당 스택 한도를 8배로 늘립니다."]
+	quest.0298A17C2AAC5765.title: "&b3단계 스택 업그레이드"
+	quest.037415D5B965E214.quest_desc: ["배낭이 파괴되거나 사라지지 않게 합니다."]
+	quest.0682DC1F2417DAEB.quest_desc: ["Functional Storage는 같은 아이템을 대량으로 보관하는 서랍과 여러 저장 편의 아이템을 추가하는 모드입니다.\\n\\n조약돌이나 흙처럼 많이 쌓이는 아이템을 보관할 때 유용합니다."]
+	quest.0682DC1F2417DAEB.quest_subtitle: "Storage Drawers 먼 친척"
+	quest.0682DC1F2417DAEB.title: "Functional Storage"
+	quest.072FBEB0F6F1BC48.quest_desc: ["서랍을 컨트롤러에 연결하고 엔더 서랍을 연결하는 데 사용됩니다.\\n\\n서랍을 컨트롤러에 연결하려면 컨트롤러 블록을 우클릭하여 구성을 시작하세요. 서랍을 우클릭하면 네트워크에 추가됩니다.\\n\\n도구를 들고 있으면 어떤 서랍이 컨트롤러에 연결되어 있는지 보여줍니다."]
+	quest.0CD04A00529FE1C9.quest_desc: ["구리 상자를 만들 수 있지만 철 상자의 필수 재료는 아닙니다. 철을 아끼고 싶을 때 거쳐 갈 수 있는 선택지예요."]
+	quest.0CD04A00529FE1C9.title: "&6구리 상자"
+	quest.0D4C64DD58567758.quest_desc: ["배낭에 유체 탱크를 추가합니다."]
+	quest.0E057B7F76401421.quest_subtitle: "첫 업그레이드"
+	quest.0E057B7F76401421.title: "&6구리 배낭"
+	quest.0E0CAA31480EC0A1.quest_desc: ["배낭이 아이템을 자동으로 줍게 합니다."]
+	quest.0E0CAA31480EC0A1.quest_subtitle: "아이템 자동 줍기"
+	quest.0E5AE195158CF344.quest_subtitle: "x32 저장 업그레이드"
+	quest.0E5AE195158CF344.title: "&d네더라이트 업그레이드"
+	quest.110D27EA86CDA62B.quest_desc: ["주변 아이템을 끌어당겨 배낭에 넣습니다."]
+	quest.11D4EEAC61C7E530.quest_desc: ["수집기 업그레이드는 서랍이 한쪽 면에서 아이템을 빨아들이게 합니다."]
+	quest.11D57C768032E3F7.quest_subtitle: "추가 필터 옵션"
+	quest.11D57C768032E3F7.title: "&e고급 자석 업그레이드"
+	quest.122FBF5110E4CFF2.quest_desc: ["철 다운그레이드는 서랍의 슬롯당 최대 보관량을 한 스택으로 낮춥니다. 아이템 재고를 유지하되 너무 많이 쌓이지 않게 할 때 유용합니다."]
+	quest.1310C1E14C259807.quest_desc: ["사용자 지정 서랍을 갖고 싶으신가요? 더 이상 찾아보지 마세요. 이 서랍들은 겉면은 블록의 텍스처를, 앞면은 다른 텍스처를 모방할 수 있습니다.\\n\\n사용 방법은 툴팁을 참조하세요."]
+	quest.134608BB2B04D96E.quest_desc: ["상자에는 27칸이 있으며, 두 개를 이어 붙이면 두 배를 보관할 수 있는 큰 상자가 됩니다."]
+	quest.134608BB2B04D96E.quest_subtitle: "상자"
+	quest.134608BB2B04D96E.title: "바닐라 저장소"
+	quest.156FF8B7B724DC38.quest_desc: ["배낭으로 들어오거나 배낭에서 나가는 아이템을 필터링합니다."]
+	quest.15CD4BFDC56E9510.quest_subtitle: "추가 필터 옵션"
+	quest.15CD4BFDC56E9510.title: "&e고급 도구 교체 업그레이드"
+	quest.1659A59303C15CC9.quest_desc: ["통은 상자처럼 작동하지만 두 개를 1개로 합칠 수는 없습니다. 그래도 멋지게 생겼죠."]
+	quest.17DC77F7F8C68AE6.quest_desc: ["쓰레기통은 원치 않는 아이템, 액체, 그리고 힘(power)을 파괴하는 방법으로 작동합니다."]
+	quest.17DC77F7F8C68AE6.quest_subtitle: "과잉 제거"
+	quest.17DC77F7F8C68AE6.title: "쓰레기통"
+	quest.1985CFD1F0425E88.quest_subtitle: "추가 필터 옵션"
+	quest.1985CFD1F0425E88.title: "&e고급 줍기 업그레이드"
+	quest.19DFAEB6D88F3580.quest_desc: ["넣기 업그레이드를 사용하면 서랍에서 모든 면으로 아이템을 밀어낼 수 있습니다."]
+	quest.1A4B1CA7EC15348E.quest_desc: ["&a연결 도구&r를 사용하면 엔더 서랍 2개를 연결해 내용물을 동기화할 수 있습니다.\\n\\n서랍 형태의 엔더 상자처럼 작동합니다.\\n\\n연결하려면 &a연결 도구&r로 첫 번째 엔더 서랍의 바깥쪽 면을 좌클릭한 뒤, 웅크린 채 우클릭으로 두 번째 엔더 서랍을 선택하세요."]
+	quest.1A4B1CA7EC15348E.quest_subtitle: "차원의 서랍..."
+	quest.1A739D36D5E3B1AD.quest_subtitle: "추가 필터 옵션"
+	quest.1A739D36D5E3B1AD.title: "&e고급 식사 업그레이드"
+	quest.1B72E95569B07E18.quest_subtitle: "x24 저장 업그레이드"
+	quest.1B72E95569B07E18.title: "&b다이아몬드 업그레이드"
+	quest.1CACE201C6AA0913.quest_desc: ["이 업그레이드는 서랍이 가득 찼을 때 들어오는 초과 아이템을 소멸시킵니다.\\n\\n아이템이 넘치거나 저장 공간이 꽉 차서 자동화 장치가 막히는 일을 방지할 때 유용합니다."]
+	quest.1CD2C6AFD788C35E.quest_desc: ["배낭 안의 아이템을 2x2 제작법으로 압축합니다."]
+	quest.1E499F94A2A193E1.quest_desc: ["배낭에 용광로 GUI를 추가합니다."]
+	quest.1FE052F643401232.quest_desc: ["배낭 업그레이드를 제작할 때 필요한 기반 부품입니다."]
+	quest.1FE052F643401232.quest_subtitle: "업그레이드의 기반"
+	quest.1FE17B1C7C639F88.quest_desc: ["저장소 제어기를 사용하면 여러 저장소를 하나의 큰 멀티블록 저장소처럼 다룰 수 있습니다.\\n\\n저장소 제어기는 연결된 모든 저장소의 입출력 지점 역할을 하므로, 거대한 저장소 네트워크를 만들고 Applied Energistics나 Integrated Dynamics 같은 모드와 연동할 수 있습니다.\\n\\n저장소를 제어기 옆이나 이미 연결된 저장소 옆에 놓으면 자동으로 연결됩니다. 모든 방향으로 제어기에서 14블록까지 작동합니다."]
+	quest.209DC1E9AD4C5A84.quest_desc: ["이 퀘스트는 &6AllTheMods Staff&r 또는 AllTheMods 모드팩에서 사용하기 위해 &2커뮤니티 기여자&r가 제작했습니다.\\n\\n모든 &6AllTheMods&r 팩은 &eAll Rights Reserved&r에 따라 라이선스가 부여되므로, 이 퀘스트는 명시적인 허가 없이 &6AllTheMods Team&r에서 출시하지 않은 공개 팩에서 사용할 수 없습니다.\\n\\n이 퀘스트는 의도적으로 숨겨져 있습니다. 이 메시지가 보인다면 편집 모드에 있는 것입니다."]
+	quest.25AFD10D008DF30B.quest_desc: ["엔더 상자는 모두 같은 보관함을 공유하며, 보관 내용은 플레이어마다 다릅니다. 두 개를 1개로 합칠 수는 없습니다."]
+	quest.26988E22BD019628.quest_desc: ["배낭 안의 광석과 금속 재료를 용광로로 자동 제련합니다."]
+	quest.26988E22BD019628.quest_subtitle: "자동"
+	quest.26988E22BD019628.title: "&e자동 용광로 업그레이드"
+	quest.26A9F402DAE15EA2.quest_desc: ["배낭에 훈연기 GUI를 추가합니다."]
+	quest.2746575C929B6C50.quest_desc: ["서랍은 1x1, 2x1 또는 2x2 크기로 만들 수 있습니다. 서랍의 유형에 따라 엄청난 양의 아이템 스택을 1/2/4개씩 담을 수 있습니다."]
+	quest.2746575C929B6C50.quest_subtitle: "스택 위에 스택"
+	quest.2B422B7E0CE3590D.quest_desc: ["압축 서랍은 내부에 넣은 아이템을 작은 조각 또는 블록 형태로 변환할 수 있습니다.\\n\\n예를 들어, 이 안에 철 주괴를 넣으면 9개의 작은 조각을 꺼낼 수 있고, 더 많은 철을 넣으면 철 블록으로 변환됩니다."]
+	quest.2B422B7E0CE3590D.quest_subtitle: "자동 압축/압축 해제"
+	quest.2F9B0C642A6BE30C.title: "&f철 배낭"
+	quest.2FC15D3916DBF4E4.quest_subtitle: "추가 필터 옵션"
+	quest.2FC15D3916DBF4E4.title: "&e고급 제거 업그레이드"
+	quest.33882172DA8021F6.quest_desc: ["배낭 안의 아이템으로 플레이어 인벤토리의 지정된 스택을 계속 보충합니다."]
+	quest.33AADC1B97E9F7A9.quest_desc: ["상자가 실린 광산 수레에는 탈 수 없지만, 레일을 따라 아이템을 운반할 때 유용합니다."]
+	quest.36BCE35215B2B6E9.quest_desc: ["배낭 안의 음식을 훈연기로 자동 조리합니다."]
+	quest.36BCE35215B2B6E9.quest_subtitle: "자동"
+	quest.36BCE35215B2B6E9.title: "&e자동 훈연기 업그레이드"
+	quest.38F9E9A830D3EA0C.quest_desc: ["이 모드가 아이템 저장만을 위한 것이라고 생각했다면 오산입니다. 액체 서랍도 있습니다!\\n\\n일반 서랍과 작동 방식은 동일하지만, 액체를 저장한다는 점이 다릅니다."]
+	quest.3A1D07AED2A841E4.quest_desc: ["배낭 안의 아이템을 화로로 자동 제련합니다."]
+	quest.3A1D07AED2A841E4.quest_subtitle: "자동"
+	quest.3A1D07AED2A841E4.title: "&e자동 화로 업그레이드"
+	quest.3B570B3DB5F6D2CB.quest_subtitle: "x16 저장 업그레이드"
+	quest.3B570B3DB5F6D2CB.title: "&e금 업그레이드&r"
+	quest.3D5852E6D0ADF651.title: "차원 저장소"
+	quest.3E33730DC2115D26.title: "&e금 상자"
+	quest.4007DFA7CC3A5FF2.quest_desc: ["이 &o퀘스트 구역 전체&r를 업그레이드로 가득 채우지 않도록 Sophisticated Backpacks의 업그레이드들을 살펴보세요.\\n\\nSophisticated Storage용 대응 업그레이드를 만들어야 하지만 기능은 거의 같습니다."]
+	quest.4007DFA7CC3A5FF2.quest_subtitle: "업그레이드의 기반"
+	quest.45268A619787288F.title: "&e금 배낭"
+	quest.46D756F4DC6CC894.title: "&d네더라이트 배낭"
+	quest.485D5664A17E16DF.quest_subtitle: "x8 저장 업그레이드"
+	quest.485D5664A17E16DF.title: "&6구리 업그레이드"
+	quest.4A854CD5EC70733E.quest_desc: ["배낭에 제작대 GUI를 추가합니다."]
+	quest.4B62AF0405F68041.quest_desc: ["배낭에 항상 채워 둘 아이템을 지정하는 필터를 추가합니다. 인벤토리를 Shift+우클릭하면 그 인벤토리에서 배낭을 보충합니다."]
+	quest.4B62AF0405F68041.quest_subtitle: "가득 채워 두기"
+	quest.4C0BDD483CCB40C4.title: "&b다이아몬드 상자"
+	quest.4C0EAB9F795686D0.quest_subtitle: "추가 필터 옵션"
+	quest.4C0EAB9F795686D0.title: "&e고급 보관 업그레이드"
+	quest.4C2A60FC1F1E0328.quest_desc: ["배낭에 에너지 저장용 배터리를 추가합니다."]
+	quest.4E4C8BCD45766F03.quest_desc: ["이 서랍은 내부에 놓인 아이템을 자동으로 압축된 형태로 변환합니다."]
+	quest.4E4C8BCD45766F03.quest_subtitle: "자동 압축/압축 해제"
+	quest.508A8366219175FE.quest_desc: ["구성 도구는 서랍이 안에 든 아이템 종류를 기억하도록 잠그는 데 사용합니다.\\n\\n서랍에 아이템을 넣고 꺼내는 자동화 시스템을 구성할 때 유용합니다. 잠긴 서랍은 비어도 지정된 아이템 종류가 다른 것으로 바뀌지 않습니다!"]
+	quest.52672B7FFFD51D16.quest_desc: ["배낭에 석재 절단기 GUI를 추가합니다."]
+	quest.53F861876B991C36.quest_desc: ["배낭에 주크박스 GUI를 추가합니다."]
+	quest.53F861876B991C36.quest_subtitle: "이제 음악을 즐겨 볼까요?"
+	quest.544791880F315D5A.quest_desc: ["상자가 실린 보트는 탑승한 상태에서도 상자를 열 수 있으며, 보트를 우클릭해 열 수도 있습니다. 한 번에 한 명만 탈 수 있습니다."]
+	quest.56B80A7EBFE21428.quest_subtitle: "추가 필터 옵션"
+	quest.56B80A7EBFE21428.title: "&e고급 펌프 업그레이드"
+	quest.57CF8C6C867B9BDA.quest_subtitle: "추가 필터 옵션"
+	quest.57CF8C6C867B9BDA.title: "&e고급 필터 업그레이드"
+	quest.58514FDE153FD971.quest_subtitle: "철 상자?"
+	quest.58514FDE153FD971.title: "&f철 상자"
+	quest.5A94A2664BFDD7B9.quest_desc: ["기본 저장소 챕터에 오신 것을 환영합니다!\\n\\n전력 없이 아이템을 보관하는 기본적인 방법과 저장에 유용한 여러 아이템을 알아볼 수 있습니다!"]
+	quest.5A94A2664BFDD7B9.title: "기본 저장소"
+	quest.5E4BC0F59C90433A.quest_desc: ["Sophisticated Storage에서는 상자와 통을 금속 등급으로 업그레이드해 저장 용량을 늘릴 수 있습니다! 여러 업그레이드를 장착해 기능도 확장할 수 있어요.\\n\\n바닐라 상자나 통처럼 사용할 수 있지만, 저장소 업그레이드를 장착하는 전용 슬롯이 있습니다!"]
+	quest.5E4BC0F59C90433A.quest_subtitle: "\"바닐라 상자\""
+	quest.5E4BC0F59C90433A.title: "Sophisticated Storage"
+	quest.5E4FE420B6D2C97F.quest_desc: ["배낭 안의 아이템을 3x3 제작법으로 압축합니다."]
+	quest.5E4FE420B6D2C97F.quest_subtitle: "추가 필터 옵션"
+	quest.5E4FE420B6D2C97F.title: "&e고급 압축 업그레이드"
+	quest.5FA9BC0D8476D322.quest_desc: ["배낭 안의 음식을 플레이어에게 자동으로 먹입니다."]
+	quest.615B9062FE8CCD36.quest_desc: ["바라보는 블록에 가장 효과적인 도구로 자동 교체합니다."]
+	quest.61A22707DBC83818.quest_desc: ["컨트롤러 접속 포인트는 저장소 컨트롤러에 연결하면 컨트롤러처럼 아이템을 넣고 꺼낼 수 있습니다. 서랍 네트워크의 추가 출입구 역할을 합니다."]
+	quest.668C313FF46B6005.quest_desc: ["배낭에 화로 GUI를 추가합니다."]
+	quest.67704F7341EDCC49.title: "&b다이아몬드 배낭"
+	quest.696E063016CAD1B9.quest_desc: ["Chipped 작업대의 제작 GUI를 배낭에 추가합니다."]
+	quest.6A2B2C5E2ADCE366.quest_desc: ["Sophisticated Backpacks는 필터와 여러 업그레이드로 편리한 기능을 더할 수 있는 배낭을 제공합니다!\\n\\n배낭은 Curios의 등 슬롯에 장착할 수 있고 원하는 색으로 염색할 수도 있습니다."]
+	quest.6A2B2C5E2ADCE366.quest_subtitle: "인벤토리가 너무 작다면"
+	quest.6A2B2C5E2ADCE366.title: "Sophisticated Backpacks"
+	quest.6E3D53D1C4569A89.quest_desc: ["플레이어와 배낭 사이에서 경험치를 이동합니다."]
+	quest.6E3D53D1C4569A89.quest_subtitle: "경험치 저장"
+	quest.6E3D53D1C4569A89.title: "&a경험치 펌프 업그레이드"
+	quest.6E9041744C592573.quest_desc: ["탱크 업그레이드의 유체를 펌프로 이동할 수 있게 합니다."]
+	quest.6FBAE89EE782DABA.quest_desc: ["설치한 뒤 다른 서랍과 &a연결 도구&r로 연결하면 컨트롤러가 '허브' 역할을 합니다.\\n\\n컨트롤러를 빠르게 두 번 우클릭하면 인벤토리에서 서랍 네트워크에 보관 중인 종류의 아이템이 모두 네트워크로 옮겨집니다.\\n\\n빈손으로 웅크린 채 컨트롤러를 우클릭하면 업그레이드 탭이 열립니다. 일반 저장 업그레이드를 슬롯에 넣어 컨트롤러 범위를 늘릴 수 있습니다. 최대 범위는 각 방향으로 40블록, 전체 80x80x80 크기입니다."]
+	quest.6FBAE89EE782DABA.quest_subtitle: "서랍의 두뇌"
+	quest.70902EF96F060672.quest_desc: ["이 업그레이드는 서랍의 모든 면에서 레드스톤 신호를 출력하며, 신호 세기로 서랍이 얼마나 차 있는지 나타냅니다.\\n\\n슬롯이 여러 개인 서랍에서는 감시할 슬롯을 설정할 수 있습니다.\\n\\n0 - 비어 있음\\n15 - 가득 참"]
+	quest.7649D648A3688D4A.quest_desc: ["꺼내기 업그레이드를 사용하면 서랍이 모든 면에서 아이템을 끌어당길 수 있습니다."]
+	quest.77F241BEE9902751.quest_desc: ["Sophisticated Storage에서 가장 큰 상자입니다."]
+	quest.77F241BEE9902751.quest_subtitle: "활동할 공간이 정말 많네요!"
+	quest.77F241BEE9902751.title: "&d네더라이트 상자"
+	quest.785951190FFDAA21.quest_desc: ["배낭의 슬롯당 스택 한도를 4배로 늘립니다."]
+	quest.785951190FFDAA21.title: "&e2단계 스택 업그레이드"
+	quest.78E51D22C16C4686.quest_desc: ["저장소 제어기는 저장소 도구를 이용해 떨어진 저장소도 무선으로 연결할 수 있습니다. 저장소 제어기를 우클릭해 도구에 등록한 뒤, 연결할 저장소를 우클릭하세요.\\n\\n무선 연결 범위도 일반 연결과 같은 14블록입니다."]
+	quest.7AE3C8134F5ED726.quest_desc: ["배낭의 슬롯당 스택 한도를 16배로 늘립니다."]
+	quest.7AE3C8134F5ED726.title: "&d4단계 스택 업그레이드"
+	quest.7C07D6A33F7ADB02.quest_desc: [
+			"배낭 안에 다른 배낭을 넣을 수 있게 해 주는 업그레이드예요."
+			""
+			"그러니 배낭 속 배낭이 필요할 때를 위해 배낭 속에 배낭을 넣어 둘 수 있죠."
+		]
+	quest.7C07D6A33F7ADB02.quest_subtitle: "배낭 속 배낭?"
+	quest.7C0F7A1B3AB9A1A1.quest_subtitle: "추가 필터 옵션"
+	quest.7C0F7A1B3AB9A1A1.title: "&e고급 보충 업그레이드"
+	quest.7E9E03274A88347D.quest_desc: ["배낭의 슬롯당 스택 한도를 2배로 늘립니다."]
+	quest.7E9E03274A88347D.title: "&f1단계 스택 업그레이드"
+	quest.7EF57BBEAA4B6B08.quest_desc: ["&9어플라이드 에너제틱스 2&r와 같은 모드를 사용하여 가상 저장소를 만들고 싶으신가요?\\n\\n이러한 방법은 저장소를 상위 버전으로 변환하는 좋은 방법이지만, &eNBT 아이템&r과 이를 저장하는 best 방법에 대해 이야기하는 것이 중요합니다.\\n\\nNBT 아이템은 추가 태그가 부착된 아이템입니다. 마법 부여된 아이템, 내구도가 있는 아이템 등이 있습니다. 이러한 아이템에는 NBT 태그가 부착되어 있기 때문에 일반적으로 스택으로 쌓이지 않습니다.\\n\\nAE2와 같은 저장 시스템에 이러한 아이템을 많이 저장하면 저장 또는 서버에 문제를 유발할 chance가 있습니다.\\n\\n따라서 상자나 가방에 저장하는 것이 best입니다!"]
+	quest.7EFBFF5D0DA018E7.quest_desc: ["배낭에서 자동으로 제거할 아이템을 지정하는 필터를 추가합니다."]
+	quest.7EFBFF5D0DA018E7.quest_subtitle: "자동 제거 필터"
+	quest.7F990FBC1A691020.quest_desc: ["함정 상자는 일반 상자와 비슷하지만, 열었을 때 레드스톤 신호를 내보내며 두 개를 1개로 합칠 수 없습니다."]
+	quest.7F990FBC1A691020.quest_subtitle: "\"여기 안에는 뭐가 들어있을까?\""
+	task.00ED02255105A973.title: "다이아몬드 상자"
+	task.0427B441A750316F.title: "금 상자"
+	task.073D1C45B3018BBA.title: "상자"
+	task.14FA4A933C39A406.title: "상자가 실린 보트"
+	task.1809DDEA104A9CE8.title: "AllRightsReserved"
+	task.200CE35BF3C04F6F.title: "구리 상자"
+	task.21FBC4E0F668347C.title: "NBT와 당신!"
+	task.26A85DCA60F71DFF.title: "액체 서랍"
+	task.2E04D0F6EEABE677.title: "서랍"
+	task.301665A6315B569C.title: "스토리지 컨트롤러"
+	task.349B2DA0A38AE9B5.title: "틀이 있는 서랍들"
+	task.34B6EB0B801E4743.title: "네더라이트 상자"
+	task.49F46466DB8EDD61.title: "철 상자"
+	task.51CC9A8E36385400.title: "상자"
+	task.593CD1E685B4DDAA.title: "Chipped 업그레이드"
+	task.5DEBE38C614EFBB4.title: "AllRightsReserved"
+	task.6205B6B93B306A12.title: "상자"
+}
