@@ -1,8 +1,10 @@
 {
   "family": "herbsandharvest",
-  "reviewed_language_keys": 865,
-  "existing_korean_reused": 0,
-  "new_language_translations": 865,
+  "reviewed_language_keys": 878,
+  "existing_korean_reused": 766,
+  "changed_source_translations": 7,
+  "new_language_translations": 105,
+  "removed_language_keys": 92,
   "guide_direct_translations": 148,
   "ftbquests_work": "not_present",
   "kubejs_work": "ids_only",

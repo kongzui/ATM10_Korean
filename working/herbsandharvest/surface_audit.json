@@ -1,19 +1,19 @@
 {
   "family": "herbsandharvest",
-  "jar": "herbsandharvest-1.21.1-15.jar",
-  "data_json_files": 2941,
+  "jar": "herbsandharvest-1.21.1-19.jar",
+  "data_json_files": 2949,
   "data_counts": {
-    "advancement": 195,
+    "advancement": 197,
     "loot_modifiers": 2396,
-    "loot_table": 119,
+    "loot_table": 124,
     "neoforge": 10,
-    "recipe": 195,
+    "recipe": 196,
     "tags": 6,
     "worldgen": 20
   },
-  "advancement_files": 195,
+  "advancement_files": 197,
   "advancement_displays": [],
-  "recipe_files": 195,
+  "recipe_files": 196,
   "visible_data_fields": [],
   "references": {
     "ftbquests": [],

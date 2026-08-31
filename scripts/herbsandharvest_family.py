@@ -16,7 +16,11 @@ from version_context import active_output_root
 FAMILY = "herbsandharvest"
 MOD_ID = "herbsandharvest"
 JAR_PATTERN = "herbsandharvest-*.jar"
-EXPECTED_KEYS = 865
+EXPECTED_KEYS = 878
+REUSED_LANGUAGE_KEYS = 766
+CHANGED_SOURCE_KEYS = 7
+NEW_LANGUAGE_KEYS = 105
+REMOVED_LANGUAGE_KEYS = 92
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
 OUTPUT_ROOT = active_output_root() / "resourcepack/ATM10_Korean/assets/herbsandharvest"
 LANG_OUTPUT = OUTPUT_ROOT / "lang/ko_kr.json"
@@ -158,6 +162,18 @@ NAMES = {
 EXACT_NAMES = {
     "Herbs & Harvest": "Herbs & Harvest",
     "Herbs & Harvest: Pantry": "Herbs & Harvest: 팬트리",
+    "Cinnamon Tree Bottom": "시나몬나무 아래쪽",
+    "Cinnamon Tree Top": "시나몬나무 위쪽",
+    "Corn Crop": "옥수수 작물",
+    "Eggplant Crop": "가지 작물",
+    "Pea Crop": "완두콩 작물",
+    "Tomato Crop": "토마토 작물",
+    "Orange Fruit Sapling": "오렌지나무 묘목",
+    "Add the Grape Trellis structure to Villages": "마을에 포도 격자 구조물 추가",
+    "Add Herbs and Harvest crops to Villager gardens": (
+        "주민 텃밭에 Herbs and Harvest 작물 추가"
+    ),
+    "Give Guide Book on first join": "처음 접속할 때 가이드북 지급",
     "Jar": "보관 병",
     "Spice Jar": "향신료 병",
     "Ingredient Jar": "재료 보관 병",
@@ -1553,11 +1569,28 @@ def visible_fields(raw: str) -> list[tuple[str, str]]:
 
 
 def normalized_book_structure(raw: str) -> str:
-    """직접 표시 값만 표식으로 바꿔 나머지 바이트 구조를 비교해요."""
+    """직접 표시 값과 문자열 밖의 배치용 공백을 제외해 구조를 비교해요."""
     replaced = VISIBLE_BOOK_FIELD.sub(
         lambda match: f'{match.group(1)}"__VISIBLE__"', raw
     )
-    return normalize_book_layout(replaced)
+    normalized = []
+    in_string = False
+    escaped = False
+    for char in replaced:
+        if in_string:
+            normalized.append(char)
+            if escaped:
+                escaped = False
+            elif char == "\\":
+                escaped = True
+            elif char == '"':
+                in_string = False
+        elif char == '"':
+            normalized.append(char)
+            in_string = True
+        elif not char.isspace():
+            normalized.append(char)
+    return "".join(normalized)
 
 
 def verify_books() -> tuple[dict[str, object], list[str]]:
@@ -1707,8 +1740,10 @@ def verify() -> tuple[dict[str, object], list[str]]:
     translation_report = {
         "family": FAMILY,
         "reviewed_language_keys": language.get("keys", 0),
-        "existing_korean_reused": 0,
-        "new_language_translations": language.get("keys", 0),
+        "existing_korean_reused": REUSED_LANGUAGE_KEYS,
+        "changed_source_translations": CHANGED_SOURCE_KEYS,
+        "new_language_translations": NEW_LANGUAGE_KEYS,
+        "removed_language_keys": REMOVED_LANGUAGE_KEYS,
         "guide_direct_translations": books.get("translated_occurrences", 0),
         "ftbquests_work": "not_present",
         "kubejs_work": "ids_only",
