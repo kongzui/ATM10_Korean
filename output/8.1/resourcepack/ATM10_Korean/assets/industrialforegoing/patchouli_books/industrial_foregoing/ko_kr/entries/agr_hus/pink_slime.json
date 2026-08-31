@@ -1,0 +1,13 @@
+{
+  "name": "분홍색 슬라임(양동이)",
+  "icon": "industrialforegoing:pink_slime_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 11,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:agr_hus/mob_slaughter_factory)몹 도살 공장$()에서 생산하는 유체입니다."
+    }
+  ]
+}

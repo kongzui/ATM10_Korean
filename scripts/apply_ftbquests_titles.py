@@ -11,9 +11,10 @@ from datetime import datetime
 from pathlib import Path
 
 from snapshot_instance import collect
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SOURCE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+SOURCE = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 SNAPSHOT = PROJECT_ROOT / "temp/ftbquests_titles_preapply_snapshot.json"
 RELATIVE_TARGET = "config/ftbquests/quests/lang/ko_kr.snbt"
 

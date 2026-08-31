@@ -1,0 +1,6 @@
+{
+  "name": "몹 스폰",
+  "description": "몹의 스폰을 제어하는 몇 가지 기계 및 가젯입니다.",
+  "icon": "pneumaticcraft:pressurized_spawner",
+  "sortnum": 12
+}

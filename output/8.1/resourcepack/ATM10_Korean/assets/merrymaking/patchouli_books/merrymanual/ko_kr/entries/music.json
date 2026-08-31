@@ -1,0 +1,23 @@
+{
+  "name": "연말 음악 음반",
+  "icon": "merrymaking:christmas_music_disc_1",
+  "category": "merrymaking:music",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "연말 음악 음반은 오버월드 곳곳의 상자에서 찾거나 스켈레톤이 크리퍼를 처치할 때 얻을 수 있어요."
+    },
+    {
+      "type": "spotlight",
+      "title": "빨간 연말 음악 음반",
+      "item": "merrymaking:christmas_music_disc_1",
+      "text": "빨간 음반에서는 LofiGeek의 여러 로파이 연말 음악이 재생돼요."
+    },
+    {
+      "type": "spotlight",
+      "title": "초록색 연말 음악 음반",
+      "item": "merrymaking:christmas_music_disc_2",
+      "text": "초록색 음반에서는 좀 더 전통적인 연말 음악이 재생돼요."
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+source_type,source,entry,error
+jar_json,mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar,assets/mcwtrpdoors/lang/ko_kr.json,"JSONDecodeError: Expecting ',' delimiter: line 120 column 2 (char 6386)"

@@ -1,0 +1,26 @@
+{
+  "name": "자동 생성자",
+  "icon": "naturesaura:auto_crafter",
+  "category": "naturesaura:devices",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "식물학자의 삶에서 가장 큰 부분은 $(thing)건설$() 항목, 특히 $(item)제작대$() 항목입니다. 그러나 이는 특히 정기적으로 생성되고 사용되는 레시피의 경우 쉽게 지루하고 시간이 많이 소요될 수 있습니다. 이를 위해 $(item)자동 생성자$()가 유용합니다. 필요한 사람의 도움 없이 정기적으로 제작할 수 있는 모든 항목을 만들어줍니다."
+    },
+    {
+      "type": "text",
+      "text": "이를 달성하려면 먼저 다음 페이지의 $(thing)구조$()를 중앙에 $(item)자동 생성자$()를 두고 구성해야 합니다. 배치 시 화살표 방향은 마치 $(item)제작대$() 슬롯의 맨 위 행을 가리키는 것처럼 $(thing)레시피의 상단$()를 나타냅니다. 그런 다음 필요한 재료를 일반 구성의 $(item)고대 통나무$()에 떨어뜨려야 합니다. 일단 설치되면 몇 초 후에 결과 항목이 $(item)자동 생성자$()의 $(thing)바닥$()에서 삭제됩니다."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "naturesaura:auto_crafter",
+      "text": "자동 제작 과정에 필요한 구조물 생성"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)자동 생성자$() 생성",
+      "recipe": "naturesaura:auto_crafter"
+    }
+  ]
+}

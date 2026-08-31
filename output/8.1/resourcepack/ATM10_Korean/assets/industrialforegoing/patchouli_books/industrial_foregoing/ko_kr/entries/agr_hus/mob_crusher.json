@@ -1,0 +1,17 @@
+{
+  "name": "몹 분쇄기",
+  "icon": "industrialforegoing:mob_crusher",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "플레이어가 처치한 것처럼 몹을 $(6)처치$()해 전리품과 정수를 생산합니다. 전리품은 몹의 전리품 목록에서 직접 생성됩니다.$(br2)정수 대신 무작위 레벨의 $(6)행운$()을 적용한 전리품을 생산하는 모드도 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_crusher"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "이클립스 엠버",
+  "sortnum": 24,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:coal_t4",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이클립스 엠버는 특수 석탄의 마지막 단계입니다. $(l:justdirethings:res_coal_t3)보이드플레임 석탄$(/l) 블록을 $(l:justdirethings:gooblock_tier4)섀도우펄스 구$(/l) 옆에 놓으면 만들어지며, 석탄 계열 중 에너지 밀도가 가장 높습니다."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "모듈러 라우터",
+  "description": "모듈러 라우터는 $(modr) 모드의 유일한 블록입니다.",
+  "icon": "modularrouters:modular_router",
+  "sortnum": 1
+}

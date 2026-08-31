@@ -1,0 +1,21 @@
+{
+  "name": "불멸의 우정의 증표",
+  "icon": "naturesaura:pet_reviver",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)애완동물$()를 소유하는 것은 상당히 감정적인 노력입니다. 괴물이나 뜨거운 용암에 굴복할 확률이 놀라울 정도로 높기 때문입니다. 마법 식물학자들은 $(item)불멸의 우정의 증표$()의 힘을 발견할 때까지 오랫동안 이 문제를 다루어야 했습니다. $(thing)길들인 동물$()에 적용하면 동물은 더 이상 죽을 수 없습니다."
+    },
+    {
+      "type": "text",
+      "text": "대신, 위험할 정도로 낮은 체력에 도달하면 소유자의 일반적인 부활 위치로 $(thing)집으로 보냈습니다$()가 됩니다. 이 과정에서 이 집 위치 주변 지역에서 상당히 많은 양의 $(aura)가 배출됩니다. $(br) 동물은 때때로 자신의 마음을 보여줌으로써 이 특별한 토큰을 받은 것에 대한 행복감을 추가로 표현합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)불멸의 우정의 증표$() 생성",
+      "recipe": "naturesaura:pet_reviver"
+    }
+  ]
+}

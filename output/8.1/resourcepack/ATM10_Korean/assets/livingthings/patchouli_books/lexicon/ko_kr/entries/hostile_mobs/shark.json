@@ -1,0 +1,19 @@
+{
+  "name": "상어",
+  "icon": "livingthings:shark_spawn_egg",
+  "category": "livingthings:hostile_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "플레이어를 추격하는 빠른 수중 생물입니다!$(br2)$(bold)체력: $()11하트$(br)$(bold)공격 피해: $()3하트$(br2)$(bold)전리품:$()$(li)상어 이빨 0-3개$(li)생대구 1-2개"
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:shark",
+      "rotate": false,
+      "scale": 0.5,
+      "default_rotation": 45,
+      "text": "모든 $(bold)바다$() 생물군계에서 찾을 수 있습니다."
+    }
+  ]
+}

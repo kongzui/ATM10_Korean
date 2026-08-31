@@ -1,0 +1,21 @@
+{
+  "name": "분열 관측기",
+  "icon": "naturesaura:slime_split_generator",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)슬라임$() 및 $(thing)마그마 큐브$()는 독특한 존재입니다. 충분히 상처를 입으면 $(thing)나뉘다$()는 신체의 세포가 증식하는 방식과 유사하게 자신의 더 작은 버전으로 변합니다. 이 자연적인 과정은 $(item)분열 관측기$()에 의해 활용될 수 있습니다. 이러한 생물이 근처에서 분할되면 생성된 엔트로피가 소비되고 $(aura)가 환경으로 분산됩니다."
+    },
+    {
+      "type": "text",
+      "text": "말할 필요도 없이 생성된 $(aura)의 양은 생물체의 $(thing)크기$() 및 $(thing)희박$()를 기준으로 합니다. $(br) 또한 주의할 점은 $(item)분열 관측기$()가 $(aura)를 분산시키는 과정에 있는 동안 추가 생물이 분할되도록 해도 더 이상 $(aura)가 발생하지 않는다는 점입니다. 생성됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:slime_split_generator",
+      "text": "$(item)분열 관측기$() 생성"
+    }
+  ]
+}

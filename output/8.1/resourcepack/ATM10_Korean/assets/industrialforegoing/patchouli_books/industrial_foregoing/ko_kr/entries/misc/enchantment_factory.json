@@ -1,0 +1,17 @@
+{
+  "name": "마법 부여 공장",
+  "icon": "industrialforegoing:enchantment_factory",
+  "category": "industrialforegoing:misc",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "대량의 $(l:agr_hus/essence)정수$()와 아이템을 공급하면 해당 아이템에 무작위 $(6)30$()레벨 마법을 부여합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_factory"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+NAME "빈 슬롯"
+
+EVERY 20 TICKS DO
+    INPUT FROM mob_loot
+    OUTPUT TO EMPTY SLOTS IN storage
+    -- 라벨 앞에 EMPTY SLOTS IN을 붙이면 SFM이 빈 슬롯에만 넣습니다
+    -- 가득 찬 대형 인벤토리로 출력할 때 렉을 줄이는 데 유용합니다
+END
+
+-- 선택 사항: 가끔 아이템을 합치는 정리 작업을 실행합니다
+EVERY 300 SECONDS DO
+    INPUT FROM storage
+    OUTPUT TO storage
+END

@@ -14,13 +14,16 @@ from zipfile import ZipFile
 import build_ae2_quests as quest_snbt
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/powah_flux"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 POWAH_GUIDE_ROOT = "assets/powah/guides/powah/book"
 GUIDE_OUTPUT = OUTPUT_ASSETS / "powah/guides/powah/book/_ko_kr"
 LATIN_WORD = re.compile(r"[A-Za-z]{3,}")

@@ -1,0 +1,13 @@
+{
+  "akashictome.sudo_name": "Akashic Tome (%s)",
+  "akashictome.click_morph": "Shift+우클릭하여 책을 전환하세요.",
+  "item.akashictome.tome": "Akashic Tome",
+  "akashictome.misc.shift_for_info": "§7§bSHIFT§7 키를 누르고 있으면 자세한 정보가 표시됩니다",
+  "akashictome.configuration.Allow all items to be added": "모든 아이템 추가 허용",
+  "akashictome.configuration.Whitelisted Items": "허용 목록의 아이템",
+  "akashictome.configuration.Blacklisted Mods": "차단 목록의 모드",
+  "akashictome.configuration.Mod Aliases": "모드 별칭",
+  "akashictome.configuration.Hide Book Render": "책 모델 숨기기",
+  "akashictome.configuration.Whitelisted Names": "허용 목록의 이름",
+  "akashictome.configuration.Blacklisted Items": "차단 목록의 아이템"
+}

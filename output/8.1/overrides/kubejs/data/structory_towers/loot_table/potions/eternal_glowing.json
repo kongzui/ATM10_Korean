@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "투척용 영원한 발광의 물약",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "발광 (∞)",
+                  "color": "red",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_color": 16514882,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:glowing",
+                      "duration": 100000000
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Allthemodium 방어구",
+  "icon": "allthemodium:allthemodium_chestplate",
+  "category": "allthemodium:armour",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Allthemodium 방어구는 방어력, 방어 강도, 밀치기 저항 외에도 여러 효과를 제공합니다:$(li)수중 호흡$(li)겉날개 비행 중 충돌 피해 무효$(li)화염 피해 면역$(li)낙하 피해 무효$(li)네더라이트 방어구를 업그레이드하면 마법 부여 유지"
+    },
+    {
+      "type": "smithing",
+      "recipe": "allthemodium:smithing/allthemodium_helmet_smithing"
+    },
+    {
+      "type": "smithing",
+      "recipe": "allthemodium:smithing/allthemodium_chestplate_smithing"
+    },
+    {
+      "type": "smithing",
+      "recipe": "allthemodium:smithing/allthemodium_leggings_smithing"
+    },
+    {
+      "type": "smithing",
+      "recipe": "allthemodium:smithing/allthemodium_boots_smithing"
+    }
+  ]
+}

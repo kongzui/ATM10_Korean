@@ -1,0 +1,17 @@
+{
+  "name": "프라이모젤 구",
+  "sortnum": 1,
+  "category": "justdirethings:goo",
+  "icon": "justdirethings:gooblock_tier1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "첫 번째 티어인 프라이모젤 구는 철 같은 기본 자원을 페리코어로 바꿉니다. 흔한 재료를 더 유용하고 효율적인 물질로 바꾸는 첫 변환 단계입니다.$(br2)간단한 오버월드 재료로 제작하며, 구의 연금술적 가능성을 탐구하는 출발점입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "프라이모젤 구 제작",
+      "recipe": "justdirethings:gooblock_tier1"
+    }
+  ]
+}

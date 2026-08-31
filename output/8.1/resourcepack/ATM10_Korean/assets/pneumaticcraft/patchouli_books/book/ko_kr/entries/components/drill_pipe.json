@@ -1,0 +1,17 @@
+{
+  "name": "드릴 파이프",
+  "icon": "pneumaticcraft:drill_pipe",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)드릴 파이프/$는 $(l:machines/gas_lift)가스 리프트/$가 유체를 굴착하는 데 필요합니다. $(p)필요한 경우 일반 건물에서 사용하기에도 적합합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "드릴 파이프 제작",
+      "recipe": "pneumaticcraft:drill_pipe"
+    }
+  ]
+}

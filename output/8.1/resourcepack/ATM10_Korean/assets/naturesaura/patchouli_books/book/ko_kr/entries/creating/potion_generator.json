@@ -1,0 +1,26 @@
+{
+  "name": "양조업자의 의식",
+  "icon": "naturesaura:potion_generator",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "재가 재로, 먼지가 먼지로 변하는 것처럼 $(aura)와 마찬가지로 마법의 $(item)물약$()를 사용하면 유사한 자연 변환을 달성할 수 있습니다. 특히, $(item)잔류 물약$()에는 효과를 추출하여 효율적으로 $(aura)로 변환할 수 있는 특정 마법 능력이 있습니다. $(p)이를 수행하려면 다음 페이지에 설명된 대로 $(item)양조업자의 의식$()를 구축하기만 하면 됩니다."
+    },
+    {
+      "type": "text",
+      "text": "그런 다음 근처에 긍정적이고 지속적인 $(item)잔류 물약$()를 던지면 효과가 소모되어 $(aura)로 변합니다. 말할 필요도 없이 효과가 길고 높을수록 더 많은 $(aura)가 생성됩니다. $(br)그러나 한 번에 하나의 효과만 변환할 수 있으며 의식에 여러 물약을 던지면 효과가 낭비됩니다."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "naturesaura:potion_generator",
+      "text": "중앙에 $(item)느린 흡수체$()를 사용하여 $(item)양조업자의 의식$() 생성"
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:potion_generator",
+      "text": "$(item)느린 흡수체$() 생성"
+    }
+  ]
+}

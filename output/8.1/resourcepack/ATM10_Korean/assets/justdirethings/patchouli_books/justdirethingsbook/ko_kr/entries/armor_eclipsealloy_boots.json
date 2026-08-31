@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 부츠",
+  "sortnum": 23,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:eclipsealloy_boots[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 고급 부츠는 최대 500,000 FE까지 저장하여 뛰어난 이동성과 에너지 흡수력을 제공합니다. 최상의 결과를 얻으려면 항상 $(l:justdirethings:item_pocket_generator)휴대용 발전기$(/l)를 통해 충전 상태를 유지하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "이클립스 합금 부츠 제작",
+      "recipe": "justdirethings:eclipsealloy_boots"
+    }
+  ]
+}

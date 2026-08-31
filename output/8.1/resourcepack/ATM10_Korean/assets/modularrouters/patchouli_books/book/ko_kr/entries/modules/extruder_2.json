@@ -1,0 +1,19 @@
+{
+  "name": "압출기 모듈 Mk2",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:extruder_module_2",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:modules/extruder_1)압출기 모듈 Mk1/$과 비슷하지만 몇 가지 중요한 차이가 있습니다.$(li)Mk2는 라우터 버퍼의 아이템이 아니라 모듈 내부에서 지정한 템플릿을 배치합니다.$(li)이 템플릿은 모듈 GUI 오른쪽에 표시되며 슬롯이 9개이고, 슬롯마다 아이템을 여러 개 넣을 수 있습니다. 템플릿에 놓은 아이템은 '고스트' 아이템입니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)압출되는 블록은 사실상 허공에서 생성되는 '가상' 블록으로, 부숴도 아무것도 드롭하지 않고 일반적인 방법으로 제작할 수도 없습니다.$(li)따라서 압출기 Mk1처럼 농사에는 적합하지 않지만, Mk1보다 복잡한 패턴으로 문이나 다리를 만들 수 있습니다.$(li)압출기 Mk2의 기본 범위는 24블록이며 범위 업그레이드로 48블록까지 늘릴 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:extruder_module_2"
+    }
+  ]
+}

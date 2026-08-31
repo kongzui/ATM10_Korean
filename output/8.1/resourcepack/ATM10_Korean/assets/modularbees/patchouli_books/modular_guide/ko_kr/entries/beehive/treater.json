@@ -1,0 +1,22 @@
+{
+  "name": "벌통 간식 공급기",
+  "icon": "modularbees:modular_treater",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "벌통 간식 공급기",
+      "text": "벌에게 추가 먹이를 주어 벌집 조각 생산량을 늘립니다.$(br)여러 공급기를 함께 쓰면 생산 증가량이 합산됩니다.$(br)사용할 수 있는 먹이와 증가량은 JEI에서 확인하세요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "간식 공급",
+      "text": "벌통 오버클러커와 달리 벌이 꿀 수집을 마쳤을 때만 먹이를 소비합니다. 다만 모든 벌에게 먹이를 공급해야 하며, 부족하면 생산 증가량이 줄어듭니다.$(br)남은 용기는 출력 인벤토리로 이동합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_treater"
+    }
+  ]
+}

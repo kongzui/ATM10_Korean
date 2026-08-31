@@ -15,6 +15,11 @@ from zipfile import ZipFile
 
 from gateways_hellish_family import Tag
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import (
+    active_output_root,
+    output_deployment_path,
+    resolve_active_output_path,
+)
 
 FAMILY = "dungeons_arise"
 JAR_PATTERN = "DungeonsArise-*.jar"
@@ -22,10 +27,10 @@ NAMESPACE = "dungeons_arise"
 EXPECTED_LANGUAGE_KEYS = 119
 WORK_ROOT = PROJECT_ROOT / "working/dungeons_arise"
 LANG_OUTPUT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/dungeons_arise/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/dungeons_arise/lang/ko_kr.json"
 )
-OVERRIDE_ROOT = PROJECT_ROOT / "output/overrides/kubejs"
+OVERRIDE_ROOT = active_output_root() / "overrides/kubejs"
 VISIBLE_DATA_KEYS = {
     "custom_name",
     "description",
@@ -1264,7 +1269,7 @@ def verify_data_outputs() -> tuple[dict[str, object], list[str]]:
         for row in rows:
             source = json.loads(archive.read(row["source"]))
             expected, replacements = transform_data_value(source)
-            output_path = PROJECT_ROOT / row["output"]
+            output_path = resolve_active_output_path(row["output"])
             output, output_errors = load_json_without_duplicates(output_path)
             errors.extend(output_errors)
             if output != expected:
@@ -1326,7 +1331,7 @@ def verify_nbt_outputs() -> tuple[dict[str, object], list[str]]:
             f"extra={sorted(manifest_files - expected_files)}"
         )
     for row in rows:
-        output_path = PROJECT_ROOT / row["output"]
+        output_path = resolve_active_output_path(row["output"])
         try:
             value = output_path.read_bytes()
             raw = gzip.decompress(value) if value.startswith(b"\x1f\x8b") else value
@@ -1356,7 +1361,7 @@ def deployment_paths() -> set[str]:
         if not manifest_path.is_file():
             continue
         rows = json.loads(manifest_path.read_text(encoding="utf-8"))
-        paths.update(row["output"].removeprefix("output/overrides/") for row in rows)
+        paths.update(output_deployment_path(row["output"]) for row in rows)
     return paths
 
 

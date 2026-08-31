@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "투척용 어둠의 물약",
+                "italic": false,
+                "color": "dark_gray"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_color": 2633262,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:darkness",
+                      "duration": 400
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

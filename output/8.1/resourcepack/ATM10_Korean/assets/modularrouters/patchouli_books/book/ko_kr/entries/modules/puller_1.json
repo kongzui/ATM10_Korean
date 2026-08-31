@@ -1,0 +1,15 @@
+{
+  "name": "풀러 모듈 Mk1",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:puller_module_1",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:intro/modules#direction)설정 방향/$에 인접한 인벤토리에서 조건에 맞는 첫 아이템을 라우터 버퍼로 가져옵니다. 버퍼가 가득 찼거나, 버퍼의 아이템과 합칠 수 있는 아이템이 인벤토리에 없으면 아무것도 가져오지 않습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:puller_module_1"
+    }
+  ]
+}

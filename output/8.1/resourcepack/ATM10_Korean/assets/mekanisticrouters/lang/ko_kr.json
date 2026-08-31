@@ -1,0 +1,15 @@
+{
+  "mekanisticrouters.guiText.popup.chemical.direction": "§a§n전송 방향§r\n\n여기에서 라우터가 탱크로 화학 물질을 밀어낼지, 아니면 탱크에서 화학 물질을 끌어올지를 제어할 수 있습니다.",
+  "mekanisticrouters.guiText.popup.chemical.maxTransfer": "§a§n최대 전송량§r\n\n이것은 라우터가 한 번의 작동으로 전송하려고 시도하는 최대 화학 물질 양입니다.\n\n전송 속도는 라우터의 화학 물질 전송 업그레이드 수와 외부 탱크의 전송 속도(있는 경우)에 의해 여전히 제한됩니다. 따라서 이 숫자는 목표가 아닌 제한으로 간주해야 합니다.",
+  "mekanisticrouters.itemText.chemical.maxTransfer": "화학 물질 속도: 최대 %s mB / 작동",
+  "mekanisticrouters.guiText.tooltip.chemicalTransferTooltip": "§b최대 화학 물질 전송량\n한 번의 작동으로 시도할 최대량(mB)입니다.\n라우터의 전체 전송 속도(화학 물질 전송 및 속도 업그레이드)에 따라 제한됩니다.",
+  "item.mekanisticrouters.chemical_module_mk2": "화학 물질 모듈 Mk2",
+  "item.mekanisticrouters.chemical_module_mk1": "화학 물질 모듈 Mk1",
+  "item.mekanisticrouters.chemical_refill_module": "화학 물질 재충전 모듈",
+  "item.mekanisticrouters.chemical_upgrade": "화학 물질 전송 업그레이드",
+  "mekanisticrouters.itemText.usage.item.chemical_upgrade": "라우터가 (각 방향으로) 전송할 수 있는 액체 양을 %d mB/틱만큼 증가시킵니다.",
+  "mekanisticrouters.itemText.usage.item.chemical_module_mk1": "모듈 방향에 있는 인접 블록과 라우터 사이에서 화학 물질을 전송합니다.\n• 라우터 버퍼에 화학 물질 용기 아이템이 있어야 합니다.",
+  "mekanisticrouters.itemText.usage.item.chemical_module_mk2": "주변 블록과 라우터 사이에서 화학 물질을 전송합니다.\n• 라우터 버퍼에 화학 물질 용기 아이템이 있어야 합니다.\n• 탱크와도 주고받을 수 있습니다.",
+  "mekanisticrouters.itemText.usage.item.chemical_refill_module": "플레이어 인벤토리의 화학 물질 컨테이너 아이템(예: 제트팩)을 무선으로 재충전합니다.",
+  "mekanisticrouters.guiText.popup.chemical_refill.control": "§a§C화학 물질 재충전 모듈§r\n\n여기에서 다음 항목을 정할 수 있습니다: \n- 플레이어 인벤토리에서 상호작용할 구역\n\n필터는 이 모듈에서 화학 물질을 받을 수 있는 아이템을 제어합니다."
+}

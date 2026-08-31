@@ -1,0 +1,47 @@
+{
+  "name": "정전기 압축기",
+  "icon": "pneumaticcraft:electrostatic_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)정전기 압축기/$는 $(thing)번개/$에너지로 압축 공기를 생산하는 $(l:base_concepts/pressure_tiers)2등급/$ 공기 $(l:base_concepts/pressure)압축기/$입니다.$(p)번개가 치면 즉시 공기 200,000mL를 생산합니다. 많은 양이지만 대전된 크리퍼가 알아서 자주 찾아오지는 않으니, 압축기에 번개가 치도록 해야 합니다."
+    },
+    {
+      "type": "text",
+      "text": "번개가 칠 확률을 높이려면 $(item)철창/$이나 $(item)피뢰침/$으로 만든 $(ttcolor)$(t:'pneumaticraft:electrostatic_grid' 블록 태그로 격자 블록을 바꿀 수 있습니다)격자/$를 압축기와 이 기계에 연결하세요. 격자가 번개의 도체 역할을 합니다.$(p)격자가 클수록 좋습니다. 격자 블록은 수평 반경 5블록, 위아래 5블록 이내에 둘 수 있지만, 모두 서로 이어져 $(item)정전기 압축기/$에 연결되어야 합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/electrostatic_compressor.png"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "왼쪽 그림에서 최대 효율을 낼 만큼 큰 격자에 둘러싸인 것은 중앙 압축기뿐입니다. 다른 압축기는 번개를 일으킬 확률이 더 낮습니다. 그래도 격자 중앙에 압축기 하나만 두는 것보다는 효과적입니다."
+    },
+    {
+      "type": "text",
+      "text": "하나의 $(thing)격자/$에 $(item)정전기 압축기/$를 여러 대 연결하면 번개로 생산한 공기가 압축기마다 똑같이 나뉩니다.$(p)번개가 친 뒤 압력이 너무 높아져 압축기가 폭발하지 않도록 압축기 아래쪽에 $(item)철창/$을 연결할 수 있습니다. 그러면 에너지가 기계로 들어가지 않고 땅으로 방출됩니다."
+    },
+    {
+      "type": "text",
+      "text": "이 방출은 압축기가 위험 압력에 도달했을 때만 일어납니다. 압축기 $(italic)바로/$ 아래의 같은 Y축에 있는 $(item)철창/$ 하나마다 초과 공기를 최대 10,000mL까지 방출합니다.$(p)따라서 압축기 10대를 하나의 $(thing)격자/$에 연결했다면 $(ttcolor)$(t:압축기당 생산 공기 200000 / 10 = 20000, 철창 2개의 방출량 10000 × 2 = 20000)압축기마다 아래에 격자 블록 2개/$만 있으면 됩니다. ($(l:base_concepts/upgrades#security)보안 업그레이드/$를 설치할 수도 있지만 더 비싸고 효과는 낮습니다.)"
+    },
+    {
+      "type": "text",
+      "text": "번개가 칠 확률을 더 높이려면 압축기 $(italic)바로 위/$에 격자 블록을 최대 10개까지 쌓아 $(thing)피뢰침/$을 만들 수 있습니다. 블록 하나마다 번개가 칠 확률이 조금씩 높아집니다."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)참고:/$이전 버전의 $(pncr)와 달리 자연 번개는 압축기에 공기를 $(italic)추가하지 않습니다/$. 다른 모드로 번개를 만들어 악용할 수 있었기 때문입니다. 대신 압축기가 일정 확률로 ‘가짜’ 번개를 만듭니다. 맑은 날에는 이 확률이 $(italic)매우/$ 낮지만 $(thing)비/$가 오면 높아지고, $(thing)뇌우/$가 치면 크게 높아집니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)정전기 압축기/$ 제작",
+      "recipe": "pneumaticcraft:electrostatic_compressor"
+    }
+  ]
+}

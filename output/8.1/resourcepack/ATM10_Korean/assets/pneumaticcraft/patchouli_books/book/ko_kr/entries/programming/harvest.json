@@ -1,0 +1,29 @@
+{
+  "name": "수확 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/harvest_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "드론은 지정된 $(l:programming/area)지역/$ 내에서 완전히 성장한 작물과 나무를 수확합니다. 작물 블록에서 드롭된 아이템은 $(italic)얻지 못합니다./$. 다른 $(l:programming/pickup_item)아이템 얻기/$ 위젯을 추가하거나 다른 $(item)드론/$와 같은 아이템을 수집하는 다른 방법을 사용합니다. $(p)옵션의 $(l:programming/item_filter)아이템 필터/$를 연결하여 수확하는 작물을 제한 (작물 씨앗을 사용하여 필터링)할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "도구",
+      "text": "$(item)드론/$이 $(l:programming/inventory_import)인벤토리에서 가져오기/$로 $(item)괭이/$를 가져오게 할 수 있습니다. 괭이를 장착하면 작물을 수확한 뒤 자동으로 다시 심으며, 이때 괭이의 내구도를 사용합니다.$(p)위젯 설정 GUI에서 $(item)괭이 필요/$를 선택하면 $(item)드론/$이 괭이를 들었을 때$(italic)만/$ 수확합니다. 괭이가 부러지면 다른 괭이를 가져온 뒤 수확을 계속할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "수확 블록 제한",
+      "text": "$(thing)수확/$ 위젯을 $(thing)우클릭/$하여 수확 작업의 양을 지정된 양으로 제한할 수 있습니다. $(p)예를 들어 1로 설정하면 $(item)드론/$는 위젯이 실행될 때마다 1 블록만 수확하고 블록을 수확한 후 다음 위젯으로 이동합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/harvest_piece.png"
+      ],
+      "text": "$(italic)내 땅에서 나가라/$"
+    }
+  ]
+}

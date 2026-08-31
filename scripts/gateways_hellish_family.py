@@ -20,6 +20,7 @@ from zipfile import ZipFile
 
 import build_ae2_quests as quest_snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -28,12 +29,14 @@ FAMILY = "gateways_hellish"
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
 LANG_WORK_ROOT = WORK_ROOT / "gateways"
 LANG_OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/gateways/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/gateways/lang/ko_kr.json"
 )
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
-TOOLTIP_OUTPUT = PROJECT_ROOT / "output/overrides/kubejs/client_scripts/tooltips.js"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
+TOOLTIP_OUTPUT = active_output_root() / "overrides/kubejs/client_scripts/tooltips.js"
 GATEWAY_DATA_PATH = "data/gateways/gateways/hellish_fortress.json"
-GATEWAY_DATA_OUTPUT = PROJECT_ROOT / "output/overrides/kubejs" / GATEWAY_DATA_PATH
+GATEWAY_DATA_OUTPUT = active_output_root() / "overrides/kubejs" / GATEWAY_DATA_PATH
 GATEWAYS_PATTERN = "GatewaysToEternity-*.jar"
 HELLISH_PATTERN = "HellishTrials-*.jar"
 GATEWAYS_ENGLISH = "assets/gateways/lang/en_us.json"
@@ -645,7 +648,7 @@ def build() -> dict[str, object]:
                         "target": tag.value,
                     }
                 )
-            output = PROJECT_ROOT / "output/overrides/kubejs" / internal
+            output = active_output_root() / "overrides/kubejs" / internal
             output.parent.mkdir(parents=True, exist_ok=True)
             output.write_bytes(gzip.compress(write_nbt(root_name, root), mtime=0))
             nbt_rows.append(
@@ -785,8 +788,8 @@ def audit() -> tuple[dict[str, object], list[str]]:
         errors.append("Apotheosis 게이트 진주의 KubeJS 경고 번역이 누락됐습니다")
 
     apotheosis_language = load_json(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/apotheosis/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/apotheosis/lang/ko_kr.json"
     )
     expected_apotheosis_keys = {
         "apotheosis.tiered/frontier",
@@ -937,7 +940,7 @@ def verify_data_outputs() -> tuple[dict[str, object], list[str]]:
                     NUMBER.findall(target)
                 ):
                     errors.append(f"NBT 숫자 보존이 다릅니다: {internal}:{path}")
-            output = PROJECT_ROOT / "output/overrides/kubejs" / internal
+            output = active_output_root() / "overrides/kubejs" / internal
             output_name, output_root = read_nbt(gzip.decompress(output.read_bytes()))
             if output_name != source_name or output_root != expected_root:
                 errors.append(f"NBT 산출물에 지정하지 않은 차이가 있습니다: {internal}")
@@ -977,8 +980,8 @@ def output_source(relative: str) -> Path:
     """적용 상대 경로를 저장소 산출물 경로로 바꾼다."""
     prefix = "resourcepacks/"
     if relative.startswith(prefix):
-        return PROJECT_ROOT / "output/resourcepack" / relative.removeprefix(prefix)
-    return PROJECT_ROOT / "output/overrides" / relative
+        return active_output_root() / "resourcepack" / relative.removeprefix(prefix)
+    return active_output_root() / "overrides" / relative
 
 
 def verify() -> tuple[dict[str, object], list[str]]:

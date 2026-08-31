@@ -17,6 +17,7 @@ from zipfile import ZipFile
 
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -24,7 +25,7 @@ if hasattr(sys.stdout, "reconfigure"):
 WORK_ROOT = PROJECT_ROOT / "working/twilight_forest"
 BASE_ROOT = WORK_ROOT / "twilightforest"
 CACHE_PATH = PROJECT_ROOT / "temp/twilight_forest_auto_candidates.json"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
 GOOGLE_TRANSLATE = "https://translate.googleapis.com/translate_a/single"
 PROTECTED = re.compile(
     r"https?://\S+"

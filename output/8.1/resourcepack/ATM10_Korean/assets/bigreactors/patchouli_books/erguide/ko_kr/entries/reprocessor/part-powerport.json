@@ -1,0 +1,22 @@
+{
+  "name": "전력 포트",
+  "icon": "bigreactors:reprocessorpowerport",
+  "category": "bigreactors:reprocessor-parts",
+  "read_by_default": true,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reprocessorpowerport",
+      "link_recipe": true,
+      "title": "전력 포트",
+      "text": "전력 포트로 재처리기에 필요한 에너지를 공급합니다.$(br2)Forge Energy 호환 케이블이나 발전기를 연결할 수 있습니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Power Port",
+      "crafting.recipe1": "bigreactors:reprocessor/powerport",
+      "usage.text": "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() any vertical face (not on frame)$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

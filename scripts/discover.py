@@ -13,10 +13,17 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Iterable
 
+from ftbquests_layout import (
+    detect_layout,
+    merged_locale_file,
+    split_locale_files,
+    split_locale_root,
+)
 from local_paths import resolve_source_root
+from version_context import active_manifest_dir
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT = PROJECT_ROOT / "manifests"
+DEFAULT_OUTPUT = active_manifest_dir()
 LANG_ENTRY_RE = re.compile(r"^assets/([^/]+)/lang/(en_us|ko_kr)\.json$", re.IGNORECASE)
 SNBT_KEY_RE = re.compile(r'^\s*(?P<key>[A-Za-z0-9_.-]+|"(?:[^"\\]|\\.)*")\s*:')
 VISIBLE_TEXT_MARKERS = (
@@ -49,7 +56,7 @@ def project_output(path: Path) -> Path:
 def write_csv(
     path: Path, fieldnames: list[str], rows: Iterable[dict[str, Any]]
 ) -> None:
-    with path.open("w", encoding="utf-8-sig", newline="") as handle:
+    with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(rows)
@@ -224,24 +231,39 @@ def scan_ftbquests(instance: Path) -> tuple[dict[str, Any], list[dict[str, Any]]
     root = instance / "config" / "ftbquests"
     quest_root = root / "quests"
     lang_root = quest_root / "lang"
-    en_path = lang_root / "en_us.snbt"
-    ko_path = lang_root / "ko_kr.snbt"
+    en_path = merged_locale_file(instance, "en_us")
+    ko_path = merged_locale_file(instance, "ko_kr")
+    en_split_root = split_locale_root(instance, "en_us")
+    ko_split_root = split_locale_root(instance, "ko_kr")
+    en_split_map = split_locale_files(instance, "en_us")
+    ko_split_map = split_locale_files(instance, "ko_kr")
+    en_split = list(en_split_map.values())
+    ko_split = list(ko_split_map.values())
     en_keys = snbt_keys(en_path)
     ko_keys = snbt_keys(ko_path)
+    if not en_path.is_file():
+        en_keys = set().union(*(snbt_keys(path) for path in en_split))
+    if not ko_path.is_file():
+        ko_keys = set().union(*(snbt_keys(path) for path in ko_split))
     merged = list(lang_root.rglob("*.snbt_merged")) if lang_root.is_dir() else []
     chapter_rows: list[dict[str, Any]] = []
-    en_chapter_root = lang_root / "en_us" / "chapters"
-    ko_chapter_root = lang_root / "ko_kr" / "chapters"
+    en_chapter_root = en_split_root / "chapters"
     if en_chapter_root.is_dir():
-        for en_chapter in sorted(
-            en_chapter_root.glob("*.snbt_merged"), key=lambda path: path.name.lower()
-        ):
-            ko_chapter = ko_chapter_root / en_chapter.name
+        chapter_files = (
+            path
+            for path in en_chapter_root.iterdir()
+            if path.is_file() and path.name.endswith((".snbt", ".snbt_merged"))
+        )
+        for en_chapter in sorted(chapter_files, key=lambda path: path.name.lower()):
+            relative = en_chapter.relative_to(en_split_root)
+            ko_chapter = ko_split_root / relative
             chapter_en_keys = snbt_keys(en_chapter)
             chapter_ko_keys = snbt_keys(ko_chapter)
+            chapter_name = en_chapter.name.removesuffix(".snbt_merged")
+            chapter_name = chapter_name.removesuffix(".snbt")
             chapter_rows.append(
                 {
-                    "chapter": en_chapter.name.removesuffix(".snbt_merged"),
+                    "chapter": chapter_name,
                     "en_path": en_chapter.relative_to(instance).as_posix(),
                     "ko_path": ko_chapter.relative_to(instance).as_posix(),
                     "ko_exists": ko_chapter.is_file(),
@@ -252,6 +274,9 @@ def scan_ftbquests(instance: Path) -> tuple[dict[str, Any], list[dict[str, Any]]
                     "ko_only_estimated": len(chapter_ko_keys - chapter_en_keys),
                 }
             )
+    layout = detect_layout(instance)
+    en_split_paths = set(en_split_map)
+    ko_split_paths = set(ko_split_map)
     summary = {
         "root": str(root.relative_to(instance).as_posix()),
         "all_files": sum(1 for path in root.rglob("*") if path.is_file())
@@ -267,6 +292,11 @@ def scan_ftbquests(instance: Path) -> tuple[dict[str, Any], list[dict[str, Any]]
         "ko_kr_path": str(ko_path.relative_to(instance).as_posix()),
         "en_us_exists": en_path.is_file(),
         "ko_kr_exists": ko_path.is_file(),
+        "localization_layout": layout,
+        "en_us_split_files": len(en_split),
+        "ko_kr_split_files": len(ko_split),
+        "split_files_missing_in_ko": len(en_split_paths - ko_split_paths),
+        "split_files_only_in_ko": len(ko_split_paths - en_split_paths),
         "en_us_estimated_keys": len(en_keys),
         "ko_kr_estimated_keys": len(ko_keys),
         "shared_estimated_keys": len(en_keys & ko_keys),
@@ -534,7 +564,7 @@ def main() -> int:
         ],
     }
     (output / "discovery_summary.json").write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8-sig"
+        json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     return 0 if not any(error["source_type"] == "jar" for error in errors) else 2

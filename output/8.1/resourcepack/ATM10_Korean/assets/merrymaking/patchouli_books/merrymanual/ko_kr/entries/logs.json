@@ -1,0 +1,17 @@
+{
+  "name": "벽난로 장작",
+  "icon": "minecraft:flint_and_steel",
+  "category": "merrymaking:mantels",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "벽난로 장작",
+      "item": "merrymaking:fireplace_logs",
+      "text": "벽난로 장작은 축제 벽난로 선반과 꼭 맞아요. 방향을 바꿔 설치할 수 있으며 부싯돌과 부시로 불을 붙이거나 물 양동이로 끌 수 있어요. $(br2)원한다면 벽난로 장작을 레드스톤에 연결할 수도 있어요. $(br2)벽난로 장작의 레시피는 다음과 같아요:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:fireplace_logs"
+    }
+  ]
+}

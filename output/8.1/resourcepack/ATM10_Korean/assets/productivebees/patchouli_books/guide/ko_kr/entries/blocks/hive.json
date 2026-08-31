@@ -1,0 +1,12 @@
+{
+  "name": "고급 벌통",
+  "icon": "productivebees:advanced_oak_beehive",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:advanced_oak_beehive",
+      "text": "$(l:hives/advanced_hives)고급 벌통 항목을 확인하세요$(/l)."
+    }
+  ]
+}

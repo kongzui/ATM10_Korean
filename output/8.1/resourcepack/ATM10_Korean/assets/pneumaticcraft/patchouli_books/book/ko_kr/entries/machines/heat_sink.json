@@ -1,0 +1,30 @@
+{
+  "name": "방열판",
+  "icon": "pneumaticcraft:heat_sink",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)방열판/$은 $(l:base_concepts/heat)열/$을 방출하는 블록입니다.$(p)60°C보다 뜨겁거나 -60°C보다 차가운 $(item)방열판/$에 닿으면 피해를 받으니 주의하세요!$(p)$(item)방열판/$은 직접 연결된 블록의 열만 방출합니다. 여러 $(item)방열판/$을 연결하려면 $(l:machines/heat_pipe)열 파이프/$로 부착할 면을 늘리세요."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/heat_sinks.png"
+      ],
+      "border": "true",
+      "text": "$(italic)$(l:compressors/advanced_liquid_compressor)고급 액체 압축기/$ $(italic)여러 방열판 포함/$"
+    },
+    {
+      "type": "text",
+      "title": "능동 냉각",
+      "text": "$(item)방열판/$을 $(l:tubes/air_grate_module#active_cooling)에어 그레이트 모듈/$ 범위 안에 두면 방열 효과가 커집니다. 모듈을 $(l:tubes/pressure_tubes)압력 튜브/$에 부착하면 범위가 표시됩니다. 여러 에어 그레이트 모듈의 냉각 효과는 중첩됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "방열판 제작",
+      "recipe": "pneumaticcraft:heat_sink"
+    }
+  ]
+}

@@ -11,9 +11,10 @@ from pathlib import Path
 import audit_ftbquests_titles as quest_audit
 import build_ae2_quests as quest_snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORK_FILE = PROJECT_ROOT / "working/sophisticated/quests/storage/ko_kr.json"
-OUTPUT_FILE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_FILE = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 NAMESPACE_RE = re.compile(
     r"sophisticated(?:backpacks|storage|core|storageinmotion):",
     re.IGNORECASE,

@@ -1,0 +1,22 @@
+{
+  "name": "하늘추적자의 갑옷",
+  "icon": "naturesaura:sky_chest",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "식물학자들은 $(thing)스카이시커의 갑옷$()를 착용하면 신이 된 듯한 기분을 느낄 수 있습니다. $(l:items/infused_iron_armor)주입된 대응물$()처럼 수리할 수 있을 뿐만 아니라 $(thing)세트 보너스$()도 제공합니다. 갑옷의 모든 부분을 착용하거나 가슴판을 $(item)겉날개$()로 교체하면 착용자의 $(thing)이동 속도$()가 증가합니다. 또한 블록에 대한 $(thing)한발 더 나아가다$() 기능이 향상되어 자주 점프해야 하는 요구 사항이 제거됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:sky_helmet",
+      "recipe2": "naturesaura:sky_chest"
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:sky_pants",
+      "recipe2": "naturesaura:sky_shoes"
+    }
+  ]
+}

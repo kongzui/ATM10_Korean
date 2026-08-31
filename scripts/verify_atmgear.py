@@ -12,10 +12,11 @@ from pathlib import Path
 from zipfile import ZipFile
 
 from atmgear_catalog import BATCHES, TARGETS, Target
-from local_paths import PROJECT_ROOT, resolve_source_root
+from local_paths import resolve_source_root
 from prepare_atmgear import WORK_ROOT, duplicate_keys, find_jar, load_json
+from version_context import active_output_root
 
-OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ROOT = active_output_root() / "resourcepack/ATM10_Korean/assets"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
 NUMBER = re.compile(r"(?<![A-Za-z])\d+(?:\.\d+)?%?")
@@ -125,8 +126,8 @@ def verify_cross_namespace() -> dict[str, object]:
     """Silent Gear와 ATM 로컬라이제이션의 공통 재료명 여섯 개를 대조한다."""
     allthemodium = load_working(WORK_ROOT / "allthemodium/ko_kr.json")
     atm_localization_path = (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json"
     )
     atm_localization = load_working(atm_localization_path)
     keys = sorted(key for key in allthemodium if key.startswith("material.silentgear."))

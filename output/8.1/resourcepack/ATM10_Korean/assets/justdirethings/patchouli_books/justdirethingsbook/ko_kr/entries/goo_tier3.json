@@ -1,0 +1,17 @@
+{
+  "name": "보이드시머 구",
+  "sortnum": 3,
+  "category": "justdirethings:goo",
+  "icon": "justdirethings:gooblock_tier3",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "보이드시머 구에는 엔드의 신비한 에너지가 깃들어 있으며 다이아몬드를 셀레스티젬으로 바꿉니다. 향상된 에너지 저장과 순간이동처럼 특별한 성질을 지닌 재료를 만들 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "보이드시머 구 제작",
+      "recipe": "justdirethings:gooblock_tier3"
+    }
+  ]
+}

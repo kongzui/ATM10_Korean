@@ -1,0 +1,25 @@
+{
+  "name": "반응물",
+  "icon": "bigreactors:yellorium_ingot",
+  "category": "bigreactors:reactor",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "반응물은 원자로 안에서 핵반응을 유지하는 데 사용하는 화학 물질입니다.$(br2)반응물은 두 종류입니다:$(li)$(bold)연료:$() $(l:bigreactors:reactor/part-fuelrod)연료봉$(/l) 안에서 핵분열 연쇄 반응을 유지합니다.$(li)$(bold)폐기물:$() 연료가 소모된 뒤 생기는 부산물입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Extreme Reactors에는 기본적으로 네 가지 반응물이 있습니다. 연료인 옐로륨과 블루토늄, 그리고 각각의 폐기물인 시아나이트와 마젠타이트입니다.$(br2)각 반응물은 그 반응물을 만들 수 있는 아이템 목록을 가집니다. 예를 들어 아이템을 $(l:bigreactors:reactor/part-solidaccessport)고체 반입출 포트$(/l)에 넣어 반응물로 바꿀 수 있습니다.$(br2)옐로륨은 $(l:bigreactors:intro/ores)옐로륨 주괴$(/l)에서 얻습니다. 시아나이트는 원자로에서 배출되면 시아나이트 주괴가 됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "일부 반응물은 $(l:bigreactors:reprocessor/reprocessing)재처리기$(/l)에서 폐기물을 새 연료로 바꾸어 만들 수 있습니다.$(br2)연료 종류마다 고유한 속성이 있어 원자로 안에서 서로 다르게 작동합니다.$(br2)다른 모드나 모드팩에서 반응물, 연료 종류와 원료를 추가하거나 기본값을 변경·제거할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "연료 반응물을 만들 수 있는 아이템은 Minecraft의 $(italic)고급 툴팁$() 기능(F3 + H)을 켰을 때 전용 툴팁으로 확인할 수 있습니다."
+    }
+  ]
+}

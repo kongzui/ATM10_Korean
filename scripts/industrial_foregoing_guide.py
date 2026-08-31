@@ -13,6 +13,7 @@ from zipfile import ZipFile
 import ars_family
 import industrial_foregoing_family as language
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 WORK_ROOT = PROJECT_ROOT / "working/industrial_foregoing/guide"
@@ -20,13 +21,13 @@ ENGLISH_ROOT = WORK_ROOT / "en_us"
 JAPANESE_ROOT = WORK_ROOT / "ja_jp"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/industrialforegoing"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/industrialforegoing"
     / "patchouli_books/industrial_foregoing/ko_kr"
 )
 BOOK_OUTPUT = (
-    PROJECT_ROOT
-    / "output/overrides/kubejs/data/industrialforegoing"
+    active_output_root()
+    / "overrides/kubejs/data/industrialforegoing"
     / "patchouli_books/industrial_foregoing/book.json"
 )
 CACHE_FILE = PROJECT_ROOT / "temp/industrial_foregoing_guide_candidate_cache.json"

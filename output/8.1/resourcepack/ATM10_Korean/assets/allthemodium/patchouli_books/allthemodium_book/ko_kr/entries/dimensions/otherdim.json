@@ -1,0 +1,12 @@
+{
+  "name": "디 아더",
+  "icon": "allthemodium:other_vibranium_ore",
+  "category": "allthemodium:dimensions",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "디 아더는 매우 위험한 차원입니다. 이 차원으로 이동하려면 네더에서 $(l:dimensions/teleport_pad)텔레포트 패드$(/c)를 사용하세요. 알려진 정보는 적지만 피글린의 고향으로 보이며, 지표에 나무가 있는 생물 군계 아래에는 거대한 지하 도시가 있습니다. 몬스터와 전리품으로 가득한 던전과 고대 피라미드도 존재합니다."
+    }
+  ]
+}

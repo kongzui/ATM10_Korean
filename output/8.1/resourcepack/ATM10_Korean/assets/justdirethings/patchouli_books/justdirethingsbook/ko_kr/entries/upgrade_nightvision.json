@@ -1,0 +1,17 @@
+{
+  "name": "야간 투시",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_nightvision",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "야간 투시 업그레이드를 사용하여 어둠 속에서 쉽게 탐색하세요. 이 업그레이드는 영구적인 야간 시야를 제공하여 항상 주변을 밝게 비춥니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "야간 투시 제작",
+      "recipe": "justdirethings:upgrade_nightvision"
+    }
+  ]
+}

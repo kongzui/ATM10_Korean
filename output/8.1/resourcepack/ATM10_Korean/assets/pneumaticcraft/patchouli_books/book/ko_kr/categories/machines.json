@@ -1,0 +1,6 @@
+{
+  "name": "기계",
+  "description": "편리한 기능을 제공하는 기계 및 기타 장치입니다. 대부분은 기능을 제공하기 위해 $(l:base_concepts/pressure)압력/$가 필요합니다.",
+  "icon": "pneumaticcraft:vortex_tube",
+  "sortnum": 5
+}

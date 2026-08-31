@@ -1,0 +1,17 @@
+{
+  "name": "셀레스티젬 레깅스",
+  "sortnum": 11,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:celestigem_leggings[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "셀레스티젬 레깅스는 Forge Energy를 활용하며 향상된 내구성을 위해 10,000 FE 용량을 자랑합니다. $(l:justdirethings:item_pocket_generator)휴대용 발전기$(/l)로 이동 중에도 충전하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "셀레스티젬 레깅스 제작",
+      "recipe": "justdirethings:celestigem_leggings"
+    }
+  ]
+}

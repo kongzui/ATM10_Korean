@@ -1,0 +1,17 @@
+{
+  "name": "페리코어 괭이",
+  "sortnum": 5,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:ferricore_hoe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "페리코어 괭이는 농지를 만들고 관리하는 도구이며 여러 업그레이드를 적용할 수 있습니다.$(br2)흙을 경작하면 프라이모젤 토양이 됩니다. 이 토양은 밟아도 농지로 유지되며 작물도 조금 더 빨리 자랍니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:ferricore_hoe",
+      "text": "페리코어 괭이 제작"
+    }
+  ]
+}

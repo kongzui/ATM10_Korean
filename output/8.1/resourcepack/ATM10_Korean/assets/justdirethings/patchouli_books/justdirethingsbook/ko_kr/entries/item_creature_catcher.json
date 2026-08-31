@@ -1,0 +1,17 @@
+{
+  "name": "생물 포획기",
+  "sortnum": 8,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:creaturecatcher",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "생물 포획기는 엔티티를 붙잡아 운반하는 도구입니다. 엔티티에게 던지면 포획되고 다시 던지면 풀어줍니다.$(br2)일부 필터에서는 파란색 양처럼 특정 조건의 엔티티를 정확히 지정하는 데도 사용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "생물 포획기 제작",
+      "recipe": "justdirethings:creaturecatcher"
+    }
+  ]
+}

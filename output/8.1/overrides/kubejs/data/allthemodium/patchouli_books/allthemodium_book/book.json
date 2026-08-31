@@ -1,0 +1,9 @@
+{
+  "name": "allthemodium_book",
+  "landing_text": "이 책은 Allthemodium 모드와 ATM 모드팩에 관한 정보를 제공합니다",
+  "subtitle": 1,
+  "show_progress": false,
+  "dont_generate_book": false,
+  "macros": {},
+  "use_resource_pack": true
+}

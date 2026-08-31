@@ -1,0 +1,21 @@
+{
+  "name": "진열대",
+  "icon": "pneumaticcraft:display_table",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)진열대/$는 단일 아이템을 저장(및 표시)할 수 있는 간단한 인벤토리입니다. 이것은 일부는 장식 목적이지만 테이블 인벤토리는 호퍼, 드론 및 기타 배관 시스템을 통해 작동 할 수 있으므로 자동화에도 도움이 됩니다."
+    },
+    {
+      "type": "text",
+      "text": "진열대을 인접하게 배치하면 시각적으로 연결되며 인접한 다리는 렌더링되지 않고 1의 큰 테이블이 형성됩니다. 그러나 두 블록의 회전은 정확히 동일해야 합니다. 회전이 다른 경우 테이블은 이와 같이 연결되지 않습니다. $(p)시각적으로 연결된 테이블에는 각 테이블에 대해 별도의 1 아이템 인벤토리가 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "진열대 제작",
+      "recipe": "pneumaticcraft:display_table"
+    }
+  ]
+}

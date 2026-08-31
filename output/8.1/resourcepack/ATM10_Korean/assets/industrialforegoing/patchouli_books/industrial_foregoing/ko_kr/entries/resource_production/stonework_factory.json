@@ -1,0 +1,17 @@
+{
+  "name": "자재 석재 가공 공장",
+  "icon": "industrialforegoing:material_stonework_factory",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "차세대 $(6)조약돌$() 생성기입니다.$(br2)$(6)60$()RF/t와 $(6)물$(), $(6)용암$()을 공급하면 지정한 재료를 생산합니다.$(br)생산한 재료에는 다음 작업을 이어서 적용할 수 있습니다:$(br)$(li)제련$(br)$(li)분쇄$(br)$(li)조합"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:material_stonework_factory"
+    }
+  ]
+}

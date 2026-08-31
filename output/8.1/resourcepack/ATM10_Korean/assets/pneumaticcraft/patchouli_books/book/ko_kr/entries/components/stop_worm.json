@@ -1,0 +1,17 @@
+{
+  "name": "STOP! 웜",
+  "icon": "pneumaticcraft:stop_worm",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이는 특수 구성 요소에서 $(l:machines/security_station)보안 스테이션/$를 해킹하려고 할 때만 사용됩니다. 이것은 만들 수 없으며, 던전의 전리품이나 (드물게) 마을 사람과의 거래에서만 발견됩니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:stop_worm",
+      "text": "해킹 중에 $(thing)STOP! Worm/$를 적용하면 스테이션의 $(l:components/network_components#diagnostic)진단 서브 루틴/$가 일시적으로 정지하고 추적 할 수 없습니다."
+    }
+  ]
+}

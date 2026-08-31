@@ -1,0 +1,18 @@
+{
+  "name": "꽃가루 체 업그레이드",
+  "icon": "productivetrees:upgrade_pollen_sieve",
+  "category": "productivetrees:stuff",
+  "flag": "mod:productivebees",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivetrees:upgrade_pollen_sieve",
+      "text": "Productive Bees의 고급 벌통에 설치하면 벌이 주변 나무에서 꽃가루를 수집합니다. 수집 범위는 범위 업그레이드의 영향을 받습니다. 꽃가루 체 업그레이드를 두 개 이상 설치해도 생산량은 늘어나지 않습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivetrees:pollen_sieve",
+      "text": ""
+    }
+  ]
+}

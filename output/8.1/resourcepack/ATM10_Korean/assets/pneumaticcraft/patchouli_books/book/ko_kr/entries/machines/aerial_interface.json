@@ -1,0 +1,51 @@
+{
+  "name": "공중 인터페이스",
+  "icon": "pneumaticcraft:aerial_interface",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)공중 인터페이스/$는 플레이어 인벤토리에 직접 연결하는 강력한 장치입니다. 충분히 $(l:base_concepts/pressure)가압/$되면 다른 인벤토리처럼 상호작용할 수 있습니다. 아이템은 인터페이스에 머물지 않고 소유한 플레이어에게 $(italic)직접/$ 전달됩니다. 예를 들어 $(l:logistics/frames#requester)물류 요청자 프레임/$을 부착해 횃불 64개를 항상 보충할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "기본적으로 기본 인벤토리는 인터페이스의 측면을 통해 접근할 수 있으며, 방어구 슬롯은 상단/하단면을 통해 접근할 수 있습니다. 그러나 이는 $(bold)측면 구성/$ GUI 측면 탭을 통해 재구성할 수 있습니다.$(p)다음 중 어느 면에도 연결할 수 있습니다:$(li)주 인벤토리$(li)방어구 슬롯$(li)오프핸드 슬롯$(li)엔더 인벤토리(바닐라에서 접근) $(item)nder 상자/$)."
+    },
+    {
+      "type": "text",
+      "title": "수중 호흡",
+      "text": "분명히 $(l:base_concepts/pressure)air/$에 의해 구동되는 플레이어에 연결할 수 있는 것이 있기 때문에 필요할 때 이 공기를 전송할 수 있는 것이 있어야 합니다. 그렇죠? 80mL/틱의 비용으로 물 속에서 무기한 숨을 쉴 수 있습니다. $(p)이것은 $(l:base_concepts/upgrades#scuba)SCUBA 업그레이드/$가 포함된 $(l:armor/pneumatic_helmet)공압식 헬멧/$보다 약간 더 효율적이지만 선명한 수중 시야를 제공하지는 않습니다."
+    },
+    {
+      "type": "text",
+      "title": "Forge 에너지 인터페이스",
+      "text": "$(item)공중 인터페이스/$는 $(thing)Forge 에너지/$ (RF 전력 및 다른 많은 모드에서 전력과 호환이 됩니다)를 받아들입니다. 내부 버퍼(100,000)에 저장된 에너지는 플레이어의 인벤토리(및 방어구 슬롯)에 있는 FE 충전 가능한 아이템을 충전하는 데 사용됩니다."
+    },
+    {
+      "type": "text",
+      "title": "자동 먹이",
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 삽입하면 $(item)공중 인터페이스/$를 원격 자동 공급기처럼 작동할 수 있습니다. 인터페이스는 제공된 식사를 충분히 이용할 수 있을 정도로 배고픈 경우에만 식품 아이템만 허용합니다. 인벤토리가 1 스택을 초과하는 양을 제공하는 경우 인터페이스는 해당 양을 소모할 수 있을 때까지 기다립니다. 최소한의 양의 식품을 확실하게 사용할 수 있도록 $(item)호퍼/$와 같은 저속 인서터를 사용하세요."
+    },
+    {
+      "type": "text",
+      "title": "경험치 취급",
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 사용하면 $(thing)경험치의 유체/$를 인터페이스로 보내거나 인터페이스에서 전달할 수 있습니다. 여러 종류의 경험치 유체가 존재하는 경우 GUI의 $(bold)경험치/$ 탭에서 사용할 유체를 선택할 수 있습니다. 이 탭에는 어떤 모드의 경험치 유체가 감지되어 사용 가능한지 표시됩니다. $(l:base_concepts/memory_essence)메모리 에센스/$는 항상 사용할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "경험치 취급 (계속)",
+      "text": "인터페이스에는 내부에 유체 버퍼가 없으므로 주의하십시오. 인터페이스는 경험치를 직접 \"탱크\"로 사용합니다. 즉, 경험치를 펌프로 출입할 때에는 경험치 포인트당 유체 경험치의 양보다 높은 속도로 유체를 수송할 수 있는 장치가 필요합니다. 이 속도는 쓰기 시점에서 모든 알려진 경험치의 유체로 20mB/틱입니다."
+    },
+    {
+      "type": "text",
+      "title": "자동 충전",
+      "text": "$(l:tubes/charging_module)충전 모듈/$를 $(item)공중 인터페이스/$로 향하면 인벤토리의 모든 $(l:base_concepts/pressure)가압 가능한/$ 아이템을 채울 수 있습니다. $(p)착용하는 모든 $(l:armor/overview)공압 방어구/$ 아이템을 채우려면 충전 모듈을 방어구 슬롯에 연결된 인터페이스의 측면으로 향해야 합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "공중 인터페이스 제작",
+      "recipe": "pneumaticcraft:aerial_interface"
+    }
+  ]
+}

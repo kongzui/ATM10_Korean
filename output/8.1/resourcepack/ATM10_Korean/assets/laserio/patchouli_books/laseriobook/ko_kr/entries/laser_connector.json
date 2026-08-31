@@ -1,0 +1,26 @@
+{
+  "name": "레이저 커넥터",
+  "icon": "laserio:laser_connector",
+  "sortnum": 1,
+  "category": "laserio:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:laserio:laser_node)레이저 노드$(/l)는 $(l:laserio:laser_wrench)레이저 렌치$(/l)로 서로 직접 연결할 수 있지만 최대 거리는 8블록입니다. $(br2)레이저 커넥터를 값싼 중간 연결 지점으로 사용하면 여러 인벤토리를 잇는 네트워크를 만들 수 있습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "레이저 노드",
+      "images": [
+        "laserio:textures/book/entries/laser_connector1.png"
+      ],
+      "border": true,
+      "text": "2 노드 사이의 커넥터"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "레이저 커넥터",
+      "recipe": "laserio:laser_connector"
+    }
+  ]
+}

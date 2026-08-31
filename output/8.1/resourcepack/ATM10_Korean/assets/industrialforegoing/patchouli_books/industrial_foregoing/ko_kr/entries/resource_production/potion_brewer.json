@@ -1,0 +1,17 @@
+{
+  "name": "물약 양조기",
+  "icon": "industrialforegoing:potion_brewer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 9,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "바닐라 양조기를 자동화한 기계입니다.$(br2)$(6)전력$()을 공급하면 넣어 둔 재료로 물약을 만듭니다.$(br)내부 $(6)물$() 탱크가 차 있으면 빈 병에 물을 채우며 병은 소모하지 않습니다.$(br2)완성한 물약을 모두 꺼내려면 녹색 필터에 물약을 지정해야 합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:potion_brewer"
+    }
+  ]
+}

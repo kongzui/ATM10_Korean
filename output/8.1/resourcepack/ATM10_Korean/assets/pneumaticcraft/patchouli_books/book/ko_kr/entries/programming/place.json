@@ -1,0 +1,34 @@
+{
+  "name": "장소 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/place_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$는 전 세계의 인벤토리에서 블록을 배치합니다. 가장 가까운 위치부터 시작하여 지정된 $(l:programming/area)area/$에 블록을 배치합니다. $(p)블록이 배치되는 순서를 제어할 수 있습니다. $(thing)위젯을 우클릭/$하여 $(item)드론/$가 블록을 레이어별로 배치해야 하는지, 그렇다면 위에서 아래로 또는 그 반대로 배치해야 하는지 지정합니다."
+    },
+    {
+      "type": "text",
+      "title": "무작위 블록 배치",
+      "text": "일반적으로 $(item)드론/$는 첫 번째 슬롯부터 시작하여 인벤토리의 블록을 순서대로 배치합니다(드론 인벤토리에는 기본적으로 단일 슬롯만 있지만 $(l:base_concepts/upgrades#inventory)인벤토리 업그레이드/$를 사용하여 이를 늘릴 수 있습니다).$(p)$(thing)Place를 확인하여 Random Blocks/$ 옵션인 $(item)드론/$는 인벤토리에서 무작위로 블록을 선택하여 배치합니다."
+    },
+    {
+      "type": "text",
+      "title": "장소 수 제한",
+      "text": "위젯을 $(thing)오른쪽 클릭/$하여 장소 작업 수를 지정된 양으로 제한할 수 있습니다. 예를 들어 1로 설정하면 $(item)드론/$는 하나의 블록만 배치하고 해당 블록 하나를 배치한 후에 위젯이 완료된 것으로 간주됩니다. $(p)제한이 설정되지 않은 경우 더 이상 블록을 배치할 수 없는 경우에만 위젯이 완료된 것으로 간주됩니다."
+    },
+    {
+      "type": "text",
+      "title": "필터링",
+      "text": "마지막으로 $(l:programming/item_filter)아이템 필터/$ 위젯을 연결하여 $(item)드론의/$ 인벤토리에서 어떤 블록을 배치할 수 있는지 지정할 수 있습니다. $(italic)right/$에서 아이템을 화이트리스트에 연결하고, $(italic)left/$에서 블랙리스트 아이템에 연결합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/place_piece.png"
+      ],
+      "text": "$(italic)장소 위젯/$"
+    }
+  ]
+}

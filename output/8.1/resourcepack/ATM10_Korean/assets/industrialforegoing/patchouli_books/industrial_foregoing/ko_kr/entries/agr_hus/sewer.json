@@ -1,0 +1,17 @@
+{
+  "name": "오물통",
+  "icon": "industrialforegoing:sewer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 12,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "동물에게서 $(l:agr_hus/sewage)오물$()을 모으고 경험치를 흡수해 정수로 바꾸는 기계입니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sewer"
+    }
+  ]
+}

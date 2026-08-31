@@ -16,6 +16,7 @@ from zipfile import ZipFile
 import ars_family
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -26,8 +27,8 @@ LANG_ROOT = WORK_ROOT / "naturesaura"
 GUIDE_ROOT = WORK_ROOT / "guides"
 GUIDE_SOURCE_ROOT = GUIDE_ROOT / "source"
 GUIDE_OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/naturesaura/patchouli_books/book/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/naturesaura/patchouli_books/book/ko_kr"
 )
 QUEST_SCOPES = ("natures_aura", "related")
 DISPLAY_FIELDS = {"name", "description", "text"}

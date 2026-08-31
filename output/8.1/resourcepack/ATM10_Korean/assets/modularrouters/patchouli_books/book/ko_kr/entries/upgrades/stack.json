@@ -1,0 +1,19 @@
+{
+  "name": "스택 업그레이드",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:stack_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "라우터의 모듈은 한 번에 아이템 하나를 처리합니다. 예를 들어 $(l:modules/sender_1)발신기 모듈/$은 버퍼에 아이템이 몇 개 있든 라우터 틱마다 아이템 하나를 보냅니다."
+    },
+    {
+      "type": "text",
+      "text": "라우터에 스택 업그레이드를 추가하면 이 수량을 늘릴 수 있습니다. 업그레이드 하나마다 각 모듈이 처리할 수 있는 아이템 수가 두 배가 되며, 최대 64개 또는 아이템의 기본 스택 크기까지 늘어납니다($(item)엔더 진주/$는 16개).$(p)따라서 라우터 하나에 유용하게 설치할 수 있는 스택 업그레이드는 최대 6개입니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:stack_upgrade"
+    }
+  ]
+}

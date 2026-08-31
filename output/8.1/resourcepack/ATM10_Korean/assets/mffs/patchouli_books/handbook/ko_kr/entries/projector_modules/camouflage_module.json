@@ -1,0 +1,32 @@
+{
+  "name": "위장 모듈",
+  "icon": "mffs:camouflage_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:camouflage_module",
+      "link_recipe": true,
+      "text": "$(5) 위장 모듈$()는 $(l:mffs:machines/projector)역장 프로젝터$()에서 사용하여 역장 자체의 모습. $(5)위장 모듈$()가 설치된 경우, 역장은 일반 블록으로 위장될 수 있습니다. 예를 들어, 역장은 돌의 벽으로 가려질 수 있습니다. $(5) 위장 모듈$()는 모든 프로젝터 모드와 함께 사용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:camouflage_module",
+      "text": "$(5)위장 모듈$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "사용법",
+      "text": "프로젝터의 이 기능은 플레이어가 다른 사람에게 물건을 숨기거나 비밀 기지 입구를 위장하는 데 도움이 될 수 있습니다. 위장으로 사용하려는 블록을 선택하고 프로젝터 왼쪽 아이템 매트릭스의 다른 빈 슬롯에 배치하세요. ($(5) 위장 모듈$()와 동일한 매트릭스). 일반적인 방법으로 프로젝터를 활성화합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/pyramid_camo.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "벗겨진 참나무로 위장한 피라미드 역장."
+    }
+  ]
+}

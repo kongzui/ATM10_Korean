@@ -19,12 +19,13 @@ from dungeons_arise_family import (
     walk_json,
 )
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 FAMILY = "chipped"
 MOD_ID = "chipped"
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
 RESOURCE_OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/chipped/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/chipped/lang/ko_kr.json"
 )
 DEPLOYMENT_PATH = "resourcepacks/ATM10_Korean/assets/chipped/lang/ko_kr.json"
 JARS = {

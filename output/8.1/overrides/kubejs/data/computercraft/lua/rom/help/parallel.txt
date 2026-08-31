@@ -1,0 +1,4 @@
+병렬 API의 함수:
+parallel.waitForAny( function1, function2, ... )
+parallel.waitForAll( function1, function2, ... )
+이 함수들은 여러 Lua 함수를 동시에 실행하는 간단한 방법을 제공합니다.

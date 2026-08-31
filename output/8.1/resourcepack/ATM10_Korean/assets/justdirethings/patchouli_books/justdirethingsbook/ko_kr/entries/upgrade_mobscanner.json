@@ -1,0 +1,17 @@
+{
+  "name": "몹 스캐너",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_mobscanner",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "몹 스캐너 업그레이드는 액티브 능력이며 페리코어부터 검에 설치할 수 있습니다. 이 능력을 활성화하면 근처의 적들이 블록을 통해 볼 수 있는 입자와 함께 나타납니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "몹 스캐너 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_mobscanner"
+    }
+  ]
+}

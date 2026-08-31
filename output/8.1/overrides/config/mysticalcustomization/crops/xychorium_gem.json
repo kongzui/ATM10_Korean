@@ -1,0 +1,13 @@
+{
+  "name": "자이코륨 보석",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "tag": "c:gems/xychorium"
+  },
+  "textures": {
+    "flower": "mysticalagriculture:block/xychorium_gem_flower",
+    "essence": "mysticalagriculture:item/xychorium_gem_essence",
+    "seeds": "mysticalagriculture:item/xychorium_gem_seeds"
+  }
+}

@@ -1,0 +1,5110 @@
+{
+  "schema_version": 1,
+  "output": {
+    "root": "output/8.1",
+    "pack_version": "8.1"
+  },
+  "base": {
+    "profile": "All the Mods 10 - ATM10",
+    "name": "All the Mods 10",
+    "version": "7.1",
+    "minecraft": "1.21.1",
+    "loader": "neoforge-21.1.234",
+    "manifest_projects": 482,
+    "jar_files": 481
+  },
+  "target": {
+    "profile": "All the Mods 10 - ATM10 (1)",
+    "name": "All the Mods 10",
+    "version": "8.1",
+    "minecraft": "1.21.1",
+    "loader": "neoforge-21.1.249",
+    "manifest_projects": 491,
+    "jar_files": 488
+  },
+  "addons": {
+    "added": [
+      {
+        "addon_id": "635042",
+        "name": "Ad Astra",
+        "base_file": "",
+        "target_file": "adastra-1.21.1-1.16.19-neoforge.jar"
+      },
+      {
+        "addon_id": "714958",
+        "name": "Ad Astra: Giselle Addon",
+        "base_file": "",
+        "target_file": "Ad-Astra-Giselle-Addon-neoforge-1.21.1-8.1.jar"
+      },
+      {
+        "addon_id": "1422678",
+        "name": "Auroral",
+        "base_file": "",
+        "target_file": "auroral-1.21.1-1.1.1.jar"
+      },
+      {
+        "addon_id": "1637623",
+        "name": "Better Advanced Tooltips",
+        "base_file": "",
+        "target_file": "better-advanced-tooltips-2101.1.0-build.5.jar"
+      },
+      {
+        "addon_id": "378979",
+        "name": "Borderless Window",
+        "base_file": "",
+        "target_file": "borderless-neoforge-1.21.1-1.7.5_1-all.jar"
+      },
+      {
+        "addon_id": "1028211",
+        "name": "Common Storage Lib",
+        "base_file": "",
+        "target_file": "common-storage-lib-neoforge-1.21.1-0.0.10.jar"
+      },
+      {
+        "addon_id": "1528432",
+        "name": "Invasive Optimizations",
+        "base_file": "",
+        "target_file": "invasiveopts-1.0.23.jar"
+      },
+      {
+        "addon_id": "1448257",
+        "name": "Logistics Network",
+        "base_file": "",
+        "target_file": "logisticsnetworks-1.21.1-1.13.0.jar"
+      },
+      {
+        "addon_id": "1404763",
+        "name": "Neo Vitae",
+        "base_file": "",
+        "target_file": "neovitae-1.21.1-1.1.15.jar"
+      },
+      {
+        "addon_id": "1398054",
+        "name": "Step Crafter",
+        "base_file": "",
+        "target_file": "stepcrafter-neoforge-1.21.1-0.1.8.jar"
+      },
+      {
+        "addon_id": "1451998",
+        "name": "StructureOverlapless",
+        "base_file": "",
+        "target_file": "overlapless-1.21.1-1.2.0.jar"
+      }
+    ],
+    "removed": [
+      {
+        "addon_id": "352491",
+        "name": "Modern UI",
+        "base_file": "ModernUI-NeoForge-1.21.1-3.13.0.1-universal.jar",
+        "target_file": ""
+      },
+      {
+        "addon_id": "244256",
+        "name": "Reap Mod",
+        "base_file": "reap-neoforge-1.21.1-1.1.2.jar",
+        "target_file": ""
+      },
+      {
+        "addon_id": "401770",
+        "name": "Untranslated Items",
+        "base_file": "UntranslatedItems-neoforge-1.21.1-1.19.jar",
+        "target_file": ""
+      },
+      {
+        "addon_id": "1071634",
+        "name": "UntranslatedItems: AlsoFluidsAndChemicals",
+        "base_file": "uti_afac-1.2.0+1.21.1-neoforge.jar",
+        "target_file": ""
+      }
+    ],
+    "updated": [
+      {
+        "addon_id": "282837",
+        "name": "Additional Enchanted Miner",
+        "base_file": "AdditionalEnchantedMiner-1.21.1-neoforge-21.1.153.jar",
+        "target_file": "AdditionalEnchantedMiner-1.21.1-neoforge-21.1.162.jar"
+      },
+      {
+        "addon_id": "431725",
+        "name": "Advanced Peripherals",
+        "base_file": "AdvancedPeripherals-1.21.1-0.7.62b.jar",
+        "target_file": "AdvancedPeripherals-1.21.1-0.8.0a.jar"
+      },
+      {
+        "addon_id": "1084104",
+        "name": "AdvancedAE",
+        "base_file": "AdvancedAE-1.6.11-1.21.1.jar",
+        "target_file": "AdvancedAE-1.6.12-1.21.1.jar"
+      },
+      {
+        "addon_id": "982512",
+        "name": "AE2 Import Export Card",
+        "base_file": "ae2importexportcard-1.21.1-1.5.0.jar",
+        "target_file": "ae2importexportcard-1.21.1-1.6.0.jar"
+      },
+      {
+        "addon_id": "559313",
+        "name": "AEInfinityBooster",
+        "base_file": "aeinfinitybooster-neoforge-1.21.1-1.0.0.54.jar",
+        "target_file": "aeinfinitybooster-neoforge-1.21.1-1.0.0.58.jar"
+      },
+      {
+        "addon_id": "927064",
+        "name": "All the Wizard Gear",
+        "base_file": "allthewizardgear-1.21.1-1.1.12.jar",
+        "target_file": "allthewizardgear-1.21.1-1.2.0.jar"
+      },
+      {
+        "addon_id": "1091339",
+        "name": "AllTheLeaks (Memory Leak Fix)",
+        "base_file": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
+        "target_file": "alltheleaks-1.1.12+1.21.1-neoforge.jar"
+      },
+      {
+        "addon_id": "896746",
+        "name": "Amendments",
+        "base_file": "amendments-neoforge-1.21-2.1.1.jar",
+        "target_file": "amendments-1.21-2.1.9-neoforge.jar"
+      },
+      {
+        "addon_id": "313970",
+        "name": "Apotheosis",
+        "base_file": "Apotheosis-1.21.1-8.5.4.jar",
+        "target_file": "Apotheosis-1.21.1-8.7.0.jar"
+      },
+      {
+        "addon_id": "898963",
+        "name": "Apothic Attributes",
+        "base_file": "ApothicAttributes-1.21.1-2.9.1.jar",
+        "target_file": "ApothicAttributes-1.21.1-2.10.1.jar"
+      },
+      {
+        "addon_id": "1063926",
+        "name": "Apothic Enchanting",
+        "base_file": "ApothicEnchanting-1.21.1-1.5.3.jar",
+        "target_file": "ApothicEnchanting-1.21.1-1.6.1.jar"
+      },
+      {
+        "addon_id": "986583",
+        "name": "Apothic Spawners",
+        "base_file": "ApothicSpawners-1.21.1-1.3.4.jar",
+        "target_file": "ApothicSpawners-1.21.1-1.4.0.jar"
+      },
+      {
+        "addon_id": "459929",
+        "name": "Applied Energistics 2 Wireless Terminals",
+        "base_file": "ae2wtlib-19.5.0.jar",
+        "target_file": "ae2wtlib-19.5.1.jar"
+      },
+      {
+        "addon_id": "419699",
+        "name": "Architectury API",
+        "base_file": "architectury-13.0.8-neoforge.jar",
+        "target_file": "architectury-13.0.11-neoforge.jar"
+      },
+      {
+        "addon_id": "1153666",
+        "name": "Ars Elemancy",
+        "base_file": "ars_elemancy-1.21.1-1.17.jar",
+        "target_file": "ars_elemancy-1.21.1-1.18.3.jar"
+      },
+      {
+        "addon_id": "561470",
+        "name": "Ars Elemental",
+        "base_file": "ars_elemental-1.21.1-0.7.10.0.jar",
+        "target_file": "ars_elemental-1.21.1-0.7.10.1.jar"
+      },
+      {
+        "addon_id": "401955",
+        "name": "Ars Nouveau",
+        "base_file": "ars_nouveau-1.21.1-5.12.0.jar",
+        "target_file": "ars_nouveau-1.21.1-5.13.1.jar"
+      },
+      {
+        "addon_id": "907843",
+        "name": "Ars Ocultas",
+        "base_file": "ars_ocultas-1.21.1-2.4.1.jar",
+        "target_file": "ars_ocultas-1.21.1-2.6.1.jar"
+      },
+      {
+        "addon_id": "1165429",
+        "name": "Ars Unification",
+        "base_file": "ars_unification-1.2.18.jar",
+        "target_file": "ars_unification-1.2.20.jar"
+      },
+      {
+        "addon_id": "312353",
+        "name": "Artifacts",
+        "base_file": "artifacts-neoforge-13.2.1.jar",
+        "target_file": "artifacts-neoforge-13.2.3.jar"
+      },
+      {
+        "addon_id": "531761",
+        "name": "Balm",
+        "base_file": "balm-neoforge-1.21.1-21.0.59.jar",
+        "target_file": "balm-neoforge-1.21.1-21.0.65.jar"
+      },
+      {
+        "addon_id": "454382",
+        "name": "Cable Tiers",
+        "base_file": "cabletiers-neoforge-1.21.1-0.6.12.jar",
+        "target_file": "cabletiers-neoforge-1.21.1-0.6.14.jar"
+      },
+      {
+        "addon_id": "1108467",
+        "name": "Cobblegen Galore",
+        "base_file": "cobblegengalore-1.21.1-0.2.8.jar",
+        "target_file": "cobblegengalore-1.21.1-0.2.9.jar"
+      },
+      {
+        "addon_id": "242818",
+        "name": "CodeChicken Lib 1.8.+",
+        "base_file": "CodeChickenLib-1.21.1-4.6.1.526.jar",
+        "target_file": "CodeChickenLib-1.21.1-4.6.1.529.jar"
+      },
+      {
+        "addon_id": "247007",
+        "name": "Common Capabilities",
+        "base_file": "commoncapabilities-1.21.1-neoforge-2.11.5.jar",
+        "target_file": "commoncapabilities-1.21.1-neoforge-2.11.5-363.jar"
+      },
+      {
+        "addon_id": "1156098",
+        "name": "Construction Sticks",
+        "base_file": "ConstructionSticks-1.21.1-1.4.1.jar",
+        "target_file": "ConstructionSticks-1.21.1-1.4.2.jar"
+      },
+      {
+        "addon_id": "231484",
+        "name": "Cooking for Blockheads",
+        "base_file": "cookingforblockheads-neoforge-1.21.1-21.1.23.jar",
+        "target_file": "cookingforblockheads-neoforge-1.21.1-21.1.24.jar"
+      },
+      {
+        "addon_id": "243707",
+        "name": "Corail Tombstone",
+        "base_file": "tombstone-neoforge-1.21.1-9.5.1.jar",
+        "target_file": "tombstone-neoforge-1.21.1-9.5.5.jar"
+      },
+      {
+        "addon_id": "577850",
+        "name": "Crafting on a stick",
+        "base_file": "crafting_on_a_stick-1.21.0.4.jar",
+        "target_file": "crafting_on_a_stick-1.21.0.6.jar"
+      },
+      {
+        "addon_id": "233071",
+        "name": "Crafting Tweaks",
+        "base_file": "craftingtweaks-neoforge-1.21.1-21.1.10.jar",
+        "target_file": "craftingtweaks-neoforge-1.21.1-21.1.11.jar"
+      },
+      {
+        "addon_id": "1154099",
+        "name": "Crash Assistant",
+        "base_file": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.10.jar",
+        "target_file": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar"
+      },
+      {
+        "addon_id": "439890",
+        "name": "Create Crafts & Additions",
+        "base_file": "createaddition-1.6.0.jar",
+        "target_file": "createaddition-1.7.0.jar"
+      },
+      {
+        "addon_id": "1005676",
+        "name": "Create: Aquatic Ambitions",
+        "base_file": "create_aquatic_ambitions-1.21.1-2.0.2.jar",
+        "target_file": "create_aquatic_ambitions-1.21.1-2.0.4.jar"
+      },
+      {
+        "addon_id": "1216624",
+        "name": "Create: Dragons Plus",
+        "base_file": "CreateDragonsPlus-1.11.2b.jar",
+        "target_file": "CreateDragonsPlus-1.11.7b.jar"
+      },
+      {
+        "addon_id": "688768",
+        "name": "Create: Enchantment Industry",
+        "base_file": "create-enchantment-industry-2.5.0-preview-alpha1.jar",
+        "target_file": "create-enchantment-industry-2.5.3b.jar"
+      },
+      {
+        "addon_id": "1281336",
+        "name": "Create: Hypertubes",
+        "base_file": "create_hypertube-0.5.0-ALPHA-NEOFORGE.jar",
+        "target_file": "create_hypertube-0.6.0-NEOFORGE.jar"
+      },
+      {
+        "addon_id": "326652",
+        "name": "Cupboard",
+        "base_file": "cupboard-1.21.1-3.8.jar",
+        "target_file": "cupboard-1.21.1-4.1.jar"
+      },
+      {
+        "addon_id": "232758",
+        "name": "Cyclops Core",
+        "base_file": "cyclopscore-1.21.1-neoforge-1.29.1.jar",
+        "target_file": "cyclopscore-1.21.1-neoforge-1.29.3.jar"
+      },
+      {
+        "addon_id": "574123",
+        "name": "Dark Mode Everywhere",
+        "base_file": "darkmodeeverywhere-1.21-1.3.5.jar",
+        "target_file": "darkmodeeverywhere-neoforge-1.21.1-1.4.0.jar"
+      },
+      {
+        "addon_id": "511770",
+        "name": "Drippy Loading Screen",
+        "base_file": "drippyloadingscreen_neoforge_3.1.2_MC_1.21.1.jar",
+        "target_file": "drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar"
+      },
+      {
+        "addon_id": "250419",
+        "name": "Enchantment Descriptions",
+        "base_file": "enchdesc-neoforge-1.21.1-21.1.10.jar",
+        "target_file": "enchdesc-neoforge-1.21.1-21.1.11.jar"
+      },
+      {
+        "addon_id": "1226739",
+        "name": "EnderDrives",
+        "base_file": "enderdrives-neoforge-1.21.1-1.4.4.jar",
+        "target_file": "enderdrives-neoforge-1.21.1-1.5.23.jar"
+      },
+      {
+        "addon_id": "532169",
+        "name": "Energy Meter",
+        "base_file": "energymeter-neoforge-1.21.1-0.4.1.jar",
+        "target_file": "energymeter-neoforge-1.21.1-0.5.2.jar"
+      },
+      {
+        "addon_id": "1080592",
+        "name": "Eternal Starlight",
+        "base_file": "eternalstarlight-0.8.1+1.21.1+neoforge.jar",
+        "target_file": "eternalstarlight-0.9.0+1.21.1+neoforge.jar"
+      },
+      {
+        "addon_id": "74610",
+        "name": "EvilCraft",
+        "base_file": "evilcraft-1.21.1-neoforge-1.2.89.jar",
+        "target_file": "evilcraft-1.21.1-neoforge-1.2.94.jar"
+      },
+      {
+        "addon_id": "1068418",
+        "name": "Extended Industrialization",
+        "base_file": "extended-industrialization-1.15.42-1.21.1.jar",
+        "target_file": "extended-industrialization-1.16.2-1.21.1.jar"
+      },
+      {
+        "addon_id": "892005",
+        "name": "ExtendedAE",
+        "base_file": "ExtendedAE-1.21-2.2.33-neoforge.jar",
+        "target_file": "ExtendedAE-1.21-2.2.35-neoforge.jar"
+      },
+      {
+        "addon_id": "410168",
+        "name": "ExtraStorage",
+        "base_file": "ExtraStorage-1.21.1-5.0.9.jar",
+        "target_file": "ExtraStorage-1.21.1-5.0.10.jar"
+      },
+      {
+        "addon_id": "367706",
+        "name": "FancyMenu",
+        "base_file": "fancymenu_neoforge_3.9.1_MC_1.21.1.jar",
+        "target_file": "fancymenu_neoforge_3.9.12_MC_1.21.1.jar"
+      },
+      {
+        "addon_id": "398521",
+        "name": "Farmer's Delight",
+        "base_file": "FarmersDelight-1.21.1-1.3.2.jar",
+        "target_file": "FarmersDelight-1.21.1-1.3.3.jar"
+      },
+      {
+        "addon_id": "918840",
+        "name": "Formations Nether",
+        "base_file": "formationsnether-1.0.5-mc1.21+.jar",
+        "target_file": "formationsnether-1.0.5a-mc1.21+.jar"
+      },
+      {
+        "addon_id": "915324",
+        "name": "Formations Overworld",
+        "base_file": "formationsoverworld-1.0.5-mc1.21+.jar",
+        "target_file": "formationsoverworld-1.0.5a-mc1.21+.jar"
+      },
+      {
+        "addon_id": "441647",
+        "name": "FramedBlocks",
+        "base_file": "FramedBlocks-10.6.0.jar",
+        "target_file": "FramedBlocks-10.6.1.jar"
+      },
+      {
+        "addon_id": "314906",
+        "name": "FTB Chunks (NeoForge)",
+        "base_file": "ftb-chunks-neoforge-2101.1.20.jar",
+        "target_file": "ftb-chunks-neoforge-2101.1.21.jar"
+      },
+      {
+        "addon_id": "410811",
+        "name": "FTB Essentials (Forge & Fabric)",
+        "base_file": "ftb-essentials-neoforge-2101.1.9.jar",
+        "target_file": "ftb-essentials-neoforge-2101.1.10.jar"
+      },
+      {
+        "addon_id": "404465",
+        "name": "FTB Library (NeoForge)",
+        "base_file": "ftb-library-neoforge-2101.1.32.jar",
+        "target_file": "ftb-library-neoforge-2101.1.35.jar"
+      },
+      {
+        "addon_id": "289412",
+        "name": "FTB Quests (NeoForge)",
+        "base_file": "ftb-quests-neoforge-2101.1.27.jar",
+        "target_file": "ftb-quests-neoforge-2101.1.34.jar"
+      },
+      {
+        "addon_id": "314905",
+        "name": "FTB Ranks (NeoForge)",
+        "base_file": "ftb-ranks-neoforge-2101.1.3.jar",
+        "target_file": "ftb-ranks-neoforge-2101.1.4.jar"
+      },
+      {
+        "addon_id": "404468",
+        "name": "FTB Teams (NeoForge)",
+        "base_file": "ftb-teams-neoforge-2101.1.10.jar",
+        "target_file": "ftb-teams-neoforge-2101.1.11.jar"
+      },
+      {
+        "addon_id": "889915",
+        "name": "FTB XMod Compat",
+        "base_file": "ftb-xmod-compat-neoforge-21.1.8.jar",
+        "target_file": "ftb-xmod-compat-neoforge-21.1.11.jar"
+      },
+      {
+        "addon_id": "556861",
+        "name": "Functional Storage",
+        "base_file": "functionalstorage-1.21.1-1.5.7.jar",
+        "target_file": "functionalstorage-1.21.1-1.5.8.jar"
+      },
+      {
+        "addon_id": "854949",
+        "name": "Fusion (Connected Textures)",
+        "base_file": "fusion-1.3.3-neoforge-mc1.21.1.jar",
+        "target_file": "fusion-1.3.14a-neoforge-mc1.21.1.jar"
+      },
+      {
+        "addon_id": "388172",
+        "name": "GeckoLib",
+        "base_file": "geckolib-neoforge-1.21.1-4.9.1.jar",
+        "target_file": "geckolib-neoforge-1.21.1-4.9.2.jar"
+      },
+      {
+        "addon_id": "691049",
+        "name": "Generator Galore",
+        "base_file": "generatorgalore-1.21.1-1.6.3.jar",
+        "target_file": "generatorgalore-1.21.1-1.7.0.jar"
+      },
+      {
+        "addon_id": "945149",
+        "name": "Glassential Renewed",
+        "base_file": "Glassential-renewed-1.21.1-3.4.4.jar",
+        "target_file": "Glassential-renewed-1.21.1-3.4.5.jar"
+      },
+      {
+        "addon_id": "1173950",
+        "name": "GuideME",
+        "base_file": "guideme-21.1.16.jar",
+        "target_file": "guideme-21.1.17.jar"
+      },
+      {
+        "addon_id": "552574",
+        "name": "Hostile Neural Networks",
+        "base_file": "HostileNeuralNetworks-1.21.1-6.4.1.jar",
+        "target_file": "HostileNeuralNetworks-1.21.1-6.5.1.jar"
+      },
+      {
+        "addon_id": "1111501",
+        "name": "I'm Fast",
+        "base_file": "imfast-NEOFORGE-1.0.2.jar",
+        "target_file": "imfast-NEOFORGE-1.21.1-1.0.3.jar"
+      },
+      {
+        "addon_id": "686911",
+        "name": "ImmediatelyFast",
+        "base_file": "ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
+        "target_file": "ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar"
+      },
+      {
+        "addon_id": "257356",
+        "name": "In Control!",
+        "base_file": "incontrol-1.21-10.2.6.jar",
+        "target_file": "incontrol-1.21-10.2.7.jar"
+      },
+      {
+        "addon_id": "266515",
+        "name": "Industrial Foregoing",
+        "base_file": "industrialforegoing-1.21-3.6.38.jar",
+        "target_file": "industrialforegoing-1.21-3.6.39.jar"
+      },
+      {
+        "addon_id": "1089065",
+        "name": "Industrialization Overdrive",
+        "base_file": "industrialization_overdrive-1.11.2+1.21.1.jar",
+        "target_file": "industrialization_overdrive-1.12.2+1.21.1.jar"
+      },
+      {
+        "addon_id": "287357",
+        "name": "Integrated Crafting",
+        "base_file": "integratedcrafting-1.21.1-neoforge-1.4.6.jar",
+        "target_file": "integratedcrafting-1.21.1-neoforge-1.5.0-646.jar"
+      },
+      {
+        "addon_id": "236307",
+        "name": "Integrated Dynamics",
+        "base_file": "integrateddynamics-1.21.1-neoforge-1.33.3.jar",
+        "target_file": "integrateddynamics-1.21.1-neoforge-1.35.0-1981.jar"
+      },
+      {
+        "addon_id": "889785",
+        "name": "Integrated Scripting",
+        "base_file": "integratedscripting-1.21.1-neoforge-1.0.22-373.jar",
+        "target_file": "integratedscripting-1.21.1-neoforge-1.0.26.jar"
+      },
+      {
+        "addon_id": "295910",
+        "name": "Integrated Terminals",
+        "base_file": "integratedterminals-1.21.1-neoforge-1.7.0.jar",
+        "target_file": "integratedterminals-1.21.1-neoforge-1.8.0-840.jar"
+      },
+      {
+        "addon_id": "251389",
+        "name": "Integrated Tunnels",
+        "base_file": "integratedtunnels-1.21.1-neoforge-1.9.4-632.jar",
+        "target_file": "integratedtunnels-1.21.1-neoforge-1.10.0-729.jar"
+      },
+      {
+        "addon_id": "1583035",
+        "name": "Iris & Oculus Search",
+        "base_file": "IrisSearch-1.2.2-neoforge.jar",
+        "target_file": "IrisSearch-1.6.1-neoforge.jar"
+      },
+      {
+        "addon_id": "1101111",
+        "name": "Iron's Gems 'n Jewelry",
+        "base_file": "irons_jewelry-1.21.1-2.0.1.jar",
+        "target_file": "irons_jewelry-1.21.1-2.0.2.jar"
+      },
+      {
+        "addon_id": "1492763",
+        "name": "Iron's Lib",
+        "base_file": "irons_lib-1.21.1-1.1.0.jar",
+        "target_file": "irons_lib-1.21.1-2.1.0.jar"
+      },
+      {
+        "addon_id": "855414",
+        "name": "Iron's Spells 'n Spellbooks",
+        "base_file": "irons_spellbooks-1.21.1-3.16.1.jar",
+        "target_file": "irons_spellbooks-1.21.1-3.16.3.jar"
+      },
+      {
+        "addon_id": "324717",
+        "name": "Jade 🔍",
+        "base_file": "Jade-1.21.1-NeoForge-15.10.5.jar",
+        "target_file": "Jade-1.21.1-NeoForge-15.10.6.jar"
+      },
+      {
+        "addon_id": "510170",
+        "name": "Jonn's Trophies",
+        "base_file": "trophymanager-1.21.1-2.5.0.jar",
+        "target_file": "trophymanager-1.21.1-3.0.0.jar"
+      },
+      {
+        "addon_id": "32274",
+        "name": "JourneyMap",
+        "base_file": "journeymap-neoforge-1.21.1-6.0.0-beta.88.jar",
+        "target_file": "journeymap-neoforge-1.21.1-6.0.6.jar"
+      },
+      {
+        "addon_id": "899386",
+        "name": "Just Enough Breeding (JEBr)",
+        "base_file": "justenoughbreeding-neoforge-1.21.1-3.1.0.jar",
+        "target_file": "justenoughbreeding-neoforge-1.21.1-3.2.1.jar"
+      },
+      {
+        "addon_id": "238222",
+        "name": "Just Enough Items (JEI)",
+        "base_file": "jei-1.21.1-neoforge-19.27.0.343.jar",
+        "target_file": "jei-1.21.1-neoforge-19.50.0.414.jar"
+      },
+      {
+        "addon_id": "898746",
+        "name": "Just Enough Mekanism Multiblocks",
+        "base_file": "JustEnoughMekanismMultiblocks-1.21.1-7.15.jar",
+        "target_file": "JustEnoughMekanismMultiblocks-1.21.1-7.18.jar"
+      },
+      {
+        "addon_id": "351264",
+        "name": "Kotlin for Forge",
+        "base_file": "kotlinforforge-5.11.0-all.jar",
+        "target_file": "kotlinforforge-5.12.0-all.jar"
+      },
+      {
+        "addon_id": "238086",
+        "name": "KubeJS",
+        "base_file": "kubejs-neoforge-2101.7.2-build.368.jar",
+        "target_file": "kubejs-neoforge-2101.7.2-build.374.jar"
+      },
+      {
+        "addon_id": "551586",
+        "name": "L_Ender 's Cataclysm",
+        "base_file": "L_Ender's Cataclysm 1.21.1-3.31.jar",
+        "target_file": "L_Ender's Cataclysm 1.21.1-3.33.jar"
+      },
+      {
+        "addon_id": "776337",
+        "name": "Laser Bridges & Doors [Fabric/Forge/NeoForge]",
+        "base_file": "laserbridges-1.21.1-neoforge-5.3.jar",
+        "target_file": "laserbridges-1.21.1-neoforge-6.jar"
+      },
+      {
+        "addon_id": "1001614",
+        "name": "Lionfish API",
+        "base_file": "lionfishapi-3.0.jar",
+        "target_file": "lionfishapi-3.1.jar"
+      },
+      {
+        "addon_id": "936015",
+        "name": "Lithostitched",
+        "base_file": "lithostitched-1.7.11-neoforge-21.1.jar",
+        "target_file": "lithostitched-1.8.0+beta4-neoforge-21.1.jar"
+      },
+      {
+        "addon_id": "1180560",
+        "name": "Little Big Redstone",
+        "base_file": "little-big-redstone-1.9.0-1.21.1.jar",
+        "target_file": "little-big-redstone-1.9.10-1.21.1.jar"
+      },
+      {
+        "addon_id": "397252",
+        "name": "LivingThings",
+        "base_file": "livingthings-neoforge-1.21.1-2.3.0.jar",
+        "target_file": "livingthings-neoforge-1.21.1-2.3.1.jar"
+      },
+      {
+        "addon_id": "361276",
+        "name": "Lootr (Forge & NeoForge)",
+        "base_file": "lootr-neoforge-1.21.1-1.11.37.120.jar",
+        "target_file": "lootr-neoforge-1.21.1-1.11.38.124.jar"
+      },
+      {
+        "addon_id": "431203",
+        "name": "MakeUp - Ultra Fast | Shaders",
+        "base_file": "MakeUp-UltraFast-9.5a.zip",
+        "target_file": "MakeUp-UltraFast-9.5d.zip"
+      },
+      {
+        "addon_id": "1130473",
+        "name": "Mama's Herbs and Harvest",
+        "base_file": "herbsandharvest-1.21.1-15.jar",
+        "target_file": "herbsandharvest-1.21.1-19.jar"
+      },
+      {
+        "addon_id": "1275257",
+        "name": "Mekanism:More Machine",
+        "base_file": "mekmm-1.21.1-1.3.3.jar",
+        "target_file": "mekmm-1.21.1-1.4.1.jar"
+      },
+      {
+        "addon_id": "245506",
+        "name": "MineColonies",
+        "base_file": "minecolonies-1.1.1339-1.21.1-snapshot.jar",
+        "target_file": "minecolonies-1.1.1374-1.21.1-snapshot.jar"
+      },
+      {
+        "addon_id": "351748",
+        "name": "Mining Gadgets",
+        "base_file": "mininggadgets-1.18.6.jar",
+        "target_file": "mininggadgets-1.18.7.jar"
+      },
+      {
+        "addon_id": "225738",
+        "name": "MmmMmmMmmMmm (Target Dummy)",
+        "base_file": "dummmmmmy-1.21-2.0.12-neoforge.jar",
+        "target_file": "dummmmmmy-neoforge-1.21-2.1.0.jar"
+      },
+      {
+        "addon_id": "405388",
+        "name": "Modern Industrialization",
+        "base_file": "Modern-Industrialization-2.4.3.jar",
+        "target_file": "Modern-Industrialization-2.5.6.jar"
+      },
+      {
+        "addon_id": "790626",
+        "name": "ModernFix",
+        "base_file": "modernfix-neoforge-5.27.14+mc1.21.1.jar",
+        "target_file": "modernfix-neoforge-5.27.20+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "538392",
+        "name": "Modonomicon",
+        "base_file": "modonomicon-1.21.1-neoforge-1.120.1.jar",
+        "target_file": "modonomicon-1.21.1-neoforge-1.120.4.jar"
+      },
+      {
+        "addon_id": "1350380",
+        "name": "Modular Bees",
+        "base_file": "ModularBees-1.21.1-3.2-neoforge.jar",
+        "target_file": "ModularBees-1.21.1-3.4-neoforge.jar"
+      },
+      {
+        "addon_id": "238546",
+        "name": "Modular Force Field Systems (MFFS)",
+        "base_file": "mffs-5.4.27.jar",
+        "target_file": "mffs-5.4.44.jar"
+      },
+      {
+        "addon_id": "250294",
+        "name": "Modular Routers",
+        "base_file": "modular-routers-13.2.5+mc1.21.1.jar",
+        "target_file": "modular-routers-13.2.7+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "968432",
+        "name": "MonoLib",
+        "base_file": "monolib-neoforge-1.21.1-4.0.2.jar",
+        "target_file": "monolib-neoforge-1.21.1-4.1.0.jar"
+      },
+      {
+        "addon_id": "1337167",
+        "name": "Moog's Structure Lib (moogs_structures)",
+        "base_file": "moogs_structures-neoforge-1.21.1-3.0.0.jar",
+        "target_file": "MoogsStructureLib-neoforge-1.21.1-3.1.2.jar"
+      },
+      {
+        "addon_id": "499980",
+        "name": "Moonlight Lib",
+        "base_file": "moonlight-neoforge-1.21.1-3.0.19.jar",
+        "target_file": "moonlight-1.21.1-3.5.2-neoforge.jar"
+      },
+      {
+        "addon_id": "656977",
+        "name": "MVS - Moog's Voyager Structures",
+        "base_file": "MoogsVoyagerStructures-1.21-5.0.11.jar",
+        "target_file": "MoogsVoyagerStructures-1.21-5.0.14.jar"
+      },
+      {
+        "addon_id": "256247",
+        "name": "Mystical Agradditions",
+        "base_file": "MysticalAgradditions-1.21.1-8.0.13.jar",
+        "target_file": "MysticalAgradditions-1.21.1-8.0.14.jar"
+      },
+      {
+        "addon_id": "246640",
+        "name": "Mystical Agriculture",
+        "base_file": "MysticalAgriculture-1.21.1-8.0.26.jar",
+        "target_file": "MysticalAgriculture-1.21.1-8.0.27.jar"
+      },
+      {
+        "addon_id": "361026",
+        "name": "Occultism",
+        "base_file": "occultism-1.21.1-neoforge-1.223.0.jar",
+        "target_file": "occultism-1.21.1-neoforge-1.224.4.jar"
+      },
+      {
+        "addon_id": "1206582",
+        "name": "Oracle Index",
+        "base_file": "oracle_index-neoforge-1.3.0.jar",
+        "target_file": "oracle_index-neoforge-1.3.1.jar"
+      },
+      {
+        "addon_id": "1030830",
+        "name": "Oritech",
+        "base_file": "oritech-neoforge-1.21.1-1.2.8.jar",
+        "target_file": "oritech-neoforge-1.21.1-1.2.11.jar"
+      },
+      {
+        "addon_id": "443900",
+        "name": "Pipez",
+        "base_file": "pipez-neoforge-1.21.1-1.2.19.jar",
+        "target_file": "pipez-neoforge-1.21.1-1.2.31.jar"
+      },
+      {
+        "addon_id": "283644",
+        "name": "Placebo",
+        "base_file": "Placebo-1.21.1-9.9.1.jar",
+        "target_file": "Placebo-1.21.1-9.9.2.jar"
+      },
+      {
+        "addon_id": "281849",
+        "name": "PneumaticCraft: Repressurized",
+        "base_file": "pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar",
+        "target_file": "pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "1184570",
+        "name": "Productive Metalworks",
+        "base_file": "productivemetalworks-1.21.1-1.15.0.jar",
+        "target_file": "productivemetalworks-1.21.1-1.15.1.jar"
+      },
+      {
+        "addon_id": "867074",
+        "name": "Productive Trees",
+        "base_file": "productivetrees-1.21.1-1.0.0.jar",
+        "target_file": "productivetrees-1.21.1-1.1.0.jar"
+      },
+      {
+        "addon_id": "1326856",
+        "name": "Quests Lang Splitter",
+        "base_file": "ftbquestslangsplitter-1.0.5.jar",
+        "target_file": "ftbquestslangsplitter-1.0.7.jar"
+      },
+      {
+        "addon_id": "241319",
+        "name": "Reliquary Reincarnations",
+        "base_file": "reliquary-1.21.1-2.0.74.1509.jar",
+        "target_file": "reliquary-1.21.1-2.0.80.1570.jar"
+      },
+      {
+        "addon_id": "1100379",
+        "name": "Reliquified Artifacts",
+        "base_file": "reliquified_artifacts-1.21.1-1.0.7.jar",
+        "target_file": "reliquified_artifacts-1.21.1-1.0.8.jar"
+      },
+      {
+        "addon_id": "368293",
+        "name": "Repurposed Structures (Neoforge/Forge)",
+        "base_file": "repurposed_structures-7.5.21+1.21.1-neoforge.jar",
+        "target_file": "repurposed_structures-7.5.22+1.21.1-neoforge.jar"
+      },
+      {
+        "addon_id": "347706",
+        "name": "RFTools Builder",
+        "base_file": "rftoolsbuilder-1.21-7.0.5.jar",
+        "target_file": "rftoolsbuilder-1.21-7.0.6.jar"
+      },
+      {
+        "addon_id": "416294",
+        "name": "Rhino",
+        "base_file": "rhino-2101.2.7-build.81.jar",
+        "target_file": "rhino-2101.2.8-build.91.jar"
+      },
+      {
+        "addon_id": "964817",
+        "name": "Sawmill",
+        "base_file": "sawmill-neoforge-1.21-1.7.7.jar",
+        "target_file": "sawmill-1.21-1.8.0-neoforge.jar"
+      },
+      {
+        "addon_id": "64760",
+        "name": "Security Craft",
+        "base_file": "[1.21.1] SecurityCraft v1.10.1.jar",
+        "target_file": "[1.21.1] SecurityCraft v1.10.2.1.jar"
+      },
+      {
+        "addon_id": "394468",
+        "name": "Sodium",
+        "base_file": "sodium-neoforge-0.8.12-beta.2+mc1.21.1.jar",
+        "target_file": "sodium-neoforge-0.8.13+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "447673",
+        "name": "Sodium Extra",
+        "base_file": "sodium-extra-neoforge-0.8.7+mc1.21.1.jar",
+        "target_file": "sodium-extra-neoforge-0.9.3+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "422301",
+        "name": "Sophisticated Backpacks",
+        "base_file": "sophisticatedbackpacks-1.21.1-3.25.64.1933.jar",
+        "target_file": "sophisticatedbackpacks-1.21.1-3.25.78.2107.jar"
+      },
+      {
+        "addon_id": "1238567",
+        "name": "Sophisticated Backpacks Create Integration",
+        "base_file": "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar",
+        "target_file": "sophisticatedbackpackscreateintegration-1.21.1-0.1.8.134.jar"
+      },
+      {
+        "addon_id": "618298",
+        "name": "Sophisticated Core",
+        "base_file": "sophisticatedcore-1.21.1-1.4.60.2057.jar",
+        "target_file": "sophisticatedcore-1.21.1-1.4.90.2299.jar"
+      },
+      {
+        "addon_id": "619320",
+        "name": "Sophisticated Storage",
+        "base_file": "sophisticatedstorage-1.21.1-1.5.63.1872.jar",
+        "target_file": "sophisticatedstorage-1.21.1-1.5.91.2127.jar"
+      },
+      {
+        "addon_id": "1226755",
+        "name": "Sophisticated Storage Create Integration",
+        "base_file": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
+        "target_file": "sophisticatedstoragecreateintegration-1.21.1-0.1.21.209.jar"
+      },
+      {
+        "addon_id": "1166930",
+        "name": "Sophisticated Storage in Motion",
+        "base_file": "sophisticatedstorageinmotion-1.21.1-0.10.30.276.jar",
+        "target_file": "sophisticatedstorageinmotion-1.21.1-0.10.34.358.jar"
+      },
+      {
+        "addon_id": "1143614",
+        "name": "Soulplied Energistics",
+        "base_file": "soulplied_energistics-1.0.2.jar",
+        "target_file": "soulplied_energistics-1.0.3.jar"
+      },
+      {
+        "addon_id": "979761",
+        "name": "Storage Delight (Forge & Neoforge)",
+        "base_file": "storagedelight-26.04.18a+1.21-neoforge.jar",
+        "target_file": "storagedelight-26.07.01a-1.21-neoforge.jar"
+      },
+      {
+        "addon_id": "636540",
+        "name": "Structory",
+        "base_file": "Structory_26.1_v1.3.16.jar",
+        "target_file": "Structory_26.2_v1.3.7.jar"
+      },
+      {
+        "addon_id": "298744",
+        "name": "Structurize",
+        "base_file": "structurize-1.0.831-1.21.1-snapshot.jar",
+        "target_file": "structurize-1.0.832-1.21.1.jar"
+      },
+      {
+        "addon_id": "827507",
+        "name": "Stylecolonies",
+        "base_file": "stylecolonies-1.15.54-1.21.1.jar",
+        "target_file": "stylecolonies-1.15.58-1.21.1.jar"
+      },
+      {
+        "addon_id": "306935",
+        "name": "Super Factory Manager ( SFM )",
+        "base_file": "Super Factory Manager (SFM)-MC1.21.1-4.32.0.jar",
+        "target_file": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar"
+      },
+      {
+        "addon_id": "454372",
+        "name": "SuperMartijn642's Core Lib",
+        "base_file": "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
+        "target_file": "supermartijn642corelib-1.1.24-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "412082",
+        "name": "Supplementaries",
+        "base_file": "supplementaries-neoforge-1.21.1-3.7.4.jar",
+        "target_file": "supplementaries-1.21.1-3.9.5-neoforge.jar"
+      },
+      {
+        "addon_id": "1067672",
+        "name": "Tesseract API (NeoForge)",
+        "base_file": "tesseract-api-neoforge-1.12.3-1.21.1.jar",
+        "target_file": "tesseract-api-neoforge-1.12.16-1.21.1.jar"
+      },
+      {
+        "addon_id": "362479",
+        "name": "The Bumblezone (NeoForge/Forge)",
+        "base_file": "the_bumblezone-7.15.0+1.21.1-neoforge.jar",
+        "target_file": "the_bumblezone-7.15.3+1.21.1-neoforge.jar"
+      },
+      {
+        "addon_id": "430636",
+        "name": "Theurgy",
+        "base_file": "theurgy-1.21.1-neoforge-1.73.1.jar",
+        "target_file": "theurgy-1.21.1-neoforge-1.76.0.jar"
+      },
+      {
+        "addon_id": "287342",
+        "name": "Titanium",
+        "base_file": "titanium-1.21-4.0.43.jar",
+        "target_file": "titanium-1.21-4.0.50.jar"
+      },
+      {
+        "addon_id": "626761",
+        "name": "Towns and Towers",
+        "base_file": "t_and_t-neoforge-fabric-1.13.9+1.21.1.jar",
+        "target_file": "t_and_t-fabric-neoforge-1.13.11.jar"
+      },
+      {
+        "addon_id": "1184406",
+        "name": "Transfer Labels",
+        "base_file": "transfer_labels-0.1.7.jar",
+        "target_file": "transfer_labels-0.1.9.jar"
+      },
+      {
+        "addon_id": "394535",
+        "name": "Trash Cans",
+        "base_file": "trashcans-1.0.18c-neoforge-mc1.21.jar",
+        "target_file": "trashcans-1.1.0-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "1010827",
+        "name": "Uranus",
+        "base_file": "uranus-2.4.1-1.21.1-neoforge.jar",
+        "target_file": "uranus-2.4.1-bugfix-1.21.1-neoforge.jar"
+      },
+      {
+        "addon_id": "245755",
+        "name": "Waystones",
+        "base_file": "waystones-neoforge-1.21.1-21.1.34.jar",
+        "target_file": "waystones-neoforge-1.21.1-21.1.41.jar"
+      },
+      {
+        "addon_id": "909375",
+        "name": "WITS (What Is This Structure?)",
+        "base_file": "wits-1.3.0+1.21-neoforge.jar",
+        "target_file": "wits-neoforge-1.3.1.jar"
+      },
+      {
+        "addon_id": "1015100",
+        "name": "YUNG's API (NeoForge) [1.20.4-1.21.1 ONLY]",
+        "base_file": "YungsApi-1.21.1-NeoForge-5.1.6.jar",
+        "target_file": "YungsApi-1.21.1-NeoForge-5.1.8.jar"
+      }
+    ],
+    "unchanged": [
+      {
+        "addon_id": "699872",
+        "name": "Accelerated Decay",
+        "base_file": "accelerated-decay-neoforge-21.0.0.jar",
+        "target_file": "accelerated-decay-neoforge-21.0.0.jar"
+      },
+      {
+        "addon_id": "228404",
+        "name": "Actually Additions",
+        "base_file": "actuallyadditions-1.3.26+mc1.21.1.jar",
+        "target_file": "actuallyadditions-1.3.26+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "384991",
+        "name": "Additional Lights",
+        "base_file": "additional_lights-neoforge-1.21-2.1.10.jar",
+        "target_file": "additional_lights-neoforge-1.21-2.1.10.jar"
+      },
+      {
+        "addon_id": "1074338",
+        "name": "AE2 JEI Integration",
+        "base_file": "ae2jeiintegration-1.2.1.jar",
+        "target_file": "ae2jeiintegration-1.2.1.jar"
+      },
+      {
+        "addon_id": "961856",
+        "name": "AE2 Network Analyser",
+        "base_file": "AE2NetworkAnalyzer-1.21-2.1.5-neoforge.jar",
+        "target_file": "AE2NetworkAnalyzer-1.21-2.1.5-neoforge.jar"
+      },
+      {
+        "addon_id": "1086241",
+        "name": "AE2: Crafting Tree",
+        "base_file": "ae2ct-1.21.1-1.1.1.jar",
+        "target_file": "ae2ct-1.21.1-1.1.1.jar"
+      },
+      {
+        "addon_id": "233019",
+        "name": "AI Improvements",
+        "base_file": "AI-Improvements-1.21-0.5.3.jar",
+        "target_file": "AI-Improvements-1.21-0.5.3.jar"
+      },
+      {
+        "addon_id": "250577",
+        "name": "Akashic Tome",
+        "base_file": "AkashicTome-1.8-30.jar",
+        "target_file": "AkashicTome-1.8-30.jar"
+      },
+      {
+        "addon_id": "1094032",
+        "name": "All The Arcanist Gear",
+        "base_file": "allthearcanistgear-1.21.1-21.3.2.jar",
+        "target_file": "allthearcanistgear-1.21.1-21.3.2.jar"
+      },
+      {
+        "addon_id": "364120",
+        "name": "All The Tweaks",
+        "base_file": "allthetweaks-1.21.1-2.9.4.jar",
+        "target_file": "allthetweaks-1.21.1-2.9.4.jar"
+      },
+      {
+        "addon_id": "514045",
+        "name": "AllTheCompressed",
+        "base_file": "allthecompressed-1.21.1-4.4.0.jar",
+        "target_file": "allthecompressed-1.21.1-4.4.0.jar"
+      },
+      {
+        "addon_id": "364466",
+        "name": "Allthemodium",
+        "base_file": "allthemodium-3.0.1_mc_1.21.1.jar",
+        "target_file": "allthemodium-3.0.1_mc_1.21.1.jar"
+      },
+      {
+        "addon_id": "633823",
+        "name": "Almost Unified",
+        "base_file": "almostunified-neoforge-1.21.1-1.4.2.jar",
+        "target_file": "almostunified-neoforge-1.21.1-1.4.2.jar"
+      },
+      {
+        "addon_id": "248787",
+        "name": "AppleSkin",
+        "base_file": "appleskin-neoforge-mc1.21-3.0.9.jar",
+        "target_file": "appleskin-neoforge-mc1.21-3.0.9.jar"
+      },
+      {
+        "addon_id": "223794",
+        "name": "Applied Energistics 2",
+        "base_file": "appliedenergistics2-19.2.17.jar",
+        "target_file": "appliedenergistics2-19.2.17.jar"
+      },
+      {
+        "addon_id": "965012",
+        "name": "Applied Flux",
+        "base_file": "AppliedFlux-1.21-2.1.5-neoforge.jar",
+        "target_file": "AppliedFlux-1.21-2.1.5-neoforge.jar"
+      },
+      {
+        "addon_id": "574300",
+        "name": "Applied Mekanistics",
+        "base_file": "Applied-Mekanistics-1.6.3.jar",
+        "target_file": "Applied-Mekanistics-1.6.3.jar"
+      },
+      {
+        "addon_id": "60028",
+        "name": "Aquaculture 2",
+        "base_file": "Aquaculture-1.21.1-2.7.21.jar",
+        "target_file": "Aquaculture-1.21.1-2.7.21.jar"
+      },
+      {
+        "addon_id": "974408",
+        "name": "Ars Additions",
+        "base_file": "ars_additions-1.21.1-21.3.0.jar",
+        "target_file": "ars_additions-1.21.1-21.3.0.jar"
+      },
+      {
+        "addon_id": "1061812",
+        "name": "Ars Controle",
+        "base_file": "ars_controle-1.21.1-1.6.15.jar",
+        "target_file": "ars_controle-1.21.1-1.6.15.jar"
+      },
+      {
+        "addon_id": "575698",
+        "name": "Ars Creo",
+        "base_file": "ars_creo-1.21.1-5.4.0.jar",
+        "target_file": "ars_creo-1.21.1-5.4.0.jar"
+      },
+      {
+        "addon_id": "1197614",
+        "name": "Ars Polymorphia",
+        "base_file": "ars_polymorphia-1.0.3.jar",
+        "target_file": "ars_polymorphia-1.0.3.jar"
+      },
+      {
+        "addon_id": "1096161",
+        "name": "Ars Technica",
+        "base_file": "ars_technica-1.21.1-2.7.6.jar",
+        "target_file": "ars_technica-1.21.1-2.7.6.jar"
+      },
+      {
+        "addon_id": "905641",
+        "name": "Ars Énergistique",
+        "base_file": "arseng-2.1.1-beta.jar",
+        "target_file": "arseng-2.1.1-beta.jar"
+      },
+      {
+        "addon_id": "841890",
+        "name": "Athena",
+        "base_file": "athena-neoforge-1.21.1-4.0.6.jar",
+        "target_file": "athena-neoforge-1.21.1-4.0.6.jar"
+      },
+      {
+        "addon_id": "1145462",
+        "name": "Atlas API",
+        "base_file": "atlas_api-1.21.1-1.2.0.jar",
+        "target_file": "atlas_api-1.21.1-1.2.0.jar"
+      },
+      {
+        "addon_id": "405593",
+        "name": "ATO - All the Ores",
+        "base_file": "alltheores-3.2.0_neoforge_1.21.1.jar",
+        "target_file": "alltheores-3.2.0_neoforge_1.21.1.jar"
+      },
+      {
+        "addon_id": "280510",
+        "name": "AttributeFix",
+        "base_file": "attributefix-neoforge-1.21.1-21.1.3.jar",
+        "target_file": "attributefix-neoforge-1.21.1-21.1.3.jar"
+      },
+      {
+        "addon_id": "1105290",
+        "name": "Auroras",
+        "base_file": "Auroras-1.21-1.6.2.jar",
+        "target_file": "Auroras-1.21-1.6.2.jar"
+      },
+      {
+        "addon_id": "261251",
+        "name": "Bad Wither No Cookie - Reloaded",
+        "base_file": "bwncr-neoforge-1.21.1-3.20.4.jar",
+        "target_file": "bwncr-neoforge-1.21.1-3.20.4.jar"
+      },
+      {
+        "addon_id": "282947",
+        "name": "Baubley Heart Canisters",
+        "base_file": "baubley-heart-canisters-1.21.1-1.4.1.jar",
+        "target_file": "baubley-heart-canisters-1.21.1-1.4.1.jar"
+      },
+      {
+        "addon_id": "272515",
+        "name": "Better Advancements",
+        "base_file": "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+        "target_file": "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar"
+      },
+      {
+        "addon_id": "551894",
+        "name": "Better Compatibility Checker",
+        "base_file": "better-compatability-checker-neoforge-21.1.8.jar",
+        "target_file": "better-compatability-checker-neoforge-21.1.8.jar"
+      },
+      {
+        "addon_id": "1230590",
+        "name": "Bibliobiomes Legacy",
+        "base_file": "bibliobiomes-1.21.1-1.6.1.jar",
+        "target_file": "bibliobiomes-1.21.1-1.6.1.jar"
+      },
+      {
+        "addon_id": "1122260",
+        "name": "Bibliocraft Legacy",
+        "base_file": "bibliocraft-1.21.1-1.6.5.jar",
+        "target_file": "bibliocraft-1.21.1-1.6.5.jar"
+      },
+      {
+        "addon_id": "1122764",
+        "name": "Bibliowoods Legacy",
+        "base_file": "bibliowoods-1.21.1-1.6.2.jar",
+        "target_file": "bibliowoods-1.21.1-1.6.2.jar"
+      },
+      {
+        "addon_id": "522992",
+        "name": "BlockUI",
+        "base_file": "blockui-1.0.211-1.21.1-snapshot.jar",
+        "target_file": "blockui-1.0.211-1.21.1-snapshot.jar"
+      },
+      {
+        "addon_id": "656551",
+        "name": "Blue Flame Burning",
+        "base_file": "blueflame-1.21.1-1.1.1.jar",
+        "target_file": "blueflame-1.21.1-1.1.1.jar"
+      },
+      {
+        "addon_id": "228525",
+        "name": "Bookshelf",
+        "base_file": "bookshelf-neoforge-1.21.1-21.1.81.jar",
+        "target_file": "bookshelf-neoforge-1.21.1-21.1.81.jar"
+      },
+      {
+        "addon_id": "353928",
+        "name": "Botany Pots",
+        "base_file": "botanypots-neoforge-1.21.1-21.1.44.jar",
+        "target_file": "botanypots-neoforge-1.21.1-21.1.44.jar"
+      },
+      {
+        "addon_id": "1329409",
+        "name": "Botany Pots - Mystical Agriculture Compat",
+        "base_file": "botanypotsmystical-neoforge-1.21.1-21.1.12.jar",
+        "target_file": "botanypotsmystical-neoforge-1.21.1-21.1.12.jar"
+      },
+      {
+        "addon_id": "411357",
+        "name": "Botany Trees",
+        "base_file": "botanytrees-neoforge-1.21.1-21.1.7.jar",
+        "target_file": "botanytrees-neoforge-1.21.1-21.1.7.jar"
+      },
+      {
+        "addon_id": "231382",
+        "name": "Brandon's Core",
+        "base_file": "BrandonsCore-1.21.1-3.2.1.309.jar",
+        "target_file": "BrandonsCore-1.21.1-3.2.1.309.jar"
+      },
+      {
+        "addon_id": "533942",
+        "name": "Bridging Mod",
+        "base_file": "BridgingMod-2.6.2+1.21.1.neoforge-release.jar",
+        "target_file": "BridgingMod-2.6.2+1.21.1.neoforge-release.jar"
+      },
+      {
+        "addon_id": "322506",
+        "name": "BSL Shaders",
+        "base_file": "BSL_v10.1.1.zip",
+        "target_file": "BSL_v10.1.1.zip"
+      },
+      {
+        "addon_id": "298187",
+        "name": "Building Gadgets",
+        "base_file": "buildinggadgets2-1.3.9.jar",
+        "target_file": "buildinggadgets2-1.3.9.jar"
+      },
+      {
+        "addon_id": "974855",
+        "name": "Byzantine Styles Pack for Minecolonies",
+        "base_file": "Byzantine-1.21.1-51.jar",
+        "target_file": "Byzantine-1.21.1-51.jar"
+      },
+      {
+        "addon_id": "308989",
+        "name": "Caelus API",
+        "base_file": "caelus-neoforge-7.0.1+1.21.1.jar",
+        "target_file": "caelus-neoforge-7.0.1+1.21.1.jar"
+      },
+      {
+        "addon_id": "1214396",
+        "name": "Camol",
+        "base_file": "camol-1.21.1-0.3.1.jar",
+        "target_file": "camol-1.21.1-0.3.1.jar"
+      },
+      {
+        "addon_id": "430906",
+        "name": "Cat Jammies",
+        "base_file": "catjammies-1.21-1.7.1.jar",
+        "target_file": "catjammies-1.21-1.7.1.jar"
+      },
+      {
+        "addon_id": "282001",
+        "name": "CC: Tweaked",
+        "base_file": "cc-tweaked-1.21.1-forge-1.113.1.jar",
+        "target_file": "cc-tweaked-1.21.1-forge-1.113.1.jar"
+      },
+      {
+        "addon_id": "399757",
+        "name": "Charging Gadgets",
+        "base_file": "charginggadgets-1.14.1.jar",
+        "target_file": "charginggadgets-1.14.1.jar"
+      },
+      {
+        "addon_id": "456956",
+        "name": "Chipped",
+        "base_file": "chipped-neoforge-1.21.1-4.0.2.jar",
+        "target_file": "chipped-neoforge-1.21.1-4.0.2.jar"
+      },
+      {
+        "addon_id": "551763",
+        "name": "Chisel Reborn [Forge/Fabric/NeoForge]",
+        "base_file": "chisel-neoforge-2.0.1+mc1.21.1.jar",
+        "target_file": "chisel-neoforge-2.0.1+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "623908",
+        "name": "ChoiceTheorem's Overhauled Village",
+        "base_file": "[Neoforge]ctov-3.6.3.jar",
+        "target_file": "[Neoforge]ctov-3.6.3.jar"
+      },
+      {
+        "addon_id": "1283857",
+        "name": "Chroma Carvings",
+        "base_file": "chromacarvings-1.21.1-0.2.0.jar",
+        "target_file": "chromacarvings-1.21.1-0.2.0.jar"
+      },
+      {
+        "addon_id": "915308",
+        "name": "Clean Swing Through Grass",
+        "base_file": "cleanswing-1.9.jar",
+        "target_file": "cleanswing-1.9.jar"
+      },
+      {
+        "addon_id": "348521",
+        "name": "Cloth Config API (Fabric/Forge/NeoForge)",
+        "base_file": "cloth-config-15.0.140-neoforge.jar",
+        "target_file": "cloth-config-15.0.140-neoforge.jar"
+      },
+      {
+        "addon_id": "1157074",
+        "name": "Cloud Glass",
+        "base_file": "CloudGlass-1.21.1-1.0.2.jar",
+        "target_file": "CloudGlass-1.21.1-1.0.2.jar"
+      },
+      {
+        "addon_id": "256717",
+        "name": "Clumps",
+        "base_file": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
+        "target_file": "Clumps-neoforge-1.21.1-19.0.0.1.jar"
+      },
+      {
+        "addon_id": "968456",
+        "name": "Cobweb",
+        "base_file": "cobweb-neoforge-1.21-1.4.0.jar",
+        "target_file": "cobweb-neoforge-1.21-1.4.0.jar"
+      },
+      {
+        "addon_id": "854213",
+        "name": "Colorful Hearts",
+        "base_file": "colorfulhearts-neoforge-1.21.1-10.5.9.jar",
+        "target_file": "colorfulhearts-neoforge-1.21.1-10.5.9.jar"
+      },
+      {
+        "addon_id": "1254143",
+        "name": "Colorwheel",
+        "base_file": "colorwheel-neoforge-1.2.9+mc1.21.1.jar",
+        "target_file": "colorwheel-neoforge-1.2.9+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "1285475",
+        "name": "Colorwheel Patcher",
+        "base_file": "colorwheel_patcher-neoforge-1.0.5+mc1.21.1.jar",
+        "target_file": "colorwheel_patcher-neoforge-1.0.5+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "276951",
+        "name": "Comforts",
+        "base_file": "comforts-neoforge-9.0.5+1.21.1.jar",
+        "target_file": "comforts-neoforge-9.0.5+1.21.1.jar"
+      },
+      {
+        "addon_id": "224218",
+        "name": "Compact Machines",
+        "base_file": "compactmachines-neoforge-7.0.81.jar",
+        "target_file": "compactmachines-neoforge-7.0.81.jar"
+      },
+      {
+        "addon_id": "627557",
+        "name": "Complementary Shaders - Reimagined",
+        "base_file": "ComplementaryReimagined_r5.8.1.zip",
+        "target_file": "ComplementaryReimagined_r5.8.1.zip"
+      },
+      {
+        "addon_id": "385587",
+        "name": "Complementary Shaders - Unbound",
+        "base_file": "ComplementaryUnbound_r5.8.1.zip",
+        "target_file": "ComplementaryUnbound_r5.8.1.zip"
+      },
+      {
+        "addon_id": "383129",
+        "name": "Connected Glass",
+        "base_file": "connectedglass-1.1.14-neoforge-mc1.21.jar",
+        "target_file": "connectedglass-1.1.14-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "267602",
+        "name": "ConnectedTexturesMod",
+        "base_file": "CTM-1.21-1.2.1+3.jar",
+        "target_file": "CTM-1.21-1.2.1+3.jar"
+      },
+      {
+        "addon_id": "470193",
+        "name": "Connectivity",
+        "base_file": "connectivity-1.21.1-7.6.jar",
+        "target_file": "connectivity-1.21.1-7.6.jar"
+      },
+      {
+        "addon_id": "250398",
+        "name": "Controlling",
+        "base_file": "Controlling-neoforge-1.21.1-19.0.5.jar",
+        "target_file": "Controlling-neoforge-1.21.1-19.0.5.jar"
+      },
+      {
+        "addon_id": "693313",
+        "name": "CorgiLib",
+        "base_file": "Corgilib-NeoForge-1.21.1-5.0.0.9.jar",
+        "target_file": "Corgilib-NeoForge-1.21.1-5.0.0.9.jar"
+      },
+      {
+        "addon_id": "237307",
+        "name": "Cosmetic Armor Reworked",
+        "base_file": "cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+        "target_file": "cosmeticarmorreworked-1.21.1-v1-neoforge.jar"
+      },
+      {
+        "addon_id": "371813",
+        "name": "Crash Utilities",
+        "base_file": "crashutilities-9.0.4.jar",
+        "target_file": "crashutilities-9.0.4.jar"
+      },
+      {
+        "addon_id": "328085",
+        "name": "Create",
+        "base_file": "create-1.21.1-6.0.10.jar",
+        "target_file": "create-1.21.1-6.0.10.jar"
+      },
+      {
+        "addon_id": "905040",
+        "name": "Create: Bells & Whistles",
+        "base_file": "bellsandwhistles-0.4.7-1.21.1.jar",
+        "target_file": "bellsandwhistles-0.4.7-1.21.1.jar"
+      },
+      {
+        "addon_id": "561625",
+        "name": "Creeper Overhaul",
+        "base_file": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
+        "target_file": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar"
+      },
+      {
+        "addon_id": "551524",
+        "name": "CreeperHost Presents Steve's Carts",
+        "base_file": "stevescarts-1.21-1.2.18-neoforge.jar",
+        "target_file": "stevescarts-1.21-1.2.18-neoforge.jar"
+      },
+      {
+        "addon_id": "856996",
+        "name": "Cristel Lib",
+        "base_file": "cristellib-neoforge-1.21.1-3.1.7.jar",
+        "target_file": "cristellib-neoforge-1.21.1-3.1.7.jar"
+      },
+      {
+        "addon_id": "1208896",
+        "name": "Cryonic Config",
+        "base_file": "cryonicconfig-neoforge-1.0.0+mc1.21.11.jar",
+        "target_file": "cryonicconfig-neoforge-1.0.0+mc1.21.11.jar"
+      },
+      {
+        "addon_id": "1187033",
+        "name": "Crystalix",
+        "base_file": "crystalix-3.0.0.jar",
+        "target_file": "crystalix-3.0.0.jar"
+      },
+      {
+        "addon_id": "272335",
+        "name": "Cucumber Library",
+        "base_file": "Cucumber-1.21.1-8.0.16.jar",
+        "target_file": "Cucumber-1.21.1-8.0.16.jar"
+      },
+      {
+        "addon_id": "309927",
+        "name": "Curios API",
+        "base_file": "curios-neoforge-9.5.1+1.21.1.jar",
+        "target_file": "curios-neoforge-9.5.1+1.21.1.jar"
+      },
+      {
+        "addon_id": "659011",
+        "name": "Deeper and Darker",
+        "base_file": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+        "target_file": "deeperdarker-neoforge-1.21.1-1.4.1.jar"
+      },
+      {
+        "addon_id": "1158094",
+        "name": "Deimos Lib",
+        "base_file": "deimos-1.21.1-neoforge-2.7.jar",
+        "target_file": "deimos-1.21.1-neoforge-2.7.jar"
+      },
+      {
+        "addon_id": "353882",
+        "name": "DimStorage",
+        "base_file": "DimStorage-1.21.1-9.1.1.jar",
+        "target_file": "DimStorage-1.21.1-9.1.1.jar"
+      },
+      {
+        "addon_id": "933354",
+        "name": "Dis-Enchanting Table",
+        "base_file": "disenchanting_table-merged-1.21.1-5.0.2.jar",
+        "target_file": "disenchanting_table-merged-1.21.1-5.0.2.jar"
+      },
+      {
+        "addon_id": "527361",
+        "name": "Domum Ornamentum",
+        "base_file": "domum-ornamentum-1.0.234-snapshot-main.jar",
+        "target_file": "domum-ornamentum-1.0.234-snapshot-main.jar"
+      },
+      {
+        "addon_id": "223565",
+        "name": "Draconic Evolution",
+        "base_file": "Draconic-Evolution-1.21.1-3.1.4.632.jar",
+        "target_file": "Draconic-Evolution-1.21.1-3.1.4.632.jar"
+      },
+      {
+        "addon_id": "324973",
+        "name": "Dungeon Crawl",
+        "base_file": "DungeonCrawl-NeoForge-1.21-2.3.17.jar",
+        "target_file": "DungeonCrawl-NeoForge-1.21-2.3.17.jar"
+      },
+      {
+        "addon_id": "509276",
+        "name": "Dyenamics",
+        "base_file": "dyenamics-1.21.1-3.4.2.jar",
+        "target_file": "dyenamics-1.21.1-3.4.2.jar"
+      },
+      {
+        "addon_id": "709617",
+        "name": "Dyenamics and Friends",
+        "base_file": "dyenamicsandfriends-1.21.1-2.2.2.jar",
+        "target_file": "dyenamicsandfriends-1.21.1-2.2.2.jar"
+      },
+      {
+        "addon_id": "1345066",
+        "name": "Dyson Cube Project",
+        "base_file": "dysoncubeproject-1.0.5.jar",
+        "target_file": "dysoncubeproject-1.0.5.jar"
+      },
+      {
+        "addon_id": "400514",
+        "name": "Easy Villagers",
+        "base_file": "easy-villagers-neoforge-1.21.1-1.1.42.jar",
+        "target_file": "easy-villagers-neoforge-1.21.1-1.1.42.jar"
+      },
+      {
+        "addon_id": "638508",
+        "name": "EdivadLib",
+        "base_file": "EdivadLib-1.21-3.0.0.jar",
+        "target_file": "EdivadLib-1.21-3.0.0.jar"
+      },
+      {
+        "addon_id": "64578",
+        "name": "Ender IO",
+        "base_file": "enderio-8.2.11-beta.jar",
+        "target_file": "enderio-8.2.11-beta.jar"
+      },
+      {
+        "addon_id": "245174",
+        "name": "Ender Storage 1.8.+",
+        "base_file": "EnderStorage-1.21.1-2.13.0.191.jar",
+        "target_file": "EnderStorage-1.21.1-2.13.0.191.jar"
+      },
+      {
+        "addon_id": "574409",
+        "name": "Enderman Overhaul",
+        "base_file": "endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
+        "target_file": "endermanoverhaul-neoforge-1.21.1-2.0.3.jar"
+      },
+      {
+        "addon_id": "301034",
+        "name": "Entangled",
+        "base_file": "entangled-1.3.21-neoforge-mc1.21.jar",
+        "target_file": "entangled-1.3.21-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "915902",
+        "name": "Euphoria Patches",
+        "base_file": "EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
+        "target_file": "EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar"
+      },
+      {
+        "addon_id": "579545",
+        "name": "Everything is Copper",
+        "base_file": "everythingcopper-1.21.1-2.4.5.jar",
+        "target_file": "everythingcopper-1.21.1-2.4.5.jar"
+      },
+      {
+        "addon_id": "1213351",
+        "name": "Expanded AE",
+        "base_file": "expandedae-2.1.1.jar",
+        "target_file": "expandedae-2.1.1.jar"
+      },
+      {
+        "addon_id": "1156551",
+        "name": "ExperienceLib",
+        "base_file": "experiencelib-1.21.1-1.2.1.jar",
+        "target_file": "experiencelib-1.21.1-1.2.1.jar"
+      },
+      {
+        "addon_id": "491794",
+        "name": "Explorer's Compass",
+        "base_file": "ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+        "target_file": "ExplorersCompass-1.21.1-3.4.0-neoforge.jar"
+      },
+      {
+        "addon_id": "698309",
+        "name": "Explorify – Dungeons & Structures",
+        "base_file": "Explorify v1.6.5.mod.jar",
+        "target_file": "Explorify v1.6.5.mod.jar"
+      },
+      {
+        "addon_id": "351491",
+        "name": "Extra Disks",
+        "base_file": "ExtraDisks-1.21.1-4.0.15.jar",
+        "target_file": "ExtraDisks-1.21.1-4.0.15.jar"
+      },
+      {
+        "addon_id": "250277",
+        "name": "Extreme Reactors",
+        "base_file": "ExtremeReactors2-1.21.1-2.4.28.jar",
+        "target_file": "ExtremeReactors2-1.21.1-2.4.28.jar"
+      },
+      {
+        "addon_id": "363363",
+        "name": "Extreme sound muffler - (Neo)Forge",
+        "base_file": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
+        "target_file": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar"
+      },
+      {
+        "addon_id": "640001",
+        "name": "Factory Blocks [Forge/Fabric/NeoForge]",
+        "base_file": "factory_blocks-neoforge-1.4.0+mc1.21.1.jar",
+        "target_file": "factory_blocks-neoforge-1.4.0+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "261924",
+        "name": "Farming for Blockheads",
+        "base_file": "farmingforblockheads-neoforge-1.21.1-21.1.13.jar",
+        "target_file": "farmingforblockheads-neoforge-1.21.1-21.1.13.jar"
+      },
+      {
+        "addon_id": "299540",
+        "name": "FastFurnace",
+        "base_file": "FastFurnace-1.21.1-9.0.1.jar",
+        "target_file": "FastFurnace-1.21.1-9.0.1.jar"
+      },
+      {
+        "addon_id": "475117",
+        "name": "FastSuite",
+        "base_file": "FastSuite-1.21.1-6.0.7.jar",
+        "target_file": "FastSuite-1.21.1-6.0.7.jar"
+      },
+      {
+        "addon_id": "288885",
+        "name": "FastWorkbench",
+        "base_file": "FastWorkbench-1.21.1-9.1.3.jar",
+        "target_file": "FastWorkbench-1.21.1-9.1.3.jar"
+      },
+      {
+        "addon_id": "429235",
+        "name": "FerriteCore ((Neo)Forge)",
+        "base_file": "ferritecore-7.0.3-neoforge.jar",
+        "target_file": "ferritecore-7.0.3-neoforge.jar"
+      },
+      {
+        "addon_id": "830962",
+        "name": "Fireproof Boats",
+        "base_file": "fireproofboats-1.21.1-1.0.4.jar",
+        "target_file": "fireproofboats-1.21.1-1.0.4.jar"
+      },
+      {
+        "addon_id": "431430",
+        "name": "FlickerFix",
+        "base_file": "flickerfix-1.21.1-6.1.0.jar",
+        "target_file": "flickerfix-1.21.1-6.1.0.jar"
+      },
+      {
+        "addon_id": "248020",
+        "name": "Flux Networks",
+        "base_file": "FluxNetworks-1.21.1-8.0.0.jar",
+        "target_file": "FluxNetworks-1.21.1-8.0.0.jar"
+      },
+      {
+        "addon_id": "309858",
+        "name": "Forbidden and Arcanus",
+        "base_file": "forbidden_arcanus-2.6.1.jar",
+        "target_file": "forbidden_arcanus-2.6.1.jar"
+      },
+      {
+        "addon_id": "915115",
+        "name": "Formations (Structure Library)",
+        "base_file": "formations-1.0.4-neoforge-mc1.21.jar",
+        "target_file": "formations-1.0.4-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "549225",
+        "name": "Framework",
+        "base_file": "framework-neoforge-1.21.1-0.13.11.jar",
+        "target_file": "framework-neoforge-1.21.1-0.13.11.jar"
+      },
+      {
+        "addon_id": "943925",
+        "name": "FTB Filter System",
+        "base_file": "ftb-filter-system-neoforge-21.1.4.jar",
+        "target_file": "ftb-filter-system-neoforge-21.1.4.jar"
+      },
+      {
+        "addon_id": "1103259",
+        "name": "FTB JEI Extras",
+        "base_file": "ftb-jei-extras-21.1.7.jar",
+        "target_file": "ftb-jei-extras-21.1.7.jar"
+      },
+      {
+        "addon_id": "386134",
+        "name": "FTB Ultimine (NeoForge)",
+        "base_file": "ftb-ultimine-neoforge-2101.1.15.jar",
+        "target_file": "ftb-ultimine-neoforge-2101.1.15.jar"
+      },
+      {
+        "addon_id": "659090",
+        "name": "Fuel Goes Here",
+        "base_file": "fuelgoeshere-1.21.1-1.2.0.jar",
+        "target_file": "fuelgoeshere-1.21.1-1.2.0.jar"
+      },
+      {
+        "addon_id": "1005914",
+        "name": "Fzzy Config",
+        "base_file": "fzzy_config-0.7.6+1.21+neoforge.jar",
+        "target_file": "fzzy_config-0.7.6+1.21+neoforge.jar"
+      },
+      {
+        "addon_id": "417802",
+        "name": "Gateways to Eternity",
+        "base_file": "GatewaysToEternity-1.21.1-5.1.0.jar",
+        "target_file": "GatewaysToEternity-1.21.1-5.1.0.jar"
+      },
+      {
+        "addon_id": "411045",
+        "name": "Get It Together, Drops!",
+        "base_file": "getittogetherdrops-neoforge-1.21.5-1.4.jar",
+        "target_file": "getittogetherdrops-neoforge-1.21.5-1.4.jar"
+      },
+      {
+        "addon_id": "957920",
+        "name": "Glodium",
+        "base_file": "Glodium-1.21-2.2-neoforge.jar",
+        "target_file": "Glodium-1.21-2.2-neoforge.jar"
+      },
+      {
+        "addon_id": "656136",
+        "name": "Gravitational Modulating Additional Unit",
+        "base_file": "GravitationalModulatingAdditionalUnit-1.21.1-6.4.jar",
+        "target_file": "GravitationalModulatingAdditionalUnit-1.21.1-6.4.jar"
+      },
+      {
+        "addon_id": "538214",
+        "name": "Handcrafted",
+        "base_file": "handcrafted-neoforge-1.21.1-4.0.3.jar",
+        "target_file": "handcrafted-neoforge-1.21.1-4.0.3.jar"
+      },
+      {
+        "addon_id": "1001266",
+        "name": "Hardened Armadillos",
+        "base_file": "hardenedarmadillos-1.21.1-0.2.0.jar",
+        "target_file": "hardenedarmadillos-1.21.1-0.2.0.jar"
+      },
+      {
+        "addon_id": "634227",
+        "name": "Hey Berry! SHUT UP",
+        "base_file": "heyberryshutup-1.21.0-2.0.4.jar",
+        "target_file": "heyberryshutup-1.21.0-2.0.4.jar"
+      },
+      {
+        "addon_id": "1040076",
+        "name": "IceAndFire Community Edition",
+        "base_file": "iceandfire-2.0-beta.17.jar",
+        "target_file": "iceandfire-2.0-beta.17.jar"
+      },
+      {
+        "addon_id": "520110",
+        "name": "Iceberg [Neo/Forge]",
+        "base_file": "Iceberg-1.21.1-neoforge-1.3.2.jar",
+        "target_file": "Iceberg-1.21.1-neoforge-1.3.2.jar"
+      },
+      {
+        "addon_id": "1091632",
+        "name": "Illager Warship",
+        "base_file": "illagerwarship-1.0.1-neoforge-1.21.1.jar",
+        "target_file": "illagerwarship-1.0.1-neoforge-1.21.1.jar"
+      },
+      {
+        "addon_id": "992377",
+        "name": "Immersive Energistics",
+        "base_file": "Immersive-Energistics-1.1.0-beta.jar",
+        "target_file": "Immersive-Energistics-1.1.0-beta.jar"
+      },
+      {
+        "addon_id": "231951",
+        "name": "Immersive Engineering",
+        "base_file": "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+        "target_file": "ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+      },
+      {
+        "addon_id": "904394",
+        "name": "Industrial Foregoing Souls",
+        "base_file": "industrial-foregoing-souls-1.21.1-1.10.7.jar",
+        "target_file": "industrial-foregoing-souls-1.21.1-1.10.7.jar"
+      },
+      {
+        "addon_id": "452645",
+        "name": "Interdimensional Wireless Transmitter",
+        "base_file": "interdimensionalwirelesstransmitter-neoforge-1.21.1-0.1.5.jar",
+        "target_file": "interdimensionalwirelesstransmitter-neoforge-1.21.1-0.1.5.jar"
+      },
+      {
+        "addon_id": "976858",
+        "name": "Inventory Tweaks - ReFoxed",
+        "base_file": "invtweaks-1.21.1-1.3.2.jar",
+        "target_file": "invtweaks-1.21.1-1.3.2.jar"
+      },
+      {
+        "addon_id": "455508",
+        "name": "Iris Shaders",
+        "base_file": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+        "target_file": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "237664",
+        "name": "Iron Furnaces",
+        "base_file": "ironfurnaces-neoforge-1.21.1-4.3.2.jar",
+        "target_file": "ironfurnaces-neoforge-1.21.1-4.3.2.jar"
+      },
+      {
+        "addon_id": "284497",
+        "name": "Iron Jetpacks",
+        "base_file": "IronJetpacks-1.21.1-8.0.11.jar",
+        "target_file": "IronJetpacks-1.21.1-8.0.11.jar"
+      },
+      {
+        "addon_id": "395620",
+        "name": "Item Collectors",
+        "base_file": "itemcollectors-1.1.10-neoforge-mc1.21.jar",
+        "target_file": "itemcollectors-1.1.10-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "542110",
+        "name": "Jumpy Boats",
+        "base_file": "jumpboat-1.21.0-1.0.5.jar",
+        "target_file": "jumpboat-1.21.0-1.0.5.jar"
+      },
+      {
+        "addon_id": "1072905",
+        "name": "Jupiter",
+        "base_file": "jupiter-2.3.7-1.21.1-neoforge.jar",
+        "target_file": "jupiter-2.3.7-1.21.1-neoforge.jar"
+      },
+      {
+        "addon_id": "1002348",
+        "name": "Just Dire Things",
+        "base_file": "justdirethings-1.5.7.jar",
+        "target_file": "justdirethings-1.5.7.jar"
+      },
+      {
+        "addon_id": "890755",
+        "name": "Just Enough Archaeology",
+        "base_file": "jearchaeology-1.21.1-1.2.0.jar",
+        "target_file": "jearchaeology-1.21.1-1.2.0.jar"
+      },
+      {
+        "addon_id": "417645",
+        "name": "Just Enough Professions (JEP)",
+        "base_file": "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+        "target_file": "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar"
+      },
+      {
+        "addon_id": "561885",
+        "name": "Just Zoom",
+        "base_file": "justzoom_neoforge_2.1.0_MC_1.21.1.jar",
+        "target_file": "justzoom_neoforge_2.1.0_MC_1.21.1.jar"
+      },
+      {
+        "addon_id": "1172594",
+        "name": "KeyBind Bundles",
+        "base_file": "keybindbundles-1.4.0.jar",
+        "target_file": "keybindbundles-1.4.0.jar"
+      },
+      {
+        "addon_id": "1099143",
+        "name": "KeybindsPurger",
+        "base_file": "KeybindsPurger-1.4.0-neoforge-1.21.1.jar",
+        "target_file": "KeybindsPurger-1.4.0-neoforge-1.21.1.jar"
+      },
+      {
+        "addon_id": "410295",
+        "name": "Konkrete",
+        "base_file": "konkrete_neoforge_1.9.9_MC_1.21.jar",
+        "target_file": "konkrete_neoforge_1.9.9_MC_1.21.jar"
+      },
+      {
+        "addon_id": "1306367",
+        "name": "KubeJS Tweaks",
+        "base_file": "kubejstweaks-1.0.6.jar",
+        "target_file": "kubejstweaks-1.0.6.jar"
+      },
+      {
+        "addon_id": "626839",
+        "name": "LaserIO",
+        "base_file": "laserio-1.9.11.jar",
+        "target_file": "laserio-1.9.11.jar"
+      },
+      {
+        "addon_id": "656346",
+        "name": "Load My F***ing Tags",
+        "base_file": "lmft-1.1.1+1.21.9-neoforge.jar",
+        "target_file": "lmft-1.1.1+1.21.9-neoforge.jar"
+      },
+      {
+        "addon_id": "1165932",
+        "name": "Luminax",
+        "base_file": "luminax-1.3.1_neoforge_1.21.1.jar",
+        "target_file": "luminax-1.3.1_neoforge_1.21.1.jar"
+      },
+      {
+        "addon_id": "351725",
+        "name": "Macaw's Bridges",
+        "base_file": "mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
+        "target_file": "mcw-bridges-3.1.2-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "378646",
+        "name": "Macaw's Doors",
+        "base_file": "mcw-doors-1.1.5-mc1.21.1neoforge.jar",
+        "target_file": "mcw-doors-1.1.5-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "453925",
+        "name": "Macaw's Fences and Walls",
+        "base_file": "mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar",
+        "target_file": "mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "359540",
+        "name": "Macaw's Furniture",
+        "base_file": "mcw-furniture-3.4.1-mc1.21.1neoforge.jar",
+        "target_file": "mcw-furniture-3.4.1-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "930232",
+        "name": "Macaw's Holidays",
+        "base_file": "mcw-holidays-1.1.2-mc1.21.1neoforge.jar",
+        "target_file": "mcw-holidays-1.1.2-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "502372",
+        "name": "Macaw's Lights and Lamps",
+        "base_file": "mcw-lights-1.1.5-mc1.21.1neoforge.jar",
+        "target_file": "mcw-lights-1.1.5-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "629153",
+        "name": "Macaw's Paths and Pavings",
+        "base_file": "mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar",
+        "target_file": "mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "352039",
+        "name": "Macaw's Roofs",
+        "base_file": "mcw-roofs-2.3.2-mc1.21.1neoforge.jar",
+        "target_file": "mcw-roofs-2.3.2-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "1119394",
+        "name": "Macaw's Stairs",
+        "base_file": "mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar",
+        "target_file": "mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "400933",
+        "name": "Macaw's Trapdoors",
+        "base_file": "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar",
+        "target_file": "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "363569",
+        "name": "Macaw's Windows",
+        "base_file": "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar",
+        "target_file": "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar"
+      },
+      {
+        "addon_id": "342543",
+        "name": "Mahou Tsukai",
+        "base_file": "mahoutsukai-1.21.1-v1.36.27.jar",
+        "target_file": "mahoutsukai-1.21.1-v1.36.27.jar"
+      },
+      {
+        "addon_id": "430867",
+        "name": "Mama's Merrymaking - A Minecraft Christmas and Winter Holiday Mod",
+        "base_file": "merrymaking-1.21.1-16.jar",
+        "target_file": "merrymaking-1.21.1-16.jar"
+      },
+      {
+        "addon_id": "233105",
+        "name": "McJtyLib",
+        "base_file": "mcjtylib-1.21-9.0.21.jar",
+        "target_file": "mcjtylib-1.21-9.0.21.jar"
+      },
+      {
+        "addon_id": "688367",
+        "name": "ME Requester",
+        "base_file": "merequester-neoforge-1.21.1-1.4.3.jar",
+        "target_file": "merequester-neoforge-1.21.1-1.4.3.jar"
+      },
+      {
+        "addon_id": "478559",
+        "name": "Measurements",
+        "base_file": "Measurements-neoforge-1.21.1-3.0.3.jar",
+        "target_file": "Measurements-neoforge-1.21.1-3.0.3.jar"
+      },
+      {
+        "addon_id": "622112",
+        "name": "MEGA Cells",
+        "base_file": "megacells-4.11.0.jar",
+        "target_file": "megacells-4.11.0.jar"
+      },
+      {
+        "addon_id": "268560",
+        "name": "Mekanism",
+        "base_file": "Mekanism-1.21.1-10.7.19.85.jar",
+        "target_file": "Mekanism-1.21.1-10.7.19.85.jar"
+      },
+      {
+        "addon_id": "1119874",
+        "name": "Mekanism Covers",
+        "base_file": "mekanismcovers-1.3-BETA+1.21.jar",
+        "target_file": "mekanismcovers-1.3-BETA+1.21.jar"
+      },
+      {
+        "addon_id": "268566",
+        "name": "Mekanism Generators",
+        "base_file": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+        "target_file": "MekanismGenerators-1.21.1-10.7.19.85.jar"
+      },
+      {
+        "addon_id": "268567",
+        "name": "Mekanism Tools",
+        "base_file": "MekanismTools-1.21.1-10.7.19.85.jar",
+        "target_file": "MekanismTools-1.21.1-10.7.19.85.jar"
+      },
+      {
+        "addon_id": "1148201",
+        "name": "Mekanistic Routers",
+        "base_file": "mekanisticrouters-1.2.0.jar",
+        "target_file": "mekanisticrouters-1.2.0.jar"
+      },
+      {
+        "addon_id": "938643",
+        "name": "Melody",
+        "base_file": "melody_neoforge_1.0.10_MC_1.21.jar",
+        "target_file": "melody_neoforge_1.0.10_MC_1.21.jar"
+      },
+      {
+        "addon_id": "526901",
+        "name": "Memory Settings",
+        "base_file": "memorysettings-1.21-6.0.jar",
+        "target_file": "memorysettings-1.21-6.0.jar"
+      },
+      {
+        "addon_id": "892382",
+        "name": "MES - Moog's End Structures",
+        "base_file": "MoogsEndStructures-1.21-2.0.3.jar",
+        "target_file": "MoogsEndStructures-1.21-2.0.3.jar"
+      },
+      {
+        "addon_id": "967466",
+        "name": "MNS - Moog's Nether Structures",
+        "base_file": "MoogsNetherStructures-1.21-3.0.0.jar",
+        "target_file": "MoogsNetherStructures-1.21-3.0.0.jar"
+      },
+      {
+        "addon_id": "378266",
+        "name": "Mo' Structures (NeoForge/Fabric)",
+        "base_file": "mostructures-neoforge-1.6.0+1.21.1.jar",
+        "target_file": "mostructures-neoforge-1.6.0+1.21.1.jar"
+      },
+      {
+        "addon_id": "254241",
+        "name": "Mob Grinding Utils",
+        "base_file": "mob_grinding_utils-1.1.10+mc1.21.1.jar",
+        "target_file": "mob_grinding_utils-1.1.10+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "676136",
+        "name": "Model Gap Fix",
+        "base_file": "modelfix-1.21-1.10.jar",
+        "target_file": "modelfix-1.21-1.10.jar"
+      },
+      {
+        "addon_id": "552758",
+        "name": "Modern Dynamics",
+        "base_file": "Modern-Dynamics-0.9.6.jar",
+        "target_file": "Modern-Dynamics-0.9.6.jar"
+      },
+      {
+        "addon_id": "358700",
+        "name": "More Dragon Eggs",
+        "base_file": "moredragoneggs-5.0.jar",
+        "target_file": "moredragoneggs-5.0.jar"
+      },
+      {
+        "addon_id": "1086142",
+        "name": "More Industrial Foregoing Addons (MIFA)",
+        "base_file": "mifa-neoforge-1.21.x-2.1.0.jar",
+        "target_file": "mifa-neoforge-1.21.x-2.1.0.jar"
+      },
+      {
+        "addon_id": "391382",
+        "name": "More Overlays Updated",
+        "base_file": "moreoverlays-1.24.2-mc1.21.1-neoforge.jar",
+        "target_file": "moreoverlays-1.24.2-mc1.21.1-neoforge.jar"
+      },
+      {
+        "addon_id": "387638",
+        "name": "More Red",
+        "base_file": "morered-1.21.1-6.0.0.3.jar",
+        "target_file": "morered-1.21.1-6.0.0.3.jar"
+      },
+      {
+        "addon_id": "867286",
+        "name": "More Red x CC:Tweaked Compat",
+        "base_file": "MoreRed-CCT-Compat-1.21.1-1.3.0.jar",
+        "target_file": "MoreRed-CCT-Compat-1.21.1-1.3.0.jar"
+      },
+      {
+        "addon_id": "60089",
+        "name": "Mouse Tweaks",
+        "base_file": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+        "target_file": "MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+      },
+      {
+        "addon_id": "897116",
+        "name": "MrCrayfish's Furniture Mod: Refurbished",
+        "base_file": "refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+        "target_file": "refurbished_furniture-neoforge-1.21.1-1.0.22.jar"
+      },
+      {
+        "addon_id": "1040210",
+        "name": "MSS - Moog's Soaring Structures",
+        "base_file": "MoogsSoaringStructures-1.21-2.1.2.jar",
+        "target_file": "MoogsSoaringStructures-1.21-2.1.2.jar"
+      },
+      {
+        "addon_id": "303278",
+        "name": "Multi-Piston",
+        "base_file": "multipiston-1.2.58-1.21.1.jar",
+        "target_file": "multipiston-1.2.58-1.21.1.jar"
+      },
+      {
+        "addon_id": "280441",
+        "name": "Mystical Customization",
+        "base_file": "MysticalCustomization-1.21.1-6.0.2.jar",
+        "target_file": "MysticalCustomization-1.21.1-6.0.2.jar"
+      },
+      {
+        "addon_id": "306626",
+        "name": "Nature's Aura",
+        "base_file": "NaturesAura-41.9.jar",
+        "target_file": "NaturesAura-41.9.jar"
+      },
+      {
+        "addon_id": "252848",
+        "name": "Nature's Compass",
+        "base_file": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+        "target_file": "NaturesCompass-1.21.1-3.4.0-neoforge.jar"
+      },
+      {
+        "addon_id": "1140741",
+        "name": "NeoAuth",
+        "base_file": "NeoAuth-1.21.1-1.0.1.jar",
+        "target_file": "NeoAuth-1.21.1-1.0.1.jar"
+      },
+      {
+        "addon_id": "1414295",
+        "name": "Nether Trials & Chambers",
+        "base_file": "HellishTrials-neoforge-1.0.5.jar",
+        "target_file": "HellishTrials-neoforge-1.0.5.jar"
+      },
+      {
+        "addon_id": "241160",
+        "name": "NetherPortalFix",
+        "base_file": "netherportalfix-neoforge-1.21.1-21.1.1.jar",
+        "target_file": "netherportalfix-neoforge-1.21.1-21.1.1.jar"
+      },
+      {
+        "addon_id": "634062",
+        "name": "No Chat Reports",
+        "base_file": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+        "target_file": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar"
+      },
+      {
+        "addon_id": "451682",
+        "name": "No Villager Death Messages",
+        "base_file": "novillagerdm-1.21.1-6.0.0.jar",
+        "target_file": "novillagerdm-1.21.1-6.0.0.jar"
+      },
+      {
+        "addon_id": "433760",
+        "name": "Not Enough Animations",
+        "base_file": "notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
+        "target_file": "notenoughanimations-neoforge-1.12.4-mc1.21.1.jar"
+      },
+      {
+        "addon_id": "1023517",
+        "name": "Not Enough Glyphs",
+        "base_file": "not_enough_glyphs-1.21.1-4.6.1.jar",
+        "target_file": "not_enough_glyphs-1.21.1-4.6.1.jar"
+      },
+      {
+        "addon_id": "570354",
+        "name": "Nullscape",
+        "base_file": "Nullscape_1.21.x_v1.2.14.jar",
+        "target_file": "Nullscape_1.21.x_v1.2.14.jar"
+      },
+      {
+        "addon_id": "509575",
+        "name": "Observable",
+        "base_file": "observable-5.4.4.jar",
+        "target_file": "observable-5.4.4.jar"
+      },
+      {
+        "addon_id": "525693",
+        "name": "Occultism KubeJS",
+        "base_file": "occultism_kubejs-1.21.1-neoforge-1.11.0.jar",
+        "target_file": "occultism_kubejs-1.21.1-neoforge-1.11.0.jar"
+      },
+      {
+        "addon_id": "1070751",
+        "name": "Oh The Biomes We've Gone",
+        "base_file": "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.0.jar",
+        "target_file": "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.0.jar"
+      },
+      {
+        "addon_id": "962544",
+        "name": "Oh The Trees You'll Grow",
+        "base_file": "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.2.jar",
+        "target_file": "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.2.jar"
+      },
+      {
+        "addon_id": "558000",
+        "name": "Omega Config",
+        "base_file": "omegaconfig-neoforge-1.5.1.jar",
+        "target_file": "omegaconfig-neoforge-1.5.1.jar"
+      },
+      {
+        "addon_id": "354339",
+        "name": "Open Loader",
+        "base_file": "OpenLoader-neoforge-1.21.1-21.1.5.jar",
+        "target_file": "OpenLoader-neoforge-1.21.1-21.1.5.jar"
+      },
+      {
+        "addon_id": "250832",
+        "name": "OpenBlocks Elevator",
+        "base_file": "elevatorid-neoforge-1.21.1-1.11.4.jar",
+        "target_file": "elevatorid-neoforge-1.21.1-1.11.4.jar"
+      },
+      {
+        "addon_id": "314002",
+        "name": "Overloaded Armor Bar",
+        "base_file": "overloadedarmorbar-neoforge-1.21-2.jar",
+        "target_file": "overloadedarmorbar-neoforge-1.21-2.jar"
+      },
+      {
+        "addon_id": "532610",
+        "name": "oωo (owo-lib)",
+        "base_file": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+        "target_file": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar"
+      },
+      {
+        "addon_id": "361385",
+        "name": "Pam's HarvestCraft 2 - Crops",
+        "base_file": "pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar",
+        "target_file": "pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar"
+      },
+      {
+        "addon_id": "372534",
+        "name": "Pam's HarvestCraft 2 - Food Core",
+        "base_file": "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+        "target_file": "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar"
+      },
+      {
+        "addon_id": "402231",
+        "name": "Pam's HarvestCraft 2 - Food Extended",
+        "base_file": "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+        "target_file": "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar"
+      },
+      {
+        "addon_id": "365460",
+        "name": "Pam's HarvestCraft 2 - Trees",
+        "base_file": "pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar",
+        "target_file": "pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar"
+      },
+      {
+        "addon_id": "306770",
+        "name": "Patchouli",
+        "base_file": "Patchouli-1.21.1-93-NEOFORGE.jar",
+        "target_file": "Patchouli-1.21.1-93-NEOFORGE.jar"
+      },
+      {
+        "addon_id": "658587",
+        "name": "playerAnimator",
+        "base_file": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+        "target_file": "player-animation-lib-forge-2.0.4+1.21.1.jar"
+      },
+      {
+        "addon_id": "367734",
+        "name": "Pocket Storage",
+        "base_file": "pocketstorage-1.2.5+1.21.1-b3.jar",
+        "target_file": "pocketstorage-1.2.5+1.21.1-b3.jar"
+      },
+      {
+        "addon_id": "576589",
+        "name": "PolyLib",
+        "base_file": "polylib-2100.1.0-build.183-neoforge.jar",
+        "target_file": "polylib-2100.1.0-build.183-neoforge.jar"
+      },
+      {
+        "addon_id": "388800",
+        "name": "Polymorph (Fabric/Forge/Quilt)",
+        "base_file": "polymorph-neoforge-1.1.0+1.21.1.jar",
+        "target_file": "polymorph-neoforge-1.1.0+1.21.1.jar"
+      },
+      {
+        "addon_id": "941096",
+        "name": "Polymorphic Energistics",
+        "base_file": "polyeng-0.4.1.jar",
+        "target_file": "polyeng-0.4.1.jar"
+      },
+      {
+        "addon_id": "622888",
+        "name": "Ponder for KubeJS",
+        "base_file": "ponderjs-neoforge-1.21.1-2.4.0.jar",
+        "target_file": "ponderjs-neoforge-1.21.1-2.4.0.jar"
+      },
+      {
+        "addon_id": "356801",
+        "name": "Potions Master",
+        "base_file": "potionsmaster-21.1.113-1.0.1.jar",
+        "target_file": "potionsmaster-21.1.113-1.0.1.jar"
+      },
+      {
+        "addon_id": "633483",
+        "name": "Powah! (Rearchitected)",
+        "base_file": "Powah-6.2.10.jar",
+        "target_file": "Powah-6.2.10.jar"
+      },
+      {
+        "addon_id": "1023259",
+        "name": "Prickle",
+        "base_file": "prickle-neoforge-1.21.1-21.1.11.jar",
+        "target_file": "prickle-neoforge-1.21.1-21.1.11.jar"
+      },
+      {
+        "addon_id": "638111",
+        "name": "Prism [Neo/Forge]",
+        "base_file": "Prism-1.21.1-neoforge-1.0.11.jar",
+        "target_file": "Prism-1.21.1-neoforge-1.0.11.jar"
+      },
+      {
+        "addon_id": "377897",
+        "name": "Productive Bees",
+        "base_file": "productivebees-1.21.1-13.13.5.jar",
+        "target_file": "productivebees-1.21.1-13.13.5.jar"
+      },
+      {
+        "addon_id": "518211",
+        "name": "Pylons",
+        "base_file": "pylons-1.21.1-5.4.2.jar",
+        "target_file": "pylons-1.21.1-5.4.2.jar"
+      },
+      {
+        "addon_id": "901491",
+        "name": "Railcraft Reborn",
+        "base_file": "railcraft-reborn-1.21.1-1.2.10.jar",
+        "target_file": "railcraft-reborn-1.21.1-1.2.10.jar"
+      },
+      {
+        "addon_id": "1121832",
+        "name": "Rainbows!",
+        "base_file": "Rainbows-1.21-1.5.jar",
+        "target_file": "Rainbows-1.21-1.5.jar"
+      },
+      {
+        "addon_id": "247496",
+        "name": "Ranged Pumps",
+        "base_file": "rangedpumps-1.3.0.jar",
+        "target_file": "rangedpumps-1.3.0.jar"
+      },
+      {
+        "addon_id": "296996",
+        "name": "Rebind Narrator",
+        "base_file": "rebind_narrator-1.21.1-neoforge-2025.12.23.jar",
+        "target_file": "rebind_narrator-1.21.1-neoforge-2025.12.23.jar"
+      },
+      {
+        "addon_id": "558998",
+        "name": "Rechiseled",
+        "base_file": "rechiseled-1.2.5-neoforge-mc1.21.jar",
+        "target_file": "rechiseled-1.2.5-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "1007578",
+        "name": "Rechiseled: Chipped",
+        "base_file": "rechiseled_chipped-2.0-1.21.1.jar",
+        "target_file": "rechiseled_chipped-2.0-1.21.1.jar"
+      },
+      {
+        "addon_id": "888624",
+        "name": "Rechiseled: Create",
+        "base_file": "rechiseledcreate-1.1.1-neoforge-mc1.21.jar",
+        "target_file": "rechiseledcreate-1.1.1-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "461710",
+        "name": "Redstone Pen",
+        "base_file": "redstonepen-1.21-neoforge-1.11.42.jar",
+        "target_file": "redstonepen-1.21-neoforge-1.11.42.jar"
+      },
+      {
+        "addon_id": "243076",
+        "name": "Refined Storage",
+        "base_file": "refinedstorage-neoforge-2.0.9.jar",
+        "target_file": "refinedstorage-neoforge-2.0.9.jar"
+      },
+      {
+        "addon_id": "1230729",
+        "name": "Refined Storage - Curios Integration",
+        "base_file": "refinedstorage-curios-integration-1.0.0.jar",
+        "target_file": "refinedstorage-curios-integration-1.0.0.jar"
+      },
+      {
+        "addon_id": "1230497",
+        "name": "Refined Storage - JEI Integration",
+        "base_file": "refinedstorage-jei-integration-neoforge-1.0.0.jar",
+        "target_file": "refinedstorage-jei-integration-neoforge-1.0.0.jar"
+      },
+      {
+        "addon_id": "1230504",
+        "name": "Refined Storage - Mekanism Integration",
+        "base_file": "refinedstorage-mekanism-integration-1.1.1.jar",
+        "target_file": "refinedstorage-mekanism-integration-1.1.1.jar"
+      },
+      {
+        "addon_id": "1230483",
+        "name": "Refined Storage - Quartz Arsenal",
+        "base_file": "refinedstorage-quartz-arsenal-neoforge-1.0.8.jar",
+        "target_file": "refinedstorage-quartz-arsenal-neoforge-1.0.8.jar"
+      },
+      {
+        "addon_id": "1327983",
+        "name": "Refined Types",
+        "base_file": "refined-types-1.21.1-0.3.2.jar",
+        "target_file": "refined-types-1.21.1-0.3.2.jar"
+      },
+      {
+        "addon_id": "659110",
+        "name": "Regions Unexplored",
+        "base_file": "regions_unexplored-neoforge-1.21.1-0.5.9.jar",
+        "target_file": "regions_unexplored-neoforge-1.21.1-0.5.9.jar"
+      },
+      {
+        "addon_id": "445274",
+        "name": "Relics",
+        "base_file": "relics-1.21.1-0.12.8.jar",
+        "target_file": "relics-1.21.1-0.12.8.jar"
+      },
+      {
+        "addon_id": "1070541",
+        "name": "Repeatable Trial Vaults",
+        "base_file": "repeatable_trial_vaults-neoforge-1.21-1.0.3.jar",
+        "target_file": "repeatable_trial_vaults-neoforge-1.21-1.0.3.jar"
+      },
+      {
+        "addon_id": "714059",
+        "name": "Resourceful Config",
+        "base_file": "resourcefulconfig-neoforge-1.21-3.0.11.jar",
+        "target_file": "resourcefulconfig-neoforge-1.21-3.0.11.jar"
+      },
+      {
+        "addon_id": "570073",
+        "name": "Resourceful Lib",
+        "base_file": "resourcefullib-neoforge-1.21-3.0.12.jar",
+        "target_file": "resourcefullib-neoforge-1.21-3.0.12.jar"
+      },
+      {
+        "addon_id": "282805",
+        "name": "Restrictions",
+        "base_file": "restrictions-1.21-7.0.3.jar",
+        "target_file": "restrictions-1.21-7.0.3.jar"
+      },
+      {
+        "addon_id": "326041",
+        "name": "RFTools Base",
+        "base_file": "rftoolsbase-1.21-6.0.11.jar",
+        "target_file": "rftoolsbase-1.21-6.0.11.jar"
+      },
+      {
+        "addon_id": "290209",
+        "name": "RFTools Power",
+        "base_file": "rftoolspower-1.21-7.0.6.jar",
+        "target_file": "rftoolspower-1.21-7.0.6.jar"
+      },
+      {
+        "addon_id": "350006",
+        "name": "RFTools Storage",
+        "base_file": "rftoolsstorage-1.21-6.0.5.jar",
+        "target_file": "rftoolsstorage-1.21-6.0.5.jar"
+      },
+      {
+        "addon_id": "342466",
+        "name": "RFTools Utility",
+        "base_file": "rftoolsutility-1.21-7.0.12.jar",
+        "target_file": "rftoolsutility-1.21-7.0.12.jar"
+      },
+      {
+        "addon_id": "295780",
+        "name": "Roots Classic",
+        "base_file": "RootsClassic-1.21.1-1.5.7.jar",
+        "target_file": "RootsClassic-1.21.1-1.5.7.jar"
+      },
+      {
+        "addon_id": "320926",
+        "name": "Scalable Cat's Force",
+        "base_file": "ScalableCatsForce-NeoForge-3.7.1-build-11-with-library.jar",
+        "target_file": "ScalableCatsForce-NeoForge-3.7.1-build-11-with-library.jar"
+      },
+      {
+        "addon_id": "858542",
+        "name": "Searchables",
+        "base_file": "Searchables-neoforge-1.21.1-1.0.2.jar",
+        "target_file": "Searchables-neoforge-1.21.1-1.0.2.jar"
+      },
+      {
+        "addon_id": "916747",
+        "name": "ShatterLib | OctoLib",
+        "base_file": "OctoLib-NEOFORGE-0.6.2+1.21.jar",
+        "target_file": "OctoLib-NEOFORGE-0.6.2+1.21.jar"
+      },
+      {
+        "addon_id": "552172",
+        "name": "Shiny! Mobs",
+        "base_file": "shiny-1.21.1-1.3.0.jar",
+        "target_file": "shiny-1.21.1-1.3.0.jar"
+      },
+      {
+        "addon_id": "426386",
+        "name": "Shrink.",
+        "base_file": "shrink-2.0.1.47-neoforge.jar",
+        "target_file": "shrink-2.0.1.47-neoforge.jar"
+      },
+      {
+        "addon_id": "297039",
+        "name": "Silent Gear",
+        "base_file": "silent-gear-1.21.1-neoforge-4.2.1.1.jar",
+        "target_file": "silent-gear-1.21.1-neoforge-4.2.1.1.jar"
+      },
+      {
+        "addon_id": "1199188",
+        "name": "Silent Gear Metalworks",
+        "base_file": "sgearmetalworks-1.21.1-1.5.0.jar",
+        "target_file": "sgearmetalworks-1.21.1-1.5.0.jar"
+      },
+      {
+        "addon_id": "242998",
+        "name": "Silent Lib (silentlib)",
+        "base_file": "silent-lib-1.21.1-neoforge-10.6.0.jar",
+        "target_file": "silent-lib-1.21.1-neoforge-10.6.0.jar"
+      },
+      {
+        "addon_id": "220311",
+        "name": "Silent's Gems",
+        "base_file": "silentgems-1.21.1-neoforge-5.1.3.jar",
+        "target_file": "silentgems-1.21.1-neoforge-5.1.3.jar"
+      },
+      {
+        "addon_id": "583228",
+        "name": "Simple Backups",
+        "base_file": "SimpleBackups-1.21-4.0.30.jar",
+        "target_file": "SimpleBackups-1.21-4.0.30.jar"
+      },
+      {
+        "addon_id": "394140",
+        "name": "Simple Magnets",
+        "base_file": "simplemagnets-1.1.12c-neoforge-mc1.21.jar",
+        "target_file": "simplemagnets-1.1.12c-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "983390",
+        "name": "Simple Weather",
+        "base_file": "simple_weather-1.0.13-hotfix.jar",
+        "target_file": "simple_weather-1.0.13-hotfix.jar"
+      },
+      {
+        "addon_id": "300331",
+        "name": "Simply Light",
+        "base_file": "simplylight-1.5.3+1.21.1-b4.jar",
+        "target_file": "simplylight-1.5.3+1.21.1-b4.jar"
+      },
+      {
+        "addon_id": "661293",
+        "name": "SmartBrainLib (Forge/Fabric/Quilt)",
+        "base_file": "SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+        "target_file": "SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
+      },
+      {
+        "addon_id": "1133580",
+        "name": "Smithing Template Viewer for JEI/EMI",
+        "base_file": "smithingtemplateviewer-1.0.4.jar",
+        "target_file": "smithingtemplateviewer-1.0.4.jar"
+      },
+      {
+        "addon_id": "361579",
+        "name": "spark",
+        "base_file": "spark-1.10.124-neoforge.jar",
+        "target_file": "spark-1.10.124-neoforge.jar"
+      },
+      {
+        "addon_id": "277616",
+        "name": "Spice of Life: Carrot Edition",
+        "base_file": "solcarrot-1.21.1-1.16.6.jar",
+        "target_file": "solcarrot-1.21.1-1.16.6.jar"
+      },
+      {
+        "addon_id": "746215",
+        "name": "StarbuncleMania",
+        "base_file": "starbunclemania-1.21.1-1.5.7.jar",
+        "target_file": "starbunclemania-1.21.1-1.5.7.jar"
+      },
+      {
+        "addon_id": "783522",
+        "name": "Structory: Towers",
+        "base_file": "Structory_Towers_26.1_v1.0.16.jar",
+        "target_file": "Structory_Towers_26.1_v1.0.16.jar"
+      },
+      {
+        "addon_id": "438332",
+        "name": "SuperMartijn642's Config Lib",
+        "base_file": "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+        "target_file": "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "452500",
+        "name": "Sushi Go Crafting",
+        "base_file": "sushigocrafting-1.21-0.6.5.jar",
+        "target_file": "sushigocrafting-1.21-0.6.5.jar"
+      },
+      {
+        "addon_id": "1083346",
+        "name": "Sussy Sniffers",
+        "base_file": "sussysniffers-1.21.1-0.1.3.jar",
+        "target_file": "sussysniffers-1.21.1-0.1.3.jar"
+      },
+      {
+        "addon_id": "514923",
+        "name": "Tempad",
+        "base_file": "tempad-1.21.1-3.0.4-all.jar",
+        "target_file": "tempad-1.21.1-3.0.4-all.jar"
+      },
+      {
+        "addon_id": "940057",
+        "name": "TerraBlender (NeoForge)",
+        "base_file": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+        "target_file": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
+      },
+      {
+        "addon_id": "255308",
+        "name": "The Aether",
+        "base_file": "aether-1.21.1-1.5.10-neoforge.jar",
+        "target_file": "aether-1.21.1-1.5.10-neoforge.jar"
+      },
+      {
+        "addon_id": "227639",
+        "name": "The Twilight Forest",
+        "base_file": "twilightforest-1.21.1-4.8.3345-universal.jar",
+        "target_file": "twilightforest-1.21.1-4.8.3345-universal.jar"
+      },
+      {
+        "addon_id": "379849",
+        "name": "The Undergarden",
+        "base_file": "The_Undergarden-1.21.1-0.9.6.jar",
+        "target_file": "The_Undergarden-1.21.1-0.9.6.jar"
+      },
+      {
+        "addon_id": "963206",
+        "name": "Theurgy KubeJS",
+        "base_file": "theurgy_kubejs-1.21.1-neoforge-1.5.1.jar",
+        "target_file": "theurgy_kubejs-1.21.1-neoforge-1.5.1.jar"
+      },
+      {
+        "addon_id": "895919",
+        "name": "Time in a Bottle",
+        "base_file": "tiab-neoforge-6.5.4.jar",
+        "target_file": "tiab-neoforge-6.5.4.jar"
+      },
+      {
+        "addon_id": "271740",
+        "name": "Toast Control",
+        "base_file": "ToastControl-1.21.1-9.0.1.jar",
+        "target_file": "ToastControl-1.21.1-9.0.1.jar"
+      },
+      {
+        "addon_id": "260262",
+        "name": "Tool Belt",
+        "base_file": "ToolBelt-1.21.1-2.2.10.jar",
+        "target_file": "ToolBelt-1.21.1-2.2.10.jar"
+      },
+      {
+        "addon_id": "254268",
+        "name": "Torchmaster",
+        "base_file": "torchmaster-neoforge-1.21.1-21.1.9.jar",
+        "target_file": "torchmaster-neoforge-1.21.1-21.1.9.jar"
+      },
+      {
+        "addon_id": "900364",
+        "name": "TownTalk",
+        "base_file": "towntalk-1.2.0.jar",
+        "target_file": "towntalk-1.2.0.jar"
+      },
+      {
+        "addon_id": "235577",
+        "name": "TrashSlot",
+        "base_file": "trashslot-neoforge-1.21.1-21.1.11.jar",
+        "target_file": "trashslot-neoforge-1.21.1-21.1.11.jar"
+      },
+      {
+        "addon_id": "927874",
+        "name": "Tree Tap",
+        "base_file": "treetap-1.21.1-0.4.6.jar",
+        "target_file": "treetap-1.21.1-0.4.6.jar"
+      },
+      {
+        "addon_id": "606989",
+        "name": "Underground Villages",
+        "base_file": "UndergroundVillages-neoforge-1.21.1-4.0.3.jar",
+        "target_file": "UndergroundVillages-neoforge-1.21.1-4.0.3.jar"
+      },
+      {
+        "addon_id": "536160",
+        "name": "Universal Grid",
+        "base_file": "universalgrid-neoforge-1.21.1-0.3.2.jar",
+        "target_file": "universalgrid-neoforge-1.21.1-0.3.2.jar"
+      },
+      {
+        "addon_id": "929559",
+        "name": "Utilitarian",
+        "base_file": "utilitarian-1.21.1-0.19.2.jar",
+        "target_file": "utilitarian-1.21.1-0.19.2.jar"
+      },
+      {
+        "addon_id": "1284144",
+        "name": "Utility Vest",
+        "base_file": "utilityvest-1.3.0.jar",
+        "target_file": "utilityvest-1.3.0.jar"
+      },
+      {
+        "addon_id": "416935",
+        "name": "Valhelsia Core",
+        "base_file": "valhelsia_core-neoforge-1.21.1-1.1.5.jar",
+        "target_file": "valhelsia_core-neoforge-1.21.1-1.1.5.jar"
+      },
+      {
+        "addon_id": "981139",
+        "name": "Variants&Ventures",
+        "base_file": "variantsandventures-neoforge-1.0.26+mc1.21.1.jar",
+        "target_file": "variantsandventures-neoforge-1.0.26+mc1.21.1.jar"
+      },
+      {
+        "addon_id": "915531",
+        "name": "Villages&Pillages",
+        "base_file": "villagesandpillages-neoforge-mc1.21.1-1.0.3.jar",
+        "target_file": "villagesandpillages-neoforge-mc1.21.1-1.0.3.jar"
+      },
+      {
+        "addon_id": "442508",
+        "name": "When Dungeons Arise - Forge!",
+        "base_file": "DungeonsArise-1.21.1-2.1.68-release.jar",
+        "target_file": "DungeonsArise-1.21.1-2.1.68-release.jar"
+      },
+      {
+        "addon_id": "510656",
+        "name": "Wireless Chargers",
+        "base_file": "wirelesschargers-1.0.9a-neoforge-mc1.21.jar",
+        "target_file": "wirelesschargers-1.0.9a-neoforge-mc1.21.jar"
+      },
+      {
+        "addon_id": "255902",
+        "name": "Wither Skeleton Tweaks",
+        "base_file": "WitherSkeletonTweaks-1.21.1-10.1.1.jar",
+        "target_file": "WitherSkeletonTweaks-1.21.1-10.1.1.jar"
+      },
+      {
+        "addon_id": "260912",
+        "name": "XNet",
+        "base_file": "xnet-1.21-7.0.7.jar",
+        "target_file": "xnet-1.21-7.0.7.jar"
+      },
+      {
+        "addon_id": "694231",
+        "name": "Xtones Reworked",
+        "base_file": "xtonesreworked-1.1.1-1.21.1.jar",
+        "target_file": "xtonesreworked-1.1.1-1.21.1.jar"
+      },
+      {
+        "addon_id": "653786",
+        "name": "XyCraft",
+        "base_file": "xycraft_core-0.7.53-all.jar",
+        "target_file": "xycraft_core-0.7.53-all.jar"
+      },
+      {
+        "addon_id": "653791",
+        "name": "XyCraft: Machines",
+        "base_file": "xycraft_machines-0.7.53.jar",
+        "target_file": "xycraft_machines-0.7.53.jar"
+      },
+      {
+        "addon_id": "653790",
+        "name": "XyCraft: Override",
+        "base_file": "xycraft_override-0.7.53.jar",
+        "target_file": "xycraft_override-0.7.53.jar"
+      },
+      {
+        "addon_id": "653789",
+        "name": "XyCraft: World",
+        "base_file": "xycraft_world-0.7.53.jar",
+        "target_file": "xycraft_world-0.7.53.jar"
+      },
+      {
+        "addon_id": "635427",
+        "name": "Yeetus Experimentus",
+        "base_file": "yeetusexperimentus-neoforge-87.0.0.jar",
+        "target_file": "yeetusexperimentus-neoforge-87.0.0.jar"
+      },
+      {
+        "addon_id": "667299",
+        "name": "YetAnotherConfigLib",
+        "base_file": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+        "target_file": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar"
+      },
+      {
+        "addon_id": "1015114",
+        "name": "YUNG's Better Desert Temples (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+        "base_file": "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+        "target_file": "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar"
+      },
+      {
+        "addon_id": "1015112",
+        "name": "YUNG's Better Dungeons (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+        "base_file": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+        "target_file": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar"
+      },
+      {
+        "addon_id": "1015127",
+        "name": "YUNG's Better End Island (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+        "base_file": "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
+        "target_file": "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar"
+      },
+      {
+        "addon_id": "1015123",
+        "name": "YUNG's Better Jungle Temples (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+        "base_file": "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+        "target_file": "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar"
+      },
+      {
+        "addon_id": "1015096",
+        "name": "YUNG's Better Mineshafts (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+        "base_file": "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+        "target_file": "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar"
+      },
+      {
+        "addon_id": "1015118",
+        "name": "YUNG's Better Nether Fortresses (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+        "base_file": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+        "target_file": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar"
+      },
+      {
+        "addon_id": "1015115",
+        "name": "YUNG's Better Ocean Monuments (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+        "base_file": "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+        "target_file": "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar"
+      },
+      {
+        "addon_id": "1015105",
+        "name": "YUNG's Better Strongholds (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+        "base_file": "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+        "target_file": "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar"
+      },
+      {
+        "addon_id": "1015144",
+        "name": "YUNG's Better Witch Huts (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+        "base_file": "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+        "target_file": "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar"
+      },
+      {
+        "addon_id": "1015146",
+        "name": "YUNG's Extras (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+        "base_file": "YungsExtras-1.21.1-NeoForge-5.1.1.jar",
+        "target_file": "YungsExtras-1.21.1-NeoForge-5.1.1.jar"
+      },
+      {
+        "addon_id": "247921",
+        "name": "ZeroCore 2",
+        "base_file": "ZeroCore2-1.21.1-2.4.21.jar",
+        "target_file": "ZeroCore2-1.21.1-2.4.21.jar"
+      }
+    ]
+  },
+  "language_counts": {
+    "base": 387,
+    "target": 396
+  },
+  "languages": {
+    "states": {
+      "added": [
+        "ad_astra",
+        "ad_astra_giselle_addon",
+        "auroral",
+        "betteradvancedtooltips",
+        "borderless",
+        "common_storage_lib",
+        "invasiveopts",
+        "logisticsnetworks",
+        "moogs_structures",
+        "neovitae",
+        "stepcrafter"
+      ],
+      "removed": [
+        "modernui",
+        "untranslateditems"
+      ],
+      "changed": [
+        "advancedperipherals",
+        "amendments",
+        "apotheosis",
+        "apothic_attributes",
+        "apothic_enchanting",
+        "ars_elemancy",
+        "ars_nouveau",
+        "artifacts",
+        "create_enchantment_industry",
+        "create_hypertube",
+        "createaddition",
+        "drippyloadingscreen",
+        "enderdrives",
+        "eternal_starlight",
+        "extended_industrialization",
+        "fancymenu",
+        "ftbquests",
+        "ftbteams",
+        "functionalstorage",
+        "generatorgalore",
+        "glassential",
+        "herbsandharvest",
+        "hostilenetworks",
+        "industrialforegoing",
+        "integratedscripting",
+        "integratedterminals",
+        "integratedtunnels",
+        "iris_search",
+        "irons_lib",
+        "irons_spellbooks",
+        "jei",
+        "jei_mekanism_multiblocks",
+        "journeymap",
+        "laserbridges",
+        "lootr",
+        "mekmm",
+        "mffs",
+        "minecolonies",
+        "mininggadgets",
+        "modern_industrialization",
+        "modularbees",
+        "moonlight",
+        "oritech",
+        "pipez",
+        "pneumaticcraft",
+        "quarryplus",
+        "sawmill",
+        "securitycraft",
+        "sfm",
+        "sodium-extra",
+        "sophisticatedbackpacks",
+        "sophisticatedcore",
+        "sophisticatedstorage",
+        "storagedelight",
+        "structurize",
+        "supplementaries",
+        "the_bumblezone",
+        "tombstone",
+        "trashcans",
+        "trophymanager",
+        "waystones"
+      ],
+      "unchanged": [
+        "accelerateddecay",
+        "actuallyadditions",
+        "additional_lights",
+        "advanced_ae",
+        "ae2",
+        "ae2ct",
+        "ae2importexportcard",
+        "ae2netanalyser",
+        "ae2wtlib",
+        "aeinfinitybooster",
+        "aether",
+        "akashictome",
+        "allthearcanistgear",
+        "allthecompressed",
+        "allthemodium",
+        "alltheores",
+        "allthetweaks",
+        "allthewizardgear",
+        "almostunified",
+        "apothic_spawners",
+        "appflux",
+        "appleskin",
+        "appmek",
+        "aquaculture",
+        "ars_additions",
+        "ars_controle",
+        "ars_creo",
+        "ars_elemental",
+        "ars_ocultas",
+        "ars_technica",
+        "ars_unification",
+        "arseng",
+        "auroras",
+        "balm",
+        "bcc",
+        "bellsandwhistles",
+        "betteradvancements",
+        "betterdeserttemples",
+        "betterdungeons",
+        "betterendisland",
+        "betterfortresses",
+        "betterjungletemples",
+        "bettermineshafts",
+        "betteroceanmonuments",
+        "betterstrongholds",
+        "betterwitchhuts",
+        "bhc",
+        "bibliobiomes",
+        "bibliocraft",
+        "bibliowoods",
+        "bigreactors",
+        "biomeswevegone",
+        "blockui",
+        "bookshelf",
+        "botanypots",
+        "brandonscore",
+        "bridgingmod",
+        "buildinggadgets2",
+        "bwncr",
+        "cabletiers",
+        "caelus",
+        "camol",
+        "cataclysm",
+        "charginggadgets",
+        "chipped",
+        "chisel",
+        "chromacarvings",
+        "cloth-config2",
+        "cloudglass",
+        "cobblegengalore",
+        "codechickenlib",
+        "colorfulhearts",
+        "colorwheel",
+        "comforts",
+        "commoncapabilities",
+        "compactmachines",
+        "computercraft",
+        "connectedglass",
+        "constructionstick",
+        "controlling",
+        "cookingforblockheads",
+        "cosmeticarmorreworked",
+        "crafting_on_a_stick",
+        "craftingtweaks",
+        "crashutilities",
+        "create",
+        "create_aquatic_ambitions",
+        "create_dragons_plus",
+        "creeperoverhaul",
+        "cristellib",
+        "crystalix",
+        "ctm",
+        "ctov",
+        "cucumber",
+        "curios",
+        "cyclopscore",
+        "darkmodeeverywhere",
+        "deeperdarker",
+        "dimstorage",
+        "disenchanting_table",
+        "domum_ornamentum",
+        "draconicevolution",
+        "dummmmmmy",
+        "dungeons_arise",
+        "dyenamics",
+        "dyenamicsandfriends",
+        "dysoncubeproject",
+        "easy_villagers",
+        "elevatorid",
+        "enchdesc",
+        "enderio",
+        "endermanoverhaul",
+        "enderstorage",
+        "energymeter",
+        "entangled",
+        "everythingcopper",
+        "evilcraft",
+        "evilcraftcompat",
+        "expandedae",
+        "explorerscompass",
+        "extendedae",
+        "extradisks",
+        "extrastorage",
+        "extremesoundmuffler",
+        "factory_blocks",
+        "farmersdelight",
+        "farmingforblockheads",
+        "fastbench",
+        "fireproofboats",
+        "fluxnetworks",
+        "forbidden_arcanus",
+        "formations",
+        "framedblocks",
+        "ftbchunks",
+        "ftbessentials",
+        "ftbfiltersystem",
+        "ftbjeiextras",
+        "ftblibrary",
+        "ftbquestslangsplitter",
+        "ftbultimine",
+        "ftbxmodcompat",
+        "fusion",
+        "fzzy_config",
+        "gateways",
+        "getittogetherdrops",
+        "gmut",
+        "guideme",
+        "handcrafted",
+        "hardenedarmadillos",
+        "iceandfire",
+        "illagerwarship",
+        "imfast",
+        "immeng",
+        "immersiveengineering",
+        "industrialforegoingsouls",
+        "industrialization_overdrive",
+        "integratedcrafting",
+        "integrateddynamics",
+        "integrateddynamicscompat",
+        "integratedterminalscompat",
+        "interdimensionalwirelesstransmitter",
+        "invtweaks",
+        "iris",
+        "ironfurnaces",
+        "ironjetpacks",
+        "irons_jewelry",
+        "irons_patreon_lib",
+        "itemcollectors",
+        "jade",
+        "jearchaeology",
+        "jupiter",
+        "justdirethings",
+        "justenoughbreeding",
+        "justenoughprofessions",
+        "justzoom",
+        "keybindbundles",
+        "keybindspurger",
+        "kubejstweaks",
+        "laserio",
+        "lionfishapi",
+        "little_big_redstone",
+        "livingthings",
+        "lollipop",
+        "luminax",
+        "mahoutsukai",
+        "mcjtylib",
+        "mcwbridges",
+        "mcwdoors",
+        "mcwfences",
+        "mcwfurnitures",
+        "mcwholidays",
+        "mcwlights",
+        "mcwpaths",
+        "mcwroofs",
+        "mcwstairs",
+        "mcwtrpdoors",
+        "mcwwindows",
+        "measurements",
+        "megacells",
+        "mekanism",
+        "mekanismcovers",
+        "mekanismgenerators",
+        "mekanismtools",
+        "mekanisticrouters",
+        "memorysettings",
+        "merequester",
+        "merrymaking",
+        "mes",
+        "mifa",
+        "mns",
+        "mob_grinding_utils",
+        "moderndynamics",
+        "modernfix",
+        "modonomicon",
+        "modularrouters",
+        "moreoverlays",
+        "morered",
+        "mostructures",
+        "mss",
+        "multipiston",
+        "mvs",
+        "mysticalagradditions",
+        "mysticalagriculture",
+        "naturesaura",
+        "naturescompass",
+        "neo_auth",
+        "nochatreports",
+        "not_enough_glyphs",
+        "notenoughanimations",
+        "observable",
+        "occultism",
+        "oracle_index",
+        "owo",
+        "pamhc2crops",
+        "pamhc2foodcore",
+        "pamhc2foodextended",
+        "pamhc2trees",
+        "patchouli",
+        "placebo",
+        "pocketstorage",
+        "polylib",
+        "polymorph",
+        "potionsmaster",
+        "powah",
+        "productivebees",
+        "productivemetalworks",
+        "productivetrees",
+        "pylons",
+        "railcraft",
+        "rainbows",
+        "rangedpumps",
+        "rechiseled",
+        "rechiseled_chipped",
+        "rechiseledcreate",
+        "redstonepen",
+        "refinedstorage",
+        "refinedstorage_curios_integration",
+        "refinedstorage_jei_integration",
+        "refinedstorage_mekanism_integration",
+        "refinedstorage_quartz_arsenal",
+        "refinedtypes",
+        "refurbished_furniture",
+        "regions_unexplored",
+        "relics",
+        "reliquary",
+        "reliquified_artifacts",
+        "repeatable_trial_vaults",
+        "repurposed_structures",
+        "resourcefulconfig",
+        "restrictions",
+        "rftoolsbase",
+        "rftoolsbuilder",
+        "rftoolspower",
+        "rftoolsstorage",
+        "rftoolsutility",
+        "rootsclassic",
+        "searchables",
+        "sgearmetalworks",
+        "shiny",
+        "shrink",
+        "silentgear",
+        "silentgems",
+        "silentlib",
+        "simple_weather",
+        "simplebackups",
+        "simplemagnets",
+        "simplylight",
+        "smithingtemplateviewer",
+        "solcarrot",
+        "sophisticatedstorageinmotion",
+        "soulplied_energistics",
+        "starbunclemania",
+        "stevescarts",
+        "supermartijn642corelib",
+        "sushigocrafting",
+        "tempad",
+        "tempad_static",
+        "terrablender",
+        "tesseract_api",
+        "theurgy",
+        "tiab",
+        "titanium",
+        "toastcontrol",
+        "toolbelt",
+        "torchmaster",
+        "transfer_labels",
+        "trashslot",
+        "treetap",
+        "twilightforest",
+        "undergarden",
+        "universalgrid",
+        "utilitarian",
+        "utilityvest",
+        "variantsandventures",
+        "wirelesschargers",
+        "wstweaks",
+        "xnet",
+        "xtonesreworked",
+        "xycraft_core",
+        "xycraft_machines",
+        "xycraft_override",
+        "xycraft_world",
+        "yet_another_config_lib_v3",
+        "zerocore"
+      ]
+    },
+    "translated_output_namespaces": 286,
+    "changed_translated_namespaces": [
+      "advancedperipherals",
+      "amendments",
+      "apotheosis",
+      "apothic_attributes",
+      "apothic_enchanting",
+      "ars_elemancy",
+      "ars_nouveau",
+      "artifacts",
+      "create_enchantment_industry",
+      "create_hypertube",
+      "createaddition",
+      "enderdrives",
+      "eternal_starlight",
+      "extended_industrialization",
+      "fancymenu",
+      "ftbquests",
+      "ftbteams",
+      "functionalstorage",
+      "generatorgalore",
+      "glassential",
+      "herbsandharvest",
+      "hostilenetworks",
+      "industrialforegoing",
+      "integratedscripting",
+      "integratedterminals",
+      "integratedtunnels",
+      "iris_search",
+      "irons_lib",
+      "irons_spellbooks",
+      "jei",
+      "jei_mekanism_multiblocks",
+      "journeymap",
+      "lootr",
+      "mekmm",
+      "mffs",
+      "minecolonies",
+      "mininggadgets",
+      "modern_industrialization",
+      "modularbees",
+      "oritech",
+      "pipez",
+      "pneumaticcraft",
+      "quarryplus",
+      "securitycraft",
+      "sfm",
+      "sodium-extra",
+      "sophisticatedbackpacks",
+      "sophisticatedcore",
+      "sophisticatedstorage",
+      "structurize",
+      "supplementaries",
+      "the_bumblezone",
+      "tombstone",
+      "waystones"
+    ],
+    "removed_translated_namespaces": [],
+    "unchanged_translated_namespaces": [
+      "actuallyadditions",
+      "additional_lights",
+      "advanced_ae",
+      "ae2",
+      "ae2ct",
+      "ae2importexportcard",
+      "ae2netanalyser",
+      "ae2wtlib",
+      "aeinfinitybooster",
+      "aether",
+      "akashictome",
+      "allthearcanistgear",
+      "allthecompressed",
+      "allthemodium",
+      "alltheores",
+      "allthetweaks",
+      "allthewizardgear",
+      "apothic_spawners",
+      "appflux",
+      "appleskin",
+      "appmek",
+      "aquaculture",
+      "ars_additions",
+      "ars_controle",
+      "ars_creo",
+      "ars_elemental",
+      "ars_ocultas",
+      "ars_technica",
+      "ars_unification",
+      "arseng",
+      "auroras",
+      "bellsandwhistles",
+      "betteradvancements",
+      "betterdeserttemples",
+      "betterdungeons",
+      "betterendisland",
+      "betterfortresses",
+      "betterjungletemples",
+      "bettermineshafts",
+      "betteroceanmonuments",
+      "betterstrongholds",
+      "betterwitchhuts",
+      "bhc",
+      "bibliobiomes",
+      "bibliocraft",
+      "bibliowoods",
+      "bigreactors",
+      "biomeswevegone",
+      "blockui",
+      "botanypots",
+      "buildinggadgets2",
+      "cabletiers",
+      "cataclysm",
+      "chipped",
+      "chisel",
+      "compactmachines",
+      "computercraft",
+      "connectedglass",
+      "constructionstick",
+      "controlling",
+      "cookingforblockheads",
+      "craftingtweaks",
+      "create",
+      "create_aquatic_ambitions",
+      "create_dragons_plus",
+      "creeperoverhaul",
+      "curios",
+      "deeperdarker",
+      "domum_ornamentum",
+      "draconicevolution",
+      "dungeons_arise",
+      "dyenamics",
+      "dyenamicsandfriends",
+      "easy_villagers",
+      "enchdesc",
+      "enderio",
+      "endermanoverhaul",
+      "enderstorage",
+      "energymeter",
+      "everythingcopper",
+      "evilcraft",
+      "evilcraftcompat",
+      "expandedae",
+      "explorerscompass",
+      "extendedae",
+      "extradisks",
+      "extrastorage",
+      "extremesoundmuffler",
+      "factory_blocks",
+      "farmersdelight",
+      "farmingforblockheads",
+      "fluxnetworks",
+      "forbidden_arcanus",
+      "framedblocks",
+      "ftbchunks",
+      "ftbessentials",
+      "ftbfiltersystem",
+      "ftbquestslangsplitter",
+      "ftbultimine",
+      "fzzy_config",
+      "gateways",
+      "gmut",
+      "guideme",
+      "handcrafted",
+      "iceandfire",
+      "immeng",
+      "immersiveengineering",
+      "industrialforegoingsouls",
+      "industrialization_overdrive",
+      "integratedcrafting",
+      "integrateddynamics",
+      "integrateddynamicscompat",
+      "integratedterminalscompat",
+      "interdimensionalwirelesstransmitter",
+      "invtweaks",
+      "iris",
+      "ironfurnaces",
+      "ironjetpacks",
+      "irons_jewelry",
+      "irons_patreon_lib",
+      "itemcollectors",
+      "jade",
+      "jearchaeology",
+      "justdirethings",
+      "laserio",
+      "little_big_redstone",
+      "livingthings",
+      "lollipop",
+      "luminax",
+      "mahoutsukai",
+      "mcwbridges",
+      "mcwdoors",
+      "mcwfences",
+      "mcwfurnitures",
+      "mcwholidays",
+      "mcwlights",
+      "mcwpaths",
+      "mcwroofs",
+      "mcwstairs",
+      "mcwtrpdoors",
+      "mcwwindows",
+      "megacells",
+      "mekanism",
+      "mekanismcovers",
+      "mekanismgenerators",
+      "mekanismtools",
+      "mekanisticrouters",
+      "merequester",
+      "merrymaking",
+      "mes",
+      "mifa",
+      "mns",
+      "mob_grinding_utils",
+      "moderndynamics",
+      "modonomicon",
+      "modularrouters",
+      "moreoverlays",
+      "morered",
+      "mss",
+      "mvs",
+      "mysticalagradditions",
+      "mysticalagriculture",
+      "naturesaura",
+      "naturescompass",
+      "not_enough_glyphs",
+      "occultism",
+      "pamhc2crops",
+      "pamhc2foodcore",
+      "pamhc2foodextended",
+      "pamhc2trees",
+      "patchouli",
+      "pocketstorage",
+      "polymorph",
+      "powah",
+      "productivebees",
+      "productivemetalworks",
+      "productivetrees",
+      "pylons",
+      "railcraft",
+      "rainbows",
+      "rechiseled",
+      "rechiseledcreate",
+      "redstonepen",
+      "refinedstorage",
+      "refinedstorage_curios_integration",
+      "refinedstorage_jei_integration",
+      "refinedstorage_mekanism_integration",
+      "refinedstorage_quartz_arsenal",
+      "refinedtypes",
+      "refurbished_furniture",
+      "regions_unexplored",
+      "relics",
+      "reliquary",
+      "reliquified_artifacts",
+      "repurposed_structures",
+      "rftoolsbase",
+      "rftoolsbuilder",
+      "rftoolspower",
+      "rftoolsstorage",
+      "rftoolsutility",
+      "rootsclassic",
+      "sgearmetalworks",
+      "silentgear",
+      "silentgems",
+      "silentlib",
+      "simplemagnets",
+      "simplylight",
+      "sophisticatedstorageinmotion",
+      "soulplied_energistics",
+      "starbunclemania",
+      "stevescarts",
+      "sushigocrafting",
+      "tempad",
+      "tempad_static",
+      "theurgy",
+      "toolbelt",
+      "trashslot",
+      "twilightforest",
+      "undergarden",
+      "universalgrid",
+      "variantsandventures",
+      "xnet",
+      "xtonesreworked",
+      "xycraft_core",
+      "xycraft_machines",
+      "xycraft_override",
+      "xycraft_world",
+      "zerocore"
+    ],
+    "new_translation_candidates": [
+      "ad_astra",
+      "ad_astra_giselle_addon",
+      "auroral",
+      "betteradvancedtooltips",
+      "borderless",
+      "common_storage_lib",
+      "invasiveopts",
+      "logisticsnetworks",
+      "moogs_structures",
+      "neovitae",
+      "stepcrafter"
+    ]
+  },
+  "ftbquests": {
+    "base": {
+      "layout": "merged_and_split",
+      "chapter_files": 64,
+      "en_merged_exists": true,
+      "ko_merged_exists": true,
+      "en_split_files": 68,
+      "ko_split_files": 59,
+      "split_files_missing_in_ko": [
+        "chapters/aether.snbt_merged",
+        "chapters/apotheosis_gear.snbt_merged",
+        "chapters/deeper_and_darker.snbt_merged",
+        "chapters/draconic_evolution.snbt_merged",
+        "chapters/extended__advanced_ae.snbt_merged",
+        "chapters/ice__fire.snbt_merged",
+        "chapters/mi_digital.snbt_merged",
+        "chapters/mi_electric.snbt_merged",
+        "chapters/mi_endgame.snbt_merged",
+        "chapters/mi_steam.snbt_merged",
+        "chapters/oritech.snbt_merged",
+        "chapters/refined_storage.snbt_merged"
+      ],
+      "split_files_only_in_ko": [
+        "chapters/rust_free_and_oiled.snbt_merged",
+        "chapters/steam_age.snbt_merged",
+        "chapters/the_electric_age.snbt_merged"
+      ]
+    },
+    "target": {
+      "layout": "split",
+      "chapter_files": 66,
+      "en_merged_exists": false,
+      "ko_merged_exists": false,
+      "en_split_files": 70,
+      "ko_split_files": 59,
+      "split_files_missing_in_ko": [
+        "chapters/aether.snbt",
+        "chapters/apotheosis_gear.snbt",
+        "chapters/auroral.snbt",
+        "chapters/deeper_and_darker.snbt",
+        "chapters/draconic_evolution.snbt",
+        "chapters/extended__advanced_ae.snbt",
+        "chapters/ice__fire.snbt",
+        "chapters/mi_digital.snbt",
+        "chapters/mi_electric.snbt",
+        "chapters/mi_endgame.snbt",
+        "chapters/mi_steam.snbt",
+        "chapters/neo_vitae.snbt",
+        "chapters/oritech.snbt",
+        "chapters/refined_storage.snbt"
+      ],
+      "split_files_only_in_ko": [
+        "chapters/rust_free_and_oiled.snbt",
+        "chapters/steam_age.snbt",
+        "chapters/the_electric_age.snbt"
+      ]
+    }
+  },
+  "overrides": {
+    "counts": {
+      "all:target_different": 43,
+      "all:target_missing": 220,
+      "ftbquests:target_different": 6,
+      "ftbquests:target_missing": 1,
+      "kubejs:target_different": 24,
+      "kubejs:target_missing": 219,
+      "other:target_different": 13
+    },
+    "files": [
+      {
+        "path": "config/ftbquests/quests/chapters/cataclysm.snbt",
+        "category": "ftbquests",
+        "state": "target_different"
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/generators.snbt",
+        "category": "ftbquests",
+        "state": "target_different"
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/mekanism.snbt",
+        "category": "ftbquests",
+        "state": "target_different"
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/mi_digital.snbt",
+        "category": "ftbquests",
+        "state": "target_different"
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/mi_electric.snbt",
+        "category": "ftbquests",
+        "state": "target_different"
+      },
+      {
+        "path": "config/ftbquests/quests/chapters/relics.snbt",
+        "category": "ftbquests",
+        "state": "target_different"
+      },
+      {
+        "path": "config/ftbquests/quests/lang/ko_kr.snbt",
+        "category": "ftbquests",
+        "state": "target_missing"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/allthemodium.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/azure_silver.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/black_quartz.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/crimson_iron.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/darkstone.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/entro.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/kivi.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/sky_steel.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/unexplored_wood.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/unobtainium.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/vibranium.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/crops/xychorium_gem.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "config/mysticalcustomization/tiers/magical.json",
+        "category": "other",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/Mekanism-Tooltips.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/RecipeViewer.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/enderdrives_tooltips.js",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/client_scripts/ponder/fission_mek.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/ponder/fission_mek_fuelrod.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/ponder/fission_mek_logic.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/ponder/fission_mek_port.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/ponder/fusion_activate.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/ponder/fusion_reactor.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/ponder/induction_mek.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/ponder/sps.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/ponder/turbine_mek.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/client_scripts/tooltips.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/data/actuallyadditions/patchouli_books/booklet/book.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/advancedperipherals/patchouli_books/manual/book.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/allthemodium/patchouli_books/allthemodium_book/book.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/bigreactors/patchouli_books/erguide/book.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/adventure.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/alias.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/apis.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/bg.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/bit.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/bundled.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/cd.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/chat.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/clear.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/colors.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/colours.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/commands.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/commandsapi.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/copy.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/coroutine.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/craft.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/dance.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/delete.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/disk.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/dj.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/drive.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/drives.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/earth.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/edit.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/eject.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/equip.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/events.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/excavate.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/exec.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/exit.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/falling.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/fg.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/fs.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/go.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/gps.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/gpsapi.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/hello.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/help.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/helpapi.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/http.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/id.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/intro.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/io.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/keys.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/label.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/list.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/lua.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/math.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/mkdir.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/modems.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/monitor.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/monitors.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/move.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/multishell.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/os.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/paint.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/paintutils.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/parallel.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/pastebin.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/peripheral.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/peripherals.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/pocket.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/printers.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/programming.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/programs.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/reboot.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/redirection.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/rednet.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/redstone.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/redstoneapi.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/refuel.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/rename.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/repeat.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/rs.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/set.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/settings.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/shell.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/shellapi.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/shutdown.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/speaker.md",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/speakers.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/string.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/table.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/term.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/textutils.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/time.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/tunnel.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/turn.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/turtle.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/type.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/unequip.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/vector.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/wget.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/whatsnew.md",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/window.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/workbench.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/computercraft/lua/rom/help/worm.txt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/bandit_towers/bandit_towers_supply.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/bandit_village/bandit_village_supply.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/bathhouse/bathhouse_barrels.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/bathhouse/bathhouse_normal.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/greenwood_pub/greenwood_pub_barrels_hallways.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/infested_temple/infested_temple_vault_normal.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_normal.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/mechanical_nest/mechanical_nest_supply.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/chests/mining_complex/mining_complex_barrel.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/pots/infested_temple/infested_temple_pots.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/pots/mining_complex/mining_complex_pots.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/spawners/infested_temple/infested_temple_normal.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/spawners/infested_temple/infested_temple_ominous.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/spawners/kisegi_sanctuary/kisegi_sanctuary_normal.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/loot_table/spawners/kisegi_sanctuary/kisegi_sanctuary_ominous.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/aviary/aviary_part_15.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/aviary/aviary_part_5.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/aviary/aviary_part_7.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/bathhouse/bathhouse_middle_1.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/bathhouse/bathhouse_top_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/foundry/foundry_blaze_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/foundry/foundry_piglin_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/foundry/foundry_wither_skeleton_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/foundry/foundry_wither_skeleton_1.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/foundry/foundry_wither_skeleton_2.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/foundry/foundry_wither_skeleton_3.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/greenwood_pub/greenwood_pub_spawner_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/greenwood_pub/greenwood_pub_spawner_1.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/illager_windmill/illager_windmill_part_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/infested_temple/infested_temple_level_4.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/infested_temple/infested_temple_main_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/infested_temple/infested_temple_vault_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/infested_temple/infested_temple_vault_1.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/infested_temple/infested_temple_vault_2.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/keep_kayra/keep_kayra_main_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_lower_room_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_main_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_middle_room_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_1.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_2.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/kisegi_sanctuary/kisegi_sanctuary_vault_3.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/mechanical_nest/mechanical_nest_spawner_2.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/mining_complex/mining_complex_dripstone_1.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/mining_complex/mining_complex_dripstone_2.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/mining_complex/mining_complex_vault_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/mushroom_village/mushroom_village_house_big_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/dungeons_arise/structure/mushroom_village/mushroom_village_house_small_7.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/gateways/gateways/hellish_fortress.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_corridor_3.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_main_0.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_vault_0_normal.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/hellish_trials/structure/nether_trial/nether_trial_vault_1_ominous.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/industrialforegoing/patchouli_books/industrial_foregoing/book.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/ironfurnaces/advancements/coal.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/justdirethings/patchouli_books/justdirethingsbook/book.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/livingthings/patchouli_books/lexicon/book.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_basic.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_basic_middle.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_crashed.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_crashed_2.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_crashed_2_middle.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_crashed_deepslate_middle.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_deepslate.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_deepslate_2.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_deepslate_2_middle.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_deepslate_3.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_deepslate_3_middle.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/mega_ship_deepslate_middle.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mes/structure/mega_ship/v1_21_9/mega_ship_deepslate_2_middle.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/dragon_arena/c2.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/dragon_arena/v1_21_5/c2.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/large_arena/r3.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/large_arena/v1_21_4/r3.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/large_arena/v1_21_5/r3.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/large_arena/v1_21_9/r3.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_arenas/mobs/1.21/arena_gladiator.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_arenas/mobs/1.21/drakebone_tyrant.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_arenas/mobs/1.21/ember_sentinel.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_arenas/mobs/1.21/pit_brute.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_arenas/mobs/1.21/pit_vanguard.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/forks/roofless_fork_side_2_6.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/mobs/1.21/black_guard.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/mobs/1.21/blaze_sentinel.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/mobs/1.21/fortress_archer.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/mobs/1.21/fortress_champion.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/mobs/1.21/fortress_guard.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/mobs/1.21/warden_of_the_keep.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/start/mega_crossing_north_straight_1.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/v1_21_5/forks/roofless_fork_side_2_6.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/v1_21_5/start/mega_crossing_north_straight_1.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/v1_21_9/forks/roofless_fork_side_2_6.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/mega_fortress/v1_21_9/start/mega_crossing_north_straight_1.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/small_arena/front.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mns/structure/small_arena/v1_21_5/front.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mvs/structure/1_21_9/cathedral/base/base.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mvs/structure/1_21_9/gallows.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mvs/structure/cathedral/base/base.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mvs/structure/gallows.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mvs/structure/out_house/out_house.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/mvs/structure/sunzi_gate.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/railcraft/patchouli_books/guide_book/book.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/repurposed_structures/structure/villages/badlands/houses/saloon.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/repurposed_structures/structure/villages/badlands/zombie/houses/saloon.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/repurposed_structures/structure/villages/badlands/zombie/houses/shepherd.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/silentgear/silentgear_traits/advanced_aquatic.json",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/data/silentgear/silentgear_traits/advanced_flame_ward.json",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/data/silentgear/silentgear_traits/cure_levitation.json",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/data/silentgear/silentgear_traits/cure_nausea.json",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/data/structory/structure/entities/villager/bandit.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/structory/structure/entities/villager/outlander.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/structory/structure/entities/villager/vagabond.nbt",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/structory_towers/loot_table/potions/bad_omen.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/structory_towers/loot_table/potions/darkness.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/structory_towers/loot_table/potions/eternal_glowing.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/structory_towers/loot_table/potions/heroism.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/data/sushigocrafting/patchouli_books/sushigocrafting/book.json",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/server_scripts/announcements/announcements.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/server_scripts/mods/Hyperbox/hyperbox.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/startup_scripts/CustomAdditions.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/startup_scripts/appleskin_debug_labels.js",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/startup_scripts/enderdrives_messages.js",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/startup_scripts/hyperbox/hyperbox.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/startup_scripts/incompatible_versions.js",
+        "category": "kubejs",
+        "state": "target_different"
+      },
+      {
+        "path": "kubejs/startup_scripts/mousetweaks_config_labels.js",
+        "category": "kubejs",
+        "state": "target_missing"
+      },
+      {
+        "path": "kubejs/startup_scripts/update_checker.js",
+        "category": "kubejs",
+        "state": "target_different"
+      }
+    ]
+  },
+  "errors": {
+    "base_language_scan": [],
+    "target_language_scan": []
+  }
+}

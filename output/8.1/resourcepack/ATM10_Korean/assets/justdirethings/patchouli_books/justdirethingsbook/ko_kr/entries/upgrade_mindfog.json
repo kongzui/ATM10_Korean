@@ -1,0 +1,17 @@
+{
+  "name": "정신 안개",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_mindfog",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 패시브 능력은 몹이 플레이어를 감지하는 거리를 줄입니다. 몹이 공격을 시작하기 전에 더 가까이 접근할 수 있습니다.$(br2)방어구 티어가 높을수록 효과가 강해집니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "정신 안개 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_mindfog"
+    }
+  ]
+}

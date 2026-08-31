@@ -12,14 +12,15 @@ from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/common_ui/convenience/craftingtweaks"
 WORKING = WORK_ROOT / "ko_kr.json"
 OVERRIDES = WORK_ROOT / "recheck_overrides.json"
 REPORT = WORK_ROOT / "recheck_20260820.json"
 OUTPUT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/craftingtweaks/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/craftingtweaks/lang/ko_kr.json"
 )
 GLOSSARY = PROJECT_ROOT / "glossary/README.md"
 
@@ -269,7 +270,7 @@ def verify(pre_apply: bool) -> dict[str, object]:
 
     jar_count, english_count = verify_language_owners(instance, english)
     project_languages = list(
-        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets").glob(
+        (active_output_root() / "resourcepack/ATM10_Korean/assets").glob(
             "*/lang/ko_kr.json"
         )
     )

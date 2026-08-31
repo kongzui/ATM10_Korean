@@ -1,0 +1,18 @@
+{
+  "conditions": [],
+  "description": {
+    "text": "착용하면 멀미 효과를 제거합니다"
+  },
+  "effects": [
+    {
+      "type": "silentgear:cancel_effects",
+      "cleared_effects": [
+        "minecraft:nausea"
+      ]
+    }
+  ],
+  "max_level": 1,
+  "name": {
+    "text": "멀미 해제"
+  }
+}

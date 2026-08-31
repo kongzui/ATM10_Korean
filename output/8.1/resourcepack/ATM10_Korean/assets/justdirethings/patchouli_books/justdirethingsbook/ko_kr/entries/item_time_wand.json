@@ -1,0 +1,24 @@
+{
+  "name": "시간 지팡이",
+  "sortnum": 7,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:time_wand[justdirethings:forge_energy=100000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "시간 지팡이는 $(l:justdirethings:res_time_crystal)시간 수정$(/l)의 시간 조작 능력을 휴대용으로 이용하는 도구입니다.$(br2)이 지팡이를 사용하려면 Forge Energy와 $(l:justdirethings:res_time_fluid)시간 유체$(/l)를 모두 충전해야 합니다."
+    },
+    {
+      "type": "justdirethings:text_with_config",
+      "text": "용광로 같은 기계나 밀 같은 작물처럼 틱마다 작동하는 블록을 우클릭하세요. 처음에는 두 배, 다시 클릭하면 4x와 8x처럼 배수가 두 배씩 올라가 최대 #time_wand.time_wand_max_multiplier#x가 됩니다!$(br2)가속 배수가 높을수록 더 많은 Forge Energy와 시간 유체를 소비합니다.$(br2)가속 효과는 30초 동안 지속됩니다.",
+      "config_options": [
+        "time_wand.time_wand_max_multiplier"
+      ]
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "시간 지팡이 제작",
+      "recipe": "justdirethings:time_wand"
+    }
+  ]
+}

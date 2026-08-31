@@ -1,0 +1,11 @@
+{
+  "name": "Extreme 가이드",
+  "version": 2,
+  "landing_text": "Extreme Reactors의 기초를 설명하는 안내서, 줄여서 Extreme 가이드입니다.$(br2)Extreme Reactors는 에너지를 효율적으로 대량 생산하는 모드이며, 이 책은 그 목표를 달성하는 방법을 안내합니다!",
+  "creative_tab": "bigreactors.general",
+  "show_progress": false,
+  "show_toasts": false,
+  "model": "bigreactors:erguide",
+  "book_texture": "patchouli:textures/gui/book_gray.png",
+  "use_resource_pack": true
+}

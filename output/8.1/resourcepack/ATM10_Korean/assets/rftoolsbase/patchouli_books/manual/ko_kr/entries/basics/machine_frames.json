@@ -1,0 +1,15 @@
+{
+  "name": "기계 프레임",
+  "icon": "rftoolsbase:machine_frame",
+  "category": "rftoolsbase:category_basics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "모든 기계와 장치에는 일종의 $(thing)프레임$()이 필요합니다. 기계 프레임 자체에는 기능이 없지만 여러 기계의 공통 제작 재료로 사용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbase:machine_frame"
+    }
+  ]
+}

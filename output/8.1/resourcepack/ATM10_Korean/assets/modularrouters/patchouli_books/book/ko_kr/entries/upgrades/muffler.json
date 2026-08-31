@@ -1,0 +1,19 @@
+{
+  "name": "소음기 업그레이드",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:muffler_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "아이템 라우터의 소리와 입자 효과를 억제하는 업그레이드입니다. 플레이어가 자주 머무는 곳에서 시끄러운 모듈이 계속 작동할 때 유용합니다.$(li)소음기 업그레이드가 하나 이상이면 모든 소리 효과를 끕니다.$(li)두 개 이상이면 광선과 날아가는 아이템을 포함한 모든 입자 효과도 끕니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)업그레이드가 세 개이면 라우터 블록 앞면의 맥동하는 텍스처인 작동 애니메이션도 끕니다.$(p)모든 소리와 입자 효과는 모드 설정에서도 끌 수 있습니다. 이 업그레이드는 설정에서 소리와 효과를 끄지 않았을 때만 유용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:muffler_upgrade"
+    }
+  ]
+}

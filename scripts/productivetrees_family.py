@@ -21,12 +21,15 @@ from productivebees_family import (
     sha256,
     validate_value,
 )
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/productivetrees"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
 LANGUAGE_OUTPUT = OUTPUT_ASSETS / "productivetrees/lang/ko_kr.json"
 GUIDE_OUTPUT = OUTPUT_ASSETS / "productivetrees/patchouli_books/guide/ko_kr"
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 QUEST_CHAPTER = "productive_trees"
 JAR_PREFIX = "productivetrees-"
 LATIN_WORD = re.compile(r"[A-Za-z]{3,}")

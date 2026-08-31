@@ -1,0 +1,21 @@
+{
+  "name": "보석 가루",
+  "icon": "apotheosis:gem_dust",
+  "category": "apotheosis:adventure/gems",
+  "flag": "apotheosis:adventure",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apotheosis:gem_dust",
+      "link_recipe": true,
+      "text": "모든 아포틱 보석은 분쇄해 $(br)$(9)보석 가루$()로 만들 수 있습니다.$(p)월드에서 모루로 보석을 짓눌러 $(br)분쇄하는 방법도 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apotheosis:salvaging_table",
+      "title": "보석 분해",
+      "text": "모루로 보석 몇 개를 분쇄한 뒤에는 $(9)분해 작업대$()를 만들어 대신 사용할 수 있습니다."
+    }
+  ]
+}

@@ -13,19 +13,20 @@ from zipfile import ZipFile
 
 import ars_family
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 WORK_ROOT = PROJECT_ROOT / "working/extreme_reactors/guide"
 ENGLISH_ROOT = WORK_ROOT / "en_us"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/bigreactors"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/bigreactors"
     / "patchouli_books/erguide/ko_kr"
 )
 BOOK_OUTPUT = (
-    PROJECT_ROOT
-    / "output/overrides/kubejs/data/bigreactors/patchouli_books/erguide/book.json"
+    active_output_root()
+    / "overrides/kubejs/data/bigreactors/patchouli_books/erguide/book.json"
 )
 CACHE_FILE = PROJECT_ROOT / "temp/extreme_reactors_guide_segment_cache.json"
 BOOK_PREFIX = "assets/bigreactors/patchouli_books/erguide/en_us/"

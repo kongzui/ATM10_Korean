@@ -1,0 +1,75 @@
+{
+  "name": "조립 시스템",
+  "icon": "pneumaticcraft:assembly_controller",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "상위 등급 재료를 제작하려면 여러 $(thing)조립 기계/$로 이루어진 $(thing)조립 시스템/$이 필요합니다. 기계들은 수평으로 인접하면 서로 통신합니다. $(item)조립 IO 유닛/$을 제외한 각 종류의 기계는 하나씩만 둘 수 있습니다. 조립 라인은 $(l:base_concepts/pressure)압축 공기/$로 작동하지만, 전체 시스템에 동력을 공급할 때는 조립 제어기에만 공기를 공급하면 됩니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:assembly_controller",
+      "text": "$(thing)조립 시스템/$의 두뇌입니다. $(l:manufacturing/assembly_programs)프로그램/$을 받아 $(item)제어기/$가 다른 $(thing)조립 기계/$를 제어하는 방법을 정합니다.$(p)제어기 화면에는 현재 상태의 진단 정보가 표시됩니다. GUI를 열어 작동 상태를 확인하세요."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:assembly_io_unit_import",
+      "text": "$(item)IO 유닛/$은 인벤토리와 $(item)조립 플랫폼/$을 연결합니다. 이 로봇 팔은 대각선 방향에도 닿습니다.$(p)IO 유닛은 완성품을 내보내거나 제작 재료를 가져올 수 있습니다. 바닐라 $(item)상자/$나 모드가 추가한 인벤토리 블록을 포함해 모든 인벤토리를 사용할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "조립 IO 유닛 (계속)",
+      "text": "$(thing)조립 시스템/$에는 $(italic)두 개/$의 $(item)IO 유닛/$, 즉 입력 유닛과 출력 유닛이 하나씩 필요합니다. $(6)주황색/$은 출력, $(9)파란색/$은 입력을 뜻합니다. $(item)IO 유닛/$이 작동하려면 $(item)조립 플랫폼/$과, 모드에 따라 아이템을 꺼내거나 보관할 인벤토리에 모두 닿아야 합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:assembly_platform",
+      "text": "$(item)조립 플랫폼/$는 다른 $(thing)조립 기계/$ 작업대입니다. 드릴/레이저 가공 시 아이템을 제자리에 유지하는 데 사용됩니다. $(p)$(item)조립 플랫폼/$는 다른 모든 기계가 접근해야 하기 때문에 중앙에 배치하는 것이 가장 좋습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:assembly_drill",
+      "text": "$(item)조립 드릴/$은 실제 작업을 수행하는 $(thing)조립 기계/$ 중 하나입니다. 다이아몬드 드릴 헤드로 매우 단단한 재료도 뚫을 수 있습니다.$(p)$(item)조립 드릴/$은 대각선에 $(italic)닿을 수 없으므로/$ $(thing)조립 플랫폼/$ 바로 옆에 배치해야 합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:assembly_laser",
+      "text": "$(item)조립 레이저/$는 재료를 자르거나 아이템을 나누고 모서리를 잘라 냅니다.$(p)$(item)조립 드릴/$과 마찬가지로 대각선에는 $(italic)닿지 않습니다/$."
+    },
+    {
+      "type": "text",
+      "title": "사용법",
+      "text": "$(thing)조립 시스템/$으로 제작하려면 $(item)조립 제어기/$에 $(l:manufacturing/assembly_programs)조립 프로그램/$을 넣고 입력 인벤토리에 필요한 아이템을 넣으세요.$(p)제어기와 설치한 프로그램이 아는 제작법에 맞는 아이템은 자동으로 처리됩니다."
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "$(thing)조립 시스템/$는 $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$를 지원하므로 레시피를 추가하거나 삭제할 수 있습니다. 자세한 내용은 아래 링크를 참조하세요.",
+      "url": "https://docs.blamejared.com/1.16/en/mods/PneumaticCraft-Repressurized/AssemblySystem",
+      "link_text": "CraftTweaker Docs"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:assembly_controller",
+      "recipe2": "pneumaticcraft:assembly_platform"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:assembly_io_unit_import",
+      "recipe2": "pneumaticcraft:assembly_io_unit_export"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:assembly_io_unit_import_from_export",
+      "recipe2": "pneumaticcraft:assembly_io_unit_export_from_import"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:assembly_drill",
+      "recipe2": "pneumaticcraft:assembly_laser"
+    }
+  ]
+}

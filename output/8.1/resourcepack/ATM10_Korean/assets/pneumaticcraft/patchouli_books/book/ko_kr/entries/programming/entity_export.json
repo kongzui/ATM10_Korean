@@ -1,0 +1,19 @@
+{
+  "name": "개체 내보내기 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/entity_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$이 지정한 $(l:programming/area)영역/$으로 이동해 운반 중인 개체를 내려놓습니다. 연결된 $(l:programming/text)텍스트/$ 위젯에 선택적으로 지정한 $(l:base_concepts/entity_filter)개체 필터/$가 허용하는 개체만 내려놓습니다.$(p)$(l:programming/entity_import)개체 가져오기/$ 위젯도 참조하세요."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/entity_export_piece.png"
+      ],
+      "text": "$(italic)개체 내보내기 위젯/$"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORKING = PROJECT_ROOT / "working/common_ui/curios_effects/moreoverlays/ko_kr.json"
 OVERRIDES = (
@@ -19,8 +20,8 @@ OVERRIDES = (
     / "working/common_ui/curios_effects/moreoverlays/recheck_overrides.json"
 )
 OUTPUT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/moreoverlays/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/moreoverlays/lang/ko_kr.json"
 )
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
@@ -384,7 +385,7 @@ def verify(instance: Path) -> dict[str, object]:
     project_language_files = 0
     project_collision_rows = []
     project_key_conflicts = []
-    assets_root = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+    assets_root = active_output_root() / "resourcepack/ATM10_Korean/assets"
     for path in sorted(assets_root.glob("*/lang/ko_kr.json")):
         project_language_files += 1
         if path == OUTPUT:

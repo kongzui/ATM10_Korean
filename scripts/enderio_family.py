@@ -15,16 +15,17 @@ from zipfile import ZipFile
 import build_ae2_quests as quest_snbt
 from audit_ftbquests_titles import parse_chapters
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root, resolve_active_output_path
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/enderio"
 OUTPUT_FILE = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/enderio/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/enderio/lang/ko_kr.json"
 )
 QUEST_OUTPUT_FILE = (
-    PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 )
 JAR_PATTERN = "enderio-*.jar"
 LANG_ROOT = "assets/enderio/lang"
@@ -1009,7 +1010,11 @@ def build_outputs() -> None:
         "working/evilcraft/evilcraftcompat/ko_kr.json",
         "output/resourcepack/ATM10_Korean/assets/evilcraftcompat/lang/ko_kr.json",
     ):
-        path = PROJECT_ROOT / relative
+        path = (
+            resolve_active_output_path(relative)
+            if relative.startswith("output/")
+            else PROJECT_ROOT / relative
+        )
         values = load_json(path)
         values[evil_key] = evil_translation
         write_json(path, values)
@@ -1050,7 +1055,12 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
         "working/mystical/mysticalagriculture/ko_kr.json",
         "output/resourcepack/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json",
     ):
-        values = load_json(PROJECT_ROOT / relative)
+        path = (
+            resolve_active_output_path(relative)
+            if relative.startswith("output/")
+            else PROJECT_ROOT / relative
+        )
+        values = load_json(path)
         for key, expected in related_language.items():
             if values.get(key) != expected:
                 errors.append(f"Ender IO 연동 용어 불일치: {relative}:{key}")
@@ -1069,7 +1079,12 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
         "working/productivebees/productivebees/ko_kr.json",
         "output/resourcepack/ATM10_Korean/assets/productivebees/lang/ko_kr.json",
     ):
-        values = load_json(PROJECT_ROOT / relative)
+        path = (
+            resolve_active_output_path(relative)
+            if relative.startswith("output/")
+            else PROJECT_ROOT / relative
+        )
+        values = load_json(path)
         for key, expected in bee_language.items():
             if values.get(key) != expected:
                 errors.append(f"Ender IO 연동 용어 불일치: {relative}:{key}")
@@ -1093,8 +1108,8 @@ def verify_family_outputs(deployment_manifest: Path | None = None) -> int:
 
     evil_work = load_json(PROJECT_ROOT / "working/evilcraft/evilcraftcompat/ko_kr.json")
     evil_output = load_json(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/evilcraftcompat/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/evilcraftcompat/lang/ko_kr.json"
     )
     evil_language = {
         "info_book.evilcraftcompat.mod_integrations.enderio": "Ender IO",

@@ -1,0 +1,49 @@
+{
+  "name": "안정화 모듈",
+  "icon": "mffs:stabilization_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:stabilization_module",
+      "link_recipe": true,
+      "text": "$(5)안정화 모듈$()는 $(l:mffs:machines/projector)역장 프로젝터$()에서 사용하여 결정화할 수 있습니다. 필드를 솔리드 형태로 만듭니다. 꺼지면 사라지는 에너지장 장벽을 만드는 대신, 프로젝터는 필드를 플레이어가 제공하는 실제 블록으로 대체합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이런 식으로, $(5)안정화 모듈$()를 사용하면 역장 패턴의 정확한 물리적 복제본을 생성할 수 있습니다. 프로젝터가 비활성화된 후에도 남아 있습니다. 실제 블록을 이용하여 필드를 구성하기 때문에, 그 내구성은 블록의 내구성과 일치합니다. 하지만, 프로젝터의 전력이 충분하고 교체 블록이 충분히 공급되는 한, 필드 구조가 파손되면 지속적으로 재생성됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "안정화 작업은 일반 역장 투사보다 많은 $(l:mffs:getting_started/fortron)포트론$()이 필요하고 느리지만, 프로젝터의 $(l:mffs:projector_modes/custom_mode)$(2)사용자 지정 모드$()와 함께 쓰면 활용법이 거의 무한합니다. 예를 들어 $(2)크리퍼$()가 폭발시킬 때마다 자동으로 복구되는 구조물을 만들 수 있습니다. $(l:mffs:upgrade_modules/speed_module)$(5)속도 모듈$()을 넣으면 여러 블록을 동시에 안정화합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:stabilization_module",
+      "text": "$(5)안정화 모듈$() 제작."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "사용법",
+      "text": "$(li)$(l:mffs:machines/projector)역장 프로젝터$()(어느 쪽이든) 옆에 상자를 놓고 내용물이 들어 있는지 확인하세요. 필드를 구축하는 데 필요한 블록입니다. $(li)필드 안정화 모듈을 프로젝터의 매트릭스 슬롯에 삽입합니다. 원하는 대로 필드를 설정한 다음 프로젝터를 활성화하십시오. $(li)프로젝터는 인접한 상자의 블록을 소모합니다. 나타나는 순서대로. 상자에 여러 블록이 혼합되어 있는 경우, 대상 구조도 블록 혼합으로 구성됩니다.$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/stabilization_module.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "$(5)안정화 모듈$()를 사용하여 벽을 안정화하는 역장 프로젝터."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "사용자 정의 모드 사용",
+      "text": "$(l:mffs:machines/projector)역장 프로젝터$()에 사용할 수 있는 다른 모드와 달리, $(l:mffs:projector_modes/custom_mode)$(2)사용자 정의 모드$() 아이템은 분석하는 각 블록의 정확한 위치와 유형을 저장합니다. 결과적으로, $(l:mffs:projector_modes/custom_mode)$(2)사용자 정의 모드$()에 대한 안정화 프로세스는 동일한 방식으로 작동하지 않습니다. 나타나는 순서대로 블록을 소비하고 임의의 위치로 바꾸는 대신; 프로젝터는 원래 패턴과 일치하는 블록 유형만 사용합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "각 블록은 유형과 위치에 따라 정확하게 배치됩니다. 프로젝터에 패턴을 복제하는 데 필요한 일치하는 블록 유형이 부족한 경우, 제공될 때까지 일시 중지됩니다."
+    }
+  ]
+}

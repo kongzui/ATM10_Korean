@@ -1,0 +1,27 @@
+{
+  "name": "시작하기",
+  "icon": "minecraft:writable_book",
+  "category": "productivetrees:guide",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "flag": "mod:productivebees",
+      "text": "벌 근처에 나무 두 그루를 서로 옆에 심으면 됩니다.$(br)벌통에는 시뮬레이션 업그레이드를 설치할 수 있으며, 범위 업그레이드 하나당 작업 범위가 2블록씩 늘어납니다. 기본 범위는 4블록입니다.$(br2)이 모드는 베타 버전이며 아직 모든 기능이 완성되지 않았습니다.$(br)특히 나무가 자랐을 때의 모습은 개발 중입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "!mod:productivebees",
+      "text": "벌 근처에 나무 두 그루를 서로 옆에 심으면 됩니다.$(br)나뭇잎을 모아 꽃가루 체에 넣으면 꽃가루를 추출할 수도 있습니다. 꽃가루 뭉치를 나뭇잎에 사용해 직접 수분시키고 새로운 나무 종을 얻으세요.$(br2)이 모드는 베타 버전이며 아직 모든 기능이 완성되지 않았습니다.$(br1)특히 나무가 자랐을 때의 모습은 개발 중입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "!mod:productivebees",
+      "text": "벌을 이용하려면 교배할 두 나무의 잎이 벌 둥지나 벌통에서 4블록 이내에 있고, 벌 주변에 꽃이 있어야 합니다. 벌이 꽃에서 벌집으로 돌아올 때마다 주변 나뭇잎의 수분을 시도합니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:spyglass",
+      "text": "망원경을 사용하면 어떤 잎이 수분되었는지 더 잘 확인할 수 있습니다."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "조건: 좌표 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다.$(p)$(thing)조건: 좌표/$ 위젯은 두 $(l:programming/coordinate)좌표/$를 비교합니다. 좌표의 각 축(X/Y/Z)에 여러 검사를 적용할 수 있으며, 두 좌표에서 축 하나나 둘 또는 세 축 모두가 일치하는지 확인할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "비교되는 축은 위젯 GUI의 확인란으로 정의됩니다. 마찬가지로, 사용할 조건('=', '>=')은 GUI의 라디오 버튼으로 정의됩니다. $(p)좌표 비교도 GUI에 텍스트로 표시됩니다(예: $(thing)x1 <= x2 및 z1 <= z2/$)."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png"
+      ],
+      "text": "$(italic)조건: 좌표 위젯/$"
+    }
+  ]
+}

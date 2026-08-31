@@ -1,0 +1,47 @@
+{
+  "name": "기초",
+  "sortnum": 0,
+  "category": "laserio:mechanics",
+  "icon": "laserio:logic_chip",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "손에 든 카드를 우클릭하면 설정 화면이 열립니다. $(l:laserio:laser_node)노드$(/l) 화면 안의 카드도 우클릭할 수 있습니다.$(br2)삽입 모드:$(br)1. $(l:laserio:modes)모드$(/l)$(br)2. $(l:laserio:sneaky)접근 면$(/l)$(br)3. 필터$(br)4. $(l:laserio:overclocker_card)카드 오버클러커$(/l)$(br)5. $(l:laserio:priority)우선순위$(/l)$(br)6. $(l:laserio:channel)채널$(/l)$(br)7. $(l:laserio:redstonemode)레드스톤 모드$(/l)$(br)8. $(l:laserio:redstonechannel)레드스톤 채널$(/l)"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "UI 삽입",
+      "images": [
+        "laserio:textures/book/entries/basics1.png"
+      ],
+      "border": true,
+      "text": "삽입 모드로 설정된 아이템 카드"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "추출 모드:$(br2)1. $(l:laserio:modes)모드$(/l)$(br)2. $(l:laserio:sneaky)접근 면$(/l)$(br)3. $(l:laserio:roundrobin)순환 분배$(/l)$(br)4. $(l:laserio:exact)정확히$(/l)$(br)5. 필터$(br)6. $(l:laserio:overclocker_card)카드 오버클러커$(/l)$(br)7. $(l:laserio:extractamount)추출량$(/l)$(br)8. $(l:laserio:tickspeed)틱 속도$(/l)$(br)9. $(l:laserio:channel)채널$(/l)"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "UI 추출",
+      "images": [
+        "laserio:textures/book/entries/basics-extract.png"
+      ],
+      "border": true,
+      "text": "추출 모드로 설정된 아이템 카드입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "재고 유지 모드:$(br2)1. $(l:laserio:modes)모드$(/l)$(br)2. $(l:laserio:sneaky)접근 면$(/l)$(br)3. $(l:laserio:regulate)수량 조절$(/l)$(br)4. $(l:laserio:exact)정확히$(/l)$(br)5. 필터$(br)6. $(l:laserio:overclocker_card)카드 오버클러커$(/l)$(br)7. $(l:laserio:extractamount)추출량$(/l)$(br)8. $(l:laserio:tickspeed)틱 속도$(/l)$(br)9. $(l:laserio:channel)채널$(/l)"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "스톡 UI",
+      "images": [
+        "laserio:textures/book/entries/basics-stock.png"
+      ],
+      "border": true,
+      "text": "재고 모드로 설정된 아이템 카드입니다."
+    }
+  ]
+}

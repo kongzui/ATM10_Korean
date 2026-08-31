@@ -1,0 +1,17 @@
+{
+  "name": "능동 냉각",
+  "icon": "minecraft:water_bucket",
+  "category": "bigreactors:reactor-operational_mode",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "능동 냉각형 원자로는 내부 열을 방출하기 위해 외부 냉각재를 사용하는 원자로입니다.$(br2)냉각재는 공정에서 기화되며, 생성된 증기는 원자로에서 추출되어 하나 이상의 터빈 회전자를 구동할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "능동 냉각 원자로를 만들려면 멀티블록에 유체 포트를 최소 두 개 넣어야 합니다. 하나는 냉각재를 원자로에 넣도록 설정하고, 다른 하나는 생성된 증기를 꺼내도록 설정하세요.$(br2)꺼낸 증기를 터빈으로 보내 에너지를 생성할 수 있습니다."
+    }
+  ]
+}

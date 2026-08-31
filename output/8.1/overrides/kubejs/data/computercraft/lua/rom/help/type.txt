@@ -1,0 +1,1 @@
+type은 파일이나 디렉터리의 유형을 결정합니다. "file", "directory" 또는 "No such path"를 출력합니다.

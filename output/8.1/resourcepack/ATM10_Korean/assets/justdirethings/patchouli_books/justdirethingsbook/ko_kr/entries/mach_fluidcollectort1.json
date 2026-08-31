@@ -1,0 +1,17 @@
+{
+  "name": "간단한 유체 수집기",
+  "sortnum": 17,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:fluidcollectort1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "간단한 유체 수집기는 앞에 있는 유체를 자동으로 회수해 내부 탱크에 저장합니다. 한 번에 한 종류의 유체만 담을 수 있습니다.$(br2)아이템 슬롯에서는 빈 양동이나 유체 캔 같은 용기에 저장된 유체를 채울 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "간단한 유체 수집기",
+      "recipe": "justdirethings:fluidcollectort1"
+    }
+  ]
+}

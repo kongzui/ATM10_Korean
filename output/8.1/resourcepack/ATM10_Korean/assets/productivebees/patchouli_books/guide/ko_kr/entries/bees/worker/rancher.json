@@ -1,0 +1,18 @@
+{
+  "name": "목장주 벌",
+  "icon": "minecraft:milk_bucket",
+  "read_by_default": true,
+  "sortnum": 2,
+  "category": "productivebees:bees_worker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "목장주 벌",
+      "text": "근처의 소, 양, 라마에게서 젖을 짜 우유 벌집 조각을 만들며, 양털도 깎습니다.$(br2)이 벌을 만드는 과정에서 많은 소가 피해를 입었습니다."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:rancher_bee"
+    }
+  ]
+}

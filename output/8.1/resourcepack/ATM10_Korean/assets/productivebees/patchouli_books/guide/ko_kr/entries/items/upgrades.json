@@ -1,0 +1,162 @@
+{
+  "name": "업그레이드",
+  "icon": "productivelib:upgrade_base",
+  "category": "productivebees:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivelib:upgrade_base",
+      "text": "기계와 벌통에 업그레이드를 설치해 기능이나 성능을 높일 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivelib:upgrades/base_pb",
+      "text": "다른 모든 업그레이드의 기반입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivelib:upgrades/child",
+      "text": "",
+      "anchor": "babee"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "벌통에 설치하면 안의 벌이 플레이어의 개입 없이 교배해 새끼를 낳을 확률이 생깁니다. 원래 자가 교배할 수 없는 벌에는 작동하지 않습니다. $(br)$(l:blocks/catcher)포획기$(/l)에 설치하면 새끼 벌만 잡아 케이지에 넣습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivelib:upgrades/productivity",
+      "text": "",
+      "anchor": "productivity"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "벌통에 설치하면 벌이 한 번 일할 때 생산하는 벌집 조각 수가 늘어납니다. 생산성 업그레이드는 여러 개 설치할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivelib:upgrades/time",
+      "text": "",
+      "anchor": "speed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "벌통에 설치하면 벌이 안에서 보내는 시간이 줄어듭니다. $(br)$(l:blocks/centrifuge)원심분리기$(/l)나 $(l:blocks/incubator)부화기$(/l)에 설치하면 작동 속도가 빨라집니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivelib:upgrades/filter",
+      "text": "",
+      "anchor": "filter"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "벌을 우클릭해 필터에 등록하세요. 필터 하나만 제작 칸에 올리면 내용을 지웁니다. 벌통에 설치하면 등록된 벌만 들어갈 수 있습니다. $(br)포획기에 설치하면 등록된 벌만 잡습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivelib:upgrades/range",
+      "text": "",
+      "anchor": "range"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "벌통에 설치하면 농부 벌과 수집/비축 벌의 작동 범위가 기본 4블록에서 업그레이드당 1블록씩 늘어납니다. 포획기에 설치하면 모든 방향으로 작동 영역이 1블록씩 넓어집니다. 여러 개 설치할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivelib:upgrades/anti_teleport",
+      "text": "",
+      "anchor": "anti_teleport"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "벌통에 설치하면 그 안에 사는 벌이 순간이동하지 못하게 합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivelib:upgrades/gene_sampler",
+      "text": "",
+      "anchor": "sampler"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "벌통에 설치하면 수분을 마치고 돌아올 때마다 벌에게서 작은 유전자 샘플을 추출합니다. 물론 벌은 전혀 다치지 않는다고 합니다. 추출 속도를 높이려면 한 벌통에 여러 개를 설치할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivelib:upgrades/block",
+      "text": "",
+      "anchor": "comb_block"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "벌통에 설치하면 벌집 조각 대신 벌집 조각 블록을 생산합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivelib:upgrades/simulator",
+      "text": "",
+      "anchor": "simulator"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "벌통에 설치하면 벌이 밖으로 나오지 않고 수분 과정을 모의 처리해 서버 부하를 줄입니다. 필요한 꽃 블록이나 꽃 블록을 담은 먹이 반블록은 벌통 정면을 막지 않도록 바로 아래에 놓아야 합니다."
+    },
+    {
+      "type": "multiblock",
+      "name": "시뮬레이션된 벌집",
+      "multiblock": {
+        "mapping": {
+          "H": "productivebees:advanced_oak_beehive[expanded=up]",
+          "E": "productivebees:expansion_box_oak[expanded=up]",
+          "F": "productivebees:feeder[type=top]"
+        },
+        "pattern": [
+          [
+            " E"
+          ],
+          [
+            " H"
+          ],
+          [
+            "F0"
+          ]
+        ],
+        "offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "enable_visualize": false
+    },
+    {
+      "type": "multiblock",
+      "name": "시뮬레이션된 벌집",
+      "multiblock": {
+        "mapping": {
+          "H": "productivebees:advanced_oak_beehive[expanded=left,facing=east]",
+          "E": "productivebees:expansion_box_oak[expanded=left,facing=east]",
+          "F": "minecraft:iron_block"
+        },
+        "pattern": [
+          [
+            "HE",
+            "  "
+          ],
+          [
+            "0 ",
+            "F "
+          ]
+        ],
+        "offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "enable_visualize": false
+    }
+  ]
+}

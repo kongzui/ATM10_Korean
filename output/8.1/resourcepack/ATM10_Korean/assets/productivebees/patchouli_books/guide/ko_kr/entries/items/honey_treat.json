@@ -1,0 +1,12 @@
+{
+  "name": "꿀 간식",
+  "icon": "productivebees:honey_treat",
+  "category": "productivebees:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:honey_treat",
+      "text": "화난 벌에게 꿀 간식을 먹이면 진정하고, 새끼 벌에게 먹이면 더 빨리 자랍니다.$(br2)꿀 간식에 유전자를 결합하면 한 벌의 유전 형질을 다른 벌에게 옮길 수도 있습니다. 자세한 내용은 $(l:genetics/transferring)유전학 페이지$(/l)를 확인하세요."
+    }
+  ]
+}

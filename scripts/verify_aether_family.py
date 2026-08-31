@@ -14,13 +14,16 @@ from zipfile import ZipFile
 import aether_family as review
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/aether"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 
 
 def load_json(path: Path) -> dict[str, object]:
@@ -170,7 +173,7 @@ def verify_kubejs(instance: Path) -> tuple[dict[str, object], list[str]]:
             references.append(path.relative_to(instance).as_posix())
     relative = Path("kubejs/server_scripts/announcements/announcements.js")
     source = (instance / relative).read_text(encoding="utf-8-sig")
-    output = (PROJECT_ROOT / "output/overrides" / relative).read_text(encoding="utf-8")
+    output = (active_output_root() / "overrides" / relative).read_text(encoding="utf-8")
     old = 'addAnnouncement("4.6", "Added mods: Aether, BotanyPots, BotanyTrees and RefinedTypes")'
     new = 'addAnnouncement("4.6", "추가된 모드: The Aether, BotanyPots, BotanyTrees, RefinedTypes")'
     errors = []
@@ -283,8 +286,8 @@ def verify_live(instance: Path) -> tuple[dict[str, object], list[str]]:
             instance / "config/ftbquests/quests/lang/ko_kr.snbt",
         ),
         "kubejs": (
-            PROJECT_ROOT
-            / "output/overrides/kubejs/server_scripts/announcements/announcements.js",
+            active_output_root()
+            / "overrides/kubejs/server_scripts/announcements/announcements.js",
             instance / "kubejs/server_scripts/announcements/announcements.js",
         ),
     }

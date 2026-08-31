@@ -1,0 +1,32 @@
+{
+  "name": "물류 드론",
+  "icon": "pneumaticcraft:logistics_drone",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)물류 드론/$은 $(l:tools/drone)드론/$의 특수한 하위 등급입니다. 프로그래밍할 수 없는 $(thing)하위 등급 드론/$이며 $(italic)물류 작업만/$ 수행합니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "자동 충전",
+      "item": "pneumaticcraft:charging_station",
+      "text": "다른 드론과 마찬가지로 작동하려면 $(l:base_concepts/pressure)압력/$이 필요합니다. 공기가 부족해지면 $(l:tools/drone#charging)발사기 업그레이드가 설치된 충전소/$를 자동으로 찾아갑니다."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:logistics_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "text",
+      "text": "$(item)물류 드론/$을 배치하면 배치 지점을 중심으로 한 33x33x33 범위 안에서 $(l:logistics/frames)물류 프레임/$이 붙은 모든 인벤토리와 탱크를 대상으로 작동합니다.$(p)아이템을 자주 옮기므로 이동 속도와 운반 용량을 높일 $(l:base_concepts/upgrades#speed)속도/$ 및 $(l:base_concepts/upgrades#inventory)인벤토리/$ 업그레이드를 권장합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:logistics_drone",
+      "text": "물류 드론 제작"
+    }
+  ]
+}

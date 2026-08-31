@@ -1,0 +1,16 @@
+{
+  "name": "Allthemodium 사과",
+  "icon": "allthemodium:allthemodium_apple",
+  "category": "allthemodium:food",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "allthemodium:allthemodium_apple",
+      "title": "Allthemodium 사과"
+    },
+    {
+      "type": "text",
+      "text": "Allthemodium 사과는 허기 20과 포만도 80을 회복합니다. 다음 효과를 제공합니다:$(li)빠른 섭취$(li)허기가 가득 차도 섭취 가능$(li)30초 동안 흡수 X$(li)30초 동안 재생 X"
+    }
+  ]
+}

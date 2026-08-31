@@ -1,0 +1,40 @@
+{
+  "name": "프로그래밍 가능 제어기",
+  "icon": "pneumaticcraft:programmable_controller",
+  "category": "pneumaticcraft:programming",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "프로그래밍 가능 제어기는 $(l:tools/drone)드론/$과 매우 비슷한 작업을 수행할 수 있습니다. $(l:programming/programmer)프로그래머/$에서 프로그램을 작성해 $(item)드론/$이나 $(l:components/network_components#network_api)네트워크 API/$에 저장한 뒤 $(item)프로그래밍 가능 제어기/$에 넣으세요. $(l:base_concepts/pressure)압력/$이 충분하면 $(item)프로그래밍 가능 제어기/$는 $(item)드론/$에 프로그램했을 때와 똑같이 프로그램을 실행합니다. "
+    },
+    {
+      "type": "text",
+      "text": "다만 몇 가지 차이가 있습니다:$(li)$(item)프로그래밍 가능 제어기/$는 $(item)드론/$의 소형 버전인 $(thing)미니드론/$을 사용합니다. 실제 개체가 아니어서 길 찾기를 하지 않고 $(thing)미니드론/$은 벽도 통과할 수 있으므로 서버 부담이 적고 더 안정적입니다.$(li)프로그램을 실행할 때 $(item)프로그래밍 가능 제어기/$는 10mL/틱의 공기를 사용합니다(드론은 1mL/틱만 사용합니다)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(item)프로그래밍 가능 제어기/$는 다음 위젯을 실행할 수 없습니다: 컴퓨터 조각, 개체 공격, 드론 조건: 개체, 개체 내보내기, 개체 가져오기, 순간이동, 대기, 자폭.$(p)$(item)프로그래밍 가능 제어기/$는 넓은 영역 굴착이나 대형 구조물 건설 같은 대규모 작업에 특히 적합합니다."
+    },
+    {
+      "type": "text",
+      "title": "아이템·유체 연결",
+      "text": "$(thing)미니드론/$이 수집한 아이템과 유체는 $(item)프로그래밍 가능 제어기/$ 블록의 측면을 통해 넣거나 뺄 수 있습니다.$(p)기본 ‘드론’에는 인벤토리 슬롯 1개와 16000mB 탱크가 있습니다. $(l:base_concepts/upgrades#inventory)인벤토리 업그레이드/$를 최대 35개까지 추가해 인벤토리를 늘릴 수 있으며, 업그레이드마다 탱크 용량도 1000mB씩 늘어납니다."
+    },
+    {
+      "type": "text",
+      "title": "인터페이스(계속)",
+      "text": "기본적으로 $(item)프로그래밍 가능 제어기/$의 윗면과 측면은 아이템과의 인터페이스에 사용할 수 있으며 밑면은 프로그래밍 가능한 아이템을 삽입하거나 제거하는 데 사용할 수 있지만 필요에 따라 $(bold)측면 설정/$의 GUI 탭에서 조정할 수 있습니다. $(p)$(item)프로그래밍 가능 제어기/$의 모든 면은 항상 유체와의 인터페이스에 사용할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "아이템 충전",
+      "text": "프로그래밍 가능 제어기는 미니드론이 든 아이템, 즉 드론 인벤토리 0번 슬롯의 아이템을 $(thing)충전/$할 수 있습니다. $(l:tools/jackhammer)착암기/$처럼 압축 공기로 충전하는 아이템과 $(thing)Forge Energy/$ 아이템을 모두 지원하며, 제어기 자체 버퍼의 공기 및 FE를 사용합니다. 충전은 기본적으로 꺼져 있으므로 제어기 GUI의 $(thing)든 아이템 충전/$ 측면 탭에서 켜세요."
+    },
+    {
+      "type": "crafting",
+      "text": "프로그래밍 가능 제어기 제작",
+      "recipe": "pneumaticcraft:programmable_controller"
+    }
+  ]
+}

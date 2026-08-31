@@ -1,0 +1,35 @@
+{
+  "name": "울타리와 울타리 문",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:fences",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/fence.png"
+      ],
+      "text": "장식한 참나무 울타리!"
+    },
+    {
+      "type": "spotlight",
+      "item": "merrymaking:oak_picket_fence",
+      "text": "울타리는 특별한 장식용 울타리 블록이에요. 어울리는 울타리 문이 있고 기본 게임의 모든 나무 색상으로 만들 수 있어요.$(br2)예쁜 울타리에 푸른 가랜드와 조명을 둘러 연말 분위기로 꾸밀 수 있어요."
+    },
+    {
+      "type": "text",
+      "text": "울타리를 장식하려면 조합대에서 원하는 종류의 가로 가랜드와 조합하세요. $(br2)울타리 문은 원하는 리스와 조합해 장식할 수 있어요."
+    },
+    {
+      "type": "crafting",
+      "title": "울타리",
+      "recipe": "merrymaking:oak_picket_fence",
+      "recipe2": "merrymaking:cherry_picket_fence_gate"
+    },
+    {
+      "type": "crafting",
+      "title": "장식한 울타리",
+      "recipe": "merrymaking:jungle_wreath_lights_multi_fence",
+      "recipe2": "merrymaking:birch_wreath_fence_gate"
+    }
+  ]
+}

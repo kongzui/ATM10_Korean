@@ -1,0 +1,17 @@
+{
+  "name": "공기 용기",
+  "icon": "pneumaticcraft:air_canister",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)공기 용기/$는 모든 $(l:base_concepts/pressure)가압 가능한/$ 아이템 또는 도구의 제작 구성 요소입니다. 또한 $(l:machines/charging_station)충전 스테이션/$에서 충전 및 방출할 수 있습니다. $(item)공기 용기/$의 용량은 3,000mL로 10 바까지 충전할 수 있습니다(폭발하지 않음). $(p)$(item)공기 용기/$로 제작된 공압 아이템은 캐니스터의 공기를 유지합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "공기 용기 제작",
+      "recipe": "pneumaticcraft:air_canister"
+    }
+  ]
+}

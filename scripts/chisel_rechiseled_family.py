@@ -21,6 +21,7 @@ from dungeons_arise_family import (
     walk_json,
 )
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 FAMILY = "chisel_rechiseled"
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
@@ -31,8 +32,8 @@ JARS = {
 }
 OUTPUTS = {
     namespace: (
-        PROJECT_ROOT
-        / f"output/resourcepack/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"
+        active_output_root()
+        / f"resourcepack/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"
     )
     for namespace in JARS
 }
@@ -40,7 +41,9 @@ DEPLOYMENT_PATHS = [
     f"resourcepacks/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"
     for namespace in JARS
 ]
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 QUEST_DEPLOYMENT_PATH = "config/ftbquests/quests/lang/ko_kr.snbt"
 DEPLOYMENT_PATHS.append(QUEST_DEPLOYMENT_PATH)
 CREATE_ENGLISH = PROJECT_ROOT / "working/create/create/en_us.json"

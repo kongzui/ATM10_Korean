@@ -1,0 +1,17 @@
+{
+  "name": "포신",
+  "icon": "pneumaticcraft:cannon_barrel",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "다른 장치를 제작하는 데 쓰는 부품이며, 단독으로는 기능이 없습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "포신 제작",
+      "recipe": "pneumaticcraft:cannon_barrel"
+    }
+  ]
+}

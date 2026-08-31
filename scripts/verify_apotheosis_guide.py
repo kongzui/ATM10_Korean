@@ -11,13 +11,14 @@ from collections import Counter
 from pathlib import Path
 from zipfile import ZipFile
 
-from local_paths import PROJECT_ROOT, resolve_source_root
+from local_paths import resolve_source_root
 from prepare_apotheosis import find_jar
 from prepare_apotheosis_guide import CORE_TARGET, SOURCE_PREFIX, WORK_ROOT
+from version_context import active_output_root
 
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/apotheosis/patchouli_books/apoth_chronicle/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/apotheosis/patchouli_books/apoth_chronicle/ko_kr"
 )
 TRANSLATABLE_FIELDS = {"name", "description", "title", "text"}
 PATCHOULI_TOKEN = re.compile(r"\$\([^)]+\)")

@@ -1,0 +1,16 @@
+{
+  "name": "둥지 탐지기",
+  "icon": "productivebees:nest_locator",
+  "category": "productivebees:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:nest_locator",
+      "text": "근처 둥지의 희미한 윙윙거림을 추적합니다. 찾을 둥지나 그 둥지와 같은 재질의 블록을 탐지기로 Shift+우클릭해 조율하세요. 예를 들어 모래 둥지를 찾으려면 모래 둥지나 모래 블록에 조율합니다. 그다음 우클릭하면 주변의 해당 둥지를 찾습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivebees:nest_locator"
+    }
+  ]
+}

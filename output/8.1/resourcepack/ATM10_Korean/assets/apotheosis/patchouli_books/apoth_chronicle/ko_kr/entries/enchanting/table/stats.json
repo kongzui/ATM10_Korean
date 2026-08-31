@@ -1,0 +1,56 @@
+{
+  "name": "마법 부여 능력치",
+  "icon": "minecraft:bookshelf",
+  "category": "apotheosis:enchanting/table",
+  "flag": "apotheosis:enchanting",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Apotheosis의 마법 부여는 레벨 외의 요소에도 영향을 받습니다.$(p)현재 새로운 마법 부여 능력치는 다섯 가지입니다.$(p)마법 부여 능력치를 제공하는 블록은 툴팁에 해당 수치가 표시됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "이터나",
+      "text": "$(eterna)는 마법 부여의 주 능력치입니다.$(p)$(eterna) 포인트마다 최대 마법 부여 레벨이 둘씩 증가합니다.$(p)일부 블록은 정해진 최댓값까지만 $(eterna)를 제공할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "퀀타",
+      "anchor": "quanta",
+      "text": "$(quanta)는 보조 능력치로 마법 부여의 변동성을 조절합니다.$(p)마법 부여에서는 소모한 레벨인 $(bpower)가 있고, 모든 조정을 거친 뒤에는 $(fpower)가 됩니다.$(p)$(quanta)는 이 조정 과정에 영향을 주는 요소 중 하나입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(4)1 - 퀀타$()와 $(9)1 + 퀀타$() 사이에서 값 하나가 선택됩니다.$(p)$(fpower)는 그 값에 $(bpower)를 곱한 값입니다.$(p)$(quanta)가 높을수록 마력 범위가 넓어져 마법 부여의 $(fpower)가 덜 일정해집니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "아르카나",
+      "text": "$(arcana)는 희귀도 가중치를 조절하는 보조 능력치이며, 특정 기준에 도달하면 추가 마법 부여를 보장합니다.$(p)$(arcana)가 25%이면 항상 마법 부여를 최소 두 개 받고, 75%이면 항상 세 개 받습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "기본 희귀도 가중치는 다음과 같습니다.$(p)일반: 10$(br)고급: 5$(br)희귀: 3$(br)매우 희귀: 1$(p)$(arcana)가 10% 오를 때마다 가중치가 변하며, 결국 완전히 반전됩니다.$(p)$(arcana) 막대에 커서를 올리면 현재 가중치를 볼 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "퀀타 안정성",
+      "anchor": "rectification",
+      "text": "퀀타 안정성은 삼차 능력치로 $(quanta) 조정값의 하한에 직접 영향을 줍니다.$(p)퀀타 안정성이 있으면 더 이상 음수 $(quanta) 조정값이 나오지 않습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "퀀타 계산",
+      "text": "수학을 좋아하지 않는다면 다음 쪽으로 넘어가도 됩니다.$(p)일반적으로 $(quanta) 변동값은 전체 범위의 정규 분포를 따르지만, 안정화되면 양수 범위의 균등 분포로 바뀝니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "단서",
+      "text": "단서는 또 다른 삼차 능력치입니다.$(p)단서마다 미리 보기 창에서 마법 부여 하나를 더 볼 수 있습니다.$(p)사용 가능한 모든 마법 부여를 볼 수 있게 되면 문구가 조금 바뀝니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "단서가 영까지 떨어지면 아무것도 볼 수 없습니다."
+    }
+  ]
+}

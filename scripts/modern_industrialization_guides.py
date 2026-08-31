@@ -11,14 +11,15 @@ import zipfile
 from pathlib import Path
 
 from five_family_goal import PROJECT_ROOT
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/modern_industrialization/guides"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/modern_industrialization/mi_guidebook/_ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/modern_industrialization/mi_guidebook/_ko_kr"
 )
 JAR_PREFIX = "assets/modern_industrialization/mi_guidebook/"
 

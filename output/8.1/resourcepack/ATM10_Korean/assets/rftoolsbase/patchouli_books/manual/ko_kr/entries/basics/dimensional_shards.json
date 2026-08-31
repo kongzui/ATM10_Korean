@@ -1,0 +1,62 @@
+{
+  "name": "차원 조각",
+  "icon": "rftoolsbase:dimensionalshard",
+  "category": "rftoolsbase:category_basics",
+  "extra_recipe_mappings": {
+    "rftoolsbase:dimensionalshard": 0,
+    "rftoolsbase:dimensionalshard_overworld": 0,
+    "rftoolsbase:dimensionalshard_nether": 0,
+    "rftoolsbase:dimensionalshard_end": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)차원 조각 광석$()은 여러 차원의 지하에서 작은 광맥으로 생성됩니다. $(thing)행운$() 마법부여가 적용되며 채굴하면 $(item)차원 조각$()을 떨어뜨립니다.$(br2)복잡한 조합법에 쓰고 $(l:rftoolsbase:machines/infusing)기계 주입$()에도 사용합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "rftoolsbase:textures/manual/image_ore.png"
+      ],
+      "text": "오버월드 지하에 있는 일부 차원 조각 광석."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbase:infused_diamond",
+      "recipe2": "rftoolsbase:infused_enderpearl"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsdim",
+      "text": "$(item)차원 조각$()으로 여러 종류의 $(item)장식 블록$()도 만들 수 있습니다."
+    },
+    {
+      "type": "text",
+      "flag": "!mod:rftoolsdim",
+      "text": "RFTools Dimensions가 설치되어 있다면 멋진 장식 블록을 만들 수 있지만, 지금은 설치되어 있지 않네요. :("
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:rftoolsdim",
+      "recipe": "rftoolsdim:dimensional_blank_block",
+      "recipe2": "rftoolsdim:dimensional_block"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:rftoolsdim",
+      "recipe": "rftoolsdim:dimensional_small_blocks",
+      "recipe2": "rftoolsdim:dimensional_cross_block"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:rftoolsdim",
+      "recipe": "rftoolsdim:dimensional_pattern1_block",
+      "recipe2": "rftoolsdim:dimensional_pattern2_block"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:rftoolsdim",
+      "recipe": "rftoolsdim:dimensional_cross2_block"
+    }
+  ]
+}

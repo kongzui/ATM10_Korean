@@ -1,0 +1,77 @@
+{
+  "name": "공압 흉갑",
+  "icon": "pneumaticcraft:pneumatic_chestplate",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)공압 흉갑/$은 네 $(thing)공압 방어구/$부위 중 하나입니다.$(p)다른 세 부위보다 $(l:base_concepts/pressure)공기 용량/$이 큽니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_chestplate",
+      "text": "공압 흉갑 제작"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:security_upgrade",
+      "text": "$(l:base_concepts/upgrades#security)보안 업그레이드/$를 설치하면 많은 공기를 소모하는 대신 불과 용암으로부터 보호받습니다. 흉갑이 공기를 빠르게 방출해 주변 불을 끄고 체온을 낮추며, 가까운 용암도 천천히 굳힙니다."
+    },
+    {
+      "type": "text",
+      "title": "보안 업그레이드 (계속)",
+      "text": "참고: 이 보호 기능은 화염 피해를 받기 직전에 작동합니다. 물약 등으로 이미 보호받고 있다면 이 업그레이드는 작동하지 않습니다."
+    },
+    {
+      "type": "spotlight",
+      "flag": "mod:immersiveengineering",
+      "title": "Immersive Engineering",
+      "item": "immersiveengineering:wirecoil_copper",
+      "text": "$(item)보안 업그레이드/$는 절연되지 않은 $(l:https://minecraft.curseforge.com/projects/immersive-engineering)Immersive Engineering/$ 전선의 감전 피해도 막습니다. 막은 피해에 비례해 흉갑의 공기를 소모하며, 밀쳐내기 효과는 막지 못합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:magnet_upgrade",
+      "text": "하나 이상의 $(l:base_concepts/upgrades#magnet)자석 업그레이드/$가 설치된 경우 근처의 아이템과 XP 오브가 매우 적은 공기 소모량으로 당신에게 끌립니다. 기본 범위는 5 블록이지만 업그레이드를 추가하여 최대 10 블록까지 늘릴 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "자석 업그레이드 (계속)",
+      "text": "자석 업그레이드는 Botania의 $(item)솔레놀리아/$ 효과를 존중하며, Immersive Engineering의 $(item)컨베이어 벨트/$에서 아이템을 끌어오지 않습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:charging_upgrade",
+      "text": "하나 이상의 $(l:base_concepts/upgrades#charging)충전 업그레이드/$가 설치된 경우 흉갑은 착용 또는 소지된 인벤토리의 다른 공압 아이템을 가압하는 기능을 획득합니다. 흉갑은 자신의 압력 수준까지만 아이템을 채웁니다. 추가 충전 업그레이드(최대 6개)를 추가하면 충전 속도가 높아집니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:dispenser_upgrade",
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 설치하면 $(l:machines/air_cannon)에어 캐논/$처럼 $(thing)$(k:pneumaticcraft.chestplate.launcher)/$ 키를 눌렀다 놓아 보조 손의 아이템이나 블록을 발사할 수 있습니다. 완전히 충전하는 데 15틱(0.75초)이 걸리며, 더 일찍 키를 놓으면 낮은 속도로 발사합니다."
+    },
+    {
+      "type": "text",
+      "title": "발사기 업그레이드 (계속)",
+      "text": "$(li)$(item)TNT/$나 $(item)화살/$처럼 일부 블록과 아이템은 $(item)발사기/$와 비슷한 특수 동작을 합니다.$(li)$(item)횃불/$ 같은 블록은 회전하며 날아가다가 무언가에 부딪히면 블록으로 돌아옵니다.$(li)그 밖의 아이템은 아이템 개체로 발사됩니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:range_upgrade",
+      "text": "흉갑에 $(l:base_concepts/upgrades#range)범위 업그레이드/$를 설치하고 활성화하면 블록 상호작용 거리가 3.5블록 늘어납니다. 근접 공격 거리는 늘어나지 않으며, 작동하는 동안 소량의 공기를 계속 소모합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:air_conditioning_upgrade",
+      "flag": "mod:toughasnails",
+      "title": "공기 조절 업그레이드",
+      "text": "$(l:base_concepts/upgrades#air_conditioning)공기 조절 업그레이드/$를 최대 4개 설치하면 $(l:https://minecraft.curseforge.com/projects/tough-as-nails)Tough As Nails/$ 모드가 추가하는 극한 환경 온도로부터 어느 정도 보호받습니다. 공기 조절 기능은 체온이 정상보다 높거나 낮으면 자동으로 작동하고, 정상으로 돌아오면 꺼집니다."
+    },
+    {
+      "type": "text",
+      "flag": "mod:toughasnails",
+      "title": "공기 조절 업그레이드 (계속)",
+      "text": "하지만 이로 인해 적당한 압력 비용이 든다. 이는 필요한 난방 또는 냉방 수준과 설치된 업그레이드 수에 따라 다릅니다. 작업 환경에 따라 편안함을 유지하기 위해 4 업그레이드가 모두 필요하지 않을 수 있습니다."
+    }
+  ]
+}

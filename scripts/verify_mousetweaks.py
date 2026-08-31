@@ -12,6 +12,7 @@ from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/common_ui/inventory_controls/mousetweaks"
 SOURCES = WORK_ROOT / "display_sources.json"
@@ -20,11 +21,12 @@ OVERRIDES = WORK_ROOT / "recheck_overrides.json"
 WORKING_SCRIPT = WORK_ROOT / "kubejs/startup_scripts/mousetweaks_config_labels.js"
 REPORT = WORK_ROOT / "recheck_20260820.json"
 OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/mousetweaks/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/mousetweaks/lang/ko_kr.json"
 )
 OUTPUT_SCRIPT = (
-    PROJECT_ROOT
-    / "output/overrides/kubejs/startup_scripts/mousetweaks_config_labels.js"
+    active_output_root()
+    / "overrides/kubejs/startup_scripts/mousetweaks_config_labels.js"
 )
 GLOSSARY = PROJECT_ROOT / "glossary/README.md"
 
@@ -297,7 +299,7 @@ def verify(pre_apply: bool) -> dict[str, object]:
 
     jar_count, english_count, owner_overlaps = verify_language_owners(instance, sources)
     project_languages = list(
-        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets").glob(
+        (active_output_root() / "resourcepack/ATM10_Korean/assets").glob(
             "*/lang/ko_kr.json"
         )
     )

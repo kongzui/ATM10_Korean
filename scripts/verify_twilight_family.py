@@ -14,12 +14,13 @@ from zipfile import ZipFile
 import build_ae2_quests as quest_snbt
 import twilight_family as quality_review
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/twilight_forest"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[&§][0-9A-FK-ORa-fk-or]")
 
@@ -261,7 +262,7 @@ def verify_quality_review() -> tuple[dict[str, object], list[str]]:
         )
 
     quest_output = quest_snbt.parse_language_snbt(
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     )
     missing_quest_overrides = sorted(
         set(quality_review.QUALITY_QUEST_OVERRIDES) - set(quest_output)
@@ -369,7 +370,7 @@ def deployment_report(instance: Path) -> dict[str, object]:
     targets = manifest.get("targets", [])
     expected = (
         (
-            PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt",
+            active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt",
             instance / "config/ftbquests/quests/lang/ko_kr.snbt",
         ),
         (

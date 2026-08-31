@@ -1,0 +1,16 @@
+{
+  "name": "시작하기",
+  "icon": "pneumaticcraft:textures/gui/icon/gui_no_problem.png",
+  "category": "pneumaticcraft:base_concepts",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "PneumaticCraft에 오신 것을 환영합니다!$(li)$(thing)철/$과 $(thing)돌/$을 준비하세요. 처음에는 각각 한 스택 정도면 충분하며, 철은 조금 적어도 됩니다.$(li)철을 땅에 던지고 폭발시키세요. 네, 정말입니다.$(li)폭발 뒤에 남은 $(thing)압축 철/$을 모으세요(폭발 과정에서 일부가 손실됩니다).$(li)$(l:tubes/pressure_tubes)압력 튜브/$를 만드세요.$(li)$(l:base_concepts/building_materials)강화석/$을 만드세요.$(li)$(l:manufacturing/pressure_chamber)압력 챔버/$를 건설하세요."
+    },
+    {
+      "type": "text",
+      "text": "이제부터 $(pncr)를 진행하며 달성한 $(thing)발전 과제/$에 따라 설명서의 다른 아이템이 잠금 해제됩니다. 다음에 무엇을 만들어야 할지 모르겠다면 이 모드의 발전 과제 페이지를 확인하세요. 일부 발전 과제를 달성하면 $(thing)경험치/$도 받습니다."
+    }
+  ]
+}

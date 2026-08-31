@@ -1,0 +1,17 @@
+{
+  "name": "인스타 브레이크",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_instabreak",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "즉시 파괴 업그레이드는 $(l:justdirethings:res_time_crystal)시간 수정$(/l)의 힘으로 블록을 즉시 부숩니다.$(br2)블록이 단단할수록 에너지 소비량이 크게 늘어납니다. 흑요석은 돌보다 훨씬 많은 에너지가 필요합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "즉시 파괴 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_instabreak"
+    }
+  ]
+}

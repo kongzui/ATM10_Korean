@@ -1,0 +1,29 @@
+{
+  "name": "레드스톤 모듈",
+  "icon": "pneumaticcraft:redstone_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 모듈은 연결된 튜브의 다른 레드스톤 모듈과 $(#f00)레드스톤 신호/$를 교환하여 튜브를 레드스톤의 도관으로 효과적으로 사용합니다. $(p)모듈의 GUI 또는 $(item)염료/$에서 모듈을 우클릭하여 최대 16개의 개별 채널을 선택할 수 있습니다. $(p)모듈을 $(item)렌치/$를 우클릭하면 입력 모드와 출력 모드가 전환됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/redstone_module.png"
+      ],
+      "border": "true"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "모듈에 $(l:tubes/module_expansion_card)모듈 확장 카드/$를 적용하면 추가 신호 처리를 사용할 수 있습니다. 모듈이 $(thing)출력 모드/$일 때 우클릭해 GUI를 열면 신호 반전이나 다른 채널과의 AND/OR/XOR 연산처럼 출력 신호에 적용할 모드를 고를 수 있습니다.$(p)각 모드의 효과는 모듈 GUI에 자세히 설명되어 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "레드스톤 모듈 제작",
+      "recipe": "pneumaticcraft:redstone_module"
+    }
+  ]
+}

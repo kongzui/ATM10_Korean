@@ -1,0 +1,17 @@
+{
+  "name": "식물 파종기",
+  "icon": "industrialforegoing:plant_sower",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "작물과 묘목을 $(6)심습니다$().$(br2)내부 인벤토리의 9개 슬롯은 $(6)색상$()으로 구분되며 기계 윗면의 색상과 대응합니다. 위쪽 작업 영역도 9구역으로 나뉘어 각 슬롯의 씨앗을 해당 구역에만 심습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_sower"
+    }
+  ]
+}

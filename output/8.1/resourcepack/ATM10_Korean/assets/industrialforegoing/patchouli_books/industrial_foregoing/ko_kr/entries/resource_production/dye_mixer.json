@@ -1,0 +1,17 @@
+{
+  "name": "염료 혼합기",
+  "icon": "industrialforegoing:dye_mixer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 12,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "기본 염료를 섞어 여러 색의 염료를 만듭니다.$(br2)예를 들어 흰색 $(6)염료$() 하나를 만들 때 $(4)빨간색$(0), $(2)초록색$(0), $(1)파란색$(0) 버퍼를 각각 1만큼 사용합니다.$(br)$(6)30$()RF/t를 소비합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:dye_mixer"
+    }
+  ]
+}

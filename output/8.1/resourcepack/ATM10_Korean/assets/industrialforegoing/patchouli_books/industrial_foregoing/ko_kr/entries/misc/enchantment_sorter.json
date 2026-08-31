@@ -1,0 +1,17 @@
+{
+  "name": "마법 부여 분류기",
+  "icon": "industrialforegoing:enchantment_sorter",
+  "category": "industrialforegoing:misc",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "마법이 부여된 아이템과 그렇지 않은 아이템을 분류합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_sorter"
+    }
+  ]
+}

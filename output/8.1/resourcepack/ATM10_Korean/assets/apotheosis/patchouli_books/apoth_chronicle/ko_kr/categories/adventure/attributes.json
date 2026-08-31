@@ -1,0 +1,7 @@
+{
+  "name": "능력치",
+  "description": "Apotheosis는 바닐라 능력치 외에도 다양한 새 능력치를 추가합니다.$(p)이 장에서는 모든 능력치를 자세히 설명합니다.",
+  "icon": "minecraft:diamond_chestplate",
+  "flag": "apotheosis:adventure",
+  "parent": "apotheosis:adventure/adventure"
+}

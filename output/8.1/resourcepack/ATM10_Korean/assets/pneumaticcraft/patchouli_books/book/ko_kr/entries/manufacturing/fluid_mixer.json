@@ -1,0 +1,17 @@
+{
+  "name": "유체 혼합기",
+  "icon": "pneumaticcraft:fluid_mixer",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)유체 혼합기/$는 $(l:base_concepts/pressure)압력/$으로 두 유체를 혼합해 유체 및 아이템 결과물을 만듭니다. 주로 $(l:renewables/biodiesel)바이오디젤/$을 생산할 때 사용합니다.$(p)압력이 높을수록 더 빨리 작동하지만 공기도 더 빨리 소모합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "유체 혼합기 제작",
+      "recipe": "pneumaticcraft:fluid_mixer"
+    }
+  ]
+}

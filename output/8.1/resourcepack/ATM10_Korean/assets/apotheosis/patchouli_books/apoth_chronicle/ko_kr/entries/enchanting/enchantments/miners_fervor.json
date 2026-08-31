@@ -1,0 +1,17 @@
+{
+  "name": "광부의 열정",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(5)광부의 열정$()은 모든 도구에 부여할 수 있는 뒤틀린 마법 부여입니다.$(p)블록을 매우 빠르게 부수게 하지만 절대로 즉시 채굴할 수는 없습니다.$(p)$(9)효율$()과 함께 부여할 수 없습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "속도 제한이 있지만 레벨당 증가량은 $(9)효율$()보다 훨씬 큽니다.$(p)기본 속도가 느린 도구에 아주 적합합니다."
+    }
+  ]
+}

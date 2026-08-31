@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "pack_version": "7.1",
+  "minecraft_version": "1.21.1",
+  "mod_loader": "neoforge-21.1.234",
+  "role": "baseline",
+  "status": "validated_release",
+  "output_commit": "5011ad5",
+  "discovery": {
+    "jar_files": 481,
+    "english_namespaces": 389,
+    "korean_namespaces": 152,
+    "ftbquest_chapters": 64
+  }
+}

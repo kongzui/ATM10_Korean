@@ -12,6 +12,7 @@ from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/common_ui/guide_ui/modonomicon"
 WORKING = WORK_ROOT / "ko_kr.json"
@@ -19,7 +20,8 @@ FALLBACKS = WORK_ROOT / "display_fallbacks.json"
 OVERRIDES = WORK_ROOT / "recheck_overrides.json"
 REPORT = WORK_ROOT / "recheck_20260820.json"
 OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/modonomicon/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/modonomicon/lang/ko_kr.json"
 )
 GLOSSARY = PROJECT_ROOT / "glossary/README.md"
 
@@ -244,7 +246,7 @@ def scan_provider_guides(
 ) -> dict[str, dict[str, int]]:
     """Modonomicon 책 제공 모드와 해당 번역 키 범위를 센다."""
     found: dict[str, dict[str, int]] = {}
-    output_root = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+    output_root = active_output_root() / "resourcepack/ATM10_Korean/assets"
     for jar_path in sorted((instance / "mods").glob("*.jar")):
         try:
             with ZipFile(jar_path) as archive:
@@ -314,7 +316,7 @@ def scan_provider_guides(
 
 def scan_shapeless_terms(instance: Path, errors: list[str]) -> tuple[int, int]:
     """설치 모드의 Shapeless 표시 용어 충돌을 센다."""
-    output_root = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+    output_root = active_output_root() / "resourcepack/ATM10_Korean/assets"
     source_rows = 0
     conflicts = []
     for jar_path in sorted((instance / "mods").glob("*.jar")):
@@ -553,7 +555,7 @@ def verify(instance: Path, pre_apply: bool = False) -> dict[str, object]:
         errors.append(f"Modonomicon KubeJS 참조 범위 변경: {kube_references}")
 
     language_paths = sorted(
-        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets").glob(
+        (active_output_root() / "resourcepack/ATM10_Korean/assets").glob(
             "*/lang/ko_kr.json"
         )
     )

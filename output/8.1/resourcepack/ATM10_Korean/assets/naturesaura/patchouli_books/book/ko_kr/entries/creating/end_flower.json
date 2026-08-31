@@ -1,0 +1,18 @@
+{
+  "name": "망각의 장미",
+  "icon": "naturesaura:end_flower",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:end_flower",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)엔더 드래곤$()는 보기에 꽤 강력한 것으로 알려져 있습니다. $(thing)끝$()를 누구보다 잘 지키지만, 패배할 수도 있습니다. 이는 자손의 상징과 많은 자부심을 담고 있을 뿐만 아니라 $(item)망각의 장미$()도 담고 있습니다. 용이 죽으면 끝 섬의 땅에서 싹이 트기 시작하며 식물학자가 수집하여 어느 차원에나 배치할 준비가 됩니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "naturesaura:end_flower",
+      "text": "이 꽃은 매우 많은 양의 $(aura)를 함유하고 있으며 흥미로운 방법으로 수확할 수 있습니다. $(item)엔더의 눈$()를 근처 땅에 떨어뜨리면 장미가 이를 소비하고 $(aura)를 환경으로 분산시키기 시작합니다. 이 과정에서는 중지할 수도 수확할 수도 없습니다. 이 프로세스에는 $(italic)~ 아니다$()에는 $(l:creating/generator_limit_remover)생성 촉매$()가 필요합니다.",
+      "link_recipe": true
+    }
+  ]
+}

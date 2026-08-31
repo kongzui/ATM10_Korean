@@ -1,0 +1,16 @@
+{
+  "name": "Allthemodium 당근",
+  "icon": "allthemodium:allthemodium_carrot",
+  "category": "allthemodium:food",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "allthemodium:allthemodium_carrot",
+      "title": "Allthemodium 당근"
+    },
+    {
+      "type": "text",
+      "text": "Allthemodium 당근은 허기 40과 포만도 320을 회복합니다. 다음 효과를 제공합니다:$(li)빠른 섭취$(li)허기가 가득 차도 섭취 가능$(li)30초 동안 흡수 X$(li)30초 동안 재생 X"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "자연 저장",
+  "icon": "naturesaura:aura_cache",
+  "category": "naturesaura:effects",
+  "advancement": "naturesaura:positive_imbalance",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(aura)가 환경에 너무 많이 존재하여 $(l:items/eye)환경의 눈$() 막대가 일반 양보다 약 절반 정도 채워지면 $(item)자연 저장$()가 발생하기 시작합니다. 포화 지역 주변에 $(l:items/aura_cache)오라 캐시$()를 가지고 다니는 모든 플레이어의 경우 천천히 $(thing)채우다$()가 시작되어 과포화 상태에서 배수됩니다. $(aura)."
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "recipe": "naturesaura:cache_powder",
+      "text": "이 효과는 $(l:effects/effect_powder)저장되지 않는 분말$()를 사용하여 억제할 수 있습니다."
+    }
+  ]
+}

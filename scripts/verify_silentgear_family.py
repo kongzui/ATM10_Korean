@@ -13,6 +13,7 @@ import verify_silentgear
 from local_paths import PROJECT_ROOT, resolve_source_root
 from prepare_silentgear import WORK_ROOT, find_jar, load_json
 from silentgear_catalog import TARGETS
+from version_context import active_output_root
 
 RELATED_FILE = WORK_ROOT / "related_content_audit.json"
 COMPLETION_FILE = WORK_ROOT / "family_completion.json"
@@ -21,43 +22,43 @@ QUEST_FILE = WORK_ROOT / "quest_validation.json"
 KUBE_FILE = WORK_ROOT / "kubejs_audit.json"
 EXPECTED_DEPLOYMENTS = {
     "resourcepacks/ATM10_Korean/assets/silentgear/lang/ko_kr.json": (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/silentgear/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/silentgear/lang/ko_kr.json"
     ),
     "resourcepacks/ATM10_Korean/assets/silentlib/lang/ko_kr.json": (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/silentlib/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/silentlib/lang/ko_kr.json"
     ),
     "resourcepacks/ATM10_Korean/assets/silentgems/lang/ko_kr.json": (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/silentgems/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/silentgems/lang/ko_kr.json"
     ),
     "resourcepacks/ATM10_Korean/assets/sgearmetalworks/lang/ko_kr.json": (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/sgearmetalworks/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/sgearmetalworks/lang/ko_kr.json"
     ),
     "resourcepacks/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json": (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json"
     ),
     "config/ftbquests/quests/lang/ko_kr.snbt": (
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     ),
     "kubejs/data/silentgear/silentgear_traits/advanced_aquatic.json": (
-        PROJECT_ROOT
-        / "output/overrides/kubejs/data/silentgear/silentgear_traits/advanced_aquatic.json"
+        active_output_root()
+        / "overrides/kubejs/data/silentgear/silentgear_traits/advanced_aquatic.json"
     ),
     "kubejs/data/silentgear/silentgear_traits/advanced_flame_ward.json": (
-        PROJECT_ROOT
-        / "output/overrides/kubejs/data/silentgear/silentgear_traits/advanced_flame_ward.json"
+        active_output_root()
+        / "overrides/kubejs/data/silentgear/silentgear_traits/advanced_flame_ward.json"
     ),
     "kubejs/data/silentgear/silentgear_traits/cure_levitation.json": (
-        PROJECT_ROOT
-        / "output/overrides/kubejs/data/silentgear/silentgear_traits/cure_levitation.json"
+        active_output_root()
+        / "overrides/kubejs/data/silentgear/silentgear_traits/cure_levitation.json"
     ),
     "kubejs/data/silentgear/silentgear_traits/cure_nausea.json": (
-        PROJECT_ROOT
-        / "output/overrides/kubejs/data/silentgear/silentgear_traits/cure_nausea.json"
+        active_output_root()
+        / "overrides/kubejs/data/silentgear/silentgear_traits/cure_nausea.json"
     ),
 }
 

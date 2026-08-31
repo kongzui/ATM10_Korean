@@ -13,13 +13,14 @@ from pathlib import Path
 import build_ae2_quests as snbt
 import prepare_relics_quests as prepare
 from local_paths import resolve_source_root
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 WORK_ROOT = PROJECT_ROOT / "working/relics"
 OVERRIDES_FILE = WORK_ROOT / "quest_overrides.json"
-OUTPUT_FILE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_FILE = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 CHAPTER_OUTPUT = (
-    PROJECT_ROOT / "output/overrides/config/ftbquests/quests/chapters/relics.snbt"
+    active_output_root() / "overrides/config/ftbquests/quests/chapters/relics.snbt"
 )
 PROGRESS_FILE = WORK_ROOT / "quest_progress.json"
 HOVER_TRANSLATIONS = {

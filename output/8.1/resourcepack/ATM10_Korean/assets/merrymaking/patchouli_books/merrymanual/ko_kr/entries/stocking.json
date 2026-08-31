@@ -1,0 +1,12 @@
+{
+  "name": "크리스마스 양말",
+  "icon": "merrymaking:stocking",
+  "category": "merrymaking:mantels",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:stocking",
+      "text": "크리스마스 양말을 축제 벽난로 선반에 정성껏 걸었어요..."
+    }
+  ]
+}

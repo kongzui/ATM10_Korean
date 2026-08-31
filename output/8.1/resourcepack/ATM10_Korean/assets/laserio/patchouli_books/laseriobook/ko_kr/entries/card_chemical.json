@@ -1,0 +1,21 @@
+{
+  "name": "화학 카드",
+  "sortnum": 5,
+  "category": "laserio:cards",
+  "icon": "laserio:card_chemical",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "화학 물질 카드는 Mekanism 탱크 같은 인벤토리 사이에서 화학 물질을 전송합니다.  Mekanism이 설치되어 있을 때만 사용할 수 있습니다.$(br2)오버클러커별 수치는 다음 페이지에서 설명합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "오버클러커별 최대 mB/틱:$(br2)$(li)0개: 15,000mb/20t$(li)1개:  60,000mb/15t$(li)2개: 120,000mb/10t$(li)3개: 180,000mb/5t$(li)4개: 240,000mb/1t"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "화학 물질 카드",
+      "recipe": "laserio:card_chemical"
+    }
+  ]
+}

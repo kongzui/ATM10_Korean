@@ -12,16 +12,17 @@ import zipfile
 
 import ars_family
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 WORK_ROOT = PROJECT_ROOT / "working/actually_additions/guide"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/actuallyadditions/patchouli_books/booklet/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/actuallyadditions/patchouli_books/booklet/ko_kr"
 )
 BOOK_OUTPUT = (
-    PROJECT_ROOT
-    / "output/overrides/kubejs/data/actuallyadditions/patchouli_books/booklet/book.json"
+    active_output_root()
+    / "overrides/kubejs/data/actuallyadditions/patchouli_books/booklet/book.json"
 )
 BOOK_PREFIX = "assets/actuallyadditions/patchouli_books/booklet/en_us/"
 BOOK_SOURCE = "data/actuallyadditions/patchouli_books/booklet/book.json"

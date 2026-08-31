@@ -1,0 +1,40 @@
+파일 시스템 API의 함수:
+fs.list( path )
+fs.find( wildcard )
+fs.exists( path )
+fs.isDir( path )
+fs.isReadOnly( path )
+fs.getDir( path )
+fs.getName( path )
+fs.getSize( path )
+fs.getDrive( path )
+fs.getFreeSpace( path )
+fs.makeDir( path )
+fs.move( path, path )
+fs.copy( path, path )
+fs.delete( path )
+fs.combine( path, localpath )
+fs.open( path, mode )
+fs.complete( path, location )
+사용 가능한 fs.open() 모드는 "r", "w", "a", "rb", "wb" 및 "ab".
+
+"r" 모드로 열린 파일에 대한 기능:
+readLine()
+readAll()
+close()
+read( number )
+
+"w" 또는 "a" 모드로 열린 파일의 기능:
+write( string )
+writeLine( string )
+flush()
+close()
+
+"rb" 모드로 열린 파일에 대한 기능:
+read()
+close()
+
+"wb" 또는 "ab" 모드로 열린 파일의 기능:
+write( byte )
+flush()
+close()

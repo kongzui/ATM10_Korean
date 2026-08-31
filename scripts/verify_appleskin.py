@@ -12,6 +12,7 @@ from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/common_ui/inventory_controls/appleskin"
 WORKING = WORK_ROOT / "ko_kr.json"
@@ -19,10 +20,10 @@ OVERRIDES = WORK_ROOT / "recheck_overrides.json"
 WORKING_DEBUG_SCRIPT = WORK_ROOT / "kubejs/startup_scripts/appleskin_debug_labels.js"
 REPORT = WORK_ROOT / "recheck_20260820.json"
 OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/appleskin/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/appleskin/lang/ko_kr.json"
 )
 OUTPUT_DEBUG_SCRIPT = (
-    PROJECT_ROOT / "output/overrides/kubejs/startup_scripts/appleskin_debug_labels.js"
+    active_output_root() / "overrides/kubejs/startup_scripts/appleskin_debug_labels.js"
 )
 GLOSSARY = PROJECT_ROOT / "glossary/README.md"
 
@@ -169,16 +170,16 @@ def verify_language_owners(
 
 def verify_related_terms(errors: list[str]) -> None:
     sushi = load_path(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/sushigocrafting/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/sushigocrafting/lang/ko_kr.json"
     )
     fancy = load_path(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/fancymenu/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/fancymenu/lang/ko_kr.json"
     )
     ultimine = load_path(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/ftbultimine/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/ftbultimine/lang/ko_kr.json"
     )
     if sushi.get("text.sushigocrafting.saturation") != "포만도":
         errors.append("Sushi Go Crafting 음식 포만도 용어 불일치")
@@ -348,7 +349,7 @@ def verify(pre_apply: bool) -> dict[str, object]:
 
     jar_count, english_count, owner_overlaps = verify_language_owners(instance, english)
     project_languages = list(
-        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets").glob(
+        (active_output_root() / "resourcepack/ATM10_Korean/assets").glob(
             "*/lang/ko_kr.json"
         )
     )

@@ -1,0 +1,6 @@
+monitor는 연결된 모니터 주변 장치의 화면에서 프로그램을 실행합니다.
+Lua 프로그램에서 모니터를 주변 장치로 사용하는 데 도움이 필요하면 "help monitors"를 입력하세요.
+
+ex:
+"monitor left hello"는 컴퓨터 왼쪽에 있는 모니터에서 "hello" 프로그램을 실행합니다.
+"monitor top edit foo"는 상단 모니터에서 편집 프로그램을 실행하여 "foo" 파일을 편집합니다.

@@ -1,0 +1,6 @@
+{
+  "name": "비공격적 몹",
+  "description": "누구도 공격하지 않는 몹입니다!",
+  "icon": "minecraft:writable_book",
+  "sortnum": 0
+}

@@ -1,0 +1,56 @@
+{
+  "name": "열원",
+  "icon": "pneumaticcraft:vortex_tube",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)정적 열원/$은 인접한 기계에 열을 공급하거나 기계에서 열을 빼앗는 블록과 유체입니다. 열이 너무 많이 드나들면 다른 블록이나 유체로 변할 수 있습니다. 열의 출입량은 해당 블록 외부에 별도로 기록되므로 블록을 부쉈다가 다시 놓아 누적된 열을 초기화할 수는 없습니다."
+    },
+    {
+      "type": "text",
+      "title": "바닐라 열원",
+      "text": "다음 바닐라 블록과 유체가 정적 열원으로 작동합니다:$(li)공기$(li)얼음/꽁꽁 언 얼음/푸른얼음$(li)눈$(li)횃불$(li)불(꺼질 수 있음)$(li)마그마(네더랙으로 식음)$(li)물(얼거나 증발할 수 있음)$(li)용암(흑요석으로 식음)$(li)모닥불(꺼질 수 있음)"
+    },
+    {
+      "type": "text",
+      "title": "모드 열원",
+      "text": "다른 모드의 여러 블록도 서로 다른 특성의 정적 열원으로 작동합니다:$(li)IC2 증기와 과열 증기$(li)IC2 냉각수와 고온 냉각수$(li)IC2 및 Immersive Engineering 우라늄 블록$(li)Quark 블레이즈 랜턴$(li)Quark 유황과 영구동토$(li)Natura 열 모래$(li)모드가 추가한 모든 유체에는 해당 모드가 정한 온도 특성이 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "사용자 지정 열원 추가",
+      "text": "(모드팩 제작자용) 모든 블록의 열 특성은 데이터 팩에 정의됩니다. $(thing)data/<mod-id>/pneumaticcraft/block_heat_properties/$에 JSON 파일을 추가하여 새 정의를 만들거나 기본 정의를 덮어쓰거나 제거할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:vortex_tube",
+      "text": "$(l:machines/vortex_tube)볼텍스 튜브/$는 $(l:base_concepts/pressure)압력/$을 열과 냉기로 직접 바꾸는 $(thing)동적 열원/$입니다. 효율을 높이려면 사용하지 않는 면에 $(l:machines/heat_sink)방열판/$을 설치하는 것이 좋습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:heat_frame",
+      "text": "$(l:semiblocks/heat_frame)열 프레임/$은 인벤토리의 아이템을 가열하거나 얼리는 가젯입니다. 열 프레임은 $(thing)정적 열원/$에서 열을 직접 흡수하지 않으므로, 옆에 $(l:machines/heat_pipe)열 파이프/$를 놓아 열을 전달할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:heat_sink",
+      "text": "$(l:machines/heat_sink)방열판/$은 부착한 블록의 열이나 냉기를 대기로 효율적으로 방출하는 블록입니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:heat_pipe",
+      "text": "$(l:machines/heat_pipe)열 파이프/$는 압축 철로 만든 단열 코어로, 인접한 공기나 유체 블록과 열을 주고받지 않고 블록 사이로 열을 전달합니다. $(item)압축 철 블록/$으로 열을 전달하는 것보다 작고 저렴합니다. 열 파이프에 $(item)방열판/$을 직접 부착할 수도 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:furnace",
+      "text": "바닐라 $(item)화로/$를 $(l:machines/vortex_tube)볼텍스 튜브/$나 열을 만드는 $(l:compressors/advanced_air_compressor)고급 공기 압축기/$ 같은 동적 열원에 연결하면 화로가 열을 연료처럼 소비합니다. 고체 연료 없이 열만으로 화로를 작동할 수 있어 편리하고 효율적입니다."
+    },
+    {
+      "type": "text",
+      "title": "화로(계속)",
+      "text": "화로는 100°C부터 열로 작동하며 온도가 높을수록 빨라집니다. 화로 주변에 열원을 여러 개 놓으면 가열 효과가 커집니다.$(p)이 효과는 바닐라 $(item)용광로/$와 $(item)훈연기/$에도 적용됩니다."
+    }
+  ]
+}

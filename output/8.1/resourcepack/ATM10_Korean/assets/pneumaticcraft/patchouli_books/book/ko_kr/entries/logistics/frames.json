@@ -1,0 +1,55 @@
+{
+  "name": "물류 프레임",
+  "icon": "pneumaticcraft:logistics_frame_passive_provider",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)물류 프레임/$은 인벤토리나 탱크에 부착해 $(thing)물류 시스템/$의 일부로 지정하는 장치입니다.$(p)설치한 프레임은 $(l:tools/logistics_configurator)물류 설정기/$로 $(thing)우클릭/$해 설정하고, 설정기로 $(thing)Shift+우클릭/$해 제거합니다. 아이템 상태의 프레임을 우클릭해 미리 설정할 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "다음 프레임 속성을 설정할 수 있습니다:$(li)모든 프레임은 $(thing)필터링/$으로 제공하거나 받을 아이템과 유체를 제한합니다. $(l:tools/tag_filter)태그 필터/$도 참고하세요.$(li)$(thing)필터/$ 측면 탭에서 $(thing)아이템 NBT/$ 또는 $(thing)모드 ID/$ 일치 여부와 화이트리스트(기본값) 또는 블랙리스트 적용 여부를 정할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l:logistics/frames#requester)요청자 물류 프레임/$의 경우 $(thing)최소 주문 크기/$ 탭을 사용하면 한 번에 이동할 아이템 또는 유체의 최소량을 설정할 수 있습니다. 이것은 드론이 작은 적재량으로 자주 이동하는 것을 방지하는 데 도움이 됩니다. $(li)마지막으로 물류 아이템(프레임 또는 구성자)을 보유하지 않는 한 모든 프레임을 플레이어에 대해 $(thing)숨기기/$로 설정합니다. 참고: 숨겨진 프레임은 플레이어의 왼쪽 클릭을 그 아래 블록으로 전달합니다."
+    },
+    {
+      "type": "crafting",
+      "anchor": "active_provider",
+      "title": "능동 공급자 물류 프레임",
+      "recipe": "pneumaticcraft:logistics_frame_active_provider",
+      "text": "$(item)Active Provider Frame/$는 $(l:logistics/frames#requester)요청자 물류 프레임s/$, $(l:logistics/frames#storage)저장 물류 프레임/$ 및 $(l:logistics/frames#default_storage)Default 저장 물류 프레임/$에 아이템/유체를 제공합니다."
+    },
+    {
+      "type": "crafting",
+      "anchor": "passive_provider",
+      "title": "패시브 제공자 프레임",
+      "recipe": "pneumaticcraft:logistics_frame_passive_provider",
+      "text": "$(item)수동 공급자 물류 프레임/$는 아이템/유체를 $(l:logistics/frames#requester)요청자 물류 프레임/$에만 제공합니다."
+    },
+    {
+      "type": "crafting",
+      "anchor": "storage",
+      "title": "저장 물류 프레임",
+      "recipe": "pneumaticcraft:logistics_frame_storage",
+      "text": "$(item)저장 물류 프레임/$는 $(l:logistics/frames#active_provider)능동 공급자 물류 프레임/$에서 아이템/유체를 받고 $(l:logistics/frames#requester)요청자 물류 프레임/$에 아이템을 제공할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "anchor": "default_storage",
+      "title": "기본 저장 물류 프레임",
+      "recipe": "pneumaticcraft:logistics_frame_default_storage",
+      "text": "$(item)기본 저장 물류 프레임/$는 $(l:logistics/frames#active_provider)능동 공급자 물류 프레임/$에서 아이템/유체를 받고 $(l:logistics/frames#requester)요청자 물류 프레임/$ 및 $(l:logistics/frames#storage)저장 물류 프레임/$에 자원를 제공할 수 있습니다. 이들은 가능하면 항상 처음 사용되는 저장 물류 프레임보다 우선 순위가 낮습니다."
+    },
+    {
+      "type": "crafting",
+      "anchor": "requester",
+      "title": "요청자 물류 프레임",
+      "recipe": "pneumaticcraft:logistics_frame_requester",
+      "text": "$(item)요청자 프레임/$는 다른 프레임의 인벤토리에서 아이템/유체를 요청할 수 있습니다. 이 프레임은 구성 GUI를 사용하여 프레임에 각 아이템이나 유체를 얼마나 들고 $(thing)스톡/$를 유지할지 알려줍니다."
+    }
+  ]
+}

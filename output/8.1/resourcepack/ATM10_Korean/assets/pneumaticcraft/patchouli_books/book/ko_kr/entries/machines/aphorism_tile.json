@@ -1,0 +1,33 @@
+{
+  "name": "격언 타일",
+  "icon": "pneumaticcraft:aphorism_tile",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:assembly_controller",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)격언 타일/$은 $(item)표지판/$과 비슷하지만 원하는 만큼의 텍스트를 표시할 수 있습니다. 전체 문구가 타일 안에 들어가도록 글자 크기가 자동으로 조정됩니다.$(p)격언 타일을 설치하면 기본적으로 $(ttcolor)$(t:클라이언트 설정의 'B:dramaSplash'에서 끌 수 있습니다)$(l:http://mc-drama.herokuapp.com/)Drama Generator/$의 무작위 문구/$가 표시됩니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)빈손으로 $(item)격언 타일/$을 $(thing)우클릭/$하면 설치된 자리에서 편집할 수 있습니다.$(li)$(thing)Alt + 0-9/a-f/l/m/n/o/r/$을 사용해 $(l:https://minecraft.gamepedia.com/Formatting_codes)표준 Minecraft 서식 코드/$를 추가할 수 있습니다.$(li)$(thing)F1/$을 누르고 있으면 편집기 단축키 도움말이 나타납니다.$(li)염료를 들고 $(item)격언 타일/$을 $(thing)우클릭/$하면 색을 바꿀 수 있습니다. 타일의 해당 영역을 클릭해 테두리와 배경을 따로 칠할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "anchor": "items",
+      "text": "$(li)$(item)격언 타일/$는 텍스트 대신 또는 텍스트와 함께 $(thing)items/$를 표시할 수도 있습니다. $(thing){item:<modid>:<itemid>}/$ 형식으로 텍스트를 한 줄에 입력하여 표시할 아이템을 지정할 수 있습니다. $(thing){item:minecraft:diamond}/$.$(li)또는 왼쪽 GUI 패널에서 $(thing)Insert Item.../$ 버튼을 클릭하고 검색 팝업에서 아이템을 선택합니다. 그러면 현재 줄의 모든 텍스트가 대체됩니다. 하나의 타일에 여러 아이템을 표시할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)팁: 표시되는 아이템은 텍스트 행의 높이에 맞게 크기가 조정됩니다. 텍스트와 아이템을 혼합하려면 작은 아이템이 표시되지 않도록 텍스트 줄을 짧게 합니다. $(li)타일 텍스트가 차지하는 공간을 줄이려면 왼쪽 GUI 패널의 슬라이더를 사용하여 타일 텍스트의 $(thing)여백/$를 설정할 수도 있습니다. $(li)마지막으로 왼쪽 GUI 패널의 확인란을 사용하여 전체 타일을 $(thing)보이지 않음/$로 설정하여 텍스트(및/또는 아이템) $(italic)만/$를 표시할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)보이지 않는 격언 타일은 스니크하지 않는 한 블록 형태가 전혀 없기 때문에 특히 아이템을 표시할 때 가슴의 라벨로 사용할 수 있습니다. 모양이 없기 때문에 가슴을 우클릭하는 등 모든 작업은 뒤의 블록으로 전달됩니다. $(li)보이지 않는 타일은 스니크하고 우클릭하여 편집 할 수 있습니다 (일반적으로 빈 손으로)."
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/aphorism_tile"
+    }
+  ]
+}

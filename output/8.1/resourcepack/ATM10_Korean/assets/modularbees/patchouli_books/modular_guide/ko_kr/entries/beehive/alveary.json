@@ -1,0 +1,17 @@
+{
+  "name": "모듈식 양봉 상자",
+  "icon": "modularbees:modular_beehive_alveary",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "모듈식 양봉 상자",
+      "text": "코어 벌통 자체에는 벌을 넣을 수 없으므로 양봉 상자가 필요합니다.$(br)양봉 상자 하나에는 벌 5마리가 들어가며 벌 케이지로 벌을 넣습니다.$(br)팁: 벌 케이지로 양봉 상자를 우클릭하면 벌을 넣거나 꺼낼 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_alveary"
+    }
+  ]
+}

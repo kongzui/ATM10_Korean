@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 괭이",
+  "sortnum": 24,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_hoe[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이클립스 합금 괭이는 땅을 매우 비옥한 토양으로 바꿀 수 있는 농업 기술의 혁명입니다. $(br2)가장 진보된 농업 업그레이드를 지원하여 작물 수확량과 효율성을 극대화합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:eclipsealloy_hoe",
+      "text": "이클립스 합금 괭이 제작"
+    }
+  ]
+}

@@ -23,10 +23,15 @@ from dungeons_arise_family import (
 )
 from gateways_hellish_family import Tag, read_nbt, write_nbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import (
+    active_output_root,
+    output_deployment_path,
+    resolve_active_output_path,
+)
 
 FAMILY = "structory"
 WORK_ROOT = PROJECT_ROOT / "working/structory"
-OVERRIDE_ROOT = PROJECT_ROOT / "output/overrides/kubejs"
+OVERRIDE_ROOT = active_output_root() / "overrides/kubejs"
 JARS = {
     "structory": "Structory_[0-9]*.jar",
     "structory_towers": "Structory_Towers_*.jar",
@@ -463,7 +468,9 @@ def verify_data_outputs() -> tuple[dict[str, object], list[str]]:
             expected, count = transform_data_value(source)
             try:
                 output = json.loads(
-                    (PROJECT_ROOT / row["output"]).read_text(encoding="utf-8")
+                    resolve_active_output_path(row["output"]).read_text(
+                        encoding="utf-8"
+                    )
                 )
             except (OSError, json.JSONDecodeError, UnicodeError) as exc:
                 errors.append(f"데이터 산출물을 읽지 못했어요: {row['output']}: {exc}")
@@ -506,7 +513,7 @@ def verify_nbt_outputs() -> tuple[dict[str, object], list[str]]:
         errors.append("NBT 산출물 파일 목록이 달라요")
     translated = 0
     for row in rows:
-        output_path = PROJECT_ROOT / row["output"]
+        output_path = resolve_active_output_path(row["output"])
         try:
             value = output_path.read_bytes()
             raw = gzip.decompress(value) if value.startswith(b"\x1f\x8b") else value
@@ -536,7 +543,7 @@ def deployment_paths() -> set[str]:
         if not path.is_file():
             continue
         rows = json.loads(path.read_text(encoding="utf-8"))
-        paths.update(row["output"].removeprefix("output/overrides/") for row in rows)
+        paths.update(output_deployment_path(row["output"]) for row in rows)
     return paths
 
 

@@ -1,0 +1,19 @@
+{
+  "name": "물질 수신기",
+  "icon": "rftoolsutility:matter_receiver",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:matter_receiver": 0,
+    "rftoolsutility:matter_booster": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "물질 수신기는 $(l:rftoolsbase:machines/matter_transmitter)물질 송신기$(/l)에서 플레이어가 순간이동해 도착하는 장치입니다. $(l:rftoolsbase:machines/dialing_device)다이얼링 장치$(/l)로 송신기와 수신기를 연결하세요.$(br2)$(5)주입$()하면 전력 소모량이 줄어듭니다."
+    },
+    {
+      "type": "text",
+      "text": "물질 수신기에 충분한 전력이 있는 것이 매우 중요합니다. 그렇지 않으면 플레이어가 순간이동할 때 나쁜 영향을 미칠 위험이 있습니다."
+    }
+  ]
+}

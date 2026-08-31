@@ -1,0 +1,23 @@
+모니터는 CraftOS에서 사용할 수 있는 주변 장치입니다. 주변 장치 API를 사용하여 주변 장치와 연결하는 방법을 알아보려면 "help peripheral"를 입력하세요. 모니터가 연결된 경우, peripheral.getType()는 "monitor"를 반환합니다. 래핑된 모니터를 term.redirect()와 함께 사용하여 모든 터미널 출력을 모니터로 보낼 수 있습니다.
+
+모니터가 제공하는 메서드:
+write( text )
+blit( text, textColor, backgroundColor )
+clear()
+clearLine()
+getCursorPos()
+setCursorPos( x, y )
+setCursorBlink( blink )
+isColor()
+setTextColor( color )
+setBackgroundColor( color )
+getTextColor()
+getBackgroundColor()
+getSize()
+scroll( n )
+setPaletteColor( color, r, g, b )
+getPaletteColor( color )
+
+모니터에서 발생하는 이벤트:
+"monitor_touch" 플레이어가 고급 모니터를 터치한 경우. 인수는 이름, x, y입니다.
+"monitor_resize" 모니터 크기가 변경되는 경우. 인수는 모니터의 이름입니다.

@@ -1,0 +1,12 @@
+{
+  "name": "셀레스티젬 팍셀",
+  "sortnum": 19,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:celestigem_paxel[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "셀레스티젬 팍셀은 곡괭이, 도끼, 삽의 기능을 하나로 합친 도구입니다.$(br2)대장장이 작업대에서 셀레스티젬 곡괭이·도끼·삽을 합쳐 제작하며, 세 도구에 설치된 업그레이드는 팍셀에 그대로 이어집니다."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "보석 보관함",
+  "icon": "apotheosis:gem_case",
+  "category": "apotheosis:adventure/gems",
+  "flag": "apotheosis:adventure",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apotheosis:gem_case",
+      "text": "$(9)보석 보관함$()은 $(l:apotheosis:adventure/gems/gems)보석$()을 보관하는 장치입니다.$(p)종류와 순도마다 보석을 최대 삼만 이천 개까지 보관할 수 있으며, 더 많이 담도록 업그레이드할 수 있습니다."
+    },
+    {
+      "title": "필터링",
+      "type": "patchouli:text",
+      "text": "보석 보관함에는 이름 필터와 아이템 필터가 있습니다.$(p)이름 필터로는 이름을 기준으로 보석을 검색하고, 아이템 필터로는 특정 아이템에 장착할 수 있는 보석을 검색할 수 있습니다."
+    },
+    {
+      "title": "보석 세공",
+      "type": "patchouli:text",
+      "text": "보석 보관함에는 업그레이드 재료를 넣을 수 있는 보조 슬롯도 여섯 개 있습니다.$(p)순도 업그레이드 제조법에 맞는 재료와 보석이 충분하다면 보관함에서 바로 보석을 업그레이드할 수 있습니다.$(p)이 기능을 사용하면 $(l:apotheosis:adventure/gems/gem_cutting)보석 세공 작업대$()가 사실상 필요 없어집니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apotheosis:ender_gem_case",
+      "title": "최고의 보석 보관함",
+      "link_recipe": true,
+      "text": "$(9)파베르제 가문의 보석 보관함$()은 $(6)보관 용량$()이 이십억에 달합니다.$(p)직접 제작할 수 없으며, $(l:apotheosis:enchanting/table/infusion)주입 마법 부여$()로 만들어야 합니다."
+    }
+  ]
+}

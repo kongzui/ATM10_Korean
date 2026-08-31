@@ -1,0 +1,25 @@
+{
+  "name": "능숙한 호퍼",
+  "icon": "naturesaura:grated_chute",
+  "category": "naturesaura:devices",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "기계 장치를 다룰 때 $(thing)물품 운반$()는 매우 중요하며 대규모로 수행할 경우 특히 $(thing)필터링$() 기능이 부족하기 때문에 성가신 일이 될 수 있습니다. $(item)능숙한 호퍼$()는 $(item)호퍼$()를 통해 이동하는 항목을 쉽게 필터링하는 기능을 생성합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(item)능숙한 호퍼$()는 일반 $(item)호퍼$()보다 조금 빠르며 필터 기능도 있습니다. 어느 면에든 $(item)아이템 액자$()를 붙이고 아이템을 넣으면 $(thing)그 아이템만$() 통과합니다. 상자나 월드에서 아이템을 가져올 때와 외부에서 아이템을 넣을 때 모두 적용됩니다.$(p)$(l:using/hopper_upgrade)호퍼 업그레이드$()와 함께 사용하면 필터에 맞는 아이템만 주울 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "또한 $(item)능숙한 호퍼$()의 기능은 간단히 상호 작용하여 $(thing)거꾸로 된$()가 될 수 있습니다. 이렇게 하면 프레임의 항목 $(italic)in$()가 아니라 프레임의 $(italic)~ 아니다$()인 모든 항목이 허용됩니다. 또한 이는 프레임을 전혀 내려놓지 않음으로써 모든 항목의 처리량을 허용합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)능숙한 호퍼$()$(p) 만들기$(l:items/eye)환경의 눈$()를 장착하면 현재 호퍼에 저장된 항목의 양과 현재 모드를 볼 수 있습니다.",
+      "recipe": "naturesaura:grated_chute"
+    }
+  ]
+}

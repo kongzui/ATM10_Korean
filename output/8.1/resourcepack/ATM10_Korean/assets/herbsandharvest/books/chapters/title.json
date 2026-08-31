@@ -1,0 +1,33 @@
+{
+  "pages": [
+
+    {
+      "type": "standard",
+
+	   "title": "herbsandharvest.guide_book.book_title",
+
+      "summary": "Mama's Herbs and Harvest 안내서",
+
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/pantry.png",
+          "caption": "herbsandharvest.guide_book.chapters.pantry_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+
+		  "type": "text",
+		  "literal_text": "이 안내서에서 다음 내용을 알려 드려요...",
+		  "text": null
+
+
+        }
+      ]
+    }
+
+
+
+  ]
+}

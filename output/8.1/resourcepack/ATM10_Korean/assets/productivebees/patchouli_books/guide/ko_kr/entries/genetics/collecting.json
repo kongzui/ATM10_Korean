@@ -1,0 +1,42 @@
+{
+  "name": "유전자 수집",
+  "icon": "productivebees:gene",
+  "category": "productivebees:genetics",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "보틀러는 피스톤과 함께 사용하여 벌을 병에 담을 수 있습니다. 중앙에 벌을 놓고 레버를 당깁니다. 보틀러 안에 빈 병이 있는지 확인하세요. 병에 담긴 벌을 원심분리기에 넣어 유용한 물질과 쓰레기를 분리하세요."
+    },
+    {
+      "type": "multiblock",
+      "name": "벌 보틀러",
+      "multiblock": {
+        "mapping": {
+          "P": "minecraft:piston[facing=down]",
+          "B": "productivebees:bottler[has_bottle=true]"
+        },
+        "pattern": [
+          [
+            "P"
+          ],
+          [
+            " "
+          ],
+          [
+            "B"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "symmetrical": true,
+        "offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "enable_visualize": false
+    }
+  ]
+}

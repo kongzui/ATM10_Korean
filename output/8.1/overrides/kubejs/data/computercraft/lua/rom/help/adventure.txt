@@ -1,0 +1,1 @@
+adventure는 CraftOS용 텍스트 어드벤처 게임입니다. 세계를 탐험하려면 인터프리터에 "go north", "punch tree", "craft planks", "mine coal with pickaxe", "hit creeper with sword" 같은 간단한 명령을 입력하세요.

@@ -18,6 +18,7 @@ from zipfile import ZipFile
 import five_family_goal as family_goal
 import ars_family
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -31,7 +32,7 @@ RELATED = ROOT / "quests/related"
 QUEST_REVIEW_CACHE = PROJECT_ROOT / "temp/ice_and_fire_quest_review_cache.json"
 QUEST_REVIEWED = QUEST / "reviewed_auto_candidates.json"
 GUIDES = ROOT / "guides"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/iceandfire"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets/iceandfire"
 NUMBER = re.compile(r"\d+(?:[.,]\d+)*")
 IMAGE = re.compile(r"\{image:[^}]+\}")
 QUEST_PROTECTED = re.compile(

@@ -1,0 +1,6 @@
+{
+  "name": "카드",
+  "description": "카드는 노드가 인접한 블록과 상호 작용하는 방식입니다. 그것들이 없으면 노드는 쓸모가 없습니다!",
+  "sortnum": 1,
+  "icon": "laserio:card_item"
+}

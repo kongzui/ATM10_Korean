@@ -1,0 +1,12 @@
+{
+  "name": "Allthemodium 도구",
+  "icon": "allthemodium:allthemodium_pickaxe",
+  "category": "allthemodium:misc",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Allthemodium에는 여러 도구가 포함되어 있으며 모두 파괴되지 않습니다."
+    }
+  ]
+}

@@ -8,9 +8,10 @@ import json
 from pathlib import Path
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 TRAIT_ROOT = Path("kubejs/data/silentgear/silentgear_traits")
-OUTPUT_ROOT = PROJECT_ROOT / "output/overrides"
+OUTPUT_ROOT = active_output_root() / "overrides"
 REPORT = PROJECT_ROOT / "working/silentgear/kubejs_audit.json"
 TRAITS = {
     "advanced_aquatic.json": {
@@ -122,8 +123,8 @@ def verify_material_sources(instance: Path) -> list[str]:
 def build_material_language() -> Path:
     """KubeJS가 추가한 ATM 재료명 한국어 파일을 만든다."""
     output = (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json"
     )
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(

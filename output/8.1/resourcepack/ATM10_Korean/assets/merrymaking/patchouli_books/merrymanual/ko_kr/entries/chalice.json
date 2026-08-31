@@ -1,0 +1,18 @@
+{
+  "name": "성배",
+  "icon": "merrymaking:chalice",
+  "category": "merrymaking:kwanzaa",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "성배",
+      "item": "merrymaking:chalice",
+      "text": "성배는 단독으로 설치하거나 음케카 위에 놓을 수 있어요."
+    },
+    {
+      "type": "crafting",
+      "title": "성배",
+      "recipe": "merrymaking:chalice"
+    }
+  ]
+}

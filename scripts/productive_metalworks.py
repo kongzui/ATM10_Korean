@@ -12,6 +12,7 @@ from zipfile import ZipFile
 
 from five_family_goal import PROJECT_ROOT, load_json, validate_value
 from local_paths import resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -20,8 +21,8 @@ WORK_ROOT = PROJECT_ROOT / "working/productive_metalworks"
 LANG_ROOT = WORK_ROOT / "productivemetalworks"
 INTEGRATION_ROOT = WORK_ROOT / "integrations/dyenamicsandfriends"
 DYENAMICS_OUTPUT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/dyenamicsandfriends/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/dyenamicsandfriends/lang/ko_kr.json"
 )
 
 COLORS = {
@@ -473,8 +474,8 @@ def audit_jar() -> tuple[dict[str, object], list[str]]:
 
     sgear_work = PROJECT_ROOT / "working/silentgear/sgearmetalworks/ko_kr.json"
     sgear_output = (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/sgearmetalworks/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/sgearmetalworks/lang/ko_kr.json"
     )
     sgear_keys = len(load_json(sgear_work)) if sgear_work.is_file() else 0
     sgear_output_matches = (

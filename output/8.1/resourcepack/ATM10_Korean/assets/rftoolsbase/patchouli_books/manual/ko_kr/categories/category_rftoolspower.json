@@ -1,0 +1,5 @@
+{
+  "name": "RFTools Power",
+  "description": "$(thing)RFTools 파워$()발전과 전력 저장에 관한 모드입니다.",
+  "icon": "rftoolspower:dimensionalcell"
+}

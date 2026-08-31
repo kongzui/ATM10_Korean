@@ -1,0 +1,16 @@
+{
+  "name": "블레이즈 엠버 연료",
+  "sortnum": 27,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:refined_t2_fluid_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "블레이즈 엠버 연료는 강력한 에너지원입니다. $(l:justdirethings:res_coal_t2)블레이즈 엠버$(/l)를 $(l:justdirethings:res_polymorphic_fluid)다형성 유체$(/l)에 떨어뜨려 정제되지 않은 블레이즈 엠버 연료를 만든 뒤, 블레이즈블룸 구 옆에 놓아 정제하세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "정제된 블레이즈 엠버 연료는 효율적인 연료이며 $(l:justdirethings:mach_generatorfluidt1)유체 연료 발전기$(/l)에서 에너지를 생성하는 데 사용할 수 있습니다."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "공압 헬멧",
+  "icon": "pneumaticcraft:pneumatic_helmet",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)공압 헬멧/$는 4 있는 $(thing)공압 방어구/$ 중 1입니다. $(p)오랫동안 사용 가능한 유일한 사이트였습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_helmet",
+      "text": "공압 헬멧 제작"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "entity_tracker",
+      "item": "pneumaticcraft:entity_tracker_upgrade",
+      "text": "$(l:base_concepts/upgrades#entity_tracker)개체 트래커/$ 업그레이드를 설치하면 16 블록 범위의 생물체가 벽을 넘어도 자동으로 추적됩니다. 개체가 공격적인 몹인 경우 타겟팅되면 경고가 표시됩니다. 이것에 의해 전투(또는 탈출)에 대비할 수 있습니다. $(l:base_concepts/entity_filter)개체 필터/$를 사용하여 추적해야 하는 개체를 GUI로 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:block_tracker_upgrade",
+      "text": "$(l:base_concepts/upgrades#block_tracker)블록 추적기/$ 업그레이드를 설치하면 30 블록 내의 특수 블록이 벽을 통해서도 추적됩니다. 다음 블록이 추적됩니다:$(li)모든 인벤토리(내용이 표시됨)$(li)몹 생성기(생성 시간이 표시됨)$(li)좀벌레 블록$(li)End 포털 프레임$(li)TNT$(li)철사 덫 갈고리"
+    },
+    {
+      "type": "text",
+      "title": "블록 추적기 (계속)",
+      "text": "이러한 블록 중 일부는 상대적으로 일반적인 것 (플레이어의 집 인벤토리, 요새의 실버 피쉬 블록)이기 때문에 특정 종류의 블록이 일정 수에 도달하면 HUD는 라벨 표시를 자동으로 중지합니다. 그러나 크로스헤어를 블록 위에 놓으면 추적되는 블록에 대한 정보를 얻을 수 있습니다. 또한 구성 GUI에서 블록을 선택 취소하여 추적할 블록을 지정할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:coordinate_tracker_upgrade",
+      "text": "$(l:base_concepts/upgrades#coordinate_tracker)좌표 추적기/$ 업그레이드는 Minecraft 고유의 패스 파인딩을 사용하여 선택한 위치로의 최단 경로를 계산합니다. $(p)이것은 동굴에서 헤매고 탈출하고 싶을 때 매우 편리합니다. 옵션 메뉴를 열고($(thing)$(k:pneumaticcraft.armor.options)/$를 누르십시오) $(bold)표층으로 이동/$를 선택합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:search_upgrade",
+      "text": "상자가 많은 기지에서 특정 아이템을 찾으려고 할 때의 문제를 알고 계십니까? 그렇다면 $(l:base_concepts/upgrades#item_searcher)Search 업그레이드/$가 적합합니다. GUI에서 아이템을 검색할 수 있습니다. 스크롤 막대를 사용하여 찾고 있는 아이템을 찾거나 검색 상자에 아이템 이름을 입력합니다. 아이템을 찾았으면 타겟 슬롯에 넣으세요."
+    },
+    {
+      "type": "text",
+      "title": "아이템 검색 (계속)",
+      "text": "이제 지면 또는 16 블록 범위의 인벤토리에 있는 선택한 아이템은 모두 $(thing)녹색으로 빛납니다./$ 광택의 크기는 해당 위치에 있는 아이템과 발견된 아이템의 합계 비율에 의해 결정됩니다. $(p)헬멧에는 $(l:base_concepts/upgrades#entity_tracker)개체 트래커/$(지면에 있는 아이템의 경우)및/또는 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$(인벤토리 내의 아이템의 경우)의 업그레이드도 필요하다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:dispenser_upgrade",
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 $(l:base_concepts/upgrades#entity_tracker)개체 추적기 업그레이드/$와 함께 설치하면 $(l:tools/drone)드론/$를 모니터링/디버깅할 수 있습니다. $(item)드론/$를 보면서 $(thing)$(k:pneumaticcraft.helmet.debugging.drone)/$를 누르기만 하면 됩니다. 이제 추적 애니메이션에 빨간색 테두리가 표시됩니다. 이제 $(thing)$(k:pneumaticcraft.armor.options)/$를 눌러 헬멧의 옵션 창을 열고 $(bold)드론 Debugging/$ 패널로 이동합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:range_upgrade",
+      "text": "$(l:base_concepts/upgrades#range)범위 업그레이드/$는 $(l:base_concepts/upgrades#entity_tracker)개체 트래커/$ 및 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$의 범위를 업그레이드 당 5 블록 증가 개체 트래커에는 제한이 없지만 블록 추적기의 경우 최대 5개의 업그레이드가 허용됩니다. $(p)이 업그레이드는 헬멧의 공기 소모량을 증가시킵니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:night_vision_upgrade",
+      "text": "$(l:base_concepts/upgrades#night_vision)암시 업그레이드/$는 그 이름대로 매우 적은 $(l:base_concepts/pressure)공기 소모량/$로 어둠 속에서도 볼 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:scuba_upgrade",
+      "text": "$(l:base_concepts/upgrades#scuba)스쿠버 업그레이드/$를 사용하면 헬멧의 예비 공기를 이용하여 수중에서 호흡 할 수 있습니다. 게다가 페이스 마스크도 붙어 있으므로, 수중의 시야가 훨씬 선명해집니다. $(l:base_concepts/upgrades#night_vision)암시 업그레이드/$와 결합하면 매우 멋진 전망을 즐길 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:ender_visor_upgrade",
+      "text": "$(l:base_concepts/upgrades#ender_visor)엔더 바이저 업그레이드/$는 고성능 $(thing)호박/$ 연구를 기반으로합니다. 때 호박에 머리를 밀어 넣을 때 일반적으로 수반되는 시각적 어려움을 줄이면서 $(thing)엔더맨/$의 공격을 피하기위한 전환 가능한 수단을 제공합니다."
+    }
+  ]
+}

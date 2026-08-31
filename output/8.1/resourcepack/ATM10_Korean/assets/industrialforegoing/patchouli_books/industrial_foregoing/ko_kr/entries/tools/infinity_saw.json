@@ -1,0 +1,17 @@
+{
+  "name": "인피니티 톱",
+  "icon": "industrialforegoing:infinity_saw",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "인피니티 톱은 나무를 효율적으로 베는 도구입니다. 등급이 높을수록 한 번에 더 많은 블록을 벱니다. 큰 나무는 같은 블록을 계속 파괴하세요."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_saw"
+    }
+  ]
+}

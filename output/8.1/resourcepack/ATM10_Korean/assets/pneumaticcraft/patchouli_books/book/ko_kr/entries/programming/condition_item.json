@@ -1,0 +1,27 @@
+{
+  "name": "조건: 아이템 필터 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_item.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다. $(p)$(thing)조건: 아이템 필터/$ 위젯을 사용하면 $(l:programming/item_filter)아이템 필터/$를 비교할 수 있습니다. 이것은 아이템 필터를 $(l:programming/variables)변수/$와 함께 사용하는 경우 유용합니다. $(p)위젯은 맨 위 행의 오른쪽에 연결된 단일 $(l:programming/item_filter)아이템 필터/$ 위젯의 아이템을 검사합니다. 아이템이 2 행의 $(thing)아이템 필터/$에 지정된 필터와 일치하는지 확인합니다."
+    },
+    {
+      "type": "text",
+      "text": "평소와 같이 오른쪽을 화이트리스트(아이템이 이 필터와 일치하는 것을 의미합니다)에 사용해, 왼쪽을 블랙리스트(이 아이템이 이 필터에 $(italic)일치하지 않는/$를 의미합니다)에 사용합니다. 일치하는 경우 조건은 $(thing)true/$로 평가됩니다. 그렇지 않으면 조건은 $(thing)false/$로 평가됩니다."
+    },
+    {
+      "type": "text",
+      "text": "검사할 아이템을 여러 개 추가할 수 있습니다. 오른쪽 두 번째 줄에 $(l:programming/item_filter)아이템 필터/$를 여러 개 연결하면 $(italic)모든/$ 아이템이 필터와 일치할 때만 조건이 $(thing)참/$이 됩니다. 왼쪽에 놓은 $(l:programming/item_filter)아이템 필터/$는 조건이 $(thing)참/$이 되려면 해당 필터와 $(italic)일치하지 않아야/$ 합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_item.png"
+      ],
+      "text": "$(italic)조건: 아이템 필터 위젯/$"
+    }
+  ]
+}

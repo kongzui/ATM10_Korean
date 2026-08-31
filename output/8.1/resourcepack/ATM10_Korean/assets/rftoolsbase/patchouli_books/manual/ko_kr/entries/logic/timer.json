@@ -1,0 +1,18 @@
+{
+  "name": "시간제 노동자",
+  "icon": "rftoolsutility:timer",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:timer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "타이머는 레드스톤 펄스를 반복적으로 보내는 간단한 게이트입니다. 매우 긴 시간 초과에 사용할 수 있도록 지연 값을 입력할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "이 타이머의 특별한 점은 입력에서 레드스톤 펄스를 받으면 타이머가 다시 시작된다는 것입니다. 따라서 적시에 입력 펄스가 주어지면 이 블록은 펄스 자체를 출력하지 않습니다. 이 기능을 사용하면 이 블록을 특정 활동의 기한이 지난 것을 감지하는 방법으로 사용할 수 있습니다."
+    }
+  ]
+}

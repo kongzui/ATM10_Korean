@@ -15,6 +15,7 @@ from atmgear_catalog import TARGETS as ATMGEAR_TARGETS
 from local_paths import PROJECT_ROOT, resolve_source_root
 from relics_catalog import TARGETS as RELICS_TARGETS
 from silentgear_catalog import TARGETS as SILENTGEAR_TARGETS
+from version_context import active_output_root
 
 REPORT_FILE = PROJECT_ROOT / "working/goal_validation.json"
 COMPLETION_FILE = PROJECT_ROOT / "working/goal_completion.json"
@@ -104,8 +105,8 @@ def collision_audit(instance: Path) -> tuple[int, int, list[dict[str, object]]]:
                 key: value for key, value in english.items() if target.includes(key)
             }
         korean = load_object(
-            PROJECT_ROOT
-            / f"output/resourcepack/ATM10_Korean/assets/{target.namespace}/lang/ko_kr.json"
+            active_output_root()
+            / f"resourcepack/ATM10_Korean/assets/{target.namespace}/lang/ko_kr.json"
         )
         by_korean: dict[str, list[str]] = defaultdict(list)
         for key, source in english.items():
@@ -140,7 +141,8 @@ def scoped_text_files() -> list[Path]:
     files: set[Path] = set()
     for target in scoped_targets():
         root = (
-            PROJECT_ROOT / f"output/resourcepack/ATM10_Korean/assets/{target.namespace}"
+            active_output_root()
+            / f"resourcepack/ATM10_Korean/assets/{target.namespace}"
         )
         if root.is_dir():
             files.update(
@@ -149,7 +151,7 @@ def scoped_text_files() -> list[Path]:
                 if path.is_file() and path.suffix.lower() in TEXT_SUFFIXES
             )
     for root in (
-        PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/atm10_localization",
+        active_output_root() / "resourcepack/ATM10_Korean/assets/atm10_localization",
         PROJECT_ROOT / "working/apotheosis/quest_overrides.json",
         PROJECT_ROOT / "working/relics/quest_overrides.json",
         PROJECT_ROOT / "working/silentgear/quest_overrides.json",
@@ -170,7 +172,7 @@ def live_outputs(instance: Path) -> tuple[int, list[str]]:
     """누적 output 전체와 실제 인스턴스의 해시를 비교한다."""
     matches = 0
     errors: list[str] = []
-    resource_root = PROJECT_ROOT / "output/resourcepack/ATM10_Korean"
+    resource_root = active_output_root() / "resourcepack/ATM10_Korean"
     for source in sorted(path for path in resource_root.rglob("*") if path.is_file()):
         relative = source.relative_to(resource_root)
         target = instance / "resourcepacks/ATM10_Korean" / relative
@@ -178,7 +180,7 @@ def live_outputs(instance: Path) -> tuple[int, list[str]]:
             errors.append(f"resourcepack:{relative.as_posix()}")
         else:
             matches += 1
-    override_root = PROJECT_ROOT / "output/overrides"
+    override_root = active_output_root() / "overrides"
     for source in sorted(
         path
         for path in override_root.rglob("*")
@@ -229,16 +231,16 @@ def main() -> int:
         errors.append(f"공통 용어 금지 표현이 남았습니다: {forbidden_hits}")
 
     apothic_attributes = load_object(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/apothic_attributes/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/apothic_attributes/lang/ko_kr.json"
     )
     artifacts = load_object(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/artifacts/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/artifacts/lang/ko_kr.json"
     )
     silentgear = load_object(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/silentgear/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/silentgear/lang/ko_kr.json"
     )
     common_values = {
         "armor_toughness": apothic_attributes[
@@ -263,8 +265,8 @@ def main() -> int:
     if common_values != expected_values:
         errors.append("공통 능력치 또는 충돌 해소 이름이 확정값과 다릅니다.")
     apotheosis = load_object(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/apotheosis/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/apotheosis/lang/ko_kr.json"
     )
     if not any(
         "소켓" in value for value in apotheosis.values() if isinstance(value, str)
@@ -280,12 +282,12 @@ def main() -> int:
         errors.append(f"번역으로 생긴 아이템 이름 충돌이 있습니다: {collisions}")
 
     allthemodium = load_object(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/allthemodium/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/allthemodium/lang/ko_kr.json"
     )
     atm_localization = load_object(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/atm10_localization/lang/ko_kr.json"
     )
     shared_materials = sorted(
         key for key in allthemodium if key.startswith("material.silentgear.")

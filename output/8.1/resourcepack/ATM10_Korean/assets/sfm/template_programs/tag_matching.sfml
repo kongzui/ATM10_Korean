@@ -1,0 +1,66 @@
+NAME "태그 일치"
+
+EVERY 20 TICKS DO
+    -- 다음 표현은 서로 같습니다
+    INPUT WITH #forge:gems FROM chest
+    INPUT WITH TAG forge:gems FROM chest
+    INPUT WITH TAG #forge:gems FROM chest
+
+    -- 모든 네임스페이스와 일치시키려면 네임스페이스를 생략할 수 있습니다
+    -- 다음 표현은 서로 같습니다
+    INPUT WITH #ingots FROM chest
+    INPUT WITH TAG *:ingots FROM chest
+
+    -- 일부 태그는 경로 요소가 여러 개입니다
+    INPUT WITH TAG refinedstorage:disks/items/* FROM chest
+    INPUT WITH #tools/*/*_matter FROM chest
+
+    -- 블록 태그는 아이템에도 적용됩니다
+    INPUT *a* WITH TAG minecraft:mineable/shovel FROM chest
+
+    -- 남은 경로 전체와 일치시킬 수도 있습니다
+    INPUT WITH #the_bumblezone:essence/** FROM chest
+    -- 다음 태그와 일치합니다:
+    -- #the_bumblezone:essence/life/grow_plants
+    -- #the_bumblezone:essence/calming_arena/drowned_bonus_held_item"
+    -- #the_bumblezone:essence/knowing/block_entity_forced_highlighting"
+
+    -- 다른 조건과 함께 사용할 수도 있습니다
+    INPUT
+        3 RETAIN 5 WITH TAG #forge:ingots,
+        4 dirt,
+        WITH #mineable/axe,
+        minecraft: WITH #ingots,
+        stone,
+    EXCEPT sand, gold_ingot
+    FROM chest
+
+    -- 태그를 제외할 수도 있습니다
+    INPUT WITH NOT #needs_stone_tool FROM chest
+
+    INPUT
+        -- 여기에는 sfm:item:*:*가 암시되어 있습니다
+        WITH
+            NOT #needs_stone_tool
+            AND #ores/*
+    FROM chest -- 입력 아이템은 ores/* 태그가 있고 needs_stone_tool 태그가 없습니다
+
+    -- WITHOUT는 식 전체를 부정합니다
+    INPUT WITHOUT #needs_stone_tool AND #ores/* FROM chest
+    INPUT WITH NOT (#needs_stone_tool AND #ores/*) FROM chest
+    -- 두 태그를 모두 갖지 않은 아이템을 입력합니다
+    -- 다음 표현과는 다릅니다
+    INPUT WITH NOT #ores/* AND #needs_stone_tool FROM chest
+
+    -- EXCEPT는 명령문 전체에 적용됩니다("필터링" 예제 참조).
+    -- EXCEPT는 WITH 절을 지원하지 않습니다.
+    -- WITH 절에는 명령문 전체에 적용되는 제외 기능이 없습니다.
+    INPUT
+      * WITH #ores AND NOT #needs_stone_tool,
+      * WITHOUT #piglin_loved,
+    FROM chest
+
+
+
+    OUTPUT TO other_chest
+END

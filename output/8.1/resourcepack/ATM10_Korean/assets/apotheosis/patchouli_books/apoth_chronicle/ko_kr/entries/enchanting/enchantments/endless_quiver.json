@@ -1,0 +1,17 @@
+{
+  "name": "무한한 화살통",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(2)무한한 화살통$()은 활 전용 걸작 마법 부여입니다.$(p)활을 쏠 때 종류와 상관없이 화살을 소모하지 않습니다.$(p)$(9)무한$()의 직접적인 상위 마법 부여로 볼 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "다른 모드가 추가한 화살도 이 마법 부여로 무한히 사용할 수 있습니다."
+    }
+  ]
+}

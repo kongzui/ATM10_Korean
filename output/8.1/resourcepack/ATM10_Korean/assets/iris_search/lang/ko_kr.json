@@ -1,0 +1,7 @@
+{
+  "iris_search.button.search": "검색",
+  "iris_search.button.clear": "지우기",
+  "iris_search.tooltip.search": "셰이더 설정 검색(Ctrl + F)",
+  "iris_search.tooltip.clear": "셰이더 검색 종료(Esc)",
+  "iris_search.search.hint": "옵션 검색..."
+}

@@ -1,0 +1,298 @@
+{
+  "name": "드론 인터페이스",
+  "icon": "pneumaticcraft:drone_interface",
+  "category": "pneumaticcraft:machines",
+  "flag": "|mod:computercraft,mod:opencomputers",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "드론 인터페이스는 $(l:tools/drone)드론/$과 통신하는 $(thing)ComputerCraft/OpenComputers 주변 장치/$입니다. $(item)드론/$에 $(l:programming/computer_control)컴퓨터 제어 퍼즐 조각/$을 사용해 프로그램을 작성하세요.$(p)드론이 컴퓨터 제어 조각을 실행하면 조각의 영역 안에 있는 $(ttcolor)$(t:드론 인터페이스 하나에는 한 번에 드론 하나만 연결할 수 있습니다)사용 가능한/$ $(item)드론 인터페이스/$에 연결을 시도합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:drone_interface",
+      "text": "연결되면 드론은 인터페이스에 의해 완전히 제어됩니다. 구체적으로는 제어 중인 컴퓨터가 인터페이스에서 호출하는 Lua 메서드에 의해 제어됩니다. $(p)드론 인터페이스는 Lua 메소드의 긴 목록을 노출합니다. 이들은 모두 다음 페이지에 설명되어 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "예",
+      "text": "Lua 프로그램 예시:$(br)$(#008)m = peripheral.wrap(\"right\")$(br)m.addArea(100, 64, 100, 120, 4, 120, \"Filled\")$(br)m.setAction(\"dig\")$(br)while not m.isActionDone()$(br)do$(br)sleep(1)$(br)end$(br)m.clearArea()$(br)m.addArea(80, 65, 80)$(br)m.setAction(\"goto\")$(br)-- wait till done, as above$(br)m.setAction(\"standby\")$(p)/$드론이 (100,64,100)부터 (120,4,120)까지의 넓은 영역에 있는 모든 블록을 굴착한 뒤 (80,65,80)으로 돌아가 대기하게 합니다."
+    },
+    {
+      "type": "text",
+      "title": "예(계속)",
+      "text": "$(l:programming/programmer)프로그래머/$에서 드론 프로그램을 작성할 때와 달리, 앞의 Lua 프로그램은 굴착과 이동 작업이 끝날 때까지 명시적으로 기다린 뒤 다음 작업을 실행해야 합니다. Lua 프로그램은 별도 스레드에서 실행되어 월드와 직접 상호작용하지 못하므로 드론에 다음 작업을 지시하고 완료 여부를 확인해야 합니다."
+    },
+    {
+      "type": "text",
+      "title": "abortAction()",
+      "text": "$(#800)abortAction()/$$(p)현재 실행 중인 작업을 중지합니다."
+    },
+    {
+      "type": "text",
+      "title": "addArea()",
+      "text": "$(#800)addArea(<x1>,<y1>,<z1>)/$$(p)$(#800)addArea(<x1>,<y1>,<z1>,<x2>,<y2>,<z2>,<areaType>)/$$(p)드론에 현재 저장된 영역에 새 영역을 추가합니다. 두 번째 형식에서 x1/y1/z1은 첫 번째 지점($(l:tools/gps_area_tool)GPS 영역 도구/$의 P1)을, x2/y2/z2는 두 번째 지점인 P2를 나타냅니다.$(p)getAreaTypes()를 사용하면 유효한 영역 유형을 확인할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(#800)addBlacklistItemFilter(<item/block name>, <useNBT>, <useModSimilarity>)/$$(p)addWhitelistItemFilter(...)와 비슷합니다.",
+      "title": "addBlacklistItemFilter()"
+    },
+    {
+      "type": "text",
+      "title": "addBlacklistLiquidFilter()",
+      "text": "$(#800)addBlacklistLiquidFilter(<liquid name>)/$$(p)addWhitelistLiquidFilter(...)와 비슷하지만 유체를 블랙리스트에 등록합니다."
+    },
+    {
+      "type": "text",
+      "title": "addBlacklistText()",
+      "text": "$(#800)addBlacklistText(<text>)/$$(p)블랙리스트 텍스트에 텍스트를 추가합니다. 예를 들어 'entity_attack' 조치의 필터를 지정하는 데 사용됩니다."
+    },
+    {
+      "type": "text",
+      "text": "$(#800)addWhitelistItemFilter(<item/block name>, <useNBT>, <useModSimilarity>)/$$(p)다른 위젯의 오른쪽에 있는 $(l:programming/item_filter)아이템 필터/$ 위젯으로 작동합니다. 아이템/블록 이름은 레지스트리 이름입니다(예: $(thing)pneumaticcraft:pressure_tube/$). 'useXXX'는 모두 사용되는 필터를 결정하는 부울 값입니다 (아이템 필터 위젯 GUI와 유사).",
+      "title": "addWhitelistItemFilter()"
+    },
+    {
+      "title": "addWhitelistLiquidFilter()",
+      "text": "$(#800)addWhitelistLiquidFilter(<liquid name>)/$$(p)조각 오른쪽에 $l(:programming/liquid_filter)Liquid Filter/$ 조각을 놓은 것처럼 작동합니다. 유체의 레지스트리 이름(예: $(thing)minecraft:water/$)을 제공해야 합니다.",
+      "type": "text"
+    },
+    {
+      "text": "$(#800)addWhitelistText(<text>)/$$(p)화이트리스트 텍스트 목록에 텍스트를 추가합니다. 예를 들어, \"entity_attack\" 액션의 개체 필터를 지정하는 데 사용됩니다.",
+      "type": "text",
+      "title": "addWhitelistText()"
+    },
+    {
+      "title": "clearArea()",
+      "type": "text",
+      "text": "$(#800)clearArea()/$$(p)현재 저장된 영역을 지웁니다."
+    },
+    {
+      "title": "clearBlacklistItemFilter()",
+      "type": "text",
+      "text": "$(#800)clearBlacklistItemFilter()/$$(p)저장된 블랙리스트에 등록된 아이템 필터를 모두 클리어합니다."
+    },
+    {
+      "title": "clearBlacklistLiquidFilter()",
+      "text": "$(#800)clearBlacklistLiquidFilter()/$$(p)저장된 블랙리스트에 등록된 유체 필터를 모두 클리어합니다.",
+      "type": "text"
+    },
+    {
+      "text": "$(#800)clearBlacklistText()/$$(p)저장된 블랙리스트 텍스트를 모두 지웁니다.",
+      "type": "text",
+      "title": "clearBlacklistText()"
+    },
+    {
+      "title": "clearWhitelistItemFilter()",
+      "text": "$(#800)clearWhitelistItemFilter()/$$(p)저장된 화이트리스트에 등록된 아이템 필터를 모두 클리어합니다.",
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "text": "$(#800)clearWhitelistLiquidFilter()/$$(p)저장된 화이트리스트에 등록된 유체 필터를 모두 클리어합니다.",
+      "title": "clearWhitelistLiquidFilter()"
+    },
+    {
+      "title": "clearWhitelistText()",
+      "text": "$(#800)clearWhitelistText()/$$(p)저장된 화이트리스트에 등록된 텍스트를 모두 지웁니다.",
+      "type": "text"
+    },
+    {
+      "title": "evaluateCondition()",
+      "text": "$(#800)evaluateCondition()/$$(p)true/false를 반환합니다. $(l:programming/conditions)조건/$에서만 사용됩니다. 조건이 충족되었는지 여부에 따라 true/false를 반환합니다. 드론 조건은 $(#800)setAction()/$를 설정한 직후에 확인할 수 있지만, 비 드론 조건에서는 $(#800)evaluateCon dition()/$ 결과가 유효하기 전에 $(#800)isActionDone()/$가 true를 반환할 때까지 기다려야 합니다.",
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "text": "$(#800)exitPiece()/$$(p)드론의 $(thing)컴퓨터 컨트롤/$ 조각을 중지하고 무인 프로그램이 프로그램의 다음 퍼즐 조각으로 진행할 수 있습니다.",
+      "title": "exitPiece()"
+    },
+    {
+      "type": "text",
+      "title": "forgetTarget()",
+      "text": "$(#800)forgetTarget()/$$(p)드론이 ( \"entity_attack\"액션을 사용하여) 모든 개체를 대상으로 하는 경우 이로 인해 해당 대상에 대한 공격이 중지됩니다."
+    },
+    {
+      "text": "$(#800)getAction()/$$(p)$(#800)setAction()/$으로 마지막에 설정한 작업을 문자열로 반환합니다. 설정한 작업이 없으면 $(thing)nil/$을 반환합니다. 이 메서드가 nil을 반환하지 않을 때만 $(#800)isActionDone()/$을 호출하도록 확인할 때 사용할 수 있습니다.",
+      "type": "text",
+      "title": "getAction()"
+    },
+    {
+      "title": "getAllActions()",
+      "type": "text",
+      "text": "$(#800)getAllActions()/$$(p)현재 선택할 수 있는 모든 작업의 테이블을 반환합니다. 예: $(thing)pneumaticcraft:dig/$ 또는 $(thing)pneumaticcraft:place'/$. 각 작업은 $(l:programming/programmer#ids)프로그래머/$ GUI의 프로그래밍 위젯과 직접 대응합니다.$(p)기본 작업처럼 $(thing)pneumaticcraft:/$로 시작하는 작업은 $(thing)pneumaticcraft:/$ 접두사를 생략할 수 있습니다."
+    },
+    {
+      "title": "getAreaTypes()",
+      "text": "$(#800)getAreaTypes()/$$(p)모든 가능한 영역 유형(채우기, 프레임, 구체 등)의 테이블을 리턴합니다.",
+      "type": "text"
+    },
+    {
+      "title": "getDronePosition()",
+      "text": "$(#800)getDronePosition()/$$(p)드론의 x/y/z 위치를 반환합니다. 이 메소드는 종래의 호환성을 위해서 준비되고 있어 대신에 새로운 $(#800)getDronePositionVec()/$ 메소드를 사용하는 것을 추천합니다.",
+      "type": "text"
+    },
+    {
+      "title": "getDronePositionVec()",
+      "text": "$(#800)getDronePosition()/$$(p)드론의 x/y/z 좌표 테이블을 반환합니다. 개별 값은.x,.y,.z 필드를 사용하여 쉽게 추출할 수 있습니다. 예: $(#800)xpos = getDronePosition().x/$",
+      "type": "text"
+    },
+    {
+      "title": "getUpgrades()",
+      "type": "text",
+      "text": "$(#800)getUpgrades(<upgrade>)/$$(p)지정된 유형의 삽입된 업그레이드 수를 가져옵니다. $(p)업그레이드명은 상세정보가 유효(F3+H)로 되어 있는 PneumaticCraft의 업그레이드 아이템으로 마우스를 이동하여 아이템명에서 '_upgrade' 부분을 제거한 것을 취득함으로써 확인할 수 있습니다. $(p)예를 들어, $(thing)pneumaticcraft:speed_upgrade/$의 경우 이름은 \"speed\"입니다."
+    },
+    {
+      "type": "text",
+      "title": "getVariable()",
+      "text": "$(#800)getVariable(<variable name>)/$$(p)이 드론에서 변수의 값(x, y, z)을 반환합니다. $(l:programming/variables#global)글로벌/$ (맨 앞에 #) 및 $(l:programming/variables#special)특수/$ 변수 (맨 앞에 $)를 얻을 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "hideArea()",
+      "text": "$(#800)hideArea()/$$(p)$(#800)showArea()/$로 표시되는 드론에 저장된 영역의 월드 내 하이라이트를 중지합니다."
+    },
+    {
+      "type": "text",
+      "title": "isActionDone()",
+      "text": "$(#800)isActionDone()/$$(p)현재 작업이 끝났으면 true를 반환합니다. 예를 들어 'goto'가 목적지에 도착했거나, 'inventory import'가 더 가져올 수 없거나, 'dig'가 가능한 모든 블록을 팠을 때입니다."
+    },
+    {
+      "type": "text",
+      "title": "isConnectedToDrone()",
+      "text": "$(#800)isConnectedToDrone()/$$(p)드론 프로그램이 ComputerCraft 조각에 도달해 연결을 맺는 등, 드론이 이 드론 인터페이스에 연결되어 있으면 true를 반환합니다."
+    },
+    {
+      "type": "text",
+      "title": "removeArea()",
+      "text": "$(#800)removeArea (<x1>,<y1>,<z1>,<x2>,<y2>,<z2>,<areaType>)/$$(p)현재 저장되어 있는 영역에서 영역을 삭제합니다(영역을 블랙리스트에 등록하는 것과 같습니다)."
+    },
+    {
+      "type": "text",
+      "title": "setAction()",
+      "text": "$(#800)setAction(<action>)/$$(p)드론이 수행하는 동작을 설정합니다. 이것은 $(#800)getAllActions()/$에 의해 반환되는 액션의 하나여야 합니다. 이들은 F3+H가 전환되면 위젯의 툴팁에 액션 이름이 표시되는 $(l:programming/programmer)프로그래머/$GUI의 프로그래밍 위젯에 직접 대응합니다. $(p)접두사가 $(thing)pneumaticcraft:/$인 경우 접두사는 선택 사항입니다."
+    },
+    {
+      "type": "text",
+      "title": "setBlockOrder()",
+      "text": "$(#800)setBlockOrder(<\"closest\"/\"highToLow\"/\"lowToHigh\">)/$$(p)드론의 배치/굴착 순서를 설정합니다."
+    },
+    {
+      "type": "text",
+      "title": "setCanSteal()",
+      "text": "$(#800)setCanSteal (<true/false>)/$$(p)\"pickup_item\"액션이 사용되는 경우 일반적으로 드론이 방치하는 아이템 ($(thing)Immersive Engineering/$ 컨베이어 벨트의 아이템 등)을 훔칠 수 있는지 여부를 제어합니다. $(p)기본값은 \"false\"입니다. 드론은 아이템을 훔치려고 하지 않습니다."
+    },
+    {
+      "type": "text",
+      "title": "setCheckLineOfSight()",
+      "text": "$(#800)setCheckLineOfSight(<true/false>)/$$(p)\"entity_attack\"액션이 사용되는 경우, 드론이 그 영역내의 모든 타겟을 공격할지 직접 시선이 통과하고 있는 타겟만을 공격하는지. $(p)기본값은 \"false\"이며 시선은 확인되지 않습니다."
+    },
+    {
+      "type": "text",
+      "title": "setCount()",
+      "text": "$(#800)setCount(<amount>)/$$(p)이것은 import/export/drop 액션에 의해 처리되는 최대 아이템 수를 구성하며 조건 검사에서 검사되는 양에도 사용됩니다."
+    },
+    {
+      "type": "text",
+      "title": "setCraftingGrid()",
+      "text": "$(#800)setCraftingGrid(<item/block name>, <item/block name>,...(9x))/$$(p)\"crafting\" 액션을 사용할 때 이 조리법이 사용됩니다. 레시피를 구성하는 9 아이템을 모두 지정해야 합니다. 빈 부분에는 $(thing)nil/$를 지정합니다. 아이템의 명명 형식은 아이템 필터와 같습니다."
+    },
+    {
+      "type": "text",
+      "title": "setDropStraight()",
+      "text": "$(#800)setDropStraight(<true/false>)/$$(p)\"drop_item\" 액션이 현재 액션인 경우, 아이템이 랜덤한 속도로 드롭되는지(바닐라의 드로퍼와 같이), 바로 아래에 드롭 되는지."
+    },
+    {
+      "type": "text",
+      "title": "setEmittingRedstone()",
+      "text": "$(#800)setEmittingRedstone(<strength>)/$$(p)\"emit_redstone\" 액션이 현재 액션일 때 전송할 레드스톤 신호의 강도를 설정합니다."
+    },
+    {
+      "type": "text",
+      "title": "setIsAndFunction()",
+      "text": "$(#800)setIsAndFunction(<true/false>)/$$(p)조건에서만 사용됩니다. true의 경우, 체크된 모든 블록은 조건 요건(>=10 등)을 만족할 필요가 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "setMaxActions()",
+      "text": "$(#800)setMaxActions(<amount>)/$$(p)이것은 액션이 \"done\"으로 간주되기 전에 블록에 대해 수행되는 액션의 최대 수를 설정합니다. 이것은 'place', 'dig', 'block_right_click' 액션에 적용됩니다. 이것을 사용할 수 있도록(듯이) 하려면 반드시 $(#800)setUseMaxActions(true)/$도 호출해 주세요."
+    },
+    {
+      "type": "text",
+      "text": "$(#800)setOperator(<\"=\" / \">=\" / \"<=\">)/$$(p)조건에서만 사용됩니다. 조건이 동일한 양(=), 같거나 큰 양(>=) 또는 같거나 작은 양(<=)을 확인할지 여부를 지정합니다. 양은 $(#800)setCount()/$를 사용하여 설정할 수 있습니다.",
+      "title": "setOperator()"
+    },
+    {
+      "title": "setPlaceFluidBlocks()",
+      "type": "text",
+      "text": "$(#800)setPlaceFluidBlocks(<true/false>)/$$(p)\"liquid_export\" 액션에서만 사용됩니다. true로 설정하면 드론은 월드 내에 유체 블록을 배치할 수 있습니다. 기본 \"false\"는 유체를 유체 탱크로 내보내는 것만 허용합니다."
+    },
+    {
+      "title": "setRenameString()",
+      "text": "$(#800)setRenameString(<name>)/$$(p)\"rename\" 액션을 사용할 때 드론에 붙이는 이름을 설정합니다.",
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "title": "setRequiresTool()",
+      "text": "$(#800)setRequiresTool(<true/false>)/$$(p)이것은 드론이 \"dig\" 및 \"harvest\" 작업을 수행할 때 도구가 필요한지 여부를 구성합니다. 도구가 없으면 드론은 이러한 작업을 수행하지 않습니다."
+    },
+    {
+      "type": "text",
+      "title": "setRightClickType()",
+      "text": "$(#800)setRightClickType(\"click_item\" / \"click_block\")/$$(p)현재 작업이 \"block_right_click\"인 경우 드론이 보유한 아이템의 클릭 논리를 사용하는지(예: $(item)부싯돌과 부시/$를 사용하거나 대상 블록을 활성화할지(예: $(item)레버/$ 반전)를 제어합니다. 기본값은 'click_item'입니다."
+    },
+    {
+      "type": "text",
+      "title": "setSide()",
+      "text": "$(#800)setSide(<side>, <accessible>)/$$(p)특정 측면에 접근할 수 있는지 여부를 설정합니다. \"inventory_import\" 및 \"inventory_export\" 작업에서 사용되며 드론이 인벤토리의 어느 쪽에 접근할 수 있는지를 설정합니다. 또한 \"place\" 액션에서 블록을 배치하는 방법을 결정하는 데 사용됩니다."
+    },
+    {
+      "title": "setSides()",
+      "text": "$(#800)setSides(<down>, <up>, <north>, <south>, <east>, <west>)/$$(p)위와 동일하지만 한 번에 모든 측면을 설정하는 단일 메서드입니다. 이 메소드는 6의 부울 매개변수를 수신합니다.",
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "title": "setSignText()",
+      "text": "$(#800)setSignText(<line1>, <line2>,..., <lineN>)/$$(p)$(thing)edit_sign/$ 액션이 사용될 때 간판 및 격언 타일로 전송되는 텍스트를 설정합니다."
+    },
+    {
+      "title": "setSneaking()",
+      "text": "$(#800)setSneaking(<true/false>)/$$(p)\"block_right_click\" 액션에서만 사용됩니다. 이렇게하면 가짜 플레이어가 우클릭하는 동안 스니크하는지 여부가 설정됩니다.",
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "text": "$(#800)setUseCount(<true/false>)/$$(p)드론이 imported/exported/dropped 아이템의 최대 수를 가질지 여부를 설정합니다. true의 경우는 반드시 $(#800)setCount()/$도 호출해 주세요.",
+      "title": "setUseCount()"
+    },
+    {
+      "title": "setUseMaxActions()",
+      "type": "text",
+      "text": "$(#800)setUseMaxActions(<true/false>)/$$(p)명령이 \"done\"으로 간주되기 전에 드론이 한 번에 1 블록에서 수행할 수 있는 최대 작업 수를 설정합니다. 'place', 'dig', 'block_right_click' 액션에 적용됩니다. true의 경우는 $(#800)setMaxActions()/$도 반드시 호출해 주세요."
+    },
+    {
+      "text": "$(#800)setVariable(<variable name>, <x>, <y>, <z>)/$$(p)이 드론의 $(l:programming/variables)변수/$를 지정된 X/Y/Z 좌표로 설정합니다. $(l:programming/variables#global)전역 변수/$를 설정할 수도 있습니다.",
+      "type": "text",
+      "title": "setVariable()"
+    },
+    {
+      "text": "$(#800)setVariable(<variable name>, <boolean>)/$$(p)이 드론의 $(l:programming/coordinate_operator)변수/$를 설정합니다. 'true'는 (1,0,0)를 전달하는 것과 같습니다. 'false'는 (0,0,0)를 전달하는 것과 같습니다.",
+      "type": "text",
+      "title": "setVariable()"
+    },
+    {
+      "type": "text",
+      "title": "showArea()",
+      "text": "$(#800)showArea()/$$(p)프로그래밍 위젯 옵션 GUI에서 $(thing)범위 표시/$를 클릭하면 사용되는 것과 동일한 영역 렌더러를 사용하여 현재 저장된 영역이 표시됩니다. $(#800)hideArea()/$를 사용하면 이러한 영역을 숨길 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "드론 인터페이스 제작",
+      "recipe": "pneumaticcraft:drone_interface"
+    }
+  ]
+}

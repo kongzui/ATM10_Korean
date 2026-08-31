@@ -1,0 +1,4 @@
+rename은 파일이나 디렉터리의 이름을 바꿉니다.
+
+ex:
+"rename foo bar"는 파일 "foo"의 이름을 "bar"로 바꿉니다.

@@ -1,0 +1,6 @@
+{
+  "name": "튜브 및 모듈",
+  "description": "압력 튜브는 $(pncr)내에서 압축 공기를 이동시키는 방법입니다.",
+  "icon": "pneumaticcraft:pressure_tube",
+  "sortnum": 2
+}

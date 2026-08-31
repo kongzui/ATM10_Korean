@@ -1,0 +1,17 @@
+{
+  "name": "페리코어 활",
+  "sortnum": 6,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:bow_ferricore",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "페리코어 활은 일반 활보다 내구도가 높고 여러 능력을 업그레이드할 수 있습니다.$(br2)도구 설정 화면에 물약 캔 슬롯이 있어 화살에 다양한 물약 효과를 부여합니다. $(l:justdirethings:item_potion_canister)물약 캔$(/l)을 넣어 효과를 적용하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:bow_ferricore",
+      "text": "페리코어 활 제작"
+    }
+  ]
+}

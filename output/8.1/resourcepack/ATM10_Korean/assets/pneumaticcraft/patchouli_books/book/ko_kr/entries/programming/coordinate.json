@@ -1,0 +1,23 @@
+{
+  "name": "좌표 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/coordinate_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)좌표/$는 $(l:programming/coordinate_operator)좌표 Operator/$ 및 $(l:programming/condition_coordinate)조건: 좌표/$ 위젯에 대한 매개 변수로만 사용되는 위젯입니다. $(p)이 위젯은 제공하는 $(thing)영역/$ 위젯과 함께 $(l:programming/area)영역/$ 위젯과 비교할 수 있습니다. $(italic)two/$는 영역을 구성하는 좌표인 반면, 이 위젯을 사용하면 $(italic)one/$만 제공하면 됩니다. 좌표를 제공하는 방법에는 두 가지가 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)상수/$$(br)상수 좌표는 바로... 상수입니다. $(l:tools/gps_tool)GPS 도구/$를 선택하거나 X/Y/Z 값을 텍스트 필드에 직접 입력하여 상수 좌표를 선택할 수 있습니다. $(p)$(bold)변수/$$(br)변수를 선택하면 $(l:programming/variables)변수/$에 저장된 값을 좌표로 반환할 수 있습니다. 이 경우 좌표만 지정할 수 있으며 변수를 변경할 수 없습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/coordinate_piece.png"
+      ],
+      "text": "$(italic)좌표 위젯/$"
+    }
+  ]
+}

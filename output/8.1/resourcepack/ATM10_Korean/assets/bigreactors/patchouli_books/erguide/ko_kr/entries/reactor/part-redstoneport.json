@@ -1,0 +1,43 @@
+{
+  "name": "레드스톤 포트",
+  "icon": "bigreactors:reinforced_reactorredstoneport",
+  "category": "bigreactors:reactor-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_reactorredstoneport",
+      "link_recipe": true,
+      "title": "레드스톤 포트",
+      "text": "레드스톤 포트로 레드스톤 신호를 사용해 원자로를 자동화할 수 있습니다.$(br2)포트 화면을 열어 설정하세요. 신호를 받는 입력 설정 세 가지와 신호를 내보내는 출력 설정 여섯 가지 중에서 선택할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)입력 설정$()$(br2)레드스톤 신호를 받으면 다음 동작 중 하나를 수행합니다.$(br2)$(li)$(o)켜기/끄기: $()받은 신호에 따라 원자로를 켜거나 끕니다.$(li)$(o)폐기물 배출: $()폐기물을 출력 모드의 반입출 포트로 보냅니다.$(li)$(o)제어봉 삽입: $()원자로의 모든 제어봉 삽입 비율을 설정합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)출력 설정$()$(br2)다음 조건 중 하나를 만족하면 레드스톤 신호를 내보냅니다.$(br2)$(li)$(o)외장 온도: $()원자로 외장 온도가 설정값보다 높거나 낮거나 범위 안에 있을 때입니다.$(li)$(o)노심 온도: $()원자로 노심 온도가 설정값보다 높거나 낮거나 범위 안에 있을 때입니다.$(li)$(o)연료 반응성: $()연료 반응성 비율이 설정값보다 높거나 낮거나 범위 안에 있을 때입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(o)연료 양: $()연료 양이 설정값보다 높거나 낮거나 범위 안에 있을 때입니다.$(li)$(o)폐기물 양: $()폐기물 양이 설정값보다 높거나 낮거나 범위 안에 있을 때입니다.$(li)$(o)저장된 에너지: $()내부 버퍼의 에너지 양이 설정값보다 높거나 낮거나 범위 안에 있을 때입니다.$(li)$(o)냉각재 양: $()냉각재 양이 설정값보다 높거나 낮거나 범위 안에 있을 때입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(o)증기 양: $()원자로의 증기 양이 설정값보다 높거나 낮거나 범위 안에 있을 때 신호를 출력합니다.$(br2)원자로를 완전히 자동화하려면 보통 레드스톤 포트가 두 개 이상 필요합니다.$(br2)더 복잡한 자동화는 $(l:bigreactors:reactor/part-computerport)컴퓨터 포트$(/l)를 확인하세요."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic",
+      "recipe1": "bigreactors:reactor/basic/redstoneport",
+      "title2": "Reinforced",
+      "recipe2": "bigreactors:reactor/reinforced/redstoneport"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수:$() 아니요$(br)$(l)설치 가능 위치: $() 모든 면(프레임에 없음)$(br)$(l)종류:$() 모두$(br)$(l)화면: $() 예"
+    }
+  ]
+}

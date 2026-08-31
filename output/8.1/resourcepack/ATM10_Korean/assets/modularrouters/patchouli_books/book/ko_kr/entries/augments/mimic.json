@@ -1,0 +1,15 @@
+{
+  "name": "모방 증강",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:mimic_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 증강은 $(l:modules/extruder_2)압출기 모듈 Mk2/$에만 넣을 수 있습니다.$(p)증강을 넣으면 모듈이 압출한 가짜 블록이 모방 대상의 성질도 따릅니다. 예를 들어 $(item)흑요석/$은 단단하고, $(item)발광석/$은 빛을 내며, $(item)레드스톤 블록/$은 레드스톤 신호를 냅니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:mimic_augment"
+    }
+  ]
+}

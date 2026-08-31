@@ -1,0 +1,17 @@
+{
+  "name": "능숙한 화로",
+  "icon": "industrialforegoing:resourceful_furnace",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "화로 3대를 하나로 합친 기계입니다.$(br2)아이템 하나를 제련할 때마다 정수 $(6)2$()mb를 생산하며, $(6)40$()RF/t를 사용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:resourceful_furnace"
+    }
+  ]
+}

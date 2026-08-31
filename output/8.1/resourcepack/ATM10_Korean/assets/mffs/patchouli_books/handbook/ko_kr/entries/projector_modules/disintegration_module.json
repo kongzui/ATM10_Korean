@@ -1,0 +1,32 @@
+{
+  "name": "분해 모듈",
+  "icon": "mffs:disintegration_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:disintegration_module",
+      "link_recipe": true,
+      "text": "$(5)분해 모듈$()는 $(l:mffs:machines/projector)역장 프로젝터$()에서 사용하여 역장이 주변 환경에 미치는 영향. $(5)분해 모듈$()를 프로젝터의 매트릭스 슬롯에 배치하면 생성된 필드가 모든 것을 깨뜨리게 됩니다. 그것을 방해하는 블록. 부서진 블록은 아이템으로 드롭되며, 주울 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:disintegration_module",
+      "text": "$(5)분해 모듈$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "사용법",
+      "text": "$(5)분해 모듈$()은 모든 프로젝터 모드와 호환되며 $(l:mffs:projector_modules/stabilization_module)$(5)안정화 모듈$()의 효과를 되돌릴 때도 사용할 수 있습니다. $(l:mffs:upgrade_modules/speed_module)$(5)속도 모듈$()을 넣으면 여러 블록을 동시에 분해합니다. $(l:mffs:projector_modules/collection_module)$(5)수집 모듈$()과 함께 쓰면 파괴한 블록을 자동으로 수집합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/disintegration_module.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "$(5)분해 모듈$()를 사용하여 벽을 파괴하는 역장 프로젝터."
+    }
+  ]
+}

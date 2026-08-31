@@ -1,0 +1,27 @@
+{
+  "name": "회전자 베어링",
+  "icon": "bigreactors:reinforced_turbinerotorbearing",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbinerotorbearing",
+      "link_recipe": true,
+      "title": "회전자 베어링",
+      "text": "회전자 베어링은 터빈 $(l:bigreactors:turbine/rotor)회전자$(/l)의 시작점입니다.$(br2)보통 터빈 면 중앙에 하나를 놓고, 뒤쪽으로 $(l:bigreactors:turbine/part-rotorshaft)회전자 축$(/l)을 이어 놓습니다."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic",
+      "recipe1": "bigreactors:turbine/basic/bearing",
+      "title2": "Reinforced",
+      "recipe2": "bigreactors:turbine/reinforced/bearing"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수 여부:$() 정확히 하나$(br)$(l)설치 가능 위치:$() 틀이 아닌 모든 면$(br)$(l)종류:$() 전체$(br)$(l)화면:$() 없음"
+    }
+  ]
+}

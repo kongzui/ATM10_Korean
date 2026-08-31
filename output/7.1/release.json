@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "pack_version": "7.1",
+  "resourcepack_name": "ATM10_Korean",
+  "validated_pack_version": "7.1",
+  "rebase_target_version": null,
+  "status": "validated_release",
+  "full_apply_allowed": true,
+  "baseline_commit": "5011ad5",
+  "note": "ATM10 7.1에서 검증을 마친 보존 산출물이다."
+}

@@ -1,0 +1,31 @@
+{
+  "pages": [
+
+    {
+      "type": "standard",
+
+      "summary": "이제 농사를 시작하고 맛있고 상호작용할 수 있는 요리로 집을 채울 준비가 됐어요.\n\n질문이 있거나 바로 도움이 필요하면 Discord에 참여해 주세요:\n\nhttps://discord.gg/2QWyQ8fkUr",
+
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mama.png",
+          "caption": "herbsandharvest.guide_book.chapters.mama_caption",
+          "image_width": 30,
+          "image_height": 30
+        },
+        {
+
+		  "type": "text",
+		  "literal_text": "\n\n제가 만든 모드 목록에 더해진 이 모드를 즐겨 주셨으면 해요.\n\n사랑을 담아,\n~ 마마 미셸",
+		  "text": null
+
+
+        }
+      ]
+    }
+
+
+
+  ]
+}

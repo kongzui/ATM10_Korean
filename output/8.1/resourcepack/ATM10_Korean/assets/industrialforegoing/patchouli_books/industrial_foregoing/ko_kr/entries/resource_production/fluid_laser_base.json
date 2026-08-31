@@ -1,0 +1,17 @@
+{
+  "name": "유체 레이저 베이스",
+  "icon": "industrialforegoing:fluid_laser_base",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 15,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:resource_production/laser_drill)레이저 드릴$()로 완전히 충전하면 유체를 생산합니다. 소모되지 않는 특정 촉매가 필요하며, 기계를 특정 생물군계에 설치하고 특정 깊이로 설정해야 합니다.$(br2)일부 유체는 기계 아래에 특정 개체가 있어야 생산됩니다.$(br2)정확한 조건은 JEI에서 확인하세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_laser_base"
+    }
+  ]
+}

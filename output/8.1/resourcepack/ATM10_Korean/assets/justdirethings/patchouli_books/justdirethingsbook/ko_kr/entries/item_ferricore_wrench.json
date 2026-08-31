@@ -1,0 +1,17 @@
+{
+  "name": "페리코어 렌치",
+  "sortnum": 3,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:ferricore_wrench",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "페리코어 렌치는 블록을 회전하고 교환기를 연결하는 데 사용되는 다목적 도구입니다. 건설을 최적화하려는 건축업자와 기술자에게 필수품입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "페리코어 렌치 제작",
+      "recipe": "justdirethings:ferricore_wrench"
+    }
+  ]
+}

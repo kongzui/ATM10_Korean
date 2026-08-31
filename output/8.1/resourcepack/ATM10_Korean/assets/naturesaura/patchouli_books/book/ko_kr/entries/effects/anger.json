@@ -1,0 +1,12 @@
+{
+  "name": "설명할 수 없는 분노",
+  "icon": "minecraft:fire_charge",
+  "category": "naturesaura:effects",
+  "advancement": "naturesaura:negative_imbalance",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(aura) 레벨이 세계 어느 지역에서나 충분히 낮아지면 환경의 압력이 증가하여 자신을 억제하기가 더 어려워집니다. $(item)좀비화된 피글린$(), $(item)엔더맨$() 및 일반적으로 방해를 받을 때만 귀찮게 느끼는 기타 생물과 같은 특정 몬스터는 가까이 다가가자마자 완전히 갑자기 갑자기 $(thing)화를 내다$()를 시작합니다."
+    }
+  ]
+}

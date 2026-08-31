@@ -1,0 +1,17 @@
+{
+  "name": "크리스마스 크리퍼",
+  "icon": "merrymaking:christmas_creeper_spawn_egg",
+  "category": "merrymaking:mobs",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "연말 분위기에 맞춰 이 작은 친구가 플레이어를 위한 특별한 선물을 준비했어요. 충분히 가까이 다가오게 둔다면 말이죠."
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "크리스마스 크리퍼",
+      "entity": "merrymaking:christmas_creeper",
+      "text": "그저... 화나게 하지는 마세요. 화난 모습은 마음에 들지 않을 테니까요."
+    }
+  ]
+}

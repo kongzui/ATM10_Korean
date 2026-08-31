@@ -1,0 +1,17 @@
+{
+  "name": "지진",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_earthquake",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "지진 업그레이드로 자연의 힘을 마음껏 발휘하세요. 이 업그레이드는 주변에 강력한 진동을 일으켜 근처의 모든 적의 속도를 늦춥니다.$(br2)도구 설정 메뉴에서 설정된 바운드 단축키로 활성화해야 합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "지진 제작",
+      "recipe": "justdirethings:upgrade_earthquake"
+    }
+  ]
+}

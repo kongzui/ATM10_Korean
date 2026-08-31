@@ -1,0 +1,23 @@
+{
+  "name": "담장",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:fences",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "merrymaking:brick_garland_wall",
+      "text": "기본 게임의 모든 담장 블록을 가랜드로 장식할 수 있어요.$(br2)조합대에서 담장과 원하는 가랜드를 조합하세요."
+    },
+    {
+      "type": "crafting",
+      "title": "가랜드를 두른 담장",
+      "recipe": "merrymaking:andesite_wall_garland",
+      "recipe2": "merrymaking:stone_brick_wall_garland_white"
+    },
+    {
+      "type": "crafting",
+      "title": "가랜드를 두른 담장",
+      "recipe": "merrymaking:sandstone_wall_garland_multi"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "pack_version": "8.1",
+  "minecraft_version": "1.21.1",
+  "mod_loader": "neoforge-21.1.249",
+  "role": "active_target",
+  "status": "rebase_in_progress",
+  "structure_report": "versions/8.1/reports/structure_validation.md",
+  "first_launch": {
+    "completed": true,
+    "kubejs_startup_scripts": 19,
+    "kubejs_client_scripts": 15,
+    "kubejs_errors": 0,
+    "baseline_report": "versions/8.1/reports/first_launch.md"
+  },
+  "discovery": {
+    "jar_files": 488,
+    "english_namespaces": 398,
+    "korean_namespaces": 154,
+    "ftbquest_chapters": 66,
+    "jar_scan_errors": 0,
+    "language_json_errors": 1,
+    "known_source_error": "mcwtrpdoors JAR 내부 ko_kr.json 문법 오류"
+  },
+  "inherited_output_issues": [
+    "herbsandharvest books/chapters/grapes.json 뒤쪽 중복 닫기 구조",
+    "herbsandharvest books/chapters/herbs.json 뒤쪽 중복 닫기 구조"
+  ]
+}

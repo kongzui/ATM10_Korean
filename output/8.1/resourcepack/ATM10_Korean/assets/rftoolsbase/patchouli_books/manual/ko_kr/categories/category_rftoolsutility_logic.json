@@ -1,0 +1,7 @@
+{
+  "name": "논리 블록",
+  "description": "레드스톤 신호를 만들고 처리하는 논리 회로 블록을 설명합니다.",
+  "parent": "rftoolsbase:category_rftoolsutility",
+  "icon": "rftoolsutility:sequencer",
+  "sortnum": 30
+}

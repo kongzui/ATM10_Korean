@@ -1,0 +1,19 @@
+{
+  "name": "조건: 레드스톤 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_redstone_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다. $(p)$(thing)조건 : 레드스톤/$ 위젯을 사용하면 연결된 $(l:programming/area)영역/$ 위젯 내의 블록의 레드스톤 레벨이 구성된 레드스톤 임계 값과 일치합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_redstone_piece.png"
+      ],
+      "text": "$(italic)조건 : 레드스톤 위젯/$"
+    }
+  ]
+}

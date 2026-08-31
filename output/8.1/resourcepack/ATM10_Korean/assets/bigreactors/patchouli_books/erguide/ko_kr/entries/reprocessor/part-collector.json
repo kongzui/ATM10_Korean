@@ -1,0 +1,22 @@
+{
+  "name": "수집기",
+  "icon": "bigreactors:reprocessorcollector",
+  "category": "bigreactors:reprocessor-parts",
+  "read_by_default": true,
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reprocessorcollector",
+      "link_recipe": true,
+      "title": "수집기",
+      "text": "수집기는 재처리 작업이 끝나면 재처리기 내부의 완성된 재료를 회수합니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Collector",
+      "crafting.recipe1": "bigreactors:reprocessor/collector",
+      "usage.text": "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() bottom face (not on frame)$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

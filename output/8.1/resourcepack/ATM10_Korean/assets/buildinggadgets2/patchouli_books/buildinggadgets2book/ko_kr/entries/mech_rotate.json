@@ -1,0 +1,23 @@
+{
+  "name": "회전",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/rotate.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "회전 기능을 사용하면 복사 붙여넣기 또는 잘라내기 붙여넣기 구조물을 시작점을 중심으로 돌릴 수 있습니다.$(br2)직접 사용하며 미리 보기가 어떻게 변하는지 확인하거나 오른쪽 그림을 차례로 살펴보세요."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "회전",
+      "images": [
+        "buildinggadgets2:textures/book/images/rotate1.png",
+        "buildinggadgets2:textures/book/images/rotate2.png",
+        "buildinggadgets2:textures/book/images/rotate3.png"
+      ],
+      "border": true,
+      "text": "집을 회전합니다!"
+    }
+  ]
+}

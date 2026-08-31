@@ -1,0 +1,12 @@
+{
+  "name": "다형성 유체",
+  "sortnum": 26,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:polymorphic_fluid_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "다형성 유체는 다른 유체를 만드는 데 필수적인 다용도 기본 유체입니다. $(l:justdirethings:res_polymorphic_catalyst)다형성 촉매$(/l)를 물에 떨어뜨려 이 유체를 만듭니다. 다양한 자원과 독특한 반응을 거쳐 특수 연료를 형성하며 연료 제작 과정에서 중요한 구성 요소 역할을 합니다."
+    }
+  ]
+}

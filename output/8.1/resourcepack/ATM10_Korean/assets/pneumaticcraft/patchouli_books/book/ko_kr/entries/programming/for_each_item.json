@@ -1,0 +1,24 @@
+{
+  "name": "아이템 루프 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/for_each_item.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 고급 위젯은 연결된 모든 $(l:programming/item_filter)아이템 필터/$에 대해 서브루틴을 실행합니다. 각 필터에 대해 지정된 변수를 해당 필터로 설정하고 연결된 $(l:programming/text)텍스트/$ 위젯과 일치하는 $(l:programming/label)Label/$로 이동합니다. 해당 루틴 실행이 완료되면(일반적으로 $(l:programming/start)Start/$로 다시 점프하는 프로그램 끝에 도달하면) 이 위젯으로 돌아와 다음 $(thing)아이템 필터/$에 대해 동일한 작업을 수행합니다."
+    },
+    {
+      "type": "text",
+      "title": "중단",
+      "text": "$(thing)아이템 루프/$에서 사용되는 아이템 변수를 빈 필터로 설정하여 루프에서 벗어날 수 있습니다 (이 작업을 수행하려면 $(l:programming/item_assign)아이템 할당/$ 위젯 사용). 다음 번에 프로그램이 $(thing)아이템 루프/$로 돌아오면 프로그램이 이를 인식하고 필터의 추가 횡단을 취소합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/for_each_item.png"
+      ],
+      "text": "$(italic)아이템 루프 위젯/$"
+    }
+  ]
+}

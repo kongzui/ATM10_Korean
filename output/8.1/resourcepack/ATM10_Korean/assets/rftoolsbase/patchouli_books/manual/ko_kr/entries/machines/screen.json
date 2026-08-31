@@ -1,0 +1,38 @@
+{
+  "name": "화면",
+  "icon": "rftoolsutility:screen",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:screen": 0,
+    "rftoolsutility:creative_screen": 0,
+    "rftoolsutility:text_module": 0,
+    "rftoolsutility:energy_module": 0,
+    "rftoolsutility:energyplus_module": 0,
+    "rftoolsutility:inventory_module": 0,
+    "rftoolsutility:inventoryplus_module": 0,
+    "rftoolsutility:clock_module": 0,
+    "rftoolsutility:fluid_module": 0,
+    "rftoolsutility:fluidplus_module": 0,
+    "rftoolsutility:machineinformation_module": 0,
+    "rftoolsutility:computer_module": 0,
+    "rftoolsutility:button_module": 0,
+    "rftoolsutility:redstone_module": 0,
+    "rftoolsutility:counter_module": 0,
+    "rftoolsutility:counterplus_module": 0,
+    "rftoolsutility:tablet_screen": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "화면은 장착한 모듈에 따라 여러 정보를 표시합니다. 근처의 $(l:rftoolsbase:machines/screen_controller)화면 제어기$(/l)에서 무선으로 전력을 공급받아야 합니다.$(br2)빈손으로 $(5)우클릭$()해 화면 GUI를 여세요."
+    },
+    {
+      "type": "text",
+      "text": "GUI에서 모듈을 설치하거나, 모듈을 들고 화면을 우클릭해 설치할 수 있습니다.$(br2)에너지 모듈처럼 대상을 지정해야 하는 모듈은 먼저 감시할 기계를 모듈로 $(5)웅크린 채 우클릭$()하세요."
+    },
+    {
+      "type": "text",
+      "text": "화면에 설치한 모듈은 일반 화면 GUI에서 각 모듈 GUI를 열어 표시 방식을 설정할 수 있습니다.$(br2)완전 밝기 모드를 켤 수 있으며, 렌치로 화면의 크기와 투명도를 바꿀 수도 있습니다."
+    }
+  ]
+}

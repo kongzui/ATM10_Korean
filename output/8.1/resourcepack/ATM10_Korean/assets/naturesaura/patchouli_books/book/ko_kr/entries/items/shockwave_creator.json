@@ -1,0 +1,17 @@
+{
+  "name": "분노의 아뮬렛",
+  "icon": "naturesaura:shockwave_creator",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)분노의 아뮬렛$()를 인벤토리의 어느 곳에나 들고 있으면 착용자가 자신의 힘을 집중할 수 있으며, $(thing)몰래$() 및 $(thing)점프$()가 제자리에 있을 때 근처에 있는 다른 생명체에게 해를 끼칠 수 있는 $(item)충격파$()를 생성할 수 있을 만큼 세게 땅을 밟을 수 있습니다.$(br)물론 일부 비용이 발생합니다. $(aura)는 $(l:items/aura_cache)오라 캐시$() 형식으로 저장됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)분노의 아뮬렛$() 생성",
+      "recipe": "naturesaura:shockwave_creator"
+    }
+  ]
+}

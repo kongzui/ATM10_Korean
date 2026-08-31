@@ -1,0 +1,48 @@
+{
+  "name": "자연의 제단",
+  "icon": "naturesaura:nature_altar",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:aura_bottle_overworld",
+  "priority": true,
+  "turnin": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "초기에 $(aura)를 수집하는 초보적이면서도 효과적인 방법은 $(item)자연의 제단$()입니다. 다음 페이지에 표시된 설정을 생성한 후 제단은 근처에서 $(aura)를 천천히 배수하기 시작합니다. 그러나 큰 피해를 입힐 만큼 강하지 않아 해당 지역에 아무도 남지 않을 때까지만 배수됩니다. $(br)수집된 $(aura)는 다음 페이지에 표시된 대로 사용할 수 있습니다."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "naturesaura:altar",
+      "text": "$(item)자연의 제단$() 조립 방법"
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "text": "$(l:practices/tree_ritual)숲의 의식$()를 사용하여 $(item)자연의 제단$() 생성",
+      "recipe": "naturesaura:nature_altar"
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:gold_brick",
+      "text": "$(item)자연의 제단$()의 멀티블록에 사용되는 $(item)황금 돌 벽돌$()를 생성합니다. 또는 유사한 방식으로 $(item)황금 황천 벽돌$()를 생성할 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(item)자연의 제단$()가 충분한 양의 $(aura)를 수집하면 특정 재료의 아이템을 주입할 수 있습니다. 이렇게 하려면 재료를 제단 위에 놓고 주입이 완료될 때까지 기다리면 됩니다."
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(aura)의 힘이 부여된 재료인 $(item)주입된 철분$()를 생성하여 여러 가지 마법 $(thing)천연 아이템$()에 사용할 수 있습니다.$(br)재료의 블록 형태를 사용하여 동일한 주입이 가능하다는 점에 유의하세요.",
+      "recipe": "naturesaura:infused_iron"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(aura)의 더 깊고 어두운 측면을 지닌 재료인 $(item)타락한 금$()를 생성합니다. 즉, 공정에서 $(aura)를 덜 사용하면서 주입하는 데 훨씬 더 오랜 시간이 걸립니다.$(br)재료의 블록 형태를 사용하여 동일한 주입이 가능하다는 점에 유의하세요.",
+      "recipe": "naturesaura:tainted_gold"
+    },
+    {
+      "type": "naturesaura:altar",
+      "text": "$(aura)가 주입된 지상 물질인 $(item)주입된 돌$()를 생성합니다.",
+      "recipe": "naturesaura:infused_stone"
+    }
+  ]
+}

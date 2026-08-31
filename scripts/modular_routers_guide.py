@@ -14,6 +14,7 @@ from zipfile import ZipFile
 
 from five_family_goal import is_allowed_original
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -24,8 +25,8 @@ WORK_ROOT = PROJECT_ROOT / "working/modular_routers/guide"
 ENGLISH_ROOT = WORK_ROOT / "en_us"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/modularrouters/patchouli_books/book/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/modularrouters/patchouli_books/book/ko_kr"
 )
 TRANSLATIONS_FILE = PROJECT_ROOT / "working/modular_routers/guide_translations.json"
 LANG_ENGLISH = PROJECT_ROOT / "working/modular_routers/modularrouters/en_us.json"

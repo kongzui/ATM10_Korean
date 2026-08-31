@@ -1,0 +1,7 @@
+{
+  "name": "어픽스 전리품",
+  "description": "모험하다 보면 다양한 보너스가 붙은 아이템을 발견할 수 있습니다.$(p)이들은 각기 다른 수준의 힘을 지닌 과거의 유물, 어픽스 아이템입니다.",
+  "icon": "minecraft:chest",
+  "flag": "apotheosis:adventure",
+  "parent": "apotheosis:adventure/adventure"
+}

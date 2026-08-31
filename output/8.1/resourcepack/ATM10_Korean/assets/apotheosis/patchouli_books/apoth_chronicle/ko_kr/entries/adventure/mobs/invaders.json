@@ -1,0 +1,28 @@
+{
+  "name": "아포틱 침략자",
+  "icon": "minecraft:beacon",
+  "category": "apotheosis:adventure/mobs",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "기묘한 소리, 수상한 메시지, 하늘에서 내리꽂히는 거대한 빛줄기...$(p)모든 징조가 아포틱 침략자의 습격을 가리킵니다!"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "등장 방식",
+      "text": "아포틱 침략자는 일반 몹이 생성될 수 있는 지상에 드물게 나타납니다.$(p)침략자가 도착하면 큰 소리와 상태 메시지, 신호기 광선으로 알려 줍니다.$(p)침략자의 출현 빈도는 월드 티어와 차원에 따라 달라질 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "침략자 희귀도",
+      "text": "각 침략자에게는 이름과 윤곽선 색으로 표시되는 희귀도가 있습니다.$(p)희귀도가 높은 침략자는 더 강하지만 그만큼 더 좋은 전리품을 떨어뜨립니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "전리품",
+      "text": "침략자는 $(l:apotheosis:adventure/mobs/invader_items)특별한 어픽스 아이템$()을 반드시 떨어뜨리며, 일반 몹과 달리 추가 보너스 전리품 테이블을 가질 수도 있습니다.$(p)보석을 떨어뜨릴 확률도 더 높습니다."
+    }
+  ]
+}

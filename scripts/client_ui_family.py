@@ -11,10 +11,11 @@ from pathlib import Path
 from zipfile import ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 FAMILY = "client_ui"
 WORK_ROOT = PROJECT_ROOT / "working/client_ui"
-OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ROOT = active_output_root() / "resourcepack/ATM10_Korean/assets"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-Za-z]")
 NUMBER = re.compile(r"(?<![A-Za-z§&])\d+(?:\.\d+)?")

@@ -1,0 +1,17 @@
+{
+  "name": "페리코어 곡괭이",
+  "sortnum": 2,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:ferricore_pickaxe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "페리코어 곡괭이는 내구성과 효율성을 결합하여 철보다 성능이 약간 뛰어납니다. 채굴 능력을 강화하는 능력으로 업그레이드할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:ferricore_pickaxe",
+      "text": "페리코어 곡괭이 제작"
+    }
+  ]
+}

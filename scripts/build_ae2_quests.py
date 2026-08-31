@@ -12,10 +12,11 @@ from pathlib import Path
 from typing import TypeAlias
 
 from local_paths import resolve_source_root
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 OVERRIDES_FILE = PROJECT_ROOT / "working/ae2/quest_overrides.json"
-OUTPUT_FILE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_FILE = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2/quest_progress.json"
 ENTRY_RE = re.compile(r"^[ \t]*([A-Za-z0-9_.-]+):", re.MULTILINE)
 STRING_RE = re.compile(r'"(?:\\.|[^"\\])*"')

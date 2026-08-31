@@ -1,0 +1,19 @@
+{
+  "name": "레드스톤 전송 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/emit_redstone_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 위젯을 사용하면 $(l:tools/drone)드론/$에서 $(#f00)레드스톤 신호/$를 보낼 수 있습니다. 위젯을 $(thing)오른쪽 클릭/$하고 설정 GUI에서 설정하여 전송할 측을 지정할 수 있습니다. 전송할 레드스톤 신호의 레벨은 숫자(0-15)가 들어 있는 $(l:programming/text)텍스트/$ 위젯을 설치하여 지정합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/emit_redstone_piece.png"
+      ],
+      "text": "$(italic)레드스톤 방출 위젯/$"
+    }
+  ]
+}

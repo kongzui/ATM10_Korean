@@ -1,0 +1,16 @@
+{
+  "name": "범위 감소 증강",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:range_down_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "범위가 있는 모든 모듈에 넣을 수 있습니다(발신기 $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$, 회수기 $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$, 압출기 $(l:modules/extruder_1)Mk1/$ / $(l:modules/extruder_2)Mk2/$, $(l:modules/fluid_2)유체 Mk2/$, $(l:modules/vacuum)흡입/$).$(p)중첩할 수 있으며, 증강 하나마다 모듈의 범위가 한 블록 줄어듭니다.$(p)주로 $(l:modules/vacuum)흡입 모듈/$의 아이템 검색 범위를 조절할 때 유용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:range_down_augment",
+      "recipe2": "modularrouters:range_down_from_up"
+    }
+  ]
+}

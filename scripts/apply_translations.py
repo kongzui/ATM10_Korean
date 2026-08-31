@@ -15,9 +15,15 @@ from pathlib import Path
 
 from local_paths import PROJECT_ROOT, resolve_apply_roots
 from snapshot_instance import collect
+from version_context import (
+    active_output_root,
+    load_output_release,
+    load_version_context,
+    read_instance_version,
+)
 
-OUTPUT_RESOURCEPACK = PROJECT_ROOT / "output/resourcepack"
-OUTPUT_OVERRIDES = PROJECT_ROOT / "output/overrides"
+OUTPUT_RESOURCEPACK = active_output_root() / "resourcepack"
+OUTPUT_OVERRIDES = active_output_root() / "overrides"
 REQUIRED_ROOTS = ("mods", "config/ftbquests", "kubejs", "resourcepacks")
 
 
@@ -97,6 +103,49 @@ def validate_target(root: Path) -> None:
     for relative in REQUIRED_ROOTS:
         if not (root / relative).is_dir():
             raise FileNotFoundError(f"필수 ATM10 경로가 없습니다: {root / relative}")
+
+
+def validate_version_guard(
+    roots: list[tuple[str, Path]],
+    selected_paths: set[str] | None,
+    dry_run: bool,
+) -> dict[str, object]:
+    context = load_version_context()
+    release = load_output_release()
+    active_version = context["active_pack_version"]
+    target_versions: dict[str, str] = {}
+    for label, root in roots:
+        version = read_instance_version(root)
+        target_versions[label] = version
+        if version != active_version:
+            raise RuntimeError(
+                f"활성 ATM10 버전은 {active_version}이지만 {label}은 {version}입니다: {root}"
+            )
+
+    full_apply = selected_paths is None
+    if full_apply and not dry_run:
+        validated_version = release.get("validated_pack_version")
+        if not release["full_apply_allowed"] or validated_version != active_version:
+            raise RuntimeError(
+                "현재 output 전체는 활성 ATM10 버전에서 검증되지 않았습니다. "
+                "재기준화가 끝날 때까지 --path 선택 적용만 사용하세요."
+            )
+    if full_apply and dry_run and not release["full_apply_allowed"]:
+        status = "unvalidated_full_dry_run_only"
+    elif full_apply:
+        status = "validated_full_apply"
+    else:
+        status = "scoped_rebase_apply"
+    return {
+        "status": status,
+        "active_pack_version": active_version,
+        "baseline_pack_version": context["baseline_pack_version"],
+        "active_output_root": str(active_output_root()),
+        "output_validated_pack_version": release.get("validated_pack_version"),
+        "output_rebase_target_version": release.get("rebase_target_version"),
+        "full_apply_allowed": release["full_apply_allowed"],
+        "target_versions": target_versions,
+    }
 
 
 def apply_to_root(
@@ -210,8 +259,10 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    deployments = deployment_files(set(args.paths) if args.paths else None)
+    selected_paths = set(args.paths) if args.paths else None
+    deployments = deployment_files(selected_paths)
     roots = resolve_apply_roots(args.instance)
+    version_guard = validate_version_guard(roots, selected_paths, args.dry_run)
     processes = running_java_processes()
     if processes and any(label in {"game_root", "instance"} for label, _ in roots):
         raise RuntimeError(f"Java 또는 Minecraft가 실행 중입니다: {processes}")
@@ -228,6 +279,7 @@ def main() -> int:
         "configured_targets": [label for label, _ in roots],
         "game_root_configured": any(label == "game_root" for label, _ in roots),
         "java_processes": processes,
+        "version_guard": version_guard,
         "targets": results,
     }
     if not args.dry_run:

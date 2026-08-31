@@ -1,0 +1,17 @@
+{
+  "name": "미가공 페리코어 광석",
+  "sortnum": 0,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:raw_ferricore_ore",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "철 블록을 프라이모젤 구로 변환하면 미가공 페리코어 광석이 됩니다. 이를 채굴해 얻은 페리코어 원석을 제련하면 $(l:justdirethings:res_ferricore)페리코어 주괴$(/l)가 됩니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "justdirethings:raw_ferricore",
+      "text": "미가공 페리코어 광석을 부수면 페리코어 원석이 나옵니다"
+    }
+  ]
+}

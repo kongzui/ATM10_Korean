@@ -1,0 +1,13 @@
+{
+  "name": "정수(양동이)",
+  "icon": "industrialforegoing:essence_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 7,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:agr_hus/mob_crusher)몹 분쇄기$()가 생산하는 유체 형태의 경험치입니다."
+    }
+  ]
+}

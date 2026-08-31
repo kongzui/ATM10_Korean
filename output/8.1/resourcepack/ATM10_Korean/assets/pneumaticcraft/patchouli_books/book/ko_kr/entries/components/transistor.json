@@ -1,0 +1,16 @@
+{
+  "name": "트랜지스터",
+  "icon": "pneumaticcraft:transistor",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "다른 장치를 제작하는 데 쓰는 부품이며, 단독으로는 기능이 없습니다."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/transistor"
+    }
+  ]
+}

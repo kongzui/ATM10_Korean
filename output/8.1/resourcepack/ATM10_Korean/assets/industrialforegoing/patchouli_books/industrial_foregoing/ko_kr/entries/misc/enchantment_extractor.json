@@ -1,0 +1,17 @@
+{
+  "name": "마법 부여 추출기",
+  "icon": "industrialforegoing:enchantment_extractor",
+  "category": "industrialforegoing:misc",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "책과 마법이 부여된 아이템을 넣으면 마법을 추출합니다.$(br2)마법을 책으로 옮기거나, 추출한 마법을 $(l:agr_husb/essence)정수$()로 바꾸는 두 가지 방식으로 작동합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_extractor"
+    }
+  ]
+}

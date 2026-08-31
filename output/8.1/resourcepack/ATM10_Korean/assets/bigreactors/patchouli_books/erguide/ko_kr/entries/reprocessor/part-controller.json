@@ -1,0 +1,26 @@
+{
+  "name": "제어기",
+  "icon": "bigreactors:reprocessorcontroller",
+  "category": "bigreactors:reprocessor-parts",
+  "read_by_default": true,
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reprocessorcontroller",
+      "link_recipe": true,
+      "title": "제어기",
+      "text": "제어기는 재처리기의 주 화면입니다.$(br2)제어기를 우클릭해 재처리기를 켜거나 끄고, 저장된 유체와 에너지 양 및 현재 재처리 작업 상태를 확인할 수 있습니다."
+    },
+    {
+      "type": "crafting-text",
+      "text": "화면의 조작 요소에 마우스를 올리면 자세한 정보와 설명이 툴팁으로 표시됩니다.$(br2)",
+      "title": "제어기",
+      "recipe": "bigreactors:reprocessor/controller"
+    },
+    {
+      "type": "part_usage",
+      "text": "$(l)필수 여부:$() 최소 하나$(br)$(l)설치 가능 위치:$() 틀이 아닌 수직 면$(br)$(l)화면:$() 있음"
+    }
+  ]
+}

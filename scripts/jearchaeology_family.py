@@ -13,6 +13,7 @@ from pathlib import Path
 from zipfile import ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -21,8 +22,8 @@ FAMILY = "jearchaeology"
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
 LANG_ROOT = WORK_ROOT / FAMILY
 OUTPUT_LANG = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/jearchaeology/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/jearchaeology/lang/ko_kr.json"
 )
 JAR_PATTERN = "jearchaeology-*.jar"
 JAR_ENGLISH = "assets/jearchaeology/lang/en_us.json"

@@ -1,0 +1,36 @@
+{
+  "name": "에어 그레이트 모듈",
+  "icon": "pneumaticcraft:air_grate_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 모듈은 개체를 끌어당기거나 밀어냅니다. $(l:base_concepts/pressure)양압/$에서는 개체를 밀어내고 $(thing)음압/$에서는 끌어당깁니다. 음압은 $(l:machines/vacuum_pump)진공 펌프/$로 만듭니다. 아이템 개체가 충분히 가까워지면 화로처럼 면별 입출력이 있는 인벤토리 규칙을 지키면서 인접한 인벤토리에 자동으로 들어갑니다."
+    },
+    {
+      "type": "text",
+      "text": "모듈 범위는 다음 공식으로 계산합니다:$(p)양압:$(p)$(#272)범위 = 4 × 압력(bar)/$$(p)음압:$(p)$(#272)범위 = -16 × 압력(bar)/$$(p)예를 들어 2bar에서는 4 × 2 = 8블록까지 밀어내고, -0.5bar에서는 -16 × -0.5 = 8블록까지 끌어당깁니다."
+    },
+    {
+      "type": "text",
+      "text": "에어 그레이트는 향하는 방향의 정육면체 영역에 있는 개체에만 영향을 주며, 개체를 직접 볼 수 있어야 합니다.$(p)모듈을 우클릭하면 영향 범위가 몇 초 동안 표시됩니다."
+    },
+    {
+      "type": "text",
+      "title": "방열판 냉각",
+      "anchor": "active_cooling",
+      "text": "에어 그레이트 모듈은 $(l:machines/heat_sink)방열판/$을 능동 냉각할 수도 있습니다. 모듈 앞 3x3x3 범위의 방열판을 냉각하며, 모듈을 설치하면 이 범위가 표시됩니다.$(p)범위가 3블록 이상, 즉 압력이 0.75bar 이상일 때만 방열판을 냉각합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "$(l:tubes/module_expansion_card)모듈 확장 카드/$를 적용하면 모듈의 영향을 받는 개체를 제어할 수 있습니다. $(p)예를 들어 특정 플레이어만 영향을 받도록 설정하거나 크리퍼만 영향을 받도록 설정하거나 아이템만 영향을 받도록 설정할 수 있습니다. 이렇게 하려면 업그레이드한 모듈을 마우스 오른쪽 단추로 클릭하여 GUI를 열고 $(l:base_concepts/entity_filter)개체 필터/$를 정의할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "에어 그레이트 모듈 제작",
+      "recipe": "pneumaticcraft:air_grate_module"
+    }
+  ]
+}

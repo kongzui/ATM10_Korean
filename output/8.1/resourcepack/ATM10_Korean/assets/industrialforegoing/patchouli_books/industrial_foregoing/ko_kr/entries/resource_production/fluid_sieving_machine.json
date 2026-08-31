@@ -1,0 +1,17 @@
+{
+  "name": "유체 체질기",
+  "icon": "industrialforegoing:fluid_sieving_machine",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 21,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "발효 광석 고기와 모래를 사용해, 고기를 처음 만들 때 사용한 광석의 가루로 바꿉니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_sieving_machine"
+    }
+  ]
+}

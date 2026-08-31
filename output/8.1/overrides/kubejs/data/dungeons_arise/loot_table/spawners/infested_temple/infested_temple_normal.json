@@ -1,0 +1,157 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cooked_chicken",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:baked_potato",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:swiftness"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:trial_key",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 2341668
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "gold",
+                  "italic": false,
+                  "text": "감염된 사원 열쇠"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:spawners/trial_chamber/consumables"
+}

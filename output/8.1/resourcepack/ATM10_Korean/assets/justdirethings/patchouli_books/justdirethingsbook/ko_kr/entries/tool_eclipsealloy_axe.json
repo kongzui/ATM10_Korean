@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 도끼",
+  "sortnum": 23,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_axe[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 이클립스 합금 도끼는 높은 효율성과 향상된 에너지 저장 기능으로 목재 절단에 탁월합니다. $(br2)가장 까다로운 목재 작업을 견딜 수 있도록 설계되었습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:eclipsealloy_axe",
+      "text": "이클립스 합금 도끼 제작"
+    }
+  ]
+}

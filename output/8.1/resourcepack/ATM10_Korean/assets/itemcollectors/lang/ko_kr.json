@@ -1,0 +1,21 @@
+{
+  "itemcollectors.block.basic_collector": "기본 아이템 수집기",
+  "itemcollectors.basic_collector.info": "주변 범위의 아이템을 수집할 수 있습니다",
+  "itemcollectors.basic_collector.info.range": "범위: %s블록",
+  "itemcollectors.block.advanced_collector": "고급 아이템 수집기",
+  "itemcollectors.advanced_collector.info": "주변 범위의 아이템을 수집하며, 수집할 아이템을 필터링할 수 있습니다",
+  "gui.itemcollectors.basic_collector.range": "범위 (%1$dx%2$dx%3$d)",
+  "gui.itemcollectors.basic_collector.range.increase": "범위 증가",
+  "gui.itemcollectors.basic_collector.range.decrease": "범위 감소",
+  "gui.itemcollectors.advanced_collector.whitelist.on": "허용 목록",
+  "gui.itemcollectors.advanced_collector.whitelist.off": "차단 목록",
+  "gui.itemcollectors.advanced_collector.durability.on": "NBT 일치",
+  "gui.itemcollectors.advanced_collector.durability.off": "NBT 무시",
+  "gui.itemcollectors.advanced_collector.filter": "필터",
+  "gui.itemcollectors.advanced_collector.show_area.on": "범위 표시 중",
+  "gui.itemcollectors.advanced_collector.show_area.off": "범위 숨김",
+  "itemcollectors.advancement.recipes/misc/advanced_collector.title": "고급 아이템 수집기",
+  "itemcollectors.advancement.recipes/misc/advanced_collector.description": "고급 아이템 수집기 제작법을 잠금 해제했습니다",
+  "itemcollectors.advancement.recipes/misc/basic_collector.title": "기본 아이템 수집기",
+  "itemcollectors.advancement.recipes/misc/basic_collector.description": "기본 아이템 수집기 제작법을 잠금 해제했습니다"
+}

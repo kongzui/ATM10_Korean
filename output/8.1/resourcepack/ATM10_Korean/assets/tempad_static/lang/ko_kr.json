@@ -1,0 +1,186 @@
+{
+  "config.jade.plugin_tempad.chronon": "크로논",
+  "gui.tempad.search_field": "검색...",
+  "gui.tempad.name_field": "이름...",
+  "gui.tempad.teleport_disabled": "이 위치로 순간이동할 수 없습니다.",
+  "gui.tempad.delete": "위치 삭제",
+  "gui.tempad.delete_disabled": "이 위치를 삭제할 수 없습니다.",
+  "gui.tempad.favorite": "즐겨찾기에 추가",
+  "gui.tempad.unfavorite": "즐겨찾기에서 제거",
+  "gui.tempad.timedoor": "시간 문",
+  "gui.tempad.dimension": "차원: %s",
+  "gui.tempad.no_locations.first_line": "[+]을 눌러",
+  "gui.tempad.no_locations.second_line": "위치를 추가하세요",
+  "gui.tempad.no_selection.first_line": "자세히 보려면",
+  "gui.tempad.no_selection.second_line": "위치를 선택하세요",
+  "gui.tempad.x": "X: %s",
+  "gui.tempad.y": "Y: %s",
+  "gui.tempad.z": "Z: %s",
+  "gui.tempad.angle": "각도: %s",
+  "advancements.tempad.tempad": "영원히, 항상.",
+  "advancements.tempad.tempad.description": "템패드를 획득하세요.",
+  "advancements.tempad.he_who_remains": "영광스러운 목적!",
+  "advancements.tempad.he_who_remains.description": "남아 있는 자의 템패드를 획득하세요.",
+  "subtitles.tempad.entity.timedoor.open": "시간 문이 열림",
+  "message.tempad.not_enough_chronons": "크로논이 부족합니다",
+  "dimension.minecraft.overworld": "오버월드",
+  "dimension.minecraft.the_nether": "네더",
+  "dimension.minecraft.the_end": "엔드",
+  "locations.tempad.anchor_point": "마커 이름: \"%s\"",
+  "locations.tempad.player": "플레이어 추적: %s",
+  "item.tempad.creative_chronometer.infinite": "무한",
+  "block.tempad.workstation_child": "작업대 터미널",
+  "category.tempad": "템패드",
+  "key.tempad.shortcut": "템패드 화면 열기",
+  "screen.tempad.marker": "마커",
+  "screen.tempad.marker.access_field": "접근 허용 대상",
+  "screen.tempad.marker.public_access": "공개 접근:",
+  "screen.tempad.marker.yoffset": "시간 문 Y 오프셋:",
+  "screen.tempad.marker.angle": "각도:",
+  "access.tempad.private": "본인만",
+  "access.tempad.public": "모두",
+  "access.tempad.guild": "길드원",
+  "access.tempad.party": "파티원",
+  "access.tempad.ftbteams": "팀",
+  "app.tempad.tp_to.teleport": "순간이동",
+  "app.tempad.tp_to.selected": "선택됨",
+  "provider.tempad.default": "장치에서",
+  "provider.tempad.markers": "마커",
+  "provider.tempad.player": "플레이어",
+  "provider.tempad.wallet": "카드 지갑",
+  "macro.tempad.default": "즐겨찾기 열기",
+  "macro.tempad.default.description": "즐겨찾기 위치로 순간이동",
+  "button.tempad.type": "유형별 정렬",
+  "button.tempad.alphabetical": "가나다순 정렬",
+  "button.tempad.dimension": "차원별 정렬",
+  "marker.tempad.death": "사망한 위치:",
+  "marker.tempad.respawn": "재생성 위치:",
+  "marker.tempad.dimension_exit": "차원을 떠난 위치:",
+  "marker.tempad.dimension_enter": "차원에 들어온 위치:",
+  "config.jade.plugin_tempad.timedoor": "시간 문",
+  "config.jade.plugin_tempad.anchor": "마커",
+  "config.jade.plugin_tempad.rudimentary": "시간 문 투사기",
+  "config.jade.plugin_tempad.metronome": "메트로놈",
+  "config.jade.plugin_tempad.workstation": "작업대",
+  "jade.tempad.will_close": "%s초 후에 닫힙니다",
+  "jade.tempad.closing": "닫는 중...",
+  "jade.tempad.pos": "대상: %s / 위치: %s로 순간이동",
+  "misc.tempad.return": "%s로 돌아가는 중",
+  "tempad.tooltip.player_pos": "대상 위치: %s",
+  "misc.tempad.upgrades": "장착된 업그레이드:",
+  "misc.tempad.wandering": "다음 위치를 배회 중:",
+  "misc.tempad.shift_key_info": "자세한 정보를 보려면 [%s] 키를 누르고 계세요",
+  "location.tempad.saved": [
+    "",
+    {
+      "text": "저장한 위치: ",
+      "color": "#ff6f00"
+    },
+    {
+      "index": 0,
+      "color": "#91450d"
+    }
+  ],
+  "location.tempad.player.error": [
+    "",
+    {
+      "text": "오류: ",
+      "color": "#ff6f00"
+    },
+    {
+      "text": "플레이어 위치는 저장할 수 없습니다",
+      "color": "#91450d"
+    }
+  ],
+  "tempad.error.timedoor_already_open": "시간 문이 이미 열려 있습니다",
+  "entity.tempad.timedoor": "시간 문",
+  "entity.tempad.timedoor.success": "시간 문이 열렸습니다",
+  "entity.tempad.timedoor.fail": [
+    "",
+    {
+      "text": "오류: ",
+      "color": "#ff6f00"
+    },
+    {
+      "text": "시간 문을 열지 못했습니다",
+      "color": "#91450d"
+    }
+  ],
+  "entity.tempad.timedoor.fail.pos": [
+    "",
+    {
+      "text": "오류: ",
+      "color": "#ff6f00"
+    },
+    {
+      "text": "위치가 초기화되지 않았습니다",
+      "color": "#91450d"
+    }
+  ],
+  "entity.tempad.timedoor.fail.interdimensional": [
+    "",
+    {
+      "text": "오류: ",
+      "color": "#ff6f00"
+    },
+    {
+      "text": "차원 사이 이동이 허용되지 않습니다",
+      "color": "#91450d"
+    }
+  ],
+  "entity.tempad.timedoor.fail.intradimensional_all": [
+    "",
+    {
+      "text": "오류: ",
+      "color": "#ff6f00"
+    },
+    {
+      "text": "차원 내부 이동이 허용되지 않습니다",
+      "color": "#91450d"
+    }
+  ],
+  "entity.tempad.timedoor.fail.intradimensional": [
+    "",
+    {
+      "text": "오류: ",
+      "color": "#ff6f00"
+    },
+    {
+      "text": "이 차원 내부 이동이 허용되지 않습니다",
+      "color": "#91450d"
+    }
+  ],
+  "entity.tempad.timedoor.fail.leaving": [
+    "",
+    {
+      "text": "오류: ",
+      "color": "#ff6f00"
+    },
+    {
+      "text": "이 차원을 떠날 수 없습니다",
+      "color": "#91450d"
+    }
+  ],
+  "entity.tempad.timedoor.fail.entering": [
+    "",
+    {
+      "text": "오류: ",
+      "color": "#ff6f00"
+    },
+    {
+      "text": "이 차원에 들어갈 수 없습니다",
+      "color": "#91450d"
+    }
+  ],
+  "entity.tempad.timedoor.fail.no_chronons": [
+    "",
+    {
+      "text": "오류: ",
+      "color": "#ff6f00"
+    },
+    {
+      "text": "크로논이 부족합니다",
+      "color": "#91450d"
+    }
+  ]
+}

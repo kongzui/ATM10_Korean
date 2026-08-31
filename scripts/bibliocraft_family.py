@@ -21,6 +21,7 @@ from dungeons_arise_family import (
     walk_json,
 )
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 FAMILY = "bibliocraft_family"
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
@@ -31,8 +32,8 @@ JARS = {
 }
 OUTPUTS = {
     label: (
-        PROJECT_ROOT
-        / f"output/resourcepack/ATM10_Korean/assets/{label}/lang/ko_kr.json"
+        active_output_root()
+        / f"resourcepack/ATM10_Korean/assets/{label}/lang/ko_kr.json"
     )
     for label in JARS
 }

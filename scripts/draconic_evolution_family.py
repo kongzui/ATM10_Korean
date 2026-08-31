@@ -13,6 +13,7 @@ from zipfile import ZipFile
 import five_family_goal as family_goal
 from draconic_evolution_quests import QUEST_DESCRIPTIONS
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 FAMILY = "draconic_evolution"
@@ -847,8 +848,8 @@ def audit() -> dict[str, object]:
                     ):
                         unhandled_display.append(location)
     announcement = (
-        PROJECT_ROOT
-        / "output/overrides/kubejs/server_scripts/announcements/announcements.js"
+        active_output_root()
+        / "overrides/kubejs/server_scripts/announcements/announcements.js"
     )
     announcement_verified = announcement.is_file() and (
         'addAnnouncement("4.7", "추가된 모드: Draconic Evolution, '

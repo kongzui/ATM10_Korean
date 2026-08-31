@@ -14,6 +14,7 @@ import build_ae2_quests as quest_snbt
 import cataclysm_family as quality_review
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -21,9 +22,11 @@ if hasattr(sys.stdout, "reconfigure"):
 WORK_ROOT = PROJECT_ROOT / "working/cataclysm"
 LANG_ROOT = WORK_ROOT / "cataclysm"
 LANG_OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/cataclysm/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/cataclysm/lang/ko_kr.json"
 )
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 BAD_FRAGMENTS = (
     "네더라이트 괴물",
     "현세의 잔재",

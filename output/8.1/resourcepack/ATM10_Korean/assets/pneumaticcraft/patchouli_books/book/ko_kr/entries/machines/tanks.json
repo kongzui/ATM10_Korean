@@ -1,0 +1,39 @@
+{
+  "name": "탱크",
+  "icon": "pneumaticcraft:small_tank",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "유체 저장 탱크는 $(item)소형 탱크/$, $(item)중형 탱크/$, $(item)대형 탱크/$, $(item)거대 탱크/$의 네 종류입니다. $(l:machines/liquid_hopper)유체 호퍼/$도 유체를 저장하지만, 탱크는 더 조밀한 저장 공간과 유용한 쌓기 기능을 제공하며 유체를 자동으로 옮기지 않습니다. 다만 $(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 설치하면 유체를 밀어낼 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "스택",
+      "text": "네 종류의 탱크는 서로 수직으로 $(thing)연결/$해 멀티블록처럼 만들 수 있습니다. $(l:tools/pneumatic_wrench)렌치/$로 탱크를 우클릭하세요. 위쪽 절반을 클릭하면 위 탱크에, 아래쪽 절반을 클릭하면 아래 탱크에 연결을 시도합니다.$(p)연결된 탱크의 경우 공간이 있다면 $(ttcolor)$(t:밀도가 0보다 작은 유체는 아래가 아니라 위로 이동합니다)위쪽 탱크/$의 유체가 아래쪽 탱크로 자동으로 흐릅니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/small_tanks.png"
+      ],
+      "border": "true",
+      "text": "3 겹쳐진 소형 유체 탱크"
+    },
+    {
+      "type": "text",
+      "text": "다음 제한이 있습니다:$(li)두 탱크에는 같은 유체가 들어 있거나 둘 중 하나가 비어 있어야 연결할 수 있습니다.$(li)유체는 $(italic)위로 이동하지 않으므로/$, 가장 좋은 결과를 내려면 맨 위 탱크에 주입하고 맨 아래 탱크에서 빼내세요.$(li)탱크 GUI에는 우클릭한 탱크에 든 유체의 양만 표시됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:small_tank",
+      "recipe2": "pneumaticcraft:medium_tank"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:large_tank",
+      "recipe2": "pneumaticcraft:huge_tank"
+    }
+  ]
+}

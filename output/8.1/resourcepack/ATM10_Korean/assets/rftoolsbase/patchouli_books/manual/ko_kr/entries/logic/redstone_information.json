@@ -1,0 +1,15 @@
+{
+  "name": "레드스톤 정보",
+  "icon": "rftoolsutility:redstone_information",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:redstone_information": 0,
+    "rftoolsutility:tablet_redstone": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "여러 레드스톤 채널을 저장하는 아이템입니다. 채널을 추가하려면 $(5)우클릭$()으로 $(l:rftoolsbase:logic/redstone_transmitter)레드스톤 송신기$(/l)나 $(l:rftoolsbase:logic/redstone_receiver)레드스톤 수신기$(/l)를 선택하세요. 이후 $(l:rftoolsbase:tools/tablet)태블릿$(/l)에 넣으면 어디서든 레드스톤 신호를 확인하고 바꿀 수 있습니다."
+    }
+  ]
+}

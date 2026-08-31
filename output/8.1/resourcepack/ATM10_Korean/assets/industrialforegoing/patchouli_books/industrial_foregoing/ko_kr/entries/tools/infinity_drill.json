@@ -1,0 +1,17 @@
+{
+  "name": "인피니티 드릴",
+  "icon": "industrialforegoing:infinity_drill",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "인피니티 드릴은 넓은 영역을 채굴하는 도구입니다. 등급이 높을수록 한 번에 채굴하는 영역이 넓어집니다."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_drill"
+    }
+  ]
+}

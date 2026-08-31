@@ -1,0 +1,78 @@
+{
+  "name": "공압 방어구 개요",
+  "icon": "minecraft:written_book",
+  "category": "pneumaticcraft:armor",
+  "priority": "true",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr)에 $(thing)아이언맨/$의 HUD를 더하면 무엇이 될까요? 바로 $(thing)공압 방어구/$입니다!$(p)토니 스타크의 장비에서 영감을 받았다고 해서 무적은 아닙니다. 기본 상태에서는 같은 부위의 $(thing)철 방어구/$보다 방어력과 내구도가 조금 높을 뿐입니다. "
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pneumatic_armor.png"
+      ],
+      "border": "true",
+      "text": "압축된 아이언맨"
+    },
+    {
+      "type": "text",
+      "text": "하지만 이 방어구는 다양하게 업그레이드할 수 있습니다. 업그레이드를 설치하고 방어구를 가압하려면 $(l:machines/charging_station)충전소/$에 넣으세요.$(p)모든 부위에 공통으로 적용되는 업그레이드는 다음 페이지에서, 특정 부위 전용 업그레이드는 각 방어구 부위의 페이지에서 설명합니다."
+    },
+    {
+      "type": "text",
+      "text": "방어구의 부위를 장비하면 몇 초 이내에 $(thing)기동/$합니다. $(thing)$(k:pneumaticcraft.armor.options)/$를 누르면 GUI가 열리고 설치된 업그레이드를 구성하고 방어구의 HUD를 조정할 수 있습니다. 설치된 업그레이드가 증가하면 GUI에 표시되는 옵션도 증가합니다. $(p)모든 업그레이드는 GUI의 확인란에서 켜거나 끌 수 있습니다. 또한 각 확인란에 키를 바인딩하여 GUI 외부에서 기능을 빠르게 전환할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:anvil",
+      "title": "수리",
+      "text": "소중한 방어구를 수리하는 방법은 여러 가지입니다:$(li)압축 철 주괴로 $(thing)모루/$에서 수리$(li)각 부위에 $(thing)아이템 수명 업그레이드/$를 설치해 자동 수리$(li)각 부위에 $(thing)수선/$ 마법 부여 적용"
+    },
+    {
+      "type": "text",
+      "title": "착색",
+      "text": "모든 방어구 부위는 기본 회색 텍스처의 색을 자유롭게 바꿀 수 있습니다. 부위마다 $(thing)주 색상/$과 $(thing)보조 색상/$을 따로 조절할 수 있고, 헬멧의 $(thing)접안부/$에도 별도 색상을 지정할 수 있습니다.$(p)방어구 기본 GUI의 $(bold)색상.../$ 화면에서 조절하세요. 기본 기능이므로 별도 업그레이드는 필요하지 않습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:speed_upgrade",
+      "text": "$(l:base_concepts/upgrades#speed)속도 업그레이드/$는 각 방어구 부위의 기동 시간을 줄입니다. 또한 $(l:armor/pneumatic_helmet)헬멧/$의 $(l:base_concepts/upgrades#entity_tracker)개체 추적기/$와 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$가 대상을 포착하는 시간을 줄이고, $(l:armor/pneumatic_leggings)각반/$의 달리기 속도를 높이지만 $(l:base_concepts/pressure)공기/$를 소모합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:volume_upgrade",
+      "text": "$(l:base_concepts/upgrades#volume)용량 업그레이드/$는 각 방어구 부위의 $(l:base_concepts/pressure)공기 저장 용량/$를 증가시켜 방어구를 채우는 데 걸리는 시간이 길어지지만 사용 시 압력이 손실되는 것이 느려집니다. 용량 업그레이드는 25로 제한되며 업그레이드를 추가할수록 효과가 줄어듭니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:armor_upgrade",
+      "text": "$(l:base_concepts/upgrades#armor)방어구 업그레이드/$는 각 방어구 부위의 방어력과 강인함을 높입니다. 두 개를 설치하면 각 부위가 해당 $(thing)다이아몬드 방어구/$와 같은 성능을 내며, 최대 네 개를 설치하면 $(thing)다이아몬드 방어구/$보다 높은 방어력을 냅니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:item_life_upgrade",
+      "text": "$(l:base_concepts/upgrades#item_life)아이템 수명 업그레이드/$는 $(l:base_concepts/pressure)공기/$를 소모해 방어구 부위를 천천히 수리합니다. 부위마다 최대 5개를 설치할 수 있으며, 추가할수록 수리 속도는 빨라지지만 공기 효율은 낮아집니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gilded_upgrade",
+      "text": "$(l:base_concepts/upgrades#gilded)도금 업그레이드/$를 어느 방어구 부위에든 설치하면 $(thing)피글린/$이 플레이어가 실제로 $(thing)금 방어구/$를 입었다고 착각합니다. 어리석은 피글린이네요."
+    },
+    {
+      "type": "spotlight",
+      "flag": "mod:mekanism",
+      "title": "Mekanism 방사선",
+      "item": "pneumaticcraft:radiation_shielding_upgrade",
+      "text": "$(l:base_concepts/upgrades#radiation_shielding)방사선 차폐 업그레이드/$는 Mekanism의 $(l:https://wiki.aidancbrady.com/wiki/Radiation_Shielding_Unit)방사선 차폐 장치/$와 마찬가지로 Mekanism 방사선의 해로운 효과를 막아 줍니다. 완전히 보호받으려면 모든 방어구 부위에 차폐 업그레이드를 설치해야 합니다."
+    },
+    {
+      "type": "text",
+      "title": "Thaumcraft",
+      "flag": "mod:thaumcraft",
+      "text": "$(l:base_concepts/upgrades#thaumcraft)Thaumcraft 업그레이드/$는 해당 $(thing)마도사의 방어구/$와 같은 비스 할인을 제공합니다. 또한 $(l:armor/helmet)헬멧/$에 설치하면 $(item)Goggles of Revealing/$처럼 $(thing)오라 노드/$를 보여 주고 보관함에 든 $(thing)위상/$의 양을 표시합니다."
+    }
+  ]
+}

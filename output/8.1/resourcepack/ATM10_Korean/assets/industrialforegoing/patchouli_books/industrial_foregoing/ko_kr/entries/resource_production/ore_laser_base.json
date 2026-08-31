@@ -1,0 +1,17 @@
+{
+  "name": "광석 레이저 베이스",
+  "icon": "industrialforegoing:ore_laser_base",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 14,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:resource_production/laser_drill)레이저 드릴$()로 완전히 충전하면 광석을 생산합니다. 각 광석의 가중치는 기계가 있는 생물군계와 설정한 채굴 깊이에 따라 달라집니다.$(br2)레이저 렌즈는 해당 색상 광석의 가중치를 높입니다.$(br2)정확한 값은 JEI에서 확인하세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:ore_laser_base"
+    }
+  ]
+}

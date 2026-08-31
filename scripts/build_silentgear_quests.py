@@ -12,9 +12,10 @@ from pathlib import Path
 
 import build_ae2_quests as snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/silentgear"
-OUTPUT_FILE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_FILE = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 ENGLISH_FILE = WORK_ROOT / "quest_english.json"
 OVERRIDES_FILE = WORK_ROOT / "quest_overrides.json"
 REPORT_FILE = WORK_ROOT / "quest_progress.json"

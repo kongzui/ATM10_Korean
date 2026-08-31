@@ -1,0 +1,20 @@
+{
+  "name": "주입 마법 부여",
+  "icon": "apothic_enchanting:infused_hellshelf",
+  "category": "apotheosis:enchanting/table",
+  "flag": "apotheosis:enchanting",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)주입 마법 부여$()는 마법 부여대를 이용하는 새로운 제작 방식입니다.$(p)각 주입 제조법에는 아이템 입력 하나와 세 가지 능력치 조건이 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "각 능력치 조건에는 보통 최솟값이 있으며 선택적으로 최댓값도 정해집니다.$(p)주입 마법 부여는 세 번째 슬롯만 사용하며 필요한 양보다 많은 경험치를 쓸 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "주입 마법 부여를 하려면 슬롯에 아이템을 넣으세요.$(p)능력치 조건을 충족하면 세 번째 슬롯이 빛나며, 이를 클릭하면 주입이 진행됩니다."
+    }
+  ]
+}

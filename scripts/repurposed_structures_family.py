@@ -26,6 +26,11 @@ from dungeons_arise_family import (
 )
 from gateways_hellish_family import Tag, read_nbt, write_nbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import (
+    active_output_root,
+    output_deployment_path,
+    resolve_active_output_path,
+)
 
 FAMILY = "repurposed_structures"
 NAMESPACE = "repurposed_structures"
@@ -33,10 +38,10 @@ JAR_PATTERN = "repurposed_structures-*.jar"
 EXPECTED_LANGUAGE_KEYS = 163
 WORK_ROOT = PROJECT_ROOT / "working/repurposed_structures"
 LANG_OUTPUT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/repurposed_structures/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/repurposed_structures/lang/ko_kr.json"
 )
-OVERRIDE_ROOT = PROJECT_ROOT / "output/overrides/kubejs"
+OVERRIDE_ROOT = active_output_root() / "overrides/kubejs"
 FOREIGN_SCRIPT = re.compile(r"[\u0600-\u06ff\u3040-\u30ff\u4e00-\u9fff]")
 
 TEXT = {
@@ -689,7 +694,7 @@ def verify_nbt_outputs() -> tuple[dict[str, object], list[str]]:
         )
     translated = 0
     for row in rows:
-        output_path = PROJECT_ROOT / row["output"]
+        output_path = resolve_active_output_path(row["output"])
         try:
             value = output_path.read_bytes()
             raw = gzip.decompress(value) if value.startswith(b"\x1f\x8b") else value
@@ -717,7 +722,7 @@ def deployment_paths() -> set[str]:
     manifest_path = WORK_ROOT / "translated_nbt_files.json"
     if manifest_path.is_file():
         rows = json.loads(manifest_path.read_text(encoding="utf-8"))
-        paths.update(row["output"].removeprefix("output/overrides/") for row in rows)
+        paths.update(output_deployment_path(row["output"]) for row in rows)
     return paths
 
 

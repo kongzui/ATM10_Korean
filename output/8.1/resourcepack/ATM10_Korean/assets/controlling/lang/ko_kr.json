@@ -1,0 +1,14 @@
+{
+  "options.showAll": "모든 단축키 표시",
+  "options.showConflicts": "충돌 단축키 표시",
+  "options.showNone": "미할당 단축키 표시",
+  "options.availableKeys": "미사용 키 목록",
+  "options.sort": "정렬 기준",
+  "options.sortNone": "정렬 안 함",
+  "options.sortAZ": "이름 A→Z",
+  "options.sortZA": "이름 Z→A",
+  "options.sortKeyAZ": "할당 키 A→Z",
+  "options.sortKeyZA": "할당 키 Z→A",
+  "options.toggleFree": "미사용 키 목록 전환",
+  "options.confirmReset": "모든 단축키를 초기화할까요?"
+}

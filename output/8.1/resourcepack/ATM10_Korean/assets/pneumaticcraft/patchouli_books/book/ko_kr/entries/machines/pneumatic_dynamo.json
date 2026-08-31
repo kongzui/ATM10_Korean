@@ -1,0 +1,22 @@
+{
+  "name": "공압 다이너모",
+  "icon": "pneumaticcraft:pneumatic_dynamo",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)공압 다이너모/$는 $(l:base_concepts/pressure)압축 공기/$를 $(thing)Forge Energy/$로 변환하며, $(thing)레드스톤 Flux/$와 다른 모드의 에너지 시스템과 호환됩니다. 기본 생산량은 40FE/틱이며 $(l:base_concepts/upgrades#speed)속도 업그레이드/$로 늘릴 수 있습니다. $(item)자속 압축기/$의 FE 출력 한도는 현재 FE 생산량의 두 배이므로, 기본값은 80FE/틱이며 속도 업그레이드로 증가합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:pneumatic_dynamo",
+      "text": "효율에 영향을 미치는 중요한 요소는 다이나모의 $(l:base_concepts/heat)온도/$입니다. 다이나모는 $(thing)냉각/$해야 합니다. 그렇지 않으면 온도가 상승함에 따라 효율이 떨어지고 결국 공기가 전혀 생성되지 않습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "공압 다이너모 제작",
+      "recipe": "pneumaticcraft:pneumatic_dynamo"
+    }
+  ]
+}

@@ -15,6 +15,7 @@ from five_family_goal import (
     load_json,
     validate_value,
 )
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -944,8 +945,8 @@ def build_extras() -> dict[str, object]:
     extra_path = WORK_ROOT / "kubejs_extra_ko_kr.json"
     dump_json(extra_path, KUBEJS_EXTRA_TRANSLATIONS)
     output_path = (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/modern_industrialization/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/modern_industrialization/lang/ko_kr.json"
     )
     output = load_json(output_path)
     output.update(KUBEJS_EXTRA_TRANSLATIONS)

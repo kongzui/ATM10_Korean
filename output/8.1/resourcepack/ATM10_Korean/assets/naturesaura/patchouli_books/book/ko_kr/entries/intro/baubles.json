@@ -1,0 +1,13 @@
+{
+  "name": "싸구려",
+  "icon": "minecraft:totem_of_undying",
+  "category": "naturesaura:intro",
+  "read_by_default": true,
+  "flag": "mod:baubles",
+  "pages": [
+    {
+      "type": "text",
+      "text": "때로는 $(thing)목록$()의 공간이 너무 높아 배낭을 어지럽히고 속도를 늦추는 블록과 아이템이 쌓여 있는 것을 발견할 수도 있습니다. $(br)일부 $(thing)천연 아이템$()는 $(item)싸구려$()처럼 팔, 허리, 가슴에 직접 배치할 수도 있습니다. 아이템에 이 기능이 있으면 아이템이 위치할 수 있는 신체 부위가 툴팁에 표시됩니다."
+    }
+  ]
+}

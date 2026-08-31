@@ -1,0 +1,40 @@
+{
+  "name": "에탄올",
+  "icon": "pneumaticcraft:ethanol_bucket",
+  "category": "pneumaticcraft:renewables",
+  "advancement": "pneumaticcraft:yeast_culture",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)에탄올/$는 $(l:renewables/yeast_culture)Yeast Culture/$ 및 $(thing)Sugar/$를 사용하여 $(l:manufacturing/thermopneumatic_processing_plant)열공압 처리 공장/$에서 생산할 수 있습니다. $(l:renewables/biodiesel)Biodiesel/$의 구성성분 중 하나입니다."
+    },
+    {
+      "type": "text",
+      "text": "이 과정은 온도에 민감합니다. 열공압 처리 공장의 온도는 30°C와 60°C 사이로 유지되어야 합니다. $(p)이것은 따뜻한 바이옴에서는 매우 간단하지만 추운 지역에서는 조금 번거로울 수 있습니다. 주의해야 할 점의 1 중 하나는 깊게 파고 있을 때 주변 온도가 상승하는 경향이 있기 때문에 더 낮은 Y 레벨에서 처리를 수행할 때 온대 바이옴이 적합할 수 있다는 것입니다."
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/ethanol_from_sugar"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/ethanol_from_melon"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/ethanol_from_potato"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/ethanol_from_poisonous_potato"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/ethanol_from_apple"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/ethanol_from_sweet_berries"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "instance": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+  "pack": {
+    "name": "All the Mods 10",
+    "version": "8.1",
+    "minecraft": "1.21.1",
+    "manifest_file_entries": 491,
+    "error": ""
+  },
+  "jars": {
+    "jar_files": 488,
+    "jar_scan_errors": 0,
+    "language_json_errors": 1,
+    "jars_with_en_us": 391,
+    "jars_with_ko_kr": 151,
+    "jars_with_en_and_ko": 151,
+    "jars_with_en_without_ko": 240,
+    "namespaces_with_en_us": 398,
+    "namespaces_with_ko_kr": 154,
+    "namespace_en_keys": 156718,
+    "namespace_ko_keys": 55686
+  },
+  "ftbquests": {
+    "root": "config/ftbquests",
+    "all_files": 900,
+    "snbt_files": 899,
+    "chapter_files": 66,
+    "en_us_path": "config/ftbquests/quests/lang/en_us.snbt",
+    "ko_kr_path": "config/ftbquests/quests/lang/ko_kr.snbt",
+    "en_us_exists": false,
+    "ko_kr_exists": false,
+    "localization_layout": "split",
+    "en_us_split_files": 70,
+    "ko_kr_split_files": 59,
+    "split_files_missing_in_ko": 14,
+    "split_files_only_in_ko": 3,
+    "en_us_estimated_keys": 8922,
+    "ko_kr_estimated_keys": 6073,
+    "shared_estimated_keys": 5957,
+    "missing_in_ko_estimated": 2965,
+    "ko_only_estimated": 116,
+    "key_count_method": "최상위 '키: 값' 행 정규식 집계; 정식 SNBT 파서 결과가 아니므로 추정치",
+    "merged_localization_files": 0,
+    "chapter_manifest_rows": 66
+  },
+  "kubejs": {
+    "all_files": 2299,
+    "js_files": 207,
+    "language_json_files": 168,
+    "en_us_files": 6,
+    "ko_kr_files": 1,
+    "en_us_keys": 1897,
+    "ko_kr_keys": 5,
+    "user_visible_candidate_lines": 225,
+    "candidate_note": "문자열 패턴 기반 후보이며 실제 표시 여부는 수동 확인 필요"
+  },
+  "other_translation_candidates": 3,
+  "recorded_errors": 1,
+  "notes": [
+    "원본 파일은 읽기만 했으며 JAR을 추출하거나 수정하지 않음",
+    "FTB Quests 키 수는 정규식 기반 추정치",
+    "KubeJS 표시 문구는 패턴 기반 후보이므로 수동 확인 필요"
+  ]
+}

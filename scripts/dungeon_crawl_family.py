@@ -18,6 +18,7 @@ from dungeons_arise_family import (
     walk_json,
 )
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 FAMILY = "dungeon_crawl"
 NAMESPACE = "dungeoncrawl"
@@ -260,9 +261,9 @@ def verify() -> tuple[dict[str, object], list[str]]:
     if catalog.get("mod_metadata") != EXPECTED_METADATA:
         errors.append("모드 메타데이터가 현재 검수값과 달라요")
     output_paths = [
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/dungeoncrawl/lang/ko_kr.json",
-        PROJECT_ROOT / "output/overrides/kubejs/data/dungeoncrawl",
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/dungeoncrawl/lang/ko_kr.json",
+        active_output_root() / "overrides/kubejs/data/dungeoncrawl",
     ]
     unexpected_outputs = [
         path.relative_to(PROJECT_ROOT).as_posix()

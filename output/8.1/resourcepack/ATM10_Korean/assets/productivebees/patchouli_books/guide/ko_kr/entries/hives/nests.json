@@ -1,0 +1,16 @@
+{
+  "name": "둥지",
+  "icon": "productivebees:oak_wood_nest",
+  "category": "productivebees:hives",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "둥지는 세계 곳곳에 흩어져 있으며 단독 벌 한 마리의 집이 됩니다. 섬세한 손길 없이 부숴도 안의 벌과 함께 주울 수 있습니다. 둥지 하나만 제작 칸에 올리면 안의 벌과 알을 비울 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "빈 둥지에 꿀 간식을 하나 이상 넣으면 새로운 벌을 유인할 수 있습니다. 꿀 간식을 들고 둥지를 우클릭하면 다시 채우기 대기 시간이 시작됩니다."
+    }
+  ]
+}

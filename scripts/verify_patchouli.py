@@ -12,12 +12,13 @@ from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORKING = PROJECT_ROOT / "working/common_ui/guide_ui/patchouli/ko_kr.json"
 OVERRIDES = PROJECT_ROOT / "working/common_ui/guide_ui/patchouli/recheck_overrides.json"
 REPORT = PROJECT_ROOT / "working/common_ui/guide_ui/patchouli/recheck_20260820.json"
 OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/patchouli/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/patchouli/lang/ko_kr.json"
 )
 GLOSSARY = PROJECT_ROOT / "glossary/README.md"
 
@@ -278,8 +279,8 @@ def scan_provider_guides(
                     if korean_source in names:
                         bundled_korean += 1
                     project_path = (
-                        PROJECT_ROOT
-                        / "output/resourcepack/ATM10_Korean/assets"
+                        active_output_root()
+                        / "resourcepack/ATM10_Korean/assets"
                         / namespace
                         / "patchouli_books"
                         / book
@@ -303,7 +304,7 @@ def scan_provider_guides(
 
 def scan_shapeless_terms(instance: Path, errors: list[str]) -> tuple[int, int]:
     """설치 모드의 Shapeless 표시 용어 충돌을 센다."""
-    output_root = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+    output_root = active_output_root() / "resourcepack/ATM10_Korean/assets"
     source_rows = 0
     conflicts = []
     for jar_path in sorted((instance / "mods").glob("*.jar")):
@@ -525,7 +526,7 @@ def verify(instance: Path) -> dict[str, object]:
         errors.append("KubeJS에 Patchouli 소유 한국어 언어 파일이 새로 생겼습니다")
 
     language_paths = sorted(
-        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets").glob(
+        (active_output_root() / "resourcepack/ATM10_Korean/assets").glob(
             "*/lang/ko_kr.json"
         )
     )

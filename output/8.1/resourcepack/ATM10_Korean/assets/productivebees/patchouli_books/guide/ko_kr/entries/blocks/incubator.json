@@ -1,0 +1,16 @@
+{
+  "name": "부화기",
+  "icon": "productivebees:incubator",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:incubator",
+      "text": "작고 연약한 새끼 벌이 자랄 때까지 기다리기 지겹나요? 부화기로 성장 속도를 높이세요. BaBee를 케이지에 넣고 꿀 간식과 함께 부화기에 넣으면 됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "부화기에서는 알에 특정 벌 유형의 $(l:genetics/collecting#crystalline)유전자$(/l)를 주입해 해당 벌의 생성 알을 만들 수도 있습니다. 유형 유전자는 유전학 설비로 얻을 수 있습니다.$(br)생성 알을 만들 때는 유형 유전자만 사용되며, 꿀 간식에 든 다른 유전자는 모두 사라집니다."
+    }
+  ]
+}

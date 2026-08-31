@@ -10,18 +10,19 @@ from pathlib import Path
 from zipfile import ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 WORK_ROOT = PROJECT_ROOT / "working/cc_tweaked/guide"
 ENGLISH_ROOT = WORK_ROOT / "en_us"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/advancedperipherals/patchouli_books/manual/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/advancedperipherals/patchouli_books/manual/ko_kr"
 )
 BOOK_OUTPUT = (
-    PROJECT_ROOT
-    / "output/overrides/kubejs/data/advancedperipherals/patchouli_books/manual/book.json"
+    active_output_root()
+    / "overrides/kubejs/data/advancedperipherals/patchouli_books/manual/book.json"
 )
 JAR_PREFIX = "AdvancedPeripherals-"
 SOURCE_PREFIX = "assets/advancedperipherals/patchouli_books/manual/en_us/"

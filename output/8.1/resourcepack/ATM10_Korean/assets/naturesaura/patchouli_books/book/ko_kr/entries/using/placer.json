@@ -1,0 +1,26 @@
+{
+  "name": "눈에 띄지 않는 건축업자",
+  "icon": "naturesaura:placer",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "많은 활동을 위해서는 사람이 주변에 있어야 하며, 대부분은 $(thing)자본 매출$() 블록을 세상에 내보내는 데 사용됩니다. $(aura)가 그 자리를 대신할 수 있는 시대에 이는 실제로 인력 낭비입니다. $(item)눈에 띄지 않는 건축업자$()는 그 대가로 소량의 $(aura)에 대해 공급하는 모든 블록을 배치합니다. $(br)빌더는 그 위에 배치된 $(thing)아이템 컨테이너$()에서 배치할 블록을 수집합니다."
+    },
+    {
+      "type": "text",
+      "text": "어떤 블록을 배치해야 하는지 지정하려면 빌더에 $(item)아이템 액자$()를 걸어 놓고 그 안에 원하는 블록을 넣어야 합니다. 그런 다음 상자의 블록을 $(thing)다섯 블록$() 정도의 영역에 배치합니다. $(br)예를 들어, 조약돌 조각을 프레임에 배치하고 판자를 더미로 상자에 배치하면 판자가 근처의 조약돌 위에 배치됩니다. $(p)레드스톤 신호를 제공하면 배치가 비활성화됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)눈에 띄지 않는 건축업자$() 생성",
+      "recipe": "naturesaura:placer"
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)농업 스텐실$()를 빌더와 함께 사용하여 $(item)농토$()에 항목을 배치할 수 있습니다. 일반 블록과 마찬가지로 아이템 액자 중 하나에 배치하면 됩니다.",
+      "recipe": "naturesaura:farming_stencil"
+    }
+  ]
+}

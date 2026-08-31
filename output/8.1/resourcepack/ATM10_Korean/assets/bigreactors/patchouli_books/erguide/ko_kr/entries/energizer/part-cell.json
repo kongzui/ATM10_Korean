@@ -1,0 +1,22 @@
+{
+  "name": "에너지 셀",
+  "icon": "bigreactors:energizercell",
+  "category": "bigreactors:energizer-parts",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:energizercell",
+      "link_recipe": true,
+      "title": "에너지 셀",
+      "text": "에너지 셀은 에너자이저의 저장 구성 요소이며 기계 내부 공간을 완전히 채우는 데 사용해야 합니다."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Energy Cell",
+      "crafting.recipe1": "bigreactors:energizer/energizercell",
+      "usage.text": "$(l)Mandatory:$() yes$(br)$(l)Valid positions:$() inside the Energizer$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/common_ui/inventory_controls/invtweaks"
 SOURCES = WORK_ROOT / "display_sources.json"
@@ -19,7 +20,7 @@ WORKING = WORK_ROOT / "ko_kr.json"
 OVERRIDES = WORK_ROOT / "recheck_overrides.json"
 REPORT = WORK_ROOT / "recheck_20260820.json"
 OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/invtweaks/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/invtweaks/lang/ko_kr.json"
 )
 GLOSSARY = PROJECT_ROOT / "glossary/README.md"
 
@@ -284,8 +285,8 @@ def verify(pre_apply: bool) -> dict[str, object]:
     if forbidden:
         errors.append(f"Inventory Tweaks 금지 표기 잔존: {sorted(set(forbidden))}")
     related_guide = (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/advanced_ae/ae2guide/_ko_kr/"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/advanced_ae/ae2guide/_ko_kr/"
         "aae_intro/advanced_io_bus.md"
     )
     if "외부 인벤토리" not in related_guide.read_text(encoding="utf-8"):
@@ -304,7 +305,7 @@ def verify(pre_apply: bool) -> dict[str, object]:
         instance, set(output)
     )
     project_languages = list(
-        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets").glob(
+        (active_output_root() / "resourcepack/ATM10_Korean/assets").glob(
             "*/lang/ko_kr.json"
         )
     )

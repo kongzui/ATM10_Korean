@@ -1,0 +1,12 @@
+{
+  "name": "숨가쁨",
+  "icon": "minecraft:white_wool",
+  "category": "naturesaura:effects",
+  "advancement": "naturesaura:negative_imbalance",
+  "pages": [
+    {
+      "type": "text",
+      "text": "지역에서 $(aura)를 제거하면 영향을 받은 지역 주변의 식물뿐만 아니라 호흡을 위해 $(item)산소$()가 필요한 생물에도 영향을 미칩니다. 이 생물들은 $(aura)가 더 많이 배출될수록 호흡하기가 덜 쉬워진다는 사실을 빠르게 알아차릴 것입니다. 그들의 폐는 불규칙한 간격으로 찌르는 듯한 급성 통증을 일으키기 시작하고 건강을 재생하는 것이 심각하게 어려워집니다."
+    }
+  ]
+}

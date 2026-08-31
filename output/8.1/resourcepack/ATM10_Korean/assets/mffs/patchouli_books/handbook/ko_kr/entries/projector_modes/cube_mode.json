@@ -1,0 +1,32 @@
+{
+  "name": "정육면체 모드",
+  "icon": "mffs:cube_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:cube_mode",
+      "link_recipe": true,
+      "text": "기본적으로, $(2)큐브 모드$()는 프로젝터가 정확히 1 블록 두께의 큐브 모양으로 역장을 생성하도록 설정합니다. 각 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()는 모든 방향에서 1 블록만큼 역장의 크기를 증가시킵니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:cube_mode",
+      "text": "$(2)큐브 모드$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "현장 조정",
+      "text": "$(2)정육면체 모드$()로 직육면체 모양의 역장도 만들 수 있습니다. 방향 화살표가 있는 슬롯에 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()을 넣으면 해당 방향으로만 역장이 1블록 늘어납니다. 예를 들어 역장 높이를 1블록 늘리려면 화면 왼쪽 위나 오른쪽 위를 가리키는 슬롯에 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()을 넣으세요."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/cube_mode.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "확장된 $(2)정육면체 모드$() 필드가 투영되고 있습니다."
+    }
+  ]
+}

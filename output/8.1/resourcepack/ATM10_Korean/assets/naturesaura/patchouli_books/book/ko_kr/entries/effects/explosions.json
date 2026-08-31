@@ -1,0 +1,12 @@
+{
+  "name": "불안정한 발병",
+  "icon": "minecraft:tnt",
+  "category": "naturesaura:effects",
+  "advancement": "naturesaura:negative_imbalance",
+  "pages": [
+    {
+      "type": "text",
+      "text": "해당 지역의 $(aura) 수준이 $(item)자연 부패$()가 이미 할 수 있는 모든 작업을 수행했지만 수준이 여전히 증가하지 않을 정도로 매우 낮은 경우 자연 자체는 $(item)불안정한 발병$() 지점까지 안정성을 잃습니다. $(thing)폭발$()는 표면의 넓은 영역에서 산발적으로 발생하기 시작하며 심각도와 간격은 불균형의 심각도에 따라 다릅니다."
+    }
+  ]
+}

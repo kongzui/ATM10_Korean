@@ -1,0 +1,17 @@
+{
+  "name": "포털 건",
+  "sortnum": 10,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:portalgun[justdirethings:forge_energy=100000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "포털 건은 포털 두 개를 만드는 장치입니다. 좌클릭하면 파란색 포털, 우클릭하면 주황색 포털을 만드는 투사체를 발사합니다. 플레이어와 아이템 모두 한쪽 포털로 들어가 다른 포털로 나올 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "포털 건 제작",
+      "recipe": "justdirethings:portalgun"
+    }
+  ]
+}

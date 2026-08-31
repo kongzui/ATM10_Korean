@@ -1,0 +1,18 @@
+{
+  "name": "레드스톤 벌",
+  "icon": "minecraft:redstone",
+  "read_by_default": true,
+  "category": "productivebees:bees_hive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "레드스톤 벌",
+      "text": "$(l:bees/wild/glowing)빛나는 벌$(/l)과 $(l:bees/solitary/chocolate_mining)초콜릿 채굴 벌$(/l)을 교배해 얻습니다.",
+      "anchor": "redstone"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:redstone'}"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "마법 부여대",
+  "description": "이 장에서는 마법 부여대의 변경 사항을 살펴봅니다.",
+  "icon": "minecraft:enchanting_table",
+  "flag": "apotheosis:enchanting",
+  "parent": "apotheosis:enchanting/enchanting",
+  "sortnum": -2
+}

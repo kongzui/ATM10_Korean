@@ -1,0 +1,20 @@
+{
+  "name": "카드 제작",
+  "icon": "rftoolsbase:crafting_card",
+  "category": "rftoolsbase:category_tools",
+  "extra_recipe_mappings": {
+    "rftoolsbase:crafting_card": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "제작 카드는 제작법을 담을 수 있는 아이템입니다. 일반 3x3 조합법뿐만 아니라 더 복잡한 모양에도 사용할 수 있습니다. 다양한 기계에서 이 카드를 사용할 수 있습니다.$(br2)저장된 조합법가 실제로 유효할 필요는 없습니다. 이 카드는 '입력'과 '출력'을 나타내는 일반적인 방법으로도 사용할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "rftoolsbase:textures/manual/image_craftingcard.png"
+      ]
+    }
+  ]
+}

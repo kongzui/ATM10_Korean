@@ -1,0 +1,25 @@
+{
+  "name": "방어력",
+  "icon": "minecraft:iron_chestplate",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)방어력$()은 물리 피해에 얼마나 잘 저항하는지를 나타냅니다.$(p)보통 방어구 아이템과 방패가 제공합니다.$(p)받는 피해량은 들어오는 피해와 방어력에 따라 결정됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "공식의 첫 번째 요소인 $(br)A 값은 $(9)10 + (피해 - 20) / 2$()이며, 최솟값은 $(9)10$()입니다.$(p)그다음 $(br)$(9)A / (A + 방어력)$()만큼 피해가 감소합니다.$(p)Apotheosis가 방어 공식을 교체하므로 위 공식은 바닐라 Minecraft의 공식과 다릅니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "바닐라 수준의 방어력과 피해에서는 피해를 조금 덜 받게 됩니다.$(p)방어력과 피해가 높은 수준에서는 방어력의 효과가 크게 줄어듭니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 변경은 높은 수준에서 무적에 가까워지는 현상을 줄이고 $(9)보호$()와 $(9)저항$()의 영향력을 높이기 위한 것입니다.$(p)또한 양쪽 모두 중무장한 전투가 훨씬 더 역동적으로 진행됩니다."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "달리기 속도",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_runspeed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "달리기 속도 업그레이드로 질주 능력을 강화하세요. 이 개선 사항은 달리기 속도를 크게 높여 더 짧은 시간에 먼 거리를 횡단할 수 있게 해줍니다. $(br2) 페리코어 티어 레깅스에 설치할 수 있지만 더 높은 티어의 레깅스를 사용하면 더 빠른 달리기 속도가 가능합니다. 설정 화면에서 슬라이더를 사용하여 조정할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "달리기 속도 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_runspeed"
+    }
+  ]
+}

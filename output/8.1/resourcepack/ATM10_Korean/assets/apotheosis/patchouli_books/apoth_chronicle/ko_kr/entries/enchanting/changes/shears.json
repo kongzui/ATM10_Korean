@@ -1,0 +1,13 @@
+{
+  "name": "가위",
+  "icon": "minecraft:shears",
+  "category": "apotheosis:enchanting/changes",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "새 마법 부여뿐 아니라 가위에 $(9)내구성$(), $(9)효율$(), $(9)행운$()도 부여할 수 있습니다."
+    }
+  ]
+}

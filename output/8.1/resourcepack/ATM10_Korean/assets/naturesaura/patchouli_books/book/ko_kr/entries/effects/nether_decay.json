@@ -1,0 +1,12 @@
+{
+  "name": "진홍색 부패",
+  "icon": "minecraft:soul_sand",
+  "category": "naturesaura:effects",
+  "advancement": "naturesaura:negative_imbalance",
+  "pages": [
+    {
+      "type": "text",
+      "text": "결과적으로 $(l:effects/decay)자연 부패$()의 효과는 다음과 같은 방식으로 $(thing)네더$()로 확장됩니다. $(aura) 수준이 충분히 낮으면 $(item)네더랙$() 및 기타 블록도 $(thing)부식$()로 시작됩니다. 먼저 $(item)영혼의 흙$()로 변신한 다음 $(item)영혼의 모래$()로 변신하여 필연적으로 해당 지역을 횡단하기가 정말 어려워집니다. 또한 블록은 무작위로 $(thing)불을 붙이다$()로 시작됩니다."
+    }
+  ]
+}

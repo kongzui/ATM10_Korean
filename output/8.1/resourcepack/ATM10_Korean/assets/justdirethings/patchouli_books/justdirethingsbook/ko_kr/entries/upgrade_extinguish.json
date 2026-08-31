@@ -1,0 +1,17 @@
+{
+  "name": "소화",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_extinguish",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "소화 업그레이드로 화재 위험으로부터 자신을 보호하세요. 이 편리한 업그레이드는 자동으로 플레이어의 화재를 진압하여 갑작스러운 화재로부터 안전을 보장합니다.$(br2)참고: 다시 불을 끄려면 재사용 대기 시간이 필요합니다. 이 재사용 대기 시간은 방어구 티어가 높을수록 짧아집니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "소화 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_extinguish"
+    }
+  ]
+}

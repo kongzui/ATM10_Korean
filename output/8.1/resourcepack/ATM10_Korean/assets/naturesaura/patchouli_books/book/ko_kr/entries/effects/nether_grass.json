@@ -1,0 +1,17 @@
+{
+  "name": "진홍빛 과성장",
+  "icon": "naturesaura:nether_grass",
+  "category": "naturesaura:effects",
+  "advancement": "naturesaura:positive_imbalance",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:effects/plant_boost)식물의 증가$()에 관한 장에서 논의한 바와 같이, $(aura)의 과잉은 식물 등으로 이동할 수 있습니다. $(thing)네더$()에서도 유사한 효과가 관찰될 수 있습니다. $(aura) 수준이 충분히 높으면 $(item)잔디$()가 해당 영역의 $(item)네더랙$() 위에서 자라기 시작합니다."
+    },
+    {
+      "type": "naturesaura:tree_ritual",
+      "recipe": "naturesaura:nether_grass_powder",
+      "text": "이 효과는 $(l:effects/effect_powder)불모의 가루$()를 사용하여 억제할 수 있습니다."
+    }
+  ]
+}

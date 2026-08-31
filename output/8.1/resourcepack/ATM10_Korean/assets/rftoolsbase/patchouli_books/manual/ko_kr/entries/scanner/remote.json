@@ -1,0 +1,23 @@
+{
+  "name": "원격 스캐너",
+  "icon": "rftoolsstorage:tablet_scanner",
+  "category": "rftoolsbase:category_rftoolsstorage_scanner",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:tablet_scanner": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "태블릿 스캐너는 연결된 저장소 스캐너에 원격으로 액세스하는 데 사용되는 태블릿 상태입니다."
+    },
+    {
+      "type": "text",
+      "text": "저장소 제어 모듈을 저장소 스캐너에 연결하고 해당 모듈을 태블릿에 넣은 다음 선택하세요. 우클릭하면 원격 스캐너 GUI가 열립니다."
+    },
+    {
+      "type": "text",
+      "text": "웅크린 채 우클릭하면 대신 태블릿 관리 GUI가 열립니다. 원격 사용은 스캐너 태블릿 비용에 따라 태블릿에서 FE를 소비합니다."
+    }
+  ]
+}

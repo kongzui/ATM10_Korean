@@ -1,0 +1,387 @@
+{
+  "pages": [
+
+    {
+      "type": "standard",
+
+
+
+      "summary": "자급자족 생활자를 위한 치즈 제조 안내\n\n",
+
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.cheese.wheels",
+          "target_page": 1
+        },
+		{
+          "title": "herbsandharvest.guide_book.cheese.wheelsc",
+          "target_page": 2
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.supp",
+          "target_page": 3
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.mix",
+          "target_page": 4
+        },
+         {
+          "title": "herbsandharvest.guide_book.cheese.milk",
+          "target_page": 5
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.rennet",
+          "target_page": 6
+        },
+         {
+          "title": "herbsandharvest.guide_book.cheese.curds",
+          "target_page": 7
+        },
+		{
+          "title": "herbsandharvest.guide_book.cheese.salt",
+          "target_page": 8
+        },
+		{
+          "title": "herbsandharvest.guide_book.cheese.raw",
+          "target_page": 9
+        },
+		{
+          "title": "herbsandharvest.guide_book.cheese.age",
+          "target_page": 10
+        },
+		{
+          "title": "herbsandharvest.guide_book.cheese.place",
+          "target_page": 11
+        },
+		{
+          "title": "herbsandharvest.guide_book.cheese.auto",
+          "target_page": 12
+        }
+
+      ],
+
+          "elements": [
+
+
+			]
+    },
+
+
+      {
+          "type": "standard",
+
+          "title": "herbsandharvest.guide_book.cheese.wheels",
+
+          "summary": "치즈는 연성 치즈와 경성 치즈로 나뉘어요. 연성 치즈 휠은 만든 즉시 사용할 수 있어요.",
+
+          "elements": [
+          {
+			"type": "icon_list",
+			"entries": [
+
+                  {
+					"item": "herbsandharvest:caravane",
+					"text": "guide.herbsandharvest.caravane_desc"
+                  },
+                  {
+					"item": "herbsandharvest:chevre",
+					"text": "guide.herbsandharvest.chevre_desc"
+                  },
+                  {
+					"item": "herbsandharvest:feta",
+					"text": "guide.herbsandharvest.feta_desc"
+                  },
+                  {
+					"item": "herbsandharvest:ricotta",
+					"text": "guide.herbsandharvest.ricotta_desc"
+                  }
+			]
+		}
+
+
+
+          ]
+      },
+            {
+          "type": "standard",
+
+          "title": "herbsandharvest.guide_book.cheese.wheelsc",
+
+          "summary": "숙성 전 경성 치즈 휠은 사용하기 전에 치즈 숙성 선반에서 숙성해야 해요.",
+
+          "elements": [
+
+              {
+			"type": "icon_list",
+			"entries": [
+
+                  {
+					"item": "herbsandharvest:aged_cheddar",
+					"text": "guide.herbsandharvest.aged_cheddar_desc"
+                  },
+                  {
+					"item": "herbsandharvest:aged_gouda",
+					"text": "guide.herbsandharvest.aged_gouda_desc"
+                  },
+                  {
+					"item": "herbsandharvest:aged_parmesan",
+					"text": "guide.herbsandharvest.aged_parmesan_desc"
+                  },
+                  {
+					"item": "herbsandharvest:aged_swiss",
+					"text": "guide.herbsandharvest.aged_swiss_desc"
+                  }
+			]
+		}
+          ]
+      },
+
+
+
+
+
+      {
+          "type": "standard",
+          "title": "herbsandharvest.guide_book.cheese.supp",
+
+          "summary": "치즈를 만들려면 다음 준비물이 필요해요:\n-우유 양동이(치즈 종류에 맞는 조합)\n-아래에 열원이 있는 가마솥\n-레닛\n-소금\n-치즈 숙성 선반",
+
+          "elements": [
+
+              {
+                  "type": "text",
+                  "literal_text": "준비물을 갖췄다면 어떤 치즈를 만들지 정하세요.\n\n치즈는 모두 8종류이며, 종류마다 고유한 우유 조합을 사용해요.\n\n치즈 레시피에 필요한 우유 조합은 다음과 같아요:",
+                  "text": null
+              }
+          ]
+
+      },
+
+            {
+          "type": "standard",
+          "title": "herbsandharvest.guide_book.cheese.mix",
+
+          "summary": "경성 치즈:\n\n- 체더 치즈: 소 우유\n- 고다 치즈: 양 우유\n- 파르메산 치즈: 소 우유, 염소 우유\n- 스위스 치즈: 양 우유, 염소 우유",
+
+          "elements": [
+
+              {
+                  "type": "text",
+                  "literal_text": "\n\n연성 치즈:\n\n- 카라반 치즈: 낙타 우유\n- 셰브르 치즈: 염소 우유\n- 페타 치즈: 낙타 우유, 염소 우유\n- 리코타 치즈: 낙타 우유, 양 우유",
+                  "text": null
+              }
+          ]
+
+      },
+
+
+
+            {
+          "type": "standard",
+          "title": "herbsandharvest.guide_book.cheese.milk",
+
+          "summary": "레시피를 정하고 다른 준비물도 갖췄다면 치즈를 만들 차례예요.",
+
+          "elements": [
+
+                 {
+                  "type": "image",
+                  "image_path": "textures/gui/guide/chapters/cheese/add_milk.png",
+                  "caption": "herbsandharvest.guide_book.chapters.cheese.add_milk_caption",
+                  "image_width": 110,
+                  "image_height": 62
+
+				},
+
+              {
+                  "type": "text",
+                  "literal_text": "가마솥 아래에 열원이 있는지 확인하고 우유를 넣으세요. 여러 종류의 우유를 섞는 레시피라면 한 종류를 넣은 뒤 다른 종류를 빠르게 넣으세요.",
+                  "text": null
+              }
+          ]
+
+      },
+
+           {
+          "type": "standard",
+          "title": "herbsandharvest.guide_book.cheese.rennet",
+
+          "summary": "그다음 레닛을 곧바로 넣으세요. 레닛을 충분히 빨리 넣지 않으면 우유가 크림으로 변하므로 중요해요.",
+
+          "elements": [
+
+                 {
+                  "type": "image",
+                  "image_path": "textures/gui/guide/chapters/cheese/add_rennet.png",
+                  "caption": "herbsandharvest.guide_book.chapters.cheese.add_rennet_caption",
+                  "image_width": 110,
+                  "image_height": 62
+
+				},
+
+              {
+                  "type": "text",
+                  "literal_text": "레닛을 넣으면 가마솥 속 혼합물이 즉시 변하는 것을 볼 수 있어요.",
+                  "text": null
+              }
+          ]
+
+      },
+
+      {
+          "type": "standard",
+          "title": "herbsandharvest.guide_book.cheese.curds",
+
+          "summary": "혼합물이 움직이기 시작하고 시간이 지나면 응유와 유청으로 다시 변해요.",
+
+          "elements": [
+
+                 {
+                  "type": "image",
+                  "image_path": "textures/gui/guide/chapters/cheese/curds.png",
+                  "caption": "herbsandharvest.guide_book.chapters.cheese.curds_caption",
+                  "image_width": 110,
+                  "image_height": 62
+
+				},
+
+              {
+                  "type": "text",
+                  "literal_text": "사진처럼 노란 액체 위로 흰 덩어리가 떠오르며 거품도 보여요.",
+                  "text": null
+              }
+          ]
+
+      },
+
+      {
+          "type": "standard",
+          "title": "herbsandharvest.guide_book.cheese.salt",
+
+          "summary": "가마솥이 응유와 유청으로 가득 차면 가마솥에 소금을 사용하세요.",
+
+          "elements": [
+
+              {
+                  "type": "text",
+                  "literal_text": "소금이 유청과 결합해 치즈를 치즈 휠로 굳혀요.\n\n치즈 휠을 받으면 가마솥은 비어 있어야 해요.",
+                  "text": null
+              }
+          ]
+
+      },
+
+       {
+          "type": "standard",
+          "title": "herbsandharvest.guide_book.cheese.raw",
+
+          "summary": "다음 단계는 만든 치즈 종류에 따라 달라요.\n\n연성 치즈를 만들었다면 추가 과정 없이 바로 사용할 수 있어요. ",
+
+          "elements": [
+
+                 {
+                  "type": "image",
+                  "image_path": "textures/gui/guide/chapters/cheese/wheel.png",
+                  "caption": "herbsandharvest.guide_book.chapters.cheese.wheel_caption",
+                  "image_width": 110,
+                  "image_height": 62
+
+				},
+
+              {
+                  "type": "text",
+                  "literal_text": "치즈 휠을 설치하고 클릭하면 치즈 조각을 얻어요.",
+                  "text": null
+              }
+          ]
+
+      },
+
+      {
+          "type": "standard",
+          "title": "herbsandharvest.guide_book.cheese.age",
+
+          "summary": "경성 치즈를 만들었다면 숙성이 필요한 숙성 전 치즈 휠을 받게 돼요.",
+
+          "elements": [
+
+                 {
+                  "type": "image",
+                  "image_path": "textures/gui/guide/chapters/cheese/shelf.png",
+                  "caption": "herbsandharvest.guide_book.chapters.cheese.shelf_caption",
+                  "image_width": 110,
+                  "image_height": 62
+
+				},
+
+              {
+                  "type": "text",
+                  "literal_text": "숙성 전 치즈 휠을 치즈 숙성 선반에 넣으세요. 숙성이 끝나면 선반 위의 모습이 바뀌는 것을 볼 수 있어요.",
+                  "text": null
+              }
+          ]
+
+      },
+
+      {
+          "type": "standard",
+
+          "title": "herbsandharvest.guide_book.cheese.place",
+
+          "summary": "완성된 치즈 휠은 설치할 수 있는 블록이에요.\n\n설치한 뒤 클릭하면 먹거나 음식 레시피에 사용할 수 있는 치즈 조각을 얻어요.",
+
+          "elements": [
+				{
+                  "type": "image",
+                  "image_path": "textures/gui/guide/chapters/cheese/wheel1.png",
+                  "caption": "herbsandharvest.guide_book.chapters.cheese.wheel1_caption",
+                  "image_width": 110,
+                  "image_height": 62
+
+				},
+				{
+                  "type": "text",
+                  "literal_text": "치즈 휠 하나에서는 치즈 조각 4개가 나와요.\n\n주의: 한 번 설치한 치즈 휠은 회수할 수 없어요.",
+                  "text": null
+				}
+          ]
+      },
+
+        {
+          "type": "standard",
+          "title": "herbsandharvest.guide_book.cheese.auto",
+
+          "summary": "발사기로 가마솥에 레닛이나 소금을 넣는 과정을 자동화할 수 있어요.\n\n참고: 우유 조합을 가마솥에 넣는 과정은 자동화할 수 없어요.",
+
+
+
+          "elements": [
+
+              {
+                  "type": "text",
+                  "literal_text": "우유가 크림으로 변했다면 크림 양동이를 꺼내는 과정도 자동화할 수 있어요.",
+                  "text": null
+              }
+          ]
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+}

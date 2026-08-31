@@ -1,0 +1,6 @@
+{
+  "name": "운송",
+  "description": "아이템, 유체와 개체를 옮기는 장치입니다.",
+  "icon": "industrialforegoing:conveyor",
+  "sortnum": 4
+}

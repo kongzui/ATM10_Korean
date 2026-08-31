@@ -12,6 +12,7 @@ from pathlib import Path
 
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 JAR_PREFIX = "Super Factory Manager (SFM)-MC1.21.1-"
@@ -20,7 +21,7 @@ WORK_ROOT = PROJECT_ROOT / "working/super_factory_manager/templates"
 ENGLISH_ROOT = WORK_ROOT / "en_us"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/sfm/template_programs"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/sfm/template_programs"
 )
 EXCLUDED_FILES = {"changelog.sfml"}
 PRESERVED_COMMENT_FILES = {"thank_you.sfml"}

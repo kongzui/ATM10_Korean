@@ -1,0 +1,19 @@
+{
+  "name": "스택 증강",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:stack_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 증강은 $(italic)블록/$, $(italic)유체/$, $(italic)에너지/$가 아니라 $(italic)아이템/$을 처리하는 모든 모듈에 넣을 수 있습니다.$(p)스택 증강을 넣으면 모듈이 틱마다 처리할 수 있는 아이템 수가 늘어납니다. 증강 하나마다 수량이 두 배가 되며, 아이템의 기본 최대 스택 크기(대부분 64개)까지 늘어납니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:router/modular_router)라우터/$에도 $(l:upgrades/stack)스택 업그레이드/$가 설치되어 있다면 모듈의 스택 증강이 그 효과를 대신합니다. 예를 들어 라우터에 스택 업그레이드 6개가 있고 모듈에 스택 증강 2개가 있으면, 모듈은 틱당 64개가 아니라 4개를 처리합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:stack_augment"
+    }
+  ]
+}

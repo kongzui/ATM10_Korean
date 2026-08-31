@@ -1,0 +1,21 @@
+{
+  "name": "그림자의 지팡이",
+  "icon": "naturesaura:cave_finder",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:offering",
+  "pages": [
+    {
+      "type": "text",
+      "text": "몬스터 생성 공간을 만들 때는 주변 동굴과 $(thing)어두운 곳$()을 밝혀야 하지만, 이런 장소를 찾느라 불필요하게 땅을 파기 쉽습니다.$(br)$(item)그림자의 지팡이$()를 사용하면 주변의 모든 어두운 곳을 $(thing)표시$()합니다. 범위는 약"
+    },
+    {
+      "type": "text",
+      "text": "30는 활성화 지점 주변을 30초 정도 차단하여 누구든지 그 블록을 파고 불을 밝힐 수 있는 충분한 시간을 제공합니다. $(br)시각화된 영역은 자연광과 인공광 모두 몬스터가 스폰될 만큼 낮은 곳입니다. $(p)당연히 이 문제의 영역을 찾고 표시하려면 $(l:items/aura_cache)오라 캐시$() 또는 이와 유사한 것에서 상당한 양의 $(aura)가 필요합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)그림자의 지팡이$() 생성",
+      "recipe": "naturesaura:cave_finder"
+    }
+  ]
+}

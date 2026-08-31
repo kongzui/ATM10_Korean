@@ -1,0 +1,12 @@
+{
+  "name": "선물",
+  "icon": "merrymaking:present",
+  "category": "merrymaking:present",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "merrymaking:present",
+      "text": "선물은 오버월드 곳곳의 상자에서 찾을 수 있어요. $(br2) 선물을 설치하면 포장 색상이 무작위로 정해져요. 섬세한 손길로 선물을 다시 집을 수 있어요. $(br2)선물을 부수어 열면 안에 든 물건이 나와요. 아주 좋은 선물부터 \"아, 이런 것까지 안 주셔도 되는데!\" 싶은 선물까지 다양해요."
+    }
+  ]
+}

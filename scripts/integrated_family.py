@@ -15,14 +15,17 @@ from zipfile import ZipFile
 
 import build_ae2_quests as quest_snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/integrated_dynamics"
 CACHE_PATH = PROJECT_ROOT / "temp/integrated_family_auto_candidates.json"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 GOOGLE_TRANSLATE = "https://translate.googleapis.com/translate_a/single"
 
 FAMILY_ARCHIVES = {

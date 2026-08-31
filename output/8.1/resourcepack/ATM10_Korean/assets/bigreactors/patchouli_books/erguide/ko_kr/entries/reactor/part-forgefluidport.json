@@ -1,0 +1,27 @@
+{
+  "name": "Forge 유체 포트",
+  "icon": "bigreactors:reinforced_reactorfluidport_forge_passive",
+  "category": "bigreactors:reactor-parts",
+  "read_by_default": true,
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_reactorfluidport_forge_passive",
+      "link_recipe": true,
+      "title": "Forge 유체 포트",
+      "text": "Forge 유체 포트는 $(l:bigreactors/active)능동 냉각$(/l) 원자로에 유체를 넣거나 꺼냅니다.$(br2)Minecraft 유체 중 유효한 $(l:bigreactors/coolantsystem)냉각재와 증기$(/l)만 받을 수 있습니다.$(br2)$(l:bigreactors/wrench)렌치$(/l)로 입력·출력 모드를 바꿀 수 있습니다."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Reinforced (Passive)",
+      "recipe1": "bigreactors:reactor/reinforced/passivefluidport_forge",
+      "title2": "Reinforced (Active)",
+      "recipe2": "bigreactors:reactor/reinforced/activefluidport_forge"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수:$() 아니요$(br)$(l)설치 가능 위치: $() 모든 면(프레임에 없음)$(br)$(l)종류: $() 강화$(br)$(l)화면: $() 아니오$(br)$(l)렌치:$()$(l:bigreactors:misc/wrench)렌치$(/l)포트 모드를 전환하는 데 사용할 수 있습니다."
+    }
+  ]
+}

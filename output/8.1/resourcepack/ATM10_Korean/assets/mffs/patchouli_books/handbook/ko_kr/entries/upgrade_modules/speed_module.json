@@ -1,0 +1,18 @@
+{
+  "name": "속도 모듈",
+  "icon": "mffs:speed_module",
+  "category": "mffs:upgrade_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:speed_module",
+      "link_recipe": true,
+      "text": "$(5)속도 모듈$()은 여러 MFFS 기계의 성능을 높입니다. 기계에 따라 효과가 다르며 주로 다음 기능을 제공합니다: $(li)역장 투사 속도 증가$(li)$(l:mffs:machines/fortron_capacitor)포트론 축전기$()의 $(l:mffs:getting_started/fortron)포트론$() 전송 한도 증가$(li)$(l:mffs:machines/coercion_deriver)강제 유도기$() 효율 증가"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:speed_module",
+      "text": "$(5)속도 모듈$() 제작법입니다."
+    }
+  ]
+}

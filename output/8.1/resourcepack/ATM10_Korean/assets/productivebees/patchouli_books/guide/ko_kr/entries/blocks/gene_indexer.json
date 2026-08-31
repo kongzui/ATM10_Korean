@@ -1,0 +1,16 @@
+{
+  "name": "유전자 인덱서",
+  "icon": "productivebees:gene_indexer",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:gene_indexer",
+      "text": "유전자 샘플에 파묻히고 있나요? 유전자를 합치느라 반복 작업 손상(RSI)이 생기고 있나요? 그렇다면 이 블록이 필요합니다!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 초대형 용기에 주변에 있는 모든 유전자를 채우고, 스위치를 켜고 자동화된 내부 유전자 색인 장치가 유전자를 결합하는 모습을 지켜보세요. 가장 효율적인 방법은 아닐 수도 있지만...자동화되어 있습니다!$(br2)레드스톤 신호가 필요합니다."
+    }
+  ]
+}

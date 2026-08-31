@@ -1,0 +1,16 @@
+{
+  "name": "FTB Filter System",
+  "category": "modularrouters:filters",
+  "icon": "ftbfiltersystem:smart_filter",
+  "flag": "|mod:ftbfiltersystem",
+  "pages": [
+    {
+      "type": "text",
+      "text": "FTB Filter System은 직관적인 GUI로 여러 필터 조건을 다양하게 조합할 수 있는 강력한 모드입니다. FFS가 설치되어 있다면(이 글을 읽고 있으니 설치되어 있겠네요!) 이 모드의 $(item)스마트 필터/$를 모듈의 필터 슬롯에 넣어 알맞게 아이템을 걸러낼 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "제한 사항: Modular Routers 필터와 달리 FFS 스마트 필터는 모듈에 설치된 상태에서 설정할 수 없습니다. 다시 설정하려면 필터 아이템을 인벤토리로 꺼내야 합니다."
+    }
+  ]
+}

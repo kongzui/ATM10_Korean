@@ -1,0 +1,27 @@
+{
+  "name": "유리",
+  "icon": "bigreactors:reinforced_reactorglass",
+  "category": "bigreactors:reactor-parts",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_reactorglass",
+      "link_recipe": true,
+      "title": "유리",
+      "text": "유리 블록은 외장 블록 대신 사용하여 원자로 내부를 보여줄 수 있는 장식 요소입니다."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic",
+      "recipe1": "bigreactors:reactor/basic/glass",
+      "title2": "Reinforced",
+      "recipe2": "bigreactors:reactor/reinforced/glass"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수:$() 아니요$(br)$(l)설치 가능 위치: $() 모든 면(프레임에 없음)$(br)$(l)종류:$() 모두$(br)$(l)화면: $() 아니오"
+    }
+  ]
+}

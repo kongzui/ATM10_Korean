@@ -1,0 +1,13 @@
+{
+  "name": "공격 속도",
+  "icon": "minecraft:golden_sword",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)공격 속도$()는 공격할 수 있는 빈도를 결정합니다. 공격 속도가 2라면 초당 두 번 공격할 수 있습니다.$(p)여러 아이템으로 공격 속도를 높일 수 있습니다."
+    }
+  ]
+}

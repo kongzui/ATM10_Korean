@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 괭이",
+  "sortnum": 11,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_hoe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "더 빠른 작업과 '용암 수리'로 $(l:justdirethings:tool_ferricore_hoe)페리코어 괭이$(/l)를 개선합니다. 경작을 하면 작물 성장을 더욱 촉진하고 자동 수확을 가능하게 하는 블레이즈블룸 토양이 생성되어 식물이 자동으로 자원을 떨어뜨리게 됩니다. $(br2)수확된 아이템은 빠르게 사라집니다. $(l:justdirethings:mach_itemcollector)아이템 수집기$(/l)를 사용하여 효율적으로 전리품을 수집하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_hoe",
+      "text": "블레이즈골드 괭이 제작"
+    }
+  ]
+}

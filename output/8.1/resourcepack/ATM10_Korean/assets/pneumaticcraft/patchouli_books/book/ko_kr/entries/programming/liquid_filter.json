@@ -1,0 +1,19 @@
+{
+  "name": "유체 필터 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/liquid_filter_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)유체 필터/$는 다른 위젯의 $(thing)매개변수/$로만 사용되는 위젯입니다. 위젯을 $(thing)오른쪽 클릭/$하고 표시되는 검색 GUI에서 유체를 검색/선택하여 특정 유체를 지정할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/liquid_filter_piece.png"
+      ],
+      "text": "$(italic)유체 필터 위젯/$"
+    }
+  ]
+}

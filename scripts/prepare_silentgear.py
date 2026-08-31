@@ -10,9 +10,10 @@ from zipfile import ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
 from silentgear_catalog import BATCHES, TARGETS, Target
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/silentgear"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
 
 
 def load_json(archive: ZipFile, name: str) -> dict[str, object]:

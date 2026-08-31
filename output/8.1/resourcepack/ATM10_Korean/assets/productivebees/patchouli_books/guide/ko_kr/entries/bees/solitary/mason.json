@@ -1,0 +1,19 @@
+{
+  "name": "석공 벌",
+  "icon": "productivebees:spawn_egg_mason_bee",
+  "read_by_default": true,
+  "sortnum": 8,
+  "category": "productivebees:bees_solitary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "석공 벌",
+      "text": "[오스미아 리그나리아]",
+      "anchor": "mason"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:mason_bee"
+    }
+  ]
+}

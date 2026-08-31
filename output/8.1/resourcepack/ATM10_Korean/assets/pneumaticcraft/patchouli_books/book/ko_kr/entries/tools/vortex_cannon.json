@@ -1,0 +1,22 @@
+{
+  "name": "볼텍스 캐논",
+  "icon": "pneumaticcraft:vortex_cannon[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)볼텍스 캐논/$는 $(thing)소용돌이/$를 발사하는 무기입니다. 소용돌이는 마찰이 거의없고 거의 안정되도록 회전하는 공기입니다. $(p)이것을 사용하여 선택한 대상에 돌풍을 발사하고 적을 격퇴하거나 동물을 밀어내거나 식물과 잎을 뿌리거나 개체를 절단할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:vortex_cannon",
+      "text": "$(item)볼텍스 캐논/$의 압력이 높을수록 타겟에 주는 충격이 커지고 사거리도 길어집니다. $(p)발사된 소용돌이에 휘말릴 수 있으며, 이는 고속 이동에 매우 편리합니다. 그러나 조심하십시오. 낙하 피해 보호는 없습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "볼텍스 캐논 제작",
+      "recipe": "pneumaticcraft:vortex_cannon"
+    }
+  ]
+}

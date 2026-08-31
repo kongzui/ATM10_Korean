@@ -1,0 +1,36 @@
+{
+  "name": "포트론 축전기",
+  "icon": "mffs:fortron_capacitor",
+  "category": "mffs:machines",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:fortron_capacitor",
+      "link_recipe": true,
+      "text": "$(9)포트론 축전기$()는 MFFS 기계용 에너지 저장 및 관리 장치 역할을 합니다. $(l:mffs:machines/coercion_deriver)강제 유도기$()에서 생성된 포트론을 수집하여 다음으로 전송하도록 설계되었습니다. 작동하려면 $(l:mffs:getting_started/fortron)포트론$()가 필요한 다른 시스템, 본질적으로 \"허브\" 역할을 합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:fortron_capacitor",
+      "text": "$(9)포트론 커패시터$() 제작."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "사용법",
+      "text": "축전기를 놓고 사용할 주파수를 정하세요. 기본 주파수는 0이며 다음 방법으로 바꿀 수 있습니다:$(li)축전기를 우클릭하고 화면에 원하는 주파수 번호 입력$(li)$(l:mffs:tools/frequency_card)주파수 카드$()를 들고 축전기를 Shift+우클릭"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "레드스톤 신호로 포트론 축전기를 활성화하세요. 활성화되면 빨간색에서 파란색으로 바뀌며, 같은 주파수를 사용하고 범위 안에 있는 다른 MFFS 장치와 $(l:mffs:getting_started/fortron)포트론$()을 주고받습니다. 기본 범위는 15블록입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "업그레이드 가능성",
+      "text": "포트론 축전기는 모듈로 성능을 높일 수 있습니다:$(li)$(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$(): 다른 MFFS 기계와 연결되는 거리를 늘립니다. 기본 15블록에서 모듈마다 1블록씩 늘어납니다.$(li)$(l:mffs:upgrade_modules/speed_module)$(5)속도 모듈$(): 기계와 $(l:mffs:getting_started/fortron)포트론$()을 더 빠르게 주고받습니다. 모듈마다 전송량이 50 FE 증가합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)용량 모듈$(): 용량을 늘립니다. $(l:mffs:getting_started/fortron)포트론$() 커패시터는 저장할 수 있습니다."
+    }
+  ]
+}

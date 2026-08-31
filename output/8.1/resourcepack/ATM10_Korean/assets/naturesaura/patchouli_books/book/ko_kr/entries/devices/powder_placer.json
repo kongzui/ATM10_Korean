@@ -1,0 +1,17 @@
+{
+  "name": "가루 조작기",
+  "icon": "naturesaura:powder_placer",
+  "category": "naturesaura:devices",
+  "advancement": "naturesaura:positive_imbalance",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:effects/effect_powder)효과 가루$()를 사용하면 특정 $(thing)오라 불균형$() 효과를 억제하거나 시작하려고 할 때 매우 유용할 수 있습니다. $(item)가루 조작기$()는 이 작업에 큰 도움이 됩니다. 상자의 어느 면에나 $(item)효과 가루$()를 배치하면 $(thing)레드스톤 펄스$()를 받으면 해당 분말이 세상에 내려오게 됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "마찬가지로, 펄스를 한 번 더 주면 그 위에 올려놓은 가루를 다시 모아 근처 상자에 넣습니다.",
+      "recipe": "naturesaura:powder_placer"
+    }
+  ]
+}

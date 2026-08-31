@@ -1,0 +1,17 @@
+{
+  "name": "몹 도살 공장",
+  "icon": "industrialforegoing:mob_slaughter_factory",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 9,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "몹과 동물을 $(l:agr_hus/meat)액상 고기$()와 $(l:agr_hus/pink_slime)분홍색 슬라임$()로 가공하는 데 사용되는 기계입니다. 이 기계로 죽인 몹은 드롭이나 경험치를 생성하지 않습니다. $(br2)패시브 몹은 비패시브 몹보다 분홍색 슬라임을 더 많이 생성합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_slaughter_factory"
+    }
+  ]
+}

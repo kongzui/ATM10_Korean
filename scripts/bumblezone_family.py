@@ -20,13 +20,14 @@ import bumblezone_tags
 import bumblezone_ui
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/bumblezone"
 LANG_ROOT = WORK_ROOT / "the_bumblezone"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
 
 DYENAMICS_COLORS = {
     "Amber": "호박색",

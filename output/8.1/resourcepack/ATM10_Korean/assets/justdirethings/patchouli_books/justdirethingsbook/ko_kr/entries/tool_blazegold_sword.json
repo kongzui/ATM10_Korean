@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 검",
+  "sortnum": 7,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_sword",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:tool_ferricore_sword)페리코어 검$(/l)보다 공격력이 높습니다. 용암 수리 능력이 있어 용암에 떨어뜨리면 완전히 수리됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_sword",
+      "text": "블레이즈골드 검 제작"
+    }
+  ]
+}

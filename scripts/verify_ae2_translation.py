@@ -13,9 +13,10 @@ from pathlib import Path
 import build_ae2_quests as quests
 import build_ftbquests_titles as titles
 from local_paths import resolve_source_root
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-RESOURCEPACK_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean"
+RESOURCEPACK_ROOT = active_output_root() / "resourcepack/ATM10_Korean"
 OUTPUT_LANG = RESOURCEPACK_ROOT / "assets/ae2/lang/ko_kr.json"
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2/progress.json"
 PLACEHOLDER_RE = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{\d+\}")
@@ -671,7 +672,7 @@ def main() -> int:
             raise ValueError(f"FTB Quests의 AE2 확정 용어가 누락됐습니다: {key}")
 
     kube_path = (
-        PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/kubejs/lang/ko_kr.json"
+        active_output_root() / "resourcepack/ATM10_Korean/assets/kubejs/lang/ko_kr.json"
     )
     kube = load_json_unique(kube_path)
     if kube.get("item.kubejs.universal_press") != "각인기 범용 프레스":
@@ -697,7 +698,7 @@ def main() -> int:
         )
 
     advancedae_kubejs_path = (
-        PROJECT_ROOT / "output/overrides/kubejs/client_scripts/RecipeViewer.js"
+        active_output_root() / "overrides/kubejs/client_scripts/RecipeViewer.js"
     )
     advancedae_kubejs = advancedae_kubejs_path.read_text(encoding="utf-8")
     advancedae_kubejs_source = (
@@ -792,7 +793,7 @@ def main() -> int:
             "AE2 가이드 비표준 용어가 남았습니다:\n" + "\n".join(terminology_errors)
         )
 
-    pack_meta_path = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/pack.mcmeta"
+    pack_meta_path = active_output_root() / "resourcepack/ATM10_Korean/pack.mcmeta"
     pack_meta = json.loads(pack_meta_path.read_text(encoding="utf-8"))
     if pack_meta.get("pack", {}).get("pack_format") != 34:
         raise ValueError("Minecraft 1.21.1용 pack_format이 아닙니다.")

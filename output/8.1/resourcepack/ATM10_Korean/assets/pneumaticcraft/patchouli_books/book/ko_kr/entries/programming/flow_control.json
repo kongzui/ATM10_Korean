@@ -1,0 +1,25 @@
+{
+  "name": "흐름 제어",
+  "icon": "pneumaticcraft:textures/progwidgets/jump_piece.png",
+  "category": "pneumaticcraft:programming",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$가 전개되면 즉시 저장된 프로그램의 실행이 시작됩니다. 실행 흐름은 다음과 같이 발생합니다. $(li)프로그램은 $(italic)항상/$, $(l:programming/start)시작/$ 위젯에서 시작됩니다. 이 위젯은 하나만 존재할 수 있습니다. $(li)흐름은 일반적으로 $(italic)하향/$, 즉 현재 위젯의 하단에 연결된 위젯으로 진행합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)위젯은 $(italic)완료/$로 판단될 때까지 지정된 조작을 수행합니다. \"완료\"의 정의는 각 위젯마다 다르며 각 위젯 페이지에서 설명합니다. $(li)현재 위젯의 하단에 위젯이 연결되어 있지 않으면 실행은 $(l:programming/start)시작/$ 위젯으로 돌아갑니다. $(p)이것이 기본입니다. 그러나 다음에 설명하는 몇 가지 특별한 경우가 있습니다..."
+    },
+    {
+      "type": "text",
+      "title": "흐름 제어 위젯",
+      "text": "$(li)$(l:programming/label)레이블/$ 위젯은 프로그램에서 이동할 지점을 표시합니다.$(li)$(l:programming/jump)점프/$ 위젯은 조건 없이 즉시 이름이 같은 $(thing)레이블/$ 위젯으로 이동합니다.$(li)$(l:programming/conditions)조건/$ 위젯은 검사 결과에 따라 점프를 실행할 수 있습니다.$(li)고급 $(l:programming/for_each_item)각 아이템 반복/$ 및 $(l:programming/for_each_coordinate)각 좌표 반복/$ 위젯은 입력 목록을 처리하며 $(thing)레이블/$로 반복해서 이동합니다."
+    },
+    {
+      "type": "text",
+      "text": "흐름 제어에 영향을 미치는 몇 가지 특수 위젯이 더 있습니다. $(li)$(l:programming/standby)Standby/$ 위젯은 다른 위젯이 실제로 수행할 작업이 있을 때까지 드론을 '잠자기' 상태로 유지합니다. $(li)$(l:programming/suicide)Suicide/$ 위젯은 $(thing)드론/$를 아이템으로 삭제하고 즉시 실행을 종료합니다."
+    }
+  ]
+}

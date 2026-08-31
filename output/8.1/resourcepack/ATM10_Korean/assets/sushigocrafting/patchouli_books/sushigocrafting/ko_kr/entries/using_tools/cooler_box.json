@@ -1,0 +1,17 @@
+{
+  "name": "냉장 상자",
+  "icon": "sushigocrafting:cooler_box",
+  "category": "sushigocrafting:using_tools",
+  "sortnum": 1,
+  "read_by_default": false,
+  "pages": [
+    {
+      "type": "text",
+      "text": "무게가 있는 재료를 자동으로 합치는 편리한 상자입니다. 재료를 안에 넣으면 알아서 합쳐집니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "sushigocrafting:cooler_box"
+    }
+  ]
+}

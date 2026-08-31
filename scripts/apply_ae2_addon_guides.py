@@ -15,6 +15,7 @@ from pathlib import Path
 import apply_ae2_guide as core_apply
 import build_ae2_addon_guides as guides
 from snapshot_instance import collect
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 VERIFY_SCRIPTS = (
@@ -22,9 +23,11 @@ VERIFY_SCRIPTS = (
     PROJECT_ROOT / "scripts/verify_ae2_addon_guides.py",
     PROJECT_ROOT / "scripts/verify_ftbquests_titles.py",
 )
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 KUBEJS_OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/kubejs/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/kubejs/lang/ko_kr.json"
 )
 
 

@@ -1,0 +1,18 @@
+{
+  "name": "채석 벌",
+  "icon": "minecraft:wooden_pickaxe",
+  "read_by_default": true,
+  "sortnum": 4,
+  "category": "productivebees:bees_worker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "채석 벌",
+      "text": "근처의 돌, 모래, 자갈을 갉아 먹고 벌통에 돌 조각을 모읍니다. 돌 조각은 원래 블록으로 다시 제작할 수 있습니다."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:quarry_bee"
+    }
+  ]
+}

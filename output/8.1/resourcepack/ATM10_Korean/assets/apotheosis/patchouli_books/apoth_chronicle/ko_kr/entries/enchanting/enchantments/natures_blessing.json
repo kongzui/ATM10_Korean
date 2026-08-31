@@ -1,0 +1,13 @@
+{
+  "name": "자연의 축복",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)자연의 축복$()은 괭이용 마법 부여입니다.$(p)내구도를 소모해 괭이를 뼛가루처럼 사용할 수 있습니다.$(p)마법 부여 레벨이 높을수록 내구도 소모량이 줄어듭니다."
+    }
+  ]
+}

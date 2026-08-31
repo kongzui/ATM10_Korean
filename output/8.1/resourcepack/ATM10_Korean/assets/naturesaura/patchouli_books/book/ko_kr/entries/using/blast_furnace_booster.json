@@ -1,0 +1,21 @@
+{
+  "name": "갑옷 제작자의 도움",
+  "icon": "naturesaura:blast_furnace_booster",
+  "category": "naturesaura:using",
+  "advancement": "naturesaura:offering",
+  "pages": [
+    {
+      "type": "text",
+      "text": "마을 과학자들이 $(item)고로$()를 만들기 위해 더 높은 등급의 재료를 사용한다는 사실을 발견한 이후로 마법 식물학자들은 이 기술을 더욱 개선하려고 시도했습니다. 그들은 $(aura)가 모든 종류의 $(thing)광석$()를 하나가 아닌 $(thing)주괴 두 개$()를 생산할 수 있는 지점까지 정화할 수 있다는 것을 발견했습니다."
+    },
+    {
+      "type": "text",
+      "text": "이러한 기능은 $(item)갑옷 제작자의 도움$()를 통해 도입할 수 있으며 $(item)고로$() 위에 간단히 배치하면 됩니다. $(p)$(thing)오토메이션$()의 경우 $(item)호퍼$() 또는 유사한 장치를 사용하여 광석을 $(item)갑옷 제작자의 도움$()의 어느 면에나 삽입할 수 있다는 점에 유의해야 합니다. 이렇게 하면 품목이 마치 $(item)고로$() 상단에 직접 공급된 것처럼 제련 구역에 들어가게 됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)갑옷 제작자의 도움$() 생성",
+      "recipe": "naturesaura:blast_furnace_booster"
+    }
+  ]
+}

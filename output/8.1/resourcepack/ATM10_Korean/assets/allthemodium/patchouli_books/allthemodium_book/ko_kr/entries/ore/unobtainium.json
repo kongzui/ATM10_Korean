@@ -1,0 +1,15 @@
+{
+  "name": "Unobtainium 광석",
+  "icon": "allthemodium:unobtainium_ore",
+  "category": "allthemodium:ore",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "allthemodium:unobtainium_ore",
+      "title": "Unobtainium 광석",
+      "link_recipe": false,
+      "text": "Unobtainium 광석은 엔드 고지대 생물 군계의 Y 78 아래에서 생성됩니다."
+    }
+  ]
+}

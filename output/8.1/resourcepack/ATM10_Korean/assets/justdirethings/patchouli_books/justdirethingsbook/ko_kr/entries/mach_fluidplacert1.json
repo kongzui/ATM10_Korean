@@ -1,0 +1,21 @@
+{
+  "name": "간단한 유체 배치기",
+  "sortnum": 15,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:fluidplacert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "간단한 유체 배치기를 사용하면 파트너 블록인 $(l:justdirethings:mach_blockplacert1)간단한 배치기$(/l)가 블록을 처리하는 것처럼 세계의 유체 배치를 자동화할 수 있습니다. $(br2)UI에는 양동이 또는 유체 캔과 같은 기타 유체가 포함된 아이템을 삽입하기 위한 슬롯이 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "UI 왼쪽에는 기계에 어떤 유체가 저장되어 있는지 나타내는 유체 탱크가 있습니다. 1,000mb 이상의 유체를 사용할 수 있고 기계 앞에 유체나 블록이 아직 없는 경우 유체를 세계에 배치합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "간단한 유체 배치기",
+      "recipe": "justdirethings:fluidplacert1"
+    }
+  ]
+}

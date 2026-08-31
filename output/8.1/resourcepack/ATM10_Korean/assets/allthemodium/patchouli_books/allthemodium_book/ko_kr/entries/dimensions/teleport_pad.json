@@ -1,0 +1,16 @@
+{
+  "name": "텔레포트 패드",
+  "icon": "allthemodium:teleport_pad",
+  "category": "allthemodium:dimensions",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "allthemodium:teleport_pad"
+    },
+    {
+      "type": "text",
+      "text": "텔레포트 패드를 사용하면 $(l:dimensions/miningdim)채굴 차원$(/c)과 $(l:dimensions/otherdim)디 아더$(/c)로 이동할 수 있습니다. 양손을 모두 비우고 웅크린 채 우클릭하세요.$(br2)참고로 ATM6: To The Sky 모드팩에서는 $(l:dimensions/miningdim)채굴 차원$(/c)이 비활성화되어 있습니다."
+    }
+  ]
+}

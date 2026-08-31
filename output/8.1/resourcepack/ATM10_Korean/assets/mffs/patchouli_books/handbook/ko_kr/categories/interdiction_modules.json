@@ -1,0 +1,6 @@
+{
+  "name": "차단 모듈",
+  "description": "차단 매트릭스에 사용 가능한 업그레이드 모듈입니다.",
+  "sortnum": 5,
+  "icon": "mffs:anti_hostile_module"
+}

@@ -16,13 +16,16 @@ from zipfile import ZipFile
 import build_ae2_quests as quest_snbt
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/bumblezone"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 EXPECTED_JAR = "the_bumblezone-7.15.0+1.21.1-neoforge.jar"
 EXPECTED_JAR_SIZE = 69_665_511
 EXPECTED_JAR_SHA256 = "ceb71eab0a738dceb4c3916051a1dc50ad5951ee1ea8ac2f09b04f0406ff5839"

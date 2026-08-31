@@ -12,6 +12,7 @@ import build_ae2_quests as snbt
 import verify_relics
 from local_paths import PROJECT_ROOT, resolve_source_root
 from relics_catalog import TARGETS
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/relics"
 COMPLETION_FILE = WORK_ROOT / "family_completion.json"
@@ -20,21 +21,21 @@ QUEST_REPORT = WORK_ROOT / "quest_validation.json"
 REPORT_FILE = WORK_ROOT / "family_validation.json"
 EXPECTED_DEPLOYMENTS = {
     "resourcepacks/ATM10_Korean/assets/artifacts/lang/ko_kr.json": (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/artifacts/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/artifacts/lang/ko_kr.json"
     ),
     "resourcepacks/ATM10_Korean/assets/relics/lang/ko_kr.json": (
-        PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/relics/lang/ko_kr.json"
+        active_output_root() / "resourcepack/ATM10_Korean/assets/relics/lang/ko_kr.json"
     ),
     "resourcepacks/ATM10_Korean/assets/reliquified_artifacts/lang/ko_kr.json": (
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/reliquified_artifacts/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/reliquified_artifacts/lang/ko_kr.json"
     ),
     "config/ftbquests/quests/lang/ko_kr.snbt": (
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     ),
     "config/ftbquests/quests/chapters/relics.snbt": (
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/chapters/relics.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/chapters/relics.snbt"
     ),
 }
 

@@ -14,14 +14,15 @@ from zipfile import ZipFile
 
 from immersive_engineering_family import NAME_TRANSLATIONS, REVIEWED_VALUE_TRANSLATIONS
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 WORK_ROOT = PROJECT_ROOT / "working/immersive_engineering/manual"
 ENGLISH_ROOT = WORK_ROOT / "en_us"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/immersiveengineering/manual/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/immersiveengineering/manual/ko_kr"
 )
 CACHE_FILE = PROJECT_ROOT / "temp/immersive_engineering_manual_machine_cache.json"
 MANUAL_PREFIX = "assets/immersiveengineering/manual/en_us/"

@@ -1,0 +1,21 @@
+{
+  "name": "식물 수확기",
+  "icon": "industrialforegoing:plant_gatherer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "나무를 $(6)벌목$()하고 작물을 $(6)수확$()합니다. 작업할 때마다 $(l:agr_hus/sludge)슬러지$()가 조금 생성됩니다.$(br2)작업 영역에서 나무를 수확하기 시작하면 기준 원목에 이어진 통나무와 나뭇잎을 모두 수확합니다."
+    },
+    {
+      "type": "text",
+      "text": "식물 수확기는 우클릭으로 수확할 수 있는 작물도 직접 부숴 수확합니다. 하지만 에테르 가스를 조금 공급하면 작물을 자동으로 다시 심습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_gatherer"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "수영 속도",
+  "icon": "minecraft:kelp",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)수영 속도$()는 실제 수영 속도에 적용되는 배율입니다. 수영 속도가 200%라면 두 배 빠르게 헤엄칩니다.$(p)부츠에만 붙습니다."
+    }
+  ]
+}

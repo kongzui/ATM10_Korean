@@ -1,0 +1,12 @@
+{
+  "name": "원심분리기",
+  "icon": "productivebees:centrifuge",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:centrifuge",
+      "text": "자원 벌집 조각을 자원과 꿀로 가공합니다. 유체 10양동이를 저장하며 펌프로 뺄 수 있고, 옆에 놓인 유체 저장 블록으로도 자동 배출합니다. 전동 원심분리기는 FE를 사용해 더 빠르게 처리합니다. 벌 재료 병에서 유전 물질을 $(l:genetics/transferring)유전자$(/l)로 분리할 때도 사용합니다."
+    }
+  ]
+}

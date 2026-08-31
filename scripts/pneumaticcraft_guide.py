@@ -15,6 +15,7 @@ from zipfile import ZipFile
 import ars_family
 import pneumaticcraft_family as language
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 WORK_ROOT = PROJECT_ROOT / "working/pneumaticcraft/guide"
@@ -22,8 +23,8 @@ ENGLISH_ROOT = WORK_ROOT / "en_us"
 JAPANESE_ROOT = WORK_ROOT / "ja_jp"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/pneumaticcraft/patchouli_books/book/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/pneumaticcraft/patchouli_books/book/ko_kr"
 )
 CACHE_FILE = PROJECT_ROOT / "temp/pneumaticcraft_guide_candidate_cache_ja_v2.json"
 LEGACY_CACHE_FILE = PROJECT_ROOT / "temp/pneumaticcraft_guide_candidate_cache.json"

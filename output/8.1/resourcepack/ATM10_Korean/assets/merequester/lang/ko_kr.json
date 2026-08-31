@@ -1,0 +1,37 @@
+{
+  "itemGroup.merequester.tab": "ME Requester",
+
+  "item.merequester.requester_terminal": "ME 요청기 터미널",
+  "item.merequester.wireless_requester_terminal": "무선 요청기 터미널",
+  "block.merequester.requester": "ME 요청기",
+
+  "key.ae2.wireless_requester_terminal": "무선 요청기 터미널 열기",
+
+  "gui.merequester.requester_terminal": "ME 요청기 터미널",
+  "gui.merequester.no_requesters": "ME 요청기를 찾을 수 없습니다!",
+
+  "tooltip.merequester.requester_desc": "필요할 때 제작을 새로 요청해 아이템과 유체의 재고를 자동으로 유지합니다. ME 네트워크에 연결해야 하며 ME 요청기 터미널에서 접근할 수 있습니다. 블록을 부수면 설정이 사라집니다. 메모리 카드로 설정을 복사할 수 있습니다.",
+
+  "tooltip.merequester.shift_for_more": "자세히 보려면 %s",
+  "tooltip.merequester.enter_to_submit": "적용하려면 %s",
+
+  "tooltip.merequester.whole_number": "정수만 입력할 수 있습니다!",
+  "tooltip.merequester.locked": "요청이 진행 중이라 잠겼습니다!",
+
+  "tooltip.merequester.toggle": "요청 켜기/끄기",
+  "tooltip.merequester.amount": "목표 재고량",
+  "tooltip.merequester.batch": "일괄 요청량",
+  "tooltip.merequester.submit": "변경 사항 적용",
+  "tooltip.merequester.status": "요청 상태",
+
+  "tooltip.merequester.idle": "대기",
+  "tooltip.merequester.idle_desc": "목표 재고량에 이미 도달했거나 해당 아이템 또는 유체의 제작 패턴이 없으면 요청기가 대기합니다.",
+  "tooltip.merequester.missing": "재료 부족",
+  "tooltip.merequester.missing_desc": "요청한 아이템 또는 유체를 제작할 재료가 시스템에 부족합니다. 재료가 준비되면 작업을 계속합니다.",
+  "tooltip.merequester.cpu": "CPU 없음",
+  "tooltip.merequester.cpu_desc": "제작에 적합한 CPU를 시스템에서 찾을 수 없습니다. CPU를 찾으면 작업을 계속합니다.",
+  "tooltip.merequester.link": "제작 중",
+  "tooltip.merequester.link_desc": "시스템에서 요청한 아이템 또는 유체를 제작하고 있습니다.",
+  "tooltip.merequester.export": "내보내는 중",
+  "tooltip.merequester.export_desc": "요청기가 제작 결과를 ME 시스템으로 내보내고 있습니다. 이 상태가 오래 지속되면 ME 저장소에 빈 공간이 없는 것입니다."
+}

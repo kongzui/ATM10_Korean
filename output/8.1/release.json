@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "pack_version": "8.1",
+  "resourcepack_name": "ATM10_Korean",
+  "validated_pack_version": null,
+  "rebase_target_version": "8.1",
+  "status": "rebase_in_progress",
+  "full_apply_allowed": false,
+  "baseline_commit": "5011ad5",
+  "note": "7.1 산출물에서 시작했으며 8.1 재기준화가 끝날 때까지 파일별 선택 적용만 허용한다."
+}

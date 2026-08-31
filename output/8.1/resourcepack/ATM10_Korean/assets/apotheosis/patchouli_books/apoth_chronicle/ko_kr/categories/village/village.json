@@ -1,0 +1,6 @@
+{
+  "name": "마을 모듈",
+  "description": "마을 모듈은 마을과 주민에 관련된 여러 요소를 추가합니다.",
+  "icon": "minecraft:textures/mob_effect/hero_of_the_village.png",
+  "flag": "apotheosis:village"
+}

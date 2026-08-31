@@ -1,0 +1,31 @@
+{
+  "name": "고체 반입출 포트",
+  "icon": "bigreactors:reinforced_reactorsolidaccessport",
+  "category": "bigreactors:reactor-parts",
+  "read_by_default": true,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_reactorsolidaccessport",
+      "link_recipe": true,
+      "title": "고체 반입출 포트",
+      "text": "고체 반입출 포트는 주괴 같은 고체 재료를 원자로의 $(l:bigreactors:reactor/part-fuelrod)연료봉$(/l)에 들어갈 연료 반응물로 바꾸고, 고체 폐기물을 꺼냅니다.$(br2)화면에서 포트를 $(bold)입력 모드$()로 설정하면 연료 재료를 받고, $(bold)출력 모드$()로 설정하면 폐기물을 내보냅니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bigreactors:misc/wrench)렌치$(/l)로 포트 모드를 바꿀 수 있습니다.$(br2)화면에서 재료를 손으로 넣거나 꺼낼 수도 있습니다.$(br2)고체 반입출 포트는 연료를 빠르게 넣는 방법이지만 변환 과정에서 재료가 조금 손실됩니다."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Basic",
+      "recipe1": "bigreactors:reactor/basic/solidaccessport",
+      "title2": "Reinforced",
+      "recipe2": "bigreactors:reactor/reinforced/solidaccessport"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)필수 여부:$() 필수는 아니지만 사실상 필요$(br)$(l)설치 가능 위치:$() 틀이 아닌 모든 면$(br)$(l)종류:$() 전체$(br)$(l)화면:$() 있음$(br)$(l)렌치:$() $(l:bigreactors:misc/wrench)렌치$(/l)로 포트 모드를 전환할 수 있습니다."
+    }
+  ]
+}

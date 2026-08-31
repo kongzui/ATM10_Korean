@@ -1,0 +1,17 @@
+{
+  "name": "망치",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_hammer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "망치 업그레이드로 채굴 기능을 확장하세요. 이 강력한 도구 업그레이드를 사용하면 한 번에 여러 블록을 깨뜨릴 수 있어 채굴 속도와 효율이 높아집니다. $(br2)블레이즈골드 곡괭이를 사용하면 3x3를 채굴할 수 있습니다. 셀레스티젬을 사용하면 5x5로 업그레이드할 수 있으며 이클립스 합금 곡괭이는 7x7를 수행할 수 있습니다. 모드를 전환하려면 UI에서 업그레이드 버튼을 클릭하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "망치 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_hammer"
+    }
+  ]
+}

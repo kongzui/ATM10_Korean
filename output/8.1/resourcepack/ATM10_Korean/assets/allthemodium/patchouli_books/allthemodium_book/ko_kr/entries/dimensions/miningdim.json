@@ -1,0 +1,12 @@
+{
+  "name": "채굴 차원",
+  "icon": "allthemodium:allthemodium_ore",
+  "category": "allthemodium:dimensions",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "채굴 차원은 채석기를 설치해 자원을 캐기 좋습니다. 완전한 평지 차원이므로 시험 공간으로도 유용합니다. 이 차원으로 이동하려면 오버월드에서 $(l:dimensions/teleport_pad)텔레포트 패드$(/c)를 사용하세요."
+    }
+  ]
+}

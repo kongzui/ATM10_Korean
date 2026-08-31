@@ -1,0 +1,7 @@
+pastebin은 pastebin.com에 파일을 올리거나 내려받는 프로그램입니다. 다른 플레이어와 프로그램을 공유할 때 유용합니다.
+이 프로그램을 사용하려면 ComputerCraft.cfg에서 HTTP API를 활성화해야 합니다.
+
+ex:
+"pastebin put foo"는 "foo" 파일을 pastebin.com에 업로드하고 URL을 출력합니다.
+"pastebin get xq5gc7LB foo" 명령은 URL http://pastebin.com/xq5gc7LB에서 파일을 받아 "foo"로 저장합니다.
+"pastebin run CxaWmPrX" 명령은 URL http://pastebin.com/CxaWmPrX에서 파일을 받아 즉시 실행합니다.

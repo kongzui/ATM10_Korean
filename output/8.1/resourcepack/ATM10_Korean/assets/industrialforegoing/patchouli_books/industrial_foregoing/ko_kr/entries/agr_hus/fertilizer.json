@@ -1,0 +1,13 @@
+{
+  "name": "비료",
+  "icon": "industrialforegoing:fertilizer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 15,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:agr_hus/sewage_composter)오물 처리기$()에서 생산된 재료로 뼛가루처럼 사용할 수 있습니다."
+    }
+  ]
+}

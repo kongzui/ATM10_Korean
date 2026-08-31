@@ -1,0 +1,17 @@
+{
+  "name": "크리에이티브 압축기",
+  "icon": "pneumaticcraft:creative_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)크리에이티브 컴프레서/$는 만들 수 없는 $(l:base_concepts/pressure)공기 압축기/$입니다. $(p)압축기의 GUI에서 원하는 압력을 선택하기만 하면 연결된 모든 파이프와 기계에서 압력이 유지됩니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:creative_compressor",
+      "text": "$(italic)레시피? 무슨 조리법?/$"
+    }
+  ]
+}

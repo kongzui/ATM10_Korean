@@ -1,0 +1,12 @@
+{
+  "name": "text.sushigocrafting.book.title",
+  "landing_text": "초밥을 깊이 있게 다루는 음식 모드 Sushi Go Crafting에 오신 것을 환영합니다! $(br2)개발자를 후원하려면 $(l:https://www.patreon.com/buuz135)여기$()를 누르세요.",
+  "book_texture": "patchouli:textures/gui/book_green.png",
+  "version": "GRADLE:VERSION",
+  "text_color": "5A5766",
+  "header_color": "48435C",
+  "nameplate_color": "61E786",
+  "progress_bar_color": "EDFFEC",
+  "model": "sushigocrafting:guide_book",
+  "use_resource_pack": true
+}

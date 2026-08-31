@@ -1,0 +1,6 @@
+{
+  "name": "단독 벌",
+  "description": "단독 벌은 오버월드의 단독 둥지에서 생성됩니다.$(br2)$(l:hives/nests)둥지 설명 보기$(/l)",
+  "icon": "productivebees:oak_wood_nest",
+  "parent": "productivebees:bees"
+}

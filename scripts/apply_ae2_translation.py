@@ -11,11 +11,14 @@ from datetime import datetime
 from pathlib import Path
 
 from snapshot_instance import collect
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PREAPPLY_SNAPSHOT = PROJECT_ROOT / "temp/ae2_preapply_snapshot.json"
-RESOURCEPACK_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean"
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+RESOURCEPACK_ROOT = active_output_root() / "resourcepack/ATM10_Korean"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 
 DEPLOYMENTS = {
     "resourcepacks/ATM10_Korean/pack.mcmeta": RESOURCEPACK_ROOT / "pack.mcmeta",

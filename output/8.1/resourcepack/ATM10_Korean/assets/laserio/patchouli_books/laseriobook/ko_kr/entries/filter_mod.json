@@ -1,0 +1,12 @@
+{
+  "name": "모드 필터",
+  "sortnum": 3,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_mod",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "모드 필터는 아이템/블록의 모드를 기준으로 정렬합니다. 예를 들어, 필터에 레이저 렌치를 넣으면, 모든 LaserIO 아이템과 블록은 해당 필터와 일치합니다."
+    }
+  ]
+}

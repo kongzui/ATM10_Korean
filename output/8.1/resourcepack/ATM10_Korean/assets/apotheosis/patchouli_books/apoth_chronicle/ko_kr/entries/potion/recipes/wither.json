@@ -1,0 +1,19 @@
+{
+  "name": "시듦",
+  "icon": "minecraft:textures/mob_effect/wither.png",
+  "category": "apotheosis:potion/recipes",
+  "flag": "&apotheosis:potion,!apotheosis:wstloaded",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(c)시듦$()은 일반적으로 양조할 수 없는 해로운 효과입니다.$(p)효과에 걸린 동안 매 틱 피해를 받습니다.$(p)독과 달리 이 피해로 죽을 수 있습니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "양조법",
+      "item": "minecraft:wither_skeleton_skull",
+      "text": "어색한 물약과 위더 스켈레톤 해골로 이 물약을 양조할 수 있습니다.$(p)일반적인 재료를 사용해 지속 시간을 늘리거나 효과를 강화하거나 투척용 물약으로 만들 수 있습니다."
+    }
+  ]
+}

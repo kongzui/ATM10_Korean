@@ -1,0 +1,21 @@
+{
+  "_comment": "Gui",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync": "JEI검색 동기화",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync.info": "검색창을JEI와 동기화합니다.",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync": "EMI 검색 동기화",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync.info": "검색 상자를 EMI와 동기화합니다.",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.reisync": "REI 검색 동기화",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.reisync.info": "검색창을 REI와 동기화하세요.",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craftable": "자동 제작 가능한 아이템",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craftable_partial": "부분적으로 자동 제작 가능한 아이템",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.missing": "누락된 아이템",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craft.info": "Ctrl+클릭하면 자동 제작이 시작됩니다.",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craft.info_cmd": "Cmd+클릭하면 자동 제작이 시작됩니다.",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.error.title": "제작 작업 오류",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.started_only": "자동 제작 시작",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.failed_only": "자동 제작 실패",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.mixed": "자동제작 부분실패",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.started_only": "%s자동제작 시작",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.failed_only": "%s자동제작 실패",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.mixed": "%s의 자동 제작을 시작했지만%s의 경우 실패했습니다."
+}

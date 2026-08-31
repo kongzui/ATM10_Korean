@@ -1,0 +1,6 @@
+cp는 파일이나 디렉터리를 한 위치에서 다른 위치로 복사합니다.
+
+ex:
+"cp rom myrom"는 "rom"를 "myrom"로 복사합니다.
+"cp rom mystuff/rom"는 "rom"를 "mystuff/rom"로 복사합니다.
+"cp disk/* disk2"는 한 디스크의 내용을 다른 디스크에 복사합니다.

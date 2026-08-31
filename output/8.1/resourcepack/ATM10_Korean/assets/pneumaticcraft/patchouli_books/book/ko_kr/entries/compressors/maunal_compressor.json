@@ -1,0 +1,17 @@
+{
+  "name": "수동 압축기",
+  "icon": "pneumaticcraft:manual_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)수동 압축기/$는 플레이어의 노동과 허기를 사용해 게임 초반에 $(l:base_concepts/pressure)압축 공기/$를 생산합니다. 압축기를 우클릭한 채로 유지해 공기를 펌프질하세요. 압력이 높아질수록 한 번 펌프질하는 시간이 길어지며, 결국 더 이상 공기를 넣을 수 없게 됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)수동 압축기/$ 제작",
+      "recipe": "pneumaticcraft:manual_compressor"
+    }
+  ]
+}

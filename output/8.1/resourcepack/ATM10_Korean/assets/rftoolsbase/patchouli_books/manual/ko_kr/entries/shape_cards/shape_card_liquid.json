@@ -1,0 +1,19 @@
+{
+  "name": "유체카드",
+  "icon": "rftoolsbuilder:shape_card_liquid",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_liquid": 1
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "유체 형상 카드는 빌더가 유체를 선택한 모양에 배치하도록 합니다. 빌더에 연결된 탱크를 통해 유체를 공급합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_liquid"
+    }
+  ]
+}

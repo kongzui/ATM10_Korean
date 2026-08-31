@@ -1,0 +1,17 @@
+{
+  "name": "죽음 방지",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_deathprotection",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "죽음 방지 업그레이드로 치명적인 손상으로부터 자신을 보호하세요. 죽기 전, 체력이 조금 더 높았던 시점으로 시간을 되돌립니다!$(br2)매우 많은 양의 Forge Energy가 필요하며 매우 긴 재사용 대기 시간이 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "죽음 방지 제작",
+      "recipe": "justdirethings:upgrade_deathprotection"
+    }
+  ]
+}

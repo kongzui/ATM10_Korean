@@ -12,13 +12,14 @@ from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORKING = PROJECT_ROOT / "working/common_ui/curios_effects/enchdesc/ko_kr.json"
 RECHECK_OVERRIDES = (
     PROJECT_ROOT / "working/common_ui/curios_effects/enchdesc/recheck_overrides.json"
 )
 OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/enchdesc/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/enchdesc/lang/ko_kr.json"
 )
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
@@ -154,7 +155,7 @@ def merged_project_korean() -> tuple[dict[str, object], list[str], int]:
     merged = {}
     errors = []
     files = 0
-    root = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+    root = active_output_root() / "resourcepack/ATM10_Korean/assets"
     for path in sorted(root.glob("*/lang/ko_kr.json")):
         files += 1
         try:
@@ -275,8 +276,8 @@ def verify(instance: Path) -> dict[str, object]:
             f"다른 모드 소유 설명 키 충돌 범위 변경: {sorted(owner_collisions)}"
         )
     owner_output = load_json_path(
-        PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/deeperdarker/lang/ko_kr.json"
+        active_output_root()
+        / "resourcepack/ATM10_Korean/assets/deeperdarker/lang/ko_kr.json"
     )
     owner_mismatches = sorted(
         key

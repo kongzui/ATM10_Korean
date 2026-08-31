@@ -13,21 +13,24 @@ from zipfile import BadZipFile, ZipFile
 
 from build_ae2_quests import parse_language_snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/common_ui/convenience/tombstone"
 WORKING = WORK_ROOT / "ko_kr.json"
 OVERRIDES = WORK_ROOT / "recheck_overrides.json"
 REPORT = WORK_ROOT / "recheck_20260820.json"
 OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/tombstone/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/tombstone/lang/ko_kr.json"
 )
 PRODUCTIVE_WORKING = PROJECT_ROOT / "working/productivebees/productivebees/ko_kr.json"
 PRODUCTIVE_OUTPUT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/productivebees/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/productivebees/lang/ko_kr.json"
 )
 PRODUCTIVE_QUEST = PROJECT_ROOT / "working/productivebees/quest_overrides.json"
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 GLOSSARY = PROJECT_ROOT / "glossary/README.md"
 
 EXPECTED_JAR = "tombstone-neoforge-1.21.1-9.5.1.jar"
@@ -423,7 +426,7 @@ def verify(instance: Path, pre_apply: bool = False) -> dict[str, object]:
         instance, source_jar, english, errors
     )
     project_language_files = sorted(
-        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets").glob(
+        (active_output_root() / "resourcepack/ATM10_Korean/assets").glob(
             "*/lang/ko_kr.json"
         )
     )

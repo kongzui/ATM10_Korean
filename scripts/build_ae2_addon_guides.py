@@ -13,9 +13,10 @@ from pathlib import Path, PurePosixPath
 
 import build_ae2_guide as core
 from local_paths import resolve_source_root
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-RESOURCEPACK_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean"
+RESOURCEPACK_ROOT = active_output_root() / "resourcepack/ATM10_Korean"
 ADDON_WORKING_ROOT = PROJECT_ROOT / "working/ae2_addons/ae2wtlib"
 GUIDE_WORKING_ROOT = ADDON_WORKING_ROOT / "ae2guide/_ko_kr"
 LANG_WORKING_FILE = ADDON_WORKING_ROOT / "lang/ko_kr.json"
@@ -118,14 +119,14 @@ ENDERDRIVES_TOOLTIP_WORKING_FILE = (
     ENDERDRIVES_WORKING_ROOT / ENDERDRIVES_TOOLTIP_RELATIVE
 )
 ENDERDRIVES_TOOLTIP_OUTPUT_FILE = (
-    PROJECT_ROOT / "output/overrides" / ENDERDRIVES_TOOLTIP_RELATIVE
+    active_output_root() / "overrides" / ENDERDRIVES_TOOLTIP_RELATIVE
 )
 ENDERDRIVES_MESSAGES_RELATIVE = Path("kubejs/startup_scripts/enderdrives_messages.js")
 ENDERDRIVES_MESSAGES_WORKING_FILE = (
     ENDERDRIVES_WORKING_ROOT / ENDERDRIVES_MESSAGES_RELATIVE
 )
 ENDERDRIVES_MESSAGES_OUTPUT_FILE = (
-    PROJECT_ROOT / "output/overrides" / ENDERDRIVES_MESSAGES_RELATIVE
+    active_output_root() / "overrides" / ENDERDRIVES_MESSAGES_RELATIVE
 )
 ENDERDRIVES_CLASS_LITERAL_MARKERS = {
     "com/sts15/enderdrives/items/EnderDiskItem.class": (
@@ -349,7 +350,7 @@ ADVANCEDAE_QUEST_OVERRIDES_FILE = ADVANCEDAE_WORKING_ROOT / "quest_overrides.jso
 ADVANCEDAE_KUBEJS_RELATIVE = Path("kubejs/client_scripts/RecipeViewer.js")
 ADVANCEDAE_KUBEJS_WORKING_FILE = ADVANCEDAE_WORKING_ROOT / ADVANCEDAE_KUBEJS_RELATIVE
 ADVANCEDAE_KUBEJS_OUTPUT_FILE = (
-    PROJECT_ROOT / "output/overrides" / ADVANCEDAE_KUBEJS_RELATIVE
+    active_output_root() / "overrides" / ADVANCEDAE_KUBEJS_RELATIVE
 )
 ADVANCEDAE_KUBEJS_SOURCE_TEXT = (
     "§8In the Reaction Chamber: §e4000mb of Water§8 + "
@@ -541,10 +542,10 @@ EXPANDEDAE_KUBEJS_RELATIVE = Path(
 )
 EXPANDEDAE_KUBEJS_WORKING_FILE = EXPANDEDAE_WORKING_ROOT / EXPANDEDAE_KUBEJS_RELATIVE
 EXPANDEDAE_KUBEJS_OUTPUT_FILE = (
-    PROJECT_ROOT / "output/overrides" / EXPANDEDAE_KUBEJS_RELATIVE
+    active_output_root() / "overrides" / EXPANDEDAE_KUBEJS_RELATIVE
 )
 EXPANDEDAE_TOOLTIP_OUTPUT_FILE = (
-    PROJECT_ROOT / "output/overrides/kubejs/client_scripts/tooltips.js"
+    active_output_root() / "overrides/kubejs/client_scripts/tooltips.js"
 )
 EXPANDEDAE_TOOLTIP_OVERRIDE = """    // Expanded AE
     if (Platform.isLoaded('expandedae')) {

@@ -1,0 +1,24 @@
+{
+  "name": "이름 바꾸기 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/rename_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 위젯은 $(item)Name Tag/$를 사용하여 $(thing)를 우클릭/$한 것처럼 $(l:tools/drone)드론/$의 이름을 바꿉니다. 이름은 첨부된 $(l:programming/text)텍스트/$ 위젯에 입력됩니다."
+    },
+    {
+      "type": "text",
+      "title": "변수",
+      "text": "텍스트에 $(thing)${<var_name>}/$를 포함하여 $(l:programming/variables)변수/$의 값을 삽입할 수도 있습니다(예: $(p)$(formula)Counter). ${counter}/$$(p)는 $(thing)로 확장됩니다. 카운터: 1, 2, 3/$ $(thing)counter/$ 변수가 $(thing)x=1,y=2,z=3/$로 설정되었습니다. $(l:programming/variables#special)Special/$ 및 $(l:programming/variables#global)전역 변수/$도 여기에서 사용할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/rename_piece.png"
+      ],
+      "text": "$(italic)누구였나요?/$"
+    }
+  ]
+}

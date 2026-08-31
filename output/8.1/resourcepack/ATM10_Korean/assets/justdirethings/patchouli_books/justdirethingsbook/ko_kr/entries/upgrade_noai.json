@@ -1,0 +1,17 @@
+{
+  "name": "정신 말살",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_noai",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "정신 말살 업그레이드는 대상 몹의 AI를 시간 속에 완전히 고정해 영구적으로 행동하지 못하게 합니다.$(br2)액티브 능력이므로 도구 설정 화면에서 단축키를 지정해야 합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "정신 말살 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_noai"
+    }
+  ]
+}

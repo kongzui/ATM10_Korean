@@ -1,0 +1,72 @@
+{
+  "name": "미니건 탄약",
+  "icon": "pneumaticcraft:gun_ammo",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:minigun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "총기 탄약은 $(l:tools/minigun)미니건/$에서 사용합니다.$(p)탄약 종류에 따라 탄창 하나에 최대 2000발이 들어갑니다. $(item)미니건/$을 발사하는 동안 탄약이 계속 소모되며, 남은 탄약은 아이템 툴팁과 내구도 막대, 미니건을 장착했을 때 화면 중앙 조준경 옆의 HUD에서 확인할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "anchor": "magazine",
+      "text": "탄약은 $(item)미니건/$의 탄창에 넣어야 하며 플레이어 인벤토리에서는 자동으로 소모되지 않습니다. $(item)미니건/$을 $(thing)몸을 숙인 채 우클릭/$해 탄약을 장전하세요.$(p)탄약은 1~4번 슬롯 순서로 소모됩니다. 슬롯을 $(thing)가운데 클릭/$해 잠그면 $(item)미니건/$이 그 슬롯의 탄약만 사용하므로 여러 탄약을 장전했을 때 유용합니다. 잠긴 슬롯을 다시 $(thing)가운데 클릭/$하면 잠금이 풀립니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo",
+      "text": "일반 $(item)총기 탄약/$은 별도 효과가 없지만 2000발이 들어가는 큰 탄창을 사용합니다.$(p)또한 $(l:tools/minigun_ammo#potions)물약/$과 조합해 효과를 부여할 수 있는 유일한 탄약입니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo_incendiary",
+      "text": "$(item)소이 미니건 탄약/$은 1000발이 들어가며 맞은 개체에 불을 붙입니다.$(p)블록에도 불이 붙을 수 있으니 주의하세요!"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo_weighted",
+      "text": "$(item)중량 미니건 탄약/$은 500발이 들어가고 피해량이 매우 높지만, 무거워서 사거리가 일반 탄약의 20%뿐입니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo_ap",
+      "text": "$(item)방어구 관통 미니건 탄약/$은 500발이 들어갑니다. 제작 비용이 비싸지만 일반 탄약보다 피해량이 조금 높고 대상의 방어구를 관통할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo_explosive",
+      "text": "$(item)폭발성 미니건 탄약/$의 탄창 용량은 250발입니다. 명중하면 작지만 매우 강력한 폭발을 일으킬 수 있으며, 플레이어도 폭발 피해를 받을 수 있으니 주의하세요. 기본적으로 $(ttcolor)$(t:설정의 'B:explosiveAmmoTerrainDamage'에서 바꿀 수 있습니다)지형에는 피해를 주지 않습니다/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo_freezing",
+      "text": "$(item)빙결 미니건 탄약/$은 1000발이 들어갑니다. 맞은 대상을 느리게 만들고 피해를 주는 빙결 구름으로 감쌀 수 있지만, 이 구름은 자신에게도 피해를 줄 수 있습니다.$(p)불에 내성이 있는 대상에게 추가 피해를 주므로 $(#800)네더/$에서 싸울 때 매우 효과적입니다."
+    },
+    {
+      "type": "text",
+      "title": "물약이 묻은 탄약",
+      "anchor": "potions",
+      "text": "일반 미니건 탄약을 아무 $(item)물약/$과 조합할 수 있습니다. 이렇게 만든 탄약은 물리 피해를 주지 않는 대신 대상에게 물약 효과를 적용할 수 있습니다.$(p)$(thing)투척용/$ 및 $(thing)잔류형/$ 물약도 사용할 수 있으며 예상대로 범위 효과가 발생합니다. 다만 투척용 물약 탄약은 3배, 잔류형 물약 탄약은 6배 빠르게 소모됩니다!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:gun_ammo",
+      "recipe2": "pneumaticcraft:gun_ammo_incendiary"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:gun_ammo_weighted",
+      "recipe2": "pneumaticcraft:gun_ammo_ap"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:gun_ammo_explosive",
+      "recipe2": "pneumaticcraft:gun_ammo_freezing"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:gun_ammo_potion_crafting"
+    }
+  ]
+}

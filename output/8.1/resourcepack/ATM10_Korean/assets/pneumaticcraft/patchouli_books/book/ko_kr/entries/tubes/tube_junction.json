@@ -1,0 +1,17 @@
+{
+  "name": "튜브 접합부",
+  "icon": "pneumaticcraft:tube_junction",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)튜브 접합부/$는 두 $(l:tubes/pressure_tubes)압력 튜브/$를 서로 연결하지 않고 교차시키는 간단한 장치입니다. 튜브의 $(l:base_concepts/pressure_tiers)압력 등급/$은 달라도 됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "튜브 접합부 제작",
+      "recipe": "pneumaticcraft:tube_junction"
+    }
+  ]
+}

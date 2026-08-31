@@ -1,0 +1,19 @@
+{
+  "name": "에너지 분배기 모듈",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:energy_distributor_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:modules/energy_output)에너지 출력/$과 $(l:modules/distributor)분배기/$ 모듈을 합친 것처럼 작동하며, 주변에서 에너지를 받을 수 있는 블록을 최대 8개까지 지정하여 FE(Forge Energy)를 무선으로 분배합니다.$(p)블록을 $(thing)웅크린 채 우클릭/$하면 에너지 분배기 모듈에 추가하고, 다시 $(thing)웅크린 채 우클릭/$하면 제거합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:modules/energy_output)에너지 출력 모듈/$처럼 라우터 내부 에너지 버퍼($(l:upgrades/energy)에너지 업그레이드/$가 설치된 경우) 또는 라우터 아이템 버퍼의 에너지 저장 아이템에서 에너지를 가져올 수 있습니다. 내부 에너지 버퍼를 우선 사용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:energy_distributor_module"
+    }
+  ]
+}

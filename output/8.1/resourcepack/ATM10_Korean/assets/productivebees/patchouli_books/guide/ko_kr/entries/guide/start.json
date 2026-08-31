@@ -1,0 +1,27 @@
+{
+  "name": "시작하기",
+  "icon": "minecraft:writable_book",
+  "category": "productivebees:guide",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Productive Bees는 바닐라 벌 시스템을 확장합니다. 이 가이드는 바닐라 벌 시스템을 어느 정도 알고 있다고 가정합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "바닐라 벌 외에도 오버월드 여러 생물 군계의 숨겨진 $(l:hives/nests)둥지$(/l)에 사는 다양한 벌을 만나게 됩니다. 이 벌들은 단독 생활을 하므로 벌통에 살지 않지만, 유전자를 이용해 여러 벌을 교배하는 데 쓰이며 생김새도 멋집니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "먼저 바닐라 벌집을 찾아 꿀이 든 병과 벌집 조각을 얻으세요. 꿀이 든 병으로 $(l:items/bee_cage)벌 케이지$(/l)를 만들면 벌을 집으로 쉽게 옮길 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "충분한 벌집을 모은 후에는 $(l:hives/advanced_hives)고급 벌통$(/l)과 $(l:hives/expansion_boxes)확장 상자$(/l)를 직접 만들어보세요. $(l:hives/advanced_hives)고급 벌통$(/l)을 사용하면 내부를 들여다보고 벌과 그들이 생산하는 것을 계속 관찰할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "일부 벌은 다른 차원에서만 발견되거나 번식을 통해서만 얻을 수 있습니다. JEI를 사용하여 번식 레시피를 찾아보고 어떤 벌을 찾아야 하는지 알 수 있습니다."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "발신기 모듈 Mk2",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:sender_module_2",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:modules/sender_1)발신기 모듈 Mk1/$처럼 작동하지만 대상 지정 기능이 더 강력합니다.$(li)대상 인벤토리는 최대 24블록, $(l:augments/range_up)범위 증강/$을 사용하면 최대 48블록 떨어질 수 있습니다.$(li)대상이 $(italic)보이지 않아도/$ 됩니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)발신기 Mk2 모듈을 들고 대상을 $(thing)웅크린 채 우클릭/$하면 확인 메시지와 함께 대상 인벤토리를 지정합니다.$(li)대상이 지정된 발신기 Mk2를 들고 있으면 대상 블록이 강조 표시됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:sender_module_2",
+      "recipe2": "modularrouters:sender_module_2_x4"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "음식 효과",
+  "icon": "sushigocrafting:avocado_slices",
+  "category": "sushigocrafting:getting_started",
+  "sortnum": 0,
+  "read_by_default": false,
+  "pages": [
+    {
+      "type": "text",
+      "text": "같은 초밥도 재료 종류를 바꾸면 음식의 성능을 높이는 서로 다른 효과를 얻습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "sushigocrafting:salmon_fillet",
+      "title": "한입 크기",
+      "text": "이 효과가 있을 때 음식을 먹으면 낮은 확률로 아이템이 소모되지 않습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "sushigocrafting:tuna_fillet",
+      "title": "익숙해진 맛",
+      "text": "이 효과가 있을 때 음식을 먹으면 허기와 포만도를 추가로 회복합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "sushigocrafting:shrimp",
+      "title": "정교한 손놀림",
+      "text": "이 효과가 있을 때 도마를 사용하면 재료의 무게가 더 늘어납니다."
+    }
+  ]
+}

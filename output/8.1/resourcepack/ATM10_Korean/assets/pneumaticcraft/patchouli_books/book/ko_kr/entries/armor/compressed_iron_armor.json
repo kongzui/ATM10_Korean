@@ -1,0 +1,22 @@
+{
+  "name": "압축 철 방어구",
+  "icon": "pneumaticcraft:compressed_iron_helmet",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)압축 철 방어구/$는 게임 초반의 방어구 세트로, 동등한 $(item)철 방어구/$의 각 부위보다 약간 뛰어납니다. 보호 성능과 내구성이 약간 높고 녹백 내성도 부분적으로 있습니다. $(item)금 바닥/$에서 $(item)압축 철 주괴/$를 사용하여 수리할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:compressed_iron_helmet",
+      "recipe2": "pneumaticcraft:compressed_iron_chestplate"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:compressed_iron_leggings",
+      "recipe2": "pneumaticcraft:compressed_iron_boots"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "아기 엔더 드래곤",
+  "icon": "livingthings:baby_ender_dragon_spawn_egg",
+  "category": "livingthings:hostile_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "후렴과를 무척 좋아하는 제법 위험한 동물입니다!$(br)길들인 아기 엔더 드래곤은 플레이어를 따라다닙니다.$(br2)$(bold)체력: $()5하트$(br2)$(bold)길들이기 아이템: $()$(li)후렴과"
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:baby_ender_dragon",
+      "rotate": false,
+      "scale": 0.6,
+      "default_rotation": 45,
+      "offset": 0.2,
+      "text": "퍼퍼 기둥 위에 드래곤 알을 놓으면 부화시킬 수 있습니다. "
+    }
+  ]
+}

@@ -16,13 +16,14 @@ import aether_quests
 import five_family_goal as family_goal
 import twilight_family
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/aether"
 LANG_ROOT = WORK_ROOT / "aether"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
 
 # 현재 설치본의 영어 원문을 기준으로 확정한 The Aether 고유 용어예요.
 TERM_REPLACEMENTS = (
@@ -1380,7 +1381,7 @@ def build_kubejs() -> dict[str, object]:
             "The Aether 추가 공지 원문 또는 적용본을 정확히 확인할 수 없습니다."
         )
     working = WORK_ROOT / relative
-    output = PROJECT_ROOT / "output/overrides" / relative
+    output = active_output_root() / "overrides" / relative
     working.parent.mkdir(parents=True, exist_ok=True)
     output.parent.mkdir(parents=True, exist_ok=True)
     working.write_text(translated, encoding="utf-8")

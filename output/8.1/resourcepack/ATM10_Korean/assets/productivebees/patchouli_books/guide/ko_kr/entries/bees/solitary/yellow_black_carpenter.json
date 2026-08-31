@@ -1,0 +1,19 @@
+{
+  "name": "노란색과 검은색 목수벌",
+  "icon": "productivebees:spawn_egg_yellow_black_carpenter_bee",
+  "read_by_default": true,
+  "sortnum": 4,
+  "category": "productivebees:bees_solitary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "노란색과 검은색 목수벌",
+      "text": "[자일로코파 아루아나]",
+      "anchor": "yellow_black_carpenter"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:yellow_black_carpenter_bee"
+    }
+  ]
+}

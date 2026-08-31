@@ -1,0 +1,17 @@
+{
+  "name": "조악한 발전기",
+  "icon": "industrialforegoing:pitiful_generator",
+  "category": "industrialforegoing:generators",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "석탄 같은 가연성 연료를 사용하는 매우 비효율적인 발전기입니다.$(br2)내부 전력 버퍼가 가득 차도 연료를 계속 소비할 정도로 비효율적입니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:pitiful_generator"
+    }
+  ]
+}

@@ -14,6 +14,11 @@ from atmgear_catalog import TARGETS
 from build_atmgear_kubejs import REPLACEMENTS
 from local_paths import PROJECT_ROOT, resolve_source_root
 from prepare_atmgear import WORK_ROOT, find_jar, load_json
+from version_context import (
+    active_output_root,
+    output_deployment_path,
+    resolve_active_output_path,
+)
 
 RELATED_FILE = WORK_ROOT / "related_content_audit.json"
 COMPLETION_FILE = WORK_ROOT / "family_completion.json"
@@ -75,26 +80,27 @@ def expected_deployments(guide: dict[str, object]) -> dict[str, Path]:
     for target in TARGETS:
         relative = f"assets/{target.namespace}/lang/ko_kr.json"
         expected[f"resourcepacks/ATM10_Korean/{relative}"] = (
-            PROJECT_ROOT / f"output/resourcepack/ATM10_Korean/{relative}"
+            active_output_root() / f"resourcepack/ATM10_Korean/{relative}"
         )
     for value in guide["output_files"]:
-        source = PROJECT_ROOT / value
-        if value.startswith("output/resourcepack/ATM10_Korean/"):
-            relative = value.removeprefix("output/resourcepack/ATM10_Korean/")
+        source = resolve_active_output_path(value)
+        deployment = output_deployment_path(value)
+        if deployment.startswith("resourcepacks/ATM10_Korean/"):
+            relative = deployment.removeprefix("resourcepacks/ATM10_Korean/")
             expected[f"resourcepacks/ATM10_Korean/{relative}"] = source
-        elif value.startswith("output/overrides/"):
-            expected[value.removeprefix("output/overrides/")] = source
+        elif deployment:
+            expected[deployment] = source
         else:
             raise ValueError(f"안내서 산출물 경로를 분류할 수 없습니다: {value}")
     for relative in REPLACEMENTS:
-        expected[relative] = PROJECT_ROOT / "output/overrides" / relative
+        expected[relative] = active_output_root() / "overrides" / relative
     expected["config/ftbquests/quests/lang/ko_kr.snbt"] = (
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     )
     for namespace in ("forbidden_arcanus",):
         relative = f"assets/{namespace}/lang/ko_kr.json"
         expected[f"resourcepacks/ATM10_Korean/{relative}"] = (
-            PROJECT_ROOT / f"output/resourcepack/ATM10_Korean/{relative}"
+            active_output_root() / f"resourcepack/ATM10_Korean/{relative}"
         )
     return expected
 
@@ -170,8 +176,8 @@ def main() -> int:
         "powah": {"block.powah.energizing_orb": "에너지 주입 오브"},
     }.items():
         output_path = (
-            PROJECT_ROOT
-            / f"output/resourcepack/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"
+            active_output_root()
+            / f"resourcepack/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"
         )
         live_path = (
             instance / f"resourcepacks/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"

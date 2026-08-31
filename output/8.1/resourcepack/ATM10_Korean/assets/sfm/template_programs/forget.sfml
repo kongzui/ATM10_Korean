@@ -1,0 +1,21 @@
+NAME "입력 초기화"
+
+EVERY 20 TICKS DO
+    INPUT FROM a
+    OUTPUT 1 to b
+
+    INPUT FROM c
+    OUTPUT TO d -- "a" 입력이 아직 활성 상태입니다!!!
+END
+
+EVERY 20 TICKS DO
+    INPUT FROM a
+    OUTPUT 1 to b
+
+    FORGET a
+    -- 또는 간단히
+    FORGET
+
+    INPUT FROM c
+    OUTPUT TO d -- "c" 입력만 활성 상태입니다 :D
+END

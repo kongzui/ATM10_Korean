@@ -22,8 +22,9 @@ from common_ui_catalog import (
 from build_ae2_quests import flatten, merge_into_full_snbt, parse_language_snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
 from prepare_common_ui import WORK_ROOT, find_jar, load_json
+from version_context import active_output_root
 
-OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ROOT = active_output_root() / "resourcepack/ATM10_Korean/assets"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
 GUIDEME_DISPLAY_FALLBACKS = WORK_ROOT / "guide_ui/guideme/display_fallbacks.json"
@@ -701,7 +702,7 @@ def verify_jei_related(instance: Path) -> dict[str, object]:
     """JEI가 직접 언급되는 퀘스트와 KubeJS 표시 경로를 검증한다."""
     source_lang = instance / "config/ftbquests/quests/lang/en_us.snbt"
     output_lang = (
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     )
     english = parse_language_snbt(source_lang)
     korean = parse_language_snbt(output_lang)
@@ -748,7 +749,7 @@ def verify_jei_related(instance: Path) -> dict[str, object]:
         errors.append(f"JEI 관련 퀘스트 전용 override 불일치: {override_mismatches}")
 
     source_script = instance / JEI_KUBEJS_RELATIVE
-    output_script = PROJECT_ROOT / "output/overrides" / JEI_KUBEJS_RELATIVE
+    output_script = active_output_root() / "overrides" / JEI_KUBEJS_RELATIVE
     source_text = source_script.read_text(encoding="utf-8")
     output_text = output_script.read_text(encoding="utf-8")
     if source_text.count(JEI_KUBEJS_ENGLISH) == 1:
@@ -1244,7 +1245,7 @@ def verify_ftbchunks_related(instance: Path) -> dict[str, object]:
     if related_quest_keys != sorted(FTBCHUNKS_QUEST_VALUES):
         errors.append(f"FTB Chunks 관련 퀘스트 범위 변경: {related_quest_keys}")
     quest_output = parse_language_snbt(
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     )
     quest_mismatches = sorted(
         key
@@ -1532,7 +1533,7 @@ def verify_ftbteams_related(instance: Path) -> dict[str, object]:
     if related_quest_keys != sorted(FTBTEAMS_QUEST_VALUES):
         errors.append(f"FTB Teams 관련 퀘스트 범위 변경: {related_quest_keys}")
     quest_output = parse_language_snbt(
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     )
     quest_mismatches = sorted(
         key
@@ -2085,7 +2086,7 @@ def verify_naturescompass_related(instance: Path) -> dict[str, object]:
             "Nature's Compass 관련 FTB Quests 언어 범위 변경: " f"{related_quest_keys}"
         )
     quest_output = parse_language_snbt(
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     )
     quest_mismatches = sorted(
         key
@@ -2353,7 +2354,7 @@ def verify_explorerscompass_related(instance: Path) -> dict[str, object]:
             f"{related_quest_keys}"
         )
     quest_output = parse_language_snbt(
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     )
     quest_mismatches = sorted(
         key
@@ -2542,7 +2543,7 @@ def verify_explorerscompass_related(instance: Path) -> dict[str, object]:
     project_korean = {}
     project_language_files = 0
     for path in sorted(
-        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets").glob(
+        (active_output_root() / "resourcepack/ATM10_Korean/assets").glob(
             "*/lang/ko_kr.json"
         )
     ):
@@ -2803,10 +2804,10 @@ def verify_curios_related(instance: Path, copy_output: bool) -> dict[str, object
     quest_overrides = json.loads(CURIOS_QUEST_OVERRIDES.read_text(encoding="utf-8"))
     kubejs_overrides = json.loads(CURIOS_KUBEJS_OVERRIDES.read_text(encoding="utf-8"))
     quest_output_path = (
-        PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
     )
     kubejs_source_path = instance / CURIOS_KUBEJS_RELATIVE
-    kubejs_output_path = PROJECT_ROOT / "output/overrides" / CURIOS_KUBEJS_RELATIVE
+    kubejs_output_path = active_output_root() / "overrides" / CURIOS_KUBEJS_RELATIVE
 
     kubejs_source = kubejs_source_path.read_text(encoding="utf-8-sig")
     expected_kubejs = kubejs_source
@@ -3144,7 +3145,7 @@ def verify_curios_related(instance: Path, copy_output: bool) -> dict[str, object
     forbidden_output_values = []
     output_json_files_reviewed = 0
     for path in sorted(
-        (PROJECT_ROOT / "output/resourcepack/ATM10_Korean").rglob("*.json")
+        (active_output_root() / "resourcepack/ATM10_Korean").rglob("*.json")
     ):
         output_json_files_reviewed += 1
         if forbidden_term.search(path.read_text(encoding="utf-8")):

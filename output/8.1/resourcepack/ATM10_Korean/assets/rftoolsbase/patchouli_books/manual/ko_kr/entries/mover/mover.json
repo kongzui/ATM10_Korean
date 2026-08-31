@@ -1,0 +1,15 @@
+{
+  "name": "무버",
+  "icon": "rftoolsbuilder:mover",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:mover": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "무버는 탈것이 이동할 위치를 표시합니다.$(br2)$(l:rftoolsbase:mover/mover_controller)무버 제어기$(/l)로 무버를 찾아 이동 네트워크에 연결하세요."
+    }
+  ]
+}

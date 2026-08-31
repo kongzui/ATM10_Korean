@@ -1,0 +1,17 @@
+{
+  "name": "진열 선반",
+  "icon": "pneumaticcraft:display_shelf",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)진열 선반/$는 상위 $(l:machines/display_table)진열대/$와 똑같이 작동하지만 높이가 절반입니다. 게다가 그 아래 블록의 상단 표면이 단단하지 않으면 다리는 렌더링되지 않습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "진열 선반 제작",
+      "recipe": "pneumaticcraft:display_shelf"
+    }
+  ]
+}

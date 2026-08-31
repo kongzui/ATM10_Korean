@@ -1,0 +1,6 @@
+{
+  "name": "유체화기",
+  "description": "유체화기는 고체 연료를 유체로 변환하고 기존 연료를 혼합하여 새로운 연료를 만들 수 있는 멀티블록 기계입니다.",
+  "icon": "bigreactors:fluidizersolidinjector",
+  "sortnum": 5
+}

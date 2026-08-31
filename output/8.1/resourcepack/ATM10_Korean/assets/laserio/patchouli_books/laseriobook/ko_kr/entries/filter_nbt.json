@@ -1,0 +1,29 @@
+{
+  "name": "NBT 필터",
+  "sortnum": 3,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_nbt",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "NBT 필터의 화면과 기능은 $(l:laserio:filter_tag)태그 필터$(/l)와 비슷합니다.$(br2)오른쪽 위 슬롯에 아이템을 넣으면 그 아이템의 NBT 태그 이름이 모두 표시됩니다. 태그 필터와 같은 방법으로 목록에 추가하면 값과 관계없이 해당 태그를 가진 아이템을 필터링합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "NBT 화면",
+      "images": [
+        "laserio:textures/book/entries/nbt_filter.png"
+      ],
+      "border": true,
+      "text": "NBT 화면"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "예를 들어 마법 부여된 아이템에는 약탈, 날카로움 등을 지정하는 'Enchantments' 태그가 있습니다. 이 태그를 목록에 추가하면 모든 마법 부여 아이템을 걸러낼 수 있습니다.$(br2)적용된 마법의 종류와 관계없이 마법 부여된 검과 그렇지 않은 검을 서로 다른 인벤토리로 보낼 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "다른 모든 기능은 $(l:laserio:filter_tag)태그 필터$(/l)와 동일합니다. 자세한 내용은 해당 아이템을 참조하세요."
+    }
+  ]
+}

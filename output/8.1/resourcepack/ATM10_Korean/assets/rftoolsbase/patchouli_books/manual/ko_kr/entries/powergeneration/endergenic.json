@@ -1,0 +1,55 @@
+{
+  "name": "엔더제닉 생성기",
+  "icon": "rftoolspower:endergenic",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:endergenic": 0,
+    "rftoolspower:ender_monitor": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "엔더제닉 발전은 정확한 타이밍이 핵심입니다. 진주 주입기가 엔더제닉 진주를 만들고, 발전기가 진주를 받아 다시 발사하며, 알맞은 순간에 진주를 받으면 FE가 생성됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:endergenic",
+      "recipe2": "rftoolspower:ender_monitor"
+    },
+    {
+      "type": "text",
+      "text": "기본 설정에는 최소 2개의 엔더제닉 생성기, 1개의 진주 주입기, 레드스톤 타이밍, 렌치가 포함된 목적지 세트가 필요합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "rftoolspower:textures/manual/endergenic.png"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "생성기 상태: 유휴 대기. 충전하면 진주를 받을 수 있습니다. 홀딩은 진주가 포획되어 다시 발사될 때까지 FE를 소비한다는 것을 의미합니다."
+    },
+    {
+      "type": "text",
+      "text": "1 단계: 진주 주입기를 펄스하여 첫 번째 생성기에 진주를 주입합니다. 2 단계: 발전기를 펄스하여 쌍을 이루는 발전기를 향해 진주를 발사합니다."
+    },
+    {
+      "type": "text",
+      "text": "3 단계: 진주가 도착하기 전에 수신 발전기를 충전 상태로 펄스합니다. 이상적인 캡처 지점은 15-틱 충전 주기의 틱 10입니다."
+    },
+    {
+      "type": "text",
+      "text": "4 단계: 진주를 빠르게 앞으로 발사합니다. 보유하고 있는 진주는 매 틱마다 FE의 비용이 들며, 너무 오래 보유하거나 발전기의 전력이 부족할 경우 손실될 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "렌치를 사용하여 발전기를 쌍으로 연결하세요. 채팅 메시지에는 이동 시간이 틱 단위로 표시됩니다, 최대 4 틱. 이동 시간은 레드스톤 타이밍의 핵심 가치입니다."
+    },
+    {
+      "type": "text",
+      "text": "엔더 모니터는 발전기 상태를 감시해 타이밍 자동화를 돕습니다. 잘 조정한 구성도 진주를 잃을 수 있으므로 진주 공급과 시작 회로를 준비하세요."
+    }
+  ]
+}

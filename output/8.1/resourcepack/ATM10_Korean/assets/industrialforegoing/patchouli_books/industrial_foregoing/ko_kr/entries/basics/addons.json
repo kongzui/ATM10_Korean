@@ -1,0 +1,33 @@
+{
+  "name": "업그레이드",
+  "icon": "industrialforegoing:range_addon11",
+  "category": "industrialforegoing:basics",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:range_addon_tier_11",
+      "title": "범위",
+      "text": "작업 영역이 있는 기계의 범위를 늘립니다. 모든 기계가 범위 업그레이드를 받는 것은 아닙니다. 등급이 오를 때마다 범위가 1씩 증가합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:speed_addon_tier_2",
+      "title": "속도",
+      "text": "매 틱 진행 막대가 차는 양을 늘립니다. $(br2)1등급 -> +1$(br)2등급 -> +2"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:efficiency_addon_tier_2",
+      "title": "효율",
+      "text": "작업 한 번을 완료하는 데 필요한 틱 수를 줄입니다. $(br2)1등급 -> -10%$(br)2등급 -> -20%"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:processing_addon_tier_2",
+      "title": "처리",
+      "text": "기계가 처리를 마칠 때 완료하는 작업 횟수를 늘립니다. $(br2)1등급 -> 작업 +1회 $(br)2등급 -> 작업 +2회"
+    }
+  ]
+}

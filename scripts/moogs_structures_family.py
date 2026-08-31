@@ -23,11 +23,16 @@ from dungeons_arise_family import (
 )
 from gateways_hellish_family import Tag, read_nbt, write_nbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import (
+    active_output_root,
+    output_deployment_path,
+    resolve_active_output_path,
+)
 
 FAMILY = "moogs_structures"
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
-RESOURCEPACK_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean"
-OVERRIDE_ROOT = PROJECT_ROOT / "output/overrides/kubejs"
+RESOURCEPACK_ROOT = active_output_root() / "resourcepack/ATM10_Korean"
+OVERRIDE_ROOT = active_output_root() / "overrides/kubejs"
 REVIEWED_TEXT = WORK_ROOT / "reviewed_text.json"
 SUNZI_TRANSLATION = WORK_ROOT / "sunzi_ko_kr.json"
 JARS = {
@@ -734,7 +739,7 @@ def verify_nbt_outputs() -> tuple[dict[str, object], list[str]]:
                 nbt_maps[namespace],
                 source_pages,
             )
-            output_bytes = (PROJECT_ROOT / row["output"]).read_bytes()
+            output_bytes = resolve_active_output_path(row["output"]).read_bytes()
             output_raw = (
                 gzip.decompress(output_bytes)
                 if output_bytes.startswith(b"\x1f\x8b")
@@ -785,8 +790,7 @@ def deployment_paths() -> set[str]:
     manifest = WORK_ROOT / "translated_nbt_files.json"
     if manifest.is_file():
         paths.update(
-            row["output"].removeprefix("output/overrides/")
-            for row in load_json(manifest)
+            output_deployment_path(row["output"]) for row in load_json(manifest)
         )
     return paths
 

@@ -12,14 +12,15 @@ from pathlib import Path
 from zipfile import ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 FAMILY = "xtones_reworked"
 MOD_ID = "xtonesreworked"
 JAR_PATTERN = "xtonesreworked-*.jar"
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
 RESOURCE_OUTPUT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/xtonesreworked/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/xtonesreworked/lang/ko_kr.json"
 )
 DEPLOYMENT_PATH = "resourcepacks/ATM10_Korean/assets/xtonesreworked/lang/ko_kr.json"
 LANGUAGE_PATH = "assets/xtonesreworked/lang/en_us.json"

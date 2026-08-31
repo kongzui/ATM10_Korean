@@ -1,0 +1,6 @@
+{
+  "name": "물약 모듈",
+  "description": "물약 모듈은 새로운 물약과 제조법을 추가합니다.$(p)물약과 관련된 거의 모든 것을 다룹니다.",
+  "icon": "minecraft:potion",
+  "flag": "apotheosis:potion"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "펌프 카드",
+  "icon": "rftoolsbuilder:shape_card_pump",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_pump": 1,
+    "rftoolsbuilder:shape_card_pump_clear": 2
+  },
+  "sortnum": 50,
+  "pages": [
+    {
+      "type": "text",
+      "text": "펌프 카드를 사용하면 빌더가 선택한 영역에서 유체를 수집할 수 있습니다. 펌핑된 유체는 빌더에 연결된 탱크에 보관되어야 합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_pump"
+    },
+    {
+      "type": "text",
+      "text": "일반 펌프 카드는 제거된 유체를 구성된 필러로 교체합니다. 지우기 변형은 대신 빈 공간을 남깁니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_pump_clear"
+    }
+  ]
+}

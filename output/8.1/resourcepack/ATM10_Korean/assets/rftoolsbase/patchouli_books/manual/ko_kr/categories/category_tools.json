@@ -1,0 +1,7 @@
+{
+  "name": "도구",
+  "description": "다양한 기술 기계를 조작하고 구성하기 위해 생활을 더 쉽게 만들어주는 다양한 도구가 있습니다.",
+  "parent": "rftoolsbase:category_rftoolsbase",
+  "icon": "rftoolsbase:smartwrench",
+  "sortnum": 20
+}

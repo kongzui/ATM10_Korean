@@ -1,0 +1,6 @@
+{
+  "name": "벌집 벌",
+  "description": "벌통 벌은 바닐라 벌처럼 벌통에 살며 꿀과 자원을 생산합니다. 자원 벌집 조각을 만들려면 $(l:hives/advanced_hives)고급 벌통$(/l)에 살아야 합니다. 대부분은 단독 벌과 다른 벌통 벌을 교배해 얻지만, 특정 아이템을 먹이거나 생성 알을 제작해야 하는 종류도 있습니다. 모든 교배법과 수분 조건은 JEI에서 확인할 수 있습니다.",
+  "icon": "productivebees:adv_breed_bee",
+  "parent": "productivebees:bees"
+}

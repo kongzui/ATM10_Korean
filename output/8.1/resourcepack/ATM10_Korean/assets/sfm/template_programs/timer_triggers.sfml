@@ -1,0 +1,24 @@
+NAME "타이머 트리거"
+
+-- 공장 관리자를 설치하면 내부 시계가 영에서 시작합니다
+-- 청크가 언로드되었다가 다시 로드되면 임의 값으로 초기화됩니다
+EVERY 20 TICKS DO
+END
+
+-- 때로는 실행 시점을 더 세밀하게 제어해야 합니다
+-- 공장 관리자의 내부 시계 대신 월드 시계로 실행 시점을 정할 수 있습니다
+EVERY 20 GLOBAL TICKS DO END
+
+-- 오프셋을 더할 수도 있습니다
+EVERY 20 PLUS 1 TICKS DO END        -- 관리자 시계
+EVERY 20 GLOBAL PLUS 1 TICKS DO END -- 월드 시계
+
+-- 축약 표기법도 있습니다
+-- 수학식과 혼동하지 마세요
+EVERY 20+1 TICKS DO END  -- 관리자 시계
+EVERY 20G TICKS DO END   -- 월드 시계
+EVERY 20G+1 TICKS DO END -- 월드 시계
+
+-- 여러 표기법을 함께 사용할 수 있습니다
+EVERY 20 G PLUS 1 TICKS DO END
+EVERY 20 GLOBAL + 1 TICKS DO END

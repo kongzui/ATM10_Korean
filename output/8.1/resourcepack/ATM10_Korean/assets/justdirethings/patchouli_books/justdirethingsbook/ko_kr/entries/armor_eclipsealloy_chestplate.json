@@ -1,0 +1,17 @@
+{
+  "name": "이클립스 합금 흉갑",
+  "sortnum": 21,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:eclipsealloy_chestplate[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 최고급 흉갑은 Forge Energy의 500,000 FE를 활용하여 전례 없는 보호 기능을 제공합니다. 효율성을 극대화하려면 $(l:justdirethings:item_pocket_generator)휴대용 발전기$(/l)를 사용하여 정기적으로 재충전하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "이클립스 합금 흉갑 제작",
+      "recipe": "justdirethings:eclipsealloy_chestplate"
+    }
+  ]
+}

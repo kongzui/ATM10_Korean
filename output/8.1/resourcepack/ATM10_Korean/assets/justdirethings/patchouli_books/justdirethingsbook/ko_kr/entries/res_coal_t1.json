@@ -1,0 +1,12 @@
+{
+  "name": "프라이멀 석탄",
+  "sortnum": 21,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:coal_t1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "프라이멀 석탄은 $(l:justdirethings:gooblock_tier1)프라이모젤 구$(/l) 옆에 석탄 블록을 배치하여 얻은 특수 석탄의 초기 단계입니다. 일반 석탄보다 훨씬 오래 지속되며 발전기나 포켓 발전기에 사용할 때 더 많은 FE/T를 생성합니다."
+    }
+  ]
+}

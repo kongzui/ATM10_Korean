@@ -1,0 +1,38 @@
+{
+  "name": "어픽스",
+  "icon": "minecraft:experience_bottle",
+  "category": "apotheosis:adventure/affix_loot",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(6)어픽스$()는 어픽스 아이템의 힘을 이루는 핵심입니다. 각 어픽스는 마법 부여와 매우 비슷하며, 붙어 있는 아이템에 특정 보너스를 제공합니다.$(p)모든 어픽스를 직접 알아내는 재미를 위해 이 책에 전부 나열하지는 않지만, 어픽스가 무엇인지는 설명해 드립니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "어픽스 유형",
+      "text": "어픽스에는 여러 유형이 있으며, 유형마다 제공할 수 있는 기능이 정해져 있습니다.$(p)아이템에 적용되는 어픽스 유형은 아이템의 $(l:apotheosis:adventure/affix_loot/rarities)희귀도$()에 따라 달라집니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "능력치 어픽스",
+      "text": "가장 흔한 유형은 능력치 어픽스입니다. 특정 능력치에 단순한 보너스를 주며 모든 희귀도에서 등장합니다. 희귀도가 높을수록 능력치 어픽스가 더 많이 붙습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "효과 어픽스",
+      "text": "효과 어픽스는 가장 흥미로운 유형입니다. 간단한 편의성 보너스부터 강력한 전투 효과까지, 아이템에 온갖 추가 기능을 자유롭게 부여합니다.$(p)희귀 이상의 아이템에만 등장합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "소켓",
+      "text": "소켓은 $(l:apotheosis:adventure/affix_loot/gems)보석$()을 담을 자리를 제공하는 특별한 어픽스 유형입니다.$(p)보석은 뛰어난 보너스를 주지만 구하기 어려울 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "내구도 어픽스",
+      "text": "내구도 어픽스는 아이템이 손상을 더 잘 견디게 하며, 모든 희귀 이상 아이템에 붙습니다.$(p)다른 모든 손상 저항 뒤에 적용되므로 내구성 마법 부여와 곱연산으로 적용됩니다."
+    }
+  ]
+}

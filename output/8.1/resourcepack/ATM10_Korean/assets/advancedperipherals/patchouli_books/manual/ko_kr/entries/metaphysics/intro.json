@@ -1,0 +1,12 @@
+{
+  "name": "소개",
+  "icon": "advancedperipherals:weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 세계에는 아직 모르는 비밀이 많습니다. 평범한 터틀도 현실을 다루는 강력한 도구가 될 수 있을 것 같습니다. 그 안에 진짜 무언가를 넣기만 하면 됩니다. 예를 들면... 영혼?"
+    }
+  ]
+}

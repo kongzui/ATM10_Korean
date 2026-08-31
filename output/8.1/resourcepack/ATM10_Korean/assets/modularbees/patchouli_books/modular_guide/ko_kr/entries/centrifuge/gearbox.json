@@ -1,0 +1,17 @@
+{
+  "name": "원심분리기 기어박스",
+  "icon": "modularbees:modular_centrifuge_gearbox",
+  "read_by_default": true,
+  "category": "modularbees:centrifuge",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "원심분리기 기어박스",
+      "text": "기어박스는 병렬 처리 수를 1.5배 늘리며 작동할 때 밀랍을 사용합니다.$(br)여러 기어박스를 함께 쓰면 병렬 처리 증가량이 합산됩니다.$(br)작업 주기마다 밀랍 40을 소비합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_centrifuge_gearbox"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pages": [
+
+		 {
+		  "type": "standard",
+
+		  "summary": "포도 덩굴은 동굴 덩굴과 비슷하게 자라며 수확할 수 있는 열매를 맺어요.\n\n블록 아래에 심으면 시간이 지나면서 아래로 자라 열매를 맺어요.",
+
+		  "elements": [
+			  {
+				  "type": "image",
+				  "image_path": "textures/gui/guide/chapters/grapes/grapes.png",
+				  "caption": "herbsandharvest.guide_book.chapters.grapes.grapes_caption",
+				  "image_width": 110,
+				  "image_height": 62
+
+			  },
+			   {
+				  "type": "text",
+				  "literal_text": "동굴 덩굴처럼 뼛가루를 사용할 수 있어요.\n\n포도는 마을의 격자 울타리에서 자라는 것을 찾거나 오버월드 상자에서 얻을 수 있어요.",
+				  "text": null
+			  }
+		  ]
+	  }
+
+	]
+}
+
+
+
+
+
+
+
+  ]
+}

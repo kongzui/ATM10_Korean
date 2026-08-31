@@ -1,0 +1,17 @@
+{
+  "name": "물약 화살",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_potionarrow",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "물약 화살 업그레이드로 화살에 마법 같은 손길을 더해보세요. 이 업그레이드를 통해 화살은 물약 효과를 전달하여 대상에게 추가 효과를 줄 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "물약 화살 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_potionarrow"
+    }
+  ]
+}

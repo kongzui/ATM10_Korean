@@ -1,0 +1,27 @@
+{
+  "name": "차단 매트릭스",
+  "icon": "mffs:interdiction_matrix",
+  "category": "mffs:machines",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:interdiction_matrix",
+      "link_recipe": true,
+      "text": "$(9)차단 매트릭스$()는 MFFS 시스템 제품군의 구성원입니다. 주변 공간에 존재하는 플레이어나 개체에 제한을 가합니다. 예를 들어, 효과 영역으로 이동하는 몹이나 플레이어를 자동으로 죽이도록 구성할 수 있습니다. 또는 승인되지 않은 플레이어가 다른 시스템을 조작하는 것을 방지합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:interdiction_matrix",
+      "text": "$(9)차단 매트릭스$()를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "사용법",
+      "text": "$(9)차단 매트릭스$() 주변은 $(bold)작동$() 영역과 $(bold)경고$() 영역으로 나뉩니다. 작동 영역은 설치한 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$() 수만큼 매트릭스에서 바깥으로 넓어집니다. 기본 경고 영역은 작동 영역 가장자리에서 다시 3블록만큼 이어지는 동심 구입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "플레이어가 $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()의 경고 영역으로 이동할 때, 스캔 범위에 방금 진입했다는 경고 메시지를 보냅니다. 플레이어가 매트릭스에 설치된 모듈을 직접 경험하고 싶지 않은 경우, 더 가까이 다가가서는 안 됩니다. 모듈이 설치되지 않은 경우, $(l:mffs:machines/interdiction_matrix)차단 매트릭스$()는 실제로 아무 작업도 수행하지 않습니다. $(l:mffs:interdiction_modules)$(5)모듈$()가 설치된 경우, 강력한 방어 시스템 역할을 할 수 있습니다."
+    }
+  ]
+}

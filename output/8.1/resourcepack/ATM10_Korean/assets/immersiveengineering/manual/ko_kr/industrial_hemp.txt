@@ -1,0 +1,5 @@
+산업용 대마
+원단 530
+<&items>산업용 대마는 공학 전반에 쓰이는 매우 다재다능한 식물입니다. 씨앗으로 <link;industrial_fluids;바이오디젤;biodiesel>의 재료인 식물성 기름을 만들고, 섬유로 튼튼한 직물인 §2질긴 천§r을 만듭니다.<br>
+씨앗은 키 큰 잔디를 부수거나 비슷한 방식으로 얻을 수 있습니다.<np><&fabric_recipe>질긴 천은 대마 섬유로 만든 튼튼한 직물입니다. 방수 처리하면 <link;this;대체 가죽;ersatz_leather>으로 사용할 수 있습니다.<br>
+그 자체로도 <link;kinetic_generators;개량 풍차;sail_recipe>, <link;balloon;풍선;start>, <link;hempcrete;헴프크리트>, <link;this;점프 쿠션;cushion_recipe>을 만드는 데 쓰입니다.<np><&cushion_recipe>점프 쿠션은 질긴 천에 공기를 채운 단순한 블록입니다. 충격을 흡수하여 낙하 피해를 막지만 슬라임 블록처럼 떨어진 물체를 튕겨 올리지는 않습니다.<np><&ersatz_leather>대체 가죽은 질긴 천에 식물성 기름이나 밀랍을 스며들게 해 만듭니다. 이 방수 원단은 <link;conveyor_belts;컨베이어 벨트>처럼 일반 가죽이 쓰이는 여러 제품에 사용할 수 있습니다.

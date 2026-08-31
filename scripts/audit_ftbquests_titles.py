@@ -15,11 +15,13 @@ from typing import Any
 import build_ae2_quests as lang_snbt
 import ftbquests_title_rules as title_rules
 from local_paths import resolve_source_root
+from version_context import active_report_dir
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_LANG = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
-REPORT_JSON = PROJECT_ROOT / "reports/ftbquests_title_audit.json"
-REPORT_CSV = PROJECT_ROOT / "reports/ftbquests_title_audit.csv"
+OUTPUT_LANG = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+REPORT_JSON = active_report_dir() / "ftbquests_title_audit.json"
+REPORT_CSV = active_report_dir() / "ftbquests_title_audit.csv"
 FORMAT_RE = re.compile(r"&[0-9a-fklmnor]", re.IGNORECASE)
 LATIN_WORD_RE = re.compile(r"[A-Za-z]{3,}")
 STRING_RE = re.compile(r'"((?:\\.|[^"\\])*)"')
@@ -276,7 +278,7 @@ def parse_chapters(quest_root: Path) -> tuple[list[dict[str, Any]], set[str]]:
 def load_project_languages() -> tuple[dict[str, str], dict[str, str]]:
     english: dict[str, str] = {}
     korean: dict[str, str] = {}
-    root = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+    root = active_output_root() / "resourcepack/ATM10_Korean/assets"
     for path in root.glob("*/lang/ko_kr.json"):
         values = json.loads(path.read_text(encoding="utf-8"))
         korean.update(

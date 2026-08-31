@@ -1,0 +1,30 @@
+{
+  "name": "열",
+  "icon": "minecraft:blaze_powder",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr)에는 $(thing)열/$ 시스템이 있습니다. 열은 현실과 비슷하게 블록에서 블록으로 퍼지며 $(l:base_concepts/pressure)압력이 분산되는 방식/$과도 비슷합니다:$(li)열은 더 뜨거운 물체에서 더 차가운 물체로 이동합니다.$(li)블록은 열 시스템을 지원하는 인접 블록에만 열을 전달합니다($(l:base_concepts/heat_sources)열원/$ 참조)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)온도 차이가 클수록 열이 더 빨리 이동합니다.$(li)물체마다 $(thing)열저항/$이 다릅니다. $(item)횃불/$과 $(item)공기/$는 열저항이 높고, $(l:base_concepts/basic_materials#compressed_iron_block)압축 철 블록/$은 매우 낮습니다. $(thing)열저항/$은 물체 사이에서 열이 이동하는 속도를 결정합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)물체마다 $(thing)열용량/$도 다릅니다. 열용량이 높을수록 같은 양의 열을 받아도 온도가 천천히 오르고, 같은 양의 열을 잃어도 천천히 내려갑니다. 즉, 열용량이 큰 블록은 $(thing)온도/$를 높이는 데 더 많은 $(thing)열/$이 필요하지만 열을 잃을 때도 온도가 더 천천히 떨어집니다."
+    },
+    {
+      "type": "text",
+      "title": "단열",
+      "anchor": "insulation",
+      "text": "기계의 면이 공기에 노출되면 열을 잃습니다. 노출 면이 많은 $(l:manufacturing/refinery)정유기/$에서 특히 두드러지지만, $(l:base_concepts/basic_materials#compressed_iron_block)압축 철 블록/$을 포함한 모든 열전도 블록에 적용됩니다.$(p)열 손실을 막으려면 어느 면도 공기 블록에 노출되지 않게 하세요. 열이 통하지 않는 블록이면 충분하며 완전한 블록일 필요도 없습니다. $(item)다락문/$이나 $(item)반 블록/$도 효과가 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "열원",
+      "text": "$(pncr)의 일부 기계는 방출해야 할 열을 만들고, 일부 기계는 작동하는 데 열이 필요합니다.$(p)따라서 기계의 온도를 조절할 $(l:base_concepts/heat_sources)방법/$을 마련해야 합니다."
+    }
+  ]
+}

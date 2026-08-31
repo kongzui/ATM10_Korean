@@ -10,6 +10,7 @@ import sys
 from pathlib import Path
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -227,7 +228,7 @@ def main() -> int:
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
     source_root = instance / "kubejs/client_scripts"
-    output_root = PROJECT_ROOT / "output/overrides/kubejs/client_scripts"
+    output_root = active_output_root() / "overrides/kubejs/client_scripts"
     seen = {source: 0 for source in REPLACEMENTS}
     pretranslated: set[str] = set()
     outputs: list[str] = []

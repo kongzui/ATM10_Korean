@@ -1,0 +1,27 @@
+{
+  "name": "좌표 연산 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/coordinate_operation_plus_minus.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)좌표 연산/$ 위젯은 $(l:programming/variables)변수/$를 정의 및/또는 조작하여 고급 드론 기능을 구현하는 데 사용됩니다. 이 위젯은 사용할 값을 정의하기 위해 하나 이상의 연결된 $(l:programming/coordinate)좌표/$ 위젯을 필요로 하고 해당 연결된 부분에 대해 특정 산술 연산(위젯 GUI에서 정의)을 수행합니다."
+    },
+    {
+      "type": "text",
+      "text": "사용 가능한 작업은 다음과 같습니다.$(li)$(bold)Add/Subtract/$: 오른쪽에 있는 위젯을 더하고 왼쪽에 있는 위젯을 뺍니다.$(li)$(bold)Multiply/Divide/$: 오른쪽에 있는 위젯을 곱하고 결과를 다음으로 나눕니다. 왼쪽에 있는 위젯.$(li)$(bold)Min/Max/$: 오른쪽에 있는 위젯에서 최대 X/Y/Z를 가져온 다음 왼쪽에 있는 위젯의 최소값과 이전에 결정된 최대값을 가져옵니다."
+    },
+    {
+      "type": "text",
+      "text": "최종 결과는 좌표 연산 GUI에 입력된 이름으로 정의된 $(l:programming/variables)변수/$에 저장됩니다. 이 $(thing)변수/$를 사용하여 나중에 좌표를 얻을 수 있습니다. $(li)$(l:programming/area)영역/$ 위젯에서는 GPS 좌표 대신 $(thing)변수/$이름을 사용할 수 있습니다. $(li)$(l:programming/condition_coordinate)조건:/$ 좌표를 사용하여 $(thing)변수/$에서 테스트를 실행할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/coordinate_operation_plus_minus.png"
+      ],
+      "text": "$(italic)좌표 연산 위젯/$"
+    }
+  ]
+}

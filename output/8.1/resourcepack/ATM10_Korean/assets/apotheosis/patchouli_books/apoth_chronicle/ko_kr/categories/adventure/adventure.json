@@ -1,0 +1,6 @@
+{
+  "name": "모험 모듈",
+  "description": "이전에 $(4)치명적 모듈$()로 알려졌던 모험 모듈에서는 강력한 보너스가 붙은 무작위 생성 전리품으로 장비를 갖출 수 있습니다.$(p)하지만 새로운 적도 등장하니 조심하세요.",
+  "icon": "minecraft:netherite_sword",
+  "flag": "apotheosis:adventure"
+}

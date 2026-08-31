@@ -1,0 +1,29 @@
+{
+  "name": "태양열 압축기",
+  "icon": "pneumaticcraft:solar_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)태양열 압축기/$는 $(thing)sunlight/$에서 $(l:base_concepts/pressure)압축 공기/$ 및 $(l:base_concepts/heat)heat/$를 생성합니다. 작동하려면 직사광선을 선명하게 볼 수 있어야 합니다. 이는 내부, 밤 또는 폭풍 중에 작동할 수 없음을 의미합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)태양열 압축기/$ 제작",
+      "recipe": "pneumaticcraft:solar_compressor"
+    },
+    {
+      "type": "text",
+      "text": "$(item)태양 압축기/$는 압축 공기를 생성하지만 생성되는 압축 공기의 양에 비례하여 열을 생성합니다. $(item)태양열 압축기/$의 능력을 극대화하려면 적절한 열 관리가 필요합니다. 열이 너무 적으면 압축기는 거의 압축 공기를 생성할 수 없고, 너무 열이 많으면 압축기가 과열되어 고장나고 $(l:components/solar_cell)태양전지/$를 사용한 수동 수리가 필요합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:machines/heat_sink)방열판/$, $(l:machines/heat_pipe)열 파이프/$ 및 $(l:tubes/air_grate_module)에어그 속도 모듈/$는 $(item)태양열 압축기/$에 의해 생성된 열을 관리하고 제거하기 위한 완벽한 도구입니다. $(l:machines/vortex_tube)볼텍스 튜브/$는 추가 열을 생성하여 최대 효율을 달성하는 데 사용할 수 있으므로 열 관리에 유용합니다. 적절한 설정으로 $(l:base_concepts/upgrades#speed)최대 속도/$의 $(item)태양 압축기/$에서도 최대 효율로 열 평형에 도달 할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "컴프레서에는 압축 공기를 생성할 수 없을 때 작동하는 열 패드가 내장되어 있어 비작동 시 열이 증감되는 것을 방지합니다. $(br2)압축기는 $(thing)350℃/$에서 최대 효율에 도달하고 $(thing)425℃/$에서 과열됩니다."
+    }
+  ]
+}

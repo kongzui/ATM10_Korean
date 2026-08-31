@@ -1,0 +1,19 @@
+{
+  "name": "신호 커패시터 박스",
+  "icon": "railcraft:signal_capacitor_box",
+  "category": "railcraft:signal_boxes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "신호 커패시터 박스는 신호 수신기 박스나 신호 블록 중계 박스 옆에 놓습니다. 인접한 박스의 레드스톤 출력이 바뀌면 미리 정한 시간 동안 레드스톤 펄스를 냅니다. 개념은 RedPower의 State Cell과 비슷합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "박스를 우클릭하면 화면이 열립니다. 현재 레드스톤 출력 지속 시간을 확인하고 조절할 수 있으며, 상승 에지와 하강 에지 모드를 바꾸는 버튼도 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "상승 에지는 인접한 박스가 레드스톤 출력을 시작할 때 지정 시간 동안 펄스를 냅니다. 하강 에지는 인접한 박스가 출력을 멈춘 뒤에도 지정 시간 동안 펄스를 유지해 지연 신호를 만듭니다."
+    }
+  ]
+}

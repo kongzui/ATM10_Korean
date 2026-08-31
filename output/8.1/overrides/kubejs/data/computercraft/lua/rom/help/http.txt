@@ -1,0 +1,9 @@
+HTTP API의 함수:
+http.checkURL( url )
+http.checkURLAsync( url )
+http.request( url, [postData], [headers] )
+http.get( url, [headers] )
+http.post( url, postData, [headers] )
+
+ComputerCraft.cfg에서 HTTP API가 비활성화될 수 있습니다.
+http.request()를 호출하면 잠시 뒤 "http_success" 또는 "http_failure" 이벤트가 발생합니다. 성공 시 URL과 파일 핸들을, 실패 시 URL·오류 메시지와 선택적으로 파일 핸들을 인수로 받습니다. http.get()과 http.post()는 이 이벤트가 발생할 때까지 기다립니다.

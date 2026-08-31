@@ -1,0 +1,15 @@
+{
+  "name": "작곡가",
+  "icon": "rftoolsbuilder:composer",
+  "category": "rftoolsbase:category_rftoolsbuilder_projector",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:composer": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "컴포저는 여러 개의 형상 카드를 하나로 결합합니다.$(br2)각 입력 모양을 더하거나 빼거나 교차할 수 있으므로 단순한 카드에서 더 복잡한 모양을 만들 수 있습니다."
+    }
+  ]
+}

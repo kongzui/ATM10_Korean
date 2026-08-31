@@ -1,0 +1,17 @@
+{
+  "name": "유체 캔",
+  "sortnum": 12,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:fluid_canister",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "유체 캔에는 최대 8양동이 분량의 유체를 담을 수 있습니다. 양동이처럼 우클릭해 유체를 놓거나 담습니다.$(br2)Shift + 우클릭하면 인벤토리의 다른 유체 용기를 자동으로 채웁니다. 채움 모드는 '없음', 'Just Dire Things만', 다른 모드까지 포함하는 '모두'의 세 가지입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "유체 캔 제작",
+      "recipe": "justdirethings:fluid_canister"
+    }
+  ]
+}

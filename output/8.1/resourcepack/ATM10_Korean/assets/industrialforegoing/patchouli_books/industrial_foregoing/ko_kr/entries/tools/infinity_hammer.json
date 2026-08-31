@@ -1,0 +1,21 @@
+{
+  "name": "인피니티 해머",
+  "icon": "industrialforegoing:infinity_hammer",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "인피니티 해머는 범위 안의 적에게 피해를 주는 도구입니다. 등급이 높아지면 더 높은 레벨의 $(6)참수$() 효과가 열려 몹 머리를 쉽게 얻을 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "지면을 우클릭하면 플레이어 앞의 원뿔형 영역에 $(6)분쇄$() 효과를 일으킵니다."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_hammer"
+    }
+  ]
+}

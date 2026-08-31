@@ -1,0 +1,230 @@
+{
+  "name": "업그레이드",
+  "icon": "pneumaticcraft:volume_upgrade",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)업그레이드/$는 기계 및 일부 도구에 삽입하여 어떤 방식으로 기능을 향상시킬 수 있는 제작 가능한 아이템입니다. 도구에 업그레이드를 추가하려면 $(l:machines/charging_station)충전 스테이션/$가 필요합니다. $(p)각 업그레이드의 정확한 효과는 장치에 따라 다릅니다. 기계 GUI 또는 (아이템의 경우) 충전 스테이션 업그레이드 GUI에 나열되어 있습니다."
+    },
+    {
+      "type": "crafting",
+      "anchor": "volume",
+      "recipe": "pneumaticcraft:volume_upgrade",
+      "text": "용량 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "dispenser",
+      "recipe": "pneumaticcraft:dispenser_upgrade",
+      "text": "발사기 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "inventory",
+      "recipe": "pneumaticcraft:inventory_upgrade",
+      "text": "인벤토리 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "item_life",
+      "recipe": "pneumaticcraft:item_life_upgrade",
+      "text": "아이템 수명 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "entity_tracker",
+      "recipe": "pneumaticcraft:entity_tracker_upgrade",
+      "text": "개체 추적기 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "block_tracker",
+      "recipe": "pneumaticcraft:block_tracker_upgrade",
+      "text": "블록 추적기 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "speed",
+      "recipe": "pneumaticcraft:speed_upgrade",
+      "text": "속도 업그레이드 만들기 $(p)$(bold)팁 :/$ $(l:machines/liquid_hopper)유체 호퍼/$(또는 기타 모드 탱크)및 $(l:components/lubricant)윤활유/$를 사용하여 한 번에 여러 업그레이드를 만들 수도 있습니다."
+    },
+    {
+      "type": "crafting",
+      "anchor": "speed2",
+      "recipe": "pneumaticcraft:speed_upgrade_from_glycerol",
+      "text": "$(l:renewables/glycerol)글리세롤/$에서 속도 업그레이드를 만듭니다."
+    },
+    {
+      "type": "crafting",
+      "anchor": "search",
+      "recipe": "pneumaticcraft:search_upgrade",
+      "text": "검색 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "coordinate_tracker",
+      "recipe": "pneumaticcraft:coordinate_tracker_upgrade",
+      "text": "좌표 추적기 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "range",
+      "recipe": "pneumaticcraft:range_upgrade",
+      "text": "범위 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "security",
+      "recipe": "pneumaticcraft:security_upgrade",
+      "text": "보안 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "magnet",
+      "recipe": "pneumaticcraft:magnet_upgrade",
+      "text": "자석 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "thaumcraft",
+      "flag": "mod:thaumcraft",
+      "recipe": "pneumaticcraft:thaumcraft_upgrade",
+      "text": "Thaumcraft 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "charging",
+      "recipe": "pneumaticcraft:charging_upgrade",
+      "text": "충전 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "armor",
+      "recipe": "pneumaticcraft:armor_upgrade",
+      "text": "방어구 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jet_boots_1",
+      "recipe": "pneumaticcraft:jet_boots_upgrade_1",
+      "text": "제트 부츠 업그레이드: 1단계 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jet_boots_2",
+      "recipe": "pneumaticcraft:jet_boots_upgrade_2",
+      "text": "제트 부츠 업그레이드: 2단계 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jet_boots_3",
+      "recipe": "pneumaticcraft:jet_boots_upgrade_3",
+      "text": "제트 부츠 업그레이드: 3단계 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jet_boots_4",
+      "recipe": "pneumaticcraft:jet_boots_upgrade_4",
+      "text": "제트 부츠 업그레이드: 4단계 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jet_boots_5",
+      "recipe": "pneumaticcraft:jet_boots_upgrade_5",
+      "text": "제트 부츠 업그레이드: 5단계 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jumping_1",
+      "recipe": "pneumaticcraft:jumping_upgrade_1",
+      "text": "도약 업그레이드: 1단계 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jumping_2",
+      "recipe": "pneumaticcraft:jumping_upgrade_2",
+      "text": "도약 업그레이드: 2단계 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jumping_3",
+      "recipe": "pneumaticcraft:jumping_upgrade_3",
+      "text": "도약 업그레이드: 3단계 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jumping_4",
+      "recipe": "pneumaticcraft:jumping_upgrade_4",
+      "text": "도약 업그레이드: 4단계 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "night_vision",
+      "recipe": "pneumaticcraft:night_vision_upgrade",
+      "text": "야간 투시 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "scuba",
+      "recipe": "pneumaticcraft:scuba_upgrade",
+      "text": "스쿠버 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "flippers",
+      "recipe": "pneumaticcraft:flippers_upgrade",
+      "text": "오리발 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "standby",
+      "recipe": "pneumaticcraft:standby_upgrade",
+      "text": "대기 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "minigun",
+      "recipe": "pneumaticcraft:minigun_upgrade",
+      "text": "미니건 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:toughasnails",
+      "anchor": "air_conditioning",
+      "recipe": "pneumaticcraft:air_conditioning_upgrade",
+      "text": "공기 조절 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:mekanism",
+      "anchor": "radiation_shielding",
+      "recipe": "pneumaticcraft:radiation_shielding_upgrade",
+      "text": "방사선 차폐 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "gilded",
+      "recipe": "pneumaticcraft:gilded_upgrade",
+      "text": "금박 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "ender_visor",
+      "recipe": "pneumaticcraft:ender_visor_upgrade",
+      "text": "엔더 바이저 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "stomp",
+      "recipe": "pneumaticcraft:stomp_upgrade",
+      "text": "짓밟기 업그레이드 제작"
+    },
+    {
+      "type": "crafting",
+      "anchor": "chunkloader",
+      "recipe": "pneumaticcraft:chunkloader_upgrade",
+      "text": "청크 로더 업그레이드 제작"
+    }
+  ]
+}

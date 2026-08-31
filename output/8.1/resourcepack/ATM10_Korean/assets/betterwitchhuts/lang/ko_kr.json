@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.betterwitchhuts-fabric-1_21.title": "YUNG's Better Witch Huts",
+  "text.autoconfig.betterwitchhuts-fabric-1_21.option.general.disableVanillaWitchHuts": "바닐라 마녀 오두막 비활성화",
+  "text.autoconfig.betterwitchhuts-fabric-1_21.option.general.disableVanillaWitchHuts.@Tooltip": "바닐라 마녀 오두막을 비활성화할지 설정합니다.",
+  "Use /locate structure betterwitchhuts:witch_hut instead!": "대신 /locate structure betterwitchhuts:witch_hut 명령을 사용하세요!"
+}

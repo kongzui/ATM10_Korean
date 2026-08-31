@@ -1,0 +1,35 @@
+{
+  "name": "원심분리기 오버클러커",
+  "icon": "modularbees:modular_centrifuge_overclocker",
+  "read_by_default": true,
+  "category": "modularbees:centrifuge",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "원심분리기 오버클러커",
+      "text": "원심분리기 오버클러커로 처리 속도를 높일 수 있습니다. 작동에는 에너지와 전극이 필요하며 상위 전극일수록 속도 증가량이 큽니다.$(br)오버클러커를 여러 개 사용하면 증가량이 합산됩니다. 네더라이트 전극(+400%) 두 개라면 9배 속도(+800%)로 작동합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_centrifuge_overclocker"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "전극",
+      "text": "전극에는 4단계가 있으며, JEI/툴팁에서 부스트를 확인할 수 있습니다.$(br)전극은 작업 틱마다 항상 1의 내구성을 잃습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:electrode_copper",
+      "recipe2": "modularbees:electrode_iron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:electrode_gold"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "modularbees:electrode_netherite"
+    }
+  ]
+}

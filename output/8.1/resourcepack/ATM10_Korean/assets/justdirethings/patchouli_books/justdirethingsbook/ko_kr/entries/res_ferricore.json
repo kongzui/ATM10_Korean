@@ -1,0 +1,17 @@
+{
+  "name": "페리코어 주괴",
+  "sortnum": 1,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:ferricore_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "페리코어 주괴는 $(l:justdirethings:res_ferricore_raw)미가공 페리코어 광석$(/l)에서 얻은 페리코어 원석을 제련해 만듭니다. 일반 철보다 내구도와 강도가 뛰어납니다."
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "페리코어 원석 제련",
+      "recipe": "justdirethings:ferricore_ingot_smelted"
+    }
+  ]
+}

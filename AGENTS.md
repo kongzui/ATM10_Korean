@@ -92,7 +92,7 @@
 
 ### 리소스팩 대상
 
-다음 항목은 원칙적으로 `output/resourcepack/`에 누적한다.
+다음 항목은 원칙적으로 `output/<활성 ATM10 버전>/resourcepack/`에 누적한다.
 
 - 모드 아이템 및 블록 이름
 - 기계, 버튼, 메뉴 이름
@@ -102,7 +102,8 @@
 
 ### 덮어쓰기 대상
 
-다음 항목은 필요한 원본 구조를 확인한 뒤 `output/overrides/`에 배치한다.
+다음 항목은 필요한 원본 구조를 확인한 뒤
+`output/<활성 ATM10 버전>/overrides/`에 배치한다.
 
 - FTB Quests 챕터, 퀘스트 제목 및 설명
 - `config/ftbquests/` 아래의 번역 파일
@@ -203,12 +204,23 @@
 
 ## 산출물 경계
 
-- 모드 언어 파일은 `working/`에서 작업하고 검증된 완성본만 `output/resourcepack/`에 배치한다.
-- FTB Quests, KubeJS 등 인스턴스 경로 덮어쓰기용 파일은 검증된 완성본만 `output/overrides/`에 배치한다.
+- 모드 언어 파일은 `working/`에서 작업하고 검증된 완성본만
+  `output/<활성 ATM10 버전>/resourcepack/`에 배치한다.
+- FTB Quests, KubeJS 등 인스턴스 경로 덮어쓰기용 파일은 검증된 완성본만
+  `output/<활성 ATM10 버전>/overrides/`에 배치한다.
 - `temp/`에는 언제든 삭제하고 다시 만들 수 있는 자료만 둔다.
 - `glossary/`에는 공통 용어와 번역 금지어를 관리한다.
-- `reports/`에는 조사 결과, 오류, 불확실한 항목과 작업 현황을 기록한다.
-- `manifests/`에는 자동 생성된 파일 목록, 키 수, 비교 결과를 저장한다.
+- `versions/<ATM10버전>/reports/`에는 해당 버전의 조사 결과, 오류, 불확실한 항목과 작업
+  현황을 기록한다.
+- `versions/<ATM10버전>/manifests/`에는 해당 버전에서 자동 생성한 파일 목록, 키 수와 원본
+  조사 결과를 저장한다.
+- `working/`은 현재 번역을 이어서 관리하고, 완성 산출물은
+  `output/<ATM10 버전>/{resourcepack,overrides}`로 버전마다 분리한다.
+- 새 버전 output은 이전 검증본을 시작점으로 복사한 뒤 현재 영어 원문에 재기준화하며, 이전
+  버전 output은 수정하지 않는다.
+- 활성 버전은 `version_context.json`, 전체 적용 가능 여부는 활성 버전 폴더의
+  `output/<ATM10 버전>/release.json`에서 관리한다. 재기준화 중에는 검증된 파일의 `--path`
+  선택 적용만 허용한다.
 - 원본 JAR, ZIP, 월드, 로그와 대용량 추출물은 저장소에 포함하지 않는다.
 
 ## 코딩 스타일 및 구현 원칙

@@ -1,0 +1,17 @@
+{
+  "name": "벌집 내보내기 해치",
+  "icon": "modularbees:modular_export",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "벌집 내보내기 해치",
+      "text": "물류용 코어 블록의 프록시로, 생산물과 꿀을 바라보는 상자나 탱크로 자동 전송합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_export"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "익힌 기린고기",
+  "icon": "livingthings:cooked_giraffe",
+  "category": "livingthings:item_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br)$(bold)획득:$()$(br)생기린고기를 제련하면 얻을 수 있습니다"
+    },
+    {
+      "type": "spotlight",
+      "item": "livingthings:cooked_giraffe",
+      "text": "$(br)$(bold)용도:$()$(li)먹을 수 있습니다"
+    }
+  ]
+}

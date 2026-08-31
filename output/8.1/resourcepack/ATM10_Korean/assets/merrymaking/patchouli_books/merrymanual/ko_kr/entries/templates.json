@@ -1,0 +1,30 @@
+{
+  "name": "형판",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:misc",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "merrymaking:left_diag_template",
+      "text": "형판은 조명/가랜드 블록을 제작할 때 왼쪽 또는 오른쪽 모양을 정하는 데 사용해요. 형판은 재사용할 수 있어 제작 후에도 남아요. 초록색 염료와 종이로 형판을 만들며 조명과 가랜드에 모두 사용할 수 있어요. 형판 레시피는 다음과 같아요:"
+    },
+    {
+      "type": "crafting",
+      "title": "대각선 형판",
+      "recipe": "merrymaking:left_diag_template",
+      "recipe2": "merrymaking:right_diag_template"
+    },
+    {
+      "type": "crafting",
+      "title": "세로 형판",
+      "recipe": "merrymaking:left_vert_template",
+      "recipe2": "merrymaking:right_vert_template"
+    },
+    {
+      "type": "crafting",
+      "title": "세로 모서리 형판",
+      "recipe": "merrymaking:left_corner_template",
+      "recipe2": "merrymaking:right_corner_template"
+    }
+  ]
+}

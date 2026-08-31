@@ -1,0 +1,22 @@
+{
+  "name": "계단",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/stairs.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "계단 모드는 바라보는 블록보다 플레이어가 위에 있는지 아래에 있는지에 따라 플레이어에게서 멀어지며 올라가거나, 플레이어 쪽으로 올라오는 계단을 만듭니다.$(br2)솔직히 조금 어설프고 헷갈려서 개선이 필요한 모드입니다."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "계단",
+      "images": [
+        "buildinggadgets2:textures/book/images/stairs1.png",
+        "buildinggadgets2:textures/book/images/stairs2.png"
+      ],
+      "border": true,
+      "text": "위 그림을 전환하여 서로 다른 선택지를 확인하세요"
+    }
+  ]
+}

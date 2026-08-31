@@ -1,0 +1,20 @@
+{
+  "block.ars_creo.starbuncle_wheel": "별다람쥐 바퀴",
+  "ars_creo.page1.starbuncle_wheel": "Create를 위한 회전력을 생성합니다. 바퀴 앞에 금 블록을 설치하면 RPM이 증가합니다.",
+  "ars_creo.page.behaviors": "Ars Creo는 마법 포탑과 마나 단지 등 Ars Nouveau 블록이 Create 이동 구조물에서 특별히 작동하게 합니다. 기본 마법 포탑은 구조물과 상호 작용할 때 주문을 시전하고, 타이머 포탑은 설정된 간격마다 시전하며, 마법 부여된 마법 포탑은 구조물이 새 블록을 지날 때마다 시전합니다. 구조물의 포탑은 함께 실은 마나 단지의 마나를 사용할 수 있습니다.",
+  "itemGroup.ars_creo.general": "Ars Creo",
+  "ars_creo.display_source.turret.not_enough_space": "공간이 부족합니다.",
+  "ars_creo.display_source.turret.for_turret_status": "포탑 상태용",
+  "ars_creo.display_source.turret.no_spell": "설정된 주문이 없습니다.",
+  "ars_creo.display_source.turret.spell_name": "주문: %s",
+  "ars_creo.display_source.turret.spell": "%s",
+  "ars_creo.display_source.turret_target": "마법 포탑",
+  "ars_creo.display_source.source_count": "마나: %s",
+  "ars_creo.display_source.for_source_status": "마나 상태용",
+  "ars_creo.display_source.source_jar": "마나 양",
+  "ars_creo.display_source.turret": "주문",
+  "ars_creo.page1.ars_creo.display_link": "표시 연결은 마나 단지에 부착하여 단지의 마나 양을 표시하거나 마법 포탑에 부착하여 현재 주문을 디스플레이 화면에 표시할 수 있습니다.",
+  "ars_creo.page1.ars_creo.fluid_tank": "파이프와 탱크를 사용해 물약을 Create 유체 탱크에 저장하거나 다른 곳으로 옮길 수 있습니다.",
+  "ars_creo.display_link": "Ars Creo: 표시 연결",
+  "ars_creo.fluid_tank": "Ars Creo: 유체 탱크"
+}

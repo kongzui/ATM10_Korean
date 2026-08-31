@@ -13,18 +13,19 @@ from zipfile import ZipFile
 import ars_family
 import just_dire_things_family as language
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 WORK_ROOT = PROJECT_ROOT / "working/just_dire_things/guide"
 ENGLISH_ROOT = WORK_ROOT / "en_us"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/justdirethings/patchouli_books/justdirethingsbook/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/justdirethings/patchouli_books/justdirethingsbook/ko_kr"
 )
 BOOK_OUTPUT = (
-    PROJECT_ROOT
-    / "output/overrides/kubejs/data/justdirethings/patchouli_books/justdirethingsbook/book.json"
+    active_output_root()
+    / "overrides/kubejs/data/justdirethings/patchouli_books/justdirethingsbook/book.json"
 )
 CACHE_FILE = PROJECT_ROOT / "temp/just_dire_things_guide_candidate_cache.json"
 BOOK_PREFIX = "assets/justdirethings/patchouli_books/justdirethingsbook/en_us/"

@@ -1,0 +1,20 @@
+{
+  "name": "먹이 반블록",
+  "icon": "productivebees:feeder",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:feeder",
+      "text": "벌의 수분 대상을 한곳에 모아 둘 수 있으며 블록 아이템 3종을 보관합니다. 벌목 벌이나 채석 벌이 여기서 먹이를 먹으면 들어 있는 아이템 중 하나를 무작위로 생산합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "먹이 반블록에 꿀 유체를 채우면 벌이 발을 담그고 긴 하루의 작업에서 회복할 수 있습니다. 즉, 벌에게 재생 효과를 줍니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:items/upgrades#simulator)모의 처리 벌통$(/l)은 꽃 블록을 놓을 자리가 하나뿐이지만, 먹이 반블록을 사용하면 서로 다른 벌을 최대 3종까지 한 벌통에서 일하게 할 수 있습니다."
+    }
+  ]
+}

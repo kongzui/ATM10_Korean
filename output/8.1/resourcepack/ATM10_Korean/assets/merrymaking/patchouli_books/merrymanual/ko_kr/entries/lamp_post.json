@@ -1,0 +1,30 @@
+{
+  "name": "가로등",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:lamp_post",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/lamp.png"
+      ],
+      "text": "리본으로 장식한 가로등!"
+    },
+    {
+      "type": "spotlight",
+      "title": "가로등",
+      "item": "merrymaking:lamp_post",
+      "text": "가로등 블록 위에 같은 블록을 놓으면 위로 이어지며 장식에 맞게 방향을 바꿀 수 있어요. $(br)가로등 꼭대기에 횃불을 사용하면 불이 켜져요. $(br2)빈손으로 클릭하면 횃불을 빼고 가로등을 '끌' 수 있어요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "가로등 장식하기",
+      "text": "가로등 블록을 3블록 높이로 쌓으면 가는 기둥 부분에 리본이나 원하는 리스를 사용해 장식할 수 있어요. $(br2)기둥을 빈손으로 클릭하면 장식을 제거해요."
+    },
+    {
+      "type": "crafting",
+      "title": "가로등",
+      "recipe": "merrymaking:lamp_post"
+    }
+  ]
+}

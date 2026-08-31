@@ -1,0 +1,19 @@
+디스크 드라이브는 CraftOS에서 사용할 수 있는 주변 장치입니다. 주변 장치 API를 사용하여 주변 장치와 연결하는 방법을 알아보려면 "help peripheral"를 입력하세요. 디스크 드라이브가 연결된 경우, peripheral.getType()는 "drive"를 반환합니다.
+
+디스크 드라이브가 제공하는 메서드:
+isDiskPresent()
+getDiskLabel()
+setDiskLabel( label )
+hasData()
+getMountPath()
+hasAudio()
+getAudioTitle()
+playAudio()
+stopAudio()
+ejectDisk()
+getDiskID()
+
+디스크 드라이브에서 발생하는 이벤트:
+"disk" 디스크나 기타 항목이 드라이브에 삽입된 경우. 인수는 드라이브의 이름입니다.
+"disk_eject" 디스크가 드라이브에서 제거되는 경우. 인수는 드라이브의 이름입니다.
+이벤트 시스템에 대해 알아보려면 "help events"를 입력하세요.

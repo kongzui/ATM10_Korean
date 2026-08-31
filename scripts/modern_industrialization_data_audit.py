@@ -11,6 +11,7 @@ from zipfile import ZipFile
 
 from five_family_goal import PROJECT_ROOT, load_json
 from local_paths import resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -124,7 +125,7 @@ def audit() -> tuple[dict[str, object], list[str]]:
             reference_files.append(relative)
 
     visible_overrides = []
-    override_root = PROJECT_ROOT / "output/overrides/kubejs"
+    override_root = active_output_root() / "overrides/kubejs"
     for relative in (
         "startup_scripts/CustomAdditions.js",
         "startup_scripts/Modern-Industrialization/atm_stuff.js",

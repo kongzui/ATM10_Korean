@@ -13,12 +13,13 @@ from pathlib import Path
 from zipfile import ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/evilcraft"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
 INFO_KEY = re.compile(r"info_book\.[a-z0-9_.]+")
 QUALITY_REVIEW_COUNTS = {
     "language": {"reused": 521, "corrected": 136, "new": 0},
@@ -201,7 +202,7 @@ def expected_deployment_sources() -> dict[str, Path]:
     """EvilCraft 작업 단위에서 적용할 세 산출물만 반환한다."""
     return {
         "config/ftbquests/quests/lang/ko_kr.snbt": (
-            PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+            active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
         ),
         "resourcepacks/ATM10_Korean/assets/evilcraft/lang/ko_kr.json": (
             OUTPUT_ASSETS / "evilcraft/lang/ko_kr.json"

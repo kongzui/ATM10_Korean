@@ -1,0 +1,6 @@
+{
+  "name": "야생 벌",
+  "description": "야생 벌도 단독 벌처럼 세계 곳곳의 둥지에 살지만, 단독 벌과 달리 벌통으로 기꺼이 이사합니다. 주로 네더와 엔드에서 발견됩니다.",
+  "icon": "minecraft:lily_of_the_valley",
+  "parent": "productivebees:bees"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "인피니티 핵",
+  "icon": "industrialforegoing:infinity_nuke",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "인피니티 핵은 등급과 저장된 바이오연료 양에 따라 폭발 반경이 커지는 대량 파괴 도구입니다. 클레임된 청크의 블록은 파괴하지 않습니다.$(br2)땅에 놓고 우클릭해 무장한 뒤, 부싯돌과 부시로 우클릭하면 폭발합니다."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_nuke"
+    }
+  ]
+}

@@ -11,6 +11,7 @@ from pathlib import Path
 
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -749,7 +750,7 @@ def audit() -> tuple[dict[str, object], list[str]]:
         references.append(relative)
     source_tooltips = instance / "kubejs/client_scripts/tooltips.js"
     override_tooltips = (
-        PROJECT_ROOT / "output/overrides/kubejs/client_scripts/tooltips.js"
+        active_output_root() / "overrides/kubejs/client_scripts/tooltips.js"
     )
 
     def relevant_lines(path: Path) -> list[tuple[int, str]]:

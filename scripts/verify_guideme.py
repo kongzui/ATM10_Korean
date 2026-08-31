@@ -12,12 +12,13 @@ from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORKING = PROJECT_ROOT / "working/common_ui/guide_ui/guideme/ko_kr.json"
 OVERRIDES = PROJECT_ROOT / "working/common_ui/guide_ui/guideme/recheck_overrides.json"
 FALLBACKS = PROJECT_ROOT / "working/common_ui/guide_ui/guideme/display_fallbacks.json"
 OUTPUT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/guideme/lang/ko_kr.json"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/guideme/lang/ko_kr.json"
 )
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
@@ -192,7 +193,7 @@ def korean_ae2_guide_path(name: str) -> Path:
     parts = name.split("/")
     index = parts.index("ae2guide") + 1
     parts.insert(index, "_ko_kr")
-    return PROJECT_ROOT / "output/resourcepack/ATM10_Korean" / Path(*parts)
+    return active_output_root() / "resourcepack/ATM10_Korean" / Path(*parts)
 
 
 def related_files(root: Path) -> list[Path]:
@@ -447,7 +448,7 @@ def verify(instance: Path) -> dict[str, object]:
     project_collision_rows = []
     project_key_conflicts = []
     harmful_name_collisions = []
-    assets_root = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+    assets_root = active_output_root() / "resourcepack/ATM10_Korean/assets"
     for path in sorted(assets_root.glob("*/lang/ko_kr.json")):
         project_language_files += 1
         if path == OUTPUT:

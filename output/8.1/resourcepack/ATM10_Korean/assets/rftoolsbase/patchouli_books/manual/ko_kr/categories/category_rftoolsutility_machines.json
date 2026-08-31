@@ -1,0 +1,7 @@
+{
+  "name": "기계",
+  "description": "이 모드의 모든 기계",
+  "parent": "rftoolsbase:category_rftoolsutility",
+  "icon": "rftoolsutility:crafter3",
+  "sortnum": 30
+}

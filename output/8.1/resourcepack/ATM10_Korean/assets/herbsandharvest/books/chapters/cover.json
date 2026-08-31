@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "type": "cover",
+
+      "title": "herbsandharvest.book.cover.title",
+
+      "summary": "herbsandharvest.book.cover.subtitle",
+
+      "elements": [
+       {
+				  "type": "image",
+				  "image_path": "textures/gui/guide/chapters/herbs/herbs.png",
+				  "caption": "herbsandharvest.guide_book.chapters.herbs.herbs_caption",
+				  "image_width": 116,
+				  "image_height": 54
+
+				}
+      ]
+    }
+  ]
+}

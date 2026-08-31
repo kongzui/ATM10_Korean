@@ -1,0 +1,44 @@
+{
+  "name": "지붕 계단과 반 블록",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:roofs",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/stairs.png"
+      ],
+      "text": "눈이 쌓인 지붕 계단과 반 블록"
+    },
+    {
+      "type": "spotlight",
+      "title": "지붕 계단과 반 블록",
+      "item": "merrymaking:roof_acacia_stairs",
+      "text": "지붕 계단과 반 블록은 위에 눈이 쌓인 모습으로 바뀌는 특별한 블록이에요.$(br2)기본 게임의 모든 나무 색상과 석재 벽돌, 윤나는 흑암 벽돌, 심층암 벽돌 종류가 있어요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": " $(br2)지붕 계단과 지붕 반 블록은 조합대에서 기본 게임의 계단이나 반 블록을 지붕 타일과 조합해 만들어요.$(br2) 지붕 타일 레시피는 다음과 같아요:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:roof_tiles"
+    },
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:roof_jungle_stairs",
+      "recipe2": "merrymaking:roof_bamboo_slab"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "눈이 내리면 계단과 반 블록이 시간이 지나면서 눈 덮인 모습으로 자동으로 바뀌어요. $(br2)눈이 오지 않는 곳이라도 걱정하지 마세요. 눈덩이를 던져 맞히면 직접 바꿀 수 있어요."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/change.png"
+      ],
+      "text": "눈덩이로 바뀐 지붕 계단"
+    }
+  ]
+}

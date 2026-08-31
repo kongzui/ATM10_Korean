@@ -9,9 +9,10 @@ from pathlib import Path
 
 import build_ae2_quests as quests
 from local_paths import resolve_source_root
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_FILE = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_FILE = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 MODS = {
     "ae2": {
         "scope": "Applied Energistics 2 core related FTB Quests",

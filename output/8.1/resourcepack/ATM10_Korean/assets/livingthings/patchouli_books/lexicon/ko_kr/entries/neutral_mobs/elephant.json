@@ -1,0 +1,19 @@
+{
+  "name": "코끼리",
+  "icon": "livingthings:elephant_spawn_egg",
+  "category": "livingthings:neutral_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "공격하면 화를 내는 거대한 동물입니다!$(br2)$(bold)체력: $()30하트$(br)$(bold)공격 피해: $()3.5하트$(br2)$(bold)번식 아이템: $()$(li)밀(길들인 개체만)$(br2)사과로 길들일 수 있습니다. 길들인 코끼리에는 안장을 장착한 뒤 상자도 장착할 수 있습니다."
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:elephant",
+      "rotate": false,
+      "scale": 0.9,
+      "default_rotation": 45,
+      "text": "모든 $(bold)사바나$() 생물군계에서 찾을 수 있습니다."
+    }
+  ]
+}

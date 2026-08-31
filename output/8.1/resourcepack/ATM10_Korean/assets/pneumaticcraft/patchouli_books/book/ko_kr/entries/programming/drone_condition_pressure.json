@@ -1,0 +1,19 @@
+{
+  "name": "드론 조건: 압력 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_pressure_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다.$(p)$(thing)드론 조건: Pressure/$ 위젯을 사용하면 이 $(l:tools/drone)드론/$의 $(l:base_concepts/pressure)압력/$를 확인할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_pressure_piece.png"
+      ],
+      "text": "$(italic)드론 조건: 압력 위젯/$"
+    }
+  ]
+}

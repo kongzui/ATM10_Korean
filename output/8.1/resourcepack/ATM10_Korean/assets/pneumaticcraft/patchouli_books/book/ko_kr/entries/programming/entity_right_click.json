@@ -1,0 +1,19 @@
+{
+  "name": "개체 오른쪽 클릭 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/entity_right_click_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$는 지정된 $(l:programming/area)영역/$의 모든 개체에 대해 첫 번째 인벤토리 슬롯의 아이템을 $(thing)오른쪽 클릭/$합니다. 이것은 양, 젖소, 번식 동물 등을 깎는 데 사용될 수 있습니다! $(p)이 위젯에 연결된 모든 $(l:programming/area)영역/$ 위젯에는 $(thing)Box/$ 영역 유형이 있어야 합니다. 이것이 유일하게 지원되는 모양입니다. 하지만 영역의 화이트리스트/블랙리스트를 사용하여 다양한 모양을 만드는 것이 가능합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/entity_right_click_piece.png"
+      ],
+      "text": "$(italic)찌르기/$"
+    }
+  ]
+}

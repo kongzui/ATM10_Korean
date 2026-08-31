@@ -1,0 +1,21 @@
+{
+  "name": "슈팅마크",
+  "icon": "naturesaura:projectile_generator",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)발사체$()의 힘은 어떤 경우에는 생명체를 관통할 수 있을 만큼 강력하고 순간이동을 통해 이동시킬 수도 있습니다. 하지만 이 힘은 $(aura)를 생성하는 데에도 사용될 수 있습니다. $(item)슈팅마크$()는 발사된 발사체의 에너지를 $(aura)로 변환하여 환경으로 확산시킵니다."
+    },
+    {
+      "type": "text",
+      "text": "발사체의 종류마다 생성량이 다릅니다. 예를 들어 $(item)눈덩이$()는 $(item)엔더 진주$()보다 에너지가 훨씬 적습니다.$(p)단, 북쪽 면부터 시작해 네 면을 $(thing)순서대로$() 맞혀야 합니다. 현재 활성화되지 않은 면에 맞은 발사체는 $(aura)를 생성하지 않습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:projectile_generator",
+      "text": "$(item)슈팅마크$() 생성"
+    }
+  ]
+}

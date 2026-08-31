@@ -12,11 +12,12 @@ import zipfile
 from pathlib import Path, PurePosixPath
 
 from local_paths import resolve_source_root
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 WORKING_ROOT = PROJECT_ROOT / "working/ae2/ae2guide/_ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/ae2/ae2guide/_ko_kr"
+    active_output_root() / "resourcepack/ATM10_Korean/assets/ae2/ae2guide/_ko_kr"
 )
 PROGRESS_FILE = PROJECT_ROOT / "working/ae2/guide_progress.json"
 SOURCE_ROOT = PurePosixPath("assets/ae2/ae2guide")

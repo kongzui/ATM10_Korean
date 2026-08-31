@@ -1,0 +1,17 @@
+{
+  "name": "몹 포획기",
+  "icon": "industrialforegoing:mob_imprisonment_tool",
+  "category": "industrialforegoing:tools",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "MIB를 들고 개체를 $(6)우클릭$()하면 해당 개체를 MIB 안에 보관합니다.$(br2)MIB를 들고 땅을 $(6)우클릭$()하면 개체를 꺼냅니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_imprisonment_tool"
+    }
+  ]
+}

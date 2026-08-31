@@ -1,0 +1,17 @@
+{
+  "name": "동물 사료 자동 공급기",
+  "icon": "industrialforegoing:animal_feeder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 8,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "동물의 먹이를 공급하면 동물에게 $(6)먹이를 주어$() 번식시킵니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_feeder"
+    }
+  ]
+}

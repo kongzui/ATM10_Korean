@@ -1,0 +1,7 @@
+{
+  "name": "아포틱 몹",
+  "description": "Apotheosis는 월드에 등장하는 다양한 변종 몹을 추가합니다.$(p)이 장에서는 어떤 몹이 있으며 어디에서 발견할 수 있는지 설명합니다.",
+  "icon": "apotheosis:boss_summoner",
+  "flag": "apotheosis:adventure",
+  "parent": "apotheosis:adventure/adventure"
+}

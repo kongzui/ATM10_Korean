@@ -1,0 +1,8 @@
+{
+  "name": "Just Dire Things 가이드",
+  "landing_text": "Just Dire Things의 기계, 도구, 방어구, 구 확산을 설명합니다!",
+  "version": 1,
+  "creative_tab": "justdirethings:justdirethings",
+  "getCreatorModId": "justdirethings",
+  "use_resource_pack": "true"
+}

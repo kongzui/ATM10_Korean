@@ -1,0 +1,44 @@
+{
+  "name": "분해",
+  "icon": "apotheosis:salvaging_table",
+  "category": "apotheosis:adventure/affix_loot",
+  "flag": "apotheosis:adventure",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apotheosis:salvaging_table",
+      "text": "$(9)분해 작업대$()는 어픽스 아이템을 해당하는 $(9)희귀도 재료$()로 분해하는 데 사용합니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apotheosis:common_material",
+      "link_recipe": true,
+      "text": "정체를 알 수 없는 금속으로 이루어진 기묘한 모양의 조각입니다.$(p)일반 아이템을 분해하면 얻을 수 있습니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apotheosis:uncommon_material",
+      "link_recipe": true,
+      "text": "셀 수 없는 세월에 닳았지만 찢어진 곳 하나 없는 놀랍도록 질긴 원단입니다.$(p)고급 아이템을 분해하면 얻을 수 있습니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apotheosis:rare_material",
+      "link_recipe": true,
+      "text": "세상에서 가장 밝게 빛나는 수정의 조각입니다. 작은 파편에 불과하지만 강력한 마력이 담겨 있습니다.$(p)희귀 아이템을 분해하면 얻을 수 있습니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apotheosis:epic_material",
+      "link_recipe": true,
+      "text": "비전 마법이 모든 생명을 뒤틀어 놓는 마법 차원의 모래알입니다.$(p)영웅 아이템을 분해하면 이 형태로 환원됩니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apotheosis:mythic_material",
+      "link_recipe": true,
+      "text": "정제된 신성한 에너지가 담긴 진주입니다. 내부에 봉인된 막대한 힘 때문에 상당히 불안정합니다.$(p)이 비범한 물질은 신화 아이템을 분해해야만 얻을 수 있습니다."
+    }
+  ]
+}

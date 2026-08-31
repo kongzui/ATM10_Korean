@@ -1,0 +1,31 @@
+{
+  "name": "영역 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/area_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)영역/$ 위젯은 다른 위젯의 매개변수로만 사용하며, 해당 위젯이 작동할 영역(블록 하나일 수도 있음)을 지정합니다. 이 위젯을 사용하려면 $(l:tools/gps_tool)GPS 도구/$나 $(l:tools/gps_area_tool)GPS 영역 도구/$가 필요합니다.$(p)영역 위젯은 주로 다음 세 가지 방법으로 설정합니다:"
+    },
+    {
+      "type": "text",
+      "text": "1. $(l:programming/programmer)프로그래머/$ GUI에서 영역 위젯을 $(thing)우클릭/$해 설정 GUI를 여세요. 두 $(thing)GPS/$ 버튼을 눌러 인벤토리의 $(l:tools/gps_tool)GPS 도구/$를 선택하고 영역의 두 끝점을 지정한 뒤, 아래의 선택 버튼으로 $(thing)영역 형태/$와 관련 매개변수를 정합니다."
+    },
+    {
+      "type": "text",
+      "text": "2. 월드에서 $(l:tools/gps_tool)GPS 도구/$나 $(l:tools/gps_area_tool)GPS 영역 도구/$를 설정하세요. $(l:programming/programmer)프로그래머/$ GUI에서는 다음과 같이 사용할 수 있습니다:$(li)기존 $(thing)영역/$ 위젯에 $(item)GPS (영역) 도구/$를 들고 $(thing)좌클릭/$하여 도구 설정을 위젯에 복사$(li)빈 프로그래밍 영역에 $(item)GPS 도구/$를 들고 $(thing)좌클릭/$하여 새 $(l:programming/coordinate)좌표/$ 위젯 생성$(li)빈 프로그래밍 영역에 $(item)GPS 도구/$를 들고 $(thing)Shift+좌클릭/$하여 새 $(thing)영역/$ 위젯 생성$(li)빈 프로그래밍 영역에 $(item)GPS 영역 도구/$를 들고 $(thing)Shift+좌클릭/$하여 새 $(thing)영역/$ 위젯 생성"
+    },
+    {
+      "type": "text",
+      "text": "3. 고급 방법으로 $(l:programming/coordinate_operator)좌표 연산자/$ 위젯이 만든 $(thing)변수/$를 사용할 수 있습니다. 변수를 쓰려면 $(l:programming/programmer)프로그래머/$가 $(thing)고급/$ 모드여야 합니다. GPS 버튼 옆의 드롭다운에서 알려진 변수 이름을 고르면 그 변수의 위치를 해당 영역 모서리로 사용합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/area_piece.png"
+      ],
+      "text": "$(italic)영역 위젯/$"
+    }
+  ]
+}

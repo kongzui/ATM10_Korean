@@ -1,0 +1,17 @@
+{
+  "name": "유체 배치기",
+  "icon": "industrialforegoing:fluid_placer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "유체를 배치합니다.$(br2)내부 탱크의 유체를 앞에 배치하며 $(6)1000$()RF를 사용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_placer"
+    }
+  ]
+}

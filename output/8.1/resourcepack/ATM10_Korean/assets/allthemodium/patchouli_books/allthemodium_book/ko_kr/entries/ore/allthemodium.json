@@ -1,0 +1,15 @@
+{
+  "name": "Allthemodium 광석",
+  "icon": "allthemodium:allthemodium_ore",
+  "category": "allthemodium:ore",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "allthemodium:allthemodium_ore",
+      "title": "Allthemodium 광석",
+      "link_recipe": false,
+      "text": "Allthemodium 광석은 딥 다크 생물 군계의 동굴 벽과 천장에 생성됩니다. Y 170보다 높은 산 정상에서도 비교적 흔하게 찾을 수 있습니다. 채굴 차원에서는 Y -59~20 전역에 생성되며, 디 아더의 심층암 지층 동굴에서도 발견됩니다."
+    }
+  ]
+}

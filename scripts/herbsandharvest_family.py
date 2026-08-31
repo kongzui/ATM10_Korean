@@ -11,13 +11,14 @@ from pathlib import Path
 from zipfile import ZipFile
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 FAMILY = "herbsandharvest"
 MOD_ID = "herbsandharvest"
 JAR_PATTERN = "herbsandharvest-*.jar"
 EXPECTED_KEYS = 865
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
-OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/herbsandharvest"
+OUTPUT_ROOT = active_output_root() / "resourcepack/ATM10_Korean/assets/herbsandharvest"
 LANG_OUTPUT = OUTPUT_ROOT / "lang/ko_kr.json"
 BOOK_PREFIX = "assets/herbsandharvest/books/"
 VISIBLE_BOOK_FIELD = re.compile(

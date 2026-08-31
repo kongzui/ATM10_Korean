@@ -1,0 +1,7 @@
+{
+  "name": "스캐너 및 프로젝터",
+  "description": "모양을 스캔하고 구성하고 투영하기 위한 블록",
+  "parent": "rftoolsbase:category_rftoolsbuilder",
+  "icon": "rftoolsbuilder:scanner",
+  "sortnum": 40
+}

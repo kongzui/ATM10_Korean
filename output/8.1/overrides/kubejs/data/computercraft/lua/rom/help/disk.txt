@@ -1,0 +1,17 @@
+디스크 드라이브를 제어하는 disk API의 함수:
+disk.isPresent( drive )
+disk.setLabel( drive, label )
+disk.getLabel( drive )
+disk.hasData( drive )
+disk.getMountPath( drive )
+disk.hasAudio( drive )
+disk.getAudioTitle( drive )
+disk.playAudio( drive )
+disk.stopAudio( )
+disk.eject( drive )
+disk.getID( drive )
+
+disk API에서 발생하는 이벤트:
+"disk": 디스크나 다른 아이템을 드라이브에 넣을 때 발생합니다. 인수는 드라이브 이름입니다.
+"disk_eject": 드라이브에서 디스크를 꺼낼 때 발생합니다. 인수는 드라이브 이름입니다.
+이벤트 시스템에 대해 알아보려면 "help events"를 입력하세요.

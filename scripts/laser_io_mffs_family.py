@@ -16,6 +16,7 @@ import actually_additions_family as candidate_helper
 import ars_family
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 FAMILY = "laser_io_mffs"
@@ -37,15 +38,15 @@ TARGETS = {
         "jar_prefix": "laserio-",
         "book": "laseriobook",
         "source_prefix": "assets/laserio/patchouli_books/laseriobook/en_us/",
-        "output": PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/laserio/patchouli_books/laseriobook/ko_kr",
+        "output": active_output_root()
+        / "resourcepack/ATM10_Korean/assets/laserio/patchouli_books/laseriobook/ko_kr",
     },
     "mffs": {
         "jar_prefix": "mffs-",
         "book": "handbook",
         "source_prefix": "assets/mffs/patchouli_books/handbook/en_us/",
-        "output": PROJECT_ROOT
-        / "output/resourcepack/ATM10_Korean/assets/mffs/patchouli_books/handbook/ko_kr",
+        "output": active_output_root()
+        / "resourcepack/ATM10_Korean/assets/mffs/patchouli_books/handbook/ko_kr",
     },
 }
 

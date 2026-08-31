@@ -12,13 +12,16 @@ from zipfile import ZipFile
 
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/ars_nouveau"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 DISPLAY_KEYS = {"name", "title", "description", "text"}
 LATIN_WORD = re.compile(r"[A-Za-z]{3,}")
 TRANSLATION_KEY = re.compile(r"^[a-z0-9_.-]+(?:\.[a-z0-9_.-]+)+$")
@@ -87,8 +90,8 @@ def verify_patchouli(instance: Path) -> tuple[dict[str, object], list[str]]:
                 data = json.loads(archive.read(name).decode("utf-8-sig"))
                 values = nested_fields(data, DISPLAY_KEYS)
                 localized_path = (
-                    PROJECT_ROOT
-                    / "output/resourcepack/ATM10_Korean"
+                    active_output_root()
+                    / "resourcepack/ATM10_Korean"
                     / name.replace("/en_us/", "/ko_kr/")
                 )
                 localized_values = (

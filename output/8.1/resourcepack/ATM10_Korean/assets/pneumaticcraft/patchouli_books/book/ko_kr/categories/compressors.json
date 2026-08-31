@@ -1,0 +1,6 @@
+{
+  "name": "압축기",
+  "description": "압축기는 공기를 압축하여 $(l:base_concepts/pressure)압력/$를 발생시키는 기계입니다. 이들은 $(pncr)발전기입니다.",
+  "icon": "pneumaticcraft:air_compressor",
+  "sortnum": 1
+}

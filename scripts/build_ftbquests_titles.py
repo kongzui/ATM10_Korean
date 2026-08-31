@@ -13,9 +13,10 @@ import audit_ftbquests_titles as audit
 import build_ae2_quests as snbt
 import ftbquests_title_rules as title_rules
 from local_paths import resolve_source_root
+from version_context import active_output_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_LANG = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+OUTPUT_LANG = active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 MANUAL_OVERRIDES = PROJECT_ROOT / "working/ftbquests/title_overrides.json"
 PROGRESS_FILE = PROJECT_ROOT / "working/ftbquests/title_progress.json"
 TITLE_KEY_RE = re.compile(

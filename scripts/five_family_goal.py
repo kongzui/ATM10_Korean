@@ -17,11 +17,12 @@ from zipfile import ZipFile
 import audit_ftbquests_titles as quest_audit
 import build_ae2_quests as quest_snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
 LATIN_WORD = re.compile(r"[A-Za-z]{3,}")
@@ -820,9 +821,11 @@ QUEST_CHAPTERS = {
     "minecolonies": (),
 }
 
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 QUEST_CHAPTER_OUTPUT = (
-    PROJECT_ROOT / "output/overrides/config/ftbquests/quests/chapters"
+    active_output_root() / "overrides/config/ftbquests/quests/chapters"
 )
 
 QUEST_VALIDATION_TEXT_EQUIVALENTS = {
@@ -4749,10 +4752,10 @@ def verify_botany_recipe_data(instance: Path) -> tuple[dict[str, object], list[s
             kubejs_files.append(path.relative_to(instance).as_posix())
 
     announcements = (
-        PROJECT_ROOT
-        / "output/overrides/kubejs/server_scripts/announcements/announcements.js"
+        active_output_root()
+        / "overrides/kubejs/server_scripts/announcements/announcements.js"
     )
-    tooltip = PROJECT_ROOT / "output/overrides/kubejs/client_scripts/tooltips.js"
+    tooltip = active_output_root() / "overrides/kubejs/client_scripts/tooltips.js"
     expected_snippets = {
         announcements: "추가된 모드: The Aether, BotanyPots, BotanyTrees, RefinedTypes",
         tooltip: "식물 화분에서 수확하려면 섬세한 손길이 부여된 괭이가 필요합니다",

@@ -1,0 +1,22 @@
+{
+  "name": "단열재",
+  "icon": "pneumaticcraft:thermal_lagging",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:base_concepts/heat)열/$을 사용하는 $(pncr)기계는 공기에 노출되면 열을 잃습니다. 공기가 아니며 열을 전달하지 않는 블록이면 거의 무엇으로든 덮을 수 있지만, $(thing)단열재/$는 기계를 단열하는 데 특히 적합합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:thermal_lagging",
+      "text": "$(thing)단열재/$는 없는 것처럼 $(italic)통과해서 클릭/$하여 뒤쪽 블록과 상호작용할 수 있습니다.$(p)다만 $(item)곡괭이/$나 $(item)렌치/$를 들고 있거나 $(thing)웅크린/$ 상태라면 단열재 자체를 대상으로 삼아 제거하거나 상호작용할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "단열재 제작",
+      "recipe": "pneumaticcraft:thermal_lagging"
+    }
+  ]
+}

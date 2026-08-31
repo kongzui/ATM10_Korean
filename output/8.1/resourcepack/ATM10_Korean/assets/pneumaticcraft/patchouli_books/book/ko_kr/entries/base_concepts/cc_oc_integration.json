@@ -1,0 +1,103 @@
+{
+  "name": "컴퓨터 통합",
+  "icon": "pneumaticcraft:textures/patchouli/computer.png",
+  "category": "pneumaticcraft:base_concepts",
+  "flag": "|mod:computercraft,mod:opencomputers",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)ComputerCraft/$나 $(thing)Open Computers/$가 설치되어 있으면 거의 모든 $(pncr)기계와 $(l:machines/drone_interface)드론/$을 제어할 수 있습니다.$(p)이 페이지에 나오는 기계는 모두 CC/OC 주변 장치로 연결할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "ComputerCraft",
+      "text": "Lua에서는 $(thing)m = peripheral.wrap(<side>)/$를 실행할 수 있습니다. 여기서 $(thing)<side>/$는 주변 장치가 연결된 컴퓨터의 측면(위, 아래, 왼쪽, 오른쪽, 뒤, 앞)입니다. 그런 다음 $(thing)m.<functionName>/$에서 다음 함수를 사용할 수 있습니다. $(p)다음 함수에서 '<side>'가 인수의 1로 나타나는 곳에서는 'up', 'down', 'north', 'south', 'east', 'west'가 유효합니다.",
+      "flag": "mod:computercraft"
+    },
+    {
+      "type": "text",
+      "title": "Open Computers",
+      "text": "컴퓨터와 $(pnc)기계는 $(item)어댑터/$로 연결해야 합니다. 그러면 OC 부품으로 인식되며 OC Lua 환경에서 $(thing)=components.list()/$를 실행해 확인할 수 있습니다. 이후 다음 함수를 사용할 수 있습니다. 예를 들어 $(thing)p = components.air_compressor.getPressure()/$는 연결된 $(item)공기 압축기/$의 현재 압력을 가져옵니다.",
+      "flag": "mod:opencomputers"
+    },
+    {
+      "type": "text",
+      "title": "일반적인 방법",
+      "text": "다음 메서드는 $(italic)모든/$ $(pncr)기계에 공통입니다:$(li)$(#800)getPressure(), getPressure(<side>)/$: 기계의 압력을 가져옵니다. <side>는 선택 사항이며, 면마다 압력이 다른 $(l:machines/vacuum_pump)진공 펌프/$에서만 필요합니다.$(li)$(#800)getDangerPressure()/$: 기계가 폭발할 위험이 생기는 압력을 가져옵니다.$(li)$(#800)getCriticalPressure()/$: 기계가 반드시 폭발하는 절대 최대 압력을 가져옵니다."
+    },
+    {
+      "type": "text",
+      "title": "열 관련 방법",
+      "text": "다음 메서드는 $(l:base_concepts/heat)열/$을 지원하는 $(italic)모든/$ $(pncr)기계에 공통입니다:$(li)$(#800)getTemperature(), getTemperature(<side>)/$: 기계의 온도를 가져옵니다. <side>는 선택 사항이며 면마다 온도가 다른 $(l:machines/vortex_tube)볼텍스 튜브/$에서만 필요합니다."
+    },
+    {
+      "type": "spotlight",
+      "anchor": "air_cannon",
+      "item": "pneumaticcraft:air_cannon",
+      "text": "$(li)$(#800)setExternalControl(<true/false>)/$: true이면 GPS 도구 삽입이나 범위 업그레이드 변경 같은 일반적인 방법으로 대포가 회전하지 못하게 합니다.$(li)$(#800)setTargetLocation(<x>,<y>,<z>)/$: GPS 도구에 저장한 위치 대신 지정한 좌표를 향하도록 대포를 조준합니다."
+    },
+    {
+      "type": "text",
+      "title": "에어 캐논 (계속)",
+      "text": "$(li)$(#800)setRotationAngle(<angle>)/$: 대포의 요를 지정된 각도로 회전시킵니다. $(li)$(#800)setHeightAngle(<angle>)/$: 대포 피치를 지정된 각도로 회전합니다. $(li)$(#800)isDoneRotating()/$: 대포 회전이 완료되면 true를 반환합니다. $(li)$(#800)getMinWorkingPressure()/$: 대포를 발사하는 데 필요한 최소 압력을 반환합니다. (GUI 노란색에서 녹색 임계값)"
+    },
+    {
+      "type": "text",
+      "title": "에어 캐논 (계속)",
+      "text": "$(li)$(#800)fire()/$: 충분한 압력이 있고 아이템이 삽입되어 있을 때 대포를 발사합니다. 성공하면 true를 반환합니다."
+    },
+    {
+      "type": "spotlight",
+      "anchor": "elevator",
+      "item": "pneumaticcraft:elevator_base",
+      "title": "엘리베이터",
+      "text": "$(li)$(#800)setExternalControl(<true/false>)/$: true인 경우 엘리베이터의 $(#f00)레드스톤 모드/$를 \"엘리베이터 호출\" 이것은 컴퓨터 제어에도 적용됩니다. $(#800)setTargetHeight()/$를 호출하기 전에 설정할 필요가 없습니다. 이 메소드는 엘리베이터를 외부 제어로 자동으로 변경합니다."
+    },
+    {
+      "type": "text",
+      "title": "엘리베이터 (계속)",
+      "text": "$(li)$(#800)getMinWorkingPressure()/$: 엘리베이터를 늘리는 데 필요한 최소 압력을 가져옵니다. 엘리베이터를 내리는 것은 자유입니다. $(li)$(#800)setTargetHeight(<height>)/$: 엘리베이터의 목표 높이를 해석된 높이로 설정합니다. (미터/블록 단위, 부동 소수점) $(li)$(#800)getTargetHeight()/$: 엘리베이터의 목표 높이를 가져옵니다. (미터/블록 단위, 부동 소수점) $(li)$(#800)getCurrentHeight()/$: 엘리베이터의 현재 높이를 가져옵니다. (미터/블록 단위, 부동 소수점)"
+    },
+    {
+      "type": "text",
+      "title": "엘리베이터 (계속)",
+      "text": "$(li)$(#800)getVelocity()/$: 엘리베이터의 현재 속도를 틱당 블록 수로 가져옵니다. (1 초는 20 틱입니다). 음수 값은 엘리베이터가 내려가고 있음을 나타냅니다."
+    },
+    {
+      "type": "spotlight",
+      "anchor": "universal_sensor",
+      "item": "pneumaticcraft:universal_sensor",
+      "text": "$(li)$(#800)getSensorNames()/$: 모든 알려진 센서 이름의 테이블을 반환합니다. $(li)$(#800)getSensor()/$: 현재 선택된 센서의 이름을 반환합니다."
+    },
+    {
+      "type": "text",
+      "title": "범용 센서 (계속)",
+      "text": "$(li)$(#800)setSensor(<sensorName>), setSensor(<index>), setSensor()/$: 현재 센서를 선택합니다. <sensorName>은 $(#800)getSensorNames()/$가 반환한 이름 중 하나이고, <index>는 $(#800)getSensorNames()/$가 반환한 테이블의 인덱스입니다. 인수 없이 $(#800)setSensor()/$를 호출하면 센서를 선택하지 않아 기계가 대기 상태로 들어가고 공기를 사용하지 않습니다. 현재 설치된 업그레이드로 해당 센서를 사용할 수 있으면 true를 반환합니다. "
+    },
+    {
+      "type": "text",
+      "title": "범용 센서 (계속)",
+      "text": "$(li)$(#800)setTextField(<text>)/$: 일부 센서는 텍스트 필드를 사용하여 추가 옵션을 지정합니다. (예를 들어, \"범위 내의 개체\"센서는 $(l:base_concepts/entity_filter)개체 필터 문자열/$를 허용합니다.) 여기서 필요한 텍스트를 지정할 수 있습니다. $(li)$(#800)getTextField()/$: 현재 $(thing)범용 센서/$에 저장된 텍스트를 반환합니다."
+    },
+    {
+      "type": "text",
+      "title": "범용 센서 (계속)",
+      "text": "$(li)$(#800)isSensorEventBased()/$: 센서에는 이벤트 기반 및 폴링 센서의 2 범주가 있습니다. 이벤트 기반 센서는 무언가가 일어날 때까지 기다립니다. (플레이어 공격, 아이템 픽업) 폴링 센서는 센서 상태를 정기적으로 확인합니다. (범위 내의 개체, 월드 시간, 강우량 센서) 이 함수는 현재 선택된 센서가 이벤트 기반인 경우 true를 반환합니다."
+    },
+    {
+      "type": "text",
+      "title": "범용 센서 (계속)",
+      "text": "$(li)$(#800)getSensorValue()/$: 현재 센서가 폴링 센서인 경우 출력되는(반전되지 않은) 레드스톤 신호를 반환합니다. 많은 폴링 센서는 성능상의 이유로 자주 폴링하지 않으므로 센서를 설정하고 즉시 출력을 얻는 것은 신뢰할 수 없습니다. 따라서 이 메서드는 끌어오기 이벤트를 트리거하고 그에 따라 출력을 가져옵니다. 폴링 센서가 선택되지 않은 경우 예외가 발생합니다."
+    },
+    {
+      "type": "text",
+      "title": "범용 센서 (계속)",
+      "text": "$(li)$(#800)getMinWorkingPressure()/$: 범용 센서를 작동하는 데 필요한 최소 압력(GUI의 노란색에서 녹색으로의 임계값)을 반환합니다. $(li)$(#800)setGPSToolCoordinate(<slotIndex>,<x>,<y>,<z>)/$: 지정된 슬롯(1에서 시작)에 있는 GPS 도구에 저장된 위치를 지정된 위치로 설정합니다. 이것은 위치를 사용하는 센서에 유용합니다."
+    },
+    {
+      "type": "text",
+      "title": "범용 센서 (계속)",
+      "text": "이벤트 기반 센서(예: 플레이어의 마우스 오른쪽 버튼 클릭 센서)의 경우 센서 값 검색은 이벤트 기반입니다. 이벤트를 가져오려면 $(#800)<arguments> = os.pullEvent(\"universalSensor\")/$를 실행합니다. 일반적으로 인수는 <eventName, redstoneStrength>로 구성됩니다. 플레이어의 오른쪽 클릭 센서는 예외로 <eventName, redstoneStrength, interactedX, interactedY, interactedZ>가 반환됩니다. 이렇게하면 흥미로운 사용이 가능합니다..."
+    }
+  ]
+}

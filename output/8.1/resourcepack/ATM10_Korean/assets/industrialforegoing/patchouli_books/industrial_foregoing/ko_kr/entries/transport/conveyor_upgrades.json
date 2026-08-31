@@ -1,0 +1,51 @@
+{
+  "name": "컨베이어 업그레이드",
+  "icon": "industrialforegoing:conveyor_extraction_upgrade",
+  "category": "industrialforegoing:transport",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_extraction_upgrade",
+      "title": "추출",
+      "text": "인벤토리에서 아이템과 유체를 추출하며, 플레이어 인벤토리에서도 아이템을 꺼낼 수 있습니다.$(br2)추출할 아이템과 유체는 GUI에서 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_insertion_upgrade",
+      "title": "삽입",
+      "text": "인벤토리에 아이템과 유체를 넣습니다. 컨베이어에 닿은 아이템을 넣는 모드와 업그레이드에 직접 닿은 아이템만 넣는 모드가 있습니다.$(br2)삽입할 아이템과 유체는 GUI에서 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_detection_upgrade",
+      "title": "감지",
+      "text": "컨베이어 위의 아이템과 개체를 감지합니다.$(br2)감지할 아이템과 개체는 GUI에서 필터링할 수 있습니다. 개체가 든 MIB로 대상 개체를 지정할 수도 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_bouncing_upgrade",
+      "title": "튕김",
+      "text": "컨베이어 위의 아이템과 개체를 공중으로 발사합니다. GUI에서 수직·수평 세기를 바꿀 수 있습니다.$(br2)발사할 아이템과 개체는 GUI에서 필터링할 수 있습니다. 개체가 든 MIB로 대상 개체를 지정할 수도 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_dropping_upgrade",
+      "title": "낙하",
+      "text": "컨베이어 위의 아이템과 개체를 바로 아래로 떨어뜨립니다.$(br2)떨어뜨릴 아이템과 개체는 GUI에서 필터링할 수 있습니다. 개체가 든 MIB로 대상 개체를 지정할 수도 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_blinking_upgrade",
+      "title": "순간이동",
+      "text": "컨베이어 위의 아이템과 개체를 순간이동시킵니다. GUI에서 수직·수평 거리를 바꿀 수 있습니다.$(br2)순간이동시킬 아이템과 개체는 GUI에서 필터링할 수 있습니다. 개체가 든 MIB로 대상 개체를 지정할 수도 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_splitting_upgrade",
+      "title": "분배",
+      "text": "컨베이어 위의 아이템과 개체를 GUI에서 설정한 비율로 나눕니다. 분배할 모든 면에 업그레이드를 장착해야 합니다."
+    }
+  ]
+}

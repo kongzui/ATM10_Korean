@@ -1,0 +1,17 @@
+{
+  "name": "제련",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_smelter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "제련 업그레이드를 도구에 적용하면 채굴한 광석에서 제련된 결과물을 바로 얻습니다.$(br2)사용할 때 내구도를 조금 소비합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "제련 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_smelter"
+    }
+  ]
+}

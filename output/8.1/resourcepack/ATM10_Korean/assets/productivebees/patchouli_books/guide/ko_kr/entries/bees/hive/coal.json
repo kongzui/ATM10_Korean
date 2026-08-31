@@ -1,0 +1,18 @@
+{
+  "name": "석탄 벌",
+  "icon": "minecraft:coal",
+  "read_by_default": true,
+  "category": "productivebees:bees_hive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "석탄 벌",
+      "text": "$(l:bees/hive/redstone)BlazBee$(/l)와 $(l:bees/solitary/leafcutter)가위벌$(/l)을 교배해 얻습니다.",
+      "anchor": "coal"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:coal'}"
+    }
+  ]
+}

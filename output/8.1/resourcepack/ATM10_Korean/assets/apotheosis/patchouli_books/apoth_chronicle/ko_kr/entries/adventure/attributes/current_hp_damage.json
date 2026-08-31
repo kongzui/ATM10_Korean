@@ -1,0 +1,13 @@
+{
+  "name": "현재 체력 피해",
+  "icon": "minecraft:dragon_head",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)현재 체력 피해$()는 적중 시 피해의 한 종류입니다. 공격이 적중할 때마다 대상의 현재 체력에 비례한 추가 물리 피해를 줍니다.$(p)이 능력치는 무거운 무기에만 붙습니다."
+    }
+  ]
+}

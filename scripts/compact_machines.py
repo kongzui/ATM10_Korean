@@ -12,6 +12,7 @@ from zipfile import ZipFile
 
 from five_family_goal import PROJECT_ROOT, load_json, validate_value
 from local_paths import resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -19,8 +20,8 @@ if hasattr(sys.stdout, "reconfigure"):
 WORK_ROOT = PROJECT_ROOT / "working/compact_machines"
 LANG_ROOT = WORK_ROOT / "compactmachines"
 LANG_OUTPUT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/compactmachines/lang/ko_kr.json"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/compactmachines/lang/ko_kr.json"
 )
 
 TRANSLATIONS = {
@@ -221,7 +222,7 @@ def audit_data() -> tuple[dict[str, object], list[str]]:
     if room_template_visible:
         errors.append("표시 문구가 있는 방 템플릿이 남음")
     for relative, snippets in KUBEJS_OUTPUTS.items():
-        output = PROJECT_ROOT / "output/overrides/kubejs" / relative
+        output = active_output_root() / "overrides/kubejs" / relative
         if not output.is_file():
             errors.append(f"KubeJS 번역 출력 누락: {relative}")
             continue

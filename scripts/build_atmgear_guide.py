@@ -12,16 +12,17 @@ from zipfile import ZipFile
 from atmgear_catalog import TARGETS
 from local_paths import PROJECT_ROOT, resolve_source_root
 from prepare_atmgear import find_jar
+from version_context import active_output_root
 
 SOURCE_PREFIX = "assets/allthemodium/patchouli_books/allthemodium_book/en_us/"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr"
 )
 BOOK_SOURCE = "data/allthemodium/patchouli_books/allthemodium_book/book.json"
 BOOK_OUTPUT = (
-    PROJECT_ROOT
-    / "output/overrides/kubejs/data/allthemodium/patchouli_books/allthemodium_book/book.json"
+    active_output_root()
+    / "overrides/kubejs/data/allthemodium/patchouli_books/allthemodium_book/book.json"
 )
 REPORT_FILE = PROJECT_ROOT / "working/atmgear/guide_validation.json"
 PATCHOULI_TAG = re.compile(r"\$\([^)]*\)")

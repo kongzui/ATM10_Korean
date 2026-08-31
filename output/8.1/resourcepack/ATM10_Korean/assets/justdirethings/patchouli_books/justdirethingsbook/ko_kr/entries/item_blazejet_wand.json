@@ -1,0 +1,21 @@
+{
+  "name": "블레이즈젯 지팡이",
+  "sortnum": 5,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:blazejet_wand",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "블레이즈젯 지팡이는 이동에 유용하며 공기 폭발 능력이 내장되어 있습니다.$(br2)우클릭으로 능력을 발동하면 바라보는 방향으로 날아갑니다. 발동 방식은 도구 설정 화면에서 바꿀 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "지팡이 티어가 높을수록 더 멀리 날아가며 도구 설정 화면의 슬라이더로 거리를 조정할 수 있습니다.$(br2)이 지팡이를 손에 들고 있는 동안에는 낙하 피해를 받지 않습니다. 반드시 손에 들고 있어야 합니다!$(br2)용암 수리 능력이 있으므로 용암 원천 블록에 떨어뜨리면 수리됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "블레이즈젯 지팡이 제작",
+      "recipe": "justdirethings:blazejet_wand"
+    }
+  ]
+}

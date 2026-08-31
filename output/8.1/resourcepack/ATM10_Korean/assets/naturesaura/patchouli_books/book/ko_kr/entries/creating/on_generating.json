@@ -1,0 +1,17 @@
+{
+  "name": "오라 생성에 대하여",
+  "icon": "naturesaura:gold_leaf",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:wood_stand",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)만들기$() $(aura)는 이를 사용하는 모든 마법 식물학자에게 빠르게 요구되는 방법입니다. 문제를 시작하기 전에 $(aura)를 생성하는 것이 유일한 목적인 $(thing)장치$()가 여러 개 있다는 점에 유의해야 합니다. 이 중 대부분은 독자가 나중에 발견할 수 있습니다. 기본적으로 이러한 장치의 대부분에는 $(l:items/eye)환경의 눈$() 범위를 넘어서 $(aura)를 생성하는 $(thing)창조적인 힘$()가 없습니다."
+    },
+    {
+      "type": "text",
+      "text": "해당 영역에 가까운 양의 $(aura)가 도달하면 이러한 생성 장치는 다른 방식으로 작동합니다. 일부는 완전히 꺼지고 다른 일부는 프로세스에서 $(aura)를 생성하지 않고 동작을 계속합니다. 이런 일이 발생하면 $(thing)붉은 불꽃$()가 방출되는지 확인하세요. 물론 $(l:devices/aura_detector)오라 감지기$() 또는 유사한 도구를 사용하여 수동으로 중지할 수 있습니다. $(p)나중에 $(l:creating/generator_limit_remover)생성 촉매$()를 사용하여 이 동작을 변경할 수 있습니다."
+    }
+  ]
+}

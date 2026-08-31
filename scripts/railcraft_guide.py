@@ -13,18 +13,19 @@ from zipfile import ZipFile
 
 import actually_additions_family as candidate_helper
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 WORK_ROOT = PROJECT_ROOT / "working/railcraft_reborn/guide"
 ENGLISH_ROOT = WORK_ROOT / "en_us"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/railcraft/patchouli_books/guide_book/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/railcraft/patchouli_books/guide_book/ko_kr"
 )
 BOOK_OUTPUT = (
-    PROJECT_ROOT
-    / "output/overrides/kubejs/data/railcraft/patchouli_books/guide_book/book.json"
+    active_output_root()
+    / "overrides/kubejs/data/railcraft/patchouli_books/guide_book/book.json"
 )
 CACHE_FILE = PROJECT_ROOT / "temp/railcraft_reborn_guide_candidate_cache.json"
 CANDIDATE_FILE = WORK_ROOT / "auto_candidates.json"

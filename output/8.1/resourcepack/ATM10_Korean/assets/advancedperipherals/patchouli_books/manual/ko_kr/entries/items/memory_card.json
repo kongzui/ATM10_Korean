@@ -1,0 +1,15 @@
+{
+  "name": "메모리 카드",
+  "icon": "advancedperipherals:memory_card",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(9)$(l:items/ar_goggles)AR 고글$(/l)$()은 $(9)$(l:peripherals/inventory_manager)인벤토리 관리자$(/l)$()와 함께 사용해 플레이어 인벤토리와 통신합니다.$(p)메모리 카드를 든 채 우클릭해 자신의 카드로 등록하세요.$(p)자세한 내용은 $(9)$(l:https://docs.advanced-peripherals.de/items/ar_goggles/)공식 위키 문서$(/l)$()를 참고하세요!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:memory_card"
+    }
+  ]
+}

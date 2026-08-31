@@ -1,0 +1,16 @@
+{
+  "name": "게 껍데기",
+  "icon": "livingthings:crab_shell",
+  "category": "livingthings:item_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br)$(bold)획득:$()$(br)게가 떨어뜨릴 수 있습니다"
+    },
+    {
+      "type": "spotlight",
+      "item": "livingthings:crab_shell",
+      "text": "$(br)$(bold)용도:$()$(li)알려진 용도가 없습니다"
+    }
+  ]
+}

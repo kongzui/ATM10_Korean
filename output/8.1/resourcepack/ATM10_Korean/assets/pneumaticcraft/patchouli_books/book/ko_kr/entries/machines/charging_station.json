@@ -1,0 +1,60 @@
+{
+  "name": "충전소",
+  "icon": "pneumaticcraft:charging_station",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)충전 스테이션/$는 $(l:base_concepts/pressure)공압 아이템/$를 충전(또는 방출)할 수 있는 머신입니다. $(item)충전 스테이션/$와 공압 아이템 간의 상호작용은 튜브/기계 간의 상호작용과 동일합니다. 즉, 압력 차이는 균등화됩니다. 즉, 아이템을 완전히 채우려면 충분히 가압된 $(item)충전 스테이션/$가 필요합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:charging_station",
+      "text": "대부분의 충전 아이템의 최대 압력은 10 바입니다. 그러나 폭발에 대한 걱정은 없습니다. 아이템은 과충전으로 폭발하지 않으며 10 바를 초과하면 충전이 중지됩니다. $(p)$(thing)충전 패드/$는 $(l:tools/camo_applicator)위장 도포기/$로 가장할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "충전 패드",
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 삽입하여 $(item)충전 스테이션/$를 $(thing)충전 패드/$로 바꿀 수 있습니다. $(li)충전소 위에 있는 바닥에 있는 아이템$(li)충전소 위에 서 있는 플레이어가 들고 있는 아이템$(li)충전소 바로 위에 있는 모든 유형의 $(l:tools/drone)드론/$"
+    },
+    {
+      "type": "text",
+      "title": "업그레이드 관리",
+      "text": "$(item)충전 스테이션/$는 $(l:base_concepts/upgrades)업그레이드/$를 수락하는 아이템의 관리 시스템으로도 작동합니다. 아이템을 업그레이드하려면 평소대로 $(item)충전 스테이션/$에 아이템을 배치하고 아이템 슬롯 위에 있는 $(thing)위쪽 화살표/$ 버튼을 클릭합니다. 그러면 업그레이드를 삽입할 수 있는 새 GUI가 열립니다. 문제 아이템에 적용 가능한 모든 업그레이드는 GUI의 사이드 탭에 문서화되어 있습니다."
+    },
+    {
+      "type": "relations",
+      "title": "충전 가능한 아이템",
+      "entries": [
+        "pneumaticcraft:components/air_canister",
+        "pneumaticcraft:tools/pneumatic_wrench",
+        "pneumaticcraft:logistics/logistics_configurator",
+        "pneumaticcraft:tools/camo_applicator",
+        "pneumaticcraft:tools/vortex_cannon",
+        "pneumaticcraft:tools/minigun",
+        "pneumaticcraft:tools/manometer",
+        "pneumaticcraft:armor/pneumatic_helmet",
+        "pneumaticcraft:armor/pneumatic_chestplate",
+        "pneumaticcraft:armor/pneumatic_leggings",
+        "pneumaticcraft:armor/pneumatic_boots"
+      ]
+    },
+    {
+      "type": "relations",
+      "title": "충전 가능한 아이템 (계속)",
+      "entries": [
+        "pneumaticcraft:tools/drone",
+        "pneumaticcraft:tools/collector_drone",
+        "pneumaticcraft:tools/guard_drone",
+        "pneumaticcraft:tools/harvesting_drone",
+        "pneumaticcraft:logistics/logistics_drone"
+      ]
+    },
+    {
+      "type": "crafting",
+      "text": "충전소 제작",
+      "recipe": "pneumaticcraft:charging_station"
+    }
+  ]
+}

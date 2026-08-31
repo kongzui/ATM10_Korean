@@ -1,0 +1,21 @@
+{
+  "name": "엔더하이츠의 사신",
+  "icon": "naturesaura:chorus_generator",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:aura_bottle_end",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)끝$()의 강력한 드래곤이 패배하면, 그 은신처 주변의 수많은 황량한 섬을 통해 모험을 시작할 수 있습니다. 그렇게 하는 동안 $(thing)합창$() 식물, 즉 하늘 높이 솟아오르는 꽃을 발견할 수 있습니다. 이런 종류의 꽃에는 주변의 엔더 공기에서 수집된 상당한 양의 $(aura)가 포함되어 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(item)엔더하이츠의 사신$()를 통해 이 에너지를 추출할 수 있습니다. 우선, $(thing)코러스 꽃$()는 그것으로부터 최대 두 블록 떨어진 곳에서 자라야 합니다. 충분히 높이 성장한 후 $(item)엔더하이츠의 사신$()에 $(thing)레드스톤 신호$()를 공급하면 전체 식물 수확이 시작되어 공정에서 $(aura)가 분산됩니다. $(br)수확하기 전에 식물이 더 높고 넓어질수록 더 많은 $(aura)가 생성됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:chorus_generator",
+      "text": "$(item)엔더하이츠의 사신$() 생성"
+    }
+  ]
+}

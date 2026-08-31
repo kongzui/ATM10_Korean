@@ -1,0 +1,5 @@
+도움말 API의 함수:
+help.setPath( path )
+help.lookup( topic )
+help.topics()
+help.completeTopic( topic )

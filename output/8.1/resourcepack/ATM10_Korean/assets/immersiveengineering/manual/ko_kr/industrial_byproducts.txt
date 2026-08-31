@@ -1,0 +1,15 @@
+산업 부산물
+골칫덩이의 악몽
+<&sulfur>§l황 가루§r는 <link;mineral_deposits;광물 매장지>에서 흔히 발견되는 가루입니다.<br>
+<link;crusher;분쇄> 과정에서 §2청금석 광석§r이나 §2석탄 광석§r으로부터 가끔 나오며, §2네더 석영 광석§r과 §2블레이즈 막대§r에서는 더 흔히 나옵니다.<br>
+화약이나 <link;industrial_byproducts;산업용 비료;fertilizer>를 만드는 데 가장 유용합니다.<np>
+<&nitrate>§l질산염 가루§r(초석이라고도 합니다)는 <link;crusher;분쇄기>에서 §2사암§r을 처리하여 얻는 알칼리 염 혼합물입니다.<br>
+황처럼 <link;industrial_byproducts;산업용 비료;fertilizer>에 사용할 수 있습니다. <link;industrial_fluids;바이오디젤> 생산을 촉진하는 촉매로도 쓰입니다.<np>
+<&slag>§l슬래그§r는 <link;crude_blast_furnace;강철 생산> 과정에서 흔히 생기는 금속 산화물과 황화물의 혼합물입니다.<br>
+<link;concrete;콘크리트>를 비롯한 건축 블록과 <link;industrial_byproducts;산업용 비료;fertilizer>를 만드는 데 쓸 수 있습니다.<np>
+<&fertilizer>
+황, 슬래그, 질산염은 각각 <link;garden_cloche;원예용 온실>에서 작물 성장을 조금 촉진하지만 작물에 직접 쓸 수는 없습니다.<br>
+위 3가지 영양분에 물을 더해 잘 섞으면 §2산업용 비료§r가 되며, 원예용 온실의 성장 속도를 크게 높입니다.
+<&gunpowder>
+질산염, 황, 숯을 섞으면 화약이 됩니다. 몬스터에게서 약탈하는 것보다 훨씬 산업적이고 안정적인 생산 방식입니다.<br>
+화약을 사용하면 <link;revolver_cartridges;탄약>과 <link;gunpowder_barrels;폭발물>을 빠르고 저렴하게 만들 수 있습니다.

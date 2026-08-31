@@ -1,0 +1,17 @@
+{
+  "name": "밥솥",
+  "icon": "sushigocrafting:rice_cooker",
+  "category": "sushigocrafting:using_tools",
+  "sortnum": 2,
+  "read_by_default": false,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)Uncle Roger$()의 기준에 맞게 밥을 완벽히 짓는 기계입니다. 쌀과 물, 연료를 넣어 밥을 지으세요. $(br2)출력 칸의 무게는 걱정하지 않아도 됩니다. 익힌 쌀은 자동으로 합쳐집니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "sushigocrafting:rice_cooker"
+    }
+  ]
+}

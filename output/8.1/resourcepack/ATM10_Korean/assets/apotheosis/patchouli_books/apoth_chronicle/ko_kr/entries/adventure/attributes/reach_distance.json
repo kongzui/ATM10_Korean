@@ -1,0 +1,13 @@
+{
+  "name": "도달 거리",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)도달 거리$()는 물체에 손이 닿는 최대 거리입니다. 손이 닿는 물체와 상호작용할 수 있으며, 블록이라면 부술 수도 있습니다.$(p)무기에는 쓸모가 없으므로 보통 블록을 부수는 도구에 붙습니다."
+    }
+  ]
+}

@@ -15,17 +15,20 @@ from zipfile import ZipFile
 
 import build_ae2_quests as quest_snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 FAMILY = "mob_expansion"
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
-RESOURCEPACK_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean"
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+RESOURCEPACK_ROOT = active_output_root() / "resourcepack/ATM10_Korean"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 BOOK_OUTPUT = (
-    PROJECT_ROOT
-    / "output/overrides/kubejs/data/livingthings/patchouli_books/lexicon/book.json"
+    active_output_root()
+    / "overrides/kubejs/data/livingthings/patchouli_books/lexicon/book.json"
 )
 GUIDE_SOURCE_ROOT = "assets/livingthings/patchouli_books/lexicon/en_us"
 GUIDE_OUTPUT_ROOT = (
@@ -1693,11 +1696,11 @@ def output_source(relative: str) -> Path:
     """적용 상대 경로를 저장소 산출물 경로로 바꿔요."""
     if relative.startswith("resourcepacks/"):
         return (
-            PROJECT_ROOT
-            / "output/resourcepack"
+            active_output_root()
+            / "resourcepack"
             / relative.removeprefix("resourcepacks/")
         )
-    return PROJECT_ROOT / "output/overrides" / relative
+    return active_output_root() / "overrides" / relative
 
 
 def record_deployment(manifest_path: Path) -> tuple[dict[str, object], list[str]]:

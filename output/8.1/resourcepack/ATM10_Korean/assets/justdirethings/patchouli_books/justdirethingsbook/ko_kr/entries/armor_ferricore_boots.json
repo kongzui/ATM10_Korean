@@ -1,0 +1,17 @@
+{
+  "name": "페리코어 부츠",
+  "sortnum": 4,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:ferricore_boots",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "페리코어 부츠는 모험가를 위해 제작되었으며 철제 부츠보다 약간 더 높은 보호 기능과 내구성을 제공합니다. 점프력 증가와 같은 향상된 능력을 제공하도록 업그레이드할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "페리코어 부츠 제작",
+      "recipe": "justdirethings:ferricore_boots"
+    }
+  ]
+}

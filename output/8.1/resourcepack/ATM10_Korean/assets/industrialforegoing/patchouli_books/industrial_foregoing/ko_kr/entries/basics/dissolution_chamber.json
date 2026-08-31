@@ -1,0 +1,17 @@
+{
+  "name": "용해 챔버",
+  "icon": "industrialforegoing:dissolution_chamber",
+  "category": "industrialforegoing:basics",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "아이템 최대 $(6)8$()개와 유체 최대 $(6)1$()종류를 사용해 재료를 제작하는 강력한 기계입니다. 아이템이나 유체를 생산할 수 있습니다.$(br2)모든 조합법은 무형이므로 재료를 어느 슬롯에 넣어도 됩니다.$(br2)조합법이 완성되면 추가 아이템이 들어오지 않도록 모든 슬롯을 잠급니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:dissolution_chamber"
+    }
+  ]
+}

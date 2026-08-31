@@ -17,6 +17,7 @@ from zipfile import ZipFile
 
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -2697,8 +2698,8 @@ def build_guides() -> dict[str, object]:
     write_json(WORK_ROOT / "guide_extra_ko_kr.json", GUIDE_EXTRA_KOREAN)
     for namespace in ("ars_nouveau", "ars_elemancy", "starbunclemania"):
         language_path = (
-            PROJECT_ROOT
-            / f"output/resourcepack/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"
+            active_output_root()
+            / f"resourcepack/ATM10_Korean/assets/{namespace}/lang/ko_kr.json"
         )
         language = load_json(language_path)
         language.update(
@@ -2728,7 +2729,7 @@ def build_guides() -> dict[str, object]:
             data = json.loads(archive.read(source_root + relative).decode("utf-8-sig"))
             translated = replace_guide_literals(data, used)
             destination = (
-                PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets/ars_nouveau/"
+                active_output_root() / "resourcepack/ATM10_Korean/assets/ars_nouveau/"
                 "patchouli_books/worn_notebook/ko_kr" / relative
             )
             write_json(destination, translated)

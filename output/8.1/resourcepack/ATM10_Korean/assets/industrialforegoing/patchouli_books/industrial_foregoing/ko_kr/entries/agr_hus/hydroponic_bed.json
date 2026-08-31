@@ -1,0 +1,17 @@
+{
+  "name": "수경 재배대",
+  "icon": "industrialforegoing:hydroponic_bed",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "전력과 $(6)물$()(네더 작물은 $(6)용암$())을 공급하면 작물의 성장 속도를 높입니다.$(br2)$(l:resource_production/ether_gas)에테르 가스$()를 아주 조금 공급하면 훨씬 빠르게 자라며 수확 후 자동으로 다시 심습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:hydroponic_bed"
+    }
+  ]
+}

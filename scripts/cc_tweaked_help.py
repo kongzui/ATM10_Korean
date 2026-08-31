@@ -12,12 +12,13 @@ from zipfile import ZipFile
 
 import actually_additions_family as candidate_helper
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 WORK_ROOT = PROJECT_ROOT / "working/cc_tweaked/help"
 ENGLISH_ROOT = WORK_ROOT / "en_us"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
-OUTPUT_ROOT = PROJECT_ROOT / "output/overrides/kubejs/data/computercraft/lua/rom/help"
+OUTPUT_ROOT = active_output_root() / "overrides/kubejs/data/computercraft/lua/rom/help"
 CACHE_FILE = PROJECT_ROOT / "temp/cc_tweaked_help_candidate_cache.json"
 JAR_PREFIX = "cc-tweaked-1.21.1-forge-1.120.0"
 SOURCE_PREFIX = "data/computercraft/lua/rom/help/"

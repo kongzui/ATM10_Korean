@@ -1,0 +1,17 @@
+{
+  "name": "블레이즈골드 삽",
+  "sortnum": 9,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_shovel",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 삽은 $(l:justdirethings:tool_ferricore_shovel)페리코어 삽$(/l)보다 더 빠르게 굴착합니다. '용암 수리'를 통해 용암에 떨어지면 스스로 수리됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_shovel",
+      "text": "블레이즈골드 삽 제작"
+    }
+  ]
+}

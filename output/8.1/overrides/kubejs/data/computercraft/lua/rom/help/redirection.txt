@@ -1,0 +1,2 @@
+Redirection ComputerCraft Edition은 ComputerCraft 제작자 Dan200의 퍼즐 게임을 CraftOS로 옮긴 버전입니다.
+고급 컴퓨터에서 플레이한 후 http://www.redirectiongame.com를 방문하여 전체 게임을 플레이해보세요!

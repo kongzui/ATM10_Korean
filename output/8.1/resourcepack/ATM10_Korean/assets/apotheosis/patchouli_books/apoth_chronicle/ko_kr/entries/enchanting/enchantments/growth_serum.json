@@ -1,0 +1,13 @@
+{
+  "name": "성장 혈청",
+  "icon": "minecraft:enchanted_book",
+  "category": "apotheosis:enchanting/enchantments",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(2)성장 혈청$()은 가위용 걸작 마법 부여입니다.$(p)50% 확률로 양털이 즉시 다시 자랍니다."
+    }
+  ]
+}

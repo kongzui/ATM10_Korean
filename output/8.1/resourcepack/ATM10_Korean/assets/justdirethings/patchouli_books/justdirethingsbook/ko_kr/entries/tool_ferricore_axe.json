@@ -1,0 +1,17 @@
+{
+  "name": "페리코어 도끼",
+  "sortnum": 4,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:ferricore_axe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "페리코어 도끼는 나무를 베는 데 효율적일 뿐만 아니라 무기로도 효과적입니다. 내구성과 절단 속도 모두에서 철도끼를 능가하며 업그레이드를 통해 더욱 강화할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:ferricore_axe",
+      "text": "페리코어 도끼 제작"
+    }
+  ]
+}

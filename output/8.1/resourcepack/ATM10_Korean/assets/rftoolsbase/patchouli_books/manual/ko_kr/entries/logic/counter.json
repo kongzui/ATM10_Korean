@@ -1,0 +1,20 @@
+{
+  "name": "계수기",
+  "icon": "rftoolsutility:counter",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:counter": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "카운터는 레드스톤 펄스를 세다가 지정한 수에 도달하면 레드스톤 신호를 냅니다. 이후 다시 처음부터 셉니다.$(br2)GUI의 '최댓값'은 셀 펄스 수를, '현재값'은 지금까지 센 수를 나타냅니다."
+    },
+    {
+      "type": "crafting",
+      "heading": "계수기",
+      "recipe": "rftoolsutility:counter",
+      "text": "현재값이 최댓값과 같아지면 레드스톤 신호를 냅니다. 다음 레드스톤 펄스를 받으면 신호를 끄고 카운터를 0으로 초기화합니다."
+    }
+  ]
+}

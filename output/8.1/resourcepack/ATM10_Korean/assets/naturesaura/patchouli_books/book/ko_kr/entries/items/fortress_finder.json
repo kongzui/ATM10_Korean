@@ -1,0 +1,17 @@
+{
+  "name": "불꽃의 눈",
+  "icon": "naturesaura:fortress_finder",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:aura_bottle_nether",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)요새$()를 찾을 때는 던지면 가장 가까운 구조물 쪽으로 날아가 길을 알려 주는 $(item)엔더의 눈$()을 사용합니다. $(item)불꽃의 눈$()도 비슷하지만, 요새 대신 가장 가까운 $(thing)네더 요새$()를 찾습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)불꽃의 눈$() 생성",
+      "recipe": "naturesaura:fortress_finder"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "글리세롤",
+  "icon": "pneumaticcraft:glycerol",
+  "category": "pneumaticcraft:renewables",
+  "advancement": "pneumaticcraft:ethanol",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)글리세롤/$는 $(l:renewables/biodiesel)바이오디젤/$를 생산할 때 부산물이지만, 그 자체가 상당히 유용한 물질임을 알 수 있습니다. 그 용도는 다음 페이지에서 자세히 설명합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:bandage",
+      "text": "$(thing)반창고/$를 사용하면 하트 3칸의 체력을 빠르게 회복할 수 있습니다. 즉시 회복되는 것은 아니며, 우클릭을 2초 동안 눌러 반창고를 사용해야 합니다. 사용 후에는 8초의 재사용 대기시간이 적용됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:speed_upgrade_from_glycerol",
+      "text": "$(thing)설탕/$를 사용하면 출력이 2 배가되지만 마음에 들지 않는 점이 있습니까? 이렇게 하면 귀중한 $(l:components/lubricant)윤활유/$를 절약할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:furnace",
+      "title": "연료로",
+      "text": "$(thing)글리세롤/$은 $(thing)판자/$ 4개나 $(thing)석탄/$ 반 개와 같은 열량을 내는 쓸 만한 연료입니다."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "달콤한 간식과 음료",
+  "icon": "merrymaking:fruitcake",
+  "category": "merrymaking:foods",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "설치할 수 있는 음료",
+      "item": "merrymaking:hot_cocoa",
+      "text": "핫 코코아, 페퍼민트 코코아, 에그노그는 모두 장식으로 설치할 수 있어요.$(br2)다시 집으려면 Shift 키를 누른 채 클릭하고, 마시려면 평소처럼 사용하세요. 다 마시면 빈 머그잔이 돌아와요."
+    },
+    {
+      "type": "crafting",
+      "title": "음료",
+      "recipe": "merrymaking:mug",
+      "recipe2": "merrymaking:egg_nog"
+    },
+    {
+      "type": "smelting",
+      "title": "음료",
+      "recipe": "merrymaking:hot_cocoa_smelting",
+      "text": "코코아 머그잔을 데우면 핫 코코아가 돼요."
+    },
+    {
+      "type": "crafting",
+      "title": "음료",
+      "recipe": "merrymaking:mug_cocoa",
+      "recipe2": "merrymaking:peppermint_cocoa"
+    },
+    {
+      "type": "crafting",
+      "title": "재료 레시피",
+      "recipe": "merrymaking:ground_ginger",
+      "recipe2": "merrymaking:gingerbread_dough"
+    },
+    {
+      "type": "crafting",
+      "title": "재료 레시피",
+      "recipe": "merrymaking:cookie_dough",
+      "recipe2": "merrymaking:icing"
+    },
+    {
+      "type": "crafting",
+      "title": "재료 레시피",
+      "recipe": "merrymaking:mint_bottle",
+      "text": "페퍼민트 추출물을 만들려면 물에 민트 한 병을 사용하세요."
+    },
+    {
+      "type": "crafting",
+      "title": "쿠키 레시피",
+      "recipe": "merrymaking:tree_cookie",
+      "recipe2": "merrymaking:stocking_cookie"
+    },
+    {
+      "type": "crafting",
+      "title": "재료 레시피",
+      "recipe": "merrymaking:mitten_cookie",
+      "recipe2": "merrymaking:gingerbread_cookie"
+    },
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:candy_cane"
+    },
+    {
+      "type": "crafting",
+      "title": "기타 디저트",
+      "recipe": "merrymaking:fudge",
+      "recipe2": "merrymaking:fruitcake"
+    },
+    {
+      "type": "spotlight",
+      "item": "merrymaking:ham",
+      "text": "돼지에게서 새롭게 햄이 떨어지며, 화로나 훈연기에서 익힐 수 있어요.$(br2)그대로 먹거나 근사한 만찬으로 차려 주변 사람들과 나눠 드세요."
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "익힌 햄",
+      "recipe": "merrymaking:ham_smelting"
+    },
+    {
+      "type": "spotlight",
+      "title": "만찬",
+      "item": "merrymaking:ham_dinner",
+      "text": "햄 만찬과 속을 채운 가금류 만찬은 먹을 수 있는 장식이에요. $(br2)케이크와 같은 방법으로 먹고, 모두 먹은 뒤에는 플래터를 회수해 다음 상차림에 사용할 수 있어요."
+    },
+    {
+      "type": "spotlight",
+      "title": "음식 쟁반",
+      "item": "merrymaking:cookie_tray",
+      "text": "쿠키 쟁반과 수확물 쟁반은 상호작용할 수 있는 장식이에요. $(br2)쟁반을 클릭할 때마다 가장 위의 아이템을 받아요. 아이템이 모두 없어지면 쟁반을 회수해 다음 상차림에 사용할 수 있어요."
+    },
+    {
+      "type": "crafting",
+      "title": "음식 쟁반",
+      "recipe": "merrymaking:cookie_tray",
+      "recipe2": "merrymaking:harvest_tray"
+    },
+    {
+      "type": "crafting",
+      "title": "만찬",
+      "recipe": "merrymaking:poultry_dinner",
+      "recipe2": "merrymaking:ham_dinner"
+    }
+  ]
+}

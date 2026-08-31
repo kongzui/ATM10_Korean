@@ -1,0 +1,18 @@
+{
+  "name": "ZomBee",
+  "icon": "minecraft:rotten_flesh",
+  "read_by_default": true,
+  "category": "productivebees:bees_hive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "ZomBee",
+      "text": "벌집이 어둠 속에서 비어 있으면 고급 벌통으로 이동합니다.",
+      "anchor": "zombie"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:zombie'}"
+    }
+  ]
+}

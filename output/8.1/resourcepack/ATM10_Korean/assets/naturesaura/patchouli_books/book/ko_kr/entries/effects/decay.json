@@ -1,0 +1,12 @@
+{
+  "name": "자연 부패",
+  "icon": "naturesaura:decayed_leaves",
+  "category": "naturesaura:effects",
+  "advancement": "naturesaura:negative_imbalance",
+  "pages": [
+    {
+      "type": "text",
+      "text": "특정 지역에서 $(aura)를 배수하여 식물과 기타 초목이 더 이상 스스로를 지탱하는 데 필요한 자연 에너지를 보유하지 못하게 되면 $(thing)자연 부패$()가 시작됩니다. 나무와 기타 식물의 $(item)나뭇잎$()와 함께 모든 $(item)잔디$()가 부패합니다. $(aura)가 한 지역에서 더 많이 배출될수록 이 효과는 더욱 악화됩니다. $(br)이 효과는 $(thing)세상의$() 및 $(thing)네더$()에서만 발생하는 것 같습니다."
+    }
+  ]
+}

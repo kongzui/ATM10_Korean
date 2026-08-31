@@ -1,0 +1,19 @@
+{
+  "name": "파란색 줄무늬 벌",
+  "icon": "productivebees:spawn_egg_blue_banded_bee",
+  "read_by_default": true,
+  "sortnum": 2,
+  "category": "productivebees:bees_solitary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "파란색 줄무늬 벌",
+      "text": "[아메길라싱굴라타]",
+      "anchor": "blue_banded"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:blue_banded_bee"
+    }
+  ]
+}

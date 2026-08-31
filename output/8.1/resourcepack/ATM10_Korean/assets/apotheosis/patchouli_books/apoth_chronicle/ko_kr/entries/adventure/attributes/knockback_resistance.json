@@ -1,0 +1,13 @@
+{
+  "name": "밀치기 저항",
+  "icon": "minecraft:shulker_shell",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)밀치기 저항$()은 공격에 밀려나는 현상에 얼마나 잘 저항하는지 나타냅니다. 최댓값에 도달하면 밀치기에 면역이 됩니다.$(p)보통 방어구나 방패가 제공합니다."
+    }
+  ]
+}

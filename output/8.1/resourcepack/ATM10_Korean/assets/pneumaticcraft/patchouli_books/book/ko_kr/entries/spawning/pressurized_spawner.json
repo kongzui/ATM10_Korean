@@ -1,0 +1,21 @@
+{
+  "name": "가압 생성기",
+  "icon": "pneumaticcraft:pressurized_spawner",
+  "category": "pneumaticcraft:spawning",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)가압 생성기/$는 $(l:base_concepts/pressure)압력/$를 사용하여 몹을 스폰하는 강력한 장치입니다. 밝기 레벨이나 플레이어의 거리에 관계없이 레드스톤에서 활성화/비활성화할 수 있습니다. $(p)가압 생성기를 사용하려면 캡처된 몹의 에센스가 포함된 $(l:spawning/spawner_core)생성기 코어/$ 및 적어도 10 바의 압력이 필요합니다."
+    },
+    {
+      "type": "text",
+      "text": "코어에 여러 몹 에센스가 포함되어 있으면 무작위 몹이 선택됩니다. 예를 들어 코어가 50%가 좀비, 25%가 크리퍼, 25%가 비어 있으면 스폰 시도 마다 좀비가 50%, 크리퍼가 25%, 아무것도 발생하지 않을 가능성이 25% 있습니다. $(p)아무것도 발생하지 않으면 공기가 사용되기 때문에 부분적으로 빈 코어는 그다지 효율적이지 않습니다 (단, 희귀 몹이 50% 발생할 수 있는 코어는 코어가 전혀없는 것보다 낫습니다...)"
+    },
+    {
+      "type": "crafting",
+      "text": "가압 생성기 제작",
+      "recipe": "pneumaticcraft:pressurized_spawner"
+    }
+  ]
+}

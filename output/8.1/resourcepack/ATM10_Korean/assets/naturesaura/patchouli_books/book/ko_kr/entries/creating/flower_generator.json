@@ -1,0 +1,25 @@
+{
+  "name": "초식흡수체",
+  "icon": "naturesaura:flower_generator",
+  "category": "naturesaura:creating",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "상당히 높은 자연 수준의 $(aura)를 확실히 보유하고 있는 세상적인 아이템은 $(item)꽃$()로 알려져 있습니다. 이것은 세계에 배치될 때 가까운 곳에 있는 작은 꽃을 소비하고 그 에너지를 $(aura)로 변환하는 $(item)초식흡수체$()를 사용하여 활용할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "같은 꽃만 계속 공급하면 그 꽃의 $(aura)를 흡수하지 못하게 됩니다.$(br)흡수기를 효율적으로 작동시키려면 $(thing)서로 다른 종류$()의 꽃을 번갈아 공급해야 합니다.$(br)최대 효율을 내려면 서로 다른 꽃이 약 여섯 종류 필요합니다."
+    },
+    {
+      "type": "text",
+      "text": "또한, 자연적으로 공급되는 꽃은 $(thing)세상의$() 영역에만 나타나기 때문에 이 장치가 작동하는 유일한 영역이기도 합니다. 예를 들어 더 많은 $(thing)지옥 같은$() 지역과 같은 다른 영역에서는 이 시스템이 아무런 영향을 미치지 않습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:flower_generator",
+      "text": "$(item)초식흡수체$() 생성"
+    }
+  ]
+}

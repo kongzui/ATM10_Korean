@@ -1,0 +1,31 @@
+{
+  "pages": [
+
+    {
+      "type": "standard",
+
+      "summary": "Mama's Herbs and Harvest는 농사 모드이며 MerryMaking과 Happy Hallows 같은 Mama's Minis 레시피의 기반이기도 해요. 재배할 수 있는 작물 32종과 포도, 열매를 맺는 나무 8종, 허브 14종이 있어요.",
+
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/intro/crops.png",
+          "caption": "herbsandharvest.guide_book.chapters.intro.intro_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+
+		  "type": "text",
+		  "literal_text": "새 블록, 아이템과 음식을 추가하는 '팬트리 업데이트'는 2026년 2월 초에 출시됐어요.",
+		  "text": null
+
+
+        }
+      ]
+    }
+
+
+
+  ]
+}

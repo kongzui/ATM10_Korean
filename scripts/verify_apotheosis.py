@@ -14,8 +14,9 @@ from zipfile import ZipFile
 from apotheosis_catalog import BATCHES, TARGETS, Target
 from local_paths import PROJECT_ROOT, resolve_source_root
 from prepare_apotheosis import WORK_ROOT, duplicate_keys, find_jar, load_json
+from version_context import active_output_root
 
-OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ROOT = active_output_root() / "resourcepack/ATM10_Korean/assets"
 INTEGRATION_OUTPUT_SOURCES = {
     "create_enchantment_industry": (
         PROJECT_ROOT / "working/create/create_enchantment_industry/ko_kr.json"

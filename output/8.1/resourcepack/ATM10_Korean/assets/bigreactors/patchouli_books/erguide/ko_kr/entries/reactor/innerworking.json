@@ -1,0 +1,17 @@
+{
+  "name": "작동 원리",
+  "icon": "bigreactors:basic_reactorfuelrod",
+  "category": "bigreactors:reactor",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "원자로는 어떻게 $(l:bigreactors/passive)에너지를 생성$(/l)하거나 $(l:bigreactors/active)냉각재를 기화$(/l)할까요?$(br2)답은 열입니다.$(br2)방사선을 받은 $(l:bigreactors/reactants)연료$(/l)가 뜨거워지고, $(l:bigreactors/moderators)감속재$(/l)가 방사선 일부를 흡수해 열을 $(l:bigreactors/part-fuelrod)연료봉$(/l)에서 $(l:bigreactors/part-casing)외장$(/l) 쪽으로 옮깁니다.$(br2)외장의 열이 에너지를 생성하거나 $(l:bigreactors/coolantsystem)냉각재$(/l)를 기화합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "열을 $(l:bigreactors/part-fuelrod)연료봉$(/l)에서 멀리 옮기는 것은 원자로 설계의 핵심이며, $(l:bigreactors/moderators)감속재$(/l)가 중요한 역할을 합니다. 방사선은 $(l:bigreactors/part-fuelrod)연료봉$(/l) 기둥의 축과 직각인 모든 방향으로 퍼집니다.$(br2)$(italic)이 설명은 좋은 원자로를 설계하는 데 필요한 정도로 실제 내부 작동을 단순화한 내용입니다.$()"
+    }
+  ]
+}

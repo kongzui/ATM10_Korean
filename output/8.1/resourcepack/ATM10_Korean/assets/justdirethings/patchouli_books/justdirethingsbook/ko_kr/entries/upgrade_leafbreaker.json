@@ -1,0 +1,17 @@
+{
+  "name": "나뭇잎 파괴",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_leafbreaker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "나뭇잎 파괴 업그레이드는 액티브 능력입니다. 나뭇잎 블록을 우클릭하면 이어진 나뭇잎 블록을 함께 부숩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "나뭇잎 파괴 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_leafbreaker"
+    }
+  ]
+}

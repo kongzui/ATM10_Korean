@@ -1,0 +1,28 @@
+{
+  "name": "유체 호퍼",
+  "icon": "pneumaticcraft:liquid_hopper",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)유체 호퍼/$는 유체를 전달하는 데 사용할 수 있는 장치입니다. $(l:machines/omnidirectional_hopper)전방향 호퍼/$와 마찬가지로 입력과 출력은 모든 방향을 향할 수 있으며 동일한 배치 및 회전 규칙을 사용합니다. 전송 속도를 높이기 위해 $(l:base_concepts/upgrades#speed)속도 업그레이드/$를 추가할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:liquid_hopper",
+      "text": "$(item)유체 호퍼/$는 $(9)입력/$ 면 앞의 바닥에 떨어진 아이템에서 유체를 빼내고, $(6)출력/$ 면 앞의 아이템에는 유체를 넣으려고 합니다. 물 양동이, 용암 양동이, 다른 모드의 유체 용기 등이 대상입니다."
+    },
+    {
+      "type": "text",
+      "title": "발사기 업그레이드",
+      "flag": "pneumaticcraft:liquidHopperDispenser",
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 $(item)유체 호퍼/$에 설치하면 $(9)입력/$ 면의 유체 블록 1000mB를 빨아들이고, 저장한 유체 1000mB를 $(6)출력/$ 면에 배치합니다. 예를 들어 물 펌프로 사용할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "유체 호퍼 제작",
+      "recipe": "pneumaticcraft:liquid_hopper"
+    }
+  ]
+}

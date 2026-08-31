@@ -1,0 +1,17 @@
+{
+  "name": "나무 벌목",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_treefeller",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "나무 벌목은 페리코어 이상의 도끼에 설치하는 패시브 능력입니다. 원목 하나를 부수면 이어진 같은 원목 블록을 함께 부숩니다.$(br2)도끼질 한 번으로 나무 전체를 벨 수 있습니다!$(br2)나무 전체를 베는 데는 블록 하나를 부술 때보다 조금 더 오래 걸립니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "나무 벌목 업그레이드 제작",
+      "recipe": "justdirethings:upgrade_treefeller"
+    }
+  ]
+}

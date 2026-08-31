@@ -11,11 +11,12 @@ from collections import Counter
 from pathlib import Path
 from zipfile import ZipFile
 
-from local_paths import PROJECT_ROOT, resolve_source_root
+from local_paths import resolve_source_root
 from prepare_silentgear import WORK_ROOT, duplicate_keys, find_jar, load_json
 from silentgear_catalog import BATCHES, TARGETS, Target
+from version_context import active_output_root
 
-OUTPUT_ROOT = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ROOT = active_output_root() / "resourcepack/ATM10_Korean/assets"
 PLACEHOLDER = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_CODE = re.compile(r"[§&][0-9A-FK-ORa-fk-or]")
 NUMBER = re.compile(r"(?<![A-Za-z])\d+(?:\.\d+)?%?")

@@ -1,0 +1,25 @@
+{
+  "name": "기계 기반",
+  "icon": "rftoolsbase:machine_base",
+  "category": "rftoolsbase:category_basics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)기계 기반$()은 제작 재료라는 점에서 $(l:rftoolsbase:basics/machine_frames)기계 프레임$()과 비슷하지만 완성되는 기계의 형태가 다릅니다.$(br2)기계 기반으로 만드는 기계는 블록 높이의 1/4이며 대개 $(thing)레드스톤$() 입력이나 출력을 갖습니다."
+    },
+    {
+      "type": "text",
+      "text": "기계를 설치할 때 바라보는 방향은 $(thing)커서와 가장 가까운 블록 모서리$()에 따라 정해집니다.$(br2)설치할 면에 X자를 그렸다고 생각하고 커서가 X자의 어느 구역을 가리키는지 확인하세요.$(br2)출력은 이 방향을 향하고 입력은 반대쪽에서 받습니다."
+    },
+    {
+      "type": "text",
+      "text": "비좁은 공간이나 벽에 기계를 설치할 때 특히 편리합니다.$(br2)방향이 마음에 들지 않으면 $(l:rftoolsbase:tools/smartwrench)스마트 렌치$()의 렌치 모드로 우클릭해 회전하세요."
+    },
+    {
+      "type": "crafting",
+      "heading": "기계 기반",
+      "recipe": "rftoolsbase:machine_base",
+      "text": "$(item)기계 기반$() 자체에는 기능이 없으며 여러 블록을 만드는 기본 재료로 사용합니다."
+    }
+  ]
+}

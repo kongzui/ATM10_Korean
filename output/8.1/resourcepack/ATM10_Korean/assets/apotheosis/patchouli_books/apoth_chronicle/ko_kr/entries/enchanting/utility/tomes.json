@@ -1,0 +1,42 @@
+{
+  "name": "마법 부여의 서",
+  "icon": "apothic_enchanting:other_tome",
+  "category": "apotheosis:enchanting/utility",
+  "flag": "apotheosis:enchanting",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "마법 부여의 서는 특별한 종류의 책입니다.$(p)일반 책처럼 마법을 부여할 수 있지만 정해진 마법 부여만 받을 수 있습니다.$(p)예외로 $(l:apotheosis:enchanting/utility/scrapping)폐기의 서$()는 다른 용도로 사용합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apothic_enchanting:other_tome",
+      "text": "서에 마법을 부여하면 마법이 부여된 책으로 변합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apothic_enchanting:helmet_tome",
+      "recipe2": "apothic_enchanting:chestplate_tome",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apothic_enchanting:leggings_tome",
+      "recipe2": "apothic_enchanting:boots_tome",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apothic_enchanting:weapon_tome",
+      "recipe2": "apothic_enchanting:pickaxe_tome",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apothic_enchanting:fishing_tome",
+      "recipe2": "apothic_enchanting:bow_tome",
+      "text": ""
+    }
+  ]
+}

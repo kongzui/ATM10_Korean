@@ -1,0 +1,15 @@
+{
+  "name": "소개",
+  "icon": "minecraft:experience_bottle",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:builder": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "빌더는 채석, 건설, 유체 펌프 작업, 경험치와 아이템 수집 등을 수행합니다. 형상 카드로 작업 종류와 영역을 지정하세요."
+    }
+  ]
+}

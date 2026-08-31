@@ -1,0 +1,73 @@
+{
+  "name": "조건",
+  "icon": "minecraft:comparator",
+  "category": "pneumaticcraft:programming",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)조건/$ 위젯은 어떤 상태를 검사하고, 검사에 성공하면 프로그램의 다른 부분으로 이동하게 합니다.$(p)모든 $(thing)조건/$ 위젯은 가장 아래쪽 매개변수로 $(thing)레이블 이름/$을 지정한 $(l:programming/text)텍스트/$ 위젯을 받습니다."
+    },
+    {
+      "type": "text",
+      "text": "조건이 $(thing)참/$이면 $(l:programming/flow_control)프로그램 실행/$이 $(italic)오른쪽/$의 $(thing)텍스트/$ 매개변수와 같은 이름인 $(l:programming/label)레이블/$ 위젯으로 이동합니다. 조건이 $(thing)거짓/$이면 $(italic)왼쪽/$의 $(thing)텍스트/$ 매개변수와 같은 이름인 $(thing)레이블/$로 이동합니다.$(p)$(thing)조건/$ 위젯이 유효한 $(thing)텍스트/$ 매개변수를 찾지 못하면 $(italic)아래쪽/$의 다음 위젯으로 계속 진행합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/condition_widget.png"
+      ],
+      "border": "true",
+      "text": "$(italic)레드스톤 신호가 10 이상이면 드론을 자폭시키는 레드스톤 조건 위젯/$"
+    },
+    {
+      "type": "text",
+      "text": "대부분의 $(thing)조건/$ 위젯은 $(thing)우클릭/$해 설정 GUI를 열 수 있습니다. GUI에는 보통 '='와 '>=' 선택 아이템과 숫자 입력란이 있습니다.$(p)이 설정으로 상자 속 아이템 수 같은 값을 정확히 10개('=' 및 10), 20개 초과('>=' 및 21), 12개 미만('>=' 및 12로 검사하되 조건이 $(thing)거짓/$인 분기)인지 검사할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "측정",
+      "text": "$(l:programming/condition_item)조건: 아이템 필터/$를 제외한 모든 $(thing)조건/$ 위젯 GUI에는 $(thing)측정/$ 입력란이 있습니다. 여기에 $(l:programming/variables)변수/$이름을 입력하면 드론이 측정한 값을 변수의 X에 저장합니다.$(p)이 값은 다른 변수처럼 사용할 수 있습니다. 예를 들어 유체 탱크의 양을 측정해 표지판에 표시할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "측정(계속)",
+      "text": "측정 변수 이름을 입력하면 조건 위젯에 분기용 텍스트 위젯이 없어도 오류가 아닙니다(보통은 분기가 하나 이상 필요함). 따라서 조건 위젯을 수량 측정에만 사용하고 실행은 평소처럼 아래로 계속 진행할 수 있습니다.$(p)참고: 압력 측정 조건은 값을 밀리바 단위로 저장합니다(예: 5.5bar는 5500)."
+    },
+    {
+      "type": "text",
+      "title": "조건 유형",
+      "text": "조건은 $(thing)월드 조건/$과 $(thing)드론 조건/$으로 나뉩니다.$(p)월드 조건은 $(item)상자/$에 특정 수량의 아이템이 있는지, 어느 위치에 블록이 있는지처럼 월드의 상태를 검사합니다.$(p)$(thing)드론 조건/$은 드론이 특정 아이템이나 압력을 가지고 있는지처럼 $(l:tools/drone)드론/$ 자체를 검사합니다."
+    },
+    {
+      "type": "text",
+      "text": "블록을 검사하는 모든 $(thing)월드 조건/$에는 여러 블록을 검사할 때 쓰는 $(thing)하나라도/모두/$ 옵션이 있습니다.$(li)$(thing)하나라도/$ 모드에서는 선택한 $(l:programming/area)영역/$의 블록 중 $(italic)하나/$만 일치해도 $(thing)참/$입니다.$(li)$(thing)모두/$ 모드에서는 $(italic)모든/$ 블록이 일치해야 $(thing)참/$입니다."
+    },
+    {
+      "type": "relations",
+      "title": "월드 조건",
+      "entries": [
+        "pneumaticcraft:programming/condition_block",
+        "pneumaticcraft:programming/condition_coordinate",
+        "pneumaticcraft:programming/condition_entity",
+        "pneumaticcraft:programming/condition_item",
+        "pneumaticcraft:programming/condition_item_inventory",
+        "pneumaticcraft:programming/condition_liquid_inventory",
+        "pneumaticcraft:programming/condition_pressure",
+        "pneumaticcraft:programming/condition_redstone",
+        "pneumaticcraft:programming/condition_rf"
+      ]
+    },
+    {
+      "type": "relations",
+      "title": "드론 조건",
+      "entries": [
+        "pneumaticcraft:programming/drone_condition_item",
+        "pneumaticcraft:programming/drone_condition_liquid",
+        "pneumaticcraft:programming/drone_condition_entity",
+        "pneumaticcraft:programming/drone_condition_pressure",
+        "pneumaticcraft:programming/drone_condition_rf"
+      ]
+    }
+  ]
+}

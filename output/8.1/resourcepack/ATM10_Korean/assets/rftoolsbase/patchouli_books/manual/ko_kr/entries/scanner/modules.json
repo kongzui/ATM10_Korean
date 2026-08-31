@@ -1,0 +1,29 @@
+{
+  "name": "스캐너 모듈",
+  "icon": "rftoolsstorage:storage_control_module",
+  "category": "rftoolsbase:category_rftoolsstorage_scanner",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_control_module": 0,
+    "rftoolsstorage:dump_module": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "저장소 제어 및 덤프 모듈은 연결된 저장소 스캐너를 통해 작동하는 화면 모듈입니다. 모듈이 있는 스캐너를 웅크린 채 우클릭하여 대상을 설정하세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_control_module",
+      "recipe2": "rftoolsstorage:dump_module"
+    },
+    {
+      "type": "text",
+      "text": "저장소 제어 모듈은 아이템 필터를 최대 9개까지 감시합니다. 모든 인벤토리를 세거나 별표 또는 경로 지정이 가능한 인벤토리만 셀 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "비우기 모듈은 조건에 맞는 플레이어 인벤토리의 아이템을 연결된 스캐너 네트워크로 보냅니다. 아이템 태그를 사용하면 여러 아이템을 한 조건으로 묶을 수 있습니다."
+    }
+  ]
+}

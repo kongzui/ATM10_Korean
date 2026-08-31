@@ -13,14 +13,15 @@ from zipfile import ZipFile
 
 import actually_additions_family as candidate_helper
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 
 WORK_ROOT = PROJECT_ROOT / "working/rftools/guide"
 ENGLISH_ROOT = WORK_ROOT / "en_us"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "output/resourcepack/ATM10_Korean/assets/rftoolsbase/patchouli_books/manual/ko_kr"
+    active_output_root()
+    / "resourcepack/ATM10_Korean/assets/rftoolsbase/patchouli_books/manual/ko_kr"
 )
 CACHE_FILE = PROJECT_ROOT / "temp/rftools_guide_candidate_cache_v2.json"
 CANDIDATE_FILE = WORK_ROOT / "auto_candidates.json"

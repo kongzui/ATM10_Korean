@@ -17,13 +17,14 @@ import deeper_and_darker_language
 import deeper_and_darker_quests
 import five_family_goal as family_goal
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WORK_ROOT = PROJECT_ROOT / "working/deeper_and_darker"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
-OUTPUT_OVERRIDES = PROJECT_ROOT / "output/overrides"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
+OUTPUT_OVERRIDES = active_output_root() / "overrides"
 QUEST_OUTPUT = OUTPUT_OVERRIDES / "config/ftbquests/quests/lang/ko_kr.snbt"
 EXPECTED_JAR = "deeperdarker-neoforge-1.21.1-1.4.1.jar"
 EXPECTED_JAR_SIZE = 3_906_057

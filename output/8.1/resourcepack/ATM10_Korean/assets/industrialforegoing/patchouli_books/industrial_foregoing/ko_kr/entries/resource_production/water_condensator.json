@@ -1,0 +1,17 @@
+{
+  "name": "물 응축기",
+  "icon": "industrialforegoing:water_condensator",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 11,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "주변 원천 블록에서 $(6)물$()을 생산하는 기계입니다.$(br2)물 원천 블록과 맞닿은 면이 $(6)2개 이상$()이면 작동합니다.$(br)맞닿은 원천 블록을 늘리고 작업당 $(6)1000()RF를 공급하면 훨씬 빨라집니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:water_condensator"
+    }
+  ]
+}

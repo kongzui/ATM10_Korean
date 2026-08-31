@@ -1,0 +1,13 @@
+{
+  "name": "기본",
+  "icon": "bigreactors:basic_reactorcasing",
+  "category": "bigreactors:reactor-variants",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "기본형은 처음 만드는 원자로에 적합합니다.$(br2)외부 크기는 최대 5x5x5이며 대부분 철 주괴만으로 만들 수 있어 게임 초반에 저렴하게 에너지를 생산할 수 있습니다."
+    }
+  ]
+}

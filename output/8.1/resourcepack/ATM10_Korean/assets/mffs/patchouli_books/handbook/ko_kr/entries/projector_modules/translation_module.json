@@ -1,0 +1,18 @@
+{
+  "name": "이동 모듈",
+  "icon": "mffs:translation_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:translation_module",
+      "link_recipe": true,
+      "text": "$(5)이동 모듈$()을 $(l:mffs:machines/projector)역장 프로젝터$()의 방향별 슬롯에 넣으면 투사되는 역장의 위치를 옮깁니다. $(5)이동 모듈$() 하나마다 해당 방향으로 1블록씩 이동합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:translation_module",
+      "text": "$(5)번역 모듈$() 제작."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "유체 추출기",
+  "icon": "industrialforegoing:fluid_extractor",
+  "category": "industrialforegoing:basics",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "유체 추출기는 앞에 놓인 원목에서 $(l:basics/latex)라텍스$()를 추출합니다. 여러 대가 같은 원목에서 동시에 추출할 수 있습니다.$(br2)기계가 원목을 소모하면 먼저 껍질 벗긴 원목으로 바꾸고, 완전히 소모하면 사라지게 합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_extractor",
+      "text": "$(br2)$(6)원목마다 라텍스 생산량이 다릅니다. 생산량은 JEI에서 확인하세요. $(6)전력 공급은 선택 사항이며, 공급하면 더 빨리 작동합니다."
+    }
+  ]
+}

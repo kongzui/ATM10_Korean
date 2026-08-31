@@ -1,0 +1,48 @@
+{
+  "name": "네트워크 구성 요소",
+  "icon": "pneumaticcraft:network_api",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이러한 구성 요소는 주로 $(l:programming/security_station)보안 스테이션/$를 설정하는 데 사용되지만 일부는 제작 구성 요소로도 사용되며 $(l:components/network_components#network_storage)네트워크 데이터 저장소/$ 및 $(l:components/network_components#network_api)네트워크 API/$는 저장하는 데 사용할 수 있습니다. $(l:tools/drone)드론/$ 프로그램."
+    },
+    {
+      "type": "crafting",
+      "anchor": "diagnostic",
+      "text": "$(item)진단 서브루틴/$는 $(l:machines/security_station)보안 스테이션/$의 필수 구성 요소입니다. $(br)이것은 $(l:machines/security_station#hacking)해킹 시도/$를 해커까지 추적하는 역할을 담당합니다. 모든 $(item)진단 서브루틴/$가 해킹되면 $(item)보안 스테이션/$가 침해된 것입니다.",
+      "recipe": "pneumaticcraft:diagnostic_subroutine"
+    },
+    {
+      "type": "crafting",
+      "anchor": "io_port",
+      "text": "$(item)네트워크 IO 포트/$는 $(l:machines/security_station)보안 스테이션/$의 필수 구성 요소입니다. $(br)이것은 $(item)보안 스테이션/$에 대한 해킹 시도의 진입점입니다.",
+      "recipe": "pneumaticcraft:network_io_port"
+    },
+    {
+      "type": "crafting",
+      "anchor": "registry",
+      "text": "$(item)네트워크 레지스트리/$는 $(l:machines/security_station)보안 스테이션/$의 필수 구성 요소입니다. $(br)이것은 해커의 대상입니다. $(italic)모든/$ 레지스트리가 해킹된 경우 $(item)보안 스테이션/$가 손상되었습니다.",
+      "recipe": "pneumaticcraft:network_registry"
+    },
+    {
+      "type": "crafting",
+      "anchor": "node",
+      "text": "$(item)네트워크 노드/$는 $(l:machines/security_station)보안 스테이션/$의 범용 구성 요소이며 필요한 구성 요소 간의 경로를 형성하는 데 사용됩니다.",
+      "recipe": "pneumaticcraft:network_node"
+    },
+    {
+      "type": "crafting",
+      "anchor": "network_api",
+      "text": "$(item)네트워크 API/$는 $(l:tools/drone)드론/$ 프로그램을 저장하는 데 사용할 수 있습니다. 프로그램은 $(l:programming/puzzle_pieces)퍼즐 조각/$가 필요하며 $(l:programming/programmable_controller)프로그래밍 가능 제어기/$ 또는 $(l:programming/external_program)외부 프로그램/$ 위젯에서 프로그램을 실행하는 데 사용할 수 있습니다.",
+      "recipe": "pneumaticcraft:network_api"
+    },
+    {
+      "type": "crafting",
+      "anchor": "network_storage",
+      "text": "$(item)네트워크 데이터 저장소/$에는 $(l:tools/drone)드론/$ 프로그램을 저장할 수 있습니다. 프로그래밍할 때 $(l:programming/puzzle_pieces)퍼즐 조각/$이 필요하지 않지만 프로그램을 $(italic)직접 실행할 수는 없습니다/$. 프로그램 모음을 보관하거나 다른 플레이어와 프로그램을 교환할 때 유용합니다.",
+      "recipe": "pneumaticcraft:network_data_storage"
+    }
+  ]
+}

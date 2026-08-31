@@ -1,0 +1,52 @@
+{
+  "name": "정유기",
+  "icon": "pneumaticcraft:refinery",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:oil_bucket",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)정유기/$는 $(l:base_concepts/heat)열/$로 $(l:base_concepts/oil)원유/$를 여러 연료로 정제하는 다중 블록 기계입니다. 100°C부터 작동하며 온도가 높을수록 빠르게 정제합니다. 생산 연료를 가벼운 순서대로 나열하면 다음과 같습니다:$(li)$(thing)LPG(액화 석유 가스)/$$(li)$(thing)휘발유/$$(li)$(thing)등유/$$(li)$(thing)디젤/$"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)정유기/$는 다중 블록 구조입니다. $(item)정유기 제어기/$를 놓고, 그 위나 옆에 $(item)정유기 출력부/$를 2~4개 쌓으세요.$(p)구조의 크기에 따라 수율이 달라집니다. 원유 10mB를 넣을 때:$(p)$(bold)출력부 2개/$$(li)$(thing)LPG/$ 2mB$(li)$(thing)디젤/$ 4mB$(br)$(bold)출력부 3개/$$(li)$(thing)LPG/$ 2mB$(li)$(thing)등유/$ 3mB$(li)$(thing)디젤/$ 2mB"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)출력부 4개/$$(li)$(thing)LPG/$ 2mB$(li)$(thing)휘발유/$ 3mB$(li)$(thing)등유/$ 3mB$(li)$(thing)디젤/$ 2mB$(p)가장 가벼운 연료는 항상 맨 위 $(item)정유기 출력부/$에, 가장 무거운 연료는 맨 아래에 들어갑니다. 기존 구조에 $(item)정유기 출력부/$를 추가하면 작동을 계속할 수 있도록 이미 생산한 유체를 알맞은 출력부로 자동 재배치합니다."
+    },
+    {
+      "type": "text",
+      "text": "생산된 모든 액체는 $(l:compressors/liquid_compressor)액체 압축기/$의 연료로 사용할 수 있으며, 가벼운 연료일수록 품질이 좋습니다.$(p)그 밖에도 중요한 용도가 두 가지 있습니다:$(li)$(thing)LPG/$는 액체 $(l:components/plastic)플라스틱/$을 만드는 데 사용합니다$(li)$(thing)디젤/$은 $(l:base_concepts/upgrades#speed)속도 업그레이드/$용 $(l:components/lubricant)윤활유/$를 만드는 데 사용합니다.$(p)두 과정 모두 $(l:manufacturing/thermopneumatic_processing_plant)열공압 처리 공장/$을 사용합니다."
+    },
+    {
+      "type": "text",
+      "title": "비교기 지원",
+      "text": "$(item)정유기/$에 $(item)비교기/$를 연결하면 $(item)정유기/$에 처리할 작업이 있을 때 신호 세기 15, 없을 때 0을 출력합니다. 정제할 $(thing)원유/$가 $(italic)있고/$ 정제 결과물을 넣을 출력 탱크 공간도 있어야 작업이 있는 것으로 판단합니다.$(p)예를 들어 공기를 절약하도록 $(l:machines/vortex_tube)볼텍스 튜브/$의 공기 공급을 자동으로 끌 때 사용할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "설정 팁",
+      "text": "$(item)정유기/$는 여러 면이 공기에 노출된 다중 블록이라 단열하지 않으면 $(l:base_concepts/heat)열/$을 빠르게 잃습니다. 효율을 높이려면 사용하지 않는 면을 모두 덮는 것이 좋습니다. $(item)반 블록/$이나 $(item)다락문/$ 같은 블록을 포함해 열이 통하지 않는 블록이면 무엇이든 사용할 수 있지만, 특히 $(l:machines/thermal_lagging)단열재/$를 권장합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:machines/vortex_tube)볼텍스 튜브/$로 $(item)정유기/$를 가열하거나, $(item)정유기/$ 블록 옆에 뜨거운 유체(용암 등)나 블록(마그마 블록 등)을 둘 수 있습니다. 이런 유체와 블록은 열을 빼앗겨 소모되므로 해당 자원의 생산과 배치를 자동화하는 편이 좋습니다."
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "$(item)정유기/$는 $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$를 지원합니다. 레시피를 추가하거나 삭제할 수 있습니다. 자세한 내용은 아래 링크를 참조하세요.",
+      "url": "https://docs.blamejared.com/1.16/en/mods/PneumaticCraft-Repressurized/Refinery",
+      "link_text": "CraftTweaker Docs"
+    },
+    {
+      "type": "crafting",
+      "text": "정유기 제작",
+      "recipe": "pneumaticcraft:refinery",
+      "recipe2": "pneumaticcraft:refinery_output"
+    }
+  ]
+}

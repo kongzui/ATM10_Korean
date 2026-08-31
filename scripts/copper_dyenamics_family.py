@@ -14,16 +14,19 @@ from zipfile import ZipFile
 
 import build_ae2_quests as quest_snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 FAMILY = "copper_dyenamics"
 WORK_ROOT = PROJECT_ROOT / "working" / FAMILY
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
 COPPER_OUTPUT = OUTPUT_ASSETS / "everythingcopper/lang/ko_kr.json"
 DYENAMICS_OUTPUT = OUTPUT_ASSETS / "dyenamics/lang/ko_kr.json"
 FRIENDS_OUTPUT = OUTPUT_ASSETS / "dyenamicsandfriends/lang/ko_kr.json"
-QUEST_OUTPUT = PROJECT_ROOT / "output/overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+QUEST_OUTPUT = (
+    active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+)
 CATACLYSM_OUTPUT = (
-    PROJECT_ROOT / "output/overrides/config/ftbquests/quests/chapters/cataclysm.snbt"
+    active_output_root() / "overrides/config/ftbquests/quests/chapters/cataclysm.snbt"
 )
 CATACLYSM_SOURCE_COPY = WORK_ROOT / "ftbquests/cataclysm_source.snbt"
 DEPLOYMENT_PATHS = {
@@ -438,7 +441,7 @@ def prepare() -> dict[str, object]:
             }
         )
     existing_friends = read_tracked_json(
-        "output/resourcepack/ATM10_Korean/assets/dyenamicsandfriends/lang/ko_kr.json"
+        "output/7.1/resourcepack/ATM10_Korean/assets/dyenamicsandfriends/lang/ko_kr.json"
     )
     write_json(
         WORK_ROOT / "dyenamicsandfriends/candidate_ko_kr.json",

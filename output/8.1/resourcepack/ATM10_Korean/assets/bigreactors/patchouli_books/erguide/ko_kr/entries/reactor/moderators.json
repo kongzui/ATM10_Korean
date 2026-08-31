@@ -1,0 +1,21 @@
+{
+  "name": "방사선 감속재",
+  "icon": "minecraft:iron_block",
+  "category": "bigreactors:reactor",
+  "read_by_default": true,
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "방사선 감속재는 원자로 내부에 놓아 연료가 방출한 방사선 일부를 흡수하고 $(l:bigreactors/innerworking)열을 이동$(/l)시키는 블록이나 유체입니다. 열을 $(l:bigreactors/part-fuelrod)연료봉$(/l)에서 멀리 옮깁니다.$(br2)감속재마다 방사선을 열로 바꾸는 효율, 방사선 흡수량, 열전도율이 서로 다릅니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "아주 싸지만 전체 효율이 매우 낮을 수도 있습니다. 공기가 그 예로, 작동은 하지만 효율이 거의 없습니다.$(br2)보통 희귀하거나 제작 비용이 높은 블록과 유체일수록 성능이 좋습니다.$(br2)Extreme Reactors는 기본적으로 여러 Minecraft 및 모드 블록·유체를 감속재로 등록합니다.$(br)다른 모드나 모드팩에서 감속재를 추가하거나 기본값을 변경·제거할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "유효한 감속재만 원자로 내부에 놓을 수 있습니다. 유효하지 않은 블록을 넣으면 멀티블록이 완성되지 않습니다.$(br2)감속재로 사용할 수 있는 블록과 유체 양동이는 Minecraft의 $(italic)고급 툴팁$() 기능(F3 + H)을 켰을 때 전용 툴팁으로 확인할 수 있습니다."
+    }
+  ]
+}

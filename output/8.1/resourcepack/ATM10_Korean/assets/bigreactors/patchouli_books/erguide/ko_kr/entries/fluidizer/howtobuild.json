@@ -1,0 +1,17 @@
+{
+  "name": "건설 방법",
+  "icon": "bigreactors:fluidizersolidinjector",
+  "category": "bigreactors:fluidizer",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "유체화기는 최소 3x3x3 크기이며, 외장과 다른 장치 부품으로 만듭니다.$(br)기계의 면에서는 외장 대신 유리를 사용할 수 있지만 틀에는 사용할 수 없습니다.$(br2)부품별 설치 위치 제한은 각 유체화기 부품 페이지에서 확인하세요."
+    },
+    {
+      "type": "zcmultiblock",
+      "multiblock_id": "bigreactors:bookfluidizer"
+    }
+  ]
+}

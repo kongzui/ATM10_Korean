@@ -1,0 +1,17 @@
+{
+  "name": "오물 처리기",
+  "icon": "industrialforegoing:sewage_composter",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 14,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:agr_hus/sewage)오물$()을 공급하면 $(l:agr_hus/fertilizer)비료$()를 생산합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sewage_composter"
+    }
+  ]
+}

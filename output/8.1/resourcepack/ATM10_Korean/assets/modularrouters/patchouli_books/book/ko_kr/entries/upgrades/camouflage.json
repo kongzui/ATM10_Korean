@@ -1,0 +1,15 @@
+{
+  "name": "위장 업그레이드",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:camouflage_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "라우터를 다른 블록처럼 위장하는 업그레이드입니다. 업그레이드를 들고 블록을 $(thing)웅크린 채 우클릭/$하여 그 블록을 기록하세요. 라우터에 넣으면 기록한 블록의 외형으로 바뀝니다.$(p)참고: $(thing)모듈러 라우터/$를 들고 있으면 주변의 위장된 라우터가 강조 표시됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:camouflage_upgrade"
+    }
+  ]
+}

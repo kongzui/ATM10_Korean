@@ -1,0 +1,32 @@
+{
+  "name": "원기둥 모드",
+  "icon": "mffs:cylinder_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:cylinder_mode",
+      "link_recipe": true,
+      "text": "기본적으로, $(2)실린더 모드$()는 정확히 1 블록 두께의 원통 모양으로 힘 장을 생성하도록 프로젝터를 설정합니다. 각 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()는 대상 방향에서 1 블록만큼 역장의 크기를 증가시킵니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:cylinder_mode",
+      "text": "$(2)실린더 모드$() 제작."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "현장 조정",
+      "text": "방향 화살표가 있는 슬롯에 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()을 넣으면 해당 방향으로만 역장이 1블록 늘어납니다. 예를 들어 역장 높이를 1블록 늘리려면 화면 왼쪽 위나 오른쪽 위를 가리키는 슬롯에 $(l:mffs:upgrade_modules/scale_module)$(5)크기 모듈$()을 넣으세요."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/cylinder_mode.png"
+      ],
+      "border": true,
+      "title": "투사",
+      "text": "확장된 $(2)원기둥 모드$() 필드가 투영되고 있습니다."
+    }
+  ]
+}

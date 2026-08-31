@@ -1,0 +1,13 @@
+{
+  "constants.gmut.key_category": "Mekanism - Gravitational Modulating Additional Unit",
+  "constants.gmut.mod_name": "Gravitational Modulating Additional Unit",
+  "description.gmut.gravitational_modulating_additional_unit": "'중력 조작 기구'가 필요하며, 추가 기능을 제공합니다.",
+  "key.gmut.vertical_speed": "수직 이동 속도 배율 전환",
+  "module.gmut.enabled": "활성화",
+  "module.gmut.fix_fov": "시야각 고정",
+  "module.gmut.fly_always": "항상 중력 무시",
+  "module.gmut.gravitational_modulating_additional_unit": "중력 조작 부가 기구",
+  "module.gmut.mute_modulating_sound": "중력 조작 소리 음소거",
+  "module.gmut.stop_immediately": "즉시 정지",
+  "module.gmut.vertical_speed": "수직 이동 속도 배율"
+}

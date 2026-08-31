@@ -14,10 +14,11 @@ from zipfile import ZipFile
 import audit_ftbquests_titles as quest_audit
 import build_ae2_quests as snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
 WORK_ROOT = PROJECT_ROOT / "working/mystical"
-OUTPUT_ASSETS = PROJECT_ROOT / "output/resourcepack/ATM10_Korean/assets"
-OUTPUT_OVERRIDES = PROJECT_ROOT / "output/overrides"
+OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
+OUTPUT_OVERRIDES = active_output_root() / "overrides"
 QUEST_OUTPUT = OUTPUT_OVERRIDES / "config/ftbquests/quests/lang/ko_kr.snbt"
 QUEST_CHAPTER = "elmystical_agriculturerr"
 TARGETS = (

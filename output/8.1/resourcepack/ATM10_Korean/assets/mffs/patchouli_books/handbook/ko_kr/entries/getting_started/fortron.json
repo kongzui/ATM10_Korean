@@ -1,0 +1,16 @@
+{
+  "name": "포트론",
+  "icon": "mffs:battery",
+  "category": "mffs:getting_started",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "포트론은 MFFS 기계가 전력원으로 사용하는 에너지 형태입니다. 처음에는 $(l:mffs:machines/coercion_deriver)강제 유도기$()에 의해 생성 및 저장되어 전송됩니다. $(l:mffs:machines/fortron_capacitor)포트론 축전기$()를 통해 다른 기계에 연결됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "포트론 에너지의 또 다른 원천은 $(5)무한 동력 카드$()로 알려진 창의적인 전용 아이템입니다. $(l:mffs:machines/fortron_capacitor)포트론 축전기$()(가장 왼쪽 아이템 슬롯)에 직접 배치할 수 있습니다. 포트론을 무한 공급합니다. 포트론은 유체로 존재할 수 있습니다. 축전기에서 직접 펌핑할 수 있으며 물이나 용암과 같은 방식으로 조작할 수 있습니다."
+    }
+  ]
+}

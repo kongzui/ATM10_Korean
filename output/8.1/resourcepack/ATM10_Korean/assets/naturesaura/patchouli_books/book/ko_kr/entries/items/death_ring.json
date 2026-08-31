@@ -1,0 +1,21 @@
+{
+  "name": "마지막 기회의 반지",
+  "icon": "naturesaura:death_ring",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "진퇴양난에 빠지면 할 수 있는 일이 거의 없어 때로는 $(thing)죽음$()을 받아들여야 합니다.$(p)마법 식물학자들도 단순한 반지로 $(thing)죽음 자체$()를 $()피할$() 수 있다는 사실을 깨닫기 전에는 그렇게 생각했습니다. $(item)마지막 기회의 반지$()를 사용자의"
+    },
+    {
+      "type": "text",
+      "text": "인벤토리는 $(item)불멸의 토템$()와 유사하게 그 과정에서 $(thing)사라지는$()를 치유하여 죽음을 방지합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)마지막 기회의 반지$()$(p)$(italic) 만들기이 반지는 완벽하게 맞습니다.",
+      "recipe": "naturesaura:death_ring"
+    }
+  ]
+}

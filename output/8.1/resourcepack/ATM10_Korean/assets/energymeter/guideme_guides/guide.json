@@ -1,0 +1,14 @@
+{
+  "item_settings": {
+    "display_name": {
+      "type": "translatable",
+      "translate": "item.energymeter.guide"
+    },
+    "tooltip_lines": [
+      {
+        "text": "이 모드를 소개하는 안내서",
+        "color": "gray"
+      }
+    ]
+  }
+}

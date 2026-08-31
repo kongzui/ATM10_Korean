@@ -1,0 +1,14 @@
+{
+  "name": "물질 송신기",
+  "icon": "rftoolsutility:matter_transmitter",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:matter_transmitter": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "물질 송신기는 플레이어를 $(l:rftoolsbase:machines/matter_receiver)물질 수신기$(/l)로 순간이동시킵니다. $(l:rftoolsbase:machines/dialing_device)다이얼링 장치$(/l)로 송신기와 수신기를 연결하세요.$(br2)$(5)주입$()하면 전력 소모량이 줄고 순간이동 속도가 빨라집니다."
+    }
+  ]
+}

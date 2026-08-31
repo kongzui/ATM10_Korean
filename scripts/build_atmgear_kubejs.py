@@ -8,8 +8,9 @@ import json
 from pathlib import Path
 
 from local_paths import PROJECT_ROOT, resolve_source_root
+from version_context import active_output_root
 
-OUTPUT_ROOT = PROJECT_ROOT / "output/overrides"
+OUTPUT_ROOT = active_output_root() / "overrides"
 REPORT_FILE = PROJECT_ROOT / "working/atmgear/kubejs_audit.json"
 
 REPLACEMENTS: dict[str, list[tuple[str, str, int]]] = {
