@@ -129,15 +129,23 @@ ENDERDRIVES_MESSAGES_OUTPUT_FILE = (
     active_output_root() / "overrides" / ENDERDRIVES_MESSAGES_RELATIVE
 )
 ENDERDRIVES_CLASS_LITERAL_MARKERS = {
+    "com/sts15/enderdrives/items/AbstractEnderDiskItem.class": (
+        b"tooltip.enderdrives.disabled",
+        b"tooltip.enderdrives.disk.duplicate_sleep",
+        b"tooltip.enderdrives.partitioned_item",
+        b"tooltip.enderdrives.partitioned_fluid",
+    ),
     "com/sts15/enderdrives/items/EnderDiskItem.class": (
-        b"This item is disabled on the server.",
-        b"This EnderDisk is disabled on the server.",
-        b"tooltip.enderdrives.partitioned",
+        b"tooltip.enderdrives.enderdisk.disabled",
+    ),
+    "com/sts15/enderdrives/items/EnderFluidDiskItem.class": (
+        b"tooltip.enderdrives.fluidenderdisk.disabled",
     ),
     "com/sts15/enderdrives/items/TapeDiskItem.class": (
+        b"tooltip.enderdrives.tape.duplicate_sleep",
         b"Ideal for tools, armor, and NBT-heavy items.",
         b"Tape ID: ",
-        b"tooltip.enderdrives.partitioned",
+        b"tooltip.enderdrives.partitioned_item",
     ),
     "com/sts15/enderdrives/mixins/IOPortBlockEntityMixin.class": (
         b"Transfer blocked: Infinite loop detected between linked drives.",
@@ -1288,13 +1296,13 @@ def validate_enderdrives(instance: Path, compare_output: bool) -> dict[str, obje
             "source_words": source_words,
             "source_lang": source_lang,
             "translated_lang": translated_lang,
-            "existing_korean_reused": len(translated_lang) - 2,
-            "existing_korean_corrected": 2,
-            "new_translations": 0,
-            "new_or_revised_translations": 2,
+            "existing_korean_reused": 41,
+            "existing_korean_corrected": 0,
+            "new_translations": 99,
+            "new_or_revised_translations": 99,
             "guide_pages": len(ENDERDRIVES_GUIDE_FILES),
             "new_guide_pages": 0,
-            "quality_review_pages_corrected": 2,
+            "quality_review_pages_corrected": 1,
             "core_compatibility_updates": 0,
             "kubejs_files": 2,
             "errors": errors,

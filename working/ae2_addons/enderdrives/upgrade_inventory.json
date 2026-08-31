@@ -1,0 +1,16 @@
+{
+  "family": "enderdrives",
+  "jar": "enderdrives-neoforge-1.21.1-1.5.23.jar",
+  "jar_size": 506598,
+  "jar_mtime_ns": 1788168076914367200,
+  "english_keys": 140,
+  "bundled_korean_keys": 0,
+  "baseline_korean_keys": 42,
+  "upgrade_review_keys": 99,
+  "guide_files": [
+    "assets/enderdrives/ae2guide/enderdrives_intro/enderdrives_intro-index.md",
+    "assets/enderdrives/ae2guide/enderdrives_intro/enderdrives_intro.md",
+    "assets/enderdrives/ae2guide/enderdrives_intro/tapedrive_intro.md"
+  ],
+  "status": "prepared"
+}

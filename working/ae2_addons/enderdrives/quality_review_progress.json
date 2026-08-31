@@ -8,32 +8,32 @@
       "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
     },
     "ae2wtlib": {
-      "name": "ae2wtlib-19.5.0.jar",
-      "sha256": "decf9a35c6d08c160a65a30fe623fd9c09ad5f5dd1790052917f19c82441bd16"
+      "name": "ae2wtlib-19.5.1.jar",
+      "sha256": "407e7300351353cb4cb7698286e180aef2bd6e7a97ec7efc6493f9daa4dbffe5"
     },
     "enderdrives": {
-      "name": "enderdrives-neoforge-1.21.1-1.4.4.jar",
-      "sha256": "03334f29dadc1e863029d05f66321c70fc2738ce5126ea52056d71b1a68586cc"
+      "name": "enderdrives-neoforge-1.21.1-1.5.23.jar",
+      "sha256": "5266b6c871c5e0d0cd355ab09205d415727de9563ff51204b93633bfefc14ae6"
     }
   },
   "language": "ko_kr",
   "guide_pages": 3,
   "new_guide_pages": 0,
-  "quality_review_pages_corrected": 2,
+  "quality_review_pages_corrected": 1,
   "core_compatibility_updates": 0,
   "source_words": 838,
-  "language_keys": 42,
-  "existing_korean_reused": 40,
-  "new_or_revised_translations": 2,
+  "language_keys": 140,
+  "existing_korean_reused": 41,
+  "new_or_revised_translations": 99,
   "guide_files": [
     "enderdrives_intro/enderdrives_intro-index.md",
     "enderdrives_intro/enderdrives_intro.md",
     "enderdrives_intro/tapedrive_intro.md"
   ],
   "output_sha256": {
-    "assets/enderdrives/lang/ko_kr.json": "35aef5fd496472d699c4d103136dc25ab6443c5d36bc477a13b30e1661b5bd6d",
+    "assets/enderdrives/lang/ko_kr.json": "be9f3c81bbcbefbf2518b9518b65451e9d40e16688bd3f98b17a3ddc81f1c887",
     "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro-index.md": "b57024b59d59b92002eb69c50ba95e95156f5a9de17654ae64160c1b4f125304",
-    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro.md": "52d2f07dee58d40e599af5496322a526c2dfcba8d5bb7f6e7fac30a59dcc8180",
+    "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/enderdrives_intro.md": "950ede9d912f1ba0ab7260a6f79cd2e41b3dcb8f270526eaff58b048eff1e32f",
     "assets/enderdrives/ae2guide/_ko_kr/enderdrives_intro/tapedrive_intro.md": "37ae336a29ffbcaa977846f09e53fac01b321fa838ab3cd0845db54aadb05433",
     "kubejs/client_scripts/enderdrives_tooltips.js": "920cb7666226d2d10b2e0bc48573f8b178a4f1f9b118601c575d35c70d92f98f",
     "kubejs/startup_scripts/enderdrives_messages.js": "2be02fb8354295ff5cf9b0da28003293c231ab8a63a1086802e184dbeff38e91"
@@ -43,7 +43,7 @@
     "keys_updated": 0
   },
   "kubejs_files": 2,
-  "class_literal_classes_reviewed": 5,
+  "class_literal_classes_reviewed": 7,
   "normal_player_literal_paths_corrected": 6,
   "operator_command_message_family_corrected": true,
   "validation_errors": 0

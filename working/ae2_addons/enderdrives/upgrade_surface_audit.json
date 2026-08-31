@@ -1,0 +1,19 @@
+{
+  "family": "enderdrives",
+  "guide_pages": 3,
+  "guide_source_words": 838,
+  "language_keys": 140,
+  "kubejs_translation_files": 2,
+  "instance_references": {
+    "ftbquests": {
+      "reference_files": [],
+      "direct_display_lines": []
+    },
+    "kubejs": {
+      "reference_files": [],
+      "direct_display_lines": []
+    }
+  },
+  "errors": [],
+  "status": "complete"
+}
