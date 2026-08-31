@@ -3,12 +3,12 @@
   "installed": [
     {
       "label": "MineColonies",
-      "jar": "minecolonies-1.1.1339-1.21.1-snapshot.jar",
+      "jar": "minecolonies-1.1.1374-1.21.1-snapshot.jar",
       "namespace": "minecolonies",
       "direct_integration": false,
       "language_target": true,
-      "english_keys": 3817,
-      "bundled_korean_keys": 3817,
+      "english_keys": 3898,
+      "bundled_korean_keys": 3898,
       "metadata_mentions_family": [
         "minecolonies"
       ],
@@ -53,7 +53,7 @@
     },
     {
       "label": "Structurize",
-      "jar": "structurize-1.0.831-1.21.1-snapshot.jar",
+      "jar": "structurize-1.0.832-1.21.1.jar",
       "namespace": "structurize",
       "direct_integration": false,
       "language_target": true,
@@ -126,7 +126,7 @@
     },
     {
       "label": "StyleColonies",
-      "jar": "stylecolonies-1.15.54-1.21.1.jar",
+      "jar": "stylecolonies-1.15.58-1.21.1.jar",
       "namespace": "stylecolonies",
       "direct_integration": false,
       "language_target": false,
@@ -180,15 +180,15 @@
   "language_candidates": [
     {
       "label": "MineColonies",
-      "jar": "minecolonies-1.1.1339-1.21.1-snapshot.jar",
+      "jar": "minecolonies-1.1.1374-1.21.1-snapshot.jar",
       "namespace": "minecolonies",
-      "english_keys": 3817,
-      "new_translation_required": 2,
+      "english_keys": 3898,
+      "new_translation_required": 83,
       "project_output_review": 3815
     },
     {
       "label": "Structurize",
-      "jar": "structurize-1.0.831-1.21.1-snapshot.jar",
+      "jar": "structurize-1.0.832-1.21.1.jar",
       "namespace": "structurize",
       "english_keys": 236,
       "new_translation_required": 3,

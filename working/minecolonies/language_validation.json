@@ -3,10 +3,10 @@
   "languages": [
     {
       "label": "MineColonies",
-      "jar": "minecolonies-1.1.1339-1.21.1-snapshot.jar",
+      "jar": "minecolonies-1.1.1374-1.21.1-snapshot.jar",
       "namespace": "minecolonies",
-      "english_keys": 3817,
-      "korean_keys": 3817,
+      "english_keys": 3898,
+      "korean_keys": 3898,
       "untranslated": 0,
       "untranslated_examples": [],
       "duplicate_keys": 0,
@@ -15,11 +15,12 @@
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
       "bundled_exact_reuse": 3009,
-      "project_output_reuse": 808
+      "project_output_reuse": 808,
+      "new_or_edited": 81
     },
     {
       "label": "Structurize",
-      "jar": "structurize-1.0.831-1.21.1-snapshot.jar",
+      "jar": "structurize-1.0.832-1.21.1.jar",
       "namespace": "structurize",
       "english_keys": 236,
       "korean_keys": 236,
@@ -67,7 +68,7 @@
   "language_provenance": {
     "bundled_exact_reuse": 3009,
     "project_output_reuse": 1263,
-    "new_or_edited": 3
+    "new_or_edited": 84
   },
   "ftbquests": {
     "chapters": [

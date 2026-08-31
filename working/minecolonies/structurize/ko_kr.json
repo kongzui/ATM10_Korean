@@ -112,7 +112,7 @@
   "item.sceptersteel.point2": "두 번째 지점 저장: %d %d %d.",
   "item.sceptersteel.samepoint": "같은 점이었어요!",
   "item.sceptersteel.scanfailure": "스캔을 저장하지 못했습니다.",
-  "item.sceptersteel.scanformat": "SCAN_%s",
+  "item.sceptersteel.scanformat": "스캔_%s",
   "item.sceptersteel.scansuccess": "스캔이 %s로 저장되었습니다.",
   "item.sceptersteel.toobig": "설계도가 너무 큽니다. 최대 부피는 %d블록입니다.",
   "item.structurize.caliper": "캘리퍼스",
