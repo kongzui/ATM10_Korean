@@ -8,13 +8,13 @@
     },
     {
       "namespace": "createaddition",
-      "keys": 261,
+      "keys": 262,
       "untranslated": 0,
       "complete": true
     },
     {
       "namespace": "create_hypertube",
-      "keys": 55,
+      "keys": 64,
       "untranslated": 0,
       "complete": true
     },
@@ -38,7 +38,7 @@
     },
     {
       "namespace": "create_enchantment_industry",
-      "keys": 565,
+      "keys": 592,
       "untranslated": 0,
       "complete": true
     }

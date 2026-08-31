@@ -124,6 +124,7 @@
   "statusbar.createaddition.wire.invalid": "허용할 수 없는 연결입니다",
   "statusbar.createaddition.wire.requires_high_current": "연결하려면 고전류 전선이 필요합니다",
   "block.createaddition.electric_motor": "전기 모터",
+  "block.createaddition.servo_motor": "서보 모터",
   "block.createaddition.alternator": "교류 발전기",
   "block.createaddition.creative_energy": "크리에이티브 발전기",
   "block.createaddition.creative_energy.tooltip": "크리에이티브 발전기",

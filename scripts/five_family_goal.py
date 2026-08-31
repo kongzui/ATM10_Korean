@@ -17,7 +17,7 @@ from zipfile import ZipFile
 import audit_ftbquests_titles as quest_audit
 import build_ae2_quests as quest_snbt
 from local_paths import PROJECT_ROOT, resolve_source_root
-from version_context import active_output_root
+from version_context import active_output_root, active_pack_version
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -828,6 +828,21 @@ QUEST_OUTPUT_SPLIT = QUEST_OUTPUT.with_suffix("")
 QUEST_CHAPTER_OUTPUT = (
     active_output_root() / "overrides/config/ftbquests/quests/chapters"
 )
+
+
+def intentionally_omitted_quest_keys() -> set[str]:
+    """현재 버전 전체 재기준화에서 fallback용으로 생략한 키를 읽는다."""
+    path = (
+        PROJECT_ROOT
+        / "working/ftbquests"
+        / f"{active_pack_version()}_omitted_keys.json"
+    )
+    if not path.is_file():
+        return set()
+    value = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(value, dict):
+        raise TypeError(f"FTB Quests 생략 목록이 객체가 아닙니다: {path}")
+    return set(value)
 
 
 def load_split_quest_language(root: Path) -> dict[str, object]:
@@ -3559,6 +3574,7 @@ def write_quest_candidates(
     english: dict[str, object],
     bundled: dict[str, object],
     project: dict[str, object],
+    omitted_keys: set[str],
     force: bool,
 ) -> dict[str, object]:
     """퀘스트 영어·한국어 후보·출처 파일을 쓴다."""
@@ -3568,6 +3584,10 @@ def write_quest_candidates(
     korean: dict[str, object] = {}
     sources: dict[str, str] = {}
     for key, value in english.items():
+        if key in omitted_keys:
+            korean[key] = value
+            sources[key] = "intentional_fallback_omission"
+            continue
         for source_name, candidate in (
             ("project_output_review", project),
             ("installed_ko_kr_candidate", bundled),
@@ -3648,6 +3668,7 @@ def prepare_quests(instance: Path, family: str, force: bool) -> dict[str, object
         if QUEST_OUTPUT.is_file() or QUEST_OUTPUT_SPLIT.is_dir()
         else {}
     )
+    omitted_keys = intentionally_omitted_quest_keys()
     rows: dict[str, object] = {}
     for chapter in QUEST_CHAPTERS[family]:
         english = quest_snbt.parse_language_snbt(
@@ -3664,6 +3685,7 @@ def prepare_quests(instance: Path, family: str, force: bool) -> dict[str, object
             english,
             bundled,
             project,
+            omitted_keys,
             force,
         )
     related = related_quest_keys(instance, family)
@@ -3673,6 +3695,7 @@ def prepare_quests(instance: Path, family: str, force: bool) -> dict[str, object
         related,
         installed_full,
         project,
+        omitted_keys,
         force,
     )
     report = {"family": FAMILY_LABELS[family], "chapters": rows}
@@ -3866,6 +3889,7 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
     """전용·관련 퀘스트와 fallback 표시 경로를 검증한다."""
     errors: list[str] = []
     output = load_quest_output()
+    omitted_keys = intentionally_omitted_quest_keys()
     redundant_keys = redundant_item_task_title_keys(instance, family)
     display_keys = 0
     english_display: dict[str, object] = {}
@@ -3908,6 +3932,10 @@ def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[
             if key in redundant_keys:
                 if key in output:
                     errors.append(f"중복 단일 ItemTask 제목이 출력에 남음: {key}")
+                continue
+            if key in omitted_keys:
+                if key in output:
+                    errors.append(f"fallback용 생략 키가 출력에 남음: {key}")
                 continue
             if output.get(key) != target:
                 errors.append(f"퀘스트 누적 출력 불일치: {key}")

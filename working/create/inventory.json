@@ -44,7 +44,7 @@
     },
     {
       "label": "Create: Dragons Plus",
-      "jar": "CreateDragonsPlus-1.11.2b.jar",
+      "jar": "CreateDragonsPlus-1.11.7b.jar",
       "namespace": "create_dragons_plus",
       "direct_integration": false,
       "language_target": true,
@@ -67,11 +67,11 @@
     },
     {
       "label": "Create Crafts & Additions",
-      "jar": "createaddition-1.6.0.jar",
+      "jar": "createaddition-1.7.0.jar",
       "namespace": "createaddition",
       "direct_integration": false,
       "language_target": true,
-      "english_keys": 261,
+      "english_keys": 262,
       "bundled_korean_keys": 237,
       "metadata_mentions_family": [
         "create",
@@ -79,7 +79,7 @@
       ],
       "guide_candidates": 0,
       "guide_examples": [],
-      "advancements": 25,
+      "advancements": 26,
       "advancement_examples": [
         "data/createaddition/advancement/recipes/building_blocks/crafting/biomass_pallet_block.json",
         "data/createaddition/advancement/recipes/building_blocks/crafting/electrum_block.json",
@@ -102,15 +102,15 @@
         "data/createaddition/advancement/recipes/misc/crafting/spool.json",
         "data/createaddition/advancement/recipes/redstone/crafting/copper_spool.json"
       ],
-      "recipes": 171
+      "recipes": 173
     },
     {
       "label": "Create Enchantment Industry",
-      "jar": "create-enchantment-industry-2.5.0-preview-alpha1.jar",
+      "jar": "create-enchantment-industry-2.5.3b.jar",
       "namespace": "create_enchantment_industry",
       "direct_integration": false,
       "language_target": true,
-      "english_keys": 565,
+      "english_keys": 592,
       "bundled_korean_keys": 0,
       "metadata_mentions_family": [
         "create",
@@ -158,11 +158,11 @@
         "data/create_enchantment_industry/advancement/magic_unbinding.json",
         "data/create_enchantment_industry/advancement/omni_enchanter.json"
       ],
-      "recipes": 61
+      "recipes": 62
     },
     {
       "label": "Create Aquatic Ambitions",
-      "jar": "create_aquatic_ambitions-1.21.1-2.0.2.jar",
+      "jar": "create_aquatic_ambitions-1.21.1-2.0.4.jar",
       "namespace": "create_aquatic_ambitions",
       "direct_integration": false,
       "language_target": true,
@@ -193,11 +193,11 @@
     },
     {
       "label": "Create Hypertube",
-      "jar": "create_hypertube-0.5.0-ALPHA-NEOFORGE.jar",
+      "jar": "create_hypertube-0.6.0-NEOFORGE.jar",
       "namespace": "create_hypertube",
       "direct_integration": false,
       "language_target": true,
-      "english_keys": 55,
+      "english_keys": 64,
       "bundled_korean_keys": 50,
       "metadata_mentions_family": [
         "create",
@@ -249,31 +249,49 @@
       ]
     },
     {
-      "jar": "FramedBlocks-10.6.0.jar",
+      "jar": "FramedBlocks-10.6.1.jar",
       "dependency_mentions": [
         "create"
       ]
     },
     {
-      "jar": "ftb-quests-neoforge-2101.1.27.jar",
+      "jar": "ftb-quests-neoforge-2101.1.34.jar",
       "dependency_mentions": [
         "create"
       ]
     },
     {
-      "jar": "ftb-ranks-neoforge-2101.1.3.jar",
+      "jar": "ftb-ranks-neoforge-2101.1.4.jar",
       "dependency_mentions": [
         "create"
       ]
     },
     {
-      "jar": "ftb-teams-neoforge-2101.1.10.jar",
+      "jar": "ftb-teams-neoforge-2101.1.11.jar",
       "dependency_mentions": [
         "create"
       ]
     },
     {
-      "jar": "integratedscripting-1.21.1-neoforge-1.0.22-373.jar",
+      "jar": "integratedscripting-1.21.1-neoforge-1.0.26.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "invasiveopts-1.0.23.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "laserbridges-1.21.1-neoforge-6.jar",
+      "dependency_mentions": [
+        "create"
+      ]
+    },
+    {
+      "jar": "logisticsnetworks-1.21.1-1.13.0.jar",
       "dependency_mentions": [
         "create"
       ]
@@ -291,37 +309,37 @@
       ]
     },
     {
-      "jar": "sophisticatedbackpacks-1.21.1-3.25.64.1933.jar",
+      "jar": "sophisticatedbackpacks-1.21.1-3.25.78.2107.jar",
       "dependency_mentions": [
         "create"
       ]
     },
     {
-      "jar": "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar",
+      "jar": "sophisticatedbackpackscreateintegration-1.21.1-0.1.8.134.jar",
       "dependency_mentions": [
         "create"
       ]
     },
     {
-      "jar": "sophisticatedcore-1.21.1-1.4.60.2057.jar",
+      "jar": "sophisticatedcore-1.21.1-1.4.90.2299.jar",
       "dependency_mentions": [
         "create"
       ]
     },
     {
-      "jar": "sophisticatedstorage-1.21.1-1.5.63.1872.jar",
+      "jar": "sophisticatedstorage-1.21.1-1.5.91.2127.jar",
       "dependency_mentions": [
         "create"
       ]
     },
     {
-      "jar": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
+      "jar": "sophisticatedstoragecreateintegration-1.21.1-0.1.21.209.jar",
       "dependency_mentions": [
         "create"
       ]
     },
     {
-      "jar": "sophisticatedstorageinmotion-1.21.1-0.10.30.276.jar",
+      "jar": "sophisticatedstorageinmotion-1.21.1-0.10.34.358.jar",
       "dependency_mentions": [
         "create"
       ]

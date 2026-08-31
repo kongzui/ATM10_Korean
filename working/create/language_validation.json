@@ -19,7 +19,7 @@
     },
     {
       "label": "Create: Dragons Plus",
-      "jar": "CreateDragonsPlus-1.11.2b.jar",
+      "jar": "CreateDragonsPlus-1.11.7b.jar",
       "namespace": "create_dragons_plus",
       "english_keys": 351,
       "korean_keys": 351,
@@ -34,10 +34,10 @@
     },
     {
       "label": "Create Crafts & Additions",
-      "jar": "createaddition-1.6.0.jar",
+      "jar": "createaddition-1.7.0.jar",
       "namespace": "createaddition",
-      "english_keys": 261,
-      "korean_keys": 261,
+      "english_keys": 262,
+      "korean_keys": 262,
       "untranslated": 0,
       "untranslated_examples": [],
       "duplicate_keys": 0,
@@ -46,14 +46,15 @@
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
       "bundled_exact_reuse": 203,
-      "project_output_reuse": 58
+      "project_output_reuse": 58,
+      "new_or_edited": 1
     },
     {
       "label": "Create Enchantment Industry",
-      "jar": "create-enchantment-industry-2.5.0-preview-alpha1.jar",
+      "jar": "create-enchantment-industry-2.5.3b.jar",
       "namespace": "create_enchantment_industry",
-      "english_keys": 565,
-      "korean_keys": 565,
+      "english_keys": 592,
+      "korean_keys": 592,
       "untranslated": 0,
       "untranslated_examples": [],
       "duplicate_keys": 0,
@@ -61,11 +62,12 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "project_output_reuse": 565
+      "project_output_reuse": 565,
+      "new_or_edited": 27
     },
     {
       "label": "Create Aquatic Ambitions",
-      "jar": "create_aquatic_ambitions-1.21.1-2.0.2.jar",
+      "jar": "create_aquatic_ambitions-1.21.1-2.0.4.jar",
       "namespace": "create_aquatic_ambitions",
       "english_keys": 39,
       "korean_keys": 39,
@@ -80,10 +82,10 @@
     },
     {
       "label": "Create Hypertube",
-      "jar": "create_hypertube-0.5.0-ALPHA-NEOFORGE.jar",
+      "jar": "create_hypertube-0.6.0-NEOFORGE.jar",
       "namespace": "create_hypertube",
-      "english_keys": 55,
-      "korean_keys": 55,
+      "english_keys": 64,
+      "korean_keys": 64,
       "untranslated": 0,
       "untranslated_examples": [],
       "duplicate_keys": 0,
@@ -92,7 +94,8 @@
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
       "project_output_reuse": 18,
-      "bundled_exact_reuse": 37
+      "bundled_exact_reuse": 37,
+      "new_or_edited": 9
     },
     {
       "label": "Create: Bells & Whistles",
@@ -114,21 +117,21 @@
   "language_provenance": {
     "bundled_exact_reuse": 3144,
     "project_output_reuse": 1805,
-    "new_or_edited": 0
+    "new_or_edited": 37
   },
   "ftbquests": {
     "chapters": [
       "create.snbt"
     ],
-    "quests_checked": 90,
-    "tasks_checked": 99,
-    "display_keys_checked": 197,
+    "quests_checked": 89,
+    "tasks_checked": 98,
+    "display_keys_checked": 225,
     "source_english_custom_names": 0,
     "unresolved_english_custom_names": 0,
     "explicit_task_titles": 4,
     "source_redundant_single_item_task_titles": 0,
     "remaining_redundant_single_item_task_titles": 0,
-    "first_task_quest_fallbacks": 2,
+    "first_task_quest_fallbacks": 1,
     "fallback_paths_checked": [
       "chapter/group title",
       "quest title/subtitle/description",

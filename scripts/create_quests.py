@@ -10,7 +10,7 @@ import re
 import sys
 from pathlib import Path
 
-from five_family_goal import PROJECT_ROOT
+from five_family_goal import PROJECT_ROOT, intentionally_omitted_quest_keys
 from build_ae2_quests import validate_value
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -161,11 +161,6 @@ CREATE_DESCRIPTIONS: dict[str, object] = {
         "아이템을 옮기려면 &e깔때기&r를 저장고에 붙이세요. 세밀한 필터링에는 &e황동 깔때기&r가 좋습니다.|"
         "저장고 하나도 용량이 크며 서로 붙여 놓으면 인벤토리가 합쳐집니다.|"
         "폭과 높이는 1x1, 2x2 또는 3x3이고 길이는 폭의 3배까지 가능합니다. 최대 크기는 3x3x9입니다."
-    ],
-    "quest.0CF69DBA9573A7B3.quest_desc": [
-        "설계도 탁자는 설계도에서 구조물을 읽거나 설계도에 구조물을 기록합니다.",
-        "",
-        "건물을 복사하거나 다른 사람과 공유할 때 사용할 수 있습니다!",
     ],
     "quest.0F16498769DFB3B0.quest_desc": [
         "그 많은 &8안산암&r은 어디에 쓸까요? &8안산암 합금&r을 만들어야 합니다!|"
@@ -692,9 +687,6 @@ CREATE_DESCRIPTIONS: dict[str, object] = {
         "터널의 벨트와 직각으로 움직이는 다른 벨트를 놓으면 묶음에서 아이템 1개를 옆 벨트로 보내고 나머지는 원래 벨트에 남깁니다.|"
         "아이템이 1개뿐이면 일반적으로 터널을 통과합니다."
     ],
-    "quest.7D67058592EE5958.quest_desc": [
-        "설계도 대포는 주변 상자에서 재료를 가져오고 화약을 연료로 사용해 설계도의 구조물을 건설합니다."
-    ],
     "quest.7EEEEDD5FF31ACD3.quest_desc": [
         "&e스마트 슈트&r는 필터를 설정할 수 있는 슈트입니다."
     ],
@@ -836,6 +828,7 @@ def normalize() -> dict[str, object]:
 def verify() -> tuple[dict[str, object], list[str]]:
     errors = []
     rows = []
+    omitted_keys = intentionally_omitted_quest_keys()
     allowed_originals = {"&6&lCreate&r 1.21", "&6&lCreate&r", "&6&lCreate"}
     for group in ("create", "related"):
         root = WORK_ROOT / group
@@ -848,12 +841,21 @@ def verify() -> tuple[dict[str, object], list[str]]:
         for key, source in english.items():
             target = korean[key]
             errors.extend(validate_value(key, source, target))
-            if source == target and source not in allowed_originals:
+            if (
+                key not in omitted_keys
+                and source == target
+                and source not in allowed_originals
+            ):
                 untranslated.append(key)
         if untranslated:
             errors.append(f"미번역: {group}:{untranslated[:30]}")
         rows.append(
-            {"group": group, "keys": len(english), "untranslated": len(untranslated)}
+            {
+                "group": group,
+                "keys": len(english),
+                "intentional_fallback_omissions": len(set(english) & omitted_keys),
+                "untranslated": len(untranslated),
+            }
         )
     report = {
         "groups": rows,

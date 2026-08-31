@@ -124,6 +124,7 @@
   "statusbar.createaddition.wire.invalid": "project_output_review",
   "statusbar.createaddition.wire.requires_high_current": "project_output_review",
   "block.createaddition.electric_motor": "project_output_review",
+  "block.createaddition.servo_motor": "new_translation_required",
   "block.createaddition.alternator": "project_output_review",
   "block.createaddition.creative_energy": "project_output_review",
   "block.createaddition.creative_energy.tooltip": "project_output_review",

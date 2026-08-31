@@ -2,12 +2,13 @@
   "family": "Create",
   "chapters": {
     "create": {
-      "display_keys": 190,
-      "project_output_review": 190
+      "display_keys": 217,
+      "intentional_fallback_omission": 28,
+      "project_output_review": 189
     },
     "related": {
-      "display_keys": 7,
-      "project_output_review": 7
+      "display_keys": 8,
+      "project_output_review": 8
     }
   }
 }
