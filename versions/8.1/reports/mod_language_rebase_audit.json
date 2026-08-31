@@ -2,13 +2,13 @@
   "pack_version": "8.1",
   "baseline_pack_version": "7.1",
   "translated_output_namespaces": 286,
-  "affected_translated_namespaces": 56,
+  "affected_translated_namespaces": 55,
   "review_queue_keys": 2141,
   "review_queue_missing_output_keys": 995,
-  "current_missing_output_keys": 3118,
+  "current_missing_output_keys": 3115,
   "review_queue_source_equal_output_keys": 13,
   "structurally_ready_affected_namespaces": 19,
-  "unchanged_reusable_keys": 35554,
+  "unchanged_reusable_keys": 35319,
   "removed_source_keys": 255,
   "validation_errors": [
     "eternal_starlight:book.eternal_starlight.nocturnal_millet: 줄바꿈 불일치",
@@ -94,66 +94,16 @@
     "the_bumblezone": 1
   },
   "source_conflicts": {
-    "resolution": "파일명 정렬상 뒤의 JAR 값 사용",
+    "current": [],
+    "baseline": []
+  },
+  "source_shadowed_jars": {
+    "rule": "latest.log에서 로드된 CC:Tweaked 버전만 사용",
     "current": [
-      "computercraft:en_us:gui.computercraft.config.execution.computer_threads.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.execution.max_main_computer_time.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.execution.max_main_global_time.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.bandwidth.global_download.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.bandwidth.global_upload.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.max_requests.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.max_websockets.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.proxy.port.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.proxy.type.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.maximum_open_files.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.monitor_distance.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.monitor_renderer.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.max_notes_per_tick.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.modem_high_altitude_range.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.modem_high_altitude_range_during_storm.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.modem_range.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.modem_range_during_storm.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.monitor_bandwidth.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.computer.height.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.computer.width.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.monitor.height.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.monitor.width.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.pocket_computer.height.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.pocket_computer.width.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.turtle.advanced_fuel_limit.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.turtle.normal_fuel_limit.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.upload_max_size.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.upload_nag_delay.tooltip:cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json"
+      "cc-tweaked-1.21.1-forge-1.113.1.jar"
     ],
     "baseline": [
-      "computercraft:en_us:gui.computercraft.config.execution.computer_threads.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.execution.max_main_computer_time.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.execution.max_main_global_time.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.bandwidth.global_download.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.bandwidth.global_upload.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.max_requests.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.max_websockets.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.proxy.port.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.http.proxy.type.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.maximum_open_files.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.monitor_distance.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.monitor_renderer.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.max_notes_per_tick.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.modem_high_altitude_range.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.modem_high_altitude_range_during_storm.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.modem_range.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.modem_range_during_storm.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.peripheral.monitor_bandwidth.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.computer.height.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.computer.width.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.monitor.height.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.monitor.width.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.pocket_computer.height.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.term_sizes.pocket_computer.width.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.turtle.advanced_fuel_limit.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.turtle.normal_fuel_limit.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.upload_max_size.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json",
-      "computercraft:en_us:gui.computercraft.config.upload_nag_delay.tooltip:cc-tweaked-1.21.1-forge-1.120.0.jar:assets/computercraft/lang/en_us.json"
+      "cc-tweaked-1.21.1-forge-1.113.1.jar"
     ]
   },
   "source_read_errors": {
@@ -8888,50 +8838,6 @@
       "sources": [
         "allthetweaks-1.21.1-2.9.4.jar:assets/allthetweaks/lang/en_us.json",
         "allthetweaks-1.21.1-2.9.4.jar:assets/allthetweaks/lang/ko_kr.json"
-      ]
-    },
-    {
-      "namespace": "computercraft",
-      "translated_output": true,
-      "current_english_keys": 238,
-      "output_korean_keys": 235,
-      "unchanged_reusable_keys": 235,
-      "unchanged_missing_keys": 3,
-      "unchanged_missing_key_names": [
-        "commands.computercraft.generic.no_position",
-        "commands.computercraft.generic.position",
-        "tracking_field.computercraft.java_allocation.name"
-      ],
-      "changed_source_keys": 0,
-      "changed_source_key_names": [],
-      "added_source_keys": 0,
-      "added_source_key_names": [],
-      "review_queue_keys": 0,
-      "review_queue_key_names": [],
-      "review_queue_missing_output_keys": 0,
-      "review_queue_missing_output_key_names": [],
-      "current_missing_output_keys": 3,
-      "current_missing_output_key_names": [
-        "commands.computercraft.generic.no_position",
-        "commands.computercraft.generic.position",
-        "tracking_field.computercraft.java_allocation.name"
-      ],
-      "review_queue_source_equal_output_keys": 0,
-      "review_queue_source_equal_output_key_names": [],
-      "installed_korean_candidates": 0,
-      "removed_source_keys": 0,
-      "removed_source_key_names": [],
-      "output_only_keys": 0,
-      "output_only_key_names": [],
-      "validation_errors": 0,
-      "validation_error_details": [],
-      "current_key_coverage_complete": false,
-      "structurally_ready": false,
-      "sources": [
-        "cc-tweaked-1.21.1-forge-1.113.1.jar:assets/computercraft/lang/en_us.json",
-        "cc-tweaked-1.21.1-forge-1.113.1.jar:assets/computercraft/lang/ko_kr.json",
-        "cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/en_us.json",
-        "cc-tweaked-1.21.1-forge-1.120.2.jar:assets/computercraft/lang/ko_kr.json"
       ]
     },
     {

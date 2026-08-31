@@ -18,9 +18,34 @@ from version_context import baseline_pack_version
 LANG_RE = re.compile(r"^assets/([^/]+)/lang/(en_us|ko_kr)\.json$", re.IGNORECASE)
 PLACEHOLDER_RE = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{[A-Za-z0-9_]+\}")
 FORMAT_RE = re.compile(r"(?:§|&)[0-9a-fk-or]", re.IGNORECASE)
+CC_VERSION_RE = re.compile(r"CC: Tweaked ([0-9A-Za-z.+-]+) \(computercraft\)")
+CC_JAR_PREFIX = "cc-tweaked-1.21.1-forge-"
 OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
 REPORT_JSON = active_report_dir() / "mod_language_rebase_audit.json"
 REPORT_MD = active_report_dir() / "mod_language_rebase_audit.md"
+
+
+def select_language_jars(instance: Path) -> tuple[list[Path], list[str]]:
+    """실행 로그에서 확인된 CC:Tweaked 버전과 충돌하는 JAR을 제외한다."""
+    jars = sorted((instance / "mods").glob("*.jar"), key=lambda item: item.name.lower())
+    log_path = instance / "logs/latest.log"
+    if not log_path.is_file():
+        return jars, []
+    matches = CC_VERSION_RE.findall(
+        log_path.read_text(encoding="utf-8", errors="replace")
+    )
+    if not matches:
+        return jars, []
+    loaded_name = f"{CC_JAR_PREFIX}{matches[-1]}.jar"
+    if not any(jar.name.lower() == loaded_name.lower() for jar in jars):
+        return jars, []
+    shadowed = [
+        jar.name
+        for jar in jars
+        if jar.name.lower().startswith(CC_JAR_PREFIX)
+        and jar.name.lower() != loaded_name.lower()
+    ]
+    return [jar for jar in jars if jar.name not in shadowed], shadowed
 
 
 def load_languages(
@@ -31,6 +56,7 @@ def load_languages(
     dict[str, list[str]],
     list[str],
     list[str],
+    list[str],
 ]:
     """모든 JAR의 영어·한국어 언어 파일을 네임스페이스별로 합친다."""
     english: dict[str, dict[str, str]] = defaultdict(dict)
@@ -38,9 +64,8 @@ def load_languages(
     sources: dict[str, list[str]] = defaultdict(list)
     conflicts: list[str] = []
     read_errors: list[str] = []
-    for jar in sorted(
-        (instance / "mods").glob("*.jar"), key=lambda item: item.name.lower()
-    ):
+    jars, shadowed_jars = select_language_jars(instance)
+    for jar in jars:
         with zipfile.ZipFile(jar) as archive:
             for name in sorted(archive.namelist()):
                 match = LANG_RE.fullmatch(name)
@@ -68,11 +93,17 @@ def load_languages(
                         conflicts.append(
                             f"{namespace}:{locale}:{key}:{jar.name}:{name}"
                         )
-                        # 여러 버전이 함께 남아 있어도 로더는 최신 버전을 선택하므로
-                        # 정렬상 뒤의 JAR 원문을 기준으로 삼는다.
+                        # 충돌은 보고서에 남기되, 뒤에 읽은 값을 최종 원문으로 사용한다.
                     target[namespace][key] = value
                 sources[namespace].append(f"{jar.name}:{name}")
-    return dict(english), dict(korean), dict(sources), conflicts, read_errors
+    return (
+        dict(english),
+        dict(korean),
+        dict(sources),
+        conflicts,
+        read_errors,
+        shadowed_jars,
+    )
 
 
 def load_output(namespace: str) -> dict[str, str]:
@@ -137,10 +168,17 @@ def main() -> int:
     instance = resolve_source_root(args.instance)
     base_instance = args.base_instance.resolve()
 
-    current_en, current_ko, current_sources, current_conflicts, current_errors = (
-        load_languages(instance)
+    (
+        current_en,
+        current_ko,
+        current_sources,
+        current_conflicts,
+        current_errors,
+        current_shadowed_jars,
+    ) = load_languages(instance)
+    base_en, _, _, base_conflicts, base_errors, base_shadowed_jars = load_languages(
+        base_instance
     )
-    base_en, _, _, base_conflicts, base_errors = load_languages(base_instance)
     translated_namespaces = {
         path.parent.parent.name.lower()
         for path in OUTPUT_ASSETS.glob("*/lang/ko_kr.json")
@@ -253,9 +291,13 @@ def main() -> int:
             sorted(Counter(error.partition(":")[0] for error in all_errors).items())
         ),
         "source_conflicts": {
-            "resolution": "파일명 정렬상 뒤의 JAR 값 사용",
             "current": current_conflicts,
             "baseline": base_conflicts,
+        },
+        "source_shadowed_jars": {
+            "rule": "latest.log에서 로드된 CC:Tweaked 버전만 사용",
+            "current": current_shadowed_jars,
+            "baseline": base_shadowed_jars,
         },
         "source_read_errors": {
             "current": current_errors,
@@ -331,8 +373,10 @@ def main() -> int:
             "",
             f"- 현재 JAR 중복 원문 충돌 기록: {len(current_conflicts):,}개",
             f"- 기준 JAR 중복 원문 충돌 기록: {len(base_conflicts):,}개",
-            "- 중복 키는 파일명 정렬상 뒤의 JAR 값을 사용합니다. 현재 설치본의 "
-            "CC:Tweaked는 실행 로그에서 1.120.2가 로드된 것을 확인했습니다.",
+            "- 실행 로그에서 로드된 버전과 다른 현재 CC:Tweaked JAR 제외: "
+            f"{len(current_shadowed_jars):,}개",
+            "- 실행 로그에서 로드된 버전과 다른 기준 CC:Tweaked JAR 제외: "
+            f"{len(base_shadowed_jars):,}개",
             f"- 현재 JAR 언어 파일 읽기 오류: {len(current_errors):,}개",
             f"- 기준 JAR 언어 파일 읽기 오류: {len(base_errors):,}개",
             "- 자세한 키와 파일 경로는 같은 이름의 JSON 보고서에 기록했습니다.",

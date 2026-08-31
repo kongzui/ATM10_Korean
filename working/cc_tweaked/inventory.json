@@ -3,7 +3,7 @@
   "installed": [
     {
       "label": "CC: Tweaked",
-      "jar": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+      "jar": "cc-tweaked-1.21.1-forge-1.120.2.jar",
       "namespace": "computercraft",
       "direct_integration": false,
       "language_target": true,
@@ -45,11 +45,11 @@
     },
     {
       "label": "Advanced Peripherals",
-      "jar": "AdvancedPeripherals-1.21.1-0.7.62b.jar",
+      "jar": "AdvancedPeripherals-1.21.1-0.8.0a.jar",
       "namespace": "advancedperipherals",
       "direct_integration": false,
       "language_target": true,
-      "english_keys": 86,
+      "english_keys": 133,
       "bundled_korean_keys": 89,
       "metadata_mentions_family": [
         "advancedperipherals",
@@ -78,30 +78,30 @@
         "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/environment_detector.json",
         "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/geo_scanner.json"
       ],
-      "advancements": 27,
+      "advancements": 43,
       "advancement_examples": [
+        "data/advancedperipherals/advancement/recipes/combat/armor/smart_glasses_netherite.json",
+        "data/advancedperipherals/advancement/recipes/redstone/ae_disk_cell_16m.json",
+        "data/advancedperipherals/advancement/recipes/redstone/ae_disk_cell_1m.json",
+        "data/advancedperipherals/advancement/recipes/redstone/ae_disk_cell_256m.json",
+        "data/advancedperipherals/advancement/recipes/redstone/ae_disk_cell_4m.json",
+        "data/advancedperipherals/advancement/recipes/redstone/ae_disk_cell_64m.json",
         "data/advancedperipherals/advancement/recipes/redstone/block_reader.json",
         "data/advancedperipherals/advancement/recipes/redstone/chat_box.json",
         "data/advancedperipherals/advancement/recipes/redstone/chunk_controller.json",
         "data/advancedperipherals/advancement/recipes/redstone/colony_integrator.json",
         "data/advancedperipherals/advancement/recipes/redstone/computer_tool.json",
+        "data/advancedperipherals/advancement/recipes/redstone/distance_detector.json",
         "data/advancedperipherals/advancement/recipes/redstone/energy_detector.json",
         "data/advancedperipherals/advancement/recipes/redstone/environment_detector.json",
+        "data/advancedperipherals/advancement/recipes/redstone/fluid_detector.json",
+        "data/advancedperipherals/advancement/recipes/redstone/gas_detector.json",
         "data/advancedperipherals/advancement/recipes/redstone/geo_scanner.json",
         "data/advancedperipherals/advancement/recipes/redstone/inventory_manager.json",
-        "data/advancedperipherals/advancement/recipes/redstone/me_bridge.json",
-        "data/advancedperipherals/advancement/recipes/redstone/memory_card.json",
-        "data/advancedperipherals/advancement/recipes/redstone/nbt_storage.json",
-        "data/advancedperipherals/advancement/recipes/redstone/overpowered_end_automata_core.json",
-        "data/advancedperipherals/advancement/recipes/redstone/overpowered_husbandry_automata_core.json",
-        "data/advancedperipherals/advancement/recipes/redstone/overpowered_weak_automata_core.json",
-        "data/advancedperipherals/advancement/recipes/redstone/peripheral_casing.json",
-        "data/advancedperipherals/advancement/recipes/redstone/player_detector.json",
-        "data/advancedperipherals/advancement/recipes/redstone/rs_bridge.json",
-        "data/advancedperipherals/advancement/recipes/redstone/weak_automata_core.json",
-        "data/advancedperipherals/advancements/base_toolkit.json"
+        "data/advancedperipherals/advancement/recipes/redstone/keyboard.json",
+        "data/advancedperipherals/advancement/recipes/redstone/me_bridge.json"
       ],
-      "recipes": 39
+      "recipes": 71
     },
     {
       "label": "More Red",
@@ -149,13 +149,7 @@
       ]
     },
     {
-      "jar": "Draconic-Evolution-1.21.1-3.1.4.632.jar",
-      "dependency_mentions": [
-        "computercraft"
-      ]
-    },
-    {
-      "jar": "energymeter-neoforge-1.21.1-0.4.1.jar",
+      "jar": "energymeter-neoforge-1.21.1-0.5.2.jar",
       "dependency_mentions": [
         "computercraft"
       ]

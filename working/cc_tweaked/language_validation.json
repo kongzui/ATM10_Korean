@@ -31,8 +31,7 @@
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
       "bundled_exact_reuse": 9,
-      "project_output_reuse": 62,
-      "new_or_edited": 62
+      "project_output_reuse": 124
     },
     {
       "label": "More Red",
@@ -52,8 +51,8 @@
   ],
   "language_provenance": {
     "bundled_exact_reuse": 70,
-    "project_output_reuse": 287,
-    "new_or_edited": 62
+    "project_output_reuse": 349,
+    "new_or_edited": 0
   },
   "ftbquests": {
     "chapters": [],
