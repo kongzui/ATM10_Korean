@@ -68,7 +68,8 @@ def load_languages(
                         conflicts.append(
                             f"{namespace}:{locale}:{key}:{jar.name}:{name}"
                         )
-                        continue
+                        # 여러 버전이 함께 남아 있어도 로더는 최신 버전을 선택하므로
+                        # 정렬상 뒤의 JAR 원문을 기준으로 삼는다.
                     target[namespace][key] = value
                 sources[namespace].append(f"{jar.name}:{name}")
     return dict(english), dict(korean), dict(sources), conflicts, read_errors
@@ -95,10 +96,36 @@ def validation_errors(
     for key in sorted(set(english) & set(korean)):
         source = english[key]
         translated = korean[key]
-        if PLACEHOLDER_RE.findall(source) != PLACEHOLDER_RE.findall(translated):
+        protected_source = source
+        protected_translated = translated
+        is_jei_search_mode = (
+            namespace == "jei"
+            and key.startswith("jei.config.client.search.")
+            and key.endswith("SearchMode")
+            and source[:1] in "@#$^&%"
+        )
+        if is_jei_search_mode:
+            if translated[:1] != source[:1]:
+                errors.append(f"{namespace}:{key}: JEI 검색 접두사 불일치")
+            protected_source = source[1:]
+            protected_translated = translated[1:]
+        source_placeholders = PLACEHOLDER_RE.findall(protected_source)
+        translated_placeholders = PLACEHOLDER_RE.findall(protected_translated)
+        if Counter(source_placeholders) != Counter(translated_placeholders):
             errors.append(f"{namespace}:{key}: 자리표시자 불일치")
-        if FORMAT_RE.findall(source) != FORMAT_RE.findall(translated):
+        elif source_placeholders != translated_placeholders and any(
+            token.startswith("%") and re.fullmatch(r"%\d+\$[a-zA-Z]", token) is None
+            for token in source_placeholders
+        ):
+            errors.append(f"{namespace}:{key}: 비순번 자리표시자 순서 불일치")
+        source_formats = Counter(token.lower() for token in FORMAT_RE.findall(source))
+        translated_formats = Counter(
+            token.lower() for token in FORMAT_RE.findall(translated)
+        )
+        if source_formats != translated_formats:
             errors.append(f"{namespace}:{key}: 서식 코드 불일치")
+        if source.count("\n") != translated.count("\n"):
+            errors.append(f"{namespace}:{key}: 줄바꿈 불일치")
     return errors
 
 
@@ -138,6 +165,11 @@ def main() -> int:
         reusable = unchanged & set(output)
         unchanged_missing = unchanged - set(output)
         queue = changed | added
+        queue_missing_output = queue - set(output)
+        current_missing_output = set(current) - set(output)
+        queue_source_equal_output = {
+            key for key in queue & set(output) if current[key] == output[key]
+        }
         installed_candidates = queue & set(current_ko.get(namespace, {}))
         errors = validation_errors(namespace, current, output)
         all_errors.extend(errors)
@@ -156,6 +188,14 @@ def main() -> int:
                 "added_source_key_names": sorted(added),
                 "review_queue_keys": len(queue),
                 "review_queue_key_names": sorted(queue),
+                "review_queue_missing_output_keys": len(queue_missing_output),
+                "review_queue_missing_output_key_names": sorted(queue_missing_output),
+                "current_missing_output_keys": len(current_missing_output),
+                "current_missing_output_key_names": sorted(current_missing_output),
+                "review_queue_source_equal_output_keys": len(queue_source_equal_output),
+                "review_queue_source_equal_output_key_names": sorted(
+                    queue_source_equal_output
+                ),
                 "installed_korean_candidates": len(installed_candidates),
                 "removed_source_keys": len(removed),
                 "removed_source_key_names": sorted(removed),
@@ -163,6 +203,8 @@ def main() -> int:
                 "output_only_key_names": sorted(set(output) - set(current)),
                 "validation_errors": len(errors),
                 "validation_error_details": errors,
+                "current_key_coverage_complete": set(output) == set(current),
+                "structurally_ready": (set(output) == set(current) and not errors),
                 "sources": current_sources.get(namespace, []),
             }
         )
@@ -190,6 +232,18 @@ def main() -> int:
         "translated_output_namespaces": len(translated_namespaces),
         "affected_translated_namespaces": len(affected),
         "review_queue_keys": sum(int(row["review_queue_keys"]) for row in affected),
+        "review_queue_missing_output_keys": sum(
+            int(row["review_queue_missing_output_keys"]) for row in affected
+        ),
+        "current_missing_output_keys": sum(
+            int(row["current_missing_output_keys"]) for row in affected
+        ),
+        "review_queue_source_equal_output_keys": sum(
+            int(row["review_queue_source_equal_output_keys"]) for row in affected
+        ),
+        "structurally_ready_affected_namespaces": sum(
+            bool(row["structurally_ready"]) for row in affected
+        ),
         "unchanged_reusable_keys": sum(
             int(row["unchanged_reusable_keys"]) for row in affected
         ),
@@ -199,6 +253,7 @@ def main() -> int:
             sorted(Counter(error.partition(":")[0] for error in all_errors).items())
         ),
         "source_conflicts": {
+            "resolution": "파일명 정렬상 뒤의 JAR 값 사용",
             "current": current_conflicts,
             "baseline": base_conflicts,
         },
@@ -226,6 +281,14 @@ def main() -> int:
         f"- 기존 번역 네임스페이스: {len(translated_namespaces):,}개",
         f"- 변경 영향 네임스페이스: {len(affected):,}개",
         f"- 변경·신규 원문 검토 키: {report['review_queue_keys']:,}개",
+        "- 검토 키 중 현재 산출물에 없는 키: "
+        f"{report['review_queue_missing_output_keys']:,}개",
+        "- 현재 영어 원문 전체에서 산출물에 없는 키: "
+        f"{report['current_missing_output_keys']:,}개",
+        "- 검토 키 중 영어 원문과 같은 산출물: "
+        f"{report['review_queue_source_equal_output_keys']:,}개",
+        "- 현재 키 구조와 보호 문자열 검사가 끝난 영향 네임스페이스: "
+        f"{report['structurally_ready_affected_namespaces']:,}개",
         f"- 그대로 재사용 가능한 키: {report['unchanged_reusable_keys']:,}개",
         f"- 현재 원문에서 제거된 키: {report['removed_source_keys']:,}개",
         f"- 자리표시자·서식 오류: {len(all_errors):,}개",
@@ -234,14 +297,18 @@ def main() -> int:
         "",
         "## 변경 영향 네임스페이스",
         "",
-        "| 네임스페이스 | 검토 키 | 변경 | 신규 | 제거 | 그대로 재사용 |",
-        "|---|---:|---:|---:|---:|---:|",
+        "| 네임스페이스 | 검토 키 | 전체 누락 | 검토분 누락 | 영어 동일 | 변경 | 신규 | 제거 | 구조 준비 |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|:---:|",
     ]
     for row in report["affected"]:
         lines.append(
             f"| {row['namespace']} | {row['review_queue_keys']} | "
+            f"{row['current_missing_output_keys']} | "
+            f"{row['review_queue_missing_output_keys']} | "
+            f"{row['review_queue_source_equal_output_keys']} | "
             f"{row['changed_source_keys']} | {row['added_source_keys']} | "
-            f"{row['removed_source_keys']} | {row['unchanged_reusable_keys']} |"
+            f"{row['removed_source_keys']} | "
+            f"{'예' if row['structurally_ready'] else '아니요'} |"
         )
     lines.extend(
         [
@@ -264,6 +331,8 @@ def main() -> int:
             "",
             f"- 현재 JAR 중복 원문 충돌 기록: {len(current_conflicts):,}개",
             f"- 기준 JAR 중복 원문 충돌 기록: {len(base_conflicts):,}개",
+            "- 중복 키는 파일명 정렬상 뒤의 JAR 값을 사용합니다. 현재 설치본의 "
+            "CC:Tweaked는 실행 로그에서 1.120.2가 로드된 것을 확인했습니다.",
             f"- 현재 JAR 언어 파일 읽기 오류: {len(current_errors):,}개",
             f"- 기준 JAR 언어 파일 읽기 오류: {len(base_errors):,}개",
             "- 자세한 키와 파일 경로는 같은 이름의 JSON 보고서에 기록했습니다.",
