@@ -4,11 +4,11 @@
     "mods": [
       {
         "namespace": "fancymenu",
-        "keys": 3367,
-        "expected_keys": 3367,
+        "keys": 3368,
+        "expected_keys": 3368,
         "bundled_candidate_keys": 3367,
-        "bundled_candidate_values_reused": 2943,
-        "new_or_corrected_values": 424,
+        "bundled_candidate_values_reused": 2923,
+        "new_or_corrected_values": 445,
         "intentional_technical_same_values": [
           "fancymenu.actions.blocks.delay",
           "fancymenu.actions.blocks.else",
@@ -103,11 +103,11 @@
       },
       {
         "namespace": "sodium-extra",
-        "keys": 380,
-        "expected_keys": 380,
+        "keys": 416,
+        "expected_keys": 416,
         "bundled_candidate_keys": 380,
-        "bundled_candidate_values_reused": 139,
-        "new_or_corrected_values": 241,
+        "bundled_candidate_values_reused": 138,
+        "new_or_corrected_values": 278,
         "intentional_technical_same_values": [
           "sodium-extra.overlay.coordinates",
           "sodium-extra.overlay.fps"
@@ -223,11 +223,11 @@
       },
       {
         "namespace": "iris_search",
-        "keys": 5,
-        "expected_keys": 5,
+        "keys": 9,
+        "expected_keys": 9,
         "bundled_candidate_keys": 0,
         "bundled_candidate_values_reused": 0,
-        "new_or_corrected_values": 5,
+        "new_or_corrected_values": 9,
         "intentional_technical_same_values": [],
         "no_hangul_values": [],
         "foreign_script_values": {},
@@ -236,8 +236,8 @@
         "status": "complete"
       }
     ],
-    "keys": 4189,
-    "expected_keys": 4189,
+    "keys": 4230,
+    "expected_keys": 4230,
     "errors": [],
     "status": "complete"
   },

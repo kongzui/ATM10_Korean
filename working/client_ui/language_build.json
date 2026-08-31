@@ -3,18 +3,18 @@
   "mods": [
     {
       "namespace": "fancymenu",
-      "english_keys": 3367,
+      "english_keys": 3368,
       "bundled_candidate_keys": 3367,
-      "bundled_candidate_values_reused": 2943,
-      "new_or_corrected_values": 424,
+      "bundled_candidate_values_reused": 2923,
+      "new_or_corrected_values": 445,
       "status": "complete"
     },
     {
       "namespace": "sodium-extra",
-      "english_keys": 380,
+      "english_keys": 416,
       "bundled_candidate_keys": 380,
-      "bundled_candidate_values_reused": 139,
-      "new_or_corrected_values": 241,
+      "bundled_candidate_values_reused": 138,
+      "new_or_corrected_values": 278,
       "status": "complete"
     },
     {
@@ -43,14 +43,14 @@
     },
     {
       "namespace": "iris_search",
-      "english_keys": 5,
+      "english_keys": 9,
       "bundled_candidate_keys": 0,
       "bundled_candidate_values_reused": 0,
-      "new_or_corrected_values": 5,
+      "new_or_corrected_values": 9,
       "status": "complete"
     }
   ],
-  "english_keys": 4189,
+  "english_keys": 4230,
   "errors": [],
   "status": "complete"
 }

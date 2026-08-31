@@ -3,23 +3,23 @@
   "mods": [
     {
       "namespace": "fancymenu",
-      "jar": "fancymenu_neoforge_3.9.1_MC_1.21.1.jar",
-      "jar_size": 25346355,
-      "jar_mtime_ns": 1783222266947264800,
-      "english_keys": 3367,
+      "jar": "fancymenu_neoforge_3.9.12_MC_1.21.1.jar",
+      "jar_size": 25912346,
+      "jar_mtime_ns": 1788168113079948000,
+      "english_keys": 3368,
       "bundled_korean_keys": 3367,
-      "missing_candidate_keys": 0,
+      "missing_candidate_keys": 1,
       "extra_candidate_keys": 0
     },
     {
       "namespace": "sodium-extra",
-      "jar": "sodium-extra-neoforge-0.8.7+mc1.21.1.jar",
-      "jar_size": 397562,
-      "jar_mtime_ns": 1783222429833434100,
-      "english_keys": 380,
+      "jar": "sodium-extra-neoforge-0.9.3+mc1.21.1.jar",
+      "jar_size": 465013,
+      "jar_mtime_ns": 1788168097817140000,
+      "english_keys": 416,
       "bundled_korean_keys": 380,
-      "missing_candidate_keys": 0,
-      "extra_candidate_keys": 0
+      "missing_candidate_keys": 38,
+      "extra_candidate_keys": 2
     },
     {
       "namespace": "iris",
@@ -53,16 +53,16 @@
     },
     {
       "namespace": "iris_search",
-      "jar": "IrisSearch-1.2.2-neoforge.jar",
-      "jar_size": 155400,
-      "jar_mtime_ns": 1783222378418807600,
-      "english_keys": 5,
+      "jar": "IrisSearch-1.6.1-neoforge.jar",
+      "jar_size": 200176,
+      "jar_mtime_ns": 1788168054677684900,
+      "english_keys": 9,
       "bundled_korean_keys": 0,
-      "missing_candidate_keys": 5,
+      "missing_candidate_keys": 9,
       "extra_candidate_keys": 0
     }
   ],
-  "english_keys": 4189,
+  "english_keys": 4230,
   "bundled_korean_candidate_keys": 3814,
   "status": "prepared"
 }

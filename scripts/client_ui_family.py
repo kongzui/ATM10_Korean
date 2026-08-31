@@ -37,12 +37,12 @@ VISIBLE_DATA_KEYS = {
 MODS = {
     "fancymenu": {
         "jar": "fancymenu_neoforge_*.jar",
-        "keys": 3367,
+        "keys": 3368,
         "bundled_korean": True,
     },
     "sodium-extra": {
         "jar": "sodium-extra-neoforge-*.jar",
-        "keys": 380,
+        "keys": 416,
         "bundled_korean": True,
     },
     "iris": {
@@ -62,7 +62,7 @@ MODS = {
     },
     "iris_search": {
         "jar": "IrisSearch-*.jar",
-        "keys": 5,
+        "keys": 9,
         "bundled_korean": False,
     },
 }
@@ -99,6 +99,146 @@ FANCY_REPLACEMENTS = (
 )
 
 FANCY_OVERRIDES = {
+    "fancymenu.actions.blocks.add.delay": "DELAY GATE 블록 추가",
+    "fancymenu.actions.blocks.add.delay.desc": (
+        "지연 게이트 블록을 추가합니다. 처음 도달하면 일회성 타이머를 시작하고 안의 "
+        "동작을 건너뜁니다. 바깥 스크립트는 즉시 계속됩니다.\n\n"
+        "이 블록은 실행을 예약하지 않습니다. 스크립트가 같은 블록 인스턴스에 다시 "
+        "도달할 때만 타이머를 확인합니다. 타이머가 끝나기 전에 도달하면 안의 동작을 "
+        "건너뜁니다. 만료 시점 또는 그 이후 처음 도달하면 게이트가 열리고 동작을 "
+        "실행하며, 이후에는 도달할 때마다 즉시 실행합니다.\n\n"
+        "지연 시간은 밀리초 단위입니다. 잘못된 값을 포함해 계산된 지연이 0 이하면 "
+        "게이트가 즉시 열립니다.\n\n"
+        "게이트는 해당 동작 스크립트 인스턴스가 다시 만들어지거나 교체될 때만 "
+        "초기화됩니다.\n\n"
+        "도달할 때마다 새 지연 실행을 예약하려면 대신 Execute Later를 사용하세요."
+    ),
+    "fancymenu.actions.blocks.delay": "DELAY GATE (%s ms)",
+    "fancymenu.actions.blocks.delay.edit": "지연 게이트 편집(ms)",
+    "fancymenu.actions.quitgame.desc": (
+        "Minecraft 클라이언트를 중지하고 정상 종료 절차를 시작합니다."
+    ),
+    "fancymenu.actions.reload_resource_packs.desc": (
+        "F3 + T를 누른 것처럼 리소스 팩을 다시 불러옵니다.\n\n"
+        "다시 불러오기를 실행한 뒤 이 동작에는 오 초의 재사용 대기시간이 적용됩니다. "
+        "대기 중 실행 요청은 무시됩니다."
+    ),
+    "fancymenu.actions.screens.finish.no_action_selected": (
+        "§x먼저 동작을 선택해야 합니다!"
+    ),
+    "fancymenu.actions.show_toast.edit.width.desc": (
+        "토스트 너비를 픽셀 단위로 설정합니다. 허용 범위는 120~320픽셀이며, 범위를 "
+        "벗어난 값은 가장 가까운 한계값으로 조정됩니다. 기본 너비는 160픽셀입니다."
+    ),
+    "fancymenu.backgrounds.browser.mute_media": "브라우저 음소거: %s",
+    "fancymenu.backgrounds.browser.mute_media.desc": (
+        "팝업과 동적으로 불러온 콘텐츠를 포함해 이 브라우저에서 나오는 모든 소리를 "
+        "음소거합니다."
+    ),
+    "fancymenu.decoration_overlays.browser.mute_media": "브라우저 음소거: %s",
+    "fancymenu.decoration_overlays.browser.mute_media.desc": (
+        "팝업과 동적으로 불러온 콘텐츠를 포함해 이 브라우저에서 나오는 모든 소리를 "
+        "음소거합니다."
+    ),
+    "fancymenu.elements.browser.mute_media": "브라우저 음소거: %s",
+    "fancymenu.elements.browser.mute_media.desc": (
+        "팝업과 동적으로 불러온 콘텐츠를 포함해 이 브라우저에서 나오는 모든 소리를 "
+        "음소거합니다."
+    ),
+    "fancymenu.elements.video_rinku.sound_channel": "소리 채널: %s",
+    "fancymenu.listeners.on_position_changed.desc": (
+        "이 리스너는 로컬 플레이어의 블록 위치가 바뀔 때마다 한 번 실행됩니다.\n\n"
+        "동작과 조건에 사용할 수 있는 변수는 다음과 같습니다:\n\n"
+        "- §z$$old_pos_x §r= 이전 블록 X 좌표\n"
+        "- §z$$old_pos_y §r= 이전 블록 Y 좌표\n"
+        "- §z$$old_pos_z §r= 이전 블록 Z 좌표\n"
+        "- §z$$new_pos_x §r= 새 블록 X 좌표\n"
+        "- §z$$new_pos_y §r= 새 블록 Y 좌표\n"
+        "- §z$$new_pos_z §r= 새 블록 Z 좌표"
+    ),
+    "fancymenu.overlay.menu_bar.customization.settings.developer.force_rinku_missing": (
+        "Rinku 없음으로 강제: %s"
+    ),
+    "fancymenu.placeholders.file_text.desc": (
+        "로컬 파일 또는 원격 URL에서 텍스트를 읽어 반환합니다.\n"
+        "전체 내용 또는 마지막 몇 줄만 읽을 수 있습니다.\n\n"
+        "성능 향상을 위해 내용을 캐시합니다:\n"
+        "- 로컬 파일: 1초마다 다시 읽음\n"
+        "- URL: 10초마다 다시 읽음\n\n"
+        "필수 값:\n"
+        "- path_or_url: 읽을 파일 경로 또는 URL\n"
+        "  로컬 파일: 활성 Minecraft 인스턴스 안의 경로 사용(예: "
+        "'config/myfile.txt')\n"
+        "  원격 파일: HTTP/HTTPS URL 사용(예: 'https://example.com/data.txt')\n"
+        "  \n"
+        "파일 경로를 '.minecraft/'로 시작하면 기본 .minecraft 디렉터리를 대상으로 "
+        "합니다. 선택된 두 루트 밖으로 나가는 경로는 사용할 수 없습니다.\n\n"
+        "선택 값:\n"
+        "- mode: 내용을 읽는 방식(기본값: 'all')\n"
+        "  옵션: 'all'(전체 내용), 'last'(마지막 X줄)\n"
+        "- separator: 줄을 합칠 때 사이에 넣는 텍스트(기본값: '\\n')\n"
+        "  일반적인 옵션: '\\n'(줄바꿈), ' | ', ', ', ' '\n"
+        "- last_lines: 'last' 모드에서 반환할 줄 수(기본값: 1)\n"
+        "  mode가 'last'일 때만 사용됩니다.\n\n"
+        "참고: mode가 'last'이고 last_lines가 1이면,\n"
+        "한 줄을 구분자 없이 반환합니다.\n\n"
+        "소스가 아직 캐시되지 않았거나 존재하지 않거나 읽을 수 없거나, URL에 연결할 "
+        "인터넷이 없으면 빈 문자열을 반환합니다.\n\n"
+        "§x보안: 가져온 사용자 지정 항목은 이 자리표시자로 두 루트 안의 파일을 읽고 "
+        "그 결과를 네트워크 동작과 결합할 수 있습니다. 신뢰하는 사용자 지정 항목만 "
+        "가져오고 먼저 자리표시자와 동작을 확인하세요."
+    ),
+    "fancymenu.placeholders.json.desc": (
+        "JSON을 분석해 그 안의 값을 가져옵니다.\n\n"
+        "'source' 값은 다음을 지원합니다:\n"
+        '- 직접 입력한 JSON 내용(예: {"key":"value"})\n'
+        "- 활성 Minecraft 인스턴스 안의 로컬 JSON 파일 경로\n"
+        "- 원격 JSON 파일 URL\n\n"
+        "로컬 경로는 활성 인스턴스 디렉터리 밖으로 나갈 수 없습니다. 원하는 값을 "
+        "가져오려면 '$.some.json.path'를 해당 값의 JSON 경로로 바꾸세요.\n\n"
+        "§x보안: 가져온 사용자 지정 항목은 이 자리표시자로 인스턴스 안의 JSON 값을 "
+        "읽고 그 결과를 네트워크 동작과 결합할 수 있습니다. 신뢰하는 사용자 지정 "
+        "항목만 가져오고 먼저 자리표시자와 동작을 확인하세요.\n\n"
+        "§zJSON 경로를 더 알아보려면 §ljson.fancymenu.net§r§z을 확인하세요."
+    ),
+    "fancymenu.requirements.guiscale.desc": (
+        "현재 GUI 배율이 X인지 확인합니다.\n\n"
+        "X보다 큰지('>'),\n"
+        "작은지('<'), 같은지 확인할 수 있습니다.\n\n"
+        "예를 들어 배율이 3.20보다 작은지\n"
+        "확인하려면 '<3.20'을 입력하세요\n"
+        "(따옴표는 제외). 배율이 1.0과 같은지\n"
+        "확인하려면 '1.0'만 입력하세요\n"
+        "(따옴표는 제외). 배율이 2.20보다 크다면\n"
+        "'>2.20'을 입력하세요(따옴표는 제외).\n\n"
+        "여러 조건은 쉼표로 구분합니다.\n"
+        "등호 값은 여러 대안 중 하나이며, 모든\n"
+        "'>' 및 '<' 조건은 충족해야 합니다."
+    ),
+    "fancymenu.requirements.is_rinku_loaded.desc": (
+        "Rinku 모드가 로드되었는지 확인합니다.\n\n"
+        "Rinku는 브라우저 기능과 더 이상 권장되지 않는\n"
+        "Rinku 기반 비디오 요소 및 메뉴 배경에 필요합니다. 기본 비디오\n"
+        "기능은 대신 Watermedia를 사용합니다."
+    ),
+    "fancymenu.requirements.mouse_click": "마우스 버튼을 누르는 중",
+    "fancymenu.requirements.mouse_click.desc": (
+        "지정한 마우스 버튼을 누르고 있는 동안 계속 true를 반환합니다.\n"
+        "버튼은 'left' 또는 'right'로 선택하세요."
+    ),
+    "fancymenu.requirements.once_per_session.desc": (
+        "이 조건의 각 인스턴스는 게임 세션마다 한 번씩 true를 반환합니다.\n"
+        "한 인스턴스가 true를 반환한 뒤에는 게임을 다시 시작할 때까지\n"
+        "false를 반환합니다."
+    ),
+    "fancymenu.resources.source_type.local.desc": (
+        "이 소스 유형은 활성 Minecraft 인스턴스 디렉터리\n"
+        "안으로 제한된 파일을 불러옵니다. 명시적인 '.minecraft/'\n"
+        "접두사는 대신 기본 Minecraft 디렉터리를 대상으로 합니다.\n"
+        "FancyMenu 자산은 '/config/fancymenu/assets/'에 저장하세요.\n"
+        "가져온 사용자 지정 항목은 이 루트 안의 파일에 접근할 수 있으므로\n"
+        "신뢰하는 사용자 지정 항목만 가져오세요."
+    ),
     "fancymenu.actions.multiselect.warning.override": (
         "§x§l동작 스크립트를 덮어쓸까요?\n\n"
         "선택한 항목들의 동작 스크립트가 서로 달라요!\n"
@@ -427,7 +567,15 @@ IRIS_SEARCH_TEXT = {
     "iris_search.button.clear": "지우기",
     "iris_search.tooltip.search": "셰이더 설정 검색(Ctrl + F)",
     "iris_search.tooltip.clear": "셰이더 검색 종료(Esc)",
-    "iris_search.search.hint": "옵션 검색...",
+    "fml.menu.mods.info.description.iris_search": (
+        "Iris 모드에 검색창을 추가하는 모드입니다."
+    ),
+    "iris_search.option_search.hint": "옵션 검색...",
+    "iris_search.pack_search.hint": "셰이더 팩 검색...",
+    "iris_search.pack_search.no_results": "검색과 일치하는 셰이더 팩이 없습니다",
+    "modmenu.descriptionTranslation.iris_search": (
+        "Iris 모드에 검색창을 추가하는 모드입니다."
+    ),
 }
 
 FZZY_TEXT = {
@@ -911,6 +1059,128 @@ EXTREME_ESCAPED_LINE_KEYS = {
 }
 
 SODIUM_OVERRIDES = {
+    "sodium-extra.option.advanced_fog_settings": "고급 안개 설정",
+    "sodium-extra.option.advanced_fog_settings.tooltip": (
+        "차원별 안개와 보호된 게임플레이 안개 설정을 엽니다. 끄면 아래의 전체 안개 "
+        "설정이 모든 곳에 적용됩니다."
+    ),
+    "sodium-extra.option.cloud_fog": "구름 안개",
+    "sodium-extra.option.cloud_fog.tooltip": (
+        "구름 렌더링 거리 안에서 구름이 안개로 완전히 사라지는 거리를 조절합니다. "
+        "카메라 위치부터 흐려지기 시작합니다.\n100%: 바닐라 구름 안개"
+    ),
+    "sodium-extra.option.cloud_height.tooltip": (
+        "Sodium Extra의 구름 높이 재정의에 사용할 구름 높이를 설정합니다."
+    ),
+    "sodium-extra.option.cloud_height_override": "구름 높이 재정의",
+    "sodium-extra.option.cloud_height_override.tooltip": (
+        "차원에서 정한 구름 높이 대신 Sodium Extra의 구름 높이 설정을 사용합니다."
+    ),
+    "sodium-extra.option.fog.tooltip": (
+        "이 차원의 대기 지형 안개 거리를 조절합니다.\n"
+        "0: 바닐라 안개 설정 사용\n"
+        "1 이상: 안개 거리를 청크 단위로 설정\n"
+        "끔: 대기 지형 안개 비활성화"
+    ),
+    "sodium-extra.option.fog_distance": "안개 거리",
+    "sodium-extra.option.fog_distance.tooltip": (
+        "대기 지형 안개 거리를 조절합니다.\n"
+        "0: 바닐라 안개 설정 사용\n"
+        "1 이상: 안개 거리를 청크 단위로 설정\n"
+        "끔: 대기 지형 안개 비활성화"
+    ),
+    "sodium-extra.option.fog_shape": "안개 모양",
+    "sodium-extra.option.fog_shape.cylindrical": "원통형",
+    "sodium-extra.option.fog_shape.planar": "평면형",
+    "sodium-extra.option.fog_shape.radial": "방사형",
+    "sodium-extra.option.fog_shape.tooltip": (
+        "대기 지형 안개가 어떤 카메라 거리를 사용할지 정합니다.\n"
+        "바닐라: 현재 Minecraft 렌더링 거리의 안개 모양과 일치\n"
+        "원통형: 수평 거리를 사용하고 수직 한도를 더 높게 설정\n"
+        "방사형: 카메라를 중심으로 실제 구면 거리 사용\n"
+        "평면형: 카메라 평면까지의 거리(시야 깊이)를 사용하며, 방향을 돌리면 안개가 이동"
+    ),
+    "sodium-extra.option.fog_shape.vanilla": "바닐라",
+    "sodium-extra.option.fog_start": "안개 시작",
+    "sodium-extra.option.fog_start.tooltip": (
+        "플레이어에서 얼마나 가까운 지점부터 대기 지형 안개가 시작되는지 조절합니다."
+    ),
+    "sodium-extra.option.multi_dimension_fog.tooltip": (
+        "전체 안개 설정 대신 차원별 안개 설정을 사용합니다. 끄면 모든 차원에 전체 안개 "
+        "설정이 적용됩니다.\n이 옵션을 바꾼 뒤에는 메뉴를 닫았다가 다시 열어 안개 "
+        "슬라이더를 갱신하세요."
+    ),
+    "sodium-extra.option.panini_projection": "파니니 투영",
+    "sodium-extra.option.panini_projection.tooltip": (
+        "실험적인 파니니 화면 투영을 월드 렌더링에만 적용합니다. Iris 셰이더 팩이나 "
+        "셰이더 방지가 활성화된 동안에는 꺼집니다."
+    ),
+    "sodium-extra.option.panini_projection_strength": "파니니 투영 강도",
+    "sodium-extra.option.panini_projection_strength.tooltip": (
+        "렌더링 후 월드 이미지를 다시 매핑할 때 사용하는 파니니 투영 인수를 조절합니다."
+    ),
+    "sodium-extra.option.protected_gameplay_fog": "보호된 게임플레이 안개",
+    "sodium-extra.option.protected_gameplay_fog.blindness": "실명 안개",
+    "sodium-extra.option.protected_gameplay_fog.blindness.tooltip": (
+        "로컬 플레이에서 허용하거나 서버가 Greenlight로 승인한 경우 실명 안개를 "
+        "조절합니다.\n0: 바닐라 안개 설정 사용\n1 이상: 안개 거리를 블록 단위로 "
+        "설정. 바닐라의 완전한 실명은 약 5블록\n끔: 이 안개 비활성화"
+    ),
+    "sodium-extra.option.protected_gameplay_fog.darkness": "어둠 안개",
+    "sodium-extra.option.protected_gameplay_fog.darkness.tooltip": (
+        "로컬 플레이에서 허용하거나 서버가 Greenlight로 승인한 경우 어둠 안개를 "
+        "조절합니다.\n0: 바닐라 안개 설정 사용\n1 이상: 안개 거리를 블록 단위로 "
+        "설정. 바닐라 어둠은 약 15블록에 가까워짐\n끔: 이 안개 비활성화"
+    ),
+    "sodium-extra.option.protected_gameplay_fog.lava": "용암 안개",
+    "sodium-extra.option.protected_gameplay_fog.lava.tooltip": (
+        "로컬 플레이에서 허용하거나 서버가 Greenlight로 승인한 경우 용암 안개를 "
+        "조절합니다.\n0: 바닐라 안개 설정 사용\n1 이상: 안개 거리를 블록 단위로 "
+        "설정. 바닐라 용암은 약 1블록, 화염 저항 적용 시 5블록\n끔: 이 안개 비활성화"
+    ),
+    "sodium-extra.option.protected_gameplay_fog.powder_snow": "가루눈 안개",
+    "sodium-extra.option.protected_gameplay_fog.powder_snow.tooltip": (
+        "로컬 플레이에서 허용하거나 서버가 Greenlight로 승인한 경우 가루눈 안개를 "
+        "조절합니다.\n0: 바닐라 안개 설정 사용\n1 이상: 안개 거리를 블록 단위로 "
+        "설정. 바닐라 가루눈은 약 2블록\n끔: 이 안개 비활성화"
+    ),
+    "sodium-extra.option.protected_gameplay_fog.tooltip": (
+        "개인 싱글플레이 월드, 치트를 켠 LAN 월드 또는 Greenlight를 통해 허용한 서버에서 "
+        "게임플레이에 영향을 주는 안개 거리를 고급 조절할 수 있게 합니다. 멀티플레이 "
+        "승인에는 Greenlight 설치가 필요합니다. 이 설정은 블록 단위 거리를 사용합니다."
+    ),
+    "sodium-extra.option.protected_gameplay_fog.water": "물 안개",
+    "sodium-extra.option.protected_gameplay_fog.water.tooltip": (
+        "로컬 플레이에서 허용하거나 서버가 Greenlight로 승인한 경우 수중 안개를 "
+        "조절합니다.\n0: 바닐라 안개 설정 사용\n1 이상: 안개 거리를 블록 단위로 "
+        "설정. 바닐라 물은 생물군계와 수중 시야에 따라 달라짐\n끔: 이 안개 비활성화"
+    ),
+    "sodium-extra.option.wayland_fullscreen_resolution": (
+        "Wayland/XWayland 전체 화면 해상도"
+    ),
+    "sodium-extra.option.wayland_fullscreen_resolution.confirm.keep": "유지",
+    "sodium-extra.option.wayland_fullscreen_resolution.confirm.keep_countdown": (
+        "유지(%s초)"
+    ),
+    "sodium-extra.option.wayland_fullscreen_resolution.confirm.message": (
+        "이 해상도는 Wayland/XWayland에서 실험 기능이며 올바르게 표시되지 않을 수 "
+        "있습니다. 이 문장을 읽을 수 있다면 유지를 선택하세요. 화면이 검거나 사용할 수 "
+        "없으면 아무것도 하지 마세요. 이전 해상도가 자동으로 복원됩니다."
+    ),
+    "sodium-extra.option.wayland_fullscreen_resolution.confirm.revert": (
+        "지금 되돌리기"
+    ),
+    "sodium-extra.option.wayland_fullscreen_resolution.confirm.title": (
+        "이 전체 화면 해상도를 유지할까요?"
+    ),
+    "sodium-extra.option.wayland_fullscreen_resolution.tooltip": (
+        "Wayland 또는 XWayland에서 Sodium의 전체 화면 해상도 설정을 사용할 수 있게 "
+        "합니다. 실제 X11에서는 자동으로 활성화됩니다. Wayland와 XWayland 지원은 "
+        "컴포지터에 따라 동작이 달라지는 실험 기능입니다. 선택한 모드 때문에 게임이 "
+        "정상 시작되지 않으면 Sodium Extra가 다음 실행에서 이 옵션을 끄고 전체 화면 "
+        "설정을 초기화합니다."
+    ),
+    "sodium-extra.units.blocks": "%s블록",
     "modmenu.summaryTranslation.sodium-extra": "Sodium에 들어가기 어려운 기능들.",
     "options.particles.minecraft.ambient_entity_effect": "주변 엔티티 효과",
     "options.particles.minecraft.block_marker": "블록 표식",
@@ -946,7 +1216,6 @@ SODIUM_OVERRIDES = {
     "sodium-extra.option.beacon_beam": "신호기 광선",
     "sodium-extra.option.biome_colors": "생물군계 색상",
     "sodium-extra.option.details": "세부 사항",
-    "sodium-extra.option.fog_start": "안개 시작 배율",
     "sodium-extra.option.light_updates": "조명 업데이트",
     "sodium-extra.option.limit_beacon_beam_height": "신호기 광선 높이 제한",
     "sodium-extra.option.overlay_corner.top_left": "좌측 상단",
@@ -1275,17 +1544,8 @@ SODIUM_OVERRIDES = {
     "sodium-extra.option.cloud_distance.tooltip": (
         "플레이어로부터 구름을 렌더링할 거리를 설정합니다."
     ),
-    "sodium-extra.option.cloud_height.tooltip": "구름을 렌더링할 높이를 설정합니다.",
     "sodium-extra.option.enchanting_table_book.tooltip": (
         "마법 부여대의 책을 렌더링합니다."
-    ),
-    "sodium-extra.option.fog.tooltip": (
-        "차원별 지형 안개 거리를 조절합니다.\n다중 차원 안개를 끄면 단일 안개로 안개를 "
-        "조절할 수 있습니다.\n0: 바닐라 안개 설정 사용\n1–32: 안개 거리를 청크 단위로 "
-        "설정\n33: 최대 안개 거리(사실상 안개 비활성화)"
-    ),
-    "sodium-extra.option.fog_start.tooltip": (
-        "플레이어와 얼마나 가까운 곳에서 지형 안개가 시작될지 조절합니다."
     ),
     "sodium-extra.option.fog_type.atmospheric.tooltip": (
         "대기와 날씨로 생기는 안개를 조절합니다."
@@ -1352,10 +1612,6 @@ SODIUM_OVERRIDES = {
         "블록 면에는 선형 혼합을 적용하지 않고 생물군계 색상만 선형으로 혼합합니다."
     ),
     "sodium-extra.option.moon.tooltip": "달을 렌더링합니다.",
-    "sodium-extra.option.multi_dimension_fog.tooltip": (
-        "차원별 안개 슬라이더를 활성화합니다. 끄면 단일 안개 슬라이더를 사용합니다.\n이 "
-        "옵션을 바꾼 뒤에는 메뉴를 닫았다가 다시 열어 안개 슬라이더를 갱신하세요."
-    ),
     "sodium-extra.option.overlay_corner.tooltip": (
         "오버레이(FPS와 좌표)를 표시할 모서리를 설정합니다."
     ),
@@ -1532,16 +1788,27 @@ def translated_language(namespace: str) -> dict[str, str]:
     english = read_language(namespace, "en_us")
     candidate = read_language(namespace, "ko_kr")
     if namespace == "fancymenu":
-        if set(candidate) != set(english):
-            raise ValueError("FancyMenu 한국어 후보 키가 현재 영어 원문과 달라요")
+        missing = set(english) - set(candidate)
+        if missing - set(FANCY_OVERRIDES) or set(candidate) - set(english):
+            raise ValueError(
+                "FancyMenu 한국어 후보 키가 현재 영어 원문과 달라요: "
+                f"missing={sorted(missing - set(FANCY_OVERRIDES))}, "
+                f"extra={sorted(set(candidate) - set(english))}"
+            )
         return {
-            key: normalize_fancymenu(key, source, candidate[key])
+            key: normalize_fancymenu(key, source, candidate.get(key, source))
             for key, source in english.items()
         }
     if namespace == "sodium-extra":
-        if set(candidate) != set(english):
-            raise ValueError("Sodium Extra 한국어 후보 키가 현재 영어 원문과 달라요")
-        return {key: SODIUM_OVERRIDES.get(key, candidate[key]) for key in english}
+        missing = set(english) - set(candidate)
+        if missing - set(SODIUM_OVERRIDES):
+            raise ValueError(
+                "Sodium Extra에 번역하지 않은 누락 키가 있어요: "
+                f"{sorted(missing - set(SODIUM_OVERRIDES))}"
+            )
+        return {
+            key: SODIUM_OVERRIDES.get(key, candidate.get(key, "")) for key in english
+        }
     if namespace == "iris":
         missing = set(english) - set(candidate)
         if missing - set(IRIS_OVERRIDES):
@@ -1572,7 +1839,7 @@ def translated_language(namespace: str) -> dict[str, str]:
 
 
 def build() -> dict[str, object]:
-    """6개 모드의 현재 영어 원문 4,189개를 모두 확정 산출물로 만들어요."""
+    """6개 모드의 현재 영어 원문 4,230개를 모두 확정 산출물로 만들어요."""
     reports = []
     errors = []
     for namespace in MODS:
@@ -1839,7 +2106,7 @@ def load_json_without_duplicates(path: Path) -> tuple[object, list[str]]:
 
 
 def verify_language() -> tuple[dict[str, object], list[str]]:
-    """6개 모드 4,189개 키의 구조와 확정 번역값을 전부 검증해요."""
+    """6개 모드 4,230개 키의 구조와 확정 번역값을 전부 검증해요."""
     errors = []
     mod_reports = []
     forbidden_fancy = tuple(old for old, _new in FANCY_REPLACEMENTS)
