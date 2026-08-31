@@ -740,7 +740,11 @@ def main() -> int:
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     with REPORT_CSV.open("w", encoding="utf-8", newline="") as file:
-        writer = csv.DictWriter(file, fieldnames=list(issues[0]) if issues else [])
+        writer = csv.DictWriter(
+            file,
+            fieldnames=list(issues[0]) if issues else [],
+            quoting=csv.QUOTE_ALL,
+        )
         if issues:
             writer.writeheader()
             writer.writerows(issues)

@@ -178,7 +178,7 @@ def write_reports(
     lines.extend(
         f"- `{path}`: {count:,}개" for path, count in unresolved_by_file.items()
     )
-    REPORT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    REPORT_MD.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     return report
 
 
