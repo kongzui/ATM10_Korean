@@ -76,6 +76,8 @@
   "apothic_attributes:elytra_flight.desc": "엘리트라를 착용한 것처럼 날 수 있는지 여부입니다.",
   "apothic_attributes:creative_flight": "크리에이티브 비행",
   "apothic_attributes:creative_flight.desc": "크리에이티브 모드에 있는 것처럼 날 수 있는지 여부입니다.",
+  "apothic_attributes:cooldown_reduction": "재사용 대기시간 감소",
+  "apothic_attributes:cooldown_reduction.desc": "발동형 능력과 효과의 재사용 대기시간을 줄입니다. 재사용 대기시간은 ⌛ 기호로 표시됩니다.",
   "effect.apothic_attributes.knowledge": "고대 지식",
   "effect.apothic_attributes.vitality": "활력 분출",
   "effect.apothic_attributes.grievous": "치명상",

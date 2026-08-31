@@ -51,6 +51,7 @@ ALLOWED_IDENTICAL_KEYS = {
     "text.apotheosis.cost",
     "text.apotheosis.dot_prefix",
     "text.apotheosis.star_prefix",
+    "text.apothic_enchanting.star_prefix",
     "info.apotheosis.criteria_done",
     "info.apotheosis.criteria_unfinished",
     "info.apotheosis.criteria_unknown",

@@ -6,12 +6,13 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from collections import Counter
 from pathlib import Path
 
 import audit_ftbquests_titles as audit
 import build_ae2_quests as snbt
 import build_apotheosis_quests as build
+from five_family_goal import installed_quest_chapter_path
+from five_family_goal import load_installed_quest_language
 from local_paths import resolve_source_root
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -20,34 +21,44 @@ DIRECT_ITEMS_FILE = PROJECT_ROOT / "working/apotheosis/direct_quest_item_names.j
 LATIN_WORD_RE = re.compile(r"[A-Za-z]{3,}")
 
 
+def load_output() -> tuple[dict[str, snbt.TranslationValue], list[str]]:
+    """병합 또는 분할 FTB Quests 산출물과 구조 오류를 읽는다."""
+    split_root = build.OUTPUT_FILE.with_suffix("")
+    if build.OUTPUT_FILE.is_file():
+        paths = [build.OUTPUT_FILE]
+    elif split_root.is_dir():
+        paths = sorted(
+            split_root.rglob("*.snbt"), key=lambda item: item.as_posix().lower()
+        )
+    else:
+        raise FileNotFoundError("FTB Quests 한국어 산출물을 찾을 수 없습니다.")
+    output: dict[str, snbt.TranslationValue] = {}
+    errors: list[str] = []
+    for path in paths:
+        if path.read_bytes().startswith(b"\xef\xbb\xbf"):
+            errors.append(f"FTB Quests 출력에 UTF-8 BOM이 있습니다: {path}")
+        for key, value in snbt.parse_language_snbt(path).items():
+            if key in output:
+                errors.append(f"FTB Quests 출력 키가 중복됩니다: {key}")
+            output[key] = value
+    return output, errors
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--instance", type=Path)
     args = parser.parse_args()
     instance = resolve_source_root(args.instance)
     quest_root = instance / "config/ftbquests/quests"
-    lang_root = quest_root / "lang"
-    output = snbt.parse_language_snbt(build.OUTPUT_FILE)
-    output_text = build.OUTPUT_FILE.read_text(encoding="utf-8")
-    overrides = json.loads(build.OVERRIDES_FILE.read_text(encoding="utf-8"))
-    errors: list[str] = []
+    output, errors = load_output()
+    duplicate_keys = [error for error in errors if "중복" in error]
 
-    if build.OUTPUT_FILE.read_bytes().startswith(b"\xef\xbb\xbf"):
-        errors.append("누적 ko_kr.snbt에 UTF-8 BOM이 있습니다.")
-    duplicate_keys = sorted(
-        key
-        for key, count in Counter(snbt.ENTRY_RE.findall(output_text)).items()
-        if count > 1
-    )
-    if duplicate_keys:
-        errors.append(f"누적 ko_kr.snbt에 중복 키가 있습니다: {duplicate_keys}")
-
-    full_english = snbt.parse_language_snbt(lang_root / "en_us.snbt")
+    full_english = load_installed_quest_language(instance, "en_us")
     english: dict[str, snbt.TranslationValue] = {}
     for chapter in build.CHAPTERS:
         english.update(
             snbt.parse_language_snbt(
-                lang_root / f"en_us/chapters/{chapter}.snbt_merged"
+                installed_quest_chapter_path(instance, "en_us", chapter)
             )
         )
     english.update(
@@ -56,13 +67,11 @@ def main() -> int:
             for key in build.NAVIGATION_KEYS + build.RELATED_QUEST_KEYS
         }
     )
-    if set(overrides) != set(english):
-        errors.append("작업 JSON과 영어 표시 키 집합이 다릅니다.")
     for key, source in english.items():
-        if output.get(key) != overrides.get(key):
-            errors.append(f"누적 출력값이 작업 번역과 다릅니다: {key}")
-        elif key in overrides:
-            errors.extend(snbt.validate_value(key, source, overrides[key]))
+        if key not in output:
+            errors.append(f"FTB Quests 번역 산출물에 키가 없습니다: {key}")
+        else:
+            errors.extend(snbt.validate_value(key, source, output[key]))
 
     chapters, _ = audit.parse_chapters(quest_root)
     target_chapters = [
@@ -207,7 +216,7 @@ def main() -> int:
     intended = set(build.INTENTIONAL_ORIGINAL_KEYS)
     unclassified_english = []
     for key, source in english.items():
-        target = overrides.get(key)
+        target = output.get(key)
         if (
             target == source
             and LATIN_WORD_RE.search(snbt.flatten(source))

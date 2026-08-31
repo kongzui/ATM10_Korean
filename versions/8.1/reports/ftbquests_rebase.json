@@ -6,9 +6,9 @@
   "intentionally_omitted_keys": 64,
   "unresolved_keys": 0,
   "source_counts": {
-    "7.1 검수 번역 재사용": 8111,
+    "7.1 검수 번역 재사용": 8109,
     "8.1 변경 확인 후 7.1 검수 번역 재사용": 43,
-    "8.1 수동 검수": 704
+    "8.1 수동 검수": 706
   },
   "unresolved_by_file": {},
   "validation_errors": [],
