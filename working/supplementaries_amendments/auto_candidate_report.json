@@ -1,25 +1,26 @@
 {
-  "family": "supplementaries_amendments",
-  "english_files": 3,
-  "unique_strings": 723,
-  "candidate_requests": 0,
-  "candidate_failures": [],
-  "outputs": [
-    {
-      "source": "working/supplementaries_amendments/amendments/en_us.json",
-      "output": "working/supplementaries_amendments/amendments/auto_candidates.json",
-      "strings": 107
-    },
-    {
-      "source": "working/supplementaries_amendments/quests/related/en_us.json",
-      "output": "working/supplementaries_amendments/quests/related/auto_candidates.json",
-      "strings": 0
-    },
-    {
-      "source": "working/supplementaries_amendments/supplementaries/en_us.json",
-      "output": "working/supplementaries_amendments/supplementaries/auto_candidates.json",
-      "strings": 683
-    }
+  "scope": "Supplementaries·Amendments 8.1 신규 언어 키 검수 후보",
+  "protected_patterns": [
+    "numbers",
+    "placeholders",
+    "URLs",
+    "format codes",
+    "line breaks"
   ],
-  "status": "candidate_requires_full_review"
+  "current_output_self_reuse_excluded": true,
+  "translation_memory_conflicts_excluded": 6,
+  "candidate_counts": {
+    "automatic_cache_candidate": 568,
+    "exact_key_override": 5,
+    "family_memory_candidate": 106
+  },
+  "review_status": "manual_review_complete",
+  "reviewed_candidate_counts": {
+    "supplementaries": 678,
+    "amendments": 1
+  },
+  "manual_correction_counts": {
+    "supplementaries": 334,
+    "amendments": 1
+  }
 }

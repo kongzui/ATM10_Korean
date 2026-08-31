@@ -2,15 +2,19 @@
   "languages": [
     {
       "namespace": "supplementaries",
-      "keys": 683,
-      "reused": 618,
-      "new": 65
+      "keys": 1355,
+      "project_output_reused": 668,
+      "bundled_korean_reused": 9,
+      "new_translation_reviewed": 678,
+      "manual_corrections": 334
     },
     {
       "namespace": "amendments",
-      "keys": 107,
-      "reused": 57,
-      "new": 50
+      "keys": 108,
+      "project_output_reused": 107,
+      "bundled_korean_reused": 0,
+      "new_translation_reviewed": 1,
+      "manual_corrections": 1
     }
   ],
   "status": "complete"

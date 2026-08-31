@@ -92,6 +92,7 @@
   "fluid.amendments.dye": "염료",
   "subtitles.amendments.fireball_explosion": "불덩어리 폭발",
   "message.amendments.cauldron": "물약 혼합이 불안정한 것 같아요...",
+  "message.amendments.ebe_warning": "[Amendments] Enhanced Block Entities가 설치되어 있습니다. EBE 자체 설정에서 관련 기능을 끄기 전까지 표지판이 잘못 렌더링되고 매달린 표지판이 회전하지 않습니다.",
   "tag.block.amendments.cauldron_heat_source": "가마솥 열원",
   "tag.block.amendments.ceiling_banners": "천장 현수막",
   "tag.block.amendments.skull_candles": "해골 양초",
