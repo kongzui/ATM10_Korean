@@ -16,7 +16,7 @@ from common_ui_catalog import (
     Target,
 )
 from local_paths import PROJECT_ROOT, resolve_source_root
-from version_context import active_output_root
+from version_context import active_output_root, active_pack_version
 
 WORK_ROOT = PROJECT_ROOT / "working/common_ui"
 OUTPUT_ASSETS = active_output_root() / "resourcepack/ATM10_Korean/assets"
@@ -42,6 +42,42 @@ def find_jar(instance: Path, target: Target) -> Path:
             f"JAR을 하나로 확정할 수 없습니다: {target.jar_prefix} -> {matches}"
         )
     return matches[0]
+
+
+def load_recheck_values(
+    group: str, namespace: str, english: dict[str, object]
+) -> dict[str, object]:
+    """현재 팩 버전에서 확정한 공통 UI 재검토 값을 읽는다."""
+    version = active_pack_version().replace(".", "_")
+    path = WORK_ROOT / group / namespace / f"recheck_{version}.json"
+    if not path.is_file():
+        return {}
+    values = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(values, dict):
+        raise TypeError(f"재검토 JSON 최상위 값이 객체가 아닙니다: {path}")
+    unknown = sorted(set(values) - set(english))
+    if unknown:
+        raise KeyError(f"현재 영어 원문에 없는 재검토 키: {unknown}")
+    return values
+
+
+def load_allowed_source_equal_keys(
+    group: str, namespace: str, english: dict[str, object]
+) -> set[str] | None:
+    """현재 버전에서 원문 유지가 필요한 고유명사·단위·명령 키를 읽는다."""
+    version = active_pack_version().replace(".", "_")
+    path = WORK_ROOT / group / namespace / f"allowed_source_equal_{version}.json"
+    if not path.is_file():
+        return None
+    values = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(values, list) or not all(isinstance(key, str) for key in values):
+        raise TypeError(f"원문 유지 허용 목록은 문자열 배열이어야 합니다: {path}")
+    if len(values) != len(set(values)):
+        raise ValueError(f"원문 유지 허용 목록에 중복 키가 있습니다: {path}")
+    unknown = sorted(set(values) - set(english))
+    if unknown:
+        raise KeyError(f"현재 영어 원문에 없는 원문 유지 허용 키: {unknown}")
+    return set(values)
 
 
 def prepare_target(
@@ -75,6 +111,19 @@ def prepare_target(
                 key: project_korean.get(key, jar_korean.get(key, value))
                 for key, value in english.items()
             }
+            recheck_values = load_recheck_values(target.group, namespace, english)
+            draft.update(recheck_values)
+            allowed_source_equal = load_allowed_source_equal_keys(
+                target.group, namespace, english
+            )
+            source_equal = {
+                key for key, value in english.items() if draft[key] == value
+            }
+            untranslated = (
+                source_equal - allowed_source_equal
+                if allowed_source_equal is not None
+                else source_equal
+            )
             output = WORK_ROOT / target.group / namespace / "ko_kr.json"
             if output.exists() and not force:
                 raise FileExistsError(f"기존 검수 파일을 덮어쓰지 않습니다: {output}")
@@ -95,9 +144,9 @@ def prepare_target(
                     "jar_korean_candidates": len(
                         (set(english) - set(project_korean)) & set(jar_korean)
                     ),
-                    "untranslated_draft": sum(
-                        draft[key] == value for key, value in english.items()
-                    ),
+                    "version_recheck_values": len(recheck_values),
+                    "allowed_source_equal": len(allowed_source_equal or ()),
+                    "untranslated_draft": len(untranslated),
                 }
             )
     return rows
@@ -126,6 +175,15 @@ def prepare_pack_target(
         key: project_korean.get(key, jar_korean.get(key, value))
         for key, value in english.items()
     }
+    allowed_source_equal = load_allowed_source_equal_keys(
+        target.group, target.namespace, english
+    )
+    source_equal = {key for key, value in english.items() if draft[key] == value}
+    untranslated = (
+        source_equal - allowed_source_equal
+        if allowed_source_equal is not None
+        else source_equal
+    )
     output = WORK_ROOT / target.group / target.namespace / "ko_kr.json"
     if output.exists() and not force:
         raise FileExistsError(f"기존 검수 파일을 덮어쓰지 않습니다: {output}")
@@ -143,9 +201,8 @@ def prepare_pack_target(
         "pack_korean_candidates": len(
             (set(english) - set(project_korean)) & set(jar_korean)
         ),
-        "untranslated_draft": sum(
-            draft[key] == value for key, value in english.items()
-        ),
+        "allowed_source_equal": len(allowed_source_equal or ()),
+        "untranslated_draft": len(untranslated),
     }
 
 

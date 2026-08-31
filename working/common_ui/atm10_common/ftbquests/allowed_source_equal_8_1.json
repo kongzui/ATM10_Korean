@@ -1,0 +1,21 @@
+[
+  "ftbquests.keys",
+  "ftbquests.image.x",
+  "ftbquests.image.y",
+  "ftbquests.quest.appearance.x",
+  "ftbquests.quest.appearance.y",
+  "ftbquests.quest_link.x",
+  "ftbquests.quest_link.y",
+  "ftbquests.task.ftbquests.forge_energy.text",
+  "ftbquests.task.ftbquests.tech_reborn_energy.value",
+  "ftbquests.task.ftbquests.tech_reborn_energy.text",
+  "ftbquests.task.ftbquests.xp.value",
+  "ftbquests.task.ftbquests.buildcraft_mj.value",
+  "ftbquests.task.ftbquests.buildcraft_mj.text",
+  "ftbquests.task.ftbquests.ic2_energy.value",
+  "ftbquests.task.ftbquests.ic2_energy.text",
+  "ftbquests.task.ftbquests.emc",
+  "ftbquests.reward.ftbquests.xp",
+  "ftbquests.reward_table.loot_crate.id",
+  "commands.ftbquests.export_rewards_to_chest.usage"
+]

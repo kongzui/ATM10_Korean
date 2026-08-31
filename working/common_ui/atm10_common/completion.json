@@ -1,15 +1,16 @@
 {
   "group": "ATM10 공통 문구",
   "status": "complete",
-  "source_version": "ATM10 7.1 / Minecraft 1.21.1",
+  "source_version": "ATM10 8.1 / Minecraft 1.21.1",
   "installed_sources": [
     {
-      "jar": "ftb-quests-neoforge-2101.1.27.jar",
+      "jar": "ftb-quests-neoforge-2101.1.34.jar",
       "namespace": "ftbquests",
-      "keys": 656
+      "keys": 768,
+      "version_recheck_keys": 135
     },
     {
-      "jar": "ftbquestslangsplitter-1.0.5.jar",
+      "jar": "ftbquestslangsplitter-1.0.7.jar",
       "namespace": "ftbquestslangsplitter",
       "keys": 13
     },
@@ -31,18 +32,21 @@
     }
   ],
   "counts": {
-    "existing_korean_reused": 538,
-    "existing_korean_corrected": 138,
-    "newly_translated": 3,
-    "output_keys": 679,
-    "kubejs_direct_strings_corrected": 15
+    "existing_reviewed_korean_reused": 656,
+    "newly_translated": 132,
+    "new_source_exact_technical_or_proper": 3,
+    "removed_source_keys": 23,
+    "output_keys": 791,
+    "allowed_source_equal": 21,
+    "untranslated": 0,
+    "kubejs_direct_strings_retained": 15
   },
   "related_scope": {
-    "ftb_quests": "현재 영어 8436키·한국어 출력 7418키 구조와 공통 교정 97키를 대조함; Allthemodium 3키와 FTB Ultimine 1키는 이 행의 범위 밖이라 현재 값을 보존함",
-    "kubejs": "ATM 팩 공지 언어 8키와 announcements.js 직접 표시 문자열 15개를 검수함",
-    "advancements": "All The Tweaks 제작법 발전 과제 JSON 8개에는 표시 제목·설명 필드가 없고, 나머지 두 JAR과 KubeJS atm 네임스페이스에는 발전 과제가 없음",
-    "guide_ui": "세 JAR과 KubeJS atm 네임스페이스에 이 행에 속하는 가이드 파일이 없음",
-    "fallback": "FTB Quests의 대체 언어 설정·누락 번역 메시지·소제목 키와 공통 퀘스트 보호 문자열을 확인함"
+    "ftb_quests": "8.1 분할형 퀘스트 언어 70개 파일과 8,922개 영어 키는 앞선 전역 재기준화에서 검증했으며, 이번 모드 UI 갱신으로 퀘스트 내용 파일은 바뀌지 않음",
+    "kubejs": "ATM 팩 언어 8키와 공지 직접 표시 문자열 15개를 현재 8.1 원문 기준으로 재확인했으며 추가 변경은 없음",
+    "advancements": "공통 UI 언어 갱신 범위에는 별도 사용자 표시 발전 과제 번역이 없음",
+    "guide_ui": "FTB Quests UI의 변경 기록, 이미지 편집, 고정 추적기와 단축키 문구를 전수 검토함",
+    "fallback": "FTB Quests 공식 모드명, 좌표, 에너지 단위, ID와 명령어 등 원문 유지 19키를 별도 허용 목록으로 고정함"
   },
   "validation": {
     "json": "passed",
@@ -51,8 +55,9 @@
     "format_codes": "passed",
     "line_breaks": "passed",
     "utf8_bom": false,
-    "kubejs_javascript_syntax": "passed",
-    "ftb_quests_common_overrides": "97/97 matched",
+    "untranslated_excluding_allowlist": 0,
+    "version_recheck_values": "135/135 matched",
+    "mod_language_audit": "ftbquests 768/768 keys, 0 validation errors",
     "python_ruff": "passed"
   },
   "deployment": {
@@ -60,14 +65,15 @@
     "configured_targets": [
       "game_root"
     ],
-    "selected_paths": 5,
-    "changed_paths": 4,
+    "selected_paths": 1,
+    "changed_paths": 1,
     "unexpected_changes": [],
-    "backup_manifest": "temp/backups/20260801_144717_539923/backup_manifest.json"
+    "backup_manifest": "temp/backups/20260831_225507_344651/backup_manifest.json"
   },
   "notes": [
+    "7.1에서 그대로 유효한 검수 번역 656키를 재사용하고 FTB Quests 8.1 신규 원문 135키를 전수 검토함",
+    "영어 원문에서 서로 뒤바뀐 선 삽입과 이미지 삽입 단축키는 실제 클래스의 기능명과 키 ID를 확인해 올바른 동작명으로 번역함",
     "All The Tweaks는 계획 경계에 따라 팩 공통 경고 2키만 포함함",
-    "개별 모드 아이템·블록·퀘스트·모드 전용 KubeJS 문구는 수정하지 않음",
-    "과거 완료 기록에서 누락된 팩 KubeJS atm 언어 파일을 현재 소스 기준으로 추가함"
+    "원본 JAR과 퀘스트 구조는 수정하지 않음"
   ]
 }

@@ -22,7 +22,13 @@ from common_ui_catalog import (
 from build_ae2_quests import flatten, merge_into_full_snbt, parse_language_snbt
 from ftbquests_layout import merged_locale_file, split_locale_files
 from local_paths import PROJECT_ROOT, resolve_source_root
-from prepare_common_ui import WORK_ROOT, find_jar, load_json
+from prepare_common_ui import (
+    WORK_ROOT,
+    find_jar,
+    load_allowed_source_equal_keys,
+    load_json,
+    load_recheck_values,
+)
 from version_context import active_output_root
 
 OUTPUT_ROOT = active_output_root() / "resourcepack/ATM10_Korean/assets"
@@ -599,6 +605,10 @@ def verify_target(
             working = WORK_ROOT / target.group / namespace / "ko_kr.json"
             korean = json.loads(working.read_text(encoding="utf-8"))
             errors = []
+            recheck_values = load_recheck_values(target.group, namespace, english)
+            allowed_source_equal = load_allowed_source_equal_keys(
+                target.group, namespace, english
+            )
             integration_values = {}
             if namespace == "curios":
                 integration_values = json.loads(
@@ -629,6 +639,23 @@ def verify_target(
                 errors.append(f"키 또는 순서 불일치: 누락={missing}, 초과={extra}")
             for key in english.keys() & korean.keys():
                 validate_value(key, english[key], korean[key], errors)
+            recheck_mismatches = sorted(
+                key
+                for key, expected in recheck_values.items()
+                if korean.get(key) != expected
+            )
+            if recheck_mismatches:
+                errors.append(f"버전 재검토 값 불일치: {recheck_mismatches}")
+            if allowed_source_equal is not None:
+                source_equal = {
+                    key for key, value in english.items() if korean.get(key) == value
+                }
+                if source_equal != allowed_source_equal:
+                    unexpected = sorted(source_equal - allowed_source_equal)
+                    stale = sorted(allowed_source_equal - source_equal)
+                    errors.append(
+                        f"원문 유지 허용 목록 불일치: 미허용={unexpected}, 더 이상 동일하지 않음={stale}"
+                    )
             fallback_mismatches = sorted(
                 key
                 for key, expected in fallback_values.items()
@@ -659,6 +686,8 @@ def verify_target(
                     "keys": len(english),
                     "class_fallback_keys": len(fallback_values),
                     "integration_keys": len(integration_values),
+                    "version_recheck_values": len(recheck_values),
+                    "allowed_source_equal": len(allowed_source_equal or ()),
                     "output": output.relative_to(PROJECT_ROOT).as_posix(),
                     "validation": "passed",
                 }
@@ -675,12 +704,25 @@ def verify_pack_target(
     working = WORK_ROOT / target.group / target.namespace / "ko_kr.json"
     korean = json.loads(working.read_text(encoding="utf-8"))
     errors = []
+    allowed_source_equal = load_allowed_source_equal_keys(
+        target.group, target.namespace, english
+    )
     if list(korean) != list(english):
         missing = sorted(set(english) - set(korean))
         extra = sorted(set(korean) - set(english))
         errors.append(f"키 또는 순서 불일치: 누락={missing}, 초과={extra}")
     for key in english.keys() & korean.keys():
         validate_value(key, english[key], korean[key], errors)
+    if allowed_source_equal is not None:
+        source_equal = {
+            key for key, value in english.items() if korean.get(key) == value
+        }
+        if source_equal != allowed_source_equal:
+            unexpected = sorted(source_equal - allowed_source_equal)
+            stale = sorted(allowed_source_equal - source_equal)
+            errors.append(
+                f"원문 유지 허용 목록 불일치: 미허용={unexpected}, 더 이상 동일하지 않음={stale}"
+            )
     if working.read_bytes().startswith(b"\xef\xbb\xbf"):
         errors.append("UTF-8 BOM이 있습니다")
     if errors:
@@ -694,6 +736,7 @@ def verify_pack_target(
         "source": target.relative_dir,
         "namespace": target.namespace,
         "keys": len(english),
+        "allowed_source_equal": len(allowed_source_equal or ()),
         "output": output.relative_to(PROJECT_ROOT).as_posix(),
         "validation": "passed",
     }
