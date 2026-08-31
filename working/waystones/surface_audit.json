@@ -1,0 +1,28 @@
+{
+  "family": "waystones",
+  "jar": "waystones-neoforge-1.21.1-21.1.41.jar",
+  "data_json_counts": {
+    "other": 136,
+    "advancement": 54,
+    "recipe": 54
+  },
+  "direct_visible_data_literals": [],
+  "instance_references": {
+    "ftbquests": {
+      "reference_files": [
+        "config/ftbquests/quests/reward_tables/common.snbt"
+      ],
+      "direct_display_lines": []
+    },
+    "kubejs": {
+      "reference_files": [
+        "kubejs/server_scripts/Tweaks/tags.js"
+      ],
+      "direct_display_lines": []
+    }
+  },
+  "parse_errors": [],
+  "read_errors": [],
+  "errors": [],
+  "status": "complete"
+}

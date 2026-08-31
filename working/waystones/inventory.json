@@ -1,0 +1,11 @@
+{
+  "family": "waystones",
+  "jar": "waystones-neoforge-1.21.1-21.1.41.jar",
+  "jar_size": 1217415,
+  "jar_mtime_ns": 1788168029071161700,
+  "english_keys": 356,
+  "bundled_korean_keys": 139,
+  "baseline_korean_keys": 263,
+  "upgrade_review_keys": 99,
+  "status": "prepared"
+}
