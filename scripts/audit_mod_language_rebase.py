@@ -149,13 +149,31 @@ def main() -> int:
                 "output_korean_keys": len(output),
                 "unchanged_reusable_keys": len(reusable),
                 "unchanged_missing_keys": len(unchanged_missing),
+                "unchanged_missing_key_names": sorted(unchanged_missing),
                 "changed_source_keys": len(changed),
+                "changed_source_key_names": sorted(changed),
                 "added_source_keys": len(added),
+                "added_source_key_names": sorted(added),
                 "review_queue_keys": len(queue),
+                "review_queue_key_names": sorted(queue),
+                "review_queue_details": {
+                    key: {
+                        "baseline_english": baseline.get(key),
+                        "current_english": current[key],
+                        "installed_korean_candidate": current_ko.get(namespace, {}).get(
+                            key
+                        ),
+                        "project_output": output.get(key),
+                    }
+                    for key in sorted(queue)
+                },
                 "installed_korean_candidates": len(installed_candidates),
                 "removed_source_keys": len(removed),
+                "removed_source_key_names": sorted(removed),
                 "output_only_keys": len(set(output) - set(current)),
+                "output_only_key_names": sorted(set(output) - set(current)),
                 "validation_errors": len(errors),
+                "validation_error_details": errors,
                 "sources": current_sources.get(namespace, []),
             }
         )
