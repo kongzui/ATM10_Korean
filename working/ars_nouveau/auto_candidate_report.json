@@ -10,12 +10,10 @@
     "line breaks"
   ],
   "current_output_self_reuse_excluded": true,
-  "translation_memory_conflicts_excluded": 69,
+  "translation_memory_conflicts_excluded": 0,
   "candidate_counts": {
-    "automatic_cache_candidate": 617,
-    "family_memory_candidate": 44,
-    "manual_candidate": 2,
-    "reviewed_original_candidate": 5
+    "exact_key_override": 104,
+    "reviewed_pattern_candidate": 14
   },
   "review_status": "pending_manual_review"
 }

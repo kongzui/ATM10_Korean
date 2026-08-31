@@ -1604,6 +1604,216 @@ for contingency_name, (display_name, description) in CONTINGENCY_TYPES.items():
 for namespace, overrides in QUALITY_OVERRIDES.items():
     KEY_OVERRIDES.setdefault(namespace, {}).update(overrides)
 
+CURRENT_81_KEY_OVERRIDES = {
+    "ars_nouveau": {
+        "ars_nouveau.preview": "미리 보기",
+        "ars_nouveau.tome_flavor.alex_tome": (
+            "작은 오두막 하나로는 만족할 수 없는 분들을 위해."
+        ),
+        "ars_nouveau.tome_flavor.arachne_tome": (
+            "대상을 붙잡는 투사체 세 개를 생성합니다."
+        ),
+        "ars_nouveau.tome_flavor.aurellia_tome": (
+            "이 폭풍은 짖는 소리보다 물어뜯는 맛이 더 매섭습니다."
+        ),
+        "ars_nouveau.tome_flavor.bailey_tome": "음메(MOO) 하며 달까지!",
+        "ars_nouveau.tome_flavor.beepsterr_tome": ("흙과 이끼가 잔뜩 묻어 있습니다."),
+        "ars_nouveau.tome_flavor.bugcolez_tome": "친구들이 바로 힘입니다!",
+        "ars_nouveau.tome_flavor.chems_tome": (
+            "개체를 위로 날리는 룬으로 주변을 뒤덮습니다. 반발 룬에 절대 "
+            "뒤덮이지 마세요."
+        ),
+        "ars_nouveau.tome_flavor.chosenarchitect_tome": (
+            "마법이 번쩍이는 순간 세계가 뒤틀리고, 여기에 있던 것이 저기에 "
+            "나타납니다."
+        ),
+        "ars_nouveau.tome_flavor.cocoaeyebrows_tome": (
+            "재물에는 손대지 마세요. 오직 땅을 파는 데만 집중하세요."
+        ),
+        "ars_nouveau.tome_flavor.crowdrone_tome": (
+            "까마귀는 가장 어두운 곳에서도 반짝이는 물건을 모으는 것으로 " "유명합니다."
+        ),
+        "ars_nouveau.tome_flavor.darkfira_tome": (
+            "적이나 친구를 얼음 무덤에 가둡니다. 분명 깜짝 놀라고 혼란스러워할 "
+            "거예요."
+        ),
+        "ars_nouveau.tome_flavor.farfalla_tome": (
+            "빠르게 얼음으로 얼어붙는 불을 만듭니다."
+        ),
+        "ars_nouveau.tome_flavor.fireball_tome": "고전이죠.",
+        "ars_nouveau.tome_flavor.frantastic_tome": (
+            "이 주문의 원작자가 첫 시전에서 살아남았는지, 뒤이은 혼돈 속에서 "
+            "자기 분신 중 하나로 대체되었는지는 알 수 없습니다. 너무 깊이 "
+            "생각하지 마세요."
+        ),
+        "ars_nouveau.tome_flavor.glow_tome": (
+            "대상을 붙잡고 다른 대상들에게 발광 효과를 부여합니다."
+        ),
+        "ars_nouveau.tome_flavor.gootastic_tome": (
+            "오징어는 러브크래프트풍 기원 덕분인지 이 주문에 면역인 듯합니다."
+        ),
+        "ars_nouveau.tome_flavor.ivy_tome": (
+            "이제 다시는 외로울 일이 없어요! 언제나 친구가 곁에 있을 거예요! "
+            "원하는 이름으로 마음껏 바꿔 주세요! :D"
+        ),
+        "ars_nouveau.tome_flavor.kamiihoney_tome": (
+            "적이 시들어 죽을 때까지 안전하게 가둡니다. 주문을 잘못 시전한 뒤 "
+            "Kamii가 아직도 어딘가의 거품에 갇혀 있다는 이야기도 있습니다."
+        ),
+        "ars_nouveau.tome_flavor.kirin_tome": (
+            "영웅들은 너무 단순해서, 정말 쉽게 속아 넘어가죠..."
+        ),
+        "ars_nouveau.tome_flavor.lootz_tome": "몹이 불꽃놀이를 만납니다.",
+        "ars_nouveau.tome_flavor.lufia_tome": (
+            "적은 당신을 죽이려 할 겁니다. 이 주문으로 되갚아 주세요. 대상의 발밑에 "
+            "시전하면 땅에 묻을 수 있습니다. 결과는 달라질 수 있습니다."
+        ),
+        "ars_nouveau.tome_flavor.lyrellion_tome": "넌. 못. 지나간다.",
+        "ars_nouveau.tome_flavor.mystifi_tome": (
+            "수직으로 아래를 파 내려갈 때는 조심하세요. 자기 무덤을 파는 것과 "
+            "같다는 말도 있으니까요."
+        ),
+        "ars_nouveau.tome_flavor.nikk_tome": (
+            "약화시키고, 처치한 다음, 집으로 데려가세요."
+        ),
+        "ars_nouveau.tome_flavor.othy_tome": ("칼날을 든 영혼 무리로 적을 덮칩니다."),
+        "ars_nouveau.tome_flavor.pandoxyy_tome": (
+            "처음에는 공중에 뜨고, 다음에는 어지러워지고, 그다음에는 다른 곳에 "
+            "가 있습니다. 무슨 일이 일어났는지 알아낼 즈음이면 이미 다시 시작됐죠."
+        ),
+        "ars_nouveau.tome_flavor.plauged757_tome": (
+            "경고: 최후의 수단으로만 사용하세요!!"
+        ),
+        "ars_nouveau.tome_flavor.poseidon_tome": (
+            "물속에 발사하면 깊은 곳에 얼음 거품을 만듭니다."
+        ),
+        "ars_nouveau.tome_flavor.pranks_tome": (
+            "고서 퍼저가 혼돈의 마법 흐름을 현실에 뿜어냅니다. 행성을 해킹 중일지도 "
+            "모릅니다."
+        ),
+        "ars_nouveau.tome_flavor.renew_rune_tome": (
+            "상태 효과를 치료하고 사용자의 체력을 회복합니다."
+        ),
+        "ars_nouveau.tome_flavor.riftderp_tome": (
+            "그 작품에 나오는 그 사람처럼요! 이 주문은 적의 코앞으로 바로 "
+            "이동시키니, 칼싸움할 준비를 하세요!"
+        ),
+        "ars_nouveau.tome_flavor.sebuss_tome": (
+            "책조차 뜨겁게 타오릅니다! 아이템을 태우고 싶지 않다면 이 주문은 "
+            "조심해서 사용해야 할 거예요!"
+        ),
+        "ars_nouveau.tome_flavor.shadow_tome": (
+            "블록으로 이루어진 임시 터널을 만듭니다."
+        ),
+        "ars_nouveau.tome_flavor.shoob_tome": (
+            "빨리 달아나야 하나요? Shoob이 특허 낸 '전술적 후퇴' 기술을 사용하면 "
+            "우아하게 탈출할 수 있습니다! (Shibe Inc는 오용이나 탈출 실패에 책임을 "
+            "지지 않습니다.)"
+        ),
+        "ars_nouveau.tome_flavor.silvanus_tome": (
+            "더 깊이 내려가고 싶은데 횃불이 없을 때 쓰세요."
+        ),
+        "ars_nouveau.tome_flavor.sloppybox_tome": (
+            "산을 녹이고 바다를 증발시킬 만큼 뜨겁습니다."
+        ),
+        "ars_nouveau.tome_flavor.spinoftw_tome": ("모험을 돕는 다용도 주문입니다."),
+        "ars_nouveau.tome_flavor.takeoff_tome": (
+            "시전자를 공중으로 쏘아 올리고 잠시 겉날개 비행 능력을 부여합니다!"
+        ),
+        "ars_nouveau.tome_flavor.toxin_tome": (
+            "대상을 중독시키고 모든 원천에서 받는 피해를 늘립니다."
+        ),
+        "ars_nouveau.tome_flavor.treeleafs_tome": (
+            "그곳이 더 푸르러져도 괜찮은지만 확인하세요."
+        ),
+        "ars_nouveau.tome_flavor.uni_tome": "가까이 오지 마세요!",
+        "ars_nouveau.tome_flavor.urticantodin_tome": (
+            "이동이 어렵다고요? 말도 안 돼요. 한 번 뛰기만 하면 순식간에 "
+            "도착합니다! 왜 끈적거리냐고요? 안전장치예요. 다리가 갑자기 땅에 "
+            "멈춰 설 만큼 튼튼하지 않아서 통통 튀게 만들었거든요!"
+        ),
+        "ars_nouveau.tome_flavor.vault_tome": (
+            "가끔은 그 벽을 그냥 뛰어넘어야 할 때도 있습니다."
+        ),
+        "ars_nouveau.tome_flavor.warp_impact_tome": "멋을 더한 순간이동!",
+        "ars_nouveau.tome_flavor.worsecookie_tome": (
+            "해안에서는 구름 물결이 부서지고, 쌍둥이 태양은 호수 너머로 지며, "
+            "그림자는 길어진다. 카르코사에서."
+        ),
+        "ars_nouveau.tome_flavor.xacris_2_tome": "하늘을 환하게 밝힙니다.",
+        "ars_nouveau.tome_flavor.xacris_tome": (
+            "사용자 주위에 작은 오두막을 짓습니다."
+        ),
+        "ars_nouveau.tome_flavor.yeet_tome": (
+            "주위를 도는 투사체를 소환해 가까운 적을 날려 버립니다."
+        ),
+        "ars_nouveau.tome_flavor.yuukiukami_tome": (
+            "YuukiUkami의 초기 작품 중 하나로, 정밀함과 숙련을 향한 제작자의 열망이 "
+            "담긴 주문입니다. 창조자의 섬세한 비전술을 불어넣어 먼 거리의 땅속 "
+            "광물을 끌어당기며, 마치 광석들이 마법사의 커져 가는 유산에 기꺼이 "
+            "합류하려는 듯합니다."
+        ),
+        "ars_nouveau.tome_name.alex_tome": "Alex의 웅장한 대저택",
+        "ars_nouveau.tome_name.arachne_tome": "Arachne의 거미줄 짜기",
+        "ars_nouveau.tome_name.aurellia_tome": "Aurellia의 물어뜯는 폭풍",
+        "ars_nouveau.tome_name.bailey_tome": "Bailey의 소 로켓",
+        "ars_nouveau.tome_name.beepsterr_tome": "녹음의 기운",
+        "ars_nouveau.tome_name.bugcolez_tome": "픽시 난타",
+        "ars_nouveau.tome_name.chems_tome": "Chem의 과학적 반발 룬",
+        "ars_nouveau.tome_name.chosenarchitect_tome": "Chosen의 혼돈 전이",
+        "ars_nouveau.tome_name.cocoaeyebrows_tome": "Gobute의 소박한 터널",
+        "ars_nouveau.tome_name.crowdrone_tome": "Crow의 탐욕스러운 시선",
+        "ars_nouveau.tome_name.darkfira_tome": "Darkfira의 순간 동결",
+        "ars_nouveau.tome_name.farfalla_tome": "Farfalla의 서리 불꽃",
+        "ars_nouveau.tome_name.fireball_tome": "화염구!",
+        "ars_nouveau.tome_name.frantastic_tome": "분신술 폭풍",
+        "ars_nouveau.tome_name.glow_tome": "발광 함정",
+        "ars_nouveau.tome_name.gootastic_tome": "Gootastic의 염력 낚싯대",
+        "ars_nouveau.tome_name.ivy_tome": "아이비",
+        "ars_nouveau.tome_name.kamiihoney_tome": "Kamii의 저주",
+        "ars_nouveau.tome_name.kirin_tome": "KirinDave의 음흉한 전환",
+        "ars_nouveau.tome_name.lootz_tome": "불꽃놀이와 몹",
+        "ars_nouveau.tome_name.lufia_tome": "Lufia의 브웜프",
+        "ars_nouveau.tome_name.lyrellion_tome": "Lyrellion의 역장",
+        "ars_nouveau.tome_name.mystifi_tome": "Mysti의 무덤 파기",
+        "ars_nouveau.tome_name.nikk_tome": "Sutokahs의 LOVE",
+        "ars_nouveau.tome_name.othy_tome": "Othy의 교란",
+        "ars_nouveau.tome_name.pandoxyy_tome": "Pandoxyy의 회전 주기",
+        "ars_nouveau.tome_name.plauged757_tome": "자가 원자화",
+        "ars_nouveau.tome_name.poseidon_tome": "Poseidon의 피난처",
+        "ars_nouveau.tome_name.pranks_tome": "장난",
+        "ars_nouveau.tome_name.renew_rune_tome": "회복의 룬",
+        "ars_nouveau.tome_name.riftderp_tome": "Rift의 점멸 공격",
+        "ars_nouveau.tome_name.sebuss_tome": "Sebuss의 초고열 제련",
+        "ars_nouveau.tome_name.shadow_tome": "The Shadow의 임시 터널",
+        "ars_nouveau.tome_name.shoob_tome": "Shoob의 우아한 후퇴",
+        "ars_nouveau.tome_name.silvanus_tome": "비상 불꽃",
+        "ars_nouveau.tome_name.sloppybox_tome": "아케인 제련",
+        "ars_nouveau.tome_name.spinoftw_tome": "다쳤지만 괜찮아요",
+        "ars_nouveau.tome_name.takeoff_tome": "이륙!",
+        "ars_nouveau.tome_name.toxin_tome": "강력한 독",
+        "ars_nouveau.tome_name.treeleafs_tome": "Treeleafs의 정원사의 꿈",
+        "ars_nouveau.tome_name.uni_tome": "Uni의 방풍막",
+        "ars_nouveau.tome_name.urticantodin_tome": "Urti의 통통 튀기",
+        "ars_nouveau.tome_name.vault_tome": "도약",
+        "ars_nouveau.tome_name.warp_impact_tome": "워프 충돌",
+        "ars_nouveau.tome_name.worsecookie_tome": "노란 태양",
+        "ars_nouveau.tome_name.xacris_2_tome": "Xacris의 불꽃놀이",
+        "ars_nouveau.tome_name.xacris_tome": "Xacris의 작은 오두막",
+        "ars_nouveau.tome_name.yeet_tome": "궤도 이탈",
+        "ars_nouveau.tome_name.yuukiukami_tome": "Yuuki의 광물 동화 장치",
+        "painting.ars_nouveau.resting_drygmy.author": "Gootastic",
+        "painting.ars_nouveau.resting_drygmy.title": "쉬고 있는 드리그미",
+        "painting.ars_nouveau.starbuncle.author": "Gootastic",
+        "painting.ars_nouveau.starbuncle.title": "별다람쥐",
+    },
+    "ars_elemancy": {
+        "ars_elemental.armor_set.elemental.name": "원소술",
+    },
+}
+for namespace, overrides in CURRENT_81_KEY_OVERRIDES.items():
+    KEY_OVERRIDES.setdefault(namespace, {}).update(overrides)
+
 QUEST_OVERRIDES = {
     "ars_nouveau": {
         "quest.17D7D34F519F7E5F.quest_desc": (
@@ -2363,6 +2573,15 @@ def build_candidates() -> dict[str, object]:
             if family_goal.is_allowed_original(value):
                 candidates[key] = value
                 candidate_sources[key] = "reviewed_original_candidate"
+            elif key in KEY_OVERRIDES.get(root.name, {}):
+                candidates[key] = KEY_OVERRIDES[root.name][key]
+                candidate_sources[key] = "exact_key_override"
+            elif value in SOURCE_OVERRIDES:
+                candidates[key] = SOURCE_OVERRIDES[value]
+                candidate_sources[key] = "exact_source_override"
+            elif patterned_name(value) is not None:
+                candidates[key] = patterned_name(value)
+                candidate_sources[key] = "reviewed_pattern_candidate"
             elif value in MANUAL_CANDIDATES:
                 candidates[key] = MANUAL_CANDIDATES[value]
                 candidate_sources[key] = "manual_candidate"

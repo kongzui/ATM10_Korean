@@ -3,15 +3,12 @@
   "chapters": {
     "ars_nouveau": {
       "display_keys": 76,
-      "installed_ko_kr_candidate": 4,
-      "new_translation_required": 5,
-      "project_output_review": 67
+      "installed_ko_kr_candidate": 1,
+      "project_output_review": 75
     },
     "related": {
-      "display_keys": 49,
-      "installed_ko_kr_candidate": 1,
-      "new_translation_required": 3,
-      "project_output_review": 45
+      "display_keys": 51,
+      "project_output_review": 51
     }
   }
 }

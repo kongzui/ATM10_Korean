@@ -4411,6 +4411,11 @@ def is_allowed_original(source: str) -> bool:
 
 def is_family_allowed_original(family: str, key: str, source: str) -> bool:
     """모드 고유 식별명처럼 키 문맥에서만 원문 유지가 필요한 값을 판정한다."""
+    if family == "ars_nouveau" and key in {
+        "painting.ars_nouveau.resting_drygmy.author",
+        "painting.ars_nouveau.starbuncle.author",
+    }:
+        return True
     if family == "ice_and_fire" and key in {
         "advancements.iceandfire.root.title",
         "itemGroup.iceandfire",

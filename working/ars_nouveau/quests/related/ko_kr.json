@@ -16,6 +16,10 @@
     "이름처럼 이 스포너는 &d마나&r를 연료로 사용합니다. 소환할 몹이 든 격리 단지를 주변에 놓아 대상을 정하세요."
   ],
   "quest.6D68D9941049E806.quest_subtitle": "Ars Nouveau 스포너",
+  "quest.332A3C7BA261DBFC.quest_desc": [
+    "&e운석 나침반&r으로 &e운석&r의 대략적인 위치를 찾은 뒤 &dArs Nouveau&r의 &e탐지 막대&r를 사용하면 정확한 위치를 알아낼 수 있습니다."
+  ],
+  "quest.332A3C7BA261DBFC.quest_subtitle": "더 정확하게 찾기",
   "quest.0ABB2264CBB82470.quest_desc": [
     "&d&lArs&r 철 등급 방어구입니다."
   ],

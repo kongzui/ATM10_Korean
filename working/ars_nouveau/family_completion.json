@@ -2,8 +2,8 @@
   "family": "Ars Nouveau",
   "language_provenance": {
     "bundled_exact_reuse": 2220,
-    "project_output_reuse": 1106,
-    "new_or_edited": 860
+    "project_output_reuse": 1951,
+    "new_or_edited": 118
   },
   "ftbquests": {
     "chapters": [
@@ -11,7 +11,7 @@
     ],
     "quests_checked": 130,
     "tasks_checked": 135,
-    "display_keys_checked": 125,
+    "display_keys_checked": 127,
     "source_english_custom_names": 0,
     "unresolved_english_custom_names": 0,
     "explicit_task_titles": 9,
@@ -28,9 +28,9 @@
     ]
   },
   "patchouli": {
-    "files_checked": 323,
-    "display_fields": 761,
-    "translation_keys": 738,
+    "files_checked": 309,
+    "display_fields": 733,
+    "translation_keys": 710,
     "missing_translation_keys": 0,
     "literal_display_fields": 0,
     "localized_literal_fields": 10
@@ -75,11 +75,11 @@
     "common_ui_completion": "complete"
   },
   "deployment": {
-    "status": "applied_and_verified",
+    "status": "incomplete",
     "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10",
-    "backup_manifest": "temp/backups/20260808_203128_253932/backup_manifest.json",
-    "files_checked": 9,
-    "hash_matches": 9,
+    "backup_manifest": "temp/backups/20260820_075659_331174/backup_manifest.json",
+    "files_checked": 0,
+    "hash_matches": 0,
     "unexpected_changes": []
   },
   "validation_errors": 0,

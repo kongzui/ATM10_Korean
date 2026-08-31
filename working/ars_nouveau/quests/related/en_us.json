@@ -16,6 +16,10 @@
     "This spawner will, as its name implies, make use of &dSource&r as fuel. To decide on a mob to spawn, you'll need a Containment Jar holding the mob in the area."
   ],
   "quest.6D68D9941049E806.quest_subtitle": "Ars Nouveau's Spawner",
+  "quest.332A3C7BA261DBFC.quest_desc": [
+    "Using a &eDowsing Rod&r from &dArs Nouveau&r will help you find the exact location of a &eMeteorite&r once you've used the &eMeteorite Compass&r to find its general location."
+  ],
+  "quest.332A3C7BA261DBFC.quest_subtitle": "For more accuracy",
   "quest.0ABB2264CBB82470.quest_desc": [
     "Iron Armor of &d&lArs&r Armor."
   ],
