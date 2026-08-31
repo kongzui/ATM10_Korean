@@ -3,11 +3,11 @@
   "installed": [
     {
       "label": "Modern Industrialization",
-      "jar": "Modern-Industrialization-2.4.3.jar",
+      "jar": "Modern-Industrialization-2.5.6.jar",
       "namespace": "modern_industrialization",
       "direct_integration": false,
       "language_target": true,
-      "english_keys": 1767,
+      "english_keys": 1843,
       "bundled_korean_keys": 1244,
       "metadata_mentions_family": [
         "modern_industrialization"
@@ -62,25 +62,35 @@
     },
     {
       "label": "Extended Industrialization",
-      "jar": "extended-industrialization-1.15.42-1.21.1.jar",
+      "jar": "extended-industrialization-1.16.2-1.21.1.jar",
       "namespace": "extended_industrialization",
       "direct_integration": false,
       "language_target": true,
-      "english_keys": 328,
+      "english_keys": 333,
       "bundled_korean_keys": 0,
       "metadata_mentions_family": [
         "extended_industrialization",
         "modern_industrialization"
       ],
-      "guide_candidates": 0,
-      "guide_examples": [],
+      "guide_candidates": 9,
+      "guide_examples": [
+        "assets/extended_industrialization/guides/extended_industrialization/guide/index.md",
+        "assets/extended_industrialization/guides/extended_industrialization/guide/machines.md",
+        "assets/extended_industrialization/guides/extended_industrialization/guide/machines/batching_multiblocks.md",
+        "assets/extended_industrialization/guides/extended_industrialization/guide/machines/beacon.md",
+        "assets/extended_industrialization/guides/extended_industrialization/guide/machines/brewery.md",
+        "assets/extended_industrialization/guides/extended_industrialization/guide/machines/farmer.md",
+        "assets/extended_industrialization/guides/extended_industrialization/guide/machines/machine_chainer.md",
+        "assets/extended_industrialization/guides/extended_industrialization/guide/machines/solar_energy.md",
+        "assets/extended_industrialization/guides/extended_industrialization/guide/machines/tesla.md"
+      ],
       "advancements": 0,
       "advancement_examples": [],
-      "recipes": 224
+      "recipes": 226
     },
     {
       "label": "Industrialization Overdrive",
-      "jar": "industrialization_overdrive-1.11.2+1.21.1.jar",
+      "jar": "industrialization_overdrive-1.12.2+1.21.1.jar",
       "namespace": "industrialization_overdrive",
       "direct_integration": false,
       "language_target": true,
@@ -106,7 +116,7 @@
       ]
     },
     {
-      "jar": "tesseract-api-neoforge-1.12.3-1.21.1.jar",
+      "jar": "tesseract-api-neoforge-1.12.16-1.21.1.jar",
       "dependency_mentions": [
         "modern_industrialization"
       ]
@@ -115,25 +125,26 @@
   "language_candidates": [
     {
       "label": "Modern Industrialization",
-      "jar": "Modern-Industrialization-2.4.3.jar",
+      "jar": "Modern-Industrialization-2.5.6.jar",
       "namespace": "modern_industrialization",
-      "english_keys": 1767,
-      "bundled_ko_kr": 1243,
-      "new_translation_required": 524
+      "english_keys": 1843,
+      "new_translation_required": 76,
+      "project_output_review": 1767
     },
     {
       "label": "Extended Industrialization",
-      "jar": "extended-industrialization-1.15.42-1.21.1.jar",
+      "jar": "extended-industrialization-1.16.2-1.21.1.jar",
       "namespace": "extended_industrialization",
-      "english_keys": 328,
-      "new_translation_required": 328
+      "english_keys": 333,
+      "new_translation_required": 5,
+      "project_output_review": 328
     },
     {
       "label": "Industrialization Overdrive",
-      "jar": "industrialization_overdrive-1.11.2+1.21.1.jar",
+      "jar": "industrialization_overdrive-1.12.2+1.21.1.jar",
       "namespace": "industrialization_overdrive",
       "english_keys": 30,
-      "new_translation_required": 30
+      "project_output_review": 30
     }
   ]
 }

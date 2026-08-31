@@ -824,9 +824,64 @@ QUEST_CHAPTERS = {
 QUEST_OUTPUT = (
     active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 )
+QUEST_OUTPUT_SPLIT = QUEST_OUTPUT.with_suffix("")
 QUEST_CHAPTER_OUTPUT = (
     active_output_root() / "overrides/config/ftbquests/quests/chapters"
 )
+
+
+def load_split_quest_language(root: Path) -> dict[str, object]:
+    """분할 FTB Quests 언어 디렉터리를 중복 키 없이 읽는다."""
+    output: dict[str, object] = {}
+    key_files: dict[str, Path] = {}
+    for path in sorted(
+        (
+            path
+            for path in root.rglob("*")
+            if path.is_file() and path.name.endswith((".snbt", ".snbt_merged"))
+        ),
+        key=lambda item: item.as_posix().lower(),
+    ):
+        for key, value in quest_snbt.parse_language_snbt(path).items():
+            if key in output:
+                raise ValueError(
+                    f"FTB Quests 출력 키 중복: {key} " f"({key_files[key]}, {path})"
+                )
+            output[key] = value
+            key_files[key] = path
+    return output
+
+
+def load_quest_output() -> dict[str, object]:
+    """현재 버전의 병합 또는 분할 FTB Quests 번역 산출물을 읽는다."""
+    if QUEST_OUTPUT.is_file():
+        return quest_snbt.parse_language_snbt(QUEST_OUTPUT)
+    if QUEST_OUTPUT_SPLIT.is_dir():
+        return load_split_quest_language(QUEST_OUTPUT_SPLIT)
+    raise FileNotFoundError("FTB Quests 한국어 산출물을 찾을 수 없습니다.")
+
+
+def load_installed_quest_language(instance: Path, locale: str) -> dict[str, object]:
+    """설치본의 병합 또는 분할 FTB Quests 언어 파일을 읽는다."""
+    lang_root = instance / "config/ftbquests/quests/lang"
+    merged = lang_root / f"{locale}.snbt"
+    split = lang_root / locale
+    if merged.is_file():
+        return quest_snbt.parse_language_snbt(merged)
+    if split.is_dir():
+        return load_split_quest_language(split)
+    raise FileNotFoundError(f"설치본 FTB Quests {locale} 언어 파일을 찾을 수 없습니다.")
+
+
+def installed_quest_chapter_path(instance: Path, locale: str, chapter: str) -> Path:
+    """버전에 맞는 FTB Quests 챕터 언어 파일 경로를 반환한다."""
+    root = instance / f"config/ftbquests/quests/lang/{locale}/chapters"
+    for suffix in (".snbt", ".snbt_merged"):
+        path = root / f"{chapter}{suffix}"
+        if path.is_file():
+            return path
+    raise FileNotFoundError(f"FTB Quests {locale} 챕터를 찾을 수 없습니다: {chapter}")
+
 
 QUEST_VALIDATION_TEXT_EQUIVALENTS = {
     "quest.4C647369D976E67E.quest_desc": (("a dozen", "12"),),
@@ -3233,7 +3288,9 @@ def quest_candidate_is_translation(source: object, candidate: object) -> bool:
         return False
     source_text = quest_snbt.flatten(source)
     candidate_text = quest_snbt.flatten(candidate)
-    return source_text != candidate_text or is_allowed_original(source_text)
+    return source_text != candidate_text or is_allowed_original(
+        quest_audit.strip_formatting(source_text)
+    )
 
 
 def write_quest_candidates(
@@ -3283,7 +3340,6 @@ def related_quest_keys(instance: Path, family: str) -> dict[str, object]:
     namespaces = {target.namespace for target in targets_for(family)}
     dedicated = set(QUEST_CHAPTERS[family])
     chapters, _ = quest_audit.parse_chapters(instance / "config/ftbquests/quests")
-    lang_root = instance / "config/ftbquests/quests/lang/en_us/chapters"
     related: dict[str, object] = {}
     for chapter in chapters:
         chapter_name = Path(chapter["filename"]).stem
@@ -3300,8 +3356,11 @@ def related_quest_keys(instance: Path, family: str) -> dict[str, object]:
             if matched_tasks:
                 task_ids.update(matched_tasks)
                 quest_ids.add(quest["id"])
-        language_file = lang_root / f"{chapter_name}.snbt_merged"
-        if not language_file.is_file():
+        try:
+            language_file = installed_quest_chapter_path(
+                instance, "en_us", chapter_name
+            )
+        except FileNotFoundError:
             continue
         language = quest_snbt.parse_language_snbt(language_file)
         for key, value in language.items():
@@ -3323,21 +3382,22 @@ def related_quest_keys(instance: Path, family: str) -> dict[str, object]:
 
 def prepare_quests(instance: Path, family: str, force: bool) -> dict[str, object]:
     """전용·관련 FTB Quests 표시 문구 작업본을 준비한다."""
-    lang_root = instance / "config/ftbquests/quests/lang"
     project = (
-        quest_snbt.parse_language_snbt(QUEST_OUTPUT) if QUEST_OUTPUT.is_file() else {}
+        load_quest_output()
+        if QUEST_OUTPUT.is_file() or QUEST_OUTPUT_SPLIT.is_dir()
+        else {}
     )
     rows: dict[str, object] = {}
     for chapter in QUEST_CHAPTERS[family]:
         english = quest_snbt.parse_language_snbt(
-            lang_root / f"en_us/chapters/{chapter}.snbt_merged"
+            installed_quest_chapter_path(instance, "en_us", chapter)
         )
-        bundled_path = lang_root / f"ko_kr/chapters/{chapter}.snbt_merged"
-        bundled = (
-            quest_snbt.parse_language_snbt(bundled_path)
-            if bundled_path.is_file()
-            else {}
-        )
+        try:
+            bundled_path = installed_quest_chapter_path(instance, "ko_kr", chapter)
+        except FileNotFoundError:
+            bundled = {}
+        else:
+            bundled = quest_snbt.parse_language_snbt(bundled_path)
         rows[chapter] = write_quest_candidates(
             PROJECT_ROOT / "working" / family / "quests" / chapter,
             english,
@@ -3346,7 +3406,7 @@ def prepare_quests(instance: Path, family: str, force: bool) -> dict[str, object
             force,
         )
     related = related_quest_keys(instance, family)
-    installed_full = quest_snbt.parse_language_snbt(lang_root / "ko_kr.snbt")
+    installed_full = load_installed_quest_language(instance, "ko_kr")
     rows["related"] = write_quest_candidates(
         PROJECT_ROOT / "working" / family / "quests/related",
         related,
@@ -3415,6 +3475,10 @@ def remove_language_keys(text: str, keys: set[str]) -> str:
 
 def build_quests(instance: Path, family: str) -> dict[str, object]:
     """검수한 퀘스트 번역을 누적 ko_kr.snbt에 병합한다."""
+    if QUEST_OUTPUT_SPLIT.is_dir() and not QUEST_OUTPUT.is_file():
+        raise ValueError(
+            "분할 FTB Quests 출력은 scripts/rebase_ftbquests.py로 갱신해야 합니다."
+        )
     redundant_keys = redundant_item_task_title_keys(instance, family)
     combined: dict[str, object] = {}
     for root in sorted((PROJECT_ROOT / "working" / family / "quests").glob("*")):
@@ -3540,7 +3604,7 @@ def build_quests(instance: Path, family: str) -> dict[str, object]:
 def verify_quests(instance: Path, family: str) -> tuple[dict[str, object], list[str]]:
     """전용·관련 퀘스트와 fallback 표시 경로를 검증한다."""
     errors: list[str] = []
-    output = quest_snbt.parse_language_snbt(QUEST_OUTPUT)
+    output = load_quest_output()
     redundant_keys = redundant_item_task_title_keys(instance, family)
     display_keys = 0
     english_display: dict[str, object] = {}

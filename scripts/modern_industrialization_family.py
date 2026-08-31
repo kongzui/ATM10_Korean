@@ -647,6 +647,28 @@ VALUE_TRANSLATIONS.update(
 
 BASE_KEY_OVERRIDES = {
     "block.modern_industrialization.fire_clay_bricks": "내화 점토 벽돌 블록",
+    "modern_industrialization.configuration.transactionCallerName": (
+        "트랜잭션 호출자 이름 포함"
+    ),
+    "modern_industrialization.configuration.transactionCallerName.tooltip": (
+        "전송 트랜잭션에 이를 호출한 클래스 이름을 포함합니다. 성능이 저하될 수 "
+        "있으므로 디버깅 외에는 사용하지 않는 것이 좋습니다."
+    ),
+    "text.modern_industrialization.MachineMultipleRecipes1": (
+        "입력과 일치하는 제작법이 두 개 이상입니다."
+    ),
+    "text.modern_industrialization.MachineMultipleRecipes2": (
+        "모든 출력 슬롯을 잠그고, 그중 하나 이상은 원하는 출력으로 잠그세요."
+    ),
+    "block.extended_industrialization.electric_beacon": "전기 신호기",
+    "text.extended_industrialization.electric_beacon_beam_obstructed": ("광선이 막힘"),
+    "text.extended_industrialization.electric_beacon_help": (
+        "물약을 소모하여 효과 하나당 %s을(를) 사용하고, 주변 모든 플레이어에게 "
+        "지속 시간의 절반 동안 효과를 부여합니다."
+    ),
+    "text.extended_industrialization.electric_beacon_remaining_time_tooltip": (
+        "남은 효과 시간: %s"
+    ),
     # 발전 과제 141개를 영어 원문과 대조한 뒤 의미·수치·확정 아이템명을 교정한다.
     "advancements.modern_industrialization.advanced_upgrade": "기계 가속의 가속",
     "advancements.modern_industrialization.analog_circuit.description": "아날로그 회로를 제작하여 전기 시대에 진입하세요",
@@ -823,6 +845,11 @@ def translate_tag(key: str, korean: dict[str, object]) -> str | None:
     """공통 태그 이름을 검수된 실제 아이템·블록 이름과 일치시킨다."""
     if key in TAG_ROOT_TRANSLATIONS:
         return TAG_ROOT_TRANSLATIONS[key]
+    fluid_prefix = "tag.fluid.c."
+    if key.startswith(fluid_prefix):
+        material = key.removeprefix(fluid_prefix)
+        value = korean.get(f"block.modern_industrialization.{material}")
+        return value if isinstance(value, str) else None
     parts = key.split(".")
     if len(parts) != 4 or parts[:2] != ["tag", "c"]:
         return None
@@ -873,6 +900,8 @@ def normalize() -> dict[str, object]:
             candidate = korean[key]
             if key in BASE_KEY_OVERRIDES:
                 translated = BASE_KEY_OVERRIDES[key]
+            elif sources[key] == "project_output_review":
+                translated = candidate
             elif sources[key] == "bundled_ko_kr":
                 translated = reviewed_candidate(key, candidate)
             else:

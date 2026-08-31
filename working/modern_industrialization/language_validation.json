@@ -3,10 +3,10 @@
   "languages": [
     {
       "label": "Modern Industrialization",
-      "jar": "Modern-Industrialization-2.4.3.jar",
+      "jar": "Modern-Industrialization-2.5.6.jar",
       "namespace": "modern_industrialization",
-      "english_keys": 1767,
-      "korean_keys": 1767,
+      "english_keys": 1843,
+      "korean_keys": 1843,
       "untranslated": 0,
       "untranslated_examples": [],
       "duplicate_keys": 0,
@@ -14,15 +14,16 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 24,
-      "new_or_edited": 771,
-      "bundled_exact_reuse": 996
+      "project_output_reuse": 772,
+      "bundled_exact_reuse": 995,
+      "new_or_edited": 76
     },
     {
       "label": "Extended Industrialization",
-      "jar": "extended-industrialization-1.15.42-1.21.1.jar",
+      "jar": "extended-industrialization-1.16.2-1.21.1.jar",
       "namespace": "extended_industrialization",
-      "english_keys": 328,
-      "korean_keys": 328,
+      "english_keys": 333,
+      "korean_keys": 333,
       "untranslated": 0,
       "untranslated_examples": [],
       "duplicate_keys": 0,
@@ -30,11 +31,12 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "new_or_edited": 328
+      "project_output_reuse": 328,
+      "new_or_edited": 5
     },
     {
       "label": "Industrialization Overdrive",
-      "jar": "industrialization_overdrive-1.11.2+1.21.1.jar",
+      "jar": "industrialization_overdrive-1.12.2+1.21.1.jar",
       "namespace": "industrialization_overdrive",
       "english_keys": 30,
       "korean_keys": 30,
@@ -45,13 +47,13 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "new_or_edited": 30
+      "project_output_reuse": 30
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 996,
-    "project_output_reuse": 0,
-    "new_or_edited": 1129
+    "bundled_exact_reuse": 995,
+    "project_output_reuse": 1130,
+    "new_or_edited": 81
   },
   "ftbquests": {
     "chapters": [
@@ -62,8 +64,8 @@
     ],
     "quests_checked": 171,
     "tasks_checked": 258,
-    "display_keys_checked": 217,
-    "source_english_custom_names": 2,
+    "display_keys_checked": 218,
+    "source_english_custom_names": 28,
     "unresolved_english_custom_names": 0,
     "explicit_task_titles": 8,
     "source_redundant_single_item_task_titles": 0,

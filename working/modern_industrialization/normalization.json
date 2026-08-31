@@ -2,22 +2,23 @@
   "namespaces": [
     {
       "namespace": "modern_industrialization",
-      "keys": 1767,
+      "keys": 1843,
       "candidate_sources": {
-        "bundled_ko_kr": 1243,
-        "new_translation_required": 524
+        "project_output_review": 1767,
+        "new_translation_required": 76
       },
-      "changed": 1,
+      "changed": 76,
       "unresolved": 0,
       "unresolved_examples": []
     },
     {
       "namespace": "extended_industrialization",
-      "keys": 328,
+      "keys": 333,
       "candidate_sources": {
-        "new_translation_required": 328
+        "project_output_review": 328,
+        "new_translation_required": 5
       },
-      "changed": 0,
+      "changed": 4,
       "unresolved": 0,
       "unresolved_examples": []
     },
@@ -25,7 +26,7 @@
       "namespace": "industrialization_overdrive",
       "keys": 30,
       "candidate_sources": {
-        "new_translation_required": 30
+        "project_output_review": 30
       },
       "changed": 0,
       "unresolved": 0,

@@ -3,25 +3,23 @@
   "chapters": {
     "mi_steam": {
       "display_keys": 39,
-      "new_translation_required": 35,
-      "project_output_review": 4
+      "project_output_review": 39
     },
     "mi_electric": {
       "display_keys": 73,
-      "new_translation_required": 73
+      "project_output_review": 73
     },
     "mi_digital": {
       "display_keys": 60,
-      "new_translation_required": 60
+      "project_output_review": 60
     },
     "mi_endgame": {
       "display_keys": 11,
-      "new_translation_required": 11
+      "project_output_review": 11
     },
     "related": {
-      "display_keys": 34,
-      "new_translation_required": 9,
-      "project_output_review": 25
+      "display_keys": 35,
+      "project_output_review": 35
     }
   }
 }
