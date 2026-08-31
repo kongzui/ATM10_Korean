@@ -11,9 +11,6 @@ let currentVersion = null
 
 // Add your announcements here
 function initAnnouncements(){
-  addAnnouncement("4.0", "추가된 모드: Ars Creo, Ice and Fire, Oritech")
-  addAnnouncement("4.1", "추가된 모드: Oritech Things")
-  addAnnouncement("4.2", "제거된 모드: Oritech Things")
   addAnnouncement("4.3", "추가된 모드: Ars Controle, Create Aquatic Ambitions, Create Hypertube, Mekanism More Machines")
   addAnnouncement("4.5", "추가된 모드: Expanded AE, Industrialization Overdrive, RFTools Storage")
   addAnnouncement("4.6", "추가된 모드: The Aether, BotanyPots, BotanyTrees, RefinedTypes")
@@ -22,7 +19,7 @@ function initAnnouncements(){
   addAnnouncement("4.12", "추가된 모드: ModularBees")
   addAnnouncement("4.13", "추가된 모드: Dyson Cube Project")
   addAnnouncement("5.0", "제거된 모드: Modular Machinery Reborn, 대신 Modern Industrialization을 사용하세요")
-  addAnnouncement("5.3", Text.of("버전 6.0 이상으로 업데이트할 때를 대비해 ").append(Text.blue("Eternal Starlight")).append("와 ").append(Text.blue("Hyperbox")).append(" 모드를 ").append(Text.red("제거")).append("할 준비를 하고 있습니다"))
+  addAnnouncement("5.3", Text.of("다음 모드를 ").append(Text.red("제거")).append("할 준비를 하고 있습니다: ").append(Text.blue("Hyperbox")).append(". 버전 6.0 이상으로 업데이트할 때 대비하세요"))
   addAnnouncement("5.5", Text.of("공개 베타 테스트용으로 ").append(Text.green("All The Mons (ATM10 + Cobblemon)").clickOpenUrl("https://www.curseforge.com/minecraft/modpacks/all-the-mons").hover(Text.translatable("mco.notification.visitUrl.buttonText.default"))).append("을 출시했습니다!"))
 }
 

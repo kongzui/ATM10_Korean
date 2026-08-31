@@ -219,14 +219,6 @@ ItemEvents.modifyTooltips(allthemods => {
 	[
 		Text.of("§9식물 화분에서 수확하려면 섬세한 손길이 부여된 괭이가 필요합니다")
 	])
-
-    // Expanded AE
-    if (Platform.isLoaded('expandedae')) {
-        allthemods.modify('expandedae:exp_pattern_provider_upgrade', tooltip => {
-            tooltip.removeText(Text.of('a Pattern Provider to an Expanded Pattern Provider'))
-            tooltip.insert(1, Text.gray('패턴 공급기를 ME 확대 패턴 공급기로 업그레이드합니다'))
-        })
-    }
 })
 
 

@@ -1,0 +1,33 @@
+{
+  "pack_version": "8.1",
+  "source_candidate_files": 20,
+  "source_candidate_rows": 217,
+  "covered_candidate_files": 20,
+  "automatic_structure_matches": 17,
+  "manually_reviewed_structure_changes": [
+    "kubejs/client_scripts/tooltips.js",
+    "kubejs/server_scripts/announcements/announcements.js",
+    "kubejs/server_scripts/banlist_script.js"
+  ],
+  "new_current_source_translations": [
+    "kubejs/server_scripts/banlist_script.js",
+    "kubejs/server_scripts/debug/freeze_server.js",
+    "kubejs/startup_scripts/Applied Energistics/Universal_Press.js"
+  ],
+  "retained_project_injected_scripts": [
+    "kubejs/client_scripts/enderdrives_tooltips.js",
+    "kubejs/startup_scripts/appleskin_debug_labels.js",
+    "kubejs/startup_scripts/enderdrives_messages.js",
+    "kubejs/startup_scripts/mousetweaks_config_labels.js"
+  ],
+  "silentgear_trait_files_rebuilt": 4,
+  "silentgear_literals_translated": 9,
+  "atm_language_english_keys": 8,
+  "atm_language_korean_keys": 8,
+  "javascript_files_checked": 27,
+  "javascript_syntax_errors": 0,
+  "json_files_checked": 35,
+  "json_syntax_errors": 0,
+  "remaining_scope": "모드 JAR에서 가져온 구조물 NBT와 데이터 JSON은 각 모드 계열 재검토 단계에서 현재 원본과 대조",
+  "status": "kubejs_current_source_complete"
+}

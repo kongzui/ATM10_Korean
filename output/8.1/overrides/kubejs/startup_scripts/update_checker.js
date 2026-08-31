@@ -17,7 +17,7 @@ StartupEvents.postInit(event => {
       if (cfLatestVersion.compareTo(currentVersion) > 0) {
         let $SystemToast = Java.loadClass("net.minecraft.client.gui.components.toasts.SystemToast")
         let $SystemToastId = Java.loadClass("net.minecraft.client.gui.components.toasts.SystemToast$SystemToastId")
-        $SystemToast.add(Client.getToasts(), new $SystemToastId(10000), "새 업데이트가 있습니다!", Text.of("사용 가능한 버전: ").append(Text.green(cfLatestVersion)))
+        $SystemToast.add(Client.getToasts(), new $SystemToastId(10000), "새 업데이트가 있습니다!", Text.of("버전 ").append(Text.green(cfLatestVersion)).append(" 업데이트를 사용할 수 있습니다!"))
       } else {
         console.log("Pack is up to date!")
       }
