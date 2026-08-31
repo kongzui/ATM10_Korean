@@ -3,12 +3,12 @@
   "installed": [
     {
       "label": "SecurityCraft",
-      "jar": "[1.21.1] SecurityCraft v1.10.1.jar",
+      "jar": "[1.21.1] SecurityCraft v1.10.2.1.jar",
       "namespace": "securitycraft",
       "direct_integration": false,
       "language_target": true,
-      "english_keys": 1521,
-      "bundled_korean_keys": 1017,
+      "english_keys": 1564,
+      "bundled_korean_keys": 1013,
       "metadata_mentions_family": [
         "securitycraft"
       ],
@@ -35,7 +35,7 @@
         "assets/securitycraft/models/block/template_reinforced_chiseled_bookshelf_slot_bottom_mid.json",
         "assets/securitycraft/models/block/template_reinforced_chiseled_bookshelf_slot_bottom_right.json"
       ],
-      "advancements": 834,
+      "advancements": 839,
       "advancement_examples": [
         "data/securitycraft/advancement/recipes/building_blocks/ancient_debris_mine.json",
         "data/securitycraft/advancement/recipes/building_blocks/blast_furnace_mine.json",
@@ -58,7 +58,7 @@
         "data/securitycraft/advancement/recipes/building_blocks/deepslate_copper_mine.json",
         "data/securitycraft/advancement/recipes/building_blocks/deepslate_diamond_mine.json"
       ],
-      "recipes": 1675
+      "recipes": 1685
     }
   ],
   "extra_scope": [],
@@ -66,11 +66,11 @@
   "language_candidates": [
     {
       "label": "SecurityCraft",
-      "jar": "[1.21.1] SecurityCraft v1.10.1.jar",
+      "jar": "[1.21.1] SecurityCraft v1.10.2.1.jar",
       "namespace": "securitycraft",
-      "english_keys": 1521,
-      "bundled_ko_kr": 1016,
-      "new_translation_required": 505
+      "english_keys": 1564,
+      "new_translation_required": 54,
+      "project_output_review": 1510
     }
   ]
 }

@@ -3,10 +3,10 @@
   "languages": [
     {
       "label": "SecurityCraft",
-      "jar": "[1.21.1] SecurityCraft v1.10.1.jar",
+      "jar": "[1.21.1] SecurityCraft v1.10.2.1.jar",
       "namespace": "securitycraft",
-      "english_keys": 1521,
-      "korean_keys": 1521,
+      "english_keys": 1564,
+      "korean_keys": 1564,
       "untranslated": 0,
       "untranslated_examples": [],
       "duplicate_keys": 0,
@@ -14,14 +14,15 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "bundled_exact_reuse": 835,
-      "new_or_edited": 686
+      "bundled_exact_reuse": 831,
+      "project_output_reuse": 679,
+      "new_or_edited": 54
     }
   ],
   "language_provenance": {
-    "bundled_exact_reuse": 835,
-    "project_output_reuse": 0,
-    "new_or_edited": 686
+    "bundled_exact_reuse": 831,
+    "project_output_reuse": 679,
+    "new_or_edited": 54
   },
   "ftbquests": {
     "chapters": [],

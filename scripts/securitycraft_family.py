@@ -178,6 +178,224 @@ EXACT_KEYS = {
     ),
 }
 
+CURRENT_81_EXACT_KEYS = {
+    "block.securitycraft.secure_trading_station": "보안 거래소",
+    "gui.securitycraft:blockPocketManager.cancel": "취소",
+    "gui.securitycraft:blockPocketManager.confirm": "확인",
+    "gui.securitycraft:blockPocketManager.confirmDisassembly": "해체 확인",
+    "gui.securitycraft:blockPocketManager.disassemble": "자동 해체",
+    "gui.securitycraft:blockReinforcer.chooseTintColorTooltip": (
+        "강화 블록에 적용할 색조를 선택하세요"
+    ),
+    "gui.securitycraft:blockReinforcer.mode": "채굴 모드:",
+    "gui.securitycraft:blockReinforcer.reinforcing": "강화",
+    "gui.securitycraft:blockReinforcer.reinforcing.tooltip": (
+        "월드에 놓인 블록을 공격하면 강화합니다"
+    ),
+    "gui.securitycraft:blockReinforcer.saveToConfigTooltip": (
+        "게임을 종료해도 색조 변경을 기억하도록 설정 파일에 저장합니다"
+    ),
+    "gui.securitycraft:blockReinforcer.tint": "색조:",
+    "gui.securitycraft:blockReinforcer.tintMode.all": "모두",
+    "gui.securitycraft:blockReinforcer.tintMode.all.tooltip": (
+        "설치된 모든 강화 블록에 색조를 적용합니다"
+    ),
+    "gui.securitycraft:blockReinforcer.tintMode.none": "없음",
+    "gui.securitycraft:blockReinforcer.tintMode.none.tooltip": (
+        "설치된 강화 블록의 색조를 비활성화합니다"
+    ),
+    "gui.securitycraft:blockReinforcer.tintMode.owned": "내 소유",
+    "gui.securitycraft:blockReinforcer.tintMode.owned.tooltip": (
+        "내가 소유한 강화 블록에 색조를 적용합니다"
+    ),
+    "gui.securitycraft:blockReinforcer.tintMode.unowned": "내 소유 아님",
+    "gui.securitycraft:blockReinforcer.tintMode.unowned.tooltip": (
+        "내가 소유하지 않은 강화 블록에 색조를 적용합니다"
+    ),
+    "gui.securitycraft:blockReinforcer.unreinforcing": "강화 해제",
+    "gui.securitycraft:blockReinforcer.unreinforcing.tooltip": (
+        "월드에 놓인 블록을 공격하면 강화를 해제합니다"
+    ),
+    "gui.securitycraft:secure_trading_station.allowed": (
+        "(소유자와 허용 목록의 플레이어는 거래할 때 지불 아이템을 제공하지 않아도 됩니다)"
+    ),
+    "gui.securitycraft:secure_trading_station.confirm": "거래 확인",
+    "gui.securitycraft:secure_trading_station.confirm_multiple": ("%s건의 거래 확인"),
+    "gui.securitycraft:secure_trading_station.no_reward": (
+        "경고: 남은 재고가 부족해 거래 보상을 전부 지급할 수 없습니다!"
+    ),
+    "gui.securitycraft:secure_trading_station.not_enough_reward": (
+        "경고: 현재 재고로는 %s건의 거래 보상만 전부 지급할 수 있습니다!"
+    ),
+    "gui.securitycraft:secure_trading_station.pay_button": "지불",
+    "gui.securitycraft:secure_trading_station.payment": "지불:",
+    "gui.securitycraft:secure_trading_station.reward": "보상:",
+    "gui.securitycraft:secure_trading_station.reward_activate_redstone": (
+        "레드스톤 활성화"
+    ),
+    "gui.securitycraft:secure_trading_station.reward_items": "+ 저장된 아이템:",
+    "gui.securitycraft:secure_trading_station.reward_toggle_redstone": (
+        "레드스톤 전환"
+    ),
+    "gui.securitycraft:secure_trading_station.transaction_amount_tooltip": (
+        "몇 건을 거래할까요?"
+    ),
+    "help.securitycraft.block_pocket_manager.info": (
+        "블록 포켓 관리자는 소유자와 허용 목록의 플레이어만 들어갈 수 있는 방인 블록 "
+        "포켓을 관리합니다. 블록 포켓은 정육면체이며 GUI에서 여러 크기 중 하나를 "
+        "선택할 수 있습니다. 크기를 선택한 뒤 직접 구조물을 짓거나, 필요한 블록이 "
+        "있다면 자동으로 조립할 수 있습니다. 관리자는 맨 아래층 바깥쪽에 놓으세요. "
+        "구조물의 모서리는 강화된 조각된 수정 석영, 가장자리는 방향을 맞춘 강화된 "
+        "수정 석영 기둥, 각 면은 블록 포켓 벽으로 채웁니다. 구조물을 완성한 뒤 "
+        '"활성화"를 누르면 작동합니다. 활성화된 뒤에는 소유자와 허용 목록의 '
+        "플레이어만 구조물 안으로 들어갈 수 있습니다."
+    ),
+    "help.securitycraft.briefcase.info": (
+        "서류 가방은 암호로 잠기는 12칸짜리 휴대용 저장 장치입니다. 제작한 뒤 "
+        "우클릭해 앞으로 사용할 4자리 암호를 설정하세요. 그다음부터 올바른 암호를 "
+        "입력하면 서류 가방의 인벤토리를 사용할 수 있습니다. 암호를 없애거나 "
+        "소유자를 바꾸려면 서류 가방을 보조 손에 들고, 주 손에 범용 열쇠 변경기 "
+        "또는 범용 소유자 변경기를 든 채 우클릭하세요."
+    ),
+    "help.securitycraft.camera_monitor.info": (
+        "카메라 모니터는 연결한 보안 카메라를 최대 30대까지 실시간으로 볼 수 있는 "
+        "휴대용 아이템입니다. 카메라 모니터로 보안 카메라를 우클릭해 연결하고, "
+        "허공을 우클릭한 뒤 GUI에서 카메라를 선택해 영상을 확인하세요. 연결을 "
+        "해제하려면 카메라 모니터로 해당 카메라를 다시 우클릭하거나 모니터 GUI에서 "
+        '해당 "X" 버튼을 누르세요.'
+    ),
+    "help.securitycraft.codebreaker.info": (
+        "암호 해독기로 키 카드 판독기, 키패드, 암호로 보호된 상자·통·화로를 "
+        "우클릭하면 암호를 해독할 수 있습니다. 5번 사용할 수 있으며, 사용할 때마다 "
+        "1/3 확률로 암호 해독에 성공합니다."
+    ),
+    "help.securitycraft.inventory_scanner.info": (
+        "인벤토리 스캐너 두 개를 서로 마주 보게 최대 2블록 간격으로 놓아 사용합니다. "
+        "올바르게 배치하면 그 사이에 레이저 영역이 생깁니다. 설치한 뒤 어느 쪽 "
+        "스캐너든 우클릭해 감지할 금지 아이템을 추가하세요. 금지 아이템을 가진 "
+        "플레이어가 스캐너 사이를 지나면 설치된 모듈에 따라 여러 동작을 수행합니다."
+    ),
+    "help.securitycraft.keycard_reader.info": (
+        "판독기 설정과 일치하는 키 카드를 넣으면 키 카드 판독기가 레드스톤 신호를 "
+        "냅니다. 연결된 키 카드가 아닌 다른 아이템으로 판독기를 우클릭하면 설정할 "
+        "수 있습니다. 서명은 판독기와 키 카드를 연결하는 숫자입니다. 연결했던 "
+        "판독기와 서명이 같은 키 카드만 그 판독기를 열 수 있습니다. 다른 플레이어의 "
+        "판독기에 연결된 키 카드는 내 판독기에서 작동하지 않습니다. 같은 서명을 "
+        "가진 판독기를 여러 개 만들 수 있으며, 그 서명을 가진 내 키 카드는 모두 "
+        "작동합니다. GUI 오른쪽의 키 카드 레벨 버튼은 판독기마다 따로 설정되며, 이 "
+        "판독기를 활성화할 수 있는 키 카드 레벨을 정합니다."
+    ),
+    "help.securitycraft.keycards.info": (
+        "키 카드를 키 카드 판독기에 연결하면 판독기를 열 수 있습니다. 키 카드 설정을 "
+        "초기화하려면 제작대에 넣으세요. 자세한 내용은 키 카드 판독기 설명서 페이지를 "
+        "확인하세요."
+    ),
+    "help.securitycraft.keypad.info": (
+        "키패드에 올바른 암호를 입력하면 레드스톤 신호가 나옵니다. 키패드를 설치한 "
+        "뒤 우클릭해 숫자 암호를 설정하세요. 암호를 설정한 뒤 다시 우클릭하면 암호를 "
+        "입력할 수 있습니다."
+    ),
+    "help.securitycraft.laser_block.info": (
+        "레이저 블록 두 개를 서로 5블록 안에 놓아 사용합니다. 올바르게 배치하면 그 "
+        "사이에 레이저가 생깁니다. 소유자나 허용 목록에 없는 플레이어가 레이저에 "
+        "닿으면 설치된 모듈에 따라 여러 동작을 수행합니다."
+    ),
+    "help.securitycraft.mine.info": (
+        "지뢰는 개체가 밟으면 폭발합니다. 전선 절단기를 들고 지뢰를 우클릭하면 "
+        "해체되어 안전하게 부술 수 있습니다. 부싯돌과 부시를 들고 우클릭하면 다시 "
+        "활성화됩니다."
+    ),
+    "help.securitycraft.portable_radar.info": (
+        "플레이어가 휴대용 레이더의 감지 반경 안에 들어오면 소유자에게 채팅 메시지를 "
+        "보냅니다. 기본 반경은 25블록이며 범용 블록 설정기로 바꿀 수 있습니다."
+    ),
+    "help.securitycraft.retinal_scanner.info": (
+        "소유자가 부술 수 있는 거리 안에서 보이는 각도로 망막 스캐너를 바라보면 "
+        "레드스톤 신호가 나옵니다."
+    ),
+    "help.securitycraft.secure_trading_station.info": (
+        "보안 거래소는 플레이어끼리 아이템을 거래하는 데 사용합니다. 소유자는 최대 "
+        "2종류의 아이템과 각 수량을 지불 대상으로 설정할 수 있습니다. 플레이어가 "
+        "해당 아이템을 지불하면 거래소 뒤쪽으로 아이템이 나오고 레드스톤 신호가 "
+        "발생합니다. 저장 모듈을 넣으면 지불한 아이템을 거래소 안에 보관합니다. 또한 "
+        "소유자는 최대 2종류의 보상 아이템과 수량을 설정할 수 있으며, 거래한 "
+        "플레이어에게 거래소 인벤토리에서 보상을 지급합니다."
+    ),
+    "messages.securitycraft:blockpocket.disassembled": "블록 포켓을 해체했습니다!",
+    "messages.securitycraft:keycard_acceptor.cant_use": (
+        "이 키 카드를 사용할 권한이 없습니다!"
+    ),
+    "messages.securitycraft:keycard_acceptor.different_owner": (
+        "이 키 카드가 연결된 키 카드 판독기의 소유자와 이 블록의 소유자가 다릅니다!"
+    ),
+    "messages.securitycraft:keycard_acceptor.no_uses": (
+        "이 키 카드에는 남은 사용 횟수가 없습니다!"
+    ),
+    "messages.securitycraft:keycard_acceptor.wrong_level": (
+        "%s레벨 키 카드는 이 블록에 사용할 수 없습니다!"
+    ),
+    "messages.securitycraft:keycard_acceptor.wrong_signature": (
+        "이 키 카드에 저장된 서명이 이 블록의 서명과 다릅니다!"
+    ),
+    "messages.securitycraft:secure_trading_station.transaction_failed": (
+        "지불 아이템이 부족해 거래를 제출하지 못했습니다. 지불 아이템을 더 넣고 "
+        "다시 시도하세요."
+    ),
+    "module.securitycraft.secure_trading_station.blacklist_module.description": (
+        "보안 거래소에 차단 목록 모듈을 넣으면 목록에 있는 플레이어가 블록을 "
+        "사용하지 못합니다."
+    ),
+    "module.securitycraft.secure_trading_station.smart_module.description": (
+        "보안 거래소에 스마트 모듈을 넣으면 제공된 지불 아이템과 기준 아이템을 "
+        "비교할 때 마법 부여와 그 밖의 메타데이터도 확인합니다."
+    ),
+    "module.securitycraft.secure_trading_station.storage_module.description": (
+        "보안 거래소에 저장 모듈을 넣으면 받은 지불 아이템을 인벤토리에 보관합니다. "
+        "또한 거래소 인벤토리의 보상 아이템을 거래한 플레이어에게 지급할 수 있습니다."
+    ),
+    "module.securitycraft.secure_trading_station.whitelist_module.description": (
+        "보안 거래소에 허용 목록 모듈을 넣으면 목록에 있는 플레이어가 지불 아이템 "
+        "없이 거래할 수 있습니다."
+    ),
+    "module.securitycraft.username_logger.smart_module.description": (
+        "사용자 이름 기록기에 스마트 모듈을 넣으면 같은 플레이어의 기존 기록을 "
+        "갱신해 중복 기록이 생기지 않게 합니다."
+    ),
+    "option.securitycraft.portable_radar.sendMessage": "메시지 보내기: %s",
+    "option.securitycraft.portable_radar.sendMessage.description": (
+        "감지 반경 안에 플레이어가 있을 때 레이더가 메시지를 보낼까요?"
+    ),
+    "securitycraft.configuration.more_performant_sri_rendering": (
+        "SRI 렌더링 성능 개선"
+    ),
+    "securitycraft.configuration.more_performant_sri_rendering.tooltip": (
+        '"수신기" 모드의 보안 레드스톤 인터페이스를 회전 원반 없이 렌더링할까요? '
+        "클라이언트 성능이 조금 좋아질 수 있습니다."
+    ),
+    "securitycraft.configuration.owned_breaking_slowdown": (
+        "내 소유 블록 채굴 감속 배율"
+    ),
+    "securitycraft.configuration.owned_breaking_slowdown.tooltip": (
+        "블록을 부수는 플레이어가 그 블록의 소유자일 때 채굴 속도를 얼마나 늦출지 "
+        "정합니다.\n일반 블록 채굴 속도를 이 값으로 나누어 계산합니다. 예: 값이 "
+        "2.0이면 블록을 부수는 데 두 배의 시간이 걸립니다.\n이 설정은 "
+        '"바닐라 도구 블록 채굴"이 활성화된 경우에만 적용됩니다.'
+    ),
+    "securitycraft.configuration.reinforced_block_tint_color.tooltip": (
+        "강화 블록 텍스처에 입힐 색조를 정합니다. "
+        '"reinforced_block_tint_mode" 설정의 조건을 만족하는 모든 블록에 같은 색조를 '
+        "적용합니다. 회색조 값을 사용할 때 가장 자연스럽게 보입니다."
+    ),
+    "securitycraft.configuration.reinforced_block_tint_mode": "강화 블록 색조 모드",
+    "securitycraft.configuration.reinforced_block_tint_mode.tooltip": (
+        "설치된 강화 블록이 바닐라 블록과 다른 색으로 표시되려면 어떤 조건을 "
+        '만족해야 하는지 정합니다. 색조는 "reinforced_block_tint_color" 설정에서 '
+        "정할 수 있습니다. 모든 강화 블록, 강화 블록 없음, 플레이어 소유인 강화 "
+        "블록 또는 플레이어 소유가 아닌 강화 블록에 적용할 수 있습니다."
+    ),
+}
+EXACT_KEYS.update(CURRENT_81_EXACT_KEYS)
+
 REPLACEMENTS = (
     ("블럭", "블록"),
     ("유저", "사용자"),
