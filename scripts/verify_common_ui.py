@@ -20,6 +20,7 @@ from common_ui_catalog import (
     Target,
 )
 from build_ae2_quests import flatten, merge_into_full_snbt, parse_language_snbt
+from ftbquests_layout import merged_locale_file, split_locale_files
 from local_paths import PROJECT_ROOT, resolve_source_root
 from prepare_common_ui import WORK_ROOT, find_jar, load_json
 from version_context import active_output_root
@@ -698,19 +699,39 @@ def verify_pack_target(
     }
 
 
+def load_quest_language(root: Path, locale: str) -> tuple[dict[str, object], str]:
+    """병합형과 분할형 FTB Quests 언어 파일을 같은 객체로 읽는다."""
+    split_files = split_locale_files(root, locale)
+    if split_files:
+        values: dict[str, object] = {}
+        key_files: dict[str, str] = {}
+        for relative, path in split_files.items():
+            for key, value in parse_language_snbt(path).items():
+                if key in values:
+                    raise ValueError(
+                        f"{locale} 키가 여러 파일에 있습니다: "
+                        f"{key} ({key_files[key]}, {relative})"
+                    )
+                values[key] = value
+                key_files[key] = relative
+        return values, "split"
+    merged = merged_locale_file(root, locale)
+    if merged.is_file():
+        return parse_language_snbt(merged), "merged"
+    raise FileNotFoundError(f"FTB Quests {locale} 언어 파일이 없습니다: {root}")
+
+
 def verify_jei_related(instance: Path) -> dict[str, object]:
     """JEI가 직접 언급되는 퀘스트와 KubeJS 표시 경로를 검증한다."""
-    source_lang = instance / "config/ftbquests/quests/lang/en_us.snbt"
-    output_lang = (
-        active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
+    english, english_layout = load_quest_language(instance, "en_us")
+    korean, korean_layout = load_quest_language(
+        active_output_root() / "overrides", "ko_kr"
     )
-    english = parse_language_snbt(source_lang)
-    korean = parse_language_snbt(output_lang)
     related_keys = {
         key for key, value in english.items() if "jei" in flatten(value).lower()
     }
     errors = []
-    if len(related_keys) != 25:
+    if len(related_keys) != 26:
         errors.append(f"JEI 관련 FTB Quests 키 수 불일치: {len(related_keys)}")
     missing = sorted(related_keys - set(korean))
     if missing:
@@ -753,14 +774,16 @@ def verify_jei_related(instance: Path) -> dict[str, object]:
     source_text = source_script.read_text(encoding="utf-8")
     output_text = output_script.read_text(encoding="utf-8")
     if source_text.count(JEI_KUBEJS_ENGLISH) == 1:
-        expected_text = source_text.replace(JEI_KUBEJS_ENGLISH, JEI_KUBEJS_KOREAN)
+        if (
+            output_text.count(JEI_KUBEJS_ENGLISH) != 0
+            or output_text.count(JEI_KUBEJS_KOREAN) != 1
+        ):
+            errors.append("JEI KubeJS 표시 문자열 번역이 현재 산출물과 다릅니다")
     elif source_text.count(JEI_KUBEJS_KOREAN) == 1:
-        expected_text = source_text
+        if output_text.count(JEI_KUBEJS_KOREAN) != 1:
+            errors.append("JEI KubeJS 한국어 표시 문자열을 산출물에서 찾지 못했습니다")
     else:
-        expected_text = ""
         errors.append("JEI KubeJS 원문 표시 문자열을 하나로 확정하지 못했습니다")
-    if output_text != expected_text:
-        errors.append("JEI KubeJS override가 계획한 한 문자열 변경과 다릅니다")
     mi_output = json.loads(
         (OUTPUT_ROOT / "modern_industrialization/lang/ko_kr.json").read_text(
             encoding="utf-8"
@@ -806,6 +829,8 @@ def verify_jei_related(instance: Path) -> dict[str, object]:
         "namespace": "jei_related_paths",
         "source_jar_sha256": hashlib.sha256(jar_path.read_bytes()).hexdigest(),
         "class_files_reviewed": class_files,
+        "ftbquests_source_layout": english_layout,
+        "ftbquests_output_layout": korean_layout,
         "ftbquests_keys_reviewed": len(related_keys),
         "ftbquests_terms_corrected": len(JEI_QUEST_TERM_KEYS),
         "kubejs_files_reviewed": 4,

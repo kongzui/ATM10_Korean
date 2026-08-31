@@ -1,0 +1,60 @@
+{
+  "pack_version": "8.1",
+  "status": "full_recheck_completed_and_deployed",
+  "scope": "Just Enough Items 8.1 원문 차이와 관련 표시 경로 재검수",
+  "source_jar": {
+    "name": "jei-1.21.1-neoforge-19.50.0.414.jar",
+    "sha256": "4bcea151e3e7c1ced190759283ea03259ad053db2f4455170da21135a74bb7b8",
+    "language_keys": 312,
+    "class_files": 1028
+  },
+  "language": {
+    "baseline_reused": 272,
+    "changed_source_keys_rechecked": 7,
+    "new_source_keys_translated": 33,
+    "removed_source_keys": 26,
+    "current_jar_korean_candidates": 150,
+    "current_jar_candidate_values_retained": 42,
+    "review_queue_candidate_values_retained": 0,
+    "remaining": 0,
+    "output_sha256": "247cb085740aa8b563739ad67a29be86f8586e17b9847baad6b8a2654c52e503"
+  },
+  "refined_storage_integration": {
+    "source_keys": 10,
+    "baseline_reused": 10,
+    "remaining": 0,
+    "output_sha256": "eeaa6a9727ab67723a6ae7b7421d621cdc322cebb981bb7ec0ae13769d853204"
+  },
+  "related_paths": {
+    "ftbquests_layout": "split",
+    "ftbquests_keys_reviewed": 26,
+    "ftbquests_recipe_terms_checked": 6,
+    "kubejs_display_values_reviewed": 4,
+    "kubejs_display_values_retained": 3,
+    "kubejs_display_literals_corrected": 1,
+    "guide_files": 0,
+    "advancement_files": 0
+  },
+  "validation": {
+    "json": "passed",
+    "key_order_and_types": "passed",
+    "placeholders": "passed",
+    "format_codes": "passed",
+    "line_breaks": "passed",
+    "search_prefixes": "passed",
+    "ftbquests_split_layout": "passed",
+    "kubejs_display_path": "passed",
+    "python_ruff": "passed",
+    "python_compile": "passed",
+    "validation_errors": 0
+  },
+  "deployment": {
+    "status": "applied_and_verified",
+    "target": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10 (1)",
+    "selected_paths": 2,
+    "changed_paths": 2,
+    "unexpected_changes": 0,
+    "backup_manifest": "temp/backups/20260831_223448_264212/backup_manifest.json"
+  },
+  "minecraft_game_screen_verified": false
+}
