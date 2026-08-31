@@ -3,7 +3,7 @@
   "languages": [
     {
       "label": "CC: Tweaked",
-      "jar": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+      "jar": "cc-tweaked-1.21.1-forge-1.120.2.jar",
       "namespace": "computercraft",
       "english_keys": 235,
       "korean_keys": 235,
@@ -15,14 +15,14 @@
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
       "bundled_exact_reuse": 61,
-      "new_or_edited": 174
+      "project_output_reuse": 174
     },
     {
       "label": "Advanced Peripherals",
-      "jar": "AdvancedPeripherals-1.21.1-0.7.62b.jar",
+      "jar": "AdvancedPeripherals-1.21.1-0.8.0a.jar",
       "namespace": "advancedperipherals",
-      "english_keys": 86,
-      "korean_keys": 86,
+      "english_keys": 133,
+      "korean_keys": 133,
       "untranslated": 0,
       "untranslated_examples": [],
       "duplicate_keys": 0,
@@ -31,7 +31,8 @@
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
       "bundled_exact_reuse": 9,
-      "new_or_edited": 77
+      "project_output_reuse": 62,
+      "new_or_edited": 62
     },
     {
       "label": "More Red",
@@ -46,13 +47,13 @@
       "output_matches": true,
       "guide_extra_keys": 0,
       "integration_extra_keys": 0,
-      "new_or_edited": 51
+      "project_output_reuse": 51
     }
   ],
   "language_provenance": {
     "bundled_exact_reuse": 70,
-    "project_output_reuse": 0,
-    "new_or_edited": 302
+    "project_output_reuse": 287,
+    "new_or_edited": 62
   },
   "ftbquests": {
     "chapters": [],

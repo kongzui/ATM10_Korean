@@ -458,6 +458,135 @@ KEY_OVERRIDES: dict[str, str] = {
     "itemGroup.morered": "More Red",
 }
 
+CURRENT_81_KEY_OVERRIDES = {
+    "block.advancedperipherals.distance_detector": "거리 감지기",
+    "block.advancedperipherals.fluid_detector": "유체 감지기",
+    "block.advancedperipherals.gas_detector": "가스 감지기",
+    "block.advancedperipherals.smart_rail": "스마트 레일",
+    "block.advancedperipherals.tooltip.block_reader": (
+        "&7블록의 NBT 데이터를 읽어 컴퓨터를 지원하지 않는 블록과도 상호 작용합니다."
+    ),
+    "block.advancedperipherals.tooltip.chat_box": (
+        "&7게임 내 채팅을 읽고 메시지를 보낼 수 있습니다."
+    ),
+    "block.advancedperipherals.tooltip.colony_integrator": (
+        "&7MineColonies와 연동해 식민지와 주민 데이터를 읽습니다."
+    ),
+    "block.advancedperipherals.tooltip.distance_detector": (
+        "&7처음 만나는 장애물까지의 거리를 측정합니다."
+    ),
+    "block.advancedperipherals.tooltip.energy_detector": (
+        "&7에너지 흐름을 감지하며 저항기 역할도 합니다."
+    ),
+    "block.advancedperipherals.tooltip.environment_detector": (
+        "&7Minecraft 월드의 환경 정보를 감지하는 주변 장치입니다."
+    ),
+    "block.advancedperipherals.tooltip.fluid_detector": (
+        "&7유체 흐름을 감지하며 저항기 역할도 합니다."
+    ),
+    "block.advancedperipherals.tooltip.gas_detector": (
+        "&7가스 흐름을 감지하며 저항기 역할도 합니다."
+    ),
+    "block.advancedperipherals.tooltip.geo_scanner": (
+        "&7주변 지역을 스캔해 반짝이는 광석을 찾습니다."
+    ),
+    "block.advancedperipherals.tooltip.inventory_manager": (
+        "&7플레이어 인벤토리에서 지정한 아이템을 넣거나 꺼낼 수 있습니다."
+    ),
+    "block.advancedperipherals.tooltip.me_bridge": (
+        "&7ME 브리지는 Applied Energistics 2와 연동해 아이템을 관리합니다."
+    ),
+    "block.advancedperipherals.tooltip.nbt_storage": (
+        "&7저장 디스크처럼 작동하며 NBT 기반 데이터를 저장합니다."
+    ),
+    "block.advancedperipherals.tooltip.peripheral_casing": (
+        "&7사랑받지 못한 빈 껍데기입니다. 제작 재료로 사용합니다."
+    ),
+    "block.advancedperipherals.tooltip.player_detector": (
+        "&7플레이어와 상호 작용하는 주변 장치입니다. 스토커처럼 쓰지는 마세요."
+    ),
+    "block.advancedperipherals.tooltip.rs_bridge": (
+        "&7RS 브리지는 Refined Storage와 연동해 아이템을 관리합니다."
+    ),
+    "block.advancedperipherals.tooltip.smart_rail": (
+        "&7컴퓨터로 제어할 수 있는 고급 레일입니다."
+    ),
+    "curios.identifier.glasses": "안경",
+    "item.advancedperipherals.ae_disk_cell_1m": "AE 디스크 셀 1M",
+    "item.advancedperipherals.ae_disk_cell_4m": "AE 디스크 셀 4M",
+    "item.advancedperipherals.ae_disk_cell_16m": "AE 디스크 셀 16M",
+    "item.advancedperipherals.ae_disk_cell_64m": "AE 디스크 셀 64M",
+    "item.advancedperipherals.ae_disk_cell_256m": "AE 디스크 셀 256M",
+    "item.advancedperipherals.cable_p2p_tunnel": "케이블 P2P 터널",
+    "item.advancedperipherals.hotkey_module": "단축키 모듈",
+    "item.advancedperipherals.keyboard": "키보드",
+    "item.advancedperipherals.nightvision_module": "야간 투시 모듈",
+    "item.advancedperipherals.overlay_module": "오버레이 모듈",
+    "item.advancedperipherals.smart_glasses": "스마트 안경",
+    "item.advancedperipherals.smart_glasses_interface": "스마트 안경 인터페이스",
+    "item.advancedperipherals.smart_glasses_netherite": ("네더라이트 강화 스마트 안경"),
+    "item.advancedperipherals.tooltip.ae_disk_cell_1m": (
+        "&7ME 브리지를 통해 약간의 외부 파일 저장 공간을 제공합니다."
+    ),
+    "item.advancedperipherals.tooltip.ae_disk_cell_4m": (
+        "&7ME 브리지를 통해 외부 파일 저장 공간을 제공합니다."
+    ),
+    "item.advancedperipherals.tooltip.ae_disk_cell_16m": (
+        "&7ME 브리지를 통해 더 많은 외부 파일 저장 공간을 제공합니다."
+    ),
+    "item.advancedperipherals.tooltip.ae_disk_cell_64m": (
+        "&7ME 브리지를 통해 훨씬 더 많은 외부 파일 저장 공간을 제공합니다."
+    ),
+    "item.advancedperipherals.tooltip.ae_disk_cell_256m": (
+        "&7ME 브리지를 통해 대용량 외부 파일 저장 공간을 제공합니다."
+    ),
+    "item.advancedperipherals.tooltip.cable_p2p_tunnel": (
+        "&7AE2를 통해 유선 네트워크를 연결합니다."
+    ),
+    "item.advancedperipherals.tooltip.hotkey_module": (
+        "&7미리 지정한 키 입력을 감지해 이벤트로 전달합니다."
+    ),
+    "item.advancedperipherals.tooltip.keyboard": (
+        "&7컴퓨터를 원격으로 제어하거나 스마트 안경으로 플레이어 입력을 가로챕니다."
+    ),
+    "item.advancedperipherals.tooltip.keyboard.binding.bound_to": (
+        "&7연결된 대상: &b%s&7."
+    ),
+    "item.advancedperipherals.tooltip.nightvision_module": (
+        "&7착용자가 어두운 곳을 더 잘 볼 수 있게 합니다."
+    ),
+    "item.advancedperipherals.tooltip.overlay_module": "&7시야에 무엇이든 그립니다!",
+    "item.advancedperipherals.tooltip.smart_glasses": (
+        "&7여러 주변 장치와 모듈을 지원하는 휴대용 컴퓨터입니다."
+    ),
+    "item.advancedperipherals.tooltip.smart_glasses_interface": (
+        "&7스마트 안경을 벗지 않고도 장착한 안경에 접근할 수 있습니다!"
+    ),
+    "item.advancedperipherals.tooltip.smart_glasses_netherite": (
+        "&7방어력이 조금 더 높은 스마트 안경의 업그레이드 버전입니다."
+    ),
+    "pocket.advancedperipherals.distance_pocket": "거리 감지기",
+    "pocket.advancedperipherals.inventory_manager_pocket": "인벤토리 관리자",
+    "text.advancedperipherals.automata_core.feed_by_player": (
+        "영혼에게 개체를 먹이려 하지만, 맨몸으로는 할 수 없습니다. 더 기계적인 "
+        "무언가라면 가능하지 않을까요?"
+    ),
+    "text.advancedperipherals.bind_keyboard": "키보드를 %s에 연결했습니다",
+    "text.advancedperipherals.bind_memorycard": "메모리 카드를 나에게 연결했습니다",
+    "text.advancedperipherals.cleared_keyboard": "키보드 연결을 해제했습니다",
+    "text.advancedperipherals.cleared_memorycard": "메모리 카드 연결을 해제했습니다",
+    "text.advancedperipherals.keyboard.close": "ESC를 눌러 키보드 화면을 닫으세요",
+    "text.advancedperipherals.keyboard_notbound": "키보드가 연결되어 있지 않습니다",
+    "text.advancedperipherals.saddle_turtle.dismount_hint": (
+        "%1$s 조종 중. 내리려면 %2$s와 %3$s을(를) 누르세요."
+    ),
+    "text.advancedperipherals.smart_glasses.modules": "모듈",
+    "text.advancedperipherals.smart_glasses.peripherals": "주변 장치",
+    "turtle.advancedperipherals.block_reader_turtle": "블록 리더",
+    "turtle.advancedperipherals.saddle_turtle": "안장",
+}
+KEY_OVERRIDES.update(CURRENT_81_KEY_OVERRIDES)
+
 COLORS = {
     "black": "검은색",
     "blue": "파란색",
@@ -659,7 +788,7 @@ def normalize() -> dict[str, object]:
             raise TypeError(f"후보 네임스페이스가 없습니다: {namespace}")
         rebuilt: dict[str, str] = {}
         for key, source in english.items():
-            candidate_value = namespace_candidates.get(key)
+            candidate_value = KEY_OVERRIDES.get(key, namespace_candidates.get(key))
             if not isinstance(source, str) or not isinstance(candidate_value, str):
                 raise TypeError(f"문자열이 아닌 언어 값: {namespace}:{key}")
             translated = reviewed_value(namespace, key, source, candidate_value)

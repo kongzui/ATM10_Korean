@@ -483,7 +483,7 @@ TARGETS = (
     ),
     Target(
         "cc_tweaked",
-        "cc-tweaked-1.21.1-forge-1.120.0",
+        "cc-tweaked-1.21.1-forge-1.120.2",
         "computercraft",
         "CC: Tweaked",
     ),

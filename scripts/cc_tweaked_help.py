@@ -20,7 +20,7 @@ ENGLISH_ROOT = WORK_ROOT / "en_us"
 KOREAN_ROOT = WORK_ROOT / "ko_kr"
 OUTPUT_ROOT = active_output_root() / "overrides/kubejs/data/computercraft/lua/rom/help"
 CACHE_FILE = PROJECT_ROOT / "temp/cc_tweaked_help_candidate_cache.json"
-JAR_PREFIX = "cc-tweaked-1.21.1-forge-1.120.0"
+JAR_PREFIX = "cc-tweaked-1.21.1-forge-1.120.2"
 SOURCE_PREFIX = "data/computercraft/lua/rom/help/"
 EXCLUDED_FILES = {
     "changelog.md": "현재 기능 설명이 아닌 과거 버전 변경 기록",
@@ -421,6 +421,17 @@ LINE_OVERRIDES = {
         "장치를 해제합니다. 포켓 컴퓨터에서는 면을 지정하지 않아도 됩니다."
     ),
     "New features in CC: Tweaked 1.120.0": "CC: Tweaked 1.120.0의 새로운 기능",
+    "New features in CC: Tweaked 1.120.2": "CC: Tweaked 1.120.2의 새로운 기능",
+    "Several bug fixes:": "여러 버그 수정:",
+    "* Fix shell crashing if `read()` doesn't yield.": (
+        "* `read()`가 실행 제어권을 넘기지 않으면 셸이 충돌하는 문제를 수정했습니다."
+    ),
+    "* Fix pocket/printout lecterns not rendering when at the very bottom of the screen.": (
+        "* 포켓 컴퓨터/인쇄물 독서대가 화면 맨 아래에서 렌더링되지 않는 문제를 수정했습니다."
+    ),
+    "* Several documentation fixes. (tomodachi94)": (
+        "* 여러 문서 오류를 수정했습니다. (tomodachi94)"
+    ),
     "Methods exposed by Workbenches:": "작업대가 제공하는 메서드:",
     'Workbenches are peripheral devices found on Crafty Turtles running CraftOS. Type "help '
     'peripheral" to learn about using the Peripheral API to connect with peripherals. When a '
@@ -618,7 +629,7 @@ def normalize() -> dict[str, object]:
         target_lines: list[str] = []
         for line in source_lines:
             if translatable_line(line):
-                candidate_value = cache.get(line)
+                candidate_value = LINE_OVERRIDES.get(line, cache.get(line))
                 if not isinstance(candidate_value, str):
                     raise KeyError(f"도움말 후보가 없습니다: {relative}:{line}")
                 target_lines.append(reviewed_line(line, candidate_value))

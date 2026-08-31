@@ -1,6 +1,13 @@
+# New features in CC: Tweaked 1.120.2
+
+Several bug fixes:
+* Fix shell crashing if `read()` doesn't yield.
+* Fix pocket/printout lecterns not rendering when at the very bottom of the screen.
+* Several documentation fixes. (tomodachi94)
+
 # New features in CC: Tweaked 1.120.0
 
-* Support spawning new parallel functions in `parallel.watiForAll`.
+* Support spawning new parallel functions in `parallel.waitForAll`.
 
 One bug fix:
 * Make HTTP IP filtering stricter.
@@ -322,12 +329,14 @@ Several bug fixes:
 * Allow placing seeds into composter barrels with `turtle.place()`.
 
 # New features in CC: Tweaked 1.109.0
-
+Breaking changes:
 * Update to Lua 5.2
   * `getfenv`/`setfenv` now only work on Lua functions.
   * Add support for `goto`.
   * Remove support for dumping and loading binary chunks.
 * File handles, HTTP requests and websocket messages now use raw bytes rather than converting to UTF-8.
+
+New features:
 * Add `allow_repetitions` option to `textutils.serialiseJSON`.
 * Track memory allocated by computers.
 * Update the version returned by `os.version()` to `CraftOS 1.9`.
@@ -1454,6 +1463,7 @@ And several bug fixes:
 * Turtle label nameplates now only show when the Turtle is moused-over
 * The HTTP API is now enabled by default, and can be configured with a whitelist of permitted domains
 * `http.get()` and `http.post()` now accept parameters to control the request headers
+* `sleep()`, when invoked without a parameter, defaults to 0.
 * New fs function: `fs.getDir( path )`
 * Fixed some bugs
 
