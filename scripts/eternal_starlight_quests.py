@@ -3,10 +3,9 @@
 
 MAIN_DESCRIPTIONS = {
     "00453FF528AA0B1C": (
-        "외별 스켈레톤은 어디에서나 생성되는 적대적 몹입니다. \\n\\n"
-        "체력은 하트 10개이며, 검을 던져 공격합니다. \\n\\n"
-        "죽으면 뼈, 늪지 은 조각, 산산조각 검과 Corail이 언데드 몹에 추가한 "
-        "전리품을 떨어뜨릴 수 있습니다."
+        "&7외별 스켈레톤&r은 어디에서나 생성되는 적대적 몹입니다. \\n\\n"
+        "&4하트&r가 10개이며 검을 던져 공격합니다. \\n\\n"
+        "죽으면 뼈, &7심층 은 조각&r과 &7산산조각 검&r을 떨어뜨릴 수 있습니다."
     ),
     "01F322AEFCC6109E": (
         "뒤엉킨 해골은... 말 그대로 뒤엉킨 해골에게서 얻을 수 있습니다. \\n\\n"
@@ -415,7 +414,7 @@ MAIN_DESCRIPTIONS = {
 }
 
 MAIN_TITLES = {
-    "quest.00453FF528AA0B1C.title": "외별 스켈레톤",
+    "quest.00453FF528AA0B1C.title": "&7외별 스켈레톤",
     "quest.02B574B09AB45D09.title": "프리즈",
     "quest.03B40AB768FC0161.title": "반짝임 강",
     "quest.0576C32B0FB360B0.title": "달빛 괴수",
@@ -519,17 +518,17 @@ RELATED_TRANSLATIONS = {
 }
 
 EXTRA_FALLBACK_TITLES = {
-    "quest.271A112ABDD923A6.title": "별빛 맹그로브 묘목",
-    "quest.4A5EA948F5DCEB73.title": "늪지 은 주괴",
+    "quest.271A112ABDD923A6.title": "&9바닌나무",
+    "quest.4A5EA948F5DCEB73.title": "&7심층 은",
     "quest.1BE8F864AB9147C0.title": "아탈파이트",
-    "quest.31DDEA54B6E81EEE.title": "늪지 은 투구",
-    "quest.470EA6870DBBB352.title": "늪지 은 흉갑",
-    "quest.46E32356964E56A0.title": "늪지 은 레깅스",
-    "quest.64B6E1ABD471CF29.title": "늪지 은 부츠",
-    "quest.02414CBEF2CD5A9D.title": "늪지 은 검",
-    "quest.1E7B5CDF0D5F833F.title": "늪지 은 곡괭이",
-    "quest.06D3EC025557855F.title": "늪지 은 도끼",
-    "quest.4B13835110F1FE82.title": "늪지 은 낫",
+    "quest.31DDEA54B6E81EEE.title": "&7심층 은 투구",
+    "quest.470EA6870DBBB352.title": "&7심층 은 흉갑",
+    "quest.46E32356964E56A0.title": "&7심층 은 레깅스",
+    "quest.64B6E1ABD471CF29.title": "&7심층 은 부츠",
+    "quest.02414CBEF2CD5A9D.title": "&7심층 은 검",
+    "quest.1E7B5CDF0D5F833F.title": "&7심층 은 곡괭이",
+    "quest.06D3EC025557855F.title": "&7심층 은 도끼",
+    "quest.4B13835110F1FE82.title": "&7심층 은 낫",
 }
 
 

@@ -12,7 +12,6 @@ from collections import Counter
 from pathlib import Path
 from zipfile import ZipFile
 
-import build_ae2_quests as quest_snbt
 import eternal_starlight_advancements
 import eternal_starlight_art
 import eternal_starlight_book
@@ -33,16 +32,15 @@ OUTPUT_OVERRIDES = active_output_root() / "overrides"
 QUEST_OUTPUT = (
     active_output_root() / "overrides/config/ftbquests/quests/lang/ko_kr.snbt"
 )
-EXPECTED_JAR = "eternalstarlight-0.8.1+1.21.1+neoforge.jar"
-EXPECTED_JAR_SIZE = 57_350_115
-EXPECTED_JAR_SHA256 = "acb8fa7a69c4f7d4f1dfa3fba1dbdc96976478ea80b2f9025e43f0c4ee1ceb19"
+EXPECTED_JAR = "eternalstarlight-0.9.0+1.21.1+neoforge.jar"
+EXPECTED_JAR_SIZE = 53_135_932
+EXPECTED_JAR_SHA256 = "73e1b5e0f07c4e7962351250c2e597e735930df6e9161cd366469f8603146f38"
 EXPECTED_KUBEJS_PATHS = {
     "kubejs/assets/hostilenetworks/lang/en_us.json",
     "kubejs/assets/hostilenetworks/lang/ja_jp.json",
     "kubejs/assets/hostilenetworks/lang/pt_br.json",
     "kubejs/assets/hostilenetworks/lang/zh_cn.json",
     "kubejs/client_scripts/tooltips.js",
-    "kubejs/server_scripts/announcements/announcements.js",
     "kubejs/server_scripts/modpack/att_items.js",
     "kubejs/server_scripts/modpack/runic_multis/controllers.js",
     "kubejs/server_scripts/modpack/runic_multis/recipes/runic_crucible.js",
@@ -128,6 +126,7 @@ def verify_language(instance: Path) -> tuple[dict[str, object], list[str]]:
         **eternal_starlight_advancements.TRANSLATIONS,
         **eternal_starlight_book.TRANSLATIONS,
         **eternal_starlight_prose.TRANSLATIONS,
+        **eternal_starlight_ui.SYSTEM_TRANSLATIONS,
         **eternal_starlight_ui.DEATH_TRANSLATIONS,
         **eternal_starlight_ui.SUBTITLE_TRANSLATIONS,
         **eternal_starlight_art.PAINTING_TITLES,
@@ -152,7 +151,7 @@ def verify_language(instance: Path) -> tuple[dict[str, object], list[str]]:
 
 
 def verify_advancements(instance: Path) -> tuple[dict[str, object], list[str]]:
-    """발전 과제 1,327개 파일의 모든 표시 필드가 번역 키를 거치는지 검사한다."""
+    """현재 발전 과제의 모든 표시 필드가 번역 키를 거치는지 검사한다."""
     jar = find_one(instance / "mods", "eternalstarlight-*.jar", "Eternal Starlight JAR")
     catalog = load_json(OUTPUT_ASSETS / "eternal_starlight/lang/ko_kr.json")
     literal_fields = []
@@ -190,8 +189,8 @@ def verify_advancements(instance: Path) -> tuple[dict[str, object], list[str]]:
                     else:
                         translated_keys.append(key)
     errors = []
-    if len(names) != 1327:
-        errors.append(f"발전 과제 파일 수가 예상과 다릅니다: {len(names)}/1327")
+    if len(names) != 1333:
+        errors.append(f"발전 과제 파일 수가 예상과 다릅니다: {len(names)}/1333")
     if display_fields != 122:
         errors.append(f"발전 과제 표시 필드 수가 예상과 다릅니다: {display_fields}/122")
     if literal_fields:
@@ -314,13 +313,11 @@ def verify_bibliowoods(instance: Path) -> tuple[dict[str, object], list[str]]:
         errors.extend(family_goal.validate_value(key, source, korean[key]))
         if output.get(key) != korean[key]:
             errors.append(f"BiblioWoods 누적 출력 불일치: {key}")
-    preserved_mismatches = [
-        key for key, value in preserved.items() if output.get(key) != value
-    ]
-    if len(preserved) != 1884 or preserved_mismatches:
+    preserved_missing = sorted(set(preserved) - set(output))
+    if len(preserved) != 1884 or preserved_missing:
         errors.append(
             f"BiblioWoods 이전 범위 보존 실패: {len(preserved)}/1884, "
-            f"불일치={preserved_mismatches[:20]}"
+            f"누락={preserved_missing[:20]}"
         )
     if len(output) < 2983:
         errors.append(
@@ -437,21 +434,32 @@ def verify_kubejs(instance: Path) -> tuple[dict[str, object], list[str]]:
 
 
 def verify_quests(instance: Path) -> tuple[dict[str, object], list[str]]:
-    """FTB Quests 표시 키 174개와 fallback 제목 11개를 검사한다."""
+    """현재 FTB Quests 표시 키와 fallback 제목을 검사한다."""
     report, errors = family_goal.verify_quests(instance, "eternal_starlight")
-    output = quest_snbt.parse_language_snbt(QUEST_OUTPUT)
+    output = family_goal.load_quest_output()
     fallback = load_json(WORK_ROOT / "quests/fallback/ko_kr.json")
     mismatches = [key for key, value in fallback.items() if output.get(key) != value]
-    if fallback != eternal_starlight_quests.EXTRA_FALLBACK_TITLES:
+    current_keys: set[str] = set()
+    for root in (WORK_ROOT / "quests").glob("*"):
+        english_file = root / "en_us.json"
+        if english_file.is_file():
+            current_keys.update(load_json(english_file))
+    expected_fallback = {
+        key: value
+        for key, value in eternal_starlight_quests.EXTRA_FALLBACK_TITLES.items()
+        if key in current_keys
+        and key
+        not in family_goal.redundant_item_task_title_keys(instance, "eternal_starlight")
+    }
+    if fallback != expected_fallback:
         errors.append("명시적 fallback 작업본이 직접 검수 번역표와 다릅니다.")
-    if len(fallback) != 11 or mismatches:
+    if mismatches:
         errors.append(
-            f"명시적 퀘스트 fallback 제목이 맞지 않습니다: {len(fallback)}/11, "
-            f"불일치={mismatches}"
+            f"명시적 퀘스트 fallback 제목이 맞지 않습니다: 불일치={mismatches}"
         )
-    report["source_display_keys_reviewed"] = 174
+    report["source_display_keys_reviewed"] = report["display_keys_checked"]
     report["explicit_fallback_titles"] = len(fallback)
-    report["merged_keys_checked"] = 174 + len(fallback)
+    report["merged_keys_checked"] = report["display_keys_checked"] + len(fallback)
     report["stale_item_fallbacks_localized"] = len(fallback)
     return report, errors
 

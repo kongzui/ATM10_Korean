@@ -3,10 +3,11 @@
   "installed": [
     {
       "label": "Eternal Starlight",
-      "jar": "eternalstarlight-0.8.1+1.21.1+neoforge.jar",
+      "jar": "eternalstarlight-0.9.0+1.21.1+neoforge.jar",
       "namespace": "eternal_starlight",
       "direct_integration": false,
-      "english_keys": 1788,
+      "language_target": true,
+      "english_keys": 1810,
       "bundled_korean_keys": 0,
       "metadata_mentions_family": [
         "eternal_starlight"
@@ -16,7 +17,7 @@
         "assets/eternal_starlight/eternal_starlight/books/main.json",
         "assets/eternal_starlight/models/item/book.json"
       ],
-      "advancements": 1327,
+      "advancements": 1333,
       "advancement_examples": [
         "data/eternal_starlight/advancement/all_starlight_biomes.json",
         "data/eternal_starlight/advancement/chain_tangled_skull_explosion.json",
@@ -39,7 +40,7 @@
         "data/eternal_starlight/advancement/kill_permafrost.json",
         "data/eternal_starlight/advancement/obtain_aethersent_ingot.json"
       ],
-      "recipes": 2549
+      "recipes": 2561
     }
   ],
   "extra_scope": [],
@@ -54,10 +55,11 @@
   "language_candidates": [
     {
       "label": "Eternal Starlight",
-      "jar": "eternalstarlight-0.8.1+1.21.1+neoforge.jar",
+      "jar": "eternalstarlight-0.9.0+1.21.1+neoforge.jar",
       "namespace": "eternal_starlight",
-      "english_keys": 1788,
-      "new_translation_required": 1788
+      "english_keys": 1810,
+      "new_translation_required": 23,
+      "project_output_review": 1787
     }
   ]
 }

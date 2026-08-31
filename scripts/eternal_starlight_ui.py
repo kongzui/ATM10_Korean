@@ -1,6 +1,20 @@
 #!/usr/bin/env python3
 """Eternal Starlight의 사망 메시지와 소리 자막 검수 번역이다."""
 
+SYSTEM_TRANSLATIONS = {
+    "resource_pack.eternal_starlight.starlight_3d_mace": "Eternal Starlight 3D 철퇴",
+    "tab.eternal_starlight.blocks": "Eternal Starlight: 블록",
+    "tab.eternal_starlight.tools": "Eternal Starlight: 도구",
+    "tab.eternal_starlight.combat": "Eternal Starlight: 전투",
+    "tab.eternal_starlight.food_and_drinks": "Eternal Starlight: 음식 및 음료",
+    "tab.eternal_starlight.ingredients": "Eternal Starlight: 재료",
+    "tab.eternal_starlight.spawn_eggs": "Eternal Starlight: 생성 알",
+    "tab.eternal_starlight.misc": "Eternal Starlight: 기타",
+    "commands.eternal_starlight.behavior.get": "%s 행동 상태: %s",
+    "commands.eternal_starlight.behavior.no_targets": "유효한 개체를 찾지 못했습니다",
+    "commands.eternal_starlight.behavior.set": "%s개 개체의 행동 상태를 %s(으)로 설정했습니다",
+}
+
 DEATH_TRANSLATIONS = {
     "death.attack.eternal_starlight.ether": "%1$s이(가) 허공으로 흩어졌습니다",
     "death.attack.eternal_starlight.ether.player": "%1$s이(가) %2$s에게서 도망치려다 허공으로 흩어졌습니다",

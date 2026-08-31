@@ -1,12 +1,12 @@
 {
   "family": "Eternal Starlight",
-  "keys_reviewed": 1788,
-  "resolved": 1788,
+  "keys_reviewed": 1810,
+  "resolved": 1810,
   "unresolved": 0,
   "source_counts": {
     "keep_original": 72,
-    "manual_pattern_review": 1266,
-    "manual_review": 450
+    "manual_pattern_review": 1277,
+    "manual_review": 461
   },
-  "output": "output/resourcepack/ATM10_Korean/assets/eternal_starlight/lang/ko_kr.json"
+  "output": "output/8.1/resourcepack/ATM10_Korean/assets/eternal_starlight/lang/ko_kr.json"
 }

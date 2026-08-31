@@ -1,9 +1,10 @@
 {
-  "keys_reviewed": 174,
+  "keys_reviewed": 0,
+  "global_rebase_reviewed": 344,
   "scope_counts": {
-    "eternal_starlight": 129,
+    "eternal_starlight": 299,
     "related": 45
   },
-  "new_translation": 174,
-  "explicit_fallback_titles": 11
+  "new_translation": 0,
+  "explicit_fallback_titles": 10
 }

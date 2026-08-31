@@ -103,10 +103,6 @@ KUBE_REPLACEMENTS = {
         "Text.of('This loot bag is from the \\\"Lunar Monstrosity\\\".')",
         "Text.of('이 전리품 가방은 \\\"달빛 괴수\\\"에게서 나옵니다.')",
     ),
-    "kubejs/server_scripts/announcements/announcements.js": (
-        'Text.of("We are preparing to ").append(Text.red("REMOVE")).append(" mods ").append(Text.blue("Eternal Starlight")).append(" and ").append(Text.blue("Hyperbox")).append(", be ready when updating to version 6.0+")',
-        'Text.of("버전 6.0 이상으로 업데이트할 때를 대비해 ").append(Text.blue("Eternal Starlight")).append("와 ").append(Text.blue("Hyperbox")).append(" 모드를 ").append(Text.red("제거")).append("할 준비를 하고 있습니다")',
-    ),
 }
 
 
@@ -134,6 +130,7 @@ def reviewed_value(key: str, source: str) -> tuple[str | None, str | None]:
         eternal_starlight_advancements.TRANSLATIONS,
         eternal_starlight_book.TRANSLATIONS,
         eternal_starlight_prose.TRANSLATIONS,
+        eternal_starlight_ui.SYSTEM_TRANSLATIONS,
         eternal_starlight_ui.DEATH_TRANSLATIONS,
         eternal_starlight_ui.SUBTITLE_TRANSLATIONS,
         eternal_starlight_art.PAINTING_TITLES,
@@ -155,7 +152,7 @@ def reviewed_value(key: str, source: str) -> tuple[str | None, str | None]:
 
 
 def review_language() -> dict[str, object]:
-    """현재 영어 원문 1,788개를 모두 검수하고 완성본을 생성한다."""
+    """현재 영어 원문을 모두 검수하고 완성본을 생성한다."""
     english = load_json(LANG_ROOT / "en_us.json")
     reviewed: dict[str, str] = {}
     provenance: dict[str, str] = {}
@@ -317,20 +314,36 @@ def load_object_json(path: Path) -> dict[str, object]:
 
 
 def review_quests() -> dict[str, object]:
-    """전용 챕터와 관련 챕터의 표시 문구 174개를 영어 원문과 대조한다."""
+    """전용 챕터와 관련 챕터의 현재 표시 문구를 영어 원문과 대조한다."""
     reviewed = 0
+    global_reviewed = 0
+    current_keys: set[str] = set()
     scope_counts: dict[str, int] = {}
     for scope in ("eternal_starlight", "related"):
         root = WORK_ROOT / f"quests/{scope}"
         english = load_object_json(root / "en_us.json")
+        current_keys.update(english)
         korean = load_object_json(root / "ko_kr.json")
         sources = load_object_json(root / "candidate_sources.json")
         for key, source in english.items():
             source_text = source if isinstance(source, str) else source[0]
             if not isinstance(source_text, str):
                 raise TypeError(f"지원하지 않는 퀘스트 원문 값: {key}={source!r}")
-            translated = eternal_starlight_quests.translate(scope, key, source_text)
             current = korean[key]
+            if sources.get(key) == "project_output_review":
+                errors = family_goal.quest_snbt.validate_value(key, source, current)
+                if errors:
+                    raise ValueError("; ".join(errors))
+                global_reviewed += 1
+                continue
+            try:
+                translated = eternal_starlight_quests.translate(scope, key, source_text)
+            except KeyError:
+                errors = family_goal.quest_snbt.validate_value(key, source, current)
+                if errors:
+                    raise ValueError("; ".join(errors))
+                global_reviewed += 1
+                continue
             if isinstance(current, str):
                 replacement: object = translated
             elif isinstance(current, list) and current and isinstance(current[0], str):
@@ -347,21 +360,25 @@ def review_quests() -> dict[str, object]:
         write_json(root / "candidate_sources.json", sources)
         scope_counts[scope] = len(english)
     fallback_root = WORK_ROOT / "quests/fallback"
-    write_json(
-        fallback_root / "ko_kr.json", eternal_starlight_quests.EXTRA_FALLBACK_TITLES
+    redundant_keys = family_goal.redundant_item_task_title_keys(
+        resolve_source_root(), "eternal_starlight"
     )
+    current_fallbacks = {
+        key: value
+        for key, value in eternal_starlight_quests.EXTRA_FALLBACK_TITLES.items()
+        if key in current_keys and key not in redundant_keys
+    }
+    write_json(fallback_root / "ko_kr.json", current_fallbacks)
     write_json(
         fallback_root / "candidate_sources.json",
-        {
-            key: "manual_fallback_review"
-            for key in eternal_starlight_quests.EXTRA_FALLBACK_TITLES
-        },
+        {key: "manual_fallback_review" for key in current_fallbacks},
     )
     report = {
         "keys_reviewed": reviewed,
+        "global_rebase_reviewed": global_reviewed,
         "scope_counts": scope_counts,
         "new_translation": reviewed,
-        "explicit_fallback_titles": len(eternal_starlight_quests.EXTRA_FALLBACK_TITLES),
+        "explicit_fallback_titles": len(current_fallbacks),
     }
     write_json(WORK_ROOT / "quest_review_report.json", report)
     return report

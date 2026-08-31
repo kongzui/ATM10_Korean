@@ -2,28 +2,23 @@
   "bibliowoods": {
     "jar": "bibliowoods-1.21.1-1.6.2.jar",
     "keys": 1099,
-    "existing_keys_preserved": 1884,
-    "merged_output_keys": 2983
+    "existing_keys_preserved": 9734,
+    "merged_output_keys": 10833
   },
   "hostilenetworks": {
     "keys": 17,
-    "existing_keys_preserved": 0,
-    "merged_output_keys": 17
+    "existing_keys_preserved": 271,
+    "merged_output_keys": 288
   },
   "kubejs": {
     "kubejs/startup_scripts/CustomAdditions.js": {
       "source": "kubejs/startup_scripts/CustomAdditions.js",
-      "output": "output/overrides/kubejs/startup_scripts/CustomAdditions.js",
+      "output": "output/8.1/overrides/kubejs/startup_scripts/CustomAdditions.js",
       "replacement_count": 1
     },
     "kubejs/client_scripts/tooltips.js": {
       "source": "kubejs/client_scripts/tooltips.js",
-      "output": "output/overrides/kubejs/client_scripts/tooltips.js",
-      "replacement_count": 1
-    },
-    "kubejs/server_scripts/announcements/announcements.js": {
-      "source": "kubejs/server_scripts/announcements/announcements.js",
-      "output": "output/overrides/kubejs/server_scripts/announcements/announcements.js",
+      "output": "output/8.1/overrides/kubejs/client_scripts/tooltips.js",
       "replacement_count": 1
     }
   }

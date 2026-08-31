@@ -1003,12 +1003,12 @@
   "task.6D5BE02E9FAED45C.title": "AllRightsReserved",
   "task.7DA13EB040BC1C19.title": "AllRightsReserved",
   "quest.00453FF528AA0B1C.quest_desc": [
-    "&7론스타 스켈레톤&r은 어디에서나 생성되는 적대적 몹입니다. \\n\\n&4하트&r가 10개이며 검을 던져 공격합니다. \\n\\n죽으면 뼈, &7딥실버 조각&r, &7부서진 검&r을 떨어뜨릴 수 있습니다."
+    "&7외별 스켈레톤&r은 어디에서나 생성되는 적대적 몹입니다. \\n\\n&4하트&r가 10개이며 검을 던져 공격합니다. \\n\\n죽으면 뼈, &7심층 은 조각&r과 &7산산조각 검&r을 떨어뜨릴 수 있습니다."
   ],
-  "quest.00453FF528AA0B1C.title": "&7론스타 스켈레톤",
+  "quest.00453FF528AA0B1C.title": "&7외별 스켈레톤",
   "quest.00FDBA93722ACECE.title": "&4아마램버 괭이",
   "quest.011FCC180FF3BD83.title": "&9말라라이트 검",
-  "quest.02414CBEF2CD5A9D.title": "&7딥실버 검",
+  "quest.02414CBEF2CD5A9D.title": "&7심층 은 검",
   "quest.028472D7F51D439A.title": "&a플로글레이즈 낫",
   "quest.02B574B09AB45D09.quest_desc": [
     "&b프리즈&r는 &c블레이즈&r와 비슷하게 날아올라 구체를 발사합니다. \\n\\n다만 &b프리즈&r는 구체를 1개만 던지며, 따뜻하게 하는 대신 추위에 떨게 합니다. \\n\\n&4하트&r가 16개이고 죽으면 &b얼어붙은 관&r을 떨어뜨립니다.",
@@ -1027,7 +1027,7 @@
   "quest.0576C32B0FB360B0.title": "&9&l달의 괴물",
   "quest.061C4A9E439CE09B.title": "&9말라라이트 삽",
   "quest.0688CE330DAF8714.title": "&c스타파이어 괭이",
-  "quest.06D3EC025557855F.title": "&7딥실버 도끼",
+  "quest.06D3EC025557855F.title": "&7심층 은 도끼",
   "quest.0720474D384F4774.quest_desc": [
     "&e마리몰드&r는 물속에서 자라는 버섯입니다. \\n\\n크고 작은 형태를 모두 찾을 수 있습니다. \\n\\n블록은 &6꿀&r과 &e버섯불&r을 섞은 듯한 모습입니다. "
   ],
@@ -1120,7 +1120,7 @@
   ],
   "quest.1AFCA421A6A50DA4.title": "&a플로글레이즈 형판",
   "quest.1C863B4BC6EAD1CD.title": "&9말라라이트 손낫",
-  "quest.1E7B5CDF0D5F833F.title": "&7딥실버 곡괭이",
+  "quest.1E7B5CDF0D5F833F.title": "&7심층 은 곡괭이",
   "quest.1EA98CFE85035939.title": "&5에테르센트 하의",
   "quest.1ECD4331DDFBBB52.quest_desc": [
     "&c토레야 나무&r는 높이가 약 40블록인 거대한 보라색과 분홍색 나무입니다. \\n\\n잎이 사방으로 뻗고 &e토레야 덩굴&r이 아래로 늘어집니다."
@@ -1138,7 +1138,7 @@
     "&3오로라 사슴 뿔&r은 &3오로라 사슴&r이 죽을 때 떨어뜨립니다. \\n\\n검이나 괭이로 사용할 수 있습니다."
   ],
   "quest.25E782DB4309A1B8.title": "&3오로라 사슴 뿔",
-  "quest.271A112ABDD923A6.title": "&9바닌 나무",
+  "quest.271A112ABDD923A6.title": "&9바닌나무",
   "quest.27D8E62556F7CE8D.title": "&6온천석 괭이",
   "quest.282AEEC832FFC8D7.title": "&4아마램버 도끼",
   "quest.2872C4229702B077.title": "&b글라사이트 곡괭이",
@@ -1183,7 +1183,7 @@
   ],
   "quest.3124D945A54938C2.title": "&9말라라이트",
   "quest.315F1CB8158DFB92.title": "&5에테르센트 두건",
-  "quest.31DDEA54B6E81EEE.title": "&7딥실버 투구",
+  "quest.31DDEA54B6E81EEE.title": "&7심층 은 투구",
   "quest.337D376BE2653F0F.title": "&b글라사이트 부츠",
   "quest.34119FC1728B75B9.title": "&4아마램버 투구",
   "quest.342EEB042DEC2B8C.quest_desc": [
@@ -1277,8 +1277,8 @@
     "{image:atm:textures/questpics/eternal/starlight_shallow.png width:200 height:100 align:center}"
   ],
   "quest.45D73CA0A7BE4666.title": "&e무성한 얕은 바다",
-  "quest.46E32356964E56A0.title": "&7딥실버 하의",
-  "quest.470EA6870DBBB352.title": "&7딥실버 흉갑",
+  "quest.46E32356964E56A0.title": "&7심층 은 레깅스",
+  "quest.470EA6870DBBB352.title": "&7심층 은 흉갑",
   "quest.474C8AF9D536D4E7.title": "&6온천석 삽",
   "quest.47CB136D7764B86D.quest_desc": [
     "&e토레야 덩굴&r은 &c토레야 나무&r에서 아래로 늘어져 자랍니다. \\n\\n다른 방향으로는 놓을 수 없어서 늘어져 있는 겁니다... \\n\\n맨 아래의 구근은 빛을 냅니다!"
@@ -1303,9 +1303,9 @@
   "quest.4A5EA948F5DCEB73.quest_desc": [
     "&7딥실버&r는 예전에 늪 은이라고 불렸으며 &9어두운 늪&r에서만 생성됐습니다. \\n\\n이제는 지하 어디에서나 발견됩니다... 아마 그래서 이름이 바뀌었겠죠!"
   ],
-  "quest.4A5EA948F5DCEB73.title": "&7딥실버",
+  "quest.4A5EA948F5DCEB73.title": "&7심층 은",
   "quest.4B097031A3EE930B.title": "&b글라사이트 괭이",
-  "quest.4B13835110F1FE82.title": "&7딥실버 낫",
+  "quest.4B13835110F1FE82.title": "&7심층 은 낫",
   "quest.4C23D7E3DC8327C2.quest_desc": [
     "&9&l루나 괴수&r를 쓰러뜨리려면 불을 붙여야 합니다! \\n\\n부싯돌과 부시 또는 &e초석 성냥갑&r을 사용할 수 있습니다. \\n\\n개인적으로는 &e성냥갑&r이 더 잘 어울리는 것 같네요!"
   ],
@@ -1415,7 +1415,7 @@
   "quest.636848ED1115A0B3.title": "&8래틀린",
   "quest.641C74BFA03BC01F.title": "&b글라사이트 방패",
   "quest.645380EA38544D3B.title": "&b글라사이트 삽",
-  "quest.64B6E1ABD471CF29.title": "&7딥실버 부츠",
+  "quest.64B6E1ABD471CF29.title": "&7심층 은 부츠",
   "quest.66536AAF9E98C3A6.title": "&9말라라이트 괭이",
   "quest.66DE7EF4AFCE4F7A.title": "&7딥실버 삽",
   "quest.687C51D915339086.title": "&a플로글레이즈 방패",
