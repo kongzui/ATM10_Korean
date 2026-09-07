@@ -1249,6 +1249,26 @@ def normalize_book_layout(raw: str) -> str:
     return "\n".join(line.rstrip(" \t") for line in lines).rstrip("\n") + "\n"
 
 
+def repair_book_json(name: str, raw: str) -> str:
+    """알려진 두 가이드의 중복 닫기만 제거하고 다른 문법 오류는 거부해요."""
+    try:
+        json.loads(raw)
+        return raw
+    except json.JSONDecodeError:
+        if name not in {
+            f"{BOOK_PREFIX}chapters/grapes.json",
+            f"{BOOK_PREFIX}chapters/herbs.json",
+        }:
+            raise
+        start = len(raw) - len(raw.lstrip())
+        _, end = json.JSONDecoder().raw_decode(raw, start)
+        if re.sub(r"\s", "", raw[end:]) != "]}":
+            raise ValueError(f"알려진 중복 닫기와 다른 가이드 오류예요: {name}")
+        repaired = raw[:end] + "\n"
+        json.loads(repaired)
+        return repaired
+
+
 def build_books() -> dict[str, object]:
     """가이드의 직접 표시 문구만 바꾸고 나머지 원문 구조는 보존해요."""
     sources = read_book_files(find_jar())
@@ -1258,6 +1278,7 @@ def build_books() -> dict[str, object]:
     translated_occurrences = 0
 
     for name, raw in sources.items():
+        raw = repair_book_json(name, raw)
 
         def replace(match: re.Match[str]) -> str:
             nonlocal translated_occurrences
@@ -1273,6 +1294,7 @@ def build_books() -> dict[str, object]:
             return f"{match.group(1)}{json.dumps(translated, ensure_ascii=False)}"
 
         rendered[name] = normalize_book_layout(VISIBLE_BOOK_FIELD.sub(replace, raw))
+        json.loads(rendered[name])
 
     source_set = {
         source
@@ -1288,6 +1310,12 @@ def build_books() -> dict[str, object]:
             relative = Path(name).relative_to("assets/herbsandharvest")
             path = OUTPUT_ROOT / relative
             path.parent.mkdir(parents=True, exist_ok=True)
+            if path.is_file():
+                try:
+                    if json.loads(path.read_text(encoding="utf-8")) == json.loads(raw):
+                        continue
+                except json.JSONDecodeError:
+                    pass  # 기존의 잘못된 산출물은 이번 검증본으로 교체한다.
             path.write_bytes(raw.encode("utf-8"))
 
     report = {
@@ -1646,9 +1674,9 @@ def verify_books() -> tuple[dict[str, object], list[str]]:
             json.loads(output_raw)
         except json.JSONDecodeError:
             output_invalid.append(name)
-        if normalized_book_structure(source_raw) != normalized_book_structure(
-            output_raw
-        ):
+        if normalized_book_structure(
+            repair_book_json(name, source_raw)
+        ) != normalized_book_structure(output_raw):
             errors.append(f"직접 표시 문구 밖의 가이드 구조가 바뀌었어요: {name}")
         source_rows = visible_fields(source_raw)
         output_rows = visible_fields(output_raw)
@@ -1677,16 +1705,8 @@ def verify_books() -> tuple[dict[str, object], list[str]]:
                 residue = sorted(set(LATIN_WORD.findall(target)) - allowed_latin)
                 if residue:
                     latin_residue[label] = residue
-    if source_invalid != output_invalid:
-        errors.append(
-            f"가이드 JSON 문법 상태가 달라요: {source_invalid} != {output_invalid}"
-        )
-    expected_invalid = [
-        "assets/herbsandharvest/books/chapters/grapes.json",
-        "assets/herbsandharvest/books/chapters/herbs.json",
-    ]
-    if source_invalid != expected_invalid:
-        errors.append(f"원본의 알려진 비표준 JSON 범위가 달라요: {source_invalid}")
+    if output_invalid:
+        errors.append(f"산출물에 JSON 문법 오류가 있어요: {output_invalid}")
     if latin_residue:
         errors.append(f"가이드에 허용하지 않은 영문 잔여가 있어요: {latin_residue}")
     source_set = {
