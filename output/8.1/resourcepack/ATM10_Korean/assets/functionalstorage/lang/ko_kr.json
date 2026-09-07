@@ -155,5 +155,10 @@
   "storageupgrade.obj.item_storage": "아이템 저장 용량",
   "upgrade.type": "유형: ",
   "upgrade.type.storage": "저장",
-  "upgrade.type.utility": "유틸리티"
+  "upgrade.type.utility": "유틸리티",
+  "gui.functionalstorage.armory_search": "검색",
+  "gui.functionalstorage.fluid_drawer_hint": "유체 서랍",
+  "gui.functionalstorage.fluid_drawer_hint.empty": "%s: 용기 안의 유체를 서랍에 넣기",
+  "gui.functionalstorage.fluid_drawer_hint.fill": "%s: 서랍의 유체로 용기 채우기",
+  "gui.functionalstorage.priority": "우선순위"
 }

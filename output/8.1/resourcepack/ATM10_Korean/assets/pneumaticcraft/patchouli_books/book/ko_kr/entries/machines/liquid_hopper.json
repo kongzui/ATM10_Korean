@@ -17,7 +17,7 @@
       "type": "text",
       "title": "발사기 업그레이드",
       "flag": "pneumaticcraft:liquidHopperDispenser",
-      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 $(item)유체 호퍼/$에 설치하면 $(9)입력/$ 면의 유체 블록 1000mB를 빨아들이고, 저장한 유체 1000mB를 $(6)출력/$ 면에 배치합니다. 예를 들어 물 펌프로 사용할 수 있습니다."
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 $(item)유체 호퍼/$에 설치하면 $(9)입력/$ 면의 유체 블록 1000mB를 빨아들이고, 저장한 유체 1000mB를 $(6)출력/$ 면에 배치합니다. 예를 들어 물 펌프로 사용할 수 있습니다.$(p)입력 면의 $(item)경험치 구슬/$도 흡수하여 $(l:base_concepts/memory_essence)기억의 정수/$로 바꿀 수 있습니다."
     },
     {
       "type": "crafting",

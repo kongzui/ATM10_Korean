@@ -1,5 +1,5 @@
 {
-  "itemGroup.mffs.main": "MFFS",
+  "itemGroup.mffs.main": "Modular Force Field System",
   "info.mffs.coercion_deriver.mode.integrate": "통합",
   "info.mffs.coercion_deriver.mode.derive": "유도",
   "info.mffs.link": "%s에서 %s에 연결됨",
@@ -179,5 +179,12 @@
   "advancements.mffs.camouflage.title": "눈앞에 숨기",
   "advancements.mffs.camouflage.description": "위장 모듈을 제작하세요",
   "advancements.mffs.custom_camouflage.title": "매트릭스 속으로",
-  "advancements.mffs.custom_camouflage.description": "사용자 지정 모드와 위장을 함께 사용하세요"
+  "advancements.mffs.custom_camouflage.description": "사용자 지정 모드와 위장을 함께 사용하세요",
+  "info.mffs.field_permission.warp_sneak": "워프 (웅크리기)",
+  "info.mffs.field_permission.warp_sneak.tooltip": "플레이어가 웅크린 채 걸어서 역장을 통과할 수 있습니다.",
+  "info.mffs.field_permission.warp_walk": "워프 (걷기)",
+  "info.mffs.field_permission.warp_walk.tooltip": "플레이어가 걸어서 역장을 통과할 수 있습니다.",
+  "item.mffs.reinforcement_module": "보강 모듈",
+  "item.mffs.reinforcement_module.description": "역장 블록이 위더에게 파괴되지 않게 합니다",
+  "oracle_index.title.mffs": "MFFS"
 }

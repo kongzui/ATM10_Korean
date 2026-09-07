@@ -278,5 +278,6 @@
   "sfm.command.bust_water_network_cache.success": "물 네트워크 캐시를 비웠습니다.",
   "sfm.label_gun.view_mode.show_only_active_and_targeted": "활성 라벨이 있는 블록을 표시합니다. GUI나 %s 키로 모드를 전환하세요.",
   "sfm.label_gun.view_mode.show_only_targeted": "대상 블록의 라벨만 표시합니다. GUI나 %s 키로 모드를 전환하세요.",
-  "sfm.network_tool.reminder_overlay": "%s 키로 네트워크 도구 오버레이를 전환합니다."
+  "sfm.network_tool.reminder_overlay": "%s 키로 네트워크 도구 오버레이를 전환합니다.",
+  "key.sfm.label_gun.open_gui": "라벨 건 GUI 열기"
 }

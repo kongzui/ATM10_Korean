@@ -286,5 +286,13 @@
   "hostilenetworks.trivia.eternal_starlight.tangled": "저주받은 정원의 수호자입니다.\n죽은 뒤에도 해골이\n적을 공격할 수 있습니다.",
   "hostilenetworks.trivia.eternal_starlight.tangled_hatred": "깁니다.\n아주 깁니다.\n아주아주 기이이이이이이이이이일어요.",
   "hostilenetworks.trivia.eternal_starlight.thirst_walker": "엔더맨을 닮은 생물입니다.\n세상의 모든 것을\n먹고 싶어 합니다.\n당신도 포함해서요.",
-  "hostilenetworks.trivia.eternal_starlight.yeti": "하얀 예티 털은 양털처럼\n가위로 깎을 수 있습니다.\n하지만 염색할 수는 없습니다."
+  "hostilenetworks.trivia.eternal_starlight.yeti": "하얀 예티 털은 양털처럼\n가위로 깎을 수 있습니다.\n하지만 염색할 수는 없습니다.",
+  "hostilenetworks.fail.buffering": "모델 생산물이 버퍼에 대기 중입니다",
+  "hostilenetworks.fail.cannot_train": "시뮬레이션을 시작할 수 없습니다\n모델을 더 이상 훈련할 수 없습니다",
+  "hostilenetworks.gui.mode.inference.desc": "시뮬레이션에서 생산물을 얻지만,",
+  "hostilenetworks.gui.mode.inference.desc2": "모델 데이터는 증가하지 않습니다",
+  "hostilenetworks.gui.mode.power": "에너지 소비량: %s%%",
+  "hostilenetworks.gui.mode.speed": "시뮬레이션 속도: %s%%",
+  "hostilenetworks.gui.mode.training.desc": "시뮬레이션에서 모델 데이터가 증가하지만,",
+  "hostilenetworks.gui.mode.training.desc2": "생산물은 얻지 못합니다"
 }

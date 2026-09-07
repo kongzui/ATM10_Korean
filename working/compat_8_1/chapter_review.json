@@ -1,0 +1,66 @@
+[
+  {
+    "path": "config/ftbquests/quests/chapters/cataclysm.snbt",
+    "source_sha256": "ecad995f40c7e6c0e98d9d80bab5f13b955fa7f560687c20548d4ac7016655e7",
+    "custom_names": {
+      "\"ATM Star Block\"": "\"ATM 스타 블록\""
+    },
+    "non_visible_structure_identical": true
+  },
+  {
+    "path": "config/ftbquests/quests/chapters/generators.snbt",
+    "source_sha256": "4a1799ff2534a123c56ab72d8954a053d5e253cddaed3e7b356e1f513eb90713",
+    "custom_names": {
+      "\"Spooky Pumpkin\"": "\"으스스한 호박\"",
+      "\"Christmas Tree Sapling\"": "\"크리스마스트리 묘목\""
+    },
+    "non_visible_structure_identical": true
+  },
+  {
+    "path": "config/ftbquests/quests/chapters/mekanism.snbt",
+    "source_sha256": "271ec13f8285feecf1bdd574e5c2d2120ad553e26e878b7cc5de80150bc2c673",
+    "custom_names": {
+      "\"Crushers\"": "\"분쇄기\"",
+      "\"Enrichers\"": "\"농축기\"",
+      "\"Smelters\"": "\"제련기\"",
+      "\"Purifiers\"": "\"정화기\"",
+      "\"Purificaters\"": "\"정화기\""
+    },
+    "non_visible_structure_identical": true
+  },
+  {
+    "path": "config/ftbquests/quests/chapters/mi_digital.snbt",
+    "source_sha256": "c839df69d63e6b525f9c1d5255be197a4c2ca56c9eae256c7489bbda80b4b5e2",
+    "custom_names": {
+      "\"Item Input\"": "\"아이템 입력\"",
+      "\"Item Output\"": "\"아이템 출력\"",
+      "\"Energy Input\"": "\"에너지 입력\"",
+      "\"Fluid Input\"": "\"유체 입력\"",
+      "\"Fluid Output\"": "\"유체 출력\"",
+      "\"Uranium Rods\"": "\"우라늄 막대\"",
+      "\"HE Uranium Rods\"": "\"HE 우라늄 막대\"",
+      "\"LE Uranium Rods\"": "\"LE 우라늄 막대\"",
+      "\"LE Mox Rods\"": "\"LE MOX 막대\"",
+      "\"HE Mox Rods\"": "\"HE MOX 막대\""
+    },
+    "non_visible_structure_identical": true
+  },
+  {
+    "path": "config/ftbquests/quests/chapters/mi_electric.snbt",
+    "source_sha256": "c2e7c4bd0750226bfff20bb5d5d5a8985f25c80d972d26696c39fcf6d05edfde",
+    "custom_names": {
+      "\"Item Input\"": "\"아이템 입력\"",
+      "\"Item Output\"": "\"아이템 출력\"",
+      "\"Energy Input\"": "\"에너지 입력\"",
+      "\"Fluid Input\"": "\"유체 입력\"",
+      "\"Fluid Output\"": "\"유체 출력\""
+    },
+    "non_visible_structure_identical": true
+  },
+  {
+    "path": "config/ftbquests/quests/chapters/relics.snbt",
+    "source_sha256": "82bf154b8e59ee42b61440377e43bb79fe5ed7ec667ea6ec1aa34e61804bc2d2",
+    "custom_names": {},
+    "non_visible_structure_identical": true
+  }
+]

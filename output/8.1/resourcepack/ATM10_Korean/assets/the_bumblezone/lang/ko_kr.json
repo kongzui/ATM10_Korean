@@ -674,7 +674,7 @@
   "container.the_bumblezone.crystalline_flower.level_star": "★",
   "container.the_bumblezone.crystalline_flower.tier_cost": "티어 비용: %s",
   "container.the_bumblezone.crystalline_flower.tier_cost_arrow": "↓%s",
-  "container.the_bumblezone.crystalline_flower.too_many_enchants": "마법 부여 제한: 3",
+  "container.the_bumblezone.crystalline_flower.too_many_enchants": "마법 부여 제한\n3개에 도달했습니다!",
   "container.the_bumblezone.crystalline_flower.sort_alphabetically": "표시 이름순 정렬",
   "container.the_bumblezone.crystalline_flower.sort_namespace": "네임스페이스(모드 ID)순 정렬",
   "container.the_bumblezone.crystalline_flower.sort_treasure_curse": "보물 및 저주순 정렬",
@@ -1786,5 +1786,7 @@
   "tag.entity_type.the_bumblezone.queens_desire.fighting_the_swarm_silverfish": "좀벌레",
   "tag.entity_type.the_bumblezone.queens_desire.otherworldly_mites_endermite": "엔더 진드기",
   "tag.entity_type.the_bumblezone.queens_desire.terror_fangs_cave_spider": "동굴 거미",
-  "tag.entity_type.the_bumblezone.queens_desire.too_many_legs_spiders": "여러 종류의 비동굴 거미"
+  "tag.entity_type.the_bumblezone.queens_desire.too_many_legs_spiders": "여러 종류의 비동굴 거미",
+  "container.the_bumblezone.crystalline_flower.search": "검색...",
+  "container.the_bumblezone.crystalline_flower.too_many_enchants_marker": "!"
 }

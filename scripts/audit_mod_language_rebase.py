@@ -129,6 +129,17 @@ def validation_errors(
         translated = korean[key]
         protected_source = source
         protected_translated = translated
+        if namespace == "industrialforegoing" and key.startswith(
+            "text.industrialforegoing.book."
+        ):
+            # 기존 설명서의 {본문}은 강조 문구이며 숫자 자리표시자는 그대로 검사한다.
+            # 현재 실제 가이드는 Patchouli JSON이고 이 키는 옛 설명서 문구다.
+            emphasis = re.compile(r"\{[^{}]*[A-Za-z가-힣][^{}]*\}")
+            protected_source = emphasis.sub("{emphasis}", source)
+            protected_translated = emphasis.sub("{emphasis}", translated)
+            for marker in ("{", "}", "@L@", "\\"):
+                if source.count(marker) != translated.count(marker):
+                    errors.append(f"{namespace}:{key}: 설명서 강조·줄바꿈 표식 불일치")
         is_jei_search_mode = (
             namespace == "jei"
             and key.startswith("jei.config.client.search.")
@@ -145,7 +156,9 @@ def validation_errors(
         if Counter(source_placeholders) != Counter(translated_placeholders):
             errors.append(f"{namespace}:{key}: 자리표시자 불일치")
         elif source_placeholders != translated_placeholders and any(
-            token.startswith("%") and re.fullmatch(r"%\d+\$[a-zA-Z]", token) is None
+            token.startswith("%")
+            and token != "%%"
+            and re.fullmatch(r"%\d+\$[a-zA-Z]", token) is None
             for token in source_placeholders
         ):
             errors.append(f"{namespace}:{key}: 비순번 자리표시자 순서 불일치")

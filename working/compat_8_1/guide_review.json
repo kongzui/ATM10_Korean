@@ -1,0 +1,30 @@
+[
+  {
+    "source": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/machines/liquid_hopper.json",
+    "source_sha256": "90b125ae9177437e389900ae915fcf8eb1f054050cf78e1ec40ce0c99a709f58",
+    "output": "resourcepack/ATM10_Korean/assets/pneumaticcraft/patchouli_books/book/ko_kr/entries/machines/liquid_hopper.json",
+    "output_sha256": "d12ab7a22e5494f4367de721c4644c2891f80a41ad5ecdac74b615270d755753",
+    "non_visible_structure_identical": true
+  },
+  {
+    "source": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/conditions.json",
+    "source_sha256": "57554558399808cc7aea078123360b33c17094e4e97997cb1e1c46b9658dafcb",
+    "output": "resourcepack/ATM10_Korean/assets/pneumaticcraft/patchouli_books/book/ko_kr/entries/programming/conditions.json",
+    "output_sha256": "47c3b444df2a18aae02788d01ad90f446762970f3db28ccbd2c912c174174215",
+    "non_visible_structure_identical": true
+  },
+  {
+    "source": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/drone.json",
+    "source_sha256": "501c8950542554cd5f4b971c387762aab9531758e6747fc7473bc007cbe742d6",
+    "output": "resourcepack/ATM10_Korean/assets/pneumaticcraft/patchouli_books/book/ko_kr/entries/tools/drone.json",
+    "output_sha256": "7094670747e15cc5e87f03df9989a2efa025cf957fb1f8ac2eabd9a4a20014d9",
+    "non_visible_structure_identical": true
+  },
+  {
+    "source": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/condition_dimension.json",
+    "source_sha256": "ef509e27eb84a493265b1c17b23717f2efb48db9cbc0e4331c6edb639d249e61",
+    "output": "resourcepack/ATM10_Korean/assets/pneumaticcraft/patchouli_books/book/ko_kr/entries/programming/condition_dimension.json",
+    "output_sha256": "61cffad89f5d8ab53e34aa886afe52b39d60ca48f44e47ab57d8d7156abdacf0",
+    "non_visible_structure_identical": true
+  }
+]

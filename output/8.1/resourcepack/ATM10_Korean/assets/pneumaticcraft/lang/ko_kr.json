@@ -1904,7 +1904,7 @@
   "pneumaticcraft.gui.tab.upgrades.generic.volume": "2 * √U만큼 장비의 공기 용량을 늘립니다. 여기서 U는 용량 업그레이드 수입니다.\n참고: 용량 업그레이드를 추가하면 저장할 수 있는 공기가 늘어나 압력 강하가 발생합니다.  업그레이드를 제거하면 압력이 일정하게 유지되어 기계에서 공기가 손실됩니다.",
   "pneumaticcraft.gui.tab.upgrades.liquid_compressor.speed": "연료 효율성을 희생시키면서 틱당 생성되는 압축 공기를 증가시킵니다.",
   "pneumaticcraft.gui.tab.upgrades.liquid_hopper.creative": "호퍼가 유체를 무한정 공급할 수 있습니다.",
-  "pneumaticcraft.gui.tab.upgrades.liquid_hopper.dispenser": "호퍼의 입력 측에서 유체 블록을 흡입하고 출력 측에서 유체를 내려 놓습니다. 예를 들어 워터 펌프로 사용할 수 있습니다.",
+  "pneumaticcraft.gui.tab.upgrades.liquid_hopper.dispenser": "호퍼의 입력 측에서 유체 블록을 흡입하고 출력 측에서 유체를 배치합니다. 예를 들어 물 펌프로 사용할 수 있습니다.\n입력 측의 경험치 구슬도 흡수하여 기억의 정수로 바꿉니다(유체를 담을 공간이 있어야 합니다).",
   "pneumaticcraft.gui.tab.upgrades.liquid_hopper.entity_tracker": "호퍼는 입력 또는 출력에서 액체를 운반하는 개체(드론, 일부 개조된 광산 수레...)와 상호 작용을 시도하고 해당 개체에 유체를 적절하게 전달합니다.",
   "pneumaticcraft.gui.tab.upgrades.liquid_hopper.speed": "호퍼가 유체를 전달하는 속도를 높입니다.  최대 업그레이드 횟수로 유체 호퍼는 한 번의 틱으로 전체 내용물을 전송할 수 있습니다.",
   "pneumaticcraft.gui.tab.upgrades.max": "최대 업그레이드:%d",
@@ -2266,5 +2266,8 @@
   "config.jade.plugin_pneumaticcraft.tube_module": "튜브_모듈",
   "config.jade.plugin_pneumaticcraft.redstone": "레드스톤",
   "config.jade.plugin_pneumaticcraft.camo": "카모",
-  "config.jade.plugin_pneumaticcraft.pneumatic": "영적인"
+  "config.jade.plugin_pneumaticcraft.pneumatic": "영적인",
+  "pneumaticcraft.gui.tooltip.jackhammer.speedcapped.false": "즉시 파괴 방지: 끄기",
+  "pneumaticcraft.gui.tooltip.jackhammer.speedcapped.true": "즉시 파괴 방지: 켜기",
+  "programmingPuzzle.pneumaticcraft.condition_dimension.name": "조건: 차원"
 }

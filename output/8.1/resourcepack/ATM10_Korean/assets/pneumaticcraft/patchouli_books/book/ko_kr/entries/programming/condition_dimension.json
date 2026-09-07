@@ -1,0 +1,23 @@
+{
+  "name": "조건: 차원 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_dimension_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 위젯은 $(l:programming/conditions)조건/$ 위젯입니다.$(p)$(thing)조건: 차원/$ 위젯으로 드론이 현재 있는 차원을 확인할 수 있습니다. 프로그래밍 가능한 드론이 네더 차원문을 통과하는 등의 방법으로 차원을 이동하려면 드론 프로그램에 이 위젯이 $(o)반드시/$ 있어야 합니다."
+    },
+    {
+      "type": "text",
+      "text": "확인할 차원의 ID를 적은 $(l:programming/text)텍스트/$ 위젯으로 차원을 필터링할 수 있습니다. 예를 들어 $(thing)minecraft:overworld/$ 또는 $(thing)minecraft:the_nether/$를 사용합니다. 오른쪽의 텍스트 위젯은 허용 목록으로, 왼쪽의 텍스트 위젯은 차단 목록으로 작동합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_dimension_piece.png"
+      ],
+      "text": "$(italic)완전히 새로운 세상/$"
+    }
+  ]
+}

@@ -215,5 +215,9 @@
   "text.autoconfig.lootr.option.refresh.start_tick_refresh": "틱 처리 중 새로고침 시작",
   "text.autoconfig.lootr.option.seed": "시드",
   "text.autoconfig.lootr.option.seed.randomize_seed": "시드 랜덤화",
-  "text.autoconfig.lootr.title": "Lootr"
+  "text.autoconfig.lootr.title": "Lootr",
+  "lootr.advancements.trapped_chest.description": "첫 Lootr 덫 상자를 여세요!",
+  "lootr.advancements.trapped_chest.title": "깜짝이야!",
+  "lootr.message.cannot_insert": "전리품이 있는 아이템 액자에는 아이템을 넣을 수 없습니다.",
+  "lootr.message.emergency_conversion": "방금 연 보관함이 Lootr 보관함으로 변환되었습니다!"
 }

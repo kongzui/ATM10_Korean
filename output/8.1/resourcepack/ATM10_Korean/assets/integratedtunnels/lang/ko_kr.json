@@ -485,5 +485,13 @@
   "info_book.integratedtunnels.tutorials.place_logwood": "태그로 아이템 배치",
   "info_book.integratedtunnels.tutorials.place_logwood.text1": "통나무만 놓는 &l월드 블록 출력기&r 시스템을 만들어 보세요. &l태그 값&r 연산자로 &ologs&r 태그에 속한 모든 아이템 목록을 가져오면 됩니다.",
   "info_book.integratedtunnels.tutorials.click_sword": "검으로 클릭",
-  "info_book.integratedtunnels.tutorials.click_sword.text1": "반복 클릭은 지루하니 &l플레이어 시뮬레이터&r에 맡겨 보세요. 먼저 장치를 제작하고 &o다이아몬드 검&r이 든 &l변수 카드&r를 넣으면 아이템 네트워크의 &o다이아몬드 검&r을 사용해 자동으로 공격합니다."
+  "info_book.integratedtunnels.tutorials.click_sword.text1": "반복 클릭은 지루하니 &l플레이어 시뮬레이터&r에 맡겨 보세요. 먼저 장치를 제작하고 &o다이아몬드 검&r이 든 &l변수 카드&r를 넣으면 아이템 네트워크의 &o다이아몬드 검&r을 사용해 자동으로 공격합니다.",
+  "aspect.aspecttypes.integratedtunnels.boolean.passiveioignorefilter": "수동적 상호 작용 시 필터 무시",
+  "aspect.aspecttypes.integratedtunnels.boolean.passiveioignorefilter.info": "어떤 것이든 네트워크에 항상 넣거나 꺼낼 수 있는지 여부입니다.",
+  "aspect.aspecttypes.integratedtunnels.boolean.world.matchblock": "블록 일치",
+  "aspect.aspecttypes.integratedtunnels.boolean.world.matchblock.info": "드롭 아이템 대신 블록의 아이템 형태와 비교합니다.",
+  "aspect.integratedtunnels.write.integer.world.entity.item.slot.export": "개체의 아이템 슬롯으로 내보내기",
+  "aspect.integratedtunnels.write.integer.world.entity.item.slot.export.info": "마주 보는 개체의 지정한 슬롯으로 아이템을 내보냅니다. -1은 모든 슬롯, -2 이하는 슬롯 없음을 뜻합니다.",
+  "aspect.integratedtunnels.write.integer.world.entity.item.slot.import": "개체의 아이템 슬롯에서 가져오기",
+  "aspect.integratedtunnels.write.integer.world.entity.item.slot.import.info": "마주 보는 개체의 지정한 슬롯에서 아이템을 가져옵니다. -1은 모든 슬롯, -2 이하는 슬롯 없음을 뜻합니다."
 }

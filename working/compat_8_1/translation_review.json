@@ -1,0 +1,970 @@
+[
+  {
+    "namespace": "tombstone",
+    "key": "block.tombstone.abandoned_grave",
+    "english": "Abandoned Grave",
+    "previous_translation": null,
+    "translation": "버려진 무덤",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "description.effect.tombstone.silent_bond",
+    "english": "The undead consider you as one of their own",
+    "previous_translation": null,
+    "translation": "언데드가 당신을 동족으로 여깁니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "effect.tombstone.silent_bond",
+    "english": "Silent Bond",
+    "previous_translation": null,
+    "translation": "침묵의 결속",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "entity.tombstone.flying_carpet",
+    "english": "Flying Carpet",
+    "previous_translation": null,
+    "translation": "날아다니는 양탄자",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "readable_scroll.nights_of_nour.author",
+    "english": "The Endless Storyteller",
+    "previous_translation": null,
+    "translation": "끝없는 이야기꾼",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "readable_scroll.nights_of_nour.title",
+    "english": "Nights of Nour",
+    "previous_translation": null,
+    "translation": "누르의 밤",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "stat.tombstone.nights_of_nour",
+    "english": "Nights of Nour",
+    "previous_translation": null,
+    "translation": "누르의 밤",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.command.tbreadable.usage",
+    "english": "Provides a copy of the scrolls already obtained from a narrative\n/tbreadable <narrative>",
+    "previous_translation": null,
+    "translation": "이야기에서 이미 얻은 두루마리의 사본을 제공합니다\n/tbreadable <narrative>",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.compendium.flying_carpet.desc",
+    "english": "The flying carpet is a mount that lets you travel through the air and underwater, moving in the direction you're looking.\nSummon it with a right-click (or shift right-click to summon it without mounting directly).\nIt recharges by hovering over soul sand.",
+    "previous_translation": null,
+    "translation": "날아다니는 양탄자는 바라보는 방향으로 움직여 공중과 물속을 이동할 수 있는 탈것입니다.\n우클릭하면 소환합니다(바로 탑승하지 않고 소환하려면 Shift+우클릭하세요).\n영혼 모래 위에 떠 있으면 재충전됩니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.item.flying_carpet",
+    "english": "Flying Carpet",
+    "previous_translation": null,
+    "translation": "날아다니는 양탄자",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.item.flying_carpet.desc",
+    "english": "The carpet can carry you through the air or underwater in the direction of your gaze",
+    "previous_translation": null,
+    "translation": "바라보는 방향으로 공중이나 물속을 이동할 수 있는 양탄자입니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.item.flying_carpet.use",
+    "english": "Right click to step onto the carpet",
+    "previous_translation": null,
+    "translation": "우클릭해 양탄자에 탑승하세요",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.item.sarheed_lamp",
+    "english": "Sarheed's Lamp",
+    "previous_translation": null,
+    "translation": "사르히드의 램프",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.message.flight_not_allowed",
+    "english": "Flying mounts are not allowed on the server",
+    "previous_translation": null,
+    "translation": "이 서버에서는 비행 탈것을 사용할 수 없습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.message.no_scroll_found",
+    "english": "You found no scroll for this narrative",
+    "previous_translation": null,
+    "translation": "이 이야기에서 발견한 두루마리가 없습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.message.readable.success",
+    "english": "You have received the previously obtained scrolls of the story %1$s: %2$s/%3$s",
+    "previous_translation": null,
+    "translation": "%1$s 이야기에서 이전에 얻은 두루마리를 받았습니다: %2$s/%3$s",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.message.unknown_narrative",
+    "english": "Unknown narrative: %s",
+    "previous_translation": null,
+    "translation": "알 수 없는 이야기: %s",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.message.watcher_knowledge.already_unlocked",
+    "english": "You have already unlocked this Watcher Knowledge",
+    "previous_translation": null,
+    "translation": "이미 이 감시자 지식을 잠금 해제했습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.message.watcher_knowledge_4.find_nights_of_nour",
+    "english": "You need to find all parts of Nights of Nour",
+    "previous_translation": null,
+    "translation": "누르의 밤 전편을 찾아야 합니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.message.watcher_knowledge_4.unlocked",
+    "english": "Ashkar is finally free, and leaves you a flying carpet as a token of gratitude",
+    "previous_translation": null,
+    "translation": "마침내 자유를 얻은 아슈카르가 감사의 표시로 날아다니는 양탄자를 남겼습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "bonus.tombstone.enhanced_grave_prayer",
+    "english": "Enhances your prayers at graves by granting multiple beneficial effects",
+    "previous_translation": "주변의 모든 동맹에게 이로운 효과를 주어 무덤에서 하는 기도를 강화합니다",
+    "translation": "여러 이로운 효과를 부여하여 무덤에서 하는 기도를 강화합니다",
+    "kind": "changed"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.item.ritual_flute.use",
+    "english": "Right click on a suitable block to play the melody associated with a learned ritual",
+    "previous_translation": "우클릭해 선율을 연주하세요",
+    "translation": "적절한 블록을 우클릭해 배운 의식에 해당하는 선율을 연주하세요",
+    "kind": "changed"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.lang.last_update",
+    "english": "1.21.1-9.5.4",
+    "previous_translation": "1.21.1-9.5.1",
+    "translation": "1.21.1-9.5.4",
+    "kind": "changed"
+  },
+  {
+    "namespace": "tombstone",
+    "key": "tombstone.message.heal_coral.success",
+    "english": "You have revitalized a dead coral",
+    "previous_translation": "주변의 모든 죽은 산호를 되살렸습니다",
+    "translation": "죽은 산호를 되살렸습니다",
+    "kind": "changed"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.ops_see_hidden_players",
+    "english": "Ops See Hidden Players",
+    "previous_translation": null,
+    "translation": "관리자에게 숨겨진 플레이어 표시",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.ops_see_hidden_players.tooltip",
+    "english": "When enabled, Ops see players on the radar even if those players disabled \"Visible to Others\" in their multiplayer settings. Disable so Ops honor the player's visibility choice.",
+    "previous_translation": null,
+    "translation": "켜면 다른 플레이어가 멀티플레이 설정에서 \"다른 사람에게 표시\"를 꺼도 관리자 레이더에 표시됩니다. 끄면 관리자에게도 해당 플레이어의 공개 설정을 적용합니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport",
+    "english": "Teleport",
+    "previous_translation": null,
+    "translation": "순간이동",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.option.all",
+    "english": "All",
+    "previous_translation": null,
+    "translation": "모두",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.option.all.tooltip",
+    "english": "Everyone can teleport to Waypoints and Map Context Menu",
+    "previous_translation": null,
+    "translation": "모두 웨이포인트와 지도 우클릭 메뉴로 순간이동할 수 있습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.option.global_only",
+    "english": "Global Only",
+    "previous_translation": null,
+    "translation": "공용 웨이포인트만",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.option.global_only.tooltip",
+    "english": "Users can only teleport to Admin created Global Waypoints, Ops can teleport via any Waypoint and Map Context Menu",
+    "previous_translation": null,
+    "translation": "일반 사용자는 관리자가 만든 공용 웨이포인트로만 순간이동할 수 있습니다. 관리자는 모든 웨이포인트와 지도 우클릭 메뉴로 순간이동할 수 있습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.option.none",
+    "english": "None",
+    "previous_translation": null,
+    "translation": "사용 안 함",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.option.none.tooltip",
+    "english": "Disabled Map Context Menu and Waypoint Teleporting for everyone including Opped users.",
+    "previous_translation": null,
+    "translation": "관리자를 포함한 모두의 지도 우클릭 메뉴 및 웨이포인트 순간이동을 비활성화합니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.option.ops",
+    "english": "Ops",
+    "previous_translation": null,
+    "translation": "관리자",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.option.ops.tooltip",
+    "english": "Only Ops can teleport via Waypoints and Context Menu",
+    "previous_translation": null,
+    "translation": "관리자만 웨이포인트와 우클릭 메뉴로 순간이동할 수 있습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.option.waypoint_only",
+    "english": "Waypoint Only",
+    "previous_translation": null,
+    "translation": "웨이포인트만",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.option.waypoint_only.tooltip",
+    "english": "Users can teleport to Waypoints, they cannot teleport via Map Context Menu, Ops can teleport via Context Menu",
+    "previous_translation": null,
+    "translation": "일반 사용자는 웨이포인트로만 순간이동할 수 있고 지도 우클릭 메뉴는 사용할 수 없습니다. 관리자는 우클릭 메뉴로도 순간이동할 수 있습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.server.teleport.tooltip",
+    "english": "Who may use JourneyMap teleporting.\nNone: Disabled Map Context Menu and Waypoint Teleporting for everyone including Opped users.\nAll: Everyone can teleport to Waypoints and Map Context Menu.\nOps: Only Ops can teleport via Waypoints and Context Menu.\nWaypoint Only: Users can teleport to Waypoints, they cannot teleport via Map Context Menu, Ops can teleport via Context Menu.\nGlobal Only: Users can only teleport to Admin created Global Waypoints, Ops can teleport via any Waypoint and Map Context Menu.",
+    "previous_translation": null,
+    "translation": "JourneyMap 순간이동을 사용할 수 있는 대상을 정합니다.\n사용 안 함: 관리자를 포함한 모두의 지도 우클릭 메뉴 및 웨이포인트 순간이동을 비활성화합니다.\n모두: 모두 웨이포인트와 지도 우클릭 메뉴로 순간이동할 수 있습니다.\n관리자: 관리자만 웨이포인트와 우클릭 메뉴로 순간이동할 수 있습니다.\n웨이포인트만: 일반 사용자는 웨이포인트로만 순간이동할 수 있고 지도 우클릭 메뉴는 사용할 수 없습니다. 관리자는 우클릭 메뉴로도 순간이동할 수 있습니다.\n공용 웨이포인트만: 일반 사용자는 관리자가 만든 공용 웨이포인트로만 순간이동할 수 있습니다. 관리자는 모든 웨이포인트와 지도 우클릭 메뉴로 순간이동할 수 있습니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.waypoint.player_max_distance",
+    "english": "Player Maximum Distance",
+    "previous_translation": null,
+    "translation": "플레이어 최대 거리",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.waypoint.player_max_distance.tooltip",
+    "english": "The maximum distance from you (in blocks/meters) that another player's head waypoint should be displayed. Set to 0 for no maximum.",
+    "previous_translation": null,
+    "translation": "다른 플레이어의 머리 모양 웨이포인트를 표시할 최대 거리(블록/미터)입니다. 0으로 설정하면 최대 거리를 제한하지 않습니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.waypoint.player_min_distance",
+    "english": "Player Minimum Distance",
+    "previous_translation": null,
+    "translation": "플레이어 최소 거리",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.waypoint.player_min_distance.tooltip",
+    "english": "The minimum distance from you (in blocks/meters) that another player's head waypoint should be displayed, so nearby players' heads hide when you can see the player. Set to 0 for no minimum.",
+    "previous_translation": null,
+    "translation": "다른 플레이어의 머리 모양 웨이포인트를 표시할 최소 거리(블록/미터)입니다. 가까이 있어 직접 볼 수 있는 플레이어의 머리 표시는 숨길 수 있습니다. 0으로 설정하면 최소 거리를 제한하지 않습니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.waypoint.settings.color_settings",
+    "english": "Color Settings",
+    "previous_translation": null,
+    "translation": "색상 설정",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.waypoint.settings.color_settings.tooltip",
+    "english": "Edit the icon, beacon, and label colors.",
+    "previous_translation": null,
+    "translation": "아이콘, 신호기와 이름표의 색상을 편집합니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.waypoint.settings.override",
+    "english": "Override",
+    "previous_translation": null,
+    "translation": "덮어쓰기",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.waypoint.settings.override.tooltip",
+    "english": "Force this group's value for this row onto all waypoints in the group.",
+    "previous_translation": null,
+    "translation": "이 행의 그룹 설정값을 그룹 내 모든 웨이포인트에 강제로 적용합니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "journeymap",
+    "key": "jm.waypoint.settings.row_icon_color",
+    "english": "Icon Color",
+    "previous_translation": null,
+    "translation": "아이콘 색상",
+    "kind": "added"
+  },
+  {
+    "namespace": "artifacts",
+    "key": "artifacts.config.client.showArtifactsOnPlayers.description.0",
+    "english": "Whether worn artifacts should be displayed on players",
+    "previous_translation": null,
+    "translation": "플레이어가 착용한 유물을 표시할지 여부",
+    "kind": "added"
+  },
+  {
+    "namespace": "artifacts",
+    "key": "artifacts.config.client.showArtifactsOnPlayers.description.1",
+    "english": "This config option is purely client-side, it does not change what other players see",
+    "previous_translation": null,
+    "translation": "이 설정은 자신의 클라이언트에만 적용되며 다른 플레이어에게 보이는 모습에는 영향을 주지 않습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "artifacts",
+    "key": "artifacts.config.client.showArtifactsOnPlayers.title",
+    "english": "Show Artifacts on Players",
+    "previous_translation": null,
+    "translation": "플레이어의 유물 표시",
+    "kind": "added"
+  },
+  {
+    "namespace": "artifacts",
+    "key": "artifacts.config.items.scarf_of_invisibility.hidesEffectParticles.description",
+    "english": "Whether the Scarf of Invisibility should prevent all status effects from spawning particles",
+    "previous_translation": null,
+    "translation": "투명화 스카프가 모든 상태 효과의 입자 생성을 막을지 여부",
+    "kind": "added"
+  },
+  {
+    "namespace": "artifacts",
+    "key": "artifacts.config.items.scarf_of_invisibility.hidesEffectParticles.title",
+    "english": "Hides Effect Particles",
+    "previous_translation": null,
+    "translation": "효과 입자 숨기기",
+    "kind": "added"
+  },
+  {
+    "namespace": "artifacts",
+    "key": "artifacts.tooltip.ability.damage_immunity.burn_from_stepping",
+    "english": "Grants protection against hot floor damage",
+    "previous_translation": null,
+    "translation": "뜨거운 바닥으로 받는 피해를 막아 줍니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "artifacts",
+    "key": "artifacts.config.client.useModdedMimicTextures.description",
+    "english": "Whether mimics can use textures from Quark",
+    "previous_translation": "미믹이 Lootr 또는 Quark의 텍스처를 사용할지 여부",
+    "translation": "미믹이 Quark의 텍스처를 사용할지 여부",
+    "kind": "changed"
+  },
+  {
+    "namespace": "artifacts",
+    "key": "artifacts.config.items.thorn_pendant.maxDamage.description",
+    "english": "The maximum amount of damage that is dealt when the Thorn Pendant activates",
+    "previous_translation": "가시 펜던트가 발동할 때 입히는 최소 피해량",
+    "translation": "가시 펜던트가 발동할 때 입히는 최대 피해량",
+    "kind": "changed"
+  },
+  {
+    "namespace": "artifacts",
+    "key": "artifacts.config.items.thorn_pendant.minDamage.description",
+    "english": "The minimum amount of damage that is dealt when the Thorn Pendant activates",
+    "previous_translation": "가시 펜던트가 발동할 때 입히는 최대 피해량",
+    "translation": "가시 펜던트가 발동할 때 입히는 최소 피해량",
+    "kind": "changed"
+  },
+  {
+    "namespace": "hostilenetworks",
+    "key": "hostilenetworks.fail.buffering",
+    "english": "Model outputs are buffering",
+    "previous_translation": null,
+    "translation": "모델 생산물이 버퍼에 대기 중입니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "hostilenetworks",
+    "key": "hostilenetworks.fail.cannot_train",
+    "english": "Cannot begin simulation\nModel can no longer be trained",
+    "previous_translation": null,
+    "translation": "시뮬레이션을 시작할 수 없습니다\n모델을 더 이상 훈련할 수 없습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "hostilenetworks",
+    "key": "hostilenetworks.gui.mode.inference.desc",
+    "english": "Simulations produce output,",
+    "previous_translation": null,
+    "translation": "시뮬레이션에서 생산물을 얻지만,",
+    "kind": "added"
+  },
+  {
+    "namespace": "hostilenetworks",
+    "key": "hostilenetworks.gui.mode.inference.desc2",
+    "english": "but models do not gain data",
+    "previous_translation": null,
+    "translation": "모델 데이터는 증가하지 않습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "hostilenetworks",
+    "key": "hostilenetworks.gui.mode.power",
+    "english": "Energy Cost: %s%%",
+    "previous_translation": null,
+    "translation": "에너지 소비량: %s%%",
+    "kind": "added"
+  },
+  {
+    "namespace": "hostilenetworks",
+    "key": "hostilenetworks.gui.mode.speed",
+    "english": "Simulation Speed: %s%%",
+    "previous_translation": null,
+    "translation": "시뮬레이션 속도: %s%%",
+    "kind": "added"
+  },
+  {
+    "namespace": "hostilenetworks",
+    "key": "hostilenetworks.gui.mode.training.desc",
+    "english": "Simulations increase model data,",
+    "previous_translation": null,
+    "translation": "시뮬레이션에서 모델 데이터가 증가하지만,",
+    "kind": "added"
+  },
+  {
+    "namespace": "hostilenetworks",
+    "key": "hostilenetworks.gui.mode.training.desc2",
+    "english": "but produce no outputs",
+    "previous_translation": null,
+    "translation": "생산물은 얻지 못합니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedtunnels",
+    "key": "aspect.aspecttypes.integratedtunnels.boolean.passiveioignorefilter",
+    "english": "Passive Interaction Ignores Filter",
+    "previous_translation": null,
+    "translation": "수동적 상호 작용 시 필터 무시",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedtunnels",
+    "key": "aspect.aspecttypes.integratedtunnels.boolean.passiveioignorefilter.info",
+    "english": "If anything may always be inserted into/extracted from the network.",
+    "previous_translation": null,
+    "translation": "어떤 것이든 네트워크에 항상 넣거나 꺼낼 수 있는지 여부입니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedtunnels",
+    "key": "aspect.aspecttypes.integratedtunnels.boolean.world.matchblock",
+    "english": "Match Block",
+    "previous_translation": null,
+    "translation": "블록 일치",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedtunnels",
+    "key": "aspect.aspecttypes.integratedtunnels.boolean.world.matchblock.info",
+    "english": "Match item form of block instead of dropped items.",
+    "previous_translation": null,
+    "translation": "드롭 아이템 대신 블록의 아이템 형태와 비교합니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedtunnels",
+    "key": "aspect.integratedtunnels.write.integer.world.entity.item.slot.export",
+    "english": "Export Item Slot To Entities",
+    "previous_translation": null,
+    "translation": "개체의 아이템 슬롯으로 내보내기",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedtunnels",
+    "key": "aspect.integratedtunnels.write.integer.world.entity.item.slot.export.info",
+    "english": "Export items to the given slot of the facing entities. -1 is any slot, -2 or less is no slot.",
+    "previous_translation": null,
+    "translation": "마주 보는 개체의 지정한 슬롯으로 아이템을 내보냅니다. -1은 모든 슬롯, -2 이하는 슬롯 없음을 뜻합니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedtunnels",
+    "key": "aspect.integratedtunnels.write.integer.world.entity.item.slot.import",
+    "english": "Import Item Slot From Entities",
+    "previous_translation": null,
+    "translation": "개체의 아이템 슬롯에서 가져오기",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedtunnels",
+    "key": "aspect.integratedtunnels.write.integer.world.entity.item.slot.import.info",
+    "english": "Import items from the given slot of the facing entities. -1 is any slot, -2 or less is no slot.",
+    "previous_translation": null,
+    "translation": "마주 보는 개체의 지정한 슬롯에서 아이템을 가져옵니다. -1은 모든 슬롯, -2 이하는 슬롯 없음을 뜻합니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "mffs",
+    "key": "info.mffs.field_permission.warp_sneak",
+    "english": "Warp (Sneak)",
+    "previous_translation": null,
+    "translation": "워프 (웅크리기)",
+    "kind": "added"
+  },
+  {
+    "namespace": "mffs",
+    "key": "info.mffs.field_permission.warp_sneak.tooltip",
+    "english": "Allows the player to sneak-walk through and bypass force fields.",
+    "previous_translation": null,
+    "translation": "플레이어가 웅크린 채 걸어서 역장을 통과할 수 있습니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "mffs",
+    "key": "info.mffs.field_permission.warp_walk",
+    "english": "Warp (Walk)",
+    "previous_translation": null,
+    "translation": "워프 (걷기)",
+    "kind": "added"
+  },
+  {
+    "namespace": "mffs",
+    "key": "info.mffs.field_permission.warp_walk.tooltip",
+    "english": "Allows the player to walk through and bypass force fields.",
+    "previous_translation": null,
+    "translation": "플레이어가 걸어서 역장을 통과할 수 있습니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "mffs",
+    "key": "item.mffs.reinforcement_module",
+    "english": "Reinforcement Module",
+    "previous_translation": null,
+    "translation": "보강 모듈",
+    "kind": "added"
+  },
+  {
+    "namespace": "mffs",
+    "key": "item.mffs.reinforcement_module.description",
+    "english": "Makes Force Field blocks immune to the Wither",
+    "previous_translation": null,
+    "translation": "역장 블록이 위더에게 파괴되지 않게 합니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "mffs",
+    "key": "oracle_index.title.mffs",
+    "english": "MFFS",
+    "previous_translation": null,
+    "translation": "MFFS",
+    "kind": "added"
+  },
+  {
+    "namespace": "mffs",
+    "key": "itemGroup.mffs.main",
+    "english": "Modular Force Field System",
+    "previous_translation": "MFFS",
+    "translation": "Modular Force Field System",
+    "kind": "changed"
+  },
+  {
+    "namespace": "functionalstorage",
+    "key": "gui.functionalstorage.armory_search",
+    "english": "Search",
+    "previous_translation": null,
+    "translation": "검색",
+    "kind": "added"
+  },
+  {
+    "namespace": "functionalstorage",
+    "key": "gui.functionalstorage.fluid_drawer_hint",
+    "english": "Fluid Drawer",
+    "previous_translation": null,
+    "translation": "유체 서랍",
+    "kind": "added"
+  },
+  {
+    "namespace": "functionalstorage",
+    "key": "gui.functionalstorage.fluid_drawer_hint.empty",
+    "english": "%s: Empty container into drawer",
+    "previous_translation": null,
+    "translation": "%s: 용기 안의 유체를 서랍에 넣기",
+    "kind": "added"
+  },
+  {
+    "namespace": "functionalstorage",
+    "key": "gui.functionalstorage.fluid_drawer_hint.fill",
+    "english": "%s: Fill container from drawer",
+    "previous_translation": null,
+    "translation": "%s: 서랍의 유체로 용기 채우기",
+    "kind": "added"
+  },
+  {
+    "namespace": "functionalstorage",
+    "key": "gui.functionalstorage.priority",
+    "english": "Priority",
+    "previous_translation": null,
+    "translation": "우선순위",
+    "kind": "added"
+  },
+  {
+    "namespace": "generatorgalore",
+    "key": "generatorgalore.recipe.burn_rate",
+    "english": "Burn rate: %smB/t",
+    "previous_translation": null,
+    "translation": "연소 속도: %smB/t",
+    "kind": "added"
+  },
+  {
+    "namespace": "generatorgalore",
+    "key": "generatorgalore.recipe.burn_time",
+    "english": "Burntime: %s",
+    "previous_translation": null,
+    "translation": "연소 시간: %s",
+    "kind": "added"
+  },
+  {
+    "namespace": "generatorgalore",
+    "key": "generatorgalore.recipe.rate",
+    "english": "Rate: %sFE/t",
+    "previous_translation": null,
+    "translation": "생산 속도: %sFE/t",
+    "kind": "added"
+  },
+  {
+    "namespace": "generatorgalore",
+    "key": "generatorgalore.recipe.total",
+    "english": "Total: %sFE",
+    "previous_translation": null,
+    "translation": "총량: %sFE",
+    "kind": "added"
+  },
+  {
+    "namespace": "generatorgalore",
+    "key": "generatorgalore.recipe.total_bucket",
+    "english": "Total: %sFE/B",
+    "previous_translation": null,
+    "translation": "총량: %sFE/B",
+    "kind": "added"
+  },
+  {
+    "namespace": "industrialforegoing",
+    "key": "emi.category.industrialforegoing.dye_mixer",
+    "english": "Dye Mixer",
+    "previous_translation": null,
+    "translation": "염료 혼합기",
+    "kind": "added"
+  },
+  {
+    "namespace": "industrialforegoing",
+    "key": "emi.category.industrialforegoing.latex_processing_unit",
+    "english": "Latex Processing Unit",
+    "previous_translation": null,
+    "translation": "라텍스 처리 장치",
+    "kind": "added"
+  },
+  {
+    "namespace": "industrialforegoing",
+    "key": "emi.category.industrialforegoing.sewage_composter",
+    "english": "Sewage Composter",
+    "previous_translation": null,
+    "translation": "오물 처리기",
+    "kind": "added"
+  },
+  {
+    "namespace": "industrialforegoing",
+    "key": "emi.category.industrialforegoing.sludge_refiner",
+    "english": "Sludge Refiner",
+    "previous_translation": null,
+    "translation": "슬러지 정제기",
+    "kind": "added"
+  },
+  {
+    "namespace": "industrialforegoing",
+    "key": "emi.category.industrialforegoing.spores_recreator",
+    "english": "Spores Recreator",
+    "previous_translation": null,
+    "translation": "포자 재생기",
+    "kind": "added"
+  },
+  {
+    "namespace": "modularbees",
+    "key": "block.modularbees.me_centrifuge_import",
+    "english": "Centrifuge ME Import Hatch",
+    "previous_translation": null,
+    "translation": "원심분리기 ME 입력 해치",
+    "kind": "added"
+  },
+  {
+    "namespace": "modularbees",
+    "key": "config.jade.plugin_modularbees.grid_node_state",
+    "english": "AE2 Network State (ModularBees)",
+    "previous_translation": null,
+    "translation": "AE2 네트워크 상태 (ModularBees)",
+    "kind": "added"
+  },
+  {
+    "namespace": "modularbees",
+    "key": "config.jade.plugin_modularbees.power_storage",
+    "english": "AE2 Power State (ModularBees)",
+    "previous_translation": null,
+    "translation": "AE2 전력 상태 (ModularBees)",
+    "kind": "added"
+  },
+  {
+    "namespace": "modularbees",
+    "key": "modularbees.gui.me_import.config",
+    "english": "Config",
+    "previous_translation": null,
+    "translation": "설정",
+    "kind": "added"
+  },
+  {
+    "namespace": "modularbees",
+    "key": "modularbees.gui.me_import.storage",
+    "english": "Storage",
+    "previous_translation": null,
+    "translation": "저장소",
+    "kind": "added"
+  },
+  {
+    "namespace": "lootr",
+    "key": "lootr.advancements.trapped_chest.description",
+    "english": "Open your first Lootr trapped chest!",
+    "previous_translation": null,
+    "translation": "첫 Lootr 덫 상자를 여세요!",
+    "kind": "added"
+  },
+  {
+    "namespace": "lootr",
+    "key": "lootr.advancements.trapped_chest.title",
+    "english": "Surprise!",
+    "previous_translation": null,
+    "translation": "깜짝이야!",
+    "kind": "added"
+  },
+  {
+    "namespace": "lootr",
+    "key": "lootr.message.cannot_insert",
+    "english": "Items cannot be inserted into Item Frames with Loot.",
+    "previous_translation": null,
+    "translation": "전리품이 있는 아이템 액자에는 아이템을 넣을 수 없습니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "lootr",
+    "key": "lootr.message.emergency_conversion",
+    "english": "The container you just opened has been converted into a Lootr container!",
+    "previous_translation": null,
+    "translation": "방금 연 보관함이 Lootr 보관함으로 변환되었습니다!",
+    "kind": "added"
+  },
+  {
+    "namespace": "pneumaticcraft",
+    "key": "pneumaticcraft.gui.tooltip.jackhammer.speedcapped.false",
+    "english": "Prevent insta-breaking: OFF",
+    "previous_translation": null,
+    "translation": "즉시 파괴 방지: 끄기",
+    "kind": "added"
+  },
+  {
+    "namespace": "pneumaticcraft",
+    "key": "pneumaticcraft.gui.tooltip.jackhammer.speedcapped.true",
+    "english": "Prevent insta-breaking: ON",
+    "previous_translation": null,
+    "translation": "즉시 파괴 방지: 켜기",
+    "kind": "added"
+  },
+  {
+    "namespace": "pneumaticcraft",
+    "key": "programmingPuzzle.pneumaticcraft.condition_dimension.name",
+    "english": "Condition: Dimension",
+    "previous_translation": null,
+    "translation": "조건: 차원",
+    "kind": "added"
+  },
+  {
+    "namespace": "pneumaticcraft",
+    "key": "pneumaticcraft.gui.tab.upgrades.liquid_hopper.dispenser",
+    "english": "Sucks in any fluid block at the input side of the Hopper, and places down any fluid at the output side. Can be used as a water pump, for example.\ncan also absorb Experience Orbs on the input side, converting them to Memory Essence (if there's space for the fluid).",
+    "previous_translation": "호퍼의 입력 측에서 유체 블록을 흡입하고 출력 측에서 유체를 내려 놓습니다. 예를 들어 워터 펌프로 사용할 수 있습니다.",
+    "translation": "호퍼의 입력 측에서 유체 블록을 흡입하고 출력 측에서 유체를 배치합니다. 예를 들어 물 펌프로 사용할 수 있습니다.\n입력 측의 경험치 구슬도 흡수하여 기억의 정수로 바꿉니다(유체를 담을 공간이 있어야 합니다).",
+    "kind": "changed"
+  },
+  {
+    "namespace": "quarryplus",
+    "key": "quarryplus.gui.adv_pump.delete",
+    "english": "Delete",
+    "previous_translation": null,
+    "translation": "삭제",
+    "kind": "added"
+  },
+  {
+    "namespace": "quarryplus",
+    "key": "quarryplus.gui.adv_pump.frame",
+    "english": "Frame",
+    "previous_translation": null,
+    "translation": "프레임",
+    "kind": "added"
+  },
+  {
+    "namespace": "quarryplus",
+    "key": "quarryplus.gui.adv_pump.modules",
+    "english": "Modules",
+    "previous_translation": null,
+    "translation": "모듈",
+    "kind": "added"
+  },
+  {
+    "namespace": "quarryplus",
+    "key": "quarryplus.gui.adv_pump.search_downward",
+    "english": "Search Downward",
+    "previous_translation": null,
+    "translation": "아래쪽 탐색",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedterminals",
+    "key": "gui.integratedterminals.terminal_storage.step.back",
+    "english": "Back",
+    "previous_translation": null,
+    "translation": "뒤로",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedterminals",
+    "key": "gui.integratedterminals.terminal_storage.tooltip.crafting",
+    "english": "Being crafted: %s",
+    "previous_translation": null,
+    "translation": "제작 중: %s",
+    "kind": "added"
+  },
+  {
+    "namespace": "integratedterminals",
+    "key": "info_book.integratedterminals.storage_terminal.autocrafting.text5",
+    "english": "Ingredients that are being produced by a running crafting job are marked with a spinner in the &lStorage Terminal&r. The color of this spinner indicates the status of the crafting job, which is also shown when hovering over the ingredient, together with the quantity that is still being crafted.",
+    "previous_translation": null,
+    "translation": "실행 중인 제작 작업에서 생산하는 재료는 &l저장소 터미널&r에 회전 표시가 나타납니다. 표시 색상은 제작 작업의 상태를 나타내며, 재료에 마우스를 올리면 해당 상태와 아직 제작 중인 수량을 함께 확인할 수 있습니다.",
+    "kind": "added"
+  },
+  {
+    "namespace": "the_bumblezone",
+    "key": "container.the_bumblezone.crystalline_flower.search",
+    "english": "Search...",
+    "previous_translation": null,
+    "translation": "검색...",
+    "kind": "added"
+  },
+  {
+    "namespace": "the_bumblezone",
+    "key": "container.the_bumblezone.crystalline_flower.too_many_enchants_marker",
+    "english": "!",
+    "previous_translation": null,
+    "translation": "!",
+    "kind": "added"
+  },
+  {
+    "namespace": "the_bumblezone",
+    "key": "container.the_bumblezone.crystalline_flower.too_many_enchants",
+    "english": "Enchantment limit\nof 3 reached!",
+    "previous_translation": "마법 부여 제한: 3",
+    "translation": "마법 부여 제한\n3개에 도달했습니다!",
+    "kind": "changed"
+  },
+  {
+    "namespace": "integratedscripting",
+    "key": "script.integratedscripting.error.script_missing",
+    "english": "The script \"%s\" at disk %s does not exist",
+    "previous_translation": null,
+    "translation": "스크립트 \"%s\"가 %s 디스크에 없습니다",
+    "kind": "added"
+  },
+  {
+    "namespace": "oritech",
+    "key": "label.oritech.reactor.warning_threshold",
+    "english": "Warning",
+    "previous_translation": null,
+    "translation": "경고",
+    "kind": "added"
+  },
+  {
+    "namespace": "sfm",
+    "key": "key.sfm.label_gun.open_gui",
+    "english": "Open Label Gun GUI",
+    "previous_translation": null,
+    "translation": "라벨 건 GUI 열기",
+    "kind": "added"
+  }
+]

@@ -238,5 +238,9 @@
   "yog.armor.hover.off": "호버 모드를 비활성화했습니다.",
   "yog.armor.hover.on": "호버 모드를 활성화했습니다.",
   "yog.pump.liquid": "- %s: %smB",
-  "yog.spawner.setting": "생성기에서 생성할 개체를 선택하세요"
+  "yog.spawner.setting": "생성기에서 생성할 개체를 선택하세요",
+  "quarryplus.gui.adv_pump.delete": "삭제",
+  "quarryplus.gui.adv_pump.frame": "프레임",
+  "quarryplus.gui.adv_pump.modules": "모듈",
+  "quarryplus.gui.adv_pump.search_downward": "아래쪽 탐색"
 }

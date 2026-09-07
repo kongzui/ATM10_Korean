@@ -52,5 +52,10 @@
   "modularbees.gui.me_export.whitelist": "화이트리스트 모드",
   "modularbees.gui.me_export.blacklist": "블랙리스트 모드",
   "modularbees.jei.treater_boost": "생산성 +%s",
-  "modularbees.jei.overclocker_boost": "속도 x%s"
+  "modularbees.jei.overclocker_boost": "속도 x%s",
+  "block.modularbees.me_centrifuge_import": "원심분리기 ME 입력 해치",
+  "config.jade.plugin_modularbees.grid_node_state": "AE2 네트워크 상태 (ModularBees)",
+  "config.jade.plugin_modularbees.power_storage": "AE2 전력 상태 (ModularBees)",
+  "modularbees.gui.me_import.config": "설정",
+  "modularbees.gui.me_import.storage": "저장소"
 }

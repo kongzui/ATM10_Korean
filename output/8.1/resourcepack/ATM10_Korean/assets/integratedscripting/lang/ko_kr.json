@@ -165,5 +165,6 @@
   "info_book.integratedscripting.tutorials.functions.text4": "구체적으로 &l인벤토리 판독기&r로 아이템 목록을 읽고 새로 만든 함수로 &l필터링&r합니다. 편집기에서 함수를 선택하고 빈 &l변수 카드&r를 넣으면 함수를 &l변수 카드&r에 &2연산자&0로 저장할 수 있습니다.",
   "info_book.integratedscripting.tutorials.functions.text5": "이번 튜토리얼에서는 필터 함수를 어떤 방식으로 구현해도 됩니다. 아래에 자유롭게 복사할 수 있는 올바른 예제 스크립트가 있습니다.",
   "info_book.integratedscripting.tutorials.functions.text6": "필터링된 목록의 결과를 &l디스플레이 패널&r에 표시하면 튜토리얼이 완료됩니다.",
-  "info_book.integratedscripting.tutorials.functions.text7": "예제 스크립트에서는 아이템의 &oisStackable()&r 및 &ostacksize()&r 같은 내장 메서드를 호출할 수 있습니다. 사용 가능한 메서드의 자세한 목록은 가이드 뒤쪽에서 확인하세요."
+  "info_book.integratedscripting.tutorials.functions.text7": "예제 스크립트에서는 아이템의 &oisStackable()&r 및 &ostacksize()&r 같은 내장 메서드를 호출할 수 있습니다. 사용 가능한 메서드의 자세한 목록은 가이드 뒤쪽에서 확인하세요.",
+  "script.integratedscripting.error.script_missing": "스크립트 \"%s\"가 %s 디스크에 없습니다"
 }

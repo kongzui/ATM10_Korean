@@ -676,5 +676,10 @@
   "tooltip.titanium.facing_handler.simulation": "수경 재배 모의 처리기",
   "tooltip.titanium.facing_handler.seed": "모의 재배 씨앗",
   "tooltip.industrialforegoing.hydroponic.function_1": "* 수경 재배대에서 작물 데이터를 수집할 때 사용합니다",
-  "tooltip.industrialforegoing.hydroponic.function_2": "* 모의 수경 재배대에서 생산물을 얻을 때 사용합니다"
+  "tooltip.industrialforegoing.hydroponic.function_2": "* 모의 수경 재배대에서 생산물을 얻을 때 사용합니다",
+  "emi.category.industrialforegoing.dye_mixer": "염료 혼합기",
+  "emi.category.industrialforegoing.latex_processing_unit": "라텍스 처리 장치",
+  "emi.category.industrialforegoing.sewage_composter": "오물 처리기",
+  "emi.category.industrialforegoing.sludge_refiner": "슬러지 정제기",
+  "emi.category.industrialforegoing.spores_recreator": "포자 재생기"
 }

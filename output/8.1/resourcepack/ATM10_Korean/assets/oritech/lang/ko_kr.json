@@ -1253,5 +1253,6 @@
   "tag.item.oritech.recyclable.small_copper_dust": "재활용 가능한 작은 구리 먼지",
   "tag.item.oritech.recyclable.small_gold_dust": "재활용 가능한 작은 금가루",
   "tag.item.oritech.recyclable.small_iron_dust": "재활용 가능한 작은 철분진",
-  "tag.item.oritech.recyclable.string": "재활용 가능한 끈"
+  "tag.item.oritech.recyclable.string": "재활용 가능한 끈",
+  "label.oritech.reactor.warning_threshold": "경고"
 }

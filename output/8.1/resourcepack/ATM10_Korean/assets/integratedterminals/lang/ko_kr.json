@@ -174,5 +174,8 @@
   "info_book.integratedterminals.tutorials.storage_terminal_filtering": "저장 터미널 필터링",
   "info_book.integratedterminals.tutorials.storage_terminal_filtering.text1": "&l저장 터미널&r의 유용한 기능 중 하나는 재료 &o필터링&r입니다. 이 튜토리얼에서는 텍스트 기반과 변수 기반의 두 가지 방식을 다룹니다. 발전 과제는 두 번째 방식으로만 달성합니다. 저장소는 Integrated Tunnels의 아이템 인터페이스로 연결합니다.",
   "info_book.integratedterminals.tutorials.storage_terminal_filtering.text2": "이 튜토리얼의 첫 번째 부분에서는 검색 필드에 특정 문자열을 입력하여 아이템을 필터링합니다. 단축키를 사용하여 이 검색 필드를 더 빨리 선택할 수 있습니다. 그리고 JEI가 설치되어 있다면 그 내용을 JEI 검색 필드와 동기화할 수 있습니다. 기본적으로 재료 이름 내에서 검색합니다. 문자열 앞에 &o'@'&r을 붙이면 모드로 검색할 수 있습니다. &o'#'&r을 사용하면 툴팁을 검색할 수 있습니다. 마지막으로 &o'$'&r은 아이템 태그를 검색합니다. 이 튜토리얼의 첫 번째 부분을 완료하려면 검색 필드에 &o'$plank @minecraft'&r을 입력하여 Minecraft에서 추가한 모든 판자를 표시합니다.",
-  "info_book.integratedterminals.tutorials.storage_terminal_filtering.text3": "두 번째 단계에서는 &l저장 터미널&r GUI 오른쪽 아래의 &l변수&r 슬롯으로 필터링합니다. &lIntegrated Dynamics 논리 프로그래머&r에서 재료 유형을 입력받고 표시 여부를 &9불리언&0으로 출력하는 &l술어&r를 만든 뒤 &l변수&r에 저장하세요. 이 튜토리얼에서는 &o마법 부여 가능&r한 아이템을 모두 걸러냅니다. &l논리 프로그래머&r에서 &l술어&r 자료형의 &o\"Item Enchantable\"&r을 찾아 &l변수&r에 작성하고, &l저장 터미널&r의 아이템 탭에서 &l변수&r를 &l변수&r 슬롯에 넣으세요."
+  "info_book.integratedterminals.tutorials.storage_terminal_filtering.text3": "두 번째 단계에서는 &l저장 터미널&r GUI 오른쪽 아래의 &l변수&r 슬롯으로 필터링합니다. &lIntegrated Dynamics 논리 프로그래머&r에서 재료 유형을 입력받고 표시 여부를 &9불리언&0으로 출력하는 &l술어&r를 만든 뒤 &l변수&r에 저장하세요. 이 튜토리얼에서는 &o마법 부여 가능&r한 아이템을 모두 걸러냅니다. &l논리 프로그래머&r에서 &l술어&r 자료형의 &o\"Item Enchantable\"&r을 찾아 &l변수&r에 작성하고, &l저장 터미널&r의 아이템 탭에서 &l변수&r를 &l변수&r 슬롯에 넣으세요.",
+  "gui.integratedterminals.terminal_storage.step.back": "뒤로",
+  "gui.integratedterminals.terminal_storage.tooltip.crafting": "제작 중: %s",
+  "info_book.integratedterminals.storage_terminal.autocrafting.text5": "실행 중인 제작 작업에서 생산하는 재료는 &l저장소 터미널&r에 회전 표시가 나타납니다. 표시 색상은 제작 작업의 상태를 나타내며, 재료에 마우스를 올리면 해당 상태와 아직 제작 중인 수량을 함께 확인할 수 있습니다."
 }

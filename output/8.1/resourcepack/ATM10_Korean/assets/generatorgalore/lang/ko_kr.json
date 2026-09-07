@@ -68,5 +68,10 @@
   "item.generatorgalore.obsidian_to_enchantment_upgrade": "흑요석 → 마법 부여 업그레이드",
   "item.generatorgalore.obsidian_to_ender_upgrade": "흑요석 → 엔더 업그레이드",
   "item.generatorgalore.obsidian_to_magmatic_upgrade": "흑요석 → 마그마 업그레이드",
-  "itemGroup.generatorgalore": "Generator Galore"
+  "itemGroup.generatorgalore": "Generator Galore",
+  "generatorgalore.recipe.burn_rate": "연소 속도: %smB/t",
+  "generatorgalore.recipe.burn_time": "연소 시간: %s",
+  "generatorgalore.recipe.rate": "생산 속도: %sFE/t",
+  "generatorgalore.recipe.total": "총량: %sFE",
+  "generatorgalore.recipe.total_bucket": "총량: %sFE/B"
 }

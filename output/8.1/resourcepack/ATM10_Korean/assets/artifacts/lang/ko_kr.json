@@ -18,7 +18,7 @@
   "artifacts.config.client.showTooltips.description": "아티팩트 효과를 설명하는 툴팁을 표시할지 여부",
   "artifacts.config.client.showTooltips.title": "유물 툴팁 표시",
   "artifacts.config.client.title": "클라이언트",
-  "artifacts.config.client.useModdedMimicTextures.description": "미믹이 Lootr 또는 Quark의 텍스처를 사용할지 여부",
+  "artifacts.config.client.useModdedMimicTextures.description": "미믹이 Quark의 텍스처를 사용할지 여부",
   "artifacts.config.client.useModdedMimicTextures.title": "다른 모드 미믹 텍스처 사용",
   "artifacts.config.cooldown.title": "재사용 대기시간",
   "artifacts.config.enabled.title": "활성화됨",
@@ -216,9 +216,9 @@
   "artifacts.config.items.superstitious_hat.lootingLevelBonus.description": "미신의 모자가 부여하는 추가 약탈 레벨 수입니다",
   "artifacts.config.items.superstitious_hat.lootingLevelBonus.title": "약탈 레벨 보너스",
   "artifacts.config.items.thorn_pendant.cooldown.description": "가시 펜던트가 활성화된 후 재사용 대기시간(초)입니다",
-  "artifacts.config.items.thorn_pendant.maxDamage.description": "가시 펜던트가 발동할 때 입히는 최소 피해량",
+  "artifacts.config.items.thorn_pendant.maxDamage.description": "가시 펜던트가 발동할 때 입히는 최대 피해량",
   "artifacts.config.items.thorn_pendant.maxDamage.title": "최대 피해",
-  "artifacts.config.items.thorn_pendant.minDamage.description": "가시 펜던트가 발동할 때 입히는 최대 피해량",
+  "artifacts.config.items.thorn_pendant.minDamage.description": "가시 펜던트가 발동할 때 입히는 최소 피해량",
   "artifacts.config.items.thorn_pendant.minDamage.title": "최소 피해",
   "artifacts.config.items.thorn_pendant.strikeChance.description": "가시 펜던트가 공격하는 엔티티에게 피해를 입힐 확률입니다",
   "artifacts.config.items.thorn_pendant.strikeChance.title": "발동 확률",
@@ -441,5 +441,11 @@
   "tag.item.artifacts.slot.hands": "손 슬롯 장착 가능 유물",
   "tag.item.artifacts.slot.head": "머리 슬롯 장착 가능 유물",
   "tag.item.artifacts.slot.necklace": "목걸이 슬롯 장착 가능 유물",
-  "tag.mob_effect.artifacts.antidote_vessel_cancellable": "해독 용기로 단축 가능한 효과"
+  "tag.mob_effect.artifacts.antidote_vessel_cancellable": "해독 용기로 단축 가능한 효과",
+  "artifacts.config.client.showArtifactsOnPlayers.description.0": "플레이어가 착용한 유물을 표시할지 여부",
+  "artifacts.config.client.showArtifactsOnPlayers.description.1": "이 설정은 자신의 클라이언트에만 적용되며 다른 플레이어에게 보이는 모습에는 영향을 주지 않습니다",
+  "artifacts.config.client.showArtifactsOnPlayers.title": "플레이어의 유물 표시",
+  "artifacts.config.items.scarf_of_invisibility.hidesEffectParticles.description": "투명화 스카프가 모든 상태 효과의 입자 생성을 막을지 여부",
+  "artifacts.config.items.scarf_of_invisibility.hidesEffectParticles.title": "효과 입자 숨기기",
+  "artifacts.tooltip.ability.damage_immunity.burn_from_stepping": "뜨거운 바닥으로 받는 피해를 막아 줍니다"
 }
