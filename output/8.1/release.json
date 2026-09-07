@@ -2,10 +2,10 @@
   "schema_version": 1,
   "pack_version": "8.1",
   "resourcepack_name": "ATM10_Korean",
-  "validated_pack_version": null,
-  "rebase_target_version": "8.1",
-  "status": "rebase_in_progress",
-  "full_apply_allowed": false,
+  "validated_pack_version": "8.1",
+  "rebase_target_version": null,
+  "status": "compatibility_ready",
+  "full_apply_allowed": true,
   "baseline_commit": "5011ad5",
-  "note": "7.1 산출물에서 시작했으며 8.1 재기준화가 끝날 때까지 파일별 선택 적용만 허용한다."
+  "note": "8.1-compat.1: 7.1 번역 범위를 유지하는 누적 호환판. 전체 파일·원문 호환 검증 통과. 신규 모드 번역은 후속 업데이트이며 게임 화면 확인은 사용자의 요청으로 보류한다."
 }

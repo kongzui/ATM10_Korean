@@ -1,0 +1,12 @@
+{
+  "status": "applied_and_verified",
+  "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+  "files": 2635,
+  "changed_files": 2615,
+  "config_changed_files": 86,
+  "unexpected_changes": [],
+  "post_apply_expected_changes": [],
+  "backup_manifest": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\temp\\backups\\20260908_072717_205456\\backup_manifest.json",
+  "modernui_font_present": false,
+  "game_screen_validation": "deferred_by_user"
+}

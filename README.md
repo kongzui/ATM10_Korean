@@ -9,6 +9,24 @@ All the Mods 10을 모드별로 완성도 있게 한글화하고, 게임팩 버�
 관리합니다. 모드 언어 파일뿐 아니라 관련 FTB Quests와 KubeJS 표시 문구도 함께 다루며,
 원본 모드 JAR은 수정하지 않아요.
 
+## 현재 배포: 8.1-compat.1
+
+7.1 검수 번역을 유지하고 ATM10 8.1의 변경분을 보완한 호환판이에요. 신규 모드 전체 번역은
+후속 누적 업데이트로 더해요. 게임 화면 확인은 사용자의 요청으로 후속 확인에 남겼어요.
+
+- [설치·업데이트 안내](docs/releases/8.1-compat.1.md)
+- [완료 현황과 검증 범위](versions/8.1/reports/upgrade_progress.md)
+- 배포 파일: `temp/releases/8.1-compat.1/`의 리소스팩 ZIP과 override ZIP
+- 리소스팩 ZIP은 `resourcepacks/`에 넣고 활성화해요. override ZIP은 인스턴스 루트에
+  `config/`와 `kubejs/`를 병합하는 용도예요. 두 ZIP의 설치 위치가 달라요.
+
+검증과 재포장은 다음 명령으로 실행해요. ZIP은 Git에 포함하지 않아요.
+
+```powershell
+python scripts/verify_compat_release.py --base-instance "C:/이전/ATM10/인스턴스"
+python scripts/package_compat_release.py
+```
+
 ## 사용법
 
 원하는 모드 이름이나 `docs/MOD_TRANSLATION_PLAN.md`의 항목을 골라 요청하면 돼요.
