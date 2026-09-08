@@ -1,374 +1,122 @@
-# ATM10 7.1 → 8.1 번역 업그레이드 계획
-
-작성일: 2026-08-31
-
-현재 상태: 8.1 첫 실행·원본 조사·버전별 구조·FTB Quests·KubeJS 이식 완료,
-8.1-compat.1 호환판 파일 검증 완료. 신규 모드는 후속 누적 업데이트로 분리
-
-현재 완료·남은 작업의 실제 수치는 `versions/8.1/reports/upgrade_progress.md`에서 관리한다.
-
-- 기준 버전: ATM10 7.1
-- 목표 버전: ATM10 8.1
-
-## 1. 결론
-
-- 7.2, 7.3, 8.0을 따로 설치하지 않고 7.1과 설치된 8.1을 직접 비교한다.
-- 8.1 프로필은 현재 설치한 하나만 사용한다. 8GB짜리 프로필을 두 개 만들 필요는 없다.
-- 원본 조회와 시험 적용 모두 현재 8.1 프로필을 사용하되, 적용 전 백업과 파일별 선택 적용으로
-  안전을 확보한다.
-- 게임 인스턴스의 `mods/`, `config/`, `kubejs/`, 월드와 로그를 저장소로 복사하지 않는다.
-  저장소에는 번역 작업 파일, 검증된 산출물, 작은 조사 목록과 보고서만 둔다.
-- `working/`은 공용 작업 공간으로 유지하되, 완성 산출물은 `output/7.1/`과 `output/8.1/`로
-  물리적으로 분리한다.
-- `output/7.1/`은 검증 완료본으로 고정하고, 같은 내용에서 시작한 `output/8.1/`만 현재
-  원문에 재기준화한다.
-- `output/8.1/release.json`에서 전체 적용을 차단한다. 8.1 원문에 다시 맞춘 파일만 `--path`로
-  선택 적용하고, 호환판에 포함되는 파일의 검증이 끝난 뒤 전체 적용을 허용한다. 신규 모드 전체 번역은
-  호환판 배포 조건에 포함하지 않는다.
-
-현재 로컬 경로는 다음처럼 사용한다.
-
-```json
-{
-  "source_root": null,
-  "game_root": "C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10 (1)"
-}
-```
-
-`source_root`는 나중에 별도의 깨끗한 기준 프로필이 정말 필요할 때만 선택적으로 설정한다.
-
-## 2. 버전 업그레이드를 고려한 저장소 구조
-
-```text
-ATM10_Korean/
-├─ version_context.json          현재 기준 버전·목표 버전·버전 작업 공간
-├─ local_paths.json              이 PC의 실제 인스턴스 경로, Git 제외
-├─ versions/
-│  ├─ 7.1/
-│  │  ├─ version.json
-│  │  ├─ manifests/              당시 설치·언어·퀘스트 조사 결과
-│  │  └─ reports/                당시 검증 보고서
-│  └─ 8.1/
-│     ├─ version.json
-│     ├─ manifests/              8.1 재조사 결과
-│     ├─ reports/                7.1 비교·첫 실행·검증 보고서
-│     └─ conflicts/              자동 이식할 수 없는 충돌 기록
-├─ working/                      현재 번역 작업 파일
-├─ output/
-│  ├─ 7.1/
-│  │  ├─ release.json            7.1 검증 완료 상태
-│  │  ├─ resourcepack/           7.1 리소스팩 완성본
-│  │  └─ overrides/              7.1 덮어쓰기 완성본
-│  └─ 8.1/
-│     ├─ release.json            8.1 재기준화·전체 적용 차단 상태
-│     ├─ resourcepack/           8.1 리소스팩 작업본
-│     └─ overrides/              8.1 덮어쓰기 작업본
-├─ glossary/                     공통 용어
-├─ scripts/                      조사·빌드·검증·적용 도구
-└─ temp/                         재생성 가능한 임시 파일과 적용 백업, Git 제외
-```
-
-이 구조에서 9.0으로 올라갈 때는 `versions/9.0/`과 `output/9.0/`을 추가한다. 새 output은 직전
-검증 완료본을 복사해 시작하며, `release.json`에서 전체 적용을 막은 상태로 현재 원문에 다시
-맞춘다. 조사·빌드·검증·적용 스크립트는 `version_context.json`의 활성 버전 output만 사용한다.
-
-## 3. 실제 7.1과 8.1 비교 결과
-
-| 항목 | 7.1 | 8.1 | 처리 |
-| --- | ---: | ---: | --- |
-| Minecraft | 1.21.1 | 1.21.1 | 같은 게임 세대지만 모드·로더 재검증 |
-| NeoForge | 21.1.234 | 21.1.249 | 스크립트·리소스 로딩 확인 |
-| 실제 JAR | 481개 | 488개 | JAR은 읽기만 함 |
-| 영어 언어 네임스페이스 | 389개 | 398개 | 원문 해시와 키 재비교 |
-| 모드 자체 한국어 네임스페이스 | 152개 | 154개 | 정답이 아니라 검수 후보로 사용 |
-| FTB Quests 챕터 | 64개 | 66개 | 8.1 분할 언어 구조로 이식 |
-
-CurseForge 설치 메타데이터 기준 모드는 추가 11개, 제거 4개, 업데이트 157개, 동일 323개다.
-JAR 자체를 읽는 데 실패한 파일은 없지만, Macaw's Trapdoors JAR 내부
-`assets/mcwtrpdoors/lang/ko_kr.json`에는 쉼표가 빠진 원본 문법 오류가 1개 있다. 프로젝트
-리소스팩으로 해당 언어를 만들 때 8.1 영어 원문을 기준으로 해결하고 원본 JAR은 수정하지 않는다.
-
-### 추가된 모드와 새 번역 후보
-
-- Ad Astra (`ad_astra`)
-- Ad Astra: Giselle Addon (`ad_astra_giselle_addon`)
-- Auroral (`auroral`)
-- Better Advanced Tooltips (`betteradvancedtooltips`)
-- Borderless Window (`borderless`)
-- Common Storage Lib (`common_storage_lib`)
-- Invasive Optimizations (`invasiveopts`)
-- Logistics Network (`logisticsnetworks`)
-- Neo Vitae (`neovitae`)
-- Step Crafter (`stepcrafter`)
-- StructureOverlapless (`moogs_structures`)
-
-### 제거된 모드
-
-- Modern UI
-- Reap Mod
-- Untranslated Items
-- UntranslatedItems: AlsoFluidsAndChemicals
-
-8.1-compat.1에서 제거된 Modern UI용 글꼴 파일을 제외했다. 현재 사용하는 Minecraft
-글꼴 참조와 한글 음절 포함 여부는 별도로 확인했다.
-
-7.1 보존본의 Herbs and Harvest 가이드 파일 `grapes.json`과 `herbs.json`에는 문서 뒤쪽에
-중복 닫기 구조가 있어 일반 JSON 파서가 실패한다. 이번 구조 변경에서 새로 생긴 오류는 아니며,
-8.1-compat.1에서는 두 파일의 중복 닫기만 제거하고 생성기와 검증기에 재발 방지를 넣었다.
-
-### 영어 원문이 바뀐 기존 번역 네임스페이스 54개
-
-다음 네임스페이스는 영어 전체를 자동 대조하고 신규·변경 문구만 수동 검토한다.
-이미 8.1 검수가 완료된 문구는 다시 번역하지 않는다.
-
-`advancedperipherals`, `amendments`, `apotheosis`, `apothic_attributes`,
-`apothic_enchanting`, `ars_elemancy`, `ars_nouveau`, `artifacts`,
-`create_enchantment_industry`, `create_hypertube`, `createaddition`, `enderdrives`,
-`eternal_starlight`, `extended_industrialization`, `fancymenu`, `ftbquests`, `ftbteams`,
-`functionalstorage`, `generatorgalore`, `glassential`, `herbsandharvest`, `hostilenetworks`,
-`industrialforegoing`, `integratedscripting`, `integratedterminals`, `integratedtunnels`,
-`iris_search`, `irons_lib`, `irons_spellbooks`, `jei`, `jei_mekanism_multiblocks`,
-`journeymap`, `lootr`, `mekmm`, `mffs`, `minecolonies`, `mininggadgets`,
-`modern_industrialization`, `modularbees`, `oritech`, `pipez`, `pneumaticcraft`,
-`quarryplus`, `securitycraft`, `sfm`, `sodium-extra`, `sophisticatedbackpacks`,
-`sophisticatedcore`, `sophisticatedstorage`, `structurize`, `supplementaries`,
-`the_bumblezone`, `tombstone`, `waystones`
-
-영어 원문 해시가 그대로인 기존 번역은 전부 다시 번역하지 않는다. 키·용어·게임 화면의 빠른
-검수만 하고 재사용한다.
-
-## 4. 가장 큰 구조 변경: FTB Quests
-
-7.1은 `config/ftbquests/quests/lang/en_us.snbt`와 `ko_kr.snbt`를 사용했지만, 8.1은
-`lang/en_us/...`와 `lang/ko_kr/...` 아래의 여러 파일을 사용한다.
-
-- 8.1 영어 분할 파일: 70개
-- 8.1 한국어 분할 파일: 59개
-- 한국어에 없는 영어 파일: 14개
-- 영어에 없는 옛 한국어 파일: 3개
-
-한국어에 없는 파일은 다음과 같다.
-
-- `chapters/aether.snbt`
-- `chapters/apotheosis_gear.snbt`
-- `chapters/auroral.snbt`
-- `chapters/deeper_and_darker.snbt`
-- `chapters/draconic_evolution.snbt`
-- `chapters/extended__advanced_ae.snbt`
-- `chapters/ice__fire.snbt`
-- `chapters/mi_digital.snbt`
-- `chapters/mi_electric.snbt`
-- `chapters/mi_endgame.snbt`
-- `chapters/mi_steam.snbt`
-- `chapters/neo_vitae.snbt`
-- `chapters/oritech.snbt`
-- `chapters/refined_storage.snbt`
-
-영어에 없는 한국어 파일은 다음과 같다. 이름이 바뀐 챕터인지 폐기된 파일인지 먼저 확인한다.
-
-- `chapters/rust_free_and_oiled.snbt`
-- `chapters/steam_age.snbt`
-- `chapters/the_electric_age.snbt`
-
-기존 스크립트 48개가 단일 `ko_kr.snbt` 경로를 직접 사용한다. 이 48개를 한꺼번에 바꾸면
-검증 범위가 너무 넓어지므로 다음 원칙을 사용한다.
-
-1. 공용 `scripts/ftbquests_layout.py`로 병합형·분할형 경로를 판정한다.
-2. 먼저 FTB Quests 공통 빌드·감사 도구를 분할형에 맞춘다.
-3. 각 모드를 재번역할 때 그 모드의 가족 스크립트만 공용 도우미로 옮긴다.
-4. 새 output은
-   `output/8.1/overrides/config/ftbquests/quests/lang/ko_kr/<상대 경로>`에 둔다.
-5. 기존 `output/7.1/.../lang/ko_kr.snbt`는 8.1에 적용하지 않는다.
-
-## 5. 8.1 재번역 작업 순서
-
-### 단계 0. 첫 실행 기준 만들기 — 완료
-
-- [x] 새 8.1 프로필 설치
-- [x] 번역팩 없이 한 번 실행하고 정상 종료
-- [x] KubeJS 시작 스크립트 19개와 클라이언트 스크립트 15개 로드 확인
-- [x] KubeJS 오류·경고 0개 확인
-- [x] 실행 전후 번역 원본 중 `kubejs/config/common.json`만 바뀐 것을 확인
-- [x] 종료 후 Minecraft·Java 프로세스가 없는 것을 확인
-
-번역 적용 전부터 있던 Sodium Extra, Jupiter, JEI 설정, 설정 로딩 시점, Silent Gear 모델 경고는
-`versions/8.1/reports/first_launch.md`에 기준 오류로 기록했다. 번역 후에는 새로 생긴 오류만
-회귀로 판단한다.
-
-### 단계 1. 버전별 저장소 구조와 적용 안전장치 — 완료
-
-- [x] `version_context.json`에서 기준 7.1과 목표 8.1 지정
-- [x] 7.1 조사 자료를 `versions/7.1/`로 이동
-- [x] 8.1 조사·비교·첫 실행 기록을 `versions/8.1/`에 생성
-- [x] 7.1 산출물을 `output/7.1/{resourcepack,overrides}`로 보존
-- [x] 같은 파일을 `output/8.1/{resourcepack,overrides}` 작업본으로 복사
-- [x] `output/8.1/release.json`에서 8.1 전체 적용 차단
-- [x] 모든 산출물 스크립트를 활성 버전 output 경로로 전환
-- [x] `local_paths.json`을 현재 8.1 프로필로 변경
-- [x] 조사 결과 기본 출력 위치를 활성 버전 폴더로 변경
-
-### 단계 2. FTB Quests 분할 구조부터 이식 — 완료
-
-- [x] 공통 SNBT 빌드·감사·제목 fallback 검증기가 분할 파일을 읽고 쓰게 한다.
-- [x] 14개 누락 챕터를 영어 원문과 기존 검수 번역으로 대조한다.
-- [x] 3개 한국어 전용 챕터의 이름 변경·폐기 여부를 확인한다.
-- [x] `chapter/group title`, `quest title`, `subtitle`, `description`, `task title`,
-  아이템 hover 이름, `custom_name`과 첫 Task fallback을 모두 확인한다.
-- [x] 단일 아이템 Task의 불필요한 중복 `task.title`을 제거한다.
-- [x] 퀘스트 제목을 프로젝트 리소스팩의 확정 아이템 이름과 일치시킨다.
-
-이 단계를 먼저 하는 이유는 이후 모드별 번역이 퀘스트 파일을 잘못된 7.1 단일 파일에 합치는
-것을 막기 위해서다.
-
-### 단계 3. 원문과 충돌하는 override 재기준화
-
-8.1 작업본 override 263개 중 8.1 같은 경로와 내용이 다른 파일은 43개이고, 8.1 원본에 같은
-경로가 없는 파일은 220개다. `target_missing`은 곧바로 삭제한다는 뜻이 아니라 프로젝트가 새로
-추가한 번역 파일인지, 7.1에만 필요한 낡은 파일인지 분류해야 한다는 뜻이다.
-
-먼저 다음 파일을 8.1 원본에서 다시 만든다.
-
-- FTB Quests 원본과 다른 챕터 6개: Cataclysm, Generators, Mekanism, MI Digital,
-  MI Electric, Relics
-- `kubejs/client_scripts/tooltips.js`
-- `kubejs/server_scripts/announcements/announcements.js`
-- `kubejs/startup_scripts/CustomAdditions.js`
-
-처리 원칙은 8.1 파일을 기준으로 한국어 표시 부분만 이식하고 조합법, 태그, 등록, 밸런스와
-실행 로직은 그대로 보존하는 것이다.
-
-### 단계 4. 새 모드 번역 — 호환판 이후 누적 업데이트
-
-다음 순서로 일반 언어 파일뿐 아니라 관련 퀘스트·KubeJS·가이드도 함께 조사한다.
-
-1. 퀘스트가 있는 Auroral, Neo Vitae
-2. 콘텐츠가 큰 Ad Astra, Ad Astra: Giselle Addon
-3. Logistics Network, Step Crafter
-4. Better Advanced Tooltips, Borderless Window
-5. Common Storage Lib, Invasive Optimizations, StructureOverlapless
-
-라이브러리나 최적화 모드처럼 실제 사용자 표시 문자열이 거의 없으면 번역 파일을 억지로 만들지
-않고 조사 완료로 기록한다.
-
-### 단계 5. 영어가 바뀐 기존 번역 54개 재검수
-
-완료한 계열과 남은 네임스페이스·키 수는
-`versions/8.1/reports/upgrade_progress.md`에 계속 갱신한다.
-
-한 번에 전부 섞지 않고 다음 우선순위로 모드 계열별 작업 단위를 만든다.
-
-1. 퀘스트·진행 영향이 큰 계열: FTB Quests, Apotheosis·Artifacts, Iron's Spells,
-   AE2 애드온, Modern Industrialization, Cataclysm·Relics, Hostile Neural Networks,
-   Eternal Starlight
-2. 자주 쓰는 콘텐츠: Sophisticated 계열, Ars Nouveau, Industrial Foregoing,
-   PneumaticCraft, MineColonies·Structurize, Integrated 계열, JourneyMap·FTB Teams,
-   Pipez·Functional Storage
-3. UI·보조·소규모: JEI 계열, Sodium Extra, FancyMenu, Waystones, Supplementaries와 나머지
-
-각 계열에서 다음을 반복한다.
-
-1. 7.1·8.1 JAR의 `en_us` 전체와 프로젝트 `ko_kr`를 프로그램으로 비교한다.
-   같은 키·같은 영어는 기존 검수 번역을 유지하고 전체 문장을 모델에 다시 입력하지 않는다.
-2. 영어가 같은 키는 검수된 기존 번역을 재사용한다.
-3. 영어 값이 바뀐 키는 이전 영어·현재 영어·기존 한국어를 함께 검토한다.
-   기존 한국어가 여전히 정확하면 검토 근거를 기록해 유지하고, 새 키만 새로 번역한다.
-4. 삭제된 키는 다른 소비자가 없는지 확인한 뒤 정리한다.
-5. 관련 FTB Quests, KubeJS, GuideME·Patchouli·Modonomicon, 발전 과제를 함께 확인한다.
-6. JSON·SNBT·자리표시자·서식과 가족별 검증을 통과한 뒤 선택 적용하고 커밋한다.
-
-### 단계 6. 변경 없는 번역과 제거 모드 정리
-
-- [ ] 영어 해시가 같은 기존 번역은 키·용어·게임 표시만 빠르게 확인한다.
-- [ ] 제거 모드 전용 산출물이 다른 모드에서도 필요한지 확인한다.
-- [ ] 필요 없는 Modern UI 전용 파일과 7.1 전용 FTB 파일을 별도 검증 단위로 정리한다.
-- [ ] 새 8.1 원문에 없는 KubeJS 파일은 프로젝트 추가 파일인지 낡은 파일인지 분류한다.
-- [ ] Herbs and Harvest의 `grapes.json`, `herbs.json`을 8.1 원본 기준으로 다시 만든다.
-
-### 단계 7. 자동 검증과 파일별 시험 적용
-
-각 모드 계열에서 다음 검사를 통과해야 한다.
-
-- JSON·SNBT 문법, 중복 키와 자료형
-- 영어·한국어 키 수와 누락·추가 키
-- `%s`, `%1$s`, `%d`, `{0}` 자리표시자
-- 줄바꿈, 색상 코드, URL, 숫자와 이스케이프 문자
-- 퀘스트 제목·Task 제목·fallback 표시 경로
-- 관련 KubeJS 직접 문자열과 가이드
-- 수정한 Python 파일의 Ruff
-- `git diff --check`
-- 실제 인스턴스의 적용 전후 스냅샷
-
-Minecraft와 Java가 종료된 상태에서 다음처럼 검증 완료 파일만 적용한다.
-
-```powershell
-python scripts/apply_translations.py --dry-run `
-  --path "resourcepacks/ATM10_Korean/assets/<modid>/lang/ko_kr.json"
-
-python scripts/apply_translations.py `
-  --path "resourcepacks/ATM10_Korean/assets/<modid>/lang/ko_kr.json"
-```
-
-### 단계 8. 게임 화면 검증과 전체 적용 해제
-
-- [ ] 메인 메뉴와 새 시험 월드에서 리소스팩 로딩 오류가 없는지 확인한다.
-- [ ] JEI 검색, 퀘스트 화면, 가이드, 툴팁과 설정 화면을 확인한다.
-- [ ] 복제 월드에서 누락 블록·아이템·엔티티와 퀘스트 진행도를 확인한다.
-- [ ] 정상 저장·종료·재실행을 확인한다.
-- [ ] 호환판 범위 검증 완료 후 `output/8.1/release.json`에 배포 범위와 검증 한계를 기록한다.
-- [ ] 정적 검증·파일 적용과 실제 게임 화면 검증 결과를 구분해 기록한다.
-  게임을 직접 실행할 수 없으면 화면 검증 대기로 명시하고 시험 배포판으로 제공한다.
-- [ ] 마지막 전체 dry-run과 적용 후 계획 밖 변경이 없는지 확인한다.
-
-## 6. 월드 처리
-
-기존 7.1 월드는 저장소 구조 정리나 번역 조사와 별개다. 실제로 8.1에서 플레이할 때만 다음
-순서를 사용한다.
-
-1. Minecraft를 완전히 종료한다.
-2. 7.1 월드를 별도 백업한다.
-3. 백업 복사본만 8.1 `saves/`에 넣는다.
-4. 첫 로딩 전 로그와 제거 모드 목록을 확인한다.
-5. 복사본에서 주요 저장소, 기계, 퀘스트와 새 청크 생성을 점검한다.
-6. 문제가 있으면 원본을 열지 않고 새 복사본으로 다시 시험한다.
-
-## 7. 커밋 단위
-
-1. 버전별 구조·조사·안전장치
-2. FTB Quests 분할 구조 호환
-3. 충돌 FTB Quests·KubeJS 재기준화
-4. 새 모드별 번역
-5. 변경된 기존 모드의 계열별 재검수
-6. 제거·변경 없는 모드 정리와 최종 8.1 배포 표시
-
-각 번역 단위는 관련 검증을 모두 통과했을 때만 커밋하고 push는 하지 않는다.
-
-## 8. 호환판 완료 조건
-
-- [x] 설치된 8.1의 Minecraft·NeoForge·모드·언어·퀘스트 조사가 끝났다.
-- [x] 7.1과 8.1의 모드·영어 원문·override 충돌 목록을 만들었다.
-- [x] 8.1 첫 실행 기준 로그를 남겼다.
-- [x] FTB Quests 분할 언어 구조로 모든 필요한 번역을 이식했다.
-- [x] 새 모드 11개 네임스페이스 후보의 미번역 범위를 후속 업데이트로 기록했다.
-- [x] 기존 번역의 전체 원문을 자동 대조하고 신규·변경분을 검토했다.
-- [x] 충돌 override의 8.1 구조와 표시 문구를 대조하고 낡은 챕터 구조를 수정했다.
-- [x] JSON·SNBT·자리표시자·서식·Ruff·Git diff 검사가 통과했다.
-- [x] 백업 후 전체 파일 적용과 해시·계획 밖 변경 검사를 완료했다.
-- [ ] 실제 게임 화면 확인 — 사용자가 후속 확인으로 보류했다.
-- [x] `output/8.1/release.json`을 8.1 호환판 파일 검증 완료·전체 적용 가능 상태로 전환했다.
-
-2026-09-08 기준 호환판 파일 검증을 통과하여 전체 적용을 허용했다. 게임 화면 검증은
-사용자의 직접 요청으로 후속 확인에 남긴다. 신규 모드 번역은 같은 리소스팩에 누적한다.
-
-## 9. 2026-09-07 배포 방침 변경
-
-- 첫 배포 이름은 `8.1-compat.1`로 한다. 7.1 번역 범위와 이미 끝낸 8.1 작업을 유지한다.
-- 신규 모드 전체 번역은 별도 작업이며, 후속 `8.1-compat.2` 등의 누적 배포에 덧붙인다.
-- 기존 변경분 누락 111키, 변경 문구 검토, 검사 오류 69건의 실제 원인을 확인한다.
-- Herbs and Harvest 가이드 2개의 중복 닫기를 고치고 빌드·검증기에서 재발을 막는다.
-- 8.1 산출물에서 불필요한 Modern UI 전용 글꼴을 제외한다. 7.1 보존본은 변경하지 않는다.
-- JSON/SNBT, 리소스팩 메타데이터·글꼴 참조, ZIP 루트·내용 해시를 검사하는
-  `scripts/verify_compat_release.py`와 `scripts/package_compat_release.py`를 만든다.
-- 배포 ZIP은 리소스팩과 override를 구분한다. 리소스팩 ZIP 바로 아래에 `pack.mcmeta`와
-  `assets/`가 있어야 하며 override는 `config/`, `kubejs/`를 인스턴스 루트에 병합한다.
-- 실제 게임 확인을 못 했다면 정적 검사 통과를 게임 정상 동작으로 표현하지 않는다.
-- 진행 체크리스트는 `PLAN.md`, 최종 결과는 활성 버전의 진행·배포 보고서에 기록한다.
+# ATM10 8.1 누적 번역 업데이트 로드맵
+
+갱신일: 2026-09-09. 현재 배포: **8.1-stable.1 / 7.1-stable.1**.
+사용자가 안정판의 정상 작동을 확인했어요. 확인한 화면·모드별 상세 목록은 받지 않았으므로
+전체 모드 검수나 7.1·8.1 각각의 모든 기능 확인으로 확대해서 기록하지 않아요.
+
+이 문서는 앞으로의 큰 작업 순서예요. 모드별 남은 양은
+[번역 현황](MOD_TRANSLATION_PLAN.md), 다음 실행 체크리스트는 [PLAN](../PLAN.md),
+이미 끝낸 배포의 근거는 [진행 보고](../versions/8.1/reports/upgrade_progress.md)에 있어요.
+이번 요청은 계획·문서 정리이며 아래 번역·보조 코드 구현을 시작한 것은 아니에요.
+
+## 기준과 배포 방식
+
+- 7.1에서 검수한 번역을 재사용한 8.1 안정판에 번역을 누적해요. 전체 재번역은 하지 않아요.
+- 8.1 작업은 `output/8.1/`에만 반영해요. 7.1 안정판은 보존하고 별도 요청한 수정만 반영해요.
+- 각 단계가 끝나면 다음 `8.1-stable.N`으로 리소스팩·override ZIP 두 개를 제공해요.
+  N은 실제 배포 때 확정해요. 큰 모드는 내부적으로 100~200항목씩 나눠도 계열 완료까지 진행해요.
+- 번역·검증·문서·커밋을 한 계열씩 끝내고 다음 계열로 넘어가요. 플레이 중 발견한 진행 방해
+  오류는 아래 순서보다 먼저 처리하고, 번역 가능한 일반 경로를 보조 코드보다 우선해요.
+- 실제 게임 적용은 사용자가 직접 한다는 현재 지시를 유지해요. ZIP 준비와 게임 확인을 구분해요.
+- 개인 단축키·그래픽 설정은 공용 번역 ZIP에 넣지 않아요. [단축키 이전 안내](KEYBIND_MIGRATION.md)를 따라요.
+
+## 단계 0. 정상 작동 기준 고정 — 배포 완료, 다음 변경 전 원문 검증 보완
+
+완료: 버전별 output 분리, 8.1 FTB Quests 분할 언어 이식, 기존 모드 신규·변경분 보완,
+충돌 override 재기준화, Herbs/ grapes JSON 수정, 개인 Modern UI 글꼴 제외,
+보조 번역 실행 코드 제거, 네 ZIP의 내용·문법 검증, 사용자 정상 작동 확인.
+
+다음 번역을 시작할 때 먼저 할 일:
+
+1. 현재 설치 모드와 기준 8.1 목록의 차이를 확인해요. 개인 추가 모드는 팩 신규 모드와 구분해요.
+2. 퀘스트 원본의 `.snbt_merged`와 분할 언어를 구분해요. 실행 뒤 생성·변경된 파일을 깨끗한
+   영어 원본으로 가정하지 않고, 현재 버전 원본과 수정 이력을 확인해 기준을 정해요.
+3. 기존 `current_instance_compat_audit.json`의 경로·이미지 ID·순서·수량 차이를 분류하고,
+   다음에 바꾸는 파일에 대해 새 원문 대조를 통과시켜요. 정상 실행만으로 이 감사를 닫지 않아요.
+4. `verify_stable_release.py`는 과거 배포 해시를 고정한 보조 코드 제거 검증이에요.
+   새 번역은 의도적으로 이 검사를 통과하지 못하므로, 다음 배포 전에 새 원문·번역 검증 결과와
+   패키징 조건을 함께 갱신해요. 기준 해시만 바꿔서 통과시키지 않아요.
+
+완료 조건: 다음 작업의 JAR·영어·퀘스트 기준이 명확하고, 변경 파일의 새 검증 방법이 준비돼요.
+원본 JAR·월드를 수정하거나 게임 폴더를 통째로 복제하지 않아요.
+
+## 단계 1. 신규 퀘스트 콘텐츠 — Auroral → Neo Vitae
+
+- **Auroral 먼저:** 언어 148키로 작고 전용 퀘스트가 있어 첫 누적 업데이트의 범위가 명확해요.
+- **Neo Vitae 다음:** 언어 3,053키로 가장 커요. 진행·재료·기계 용어를 먼저 고정하고
+  일반 이름 → UI·툴팁 → 가이드·관련 퀘스트 표시 경로 순으로 내부 작업을 나눠요.
+- 두 모드의 퀘스트 한국어는 이미 이식돼 있어요. 퀘스트 전체를 다시 번역하지 않고 새로 확정한
+  아이템 이름과 제목·Task·자동 제목이 맞는지 확인해요.
+
+완료 조건: 각 모드의 현재 영어 전체와 기존 한국어 후보 검토, 일반 언어 반영,
+관련 퀘스트·KubeJS·가이드 존재 조사 및 필요한 표시 검증, 계열별 누적 ZIP 배포.
+Neo Vitae의 작업량 때문에 Auroral 완료 배포를 기다리게 하지 않아요.
+
+## 단계 2. 신규 우주·자동화 콘텐츠 — Ad Astra 계열 → Logistics Network → Step Crafter
+
+- Ad Astra 831키와 Giselle Addon 168키를 함께 검수해 우주·장비·기계 용어를 통일해요.
+  모드 자체 한국어 후보 414·162키는 현재 영어와 검수한 뒤 재사용해요.
+- Logistics Network 454키, Step Crafter 79키는 계열별로 이름·조작·툴팁을 완성해요.
+- 전용 퀘스트가 없다고 가정하지 않고 관련 퀘스트·가이드·KubeJS 표시 경로도 조사해요.
+
+완료 조건: 일반 언어뿐 아니라 실제 사용 안내까지 해당 계열의 검토 범위가 닫혀요.
+
+## 단계 3. 작은 신규 UI와 기존 누락 정리
+
+먼저 Better Advanced Tooltips 5키 → Borderless Window 21키를 처리해요.
+StructureOverlapless(`moogs_structures`) 14키, Common Storage Lib 3키,
+Invasive Optimizations 3키는 실제 표시 여부를 조사하고 필요한 문구만 번역해요.
+라이브러리라는 이유로 무조건 제외하거나, 모든 내부 키에 억지 번역을 넣지 않아요.
+
+그다음 기존 산출물에 없는 2,120키 후보를 다음 순서로 분류해요.
+
+1. All The Tweaks 24키: 공통 아이템·진행 표시와 다른 언어 파일의 중복 제공 여부 확인.
+2. Dyenamics and Friends 1,944키: 설치된 연동 모드·활성 리소스팩에서 실제 쓰는 색상/블록부터.
+3. Modonomicon 137키·Patchouli 13키: 공통 UI, 다른 네임스페이스 키, 예제 책·테스트 문구 구분.
+4. Apotheosis·Apothic Attributes 각 1키: `comment_id`라서 사용자 표시 여부부터 확인.
+
+기존 감사가 다루지 않은 [추가 98개 네임스페이스](../versions/8.1/reports/additional_namespace_backlog.md)도
+이 단계에서 조사해요. 별도 output이 없다는 이유만으로 미번역이라고 단정하지 않고,
+콘텐츠·조작 → 공통 UI → 내부·라이브러리 순으로 기존 검수 이력과 실제 표시 경로를 확인해요.
+이 중 이미 번역되는 문구는 재사용하고 실제 영어가 남는 부분만 후속 계열 작업으로 확정해요.
+
+완료 조건: 후보마다 번역 완료 / 기존 번역 경로 사용 / 표시되지 않는 내부·예제 자료 /
+명시적 후속 작업 중 하나로 근거를 남겨요. 2,120을 그대로 미번역 문장 수로 보고하지 않아요.
+
+## 단계 4. 기존 번역 품질과 퀘스트 연결 개선
+
+- JEI·아이템명 ↔ 퀘스트·Task·자동 제목 ↔ 가이드 용어를 대조해요.
+- 기존 퀘스트 제목 감사 후보 1,098개는 오류 개수가 아니에요. 공식 모드명·정상 자동 제목을
+  제외하고 실제 영어 잔여·이름 불일치부터 추려요. 이전 1,210개와 합산하지 않아요.
+- 수정 우선순위는 진행 조건·기계 사용 설명 → 자주 쓰는 검색명·저장소 UI → 장식·표현 개선이에요.
+- 이미 8.1에서 검수한 기존 모드의 변경분은 다시 전체 수동 번역하지 않아요.
+
+완료 조건: 실제 수정 항목과 정상 유지 항목이 구분되고, 변경한 표시 경로를 확인해요.
+
+## 단계 5. 보조 번역 선택판 — 기본 안정판과 분리
+
+일반 번역을 먼저 누적한 뒤 별도 요청으로 착수해요. 구현 순서는
+**EnderDrives 동적 툴팁 → Mouse Tweaks 설정 → EnderDrives 채팅 → AppleSkin F3**예요.
+아이템 사용에 도움이 되는 문구를 먼저 다루고, 채팅 수신과 디버그 정보는 뒤로 둬요.
+
+[보조 번역 문서](AUXILIARY_TRANSLATION_SCRIPTS.md)의 설계·실패 복귀·실제 게임 검증 조건을
+통과한 기능만 선택 설치로 제공해요. 미완성 보조 코드 때문에 일반 번역 배포를 막지 않아요.
+검증 실패 시 선택판만 보류하고 안정판의 주석 전용 파일을 유지해요.
+
+## 단계 6. 누적 배포와 다음 ATM10 버전 준비
+
+매 단계에서 JSON/SNBT·자료형·키·자리표시자·줄바꿈·색상 코드, 퀘스트 표시 경로,
+수정한 원래 KubeJS의 실행 로직 보존, ZIP 루트·CRC·내용·업데이트 전환을 검증해요.
+변경 계열·재사용/신규 수·남은 범위·수동 확인 결과를 배포 문서에 남겨요.
+보조 선택판은 정확한 팩/모드/KubeJS/Rhino 버전과 제거 방법을 별도로 기록해요.
+
+다음 ATM10 버전에서도 직전 검수 output을 시작점으로 영어 전체를 자동 비교하고,
+같은 키·같은 영어는 재사용해요. 새 모드·변경 문구·표시 경로만 집중 검토해요.
+
+## 문서 운영
+
+- 이 문서: 단계와 배포 기준. `PLAN.md`: 바로 다음 단계의 체크리스트.
+- `MOD_TRANSLATION_PLAN.md`: 남은 모드·키 수와 완료 이력. 중복 로드맵을 만들지 않아요.
+- `versions/8.1/reports/`: 그 시점의 조사·검증 근거. 과거 수치를 현재 결과처럼 갱신하지 않아요.
+- 구버전 release 문서는 실패 이력·설치 추적을 위해 보존하되 상단에서 현재 안정판으로 안내해요.
+- 첫 이식 때의 낡은 미완료 체크리스트와 자동 적용 예시는 이 로드맵으로 교체했어요.

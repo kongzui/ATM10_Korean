@@ -13,10 +13,13 @@ All the Mods 10을 모드별로 완성도 있게 한글화하고, 게임팩 버�
 
 7.1 검수 번역을 유지하고 ATM10 8.1의 변경분을 보완한 호환판이에요. 신규 모드 전체 번역은
 후속 누적 업데이트로 더해요. 두 안정판 모두 화면·툴팁·채팅 보조 번역 실행 코드를 제외했어요.
-일반 번역은 유지하며 해당 보조 문구는 원래 표시를 사용해요. Minecraft 화면 재확인은 남아 있어요.
+일반 번역은 유지하며 해당 보조 문구는 원래 표시를 사용해요. 사용자가 안정판 정상 작동을
+확인했어요. 화면·버전별 상세 확인 목록은 별도로 받지 않았어요.
 
 - [8.1 설치·업데이트 안내](docs/releases/8.1-stable.1.md)
 - [7.1 설치·업데이트 안내](docs/releases/7.1-stable.1.md)
+- [8.1 누적 번역 업데이트 순서](docs/ATM10_VERSION_TRANSLATION_UPGRADE_PLAN.md)
+- [7.1 단축키를 8.1로 한 번에 옮기기](docs/KEYBIND_MIGRATION.md)
 - [보조 번역 제외 범위와 향후 검토](docs/AUXILIARY_TRANSLATION_SCRIPTS.md)
 - [완료 현황과 검증 범위](versions/8.1/reports/upgrade_progress.md)
 - 배포 파일: `temp/releases/8.1-stable.1/`와 `temp/releases/7.1-stable.1/`에 ZIP 두 개씩
@@ -25,7 +28,9 @@ All the Mods 10을 모드별로 완성도 있게 한글화하고, 게임팩 버�
 
 기존 보조 파일 네 개는 주석만 있는 파일로 교체돼요. **리소스팩뿐 아니라 override도 반드시
 덮어써야 보조 기능이 꺼져요.** 안정판 검사 명령을 실행한 뒤 재포장해요. ZIP은 Git에 포함하지 않아요.
-이번 수정판은 사용자 요청으로 실제 인스턴스에 자동 적용하지 않았어요.
+안정판은 사용자가 직접 설치했어요. 현재 대화에서는 자동 적용하지 않고 ZIP을 제공하는
+지시를 유지해요. 아래 재검증 명령은 stable.1 재생성용이며, 새 번역 배포는 로드맵의
+원문 검증·패키징 갱신 단계를 먼저 진행해요.
 
 ```powershell
 python scripts/verify_stable_release.py --version 8.1
