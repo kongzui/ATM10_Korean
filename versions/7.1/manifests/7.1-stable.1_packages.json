@@ -1,0 +1,25 @@
+{
+  "release": "7.1-stable.1",
+  "minecraft": "1.21.1",
+  "atm10": "7.1",
+  "packages": [
+    {
+      "name": "ATM10_Korean_7.1-stable.1_resourcepack.zip",
+      "bytes": 4880025,
+      "files": 2299,
+      "sha256": "3c94a15ad1b9eb88ebd6107a1f91b09eb9448256e5730369150c788ce0768bdd",
+      "zip_crc_and_content_verified": true
+    },
+    {
+      "name": "ATM10_Korean_7.1-stable.1_overrides.zip",
+      "bytes": 6404528,
+      "files": 263,
+      "sha256": "d54c89dfc02f236dc1d8d372f60fb0cf9c6b1c61bbf67338e6fb0a9303a53459",
+      "zip_crc_and_content_verified": true
+    }
+  ],
+  "game_screen_validation": "not_run",
+  "auxiliary_translation_scripts_active": false,
+  "old_scripts_neutralized_by_overwrite": true,
+  "deployment": "not_applied_user_will_install"
+}

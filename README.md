@@ -9,24 +9,27 @@ All the Mods 10을 모드별로 완성도 있게 한글화하고, 게임팩 버�
 관리합니다. 모드 언어 파일뿐 아니라 관련 FTB Quests와 KubeJS 표시 문구도 함께 다루며,
 원본 모드 JAR은 수정하지 않아요.
 
-## 현재 배포: 8.1-compat.3 / 7.1-final.2
+## 현재 배포: 8.1-stable.1 / 7.1-stable.1
 
 7.1 검수 번역을 유지하고 ATM10 8.1의 변경분을 보완한 호환판이에요. 신규 모드 전체 번역은
-후속 누적 업데이트로 더해요. KubeJS 시작 오류를 고친 수정판이며, 7.1용 최종 수정판도 제공해요.
-실제 Rhino 실행 검사를 추가했으며 Minecraft 화면 재확인은 남아 있어요.
+후속 누적 업데이트로 더해요. 두 안정판 모두 화면·툴팁·채팅 보조 번역 실행 코드를 제외했어요.
+일반 번역은 유지하며 해당 보조 문구는 원래 표시를 사용해요. Minecraft 화면 재확인은 남아 있어요.
 
-- [8.1 설치·업데이트 안내](docs/releases/8.1-compat.3.md)
-- [7.1 설치·업데이트 안내](docs/releases/7.1-final.2.md)
+- [8.1 설치·업데이트 안내](docs/releases/8.1-stable.1.md)
+- [7.1 설치·업데이트 안내](docs/releases/7.1-stable.1.md)
+- [보조 번역 제외 범위와 향후 검토](docs/AUXILIARY_TRANSLATION_SCRIPTS.md)
 - [완료 현황과 검증 범위](versions/8.1/reports/upgrade_progress.md)
-- 배포 파일: `temp/releases/8.1-compat.3/`와 `temp/releases/7.1-final.2/`에 ZIP 두 개씩
+- 배포 파일: `temp/releases/8.1-stable.1/`와 `temp/releases/7.1-stable.1/`에 ZIP 두 개씩
 - 리소스팩 ZIP은 `resourcepacks/`에 넣고 활성화해요. override ZIP은 인스턴스 루트에
   `config/`와 `kubejs/`를 병합하는 용도예요. 두 ZIP의 설치 위치가 달라요.
 
-각 설치 안내의 Rhino 검사 명령을 먼저 실행한 뒤 재포장해요. ZIP은 Git에 포함하지 않아요.
+기존 보조 파일 네 개는 주석만 있는 파일로 교체돼요. **리소스팩뿐 아니라 override도 반드시
+덮어써야 보조 기능이 꺼져요.** 안정판 검사 명령을 실행한 뒤 재포장해요. ZIP은 Git에 포함하지 않아요.
 이번 수정판은 사용자 요청으로 실제 인스턴스에 자동 적용하지 않았어요.
 
 ```powershell
-python scripts/verify_compat_release.py --base-instance "C:/이전/ATM10/인스턴스"
+python scripts/verify_stable_release.py --version 8.1
+python scripts/verify_stable_release.py --version 7.1
 python scripts/package_compat_release.py --version 8.1
 python scripts/package_compat_release.py --version 7.1
 ```

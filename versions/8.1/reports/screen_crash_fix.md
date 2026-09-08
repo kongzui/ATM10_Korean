@@ -1,6 +1,7 @@
 # Mouse Tweaks 시작 화면 충돌 수정
 
-현재 배포: `8.1-compat.3` / `7.1-final.2`. 실제 인스턴스 적용은 사용자가 직접 해요.
+이전 배포 기록: `8.1-compat.3` / `7.1-final.2`. 후속 EnderDrives 오류가 확인돼 현재 배포는
+보조 실행 코드를 제외한 `8.1-stable.1` / `7.1-stable.1`이에요. `stable_release.md`를 확인해요.
 
 2026-09-08 18:44:45 충돌 보고서에서 `mousetweaks_config_labels.js#35`의
 `Cannot find function getClass`가 직접 원인으로 확인됐어요. 같은 실행의 KubeJS 로그는
