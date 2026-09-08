@@ -3,25 +3,29 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
 from local_paths import PROJECT_ROOT
 from verify_compat_release import read_json, sha256
-from version_context import active_output_root, active_report_dir, load_output_release
-
-RELEASE_NAME = "8.1-compat.1"
-DESTINATION = PROJECT_ROOT / "temp/releases" / RELEASE_NAME
+from version_context import load_output_release
 
 
-def package() -> dict[str, object]:
-    output = active_output_root()
-    release = load_output_release()
-    if not release["full_apply_allowed"] or release["validated_pack_version"] != "8.1":
+def package(version: str = "8.1") -> dict[str, object]:
+    output = PROJECT_ROOT / "output" / version
+    release = load_output_release(version)
+    release_name = release["release_id"]
+    destination_root = PROJECT_ROOT / "temp/releases" / release_name
+    report_dir = PROJECT_ROOT / "versions" / version / "reports"
+    if (
+        not release["full_apply_allowed"]
+        or release["validated_pack_version"] != version
+    ):
         raise ValueError("호환판 파일 검증과 배포 상태 설정을 먼저 완료하세요")
-    report = read_json(active_report_dir() / "compat_validation.json")
-    if report["status"] != "passed":
+    report = read_json(report_dir / "startup_hotfix_validation.json")
+    if report["status"] != "passed" or report["release"] != release_name:
         raise ValueError("실패한 검증 보고서로는 배포할 수 없어요")
     actual = {
         p.relative_to(output).as_posix(): sha256(p)
@@ -30,7 +34,11 @@ def package() -> dict[str, object]:
     }
     if actual != report["output_sha256"]:
         raise ValueError("검증 후 산출물이 바뀌었어요. 검증을 다시 실행하세요")
-    DESTINATION.mkdir(parents=True, exist_ok=True)
+    if version == "8.1":
+        compat = read_json(report_dir / "compat_validation.json")
+        if compat["status"] != "passed" or actual != compat["output_sha256"]:
+            raise ValueError("8.1 원본 호환성 검증도 다시 통과해야 해요")
+    destination_root.mkdir(parents=True, exist_ok=True)
     packages = []
     for kind, relative in (
         ("resourcepack", "resourcepack/ATM10_Korean"),
@@ -53,7 +61,7 @@ def package() -> dict[str, object]:
             Path(name).parts[0] not in {"config", "kubejs"} for name in files
         ):
             raise ValueError("override ZIP에 config/kubejs 이외의 경로가 있어요")
-        destination = DESTINATION / f"ATM10_Korean_{RELEASE_NAME}_{kind}.zip"
+        destination = destination_root / f"ATM10_Korean_{release_name}_{kind}.zip"
         temporary = destination.with_suffix(".zip.tmp")
         with ZipFile(
             temporary, "w", compression=ZIP_DEFLATED, compresslevel=9
@@ -79,23 +87,33 @@ def package() -> dict[str, object]:
                 "zip_crc_and_content_verified": True,
             }
         )
-    instructions = PROJECT_ROOT / "docs/releases" / f"{RELEASE_NAME}.md"
-    (DESTINATION / "INSTALL.md").write_bytes(instructions.read_bytes())
+    instructions = PROJECT_ROOT / "docs/releases" / f"{release_name}.md"
+    (destination_root / "INSTALL.md").write_bytes(instructions.read_bytes())
     manifest = {
-        "release": RELEASE_NAME,
+        "release": release_name,
         "minecraft": "1.21.1",
-        "atm10": "8.1",
+        "atm10": version,
         "packages": packages,
-        "game_screen_validation": "deferred_by_user",
-        "new_mod_translation": "후속 누적 업데이트",
+        "game_screen_validation": "not_run",
+        "rhino_execution_verified": True,
+        "deployment": "not_applied_user_will_install",
     }
     content = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
-    (DESTINATION / "SHA256.json").write_text(content, encoding="utf-8")
-    (PROJECT_ROOT / "versions/8.1/manifests/compat_packages.json").write_text(
-        content, encoding="utf-8"
+    (destination_root / "SHA256.json").write_text(content, encoding="utf-8")
+    manifest_path = (
+        PROJECT_ROOT
+        / "versions"
+        / version
+        / "manifests"
+        / f"{release_name}_packages.json"
     )
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(content, encoding="utf-8")
     return manifest
 
 
 if __name__ == "__main__":
-    print(json.dumps(package(), ensure_ascii=False, indent=2))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--version", choices=("7.1", "8.1"), default="8.1")
+    args = parser.parse_args()
+    print(json.dumps(package(args.version), ensure_ascii=False, indent=2))
