@@ -1,26 +1,47 @@
 {
   "release": "8.1-compat.2",
   "status": "passed",
+  "baseline_commit": "18eb59d",
   "counts": {
     "snbt": 76,
     "json": 1761,
     "javascript": 27,
+    "unchanged_language_values": 147388,
+    "inherited_ignored_guides_verified": 10,
     "font_references": 3,
-    "language_files": 286,
-    "language_keys": 147388,
-    "baseline_values_reused": 145208,
-    "static_text_components": 10,
-    "resource_source_reviews": 2274,
-    "chapter_structure_checks": 6,
-    "crop_structure_checks": 13,
-    "quest_keys": 8858
+    "original_errors_reproduced": 3
   },
-  "missing_changed_language_keys": [],
-  "inherited_missing_language_keys": 2120,
-  "source_known_korean_json_errors": [
-    "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar:assets/mcwtrpdoors/lang/ko_kr.json:JSONDecodeError:Expecting ',' delimiter: line 120 column 2 (char 6386)"
+  "changed_paths": [
+    "overrides/kubejs/startup_scripts/appleskin_debug_labels.js",
+    "overrides/kubejs/startup_scripts/enderdrives_messages.js",
+    "overrides/kubejs/startup_scripts/mousetweaks_config_labels.js",
+    "release.json",
+    "resourcepack/ATM10_Korean/pack.mcmeta"
   ],
+  "rhino": {
+    "jar": "rhino-2101.2.8-build.91.jar",
+    "sha256": "1d53d962aa4dac54bcbb4f998c1845980cf194318f1d6b1580ea6ac15cce5ef3",
+    "modes": [
+      {
+        "client": true,
+        "mods_loaded": true,
+        "passed": true
+      },
+      {
+        "client": false,
+        "mods_loaded": true,
+        "passed": true
+      },
+      {
+        "client": true,
+        "mods_loaded": false,
+        "passed": true
+      }
+    ]
+  },
+  "scope": "실제 Rhino 엔진 + 게임 API 대역, 이벤트 반복·필터·서버 조건 검사",
   "game_screen_validation": "not_run",
+  "deployment": "not_applied_user_will_install",
   "errors": [],
   "output_sha256": {
     "overrides/config/ftbquests/quests/chapters/cataclysm.snbt": "ab92d70591af2df29d7ddfd533b1d9a52d6a01a76ad4ac49c768428d06bd032d",

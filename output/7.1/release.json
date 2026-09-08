@@ -7,5 +7,6 @@
   "status": "validated_release",
   "full_apply_allowed": true,
   "baseline_commit": "5011ad5",
-  "note": "ATM10 7.1에서 검증을 마친 보존 산출물이다."
+  "note": "7.1-final.1: KubeJS 번역 스크립트 Rhino const 오류 수정, 가이드 JSON 수정, 개인 Modern UI 글꼴 제외. 게임 화면 확인 전이며 사용자가 직접 설치한다.",
+  "release_id": "7.1-final.1"
 }

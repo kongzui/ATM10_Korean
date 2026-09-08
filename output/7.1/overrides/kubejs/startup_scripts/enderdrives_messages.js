@@ -1,7 +1,7 @@
 let enderDrivesMessageContext = ''
 let enderDrivesMessageContextExpiresAt = 0
 
-const ENDERDRIVES_EXACT_MESSAGES = {
+let ENDERDRIVES_EXACT_MESSAGES = {
     'This EnderDisk is disabled on the server.':
         '§c이 서버에서는 엔더 아이템 저장 셀을 사용할 수 없습니다.',
     '[EnderDrives] Transfer blocked: Infinite loop detected between linked drives.':
@@ -44,7 +44,7 @@ function stripEnderDrivesStatusIcon(text) {
 }
 
 function translateEnderDrivesScope(scope) {
-    const normalized = scope.toLowerCase()
+    let normalized = scope.toLowerCase()
     if (normalized === 'private') return '비공개'
     if (normalized === 'team') return '팀'
     if (normalized === 'global') return '전체 공개'
@@ -71,9 +71,9 @@ function hasEnderDrivesMessageContext(context) {
 }
 
 function translateEnderDrivesSystemMessage(rawText) {
-    const plain = stripEnderDrivesFormatting(rawText)
-    const message = stripEnderDrivesStatusIcon(plain)
-    const exact = ENDERDRIVES_EXACT_MESSAGES[message]
+    let plain = stripEnderDrivesFormatting(rawText)
+    let message = stripEnderDrivesStatusIcon(plain)
+    let exact = ENDERDRIVES_EXACT_MESSAGES[message]
     if (exact) {
         if (message === '[EnderDrives Tape Stats]') setEnderDrivesMessageContext('stats')
         if (message === 'Stress test complete on your private channel:') {
@@ -232,17 +232,17 @@ function translateEnderDrivesSystemMessage(rawText) {
 }
 
 if (Platform.isClientEnvironment()) {
-    const $EnderDrivesSystemChatEvent = Java.loadClass(
+    let $EnderDrivesSystemChatEvent = Java.loadClass(
         'net.neoforged.neoforge.client.event.ClientChatReceivedEvent$System'
     )
 
     NativeEvents.onEvent($EnderDrivesSystemChatEvent, event => {
-        const source = stripEnderDrivesFormatting(event.getMessage().getString())
+        let source = stripEnderDrivesFormatting(event.getMessage().getString())
         if (source.startsWith('Frequency set to ') && Client.player !== null) {
-            const heldItemId = String(Client.player.mainHandItem.id)
+            let heldItemId = String(Client.player.mainHandItem.id)
             if (!heldItemId.startsWith('enderdrives:ender_disk_')) return
         }
-        const translated = translateEnderDrivesSystemMessage(source)
+        let translated = translateEnderDrivesSystemMessage(source)
         if (translated !== null) {
             event.setMessage(Text.of(translated))
         }

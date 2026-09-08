@@ -1,17 +1,17 @@
 if (Platform.isLoaded("mousetweaks") && Platform.isClientEnvironment()) {
-  const $AbstractWidget = Java.loadClass("net.minecraft.client.gui.components.AbstractWidget")
-  const $Component = Java.loadClass("net.minecraft.network.chat.Component")
-  const $EventPriority = Java.loadClass("net.neoforged.bus.api.EventPriority")
-  const $I18n = Java.loadClass("net.minecraft.client.resources.language.I18n")
-  const $InitPost = Java.loadClass(
+  let $AbstractWidget = Java.loadClass("net.minecraft.client.gui.components.AbstractWidget")
+  let $Component = Java.loadClass("net.minecraft.network.chat.Component")
+  let $EventPriority = Java.loadClass("net.neoforged.bus.api.EventPriority")
+  let $I18n = Java.loadClass("net.minecraft.client.resources.language.I18n")
+  let $InitPost = Java.loadClass(
     "net.neoforged.neoforge.client.event.ScreenEvent$Init$Post"
   )
-  const $RenderPre = Java.loadClass(
+  let $RenderPre = Java.loadClass(
     "net.neoforged.neoforge.client.event.ScreenEvent$Render$Pre"
   )
 
-  const SCREEN_CLASS = "yalter.mousetweaks.ConfigScreen"
-  const TRANSLATIONS = [
+  let SCREEN_CLASS = "yalter.mousetweaks.ConfigScreen"
+  let TRANSLATIONS = [
     ["Multiple Wheel Clicks Move Multiple Items", "mousetweaks.configuration.value.proportional"],
     ["Always Move One Item (macOS Compatibility)", "mousetweaks.configuration.value.always_one"],
     ["Inventory Position Aware, Inverted", "mousetweaks.configuration.value.inventory_position_aware_inverted"],
@@ -31,7 +31,7 @@ if (Platform.isLoaded("mousetweaks") && Platform.isClientEnvironment()) {
     ["Debug Mode", "mousetweaks.configuration.debug_mode"]
   ]
 
-  function translateWidgets(screen, widgets) {
+  let translateWidgets = function (screen, widgets) {
     if (String(screen.getClass().getName()) !== SCREEN_CLASS) {
       return
     }
@@ -41,16 +41,16 @@ if (Platform.isLoaded("mousetweaks") && Platform.isClientEnvironment()) {
     }
 
     for (let index = 0; index < widgets.size(); index++) {
-      const widget = widgets.get(index)
+      let widget = widgets.get(index)
 
       if (!(widget instanceof $AbstractWidget)) {
         continue
       }
 
-      const original = String(widget.getMessage().getString())
+      let original = String(widget.getMessage().getString())
       let translated = original
 
-      for (const [source, key] of TRANSLATIONS) {
+      for (let [source, key] of TRANSLATIONS) {
         translated = translated.replace(source, String($I18n.get(key)))
       }
 

@@ -18,7 +18,12 @@ from build_ae2_quests import parse_language_snbt, validate_value
 from ftbquests_layout import split_locale_files
 from local_paths import PROJECT_ROOT, resolve_source_root
 from rebase_ftbquests import VALIDATION_ERROR_EXCEPTIONS
-from version_context import active_output_root, active_report_dir, read_instance_version
+from version_context import (
+    active_output_root,
+    active_report_dir,
+    load_output_release,
+    read_instance_version,
+)
 
 CUSTOM_NAME = re.compile(r'("minecraft:custom_name"\s*:\s*)("(?:\\.|[^"\\])*")')
 
@@ -327,7 +332,7 @@ def verify(base_instance: Path) -> dict[str, object]:
     if legacy.exists():
         errors.append("8.1에 적용하면 안 되는 7.1 병합 언어 파일이 남아 있어요")
     report = {
-        "release": "8.1-compat.1",
+        "release": load_output_release().get("release_id", "8.1-compat.1"),
         "status": "passed" if not errors else "failed",
         "counts": dict(counts),
         "missing_changed_language_keys": missing_delta,

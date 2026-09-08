@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -24,6 +25,7 @@ RELEASE_KEYS = {
     "full_apply_allowed",
     "baseline_commit",
     "note",
+    "release_id",
 }
 
 
@@ -143,6 +145,16 @@ def load_output_release(pack_version: str | None = None) -> dict[str, Any]:
         )
     if not isinstance(release.get("full_apply_allowed"), bool):
         raise ValueError("full_apply_allowed는 true 또는 false여야 합니다.")
+    release_id = release.get("release_id")
+    if release_id is not None and (
+        not isinstance(release_id, str)
+        or not re.fullmatch(
+            re.escape(selected_version) + r"-[A-Za-z0-9][A-Za-z0-9.-]*", release_id
+        )
+    ):
+        raise ValueError(
+            "release_id는 해당 ATM10 버전으로 시작하는 안전한 배포 이름이어야 합니다."
+        )
     return release
 
 

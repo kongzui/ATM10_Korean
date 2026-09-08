@@ -22646,8 +22646,8 @@
     "baseline_sha256": null,
     "current_sha256": null,
     "state": "project_or_unresolved",
-    "output_sha256": "4715501853e28d9bb156d3577ef47a427699137f53d1b17ef2df4e52331b281d",
-    "review": "8.1 KubeJS 검수본 유지: 23개 원본 스크립트의 코드 구조 대조 및 프로젝트 추가 4개"
+    "output_sha256": "7d7ee44f524fdad58f4e43e85b328c5ae412923b38bfcd706994607228b4e32c",
+    "review": "프로젝트 번역 스크립트: const→let 및 블록 내 함수 선언을 함수 표현식으로 변경. 번역·조건·이벤트 보존. Rhino 두 버전의 초기화·반복 콜백·클라이언트/서버 조건 검증 통과."
   },
   {
     "output": "overrides/kubejs/startup_scripts/CustomAdditions.js",
@@ -22666,8 +22666,8 @@
     "baseline_sha256": "2be02fb8354295ff5cf9b0da28003293c231ab8a63a1086802e184dbeff38e91",
     "current_sha256": null,
     "state": "removed",
-    "output_sha256": "2be02fb8354295ff5cf9b0da28003293c231ab8a63a1086802e184dbeff38e91",
-    "review": "8.1 KubeJS 검수본 유지: 23개 원본 스크립트의 코드 구조 대조 및 프로젝트 추가 4개"
+    "output_sha256": "fd84fa5bc624489e7d7073d0b4ec00f6021ee937ecb1307a4d65cae881ea4b32",
+    "review": "프로젝트 번역 스크립트: const→let 및 블록 내 함수 선언을 함수 표현식으로 변경. 번역·조건·이벤트 보존. Rhino 두 버전의 초기화·반복 콜백·클라이언트/서버 조건 검증 통과."
   },
   {
     "output": "overrides/kubejs/startup_scripts/incompatible_versions.js",
@@ -22686,8 +22686,8 @@
     "baseline_sha256": null,
     "current_sha256": null,
     "state": "project_or_unresolved",
-    "output_sha256": "61c44dd6b1b04872c27d871401978cf2f89613148616f1f10805fc134eec98bf",
-    "review": "8.1 KubeJS 검수본 유지: 23개 원본 스크립트의 코드 구조 대조 및 프로젝트 추가 4개"
+    "output_sha256": "35008bd0282f871de223e5804779793fd012beaeaa916ab992754f273f5d97ff",
+    "review": "프로젝트 번역 스크립트: const→let 및 블록 내 함수 선언을 함수 표현식으로 변경. 번역·조건·이벤트 보존. Rhino 두 버전의 초기화·반복 콜백·클라이언트/서버 조건 검증 통과."
   },
   {
     "output": "overrides/kubejs/startup_scripts/update_checker.js",

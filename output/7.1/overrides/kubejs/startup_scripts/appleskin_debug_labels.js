@@ -1,15 +1,15 @@
 if (Platform.isLoaded("appleskin") && Platform.isClientEnvironment()) {
-  const $EventPriority = Java.loadClass("net.neoforged.bus.api.EventPriority")
-  const $DebugTextEvent = Java.loadClass(
+  let $EventPriority = Java.loadClass("net.neoforged.bus.api.EventPriority")
+  let $DebugTextEvent = Java.loadClass(
     "net.neoforged.neoforge.client.event.CustomizeGuiOverlayEvent$DebugText"
   )
 
   NativeEvents.onEvent($EventPriority.LOWEST, $DebugTextEvent, event => {
-    const lines = event.getLeft()
+    let lines = event.getLeft()
 
     for (let index = 0; index < lines.size(); index++) {
-      const line = String(lines.get(index))
-      const match = /^hunger: ([^,]+), sat: ([^,]+), exh: (.+)$/.exec(line)
+      let line = String(lines.get(index))
+      let match = /^hunger: ([^,]+), sat: ([^,]+), exh: (.+)$/.exec(line)
 
       if (match !== null) {
         lines.set(

@@ -7,5 +7,6 @@
   "status": "compatibility_ready",
   "full_apply_allowed": true,
   "baseline_commit": "5011ad5",
-  "note": "8.1-compat.1: 7.1 번역 범위를 유지하는 누적 호환판. 전체 파일·원문 호환 검증 통과. 신규 모드 번역은 후속 업데이트이며 게임 화면 확인은 사용자의 요청으로 보류한다."
+  "note": "8.1-compat.2: KubeJS 번역 스크립트 Rhino const 오류 수정, 가이드 JSON 수정, 개인 Modern UI 글꼴 제외. 게임 화면 확인 전이며 사용자가 직접 설치한다.",
+  "release_id": "8.1-compat.2"
 }
