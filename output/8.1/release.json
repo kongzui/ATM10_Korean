@@ -7,6 +7,6 @@
   "status": "compatibility_ready",
   "full_apply_allowed": true,
   "baseline_commit": "5011ad5",
-  "note": "8.1-compat.2: KubeJS 번역 스크립트 Rhino const 오류 수정, 가이드 JSON 수정, 개인 Modern UI 글꼴 제외. 게임 화면 확인 전이며 사용자가 직접 설치한다.",
-  "release_id": "8.1-compat.2"
+  "note": "8.1-compat.3: KubeJS 선언 오류와 Mouse Tweaks getClass 시작 화면 충돌 수정. Java 객체를 실제 Rhino로 감싸 회귀 검증. 게임 화면 재확인 전, 사용자가 직접 설치한다.",
+  "release_id": "8.1-compat.3"
 }

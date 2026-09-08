@@ -1,5 +1,5 @@
 {
-  "release": "8.1-compat.2",
+  "release": "8.1-compat.3",
   "status": "passed",
   "baseline_commit": "18eb59d",
   "counts": {
@@ -9,7 +9,8 @@
     "unchanged_language_values": 147388,
     "inherited_ignored_guides_verified": 10,
     "font_references": 3,
-    "original_errors_reproduced": 3
+    "original_errors_reproduced": 3,
+    "java_wrapper_crashes_reproduced": 1
   },
   "changed_paths": [
     "overrides/kubejs/startup_scripts/appleskin_debug_labels.js",
@@ -39,7 +40,7 @@
       }
     ]
   },
-  "scope": "실제 Rhino 엔진 + 게임 API 대역, 이벤트 반복·필터·서버 조건 검사",
+  "scope": "실제 Rhino 엔진 및 Java 화면·위젯·컴포넌트 래퍼 + 게임 API 대역, 반복·필터·서버 조건 검사",
   "game_screen_validation": "not_run",
   "deployment": "not_applied_user_will_install",
   "errors": [],
@@ -377,9 +378,9 @@
     "overrides/kubejs/startup_scripts/hyperbox/hyperbox.js": "58ade65857fa4b34cd38ea867b32a1f28be88ae762fd8c2e112365bf940cb470",
     "overrides/kubejs/startup_scripts/incompatible_versions.js": "74c9d26f30e645a9669e7cabd5216666beae60bacc56a4e240e1c52c6873e391",
     "overrides/kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js": "cf5ca19bccd3f8cf5f65a27c801bb0d1c04cec1478672db5014d54664346ed2e",
-    "overrides/kubejs/startup_scripts/mousetweaks_config_labels.js": "35008bd0282f871de223e5804779793fd012beaeaa916ab992754f273f5d97ff",
+    "overrides/kubejs/startup_scripts/mousetweaks_config_labels.js": "ffa0bcf7b9e44ef45750ace785748070358159deee7b239a66e7d88afa17e4fe",
     "overrides/kubejs/startup_scripts/update_checker.js": "9e21b4c39a9f263725c3bc100da271f9ed64c81aa38179a1f3aced47feaf8528",
-    "release.json": "79f943faf0c6ef1429e4d3b1e9cd32a1e64806d8606bbde6d4b4e2ffc96538b4",
+    "release.json": "e44a2df638567a868bd0080de7d96e39d5f70d522d290a6093ac4257548211e5",
     "resourcepack/ATM10_Korean/assets/actuallyadditions/lang/ko_kr.json": "ea92305da4e264fdb420d77a3887ed7871f296b3760d053b2664d40c03724e03",
     "resourcepack/ATM10_Korean/assets/actuallyadditions/patchouli_books/booklet/ko_kr/categories/getting_started.json": "9ff974a89d4557e912001c6decad82ddaaece76967fedb213ab2ced8e74433c1",
     "resourcepack/ATM10_Korean/assets/actuallyadditions/patchouli_books/booklet/ko_kr/entries/crystals.json": "2f8e395cbb4e718c1f0745e1eb98f80fd17ce4474a4e519e929aad73cddf3c30",
@@ -2679,6 +2680,6 @@
     "resourcepack/ATM10_Korean/assets/xycraft_world/lang/ko_kr.json": "77ec062aac36445b2d2f96aff7002332e16ef2d2e066a7fc2395da2216dabe83",
     "resourcepack/ATM10_Korean/assets/zerocore/lang/ko_kr.json": "83bca82a8569bcf983b200ff75fa54a8c15fde3fef018a5b112025f6064944c3",
     "resourcepack/ATM10_Korean/GYEONGGI_FONT_SOURCE.txt": "2cfb0f03caf8da2ecc6c3f1a918acc6b832d7ac20bfe356cdd06c1eaff18d3a2",
-    "resourcepack/ATM10_Korean/pack.mcmeta": "85c9d306a854ca9001f7e6925525d6cc6275fbcb472800494a80f7e953f5d701"
+    "resourcepack/ATM10_Korean/pack.mcmeta": "13ea9f39fa2dcde14d2d789865c651204f6cbb929e9ae7a25dd2666a067e35bf"
   }
 }

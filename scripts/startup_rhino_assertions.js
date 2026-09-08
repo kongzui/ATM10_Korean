@@ -28,15 +28,9 @@ if (testClient && testModsLoaded) {
   check(lines[0] === "허기: 20, 포만도: 5.0, 허기 소모도: 0.25", "F3 번역 오류")
   check(lines[1] === "unrelated", "F3 무관한 줄 변경")
   var widgets = [new MockWidget("Mouse Tweaks Options"), new MockWidget("Always Move One Item (macOS Compatibility)"), new MockWidget("unrelated")]
-  var screenClass = "yalter.mousetweaks.ConfigScreen"
-  var screen = {
-    getClass: function () { return { getName: function () { return screenClass } } },
-    children: function () { return list(widgets) }
-  }
-  var event = {
-    getScreen: function () { return screen },
-    getListenersList: function () { return list(widgets) }
-  }
+  var screen = new RealConfigScreen()
+  for (var wi = 0; wi < widgets.length; wi++) screen.addWidget(widgets[wi])
+  var event = new RealScreenEvent(screen)
   fire("ScreenEvent$Init$Post", event)
   fire("ScreenEvent$Render$Pre", event)
   fire("ScreenEvent$Render$Pre", event)
@@ -48,7 +42,10 @@ if (testClient && testModsLoaded) {
   fire("ScreenEvent$Render$Pre", event)
   check(widgets[0].text === "Mouse Tweaks Options", "리소스팩 미사용 조건 오류")
   translationsAvailable = true
-  screenClass = "other.Screen"
+  var other = new RealScreen()
+  other.addWidget(widgets[0])
+  event = new RealScreenEvent(other)
+  fire("ScreenEvent$Init$Post", event)
   fire("ScreenEvent$Render$Pre", event)
   check(widgets[0].text === "Mouse Tweaks Options", "다른 화면 변경")
 }

@@ -1,5 +1,8 @@
 # 7.1·8.1 KubeJS 오류 수정 배포
 
+아래는 첫 수정판 기록이에요. 후속 게임 실행에서 Mouse Tweaks getClass 충돌이 확인돼
+`8.1-compat.3` / `7.1-final.2`로 교체했어요. 현재 결과는 `screen_crash_fix.md`를 확인해요.
+
 2026-09-08. 배포 이름은 `7.1-final.1`과 `8.1-compat.2`예요.
 
 ## 확인한 원인과 수정

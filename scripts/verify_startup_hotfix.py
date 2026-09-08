@@ -29,9 +29,16 @@ FONT = f"{PACK_DIR}/assets/modernui/font/gyeonggi_title_medium.ttf"
 def fixed_script(raw: bytes) -> bytes:
     result = re.sub(rb"(?m)^(\s*)const ", rb"\1let ", raw)
     result = result.replace(b"for (const [source, key]", b"for (let [source, key]")
-    return result.replace(
+    result = result.replace(
         b"function translateWidgets(screen, widgets) {",
         b"let translateWidgets = function (screen, widgets) {",
+    )
+    return result.replace(
+        b'let SCREEN_CLASS = "yalter.mousetweaks.ConfigScreen"',
+        b'let $ConfigScreen = Java.loadClass("yalter.mousetweaks.ConfigScreen")',
+    ).replace(
+        b"String(screen.getClass().getName()) !== SCREEN_CLASS",
+        b"!(screen instanceof $ConfigScreen)",
     )
 
 
@@ -213,6 +220,29 @@ def verify(version: str, instance: Path, java: Path, javac: Path) -> dict:
                     errors.append(f"수정 전 오류 재현 실패: {original.name}")
                 else:
                     counts["original_errors_reproduced"] += 1
+            previous_mouse = temp / "previous_mousetweaks.js"
+            previous_mouse.write_bytes(
+                run(
+                    [
+                        "git",
+                        "show",
+                        f"3a6bf12:output/{version}/{SCRIPT_DIR}/mousetweaks_config_labels.js",
+                    ]
+                ).stdout
+            )
+            trigger = temp / "previous_screen_event.js"
+            trigger.write_text(
+                'fire("ScreenEvent$Init$Post", new RealScreenEvent(new RealScreen()));\n',
+                encoding="utf-8",
+            )
+            result = run(command + setup + [str(previous_mouse), str(trigger)])
+            if (
+                result.returncode == 0
+                or b"Cannot find function getClass" not in result.stderr
+            ):
+                errors.append("Java 객체의 getClass 충돌 재현 실패")
+            else:
+                counts["java_wrapper_crashes_reproduced"] += 1
         result = run(
             command
             + setup
@@ -233,7 +263,7 @@ def verify(version: str, instance: Path, java: Path, javac: Path) -> dict:
         "counts": dict(counts),
         "changed_paths": changed,
         "rhino": {"jar": rhino.name, "sha256": rhino_hash, "modes": modes},
-        "scope": "실제 Rhino 엔진 + 게임 API 대역, 이벤트 반복·필터·서버 조건 검사",
+        "scope": "실제 Rhino 엔진 및 Java 화면·위젯·컴포넌트 래퍼 + 게임 API 대역, 반복·필터·서버 조건 검사",
         "game_screen_validation": "not_run",
         "deployment": "not_applied_user_will_install",
         "errors": errors,

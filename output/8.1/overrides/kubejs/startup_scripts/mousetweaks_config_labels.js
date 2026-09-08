@@ -10,7 +10,7 @@ if (Platform.isLoaded("mousetweaks") && Platform.isClientEnvironment()) {
     "net.neoforged.neoforge.client.event.ScreenEvent$Render$Pre"
   )
 
-  let SCREEN_CLASS = "yalter.mousetweaks.ConfigScreen"
+  let $ConfigScreen = Java.loadClass("yalter.mousetweaks.ConfigScreen")
   let TRANSLATIONS = [
     ["Multiple Wheel Clicks Move Multiple Items", "mousetweaks.configuration.value.proportional"],
     ["Always Move One Item (macOS Compatibility)", "mousetweaks.configuration.value.always_one"],
@@ -32,7 +32,7 @@ if (Platform.isLoaded("mousetweaks") && Platform.isClientEnvironment()) {
   ]
 
   let translateWidgets = function (screen, widgets) {
-    if (String(screen.getClass().getName()) !== SCREEN_CLASS) {
+    if (!(screen instanceof $ConfigScreen)) {
       return
     }
 

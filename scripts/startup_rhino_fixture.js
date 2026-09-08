@@ -6,19 +6,14 @@ var Platform = {
   isLoaded: function () { return testModsLoaded },
   isClientEnvironment: function () { return testClient }
 }
-function MockWidget(text) {
-  this.text = text
-}
-MockWidget.prototype.getMessage = function () {
-  var self = this
-  return { getString: function () { return self.text } }
-}
-MockWidget.prototype.setMessage = function (text) { this.text = text }
+// 화면·위젯·컴포넌트는 JS 객체가 아닌 Java 객체와 Rhino의 실제 래퍼를 사용해요.
+var MockWidget = RealWidget
 var Java = {
   loadClass: function (name) {
     if (name === "net.minecraft.client.gui.components.AbstractWidget") return MockWidget
+    if (name === "yalter.mousetweaks.ConfigScreen") return RealConfigScreen
     if (name === "net.minecraft.network.chat.Component") {
-      return { literal: function (text) { return text } }
+      return RealComponent
     }
     if (name === "net.minecraft.client.resources.language.I18n") {
       return {

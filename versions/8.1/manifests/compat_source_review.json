@@ -22686,8 +22686,8 @@
     "baseline_sha256": null,
     "current_sha256": null,
     "state": "project_or_unresolved",
-    "output_sha256": "35008bd0282f871de223e5804779793fd012beaeaa916ab992754f273f5d97ff",
-    "review": "프로젝트 번역 스크립트: const→let 및 블록 내 함수 선언을 함수 표현식으로 변경. 번역·조건·이벤트 보존. Rhino 두 버전의 초기화·반복 콜백·클라이언트/서버 조건 검증 통과."
+    "output_sha256": "ffa0bcf7b9e44ef45750ace785748070358159deee7b239a66e7d88afa17e4fe",
+    "review": "Rhino 선언 호환성 수정과 getClass 대신 ConfigScreen instanceof 판별. 실제 Java 객체 래퍼로 기존 충돌 및 수정본의 반복 콜백 검증."
   },
   {
     "output": "overrides/kubejs/startup_scripts/update_checker.js",
