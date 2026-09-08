@@ -1,22 +1,2 @@
-if (Platform.isLoaded("appleskin") && Platform.isClientEnvironment()) {
-  let $EventPriority = Java.loadClass("net.neoforged.bus.api.EventPriority")
-  let $DebugTextEvent = Java.loadClass(
-    "net.neoforged.neoforge.client.event.CustomizeGuiOverlayEvent$DebugText"
-  )
-
-  NativeEvents.onEvent($EventPriority.LOWEST, $DebugTextEvent, event => {
-    let lines = event.getLeft()
-
-    for (let index = 0; index < lines.size(); index++) {
-      let line = String(lines.get(index))
-      let match = /^hunger: ([^,]+), sat: ([^,]+), exh: (.+)$/.exec(line)
-
-      if (match !== null) {
-        lines.set(
-          index,
-          `허기: ${match[1]}, 포만도: ${match[2]}, 허기 소모도: ${match[3]}`
-        )
-      }
-    }
-  })
-}
+// 안정 배포판: 보조 번역 기능을 사용하지 않아요.
+// 기존 설치의 같은 이름 스크립트를 비활성화하기 위한 덮어쓰기 파일이에요.

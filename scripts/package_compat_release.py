@@ -24,7 +24,7 @@ def package(version: str = "8.1") -> dict[str, object]:
         or release["validated_pack_version"] != version
     ):
         raise ValueError("호환판 파일 검증과 배포 상태 설정을 먼저 완료하세요")
-    report = read_json(report_dir / "startup_hotfix_validation.json")
+    report = read_json(report_dir / "stable_validation.json")
     if report["status"] != "passed" or report["release"] != release_name:
         raise ValueError("실패한 검증 보고서로는 배포할 수 없어요")
     actual = {
@@ -35,9 +35,15 @@ def package(version: str = "8.1") -> dict[str, object]:
     if actual != report["output_sha256"]:
         raise ValueError("검증 후 산출물이 바뀌었어요. 검증을 다시 실행하세요")
     if version == "8.1":
-        compat = read_json(report_dir / "compat_validation.json")
-        if compat["status"] != "passed" or actual != compat["output_sha256"]:
-            raise ValueError("8.1 원본 호환성 검증도 다시 통과해야 해요")
+        compatibility = report.get("compatibility_validation") or {}
+        if (
+            compatibility.get("mode") != "inherited_for_unchanged_files"
+            or compatibility.get("commit") != report["baseline_commit"]
+            or compatibility.get("unchanged_data_hashes_verified") is not True
+        ):
+            raise ValueError(
+                "8.1의 변경 없는 배포 데이터에 대한 원문 검증 근거가 없어요"
+            )
     destination_root.mkdir(parents=True, exist_ok=True)
     packages = []
     for kind, relative in (
@@ -95,7 +101,8 @@ def package(version: str = "8.1") -> dict[str, object]:
         "atm10": version,
         "packages": packages,
         "game_screen_validation": "not_run",
-        "rhino_execution_verified": True,
+        "auxiliary_translation_scripts_active": False,
+        "old_scripts_neutralized_by_overwrite": True,
         "deployment": "not_applied_user_will_install",
     }
     content = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"

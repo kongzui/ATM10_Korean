@@ -7,6 +7,6 @@
   "status": "validated_release",
   "full_apply_allowed": true,
   "baseline_commit": "5011ad5",
-  "note": "7.1-final.2: KubeJS 선언 오류와 Mouse Tweaks getClass 시작 화면 충돌 수정. Java 객체를 실제 Rhino로 감싸 회귀 검증. 게임 화면 재확인 전, 사용자가 직접 설치한다.",
-  "release_id": "7.1-final.2"
+  "note": "7.1-stable.1: 보조 번역 실행 코드 제외. 기존 설치의 4개 보조 스크립트를 주석 전용 파일로 교체한다. 실제 적용은 사용자가 진행하며 게임 화면 재확인 전이다.",
+  "release_id": "7.1-stable.1"
 }

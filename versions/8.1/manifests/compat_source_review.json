@@ -20276,8 +20276,8 @@
     "baseline_sha256": "920cb7666226d2d10b2e0bc48573f8b178a4f1f9b118601c575d35c70d92f98f",
     "current_sha256": null,
     "state": "removed",
-    "output_sha256": "920cb7666226d2d10b2e0bc48573f8b178a4f1f9b118601c575d35c70d92f98f",
-    "review": "8.1 KubeJS 검수본 유지: 23개 원본 스크립트의 코드 구조 대조 및 프로젝트 추가 4개"
+    "output_sha256": "bcb9aaf1f0bd349332b32b3838b83cdb506fa02daccc5b7daafe344cede39509",
+    "review": "안정판: 보조 번역 실행 코드를 제거한 주석 전용 교체 파일. 이전 설치의 보조 기능을 덮어쓰기로 비활성화한다."
   },
   {
     "output": "overrides/kubejs/client_scripts/Mekanism-Tooltips.js",
@@ -22646,8 +22646,8 @@
     "baseline_sha256": null,
     "current_sha256": null,
     "state": "project_or_unresolved",
-    "output_sha256": "7d7ee44f524fdad58f4e43e85b328c5ae412923b38bfcd706994607228b4e32c",
-    "review": "프로젝트 번역 스크립트: const→let 및 블록 내 함수 선언을 함수 표현식으로 변경. 번역·조건·이벤트 보존. Rhino 두 버전의 초기화·반복 콜백·클라이언트/서버 조건 검증 통과."
+    "output_sha256": "bcb9aaf1f0bd349332b32b3838b83cdb506fa02daccc5b7daafe344cede39509",
+    "review": "안정판: 보조 번역 실행 코드를 제거한 주석 전용 교체 파일. 이전 설치의 보조 기능을 덮어쓰기로 비활성화한다."
   },
   {
     "output": "overrides/kubejs/startup_scripts/CustomAdditions.js",
@@ -22666,8 +22666,8 @@
     "baseline_sha256": "2be02fb8354295ff5cf9b0da28003293c231ab8a63a1086802e184dbeff38e91",
     "current_sha256": null,
     "state": "removed",
-    "output_sha256": "fd84fa5bc624489e7d7073d0b4ec00f6021ee937ecb1307a4d65cae881ea4b32",
-    "review": "프로젝트 번역 스크립트: const→let 및 블록 내 함수 선언을 함수 표현식으로 변경. 번역·조건·이벤트 보존. Rhino 두 버전의 초기화·반복 콜백·클라이언트/서버 조건 검증 통과."
+    "output_sha256": "bcb9aaf1f0bd349332b32b3838b83cdb506fa02daccc5b7daafe344cede39509",
+    "review": "안정판: 보조 번역 실행 코드를 제거한 주석 전용 교체 파일. 이전 설치의 보조 기능을 덮어쓰기로 비활성화한다."
   },
   {
     "output": "overrides/kubejs/startup_scripts/incompatible_versions.js",
@@ -22686,8 +22686,8 @@
     "baseline_sha256": null,
     "current_sha256": null,
     "state": "project_or_unresolved",
-    "output_sha256": "ffa0bcf7b9e44ef45750ace785748070358159deee7b239a66e7d88afa17e4fe",
-    "review": "Rhino 선언 호환성 수정과 getClass 대신 ConfigScreen instanceof 판별. 실제 Java 객체 래퍼로 기존 충돌 및 수정본의 반복 콜백 검증."
+    "output_sha256": "bcb9aaf1f0bd349332b32b3838b83cdb506fa02daccc5b7daafe344cede39509",
+    "review": "안정판: 보조 번역 실행 코드를 제거한 주석 전용 교체 파일. 이전 설치의 보조 기능을 덮어쓰기로 비활성화한다."
   },
   {
     "output": "overrides/kubejs/startup_scripts/update_checker.js",
