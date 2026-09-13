@@ -1,0 +1,901 @@
+{
+  "schema_version": 1,
+  "mod": "auroral",
+  "review_scope": "현재 JAR 영어 148키 전체 직접 검수. 기존 JAR 한국어 후보 없음. 기존 언어 재사용 0키, 한국어 신규 146키, 공식 모드명 유지 2키. 퀘스트 확정 용어를 함께 검토함.",
+  "reused": 0,
+  "new_translations": 146,
+  "intentional_original_keys": [
+    "advancement.auroral.root.title",
+    "itemGroup.auroral"
+  ],
+  "entries": [
+    {
+      "key": "advancement.auroral.aurora_lantern.description",
+      "english": "Craft an Aurora Lantern",
+      "translation": "오로라 랜턴을 만드세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.aurora_lantern.title",
+      "english": "Guiding Light",
+      "translation": "길잡이 빛",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.aurora_shard.description",
+      "english": "Collect an Aurora Shard",
+      "translation": "오로라 조각을 모으세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.aurora_shard.title",
+      "english": "Celestial Gift",
+      "translation": "하늘의 선물",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.auroral_snowlette.description",
+      "english": "Tame an Auroral Snowlette",
+      "translation": "오로라 스노렛을 길들이세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.auroral_snowlette.title",
+      "english": "Frozen Companion",
+      "translation": "얼어붙은 동반자",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.cold_brewing_stand.description",
+      "english": "Craft a Cold Brewing Stand",
+      "translation": "저온 양조기를 만드세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.cold_brewing_stand.title",
+      "english": "Cold Alchemy",
+      "translation": "차가운 연금술",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.glacial_basin.description",
+      "english": "Craft a Glacial Basin to harness aurora energy",
+      "translation": "빙하 대야를 만들어 오로라 에너지를 활용하세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.glacial_basin.title",
+      "english": "Frozen Forge",
+      "translation": "얼어붙은 대장간",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.glow_leek.description",
+      "english": "Harvest a Glow-Leek",
+      "translation": "발광 대파를 수확하세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.glow_leek.title",
+      "english": "Night Vision",
+      "translation": "야간 투시",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.hearthwood_log.description",
+      "english": "Obtain a Hearthwood Log",
+      "translation": "하스우드 원목을 얻으세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.hearthwood_log.title",
+      "english": "Hearth and Home",
+      "translation": "따뜻한 보금자리",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.ride_nautilus.description",
+      "english": "Ride an Auroral Nautilus",
+      "translation": "오로라 앵무조개에 타세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.ride_nautilus.title",
+      "english": "Sky Sailor",
+      "translation": "하늘의 항해사",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.root.description",
+      "english": "Enter a world touched by the aurora",
+      "translation": "오로라가 어루만지는 세계에 들어가세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.root.title",
+      "english": "Auroral",
+      "translation": "Auroral",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.shimmersteel_ingot.description",
+      "english": "Create a Shimmersteel Ingot through aurora infusion",
+      "translation": "오로라 주입으로 시머스틸 주괴를 만드세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.shimmersteel_ingot.title",
+      "english": "Celestial Metal",
+      "translation": "하늘의 금속",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.shimmersteel_tools.description",
+      "english": "Craft all Shimmersteel tools",
+      "translation": "시머스틸 도구를 모두 만드세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.shimmersteel_tools.title",
+      "english": "Ice Armory",
+      "translation": "얼음 무기고",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.shimmerweave_armor.description",
+      "english": "Craft a full set of Shimmerweave armor",
+      "translation": "시머위브 방어구 한 벌을 만드세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.shimmerweave_armor.title",
+      "english": "Aurora Clad",
+      "translation": "오로라를 두르다",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.shimmerweave_fabric.description",
+      "english": "Create Shimmerweave Fabric through aurora infusion",
+      "translation": "오로라 주입으로 시머위브 직물을 만드세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.shimmerweave_fabric.title",
+      "english": "Woven Light",
+      "translation": "빛을 엮다",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.warden_slayer.description",
+      "english": "Slay a Warden while holding an Aurora Lantern",
+      "translation": "오로라 랜턴을 든 채 워든을 처치하세요",
+      "reviewed": true
+    },
+    {
+      "key": "advancement.auroral.warden_slayer.title",
+      "english": "Light in the Darkness",
+      "translation": "어둠 속의 빛",
+      "reviewed": true
+    },
+    {
+      "key": "auroral.config.aurora_chance",
+      "english": "Aurora Chance",
+      "translation": "오로라 발생 확률",
+      "reviewed": true
+    },
+    {
+      "key": "auroral.config.aurora_repair_rate",
+      "english": "Aurora Repair Rate",
+      "translation": "오로라 수리 속도",
+      "reviewed": true
+    },
+    {
+      "key": "auroral.jei.basin_infusion.tooltip",
+      "english": "Requires Liquid Aura (collected during Aurora)",
+      "translation": "액체 오라 필요 (오로라가 발생하는 동안 수집)",
+      "reviewed": true
+    },
+    {
+      "key": "auroral.jei.category.basin_infusion",
+      "english": "Basin Infusion",
+      "translation": "대야 주입",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.aurora_bloom",
+      "english": "Aurora Bloom",
+      "translation": "오로라 꽃",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.aurora_bloom_decorative",
+      "english": "Aurora Bloom",
+      "translation": "오로라 꽃",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.aurora_lantern",
+      "english": "Aurora Lantern",
+      "translation": "오로라 랜턴",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.cold_brewing_stand",
+      "english": "Cold Brewing Stand",
+      "translation": "저온 양조기",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.ender_bloom",
+      "english": "Ender Bloom",
+      "translation": "엔더 꽃",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.glacial_basin",
+      "english": "Glacial Basin",
+      "translation": "빙하 대야",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.glacial_basin.aura_level",
+      "english": "Aura Level: %d/%d",
+      "translation": "오라 수위: %d/%d",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.glacial_basin.aurora_active",
+      "english": "Aurora Active - Collecting Aura",
+      "translation": "오로라 발생 중 - 오라 수집 중",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.glacial_basin.aurora_inactive",
+      "english": "Waiting for Aurora...",
+      "translation": "오로라를 기다리는 중...",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.glacial_basin.infusion_hint",
+      "english": "Right-click with items during Aurora to infuse",
+      "translation": "오로라가 발생하는 동안 아이템을 들고 우클릭해 주입하세요",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.glacial_basin.not_enough_aura",
+      "english": "Requires %d aura levels",
+      "translation": "오라 수위 %d 필요",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.glow_leek",
+      "english": "Glow-Leek",
+      "translation": "발광 대파",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.hearthwood_log",
+      "english": "Hearthwood Log",
+      "translation": "하스우드 원목",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.shimmer_soil",
+      "english": "Shimmer Soil",
+      "translation": "반짝이는 토양",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.shimmering_ice",
+      "english": "Shimmering Ice",
+      "translation": "반짝이는 얼음",
+      "reviewed": true
+    },
+    {
+      "key": "block.auroral.snow_angel",
+      "english": "Snow Angel",
+      "translation": "눈 천사",
+      "reviewed": true
+    },
+    {
+      "key": "config.jade.plugin_auroral.glacial_basin",
+      "english": "Glacial Basin",
+      "translation": "빙하 대야",
+      "reviewed": true
+    },
+    {
+      "key": "config.jade.plugin_auroral.hearthwood_log",
+      "english": "Hearthwood Log",
+      "translation": "하스우드 원목",
+      "reviewed": true
+    },
+    {
+      "key": "effect.auroral.frostbite",
+      "english": "Frostbite",
+      "translation": "동상",
+      "reviewed": true
+    },
+    {
+      "key": "effect.auroral.frostbite_immunity",
+      "english": "Frostbite Immunity",
+      "translation": "동상 면역",
+      "reviewed": true
+    },
+    {
+      "key": "entity.auroral.auroral_nautilus",
+      "english": "Auroral Nautilus",
+      "translation": "오로라 앵무조개",
+      "reviewed": true
+    },
+    {
+      "key": "entity.auroral.auroral_snowlette",
+      "english": "Auroral Snowlette",
+      "translation": "오로라 스노렛",
+      "reviewed": true
+    },
+    {
+      "key": "entity.auroral.star_shot",
+      "english": "Star-Shot",
+      "translation": "별 탄환",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.aurora_ender_shard",
+      "english": "Aurora Ender Shard",
+      "translation": "오로라 엔더 조각",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.aurora_shard",
+      "english": "Aurora Shard",
+      "translation": "오로라 조각",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.auroral_nautilus_spawn_egg",
+      "english": "Auroral Nautilus Spawn Egg",
+      "translation": "오로라 앵무조개 생성 알",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.auroral_snowlette_spawn_egg",
+      "english": "Auroral Snowlette Spawn Egg",
+      "translation": "오로라 스노렛 생성 알",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.candied_glow_leek",
+      "english": "Candied Glow-Leek",
+      "translation": "설탕에 절인 발광 대파",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.frosted_cookies",
+      "english": "Frosted Cookies",
+      "translation": "아이싱 쿠키",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.frozen_petals",
+      "english": "Frozen Petals",
+      "translation": "얼어붙은 꽃잎",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.glow_leek",
+      "english": "Glow-Leek",
+      "translation": "발광 대파",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.guide",
+      "english": "The Auroral Guidebook",
+      "translation": "Auroral 가이드북",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.hot_cocoa",
+      "english": "Hot Cocoa",
+      "translation": "핫초코",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.roasted_snowball",
+      "english": "Roasted Snowball",
+      "translation": "구운 눈덩이",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.roasted_snowball.eaten",
+      "english": "The Magestic Nautili will no longer Soar In your skies",
+      "translation": "장엄한 앵무조개들이 더는 당신의 하늘을 날지 않아요",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.roasted_snowball.tooltip.line1",
+      "english": "A toasted snowball. Delicious, lightly filling.",
+      "translation": "노릇하게 구운 눈덩이예요. 맛있고 허기를 조금 채워 줘요.",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.roasted_snowball.tooltip.line2",
+      "english": "Eating one offends the Auroral Nautili. Wild Nautili will no longer spawn near you.",
+      "translation": "먹으면 오로라 앵무조개들이 기분 나빠해요. 주변에 야생 앵무조개가 더는 생성되지 않아요.",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmersteel_axe",
+      "english": "Shimmersteel Axe",
+      "translation": "시머스틸 도끼",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmersteel_bow",
+      "english": "Shimmersteel Bow",
+      "translation": "시머스틸 활",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmersteel_hoe",
+      "english": "Shimmersteel Hoe",
+      "translation": "시머스틸 괭이",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmersteel_ingot",
+      "english": "Shimmersteel Ingot",
+      "translation": "시머스틸 주괴",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmersteel_pickaxe",
+      "english": "Shimmersteel Pickaxe",
+      "translation": "시머스틸 곡괭이",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmersteel_shovel",
+      "english": "Shimmersteel Shovel",
+      "translation": "시머스틸 삽",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmersteel_sword",
+      "english": "Shimmersteel Sword",
+      "translation": "시머스틸 검",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmersteel_upgrade_smithing_template",
+      "english": "Smithing Template",
+      "translation": "대장장이 형판",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmerweave_fabric",
+      "english": "Shimmerweave Fabric",
+      "translation": "시머위브 직물",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmerweave_goggles",
+      "english": "Shimmerweave Goggles",
+      "translation": "시머위브 고글",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmerweave_leggings",
+      "english": "Shimmerweave Leggings",
+      "translation": "시머위브 레깅스",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmerweave_skates",
+      "english": "Shimmerweave Skates",
+      "translation": "시머위브 스케이트",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.shimmerweave_tunic",
+      "english": "Shimmerweave Tunic",
+      "translation": "시머위브 튜닉",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.smithing_template.shimmersteel_upgrade.additions_slot_description",
+      "english": "Add Shimmersteel Ingot or Shimmerweave Fabric",
+      "translation": "시머스틸 주괴 또는 시머위브 직물을 놓으세요",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.smithing_template.shimmersteel_upgrade.applies_to",
+      "english": "Iron Equipment",
+      "translation": "철 장비",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.smithing_template.shimmersteel_upgrade.base_slot_description",
+      "english": "Add iron armor, weapon, or tool",
+      "translation": "철 갑옷, 무기 또는 도구를 놓으세요",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.smithing_template.shimmersteel_upgrade.ingredients",
+      "english": "Shimmersteel Ingot or Shimmerweave Fabric",
+      "translation": "시머스틸 주괴 또는 시머위브 직물",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.snore",
+      "english": "S'nore",
+      "translation": "스노어",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.sugared_roasted_snowball",
+      "english": "Sugared Roasted Snowball",
+      "translation": "설탕을 입힌 구운 눈덩이",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.sugared_roasted_snowball.eaten",
+      "english": "The Majestic Nautili fly once again!",
+      "translation": "장엄한 앵무조개들이 다시 날아다녀요!",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.sugared_roasted_snowball.tooltip.line1",
+      "english": "A Roasted Snowball rolled in sugar. Light snack, shiny coating.",
+      "translation": "설탕을 굴려 입힌 구운 눈덩이예요. 반짝이는 겉면의 가벼운 간식이에요.",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.sugared_roasted_snowball.tooltip.line2",
+      "english": "Eating one apologizes to the Auroral Nautili so they grace your skies again.",
+      "translation": "먹으면 오로라 앵무조개들에게 사과가 전해져, 다시 당신의 하늘을 찾아와요.",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.unrefined_shimmersteel",
+      "english": "Unrefined Shimmersteel",
+      "translation": "미정제 시머스틸",
+      "reviewed": true
+    },
+    {
+      "key": "item.auroral.woven_leather",
+      "english": "Woven Leather",
+      "translation": "엮은 가죽",
+      "reviewed": true
+    },
+    {
+      "key": "itemGroup.auroral",
+      "english": "Auroral",
+      "translation": "Auroral",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.aurora_ambient",
+      "english": "Aurora hums",
+      "translation": "오로라가 웅웅거림",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.aurora_end",
+      "english": "Aurora fades",
+      "translation": "오로라가 사라짐",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.aurora_music",
+      "english": "Aurora music plays",
+      "translation": "오로라 음악이 재생됨",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.aurora_start",
+      "english": "Aurora begins",
+      "translation": "오로라가 시작됨",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.basin_fill",
+      "english": "Basin fills with aura",
+      "translation": "대야가 오라로 채워짐",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.basin_infuse",
+      "english": "Basin infuses",
+      "translation": "대야가 주입함",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.hearthwood_log_crackle",
+      "english": "Hearthwood Log crackles",
+      "translation": "하스우드 원목이 타닥거림",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.hearthwood_log_ignite",
+      "english": "Hearthwood Log ignites",
+      "translation": "하스우드 원목에 불이 붙음",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.nautilus_ambient",
+      "english": "Auroral Nautilus chimes",
+      "translation": "오로라 앵무조개가 맑게 울음",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.nautilus_death",
+      "english": "Auroral Nautilus fades",
+      "translation": "오로라 앵무조개가 사라짐",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.nautilus_spawn",
+      "english": "Auroral Nautilus appears",
+      "translation": "오로라 앵무조개가 나타남",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.skates_slide",
+      "english": "Skates slide",
+      "translation": "스케이트가 미끄러짐",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.star_shot_fire",
+      "english": "Star-Shot fires",
+      "translation": "별 탄환이 발사됨",
+      "reviewed": true
+    },
+    {
+      "key": "subtitles.auroral.star_shot_impact",
+      "english": "Star-Shot explodes",
+      "translation": "별 탄환이 폭발함",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.aurora_bloom.frozen_petals",
+      "english": "Mature blooms drop Frozen Petals",
+      "translation": "다 자란 꽃은 얼어붙은 꽃잎을 떨어뜨려요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.aurora_bloom.grows_at_night",
+      "english": "Grows at night on snow; withers in daylight",
+      "translation": "밤에 눈 위에서 자라며, 햇빛을 받으면 시들어요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.aurora_ender_shard.ender_bloom",
+      "english": "Right-click an Aurora Bloom to transform it",
+      "translation": "오로라 꽃을 우클릭하면 변환돼요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.aurora_lantern.decorative",
+      "english": "Decorative light with aurora sparkle",
+      "translation": "오로라가 반짝이는 장식용 조명이에요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.cold_brewing_stand.no_nether",
+      "english": "Brews potions without a Blaze Rod",
+      "translation": "블레이즈 막대 없이 물약을 양조해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.ender_bloom.ender_shards",
+      "english": "Mature plants drop Aurora Ender Shards",
+      "translation": "다 자란 식물은 오로라 엔더 조각을 떨어뜨려요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.frozen_petals.preserve_snow_angel",
+      "english": "Right-click a Snow Angel to preserve it",
+      "translation": "눈 천사를 우클릭하면 보존돼요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.glacial_basin.collect_aura",
+      "english": "Collects Liquid Aura under open sky during auroras",
+      "translation": "오로라가 발생하는 동안 탁 트인 하늘 아래에서 액체 오라를 수집해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.glacial_basin.infuse",
+      "english": "Right-click with items during auroras to infuse",
+      "translation": "오로라가 발생하는 동안 아이템을 들고 우클릭해 주입하세요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.glow_leek.grows_on_ice",
+      "english": "Grows on Shimmering Ice",
+      "translation": "반짝이는 얼음 위에서 자라요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.glow_leek.night_vision",
+      "english": "Eating grants Night Vision and Glowing",
+      "translation": "먹으면 야간 투시와 발광 효과를 받아요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.hearthwood_log.aurora_catalyst",
+      "english": "Aurora Catalyst: +15% per log, up to +45%",
+      "translation": "오로라 촉매: 원목당 +15%, 최대 +45%",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.hearthwood_log.burn_time",
+      "english": "Burns for 7 in-game days while loaded",
+      "translation": "청크가 로드된 동안 게임 시간으로 7일간 타요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.hearthwood_log.frostbite_immunity",
+      "english": "Grants Frostbite Immunity within 16 blocks",
+      "translation": "16블록 이내에 동상 면역을 부여해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.hearthwood_log.phantom_ward",
+      "english": "Ignites phantoms; wards off targeting",
+      "translation": "팬텀에 불을 붙이고 공격 대상으로 삼지 못하게 해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmer_soil.growth_boost",
+      "english": "3x growth at night, 5x during auroras",
+      "translation": "밤에는 3배, 오로라가 발생하는 동안에는 5배 빠르게 자라요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmer_soil.tilled",
+      "english": "Till snow with a Shimmersteel Hoe",
+      "translation": "시머스틸 괭이로 눈을 가세요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmering_ice.glow_leek",
+      "english": "Supports Glow-Leek crops",
+      "translation": "발광 대파를 심을 수 있어요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmering_ice.hydrates",
+      "english": "Hydrates adjacent farmland",
+      "translation": "인접한 경작지에 수분을 공급해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmering_ice.never_melts",
+      "english": "Never melts",
+      "translation": "절대 녹지 않아요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmersteel_axe.force_oxidize",
+      "english": "Right-click copper to force oxidation",
+      "translation": "구리를 우클릭하면 강제로 산화시켜요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmersteel_bow.star_shot",
+      "english": "Fires Star-Shots from snowballs",
+      "translation": "눈덩이를 별 탄환으로 발사해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmersteel_hoe.shimmer_soil",
+      "english": "Tills snow into Shimmer Soil",
+      "translation": "눈을 갈아 반짝이는 토양으로 바꿔요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmersteel_hoe.silk_touch",
+      "english": "Inherent Silk Touch",
+      "translation": "섬세한 손길이 내장되어 있어요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmersteel_pickaxe.gem_fortune",
+      "english": "Fortune III on gem ores",
+      "translation": "보석 광석에 행운 III 적용",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmersteel_shovel.silk_touch",
+      "english": "Inherent Silk Touch",
+      "translation": "섬세한 손길이 내장되어 있어요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmersteel_sword.execute",
+      "english": "Executes enemies below 15% health",
+      "translation": "체력이 15% 미만인 적을 처형해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmersteel_sword.frostbite",
+      "english": "Applies Frostbite on hit",
+      "translation": "적중 시 동상을 부여해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmerweave_goggles.glow_hostiles",
+      "english": "Highlights hostile mobs nearby",
+      "translation": "주변의 적대적 몹을 강조 표시해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmerweave_leggings.snow_speed",
+      "english": "Speed boost on snow",
+      "translation": "눈 위에서 이동 속도가 증가해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmerweave_leggings.soul_speed",
+      "english": "Speed boost on Soul Sand and Soul Soil",
+      "translation": "영혼 모래와 영혼 흙 위에서 이동 속도가 증가해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmerweave_skates.frost_walker",
+      "english": "Freezes water underfoot",
+      "translation": "발밑의 물을 얼려요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmerweave_skates.ice_speed",
+      "english": "Ice skating speed on ice and packed ice",
+      "translation": "얼음과 꽁꽁 언 얼음 위에서 스케이트처럼 빠르게 이동해요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmerweave_skates.lava_to_obsidian",
+      "english": "Turns surface lava into obsidian",
+      "translation": "표면의 용암을 흑요석으로 바꿔요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmerweave_skates.no_ice_fall",
+      "english": "No fall damage on ice or obsidian",
+      "translation": "얼음이나 흑요석 위에서는 낙하 피해를 받지 않아요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.shimmerweave_tunic.extinguish",
+      "english": "Auto-extinguishes fire",
+      "translation": "자동으로 불을 꺼요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.snow_angel.fades",
+      "english": "Fades after 5 minutes; preserve with Frozen Petals",
+      "translation": "5분 후 사라져요. 얼어붙은 꽃잎으로 보존하세요",
+      "reviewed": true
+    },
+    {
+      "key": "tooltip.auroral.snow_angel.imprint",
+      "english": "Imprinted by sneak-right-clicking on snow",
+      "translation": "눈 위에서 웅크린 채 우클릭하면 새겨져요",
+      "reviewed": true
+    },
+    {
+      "key": "trim_material.auroral.shimmersteel",
+      "english": "Shimmersteel Material",
+      "translation": "시머스틸 재료",
+      "reviewed": true
+    },
+    {
+      "key": "upgrade.auroral.shimmersteel_upgrade",
+      "english": "Shimmersteel Upgrade",
+      "translation": "시머스틸 업그레이드",
+      "reviewed": true
+    }
+  ]
+}

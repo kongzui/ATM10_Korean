@@ -1,0 +1,2559 @@
+[
+  {
+    "path": "aurora/aurora_events.md",
+    "lines": [
+      [
+        4,
+        "title: Aurora Events"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Aurora Events</Color>"
+      ],
+      [
+        15,
+        "The celestial phenomenon at the heart of Auroral. When the lights come out, the cold biomes wake up."
+      ],
+      [
+        22,
+        "## <Color id=\"gold\">When Auroras Occur</Color>"
+      ],
+      [
+        25,
+        "Auroras have a **33% chance** to begin each night in cold biomes. While one is active:"
+      ],
+      [
+        27,
+        "* The sky fills with green and pink ribbons of light."
+      ],
+      [
+        28,
+        "* The night is never fully dark."
+      ],
+      [
+        29,
+        "* The mod's magical effects switch on."
+      ],
+      [
+        35,
+        "## <Color id=\"gold\">Effects</Color>"
+      ],
+      [
+        40,
+        "### <Color id=\"aqua\">Liquid Aura</Color>"
+      ],
+      [
+        43,
+        "<ItemLink id=\"glacial_basin\" />s exposed to the sky slowly fill with Liquid Aura, the magical substance needed for Shimmersteel infusion."
+      ],
+      [
+        47,
+        "### <Color id=\"aqua\">Gear Repair</Color>"
+      ],
+      [
+        50,
+        "Shimmersteel tools and Shimmerweave armor repair themselves while equipped during an aurora."
+      ],
+      [
+        54,
+        "### <Color id=\"aqua\">Creature Spawning</Color>"
+      ],
+      [
+        57,
+        "Auroral Nautiluses drift in near players during aurora events."
+      ],
+      [
+        61,
+        "### <Color id=\"aqua\">Flora Growth</Color>"
+      ],
+      [
+        64,
+        "<ItemLink id=\"aurora_bloom\" />s appear on snow blocks, ready to be harvested for Frozen Petals."
+      ],
+      [
+        70,
+        "## <Color id=\"gold\">Aurora Catalyst</Color>"
+      ],
+      [
+        75,
+        "### <Color id=\"aqua\">Hearthwood Log</Color>"
+      ],
+      [
+        78,
+        "A lit <ItemLink id=\"hearthwood_log\" /> within 32 blocks of a player in a cold biome adds **+15% aurora chance** at nightfall. Up to three logs stack for **+45%**, pushing the nightly chance to about **78%** on default settings."
+      ],
+      [
+        80,
+        "The catalyst is a strong boost, not a guarantee. For near-certain auroras, keep several lit logs near where you sleep and make sure you are in a cold biome when night begins."
+      ],
+      [
+        84,
+        "A lit Hearthwood Log also grants Frostbite Immunity, repels Phantoms, and improves villager trades."
+      ]
+    ]
+  },
+  {
+    "path": "aurora/creatures.md",
+    "lines": [
+      [
+        5,
+        "title: Aurora Creatures"
+      ],
+      [
+        11,
+        "# <Color id=\"gold\">Creatures of the Aurora</Color>"
+      ],
+      [
+        16,
+        "Beings drawn from the celestial light. Some you tame, some you ride, some you simply pet."
+      ],
+      [
+        23,
+        "## <Color id=\"gold\">Auroral Nautilus</Color>"
+      ],
+      [
+        28,
+        "### <Color id=\"aqua\">Wild Behavior</Color>"
+      ],
+      [
+        31,
+        "A peaceful floating creature that only appears during auroras, drifting through the sky with a softly glowing shell."
+      ],
+      [
+        33,
+        "* Spawns only during active auroras"
+      ],
+      [
+        34,
+        "* Floats gently in circular patterns"
+      ],
+      [
+        35,
+        "* Peaceful and non-hostile"
+      ],
+      [
+        36,
+        "* Comes in three sizes"
+      ],
+      [
+        37,
+        "* Fades away gracefully 30 seconds after the aurora ends"
+      ],
+      [
+        41,
+        "### <Color id=\"aqua\">Attracting Nautili</Color>"
+      ],
+      [
+        44,
+        "Wild Nautili are curious and drift toward players holding an <ItemLink id=\"aurora_shard\" />."
+      ],
+      [
+        48,
+        "### <Color id=\"aqua\">Taming</Color>"
+      ],
+      [
+        51,
+        "Feed a wild Nautilus an Aurora Shard. Each shard has a **33% chance** to tame. Once tamed:"
+      ],
+      [
+        53,
+        "* The nautilus will orbit slowly around you."
+      ],
+      [
+        54,
+        "* It no longer despawns when the aurora ends."
+      ],
+      [
+        55,
+        "* Heart particles confirm the bond."
+      ],
+      [
+        59,
+        "### <Color id=\"aqua\">Commanding</Color>"
+      ],
+      [
+        62,
+        "* **Shift + Right-click** — toggle between **Follow** (orbits you) and **Stay** (hovers in place)."
+      ],
+      [
+        66,
+        "### <Color id=\"aqua\">Riding</Color>"
+      ],
+      [
+        69,
+        "Tamed Nautili can be ridden without a saddle."
+      ],
+      [
+        71,
+        "1. Right-click to mount (owner only, nautilus must not be in Stay mode)."
+      ],
+      [
+        72,
+        "2. Control flight with movement keys and look direction."
+      ],
+      [
+        73,
+        "3. Hold **Space** to charge, release for a speed boost up to **3x** when fully charged."
+      ],
+      [
+        77,
+        "### <Color id=\"aqua\">Drops</Color>"
+      ],
+      [
+        80,
+        "When a Nautilus fades away or is slain, it may drop:"
+      ],
+      [
+        82,
+        "* 1–2 Aurora Shards (player kills only)"
+      ],
+      [
+        83,
+        "* Nautilus Shells (15% chance, player kills only)"
+      ],
+      [
+        87,
+        "### <Color id=\"aqua\">Offending the Nautili</Color>"
+      ],
+      [
+        90,
+        "Eating a <ItemLink id=\"roasted_snowball\" /> offends the Aurora. While you carry that offense, wild Nautili **will not spawn near you** during auroras. Only tamed Nautili remain. To atone, craft and eat a <ItemLink id=\"sugared_roasted_snowball\" /> and the skies will grace you again."
+      ],
+      [
+        96,
+        "## <Color id=\"gold\">Auroral Snowlette</Color>"
+      ],
+      [
+        101,
+        "### <Color id=\"aqua\">A Pocket-Sized Snow Golem</Color>"
+      ],
+      [
+        104,
+        "A small, friendly companion created by right-clicking a Snow Golem with an <ItemLink id=\"aurora_shard\" />."
+      ],
+      [
+        106,
+        "* Follows the player like a pet"
+      ],
+      [
+        107,
+        "* About 1/4 the size of a normal Snow Golem"
+      ],
+      [
+        108,
+        "* Heals when you throw snowballs at it"
+      ],
+      [
+        109,
+        "* Emits gentle aurora sparkles"
+      ]
+    ]
+  },
+  {
+    "path": "decorations/aurora_lantern.md",
+    "lines": [
+      [
+        4,
+        "title: Aurora Lantern"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Aurora Lantern</Color>"
+      ],
+      [
+        15,
+        "A decorative light source that captures the ethereal glow of the northern lights — and dispels magical darkness when held."
+      ],
+      [
+        26,
+        "## <Color id=\"gold\">Properties</Color>"
+      ],
+      [
+        29,
+        "* **Light Level 15** — maximum brightness"
+      ],
+      [
+        30,
+        "* **Color Shifting** — gently cycles through aurora hues (green, blue, pink)"
+      ],
+      [
+        31,
+        "* **Placeable** — fits on floors, walls, or hung from ceilings"
+      ],
+      [
+        32,
+        "* **Waterproof** — works underwater without going out"
+      ],
+      [
+        38,
+        "## <Color id=\"gold\">Darkness Immunity</Color>"
+      ],
+      [
+        43,
+        "### <Color id=\"aqua\">Held In-Hand</Color>"
+      ],
+      [
+        46,
+        "While held in your main hand or off-hand, the Aurora Lantern grants immunity to the Darkness effect. Its ethereal glow dispels magical darkness, making it invaluable when exploring Deep Dark biomes or fighting the Warden."
+      ],
+      [
+        52,
+        "## <Color id=\"gold\">Uses</Color>"
+      ],
+      [
+        55,
+        "* Illuminating cold-biome builds"
+      ],
+      [
+        56,
+        "* Setting an enchanted atmosphere"
+      ],
+      [
+        57,
+        "* Marking paths through snowy terrain"
+      ],
+      [
+        58,
+        "* Decorating Shimmerweave-themed areas"
+      ]
+    ]
+  },
+  {
+    "path": "decorations/hearthwood_log.md",
+    "lines": [
+      [
+        2,
+        "title: Hearthwood Log"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Hearthwood Log</Color>"
+      ],
+      [
+        15,
+        "A magical log that burns with an enchanted flame. A lit Hearthwood holds back the Frostbite, repels Phantoms, and tilts the night toward an aurora."
+      ],
+      [
+        22,
+        "## <Color id=\"gold\">Obtaining</Color>"
+      ],
+      [
+        25,
+        "Hearthwood Logs grow naturally in cold biomes and turn up in:"
+      ],
+      [
+        27,
+        "* Snowy Taiga villages"
+      ],
+      [
+        28,
+        "* Frozen structures"
+      ],
+      [
+        29,
+        "* Igloo basements (occasionally)"
+      ],
+      [
+        35,
+        "## <Color id=\"gold\">Lighting It</Color>"
+      ],
+      [
+        38,
+        "Right-click the log with **Flint and Steel** to ignite it. Once lit, it burns with a warm, magical glow and starts giving off its passive effects. A burnt-out log can be relit the same way."
+      ],
+      [
+        44,
+        "## <Color id=\"gold\">Effects</Color>"
+      ],
+      [
+        49,
+        "### <Color id=\"aqua\">Extended Burn</Color>"
+      ],
+      [
+        52,
+        "A lit Hearthwood Log burns for **7 in-game days** of chunk-loaded time (168,000 ticks, roughly 2 hours 20 minutes of continuous play). The timer only ticks down while the chunk is active, so logs in rarely-visited chunks last much longer in real time. Burn time is configurable in the server config."
+      ],
+      [
+        56,
+        "### <Color id=\"aqua\">Frostbite Immunity</Color>"
+      ],
+      [
+        59,
+        "Players within a **16-block radius** of a lit log are immune to Frostbite. Make a ring of them and your base stays safe through the worst of winter."
+      ],
+      [
+        63,
+        "### <Color id=\"aqua\">Phantom Ward</Color>"
+      ],
+      [
+        66,
+        "Any Phantom that strays within 16 blocks of a lit log catches fire on contact. Phantoms also refuse to target players currently warmed by Frostbite Immunity, so a ring of lit Hearthwoods keeps the night skies clear."
+      ],
+      [
+        70,
+        "### <Color id=\"aqua\">Aurora Catalyst</Color>"
+      ],
+      [
+        73,
+        "A lit log within **32 blocks** of a player in a cold biome adds **+15% aurora chance** at nightfall. Up to three logs stack for **+45%**, pushing the nightly aurora chance to about 78% on default settings. Logs beyond the third do not stack."
+      ],
+      [
+        77,
+        "### <Color id=\"aqua\">Villager Comfort</Color>"
+      ],
+      [
+        80,
+        "Villagers near a lit log feel more at ease and may offer better trades."
+      ],
+      [
+        86,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        89,
+        "* Place logs around your cold-biome base for permanent Frostbite protection."
+      ],
+      [
+        90,
+        "* The warm glow doubles as ambient lighting."
+      ],
+      [
+        91,
+        "* Three lit logs is the sweet spot for the aurora bonus; the fourth does nothing extra."
+      ]
+    ]
+  },
+  {
+    "path": "decorations/snow_angel.md",
+    "lines": [
+      [
+        4,
+        "title: Snow Angels"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Snow Angels</Color>"
+      ],
+      [
+        15,
+        "A playful imprint left in fresh snow. Temporary by default — preserve it with a Frozen Petal to keep it forever."
+      ],
+      [
+        22,
+        "## <Color id=\"gold\">Creating a Snow Angel</Color>"
+      ],
+      [
+        25,
+        "**Sneak and right-click** on any snow surface with **both hands empty**. Your character leaves an imprint in the snow, creating a decorative snow angel pattern."
+      ],
+      [
+        27,
+        "A snow angel is marked as a *replaceable* block — you can place a new block directly into its space without breaking it first, the same way you would over tall grass or a snow layer."
+      ],
+      [
+        29,
+        "Valid surfaces:"
+      ],
+      [
+        31,
+        "* Snow layers"
+      ],
+      [
+        32,
+        "* Snow blocks"
+      ],
+      [
+        33,
+        "* Powder snow"
+      ],
+      [
+        39,
+        "## <Color id=\"gold\">Fading Away</Color>"
+      ],
+      [
+        42,
+        "Snow angels are temporary by nature. Like footprints in fresh snow, they fade away after **5 minutes** if left alone."
+      ],
+      [
+        48,
+        "## <Color id=\"gold\">Preserving</Color>"
+      ],
+      [
+        53,
+        "### <Color id=\"aqua\">Right-Click with a Frozen Petal</Color>"
+      ],
+      [
+        56,
+        "Right-click a snow angel with a <ItemLink id=\"frozen_petals\" />. The petal's magic crystallizes the snow angel, stopping it from fading. Preserved snow angels remain until broken."
+      ],
+      [
+        58,
+        "Frozen Petals come from harvesting fully grown <ItemLink id=\"aurora_bloom\" />s during an aurora."
+      ]
+    ]
+  },
+  {
+    "path": "flora/aurora_blooms.md",
+    "lines": [
+      [
+        6,
+        "title: Aurora Blooms"
+      ],
+      [
+        12,
+        "# <Color id=\"gold\">Aurora Blooms</Color>"
+      ],
+      [
+        17,
+        "Magical flowers that spontaneously appear on snow during auroras. The source of <ItemLink id=\"frozen_petals\" /> and the gateway to most of the mod's content."
+      ],
+      [
+        24,
+        "## <Color id=\"gold\">Finding Aurora Blooms</Color>"
+      ],
+      [
+        27,
+        "During an aurora, Aurora Blooms naturally spawn on cold-biome surfaces. They grow through **four stages** before becoming fully mature. Any blooms left behind when the aurora ends wilt away at sunrise."
+      ],
+      [
+        29,
+        "Valid surfaces for spawning and survival:"
+      ],
+      [
+        31,
+        "* Snow layers (provided the block beneath is itself a valid snowy surface, so blooms aren't stranded on dirt or stone if the snow melts)"
+      ],
+      [
+        32,
+        "* Snow blocks"
+      ],
+      [
+        33,
+        "* Powder snow (see below)"
+      ],
+      [
+        34,
+        "* Ice, Packed Ice, and Blue Ice (frozen ocean surfaces work)"
+      ],
+      [
+        39,
+        "### <Color id=\"aqua\">Snow-Logged Blooms</Color>"
+      ],
+      [
+        42,
+        "When a bloom is placed on a **snow layer** or appears in **powder snow**, the snow type is remembered. Breaking or wilting the bloom restores the original snow in place — a snow layer comes back as a snow layer, powder snow comes back as powder snow. Buried blooms emit a faint trickle of snowflake particles above them so they can still be located if more snow piles on top."
+      ],
+      [
+        48,
+        "## <Color id=\"gold\">Harvesting</Color>"
+      ],
+      [
+        51,
+        "Breaking a fully grown (stage 3) Aurora Bloom drops:"
+      ],
+      [
+        53,
+        "* <ItemLink id=\"frozen_petals\" /> (1–4 with Fortune)"
+      ],
+      [
+        54,
+        "* The **living Aurora Bloom** itself, so you can replant it"
+      ],
+      [
+        55,
+        "* A **15% chance** for an additional living bloom on top of that"
+      ],
+      [
+        57,
+        "Breaking an immature bloom yields nothing — patience is rewarded."
+      ],
+      [
+        63,
+        "## <Color id=\"gold\">Preserved Blooms (Silk Touch)</Color>"
+      ],
+      [
+        66,
+        "A **Silk Touch** tool on a fully grown Aurora Bloom yields a **decorative Aurora Bloom** instead of Frozen Petals. The decorative variant:"
+      ],
+      [
+        68,
+        "* Never decays at sunrise — it stays forever"
+      ],
+      [
+        69,
+        "* Always shows the stage 3 appearance"
+      ],
+      [
+        70,
+        "* Fits inside a **Flower Pot** for display"
+      ],
+      [
+        71,
+        "* Drops itself when broken, so it can be cloned anywhere"
+      ],
+      [
+        73,
+        "This is the only way to keep an Aurora Bloom outside of an active aurora."
+      ],
+      [
+        79,
+        "## <Color id=\"gold\">Uses for Frozen Petals</Color>"
+      ],
+      [
+        82,
+        "* **Awkward Potions** — brew like Nether Wart from a Water Bottle in any brewing stand"
+      ],
+      [
+        83,
+        "* <ItemLink id=\"cold_brewing_stand\" /> — combined with Shimmersteel Ingots"
+      ],
+      [
+        84,
+        "* <ItemLink id=\"glow_leek_seeds\" /> — combined with wheat seeds"
+      ],
+      [
+        85,
+        "* <ItemLink id=\"frosted_cookies\" /> — sweet treat with magical shimmer"
+      ],
+      [
+        86,
+        "* <ItemLink id=\"aurora_shard\" /> — infuse in a Glacial Basin with 1 aura level"
+      ],
+      [
+        94,
+        "## <Color id=\"gold\">Ender Transformation</Color>"
+      ],
+      [
+        99,
+        "### <Color id=\"aqua\">Right-click with an Ender Pearl</Color>"
+      ],
+      [
+        102,
+        "Right-clicking an Aurora Bloom with an **Ender Pearl** transforms it into an <ItemLink id=\"ender_bloom\" /> at the same growth stage. The pearl is consumed in the process. See [Ender Blooms](ender_bloom.md) for the full lifecycle."
+      ]
+    ]
+  },
+  {
+    "path": "flora/ender_bloom.md",
+    "lines": [
+      [
+        5,
+        "title: Ender Blooms"
+      ],
+      [
+        11,
+        "# <Color id=\"gold\">Ender Blooms</Color>"
+      ],
+      [
+        16,
+        "The ender-touched cousins of Aurora Blooms — purple, restless, and a renewable source of Ender Pearls."
+      ],
+      [
+        23,
+        "## <Color id=\"gold\">Creation</Color>"
+      ],
+      [
+        26,
+        "Ender Blooms never spawn on their own. To make one:"
+      ],
+      [
+        28,
+        "1. Find or grow an <ItemLink id=\"aurora_bloom\" /> during an aurora event."
+      ],
+      [
+        29,
+        "2. Right-click the bloom while holding an **Ender Pearl**."
+      ],
+      [
+        30,
+        "3. The bloom transforms into an Ender Bloom at the same growth stage. The pearl is consumed."
+      ],
+      [
+        36,
+        "## <Color id=\"gold\">Persistence</Color>"
+      ],
+      [
+        39,
+        "Unlike Aurora Blooms, Ender Blooms **persist forever**. They do not wilt at sunrise and remain when the aurora ends."
+      ],
+      [
+        45,
+        "## <Color id=\"gold\">Growth Requirements</Color>"
+      ],
+      [
+        48,
+        "An Ender Bloom will only progress through its growth stages when planted on:"
+      ],
+      [
+        51,
+        "* **End Stone**"
+      ],
+      [
+        53,
+        "On any other supporting block it survives indefinitely but stays at whatever stage it was placed. Bonemeal is also ineffective unless planted on one of the blocks above."
+      ],
+      [
+        59,
+        "## <Color id=\"gold\">Harvesting</Color>"
+      ],
+      [
+        62,
+        "Breaking an Ender Bloom at **any** stage drops a single Ender Bloom item (which always replants at stage 0)."
+      ],
+      [
+        64,
+        "When broken at stage 3, it **also** drops:"
+      ],
+      [
+        66,
+        "* One <ItemLink id=\"aurora_ender_shard\" />"
+      ],
+      [
+        67,
+        "* A **5% chance** for an additional Ender Bloom"
+      ],
+      [
+        73,
+        "## <Color id=\"gold\">Aurora Ender Shards</Color>"
+      ],
+      [
+        78,
+        "### <Color id=\"aqua\">Renewable Ender Pearls</Color>"
+      ],
+      [
+        81,
+        "Two Aurora Ender Shards craft back into an Ender Pearl. A mature Ender Bloom farm becomes a renewable Ender Pearl source."
+      ]
+    ]
+  },
+  {
+    "path": "flora/glow_leeks.md",
+    "lines": [
+      [
+        6,
+        "title: Glow Leeks"
+      ],
+      [
+        12,
+        "# <Color id=\"gold\">Glow Leeks</Color>"
+      ],
+      [
+        17,
+        "Luminescent vegetables that thrive in the cold. Grants Night Vision and Glowing when eaten."
+      ],
+      [
+        24,
+        "## <Color id=\"gold\">Seeds</Color>"
+      ],
+      [
+        29,
+        "### <Color id=\"aqua\">Glow Leek Seeds</Color>"
+      ],
+      [
+        32,
+        "Crafted by combining <ItemLink id=\"frozen_petals\" /> with **Wheat Seeds**."
+      ],
+      [
+        40,
+        "## <Color id=\"gold\">Growing</Color>"
+      ],
+      [
+        43,
+        "Glow Leeks grow only on <ItemLink id=\"shimmering_ice\" /> blocks. They do not require light and continue growing through the night."
+      ],
+      [
+        45,
+        "When fully grown, breaking a plant drops:"
+      ],
+      [
+        47,
+        "* **Glow Leek** (the vegetable)"
+      ],
+      [
+        48,
+        "* **Glow Leek Seeds** (for replanting)"
+      ],
+      [
+        54,
+        "## <Color id=\"gold\">Eating</Color>"
+      ],
+      [
+        57,
+        "Eating a Glow Leek grants:"
+      ],
+      [
+        59,
+        "* **Night Vision** — see clearly in the dark"
+      ],
+      [
+        60,
+        "* **Glowing** — you become visible to others"
+      ],
+      [
+        64,
+        "### <Color id=\"aqua\">Candied Glow Leek</Color>"
+      ],
+      [
+        67,
+        "Sweetened, without the glowing aftermath. Just Night Vision."
+      ]
+    ]
+  },
+  {
+    "path": "flora/shimmering_ice.md",
+    "lines": [
+      [
+        4,
+        "title: Shimmering Ice"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Shimmering Ice</Color>"
+      ],
+      [
+        15,
+        "Aurora-infused ice that glows softly, never melts, and hydrates the ground around it. The foundation of the cold-biome farm."
+      ],
+      [
+        22,
+        "## <Color id=\"gold\">Obtaining</Color>"
+      ],
+      [
+        25,
+        "* Infusing regular ice in a <ItemLink id=\"glacial_basin\" /> with Liquid Aura"
+      ],
+      [
+        26,
+        "* Found naturally in aurora-touched frozen biomes (rare)"
+      ],
+      [
+        32,
+        "## <Color id=\"gold\">Properties</Color>"
+      ],
+      [
+        37,
+        "### <Color id=\"aqua\">Never Melts</Color>"
+      ],
+      [
+        40,
+        "Completely resistant to heat and light. Perfect for decorative builds and functional paths that need to last."
+      ],
+      [
+        44,
+        "### <Color id=\"aqua\">Light Emission</Color>"
+      ],
+      [
+        47,
+        "Emits a soft glow at light level 8 — enough to prevent mob spawning while keeping the ambiance."
+      ],
+      [
+        51,
+        "### <Color id=\"aqua\">Hydration</Color>"
+      ],
+      [
+        54,
+        "Hydrates vanilla farmland and <ItemLink id=\"shimmer_soil\" /> within a **4-block radius**, just like water. Combined with the soft glow, this makes it excellent for underground farms with no water channels."
+      ],
+      [
+        58,
+        "### <Color id=\"aqua\">Glow Leek Substrate</Color>"
+      ],
+      [
+        61,
+        "<ItemLink id=\"glow_leek_seeds\" /> can only be planted on Shimmering Ice — its magical properties are essential for growing the bioluminescent crop."
+      ],
+      [
+        67,
+        "## <Color id=\"gold\">Shimmer Soil Synergy</Color>"
+      ],
+      [
+        70,
+        "Pair Shimmering Ice with <ItemLink id=\"shimmer_soil\" /> (created with a Shimmersteel Hoe) for the ultimate frozen-biome farm:"
+      ],
+      [
+        72,
+        "* Shimmering Ice provides hydration **and** light"
+      ],
+      [
+        73,
+        "* Shimmer Soil grows crops faster — **3x at night, 5x during an aurora**"
+      ],
+      [
+        74,
+        "* No water needed — works anywhere"
+      ],
+      [
+        80,
+        "## <Color id=\"gold\">Uses at a Glance</Color>"
+      ],
+      [
+        83,
+        "* Hydrating Shimmer Soil farms without water"
+      ],
+      [
+        84,
+        "* Growing Glow Leeks (exclusive substrate)"
+      ],
+      [
+        85,
+        "* Permanent ice paths that never melt"
+      ],
+      [
+        86,
+        "* Decorative builds with soft lighting"
+      ],
+      [
+        87,
+        "* Underground farms with built-in lighting"
+      ]
+    ]
+  },
+  {
+    "path": "food/frosted_cookies.md",
+    "lines": [
+      [
+        4,
+        "title: Frosted Cookies"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Frosted Cookies</Color>"
+      ],
+      [
+        15,
+        "Sweet treats dusted with magical Frozen Petals, sparkling like fresh snow under aurora light."
+      ],
+      [
+        22,
+        "(Makes 4 Frosted Cookies)"
+      ],
+      [
+        28,
+        "## <Color id=\"gold\">Properties</Color>"
+      ],
+      [
+        31,
+        "* **Quick Snack** — restores a small amount of hunger"
+      ],
+      [
+        32,
+        "* **Shimmer Particles** — eating produces sparkly aurora particles"
+      ],
+      [
+        33,
+        "* **Stackable** — stack up to 64"
+      ],
+      [
+        39,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        42,
+        "* Great for quick hunger restoration on the go."
+      ],
+      [
+        43,
+        "* Efficient recipe — one Frozen Petal makes 4 cookies."
+      ],
+      [
+        44,
+        "* Perfect companion to <ItemLink id=\"hot_cocoa\" /> on cold nights."
+      ]
+    ]
+  },
+  {
+    "path": "food/hot_cocoa.md",
+    "lines": [
+      [
+        4,
+        "title: Hot Cocoa"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Hot Cocoa</Color>"
+      ],
+      [
+        15,
+        "A steaming mug that wards off the cold and patches you up at the same time."
+      ],
+      [
+        26,
+        "## <Color id=\"gold\">Effects</Color>"
+      ],
+      [
+        29,
+        "* **Frostbite Immunity** — 3 minutes, full protection from the Frostbite effect"
+      ],
+      [
+        30,
+        "* **Regeneration I** — 30 seconds"
+      ],
+      [
+        31,
+        "* **Hunger Restoration** — moderate"
+      ],
+      [
+        37,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        40,
+        "* Keep a supply when exploring cold biomes."
+      ],
+      [
+        41,
+        "* The milk bucket from crafting returns as an empty bucket when consumed."
+      ],
+      [
+        42,
+        "* Pairs well with <ItemLink id=\"frosted_cookies\" /> for a cozy break."
+      ]
+    ]
+  },
+  {
+    "path": "food/index.md",
+    "lines": [
+      [
+        2,
+        "title: \"Food & Drinks\""
+      ],
+      [
+        8,
+        "# <Color id=\"gold\">Food & Drinks</Color>"
+      ],
+      [
+        13,
+        "Cold-biome staples brewed in the <ItemLink id=\"cold_brewing_stand\" /> and crafted from frost-touched ingredients. Each one buys you time, warmth, or a small edge against the cold."
+      ],
+      [
+        20,
+        "## <Color id=\"gold\">Recipes</Color>"
+      ],
+      [
+        23,
+        "* <ItemImage id=\"hot_cocoa\" scale=\"0.75\"/> [Hot Cocoa](hot_cocoa.md) — warming drink with brief frost resistance"
+      ],
+      [
+        24,
+        "* <ItemImage id=\"frosted_cookies\" scale=\"0.75\"/> [Frosted Cookies](frosted_cookies.md) — a sweet treat with a magical shimmer"
+      ],
+      [
+        25,
+        "* <ItemImage id=\"roasted_snowball\" scale=\"0.75\"/> [Roasted Snowball](roasted_snowball.md) — a toasted snowball, deeply offensive to the Nautili"
+      ],
+      [
+        26,
+        "* <ItemImage id=\"sugared_roasted_snowball\" scale=\"0.75\"/> [Sugared Roasted Snowball](sugared_roasted_snowball.md) — the apology a Nautilus will accept"
+      ],
+      [
+        27,
+        "* <ItemImage id=\"snore\" scale=\"0.75\"/> [S'nore](snore.md) — two cookies and a sugared snowball; grants Conduit Power"
+      ],
+      [
+        33,
+        "## <Color id=\"gold\">From the Garden</Color>"
+      ],
+      [
+        36,
+        "* <ItemImage id=\"glow_leek\" scale=\"0.75\"/> [Glow Leek](../flora/glow_leeks.md) — bioluminescent vegetable grown on Shimmering Ice"
+      ],
+      [
+        37,
+        "* <ItemImage id=\"candied_glow_leek\" scale=\"0.75\"/> [Candied Glow Leek](../flora/glow_leeks.md) — sweetened, without the glowing aftermath"
+      ]
+    ]
+  },
+  {
+    "path": "food/roasted_snowball.md",
+    "lines": [
+      [
+        4,
+        "title: Roasted Snowball"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Roasted Snowball</Color>"
+      ],
+      [
+        15,
+        "A snowball toasted to a gentle golden-brown, wisps of steam still curling off the top. Looks like the world's smallest marshmallow. Tastes about as substantial. The Nautili will not forgive it."
+      ],
+      [
+        22,
+        "Smelting a Snowball in a furnace works too."
+      ],
+      [
+        30,
+        "## <Color id=\"gold\">Properties</Color>"
+      ],
+      [
+        33,
+        "* **Minor Nutrition** — restores a single half-drumstick of hunger"
+      ],
+      [
+        34,
+        "* **Always Edible** — can be nibbled even when full"
+      ],
+      [
+        35,
+        "* **Offensive** — eating one marks you as a miscreant in the eyes of the Aurora"
+      ],
+      [
+        41,
+        "## <Color id=\"gold\">The Warning</Color>"
+      ],
+      [
+        46,
+        "### <Color id=\"aqua\">The Nautili Take Note</Color>"
+      ],
+      [
+        49,
+        "Eating a Roasted Snowball deeply offends the Auroral Nautili. Once you commit the act, wild Nautili **will no longer spawn near you** during auroras. The skies grow quiet. The chimes fade."
+      ],
+      [
+        51,
+        "You'll see the message *\"The Magestic Nautili will no longer Soar In your skies\"* — and they mean it."
+      ],
+      [
+        57,
+        "## <Color id=\"gold\">Atonement</Color>"
+      ],
+      [
+        62,
+        "### <Color id=\"aqua\">A Sweet Apology</Color>"
+      ],
+      [
+        65,
+        "Craft a <ItemLink id=\"sugared_roasted_snowball\" /> and eat it. The Nautili are forgiving — one sweet gesture and they grace your skies once more."
+      ],
+      [
+        67,
+        "If you just want the taste without the consequences, eat it baked into a <ItemLink id=\"snore\" /> instead. The cookie smooths things over."
+      ]
+    ]
+  },
+  {
+    "path": "food/snore.md",
+    "lines": [
+      [
+        4,
+        "title: S'nore"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">S'nore</Color>"
+      ],
+      [
+        15,
+        "Two cookies and a Sugared Roasted Snowball, pressed together into a sweet little sandwich. Surprisingly hearty, and the Nautili hold no grudge."
+      ],
+      [
+        26,
+        "## <Color id=\"gold\">Properties</Color>"
+      ],
+      [
+        29,
+        "* **Hearty Meal** — restores as much hunger and saturation as Cooked Beef"
+      ],
+      [
+        30,
+        "* **Conduit Power** — 30 seconds: breathe underwater, mine faster while submerged, see clearly through water"
+      ],
+      [
+        31,
+        "* **Restful Snack** — resets the phantom insomnia timer, as if you'd slept"
+      ],
+      [
+        32,
+        "* **Stacks to 16**"
+      ],
+      [
+        38,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        41,
+        "* Perfect before an underwater expedition. One S'nore gets you 30 seconds of Conduit Power without any Heart of the Sea rigmarole."
+      ],
+      [
+        42,
+        "* Keep one on hand on long surface trips to ward off phantoms without needing a bed."
+      ],
+      [
+        43,
+        "* Unlike a raw <ItemLink id=\"roasted_snowball\" />, eating a S'nore does **not** upset the Nautili. The sugar coating smooths things over."
+      ]
+    ]
+  },
+  {
+    "path": "food/sugared_roasted_snowball.md",
+    "lines": [
+      [
+        4,
+        "title: Sugared Roasted Snowball"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Sugared Roasted Snowball</Color>"
+      ],
+      [
+        15,
+        "A Roasted Snowball rolled in sugar until it shines. The glint isn't magic — it's an apology in edible form."
+      ],
+      [
+        26,
+        "## <Color id=\"gold\">Properties</Color>"
+      ],
+      [
+        29,
+        "* **Minor Nutrition** — same small bite as the base Roasted Snowball"
+      ],
+      [
+        30,
+        "* **Always Edible** — can be eaten at full hunger"
+      ],
+      [
+        31,
+        "* **Apology Flavoured** — eating one makes peace with the Auroral Nautili"
+      ],
+      [
+        37,
+        "## <Color id=\"gold\">The Apology</Color>"
+      ],
+      [
+        42,
+        "### <Color id=\"aqua\">The Nautili Forgive</Color>"
+      ],
+      [
+        45,
+        "If you've eaten a <ItemLink id=\"roasted_snowball\" />, the Nautili have flown off in disgust. Eating a Sugared Roasted Snowball tells them you're sorry, and they return on the next aurora."
+      ],
+      [
+        47,
+        "You'll see *\"The Majestic Nautili fly once again!\"* confirming your good standing has been restored."
+      ],
+      [
+        53,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        56,
+        "* Craft one before you ever eat the first Roasted Snowball — you may regret it otherwise."
+      ],
+      [
+        57,
+        "* The glint distinguishes it at a glance from its plain sibling."
+      ],
+      [
+        58,
+        "* No effect if the Nautili already favor you, but it still tastes sweet."
+      ]
+    ]
+  },
+  {
+    "path": "getting_started/first_steps.md",
+    "lines": [
+      [
+        2,
+        "title: First Steps"
+      ],
+      [
+        8,
+        "# <Color id=\"gold\">First Steps</Color>"
+      ],
+      [
+        13,
+        "Your first aurora, your first basin, your first Shimmersteel ingot. The whole loop in five short steps."
+      ],
+      [
+        20,
+        "## <Color id=\"gold\">Gather Frozen Petals</Color>"
+      ],
+      [
+        23,
+        "<ItemLink id=\"frozen_petals\" /> are the key to unlocking the rest of the mod. Sources:"
+      ],
+      [
+        25,
+        "* Harvested from <ItemLink id=\"aurora_bloom\" />s that spawn naturally on snow during auroras."
+      ],
+      [
+        26,
+        "* Dropped by Auroral Nautiluses during auroras."
+      ],
+      [
+        32,
+        "## <Color id=\"gold\">Craft the Glacial Basin</Color>"
+      ],
+      [
+        37,
+        "### <Color id=\"aqua\">Glacial Basin</Color>"
+      ],
+      [
+        40,
+        "The Glacial Basin is your primary workstation. Place it outside during an aurora to fill it with Liquid Aura."
+      ],
+      [
+        48,
+        "## <Color id=\"gold\">Your First Shimmersteel</Color>"
+      ],
+      [
+        51,
+        "Once your Glacial Basin has collected Liquid Aura:"
+      ],
+      [
+        53,
+        "1. Right-click the basin while holding an Iron Ingot."
+      ],
+      [
+        54,
+        "2. The iron transforms into <ItemLink id=\"shimmersteel_ingot\" />."
+      ],
+      [
+        55,
+        "3. Use Shimmersteel to craft enhanced tools and weapons."
+      ],
+      [
+        61,
+        "## <Color id=\"gold\">Cold Brewing Stand</Color>"
+      ],
+      [
+        66,
+        "### <Color id=\"aqua\">Cold Brewing Stand</Color>"
+      ],
+      [
+        69,
+        "A Nether-free path to potions. Uses snowballs as fuel instead of Blaze Powder."
+      ],
+      [
+        75,
+        "### <Color id=\"aqua\">Awkward Potions Without Nether Wart</Color>"
+      ],
+      [
+        78,
+        "Frozen Petals brew an Awkward Potion from a Water Bottle, exactly like Nether Wart. The whole brewing tree opens up without ever stepping into the Nether."
+      ]
+    ]
+  },
+  {
+    "path": "getting_started/introduction.md",
+    "lines": [
+      [
+        2,
+        "title: Introduction"
+      ],
+      [
+        8,
+        "# <Color id=\"gold\">Introduction to Auroral</Color>"
+      ],
+      [
+        13,
+        "Auroral turns cold biomes from barren wastes into hubs of late-game progression. Harness the Aurora Borealis to craft magical items, enhanced tools, and powerful armor."
+      ],
+      [
+        20,
+        "## <Color id=\"gold\">The Aurora</Color>"
+      ],
+      [
+        23,
+        "A celestial event that occurs randomly during nights in cold biomes. When the aurora is active, the sky fills with shimmering ribbons of green and pink light. This is when the magic happens."
+      ],
+      [
+        25,
+        "While an aurora is active:"
+      ],
+      [
+        27,
+        "* **Liquid Aura** can be collected in <ItemLink id=\"glacial_basin\" />s"
+      ],
+      [
+        28,
+        "* **Shimmersteel gear** repairs itself automatically"
+      ],
+      [
+        29,
+        "* **Auroral Nautiluses** may spawn in the skies"
+      ],
+      [
+        30,
+        "* **Aurora Blooms** appear on snow blocks"
+      ],
+      [
+        36,
+        "## <Color id=\"gold\">Cold Biomes</Color>"
+      ],
+      [
+        39,
+        "Auroral's features are designed for cold biomes:"
+      ],
+      [
+        41,
+        "* Snowy Plains"
+      ],
+      [
+        42,
+        "* Ice Spikes"
+      ],
+      [
+        43,
+        "* Frozen Ocean"
+      ],
+      [
+        44,
+        "* Frozen Peaks"
+      ],
+      [
+        45,
+        "* Grove"
+      ],
+      [
+        46,
+        "* Snowy Taiga"
+      ],
+      [
+        52,
+        "## <Color id=\"gold\">Progression Path</Color>"
+      ],
+      [
+        55,
+        "1. Wait for an aurora in a cold biome."
+      ],
+      [
+        56,
+        "2. Harvest <ItemLink id=\"frozen_petals\" /> from naturally spawning Aurora Blooms."
+      ],
+      [
+        57,
+        "3. Craft a <ItemLink id=\"glacial_basin\" /> and a <ItemLink id=\"cold_brewing_stand\" />."
+      ],
+      [
+        58,
+        "4. Collect Liquid Aura during auroras to infuse iron into <ItemLink id=\"shimmersteel_ingot\" />."
+      ],
+      [
+        59,
+        "5. Craft enhanced tools, weapons, and armor."
+      ]
+    ]
+  },
+  {
+    "path": "index.md",
+    "lines": [
+      [
+        2,
+        "title: Auroral"
+      ],
+      [
+        7,
+        "# <Color id=\"gold\">Auroral</Color>"
+      ],
+      [
+        12,
+        "A winter expansion centered on celestial energy, mystical metallurgy, and specialized survival. Harness the power of the Aurora to craft Shimmersteel gear, Shimmerweave armor, and rare blooms that only flower under the lights."
+      ],
+      [
+        17,
+        "> *\"The sky gives, the ice remembers.\"*"
+      ],
+      [
+        23,
+        "## <Color id=\"gold\">Start Here</Color>"
+      ],
+      [
+        26,
+        "* <ItemImage id=\"frozen_petals\" scale=\"0.75\"/> [Introduction](getting_started/introduction.md) — what Auroral adds and how the loop fits together"
+      ],
+      [
+        27,
+        "* <ItemImage id=\"glacial_basin\" scale=\"0.75\"/> [First Steps](getting_started/first_steps.md) — your first aurora, your first basin, your first ingot"
+      ],
+      [
+        33,
+        "## <Color id=\"gold\">The Aurora</Color>"
+      ],
+      [
+        36,
+        "* <ItemImage id=\"aurora_shard\" scale=\"0.75\"/> [Aurora Events](aurora/aurora_events.md) — when the lights appear, what they reward"
+      ],
+      [
+        37,
+        "* <ItemImage id=\"auroral_nautilus_spawn_egg\" scale=\"0.75\"/> [Aurora Creatures](aurora/creatures.md) — Nautili and Snowlettes drawn from the lights"
+      ],
+      [
+        43,
+        "## <Color id=\"gold\">Contents</Color>"
+      ],
+      [
+        50,
+        "### <Color id=\"aqua\">Flora</Color>"
+      ],
+      [
+        52,
+        "* <ItemImage id=\"frozen_petals\" scale=\"0.75\"/> [Aurora Blooms](flora/aurora_blooms.md)"
+      ],
+      [
+        53,
+        "* <ItemImage id=\"glow_leek\" scale=\"0.75\"/> [Glow Leeks](flora/glow_leeks.md)"
+      ],
+      [
+        54,
+        "* <ItemImage id=\"shimmering_ice\" scale=\"0.75\"/> [Shimmering Ice](flora/shimmering_ice.md)"
+      ],
+      [
+        55,
+        "* <ItemImage id=\"aurora_ender_shard\" scale=\"0.75\"/> [Ender Blooms](flora/ender_bloom.md)"
+      ],
+      [
+        57,
+        "### <Color id=\"aqua\">Shimmersteel</Color>"
+      ],
+      [
+        59,
+        "* <ItemImage id=\"shimmersteel_ingot\" scale=\"0.75\"/> [Shimmersteel Ingots](shimmersteel/ingots.md)"
+      ],
+      [
+        60,
+        "* <ItemImage id=\"glacial_basin\" scale=\"0.75\"/> [Glacial Basin](shimmersteel/glacial_basin.md)"
+      ],
+      [
+        61,
+        "* <ItemImage id=\"cold_brewing_stand\" scale=\"0.75\"/> [Cold Brewing Stand](shimmersteel/cold_brewing_stand.md)"
+      ],
+      [
+        62,
+        "* <ItemImage id=\"shimmersteel_pickaxe\" scale=\"0.75\"/> [Shimmersteel Tools](shimmersteel/tools.md)"
+      ],
+      [
+        63,
+        "* <ItemImage id=\"shimmersteel_bow\" scale=\"0.75\"/> [Shimmersteel Bow](shimmersteel/bow.md)"
+      ],
+      [
+        64,
+        "* <ItemImage id=\"shimmersteel_ingot\" scale=\"0.75\"/> [Armor Trims](shimmersteel/armor_trims.md)"
+      ],
+      [
+        66,
+        "### <Color id=\"aqua\">Shimmerweave</Color>"
+      ],
+      [
+        68,
+        "* <ItemImage id=\"shimmerweave_fabric\" scale=\"0.75\"/> [Shimmerweave Fabric](shimmerweave/fabric.md)"
+      ],
+      [
+        69,
+        "* <ItemImage id=\"shimmerweave_goggles\" scale=\"0.75\"/> [Goggles](shimmerweave/goggles.md)"
+      ],
+      [
+        70,
+        "* <ItemImage id=\"shimmerweave_tunic\" scale=\"0.75\"/> [Tunic](shimmerweave/tunic.md)"
+      ],
+      [
+        71,
+        "* <ItemImage id=\"shimmerweave_leggings\" scale=\"0.75\"/> [Leggings](shimmerweave/leggings.md)"
+      ],
+      [
+        72,
+        "* <ItemImage id=\"shimmerweave_skates\" scale=\"0.75\"/> [Skates](shimmerweave/skates.md)"
+      ],
+      [
+        77,
+        "### <Color id=\"aqua\">Decorations</Color>"
+      ],
+      [
+        79,
+        "* <ItemImage id=\"snow_angel\" scale=\"0.75\"/> [Snow Angels](decorations/snow_angel.md)"
+      ],
+      [
+        80,
+        "* <ItemImage id=\"hearthwood_log\" scale=\"0.75\"/> [Hearthwood Log](decorations/hearthwood_log.md)"
+      ],
+      [
+        81,
+        "* <ItemImage id=\"aurora_lantern\" scale=\"0.75\"/> [Aurora Lantern](decorations/aurora_lantern.md)"
+      ],
+      [
+        83,
+        "### <Color id=\"aqua\">Food & Drinks</Color>"
+      ],
+      [
+        85,
+        "* <ItemImage id=\"hot_cocoa\" scale=\"0.75\"/> [Hot Cocoa](food/hot_cocoa.md)"
+      ],
+      [
+        86,
+        "* <ItemImage id=\"frosted_cookies\" scale=\"0.75\"/> [Frosted Cookies](food/frosted_cookies.md)"
+      ],
+      [
+        87,
+        "* <ItemImage id=\"roasted_snowball\" scale=\"0.75\"/> [Roasted Snowball](food/roasted_snowball.md)"
+      ],
+      [
+        88,
+        "* <ItemImage id=\"sugared_roasted_snowball\" scale=\"0.75\"/> [Sugared Roasted Snowball](food/sugared_roasted_snowball.md)"
+      ],
+      [
+        89,
+        "* <ItemImage id=\"snore\" scale=\"0.75\"/> [S'nore](food/snore.md)"
+      ]
+    ]
+  },
+  {
+    "path": "shimmersteel/armor_trims.md",
+    "lines": [
+      [
+        2,
+        "title: Armor Trims"
+      ],
+      [
+        8,
+        "# <Color id=\"gold\">Shimmersteel Armor Trims</Color>"
+      ],
+      [
+        13,
+        "Use a Shimmersteel Ingot as an armor trim material to give any armor an icy blue accent reminiscent of the aurora itself."
+      ],
+      [
+        20,
+        "## <Color id=\"gold\">Applying the Trim</Color>"
+      ],
+      [
+        23,
+        "1. Obtain a **Smithing Template** (any armor trim pattern from vanilla structures)."
+      ],
+      [
+        24,
+        "2. Place the template, your armor piece, and a <ItemLink id=\"shimmersteel_ingot\" /> in a Smithing Table."
+      ],
+      [
+        25,
+        "3. The resulting armor takes on an ice-blue trim that shimmers between blue and silver."
+      ],
+      [
+        31,
+        "## <Color id=\"gold\">Appearance</Color>"
+      ],
+      [
+        34,
+        "The Shimmersteel trim has a distinctive icy gradient:"
+      ],
+      [
+        36,
+        "* Deep blue shadows"
+      ],
+      [
+        37,
+        "* Cool steel-blue midtones"
+      ],
+      [
+        38,
+        "* Bright ice-white highlights"
+      ],
+      [
+        44,
+        "## <Color id=\"gold\">Compatibility</Color>"
+      ],
+      [
+        47,
+        "Shimmersteel trims work with:"
+      ],
+      [
+        49,
+        "* All vanilla armor types — leather, chainmail, iron, gold, diamond, netherite"
+      ],
+      [
+        50,
+        "* Most modded armor that supports the vanilla trim system"
+      ],
+      [
+        51,
+        "* All vanilla trim patterns — Coast, Dune, Eye, Host, Raiser, Rib, Sentry, Shaper, Silence, Snout, Spire, Tide, Vex, Ward, Wayfinder, Wild"
+      ],
+      [
+        57,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        60,
+        "* Pairs especially well with diamond and iron armor for a cohesive cold theme."
+      ],
+      [
+        61,
+        "* Combine with Shimmerweave armor for the full frozen-adventurer look."
+      ],
+      [
+        62,
+        "* The high enchantability of Shimmersteel means trimmed armor still enchants beautifully."
+      ]
+    ]
+  },
+  {
+    "path": "shimmersteel/bow.md",
+    "lines": [
+      [
+        4,
+        "title: Shimmersteel Bow"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Shimmersteel Bow</Color>"
+      ],
+      [
+        15,
+        "A ranged weapon that turns ordinary snowballs into devastating Star-Shots — bright, blinding, and unending in a cold biome."
+      ],
+      [
+        26,
+        "## <Color id=\"gold\">Star-Shots</Color>"
+      ],
+      [
+        29,
+        "The Shimmersteel Bow uses **snowballs** as ammunition. Each shot transforms the snowball into a Star-Shot."
+      ],
+      [
+        33,
+        "### <Color id=\"aqua\">Properties</Color>"
+      ],
+      [
+        36,
+        "* **Damage** — higher base damage than arrows"
+      ],
+      [
+        37,
+        "* **Flashbang** — enemies near the impact are briefly blinded and disoriented"
+      ],
+      [
+        38,
+        "* **Light Trail** — visible particle trail through the air"
+      ],
+      [
+        39,
+        "* **No Pickup** — Star-Shots cannot be recovered after firing"
+      ],
+      [
+        45,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        48,
+        "* Snowballs are plentiful in cold biomes — ammo is rarely a worry."
+      ],
+      [
+        49,
+        "* The flashbang is excellent for crowd control around dense groups."
+      ],
+      [
+        50,
+        "* Repairs itself during auroras, like all Shimmersteel gear."
+      ]
+    ]
+  },
+  {
+    "path": "shimmersteel/cold_brewing_stand.md",
+    "lines": [
+      [
+        4,
+        "title: Cold Brewing Stand"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Cold Brewing Stand</Color>"
+      ],
+      [
+        15,
+        "A Nether-free alternative to the vanilla Brewing Stand. Brews everything the standard stand does, but burns snowballs instead of Blaze Powder."
+      ],
+      [
+        26,
+        "## <Color id=\"gold\">How It Works</Color>"
+      ],
+      [
+        29,
+        "The Cold Brewing Stand behaves exactly like the vanilla brewing stand, with one key difference: **snowballs** are the fuel."
+      ],
+      [
+        31,
+        "Ideal for:"
+      ],
+      [
+        33,
+        "* Skyblock or peaceful playthroughs"
+      ],
+      [
+        34,
+        "* Players who haven't reached the Nether yet"
+      ],
+      [
+        35,
+        "* Cold-biome bases where snowballs are plentiful"
+      ],
+      [
+        41,
+        "## <Color id=\"gold\">Frozen Petals as Nether Wart</Color>"
+      ],
+      [
+        46,
+        "### <Color id=\"aqua\">Brewing the Base Potion</Color>"
+      ],
+      [
+        49,
+        "<ItemLink id=\"frozen_petals\" /> brew an **Awkward Potion** from a Water Bottle, exactly like Nether Wart. The full brewing tree opens without ever stepping into the Nether."
+      ],
+      [
+        51,
+        "Steps:"
+      ],
+      [
+        53,
+        "1. Fill the stand with snowballs (up to 20)."
+      ],
+      [
+        54,
+        "2. Place Water Bottles in the bottom slots."
+      ],
+      [
+        55,
+        "3. Add Frozen Petals to the ingredient slot."
+      ],
+      [
+        56,
+        "4. Wait for brewing to complete — you'll have Awkward Potions."
+      ],
+      [
+        58,
+        "From there, brew the rest of the potion tree with standard ingredients."
+      ]
+    ]
+  },
+  {
+    "path": "shimmersteel/glacial_basin.md",
+    "lines": [
+      [
+        4,
+        "title: Glacial Basin"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Glacial Basin</Color>"
+      ],
+      [
+        15,
+        "Your primary workstation. Collects Liquid Aura during auroras and uses it to transform raw materials into their magical counterparts."
+      ],
+      [
+        26,
+        "## <Color id=\"gold\">How It Works</Color>"
+      ],
+      [
+        29,
+        "1. **Place** the basin under open sky."
+      ],
+      [
+        30,
+        "2. **Wait** for an aurora to begin."
+      ],
+      [
+        31,
+        "3. **Watch** the basin fill with glowing Liquid Aura (up to 3 levels)."
+      ],
+      [
+        32,
+        "4. **Right-click** with the input item to transform it."
+      ],
+      [
+        38,
+        "## <Color id=\"gold\">Transformations</Color>"
+      ],
+      [
+        41,
+        "| Input | Output | Aura Cost |"
+      ],
+      [
+        43,
+        "| <ItemLink id=\"unrefined_shimmersteel\" /> | <ItemLink id=\"shimmersteel_ingot\" /> | 3 (full) |"
+      ],
+      [
+        46,
+        "| Ice | <ItemLink id=\"shimmering_ice\" /> | 1 |"
+      ],
+      [
+        48,
+        "A Shimmersteel Ingot infusion requires the basin to be **completely full** and consumes all 3 levels of Liquid Aura at once."
+      ],
+      [
+        54,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        57,
+        "* Keep multiple basins placed to collect more aura per event."
+      ],
+      [
+        58,
+        "* The basin must have a clear view of the sky."
+      ],
+      [
+        59,
+        "* Auroras last the whole night, so there's plenty of time to fill."
+      ]
+    ]
+  },
+  {
+    "path": "shimmersteel/ingots.md",
+    "lines": [
+      [
+        5,
+        "title: Shimmersteel Ingots"
+      ],
+      [
+        11,
+        "# <Color id=\"gold\">Shimmersteel Ingot</Color>"
+      ],
+      [
+        16,
+        "The magical metal at the heart of Auroral. Aurora-infused, slightly better than iron, and the gateway to every upgraded tool, weapon, and accessory in the mod."
+      ],
+      [
+        23,
+        "## <Color id=\"gold\">Step 1 — Unrefined Shimmersteel</Color>"
+      ],
+      [
+        28,
+        "### <Color id=\"aqua\">Iron + Aurora Shards</Color>"
+      ],
+      [
+        31,
+        "Craft Unrefined Shimmersteel from iron ingots and <ItemLink id=\"aurora_shard\" />s."
+      ],
+      [
+        39,
+        "## <Color id=\"gold\">Step 2 — Glacial Basin Infusion</Color>"
+      ],
+      [
+        44,
+        "### <Color id=\"aqua\">Infusion</Color>"
+      ],
+      [
+        47,
+        "Infuse the Unrefined Shimmersteel in a <ItemLink id=\"glacial_basin\" /> filled with Liquid Aura."
+      ],
+      [
+        49,
+        "1. Place a Glacial Basin under open sky in a cold biome."
+      ],
+      [
+        50,
+        "2. Wait for an aurora to fill the basin completely (3/3 aura)."
+      ],
+      [
+        51,
+        "3. Right-click the basin with Unrefined Shimmersteel."
+      ],
+      [
+        52,
+        "4. The basin consumes **all** its Liquid Aura to produce one Shimmersteel Ingot."
+      ],
+      [
+        54,
+        "**Important:** the basin must be completely full to perform this infusion."
+      ],
+      [
+        60,
+        "## <Color id=\"gold\">Properties</Color>"
+      ],
+      [
+        63,
+        "* **High Enchantability** — accepts enchantments easily"
+      ],
+      [
+        64,
+        "* **Aurora Affinity** — Shimmersteel tools and armor repair themselves during auroras"
+      ],
+      [
+        65,
+        "* **Stats** — slightly better than iron, below diamond"
+      ],
+      [
+        71,
+        "## <Color id=\"gold\">Uses</Color>"
+      ],
+      [
+        74,
+        "Shimmersteel Ingots upgrade iron equipment via the Smithing Table. You'll need a **Shimmersteel Upgrade Smithing Template** to perform the upgrade."
+      ],
+      [
+        76,
+        "* <ItemImage id=\"shimmersteel_pickaxe\" scale=\"0.75\"/> [Shimmersteel Tools](tools.md) — Pickaxe, Axe, Shovel, Hoe, Sword"
+      ],
+      [
+        77,
+        "* <ItemImage id=\"shimmersteel_bow\" scale=\"0.75\"/> [Shimmersteel Bow](bow.md) — fires Star-Shots from snowballs"
+      ]
+    ]
+  },
+  {
+    "path": "shimmersteel/tools.md",
+    "lines": [
+      [
+        9,
+        "title: Shimmersteel Tools"
+      ],
+      [
+        15,
+        "# <Color id=\"gold\">Shimmersteel Tools</Color>"
+      ],
+      [
+        20,
+        "Slightly better than iron, high enchantability, and a unique special ability per tool. All five repair themselves while held during an aurora."
+      ],
+      [
+        27,
+        "## <Color id=\"gold\">Pickaxe</Color>"
+      ],
+      [
+        32,
+        "### <Color id=\"aqua\">Inherent Fortune for Gems</Color>"
+      ],
+      [
+        35,
+        "* Automatically applies **Fortune III** to diamond, emerald, lapis, and other gem ores."
+      ],
+      [
+        36,
+        "* Regular Fortune chance applies to everything else."
+      ],
+      [
+        42,
+        "## <Color id=\"gold\">Axe</Color>"
+      ],
+      [
+        47,
+        "### <Color id=\"aqua\">Oxidation Forcing</Color>"
+      ],
+      [
+        50,
+        "* Right-click any copper block to instantly advance its oxidation state."
+      ],
+      [
+        51,
+        "* Strips logs, scrapes copper, and removes wax just like a regular axe."
+      ],
+      [
+        57,
+        "## <Color id=\"gold\">Shovel</Color>"
+      ],
+      [
+        62,
+        "### <Color id=\"aqua\">Inherent Silk Touch</Color>"
+      ],
+      [
+        65,
+        "* Always harvests blocks as if Silk Touch were applied."
+      ],
+      [
+        66,
+        "* Perfect for collecting snow layers, grass blocks, and more."
+      ],
+      [
+        67,
+        "* Still creates dirt paths and douses campfires."
+      ],
+      [
+        73,
+        "## <Color id=\"gold\">Sword</Color>"
+      ],
+      [
+        78,
+        "### <Color id=\"aqua\">Slow, Execute, Snow Mark</Color>"
+      ],
+      [
+        81,
+        "* **Slowness I** — every hit applies it to the target."
+      ],
+      [
+        82,
+        "* **Execute** — deals massive bonus damage to enemies below 15% health."
+      ],
+      [
+        83,
+        "* **Snow Mark** — places a snow layer where executed enemies fall."
+      ],
+      [
+        89,
+        "## <Color id=\"gold\">Hoe</Color>"
+      ],
+      [
+        94,
+        "### <Color id=\"aqua\">Silk Touch &amp; Shimmer Soil Creation</Color>"
+      ],
+      [
+        97,
+        "* **Inherent Silk Touch** — harvests crops and blocks as if Silk Touch were applied."
+      ],
+      [
+        98,
+        "* **Shimmer Soil Creation** — right-click snow blocks, powder snow, dirt, grass, or snow layers to make <ItemLink id=\"shimmer_soil\" />."
+      ],
+      [
+        99,
+        "* **Farmland Upgrade** — right-click regular farmland to upgrade it (moisture preserved)."
+      ],
+      [
+        100,
+        "* Perfect for starting farms in frozen biomes without needing dirt."
+      ],
+      [
+        104,
+        "### <Color id=\"aqua\">Shimmer Soil</Color>"
+      ],
+      [
+        107,
+        "This magical farmland accelerates crop growth:"
+      ],
+      [
+        109,
+        "* **3x faster** at night"
+      ],
+      [
+        110,
+        "* **5x faster** during auroras"
+      ],
+      [
+        111,
+        "* Emits a faint glow (light level 2)"
+      ],
+      [
+        112,
+        "* Hydrated by water **or** <ItemLink id=\"shimmering_ice\" /> within 4 blocks"
+      ],
+      [
+        113,
+        "* Won't revert to dirt while crops are planted"
+      ],
+      [
+        114,
+        "* Accepts any vanilla or modded crop seed, just like regular farmland"
+      ],
+      [
+        116,
+        "Pair with Shimmering Ice for glowing underground farms that never need water."
+      ],
+      [
+        122,
+        "## <Color id=\"gold\">Self-Repair</Color>"
+      ],
+      [
+        125,
+        "All five Shimmersteel tools repair themselves while held during an aurora."
+      ]
+    ]
+  },
+  {
+    "path": "shimmerweave/fabric.md",
+    "lines": [
+      [
+        5,
+        "title: Shimmerweave Fabric"
+      ],
+      [
+        11,
+        "# <Color id=\"gold\">Shimmerweave Fabric</Color>"
+      ],
+      [
+        16,
+        "Aurora-infused cloth — light, durable, and the foundation of every Shimmerweave armor piece."
+      ],
+      [
+        23,
+        "## <Color id=\"gold\">Glacial Basin Infusion</Color>"
+      ],
+      [
+        28,
+        "### <Color id=\"aqua\">Leather or Wool → Fabric</Color>"
+      ],
+      [
+        31,
+        "Infuse Leather or any color of Wool in a <ItemLink id=\"glacial_basin\" /> filled with Liquid Aura."
+      ],
+      [
+        33,
+        "1. Place a Glacial Basin under open sky."
+      ],
+      [
+        34,
+        "2. Wait for an aurora to fill it."
+      ],
+      [
+        35,
+        "3. Right-click the basin with Leather or Wool."
+      ],
+      [
+        36,
+        "4. Receive Shimmerweave Fabric."
+      ],
+      [
+        42,
+        "## <Color id=\"gold\">Woven Leather</Color>"
+      ],
+      [
+        47,
+        "### <Color id=\"aqua\">Crafted from Leather</Color>"
+      ],
+      [
+        50,
+        "Some recipes call for Woven Leather, crafted from regular leather."
+      ],
+      [
+        58,
+        "## <Color id=\"gold\">Properties</Color>"
+      ],
+      [
+        61,
+        "* **Lightweight** — armor made from Shimmerweave has minimal weight"
+      ],
+      [
+        62,
+        "* **Aurora Affinity** — armor repairs itself during auroras"
+      ],
+      [
+        63,
+        "* **Magical Conductivity** — enables the special ability on each piece"
+      ],
+      [
+        69,
+        "## <Color id=\"gold\">Uses</Color>"
+      ],
+      [
+        72,
+        "Shimmerweave Fabric upgrades iron armor at the Smithing Table. You'll need a **Shimmersteel Upgrade Smithing Template** to perform the upgrade."
+      ],
+      [
+        74,
+        "* <ItemImage id=\"shimmerweave_goggles\" scale=\"0.75\"/> [Shimmerweave Goggles](goggles.md) — reveals hidden enemies"
+      ],
+      [
+        75,
+        "* <ItemImage id=\"shimmerweave_tunic\" scale=\"0.75\"/> [Shimmerweave Tunic](tunic.md) — fire protection"
+      ],
+      [
+        76,
+        "* <ItemImage id=\"shimmerweave_leggings\" scale=\"0.75\"/> [Shimmerweave Leggings](leggings.md) — speed on snow"
+      ],
+      [
+        77,
+        "* <ItemImage id=\"shimmerweave_skates\" scale=\"0.75\"/> [Shimmerweave Skates](skates.md) — master of ice"
+      ]
+    ]
+  },
+  {
+    "path": "shimmerweave/goggles.md",
+    "lines": [
+      [
+        4,
+        "title: Shimmerweave Goggles"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Shimmerweave Goggles</Color>"
+      ],
+      [
+        15,
+        "Enchanted eyewear that reveals hidden threats in the darkness. Hostile mobs glow through walls."
+      ],
+      [
+        22,
+        "Upgrade an Iron Helmet at a Smithing Table using a Shimmersteel Upgrade Template and <ItemLink id=\"shimmerweave_fabric\" />."
+      ],
+      [
+        28,
+        "## <Color id=\"gold\">Hostile Detection</Color>"
+      ],
+      [
+        33,
+        "### <Color id=\"aqua\">Glowing Aura</Color>"
+      ],
+      [
+        36,
+        "* **Glowing** — all hostile mobs within 32 blocks glow, visible through walls."
+      ],
+      [
+        37,
+        "* Perfect for cave exploration and night raids."
+      ],
+      [
+        38,
+        "* Works in complete darkness."
+      ],
+      [
+        44,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        47,
+        "* Combine with Night Vision potions or <ItemLink id=\"glow_leek\" />s for full visibility."
+      ],
+      [
+        48,
+        "* Essential for exploring dark caves safely."
+      ],
+      [
+        49,
+        "* The 32-block radius covers most combat situations."
+      ]
+    ]
+  },
+  {
+    "path": "shimmerweave/leggings.md",
+    "lines": [
+      [
+        4,
+        "title: Shimmerweave Leggings"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Shimmerweave Leggings</Color>"
+      ],
+      [
+        15,
+        "Mobility leggings — fast across snow, fast across soul sand. The Nether and the snowy plains both move out of your way."
+      ],
+      [
+        22,
+        "Upgrade Iron Leggings at a Smithing Table using a Shimmersteel Upgrade Template and <ItemLink id=\"shimmerweave_fabric\" />."
+      ],
+      [
+        28,
+        "## <Color id=\"gold\">Snow Speed</Color>"
+      ],
+      [
+        33,
+        "### <Color id=\"aqua\">Free of Snow Drag</Color>"
+      ],
+      [
+        36,
+        "* Speed boost while walking on snow blocks."
+      ],
+      [
+        37,
+        "* No slowdown from snow layers."
+      ],
+      [
+        38,
+        "* Perfect for crossing snowy biomes."
+      ],
+      [
+        44,
+        "## <Color id=\"gold\">Soul Speed</Color>"
+      ],
+      [
+        49,
+        "### <Color id=\"aqua\">Soul Sand Mastery</Color>"
+      ],
+      [
+        52,
+        "* Built-in Soul Speed effect on soul sand and soul soil."
+      ],
+      [
+        53,
+        "* Does **not** damage the leggings, unlike the enchantment."
+      ],
+      [
+        54,
+        "* Traverse the Nether's soul sand valleys without losing pace."
+      ],
+      [
+        60,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        63,
+        "* Pair with <ItemLink id=\"shimmerweave_skates\" /> for ultimate mobility."
+      ],
+      [
+        64,
+        "* The soul-speed effect stacks with the vanilla Soul Speed enchantment."
+      ],
+      [
+        65,
+        "* Great for both Overworld snow biomes and Nether soul sand valleys."
+      ]
+    ]
+  },
+  {
+    "path": "shimmerweave/skates.md",
+    "lines": [
+      [
+        4,
+        "title: Shimmerweave Skates"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Shimmerweave Skates</Color>"
+      ],
+      [
+        15,
+        "The most versatile piece of Shimmerweave armor. Master of ice, snow, water, and even lava — turning hostile terrain into a highway."
+      ],
+      [
+        26,
+        "## <Color id=\"gold\">Speed on Ice and Snow</Color>"
+      ],
+      [
+        31,
+        "### <Color id=\"aqua\">Surface Boost</Color>"
+      ],
+      [
+        34,
+        "* Speed boost while standing on ice or snow blocks."
+      ],
+      [
+        35,
+        "* Extra speed on packed ice and blue ice."
+      ],
+      [
+        41,
+        "## <Color id=\"gold\">Ice Skating Momentum</Color>"
+      ],
+      [
+        46,
+        "### <Color id=\"aqua\">Coast Like a Boat</Color>"
+      ],
+      [
+        49,
+        "* Build up momentum on ice the way a boat does."
+      ],
+      [
+        50,
+        "* Keep moving to accelerate; release keys to coast."
+      ],
+      [
+        51,
+        "* Blue ice is the smoothest skating surface."
+      ],
+      [
+        52,
+        "* Momentum carries even when no movement keys are pressed."
+      ],
+      [
+        58,
+        "## <Color id=\"gold\">Frost Walker Enhancement</Color>"
+      ],
+      [
+        63,
+        "### <Color id=\"aqua\">Water and Lava Both Yield</Color>"
+      ],
+      [
+        66,
+        "* Creates frosted ice when walking on water."
+      ],
+      [
+        67,
+        "* Converts **lava to obsidian** on contact."
+      ],
+      [
+        73,
+        "## <Color id=\"gold\">Fall Immunity</Color>"
+      ],
+      [
+        76,
+        "* Take no fall damage when landing on ice or obsidian."
+      ],
+      [
+        77,
+        "* Perfect for skating down from heights."
+      ],
+      [
+        83,
+        "## <Color id=\"gold\">Synergy</Color>"
+      ],
+      [
+        86,
+        "* <ItemLink id=\"shimmerweave_leggings\" /> — additional speed on snow and soul sand."
+      ],
+      [
+        87,
+        "* **Shimmersteel Shovel** — quickly create snow paths with Silk Touch."
+      ],
+      [
+        88,
+        "* Lava-to-obsidian conversion makes Nether traversal much safer."
+      ]
+    ]
+  },
+  {
+    "path": "shimmerweave/tunic.md",
+    "lines": [
+      [
+        4,
+        "title: Shimmerweave Tunic"
+      ],
+      [
+        10,
+        "# <Color id=\"gold\">Shimmerweave Tunic</Color>"
+      ],
+      [
+        15,
+        "A magical chestpiece that turns flame against itself. Auto-extinguishes the wearer and shrugs off fire damage."
+      ],
+      [
+        22,
+        "Upgrade an Iron Chestplate at a Smithing Table using a Shimmersteel Upgrade Template and <ItemLink id=\"shimmerweave_fabric\" />."
+      ],
+      [
+        28,
+        "## <Color id=\"gold\">Auto-Extinguish</Color>"
+      ],
+      [
+        33,
+        "### <Color id=\"aqua\">Instant Fire Protection</Color>"
+      ],
+      [
+        36,
+        "* Automatically extinguishes the wearer when ignited."
+      ],
+      [
+        37,
+        "* No fire damage taken while equipped."
+      ],
+      [
+        38,
+        "* Works against all fire sources — lava, fire blocks, blaze attacks."
+      ],
+      [
+        44,
+        "## <Color id=\"gold\">Cooling Aura</Color>"
+      ],
+      [
+        47,
+        "The aurora-infused fabric repels heat, making the tunic invaluable for:"
+      ],
+      [
+        49,
+        "* Nether exploration"
+      ],
+      [
+        50,
+        "* Fighting Blazes"
+      ],
+      [
+        51,
+        "* Working near lava"
+      ],
+      [
+        57,
+        "## <Color id=\"gold\">Tips</Color>"
+      ],
+      [
+        60,
+        "* Essential for safe Nether travel."
+      ],
+      [
+        61,
+        "* Pairs well with <ItemLink id=\"shimmerweave_skates\" />, which convert lava to obsidian on contact."
+      ],
+      [
+        62,
+        "* Fire protection is passive — no activation needed."
+      ]
+    ]
+  }
+]

@@ -10,6 +10,7 @@ from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
 from local_paths import PROJECT_ROOT
 from verify_compat_release import read_json, sha256
+import verify_stage1_translation as stage1
 from version_context import load_output_release
 
 
@@ -36,7 +37,22 @@ def package(version: str = "8.1") -> dict[str, object]:
         raise ValueError("검증 후 산출물이 바뀌었어요. 검증을 다시 실행하세요")
     if version == "8.1":
         compatibility = report.get("compatibility_validation") or {}
-        if (
+        if release_name in stage1.RELEASE_MODS:
+            from verify_stable_release import verify
+
+            saved = read_json(report_dir / f"{release_name}_stable_validation.json")
+            if saved != report:
+                raise ValueError("누적 배포별 검증 보고서와 현재 보고서가 달라요")
+            current = verify(version, write_report=False)
+            if (
+                current["status"] != "passed"
+                or current["output_sha256"] != actual
+                or current.get("stage1_validation") != report.get("stage1_validation")
+                or current["compatibility_validation"] != compatibility
+                or report.get("baseline_commit") != stage1.BASELINE
+            ):
+                raise ValueError("누적 배포의 현재 원문·검수·문법 재검증 근거가 달라요")
+        elif release_name != "8.1-stable.1" or (
             compatibility.get("mode") != "inherited_for_unchanged_files"
             or compatibility.get("commit") != report["baseline_commit"]
             or compatibility.get("unchanged_data_hashes_verified") is not True
@@ -78,10 +94,17 @@ def package(version: str = "8.1") -> dict[str, object]:
                 info.external_attr = 0o100644 << 16
                 archive.writestr(info, path.read_bytes())
         with ZipFile(temporary) as archive:
-            if archive.testzip() is not None or set(archive.namelist()) != set(files):
+            if (
+                archive.testzip() is not None
+                or len(archive.namelist()) != len(files)
+                or set(archive.namelist()) != set(files)
+            ):
                 raise ValueError(f"ZIP 무결성 또는 파일 목록 오류: {kind}")
             for name, path in files.items():
-                if archive.read(name) != path.read_bytes():
+                if (
+                    sha256(path) != actual[f"{relative}/{name}"]
+                    or archive.read(name) != path.read_bytes()
+                ):
                     raise ValueError(f"ZIP 내부 내용이 검증본과 달라요: {name}")
         temporary.replace(destination)
         packages.append(
@@ -93,6 +116,12 @@ def package(version: str = "8.1") -> dict[str, object]:
                 "zip_crc_and_content_verified": True,
             }
         )
+    if actual != {
+        p.relative_to(output).as_posix(): sha256(p)
+        for p in output.rglob("*")
+        if p.is_file() and p.name != ".gitkeep"
+    }:
+        raise ValueError("패키징 중 산출물이 바뀌었어요")
     instructions = PROJECT_ROOT / "docs/releases" / f"{release_name}.md"
     (destination_root / "INSTALL.md").write_bytes(instructions.read_bytes())
     manifest = {

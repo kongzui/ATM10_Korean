@@ -12,6 +12,7 @@ from pathlib import Path
 
 from local_paths import PROJECT_ROOT
 from verify_compat_release import SnbtReader, read_json, sha256
+import verify_stage1_translation as stage1
 from version_context import load_output_release
 
 BASELINE = "cfe93e1"
@@ -27,9 +28,12 @@ DISABLED_CONTENT = (
 )
 
 
-def verify(version: str) -> dict:
+def verify(version: str, *, write_report: bool = True) -> dict:
     output = PROJECT_ROOT / "output" / version
     release = load_output_release(version)
+    cumulative = version == "8.1" and release["release_id"] in stage1.RELEASE_MODS
+    if not cumulative and release["release_id"] != f"{version}-stable.1":
+        raise ValueError("지원하지 않는 안정판 배포예요")
     previous = subprocess.run(
         [
             "git",
@@ -57,7 +61,10 @@ def verify(version: str) -> dict:
                 value = read_json(path)
                 counts["json"] += 1
                 if "/lang/" in relative and path.suffix == ".json":
-                    counts["unchanged_language_values"] += len(value)
+                    label = (
+                        "language_values" if cumulative else "unchanged_language_values"
+                    )
+                    counts[label] += len(value)
             elif path.suffix in {".snbt", ".snbt_merged"}:
                 SnbtReader(path.read_text(encoding="utf-8")).parse()
                 counts["snbt"] += 1
@@ -72,17 +79,39 @@ def verify(version: str) -> dict:
                     counts["unchanged_existing_scripts"] += 1
         except (ValueError, UnicodeError) as exc:
             errors.append(f"{relative}: {exc}")
-    if set(inventory) != set(baseline):
+    if not cumulative and set(inventory) != set(baseline):
         errors.append("이전 배포와 파일 목록이 달라요")
     allowed = set(DISABLED_PATHS) | {
         "release.json",
         "resourcepack/ATM10_Korean/pack.mcmeta",
     }
     for relative, digest in inventory.items():
-        if relative not in allowed and digest != baseline.get(relative):
+        if (
+            not cumulative
+            and relative not in allowed
+            and digest != baseline.get(relative)
+        ):
             errors.append(f"보조 기능 제외 범위 밖 변경: {relative}")
     compatibility = None
-    if version == "8.1":
+    stage1_validation = None
+    if cumulative:
+        try:
+            stage1_validation = stage1.verify(release["release_id"], inventory)
+            compatibility = {
+                "mode": "current_stage1_and_inherited_unchanged_files",
+                "commit": stage1.BASELINE,
+                "release": "8.1-stable.1",
+                "unchanged_data_hashes_verified": True,
+            }
+        except (
+            OSError,
+            ValueError,
+            KeyError,
+            TypeError,
+            subprocess.SubprocessError,
+        ) as exc:
+            errors.append(f"단계1 원문·검수 검증 실패: {exc}")
+    elif version == "8.1":
         # 실행 후 재작성된 인스턴스 대신, 변경 없는 배포 데이터의 이전 원문 검증을 계승해요.
         previous_compat = subprocess.run(
             ["git", "show", f"{BASELINE}:versions/8.1/reports/compat_validation.json"],
@@ -125,11 +154,16 @@ def verify(version: str) -> dict:
             check=True,
             cwd=PROJECT_ROOT,
         ).stdout
-        target = temp / Path(relative).relative_to("overrides")
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_bytes(old)
-        shutil.copyfile(output / relative, target)
-        if target.read_bytes() != DISABLED_CONTENT.encode("utf-8"):
+        if write_report:
+            target = temp / Path(relative).relative_to("overrides")
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(old)
+            shutil.copyfile(output / relative, target)
+            replaced = target.read_bytes()
+        else:
+            # 읽기 전용 실행은 기존 원본을 읽고 덮어쓸 내용만 메모리에서 확인해요.
+            replaced = (output / relative).read_bytes()
+        if replaced != DISABLED_CONTENT.encode("utf-8"):
             errors.append(f"기존 설치 교체 실패: {relative}")
         else:
             counts["old_scripts_neutralized"] += 1
@@ -148,28 +182,51 @@ def verify(version: str) -> dict:
     report = {
         "release": release["release_id"],
         "status": "passed" if not errors else "failed",
-        "baseline_commit": BASELINE,
+        "baseline_commit": stage1.BASELINE if cumulative else BASELINE,
         "compatibility_validation": compatibility,
         "counts": dict(counts),
         "disabled_scripts": list(DISABLED_PATHS),
         "auxiliary_translation_scripts_active": False,
         "game_screen_validation": "not_run",
         "deployment": "not_applied_user_will_install",
+        "transition_validation": (
+            "temp_overwrite_and_comment_only_vm"
+            if write_report
+            else "read_only_content_and_comment_only_vm_no_temp_overwrite"
+        ),
         "errors": errors,
         "output_sha256": inventory,
     }
+    if cumulative:
+        report["stage1_validation"] = stage1_validation
+    final_inventory = {
+        p.relative_to(output).as_posix(): sha256(p)
+        for p in output.rglob("*")
+        if p.is_file() and p.name != ".gitkeep"
+    }
+    if final_inventory != inventory:
+        errors.append("검증 중 output 파일 목록이나 내용이 바뀌었어요")
+        report["status"] = "failed"
     destination = PROJECT_ROOT / "versions" / version / "reports/stable_validation.json"
-    destination.write_text(
-        json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    if write_report:
+        content = json.dumps(report, ensure_ascii=False, indent=2) + "\n"
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_text(content, encoding="utf-8")
+        if report["status"] == "passed":
+            (
+                destination.parent / f"{release['release_id']}_stable_validation.json"
+            ).write_text(content, encoding="utf-8")
     return report
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--version", choices=("7.1", "8.1"), required=True)
+    parser.add_argument(
+        "--no-write", action="store_true", help="보고서·임시 파일을 쓰지 않아요"
+    )
     args = parser.parse_args()
-    result = verify(args.version)
+    result = verify(args.version, write_report=not args.no_write)
     print(
         json.dumps(
             {k: v for k, v in result.items() if k != "output_sha256"},
