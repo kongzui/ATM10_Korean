@@ -323,6 +323,84 @@ def check_guides(jar: Path, output: Path, evidence_hash) -> int:
     return len(rows)
 
 
+def check_neovitae_book(jar: Path, english: dict, korean: dict, evidence_hash) -> dict:
+    """책 JSON의 참조와 직접 표시 문구를 현재 JAR에서 다시 수집해요."""
+    working = PROJECT_ROOT / "working/neovitae"
+    literals = {}
+    references = set()
+
+    def visit(value, member, pointer=""):
+        if isinstance(value, dict):
+            for key, child in value.items():
+                location = f"{pointer}/{key}"
+                if (
+                    key in ("title", "text", "name", "description")
+                    and isinstance(child, str)
+                    and child.strip()
+                    and not child.startswith("book.neovitae.")
+                ):
+                    literals.setdefault(child, []).append(
+                        {"source": member, "pointer": location}
+                    )
+                visit(child, member, location)
+        elif isinstance(value, list):
+            for index, child in enumerate(value):
+                visit(child, member, f"{pointer}/{index}")
+        elif isinstance(value, str) and value.startswith("book.neovitae."):
+            references.add(value)
+
+    with ZipFile(jar) as archive:
+        members = [
+            name
+            for name in archive.namelist()
+            if name.startswith("data/neovitae/modonomicon/books/")
+            and name.endswith(".json")
+        ]
+        if len(members) != 223 or len(set(members)) != len(members):
+            raise ValueError("Neo Vitae 책 JSON 전체 223개 범위가 달라요")
+        for member in members:
+            visit(
+                json.loads(archive.read(member), object_pairs_hook=strict_object),
+                member,
+            )
+    if len(references) != 1529 or references - set(english):
+        raise ValueError("Neo Vitae 책의 언어 참조가 변경되거나 누락됐어요")
+    source_path = working / "guide_literal_sources.json"
+    if len(literals) != 61 or literals != read_json(source_path):
+        raise ValueError("Neo Vitae 직접 표시 문구의 현재 원문·위치가 달라요")
+    if set(literals) & set(english) or set(korean) != set(english) | set(literals):
+        raise ValueError("Neo Vitae 추가 언어 키가 현재 책의 직접 표시 문구와 달라요")
+    review_path = working / "guide_literals.review.json"
+    review = read_json(review_path)
+    count = check_review("neovitae", review, {key: key for key in literals}, korean)
+    for row in review["entries"]:
+        if row.get("sources") != literals[row["key"]]:
+            raise ValueError("Neo Vitae 직접 표시 문구의 검수 위치가 달라요")
+    # 직접 문자열도 I18n.get으로 번역하는 현재 로더의 조사 증거를 결합해요.
+    bytecode_path = PROJECT_ROOT / "working/stage1_audit/bytecode_display_evidence.json"
+    records = [
+        row
+        for row in read_json(bytecode_path)["evidence"]
+        if row["member"] == "com/klikli_dev/modonomicon/book/BookTextHolder.class"
+    ]
+    if len(records) != 1:
+        raise ValueError("직접 표시 문자열의 로더 조사 증거가 없거나 중복돼요")
+    record = records[0]
+    loader = jar.parent / Path(record["jar"]).name
+    with ZipFile(loader) as archive:
+        digest = hashlib.sha256(archive.read(record["member"])).hexdigest()
+    if digest != record["class_sha256"]:
+        raise ValueError("직접 표시 문자열을 처리하는 현재 로더가 변경됐어요")
+    evidence_hash(loader, jar.parent.parent, "instance")
+    for path in (source_path, review_path, bytecode_path):
+        evidence_hash(path, PROJECT_ROOT, "project")
+    return {
+        "book_json_files": len(members),
+        "book_referenced_keys": len(references),
+        "book_literal_keys": count,
+    }
+
+
 def verify(release_id: str, inventory: dict[str, str]) -> dict:
     """현재 JAR을 읽기 전용으로 확인하고 재현 가능한 증거 해시를 반환해요."""
     mods = RELEASE_MODS[release_id]
@@ -391,7 +469,15 @@ def verify(release_id: str, inventory: dict[str, str]) -> dict:
             evidence_hash(work_english, PROJECT_ROOT, "project")
             relative = f"{PACK}/assets/{mod}/lang/ko_kr.json"
             korean = read_json(output / relative)
-            if not isinstance(korean, dict) or set(korean) != set(english):
+            if not isinstance(korean, dict):
+                raise ValueError(f"{mod}: 한국어 최상위 자료형 오류")
+            if mod == "neovitae":
+                counts.update(
+                    check_neovitae_book(
+                        source_jars[mod], english, korean, evidence_hash
+                    )
+                )
+            elif set(korean) != set(english):
                 raise ValueError(f"{mod}: 한국어 전체 키가 현재 영어와 달라요")
             review_path = working / "review.json"
             counts["language_keys"] += check_review(

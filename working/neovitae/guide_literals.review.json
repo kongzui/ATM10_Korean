@@ -1,0 +1,739 @@
+{
+  "schema_version": 1,
+  "mod": "neovitae",
+  "scope": "현재 JAR의 가이드 JSON에 직접 들어 있는 표시 문자열 61개. 일반 영어 lang3053키와 별도. 실제 loader 경로 근거를 확인한 뒤 통합.",
+  "entries": [
+    {
+      "key": "Slime of Vitae",
+      "english": "Slime of Vitae",
+      "translation": "Vitae 슬라임",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/1/name"
+        }
+      ]
+    },
+    {
+      "key": "Daemonium Cruoris",
+      "english": "Daemonium Cruoris",
+      "translation": "Daemonium Cruoris",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/2/name"
+        }
+      ]
+    },
+    {
+      "key": "Daemonium Pestis",
+      "english": "Daemonium Pestis",
+      "translation": "Daemonium Pestis",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/3/name"
+        }
+      ]
+    },
+    {
+      "key": "Daemonium Rancoris",
+      "english": "Daemonium Rancoris",
+      "translation": "Daemonium Rancoris",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/4/name"
+        }
+      ]
+    },
+    {
+      "key": "Daemonium Animaris",
+      "english": "Daemonium Animaris",
+      "translation": "Daemonium Animaris",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/5/name"
+        }
+      ]
+    },
+    {
+      "key": "Daemonium Voraxis",
+      "english": "Daemonium Voraxis",
+      "translation": "Daemonium Voraxis",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/6/name"
+        }
+      ]
+    },
+    {
+      "key": "Daemonium Corrodis",
+      "english": "Daemonium Corrodis",
+      "translation": "Daemonium Corrodis",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/7/name"
+        }
+      ]
+    },
+    {
+      "key": "Daemonium Ignis",
+      "english": "Daemonium Ignis",
+      "translation": "Daemonium Ignis",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/8/name"
+        }
+      ]
+    },
+    {
+      "key": "Daemonium Fervidis",
+      "english": "Daemonium Fervidis",
+      "translation": "Daemonium Fervidis",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/9/name"
+        }
+      ]
+    },
+    {
+      "key": "Daemonium Doloris",
+      "english": "Daemonium Doloris",
+      "translation": "Daemonium Doloris",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/10/name"
+        }
+      ]
+    },
+    {
+      "key": "Daemonium Glaciaris",
+      "english": "Daemonium Glaciaris",
+      "translation": "Daemonium Glaciaris",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+          "pointer": "/pages/11/name"
+        }
+      ]
+    },
+    {
+      "key": "Sigil of the Damned",
+      "english": "Sigil of the Damned",
+      "translation": "저주받은 자의 인장",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_crafting.json",
+          "pointer": "/pages/1/title"
+        }
+      ]
+    },
+    {
+      "key": "Blight Whetstone",
+      "english": "Blight Whetstone",
+      "translation": "역병 숫돌",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_crafting.json",
+          "pointer": "/pages/2/title"
+        }
+      ]
+    },
+    {
+      "key": "Hellforged Trim Ingot",
+      "english": "Hellforged Trim Ingot",
+      "translation": "지옥불 단조 장식 주괴",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_crafting.json",
+          "pointer": "/pages/3/title"
+        }
+      ]
+    },
+    {
+      "key": "Apex Trophies",
+      "english": "Apex Trophies",
+      "translation": "최상위 전리품",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_drops.json",
+          "pointer": "/pages/3/title"
+        }
+      ]
+    },
+    {
+      "key": "Tainted Flesh",
+      "english": "Tainted Flesh",
+      "translation": "오염된 살점",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_food.json",
+          "pointer": "/pages/1/title"
+        }
+      ]
+    },
+    {
+      "key": "Vitae Morsel",
+      "english": "Vitae Morsel",
+      "translation": "Vitae 한입거리",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_food.json",
+          "pointer": "/pages/2/title"
+        }
+      ]
+    },
+    {
+      "key": "Bottled Spite",
+      "english": "Bottled Spite",
+      "translation": "병에 담긴 악의",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_food.json",
+          "pointer": "/pages/3/title"
+        }
+      ]
+    },
+    {
+      "key": "The Mine Entrance",
+      "english": "The Mine Entrance",
+      "translation": "광산 입구",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/endless_realm.json",
+          "pointer": "/pages/5/title"
+        }
+      ]
+    },
+    {
+      "key": "Intricate Hellforged Parts",
+      "english": "Intricate Hellforged Parts",
+      "translation": "정교한 지옥불 단조 부품",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/endless_realm.json",
+          "pointer": "/pages/8/title"
+        }
+      ]
+    },
+    {
+      "key": "The Mines",
+      "english": "The Mines",
+      "translation": "광산",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/keys.json",
+          "pointer": "/pages/2/title"
+        }
+      ]
+    },
+    {
+      "key": "Saturated Tau",
+      "english": "Saturated Tau",
+      "translation": "포화된 Tau",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/dungeons/tau_fruit.json",
+          "pointer": "/pages/3/title"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 50,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Cost:[#]() 25,000 EV per use\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Tenebrae Ritual Stone\\\n  8x Fire Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 28 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 50,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Cost:[#]() 25,000 EV per use\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Tenebrae Ritual Stone\\\n  8x Fire Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 28 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 50,000 EV\\\n[#](8B0000)수정:[#]() 각성한 활성화 수정\\\n[#](8B0000)비용:[#]() 사용할 때마다 25,000 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  Tenebrae 의식석 12개\\\n  불 의식석 8개\\\n  땅 의식석 4개\\\n  공기 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 28개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_armour_evolve.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 25 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Fire Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 25 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Fire Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 25,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 40틱마다 25 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  불 의식석 8개\\\n  땅 의식석 4개\\\n  공기 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 16개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_butchering.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 10,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  20x Air Ritual Stone\\\n  8x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 28 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 10,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  20x Air Ritual Stone\\\n  8x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 28 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 10,000 EV\\\n[#](8B0000)수정:[#]() 각성한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 초당 100 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  공기 의식석 20개\\\n  Tenebrae 의식석 8개\\\n  [#](8B0000)합계:[#]() 룬 28개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_condor.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 2,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 5틱마다 5 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 12개\\\n  공기 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 16개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_containment.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Tenebrae Ritual Stone\\\n  8x Fire Ritual Stone\\\n  8x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 28 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Tenebrae Ritual Stone\\\n  8x Fire Ritual Stone\\\n  8x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 28 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 25,000 EV\\\n[#](8B0000)수정:[#]() 각성한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 40틱마다 100 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  Tenebrae 의식석 12개\\\n  불 의식석 8개\\\n  땅 의식석 8개\\\n  [#](8B0000)합계:[#]() 룬 28개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_crafting.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 40,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  12x Tenebrae Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 24 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 40,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  12x Tenebrae Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 24 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 40,000 EV\\\n[#](8B0000)수정:[#]() 각성한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 초당 100 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 8개\\\n  Tenebrae 의식석 12개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 24개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_crystal_catalyst.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 100,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 160 EV every 100 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  8x Tenebrae Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 24 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 100,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 160 EV every 100 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  8x Tenebrae Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 24 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 100,000 EV\\\n[#](8B0000)수정:[#]() 각성한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 100틱마다 160 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 8개\\\n  공기 의식석 4개\\\n  Tenebrae 의식석 8개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 24개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_crystallum_fractura.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 10,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  36x Tenebrae Ritual Stone\\\n  1x Water Ritual Stone\\\n  1x Fire Ritual Stone\\\n  1x Earth Ritual Stone\\\n  1x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 40 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 10,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  36x Tenebrae Ritual Stone\\\n  1x Water Ritual Stone\\\n  1x Fire Ritual Stone\\\n  1x Earth Ritual Stone\\\n  1x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 40 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 10,000 EV\\\n[#](8B0000)수정:[#]() 각성한 활성화 수정\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  Tenebrae 의식석 36개\\\n  물 의식석 1개\\\n  불 의식석 1개\\\n  땅 의식석 1개\\\n  공기 의식석 1개\\\n  [#](8B0000)합계:[#]() 룬 40개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_enchanted_vitae.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 2,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 5틱마다 5 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  공기 의식석 12개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 16개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_expulsion.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 20 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Tenebrae Ritual Stone\\\n  8x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 20 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Tenebrae Ritual Stone\\\n  8x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 25,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 초당 20 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  Tenebrae 의식석 4개\\\n  공기 의식석 8개\\\n  [#](8B0000)합계:[#]() 룬 12개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_feathered_knife.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 2,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 초당 10 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 12개\\\n  불 의식석 4개\\\n  공기 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 20개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_felling.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 1,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Water Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 1,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Water Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 1,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 40틱마다 100 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  물 의식석 8개\\\n  땅 의식석 4개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 16개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_full_stomach.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 1,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 20 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 1,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 20 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 1,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 초당 20 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 8개\\\n  물 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 12개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_green_grove.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  16x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  16x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 2,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 틱당 10 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 16개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 20개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_grounding.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 3 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Earth Ritual Stone\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 3 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Earth Ritual Stone\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 20,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 초당 3 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 12개\\\n  물 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 16개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_harvest.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 10,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 500 EV every 10 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 4 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 10,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 500 EV every 10 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 4 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 10,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 10틱마다 500 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 4개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_lava.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 5,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 50 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 5,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 50 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 5,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 40틱마다 50 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 8개\\\n  공기 의식석 4개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 16개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_magnetic.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 250,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Fire Ritual Stone\\\n  16x Tenebrae Ritual Stone\\\n  8x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 36 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 250,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Fire Ritual Stone\\\n  16x Tenebrae Ritual Stone\\\n  8x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 36 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 250,000 EV\\\n[#](8B0000)수정:[#]() 각성한 활성화 수정\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  불 의식석 12개\\\n  Tenebrae 의식석 16개\\\n  땅 의식석 8개\\\n  [#](8B0000)합계:[#]() 룬 36개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_meteor.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 1 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 1 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 2,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 틱당 1 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  공기 의식석 8개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 12개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_phantom_bridge.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 5,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 5,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 5,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 5틱마다 10 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 8개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 12개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_placer.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 2,500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 50 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Water Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 2,500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 50 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Water Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 2,500 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 초당 50 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  물 의식석 12개\\\n  땅 의식석 4개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 20개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_pump.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 50 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Water Ritual Stone\\\n  8x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 50 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Water Ritual Stone\\\n  8x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 500 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 40틱마다 50 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  물 의식석 8개\\\n  땅 의식석 8개\\\n  [#](8B0000)합계:[#]() 룬 16개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_regeneration.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Cost:[#]() 10,000 EV per use\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Fire Ritual Stone\\\n  12x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 24 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Cost:[#]() 10,000 EV per use\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Fire Ritual Stone\\\n  12x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 24 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 20,000 EV\\\n[#](8B0000)수정:[#]() 각성한 활성화 수정\\\n[#](8B0000)비용:[#]() 사용할 때마다 10,000 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  불 의식석 12개\\\n  Tenebrae 의식석 12개\\\n  [#](8B0000)합계:[#]() 룬 24개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_sentient_downgrade.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 30 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  8x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 30 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  8x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 500 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 초당 30 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 8개\\\n  물 의식석 8개\\\n  [#](8B0000)합계:[#]() 룬 16개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_shepherd.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 80,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Air Ritual Stone\\\n  12x Earth Ritual Stone\\\n  10x Fire Ritual Stone\\\n  6x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 36 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 80,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Air Ritual Stone\\\n  12x Earth Ritual Stone\\\n  10x Fire Ritual Stone\\\n  6x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 36 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 80,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  공기 의식석 8개\\\n  땅 의식석 12개\\\n  불 의식석 10개\\\n  물 의식석 6개\\\n  [#](8B0000)합계:[#]() 룬 36개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_simple_dungeon.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 500 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 틱당 5 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  공기 의식석 8개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 12개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_speed.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  3x Fire Ritual Stone\\\n  1x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  3x Fire Ritual Stone\\\n  1x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 20,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 틱당 10 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  땅 의식석 8개\\\n  공기 의식석 4개\\\n  불 의식석 3개\\\n  Tenebrae 의식석 1개\\\n  [#](8B0000)합계:[#]() 룬 16개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_sphere_create.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 150,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  5x Fire Ritual Stone\\\n  5x Water Ritual Stone\\\n  31x Tenebrae Ritual Stone\\\n  18x Air Ritual Stone\\\n  10x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 69 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 150,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  5x Fire Ritual Stone\\\n  5x Water Ritual Stone\\\n  31x Tenebrae Ritual Stone\\\n  18x Air Ritual Stone\\\n  10x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 69 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 150,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  불 의식석 5개\\\n  물 의식석 5개\\\n  Tenebrae 의식석 31개\\\n  공기 의식석 18개\\\n  땅 의식석 10개\\\n  [#](8B0000)합계:[#]() 룬 69개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_standard_dungeon.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 3,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV every 10 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Water Ritual Stone\\\n  4x Air Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 3,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV every 10 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Water Ritual Stone\\\n  4x Air Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 3,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 10틱마다 5 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  물 의식석 8개\\\n  공기 의식석 4개\\\n  땅 의식석 4개\\\n  불 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 20개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_suppression.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  24x Tenebrae Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Water Ritual Stone\\\n  4x Fire Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 40 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  24x Tenebrae Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Water Ritual Stone\\\n  4x Fire Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 40 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 25,000 EV\\\n[#](8B0000)수정:[#]() 각성한 활성화 수정\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  Tenebrae 의식석 24개\\\n  땅 의식석 4개\\\n  물 의식석 4개\\\n  불 의식석 4개\\\n  공기 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 40개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_torment_nexus.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Cost:[#]() 10,000 EV per use\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Tenebrae Ritual Stone\\\n  4x Water Ritual Stone\\\n  4x Fire Ritual Stone\\\n  4x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Cost:[#]() 10,000 EV per use\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Tenebrae Ritual Stone\\\n  4x Water Ritual Stone\\\n  4x Fire Ritual Stone\\\n  4x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 20,000 EV\\\n[#](8B0000)수정:[#]() 각성한 활성화 수정\\\n[#](8B0000)비용:[#]() 사용할 때마다 10,000 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  Tenebrae 의식석 8개\\\n  물 의식석 4개\\\n  불 의식석 4개\\\n  땅 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 20개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_upgrade_remove.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 25 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 4 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 25 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 4 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 500 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 틱당 25 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  물 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 4개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_water.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 50,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 2 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Fire Ritual Stone\\\n  12x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 50,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 2 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Fire Ritual Stone\\\n  12x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 50,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 초당 2 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  불 의식석 8개\\\n  Tenebrae 의식석 12개\\\n  [#](8B0000)합계:[#]() 룬 20개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_well_of_suffering.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 5,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV every 10 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Blank Ritual Stone\\\n  12x Earth Ritual Stone\\\n  16x Water Ritual Stone\\\n  4x Tenebrae Ritual Stone\\\n  8x Air Ritual Stone\\\n  20x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 64 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 5,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV every 10 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Blank Ritual Stone\\\n  12x Earth Ritual Stone\\\n  16x Water Ritual Stone\\\n  4x Tenebrae Ritual Stone\\\n  8x Air Ritual Stone\\\n  20x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 64 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 5,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 10틱마다 10 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  빈 의식석 4개\\\n  땅 의식석 12개\\\n  물 의식석 16개\\\n  Tenebrae 의식석 4개\\\n  공기 의식석 8개\\\n  불 의식석 20개\\\n  [#](8B0000)합계:[#]() 룬 64개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_yawning_void.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "[#](8B0000)Activation Cost:[#]() 1,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 2 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Air Ritual Stone\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "english": "[#](8B0000)Activation Cost:[#]() 1,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 2 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Air Ritual Stone\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes",
+      "translation": "[#](8B0000)활성화 비용:[#]() 1,000 EV\\\n[#](8B0000)수정:[#]() 약한 활성화 수정\\\n[#](8B0000)유지 비용:[#]() 5틱마다 2 EV\\\n\\\n[#](8B0000)필요한 룬:[#]()\\\n  공기 의식석 12개\\\n  물 의식석 4개\\\n  [#](8B0000)합계:[#]() 룬 16개",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_zephyr.json",
+          "pointer": "/pages/1/text"
+        }
+      ]
+    },
+    {
+      "key": "Vas Maleficum",
+      "english": "Vas Maleficum",
+      "translation": "Vas Maleficum",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/spiritus/aura.json",
+          "pointer": "/pages/2/title"
+        }
+      ]
+    },
+    {
+      "key": "Aura Gauge Overlay",
+      "english": "Aura Gauge Overlay",
+      "translation": "오라 측정기 오버레이",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/spiritus/aura_gauge.json",
+          "pointer": "/pages/2/title"
+        }
+      ]
+    },
+    {
+      "key": "Spiritus",
+      "english": "Spiritus",
+      "translation": "Spiritus",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/spiritus/spiritus.json",
+          "pointer": "/pages/2/title"
+        }
+      ]
+    },
+    {
+      "key": "Tabula Ampoule",
+      "english": "Tabula Ampoule",
+      "translation": "Tabula 앰풀",
+      "reviewed": true,
+      "sources": [
+        {
+          "source": "data/neovitae/modonomicon/books/guide/entries/spiritus/throwing_daggers.json",
+          "pointer": "/pages/3/title"
+        }
+      ]
+    }
+  ]
+}

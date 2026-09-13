@@ -1,0 +1,1225 @@
+{
+  "changes": [
+    {
+      "key": "tooltip.neovitae.array_effect.elevator",
+      "english": "Requires another Teleposition Array above or below. Jump to teleport up, sneak to go down. Range: 64 blocks.",
+      "before": "위나 아래에 다른 위치 전환 연금술진이 필요합니다. 점프하면 위로, 웅크리면 아래로 순간이동합니다. 범위: 64블록.",
+      "after": "위나 아래에 다른 순간이동 연금술진이 필요합니다. 점프하면 위로, 웅크리면 아래로 순간이동합니다. 범위: 64블록."
+    },
+    {
+      "key": "tooltip.neovitae.array_effect.spirit_siphon",
+      "english": "Damages non-player mobs and releases raw spiritus into the chunk.",
+      "before": "플레이어가 아닌 몹에 피해를 주고 청크에 원시 Spiritus를 방출합니다.",
+      "after": "플레이어가 아닌 몹에 피해를 주고 청크에 가공되지 않은 Spiritus를 방출합니다."
+    },
+    {
+      "key": "tooltip.neovitae.crystal_catalyst.desc",
+      "english": "Right-click a same-aspect Spiritus Crystal to accelerate its growth, or a fully-grown Raw cluster to transmute it (consumes one Animus Mote)",
+      "before": "같은 속성의 Spiritus 수정을 우클릭하면 성장을 촉진하며, 완전히 자란 원시 수정 군집을 우클릭하면 변환합니다(Animus 티끌 하나 소모).",
+      "after": "같은 속성의 Spiritus 수정을 우클릭하면 성장을 촉진하며, 완전히 자란 가공되지 않은 수정 군집을 우클릭하면 변환합니다(Animus 티끌 하나 소모)."
+    },
+    {
+      "key": "tooltip.neovitae.current_type.raw",
+      "english": "Contains: Raw Spiritus",
+      "before": "내용물: 원시 Spiritus",
+      "after": "내용물: 가공되지 않은 Spiritus"
+    },
+    {
+      "key": "tooltip.neovitae.lexVitae.rider.raw",
+      "english": "All actions empowered by stored Raw spiritus",
+      "before": "저장된 원시 Spiritus로 모든 행동 강화",
+      "after": "저장된 가공되지 않은 Spiritus로 모든 행동 강화"
+    },
+    {
+      "key": "tooltip.neovitae.routing_upgrade.slot",
+      "english": "Place in a Master Routing Node's upgrade slot",
+      "before": "주 라우팅 노드의 업그레이드 슬롯에 넣으세요",
+      "after": "중심 운송 노드의 업그레이드 슬롯에 넣으세요"
+    },
+    {
+      "key": "tooltip.neovitae.sentientAxe.rider.raw",
+      "english": "Damage scales with stored Raw spiritus",
+      "before": "저장된 원시 Spiritus에 따라 피해량이 증가합니다",
+      "after": "저장된 가공되지 않은 Spiritus에 따라 피해량이 증가합니다"
+    },
+    {
+      "key": "tooltip.neovitae.sentientPickaxe.rider.raw",
+      "english": "Mining speed and damage scale with Raw spiritus",
+      "before": "원시 Spiritus에 따라 채굴 속도와 피해량이 증가합니다",
+      "after": "가공되지 않은 Spiritus에 따라 채굴 속도와 피해량이 증가합니다"
+    },
+    {
+      "key": "tooltip.neovitae.sentientScythe.rider.raw",
+      "english": "Sweeping damage scales with stored Raw spiritus",
+      "before": "저장된 원시 Spiritus에 따라 휩쓸기 피해량이 증가합니다",
+      "after": "저장된 가공되지 않은 Spiritus에 따라 휩쓸기 피해량이 증가합니다"
+    },
+    {
+      "key": "tooltip.neovitae.sentientShovel.rider.raw",
+      "english": "Mining speed and damage scale with Raw spiritus",
+      "before": "원시 Spiritus에 따라 채굴 속도와 피해량이 증가합니다",
+      "after": "가공되지 않은 Spiritus에 따라 채굴 속도와 피해량이 증가합니다"
+    },
+    {
+      "key": "tooltip.neovitae.sentientSword.rider.raw",
+      "english": "Damage scales with stored Raw spiritus",
+      "before": "저장된 원시 Spiritus에 따라 피해량이 증가합니다",
+      "after": "저장된 가공되지 않은 Spiritus에 따라 피해량이 증가합니다"
+    },
+    {
+      "key": "tooltip.neovitae.sigil.phantom_bridge.desc",
+      "english": "Creates a phantom bridge beneath you",
+      "before": "발밑에 환영 다리를 만듭니다",
+      "after": "발밑에 유령 다리를 만듭니다"
+    },
+    {
+      "key": "tooltip.neovitae.sigil.teleposition.bound",
+      "english": "Bound to Teleposer at %s, %s, %s.",
+      "before": "%s, %s, %s의 위치 전환기에 귀속되어 있습니다.",
+      "after": "%s, %s, %s의 Teleposer에 귀속되어 있습니다."
+    },
+    {
+      "key": "tooltip.neovitae.sigil.teleposition.invalid_dimension",
+      "english": "The bound Teleposer's dimension is not loaded.",
+      "before": "귀속된 위치 전환기의 차원을 불러오지 않았습니다.",
+      "after": "귀속된 Teleposer의 차원을 불러오지 않았습니다."
+    },
+    {
+      "key": "tooltip.neovitae.sigil.teleposition.no_teleposer",
+      "english": "The bound location no longer has a Teleposer.",
+      "before": "귀속된 위치에 더 이상 위치 전환기가 없습니다.",
+      "after": "귀속된 위치에 더 이상 Teleposer가 없습니다."
+    },
+    {
+      "key": "tooltip.neovitae.sigil.teleposition.unbound",
+      "english": "This sigil is not bound to a Teleposer. Right-click a Teleposer to bind.",
+      "before": "이 인장은 위치 전환기에 귀속되지 않았습니다. 위치 전환기를 우클릭하여 귀속하세요.",
+      "after": "이 인장은 Teleposer에 귀속되지 않았습니다. Teleposer를 우클릭하여 귀속하세요."
+    },
+    {
+      "key": "book.neovitae.guide.alchemy_arrays.spirit_siphon_array.description",
+      "english": "A trap that damages mobs and harvests raw spiritus.",
+      "before": "몹에게 피해를 주고 원시 Spiritus를 수확하는 함정입니다.",
+      "after": "몹에게 피해를 주고 가공되지 않은 Spiritus를 수확하는 함정입니다."
+    },
+    {
+      "key": "book.neovitae.guide.alchemy_arrays.spirit_siphon_array.intro.text",
+      "english": "This array combines the cruelty of the Spike Array with a deeper purpose. When a non-player creature steps onto it, the array inflicts a full heart of damage and extracts a fragment of raw [#](8B0000)Spiritus[#]() from the act of suffering, releasing it into the surrounding chunk.\\\n\\\nThe array has a brief cooldown between activations to prevent overwhelming the local aura with too much spiritus at once.",
+      "before": "이 연금술진은 가시 연금술진의 잔혹함에 더 깊은 목적을 더합니다. 플레이어가 아닌 생물이 밟으면 하트 하나의 피해를 주고, 그 고통에서 원시 [#](8B0000)Spiritus[#]() 조각을 추출해 주변 청크에 방출합니다.\\\n\\\n한 번에 너무 많은 Spiritus가 지역의 기운을 압도하지 않도록 작동 사이에 짧은 재사용 대기시간이 있습니다.",
+      "after": "이 연금술진은 가시 연금술진의 잔혹함에 더 깊은 목적을 더합니다. 플레이어가 아닌 생물이 밟으면 하트 하나의 피해를 주고, 그 고통에서 원시 [#](8B0000)Spiritus[#]() 조각을 추출해 주변 청크에 방출합니다.\\\n\\\n한 번에 너무 많은 Spiritus가 지역의 오라을 압도하지 않도록 작동 사이에 짧은 재사용 대기시간이 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.alchemy_arrays.teleposition_array.intro.text",
+      "english": "The [#](8B0000)Teleposition Array[#]() folds space between two aligned glyphs, creating a seamless vertical transit system. A single array does nothing on its own you must place [#](8B0000)at least two[#]() arrays directly above one another, aligned on the same block column, at any distance up to [#](B8860B)64 blocks[#]().\\\n\\\n[#](B8860B)Jump[#]() while standing on an array to teleport upward to the next array above. [#](B8860B)Sneak[#]() to descend to the nearest array below.",
+      "before": "[#](8B0000)위치 전환 연금술진[#]()은 정렬된 두 문양 사이의 공간을 접어 매끄러운 수직 이동 수단을 만듭니다. 하나만으로는 작동하지 않으며, 같은 블록 기둥에 [#](8B0000)최소 두 개[#]()를 위아래로 놓아야 합니다. 간격은 최대 [#](B8860B)64블록[#]()입니다.\\\n\\\n연금술진 위에서 [#](B8860B)점프[#]()하면 바로 위의 다음 연금술진으로 순간이동합니다. [#](B8860B)웅크리면[#]() 바로 아래의 가장 가까운 연금술진으로 내려갑니다.",
+      "after": "[#](8B0000)순간이동 연금술진[#]()은 정렬된 두 문양 사이의 공간을 접어 매끄러운 수직 이동 수단을 만듭니다. 하나만으로는 작동하지 않으며, 같은 블록 기둥에 [#](8B0000)최소 두 개[#]()를 위아래로 놓아야 합니다. 간격은 최대 [#](B8860B)64블록[#]()입니다.\\\n\\\n연금술진 위에서 [#](B8860B)점프[#]()하면 바로 위의 다음 연금술진으로 순간이동합니다. [#](B8860B)웅크리면[#]() 바로 아래의 가장 가까운 연금술진으로 내려갑니다."
+    },
+    {
+      "key": "book.neovitae.guide.alchemy_arrays.upgrade_brilliance.intro.text",
+      "english": "The armor responds to the knowledge you inscribe upon [#](8B0000)Upgrade Tomes[#](), hardening its lattice with each lesson. Grants up to +5 [#](4A0080)Armor[#]() and +10 [#](4A0080)Toughness[#]().\\\n\\\n[#](B8860B)Trained by[#](): Inscribe a [#](8B0000)Brilliance Tome[#]() in the Tabula Vitae, then apply it to Living Armor. Each tome grants 1 level, up to a maximum of 6.",
+      "before": "갑옷은 [#](8B0000)업그레이드의 서[#]()에 새긴 지식에 반응하며 배울 때마다 구조가 단단해집니다. [#](4A0080)방어력[#]()을 최대 +5, [#](4A0080)방어 강도[#]()를 최대 +10 얻습니다.\\\n\\\n[#](B8860B)훈련 방법[#](): Tabula Vitae에서 [#](8B0000)광휘의 서[#]()를 새겨 살아 있는 갑옷에 적용하세요. 서적 하나마다 1레벨이 오르며 최대 6레벨까지 올릴 수 있습니다.",
+      "after": "갑옷은 [#](8B0000)업그레이드의 서[#]()에 새긴 지식에 반응하며 배울 때마다 구조가 단단해집니다. [#](4A0080)방어력[#]()을 최대 +5, [#](4A0080)방어 강도[#]()를 최대 +10 얻습니다.\\\n\\\n[#](B8860B)훈련 방법[#](): Tabula Vitae에서 [#](8B0000)업그레이드의 서 (광휘)[#]()를 새겨 살아 있는 갑옷에 적용하세요. 서적 하나마다 1레벨이 오르며 최대 6레벨까지 올릴 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.alchemy_arrays.upgrade_elytra.recipe.text",
+      "english": "The [#](8B0000)Elytra Tome[#]() is forged in an [#](8B0000)Alchemy Array[#](). Apply it to your [#](8B0000)Sentient Chestplate[#]() to unfurl the wings.\\\n\\\n[#](4A0080)Blood gave you life. Now it gives you the sky.[#]()",
+      "before": "[#](8B0000)겉날개의 서[#]()는 [#](8B0000)연금술진[#]()에서 만듭니다. [#](8B0000)지각 있는 흉갑[#]()에 적용하면 날개가 펼쳐집니다.\\\n\\\n[#](4A0080)혈액은 생명을 주었습니다. 이제 하늘도 줍니다.[#]()",
+      "after": "[#](8B0000)업그레이드의 서 (겉날개)[#]()는 [#](8B0000)연금술진[#]()에서 만듭니다. [#](8B0000)지각 있는 흉갑[#]()에 적용하면 날개가 펼쳐집니다.\\\n\\\n[#](4A0080)혈액은 생명을 주었습니다. 이제 하늘도 줍니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.alchemy_arrays.utility_arrays.endless_fountain.text",
+      "english": "The [#](8B0000)Endless Fountain Array[#]() is scribed with a [#](8B0000)Block of Lapis[#]() and awakened by a [#](8B0000)Sea Pickle[#](). Once lit, it draws water from nowhere and pipes it into every fluid container touching its six faces.\\\n\\\nEach placement cycle (every 5 ticks) the array attempts to deposit [#](8B0000)up to 6 buckets[#]() of water, spread evenly across its neighbors (one per face when all six are tanks). Only whole-bucket fills are committed: if a tank has room for less than a full bucket the array skips it and tries the next cached neighbor until all 6 buckets land or every tank refuses.",
+      "before": "[#](8B0000)무한 샘 연금술진[#]()은 [#](8B0000)청금석 블록[#]()으로 새기고 [#](8B0000)불우렁쉥이[#]()로 활성화합니다. 빛나기 시작하면 무에서 물을 끌어와 여섯 면에 닿은 모든 유체 용기에 보냅니다.\\\n\\\n배치 주기마다(5틱마다) [#](8B0000)최대 6양동이[#]()의 물을 이웃 용기에 고르게 나누어 넣습니다(여섯 면이 모두 탱크라면 면마다 한 양동이). 한 양동이 단위로만 채우며, 탱크에 한 양동이보다 적은 공간만 남으면 건너뛰고 기억한 다음 이웃에 시도합니다. 6양동이를 모두 넣거나 모든 탱크가 거부할 때까지 반복합니다.",
+      "after": "[#](8B0000)끝없는 샘 연금술진[#]()은 [#](8B0000)청금석 블록[#]()으로 새기고 [#](8B0000)불우렁쉥이[#]()로 활성화합니다. 빛나기 시작하면 무에서 물을 끌어와 여섯 면에 닿은 모든 유체 용기에 보냅니다.\\\n\\\n배치 주기마다(5틱마다) [#](8B0000)최대 6양동이[#]()의 물을 이웃 용기에 고르게 나누어 넣습니다(여섯 면이 모두 탱크라면 면마다 한 양동이). 한 양동이 단위로만 채우며, 탱크에 한 양동이보다 적은 공간만 남으면 건너뛰고 기억한 다음 이웃에 시도합니다. 6양동이를 모두 넣거나 모든 탱크가 거부할 때까지 반복합니다."
+    },
+    {
+      "key": "book.neovitae.guide.alchemy_arrays.vortex_sigil.immunities.text",
+      "english": "Several beings are beyond the sigil's grasp:\\\n\\\n- [#](2E8B57)Players in Creative or Spectator mode[#]() pass through unaffected, as expected.\\\n- [#](2E8B57)Any practitioner holding an Orb of Vitae[#]() - of any tier, in either main hand or off-hand - is recognized by the array and ignored. The orb's aura disrupts the drawing current. Useful for working near your own vortex without being yanked into it.\\\n- A [#](2E8B57)redstone signal[#]() applied to the sigil silences it entirely; nothing within the radius is pulled while the signal is active.",
+      "before": "몇몇 존재는 인장의 힘에 영향을 받지 않습니다.\\\n\\\n- [#](2E8B57)크리에이티브나 관전자 모드의 플레이어[#]()는 예상대로 아무 영향 없이 지나갑니다.\\\n- 등급과 관계없이 주 손이나 보조 손에 [#](2E8B57)Vitae 구슬을 든 시전자[#]()는 연금술진이 알아보고 무시합니다. 구슬의 기운이 끌어당기는 흐름을 방해합니다. 자신의 소용돌이 근처에서 끌려가지 않고 작업할 때 유용합니다.\\\n- 인장에 [#](2E8B57)레드스톤 신호[#]()를 주면 완전히 멈춥니다. 신호가 켜져 있는 동안은 반경 안의 무엇도 끌어당기지 않습니다.",
+      "after": "몇몇 존재는 인장의 힘에 영향을 받지 않습니다.\\\n\\\n- [#](2E8B57)크리에이티브나 관전자 모드의 플레이어[#]()는 예상대로 아무 영향 없이 지나갑니다.\\\n- 등급과 관계없이 주 손이나 보조 손에 [#](2E8B57)Vitae 구슬을 든 시전자[#]()는 연금술진이 알아보고 무시합니다. 구슬의 오라이 끌어당기는 흐름을 방해합니다. 자신의 소용돌이 근처에서 끌려가지 않고 작업할 때 유용합니다.\\\n- 인장에 [#](2E8B57)레드스톤 신호[#]()를 주면 완전히 멈춥니다. 신호가 켜져 있는 동안은 반경 안의 무엇도 끌어당기지 않습니다."
+    },
+    {
+      "key": "book.neovitae.guide.altar.vitae_link.orb_link.title",
+      "english": "Orb Vitae Link",
+      "before": "구슬 Vitae 연결기",
+      "after": "Vitae 구슬 연결기"
+    },
+    {
+      "key": "book.neovitae.guide.dungeons.mimics.intro.text",
+      "english": "[#](8B0000)Ethereal Mimics[#]() are blocks of a curious [#](4A0080)liminal[#]() nature. They adopt the appearance of any block presented to them, yet remain completely intangible, as though they exist only partially in our reality. This makes them ideal for concealing pitfall traps, hidden passages, and secret chambers.\\\n\\\nYou may encounter them within the [#](8B0000)Endless Realm[#](), where they were clearly put to devious use.",
+      "before": "[#](8B0000)에테르 모방체[#]()는 기묘하게 [#](4A0080)경계에 걸친[#]() 성질의 블록입니다. 제시한 블록의 모습을 취하지만, 현실에 일부만 존재하는 듯 완전히 통과할 수 있습니다. 구덩이 함정이나 숨은 통로, 비밀 방을 감추는 데 알맞습니다.\\\n\\\n[#](8B0000)끝없는 영역[#]()에서 만날 수 있으며, 그곳에서는 분명 교활한 용도로 쓰였습니다.",
+      "after": "[#](8B0000)에테르 모방 블록[#]()는 기묘하게 [#](4A0080)경계에 걸친[#]() 성질의 블록입니다. 제시한 블록의 모습을 취하지만, 현실에 일부만 존재하는 듯 완전히 통과할 수 있습니다. 구덩이 함정이나 숨은 통로, 비밀 방을 감추는 데 알맞습니다.\\\n\\\n[#](8B0000)끝없는 영역[#]()에서 만날 수 있으며, 그곳에서는 분명 교활한 용도로 쓰였습니다."
+    },
+    {
+      "key": "book.neovitae.guide.dungeons.mimics.intro.title",
+      "english": "Ethereal Mimics",
+      "before": "에테르 모방체",
+      "after": "에테르 모방 블록"
+    },
+    {
+      "key": "book.neovitae.guide.dungeons.mimics.name",
+      "english": "Ethereal Mimics",
+      "before": "에테르 모방체",
+      "after": "에테르 모방 블록"
+    },
+    {
+      "key": "book.neovitae.guide.dungeons.mimics.recipe.text",
+      "english": "[#](2E8B57)Right-click a placed Ethereal Mimic with any block to assign it that block's appearance. It will look solid to the eye but offer no resistance to passage.[#]()\\\n\\\nConsult JEI for the crafting recipe.",
+      "before": "[#](2E8B57)놓인 에테르 모방체를 아무 블록이나 들고 우클릭하면 그 블록의 외형을 지정합니다. 눈에는 단단해 보여도 통행을 막지 않습니다.[#]()\\\n\\\n제작 조합법은 JEI에서 확인하세요.",
+      "after": "[#](2E8B57)놓인 에테르 모방 블록를 아무 블록이나 들고 우클릭하면 그 블록의 외형을 지정합니다. 눈에는 단단해 보여도 통행을 막지 않습니다.[#]()\\\n\\\n제작 조합법은 JEI에서 확인하세요."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_crafting.info.text",
+      "english": "A versatile and powerful ritual, the [#](8B0000)Rhythm of the Beating Anvil[#]() automates crafting, standard recipes by default, or [#](8B0000)Tabula Vitae[#]() and [#](8B0000)Hellfire Forge[#]() recipes with the proper augmentation. Its configuration is more involved than most, so study the following pages carefully.\\\n\\\nEach ritual handles exactly one recipe at a time.",
+      "before": "다재다능하고 강력한 [#](8B0000)두드리는 모루의 리듬[#]()은 제작을 자동화합니다. 기본적으로 일반 조합법을 처리하며, 적절히 증강하면 [#](8B0000)Tabula Vitae[#]()와 [#](8B0000)지옥불 대장간[#]() 조합법도 처리합니다. 설정이 다른 의식보다 복잡하니 다음 페이지를 주의 깊게 읽으세요.\\\n\\\n각 의식은 한 번에 정확히 하나의 조합법을 처리합니다.",
+      "after": "다재다능하고 강력한 [#](8B0000)두드리는 모루의 박자[#]()은 제작을 자동화합니다. 기본적으로 일반 조합법을 처리하며, 적절히 증강하면 [#](8B0000)Tabula Vitae[#]()와 [#](8B0000)지옥불 대장간[#]() 조합법도 처리합니다. 설정이 다른 의식보다 복잡하니 다음 페이지를 주의 깊게 읽으세요.\\\n\\\n각 의식은 한 번에 정확히 하나의 조합법을 처리합니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_crystal_catalyst.description",
+      "english": "Condenses the souls of the slain into Raw Spiritus.",
+      "before": "쓰러진 자의 영혼을 원시 Spiritus로 응축합니다.",
+      "after": "쓰러진 자의 영혼을 가공되지 않은 Spiritus로 응축합니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_crystal_catalyst.info.text",
+      "english": "When creatures perish within this ritual's domain, their departing essence is intercepted, not the vital spark, but the lingering [#](4A0080)demonic residue[#]() that clings to all mortal things. The circle condenses it into [#](8B0000)Raw Spiritus[#](), which falls to the ground [#](8B0000)where the creature died[#]() for you to gather.\n\nThe watched volume is [#](B8860B)21x21x21[#](), centered on the Master Ritual Stone. Players are never harvested. Sturdier souls yield more: a common beast parts with a little, while the great horrors of the world surrender a great deal.",
+      "before": "의식 영역 안에서 생물이 죽으면 떠나는 정수를 가로챕니다. 생명의 불꽃이 아니라 모든 필멸자에게 달라붙은 [#](4A0080)악마의 잔여물[#]()입니다. 이를 [#](8B0000)원시 Spiritus[#]()로 응축해 [#](8B0000)생물이 죽은 자리[#]()의 바닥에 떨어뜨리므로 주울 수 있습니다.\n\n감지 영역은 중심 의식석을 가운데 둔 [#](B8860B)21x21x21[#]()입니다. 플레이어에게서는 수확하지 않습니다. 강한 영혼일수록 많이 내놓습니다. 평범한 짐승은 조금, 세계의 거대한 공포들은 훨씬 많이 남깁니다.",
+      "after": "의식 영역 안에서 생물이 죽으면 떠나는 정수를 가로챕니다. 생명의 불꽃이 아니라 모든 필멸자에게 달라붙은 [#](4A0080)악마의 잔여물[#]()입니다. 이를 [#](8B0000)가공되지 않은 Spiritus[#]()로 응축해 [#](8B0000)생물이 죽은 자리[#]()의 바닥에 떨어뜨리므로 주울 수 있습니다.\n\n감지 영역은 중심 의식석을 가운데 둔 [#](B8860B)21x21x21[#]()입니다. 플레이어에게서는 수확하지 않습니다. 강한 영혼일수록 많이 내놓습니다. 평범한 짐승은 조금, 세계의 거대한 공포들은 훨씬 많이 남깁니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_crystallum_fractura.aspect_bias.text",
+      "english": "Attune the Master Ritual Stone to a single Spiritus aspect with the [#](8B0000)Ritual Configurator[#]() in [#](2E8B57)Set Spiritus Consumed[#]() mode while holding exactly one matching crystal in your hotbar. The +25%% portion of any [#](8B0000)Raw Spiritus[#]() injection within the aura is then redirected to that aspect's pool, letting you farm a chosen aspect while the ritual is running.",
+      "before": "단축바에 해당 수정 하나만 둔 채 [#](8B0000)의식 설정 도구[#]()의 [#](2E8B57)소모할 Spiritus 설정[#]() 모드로 중심 의식석을 단일 Spiritus 속성에 조율하세요. 기운 범위 안에 주입되는 [#](8B0000)원시 Spiritus[#]()의 +25%% 추가분이 해당 속성 저장량으로 보내지므로 의식이 작동하는 동안 원하는 속성을 모을 수 있습니다.",
+      "after": "단축바에 해당 수정 하나만 둔 채 [#](8B0000)의식 설정 도구[#]()의 [#](2E8B57)소모할 Spiritus 설정[#]() 모드로 중심 의식석을 단일 Spiritus 속성에 조율하세요. 오라 범위 안에 주입되는 [#](8B0000)가공되지 않은 Spiritus[#]()의 +25%% 추가분이 해당 속성 저장량으로 보내지므로 의식이 작동하는 동안 원하는 속성을 모을 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_crystallum_fractura.description",
+      "english": "Harvests mature crystal clusters and weaves a growth aura around them.",
+      "before": "성숙한 수정 군집을 수확하고 주위에 성장의 기운을 펼칩니다.",
+      "after": "성숙한 수정 군집을 수확하고 주위에 성장의 오라을 펼칩니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_crystallum_fractura.fortune.text",
+      "english": "Harvested clusters drop with [#](8B0000)scaling Fortune[#]() based on the chunk's local Raw Spiritus density:\n\n- below [#](B8860B)30 Raw[#](): no Fortune\n- [#](B8860B)30-100 Raw[#](): linearly scales from Fortune I to Fortune III\n- at or above [#](B8860B)100 Raw[#](): Fortune III\n\nWhen Fortune is active, the ritual probabilistically consumes [#](8B0000)Raw Spiritus[#]() at an average rate of one per twelve seconds; keep the chunk fed.",
+      "before": "수확한 군집에는 청크의 원시 Spiritus 밀도에 따라 [#](8B0000)행운이 비례 적용[#]()됩니다.\n\n- [#](B8860B)원시 30[#]() 미만: 행운 없음\n- [#](B8860B)원시 30-100[#](): 행운 I부터 행운 III까지 선형 증가\n- [#](B8860B)원시 100[#]() 이상: 행운 III\n\n행운이 적용되면 의식이 확률적으로 [#](8B0000)원시 Spiritus[#]()를 평균 열두 초에 하나씩 소모합니다. 청크에 계속 공급하세요.",
+      "after": "수확한 군집에는 청크의 가공되지 않은 Spiritus 밀도에 따라 [#](8B0000)행운이 비례 적용[#]()됩니다.\n\n- [#](B8860B)원시 30[#]() 미만: 행운 없음\n- [#](B8860B)원시 30-100[#](): 행운 I부터 행운 III까지 선형 증가\n- [#](B8860B)원시 100[#]() 이상: 행운 III\n\n행운이 적용되면 의식이 확률적으로 [#](8B0000)가공되지 않은 Spiritus[#]()를 평균 열두 초에 하나씩 소모합니다. 청크에 계속 공급하세요."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_crystallum_fractura.info.text",
+      "english": "A unified harvest engine that gathers fully-grown [#](8B0000)Spiritus Crystals[#]() along with amethyst and other geode crystal clusters once they mature. Within its aura, Spiritus Crystal growth doubles, nearby [#](2E8B57)budding blocks[#]() are coaxed to grow far faster so their geodes keep yielding, and any spiritus injected into a chunk is amplified by [#](B8860B)+25%%[#]().",
+      "before": "완전히 자란 [#](8B0000)Spiritus 수정[#]()과 자수정 등 정동의 성숙한 수정 군집을 수확하는 통합 장치입니다. 기운 범위에서 Spiritus 수정의 성장이 두 배가 되고 주변 [#](2E8B57)싹트는 블록[#]()이 훨씬 빠르게 자라 정동이 계속 산출합니다. 청크에 주입되는 모든 Spiritus도 [#](B8860B)+25%%[#]() 증폭됩니다.",
+      "after": "완전히 자란 [#](8B0000)Spiritus 수정[#]()과 자수정 등 정동의 성숙한 수정 군집을 수확하는 통합 장치입니다. 오라 범위에서 Spiritus 수정의 성장이 두 배가 되고 주변 [#](2E8B57)싹트는 블록[#]()이 훨씬 빠르게 자라 정동이 계속 산출합니다. 청크에 주입되는 모든 Spiritus도 [#](B8860B)+25%%[#]() 증폭됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_feathered_knife.spiritus_effects.text",
+      "english": "- [#](8B0000)Raw Spiritus[#](): Increases the [#](8B0000)Essentia Vitae[#]() gained per health sacrificed.\n\n- [#](8B0000)Spiritus Ruina[#](): Channels the [#](8B0000)Incense Bonus[#]() from a nearby [#](8B0000)Incense Altar[#]().\n\n- [#](8B0000)Spiritus Vindicta[#](): When paired with [#](8B0000)Invictus[#](), increases the drain rate.\n\n- [#](8B0000)Spiritus Nihilum[#](): Raises the maximum vitality drained per tick.\n\n- [#](8B0000)Spiritus Invictus[#](): Prevents the ritual from draining you to death.",
+      "before": "- [#](8B0000)원시 Spiritus[#](): 희생한 체력당 얻는 [#](8B0000)Essentia Vitae[#]()를 늘립니다.\n\n- [#](8B0000)Spiritus Ruina[#](): 주변 [#](8B0000)향 제단[#]()의 [#](8B0000)향 보너스[#]()를 끌어옵니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): [#](8B0000)Invictus[#]()와 함께 쓰면 흡수 속도를 높입니다.\n\n- [#](8B0000)Spiritus Nihilum[#](): 틱당 흡수하는 최대 활력을 늘립니다.\n\n- [#](8B0000)Spiritus Invictus[#](): 의식이 플레이어를 죽을 때까지 흡수하지 못하게 합니다.",
+      "after": "- [#](8B0000)가공되지 않은 Spiritus[#](): 희생한 체력당 얻는 [#](8B0000)Essentia Vitae[#]()를 늘립니다.\n\n- [#](8B0000)Spiritus Ruina[#](): 주변 [#](8B0000)향 제단[#]()의 [#](8B0000)향 보너스[#]()를 끌어옵니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): [#](8B0000)Invictus[#]()와 함께 쓰면 흡수 속도를 높입니다.\n\n- [#](8B0000)Spiritus Nihilum[#](): 틱당 흡수하는 최대 활력을 늘립니다.\n\n- [#](8B0000)Spiritus Invictus[#](): 의식이 플레이어를 죽을 때까지 흡수하지 못하게 합니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_green_grove.spiritus_effects.text",
+      "english": "- [#](8B0000)Raw Spiritus[#](): Hastens the growth rate further.\n\n- [#](8B0000)Spiritus Ruina[#](): Hydrates nearby farmland, ensuring fertile soil.\n\n- [#](8B0000)Spiritus Vindicta[#](): Causes nearby plants to spread and propagate.\n\n- [#](8B0000)Spiritus Nihilum[#](): Intensifies the effect at higher spiritus concentrations.\n\n- [#](8B0000)Spiritus Invictus[#](): Coaxes nearby saplings into full-grown trees.",
+      "before": "- [#](8B0000)원시 Spiritus[#](): 성장 속도를 더 높입니다.\n\n- [#](8B0000)Spiritus Ruina[#](): 주변 경작지에 물을 공급하여 비옥하게 만듭니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 주변 식물이 퍼지고 번식하게 합니다.\n\n- [#](8B0000)Spiritus Nihilum[#](): Spiritus 농도가 높을수록 효과를 강화합니다.\n\n- [#](8B0000)Spiritus Invictus[#](): 주변 묘목을 다 자란 나무로 만듭니다.",
+      "after": "- [#](8B0000)가공되지 않은 Spiritus[#](): 성장 속도를 더 높입니다.\n\n- [#](8B0000)Spiritus Ruina[#](): 주변 경작지에 물을 공급하여 비옥하게 만듭니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 주변 식물이 퍼지고 번식하게 합니다.\n\n- [#](8B0000)Spiritus Nihilum[#](): Spiritus 농도가 높을수록 효과를 강화합니다.\n\n- [#](8B0000)Spiritus Invictus[#](): 주변 묘목을 다 자란 나무로 만듭니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_grounding.spiritus_effects.text",
+      "english": "- [#](8B0000)Raw Spiritus[#](): Strengthens the grounding effect.\n\n- [#](8B0000)Spiritus Ruina[#](): Applies the [#](8B0000)Suspended[#]() effect, halting vertical movement entirely.\n\n- [#](8B0000)Spiritus Vindicta[#](): Inflicts [#](8B0000)Levitation[#](), a cruel irony, dragging entities skyward against their will.\n\n- [#](8B0000)Spiritus Nihilum[#](): Applies the [#](8B0000)Heavy Heart[#]() affliction.\n\n- [#](8B0000)Spiritus Invictus[#](): Pairs with Nihilum to extend the Heavy Heart affliction onto boss-tier creatures that would otherwise resist it.",
+      "before": "- [#](8B0000)원시 Spiritus[#](): 접지 효과를 강화합니다.\n\n- [#](8B0000)Spiritus Ruina[#](): [#](8B0000)정지[#]() 효과로 수직 이동을 완전히 멈춥니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): [#](8B0000)공중 부양[#]()을 부여해 개체의 의지와 상관없이 하늘로 끌어 올리는 잔혹한 역설을 만듭니다.\n\n- [#](8B0000)Spiritus Nihilum[#](): [#](8B0000)무거운 심장[#]() 효과를 부여합니다.\n\n- [#](8B0000)Spiritus Invictus[#](): Nihilum과 함께 쓰면 원래 저항하는 보스급 생물에게도 무거운 심장 효과를 적용합니다.",
+      "after": "- [#](8B0000)가공되지 않은 Spiritus[#](): 접지 효과를 강화합니다.\n\n- [#](8B0000)Spiritus Ruina[#](): [#](8B0000)공중 정지[#]() 효과로 수직 이동을 완전히 멈춥니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): [#](8B0000)공중 부양[#]()을 부여해 개체의 의지와 상관없이 하늘로 끌어 올리는 잔혹한 역설을 만듭니다.\n\n- [#](8B0000)Spiritus Nihilum[#](): [#](8B0000)무거운 심장[#]() 효과를 부여합니다.\n\n- [#](8B0000)Spiritus Invictus[#](): Nihilum과 함께 쓰면 원래 저항하는 보스급 생물에게도 무거운 심장 효과를 적용합니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_lava.spiritus_effects.text",
+      "english": "- [#](8B0000)Raw Spiritus[#](): Reduces the [#](8B0000)Essentia Vitae[#]() cost of each lava block or bucket conjured.\n\n- [#](8B0000)Spiritus Ruina[#](): Sets nearby hostile creatures ablaze.\n\n- [#](8B0000)Spiritus Vindicta[#](): Marks hostile mobs with [#](8B0000)Fire Fuse[#](). When it expires, they detonate spectacularly.\n\n- [#](8B0000)Spiritus Invictus[#](): Wraps nearby practitioners in [#](8B0000)Fire Resistance[#]().",
+      "before": "- [#](8B0000)원시 Spiritus[#](): 생성하는 용암 블록이나 양동이당 [#](8B0000)Essentia Vitae[#]() 비용을 줄입니다.\n\n- [#](8B0000)Spiritus Ruina[#](): 주변 적대적 생물에 불을 붙입니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 적대적 몹에 [#](8B0000)화염 도화선[#]()을 부여합니다. 효과가 끝나면 화려하게 폭발합니다.\n\n- [#](8B0000)Spiritus Invictus[#](): 주변 시전자에게 [#](8B0000)화염 저항[#]()을 부여합니다.",
+      "after": "- [#](8B0000)가공되지 않은 Spiritus[#](): 생성하는 용암 블록이나 양동이당 [#](8B0000)Essentia Vitae[#]() 비용을 줄입니다.\n\n- [#](8B0000)Spiritus Ruina[#](): 주변 적대적 생물에 불을 붙입니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 적대적 몹에 [#](8B0000)화염 도화선[#]()을 부여합니다. 효과가 끝나면 화려하게 폭발합니다.\n\n- [#](8B0000)Spiritus Invictus[#](): 주변 시전자에게 [#](8B0000)화염 저항[#]()을 부여합니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_phantom_bridge.info.text",
+      "english": "This ritual weaves [#](4A0080)phantom matter[#]() beneath the feet of any practitioner within its reach, translucent platforms that solidify only when stepped upon, allowing passage across chasms and voids.\\\n\\\nWhen the ritual falls silent, the phantom bridges dissolve like morning mist. Invaluable for traversing dangerous terrain or constructing in treacherous places.",
+      "before": "이 의식은 범위 안의 시전자 발밑에 [#](4A0080)환영 물질[#]()을 엮습니다. 밟을 때만 단단해지는 반투명 발판으로 협곡과 공허를 건널 수 있습니다.\\\n\\\n의식이 멈추면 환영 다리는 아침 안개처럼 흩어집니다. 위험한 지형을 건너거나 위태로운 곳에서 건설할 때 매우 유용합니다.",
+      "after": "이 의식은 범위 안의 시전자 발밑에 [#](4A0080)환영 물질[#]()을 엮습니다. 밟을 때만 단단해지는 반투명 발판으로 협곡과 공허를 건널 수 있습니다.\\\n\\\n의식이 멈추면 유령 다리는 아침 안개처럼 흩어집니다. 위험한 지형을 건너거나 위태로운 곳에서 건설할 때 매우 유용합니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_placer.aura.text",
+      "english": "Left to itself the Mason sets one block a pulse across a domain of 5,000. [#](8B0000)Raw Spiritus[#]() in the chunk quickens it and widens what you may mark out:\n\n- [#](B8860B)20 raw[#](): four blocks a pulse, 20,000 of room\n- [#](B8860B)50 raw[#](): eight blocks a pulse, 80,000 of room\n\nThe aura is spent as it works, so the circle settles at whatever pace your supply sustains; it never stalls, only slows. Should the aura fade you keep the domain you marked, but you cannot widen it again until the Spiritus returns.",
+      "before": "기본적으로 석공은 5,000 크기의 영역에 펄스당 블록 하나를 놓습니다. 청크의 [#](8B0000)원시 Spiritus[#]()는 작업을 빠르게 하고 지정 가능한 영역을 넓힙니다.\n\n- [#](B8860B)원시 20[#](): 펄스당 네 블록, 영역 20,000\n- [#](B8860B)원시 50[#](): 펄스당 여덟 블록, 영역 80,000\n\n작업하며 기운을 소모하므로 공급량에 맞는 속도로 안정됩니다. 멈추지는 않고 느려질 뿐입니다. 기운이 사라져도 지정한 영역은 유지되지만 Spiritus가 돌아오기 전까지 더 넓힐 수 없습니다.",
+      "after": "기본적으로 석공은 5,000 크기의 영역에 펄스당 블록 하나를 놓습니다. 청크의 [#](8B0000)가공되지 않은 Spiritus[#]()는 작업을 빠르게 하고 지정 가능한 영역을 넓힙니다.\n\n- [#](B8860B)원시 20[#](): 펄스당 네 블록, 영역 20,000\n- [#](B8860B)원시 50[#](): 펄스당 여덟 블록, 영역 80,000\n\n작업하며 오라을 소모하므로 공급량에 맞는 속도로 안정됩니다. 멈추지는 않고 느려질 뿐입니다. 오라이 사라져도 지정한 영역은 유지되지만 Spiritus가 돌아오기 전까지 더 넓힐 수 없습니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_placer.aura.title",
+      "english": "The Quickening Aura",
+      "before": "가속의 기운",
+      "after": "가속의 오라"
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_shepherd.info.text",
+      "english": "The circle keeps a watchful eye over the flock within its bounds. Young creatures grow to adulthood at a quickened pace, while grown animals are coaxed into breeding of their own accord. A trickle of [#](8B0000)Essentia Vitae[#]() feeds them in place of grain, so neither food nor a chest is required. A chunk rich in [#](8B0000)Raw Spiritus[#]() quickens the circle's pulse.",
+      "before": "의식진은 범위 안의 무리를 지켜봅니다. 새끼는 빠르게 성체로 자라고 다 자란 동물은 스스로 번식합니다. 곡식 대신 조금씩 흐르는 [#](8B0000)Essentia Vitae[#]()로 먹이므로 음식과 상자가 필요 없습니다. 청크에 [#](8B0000)원시 Spiritus[#]()가 풍부하면 의식의 주기가 빨라집니다.",
+      "after": "의식진은 범위 안의 무리를 지켜봅니다. 새끼는 빠르게 성체로 자라고 다 자란 동물은 스스로 번식합니다. 곡식 대신 조금씩 흐르는 [#](8B0000)Essentia Vitae[#]()로 먹이므로 음식과 상자가 필요 없습니다. 청크에 [#](8B0000)가공되지 않은 Spiritus[#]()가 풍부하면 의식의 주기가 빨라집니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_speed.spiritus_effects.text",
+      "english": "- [#](8B0000)Raw Spiritus[#](): Scales launch velocity with chunk saturation.\n\n- [#](8B0000)Spiritus Ruina[#](): Adds further horizontal speed.\n\n- [#](8B0000)Spiritus Nihilum[#](): Only baby creatures (and players) are launched.\n\n- [#](8B0000)Spiritus Vindicta[#](): Only adult creatures are launched.\n\n- [#](8B0000)Spiritus Invictus[#](): Launched targets receive Soft Fall.",
+      "before": "- [#](8B0000)원시 Spiritus[#](): 청크의 포화도에 따라 발사 속도가 증가합니다.\n\n- [#](8B0000)Spiritus Ruina[#](): 수평 속도를 추가로 높입니다.\n\n- [#](8B0000)Spiritus Nihilum[#](): 새끼 생물과 플레이어만 발사합니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 성체 생물만 발사합니다.\n\n- [#](8B0000)Spiritus Invictus[#](): 발사된 대상에게 부드러운 착지를 부여합니다.",
+      "after": "- [#](8B0000)가공되지 않은 Spiritus[#](): 청크의 포화도에 따라 발사 속도가 증가합니다.\n\n- [#](8B0000)Spiritus Ruina[#](): 수평 속도를 추가로 높입니다.\n\n- [#](8B0000)Spiritus Nihilum[#](): 새끼 생물과 플레이어만 발사합니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 성체 생물만 발사합니다.\n\n- [#](8B0000)Spiritus Invictus[#](): 발사된 대상에게 부드러운 착지를 부여합니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_tinkerer.modes.text",
+      "english": "- [#](8B0000)Information[#](): Reveals the purpose of the selected [#](4A0080)ritual[#](), much like the [#](8B0000)Ritual Diviner[#]().\n\n- [#](8B0000)Set Spiritus Consumed[#](): Attunes the ritual to consume specific types of [#](8B0000)Spiritus[#]() from the [#](4A0080)Aura[#](). Carry the desired [#](8B0000)Spiritus Crystals[#]() in your hotbar, one for each aspect you wish the ritual to draw upon. The effects of each spiritus type are detailed on individual ritual pages.",
+      "before": "- [#](8B0000)정보[#](): [#](8B0000)의식 점술 도구[#]()처럼 선택한 [#](4A0080)의식[#]()의 목적을 보여줍니다.\n\n- [#](8B0000)소모할 Spiritus 설정[#](): [#](4A0080)기운[#]()에서 특정 [#](8B0000)Spiritus[#]()를 소모하도록 조율합니다. 사용할 속성마다 해당 [#](8B0000)Spiritus 수정[#]() 하나씩을 단축바에 지니세요. 속성별 효과는 각 의식 페이지에 나옵니다.",
+      "after": "- [#](8B0000)정보[#](): [#](8B0000)의식 점술 도구[#]()처럼 선택한 [#](4A0080)의식[#]()의 목적을 보여줍니다.\n\n- [#](8B0000)소모할 Spiritus 설정[#](): [#](4A0080)오라[#]()에서 특정 [#](8B0000)Spiritus[#]()를 소모하도록 조율합니다. 사용할 속성마다 해당 [#](8B0000)Spiritus 수정[#]() 하나씩을 단축바에 지니세요. 속성별 효과는 각 의식 페이지에 나옵니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_torment_nexus.roster.text",
+      "english": "The Nexus harvests whatever the bound spawners are set to spawn, so the roster is yours to decide. To retune a spawner, inscribe an [#](8B0000)Array of Imprisonment[#]() atop it and slay the creature you want within an [#](8B0000)11x11x11[#]() region of the array; the spawner takes on that creature and the array is spent.\\\n\\\nStock a ring of spawners around the Nexus this way to farm exactly the drops you need without a single mob ever drawing breath.",
+      "before": "연결체는 묶인 생성기에 설정된 몹을 수확하므로 대상은 직접 정할 수 있습니다. 생성기 위에 [#](8B0000)가둠 연금술진[#]()을 새기고 주변 [#](8B0000)11x11x11[#]() 영역에서 원하는 생물을 처치하면 생성기가 그 생물로 바뀌고 연금술진은 소모됩니다.\\\n\\\n이렇게 연결체 주위에 생성기를 둘러놓으면 몹 하나도 실제로 살려 내지 않고 원하는 전리품만 모을 수 있습니다.",
+      "after": "연결체는 묶인 생성기에 설정된 몹을 수확하므로 대상은 직접 정할 수 있습니다. 생성기 위에 [#](8B0000)감금 연금술진[#]()을 새기고 주변 [#](8B0000)11x11x11[#]() 영역에서 원하는 생물을 처치하면 생성기가 그 생물로 바뀌고 연금술진은 소모됩니다.\\\n\\\n이렇게 연결체 주위에 생성기를 둘러놓으면 몹 하나도 실제로 살려 내지 않고 원하는 전리품만 모을 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_water.tank_fill.text",
+      "english": "While any [#](8B0000)Raw Spiritus[#]() aura is present in the chunk, the ritual also fills any [#](8B0000)fluid tank[#]() placed directly above the Master Ritual Stone with water, [#](8B0000)1,000 mB per refresh[#](). A small expansion that turns the spring from a decoration into a quiet supply line for alchemy, brewing, or anything else that drinks water.",
+      "before": "청크에 [#](8B0000)원시 Spiritus[#]() 기운이 조금이라도 있으면 중심 의식석 바로 위에 놓인 [#](8B0000)유체 탱크[#]()에도 [#](8B0000)갱신당 1,000mB[#]()의 물을 채웁니다. 이 작은 확장으로 장식용 샘이 연금술, 양조 등 물을 쓰는 모든 작업에 조용히 공급하는 설비가 됩니다.",
+      "after": "청크에 [#](8B0000)가공되지 않은 Spiritus[#]() 오라이 조금이라도 있으면 중심 의식석 바로 위에 놓인 [#](8B0000)유체 탱크[#]()에도 [#](8B0000)갱신당 1,000mB[#]()의 물을 채웁니다. 이 작은 확장으로 장식용 샘이 연금술, 양조 등 물을 쓰는 모든 작업에 조용히 공급하는 설비가 됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_yawning_void.spiritus_effects.text",
+      "english": "- [#](8B0000)Raw Spiritus[#](): Accelerates the refresh rate. With enough raw aura in the chunk, the ritual approaches one block per game tick.\\\n\\\n- [#](8B0000)Spiritus Invictus[#](): Rather than erasing the block, [#](8B0000)moves it[#]() to the first empty slot of a 3x3x3 placement volume directly above the master stone. Useful for sorting blocks out of a layer without destroying them. If the placement volume is full the ritual idles until you clear it.\\\n\\\n- [#](8B0000)Spiritus Ruina[#](): Reads items in a chest directly above the master stone as a [#](8B0000)whitelist[#](). Only blocks whose own item form matches one of those items are consumed; everything else is left intact. An empty chest disables the ritual entirely in this mode.",
+      "before": "- [#](8B0000)원시 Spiritus[#](): 갱신 속도를 높입니다. 청크에 원시 기운이 충분하면 게임 틱마다 한 블록에 가까워집니다.\\\n\\\n- [#](8B0000)Spiritus Invictus[#](): 블록을 지우는 대신 중심 의식석 바로 위 3x3x3 배치 영역의 첫 빈칸으로 [#](8B0000)옮깁니다[#](). 지층의 블록을 파괴하지 않고 분리할 때 유용합니다. 배치 영역이 가득 차면 비울 때까지 기다립니다.\\\n\\\n- [#](8B0000)Spiritus Ruina[#](): 중심 의식석 바로 위 상자 안의 아이템을 [#](8B0000)허용 목록[#]()으로 읽습니다. 아이템 형태가 목록과 일치하는 블록만 없애고 나머지는 보존합니다. 이 모드에서 상자가 비면 의식이 완전히 멈춥니다.",
+      "after": "- [#](8B0000)가공되지 않은 Spiritus[#](): 갱신 속도를 높입니다. 청크에 미가공 오라이 충분하면 게임 틱마다 한 블록에 가까워집니다.\\\n\\\n- [#](8B0000)Spiritus Invictus[#](): 블록을 지우는 대신 중심 의식석 바로 위 3x3x3 배치 영역의 첫 빈칸으로 [#](8B0000)옮깁니다[#](). 지층의 블록을 파괴하지 않고 분리할 때 유용합니다. 배치 영역이 가득 차면 비울 때까지 기다립니다.\\\n\\\n- [#](8B0000)Spiritus Ruina[#](): 중심 의식석 바로 위 상자 안의 아이템을 [#](8B0000)허용 목록[#]()으로 읽습니다. 아이템 형태가 목록과 일치하는 블록만 없애고 나머지는 보존합니다. 이 모드에서 상자가 비면 의식이 완전히 멈춥니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aspected_spiritus.aspects.text",
+      "english": "The four distinct [#](4A0080)Aspects[#]() of Spiritus:\n\n- [#](8B0000)Spiritus Invictus[#](): the unbroken; a fortress of intent that refuses to be undone.\n\n- [#](8B0000)Spiritus Nihilum[#](): the final silence; weight without haste, an ending given form.\n\n- [#](8B0000)Spiritus Vindicta[#](): the swift reckoning; vengeance taken before the offense is voiced.\n\n- [#](8B0000)Spiritus Ruina[#](): the slow undoing; patient decay that wears all things to ruin.\\\n\\\nEach Aspect can be burned in the [#](8B0000)Vas Maleficum[#]() just as Raw Spiritus can, feeding the [#](8B0000)Aura[#]() with its particular resonance for your Rituals to draw upon.",
+      "before": "Spiritus의 서로 다른 네 [#](4A0080)속성[#]()입니다.\n\n- [#](8B0000)Spiritus Invictus[#](): 꺾이지 않는 자. 무너지기를 거부하는 의지의 요새입니다.\n\n- [#](8B0000)Spiritus Nihilum[#](): 마지막 침묵. 서두르지 않는 무게이며 형태를 얻은 끝입니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 신속한 심판. 잘못을 말하기도 전에 이루는 복수입니다.\n\n- [#](8B0000)Spiritus Ruina[#](): 느린 붕괴. 모든 것을 파멸로 이끄는 끈질긴 부식입니다.\\\n\\\n각 속성은 원시 Spiritus처럼 [#](8B0000)Vas Maleficum[#]()에서 태울 수 있습니다. 고유한 공명을 [#](8B0000)기운[#]()에 채워 의식이 사용하게 합니다.",
+      "after": "Spiritus의 서로 다른 네 [#](4A0080)속성[#]()입니다.\n\n- [#](8B0000)Spiritus Invictus[#](): 꺾이지 않는 자. 무너지기를 거부하는 의지의 요새입니다.\n\n- [#](8B0000)Spiritus Nihilum[#](): 마지막 침묵. 서두르지 않는 무게이며 형태를 얻은 끝입니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 신속한 심판. 잘못을 말하기도 전에 이루는 복수입니다.\n\n- [#](8B0000)Spiritus Ruina[#](): 느린 붕괴. 모든 것을 파멸로 이끄는 끈질긴 부식입니다.\\\n\\\n각 속성은 가공되지 않은 Spiritus처럼 [#](8B0000)Vas Maleficum[#]()에서 태울 수 있습니다. 고유한 공명을 [#](8B0000)오라[#]()에 채워 의식이 사용하게 합니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aspected_spiritus.description",
+      "english": "Fracturing raw Spiritus into four elemental temperaments.",
+      "before": "원시 Spiritus를 네 가지 원소 기질로 나눕니다.",
+      "after": "가공되지 않은 Spiritus를 네 가지 원소 기질로 나눕니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aspected_spiritus.filling_gems.text",
+      "english": "To fill a [#](8B0000)Spiritus Gem[#]() with a specific Aspect, feed a [#](8B0000)Vas Maleficum[#]() Spiritus Crystals of that Aspect until the chunk's Aura runs thick with it. Then set the empty gem in that same Vas and [#](2E8B57)apply a redstone signal[#](); the vessel reverses its flow, and the gem drinks deeply from the Aura.\\\n\\\n[#](2E8B57)Right-click while holding a Sentient Tool to recalibrate it to the dominant Aspect in your inventory.[#]()",
+      "before": "[#](8B0000)Spiritus 보석[#]()을 특정 속성으로 채우려면 [#](8B0000)Vas Maleficum[#]()에 해당 속성 수정을 공급하여 청크의 기운을 짙게 만드세요. 그 안에 빈 보석을 놓고 [#](2E8B57)레드스톤 신호를 주면[#]() 흐름이 뒤집혀 보석이 기운을 흡수합니다.\\\n\\\n[#](2E8B57)지각 있는 도구를 들고 우클릭하면 인벤토리의 우세한 속성에 다시 조율합니다.[#]()",
+      "after": "[#](8B0000)Spiritus 보석[#]()을 특정 속성으로 채우려면 [#](8B0000)Vas Maleficum[#]()에 해당 속성 수정을 공급하여 청크의 오라을 짙게 만드세요. 그 안에 빈 보석을 놓고 [#](2E8B57)레드스톤 신호를 주면[#]() 흐름이 뒤집혀 보석이 오라을 흡수합니다.\\\n\\\n[#](2E8B57)지각 있는 도구를 들고 우클릭하면 인벤토리의 우세한 속성에 다시 조율합니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aspected_spiritus.filling_gems_purity.text",
+      "english": "A gem holds but one Aspect at a time, and an empty one seizes upon whichever the Aura offers first. Where several mingle, they are taken in a fixed precedence: [#](8B0000)Raw[#]() before all others, then Ruina, Nihilum, Invictus, and Vindicta last.\\\n\\\n[#](2E8B57)Dedicate a separate chunk to each Aspect you mean to bottle. The faintest trace of Raw will claim the vessel before any other Aspect is so much as considered.[#]()",
+      "before": "보석에는 한 번에 한 속성만 담기며 빈 보석은 기운이 처음 제공한 것을 받아들입니다. 여러 속성이 섞여 있으면 [#](8B0000)원시[#]()가 가장 먼저, 그다음 Ruina, Nihilum, Invictus, 마지막 Vindicta 순입니다.\\\n\\\n[#](2E8B57)담으려는 속성마다 별도 청크를 쓰세요. 원시가 아주 조금만 남아도 다른 속성을 고려하기 전에 보석을 차지합니다.[#]()",
+      "after": "보석에는 한 번에 한 속성만 담기며 빈 보석은 오라이 처음 제공한 것을 받아들입니다. 여러 속성이 섞여 있으면 [#](8B0000)원시[#]()가 가장 먼저, 그다음 Ruina, Nihilum, Invictus, 마지막 Vindicta 순입니다.\\\n\\\n[#](2E8B57)담으려는 속성마다 별도 청크를 쓰세요. 원시가 아주 조금만 남아도 다른 속성을 고려하기 전에 보석을 차지합니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aspected_spiritus.sentient_aspects.text",
+      "english": "Each Aspect also transforms the behavior of your [#](8B0000)Sentient Tools[#]():\n\n- [#](8B0000)Raw Spiritus[#](): Pure damage increase.\n\n- [#](8B0000)Spiritus Ruina[#](): Strikes may inflict poison or wither. Otherwise identical to Raw.\n\n- [#](8B0000)Spiritus Vindicta[#](): Moderate damage increase, heightened attack speed, and a movement speed boon that intensifies with greater Spiritus reserves.",
+      "before": "각 속성은 [#](8B0000)지각 있는 도구[#]()의 동작도 바꿉니다.\n\n- [#](8B0000)원시 Spiritus[#](): 순수한 피해량 증가.\n\n- [#](8B0000)Spiritus Ruina[#](): 공격 시 독이나 시듦을 부여할 수 있습니다. 그 외에는 원시와 같습니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 적당한 피해량 증가, 공격 속도 증가, Spiritus 저장량이 많을수록 강해지는 이동 속도 보너스.",
+      "after": "각 속성은 [#](8B0000)지각 있는 도구[#]()의 동작도 바꿉니다.\n\n- [#](8B0000)가공되지 않은 Spiritus[#](): 순수한 피해량 증가.\n\n- [#](8B0000)Spiritus Ruina[#](): 공격 시 독이나 시듦을 부여할 수 있습니다. 그 외에는 원시와 같습니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 적당한 피해량 증가, 공격 속도 증가, Spiritus 저장량이 많을수록 강해지는 이동 속도 보너스."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.athanor.athanor_recipes.text",
+      "english": "With the Sanguine Reverter, the Athanor can unmake:\n\n- [#](8B0000)Novicius Orb of Vitae[#]()\n- [#](8B0000)Discipulus Orb of Vitae[#]()\n- [#](8B0000)Veneficus Orb of Vitae[#]()\n- [#](8B0000)Magus Orb of Vitae[#]()\n- Netherite Ingot\n- Any Reinforced Rune (to base materials)",
+      "before": "혈액 환원기를 사용하면 Athanor에서 다음을 분해할 수 있습니다.\n\n- [#](8B0000)Novicius Vitae 구슬[#]()\n- [#](8B0000)Discipulus Vitae 구슬[#]()\n- [#](8B0000)Veneficus Vitae 구슬[#]()\n- [#](8B0000)Magus Vitae 구슬[#]()\n- 네더라이트 주괴\n- 모든 보강 룬(기본 재료로)",
+      "after": "혈액 회수기를 사용하면 Athanor에서 다음을 분해할 수 있습니다.\n\n- [#](8B0000)Novicius Vitae 구슬[#]()\n- [#](8B0000)Discipulus Vitae 구슬[#]()\n- [#](8B0000)Veneficus Vitae 구슬[#]()\n- [#](8B0000)Magus Vitae 구슬[#]()\n- 네더라이트 주괴\n- 모든 보강 룬(기본 재료로)"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.athanor.automation.text",
+      "english": "[#](2E8B57)The Athanor is sided, much like a common furnace. Tools may only enter or exit from the top. Inputs are accepted from the sides. Outputs emerge from the bottom.[#]()\\\n\\\nKeep this geometry in mind when placing your Hoppers or Routing Nodes. An automated Athanor is the heart of any serious ore-processing chain.",
+      "before": "[#](2E8B57)Athanor는 일반 화로처럼 면별 역할이 있습니다. 도구는 위쪽으로만 넣거나 꺼낼 수 있고 재료는 옆면으로 받으며 결과물은 아래로 나옵니다.[#]()\\\n\\\n호퍼나 라우팅 노드를 놓을 때 이 구조를 기억하세요. 자동화한 Athanor는 본격적인 광석 처리 공정의 핵심입니다.",
+      "after": "[#](2E8B57)Athanor는 일반 화로처럼 면별 역할이 있습니다. 도구는 위쪽으로만 넣거나 꺼낼 수 있고 재료는 옆면으로 받으며 결과물은 아래로 나옵니다.[#]()\\\n\\\n호퍼나 운송 노드를 놓을 때 이 구조를 기억하세요. 자동화한 Athanor는 본격적인 광석 처리 공정의 핵심입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.athanor.disenchanting.text",
+      "english": "With the [#](8B0000)Sanguine Reverter[#]() in the tool slot, the Athanor also [#](4A0080)disenchants[#](). Load a stack of [#](8B0000)Books[#]() alongside a single enchanted item - armor, a tool, or even an [#](8B0000)Enchanted Book[#]() - and the crucible lifts one enchantment at a time onto a fresh book, removing it from the item.\\\n\\\nEach enchantment moved costs [#](8B0000)5 Raw Spiritus[#]() and [#](8B0000)100 mB of Essentia Vitae[#](). Once the item is stripped bare it drops to the output. The work continues only while you have books to fill and room in the output to hold them.",
+      "before": "도구 슬롯에 [#](8B0000)혈액 환원기[#]()를 놓으면 Athanor로 [#](4A0080)마법 제거[#]()도 할 수 있습니다. [#](8B0000)책[#]() 스택과 마법이 부여된 아이템 하나를 넣으세요. 갑옷, 도구, 심지어 [#](8B0000)마법이 부여된 책[#]()도 가능합니다. 마법을 하나씩 새 책으로 옮기고 원래 아이템에서는 제거합니다.\\\n\\\n마법 하나를 옮길 때 [#](8B0000)원시 Spiritus 5[#]()와 [#](8B0000)Essentia Vitae 100mB[#]()를 소모합니다. 마법을 모두 제거하면 아이템이 출력으로 나옵니다. 채울 책과 출력 공간이 있어야 작업을 계속합니다.",
+      "after": "도구 슬롯에 [#](8B0000)혈액 회수기[#]()를 놓으면 Athanor로 [#](4A0080)마법 제거[#]()도 할 수 있습니다. [#](8B0000)책[#]() 스택과 마법이 부여된 아이템 하나를 넣으세요. 갑옷, 도구, 심지어 [#](8B0000)마법이 부여된 책[#]()도 가능합니다. 마법을 하나씩 새 책으로 옮기고 원래 아이템에서는 제거합니다.\\\n\\\n마법 하나를 옮길 때 [#](8B0000)가공되지 않은 Spiritus 5[#]()와 [#](8B0000)Essentia Vitae 100mB[#]()를 소모합니다. 마법을 모두 제거하면 아이템이 출력으로 나옵니다. 채울 책과 출력 공간이 있어야 작업을 계속합니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.athanor.reversion.text",
+      "english": "Every Reinforced Rune placed in the Athanor alongside the Sanguine Reverter surrenders its form and returns to base materials. This is invaluable when restructuring your altar, apprentice - no investment need be permanent.",
+      "before": "혈액 환원기와 함께 Athanor에 넣은 모든 보강 룬은 형태를 잃고 기본 재료로 돌아갑니다. 견습생이여, 제단을 재구성할 때 귀중한 기능입니다. 어떤 투자도 영구적일 필요는 없습니다.",
+      "after": "혈액 회수기와 함께 Athanor에 넣은 모든 보강 룬은 형태를 잃고 기본 재료로 돌아갑니다. 견습생이여, 제단을 재구성할 때 귀중한 기능입니다. 어떤 투자도 영구적일 필요는 없습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.athanor.sanguine_reverter.text",
+      "english": "Forged within the Hellfire Forge, the [#](8B0000)Sanguine Reverter[#]() is a tool of [#](4A0080)unmaking[#](). It peels away the enchantments of creation, reducing Orbs of Vitae, Netherite, and Reinforced Runes back to their constituent materials. It is also the instrument by which Weak Blood Shards are born from Saturated Tau.",
+      "before": "지옥불 대장간에서 만드는 [#](8B0000)혈액 환원기[#]()는 [#](4A0080)분해[#]() 도구입니다. 창조의 마법을 벗겨 Vitae 구슬, 네더라이트, 보강 룬을 구성 재료로 되돌립니다. 포화된 Tau에서 약한 혈액 조각을 만드는 도구이기도 합니다.",
+      "after": "지옥불 대장간에서 만드는 [#](8B0000)혈액 회수기[#]()는 [#](4A0080)분해[#]() 도구입니다. 창조의 마법을 벗겨 Vitae 구슬, 네더라이트, 보강 룬을 구성 재료로 되돌립니다. 포화된 Tau에서 약한 혈액 조각을 만드는 도구이기도 합니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.athanor.sanguine_reverter.title",
+      "english": "The Sanguine Reverter",
+      "before": "혈액 환원기",
+      "after": "혈액 회수기"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.athanor.spiritus_costs.text",
+      "english": "The Athanor is sensitive to the [#](4A0080)Raw Spiritus[#]() saturating the surrounding chunk. With no spiritus present, the crucible operates at [#](8B0000)half speed[#](). As raw spiritus builds toward 100, the Athanor accelerates, reaching [#](8B0000)double speed[#]() at full saturation.\\\n\\\nThe crucible also has a small appetite: while actively crafting, there is a [#](8B0000)5%% chance each second[#]() that the Athanor consumes 1 raw spiritus from the chunk. Sustained operation will slowly deplete the local reserves.\\\n\\\n[#](2E8B57)Keep Demon Crystals growing nearby to replenish what the Athanor consumes.[#]()",
+      "before": "Athanor는 주변 청크를 채운 [#](4A0080)원시 Spiritus[#]()에 민감합니다. 없으면 [#](8B0000)절반 속도[#]()로 작동합니다. 원시 Spiritus가 100을 향해 쌓일수록 빨라지며 완전히 포화되면 [#](8B0000)두 배 속도[#]()에 도달합니다.\\\n\\\n도가니는 식욕도 조금 있습니다. 제작 중 [#](8B0000)매초 5%% 확률[#]()로 청크의 원시 Spiritus 1을 소모합니다. 계속 작동하면 주변 저장량이 서서히 줄어듭니다.\\\n\\\n[#](2E8B57)근처에 악마 수정을 길러 Athanor가 소모하는 양을 보충하세요.[#]()",
+      "after": "Athanor는 주변 청크를 채운 [#](4A0080)가공되지 않은 Spiritus[#]()에 민감합니다. 없으면 [#](8B0000)절반 속도[#]()로 작동합니다. 가공되지 않은 Spiritus가 100을 향해 쌓일수록 빨라지며 완전히 포화되면 [#](8B0000)두 배 속도[#]()에 도달합니다.\\\n\\\n도가니는 식욕도 조금 있습니다. 제작 중 [#](8B0000)매초 5%% 확률[#]()로 청크의 가공되지 않은 Spiritus 1을 소모합니다. 계속 작동하면 주변 저장량이 서서히 줄어듭니다.\\\n\\\n[#](2E8B57)근처에 악마 수정을 길러 Athanor가 소모하는 양을 보충하세요.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.chunk_based.text",
+      "english": "[#](2E8B57)The Aura is chunk-based.[#]() Spiritus burned in one chunk fills only that chunk, up to a cap of [#](B8860B)100[#]() for each Aspect. Measure the local concentration with a [#](8B0000)Spiritus Aura Gauge[#]().\\\n\\\nTo move Spiritus across distances, place a [#](8B0000)Spira Infernalis[#](). It draws Spiritus toward itself from 16 blocks away in each cardinal direction, and multiple pylons can be chained for long-distance transfer.",
+      "before": "[#](2E8B57)기운은 청크 단위입니다.[#]() 한 청크에서 태운 Spiritus는 그 청크만 채우며 속성마다 최대 [#](B8860B)100[#]()까지입니다. [#](8B0000)Spiritus 기운 측정기[#]()로 현지 농도를 재세요.\\\n\\\n멀리 옮기려면 [#](8B0000)Spira Infernalis[#]()를 놓으세요. 동서남북으로 16블록 떨어진 곳에서 자신에게 Spiritus를 끌어옵니다. 여러 기둥을 연결하면 장거리 전송이 됩니다.",
+      "after": "[#](2E8B57)오라은 청크 단위입니다.[#]() 한 청크에서 태운 Spiritus는 그 청크만 채우며 속성마다 최대 [#](B8860B)100[#]()까지입니다. [#](8B0000)Spiritus 오라 측정기[#]()로 현지 농도를 재세요.\\\n\\\n멀리 옮기려면 [#](8B0000)Spira Infernalis[#]()를 놓으세요. 동서남북으로 16블록 떨어진 곳에서 자신에게 Spiritus를 끌어옵니다. 여러 기둥을 연결하면 장거리 전송이 됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.crucible.text",
+      "english": "Feed it a charged [#](8B0000)Spiritus Gem[#](), loose [#](8B0000)Spiritus[#](), or [#](8B0000)Spiritus Crystals[#]() of any Aspect. Crystals are consumed once the chunk's Spiritus dips below 50; Spiritus in item form or from a gem is consumed gradually as needed.\\\n\\\n[#](2E8B57)Apply a redstone signal[#]() and the Vas reverses: a Spiritus Gem placed inside is now [#](2E8B57)filled[#]() from the chunk's Aura instead of drained. The same vessel serves as both deposit and withdrawal point.",
+      "before": "충전된 [#](8B0000)Spiritus 보석[#](), 낱개의 [#](8B0000)Spiritus[#](), 어떤 속성의 [#](8B0000)Spiritus 수정[#]()이든 공급하세요. 청크의 Spiritus가 50 미만으로 내려가면 수정을 소모합니다. 아이템이나 보석의 Spiritus는 필요에 따라 조금씩 소모합니다.\\\n\\\n[#](2E8B57)레드스톤 신호를 주면[#]() Vas의 흐름이 뒤집힙니다. 안에 놓인 Spiritus 보석이 비워지는 대신 청크의 기운으로 [#](2E8B57)채워집니다[#](). 같은 용기로 넣기와 꺼내기를 모두 할 수 있습니다.",
+      "after": "충전된 [#](8B0000)Spiritus 보석[#](), 낱개의 [#](8B0000)Spiritus[#](), 어떤 속성의 [#](8B0000)Spiritus 수정[#]()이든 공급하세요. 청크의 Spiritus가 50 미만으로 내려가면 수정을 소모합니다. 아이템이나 보석의 Spiritus는 필요에 따라 조금씩 소모합니다.\\\n\\\n[#](2E8B57)레드스톤 신호를 주면[#]() Vas의 흐름이 뒤집힙니다. 안에 놓인 Spiritus 보석이 비워지는 대신 청크의 오라으로 [#](2E8B57)채워집니다[#](). 같은 용기로 넣기와 꺼내기를 모두 할 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.intro.text",
+      "english": "[#](4A0080)Demonic Spiritus[#]() coalesces naturally around certain creatures, but it can also exist in a diffused state throughout the very air. By burning Spiritus in a [#](8B0000)Vas Maleficum[#](), you release it into the [#](4A0080)Aura[#](), an invisible miasma that permeates each chunk of the world, ripe for exploitation.",
+      "before": "[#](4A0080)악마의 Spiritus[#]()는 일부 생물 주변에 자연스럽게 모이지만 공기 전체에 퍼진 상태로도 존재합니다. [#](8B0000)Vas Maleficum[#]()에서 태우면 각 청크에 스며드는 보이지 않는 기체인 [#](4A0080)기운[#]()으로 방출되어 활용할 수 있습니다.",
+      "after": "[#](4A0080)악마의 Spiritus[#]()는 일부 생물 주변에 자연스럽게 모이지만 공기 전체에 퍼진 상태로도 존재합니다. [#](8B0000)Vas Maleficum[#]()에서 태우면 각 청크에 스며드는 보이지 않는 기체인 [#](4A0080)오라[#]()으로 방출되어 활용할 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.intro.title",
+      "english": "The Spiritus Aura",
+      "before": "Spiritus 기운",
+      "after": "Spiritus 오라"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.name",
+      "english": "The Spiritus Aura",
+      "before": "Spiritus 기운",
+      "after": "Spiritus 오라"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.pylon.text",
+      "english": "The pylon probes a position [#](B8860B)16 blocks away[#]() in each of the four cardinal directions (no diagonals, no vertical). If a probed position holds more Spiritus than the pylon's own chunk does, the pylon pulls a small fraction of the difference per tick. The flow equilibrates rather than draining the source dry, so place pylons in a [#](2E8B57)chain[#]() from a saturated chunk toward your worksite to ferry Aura over long distances.",
+      "before": "기둥은 동서남북 각각 [#](B8860B)16블록 떨어진[#]() 위치를 탐색합니다(대각선과 수직 제외). 그 위치의 Spiritus가 자기 청크보다 많으면 차이의 일부를 매 틱 끌어옵니다. 원본을 고갈시키기보다 평형을 이루므로, 포화된 청크에서 작업장까지 기둥을 [#](2E8B57)연결[#]()하면 기운을 멀리 옮길 수 있습니다.",
+      "after": "기둥은 동서남북 각각 [#](B8860B)16블록 떨어진[#]() 위치를 탐색합니다(대각선과 수직 제외). 그 위치의 Spiritus가 자기 청크보다 많으면 차이의 일부를 매 틱 끌어옵니다. 원본을 고갈시키기보다 평형을 이루므로, 포화된 청크에서 작업장까지 기둥을 [#](2E8B57)연결[#]()하면 오라을 멀리 옮길 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.uses.text",
+      "english": "With Raw Spiritus now saturating the atmosphere, certain [#](8B0000)Rituals[#]() stir to greater potency. The true prize, however, is the ability to grow [#](8B0000)Spiritus Crystals[#]() and from there, split them into their constituent [#](8B0000)Aspects[#]().\\\n\\\nOnce you possess [#](8B0000)Aspected Spiritus Crystals[#](), burn them in the [#](8B0000)Vas Maleficum[#]() to flood the Aura with their particular resonance.",
+      "before": "대기에 원시 Spiritus가 차면 일부 [#](8B0000)의식[#]()이 더 강해집니다. 하지만 진정한 성과는 [#](8B0000)Spiritus 수정[#]()을 기르고 구성 [#](8B0000)속성[#]()으로 나눌 수 있다는 점입니다.\\\n\\\n[#](8B0000)속성 Spiritus 수정[#]()을 얻으면 [#](8B0000)Vas Maleficum[#]()에서 태워 고유한 공명으로 기운을 채우세요.",
+      "after": "대기에 가공되지 않은 Spiritus가 차면 일부 [#](8B0000)의식[#]()이 더 강해집니다. 하지만 진정한 성과는 [#](8B0000)Spiritus 수정[#]()을 기르고 구성 [#](8B0000)속성[#]()으로 나눌 수 있다는 점입니다.\\\n\\\n[#](8B0000)속성 Spiritus 수정[#]()을 얻으면 [#](8B0000)Vas Maleficum[#]()에서 태워 고유한 공명으로 오라을 채우세요."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura_gauge.description",
+      "english": "A spectral instrument for reading the Aura's hidden currents.",
+      "before": "기운의 숨은 흐름을 읽는 영적인 도구입니다.",
+      "after": "오라의 숨은 흐름을 읽는 영적인 도구입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura_gauge.intro.text",
+      "english": "The [#](4A0080)Aura[#]() is invisible to the naked eye, but the trained practitioner need not rely on guesswork. While the [#](8B0000)Spiritus Aura Gauge[#]() rests in your inventory, it projects a spectral reading onto your vision.\\\n\\\nFrom top to bottom, the bars measure:\n\n- Raw\n\n- Ruina\n\n- Invictus\n\n- Nihilum\n\n- Vindicta",
+      "before": "[#](4A0080)기운[#]()은 맨눈에 보이지 않지만 숙련된 시전자는 추측에 의존할 필요가 없습니다. 인벤토리에 [#](8B0000)Spiritus 기운 측정기[#]()가 있으면 시야에 영적인 측정값을 띄웁니다.\\\n\\\n위에서 아래로 다음을 표시합니다.\n\n- 원시\n\n- Ruina\n\n- Invictus\n\n- Nihilum\n\n- Vindicta",
+      "after": "[#](4A0080)오라[#]()은 맨눈에 보이지 않지만 숙련된 시전자는 추측에 의존할 필요가 없습니다. 인벤토리에 [#](8B0000)Spiritus 오라 측정기[#]()가 있으면 시야에 영적인 측정값을 띄웁니다.\\\n\\\n위에서 아래로 다음을 표시합니다.\n\n- 원시\n\n- Ruina\n\n- Invictus\n\n- Nihilum\n\n- Vindicta"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura_gauge.intro.title",
+      "english": "Aura Gauge",
+      "before": "기운 측정기",
+      "after": "오라 측정기"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura_gauge.name",
+      "english": "Aura Gauge",
+      "before": "기운 측정기",
+      "after": "오라 측정기"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura_gauge.recipe.title",
+      "english": "Aura Gauge",
+      "before": "기운 측정기",
+      "after": "오라 측정기"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.bloodstone_bricks.intro.text",
+      "english": "[#](8B0000)Bloodstone Bricks[#]() are stone saturated with crystallized life force, dark and warm to the touch. Beyond their unsettling beauty, they serve as the [#](B8860B)capstones for the Tier III Ara Vitae[#]().\\\n\\\nTheir creation requires [#](8B0000)Weak Blood Shards[#](), obtained by placing [#](8B0000)Saturated Tau[#]() into the Athanor with a Sanguine Reverter.",
+      "before": "[#](8B0000)혈석 벽돌[#]()은 결정화된 생명력이 찬 돌로, 어둡고 만지면 따뜻합니다. 섬뜩한 아름다움 외에도 [#](B8860B)등급 III Ara Vitae의 꼭대기 블록[#]()으로 쓰입니다.\\\n\\\n제작에 필요한 [#](8B0000)약한 혈액 조각[#]()은 [#](8B0000)포화된 Tau[#]()를 혈액 환원기와 함께 Athanor에 넣어 얻습니다.",
+      "after": "[#](8B0000)혈석 벽돌[#]()은 결정화된 생명력이 찬 돌로, 어둡고 만지면 따뜻합니다. 섬뜩한 아름다움 외에도 [#](B8860B)등급 III Ara Vitae의 꼭대기 블록[#]()으로 쓰입니다.\\\n\\\n제작에 필요한 [#](8B0000)약한 혈액 조각[#]()은 [#](8B0000)포화된 Tau[#]()를 혈액 회수기와 함께 Athanor에 넣어 얻습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.crystallized_spiritus.crystal_growth.text",
+      "english": "Spires grow whenever the chunk holds at least a trace of the cluster's Aspect; growth scales with saturation, accelerating as the Aura fills. A chunk's natural cap is [#](B8860B)100[#]() per Aspect, though certain Rituals can raise it.\\\n\\\nEach new spire costs [#](B8860B)45 Spiritus[#]() when the chunk's dominant Aspect matches the cluster, and yields 50 when burned in a Vas Maleficum, a net gain of 5 per spire. If the chunk's dominant Aspect [#](2E8B57)does not match[#]() the cluster (for instance, a Raw chunk feeding a Ruina cluster), the cost rises to [#](B8860B)90 Spiritus[#]() per spire and growth runs at [#](B8860B)60%% speed[#](). Keep the chunk biased toward the Aspect you want to farm.",
+      "before": "청크에 군집의 속성이 조금이라도 있으면 첨정이 자랍니다. 성장 속도는 포화도에 비례하며 기운이 찰수록 빨라집니다. 자연 상한은 속성마다 [#](B8860B)100[#]()이지만 일부 의식으로 늘릴 수 있습니다.\\\n\\\n청크의 우세한 속성이 군집과 같으면 새 첨정마다 [#](B8860B)Spiritus 45[#]()를 소모하고 Vas Maleficum에서 태우면 50을 주므로 첨정당 5가 남습니다. 우세한 속성이 군집과 [#](2E8B57)다르면[#]()(예: 원시 청크에서 Ruina 군집 성장) 첨정당 비용이 [#](B8860B)Spiritus 90[#]()으로 늘고 [#](B8860B)60%% 속도[#]()로 자랍니다. 기를 속성이 청크에서 우세하도록 유지하세요.",
+      "after": "청크에 군집의 속성이 조금이라도 있으면 첨정이 자랍니다. 성장 속도는 포화도에 비례하며 오라이 찰수록 빨라집니다. 자연 상한은 속성마다 [#](B8860B)100[#]()이지만 일부 의식으로 늘릴 수 있습니다.\\\n\\\n청크의 우세한 속성이 군집과 같으면 새 첨정마다 [#](B8860B)Spiritus 45[#]()를 소모하고 Vas Maleficum에서 태우면 50을 주므로 첨정당 5가 남습니다. 우세한 속성이 군집과 [#](2E8B57)다르면[#]()(예: 원시 청크에서 Ruina 군집 성장) 첨정당 비용이 [#](B8860B)Spiritus 90[#]()으로 늘고 [#](B8860B)60%% 속도[#]()로 자랍니다. 기를 속성이 청크에서 우세하도록 유지하세요."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.crystallized_spiritus.crystallizer.text",
+      "english": "Place it with open air above, and the Crystallarium [#](2E8B57)seeds the first spire[#]() of a [#](8B0000)Spiritus Crystal[#]() cluster once the chunk's Aura holds at least [#](B8860B)99 Spiritus[#]() of any single Aspect. The spire formed will be the chunk's [#](2E8B57)dominant Aspect[#](). After the first spire stands, the [#](8B0000)Spiritus Crystal[#]() grows under its own power; the Crystallarium has done its work.\\\n\\\nA cluster may grow up to [#](B8860B)7 spires[#]() tall.",
+      "before": "위에 빈 공간을 두고 놓으세요. 청크의 기운에 단일 속성의 [#](B8860B)Spiritus가 99[#]() 이상 쌓이면 Crystallarium이 [#](8B0000)Spiritus 수정[#]() 군집의 [#](2E8B57)첫 첨정을 만듭니다[#](). 청크의 [#](2E8B57)우세한 속성[#]()으로 형성됩니다. 첫 첨정이 서면 [#](8B0000)Spiritus 수정[#]()이 스스로 자라며 Crystallarium의 역할은 끝납니다.\\\n\\\n군집은 최대 [#](B8860B)첨정 7개[#]() 높이까지 자랍니다.",
+      "after": "위에 빈 공간을 두고 놓으세요. 청크의 오라에 단일 속성의 [#](B8860B)Spiritus가 99[#]() 이상 쌓이면 Crystallarium이 [#](8B0000)Spiritus 수정[#]() 군집의 [#](2E8B57)첫 첨정을 만듭니다[#](). 청크의 [#](2E8B57)우세한 속성[#]()으로 형성됩니다. 첫 첨정이 서면 [#](8B0000)Spiritus 수정[#]()이 스스로 자라며 Crystallarium의 역할은 끝납니다.\\\n\\\n군집은 최대 [#](B8860B)첨정 7개[#]() 높이까지 자랍니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.crystallized_spiritus.description",
+      "english": "Condensing raw malice from the Aura into physical crystal.",
+      "before": "기운의 원시 악의를 실체가 있는 수정으로 응축합니다.",
+      "after": "오라의 원시 악의를 실체가 있는 수정으로 응축합니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.crystallized_spiritus.intro.text",
+      "english": "Now that your [#](8B0000)Spiritus Gem[#]() brims with [#](8B0000)Spiritus[#](), you may wonder what happens when that malice is unleashed upon the world itself. The answer begins with saturating the [#](8B0000)Aura[#](), and continues with the [#](8B0000)Crystallarium Maleficum[#]().",
+      "before": "[#](8B0000)Spiritus 보석[#]()이 [#](8B0000)Spiritus[#]()로 가득 차면 이 악의를 세계에 풀어놓을 때 무슨 일이 생길지 궁금해질 것입니다. 답은 [#](8B0000)기운[#]()을 채우는 데서 시작해 [#](8B0000)Crystallarium Maleficum[#]()으로 이어집니다.",
+      "after": "[#](8B0000)Spiritus 보석[#]()이 [#](8B0000)Spiritus[#]()로 가득 차면 이 악의를 세계에 풀어놓을 때 무슨 일이 생길지 궁금해질 것입니다. 답은 [#](8B0000)오라[#]()을 채우는 데서 시작해 [#](8B0000)Crystallarium Maleficum[#]()으로 이어집니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.hellfire_forge.gem_absorption.text",
+      "english": "Crafting in the Forge spends the [#](8B0000)Spiritus[#]() held in its [#](8B0000)Spiritus Gem[#](). Left to itself that reserve would soon run dry, so the Forge draws upon its surroundings: a gem seated in the Forge steadily drinks [#](8B0000)Spiritus[#]() from the chunk's [#](4A0080)Aura[#](), at the same pace a [#](8B0000)Vas Maleficum[#]() would fill it.\\\n\\\n[#](2E8B57)Feed the local Aura with a Crystallum Fractura farm and the Forge can craft unattended, its gem refilling as quickly as it is spent.[#]()",
+      "before": "대장간 제작은 [#](8B0000)Spiritus 보석[#]()에 담긴 [#](8B0000)Spiritus[#]()를 소모합니다. 그대로 두면 곧 고갈되므로 주변의 힘을 끌어옵니다. 놓인 보석이 청크의 [#](4A0080)기운[#]()에서 [#](8B0000)Spiritus[#]()를 계속 흡수하며 속도는 [#](8B0000)Vas Maleficum[#]()이 채우는 것과 같습니다.\\\n\\\n[#](2E8B57)Crystallum Fractura 농장으로 주변 기운을 공급하면 소모하는 만큼 보석이 채워져 대장간을 지켜보지 않아도 됩니다.[#]()",
+      "after": "대장간 제작은 [#](8B0000)Spiritus 보석[#]()에 담긴 [#](8B0000)Spiritus[#]()를 소모합니다. 그대로 두면 곧 고갈되므로 주변의 힘을 끌어옵니다. 놓인 보석이 청크의 [#](4A0080)오라[#]()에서 [#](8B0000)Spiritus[#]()를 계속 흡수하며 속도는 [#](8B0000)Vas Maleficum[#]()이 채우는 것과 같습니다.\\\n\\\n[#](2E8B57)Crystallum Fractura 농장으로 주변 오라을 공급하면 소모하는 만큼 보석이 채워져 대장간을 지켜보지 않아도 됩니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.hellfire_forge.gem_absorption.title",
+      "english": "Drawing from the Aura",
+      "before": "기운에서 끌어오기",
+      "after": "오라에서 끌어오기"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.node_router.description",
+      "english": "The binding wand that weaves Routing Nodes into networks.",
+      "before": "라우팅 노드를 네트워크로 엮는 귀속 지팡이입니다.",
+      "after": "운송 노드를 네트워크로 엮는 귀속 지팡이입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.node_router.intro.text",
+      "english": "The [#](8B0000)Node Router[#]() is the weaver's needle that stitches your [#](8B0000)Routing Nodes[#]() into a coherent network. Its use is straightforward; hold sneak and right-click on one node, then do the same to another within 16 blocks. The two are now linked.\\\n\\\n[#](2E8B57)Right-click any other block to deselect. See the Routing Nodes entry for the full picture.[#]()",
+      "before": "[#](8B0000)노드 라우터[#]()는 [#](8B0000)라우팅 노드[#]()를 하나의 네트워크로 꿰매는 바늘입니다. 웅크린 채 노드 하나를 우클릭하고 16블록 이내의 다른 노드도 같은 방법으로 클릭하면 연결됩니다.\\\n\\\n[#](2E8B57)다른 블록을 우클릭하면 선택을 해제합니다. 전체 설명은 라우팅 노드 항목을 보세요.[#]()",
+      "after": "[#](8B0000)노드 연결 도구[#]()는 [#](8B0000)운송 노드[#]()를 하나의 네트워크로 꿰매는 바늘입니다. 웅크린 채 노드 하나를 우클릭하고 16블록 이내의 다른 노드도 같은 방법으로 클릭하면 연결됩니다.\\\n\\\n[#](2E8B57)다른 블록을 우클릭하면 선택을 해제합니다. 전체 설명은 운송 노드 항목을 보세요.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.ore_processing.athanor_ore.text",
+      "english": "Every Athanor ore-processing step uses [#](8B0000)Cutting Fluid[#](). The full chain is:\n\n1. Ore block becomes 5 [#](8B0000)Ore Fragments[#](), or raw ore becomes 3.\n2. Each fragment becomes 1 [#](8B0000)Ore Gravel[#]() via the Resonator (with a 50%% chance of Tiny Corrupted Dust on the side).\n3. Each gravel becomes 1 [#](8B0000)Metal Dust[#]().\n4. Each dust smelts to 1 ingot in any furnace.\n\nPatient refinement rewards the practitioner. Five ingots per silk-touched block, three per raw, before any bonus from the chunk's [#](4A0080)Raw Spiritus[#]().",
+      "before": "Athanor 광석 처리의 모든 단계에는 [#](8B0000)절삭유[#]()를 씁니다. 전체 과정은 다음과 같습니다.\n\n1. 광석 블록은 [#](8B0000)광석 조각[#]() 5개, 원석은 3개가 됩니다.\n2. 공명기로 조각 하나를 [#](8B0000)광석 자갈[#]() 1개로 만듭니다(50%% 확률로 작은 타락한 가루도 나옵니다).\n3. 자갈 하나를 [#](8B0000)금속 가루[#]() 1개로 만듭니다.\n4. 가루 하나는 아무 화로에서 주괴 1개로 제련합니다.\n\n인내심 있는 정제는 보답을 줍니다. 청크의 [#](4A0080)원시 Spiritus[#]() 보너스를 빼도 섬세한 손길로 캔 블록당 주괴 다섯, 원석당 셋을 얻습니다.",
+      "after": "Athanor 광석 처리의 모든 단계에는 [#](8B0000)절삭유[#]()를 씁니다. 전체 과정은 다음과 같습니다.\n\n1. 광석 블록은 [#](8B0000)광석 조각[#]() 5개, 원석은 3개가 됩니다.\n2. 공명기로 조각 하나를 [#](8B0000)광석 자갈[#]() 1개로 만듭니다(50%% 확률로 작은 타락한 가루도 나옵니다).\n3. 자갈 하나를 [#](8B0000)금속 가루[#]() 1개로 만듭니다.\n4. 가루 하나는 아무 화로에서 주괴 1개로 제련합니다.\n\n인내심 있는 정제는 보답을 줍니다. 청크의 [#](4A0080)가공되지 않은 Spiritus[#]() 보너스를 빼도 섬세한 손길로 캔 블록당 주괴 다섯, 원석당 셋을 얻습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.ore_processing.intro.text",
+      "english": "Blood has many uses, and among the most practical is the multiplication of mineral wealth. The [#](8B0000)Tabula Vitae[#]() doubles your ore, while the [#](8B0000)Athanor[#]() yields 3 ingots per raw ore, or 5 ingots per ore block.\\\n\\\nBoth Athanor yields rise still further when [#](4A0080)Raw Spiritus[#]() saturates the chunk; see the [#](8B0000)Spiritus Boost[#]() page that follows. Every vein you mine becomes a bounty when viewed through the lens of [#](4A0080)Vitaemancy[#]().",
+      "before": "혈액의 실용적인 용도 중 하나는 광물 자산을 늘리는 것입니다. [#](8B0000)Tabula Vitae[#]()는 광석을 두 배로 늘리며 [#](8B0000)Athanor[#]()는 원석당 주괴 3개, 광석 블록당 5개를 줍니다.\\\n\\\n청크에 [#](4A0080)원시 Spiritus[#]()가 차면 Athanor의 두 산출량 모두 더 늘어납니다. 다음 [#](8B0000)Spiritus 증폭[#]() 페이지를 보세요. [#](4A0080)Vitaemancy[#]()의 눈으로 보면 모든 광맥이 풍요로운 보물이 됩니다.",
+      "after": "혈액의 실용적인 용도 중 하나는 광물 자산을 늘리는 것입니다. [#](8B0000)Tabula Vitae[#]()는 광석을 두 배로 늘리며 [#](8B0000)Athanor[#]()는 원석당 주괴 3개, 광석 블록당 5개를 줍니다.\\\n\\\n청크에 [#](4A0080)가공되지 않은 Spiritus[#]()가 차면 Athanor의 두 산출량 모두 더 늘어납니다. 다음 [#](8B0000)Spiritus 증폭[#]() 페이지를 보세요. [#](4A0080)Vitaemancy[#]()의 눈으로 보면 모든 광맥이 풍요로운 보물이 됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.ore_processing.spiritus_boost.text",
+      "english": "When [#](4A0080)Raw Spiritus[#]() saturates the chunk in which the Athanor sits, each ore-to-fragment craft has a chance to yield one extra fragment.\\\n\\\n- Below 5 Raw Spiritus, no bonus.\n- At 5 Raw Spiritus, the bonus chance is 33%%.\n- The chance rises linearly with chunk saturation, reaching 100%% at 100 Raw Spiritus.\n\nEach successful bonus has a small 2.5%% probability of consuming 1 Raw Spiritus from the chunk. Place your Athanor in a chunk steeped in slain blood and the yields climb to 6 per ore block and 4 per raw ore at saturation.",
+      "before": "Athanor가 있는 청크에 [#](4A0080)원시 Spiritus[#]()가 차면 광석을 조각으로 만드는 작업마다 조각 하나를 추가로 얻을 확률이 생깁니다.\\\n\\\n- 원시 Spiritus 5 미만: 보너스 없음.\n- 원시 Spiritus 5: 추가 확률 33%%.\n- 청크 포화도에 따라 선형으로 올라 원시 Spiritus 100에서 100%%에 도달.\n\n추가 산출에 성공할 때마다 2.5%% 확률로 청크의 원시 Spiritus 1을 소모합니다. 쓰러진 자의 혈액이 스민 청크에 Athanor를 놓으면 완전 포화 시 광석 블록당 6개, 원석당 4개까지 늘어납니다.",
+      "after": "Athanor가 있는 청크에 [#](4A0080)가공되지 않은 Spiritus[#]()가 차면 광석을 조각으로 만드는 작업마다 조각 하나를 추가로 얻을 확률이 생깁니다.\\\n\\\n- 가공되지 않은 Spiritus 5 미만: 보너스 없음.\n- 가공되지 않은 Spiritus 5: 추가 확률 33%%.\n- 청크 포화도에 따라 선형으로 올라 가공되지 않은 Spiritus 100에서 100%%에 도달.\n\n추가 산출에 성공할 때마다 2.5%% 확률로 청크의 가공되지 않은 Spiritus 1을 소모합니다. 쓰러진 자의 혈액이 스민 청크에 Athanor를 놓으면 완전 포화 시 광석 블록당 6개, 원석당 4개까지 늘어납니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.auto_bind.text",
+      "english": "Place an Input, Output, or Conduit node within [#](8B0000)16 blocks[#]() of an existing network and it will seek a connection on its own:\\\n\\\n- First it looks for the nearest [#](8B0000)Master Routing Node[#]() in range.\\\n- If no Master is found, it attaches to the closest already-bound routing node, inheriting that node's master.\\\n- If neither exists within range, the new node simply sits unbound until you link it manually.\\\n\\\nA successful auto-bind manifests as a [#](AA00FF)violet thread[#]() arcing from the new node to its chosen partner.",
+      "before": "기존 네트워크의 [#](8B0000)16블록[#]() 이내에 입력, 출력, 전달 노드를 놓으면 스스로 연결을 찾습니다.\\\n\\\n- 먼저 범위 안의 가장 가까운 [#](8B0000)주 라우팅 노드[#]()를 찾습니다.\\\n- 주 노드가 없으면 이미 귀속된 가장 가까운 라우팅 노드에 붙어 그 주 노드를 이어받습니다.\\\n- 둘 다 없으면 직접 연결할 때까지 미귀속 상태로 있습니다.\\\n\\\n자동 귀속에 성공하면 새 노드와 선택한 상대 사이에 [#](AA00FF)보랏빛 실[#]()이 휘어집니다.",
+      "after": "기존 네트워크의 [#](8B0000)16블록[#]() 이내에 입력, 출력, 전달 노드를 놓으면 스스로 연결을 찾습니다.\\\n\\\n- 먼저 범위 안의 가장 가까운 [#](8B0000)중심 운송 노드[#]()를 찾습니다.\\\n- 주 노드가 없으면 이미 귀속된 가장 가까운 운송 노드에 붙어 그 주 노드를 이어받습니다.\\\n- 둘 다 없으면 직접 연결할 때까지 미귀속 상태로 있습니다.\\\n\\\n자동 귀속에 성공하면 새 노드와 선택한 상대 사이에 [#](AA00FF)보랏빛 실[#]()이 휘어집니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.chain_binding.text",
+      "english": "When auto-bind is insufficient, the [#](8B0000)Node Router[#]() performs manual linking. [#](8B0000)Shift-right-click[#]() a Master to store its position; the router holds onto that Master until you empty it on an empty block. Every subsequent [#](8B0000)right-click[#]() on a non-master node in range binds it to the stored Master, letting you wire an entire farm with a single selection.\\\n\\\nIf the router instead holds a non-master position, right-clicking another non-master node links them and the stored position [#](8B0000)advances[#]() to the just-clicked node. Walk your way down a chain and the router follows along, linking each step to the previous one.\\\n\\\n[#](2E8B57)Each successful link emits a violet arcane bolt so you can see which nodes were wired together.[#]()",
+      "before": "자동 귀속으로 부족하면 [#](8B0000)노드 라우터[#]()로 직접 연결합니다. 주 노드를 [#](8B0000)Shift 우클릭[#]()하면 위치를 저장하며, 빈 블록에서 비울 때까지 유지합니다. 이후 범위 안의 주 노드가 아닌 노드를 [#](8B0000)우클릭[#]()할 때마다 저장된 주 노드에 귀속되므로 한 번 선택해 농장 전체를 연결할 수 있습니다.\\\n\\\n저장한 위치가 주 노드가 아니라면 다른 일반 노드를 우클릭할 때 둘을 연결하고 저장 위치가 방금 누른 노드로 [#](8B0000)이동[#]()합니다. 사슬을 따라 걸어가면 각 노드가 이전 노드와 연결됩니다.\\\n\\\n[#](2E8B57)연결에 성공할 때마다 보랏빛 비전 번개가 나와 어떤 노드끼리 연결되었는지 알 수 있습니다.[#]()",
+      "after": "자동 귀속으로 부족하면 [#](8B0000)노드 연결 도구[#]()로 직접 연결합니다. 주 노드를 [#](8B0000)Shift 우클릭[#]()하면 위치를 저장하며, 빈 블록에서 비울 때까지 유지합니다. 이후 범위 안의 주 노드가 아닌 노드를 [#](8B0000)우클릭[#]()할 때마다 저장된 주 노드에 귀속되므로 한 번 선택해 농장 전체를 연결할 수 있습니다.\\\n\\\n저장한 위치가 주 노드가 아니라면 다른 일반 노드를 우클릭할 때 둘을 연결하고 저장 위치가 방금 누른 노드로 [#](8B0000)이동[#]()합니다. 사슬을 따라 걸어가면 각 노드가 이전 노드와 연결됩니다.\\\n\\\n[#](2E8B57)연결에 성공할 때마다 보랏빛 비전 번개가 나와 어떤 노드끼리 연결되었는지 알 수 있습니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.chain_binding.title",
+      "english": "The Node Router",
+      "before": "노드 라우터",
+      "after": "노드 연결 도구"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.components.text",
+      "english": "A [#](4A0080)Routing Network[#]() comprises three elements: [#](8B0000)Input Nodes[#](), [#](8B0000)Output Nodes[#](), and a single [#](8B0000)Master Routing Node[#]().\\\n\\\nEvery network requires exactly one Master. All other nodes must trace a path back to it, whether directly or through intermediaries.\\\n\\\nInput and Output Nodes interact with any adjacent block that supports item, fluid, or energy transfer.",
+      "before": "[#](4A0080)라우팅 네트워크[#]()는 [#](8B0000)입력 노드[#](), [#](8B0000)출력 노드[#](), [#](8B0000)주 라우팅 노드[#]() 하나로 구성됩니다.\\\n\\\n모든 네트워크는 주 노드가 정확히 하나 필요합니다. 다른 노드는 직접 또는 중간 노드를 거쳐 주 노드까지 이어져야 합니다.\\\n\\\n입력과 출력 노드는 아이템, 유체, 에너지 전송을 지원하는 인접 블록과 상호작용합니다.",
+      "after": "[#](4A0080)운송 네트워크[#]()는 [#](8B0000)입력 노드[#](), [#](8B0000)출력 노드[#](), [#](8B0000)중심 운송 노드[#]() 하나로 구성됩니다.\\\n\\\n모든 네트워크는 주 노드가 정확히 하나 필요합니다. 다른 노드는 직접 또는 중간 노드를 거쳐 주 노드까지 이어져야 합니다.\\\n\\\n입력과 출력 노드는 아이템, 유체, 에너지 전송을 지원하는 인접 블록과 상호작용합니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.description",
+      "english": "An arcane logistics network for items, fluids, energy, and Aura.",
+      "before": "아이템, 유체, 에너지, 기운을 위한 비전 물류 네트워크입니다.",
+      "after": "아이템, 유체, 에너지, 오라을 위한 비전 물류 네트워크입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.emergency_rescan.text",
+      "english": "For a truly ruined network, an administrator may invoke [#](8B0000)/neovitae routing rescan[#]() while looking at, or standing near, the afflicted [#](8B0000)Master Routing Node[#](). The Master will abandon every remembered connection and walk the nearby loaded chunks, rebuilding its graph from scratch using whatever routing nodes it can find. Use it after save-file surgery, chunk regeneration, or any other catastrophe that bypasses the normal break rituals.",
+      "before": "완전히 망가진 네트워크는 관리자가 문제의 [#](8B0000)주 라우팅 노드[#]()를 보거나 근처에 서서 [#](8B0000)/neovitae routing rescan[#]()을 실행할 수 있습니다. 주 노드가 기억한 연결을 모두 버리고 주변의 불러온 청크를 돌며 발견한 노드로 연결 구조를 다시 만듭니다. 저장 파일 수리, 청크 재생성처럼 일반적인 제거 처리를 거치지 않는 사고 뒤에 사용하세요.",
+      "after": "완전히 망가진 네트워크는 관리자가 문제의 [#](8B0000)중심 운송 노드[#]()를 보거나 근처에 서서 [#](8B0000)/neovitae routing rescan[#]()을 실행할 수 있습니다. 주 노드가 기억한 연결을 모두 버리고 주변의 불러온 청크를 돌며 발견한 노드로 연결 구조를 다시 만듭니다. 저장 파일 수리, 청크 재생성처럼 일반적인 제거 처리를 거치지 않는 사고 뒤에 사용하세요."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.fluid_energy.text",
+      "english": "Routing Nodes move more than items; they transfer [#](8B0000)fluids[#]() and [#](8B0000)Forge Energy[#]() as well. Any [#](2E8B57)enabled[#]() side automatically carries all three resource types to compatible adjacent blocks; you need only flip a face on in the node's interface.\\\n\\\nAn enabled side facing a [#](8B0000)Blood Tank[#]() allows [#](4A0080)Essentia Vitae[#]() to flow through the network; one facing a machine's power input transfers energy. Energy is gated by the [#](8B0000)Enable[#]() flag; it has no whitelist or blacklist of its own. The [#](8B0000)Energy[#]() tab holds a single [#](8B0000)On / Off[#]() switch for the chosen face, and it stands On until you say otherwise. Silence it there when a face should carry only items or fluids.",
+      "before": "라우팅 노드는 아이템 외에 [#](8B0000)유체[#]()와 [#](8B0000)Forge 에너지[#]()도 옮깁니다. [#](2E8B57)활성화된[#]() 면은 호환되는 인접 블록에 세 자원 유형을 자동으로 전달합니다. 노드 화면에서 면을 켜기만 하면 됩니다.\\\n\\\n활성 면이 [#](8B0000)혈액 탱크[#]()를 향하면 [#](4A0080)Essentia Vitae[#]()가 흐르고 기계의 전력 입력을 향하면 에너지를 옮깁니다. 에너지는 [#](8B0000)활성화[#]() 설정으로 제어하며 별도 허용·차단 목록은 없습니다. [#](8B0000)에너지[#]() 탭에는 선택한 면의 [#](8B0000)켜기 / 끄기[#]() 스위치 하나가 있으며 직접 끄기 전까지 켜져 있습니다. 아이템이나 유체만 옮길 면이라면 여기서 끄세요.",
+      "after": "운송 노드는 아이템 외에 [#](8B0000)유체[#]()와 [#](8B0000)Forge 에너지[#]()도 옮깁니다. [#](2E8B57)활성화된[#]() 면은 호환되는 인접 블록에 세 자원 유형을 자동으로 전달합니다. 노드 화면에서 면을 켜기만 하면 됩니다.\\\n\\\n활성 면이 [#](8B0000)혈액 탱크[#]()를 향하면 [#](4A0080)Essentia Vitae[#]()가 흐르고 기계의 전력 입력을 향하면 에너지를 옮깁니다. 에너지는 [#](8B0000)활성화[#]() 설정으로 제어하며 별도 허용·차단 목록은 없습니다. [#](8B0000)에너지[#]() 탭에는 선택한 면의 [#](8B0000)켜기 / 끄기[#]() 스위치 하나가 있으며 직접 끄기 전까지 켜져 있습니다. 아이템이나 유체만 옮길 면이라면 여기서 끄세요."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.intro.text",
+      "english": "Hauling materials by hand is beneath a blood mage of your stature. With [#](8B0000)Spiritus[#]() at your command, you have devised [#](8B0000)Routing Nodes[#](), an arcane logistics network that transports, sorts, and filters [#](8B0000)items[#](), [#](8B0000)fluids[#](), [#](8B0000)Forge Energy[#](), and the [#](4A0080)Aura[#]() itself through invisible channels at your decree.",
+      "before": "자재를 손으로 나르는 것은 당신 같은 혈액 마법사의 격에 맞지 않습니다. [#](8B0000)Spiritus[#]()의 힘으로 고안한 [#](8B0000)라우팅 노드[#]()는 보이지 않는 통로를 통해 [#](8B0000)아이템[#](), [#](8B0000)유체[#](), [#](8B0000)Forge 에너지[#](), [#](4A0080)기운[#]() 자체까지 옮기고 분류하고 거르는 비전 물류 네트워크입니다.",
+      "after": "자재를 손으로 나르는 것은 당신 같은 혈액 마법사의 격에 맞지 않습니다. [#](8B0000)Spiritus[#]()의 힘으로 고안한 [#](8B0000)운송 노드[#]()는 보이지 않는 통로를 통해 [#](8B0000)아이템[#](), [#](8B0000)유체[#](), [#](8B0000)Forge 에너지[#](), [#](4A0080)오라[#]() 자체까지 옮기고 분류하고 거르는 비전 물류 네트워크입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.intro.title",
+      "english": "Routing Nodes",
+      "before": "라우팅 노드",
+      "after": "운송 노드"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.io_recipes.title",
+      "english": "Input & Output Routing Nodes",
+      "before": "입력 및 출력 라우팅 노드",
+      "after": "입력 및 출력 운송 노드"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.name",
+      "english": "Routing Nodes",
+      "before": "라우팅 노드",
+      "after": "운송 노드"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.node_recipe.text",
+      "english": "A passive relay carrying items, fluids and energy alike. Unremarkable alone, but essential for bridging distances between active nodes in your [#](4A0080)Routing Network[#]().",
+      "before": "아이템, 유체, 에너지를 모두 나르는 수동 중계기입니다. 혼자서는 평범하지만 [#](4A0080)라우팅 네트워크[#]()의 활성 노드 사이 거리를 잇는 데 필수입니다.",
+      "after": "아이템, 유체, 에너지를 모두 나르는 수동 중계기입니다. 혼자서는 평범하지만 [#](4A0080)운송 네트워크[#]()의 활성 노드 사이 거리를 잇는 데 필수입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.other_nodes.text",
+      "english": "A Master alone accomplishes nothing. [#](8B0000)Input Routing Nodes[#]() draw resources into the network; [#](8B0000)Output Routing Nodes[#]() deliver them to their destination. [#](8B0000)Routing Conduits[#]() serve as the wires between them, extending the network's reach beyond the 16-block limit of a single connection.",
+      "before": "주 노드만으로는 아무 일도 하지 못합니다. [#](8B0000)입력 라우팅 노드[#]()는 자원을 네트워크로 끌어오고 [#](8B0000)출력 라우팅 노드[#]()는 목적지에 전달합니다. [#](8B0000)라우팅 전달 노드[#]()는 사이를 잇는 전선으로, 단일 연결의 16블록 한계를 넘어 범위를 넓힙니다.",
+      "after": "주 노드만으로는 아무 일도 하지 못합니다. [#](8B0000)입력 운송 노드[#]()는 자원을 네트워크로 끌어오고 [#](8B0000)출력 운송 노드[#]()는 목적지에 전달합니다. [#](8B0000)운송 도관[#]()는 사이를 잇는 전선으로, 단일 연결의 16블록 한계를 넘어 범위를 넓힙니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.self_healing.text",
+      "english": "A network that remembers its own shape also notices when that shape is violated. Once per minute the Master sweeps the loaded portions of its graph, scrubbing any position that no longer holds a routing-node block. Conduits that vanish through sinister means, broken commands, careless world edits, or the loss of a region file while the server slumbered, are forgotten as soon as the player revisits them.\\\n\\\nIndividual nodes are just as wary. Every Input, Output, or Conduit stamps its own coordinates into its memory as it saves. If it later awakens at a different location, it recognizes the tampering, discards its old allegiance, and seeks a new Master from its new position, just as if it had been freshly placed.",
+      "before": "자신의 모양을 기억하는 네트워크는 그 모양이 망가진 것도 알아챕니다. 주 노드는 분마다 불러온 연결 구조를 훑어 라우팅 노드 블록이 사라진 위치를 지웁니다. 잘못된 명령, 부주의한 월드 편집, 서버가 꺼진 동안의 지역 파일 손실 등으로 사라진 전달 노드는 플레이어가 다시 방문하면 잊힙니다.\\\n\\\n개별 노드도 조심스럽습니다. 입력, 출력, 전달 노드는 저장할 때 자기 좌표를 기억합니다. 나중에 다른 곳에서 깨어나면 변조를 감지하고 옛 귀속을 버린 뒤 새로 놓인 것처럼 현재 위치에서 주 노드를 찾습니다.",
+      "after": "자신의 모양을 기억하는 네트워크는 그 모양이 망가진 것도 알아챕니다. 주 노드는 분마다 불러온 연결 구조를 훑어 운송 노드 블록이 사라진 위치를 지웁니다. 잘못된 명령, 부주의한 월드 편집, 서버가 꺼진 동안의 지역 파일 손실 등으로 사라진 전달 노드는 플레이어가 다시 방문하면 잊힙니다.\\\n\\\n개별 노드도 조심스럽습니다. 입력, 출력, 전달 노드는 저장할 때 자기 좌표를 기억합니다. 나중에 다른 곳에서 깨어나면 변조를 감지하고 옛 귀속을 버린 뒤 새로 놓인 것처럼 현재 위치에서 주 노드를 찾습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.setup.text",
+      "english": "Most of the time you need only place your nodes near a [#](8B0000)Master Routing Node[#]() and watch them bind themselves. Once the chain of connections reaches a Master and the desired face of each node has been [#](2E8B57)enabled[#](), the network awakens. Resources flow according to priority and the filter rules configured on each side.\\\n\\\nIf an auto-bind fails, reach for the [#](8B0000)Node Router[#]() to wire the remaining nodes by hand.",
+      "before": "대부분은 [#](8B0000)주 라우팅 노드[#]() 근처에 노드를 놓고 스스로 귀속되는 것을 보면 됩니다. 연결이 주 노드까지 닿고 각 노드의 필요한 면이 [#](2E8B57)활성화[#]()되면 네트워크가 깨어납니다. 자원은 면마다 설정한 우선순위와 필터 규칙에 따라 흐릅니다.\\\n\\\n자동 귀속이 실패하면 [#](8B0000)노드 라우터[#]()로 남은 노드를 직접 연결하세요.",
+      "after": "대부분은 [#](8B0000)중심 운송 노드[#]() 근처에 노드를 놓고 스스로 귀속되는 것을 보면 됩니다. 연결이 주 노드까지 닿고 각 노드의 필요한 면이 [#](2E8B57)활성화[#]()되면 네트워크가 깨어납니다. 자원은 면마다 설정한 우선순위와 필터 규칙에 따라 흐릅니다.\\\n\\\n자동 귀속이 실패하면 [#](8B0000)노드 연결 도구[#]()로 남은 노드를 직접 연결하세요."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.spiritus_channel.text",
+      "english": "An [#](8B0000)Output Node[#]() carries a fourth tab, [#](8B0000)Spiritus[#](), unlike any other. It has no ghost grid and no chosen face, for it serves no adjacent block at all: it seeds the [#](4A0080)Aura[#]() of the very chunk the node stands in.\\\n\\\nName an [#](8B0000)Aspect[#]() and a [#](8B0000)Keep[#]() figure, and the node holds that chunk at that level, drawing on any [#](8B0000)Spirit Accumulator[#]() bound to the network. It will not push the Aura past its natural ceiling.\\\n\\\n[#](2E8B57)Set Type to Off, or Keep to zero, and the channel sleeps.[#]()",
+      "before": "[#](8B0000)출력 노드[#]()에는 다른 것과 다른 네 번째 [#](8B0000)Spiritus[#]() 탭이 있습니다. 인접 블록을 다루지 않으므로 견본 격자나 선택한 면이 없습니다. 대신 노드가 선 청크의 [#](4A0080)기운[#]()을 채웁니다.\\\n\\\n[#](8B0000)속성[#]()과 [#](8B0000)유지량[#]()을 정하면 네트워크에 연결된 [#](8B0000)Spiritus 축적기[#]()에서 끌어와 청크를 그 수준으로 유지합니다. 자연 상한을 넘겨 채우지는 않습니다.\\\n\\\n[#](2E8B57)종류를 끄기로 하거나 유지량을 영으로 하면 채널이 멈춥니다.[#]()",
+      "after": "[#](8B0000)출력 노드[#]()에는 다른 것과 다른 네 번째 [#](8B0000)Spiritus[#]() 탭이 있습니다. 인접 블록을 다루지 않으므로 견본 격자나 선택한 면이 없습니다. 대신 노드가 선 청크의 [#](4A0080)오라[#]()을 채웁니다.\\\n\\\n[#](8B0000)속성[#]()과 [#](8B0000)유지량[#]()을 정하면 네트워크에 연결된 [#](8B0000)영혼 축적기[#]()에서 끌어와 청크를 그 수준으로 유지합니다. 자연 상한을 넘겨 채우지는 않습니다.\\\n\\\n[#](2E8B57)종류를 끄기로 하거나 유지량을 영으로 하면 채널이 멈춥니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.unloaded_conduits.text",
+      "english": "Your Master remembers the full shape of its network, and the [#](8B0000)Routing Conduits[#]() threading it together need not be kept in loaded chunks for the network to function.\\\n\\\nSo long as the [#](8B0000)Master[#]() itself and whichever [#](8B0000)Input[#]() or [#](8B0000)Output[#]() nodes you care about are within a loaded chunk, the conduits between them may rest in the cold dark of unloaded space. Resources still flow along the invisible line the Master remembers. Break a conduit mid-network while you are present and the Master forgets it instantly; everything downstream recalculates.\\\n\\\n[#](2E8B57)A practical consequence: you may run long conduit trunks through unloaded wilderness without fear of the network severing itself.[#]()",
+      "before": "주 노드는 네트워크의 전체 모양을 기억하므로 사이를 잇는 [#](8B0000)라우팅 전달 노드[#]()의 청크를 계속 불러오지 않아도 작동합니다.\\\n\\\n[#](8B0000)주 노드[#]()와 필요한 [#](8B0000)입력[#]()·[#](8B0000)출력[#]() 노드가 있는 청크만 불러오면, 사이의 전달 노드는 불러오지 않은 어둠 속에 있어도 됩니다. 주 노드가 기억하는 선을 따라 자원은 계속 흐릅니다. 접속한 상태에서 중간 전달 노드를 부수면 즉시 잊고 이후 연결을 모두 다시 계산합니다.\\\n\\\n[#](2E8B57)따라서 불러오지 않은 황야에도 긴 전달 노드 줄기를 깔 수 있으며 네트워크가 끊길 걱정이 없습니다.[#]()",
+      "after": "주 노드는 네트워크의 전체 모양을 기억하므로 사이를 잇는 [#](8B0000)운송 도관[#]()의 청크를 계속 불러오지 않아도 작동합니다.\\\n\\\n[#](8B0000)주 노드[#]()와 필요한 [#](8B0000)입력[#]()·[#](8B0000)출력[#]() 노드가 있는 청크만 불러오면, 사이의 전달 노드는 불러오지 않은 어둠 속에 있어도 됩니다. 주 노드가 기억하는 선을 따라 자원은 계속 흐릅니다. 접속한 상태에서 중간 전달 노드를 부수면 즉시 잊고 이후 연결을 모두 다시 계산합니다.\\\n\\\n[#](2E8B57)따라서 불러오지 않은 황야에도 긴 전달 노드 줄기를 깔 수 있으며 네트워크가 끊길 걱정이 없습니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spirit_accumulator.description",
+      "english": "A reservoir that banks the Aura and feeds it to the network.",
+      "before": "기운을 저장하여 네트워크에 공급하는 저장소입니다.",
+      "after": "오라을 저장하여 네트워크에 공급하는 저장소입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spirit_accumulator.export.text",
+      "english": "To spend the reserve, open any [#](8B0000)Output Routing Node[#]() and turn its tab to [#](8B0000)Spiritus[#](). Two controls await:\\\n\\\n- [#](8B0000)Type[#](): cycles through Off and the five Aspects.\\\n- [#](8B0000)Keep[#](): how much of that Aspect to maintain in the node's own chunk, in steps of 10, or 100 with [#](8B0000)Shift[#]() held.\\\n\\\nThe node holds its chunk at that figure and no higher, and never forces the Aura past its natural ceiling. No attached block is needed; an Output Node given to Spiritus may stand alone in the middle of the ground it feeds.",
+      "before": "저장량을 쓰려면 [#](8B0000)출력 라우팅 노드[#]()의 [#](8B0000)Spiritus[#]() 탭을 여세요. 두 설정이 있습니다.\\\n\\\n- [#](8B0000)종류[#](): 끄기와 다섯 속성을 순환합니다.\\\n- [#](8B0000)유지량[#](): 노드가 있는 청크에 유지할 해당 속성의 양입니다. 10씩 바뀌고 [#](8B0000)Shift[#]()를 누르면 100씩 바뀝니다.\\\n\\\n청크를 설정값까지만 채우고 자연 상한도 넘기지 않습니다. 인접 블록은 필요 없으므로 Spiritus용 출력 노드는 공급할 땅 한가운데 홀로 서 있어도 됩니다.",
+      "after": "저장량을 쓰려면 [#](8B0000)출력 운송 노드[#]()의 [#](8B0000)Spiritus[#]() 탭을 여세요. 두 설정이 있습니다.\\\n\\\n- [#](8B0000)종류[#](): 끄기와 다섯 속성을 순환합니다.\\\n- [#](8B0000)유지량[#](): 노드가 있는 청크에 유지할 해당 속성의 양입니다. 10씩 바뀌고 [#](8B0000)Shift[#]()를 누르면 100씩 바뀝니다.\\\n\\\n청크를 설정값까지만 채우고 자연 상한도 넘기지 않습니다. 인접 블록은 필요 없으므로 Spiritus용 출력 노드는 공급할 땅 한가운데 홀로 서 있어도 됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spirit_accumulator.intro.text",
+      "english": "The [#](4A0080)Aura[#]() will hold no more than [#](8B0000)100[#]() of any one Aspect, and it cannot leave the chunk that holds it. Every crystal you burn past that ceiling is simply lost.\\\n\\\nThe [#](8B0000)Spirit Accumulator[#]() is the answer: a suspended crystal that gathers [#](8B0000)1,000[#]() Spiritus of a single Aspect and surrenders it to your [#](4A0080)Routing Network[#]() wherever it is wanted.",
+      "before": "[#](4A0080)기운[#]()은 한 속성을 [#](8B0000)100[#]() 넘게 담을 수 없으며 청크 밖으로 나가지 못합니다. 상한을 넘겨 태운 수정은 그냥 낭비됩니다.\\\n\\\n해답은 [#](8B0000)Spiritus 축적기[#]()입니다. 공중에 매달린 수정이 단일 속성의 Spiritus를 [#](8B0000)1,000[#]()까지 모아 필요한 곳의 [#](4A0080)라우팅 네트워크[#]()에 내어줍니다.",
+      "after": "[#](4A0080)오라[#]()은 한 속성을 [#](8B0000)100[#]() 넘게 담을 수 없으며 청크 밖으로 나가지 못합니다. 상한을 넘겨 태운 수정은 그냥 낭비됩니다.\\\n\\\n해답은 [#](8B0000)영혼 축적기[#]()입니다. 공중에 매달린 수정이 단일 속성의 Spiritus를 [#](8B0000)1,000[#]()까지 모아 필요한 곳의 [#](4A0080)운송 네트워크[#]()에 내어줍니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spirit_accumulator.network.text",
+      "english": "An Accumulator is itself a [#](8B0000)routing node[#](). Place it within [#](8B0000)16 blocks[#]() of a network and it binds on its own, exactly as an [#](8B0000)Input Node[#]() would; the [#](8B0000)Node Router[#]() links it by hand when auto-binding will not reach. Its thread springs from the very tip of the crystal.\\\n\\\nWhatever it holds is then offered to the whole network. It gives only; the chunk beneath it is the one thing that fills it.",
+      "before": "축적기 자체가 [#](8B0000)라우팅 노드[#]()입니다. 네트워크 [#](8B0000)16블록[#]() 이내에 놓으면 [#](8B0000)입력 노드[#]()처럼 자동 귀속됩니다. 자동 귀속이 닿지 않으면 [#](8B0000)노드 라우터[#]()로 직접 연결하세요. 연결선은 수정 끝에서 나옵니다.\\\n\\\n담긴 것은 전체 네트워크에 제공됩니다. 주기만 하며, 축적기를 채우는 것은 아래의 청크뿐입니다.",
+      "after": "축적기 자체가 [#](8B0000)운송 노드[#]()입니다. 네트워크 [#](8B0000)16블록[#]() 이내에 놓으면 [#](8B0000)입력 노드[#]()처럼 자동 귀속됩니다. 자동 귀속이 닿지 않으면 [#](8B0000)노드 연결 도구[#]()로 직접 연결하세요. 연결선은 수정 끝에서 나옵니다.\\\n\\\n담긴 것은 전체 네트워크에 제공됩니다. 주기만 하며, 축적기를 채우는 것은 아래의 청크뿐입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spirit_accumulator.skimming.title",
+      "english": "Skimming the Aura",
+      "before": "기운 거두기",
+      "after": "오라 거두기"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spiritus_catalysts.automation_loop.text",
+      "english": "Pair the catalyst with the [#](8B0000)Crystallum Fractura[#]() ritual for a hands-off farm: the ritual auto-harvests fully-grown clusters, doubles ambient growth, and (with the Master Ritual Stone attuned via the Ritual Configurator) can bias the +25%% injection bonus toward any Aspect you choose.\\\n\\\nA modest [#](8B0000)Routing Node[#]() arrangement can then ship harvested shards back into a [#](8B0000)Vas Maleficum[#]() to maintain saturation, closing the loop. The exact layout is left as an exercise for the ambitious.",
+      "before": "촉매와 [#](8B0000)Crystallum Fractura[#]() 의식을 함께 쓰면 손대지 않는 농장이 됩니다. 성숙한 군집을 자동 수확하고 기본 성장을 두 배로 높이며, 의식 설정 도구로 중심 의식석을 조율하면 +25%% 주입 보너스를 원하는 속성으로 보낼 수 있습니다.\\\n\\\n간단한 [#](8B0000)라우팅 노드[#]() 구성으로 수확한 조각을 [#](8B0000)Vas Maleficum[#]()에 되돌려 보내 포화도를 유지하면 순환이 완성됩니다. 구체적인 배치는 야심 찬 시전자의 연습 과제로 남깁니다.",
+      "after": "촉매와 [#](8B0000)Crystallum Fractura[#]() 의식을 함께 쓰면 손대지 않는 농장이 됩니다. 성숙한 군집을 자동 수확하고 기본 성장을 두 배로 높이며, 의식 설정 도구로 중심 의식석을 조율하면 +25%% 주입 보너스를 원하는 속성으로 보낼 수 있습니다.\\\n\\\n간단한 [#](8B0000)운송 노드[#]() 구성으로 수확한 조각을 [#](8B0000)Vas Maleficum[#]()에 되돌려 보내 포화도를 유지하면 순환이 완성됩니다. 구체적인 배치는 야심 찬 시전자의 연습 과제로 남깁니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spiritus_catalysts.bootstrap.text",
+      "english": "A [#](8B0000)Crystallarium Maleficum[#]() will only grow [#](8B0000)Raw Spiritus[#]() clusters until the chunk's Aura is dominated by a different Aspect, and that demands aspected crystals you do not yet possess. The catalyst is the only way to break this cycle.\\\n\\\nRight-click a [#](8B0000)fully-grown Raw cluster[#]() with an aspected catalyst (Ruina, Nihilum, Vindicta, or Invictus) and the cluster transmutes into the catalyst's Aspect, restarting at age zero. The catalyst is consumed in the act.",
+      "before": "[#](8B0000)Crystallarium Maleficum[#]()은 다른 속성이 청크의 기운을 지배하기 전까지 [#](8B0000)원시 Spiritus[#]() 군집만 기릅니다. 하지만 이를 바꾸려면 아직 없는 속성 수정이 필요합니다. 촉매가 이 순환을 깨는 유일한 방법입니다.\\\n\\\n속성 촉매(Ruina, Nihilum, Vindicta, Invictus)로 [#](8B0000)완전히 자란 원시 군집[#]()을 우클릭하면 촉매의 속성으로 변하며 성장 단계가 처음으로 돌아갑니다. 촉매는 소모됩니다.",
+      "after": "[#](8B0000)Crystallarium Maleficum[#]()은 다른 속성이 청크의 오라을 지배하기 전까지 [#](8B0000)가공되지 않은 Spiritus[#]() 군집만 기릅니다. 하지만 이를 바꾸려면 아직 없는 속성 수정이 필요합니다. 촉매가 이 순환을 깨는 유일한 방법입니다.\\\n\\\n속성 촉매(Ruina, Nihilum, Vindicta, Invictus)로 [#](8B0000)완전히 자란 원시 군집[#]()을 우클릭하면 촉매의 속성으로 변하며 성장 단계가 처음으로 돌아갑니다. 촉매는 소모됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.throwing_daggers.iron_dagger.text",
+      "english": "A swift, precise strike dealing [#](B8860B)10 damage[#]() with a moderate cooldown.\\\n\\\nEvery wound it inflicts upon a [#](8B0000)hostile creature[#]() binds spectral motes to its form. Slay the marked quarry and it yields [#](8B0000)Raw Spiritus[#](); the only path to your first harvest before a [#](8B0000)Sentient Sword[#]() is at hand.\\\n\\\n[#](2E8B57)The Looting enchantment increases the Spiritus dropped.[#]()",
+      "before": "빠르고 정확한 타격으로 [#](B8860B)피해 10[#]()을 주며 적당한 재사용 대기시간이 있습니다.\\\n\\\n[#](8B0000)적대적 생물[#]()에게 상처를 입힐 때마다 영적 티끌을 묶습니다. 표시된 대상을 처치하면 [#](8B0000)원시 Spiritus[#]()를 얻습니다. [#](8B0000)지각 있는 검[#]()이 없을 때 첫 수확을 얻는 유일한 방법입니다.\\\n\\\n[#](2E8B57)약탈 마법은 떨어지는 Spiritus를 늘립니다.[#]()",
+      "after": "빠르고 정확한 타격으로 [#](B8860B)피해 10[#]()을 주며 적당한 재사용 대기시간이 있습니다.\\\n\\\n[#](8B0000)적대적 생물[#]()에게 상처를 입힐 때마다 영적 티끌을 묶습니다. 표시된 대상을 처치하면 [#](8B0000)가공되지 않은 Spiritus[#]()를 얻습니다. [#](8B0000)지각 있는 검[#]()이 없을 때 첫 수확을 얻는 유일한 방법입니다.\\\n\\\n[#](2E8B57)약탈 마법은 떨어지는 Spiritus를 늘립니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.upgrades.intro.text",
+      "english": "Two enhancements are currently available for the [#](4A0080)Routing Network[#]().\\\n\\\nThe [#](8B0000)Routing Stack Upgrade[#]() increases the volume of resources moved per operation. By default, the network transfers [#](B8860B)16 items[#](), [#](B8860B)1,000 mB of fluid[#](), and [#](B8860B)10,000 FE[#]() per cycle. Each upgrade raises all three caps simultaneously.",
+      "before": "현재 [#](4A0080)라우팅 네트워크[#]()에는 두 업그레이드가 있습니다.\\\n\\\n[#](8B0000)라우팅 스택 업그레이드[#]()는 작업당 옮기는 양을 늘립니다. 기본 전송량은 주기마다 [#](B8860B)아이템 16개[#](), [#](B8860B)유체 1,000mB[#](), [#](B8860B)10,000FE[#]()입니다. 업그레이드마다 세 상한을 동시에 높입니다.",
+      "after": "현재 [#](4A0080)운송 네트워크[#]()에는 두 업그레이드가 있습니다.\\\n\\\n[#](8B0000)운송 묶음 업그레이드[#]()는 작업당 옮기는 양을 늘립니다. 기본 전송량은 주기마다 [#](B8860B)아이템 16개[#](), [#](B8860B)유체 1,000mB[#](), [#](B8860B)10,000FE[#]()입니다. 업그레이드마다 세 상한을 동시에 높입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.upgrades.speed_intro.text",
+      "english": "The second enhancement is the [#](8B0000)Routing Speed Upgrade[#](), which quickens the network's pulse. The default rate is one operation every [#](B8860B)20 ticks[#]() (one second). Each upgrade reduces this by one tick, to a minimum of every single tick with 19 upgrades.",
+      "before": "두 번째인 [#](8B0000)라우팅 속도 업그레이드[#]()는 네트워크의 주기를 빠르게 합니다. 기본은 [#](B8860B)20틱[#]()(일 초)마다 한 번이며, 업그레이드 하나당 한 틱씩 줄어 19개면 매 틱 작동합니다.",
+      "after": "두 번째인 [#](8B0000)운송 속도 업그레이드[#]()는 네트워크의 주기를 빠르게 합니다. 기본은 [#](B8860B)20틱[#]()(일 초)마다 한 번이며, 업그레이드 하나당 한 틱씩 줄어 19개면 매 틱 작동합니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.bow_power_anointment.intro.text",
+      "english": "[#](8B0000)Iron Tip[#]() weights each arrow with an alchemical density, increasing its damage by 25%%. The effect stacks with existing enchantments.\\\n\\\nValid items: anything in [#](8B0000)#neovitae:anointable/bows[#]().\\\n\\\nApplies: Heavy Shot (256 shots)",
+      "before": "[#](8B0000)철 화살촉[#]()은 연금술적 밀도로 화살을 무겁게 하여 피해량을 25%% 높입니다. 기존 마법과 중첩됩니다.\\\n\\\n적용 대상: [#](8B0000)#neovitae:anointable/bows[#]()의 모든 아이템.\\\n\\\n적용 효과: 무거운 사격(256발)",
+      "after": "[#](8B0000)철 촉[#]()은 연금술적 밀도로 화살을 무겁게 하여 피해량을 25%% 높입니다. 기존 마법과 중첩됩니다.\\\n\\\n적용 대상: [#](8B0000)#neovitae:anointable/bows[#]()의 모든 아이템.\\\n\\\n적용 효과: 강력한 사격(256발)"
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.flask_bounce.intro.text",
+      "english": "The [#](8B0000)Bounce[#]() elixir transforms the body into a living spring. Where you would shatter against stone, you instead rebound skyward, unharmed and exhilarated.\\\n\\\n[#](2E8B57)Crouch before impact to suppress the bounce and land normally.[#]()",
+      "before": "[#](8B0000)탄성[#]() 엘릭서는 몸을 살아 있는 스프링으로 만듭니다. 돌에 부딪혀 부서질 대신 다치지 않고 신나게 하늘로 튀어 오릅니다.\\\n\\\n[#](2E8B57)충돌 전에 웅크리면 튀어 오름을 억제하고 평소처럼 착지합니다.[#]()",
+      "after": "[#](8B0000)도약[#]() 엘릭서는 몸을 살아 있는 스프링으로 만듭니다. 돌에 부딪혀 부서질 대신 다치지 않고 신나게 하늘로 튀어 오릅니다.\\\n\\\n[#](2E8B57)충돌 전에 웅크리면 튀어 오름을 억제하고 평소처럼 착지합니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.flask_flight.intro.text",
+      "english": "The [#](8B0000)Flight[#]() elixir is the crowning achievement of [#](4A0080)gravitational alchemy[#](), true, unfettered flight, as free as the wind itself. Higher levels grant greater speed through the air.\\\n\\\nTo synthesize it, brew both [#](8B0000)Suspended[#]() and [#](8B0000)Levitation[#]() into a single flask, then fuse them with a [#](8B0000)Combinational Catalyst[#]() at the Tabula Vitae.",
+      "before": "[#](8B0000)비행[#]() 엘릭서는 [#](4A0080)중력 연금술[#]()의 최고 업적으로, 바람처럼 자유롭고 제약 없는 비행을 제공합니다. 레벨이 높을수록 비행 속도가 빨라집니다.\\\n\\\n한 플라스크에 [#](8B0000)정지[#]()와 [#](8B0000)공중 부양[#]()을 함께 양조한 뒤 Tabula Vitae에서 [#](8B0000)결합 촉매[#]()로 융합하세요.",
+      "after": "[#](8B0000)비행[#]() 엘릭서는 [#](4A0080)중력 연금술[#]()의 최고 업적으로, 바람처럼 자유롭고 제약 없는 비행을 제공합니다. 레벨이 높을수록 비행 속도가 빨라집니다.\\\n\\\n한 플라스크에 [#](8B0000)공중 정지[#]()와 [#](8B0000)공중 부양[#]()을 함께 양조한 뒤 Tabula Vitae에서 [#](8B0000)결합 촉매[#]()로 융합하세요."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.flask_spectral_sight.intro.text",
+      "english": "The [#](8B0000)Spectral Sight[#]() elixir opens the [#](4A0080)inner eye[#](), revealing the outline of every living creature within 24 blocks as a luminous silhouette. Higher levels extend this perception by an additional 32 blocks per level. Nothing hides from such sight.\\\n\\\nDerived from a flask of [#](8B0000)Night Vision[#]().",
+      "before": "[#](8B0000)영적 시야[#]() 엘릭서는 [#](4A0080)내면의 눈[#]()을 열어 24블록 안의 모든 생물 윤곽을 빛나는 형체로 보여줍니다. 높은 레벨에서는 레벨당 32블록씩 범위가 더 늘어납니다. 그 눈을 피할 수 있는 것은 없습니다.\\\n\\\n[#](8B0000)야간 투시[#]() 플라스크에서 만듭니다.",
+      "after": "[#](8B0000)유령 시야[#]() 엘릭서는 [#](4A0080)내면의 눈[#]()을 열어 24블록 안의 모든 생물 윤곽을 빛나는 형체로 보여줍니다. 높은 레벨에서는 레벨당 32블록씩 범위가 더 늘어납니다. 그 눈을 피할 수 있는 것은 없습니다.\\\n\\\n[#](8B0000)야간 투시[#]() 플라스크에서 만듭니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.flask_suspended.intro.text",
+      "english": "The [#](8B0000)Suspended[#]() elixir severs the drinker's connection to gravity entirely. You cannot jump. You cannot fall. You simply exist at whatever height you currently occupy, sliding along an invisible plane as though the world were made of glass.\\\n\\\nDerived from a flask of [#](8B0000)Gravity[#]().",
+      "before": "[#](8B0000)정지[#]() 엘릭서는 중력과의 연결을 완전히 끊습니다. 점프도 낙하도 하지 못합니다. 현재 높이에 머물며 세계가 유리로 된 듯 보이지 않는 평면을 미끄러집니다.\\\n\\\n[#](8B0000)중력[#]() 플라스크에서 만듭니다.",
+      "after": "[#](8B0000)공중 정지[#]() 엘릭서는 중력과의 연결을 완전히 끊습니다. 점프도 낙하도 하지 못합니다. 현재 높이에 머물며 세계가 유리로 된 듯 보이지 않는 평면을 미끄러집니다.\\\n\\\n[#](8B0000)중력[#]() 플라스크에서 만듭니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.looting_anointment.intro.text",
+      "english": "[#](8B0000)Plunderer's Glint[#]() draws forth spoils from the slain that would otherwise remain hidden. The coating stacks with the Looting enchantment.\\\n\\\nValid items: anything in [#](8B0000)#neovitae:anointable/melee[#]().\\\n\\\nApplies: Plundering I (256 hits)",
+      "before": "[#](8B0000)약탈자의 반짝임[#]()은 원래 숨겨졌을 전리품을 쓰러진 자에게서 끌어냅니다. 약탈 마법과 중첩됩니다.\\\n\\\n적용 대상: [#](8B0000)#neovitae:anointable/melee[#]()의 모든 아이템.\\\n\\\n적용 효과: 약탈 I(256회 적중)",
+      "after": "[#](8B0000)약탈자의 광채[#]()은 원래 숨겨졌을 전리품을 쓰러진 자에게서 끌어냅니다. 약탈 마법과 중첩됩니다.\\\n\\\n적용 대상: [#](8B0000)#neovitae:anointable/melee[#]()의 모든 아이템.\\\n\\\n적용 효과: 약탈 I(256회 적중)"
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.avg_lengthening.text",
+      "english": "The [#](8B0000)Standard Lengthening Catalyst[#]() is brewed at the Tabula Vitae (recipe: neovitae:alchemytable/average_lengthening). It extends the topmost effect's duration from a mere 3:00 to a formidable 21:20. Across eight doses, that is a truly staggering span of sustained power.",
+      "before": "[#](8B0000)표준 지속 시간 연장 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/average_lengthening). 맨 위 효과의 지속 시간을 3:00에서 무려 21:20으로 늘립니다. 여덟 번 복용하면 놀라울 만큼 오래 힘을 유지합니다.",
+      "after": "[#](8B0000)중급 지속 연장 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/average_lengthening). 맨 위 효과의 지속 시간을 3:00에서 무려 21:20으로 늘립니다. 여덟 번 복용하면 놀라울 만큼 오래 힘을 유지합니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.avg_lengthening.title",
+      "english": "Standard Lengthening",
+      "before": "표준 지속 시간 연장",
+      "after": "중급 지속 연장"
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.avg_power.text",
+      "english": "The [#](8B0000)Standard Power Catalyst[#]() is brewed at the Tabula Vitae (recipe: neovitae:alchemytable/average_power). A concentrated refinement of its lesser counterpart, it drives effects to [#](B8860B)level III[#]() potency, though the duration contracts to a brief 45 seconds per dose. Devastating, but fleeting.",
+      "before": "[#](8B0000)표준 위력 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/average_power). 하위 촉매를 집중 정제하여 효과를 [#](B8860B)레벨 III[#]()로 높이지만 지속 시간은 복용당 45초로 줄어듭니다. 강력하지만 짧습니다.",
+      "after": "[#](8B0000)중급 위력 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/average_power). 하위 촉매를 집중 정제하여 효과를 [#](B8860B)레벨 III[#]()로 높이지만 지속 시간은 복용당 45초로 줄어듭니다. 강력하지만 짧습니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.avg_power.title",
+      "english": "Standard Power Catalyst",
+      "before": "표준 위력 촉매",
+      "after": "중급 위력 촉매"
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.catalysts_intro.text",
+      "english": "Central to the art of flask-brewing are [#](8B0000)Catalysts[#](), reagents that shape and amplify your elixirs. Begin with these three: the [#](8B0000)Simple Catalyst[#](), the [#](8B0000)Small Power Catalyst[#](), and the [#](8B0000)Small Lengthening Catalyst[#](). The first serves as the foundation for nearly every alchemical brew, much as [#](8B0000)Nether Wart[#]() anchors lesser potions.",
+      "before": "플라스크 양조의 핵심은 엘릭서의 성질을 정하고 증폭하는 [#](8B0000)촉매[#]()입니다. [#](8B0000)단순 촉매[#](), [#](8B0000)소형 위력 촉매[#](), [#](8B0000)소형 지속 시간 연장 촉매[#]()부터 시작하세요. 단순 촉매는 일반 물약의 [#](8B0000)네더 사마귀[#]()처럼 거의 모든 연금술 양조의 기반입니다.",
+      "after": "플라스크 양조의 핵심은 엘릭서의 성질을 정하고 증폭하는 [#](8B0000)촉매[#]()입니다. [#](8B0000)단순 촉매[#](), [#](8B0000)초급 위력 촉매[#](), [#](8B0000)초급 지속 연장 촉매[#]()부터 시작하세요. 단순 촉매는 일반 물약의 [#](8B0000)네더 사마귀[#]()처럼 거의 모든 연금술 양조의 기반입니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.combinational_catalyst.text",
+      "english": "The [#](8B0000)Combinational Catalyst[#]() is brewed at the Tabula Vitae (recipe: neovitae:alchemytable/combinational). This is the reagent of [#](4A0080)synthesis[#](); it fuses two existing effects within a flask into an entirely new one. A flask bearing both [#](8B0000)Suspended[#]() and [#](8B0000)Levitation[#](), when treated with this catalyst, yields the coveted elixir of [#](8B0000)Flight[#]().",
+      "before": "[#](8B0000)결합 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/combinational). 플라스크의 기존 두 효과를 완전히 새로운 하나로 융합하는 [#](4A0080)합성[#]() 시약입니다. [#](8B0000)정지[#]()와 [#](8B0000)공중 부양[#]()이 함께 있는 플라스크에 쓰면 꿈꾸던 [#](8B0000)비행[#]() 엘릭서가 됩니다.",
+      "after": "[#](8B0000)결합 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/combinational). 플라스크의 기존 두 효과를 완전히 새로운 하나로 융합하는 [#](4A0080)합성[#]() 시약입니다. [#](8B0000)공중 정지[#]()와 [#](8B0000)공중 부양[#]()이 함께 있는 플라스크에 쓰면 꿈꾸던 [#](8B0000)비행[#]() 엘릭서가 됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.cycling_catalyst.text",
+      "english": "The [#](8B0000)Simple Cycling Catalyst[#]() is brewed at the Tabula Vitae (recipe: neovitae:alchemytable/cycling_catalyst). It rotates the order of effects layered within a flask, bringing a different effect to the top position, and thus changing which effect is targeted by subsequent catalysts or agents.",
+      "before": "[#](8B0000)단순 순환 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/cycling_catalyst). 플라스크 안 효과의 순서를 돌려 다른 효과를 맨 위로 보내므로 이후 촉매나 약제가 적용되는 대상이 바뀝니다.",
+      "after": "[#](8B0000)순환 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/cycling_catalyst). 플라스크 안 효과의 순서를 돌려 다른 효과를 맨 위로 보내므로 이후 촉매나 약제가 적용되는 대상이 바뀝니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.cycling_catalyst.title",
+      "english": "Simple Cycling Catalyst",
+      "before": "단순 순환 촉매",
+      "after": "순환 촉매"
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.filling_agent.text",
+      "english": "The [#](8B0000)Weak Filling Agent[#]() is brewed at the Tabula Vitae (recipe: neovitae:alchemytable/weak_filling). It replenishes a partially drained flask, though at a cost; only the topmost effect survives the restoration. All others are lost.\\\n\\\n[#](2E8B57)If you wish to preserve a deeper effect, first reorder the flask with a Simple Cycling Catalyst.[#]()",
+      "before": "[#](8B0000)약한 충전제[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/weak_filling). 일부 사용한 플라스크를 채우지만 대가가 있습니다. 맨 위 효과만 살아남고 나머지는 모두 사라집니다.\\\n\\\n[#](2E8B57)아래쪽 효과를 보존하려면 먼저 단순 순환 촉매로 순서를 바꾸세요.[#]()",
+      "after": "[#](8B0000)약한 충전제[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/weak_filling). 일부 사용한 플라스크를 채우지만 대가가 있습니다. 맨 위 효과만 살아남고 나머지는 모두 사라집니다.\\\n\\\n[#](2E8B57)아래쪽 효과를 보존하려면 먼저 순환 촉매로 순서를 바꾸세요.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.lengthening_catalyst.text",
+      "english": "The [#](8B0000)Small Lengthening Catalyst[#]() is brewed at the Tabula Vitae (recipe: neovitae:alchemytable/mundane_lengthening). It stretches the duration of the topmost effect within a flask, much as [#](8B0000)Redstone[#]() prolongs a common potion.\\\n\\\nAs with Power Catalysts, if the topmost effect cannot be further extended, the catalyst seeks the next eligible effect below it.",
+      "before": "[#](8B0000)소형 지속 시간 연장 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/mundane_lengthening). 일반 물약에 쓰는 [#](8B0000)레드스톤[#]()처럼 플라스크 맨 위 효과의 시간을 늘립니다.\\\n\\\n위력 촉매처럼 맨 위 효과를 더 늘릴 수 없으면 아래의 다음 가능한 효과를 찾습니다.",
+      "after": "[#](8B0000)초급 지속 연장 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/mundane_lengthening). 일반 물약에 쓰는 [#](8B0000)레드스톤[#]()처럼 플라스크 맨 위 효과의 시간을 늘립니다.\\\n\\\n위력 촉매처럼 맨 위 효과를 더 늘릴 수 없으면 아래의 다음 가능한 효과를 찾습니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.lengthening_catalyst.title",
+      "english": "Small Lengthening Catalyst",
+      "before": "소형 지속 시간 연장 촉매",
+      "after": "초급 지속 연장 촉매"
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.multi_effects.text",
+      "english": "Layering multiple effects within a single flask is elegantly simple. Brew your first elixir, then use the resulting flask in place of an empty one for the second brewing.\\\n\\\nFor example, brew a flask of [#](8B0000)Bounce[#](), then use that same flask as the base for a [#](8B0000)Night Vision[#]() recipe. The result: an 8-dose flask bestowing both [#](8B0000)Bounce[#]() and [#](8B0000)Night Vision[#]() with every sip.",
+      "before": "한 플라스크에 여러 효과를 쌓는 방법은 간단합니다. 첫 엘릭서를 만든 뒤 두 번째 양조에서 빈 플라스크 대신 결과물을 쓰세요.\\\n\\\n예를 들어 [#](8B0000)탄성[#]() 플라스크를 만들고 이를 [#](8B0000)야간 투시[#]() 조합법의 바탕으로 쓰면, 마실 때마다 [#](8B0000)탄성[#]()과 [#](8B0000)야간 투시[#]()를 함께 주는 8회분 플라스크가 됩니다.",
+      "after": "한 플라스크에 여러 효과를 쌓는 방법은 간단합니다. 첫 엘릭서를 만든 뒤 두 번째 양조에서 빈 플라스크 대신 결과물을 쓰세요.\\\n\\\n예를 들어 [#](8B0000)도약[#]() 플라스크를 만들고 이를 [#](8B0000)야간 투시[#]() 조합법의 바탕으로 쓰면, 마실 때마다 [#](8B0000)도약[#]()과 [#](8B0000)야간 투시[#]()를 함께 주는 8회분 플라스크가 됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.power_catalyst.text",
+      "english": "The [#](8B0000)Small Power Catalyst[#]() is brewed at the Tabula Vitae (recipe: neovitae:alchemytable/mundane_power). It intensifies the topmost effect within a flask at the cost of shortened duration, analogous to what [#](8B0000)Glowstone[#]() achieves in cruder potions.\\\n\\\nIf the topmost effect cannot accept further potency, the catalyst reaches deeper, boosting the next eligible effect in sequence.",
+      "before": "[#](8B0000)소형 위력 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/mundane_power). 일반 물약의 [#](8B0000)발광석[#]()처럼 지속 시간을 줄이는 대신 플라스크 맨 위 효과를 강화합니다.\\\n\\\n맨 위 효과를 더 강화할 수 없으면 아래의 다음 가능한 효과를 순서대로 강화합니다.",
+      "after": "[#](8B0000)초급 위력 촉매[#]()는 Tabula Vitae에서 양조합니다(조합법: neovitae:alchemytable/mundane_power). 일반 물약의 [#](8B0000)발광석[#]()처럼 지속 시간을 줄이는 대신 플라스크 맨 위 효과를 강화합니다.\\\n\\\n맨 위 효과를 더 강화할 수 없으면 아래의 다음 가능한 효과를 순서대로 강화합니다."
+    },
+    {
+      "key": "book.neovitae.guide.tabula_vitae.potion_crafting.power_catalyst.title",
+      "english": "Small Power Catalyst",
+      "before": "소형 위력 촉매",
+      "after": "초급 위력 촉매"
+    },
+    {
+      "key": "book.neovitae.guide.utility.hydration.intro.text",
+      "english": "Fitted with a [#](8B0000)Primitive Hydration Cell[#](), the Athanor becomes a font of elemental water, saturating and transforming matter at the molecular level. Ensure you supply it with Water, or the cell thirsts in vain.\\\n\\\n[#](2E8B57)Hydration Cells degrade with use, but Unbreaking or Mending enchantments extend their service considerably.[#]()",
+      "before": "[#](8B0000)원시 급수 전지[#]()를 장착하면 Athanor는 원소의 물이 솟는 샘이 되어 분자 수준에서 물질을 적시고 변환합니다. 헛되이 목말라 하지 않도록 물을 공급하세요.\\\n\\\n[#](2E8B57)급수 전지는 사용하면 닳지만 내구성이나 수선 마법으로 수명을 크게 늘릴 수 있습니다.[#]()",
+      "after": "[#](8B0000)원시 수화 전지[#]()를 장착하면 Athanor는 원소의 물이 솟는 샘이 되어 분자 수준에서 물질을 적시고 변환합니다. 헛되이 목말라 하지 않도록 물을 공급하세요.\\\n\\\n[#](2E8B57)급수 전지는 사용하면 닳지만 내구성이나 수선 마법으로 수명을 크게 늘릴 수 있습니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.basic_setup.text",
+      "english": "[#](2E8B57)Place the altar upon a 3x3 platform of solid blocks (this foundation is important for later expansion). Remain within five blocks of the altar to receive its blessing.[#]()\\\n\\\nWhen the altar awakens, flame particles dance from its crown and a [#](8B0000)Blessed Sacrifice[#]() settles upon you, lasting thirty seconds. While it holds, the next time you right-click your [#](8B0000)Orb of Vitae[#]() you spill a single, potent offering of nearly all your blood into the orb, then fall into [#](8B0000)Soul Fray[#]() until you may be blessed again.",
+      "before": "[#](2E8B57)단단한 블록으로 만든 3x3 받침 위에 제단을 놓으세요. 이후 확장에 중요한 토대입니다. 축복을 받으려면 제단에서 다섯 블록 이내에 머무르세요.[#]()\\\n\\\n제단이 깨어나면 꼭대기에서 불꽃 입자가 춤추고 삼십 초간 [#](8B0000)축복받은 희생[#]()을 얻습니다. 유지되는 동안 [#](8B0000)Vitae 구슬[#]()을 우클릭하면 거의 모든 혈액을 한 번의 강력한 제물로 쏟아붓습니다. 이후 다시 축복받을 수 있을 때까지 [#](8B0000)영혼 쇠약[#]()에 걸립니다.",
+      "after": "[#](2E8B57)단단한 블록으로 만든 3x3 받침 위에 제단을 놓으세요. 이후 확장에 중요한 토대입니다. 축복을 받으려면 제단에서 다섯 블록 이내에 머무르세요.[#]()\\\n\\\n제단이 깨어나면 꼭대기에서 불꽃 입자가 춤추고 삼십 초간 [#](8B0000)축복받은 희생[#]()을 얻습니다. 유지되는 동안 [#](8B0000)Vitae 구슬[#]()을 우클릭하면 거의 모든 혈액을 한 번의 강력한 제물로 쏟아붓습니다. 이후 다시 축복받을 수 있을 때까지 [#](8B0000)영혼 마모[#]()에 걸립니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.caps.text",
+      "english": "The Tranquility bonus is bounded by the path tier you employ:\n\n- [#](B8860B)No Path:[#]() 20%%\n- [#](B8860B)Wooden Path:[#]() 60%%\n- [#](B8860B)Stone Path:[#]() 120%%\n- [#](B8860B)Worn Stone Path:[#]() 200%%\n- [#](B8860B)Obsidian Path:[#]() 300%%",
+      "before": "평온 보너스의 상한은 사용한 길 등급에 따릅니다.\n\n- [#](B8860B)길 없음:[#]() 20%%\n- [#](B8860B)나무 길:[#]() 60%%\n- [#](B8860B)돌 길:[#]() 120%%\n- [#](B8860B)마모된 돌 길:[#]() 200%%\n- [#](B8860B)흑요석 길:[#]() 300%%",
+      "after": "평온도 보너스의 상한은 사용한 길 등급에 따릅니다.\n\n- [#](B8860B)길 없음:[#]() 20%%\n- [#](B8860B)나무 길:[#]() 60%%\n- [#](B8860B)돌 길:[#]() 120%%\n- [#](B8860B)마모된 돌 길:[#]() 200%%\n- [#](B8860B)흑요석 길:[#]() 300%%"
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.description",
+      "english": "A meditative focus that deepens the sacrifice through Tranquility.",
+      "before": "평온으로 희생을 깊게 하는 명상의 집중점입니다.",
+      "after": "평온도으로 희생을 깊게 하는 명상의 집중점입니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.intro.text",
+      "english": "The [#](8B0000)Incense Altar[#]() is a meditative focus - a multiblock apparatus that stills the mind and opens the veins. When you stand within its calming aura and draw your blade, the surrounding [#](4A0080)Tranquility[#]() deepens the sacrifice, multiplying the [#](4A0080)Essentia Vitae[#]() gained from self-offering.",
+      "before": "[#](8B0000)향 제단[#]()은 마음을 가라앉히고 혈관을 여는 다중 블록 명상 장치입니다. 차분한 기운 안에서 칼을 들면 주변의 [#](4A0080)평온[#]()이 희생을 깊게 하여 자기희생으로 얻는 [#](4A0080)Essentia Vitae[#]()를 곱연산으로 늘립니다.",
+      "after": "[#](8B0000)향 제단[#]()은 마음을 가라앉히고 혈관을 여는 다중 블록 명상 장치입니다. 차분한 오라 안에서 칼을 들면 주변의 [#](4A0080)평온도[#]()이 희생을 깊게 하여 자기희생으로 얻는 [#](4A0080)Essentia Vitae[#]()를 곱연산으로 늘립니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.path_distance.text",
+      "english": "Each path material carries its influence only so far: [#](8B0000)Wooden[#]() paths extend three rings, [#](8B0000)Stone[#]() paths five, [#](8B0000)Worn Stone[#]() paths seven, and [#](8B0000)Obsidian[#]() paths nine rings from the center.\\\n\\\nNot every block contributes Tranquility. You require growing things, earth, and even... lava?",
+      "before": "길 재료마다 미치는 거리가 다릅니다. 중심에서 [#](8B0000)나무[#]() 길은 세 고리, [#](8B0000)돌[#]() 길은 다섯, [#](8B0000)마모된 돌[#]() 길은 일곱, [#](8B0000)흑요석[#]() 길은 아홉 고리까지입니다.\\\n\\\n모든 블록이 평온에 기여하지는 않습니다. 자라는 것과 땅, 그리고... 용암도 필요할까요?",
+      "after": "길 재료마다 미치는 거리가 다릅니다. 중심에서 [#](8B0000)나무[#]() 길은 세 고리, [#](8B0000)돌[#]() 길은 다섯, [#](8B0000)마모된 돌[#]() 길은 일곱, [#](8B0000)흑요석[#]() 길은 아홉 고리까지입니다.\\\n\\\n모든 블록이 평온도에 기여하지는 않습니다. 자라는 것과 땅, 그리고... 용암도 필요할까요?"
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.path_rules.text",
+      "english": "Each successive ring of path blocks obeys ancient geometric constraints:\n\n- All path blocks in a single ring must share the same elevation.\n- The next ring may differ by no more than five blocks in height from the previous.\n- Blocks at ring level or up to two blocks above it contribute their [#](4A0080)Tranquility[#]() to the total.",
+      "before": "길 블록의 연속된 고리는 오래된 기하학적 제약을 따릅니다.\n\n- 같은 고리의 길 블록은 높이가 같아야 합니다.\n- 다음 고리와 이전 고리의 높이 차이는 다섯 블록 이하여야 합니다.\n- 고리 높이부터 그 위 두 블록까지의 블록이 [#](4A0080)평온[#]() 총합에 기여합니다.",
+      "after": "길 블록의 연속된 고리는 오래된 기하학적 제약을 따릅니다.\n\n- 같은 고리의 길 블록은 높이가 같아야 합니다.\n- 다음 고리와 이전 고리의 높이 차이는 다섯 블록 이하여야 합니다.\n- 고리 높이부터 그 위 두 블록까지의 블록이 [#](4A0080)평온도[#]() 총합에 기여합니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.paths_intro.text",
+      "english": "To deepen the area's [#](4A0080)Tranquility[#](), you must lay sacred paths radiating outward from the altar in all four cardinal directions. Each path is three blocks wide and constructed from consecrated [#](8B0000)Path blocks[#](), extending from the 3x3 foundation.",
+      "before": "주변의 [#](4A0080)평온[#]()을 깊게 하려면 제단에서 동서남북으로 뻗는 신성한 길을 놓아야 합니다. 각 길은 폭 세 블록이며 3x3 토대에서 성화된 [#](8B0000)길 블록[#]()으로 뻗어 나갑니다.",
+      "after": "주변의 [#](4A0080)평온도[#]()을 깊게 하려면 제단에서 동서남북으로 뻗는 신성한 길을 놓아야 합니다. 각 길은 폭 세 블록이며 3x3 토대에서 성화된 [#](8B0000)길 블록[#]()으로 뻗어 나갑니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.tranquility.text",
+      "english": "The strength of your enhanced sacrifice scales with the area's total [#](4A0080)Tranquility[#](). Hover over the Incense Altar with a [#](8B0000)Divination Sigil[#]() or [#](8B0000)Seer's Sigil[#]() to reveal two readings: the total Tranquility above, and the percentage bonus below.\\\n\\\nWhen you sacrifice, your normal yield is multiplied by (1 + bonus/100).",
+      "before": "강화된 희생의 힘은 주변 [#](4A0080)평온[#]() 총합에 비례합니다. [#](8B0000)점술의 인장[#]()이나 [#](8B0000)예언자의 인장[#]()을 들고 향 제단을 가리키면 위에 총 평온, 아래에 보너스 백분율이 나타납니다.\\\n\\\n희생할 때 평소 산출량에 (1 + 보너스/100)을 곱합니다.",
+      "after": "강화된 희생의 힘은 주변 [#](4A0080)평온도[#]() 총합에 비례합니다. [#](8B0000)점술의 인장[#]()이나 [#](8B0000)예지자의 인장[#]()을 들고 향 제단을 가리키면 위에 총 평온도, 아래에 보너스 백분율이 나타납니다.\\\n\\\n희생할 때 평소 산출량에 (1 + 보너스/100)을 곱합니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.tranquility.title",
+      "english": "The Weight of Tranquility",
+      "before": "평온의 무게",
+      "after": "평온도의 무게"
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.tranquility_blocks.text",
+      "english": "Blocks that resonate with [#](4A0080)Tranquility[#](): Lava, Water (including most waterlogged blocks), Essentia Vitae, Netherrack, Dirt, Farmland, Potatoes, Carrots, Wheat, Nether Wart, Beetroots, Leaves, Logs, Fire, and Grass.\\\n\\\n[#](2E8B57)For advanced setups, cultivate as many different types as possible.[#]()",
+      "before": "[#](4A0080)평온[#]()과 공명하는 블록은 용암, 물(대부분의 물에 잠긴 블록 포함), Essentia Vitae, 네더랙, 흙, 경작지, 감자, 당근, 밀, 네더 사마귀, 비트, 잎, 원목, 불, 잔디입니다.\\\n\\\n[#](2E8B57)고급 구성에서는 가능한 한 다양한 종류를 기르세요.[#]()",
+      "after": "[#](4A0080)평온도[#]()과 공명하는 블록은 용암, 물(대부분의 물에 잠긴 블록 포함), Essentia Vitae, 네더랙, 흙, 경작지, 감자, 당근, 밀, 네더 사마귀, 비트, 잎, 원목, 불, 잔디입니다.\\\n\\\n[#](2E8B57)고급 구성에서는 가능한 한 다양한 종류를 기르세요.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.tranquility_types.text",
+      "english": "Seven categories of [#](4A0080)Tranquility[#]() exist: [#](2E8B57)Plants, Crops, Trees, Earthen, Water, Fire, and Lava[#]().\\\n\\\nThe altar surveys all blocks within its range, tallies each type, then takes the square root of each category's total and sums them. Diversity, not mere volume, is the key to great Tranquility.",
+      "before": "[#](4A0080)평온[#]()에는 [#](2E8B57)식물, 작물, 나무, 대지, 물, 불, 용암[#]()의 일곱 분류가 있습니다.\\\n\\\n제단은 범위 안의 모든 블록을 조사해 분류별로 세고, 각 총합의 제곱근을 구해 더합니다. 큰 평온의 핵심은 단순한 양보다 다양성입니다.",
+      "after": "[#](4A0080)평온도[#]()에는 [#](2E8B57)식물, 작물, 나무, 대지, 물, 불, 용암[#]()의 일곱 분류가 있습니다.\\\n\\\n제단은 범위 안의 모든 블록을 조사해 분류별로 세고, 각 총합의 제곱근을 구해 더합니다. 큰 평온도의 핵심은 단순한 양보다 다양성입니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.incense_altar.tranquility_types.title",
+      "english": "Sources of Tranquility",
+      "before": "평온의 원천",
+      "after": "평온도의 원천"
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.enhanced_focus.text",
+      "english": "The [#](8B0000)Enhanced Teleposition Focus[#](), also forged in the Ara Vitae, widens the exchange to a 3x3x3 volume centered above the Teleposer. Entire small structures can be relocated in a single pulse.",
+      "before": "Ara Vitae에서 만드는 [#](8B0000)향상된 위치 전환 초점[#]()은 위치 전환기 위를 중심으로 교환 영역을 3x3x3으로 넓힙니다. 작은 구조물 전체를 한 번의 펄스로 옮길 수 있습니다.",
+      "after": "Ara Vitae에서 만드는 [#](8B0000)향상된 위치 전환 초점[#]()은 Teleposer 위를 중심으로 교환 영역을 3x3x3으로 넓힙니다. 작은 구조물 전체를 한 번의 펄스로 옮길 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.focus.text",
+      "english": "The basic [#](8B0000)Teleposition Focus[#]() is crafted in the Ara Vitae. It commands a modest 1x1x1 exchange zone directly above each Teleposer - enough to transport a single entity or block with precision.",
+      "before": "기본 [#](8B0000)위치 전환 초점[#]()은 Ara Vitae에서 만듭니다. 각 위치 전환기 바로 위 1x1x1 영역을 교환하여 개체나 블록 하나를 정확히 옮깁니다.",
+      "after": "기본 [#](8B0000)위치 전환 초점[#]()은 Ara Vitae에서 만듭니다. 각 Teleposer 바로 위 1x1x1 영역을 교환하여 개체나 블록 하나를 정확히 옮깁니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.intro.text",
+      "english": "[#](8B0000)Teleposers[#]() bend space through the power of blood, swapping everything above two linked points - blocks, items, entities, even you - in the blink of an eye.\\\n\\\nCraft a [#](8B0000)Teleposition Focus[#](), bind it to a target Teleposer, place it in a second, and apply a redstone signal. The exchange is instantaneous.",
+      "before": "[#](8B0000)위치 전환기[#]()는 혈액의 힘으로 공간을 굽혀 연결된 두 지점 위의 블록, 아이템, 개체, 플레이어까지 눈 깜짝할 사이에 맞바꿉니다.\\\n\\\n[#](8B0000)위치 전환 초점[#]()을 만들어 목표 위치 전환기에 귀속한 뒤 다른 위치 전환기에 넣고 레드스톤 신호를 주세요. 즉시 교환됩니다.",
+      "after": "[#](8B0000)Teleposer[#]()는 혈액의 힘으로 공간을 굽혀 연결된 두 지점 위의 블록, 아이템, 개체, 플레이어까지 눈 깜짝할 사이에 맞바꿉니다.\\\n\\\n[#](8B0000)위치 전환 초점[#]()을 만들어 목표 Teleposer에 귀속한 뒤 다른 Teleposer에 넣고 레드스톤 신호를 주세요. 즉시 교환됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.intro.title",
+      "english": "The Teleposer",
+      "before": "위치 전환기",
+      "after": "Teleposer"
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.linking.text",
+      "english": "Teleposers may be linked in many configurations: one-way (the receiving end stays inert), two-way (a Focus in each, swapping on either signal), or chained in sequence - A to B to C and back to A.\\\n\\\nFrom vertical elevators threading your tower to labyrinthine transit networks beneath the earth, the possibilities are boundless. Be creative, apprentice.",
+      "before": "위치 전환기는 단방향(수신부는 비활성), 양방향(양쪽에 초점을 넣어 어느 쪽 신호로든 교환), 또는 A에서 B, C를 거쳐 A로 돌아오는 연쇄 등으로 연결할 수 있습니다.\\\n\\\n탑의 수직 승강기부터 지하의 미로 같은 교통망까지 가능성은 무한합니다. 견습생이여, 창의력을 발휘하세요.",
+      "after": "Teleposer는 단방향(수신부는 비활성), 양방향(양쪽에 초점을 넣어 어느 쪽 신호로든 교환), 또는 A에서 B, C를 거쳐 A로 돌아오는 연쇄 등으로 연결할 수 있습니다.\\\n\\\n탑의 수직 승강기부터 지하의 미로 같은 교통망까지 가능성은 무한합니다. 견습생이여, 창의력을 발휘하세요."
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.name",
+      "english": "Teleposers",
+      "before": "위치 전환기",
+      "after": "Teleposer"
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.redstone.text",
+      "english": "[#](2E8B57)The Teleposer requires strong redstone power to activate. A redstone block placed adjacent will not suffice - you need redstone dust or a repeater pointing into its side, or a lever or button placed directly upon it.[#]()\\\n\\\n[#](4A0080)Essentia Vitae[#]() is not free, and the Teleposer is deliberately designed to minimize accidental misfires. Precision in all things.",
+      "before": "[#](2E8B57)위치 전환기는 활성화하려면 강한 레드스톤 전력이 필요합니다. 옆에 레드스톤 블록을 놓는 것만으로는 안 됩니다. 옆면을 향한 레드스톤 가루나 중계기, 또는 직접 붙인 레버나 버튼이 필요합니다.[#]()\\\n\\\n[#](4A0080)Essentia Vitae[#]()는 공짜가 아니므로 우발적 오작동을 줄이도록 설계했습니다. 모든 일에 정밀함이 필요합니다.",
+      "after": "[#](2E8B57)Teleposer는 활성화하려면 강한 레드스톤 전력이 필요합니다. 옆에 레드스톤 블록을 놓는 것만으로는 안 됩니다. 옆면을 향한 레드스톤 가루나 중계기, 또는 직접 붙인 레버나 버튼이 필요합니다.[#]()\\\n\\\n[#](4A0080)Essentia Vitae[#]()는 공짜가 아니므로 우발적 오작동을 줄이도록 설계했습니다. 모든 일에 정밀함이 필요합니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.spawners.text",
+      "english": "[#](8B0000)Mob spawners and trial spawners[#]() count as ordinary blocks to the Teleposer; their settings, current state, and any chained behavior ride along with them. Build your perfect chamber elsewhere, then transpose the spawner into it.\\\n\\\nBedrock, end portals, command blocks, and similar [#](4A0080)protected blocks[#]() are rejected by the exchange. The full list is governed by the [#](2E8B57)#neovitae:telepose_blacklist[#]() block tag - pack authors can extend or shorten it to taste.",
+      "before": "[#](8B0000)몹 생성기와 시련 생성기[#]()는 위치 전환기에서 일반 블록으로 취급하며 설정, 현재 상태, 연결된 동작까지 함께 옮깁니다. 다른 곳에 완벽한 방을 지은 뒤 생성기를 옮겨 놓으세요.\\\n\\\n기반암, 엔드 차원문, 명령 블록 등 [#](4A0080)보호된 블록[#]()은 교환을 거부합니다. 전체 목록은 [#](2E8B57)#neovitae:telepose_blacklist[#]() 블록 태그로 관리하며 팩 제작자가 원하는 대로 늘리거나 줄일 수 있습니다.",
+      "after": "[#](8B0000)몹 생성기와 시련 생성기[#]()는 Teleposer에서 일반 블록으로 취급하며 설정, 현재 상태, 연결된 동작까지 함께 옮깁니다. 다른 곳에 완벽한 방을 지은 뒤 생성기를 옮겨 놓으세요.\\\n\\\n기반암, 엔드 차원문, 명령 블록 등 [#](4A0080)보호된 블록[#]()은 교환을 거부합니다. 전체 목록은 [#](2E8B57)#neovitae:telepose_blacklist[#]() 블록 태그로 관리하며 팩 제작자가 원하는 대로 늘리거나 줄일 수 있습니다."
+    },
+    {
+      "key": "tooltip.neovitae.spiritus.raw",
+      "english": "Raw",
+      "before": "원시",
+      "after": "미가공"
+    },
+    {
+      "key": "book.neovitae.guide.alchemy_arrays.spirit_siphon_array.details.text",
+      "english": "Requires an [#](8B0000)Tabula Animata[#]() to inscribe, reflecting the deeper understanding of spiritual energy needed to harness it.\\\n\\\nEach activation releases 0.5 units of raw (default) spiritus into the chunk. Players are immune to its effects.\\\n\\\n[#](4A0080)Every creature carries a spark of will. This array simply... liberates it.[#]()",
+      "before": "새기려면 [#](8B0000)Tabula Animata[#]()가 필요합니다. 이를 다루는 데 영적 에너지를 더 깊이 이해해야 하기 때문입니다.\\\n\\\n작동할 때마다 청크에 원시(기본) Spiritus 0.5단위를 방출합니다. 플레이어는 이 효과에 면역입니다.\\\n\\\n[#](4A0080)모든 생물은 의지의 불꽃을 품고 있습니다. 이 연금술진은 그저... 해방할 뿐입니다.[#]()",
+      "after": "새기려면 [#](8B0000)Tabula Animata[#]()가 필요합니다. 이를 다루는 데 영적 에너지를 더 깊이 이해해야 하기 때문입니다.\\\n\\\n작동할 때마다 청크에 미가공(기본) Spiritus 0.5단위를 방출합니다. 플레이어는 이 효과에 면역입니다.\\\n\\\n[#](4A0080)모든 생물은 의지의 불꽃을 품고 있습니다. 이 연금술진은 그저... 해방할 뿐입니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.alchemy_arrays.spirit_siphon_array.intro.text",
+      "english": "This array combines the cruelty of the Spike Array with a deeper purpose. When a non-player creature steps onto it, the array inflicts a full heart of damage and extracts a fragment of raw [#](8B0000)Spiritus[#]() from the act of suffering, releasing it into the surrounding chunk.\\\n\\\nThe array has a brief cooldown between activations to prevent overwhelming the local aura with too much spiritus at once.",
+      "before": "이 연금술진은 가시 연금술진의 잔혹함에 더 깊은 목적을 더합니다. 플레이어가 아닌 생물이 밟으면 하트 하나의 피해를 주고, 그 고통에서 원시 [#](8B0000)Spiritus[#]() 조각을 추출해 주변 청크에 방출합니다.\\\n\\\n한 번에 너무 많은 Spiritus가 지역의 오라을 압도하지 않도록 작동 사이에 짧은 재사용 대기시간이 있습니다.",
+      "after": "이 연금술진은 가시 연금술진의 잔혹함에 더 깊은 목적을 더합니다. 플레이어가 아닌 생물이 밟으면 하트 하나의 피해를 주고, 그 고통에서 미가공 [#](8B0000)Spiritus[#]() 조각을 추출해 주변 청크에 방출합니다.\\\n\\\n한 번에 너무 많은 Spiritus가 지역의 오라를 압도하지 않도록 작동 사이에 짧은 재사용 대기시간이 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.alchemy_arrays.vortex_sigil.immunities.text",
+      "english": "Several beings are beyond the sigil's grasp:\\\n\\\n- [#](2E8B57)Players in Creative or Spectator mode[#]() pass through unaffected, as expected.\\\n- [#](2E8B57)Any practitioner holding an Orb of Vitae[#]() - of any tier, in either main hand or off-hand - is recognized by the array and ignored. The orb's aura disrupts the drawing current. Useful for working near your own vortex without being yanked into it.\\\n- A [#](2E8B57)redstone signal[#]() applied to the sigil silences it entirely; nothing within the radius is pulled while the signal is active.",
+      "before": "몇몇 존재는 인장의 힘에 영향을 받지 않습니다.\\\n\\\n- [#](2E8B57)크리에이티브나 관전자 모드의 플레이어[#]()는 예상대로 아무 영향 없이 지나갑니다.\\\n- 등급과 관계없이 주 손이나 보조 손에 [#](2E8B57)Vitae 구슬을 든 시전자[#]()는 연금술진이 알아보고 무시합니다. 구슬의 오라이 끌어당기는 흐름을 방해합니다. 자신의 소용돌이 근처에서 끌려가지 않고 작업할 때 유용합니다.\\\n- 인장에 [#](2E8B57)레드스톤 신호[#]()를 주면 완전히 멈춥니다. 신호가 켜져 있는 동안은 반경 안의 무엇도 끌어당기지 않습니다.",
+      "after": "몇몇 존재는 인장의 힘에 영향을 받지 않습니다.\\\n\\\n- [#](2E8B57)크리에이티브나 관전자 모드의 플레이어[#]()는 예상대로 아무 영향 없이 지나갑니다.\\\n- 등급과 관계없이 주 손이나 보조 손에 [#](2E8B57)Vitae 구슬을 든 시전자[#]()는 연금술진이 알아보고 무시합니다. 구슬의 오라가 끌어당기는 흐름을 방해합니다. 자신의 소용돌이 근처에서 끌려가지 않고 작업할 때 유용합니다.\\\n- 인장에 [#](2E8B57)레드스톤 신호[#]()를 주면 완전히 멈춥니다. 신호가 켜져 있는 동안은 반경 안의 무엇도 끌어당기지 않습니다."
+    },
+    {
+      "key": "book.neovitae.guide.dungeons.dungeon_eye.recipe.text",
+      "english": "Set into the walls of the [#](4A0080)Endless Realm[#](), the [#](8B0000)Dungeon Eye[#]() emits a pale, unwavering light. Whether these serve as sentinels or mere decoration is unclear; what is certain is that they illuminate the darkness with no fuel or flame.\\\n\\\nVariants exist tinted by [#](4A0080)Raw[#](), [#](4A0080)Ruina[#](), [#](4A0080)Nihilum[#](), [#](4A0080)Invictus[#](), and [#](4A0080)Vindicta[#]() Spiritus. Consult JEI for crafting recipes.",
+      "before": "[#](4A0080)끝없는 영역[#]()의 벽에 박힌 [#](8B0000)던전의 눈[#]()은 창백하고 흔들림 없는 빛을 냅니다. 감시자인지 단순한 장식인지는 알 수 없지만, 연료나 불꽃 없이 어둠을 밝힌다는 점은 분명합니다.\\\n\\\n[#](4A0080)원시[#](), [#](4A0080)Ruina[#](), [#](4A0080)Nihilum[#](), [#](4A0080)Invictus[#](), [#](4A0080)Vindicta[#]() Spiritus로 물든 변형이 있습니다. 제작 조합법은 JEI에서 확인하세요.",
+      "after": "[#](4A0080)끝없는 영역[#]()의 벽에 박힌 [#](8B0000)던전의 눈[#]()은 창백하고 흔들림 없는 빛을 냅니다. 감시자인지 단순한 장식인지는 알 수 없지만, 연료나 불꽃 없이 어둠을 밝힌다는 점은 분명합니다.\\\n\\\n[#](4A0080)미가공[#](), [#](4A0080)Ruina[#](), [#](4A0080)Nihilum[#](), [#](4A0080)Invictus[#](), [#](4A0080)Vindicta[#]() Spiritus로 물든 변형이 있습니다. 제작 조합법은 JEI에서 확인하세요."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_crystallum_fractura.description",
+      "english": "Harvests mature crystal clusters and weaves a growth aura around them.",
+      "before": "성숙한 수정 군집을 수확하고 주위에 성장의 오라을 펼칩니다.",
+      "after": "성숙한 수정 군집을 수확하고 주위에 성장의 오라를 펼칩니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_crystallum_fractura.fortune.text",
+      "english": "Harvested clusters drop with [#](8B0000)scaling Fortune[#]() based on the chunk's local Raw Spiritus density:\n\n- below [#](B8860B)30 Raw[#](): no Fortune\n- [#](B8860B)30-100 Raw[#](): linearly scales from Fortune I to Fortune III\n- at or above [#](B8860B)100 Raw[#](): Fortune III\n\nWhen Fortune is active, the ritual probabilistically consumes [#](8B0000)Raw Spiritus[#]() at an average rate of one per twelve seconds; keep the chunk fed.",
+      "before": "수확한 군집에는 청크의 가공되지 않은 Spiritus 밀도에 따라 [#](8B0000)행운이 비례 적용[#]()됩니다.\n\n- [#](B8860B)원시 30[#]() 미만: 행운 없음\n- [#](B8860B)원시 30-100[#](): 행운 I부터 행운 III까지 선형 증가\n- [#](B8860B)원시 100[#]() 이상: 행운 III\n\n행운이 적용되면 의식이 확률적으로 [#](8B0000)가공되지 않은 Spiritus[#]()를 평균 열두 초에 하나씩 소모합니다. 청크에 계속 공급하세요.",
+      "after": "수확한 군집에는 청크의 가공되지 않은 Spiritus 밀도에 따라 [#](8B0000)행운이 비례 적용[#]()됩니다.\n\n- [#](B8860B)미가공 30[#]() 미만: 행운 없음\n- [#](B8860B)미가공 30-100[#](): 행운 I부터 행운 III까지 선형 증가\n- [#](B8860B)미가공 100[#]() 이상: 행운 III\n\n행운이 적용되면 의식이 확률적으로 [#](8B0000)가공되지 않은 Spiritus[#]()를 평균 열두 초에 하나씩 소모합니다. 청크에 계속 공급하세요."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_placer.aura.text",
+      "english": "Left to itself the Mason sets one block a pulse across a domain of 5,000. [#](8B0000)Raw Spiritus[#]() in the chunk quickens it and widens what you may mark out:\n\n- [#](B8860B)20 raw[#](): four blocks a pulse, 20,000 of room\n- [#](B8860B)50 raw[#](): eight blocks a pulse, 80,000 of room\n\nThe aura is spent as it works, so the circle settles at whatever pace your supply sustains; it never stalls, only slows. Should the aura fade you keep the domain you marked, but you cannot widen it again until the Spiritus returns.",
+      "before": "기본적으로 석공은 5,000 크기의 영역에 펄스당 블록 하나를 놓습니다. 청크의 [#](8B0000)가공되지 않은 Spiritus[#]()는 작업을 빠르게 하고 지정 가능한 영역을 넓힙니다.\n\n- [#](B8860B)원시 20[#](): 펄스당 네 블록, 영역 20,000\n- [#](B8860B)원시 50[#](): 펄스당 여덟 블록, 영역 80,000\n\n작업하며 오라을 소모하므로 공급량에 맞는 속도로 안정됩니다. 멈추지는 않고 느려질 뿐입니다. 오라이 사라져도 지정한 영역은 유지되지만 Spiritus가 돌아오기 전까지 더 넓힐 수 없습니다.",
+      "after": "기본적으로 석공은 5,000 크기의 영역에 펄스당 블록 하나를 놓습니다. 청크의 [#](8B0000)가공되지 않은 Spiritus[#]()는 작업을 빠르게 하고 지정 가능한 영역을 넓힙니다.\n\n- [#](B8860B)미가공 20[#](): 펄스당 네 블록, 영역 20,000\n- [#](B8860B)미가공 50[#](): 펄스당 여덟 블록, 영역 80,000\n\n작업하며 오라를 소모하므로 공급량에 맞는 속도로 안정됩니다. 멈추지는 않고 느려질 뿐입니다. 오라가 사라져도 지정한 영역은 유지되지만 Spiritus가 돌아오기 전까지 더 넓힐 수 없습니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_water.tank_fill.text",
+      "english": "While any [#](8B0000)Raw Spiritus[#]() aura is present in the chunk, the ritual also fills any [#](8B0000)fluid tank[#]() placed directly above the Master Ritual Stone with water, [#](8B0000)1,000 mB per refresh[#](). A small expansion that turns the spring from a decoration into a quiet supply line for alchemy, brewing, or anything else that drinks water.",
+      "before": "청크에 [#](8B0000)가공되지 않은 Spiritus[#]() 오라이 조금이라도 있으면 중심 의식석 바로 위에 놓인 [#](8B0000)유체 탱크[#]()에도 [#](8B0000)갱신당 1,000mB[#]()의 물을 채웁니다. 이 작은 확장으로 장식용 샘이 연금술, 양조 등 물을 쓰는 모든 작업에 조용히 공급하는 설비가 됩니다.",
+      "after": "청크에 [#](8B0000)가공되지 않은 Spiritus[#]() 오라가 조금이라도 있으면 중심 의식석 바로 위에 놓인 [#](8B0000)유체 탱크[#]()에도 [#](8B0000)갱신당 1,000mB[#]()의 물을 채웁니다. 이 작은 확장으로 장식용 샘이 연금술, 양조 등 물을 쓰는 모든 작업에 조용히 공급하는 설비가 됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.rituals.ritual_yawning_void.spiritus_effects.text",
+      "english": "- [#](8B0000)Raw Spiritus[#](): Accelerates the refresh rate. With enough raw aura in the chunk, the ritual approaches one block per game tick.\\\n\\\n- [#](8B0000)Spiritus Invictus[#](): Rather than erasing the block, [#](8B0000)moves it[#]() to the first empty slot of a 3x3x3 placement volume directly above the master stone. Useful for sorting blocks out of a layer without destroying them. If the placement volume is full the ritual idles until you clear it.\\\n\\\n- [#](8B0000)Spiritus Ruina[#](): Reads items in a chest directly above the master stone as a [#](8B0000)whitelist[#](). Only blocks whose own item form matches one of those items are consumed; everything else is left intact. An empty chest disables the ritual entirely in this mode.",
+      "before": "- [#](8B0000)가공되지 않은 Spiritus[#](): 갱신 속도를 높입니다. 청크에 미가공 오라이 충분하면 게임 틱마다 한 블록에 가까워집니다.\\\n\\\n- [#](8B0000)Spiritus Invictus[#](): 블록을 지우는 대신 중심 의식석 바로 위 3x3x3 배치 영역의 첫 빈칸으로 [#](8B0000)옮깁니다[#](). 지층의 블록을 파괴하지 않고 분리할 때 유용합니다. 배치 영역이 가득 차면 비울 때까지 기다립니다.\\\n\\\n- [#](8B0000)Spiritus Ruina[#](): 중심 의식석 바로 위 상자 안의 아이템을 [#](8B0000)허용 목록[#]()으로 읽습니다. 아이템 형태가 목록과 일치하는 블록만 없애고 나머지는 보존합니다. 이 모드에서 상자가 비면 의식이 완전히 멈춥니다.",
+      "after": "- [#](8B0000)가공되지 않은 Spiritus[#](): 갱신 속도를 높입니다. 청크에 미가공 오라가 충분하면 게임 틱마다 한 블록에 가까워집니다.\\\n\\\n- [#](8B0000)Spiritus Invictus[#](): 블록을 지우는 대신 중심 의식석 바로 위 3x3x3 배치 영역의 첫 빈칸으로 [#](8B0000)옮깁니다[#](). 지층의 블록을 파괴하지 않고 분리할 때 유용합니다. 배치 영역이 가득 차면 비울 때까지 기다립니다.\\\n\\\n- [#](8B0000)Spiritus Ruina[#](): 중심 의식석 바로 위 상자 안의 아이템을 [#](8B0000)허용 목록[#]()으로 읽습니다. 아이템 형태가 목록과 일치하는 블록만 없애고 나머지는 보존합니다. 이 모드에서 상자가 비면 의식이 완전히 멈춥니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aspected_spiritus.filling_gems.text",
+      "english": "To fill a [#](8B0000)Spiritus Gem[#]() with a specific Aspect, feed a [#](8B0000)Vas Maleficum[#]() Spiritus Crystals of that Aspect until the chunk's Aura runs thick with it. Then set the empty gem in that same Vas and [#](2E8B57)apply a redstone signal[#](); the vessel reverses its flow, and the gem drinks deeply from the Aura.\\\n\\\n[#](2E8B57)Right-click while holding a Sentient Tool to recalibrate it to the dominant Aspect in your inventory.[#]()",
+      "before": "[#](8B0000)Spiritus 보석[#]()을 특정 속성으로 채우려면 [#](8B0000)Vas Maleficum[#]()에 해당 속성 수정을 공급하여 청크의 오라을 짙게 만드세요. 그 안에 빈 보석을 놓고 [#](2E8B57)레드스톤 신호를 주면[#]() 흐름이 뒤집혀 보석이 오라을 흡수합니다.\\\n\\\n[#](2E8B57)지각 있는 도구를 들고 우클릭하면 인벤토리의 우세한 속성에 다시 조율합니다.[#]()",
+      "after": "[#](8B0000)Spiritus 보석[#]()을 특정 속성으로 채우려면 [#](8B0000)Vas Maleficum[#]()에 해당 속성 수정을 공급하여 청크의 오라를 짙게 만드세요. 그 안에 빈 보석을 놓고 [#](2E8B57)레드스톤 신호를 주면[#]() 흐름이 뒤집혀 보석이 오라를 흡수합니다.\\\n\\\n[#](2E8B57)지각 있는 도구를 들고 우클릭하면 인벤토리의 우세한 속성에 다시 조율합니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aspected_spiritus.filling_gems_purity.text",
+      "english": "A gem holds but one Aspect at a time, and an empty one seizes upon whichever the Aura offers first. Where several mingle, they are taken in a fixed precedence: [#](8B0000)Raw[#]() before all others, then Ruina, Nihilum, Invictus, and Vindicta last.\\\n\\\n[#](2E8B57)Dedicate a separate chunk to each Aspect you mean to bottle. The faintest trace of Raw will claim the vessel before any other Aspect is so much as considered.[#]()",
+      "before": "보석에는 한 번에 한 속성만 담기며 빈 보석은 오라이 처음 제공한 것을 받아들입니다. 여러 속성이 섞여 있으면 [#](8B0000)원시[#]()가 가장 먼저, 그다음 Ruina, Nihilum, Invictus, 마지막 Vindicta 순입니다.\\\n\\\n[#](2E8B57)담으려는 속성마다 별도 청크를 쓰세요. 원시가 아주 조금만 남아도 다른 속성을 고려하기 전에 보석을 차지합니다.[#]()",
+      "after": "보석에는 한 번에 한 속성만 담기며 빈 보석은 오라가 처음 제공한 것을 받아들입니다. 여러 속성이 섞여 있으면 [#](8B0000)미가공[#]()가 가장 먼저, 그다음 Ruina, Nihilum, Invictus, 마지막 Vindicta 순입니다.\\\n\\\n[#](2E8B57)담으려는 속성마다 별도 청크를 쓰세요. 미가공가 아주 조금만 남아도 다른 속성을 고려하기 전에 보석을 차지합니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aspected_spiritus.intro.text",
+      "english": "Unleashing [#](8B0000)Spiritus[#]() into the atmosphere has proven most fruitful, empowering [#](8B0000)Rituals[#]() and producing [#](8B0000)Crystal Clusters[#]() of satisfying geometry. Yet these raw crystals feel somehow... [#](4A0080)conflicted[#](), as though warring natures strain against one another within.\\\n\\\nA focused mote of pure animus, paired with the right [#](8B0000)Spiritus Catalyst[#](), can coax these hidden facets into purer forms.",
+      "before": "대기에 [#](8B0000)Spiritus[#]()를 풀어놓으면 [#](8B0000)의식[#]()을 강화하고 보기 좋은 기하학적 [#](8B0000)수정 군집[#]()을 만드는 등 큰 성과를 얻습니다. 하지만 원시 수정 안에서는 서로 다른 성질이 싸우듯 어딘가 [#](4A0080)충돌하는[#]() 느낌이 듭니다.\\\n\\\n집중된 순수 Animus 티끌과 알맞은 [#](8B0000)Spiritus 촉매[#]()를 함께 쓰면 숨은 면을 더 순수한 형태로 이끌어낼 수 있습니다.",
+      "after": "대기에 [#](8B0000)Spiritus[#]()를 풀어놓으면 [#](8B0000)의식[#]()을 강화하고 보기 좋은 기하학적 [#](8B0000)수정 군집[#]()을 만드는 등 큰 성과를 얻습니다. 하지만 미가공 수정 안에서는 서로 다른 성질이 싸우듯 어딘가 [#](4A0080)충돌하는[#]() 느낌이 듭니다.\\\n\\\n집중된 순수 Animus 티끌과 알맞은 [#](8B0000)Spiritus 촉매[#]()를 함께 쓰면 숨은 면을 더 순수한 형태로 이끌어낼 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aspected_spiritus.notes.text",
+      "english": "Your [#](8B0000)Sentient Tools[#]() attune to whichever Aspect you carry in greatest quantity. Ten Spiritus Ruina in one [#](8B0000)Spiritus Gem[#]() and a thousand Raw in another means the blade remains Raw.\\\n\\\n[#](2E8B57)The Hellfire Forge accepts any Aspect of Spiritus for crafting, so there is no need to juggle multiple gems between stations.[#]()",
+      "before": "[#](8B0000)지각 있는 도구[#]()는 가장 많이 지닌 속성에 조율됩니다. [#](8B0000)Spiritus 보석[#]() 하나에 Ruina가 열, 다른 보석에 원시가 천 있다면 검은 원시로 유지됩니다.\\\n\\\n[#](2E8B57)지옥불 대장간은 어떤 속성의 Spiritus든 제작에 쓸 수 있으므로 작업장마다 여러 보석을 바꿔 끼울 필요가 없습니다.[#]()",
+      "after": "[#](8B0000)지각 있는 도구[#]()는 가장 많이 지닌 속성에 조율됩니다. [#](8B0000)Spiritus 보석[#]() 하나에 Ruina가 열, 다른 보석에 미가공가 천 있다면 검은 미가공로 유지됩니다.\\\n\\\n[#](2E8B57)지옥불 대장간은 어떤 속성의 Spiritus든 제작에 쓸 수 있으므로 작업장마다 여러 보석을 바꿔 끼울 필요가 없습니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aspected_spiritus.sentient_aspects.text",
+      "english": "Each Aspect also transforms the behavior of your [#](8B0000)Sentient Tools[#]():\n\n- [#](8B0000)Raw Spiritus[#](): Pure damage increase.\n\n- [#](8B0000)Spiritus Ruina[#](): Strikes may inflict poison or wither. Otherwise identical to Raw.\n\n- [#](8B0000)Spiritus Vindicta[#](): Moderate damage increase, heightened attack speed, and a movement speed boon that intensifies with greater Spiritus reserves.",
+      "before": "각 속성은 [#](8B0000)지각 있는 도구[#]()의 동작도 바꿉니다.\n\n- [#](8B0000)가공되지 않은 Spiritus[#](): 순수한 피해량 증가.\n\n- [#](8B0000)Spiritus Ruina[#](): 공격 시 독이나 시듦을 부여할 수 있습니다. 그 외에는 원시와 같습니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 적당한 피해량 증가, 공격 속도 증가, Spiritus 저장량이 많을수록 강해지는 이동 속도 보너스.",
+      "after": "각 속성은 [#](8B0000)지각 있는 도구[#]()의 동작도 바꿉니다.\n\n- [#](8B0000)가공되지 않은 Spiritus[#](): 순수한 피해량 증가.\n\n- [#](8B0000)Spiritus Ruina[#](): 공격 시 독이나 시듦을 부여할 수 있습니다. 그 외에는 미가공와 같습니다.\n\n- [#](8B0000)Spiritus Vindicta[#](): 적당한 피해량 증가, 공격 속도 증가, Spiritus 저장량이 많을수록 강해지는 이동 속도 보너스."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.chunk_based.text",
+      "english": "[#](2E8B57)The Aura is chunk-based.[#]() Spiritus burned in one chunk fills only that chunk, up to a cap of [#](B8860B)100[#]() for each Aspect. Measure the local concentration with a [#](8B0000)Spiritus Aura Gauge[#]().\\\n\\\nTo move Spiritus across distances, place a [#](8B0000)Spira Infernalis[#](). It draws Spiritus toward itself from 16 blocks away in each cardinal direction, and multiple pylons can be chained for long-distance transfer.",
+      "before": "[#](2E8B57)오라은 청크 단위입니다.[#]() 한 청크에서 태운 Spiritus는 그 청크만 채우며 속성마다 최대 [#](B8860B)100[#]()까지입니다. [#](8B0000)Spiritus 오라 측정기[#]()로 현지 농도를 재세요.\\\n\\\n멀리 옮기려면 [#](8B0000)Spira Infernalis[#]()를 놓으세요. 동서남북으로 16블록 떨어진 곳에서 자신에게 Spiritus를 끌어옵니다. 여러 기둥을 연결하면 장거리 전송이 됩니다.",
+      "after": "[#](2E8B57)오라는 청크 단위입니다.[#]() 한 청크에서 태운 Spiritus는 그 청크만 채우며 속성마다 최대 [#](B8860B)100[#]()까지입니다. [#](8B0000)Spiritus 오라 측정기[#]()로 현지 농도를 재세요.\\\n\\\n멀리 옮기려면 [#](8B0000)Spira Infernalis[#]()를 놓으세요. 동서남북으로 16블록 떨어진 곳에서 자신에게 Spiritus를 끌어옵니다. 여러 기둥을 연결하면 장거리 전송이 됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.crucible.text",
+      "english": "Feed it a charged [#](8B0000)Spiritus Gem[#](), loose [#](8B0000)Spiritus[#](), or [#](8B0000)Spiritus Crystals[#]() of any Aspect. Crystals are consumed once the chunk's Spiritus dips below 50; Spiritus in item form or from a gem is consumed gradually as needed.\\\n\\\n[#](2E8B57)Apply a redstone signal[#]() and the Vas reverses: a Spiritus Gem placed inside is now [#](2E8B57)filled[#]() from the chunk's Aura instead of drained. The same vessel serves as both deposit and withdrawal point.",
+      "before": "충전된 [#](8B0000)Spiritus 보석[#](), 낱개의 [#](8B0000)Spiritus[#](), 어떤 속성의 [#](8B0000)Spiritus 수정[#]()이든 공급하세요. 청크의 Spiritus가 50 미만으로 내려가면 수정을 소모합니다. 아이템이나 보석의 Spiritus는 필요에 따라 조금씩 소모합니다.\\\n\\\n[#](2E8B57)레드스톤 신호를 주면[#]() Vas의 흐름이 뒤집힙니다. 안에 놓인 Spiritus 보석이 비워지는 대신 청크의 오라으로 [#](2E8B57)채워집니다[#](). 같은 용기로 넣기와 꺼내기를 모두 할 수 있습니다.",
+      "after": "충전된 [#](8B0000)Spiritus 보석[#](), 낱개의 [#](8B0000)Spiritus[#](), 어떤 속성의 [#](8B0000)Spiritus 수정[#]()이든 공급하세요. 청크의 Spiritus가 50 미만으로 내려가면 수정을 소모합니다. 아이템이나 보석의 Spiritus는 필요에 따라 조금씩 소모합니다.\\\n\\\n[#](2E8B57)레드스톤 신호를 주면[#]() Vas의 흐름이 뒤집힙니다. 안에 놓인 Spiritus 보석이 비워지는 대신 청크의 오라로 [#](2E8B57)채워집니다[#](). 같은 용기로 넣기와 꺼내기를 모두 할 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.intro.text",
+      "english": "[#](4A0080)Demonic Spiritus[#]() coalesces naturally around certain creatures, but it can also exist in a diffused state throughout the very air. By burning Spiritus in a [#](8B0000)Vas Maleficum[#](), you release it into the [#](4A0080)Aura[#](), an invisible miasma that permeates each chunk of the world, ripe for exploitation.",
+      "before": "[#](4A0080)악마의 Spiritus[#]()는 일부 생물 주변에 자연스럽게 모이지만 공기 전체에 퍼진 상태로도 존재합니다. [#](8B0000)Vas Maleficum[#]()에서 태우면 각 청크에 스며드는 보이지 않는 기체인 [#](4A0080)오라[#]()으로 방출되어 활용할 수 있습니다.",
+      "after": "[#](4A0080)악마의 Spiritus[#]()는 일부 생물 주변에 자연스럽게 모이지만 공기 전체에 퍼진 상태로도 존재합니다. [#](8B0000)Vas Maleficum[#]()에서 태우면 각 청크에 스며드는 보이지 않는 기체인 [#](4A0080)오라[#]()로 방출되어 활용할 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.pylon.text",
+      "english": "The pylon probes a position [#](B8860B)16 blocks away[#]() in each of the four cardinal directions (no diagonals, no vertical). If a probed position holds more Spiritus than the pylon's own chunk does, the pylon pulls a small fraction of the difference per tick. The flow equilibrates rather than draining the source dry, so place pylons in a [#](2E8B57)chain[#]() from a saturated chunk toward your worksite to ferry Aura over long distances.",
+      "before": "기둥은 동서남북 각각 [#](B8860B)16블록 떨어진[#]() 위치를 탐색합니다(대각선과 수직 제외). 그 위치의 Spiritus가 자기 청크보다 많으면 차이의 일부를 매 틱 끌어옵니다. 원본을 고갈시키기보다 평형을 이루므로, 포화된 청크에서 작업장까지 기둥을 [#](2E8B57)연결[#]()하면 오라을 멀리 옮길 수 있습니다.",
+      "after": "기둥은 동서남북 각각 [#](B8860B)16블록 떨어진[#]() 위치를 탐색합니다(대각선과 수직 제외). 그 위치의 Spiritus가 자기 청크보다 많으면 차이의 일부를 매 틱 끌어옵니다. 원본을 고갈시키기보다 평형을 이루므로, 포화된 청크에서 작업장까지 기둥을 [#](2E8B57)연결[#]()하면 오라를 멀리 옮길 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura.uses.text",
+      "english": "With Raw Spiritus now saturating the atmosphere, certain [#](8B0000)Rituals[#]() stir to greater potency. The true prize, however, is the ability to grow [#](8B0000)Spiritus Crystals[#]() and from there, split them into their constituent [#](8B0000)Aspects[#]().\\\n\\\nOnce you possess [#](8B0000)Aspected Spiritus Crystals[#](), burn them in the [#](8B0000)Vas Maleficum[#]() to flood the Aura with their particular resonance.",
+      "before": "대기에 가공되지 않은 Spiritus가 차면 일부 [#](8B0000)의식[#]()이 더 강해집니다. 하지만 진정한 성과는 [#](8B0000)Spiritus 수정[#]()을 기르고 구성 [#](8B0000)속성[#]()으로 나눌 수 있다는 점입니다.\\\n\\\n[#](8B0000)속성 Spiritus 수정[#]()을 얻으면 [#](8B0000)Vas Maleficum[#]()에서 태워 고유한 공명으로 오라을 채우세요.",
+      "after": "대기에 가공되지 않은 Spiritus가 차면 일부 [#](8B0000)의식[#]()이 더 강해집니다. 하지만 진정한 성과는 [#](8B0000)Spiritus 수정[#]()을 기르고 구성 [#](8B0000)속성[#]()으로 나눌 수 있다는 점입니다.\\\n\\\n[#](8B0000)속성 Spiritus 수정[#]()을 얻으면 [#](8B0000)Vas Maleficum[#]()에서 태워 고유한 공명으로 오라를 채우세요."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.aura_gauge.intro.text",
+      "english": "The [#](4A0080)Aura[#]() is invisible to the naked eye, but the trained practitioner need not rely on guesswork. While the [#](8B0000)Spiritus Aura Gauge[#]() rests in your inventory, it projects a spectral reading onto your vision.\\\n\\\nFrom top to bottom, the bars measure:\n\n- Raw\n\n- Ruina\n\n- Invictus\n\n- Nihilum\n\n- Vindicta",
+      "before": "[#](4A0080)오라[#]()은 맨눈에 보이지 않지만 숙련된 시전자는 추측에 의존할 필요가 없습니다. 인벤토리에 [#](8B0000)Spiritus 오라 측정기[#]()가 있으면 시야에 영적인 측정값을 띄웁니다.\\\n\\\n위에서 아래로 다음을 표시합니다.\n\n- 원시\n\n- Ruina\n\n- Invictus\n\n- Nihilum\n\n- Vindicta",
+      "after": "[#](4A0080)오라[#]()는 맨눈에 보이지 않지만 숙련된 시전자는 추측에 의존할 필요가 없습니다. 인벤토리에 [#](8B0000)Spiritus 오라 측정기[#]()가 있으면 시야에 영적인 측정값을 띄웁니다.\\\n\\\n위에서 아래로 다음을 표시합니다.\n\n- 미가공\n\n- Ruina\n\n- Invictus\n\n- Nihilum\n\n- Vindicta"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.crystallized_spiritus.crystal_growth.text",
+      "english": "Spires grow whenever the chunk holds at least a trace of the cluster's Aspect; growth scales with saturation, accelerating as the Aura fills. A chunk's natural cap is [#](B8860B)100[#]() per Aspect, though certain Rituals can raise it.\\\n\\\nEach new spire costs [#](B8860B)45 Spiritus[#]() when the chunk's dominant Aspect matches the cluster, and yields 50 when burned in a Vas Maleficum, a net gain of 5 per spire. If the chunk's dominant Aspect [#](2E8B57)does not match[#]() the cluster (for instance, a Raw chunk feeding a Ruina cluster), the cost rises to [#](B8860B)90 Spiritus[#]() per spire and growth runs at [#](B8860B)60%% speed[#](). Keep the chunk biased toward the Aspect you want to farm.",
+      "before": "청크에 군집의 속성이 조금이라도 있으면 첨정이 자랍니다. 성장 속도는 포화도에 비례하며 오라이 찰수록 빨라집니다. 자연 상한은 속성마다 [#](B8860B)100[#]()이지만 일부 의식으로 늘릴 수 있습니다.\\\n\\\n청크의 우세한 속성이 군집과 같으면 새 첨정마다 [#](B8860B)Spiritus 45[#]()를 소모하고 Vas Maleficum에서 태우면 50을 주므로 첨정당 5가 남습니다. 우세한 속성이 군집과 [#](2E8B57)다르면[#]()(예: 원시 청크에서 Ruina 군집 성장) 첨정당 비용이 [#](B8860B)Spiritus 90[#]()으로 늘고 [#](B8860B)60%% 속도[#]()로 자랍니다. 기를 속성이 청크에서 우세하도록 유지하세요.",
+      "after": "청크에 군집의 속성이 조금이라도 있으면 첨정이 자랍니다. 성장 속도는 포화도에 비례하며 오라가 찰수록 빨라집니다. 자연 상한은 속성마다 [#](B8860B)100[#]()이지만 일부 의식으로 늘릴 수 있습니다.\\\n\\\n청크의 우세한 속성이 군집과 같으면 새 첨정마다 [#](B8860B)Spiritus 45[#]()를 소모하고 Vas Maleficum에서 태우면 50을 주므로 첨정당 5가 남습니다. 우세한 속성이 군집과 [#](2E8B57)다르면[#]()(예: 미가공 청크에서 Ruina 군집 성장) 첨정당 비용이 [#](B8860B)Spiritus 90[#]()으로 늘고 [#](B8860B)60%% 속도[#]()로 자랍니다. 기를 속성이 청크에서 우세하도록 유지하세요."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.crystallized_spiritus.description",
+      "english": "Condensing raw malice from the Aura into physical crystal.",
+      "before": "오라의 원시 악의를 실체가 있는 수정으로 응축합니다.",
+      "after": "오라의 미가공 악의를 실체가 있는 수정으로 응축합니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.crystallized_spiritus.intro.text",
+      "english": "Now that your [#](8B0000)Spiritus Gem[#]() brims with [#](8B0000)Spiritus[#](), you may wonder what happens when that malice is unleashed upon the world itself. The answer begins with saturating the [#](8B0000)Aura[#](), and continues with the [#](8B0000)Crystallarium Maleficum[#]().",
+      "before": "[#](8B0000)Spiritus 보석[#]()이 [#](8B0000)Spiritus[#]()로 가득 차면 이 악의를 세계에 풀어놓을 때 무슨 일이 생길지 궁금해질 것입니다. 답은 [#](8B0000)오라[#]()을 채우는 데서 시작해 [#](8B0000)Crystallarium Maleficum[#]()으로 이어집니다.",
+      "after": "[#](8B0000)Spiritus 보석[#]()이 [#](8B0000)Spiritus[#]()로 가득 차면 이 악의를 세계에 풀어놓을 때 무슨 일이 생길지 궁금해질 것입니다. 답은 [#](8B0000)오라[#]()를 채우는 데서 시작해 [#](8B0000)Crystallarium Maleficum[#]()으로 이어집니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.crystallized_spiritus.related.text",
+      "english": "Manual harvest yields a modest five Spiritus per cluster. To industrialise crystal production, build the [#](8B0000)Crystallum Fractura[#]() ritual: it auto-harvests every fully-grown cluster in range, doubles crystal growth speed, and amplifies any Spiritus injection by +25%%. To bootstrap aspected lineages, apply a [#](8B0000)Spiritus Catalyst[#]() (one per aspect) to a fully-grown Raw cluster; the catalyst consumes one [#](8B0000)Animus Mote[#]() and transmutes the cluster into its target Aspect. See the Spiritus Catalysts entry for the full loop.",
+      "before": "직접 수확하면 군집마다 Spiritus 다섯 정도를 얻습니다. 생산을 산업화하려면 [#](8B0000)Crystallum Fractura[#]() 의식을 지으세요. 범위 안의 성숙한 군집을 자동 수확하고 성장 속도를 두 배로 높이며 Spiritus 주입량을 +25%% 증폭합니다. 속성 계통을 시작하려면 다 자란 원시 군집에 속성별 [#](8B0000)Spiritus 촉매[#]()를 적용하세요. [#](8B0000)Animus 티끌[#]() 하나를 소모하고 군집을 목표 속성으로 변환합니다. 전체 순환 과정은 Spiritus 촉매 항목을 보세요.",
+      "after": "직접 수확하면 군집마다 Spiritus 다섯 정도를 얻습니다. 생산을 산업화하려면 [#](8B0000)Crystallum Fractura[#]() 의식을 지으세요. 범위 안의 성숙한 군집을 자동 수확하고 성장 속도를 두 배로 높이며 Spiritus 주입량을 +25%% 증폭합니다. 속성 계통을 시작하려면 다 자란 미가공 군집에 속성별 [#](8B0000)Spiritus 촉매[#]()를 적용하세요. [#](8B0000)Animus 티끌[#]() 하나를 소모하고 군집을 목표 속성으로 변환합니다. 전체 순환 과정은 Spiritus 촉매 항목을 보세요."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.hellfire_forge.gem_absorption.text",
+      "english": "Crafting in the Forge spends the [#](8B0000)Spiritus[#]() held in its [#](8B0000)Spiritus Gem[#](). Left to itself that reserve would soon run dry, so the Forge draws upon its surroundings: a gem seated in the Forge steadily drinks [#](8B0000)Spiritus[#]() from the chunk's [#](4A0080)Aura[#](), at the same pace a [#](8B0000)Vas Maleficum[#]() would fill it.\\\n\\\n[#](2E8B57)Feed the local Aura with a Crystallum Fractura farm and the Forge can craft unattended, its gem refilling as quickly as it is spent.[#]()",
+      "before": "대장간 제작은 [#](8B0000)Spiritus 보석[#]()에 담긴 [#](8B0000)Spiritus[#]()를 소모합니다. 그대로 두면 곧 고갈되므로 주변의 힘을 끌어옵니다. 놓인 보석이 청크의 [#](4A0080)오라[#]()에서 [#](8B0000)Spiritus[#]()를 계속 흡수하며 속도는 [#](8B0000)Vas Maleficum[#]()이 채우는 것과 같습니다.\\\n\\\n[#](2E8B57)Crystallum Fractura 농장으로 주변 오라을 공급하면 소모하는 만큼 보석이 채워져 대장간을 지켜보지 않아도 됩니다.[#]()",
+      "after": "대장간 제작은 [#](8B0000)Spiritus 보석[#]()에 담긴 [#](8B0000)Spiritus[#]()를 소모합니다. 그대로 두면 곧 고갈되므로 주변의 힘을 끌어옵니다. 놓인 보석이 청크의 [#](4A0080)오라[#]()에서 [#](8B0000)Spiritus[#]()를 계속 흡수하며 속도는 [#](8B0000)Vas Maleficum[#]()이 채우는 것과 같습니다.\\\n\\\n[#](2E8B57)Crystallum Fractura 농장으로 주변 오라를 공급하면 소모하는 만큼 보석이 채워져 대장간을 지켜보지 않아도 됩니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.hellfire_forge.intro.text",
+      "english": "The [#](8B0000)Hellfire Forge[#]() stands as a second pillar of the art, twin to the [#](8B0000)Ara Vitae[#]() itself. Where the altar works with [#](4A0080)Essentia Vitae[#](), the Forge consumes [#](8B0000)Spiritus[#](), reshaping raw malice into [#](8B0000)Sentient Tools[#](), [#](8B0000)Spiritus Gems[#](), [#](8B0000)Arcane Ash[#](), reagents, and many things besides.\\\n\\\nNo practitioner of [#](4A0080)Vitaemancy[#]() can progress far without one.",
+      "before": "[#](8B0000)지옥불 대장간[#]()은 [#](8B0000)Ara Vitae[#]()와 쌍을 이루는 이 기술의 두 번째 기둥입니다. 제단이 [#](4A0080)Essentia Vitae[#]()를 다룬다면 대장간은 [#](8B0000)Spiritus[#]()를 소모하여 원시 악의를 [#](8B0000)지각 있는 도구[#](), [#](8B0000)Spiritus 보석[#](), [#](8B0000)비전 재[#](), 시약 등으로 빚어냅니다.\\\n\\\n[#](4A0080)Vitaemancy[#]() 시전자라면 이것 없이 멀리 나아갈 수 없습니다.",
+      "after": "[#](8B0000)지옥불 대장간[#]()은 [#](8B0000)Ara Vitae[#]()와 쌍을 이루는 이 기술의 두 번째 기둥입니다. 제단이 [#](4A0080)Essentia Vitae[#]()를 다룬다면 대장간은 [#](8B0000)Spiritus[#]()를 소모하여 미가공 악의를 [#](8B0000)지각 있는 도구[#](), [#](8B0000)Spiritus 보석[#](), [#](8B0000)비전 재[#](), 시약 등으로 빚어냅니다.\\\n\\\n[#](4A0080)Vitaemancy[#]() 시전자라면 이것 없이 멀리 나아갈 수 없습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.description",
+      "english": "An arcane logistics network for items, fluids, energy, and Aura.",
+      "before": "아이템, 유체, 에너지, 오라을 위한 비전 물류 네트워크입니다.",
+      "after": "아이템, 유체, 에너지, 오라를 위한 비전 물류 네트워크입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.fluid_energy.title",
+      "english": "Fluid & Energy Routing",
+      "before": "유체 및 에너지 라우팅",
+      "after": "유체 및 에너지 운송"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.routing_nodes.spiritus_channel.text",
+      "english": "An [#](8B0000)Output Node[#]() carries a fourth tab, [#](8B0000)Spiritus[#](), unlike any other. It has no ghost grid and no chosen face, for it serves no adjacent block at all: it seeds the [#](4A0080)Aura[#]() of the very chunk the node stands in.\\\n\\\nName an [#](8B0000)Aspect[#]() and a [#](8B0000)Keep[#]() figure, and the node holds that chunk at that level, drawing on any [#](8B0000)Spirit Accumulator[#]() bound to the network. It will not push the Aura past its natural ceiling.\\\n\\\n[#](2E8B57)Set Type to Off, or Keep to zero, and the channel sleeps.[#]()",
+      "before": "[#](8B0000)출력 노드[#]()에는 다른 것과 다른 네 번째 [#](8B0000)Spiritus[#]() 탭이 있습니다. 인접 블록을 다루지 않으므로 견본 격자나 선택한 면이 없습니다. 대신 노드가 선 청크의 [#](4A0080)오라[#]()을 채웁니다.\\\n\\\n[#](8B0000)속성[#]()과 [#](8B0000)유지량[#]()을 정하면 네트워크에 연결된 [#](8B0000)영혼 축적기[#]()에서 끌어와 청크를 그 수준으로 유지합니다. 자연 상한을 넘겨 채우지는 않습니다.\\\n\\\n[#](2E8B57)종류를 끄기로 하거나 유지량을 영으로 하면 채널이 멈춥니다.[#]()",
+      "after": "[#](8B0000)출력 노드[#]()에는 다른 것과 다른 네 번째 [#](8B0000)Spiritus[#]() 탭이 있습니다. 인접 블록을 다루지 않으므로 견본 격자나 선택한 면이 없습니다. 대신 노드가 선 청크의 [#](4A0080)오라[#]()를 채웁니다.\\\n\\\n[#](8B0000)속성[#]()과 [#](8B0000)유지량[#]()을 정하면 네트워크에 연결된 [#](8B0000)영혼 축적기[#]()에서 끌어와 청크를 그 수준으로 유지합니다. 자연 상한을 넘겨 채우지는 않습니다.\\\n\\\n[#](2E8B57)종류를 끄기로 하거나 유지량을 영으로 하면 채널이 멈춥니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spirit_accumulator.attunement.text",
+      "english": "A newly placed Accumulator hangs dark and unattuned. It gathers nothing at all until you have told it what to seek.\\\n\\\n[#](8B0000)Right-click[#]() it to cycle the Aspect: Raw, Ruina, Nihilum, Invictus, Vindicta, and dark again. [#](8B0000)Crouch and right-click[#]() to lock the choice. Only once locked does it begin to drink.\\\n\\\n[#](8B0000)Right-click with a Spiritus crystal[#]() of any Aspect and it takes that Aspect at once and locks. The crystal is not consumed.",
+      "before": "새로 놓은 축적기는 어둡고 조율되지 않은 상태입니다. 무엇을 찾을지 알려 주기 전까지 아무것도 모으지 않습니다.\\\n\\\n[#](8B0000)우클릭[#]()하면 원시, Ruina, Nihilum, Invictus, Vindicta, 다시 꺼짐 순으로 속성을 바꿉니다. [#](8B0000)웅크린 채 우클릭[#]()하여 선택을 잠그면 비로소 흡수합니다.\\\n\\\n어떤 속성이든 [#](8B0000)Spiritus 수정을 들고 우클릭[#]()하면 즉시 그 속성을 선택하고 잠급니다. 수정은 소모되지 않습니다.",
+      "after": "새로 놓은 축적기는 어둡고 조율되지 않은 상태입니다. 무엇을 찾을지 알려 주기 전까지 아무것도 모으지 않습니다.\\\n\\\n[#](8B0000)우클릭[#]()하면 미가공, Ruina, Nihilum, Invictus, Vindicta, 다시 꺼짐 순으로 속성을 바꿉니다. [#](8B0000)웅크린 채 우클릭[#]()하여 선택을 잠그면 비로소 흡수합니다.\\\n\\\n어떤 속성이든 [#](8B0000)Spiritus 수정을 들고 우클릭[#]()하면 즉시 그 속성을 선택하고 잠급니다. 수정은 소모되지 않습니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spirit_accumulator.cost.text",
+      "english": "Beyond the reagents, the chunk in which the Athanor labors must hold [#](8B0000)45 Raw[#]() Spiritus. A single Raw [#](8B0000)shard[#]() burned in a [#](8B0000)Vas Maleficum[#]() settles that on its own, for a shard gives 50 whenever its Aspect stands below 50.\\\n\\\n[#](2E8B57)An Animus Mote is required too, and those are found only in the deep vaults of the Demon Realm.[#]()",
+      "before": "시약 외에도 Athanor가 일하는 청크에 [#](8B0000)원시 45[#]() Spiritus가 필요합니다. 원시 [#](8B0000)조각[#]() 하나를 [#](8B0000)Vas Maleficum[#]()에서 태우면 충분합니다. 해당 속성이 50 미만일 때 조각 하나가 50을 주기 때문입니다.\\\n\\\n[#](2E8B57)악마 영역의 깊은 금고에서만 찾을 수 있는 Animus 티끌도 필요합니다.[#]()",
+      "after": "시약 외에도 Athanor가 일하는 청크에 [#](8B0000)미가공 45[#]() Spiritus가 필요합니다. 미가공 [#](8B0000)조각[#]() 하나를 [#](8B0000)Vas Maleficum[#]()에서 태우면 충분합니다. 해당 속성이 50 미만일 때 조각 하나가 50을 주기 때문입니다.\\\n\\\n[#](2E8B57)악마 영역의 깊은 금고에서만 찾을 수 있는 Animus 티끌도 필요합니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spirit_accumulator.description",
+      "english": "A reservoir that banks the Aura and feeds it to the network.",
+      "before": "오라을 저장하여 네트워크에 공급하는 저장소입니다.",
+      "after": "오라를 저장하여 네트워크에 공급하는 저장소입니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spirit_accumulator.intro.text",
+      "english": "The [#](4A0080)Aura[#]() will hold no more than [#](8B0000)100[#]() of any one Aspect, and it cannot leave the chunk that holds it. Every crystal you burn past that ceiling is simply lost.\\\n\\\nThe [#](8B0000)Spirit Accumulator[#]() is the answer: a suspended crystal that gathers [#](8B0000)1,000[#]() Spiritus of a single Aspect and surrenders it to your [#](4A0080)Routing Network[#]() wherever it is wanted.",
+      "before": "[#](4A0080)오라[#]()은 한 속성을 [#](8B0000)100[#]() 넘게 담을 수 없으며 청크 밖으로 나가지 못합니다. 상한을 넘겨 태운 수정은 그냥 낭비됩니다.\\\n\\\n해답은 [#](8B0000)영혼 축적기[#]()입니다. 공중에 매달린 수정이 단일 속성의 Spiritus를 [#](8B0000)1,000[#]()까지 모아 필요한 곳의 [#](4A0080)운송 네트워크[#]()에 내어줍니다.",
+      "after": "[#](4A0080)오라[#]()는 한 속성을 [#](8B0000)100[#]() 넘게 담을 수 없으며 청크 밖으로 나가지 못합니다. 상한을 넘겨 태운 수정은 그냥 낭비됩니다.\\\n\\\n해답은 [#](8B0000)영혼 축적기[#]()입니다. 공중에 매달린 수정이 단일 속성의 Spiritus를 [#](8B0000)1,000[#]()까지 모아 필요한 곳의 [#](4A0080)운송 네트워크[#]()에 내어줍니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spiritus.next_steps.text",
+      "english": "Once you have gathered some Spiritus, the [#](8B0000)Hellfire Forge[#]() awaits, eager to transmute this raw malice into instruments of power. Should loose fragments begin to clutter your person, a [#](8B0000)Spiritus Gem[#]() will serve as a most convenient receptacle.",
+      "before": "Spiritus를 조금 모으면 [#](8B0000)지옥불 대장간[#]()이 원시 악의를 힘의 도구로 바꿀 준비를 합니다. 낱조각이 인벤토리를 어지럽히면 [#](8B0000)Spiritus 보석[#]()을 편리한 용기로 쓰세요.",
+      "after": "Spiritus를 조금 모으면 [#](8B0000)지옥불 대장간[#]()이 미가공 악의를 힘의 도구로 바꿀 준비를 합니다. 낱조각이 인벤토리를 어지럽히면 [#](8B0000)Spiritus 보석[#]()을 편리한 용기로 쓰세요."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spiritus_catalysts.bootstrap.text",
+      "english": "A [#](8B0000)Crystallarium Maleficum[#]() will only grow [#](8B0000)Raw Spiritus[#]() clusters until the chunk's Aura is dominated by a different Aspect, and that demands aspected crystals you do not yet possess. The catalyst is the only way to break this cycle.\\\n\\\nRight-click a [#](8B0000)fully-grown Raw cluster[#]() with an aspected catalyst (Ruina, Nihilum, Vindicta, or Invictus) and the cluster transmutes into the catalyst's Aspect, restarting at age zero. The catalyst is consumed in the act.",
+      "before": "[#](8B0000)Crystallarium Maleficum[#]()은 다른 속성이 청크의 오라을 지배하기 전까지 [#](8B0000)가공되지 않은 Spiritus[#]() 군집만 기릅니다. 하지만 이를 바꾸려면 아직 없는 속성 수정이 필요합니다. 촉매가 이 순환을 깨는 유일한 방법입니다.\\\n\\\n속성 촉매(Ruina, Nihilum, Vindicta, Invictus)로 [#](8B0000)완전히 자란 원시 군집[#]()을 우클릭하면 촉매의 속성으로 변하며 성장 단계가 처음으로 돌아갑니다. 촉매는 소모됩니다.",
+      "after": "[#](8B0000)Crystallarium Maleficum[#]()은 다른 속성이 청크의 오라를 지배하기 전까지 [#](8B0000)가공되지 않은 Spiritus[#]() 군집만 기릅니다. 하지만 이를 바꾸려면 아직 없는 속성 수정이 필요합니다. 촉매가 이 순환을 깨는 유일한 방법입니다.\\\n\\\n속성 촉매(Ruina, Nihilum, Vindicta, Invictus)로 [#](8B0000)완전히 자란 미가공 군집[#]()을 우클릭하면 촉매의 속성으로 변하며 성장 단계가 처음으로 돌아갑니다. 촉매는 소모됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.spiritus_catalysts.intro.text",
+      "english": "Five catalysts exist, one for each Aspect of Spiritus: Raw, Ruina, Nihilum, Vindicta, and Invictus. Each is forged in the [#](8B0000)Hellfire Forge[#]() and serves two distinct purposes depending on the cluster you click with it.",
+      "before": "원시, Ruina, Nihilum, Vindicta, Invictus 각 속성마다 하나씩 총 다섯 촉매가 있습니다. 모두 [#](8B0000)지옥불 대장간[#]()에서 만들며 클릭하는 군집에 따라 서로 다른 두 역할을 합니다.",
+      "after": "미가공, Ruina, Nihilum, Vindicta, Invictus 각 속성마다 하나씩 총 다섯 촉매가 있습니다. 모두 [#](8B0000)지옥불 대장간[#]()에서 만들며 클릭하는 군집에 따라 서로 다른 두 역할을 합니다."
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.upgrades.intro.title",
+      "english": "Routing Upgrades",
+      "before": "라우팅 업그레이드",
+      "after": "운송 업그레이드"
+    },
+    {
+      "key": "book.neovitae.guide.spiritus.upgrades.name",
+      "english": "Routing Upgrades",
+      "before": "라우팅 업그레이드",
+      "after": "운송 업그레이드"
+    },
+    {
+      "key": "book.neovitae.guide.utility.hydration.clay.text",
+      "english": "The cell's waters can coax clay from the driest materials:\n\n- Sand to Clay (requires Water)\n- Terracotta to Clay (requires Water)",
+      "before": "급수 전지의 물로 가장 메마른 재료에서도 점토를 만들 수 있습니다.\n\n- 모래를 점토로(물 필요)\n- 테라코타를 점토로(물 필요)",
+      "after": "수화 전지의 물로 가장 메마른 재료에서도 점토를 만들 수 있습니다.\n\n- 모래를 점토로(물 필요)\n- 테라코타를 점토로(물 필요)"
+    },
+    {
+      "key": "book.neovitae.guide.utility.hydration.concrete.text",
+      "english": "All sixteen hues of Concrete Powder can be solidified into Concrete within the Athanor using the Hydration Cell and Water - a far tidier method than dumping powder into a stream.\\\n\\\nWhite, Light Gray, Gray, Black, Brown, Red, Orange, Yellow, Lime, Green, Cyan, Light Blue, Blue, Purple, Magenta, and Pink.",
+      "before": "Athanor에서 급수 전지와 물로 열여섯 색의 콘크리트 가루를 콘크리트로 굳힐 수 있습니다. 물줄기에 가루를 쏟는 것보다 훨씬 깔끔합니다.\\\n\\\n하양, 회백색, 회색, 검정, 갈색, 빨강, 주황, 노랑, 연두, 초록, 청록, 하늘색, 파랑, 보라, 자홍, 분홍입니다.",
+      "after": "Athanor에서 수화 전지와 물로 열여섯 색의 콘크리트 가루를 콘크리트로 굳힐 수 있습니다. 물줄기에 가루를 쏟는 것보다 훨씬 깔끔합니다.\\\n\\\n하양, 회백색, 회색, 검정, 갈색, 빨강, 주황, 노랑, 연두, 초록, 청록, 하늘색, 파랑, 보라, 자홍, 분홍입니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.hydration.description",
+      "english": "The Hydration Cell saturates, dissolves, and transforms within the Athanor.",
+      "before": "급수 전지는 Athanor 안에서 물을 스며들게 하고 용해하고 변환합니다.",
+      "after": "수화 전지는 Athanor 안에서 물을 스며들게 하고 용해하고 변환합니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.hydration.dye_removal.text",
+      "english": "The Hydration Cell's waters can strip dye from woven and vitreous materials:\n\n- Beds (any color to white)\n- Wool (any color to white)\n- Carpet (any color to white)\n- Glass (stained to clear)\n- Glass Panes (stained to clear)\\\n\\\nAll dye removal requires Water.",
+      "before": "급수 전지의 물로 직물과 유리의 색을 뺄 수 있습니다.\n\n- 침대(모든 색을 하양으로)\n- 양털(모든 색을 하양으로)\n- 양탄자(모든 색을 하양으로)\n- 유리(색유리를 투명하게)\n- 유리판(색유리판을 투명하게)\\\n\\\n모든 탈색에는 물이 필요합니다.",
+      "after": "수화 전지의 물로 직물과 유리의 색을 뺄 수 있습니다.\n\n- 침대(모든 색을 하양으로)\n- 양털(모든 색을 하양으로)\n- 양탄자(모든 색을 하양으로)\n- 유리(색유리를 투명하게)\n- 유리판(색유리판을 투명하게)\\\n\\\n모든 탈색에는 물이 필요합니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.hydration.intro.text",
+      "english": "Fitted with a [#](8B0000)Primitive Hydration Cell[#](), the Athanor becomes a font of elemental water, saturating and transforming matter at the molecular level. Ensure you supply it with Water, or the cell thirsts in vain.\\\n\\\n[#](2E8B57)Hydration Cells degrade with use, but Unbreaking or Mending enchantments extend their service considerably.[#]()",
+      "before": "[#](8B0000)원시 수화 전지[#]()를 장착하면 Athanor는 원소의 물이 솟는 샘이 되어 분자 수준에서 물질을 적시고 변환합니다. 헛되이 목말라 하지 않도록 물을 공급하세요.\\\n\\\n[#](2E8B57)급수 전지는 사용하면 닳지만 내구성이나 수선 마법으로 수명을 크게 늘릴 수 있습니다.[#]()",
+      "after": "[#](8B0000)원시 수화 전지[#]()를 장착하면 Athanor는 원소의 물이 솟는 샘이 되어 분자 수준에서 물질을 적시고 변환합니다. 헛되이 목말라 하지 않도록 물을 공급하세요.\\\n\\\n[#](2E8B57)수화 전지는 사용하면 닳지만 내구성이나 수선 마법으로 수명을 크게 늘릴 수 있습니다.[#]()"
+    },
+    {
+      "key": "book.neovitae.guide.utility.hydration.intro.title",
+      "english": "The Hydration Cell",
+      "before": "급수 전지",
+      "after": "수화 전지"
+    },
+    {
+      "key": "book.neovitae.guide.utility.hydration.recipe_hydration.text",
+      "english": "Among its many uses, the Hydration Cell can produce Clay - the [#](4A0080)Cornerstone of Balance[#]().",
+      "before": "급수 전지의 여러 용도 중 하나는 [#](4A0080)균형의 초석[#]()인 점토를 만드는 것입니다.",
+      "after": "수화 전지의 여러 용도 중 하나는 [#](4A0080)균형의 초석[#]()인 점토를 만드는 것입니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.enhanced_focus.text",
+      "english": "The [#](8B0000)Enhanced Teleposition Focus[#](), also forged in the Ara Vitae, widens the exchange to a 3x3x3 volume centered above the Teleposer. Entire small structures can be relocated in a single pulse.",
+      "before": "Ara Vitae에서 만드는 [#](8B0000)향상된 위치 전환 초점[#]()은 Teleposer 위를 중심으로 교환 영역을 3x3x3으로 넓힙니다. 작은 구조물 전체를 한 번의 펄스로 옮길 수 있습니다.",
+      "after": "Ara Vitae에서 만드는 [#](8B0000)향상된 Teleposer 초점[#]()은 Teleposer 위를 중심으로 교환 영역을 3x3x3으로 넓힙니다. 작은 구조물 전체를 한 번의 펄스로 옮길 수 있습니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.focus.text",
+      "english": "The basic [#](8B0000)Teleposition Focus[#]() is crafted in the Ara Vitae. It commands a modest 1x1x1 exchange zone directly above each Teleposer - enough to transport a single entity or block with precision.",
+      "before": "기본 [#](8B0000)위치 전환 초점[#]()은 Ara Vitae에서 만듭니다. 각 Teleposer 바로 위 1x1x1 영역을 교환하여 개체나 블록 하나를 정확히 옮깁니다.",
+      "after": "기본 [#](8B0000)Teleposer 초점[#]()은 Ara Vitae에서 만듭니다. 각 Teleposer 바로 위 1x1x1 영역을 교환하여 개체나 블록 하나를 정확히 옮깁니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.focus.title",
+      "english": "Teleposition Focus",
+      "before": "위치 전환 초점",
+      "after": "Teleposer 초점"
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.intro.text",
+      "english": "[#](8B0000)Teleposers[#]() bend space through the power of blood, swapping everything above two linked points - blocks, items, entities, even you - in the blink of an eye.\\\n\\\nCraft a [#](8B0000)Teleposition Focus[#](), bind it to a target Teleposer, place it in a second, and apply a redstone signal. The exchange is instantaneous.",
+      "before": "[#](8B0000)Teleposer[#]()는 혈액의 힘으로 공간을 굽혀 연결된 두 지점 위의 블록, 아이템, 개체, 플레이어까지 눈 깜짝할 사이에 맞바꿉니다.\\\n\\\n[#](8B0000)위치 전환 초점[#]()을 만들어 목표 Teleposer에 귀속한 뒤 다른 Teleposer에 넣고 레드스톤 신호를 주세요. 즉시 교환됩니다.",
+      "after": "[#](8B0000)Teleposer[#]()는 혈액의 힘으로 공간을 굽혀 연결된 두 지점 위의 블록, 아이템, 개체, 플레이어까지 눈 깜짝할 사이에 맞바꿉니다.\\\n\\\n[#](8B0000)Teleposer 초점[#]()을 만들어 목표 Teleposer에 귀속한 뒤 다른 Teleposer에 넣고 레드스톤 신호를 주세요. 즉시 교환됩니다."
+    },
+    {
+      "key": "book.neovitae.guide.utility.teleposer.reinforced_focus.text",
+      "english": "The [#](8B0000)Reinforced Teleposition Focus[#]() commands a 5x5x5 volume - a formidable displacement field.",
+      "before": "[#](8B0000)보강된 위치 전환 초점[#]()은 강력한 5x5x5 교환 영역을 다룹니다.",
+      "after": "[#](8B0000)강화된 Teleposer 초점[#]()은 강력한 5x5x5 교환 영역을 다룹니다."
+    }
+  ],
+  "language_keys": 3053,
+  "literal_keys": 61,
+  "protected_token_errors": []
+}

@@ -1,0 +1,964 @@
+{
+  "english_keys": 105,
+  "unchanged_reused": 39,
+  "term_corrected": 66,
+  "new_keys": 0,
+  "replacement_rules": {
+    "의식 있는": "지각 있는",
+    "의식이 깃든 껍질": "지각 있는 껍질",
+    "비전 서기 도구": "비전 필기 도구",
+    "Vitae의 오브": "Vitae 구슬",
+    "Novicius Orb of Vitae": "Novicius Vitae 구슬",
+    "Discipulus Orb of Vitae": "Discipulus Vitae 구슬",
+    "Veneficus Orb of Vitae": "Veneficus Vitae 구슬",
+    "Magus Orb of Vitae": "Magus Vitae 구슬",
+    "Dominus Orb of Vitae": "Dominus Vitae 구슬",
+    "Divinus Orb of Vitae": "Divinus Vitae 구슬",
+    "Novicius 오브": "Novicius Vitae 구슬",
+    "오브": "구슬",
+    "연금술 마법진": "연금술진",
+    "결속 마법진": "결속 연금술진",
+    "소용돌이 마법진": "소용돌이 연금술진",
+    "수집 마법진": "수집 연금술진",
+    "윤이 나는 혈석": "윤나는 혈석",
+    "피로 물든 유리": "혈액으로 물든 유리",
+    "약한 피의 파편": "약한 혈액 조각",
+    "마스터 의식석": "중심 의식석",
+    "Ritual Diviner [Dusk]": "의식 점술 도구 [Dusk]",
+    "Ritual Diviner": "의식 점술 도구",
+    "Ritual Configurator": "의식 설정 도구",
+    "마스터 라우팅 노드": "중심 운송 노드",
+    "라우팅 노드": "운송 노드",
+    "노드 라우터": "노드 연결 도구",
+    "타우 오일": "Tau 기름",
+    "강한 타우": "강력한 Tau",
+    "약한 타우": "약한 Tau",
+    "타우": "Tau",
+    "데모나이트": "Demonite",
+    "지옥벼림": "지옥불 단조",
+    "선견자의 인장": "예지자의 인장",
+    "업그레이드 서": "업그레이드의 서",
+    "효과가 묻은 투척 단검": "효과가 부여된 투척 단검",
+    "광산 입구 열쇠": "광산 입구 열쇠",
+    "광산 열쇠": "광산 던전 열쇠",
+    "Raw Spiritus": "가공되지 않은 Spiritus",
+    "Raw": "미가공",
+    "Aspect": "속성",
+    "Animus Mote": "Animus 티끌",
+    "Vitaemancer": "Vitaemancy 시전자",
+    "potioncrafting": "물약 제작",
+    "Breaching the Edge of Demon Realm": "악마 영역의 경계를 넘어서",
+    "Highway to Hell": "지옥으로 가는 길",
+    "중심 운송 노드 코어": "운송 묶음 업그레이드",
+    "속도 코어": "운송 속도 업그레이드",
+    "Body Builder": "근육 단련",
+    "Fierce Strike": "맹렬한 일격",
+    "Dwarven Might": "드워프의 힘",
+    "Repair": "수리",
+    "티어": "등급",
+    "피를": "혈액을",
+    "피는": "혈액은",
+    "피가": "혈액이",
+    "피로": "혈액으로",
+    "피 자동화": "혈액 자동화",
+    "구슬&r를": "구슬&r을",
+    "구슬&r와": "구슬&r과",
+    "구슬&r가": "구슬&r이",
+    "구슬를": "구슬을",
+    "구슬가": "구슬이",
+    "등급를": "등급을",
+    "노드 연결 도구&r 도구로": "노드 연결 도구&r로",
+    "가까운 마스터": "가까운 중심 노드"
+  },
+  "changes": [
+    {
+      "key": "quest.02B5E57E9E803F78.quest_desc",
+      "english": [
+        "We bind an iron plate on a Binding array along with a charged gem, and the metal wakes up. &cSentient Armour&r starts small — a hundred points of room to grow — but it keeps a long memory.",
+        "",
+        "It logs everything we do: hits taken, distance walked, blocks broken. Slowly the piece stops being generic and starts being ours."
+      ],
+      "before": [
+        "결속 마법진에 철 판과 충전된 보석을 함께 올리면 금속이 깨어납니다. &c의식 있는 방어구&r는 성장할 공간이 백 포인트뿐인 작은 상태로 시작하지만, 아주 긴 기억을 간직합니다.",
+        "",
+        "받은 공격, 걸은 거리, 부순 블록까지 우리가 한 모든 일을 기록합니다. 천천히 평범한 장비에서 벗어나 우리만의 장비로 변해 갑니다."
+      ],
+      "after": [
+        "결속 연금술진에 철 판과 충전된 보석을 함께 올리면 금속이 깨어납니다. &c지각 있는 방어구&r는 성장할 공간이 백 포인트뿐인 작은 상태로 시작하지만, 아주 긴 기억을 간직합니다.",
+        "",
+        "받은 공격, 걸은 거리, 부순 블록까지 우리가 한 모든 일을 기록합니다. 천천히 평범한 장비에서 벗어나 우리만의 장비로 변해 갑니다."
+      ]
+    },
+    {
+      "key": "quest.02B5E57E9E803F78.title",
+      "english": "The Sentient Shell",
+      "before": "의식이 깃든 껍질",
+      "after": "지각 있는 껍질"
+    },
+    {
+      "key": "quest.09DEA44456CD5010.quest_desc",
+      "english": [
+        "We perform the &cBreaching the Edge of Demon Realm&r rite and tear a one-time wound through the veil in a single move — on the other side, an &cAntechamber&r opens up.",
+        "",
+        "We step through. Best to carry keys, or at least a way to find them, because the deeper realm won't open its doors for free."
+      ],
+      "before": [
+        "&cBreaching the Edge of Demon Realm&r 의식을 거행해 단 한 번의 동작으로 장막에 일회용 상처를 냅니다. 그 너머에 &c전실&r이 열립니다.",
+        "",
+        "안으로 들어가세요. 더 깊은 영역의 문은 공짜로 열리지 않으니 열쇠나 적어도 열쇠를 찾을 방법을 챙기는 편이 좋습니다."
+      ],
+      "after": [
+        "&c악마 영역의 경계를 넘어서&r 의식을 거행해 단 한 번의 동작으로 장막에 일회용 상처를 냅니다. 그 너머에 &c전실&r이 열립니다.",
+        "",
+        "안으로 들어가세요. 더 깊은 영역의 문은 공짜로 열리지 않으니 열쇠나 적어도 열쇠를 찾을 방법을 챙기는 편이 좋습니다."
+      ]
+    },
+    {
+      "key": "quest.0BA0AA8A6F07D383.quest_desc",
+      "english": [
+        "We brew an &cArcane Scribe Tool&r in the &cTabula Vitae&r, our first alchemical bench. With an Orb of Vitae seated in it, the bench pulls EV straight from our Anima to prepare this tool, along with reagents and our earliest anointments.",
+        "",
+        "We strike the ground with it and a circle wakes under our feet — our first &6Alchemy Array&r."
+      ],
+      "before": [
+        "첫 연금술 작업대인 &cTabula Vitae&r에서 &c비전 서기 도구&r를 만듭니다. Vitae의 오브를 넣으면 작업대가 Anima에서 EV를 직접 끌어와 이 도구와 시약, 초기 도유제를 준비합니다.",
+        "",
+        "도구로 땅을 치면 발밑에서 원이 깨어납니다. 첫 &6연금술 마법진&r입니다."
+      ],
+      "after": [
+        "첫 연금술 작업대인 &cTabula Vitae&r에서 &c비전 필기 도구&r를 만듭니다. Vitae 구슬을 넣으면 작업대가 Anima에서 EV를 직접 끌어와 이 도구와 시약, 초기 도유제를 준비합니다.",
+        "",
+        "도구로 땅을 치면 발밑에서 원이 깨어납니다. 첫 &6연금술진&r입니다."
+      ]
+    },
+    {
+      "key": "quest.0BA0AA8A6F07D383.title",
+      "english": "The Scribe's Tool",
+      "before": "서기의 도구",
+      "after": "비전 필기 도구"
+    },
+    {
+      "key": "quest.11F6669733F1420B.quest_desc",
+      "english": [
+        "We reach 52 runes in total: the 24 we already had, plus a third ring, deeper still, with pillars crowned in blood-stained glass. We seal the four corners with &cPolished Bloodstone&r, cut from Tau Fruit.",
+        "",
+        "This is where we forge the &cMagus Orb of Vitae&r — &e1,000,000 EV&r of Anima — and the &cRitual Diviner [Dusk]&r, which opens up a much wider repertoire of rites."
+      ],
+      "before": [
+        "룬은 총 52개에 도달합니다. 기존의 24개에 더 깊은 세 번째 고리를 더하고, 피로 물든 유리를 얹은 기둥을 세웁니다. 네 모서리는 타우 열매로 만든 &c윤이 나는 혈석&r으로 봉합니다.",
+        "",
+        "이곳에서 Anima를 &e1,000,000 EV&r까지 담는 &cMagus Orb of Vitae&r와 훨씬 다양한 의식을 여는 &cRitual Diviner [Dusk]&r를 제작합니다."
+      ],
+      "after": [
+        "룬은 총 52개에 도달합니다. 기존의 24개에 더 깊은 세 번째 고리를 더하고, 혈액으로 물든 유리를 얹은 기둥을 세웁니다. 네 모서리는 Tau 열매로 만든 &c윤나는 혈석&r으로 봉합니다.",
+        "",
+        "이곳에서 Anima를 &e1,000,000 EV&r까지 담는 &cMagus Vitae 구슬&r과 훨씬 다양한 의식을 여는 &c의식 점술 도구 [Dusk]&r를 제작합니다."
+      ]
+    },
+    {
+      "key": "quest.11F6669733F1420B.title",
+      "english": "Tier III: The Master's Orb",
+      "before": "티어 III: 대가의 오브",
+      "after": "등급 III: Magus Vitae 구슬"
+    },
+    {
+      "key": "quest.19891A8F26FBAB0A.quest_desc",
+      "english": [
+        "Every reagent we brew in the Tabula Vitae hides a sigil waiting to be scribed: water that never runs out, lava on tap, a void that swallows liquid, haste, magnetism, faster growth.",
+        "",
+        "Crafting just one shows us the whole family — a Vitaemancer with a full sigil belt is never caught without an option."
+      ],
+      "before": [
+        "Tabula Vitae에서 만드는 모든 시약에는 새길 수 있는 인장이 숨어 있습니다. 마르지 않는 물, 언제든 꺼내 쓰는 용암, 액체를 삼키는 공허, 성급함, 자력, 빠른 성장까지 있습니다.",
+        "",
+        "그중 하나만 제작해도 전체 인장 계열을 볼 수 있습니다. 인장 허리띠를 가득 채운 Vitaemancer라면 어떤 상황에도 대응할 수 있습니다."
+      ],
+      "after": [
+        "Tabula Vitae에서 만드는 모든 시약에는 새길 수 있는 인장이 숨어 있습니다. 마르지 않는 물, 언제든 꺼내 쓰는 용암, 액체를 삼키는 공허, 성급함, 자력, 빠른 성장까지 있습니다.",
+        "",
+        "그중 하나만 제작해도 전체 인장 계열을 볼 수 있습니다. 인장 허리띠를 가득 채운 Vitaemancy 시전자라면 어떤 상황에도 대응할 수 있습니다."
+      ]
+    },
+    {
+      "key": "quest.1B6642BBDAEB2BD5.quest_desc",
+      "english": [
+        "We can only forge the &cVeneficus Orb of Vitae&r once the altar sits at Tier II, and it's worth the wait: it swaps the Discipulus's tight reserve for &e150,000 EV&r of breathing room — six times what we had."
+      ],
+      "before": [
+        "제단이 티어 II에 도달해야 &cVeneficus Orb of Vitae&r를 제작할 수 있습니다. 기다릴 가치가 있습니다. Discipulus의 빠듯한 저장량 대신 &e150,000 EV&r를 담을 여유가 생겨 이전보다 여섯 배 넉넉해집니다."
+      ],
+      "after": [
+        "제단이 등급 II에 도달해야 &cVeneficus Vitae 구슬&r을 제작할 수 있습니다. 기다릴 가치가 있습니다. Discipulus의 빠듯한 저장량 대신 &e150,000 EV&r를 담을 여유가 생겨 이전보다 여섯 배 넉넉해집니다."
+      ]
+    },
+    {
+      "key": "quest.1B6642BBDAEB2BD5.title",
+      "english": "Tier II: The Magician's Orb",
+      "before": "티어 II: 마술사의 오브",
+      "after": "등급 II: Veneficus Vitae 구슬"
+    },
+    {
+      "key": "quest.1BBABB2106D321A4.quest_desc",
+      "english": [
+        "A &cSpike Trap&r feeds the altar every time it hurts a creature within 8 blocks of an Ara Vitae. We craft one and keep creatures coming — a spawner or a Vortex Array both do the job.",
+        "",
+        "With a collection array nearby to grab the drops, the altar starts feeding itself while we go handle something else."
+      ],
+      "before": [
+        "&c가시 함정&r은 Ara Vitae에서 8블록 안에 있는 생물을 해칠 때마다 제단에 피를 공급합니다. 하나를 만들고 생성기나 소용돌이 마법진으로 생물이 계속 오게 하세요.",
+        "",
+        "가까이에 수집 마법진을 놓아 전리품을 거두면 다른 일을 하는 동안 제단이 스스로 피를 공급하기 시작합니다."
+      ],
+      "after": [
+        "&c가시 함정&r은 Ara Vitae에서 8블록 안에 있는 생물을 해칠 때마다 제단에 혈액을 공급합니다. 하나를 만들고 생성기나 소용돌이 연금술진으로 생물이 계속 오게 하세요.",
+        "",
+        "가까이에 수집 연금술진을 놓아 전리품을 거두면 다른 일을 하는 동안 제단이 스스로 혈액을 공급하기 시작합니다."
+      ]
+    },
+    {
+      "key": "quest.1BBABB2106D321A4.title",
+      "english": "Early Blood Automation",
+      "before": "초기 피 자동화",
+      "after": "초기 혈액 자동화"
+    },
+    {
+      "key": "quest.1F7ACF813D8804A6.quest_desc",
+      "english": [
+        "The &cAlchemy Array&r wants two offerings at once. Some pairings craft entirely new objects from scratch — that's how our very first sigil, the &cDivination Sigil&r, comes to be — others just fire an effect right there, out into the world around us.",
+        "",
+        "Worth trying a combination just to watch the circle answer."
+      ],
+      "before": [
+        "&c연금술 마법진&r에는 두 제물이 동시에 필요합니다. 어떤 조합은 완전히 새로운 물건을 처음부터 만듭니다. 첫 인장인 &c점술의 인장&r도 그렇게 탄생합니다. 다른 조합은 그 자리에서 주변 세계에 효과를 일으킵니다.",
+        "",
+        "마법진이 어떻게 반응하는지 보기 위해서라도 조합 하나쯤은 시험해 볼 만합니다."
+      ],
+      "after": [
+        "&c연금술진&r에는 두 제물이 동시에 필요합니다. 어떤 조합은 완전히 새로운 물건을 처음부터 만듭니다. 첫 인장인 &c점술의 인장&r도 그렇게 탄생합니다. 다른 조합은 그 자리에서 주변 세계에 효과를 일으킵니다.",
+        "",
+        "마법진이 어떻게 반응하는지 보기 위해서라도 조합 하나쯤은 시험해 볼 만합니다."
+      ]
+    },
+    {
+      "key": "quest.22CB17C102BB6773.quest_desc",
+      "english": [
+        "&cTau Oil&r takes the Athanor's Cutting Fluid from Basic to Intermediate, and it's the base for the stronger anointments that keep our blades and bows deadly for much longer.",
+        "",
+        "It also gives rise to Spiritus Catalysts, which speed up crystal growth — or change what a crystal grows into entirely."
+      ],
+      "before": [
+        "&c타우 오일&r은 Athanor의 절삭유를 기본 등급에서 중급 등급으로 올리며, 칼날과 활의 위력을 훨씬 오래 유지하는 강한 도유제의 기초가 됩니다.",
+        "",
+        "수정의 성장을 빠르게 하거나 아예 다른 종류로 자라게 하는 Spiritus 촉매의 재료이기도 합니다."
+      ],
+      "after": [
+        "&cTau 기름&r은 Athanor의 절삭유를 기본 등급에서 중급 등급으로 올리며, 칼날과 활의 위력을 훨씬 오래 유지하는 강한 도유제의 기초가 됩니다.",
+        "",
+        "수정의 성장을 빠르게 하거나 아예 다른 종류로 자라게 하는 Spiritus 촉매의 재료이기도 합니다."
+      ]
+    },
+    {
+      "key": "quest.22CB17C102BB6773.title",
+      "english": "Refining the Tau",
+      "before": "타우 정제",
+      "after": "Tau 정제"
+    },
+    {
+      "key": "quest.24C0619EB4A13CA3.quest_desc",
+      "english": [
+        "At the core of everything we build sits a network of routing nodes — the piping that carries items, fluids, and even energy, all through the same lines.",
+        "",
+        "We place a &cMaster Routing Node&r first; every other node auto-connects to the nearest master the moment we set it down nearby."
+      ],
+      "before": [
+        "모든 설비의 중심에는 아이템, 유체, 에너지까지 같은 선으로 운반하는 라우팅 노드망이 있습니다.",
+        "",
+        "먼저 &c마스터 라우팅 노드&r를 놓으세요. 다른 노드는 근처에 놓는 순간 가장 가까운 마스터에 자동으로 연결됩니다."
+      ],
+      "after": [
+        "모든 설비의 중심에는 아이템, 유체, 에너지까지 같은 선으로 운반하는 운송 노드망이 있습니다.",
+        "",
+        "먼저 &c중심 운송 노드&r를 놓으세요. 다른 노드는 근처에 놓는 순간 가장 가까운 중심 노드에 자동으로 연결됩니다."
+      ]
+    },
+    {
+      "key": "quest.298458E916F65407.quest_desc",
+      "english": [
+        "We burn Spiritus in the &cVas Maleficum&r and the chunk's air thickens with will. Whatever we release into it, we can read back later — a hidden reservoir capped at &e100 per Aspect&r."
+      ],
+      "before": [
+        "&cVas Maleficum&r에서 Spiritus를 태우면 청크의 공기가 의지로 짙어집니다. 그 안에 무엇을 풀어놓든 나중에 다시 읽을 수 있으며, 숨겨진 저장량은 Aspect마다 &e100&r입니다."
+      ],
+      "after": [
+        "&cVas Maleficum&r에서 Spiritus를 태우면 청크의 공기가 의지로 짙어집니다. 그 안에 무엇을 풀어놓든 나중에 다시 읽을 수 있으며, 숨겨진 저장량은 속성마다 &e100&r입니다."
+      ]
+    },
+    {
+      "key": "quest.383F7F715C60252B.quest_desc",
+      "english": [
+        "We add sixteen more runes in a second ring, one level deeper and wider than the first, and raise four pillars at the cardinal sides, each capped in &bBlood Stained Glass&r. Twenty-four runes, all told.",
+        "",
+        "From here the altar stops being just a tool and starts turning into an engine — Rituals and Sentient Armor both sit right past this point."
+      ],
+      "before": [
+        "첫 고리보다 한 단계 더 깊고 넓은 두 번째 고리에 룬 열여섯 개를 추가하고, 네 방위에 &b피로 물든 유리&r를 얹은 기둥 네 개를 세웁니다. 모두 합쳐 룬 스물네 개입니다.",
+        "",
+        "이 시점부터 제단은 단순한 도구를 넘어 동력 기관이 되기 시작합니다. 의식과 의식 있는 방어구가 바로 다음 단계에 있습니다."
+      ],
+      "after": [
+        "첫 고리보다 한 단계 더 깊고 넓은 두 번째 고리에 룬 열여섯 개를 추가하고, 네 방위에 &b혈액으로 물든 유리&r를 얹은 기둥 네 개를 세웁니다. 모두 합쳐 룬 스물네 개입니다.",
+        "",
+        "이 시점부터 제단은 단순한 도구를 넘어 동력 기관이 되기 시작합니다. 의식과 지각 있는 방어구가 바로 다음 단계에 있습니다."
+      ]
+    },
+    {
+      "key": "quest.383F7F715C60252B.title",
+      "english": "Tier II: The Second Ring",
+      "before": "티어 II: 두 번째 고리",
+      "after": "등급 II: 두 번째 고리"
+    },
+    {
+      "key": "quest.3CA324BE8531F253.quest_desc",
+      "english": [
+        "Fully saturated Tau, worked through the Athanor, finally condenses into a &cWeak Blood Shard&r — the piece that finishes the Tier III pillars and opens the door to everything past them.",
+        "",
+        "It's also the base for stronger anointments and the potion catalysts that keep our gear deadly for much longer."
+      ],
+      "before": [
+        "완전히 포화된 타우를 Athanor에서 가공하면 마침내 &c약한 피의 파편&r이 됩니다. 티어 III 기둥을 완성하고 그 너머의 모든 단계로 가는 문을 여는 조각입니다.",
+        "",
+        "장비의 위력을 훨씬 오래 유지하는 강한 도유제와 물약 촉매의 기초 재료이기도 합니다."
+      ],
+      "after": [
+        "완전히 포화된 Tau를 Athanor에서 가공하면 마침내 &c약한 혈액 조각&r이 됩니다. 등급 III 기둥을 완성하고 그 너머의 모든 단계로 가는 문을 여는 조각입니다.",
+        "",
+        "장비의 위력을 훨씬 오래 유지하는 강한 도유제와 물약 촉매의 기초 재료이기도 합니다."
+      ]
+    },
+    {
+      "key": "quest.3CA324BE8531F253.title",
+      "english": "The Weak Blood Shard",
+      "before": "약한 피의 파편",
+      "after": "약한 혈액 조각"
+    },
+    {
+      "key": "quest.3F2FE793CE5052F0.quest_desc",
+      "english": [
+        "Nodes auto-connect to the nearest master when placed, but if we want to hand-reassign one to a different Master Routing Node, the &cNode Router&r tool handles it in a single click."
+      ],
+      "before": [
+        "노드는 설치할 때 가장 가까운 마스터에 자동으로 연결됩니다. 다른 마스터 라우팅 노드에 직접 다시 배정하려면 &c노드 라우터&r 도구로 한 번 클릭하면 됩니다."
+      ],
+      "after": [
+        "노드는 설치할 때 가장 가까운 중심 노드에 자동으로 연결됩니다. 다른 중심 운송 노드에 직접 다시 배정하려면 &c노드 연결 도구&r로 한 번 클릭하면 됩니다."
+      ]
+    },
+    {
+      "key": "quest.40C32A4F6DE4B782.quest_desc",
+      "english": [
+        "Tau on its own is only potential. It's the &cAthanor&r that does the heavy work — pressing &cTau Oil&r from the fruit and saturating the rest into the shards a higher altar will demand from us.",
+        "",
+        "Worth building this furnace carefully; almost every material chain from here on runs through it."
+      ],
+      "before": [
+        "타우 자체는 가능성일 뿐입니다. 힘든 작업은 &cAthanor&r가 맡습니다. 열매에서 &c타우 오일&r을 짜고 나머지는 더 높은 제단에 필요한 파편으로 포화시킵니다.",
+        "",
+        "이 용광로는 신중하게 건설할 가치가 있습니다. 이제부터 거의 모든 재료 계통이 이곳을 거칩니다."
+      ],
+      "after": [
+        "Tau 자체는 가능성일 뿐입니다. 힘든 작업은 &cAthanor&r가 맡습니다. 열매에서 &cTau 기름&r을 짜고 나머지는 더 높은 제단에 필요한 파편으로 포화시킵니다.",
+        "",
+        "이 용광로는 신중하게 건설할 가치가 있습니다. 이제부터 거의 모든 재료 계통이 이곳을 거칩니다."
+      ]
+    },
+    {
+      "key": "quest.4393ADF3E4C8B0D4.quest_desc",
+      "english": [
+        "Raw will bends toward a purpose. With a catalyst and an Animus Mote pulled from a Daemonium Animaris, we turn a &cRaw&r cluster into &cRuina&r, &cNihilum&r, &cVindicta&r, or &cInvictus&r.",
+        "",
+        "Each aspect changes how our Sentient Tools behave, and each one refines rituals differently through the Ritual Configurator."
+      ],
+      "before": [
+        "가공되지 않은 의지는 목적을 향해 휘어집니다. 촉매와 Daemonium Animaris에서 얻은 Animus Mote를 사용해 &cRaw&r 군집을 &cRuina&r, &cNihilum&r, &cVindicta&r 또는 &cInvictus&r로 바꿉니다.",
+        "",
+        "각 Aspect는 의식 있는 도구의 작동 방식을 바꾸고, Ritual Configurator를 통해 의식을 서로 다르게 정제합니다."
+      ],
+      "after": [
+        "가공되지 않은 의지는 목적을 향해 휘어집니다. 촉매와 Daemonium Animaris에서 얻은 Animus 티끌를 사용해 &c미가공&r 군집을 &cRuina&r, &cNihilum&r, &cVindicta&r 또는 &cInvictus&r로 바꿉니다.",
+        "",
+        "각 속성는 지각 있는 도구의 작동 방식을 바꾸고, 의식 설정 도구를 통해 의식을 서로 다르게 정제합니다."
+      ]
+    },
+    {
+      "key": "quest.4393ADF3E4C8B0D4.quest_subtitle",
+      "english": "Any one aspect proves the craft.",
+      "before": "Aspect 하나만으로도 기술을 증명할 수 있습니다.",
+      "after": "속성 하나만으로도 기술을 증명할 수 있습니다."
+    },
+    {
+      "key": "quest.4393ADF3E4C8B0D4.title",
+      "english": "The Five Aspects",
+      "before": "다섯 Aspect",
+      "after": "다섯 속성"
+    },
+    {
+      "key": "quest.46122A9389875512.quest_desc",
+      "english": [
+        "This is where Vitaemancy shows us its real size. Every ritual needs a heart: we set a &cMaster Ritual Stone&r in the middle, mark the lesser stones around it with the &cRitual Diviner&r, and wake the working with a &cWeak Activation Crystal&r.",
+        "",
+        "Over thirty catalogued rituals are waiting for us, from the Well of Suffering to the Endless Quarry — each one does work for us that would otherwise cost our own blood."
+      ],
+      "before": [
+        "여기서 Vitaemancy의 진정한 규모가 드러납니다. 모든 의식에는 심장이 필요합니다. 가운데에 &c마스터 의식석&r을 놓고, 주변의 하위 의식석을 &cRitual Diviner&r로 표시한 뒤 &c약한 활성화 수정&r으로 의식을 깨웁니다.",
+        "",
+        "고통의 우물부터 끝없는 채석장까지 기록된 의식 서른 가지가 넘게 기다립니다. 원래라면 자신의 피를 치러야 할 작업을 각 의식이 대신해 줍니다."
+      ],
+      "after": [
+        "여기서 Vitaemancy의 진정한 규모가 드러납니다. 모든 의식에는 심장이 필요합니다. 가운데에 &c중심 의식석&r을 놓고, 주변의 하위 의식석을 &c의식 점술 도구&r로 표시한 뒤 &c약한 활성화 수정&r으로 의식을 깨웁니다.",
+        "",
+        "고통의 우물부터 끝없는 채석장까지 기록된 의식 서른 가지가 넘게 기다립니다. 원래라면 자신의 혈액을 치러야 할 작업을 각 의식이 대신해 줍니다."
+      ]
+    },
+    {
+      "key": "quest.4694863405CFB97B.quest_desc",
+      "english": [
+        "Past a Spatial Distortion sits the entrance to the &cMines&r. &cMine Dungeon Keys&r open the way in, toward the veins of Demonite.",
+        "",
+        "What haunts these halls isn't a bunch of reskinned villagers — it's ten different kinds of Daemonium, each fighting its own way. We learn them by fighting them."
+      ],
+      "before": [
+        "공간 왜곡 너머에 &c광산&r 입구가 있습니다. &c광산 던전 열쇠&r로 데모나이트 광맥을 향하는 길을 여세요.",
+        "",
+        "이 복도를 떠도는 것은 겉모습만 바꾼 주민 무리가 아닙니다. 서로 다른 방식으로 싸우는 Daemonium 열 종류가 있으며, 직접 싸우며 익혀야 합니다."
+      ],
+      "after": [
+        "공간 왜곡 너머에 &c광산&r 입구가 있습니다. &c광산 던전 열쇠&r로 Demonite 광맥을 향하는 길을 여세요.",
+        "",
+        "이 복도를 떠도는 것은 겉모습만 바꾼 주민 무리가 아닙니다. 서로 다른 방식으로 싸우는 Daemonium 열 종류가 있으며, 직접 싸우며 익혀야 합니다."
+      ]
+    },
+    {
+      "key": "quest.4840F41B536529E3.quest_desc",
+      "english": [
+        "A flask is an effect we hold in our hand. A &cTipped Throwing Dagger&r is that same effect delivered straight to someone else's throat, no need to get close at all."
+      ],
+      "before": [
+        "플라스크는 손에 들고 쓰는 효과입니다. &c효과가 묻은 투척 단검&r은 같은 효과를 가까이 갈 필요 없이 다른 이의 목에 곧장 전달합니다."
+      ],
+      "after": [
+        "플라스크는 손에 들고 쓰는 효과입니다. &c효과가 부여된 투척 단검&r은 같은 효과를 가까이 갈 필요 없이 다른 이의 목에 곧장 전달합니다."
+      ]
+    },
+    {
+      "key": "quest.4AE0C2D2D8D145F6.quest_desc",
+      "english": [
+        "The standard key opens the Endless Realm's common doors, but there's a &cMine Key&r cut specifically for the entrance guarded deep within — the one the Foreman doesn't let go of easily."
+      ],
+      "before": [
+        "일반 열쇠는 끝없는 영역의 보통 문을 열지만, 깊은 곳에서 지키는 입구 전용으로 깎은 &c광산 열쇠&r도 있습니다. 감독관이 좀처럼 놓지 않는 바로 그 열쇠입니다."
+      ],
+      "after": [
+        "일반 열쇠는 끝없는 영역의 보통 문을 열지만, 깊은 곳에서 지키는 입구 전용으로 깎은 &c광산 던전 열쇠&r도 있습니다. 감독관이 좀처럼 놓지 않는 바로 그 열쇠입니다."
+      ]
+    },
+    {
+      "key": "quest.4EBC5B191A7B12D9.quest_desc",
+      "english": [
+        "Runes are what push the altar up a tier. To climb, we lay them in rings around the basin, each new ring a bit deeper and wider than the last, with pillars or capstones joining in at higher tiers.",
+        "",
+        "Every rune starts out &cblank&r — no purpose at all — until we carve one into it: capacity, speed, or sacrifice."
+      ],
+      "before": [
+        "룬은 제단의 티어를 높이는 요소입니다. 수조 둘레에 고리 모양으로 놓되, 새로운 고리는 이전 고리보다 조금 더 깊고 넓어집니다. 높은 티어에서는 기둥이나 덮개돌도 추가됩니다.",
+        "",
+        "모든 룬은 아무 목적도 없는 &c빈&r 상태로 시작하며, 이후 용량, 속도, 희생 중 하나의 기능을 새깁니다."
+      ],
+      "after": [
+        "룬은 제단의 등급을 높이는 요소입니다. 수조 둘레에 고리 모양으로 놓되, 새로운 고리는 이전 고리보다 조금 더 깊고 넓어집니다. 높은 등급에서는 기둥이나 덮개돌도 추가됩니다.",
+        "",
+        "모든 룬은 아무 목적도 없는 &c빈&r 상태로 시작하며, 이후 용량, 속도, 희생 중 하나의 기능을 새깁니다."
+      ]
+    },
+    {
+      "key": "quest.4EE580588CC10C4E.quest_desc",
+      "english": [
+        "We dig out the veins the Foreman used to guard. &cDemonite&r is the only real source of Hellforged metal, the material that carries the altar's final tiers."
+      ],
+      "before": [
+        "감독관이 지키던 광맥을 파냅니다. &c데모나이트&r는 제단의 마지막 티어를 떠받치는 지옥벼림 금속을 얻는 유일한 진정한 원천입니다."
+      ],
+      "after": [
+        "감독관이 지키던 광맥을 파냅니다. &cDemonite&r는 제단의 마지막 등급을 떠받치는 지옥불 단조 금속을 얻는 유일한 진정한 원천입니다."
+      ]
+    },
+    {
+      "key": "quest.4EE580588CC10C4E.title",
+      "english": "Demonite",
+      "before": "데모나이트",
+      "after": "Demonite 원석"
+    },
+    {
+      "key": "quest.4F77EDCEB49EB67F.quest_desc",
+      "english": [
+        "With luck, we pull Intricate &cHellforged Parts&r from deep in the dungeon. Paired with Netherite Scrap, upgrading any rune with one doubles the value it already gave our altar."
+      ],
+      "before": [
+        "운이 좋으면 던전 깊은 곳에서 정교한 &c지옥벼림 부품&r을 얻습니다. 네더라이트 조각과 함께 룬 하나를 업그레이드하면 그 룬이 제단에 주던 수치가 두 배가 됩니다."
+      ],
+      "after": [
+        "운이 좋으면 던전 깊은 곳에서 정교한 &c지옥불 단조 부품&r을 얻습니다. 네더라이트 조각과 함께 룬 하나를 업그레이드하면 그 룬이 제단에 주던 수치가 두 배가 됩니다."
+      ]
+    },
+    {
+      "key": "quest.54AB11938676D4C7.quest_desc",
+      "english": [
+        "Blood doesn't just multiply power, it multiplies wealth too. We brew &cCutting Fluid&r in the Tabula Vitae and dissolve an ore in it: the slab strips the metal from the stone, two dust for every ore we offer.",
+        "",
+        "We smelt that dust into a finished ingot — double what a normal furnace pulls from the same rock."
+      ],
+      "before": [
+        "피는 힘뿐 아니라 부도 늘려 줍니다. Tabula Vitae에서 &c절삭유&r를 만들고 광석을 녹이세요. 석판이 돌에서 금속을 분리해 넣은 광석 하나마다 가루 두 개를 만듭니다.",
+        "",
+        "그 가루를 제련하면 완성된 주괴가 됩니다. 같은 광석을 일반 용광로에 넣었을 때보다 두 배입니다."
+      ],
+      "after": [
+        "혈액은 힘뿐 아니라 부도 늘려 줍니다. Tabula Vitae에서 &c절삭유&r를 만들고 광석을 녹이세요. 석판이 돌에서 금속을 분리해 넣은 광석 하나마다 가루 두 개를 만듭니다.",
+        "",
+        "그 가루를 제련하면 완성된 주괴가 됩니다. 같은 광석을 일반 용광로에 넣었을 때보다 두 배입니다."
+      ]
+    },
+    {
+      "key": "quest.564AD8763F753C74.quest_desc",
+      "english": [
+        "If raising the altar starts to feel slow, there's another road open: &6potioncrafting&r unlocks as soon as we hit Tier I. We can brew &cAlchemy Flasks&r carrying dozens of effects to drink or throw whenever we need them.",
+        "",
+        "Nobody walking around with a full flask belt is ever really unprotected."
+      ],
+      "before": [
+        "제단을 높이는 일이 느리게 느껴진다면 다른 길도 있습니다. 티어 I에 도달하는 순간 &6potioncrafting&r이 열립니다. 필요할 때 마시거나 던질 수 있는 수십 가지 효과의 &c연금술 플라스크&r를 만들 수 있습니다.",
+        "",
+        "플라스크 허리띠를 가득 채우고 다니는 사람은 사실상 무방비 상태가 될 일이 없습니다."
+      ],
+      "after": [
+        "제단을 높이는 일이 느리게 느껴진다면 다른 길도 있습니다. 등급 I에 도달하는 순간 &6물약 제작&r이 열립니다. 필요할 때 마시거나 던질 수 있는 수십 가지 효과의 &c연금술 플라스크&r를 만들 수 있습니다.",
+        "",
+        "플라스크 허리띠를 가득 채우고 다니는 사람은 사실상 무방비 상태가 될 일이 없습니다."
+      ]
+    },
+    {
+      "key": "quest.56DDCB2865CEB9D3.quest_desc",
+      "english": [
+        "The &cSpiritus Aura Gauge&r shows the local concentration of will nearby. Sneaking while holding it gives us exact numbers per Aspect, from &e0 to 100&r — handy when we're deciding where to grow our next crystal."
+      ],
+      "before": [
+        "&cSpiritus 오라 측정기&r는 주변에 모인 의지의 농도를 보여 줍니다. 들고 웅크리면 Aspect마다 &e0에서 100&r까지 정확한 수치를 보여 주므로 다음 수정을 기를 장소를 정할 때 유용합니다."
+      ],
+      "after": [
+        "&cSpiritus 오라 측정기&r는 주변에 모인 의지의 농도를 보여 줍니다. 들고 웅크리면 속성마다 &e0에서 100&r까지 정확한 수치를 보여 주므로 다음 수정을 기를 장소를 정할 때 유용합니다."
+      ]
+    },
+    {
+      "key": "quest.56F4E4845B8F12BB.quest_desc",
+      "english": [
+        "Not every offering to the altar needs to become an orb — this one becomes a foundation. Smooth stone, run through a &cTier 0&r Ara Vitae for &e1,000 EV&r, turns into &cTabula Rasa&r: deepslate ready for the first marks we carve into it.",
+        "",
+        "It's what we'll scribe almost every sigil onto, and it's only the first rung of a longer ladder — Robur, Animata, Spiritus, and finally Aetherea, each one asking for a stronger altar and more blood."
+      ],
+      "before": [
+        "제단에 바친 모든 것이 오브가 될 필요는 없습니다. 이번 제물은 기초 재료가 됩니다. 매끄러운 돌을 &c티어 0&r Ara Vitae에서 &e1,000 EV&r로 가공하면 첫 문양을 새길 준비가 된 심층암인 &cTabula Rasa&r가 됩니다.",
+        "",
+        "거의 모든 인장은 이 위에 새깁니다. 더 긴 사다리의 첫 단계일 뿐이며, 이후 Robur, Animata, Spiritus, 마지막으로 Aetherea까지 각 단계마다 더 강한 제단과 더 많은 피가 필요합니다."
+      ],
+      "after": [
+        "제단에 바친 모든 것이 구슬이 될 필요는 없습니다. 이번 제물은 기초 재료가 됩니다. 매끄러운 돌을 &c등급 0&r Ara Vitae에서 &e1,000 EV&r로 가공하면 첫 문양을 새길 준비가 된 심층암인 &cTabula Rasa&r가 됩니다.",
+        "",
+        "거의 모든 인장은 이 위에 새깁니다. 더 긴 사다리의 첫 단계일 뿐이며, 이후 Robur, Animata, Spiritus, 마지막으로 Aetherea까지 각 단계마다 더 강한 제단과 더 많은 혈액이 필요합니다."
+      ]
+    },
+    {
+      "key": "quest.56F4E4845B8F12BB.title",
+      "english": "The Blank Slate",
+      "before": "빈 석판",
+      "after": "Tabula Rasa"
+    },
+    {
+      "key": "quest.5785D68A5F1ED2D2.quest_desc",
+      "english": [
+        "Only the Antechamber, past the veil, grows this strange fruit. &cWeak Tau&r carries a piece of the demon realm's own vitality — we carry it home and let animals walk over it.",
+        "",
+        "They take a little damage over time, and every tick there's a chance the fruit saturates further, until it ripens at last into &cStrong Tau&r, dense enough to refine."
+      ],
+      "before": [
+        "장막 너머 전실에서만 이 낯선 열매가 자랍니다. &c약한 타우&r에는 악마 영역의 생명력이 일부 담겨 있습니다. 집으로 가져와 동물이 그 위를 걷게 하세요.",
+        "",
+        "동물은 시간이 지나며 조금씩 피해를 받고, 매 틱마다 열매가 더 포화될 확률이 생깁니다. 마침내 충분히 무르익으면 정제할 수 있을 만큼 밀도 높은 &c강한 타우&r가 됩니다."
+      ],
+      "after": [
+        "장막 너머 전실에서만 이 낯선 열매가 자랍니다. &c약한 Tau&r에는 악마 영역의 생명력이 일부 담겨 있습니다. 집으로 가져와 동물이 그 위를 걷게 하세요.",
+        "",
+        "동물은 시간이 지나며 조금씩 피해를 받고, 매 틱마다 열매가 더 포화될 확률이 생깁니다. 마침내 충분히 무르익으면 정제할 수 있을 만큼 밀도 높은 &c강력한 Tau&r가 됩니다."
+      ]
+    },
+    {
+      "key": "quest.5785D68A5F1ED2D2.title",
+      "english": "The Tau Harvest",
+      "before": "타우 수확",
+      "after": "Tau 수확"
+    },
+    {
+      "key": "quest.5AA17C1657E8E5DE.quest_desc",
+      "english": [
+        "We carve upgrades onto our Sentient Armour with &cUpgrade Tomes&r. One click adds a level; sneak and use to bank the maximum at once.",
+        "",
+        "Body Builder, Repair, Fierce Strike, Dwarven Might — we build the body that fits how we play."
+      ],
+      "before": [
+        "&c업그레이드 서&r로 의식 있는 방어구에 업그레이드를 새깁니다. 한 번 클릭하면 레벨 하나가 추가되고, 웅크린 채 사용하면 가능한 최대 레벨을 한꺼번에 저장합니다.",
+        "",
+        "Body Builder, Repair, Fierce Strike, Dwarven Might 등 원하는 플레이 방식에 맞는 몸을 만들어 보세요."
+      ],
+      "after": [
+        "&c업그레이드의 서&r로 지각 있는 방어구에 업그레이드를 새깁니다. 한 번 클릭하면 레벨 하나가 추가되고, 웅크린 채 사용하면 가능한 최대 레벨을 한꺼번에 저장합니다.",
+        "",
+        "근육 단련, 수리, 맹렬한 일격, 드워프의 힘 등 원하는 플레이 방식에 맞는 몸을 만들어 보세요."
+      ]
+    },
+    {
+      "key": "quest.5ACB4565C6B2466C.quest_desc",
+      "english": [
+        "A &cCrystal Catalyst&r speeds up the growth of a similarly aspected cluster: a raw catalyst on a raw crystal makes it grow noticeably faster.",
+        "",
+        "An &caspected&r catalyst goes further still — it flips the growing crystal's type over to the new aspect entirely."
+      ],
+      "before": [
+        "&c수정 촉매&r는 같은 Aspect를 지닌 군집의 성장을 빠르게 합니다. Raw 촉매를 Raw 수정에 사용하면 눈에 띄게 더 빨리 자랍니다.",
+        "",
+        "&cAspect가 부여된&r 촉매는 한 걸음 더 나아가 자라던 수정의 종류를 새 Aspect로 완전히 바꿉니다."
+      ],
+      "after": [
+        "&c수정 촉매&r는 같은 속성를 지닌 군집의 성장을 빠르게 합니다. 미가공 촉매를 미가공 수정에 사용하면 눈에 띄게 더 빨리 자랍니다.",
+        "",
+        "&c속성가 부여된&r 촉매는 한 걸음 더 나아가 자라던 수정의 종류를 새 속성로 완전히 바꿉니다."
+      ]
+    },
+    {
+      "key": "quest.5C3EA8B4F5949406.quest_desc",
+      "english": [
+        "The &cHellfire Forge&r eats &6Spiritus&r, the residue we tear from creatures wounded by our daggers or our blade. Feed it Spiritus Gems and it pays us back in kind: more gems, &cSentient Tools&r, volatile charges, and more.",
+        "",
+        "It never stops being hungry. We keep it fed."
+      ],
+      "before": [
+        "&c지옥불 대장간&r은 단검이나 칼날에 상처 입은 생물에게서 뜯어낸 잔류물인 &6Spiritus&r를 먹습니다. Spiritus 보석을 넣으면 더 많은 보석, &c의식 있는 도구&r, 불안정한 폭약 등으로 돌려줍니다.",
+        "",
+        "결코 배부르지 않으니 계속 먹여야 합니다."
+      ],
+      "after": [
+        "&c지옥불 대장간&r은 단검이나 칼날에 상처 입은 생물에게서 뜯어낸 잔류물인 &6Spiritus&r를 먹습니다. Spiritus 보석을 넣으면 더 많은 보석, &c지각 있는 도구&r, 불안정한 폭약 등으로 돌려줍니다.",
+        "",
+        "결코 배부르지 않으니 계속 먹여야 합니다."
+      ]
+    },
+    {
+      "key": "quest.602884068EC40EDB.quest_desc",
+      "english": [
+        "A &cSentient Sword&r harvests far more Spiritus than any thrown dagger, and it gets stronger the more will we feed it over time — a weapon that carries the memory of every fight.",
+        "",
+        "Expensive this early on, but it pays off."
+      ],
+      "before": [
+        "&c의식 있는 검&r은 투척 단검보다 훨씬 많은 Spiritus를 수확하며, 시간이 지나며 의지를 공급할수록 강해집니다. 모든 전투의 기억을 품는 무기입니다.",
+        "",
+        "초반에는 비싸지만 값어치를 합니다."
+      ],
+      "after": [
+        "&c지각 있는 검&r은 투척 단검보다 훨씬 많은 Spiritus를 수확하며, 시간이 지나며 의지를 공급할수록 강해집니다. 모든 전투의 기억을 품는 무기입니다.",
+        "",
+        "초반에는 비싸지만 값어치를 합니다."
+      ]
+    },
+    {
+      "key": "quest.602884068EC40EDB.title",
+      "english": "Sentient Steel",
+      "before": "의식 있는 강철",
+      "after": "지각 있는 강철"
+    },
+    {
+      "key": "quest.6101AB772B0317F1.quest_desc",
+      "english": [
+        "We can't manage what we can't measure. The &cDivination Sigil&r, scribed on the Alchemy Array, shows how much Anima we're holding and how much EV an altar in front of us has stored.",
+        "",
+        "Craft the &cSeer's Sigil&r too and we get even more: exact progress, EV per tick, charge reserve. We'll need that once we start aiming for higher tiers."
+      ],
+      "before": [
+        "측정할 수 없는 것은 관리할 수도 없습니다. 연금술 마법진에 새긴 &c점술의 인장&r은 보유한 Anima와 눈앞 제단에 저장된 EV를 보여 줍니다.",
+        "",
+        "&c선견자의 인장&r도 제작하면 정확한 진행도, 틱당 EV, 충전 비축량까지 더 자세히 볼 수 있습니다. 높은 티어를 목표로 할 때 꼭 필요합니다."
+      ],
+      "after": [
+        "측정할 수 없는 것은 관리할 수도 없습니다. 연금술진에 새긴 &c점술의 인장&r은 보유한 Anima와 눈앞 제단에 저장된 EV를 보여 줍니다.",
+        "",
+        "&c예지자의 인장&r도 제작하면 정확한 진행도, 틱당 EV, 충전 비축량까지 더 자세히 볼 수 있습니다. 높은 등급을 목표로 할 때 꼭 필요합니다."
+      ]
+    },
+    {
+      "key": "quest.65BD73DA55BCC624.quest_desc",
+      "english": [
+        "&cBlood is the currency of power here.&r We start with nothing but a knife and a wound, and from those first drops we will raise an altar that can drink whole ecosystems dry, tie our soul to a hundred reservoirs, turn demons into tools, and tear open a dimension that wants us dead.",
+        "",
+        "We call this craft &6Vitaemancy&r — turning blood into &cEssentia Vitae&r (EV), the fuel behind every altar, sigil, ritual and forge we're about to build.",
+        "",
+        "Our first step is simple: set an &cAra Vitae&r on flat stone we can walk all the way around. It has no blood of its own yet, so it borrows a little from whoever stands nearby — never enough to kill, just enough to wake it up."
+      ],
+      "before": [
+        "&c이곳에서 피는 힘을 사는 화폐입니다.&r 칼 한 자루와 상처 하나뿐인 상태로 시작하지만, 첫 핏방울에서 출발해 생태계 전체의 피를 말릴 수 있는 제단을 세우고, 영혼을 백 개의 저장소에 묶고, 악마를 도구로 바꾸며, 우리를 죽이려는 차원을 찢어 열게 됩니다.",
+        "",
+        "이 기술을 &6Vitaemancy&r라고 합니다. 피를 &cEssentia Vitae&r(EV)로 바꾸는 기술이며, 앞으로 만들 모든 제단, 인장, 의식, 대장간의 연료가 됩니다.",
+        "",
+        "첫 단계는 간단합니다. 사방을 걸어 다닐 수 있는 평평한 돌 위에 &cAra Vitae&r를 놓으세요. 아직 자체적으로 가진 피가 없어 근처에 선 사람에게서 조금 빌립니다. 죽일 만큼은 아니고, 깨어날 만큼만 가져갑니다."
+      ],
+      "after": [
+        "&c이곳에서 혈액은 힘을 사는 화폐입니다.&r 칼 한 자루와 상처 하나뿐인 상태로 시작하지만, 첫 핏방울에서 출발해 생태계 전체의 혈액을 말릴 수 있는 제단을 세우고, 영혼을 백 개의 저장소에 묶고, 악마를 도구로 바꾸며, 우리를 죽이려는 차원을 찢어 열게 됩니다.",
+        "",
+        "이 기술을 &6Vitaemancy&r라고 합니다. 혈액을 &cEssentia Vitae&r(EV)로 바꾸는 기술이며, 앞으로 만들 모든 제단, 인장, 의식, 대장간의 연료가 됩니다.",
+        "",
+        "첫 단계는 간단합니다. 사방을 걸어 다닐 수 있는 평평한 돌 위에 &cAra Vitae&r를 놓으세요. 아직 자체적으로 가진 혈액이 없어 근처에 선 사람에게서 조금 빌립니다. 죽일 만큼은 아니고, 깨어날 만큼만 가져갑니다."
+      ]
+    },
+    {
+      "key": "quest.65BD73DA55BCC624.quest_subtitle",
+      "english": "A journey written in blood.",
+      "before": "피로 쓰인 여정.",
+      "after": "혈액으로 쓰인 여정."
+    },
+    {
+      "key": "quest.671F7551CBDF462F.quest_desc",
+      "english": [
+        "The &cHighway to Hell&r ritual opens a permanent gate into the Endless Realm. We go in armed and armored; nobody unprepared comes out of this well.",
+        "",
+        "The deeper we push, the more signs we'll see of rifts opening or something stirring below. New door types — like the mine entrance — unlock as we go; worth watching for them and picking the right key at the right time."
+      ],
+      "before": [
+        "&cHighway to Hell&r 의식은 끝없는 영역으로 가는 영구 관문을 엽니다. 무기와 방어구를 갖추고 들어가세요. 준비하지 않은 사람은 이 구덩이에서 나오지 못합니다.",
+        "",
+        "더 깊이 나아갈수록 균열이 열리거나 아래에서 무언가 깨어나는 흔적을 더 많이 보게 됩니다. 광산 입구 같은 새로운 문 종류도 진행하면서 열립니다. 잘 살펴보고 때에 맞는 열쇠를 고르세요."
+      ],
+      "after": [
+        "&c지옥으로 가는 길&r 의식은 끝없는 영역으로 가는 영구 관문을 엽니다. 무기와 방어구를 갖추고 들어가세요. 준비하지 않은 사람은 이 구덩이에서 나오지 못합니다.",
+        "",
+        "더 깊이 나아갈수록 균열이 열리거나 아래에서 무언가 깨어나는 흔적을 더 많이 보게 됩니다. 광산 입구 같은 새로운 문 종류도 진행하면서 열립니다. 잘 살펴보고 때에 맞는 열쇠를 고르세요."
+      ]
+    },
+    {
+      "key": "quest.671F7551CBDF462F.title",
+      "english": "Highway to Hell",
+      "before": "Highway to Hell",
+      "after": "지옥으로 가는 길"
+    },
+    {
+      "key": "quest.702FC3E5D0D6C31F.quest_desc",
+      "english": [
+        "We close the widest ring of all and reach 172 runes in total. Tall pillars rise at the cardinal sides, crowned with &cCrystal Clusters&r — this is the Ara Vitae in its final form, unmatched in capacity and crafting power.",
+        "",
+        "The &cDivinus Orb of Vitae&r caps it off: &e10,000,000 EV&r of Anima. We asked what this power costs. Now we know: everything, handed over a drop at a time, until asking and answering become the same act."
+      ],
+      "before": [
+        "가장 넓은 마지막 고리를 닫아 룬이 총 172개가 됩니다. 네 방위에 높은 기둥이 솟고 &c수정 군집&r이 꼭대기를 장식합니다. 용량과 제작 능력에서 견줄 수 없는 Ara Vitae의 최종 형태입니다.",
+        "",
+        "&cDivinus Orb of Vitae&r가 마지막을 완성합니다. Anima를 &e10,000,000 EV&r까지 담습니다. 이 힘의 대가가 무엇인지 물었고, 이제 답을 압니다. 한 방울씩 모든 것을 내주다 보면 질문과 답이 같은 행위가 됩니다."
+      ],
+      "after": [
+        "가장 넓은 마지막 고리를 닫아 룬이 총 172개가 됩니다. 네 방위에 높은 기둥이 솟고 &c수정 군집&r이 꼭대기를 장식합니다. 용량과 제작 능력에서 견줄 수 없는 Ara Vitae의 최종 형태입니다.",
+        "",
+        "&cDivinus Vitae 구슬&r이 마지막을 완성합니다. Anima를 &e10,000,000 EV&r까지 담습니다. 이 힘의 대가가 무엇인지 물었고, 이제 답을 압니다. 한 방울씩 모든 것을 내주다 보면 질문과 답이 같은 행위가 됩니다."
+      ]
+    },
+    {
+      "key": "quest.702FC3E5D0D6C31F.title",
+      "english": "Tier V: The Pinnacle",
+      "before": "티어 V: 정점",
+      "after": "등급 V: 정점"
+    },
+    {
+      "key": "quest.71E0D06EA65172CF.quest_desc",
+      "english": [
+        "We don't need to watch everything bleed out slowly. A plain &cThrowing Dagger&r covers us at range early on, and it kicks off something bigger: our whole &6Spiritus&r economy.",
+        "",
+        "Whatever we wound with a thrown dagger leaves &cRaw Spiritus&r behind when it dies. Pick it up — the Hellfire Forge is going to want it."
+      ],
+      "before": [
+        "모든 생물이 천천히 피 흘려 죽는 모습을 지켜볼 필요는 없습니다. 평범한 &c투척 단검&r은 초반 원거리 공격을 맡으며, 더 큰 체계인 전체 &6Spiritus&r 경제의 시작점이 됩니다.",
+        "",
+        "투척 단검에 상처 입은 대상은 죽을 때 &cRaw Spiritus&r를 남깁니다. 주워 두세요. 지옥불 대장간이 필요로 합니다."
+      ],
+      "after": [
+        "모든 생물이 천천히 피 흘려 죽는 모습을 지켜볼 필요는 없습니다. 평범한 &c투척 단검&r은 초반 원거리 공격을 맡으며, 더 큰 체계인 전체 &6Spiritus&r 경제의 시작점이 됩니다.",
+        "",
+        "투척 단검에 상처 입은 대상은 죽을 때 &c가공되지 않은 Spiritus&r를 남깁니다. 주워 두세요. 지옥불 대장간이 필요로 합니다."
+      ]
+    },
+    {
+      "key": "quest.73391A08D7615C77.quest_desc",
+      "english": [
+        "We lay a &bdiamond&r on the still-empty altar. Two thousand EV, pulled from whoever is nearby, is enough to turn it into our first &cNovicius Orb of Vitae&r — the anchor for our &6Anima&r, the hidden network that will carry our soul into everything we craft from here on.",
+        "",
+        "One right-click binds the orb to us for good. After that we can offer our own blood whenever we want: near an altar it pours straight into the basin, and away from one it simply waits inside the orb until we're ready.",
+        "",
+        "Even this first, humble orb pushes our Anima up to &e5,000 EV&r. It's the smallest of six steps, but every step after this one depends on it."
+      ],
+      "before": [
+        "아직 비어 있는 제단에 &b다이아몬드&r를 놓습니다. 근처 사람에게서 끌어온 EV 이천이면 첫 &cNovicius Orb of Vitae&r로 바뀝니다. &6Anima&r의 닻이자, 앞으로 만드는 모든 것에 영혼을 이어 줄 숨겨진 네트워크입니다.",
+        "",
+        "한 번 우클릭하면 오브가 영구히 결속됩니다. 그 뒤에는 원할 때 자신의 피를 바칠 수 있습니다. 제단 근처에서는 수조로 곧장 흐르고, 제단에서 멀리 떨어지면 사용할 때까지 오브 안에 머뭅니다.",
+        "",
+        "이 작고 소박한 첫 오브도 Anima를 &e5,000 EV&r까지 높여 줍니다. 여섯 단계 중 가장 작지만 이후 모든 단계가 이 오브에 의존합니다."
+      ],
+      "after": [
+        "아직 비어 있는 제단에 &b다이아몬드&r를 놓습니다. 근처 사람에게서 끌어온 EV 이천이면 첫 &cNovicius Vitae 구슬&r로 바뀝니다. &6Anima&r의 닻이자, 앞으로 만드는 모든 것에 영혼을 이어 줄 숨겨진 네트워크입니다.",
+        "",
+        "한 번 우클릭하면 구슬이 영구히 결속됩니다. 그 뒤에는 원할 때 자신의 혈액을 바칠 수 있습니다. 제단 근처에서는 수조로 곧장 흐르고, 제단에서 멀리 떨어지면 사용할 때까지 구슬 안에 머뭅니다.",
+        "",
+        "이 작고 소박한 첫 구슬도 Anima를 &e5,000 EV&r까지 높여 줍니다. 여섯 단계 중 가장 작지만 이후 모든 단계가 이 구슬에 의존합니다."
+      ]
+    },
+    {
+      "key": "quest.73391A08D7615C77.title",
+      "english": "Bind a Novicius Orb",
+      "before": "Novicius 오브 결속",
+      "after": "Novicius Vitae 구슬 결속"
+    },
+    {
+      "key": "quest.759B0D6F8C0CC1EF.quest_desc",
+      "english": [
+        "Eight &cBlank Runes&r already close our first ring, one level below the basin, in a 3x3 shape with the center left open. The four cardinal slots take specialized runes; we leave the diagonals alone for now — they only matter at higher tiers.",
+        "",
+        "With the altar at this tier, we can also carry a bound orb in our off-hand and pull EV straight from whatever we kill, sparing our own blood."
+      ],
+      "before": [
+        "&c빈 룬&r 여덟 개로 수조 한 단계 아래에 첫 고리를 완성합니다. 가운데를 비운 3x3 모양입니다. 네 방위 슬롯에는 특수 룬을 놓고 대각선은 지금 비워 두세요. 대각선은 더 높은 티어에서만 필요합니다.",
+        "",
+        "이 티어의 제단에서는 결속된 오브를 보조 손에 들고 처치한 대상에게서 EV를 직접 끌어와 자신의 피를 아낄 수도 있습니다."
+      ],
+      "after": [
+        "&c빈 룬&r 여덟 개로 수조 한 단계 아래에 첫 고리를 완성합니다. 가운데를 비운 3x3 모양입니다. 네 방위 슬롯에는 특수 룬을 놓고 대각선은 지금 비워 두세요. 대각선은 더 높은 등급에서만 필요합니다.",
+        "",
+        "이 등급의 제단에서는 결속된 구슬을 보조 손에 들고 처치한 대상에게서 EV를 직접 끌어와 자신의 혈액을 아낄 수도 있습니다."
+      ]
+    },
+    {
+      "key": "quest.759B0D6F8C0CC1EF.title",
+      "english": "Tier I: The Ring of Runes",
+      "before": "티어 I: 룬의 고리",
+      "after": "등급 I: 룬의 고리"
+    },
+    {
+      "key": "quest.7731623EA92027D9.quest_desc",
+      "english": [
+        "We reach 100 runes in total, with one more ring, deeper still, stacked on top of the previous ones. A &cHellforged Block&r closes each of the four cardinal points, and the altar climbs to &cTier IV&r — home to the most destructive rites in all of Vitaemancy.",
+        "",
+        "Here we forge the &cDominus Orb of Vitae&r — &e5,000,000 EV&r of Anima, a thousand times what our very first orb gave us."
+      ],
+      "before": [
+        "기존 고리 위에 더 깊은 고리 하나를 쌓아 룬이 총 100개가 됩니다. 네 방위에는 &c지옥벼림 블록&r을 놓아 마감하고, 제단은 Vitaemancy에서 가장 파괴적인 의식을 품은 &c티어 IV&r로 올라갑니다.",
+        "",
+        "여기서 Anima를 &e5,000,000 EV&r까지 담는 &cDominus Orb of Vitae&r를 제작합니다. 첫 오브가 주던 용량의 천 배입니다."
+      ],
+      "after": [
+        "기존 고리 위에 더 깊은 고리 하나를 쌓아 룬이 총 100개가 됩니다. 네 방위에는 &c지옥불 단조 블록&r을 놓아 마감하고, 제단은 Vitaemancy에서 가장 파괴적인 의식을 품은 &c등급 IV&r로 올라갑니다.",
+        "",
+        "여기서 Anima를 &e5,000,000 EV&r까지 담는 &cDominus Vitae 구슬&r을 제작합니다. 첫 구슬이 주던 용량의 천 배입니다."
+      ]
+    },
+    {
+      "key": "quest.7731623EA92027D9.title",
+      "english": "Tier IV: The Archmage's Orb",
+      "before": "티어 IV: 대마법사의 오브",
+      "after": "등급 IV: Dominus Vitae 구슬"
+    },
+    {
+      "key": "quest.7AFEB7A91DC8F413.quest_desc",
+      "english": [
+        "The Novicius Orb no longer holds enough for us. Once the altar reaches Tier I, we can forge the &cDiscipulus Orb of Vitae&r instead — it stores far more and drains faster too.",
+        "",
+        "With it, our Anima's ceiling climbs to &e25,000 EV&r — five times what we had before."
+      ],
+      "before": [
+        "Novicius 오브의 용량만으로는 더 이상 부족합니다. 제단이 티어 I에 도달하면 대신 &cDiscipulus Orb of Vitae&r를 제작할 수 있습니다. 훨씬 많이 저장하고 더 빠르게 피를 뽑아냅니다.",
+        "",
+        "이 오브를 사용하면 Anima의 한도가 &e25,000 EV&r로 올라가 이전보다 다섯 배가 됩니다."
+      ],
+      "after": [
+        "Novicius Vitae 구슬의 용량만으로는 더 이상 부족합니다. 제단이 등급 I에 도달하면 대신 &cDiscipulus Vitae 구슬&r을 제작할 수 있습니다. 훨씬 많이 저장하고 더 빠르게 혈액을 뽑아냅니다.",
+        "",
+        "이 구슬을 사용하면 Anima의 한도가 &e25,000 EV&r로 올라가 이전보다 다섯 배가 됩니다."
+      ]
+    },
+    {
+      "key": "quest.7AFEB7A91DC8F413.title",
+      "english": "The Apprentice's Orb",
+      "before": "수습생의 오브",
+      "after": "Discipulus Vitae 구슬"
+    },
+    {
+      "key": "quest.7B293C32824033F9.quest_desc",
+      "english": [
+        "The &cCrystallum Fractura&r ritual automates the harvest for us: it doubles the growth speed of every crystal type in range and picks each one the moment it matures.",
+        "",
+        "For every fully-grown crystal it collects, it applies bonus Fortune scaled to the chunk's Raw Spiritus. We activate it, and let it run on its own."
+      ],
+      "before": [
+        "&cCrystallum Fractura&r 의식은 수확을 자동화합니다. 범위 안 모든 종류의 수정 성장 속도를 두 배로 높이고, 완전히 자라는 순간 수확합니다.",
+        "",
+        "완전히 자란 수정을 거둘 때마다 청크의 Raw Spiritus에 따라 행운 보너스가 적용됩니다. 활성화한 뒤 스스로 작동하게 두세요."
+      ],
+      "after": [
+        "&cCrystallum Fractura&r 의식은 수확을 자동화합니다. 범위 안 모든 종류의 수정 성장 속도를 두 배로 높이고, 완전히 자라는 순간 수확합니다.",
+        "",
+        "완전히 자란 수정을 거둘 때마다 청크의 가공되지 않은 Spiritus에 따라 행운 보너스가 적용됩니다. 활성화한 뒤 스스로 작동하게 두세요."
+      ]
+    },
+    {
+      "key": "quest.7C7C061FC04B89FB.quest_desc",
+      "english": [
+        "Demonite, once refined, becomes &cHellforged Ingots&r — the backbone of nearly everything we'll build in the endgame."
+      ],
+      "before": [
+        "데모나이트를 정제하면 &c지옥벼림 주괴&r가 됩니다. 최종 단계에서 만들 거의 모든 것의 뼈대입니다."
+      ],
+      "after": [
+        "Demonite를 정제하면 &c지옥불 단조 주괴&r가 됩니다. 최종 단계에서 만들 거의 모든 것의 뼈대입니다."
+      ]
+    },
+    {
+      "key": "quest.7C7C061FC04B89FB.title",
+      "english": "Hellforged Steel",
+      "before": "지옥벼림 강철",
+      "after": "지옥불 단조 주괴"
+    },
+    {
+      "key": "quest.7CF9A68167ADAD1A.quest_desc",
+      "english": [
+        "We forge a &cMaster Routing Node Core&r to raise how much the network carries per transmission, and a &cSpeed Core&r to send those transmissions more often.",
+        "",
+        "We seat as many as we want. A network fed like that can move oceans in moments."
+      ],
+      "before": [
+        "전송 한 번에 네트워크가 운반하는 양을 늘리는 &c마스터 라우팅 노드 코어&r와 전송 빈도를 높이는 &c속도 코어&r를 제작합니다.",
+        "",
+        "원하는 만큼 장착할 수 있습니다. 그렇게 강화한 네트워크는 순식간에 바다도 옮길 수 있습니다."
+      ],
+      "after": [
+        "전송 한 번에 네트워크가 운반하는 양을 늘리는 &c운송 묶음 업그레이드&r와 전송 빈도를 높이는 &c운송 속도 업그레이드&r를 제작합니다.",
+        "",
+        "원하는 만큼 장착할 수 있습니다. 그렇게 강화한 네트워크는 순식간에 바다도 옮길 수 있습니다."
+      ]
+    }
+  ],
+  "notes": [
+    "숨겨진 저작권 Task AllRightsReserved 2개는 원문 그대로 유지해요.",
+    "향 제단은 전용 챕터 원문에 등장하지 않아 문구를 추가하지 않아요.",
+    "원문 Ritual Diviner [Dusk]와 현재 아이템 [Tenebrae] 불일치는 원문의 Dusk를 보존하고 보고해요.",
+    "419DB4A2A5A5FC58의 설명은 Mine Entrance Key, Task는 mine_key(Mine Dungeon Key)예요. 설명의 원문 이름과 실제 Task 아이템 이름을 각각 보존해요.",
+    "전용 챕터 밖 chapter_2_the_star의 6FC55CF56BE22866은 Teleposer 아이템 fallback을 사용해요."
+  ]
+}
