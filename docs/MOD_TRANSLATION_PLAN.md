@@ -21,7 +21,7 @@
 - Minecraft: 1.21.1
 - 설치 모드 기준: 2026-08-31 `game_root/mods`의 JAR 488개
 - 8.1 조사 자료: 영어 언어 네임스페이스 398개, FTB Quests 챕터 66개
-- 현재 output 상태: 보조 번역 실행 코드를 제외한 `8.1-stable.2`과 `7.1-stable.1`을 제공한다.
+- 현재 output 상태: 보조 번역 실행 코드를 제외한 `8.1-stable.3`과 `7.1-stable.1`을 제공한다.
   일반 언어·퀘스트·가이드와 원래 KubeJS 번역은 유지하며 실제 적용은 사용자가 한다.
 - 보조 번역 제외 범위와 후속 검토: `docs/AUXILIARY_TRANSLATION_SCRIPTS.md`
 - 사용자 안정판 정상 작동 확인을 받았다. 화면·버전별 상세 확인 목록은 없으므로 전체 완역·전체 기능 검증을 뜻하지 않는다.
@@ -76,7 +76,7 @@
 | 순서 | 모드 / 네임스페이스 | 영어 키 | JAR 한국어 후보 | 현재 상태·선정 이유 |
 |---|---|---:|---:|---|
 | 1 | Auroral / `auroral` | 148 | 0 | 언어 148키·GuideME 29페이지 완료, 퀘스트 46키 검수. stable.2 배포 |
-| 2 | Neo Vitae / `neovitae` | 3,053 | 0 | 일반 이름·UI 작업 완료, 가이드 번역 진행 중. 전용 퀘스트 용어 검수 |
+| 2 | Neo Vitae / `neovitae` | 3,053 | 0 | 언어 3,053키·직접 문구 61키 완료, 퀘스트 105키 검수. stable.3 배포 |
 | 3 | Ad Astra / `ad_astra` | 831 | 414 | 전체 검수 미작업, 우주 콘텐츠 본체 |
 | 3 | Ad Astra: Giselle Addon / `ad_astra_giselle_addon` | 168 | 162 | 본체와 함께 후보 검수·용어 통일 |
 | 4 | Logistics Network / `logisticsnetworks` | 454 | 0 | 일반 언어 미작업, 자동화 사용 안내 |

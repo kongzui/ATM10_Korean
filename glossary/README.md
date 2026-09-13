@@ -266,6 +266,16 @@
 | Dungeon Alternator | 던전 교번기 | 블록명 | Neo Vitae | 확정 | 레드스톤 신호를 주기적으로 켜고 끄는 장치 |
 | Petty / Lesser / Common / Greater / Grand | 최하급 / 하급 / 일반 / 상급 / 최상급 | 등급 | Neo Vitae Spiritus 보석 | 확정 | 단계별 이름 구분을 보존 |
 
+| Teleposer / Teleposer Focus | Teleposer / Teleposer 초점 | 아이템·기술 용어 | Neo Vitae | 확정 | 고유 장치 이름을 유지하며 Teleposition은 순간이동으로 구분 |
+| Input / Output / Master Routing Node | 입력 / 출력 / 중심 운송 노드 | 아이템·기술 용어 | Neo Vitae | 확정 | 노드 역할 구분 보존 |
+| Routing Conduit / Node Router | 운송 도관 / 노드 연결 도구 | 아이템·기술 용어 | Neo Vitae | 확정 | 운송 네트워크의 구성 블록과 연결 도구 구분 |
+| Routing Stack / Speed Upgrade | 운송 묶음 / 속도 업그레이드 | 아이템·기술 용어 | Neo Vitae | 확정 | 표시 이름은 운송 묶음 업그레이드와 운송 속도 업그레이드 |
+| Raw Spiritus / Spirit Accumulator | 가공되지 않은 Spiritus / 영혼 축적기 | 아이템·기술 용어 | Neo Vitae | 확정 | 속성만 나타내는 Raw는 미가공 |
+| Aura / Tranquility / Soul Fray | 오라 / 평온도 / 영혼 마모 | 아이템·기술 용어 | Neo Vitae | 확정 | 수치 자원과 상태 효과 구분 |
+| Sanguine Reverter / Ethereal Mimic | 혈액 회수기 / 에테르 모방 블록 | 아이템·기술 용어 | Neo Vitae | 확정 | 현재 아이템명과 가이드 일치 |
+| Primitive Hydration Cell / Seer's Sigil | 원시 수화 전지 / 예지자의 인장 | 아이템·기술 용어 | Neo Vitae | 확정 | Primitive와 Raw의 뜻 구분 |
+| Mine Entrance Key / Mine Dungeon Key | 광산 입구 열쇠 / 광산 던전 열쇠 | 아이템·기술 용어 | Neo Vitae | 확정 | 서로 다른 아이템이며 퀘스트 원문 차이는 완료 보고에 기록 |
+
 ## 5. 보류 용어
 
 아직 확정하지 않은 고유명사나 전문용어는 임의로 번역하지 않고 아래 표에 기록한다.
