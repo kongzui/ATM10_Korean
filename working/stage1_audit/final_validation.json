@@ -1,0 +1,19 @@
+{
+  "quest_checks": {
+    "auroral": {
+      "english_keys": 46,
+      "working_keys": 46,
+      "working_sha256": "90538eafa5b8dd3f5ad987e6d6b85b671a9ebb6d5b6191d35e3c3192ccbaee20"
+    },
+    "neovitae": {
+      "english_keys": 105,
+      "working_keys": 105,
+      "working_sha256": "52ef1c9380414279147294f9c78164db3773edb72674901c09ffd4ff1ac030e0"
+    }
+  },
+  "errors": [],
+  "snapshot_equal": true,
+  "tracked_files": 6308,
+  "instance_writes": 0,
+  "game_screen_validation": "not_run"
+}

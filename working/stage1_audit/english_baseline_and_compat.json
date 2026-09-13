@@ -1,0 +1,1635 @@
+{
+  "source_choice": "분할 영어는 이전 키별 해시와 비교하고 병합 파일은 별도 비교해요.",
+  "english_keys": 8922,
+  "baseline_keys": 8922,
+  "changed": [],
+  "new": [],
+  "missing": [],
+  "merged_keys": 8932,
+  "merged_only": {
+    "image.6642B93346786401.title": "Block Placer",
+    "image.38E8251AE836CA7E.title": "Item Loading",
+    "image.0C06804A3EA4EEF1.title": "Coke Oven",
+    "image.6B2FEE97BCB09F73.title": "Strap Iron Tracks",
+    "image.21E9E7BFED2119F7.title": "Steam Turbine",
+    "image.033B4CD443828A50.title": "Minecart with Energy Cell",
+    "image.19EC5CD7D0AF16E0.title": "Fluid Extractor",
+    "image.102378826D63FA73.title": "Water Tank",
+    "image.045CCA290D3F131C.title": "Electric Tracks",
+    "image.42E28596EEFCCE35.title": "Minecart with Tank",
+    "image.0CCACCE1E214BD50.title": "Blast Furnace",
+    "image.6DBE4B3AD2794A34.title": "Electric Locomotive",
+    "image.2BB040B067887567.title": "Water Boiler",
+    "image.01B6DA9C6EADCC81.title": "Item Unloading",
+    "image.6E849F45599AD9BD.title": "Join the Discord!",
+    "image.3C3379E5F1EAFA42.title": "Sigil of Supremacy",
+    "image.688F0AA24BFE978D.title": "Fluid Extractor",
+    "image.18EA0F3B83A084F9.title": "Fluid Extractor",
+    "image.546EF27DA4FA47B5.title": "Pilpoh's Time Crystal Automation Tutorial",
+    "image.6DE84CA2AE7FB527.title": "BucketSt's Industrial Foregoing Video",
+    "image.3B886C63187CEB56.title": "Steam Oven",
+    "image.710F5ED7842DA33F.title": "Your Highness",
+    "image.734E878FF0563CA9.title": "Train Dispenser",
+    "image.50CD1A2ED2D4668D.title": "Quantum Chestplate",
+    "image.2D721B3A7B146C0E.title": "Quantum Leggings",
+    "image.376A6E16DE0B672B.title": "Fluid Loading",
+    "image.76F33E878433CDFC.title": "Pilpoh's Productive Trees Guide",
+    "image.53C3BFD4A1F6325E.title": "Honitel",
+    "image.048293DFFD5281CB.title": "Quantum Boots",
+    "image.011AE317A00FAEC2.title": "Crusher",
+    "image.6344FCFFE0F2B7CE.title": "Abandoned Tracks",
+    "image.6B700EACC7EA1FBB.title": "Quantum Helmet",
+    "image.16FA386FCDA61612.title": "Latex Processing Unit",
+    "image.36D97B079C7993E6.title": "Cell Maze",
+    "image.7F6CF5A58EE416FC.title": "Track: Remover, Relayer, and Placer",
+    "image.2E3B64A3459636ED.title": "Battle Cubes",
+    "image.29171BC4A419AF98.title": "Cart Dispenser",
+    "image.2C377E5306A947D2.title": "Reinforced Tracks",
+    "image.541E80FC662C5F95.title": "Steam Locomotive"
+  },
+  "split_only": {
+    "image.4AE0B079634FA606.title": "",
+    "image.2944116BE0D0D02A.title": "",
+    "quest.6FC55CF56BE22866.quest_subtitle": "",
+    "image.0F3E52CB10128525.title": "",
+    "image.0E92EFC1990B08B6.title": "",
+    "image.3B0A413A8BBB9C71.title": "",
+    "image.317404800757BB04.title": "",
+    "image.30026DD04A547BB9.title": "",
+    "image.0288E3C7328E31FC.title": "",
+    "image.2FAE5323D97B0756.title": "",
+    "image.5593CADD31D6F981.title": "",
+    "image.07257EEFC886288C.title": "",
+    "image.23101D7EFCE3766B.title": "",
+    "image.242EF1F20D113FD5.title": "",
+    "image.4FC00BDFB73786A8.title": "",
+    "image.1FB1ACB089616004.title": "",
+    "image.36C138EECF1428F2.title": "",
+    "image.237139C3F4DA7A45.title": "",
+    "image.30156DBD759FE33A.title": "",
+    "image.18B9194651BEC0BC.title": "",
+    "image.24BFE2F3BB1FEC4B.title": "",
+    "image.1B808B68FED550A3.title": "",
+    "image.4AFBF61DD3C7B6D2.title": "",
+    "image.56CB9538BFEA025B.title": "",
+    "image.1BFAF44B9DCA47CE.title": "",
+    "image.6BA1530806259187.title": "",
+    "image.3BA5D5EB73C80260.title": "",
+    "image.75ABBD24EF022AA2.title": "",
+    "image.5E7CE603B69E2738.title": ""
+  },
+  "merged_changed": {},
+  "files": [
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapter.snbt_merged",
+      "source_sha256": "6f7651123dc99df4d4cea36ff39a4f9d18bbe2f651d8250f61f60070795e47ef",
+      "canonical_relative": "chapter.snbt",
+      "output_exists": true,
+      "keys": 76,
+      "unchanged_baseline_keys": 76
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapter_group.snbt_merged",
+      "source_sha256": "ebcb21f28d539548b230846d12c5c0f142f6ee6922c0ee94ec972d0a9879f19b",
+      "canonical_relative": "chapter_group.snbt",
+      "output_exists": true,
+      "keys": 13,
+      "unchanged_baseline_keys": 13
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/achapter_2r_6the_atm_star.snbt_merged",
+      "source_sha256": "fc18465bf060714d81a93c5e07319f20765a37c630f0fc7dce582d2acc5bfad1",
+      "canonical_relative": "chapters/achapter_2r_6the_atm_star.snbt",
+      "output_exists": true,
+      "keys": 76,
+      "unchanged_baseline_keys": 76
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/aether.snbt_merged",
+      "source_sha256": "b4718110288446a85cb1cfdc328983ee4a38b62b4a25aa62948c2e98dbe7dc67",
+      "canonical_relative": "chapters/aether.snbt",
+      "output_exists": true,
+      "keys": 161,
+      "unchanged_baseline_keys": 161
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/allthemodium.snbt_merged",
+      "source_sha256": "1861a438395e3d1e89ce3fa38e60b653e0cc0bc62950f9a452fed7fe3cdf6223",
+      "canonical_relative": "chapters/allthemodium.snbt",
+      "output_exists": true,
+      "keys": 116,
+      "unchanged_baseline_keys": 116
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/apotheosis_2.snbt_merged",
+      "source_sha256": "9c63002f08c0b84d6ad079f8c9d6bd86a22c32b1cd41aaf0e50d90063d34bd66",
+      "canonical_relative": "chapters/apotheosis_2.snbt",
+      "output_exists": true,
+      "keys": 67,
+      "unchanged_baseline_keys": 67
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/apotheosis_gear.snbt_merged",
+      "source_sha256": "4e035d99684f4d8a6633f8aa10adbbff2f1b5d6d41028f997e46e96a79fcb468",
+      "canonical_relative": "chapters/apotheosis_gear.snbt",
+      "output_exists": true,
+      "keys": 65,
+      "unchanged_baseline_keys": 65
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/apothic_enchanting.snbt_merged",
+      "source_sha256": "a5246fcc63be44aab83964e4fdc485803d5dde7a8802b661aa5c14cc472403cc",
+      "canonical_relative": "chapters/apothic_enchanting.snbt",
+      "output_exists": true,
+      "keys": 135,
+      "unchanged_baseline_keys": 135
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/applied_energistics_2.snbt_merged",
+      "source_sha256": "3d065ace89dbbb337c8b67cc46b8b7d4104e2acfa3d987b062904cedb951a001",
+      "canonical_relative": "chapters/applied_energistics_2.snbt",
+      "output_exists": true,
+      "keys": 175,
+      "unchanged_baseline_keys": 175
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/ars_nouveau.snbt_merged",
+      "source_sha256": "60beacccd626db6f613ebf3aa479189efd5e82d7ea059ca96ccd18f16bfb2445",
+      "canonical_relative": "chapters/ars_nouveau.snbt",
+      "output_exists": true,
+      "keys": 76,
+      "unchanged_baseline_keys": 76
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/artifacts.snbt_merged",
+      "source_sha256": "c8d5509f1f9e70a0a872e7fe4f67b5f42b1b6c988f2a2eb22abe1e9de863aa5e",
+      "canonical_relative": "chapters/artifacts.snbt",
+      "output_exists": true,
+      "keys": 149,
+      "unchanged_baseline_keys": 149
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/auroral.snbt_merged",
+      "source_sha256": "5a27890a8593424e436d3c3bd7d15bef45c7b86c16984573ffc44a914c08018d",
+      "canonical_relative": "chapters/auroral.snbt",
+      "output_exists": true,
+      "keys": 46,
+      "unchanged_baseline_keys": 46
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/basic_armor.snbt_merged",
+      "source_sha256": "e4224ecc5c5fd3891b49c60cbdb0f6b49394246825b1a1d98d93a24cabda7d42",
+      "canonical_relative": "chapters/basic_armor.snbt",
+      "output_exists": true,
+      "keys": 347,
+      "unchanged_baseline_keys": 347
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/basic_logistics.snbt_merged",
+      "source_sha256": "3eaf466ac30d1cc9ae1830a6d6581338337cf868c358bd43861039b29b5a7273",
+      "canonical_relative": "chapters/basic_logistics.snbt",
+      "output_exists": true,
+      "keys": 76,
+      "unchanged_baseline_keys": 76
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/basic_power.snbt_merged",
+      "source_sha256": "61501945ffb151289e3422e69a0022408b00565bc6d3af98bc7b35e745b7c96a",
+      "canonical_relative": "chapters/basic_power.snbt",
+      "output_exists": true,
+      "keys": 95,
+      "unchanged_baseline_keys": 95
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/basic_tools.snbt_merged",
+      "source_sha256": "94ac3581515bb580ee28113c983ebeeadb67c77fc4cbb38388129f389db6f730",
+      "canonical_relative": "chapters/basic_tools.snbt",
+      "output_exists": true,
+      "keys": 110,
+      "unchanged_baseline_keys": 110
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/bounty_board.snbt_merged",
+      "source_sha256": "1d554332734e610aaf951090eb1f2f33d956aaa6f21fc6725d50509b72990827",
+      "canonical_relative": "chapters/bounty_board.snbt",
+      "output_exists": true,
+      "keys": 54,
+      "unchanged_baseline_keys": 54
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/building_tips.snbt_merged",
+      "source_sha256": "29e12c23a4ea29ffd2e0191f1e3c309ccc0aefccc86899d8855bd44be5c26e87",
+      "canonical_relative": "chapters/building_tips.snbt",
+      "output_exists": true,
+      "keys": 255,
+      "unchanged_baseline_keys": 255
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/bumblezone.snbt_merged",
+      "source_sha256": "154017840077a294df5509ad46a689dd3ba898d8e59515d3610d17c9f419e026",
+      "canonical_relative": "chapters/bumblezone.snbt",
+      "output_exists": true,
+      "keys": 189,
+      "unchanged_baseline_keys": 189
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/cataclysm.snbt_merged",
+      "source_sha256": "a429e7249a99fb20b65e6efa489afe073595d17f563bf0e3e180f691a285dcca",
+      "canonical_relative": "chapters/cataclysm.snbt",
+      "output_exists": true,
+      "keys": 230,
+      "unchanged_baseline_keys": 230
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/chapter_2_the_star.snbt_merged",
+      "source_sha256": "0fc690d4eca2ae46a613dba637cccbff1f5fc6289aa05bb8214b9c7fa0f8a483",
+      "canonical_relative": "chapters/chapter_2_the_star.snbt",
+      "output_exists": true,
+      "keys": 246,
+      "unchanged_baseline_keys": 246
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/create.snbt_merged",
+      "source_sha256": "9f0b1344083f706af1ccfab1c0fc7a0923ff3eeb69945c125a5fffea42a9f579",
+      "canonical_relative": "chapters/create.snbt",
+      "output_exists": true,
+      "keys": 217,
+      "unchanged_baseline_keys": 217
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/deeper_and_darker.snbt_merged",
+      "source_sha256": "3d73f404634ecece6ba03a89dd4b1aea378aed8d16074da7232bb8e0a96fcecd",
+      "canonical_relative": "chapters/deeper_and_darker.snbt",
+      "output_exists": true,
+      "keys": 91,
+      "unchanged_baseline_keys": 91
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/draconic_evolution.snbt_merged",
+      "source_sha256": "c9961389782ee29f7acd9f8eea37e0670c18e1986f0f18e54adb5426ba47fe24",
+      "canonical_relative": "chapters/draconic_evolution.snbt",
+      "output_exists": true,
+      "keys": 254,
+      "unchanged_baseline_keys": 254
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/elmystical_agriculturerr.snbt_merged",
+      "source_sha256": "1c5da71123b0bcf616c7b8c273e1612f06ba366c765d6618b43d96c9ae6e1af0",
+      "canonical_relative": "chapters/elmystical_agriculturerr.snbt",
+      "output_exists": true,
+      "keys": 278,
+      "unchanged_baseline_keys": 278
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/eternal_starlight.snbt_merged",
+      "source_sha256": "fe8c13b84c7b986c24f35a57b67806244ae01043833787fe4676252fb54a560a",
+      "canonical_relative": "chapters/eternal_starlight.snbt",
+      "output_exists": true,
+      "keys": 299,
+      "unchanged_baseline_keys": 299
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/evilcraft.snbt_merged",
+      "source_sha256": "432719c944ac2a58d13468bd91609f1d5ce4849d8ccc5e66ca2a3c4269e7f370",
+      "canonical_relative": "chapters/evilcraft.snbt",
+      "output_exists": true,
+      "keys": 78,
+      "unchanged_baseline_keys": 78
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/extended__advanced_ae.snbt_merged",
+      "source_sha256": "7d37df42a027bf68649fb3f93ce8ce86ab4f10432bbea3b9113bbf0bb8a3351f",
+      "canonical_relative": "chapters/extended__advanced_ae.snbt",
+      "output_exists": true,
+      "keys": 91,
+      "unchanged_baseline_keys": 91
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/extreme_reactors.snbt_merged",
+      "source_sha256": "3973f72edcd0df044516f4ebbd1642149694f845e3849ced79a79875b028f074",
+      "canonical_relative": "chapters/extreme_reactors.snbt",
+      "output_exists": true,
+      "keys": 70,
+      "unchanged_baseline_keys": 70
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/food_and_farming.snbt_merged",
+      "source_sha256": "7a863652b4de69a57a504357381370d0b0f3bb39d57cdd9d66de100bbd8bd9e2",
+      "canonical_relative": "chapters/food_and_farming.snbt",
+      "output_exists": true,
+      "keys": 92,
+      "unchanged_baseline_keys": 92
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/forbidden__arcanus.snbt_merged",
+      "source_sha256": "6e21b03c5a8fad0a808cbc377d6809a4f698fc0e615b0a76425a33728dcbe1f1",
+      "canonical_relative": "chapters/forbidden__arcanus.snbt",
+      "output_exists": true,
+      "keys": 122,
+      "unchanged_baseline_keys": 122
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/generators.snbt_merged",
+      "source_sha256": "9864e911ce09bef9fd2af8bf2464fc5db5e170060960761af6544bbaee28240b",
+      "canonical_relative": "chapters/generators.snbt",
+      "output_exists": true,
+      "keys": 95,
+      "unchanged_baseline_keys": 95
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/hostile_neural_networks.snbt_merged",
+      "source_sha256": "6206940ac81d15c7a55e1647cddb398790f0a9f158247eea7be0158425846c40",
+      "canonical_relative": "chapters/hostile_neural_networks.snbt",
+      "output_exists": true,
+      "keys": 28,
+      "unchanged_baseline_keys": 28
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/ice__fire.snbt_merged",
+      "source_sha256": "0e64f966ec2055ae695036c7072b84f6514848aea9074601864bdbc18ea6b93f",
+      "canonical_relative": "chapters/ice__fire.snbt",
+      "output_exists": true,
+      "keys": 173,
+      "unchanged_baseline_keys": 173
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/immersive_engineering.snbt_merged",
+      "source_sha256": "d184e026bfcdcf0bb5be3f2914686cf1a2615f3919befadde8fc581691266cf9",
+      "canonical_relative": "chapters/immersive_engineering.snbt",
+      "output_exists": true,
+      "keys": 245,
+      "unchanged_baseline_keys": 245
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/industrial_foregoing.snbt_merged",
+      "source_sha256": "ecfcfee546395bcd42893e53c9e41202aeec22e56f923700bcb5cb08e4a07f2f",
+      "canonical_relative": "chapters/industrial_foregoing.snbt",
+      "output_exists": true,
+      "keys": 106,
+      "unchanged_baseline_keys": 106
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/integrated_dynamics.snbt_merged",
+      "source_sha256": "9af4f5f1841be7ecda0a8d86aa2c4b5608f2486fe165eda132269d75d410bd3c",
+      "canonical_relative": "chapters/integrated_dynamics.snbt",
+      "output_exists": true,
+      "keys": 54,
+      "unchanged_baseline_keys": 54
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/iron_spells_and_spellbooks.snbt_merged",
+      "source_sha256": "011b7273166c0ae7b9e249d4ff4c5583dee6a5b9a1aa5511ffc4102ceb937cdb",
+      "canonical_relative": "chapters/iron_spells_and_spellbooks.snbt",
+      "output_exists": true,
+      "keys": 213,
+      "unchanged_baseline_keys": 213
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/justdirethings.snbt_merged",
+      "source_sha256": "b25b90c83b3f9fa88bd38a6cb3d0072c2531d3820ed78ff048ec003af85bcdba",
+      "canonical_relative": "chapters/justdirethings.snbt",
+      "output_exists": true,
+      "keys": 165,
+      "unchanged_baseline_keys": 165
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/mahou_tsukai.snbt_merged",
+      "source_sha256": "3663fba17a5befeabf3a4a647b4fd561c511008310517e3543763c3b04666c4a",
+      "canonical_relative": "chapters/mahou_tsukai.snbt",
+      "output_exists": true,
+      "keys": 70,
+      "unchanged_baseline_keys": 70
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/mainquestline_part_1.snbt_merged",
+      "source_sha256": "439a2456683815f331c581cdff11a3179a5c5dbd4824520857bf00953f876dee",
+      "canonical_relative": "chapters/mainquestline_part_1.snbt",
+      "output_exists": true,
+      "keys": 87,
+      "unchanged_baseline_keys": 87
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/mekanism.snbt_merged",
+      "source_sha256": "ba4d9e613c656ee5a3d59c3266c86740b6aad60e4c63c53006e540c629962e98",
+      "canonical_relative": "chapters/mekanism.snbt",
+      "output_exists": true,
+      "keys": 235,
+      "unchanged_baseline_keys": 235
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/mekanism_reactors.snbt_merged",
+      "source_sha256": "54d0036940d2c9a223ff7964f94d9ebb0f0716b660996cd026f52c145bb00705",
+      "canonical_relative": "chapters/mekanism_reactors.snbt",
+      "output_exists": true,
+      "keys": 233,
+      "unchanged_baseline_keys": 233
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/mi_digital.snbt_merged",
+      "source_sha256": "5c3bd2638171966e9f25a931be4bb23c38dbb7016443061eaba449542477abcb",
+      "canonical_relative": "chapters/mi_digital.snbt",
+      "output_exists": true,
+      "keys": 60,
+      "unchanged_baseline_keys": 60
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/mi_electric.snbt_merged",
+      "source_sha256": "195be8e387e88f046973753b6e10f6dadb02f2c2e9ef7d39317869d4997eba43",
+      "canonical_relative": "chapters/mi_electric.snbt",
+      "output_exists": true,
+      "keys": 73,
+      "unchanged_baseline_keys": 73
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/mi_endgame.snbt_merged",
+      "source_sha256": "101ad45606a0af72e5e68c17ec5da9ce919bd5700919acb826394f2c4401f42e",
+      "canonical_relative": "chapters/mi_endgame.snbt",
+      "output_exists": true,
+      "keys": 11,
+      "unchanged_baseline_keys": 11
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/mi_steam.snbt_merged",
+      "source_sha256": "e9a73d2f912bf15576c5217a3ea342920d7b63ce2f2e995cbc958e30888926d2",
+      "canonical_relative": "chapters/mi_steam.snbt",
+      "output_exists": true,
+      "keys": 39,
+      "unchanged_baseline_keys": 39
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/modular_router.snbt_merged",
+      "source_sha256": "df4a9f0baf04fb1fb76ac0e04842ded2121461f353a09fef13a5c441e48c0b94",
+      "canonical_relative": "chapters/modular_router.snbt",
+      "output_exists": true,
+      "keys": 66,
+      "unchanged_baseline_keys": 66
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/natures_aura.snbt_merged",
+      "source_sha256": "1635bad6953c0d98cfa9d9cef2066d436bf44156fa717cf4caf18f83f53ddf3d",
+      "canonical_relative": "chapters/natures_aura.snbt",
+      "output_exists": true,
+      "keys": 64,
+      "unchanged_baseline_keys": 64
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/neo_vitae.snbt_merged",
+      "source_sha256": "b474c268f03d52f37f94b301d76c5c5c76ea5ffb561fdccd59d900b5b1470aad",
+      "canonical_relative": "chapters/neo_vitae.snbt",
+      "output_exists": true,
+      "keys": 105,
+      "unchanged_baseline_keys": 105
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/occultism.snbt_merged",
+      "source_sha256": "b5d0f5c751b548360769d34038d50346c2c97904a7f8766b187949aaa1f4e6b2",
+      "canonical_relative": "chapters/occultism.snbt",
+      "output_exists": true,
+      "keys": 164,
+      "unchanged_baseline_keys": 164
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/oritech.snbt_merged",
+      "source_sha256": "20f20be11332e0089f3c71de8b8ae371701a774a8b1fb689e5bb3ece210d6983",
+      "canonical_relative": "chapters/oritech.snbt",
+      "output_exists": true,
+      "keys": 85,
+      "unchanged_baseline_keys": 85
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/pneumaticcraft.snbt_merged",
+      "source_sha256": "6ea8661e4c16c10d9a1c26fde64bd2178669aa878a8517e5726d98cad20063c3",
+      "canonical_relative": "chapters/pneumaticcraft.snbt",
+      "output_exists": true,
+      "keys": 279,
+      "unchanged_baseline_keys": 279
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/powah.snbt_merged",
+      "source_sha256": "32fc56c4497f50211ff011104e2ffc22e4bc519cecb8b3526514e1158c0bad2c",
+      "canonical_relative": "chapters/powah.snbt",
+      "output_exists": true,
+      "keys": 40,
+      "unchanged_baseline_keys": 40
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/productive_bees.snbt_merged",
+      "source_sha256": "5197e33f6ac3f47714f9b18814fa66e70c7916478cda4ceb4409d45689790d86",
+      "canonical_relative": "chapters/productive_bees.snbt",
+      "output_exists": true,
+      "keys": 564,
+      "unchanged_baseline_keys": 564
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/productive_trees.snbt_merged",
+      "source_sha256": "078374ae05c5b6bd9c5e9787830802d5024b61e2f0722d07d624b5192ccb4a26",
+      "canonical_relative": "chapters/productive_trees.snbt",
+      "output_exists": true,
+      "keys": 185,
+      "unchanged_baseline_keys": 185
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/pylons.snbt_merged",
+      "source_sha256": "508ec45b4b45dc30af4eecd06633ccd8b818b301a9cfb6d1888b57efd2a722c6",
+      "canonical_relative": "chapters/pylons.snbt",
+      "output_exists": true,
+      "keys": 21,
+      "unchanged_baseline_keys": 21
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/railcraft.snbt_merged",
+      "source_sha256": "b17e0e4b81e2ed2a4c3bc39726fe2e6be1f05d4e8fcb2dd91b991b597e8e116f",
+      "canonical_relative": "chapters/railcraft.snbt",
+      "output_exists": true,
+      "keys": 117,
+      "unchanged_baseline_keys": 117
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/refined_storage.snbt_merged",
+      "source_sha256": "3a58b5e7a967104fc9dd90df8f4372c0176552e97d852d34c27bc51e52d3ec4d",
+      "canonical_relative": "chapters/refined_storage.snbt",
+      "output_exists": true,
+      "keys": 126,
+      "unchanged_baseline_keys": 126
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/relics.snbt_merged",
+      "source_sha256": "e98f622cb646f7c615a3384507246c84d4f61cb3710184b757f810ee3f44e94f",
+      "canonical_relative": "chapters/relics.snbt",
+      "output_exists": true,
+      "keys": 85,
+      "unchanged_baseline_keys": 85
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/silent_gear.snbt_merged",
+      "source_sha256": "0833eae4c0aaebf0cddd39030ec4841a6d9b5d97c3a9b52bddc4ab9c8cc32fc1",
+      "canonical_relative": "chapters/silent_gear.snbt",
+      "output_exists": true,
+      "keys": 80,
+      "unchanged_baseline_keys": 80
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/storage.snbt_merged",
+      "source_sha256": "71f946af709035a223eab0be147edb41723e39d45ed925500f95571ce5ea90d8",
+      "canonical_relative": "chapters/storage.snbt",
+      "output_exists": true,
+      "keys": 164,
+      "unchanged_baseline_keys": 164
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/theurgy.snbt_merged",
+      "source_sha256": "8369ede0a07b0e1820dcb505501a1dd7cebb921f8843ddeba43605d2024ae7cd",
+      "canonical_relative": "chapters/theurgy.snbt",
+      "output_exists": true,
+      "keys": 87,
+      "unchanged_baseline_keys": 87
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/tips_and_tricks.snbt_merged",
+      "source_sha256": "20fe3395dbb52f9bf4dcd0498fb05778d170e47b4f34fccbf9384001d68637ec",
+      "canonical_relative": "chapters/tips_and_tricks.snbt",
+      "output_exists": true,
+      "keys": 62,
+      "unchanged_baseline_keys": 62
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/twilight_forest.snbt_merged",
+      "source_sha256": "1e4ba7a24c9f102c8c423bf4fae6b590c1e10f1aac5683a0384efd998d67f95b",
+      "canonical_relative": "chapters/twilight_forest.snbt",
+      "output_exists": true,
+      "keys": 123,
+      "unchanged_baseline_keys": 123
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/undergarden.snbt_merged",
+      "source_sha256": "0b58d77ca8508d527fd86e395ed0d5e5e681692d76a6d48abb9ff072f6502cc7",
+      "canonical_relative": "chapters/undergarden.snbt",
+      "output_exists": true,
+      "keys": 149,
+      "unchanged_baseline_keys": 149
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/welcome.snbt_merged",
+      "source_sha256": "71ef8ef8e9c7ede8208bad3b37c666077e5656a267299670d2a5312b7465e1ee",
+      "canonical_relative": "chapters/welcome.snbt",
+      "output_exists": true,
+      "keys": 13,
+      "unchanged_baseline_keys": 13
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/chapters/xycraft.snbt_merged",
+      "source_sha256": "ae66dd18af89a4f7f9e5c3fbe7eb0b5b63dc272c4b1a3cb7e31840bf2c761a62",
+      "canonical_relative": "chapters/xycraft.snbt",
+      "output_exists": true,
+      "keys": 55,
+      "unchanged_baseline_keys": 55
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/file.snbt_merged",
+      "source_sha256": "45f6e2392554dee375c09f7941b4be99765cf2a931e317f920ab8be2d59fd85e",
+      "canonical_relative": "file.snbt",
+      "output_exists": true,
+      "keys": 1,
+      "unchanged_baseline_keys": 1
+    },
+    {
+      "source": "config/ftbquests/quests/lang/en_us/reward_table.snbt_merged",
+      "source_sha256": "f97132273fc7226d03dc01331810d24767b5a59aa8862d3d778af382af72bd50",
+      "canonical_relative": "reward_table.snbt",
+      "output_exists": true,
+      "keys": 51,
+      "unchanged_baseline_keys": 51
+    }
+  ],
+  "prior_errors_by_prefix": {
+    "검토 후 인스턴스 원본 변경": 6,
+    "퀘스트 표시 문구 밖의 구조 변경": 6,
+    "퀘스트 분할 파일 누락": 70
+  },
+  "chapter_structure": [
+    {
+      "path": "config/ftbquests/quests/chapters/cataclysm.snbt",
+      "current_sha256": "3f0f15dba9ef73aa9008195d6cf8191cf001a6931e53ca79d0d43c58b0e0341e",
+      "reviewed_source_sha256": "ecad995f40c7e6c0e98d9d80bab5f13b955fa7f560687c20548d4ac7016655e7",
+      "comparison": "기존 배포 구조 -> 실행후 현재 구조; 변경 원인을 추정하지 않아요.",
+      "counts": {
+        "이미지ID": 50,
+        "순서": 1
+      },
+      "changes": [
+        {
+          "path": "/images/0/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "781F7D03F60EEBD2"
+        },
+        {
+          "path": "/images/1/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "53061B1247C2B7DA"
+        },
+        {
+          "path": "/images/2/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "55A720A08073BCD1"
+        },
+        {
+          "path": "/images/3/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "6015B9A1AF7B83CC"
+        },
+        {
+          "path": "/images/4/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "0157BFE3A1CA44E0"
+        },
+        {
+          "path": "/images/5/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "14C80AA44313613C"
+        },
+        {
+          "path": "/images/6/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "542F6F89025B0135"
+        },
+        {
+          "path": "/images/7/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "229E6C17A5E26AA9"
+        },
+        {
+          "path": "/images/8/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "4C9F2CB4F36D067F"
+        },
+        {
+          "path": "/images/9/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "599EF88083AFA5D6"
+        },
+        {
+          "path": "/images/10/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "4F324B8DDB109AF4"
+        },
+        {
+          "path": "/images/11/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "490479B452DB9ED7"
+        },
+        {
+          "path": "/images/12/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "26A5AEE6B398AEB3"
+        },
+        {
+          "path": "/images/13/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "56DFF2E7DD60CA43"
+        },
+        {
+          "path": "/images/14/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "10070F13374DEEA8"
+        },
+        {
+          "path": "/images/15/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "2B323CD2AECB837B"
+        },
+        {
+          "path": "/images/16/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "2CAC7DCB77BF4F6B"
+        },
+        {
+          "path": "/images/17/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "49450C5B39EC84F7"
+        },
+        {
+          "path": "/images/18/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "77FC7CEF45B0A34E"
+        },
+        {
+          "path": "/images/19/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "361BF197DD5AB387"
+        },
+        {
+          "path": "/images/20/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "5988BB06004EFADA"
+        },
+        {
+          "path": "/images/21/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "47FB4F57DA6501A8"
+        },
+        {
+          "path": "/images/22/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "27CC77474AC9A3DA"
+        },
+        {
+          "path": "/images/23/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "575636D4FAB02372"
+        },
+        {
+          "path": "/images/24/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "223FC7F9BC4DC553"
+        },
+        {
+          "path": "/images/25/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "2A97E9FF3D950877"
+        },
+        {
+          "path": "/images/26/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "1EA99403C2FEBDB5"
+        },
+        {
+          "path": "/images/27/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "36C09320E389983F"
+        },
+        {
+          "path": "/images/28/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "59156A01BB5D596C"
+        },
+        {
+          "path": "/images/29/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "76D03574880B487C"
+        },
+        {
+          "path": "/images/30/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "0BB96FD4DEBF72D4"
+        },
+        {
+          "path": "/images/31/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "2BE07D4ED499E961"
+        },
+        {
+          "path": "/images/32/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "61321CEC3BF678BF"
+        },
+        {
+          "path": "/images/33/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "7B2590ED405232E6"
+        },
+        {
+          "path": "/images/34/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "37190BAC045FD514"
+        },
+        {
+          "path": "/images/35/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "3F77C7287CC25FD9"
+        },
+        {
+          "path": "/images/36/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "58FA92A85E684827"
+        },
+        {
+          "path": "/images/37/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "16AEE783DDD2B56D"
+        },
+        {
+          "path": "/images/38/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "1DF8EB6B6D2F9DD8"
+        },
+        {
+          "path": "/images/39/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "37E16135C3927BA9"
+        },
+        {
+          "path": "/images/40/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "0EF95DC3EA85CEDC"
+        },
+        {
+          "path": "/images/41/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "34AC1B72666ED276"
+        },
+        {
+          "path": "/images/42/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "7AD405493748A66A"
+        },
+        {
+          "path": "/images/43/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "3AC99491201DB01D"
+        },
+        {
+          "path": "/images/44/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "427CC1CFD836B572"
+        },
+        {
+          "path": "/images/45/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "2080469275FCB180"
+        },
+        {
+          "path": "/images/46/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "110FDCE2FA902CE6"
+        },
+        {
+          "path": "/images/47/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "385EF2CB80A3CEEB"
+        },
+        {
+          "path": "/images/48/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "1F680B94CA11C700"
+        },
+        {
+          "path": "/images/49/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "47E9D93F3A58A1AB"
+        },
+        {
+          "path": "/order_index",
+          "kind": "순서",
+          "old": "2",
+          "new": "3"
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/generators.snbt",
+      "current_sha256": "945058441c5fa1da25997430512babfaf27daa531815fad61fd29e368e8d7808",
+      "reviewed_source_sha256": "4a1799ff2534a123c56ab72d8954a053d5e253cddaed3e7b356e1f513eb90713",
+      "comparison": "기존 배포 구조 -> 실행후 현재 구조; 변경 원인을 추정하지 않아요.",
+      "counts": {
+        "이미지ID": 41,
+        "수량": 1
+      },
+      "changes": [
+        {
+          "path": "/images/0/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "2B87F391F62A1E7C"
+        },
+        {
+          "path": "/images/1/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "1B0F5F269FA4763C"
+        },
+        {
+          "path": "/images/2/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "0B716C943CEBF2F1"
+        },
+        {
+          "path": "/images/3/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "4F23E8F685FF9A6A"
+        },
+        {
+          "path": "/images/4/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "2DEB51E5B3E1C6F2"
+        },
+        {
+          "path": "/images/5/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "0B44943E41BBE31E"
+        },
+        {
+          "path": "/images/6/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "255D78D8F581A01A"
+        },
+        {
+          "path": "/images/7/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "7ABFCF24532B8DFB"
+        },
+        {
+          "path": "/images/8/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "684AC38AF4788CD1"
+        },
+        {
+          "path": "/images/9/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "00BFAFC09BC711FF"
+        },
+        {
+          "path": "/images/10/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "3949804BCEE70588"
+        },
+        {
+          "path": "/images/11/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "5C90A233D6E56418"
+        },
+        {
+          "path": "/images/12/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "636B145E8EA0BA33"
+        },
+        {
+          "path": "/images/13/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "4FFC495560A274B7"
+        },
+        {
+          "path": "/images/14/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "54D2F1002968BD08"
+        },
+        {
+          "path": "/images/15/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "1C7D7B15B51417EE"
+        },
+        {
+          "path": "/images/16/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "1AC61756F68D57DC"
+        },
+        {
+          "path": "/images/17/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "1696A8EC993A638A"
+        },
+        {
+          "path": "/images/18/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "7BDFF2903E15F55E"
+        },
+        {
+          "path": "/images/19/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "5B72D7F6107F2849"
+        },
+        {
+          "path": "/images/20/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "0A76C58BD802B3E2"
+        },
+        {
+          "path": "/images/21/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "34088456CF53291F"
+        },
+        {
+          "path": "/images/22/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "5E18996779B9D6A1"
+        },
+        {
+          "path": "/images/23/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "39E9DDB798C11A61"
+        },
+        {
+          "path": "/images/24/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "0D32CE113C09D292"
+        },
+        {
+          "path": "/images/25/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "5B81E49B83A37C7A"
+        },
+        {
+          "path": "/images/26/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "26F3AEC45D42E22A"
+        },
+        {
+          "path": "/images/27/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "4292DD8646B29C4C"
+        },
+        {
+          "path": "/images/28/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "7A7A496EDD37F69A"
+        },
+        {
+          "path": "/images/29/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "2123A428BCF2415F"
+        },
+        {
+          "path": "/images/30/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "0D337063754529AE"
+        },
+        {
+          "path": "/images/31/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "6A41501A6D0D59B8"
+        },
+        {
+          "path": "/images/32/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "5ED015B52E52658E"
+        },
+        {
+          "path": "/images/33/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "79C2A4FEAACCF054"
+        },
+        {
+          "path": "/images/34/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "21F95265F8B27D97"
+        },
+        {
+          "path": "/images/35/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "05CDC43AA31D1443"
+        },
+        {
+          "path": "/images/36/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "43EA18A3E6EDE9FE"
+        },
+        {
+          "path": "/images/37/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "4BF5AA7B96DC9D4A"
+        },
+        {
+          "path": "/images/38/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "0BEB75BC737367E7"
+        },
+        {
+          "path": "/images/39/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "79A1A041B6AAEF55"
+        },
+        {
+          "path": "/images/40/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "543597DE56AE32A9"
+        },
+        {
+          "path": "/quests/0AD2B11565B484E7/tasks/1364DC251AC7325A/item/count",
+          "kind": "수량",
+          "old": "8",
+          "new": "1"
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/mekanism.snbt",
+      "current_sha256": "89c75bbb087fedbd0edc2316c0fb69912f7c255fedf694b1c399f5f8a1a8775c",
+      "reviewed_source_sha256": "271ec13f8285feecf1bdd574e5c2d2120ad553e26e878b7cc5de80150bc2c673",
+      "comparison": "기존 배포 구조 -> 실행후 현재 구조; 변경 원인을 추정하지 않아요.",
+      "counts": {
+        "이미지ID": 26,
+        "수량": 5
+      },
+      "changes": [
+        {
+          "path": "/images/0/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "4AA7728AE1D0413D"
+        },
+        {
+          "path": "/images/1/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "54C09B96DFF2F97C"
+        },
+        {
+          "path": "/images/2/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "08EECF949D026743"
+        },
+        {
+          "path": "/images/3/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "1E9827C076817D26"
+        },
+        {
+          "path": "/images/4/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "360B2C2919D59027"
+        },
+        {
+          "path": "/images/5/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "73CBD708E006D836"
+        },
+        {
+          "path": "/images/6/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "5BF2BCD697038404"
+        },
+        {
+          "path": "/images/7/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "2CB04961B20337E9"
+        },
+        {
+          "path": "/images/8/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "23C6F013FD688977"
+        },
+        {
+          "path": "/images/9/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "7F3CC22357B8123D"
+        },
+        {
+          "path": "/images/10/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "6EA520D098E6571D"
+        },
+        {
+          "path": "/images/11/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "27B4A11A2FA67EB9"
+        },
+        {
+          "path": "/images/12/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "0E0E41B93A060A4A"
+        },
+        {
+          "path": "/images/13/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "72F406A333666B71"
+        },
+        {
+          "path": "/images/14/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "425602BA84C4556F"
+        },
+        {
+          "path": "/images/15/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "63A4E6F7F676393A"
+        },
+        {
+          "path": "/images/16/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "3EA1A613DEAD262F"
+        },
+        {
+          "path": "/images/17/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "71A7926515260447"
+        },
+        {
+          "path": "/images/18/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "1436A6F0175CC066"
+        },
+        {
+          "path": "/images/19/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "7F756FCA6FC913E6"
+        },
+        {
+          "path": "/images/20/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "29E78BCC1480C625"
+        },
+        {
+          "path": "/images/21/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "29E84A0B870AE1CC"
+        },
+        {
+          "path": "/images/22/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "35CB0ED5A15037A2"
+        },
+        {
+          "path": "/images/23/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "3A0CC9169360CB45"
+        },
+        {
+          "path": "/images/24/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "358746354E64A80A"
+        },
+        {
+          "path": "/images/25/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "7627EABD3A40DC0C"
+        },
+        {
+          "path": "/quests/120572510F525930/tasks/16C70D3717B4AFA6/item/count",
+          "kind": "수량",
+          "old": "33",
+          "new": "1"
+        },
+        {
+          "path": "/quests/6DC1E08D019FD543/tasks/2CC21EF452CFFF59/item/count",
+          "kind": "수량",
+          "old": "33",
+          "new": "1"
+        },
+        {
+          "path": "/quests/6DC1E08D019FD543/tasks/41E94425E789750E/item/count",
+          "kind": "수량",
+          "old": "2",
+          "new": "1"
+        },
+        {
+          "path": "/quests/7485BCBE366501DF/tasks/10105D951F3248A7/item/count",
+          "kind": "수량",
+          "old": "2",
+          "new": "1"
+        },
+        {
+          "path": "/quests/7485BCBE366501DF/tasks/16BF380980B2DE0C/item/count",
+          "kind": "수량",
+          "old": "33",
+          "new": "1"
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/mi_digital.snbt",
+      "current_sha256": "424555e1dad78c91472d11ed474f8c43e49f86659b79156c0901c8cbd094eaf8",
+      "reviewed_source_sha256": "c839df69d63e6b525f9c1d5255be197a4c2ca56c9eae256c7489bbda80b4b5e2",
+      "comparison": "기존 배포 구조 -> 실행후 현재 구조; 변경 원인을 추정하지 않아요.",
+      "counts": {
+        "이미지ID": 1,
+        "수량": 21
+      },
+      "changes": [
+        {
+          "path": "/images/0/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "6030F15107BA3591"
+        },
+        {
+          "path": "/quests/06A87367BACAE789/tasks/5B34146FA2702982/item/count",
+          "kind": "수량",
+          "old": "2",
+          "new": "1"
+        },
+        {
+          "path": "/quests/282A23C3E7561796/tasks/2330926A47CD5075/item/count",
+          "kind": "수량",
+          "old": "8",
+          "new": "1"
+        },
+        {
+          "path": "/quests/282A23C3E7561796/tasks/2FC3B592E4BDCFE4/item/count",
+          "kind": "수량",
+          "old": "51",
+          "new": "1"
+        },
+        {
+          "path": "/quests/35FDC436DE07635F/tasks/0EF71682D5BC5767/item/count",
+          "kind": "수량",
+          "old": "16",
+          "new": "1"
+        },
+        {
+          "path": "/quests/35FDC436DE07635F/tasks/648AD3EF2FF501B5/item/count",
+          "kind": "수량",
+          "old": "14",
+          "new": "1"
+        },
+        {
+          "path": "/quests/386ABEB4249D157D/tasks/42629B7E4E367FE7/item/count",
+          "kind": "수량",
+          "old": "32",
+          "new": "1"
+        },
+        {
+          "path": "/quests/50F97171D25CD2EE/tasks/279282E2CBC881A1/item/count",
+          "kind": "수량",
+          "old": "4",
+          "new": "1"
+        },
+        {
+          "path": "/quests/56A4F5D301BC1E93/tasks/17B27BC847EC62DC/item/count",
+          "kind": "수량",
+          "old": "4",
+          "new": "1"
+        },
+        {
+          "path": "/quests/58F7C11C241DD7A4/tasks/4EBB0BC0A9FCDD2A/item/count",
+          "kind": "수량",
+          "old": "3",
+          "new": "1"
+        },
+        {
+          "path": "/quests/58F7C11C241DD7A4/tasks/749267B27C08CF51/item/count",
+          "kind": "수량",
+          "old": "27",
+          "new": "1"
+        },
+        {
+          "path": "/quests/66649375142F88DF/tasks/1027BC0E4E1E0E9A/item/count",
+          "kind": "수량",
+          "old": "4",
+          "new": "1"
+        },
+        {
+          "path": "/quests/66E78F599CD50579/tasks/06D00D714B88DF87/item/count",
+          "kind": "수량",
+          "old": "47",
+          "new": "1"
+        },
+        {
+          "path": "/quests/66E78F599CD50579/tasks/4E29CAB76F924643/item/count",
+          "kind": "수량",
+          "old": "64",
+          "new": "1"
+        },
+        {
+          "path": "/quests/66E78F599CD50579/tasks/4EF3FF497A0A9772/item/count",
+          "kind": "수량",
+          "old": "64",
+          "new": "1"
+        },
+        {
+          "path": "/quests/66E78F599CD50579/tasks/56D74344FF680E09/item/count",
+          "kind": "수량",
+          "old": "31",
+          "new": "1"
+        },
+        {
+          "path": "/quests/66E78F599CD50579/tasks/5A345C8847E81172/item/count",
+          "kind": "수량",
+          "old": "6",
+          "new": "1"
+        },
+        {
+          "path": "/quests/66E78F599CD50579/tasks/7A9D09A66BCBE563/item/count",
+          "kind": "수량",
+          "old": "64",
+          "new": "1"
+        },
+        {
+          "path": "/quests/672B69448F1D458B/tasks/1002BE65F40E5667/item/count",
+          "kind": "수량",
+          "old": "9",
+          "new": "1"
+        },
+        {
+          "path": "/quests/672B69448F1D458B/tasks/3B96C8BB060737AA/item/count",
+          "kind": "수량",
+          "old": "22",
+          "new": "1"
+        },
+        {
+          "path": "/quests/672B69448F1D458B/tasks/588C0B2A5ECCCBC2/item/count",
+          "kind": "수량",
+          "old": "2",
+          "new": "1"
+        },
+        {
+          "path": "/quests/672B69448F1D458B/tasks/5DD3604FDAC2033A/item/count",
+          "kind": "수량",
+          "old": "9",
+          "new": "1"
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/mi_electric.snbt",
+      "current_sha256": "47230a42619598cc1ae400783b8a3c6a85437b45afd616d10e1149aea7d3313a",
+      "reviewed_source_sha256": "c2e7c4bd0750226bfff20bb5d5d5a8985f25c80d972d26696c39fcf6d05edfde",
+      "comparison": "기존 배포 구조 -> 실행후 현재 구조; 변경 원인을 추정하지 않아요.",
+      "counts": {
+        "이미지ID": 1,
+        "수량": 4
+      },
+      "changes": [
+        {
+          "path": "/images/0/id",
+          "kind": "이미지ID",
+          "old": null,
+          "new": "270C6B5A06805E95"
+        },
+        {
+          "path": "/quests/32D585D9F73CD9FD/tasks/415FEEAE6A4A5B4D/item/count",
+          "kind": "수량",
+          "old": "14",
+          "new": "1"
+        },
+        {
+          "path": "/quests/4A5A143A79809BB6/tasks/691AB40D72F751E4/item/count",
+          "kind": "수량",
+          "old": "4",
+          "new": "1"
+        },
+        {
+          "path": "/quests/5B50AC47957F0CD7/tasks/7BC14728678BD605/item/count",
+          "kind": "수량",
+          "old": "35",
+          "new": "1"
+        },
+        {
+          "path": "/quests/744E620B7DEBB483/tasks/70F211A6F38841BE/item/count",
+          "kind": "수량",
+          "old": "30",
+          "new": "1"
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/relics.snbt",
+      "current_sha256": "9f4bf44277dcf4c3b9fbcfd87bd8e1a2cc164105198519d8462e087f60d7d85b",
+      "reviewed_source_sha256": "82bf154b8e59ee42b61440377e43bb79fe5ed7ec667ea6ec1aa34e61804bc2d2",
+      "comparison": "기존 배포 구조 -> 실행후 현재 구조; 변경 원인을 추정하지 않아요.",
+      "counts": {
+        "순서": 1
+      },
+      "changes": [
+        {
+          "path": "/order_index",
+          "kind": "순서",
+          "old": "4",
+          "new": "5"
+        }
+      ]
+    }
+  ],
+  "game_screen_validation": "not_run; 정적 표시 경로 조사"
+}

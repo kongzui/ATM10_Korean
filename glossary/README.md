@@ -230,6 +230,42 @@
 | Mouse Tweaks | Mouse Tweaks | 공식 모드명 | 전체 프로젝트 | 확정 | `마우스 트윅`, `마우스 조정`으로 바꾸지 않음 |
 | Inventory Tweaks ReFoxed | Inventory Tweaks ReFoxed | 공식 모드명 | 전체 프로젝트 | 확정 | 설치된 영어 언어 파일의 대소문자를 따르며 `Refoxed` 메타데이터 표기는 표시 이름으로 사용하지 않음 |
 
+### ATM10 8.1 신규 콘텐츠 — Auroral
+
+| 영어 | 한국어 | 종류 | 적용 범위 | 상태 | 비고 |
+|---|---|---|---|---|---|
+| Auroral | Auroral | 공식 모드명 | 모드명·챕터 제목·가이드북 | 확정 | 자연 현상 Aurora는 `오로라`로 구분 |
+| Shimmersteel | 시머스틸 | 재료명 | Auroral 언어·퀘스트 | 확정 | 고유 재료명 음역, `쉬머스틸`과 혼용하지 않음 |
+| Shimmerweave | 시머위브 | 재료명 | Auroral 언어·퀘스트 | 확정 | Fabric은 `직물`, 방어구는 부위별 이름을 붙임 |
+| Hearthwood | 하스우드 | 재료명 | Auroral 언어·퀘스트 | 확정 | 기존 검수 퀘스트 표기 유지 |
+| Glacial Basin | 빙하 대야 | 블록명 | Auroral 언어·퀘스트·JEI·Jade | 확정 | 액체 오라를 수집하고 아이템에 주입하는 블록 |
+| Glow-Leek | 발광 대파 | 아이템·블록명 | Auroral 언어·퀘스트 | 확정 | `발광 리크`와 혼용하지 않음 |
+| Cold Brewing Stand | 저온 양조기 | 블록명 | Auroral 언어·퀘스트 | 확정 | `냉기 양조기`와 혼용하지 않음 |
+| Auroral Snowlette | 오로라 스노렛 | 개체명 | Auroral 언어·퀘스트 | 확정 | 고유 개체명 음역 |
+| Auroral Nautilus | 오로라 앵무조개 | 개체명 | Auroral 언어·퀘스트 | 확정 | 앵무조개를 뜻하는 Nautilus와 구분 없이 일관되게 사용 |
+| S'nore | 스노어 | 음식명 | Auroral | 확정 | 고유 음식명 음역 |
+
+### ATM10 8.1 신규 콘텐츠 — Neo Vitae
+
+| 영어 | 한국어 | 종류 | 적용 범위 | 상태 | 비고 |
+|---|---|---|---|---|---|
+| Neo Vitae | Neo Vitae | 공식 모드명 | 전체 프로젝트 | 확정 | 공식 영문 유지 |
+| Ara Vitae / Athanor / Vas Maleficum / Crystallarium Maleficum | 원문 유지 | 고유 기계명 | Neo Vitae 언어·퀘스트·가이드 | 확정 | 의미를 추측해 새 기계명을 만들지 않음 |
+| Spiritus / Ruina / Nihilum / Invictus / Vindicta / Demonite | 원문 유지 | 고유 재료명 | Neo Vitae | 확정 | 일반 접미어 Crystal·Gem·Ore는 수정·보석·광석으로 번역 |
+| Orb of Vitae | Vitae 구슬 | 아이템명 | Neo Vitae | 확정 | Novicius·Discipulus·Veneficus·Magus·Dominus·Divinus 등급명은 원문 유지 |
+| Orb Vitae Link | Vitae 구슬 연결기 | 블록명 | Neo Vitae | 확정 | Vitae Link의 `Vitae 연결기`와 구분 |
+| Alchemy Array | 연금술진 | 기술 용어 | Neo Vitae | 확정 | 개별 Array도 기능명 뒤에 연금술진을 붙임 |
+| Arcane Scribe Tool | 비전 필기 도구 | 아이템명 | Neo Vitae | 확정 | `비전 서기 도구`와 혼용하지 않음 |
+| Sentient | 지각 있는 | 장비 속성 | Neo Vitae | 확정 | Ritual의 `의식`과 혼동하지 않음 |
+| Ritual Stone / Master Ritual Stone | 의식석 / 중심 의식석 | 블록명 | Neo Vitae | 확정 | 중심 블록과 주변 구성 블록을 구분 |
+| Ritual Diviner / Ritual Configurator | 의식 점술 도구 / 의식 설정 도구 | 아이템명 | Neo Vitae | 확정 | 서로 다른 도구를 구분 |
+| Hellfire Forge / Hellforged Ingot | 지옥불 대장간 / 지옥불 단조 주괴 | 블록·아이템명 | Neo Vitae | 확정 | `지옥벼림`과 혼용하지 않음 |
+| Blood / Life Essence / Life Points | 혈액 / 생명 정수 / 생명력 | 기술 용어 | Neo Vitae | 확정 | 생물의 Health·HP는 체력, LP와 구분 |
+| Soul Network | 영혼 네트워크 | 기술 용어 | Neo Vitae | 확정 | 고유 표기 Anima·Essentia Vitae와 EV는 원문 유지 |
+| Incense Altar / Anointment | 향 제단 / 도유 | 블록·기술 용어 | Neo Vitae | 확정 | 향을 피우는 제단과 장비에 바르는 처리를 구분 |
+| Dungeon Alternator | 던전 교번기 | 블록명 | Neo Vitae | 확정 | 레드스톤 신호를 주기적으로 켜고 끄는 장치 |
+| Petty / Lesser / Common / Greater / Grand | 최하급 / 하급 / 일반 / 상급 / 최상급 | 등급 | Neo Vitae Spiritus 보석 | 확정 | 단계별 이름 구분을 보존 |
+
 ## 5. 보류 용어
 
 아직 확정하지 않은 고유명사나 전문용어는 임의로 번역하지 않고 아래 표에 기록한다.

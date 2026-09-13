@@ -1,0 +1,7 @@
+{
+  "snapshot_equal": true,
+  "tracked_files": 6308,
+  "errors": [],
+  "writes": "working/stage1_audit/*.json 및 조사 스크립트만",
+  "game_screen_validation": "not_run"
+}

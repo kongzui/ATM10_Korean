@@ -1,0 +1,315 @@
+{
+  "candidates": [
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/1/name",
+      "value": "Slime of Vitae"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/2/name",
+      "value": "Daemonium Cruoris"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/3/name",
+      "value": "Daemonium Pestis"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/4/name",
+      "value": "Daemonium Rancoris"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/5/name",
+      "value": "Daemonium Animaris"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/6/name",
+      "value": "Daemonium Voraxis"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/7/name",
+      "value": "Daemonium Corrodis"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/8/name",
+      "value": "Daemonium Ignis"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/9/name",
+      "value": "Daemonium Fervidis"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/10/name",
+      "value": "Daemonium Doloris"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_bestiary.json",
+      "pointer": "/pages/11/name",
+      "value": "Daemonium Glaciaris"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_crafting.json",
+      "pointer": "/pages/1/title",
+      "value": "Sigil of the Damned"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_crafting.json",
+      "pointer": "/pages/2/title",
+      "value": "Blight Whetstone"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_crafting.json",
+      "pointer": "/pages/3/title",
+      "value": "Hellforged Trim Ingot"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_drops.json",
+      "pointer": "/pages/3/title",
+      "value": "Apex Trophies"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_food.json",
+      "pointer": "/pages/1/title",
+      "value": "Tainted Flesh"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_food.json",
+      "pointer": "/pages/2/title",
+      "value": "Vitae Morsel"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/demon_food.json",
+      "pointer": "/pages/3/title",
+      "value": "Bottled Spite"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/endless_realm.json",
+      "pointer": "/pages/5/title",
+      "value": "The Mine Entrance"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/endless_realm.json",
+      "pointer": "/pages/8/title",
+      "value": "Intricate Hellforged Parts"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/keys.json",
+      "pointer": "/pages/2/title",
+      "value": "The Mines"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/dungeons/tau_fruit.json",
+      "pointer": "/pages/3/title",
+      "value": "Saturated Tau"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_armour_evolve.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 50,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Cost:[#]() 25,000 EV per use\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Tenebrae Ritual Stone\\\n  8x Fire Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 28 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_butchering.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 25 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Fire Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_condor.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 10,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  20x Air Ritual Stone\\\n  8x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 28 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_containment.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_crafting.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Tenebrae Ritual Stone\\\n  8x Fire Ritual Stone\\\n  8x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 28 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_crystal_catalyst.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 40,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  12x Tenebrae Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 24 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_crystallum_fractura.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 100,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 160 EV every 100 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  8x Tenebrae Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 24 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_enchanted_vitae.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 10,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  36x Tenebrae Ritual Stone\\\n  1x Water Ritual Stone\\\n  1x Fire Ritual Stone\\\n  1x Earth Ritual Stone\\\n  1x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 40 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_expulsion.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_feathered_knife.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 20 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Tenebrae Ritual Stone\\\n  8x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_felling.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_full_stomach.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 1,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 100 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Water Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_green_grove.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 1,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 20 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_grounding.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  16x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_harvest.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 3 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Earth Ritual Stone\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_lava.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 10,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 500 EV every 10 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 4 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_magnetic.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 5,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 50 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_meteor.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 250,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Fire Ritual Stone\\\n  16x Tenebrae Ritual Stone\\\n  8x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 36 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_phantom_bridge.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 2,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 1 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_placer.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 5,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_pump.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 2,500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 50 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Water Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_regeneration.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 50 EV every 40 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Water Ritual Stone\\\n  8x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_sentient_downgrade.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Cost:[#]() 10,000 EV per use\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Fire Ritual Stone\\\n  12x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 24 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_shepherd.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 30 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  8x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_simple_dungeon.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 80,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Air Ritual Stone\\\n  12x Earth Ritual Stone\\\n  10x Fire Ritual Stone\\\n  6x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 36 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_speed.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Air Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 12 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_sphere_create.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Earth Ritual Stone\\\n  4x Air Ritual Stone\\\n  3x Fire Ritual Stone\\\n  1x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_standard_dungeon.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 150,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  5x Fire Ritual Stone\\\n  5x Water Ritual Stone\\\n  31x Tenebrae Ritual Stone\\\n  18x Air Ritual Stone\\\n  10x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 69 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_suppression.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 3,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 5 EV every 10 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Water Ritual Stone\\\n  4x Air Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_torment_nexus.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 25,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  24x Tenebrae Ritual Stone\\\n  4x Earth Ritual Stone\\\n  4x Water Ritual Stone\\\n  4x Fire Ritual Stone\\\n  4x Air Ritual Stone\\\n  [#](8B0000)Total:[#]() 40 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_upgrade_remove.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 20,000 EV\\\n[#](8B0000)Crystal:[#]() Awakened Activation Crystal\\\n[#](8B0000)Cost:[#]() 10,000 EV per use\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Tenebrae Ritual Stone\\\n  4x Water Ritual Stone\\\n  4x Fire Ritual Stone\\\n  4x Earth Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_water.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 500 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 25 EV/tick\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 4 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_well_of_suffering.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 50,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 2 EV/sec\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  8x Fire Ritual Stone\\\n  12x Tenebrae Ritual Stone\\\n  [#](8B0000)Total:[#]() 20 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_yawning_void.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 5,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 10 EV every 10 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  4x Blank Ritual Stone\\\n  12x Earth Ritual Stone\\\n  16x Water Ritual Stone\\\n  4x Tenebrae Ritual Stone\\\n  8x Air Ritual Stone\\\n  20x Fire Ritual Stone\\\n  [#](8B0000)Total:[#]() 64 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/rituals/ritual_zephyr.json",
+      "pointer": "/pages/1/text",
+      "value": "[#](8B0000)Activation Cost:[#]() 1,000 EV\\\n[#](8B0000)Crystal:[#]() Weak Activation Crystal\\\n[#](8B0000)Upkeep:[#]() 2 EV every 5 ticks\\\n\\\n[#](8B0000)Rune Requirements:[#]()\\\n  12x Air Ritual Stone\\\n  4x Water Ritual Stone\\\n  [#](8B0000)Total:[#]() 16 runes"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/spiritus/aura.json",
+      "pointer": "/pages/2/title",
+      "value": "Vas Maleficum"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/spiritus/aura_gauge.json",
+      "pointer": "/pages/2/title",
+      "value": "Aura Gauge Overlay"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/spiritus/spiritus.json",
+      "pointer": "/pages/2/title",
+      "value": "Spiritus"
+    },
+    {
+      "file": "data/neovitae/modonomicon/books/guide/entries/spiritus/throwing_daggers.json",
+      "pointer": "/pages/3/title",
+      "value": "Tabula Ampoule"
+    }
+  ],
+  "candidate_count": 61,
+  "missing_referenced_book_keys": [],
+  "raw_english_key_route": "BookTextHolder 문자열 전체 -> I18n.get; exact literal-key 추가로 처리 가능. 3053키 이외 추가키 검증 계약 필요.",
+  "literal_warning": "61개가 모두 미번역 오류는 아니에요. Latin 이름은 유지 가능해요.",
+  "neovitae_language_auroral_mentions": {},
+  "game_screen_validation": "not_run"
+}
