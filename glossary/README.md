@@ -88,7 +88,7 @@
 | ME Requester | ME 요청기 | 블록명 | ME Requester | 확정 | ME 시스템에서 목표 재고를 자동 제작으로 유지하는 장치 |
 | ME Requester Terminal | ME 요청기 터미널 | 터미널명 | ME Requester | 확정 | 여러 ME 요청기를 한곳에서 관리하는 터미널 |
 | Wireless Requester Terminal | 무선 요청기 터미널 | 터미널명 | ME Requester | 확정 | AE2WTLib 연동 무선 터미널이며 유선 터미널명과 구분 |
-| Source | 마나 | 자원명 | Ars Nouveau 및 Ars Énergistique | 확정 | Ars Nouveau 문맥의 마법 자원이며 일반 영어 `source`와 구분 |
+| Source | 마나 | 자원명 | Ars Nouveau·Ars Énergistique·Logistics Networks | 확정 | Ars Nouveau 문맥의 마법 자원이며 일반 영어 `source`와 구분 |
 | ME Source Jar | ME 마나 단지 | 블록명 | Ars Énergistique | 확정 | Ars Nouveau의 `마나 단지`와 AE2 접두사를 결합 |
 | ME Source Converter | ME 마나 변환기 | 장치명 | Ars Énergistique | 확정 | 블록과 케이블 부품에 같은 이름을 사용 |
 | Portable Source Cell | 휴대용 마나 셀 | 아이템명 | Ars Énergistique | 확정 | AE2의 `휴대용 아이템 셀` 계열 명명 규칙을 따름 |

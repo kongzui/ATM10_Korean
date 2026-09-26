@@ -1,9 +1,18 @@
-# 진행 작업: ATM10 8.1 Ad Astra 계열 누적 번역 업데이트
+# 진행 작업: ATM10 8.1 Logistics Networks 누적 번역 업데이트
 
 전체 순서는 [8.1 로드맵](docs/ATM10_VERSION_TRANSLATION_UPGRADE_PLAN.md),
 대상과 키 수는 [번역 현황](docs/MOD_TRANSLATION_PLAN.md), 규칙은 `AGENTS.md`를 따라요.
-이번 요청은 다음 계열인 Ad Astra와 Giselle Addon이에요. 일반 언어와 가이드를 각각 검증해
-커밋했어요. Logistics Network 이후는 이번 범위에 포함하지 않아요.
+이번 요청은 Logistics Networks예요. 일반 언어, GuideME 가이드와 관련 표시 경로를 검수해요.
+작업에 관련된 Markdown도 번역·배포 단위와 함께 커밋해요. Step Crafter는 다음 작업이에요.
+
+## Logistics Networks · 8.1-stable.5
+
+- [x] 현재 JAR 1.13.0의 일반 언어 454키 대조; 내장 한국어 없음.
+- [x] 150·150·154개 내부 단위로 이름·UI·필터·툴팁·설정 전체 번역 검수.
+- [ ] GuideME 17페이지와 가이드 아이템 이름·설명의 표시 경로 검수.
+- [ ] FTB Quests와 KubeJS의 관련 참조·자동 제목 조사.
+- [ ] 전체 누적 검증, ZIP 생성, 실행 프로세스 확인 후 선택 적용.
+- [ ] 실제 게임에서 노드·필터·렌치·컴퓨터 화면과 가이드 확인.
 
 ## Ad Astra·Giselle Addon · 8.1-stable.4
 

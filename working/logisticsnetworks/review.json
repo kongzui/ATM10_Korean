@@ -1,0 +1,3184 @@
+{
+  "schema_version": 1,
+  "mod": "logisticsnetworks",
+  "entries": [
+    {
+      "key": "itemGroup.logisticsnetworks",
+      "english": "Logistics Networks",
+      "translation": "Logistics Networks",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "block.logisticsnetworks.computer",
+      "english": "Computer",
+      "translation": "컴퓨터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "container.logisticsnetworks.computer",
+      "english": "Network Manager",
+      "translation": "네트워크 관리자",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.no_networks",
+      "english": "No networks available",
+      "translation": "사용 가능한 네트워크가 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.search_hint",
+      "english": "Search networks...",
+      "translation": "네트워크 검색...",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.status.online",
+      "english": "ONLINE",
+      "translation": "온라인",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.status.idle",
+      "english": "IDLE",
+      "translation": "대기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.status.ready",
+      "english": "READY",
+      "translation": "준비 완료",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.status.synced",
+      "english": "SYNCED",
+      "translation": "동기화 완료",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.network_directory",
+      "english": "Network Directory",
+      "translation": "네트워크 목록",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.active_session",
+      "english": "Active Session",
+      "translation": "활성 세션",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.no_signal",
+      "english": "NO SIGNAL",
+      "translation": "신호 없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.mounted",
+      "english": "%s MOUNTED",
+      "translation": "%s 연결됨",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.no_networks_online",
+      "english": "No networks online",
+      "translation": "온라인 네트워크가 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.insert_wrench",
+      "english": "Insert wrench to link",
+      "translation": "렌치를 넣어 연결하세요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.no_network_mounted",
+      "english": "NO NETWORK MOUNTED",
+      "translation": "연결된 네트워크 없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.select_directory",
+      "english": "Select a directory entry",
+      "translation": "목록에서 항목을 선택하면",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.open_workstation",
+      "english": "to open this workstation.",
+      "translation": "이 작업 화면이 열려요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.total_networks_badge",
+      "english": "%s NETWORKS",
+      "translation": "네트워크 %s개",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.hint.dir",
+      "english": "DIR  Browse networks",
+      "translation": "DIR  네트워크 탐색",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.hint.tab",
+      "english": "TAB  Select session",
+      "translation": "TAB  세션 선택",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.hint.run",
+      "english": "RUN  Open subsystem",
+      "translation": "RUN  하위 시스템 열기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.network",
+      "english": "NETWORK",
+      "translation": "네트워크",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.nodes_unknown",
+      "english": "--",
+      "translation": "--",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.nodes_badge",
+      "english": "%s NODES",
+      "translation": "노드 %s개",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.choose_subsystem",
+      "english": "Choose a subsystem",
+      "translation": "하위 시스템을 선택하면",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.inspect_network",
+      "english": "to inspect this network.",
+      "translation": "이 네트워크를 살펴볼 수 있어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.open_io_monitor",
+      "english": "OPEN I/O MONITOR",
+      "translation": "입출력 모니터 열기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.throughput_timeline",
+      "english": "Throughput timeline",
+      "translation": "시간별 전송량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.open_node_table",
+      "english": "OPEN NODE TABLE",
+      "translation": "노드 표 열기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.device_topology",
+      "english": "Device topology",
+      "translation": "장치 연결 구조",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.io_monitor_title",
+      "english": "I/O MONITOR :: %s",
+      "translation": "입출력 모니터 :: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.node_table_title",
+      "english": "NODE TABLE :: %s",
+      "translation": "노드 표 :: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.items",
+      "english": "ITEMS",
+      "translation": "아이템",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.fluids",
+      "english": "FLUIDS",
+      "translation": "유체",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.energy",
+      "english": "ENERGY",
+      "translation": "에너지",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.unit.items",
+      "english": "/s",
+      "translation": "/s",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.unit.fluids",
+      "english": "mB/s",
+      "translation": "mB/s",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.unit.energy",
+      "english": "RF/s",
+      "translation": "RF/s",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.chemicals",
+      "english": "CHEMICALS",
+      "translation": "화학 물질",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.source",
+      "english": "SOURCE",
+      "translation": "마나",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.unit.chemicals",
+      "english": "mB/s",
+      "translation": "mB/s",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.unit.source",
+      "english": "SRC/s",
+      "translation": "SRC/s",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.telemetry.live",
+      "english": "LIVE",
+      "translation": "실시간",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.no_channels",
+      "english": "No channels active.",
+      "translation": "활성 채널이 없어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.enable_channels_hint",
+      "english": "Enable channels to monitor.",
+      "translation": "채널을 켜면 모니터링할 수 있어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.channel_header_device",
+      "english": "CHANNEL",
+      "translation": "채널",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.channel_header_type",
+      "english": "NODES",
+      "translation": "노드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.channel_graph_title",
+      "english": "I/O MONITOR :: %s",
+      "translation": "입출력 모니터 :: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.channel_nodes",
+      "english": "%s nodes",
+      "translation": "노드 %s개",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.no_nodes",
+      "english": "No nodes in this network.",
+      "translation": "이 네트워크에는 노드가 없어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.attach_device",
+      "english": "Attach a device to populate the table.",
+      "translation": "장치를 연결하면 표에 표시돼요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.highlight_tooltip",
+      "english": "Highlight",
+      "translation": "강조 표시",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.settings_tooltip",
+      "english": "Settings",
+      "translation": "설정",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.show",
+      "english": "SHOW",
+      "translation": "표시",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.hide",
+      "english": "HIDE",
+      "translation": "숨기기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.device",
+      "english": "DEVICE",
+      "translation": "장치",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.location",
+      "english": "LOCATION",
+      "translation": "위치",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.devices_badge",
+      "english": "%s DEV",
+      "translation": "장치 %s개",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.exit",
+      "english": "EXIT",
+      "translation": "나가기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.dimension.overworld",
+      "english": "OVR",
+      "translation": "오버월드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.dimension.nether",
+      "english": "NTH",
+      "translation": "네더",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.dimension.end",
+      "english": "END",
+      "translation": "엔드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.computer.position",
+      "english": "%s %s,%s,%s",
+      "translation": "%s %s,%s,%s",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "item.logisticsnetworks.logistics_node",
+      "english": "Logistics Node",
+      "translation": "물류 노드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.wrench",
+      "english": "Wrench",
+      "translation": "렌치",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.small_filter",
+      "english": "Filter",
+      "translation": "필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.medium_filter",
+      "english": "Medium Filter",
+      "translation": "중형 필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.big_filter",
+      "english": "Big Filter",
+      "translation": "대형 필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.tag_filter",
+      "english": "Tag Filter",
+      "translation": "태그 필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.mod_filter",
+      "english": "Mod Filter",
+      "translation": "모드 필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.amount_filter",
+      "english": "Amount Filter",
+      "translation": "수량 필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.durability_filter",
+      "english": "Durability Filter",
+      "translation": "내구도 필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.nbt_filter",
+      "english": "NBT Filter",
+      "translation": "NBT 필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.slot_filter",
+      "english": "Slot Filter",
+      "translation": "슬롯 필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.iron_upgrade",
+      "english": "Iron Upgrade",
+      "translation": "철 업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.gold_upgrade",
+      "english": "Gold Upgrade",
+      "translation": "금 업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.diamond_upgrade",
+      "english": "Diamond Upgrade",
+      "translation": "다이아몬드 업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.netherite_upgrade",
+      "english": "Netherite Upgrade",
+      "translation": "네더라이트 업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.dimensional_upgrade",
+      "english": "Dimensional Upgrade",
+      "translation": "차원 업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "entity.logisticsnetworks.logistics_node",
+      "english": "Logistics Node",
+      "translation": "물류 노드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node_config",
+      "english": "Node Configuration",
+      "translation": "노드 설정",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.clipboard",
+      "english": "Clipboard",
+      "translation": "클립보드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.clipboard.editor",
+      "english": "Clipboard Editor",
+      "translation": "클립보드 편집기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.clipboard.clear",
+      "english": "Clear",
+      "translation": "지우기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.clipboard.visual_slots_hint",
+      "english": "Visual slots: click item to set, empty hand to clear",
+      "translation": "가상 슬롯: 아이템을 든 채 클릭하면 설정하고, 빈손으로 클릭하면 지워요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement",
+      "english": "Mass Placement",
+      "translation": "대량 설치",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.selected",
+      "english": "Selected blocks: %s",
+      "translation": "선택한 블록: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.nodes_required",
+      "english": "Nodes required: %s",
+      "translation": "필요한 노드: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.upgrades_required",
+      "english": "Upgrades required: %s",
+      "translation": "필요한 업그레이드: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.filters_required",
+      "english": "Filters required: %s",
+      "translation": "필요한 필터: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.status_ok",
+      "english": "Placement possible",
+      "translation": "설치 가능",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.status_blocked",
+      "english": "Placement blocked",
+      "translation": "설치 불가",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.requirements",
+      "english": "Required items",
+      "translation": "필요한 아이템",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.requirement_empty",
+      "english": "No extra filters or upgrades in clipboard",
+      "translation": "클립보드에 추가 필터나 업그레이드가 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.requirement_more",
+      "english": "... and %s more",
+      "translation": "... 외 %s개",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.place",
+      "english": "Place Nodes",
+      "translation": "노드 설치",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.clear",
+      "english": "Clear",
+      "translation": "지우기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.mass_placement.hint",
+      "english": "Right-click toggles one block. Ctrl + right-click toggles connected blocks.",
+      "translation": "우클릭하면 블록 하나의 선택을 전환해요. Ctrl + 우클릭하면 연결된 블록의 선택을 전환해요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.select_network",
+      "english": "Select or Create Network",
+      "translation": "네트워크 선택 또는 생성",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.create_network",
+      "english": "Create Network",
+      "translation": "네트워크 생성",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.no_networks",
+      "english": "No networks yet",
+      "translation": "아직 네트워크가 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.rename",
+      "english": "Rename",
+      "translation": "이름 변경",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.no_node",
+      "english": "No node found on this block",
+      "translation": "이 블록에 노드가 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node_removed",
+      "english": "Node removed",
+      "translation": "노드를 제거했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.dimensional_upgrade_warning",
+      "english": "This network has nodes in different dimensions. A Dimensional Upgrade is required on both nodes for inter-dimensional transfers.",
+      "translation": "이 네트워크에는 서로 다른 차원의 노드가 있어요. 차원 간에 전송하려면 양쪽 노드 모두 차원 업그레이드가 필요해요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.blacklisted_resource_warning",
+      "english": "Warning: The attached block contains blacklisted resources that will not be transferred.",
+      "translation": "경고: 연결된 블록에 전송할 수 없는 차단 목록의 자원이 들어 있어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter_warning",
+      "english": "Warning: Filter configuration issues detected:",
+      "translation": "경고: 필터 설정에서 문제가 발견됐어요:",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.network_name_hint",
+      "english": "Enter network name...",
+      "translation": "네트워크 이름 입력...",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.inventory",
+      "english": "Inventory",
+      "translation": "보관함",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.existing_networks",
+      "english": "Existing Networks",
+      "translation": "기존 네트워크",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.page_info",
+      "english": "%s-%s / %s",
+      "translation": "%s-%s / %s",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.network_nodes",
+      "english": "%s nodes",
+      "translation": "노드 %s개",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.visibility.visible",
+      "english": "Visible",
+      "translation": "표시됨",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.visibility.hidden",
+      "english": "Hidden",
+      "translation": "숨겨짐",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.change_network",
+      "english": "Change",
+      "translation": "변경",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.network.none",
+      "english": "No Network",
+      "translation": "네트워크 없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.network.fallback",
+      "english": "Network %s",
+      "translation": "네트워크 %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.network.unnamed",
+      "english": "Unnamed",
+      "translation": "이름 없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.setting.status",
+      "english": "Status",
+      "translation": "상태",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.setting.mode",
+      "english": "Mode",
+      "translation": "모드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.setting.type",
+      "english": "Type",
+      "translation": "유형",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.setting.side",
+      "english": "Side",
+      "translation": "면",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.setting.redstone",
+      "english": "Redstone",
+      "translation": "레드스톤",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.setting.distribution",
+      "english": "Distribution",
+      "translation": "분배",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.setting.filter_mode",
+      "english": "Filter Mode",
+      "translation": "필터 모드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.setting.priority",
+      "english": "Priority",
+      "translation": "우선순위",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.setting.batch",
+      "english": "Batch",
+      "translation": "전송량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.setting.delay",
+      "english": "Delay",
+      "translation": "지연",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.value.enabled",
+      "english": "Enabled",
+      "translation": "켜짐",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.value.disabled",
+      "english": "Disabled",
+      "translation": "꺼짐",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.value.tick_delay",
+      "english": "%st",
+      "translation": "%st",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.value.batch.fluid",
+      "english": "%s mB",
+      "translation": "%s mB",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.value.batch.energy",
+      "english": "%s RF/t",
+      "translation": "%s RF/t",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.value.batch.chemical",
+      "english": "%s mB",
+      "translation": "%s mB",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filters",
+      "english": "Filters",
+      "translation": "필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.upgrades",
+      "english": "Upgrades",
+      "translation": "업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.channel_mode.import",
+      "english": "Receiver",
+      "translation": "수신",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.channel_mode.export",
+      "english": "Sender",
+      "translation": "송신",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.channel_type.item",
+      "english": "Item",
+      "translation": "아이템",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.channel_type.fluid",
+      "english": "Fluid",
+      "translation": "유체",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.channel_type.energy",
+      "english": "Energy",
+      "translation": "에너지",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.channel_type.chemical",
+      "english": "Chemical",
+      "translation": "화학 물질",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.redstone_mode.always_on",
+      "english": "Always On",
+      "translation": "항상 켜짐",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.redstone_mode.always_off",
+      "english": "Always Off",
+      "translation": "항상 꺼짐",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.redstone_mode.high",
+      "english": "High Signal",
+      "translation": "신호 있을 때",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.redstone_mode.low",
+      "english": "Low Signal",
+      "translation": "신호 없을 때",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.distribution_mode.priority",
+      "english": "Priority",
+      "translation": "우선순위",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.distribution_mode.nearest_first",
+      "english": "Nearest First",
+      "translation": "가까운 순서",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.distribution_mode.farthest_first",
+      "english": "Farthest First",
+      "translation": "먼 순서",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.distribution_mode.round_robin",
+      "english": "Round Robin",
+      "translation": "순환 분배",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.direction.down",
+      "english": "Down",
+      "translation": "아래",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.direction.up",
+      "english": "Up",
+      "translation": "위",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.direction.north",
+      "english": "North",
+      "translation": "북쪽",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.direction.south",
+      "english": "South",
+      "translation": "남쪽",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.direction.west",
+      "english": "West",
+      "translation": "서쪽",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.direction.east",
+      "english": "East",
+      "translation": "동쪽",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.direction.all",
+      "english": "All",
+      "translation": "모든 면",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter_mode.match_any",
+      "english": "Any",
+      "translation": "하나라도",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter_mode.match_all",
+      "english": "All",
+      "translation": "모두",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.mode.whitelist",
+      "english": "Whitelist",
+      "translation": "허용 목록",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.mode.blacklist",
+      "english": "Blacklist",
+      "translation": "차단 목록",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.info.icon",
+      "english": "i",
+      "translation": "i",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.info.scroll",
+      "english": "Scroll",
+      "translation": "스크롤",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.target.items",
+      "english": "Items",
+      "translation": "아이템",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.target.fluids",
+      "english": "Fluids",
+      "translation": "유체",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.add",
+      "english": "Add",
+      "translation": "추가",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.tag.selected",
+      "english": "Selected tag",
+      "translation": "선택한 태그",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.tag.select_from_item",
+      "english": "Select tag from extractor",
+      "translation": "추출기에서 태그 선택",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.tag.input_hint",
+      "english": "modid:tag",
+      "translation": "modid:tag",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.tag.input_full_hint",
+      "english": "Enter tag (e.g. c:ores)...",
+      "translation": "태그 입력 (예: c:ores)...",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.tag.clear",
+      "english": "Clr",
+      "translation": "지우기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.tag.no_tags",
+      "english": "No tags (insert item/fluid)",
+      "translation": "태그 없음 (아이템/유체를 넣으세요)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.selector_hint",
+      "english": "Insert item/fluid here to populate suggestions",
+      "translation": "여기에 아이템/유체를 넣으면 추천 목록이 표시돼요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.selector.selected",
+      "english": "Selected: %s",
+      "translation": "선택: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.none",
+      "english": "None",
+      "translation": "없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.mod.selected",
+      "english": "Selected mod",
+      "translation": "선택한 모드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.mod.select_from_item",
+      "english": "Select mod from extractor",
+      "translation": "추출기에서 모드 선택",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.mod.input_hint",
+      "english": "modid",
+      "translation": "modid",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.mod.input_full_hint",
+      "english": "Enter mod ID (e.g. minecraft)...",
+      "translation": "모드 ID 입력 (예: minecraft)...",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.mod.clear",
+      "english": "Clr",
+      "translation": "지우기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.mod.no_mods",
+      "english": "No mods (insert item/fluid)",
+      "translation": "모드 없음 (아이템/유체를 넣으세요)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.selected",
+      "english": "Selected NBT",
+      "translation": "선택한 NBT",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.select_from_item",
+      "english": "Select NBT from extractor",
+      "translation": "추출기에서 NBT 선택",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.select_path",
+      "english": "Select Path...",
+      "translation": "경로 선택...",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.clear",
+      "english": "Clr",
+      "translation": "지우기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.no_entries",
+      "english": "No NBT (insert item/fluid)",
+      "translation": "NBT 없음 (아이템/유체를 넣으세요)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.no_rules",
+      "english": "No rules (click + to add)",
+      "translation": "규칙 없음 (+를 눌러 추가하세요)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.slot_title",
+      "english": "NBT For Slot %s",
+      "translation": "슬롯 %s의 NBT",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.pick_path",
+      "english": "Pick Path",
+      "translation": "경로 선택",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.current.none",
+      "english": "No parsed NBT rule",
+      "translation": "해석된 NBT 규칙이 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.raw_active",
+      "english": "Raw SNBT active",
+      "translation": "원시 SNBT 사용 중",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.raw_label",
+      "english": "Raw SNBT",
+      "translation": "원시 SNBT",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.done",
+      "english": "Done",
+      "translation": "완료",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.value",
+      "english": "Match value",
+      "translation": "일치할 값",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.value.none",
+      "english": "No NBT selected",
+      "translation": "선택한 NBT 없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.match_any",
+      "english": "Match Any",
+      "translation": "하나라도 일치",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.nbt.match_all",
+      "english": "Match All",
+      "translation": "모두 일치",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.threshold",
+      "english": "Amount threshold",
+      "translation": "수량 기준값",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.exp_hint",
+      "english": "Exp: Leave source above limit.",
+      "translation": "송신: 공급처에서 기준값을 초과한 만큼만 보내요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.imp_hint",
+      "english": "Imp: Cap destination at limit.",
+      "translation": "수신: 목적지의 수량을 기준값까지 채워요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.durability.value",
+      "english": "Durability",
+      "translation": "내구도",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.durability.limit",
+      "english": "Durability Limit",
+      "translation": "내구도 기준값",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.durability.hint",
+      "english": "Matches damageable items by remaining durability.",
+      "translation": "내구도가 있는 아이템을 남은 내구도에 따라 걸러내요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.info.import.title",
+      "english": "Import Filter Info",
+      "translation": "수신 필터 안내",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.info.export.title",
+      "english": "Export Filter Info",
+      "translation": "송신 필터 안내",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.info.import.p1",
+      "english": "This filter sets the maximum number of matching items allowed in the import destination.",
+      "translation": "이 필터는 수신 목적지에 보관할 수 있는 일치 아이템의 최대 수량을 설정해요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.info.import.p2",
+      "english": "If the destination is at or above the limit, this channel will not insert more of that item.",
+      "translation": "목적지의 수량이 기준값 이상이면 이 채널은 해당 아이템을 더 넣지 않아요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.info.import.p3",
+      "english": "Use the arrow below to view export behavior.",
+      "translation": "아래 화살표를 누르면 송신 동작을 볼 수 있어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.info.export.p1",
+      "english": "This filter keeps a reserve in the export source.",
+      "translation": "이 필터는 송신 공급처에 여유 수량을 남겨요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.info.export.p2",
+      "english": "Only items above the configured limit can be moved out.",
+      "translation": "설정한 기준값을 초과한 아이템만 내보낼 수 있어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.amount.info.export.p3",
+      "english": "Lower values export more aggressively. Higher values keep more stock.",
+      "translation": "값이 낮을수록 더 많이 내보내고, 높을수록 더 많은 재고를 남겨요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.mode.whitelist",
+      "english": "Mode: Whitelist",
+      "translation": "모드: 허용 목록",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.mode.blacklist",
+      "english": "Mode: Blacklist",
+      "translation": "모드: 차단 목록",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.wrench.mode",
+      "english": "Mode: %s",
+      "translation": "모드: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.wrench.mode.wrench",
+      "english": "Wrench",
+      "translation": "렌치",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.wrench.mode.copy_paste",
+      "english": "Copy/Paste",
+      "translation": "복사/붙여넣기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.wrench.mode.mass_placement",
+      "english": "Mass Placement",
+      "translation": "대량 설치",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.wrench_mode",
+      "english": "Wrench mode: %s",
+      "translation": "렌치 모드: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.block_blacklisted",
+      "english": "This block is blacklisted",
+      "translation": "차단 목록에 있는 블록이에요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.no_storage_capability",
+      "english": "This block has no storage capability",
+      "translation": "이 블록에는 저장 기능이 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.node_already_exists",
+      "english": "A node is already attached here",
+      "translation": "여기에는 이미 노드가 붙어 있어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.not_owner",
+      "english": "You do not own this node",
+      "translation": "이 노드의 소유자가 아니에요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.node_removed",
+      "english": "Node removed",
+      "translation": "노드를 제거했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.copied",
+      "english": "Configuration copied to wrench clipboard",
+      "translation": "렌치 클립보드에 설정을 복사했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.empty",
+      "english": "Clipboard is empty",
+      "translation": "클립보드가 비어 있어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.invalid",
+      "english": "Clipboard data is invalid",
+      "translation": "클립보드 데이터가 올바르지 않아요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.cleared",
+      "english": "Clipboard cleared",
+      "translation": "클립보드를 비웠어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.paste.success",
+      "english": "Clipboard pasted successfully",
+      "translation": "클립보드 내용을 붙여넣었어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.paste.connected.success",
+      "english": "Clipboard pasted to %s connected nodes",
+      "translation": "연결된 노드 %s개에 클립보드 내용을 붙여넣었어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.paste.connected.partial_missing",
+      "english": "Pasted to %s connected nodes, then ran out of required items",
+      "translation": "연결된 노드 %s개에 붙여넣은 뒤 필요한 아이템이 부족해졌어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.paste.connected.partial_no_space",
+      "english": "Pasted to %s connected nodes, then inventory had no space for replaced items",
+      "translation": "연결된 노드 %s개에 붙여넣은 뒤 교체된 아이템을 담을 보관함 공간이 부족해졌어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.paste.connected.none",
+      "english": "No connected nodes found",
+      "translation": "연결된 노드를 찾지 못했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.paste.incompatible",
+      "english": "Target node is incompatible with clipboard",
+      "translation": "대상 노드가 클립보드 내용과 호환되지 않아요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.paste.missing_items",
+      "english": "Missing required items for paste",
+      "translation": "붙여넣기에 필요한 아이템이 부족해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.paste.no_space",
+      "english": "Not enough inventory space for replaced items",
+      "translation": "교체된 아이템을 담을 보관함 공간이 부족해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.preview.header",
+      "english": "Clipboard Preview",
+      "translation": "클립보드 미리 보기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.preview.summary",
+      "english": "Enabled channels: %s, filters: %s, upgrades: %s, required stacks: %s",
+      "translation": "켜진 채널: %s, 필터: %s, 업그레이드: %s, 필요한 묶음: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.clipboard.preview.channel",
+      "english": "Ch %s: %s %s, filters: %s",
+      "translation": "채널 %s: %s %s, 필터: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.selected",
+      "english": "Block selected. Total selected: %s",
+      "translation": "블록을 선택했어요. 총 선택: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.connected_selected",
+      "english": "Connected selection added: %s. Total selected: %s",
+      "translation": "연결된 블록 %s개를 선택했어요. 총 선택: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.connected_deselected",
+      "english": "Connected selection removed: %s. Total selected: %s",
+      "translation": "연결된 블록 %s개의 선택을 해제했어요. 총 선택: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.deselected",
+      "english": "Block removed. Total selected: %s",
+      "translation": "블록의 선택을 해제했어요. 총 선택: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.selection_limit",
+      "english": "Selection limit reached",
+      "translation": "선택 한도에 도달했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.invalid_air",
+      "english": "You cannot select air",
+      "translation": "공기는 선택할 수 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.none_selected",
+      "english": "No blocks selected",
+      "translation": "선택한 블록이 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.invalid_targets",
+      "english": "Some selected blocks are no longer valid",
+      "translation": "선택한 블록 중 일부가 더 이상 유효하지 않아요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.missing_items",
+      "english": "Missing required items for mass placement",
+      "translation": "대량 설치에 필요한 아이템이 부족해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.placed",
+      "english": "Placed %s nodes",
+      "translation": "노드 %s개를 설치했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.failed",
+      "english": "Could not place any nodes",
+      "translation": "노드를 설치하지 못했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.mass_placement.cleared",
+      "english": "Selection cleared",
+      "translation": "선택을 모두 해제했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.entries",
+      "english": "Entries: %s/%s",
+      "translation": "항목: %s/%s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.tags",
+      "english": "Tag Filters: %s",
+      "translation": "태그 필터: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.mod",
+      "english": "Mod Filter: %s",
+      "translation": "모드 필터: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.mod.none",
+      "english": "None",
+      "translation": "없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.nbt",
+      "english": "NBT: %s",
+      "translation": "NBT: %s",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.nbt.rules",
+      "english": "Rules: %s active / %s total",
+      "translation": "규칙: 활성 %s개 / 전체 %s개",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.nbt.none",
+      "english": "None",
+      "translation": "없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.slot.value",
+      "english": "Slots: %s",
+      "translation": "슬롯: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.slot.none",
+      "english": "None",
+      "translation": "없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.amount",
+      "english": "Threshold: %s",
+      "translation": "기준값: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.durability",
+      "english": "Durability: %s %s",
+      "translation": "내구도: %s %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.open_hint",
+      "english": "Right-click to configure",
+      "translation": "우클릭하여 설정하세요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.base.desc",
+      "english": "Filters items/fluids by exact match (%s slots)",
+      "translation": "정확히 일치하는 아이템/유체를 걸러내요 (슬롯 %s개)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.amount.desc",
+      "english": "Sets a transfer threshold",
+      "translation": "전송 기준값을 설정해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.durability.desc",
+      "english": "Filters by remaining durability",
+      "translation": "남은 내구도에 따라 걸러내요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.tag.desc",
+      "english": "Filters items/fluids by tag",
+      "translation": "태그로 아이템/유체를 걸러내요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.nbt.desc",
+      "english": "Filters by NBT data",
+      "translation": "NBT 데이터로 걸러내요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.mod.desc",
+      "english": "Filters by source mod",
+      "translation": "자원을 제공하는 모드로 걸러내요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.slot.desc",
+      "english": "Restricts source/target inventory slots",
+      "translation": "공급처/목적지의 보관함 슬롯을 제한해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.deprecated",
+      "english": "Warning: This filter's function is moved to normal filters, they will be removed",
+      "translation": "경고: 이 필터의 기능은 일반 필터로 옮겨졌으며, 이 필터는 제거될 예정이에요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.name_filter",
+      "english": "Regex Filter",
+      "translation": "정규식 필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.name.desc",
+      "english": "Filters resource names with safe regex syntax",
+      "translation": "안전한 정규식 문법으로 자원 이름을 걸러내요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.name",
+      "english": "Regex: %s",
+      "translation": "정규식: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.name.none",
+      "english": "None",
+      "translation": "없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.name.input_hint",
+      "english": "Safe regex, e.g. Iron|Gold",
+      "translation": "안전한 정규식, 예: Iron|Gold",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.name.active",
+      "english": "Matching: %s",
+      "translation": "일치: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.name.none",
+      "english": "No regex set",
+      "translation": "설정된 정규식 없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.name.invalid_regex",
+      "english": "Invalid regex syntax!",
+      "translation": "잘못된 정규식 문법이에요!",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.upgrade.description",
+      "english": "Node performance upgrade",
+      "translation": "노드 성능 업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.upgrade.items",
+      "english": "Items/batch: %s",
+      "translation": "작업당 아이템: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.upgrade.fluids",
+      "english": "Fluids/batch: %s mB",
+      "translation": "작업당 유체: %s mB",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.upgrade.chemicals",
+      "english": "Chemicals/batch: %s mB",
+      "translation": "작업당 화학 물질: %s mB",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.upgrade.energy",
+      "english": "Energy/batch: %s RF",
+      "translation": "작업당 에너지: %s RF",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.upgrade.delay",
+      "english": "Min tick delay: %s",
+      "translation": "최소 지연 틱: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.upgrade.unlimited",
+      "english": "Unlimited",
+      "translation": "무제한",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.upgrade.dimensional",
+      "english": "Enables cross-dimension transfers",
+      "translation": "차원 간 전송을 활성화해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.compatibility_blacklist",
+      "english": "This block is from an incompatible mod",
+      "translation": "호환되지 않는 모드의 블록이에요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.blacklist",
+      "english": "This block is blacklisted",
+      "translation": "차단 목록에 있는 블록이에요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.mekanism_chemical_upgrade",
+      "english": "Mekanism Chemical Upgrade",
+      "translation": "Mekanism 화학 물질 업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.mekanism_chemical_upgrade",
+      "english": "Unlocks Chemical channel transfer",
+      "translation": "화학 물질 채널 전송을 활성화해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.target.chemicals",
+      "english": "Chemicals",
+      "translation": "화학 물질",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.ars_source_upgrade",
+      "english": "Ars Source Upgrade",
+      "translation": "Ars 마나 업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.ars_source_upgrade",
+      "english": "Unlocks Source channel transfer",
+      "translation": "마나 채널 전송을 활성화해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.channel_type.source",
+      "english": "Source",
+      "translation": "마나",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.value.batch.source",
+      "english": "%s Source",
+      "translation": "%s 마나",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.upgrade.source",
+      "english": "Source/batch: %s",
+      "translation": "작업당 마나: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "jade.logisticsnetworks.node_attached",
+      "english": "Logistics Node Attached",
+      "translation": "물류 노드 부착됨",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "config.jade.plugin_logisticsnetworks.node_attached",
+      "english": "Node Attached Hint",
+      "translation": "노드 부착 안내",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "config.jade.plugin_logisticsnetworks.logistics_node_entity",
+      "english": "Logistics Node Entity",
+      "translation": "물류 노드 개체",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.logisticsnetworks.pattern_setter",
+      "english": "Pattern Setter",
+      "translation": "패턴 설정기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.pattern_setter.title",
+      "english": "Pattern Setter",
+      "translation": "패턴 설정기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.pattern_setter.input",
+      "english": "Input",
+      "translation": "입력",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.pattern_setter.output",
+      "english": "Output",
+      "translation": "출력",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.pattern_setter.pattern_label",
+      "english": "Pattern:",
+      "translation": "패턴:",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.pattern_setter.filter_label",
+      "english": "Filter:",
+      "translation": "필터:",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.pattern_setter.applied",
+      "english": "Applied!",
+      "translation": "적용했어요!",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.label.set",
+      "english": "Set Label",
+      "translation": "이름표 설정",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.label.clear",
+      "english": "Clear Label",
+      "translation": "이름표 지우기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "key.categories.logisticsnetworks",
+      "english": "Logistics Networks",
+      "translation": "Logistics Networks",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "key.logisticsnetworks.toggle_wrench_hud",
+      "english": "Toggle Wrench HUD",
+      "translation": "렌치 HUD 전환",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.wrench_hud.enabled",
+      "english": "Wrench HUD enabled (press %s to hide)",
+      "translation": "렌치 HUD를 켰어요 (%s 키로 숨기기)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.wrench_hud.disabled",
+      "english": "Wrench HUD disabled (press %s to show)",
+      "translation": "렌치 HUD를 껐어요 (%s 키로 표시)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.title",
+      "english": "Detail: Slot %s",
+      "translation": "세부 설정: 슬롯 %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.clear",
+      "english": "Clear",
+      "translation": "지우기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.batch",
+      "english": "Batch",
+      "translation": "전송량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.stock",
+      "english": "Stock",
+      "translation": "재고",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.nbt",
+      "english": "NBT",
+      "translation": "NBT",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.nbt.configure",
+      "english": "Edit",
+      "translation": "편집",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.slots",
+      "english": "Slots",
+      "translation": "슬롯",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.enchanted",
+      "english": "Enchanted",
+      "translation": "마법 부여됨",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.durability",
+      "english": "Durability",
+      "translation": "내구도",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.id_hint",
+      "english": "#tag or item:id",
+      "translation": "#tag 또는 item:id",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.nbt.raw",
+      "english": "Raw SNBT",
+      "translation": "원시 SNBT",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.nbt.table",
+      "english": "Table",
+      "translation": "표",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.nbt.add",
+      "english": "Add Rule",
+      "translation": "규칙 추가",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.deprecated.line1",
+      "english": "Deprecated: Use the base filter detail page",
+      "translation": "폐기 예정: 기본 필터의 세부 설정 화면을 사용하세요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.deprecated.line2",
+      "english": "Left-click a filter slot to open",
+      "translation": "필터 슬롯을 좌클릭하면 열려요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.status",
+      "english": "Toggle channel on/off",
+      "translation": "채널 켜기/끄기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.mode",
+      "english": "Direction of transfer",
+      "translation": "전송 방향",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.mode.import",
+      "english": "Pull items into this node's inventory",
+      "translation": "이 노드에 연결된 보관함으로 아이템을 받아요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.mode.export",
+      "english": "Push items from this node's inventory",
+      "translation": "이 노드에 연결된 보관함에서 아이템을 보내요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.type",
+      "english": "Resource type to transfer",
+      "translation": "전송할 자원 유형",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.side",
+      "english": "Which face of the block to access",
+      "translation": "블록의 어느 면에 접근할지 정해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.redstone",
+      "english": "When to run this channel",
+      "translation": "이 채널의 작동 조건",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.redstone.always_on",
+      "english": "Always active",
+      "translation": "항상 작동",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.redstone.high",
+      "english": "Active when redstone is on",
+      "translation": "레드스톤 신호가 있을 때 작동",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.redstone.low",
+      "english": "Active when redstone is off",
+      "translation": "레드스톤 신호가 없을 때 작동",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.distribution",
+      "english": "How to spread items across targets",
+      "translation": "여러 목적지에 아이템을 분배하는 방식",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.distribution.priority",
+      "english": "Fill highest priority first",
+      "translation": "우선순위가 높은 목적지부터 채워요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.distribution.nearest_first",
+      "english": "Fill closest target first",
+      "translation": "가장 가까운 목적지부터 채워요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.distribution.farthest_first",
+      "english": "Fill furthest target first",
+      "translation": "가장 먼 목적지부터 채워요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.distribution.round_robin",
+      "english": "Cycle through targets evenly",
+      "translation": "목적지를 고르게 순환해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.distribution.random",
+      "english": "Pick a random target each tick",
+      "translation": "매 틱 무작위 목적지를 선택해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.priority",
+      "english": "Higher priority channels run first",
+      "translation": "우선순위가 높은 채널부터 작동해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.batch",
+      "english": "Items moved per operation",
+      "translation": "한 번의 작업으로 옮기는 아이템 수",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tip.delay",
+      "english": "Ticks between operations",
+      "translation": "작업 사이의 대기 틱",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.channel_name.hint",
+      "english": "Channel name...",
+      "translation": "채널 이름...",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.channel_name.set_tooltip",
+      "english": "Double click to name channel",
+      "translation": "두 번 클릭하여 채널 이름 지정",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "advancement.logisticsnetworks.root.title",
+      "english": "Logistics Networks",
+      "translation": "Logistics Networks",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "advancement.logisticsnetworks.root.description",
+      "english": "Hold 'G' over items for guide",
+      "translation": "아이템 위에서 'G' 키를 길게 누르면 가이드가 열려요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.title",
+      "english": "Logistics Networks Configuration",
+      "translation": "Logistics Networks 설정",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.tab.common",
+      "english": "Common",
+      "translation": "공통",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.tab.client",
+      "english": "Client",
+      "translation": "클라이언트",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.tab.upgrades",
+      "english": "Upgrades",
+      "translation": "업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.done",
+      "english": "Done",
+      "translation": "완료",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.cancel",
+      "english": "Cancel",
+      "translation": "취소",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.enabled",
+      "english": "ON",
+      "translation": "켜짐",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.disabled",
+      "english": "OFF",
+      "translation": "꺼짐",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.nodeAccessMode",
+      "english": "Node Access",
+      "translation": "노드 접근 권한",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.nodeAccessMode.teams",
+      "english": "Teams",
+      "translation": "팀",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.nodeAccessMode.all",
+      "english": "All",
+      "translation": "모두",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.nodeAccessMode.allies",
+      "english": "Allies",
+      "translation": "동맹",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.dropNodeItem",
+      "english": "Drop Node Item",
+      "translation": "노드 아이템 드롭",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.debugMode",
+      "english": "Debug Mode",
+      "translation": "디버그 모드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.backoffMaxTicks",
+      "english": "Max Backoff Ticks",
+      "translation": "재시도 대기 최대 틱",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.backoffItem",
+      "english": "Item Backoff",
+      "translation": "아이템 재시도 대기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.backoffFluid",
+      "english": "Fluid Backoff",
+      "translation": "유체 재시도 대기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.backoffEnergy",
+      "english": "Energy Backoff",
+      "translation": "에너지 재시도 대기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.backoffChemical",
+      "english": "Chemical Backoff",
+      "translation": "화학 물질 재시도 대기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.common.backoffSource",
+      "english": "Source Backoff",
+      "translation": "마나 재시도 대기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.client.defaultNodeVisibility",
+      "english": "Default Node Visibility",
+      "translation": "기본 노드 표시 여부",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.client.maxRenderedNodes",
+      "english": "Max Rendered Nodes",
+      "translation": "최대 렌더링 노드 수",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.client.maxVisibleNodes",
+      "english": "Max Visible Nodes",
+      "translation": "최대 표시 노드 수",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.client.connectedNodeTextures",
+      "english": "Connected Node Textures",
+      "translation": "연결된 노드 텍스처",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.tier.none",
+      "english": "No Upgrade",
+      "translation": "업그레이드 없음",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.tier.iron",
+      "english": "Iron Tier",
+      "translation": "철 등급",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.tier.gold",
+      "english": "Gold Tier",
+      "translation": "금 등급",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.tier.diamond",
+      "english": "Diamond Tier",
+      "translation": "다이아몬드 등급",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.tier.netherite",
+      "english": "Netherite Tier",
+      "translation": "네더라이트 등급",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.minTicks",
+      "english": "Min Ticks",
+      "translation": "최소 틱",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.itemBatch",
+      "english": "Item Batch",
+      "translation": "아이템 전송량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.fluidBatch",
+      "english": "Fluid Batch",
+      "translation": "유체 전송량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.energyBatch",
+      "english": "Energy Batch",
+      "translation": "에너지 전송량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.chemicalBatch",
+      "english": "Chemical Batch",
+      "translation": "화학 물질 전송량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.upgrades.sourceBatch",
+      "english": "Source Batch",
+      "translation": "마나 전송량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.no_permission",
+      "english": "You do not have permission to change this setting",
+      "translation": "이 설정을 변경할 권한이 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.wrench.ae2_linked",
+      "english": "Linked",
+      "translation": "연결됨",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.wrench.ae2_linked_detail",
+      "english": "Linked to [%s, %s, %s] in %s",
+      "translation": "%s, %s, %s 좌표에 연결됨 (차원: %s)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.wrench.ae2_unlinked",
+      "english": "Unlinked",
+      "translation": "연결 안 됨",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.ae2.linked",
+      "english": "Linked wrench to ME Network at [%s, %s, %s]",
+      "translation": "%s, %s, %s 좌표의 ME 네트워크에 렌치를 연결했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.ae2.unlinked",
+      "english": "Unlinked wrench from ME Network",
+      "translation": "ME 네트워크에서 렌치 연결을 해제했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.search",
+      "english": "Search items…",
+      "translation": "아이템 검색…",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.docs",
+      "english": "Docs",
+      "translation": "문서",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tweaks",
+      "english": "Tweaks",
+      "translation": "세부 설정",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tweaks.theme",
+      "english": "Theme",
+      "translation": "테마",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tweaks.density",
+      "english": "Density",
+      "translation": "배치 간격",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tweaks.density.normal",
+      "english": "Normal",
+      "translation": "보통",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.tweaks.density.compact",
+      "english": "Compact",
+      "translation": "좁게",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.theme.light",
+      "english": "Light",
+      "translation": "밝게",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.theme.dark",
+      "english": "Dark",
+      "translation": "어둡게",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.theme.redstone",
+      "english": "Redstone",
+      "translation": "레드스톤",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.theme.nebula",
+      "english": "Nebula",
+      "translation": "성운",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.theme.glass",
+      "english": "Glass",
+      "translation": "유리",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.theme.terminal",
+      "english": "Terminal",
+      "translation": "터미널",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.theme.pastel",
+      "english": "Pastel",
+      "translation": "파스텔",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.theme.brutalist",
+      "english": "Brutalist",
+      "translation": "브루탈리즘",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.client.theme",
+      "english": "Theme",
+      "translation": "테마",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.config.client.density",
+      "english": "Density",
+      "translation": "배치 간격",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.unfilterable",
+      "english": "This channel type can't be filtered",
+      "translation": "이 채널 유형에는 필터를 사용할 수 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.pick.normal",
+      "english": "Normal",
+      "translation": "일반",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.pick.mod",
+      "english": "Mod",
+      "translation": "모드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.pick.regex",
+      "english": "Regex",
+      "translation": "정규식",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.add.hint",
+      "english": "Click to add item to filter",
+      "translation": "클릭하여 필터에 아이템 추가",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.add.done",
+      "english": "Item added to filter",
+      "translation": "필터에 아이템을 추가했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.type.small",
+      "english": "Small",
+      "translation": "소형",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.type.medium",
+      "english": "Medium",
+      "translation": "중형",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.type.big",
+      "english": "Big",
+      "translation": "대형",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.type.mod",
+      "english": "Mod",
+      "translation": "모드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.type.name",
+      "english": "Regex",
+      "translation": "정규식",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.empty",
+      "english": "Empty Filter",
+      "translation": "빈 필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.open",
+      "english": "Open Filter",
+      "translation": "필터 열기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.node.filter.change_type",
+      "english": "Change Filter Type",
+      "translation": "필터 유형 변경",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.title",
+      "english": "Filter",
+      "translation": "필터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.copy",
+      "english": "Copy filter",
+      "translation": "필터 복사",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.paste",
+      "english": "Paste filter",
+      "translation": "필터 붙여넣기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.paste.empty",
+      "english": "Paste filter (clipboard empty)",
+      "translation": "필터 붙여넣기 (클립보드가 비어 있어요)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.scan_storage",
+      "english": "Scan attached storage",
+      "translation": "연결된 저장소 검색",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.scan_storage.unavailable",
+      "english": "Scan attached storage (standard node filters only)",
+      "translation": "연결된 저장소 검색 (일반 노드 필터만 가능)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.copy.success",
+      "english": "Filter copied",
+      "translation": "필터를 복사했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.copy.empty",
+      "english": "Nothing to copy",
+      "translation": "복사할 내용이 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.paste.success",
+      "english": "Filter pasted",
+      "translation": "필터를 붙여넣었어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.paste.partial",
+      "english": "Filter pasted: %s/%s slots copied",
+      "translation": "필터를 붙여넣었어요: 슬롯 %s/%s개 복사",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.paste.empty",
+      "english": "Filter clipboard is empty",
+      "translation": "필터 클립보드가 비어 있어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.paste.incompatible",
+      "english": "Clipboard does not match this filter type",
+      "translation": "클립보드 내용이 이 필터 유형과 맞지 않아요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.scan_storage.success",
+      "english": "Added %s entries from attached storage",
+      "translation": "연결된 저장소에서 항목 %s개를 추가했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.scan_storage.full",
+      "english": "Added %s entries; the filter is full",
+      "translation": "항목 %s개를 추가했어요. 필터가 가득 찼어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.scan_storage.no_new_entries",
+      "english": "No new contents found in attached storage",
+      "translation": "연결된 저장소에서 새 내용물을 찾지 못했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.scan_storage.unavailable",
+      "english": "No compatible attached storage found",
+      "translation": "호환되는 연결된 저장소를 찾지 못했어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.regex.invalid",
+      "english": "Regex was not saved: invalid syntax",
+      "translation": "정규식을 저장하지 못했어요: 잘못된 문법",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.regex.unsupported",
+      "english": "Regex was not saved: unsupported syntax",
+      "translation": "정규식을 저장하지 못했어요: 지원하지 않는 문법",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.filter.regex.too_long",
+      "english": "Regex was not saved: maximum length is 128 characters",
+      "translation": "정규식을 저장하지 못했어요: 최대 길이는 128자예요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.logisticsnetworks.filter.name.scope",
+      "english": "Match: %s",
+      "translation": "일치: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.name.pattern",
+      "english": "Pattern: %s",
+      "translation": "패턴: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.name.scope.name",
+      "english": "Name",
+      "translation": "이름",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.name.unsafe_regex",
+      "english": "Unsupported regex syntax!",
+      "translation": "지원하지 않는 정규식 문법이에요!",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.name.too_long",
+      "english": "Regex exceeds 128 characters!",
+      "translation": "정규식이 128자를 초과해요!",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.nbt.strict",
+      "english": "Strict",
+      "translation": "엄격",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.nbt.strict.on",
+      "english": "Strict NBT: exact item data required",
+      "translation": "엄격한 NBT: 아이템 데이터가 정확히 일치해야 해요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.nbt.strict.off",
+      "english": "Strict NBT off: configure specific NBT rules",
+      "translation": "엄격한 NBT 꺼짐: 개별 NBT 규칙을 설정하세요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.logisticsnetworks.filter.detail.nbt.edit.disabled",
+      "english": "Disable strict matching to edit NBT",
+      "translation": "NBT를 편집하려면 엄격한 일치를 끄세요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "key.logisticsnetworks.toggle_slot_numbers",
+      "english": "Toggle Slot Numbers",
+      "translation": "슬롯 번호 전환",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.slot_numbers.enabled",
+      "english": "Slot numbers shown (press %s to hide)",
+      "translation": "슬롯 번호를 표시해요 (%s 키로 숨기기)",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "message.logisticsnetworks.slot_numbers.disabled",
+      "english": "Slot numbers hidden (press %s to show)",
+      "translation": "슬롯 번호를 숨겨요 (%s 키로 표시)",
+      "reviewed": true,
+      "status": "new_translation"
+    }
+  ]
+}

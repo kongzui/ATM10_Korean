@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "scope": "language",
+  "counts": {
+    "logisticsnetworks": {
+      "language_keys": 454
+    }
+  },
+  "source_sha256": {
+    "instance/mods/logisticsnetworks-1.21.1-1.13.0.jar": "caa59d04d0f824784c4242ba89656d8dfefcb970c30a5a007f0ea605298e801f",
+    "project/working/logisticsnetworks/source.json": "6fa2c19689468ee864c7ad8ab4b58f36dc94230dab50c4dca5393220a3114f62",
+    "project/working/logisticsnetworks/en_us.json": "d9a5bca35b284a8eb06d54f5479875482b9fffec60f3fe5aa135a475595b99ea",
+    "project/working/logisticsnetworks/ko_kr.json": "8d28ddec8dd1c0ab2485de63f97332f2bf46f00cb8fc1e89676036b95163b287",
+    "project/working/logisticsnetworks/review.json": "447e4675e6debfe6d1e77ea1c58fd77291ecd0c83524bbd346f725384cd6c2a5",
+    "output/resourcepack/ATM10_Korean/assets/logisticsnetworks/lang/ko_kr.json": "8d28ddec8dd1c0ab2485de63f97332f2bf46f00cb8fc1e89676036b95163b287"
+  }
+}
