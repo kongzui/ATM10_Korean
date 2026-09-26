@@ -21,8 +21,8 @@
 - Minecraft: 1.21.1
 - 설치 모드 기준: 2026-08-31 `game_root/mods`의 JAR 488개
 - 8.1 조사 자료: 영어 언어 네임스페이스 398개, FTB Quests 챕터 66개
-- 현재 output 상태: 보조 번역 실행 코드를 제외한 `8.1-stable.3`과 `7.1-stable.1`을 제공한다.
-  일반 언어·퀘스트·가이드와 원래 KubeJS 번역은 유지하며 실제 적용은 사용자가 한다.
+- 현재 output 상태: 보조 번역 실행 코드를 제외한 `8.1-stable.4`과 `7.1-stable.1`을 제공한다.
+  일반 언어·퀘스트·가이드와 원래 KubeJS 번역은 유지하며 실제 적용은 `AGENTS.md`를 따른다.
 - 보조 번역 제외 범위와 후속 검토: `docs/AUXILIARY_TRANSLATION_SCRIPTS.md`
 - 사용자 안정판 정상 작동 확인을 받았다. 화면·버전별 상세 확인 목록은 없으므로 전체 완역·전체 기능 검증을 뜻하지 않는다.
 - 신규 모드 전체 번역과 기존 표현 개선은 후속 누적 업데이트다. 아래 수치는 보존된 8.1 감사 기준이며 다음 계열 작업 시작 때 현재 JAR과 재대조한다.
@@ -69,7 +69,7 @@
 2026-09-09 정리. 기준: `versions/8.1/reports/mod_language_rebase_audit.json`,
 `ftbquests_rebase.md`, `upgrade_progress.md`와 현재 안정판 output.
 영어 키 수는 작업 규모이고 한국어 미표시 개수가 아니다. 모드 자체 한국어와 다른 파일의
-번역이 적용될 수 있으며, 라이브러리·예제 키도 포함한다. 이번에는 번역값을 바꾸지 않았다.
+번역이 적용될 수 있으며, 라이브러리·예제 키도 포함한다. 완료 상태는 2026-09-26까지 갱신했다.
 
 ### 새 네임스페이스: 11개, 영어 4,779키
 
@@ -77,8 +77,8 @@
 |---|---|---:|---:|---|
 | 1 | Auroral / `auroral` | 148 | 0 | 언어 148키·GuideME 29페이지 완료, 퀘스트 46키 검수. stable.2 배포 |
 | 2 | Neo Vitae / `neovitae` | 3,053 | 0 | 언어 3,053키·직접 문구 61키 완료, 퀘스트 105키 검수. stable.3 배포 |
-| 3 | Ad Astra / `ad_astra` | 831 | 414 | 전체 검수 미작업, 우주 콘텐츠 본체 |
-| 3 | Ad Astra: Giselle Addon / `ad_astra_giselle_addon` | 168 | 162 | 본체와 함께 후보 검수·용어 통일 |
+| 3 | Ad Astra / `ad_astra` | 831 | 414 | 언어 전체·Astrodux 35파일 165문구 검수 완료, stable.4 |
+| 3 | Ad Astra: Giselle Addon / `ad_astra_giselle_addon` | 168 | 162 | 언어 전체·본체 용어 통일 완료, stable.4 |
 | 4 | Logistics Network / `logisticsnetworks` | 454 | 0 | 일반 언어 미작업, 자동화 사용 안내 |
 | 5 | Step Crafter / `stepcrafter` | 79 | 0 | 일반 언어 미작업, 작은 자동화 범위 |
 | 6 | Better Advanced Tooltips / `betteradvancedtooltips` | 5 | 0 | 미작업, 툴팁 UI |
@@ -90,6 +90,10 @@
 한국어 후보 414·162키는 검수 완료 수가 아니다. Auroral·Neo Vitae의 퀘스트는 이미
 번역 이식됐으므로 일반 언어를 채운 뒤 이름·자동 제목 연결을 재검수한다.
 각 계열에서 관련 FTB Quests·KubeJS·가이드도 조사하며, 보조 코드는 추가하지 않는다.
+
+Ad Astra 계열은 현재 퀘스트 구조 66챕터에서 관련 참조가 없으며 KubeJS는 제작법·태그만
+참조한다. 일반 언어 999키는 후보 재사용 421·교정 155·신규 393·원문 유지 30키다.
+가이드는 후보 재사용 42·교정 56·신규 65·원문 유지 2문구다. 실제 게임 화면 확인은 남아 있다.
 
 ### 기존 산출물 누락 후보: 2,120키
 
