@@ -36,6 +36,7 @@ BASELINE = "3aa66388e4cf3fcf9dc1f928d90dedc250769d5e"
 RELEASE_MODS = {
     "8.1-stable.2": ("auroral",),
     "8.1-stable.3": ("auroral", "neovitae"),
+    "8.1-stable.4": ("auroral", "neovitae"),
 }
 CHAPTERS = {"auroral": "auroral", "neovitae": "neo_vitae"}
 PACK = "resourcepack/ATM10_Korean"
@@ -164,6 +165,10 @@ def allowed_paths(release_id: str) -> set[str]:
     for mod in RELEASE_MODS[release_id]:
         paths.add(f"{PACK}/assets/{mod}/lang/ko_kr.json")
         paths.add(f"overrides/{QUEST_ROOT}/lang/ko_kr/chapters/{CHAPTERS[mod]}.snbt")
+    if release_id == "8.1-stable.4":
+        import verify_ad_astra_translation as ad_astra
+
+        paths.update(ad_astra.allowed_paths())
     return paths
 
 
@@ -417,6 +422,7 @@ def verify(release_id: str, inventory: dict[str, str]) -> dict:
     before = snapshot(instance)
     evidence = {}
     counts = Counter()
+    additional_family = None
 
     def evidence_hash(path: Path, root: Path, prefix: str) -> str:
         digest = sha256(path)
@@ -539,6 +545,15 @@ def verify(release_id: str, inventory: dict[str, str]) -> dict:
             counts["quest_keys"] += check_review(mod, audit, source, target)
             evidence_hash(audit_path, PROJECT_ROOT, "project")
             counts["quest_files"] += 1
+        if release_id == "8.1-stable.4":
+            import verify_ad_astra_translation as ad_astra
+
+            additional_family = ad_astra.verify(evidence_hash=evidence_hash)
+            for family_counts in additional_family["counts"].values():
+                counts["language_keys"] += family_counts["language_keys"]
+                counts["language_files"] += 1
+                counts["guide_files"] += family_counts.get("guide_files", 0)
+                counts["guide_display_strings"] += family_counts.get("guide_strings", 0)
         for relative, expected in inventory.items():
             if sha256(output / relative) != expected:
                 raise ValueError(f"검증 중 산출물 변경: {relative}")
@@ -551,7 +566,8 @@ def verify(release_id: str, inventory: dict[str, str]) -> dict:
         "schema_version": 1,
         "release": release_id,
         "baseline_commit": BASELINE,
-        "mods": list(mods),
+        "mods": list(mods)
+        + (list(additional_family["counts"]) if additional_family else []),
         "status": "passed",
         "counts": dict(counts),
         "changed_paths": sorted(changed),
@@ -559,4 +575,9 @@ def verify(release_id: str, inventory: dict[str, str]) -> dict:
         "current_jar_english_verified": True,
         "instance_unchanged": True,
         "evidence_sha256": evidence,
+        **(
+            {"additional_family_counts": additional_family["counts"]}
+            if additional_family
+            else {}
+        ),
     }

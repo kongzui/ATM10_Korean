@@ -7,6 +7,6 @@
   "status": "compatibility_ready",
   "full_apply_allowed": true,
   "baseline_commit": "5011ad5",
-  "note": "8.1-stable.3: 보조 번역 실행 코드 제외. 기존 설치의 4개 보조 스크립트를 주석 전용 파일로 교체한다. 실제 적용은 사용자가 진행하며 게임 화면 재확인 전이다.",
-  "release_id": "8.1-stable.3"
+  "note": "8.1-stable.4: Ad Astra·Giselle Addon 언어 999키와 Astrodux 가이드 35파일 누적. 보조 번역 실행 코드 제외 유지. 파일 검증과 실제 게임 화면 검증은 구분하며 적용 결과는 별도 보고서에 기록한다.",
+  "release_id": "8.1-stable.4"
 }

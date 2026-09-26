@@ -9,28 +9,31 @@ All the Mods 10을 모드별로 완성도 있게 한글화하고, 게임팩 버�
 관리합니다. 모드 언어 파일뿐 아니라 관련 FTB Quests와 KubeJS 표시 문구도 함께 다루며,
 원본 모드 JAR은 수정하지 않아요.
 
-## 현재 배포: 8.1-stable.3 / 7.1-stable.1
+## 현재 배포: 8.1-stable.4 / 7.1-stable.1
 
 7.1 검수 번역을 유지하고 ATM10 8.1의 변경분을 보완한 호환판이에요. 신규 모드 전체 번역은
 누적 업데이트로 더하며 Auroral 언어 148키·가이드 29페이지와 Neo Vitae 언어 3,114키를 포함해요.
+Ad Astra·Giselle Addon 언어 999키와 Astrodux 가이드 35파일도 추가했어요.
 두 안정판 모두 화면·툴팁·채팅 보조 번역 실행 코드를 제외했어요.
 일반 번역은 유지하며 해당 보조 문구는 원래 표시를 사용해요. 사용자가 이전 stable.1의 정상 작동을
-확인했으며 새 Auroral·Neo Vitae 번역의 화면 확인은 대기 중이에요. 화면·버전별 상세 확인 목록은 별도로 받지 않았어요.
+확인했으며 새 Auroral·Neo Vitae·Ad Astra 계열 번역의 화면 확인은 대기 중이에요.
+화면·버전별 상세 확인 목록은 별도로 받지 않았어요.
 
-- [8.1 설치·업데이트 안내](docs/releases/8.1-stable.3.md)
+- [8.1 설치·업데이트 안내](docs/releases/8.1-stable.4.md)
 - [7.1 설치·업데이트 안내](docs/releases/7.1-stable.1.md)
 - [8.1 누적 번역 업데이트 순서](docs/ATM10_VERSION_TRANSLATION_UPGRADE_PLAN.md)
 - [7.1 단축키를 8.1로 한 번에 옮기기](docs/KEYBIND_MIGRATION.md)
 - [보조 번역 제외 범위와 향후 검토](docs/AUXILIARY_TRANSLATION_SCRIPTS.md)
 - [완료 현황과 검증 범위](versions/8.1/reports/upgrade_progress.md)
-- 배포 파일: `temp/releases/8.1-stable.3/`와 `temp/releases/7.1-stable.1/`에 ZIP 두 개씩
+- 배포 파일: `temp/releases/8.1-stable.4/`와 `temp/releases/7.1-stable.1/`에 ZIP 두 개씩
 - 리소스팩 ZIP은 `resourcepacks/`에 넣고 활성화해요. override ZIP은 인스턴스 루트에
   `config/`와 `kubejs/`를 병합하는 용도예요. 두 ZIP의 설치 위치가 달라요.
 
 기존 보조 파일 네 개는 주석만 있는 파일로 교체돼요. **리소스팩뿐 아니라 override도 반드시
 덮어써야 보조 기능이 꺼져요.** 안정판 검사 명령을 실행한 뒤 재포장해요. ZIP은 Git에 포함하지 않아요.
-안정판은 사용자가 직접 설치했어요. 현재 대화에서는 자동 적용하지 않고 ZIP을 제공하는
-지시를 유지해요. 아래 명령은 각 버전의 현재 배포를 검증하고 재포장해요.
+이전 안정판은 사용자가 직접 설치했어요. 새 작업의 자동 적용은 `AGENTS.md`의 게임 실행 여부·
+백업·선택 경로 검증 규칙을 따르며, 적용 결과와 게임 화면 확인은 따로 기록해요.
+아래 명령은 각 버전의 현재 배포를 검증하고 재포장해요.
 변경한 번역은 현재 원문으로 검사하고 나머지는 이전 검증을 계승해요.
 
 ```powershell

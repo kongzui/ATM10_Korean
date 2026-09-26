@@ -19,6 +19,17 @@ PACK = "resourcepack/ATM10_Korean"
 DISPLAY_FIELDS = {"name", "description", "text", "title"}
 
 
+def allowed_paths():
+    """현재 영어 가이드와 두 언어 파일만 누적 배포의 변경 범위로 허용해요."""
+    paths = {f"{PACK}/assets/{mod}/lang/ko_kr.json" for mod in MODS}
+    source = PROJECT_ROOT / "working/ad_astra/guide/en_us"
+    paths.update(
+        f"{PACK}/{GUIDE}/ko_kr/{p.relative_to(source).as_posix()}"
+        for p in source.rglob("*.json")
+    )
+    return paths
+
+
 def scan_instance_routes(instance):
     """퀘스트와 KubeJS의 관련 참조·조사 파일 목록을 재현해요."""
     pattern = re.compile(

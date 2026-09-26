@@ -188,7 +188,11 @@ def verify(version: str, *, write_report: bool = True) -> dict:
         "disabled_scripts": list(DISABLED_PATHS),
         "auxiliary_translation_scripts_active": False,
         "game_screen_validation": "not_run",
-        "deployment": "not_applied_user_will_install",
+        "deployment": (
+            "not_verified_by_release_validator_see_apply_report"
+            if release["release_id"] == "8.1-stable.4"
+            else "not_applied_user_will_install"
+        ),
         "transition_validation": (
             "temp_overwrite_and_comment_only_vm"
             if write_report

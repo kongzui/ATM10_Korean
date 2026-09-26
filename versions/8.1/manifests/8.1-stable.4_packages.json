@@ -1,0 +1,25 @@
+{
+  "release": "8.1-stable.4",
+  "minecraft": "1.21.1",
+  "atm10": "8.1",
+  "packages": [
+    {
+      "name": "ATM10_Korean_8.1-stable.4_resourcepack.zip",
+      "bytes": 5126432,
+      "files": 2368,
+      "sha256": "c107524dfd31d8cf061449422b23d24708a2190df0cd4235aac81f7f413ecf6a",
+      "zip_crc_and_content_verified": true
+    },
+    {
+      "name": "ATM10_Korean_8.1-stable.4_overrides.zip",
+      "bytes": 6456261,
+      "files": 335,
+      "sha256": "b2dc4f307aed32949a08f153287da59a29413b06dee8dcd24818a041b27ab11b",
+      "zip_crc_and_content_verified": true
+    }
+  ],
+  "game_screen_validation": "not_run",
+  "auxiliary_translation_scripts_active": false,
+  "old_scripts_neutralized_by_overwrite": true,
+  "deployment": "not_verified_by_release_validator_see_apply_report"
+}

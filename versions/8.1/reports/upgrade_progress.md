@@ -4,10 +4,12 @@
 
 ## 배포 방식
 
-현재 배포는 Auroral·Neo Vitae 번역을 더하고 보조 번역 실행 코드를 제외한 `8.1-stable.3`와 `7.1-stable.1`이에요.
+현재 배포는 Auroral·Neo Vitae·Ad Astra 계열 번역을 더하고 보조 번역 실행 코드를 제외한
+`8.1-stable.4`와 `7.1-stable.1`이에요.
 일반 언어·퀘스트·가이드·ATM10 원래 스크립트 번역은 유지해요. 프로젝트가 추가한 보조 파일
 네 개는 주석만 있는 파일로 교체해 기존 설치의 실행 코드를 비활성화해요.
-상세 범위는 `docs/AUXILIARY_TRANSLATION_SCRIPTS.md`, 현재 검증은 `stable_release.md`를 확인해요.
+보조 제외 범위는 `docs/AUXILIARY_TRANSLATION_SCRIPTS.md`, 최초 안정판 근거는
+`stable_release.md`, 현재 추가 범위는 `ad_astra_completion.md`를 확인해요.
 에이전트는 이번 안정판을 실제 인스턴스에 적용하지 않았어요. 사용자가 직접 설치한 뒤
 정상 작동을 확인했어요. 버전별·화면별 확인 목록은 없으며 전체 기능 검증으로 확대하지 않아요.
 
@@ -82,3 +84,19 @@
 - [Neo Vitae 완료 보고](neovitae_completion.md)에 원문 설명 차이와 처리 근거 기록.
 - 실제 인스턴스에 적용하지 않았어요. 새 번역의 게임 화면 확인은 사용자 설치 후 진행해요.
 - 사용자의 이번 작업 단위까지만 완료하라는 지시에 따라 단계 2 이후는 시작하지 않아요.
+
+## 2026-09-26 · Ad Astra 계열 누적 stable.4
+
+- 다음 계열 요청에 따라 Ad Astra와 Giselle Addon의 일반 언어 999키를 검수했어요.
+  현재 JAR 후보 재사용 421·교정 155·신규 한국어 393·후보 없는 원문 표기 유지 30키예요.
+- Astrodux 35파일·99페이지·165문구를 현재 영어 구조로 작성했어요.
+  후보 재사용 42·교정 56·신규 한국어 65·원문 고유명사 유지 2문구예요.
+- 현재 퀘스트 구조 66챕터에 관련 참조가 없고 KubeJS는 제작법·태그 참조뿐이므로 변경하지 않았어요.
+- 전체 JSON 1,800/SNBT 76/JS 27개와 언어·가이드 보호 문자열, 기존 파일 해시,
+  ZIP 두 개의 CRC·내용, 저장소 전체 Ruff 검사를 통과했어요.
+- 커밋 단위: 언어 `2e589ee`, 가이드·관련 표시 경로 `43b5f70`, 이후 stable.4 배포·적용 기록.
+- 기존 스크립트로 폴더팩의 이번 번역 37파일만 적용했고, 그 외 파일과 options.txt는 보존했어요.
+  현재 활성 팩은 stable.1 ZIP이므로 누적 stable.4 ZIP을 활성화해야 해요. 게임 화면은 미검증이에요.
+- [완료 보고](ad_astra_completion.md), `ad_astra_apply.json`,
+  `8.1-stable.4_stable_validation.json`과 `../manifests/8.1-stable.4_packages.json`에 근거를 남겨요.
+- Logistics Network 이후는 시작하지 않았어요.

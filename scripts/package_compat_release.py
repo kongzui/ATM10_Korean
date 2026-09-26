@@ -132,7 +132,7 @@ def package(version: str = "8.1") -> dict[str, object]:
         "game_screen_validation": "not_run",
         "auxiliary_translation_scripts_active": False,
         "old_scripts_neutralized_by_overwrite": True,
-        "deployment": "not_applied_user_will_install",
+        "deployment": report["deployment"],
     }
     content = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
     (destination_root / "SHA256.json").write_text(content, encoding="utf-8")
