@@ -1,0 +1,55 @@
+{
+  "applied_at": "2026-09-27T02:26:50",
+  "status": "applied_and_verified",
+  "configured_targets": [
+    "game_root"
+  ],
+  "game_root_configured": true,
+  "java_processes": [],
+  "version_guard": {
+    "status": "scoped_rebase_apply",
+    "active_pack_version": "8.1",
+    "baseline_pack_version": "7.1",
+    "active_output_root": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1",
+    "output_validated_pack_version": "8.1",
+    "output_rebase_target_version": null,
+    "full_apply_allowed": true,
+    "target_versions": {
+      "game_root": "8.1"
+    }
+  },
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+      "status": "applied_and_verified",
+      "backup_root": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\temp\\backups\\20260927_022645_133721\\game_root",
+      "changed_paths": [
+        "resourcepacks/ATM10_Korean/assets/stepcrafter/lang/ko_kr.json"
+      ],
+      "files": [
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/stepcrafter/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\stepcrafter\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\stepcrafter\\lang\\ko_kr.json",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "ef3b7f0fd79cd947dca6d79c72357e4fdc0133415144439790c755242400fd3f",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "ef3b7f0fd79cd947dca6d79c72357e4fdc0133415144439790c755242400fd3f"
+        }
+      ],
+      "unexpected_changes": []
+    }
+  ],
+  "backup_manifest": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\temp\\backups\\20260927_022645_133721\\backup_manifest.json",
+  "options_unchanged": true,
+  "resourcepacks_selection_preserved": {
+    "game_root": [
+      "resourcePacks:[\"modularbees:dynamic_assets\",\"vanilla\",\"mod_resources\",\"add_xycraft_overrides_stone\",\"add_xycraft_overrides_metal\",\"add_xycraft_overrides_glass\",\"moonlight:merged_pack\",\"neovitae_materials\",\"mod/towntalk:respack\",\"mod/eternal_starlight:resourcepacks/starlight_3d_mace\",\"mod/dyenamicsandfriends:compat_packs/productivemetalworks/\",\"mod/dyenamicsandfriends:compat_packs/connectedglass/\",\"mod/dyenamicsandfriends:compat_packs/luminax/\",\"mod/dyenamicsandfriends:compat_packs/cookingforblockheads/\",\"mod/dyenamicsandfriends:compat_packs/botanypots/\",\"mod/dyenamicsandfriends:compat_packs/chromacarvings/\",\"modern_industrialization/generated\",\"file/ATM10_Korean_8.1-stable.1_resourcepack.zip\"]",
+      "lang:ko_kr"
+    ]
+  },
+  "activation_note": "번역 파일을 폴더팩에 적용했어요. 현재 선택된 번역 팩은 stable.1 ZIP이므로 stable.6 ZIP 또는 최신 폴더팩을 활성화한 뒤 게임 화면 확인이 필요해요."
+}

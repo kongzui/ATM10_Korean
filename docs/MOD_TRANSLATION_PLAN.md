@@ -21,7 +21,7 @@
 - Minecraft: 1.21.1
 - 설치 모드 기준: 2026-08-31 `game_root/mods`의 JAR 488개
 - 8.1 조사 자료: 영어 언어 네임스페이스 398개, FTB Quests 챕터 66개
-- 현재 output 상태: 보조 번역 실행 코드를 제외한 `8.1-stable.5`와 `7.1-stable.1`을 제공한다.
+- 현재 output 상태: 보조 번역 실행 코드를 제외한 `8.1-stable.6`과 `7.1-stable.1`을 제공한다.
   일반 언어·퀘스트·가이드와 원래 KubeJS 번역은 유지하며 실제 적용은 `AGENTS.md`를 따른다.
 - 보조 번역 제외 범위와 후속 검토: `docs/AUXILIARY_TRANSLATION_SCRIPTS.md`
 - 사용자 안정판 정상 작동 확인을 받았다. 화면·버전별 상세 확인 목록은 없으므로 전체 완역·전체 기능 검증을 뜻하지 않는다.
@@ -80,7 +80,7 @@
 | 3 | Ad Astra / `ad_astra` | 831 | 414 | 언어 전체·Astrodux 35파일 165문구 검수 완료, stable.4 |
 | 3 | Ad Astra: Giselle Addon / `ad_astra_giselle_addon` | 168 | 162 | 언어 전체·본체 용어 통일 완료, stable.4 |
 | 4 | Logistics Networks / `logisticsnetworks` | 454 | 0 | 언어 454키·등록 2키·GuideME 17페이지 검수 완료, stable.5 |
-| 5 | Step Crafter / `stepcrafter` | 79 | 0 | 일반 언어 미작업, 작은 자동화 범위 |
+| 5 | Step Crafter / `stepcrafter` | 79 | 0 | 언어 전체·표시 경로 검수 완료, stable.6 |
 | 6 | Better Advanced Tooltips / `betteradvancedtooltips` | 5 | 0 | 미작업, 툴팁 UI |
 | 7 | Borderless Window / `borderless` | 21 | 0 | 미작업, 창 설정 UI |
 | 8 | StructureOverlapless / `moogs_structures` | 14 | 0 | 표시 경로 조사 후 필요한 키 번역 |
@@ -97,7 +97,11 @@ Ad Astra 계열은 현재 퀘스트 구조 66챕터에서 관련 참조가 없�
 
 Logistics Networks는 신규 한국어 436키·원문 유지 20키이며 기존 한국어 재사용은 없다.
 GuideME 17페이지를 새로 번역했고, 현재 FTB Quests·KubeJS에 관련 참조는 없다.
-파일·표시 경로 검증과 실제 게임 화면 확인은 구분한다. 다음 대상은 Step Crafter다.
+파일·표시 경로 검증과 실제 게임 화면 확인은 구분한다.
+
+Step Crafter는 신규 한국어 78키·공식 모드명 유지 1키이며 재사용은 없다. 별도 가이드와
+관련 FTB Quests·KubeJS 참조가 없고 제작법 발전 과제 48파일에는 표시 문구가 없다.
+다음 대상은 Better Advanced Tooltips 5키다.
 
 ### 기존 산출물 누락 후보: 2,120키
 

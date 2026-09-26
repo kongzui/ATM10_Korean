@@ -11,8 +11,12 @@
 - [x] 이름·UI·툴팁·설정 79키 전체 번역과 보호 문자열 검증.
 - [x] FTB Quests 1,000파일·66챕터와 KubeJS 871파일 조사; 관련 참조 없음.
 - [x] 별도 가이드 없음. 제작법 해금용 발전 과제 48파일에 표시 문구 없음 확인.
-- [ ] 누적 전체 검증, stable.6 ZIP 생성, 게임 종료 상태에서 선택 적용.
+- [x] 누적 전체 검증, stable.6 ZIP 두 개 생성, 게임 종료 상태에서 언어 1파일 적용.
 - [ ] 실제 게임에서 제작기·요청기·관리자·모니터 화면 확인.
+
+언어·표시 경로는 `8a670aa`로 커밋했어요. [완료 보고](versions/8.1/reports/stepcrafter_completion.md)에
+배포·적용 근거를 기록해요. 현재 선택된 팩은 stable.1 ZIP이므로 새 stable.6 팩 활성화가 필요해요.
+Step Crafter 작업은 여기서 마치며 다음 대상은 Better Advanced Tooltips 5키예요.
 
 ## Logistics Networks · 8.1-stable.5
 
@@ -26,7 +30,7 @@
 언어 `7aac04a`, 가이드·표시 경로 `6fbd2b1`로 커밋했어요.
 [완료 보고](versions/8.1/reports/logisticsnetworks_completion.md)에 적용 경로와 검증 근거를 기록해요.
 현재 선택된 번역 팩은 stable.1 ZIP이에요. 새 stable.5 ZIP 활성화 후 화면 확인이 남아 있어요.
-이번 작업은 여기서 종료하며 다음 대상은 Step Crafter 79키예요.
+Logistics Networks 작업은 당시 여기서 종료했고, 다음 Step Crafter 진행 결과는 위에 기록해요.
 
 ## Ad Astra·Giselle Addon · 8.1-stable.4
 

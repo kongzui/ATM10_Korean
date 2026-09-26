@@ -38,6 +38,7 @@ RELEASE_MODS = {
     "8.1-stable.3": ("auroral", "neovitae"),
     "8.1-stable.4": ("auroral", "neovitae"),
     "8.1-stable.5": ("auroral", "neovitae"),
+    "8.1-stable.6": ("auroral", "neovitae"),
 }
 CHAPTERS = {"auroral": "auroral", "neovitae": "neo_vitae"}
 PACK = "resourcepack/ATM10_Korean"
@@ -166,14 +167,18 @@ def allowed_paths(release_id: str) -> set[str]:
     for mod in RELEASE_MODS[release_id]:
         paths.add(f"{PACK}/assets/{mod}/lang/ko_kr.json")
         paths.add(f"overrides/{QUEST_ROOT}/lang/ko_kr/chapters/{CHAPTERS[mod]}.snbt")
-    if release_id in {"8.1-stable.4", "8.1-stable.5"}:
+    if release_id in {"8.1-stable.4", "8.1-stable.5", "8.1-stable.6"}:
         import verify_ad_astra_translation as ad_astra
 
         paths.update(ad_astra.allowed_paths())
-    if release_id == "8.1-stable.5":
+    if release_id in {"8.1-stable.5", "8.1-stable.6"}:
         import verify_logisticsnetworks_translation as logistics
 
         paths.update(logistics.allowed_paths())
+    if release_id == "8.1-stable.6":
+        import verify_stepcrafter_translation as stepcrafter
+
+        paths.update(stepcrafter.allowed_paths())
     return paths
 
 
@@ -550,15 +555,20 @@ def verify(release_id: str, inventory: dict[str, str]) -> dict:
             counts["quest_keys"] += check_review(mod, audit, source, target)
             evidence_hash(audit_path, PROJECT_ROOT, "project")
             counts["quest_files"] += 1
-        if release_id in {"8.1-stable.4", "8.1-stable.5"}:
+        if release_id in {"8.1-stable.4", "8.1-stable.5", "8.1-stable.6"}:
             import verify_ad_astra_translation as ad_astra
 
             additional_family = ad_astra.verify(evidence_hash=evidence_hash)
-            if release_id == "8.1-stable.5":
+            if release_id in {"8.1-stable.5", "8.1-stable.6"}:
                 import verify_logisticsnetworks_translation as logistics
 
                 logistics_result = logistics.verify(evidence_hash=evidence_hash)
                 additional_family["counts"].update(logistics_result["counts"])
+            if release_id == "8.1-stable.6":
+                import verify_stepcrafter_translation as stepcrafter
+
+                stepcrafter_result = stepcrafter.verify(evidence_hash=evidence_hash)
+                additional_family["counts"].update(stepcrafter_result["counts"])
             for family_counts in additional_family["counts"].values():
                 counts["language_keys"] += family_counts["language_keys"]
                 counts["language_files"] += 1

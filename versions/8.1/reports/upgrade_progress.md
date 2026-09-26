@@ -4,8 +4,8 @@
 
 ## 배포 방식
 
-현재 배포는 Auroral·Neo Vitae·Ad Astra·Logistics Networks 번역을 더하고 보조 번역 실행 코드를 제외한
-`8.1-stable.5`와 `7.1-stable.1`이에요.
+현재 배포는 Auroral·Neo Vitae·Ad Astra·Logistics Networks·Step Crafter 번역을 더하고
+보조 번역 실행 코드를 제외한 `8.1-stable.6`과 `7.1-stable.1`이에요.
 일반 언어·퀘스트·가이드·ATM10 원래 스크립트 번역은 유지해요. 프로젝트가 추가한 보조 파일
 네 개는 주석만 있는 파일로 교체해 기존 설치의 실행 코드를 비활성화해요.
 보조 제외 범위는 `docs/AUXILIARY_TRANSLATION_SCRIPTS.md`, 최초 안정판 근거는
@@ -114,3 +114,17 @@
 - [완료 보고](logisticsnetworks_completion.md), [가이드 근거](logisticsnetworks_guide.md),
   [전체 검증](8.1-stable.5_stable_validation.json), [패키지 목록](../manifests/8.1-stable.5_packages.json)에 기록해요.
 - 이번 작업은 여기서 종료해요. 다음 대상은 Step Crafter 79키예요.
+
+## 2026-09-27 · Step Crafter 누적 stable.6
+
+- 현재 0.1.8 영어 79키 전체를 번역·검수하고 `8a670aa`로 커밋했어요.
+- 신규 한국어 78키·기존 한국어 재사용 0키·공식 모드명 원문 유지 1키예요.
+- 별도 가이드는 없고, 색상 제작법 발전 과제 48파일에 표시 문구가 없어요.
+- FTB Quests 1,000파일·66챕터와 KubeJS 871파일에 관련 참조가 없어 수정하지 않았어요.
+- 전체 JSON 1,803/SNBT 76/JavaScript 27개와 기존 번역 보존 검사를 통과했어요.
+- stable.6 ZIP 두 개의 루트·CRC·전체 내용 해시를 확인했어요. override는 stable.5와 같아요.
+- 게임 종료 상태에서 언어 1파일만 `game_root` 폴더팩에 적용했어요. 범위 밖 변경과 개인 설정
+  변경은 없어요. 현재 활성 팩은 stable.1 ZIP이므로 새 팩 활성화와 실제 화면 확인이 남아 있어요.
+- [완료 보고](stepcrafter_completion.md), [전체 검증](8.1-stable.6_stable_validation.json),
+  [패키지 목록](../manifests/8.1-stable.6_packages.json), [적용 기록](stepcrafter_apply.json)을 남겼어요.
+- 단계 2의 파일 작업을 마쳤어요. 다음 대상은 Better Advanced Tooltips 5키예요.
