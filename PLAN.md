@@ -1,9 +1,18 @@
-# 진행 작업: ATM10 8.1 Logistics Networks 누적 번역 업데이트
+# 진행 작업: ATM10 8.1 Step Crafter 누적 번역 업데이트
 
 전체 순서는 [8.1 로드맵](docs/ATM10_VERSION_TRANSLATION_UPGRADE_PLAN.md),
 대상과 키 수는 [번역 현황](docs/MOD_TRANSLATION_PLAN.md), 규칙은 `AGENTS.md`를 따라요.
-이번 요청은 Logistics Networks예요. 일반 언어, GuideME 가이드와 관련 표시 경로를 검수해요.
-작업에 관련된 Markdown도 번역·배포 단위와 함께 커밋해요. Step Crafter는 다음 작업이에요.
+이번 요청은 Step Crafter예요. 현재 영어 79키와 관련 표시 경로를 검수해요.
+작업에 관련된 Markdown도 번역·배포 단위와 함께 커밋해요. 다음 UI 모드는 이번 범위 밖이에요.
+
+## Step Crafter · 8.1-stable.6
+
+- [x] 현재 0.1.8 JAR의 영어 79키·내장 한국어 없음 확인.
+- [x] 이름·UI·툴팁·설정 79키 전체 번역과 보호 문자열 검증.
+- [x] FTB Quests 1,000파일·66챕터와 KubeJS 871파일 조사; 관련 참조 없음.
+- [x] 별도 가이드 없음. 제작법 해금용 발전 과제 48파일에 표시 문구 없음 확인.
+- [ ] 누적 전체 검증, stable.6 ZIP 생성, 게임 종료 상태에서 선택 적용.
+- [ ] 실제 게임에서 제작기·요청기·관리자·모니터 화면 확인.
 
 ## Logistics Networks · 8.1-stable.5
 

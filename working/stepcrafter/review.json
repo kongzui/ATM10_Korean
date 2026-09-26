@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "mod": "stepcrafter",
+  "entries": [
+    {
+      "key": "mod.stepcrafter",
+      "english": "Step Crafter",
+      "translation": "Step Crafter",
+      "reviewed": true,
+      "status": "source_retained"
+    },
+    {
+      "key": "block.stepcrafter.step_crafter",
+      "english": "Step Crafter",
+      "translation": "단계 제작기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "block.stepcrafter.step_requester",
+      "english": "Step Requester",
+      "translation": "단계 요청기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "block.stepcrafter.step_crafter_manager",
+      "english": "Step Crafter Manager",
+      "translation": "단계 제작기 관리자",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "block.stepcrafter.step_crafting_monitor",
+      "english": "Step Crafting Monitor",
+      "translation": "단계 제작 모니터",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "block.stepcrafter.step_requester_manager",
+      "english": "Step Requester Manager",
+      "translation": "단계 요청기 관리자",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.stepcrafter.slot_upgrade",
+      "english": "Slot Upgrade",
+      "translation": "슬롯 업그레이드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.stepcrafter.step_crafter.help",
+      "english": "Accepts patterns for recursive autocrafting and allows setting minimum and maximum thresholds. When the output of a configured pattern falls below the minimum in the network, it will automatically craft items up to the maximum.",
+      "translation": "패턴에 따라 필요한 재료까지 재귀적으로 자동 제작하며, 최소·최대 재고량을 설정할 수 있어요. 설정한 패턴의 결과물이 네트워크에서 최소량보다 적어지면 최대량까지 자동으로 제작해요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.stepcrafter.step_requester.help",
+      "english": "When a configured resource drops below its configurable minimum, it requests autocrafters to produce it in the configurable batch size until the configurable maximum is reached.",
+      "translation": "설정한 자원이 최소량보다 적어지면 자동 제작기에 제작을 요청해요. 설정한 묶음 크기만큼씩 제작하여 최대량에 도달할 때까지 보충해요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.stepcrafter.step_crafter_manager.help",
+      "english": "Allows managing all your step crafters from a single interface.",
+      "translation": "한 화면에서 모든 단계 제작기를 관리할 수 있어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.stepcrafter.step_crafting_monitor.help",
+      "english": "Displays the status of step crafting tasks and allows you to cancel step crafting tasks in your storage network.",
+      "translation": "저장소 네트워크의 단계 제작 작업 상태를 표시하고 작업을 취소할 수 있어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "item.stepcrafter.step_requester_manager.help",
+      "english": "Allows managing all your step requester from a single interface.",
+      "translation": "한 화면에서 모든 단계 요청기를 관리할 수 있어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.grid.stock",
+      "english": "Stock",
+      "translation": "재고",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafter.filter_help",
+      "english": "The pattern that should be recursively followed to keep them in stock",
+      "translation": "재고를 유지하기 위해 필요한 재료까지 재귀적으로 따라갈 패턴이에요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_requester.filter_help",
+      "english": "The resources that should be requested to Autocrafters to keep them in stock",
+      "translation": "재고를 유지하도록 자동 제작기에 제작을 요청할 자원이에요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafter.visible_to_the_step_crafter_manager",
+      "english": "Visible to the Step Crafter Manager",
+      "translation": "단계 제작기 관리자에 표시",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafter.visible_to_the_step_crafter_manager.help",
+      "english": "If this is enabled, you will be able to manage this step crafter in the Step Crafter Manager.",
+      "translation": "켜면 단계 제작기 관리자에서 이 단계 제작기를 관리할 수 있어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_requester.visible_to_the_step_requester_manager",
+      "english": "Visible to the Step Requester Manager",
+      "translation": "단계 요청기 관리자에 표시",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_requester.visible_to_the_step_requester_manager.help",
+      "english": "If this is enabled, you will be able to manage this step requester in the Step Requester Manager.",
+      "translation": "켜면 단계 요청기 관리자에서 이 단계 요청기를 관리할 수 있어요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafter.insert_into_pointed_container",
+      "english": "Insert into pointed container",
+      "translation": "향하고 있는 보관함에 넣기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafter.insert_into_pointed_container.help",
+      "english": "If this is enabled, the step crafter will try to import the crafted components into the container its pointed at.",
+      "translation": "켜면 단계 제작기가 제작한 구성 요소를 자신이 향하고 있는 보관함에 넣으려고 시도해요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.resource_configuration.minimum",
+      "english": "Min:",
+      "translation": "최소:",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.resource_configuration.maximum",
+      "english": "Max:",
+      "translation": "최대:",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.resource_configuration.batch_size",
+      "english": "Batch Size:",
+      "translation": "묶음 크기:",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.filter_slot.finished",
+      "english": "Finished",
+      "translation": "완료",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.filter_slot.crafting",
+      "english": "Crafting",
+      "translation": "제작 중",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.filter_slot.not_enough_ingredients",
+      "english": "Not Enough Ingredients",
+      "translation": "재료 부족",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.filter_slot.network_full",
+      "english": "Network is full. Can't insert crafting result",
+      "translation": "네트워크가 가득 차서 제작 결과물을 넣을 수 없어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.filter_slot.external_container_full",
+      "english": "External container is full or doesn't accept any items",
+      "translation": "외부 보관함이 가득 찼거나 아이템을 받지 않아요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.filter_slot.shift_click_to_configure_amount",
+      "english": "Shift Click to configure amount",
+      "translation": "Shift + 클릭하여 수량 설정",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafter_manager.search_mode.step_crafter_manager_names",
+      "english": "Step Crafter names",
+      "translation": "단계 제작기 이름",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafter_manager.search_mode.step_crafter_manager_names.help",
+      "english": "Search in step crafter names.",
+      "translation": "단계 제작기 이름에서 검색해요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_requester_manager.search_mode.step_requester_manager_names",
+      "english": "Step Requester names",
+      "translation": "단계 요청기 이름",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_requester_manager.search_mode.step_requester_manager_names.help",
+      "english": "Search in step requester names.",
+      "translation": "단계 요청기 이름에서 검색해요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.stepcrafting_preview.title",
+      "english": "Stepcrafting",
+      "translation": "단계 제작",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafting_monitor.missing_resource",
+      "english": "Missing Resource",
+      "translation": "부족한 자원",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafting_monitor.required",
+      "english": "Required: %s*",
+      "translation": "필요량: %s*",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafting_monitor.used",
+      "english": "Used: %s*",
+      "translation": "사용량: %s*",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafting_monitor.may_not_reflect_actual_amount",
+      "english": "*Required and Used may not reflect actual amount",
+      "translation": "*필요량과 사용량은 실제 수량과 다를 수 있어요",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafting_monitor.state.ready",
+      "english": "Ready",
+      "translation": "준비 완료",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafting_monitor.state.running",
+      "english": "Running",
+      "translation": "진행 중",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafting_monitor.state.not_enough_ingredients",
+      "english": "Not Enough Ingredients",
+      "translation": "재료 부족",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafting_monitor.state.network_full",
+      "english": "Network Full",
+      "translation": "네트워크 가득 참",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "gui.stepcrafter.step_crafting_monitor.state.completed",
+      "english": "Completed",
+      "translation": "완료",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.stepcrafter.grid.maintaining",
+      "english": "Maintaining %s-%s",
+      "translation": "%s-%s 유지 중",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.stepcrafter.grid.maintaining_single",
+      "english": "Maintaining %s",
+      "translation": "%s 유지 중",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.stepcrafter.grid.alt_click_to_step_craft",
+      "english": "ALT + click to stepcraft",
+      "translation": "ALT + 클릭하여 단계 제작",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.stepcrafter.resource_configuration.minimum_amount",
+      "english": "Minimum Amount: %s",
+      "translation": "최소 수량: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.stepcrafter.resource_configuration.maximum_amount",
+      "english": "Maximum Amount: %s",
+      "translation": "최대 수량: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "tooltip.stepcrafter.resource_configuration.batch_size",
+      "english": "Batch Size: %s",
+      "translation": "묶음 크기: %s",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCrafter.energyUsage",
+      "english": "Energy usage",
+      "translation": "에너지 사용량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCrafter.energyUsage.tooltip",
+      "english": "The energy used by the Step Crafter.",
+      "translation": "단계 제작기가 사용하는 에너지예요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCrafter.speedMultiplier",
+      "english": "Speed Multiplier",
+      "translation": "속도 배율",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCrafter.speedMultiplier.tooltip",
+      "english": "The speed multiplier per slot upgrade by the Step Crafter. Formula: <SpeedUpgradeAmount> * <SpeedMultiplier> + 1",
+      "translation": "단계 제작기의 슬롯 업그레이드당 속도 배율이에요. 계산식: <SpeedUpgradeAmount> * <SpeedMultiplier> + 1",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepRequester.energyUsage",
+      "english": "Energy usage",
+      "translation": "에너지 사용량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepRequester.energyUsage.tooltip",
+      "english": "The energy used by the Step Requester.",
+      "translation": "단계 요청기가 사용하는 에너지예요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCrafterManager.energyUsage",
+      "english": "Energy usage",
+      "translation": "에너지 사용량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCrafterManager.energyUsage.tooltip",
+      "english": "The energy used by the Step Crafter Manager.",
+      "translation": "단계 제작기 관리자가 사용하는 에너지예요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCrafterManager.searchMode",
+      "english": "Search mode",
+      "translation": "검색 모드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCrafterManager.searchMode.tooltip",
+      "english": "The search mode.",
+      "translation": "검색 모드예요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCrafterManager.viewType",
+      "english": "View type",
+      "translation": "표시 유형",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCrafterManager.viewType.tooltip",
+      "english": "The view type.",
+      "translation": "표시 유형이에요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCraftingMonitor.energyUsage",
+      "english": "Energy usage",
+      "translation": "에너지 사용량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepCraftingMonitor.energyUsage.tooltip",
+      "english": "The energy used by the Step Crafting Monitor.",
+      "translation": "단계 제작 모니터가 사용하는 에너지예요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepRequesterManager.energyUsage",
+      "english": "Energy usage",
+      "translation": "에너지 사용량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepRequesterManager.energyUsage.tooltip",
+      "english": "The energy used by the Step Requester Manager.",
+      "translation": "단계 요청기 관리자가 사용하는 에너지예요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepRequesterManager.searchMode",
+      "english": "Search mode",
+      "translation": "검색 모드",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepRequesterManager.searchMode.tooltip",
+      "english": "The search mode.",
+      "translation": "검색 모드예요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepRequesterManager.viewType",
+      "english": "View type",
+      "translation": "표시 유형",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.stepRequesterManager.viewType.tooltip",
+      "english": "The view type.",
+      "translation": "표시 유형이에요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.slotUpgrade.energyUsage",
+      "english": "Energy usage",
+      "translation": "에너지 사용량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.slotUpgrade.energyUsage.tooltip",
+      "english": "The energy used by the Slot Upgrade.",
+      "translation": "슬롯 업그레이드가 사용하는 에너지예요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults",
+      "english": "Resource configuration defaults",
+      "translation": "자원 설정 기본값",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultMinAmount",
+      "english": "Default Min",
+      "translation": "기본 최소 수량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultMinAmount.tooltip",
+      "english": "Default minimum amount for newly configured resources.",
+      "translation": "새로 설정한 자원의 기본 최소 수량이에요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultMaxAmount",
+      "english": "Default Max",
+      "translation": "기본 최대 수량",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultMaxAmount.tooltip",
+      "english": "Default maximum amount for newly configured resources.",
+      "translation": "새로 설정한 자원의 기본 최대 수량이에요.",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultBatchSize",
+      "english": "Default Batch Size",
+      "translation": "기본 묶음 크기",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultBatchSize.tooltip",
+      "english": "Default batch size for newly configured resources.",
+      "translation": "새로 설정한 자원의 기본 묶음 크기예요.",
+      "reviewed": true,
+      "status": "new_translation"
+    }
+  ]
+}

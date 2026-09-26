@@ -286,6 +286,10 @@
 | Cryo Freezer / Cryo Fuel | 극저온 냉동고 / 극저온 연료 | 기계·연료명 | Ad Astra | 확정 | 가이드의 크라이오 표현도 같은 용어로 통일 |
 | Space Breathing / Space Fire Proof / Acid Rain Proof | 우주 호흡 / 우주 내화성 / 산성비 보호 | 효과·업그레이드명 | Giselle Addon | 확정 | Unit은 장치, Upgrade는 업그레이드로 역할 구분 |
 | Sequential / Round Robin | 순차 분배 / 순환 분배 | 축전기 모드 | Ad Astra | 확정 | 대상을 하나씩 충전하는 모드와 골고루 충전하는 모드를 구분 |
+| Step Crafter / Step Requester | 단계 제작기 / 단계 요청기 | 블록명 | Step Crafter | 확정 | 공식 모드명은 Step Crafter로 유지하고 블록·UI·툴팁에서만 번역. Refined Storage의 제작기·요청기 용어를 따름 |
+| Step Crafter Manager / Step Requester Manager | 단계 제작기 관리자 / 단계 요청기 관리자 | 블록명 | Step Crafter | 확정 | 각 장치를 한 화면에서 관리하는 기능을 구분 |
+| Step Crafting Monitor / Stepcrafting | 단계 제작 모니터 / 단계 제작 | 블록·작업명 | Step Crafter | 확정 | Refined Storage의 자동 제작 모니터와 구분 |
+| Slot Upgrade | 슬롯 업그레이드 | 아이템명 | Step Crafter | 확정 | Upgrade는 업그레이드로 유지 |
 
 ## 5. 보류 용어
 
