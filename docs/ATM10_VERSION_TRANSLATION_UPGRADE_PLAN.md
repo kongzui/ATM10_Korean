@@ -1,14 +1,14 @@
 # ATM10 8.1 누적 번역 업데이트 로드맵
 
-갱신일: 2026-09-26. 현재 배포: **8.1-stable.4 / 7.1-stable.1**.
+갱신일: 2026-09-27. 현재 배포: **8.1-stable.5 / 7.1-stable.1**.
 사용자가 안정판의 정상 작동을 확인했어요. 확인한 화면·모드별 상세 목록은 받지 않았으므로
 전체 모드 검수나 7.1·8.1 각각의 모든 기능 확인으로 확대해서 기록하지 않아요.
 
 이 문서는 앞으로의 큰 작업 순서예요. 모드별 남은 양은
 [번역 현황](MOD_TRANSLATION_PLAN.md), 다음 실행 체크리스트는 [PLAN](../PLAN.md),
 이미 끝낸 배포의 근거는 [진행 보고](../versions/8.1/reports/upgrade_progress.md)에 있어요.
-단계 0 보완과 단계 1 배포를 마쳤고, 단계 2의 Ad Astra·Giselle Addon을 추가했어요.
-새 번역의 게임 화면 확인은 남아 있어요. 다음 번역 대상은 Logistics Network이며,
+단계 0 보완과 단계 1 배포를 마쳤고, 단계 2의 Ad Astra·Giselle Addon·Logistics Networks를 추가했어요.
+새 번역의 게임 화면 확인은 남아 있어요. 다음 번역 대상은 Step Crafter이며,
 이번 요청에서 다음 계열이나 보조 코드 구현까지 이어서 진행하지 않아요.
 
 ## 기준과 배포 방식
@@ -64,11 +64,11 @@ Neo Vitae의 작업량 때문에 Auroral 완료 배포를 기다리게 하지 �
 직접 문구 61키, 퀘스트 105키 검수 및 [stable.3 ZIP 검증](releases/8.1-stable.3.md)을 마쳤어요.
 당시 단계 1 작업은 여기서 종료했으며 사용자 설치 후 화면 확인은 별도로 남아 있어요.
 
-## 단계 2. 신규 우주·자동화 콘텐츠 — Ad Astra 계열 → Logistics Network → Step Crafter
+## 단계 2. 신규 우주·자동화 콘텐츠 — Ad Astra 계열 → Logistics Networks → Step Crafter
 
 - Ad Astra 831키와 Giselle Addon 168키를 함께 검수해 우주·장비·기계 용어를 통일해요.
   모드 자체 한국어 후보 414·162키는 현재 영어와 검수한 뒤 재사용해요.
-- Logistics Network 454키, Step Crafter 79키는 계열별로 이름·조작·툴팁을 완성해요.
+- Logistics Networks 454키, Step Crafter 79키는 계열별로 이름·조작·툴팁을 완성해요.
 - 전용 퀘스트가 없다고 가정하지 않고 관련 퀘스트·가이드·KubeJS 표시 경로도 조사해요.
 
 완료 조건: 일반 언어뿐 아니라 실제 사용 안내까지 해당 계열의 검토 범위가 닫혀요.
@@ -77,7 +77,10 @@ Neo Vitae의 작업량 때문에 Auroral 완료 배포를 기다리게 하지 �
 검수·파일 검증을 마쳤어요. 퀘스트 구조 66챕터에 관련 참조가 없고 KubeJS는 제작법·태그
 식별자만 참조하므로 변경하지 않았어요. [stable.4 배포 안내](releases/8.1-stable.4.md)와
 [완료 보고](../versions/8.1/reports/ad_astra_completion.md)를 참고하세요.
-Logistics Network와 Step Crafter는 미착수예요.
+2026-09-27: Logistics Networks 일반 언어 454키·가이드 등록 2키와 GuideME 17페이지를
+검수하고 [stable.5](releases/8.1-stable.5.md)에 누적했어요. FTB Quests·KubeJS 관련 참조는 없어요.
+현재 코드와 다른 오래된 가이드 설명은 근거를 남기고 교정했어요.
+Step Crafter 79키는 다음 작업이며 아직 시작하지 않았어요.
 
 ## 단계 3. 작은 신규 UI와 기존 누락 정리
 

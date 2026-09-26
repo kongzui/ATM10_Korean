@@ -7,6 +7,6 @@
   "status": "compatibility_ready",
   "full_apply_allowed": true,
   "baseline_commit": "5011ad5",
-  "note": "8.1-stable.4: Ad Astra·Giselle Addon 언어 999키와 Astrodux 가이드 35파일 누적. 보조 번역 실행 코드 제외 유지. 파일 검증과 실제 게임 화면 검증은 구분하며 적용 결과는 별도 보고서에 기록한다.",
-  "release_id": "8.1-stable.4"
+  "note": "8.1-stable.5: Logistics Networks 언어 456키(가이드 등록 2키 포함)와 GuideME 17페이지 누적. 이전 번역과 보조 번역 실행 코드 제외 방침 유지. 파일 검증과 실제 게임 화면 검증은 구분하며 적용 결과는 별도 보고서에 기록한다.",
+  "release_id": "8.1-stable.5"
 }

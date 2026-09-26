@@ -1,0 +1,271 @@
+{
+  "applied_at": "2026-09-27T02:07:56",
+  "status": "applied_and_verified",
+  "configured_targets": [
+    "game_root"
+  ],
+  "game_root_configured": true,
+  "java_processes": [],
+  "version_guard": {
+    "status": "scoped_rebase_apply",
+    "active_pack_version": "8.1",
+    "baseline_pack_version": "7.1",
+    "active_output_root": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1",
+    "output_validated_pack_version": "8.1",
+    "output_rebase_target_version": null,
+    "full_apply_allowed": true,
+    "target_versions": {
+      "game_root": "8.1"
+    }
+  },
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+      "status": "applied_and_verified",
+      "backup_root": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\temp\\backups\\20260927_020750_565040\\game_root",
+      "changed_paths": [
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guideme_guides/guide.json",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/computer/index.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/computer/io-monitor.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/computer/network-directory.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/computer/node-table.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/filters/index.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/index.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/links.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/channel-settings.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/filters-upgrades.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/header.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/index.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/upgrades-performance.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/upgrades-special.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/wrench/copy-paste.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/wrench/index.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/wrench/mass-placement.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/wrench/wrench-mode.md",
+        "resourcepacks/ATM10_Korean/assets/logisticsnetworks/lang/ko_kr.json"
+      ],
+      "files": [
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guideme_guides/guide.json",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guideme_guides\\guide.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guideme_guides\\guide.json",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "b90f85326d86b6c5e057fbdaed1242f6165dd7e873eefdbdec9d6ccda6a006b5",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "b90f85326d86b6c5e057fbdaed1242f6165dd7e873eefdbdec9d6ccda6a006b5"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/computer/index.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\computer\\index.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\computer\\index.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "8601987eef1e3769fe3d67776d1ef9d5e53062019ac2025941a181a35188be2f",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "8601987eef1e3769fe3d67776d1ef9d5e53062019ac2025941a181a35188be2f"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/computer/io-monitor.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\computer\\io-monitor.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\computer\\io-monitor.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "1055e42e1ac0ba0229deaa0cbecb4c5d5d8455658a4db0c1ca4032e2e0868783",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "1055e42e1ac0ba0229deaa0cbecb4c5d5d8455658a4db0c1ca4032e2e0868783"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/computer/network-directory.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\computer\\network-directory.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\computer\\network-directory.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "2e94e661e8466314c71e28d8f6e7faa203537849b16aa9652041b34c42dc620b",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "2e94e661e8466314c71e28d8f6e7faa203537849b16aa9652041b34c42dc620b"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/computer/node-table.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\computer\\node-table.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\computer\\node-table.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "bb3e15cb9f5bd710528b608abd1bac4f2e4e9f500460969e07e89a708fef337a",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "bb3e15cb9f5bd710528b608abd1bac4f2e4e9f500460969e07e89a708fef337a"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/filters/index.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\filters\\index.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\filters\\index.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "6cccfaa1ae315b0b43a3661991f3314e6a8da9c281bb12f15dc69a252ed606da",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "6cccfaa1ae315b0b43a3661991f3314e6a8da9c281bb12f15dc69a252ed606da"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/index.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\index.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\index.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "98dd433940fd7be9ba163dce74ec0c76322afeabcbb3c70cd93d79441823fe9d",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "98dd433940fd7be9ba163dce74ec0c76322afeabcbb3c70cd93d79441823fe9d"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/links.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\links.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\links.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "5b6d691288cb21c6e2187c15e85abe6a657b041dd0338162d58c921aec4b5eea",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "5b6d691288cb21c6e2187c15e85abe6a657b041dd0338162d58c921aec4b5eea"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/channel-settings.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\channel-settings.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\channel-settings.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "ac0a676843b752f5ccd71082256f3418db6580e36c175f96851eed8140f5642f",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "ac0a676843b752f5ccd71082256f3418db6580e36c175f96851eed8140f5642f"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/filters-upgrades.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\filters-upgrades.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\filters-upgrades.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "a6ddc9c0d854f65e5ddb4308f3e357c4241c31099c951a8d4ab6a22f496282c9",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "a6ddc9c0d854f65e5ddb4308f3e357c4241c31099c951a8d4ab6a22f496282c9"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/header.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\header.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\header.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "6d575310fc1f7af77a2b4200859c0a33e3490ac35a55fa13249e345d23897b3d",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "6d575310fc1f7af77a2b4200859c0a33e3490ac35a55fa13249e345d23897b3d"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/index.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\index.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\index.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "55bf9cea16442861cde30c4dbceb8c19a666333aec4a39b56840dcc7b2a825c6",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "55bf9cea16442861cde30c4dbceb8c19a666333aec4a39b56840dcc7b2a825c6"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/upgrades-performance.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\upgrades-performance.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\upgrades-performance.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "8ec0080f6370a443f4065a70bafc7263c99eece6d1caa15ded828dc95c0630d2",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "8ec0080f6370a443f4065a70bafc7263c99eece6d1caa15ded828dc95c0630d2"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/nodes/upgrades-special.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\upgrades-special.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\nodes\\upgrades-special.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "cc62683e3a1f9fd73ffb818d492a4f7a5c76c2c334b3609d53a1985cae9d6448",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "cc62683e3a1f9fd73ffb818d492a4f7a5c76c2c334b3609d53a1985cae9d6448"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/wrench/copy-paste.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\wrench\\copy-paste.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\wrench\\copy-paste.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "8598c07d04f891ad423f846067ca68a103c6d94c458c11cc52aff13e0206e6ee",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "8598c07d04f891ad423f846067ca68a103c6d94c458c11cc52aff13e0206e6ee"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/wrench/index.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\wrench\\index.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\wrench\\index.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "50aaae9284f73a0d5c01aa688a9f6be0532fc7d17bb3e053278b61b7603392e9",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "50aaae9284f73a0d5c01aa688a9f6be0532fc7d17bb3e053278b61b7603392e9"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/wrench/mass-placement.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\wrench\\mass-placement.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\wrench\\mass-placement.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "d21fb5bcc210a2d597254a10f24563e15c341d05f2d13d7bb47e04c0db2c108e",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "d21fb5bcc210a2d597254a10f24563e15c341d05f2d13d7bb47e04c0db2c108e"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/guides/logisticsnetworks/guide/_ko_kr/wrench/wrench-mode.md",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\wrench\\wrench-mode.md",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\guides\\logisticsnetworks\\guide\\_ko_kr\\wrench\\wrench-mode.md",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "f492cf053265bff17b58da4c524ec01d79d29bac65c0036bc110df665555b761",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "f492cf053265bff17b58da4c524ec01d79d29bac65c0036bc110df665555b761"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/logisticsnetworks/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\logisticsnetworks\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\logisticsnetworks\\lang\\ko_kr.json",
+          "existed_before": false,
+          "changed": true,
+          "source_sha256": "e4c87106d5524ca085bd789a85ca6f8a12714043e3db9524101055880d48e5b5",
+          "before_sha256": null,
+          "backup": null,
+          "after_sha256": "e4c87106d5524ca085bd789a85ca6f8a12714043e3db9524101055880d48e5b5"
+        }
+      ],
+      "unexpected_changes": []
+    }
+  ],
+  "backup_manifest": "C:\\Users\\moon9\\Desktop\\!경제\\!코딩\\!github\\ATM10_Korean\\temp\\backups\\20260927_020750_565040\\backup_manifest.json",
+  "options_unchanged": true,
+  "resourcepacks_selection_preserved": {
+    "game_root": [
+      "resourcePacks:[\"modularbees:dynamic_assets\",\"vanilla\",\"mod_resources\",\"add_xycraft_overrides_stone\",\"add_xycraft_overrides_metal\",\"add_xycraft_overrides_glass\",\"moonlight:merged_pack\",\"neovitae_materials\",\"mod/towntalk:respack\",\"mod/eternal_starlight:resourcepacks/starlight_3d_mace\",\"mod/dyenamicsandfriends:compat_packs/productivemetalworks/\",\"mod/dyenamicsandfriends:compat_packs/connectedglass/\",\"mod/dyenamicsandfriends:compat_packs/luminax/\",\"mod/dyenamicsandfriends:compat_packs/cookingforblockheads/\",\"mod/dyenamicsandfriends:compat_packs/botanypots/\",\"mod/dyenamicsandfriends:compat_packs/chromacarvings/\",\"modern_industrialization/generated\",\"file/ATM10_Korean_8.1-stable.1_resourcepack.zip\"]",
+      "lang:ko_kr"
+    ]
+  },
+  "activation_note": "선택 파일을 폴더팩에 적용했어요. 현재 선택된 번역 팩은 stable.1 ZIP이므로 stable.5 ZIP 또는 최신 폴더팩을 활성화한 뒤 게임 화면 확인이 필요해요."
+}

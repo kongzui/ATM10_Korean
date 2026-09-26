@@ -190,7 +190,7 @@ def verify(version: str, *, write_report: bool = True) -> dict:
         "game_screen_validation": "not_run",
         "deployment": (
             "not_verified_by_release_validator_see_apply_report"
-            if release["release_id"] == "8.1-stable.4"
+            if release["release_id"] in {"8.1-stable.4", "8.1-stable.5"}
             else "not_applied_user_will_install"
         ),
         "transition_validation": (
