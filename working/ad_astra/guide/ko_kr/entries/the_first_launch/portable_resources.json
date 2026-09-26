@@ -1,0 +1,29 @@
+{
+  "name": "자원 휴대하기",
+  "icon": "ad_astra:gas_tank",
+  "sortnum": 6,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "가스 탱크",
+      "item": "ad_astra:gas_tank",
+      "text": "산소 탱크를 사용하면 산소를 편리하게 휴대할 수 있어요. 이름과 달리 모든 유체를 담을 수 있어요. 우클릭을 누르고 있으면 인벤토리의 아이템에 산소를 공급하며, 갑옷을 우선해요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:gas_tank",
+      "recipe2": "ad_astra:large_gas_tank"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "에트리오닉 축전기",
+      "item": "ad_astra:etrionic_capacitor",
+      "text": "에트리오닉 축전기는 에너지를 저장해 휴대하는 배터리 같은 아이템이에요. 기계의 에너지 슬롯에 넣어 전력을 공급하거나, 가스 탱크처럼 우클릭을 누르고 있어 인벤토리의 아이템에 에너지를 공급할 수 있어요. 순차 분배 모드는 대상을 하나씩 충전하고, 순환 분배 모드는 골고루 충전해요. 웅크린 상태로 우클릭하면 모드를 바꿀 수 있어요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:etrionic_capacitor"
+    }
+  ]
+}

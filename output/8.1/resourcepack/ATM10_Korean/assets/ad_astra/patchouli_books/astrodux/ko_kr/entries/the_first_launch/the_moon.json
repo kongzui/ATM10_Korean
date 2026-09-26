@@ -1,0 +1,24 @@
+{
+  "name": "달",
+  "icon": "ad_astra:/textures/environment/moon.png",
+  "sortnum": 9,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "달",
+      "item": "ad_astra:desh_ingot",
+      "text": "달에 도착한 것을 축하해요! 눈길이 닿는 곳마다 잿빛 황무지뿐이지만, 지하에서는 Ad Astra의 다음 핵심 자원인 데시를 찾을 수 있어요! 데시는 고급 기계와 우주 정거장, 두 번째 티어 로켓을 만드는 데 사용해요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "달의 환경",
+      "text": "달의 환경은 지구와 크게 달라요. 산소가 없고 매우 추워서 물을 놓으면 얼고, 횃불처럼 불이 붙은 블록은 부서져요. 식물과 작물도 금방 죽어요. 이런 문제는 뒤에서 다룰 산소 분배기를 만들어 해결할 수 있어요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "집으로 돌아가기",
+      "text": "지구로 돌아가려면 Shift+우클릭으로 착륙선을 열고 로켓, 연료, 로켓 발사대를 꺼내세요. 착륙선은 때리면 제거할 수 있어요. 발사대를 설치하고 로켓을 올린 뒤 연료를 채우세요. $(k:jump) 키를 눌러 지구로 돌아가세요."
+    }
+  ]
+}

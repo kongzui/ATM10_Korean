@@ -1,0 +1,20 @@
+{
+  "name": "트로피",
+  "icon": "ad_astra:mars_globe",
+  "sortnum": 0,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "행성 모형",
+      "item": "ad_astra:earth_globe",
+      "text": "행성 모형은 던전 끝에서 보상으로 얻는 트로피 블록이에요. 실용적인 기능은 없고 장식용으로 사용해요. 우클릭하면 회전하고, 레드스톤 신호를 주면 계속 회전해요. 현재 서바이벌에서는 달 모형만 얻을 수 있어요."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "우주 그림",
+      "item": "ad_astra:space_painting",
+      "text": "우주 그림은 던전 곳곳의 상자에서 발견할 수 있어요. 일반 그림과 똑같이 작동하지만 이 모드의 그림만 배치해요. 총 14종을 수집할 수 있어요."
+    }
+  ]
+}

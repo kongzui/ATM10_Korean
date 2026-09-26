@@ -1,0 +1,19 @@
+{
+  "name": "TI-69",
+  "icon": "ad_astra:ti_69",
+  "sortnum": 4,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "TI-69",
+      "item": "ad_astra:ti_69",
+      "text": "TI-69는 주변의 산소, 온도, 중력을 표시하는 휴대 기기예요. 현재 위치가 안전한지 확인할 때 사용하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "TI-69 제작법",
+      "recipe": "ad_astra:ti_69"
+    }
+  ]
+}

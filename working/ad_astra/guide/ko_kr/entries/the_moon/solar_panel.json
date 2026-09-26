@@ -1,0 +1,20 @@
+{
+  "name": "태양광 패널",
+  "icon": "ad_astra:solar_panel",
+  "sortnum": 1,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "태양광 패널",
+      "item": "ad_astra:solar_panel",
+      "text": "태양광 패널은 석탄 발전기를 업그레이드한 장치로, 연료 공급 없이 틱당 더 많은 에너지를 생산해요. 발전량은 행성과 태양 사이의 거리, 그리고 안개에 따라 달라져요. 따라서 태양에 가까운 곳에 설치할수록 효율이 좋아요. 궤도에서는 빛을 가리는 대기가 없어 발전량이 더 많아요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "태양광 패널",
+      "text": "현재 월드의 에너지 생산량은 기계 화면에서 확인하세요.",
+      "recipe": "ad_astra:solar_panel"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "연료",
+  "icon": "ad_astra:fuel_bucket",
+  "sortnum": 4,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "로켓을 놓았다고 바로 날아갈 수 있는 건 아니에요. 비행하려면 먼저 로켓에 연료를 채워야 해요."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "연료 얻기",
+      "item": "ad_astra:oil_bucket",
+      "text": "원유는 바다 표면 위로 솟아나는 곳에서 대량으로 발견할 수 있어요. 재생되지 않는 자원이고 로켓을 발사할 때마다 많이 필요하니 최대한 모아 두세요."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "연료 얻기",
+      "item": "ad_astra:fuel_bucket",
+      "text": "발사와 귀환에 필요한 최소 여섯 양동이 분량의 원유를 모았다면 연료로 정제해야 해요. 연료 정제소를 만들어 전력을 공급하고 왼쪽 슬롯에 원유를 넣으면 연료로 정제돼요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "연료 정제소",
+      "recipe": "ad_astra:fuel_refinery",
+      "text": "로켓을 Shift+클릭해 인벤토리를 열고 입력 슬롯에 연료 양동이 세 개를 넣으세요. 귀환에 쓸 나머지 세 개는 로켓의 인벤토리에 넣으세요."
+    }
+  ]
+}

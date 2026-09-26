@@ -1,0 +1,19 @@
+{
+  "name": "중력 정규화기",
+  "icon": "ad_astra:gravity_normalizer",
+  "sortnum": 3,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "중력 정규화기",
+      "item": "ad_astra:gravity_normalizer",
+      "text": "중력 정규화기는 산소 분배기처럼 밀폐된 공간 안에 인공 중력을 만들어요. 슬라이더로 목표 중력을 0-G부터 2-G까지 설정할 수 있어요. 전력을 많이 소모하므로 구조물에 필요하지 않다면 사용하지 않는 편이 좋아요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "중력 정규화기 제작법",
+      "recipe": "ad_astra:gravity_normalizer"
+    }
+  ]
+}

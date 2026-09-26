@@ -1,0 +1,29 @@
+{
+  "name": "로버",
+  "icon": "ad_astra:tier_1_rover",
+  "sortnum": 5,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "로버",
+      "item": "ad_astra:tier_1_rover",
+      "text": "로버는 위성과 행성의 거친 지형을 달릴 수 있는 지상 차량이에요. 매우 빠르고 아이템을 16개 보관할 수 있는 인벤토리와 여러 사람이 탈 수 있는 좌석 두 개가 있어요. 몹을 치어 큰 피해를 줄 수도 있어요. 사용하려면 Shift+클릭으로 열어 왼쪽 입력 슬롯에 연료 양동이를 넣으세요."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "ad_astra:tier_1_rover",
+      "scale": 0.36
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "로버 제작법",
+      "recipe": "ad_astra:tier_1_rover"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "라디오",
+      "text": "로버에는 실제 인터넷 라디오 방송을 재생하는 라디오가 내장되어 있어요. 로버의 라디오를 조작하거나 ($(k:ad_astra.open_radio)) 키를 누르면 사용할 수 있어요. 함께 탄 플레이어들도 같은 방송을 들어요."
+    }
+  ]
+}

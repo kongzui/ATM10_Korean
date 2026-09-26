@@ -1,0 +1,29 @@
+{
+  "name": "유체 파이프",
+  "icon": "ad_astra:ostrum_fluid_pipe",
+  "sortnum": 4,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "유체 파이프",
+      "item": "ad_astra:ostrum_fluid_pipe",
+      "text": "유체 파이프는 케이블과 비슷하지만 에너지 대신 유체를 전달해요. 사용하려면 유체 파이프와 렌치를 만드세요. 렌치를 들고 파이프를 우클릭하면 '연결 없음', '일반', '삽입', '추출' 모드를 차례로 바꿀 수 있어요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "text": "'삽입' 모드의 파이프는 네트워크에서 유체를 받아 내보내고, '추출' 모드의 파이프는 유체를 네트워크로 끌어와요.",
+      "recipe": "ad_astra:desh_fluid_pipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:ostrum_fluid_pipe",
+      "recipe2": "ad_astra:wrench"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:fluid_pipe_duct",
+      "text": "케이블과 마찬가지로 유체 파이프에도 밀폐된 구조물 안팎으로 유체를 안전하게 전달하는 덕트 블록이 있어요."
+    }
+  ]
+}

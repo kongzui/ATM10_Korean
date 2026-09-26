@@ -1,0 +1,36 @@
+{
+  "name": "루나리안",
+  "icon": "ad_astra:moon_stone_bricks",
+  "sortnum": 7,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "루나리안",
+      "item": "ad_astra:moon_stone_bricks",
+      "text": "달 곳곳의 지하에는 생명체가 사는 큰 마을이 있어요. 이곳에는 지구의 주민을 닮은 외계인인 루나리안이 살아요. 지구의 주민과 달리 산소가 필요하지 않으며 달의 추위도 견딜 수 있어요."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "ad_astra:lunarian",
+      "default_rotation": 45
+    },
+    {
+      "type": "patchouli:text",
+      "text": "루나리안은 지구의 주민과 다른 물품을 거래해요. 행성 고유의 재료, 우주복, 산소 공급 장치 등을 취급해요."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "떠돌이 상인",
+      "item": "ad_astra:lunarian_wandering_trader_spawn_egg",
+      "text": "루나리안 떠돌이 상인은 모든 위성과 행성에 나타나요. 로켓 발사대, 산소, 연료, 영혼 횃불, 물 등 생명을 구할 수도 있는 여러 로켓 관련 물품을 거래해요. 대금으로 받는 에메랄드는 위성과 행성의 여러 구조물에서 흔히 찾을 수 있어요."
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "떠돌이 상인",
+      "entity": "ad_astra:lunarian_wandering_trader",
+      "default_rotation": 45,
+      "scale": 0.8
+    }
+  ]
+}

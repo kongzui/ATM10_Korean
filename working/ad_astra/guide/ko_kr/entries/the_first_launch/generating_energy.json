@@ -1,0 +1,18 @@
+{
+  "name": "에너지 생산",
+  "icon": "ad_astra:coal_generator",
+  "sortnum": 0,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "석탄 발전기",
+      "item": "ad_astra:coal_generator",
+      "text": "에너지는 Ad Astra의 핵심 자원이에요. 모든 기계에서 사용하며 모든 작업에 필요해요. 생산 방법은 여러 가지이고, 가장 기본적인 방법은 석탄 발전기예요. 나무나 석탄처럼 태울 수 있는 자원으로 에너지를 생산해요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:coal_generator"
+    }
+  ]
+}

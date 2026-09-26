@@ -1,0 +1,19 @@
+{
+  "name": "화성",
+  "icon": "ad_astra:/textures/environment/mars.png",
+  "sortnum": 8,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "화성",
+      "text": "달을 탐험하고 데시를 다뤄 봤다면 이제 붉은 행성으로 떠날 차례예요. 화성까지 가는 두 번째 티어 로켓은 첫 번째 티어 로켓과 비슷하게 만들지만, 강철 대신 데시를 사용해요. 부품을 만들고 NASA 제작대에서 로켓을 조립한 뒤 연료를 채워 화성으로 출발하세요!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "오스트럼",
+      "item": "ad_astra:ostrum_ingot",
+      "text": "붉은 행성에서 다음으로 찾을 재료는 오스트럼이에요. 더 강력한 우주복과 뛰어난 기계를 만들고, 극심한 열을 견뎌 뜨거운 행성으로 갈 수 있는 로켓을 제작하는 데 사용해요."
+    }
+  ]
+}

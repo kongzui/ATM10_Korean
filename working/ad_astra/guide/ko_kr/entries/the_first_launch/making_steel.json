@@ -1,0 +1,24 @@
+{
+  "name": "강철 만들기",
+  "icon": "ad_astra:etrionic_blast_furnace",
+  "sortnum": 2,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "에트리오닉 용광로",
+      "item": "ad_astra:etrionic_blast_furnace",
+      "text": "에트리오닉 용광로는 일반 용광로를 업그레이드한 기계예요. 제련과 합금 두 가지 모드가 있어요. 제련 모드는 일반 용광로처럼 작동하지만 슬롯이 4개여서 효율이 4배예요. 합금 모드는 재료를 결합해 합금을 만들어요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:etrionic_blast_furnace"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "강철",
+      "item": "ad_astra:steel_ingot",
+      "text": "에트리오닉 용광로에서 철과 석탄을 결합하면 강철을 만들 수 있어요. 철과 석탄 한 쌍으로 강철 주괴 1개를 만들어요. 강철은 대부분의 제작법에 필요하며 첫 로켓의 주재료예요."
+    }
+  ]
+}

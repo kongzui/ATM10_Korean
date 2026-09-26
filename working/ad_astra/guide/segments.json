@@ -1,0 +1,992 @@
+[
+  {
+    "file": "categories/surviving_mars.json",
+    "pointer": "/name",
+    "english": "Surviving Mars",
+    "candidate": "화성에서 살아남기"
+  },
+  {
+    "file": "categories/surviving_mars.json",
+    "pointer": "/description",
+    "english": "You've landed on Mars with one goal in mind - to mine as much ostrum as possible to get to Venus and Mercury.",
+    "candidate": "당신은 한 가지 목표를 염두에 두고 화성에 착륙했습니다 - 금성과 수성에 가기 위해 가능한 많은 오스트럼을 채굴하는 것이죠."
+  },
+  {
+    "file": "categories/the_first_launch.json",
+    "pointer": "/name",
+    "english": "The First Launch",
+    "candidate": "첫 번째 발사"
+  },
+  {
+    "file": "categories/the_first_launch.json",
+    "pointer": "/description",
+    "english": "How to build your first rocket and safely travel to the moon and back.",
+    "candidate": "첫 번째 로켓을 만들고 안전하게 달을 왔다 갔다 하는 방법."
+  },
+  {
+    "file": "categories/the_hot_planets.json",
+    "pointer": "/name",
+    "english": "The Hot Planets",
+    "candidate": "뜨거운 행성들"
+  },
+  {
+    "file": "categories/the_hot_planets.json",
+    "pointer": "/description",
+    "english": "Now that you can fly to Venus and Mercury, your new goal is to gather enough Calorite to build the ultimate rocket.",
+    "candidate": "이제 금성과 수성으로 날아갈 수 있으므로 새로운 목표는 궁극의 로켓을 만들기 위해 충분한 양의 칼코라이트를 모으는 것입니다."
+  },
+  {
+    "file": "categories/the_moon.json",
+    "pointer": "/name",
+    "english": "The Moon",
+    "candidate": "달"
+  },
+  {
+    "file": "categories/the_moon.json",
+    "pointer": "/description",
+    "english": "You've discovered a new extraterrestrial metal called Desh, unlocking the ability to fly to mars.",
+    "candidate": "당신은 화성으로 날아갈 수 있게 해주는 대쉬라는 새로운 외계 금속을 발견했습니다."
+  },
+  {
+    "file": "entries/surviving_mars/better_fuel.json",
+    "pointer": "/name",
+    "english": "Better Fuel",
+    "candidate": "더 나은 연료"
+  },
+  {
+    "file": "entries/surviving_mars/better_fuel.json",
+    "pointer": "/pages/0/title",
+    "english": "Cryo Freezer",
+    "candidate": "크라이오 냉동고"
+  },
+  {
+    "file": "entries/surviving_mars/better_fuel.json",
+    "pointer": "/pages/0/text",
+    "english": "Fuel is hard to get; it requires venturing out to the ocean, looking for oil spouts. The Cryo Freezer introduces a new way to obtain a better fuel - Cryo Fuel. Cryo Fuel is much more efficient than refined fuel, allowing you to launch a rocket with just one bucket.",
+    "candidate": "연료는 찾기 어렵습니다. 기름을 얻기 위해 바다에 가야 합니다. 이 크라이오 냉동고는 더 나은 연료인 크라이오 연료를 얻을 수 있게 합니다. 정제한 연료보다 훨씬 효율적이라서, 양동이 하나만으로 로켓을 발사할 수 있습니다."
+  },
+  {
+    "file": "entries/surviving_mars/better_fuel.json",
+    "pointer": "/pages/1/text",
+    "english": "It's created by collecting ice shards, which are found as an ore underground on cold planets. The ice shard then needs to be inserted into a Cryo Freezer, and it will convert to 25 mB of Cryo Fuel. Alternatively, you can convert ice, packed ice and blue ice to fuel. Once you've made at least two buckets (one for a launch and the other for a return trip), place the buckets in the rocket fuel slot.",
+    "candidate": "크라이오 연료는 차가운 행성의 지하에서 발견되는 얼음 조각을 모아서 만듭니다. 그런 다음 얼음 조각을 크라이오 냉동고에 넣어야 하며 25mb의 크라이오 연료로 변환됩니다. 또는 얼음, 꽁꽁 언 얼음, 푸른 얼음을 연료로 변환할 수 있습니다. 양동이 2개 분량 이상을 만든 후 (하나는 발사용, 하나는 귀환용), 로켓 연료 슬롯에 양동이를 놓습니다."
+  },
+  {
+    "file": "entries/surviving_mars/better_fuel.json",
+    "pointer": "/pages/3/title",
+    "english": "Cryo Fuel",
+    "candidate": "크라이오 연료"
+  },
+  {
+    "file": "entries/surviving_mars/better_fuel.json",
+    "pointer": "/pages/3/text",
+    "english": "In addition to being an excellent fuel, cryo fuel has some other features. When placed, it will damage anything inside, similar to lava. It also freezes water, allowing for an infinite ice source.",
+    "candidate": "우수한 연료인 것 말고도, 크라이오 연료에는 몇 가지 다른 기능이 있습니다. 배치하면 용암과 유사하게 닿으면 피해를 줍니다. 증발하지 않고 우주와 네더에 배치 가능합니다. 마지막으로, 물을 얼려 무한한 얼음 공급원을 제공합니다."
+  },
+  {
+    "file": "entries/surviving_mars/detection.json",
+    "pointer": "/name",
+    "english": "Detection",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/detection.json",
+    "pointer": "/pages/0/title",
+    "english": "Oxygen Sensor",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/detection.json",
+    "pointer": "/pages/0/text",
+    "english": "The oxygen sensor is a block that will emit a redstone signal when it detects oxygen. You can shift-right-click it to invert the signal. Despite its name, you can also change its detection type by right-clicking with a wrench. It has the option to detect oxygen, safe temperature, and normal gravity.",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/energizer.json",
+    "pointer": "/name",
+    "english": "Energizer",
+    "candidate": "에너자이저"
+  },
+  {
+    "file": "entries/surviving_mars/energizer.json",
+    "pointer": "/pages/0/title",
+    "english": "Energizer",
+    "candidate": "에너자이저"
+  },
+  {
+    "file": "entries/surviving_mars/energizer.json",
+    "pointer": "/pages/0/text",
+    "english": "The energizer is a machine capable of powering items and storing large amounts of energy. To charge an item, power the energizer and then right-click on the energizer with that item. It stores 2 million energy, making it capable of charging machines for a very long time. It also retains its energy when broken.",
+    "candidate": "에너자이저는 기계에 전원을 공급하고 많은 양의 에너지를 저장할 수 있는 기계입니다. 아이템을 충전하려면, 에너자이저의 전원을 켠 다음 충전할 아이템으로 에너자이저에 우클릭하세요. 200만의 에너지를 저장 가능하므로 매우 오랜 시간 동안 동력을 공급할 수 있습니다. 또한 부서져도 에너지를 유지합니다."
+  },
+  {
+    "file": "entries/surviving_mars/flags.json",
+    "pointer": "/name",
+    "english": "Flags",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/flags.json",
+    "pointer": "/pages/0/title",
+    "english": "Flags",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/flags.json",
+    "pointer": "/pages/0/text",
+    "english": "Flags are decorative blocks available in 16 colors. By default, when placed, they will display the face of the flag owner. They can be configured to display a custom image from a URL by right-clicking and entering the URL in the GUI. This will display the internet image onto the flag.",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/fluid_pipes.json",
+    "pointer": "/name",
+    "english": "Fluid Pipes",
+    "candidate": "액체 파이프"
+  },
+  {
+    "file": "entries/surviving_mars/fluid_pipes.json",
+    "pointer": "/pages/0/title",
+    "english": "Fluid Pipes",
+    "candidate": "액체 파이프"
+  },
+  {
+    "file": "entries/surviving_mars/fluid_pipes.json",
+    "pointer": "/pages/0/text",
+    "english": "Fluid pipes are similar to cables but with fluid transfer instead of energy transfer. To use them, craft some fluid pipes and a wrench. Then, right-click on one of the pipes with the wrench to cycle through the pipe's modes: 'none,' 'normal,' 'insert,' and 'extract.'",
+    "candidate": "액체 파이프는 케이블과 유사하지만 에너지 전달 대신 액체를 전달합니다. 파이프를 사용하려면, 약간의 액체 파이프와 렌치를 만드세요. 그런 다음, 렌치로 파이프 중 하나를 우클릭하여 파이프 모드들을 순환합니다. ( '없음' '일반' '삽입' '추출' )"
+  },
+  {
+    "file": "entries/surviving_mars/fluid_pipes.json",
+    "pointer": "/pages/1/text",
+    "english": "Pipes with 'insert' set will receive fluid from the network, while pipes with 'extract' set will pump fluid into the network.",
+    "candidate": "'삽입' 모드의 파이프는 회로에서 액체를 가져오고, '추출' 모드의 파이프는 액체를 회로로 펌핑합니다."
+  },
+  {
+    "file": "entries/surviving_mars/fluid_pipes.json",
+    "pointer": "/pages/3/text",
+    "english": "Like cables, fluid pipes also have a duct block for transfering fluids safely in and out of sealed structures.",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/industrial_lamps.json",
+    "pointer": "/name",
+    "english": "Industrial Lamps",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/industrial_lamps.json",
+    "pointer": "/pages/0/title",
+    "english": "Industrial Lamps",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/industrial_lamps.json",
+    "pointer": "/pages/0/text",
+    "english": "Industrial lamps are available in all 16 colors, and in small and large sizes. By default, these will all emit normal white light; however, if you have $(l:https://modrinth.com/mod/shimmer!)Shimmer$(/l), each light will emit its respective color.",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/netherite_space_suit.json",
+    "pointer": "/name",
+    "english": "Netherite Space Suit",
+    "candidate": "네더라이트 우주복"
+  },
+  {
+    "file": "entries/surviving_mars/netherite_space_suit.json",
+    "pointer": "/pages/0/title",
+    "english": "Netherite Space Suit",
+    "candidate": "네더라이트 우주복"
+  },
+  {
+    "file": "entries/surviving_mars/netherite_space_suit.json",
+    "pointer": "/pages/0/text",
+    "english": "The netherite space suit is an upgraded version of the standard space suit, featuring permanent fire resistance, more protection and the ability to survive on Venus and Mercury. Before you travel to these planets, you must craft the netherite space suit armour or else you will burn to death.",
+    "candidate": "네더라이트 우주복은 기존 우주복의 업그레이드 버전으로 영구적인 내화성, 더 강한 방어도, 금성과 수성에서 생존할 수 있는 능력을 갖추고 있습니다. 이 행성들으로 떠나기 전에 네더라이트 우주복을 만들어야 합니다. 그렇지 않으면 화상을 입을 수 있습니다."
+  },
+  {
+    "file": "entries/surviving_mars/sliding_doors.json",
+    "pointer": "/name",
+    "english": "Sliding Doors",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/sliding_doors.json",
+    "pointer": "/pages/0/title",
+    "english": "Sliding Doors",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/sliding_doors.json",
+    "pointer": "/pages/0/text",
+    "english": "Sliding doors are large 3x3 doors. They seal oxygen when closed, making them great candidates for airlocks. They can be locked by shift-right-clicking them with a wrench. Locked doors can only be opened with redstone.",
+    "candidate": null
+  },
+  {
+    "file": "entries/surviving_mars/trophies.json",
+    "pointer": "/name",
+    "english": "Trophies",
+    "candidate": "트로피"
+  },
+  {
+    "file": "entries/surviving_mars/trophies.json",
+    "pointer": "/pages/0/title",
+    "english": "Globes",
+    "candidate": "모형"
+  },
+  {
+    "file": "entries/surviving_mars/trophies.json",
+    "pointer": "/pages/0/text",
+    "english": "Globes are trophy blocks found as a reward at the end of a dungeon. Globes offer no practical function and are instead a decoration block. They can be spun around by right-clicking or can spin forever when powered by redstone. Only the Moon globe is obtainable in survival at the moment.",
+    "candidate": "행성 모형은 던전 끝에서 발견되는 트로피 블록입니다. 모형은 실용적인 기능을 제공하지 않으며, 대신 장식용으로 사용 가능합니다. 마우스 우클릭으로 회전시키거나, 레드스톤으로 전원을 공급하여 계속 회전시킬 수 있습니다."
+  },
+  {
+    "file": "entries/surviving_mars/trophies.json",
+    "pointer": "/pages/1/title",
+    "english": "Space Paintings",
+    "candidate": "우주 그림"
+  },
+  {
+    "file": "entries/surviving_mars/trophies.json",
+    "pointer": "/pages/1/text",
+    "english": "Space paintings are found in chests throughout dungeons. They work exactly like regular paintings but only place paintings from this mod. There are 14 pieces to look for.",
+    "candidate": "우주 그림은 던전의 상자에서 발견할 수 있습니다. 우주 그림은 일반적인 그림과 같지만 이 모드의 그림만 배치합니다. 총 14종류가 있습니다."
+  },
+  {
+    "file": "entries/surviving_mars/venus_and_mercury.json",
+    "pointer": "/name",
+    "english": "Venus and Mercury",
+    "candidate": "금성과 수성"
+  },
+  {
+    "file": "entries/surviving_mars/venus_and_mercury.json",
+    "pointer": "/pages/0/title",
+    "english": "Calorite",
+    "candidate": "칼코라이트"
+  },
+  {
+    "file": "entries/surviving_mars/venus_and_mercury.json",
+    "pointer": "/pages/0/text",
+    "english": "Once you have enough Ostrum to craft a complete netherite space suit set and all of the components of the tier three rocket, you can travel to Venus and Mercury. Please note that if you enter these planets without a netherite space suit or fire resistance, you will die very fast. The next material that you seek is Calorite.",
+    "candidate": "네더라이트 우주복 세트와 티어 3 로켓의 모든 부품을 제작하기에 충분한 오스트럼이 있으면 금성과 수성으로 떠날 수 있습니다. 참고하세요. 네더라이트 우주복이나 화염 저항 없이 이 행성들에 들어가면 굉장히 빨리 죽습니다. 다음으로 당신이 찾아봐야 할 광물은 칼코라이트 입니다."
+  },
+  {
+    "file": "entries/surviving_mars/venus_and_mercury.json",
+    "pointer": "/pages/1/text",
+    "english": "Calorite is used to craft the ultimate rocket capable of travelling to a new solar system.",
+    "candidate": "칼코라이트는 새로운 항성계로 이동할 수 있는 궁극의 로켓을 만드는 데 사용됩니다."
+  },
+  {
+    "file": "entries/the_first_launch/creating_plates.json",
+    "pointer": "/name",
+    "english": "Creating Plates",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/creating_plates.json",
+    "pointer": "/pages/0/title",
+    "english": "Compressor",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/creating_plates.json",
+    "pointer": "/pages/0/text",
+    "english": "Once you've got energy, you'll want to craft a compressor. This machine can compress ingots and blocks into plates, which are needed to craft many things.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/fuel.json",
+    "pointer": "/name",
+    "english": "Fuel",
+    "candidate": "연료"
+  },
+  {
+    "file": "entries/the_first_launch/fuel.json",
+    "pointer": "/pages/0/text",
+    "english": "Even after you place your rocket, you will not be able to fly just yet. To fly, you will need to fill the rocket with fuel.",
+    "candidate": "로켓을 배치한 후에도 로켓은 아직 발사할 수 업습니다. 로켓을 발사하기 위해서는 로켓에 연료를 채워넣어야 합니다."
+  },
+  {
+    "file": "entries/the_first_launch/fuel.json",
+    "pointer": "/pages/1/title",
+    "english": "Obtaining Fuel",
+    "candidate": "연료 얻기"
+  },
+  {
+    "file": "entries/the_first_launch/fuel.json",
+    "pointer": "/pages/1/text",
+    "english": "Oil is found in large amounts spouting over the ocean surface. Collect as much oil as you can, as oil is non-renewable, and you need a lot of it for each rocket launch.",
+    "candidate": "기름은 바다 표면에서 다량으로 발견할 수 있습니다. 기름은 재생 불가능 자원이므로 가능한 한 많은 기름을 모으세요. 로켓을 발사할 때마다 기름이 많이 필요합니다."
+  },
+  {
+    "file": "entries/the_first_launch/fuel.json",
+    "pointer": "/pages/2/title",
+    "english": "Obtaining Fuel",
+    "candidate": "연료 얻기"
+  },
+  {
+    "file": "entries/the_first_launch/fuel.json",
+    "pointer": "/pages/2/text",
+    "english": "After collecting enough oil (at least six buckets for a launch and return), you will need to refine the oil into fuel. To do this, you will need to craft a fuel refinery. Power it, then place the oil in the left slot, and it will be refined into fuel.",
+    "candidate": "충분한 기름을 모은 후(출발 및 귀한을 위해서는 최소 양동이 6개가 필요합니다), 기름을 연료로 정제해야 합니다. 정제하려면, 연료 정제소를 만들어야 합니다. 전원을 키고 왼쪽 슬롯에 기름을 넣으면 연료로 정제됩니다."
+  },
+  {
+    "file": "entries/the_first_launch/fuel.json",
+    "pointer": "/pages/3/title",
+    "english": "Fuel Refinery",
+    "candidate": "연료 정제소"
+  },
+  {
+    "file": "entries/the_first_launch/fuel.json",
+    "pointer": "/pages/3/text",
+    "english": "Shift-click on the rocket to open its inventory, then place three buckets of fuel into the input slot. Place the other three buckets into the rocket's inventory for a return trip.",
+    "candidate": "로켓에 쉬프트-클릭을 해 인벤토리르 열고, 연료 양동이 3개를 연료 슬롯에 넣습니다. 왕복을 위해 다른 3개의 연료 양동이를 로켓에 넣습니다."
+  },
+  {
+    "file": "entries/the_first_launch/generating_energy.json",
+    "pointer": "/name",
+    "english": "Generating Energy",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/generating_energy.json",
+    "pointer": "/pages/0/title",
+    "english": "Coal Generator",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/generating_energy.json",
+    "pointer": "/pages/0/text",
+    "english": "Energy is core resource of Ad Astra. It's used in all machines and is required for everything. There are multiple ways to generate energy, the most basic way being the coal generator. It uses burnable resources like wood or coal to generate energy.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/making_steel.json",
+    "pointer": "/name",
+    "english": "Making Steel",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/making_steel.json",
+    "pointer": "/pages/0/title",
+    "english": "Etrionic Blast Furnace",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/making_steel.json",
+    "pointer": "/pages/0/text",
+    "english": "The Etrionic Blast Furnace is an upgraded version of the blast furnace. It has two modes: blasting and alloying. Blasting works like a blast furnace, but with 4 slots for 4x efficiency. Alloying combines materials to make an alloy.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/making_steel.json",
+    "pointer": "/pages/2/title",
+    "english": "Steel",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/making_steel.json",
+    "pointer": "/pages/2/text",
+    "english": "Steel is made in an etrionic blast furnace by combining iron and coal. This will make 1 steel ingot per iron and coal. Steel is essential for most recipes and is the main material of your first rocket.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/oxygen.json",
+    "pointer": "/name",
+    "english": "Oxygen",
+    "candidate": "산소"
+  },
+  {
+    "file": "entries/the_first_launch/oxygen.json",
+    "pointer": "/pages/0/text",
+    "english": "At this point, you can launch your rocket; however, you will likely die very fast, as there is no oxygen on the moon. In order to survive on the moon, you will need an oxygenated space suit and an ample oxygen supply.",
+    "candidate": "이 시점에서, 당신은 로켓을 발사할 수 있습니다. 그러나 달에는 산소가 없기 때문에 아마도 매우 빨리 죽을 것입니다. 달에서 살아남으려면 산소를 넣은 우주복과 충분한 산소 공급이 필요합니다."
+  },
+  {
+    "file": "entries/the_first_launch/oxygen.json",
+    "pointer": "/pages/3/title",
+    "english": "Oxygen",
+    "candidate": "산소"
+  },
+  {
+    "file": "entries/the_first_launch/oxygen.json",
+    "pointer": "/pages/3/text",
+    "english": "To obtain oxygen, it must be extracted from water. An oxygen loader is required to do this. Craft one, then place water in the left tank, and watch it convert into oxygen. You must repeat this process many times until you have enough oxygen.",
+    "candidate": "산소를 얻기 위해서는 물에서 산소를 추출해야 합니다. 이를 위해서는 산소 생성기가 필요합니다. 산소 생성기를 만들고, 왼쪽 물탱크에 물을 넣으면 산소로 변환됩니다. 산소가 충분해질 때까지 이 과정을 여러번 반복해야 합니다."
+  },
+  {
+    "file": "entries/the_first_launch/oxygen.json",
+    "pointer": "/pages/4/title",
+    "english": "Oxygen Loader",
+    "candidate": "산소 생성기"
+  },
+  {
+    "file": "entries/the_first_launch/oxygen.json",
+    "pointer": "/pages/4/text",
+    "english": "Oxygen can then be extracted by collecting it in a bucket, spacesuit, or a gas tank. After you have enough oxygen, you are moments away from launching your first rocket!",
+    "candidate": "산소는 우주복, 산소 양동이를 산소 생성기의 산소 탱크에 넣어 추출할 수 있습니다. 산소를 충분히 모았으면, 첫 번째 로켓 발사가 얼마 남지 않았습니다!"
+  },
+  {
+    "file": "entries/the_first_launch/portable_resources.json",
+    "pointer": "/name",
+    "english": "Portable Resources",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/portable_resources.json",
+    "pointer": "/pages/0/title",
+    "english": "Gas Tanks",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/portable_resources.json",
+    "pointer": "/pages/0/text",
+    "english": "Oxygen tanks allow you to store oxygen in a convenient portable form. Despite the name, they can store any fluid. Holding down right-click will distribute the oxygen into items in your inventory, with a bias towards armor.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/portable_resources.json",
+    "pointer": "/pages/2/title",
+    "english": "Etrionic Capacitor",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/portable_resources.json",
+    "pointer": "/pages/2/text",
+    "english": "The Etrionic Capacitor is a battery-like item for storing energy in a portable form. It can be placed in the energy slot of machines to power them, and like the gas tanks, can be distributed into your inventory by holding down right-click. It features two modes: Sequential and Round Robin. Sequential will distribute energy one by one while Round Robin will distribute energy evenly. The mode can be changed by right-clicking while sneaking.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/preparing_to_launch.json",
+    "pointer": "/name",
+    "english": "Preparing to Launch",
+    "candidate": "발사 준비"
+  },
+  {
+    "file": "entries/the_first_launch/preparing_to_launch.json",
+    "pointer": "/pages/0/text",
+    "english": "$(#ff0000)Follow these steps very carefully! $()Missing even one thing here could make your life tough, or worse, cause you to be stranded on the moon!$(br2)In order to return to earth from the moon, you need two basic things: a launch pad and three buckets of fuel.",
+    "candidate": "$(#ff0000)다음 단계를 주의깊게 따르세요. $()여기서 한 가지라도 놓치면 생활이 곤란해지고 더 나쁘면 달에 좌초될 수도 있습니다!$(br2)달에서 지구로 돌아가기 위해서는 두 가지의 기본적인 것이 필요합니다. 9개와 로켓 발사대와 3개의 연료 양동이가 필요합니다."
+  },
+  {
+    "file": "entries/the_first_launch/preparing_to_launch.json",
+    "pointer": "/pages/1/text",
+    "english": "Place these items in the inventory of your rocket, and ensure that you always have them every time you launch a rocket. Finally, you should bring multiple full gas tanks, plentiful food, soul torches or glowstone (normal torches will burn out), weapons and tools. Once you have this, you are ready to launch! Enter the rocket and press $(k:jump)!",
+    "candidate": "이러한 것들을 로켓 인벤토리에 넣고 로켓을 발사할 떄마다 항상 가지고 있는지 확인하세요. 마지막으로, 여러 개의 가득 찬 산소 탱크, 풍부한 음식, 영혼 횟불 또는 발광석, 무기 및 도구를 가져와야 합니다. 이 것들이 있다면, 발사할 준비가 다 된 것입니다. 로켓에 탑승해서 $(k:jump) 키를 누르세요!"
+  },
+  {
+    "file": "entries/the_first_launch/radio.json",
+    "pointer": "/name",
+    "english": "Radio",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/radio.json",
+    "pointer": "/pages/0/title",
+    "english": "Radio",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/radio.json",
+    "pointer": "/pages/0/text",
+    "english": "Before launching, why not listen to some tunes? The radio is a block that'll play real internet-streamed radio stations! There are a few stations that you can listen to, in multiple genres. In addition, anyone in the vicinity will hear the same station. Eventually, you'll be able to use the radio to craft the rover, which features a built-in radio for driving around and listening to music.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/the_moon.json",
+    "pointer": "/name",
+    "english": "The Moon",
+    "candidate": "달"
+  },
+  {
+    "file": "entries/the_first_launch/the_moon.json",
+    "pointer": "/pages/0/title",
+    "english": "The Moon",
+    "candidate": "달"
+  },
+  {
+    "file": "entries/the_first_launch/the_moon.json",
+    "pointer": "/pages/0/text",
+    "english": "Congratulations on reaching the moon! The moon is a barren wasteland, grey and dead, as far as the eye can see; however, underground is where you will find the next major resource in Ad Astra - Desh! Desh is used to craft advanced machines, space stations, and the tier two rocket.",
+    "candidate": "달에 도달한 것을 축하합니다! 달은 잿빛이고, 죽어있는 황무지입니다. 하지만 달 지하에서는 다음 주요 자원인 대쉬를 찾을 수 있습니다! 대쉬는 고급 기계, 우주 정거장 및 티어 2 로켓을 만드는 데 사용됩니다."
+  },
+  {
+    "file": "entries/the_first_launch/the_moon.json",
+    "pointer": "/pages/1/title",
+    "english": "The environment",
+    "candidate": "집으로 돌아가기"
+  },
+  {
+    "file": "entries/the_first_launch/the_moon.json",
+    "pointer": "/pages/1/text",
+    "english": "The environment of the moon is very different from earth. As the moon has no oxygen and is freezing, attempting to place water will freeze it and lit blocks like torches will break. Any plant life and crops will also die very quickly. To combat these effects, you can build an oxygen distributor, which will we cover later.",
+    "candidate": "지구로 돌아가기 위해서는 착륙선을 열고(쉬프트 + 우클릭) 로켓에서 로켓 발사대와 연료를 챙기세요. 챡륙선을 제거하려면, 착륙선을 때리면 됩니다. 발사대를 설치하고 로켓을 내려 놓고 연료를 채우십시오. $(k:jump) 키를 눌러 지구로 돌아가세요."
+  },
+  {
+    "file": "entries/the_first_launch/the_moon.json",
+    "pointer": "/pages/2/title",
+    "english": "Returning Home",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/the_moon.json",
+    "pointer": "/pages/2/text",
+    "english": "To return back to earth, open your lander (shift + right-click) and collect the rocket, fuel and the launch pad. To remove the lander, punch it. Set up the launch pad, place the rocket down and fill it up with fuel. Press $(k:jump) and fly back to earth.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_first_launch/your_first_rocket.json",
+    "pointer": "/name",
+    "english": "Your First Rocket",
+    "candidate": "당신의 첫 번째 로켓"
+  },
+  {
+    "file": "entries/the_first_launch/your_first_rocket.json",
+    "pointer": "/pages/0/title",
+    "english": "NASA Workbench",
+    "candidate": "NASA 제작대"
+  },
+  {
+    "file": "entries/the_first_launch/your_first_rocket.json",
+    "pointer": "/pages/0/text",
+    "english": "In order to build a rocket, you must first collect all of the parts: cone, plates, fins, tanks and engine. You can then make the rocket in a NASA workbench, a specially designed workbench just for rockets.",
+    "candidate": "로켓을 만들기 위해서는 먼저 노즈콘, 날개, 탱크, 금속판, 엔진 등을 모아야 합니다. 재료를 모은 다음 로켓 전용으로 특별 설계된 NASA 제작대에서 로켓을 만들 수 있습니다."
+  },
+  {
+    "file": "entries/the_first_launch/your_first_rocket.json",
+    "pointer": "/pages/1/title",
+    "english": "NASA Workbench",
+    "candidate": "나사 제작대"
+  },
+  {
+    "file": "entries/the_first_launch/your_first_rocket.json",
+    "pointer": "/pages/2/text",
+    "english": "To place your newly-created rocket, you must build a launchpad.",
+    "candidate": "당신의 새 로켓을 배치하려면 발사대를 만들어야 합니다."
+  },
+  {
+    "file": "entries/the_first_launch/your_first_rocket.json",
+    "pointer": "/pages/3/title",
+    "english": "Launchpad",
+    "candidate": "발사대"
+  },
+  {
+    "file": "entries/the_first_launch/your_first_rocket.json",
+    "pointer": "/pages/3/text",
+    "english": "After the launch pad has been built, place the rocket in the center. If you want, you can power any part of the launch pad to automatically launch the rocket once fueled.",
+    "candidate": "발사대를 만든 후에는 발사대 중앙에 로켓을 놓습니다."
+  },
+  {
+    "file": "entries/the_hot_planets/jet_suit.json",
+    "pointer": "/name",
+    "english": "Jet Suit",
+    "candidate": "제트 슈트"
+  },
+  {
+    "file": "entries/the_hot_planets/jet_suit.json",
+    "pointer": "/pages/0/title",
+    "english": "Jet Suit",
+    "candidate": "제트 슈트"
+  },
+  {
+    "file": "entries/the_hot_planets/jet_suit.json",
+    "pointer": "/pages/0/text",
+    "english": "The Jet Suit is an upgraded version of the Netherite Space Suit, with more protection, additional oxygen storage, and flight. It's expensive to craft, but it offers high-speed flight, making travel easy.",
+    "candidate": "제트 슈트는 네더라이트 우주복의 업그레이드 버전으로, 더 많은 방어도와 추가 산소 저장 장치 및 비행 기능을 갖추고 있습니다. 제작 재료가 많이 들지만 고속 비행이 가능해 여정을 쉽게 만들어줍니다."
+  },
+  {
+    "file": "entries/the_hot_planets/jet_suit.json",
+    "pointer": "/pages/1/text",
+    "english": "It's got two modes of flight: ascending ($(k:jump)) and boosted ($(k:jump) + $(k:sprint)). Ascending makes the wearer fly upwards, while boosted is similar to an elytra that's constantly being propelled by fireworks. The Jet Suit is powered by energy and must be charged to fly. It can be charged with an energizer by right-clicking it with the jet suit. Enable/disable the suit by pressing ($(k:ad_astra.toggle_suit_flight)).",
+    "candidate": "제트 슈트는 2가지의 비행 모드가 있습니다: ($(k:jump)) 키로 상승할 수 있고 ($(k:jump) + $(k:sprint)) 를 눌러 부스트를 사용할 수 있습니다. 상승은 사용자를 위로 날리는 데 반면에, 부스트는 폭죽으로 끝없이 추진되는 겉날게와 비슷합니다. 제트 슈트는 에너지로 구동되며 비행하려면 충전을 해야 합니다. 에너자이저를 제트 슈트를 들고 우클릭하면 슈트를 충전시킬 수 있습니다."
+  },
+  {
+    "file": "entries/the_hot_planets/proxima_centauri.json",
+    "pointer": "/name",
+    "english": "Proxima Centauri",
+    "candidate": "프록시마 센타우리"
+  },
+  {
+    "file": "entries/the_hot_planets/proxima_centauri.json",
+    "pointer": "/pages/0/title",
+    "english": "Proxima Centauri",
+    "candidate": "프록시마 센타우리"
+  },
+  {
+    "file": "entries/the_hot_planets/proxima_centauri.json",
+    "pointer": "/pages/0/text",
+    "english": "Once you have found enough Calorite to craft a tier four rocket, you will be able to leave this solar system and enter a new one. The first planet that you will head to in Proxima Centauri is Glacio. Glacio is brutally cold; however, it has oxygen, allowing you to survive there without a spacesuit.",
+    "candidate": "티어 4 로켓을 만들기에 충분한 칼코라이트를 찾으면 이 태양계를 떠나 새로운 항성계로 들어갈 수 있습니다. 프록시마 센타우리에서 첫 번째를 향하게 될 행성은 글라시오입니다. 글라시오는 잔인할 정도로 춥습니다. 그러나 산소가 있어 우주복 없이 생존 가능합니다."
+  },
+  {
+    "file": "entries/the_hot_planets/proxima_centauri.json",
+    "pointer": "/pages/1/text",
+    "english": "This is the end of the Ad Astra progression for now. This guidebook will be expanded as more content is added. Thanks for playing Ad Astra!",
+    "candidate": "이것이 Ad Astra 진행의 끝입니다. 이 가이드북은 더 많은 콘텐츠가 추가되면 늘어날 것입니다. Ad Astra 를 플레이해주셔서 감사합니다!"
+  },
+  {
+    "file": "entries/the_moon/cables.json",
+    "pointer": "/name",
+    "english": "Cables",
+    "candidate": "케이블"
+  },
+  {
+    "file": "entries/the_moon/cables.json",
+    "pointer": "/pages/0/title",
+    "english": "Cables",
+    "candidate": "케이블"
+  },
+  {
+    "file": "entries/the_moon/cables.json",
+    "pointer": "/pages/0/text",
+    "english": "Cables allow for long-range energy transfer. There are two variants: steel and desh – desh, having a higher transfer rate. When used with a wrench, cables can be configured to extend in directions or to disconnect from nodes in the network.",
+    "candidate": "케이블은 장거리 에너지 전송을 가능하게 해 줍니다. 강철과 대쉬 두 종류가 있습니다. – 대쉬는 에너지 전송 속도가 더 빠릅니다. 렌치와 함께 사용할 경우, 케이블을 다른 방향으로 향하도록 만들거나 케이블을 끊을 수 있습니다."
+  },
+  {
+    "file": "entries/the_moon/cables.json",
+    "pointer": "/pages/3/title",
+    "english": "Cable ducts",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/cables.json",
+    "pointer": "/pages/3/text",
+    "english": "Cables are not solid blocks. As such, they will not seal a structure which prevents oxygen distributors and gravity normalizers from functioning. The cable duct is a full block that works exactly like cables while preventing leaks.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/gravity_normalizer.json",
+    "pointer": "/name",
+    "english": "Gravity Normalizer",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/gravity_normalizer.json",
+    "pointer": "/pages/0/title",
+    "english": "Gravity Normalizer",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/gravity_normalizer.json",
+    "pointer": "/pages/0/text",
+    "english": "The gravity normalizer allows you to create artificial gravity in a sealed area, similar to the oxygen distributor. It features a slider to set the target gravity – from 0-G to 2-G. Gravity normalizers use a considerable amount of power to operate so avoid them if your structure does not need it.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/gravity_normalizer.json",
+    "pointer": "/pages/1/title",
+    "english": "Gravity Normalizer Recipe",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/lunarians.json",
+    "pointer": "/name",
+    "english": "Lunarians",
+    "candidate": "루나리안"
+  },
+  {
+    "file": "entries/the_moon/lunarians.json",
+    "pointer": "/pages/0/title",
+    "english": "Lunarian",
+    "candidate": "루나리안"
+  },
+  {
+    "file": "entries/the_moon/lunarians.json",
+    "pointer": "/pages/0/text",
+    "english": "Throughout the moon, There are large, inhabited underground villages. These villages contain an alien form of the earth villager, who call themselves Lunarians. Unlike their earth counterpart, Lunarian don't need oxygen and can survive the chilling environment of the moon.",
+    "candidate": "달에는 생명체가 살고 있는 거대한 지하 마을이 있습니다. 이 마을에는 자신들을 루나리안이라고 부르는 외계인 형태의 주민이 살고 있습니다. 지구의 주민과 달리 루나리안들은 산소가 필요하지 않으며, 달의 차가운 환경에서도 생존 가능합니다."
+  },
+  {
+    "file": "entries/the_moon/lunarians.json",
+    "pointer": "/pages/2/text",
+    "english": "Lunarian have different trades than earth villagers, featuring planet-specific materials, space suits and oxygen gear.",
+    "candidate": "루나리안들은 지구 주민들과 다른 물품들을 팝니다. 행성 고유의 재료, 우주복, 산소 장비 들을 판매합니다."
+  },
+  {
+    "file": "entries/the_moon/lunarians.json",
+    "pointer": "/pages/3/title",
+    "english": "Wandering Trader",
+    "candidate": "떠돌이 상인"
+  },
+  {
+    "file": "entries/the_moon/lunarians.json",
+    "pointer": "/pages/3/text",
+    "english": "Lunarian Wandering Traders appear on every moon and planet. They have many rocket-related trades that may save your life, including launch pads, oxygen, fuel, soul torches and water. They accept emeralds, which are commonly found in the various structures on the moon and planets.",
+    "candidate": "루나리안 떠돌이 상인들은 달과 다른 행성들에서 가끔 나타납니다. 그들은 발사대, 산소, 연료, 영혼 횟불, 물 등을 포함한 생명을 구할 수 있는 로켓 관련 품목들을 판매합니다. 그들은 달과 다른 행성들의 여러 구조물에서 일반적으로 발견되는 에메랄드를 받습니다."
+  },
+  {
+    "file": "entries/the_moon/lunarians.json",
+    "pointer": "/pages/4/name",
+    "english": "Wandering Trader",
+    "candidate": "떠돌이 상인"
+  },
+  {
+    "file": "entries/the_moon/mars.json",
+    "pointer": "/name",
+    "english": "Mars",
+    "candidate": "화성"
+  },
+  {
+    "file": "entries/the_moon/mars.json",
+    "pointer": "/pages/0/title",
+    "english": "Mars",
+    "candidate": "화성"
+  },
+  {
+    "file": "entries/the_moon/mars.json",
+    "pointer": "/pages/0/text",
+    "english": "Now that you have explored the moon and worked with desh, you want to take it further and go to the red planet. Building a tier two rocket capable of travelling to Mars is similar to building the tier one rocket, but with desh materials instead of steel. Construct the parts, build the rocket in the NASA workbench, fuel it up, and off you go to Mars!",
+    "candidate": "이제 달을 탐험하고 대쉬를 활용해 작업까지 했으니, 당신은 더 멀리 떠나서 붉은 행성으로 떠나고 싶을 것 입니다. 화성으로 가기 위해 필요한 티어 2 로켓은 티어 1 로켓 제작과 비슷하지만 강철 대신 대쉬를 사용합니다. 부품을 만들고, NASA 제작대에서 로켓을 만들고, 연료를 채우고, 화성으로 가세요!"
+  },
+  {
+    "file": "entries/the_moon/mars.json",
+    "pointer": "/pages/1/title",
+    "english": "Ostrum",
+    "candidate": "오스트럼"
+  },
+  {
+    "file": "entries/the_moon/mars.json",
+    "pointer": "/pages/1/text",
+    "english": "Ostrum is the next material that you seek on the red planet. It is used to craft more powerful space armour, build exceptional machines and to construct a rocket capable of withstanding extreme heat, allowing you to travel to hot planets.",
+    "candidate": "오스트럼은 당신이 붉은 행성에서 찾아봐야 할 다음 광물입니다. 그것은 더 강력한 우주복을 제작하고, 특별한 기계를 만들고, 당신이 뜨거운 행성으로 여행할 수 있도록 극한의 열을 견딜 수 있는 로켓을 만드는 데 사용됩니다."
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/name",
+    "english": "Oxygen Distributor",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/0/title",
+    "english": "Oxygen Distributor",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/0/text",
+    "english": "The oxygen distributor is a powerful machine that distributes oxygen in a sealed room, allowing any life inside to survive. It works exactly like an oxygen loader, where you insert water into the tank, but instead of giving you oxygen, the oxygen is distributed into the air.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/1/title",
+    "english": "Water Pump",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/1/text",
+    "english": "The water pump is essential for keeping the oxygen distributor running infinitely. To use it, place an infinite water source below, then place the water pump above one of the water blocks, and then place the oxygen distributor adjacent to it. Make sure to supply both the pump and the oxygen distributor with sufficient power.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/2/title",
+    "english": "Distributor and Pump",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/3/title",
+    "english": "Using the Distributor",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/3/text",
+    "english": "Once you have supplied the oxygen distributor with an infinite water source, sufficient energy and a completely sealed room, it will distribute oxygen in that room. To check that oxygen is being distributed, click \"show\" in the distributor GUI. If the room is highlighted, that means that the oxygen has been successfully distributed.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/4/text",
+    "english": "If there is a hole in your structure that is causing oxygen to escape, the distributor GUI will provide a warning. Patch the hole to avoid unnecessary power draw and oxygen usage. After that, you should be able to take off your oxygen suit and survive. Each oxygen distributor can support up to 6,000 blocks, allowing you to build a moderately sized space station or base. If you need more, you can place more oxygen distributors.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/5/title",
+    "english": "Ventilation",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/5/text",
+    "english": "Inside your oxygenated structure, you should provide proper ventilation to ensure that oxygen does not get blocked when a door is closed. To do this, you can create a one-block gap in between walls or use a vent block to allow oxygen flow.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/6/title",
+    "english": "Rapid depressurization",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/oxygen_distributor.json",
+    "pointer": "/pages/6/text",
+    "english": "When your structure is fully sealed, and a hole is created, your structure will rapidly depressurize. This can be a catastrophic event. All entities inside will be violently sucked out of the hole and die without a space suit. The oxygen distributor will also rapidly drain oxygen and power. Avoid this by patching holes as soon as possible and by preventing accidental holes from being created.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/rover.json",
+    "pointer": "/name",
+    "english": "Rover",
+    "candidate": "로버"
+  },
+  {
+    "file": "entries/the_moon/rover.json",
+    "pointer": "/pages/0/title",
+    "english": "Rover",
+    "candidate": "로버"
+  },
+  {
+    "file": "entries/the_moon/rover.json",
+    "pointer": "/pages/0/text",
+    "english": "The rover is a land vehicle capable of driving on the rough terrain of moons and planets. It's exceptionally fast, has an inventory capable of storing 16 items and has two seats for multiple riders. You can also run over mobs and deal some serious damage. To use it, fill the rover with fuel (shift-click and place fuel buckets in the left input slot).",
+    "candidate": "로버는 달과 행성의 거친 지형을 주행할 수 있는 육상 차량입니다. 그것은 매우 빠르며, 8칸의 인벤토리가 있으며 2명까지 탈 수 있는 좌석이 있습니다. 로버를 사용하려면 로버에 연료를 채우세요.(연료 양동이를 들고 shift 키를 누른 상태에서 왼쪽 연료 투입구를 클릭하세요.)"
+  },
+  {
+    "file": "entries/the_moon/rover.json",
+    "pointer": "/pages/2/title",
+    "english": "Rover Recipe",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/rover.json",
+    "pointer": "/pages/3/title",
+    "english": "Radio",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/rover.json",
+    "pointer": "/pages/3/text",
+    "english": "The rover has a built-in radio for playing real internet streamed radio stations. Use it by interacting with the radio on the rover or by pressing ($(k:ad_astra.open_radio)). If multiple players are in the rover, they'll hear the same radio as well.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/solar_panel.json",
+    "pointer": "/name",
+    "english": "Solar Panel",
+    "candidate": "태양광 패널"
+  },
+  {
+    "file": "entries/the_moon/solar_panel.json",
+    "pointer": "/pages/0/title",
+    "english": "Solar Panel",
+    "candidate": "태양광 패널"
+  },
+  {
+    "file": "entries/the_moon/solar_panel.json",
+    "pointer": "/pages/0/text",
+    "english": "The solar panel is an upgraded version of the coal generator, producing more energy per tick while being self-reliant. Its power generation depends on the planet's distance from the sun and fog. Because of this, it is more efficient to place solar panels close to the sun. Solar panels also produce more energy in orbit, as there is no atmosphere blocking the light.",
+    "candidate": "태양광 패널은 석탄 발전기의 업그레이드된 버전으로, 자립적이면서도 석탄 발전기보다 틱당 더 많은 에너지를 생산합니다. 패널의 발전량은 태양과 안개로부터의 행성의 거리에 달려 있습니다. 이 떄문에 태양광 패널을 태양 가까이 두는 것이 효과적입니다. 태양광 패널은 또한 빛을 차단하는 대기가 없는 궤도에서 더 많은 에너지를 생산합니다."
+  },
+  {
+    "file": "entries/the_moon/solar_panel.json",
+    "pointer": "/pages/1/title",
+    "english": "Solar Panel",
+    "candidate": "Solar Panel"
+  },
+  {
+    "file": "entries/the_moon/solar_panel.json",
+    "pointer": "/pages/1/text",
+    "english": "Check the GUI to see how much energy is being produced in the current world.",
+    "candidate": "Check the solar panel's tooltip or GUI to see how much energy is being produced in the current world."
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/name",
+    "english": "Space Station",
+    "candidate": "우주 정거장"
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/0/title",
+    "english": "Space Station",
+    "candidate": "우주 정거장"
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/0/text",
+    "english": "A space station is a pre-built structure that is created in the planet screen, provided you have the necessary materials. Space stations are always located in a moon or planet's orbit and provide the ability to place blocks in that orbit dimension.",
+    "candidate": "우주 정거장은 필요한 재료가 있을 경우 행성 선택 화면에서 미리 만들어지는 구조물입니다. 우주 정거장은 항상 달이나 다른 행성의 궤도에 있으며 해당 궤도에 블록을 배치할 수 있게 합니다."
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/1/title",
+    "english": "Space Station",
+    "candidate": "우주 정거장"
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/1/text",
+    "english": "Space stations are designed to be expanded upon, allowing you to build the base of your dreams over a moon/planet. All of your space stations are present in the planet screen. Other players are not able to spawn new space stations in the same area as yours, so your structure is safe.",
+    "candidate": "우주 정거장은 확장할 수 있으며 달/행성 위에 꿈의 기지를 건설할 수 있습니다. 로켓을 발사한 위치에 관계없이 항상 생성되므로 구조물을 잃지 않도록 좌표를 기억하세요."
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/2/title",
+    "english": "Moving in Space",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/2/text",
+    "english": "Physics in space are very different from earth. In this zero-gravity environment, you'll float around and not be affected by gravity or friction. This can make it difficult to move around. One tool that can help you is the zip gun. This takes oxygen and will rapidly consume it to propel you forward. This allows you to move around in space. Careful to control your speed. As there's no friction, you can go flying out and get lost.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/3/title",
+    "english": "Zip Gun",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/4/title",
+    "english": "Cadmus",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/4/text",
+    "english": "If $(l:https://modrinth.com/mod/cadmus)Cadmus$(/l) is installed, the 3x3 chunks in your space station will be claimed. In addition, players will not be able to create new space stations in any of your claimed chunks.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/5/title",
+    "english": "Argonauts",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/space_station.json",
+    "pointer": "/pages/5/text",
+    "english": "If $(l:https://modrinth.com/mod/argonauts)Argonauts$(/l) is installed is installed, other players in your party or guild will be able to land at your space station, and you'll be able to land at theirs.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/ti_69.json",
+    "pointer": "/name",
+    "english": "Ti-69",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/ti_69.json",
+    "pointer": "/pages/0/title",
+    "english": "Ti-69",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/ti_69.json",
+    "pointer": "/pages/0/text",
+    "english": "The Ti-69 is a mobile device that'll display the local oxygen, temperature, and gravity. Use it to check if the area is safe.",
+    "candidate": null
+  },
+  {
+    "file": "entries/the_moon/ti_69.json",
+    "pointer": "/pages/1/title",
+    "english": "Ti-69 Recipe",
+    "candidate": null
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "더 나은 연료",
+  "icon": "ad_astra:cryo_freezer",
+  "sortnum": 6,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "극저온 냉동고",
+      "item": "ad_astra:cryo_freezer",
+      "text": "연료를 구하려면 바다로 나가 원유가 솟아나는 곳을 찾아야 해서 쉽지 않아요. 극저온 냉동고를 사용하면 더 좋은 연료인 극저온 연료를 다른 방법으로 얻을 수 있어요. 극저온 연료는 정제 연료보다 훨씬 효율이 좋아서 양동이 하나 분량으로도 로켓을 발사할 수 있어요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "극저온 연료는 추운 행성의 지하에서 광석으로 발견되는 얼음 조각으로 만들어요. 얼음 조각을 극저온 냉동고에 넣으면 극저온 연료 25 mB로 바뀌어요. 얼음, 꽁꽁 언 얼음, 푸른 얼음도 연료로 바꿀 수 있어요. 발사용과 귀환용으로 양동이 두 개 분량 이상을 준비한 뒤 로켓의 연료 슬롯에 넣으세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:cryo_freezer"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "극저온 연료",
+      "item": "ad_astra:cryo_fuel_bucket",
+      "text": "극저온 연료에는 뛰어난 연료 효율 외에도 다른 특징이 있어요. 바닥에 놓으면 용암처럼 안에 들어온 대상에게 피해를 줘요. 물도 얼리므로 얼음을 무한히 얻는 데 사용할 수 있어요."
+    }
+  ]
+}

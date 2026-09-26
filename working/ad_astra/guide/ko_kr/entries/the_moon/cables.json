@@ -1,0 +1,32 @@
+{
+  "name": "케이블",
+  "icon": "ad_astra:desh_cable",
+  "sortnum": 6,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "케이블",
+      "item": "ad_astra:desh_cable",
+      "text": "케이블은 에너지를 멀리 전달해요. 강철과 데시 두 종류가 있고, 데시 케이블의 전송량이 더 많아요. 렌치를 사용하면 케이블을 원하는 방향으로 연결하거나 네트워크의 연결 지점에서 분리할 수 있어요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:steel_cable",
+      "recipe2": "ad_astra:desh_cable"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:wrench"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "케이블 덕트",
+      "text": "케이블은 공간을 완전히 채우는 블록이 아니어서 구조물을 밀폐하지 못해요. 그러면 산소 분배기와 중력 정규화기가 작동하지 않아요. 케이블 덕트는 케이블과 똑같이 작동하면서도 공간을 완전히 채워 누출을 막는 블록이에요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:cable_duct"
+    }
+  ]
+}

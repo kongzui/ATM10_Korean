@@ -1,0 +1,18 @@
+{
+  "name": "라디오",
+  "icon": "ad_astra:radio",
+  "sortnum": 7,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "라디오",
+      "item": "ad_astra:radio",
+      "text": "출발 전에 음악을 들어 보는 건 어때요? 라디오는 인터넷으로 스트리밍되는 실제 라디오 방송을 재생하는 블록이에요. 여러 장르의 방송국을 들을 수 있고, 주변 플레이어도 같은 방송을 들어요. 나중에는 이 라디오를 재료로 로버를 만들 수 있어요. 로버에는 라디오가 내장되어 있어 운전하면서 음악을 들을 수 있어요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:radio"
+    }
+  ]
+}

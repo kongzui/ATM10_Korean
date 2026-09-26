@@ -1,0 +1,28 @@
+{
+  "name": "제트 슈트",
+  "icon": "ad_astra:jet_suit_helmet",
+  "sortnum": 0,
+  "category": "ad_astra:the_hot_planets",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "제트 슈트",
+      "item": "ad_astra:jet_suit_helmet",
+      "text": "제트 슈트는 네더라이트 우주복을 업그레이드한 장비로, 더 높은 방어력과 더 많은 산소 저장량, 비행 기능을 제공해요. 제작 비용이 크지만 빠르게 비행할 수 있어 이동이 편해져요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "비행 방식은 상승($(k:jump))과 추진 비행($(k:jump) + $(k:sprint)) 두 가지예요. 상승은 위로 날아오르고, 추진 비행은 폭죽으로 계속 가속하는 겉날개와 비슷해요. 제트 슈트는 에너지로 작동하므로 비행하려면 충전해야 해요. 제트 슈트를 들고 에너자이저를 우클릭하면 충전할 수 있어요. ($(k:ad_astra.toggle_suit_flight)) 키로 슈트를 켜거나 끄세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:jet_suit_helmet",
+      "recipe2": "ad_astra:jet_suit"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:jet_suit_pants",
+      "recipe2": "ad_astra:jet_suit_boots"
+    }
+  ]
+}

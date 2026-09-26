@@ -1,0 +1,6 @@
+{
+  "name": "첫 번째 발사",
+  "description": "첫 로켓을 만들고 달까지 안전하게 다녀오는 방법을 알아봐요.",
+  "icon": "ad_astra:launch_pad",
+  "sortnum": 0
+}

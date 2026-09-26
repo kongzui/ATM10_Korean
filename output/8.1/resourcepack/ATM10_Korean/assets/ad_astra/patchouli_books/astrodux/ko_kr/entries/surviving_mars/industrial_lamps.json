@@ -1,0 +1,19 @@
+{
+  "name": "산업용 램프",
+  "icon": "ad_astra:lime_industrial_lamp",
+  "sortnum": 2,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "산업용 램프",
+      "item": "ad_astra:small_blue_industrial_lamp",
+      "text": "산업용 램프는 16가지 색상과 소형·대형 크기로 제공돼요. 기본적으로 모두 흰빛을 내지만, $(l:https://modrinth.com/mod/shimmer!)Shimmer$(/l)를 설치하면 각 램프가 해당 색상의 빛을 내요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:magenta_industrial_lamp",
+      "recipe2": "ad_astra:small_red_industrial_lamp"
+    }
+  ]
+}

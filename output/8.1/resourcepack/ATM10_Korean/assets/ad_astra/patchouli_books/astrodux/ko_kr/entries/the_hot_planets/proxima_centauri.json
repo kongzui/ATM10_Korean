@@ -1,0 +1,17 @@
+{
+  "name": "프록시마 센타우리",
+  "icon": "ad_astra:/textures/painting/alpha_centauri.png",
+  "sortnum": 1,
+  "category": "ad_astra:the_hot_planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "프록시마 센타우리",
+      "text": "네 번째 티어 로켓을 만들 만큼 칼로라이트를 모으면 태양계를 떠나 새로운 항성계로 갈 수 있어요. 프록시마 센타우리에서 처음 향할 행성은 글라시오예요. 매우 춥지만 산소가 있어서 우주복 없이도 생존할 수 있어요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "현재 Ad Astra의 진행은 여기까지예요. 콘텐츠가 추가되면 이 가이드도 확장될 거예요. Ad Astra를 플레이해 주셔서 감사해요!"
+    }
+  ]
+}

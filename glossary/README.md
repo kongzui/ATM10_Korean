@@ -276,6 +276,17 @@
 | Primitive Hydration Cell / Seer's Sigil | 원시 수화 전지 / 예지자의 인장 | 아이템·기술 용어 | Neo Vitae | 확정 | Primitive와 Raw의 뜻 구분 |
 | Mine Entrance Key / Mine Dungeon Key | 광산 입구 열쇠 / 광산 던전 열쇠 | 아이템·기술 용어 | Neo Vitae | 확정 | 서로 다른 아이템이며 퀘스트 원문 차이는 완료 보고에 기록 |
 
+| Desh / Ostrum / Calorite | 데시 / 오스트럼 / 칼로라이트 | 재료명 | Ad Astra | 확정 | 현재 JAR 언어 후보의 재료명을 유지하고 가이드의 대쉬·칼코라이트를 교정 |
+| Etrium / Etrionic / Vesnium | 에트륨 / 에트리오닉 / 베스늄 | 재료·장치명 | Ad Astra | 확정 | 고유 재료명을 음역하고 뜻을 추측하지 않음 |
+| Glacio / Glacian / Aeronos / Strophar | 글라시오 / 글라시안 / 에어로노스 / 스트로파 | 행성·생물·재료명 | Ad Astra | 확정 | 현재 JAR 후보의 음역 유지 |
+| Astrodux / Zip Gun | 아스트로덕스 / 집 건 | 아이템명 | Ad Astra | 확정 | 책과 고유 도구 이름을 음역하고 본문에 기능 설명 |
+| Oxygen Loader / Oxygen Distributor | 산소 충전기 / 산소 분배기 | 기계명 | Ad Astra | 확정 | 물에서 산소를 만들어 장비에 충전하는 기계와 실내에 공급하는 기계를 구분 |
+| Gravity Normalizer / Gravity Normalizing | 중력 정규화기 / 중력 정규화 | 기계·효과명 | Ad Astra·Giselle Addon | 확정 | 본체와 애드온의 용어 통일, 애드온의 사용 중단 예정 표시는 별도 유지 |
+| Etrionic Capacitor / Etrionic Blast Furnace | 에트리오닉 축전기 / 에트리오닉 용광로 | 아이템·기계명 | Ad Astra | 확정 | 일반 언어와 가이드 이름 통일 |
+| Cryo Freezer / Cryo Fuel | 극저온 냉동고 / 극저온 연료 | 기계·연료명 | Ad Astra | 확정 | 가이드의 크라이오 표현도 같은 용어로 통일 |
+| Space Breathing / Space Fire Proof / Acid Rain Proof | 우주 호흡 / 우주 내화성 / 산성비 보호 | 효과·업그레이드명 | Giselle Addon | 확정 | Unit은 장치, Upgrade는 업그레이드로 역할 구분 |
+| Sequential / Round Robin | 순차 분배 / 순환 분배 | 축전기 모드 | Ad Astra | 확정 | 대상을 하나씩 충전하는 모드와 골고루 충전하는 모드를 구분 |
+
 ## 5. 보류 용어
 
 아직 확정하지 않은 고유명사나 전문용어는 임의로 번역하지 않고 아래 표에 기록한다.

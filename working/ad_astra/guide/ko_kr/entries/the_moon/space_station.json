@@ -1,0 +1,38 @@
+{
+  "name": "우주 정거장",
+  "icon": "ad_astra:/textures/gui/sprites/space_station.png",
+  "sortnum": 0,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "우주 정거장",
+      "text": "우주 정거장은 필요한 재료를 갖추면 행성 화면에서 생성할 수 있는 미리 설계된 구조물이에요. 항상 위성이나 행성의 궤도에 위치하며, 해당 궤도 차원에 블록을 놓을 수 있게 해 줘요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "우주 정거장",
+      "text": "우주 정거장은 확장할 수 있도록 설계되어 있어 위성이나 행성 위에 원하는 기지를 만들 수 있어요. 자신의 모든 우주 정거장은 행성 화면에 표시돼요. 다른 플레이어는 같은 위치에 새 정거장을 만들 수 없어 자신의 구조물이 보호돼요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "우주에서 이동하기",
+      "text": "우주의 물리 법칙은 지구와 매우 달라요. 무중력 환경에서는 중력이나 마찰의 영향을 받지 않고 떠다녀 이동이 어려울 수 있어요. 집 건은 산소를 빠르게 소모해 앞으로 추진하므로 우주에서 이동할 때 도움이 돼요. 마찰이 없어 멀리 날아가 길을 잃을 수 있으니 속도를 조절하세요."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "집 건",
+      "recipe": "ad_astra:zip_gun"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cadmus",
+      "text": "$(l:https://modrinth.com/mod/cadmus)Cadmus$(/l)를 설치하면 우주 정거장의 3x3 청크가 자신의 소유로 지정돼요. 다른 플레이어는 자신의 소유 청크 안에 새 우주 정거장을 만들 수 없어요."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Argonauts",
+      "text": "$(l:https://modrinth.com/mod/argonauts)Argonauts$(/l)를 설치하면 같은 파티나 길드의 플레이어가 서로의 우주 정거장에 착륙할 수 있어요."
+    }
+  ]
+}
