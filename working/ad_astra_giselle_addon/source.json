@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "mod": "ad_astra_giselle_addon",
+  "jar": "Ad-Astra-Giselle-Addon-neoforge-1.21.1-8.1.jar",
+  "jar_sha256": "8b50abe78976e7a85fd506b868ec896fe8d058ceb134e6cc5f5fe78f489e57bf",
+  "english_keys": 168,
+  "jar_korean_keys": 180,
+  "current_korean_candidates": 162
+}

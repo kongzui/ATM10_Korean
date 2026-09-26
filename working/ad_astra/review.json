@@ -1,0 +1,5823 @@
+{
+  "schema_version": 1,
+  "mod": "ad_astra",
+  "entries": [
+    {
+      "key": "advancements.ad_astra.ad_astra.description",
+      "english": "Welcome to Ad Astra!",
+      "translation": "Ad Astra에 오신 것을 환영해요!",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.ad_astra.title",
+      "english": "Ad Astra",
+      "translation": "Ad Astra",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "advancements.ad_astra.astronaut.description",
+      "english": "Create a space suit",
+      "translation": "우주복을 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.astronaut.title",
+      "english": "Astronaut",
+      "translation": "우주 비행사",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.carbon_footprint.description",
+      "english": "Construct a Coal Generator, the simplest way to generate energy",
+      "translation": "가장 간단한 발전 장치인 석탄 발전기를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.carbon_footprint.title",
+      "english": "Carbon Footprint",
+      "translation": "탄소 발자국",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.cryo_freezer.description",
+      "english": "Construct a Cryo Freezer, allowing you to create cryo fuel",
+      "translation": "극저온 연료를 만들 수 있는 극저온 냉동고를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.cryo_freezer.title",
+      "english": "Ice Ice Baby",
+      "translation": "꽁꽁 얼려요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.cryo_fuel.description",
+      "english": "Obtain Cryo Fuel, a fuel that's 3 times as efficient as rocket fuel",
+      "translation": "로켓 연료보다 효율이 3배 높은 극저온 연료를 얻으세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.cryo_fuel.title",
+      "english": "Cold Stuff",
+      "translation": "차가운 연료",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.dj.description",
+      "english": "Craft a radio",
+      "translation": "라디오를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.dj.title",
+      "english": "DJ",
+      "translation": "DJ",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "advancements.ad_astra.doom_slayer.description",
+      "english": "Create a netherite space suit, allowing you to survive in extreme heat",
+      "translation": "극심한 고온에서도 생존할 수 있는 네더라이트 우주복을 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.doom_slayer.title",
+      "english": "Doom Slayer",
+      "translation": "둠 슬레이어",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.energizer.description",
+      "english": "Construct an Energizer, a block capable of storing a large amount of energy",
+      "translation": "대량의 에너지를 저장할 수 있는 에너자이저를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.energizer.title",
+      "english": "Electric Boogaloo",
+      "translation": "넘치는 에너지",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.gravity_normalizer.description",
+      "english": "Construct a Gravity Normalizer, allowing you to control gravity in the local area",
+      "translation": "주변의 중력을 조절할 수 있는 중력 정규화기를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.gravity_normalizer.title",
+      "english": "Make Newton Proud",
+      "translation": "뉴턴도 뿌듯해할 거예요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.interstellar.description",
+      "english": "Reach a new solar system",
+      "translation": "새로운 항성계에 도달하세요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.interstellar.title",
+      "english": "Interstellar",
+      "translation": "인터스텔라",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "advancements.ad_astra.mars.description",
+      "english": "Land on Mars",
+      "translation": "화성에 착륙하세요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.mars.title",
+      "english": "The Martian",
+      "translation": "화성인",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.mercury.description",
+      "english": "Land on Mercury",
+      "translation": "수성에 착륙하세요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.mercury.title",
+      "english": "Quite the Sun Tan",
+      "translation": "제대로 선탠했네요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.moon.description",
+      "english": "Land on The Moon",
+      "translation": "달에 착륙하세요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.moon.title",
+      "english": "One Small Step",
+      "translation": "작은 발걸음",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "advancements.ad_astra.moon_cheese.description",
+      "english": "Obtain moon cheese. I wonder where it came from?",
+      "translation": "달 치즈를 얻으세요. 대체 어디서 생긴 걸까요?",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.moon_cheese.title",
+      "english": "Not FDA Approved",
+      "translation": "식약처 미승인",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.ocean_cleanup.description",
+      "english": "Fill a bucket with oil from the ocean",
+      "translation": "바다에서 양동이에 원유를 담으세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.ocean_cleanup.title",
+      "english": "Ocean Cleanup",
+      "translation": "바다 청소",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.oxygen_distributor.description",
+      "english": "Construct an Oxygen Distributor, allowing you to create livable environments",
+      "translation": "살 수 있는 환경을 조성하는 산소 분배기를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.oxygen_distributor.title",
+      "english": "Take a Deep Breath",
+      "translation": "크게 숨을 들이쉬어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.rocket_man.description",
+      "english": "Craft a jet suit, allowing you to propel yourself forward with extreme force",
+      "translation": "강한 추진력으로 앞으로 나아갈 수 있는 제트 슈트를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.rocket_man.title",
+      "english": "Rocket Man",
+      "translation": "로켓맨",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.rocket_science.description",
+      "english": "Construct a NASA Workbench, allowing you to craft rockets",
+      "translation": "로켓을 제작할 수 있는 NASA 제작대를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.rocket_science.title",
+      "english": "Rocket Science",
+      "translation": "로켓 과학",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.rover.description",
+      "english": "Construct a rover",
+      "translation": "로버를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.rover.title",
+      "english": "New Whip",
+      "translation": "새 차 뽑았어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.smart_blasting.description",
+      "english": "Craft an Etrionic Blast Furnace, allowing you to smelt with energy and create steel.",
+      "translation": "에너지로 제련하고 강철을 만들 수 있는 에트리오닉 용광로를 만드세요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.smart_blasting.title",
+      "english": "Smart Blasting",
+      "translation": "똑똑한 제련",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.solar_panel.description",
+      "english": "Construct a Solar Panel, allowing you to generate energy from the sun",
+      "translation": "태양으로부터 에너지를 생산하는 태양광 패널을 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.solar_panel.title",
+      "english": "Green Energy",
+      "translation": "친환경 에너지",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.ti_69.description",
+      "english": "Craft a TI-69, allowing you to view local oxygen, temperature, and gravity information",
+      "translation": "주변의 산소, 온도, 중력 정보를 볼 수 있는 TI-69를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.ti_69.title",
+      "english": "New Phone, Who Dis?",
+      "translation": "새 기기인데 누구시죠?",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.tier_1_rocket.description",
+      "english": "Construct a Tier 1 Rocket",
+      "translation": "1티어 로켓을 만드세요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.tier_1_rocket.title",
+      "english": "Baby's First Rocket",
+      "translation": "나의 첫 로켓",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.tier_2_rocket.description",
+      "english": "Construct a Tier 2 Rocket",
+      "translation": "2티어 로켓을 만드세요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.tier_2_rocket.title",
+      "english": "The Next Step",
+      "translation": "다음 단계로",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.tier_3_rocket.description",
+      "english": "Construct a Tier 3 Rocket",
+      "translation": "3티어 로켓을 만드세요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.tier_3_rocket.title",
+      "english": "The Final Frontier",
+      "translation": "마지막 개척지",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.tier_4_rocket.description",
+      "english": "Construct a Tier 4 Rocket",
+      "translation": "4티어 로켓을 만드세요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.tier_4_rocket.title",
+      "english": "To Infinity and Beyond",
+      "translation": "무한한 공간 저 너머로",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.under_pressure.description",
+      "english": "Construct a Compressor, making it possible to press ingots into plates",
+      "translation": "주괴를 판으로 누를 수 있는 압축기를 만드세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.under_pressure.title",
+      "english": "Under Pressure",
+      "translation": "압력을 가해요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.venus.description",
+      "english": "Land on Venus",
+      "translation": "금성에 착륙하세요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.venus.title",
+      "english": "Venusian",
+      "translation": "금성인",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "advancements.ad_astra.zip_gun.description",
+      "english": "Craft and use a zip gun, alloying you to propel yourself forward. Use it to move around in space!",
+      "translation": "집 건을 만들고 사용해 앞으로 나아가세요. 우주에서 이동할 때 활용해 보세요!",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "advancements.ad_astra.zip_gun.title",
+      "english": "Unconventional Flight",
+      "translation": "색다른 비행",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "biome.ad_astra.glacio_ice_peaks",
+      "english": "Glacio Ice Peaks",
+      "translation": "글라시오 얼음 봉우리",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "biome.ad_astra.glacio_snowy_barrens",
+      "english": "Glacio Snowy Barrens",
+      "translation": "글라시오 눈 덮인 불모지",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "biome.ad_astra.infernal_venus_barrens",
+      "english": "Infernal Venus Barrens",
+      "translation": "지옥의 금성 불모지",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "biome.ad_astra.lunar_wastelands",
+      "english": "Lunar Wastelands",
+      "translation": "달 황무지",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "biome.ad_astra.martian_canyon_creek",
+      "english": "Martian Canyon Creek",
+      "translation": "화성 협곡 개울",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "biome.ad_astra.martian_polar_caps",
+      "english": "Martian Polar Caps",
+      "translation": "화성 극지방",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "biome.ad_astra.martian_wastelands",
+      "english": "Martian Wastelands",
+      "translation": "화성 황무지",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "biome.ad_astra.mercury_deltas",
+      "english": "Mercury Deltas",
+      "translation": "수성 삼각주",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "biome.ad_astra.orbit",
+      "english": "Space",
+      "translation": "우주",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "biome.ad_astra.venus_wastelands",
+      "english": "Venus Wastelands",
+      "translation": "금성 황무지",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_cap",
+      "english": "Aeronos Cap",
+      "translation": "에어로노스 버섯 갓",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_door",
+      "english": "Aeronos Door",
+      "translation": "에어로노스 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_fence",
+      "english": "Aeronos Fence",
+      "translation": "에어로노스 울타리",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_fence_gate",
+      "english": "Aeronos Fence Gate",
+      "translation": "에어로노스 울타리 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_ladder",
+      "english": "Aeronos Ladder",
+      "translation": "에어로노스 사다리",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_mushroom",
+      "english": "Aeronos Mushroom",
+      "translation": "에어로노스 버섯",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_planks",
+      "english": "Aeronos Planks",
+      "translation": "에어로노스 판자",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_slab",
+      "english": "Aeronos Slab",
+      "translation": "에어로노스 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_stairs",
+      "english": "Aeronos Stairs",
+      "translation": "에어로노스 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_stem",
+      "english": "Aeronos Stem",
+      "translation": "에어로노스 자루",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.aeronos_trapdoor",
+      "english": "Aeronos Trapdoor",
+      "translation": "에어로노스 다락문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.airlock",
+      "english": "Airlock",
+      "translation": "에어록",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.black_flag",
+      "english": "Black Flag",
+      "translation": "검은색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.black_industrial_lamp",
+      "english": "Black Industrial Lamp",
+      "translation": "검은색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.blue_flag",
+      "english": "Blue Flag",
+      "translation": "파란색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.blue_industrial_lamp",
+      "english": "Blue Industrial Lamp",
+      "translation": "파란색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.brown_flag",
+      "english": "Brown Flag",
+      "translation": "갈색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.brown_industrial_lamp",
+      "english": "Brown Industrial Lamp",
+      "translation": "갈색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.cable_duct",
+      "english": "Cable Duct",
+      "translation": "케이블 덕트",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.calorite_block",
+      "english": "Calorite Block",
+      "translation": "칼로라이트 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.calorite_factory_block",
+      "english": "Calorite Factory Block",
+      "translation": "칼로라이트 공장 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.calorite_panel",
+      "english": "Calorite Panel",
+      "translation": "칼로라이트 패널",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.calorite_pillar",
+      "english": "Calorite Pillar",
+      "translation": "칼로라이트 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.calorite_plateblock",
+      "english": "Calorite Plateblock",
+      "translation": "칼로라이트 판재 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.calorite_plating",
+      "english": "Calorite Plating",
+      "translation": "칼로라이트 판금 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.calorite_plating_button",
+      "english": "Calorite Plating Button",
+      "translation": "칼로라이트 판금 버튼",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.calorite_plating_pressure_plate",
+      "english": "Calorite Plating Pressure Plate",
+      "translation": "칼로라이트 판금 압력판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.calorite_plating_slab",
+      "english": "Calorite Plating Slab",
+      "translation": "칼로라이트 판금 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.calorite_plating_stairs",
+      "english": "Calorite Plating Stairs",
+      "translation": "칼로라이트 판금 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.calorite_sliding_door",
+      "english": "Calorite Sliding Door",
+      "translation": "칼로라이트 미닫이 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cheese_block",
+      "english": "Cheese Block",
+      "translation": "치즈 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_glacio_stone_bricks",
+      "english": "Chiseled Glacio Stone Bricks",
+      "translation": "조각된 글라시오 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_glacio_stone_slab",
+      "english": "Chiseled Glacio Stone Slab",
+      "translation": "조각된 글라시오 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_glacio_stone_stairs",
+      "english": "Chiseled Glacio Stone Stairs",
+      "translation": "조각된 글라시오 암석 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_mars_stone_bricks",
+      "english": "Chiseled Mars Stone Bricks",
+      "translation": "조각된 화성 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_mars_stone_slab",
+      "english": "Chiseled Mars Stone Slab",
+      "translation": "조각된 화성 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_mars_stone_stairs",
+      "english": "Chiseled Mars Stone Stairs",
+      "translation": "조각된 화성 암석 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_mercury_stone_bricks",
+      "english": "Chiseled Mercury Stone Bricks",
+      "translation": "조각된 수성 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_mercury_stone_slab",
+      "english": "Chiseled Mercury Stone Slab",
+      "translation": "조각된 수성 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_mercury_stone_stairs",
+      "english": "Chiseled Mercury Stone Stairs",
+      "translation": "조각된 수성 암석 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_moon_stone_bricks",
+      "english": "Chiseled Moon Stone Bricks",
+      "translation": "조각된 월석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_moon_stone_slab",
+      "english": "Chiseled Moon Stone Slab",
+      "translation": "조각된 월석 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_moon_stone_stairs",
+      "english": "Chiseled Moon Stone Stairs",
+      "translation": "조각된 월석 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_permafrost_brick_slab",
+      "english": "Chiseled Permafrost Brick Slab",
+      "translation": "조각된 영구동토 벽돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_permafrost_brick_stairs",
+      "english": "Chiseled Permafrost Brick Stairs",
+      "translation": "조각된 영구동토 벽돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_permafrost_bricks",
+      "english": "Chiseled Permafrost Bricks",
+      "translation": "조각된 영구동토 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_venus_stone_bricks",
+      "english": "Chiseled Venus Stone Bricks",
+      "translation": "조각된 금성 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_venus_stone_slab",
+      "english": "Chiseled Venus Stone Slab",
+      "translation": "조각된 금성 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.chiseled_venus_stone_stairs",
+      "english": "Chiseled Venus Stone Stairs",
+      "translation": "조각된 금성 암석 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.coal_generator",
+      "english": "Coal Generator",
+      "translation": "석탄 발전기",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.compressor",
+      "english": "Compressor",
+      "translation": "압축기",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.conglomerate",
+      "english": "Conglomerate",
+      "translation": "역암",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cracked_glacio_stone_bricks",
+      "english": "Cracked Glacio Stone Bricks",
+      "translation": "금이 간 글라시오 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cracked_mars_stone_bricks",
+      "english": "Cracked Mars Stone Bricks",
+      "translation": "금이 간 화성 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cracked_mercury_stone_bricks",
+      "english": "Cracked Mercury Stone Bricks",
+      "translation": "금이 간 수성 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cracked_moon_stone_bricks",
+      "english": "Cracked Moon Stone Bricks",
+      "translation": "금이 간 월석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cracked_permafrost_bricks",
+      "english": "Cracked Permafrost Bricks",
+      "translation": "금이 간 영구동토 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cracked_venus_sandstone_bricks",
+      "english": "Cracked Venus Sandstone Bricks",
+      "translation": "금이 간 금성 사암 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cracked_venus_stone_bricks",
+      "english": "Cracked Venus Stone Bricks",
+      "translation": "금이 간 금성 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cryo_freezer",
+      "english": "Cryo Freezer",
+      "translation": "극저온 냉동고",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cryo_fuel",
+      "english": "Cryo Fuel",
+      "translation": "극저온 연료",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cyan_flag",
+      "english": "Cyan Flag",
+      "translation": "청록색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.cyan_industrial_lamp",
+      "english": "Cyan Industrial Lamp",
+      "translation": "청록색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.deepslate_calorite_ore",
+      "english": "Deepslate Calorite Ore",
+      "translation": "심층암 칼로라이트 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.deepslate_desh_ore",
+      "english": "Deepslate Desh Ore",
+      "translation": "심층암 데시 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.deepslate_ice_shard_ore",
+      "english": "Deepslate Ice Shard Ore",
+      "translation": "심층암 얼음 조각 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.deepslate_ostrum_ore",
+      "english": "Deepslate Ostrum Ore",
+      "translation": "심층암 오스트럼 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.desh_block",
+      "english": "Desh Block",
+      "translation": "데시 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.desh_cable",
+      "english": "Desh Cable",
+      "translation": "데시 케이블",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.desh_factory_block",
+      "english": "Desh Factory Block",
+      "translation": "데시 공장 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.desh_fluid_pipe",
+      "english": "Desh Fluid Pipe",
+      "translation": "데시 유체 파이프",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.desh_panel",
+      "english": "Desh Panel",
+      "translation": "데시 패널",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.desh_pillar",
+      "english": "Desh Pillar",
+      "translation": "데시 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.desh_plateblock",
+      "english": "Desh Plateblock",
+      "translation": "데시 판재 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.desh_plating",
+      "english": "Desh Plating",
+      "translation": "데시 판금 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.desh_plating_button",
+      "english": "Desh Plating Button",
+      "translation": "데시 판금 버튼",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.desh_plating_pressure_plate",
+      "english": "Desh Plating Pressure Plate",
+      "translation": "데시 판금 압력판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.desh_plating_slab",
+      "english": "Desh Plating Slab",
+      "translation": "데시 판금 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.desh_plating_stairs",
+      "english": "Desh Plating Stairs",
+      "translation": "데시 판금 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.desh_sliding_door",
+      "english": "Desh Sliding Door",
+      "translation": "데시 미닫이 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.earth_globe",
+      "english": "Earth Globe",
+      "translation": "지구 모형",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.encased_calorite_block",
+      "english": "Encased Calorite Block",
+      "translation": "케이스에 싸인 칼로라이트 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.encased_desh_block",
+      "english": "Encased Desh Block",
+      "translation": "케이스에 싸인 데시 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.encased_etrium_block",
+      "english": "Encased Etrium Block",
+      "translation": "케이스에 싸인 에트륨 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.encased_iron_block",
+      "english": "Encased Iron Block",
+      "translation": "케이스에 싸인 철 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.encased_ostrum_block",
+      "english": "Encased Ostrum Block",
+      "translation": "케이스에 싸인 오스트럼 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.encased_steel_block",
+      "english": "Encased Steel Block",
+      "translation": "케이스에 싸인 강철 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.energizer",
+      "english": "Energizer",
+      "translation": "에너자이저",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.etrionic_blast_furnace",
+      "english": "Etrionic Blast Furnace",
+      "translation": "에트리오닉 용광로",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.etrium_block",
+      "english": "Etrium Block",
+      "translation": "에트륨 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.etrium_factory_block",
+      "english": "Etrium Factory Block",
+      "translation": "에트륨 공장 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.etrium_panel",
+      "english": "Etrium Panel",
+      "translation": "에트륨 패널",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.etrium_plateblock",
+      "english": "Etrium Plateblock",
+      "translation": "에트륨 판재 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.fluid_pipe_duct",
+      "english": "Fluid Pipe Duct",
+      "translation": "유체 파이프 덕트",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.fuel",
+      "english": "Fuel",
+      "translation": "연료",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.fuel_refinery",
+      "english": "Fuel Refinery",
+      "translation": "연료 정제소",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_button",
+      "english": "Glacian Button",
+      "translation": "글라시안 버튼",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_door",
+      "english": "Glacian Door",
+      "translation": "글라시안 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_fence",
+      "english": "Glacian Fence",
+      "translation": "글라시안 울타리",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_fence_gate",
+      "english": "Glacian Fence Gate",
+      "translation": "글라시안 울타리 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_fur",
+      "english": "Glacian Fur",
+      "translation": "글라시안 털",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.glacian_leaves",
+      "english": "Glacian Leaves",
+      "translation": "글라시안 잎",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_log",
+      "english": "Glacian Log",
+      "translation": "글라시안 원목",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_planks",
+      "english": "Glacian Planks",
+      "translation": "글라시안 판자",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_pressure_plate",
+      "english": "Glacian Pressure Plate",
+      "translation": "글라시안 압력판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_slab",
+      "english": "Glacian Slab",
+      "translation": "글라시안 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_stairs",
+      "english": "Glacian Stairs",
+      "translation": "글라시안 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacian_trapdoor",
+      "english": "Glacian Trapdoor",
+      "translation": "글라시안 다락문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_coal_ore",
+      "english": "Glacio Coal Ore",
+      "translation": "글라시오 석탄 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_cobblestone",
+      "english": "Glacio Cobblestone",
+      "translation": "글라시오 조약돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_cobblestone_slab",
+      "english": "Glacio Cobblestone Slab",
+      "translation": "글라시오 조약돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_cobblestone_stairs",
+      "english": "Glacio Cobblestone Stairs",
+      "translation": "글라시오 조약돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_copper_ore",
+      "english": "Glacio Copper Ore",
+      "translation": "글라시오 구리 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_globe",
+      "english": "Glacio Globe",
+      "translation": "글라시오 모형",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_ice_shard_ore",
+      "english": "Glacio Ice Shard Ore",
+      "translation": "글라시오 얼음 조각 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_iron_ore",
+      "english": "Glacio Iron Ore",
+      "translation": "글라시오 철 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_lapis_ore",
+      "english": "Glacio Lapis Ore",
+      "translation": "글라시오 청금석 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_pillar",
+      "english": "Glacio Pillar",
+      "translation": "글라시오 기둥",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.glacio_stone",
+      "english": "Glacio Stone",
+      "translation": "글라시오 암석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_stone_brick_slab",
+      "english": "Glacio Stone Brick Slab",
+      "translation": "글라시오 암석 벽돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_stone_brick_stairs",
+      "english": "Glacio Stone Brick Stairs",
+      "translation": "글라시오 암석 벽돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_stone_brick_wall",
+      "english": "Glacio Stone Brick Wall",
+      "translation": "글라시오 암석 벽돌 담장",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_stone_bricks",
+      "english": "Glacio Stone Bricks",
+      "translation": "글라시오 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_stone_slab",
+      "english": "Glacio Stone Slab",
+      "translation": "글라시오 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glacio_stone_stairs",
+      "english": "Glacio Stone Stairs",
+      "translation": "글라시오 암석 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glowing_calorite_pillar",
+      "english": "Glowing Calorite Pillar",
+      "translation": "발광 칼로라이트 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glowing_desh_pillar",
+      "english": "Glowing Desh Pillar",
+      "translation": "발광 데시 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glowing_iron_pillar",
+      "english": "Glowing Iron Pillar",
+      "translation": "발광 철 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glowing_ostrum_pillar",
+      "english": "Glowing Ostrum Pillar",
+      "translation": "발광 오스트럼 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.glowing_steel_pillar",
+      "english": "Glowing Steel Pillar",
+      "translation": "발광 강철 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.gravity_normalizer",
+      "english": "Gravity Normalizer",
+      "translation": "중력 정규화기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.gray_flag",
+      "english": "Gray Flag",
+      "translation": "회색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.gray_industrial_lamp",
+      "english": "Gray Industrial Lamp",
+      "translation": "회색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.green_flag",
+      "english": "Green Flag",
+      "translation": "초록색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.green_industrial_lamp",
+      "english": "Green Industrial Lamp",
+      "translation": "초록색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.hydrogen",
+      "english": "Hydrogen",
+      "translation": "수소",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.infernal_spire_block",
+      "english": "Infernal Spire Block",
+      "translation": "지옥 첨탑 블록",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.iron_factory_block",
+      "english": "Iron Factory Block",
+      "translation": "철 공장 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.iron_panel",
+      "english": "Iron Panel",
+      "translation": "철 패널",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.iron_pillar",
+      "english": "Iron Pillar",
+      "translation": "철 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.iron_plateblock",
+      "english": "Iron Plateblock",
+      "translation": "철 판재 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.iron_plating",
+      "english": "Iron Plating",
+      "translation": "철 판금 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.iron_plating_button",
+      "english": "Iron Plating Button",
+      "translation": "철 판금 버튼",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.iron_plating_pressure_plate",
+      "english": "Iron Plating Pressure Plate",
+      "translation": "철 판금 압력판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.iron_plating_slab",
+      "english": "Iron Plating Slab",
+      "translation": "철 판금 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.iron_plating_stairs",
+      "english": "Iron Plating Stairs",
+      "translation": "철 판금 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.iron_sliding_door",
+      "english": "Iron Sliding Door",
+      "translation": "철 미닫이 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.launch_pad",
+      "english": "Launch Pad",
+      "translation": "로켓 발사대",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.light_blue_flag",
+      "english": "Light Blue Flag",
+      "translation": "하늘색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.light_blue_industrial_lamp",
+      "english": "Light Blue Industrial Lamp",
+      "translation": "하늘색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.light_gray_flag",
+      "english": "Light Gray Flag",
+      "translation": "회백색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.light_gray_industrial_lamp",
+      "english": "Light Gray Industrial Lamp",
+      "translation": "회백색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.lime_flag",
+      "english": "Lime Flag",
+      "translation": "연두색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.lime_industrial_lamp",
+      "english": "Lime Industrial Lamp",
+      "translation": "연두색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.magenta_flag",
+      "english": "Magenta Flag",
+      "translation": "자홍색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.magenta_industrial_lamp",
+      "english": "Magenta Industrial Lamp",
+      "translation": "자홍색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.marked_iron_pillar",
+      "english": "Marked Iron Pillar",
+      "translation": "표식이 있는 철 기둥",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.mars_cobblestone",
+      "english": "Mars Cobblestone",
+      "translation": "화성 조약돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_cobblestone_slab",
+      "english": "Mars Cobblestone Slab",
+      "translation": "화성 조약돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_cobblestone_stairs",
+      "english": "Mars Cobblestone Stairs",
+      "translation": "화성 조약돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_diamond_ore",
+      "english": "Mars Diamond Ore",
+      "translation": "화성 다이아몬드 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_globe",
+      "english": "Mars Globe",
+      "translation": "화성 모형",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_ice_shard_ore",
+      "english": "Mars Ice Shard Ore",
+      "translation": "화성 얼음 조각 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_iron_ore",
+      "english": "Mars Iron Ore",
+      "translation": "화성 철 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_ostrum_ore",
+      "english": "Mars Ostrum Ore",
+      "translation": "화성 오스트럼 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_pillar",
+      "english": "Mars Pillar",
+      "translation": "화성 기둥",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.mars_sand",
+      "english": "Mars Sand",
+      "translation": "화성 모래",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_stone",
+      "english": "Mars Stone",
+      "translation": "화성 암석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_stone_brick_slab",
+      "english": "Mars Stone Brick Slab",
+      "translation": "화성 암석 벽돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_stone_brick_stairs",
+      "english": "Mars Stone Brick Stairs",
+      "translation": "화성 암석 벽돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_stone_brick_wall",
+      "english": "Mars Stone Brick Wall",
+      "translation": "화성 암석 벽돌 담장",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_stone_bricks",
+      "english": "Mars Stone Bricks",
+      "translation": "화성 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mars_stone_slab",
+      "english": "Mars Stone Slab",
+      "translation": "화성 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.mars_stone_stairs",
+      "english": "Mars Stone Stairs",
+      "translation": "화성 암석 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_cobblestone",
+      "english": "Mercury Cobblestone",
+      "translation": "수성 조약돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_cobblestone_slab",
+      "english": "Mercury Cobblestone Slab",
+      "translation": "수성 조약돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_cobblestone_stairs",
+      "english": "Mercury Cobblestone Stairs",
+      "translation": "수성 조약돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_globe",
+      "english": "Mercury Globe",
+      "translation": "수성 모형",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_iron_ore",
+      "english": "Mercury Iron Ore",
+      "translation": "수성 철 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_pillar",
+      "english": "Mercury Pillar",
+      "translation": "수성 기둥",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.mercury_stone",
+      "english": "Mercury Stone",
+      "translation": "수성 암석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_stone_brick_slab",
+      "english": "Mercury Stone Brick Slab",
+      "translation": "수성 암석 벽돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_stone_brick_stairs",
+      "english": "Mercury Stone Brick Stairs",
+      "translation": "수성 암석 벽돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_stone_brick_wall",
+      "english": "Mercury Stone Brick Wall",
+      "translation": "수성 암석 벽돌 담장",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_stone_bricks",
+      "english": "Mercury Stone Bricks",
+      "translation": "수성 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.mercury_stone_slab",
+      "english": "Mercury Stone Slab",
+      "translation": "수성 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.mercury_stone_stairs",
+      "english": "Mercury Stone Stairs",
+      "translation": "수성 암석 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_cheese_ore",
+      "english": "Moon Cheese Ore",
+      "translation": "달 치즈 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_cobblestone",
+      "english": "Moon Cobblestone",
+      "translation": "달 조약돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_cobblestone_slab",
+      "english": "Moon Cobblestone Slab",
+      "translation": "달 조약돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_cobblestone_stairs",
+      "english": "Moon Cobblestone Stairs",
+      "translation": "달 조약돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_deepslate",
+      "english": "Moon Deepslate",
+      "translation": "달 심층암",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.moon_desh_ore",
+      "english": "Moon Desh Ore",
+      "translation": "달 데시 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_globe",
+      "english": "Moon Globe",
+      "translation": "달 모형",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_ice_shard_ore",
+      "english": "Moon Ice Shard Ore",
+      "translation": "달 얼음 조각 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_iron_ore",
+      "english": "Moon Iron Ore",
+      "translation": "달 철 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_pillar",
+      "english": "Moon Pillar",
+      "translation": "달 기둥",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.moon_sand",
+      "english": "Moon Sand",
+      "translation": "달 모래",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_stone",
+      "english": "Moon Stone",
+      "translation": "월석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_stone_brick_slab",
+      "english": "Moon Stone Brick Slab",
+      "translation": "월석 벽돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_stone_brick_stairs",
+      "english": "Moon Stone Brick Stairs",
+      "translation": "월석 벽돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_stone_brick_wall",
+      "english": "Moon Stone Brick Wall",
+      "translation": "월석 벽돌 담장",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_stone_bricks",
+      "english": "Moon Stone Bricks",
+      "translation": "월석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_stone_slab",
+      "english": "Moon Stone Slab",
+      "translation": "월석 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.moon_stone_stairs",
+      "english": "Moon Stone Stairs",
+      "translation": "월석 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.nasa_workbench",
+      "english": "Nasa Workbench",
+      "translation": "NASA 제작대",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.oil",
+      "english": "Oil",
+      "translation": "원유",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.orange_flag",
+      "english": "Orange Flag",
+      "translation": "주황색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.orange_industrial_lamp",
+      "english": "Orange Industrial Lamp",
+      "translation": "주황색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.ostrum_block",
+      "english": "Ostrum Block",
+      "translation": "오스트럼 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.ostrum_factory_block",
+      "english": "Ostrum Factory Block",
+      "translation": "오스트럼 공장 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.ostrum_fluid_pipe",
+      "english": "Ostrum Fluid Pipe",
+      "translation": "오스트럼 유체 파이프",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.ostrum_panel",
+      "english": "Ostrum Panel",
+      "translation": "오스트럼 패널",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.ostrum_pillar",
+      "english": "Ostrum Pillar",
+      "translation": "오스트럼 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.ostrum_plateblock",
+      "english": "Ostrum Plateblock",
+      "translation": "오스트럼 판재 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.ostrum_plating",
+      "english": "Ostrum Plating",
+      "translation": "오스트럼 판금 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.ostrum_plating_button",
+      "english": "Ostrum Plating Button",
+      "translation": "오스트럼 판금 버튼",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.ostrum_plating_pressure_plate",
+      "english": "Ostrum Plating Pressure Plate",
+      "translation": "오스트럼 판금 압력판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.ostrum_plating_slab",
+      "english": "Ostrum Plating Slab",
+      "translation": "오스트럼 판금 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.ostrum_plating_stairs",
+      "english": "Ostrum Plating Stairs",
+      "translation": "오스트럼 판금 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.ostrum_sliding_door",
+      "english": "Ostrum Sliding Door",
+      "translation": "오스트럼 미닫이 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.oxygen",
+      "english": "Oxygen",
+      "translation": "산소",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.oxygen_distributor",
+      "english": "Oxygen Distributor",
+      "translation": "산소 분배기",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.oxygen_loader",
+      "english": "Oxygen Loader",
+      "translation": "산소 충전기",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.oxygen_sensor",
+      "english": "Oxygen Sensor",
+      "translation": "산소 센서",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.permafrost",
+      "english": "Permafrost",
+      "translation": "영구동토",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.permafrost_brick_slab",
+      "english": "Permafrost Brick Slab",
+      "translation": "영구동토 벽돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.permafrost_brick_stairs",
+      "english": "Permafrost Brick Stairs",
+      "translation": "영구동토 벽돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.permafrost_brick_wall",
+      "english": "Permafrost Brick Wall",
+      "translation": "영구동토 벽돌 담장",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.permafrost_bricks",
+      "english": "Permafrost Bricks",
+      "translation": "영구동토 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.permafrost_pillar",
+      "english": "Permafrost Pillar",
+      "translation": "영구동토 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.permafrost_tiles",
+      "english": "Permafrost Tiles",
+      "translation": "영구동토 타일",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.pink_flag",
+      "english": "Pink Flag",
+      "translation": "분홍색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.pink_industrial_lamp",
+      "english": "Pink Industrial Lamp",
+      "translation": "분홍색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.polished_conglomerate",
+      "english": "Polished Conglomerate",
+      "translation": "윤이 나는 역암",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_glacio_stone",
+      "english": "Polished Glacio Stone",
+      "translation": "윤이 나는 글라시오 암석",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_glacio_stone_slab",
+      "english": "Polished Glacio Stone Slab",
+      "translation": "윤이 나는 글라시오 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_glacio_stone_stairs",
+      "english": "Polished Glacio Stone Stairs",
+      "translation": "윤이 나는 글라시오 암석 계단",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_mars_stone",
+      "english": "Polished Mars Stone",
+      "translation": "윤이 나는 화성 암석",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_mars_stone_slab",
+      "english": "Polished Mars Stone Slab",
+      "translation": "윤이 나는 화성 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_mars_stone_stairs",
+      "english": "Polished Mars Stone Stairs",
+      "translation": "윤이 나는 화성 암석 계단",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_mercury_stone",
+      "english": "Polished Mercury Stone",
+      "translation": "윤이 나는 수성 암석",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_mercury_stone_slab",
+      "english": "Polished Mercury Stone Slab",
+      "translation": "윤이 나는 수성 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_mercury_stone_stairs",
+      "english": "Polished Mercury Stone Stairs",
+      "translation": "윤이 나는 수성 암석 계단",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_moon_stone",
+      "english": "Polished Moon Stone",
+      "translation": "윤이 나는 월석",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_moon_stone_slab",
+      "english": "Polished Moon Stone Slab",
+      "translation": "윤이 나는 월석 반 블록",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_moon_stone_stairs",
+      "english": "Polished Moon Stone Stairs",
+      "translation": "윤이 나는 월석 계단",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_permafrost",
+      "english": "Polished Permafrost",
+      "translation": "윤이 나는 영구동토",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_permafrost_slab",
+      "english": "Polished Permafrost Slab",
+      "translation": "윤이 나는 영구동토 반 블록",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_permafrost_stairs",
+      "english": "Polished Permafrost Stairs",
+      "translation": "윤이 나는 영구동토 계단",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_venus_stone",
+      "english": "Polished Venus Stone",
+      "translation": "윤이 나는 금성 암석",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_venus_stone_slab",
+      "english": "Polished Venus Stone Slab",
+      "translation": "윤이 나는 금성 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.polished_venus_stone_stairs",
+      "english": "Polished Venus Stone Stairs",
+      "translation": "윤이 나는 금성 암석 계단",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.purple_flag",
+      "english": "Purple Flag",
+      "translation": "보라색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.purple_industrial_lamp",
+      "english": "Purple Industrial Lamp",
+      "translation": "보라색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.radio",
+      "english": "Radio",
+      "translation": "라디오",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.raw_calorite_block",
+      "english": "Raw Calorite Block",
+      "translation": "칼로라이트 원석 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.raw_desh_block",
+      "english": "Raw Desh Block",
+      "translation": "데시 원석 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.raw_ostrum_block",
+      "english": "Raw Ostrum Block",
+      "translation": "오스트럼 원석 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.red_flag",
+      "english": "Red Flag",
+      "translation": "빨간색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.red_industrial_lamp",
+      "english": "Red Industrial Lamp",
+      "translation": "빨간색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.reinforced_door",
+      "english": "Reinforced Door",
+      "translation": "강화 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.sky_stone",
+      "english": "Sky Stone",
+      "translation": "운석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.small_black_industrial_lamp",
+      "english": "Small Black Industrial Lamp",
+      "translation": "소형 검은색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_blue_industrial_lamp",
+      "english": "Small Blue Industrial Lamp",
+      "translation": "소형 파란색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_brown_industrial_lamp",
+      "english": "Small Brown Industrial Lamp",
+      "translation": "소형 갈색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_cyan_industrial_lamp",
+      "english": "Small Cyan Industrial Lamp",
+      "translation": "소형 청록색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_gray_industrial_lamp",
+      "english": "Small Gray Industrial Lamp",
+      "translation": "소형 회색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_green_industrial_lamp",
+      "english": "Small Green Industrial Lamp",
+      "translation": "소형 초록색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_light_blue_industrial_lamp",
+      "english": "Small Light Blue Industrial Lamp",
+      "translation": "소형 하늘색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_light_gray_industrial_lamp",
+      "english": "Small Light Gray Industrial Lamp",
+      "translation": "소형 회백색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_lime_industrial_lamp",
+      "english": "Small Lime Industrial Lamp",
+      "translation": "소형 연두색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_magenta_industrial_lamp",
+      "english": "Small Magenta Industrial Lamp",
+      "translation": "소형 자홍색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_orange_industrial_lamp",
+      "english": "Small Orange Industrial Lamp",
+      "translation": "소형 주황색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_pink_industrial_lamp",
+      "english": "Small Pink Industrial Lamp",
+      "translation": "소형 분홍색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_purple_industrial_lamp",
+      "english": "Small Purple Industrial Lamp",
+      "translation": "소형 보라색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_red_industrial_lamp",
+      "english": "Small Red Industrial Lamp",
+      "translation": "소형 빨간색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_white_industrial_lamp",
+      "english": "Small White Industrial Lamp",
+      "translation": "소형 하얀색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.small_yellow_industrial_lamp",
+      "english": "Small Yellow Industrial Lamp",
+      "translation": "소형 노란색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.solar_panel",
+      "english": "Solar Panel",
+      "translation": "태양광 패널",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_block",
+      "english": "Steel Block",
+      "translation": "강철 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_cable",
+      "english": "Steel Cable",
+      "translation": "강철 케이블",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_door",
+      "english": "Steel Door",
+      "translation": "강철 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_factory_block",
+      "english": "Steel Factory Block",
+      "translation": "강철 공장 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.steel_panel",
+      "english": "Steel Panel",
+      "translation": "강철 패널",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.steel_pillar",
+      "english": "Steel Pillar",
+      "translation": "강철 기둥",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_plateblock",
+      "english": "Steel Plateblock",
+      "translation": "강철 판재 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.steel_plating",
+      "english": "Steel Plating",
+      "translation": "강철 판금 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_plating_button",
+      "english": "Steel Plating Button",
+      "translation": "강철 판금 버튼",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_plating_pressure_plate",
+      "english": "Steel Plating Pressure Plate",
+      "translation": "강철 판금 압력판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_plating_slab",
+      "english": "Steel Plating Slab",
+      "translation": "강철 판금 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_plating_stairs",
+      "english": "Steel Plating Stairs",
+      "translation": "강철 판금 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_sliding_door",
+      "english": "Steel Sliding Door",
+      "translation": "강철 미닫이 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.steel_trapdoor",
+      "english": "Steel Trapdoor",
+      "translation": "강철 다락문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.stripped_glacian_log",
+      "english": "Stripped Glacian Log",
+      "translation": "껍질 벗긴 글라시안 원목",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.strophar_cap",
+      "english": "Strophar Cap",
+      "translation": "스트로파 버섯 갓",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.strophar_door",
+      "english": "Strophar Door",
+      "translation": "스트로파 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.strophar_fence",
+      "english": "Strophar Fence",
+      "translation": "스트로파 울타리",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.strophar_fence_gate",
+      "english": "Strophar Fence Gate",
+      "translation": "스트로파 울타리 문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.strophar_ladder",
+      "english": "Strophar Ladder",
+      "translation": "스트로파 사다리",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.strophar_mushroom",
+      "english": "Strophar Mushroom",
+      "translation": "스트로파 버섯",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.strophar_planks",
+      "english": "Strophar Planks",
+      "translation": "스트로파 판자",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.strophar_slab",
+      "english": "Strophar Slab",
+      "translation": "스트로파 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.strophar_stairs",
+      "english": "Strophar Stairs",
+      "translation": "스트로파 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.strophar_stem",
+      "english": "Strophar Stem",
+      "translation": "스트로파 자루",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.strophar_trapdoor",
+      "english": "Strophar Trapdoor",
+      "translation": "스트로파 다락문",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.vent",
+      "english": "Vent",
+      "translation": "통풍구",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_calorite_ore",
+      "english": "Venus Calorite Ore",
+      "translation": "금성 칼로라이트 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_coal_ore",
+      "english": "Venus Coal Ore",
+      "translation": "금성 석탄 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_cobblestone",
+      "english": "Venus Cobblestone",
+      "translation": "금성 조약돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_cobblestone_slab",
+      "english": "Venus Cobblestone Slab",
+      "translation": "금성 조약돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_cobblestone_stairs",
+      "english": "Venus Cobblestone Stairs",
+      "translation": "금성 조약돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_diamond_ore",
+      "english": "Venus Diamond Ore",
+      "translation": "금성 다이아몬드 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_globe",
+      "english": "Venus Globe",
+      "translation": "금성 모형",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_gold_ore",
+      "english": "Venus Gold Ore",
+      "translation": "금성 금 광석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_pillar",
+      "english": "Venus Pillar",
+      "translation": "금성 기둥",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra.venus_sand",
+      "english": "Venus Sand",
+      "translation": "금성 모래",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_sandstone",
+      "english": "Venus Sandstone",
+      "translation": "금성 사암",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_sandstone_brick_slab",
+      "english": "Venus Sandstone Brick Slab",
+      "translation": "금성 사암 벽돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_sandstone_brick_stairs",
+      "english": "Venus Sandstone Brick Stairs",
+      "translation": "금성 사암 벽돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_sandstone_bricks",
+      "english": "Venus Sandstone Bricks",
+      "translation": "금성 사암 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_stone",
+      "english": "Venus Stone",
+      "translation": "금성 암석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_stone_brick_slab",
+      "english": "Venus Stone Brick Slab",
+      "translation": "금성 암석 벽돌 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_stone_brick_stairs",
+      "english": "Venus Stone Brick Stairs",
+      "translation": "금성 암석 벽돌 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_stone_brick_wall",
+      "english": "Venus Stone Brick Wall",
+      "translation": "금성 암석 벽돌 담장",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_stone_bricks",
+      "english": "Venus Stone Bricks",
+      "translation": "금성 암석 벽돌",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_stone_slab",
+      "english": "Venus Stone Slab",
+      "translation": "금성 암석 반 블록",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.venus_stone_stairs",
+      "english": "Venus Stone Stairs",
+      "translation": "금성 암석 계단",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.water_pump",
+      "english": "Water Pump",
+      "translation": "물 펌프",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.white_flag",
+      "english": "White Flag",
+      "translation": "하얀색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.white_industrial_lamp",
+      "english": "White Industrial Lamp",
+      "translation": "하얀색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "block.ad_astra.yellow_flag",
+      "english": "Yellow Flag",
+      "translation": "노란색 깃발",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra.yellow_industrial_lamp",
+      "english": "Yellow Industrial Lamp",
+      "translation": "노란색 산업용 램프",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.allowFlagImages",
+      "english": "Allow flag images",
+      "translation": "깃발 이미지 허용",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.atmosphereLeave",
+      "english": "Atmosphere leave",
+      "translation": "대기권 이탈",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.client.title",
+      "english": "Ad Astra Client",
+      "translation": "Ad Astra 클라이언트",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.clientConfig",
+      "english": "Client Config",
+      "translation": "클라이언트 설정",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.coalGeneratorEnergyGenerationPerTick",
+      "english": "Coal generator energy generation per tick",
+      "translation": "석탄 발전기의 틱당 에너지 생산량",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.description",
+      "english": "Live long and prosper, and may the force be with you.",
+      "translation": "오래오래 번영하시고, 포스가 함께하기를.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.deshTier",
+      "english": "Desh tier",
+      "translation": "데시 등급",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.disableAirVortexes",
+      "english": "Disable air vortexes",
+      "translation": "공기 소용돌이 비활성화",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.disableGravity",
+      "english": "Disable gravity",
+      "translation": "중력 비활성화",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.disableOxygen",
+      "english": "Disable oxygen",
+      "translation": "산소 비활성화",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.disableTemperature",
+      "english": "Disable temperature",
+      "translation": "온도 비활성화",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.disabledPlanets",
+      "english": "Disabled planets",
+      "translation": "비활성화할 행성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.distributionRefreshRate",
+      "english": "Distribution refresh rate",
+      "translation": "분배 갱신 주기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.energizerEnergyCapacity",
+      "english": "Energizer energy capacity",
+      "translation": "에너자이저 에너지 용량",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.etrionicBlastFurnaceBlastingEnergyPerItem",
+      "english": "Etrionic blast furnace blasting energy per item",
+      "translation": "에트리오닉 용광로의 아이템당 제련 에너지",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.forcePlanetTick",
+      "english": "Force planet tick",
+      "translation": "행성 틱 강제 실행",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.ironTier",
+      "english": "Iron tier",
+      "translation": "철 등급",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.launchEfficientFuelCost",
+      "english": "Launch efficient fuel cost",
+      "translation": "고효율 연료 발사 소모량",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.launchFromAnywhere",
+      "english": "Launch from anywhere",
+      "translation": "어디서나 발사 허용",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.launchFuelCost",
+      "english": "Launch fuel cost",
+      "translation": "발사 연료 소모량",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.machine.energyCapacity",
+      "english": "Energy capacity",
+      "translation": "에너지 용량",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.machine.fluidCapacity",
+      "english": "Fluid capacity",
+      "translation": "유체 용량",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.machine.maxEnergyInOut",
+      "english": "Max energy in/out",
+      "translation": "최대 에너지 입출력",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.machines",
+      "english": "Machines",
+      "translation": "기계",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.maxDistributionBlocks",
+      "english": "Max distribution blocks",
+      "translation": "최대 분배 블록 수",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.ostrumTier",
+      "english": "Ostrum tier",
+      "translation": "오스트럼 등급",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.pipeRefreshRate",
+      "english": "Pipe refresh rate",
+      "translation": "파이프 갱신 주기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.planetRandomTickSpeed",
+      "english": "Planet random tick speed",
+      "translation": "행성 무작위 틱 속도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.steelTier",
+      "english": "Steel tier",
+      "translation": "강철 등급",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.title",
+      "english": "Ad Astra",
+      "translation": "Ad Astra",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "config.ad_astra.waterPumpEnergyPerTick",
+      "english": "Water pump energy per tick",
+      "translation": "물 펌프의 틱당 에너지 소모량",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra.waterPumpFluidGenerationPerTick",
+      "english": "Water pump fluid generation per tick",
+      "translation": "물 펌프의 틱당 유체 생산량",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "death.attack.acid_rain",
+      "english": "%1$s was melted by acid rain",
+      "translation": "%1$s이(가) 산성비에 녹았습니다",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "death.attack.acid_rain.player",
+      "english": "%1$s was melted by acid rain whilst trying to escape %2$s",
+      "translation": "%1$s이(가) %2$s에게서 도망치려다 산성비에 녹았습니다",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "death.attack.cryo_fuel",
+      "english": "%1$s became an ice cube",
+      "translation": "%1$s이(가) 얼음덩어리가 되었습니다",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "death.attack.cryo_fuel.player",
+      "english": "%1$s became an ice cube whilst trying to escape %2$s",
+      "translation": "%1$s이(가) %2$s에게서 도망치려다 얼음덩어리가 되었습니다",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "death.attack.oxygen",
+      "english": "%1$s couldn't breathe anymore",
+      "translation": "%1$s이(가) 더 이상 숨을 쉴 수 없었습니다",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "death.attack.oxygen.player",
+      "english": "%1$s lost their breath whilst trying to escape %2$s",
+      "translation": "%1$s이(가) %2$s에게서 도망치려다 숨이 끊어졌습니다",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "death.attack.ran_over",
+      "english": "%1$s was ran over",
+      "translation": "%1$s이(가) 차에 치였습니다",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "death.attack.ran_over.player",
+      "english": "%1$s was ran over by %2$s",
+      "translation": "%1$s이(가) %2$s에게 치였습니다",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "death.attack.rocket_flames",
+      "english": "%1$s melted under an active rocket",
+      "translation": "%1$s이(가) 작동 중인 로켓 아래에서 녹았습니다",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "death.attack.rocket_flames.player",
+      "english": "%1$s melted under an active rocket whilst trying to escape %2$s",
+      "translation": "%1$s이(가) %2$s에게서 도망치려다 작동 중인 로켓 아래에서 녹았습니다",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "dimension.ad_astra.earth_orbit",
+      "english": "Earth Orbit",
+      "translation": "지구 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "dimension.ad_astra.glacio",
+      "english": "Glacio",
+      "translation": "글라시오",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "dimension.ad_astra.glacio_orbit",
+      "english": "Glacio Orbit",
+      "translation": "글라시오 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "dimension.ad_astra.mars",
+      "english": "Mars",
+      "translation": "화성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "dimension.ad_astra.mars_orbit",
+      "english": "Mars Orbit",
+      "translation": "화성 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "dimension.ad_astra.mercury",
+      "english": "Mercury",
+      "translation": "수성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "dimension.ad_astra.mercury_orbit",
+      "english": "Mercury Orbit",
+      "translation": "수성 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "dimension.ad_astra.moon",
+      "english": "Moon",
+      "translation": "달",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "dimension.ad_astra.moon_orbit",
+      "english": "Moon Orbit",
+      "translation": "달 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "dimension.ad_astra.venus",
+      "english": "Venus",
+      "translation": "금성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "dimension.ad_astra.venus_orbit",
+      "english": "Venus Orbit",
+      "translation": "금성 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.down",
+      "english": "Down",
+      "translation": "아래",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.east",
+      "english": "East",
+      "translation": "동쪽",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.north",
+      "english": "North",
+      "translation": "북쪽",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.relative.down",
+      "english": "Bottom",
+      "translation": "하단",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.relative.east",
+      "english": "Left",
+      "translation": "왼쪽",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.relative.north",
+      "english": "Front",
+      "translation": "앞면",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.relative.south",
+      "english": "Back",
+      "translation": "뒷면",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.relative.up",
+      "english": "Top",
+      "translation": "상단",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.relative.west",
+      "english": "Right",
+      "translation": "오른쪽",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.south",
+      "english": "South",
+      "translation": "남쪽",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.up",
+      "english": "Up",
+      "translation": "위",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "direction.ad_astra.west",
+      "english": "West",
+      "translation": "서쪽",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "entity.ad_astra.air_vortex",
+      "english": "Air Vortex",
+      "translation": "공기 소용돌이",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "entity.ad_astra.corrupted_lunarian",
+      "english": "Corrupted Lunarian",
+      "translation": "오염된 루나리안",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.glacian_ram",
+      "english": "Glacian Ram",
+      "translation": "글라시안 양",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.ice_spit",
+      "english": "Ice Spit",
+      "translation": "얼음 침",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "entity.ad_astra.lander",
+      "english": "Lander",
+      "translation": "착륙선",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian",
+      "english": "Lunarian",
+      "translation": "루나리안",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.armorer",
+      "english": "Lunarian Armorer",
+      "translation": "루나리안 갑옷 제조인",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.butcher",
+      "english": "Lunarian Butcher",
+      "translation": "루나리안 도살업자",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.cartographer",
+      "english": "Lunarian Cartographer",
+      "translation": "루나리안 지도 제작자",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.cleric",
+      "english": "Lunarian Cleric",
+      "translation": "루나리안 성직자",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.farmer",
+      "english": "Lunarian Farmer",
+      "translation": "루나리안 농부",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.fisherman",
+      "english": "Lunarian Fisherman",
+      "translation": "루나리안 어부",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.fletcher",
+      "english": "Lunarian Fletcher",
+      "translation": "루나리안 화살 제조인",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.leatherworker",
+      "english": "Lunarian Leatherworker",
+      "translation": "루나리안 가죽 세공인",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.librarian",
+      "english": "Lunarian Librarian",
+      "translation": "루나리안 사서",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.mason",
+      "english": "Lunarian Mason",
+      "translation": "루나리안 석공",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.none",
+      "english": "Lunarian",
+      "translation": "루나리안",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.shepherd",
+      "english": "Lunarian Shepherd",
+      "translation": "루나리안 양치기",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.toolsmith",
+      "english": "Lunarian Toolsmith",
+      "translation": "루나리안 도구 대장장이",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian.weaponsmith",
+      "english": "Lunarian Weaponsmith",
+      "translation": "루나리안 무기 대장장이",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.lunarian_wandering_trader",
+      "english": "Lunarian Wandering Trader",
+      "translation": "루나리안 떠돌이 상인",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.martian_raptor",
+      "english": "Martian Raptor",
+      "translation": "화성 랩터",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.mogler",
+      "english": "Mogler",
+      "translation": "모글러",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.pygro",
+      "english": "Pygro",
+      "translation": "파이그로",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.pygro_brute",
+      "english": "Pygro Brute",
+      "translation": "난폭한 파이그로",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "entity.ad_astra.star_crawler",
+      "english": "Star Crawler",
+      "translation": "스타 크롤러",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.sulfur_creeper",
+      "english": "Sulfur Creeper",
+      "translation": "유황 크리퍼",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "entity.ad_astra.tier_1_rocket",
+      "english": "Tier 1 Rocket",
+      "translation": "1티어 로켓",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "entity.ad_astra.tier_1_rover",
+      "english": "Tier 1 Rover",
+      "translation": "1티어 로버",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "entity.ad_astra.tier_2_rocket",
+      "english": "Tier 2 Rocket",
+      "translation": "2티어 로켓",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "entity.ad_astra.tier_3_rocket",
+      "english": "Tier 3 Rocket",
+      "translation": "3티어 로켓",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "entity.ad_astra.tier_4_rocket",
+      "english": "Tier 4 Rocket",
+      "translation": "4티어 로켓",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "entity.ad_astra.zombified_mogler",
+      "english": "Zombified Mogler",
+      "translation": "좀비화된 모글러",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "entity.ad_astra.zombified_pygro",
+      "english": "Zombified Pygro",
+      "translation": "좀비화된 파이그로",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "fluid_type.ad_astra.cryo_fuel",
+      "english": "Cryo Fuel",
+      "translation": "극저온 연료",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "fluid_type.ad_astra.flowing_cryo_fuel",
+      "english": "Flowing Cryo Fuel",
+      "translation": "흐르는 극저온 연료",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "fluid_type.ad_astra.flowing_fuel",
+      "english": "Flowing Fuel",
+      "translation": "흐르는 연료",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "fluid_type.ad_astra.flowing_hydrogen",
+      "english": "Flowing Hydrogen",
+      "translation": "흐르는 수소",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "fluid_type.ad_astra.flowing_oil",
+      "english": "Flowing Oil",
+      "translation": "흐르는 원유",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "fluid_type.ad_astra.flowing_oxygen",
+      "english": "Flowing Oxygen",
+      "translation": "흐르는 산소",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "fluid_type.ad_astra.fuel",
+      "english": "Fuel",
+      "translation": "연료",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "fluid_type.ad_astra.hydrogen",
+      "english": "Hydrogen",
+      "translation": "수소",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "fluid_type.ad_astra.oil",
+      "english": "Oil",
+      "translation": "원유",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "fluid_type.ad_astra.oxygen",
+      "english": "Oxygen",
+      "translation": "산소",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "info.ad_astra.cable",
+      "english": "Transfers energy. Right-click with a wrench to change the distribution mode.",
+      "translation": "에너지를 전달해요. 렌치를 들고 우클릭하면 분배 모드를 바꿀 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.cable_duct",
+      "english": "Works like cables, but fully-conceals oxygen, preventing leaks.",
+      "translation": "케이블처럼 작동하지만 산소가 새지 않도록 완전히 밀폐해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.coal_generator",
+      "english": "The simplest of generators. Generates energy from burnable materials.",
+      "translation": "가장 간단한 발전기예요. 태울 수 있는 재료로 에너지를 생산해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.compressor",
+      "english": "Compresses materials into plates.",
+      "translation": "재료를 판으로 압축해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.cryo_freezer",
+      "english": "Converts ice materials into cryo fuel.",
+      "translation": "얼음 재료를 극저온 연료로 바꿔요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.energizer",
+      "english": "Stores a large amount of energy. Right-click with an item to charge it. Retains its charge when broken.",
+      "translation": "대량의 에너지를 저장해요. 아이템을 들고 우클릭하면 충전할 수 있어요. 부숴도 저장한 에너지가 유지돼요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.etrionic_blast_furnace",
+      "english": "Smelts ores into ingots like a blast furnace, but uses energy and has 4 slots. Has two modes: blasting and alloying.",
+      "translation": "용광로처럼 광석을 주괴로 제련하지만, 에너지를 사용하고 슬롯이 4개예요. 제련과 합금 두 가지 모드가 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.etrionic_capacitor",
+      "english": "Stores energy. Right-click to toggle. Shift-right-click to change the distribution mode.",
+      "translation": "에너지를 저장해요. 우클릭하면 켜거나 끄고, Shift+우클릭하면 분배 모드를 바꿀 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.flag",
+      "english": "A flag with your face on it. Right-click to add an image from a URL.",
+      "translation": "자신의 얼굴이 그려진 깃발이에요. 우클릭하면 URL로 이미지를 추가할 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.fluid_duct",
+      "english": "Works like fluid pipes, but fully-conceals oxygen, preventing leaks.",
+      "translation": "유체 파이프처럼 작동하지만 산소가 새지 않도록 완전히 밀폐해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.fluid_pipe",
+      "english": "Transfers fluids. Right-click with a wrench to change the distribution mode.",
+      "translation": "유체를 전달해요. 렌치를 들고 우클릭하면 분배 모드를 바꿀 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.fuel_refinery",
+      "english": "Refines fuel from oil.",
+      "translation": "원유를 연료로 정제해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.gas_tank",
+      "english": "Stores fluids and gases. Right-click to distribute into your inventory.",
+      "translation": "액체와 기체를 저장해요. 우클릭하면 인벤토리의 아이템에 공급해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.globe",
+      "english": "Right-click to spin the globe. Power it with redstone to make it constantly spin.",
+      "translation": "우클릭하면 모형이 회전해요. 레드스톤 신호를 주면 계속 회전해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.gravity_normalizer",
+      "english": "Allows you to control gravity in the local area. Should be used in a completely sealed structure.",
+      "translation": "주변의 중력을 조절할 수 있어요. 완전히 밀폐된 구조물 안에서 사용해야 해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.jet_suit",
+      "english": "Works like the Netherite Space Suit, with jets installed to propel the wearer forward with extreme force.",
+      "translation": "네더라이트 우주복에 제트 추진기를 더해 착용자가 강한 추진력으로 앞으로 나아갈 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.launch_pad",
+      "english": "Launches rockets. Power with redstone to automatically launch placed rockets.",
+      "translation": "로켓을 발사해요. 레드스톤 신호를 주면 놓인 로켓을 자동으로 발사해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.nasa_workbench",
+      "english": "Used to craft rockets.",
+      "translation": "로켓을 제작할 때 사용해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.netherite_space_suit",
+      "english": "Works like the Space Suit, with the added advantage of protecting the wearer from extreme heat.",
+      "translation": "우주복의 기능에 더해 착용자를 극심한 고온으로부터 보호해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.oxygen_distributor",
+      "english": "Distributes oxygen and regulates the temperature. Use it to create livable environments. Should be used in a completely sealed structure.",
+      "translation": "산소를 분배하고 온도를 조절해 살 수 있는 환경을 조성해요. 완전히 밀폐된 구조물 안에서 사용해야 해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.oxygen_loader",
+      "english": "Converts water into oxygen. Use it to fill up space suits and gas tanks.",
+      "translation": "물을 산소로 바꿔요. 우주복과 가스 탱크에 산소를 채울 때 사용해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.oxygen_sensor",
+      "english": "Emits a redstone signal when oxygen is detected. shift-right-click to invert the signal. Right-click to change what it detects.",
+      "translation": "산소를 감지하면 레드스톤 신호를 내보내요. Shift+우클릭하면 신호를 반전하고, 우클릭하면 감지 대상을 바꿀 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.radio",
+      "english": "Plays real internet-streamed radio stations.",
+      "translation": "인터넷으로 스트리밍되는 실제 라디오 방송을 재생해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.rocket",
+      "english": "A rocket used for interplanetary travel. Must be placed on a launch pad. Shift-right-click to access its fuel and inventory.",
+      "translation": "행성 간 이동에 사용하는 로켓이에요. 로켓 발사대에 놓아야 해요. Shift+우클릭하면 연료와 인벤토리를 확인할 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.rover",
+      "english": "An all-terrain vehicle. Shift-right-click to access its inventory. Click on the screen to access the rover's radio. This radio can play real radio stations.",
+      "translation": "다양한 지형을 달릴 수 있는 차량이에요. Shift+우클릭하면 인벤토리를 열어요. 화면을 클릭하면 로버의 라디오를 열어 실제 라디오 방송을 들을 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.sliding_door",
+      "english": "A large 3x3 door. Shift-right-click with a wrench to lock it. Locked doors can only be opened with redstone.",
+      "translation": "크기가 3x3인 대형 문이에요. 렌치를 들고 Shift+우클릭하면 잠가요. 잠긴 문은 레드스톤으로만 열 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.solar_panel",
+      "english": "Generates energy from the sun during the dat. Note that the energy generated is dependent on the planet.",
+      "translation": "낮 동안 태양으로부터 에너지를 생산해요. 생산량은 행성에 따라 달라져요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.space_suit",
+      "english": "Supplies the wearer with oxygen and protects them from the extreme-cold of space.",
+      "translation": "착용자에게 산소를 공급하고 우주의 극심한 추위로부터 보호해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.ti_69",
+      "english": "Displays local oxygen, temperature, and gravity information.",
+      "translation": "주변의 산소, 온도, 중력 정보를 표시해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.vent",
+      "english": "Allows oxygen to flow through.",
+      "translation": "산소가 통과할 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.water_pump",
+      "english": "Pumps water. Ensure a water source is below the pump for it to function.",
+      "translation": "물을 끌어올려요. 작동하려면 펌프 아래에 물 공급원이 있어야 해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.wrench",
+      "english": "Used to configure pipes and various other blocks.",
+      "translation": "파이프와 여러 블록을 설정할 때 사용해요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "info.ad_astra.zip_gun",
+      "english": "Propels you forward. Use a second one in your offhand to propel even further. Excellent for maneuvering in zero-gravity.",
+      "translation": "앞으로 추진해요. 보조 손에도 하나 더 들면 더 멀리 나아갈 수 있어요. 무중력 상태에서 이동하기에 좋아요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.astrodux",
+      "english": "Astrodux",
+      "translation": "아스트로덕스",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.astrodux.landing",
+      "english": "Welcome to your guide to the depths of Space.$(br2)Ad Astra is in development. Some features in the guide may be missing or incomplete.",
+      "translation": "깊은 우주로 안내하는 가이드에 오신 것을 환영해요.$(br2)Ad Astra는 개발 중이에요. 가이드에 나온 일부 기능은 없거나 미완성일 수 있어요.",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.calorite_engine",
+      "english": "Calorite Engine",
+      "translation": "칼로라이트 엔진",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.calorite_ingot",
+      "english": "Calorite Ingot",
+      "translation": "칼로라이트 주괴",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.calorite_nugget",
+      "english": "Calorite Nugget",
+      "translation": "칼로라이트 조각",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.calorite_plate",
+      "english": "Calorite Plate",
+      "translation": "칼로라이트 판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.calorite_tank",
+      "english": "Calorite Tank",
+      "translation": "칼로라이트 탱크",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.cheese",
+      "english": "Cheese",
+      "translation": "치즈",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.corrupted_lunarian_spawn_egg",
+      "english": "Corrupted Lunarian Spawn Egg",
+      "translation": "오염된 루나리안 생성 알",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.cryo_fuel_bucket",
+      "english": "Cryo Fuel Bucket",
+      "translation": "극저온 연료 양동이",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.desh_engine",
+      "english": "Desh Engine",
+      "translation": "데시 엔진",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.desh_ingot",
+      "english": "Desh Ingot",
+      "translation": "데시 주괴",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.desh_nugget",
+      "english": "Desh Nugget",
+      "translation": "데시 조각",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.desh_plate",
+      "english": "Desh Plate",
+      "translation": "데시 판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.desh_tank",
+      "english": "Desh Tank",
+      "translation": "데시 탱크",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.engine_frame",
+      "english": "Engine Frame",
+      "translation": "엔진 프레임",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.etrionic_capacitor",
+      "english": "Etrionic Capacitor",
+      "translation": "에트리오닉 축전기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.etrionic_core",
+      "english": "Etrionic Core",
+      "translation": "에트리오닉 코어",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.etrium_ingot",
+      "english": "Etrium Ingot",
+      "translation": "에트륨 주괴",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.etrium_nugget",
+      "english": "Etrium Nugget",
+      "translation": "에트륨 조각",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.etrium_plate",
+      "english": "Etrium Plate",
+      "translation": "에트륨 판",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.etrium_rod",
+      "english": "Etrium Rod",
+      "translation": "에트륨 막대기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.fan",
+      "english": "Fan",
+      "translation": "팬",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.fuel_bucket",
+      "english": "Fuel Bucket",
+      "translation": "연료 양동이",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.gas_tank",
+      "english": "Gas Tank",
+      "translation": "가스 탱크",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.glacian_ram_spawn_egg",
+      "english": "Glacian Ram Spawn Egg",
+      "translation": "글라시안 양 생성 알",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.hydrogen_bucket",
+      "english": "Hydrogen Bucket",
+      "translation": "수소 양동이",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.ice_shard",
+      "english": "Ice Shard",
+      "translation": "얼음 조각",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.iron_plate",
+      "english": "Iron Plate",
+      "translation": "철 판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.iron_rod",
+      "english": "Iron Rod",
+      "translation": "철 막대기",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.jet_suit",
+      "english": "Jet Suit",
+      "translation": "제트 슈트",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.jet_suit_boots",
+      "english": "Jet Suit Boots",
+      "translation": "제트 슈트 부츠",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.jet_suit_helmet",
+      "english": "Jet Suit Helmet",
+      "translation": "제트 슈트 헬멧",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.jet_suit_pants",
+      "english": "Jet Suit Pants",
+      "translation": "제트 슈트 하의",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.large_gas_tank",
+      "english": "Large Gas Tank",
+      "translation": "대형 가스 탱크",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.lunarian_spawn_egg",
+      "english": "Lunarian Spawn Egg",
+      "translation": "루나리안 생성 알",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.lunarian_wandering_trader_spawn_egg",
+      "english": "Lunarian Wandering Trader Spawn Egg",
+      "translation": "루나리안 떠돌이 상인 생성 알",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.martian_raptor_spawn_egg",
+      "english": "Martian Raptor Spawn Egg",
+      "translation": "화성 랩터 생성 알",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.mogler_spawn_egg",
+      "english": "Mogler Spawn Egg",
+      "translation": "모글러 생성 알",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.netherite_space_boots",
+      "english": "Netherite Space Boots",
+      "translation": "네더라이트 우주복 부츠",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.netherite_space_helmet",
+      "english": "Netherite Space Helmet",
+      "translation": "네더라이트 우주복 헬멧",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.netherite_space_pants",
+      "english": "Netherite Space Pants",
+      "translation": "네더라이트 우주복 하의",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.netherite_space_suit",
+      "english": "Netherite Space Suit",
+      "translation": "네더라이트 우주복 상의",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.oil_bucket",
+      "english": "Oil Bucket",
+      "translation": "원유 양동이",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.ostrum_engine",
+      "english": "Ostrum Engine",
+      "translation": "오스트럼 엔진",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.ostrum_ingot",
+      "english": "Ostrum Ingot",
+      "translation": "오스트럼 주괴",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.ostrum_nugget",
+      "english": "Ostrum Nugget",
+      "translation": "오스트럼 조각",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.ostrum_plate",
+      "english": "Ostrum Plate",
+      "translation": "오스트럼 판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.ostrum_tank",
+      "english": "Ostrum Tank",
+      "translation": "오스트럼 탱크",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.oxygen_bucket",
+      "english": "Oxygen Bucket",
+      "translation": "산소 양동이",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.oxygen_gear",
+      "english": "Oxygen Gear",
+      "translation": "산소 공급 장치",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra.photovoltaic_etrium_cell",
+      "english": "Photovoltaic Etrium Cell",
+      "translation": "에트륨 태양 전지",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.photovoltaic_vesnium_cell",
+      "english": "Photovoltaic Vesnium Cell",
+      "translation": "베스늄 태양 전지",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.pygro_brute_spawn_egg",
+      "english": "Pygro Brute Spawn Egg",
+      "translation": "난폭한 파이그로 생성 알",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra.pygro_spawn_egg",
+      "english": "Pygro Spawn Egg",
+      "translation": "파이그로 생성 알",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.raw_calorite",
+      "english": "Raw Calorite",
+      "translation": "칼로라이트 원석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.raw_desh",
+      "english": "Raw Desh",
+      "translation": "데시 원석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.raw_ostrum",
+      "english": "Raw Ostrum",
+      "translation": "오스트럼 원석",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.rocket_fin",
+      "english": "Rocket Fin",
+      "translation": "로켓 날개",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.rocket_nose_cone",
+      "english": "Rocket Nose Cone",
+      "translation": "로켓 노즈콘",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.space_boots",
+      "english": "Space Boots",
+      "translation": "우주복 부츠",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.space_helmet",
+      "english": "Space Helmet",
+      "translation": "우주복 헬멧",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.space_painting",
+      "english": "Space Painting",
+      "translation": "우주 그림",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.space_pants",
+      "english": "Space Pants",
+      "translation": "우주복 하의",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.space_suit",
+      "english": "Space Suit",
+      "translation": "우주복 상의",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.star_crawler_spawn_egg",
+      "english": "Star Crawler Spawn Egg",
+      "translation": "스타 크롤러 생성 알",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.steel_engine",
+      "english": "Steel Engine",
+      "translation": "강철 엔진",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.steel_ingot",
+      "english": "Steel Ingot",
+      "translation": "강철 주괴",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.steel_nugget",
+      "english": "Steel Nugget",
+      "translation": "강철 조각",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.steel_plate",
+      "english": "Steel Plate",
+      "translation": "강철 판",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.steel_rod",
+      "english": "Steel Rod",
+      "translation": "강철 막대기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.steel_tank",
+      "english": "Steel Tank",
+      "translation": "강철 탱크",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.sulfur_creeper_spawn_egg",
+      "english": "Sulfur Creeper Spawn Egg",
+      "translation": "유황 크리퍼 생성 알",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.ti_69",
+      "english": "TI-69",
+      "translation": "TI-69",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "item.ad_astra.tier_1_rocket",
+      "english": "Tier 1 Rocket",
+      "translation": "1티어 로켓",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra.tier_1_rover",
+      "english": "Tier 1 Rover",
+      "translation": "1티어 로버",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra.tier_2_rocket",
+      "english": "Tier 2 Rocket",
+      "translation": "2티어 로켓",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra.tier_3_rocket",
+      "english": "Tier 3 Rocket",
+      "translation": "3티어 로켓",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra.tier_4_rocket",
+      "english": "Tier 4 Rocket",
+      "translation": "4티어 로켓",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra.wheel",
+      "english": "Wheel",
+      "translation": "바퀴",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.wrench",
+      "english": "Wrench",
+      "translation": "렌치",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra.zip_gun",
+      "english": "Zip Gun",
+      "translation": "집 건",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "item.ad_astra.zombified_mogler_spawn_egg",
+      "english": "Zombified Mogler Spawn Egg",
+      "translation": "좀비화된 모글러 생성 알",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra.zombified_pygro_spawn_egg",
+      "english": "Zombified Pygro Spawn Egg",
+      "translation": "좀비화된 파이그로 생성 알",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "itemGroup.ad_astra.main",
+      "english": "Ad Astra",
+      "translation": "Ad Astra",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "key.ad_astra.open_radio",
+      "english": "Open radio",
+      "translation": "라디오 열기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "key.ad_astra.toggle_suit_flight",
+      "english": "Toggle Suit Flight",
+      "translation": "슈트 비행 전환",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "key.categories.adastra",
+      "english": "Ad Astra",
+      "translation": "Ad Astra",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "message.ad_astra.flag.not_owner",
+      "english": "You do not own this flag!",
+      "translation": "이 깃발의 소유자가 아니에요!",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "message.ad_astra.hold_to_dismount",
+      "english": "Hold SHIFT for %.1f seconds to dismount",
+      "translation": "내리려면 SHIFT를 %.1f초 동안 누르세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "message.ad_astra.invalid_launching_dimension",
+      "english": "You cannot launch from this dimension!",
+      "translation": "이 차원에서는 발사할 수 없어요!",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "message.ad_astra.lander.onboard",
+      "english": "Hold %1$s to Apply Boosters",
+      "translation": "추진기를 작동하려면 %1$s 키를 누르고 계세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "message.ad_astra.not_enough_fuel",
+      "english": "Not enough fuel!",
+      "translation": "연료가 부족해요!",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "message.ad_astra.suit_flight_disabled",
+      "english": "Suit flight disabled",
+      "translation": "슈트 비행 꺼짐",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "message.ad_astra.suit_flight_enabled",
+      "english": "Suit flight enabled",
+      "translation": "슈트 비행 켜짐",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.alpha_centauri.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.alpha_centauri.title",
+      "english": "Alpha Centauri",
+      "translation": "알파 센타우리",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.earth.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.earth.title",
+      "english": "Earth",
+      "translation": "지구",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.glacio.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.glacio.title",
+      "english": "Glacio",
+      "translation": "글라시오",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.jupiter.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.jupiter.title",
+      "english": "Jupiter",
+      "translation": "목성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.mars.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.mars.title",
+      "english": "Mars",
+      "translation": "화성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.mercury.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.mercury.title",
+      "english": "Mercury",
+      "translation": "수성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.moon.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.moon.title",
+      "english": "Moon",
+      "translation": "달",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.neptune.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.neptune.title",
+      "english": "Neptune",
+      "translation": "해왕성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.pluto.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.pluto.title",
+      "english": "Pluto",
+      "translation": "명왕성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.saturn.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.saturn.title",
+      "english": "Saturn",
+      "translation": "토성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.sun.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.sun.title",
+      "english": "Sun",
+      "translation": "태양",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.the_milky_way.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.the_milky_way.title",
+      "english": "The Milky Way",
+      "translation": "은하수",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.uranus.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.uranus.title",
+      "english": "Uranus",
+      "translation": "천왕성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "painting.ad_astra.venus.author",
+      "english": "Facu",
+      "translation": "Facu",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "painting.ad_astra.venus.title",
+      "english": "Venus",
+      "translation": "금성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.earth_orbit",
+      "english": "Earth Orbit",
+      "translation": "지구 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.glacio",
+      "english": "Glacio",
+      "translation": "글라시오",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.glacio_orbit",
+      "english": "Glacio Orbit",
+      "translation": "글라시오 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.mars",
+      "english": "Mars",
+      "translation": "화성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.mars_orbit",
+      "english": "Mars Orbit",
+      "translation": "화성 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.mercury",
+      "english": "Mercury",
+      "translation": "수성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.mercury_orbit",
+      "english": "Mercury Orbit",
+      "translation": "수성 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.moon",
+      "english": "Moon",
+      "translation": "달",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.moon_orbit",
+      "english": "Moon Orbit",
+      "translation": "달 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.venus",
+      "english": "Venus",
+      "translation": "금성",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.ad_astra.venus_orbit",
+      "english": "Venus Orbit",
+      "translation": "금성 궤도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "planet.minecraft.overworld",
+      "english": "Earth",
+      "translation": "지구",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.energy",
+      "english": "Energy",
+      "translation": "에너지",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.extraction_slots",
+      "english": "Extraction slots",
+      "translation": "추출 슬롯",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.fluid",
+      "english": "Fluid",
+      "translation": "유체",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.input_fluid",
+      "english": "Input fluid",
+      "translation": "입력 유체",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.input_slots",
+      "english": "Input slots",
+      "translation": "입력 슬롯",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.output_fluid",
+      "english": "Output fluid",
+      "translation": "출력 유체",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.output_slots",
+      "english": "Output slots",
+      "translation": "출력 슬롯",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.slots",
+      "english": "Slots",
+      "translation": "슬롯",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.title",
+      "english": "Side Config [%s]",
+      "translation": "측면 설정 [%s]",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.type.action",
+      "english": "Action: %s",
+      "translation": "동작: %s",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.type.direction",
+      "english": "Direction: %s (%s)",
+      "translation": "방향: %s (%s)",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.type.energy",
+      "english": "Energy",
+      "translation": "에너지",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.type.fluid",
+      "english": "Fluid",
+      "translation": "유체",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.type.none",
+      "english": "None",
+      "translation": "없음",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.type.pull",
+      "english": "Pull",
+      "translation": "끌어오기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.type.push",
+      "english": "Push",
+      "translation": "밀어내기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.type.push_pull",
+      "english": "Push/Pull",
+      "translation": "밀어내기/끌어오기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.type.slot",
+      "english": "Slot",
+      "translation": "슬롯",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "side_config.ad_astra.type.type",
+      "english": "Type: %s",
+      "translation": "유형: %s",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "solar_system.ad_astra.proxima_centauri",
+      "english": "Proxima Centauri",
+      "translation": "프록시마 센타우리",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "solar_system.ad_astra.solar_system",
+      "english": "Solar System",
+      "translation": "태양계",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "subtitles.ad_astra.block.sliding_door_close",
+      "english": "Sliding door closes",
+      "translation": "미닫이 문이 닫힘",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "subtitles.ad_astra.block.sliding_door_open",
+      "english": "Sliding door opens",
+      "translation": "미닫이 문이 열림",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "subtitles.ad_astra.block.wrench",
+      "english": "Wrench ratchets",
+      "translation": "렌치가 딸깍거림",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "subtitles.ad_astra.entity.gravity_normalizer_idle",
+      "english": "Gravity normalizer idle",
+      "translation": "중력 정규화기가 대기함",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "subtitles.ad_astra.entity.oxygen_intake",
+      "english": "Oxygen intake",
+      "translation": "산소가 들어감",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "subtitles.ad_astra.entity.oxygen_outtake",
+      "english": "Oxygen outtake",
+      "translation": "산소가 나옴",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "subtitles.ad_astra.entity.rocket",
+      "english": "Rocket flies",
+      "translation": "로켓이 비행함",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "subtitles.ad_astra.entity.rocket_launch",
+      "english": "Rocket launches",
+      "translation": "로켓이 발사됨",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.aeronos_caps",
+      "english": "Aeronos Caps",
+      "translation": "에어로노스 버섯 갓",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.cable_ducts",
+      "english": "Cable Ducts",
+      "translation": "케이블 덕트",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.calorite_blocks",
+      "english": "Calorite Blocks",
+      "translation": "칼로라이트 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.calorite_ingots",
+      "english": "Calorite Ingots",
+      "translation": "칼로라이트 주괴",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.calorite_nuggets",
+      "english": "Calorite Nuggets",
+      "translation": "칼로라이트 조각",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.calorite_plates",
+      "english": "Calorite Plates",
+      "translation": "칼로라이트 판",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.desh_blocks",
+      "english": "Desh Blocks",
+      "translation": "데시 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.desh_ingots",
+      "english": "Desh Ingots",
+      "translation": "데시 주괴",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.desh_nuggets",
+      "english": "Desh Nuggets",
+      "translation": "데시 조각",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.desh_plates",
+      "english": "Desh Plates",
+      "translation": "데시 판",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.destroyed_in_space",
+      "english": "Destroyed in Space",
+      "translation": "우주에서 파괴되는 아이템",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.flags",
+      "english": "Flags",
+      "translation": "깃발",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.fluid_pipe_ducts",
+      "english": "Fluid Pipe Ducts",
+      "translation": "유체 파이프 덕트",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.freeze_resistant_armor",
+      "english": "Freeze-Resistant Armor",
+      "translation": "추위에 견디는 갑옷",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.glacian_logs",
+      "english": "Glacian Logs",
+      "translation": "글라시안 원목",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.globes",
+      "english": "Globes",
+      "translation": "행성 모형",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.heat_resistant_armor",
+      "english": "Heat-Resistant Armor",
+      "translation": "열에 견디는 갑옷",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.held_over_head",
+      "english": "Held Over Head",
+      "translation": "머리 위로 드는 아이템",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.iron_plates",
+      "english": "Iron Plates",
+      "translation": "철 판",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.iron_rods",
+      "english": "Iron Rods",
+      "translation": "철 막대기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.jet_suits",
+      "english": "Jet Suits",
+      "translation": "제트 슈트",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.netherite_space_suits",
+      "english": "Netherite Space Suits",
+      "translation": "네더라이트 우주복",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.ostrum_blocks",
+      "english": "Ostrum Blocks",
+      "translation": "오스트럼 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.ostrum_ingots",
+      "english": "Ostrum Ingots",
+      "translation": "오스트럼 주괴",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.ostrum_nuggets",
+      "english": "Ostrum Nuggets",
+      "translation": "오스트럼 조각",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.ostrum_plates",
+      "english": "Ostrum Plates",
+      "translation": "오스트럼 판",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.oxygen_supplying_armor",
+      "english": "Oxygen-Supplying Armor",
+      "translation": "산소를 공급하는 갑옷",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.raw_calorite",
+      "english": "Raw Calorite",
+      "translation": "칼로라이트 원석",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.raw_calorite_blocks",
+      "english": "Raw Calorite Blocks",
+      "translation": "칼로라이트 원석 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.raw_desh",
+      "english": "Raw Desh",
+      "translation": "데시 원석",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.raw_desh_blocks",
+      "english": "Raw Desh Blocks",
+      "translation": "데시 원석 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.raw_ostrum",
+      "english": "Raw Ostrum",
+      "translation": "오스트럼 원석",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.raw_ostrum_blocks",
+      "english": "Raw Ostrum Blocks",
+      "translation": "오스트럼 원석 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.sliding_doors",
+      "english": "Sliding Doors",
+      "translation": "미닫이 문",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.space_resistant_armor",
+      "english": "Space-Resistant Armor",
+      "translation": "우주 환경에 견디는 갑옷",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.space_suits",
+      "english": "Space Suits",
+      "translation": "우주복",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.steel_blocks",
+      "english": "Steel Blocks",
+      "translation": "강철 블록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.steel_ingots",
+      "english": "Steel Ingots",
+      "translation": "강철 주괴",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.steel_nuggets",
+      "english": "Steel Nuggets",
+      "translation": "강철 조각",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.steel_plates",
+      "english": "Steel Plates",
+      "translation": "강철 판",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.steel_rods",
+      "english": "Steel Rods",
+      "translation": "강철 막대기",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tag.item.ad_astra.strophar_caps",
+      "english": "Strophar Caps",
+      "translation": "스트로파 버섯 갓",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.detector.gravity_mode",
+      "english": "Set to normal gravity detection mode",
+      "translation": "일반 중력 감지 모드로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.detector.inverted_false",
+      "english": "Set to normal",
+      "translation": "정상 출력으로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.detector.inverted_true",
+      "english": "Set to inverted",
+      "translation": "반전 출력으로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.detector.oxygen_mode",
+      "english": "Set to oxygen detection mode",
+      "translation": "산소 감지 모드로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.detector.temperature_mode",
+      "english": "Set to safe temperature detection Mode",
+      "translation": "안전 온도 감지 모드로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.gravity",
+      "english": "%sm/s²",
+      "translation": "%sm/s²",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "text.ad_astra.oxygen_false",
+      "english": "✘",
+      "translation": "✘",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "text.ad_astra.oxygen_true",
+      "english": "✔",
+      "translation": "✔",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "text.ad_astra.radio.none",
+      "english": "No station",
+      "translation": "방송국 없음",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.space_station.already_exists",
+      "english": "A space station already exists at this location!",
+      "translation": "이 위치에는 이미 우주 정거장이 있어요!",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.temperature",
+      "english": "%s°C",
+      "translation": "%s°C",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "text.ad_astra.text.catalog",
+      "english": "Catalog",
+      "translation": "목록",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.text.confirm",
+      "english": "Confirm",
+      "translation": "확인",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.text.construct_space_station",
+      "english": "Construct",
+      "translation": "건설",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.text.flag_url",
+      "english": "Flag Url (https://i.imgur.com/urURL.png)",
+      "translation": "깃발 URL (https://i.imgur.com/urURL.png)",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.text.land",
+      "english": "Land",
+      "translation": "착륙",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.text.space_station",
+      "english": "Space Stations",
+      "translation": "우주 정거장",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.text.space_station_name",
+      "english": "Space Station %s",
+      "translation": "우주 정거장 %s",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.weather.temperature",
+      "english": "Now: %s°C",
+      "translation": "현재: %s°C",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "text.ad_astra.weather.temperature.in",
+      "english": "In: %s",
+      "translation": "위치: %s",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.active",
+      "english": "Active",
+      "translation": "작동 중",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.blocks_distributed",
+      "english": "%s/%s",
+      "translation": "%s/%s",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "tooltip.ad_astra.capacitor.disabled",
+      "english": "Capacitor disabled",
+      "translation": "축전기 꺼짐",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.capacitor.enabled",
+      "english": "Capacitor enabled",
+      "translation": "축전기 켜짐",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.change_mode.round_robin",
+      "english": "Set capacitor mode to \"Round Robin\"",
+      "translation": "축전기 모드를 \"순환 분배\"로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.change_mode.sequential",
+      "english": "Set capacitor mode to \"Sequential\"",
+      "translation": "축전기 모드를 \"순차 분배\"로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.clear_fluid_tank",
+      "english": "Shift-right-click to clear",
+      "translation": "비우려면 Shift+우클릭하세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.construct_space_station_at",
+      "english": "Construct space station in %s at [%s, %s]",
+      "translation": "%s의 [%s, %s]에 우주 정거장 건설",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.construction_cost",
+      "english": "Construction Cost:",
+      "translation": "건설 비용:",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.distribution_mode.round_robin",
+      "english": "Round Robin",
+      "translation": "순환 분배",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.distribution_mode.sequential",
+      "english": "Sequential",
+      "translation": "순차 분배",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.door.locked",
+      "english": "Locked Door",
+      "translation": "잠긴 문",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.door.unlocked",
+      "english": "Unlocked Door",
+      "translation": "잠금이 해제된 문",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.energy",
+      "english": "%s ⚡ / %s ⚡",
+      "translation": "%s ⚡ / %s ⚡",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "tooltip.ad_astra.energy_generation_per_tick",
+      "english": "Generates %s ⚡ per tick",
+      "translation": "틱당 %s ⚡ 생산",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.energy_in",
+      "english": "In: %s ⚡/t",
+      "translation": "입력: %s ⚡/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.energy_out",
+      "english": "Out: %s ⚡/t",
+      "translation": "출력: %s ⚡/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.energy_per_tick",
+      "english": "%s ⚡/t",
+      "translation": "%s ⚡/t",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "tooltip.ad_astra.energy_transfer_tick",
+      "english": "Transfer: %s ⚡/t",
+      "translation": "전송: %s ⚡/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.energy_use_per_tick",
+      "english": "Uses %s ⚡ per tick",
+      "translation": "틱당 %s ⚡ 사용",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.eta",
+      "english": "ETA: %s seconds",
+      "translation": "예상 소요 시간: %s초",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.etrionic_blast_furnace.furnace_mode",
+      "english": "Mode",
+      "translation": "모드",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.etrionic_blast_furnace.mode",
+      "english": "Mode: %s",
+      "translation": "모드: %s",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.etrionic_blast_furnace.mode.alloying",
+      "english": "Alloying",
+      "translation": "합금",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.etrionic_blast_furnace.mode.blasting",
+      "english": "Blasting",
+      "translation": "제련",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.fluid",
+      "english": "%s 🪣 / %s 🪣 %s",
+      "translation": "%s 🪣 / %s 🪣 %s",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "tooltip.ad_astra.fluid_generation_per_iteration",
+      "english": "Generates %s 🪣 per iteration",
+      "translation": "작업 회당 %s 🪣 생산",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.fluid_in",
+      "english": "In: %s 🪣/t",
+      "translation": "입력: %s 🪣/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.fluid_out",
+      "english": "Out: %s 🪣/t",
+      "translation": "출력: %s 🪣/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.fluid_per_tick",
+      "english": "%s 🪣/t",
+      "translation": "%s 🪣/t",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "tooltip.ad_astra.fluid_transfer_tick",
+      "english": "Transfer: %s 🪣/t",
+      "translation": "전송: %s 🪣/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.fluid_use_per_iteration",
+      "english": "Uses %s 🪣 per iteration",
+      "translation": "작업 회당 %s 🪣 사용",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.gravity_amount",
+      "english": "%.1f/%.1f m/s²",
+      "translation": "%.1f/%.1f m/s²",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "tooltip.ad_astra.gravity_distribution_area",
+      "english": "Show where the gravity is being distributed",
+      "translation": "중력이 적용되는 영역 표시",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.inactive",
+      "english": "Inactive",
+      "translation": "작동 안 함",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.land",
+      "english": "Land on %s at [%s, %s]",
+      "translation": "%s의 [%s, %s]에 착륙",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.max_energy_in",
+      "english": "Max In: %s ⚡/t",
+      "translation": "최대 입력: %s ⚡/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.max_energy_out",
+      "english": "Max Out: %s ⚡/t",
+      "translation": "최대 출력: %s ⚡/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.max_fluid_in",
+      "english": "Max In: %s 🪣/t",
+      "translation": "최대 입력: %s 🪣/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.max_fluid_out",
+      "english": "Max Out: %s 🪣/t",
+      "translation": "최대 출력: %s 🪣/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.max_generation",
+      "english": "Max: %s ⚡/t",
+      "translation": "최대: %s ⚡/t",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.next",
+      "english": "Next",
+      "translation": "다음",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.oxygen_distribution_area",
+      "english": "Show where the oxygen is being distributed",
+      "translation": "산소가 분배되는 영역 표시",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.pipe.extract",
+      "english": "Set pipe to Extract",
+      "translation": "파이프를 추출 모드로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.pipe.insert",
+      "english": "Set pipe to Insert",
+      "translation": "파이프를 삽입 모드로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.pipe.none",
+      "english": "Set pipe to None",
+      "translation": "파이프를 연결 없음으로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.pipe.normal",
+      "english": "Set pipe to Normal",
+      "translation": "파이프를 일반 모드로 설정했어요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.previous",
+      "english": "Previous",
+      "translation": "이전",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.progress",
+      "english": "%s / %s",
+      "translation": "%s / %s",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "tooltip.ad_astra.redstone_control",
+      "english": "Redstone Control",
+      "translation": "레드스톤 제어",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.redstone_control.always_on",
+      "english": "Always on",
+      "translation": "항상 켜짐",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.redstone_control.mode",
+      "english": "Mode: %s",
+      "translation": "모드: %s",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.redstone_control.never_on",
+      "english": "Never on",
+      "translation": "항상 꺼짐",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.redstone_control.on_when_not_powered",
+      "english": "On when not powered",
+      "translation": "신호가 없을 때 켜짐",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.redstone_control.on_when_powered",
+      "english": "On when powered",
+      "translation": "신호가 있을 때 켜짐",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.requirement",
+      "english": "%s/%s %s",
+      "translation": "%s/%s %s",
+      "reviewed": true,
+      "origin": "source_retained"
+    },
+    {
+      "key": "tooltip.ad_astra.reset_to_default",
+      "english": "Reset to default",
+      "translation": "기본값으로 초기화",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.shift_description",
+      "english": "Hold SHIFT for more information",
+      "translation": "자세한 정보를 보려면 SHIFT를 누르세요",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.side_config",
+      "english": "Side Config",
+      "translation": "측면 설정",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.space_station_land",
+      "english": "Land on space station in %s at [%s, %s]",
+      "translation": "%s의 [%s, %s]에 있는 우주 정거장에 착륙",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.space_station_owner",
+      "english": "Owner: %s",
+      "translation": "소유자: %s",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "tooltip.ad_astra.ticks_per_iteration",
+      "english": "Takes %s ticks per iteration",
+      "translation": "작업마다 %s틱 소요",
+      "reviewed": true,
+      "origin": "new"
+    }
+  ]
+}

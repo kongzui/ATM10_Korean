@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "mod": "ad_astra",
+  "jar": "adastra-1.21.1-1.16.19-neoforge.jar",
+  "jar_sha256": "719f8135f8cede16e6e3f556b3f649c2ff6d81cb2cc6f7190ad06c08eec87d7d",
+  "english_keys": 831,
+  "jar_korean_keys": 689,
+  "current_korean_candidates": 414
+}

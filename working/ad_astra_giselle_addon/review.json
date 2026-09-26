@@ -1,0 +1,1182 @@
+{
+  "schema_version": 1,
+  "mod": "ad_astra_giselle_addon",
+  "entries": [
+    {
+      "key": "block.ad_astra_giselle_addon.fuel_loader",
+      "english": "Fuel Loader",
+      "translation": "연료 적재기",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra_giselle_addon.automation_nasa_workbench",
+      "english": "Automation NASA Workbench",
+      "translation": "자동화 NASA 제작대",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "block.ad_astra_giselle_addon.gravity_normalizer",
+      "english": "Gravity Normalizer(Deprecated)",
+      "translation": "중력 정규화기(사용 중단 예정)",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "block.ad_astra_giselle_addon.rocket_sensor",
+      "english": "Rocket Sensor",
+      "translation": "로켓 센서",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.oxygen_can",
+      "english": "Oxygen Can",
+      "translation": "산소 캔",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.netherite_oxygen_can",
+      "english": "Netherite Oxygen Can",
+      "translation": "네더라이트 산소 캔",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.creative_oxygen_can",
+      "english": "Creative Oxygen Can",
+      "translation": "크리에이티브 산소 캔",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.fuel_loader.tooltip",
+      "english": "Give fuel to near Rover or Rocket",
+      "translation": "주변 로버나 로켓에 연료를 채워요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.gravity_normalizer.tooltip",
+      "english": "Normalize living's gravity within range",
+      "translation": "범위 내 생명체의 중력을 정규화해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.rocket_sensor.tooltip",
+      "english": "Output near Rocket's state as redstone signal through Comparator",
+      "translation": "비교기를 통해 주변 로켓의 상태를 레드스톤 신호로 출력해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.lander_icon",
+      "english": "Lander",
+      "translation": "착륙선",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "container.ad_astra_giselle_addon.fuel_loader",
+      "english": "Fuel Loader",
+      "translation": "연료 적재기",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "container.ad_astra_giselle_addon.automation_nasa_workbench",
+      "english": "Automation NASA Workbench",
+      "translation": "자동화 NASA 제작대",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "container.ad_astra_giselle_addon.gravity_normalizer",
+      "english": "Gravity Normalizer",
+      "translation": "중력 정규화기",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "enchantment.ad_astra_giselle_addon.space_breathing",
+      "english": "Space Breathing",
+      "translation": "우주 호흡",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "enchantment.ad_astra_giselle_addon.space_breathing.desc",
+      "english": "Can breath in Ad Astra dimensions\nRequire 'Oxygen Can' in inventory",
+      "translation": "Ad Astra 차원에서 호흡할 수 있어요\n인벤토리에 '산소 캔'이 필요해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "enchantment.ad_astra_giselle_addon.space_fire_proof",
+      "english": "Space Fire Proof",
+      "translation": "우주 내화성",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "enchantment.ad_astra_giselle_addon.space_fire_proof.desc",
+      "english": "Don't set fire to player in Ad Astra dimensions\nUses energy or durability",
+      "translation": "Ad Astra 차원에서 플레이어에게 불이 붙지 않아요\n에너지나 내구도를 소모해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "enchantment.ad_astra_giselle_addon.acid_rain_proof",
+      "english": "Acid Rain Proof",
+      "translation": "산성비 보호",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "enchantment.ad_astra_giselle_addon.acid_rain_proof.desc",
+      "english": "Don't damage from acid rain in Ad Astra dimensions\nUses energy or durability",
+      "translation": "Ad Astra 차원에서 산성비로 인한 피해를 입지 않아요\n에너지나 내구도를 소모해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "enchantment.ad_astra_giselle_addon.gravity_normalizing",
+      "english": "Gravity Normalizing",
+      "translation": "중력 정규화",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "enchantment.ad_astra_giselle_addon.gravity_normalizing.desc",
+      "english": "Normalize gravity like overworld in Ad Astra dimensions\nUses energy or durability",
+      "translation": "Ad Astra 차원에서 중력을 오버월드처럼 정규화해요\n에너지나 내구도를 소모해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.workingarea",
+      "english": "Working Area",
+      "translation": "동작 범위",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.gravity_normalizer.vector_element_tooltip",
+      "english": "Click: %1$s\nShift+Click: %2$s",
+      "translation": "클릭: %1$s\nShift+클릭: %2$s",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.gravity_normalizer.length.x",
+      "english": "X Length: %s",
+      "translation": "X 길이: %s",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.gravity_normalizer.length.y",
+      "english": "Y Length: %s",
+      "translation": "Y 길이: %s",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.gravity_normalizer.length.z",
+      "english": "Z Length: %s",
+      "translation": "Z 길이: %s",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.gravity_normalizer.offset.x",
+      "english": "X Offset: %s",
+      "translation": "X 오프셋: %s",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.gravity_normalizer.offset.y",
+      "english": "Y Offset: %s",
+      "translation": "Y 오프셋: %s",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.gravity_normalizer.offset.z",
+      "english": "Z Offset: %s",
+      "translation": "Z 오프셋: %s",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.gravity_normalizer.move_to_pos",
+      "english": "Move to BottomCenter",
+      "translation": "하단 중앙으로 이동",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.gravity_normalizer.energy_using",
+      "english": "%1$s ⚡ / %2$stick",
+      "translation": "%1$s ⚡ / %2$s틱",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.rocket_sensor.inverted",
+      "english": "Invert Output",
+      "translation": "출력 반전",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "gui.ad_astra_giselle_addon.rocket_sensor.current",
+      "english": "Current Output: %s",
+      "translation": "현재 출력: %s",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "description.ad_astra_giselle_addon.can_use.cold",
+      "english": "On Cold Dimension",
+      "translation": "차가운 차원에서",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "description.ad_astra_giselle_addon.can_use.hot",
+      "english": "On Hot Dimension",
+      "translation": "뜨거운 차원에서",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "can_use.ad_astra_giselle_addon.available",
+      "english": "Available",
+      "translation": "사용 가능",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "can_use.ad_astra_giselle_addon.unavailable",
+      "english": "Unavailable",
+      "translation": "사용 불가",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "description.ad_astra_giselle_addon.charge_mode",
+      "english": "Charge Mode",
+      "translation": "충전 모드",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "chargemode.ad_astra_giselle_addon.none",
+      "english": "Disabled",
+      "translation": "비활성화",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "chargemode.ad_astra_giselle_addon.armors",
+      "english": "Enabled: All Armor",
+      "translation": "활성화: 모든 갑옷",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "chargemode.ad_astra_giselle_addon.all",
+      "english": "Enabled: All Inventory",
+      "translation": "활성화: 인벤토리 전체",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "description.ad_astra_giselle_addon.creative_oxygen",
+      "english": "Oxygen",
+      "translation": "산소",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "creative_oxygen.ad_astra_giselle_addon.empty",
+      "english": "Empty",
+      "translation": "비어 있음",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "creative_oxygen.ad_astra_giselle_addon.infinity",
+      "english": "Infinity",
+      "translation": "무한",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.disabled",
+      "english": "Disabled",
+      "translation": "비활성화",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.disabled.desc",
+      "english": "Always output %1$s",
+      "translation": "항상 %1$s 출력",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.found",
+      "english": "Rocket Found",
+      "translation": "로켓 찾음",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.found.desc",
+      "english": "Output %2$s if rocket found",
+      "translation": "로켓을 찾으면 %2$s 출력",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.flying_up",
+      "english": "Flying Up",
+      "translation": "날아오르는 중",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.flying_up.desc",
+      "english": "Output %2$s if rocket flying up",
+      "translation": "로켓이 날아오르는 중이면 %2$s 출력",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.fuel_loaded",
+      "english": "Fuel Loaded",
+      "translation": "연료 적재됨",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.fuel_loaded.desc",
+      "english": "Output %2$s if rocket fuel loaded",
+      "translation": "로켓에 연료가 적재되어 있으면 %2$s 출력",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.launch_countdown",
+      "english": "Launch Countdown",
+      "translation": "발사 카운트다운",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.launch_countdown.desc1",
+      "english": "Output analog about launch countdown",
+      "translation": "발사 카운트다운을 아날로그로 출력",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.launch_countdown.desc2",
+      "english": "Output 0 at first, increases as countdown lower",
+      "translation": "처음에는 0을 출력하며, 카운트다운이 줄어들수록 출력 증가",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.lander_found",
+      "english": "Lander Found",
+      "translation": "착륙선 찾음",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "rocket_sensing_type.ad_astra_giselle_addon.lander_found.desc",
+      "english": "Output %2$s if lander found",
+      "translation": "착륙선을 찾으면 %2$s 출력",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "jei.category.ad_astra_giselle_addon.fuel_loader",
+      "english": "Fuel Loader",
+      "translation": "연료 적재기",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "jei.info.ad_astra_giselle_addon.fuel_loader",
+      "english": "Can receive '%2$s' tagged fluid.\nThen give fuel to Rover or Rocket within %1$s blocks.",
+      "translation": "'%2$s' 태그가 있는 유체를 받을 수 있어요.\n%1$s블록 이내의 로버나 로켓에 연료를 채워요.",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "jei.info.ad_astra_giselle_addon.gravity_normalizer",
+      "english": "Normalize living's gravity like to overworld in working area.\nMaximum length is %1$s.",
+      "translation": "동작 범위 내 생명체의 중력을 오버월드처럼 정규화해요.\n최대 길이는 %1$s예요.",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "jei.info.ad_astra_giselle_addon.rocket_sensor",
+      "english": "Find Rocket within %1$s blocks.\nThen output that Rocket's state as redstone signal through Comparator.\nSignal type can be changed in the GUI.",
+      "translation": "%1$s블록 이내의 로켓을 찾아요.\n비교기를 통해 해당 로켓의 상태를 레드스톤 신호로 출력해요.\n화면에서 신호 유형을 바꿀 수 있어요.",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "module.ad_astra_giselle_addon.space_breathing_unit",
+      "english": "Space Breathing Unit",
+      "translation": "우주 호흡 장치",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "description.ad_astra_giselle_addon.space_breathing_unit",
+      "english": "Can breath in Ad Astra dimensions\nWill also fill held item with oxygen when in rain, water\nRequire 'Oxygen Can' in inventory",
+      "translation": "Ad Astra 차원에서 호흡할 수 있어요\n비를 맞거나 물속에 있으면 들고 있는 아이템에도 산소를 채워요\n인벤토리에 '산소 캔'이 필요해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "module.ad_astra_giselle_addon.space_fire_proof_unit",
+      "english": "Space Fire Proof Unit",
+      "translation": "우주 내화성 장치",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "description.ad_astra_giselle_addon.space_fire_proof_unit",
+      "english": "Don't set fire to player in Ad Astra dimensions",
+      "translation": "Ad Astra 차원에서 플레이어에게 불이 붙지 않아요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "module.ad_astra_giselle_addon.acid_rain_proof_unit",
+      "english": "Acid Rain Proof Unit",
+      "translation": "산성비 보호 장치",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "description.ad_astra_giselle_addon.acid_rain_proof_unit",
+      "english": "Don't damage from acid rain in Ad Astra dimensions",
+      "translation": "Ad Astra 차원에서 산성비로 인한 피해를 입지 않아요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "module.ad_astra_giselle_addon.gravity_normalizing_unit",
+      "english": "Gravity Normalizing Unit",
+      "translation": "중력 정규화 장치",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "description.ad_astra_giselle_addon.gravity_normalizing_unit",
+      "english": "Normalize gravity like overworld in Ad Astra dimensions",
+      "translation": "Ad Astra 차원에서 중력을 오버월드처럼 정규화해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.pneumatic_space_breathing_upgrade",
+      "english": "Space Breathing Upgrade",
+      "translation": "우주 호흡 업그레이드",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.pneumatic_space_fire_proof_upgrade",
+      "english": "Space Fire Proof Upgrade",
+      "translation": "우주 내화성 업그레이드",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.pneumatic_acid_rain_proof_upgrade",
+      "english": "Acid Rain Proof Upgrade",
+      "translation": "산성비 보호 업그레이드",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "item.ad_astra_giselle_addon.pneumatic_gravity_normalizing_upgrade",
+      "english": "Gravity Normalizing Upgrade",
+      "translation": "중력 정규화 업그레이드",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_breathing",
+      "english": "Space Breathing",
+      "translation": "우주 호흡",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_fire_proof",
+      "english": "Space Fire Proof",
+      "translation": "우주 내화성",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.acid_rain_proof",
+      "english": "Acid Rain Proof",
+      "translation": "산성비 보호",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.gravity_normalizing",
+      "english": "Gravity Normalizing",
+      "translation": "중력 정규화",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.space_breathingUpgrade",
+      "english": "Can breath in Ad Astra dimensions\nRequire 'Oxygen Can' in inventory",
+      "translation": "Ad Astra 차원에서 호흡할 수 있어요\n인벤토리에 '산소 캔'이 필요해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.space_fire_proofUpgrade",
+      "english": "Don't set fire to player in Ad Astra dimensions",
+      "translation": "Ad Astra 차원에서 플레이어에게 불이 붙지 않아요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.acid_rain_proofUpgrade",
+      "english": "Don't damage from acid rain in Ad Astra dimensions",
+      "translation": "Ad Astra 차원에서 산성비로 인한 피해를 입지 않아요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.gravity_normalizingUpgrade",
+      "english": "Normalize gravity like overworld in Ad Astra dimensions",
+      "translation": "Ad Astra 차원에서 중력을 오버월드처럼 정규화해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.space_breathing",
+      "english": "Space Breathing",
+      "translation": "우주 호흡",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.space_breathing.flavor",
+      "english": "Space Breathing",
+      "translation": "우주 호흡",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.space_breathing.description",
+      "english": "Can breath in Ad Astra dimensions\nRequire 'Oxygen Can' in inventory",
+      "translation": "Ad Astra 차원에서 호흡할 수 있어요\n인벤토리에 '산소 캔'이 필요해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.space_fire_proof",
+      "english": "Space Fire Proof",
+      "translation": "우주 내화성",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.space_fire_proof.flavor",
+      "english": "Space Fire Proof",
+      "translation": "우주 내화성",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.space_fire_proof.description",
+      "english": "Don't set fire to player in Ad Astra dimensions",
+      "translation": "Ad Astra 차원에서 플레이어에게 불이 붙지 않아요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.acid_rain_proof",
+      "english": "Acid Rain Proof",
+      "translation": "산성비 보호",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.acid_rain_proof.flavor",
+      "english": "Acid Rain Proof",
+      "translation": "산성비 보호",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.acid_rain_proof.description",
+      "english": "Don't damage from acid rain in Ad Astra dimensions",
+      "translation": "Ad Astra 차원에서 산성비로 인한 피해를 입지 않아요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.gravity_normalizing",
+      "english": "Gravity Normalizing",
+      "translation": "중력 정규화",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.gravity_normalizing.flavor",
+      "english": "Gravity Normalizing",
+      "translation": "중력 정규화",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "modifier.ad_astra_giselle_addon.gravity_normalizing.description",
+      "english": "Normalize gravity like overworld in Ad Astra dimensions",
+      "translation": "Ad Astra 차원에서 중력을 오버월드처럼 정규화해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "trinkets.slot.oxygen_can.oxygen_can",
+      "english": "Oxygen Can",
+      "translation": "산소 캔",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.items",
+      "english": "Items",
+      "translation": "아이템",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.items.oxygen_chargers",
+      "english": "Oxygen Cans(Common)",
+      "translation": "산소 캔(공용)",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.items.oxygen_chargers_distribution_interval",
+      "english": "Distribution Interval [ticks]",
+      "translation": "충전 주기 [틱]",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.items.oxygen_can",
+      "english": "Oxygen Can",
+      "translation": "산소 캔",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.items.oxygen_can_fluid_capacity",
+      "english": "Fluid Capacity",
+      "translation": "유체 용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.items.oxygen_can_fluid_transfer",
+      "english": "Fluid Transfer",
+      "translation": "유체 전송량",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.items.netherite_oxygen_can",
+      "english": "Netherite Oxygen Can",
+      "translation": "네더라이트 산소 캔",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.items.netherite_oxygen_can_fluid_capacity",
+      "english": "Fluid Capacity",
+      "translation": "유체 용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.items.netherite_oxygen_can_fluid_transfer",
+      "english": "Fluid Transfer",
+      "translation": "유체 전송량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines",
+      "english": "Machines",
+      "translation": "기계",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.fuel_loader",
+      "english": "Fuel Loader",
+      "translation": "연료 적재기",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.fuel_loader_fluid_capacity",
+      "english": "Fluid Capacity",
+      "translation": "유체 용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.fuel_loader_fluid_transfer",
+      "english": "Fluid Transfer Per Tick",
+      "translation": "틱당 유체 전송량",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.fuel_loader_working_range",
+      "english": "Working Range",
+      "translation": "동작 거리",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.fuel_loader_working_range.comment",
+      "english": "Blocks from Fuel Loader to each direction",
+      "translation": "연료 적재기에서 각 방향으로의 블록 수",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.automation_nasa_workbench",
+      "english": "Automation NASA Workbench",
+      "translation": "자동화 NASA 제작대",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.automation_nasa_workbench_energy_capacity",
+      "english": "Energy Capacity",
+      "translation": "에너지 용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.automation_nasa_workbench_energy_usage",
+      "english": "Energy Usage Per Ticks",
+      "translation": "틱당 에너지 사용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.automation_nasa_workbench_cook_time",
+      "english": "Processing Time [ticks]",
+      "translation": "가공 시간 [틱]",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.gravity_normalizer",
+      "english": "Gravity Normalizer",
+      "translation": "중력 정규화기",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.gravity_normalizer_energy_capacity",
+      "english": "Energy Capacity",
+      "translation": "에너지 용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.gravity_normalizer_energy_per_blocks",
+      "english": "Energy Per Blocks",
+      "translation": "블록당 에너지 사용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.gravity_normalizer_energy_per_blocks.comment",
+      "english": "Blocks = x * y * z",
+      "translation": "블록 수 = x * y * z",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.gravity_normalizer_max_length",
+      "english": "Max Length",
+      "translation": "최대 길이",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.gravity_normalizer_proof_duration",
+      "english": "Proof Duration [ticks]",
+      "translation": "정규화 유지 시간 [틱]",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.rocket_sensor",
+      "english": "Rocket Sensor",
+      "translation": "로켓 센서",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.rocket_sensor_working_range",
+      "english": "Working Range",
+      "translation": "동작 거리",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.machines.rocket_sensor_working_range.comment",
+      "english": "Blocks from Rocket Sensor to each direction",
+      "translation": "로켓 센서에서 각 방향으로의 블록 수",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments",
+      "english": "Enchantments",
+      "translation": "마법부여",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.tooltip_enabled",
+      "english": "Show Tooltip in Enchanted Book",
+      "translation": "마법이 부여된 책에 설명 표시",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.tooltip_enabled.comment",
+      "english": "Show tooltip on this mod's enchanted book",
+      "translation": "이 모드의 마법이 부여된 책에 툴팁을 표시해요",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.tooltip_ignore",
+      "english": "Ignore Other Tooltip Mods",
+      "translation": "다른 툴팁 모드 무시",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.tooltip_ignore.comment",
+      "english": "Tooltip will don't show when 'Enchantment Descriptions' or 'Enchantment Lore' or 'CoFH Core' installed.\nbut, if this set 'true' show tooltip with ignore that mods.",
+      "translation": "'Enchantment Descriptions', 'Enchantment Lore', 'CoFH Core' 중 하나가 설치되어 있으면 툴팁을 표시하지 않아요.\n이 값을 'true'로 설정하면 해당 모드를 무시하고 툴팁을 표시해요.",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.proof_energy_using",
+      "english": "Energy Usage",
+      "translation": "에너지 사용량",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.proof_energy_using.comment",
+      "english": "Energy usage for proof [in every 10 ticks]",
+      "translation": "보호에 사용하는 에너지량 [10틱마다]",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.proof_durability_using",
+      "english": "Durability Usage",
+      "translation": "내구도 사용량",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.proof_durability_using.comment",
+      "english": "Durability usage for proof",
+      "translation": "보호에 사용하는 내구도",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.proof_durability_duration",
+      "english": "Durability Proof Duration",
+      "translation": "내구도 소모 시 보호 지속 시간",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.proof_durability_duration.comment",
+      "english": "Proof duration on using durability [ticks, be multiple of 10]",
+      "translation": "내구도를 소모했을 때의 보호 지속 시간 [틱, 10의 배수]",
+      "reviewed": true,
+      "origin": "new"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.space_breathing",
+      "english": "Space Breathing",
+      "translation": "우주 호흡",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.space_fire_proof",
+      "english": "Space Fire Proof",
+      "translation": "우주 내화성",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.acid_rain_proof",
+      "english": "Acid Rain Proof",
+      "translation": "산성비 보호",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.enchantments.gravity_normalizing",
+      "english": "Gravity Normalizing",
+      "translation": "중력 정규화",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats",
+      "english": "Mod Compatibilities",
+      "translation": "모드 호환성",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism",
+      "english": "Mekanism",
+      "translation": "Mekanism",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules",
+      "english": "MekaSuit Modules",
+      "translation": "메카슈트 모듈",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_space_breathing",
+      "english": "Space Breathing Unit",
+      "translation": "우주 호흡 장치",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_space_breathing_energy_using_produce",
+      "english": "Energy Usage on Produce Oxygen",
+      "translation": "산소 생산 에너지 사용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_space_breathing_energy_using_produce.comment",
+      "english": "Energy usage per mb when produce Mekanism oxygen to player in water, rain",
+      "translation": "물속에 있거나 비를 맞는 플레이어에게 Mekanism 산소를 공급할 때 mb당 에너지 사용량",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_space_fire_proof",
+      "english": "Space Fire Proof Unit",
+      "translation": "우주 내화성 장치",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_space_fire_proof_energy_using",
+      "english": "Energy usage",
+      "translation": "에너지 사용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_space_fire_proof_energy_using.comment",
+      "english": "Energy usage for proof in every ticks [in every 10 ticks]",
+      "translation": "보호 작동 시 에너지 사용량 [10틱마다]",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_acid_rain_proof",
+      "english": "Acid Rain Proof Unit",
+      "translation": "산성비 보호 장치",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_acid_rain_proof_energy_using",
+      "english": "Energy usage",
+      "translation": "에너지 사용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_acid_rain_proof_energy_using.comment",
+      "english": "Energy usage for proof in every ticks [in every 10 ticks]",
+      "translation": "보호 작동 시 에너지 사용량 [10틱마다]",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_gravity_normalizing",
+      "english": "Gravity Normalizing Unit",
+      "translation": "중력 정규화 장치",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_gravity_normalizing_energy_using",
+      "english": "Energy usage",
+      "translation": "에너지 사용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.mekanism.modules_gravity_normalizing_energy_using.comment",
+      "english": "Energy usage for normalizing in every ticks [in every 10 ticks]",
+      "translation": "중력 정규화 시 에너지 사용량 [10틱마다]",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft",
+      "english": "PneumaticCraft",
+      "translation": "PneumaticCraft",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades",
+      "english": "Pneumatic Armor Upgrades",
+      "translation": "공압 갑옷 업그레이드",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_space_breathing",
+      "english": "Space Breathing Upgrade",
+      "translation": "우주 호흡 업그레이드",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_space_breathing_air_using",
+      "english": "Air Usage",
+      "translation": "공기 사용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_space_breathing_air_using.comment",
+      "english": "Air usage for provide oxygen [in every 30 ticks]",
+      "translation": "산소 공급 시 공기 사용량 [30틱마다]",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_space_fire_proof",
+      "english": "Space Fire Proof Upgrade",
+      "translation": "우주 내화성 업그레이드",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_space_fire_proof_air_using",
+      "english": "Air Usage",
+      "translation": "공기 사용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_space_fire_proof_air_using.comment",
+      "english": "Air usage for proof [in every 10 ticks]",
+      "translation": "보호 작동 시 공기 사용량 [10틱마다]",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_acid_rain_proof",
+      "english": "Acid Rain Proof Upgrade",
+      "translation": "산성비 보호 업그레이드",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_acid_rain_proof_air_using",
+      "english": "Air Usage",
+      "translation": "공기 사용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_acid_rain_proof_air_using.comment",
+      "english": "Air usage for proof [in every 10 ticks]",
+      "translation": "보호 작동 시 공기 사용량 [10틱마다]",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_gravity_normalizing",
+      "english": "Gravity Normalizing Upgrade",
+      "translation": "중력 정규화 업그레이드",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_gravity_normalizing_air_using",
+      "english": "Air Usage",
+      "translation": "공기 사용량",
+      "reviewed": true,
+      "origin": "jar_reused"
+    },
+    {
+      "key": "config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_gravity_normalizing_air_using.comment",
+      "english": "Air usage for proof [in every 10 ticks]",
+      "translation": "보호 작동 시 공기 사용량 [10틱마다]",
+      "reviewed": true,
+      "origin": "jar_corrected"
+    },
+    {
+      "key": "_eof",
+      "english": "eof",
+      "translation": "eof",
+      "reviewed": true,
+      "origin": "jar_reused"
+    }
+  ]
+}
