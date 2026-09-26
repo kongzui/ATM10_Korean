@@ -1,0 +1,12 @@
+{
+  "guide.logisticsnetworks.name": {
+    "english": "Logistics Networks Guide",
+    "translation": "Logistics Networks 가이드",
+    "reviewed": true
+  },
+  "guide.logisticsnetworks.description": {
+    "english": "In game documentation for Logistics Networks",
+    "translation": "Logistics Networks 게임 내 설명서",
+    "reviewed": true
+  }
+}

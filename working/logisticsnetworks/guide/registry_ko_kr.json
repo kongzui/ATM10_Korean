@@ -1,0 +1,17 @@
+{
+  "item_settings": {
+    "display_name": {
+      "translate": "guide.logisticsnetworks.name",
+      "fallback": "Logistics Networks Guide"
+    },
+    "tooltip_lines": [
+      {
+        "color": "gray",
+        "translate": "guide.logisticsnetworks.description",
+        "fallback": "In game documentation for Logistics Networks"
+      }
+    ]
+  },
+  "default_language": "en_us",
+  "initial_page": "index.md"
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "mod": "logisticsnetworks",
+  "entries": [
+    {
+      "path": "computer/index.md",
+      "source_sha256": "c2dfcd917b8d6816dbef08171dd42507fb3b23b82183205653d4ac0ca029091b",
+      "target_sha256": "8601987eef1e3769fe3d67776d1ef9d5e53062019ac2025941a181a35188be2f",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "computer/io-monitor.md",
+      "source_sha256": "9fe352dded5a70f2f5b4ee058a043234cd3eccdb6ea25eb788f52874a86d0b24",
+      "target_sha256": "1055e42e1ac0ba0229deaa0cbecb4c5d5d8455658a4db0c1ca4032e2e0868783",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "computer/network-directory.md",
+      "source_sha256": "8a778b3871f0c214b3a4691edf944508e1a494b177329c841f17dfde7cbc4cb6",
+      "target_sha256": "2e94e661e8466314c71e28d8f6e7faa203537849b16aa9652041b34c42dc620b",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "computer/node-table.md",
+      "source_sha256": "844fe87f3f6269b8448eb89df13770ea584bc2b3c0b0a9e509424d6e9334dc56",
+      "target_sha256": "bb3e15cb9f5bd710528b608abd1bac4f2e4e9f500460969e07e89a708fef337a",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "filters/index.md",
+      "source_sha256": "34c4b8a5bc3bae0b491408ca7dbf3a4f4f4d26a01042b2113b69967201130561",
+      "target_sha256": "6cccfaa1ae315b0b43a3661991f3314e6a8da9c281bb12f15dc69a252ed606da",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "index.md",
+      "source_sha256": "7dbea687713f5798f05fc26500cb3775a0616112a92d4b5da2a97f019e2fd648",
+      "target_sha256": "98dd433940fd7be9ba163dce74ec0c76322afeabcbb3c70cd93d79441823fe9d",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "links.md",
+      "source_sha256": "5cc862ab25a4c9f603129fc9179fe644fc4e2d4c11b1774444e389b5227e4bca",
+      "target_sha256": "5b6d691288cb21c6e2187c15e85abe6a657b041dd0338162d58c921aec4b5eea",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "nodes/channel-settings.md",
+      "source_sha256": "7f313bb471120ddd8c84543e567ad5006b2ebf0b1564e0c3b42ce8a760c9c0fc",
+      "target_sha256": "ac0a676843b752f5ccd71082256f3418db6580e36c175f96851eed8140f5642f",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "nodes/filters-upgrades.md",
+      "source_sha256": "56a6956580b25c143f2ae0337d0fee202b4aa6f6cb695de43e9b06f8a76ebd74",
+      "target_sha256": "a6ddc9c0d854f65e5ddb4308f3e357c4241c31099c951a8d4ab6a22f496282c9",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "nodes/header.md",
+      "source_sha256": "788c0435b1285840b37bd0505f590f2e73a0a0e2b4c170d51fdc97702d03524f",
+      "target_sha256": "6d575310fc1f7af77a2b4200859c0a33e3490ac35a55fa13249e345d23897b3d",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "nodes/index.md",
+      "source_sha256": "34e5362cb8d61a0277c4f3f8384c871030d73d4bba9cc2936b9633b816543ebe",
+      "target_sha256": "55bf9cea16442861cde30c4dbceb8c19a666333aec4a39b56840dcc7b2a825c6",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "nodes/upgrades-performance.md",
+      "source_sha256": "5ff871890e608e41c9b127cda09b5fcce369960586f556bf8caa1d809128661f",
+      "target_sha256": "8ec0080f6370a443f4065a70bafc7263c99eece6d1caa15ded828dc95c0630d2",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "nodes/upgrades-special.md",
+      "source_sha256": "06cd8f486cf653f28272641c9afac1b17b110dba58fbce511c01e964decc2135",
+      "target_sha256": "cc62683e3a1f9fd73ffb818d492a4f7a5c76c2c334b3609d53a1985cae9d6448",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "wrench/copy-paste.md",
+      "source_sha256": "c991398570d3064532562a033d8b3774484c63d826d77aa4c28731ce9c13388e",
+      "target_sha256": "8598c07d04f891ad423f846067ca68a103c6d94c458c11cc52aff13e0206e6ee",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "wrench/index.md",
+      "source_sha256": "18d2b2ec82427093c7c9bdfc7560a61ac78e800b4879283c46af062a13d7c2ae",
+      "target_sha256": "50aaae9284f73a0d5c01aa688a9f6be0532fc7d17bb3e053278b61b7603392e9",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "wrench/mass-placement.md",
+      "source_sha256": "8ac06aa81ebdc50edb6517b373524fdabecdcd986bf14d596c458d83b05f6754",
+      "target_sha256": "d21fb5bcc210a2d597254a10f24563e15c341d05f2d13d7bb47e04c0db2c108e",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "path": "wrench/wrench-mode.md",
+      "source_sha256": "d698926f440a54ba7659992b956641f23a5d125c6b538fbf5e95414a92213fe7",
+      "target_sha256": "f492cf053265bff17b58da4c524ec01d79d29bac65c0036bc110df665555b761",
+      "reviewed": true,
+      "status": "new_translation"
+    }
+  ]
+}

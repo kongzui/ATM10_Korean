@@ -452,5 +452,7 @@
   "gui.logisticsnetworks.filter.detail.nbt.edit.disabled": "NBT를 편집하려면 엄격한 일치를 끄세요",
   "key.logisticsnetworks.toggle_slot_numbers": "슬롯 번호 전환",
   "message.logisticsnetworks.slot_numbers.enabled": "슬롯 번호를 표시해요 (%s 키로 숨기기)",
-  "message.logisticsnetworks.slot_numbers.disabled": "슬롯 번호를 숨겨요 (%s 키로 표시)"
+  "message.logisticsnetworks.slot_numbers.disabled": "슬롯 번호를 숨겨요 (%s 키로 표시)",
+  "guide.logisticsnetworks.name": "Logistics Networks 가이드",
+  "guide.logisticsnetworks.description": "Logistics Networks 게임 내 설명서"
 }

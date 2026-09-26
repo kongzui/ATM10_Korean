@@ -30,11 +30,12 @@ def allowed_paths():
     return paths
 
 
-def scan_instance_routes(instance):
+def scan_instance_routes(instance, pattern=None):
     """퀘스트와 KubeJS의 관련 참조·조사 파일 목록을 재현해요."""
-    pattern = re.compile(
-        r"ad[ _-]?astra|astrodux|giselle|아드 ?아스트라", re.IGNORECASE
-    )
+    if pattern is None:
+        pattern = re.compile(
+            r"ad[ _-]?astra|astrodux|giselle|아드 ?아스트라", re.IGNORECASE
+        )
     hashes = {}
     matches = []
     counts = {"quest_files": 0, "kubejs_files": 0, "quest_chapters": 0}
