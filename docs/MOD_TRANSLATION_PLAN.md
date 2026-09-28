@@ -130,6 +130,7 @@ Storage Delight, Utilitarian, Bridging Mod 등 콘텐츠·조작 후보 → FTB 
 
 ### 별도 품질·보조 번역 작업
 
+- 기존 번역 전체 재검수 순서와 기준: [품질 재검수 계획](QUALITY_REREVIEW_PLAN.md).
 - 퀘스트 감사 후보 1,098개: 실제 이름 불일치·영어 잔여만 추려 수정한다. 오류 1,098개라는 뜻은 아니다.
 - AppleSkin·Mouse Tweaks·EnderDrives: 일반 언어 번역은 유지, 보조 코드로만 처리하던 문구는 원래 표시.
 - 보조 선택판 우선순위: EnderDrives 툴팁 → Mouse Tweaks 설정 → EnderDrives 채팅 → AppleSkin F3.
