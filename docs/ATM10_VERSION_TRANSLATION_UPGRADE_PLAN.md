@@ -1,6 +1,6 @@
 # ATM10 8.1 누적 번역 업데이트 로드맵
 
-갱신일: 2026-09-27. 현재 배포: **8.1-stable.6 / 7.1-stable.1**.
+갱신일: 2026-09-28. 현재 배포: **8.1-stable.7 / 7.1-stable.1**.
 사용자가 안정판의 정상 작동을 확인했어요. 확인한 화면·모드별 상세 목록은 받지 않았으므로
 전체 모드 검수나 7.1·8.1 각각의 모든 기능 확인으로 확대해서 기록하지 않아요.
 
@@ -8,8 +8,8 @@
 [번역 현황](MOD_TRANSLATION_PLAN.md), 다음 실행 체크리스트는 [PLAN](../PLAN.md),
 이미 끝낸 배포의 근거는 [진행 보고](../versions/8.1/reports/upgrade_progress.md)에 있어요.
 단계 0 보완과 단계 1·2의 파일 검수·배포를 마쳤어요. Step Crafter까지 누적했어요.
-새 번역의 게임 화면 확인은 남아 있어요. 다음 대상은 Better Advanced Tooltips이며,
-이번 요청에서 다음 계열이나 보조 코드 구현까지 이어서 진행하지 않아요.
+단계 3의 Better Advanced Tooltips 설정 5키도 검수했어요. 다음 대상은 Borderless Window예요.
+새 번역의 게임 화면 확인과 직접 표시 문구는 별도이며 보조 코드는 추가하지 않아요.
 
 ## 기준과 배포 방식
 
@@ -86,7 +86,8 @@ Neo Vitae의 작업량 때문에 Auroral 완료 배포를 기다리게 하지 �
 
 ## 단계 3. 작은 신규 UI와 기존 누락 정리
 
-먼저 Better Advanced Tooltips 5키 → Borderless Window 21키를 처리해요.
+Better Advanced Tooltips 설정 5키는 2026-09-28 검수를 마쳤어요. 직접 표시 `Fuel:`과 오류 안내는
+기본 배포에서 원문 유지로 분류했어요. 다음은 Borderless Window 21키예요.
 StructureOverlapless(`moogs_structures`) 14키, Common Storage Lib 3키,
 Invasive Optimizations 3키는 실제 표시 여부를 조사하고 필요한 문구만 번역해요.
 라이브러리라는 이유로 무조건 제외하거나, 모든 내부 키에 억지 번역을 넣지 않아요.

@@ -21,7 +21,7 @@
 - Minecraft: 1.21.1
 - 설치 모드 기준: 2026-08-31 `game_root/mods`의 JAR 488개
 - 8.1 조사 자료: 영어 언어 네임스페이스 398개, FTB Quests 챕터 66개
-- 현재 output 상태: 보조 번역 실행 코드를 제외한 `8.1-stable.6`과 `7.1-stable.1`을 제공한다.
+- 현재 output 상태: 보조 번역 실행 코드를 제외한 `8.1-stable.7`과 `7.1-stable.1`을 제공한다.
   일반 언어·퀘스트·가이드와 원래 KubeJS 번역은 유지하며 실제 적용은 `AGENTS.md`를 따른다.
 - 보조 번역 제외 범위와 후속 검토: `docs/AUXILIARY_TRANSLATION_SCRIPTS.md`
 - 사용자 안정판 정상 작동 확인을 받았다. 화면·버전별 상세 확인 목록은 없으므로 전체 완역·전체 기능 검증을 뜻하지 않는다.
@@ -69,7 +69,7 @@
 2026-09-09 정리. 기준: `versions/8.1/reports/mod_language_rebase_audit.json`,
 `ftbquests_rebase.md`, `upgrade_progress.md`와 현재 안정판 output.
 영어 키 수는 작업 규모이고 한국어 미표시 개수가 아니다. 모드 자체 한국어와 다른 파일의
-번역이 적용될 수 있으며, 라이브러리·예제 키도 포함한다. 완료 상태는 2026-09-27까지 갱신했다.
+번역이 적용될 수 있으며, 라이브러리·예제 키도 포함한다. 완료 상태는 2026-09-28까지 갱신했다.
 
 ### 새 네임스페이스: 11개, 영어 4,779키
 
@@ -81,7 +81,7 @@
 | 3 | Ad Astra: Giselle Addon / `ad_astra_giselle_addon` | 168 | 162 | 언어 전체·본체 용어 통일 완료, stable.4 |
 | 4 | Logistics Networks / `logisticsnetworks` | 454 | 0 | 언어 454키·등록 2키·GuideME 17페이지 검수 완료, stable.5 |
 | 5 | Step Crafter / `stepcrafter` | 79 | 0 | 언어 전체·표시 경로 검수 완료, stable.6 |
-| 6 | Better Advanced Tooltips / `betteradvancedtooltips` | 5 | 0 | 미작업, 툴팁 UI |
+| 6 | Better Advanced Tooltips / `betteradvancedtooltips` | 5 | 0 | 설정 5키 완료, 직접 표시 문구 원문 유지. stable.7 |
 | 7 | Borderless Window / `borderless` | 21 | 0 | 미작업, 창 설정 UI |
 | 8 | StructureOverlapless / `moogs_structures` | 14 | 0 | 표시 경로 조사 후 필요한 키 번역 |
 | 8 | Common Storage Lib / `common_storage_lib` | 3 | 0 | 표시 경로 조사 후 필요한 키 번역 |
@@ -101,7 +101,9 @@ GuideME 17페이지를 새로 번역했고, 현재 FTB Quests·KubeJS에 관련 
 
 Step Crafter는 신규 한국어 78키·공식 모드명 유지 1키이며 재사용은 없다. 별도 가이드와
 관련 FTB Quests·KubeJS 참조가 없고 제작법 발전 과제 48파일에는 표시 문구가 없다.
-다음 대상은 Better Advanced Tooltips 5키다.
+Better Advanced Tooltips는 설정 5키 신규 번역·재사용 0키다. 별도 가이드와 관련 퀘스트·KubeJS
+참조는 없다. `Fuel:`과 데이터 오류 안내는 언어 키가 없어 원문 유지하며 화면 확인은 남아 있다.
+다음 대상은 Borderless Window 21키다.
 
 ### 기존 산출물 누락 후보: 2,120키
 

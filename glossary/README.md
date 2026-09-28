@@ -290,6 +290,7 @@
 | Step Crafter Manager / Step Requester Manager | 단계 제작기 관리자 / 단계 요청기 관리자 | 블록명 | Step Crafter | 확정 | 각 장치를 한 화면에서 관리하는 기능을 구분 |
 | Step Crafting Monitor / Stepcrafting | 단계 제작 모니터 / 단계 제작 | 블록·작업명 | Step Crafter | 확정 | Refined Storage의 자동 제작 모니터와 구분 |
 | Slot Upgrade | 슬롯 업그레이드 | 아이템명 | Step Crafter | 확정 | Upgrade는 업그레이드로 유지 |
+| Component / Component Count | 구성 요소 / 구성 요소 개수 | 설정·툴팁 | Better Advanced Tooltips | 확정 | 아이템 데이터 구성 요소를 뜻하며 제작 부품과 구분 |
 
 ## 5. 보류 용어
 

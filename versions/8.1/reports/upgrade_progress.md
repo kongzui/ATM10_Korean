@@ -128,3 +128,15 @@
 - [완료 보고](stepcrafter_completion.md), [전체 검증](8.1-stable.6_stable_validation.json),
   [패키지 목록](../manifests/8.1-stable.6_packages.json), [적용 기록](stepcrafter_apply.json)을 남겼어요.
 - 단계 2의 파일 작업을 마쳤어요. 다음 대상은 Better Advanced Tooltips 5키예요.
+
+## 2026-09-28 · Better Advanced Tooltips 누적 stable.7
+
+- 현재 영어 설정 5키를 모두 신규 번역했어요. 기존 한국어 재사용은 0키예요.
+- 별도 가이드와 FTB Quests·KubeJS 관련 참조는 없어요. `Fuel:`과 오류 안내는 코드 직접 표시로
+  확인해 원문 유지 항목으로 기록했어요. 보조 번역 코드는 추가하지 않았어요.
+- 전체 JSON 1,804/SNBT 76/JavaScript 27개, 기존 번역 보존, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
+- 원본 6,365파일의 조사 전후 상태가 같았고, 게임 종료 상태에서 새 언어 파일 1개만 적용했어요.
+  범위 밖 파일과 개인 설정은 보존했어요. 선택 팩은 stable.1이므로 새 팩 활성화가 필요해요.
+- [완료 보고](betteradvancedtooltips_completion.md), [배포 안내](../../../docs/releases/8.1-stable.7.md),
+  [패키지 목록](../manifests/8.1-stable.7_packages.json)에 근거를 남겨요.
+- 실제 게임 화면은 미검증이에요. 다음 대상은 Borderless Window 21키예요.

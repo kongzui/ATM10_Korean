@@ -1,9 +1,23 @@
-# 진행 작업: ATM10 8.1 Step Crafter 누적 번역 업데이트
+# 진행 작업: ATM10 8.1 Better Advanced Tooltips 누적 번역 업데이트
 
 전체 순서는 [8.1 로드맵](docs/ATM10_VERSION_TRANSLATION_UPGRADE_PLAN.md),
 대상과 키 수는 [번역 현황](docs/MOD_TRANSLATION_PLAN.md), 규칙은 `AGENTS.md`를 따라요.
-이번 요청은 Step Crafter예요. 현재 영어 79키와 관련 표시 경로를 검수해요.
-작업에 관련된 Markdown도 번역·배포 단위와 함께 커밋해요. 다음 UI 모드는 이번 범위 밖이에요.
+이번 요청은 다음 모드인 Better Advanced Tooltips예요. 설정 5키와 관련 표시 경로를 검수해요.
+작업에 관련된 Markdown도 번역·배포 단위와 함께 커밋해요.
+
+## Better Advanced Tooltips · 8.1-stable.7
+
+- [x] 현재 2101.1.0-build.5 JAR의 영어 5키·내장 한국어 없음 확인.
+- [x] 설정 5키 전체 신규 번역과 키·보호 문자열 검증.
+- [x] FTB Quests 1,000파일·66챕터와 KubeJS 871파일 조사; 관련 참조 없음.
+- [x] 별도 가이드 없음, 직접 표시 `Fuel:`·오류 안내는 원문 유지로 분류.
+- [x] 누적 전체 검증, stable.7 ZIP 두 개 생성, 게임 종료 상태에서 언어 1파일 선택 적용.
+- [ ] 실제 게임에서 설정 화면과 툴팁 확인.
+
+[표시 경로 근거](versions/8.1/reports/betteradvancedtooltips_translation.md)와
+[완료 보고](versions/8.1/reports/betteradvancedtooltips_completion.md)에 기록해요.
+선택된 팩은 stable.1 ZIP이므로 stable.7 팩 활성화와 실제 화면 확인이 필요해요.
+다음 대상은 Borderless Window 21키예요.
 
 ## Step Crafter · 8.1-stable.6
 

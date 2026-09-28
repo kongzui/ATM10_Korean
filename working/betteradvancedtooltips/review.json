@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "mod": "betteradvancedtooltips",
+  "entries": [
+    {
+      "key": "betteradvancedtooltips.configuration.remove_creative_tab_tooltip",
+      "english": "Remove Creative Tab Tooltip",
+      "translation": "크리에이티브 탭 툴팁 제거",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "betteradvancedtooltips.configuration.remove_component_count_tooltip",
+      "english": "Remove Component Count Tooltip",
+      "translation": "구성 요소 개수 툴팁 제거",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "betteradvancedtooltips.configuration.fuel_tooltip",
+      "english": "Fuel Tooltip",
+      "translation": "연료 툴팁",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "betteradvancedtooltips.configuration.tag_tooltip",
+      "english": "Tag Tooltip",
+      "translation": "태그 툴팁",
+      "reviewed": true,
+      "status": "new_translation"
+    },
+    {
+      "key": "betteradvancedtooltips.configuration.component_tooltip",
+      "english": "Component Tooltip",
+      "translation": "구성 요소 툴팁",
+      "reviewed": true,
+      "status": "new_translation"
+    }
+  ]
+}
