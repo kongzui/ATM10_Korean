@@ -2,5 +2,21 @@
   "ftbchunks.config.client.waypoints.death_waypoint_autoremove_distance.tooltip": "0보다 크면 가장 가까운 사망 지점이 이 거리 안에 들어올 때 자동으로 제거됩니다.",
   "ftbchunks.config.server.require_game_stage.tooltip": "true이면 'ftbchunks_mapping' 게임 스테이지(KubeJS 또는 Gamestages 필요)가 있어야 지도를 열거나 미니맵을 볼 수 있습니다.",
   "ftbchunks.config.server.location_mode_override.tooltip": "true이면 팀의 \"위치 공개 범위\" 설정을 무시하고, 모든 플레이어가 지도 어디에서나 서로를 볼 수 있습니다.",
-  "ftbchunks.config.server.protect_unknown_explosions.tooltip": "일부 폭발 원인(예: 가스트)은 코드에서 확인할 수 없습니다.\n이 설정이 true이면 보호된 청크에서 이런 폭발의 피해를 막습니다."
+  "ftbchunks.config.server.protect_unknown_explosions.tooltip": "일부 폭발 원인(예: 가스트)은 코드에서 확인할 수 없습니다.\n이 설정이 true이면 보호된 청크에서 이런 폭발의 피해를 막습니다.",
+  "ftbchunks.config.client.appearance.biome_blend": "생물 군계 혼합",
+  "ftbchunks.config.client.appearance.only_surface_entities": "지표면 엔티티만",
+  "ftbchunks.config.client.minimap.entities": "엔티티",
+  "ftbchunks.config.client.minimap.entity_heads": "엔티티 머리",
+  "ftbchunks.config.client.minimap.large_entities": "대형 엔티티",
+  "ftbchunks.config.client.minimap.biome": "생물 군계",
+  "ftbchunks.gui.entity_icon_settings": "엔티티 아이콘 설정",
+  "ftbteamsconfig.ftbchunks.entity_interact_mode": "엔티티 상호작용 모드",
+  "ftbteamsconfig.ftbchunks.entity_interact_mode.tooltip": "엔티티를 우클릭할 때 사용됩니다.",
+  "ftbteamsconfig.ftbchunks.nonliving_entity_attack_mode": "무생물 엔티티 공격 모드",
+  "ftbteamsconfig.ftbchunks.nonliving_entity_attack_mode.tooltip": "무생물 엔티티(그림, 아이템 액자 등)를 좌클릭할 때 사용됩니다.",
+  "ftbchunks.config.client.minimap.entity_icon": "엔티티 아이콘 표시 여부",
+  "ftbchunks.config.server.team_prop_defaults.def_entity_interact": "엔티티 상호작용 모드",
+  "ftbchunks.config.server.team_prop_defaults.def_entity_attack": "무생물 엔티티 공격 모드",
+  "minimap.info.ftbchunks.biome.title": "생물 군계",
+  "minimap.info.ftbchunks.biome.description": "생물 군계 렌더링"
 }

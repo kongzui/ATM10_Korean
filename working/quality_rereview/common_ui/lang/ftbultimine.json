@@ -1,5 +1,9 @@
 {
-  "ftbultimine.client_settings.general.shape_feedback_hotbar_message": "모양 변경 시 단축바 메시지",
-  "ftbultimine.client_settings.general.shape_feedback_hotbar_message.tooltip": "켜면 Ultimine 채굴 모양이 바뀔 때 단축바에 새 모양을 안내하는 메시지를 표시합니다.",
-  "ftbultimine.server_settings.costs_limits.experience_per_block.tooltip": "소수 값을 사용할 수 있습니다.\nFTB Ranks가 설치되어 있고 'ftbultimine.experience_per_block' 노드가 있으면 그 값이 우선합니다."
+  "ftbultimine.client_settings.general.shape_feedback_hotbar_message": "모양 변경 시 단축 바 메시지",
+  "ftbultimine.client_settings.general.shape_feedback_hotbar_message.tooltip": "켜면 Ultimine 채굴 모양이 바뀔 때 단축 바에 새 모양을 안내하는 메시지를 표시합니다.",
+  "ftbultimine.server_settings.costs_limits.experience_per_block.tooltip": "소수 값을 사용할 수 있습니다.\nFTB Ranks가 설치되어 있고 'ftbultimine.experience_per_block' 노드가 있으면 그 값이 우선합니다.",
+  "ftbultimine.info.cooldown": "쿨타임 중",
+  "ftbultimine.server_settings.costs_limits.ultimine_cooldown": "Ultimine 쿨타임(틱)",
+  "ftbultimine.server_settings.costs_limits.ultimine_cooldown.tooltip": "Ultimine을 연속으로 사용할 때 적용되는 쿨타임입니다.\n20틱 = 1초\nFTB Ranks가 설치되어 있고 'ftbultimine.ultimine_cooldown' 노드가 있으면 그 값이 우선합니다.",
+  "ftbultimine.modifier.cooldown": "FTB Ultimine 쿨타임(틱)"
 }

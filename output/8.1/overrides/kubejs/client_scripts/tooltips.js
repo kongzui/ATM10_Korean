@@ -7,12 +7,12 @@ ItemEvents.modifyTooltips(allthemods => {
 
     allthemods.add(['allthemodium:allthemodium_ore', 'allthemodium:allthemodium_slate_ore'],[
         Text.of('§7채굴하려면 네더라이트 등급 이상이 필요합니다'),
-        Text.of('§6깊은 어둠 생물군계에서 항상 공기와 맞닿은 곳에 생성됩니다'),
+        Text.of('§6깊은 어둠 생물 군계에서 항상 공기와 맞닿은 곳에 생성됩니다'),
         Text.of('§6채굴 차원의 심층암 지층에서도 발견됩니다')
     ])
     allthemods.add(['allthemodium:vibranium_ore', 'allthemodium:other_vibranium_ore'],[
         Text.of('§7채굴하려면 Allthemodium 등급 이상이 필요합니다'),
-        Text.of('§b모든 네더 생물군계에서 발견됩니다'),
+        Text.of('§b모든 네더 생물 군계에서 발견됩니다'),
         Text.of('§b디 아더에서도 발견됩니다')
     ])
     allthemods.add('allthemodium:unobtainium_ore',[
@@ -151,7 +151,7 @@ ItemEvents.modifyTooltips(allthemods => {
 
     allthemods.add('toolbelt:belt', [
         Text.of("§7전용 장착 슬롯이 있습니다"),
-        Text.of("§7키 설정에서 \"허리띠 슬롯 인벤토리 열기\"를 확인하세요")
+        Text.of("§7키 지정에서 \"허리띠 슬롯 인벤토리 열기\"를 확인하세요")
     ])
 
 	//Easy Villagers

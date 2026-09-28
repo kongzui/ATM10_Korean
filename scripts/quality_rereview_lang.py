@@ -110,7 +110,7 @@ def main() -> int:
             source_data = json.loads(source_path.read_text(encoding="utf-8"))
             for key, value in revisions.items():
                 if key in source_data:
-                    if source_data[key] not in {baseline[key], value}:
+                    if source_data[key] not in {baseline[key], current[key], value}:
                         errors.append(f"{source}:{key}: 작업 원본이 산출물과 달라요")
                     source_data[key] = value
             writes[source_path] = source_data

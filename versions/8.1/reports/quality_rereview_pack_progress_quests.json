@@ -79,11 +79,13 @@
     "chapters/welcome.snbt": {
       "english_keys": 13,
       "translated_keys": 13,
-      "revised": 3,
-      "kept": 10,
+      "revised": 5,
+      "kept": 8,
       "revised_keys": [
         "quest.0C93D7A607AB8B83.quest_desc",
+        "quest.3BC0A50886A3222B.quest_desc",
         "quest.49EDAA2F57D3BF1D.quest_desc",
+        "quest.7658C1C663394E85.quest_desc",
         "task.4F13A02FB0055A62.title"
       ]
     },
@@ -307,8 +309,8 @@
     "chapters/tips_and_tricks.snbt": {
       "english_keys": 62,
       "translated_keys": 62,
-      "revised": 23,
-      "kept": 39,
+      "revised": 25,
+      "kept": 37,
       "revised_keys": [
         "quest.0152938EE5651409.quest_desc",
         "quest.0790D3BB481162A6.quest_desc",
@@ -327,6 +329,8 @@
         "quest.69F7A0DE8D70AC44.quest_desc",
         "quest.6E17595887A051C2.quest_desc",
         "quest.6E17595887A051C2.title",
+        "quest.70B6C9409AE69284.quest_desc",
+        "quest.70B6C9409AE69284.quest_subtitle",
         "quest.7A514E27E1A7FE32.quest_desc",
         "quest.7EC8814940C4C3D7.quest_desc",
         "quest.7EC8814940C4C3D7.quest_subtitle",
@@ -338,8 +342,8 @@
     "chapters/building_tips.snbt": {
       "english_keys": 255,
       "translated_keys": 254,
-      "revised": 95,
-      "kept": 159,
+      "revised": 99,
+      "kept": 155,
       "revised_keys": [
         "quest.005CC8A3325FE2BD.quest_desc",
         "quest.005CC8A3325FE2BD.title",
@@ -349,6 +353,7 @@
         "quest.0596F6C70758EEC0.quest_desc",
         "quest.06FFBB12CFA87815.quest_desc",
         "quest.0A21773B773F34F8.quest_desc",
+        "quest.0BC106B34AD386E5.quest_desc",
         "quest.0BC106B34AD386E5.title",
         "quest.0EB6ED88895366D0.quest_desc",
         "quest.106884349C9FF3BA.quest_desc",
@@ -357,6 +362,7 @@
         "quest.10A2E758D7743DD0.title",
         "quest.11C43962B06D5092.quest_desc",
         "quest.11C43962B06D5092.title",
+        "quest.1625C3A30E69D634.quest_desc",
         "quest.1972B36F72808D55.quest_desc",
         "quest.1972B36F72808D55.title",
         "quest.2094D1CE4BA66091.quest_desc",
@@ -386,6 +392,8 @@
         "quest.4B552E9D05FF5415.title",
         "quest.4BC27F16229BBF46.quest_desc",
         "quest.4BC27F16229BBF46.title",
+        "quest.4EA2DB12E8F0068F.quest_desc",
+        "quest.537B39B42C7D21ED.quest_desc",
         "quest.5716E84828EC0C23.quest_desc",
         "quest.5716E84828EC0C23.title",
         "quest.59B6C6BF0550D13D.quest_desc",
@@ -441,8 +449,8 @@
     "chapters/bounty_board.snbt": {
       "english_keys": 54,
       "translated_keys": 54,
-      "revised": 23,
-      "kept": 31,
+      "revised": 27,
+      "kept": 27,
       "revised_keys": [
         "quest.08B60D8A25008CCC.quest_desc",
         "quest.08D1CC753F6B4283.quest_desc",
@@ -457,12 +465,16 @@
         "quest.13BB75A7E1973488.title",
         "quest.199932BF623A6785.quest_desc",
         "quest.199932BF623A6785.title",
+        "quest.1F31EBF49079F9D3.quest_desc",
+        "quest.2BD077EFE77B8EBB.quest_desc",
         "quest.2CA9394459C24012.quest_desc",
         "quest.3813F5C1760C3A79.quest_desc",
         "quest.3813F5C1760C3A79.title",
         "quest.41C0948CD9D50322.quest_desc",
         "quest.41C0948CD9D50322.quest_subtitle",
         "quest.56DA46DC82F6665D.quest_desc",
+        "quest.570223A03231DF8C.quest_desc",
+        "quest.6827836C8E675A94.quest_desc",
         "quest.6DCDD55786025911.quest_desc",
         "quest.728BE1816DA23DC0.quest_desc",
         "quest.734411D931A8CDBF.quest_desc",
@@ -527,7 +539,6 @@
       "revised": 33,
       "kept": 314,
       "revised_keys": [
-        "quest.041ED280691BB05D.quest_desc",
         "quest.04B31A600004F7CB.quest_desc",
         "quest.0ED11FCF6298CE85.quest_desc",
         "quest.1245126B4338C019.quest_subtitle",
@@ -545,6 +556,7 @@
         "quest.361EF9E4973E3522.quest_desc",
         "quest.3D72E3E53E7306FA.quest_desc",
         "quest.3EA3A6414AB8A39C.quest_subtitle",
+        "quest.4664AFCFB5618CEB.quest_desc",
         "quest.497D222F74A52DF5.quest_desc",
         "quest.4B65100885AE762D.quest_desc",
         "quest.4B9C54DA5CB6D5C9.quest_subtitle",
@@ -731,8 +743,8 @@
   },
   "english_keys": 2029,
   "translated_keys": 2023,
-  "revised": 575,
-  "kept": 1448,
+  "revised": 587,
+  "kept": 1436,
   "remaining_style_signals": {
     "chapters/mainquestline_part_1.snbt:quest.3B6F1BD64C0C570F.quest_desc": [
       "것입니다"

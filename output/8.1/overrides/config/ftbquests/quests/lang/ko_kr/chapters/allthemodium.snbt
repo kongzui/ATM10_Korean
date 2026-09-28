@@ -9,7 +9,7 @@
 	quest.0CC0632E8276C787.quest_desc: ["&l&c네더&r에 텔레포트 패드를 설치하면 &b&l디 아더&r로 이동합니다."]
 	quest.0CC0632E8276C787.title: "&c&l네더"
 	quest.111E4ACF7D570EE8.quest_desc: [
-			"&2&l바닐라 Minecraft&r에서 가장 어려운 구조물이니, 당연히 &6Allthemodium&r도 이곳에서 찾아야 합니다!\\n\\n고대 도시 주변 동굴 벽에서 광석을 찾을 수 있습니다. 빛이 나서 눈에 잘 띄지만 매우 희귀합니다!\\n\\n&5깊은 어둠&r 생물군계라면 어디서든 찾을 수 있습니다."
+			"&2&l바닐라 Minecraft&r에서 가장 어려운 구조물이니, 당연히 &6Allthemodium&r도 이곳에서 찾아야 합니다!\\n\\n고대 도시 주변 동굴 벽에서 광석을 찾을 수 있습니다. 빛이 나서 눈에 잘 띄지만 매우 희귀합니다!\\n\\n&5깊은 어둠&r 생물 군계라면 어디서든 찾을 수 있습니다."
 			"{image:atm:textures/questpics/allthemodium/all_city.png width:200 height:100 align:center}"
 		]
 	quest.111E4ACF7D570EE8.title: "고대 도시"
@@ -25,7 +25,7 @@
 			"용해 챔버는 &l&7Industrial Foregoing&r이 추가하는 기계로, &3Vibranium&r과 &5Unobtainium&r을 결합할 때도 사용합니다. \\n\\n같은 모드의 몹 도살 공장에서 얻는 &d분홍색 슬라임&r이 필요합니다. \\n\\n&b&l디 아더&r의 피글린 마을에서 흔히 발견되는 영혼 용암도 필요합니다. \\n\\n주괴와 피글리치 심장을 정확한 순서로 넣고 전력을 공급하면 완성됩니다!\\n"
 			"{ \"text\": \"Industrial Foregoing 퀘스트라인\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }"
 		]
-	quest.15FEA03A2CDBA33B.quest_desc: ["&b&l디 아더&r는 여러 해 동안 수없이 바뀌었지만 언제나 모험의 무대였습니다! \\n\\n새로운 생물군계와 블록, 구조물이 수십 가지나 있습니다. \\n\\n피글린 마을, 고대 피라미드, 던전뿐 아니라 When Dungeons Arise와 &b&lIce &fand &cFire&r의 구조물도 있습니다. 모든 구조물에 훌륭한 전리품이 있고, 그 구조물에서만 얻을 수 있는 물건도 있습니다! \\n\\n&3Vibranium&r과 다른 광석을 직접 캐거나, 구조물에서 그보다 더 좋은 물건을 찾을 수도 있습니다! \\n\\n다만 &b&l디 아더&r에서는 채석장으로 캘 수 없는 블록이 많습니다. 여기서는 편법이 통하지 않아요."]
+	quest.15FEA03A2CDBA33B.quest_desc: ["&b&l디 아더&r는 여러 해 동안 수없이 바뀌었지만 언제나 모험의 무대였습니다! \\n\\n새로운 생물 군계와 블록, 구조물이 수십 가지나 있습니다. \\n\\n피글린 마을, 고대 피라미드, 던전뿐 아니라 When Dungeons Arise와 &b&lIce &fand &cFire&r의 구조물도 있습니다. 모든 구조물에 훌륭한 전리품이 있고, 그 구조물에서만 얻을 수 있는 물건도 있습니다! \\n\\n&3Vibranium&r과 다른 광석을 직접 캐거나, 구조물에서 그보다 더 좋은 물건을 찾을 수도 있습니다! \\n\\n다만 &b&l디 아더&r에서는 채석장으로 캘 수 없는 블록이 많습니다. 여기서는 편법이 통하지 않아요."]
 	quest.15FEA03A2CDBA33B.title: "&l&b디 아더&r"
 	quest.162D2286A69D6E07.quest_desc: [
 			"일반 &6Allthemodium 방어구&r와 능력치는 비슷하지만, Ars Nouveau 주문에 쓰이는 마나 증가, 마나 재생, 주문 위력 효과가 세트로 붙습니다!"
@@ -80,7 +80,7 @@
 	quest.44D5EDB8711EC7A0.title: "&6Allthemodium 철퇴"
 	quest.47F734CDD5793F26.title: "&5Unobtainium 쇠뇌"
 	quest.4A079D40C0AF6BC3.quest_desc: [
-			"아니요, &5&lThe Beyond&r에서는 찾을 수 없습니다. \\n\\n&5Unobtainium 광석&r은 엔드 고지 생물군계에서 매우 드물게 발견됩니다. 보통 엔드 도시도 이곳에 생성됩니다! \\n\\n광석을 캐려면 &3Vibranium 곡괭이&r나 같은 등급의 도구가 필요합니다. \\n\\n광석 가공을 권한다는 말은 이제 안 해도 되겠죠?"
+			"아니요, &5&lThe Beyond&r에서는 찾을 수 없습니다. \\n\\n&5Unobtainium 광석&r은 엔드 고지 생물 군계에서 매우 드물게 발견됩니다. 보통 엔드 도시도 이곳에 생성됩니다! \\n\\n광석을 캐려면 &3Vibranium 곡괭이&r나 같은 등급의 도구가 필요합니다. \\n\\n광석 가공을 권한다는 말은 이제 안 해도 되겠죠?"
 			"{image:atm:textures/questpics/allthemodium/all_3.png width:100 height:100 align:center}"
 		]
 	quest.4A079D40C0AF6BC3.title: "&5Unobtainium 주괴&r"
@@ -108,7 +108,7 @@
 	quest.66039B738CF0718A.quest_desc: ["&3Vibranium&r이 &6Allthemodium&r과 결합되었습니다!"]
 	quest.66039B738CF0718A.title: "&3Vibranium&r-&6Allthemodium&r 합금 주괴"
 	quest.68E6AE1B9EBCEFFF.title: "&3Vibranium 철퇴"
-	quest.6D738730B371B152.quest_desc: ["&l&7채굴 차원&r은 지표에 아무것도 없는 완전한 평지 월드입니다. \\n\\n지표 아래에는 거의 모든 광석이 있습니다. \\n\\n&7&l채굴 차원&r에는 동굴도, 몹 생성도, 방해물도 없고 여러 종류의 돌과 광석뿐입니다! \\n\\n광석은 &7&l채굴 차원&r의 Y 높이와 지층에 따라 다르게 생성됩니다.\\n\\n채석기를 설치하는 것을 권합니다."]
+	quest.6D738730B371B152.quest_desc: ["&l&7채굴 차원&r은 지표에 아무것도 없는 완전한 평지 월드입니다. \\n\\n지표 아래에는 거의 모든 광석이 있습니다. \\n\\n&7&l채굴 차원&r에는 동굴도, 몹 스폰도, 방해물도 없고 여러 종류의 돌과 광석뿐입니다! \\n\\n광석은 &7&l채굴 차원&r의 Y 높이와 지층에 따라 다르게 생성됩니다.\\n\\n채석기를 설치하는 것을 권합니다."]
 	quest.6D738730B371B152.title: "&l&7채굴 차원"
 	quest.6E0624750DF8CD18.quest_desc: ["이제는 직접 제작할 수 없고 항상 &c네더라이트&r 장비를 업그레이드해야 합니다. \\n네, 마법 부여를 유지하고 내구도도 수리해 줍니다!"]
 	quest.6E0624750DF8CD18.title: "&6Allthemodium 도구"

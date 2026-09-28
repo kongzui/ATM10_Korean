@@ -22,7 +22,7 @@ REPLACEMENTS: dict[str, list[tuple[str, str, int]]] = {
         ),
         (
             "§6Found in the Deep Dark Biome and will always spawn air exposed",
-            "§6깊은 어둠 생물군계에서 항상 공기와 맞닿은 곳에 생성됩니다",
+            "§6깊은 어둠 생물 군계에서 항상 공기와 맞닿은 곳에 생성됩니다",
             1,
         ),
         (
@@ -35,7 +35,7 @@ REPLACEMENTS: dict[str, list[tuple[str, str, int]]] = {
             "§7채굴하려면 Allthemodium 등급 이상이 필요합니다",
             1,
         ),
-        ("§bFound in any Nether biome", "§b모든 네더 생물군계에서 발견됩니다", 1),
+        ("§bFound in any Nether biome", "§b모든 네더 생물 군계에서 발견됩니다", 1),
         ("§bAlso found in The Other", "§b디 아더에서도 발견됩니다", 1),
         (
             "§7Needs at least Vibranium to be mined",

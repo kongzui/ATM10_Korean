@@ -2,7 +2,7 @@
 	quest.004D61425172324F.quest_desc: ["&8사슬 갑옷&r은 철 갑옷보다 성능이 조금 떨어집니다. &l&2Minecraft&r에서는 거래와 몹 드롭으로만 얻을 수 있다는 희소성이 가장 큰 특징이었습니다.\\n\\n물론 모드팩에서는 이제 제작할 수 있습니다! 덕분에 그 희소성은 사라졌지만요..."]
 	quest.004D61425172324F.quest_subtitle: "12"
 	quest.004D61425172324F.title: "&8사슬 갑옷"
-	quest.041ED280691BB05D.quest_desc: ["&9서리철&r은 &2&lThe Undergarden&r의 추운 생물군계에서 흔히 발견되는 광석입니다."]
+	quest.041ED280691BB05D.quest_desc: ["&9서리철&r은 &2&lThe Undergarden&r의 추운 생물 군계에서 흔히 발견되는 광석입니다."]
 	quest.041ED280691BB05D.quest_subtitle: "18"
 	quest.041ED280691BB05D.title: "&9서리철 갑옷"
 	quest.04B31A600004F7CB.quest_desc: ["이 퀘스트는 AllTheMods 모드팩에 쓰기 위해 &6AllTheMods 스태프&r 또는 &2커뮤니티 기여자&r가 작성했습니다.\\n\\n모든 &6AllTheMods&r 모드팩은 &eAll Rights Reserved&r 라이선스를 따르므로, &6AllTheMods 팀&r이 배포하지 않은 공개 모드팩에서는 명시적인 허가 없이 이 퀘스트를 사용할 수 없습니다.\\n\\n이 퀘스트는 일부러 숨겨 두었습니다. 이 메시지가 보인다면 편집 모드인 상태입니다."]
@@ -195,7 +195,7 @@
 	quest.459BB5B4CDB21773.quest_desc: ["&9늪지 은&r은 &5&lEternal Starlight&r의 진흙투성이 늪에서 발견됩니다."]
 	quest.459BB5B4CDB21773.quest_subtitle: "15"
 	quest.459BB5B4CDB21773.title: "&9늪지 은 갑옷"
-	quest.4664AFCFB5618CEB.quest_desc: ["&b글라사이트&r는 &5&lEternal Starlight&r의 추운 생물군계에서 발견됩니다!"]
+	quest.4664AFCFB5618CEB.quest_desc: ["&b글라사이트&r는 &5&lEternal Starlight&r의 추운 생물 군계에서 발견됩니다!"]
 	quest.4664AFCFB5618CEB.quest_subtitle: "17"
 	quest.4664AFCFB5618CEB.title: "&b글라사이트 갑옷"
 	quest.497D222F74A52DF5.quest_desc: ["바로 이거죠! 철은 아주 흔하고, 철 갑옷은 게임 초반에 정말 훌륭합니다. \\n\\n좀비와 스켈레톤은 상대가 되지 않습니다!"]

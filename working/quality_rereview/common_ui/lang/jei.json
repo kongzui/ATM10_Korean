@@ -11,5 +11,7 @@
   "jei.config.client.appearance.centerSearch.description": "JEI 검색창을 화면 아래쪽 가운데로 옮깁니다.",
   "jei.config.client.lookups": "조회",
   "jei.config.client.lookupHistory.maxIngredients.description": "저장할 조회 기록 재료의 최대 개수입니다.",
-  "description.jei.wooden.door.1": "나무 문으로 몬스터가 건물에 들어오지 못하게 막을 수 있습니다.\\n문장을 테스트하는 중입니다."
+  "description.jei.wooden.door.1": "나무 문으로 몬스터가 건물에 들어오지 못하게 막을 수 있습니다.\\n문장을 테스트하는 중입니다.",
+  "jei.config.client.cheating.cheatToHotbarUsingHotkeysEnabled": "단축키로 아이템을 단축 바에 지급",
+  "jei.config.client.cheating.cheatToHotbarUsingHotkeysEnabled.description": "Shift + 숫자 키로 단축 바에 아이템을 지급하는 기능을 활성화합니다."
 }

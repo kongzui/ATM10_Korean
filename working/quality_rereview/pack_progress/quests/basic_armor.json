@@ -66,7 +66,7 @@
   "quest.729DCB919A92B735.quest_subtitle": "시련의 회당",
   "quest.68DABFFB6B3E1A57.quest_subtitle": "요새",
   "quest.041ED280691BB05D.quest_desc": [
-    "&9서리철&r은 &2&lThe Undergarden&r의 추운 생물군계에서 흔히 발견되는 광석입니다."
+    "&9서리철&r은 &2&lThe Undergarden&r의 추운 생물 군계에서 흔히 발견되는 광석입니다."
   ],
   "quest.34D14B807A2DAC0F.quest_desc": [
     "&5&lMekanism&r과 &l&7Modern Industrialization&r만 최종 단계 방어구를 누릴 수 있다고 생각하셨나요? \\n\\n이 &5퀀텀 갑옷&r는 &c네더라이트 방어구&r과 비슷한 기본 능력치를 지니지만, &a메카슈트&r처럼 에너지를 방패로 사용해 피해의 30%를 무효화할 수 있습니다. \\n\\n비행, 야간 투시, 재충전처럼 사용자를 더욱 강하게 만드는 업그레이드도 설치할 수 있습니다! \\n\\n가장 좋은 점은 저장 시스템에 연결할 수 있다는 것입니다. 그러면 어디에 있든 시스템에서 자동으로 에너지를 끌어오고 아이템을 꺼낼 수 있습니다. "
@@ -76,5 +76,8 @@
   ],
   "quest.52A29269A23F85B3.quest_desc": [
     "&9예티 의상&r에는 우두머리 예티 털이 필요합니다. 예상하셨겠지만 우두머리 예티에게서만 나옵니다. \\n\\n그래도 이 방어구는 적을 얼어붙게 해 느리게 만듭니다!"
+  ],
+  "quest.4664AFCFB5618CEB.quest_desc": [
+    "&b글라사이트&r는 &5&lEternal Starlight&r의 추운 생물 군계에서 발견됩니다!"
   ]
 }

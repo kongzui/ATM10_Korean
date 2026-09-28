@@ -1,5 +1,12 @@
 {
   "ftbessentials.muted": "관리자가 채팅을 금지해서 채팅을 사용할 수 없습니다!",
   "ftbessentials.muted.muted": "플레이어 %s을(를) %s이(가) 음소거했습니다. 기간: %s",
-  "ftbessentials.muted.unmuted": "플레이어 %s의 음소거를 %s이(가) 해제했습니다"
+  "ftbessentials.muted.unmuted": "플레이어 %s의 음소거를 %s이(가) 해제했습니다",
+  "ftbessentials.kit.cooldown_modified": "키트 '%s'의 쿨타임을 변경했습니다: %s",
+  "ftbessentials.kit.cooldown": "쿨타임: %s",
+  "ftbessentials.kit.cooldown.none": "쿨타임 없음",
+  "ftbessentials.kit.on_cooldown": "키트 \"%s\"은(는) 쿨타임 중입니다. 남은 시간: %s",
+  "ftbessentials.kit.cooldown_reset": "%s의 쿨타임을 UUID %s에서 초기화했습니다",
+  "ftbessentials.kit.cooldown_reset_all": "%s의 쿨타임을 모든 플레이어에게서 초기화했습니다",
+  "ftbessentials.teleport.on_cooldown": "아직 순간이동할 수 없습니다! 남은 쿨타임: %s"
 }
