@@ -46,7 +46,7 @@ stable.8·9는 신규 번역 없이 [품질 재검수](QUALITY_REREVIEW_PLAN.md)
 
 2026-09-10 확인: 설치 JAR 488개의 이름·크기가 이전 목록과 같고, 분할 영어 8,922키도
 기존 키별 해시와 같아요. 과거 감사 차이는 경로·이미지 ID·수량 필드·순서로 분류했어요.
-[원문 기준 보고](../versions/8.1/reports/stage1_source_baseline.md)에 판단 근거를 남겨요.
+[원문 기준 보고](archive/reports/8.1/stage1_source_baseline.md)에 판단 근거를 남겨요.
 
 ## 단계 1. 신규 퀘스트 콘텐츠 — Auroral → Neo Vitae
 
@@ -61,8 +61,8 @@ stable.8·9는 신규 번역 없이 [품질 재검수](QUALITY_REREVIEW_PLAN.md)
 Neo Vitae의 작업량 때문에 Auroral 완료 배포를 기다리게 하지 않아요.
 
 2026-09-13: Auroral 언어 148키·가이드 29페이지·퀘스트 46키의 검수와 누적
-[stable.2 ZIP 검증](releases/8.1-stable.2.md)을 마쳤어요. 이어 Neo Vitae 언어 3,053키와
-직접 문구 61키, 퀘스트 105키 검수 및 [stable.3 ZIP 검증](releases/8.1-stable.3.md)을 마쳤어요.
+[stable.2 ZIP 검증](archive/releases/8.1-stable.2.md)을 마쳤어요. 이어 Neo Vitae 언어 3,053키와
+직접 문구 61키, 퀘스트 105키 검수 및 [stable.3 ZIP 검증](archive/releases/8.1-stable.3.md)을 마쳤어요.
 당시 단계 1 작업은 여기서 종료했으며 사용자 설치 후 화면 확인은 별도로 남아 있어요.
 
 ## 단계 2. 신규 우주·자동화 콘텐츠 — Ad Astra 계열 → Logistics Networks → Step Crafter
@@ -76,13 +76,13 @@ Neo Vitae의 작업량 때문에 Auroral 완료 배포를 기다리게 하지 �
 
 2026-09-26: Ad Astra 831키·Giselle Addon 168키와 Astrodux 가이드 35파일·165문구의
 검수·파일 검증을 마쳤어요. 퀘스트 구조 66챕터에 관련 참조가 없고 KubeJS는 제작법·태그
-식별자만 참조하므로 변경하지 않았어요. [stable.4 배포 안내](releases/8.1-stable.4.md)와
-[완료 보고](../versions/8.1/reports/ad_astra_completion.md)를 참고하세요.
+식별자만 참조하므로 변경하지 않았어요. [stable.4 배포 안내](archive/releases/8.1-stable.4.md)와
+[완료 보고](archive/reports/8.1/ad_astra_completion.md)를 참고하세요.
 2026-09-27: Logistics Networks 일반 언어 454키·가이드 등록 2키와 GuideME 17페이지를
-검수하고 [stable.5](releases/8.1-stable.5.md)에 누적했어요. FTB Quests·KubeJS 관련 참조는 없어요.
+검수하고 [stable.5](archive/releases/8.1-stable.5.md)에 누적했어요. FTB Quests·KubeJS 관련 참조는 없어요.
 현재 코드와 다른 오래된 가이드 설명은 근거를 남기고 교정했어요.
 같은 날 Step Crafter 79키의 전체 번역·표시 경로 검수도 마치고
-[stable.6](releases/8.1-stable.6.md)에 누적했어요. 별도 가이드·관련 퀘스트·KubeJS 문구는 없어요.
+[stable.6](archive/releases/8.1-stable.6.md)에 누적했어요. 별도 가이드·관련 퀘스트·KubeJS 문구는 없어요.
 단계 2의 파일 작업은 끝났으며 실제 게임 화면 확인은 남아 있어요.
 
 ## 단계 3. 작은 신규 UI와 기존 누락 정리

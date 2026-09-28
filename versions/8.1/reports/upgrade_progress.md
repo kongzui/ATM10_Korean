@@ -81,7 +81,7 @@
 - KubeJS 추가 표시 문구 변경 없음. 보조 번역 실행 코드와 7.1 산출물은 이전 상태 유지.
 - 전체 문법·보호 문자열·현재 원문·범위·ZIP 무결성 검사와 Python Ruff 검사 통과.
 - 보고서: `8.1-stable.3_stable_validation.json`; ZIP 목록: `../manifests/8.1-stable.3_packages.json`.
-- [Neo Vitae 완료 보고](neovitae_completion.md)에 원문 설명 차이와 처리 근거 기록.
+- [Neo Vitae 완료 보고](../../../docs/archive/reports/8.1/neovitae_completion.md)에 원문 설명 차이와 처리 근거 기록.
 - 실제 인스턴스에 적용하지 않았어요. 새 번역의 게임 화면 확인은 사용자 설치 후 진행해요.
 - 사용자의 이번 작업 단위까지만 완료하라는 지시에 따라 단계 2 이후는 시작하지 않아요.
 
@@ -97,7 +97,7 @@
 - 커밋 단위: 언어 `2e589ee`, 가이드·관련 표시 경로 `43b5f70`, 이후 stable.4 배포·적용 기록.
 - 기존 스크립트로 폴더팩의 이번 번역 37파일만 적용했고, 그 외 파일과 options.txt는 보존했어요.
   현재 활성 팩은 stable.1 ZIP이므로 누적 stable.4 ZIP을 활성화해야 해요. 게임 화면은 미검증이에요.
-- [완료 보고](ad_astra_completion.md), `ad_astra_apply.json`,
+- [완료 보고](../../../docs/archive/reports/8.1/ad_astra_completion.md), `ad_astra_apply.json`,
   `8.1-stable.4_stable_validation.json`과 `../manifests/8.1-stable.4_packages.json`에 근거를 남겨요.
 - Logistics Network 이후는 시작하지 않았어요.
 
@@ -111,7 +111,7 @@
 - 누적 JSON 1,802/SNBT 76/JS 27개 검증과 ZIP 두 개의 CRC·전체 내용 대조를 통과했어요.
 - 게임 종료 상태에서 19개 파일만 `game_root`의 폴더팩에 적용했고 범위 밖 변경은 없어요.
   개인 설정은 보존했어요. 선택된 팩은 stable.1 ZIP이므로 새 팩 활성화와 실제 화면 확인이 남아 있어요.
-- [완료 보고](logisticsnetworks_completion.md), [가이드 근거](logisticsnetworks_guide.md),
+- [완료 보고](../../../docs/archive/reports/8.1/logisticsnetworks_completion.md), [가이드 근거](../../../docs/archive/reports/8.1/logisticsnetworks_guide.md),
   [전체 검증](8.1-stable.5_stable_validation.json), [패키지 목록](../manifests/8.1-stable.5_packages.json)에 기록해요.
 - 이번 작업은 여기서 종료해요. 다음 대상은 Step Crafter 79키예요.
 
@@ -125,7 +125,7 @@
 - stable.6 ZIP 두 개의 루트·CRC·전체 내용 해시를 확인했어요. override는 stable.5와 같아요.
 - 게임 종료 상태에서 언어 1파일만 `game_root` 폴더팩에 적용했어요. 범위 밖 변경과 개인 설정
   변경은 없어요. 현재 활성 팩은 stable.1 ZIP이므로 새 팩 활성화와 실제 화면 확인이 남아 있어요.
-- [완료 보고](stepcrafter_completion.md), [전체 검증](8.1-stable.6_stable_validation.json),
+- [완료 보고](../../../docs/archive/reports/8.1/stepcrafter_completion.md), [전체 검증](8.1-stable.6_stable_validation.json),
   [패키지 목록](../manifests/8.1-stable.6_packages.json), [적용 기록](stepcrafter_apply.json)을 남겼어요.
 - 단계 2의 파일 작업을 마쳤어요. 다음 대상은 Better Advanced Tooltips 5키예요.
 
@@ -137,7 +137,7 @@
 - 전체 JSON 1,804/SNBT 76/JavaScript 27개, 기존 번역 보존, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
 - 원본 6,365파일의 조사 전후 상태가 같았고, 게임 종료 상태에서 새 언어 파일 1개만 적용했어요.
   범위 밖 파일과 개인 설정은 보존했어요. 선택 팩은 stable.1이므로 새 팩 활성화가 필요해요.
-- [완료 보고](betteradvancedtooltips_completion.md), [배포 안내](../../../docs/releases/8.1-stable.7.md),
+- [완료 보고](../../../docs/archive/reports/8.1/betteradvancedtooltips_completion.md), [배포 안내](../../../docs/archive/releases/8.1-stable.7.md),
   [패키지 목록](../manifests/8.1-stable.7_packages.json)에 근거를 남겨요.
 - 실제 게임 화면은 미검증이에요. 다음 대상은 Borderless Window 21키예요.
 
@@ -147,7 +147,7 @@
 - 언어 5개 네임스페이스 67키 중 3키, KubeJS 2파일 8줄을 고쳤어요. 신규 번역은 없어요.
 - 전체 JSON 1,804/SNBT 76/JavaScript 27개, 재검수 누적 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
 - 게임 종료 상태에서 23파일만 선택 적용했고 예상 밖 변경과 개인 설정 변경은 없었어요.
-- [재검수 보고](quality_rereview_pack_progress.md), [배포 안내](../../../docs/releases/8.1-stable.8.md),
+- [재검수 보고](quality_rereview_pack_progress.md), [배포 안내](../../../docs/archive/releases/8.1-stable.8.md),
   [패키지 목록](../manifests/8.1-stable.8_packages.json)에 근거를 남겨요.
 - 실제 게임 화면은 미검증이에요. 다음은 재검수 2순위 공통 UI예요.
 

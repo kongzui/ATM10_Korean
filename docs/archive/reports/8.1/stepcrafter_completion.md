@@ -27,7 +27,7 @@
 - 실제 적용 파일:
   `C:/Users/moon9/curseforge/minecraft/Instances/All the Mods 10 - ATM10 (1)/resourcepacks/ATM10_Korean/assets/stepcrafter/lang/ko_kr.json`.
 - 백업·복구 목록: `temp/backups/20260927_022645_133721/backup_manifest.json`.
-- [적용 결과·보존한 활성 팩 설정](stepcrafter_apply.json).
+- [적용 결과·보존한 활성 팩 설정](../../../../versions/8.1/reports/stepcrafter_apply.json).
 - `temp/releases/8.1-stable.6/ATM10_Korean_8.1-stable.6_resourcepack.zip`:
   2,388파일, 5,169,120바이트.
 - `temp/releases/8.1-stable.6/ATM10_Korean_8.1-stable.6_overrides.zip`:
@@ -37,10 +37,10 @@
 ## 검증·배포 근거
 
 - [언어·표시 경로 검수](stepcrafter_translation.md)
-- [모드 검증](stepcrafter_validation.json)
-- [누적 stable.6 검증](8.1-stable.6_stable_validation.json)
-- [ZIP 파일 목록·SHA256](../manifests/8.1-stable.6_packages.json)
-- [배포·설치 안내](../../../docs/releases/8.1-stable.6.md)
+- [모드 검증](../../../../versions/8.1/reports/stepcrafter_validation.json)
+- [누적 stable.6 검증](../../../../versions/8.1/reports/8.1-stable.6_stable_validation.json)
+- [ZIP 파일 목록·SHA256](../../../../versions/8.1/manifests/8.1-stable.6_packages.json)
+- [배포·설치 안내](../../releases/8.1-stable.6.md)
 
 ZIP 두 개는 `temp/releases/8.1-stable.6/`에 생성했어요. 원본 JAR·월드·7.1 산출물은 보존하고
 보조 번역 실행 코드는 추가하지 않아요. 언어와 표시 경로 검수는

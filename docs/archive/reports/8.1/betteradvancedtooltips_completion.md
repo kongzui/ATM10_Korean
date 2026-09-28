@@ -37,5 +37,5 @@
 
 설정 5키는 번역 완료지만 게임 화면은 확인하지 않았어요. 코드가 직접 표시하는 `Fuel:`과
 데이터 오류 안내는 원문으로 유지해요. 보조 번역 코드는 추가하지 않았어요.
-[표시 경로 조사](betteradvancedtooltips_translation.md)에서 구체적인 근거를 확인할 수 있어요.
+[표시 경로 조사](../../../../versions/8.1/reports/betteradvancedtooltips_translation.md)에서 구체적인 근거를 확인할 수 있어요.
 다음 대상은 Borderless Window 21키예요.

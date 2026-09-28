@@ -54,8 +54,8 @@ Node.js 문법 검사는 Rhino 및 Minecraft의 Java 연동을 증명하지 못�
 이전 검증에서 화면만 Java 객체로 바꾼 뒤에도 채팅과 동적 툴팁의 검증 공백이 남았어요.
 과거 수정판의 검사 통과 기록을 전체 게임에서 정상 작동한다는 증거로 사용하지 않아요.
 
-관련 기록: `versions/8.1/reports/startup_hotfix_release.md`,
-`versions/8.1/reports/screen_crash_fix.md`. 보조 코드 원본은 `working/`의 AppleSkin,
+관련 기록: `docs/archive/reports/8.1/startup_hotfix_release.md`,
+`docs/archive/reports/8.1/screen_crash_fix.md`. 보조 코드 원본은 `working/`의 AppleSkin,
 Mouse Tweaks, EnderDrives 작업 폴더와 Git 이력에 검토 자료로 남겨요. 현재 배포용 코드가 아니에요.
 `verify_startup_hotfix.py` 등 이전 보조 기능 검사는 현재 안정판을 검증하는 명령이 아니에요.
 

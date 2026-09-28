@@ -34,14 +34,14 @@
 - 적용 파일: `lang/ko_kr.json`, `guideme_guides/guide.json`,
   `guides/logisticsnetworks/guide/_ko_kr/` 아래의 17개 Markdown 페이지.
 - 백업·복구 목록: `temp/backups/20260927_020750_565040/backup_manifest.json`.
-- 정확한 파일 목록과 적용 검증: [적용 기록](logisticsnetworks_apply.json).
+- 정확한 파일 목록과 적용 검증: [적용 기록](../../../../versions/8.1/reports/logisticsnetworks_apply.json).
 - 누적 리소스팩: `temp/releases/8.1-stable.5/ATM10_Korean_8.1-stable.5_resourcepack.zip`
   (2,387파일, 5,167,234바이트).
 - 누적 overrides: `temp/releases/8.1-stable.5/ATM10_Korean_8.1-stable.5_overrides.zip`
   (335파일, 6,456,261바이트).
 - 두 ZIP 모두 CRC·루트·전체 내용 해시를 검증했어요. ZIP과 백업은 Git에 넣지 않아요.
-- 상세 SHA256: [패키지 목록](../manifests/8.1-stable.5_packages.json).
-- 전체 검증: [stable.5 검증](8.1-stable.5_stable_validation.json).
+- 상세 SHA256: [패키지 목록](../../../../versions/8.1/manifests/8.1-stable.5_packages.json).
+- 전체 검증: [stable.5 검증](../../../../versions/8.1/reports/8.1-stable.5_stable_validation.json).
 
 ## 작업 단위 커밋
 

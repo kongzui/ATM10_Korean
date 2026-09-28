@@ -34,7 +34,7 @@
 - [ ] 실제 게임에서 설정 화면과 툴팁 확인.
 
 [표시 경로 근거](versions/8.1/reports/betteradvancedtooltips_translation.md)와
-[완료 보고](versions/8.1/reports/betteradvancedtooltips_completion.md)에 기록해요.
+[완료 보고](docs/archive/reports/8.1/betteradvancedtooltips_completion.md)에 기록해요.
 선택된 팩은 stable.1 ZIP이므로 stable.7 팩 활성화와 실제 화면 확인이 필요해요.
 다음 대상은 Borderless Window 21키예요.
 
@@ -47,7 +47,7 @@
 - [x] 누적 전체 검증, stable.6 ZIP 두 개 생성, 게임 종료 상태에서 언어 1파일 적용.
 - [ ] 실제 게임에서 제작기·요청기·관리자·모니터 화면 확인.
 
-언어·표시 경로는 `8a670aa`로 커밋했어요. [완료 보고](versions/8.1/reports/stepcrafter_completion.md)에
+언어·표시 경로는 `8a670aa`로 커밋했어요. [완료 보고](docs/archive/reports/8.1/stepcrafter_completion.md)에
 배포·적용 근거를 기록해요. 현재 선택된 팩은 stable.1 ZIP이므로 새 stable.6 팩 활성화가 필요해요.
 Step Crafter 작업은 여기서 마치며 다음 대상은 Better Advanced Tooltips 5키예요.
 
@@ -61,7 +61,7 @@ Step Crafter 작업은 여기서 마치며 다음 대상은 Better Advanced Tool
 - [ ] 실제 게임에서 노드·필터·렌치·컴퓨터 화면과 가이드 확인.
 
 언어 `7aac04a`, 가이드·표시 경로 `6fbd2b1`로 커밋했어요.
-[완료 보고](versions/8.1/reports/logisticsnetworks_completion.md)에 적용 경로와 검증 근거를 기록해요.
+[완료 보고](docs/archive/reports/8.1/logisticsnetworks_completion.md)에 적용 경로와 검증 근거를 기록해요.
 현재 선택된 번역 팩은 stable.1 ZIP이에요. 새 stable.5 ZIP 활성화 후 화면 확인이 남아 있어요.
 Logistics Networks 작업은 당시 여기서 종료했고, 다음 Step Crafter 진행 결과는 위에 기록해요.
 
@@ -75,7 +75,7 @@ Logistics Networks 작업은 당시 여기서 종료했고, 다음 Step Crafter 
 - [x] 누적 ZIP 두 개 검증과 선택 파일 37개 적용 결과 기록.
 - [ ] 실제 게임에서 JEI·기계 UI·가이드·애드온 화면 확인.
 
-세부 근거는 [완료 보고](versions/8.1/reports/ad_astra_completion.md)에 기록해요.
+세부 근거는 [완료 보고](docs/archive/reports/8.1/ad_astra_completion.md)에 기록해요.
 
 ## 현재 기준
 
@@ -98,7 +98,7 @@ Logistics Networks 작업은 당시 여기서 종료했고, 다음 Step Crafter 
 ## Neo Vitae 전체 · 8.1-stable.3
 
 언어 3,053키와 직접 표시 문구 61키, 퀘스트 105키 검수를 마쳤어요.
-세부 수치와 원문 차이는 [완료 보고](versions/8.1/reports/neovitae_completion.md)에 있어요.
+세부 수치와 원문 차이는 [완료 보고](docs/archive/reports/8.1/neovitae_completion.md)에 있어요.
 
 - [x] 현재 JAR 영어 3,053키·한국어 후보 유무와 가이드·퀘스트 조사.
 - [x] 일반 이름·UI·툴팁·가이드 언어 전체 검수와 용어 통일.
@@ -107,7 +107,7 @@ Logistics Networks 작업은 당시 여기서 종료했고, 다음 Step Crafter 
 - [x] 다음 누적 ZIP 두 개 생성·검증과 배포 문서·현황 갱신.
 - [ ] 사용자 설치 후 해당 모드의 게임 확인 결과 기록.
 
-원문 기준의 상세 근거는 [단계 0 보완 보고](versions/8.1/reports/stage1_source_baseline.md)에 있어요.
+원문 기준의 상세 근거는 [단계 0 보완 보고](docs/archive/reports/8.1/stage1_source_baseline.md)에 있어요.
 사용자 설치 후 화면 확인은 파일·정적 검증과 구분해 대기 항목으로 남겨요.
 단계 1 당시에는 실제 인스턴스를 수정하지 않았어요. 이번 적용은 현재 `AGENTS.md`를 따르며,
 7.1 안정판과 보조 코드 제외 방침을 유지해요.
