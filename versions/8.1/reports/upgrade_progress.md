@@ -140,3 +140,13 @@
 - [완료 보고](betteradvancedtooltips_completion.md), [배포 안내](../../../docs/releases/8.1-stable.7.md),
   [패키지 목록](../manifests/8.1-stable.7_packages.json)에 근거를 남겨요.
 - 실제 게임 화면은 미검증이에요. 다음 대상은 Borderless Window 21키예요.
+
+## 2026-09-29 · 품질 재검수 1순위 누적 stable.8
+
+- 팩 공통 진행 퀘스트 19파일 2,023키를 현재 영어와 다시 대조해 575키를 고치고 1,448키를 유지했어요.
+- 언어 5개 네임스페이스 67키 중 3키, KubeJS 2파일 8줄을 고쳤어요. 신규 번역은 없어요.
+- 전체 JSON 1,804/SNBT 76/JavaScript 27개, 재검수 누적 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
+- 게임 종료 상태에서 23파일만 선택 적용했고 예상 밖 변경과 개인 설정 변경은 없었어요.
+- [재검수 보고](quality_rereview_pack_progress.md), [배포 안내](../../../docs/releases/8.1-stable.8.md),
+  [패키지 목록](../manifests/8.1-stable.8_packages.json)에 근거를 남겨요.
+- 실제 게임 화면은 미검증이에요. 다음은 재검수 2순위 공통 UI예요.

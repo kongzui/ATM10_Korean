@@ -22,7 +22,7 @@ REPLACEMENTS: dict[str, list[tuple[str, str, int]]] = {
         ),
         (
             "§6Found in the Deep Dark Biome and will always spawn air exposed",
-            "§6딥 다크 생물 군계에서 공기에 노출된 상태로 생성됩니다",
+            "§6깊은 어둠 생물군계에서 항상 공기와 맞닿은 곳에 생성됩니다",
             1,
         ),
         (
@@ -35,15 +35,15 @@ REPLACEMENTS: dict[str, list[tuple[str, str, int]]] = {
             "§7채굴하려면 Allthemodium 등급 이상이 필요합니다",
             1,
         ),
-        ("§bFound in any Nether biome", "§b모든 네더 생물 군계에서 발견됩니다", 1),
+        ("§bFound in any Nether biome", "§b모든 네더 생물군계에서 발견됩니다", 1),
         ("§bAlso found in The Other", "§b디 아더에서도 발견됩니다", 1),
         (
             "§7Needs at least Vibranium to be mined",
             "§7채굴하려면 Vibranium 등급 이상이 필요합니다",
             1,
         ),
-        ("§dFound in the End Highlands", "§d엔드 고지대에서 발견됩니다", 1),
-        ("§7§oIt's less... talkative now", "§7§o이제 덜... 시끄럽네요", 3),
+        ("§dFound in the End Highlands", "§d엔드 고지에서 발견됩니다", 1),
+        ("§7§oIt's less... talkative now", "§7§o이제 좀... 말수가 줄었네요", 3),
         (
             "§7§oThese arent the ingots you are looking for",
             "§7§o찾으시는 주괴가 아닙니다",
@@ -76,7 +76,7 @@ REPLACEMENTS: dict[str, list[tuple[str, str, int]]] = {
         ),
         (
             "§dDropped by the Trial Spawner in the Library of the Dungeon within The Other",
-            "§d디 아더 던전의 도서관에 있는 시험 생성기에서 나옵니다",
+            "§d디 아더 던전 도서관의 시련 생성기에서 나옵니다",
             1,
         ),
     ],

@@ -1,0 +1,59 @@
+{
+  "quest.01046CFBD7411AA6.quest_subtitle": "채굴 등급: &54",
+  "quest.01EE2526B43B6502.quest_subtitle": "채굴 등급: &b3",
+  "quest.1756F81ACFC56C58.quest_subtitle": "채굴 등급: &e5",
+  "quest.1D3F11194EA3BB73.quest_subtitle": "채굴 등급: &b3",
+  "quest.275D97BF0CE9DCD4.quest_subtitle": "채굴 등급: &b3",
+  "quest.299F56B753286D0C.quest_subtitle": "채굴 등급: &e5",
+  "quest.29A05589E96C0569.quest_subtitle": "채굴 등급: &54",
+  "quest.2DB53A77C3CD90F1.quest_subtitle": "채굴 등급: &b3",
+  "quest.2E6D11A5F5626A6C.quest_subtitle": "채굴 등급: &f2",
+  "quest.2EE4E88FC814AFA4.quest_subtitle": "채굴 등급: &91",
+  "quest.3B88D58B11B5DC78.quest_subtitle": "채굴 등급: &54",
+  "quest.3BF1900346772703.quest_subtitle": "채굴 등급: &f2",
+  "quest.3CD307DDD6A5F5A3.quest_subtitle": "&f4 &c공격 피해",
+  "quest.4CE6EB54B12EF6C5.quest_subtitle": "&f10 &c공격 피해",
+  "quest.512396B331108BAF.quest_subtitle": "채굴 등급: &e5",
+  "quest.51DBE688ED630DB1.quest_subtitle": "채굴 등급: &54",
+  "quest.58DDD32F849940A0.quest_subtitle": "채굴 등급: &d6",
+  "quest.5A2908437EC43AC6.quest_subtitle": "채굴 등급: &54",
+  "quest.5CD65553EF60029B.quest_subtitle": "채굴 등급: &54",
+  "quest.609D03E335CF32E2.quest_subtitle": "채굴 등급: &d6",
+  "quest.64EED65F80A91D9E.quest_subtitle": "채굴 등급: &b3",
+  "quest.70ED849A2EB44DEE.quest_subtitle": "채굴 등급: &b3",
+  "quest.791A981914CE345F.quest_subtitle": "&f10 &c공격 피해",
+  "quest.79EF24E396779B9F.quest_subtitle": "채굴 등급: &f2",
+  "quest.7B1818D2C5C2BB18.quest_subtitle": "채굴 등급: &e5",
+  "quest.7EC7E12C0880F8F5.quest_subtitle": "채굴 등급: &e5",
+  "quest.17FE0C7748DD65CA.quest_desc": [
+    "&5채굴 등급 4&r는 다이아몬드 도구 단계로, 흑요석과 네더라이트를 캘 수 있습니다. 우라늄이나 백금 같은 일부 모드 광석도 캘 수 있습니다."
+  ],
+  "quest.17FE0C7748DD65CA.title": "&5채굴 등급 4",
+  "quest.3917DECAEF56A06A.quest_desc": [
+    "&f채굴 등급 2&r는 돌 곡괭이 단계이며, 사실상 철 광석을 캘 때만 필요합니다."
+  ],
+  "quest.3917DECAEF56A06A.title": "&f채굴 등급 2",
+  "quest.57F47BA495B27F83.quest_desc": [
+    "&9채굴 등급 1&r은 곡괭이가 필요한 블록 중 가장 낮은 단계입니다. 어떤 곡괭이로든 캘 수 있으며, 돌, 화로, 석탄 광석 등이 채굴 등급 1에 속합니다."
+  ],
+  "quest.57F47BA495B27F83.title": "&9채굴 등급 1",
+  "quest.6601450C63FEEE61.quest_desc": [
+    "&b채굴 등급 3&r은 철 곡괭이 단계이며, 다이아몬드, 에메랄드, 금 등 대부분의 광석을 캘 수 있습니다."
+  ],
+  "quest.6601450C63FEEE61.title": "&b채굴 등급 3",
+  "quest.2DB53A77C3CD90F1.quest_desc": [
+    "식물학자의 곡괭이는 상호작용한 블록을 이끼 낀 형태로 바꿉니다. 이끼 낀 형태가 있는 블록에 한해서요."
+  ],
+  "quest.7B1818D2C5C2BB18.quest_desc": [
+    "영혼걸음꾼의 곡괭이로는 이어진 광석을 한 번에 캐는 \"광맥 채굴\"을 할 수 있습니다."
+  ],
+  "task.18DA9065596F9097.title": "모드 금속 철 곡괭이",
+  "task.20BE26C2CE1F9749.title": "수프레뮴 곡괭이",
+  "task.224A2A7012749DFC.title": "마법 모드 철 곡괭이",
+  "task.236DA60F43220525.title": "마법 모드 철 검",
+  "task.53C6E9EAC8AC15EB.title": "Allthemodium 곡괭이",
+  "task.6A098C929647B0A6.title": "마법 모드 다이아몬드 검",
+  "quest.03E05018D64DDEE1.quest_desc": [
+    "&e채굴 등급 5&r는 사실상 Allthemodium 광석을 캘 때만 쓰는 단계이며, 그 밖의 쓰임은 거의 없습니다."
+  ]
+}

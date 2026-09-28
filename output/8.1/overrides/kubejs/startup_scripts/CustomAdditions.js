@@ -148,7 +148,7 @@ StartupEvents.registry('fluid', allthemods => {
 
     allthemods.create('liquid_aureal', 'thin')
         .tint(0x7abaff)
-        .displayName('액체 Aureal')
+        .displayName('액체 아우레알')
         .noBlock()
 })
 

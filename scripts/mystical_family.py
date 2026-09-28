@@ -1010,8 +1010,8 @@ def build_kubejs(instance: Path) -> dict[str, object]:
     source = instance / relative
     text = source.read_text(encoding="utf-8-sig")
     replacements = {
-        'Text.of("§cDisabled for Fake Player")': 'Text.of("§c가짜 플레이어로 사용할 수 없습니다")',
-        'Text.of("§c(Blocks like Modular Routers, Clickers, etc)")': 'Text.of("§c(Modular Routers, Clickers 같은 블록 포함)")',
+        'Text.of("§cDisabled for Fake Player")': 'Text.of("§c가짜 플레이어에게는 비활성화됩니다")',
+        'Text.of("§c(Blocks like Modular Routers, Clickers, etc)")': 'Text.of("§c(Modular Routers, 클릭기 같은 블록)")',
     }
     output_text = text
     for old, new in replacements.items():
@@ -1379,8 +1379,8 @@ def verify_related(
         OUTPUT_OVERRIDES / "kubejs/startup_scripts/CustomAdditions.js"
     ).read_text(encoding="utf-8")
     expected_kubejs_literals = (
-        "§c가짜 플레이어로 사용할 수 없습니다",
-        "§c(Modular Routers, Clickers 같은 블록 포함)",
+        "§c가짜 플레이어에게는 비활성화됩니다",
+        "§c(Modular Routers, 클릭기 같은 블록)",
         "§b마법 토양",
         "공기 에센스 블록",
         "대지 에센스 블록",

@@ -191,7 +191,13 @@ def verify(version: str, *, write_report: bool = True) -> dict:
         "deployment": (
             "not_verified_by_release_validator_see_apply_report"
             if release["release_id"]
-            in {"8.1-stable.4", "8.1-stable.5", "8.1-stable.6", "8.1-stable.7"}
+            in {
+                "8.1-stable.4",
+                "8.1-stable.5",
+                "8.1-stable.6",
+                "8.1-stable.7",
+                "8.1-stable.8",
+            }
             else "not_applied_user_will_install"
         ),
         "transition_validation": (

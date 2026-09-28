@@ -53,6 +53,12 @@ ENGLISH_MANIFEST = active_manifest_dir() / "ftbquests_english_hashes.json"
 VALIDATION_ERROR_EXCEPTIONS = {
     # 영어 원문의 불완전한 공식 모드명을 정식 명칭으로 바로잡는다.
     "quest.1FE17B1C7C639F88.quest_desc": {"숫자 불일치"},
+    # 영어 수 단위 1 Billion을 한국어 단위 10억으로 옮긴다.
+    "quest.7B3613C01F0B1373.quest_desc": {"숫자 불일치"},
+    # 영어 수 단위 85 Million을 한국어 단위 8500만으로 옮긴다.
+    "quest.62DDE5B1287BEB36.quest_desc": {"숫자 불일치"},
+    # 영어 수 단위 2 Billion을 한국어 단위 20억으로 옮긴다.
+    "quest.6F152402756DA35E.quest_desc": {"숫자 불일치"},
 }
 
 

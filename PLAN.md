@@ -1,9 +1,19 @@
-# 진행 작업: ATM10 8.1 Better Advanced Tooltips 누적 번역 업데이트
+# 진행 작업: ATM10 8.1 전체 번역 품질 재검수
 
-전체 순서는 [8.1 로드맵](docs/ATM10_VERSION_TRANSLATION_UPGRADE_PLAN.md),
-대상과 키 수는 [번역 현황](docs/MOD_TRANSLATION_PLAN.md), 규칙은 `AGENTS.md`를 따라요.
-이번 요청은 다음 모드인 Better Advanced Tooltips예요. 설정 5키와 관련 표시 경로를 검수해요.
-작업에 관련된 Markdown도 번역·배포 단위와 함께 커밋해요.
+순서와 기준은 [재검수 계획](docs/QUALITY_REREVIEW_PLAN.md), 규칙은 `AGENTS.md`를 따라요.
+이번 요청은 계획의 순서대로 이미 번역된 계열을 다시 검수하는 작업이에요. 계열 하나가 끝날 때마다
+검증·커밋·적용하고 계획의 진행 현황을 갱신해요. 신규 번역과 보조 번역 코드는 범위 밖이에요.
+
+## 재검수 1순위 · 팩 공통 진행 퀘스트 · 8.1-stable.8
+
+- [x] 퀘스트 19파일 2,023키를 현재 분할 영어와 대조, 575키 수정·1,448키 유지.
+- [x] 언어 5개 네임스페이스 67키 검토(3키 수정), KubeJS 6파일 검토(2파일 8줄 수정).
+- [x] 모드명 음역·번역체·오역·깨진 문장·서식 코드 위치와 아이템 이름 일치 교정.
+- [x] 재검수·누적 전체 검증, stable.8 ZIP 두 개 생성, 게임 종료 상태에서 23파일 선택 적용.
+- [ ] 실제 게임에서 메인 퀘스트·2장·3장·건축 팁 화면 확인.
+
+[재검수 보고](versions/8.1/reports/quality_rereview_pack_progress.md)에 수정 유형과 다른 계열로
+넘긴 아이템 이름을 기록해요. 다음 계열은 2순위 항상 보는 공통 UI예요.
 
 ## Better Advanced Tooltips · 8.1-stable.7
 

@@ -7,27 +7,27 @@ ItemEvents.modifyTooltips(allthemods => {
 
     allthemods.add(['allthemodium:allthemodium_ore', 'allthemodium:allthemodium_slate_ore'],[
         Text.of('§7채굴하려면 네더라이트 등급 이상이 필요합니다'),
-        Text.of('§6딥 다크 생물 군계에서 공기에 노출된 상태로 생성됩니다'),
+        Text.of('§6깊은 어둠 생물군계에서 항상 공기와 맞닿은 곳에 생성됩니다'),
         Text.of('§6채굴 차원의 심층암 지층에서도 발견됩니다')
     ])
     allthemods.add(['allthemodium:vibranium_ore', 'allthemodium:other_vibranium_ore'],[
         Text.of('§7채굴하려면 Allthemodium 등급 이상이 필요합니다'),
-        Text.of('§b모든 네더 생물 군계에서 발견됩니다'),
+        Text.of('§b모든 네더 생물군계에서 발견됩니다'),
         Text.of('§b디 아더에서도 발견됩니다')
     ])
     allthemods.add('allthemodium:unobtainium_ore',[
         Text.of('§7채굴하려면 Vibranium 등급 이상이 필요합니다'),
-        Text.of('§d엔드 고지대에서 발견됩니다')
+        Text.of('§d엔드 고지에서 발견됩니다')
     ])
 
     allthemods.add('kubejs:silent_allthemodium_plate',[
-        Text.of("§7§o이제 덜... 시끄럽네요")
+        Text.of("§7§o이제 좀... 말수가 줄었네요")
     ])
     allthemods.add('kubejs:silent_vibranium_plate',[
-        Text.of("§7§o이제 덜... 시끄럽네요")
+        Text.of("§7§o이제 좀... 말수가 줄었네요")
     ])
     allthemods.add('kubejs:silent_unobtainium_plate',[
-        Text.of("§7§o이제 덜... 시끄럽네요")
+        Text.of("§7§o이제 좀... 말수가 줄었네요")
     ])
 
     allthemods.add('allthemodium:allthemodium_ingot',[
@@ -51,7 +51,7 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of('§b보루 잔해의 수상한 영혼 모래에서 발견됩니다')
     ])
     allthemods.add('allthemodium:unobtainium_upgrade_smithing_template',[
-        Text.of('§d디 아더 던전의 도서관에 있는 시험 생성기에서 나옵니다')
+        Text.of('§d디 아더 던전 도서관의 시련 생성기에서 나옵니다')
     ])
 
     //Forbidden Arcanus
@@ -131,7 +131,7 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of("§a약탈자 전초기지에서 찾을 수 있습니다"),
     ])
     allthemods.add('forbidden_arcanus:soul_crimson_stone',[
-        Text.of("§c한 번 사용하면 크림슨 스톤으로 바뀝니다"),
+        Text.of("§c한 번 사용하면 크림슨 돌로 바뀝니다"),
     ])
     allthemods.add('forbidden_arcanus:elementarium',[
         Text.of("§a정글 사원, 사막 피라미드, 해저 폐허에서 찾을 수 있습니다"),
@@ -145,8 +145,8 @@ ItemEvents.modifyTooltips(allthemods => {
 
     //Mystical Agriculture
     allthemods.add(/mysticalagriculture:.*watering_can/,[
-        Text.of("§c가짜 플레이어로 사용할 수 없습니다"),
-        Text.of("§c(Modular Routers, Clickers 같은 블록 포함)")
+        Text.of("§c가짜 플레이어에게는 비활성화됩니다"),
+        Text.of("§c(Modular Routers, 클릭기 같은 블록)")
     ])
 
     allthemods.add('toolbelt:belt', [

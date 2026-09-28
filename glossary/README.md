@@ -292,12 +292,25 @@
 | Slot Upgrade | 슬롯 업그레이드 | 아이템명 | Step Crafter | 확정 | Upgrade는 업그레이드로 유지 |
 | Component / Component Count | 구성 요소 / 구성 요소 개수 | 설정·툴팁 | Better Advanced Tooltips | 확정 | 아이템 데이터 구성 요소를 뜻하며 제작 부품과 구분 |
 
+### 품질 재검수 1순위 · 팩 공통 진행 퀘스트
+
+| 영어 | 한국어 | 종류 | 적용 범위 | 상태 | 비고 |
+|---|---|---|---|---|---|
+| Generator Galore | Generator Galore | 공식 모드명 | 전체 프로젝트 | 확정 | JAR 표시 이름을 따르며 퀘스트 원문의 `Generators Galore`·`Generator's Galore`도 이 표기로 통일 |
+| Chipped | Chipped | 공식 모드명 | 전체 프로젝트 | 확정 | `금 간`, `살짝 깨진`처럼 뜻으로 번역하지 않음 |
+| Harvest Tier / Tier (곡괭이) | 채굴 등급 | 공통 퀘스트 용어 | 기본 도구 퀘스트와 채굴 조건 툴팁 | 확정 | `티어`, `계층`, `수확 티어`와 섞지 않음 |
+| Augment (Iron Furnaces) | 증강 | 아이템 분류명 | Iron Furnaces 및 관련 퀘스트 | 확정 | 화로 업그레이드 설명에서도 `강화`로 바꾸지 않음 |
+| Trial Chambers / Trial Spawner | 시련의 회당 / 시련 생성기 | Minecraft 구조물·블록명 | 전체 프로젝트 | 확정 | Minecraft 공식 한국어. `시험의 방`, `시험 생성기`와 섞지 않음 |
+| Kitchensink pack | 키친싱크 모드팩 | 공통 표현 | 팩 소개 퀘스트 | 확정 | 온갖 모드를 담은 팩을 뜻하는 관용 표현 |
+| Common / Uncommon / Rare / Epic / Legendary (보상) | 일반 / 고급 / 희귀 / 영웅 / 전설 | 보상 등급 | FTB Quests 보상 테이블 | 확정 | `언커먼`, `에픽`처럼 음역하지 않음 |
+
 ## 5. 보류 용어
 
 아직 확정하지 않은 고유명사나 전문용어는 임의로 번역하지 않고 아래 표에 기록한다.
 
 | 영어 원문 | 후보 번역 | 등장 모드와 문맥 | 보류 이유 |
 |---|---|---|---|
+| Trail Ruins | 흔적 폐허 | Minecraft 구조물, 기본 방어구·메인 퀘스트 | 퀘스트 표기를 통일했지만 Minecraft 공식 한국어 표기를 아직 대조하지 못함 |
 
 ## 6. 용어 추가 및 변경 규칙
 

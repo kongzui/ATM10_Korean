@@ -1,0 +1,52 @@
+{
+  "quest.046C417B2ADF3AA7.quest_desc": ["카드에도 한계가 있습니다. 아이템 추출은 한 번에 8개, 유체 추출은 5양동이까지만 옮길 수 있습니다. 화학 물질과 에너지는... 누가 알겠어요. \\n\\n하지만 여기는 모드 &2&lMinecraft&r입니다. 이 정도로는 부족하니 오버클럭해야 합니다. \\n\\n카드 오른쪽 위 칸에 카드 오버클러커를 넣으면 한 번에 옮길 수 있는 최대량이 늘어납니다!"],
+  "quest.1834B5C1F8435D7A.quest_desc": [
+    "기계 파이프는 &5&lMeka&r에서 유체를 흘려보내는 수단입니다.\\n\\n&5&lMeka&r의 일부 기계에는 유체가 필요합니다. 전해 분리기에는 물이 필요하고, 증발 설비로 리튬을 만들 때도 유체가 필요합니다.",
+    "{image:atm:textures/questpics/logistics/meka_pipe.png width:200 height:50 align:center}"
+  ],
+  "quest.1834B5C1F8435D7A.quest_subtitle": "유체",
+  "quest.30DE4F5BC3EDB555.quest_desc": [
+    "물류 수송기는 &5&lMeka&r에서 아이템과 블록을 먼 곳까지 옮기는 수단입니다. \\n\\n상자나 서랍 같은 인벤토리에서 끌어오거나 내보내도록 설정해야 합니다.",
+    "{image:atm:textures/questpics/logistics/meka_transporter.png width:200 height:50 align:center}"
+  ],
+  "quest.316B513FE568EF57.quest_desc": [
+    "열은 &5&lMekanism&r의 또 다른 요소로, 많은 기계와 멀티블록의 동력이 됩니다. 열적 증발 설비와 핵융합로는 모두 열로 작동하며, 열은 열 전도체로 옮깁니다!",
+    "{image:atm:textures/questpics/logistics/meka_conductor.png width:200 height:50 align:center}"
+  ],
+  "quest.34CFE1439262AA72.quest_desc": [
+    "&5&lMekanism&r은 규모가 크고 인기 있는 기술 모드이니 당연히 &l물류&r 기능도 있습니다.",
+    "",
+    "기계마다 입출력 설정이 까다로우므로, 아이템을 제대로 옮기려면 기계 화면에서 설정을 바꿔야 합니다. 그다음 &5&l메카 파이프&r로 필요한 것은 무엇이든 옮기세요!",
+    "",
+    "잠깐, &5&lMekanism&r 전용이 아닙니다! 다른 모드의 기계에도 얼마든지 쓸 수 있습니다! 렌치로 밀어내기와 끌어오기만 설정하면 됩니다.",
+    "",
+    "(대량으로 쓰면 렉이 조금 생길 수 있으니 주의하세요.)"
+  ],
+  "quest.493D04D954E4FBA0.quest_desc": [
+    "&5&lMekanism&r은 기술 모드입니다... 기계에 에너지가 필요하다는 게 놀랄 일인가요?",
+    "{image:atm:textures/questpics/logistics/meka_cable.png width:200 height:50 align:center}"
+  ],
+  "quest.4BC2D7FCDD792DBA.quest_desc": [
+    "일반적인 &2&lMinecraft&r의 아이템, 블록, 유체만으로는 부족했나 봅니다. 새로 추가된 열과 에너지로도요.\\n\\n&5&lMekanism&r의 나머지 물질은 고압 튜브로 옮깁니다. 그중 주로 쓰는 것은 기체로, &5&lMekanism&r을 쓴다면 수소나 산소 같은 기체를 다루게 됩니다.\\n주입 물질도 비슷하게 옮기며, 석탄 주입 물질과 레드스톤 주입 물질 등이 있습니다. 슬러리는 광석 가공에 쓰입니다.\\n그리고 염료 안료는 색의 정수로, &5&lMekanism&r의 이 기능으로 염색된 아이템의 색을 바꿀 수 있습니다.",
+    "{image:atm:textures/questpics/logistics/meka_tube.png width:200 height:50 align:center}"
+  ],
+  "quest.4BC2D7FCDD792DBA.quest_subtitle": "기체+기타",
+  "quest.5F1218CF8EFC607B.quest_desc": [
+    "&c&lLaserIO&r는 DireWolf가 &a&lEnder IO&r의 &l물류&r 기능을 이어 만든 모드입니다.",
+    "",
+    "&c레이저&r로 아이템을 옮기는 모드예요! &c레이저&r를 싫어할 사람이 있나요?!",
+    "",
+    "모든 것은 논리 칩에서 시작합니다."
+  ],
+  "quest.6F152402756DA35E.quest_desc": [
+    "아이템을 가져올 인벤토리에 아이템 입력기를 부착하세요. 두 번째 인벤토리에는 인터페이스를 부착하고 논리 케이블로 연결합니다. 그다음 입력기에 변수 카드를 넣고 원하는 대로 설정하세요. \\n\\n한 번에 입력할 아이템 수는 정수 한계(20억 이상)까지 높일 수 있습니다.",
+    "{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}"
+  ],
+  "quest.76CECFB244F39F18.quest_desc": [
+    "전력원에 &3에너지 입력기&r를 부착하고 논리 케이블로 &3에너지 인터페이스&r와 연결하세요! 변수 카드를 넣어 설정하면 전문가처럼 전력을 옮길 수 있습니다! \\n\\n다만 제가 써 보니 플럭스 플러그나 플럭스 포인트와 전력을 주고받을 때 문제가 있었으니 주의하세요.",
+    "{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}"
+  ],
+  "task.2BA7FC10243AA011.title": "고압 튜브",
+  "task.337725ECA2C04090.title": "물류 수송기",
+  "task.5B7926B511000F1F.title": "기계 파이프"
+}

@@ -1,0 +1,604 @@
+{
+  "status": "applied_and_verified",
+  "note": "첫 적용 뒤 Minecraft 공식 한국어와 대조해 3파일을 고쳐 다시 적용했어요. 두 실행 모두 예상 밖 변경이 없어요.",
+  "runs": [
+    {
+      "applied_at": "2026-09-29T00:56:43",
+      "status": "applied_and_verified",
+      "configured_targets": [
+        "game_root"
+      ],
+      "game_root_configured": true,
+      "java_processes": [],
+      "version_guard": {
+        "status": "scoped_rebase_apply",
+        "active_pack_version": "8.1",
+        "baseline_pack_version": "7.1",
+        "active_output_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1",
+        "output_validated_pack_version": "8.1",
+        "output_rebase_target_version": null,
+        "full_apply_allowed": true,
+        "target_versions": {
+          "game_root": "8.1"
+        }
+      },
+      "targets": [
+        {
+          "target_type": "game_root",
+          "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+          "status": "applied_and_verified",
+          "backup_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root",
+          "changed_paths": [
+            "config/ftbquests/quests/lang/ko_kr/chapter.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapter_group.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/achapter_2r_6the_atm_star.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/allthemodium.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/basic_armor.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/basic_logistics.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/basic_power.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/basic_tools.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/bounty_board.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/building_tips.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/chapter_2_the_star.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/food_and_farming.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/generators.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/mainquestline_part_1.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/storage.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/tips_and_tricks.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/welcome.snbt",
+            "config/ftbquests/quests/lang/ko_kr/file.snbt",
+            "config/ftbquests/quests/lang/ko_kr/reward_table.snbt",
+            "kubejs/client_scripts/tooltips.js",
+            "kubejs/startup_scripts/CustomAdditions.js",
+            "resourcepacks/ATM10_Korean/assets/ftbquestslangsplitter/lang/ko_kr.json",
+            "resourcepacks/ATM10_Korean/pack.mcmeta"
+          ],
+          "files": [
+            {
+              "relative_path": "resourcepacks/ATM10_Korean/assets/ftbquestslangsplitter/lang/ko_kr.json",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\ftbquestslangsplitter\\lang\\ko_kr.json",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\ftbquestslangsplitter\\lang\\ko_kr.json",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "a7497577d00d280b117c93a9280e9f5e6fbe334304d0890ceecdd6c851ff1030",
+              "before_sha256": "5f176e5bd52387f09b1f5d773c00b2c15c14c7fc82b09e01de23bd68d6230cf9",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\resourcepacks\\ATM10_Korean\\assets\\ftbquestslangsplitter\\lang\\ko_kr.json",
+              "after_sha256": "a7497577d00d280b117c93a9280e9f5e6fbe334304d0890ceecdd6c851ff1030"
+            },
+            {
+              "relative_path": "resourcepacks/ATM10_Korean/pack.mcmeta",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\pack.mcmeta",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "57ed1fe1d23459f1d10afb161fca3a935b2e6d6620317241c4e447eeb36387ea",
+              "before_sha256": "9ec87ee294a627bdc1c4e13e555b94c1791a0f157060514480b886fbcc7a1fd6",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+              "after_sha256": "57ed1fe1d23459f1d10afb161fca3a935b2e6d6620317241c4e447eeb36387ea"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapter.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapter.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapter.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "4300d66c7605bfd5bb492d836e27afec10288b69a1fd7931fbf46344864c858f",
+              "before_sha256": "878d88cc5b35d97c0436a55c0f8ecaa78664f319aab2716b12775e8447bb6801",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapter.snbt",
+              "after_sha256": "4300d66c7605bfd5bb492d836e27afec10288b69a1fd7931fbf46344864c858f"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapter_group.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapter_group.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapter_group.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "a513a130a5de83ec7fbb787fa1e9c08372a57adcd90cb0056380d723ec8172b1",
+              "before_sha256": "ccb68e61ada3fd3cce1d5c87c42aa8df374e15780f4212a75888e745bd175f46",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapter_group.snbt",
+              "after_sha256": "a513a130a5de83ec7fbb787fa1e9c08372a57adcd90cb0056380d723ec8172b1"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/achapter_2r_6the_atm_star.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\achapter_2r_6the_atm_star.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\achapter_2r_6the_atm_star.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "a79d9e12defa4e00cff6444a570612ac6afc868ae4f8e5c256d40bd77d965183",
+              "before_sha256": "e4acb1046a87e6e76c7b623cf4684b60fc8109974e4958daa8153d64e2adf05a",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\achapter_2r_6the_atm_star.snbt",
+              "after_sha256": "a79d9e12defa4e00cff6444a570612ac6afc868ae4f8e5c256d40bd77d965183"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/allthemodium.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\allthemodium.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\allthemodium.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "ff9986de82a8b3e95cde51cc2f15264fa4ec322859ee2124e5914e4e6d5775e0",
+              "before_sha256": "9ed19074b5079abba3e685441fdaf6694b734f55b9030159ad8ab47a792ce03f",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\allthemodium.snbt",
+              "after_sha256": "ff9986de82a8b3e95cde51cc2f15264fa4ec322859ee2124e5914e4e6d5775e0"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/basic_armor.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_armor.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_armor.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "c35fa41bf40932001b899aafd4bfc3ab534d74d8cc3e6a339ff9d4e915c47f80",
+              "before_sha256": "30082cf209c4221166671aa025d91409f5fdab7871645423eb238d2ab3a90bbf",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_armor.snbt",
+              "after_sha256": "c35fa41bf40932001b899aafd4bfc3ab534d74d8cc3e6a339ff9d4e915c47f80"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/basic_logistics.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_logistics.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_logistics.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "439d4abee3793073f6151579a2f1df1c142279ce96b9a52651d8a2a8c501c522",
+              "before_sha256": "14da20f32cbcec305ee46121c064afd6363afd6fb4199e83ae891fd145a1d46c",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_logistics.snbt",
+              "after_sha256": "439d4abee3793073f6151579a2f1df1c142279ce96b9a52651d8a2a8c501c522"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/basic_power.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_power.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_power.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "c29c4af444d691c0eb1c2f0289aadcb574ab59b534dc625da0830449a6dc948f",
+              "before_sha256": "4e90bcede60b4832d10499cbaf53d3173e681373d2e7f48b17264f031115410d",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_power.snbt",
+              "after_sha256": "c29c4af444d691c0eb1c2f0289aadcb574ab59b534dc625da0830449a6dc948f"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/basic_tools.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_tools.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_tools.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "9c551c8adcf1a2104e1e356fbbb2e056da43ee57526ed4565dfcb8183fec5522",
+              "before_sha256": "1c689bec46f44eaddd0a8a044d162911dcbfa629b6a84fff8748a8b06639bcdd",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_tools.snbt",
+              "after_sha256": "9c551c8adcf1a2104e1e356fbbb2e056da43ee57526ed4565dfcb8183fec5522"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/bounty_board.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\bounty_board.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\bounty_board.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "a2ece8165f10f1abf64f6ec40cd03d20db36b2d82ad930e3db5948300998bc18",
+              "before_sha256": "b8e5666fc346eb685e9476663df64489fb74766497f86350e65ecfa15cebf71d",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\bounty_board.snbt",
+              "after_sha256": "a2ece8165f10f1abf64f6ec40cd03d20db36b2d82ad930e3db5948300998bc18"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/building_tips.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\building_tips.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\building_tips.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "576b10a793a2c04d5d6c34a13678bc25e694dfa1e0f426d9fe6b4ca0b5c6fd1c",
+              "before_sha256": "ae5b6d547b43c011d2ef442bb3f7b86cf9a8dc4883ea297913214e821d5eeb08",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\building_tips.snbt",
+              "after_sha256": "576b10a793a2c04d5d6c34a13678bc25e694dfa1e0f426d9fe6b4ca0b5c6fd1c"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/chapter_2_the_star.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\chapter_2_the_star.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\chapter_2_the_star.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "13059580b03e844706d60cc21c90ce3e6258817a3375b2784214dd7d61aa713e",
+              "before_sha256": "4eb54a80c0ace8416b4eff8bd026d8fc2a270e2f5b955c9100955ee03aa2d83c",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\chapter_2_the_star.snbt",
+              "after_sha256": "13059580b03e844706d60cc21c90ce3e6258817a3375b2784214dd7d61aa713e"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/food_and_farming.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\food_and_farming.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\food_and_farming.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "840b5a2d2f5468ba6de10e6fb5d12cbf9d3db19587580077c1df1725298517e9",
+              "before_sha256": "ba52b277d919097d905385f9417ed86744107b1d29c38b8cf96d3ebfd27327ff",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\food_and_farming.snbt",
+              "after_sha256": "840b5a2d2f5468ba6de10e6fb5d12cbf9d3db19587580077c1df1725298517e9"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/generators.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\generators.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\generators.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "6602b0918796c65071737b7b364051a5196003ed5630b11b4bfbabdbe799aa5a",
+              "before_sha256": "d3ca56d30027478c86c2f5fb51496c2d195acf54756b79165bc88c64eebdd54d",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\generators.snbt",
+              "after_sha256": "6602b0918796c65071737b7b364051a5196003ed5630b11b4bfbabdbe799aa5a"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/mainquestline_part_1.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mainquestline_part_1.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mainquestline_part_1.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "1406b1b684f646b67bccfe76ea431eadfff0faa9ca149c6c09f17beb1f14f263",
+              "before_sha256": "7fc780fc4c60b9ab22ffb7679a1e6b0b83d76e81adb1205ba094bc34f60a8ba1",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mainquestline_part_1.snbt",
+              "after_sha256": "1406b1b684f646b67bccfe76ea431eadfff0faa9ca149c6c09f17beb1f14f263"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/storage.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\storage.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\storage.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "bb4482d91156da2cdbb3f04ad2aa077d371f2bdf299be36191cb80b27b68d3b5",
+              "before_sha256": "c65628eff3dd943614e2b7ac52775370f60a505e6ae5b1ae1a72e65072064c47",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\storage.snbt",
+              "after_sha256": "bb4482d91156da2cdbb3f04ad2aa077d371f2bdf299be36191cb80b27b68d3b5"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/tips_and_tricks.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\tips_and_tricks.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\tips_and_tricks.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "8ec37642b4de16bdb994829df850a0207d83eb2f7bb95a4376a5446e2cf9d140",
+              "before_sha256": "93e34bef7c82266c96a828bb5b941fcf6846ace1d78c5ca348675df8b0c2a964",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\tips_and_tricks.snbt",
+              "after_sha256": "8ec37642b4de16bdb994829df850a0207d83eb2f7bb95a4376a5446e2cf9d140"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/welcome.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\welcome.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\welcome.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "44475f057b7058359ff255a324665b1a1ef8b9acee282090280d56644c77106b",
+              "before_sha256": "887428ee35633407d5c0befa30bdaf7861ffa7d98818a5482866a1129c3e401f",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\welcome.snbt",
+              "after_sha256": "44475f057b7058359ff255a324665b1a1ef8b9acee282090280d56644c77106b"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/file.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\file.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\file.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "ed2453736597f120c17ab3197dda77e26283a76f055199b2af0add3a16817f56",
+              "before_sha256": "e7b836feb3819cc1014a1b32f83bdf5c2d3fd9807558b2e923a8762e27f9ac03",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\file.snbt",
+              "after_sha256": "ed2453736597f120c17ab3197dda77e26283a76f055199b2af0add3a16817f56"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/reward_table.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\reward_table.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\reward_table.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "7bd136fd89ae5904f72b6ffea100234fdbca0288ffffd36d3c7f9edda5c01e16",
+              "before_sha256": "85ae393dec8a2605dfd9560cb3a5e1bb5aba7a9df1ac0c88789e152e0e71be92",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\reward_table.snbt",
+              "after_sha256": "7bd136fd89ae5904f72b6ffea100234fdbca0288ffffd36d3c7f9edda5c01e16"
+            },
+            {
+              "relative_path": "kubejs/client_scripts/tooltips.js",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\kubejs\\client_scripts\\tooltips.js",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\kubejs\\client_scripts\\tooltips.js",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "11482dd875f70912da3460b925d1b5377f6156345d792adfc7449a5d538dfe2c",
+              "before_sha256": "d3b35abee63336e89f2b0d4268f6011d757075fbdb28cca3aea0fe15192494f3",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\kubejs\\client_scripts\\tooltips.js",
+              "after_sha256": "11482dd875f70912da3460b925d1b5377f6156345d792adfc7449a5d538dfe2c"
+            },
+            {
+              "relative_path": "kubejs/startup_scripts/CustomAdditions.js",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\kubejs\\startup_scripts\\CustomAdditions.js",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\kubejs\\startup_scripts\\CustomAdditions.js",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "696204cdaa81b4b8b4e1130da0b313c16f6b049e95f30b845eb2502202acdda7",
+              "before_sha256": "4886ad07fb8a31f4132987d39ba09ad3ef16cb955b93d2783c15174812a7cc1e",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\game_root\\kubejs\\startup_scripts\\CustomAdditions.js",
+              "after_sha256": "696204cdaa81b4b8b4e1130da0b313c16f6b049e95f30b845eb2502202acdda7"
+            }
+          ],
+          "unexpected_changes": []
+        }
+      ],
+      "backup_manifest": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_005638_348143\\backup_manifest.json",
+      "options_unchanged": true,
+      "resourcepacks_selection_preserved": {
+        "game_root": [
+          "resourcePacks:[\"modularbees:dynamic_assets\",\"vanilla\",\"mod_resources\",\"add_xycraft_overrides_stone\",\"add_xycraft_overrides_metal\",\"add_xycraft_overrides_glass\",\"moonlight:merged_pack\",\"neovitae_materials\",\"mod/towntalk:respack\",\"mod/eternal_starlight:resourcepacks/starlight_3d_mace\",\"mod/dyenamicsandfriends:compat_packs/productivemetalworks/\",\"mod/dyenamicsandfriends:compat_packs/connectedglass/\",\"mod/dyenamicsandfriends:compat_packs/luminax/\",\"mod/dyenamicsandfriends:compat_packs/cookingforblockheads/\",\"mod/dyenamicsandfriends:compat_packs/botanypots/\",\"mod/dyenamicsandfriends:compat_packs/chromacarvings/\",\"modern_industrialization/generated\",\"file/ATM10_Korean_8.1-stable.7_resourcepack.zip\"]",
+          "lang:ko_kr"
+        ]
+      },
+      "activation_note": "재검수 퀘스트·KubeJS·언어 파일과 폴더팩 pack.mcmeta만 선택 적용했어요. 게임 화면 확인과 팩 활성화 상태 확인은 별도예요."
+    },
+    {
+      "applied_at": "2026-09-29T01:01:10",
+      "status": "applied_and_verified",
+      "configured_targets": [
+        "game_root"
+      ],
+      "game_root_configured": true,
+      "java_processes": [],
+      "version_guard": {
+        "status": "scoped_rebase_apply",
+        "active_pack_version": "8.1",
+        "baseline_pack_version": "7.1",
+        "active_output_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1",
+        "output_validated_pack_version": "8.1",
+        "output_rebase_target_version": null,
+        "full_apply_allowed": true,
+        "target_versions": {
+          "game_root": "8.1"
+        }
+      },
+      "targets": [
+        {
+          "target_type": "game_root",
+          "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+          "status": "applied_and_verified",
+          "backup_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_010105_042776\\game_root",
+          "changed_paths": [
+            "config/ftbquests/quests/lang/ko_kr/chapters/allthemodium.snbt",
+            "config/ftbquests/quests/lang/ko_kr/chapters/chapter_2_the_star.snbt",
+            "kubejs/client_scripts/tooltips.js"
+          ],
+          "files": [
+            {
+              "relative_path": "resourcepacks/ATM10_Korean/assets/ftbquestslangsplitter/lang/ko_kr.json",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\ftbquestslangsplitter\\lang\\ko_kr.json",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\ftbquestslangsplitter\\lang\\ko_kr.json",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "a7497577d00d280b117c93a9280e9f5e6fbe334304d0890ceecdd6c851ff1030",
+              "before_sha256": "a7497577d00d280b117c93a9280e9f5e6fbe334304d0890ceecdd6c851ff1030",
+              "after_sha256": "a7497577d00d280b117c93a9280e9f5e6fbe334304d0890ceecdd6c851ff1030"
+            },
+            {
+              "relative_path": "resourcepacks/ATM10_Korean/pack.mcmeta",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\pack.mcmeta",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "57ed1fe1d23459f1d10afb161fca3a935b2e6d6620317241c4e447eeb36387ea",
+              "before_sha256": "57ed1fe1d23459f1d10afb161fca3a935b2e6d6620317241c4e447eeb36387ea",
+              "after_sha256": "57ed1fe1d23459f1d10afb161fca3a935b2e6d6620317241c4e447eeb36387ea"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapter.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapter.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapter.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "4300d66c7605bfd5bb492d836e27afec10288b69a1fd7931fbf46344864c858f",
+              "before_sha256": "4300d66c7605bfd5bb492d836e27afec10288b69a1fd7931fbf46344864c858f",
+              "after_sha256": "4300d66c7605bfd5bb492d836e27afec10288b69a1fd7931fbf46344864c858f"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapter_group.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapter_group.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapter_group.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "a513a130a5de83ec7fbb787fa1e9c08372a57adcd90cb0056380d723ec8172b1",
+              "before_sha256": "a513a130a5de83ec7fbb787fa1e9c08372a57adcd90cb0056380d723ec8172b1",
+              "after_sha256": "a513a130a5de83ec7fbb787fa1e9c08372a57adcd90cb0056380d723ec8172b1"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/achapter_2r_6the_atm_star.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\achapter_2r_6the_atm_star.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\achapter_2r_6the_atm_star.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "a79d9e12defa4e00cff6444a570612ac6afc868ae4f8e5c256d40bd77d965183",
+              "before_sha256": "a79d9e12defa4e00cff6444a570612ac6afc868ae4f8e5c256d40bd77d965183",
+              "after_sha256": "a79d9e12defa4e00cff6444a570612ac6afc868ae4f8e5c256d40bd77d965183"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/allthemodium.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\allthemodium.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\allthemodium.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "db0607f2a43a59fa169db72cbf32d65967ee98db9dc99330e03e38c3a7758647",
+              "before_sha256": "ff9986de82a8b3e95cde51cc2f15264fa4ec322859ee2124e5914e4e6d5775e0",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_010105_042776\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\allthemodium.snbt",
+              "after_sha256": "db0607f2a43a59fa169db72cbf32d65967ee98db9dc99330e03e38c3a7758647"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/basic_armor.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_armor.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_armor.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "c35fa41bf40932001b899aafd4bfc3ab534d74d8cc3e6a339ff9d4e915c47f80",
+              "before_sha256": "c35fa41bf40932001b899aafd4bfc3ab534d74d8cc3e6a339ff9d4e915c47f80",
+              "after_sha256": "c35fa41bf40932001b899aafd4bfc3ab534d74d8cc3e6a339ff9d4e915c47f80"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/basic_logistics.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_logistics.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_logistics.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "439d4abee3793073f6151579a2f1df1c142279ce96b9a52651d8a2a8c501c522",
+              "before_sha256": "439d4abee3793073f6151579a2f1df1c142279ce96b9a52651d8a2a8c501c522",
+              "after_sha256": "439d4abee3793073f6151579a2f1df1c142279ce96b9a52651d8a2a8c501c522"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/basic_power.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_power.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_power.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "c29c4af444d691c0eb1c2f0289aadcb574ab59b534dc625da0830449a6dc948f",
+              "before_sha256": "c29c4af444d691c0eb1c2f0289aadcb574ab59b534dc625da0830449a6dc948f",
+              "after_sha256": "c29c4af444d691c0eb1c2f0289aadcb574ab59b534dc625da0830449a6dc948f"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/basic_tools.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_tools.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_tools.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "9c551c8adcf1a2104e1e356fbbb2e056da43ee57526ed4565dfcb8183fec5522",
+              "before_sha256": "9c551c8adcf1a2104e1e356fbbb2e056da43ee57526ed4565dfcb8183fec5522",
+              "after_sha256": "9c551c8adcf1a2104e1e356fbbb2e056da43ee57526ed4565dfcb8183fec5522"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/bounty_board.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\bounty_board.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\bounty_board.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "a2ece8165f10f1abf64f6ec40cd03d20db36b2d82ad930e3db5948300998bc18",
+              "before_sha256": "a2ece8165f10f1abf64f6ec40cd03d20db36b2d82ad930e3db5948300998bc18",
+              "after_sha256": "a2ece8165f10f1abf64f6ec40cd03d20db36b2d82ad930e3db5948300998bc18"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/building_tips.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\building_tips.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\building_tips.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "576b10a793a2c04d5d6c34a13678bc25e694dfa1e0f426d9fe6b4ca0b5c6fd1c",
+              "before_sha256": "576b10a793a2c04d5d6c34a13678bc25e694dfa1e0f426d9fe6b4ca0b5c6fd1c",
+              "after_sha256": "576b10a793a2c04d5d6c34a13678bc25e694dfa1e0f426d9fe6b4ca0b5c6fd1c"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/chapter_2_the_star.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\chapter_2_the_star.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\chapter_2_the_star.snbt",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "b2c14465ca835987aa7c5910862d42ddced708a4bd0a14862a8bc57f7e13dfcd",
+              "before_sha256": "13059580b03e844706d60cc21c90ce3e6258817a3375b2784214dd7d61aa713e",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_010105_042776\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\chapter_2_the_star.snbt",
+              "after_sha256": "b2c14465ca835987aa7c5910862d42ddced708a4bd0a14862a8bc57f7e13dfcd"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/food_and_farming.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\food_and_farming.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\food_and_farming.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "840b5a2d2f5468ba6de10e6fb5d12cbf9d3db19587580077c1df1725298517e9",
+              "before_sha256": "840b5a2d2f5468ba6de10e6fb5d12cbf9d3db19587580077c1df1725298517e9",
+              "after_sha256": "840b5a2d2f5468ba6de10e6fb5d12cbf9d3db19587580077c1df1725298517e9"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/generators.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\generators.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\generators.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "6602b0918796c65071737b7b364051a5196003ed5630b11b4bfbabdbe799aa5a",
+              "before_sha256": "6602b0918796c65071737b7b364051a5196003ed5630b11b4bfbabdbe799aa5a",
+              "after_sha256": "6602b0918796c65071737b7b364051a5196003ed5630b11b4bfbabdbe799aa5a"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/mainquestline_part_1.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mainquestline_part_1.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mainquestline_part_1.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "1406b1b684f646b67bccfe76ea431eadfff0faa9ca149c6c09f17beb1f14f263",
+              "before_sha256": "1406b1b684f646b67bccfe76ea431eadfff0faa9ca149c6c09f17beb1f14f263",
+              "after_sha256": "1406b1b684f646b67bccfe76ea431eadfff0faa9ca149c6c09f17beb1f14f263"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/storage.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\storage.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\storage.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "bb4482d91156da2cdbb3f04ad2aa077d371f2bdf299be36191cb80b27b68d3b5",
+              "before_sha256": "bb4482d91156da2cdbb3f04ad2aa077d371f2bdf299be36191cb80b27b68d3b5",
+              "after_sha256": "bb4482d91156da2cdbb3f04ad2aa077d371f2bdf299be36191cb80b27b68d3b5"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/tips_and_tricks.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\tips_and_tricks.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\tips_and_tricks.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "8ec37642b4de16bdb994829df850a0207d83eb2f7bb95a4376a5446e2cf9d140",
+              "before_sha256": "8ec37642b4de16bdb994829df850a0207d83eb2f7bb95a4376a5446e2cf9d140",
+              "after_sha256": "8ec37642b4de16bdb994829df850a0207d83eb2f7bb95a4376a5446e2cf9d140"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/welcome.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\welcome.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\welcome.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "44475f057b7058359ff255a324665b1a1ef8b9acee282090280d56644c77106b",
+              "before_sha256": "44475f057b7058359ff255a324665b1a1ef8b9acee282090280d56644c77106b",
+              "after_sha256": "44475f057b7058359ff255a324665b1a1ef8b9acee282090280d56644c77106b"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/file.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\file.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\file.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "ed2453736597f120c17ab3197dda77e26283a76f055199b2af0add3a16817f56",
+              "before_sha256": "ed2453736597f120c17ab3197dda77e26283a76f055199b2af0add3a16817f56",
+              "after_sha256": "ed2453736597f120c17ab3197dda77e26283a76f055199b2af0add3a16817f56"
+            },
+            {
+              "relative_path": "config/ftbquests/quests/lang/ko_kr/reward_table.snbt",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\reward_table.snbt",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\reward_table.snbt",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "7bd136fd89ae5904f72b6ffea100234fdbca0288ffffd36d3c7f9edda5c01e16",
+              "before_sha256": "7bd136fd89ae5904f72b6ffea100234fdbca0288ffffd36d3c7f9edda5c01e16",
+              "after_sha256": "7bd136fd89ae5904f72b6ffea100234fdbca0288ffffd36d3c7f9edda5c01e16"
+            },
+            {
+              "relative_path": "kubejs/client_scripts/tooltips.js",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\kubejs\\client_scripts\\tooltips.js",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\kubejs\\client_scripts\\tooltips.js",
+              "existed_before": true,
+              "changed": true,
+              "source_sha256": "6cc14ffb7326c70c175d9f7c60e1c6c1e7480d18a6ad469b98b98e4f0d1ab583",
+              "before_sha256": "11482dd875f70912da3460b925d1b5377f6156345d792adfc7449a5d538dfe2c",
+              "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_010105_042776\\game_root\\kubejs\\client_scripts\\tooltips.js",
+              "after_sha256": "6cc14ffb7326c70c175d9f7c60e1c6c1e7480d18a6ad469b98b98e4f0d1ab583"
+            },
+            {
+              "relative_path": "kubejs/startup_scripts/CustomAdditions.js",
+              "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\kubejs\\startup_scripts\\CustomAdditions.js",
+              "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\kubejs\\startup_scripts\\CustomAdditions.js",
+              "existed_before": true,
+              "changed": false,
+              "source_sha256": "696204cdaa81b4b8b4e1130da0b313c16f6b049e95f30b845eb2502202acdda7",
+              "before_sha256": "696204cdaa81b4b8b4e1130da0b313c16f6b049e95f30b845eb2502202acdda7",
+              "after_sha256": "696204cdaa81b4b8b4e1130da0b313c16f6b049e95f30b845eb2502202acdda7"
+            }
+          ],
+          "unexpected_changes": []
+        }
+      ],
+      "backup_manifest": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_010105_042776\\backup_manifest.json",
+      "options_unchanged": true,
+      "resourcepacks_selection_preserved": {
+        "game_root": [
+          "resourcePacks:[\"modularbees:dynamic_assets\",\"vanilla\",\"mod_resources\",\"add_xycraft_overrides_stone\",\"add_xycraft_overrides_metal\",\"add_xycraft_overrides_glass\",\"moonlight:merged_pack\",\"neovitae_materials\",\"mod/towntalk:respack\",\"mod/eternal_starlight:resourcepacks/starlight_3d_mace\",\"mod/dyenamicsandfriends:compat_packs/productivemetalworks/\",\"mod/dyenamicsandfriends:compat_packs/connectedglass/\",\"mod/dyenamicsandfriends:compat_packs/luminax/\",\"mod/dyenamicsandfriends:compat_packs/cookingforblockheads/\",\"mod/dyenamicsandfriends:compat_packs/botanypots/\",\"mod/dyenamicsandfriends:compat_packs/chromacarvings/\",\"modern_industrialization/generated\",\"file/ATM10_Korean_8.1-stable.7_resourcepack.zip\"]",
+          "lang:ko_kr"
+        ]
+      },
+      "activation_note": "재검수 퀘스트·KubeJS·언어 파일과 폴더팩 pack.mcmeta만 선택 적용했어요. 게임 화면 확인과 팩 활성화 상태 확인은 별도예요."
+    }
+  ]
+}

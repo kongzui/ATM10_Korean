@@ -1,0 +1,48 @@
+{
+  "family": "팩 공통 진행 퀘스트",
+  "rank": 1,
+  "status": "completed",
+  "baseline_commit": "9cd1e3b54b818dc4f9b7a9f23e43270e9aa3281b",
+  "quest_files": [
+    "chapter.snbt",
+    "chapter_group.snbt",
+    "file.snbt",
+    "reward_table.snbt",
+    "chapters/welcome.snbt",
+    "chapters/mainquestline_part_1.snbt",
+    "chapters/allthemodium.snbt",
+    "chapters/chapter_2_the_star.snbt",
+    "chapters/achapter_2r_6the_atm_star.snbt",
+    "chapters/tips_and_tricks.snbt",
+    "chapters/building_tips.snbt",
+    "chapters/bounty_board.snbt",
+    "chapters/basic_tools.snbt",
+    "chapters/basic_armor.snbt",
+    "chapters/basic_power.snbt",
+    "chapters/basic_logistics.snbt",
+    "chapters/storage.snbt",
+    "chapters/generators.snbt",
+    "chapters/food_and_farming.snbt"
+  ],
+  "language_namespaces": [
+    "ftbquestslangsplitter"
+  ],
+  "kubejs_files": [
+    "client_scripts/tooltips.js",
+    "startup_scripts/CustomAdditions.js"
+  ],
+  "reviewed_without_change": {
+    "language_namespaces": [
+      "kubejs",
+      "atm",
+      "atm10_localization",
+      "allthetweaks"
+    ],
+    "kubejs_files": [
+      "client_scripts/RecipeViewer.js",
+      "startup_scripts/Applied Energistics/Universal_Press.js",
+      "startup_scripts/update_checker.js",
+      "startup_scripts/hyperbox/hyperbox.js"
+    ]
+  }
+}
