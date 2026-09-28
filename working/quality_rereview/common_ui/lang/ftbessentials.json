@@ -1,0 +1,5 @@
+{
+  "ftbessentials.muted": "관리자가 채팅을 금지해서 채팅을 사용할 수 없습니다!",
+  "ftbessentials.muted.muted": "플레이어 %s을(를) %s이(가) 음소거했습니다. 기간: %s",
+  "ftbessentials.muted.unmuted": "플레이어 %s의 음소거를 %s이(가) 해제했습니다"
+}

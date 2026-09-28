@@ -1,0 +1,54 @@
+{
+  "family": "항상 보는 공통 UI 1부(JEI·Jade·FTB 계열)",
+  "rank": 2,
+  "status": "completed",
+  "baseline_commit": "3ac673a",
+  "quest_files": [],
+  "language_namespaces": [
+    "jei",
+    "jade",
+    "ftbquests",
+    "ftbchunks",
+    "ftbteams",
+    "ftbultimine",
+    "ftbessentials",
+    "ftbfiltersystem"
+  ],
+  "language_sources": {
+    "jei": [
+      "working/common_ui/jei/jei/ko_kr.json"
+    ],
+    "jade": [
+      "working/common_ui/jade/jade/ko_kr.json"
+    ],
+    "ftbquests": [
+      "working/common_ui/atm10_common/ftbquests/ko_kr.json"
+    ],
+    "ftbchunks": [
+      "working/common_ui/map_team/ftbchunks/ko_kr.json"
+    ],
+    "ftbteams": [
+      "working/common_ui/map_team/ftbteams/ko_kr.json"
+    ],
+    "ftbultimine": [
+      "working/common_ui/convenience/ftbultimine/ko_kr.json"
+    ],
+    "ftbessentials": [
+      "working/ftb_essentials_filters/ftbessentials/ko_kr.json"
+    ],
+    "ftbfiltersystem": [
+      "working/ftb_essentials_filters/ftbfiltersystem/ko_kr.json"
+    ]
+  },
+  "kubejs_files": [],
+  "reviewed_without_change": [
+    "ftbfiltersystem"
+  ],
+  "deferred_namespaces": [
+    "journeymap",
+    "curios",
+    "waystones",
+    "naturescompass",
+    "explorerscompass"
+  ]
+}

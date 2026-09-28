@@ -4,6 +4,15 @@
 이번 요청은 계획의 순서대로 이미 번역된 계열을 다시 검수하는 작업이에요. 계열 하나가 끝날 때마다
 검증·커밋·적용하고 계획의 진행 현황을 갱신해요. 신규 번역과 보조 번역 코드는 범위 밖이에요.
 
+## 재검수 2순위 1부 · 공통 UI(JEI·Jade·FTB) · 8.1-stable.9
+
+- [x] 언어 8개 네임스페이스 2,197키를 현재 JAR 영어와 대조, 142키 수정·2,055키 유지.
+- [x] 재검수·누적 전체 검증, stable.9 ZIP 두 개 생성, 게임 종료 상태에서 8파일 선택 적용.
+- [ ] 2부: JourneyMap·Curios·Waystones·Nature's Compass·Explorer's Compass 검수.
+- [ ] 실제 게임에서 JEI·Jade·FTB 설정 화면 확인.
+
+[재검수 보고](versions/8.1/reports/quality_rereview_common_ui.md)를 참고해요.
+
 ## 재검수 1순위 · 팩 공통 진행 퀘스트 · 8.1-stable.8
 
 - [x] 퀘스트 19파일 2,023키를 현재 분할 영어와 대조, 575키 수정·1,448키 유지.
@@ -13,7 +22,7 @@
 - [ ] 실제 게임에서 메인 퀘스트·2장·3장·건축 팁 화면 확인.
 
 [재검수 보고](versions/8.1/reports/quality_rereview_pack_progress.md)에 수정 유형과 다른 계열로
-넘긴 아이템 이름을 기록해요. 다음 계열은 2순위 항상 보는 공통 UI예요.
+넘긴 아이템 이름을 기록해요. 다음 계열은 2순위 2부예요.
 
 ## Better Advanced Tooltips · 8.1-stable.7
 

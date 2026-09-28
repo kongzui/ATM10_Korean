@@ -1,0 +1,10 @@
+{
+  "config.jade.flip_main_hand": "주 손에 따라 위치 반전",
+  "config.jade.flip_main_hand_desc": "주 손이 왼손이면 툴팁 위치를 좌우로 반전합니다.",
+  "jade.access.held_item.main": "주 손: %s",
+  "config.jade.key_binds": "키 설정",
+  "config.jade.plugin_minecraft.mob_spawner": "몹 생성기 종류",
+  "jade.trial_spawner_cd": "재사용 대기시간: %s",
+  "jade.mobbreeding.time": "번식 대기시간: %s",
+  "jade.mobduplication.time": "복제 대기시간: %s"
+}

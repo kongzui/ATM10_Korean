@@ -150,3 +150,13 @@
 - [재검수 보고](quality_rereview_pack_progress.md), [배포 안내](../../../docs/releases/8.1-stable.8.md),
   [패키지 목록](../manifests/8.1-stable.8_packages.json)에 근거를 남겨요.
 - 실제 게임 화면은 미검증이에요. 다음은 재검수 2순위 공통 UI예요.
+
+## 2026-09-29 · 품질 재검수 2순위 1부 누적 stable.9
+
+- JEI·Jade·FTB Quests·Chunks·Teams·Ultimine·Essentials·Filter System 언어 2,197키를 다시 대조해
+  142키를 고치고 2,055키를 유지했어요. 퀘스트·KubeJS·신규 번역 변경은 없어요.
+- 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
+- 게임 종료 상태에서 언어 7파일과 pack.mcmeta만 선택 적용했고 예상 밖 변경은 없었어요.
+- [재검수 보고](quality_rereview_common_ui.md), [배포 안내](../../../docs/releases/8.1-stable.9.md),
+  [패키지 목록](../manifests/8.1-stable.9_packages.json)에 근거를 남겨요.
+- 실제 게임 화면은 미검증이에요. 다음은 2순위 2부(JourneyMap·Curios·Waystones·나침반)예요.

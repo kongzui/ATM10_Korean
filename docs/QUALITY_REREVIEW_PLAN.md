@@ -281,7 +281,7 @@ Mekanism 1,821키, Twilight Forest 1,764키, JourneyMap 1,371키, Mahou Tsukai 1
 
 | 단계 | 계열 순위 | 상태 |
 |---|---|---|
-| A | 1~6 | 1 완료(stable.8), 2~6 미착수 |
+| A | 1~6 | 1 완료(stable.8), 2 1부 완료(stable.9)·2부 미착수, 3~6 미착수 |
 | B | 7~17 | 미착수 |
 | C | 18~30 | 미착수 |
 | D | 31~39 | 미착수 |
@@ -292,9 +292,11 @@ Mekanism 1,821키, Twilight Forest 1,764키, JourneyMap 1,371키, Mahou Tsukai 1
 | 순위 | 계열 | 검수 범위 | 수정 | 유지 | 배포 | 보고 |
 |---:|---|---|---:|---:|---|---|
 | 1 | 팩 공통 진행 퀘스트 | 퀘스트 2,023키, 언어 67키, KubeJS 6파일 | 퀘스트 575, 언어 3, KubeJS 8줄 | 퀘스트 1,448, 언어 64 | 8.1-stable.8 | [보고](../versions/8.1/reports/quality_rereview_pack_progress.md) |
+| 2 (1부) | 공통 UI: JEI·Jade·FTB 6종 | 언어 8개 2,197키 | 언어 142 | 언어 2,055 | 8.1-stable.9 | [보고](../versions/8.1/reports/quality_rereview_common_ui.md) |
 
 계열 작업 자료는 `working/quality_rereview/<계열>/`에 두고, 퀘스트 수정본은
 `scripts/quality_rereview_quests.py <계열> --write-output`으로 산출물과 8.1 수동 검수 목록에
-함께 반영해요. 배포 검증은 `scripts/verify_quality_rereview.py`가 완료된 계열을 누적 검사해요.
+함께 반영해요. 언어 파일 수정본은 `scripts/quality_rereview_lang.py <계열> --write-output`으로
+산출물과 `working/` 작업 원본에 반영해요. 배포 검증은 `scripts/verify_quality_rereview.py`가 완료된 계열을 누적 검사해요.
 
 구 버전 배포본(`output/7.1`)은 별도 요청이 없으면 바꾸지 않아요.

@@ -1,6 +1,12 @@
 {
   "status": "passed",
   "counts": {
+    "quality_rereview_common_ui": {
+      "language_keys": 2197,
+      "quest_keys": 0,
+      "kubejs_files": 0,
+      "guide_files": 0
+    },
     "quality_rereview_pack_progress": {
       "language_keys": 13,
       "quest_keys": 2023,
@@ -10,6 +16,15 @@
   },
   "instance_unchanged": true,
   "evidence_sha256": {
+    "output/resourcepack/ATM10_Korean/assets/jei/lang/ko_kr.json": "a40052f3f0d88d59ed94a61a0653ad1f9e67a6b69f5663319f1e387263e672d1",
+    "output/resourcepack/ATM10_Korean/assets/jade/lang/ko_kr.json": "0a62b02fe73b5ff3e06fcc49e6edb4c2291a7d9a16ad762de7c31c4424a3832c",
+    "output/resourcepack/ATM10_Korean/assets/ftbquests/lang/ko_kr.json": "5308e5d8cb77155953784f5a8fb2b0f53d28c7ed976c84cf8afb287676d71f9e",
+    "output/resourcepack/ATM10_Korean/assets/ftbchunks/lang/ko_kr.json": "db5bf473711d7ee45a4f48a54292d7f82dac7fe89d776a1e5dd4ddb3914901d3",
+    "output/resourcepack/ATM10_Korean/assets/ftbteams/lang/ko_kr.json": "40ee9c8eced831e72af3350db85b9020a39f02f64dd7f93a3a2f5a0e742b2660",
+    "output/resourcepack/ATM10_Korean/assets/ftbultimine/lang/ko_kr.json": "fce0d24bc86c2ef2bd07f1c678cbe2fbfc04ebcf027c9d456ecb11f23269a0c7",
+    "output/resourcepack/ATM10_Korean/assets/ftbessentials/lang/ko_kr.json": "ff9dd530efc5e8ae280d21d5fe427118aa8e1a499bc038177cbfdf031c6d0aae",
+    "output/resourcepack/ATM10_Korean/assets/ftbfiltersystem/lang/ko_kr.json": "dc553f8159f74f5abed16eff33407ea0e4a15113d0dac481a1a6a7464f32dec1",
+    "project/working/quality_rereview/common_ui/scope.json": "c2e6ea32a462b31aa79c4b476ab07022a03449525326ad6d98cacecb70262617",
     "project/working/quality_rereview/pack_progress/quests/chapter.json": "231b52f1d0f3c11da4aa9a010b72a4e04e4160fb3046856b6b3f2d5a3ab44b9d",
     "instance/config/ftbquests/quests/lang/en_us/chapter.snbt_merged": "6f7651123dc99df4d4cea36ff39a4f9d18bbe2f651d8250f61f60070795e47ef",
     "output/overrides/config/ftbquests/quests/lang/ko_kr/chapter.snbt": "4300d66c7605bfd5bb492d836e27afec10288b69a1fd7931fbf46344864c858f",

@@ -1,0 +1,11 @@
+{
+  "ftbteams.cant_edit": "%s을(를) 편집할 수 없습니다!",
+  "ftbteams.not_invited": "%s에서 초대를 받지 않았습니다!",
+  "ftbteams.server_permissions_prevent": "서버 권한 때문에 이 작업을 할 수 없습니다.",
+  "ftbteams.gui.kick.confirm": "%s 플레이어를 추방하시겠습니까?",
+  "ftbteams.gui.promote.confirm": "%s 플레이어를 관리자로 임명하시겠습니까?",
+  "ftbteams.gui.demote.confirm": "%s 플레이어를 강등하시겠습니까?",
+  "ftbteams.gui.transfer_ownership": "%s 님을 파티 소유자로 지정",
+  "ftbteams.gui.transfer_ownership.confirm": "%s 님을 파티 소유자로 지정하시겠습니까?",
+  "ftbteams.gui.no_players": "초대할 수 있는 플레이어가 없습니다"
+}

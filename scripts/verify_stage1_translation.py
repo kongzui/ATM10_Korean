@@ -41,9 +41,10 @@ RELEASE_MODS = {
     "8.1-stable.6": ("auroral", "neovitae"),
     "8.1-stable.7": ("auroral", "neovitae"),
     "8.1-stable.8": ("auroral", "neovitae"),
+    "8.1-stable.9": ("auroral", "neovitae"),
 }
 # 품질 재검수 계열을 누적한 배포예요. 새 재검수 배포를 추가할 때 함께 늘려요.
-QUALITY_REREVIEW_RELEASES = {"8.1-stable.8"}
+QUALITY_REREVIEW_RELEASES = {"8.1-stable.8", "8.1-stable.9"}
 CHAPTERS = {"auroral": "auroral", "neovitae": "neo_vitae"}
 PACK = "resourcepack/ATM10_Korean"
 QUEST_ROOT = "config/ftbquests/quests"
@@ -100,7 +101,7 @@ def git_bytes(relative: str) -> bytes:
     ).stdout
 
 
-def baseline_inventory() -> dict[str, str]:
+def baseline_inventory(allowed: set[str]) -> dict[str, str]:
     report = json.loads(
         git_bytes("versions/8.1/reports/stable_validation.json"),
         object_pairs_hook=strict_object,
@@ -153,6 +154,9 @@ def baseline_inventory() -> dict[str, str]:
             if b"\0" not in blob:
                 crlf = blob.replace(b"\r\n", b"\n").replace(b"\n", b"\r\n")
                 digests.add(hashlib.sha256(crlf).hexdigest())
+        # 이번 배포가 바꿀 수 있는 경로는 기준 해시와 달라도 범위 검사에서 허용돼요.
+        if path.removeprefix("output/8.1/") in allowed:
+            continue
         if expected[path.removeprefix("output/8.1/")] not in digests:
             # 일부 기존 JS는 CRLF/LF가 섞여 있어 일괄 변환으로 재현되지 않아요.
             # 이때는 보고서의 원시 해시와 일치하는 현재 파일을 읽어 Git 원본과
@@ -443,8 +447,8 @@ def check_neovitae_book(jar: Path, english: dict, korean: dict, evidence_hash) -
 def verify(release_id: str, inventory: dict[str, str]) -> dict:
     """현재 JAR을 읽기 전용으로 확인하고 재현 가능한 증거 해시를 반환해요."""
     mods = RELEASE_MODS[release_id]
-    baseline = baseline_inventory()
     allowed = allowed_paths(release_id)
+    baseline = baseline_inventory(allowed)
     missing = set(baseline) - set(inventory)
     changed = {p for p in inventory if inventory[p] != baseline.get(p)}
     if missing or changed - allowed:

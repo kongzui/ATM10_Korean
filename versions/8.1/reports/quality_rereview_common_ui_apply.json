@@ -1,0 +1,149 @@
+{
+  "applied_at": "2026-09-29T01:18:05",
+  "status": "applied_and_verified",
+  "configured_targets": [
+    "game_root"
+  ],
+  "game_root_configured": true,
+  "java_processes": [],
+  "version_guard": {
+    "status": "scoped_rebase_apply",
+    "active_pack_version": "8.1",
+    "baseline_pack_version": "7.1",
+    "active_output_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1",
+    "output_validated_pack_version": "8.1",
+    "output_rebase_target_version": null,
+    "full_apply_allowed": true,
+    "target_versions": {
+      "game_root": "8.1"
+    }
+  },
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+      "status": "applied_and_verified",
+      "backup_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_011758_873150\\game_root",
+      "changed_paths": [
+        "resourcepacks/ATM10_Korean/assets/ftbchunks/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/ftbessentials/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/ftbquests/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/ftbteams/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/ftbultimine/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/jade/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/jei/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/pack.mcmeta"
+      ],
+      "files": [
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/ftbchunks/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\ftbchunks\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\ftbchunks\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "db5bf473711d7ee45a4f48a54292d7f82dac7fe89d776a1e5dd4ddb3914901d3",
+          "before_sha256": "548fdcefdaa5b42480ccfdb4e65a35925a92ba866523f458a0a1d56b8dd05e57",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_011758_873150\\game_root\\resourcepacks\\ATM10_Korean\\assets\\ftbchunks\\lang\\ko_kr.json",
+          "after_sha256": "db5bf473711d7ee45a4f48a54292d7f82dac7fe89d776a1e5dd4ddb3914901d3"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/ftbessentials/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\ftbessentials\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\ftbessentials\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "ff9dd530efc5e8ae280d21d5fe427118aa8e1a499bc038177cbfdf031c6d0aae",
+          "before_sha256": "2330094f8e14b13518b4678bf266c63a84f85c7ce434762f54e3d0030f8d06aa",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_011758_873150\\game_root\\resourcepacks\\ATM10_Korean\\assets\\ftbessentials\\lang\\ko_kr.json",
+          "after_sha256": "ff9dd530efc5e8ae280d21d5fe427118aa8e1a499bc038177cbfdf031c6d0aae"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/ftbfiltersystem/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\ftbfiltersystem\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\ftbfiltersystem\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": false,
+          "source_sha256": "dc553f8159f74f5abed16eff33407ea0e4a15113d0dac481a1a6a7464f32dec1",
+          "before_sha256": "dc553f8159f74f5abed16eff33407ea0e4a15113d0dac481a1a6a7464f32dec1",
+          "after_sha256": "dc553f8159f74f5abed16eff33407ea0e4a15113d0dac481a1a6a7464f32dec1"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/ftbquests/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\ftbquests\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\ftbquests\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "5308e5d8cb77155953784f5a8fb2b0f53d28c7ed976c84cf8afb287676d71f9e",
+          "before_sha256": "e3f0dabc81fe44057f37b0c6aae3a82dd127a0d2e38422173dbabccf62834505",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_011758_873150\\game_root\\resourcepacks\\ATM10_Korean\\assets\\ftbquests\\lang\\ko_kr.json",
+          "after_sha256": "5308e5d8cb77155953784f5a8fb2b0f53d28c7ed976c84cf8afb287676d71f9e"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/ftbteams/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\ftbteams\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\ftbteams\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "40ee9c8eced831e72af3350db85b9020a39f02f64dd7f93a3a2f5a0e742b2660",
+          "before_sha256": "64c470fe33fdd76be4059f6c1dd9cc1b7e1fd38ded80b40106fcecbb19050595",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_011758_873150\\game_root\\resourcepacks\\ATM10_Korean\\assets\\ftbteams\\lang\\ko_kr.json",
+          "after_sha256": "40ee9c8eced831e72af3350db85b9020a39f02f64dd7f93a3a2f5a0e742b2660"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/ftbultimine/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\ftbultimine\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\ftbultimine\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "fce0d24bc86c2ef2bd07f1c678cbe2fbfc04ebcf027c9d456ecb11f23269a0c7",
+          "before_sha256": "a81cf26df4681bc7115054667f4907b5b0810f535e2cadf2d572c5a27566b855",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_011758_873150\\game_root\\resourcepacks\\ATM10_Korean\\assets\\ftbultimine\\lang\\ko_kr.json",
+          "after_sha256": "fce0d24bc86c2ef2bd07f1c678cbe2fbfc04ebcf027c9d456ecb11f23269a0c7"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/jade/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\jade\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\jade\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "0a62b02fe73b5ff3e06fcc49e6edb4c2291a7d9a16ad762de7c31c4424a3832c",
+          "before_sha256": "7d51a0dbbe5af24bf5dd209405ee0832b462d4ac86fc4104a8675c3cfba0954c",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_011758_873150\\game_root\\resourcepacks\\ATM10_Korean\\assets\\jade\\lang\\ko_kr.json",
+          "after_sha256": "0a62b02fe73b5ff3e06fcc49e6edb4c2291a7d9a16ad762de7c31c4424a3832c"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/jei/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\jei\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\jei\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "a40052f3f0d88d59ed94a61a0653ad1f9e67a6b69f5663319f1e387263e672d1",
+          "before_sha256": "247cb085740aa8b563739ad67a29be86f8586e17b9847baad6b8a2654c52e503",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_011758_873150\\game_root\\resourcepacks\\ATM10_Korean\\assets\\jei\\lang\\ko_kr.json",
+          "after_sha256": "a40052f3f0d88d59ed94a61a0653ad1f9e67a6b69f5663319f1e387263e672d1"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/pack.mcmeta",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\pack.mcmeta",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "e594fbca9f941431c8441ebd6338519499da062189b02fc886d349706a0a80dc",
+          "before_sha256": "57ed1fe1d23459f1d10afb161fca3a935b2e6d6620317241c4e447eeb36387ea",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_011758_873150\\game_root\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "after_sha256": "e594fbca9f941431c8441ebd6338519499da062189b02fc886d349706a0a80dc"
+        }
+      ],
+      "unexpected_changes": []
+    }
+  ],
+  "backup_manifest": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_011758_873150\\backup_manifest.json",
+  "options_unchanged": true,
+  "resourcepacks_selection_preserved": {
+    "game_root": [
+      "resourcePacks:[\"modularbees:dynamic_assets\",\"vanilla\",\"mod_resources\",\"add_xycraft_overrides_stone\",\"add_xycraft_overrides_metal\",\"add_xycraft_overrides_glass\",\"moonlight:merged_pack\",\"neovitae_materials\",\"mod/towntalk:respack\",\"mod/eternal_starlight:resourcepacks/starlight_3d_mace\",\"mod/dyenamicsandfriends:compat_packs/productivemetalworks/\",\"mod/dyenamicsandfriends:compat_packs/connectedglass/\",\"mod/dyenamicsandfriends:compat_packs/luminax/\",\"mod/dyenamicsandfriends:compat_packs/cookingforblockheads/\",\"mod/dyenamicsandfriends:compat_packs/botanypots/\",\"mod/dyenamicsandfriends:compat_packs/chromacarvings/\",\"modern_industrialization/generated\",\"file/ATM10_Korean_8.1-stable.7_resourcepack.zip\"]",
+      "lang:ko_kr"
+    ]
+  },
+  "activation_note": "공통 UI 1부 언어 파일 8개와 폴더팩 pack.mcmeta만 선택 적용했어요. 게임 화면 확인과 팩 활성화 상태 확인은 별도예요."
+}
