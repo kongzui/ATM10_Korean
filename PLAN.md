@@ -9,6 +9,17 @@
 [REREVIEW_WORKER_BRIEF.md](docs/REREVIEW_WORKER_BRIEF.md), 대조 자료 도구는
 `scripts/rereview_worker_kit.py`예요.
 
+## 재검수 6순위 · Allthemodium·ATM 광물 · 8.1-stable.15
+
+- [x] Sonnet 워커 1개로 4개 모드 866키 검토, 29키 수정. 오케스트레이터 보정 9키.
+- [x] All The Compressed 1,796키를 원래 블록 이름과 규칙 대조, 163키 수정.
+- [x] Allthemodium Patchouli 안내서 47필드 직접 검수, 4필드 수정 후 생성 스크립트로 재생성.
+- [x] Rod·Gear·광물·차원·바닐라 생물 군계 이름 용어집 기록.
+- [x] 재검수·누적 전체 검증, stable.15 ZIP 두 개 생성, 게임 종료 상태에서 9파일 선택 적용.
+- [ ] `The Beyond` 표기 결정, 게임 화면 확인.
+
+[재검수 보고](versions/8.1/reports/quality_rereview_atm_ores.md). 다음 계열은 7순위 Applied Energistics 2와 애드온이에요.
+
 ## 재검수 5순위 · 초반 기반 도구·기계·물류 · 8.1-stable.14
 
 - [x] 보류 용어 5개와 1~4순위 불확실 항목 확정, 앞선 계열 62키 반영([결정 보고](versions/8.1/reports/quality_rereview_term_decisions.md)).
@@ -16,7 +27,7 @@
 - [x] 재검수·누적 전체 검증, stable.14 ZIP 두 개 생성, 게임 종료 상태에서 29파일 선택 적용.
 - [ ] Building Gadgets 2·Energy Meter 가이드 재검수, 게임 화면 확인.
 
-[재검수 보고](versions/8.1/reports/quality_rereview_early_infra.md). 다음 계열은 6순위 Allthemodium·ATM 광물이에요.
+[재검수 보고](versions/8.1/reports/quality_rereview_early_infra.md). 다음 계열은 6순위 Allthemodium·ATM 광물이었어요.
 
 ## 재검수 4순위 · 인벤토리·정보·가이드 UI · 8.1-stable.13
 

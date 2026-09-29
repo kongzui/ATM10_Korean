@@ -24,6 +24,7 @@ QUEST_LANG = "overrides/config/ftbquests/quests/lang/ko_kr"
 PACK_ASSETS = "resourcepack/ATM10_Korean/assets"
 PLACEHOLDER_RE = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{\d+\}")
 FORMAT_RE = re.compile(r"[&§][0-9a-fk-or]", re.IGNORECASE)
+PATCHOULI_TAG_RE = re.compile(r"\$\([^)]*\)")
 JS_STRING_RE = re.compile(r"'(?:\\.|[^'\\\n])*'|\"(?:\\.|[^\"\\\n])*\"")
 
 
@@ -46,6 +47,7 @@ def scope_paths(scope: dict) -> set[str]:
     paths.update(
         f"overrides/kubejs/{relative}" for relative in scope.get("kubejs_files", [])
     )
+    paths.update(scope.get("guide_files", []))
     return paths
 
 
@@ -151,6 +153,40 @@ def verify_languages(scope: dict, record) -> int:
     return keys
 
 
+def same_guide_shape(new: object, old: object, where: str) -> None:
+    """가이드 JSON은 구조와 문자열 밖의 값이 같고, 문자열의 서식 태그가 같아야 해요."""
+    if isinstance(old, dict):
+        if not isinstance(new, dict) or list(new) != list(old):
+            raise ValueError(f"{where}: 가이드 필드 구성이 바뀌었어요")
+        for key in old:
+            same_guide_shape(new[key], old[key], f"{where}.{key}")
+    elif isinstance(old, list):
+        if not isinstance(new, list) or len(new) != len(old):
+            raise ValueError(f"{where}: 가이드 목록 길이가 바뀌었어요")
+        for index, (child, base) in enumerate(zip(new, old)):
+            same_guide_shape(child, base, f"{where}[{index}]")
+    elif isinstance(old, str):
+        if not isinstance(new, str):
+            raise ValueError(f"{where}: 가이드 값 자료형이 바뀌었어요")
+        for pattern in (PATCHOULI_TAG_RE, FORMAT_RE):
+            if pattern.findall(new) != pattern.findall(old):
+                raise ValueError(f"{where}: 가이드 서식 태그 불일치")
+    elif new != old:
+        raise ValueError(f"{where}: 문자열이 아닌 가이드 값이 바뀌었어요")
+
+
+def verify_guides(scope: dict, record) -> int:
+    files = 0
+    for relative in scope.get("guide_files", []):
+        path = OUTPUT / relative
+        current = json.loads(path.read_text(encoding="utf-8"))
+        baseline = json.loads(git_text(scope["baseline_commit"], relative))
+        same_guide_shape(current, baseline, relative)
+        record(path, OUTPUT, "output")
+        files += 1
+    return files
+
+
 def verify_kubejs(scope: dict, record) -> int:
     files = 0
     for relative in scope.get("kubejs_files", []):
@@ -184,12 +220,13 @@ def verify(*, evidence_hash=None):
             quest_keys = verify_quests(name, scope, instance, record)
             language_keys = verify_languages(scope, record)
             kubejs_files = verify_kubejs(scope, record)
+            guide_files = verify_guides(scope, record)
             record(REREVIEW_ROOT / name / "scope.json", PROJECT_ROOT, "project")
             counts[f"quality_rereview_{name}"] = {
                 "language_keys": language_keys,
                 "quest_keys": quest_keys,
                 "kubejs_files": kubejs_files,
-                "guide_files": 0,
+                "guide_files": guide_files,
             }
         record(MANUAL_OVERRIDES, PROJECT_ROOT, "project")
         return {

@@ -7,6 +7,6 @@
   "status": "compatibility_ready",
   "full_apply_allowed": true,
   "baseline_commit": "5011ad5",
-  "note": "8.1-stable.14: 품질 재검수 1~5순위(팩 공통 진행 퀘스트, 항상 보는 공통 UI, Sophisticated, 인벤토리·정보·가이드 UI, 초반 기반 도구·기계·물류)와 보류 용어 확정 반영. 이전 번역과 보조 번역 실행 코드 제외 방침 유지. 파일 검증과 실제 게임 화면 검증은 구분하며 적용 결과는 별도 보고서에 기록한다.",
-  "release_id": "8.1-stable.14"
+  "note": "8.1-stable.15: 품질 재검수 1~6순위(팩 공통 진행 퀘스트, 항상 보는 공통 UI, Sophisticated, 인벤토리·정보·가이드 UI, 초반 기반 도구·기계·물류, Allthemodium·ATM 광물)와 보류 용어 확정 반영. 이전 번역과 보조 번역 실행 코드 제외 방침 유지. 파일 검증과 실제 게임 화면 검증은 구분하며 적용 결과는 별도 보고서에 기록한다.",
+  "release_id": "8.1-stable.15"
 }

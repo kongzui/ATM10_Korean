@@ -1,0 +1,22 @@
+{
+  "chemical.allthemodium.clean_vibranium": "순수한 Vibranium 슬러리",
+  "chemical.allthemodium.clean_unobtainium": "순수한 Unobtainium 슬러리",
+  "chemical.allthemodium.dirty_vibranium": "불순물이 섞인 Vibranium 슬러리",
+  "chemical.allthemodium.dirty_unobtainium": "불순물이 섞인 Unobtainium 슬러리",
+  "chemical.allthemodium.dirty_allthemodium": "불순물이 섞인 Allthemodium 슬러리",
+  "chemical.allthemodium.clean_allthemodium": "순수한 Allthemodium 슬러리",
+  "biome.allthemodium.desert": "디 아더: 사막",
+  "biome.allthemodium.desert_hills": "디 아더: 사막 언덕",
+  "biome.allthemodium.soul_sand_valley": "디 아더: 영혼 모래 골짜기",
+  "item.allthemodium.dirty_unobtainium_dust": "불순물이 섞인 Unobtainium 가루",
+  "item.allthemodium.dirty_allthemodium_dust": "불순물이 섞인 Allthemodium 가루",
+  "item.allthemodium.dirty_vibranium_dust": "불순물이 섞인 Vibranium 가루",
+  "item.allthemodium.allthemodium_rod": "Allthemodium 막대기",
+  "item.allthemodium.allthemodium_gear": "Allthemodium 기어",
+  "item.allthemodium.vibranium_rod": "Vibranium 막대기",
+  "item.allthemodium.vibranium_gear": "Vibranium 기어",
+  "item.allthemodium.unobtainium_rod": "Unobtainium 막대기",
+  "item.allthemodium.unobtainium_gear": "Unobtainium 기어",
+  "allthemodium.loc": "깊은 어둠 생물 군계의 동굴 벽과 천장에 고르게 생성됩니다",
+  "unobtainium.loc": "엔드 고지 생물 군계에만 생성됩니다"
+}

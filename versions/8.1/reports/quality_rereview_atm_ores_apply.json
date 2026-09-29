@@ -1,0 +1,151 @@
+{
+  "applied_at": "2026-09-29T23:48:01",
+  "status": "applied_and_verified",
+  "configured_targets": [
+    "game_root"
+  ],
+  "game_root_configured": true,
+  "java_processes": [],
+  "version_guard": {
+    "status": "scoped_rebase_apply",
+    "active_pack_version": "8.1",
+    "baseline_pack_version": "7.1",
+    "active_output_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1",
+    "output_validated_pack_version": "8.1",
+    "output_rebase_target_version": null,
+    "full_apply_allowed": true,
+    "target_versions": {
+      "game_root": "8.1"
+    }
+  },
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+      "status": "applied_and_verified",
+      "backup_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\game_root",
+      "changed_paths": [
+        "resourcepacks/ATM10_Korean/assets/allthecompressed/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/allthemodium/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/food/atmapple.json",
+        "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/food/atmcarrot.json",
+        "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/ore/allthemodium.json",
+        "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/ore/unobtainium.json",
+        "resourcepacks/ATM10_Korean/assets/alltheores/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/allthewizardgear/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/pack.mcmeta"
+      ],
+      "files": [
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/allthecompressed/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\allthecompressed\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\allthecompressed\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "de49525d396e86b7e2d6ff82ea83dd531f1f5cddd167c9fc0e6eee04e3f16591",
+          "before_sha256": "b206d2db202fe18941b375a0e86c83483082bb2df043d66d6afd76c6883ade0f",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\game_root\\resourcepacks\\ATM10_Korean\\assets\\allthecompressed\\lang\\ko_kr.json",
+          "after_sha256": "de49525d396e86b7e2d6ff82ea83dd531f1f5cddd167c9fc0e6eee04e3f16591"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/allthemodium/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\allthemodium\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\allthemodium\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "5814a5d784b49d1f83b2e4f011b929d7cd39389279b5333546f3b050c22b0f2f",
+          "before_sha256": "1c69d97db710dd3e1cc686d907828d7ddc018c722f150198d624581c8bf401e7",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\game_root\\resourcepacks\\ATM10_Korean\\assets\\allthemodium\\lang\\ko_kr.json",
+          "after_sha256": "5814a5d784b49d1f83b2e4f011b929d7cd39389279b5333546f3b050c22b0f2f"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/food/atmapple.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\food\\atmapple.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\food\\atmapple.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "ad93e7786ca9c874aa85d9f44dc21f78f3c008c410713d46a51d272e31c7c6bc",
+          "before_sha256": "4f0eaeb6f70dc72115660a0e30c9619a0002ecdca6abb51ac7b4eb8816ca60ca",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\game_root\\resourcepacks\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\food\\atmapple.json",
+          "after_sha256": "ad93e7786ca9c874aa85d9f44dc21f78f3c008c410713d46a51d272e31c7c6bc"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/food/atmcarrot.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\food\\atmcarrot.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\food\\atmcarrot.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "3219bb3a99977452b14363547d266bfff91c7d5a23610e6d93b9bc7ced8d046c",
+          "before_sha256": "339d2d50f4e3b9cd2544b757ad33c4551e63a5012acf1451732eab37984da6eb",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\game_root\\resourcepacks\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\food\\atmcarrot.json",
+          "after_sha256": "3219bb3a99977452b14363547d266bfff91c7d5a23610e6d93b9bc7ced8d046c"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/ore/allthemodium.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\ore\\allthemodium.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\ore\\allthemodium.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "6bd38665489e3ef00d47c55fabe104b6cec8ea4eeeb15a72cb0ffab7603b3dec",
+          "before_sha256": "300723111166f18a09278f4f95da8450118176f821e7273d265734157a3f52c2",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\game_root\\resourcepacks\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\ore\\allthemodium.json",
+          "after_sha256": "6bd38665489e3ef00d47c55fabe104b6cec8ea4eeeb15a72cb0ffab7603b3dec"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/allthemodium/patchouli_books/allthemodium_book/ko_kr/entries/ore/unobtainium.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\ore\\unobtainium.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\ore\\unobtainium.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "f0f96abb6483a6b91f908258d74c8f857bf863b62bd9cd376ee1417782b3b4dd",
+          "before_sha256": "2a327df6991fd548bb30ff1712df4d142f49105651abae788dc7f23171dd6d13",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\game_root\\resourcepacks\\ATM10_Korean\\assets\\allthemodium\\patchouli_books\\allthemodium_book\\ko_kr\\entries\\ore\\unobtainium.json",
+          "after_sha256": "f0f96abb6483a6b91f908258d74c8f857bf863b62bd9cd376ee1417782b3b4dd"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/alltheores/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\alltheores\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\alltheores\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "b4899cf26401a4d667a681ab2b10375bd9d9484f852f5306ace3cc62007cf3fa",
+          "before_sha256": "3b0ec9a37adad8248e4fa9fdd6d49d0f93ce13031799ce31fcd1bdffb6bdc9e9",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\game_root\\resourcepacks\\ATM10_Korean\\assets\\alltheores\\lang\\ko_kr.json",
+          "after_sha256": "b4899cf26401a4d667a681ab2b10375bd9d9484f852f5306ace3cc62007cf3fa"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/allthewizardgear/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\allthewizardgear\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\allthewizardgear\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "9982dc77527b7051f692ebe454e296977cb2197d08c37d0f43435a6faf909cf9",
+          "before_sha256": "3c0ec3e1f25bd6f44d4770c4fc29b5ec497c5aa7f36dba80c159665fd322c35d",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\game_root\\resourcepacks\\ATM10_Korean\\assets\\allthewizardgear\\lang\\ko_kr.json",
+          "after_sha256": "9982dc77527b7051f692ebe454e296977cb2197d08c37d0f43435a6faf909cf9"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/pack.mcmeta",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\pack.mcmeta",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "5330f661a990eb33d19ae87f01a6fd42dc670aa447d32d06c0328a7305ca8b4d",
+          "before_sha256": "06a0208e88a23c69386bd9d79c09e2c121f34b4990164efaab2a5c5b0902add6",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\game_root\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "after_sha256": "5330f661a990eb33d19ae87f01a6fd42dc670aa447d32d06c0328a7305ca8b4d"
+        }
+      ],
+      "unexpected_changes": []
+    }
+  ],
+  "backup_manifest": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_234754_867280\\backup_manifest.json",
+  "options_unchanged": true,
+  "resourcepacks_selection_preserved": {
+    "game_root": [
+      "resourcePacks:[\"modularbees:dynamic_assets\",\"vanilla\",\"mod_resources\",\"add_xycraft_overrides_stone\",\"add_xycraft_overrides_metal\",\"add_xycraft_overrides_glass\",\"moonlight:merged_pack\",\"neovitae_materials\",\"mod/towntalk:respack\",\"mod/eternal_starlight:resourcepacks/starlight_3d_mace\",\"mod/dyenamicsandfriends:compat_packs/productivemetalworks/\",\"mod/dyenamicsandfriends:compat_packs/connectedglass/\",\"mod/dyenamicsandfriends:compat_packs/luminax/\",\"mod/dyenamicsandfriends:compat_packs/cookingforblockheads/\",\"mod/dyenamicsandfriends:compat_packs/botanypots/\",\"mod/dyenamicsandfriends:compat_packs/chromacarvings/\",\"modern_industrialization/generated\",\"file/ATM10_Korean_8.1-stable.7_resourcepack.zip\"]",
+      "lang:ko_kr"
+    ]
+  },
+  "activation_note": "6순위 언어·안내서 파일과 폴더팩 pack.mcmeta만 선택 적용했어요. 게임 화면 확인과 팩 활성화 상태 확인은 별도예요."
+}

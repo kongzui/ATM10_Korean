@@ -47,6 +47,7 @@ RELEASE_MODS = {
     "8.1-stable.12": ("auroral", "neovitae"),
     "8.1-stable.13": ("auroral", "neovitae"),
     "8.1-stable.14": ("auroral", "neovitae"),
+    "8.1-stable.15": ("auroral", "neovitae"),
 }
 # 품질 재검수 계열을 누적한 배포예요. 새 재검수 배포를 추가할 때 함께 늘려요.
 QUALITY_REREVIEW_RELEASES = {
@@ -57,6 +58,7 @@ QUALITY_REREVIEW_RELEASES = {
     "8.1-stable.12",
     "8.1-stable.13",
     "8.1-stable.14",
+    "8.1-stable.15",
 }
 CHAPTERS = {"auroral": "auroral", "neovitae": "neo_vitae"}
 PACK = "resourcepack/ATM10_Korean"

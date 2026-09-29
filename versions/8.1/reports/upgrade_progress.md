@@ -208,6 +208,17 @@
   Quarry 기계 뜻의 1순위 퀘스트 문장 5키도 고쳤어요. 신규 번역은 없어요.
 - 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
 - 게임 종료 상태에서 stable.13 이후 바뀐 29파일만 선택 적용했고 표시 경로 감사 4개를 갱신했어요.
-- [재검수 보고](quality_rereview_early_infra.md), [배포 안내](../../../docs/releases/8.1-stable.14.md),
+- [재검수 보고](quality_rereview_early_infra.md), [배포 안내](../../../docs/archive/releases/8.1-stable.14.md),
   [패키지 목록](../manifests/8.1-stable.14_packages.json)에 근거를 남겨요.
 - 실제 게임 화면은 미검증이에요. 다음은 6순위 Allthemodium·ATM 광물이에요.
+
+## 2026-09-29 · 품질 재검수 6순위 Allthemodium·ATM 광물 누적 stable.15
+
+- Allthemodium·All The Ores·All The Compressed 등 5개 모드 언어 2,662키를 다시 대조해 201키를 고치고
+  2,461키를 유지했어요. 압축 블록 1,796키는 원래 블록 이름과 규칙 대조했어요. 신규 번역은 없어요.
+- Allthemodium Patchouli 안내서 표시 필드 47개를 다시 검토해 4필드를 고쳤어요.
+- 재검수 누적 검증(안내서 구조·태그 검사 추가), 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
+- 게임 종료 상태에서 stable.14 이후 바뀐 9파일만 선택 적용했어요. 표시 경로 감사는 변화 없어요.
+- [재검수 보고](quality_rereview_atm_ores.md), [배포 안내](../../../docs/releases/8.1-stable.15.md),
+  [패키지 목록](../manifests/8.1-stable.15_packages.json)에 근거를 남겨요.
+- 실제 게임 화면은 미검증이에요. 다음은 7순위 Applied Energistics 2와 애드온이에요.

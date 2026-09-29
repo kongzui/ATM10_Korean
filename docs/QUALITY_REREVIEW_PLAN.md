@@ -343,6 +343,10 @@ Sonnet 워커가 키를 읽고 고치는 방식으로 진행해요. 규칙은 `A
   분명히 적었어요.
 - 한 번 고친 키를 다시 고치는 경우(용어 교체 등) `quality_rereview_lang.py`는 작업 원본이 기준
   커밋 값이나 현재 산출물 값과 같으면 통과해요.
+- 이름×단계처럼 규칙으로 만든 대량 키(압축 블록 등)는 워커에게 맡기지 않고, 원래 블록의 확정 이름과
+  프로그램으로 대조해 불일치와 원본 없는 이름만 직접 읽어요(6순위).
+- 번역 사전이 스크립트에 있는 가이드는 오케스트레이터가 사전을 고치고 생성 스크립트로 다시 만들어요.
+  바뀐 가이드 파일은 범위 파일의 `guide_files`에 넣어야 누적·안정판 검증의 허용 경로가 돼요.
 - 파일을 쓰는 스크립트는 LF(`newline="\n"`)로 써요. 섞인 줄바꿈 파일을 `git restore`로 되돌리면
   바이트가 달라져 단계1 해시 검증이 실패하니, 산출물 가이드 파일은 건드리지 않아요.
 
@@ -350,7 +354,7 @@ Sonnet 워커가 키를 읽고 고치는 방식으로 진행해요. 규칙은 `A
 
 | 단계 | 계열 순위 | 상태 |
 |---|---|---|
-| A | 1~6 | 1 완료(stable.8), 2 완료(1부 stable.9, 2부 stable.11), 3 완료(stable.12), 4 완료(stable.13), 5 완료(stable.14), 6 미착수 |
+| A | 1~6 | 1 완료(stable.8), 2 완료(1부 stable.9, 2부 stable.11), 3 완료(stable.12), 4 완료(stable.13), 5 완료(stable.14), 6 완료(stable.15) |
 | 후속 | 1·2순위 용어 교체 | 완료(stable.10). `솔라리움`만 Ender IO 계열 때 교체 |
 | B | 7~17 | 미착수 |
 | C | 18~30 | 미착수 |
@@ -369,6 +373,7 @@ Sonnet 워커가 키를 읽고 고치는 방식으로 진행해요. 규칙은 `A
 | 4 | 인벤토리·정보·가이드 UI | 언어 20개 2,443키 | 언어 210 | 언어 2,233 | 8.1-stable.13 | [보고](../versions/8.1/reports/quality_rereview_info_ui.md) |
 | 5 | 초반 기반 도구·기계·물류 | 언어 20개 1,769키 | 언어 126, 퀘스트 5 | 언어 1,643 | 8.1-stable.14 | [보고](../versions/8.1/reports/quality_rereview_early_infra.md) |
 | 후속 | 보류 용어 확정 | 보류 5개, 1~4순위 불확실 항목 | 언어 62 | — | 8.1-stable.14 | [보고](../versions/8.1/reports/quality_rereview_term_decisions.md) |
+| 6 | Allthemodium·ATM 광물 | 언어 5개 2,662키, 안내서 47필드 | 언어 201, 안내서 4 | 언어 2,461 | 8.1-stable.15 | [보고](../versions/8.1/reports/quality_rereview_atm_ores.md) |
 
 계열 작업 자료는 `working/quality_rereview/<계열>/`에 두고, 퀘스트 수정본은
 `scripts/quality_rereview_quests.py <계열> --write-output`으로 산출물과 8.1 수동 검수 목록에
