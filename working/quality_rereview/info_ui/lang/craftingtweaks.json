@@ -1,0 +1,4 @@
+{
+  "craftingtweaks.configuration.client.rightClickCraftsStack.tooltip": "켜면 제작대의 결과 슬롯을 우클릭할 때 한 묶음을 통째로 제작합니다.",
+  "craftingtweaks.configuration.client.hideVanillaCraftingGuide.tooltip": "JEI가 훨씬 낫다는 건 우리 둘 다 알고 있습니다. 이 설정은 바닐라 제작법 책 버튼을 옮기는 대신 숨깁니다."
+}

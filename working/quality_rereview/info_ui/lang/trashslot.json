@@ -1,0 +1,9 @@
+{
+  "trashslot.configuration.instantDeletion.tooltip": "켜면 삭제 슬롯이 크리에이티브 모드처럼 아이템을 즉시 삭제합니다.",
+  "trashslot.configuration.allowDeletionWhileTrashSlotIsInvisible.tooltip": "권장하지 않습니다. 켜면 삭제 슬롯이 숨겨져 있어도 아이템 삭제 단축키를 사용할 수 있습니다.",
+  "trashslot.hint.toggleOn": "이 화면에서 삭제 슬롯을 켜려면 %s 키를 누르세요!",
+  "trashslot.hint.toggledOff": "삭제 슬롯을 껐습니다! 다시 켜려면 %s 키를 누르세요.",
+  "trashslot.hint.locked": "삭제 슬롯이 잠겼습니다. 잠금을 해제하려면 %s 키를 누르세요.",
+  "trashslot.hint.unlocked": "삭제 슬롯의 잠금이 해제되었습니다. 잠그려면 %s 키를 누르세요.",
+  "tooltip.trashslot.trash_item": "아이템 삭제"
+}

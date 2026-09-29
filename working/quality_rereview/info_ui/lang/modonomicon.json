@@ -1,0 +1,5 @@
+{
+  "modonomicon.gui.page.entity.loading_error": "엔티티 불러오기 실패",
+  "modonomicon.command.success.reset_book": "책을 초기화했습니다: %s",
+  "modonomicon.gui.no_errors_found": "오류가 없습니다. 원래는 이 페이지가 보이면 안 됩니다!"
+}

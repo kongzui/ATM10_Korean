@@ -187,6 +187,16 @@
   1,025키를 유지했어요. Sonnet 워커 분업으로 진행했고 신규 번역은 없어요.
 - 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
 - 게임 종료 상태에서 언어 파일과 pack.mcmeta만 선택 적용했어요.
-- [재검수 보고](quality_rereview_sophisticated.md), [배포 안내](../../../docs/releases/8.1-stable.12.md),
+- [재검수 보고](quality_rereview_sophisticated.md), [배포 안내](../../../docs/archive/releases/8.1-stable.12.md),
   [패키지 목록](../manifests/8.1-stable.12_packages.json)에 근거를 남겨요.
 - 실제 게임 화면은 미검증이에요. 다음은 4순위 인벤토리·정보·가이드 UI예요.
+
+## 2026-09-29 · 품질 재검수 4순위 누적 stable.13
+
+- Corail Tombstone·Lootr·Tempad·Enchantment Descriptions 등 20개 모드 언어 2,443키를 다시 대조해
+  210키를 고치고 2,233키를 유지했어요. Sonnet 워커 2개 분업으로 진행했고 신규 번역은 없어요.
+- 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
+- 게임 종료 상태에서 바뀐 언어 14파일과 pack.mcmeta만 선택 적용했어요.
+- [재검수 보고](quality_rereview_info_ui.md), [배포 안내](../../../docs/releases/8.1-stable.13.md),
+  [패키지 목록](../manifests/8.1-stable.13_packages.json)에 근거를 남겨요.
+- 실제 게임 화면은 미검증이에요. 다음은 5순위 초반 기반 도구·기계·물류예요.

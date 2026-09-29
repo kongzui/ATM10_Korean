@@ -1,7 +1,7 @@
 {
   "guideme.configuration.adaptiveScaling": "GUI 배율 자동 조정",
   "guideme.configuration.debug": "디버그",
-  "guideme.configuration.debug.tooltip": "가이드 개발을 위한 고급 디버깅 설정",
+  "guideme.configuration.debug.tooltip": "가이드 개발용 고급 디버깅 설정",
   "guideme.configuration.fullWidthLayout": "전체 너비 레이아웃",
   "guideme.configuration.gui": "사용자 인터페이스",
   "guideme.configuration.guide": "가이드",

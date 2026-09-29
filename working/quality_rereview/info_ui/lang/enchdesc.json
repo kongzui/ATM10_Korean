@@ -1,0 +1,12 @@
+{
+  "enchantment.minecraft.vanishing_curse.desc": "죽을 때 인벤토리에 있던 저주받은 아이템을 파괴합니다.",
+  "enchantment.shieldsplus.fast_recovery.desc": "방패의 쿨타임을 줄입니다.",
+  "enchantment.deeperdarker.sculk_smite.desc": "스컬크 계열 몹에게 주는 피해가 늘어납니다.",
+  "enchantment.create_sa.gravity_gun.desc": "블록 피커로 엔티티를 옮기고 던질 수 있게 합니다.",
+  "enchantment.improved_exp.coldblooded.desc": "따뜻한 생물 군계에서 사용자가 피해를 받습니다.",
+  "enchantment.improved_exp.warmblooded.desc": "추운 생물 군계에서 착용자가 피해를 받습니다.",
+  "enchantment.improved_exp.gravity.desc": "블록을 우클릭하면 주변 엔티티를 끌어당깁니다.",
+  "enchantment.improved_exp.telekinesis.desc": "엔티티를 바라보면 사용자 쪽으로 끌어당깁니다.",
+  "enchantment.improved_exp.far_swing.desc": "공격이 주변의 모든 엔티티에게 적중합니다.",
+  "enchantment.improved_exp.bury.desc": "엔티티를 공격하면 땅속으로 밀어 넣습니다."
+}

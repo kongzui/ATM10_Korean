@@ -1,0 +1,5 @@
+{
+  "patchouli.gui.lexicon.index.info": "이 책의 모든 항목을 모은 색인입니다.$(br2)색인이나 다른 범주에서 검색어를 바로 입력하면 검색창이 나타나 항목을 찾아 줍니다.",
+  "patchouli.gui.lexicon.multiblock_bookmark": "시각화된 구조물",
+  "patchouli.gui.lexicon.button.resize.verybig.message": "대체 모니터가 얼마나 큰 겁니까"
+}

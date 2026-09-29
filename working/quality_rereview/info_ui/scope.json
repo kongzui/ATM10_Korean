@@ -1,0 +1,97 @@
+{
+  "family": "인벤토리·정보·가이드 UI",
+  "rank": 4,
+  "status": "completed",
+  "baseline_commit": "14a51ca",
+  "quest_files": [],
+  "language_namespaces": [
+    "appleskin",
+    "enchdesc",
+    "moreoverlays",
+    "tombstone",
+    "lootr",
+    "polymorph",
+    "craftingtweaks",
+    "controlling",
+    "mousetweaks",
+    "invtweaks",
+    "trashslot",
+    "betteradvancements",
+    "betteradvancedtooltips",
+    "guideme",
+    "patchouli",
+    "modonomicon",
+    "akashictome",
+    "tempad",
+    "tempad_static",
+    "jearchaeology"
+  ],
+  "language_sources": {
+    "appleskin": [
+      "working/common_ui/inventory_controls/appleskin/ko_kr.json"
+    ],
+    "enchdesc": [
+      "working/common_ui/curios_effects/enchdesc/ko_kr.json",
+      "working/common_ui/curios_effects/enchdesc/recheck_overrides.json"
+    ],
+    "moreoverlays": [
+      "working/common_ui/curios_effects/moreoverlays/ko_kr.json"
+    ],
+    "tombstone": [
+      "working/common_ui/convenience/tombstone/ko_kr.json"
+    ],
+    "lootr": [
+      "working/common_ui/convenience/lootr/ko_kr.json",
+      "working/common_ui/convenience/lootr/recheck_overrides.json"
+    ],
+    "polymorph": [
+      "working/common_ui/convenience/polymorph/ko_kr.json",
+      "working/common_ui/convenience/polymorph/recheck_overrides.json"
+    ],
+    "craftingtweaks": [
+      "working/common_ui/convenience/craftingtweaks/ko_kr.json"
+    ],
+    "controlling": [
+      "working/common_ui/inventory_controls/controlling/ko_kr.json",
+      "working/common_ui/inventory_controls/controlling/recheck_overrides.json"
+    ],
+    "mousetweaks": [
+      "working/common_ui/inventory_controls/mousetweaks/ko_kr.json"
+    ],
+    "invtweaks": [
+      "working/common_ui/inventory_controls/invtweaks/ko_kr.json"
+    ],
+    "trashslot": [
+      "working/common_ui/inventory_controls/trashslot/ko_kr.json"
+    ],
+    "betteradvancements": [
+      "working/common_ui/inventory_controls/betteradvancements/ko_kr.json"
+    ],
+    "betteradvancedtooltips": [
+      "working/betteradvancedtooltips/ko_kr.json"
+    ],
+    "guideme": [
+      "working/common_ui/guide_ui/guideme/ko_kr.json",
+      "working/common_ui/guide_ui/guideme/recheck_overrides.json"
+    ],
+    "patchouli": [
+      "working/common_ui/guide_ui/patchouli/ko_kr.json"
+    ],
+    "modonomicon": [
+      "working/common_ui/guide_ui/modonomicon/ko_kr.json"
+    ],
+    "akashictome": [
+      "working/common_ui/guide_ui/akashictome/ko_kr.json"
+    ],
+    "tempad": [
+      "working/common_ui/tempad/tempad/ko_kr.json"
+    ],
+    "tempad_static": [
+      "working/common_ui/tempad/tempad_static/ko_kr.json"
+    ],
+    "jearchaeology": [
+      "working/jearchaeology/jearchaeology/ko_kr.json"
+    ]
+  },
+  "kubejs_files": []
+}

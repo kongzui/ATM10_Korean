@@ -399,6 +399,18 @@
 | Slowness | 속도 감소 | Minecraft 공식 효과명 | 전체 프로젝트 | 확정 | 1.21 바닐라 표기. `둔화`, `구속`과 섞지 않음 |
 | Limited Barrel | 제한된 통 | 블록명 | Sophisticated Storage | 확정 | 설정 이름도 아이템 이름과 같게 씀 |
 
+### 품질 재검수 4순위 · 인벤토리·정보·가이드 UI
+
+| 영어 | 한국어 | 종류 | 적용 범위 | 상태 | 비고 |
+|---|---|---|---|---|---|
+| Tempad | Tempad | 공식 모드명·아이템명 | 전체 프로젝트 | 확정 | `템패드`로 음역하지 않음 |
+| Timedoor / Chronon | 시간 문 / 크로논 | 기술 용어 | Tempad | 확정 | 이름 속 Teleport(앱·업그레이드)는 `텔레포트`, 동작 버튼은 `순간이동` |
+| Multiversal | 다중 우주 | 기술 용어 | Tempad | 확정 | `다차원`과 섞지 않음(Dimension의 `차원`과 구분) |
+| Witch Doctor / Familiar | 주술사 / 사역마 | 특전·기능명 | Corail Tombstone | 확정 | `마녀 의사` 오역 교정 |
+| Grave Dust | 무덤 가루 | 아이템명 | Corail Tombstone | 확정 | Dust는 `가루`(`먼지` X) |
+| Trash Slot (슬롯) | 삭제 슬롯 | UI 용어 | TrashSlot | 확정 | 모드명 `TrashSlot`과 구분 |
+| Phantom | 팬텀 | Minecraft 공식 몹 이름 | 전체 프로젝트 | 확정 | `망령`으로 옮기지 않음 |
+
 ## 5. 보류 용어
 
 아직 확정하지 않은 고유명사나 전문용어는 임의로 번역하지 않고 아래 표에 기록한다.

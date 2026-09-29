@@ -133,7 +133,13 @@ def verify_languages(scope: dict, record) -> int:
         for key, value in current.items():
             old = baseline[key]
             if not isinstance(value, str):
-                raise ValueError(f"{namespace}:{key}: 문자열이 아니에요")
+                # 텍스트 컴포넌트 목록 같은 비문자열 값은 기준과 같을 때만 허용해요.
+                if value != old:
+                    raise ValueError(
+                        f"{namespace}:{key}: 문자열이 아닌 값이 바뀌었어요"
+                    )
+                keys += 1
+                continue
             if sorted(PLACEHOLDER_RE.findall(value)) != sorted(
                 PLACEHOLDER_RE.findall(old)
             ):

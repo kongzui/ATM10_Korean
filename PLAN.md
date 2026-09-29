@@ -9,6 +9,15 @@
 [REREVIEW_WORKER_BRIEF.md](docs/REREVIEW_WORKER_BRIEF.md), 대조 자료 도구는
 `scripts/rereview_worker_kit.py`예요.
 
+## 재검수 4순위 · 인벤토리·정보·가이드 UI · 8.1-stable.13
+
+- [x] Sonnet 워커 2개 병렬로 20개 모드 2,443키 검토, 210키 수정(오케스트레이터 보정·추가 9키 포함).
+- [x] 바뀐 이름의 퀘스트·다른 모드 사용처 없음 확인, 작업 원본 보정 파일까지 반영.
+- [x] 재검수·누적 전체 검증, stable.13 ZIP 두 개 생성, 게임 종료 상태에서 15파일 선택 적용.
+- [ ] 보고서의 남은 확인 항목과 게임 화면 확인.
+
+[재검수 보고](versions/8.1/reports/quality_rereview_info_ui.md). 다음 계열은 5순위 초반 기반 도구·기계·물류예요.
+
 ## 재검수 3순위 · Sophisticated 계열 · 8.1-stable.12
 
 - [x] Sonnet 워커 1개로 언어 4개 1,137키 검토, 112키 수정(오케스트레이터 보정 1키 포함).
@@ -16,7 +25,7 @@
 - [x] 재검수·누적 전체 검증, stable.12 ZIP 두 개 생성, 게임 종료 상태에서 선택 적용.
 - [ ] Admin(관리자/OP)·Void(제거/공허) 표기 결정, 게임 화면 확인.
 
-[재검수 보고](versions/8.1/reports/quality_rereview_sophisticated.md). 다음 계열은 4순위 인벤토리·정보·가이드 UI예요.
+[재검수 보고](versions/8.1/reports/quality_rereview_sophisticated.md). 다음 계열은 4순위 인벤토리·정보·가이드 UI였어요.
 
 ## 재검수 2순위 2부 · 지도·장신구·웨이스톤·나침반 · 8.1-stable.11
 
