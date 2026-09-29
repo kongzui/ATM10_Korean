@@ -9,6 +9,15 @@
 [REREVIEW_WORKER_BRIEF.md](docs/REREVIEW_WORKER_BRIEF.md), 대조 자료 도구는
 `scripts/rereview_worker_kit.py`예요.
 
+## 재검수 3순위 · Sophisticated 계열 · 8.1-stable.12
+
+- [x] Sonnet 워커 1개로 언어 4개 1,137키 검토, 112키 수정(오케스트레이터 보정 1키 포함).
+- [x] Chipped 연동 업그레이드 이름·제한된 통 설정 이름 통일, 이름을 쓰는 퀘스트 없음 확인.
+- [x] 재검수·누적 전체 검증, stable.12 ZIP 두 개 생성, 게임 종료 상태에서 선택 적용.
+- [ ] Admin(관리자/OP)·Void(제거/공허) 표기 결정, 게임 화면 확인.
+
+[재검수 보고](versions/8.1/reports/quality_rereview_sophisticated.md). 다음 계열은 4순위 인벤토리·정보·가이드 UI예요.
+
 ## 재검수 2순위 2부 · 지도·장신구·웨이스톤·나침반 · 8.1-stable.11
 
 - [x] Opus 오케스트레이터·Sonnet 워커 2개 분업 시험 운영으로 언어 5개 2,644키 검토, 177키 수정.
@@ -16,7 +25,7 @@
 - [x] 재검수·누적 전체 검증, stable.11 ZIP 두 개 생성, 게임 종료 상태에서 6파일 선택 적용.
 - [ ] 실제 게임에서 JourneyMap·Waystones·나침반 화면 확인.
 
-[재검수 보고](versions/8.1/reports/quality_rereview_common_ui_2.md)에 분업 평가를 기록해요. 다음 계열은 3순위 Sophisticated예요.
+[재검수 보고](versions/8.1/reports/quality_rereview_common_ui_2.md)에 분업 평가를 기록해요. 다음 계열은 3순위 Sophisticated였어요.
 
 ## 1·2순위 용어 교체 · 8.1-stable.10
 

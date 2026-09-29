@@ -1,0 +1,28 @@
+{
+  "family": "Sophisticated 계열",
+  "rank": 3,
+  "status": "completed",
+  "baseline_commit": "2109385",
+  "quest_files": [],
+  "language_namespaces": [
+    "sophisticatedcore",
+    "sophisticatedbackpacks",
+    "sophisticatedstorage",
+    "sophisticatedstorageinmotion"
+  ],
+  "language_sources": {
+    "sophisticatedcore": [
+      "working/sophisticated/sophisticatedcore/ko_kr.json"
+    ],
+    "sophisticatedbackpacks": [
+      "working/sophisticated/sophisticatedbackpacks/ko_kr.json"
+    ],
+    "sophisticatedstorage": [
+      "working/sophisticated/sophisticatedstorage/ko_kr.json"
+    ],
+    "sophisticatedstorageinmotion": [
+      "working/sophisticated/sophisticatedstorageinmotion/ko_kr.json"
+    ]
+  },
+  "kubejs_files": []
+}

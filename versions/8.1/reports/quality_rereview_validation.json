@@ -18,6 +18,12 @@
       "quest_keys": 2023,
       "kubejs_files": 2,
       "guide_files": 0
+    },
+    "quality_rereview_sophisticated": {
+      "language_keys": 1137,
+      "quest_keys": 0,
+      "kubejs_files": 0,
+      "guide_files": 0
     }
   },
   "instance_unchanged": true,
@@ -98,6 +104,11 @@
     "output/overrides/kubejs/client_scripts/tooltips.js": "bf4defe2058502861c9866fd8731d6b2a6eec476266c8cb15d431111c4af27cc",
     "output/overrides/kubejs/startup_scripts/CustomAdditions.js": "696204cdaa81b4b8b4e1130da0b313c16f6b049e95f30b845eb2502202acdda7",
     "project/working/quality_rereview/pack_progress/scope.json": "0113ac4350e9d887ae8ec427f41b4b599620b10cca9fab1e37f33b310f4343e2",
+    "output/resourcepack/ATM10_Korean/assets/sophisticatedcore/lang/ko_kr.json": "5bab8b973cc10da73df38cdd09d66ce7be74cb3372b75a1efd163fa83fcaaba0",
+    "output/resourcepack/ATM10_Korean/assets/sophisticatedbackpacks/lang/ko_kr.json": "cbf2bd2bf0d52f4ea09775c1b923c9a770e411f648c7a8e703769d9e5e57d866",
+    "output/resourcepack/ATM10_Korean/assets/sophisticatedstorage/lang/ko_kr.json": "4772443fd536e75d6193fc5cdfc512148c2756e686ae9a3780de031cc99f23e5",
+    "output/resourcepack/ATM10_Korean/assets/sophisticatedstorageinmotion/lang/ko_kr.json": "106ecda22c12e907adb062c2b6c54f8867d15dbb783b8dab032f3dc0bf2797fe",
+    "project/working/quality_rereview/sophisticated/scope.json": "e6ebf3f6d6d372168a4d3a9d390748bc5e7a251df9a3bd72dedd0be4e54d06cf",
     "project/working/ftbquests/8.1_overrides.json": "d2890fe722ca8f40e4af1cedff9cf9a40096be8ba8386216eeb72b2c7fa6f0c1"
   }
 }

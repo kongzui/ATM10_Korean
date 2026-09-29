@@ -344,7 +344,7 @@ Sonnet 워커가 키를 읽고 고치는 방식으로 진행해요. 규칙은 `A
 
 | 단계 | 계열 순위 | 상태 |
 |---|---|---|
-| A | 1~6 | 1 완료(stable.8), 2 완료(1부 stable.9, 2부 stable.11), 3~6 미착수 |
+| A | 1~6 | 1 완료(stable.8), 2 완료(1부 stable.9, 2부 stable.11), 3 완료(stable.12), 4~6 미착수 |
 | 후속 | 1·2순위 용어 교체 | 완료(stable.10). `솔라리움`만 Ender IO 계열 때 교체 |
 | B | 7~17 | 미착수 |
 | C | 18~30 | 미착수 |
@@ -359,6 +359,7 @@ Sonnet 워커가 키를 읽고 고치는 방식으로 진행해요. 규칙은 `A
 | 2 (1부) | 공통 UI: JEI·Jade·FTB 6종 | 언어 8개 2,197키 | 언어 142 | 언어 2,055 | 8.1-stable.9 | [보고](../versions/8.1/reports/quality_rereview_common_ui.md) |
 | 1·2 후속 | 용어 기준 교체 | 범위 파일의 해당 표현 141곳 | 퀘스트 34, 언어 68, KubeJS 3줄 | 나머지 | 8.1-stable.10 | [보고](../versions/8.1/reports/quality_rereview_term_pass.md) |
 | 2 (2부) | 공통 UI: 지도·장신구·웨이스톤·나침반 | 언어 5개 2,644키 | 언어 177 | 언어 2,467 | 8.1-stable.11 | [보고](../versions/8.1/reports/quality_rereview_common_ui_2.md) |
+| 3 | Sophisticated 계열 | 언어 4개 1,137키 | 언어 112 | 언어 1,025 | 8.1-stable.12 | [보고](../versions/8.1/reports/quality_rereview_sophisticated.md) |
 
 계열 작업 자료는 `working/quality_rereview/<계열>/`에 두고, 퀘스트 수정본은
 `scripts/quality_rereview_quests.py <계열> --write-output`으로 산출물과 8.1 수동 검수 목록에

@@ -1,0 +1,91 @@
+{
+  "applied_at": "2026-09-29T19:04:47",
+  "status": "applied_and_verified",
+  "configured_targets": [
+    "game_root"
+  ],
+  "game_root_configured": true,
+  "java_processes": [],
+  "version_guard": {
+    "status": "scoped_rebase_apply",
+    "active_pack_version": "8.1",
+    "baseline_pack_version": "7.1",
+    "active_output_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1",
+    "output_validated_pack_version": "8.1",
+    "output_rebase_target_version": null,
+    "full_apply_allowed": true,
+    "target_versions": {
+      "game_root": "8.1"
+    }
+  },
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+      "status": "applied_and_verified",
+      "backup_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_190440_398680\\game_root",
+      "changed_paths": [
+        "resourcepacks/ATM10_Korean/assets/sophisticatedbackpacks/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/sophisticatedcore/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/sophisticatedstorage/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/pack.mcmeta"
+      ],
+      "files": [
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/sophisticatedbackpacks/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\sophisticatedbackpacks\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\sophisticatedbackpacks\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "cbf2bd2bf0d52f4ea09775c1b923c9a770e411f648c7a8e703769d9e5e57d866",
+          "before_sha256": "375c07293f327c2b04352069ae623ecb41446805a87a3a60339530cc92196508",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_190440_398680\\game_root\\resourcepacks\\ATM10_Korean\\assets\\sophisticatedbackpacks\\lang\\ko_kr.json",
+          "after_sha256": "cbf2bd2bf0d52f4ea09775c1b923c9a770e411f648c7a8e703769d9e5e57d866"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/sophisticatedcore/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\sophisticatedcore\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\sophisticatedcore\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "5bab8b973cc10da73df38cdd09d66ce7be74cb3372b75a1efd163fa83fcaaba0",
+          "before_sha256": "d49d4fa0f16d719d0e97c3066682931bb7bf6dfbd8e9c2357d56916eea831be5",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_190440_398680\\game_root\\resourcepacks\\ATM10_Korean\\assets\\sophisticatedcore\\lang\\ko_kr.json",
+          "after_sha256": "5bab8b973cc10da73df38cdd09d66ce7be74cb3372b75a1efd163fa83fcaaba0"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/sophisticatedstorage/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\sophisticatedstorage\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\sophisticatedstorage\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "4772443fd536e75d6193fc5cdfc512148c2756e686ae9a3780de031cc99f23e5",
+          "before_sha256": "d75c3418f642bf7e6c72746a65ac12796b17aa172a4aff4eaa2fada957eafa7e",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_190440_398680\\game_root\\resourcepacks\\ATM10_Korean\\assets\\sophisticatedstorage\\lang\\ko_kr.json",
+          "after_sha256": "4772443fd536e75d6193fc5cdfc512148c2756e686ae9a3780de031cc99f23e5"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/pack.mcmeta",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\pack.mcmeta",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "b6ce3b047b0fcd0acef69947f23cfb7366b6f17db87a9e85aeffd7b90a8b7b31",
+          "before_sha256": "ec7db45b6fa019717ff40c1e79efc086d767921d160e48170030d7c5525c8c64",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_190440_398680\\game_root\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "after_sha256": "b6ce3b047b0fcd0acef69947f23cfb7366b6f17db87a9e85aeffd7b90a8b7b31"
+        }
+      ],
+      "unexpected_changes": []
+    }
+  ],
+  "backup_manifest": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_190440_398680\\backup_manifest.json",
+  "options_unchanged": true,
+  "resourcepacks_selection_preserved": {
+    "game_root": [
+      "resourcePacks:[\"modularbees:dynamic_assets\",\"vanilla\",\"mod_resources\",\"add_xycraft_overrides_stone\",\"add_xycraft_overrides_metal\",\"add_xycraft_overrides_glass\",\"moonlight:merged_pack\",\"neovitae_materials\",\"mod/towntalk:respack\",\"mod/eternal_starlight:resourcepacks/starlight_3d_mace\",\"mod/dyenamicsandfriends:compat_packs/productivemetalworks/\",\"mod/dyenamicsandfriends:compat_packs/connectedglass/\",\"mod/dyenamicsandfriends:compat_packs/luminax/\",\"mod/dyenamicsandfriends:compat_packs/cookingforblockheads/\",\"mod/dyenamicsandfriends:compat_packs/botanypots/\",\"mod/dyenamicsandfriends:compat_packs/chromacarvings/\",\"modern_industrialization/generated\",\"file/ATM10_Korean_8.1-stable.7_resourcepack.zip\"]",
+      "lang:ko_kr"
+    ]
+  },
+  "activation_note": "Sophisticated 언어 파일과 폴더팩 pack.mcmeta만 선택 적용했어요. 게임 화면 확인과 팩 활성화 상태 확인은 별도예요."
+}

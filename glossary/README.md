@@ -229,6 +229,9 @@
 | Pulsating Alloy | 맥동 합금 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 | `맥동합금`, `맥동하는 합금`으로 바꾸지 않음 |
 | Redstone Alloy | 레드스톤 합금 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 |  |
 | Soularium | 소울라리움 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 | 2026-09-29 `솔라리움`에서 변경. Soul(소울)에서 온 이름이며 태양(Solar)과 헷갈리지 않게 함 |
+| Admin (권한 표기) | 관리자 / OP | Sophisticated `무한 업그레이드(관리자)` | 권한 등급은 `OP`로 정했지만 아이템 이름 속 Admin을 바꿀지 결정 필요 |
+| Void (업그레이드) | 제거 / 공허 | Sophisticated `제거 업그레이드`, Functional Storage `공허 업그레이드` | 같은 기능을 모드마다 다르게 부름. 통일 여부 결정 필요 |
+| Hunger (음식 수치) | 허기 / 배고픔 | Sophisticated 식사 업그레이드 등 | 바닐라·용어집은 `허기`, 일부 모드 설명은 `배고픔` |
 | Vibrant Alloy | 활기찬 합금 | 아이템·블록명 | Ender IO 및 직접 연동 콘텐츠 | 확정 |  |
 | Curios | Curios | 공식 모드명 | 전체 프로젝트 | 확정 | `큐리오스`, 단수형 `Curio`로 모드명을 바꾸지 않음 |
 | Curio | 장신구 | Curios 기본 슬롯 유형 | Curios 및 직접 연동 콘텐츠 | 확정 | 공식 모드명은 `Curios`로 유지하고 일반 슬롯 유형만 `장신구`로 번역 |
@@ -387,6 +390,14 @@
 | Global Waypoint | 전역 웨이포인트 | 지도 UI 용어 | JourneyMap | 확정 | JourneyMap 안의 다수 표기. Waystones의 `전체 공개 웨이스톤`과는 모드별로 구분 |
 | 나무 종류 이름 | 붙여 씀(정글나무, 아카시아나무) | 표기 규칙 | 구조물·설명 | 확정 | 바닐라 표기를 따름 |
 | If true / If false (설정 설명) | 켜면 / 끄면 | 문체 규칙 | 설정 툴팁 | 확정 | `참이면/거짓이면` 직역을 쓰지 않음 |
+
+### 품질 재검수 3순위 · Sophisticated
+
+| 영어 | 한국어 | 종류 | 적용 범위 | 상태 | 비고 |
+|---|---|---|---|---|---|
+| Glassblower / Carpenters Table / Loom Table / Tinkering Table / Mason Table / Alchemy Bench / Botanist's Workbench | 유리공 작업대 / 목수 작업대 / 직조 작업대 / 땜장이 작업대 / 석공 작업대 / 연금술 작업대 / 식물학자 작업대 | 블록명 | Chipped 및 연동 업그레이드 | 확정 | Sophisticated의 Chipped 업그레이드 이름도 이 블록 이름을 따름 |
+| Slowness | 속도 감소 | Minecraft 공식 효과명 | 전체 프로젝트 | 확정 | 1.21 바닐라 표기. `둔화`, `구속`과 섞지 않음 |
+| Limited Barrel | 제한된 통 | 블록명 | Sophisticated Storage | 확정 | 설정 이름도 아이템 이름과 같게 씀 |
 
 ## 5. 보류 용어
 
