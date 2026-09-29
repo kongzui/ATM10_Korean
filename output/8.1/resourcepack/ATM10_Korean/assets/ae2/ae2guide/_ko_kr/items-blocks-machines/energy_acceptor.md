@@ -34,9 +34,9 @@ Forge Energy와 Tech Reborn Energy의 변환 비율은 다음과 같습니다.
 
 에너지 수용기는 일반형과 납작한 [부품](../ae2-mechanics/cable-subparts.md)형의 두 가지 변형이 있어 설비를 더 작게 구성할 수 있습니다.
 
-제작 격자에서 일반형과 납작한 형태를 서로 바꿀 수 있습니다.
+제작 칸에서 일반형과 납작한 형태를 서로 바꿀 수 있습니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="energy_acceptor" />
 

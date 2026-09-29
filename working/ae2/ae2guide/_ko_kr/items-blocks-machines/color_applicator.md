@@ -33,6 +33,6 @@ item_ids:
     할당된 공간이 가득 찼을 때 삭제합니다. 반드시 파티션을 주의해서 설정하세요!
 *   <ItemLink id="energy_card" />는 배터리 용량을 늘립니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="color_applicator" />

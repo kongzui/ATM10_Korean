@@ -15,7 +15,7 @@ item_ids:
 
 결정 복원기는 열화된 싹 틔우는 서투스 석영 블록을 복원해 한 단계 성장한 상태로 바꿉니다.
 
-작동하려면 <ItemLink id="ae2:charged_certus_quartz_crystal" />과 전력이 필요합니다. <ItemLink id="ae2:charged_certus_quartz_crystal" />을 들고 오른쪽 클릭하면 투입됩니다.
+작동하려면 <ItemLink id="ae2:charged_certus_quartz_crystal" />과 전력이 필요합니다. <ItemLink id="ae2:charged_certus_quartz_crystal" />을 들고 우클릭하면 투입됩니다.
 
 <Row gap="20">
 <GameScene zoom="4" background="transparent">

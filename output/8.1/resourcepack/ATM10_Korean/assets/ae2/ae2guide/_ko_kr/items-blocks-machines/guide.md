@@ -20,6 +20,6 @@ item_ids:
   ![축소](../assets/diagrams/minus.png) 버튼이 있으면 카메라를 회전하고 이동할 수 있습니다.
   좌클릭한 채 끌면 회전하고, 우클릭한 채 끌면 이동합니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="guide" />

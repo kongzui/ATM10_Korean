@@ -27,7 +27,7 @@ item_ids:
 <ItemImage id="extendedae:wireless_connector_upgrade" scale="4"></ItemImage>
 </Row>
 
-해당 장치를 업그레이드 아이템으로 웅크린 채 오른쪽 클릭하면 확장 버전으로 바뀝니다. 장치의 모든 설정과 인벤토리는 보존됩니다.
+해당 장치를 업그레이드 아이템으로 웅크린 채 우클릭하면 확장 버전으로 바뀝니다. 장치의 모든 설정과 인벤토리는 보존됩니다.
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../structure/upgrade_show_1.snbt"></ImportStructure>

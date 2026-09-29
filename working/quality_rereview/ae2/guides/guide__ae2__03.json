@@ -1,0 +1,56 @@
+{
+  "ae2/example-setups/bucket-filler.md": [
+    {
+      "old": "제작 조합법에서 양동이",
+      "new": "제작법에서 양동이"
+    },
+    {
+      "old": "<ItemLink id=\"formation_plane\" /> (4)은",
+      "new": "<ItemLink id=\"formation_plane\" /> (4)는"
+    }
+  ],
+  "ae2/example-setups/charger-automation.md": [
+    {
+      "old": "<ItemLink id=\"pattern_provider\" /> (1)는",
+      "new": "<ItemLink id=\"pattern_provider\" /> (1)은"
+    }
+  ],
+  "ae2/example-setups/furnace-automation.md": [
+    {
+      "old": "<ItemLink id=\"pattern_provider\" /> (1)는",
+      "new": "<ItemLink id=\"pattern_provider\" /> (1)은"
+    },
+    {
+      "old": "석탄을 블랙리스트로 지정했습니다",
+      "new": "석탄을 차단 목록으로 지정했습니다"
+    },
+    {
+      "old": "사용할 연료를 블랙리스트로 지정했습니다",
+      "new": "사용할 연료를 차단 목록으로 지정했습니다"
+    }
+  ],
+  "ae2/example-setups/interface-autostocking.md": [
+    {
+      "old": "<ItemLink id=\"interface\" /> (1)는",
+      "new": "<ItemLink id=\"interface\" /> (1)은"
+    }
+  ],
+  "ae2/example-setups/level-emitter-autostocking.md": [
+    {
+      "old": "<ItemLink id=\"export_bus\" /> (1)는",
+      "new": "<ItemLink id=\"export_bus\" /> (1)은"
+    }
+  ],
+  "ae2/example-setups/ore-fortuner.md": [
+    {
+      "old": "<ItemLink id=\"formation_plane\" /> (2)은",
+      "new": "<ItemLink id=\"formation_plane\" /> (2)는"
+    }
+  ],
+  "ae2/example-setups/pipe-subnet.md": [
+    {
+      "old": "<ItemLink id=\"import_bus\" /> (1)가",
+      "new": "<ItemLink id=\"import_bus\" /> (1)이"
+    }
+  ]
+}

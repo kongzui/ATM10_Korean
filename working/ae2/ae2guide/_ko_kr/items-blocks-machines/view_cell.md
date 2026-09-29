@@ -21,7 +21,7 @@ item_ids:
 
 뷰 셀의 필터는 합쳐집니다. 참나무 판자용 뷰 셀과 조약돌용 뷰 셀을 함께 넣으면 판자와 조약돌이 모두 표시됩니다.
 
-## 조합법
+## 제작법
 
 <Recipe id="network/cells/view_cell_storage" />
 

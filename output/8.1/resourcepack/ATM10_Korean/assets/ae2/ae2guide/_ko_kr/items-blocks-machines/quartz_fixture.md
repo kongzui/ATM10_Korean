@@ -23,7 +23,7 @@ item_ids:
 
 빛 감지 설비는 설치된 블록 위치의 밝기에 따라 레드스톤 신호를 출력합니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="quartz_fixture" />
 

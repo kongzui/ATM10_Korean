@@ -25,7 +25,7 @@ item_ids:
 
 많은 AE2 블록은 회전할 수 있으므로, 이 가이드에 회전할 수 있다고 쓰여 있지 않더라도 직접 시도해 보세요.
 
-## 조합법
+## 제작법
 
 <Row>
   <RecipeFor id="certus_quartz_wrench" />

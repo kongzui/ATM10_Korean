@@ -39,7 +39,7 @@ navigation:
 
 ## 설정
 
-* <ItemLink id="interface" /> (1)는 원하는 아이템을 내부에 비축하도록 설정합니다. 원하는 아이템을
+* <ItemLink id="interface" /> (1)은 원하는 아이템을 내부에 비축하도록 설정합니다. 원하는 아이템을
   위쪽 슬롯에 클릭하거나 JEI에서 끌어 놓고, 슬롯 위의 렌치 아이콘을 눌러 수량을 설정합니다.
   <ItemLink id="crafting_card" />를 설치합니다.
 * <ItemLink id="storage_bus" /> (2)는 "입출력 모드"를 "추출 전용"으로 설정합니다.

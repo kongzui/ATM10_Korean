@@ -22,7 +22,7 @@ AE2 블록, [장치](../ae2-mechanics/devices.md), 아이템의 주요 재료 �
 
 <ItemLink id="formation_plane" />과 <ItemLink id="annihilation_plane" />을 사용해 [자동화](../example-setups/throw-in-water-automation.md)할 수 있습니다.
 
-## 조합법
+## 제작법
 
 <Row>
   <Recipe id="transform/fluix_crystals" />

@@ -52,7 +52,7 @@ item_ids:
     대규모 [공간 저장소](../ae2-mechanics/spatial-io.md) 설비의 막대한 순간 에너지 소비를 감당할 때 사용합니다.
 *   <ItemLink id="creative_energy_cell" />은 시험용 크리에이티브 아이템으로, 무제한 전력을 제공합니다.
 
-## 조합법
+## 제작법
 
 <Row>
   <RecipeFor id="energy_cell" />

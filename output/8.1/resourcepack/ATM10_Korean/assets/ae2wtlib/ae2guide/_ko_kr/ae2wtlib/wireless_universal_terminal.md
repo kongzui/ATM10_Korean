@@ -24,7 +24,7 @@ AE2의 <ItemLink id="ae2:wireless_terminal" />은 <ItemLink id="ae2wtlib:wireles
 ## UI
 
 <ItemLink id="ae2wtlib:wireless_universal_terminal" />은 터미널 UI에 버튼을 추가합니다.
-버튼을 왼클릭하면 다음 [무선 터미널](wireless_terminals.md)로, 우클릭하면 이전 터미널로 전환합니다.
+버튼을 좌클릭하면 다음 [무선 터미널](wireless_terminals.md)로, 우클릭하면 이전 터미널로 전환합니다.
 
 
 ## 업그레이드

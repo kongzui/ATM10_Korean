@@ -18,7 +18,7 @@ item_ids:
 
 AE2 블록, [장치](../ae2-mechanics/devices.md), 아이템의 주요 재료 중 하나입니다. [싹 틔우는 서투스](../ae2-mechanics/certus-growth.md)에서 성장시켜 얻습니다.
 
-## 일부 대체 조합법
+## 일부 대체 제작법
 
 <Recipe id="misc/deconstruction_certus_quartz_block" />
 

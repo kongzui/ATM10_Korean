@@ -14,8 +14,8 @@ item_ids:
 
 <ItemImage id="fluix_pearl" scale="4" />
 
-<ItemLink id="fluix_crystal" />로 코팅한 엔더 진주로, 여러 AE2 부품을 만드는 데 사용됩니다.
+<ItemLink id="fluix_crystal" />으로 코팅한 엔더 진주로, 여러 AE2 부품을 만드는 데 사용됩니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="fluix_pearl" />

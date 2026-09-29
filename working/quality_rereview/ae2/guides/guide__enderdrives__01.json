@@ -1,0 +1,8 @@
+{
+  "enderdrives/enderdrives_intro/tapedrive_intro.md": [
+    {
+      "old": "**고유 데이터가 있는** 아이템을 위한 특수 저장소이며",
+      "new": "**고유 데이터가 있는** 아이템 전용 특수 저장소이며"
+    }
+  ]
+}

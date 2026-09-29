@@ -31,7 +31,7 @@ item_ids:
 
 무선 액세스 포인트의 범위를 늘리는 데 사용됩니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="wireless_access_point" />
 

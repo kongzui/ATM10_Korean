@@ -1,0 +1,202 @@
+{
+  "ae2/items-blocks-machines/crafting_cpu_multiblock.md": [
+    {
+      "old": "복잡한 조합법에는 병렬로",
+      "new": "복잡한 제작법에는 병렬로"
+    },
+    {
+      "old": "제작 상태 화면에서 이러한 단계는 모두",
+      "new": "제작 상태 화면에서 이 단계는 모두"
+    },
+    {
+      "old": "늘어날 때마다 이러한 단계를 하나 더",
+      "new": "늘어날 때마다 이 단계를 하나 더"
+    }
+  ],
+  "ae2/items-blocks-machines/crank.md": [
+    {
+      "old": "<ItemLink id=\"energy_acceptor\" />을 이용할",
+      "new": "<ItemLink id=\"energy_acceptor\" />를 이용할"
+    },
+    {
+      "old": "게임 초반은 원래 고생스러운 법이죠.",
+      "new": "게임 초반은 원래 고생스러운 법이지 않습니까?"
+    },
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/crystal_resonance_generator.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/cutting_knives.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/decorative_certus.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/decorative_fluix.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/decorative_sky_stone.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/drive.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/ender_dust.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/energy_acceptor.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/energy_cells.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/entropy_manipulator.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/export_bus.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/facades.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/fluix_block.md": [
+    {
+      "old": "몇몇 기계의 조합법에도",
+      "new": "몇몇 기계의 제작법에도"
+    },
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/fluix_crystal.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/fluix_dust.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/fluix_pearl.md": [
+    {
+      "old": "<ItemLink id=\"fluix_crystal\" />로 코팅한",
+      "new": "<ItemLink id=\"fluix_crystal\" />으로 코팅한"
+    },
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/fluix_researcher.md": [
+    {
+      "old": "| 초보자     | 3 <ItemLink",
+      "new": "| 초심자     | 3 <ItemLink"
+    },
+    {
+      "old": "| 초보자     | 2 <ItemLink",
+      "new": "| 초심자     | 2 <ItemLink"
+    }
+  ],
+  "ae2/items-blocks-machines/fluix_tools.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/fluix_upgrade_smithing_template.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/formation_annihilation_core.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/formation_plane.md": [
+    {
+      "old": "블록을 설치하려면 그러한 설비의 저장 버스를 대신할 수 있습니다.",
+      "new": "블록을 설치하려면 그런 설비의 저장 버스를 이 장치로 바꿔도 됩니다."
+    },
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/growth_accelerator.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/guide.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/illuminated_panels.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/import_bus.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/inscriber.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ]
+}

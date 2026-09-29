@@ -36,7 +36,7 @@ item_ids:
 
 <ItemLink id="sky_stone_block" />은 제작과 석재 절단을 통해 여러 장식용 건축 블록으로 만들 수 있습니다.
 
-## 조합법
+## 제작법
 
 <Column gap="5">
   <Row>

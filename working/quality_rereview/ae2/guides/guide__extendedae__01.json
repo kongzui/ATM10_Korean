@@ -1,0 +1,82 @@
+{
+  "extendedae/epp_intro/assembler_matrix.md": [
+    {
+      "old": "조립기 매트릭스를 오른쪽 클릭하면",
+      "new": "조립기 매트릭스를 우클릭하면"
+    }
+  ],
+  "extendedae/epp_intro/circuit_cutter.md": [
+    {
+      "old": "대부분의 경우 각인기보다 9배",
+      "new": "각인기보다 최대 9배"
+    }
+  ],
+  "extendedae/epp_intro/config_modifier.md": [
+    {
+      "old": "오른쪽 클릭하면 GUI가 열립니다.",
+      "new": "우클릭하면 GUI가 열립니다."
+    }
+  ],
+  "extendedae/epp_intro/crystal_fixer.md": [
+    {
+      "old": "을 들고 오른쪽 클릭하면",
+      "new": "을 들고 우클릭하면"
+    }
+  ],
+  "extendedae/epp_intro/extended_modecular_assembler.md": [
+    {
+      "old": "먼저 ME 네트워크에",
+      "new": "동시 실행에는 ME 네트워크에"
+    }
+  ],
+  "extendedae/epp_intro/extended_pattern_provider.md": [
+    {
+      "old": "서브넷이 왜 필요하겠어요.*",
+      "new": "서브넷이 왜 필요하겠습니까?*"
+    }
+  ],
+  "extendedae/epp_intro/packing_tape.md": [
+    {
+      "old": "웅크린 채 오른쪽 클릭하면",
+      "new": "웅크린 채 우클릭하면"
+    },
+    {
+      "old": "부품처럼 오른쪽 클릭하면",
+      "new": "부품처럼 우클릭하면"
+    }
+  ],
+  "extendedae/epp_intro/pattern_modifier.md": [
+    {
+      "old": "오른쪽 클릭하면 GUI가 열립니다.",
+      "new": "우클릭하면 GUI가 열립니다."
+    }
+  ],
+  "extendedae/epp_intro/precise_export_bus.md": [
+    {
+      "old": "대상 보관함이 반출량 전부를",
+      "new": "대상 저장소가 반출량 전부를"
+    },
+    {
+      "old": "대상 보관함이 반출량을 전부",
+      "new": "대상 저장소가 반출량을 전부"
+    }
+  ],
+  "extendedae/epp_intro/quartz_blend.md": [
+    {
+      "old": "혼합물입니다. 서투스 석영 가루를 직접 제련할 때보다",
+      "new": "혼합물입니다. 제련하면 서투스 석영 가루를 직접 제련할 때보다"
+    }
+  ],
+  "extendedae/epp_intro/upgrade_items.md": [
+    {
+      "old": "웅크린 채 오른쪽 클릭하면 확장",
+      "new": "웅크린 채 우클릭하면 확장"
+    }
+  ],
+  "extendedae/epp_intro/void_cell.md": [
+    {
+      "old": "오른쪽 클릭하면 설정 GUI",
+      "new": "우클릭하면 설정 GUI"
+    }
+  ]
+}

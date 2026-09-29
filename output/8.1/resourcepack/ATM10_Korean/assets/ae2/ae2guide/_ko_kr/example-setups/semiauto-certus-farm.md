@@ -103,8 +103,8 @@ navigation:
 
 ### 싹 틔우는 블록 배치 장치
 
-* <ItemLink id="formation_plane" /> (5)은 기본 설정을 사용합니다.
-* <ItemLink id="import_bus" /> (6)는 기본 설정을 사용합니다.
+* <ItemLink id="formation_plane" /> (5)는 기본 설정을 사용합니다.
+* <ItemLink id="import_bus" /> (6)은 기본 설정을 사용합니다.
 
 ### 주 네트워크
 

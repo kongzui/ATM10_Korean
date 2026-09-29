@@ -19,6 +19,6 @@ item_ids:
 
 자동화하려면 호퍼나 AE2 버스 같은 모든 아이템 물류 장치로 셀을 넣고 꺼낼 수 있습니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="spatial_io_port" />

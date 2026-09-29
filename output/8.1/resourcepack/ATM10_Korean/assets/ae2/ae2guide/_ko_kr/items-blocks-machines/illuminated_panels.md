@@ -23,7 +23,7 @@ item_ids:
 
 [케이블 부품](../ae2-mechanics/cable-subparts.md)으로 설치됩니다.
 
-## 조합법
+## 제작법
 
 <Row>
   <RecipeFor id="monitor" />

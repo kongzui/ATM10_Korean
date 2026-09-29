@@ -1,0 +1,62 @@
+{
+  "ae2/items-blocks-machines/toggle_bus.md": [
+    {
+      "old": "  title: 토글 버스",
+      "new": "  title: ME 토글 버스"
+    },
+    {
+      "old": "# 토글 버스",
+      "new": "# ME 토글 버스"
+    },
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/vibration_chamber.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/view_cell.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/wireless_access_point.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/wireless_receiver.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/wrench.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/wireless_terminals.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/tips-and-tricks.md": [
+    {
+      "old": "나누어 넣어 조합법을 병렬로",
+      "new": "나누어 넣어 제작법을 병렬로"
+    },
+    {
+      "old": "완전한 조합법 묶음만",
+      "new": "완전한 제작법 묶음만"
+    }
+  ]
+}

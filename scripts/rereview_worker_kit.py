@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """품질 재검수 워커에게 줄 자료를 만든다(실제 인스턴스와 JAR은 읽기만 한다).
 
-- pairs <계열>: 계열 범위의 영어·한국어 대조 파일을 temp/rereview/<계열>/에 만든다.
+- pairs <계열>: 계열 범위의 언어·퀘스트·가이드 영어·한국어 대조 파일을 temp/rereview/<계열>/에 만든다.
 - index: 영어 이름 → 프로젝트 한국어 이름 색인을 temp/rereview/name_index.json에 만든다.
 - lookup <이름>...: 색인에서 영어 이름으로 확정 한국어 이름을 찾는다.
 """
@@ -25,6 +25,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 REREVIEW_ROOT = PROJECT_ROOT / "working/quality_rereview"
 KIT_ROOT = PROJECT_ROOT / "temp/rereview"
 INDEX_PATH = KIT_ROOT / "name_index.json"
+GUIDE_CHUNK_BYTES = 90_000
 LANG_RE = re.compile(r"assets/([^/]+)/lang/(en_us|ko_kr)\.json$")
 NAME_PREFIXES = (
     "item.",
@@ -121,7 +122,55 @@ def build_pairs(family: str, instance: Path) -> list[str]:
         name = relative.replace("/", "__").removesuffix(".snbt") + ".txt"
         (target / name).write_text("\n".join(lines) + "\n", encoding="utf-8")
         print(f"{relative}: {len(korean)}키")
+    errors.extend(build_guide_pairs(scope, instance, target))
     return errors
+
+
+def build_guide_pairs(scope: dict, instance: Path, target: Path) -> list[str]:
+    """가이드 영어·한국어를 파일 단위로 이어 붙여 약 GUIDE_CHUNK_BYTES씩 나눠 쓴다."""
+    roots = scope.get("guide_roots", {})
+    if not roots:
+        return []
+    errors: list[str] = []
+    wanted: dict[str, list[str]] = {}
+    for namespace, root in roots.items():
+        for path in sorted((active_output_root() / root["output"]).rglob("*.md")):
+            relative = path.relative_to(active_output_root() / root["output"])
+            wanted[f"{root['english']}/{relative.as_posix()}"] = []
+    for jar in sorted((instance / "mods").glob("*.jar")):
+        with zipfile.ZipFile(jar) as archive:
+            for name in set(archive.namelist()) & set(wanted):
+                text = archive.read(name).decode("utf-8-sig")
+                wanted[name].append(f"=== EN[{jar.name}] ===\n{text.rstrip()}")
+    for namespace, root in roots.items():
+        chunk: list[str] = []
+        size = 0
+        index = 1
+        output_root = active_output_root() / root["output"]
+        for path in sorted(output_root.rglob("*.md")):
+            relative = path.relative_to(output_root).as_posix()
+            english = wanted[f"{root['english']}/{relative}"]
+            if not english:
+                errors.append(f"영어 가이드 없음: {namespace}/{relative}")
+                english = ["=== EN[영어 원문 없음] ==="]
+            korean = path.read_text(encoding="utf-8").replace("\r\n", "\n").rstrip()
+            block = "\n".join(
+                [f"##### 파일: {namespace}/{relative}", *english, "=== KO ===", korean]
+            )
+            if chunk and size + len(block.encode("utf-8")) > GUIDE_CHUNK_BYTES:
+                write_guide_chunk(target, namespace, index, chunk)
+                chunk, size, index = [], 0, index + 1
+            chunk.append(block)
+            size += len(block.encode("utf-8"))
+        if chunk:
+            write_guide_chunk(target, namespace, index, chunk)
+    return errors
+
+
+def write_guide_chunk(target: Path, namespace: str, index: int, blocks: list[str]):
+    name = f"guide__{namespace}__{index:02d}.txt"
+    (target / name).write_text("\n\n".join(blocks) + "\n", encoding="utf-8")
+    print(f"{name}: 가이드 {len(blocks)}파일")
 
 
 def build_index(instance: Path) -> list[str]:

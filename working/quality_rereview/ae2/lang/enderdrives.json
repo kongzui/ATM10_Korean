@@ -1,0 +1,4 @@
+{
+  "commands.enderdrives.clear.no_permission": "전체 공개 저장소를 비울 권한이 없습니다.",
+  "commands.enderdrives.dumpcell.no_permission": "전체 공개 저장소를 저장 셀로 내보낼 권한이 없습니다."
+}

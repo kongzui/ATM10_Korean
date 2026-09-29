@@ -65,7 +65,7 @@ navigation:
 </GameScene>
 
 하지만 다음은 두 개가 아니라 하나의 네트워크입니다. [양자 네트워크 브리지](../items-blocks-machines/quantum_bridge.md)는
-무선 [조밀 케이블](../items-blocks-machines/cables.md#dense-cable)처럼 작동하므로 양쪽 끝이 같은 네트워크에
+무선 [조밀한 케이블](../items-blocks-machines/cables.md#dense-cable)처럼 작동하므로 양쪽 끝이 같은 네트워크에
 속합니다.
 
 <GameScene zoom="4" background="transparent">

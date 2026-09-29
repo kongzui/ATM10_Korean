@@ -21,7 +21,7 @@ item_ids:
 
 <ItemLink id="fluix_block" />은 제작과 석재 절단을 통해 여러 장식용 건축 블록으로 만들 수 있습니다.
 
-## 조합법
+## 제작법
 
 <Row>
   <RecipeFor id="fluix_stairs" />

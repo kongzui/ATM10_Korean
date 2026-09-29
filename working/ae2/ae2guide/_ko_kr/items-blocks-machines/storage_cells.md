@@ -64,7 +64,7 @@ item_ids:
 <Row>
     <Recipe id="upgrade/item_storage_cell_1k_to_4k" />
 
-    제작 격자에서 저장 셀과 상위 등급 저장 부품을 조합하면 셀을 상위 등급으로 업그레이드할 수 있습니다. 내용물은 유지되고 하위 등급 부품은 반환됩니다.
+    제작 칸에서 저장 셀과 상위 등급 저장 부품을 조합하면 셀을 상위 등급으로 업그레이드할 수 있습니다. 내용물은 유지되고 하위 등급 부품은 반환됩니다.
 </Row>
 
 ## 종류 수에 따른 저장 용량
@@ -91,7 +91,7 @@ item_ids:
 
 저장 셀은 <ItemLink id="cell_workbench" />에서 다음 [업그레이드](upgrade_cards.md)를 장착할 수 있습니다.
 
-*   <ItemLink id="fuzzy_card" />는 피해 수준으로 셀 파티션을 설정하거나 아이템 NBT를 무시하게 합니다(유체 셀에는 사용할 수 없음).
+*   <ItemLink id="fuzzy_card" />는 내구도 수준으로 셀 파티션을 설정하거나 아이템 NBT를 무시하게 합니다(유체 셀에는 사용할 수 없음).
 *   <ItemLink id="inverter_card" />는 필터를 허용 목록에서 차단 목록으로 바꿉니다.
 *   <ItemLink id="equal_distribution_card" />는 각 종류에 같은 양의 셀 바이트 공간을 할당해 한 종류가 셀 전체를 채우지 못하게 합니다.
 *   <ItemLink id="void_card" />는 셀이 가득 찼을 때 들어오는 아이템을 삭제합니다. 균등 분배 카드가 있으면 해당 종류에
@@ -104,7 +104,7 @@ item_ids:
 
 # 하우징
 
-셀은 저장 부품과 하우징을 조합하거나, 저장 부품 주위에 하우징 조합법의 재료를 배치해 만들 수 있습니다.
+셀은 저장 부품과 하우징을 조합하거나, 저장 부품 주위에 하우징 제작법의 재료를 배치해 만들 수 있습니다.
 
 <Row>
   <Recipe id="network/cells/item_storage_cell_1k" />

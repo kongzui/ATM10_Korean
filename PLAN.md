@@ -9,6 +9,16 @@
 [REREVIEW_WORKER_BRIEF.md](docs/REREVIEW_WORKER_BRIEF.md), 대조 자료 도구는
 `scripts/rereview_worker_kit.py`예요.
 
+## 재검수 7순위 · Applied Energistics 2와 애드온 · 8.1-stable.16
+
+- [x] Sonnet 워커 8개 병렬(언어·퀘스트 2, GuideME 가이드 6)로 17개 모드 언어 2,099키, 퀘스트 266키, 가이드 223파일 검토.
+- [x] 언어 42키, 퀘스트 24키, 가이드 129파일 263곳 수정. 압축 블록 천령 금속 27키 연동.
+- [x] 가이드 조각 교체 도구(`quality_rereview_guides.py`)와 가이드 대조 파일 생성, 누적 검증의 마크다운 검사 추가.
+- [x] 재검수·누적 전체 검증, stable.16 ZIP 두 개 생성, 게임 종료 상태에서 140파일 선택 적용.
+- [ ] 기존 AE2 전용 검증기 8.1 기준 갱신, 보고서의 남은 확인 항목, 게임 화면 확인.
+
+[재검수 보고](versions/8.1/reports/quality_rereview_ae2.md). 다음 계열은 8순위 Mekanism 계열이에요.
+
 ## 재검수 6순위 · Allthemodium·ATM 광물 · 8.1-stable.15
 
 - [x] Sonnet 워커 1개로 4개 모드 866키 검토, 29키 수정. 오케스트레이터 보정 9키.
@@ -18,7 +28,7 @@
 - [x] 재검수·누적 전체 검증, stable.15 ZIP 두 개 생성, 게임 종료 상태에서 9파일 선택 적용.
 - [ ] `The Beyond` 표기 결정, 게임 화면 확인.
 
-[재검수 보고](versions/8.1/reports/quality_rereview_atm_ores.md). 다음 계열은 7순위 Applied Energistics 2와 애드온이에요.
+[재검수 보고](versions/8.1/reports/quality_rereview_atm_ores.md). 다음 계열은 7순위 Applied Energistics 2와 애드온이었어요.
 
 ## 재검수 5순위 · 초반 기반 도구·기계·물류 · 8.1-stable.14
 

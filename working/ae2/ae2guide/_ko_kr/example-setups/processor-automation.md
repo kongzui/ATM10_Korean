@@ -147,7 +147,7 @@ navigation:
 
 ## 설정
 
-* <ItemLink id="pattern_provider" /> (1)는 관련 <ItemLink id="processing_pattern" />을 넣은 기본 설정입니다.
+* <ItemLink id="pattern_provider" /> (1)은 관련 <ItemLink id="processing_pattern" />을 넣은 기본 설정입니다.
   패턴은 원재료에서 완성된 프로세서로 바로 이어지며 [프레스](../items-blocks-machines/presses.md)를 포함하지 **않습니다**.
 
   ![논리 패턴](../assets/diagrams/logic_pattern.png)
@@ -155,7 +155,7 @@ navigation:
   ![공학 패턴](../assets/diagrams/engineering_pattern.png)
 
 * <ItemLink id="storage_bus" /> (2, 17, 18, 20)는 기본 설정입니다.
-* <ItemLink id="export_bus" /> (3~7)는 해당 재료로 필터링했으며 <ItemLink id="speed_card" />가 2장씩 있습니다.
+* <ItemLink id="export_bus" /> (3~7)은 해당 재료로 필터링했으며 <ItemLink id="speed_card" />가 2장씩 있습니다.
     <Row>
       <ItemImage id="silicon" scale="2" />
       <ItemImage id="minecraft:gold_ingot" scale="2" />

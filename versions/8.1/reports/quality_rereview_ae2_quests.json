@@ -1,0 +1,55 @@
+{
+  "family": "ae2",
+  "files": {
+    "chapters/applied_energistics_2.snbt": {
+      "english_keys": 175,
+      "translated_keys": 175,
+      "revised": 15,
+      "kept": 160,
+      "revised_keys": [
+        "quest.0B218DD73FE8D985.quest_desc",
+        "quest.0F03E75CF79BADD7.quest_desc",
+        "quest.2077D64428E9C067.quest_subtitle",
+        "quest.22C4318523A43B49.quest_desc",
+        "quest.2F556E7919582D2D.quest_desc",
+        "quest.332A3C7BA261DBFC.quest_desc",
+        "quest.33ADE41526C39AFD.quest_desc",
+        "quest.5034A9137E0F3D3D.quest_desc",
+        "quest.51DE3157DE3E57B8.quest_subtitle",
+        "quest.525F25F4ADE45B50.quest_desc",
+        "quest.55186B8602689B66.quest_desc",
+        "quest.6144202A97C6CD1C.quest_desc",
+        "quest.6E15447FC3D678E0.quest_desc",
+        "quest.78311531069807DE.quest_desc",
+        "quest.7B7D1F0CB326B28F.quest_desc"
+      ]
+    },
+    "chapters/extended__advanced_ae.snbt": {
+      "english_keys": 91,
+      "translated_keys": 91,
+      "revised": 9,
+      "kept": 82,
+      "revised_keys": [
+        "quest.0B4CE3969067FA31.quest_desc",
+        "quest.18499D33BA12A8A9.quest_desc",
+        "quest.1A815711703E4A24.quest_desc",
+        "quest.3CF32F2314839B1D.quest_desc",
+        "quest.48357A7486125C52.quest_desc",
+        "quest.56DE217FEAE3F036.quest_subtitle",
+        "quest.67C7EF299BEC37DE.quest_subtitle",
+        "quest.78215D704E6095B0.quest_desc",
+        "quest.7E35ED5B30697722.quest_desc"
+      ]
+    }
+  },
+  "english_keys": 266,
+  "translated_keys": 266,
+  "revised": 24,
+  "kept": 242,
+  "remaining_style_signals": {
+    "chapters/extended__advanced_ae.snbt:quest.78215D704E6095B0.quest_desc": [
+      "것입니다"
+    ]
+  },
+  "errors": []
+}

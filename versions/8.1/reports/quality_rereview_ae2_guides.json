@@ -1,0 +1,628 @@
+{
+  "family": "ae2",
+  "guide_files": 223,
+  "revised_files": 129,
+  "edits": 263,
+  "files": {
+    "advanced_ae/aae_intro/advanced_pattern_provider.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "advanced_ae/aae_intro/quantum_armor.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "advanced_ae/aae_intro/throughput_monitor.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/ae2-mechanics/autocrafting.md": {
+      "edits": 11,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/ae2-mechanics/channels.md": {
+      "edits": 11,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/ae2-mechanics/me-network-connections.md": {
+      "edits": 1,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/ae2-mechanics/spatial-io.md": {
+      "edits": 4,
+      "style_signals": []
+    },
+    "ae2/ae2-mechanics/subnetworks.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/example-setups/bucket-filler.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/example-setups/charger-automation.md": {
+      "edits": 1,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/example-setups/furnace-automation.md": {
+      "edits": 3,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/example-setups/interface-autostocking.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/example-setups/level-emitter-autostocking.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/example-setups/ore-fortuner.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/example-setups/pipe-subnet.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/example-setups/processor-automation.md": {
+      "edits": 2,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/example-setups/recursive-crafting-setup.md": {
+      "edits": 2,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/example-setups/semiauto-certus-farm.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/example-setups/specialized-local-storage.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/example-setups/throw-in-water-automation.md": {
+      "edits": 2,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/getting-started.md": {
+      "edits": 11,
+      "style_signals": []
+    },
+    "ae2/index.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/annihilation_plane.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/budding_certus.md": {
+      "edits": 6,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/cable_anchor.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/cell_workbench.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/certus_quartz_crystal.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/certus_quartz_crystal_charged.md": {
+      "edits": 1,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/items-blocks-machines/certus_quartz_dust.md": {
+      "edits": 1,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/items-blocks-machines/charged_staff.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/charger.md": {
+      "edits": 3,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/chest.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/color_applicator.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/condenser.md": {
+      "edits": 4,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/controller.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/crafting_cpu_multiblock.md": {
+      "edits": 3,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/crank.md": {
+      "edits": 4,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/crystal_resonance_generator.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/cutting_knives.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/decorative_certus.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/decorative_fluix.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/decorative_sky_stone.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/drive.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/ender_dust.md": {
+      "edits": 1,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/items-blocks-machines/energy_acceptor.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/energy_cells.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/entropy_manipulator.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/export_bus.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/facades.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/fluix_block.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/fluix_crystal.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/fluix_dust.md": {
+      "edits": 1,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/items-blocks-machines/fluix_pearl.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/fluix_researcher.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/fluix_tools.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/fluix_upgrade_smithing_template.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/formation_annihilation_core.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/formation_plane.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/growth_accelerator.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/guide.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/illuminated_panels.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/import_bus.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/inscriber.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/interface.md": {
+      "edits": 3,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/io_port.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/level_emitter.md": {
+      "edits": 5,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/matter_cannon.md": {
+      "edits": 5,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/memory_card.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/meteorite_compass.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/molecular_assembler.md": {
+      "edits": 6,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/items-blocks-machines/monitors.md": {
+      "edits": 4,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/mysterious_cube.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/network_tool.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/p2p_tunnels.md": {
+      "edits": 3,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/items-blocks-machines/paintballs.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/pattern_provider.md": {
+      "edits": 8,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/patterns.md": {
+      "edits": 4,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/quantum_bridge.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/quartz_block.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/quartz_fiber.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/quartz_fixture.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/quartz_glass.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/quartz_tools.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/sky_dust.md": {
+      "edits": 1,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2/items-blocks-machines/sky_stone.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/sky_stone_tank.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/spatial_anchor.md": {
+      "edits": 8,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/spatial_cells.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/spatial_io_port.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/spatial_pylon.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/storage_bus.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/storage_cells.md": {
+      "edits": 3,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/terminals.md": {
+      "edits": 10,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/tiny_tnt.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/toggle_bus.md": {
+      "edits": 3,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/vibration_chamber.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/view_cell.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/wireless_access_point.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/wireless_receiver.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/wireless_terminals.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/items-blocks-machines/wrench.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2/tips-and-tricks.md": {
+      "edits": 2,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "ae2wtlib/ae2wtlib/magnet_card.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2wtlib/ae2wtlib/quantum_bridge_card.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2wtlib/ae2wtlib/restock.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "ae2wtlib/ae2wtlib/wireless_crafting_terminal.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "ae2wtlib/ae2wtlib/wireless_universal_terminal.md": {
+      "edits": 1,
+      "style_signals": [
+        "것입니다"
+      ]
+    },
+    "appflux/appflux/flux_cells.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "appflux/appflux/mark_energy.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "enderdrives/enderdrives_intro/tapedrive_intro.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/assembler_matrix.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/circuit_cutter.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/config_modifier.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/crystal_fixer.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/extended_modecular_assembler.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/extended_pattern_provider.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/packing_tape.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/pattern_modifier.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/precise_export_bus.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/quartz_blend.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/upgrade_items.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "extendedae/epp_intro/void_cell.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "megacells/bulk_cell.md": {
+      "edits": 10,
+      "style_signals": []
+    },
+    "megacells/energy.md": {
+      "edits": 1,
+      "style_signals": []
+    },
+    "megacells/extras.md": {
+      "edits": 3,
+      "style_signals": []
+    },
+    "megacells/index.md": {
+      "edits": 2,
+      "style_signals": []
+    },
+    "megacells/radioactive_cell.md": {
+      "edits": 1,
+      "style_signals": [
+        "를 위한"
+      ]
+    },
+    "megacells/storage.md": {
+      "edits": 2,
+      "style_signals": [
+        "을 위한"
+      ]
+    },
+    "merequester/merequester.md": {
+      "edits": 1,
+      "style_signals": []
+    }
+  },
+  "remaining_style_signals": {
+    "ae2/ae2-mechanics/autocrafting.md": [
+      "것입니다"
+    ],
+    "ae2/ae2-mechanics/channels.md": [
+      "것입니다"
+    ],
+    "ae2/ae2-mechanics/me-network-connections.md": [
+      "것입니다"
+    ],
+    "ae2/example-setups/charger-automation.md": [
+      "것입니다"
+    ],
+    "ae2/example-setups/furnace-automation.md": [
+      "것입니다"
+    ],
+    "ae2/example-setups/main-network.md": [
+      "것입니다"
+    ],
+    "ae2/example-setups/processor-automation.md": [
+      "것입니다"
+    ],
+    "ae2/example-setups/recursive-crafting-setup.md": [
+      "것입니다"
+    ],
+    "ae2/example-setups/throw-in-water-automation.md": [
+      "것입니다"
+    ],
+    "ae2/items-blocks-machines/certus_quartz_crystal_charged.md": [
+      "것입니다"
+    ],
+    "ae2/items-blocks-machines/certus_quartz_dust.md": [
+      "것입니다"
+    ],
+    "ae2/items-blocks-machines/ender_dust.md": [
+      "것입니다"
+    ],
+    "ae2/items-blocks-machines/fluix_dust.md": [
+      "것입니다"
+    ],
+    "ae2/items-blocks-machines/molecular_assembler.md": [
+      "것입니다"
+    ],
+    "ae2/items-blocks-machines/p2p_tunnels.md": [
+      "것입니다"
+    ],
+    "ae2/items-blocks-machines/sky_dust.md": [
+      "것입니다"
+    ],
+    "ae2/tips-and-tricks.md": [
+      "것입니다"
+    ],
+    "ae2wtlib/ae2wtlib/wireless_terminals.md": [
+      "것입니다"
+    ],
+    "ae2wtlib/ae2wtlib/wireless_universal_terminal.md": [
+      "것입니다"
+    ],
+    "megacells/radioactive_cell.md": [
+      "를 위한"
+    ],
+    "megacells/storage.md": [
+      "을 위한"
+    ]
+  },
+  "errors": []
+}

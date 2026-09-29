@@ -42,7 +42,7 @@ navigation:
 
 ## 설정
 
-* <ItemLink id="export_bus" /> (1)는 원하는 아이템으로 필터링하고 <ItemLink id="redstone_card" />와
+* <ItemLink id="export_bus" /> (1)은 원하는 아이템으로 필터링하고 <ItemLink id="redstone_card" />와
   <ItemLink id="crafting_card" />를 설치합니다. "레드스톤 모드"는 "신호가 있으면 활성화", "제작 동작"은
   "비축된 아이템 사용 안 함"으로 설정합니다.
 * <ItemLink id="level_emitter" /> (2)는 원하는 아이템과 수량을 지정하고 "수량이 한도 미만이면 방출"로

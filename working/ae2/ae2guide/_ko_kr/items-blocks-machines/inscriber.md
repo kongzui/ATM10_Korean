@@ -77,6 +77,6 @@ D. **출력**: 왼쪽, 오른쪽, 앞쪽, 뒤쪽 면으로 꺼냅니다(이 슬�
 
 *   <ItemLink id="speed_card" />
 
-## 조합법
+## 제작법
 
 <RecipeFor id="inscriber" />

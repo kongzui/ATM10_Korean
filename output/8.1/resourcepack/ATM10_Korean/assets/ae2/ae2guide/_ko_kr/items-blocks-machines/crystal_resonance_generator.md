@@ -18,6 +18,6 @@ item_ids:
 
 **발전 속도:** <ae2:ConfigValue name="crystalResonanceGeneratorRate"/> AE/t
 
-## 조합법
+## 제작법
 
 <RecipeFor id="crystal_resonance_generator" />

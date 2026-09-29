@@ -20,7 +20,7 @@ item_ids:
 
 빛을 내는 변형인 발광 석영 유리도 있습니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="quartz_glass" />
 

@@ -37,7 +37,7 @@ AE2 [장치](../ae2-mechanics/devices.md)로 아이템·유체 파이프를 흉�
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-출발지 인벤토리의 <ItemLink id="import_bus" /> (1)가 아이템이나 유체를 반입하여
+출발지 인벤토리의 <ItemLink id="import_bus" /> (1)이 아이템이나 유체를 반입하여
 [네트워크 저장소](../ae2-mechanics/import-export-storage.md)에 저장하려 합니다. 네트워크의 유일한 저장소가
 <ItemLink id="storage_bus" /> (2)이므로 아이템이나 유체가 목적지 인벤토리에 들어가 전송됩니다. 이 때문에
 주 네트워크가 아닌 서브네트워크로 구성합니다. <ItemLink id="quartz_fiber" />를 통해 전력을 공급합니다.

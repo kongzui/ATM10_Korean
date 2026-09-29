@@ -23,7 +23,7 @@ AE2 입출력 [장치](../ae2-mechanics/devices.md)의 주요 부품입니다. <
 [논리 프로세서](processors.md)의 힘으로 장치가 아이템, 블록, 유체 등을 입출력할 수 있게 합니다.
 (자체 기능은 없으며 제작 중간 재료입니다.)
 
-## 조합법
+## 제작법
 
 <RecipeFor id="formation_core" />
 

@@ -64,7 +64,7 @@ ME 네트워크에 <ItemLink id="ae2:crafting_accelerator" />가 충분하다면
 
 ## GUI
 
-형성되어 온라인 상태인 조립기 매트릭스를 오른쪽 클릭하면 GUI가 열립니다.
+형성되어 온라인 상태인 조립기 매트릭스를 우클릭하면 GUI가 열립니다.
 
 ![GUI](../pic/assembler_matrix.png)
 

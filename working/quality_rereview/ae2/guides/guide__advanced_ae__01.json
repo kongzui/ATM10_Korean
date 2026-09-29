@@ -1,0 +1,24 @@
+{
+  "advanced_ae/aae_intro/advanced_pattern_provider.md": [
+    {
+      "old": "*Mekanism, 바로 당신 말이에요.*",
+      "new": "*Mekanism을 콕 집어 하는 말입니다.*"
+    }
+  ],
+  "advanced_ae/aae_intro/quantum_armor.md": [
+    {
+      "old": "를 설치하면 창의적 비행을 사용할 수 있습니다.",
+      "new": "를 설치하면 크리에이티브 비행을 사용할 수 있습니다."
+    },
+    {
+      "old": "작동하며, 창의적 비행에",
+      "new": "작동하며, 크리에이티브 비행에"
+    }
+  ],
+  "advanced_ae/aae_intro/throughput_monitor.md": [
+    {
+      "old": "옵션을 차례로 전환합니다:",
+      "new": "항목을 차례로 전환합니다:"
+    }
+  ]
+}

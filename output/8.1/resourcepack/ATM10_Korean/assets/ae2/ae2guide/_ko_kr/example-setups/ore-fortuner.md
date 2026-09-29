@@ -52,7 +52,7 @@ navigation:
 
 * <ItemLink id="import_bus" /> (1)에는 <ItemLink id="speed_card" />가 몇 장 들어 있습니다. 형성 평면 배열이
   클수록 한 번에 더 많은 아이템을 가져와야 하므로 더 많은 카드가 필요합니다.
-* <ItemLink id="formation_plane" /> (2)은 기본 설정입니다.
+* <ItemLink id="formation_plane" /> (2)는 기본 설정입니다.
 * <ItemLink id="annihilation_plane" /> (3)은 GUI가 없어 설정할 수 없지만 행운 마법을 부여했습니다.
 * <ItemLink id="storage_bus" /> (4)는 기본 설정입니다.
 

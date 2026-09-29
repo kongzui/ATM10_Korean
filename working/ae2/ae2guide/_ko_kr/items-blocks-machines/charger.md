@@ -21,8 +21,8 @@ AE2 전력(AE)과 Forge Energy(FE)를 모두 받습니다. 어느 면에서든 �
 충전된 서투스 석영 대신 일반 서투스 석영을 꺼내지 않도록 필터를 설정할 필요가 없습니다.
 자동화하기 쉽도록 <ItemLink id="certus_quartz_wrench" />로 회전할 수 있습니다.
 
-<ItemLink id="charged_certus_quartz_crystal" />은 <ItemLink id="certus_quartz_crystal" />로 만들고,
-<ItemLink id="meteorite_compass" />는 <ItemLink id="minecraft:compass" />로 만들 수 있습니다.
+<ItemLink id="charged_certus_quartz_crystal" />은 <ItemLink id="certus_quartz_crystal" />으로 만들고,
+<ItemLink id="meteorite_compass" />은 <ItemLink id="minecraft:compass" />으로 만들 수 있습니다.
 
 수동으로 동력을 공급하려면 위나 아래에 <ItemLink id="crank" />를 설치하고 아이템이 충전될 때까지 우클릭하세요.
 
@@ -37,6 +37,6 @@ AE2 전력(AE)과 Forge Energy(FE)를 모두 받습니다. 어느 면에서든 �
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 조합법
+## 제작법
 
 <RecipeFor id="charger" />

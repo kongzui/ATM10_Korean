@@ -13,7 +13,7 @@ item_ids:
 
 # MEGA Cells: 에너지
 
-MEGA가 더 큰 [에너지](ae2:ae2-mechanics/energy.md) 저장소도 제공하지 않는다면 섭섭하겠죠. 다행히 이
+MEGA가 더 큰 [에너지](ae2:ae2-mechanics/energy.md) 저장소도 제공하지 않으면 아쉬운데, 다행히 이
 부분도 빠짐없이 준비되어 있습니다.
 
 ## 초고밀도 에너지 셀

@@ -19,6 +19,6 @@ item_ids:
 
 월드 높이 제한에서 <ItemLink id="annihilation_plane" />이 위를 향하게 설치해도 얻을 수 있습니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="sky_dust" />

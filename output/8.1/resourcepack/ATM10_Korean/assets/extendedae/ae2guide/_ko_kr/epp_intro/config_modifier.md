@@ -15,7 +15,7 @@ item_ids:
 
 <ItemImage id="extendedae:config_modifier" scale="4"></ItemImage>
 
-오른쪽 클릭하면 GUI가 열립니다.
+우클릭하면 GUI가 열립니다.
 
 ## 사용법
 

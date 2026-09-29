@@ -1,0 +1,235 @@
+{
+  "family": "ae2",
+  "files": {
+    "ae2": {
+      "english_keys": 1021,
+      "translated_keys": 1021,
+      "keys_without_jar_english": 0,
+      "revised": 26,
+      "kept": 995,
+      "revised_keys": [
+        "achievement.ae2.Fluix.desc",
+        "achievement.ae2.QNB.desc",
+        "ae2.rei_jei_integration.incompatible_recipe",
+        "ae2.rei_jei_integration.missing_id",
+        "ae2.rei_jei_integration.transform_category",
+        "chat.ae2.TestWorldNotInSuperflat",
+        "chat.ae2.TestWorldSetupComplete",
+        "chat.ae2.TestWorldSetupFailed",
+        "chat.ae2.UnknownHotkey",
+        "gui.ae2.InWorldCrafting",
+        "gui.ae2.Partitioned",
+        "gui.ae2.PatternEncoding.primary_processing_result_hint",
+        "gui.ae2.PatternEncoding.secondary_processing_result_hint",
+        "gui.ae2.SCSInvalid",
+        "gui.ae2.SpatialAnchorAll",
+        "gui.ae2.SpatialAnchorAllLoaded",
+        "gui.ae2.TerminalSettingsClearGridOnClose",
+        "gui.ae2.TransparentFacadesHint",
+        "gui.ae2.inWorldCraftingPresses",
+        "gui.tooltips.ae2.Blocking",
+        "gui.tooltips.ae2.InventoryTweaks",
+        "gui.tooltips.ae2.PartitionStorage",
+        "gui.tooltips.ae2.PartitionStorageHint",
+        "gui.tooltips.ae2.StashDesc",
+        "gui.tooltips.ae2.StashToPlayerDesc",
+        "gui.tooltips.ae2.TrashController"
+      ]
+    },
+    "ae2wtlib": {
+      "english_keys": 46,
+      "translated_keys": 46,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 46,
+      "revised_keys": []
+    },
+    "advanced_ae": {
+      "english_keys": 246,
+      "translated_keys": 246,
+      "keys_without_jar_english": 0,
+      "revised": 3,
+      "kept": 243,
+      "revised_keys": [
+        "gui.tooltips.advanced_ae.AutoFeedTooltip",
+        "gui.tooltips.advanced_ae.FlightTooltip",
+        "gui.tooltips.advanced_ae.RechargingTooltip"
+      ]
+    },
+    "extendedae": {
+      "english_keys": 253,
+      "translated_keys": 253,
+      "keys_without_jar_english": 0,
+      "revised": 1,
+      "kept": 252,
+      "revised_keys": [
+        "gui.extendedae.crystal_assembler.amount"
+      ]
+    },
+    "expandedae": {
+      "english_keys": 69,
+      "translated_keys": 69,
+      "keys_without_jar_english": 0,
+      "revised": 3,
+      "kept": 66,
+      "revised_keys": [
+        "group.oversize_interface.name",
+        "gui.tooltips.expandedae.modifyPatternsHint",
+        "info.expandedae.useless"
+      ]
+    },
+    "megacells": {
+      "english_keys": 134,
+      "translated_keys": 134,
+      "keys_without_jar_english": 0,
+      "revised": 6,
+      "kept": 128,
+      "revised_keys": [
+        "block.megacells.sky_bronze_block",
+        "block.megacells.sky_osmium_block",
+        "block.megacells.sky_steel_block",
+        "item.megacells.sky_bronze_ingot",
+        "item.megacells.sky_osmium_ingot",
+        "item.megacells.sky_steel_ingot"
+      ]
+    },
+    "appflux": {
+      "english_keys": 57,
+      "translated_keys": 57,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 57,
+      "revised_keys": []
+    },
+    "enderdrives": {
+      "english_keys": 140,
+      "translated_keys": 140,
+      "keys_without_jar_english": 0,
+      "revised": 2,
+      "kept": 138,
+      "revised_keys": [
+        "commands.enderdrives.clear.no_permission",
+        "commands.enderdrives.dumpcell.no_permission"
+      ]
+    },
+    "ae2importexportcard": {
+      "english_keys": 5,
+      "translated_keys": 5,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 5,
+      "revised_keys": []
+    },
+    "ae2netanalyser": {
+      "english_keys": 38,
+      "translated_keys": 38,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 38,
+      "revised_keys": []
+    },
+    "merequester": {
+      "english_keys": 27,
+      "translated_keys": 27,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 27,
+      "revised_keys": []
+    },
+    "arseng": {
+      "english_keys": 17,
+      "translated_keys": 17,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 17,
+      "revised_keys": []
+    },
+    "ae2ct": {
+      "english_keys": 19,
+      "translated_keys": 19,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 19,
+      "revised_keys": []
+    },
+    "aeinfinitybooster": {
+      "english_keys": 4,
+      "translated_keys": 4,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 4,
+      "revised_keys": []
+    },
+    "appmek": {
+      "english_keys": 15,
+      "translated_keys": 15,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 15,
+      "revised_keys": []
+    },
+    "immeng": {
+      "english_keys": 4,
+      "translated_keys": 4,
+      "keys_without_jar_english": 0,
+      "revised": 1,
+      "kept": 3,
+      "revised_keys": [
+        "item.immeng.wirecoil_me_dense"
+      ]
+    },
+    "soulplied_energistics": {
+      "english_keys": 4,
+      "translated_keys": 4,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 4,
+      "revised_keys": []
+    },
+    "allthecompressed": {
+      "english_keys": 1796,
+      "translated_keys": 1796,
+      "keys_without_jar_english": 0,
+      "revised": 27,
+      "kept": 1769,
+      "revised_keys": [
+        "block.allthecompressed.sky_bronze_block_1x",
+        "block.allthecompressed.sky_bronze_block_2x",
+        "block.allthecompressed.sky_bronze_block_3x",
+        "block.allthecompressed.sky_bronze_block_4x",
+        "block.allthecompressed.sky_bronze_block_5x",
+        "block.allthecompressed.sky_bronze_block_6x",
+        "block.allthecompressed.sky_bronze_block_7x",
+        "block.allthecompressed.sky_bronze_block_8x",
+        "block.allthecompressed.sky_bronze_block_9x",
+        "block.allthecompressed.sky_osmium_block_1x",
+        "block.allthecompressed.sky_osmium_block_2x",
+        "block.allthecompressed.sky_osmium_block_3x",
+        "block.allthecompressed.sky_osmium_block_4x",
+        "block.allthecompressed.sky_osmium_block_5x",
+        "block.allthecompressed.sky_osmium_block_6x",
+        "block.allthecompressed.sky_osmium_block_7x",
+        "block.allthecompressed.sky_osmium_block_8x",
+        "block.allthecompressed.sky_osmium_block_9x",
+        "block.allthecompressed.sky_steel_block_1x",
+        "block.allthecompressed.sky_steel_block_2x",
+        "block.allthecompressed.sky_steel_block_3x",
+        "block.allthecompressed.sky_steel_block_4x",
+        "block.allthecompressed.sky_steel_block_5x",
+        "block.allthecompressed.sky_steel_block_6x",
+        "block.allthecompressed.sky_steel_block_7x",
+        "block.allthecompressed.sky_steel_block_8x",
+        "block.allthecompressed.sky_steel_block_9x"
+      ]
+    }
+  },
+  "translated_keys": 3895,
+  "revised": 69,
+  "kept": 3826,
+  "remaining_style_signals": {
+    "merequester:tooltip.merequester.export_desc": [
+      "것입니다"
+    ]
+  },
+  "errors": []
+}

@@ -52,6 +52,6 @@ item_ids:
 | 3                  | 64                        |
 | 4                  | 96                        |
 
-## 조합법
+## 제작법
 
 <RecipeFor id="import_bus" />

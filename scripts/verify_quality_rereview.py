@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""8.1 품질 재검수 계열의 퀘스트·언어·KubeJS 산출물을 기준 커밋과 현재 원문으로 검증해요."""
+"""8.1 품질 재검수 계열의 퀘스트·언어·KubeJS·가이드 산출물을 기준 커밋과 현재 원문으로 검증해요."""
 
 from __future__ import annotations
 
@@ -9,6 +9,13 @@ import subprocess
 import tempfile
 from pathlib import Path
 
+from build_ae2_guide import FRONT_MATTER_RE
+from build_ae2_guide import HEADING_RE
+from build_ae2_guide import IMAGE_TARGET_RE
+from build_ae2_guide import INLINE_CODE_RE
+from build_ae2_guide import LINK_TARGET_RE
+from build_ae2_guide import NAVIGATION_TITLE_RE
+from build_ae2_guide import TAG_RE
 from build_ae2_quests import parse_language_snbt
 from build_ae2_quests import validate_value
 from ftbquests_layout import split_locale_files
@@ -25,6 +32,7 @@ PACK_ASSETS = "resourcepack/ATM10_Korean/assets"
 PLACEHOLDER_RE = re.compile(r"%(?:\d+\$)?[a-zA-Z%]|\{\d+\}")
 FORMAT_RE = re.compile(r"[&§][0-9a-fk-or]", re.IGNORECASE)
 PATCHOULI_TAG_RE = re.compile(r"\$\([^)]*\)")
+NUMBER_RE = re.compile(r"\d+(?:[.,]\d+)*")
 JS_STRING_RE = re.compile(r"'(?:\\.|[^'\\\n])*'|\"(?:\\.|[^\"\\\n])*\"")
 
 
@@ -175,13 +183,47 @@ def same_guide_shape(new: object, old: object, where: str) -> None:
         raise ValueError(f"{where}: 문자열이 아닌 가이드 값이 바뀌었어요")
 
 
+def markdown_guide_errors(new: str, old: str, where: str) -> list[str]:
+    """GuideME 가이드는 문장만 바뀌고 태그·코드·링크·제목·숫자·front matter는 그대로여야 해요."""
+    new = new.replace("\r\n", "\n")
+    old = old.replace("\r\n", "\n")
+    errors = []
+    new_meta = FRONT_MATTER_RE.match(new)
+    old_meta = FRONT_MATTER_RE.match(old)
+    if bool(new_meta) != bool(old_meta) or (
+        old_meta
+        and NAVIGATION_TITLE_RE.sub("", new_meta.group(1))
+        != NAVIGATION_TITLE_RE.sub("", old_meta.group(1))
+    ):
+        errors.append(f"{where}: 제목 밖의 front matter가 바뀌었어요")
+    for label, pattern in (
+        ("태그", TAG_RE),
+        ("인라인 코드", INLINE_CODE_RE),
+        ("링크", LINK_TARGET_RE),
+        ("이미지", IMAGE_TARGET_RE),
+        ("제목 단계", HEADING_RE),
+    ):
+        if pattern.findall(new) != pattern.findall(old):
+            errors.append(f"{where}: {label}가 기준과 달라요")
+    if sorted(NUMBER_RE.findall(new)) != sorted(NUMBER_RE.findall(old)):
+        errors.append(f"{where}: 숫자가 기준과 달라요")
+    if new.count("\n---\n") != old.count("\n---\n"):
+        errors.append(f"{where}: 수평선 개수가 기준과 달라요")
+    return errors
+
+
 def verify_guides(scope: dict, record) -> int:
     files = 0
     for relative in scope.get("guide_files", []):
         path = OUTPUT / relative
-        current = json.loads(path.read_text(encoding="utf-8"))
-        baseline = json.loads(git_text(scope["baseline_commit"], relative))
-        same_guide_shape(current, baseline, relative)
+        text = path.read_text(encoding="utf-8")
+        baseline = git_text(scope["baseline_commit"], relative)
+        if relative.endswith(".md"):
+            errors = markdown_guide_errors(text, baseline, relative)
+            if errors:
+                raise ValueError("\n".join(errors))
+        else:
+            same_guide_shape(json.loads(text), json.loads(baseline), relative)
         record(path, OUTPUT, "output")
         files += 1
     return files

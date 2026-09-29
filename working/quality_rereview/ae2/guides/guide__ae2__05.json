@@ -1,0 +1,164 @@
+{
+  "ae2/getting-started.md": [
+    {
+      "old": "이 탐지기는 가장 가까운",
+      "new": "이 나침반은 가장 가까운"
+    },
+    {
+      "old": "<ItemLink id=\"meteorite_compass\" />를 제작하세요",
+      "new": "<ItemLink id=\"meteorite_compass\" />을 제작하세요"
+    },
+    {
+      "old": "<ItemLink id=\"crank\" />을 만들어",
+      "new": "<ItemLink id=\"crank\" />를 만들어"
+    },
+    {
+      "old": "이 과정을 자동화하는 방법은 \"독자 여러분의",
+      "new": "이 과정을 자동화하는 방법은 \"독자의"
+    },
+    {
+      "old": "\"[독자 여러분의 연습 문제로 남겨 둡니다]",
+      "new": "\"[독자의 연습 문제로 남겨 둡니다]"
+    },
+    {
+      "old": "유리, 피복, 스마트 케이블은 가능하지만 조밀 케이블은 제외",
+      "new": "유리, 피복, 스마트 케이블은 가능하지만 조밀한 케이블은 제외"
+    },
+    {
+      "old": "원하는 발전 모드의 케이블, 파이프 또는 도관으로",
+      "new": "즐겨 쓰는 에너지 생산 모드의 케이블, 파이프 또는 도관으로"
+    },
+    {
+      "old": "이제 가공 자동화를 시도하고 싶을 것입니다.",
+      "new": "이제 가공을 자동화하고 싶어질 겁니다."
+    }
+  ],
+  "ae2/index.md": [
+    {
+      "old": "바꿀 수 있지만, 이는 시작에 불과합니다.",
+      "new": "바꿀 수 있지만, 그것도 시작에 불과합니다."
+    },
+    {
+      "old": "마우스 왼쪽 버튼을 누른 채 드래그하면 회전하고, 오른쪽 버튼을 누른 채 드래그하면 이동합니다.",
+      "new": "좌클릭한 채 드래그하면 회전하고, 우클릭한 채 드래그하면 이동합니다."
+    }
+  ],
+  "ae2/items-blocks-machines/annihilation_plane.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/budding_certus.md": [
+    {
+      "old": "서투스 석영 싹이 자랍니다.",
+      "new": "서투스 석영 봉오리가 자랍니다."
+    },
+    {
+      "old": "싹이 한 단계 자랄 때마다 블록이 일정 확률로 한 등급 열화하며,",
+      "new": "봉오리가 한 단계 자랄 때마다 블록이 일정 확률로 한 등급 낮아지며,"
+    },
+    {
+      "old": "싹이 자라도 열화하지 않으므로",
+      "new": "봉오리가 자라도 등급이 낮아지지 않으므로"
+    },
+    {
+      "old": "한 등급 열화합니다. 섬세한 손길",
+      "new": "한 등급 낮아집니다. 섬세한 손길"
+    },
+    {
+      "old": "열화하지 않지만, 흠잡을 데 없는 블록은 예외입니다.",
+      "new": "등급이 낮아지지 않지만, 흠잡을 데 없는 블록은 예외입니다."
+    },
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/cable_anchor.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/cell_workbench.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/certus_quartz_crystal.md": [
+    {
+      "old": "## 일부 대체 조합법",
+      "new": "## 일부 대체 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/certus_quartz_crystal_charged.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/certus_quartz_dust.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/charged_staff.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/charger.md": [
+    {
+      "old": "<ItemLink id=\"certus_quartz_crystal\" />로 만들고",
+      "new": "<ItemLink id=\"certus_quartz_crystal\" />으로 만들고"
+    },
+    {
+      "old": "<ItemLink id=\"meteorite_compass\" />는 <ItemLink id=\"minecraft:compass\" />로 만들 수 있습니다.",
+      "new": "<ItemLink id=\"meteorite_compass\" />은 <ItemLink id=\"minecraft:compass\" />으로 만들 수 있습니다."
+    },
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/chest.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/color_applicator.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/condenser.md": [
+    {
+      "old": "<ItemLink id=\"matter_ball\" />과 [특이점]",
+      "new": "<ItemLink id=\"matter_ball\" />와 [특이점]"
+    },
+    {
+      "old": "<ItemLink id=\"matter_ball\" />을 만듭니다.",
+      "new": "<ItemLink id=\"matter_ball\" />를 만듭니다."
+    },
+    {
+      "old": "## 설정 및 조합법",
+      "new": "## 설정 및 제작법"
+    },
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2/items-blocks-machines/controller.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ]
+}

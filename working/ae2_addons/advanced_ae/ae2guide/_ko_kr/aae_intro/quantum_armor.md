@@ -152,12 +152,12 @@ AE2 시스템에 연결하여 어디서든 모든 기능에 편리하게 접근�
 
 ### 비행 카드
 
-<ItemLink id="advanced_ae:flight_card" />를 설치하면 창의적 비행을 사용할 수 있습니다. UI의 슬라이더로
+<ItemLink id="advanced_ae:flight_card" />를 설치하면 크리에이티브 비행을 사용할 수 있습니다. UI의 슬라이더로
 비행 속도를 설정할 수 있으며, 걷기 및 질주 속도 업그레이드의 효과도 더해집니다.
 
 ### 비행 관성 제거 카드
 
-<ItemLink id="advanced_ae:flight_drift_card" />는 비행 카드가 설치된 경우에만 작동하며, 창의적 비행에
+<ItemLink id="advanced_ae:flight_drift_card" />는 비행 카드가 설치된 경우에만 작동하며, 크리에이티브 비행에
 적용되는 관성을 바꾸는 설정 슬라이더를 하나 더 추가합니다. 값이 낮을수록 더 빨리 멈추며, 값을 0으로
 설정하면 즉시 멈춥니다.
 

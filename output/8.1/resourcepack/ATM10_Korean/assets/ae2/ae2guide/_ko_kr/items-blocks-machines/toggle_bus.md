@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 토글 버스
+  title: ME 토글 버스
   icon: toggle_bus
   position: 110
 categories:
@@ -11,7 +11,7 @@ item_ids:
 - ae2:inverted_toggle_bus
 ---
 
-# 토글 버스
+# ME 토글 버스
 
 <GameScene zoom="8" background="transparent">
 <ImportStructure src="../assets/assemblies/toggle_bus.snbt" />
@@ -27,7 +27,7 @@ item_ids:
 
 [케이블 부품](../ae2-mechanics/cable-subparts.md)으로 설치됩니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="toggle_bus" />
 

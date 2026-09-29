@@ -42,7 +42,7 @@ item_ids:
 
 *   <ItemLink id="energy_card" />: 배터리 용량 증가
 
-## 조합법
+## 제작법
 
 <RecipeFor id="wireless_terminal" />
 

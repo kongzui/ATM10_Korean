@@ -18,6 +18,6 @@ item_ids:
 
 [플루익스 도구](fluix_tools.md)를 만드는 데 필요합니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="fluix_upgrade_smithing_template" />

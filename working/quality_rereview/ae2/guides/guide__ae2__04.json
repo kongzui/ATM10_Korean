@@ -1,0 +1,48 @@
+{
+  "ae2/example-setups/processor-automation.md": [
+    {
+      "old": "<ItemLink id=\"pattern_provider\" /> (1)는",
+      "new": "<ItemLink id=\"pattern_provider\" /> (1)은"
+    },
+    {
+      "old": "<ItemLink id=\"export_bus\" /> (3~7)는",
+      "new": "<ItemLink id=\"export_bus\" /> (3~7)은"
+    }
+  ],
+  "ae2/example-setups/recursive-crafting-setup.md": [
+    {
+      "old": "<ItemLink id=\"interface\" /> (1)는",
+      "new": "<ItemLink id=\"interface\" /> (1)은"
+    },
+    {
+      "old": "레벨 방출기에 의해 활성화되어",
+      "new": "레벨 방출기로 활성화되어"
+    }
+  ],
+  "ae2/example-setups/semiauto-certus-farm.md": [
+    {
+      "old": "(5)은 기본 설정을 사용합니다",
+      "new": "(5)는 기본 설정을 사용합니다"
+    },
+    {
+      "old": "(6)는 기본 설정을 사용합니다",
+      "new": "(6)은 기본 설정을 사용합니다"
+    }
+  ],
+  "ae2/example-setups/specialized-local-storage.md": [
+    {
+      "old": "<ItemLink id=\"interface\" /> (1)는",
+      "new": "<ItemLink id=\"interface\" /> (1)은"
+    }
+  ],
+  "ae2/example-setups/throw-in-water-automation.md": [
+    {
+      "old": "(1)는 관련",
+      "new": "(1)은 관련"
+    },
+    {
+      "old": "(4)은 GUI가",
+      "new": "(4)는 GUI가"
+    }
+  ]
+}

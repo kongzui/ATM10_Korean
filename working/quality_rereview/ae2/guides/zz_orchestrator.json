@@ -1,0 +1,135 @@
+{
+  "ae2/ae2-mechanics/autocrafting.md": [
+    {
+      "old": "제작 격자에",
+      "new": "제작 칸에",
+      "all": true
+    }
+  ],
+  "ae2/getting-started.md": [
+    {
+      "old": "부쉈다면 네 종류의 \"프레스\"를 얻었을 것입니다.",
+      "new": "부수면 네 종류의 \"프레스\"를 얻습니다."
+    },
+    {
+      "old": "가 8개 정도에 가까워졌을 것입니다.",
+      "new": "가 8개 가까이 됩니다."
+    },
+    {
+      "old": "제작 격자에",
+      "new": "제작 칸에",
+      "all": true
+    }
+  ],
+  "ae2/items-blocks-machines/crank.md": [
+    {
+      "old": "게임 초반은 원래 고생스러운 법이지 않습니까?",
+      "new": "게임 초반은 원래 고생스러운 법입니다."
+    }
+  ],
+  "ae2/items-blocks-machines/energy_acceptor.md": [
+    {
+      "old": "제작 격자에",
+      "new": "제작 칸에",
+      "all": true
+    }
+  ],
+  "ae2/items-blocks-machines/facades.md": [
+    {
+      "old": "조합법",
+      "new": "제작법",
+      "all": true
+    }
+  ],
+  "ae2/items-blocks-machines/interface.md": [
+    {
+      "old": "제작 격자에",
+      "new": "제작 칸에",
+      "all": true
+    }
+  ],
+  "ae2/items-blocks-machines/level_emitter.md": [
+    {
+      "old": "두 가지 옵션이 활성화됩니다.",
+      "new": "두 가지 설정이 활성화됩니다."
+    },
+    {
+      "old": "첫 번째 옵션인",
+      "new": "첫 번째 설정인"
+    },
+    {
+      "old": "두 번째 옵션인",
+      "new": "두 번째 설정인"
+    }
+  ],
+  "ae2/items-blocks-machines/monitors.md": [
+    {
+      "old": "조합법",
+      "new": "제작법",
+      "all": true
+    }
+  ],
+  "ae2/items-blocks-machines/paintballs.md": [
+    {
+      "old": "조합법",
+      "new": "제작법",
+      "all": true
+    }
+  ],
+  "ae2/items-blocks-machines/pattern_provider.md": [
+    {
+      "old": "제작 격자에",
+      "new": "제작 칸에",
+      "all": true
+    }
+  ],
+  "ae2/items-blocks-machines/quantum_bridge.md": [
+    {
+      "old": "조합법",
+      "new": "제작법",
+      "all": true
+    }
+  ],
+  "ae2/items-blocks-machines/storage_cells.md": [
+    {
+      "old": "제작 격자에",
+      "new": "제작 칸에",
+      "all": true
+    }
+  ],
+  "ae2/items-blocks-machines/terminals.md": [
+    {
+      "old": "조합법",
+      "new": "제작법",
+      "all": true
+    },
+    {
+      "old": "제작 격자가",
+      "new": "제작 칸이",
+      "all": true
+    },
+    {
+      "old": "제작 격자는",
+      "new": "제작 칸은",
+      "all": true
+    },
+    {
+      "old": "제작 격자의",
+      "new": "제작 칸의",
+      "all": true
+    }
+  ],
+  "megacells/extras.md": [
+    {
+      "old": "제공하는 것도 나쁘지 않아 보였습니다.",
+      "new": "제공하는 것도 나쁘지 않습니다."
+    }
+  ],
+  "megacells/storage.md": [
+    {
+      "old": "하늘 청동",
+      "new": "천령 청동",
+      "all": true
+    }
+  ]
+}

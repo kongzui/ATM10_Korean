@@ -39,7 +39,7 @@ navigation:
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="0 2 0" max="1 2.3 1">
-        (4) 저장 버스 #2: 반전 카드를 사용해 석탄을 블랙리스트로 지정했습니다.
+        (4) 저장 버스 #2: 반전 카드를 사용해 석탄을 차단 목록으로 지정했습니다.
         <Row><ItemImage id="minecraft:coal" scale="2" /><ItemImage id="inverter_card" scale="2" /></Row>
   </BoxAnnotation>
 
@@ -52,14 +52,14 @@ navigation:
 
 ## 설정
 
-* <ItemLink id="pattern_provider" /> (1)는 관련 <ItemLink id="processing_pattern" />을 넣은 기본 설정입니다.
+* <ItemLink id="pattern_provider" /> (1)은 관련 <ItemLink id="processing_pattern" />을 넣은 기본 설정입니다.
   <ItemLink id="certus_quartz_wrench" />를 사용해 방향을 지정했습니다.
 
   ![철 패턴](../assets/diagrams/furnace_pattern.png)
 
 * <ItemLink id="interface" /> (2)는 기본 설정입니다.
 * 첫 번째 <ItemLink id="storage_bus" /> (3)은 석탄 또는 사용할 연료로 필터링했습니다.
-* 두 번째 <ItemLink id="storage_bus" /> (4)는 <ItemLink id="inverter_card" />를 사용해 사용할 연료를 블랙리스트로 지정했습니다.
+* 두 번째 <ItemLink id="storage_bus" /> (4)는 <ItemLink id="inverter_card" />를 사용해 사용할 연료를 차단 목록으로 지정했습니다.
 
 ## 작동 원리
 

@@ -1,0 +1,32 @@
+{
+  "ae2/ae2-mechanics/me-network-connections.md": [
+    {
+      "old": "무선 [조밀 케이블](../items-blocks-machines/cables.md#dense-cable)처럼",
+      "new": "무선 [조밀한 케이블](../items-blocks-machines/cables.md#dense-cable)처럼"
+    }
+  ],
+  "ae2/ae2-mechanics/spatial-io.md": [
+    {
+      "old": "순간 이동 장치",
+      "new": "순간이동 장치"
+    },
+    {
+      "old": "지정한 공간 안에 있는 모든 개체는",
+      "new": "지정한 공간 안에 있는 모든 엔티티는"
+    },
+    {
+      "old": "## 공간 I/O 포트",
+      "new": "## 공간 입출력 포트"
+    },
+    {
+      "old": "공간 저장 셀을 넣고 공간 I/O 포트에 레드스톤",
+      "new": "공간 저장 셀을 넣고 공간 입출력 포트에 레드스톤"
+    }
+  ],
+  "ae2/ae2-mechanics/subnetworks.md": [
+    {
+      "old": "쓰레기통이나 초과분 파괴 업그레이드 대신",
+      "new": "쓰레기통이나 제거 업그레이드 대신"
+    }
+  ]
+}

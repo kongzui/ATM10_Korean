@@ -28,7 +28,7 @@ item_ids:
 
 저장 용량을 새로운 수준으로 끌어올리려면 새로운 재료가 필요합니다. MEGA 기반 시설을 구축하기 전에
 가장 많이 모아야 할 핵심 자원은 <ItemLink id="ae2:sky_stone_block" />입니다. 철과
-<ItemLink id="ae2:charged_certus_quartz_crystal" />을 함께 사용하여 **하늘 강철** 합금 주괴로
+<ItemLink id="ae2:charged_certus_quartz_crystal" />을 함께 사용하여 **천령 강철** 합금 주괴로
 변환해야 합니다. 하지만 금속을 가공하기에는 물만으로 부족하므로, 재료를 녹여 변환할 훨씬 뜨거운
 유체가 필요합니다.
 
@@ -36,7 +36,7 @@ item_ids:
   <Recipe id="transform/sky_steel_ingot" />
 </Row>
 
-하늘 강철을 마련했다면 **축적 프로세서**라는 완전히 새로운 프로세서를 만들 수 있습니다. 이
+천령 강철을 마련했다면 **축적 프로세서**라는 완전히 새로운 프로세서를 만들 수 있습니다. 이
 프로세서는 용량이 더 큰 일반 저장 셀부터 다른 전문 도구까지, 거의 모든 MEGA 장치의 핵심을 이룹니다.
 
 <Row>

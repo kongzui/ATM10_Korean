@@ -34,7 +34,7 @@ item_ids:
 <ItemImage id="advanced_ae:throughput_monitor_configurator" scale="4"></ItemImage>
 
 처리량 모니터 설정기는 표시할 데이터를 바꾸는 도구입니다. 손에 들고 모니터를 우클릭하면 다음 세
-옵션을 차례로 전환합니다:
+항목을 차례로 전환합니다:
 
 * 틱당 아이템 수
 * 초당 아이템 수

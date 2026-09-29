@@ -38,6 +38,6 @@ AE2 전력(AE)과 Forge Energy(FE)를 모두 받습니다.
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 조합법
+## 제작법
 
 <RecipeFor id="growth_accelerator" />

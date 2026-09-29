@@ -55,7 +55,7 @@ navigation:
 
 ## 설정과 패턴
 
-* <ItemLink id="pattern_provider" /> (1)는 관련 <ItemLink id="processing_pattern" />을 넣은 기본 설정입니다.
+* <ItemLink id="pattern_provider" /> (1)은 관련 <ItemLink id="processing_pattern" />을 넣은 기본 설정입니다.
   * <ItemLink id="fluix_crystal" />에는 JEI/REI의 기본 제작법을 그대로 사용해도 됩니다.
 
     ![플루익스 패턴](../assets/diagrams/fluix_pattern.png)
@@ -67,7 +67,7 @@ navigation:
 
 * <ItemLink id="interface" /> (2)는 기본 설정입니다.
 * <ItemLink id="formation_plane" /> (3)은 입력물을 아이템으로 떨어뜨리도록 설정했습니다.
-* <ItemLink id="annihilation_plane" /> (4)은 GUI가 없어 설정할 수 없습니다.
+* <ItemLink id="annihilation_plane" /> (4)는 GUI가 없어 설정할 수 없습니다.
 * <ItemLink id="storage_bus" /> (5)는 패턴의 출력물로 필터링했습니다.
 
 ## 작동 원리

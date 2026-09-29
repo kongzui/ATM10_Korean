@@ -19,6 +19,6 @@ item_ids:
 
 <ItemLink id="charger" />에서 에너지를 충전할 수 있습니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="charged_staff" />

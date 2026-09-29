@@ -33,7 +33,7 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-중요하게도 **양쪽 모두 청크 로딩되어야 합니다.** 두 지점이 멀리 떨어져 있다면 <ItemLink id="spatial_anchor" />나
+**양쪽 모두 청크가 로드되어 있어야 합니다.** 두 지점이 멀리 떨어져 있다면 <ItemLink id="spatial_anchor" />나
 다른 청크 로더를 사용해야 합니다.
 
 # ME 양자 고리
@@ -44,7 +44,7 @@ item_ids:
 <ItemLink id="quantum_ring" /> 8개 중 <ItemLink id="quantum_link" />에 인접한 4개만 네트워크 연결을 받으며,
 모서리의 4개 블록에는 케이블을 연결할 수 없습니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="quantum_ring" />
 
@@ -57,6 +57,6 @@ item_ids:
 
 이 블록의 인벤토리에는 <ItemLink id="quantum_entangled_singularity" /> 하나만 들어가며 자동화 장치로 접근할 수 있습니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="quantum_link" />

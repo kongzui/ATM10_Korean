@@ -35,6 +35,6 @@ AE2WTLib은 Minecraft의 `Pick Block`(블록 선택) 기능을 확장하여, 인
 *   <ItemLink id="ae2wtlib:quantum_bridge_card" />: 차원을 넘어 거리 제한 없이 터미널을 사용하고 ME 네트워크에서 자동 충전
 *   <ItemLink id="ae2wtlib:magnet_card" />: 자석 기능 추가
 
-## 조합법
+## 제작법
 
 <RecipeFor id="ae2:wireless_crafting_terminal" />

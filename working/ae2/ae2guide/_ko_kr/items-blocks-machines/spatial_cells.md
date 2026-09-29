@@ -33,7 +33,7 @@ item_ids:
 다시 강조하지만 **한 번 사용한 공간 셀은 초기화하거나 다시 포맷하거나 크기를 바꿀 수 없습니다.** 다른 크기가 필요하면 새 셀을 만드세요.
 
 
-## 조합법
+## 제작법
 
   <Row>
     <Recipe id="network/cells/spatial_storage_cell_2_cubed_storage" />
@@ -45,7 +45,7 @@ item_ids:
 
 # 하우징
 
-셀은 공간 부품과 하우징을 조합하거나, 공간 부품 주위에 하우징 조합법의 재료를 배치해 만들 수 있습니다.
+셀은 공간 부품과 하우징을 조합하거나, 공간 부품 주위에 하우징 제작법의 재료를 배치해 만들 수 있습니다.
 
 <Row>
   <Recipe id="network/cells/spatial_storage_cell_2_cubed" />

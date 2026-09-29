@@ -41,6 +41,6 @@ item_ids:
 *   minEnergyPerGameTick은 가능한 최저 에너지 생성량을 설정합니다(네트워크에 에너지가 필요하지 않아도 진동실은 항상 연료를 조금씩 사용합니다).
 *   maxEnergyPerGameTick은 업그레이드하지 않은 진동실의 최대 출력과 속도를 설정합니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="vibration_chamber" />

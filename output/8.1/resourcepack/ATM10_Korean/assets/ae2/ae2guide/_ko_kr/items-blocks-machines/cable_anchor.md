@@ -24,6 +24,6 @@ item_ids:
 
 사다리처럼 타고 오를 수 있습니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="cable_anchor" />

@@ -1,0 +1,40 @@
+{
+  "ae2wtlib/ae2wtlib/magnet_card.md": [
+    {
+      "old": "각 필터는 거부 목록 또는 허용 목록 모드로",
+      "new": "각 필터는 차단 목록 또는 허용 목록 모드로"
+    },
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2wtlib/ae2wtlib/quantum_bridge_card.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2wtlib/ae2wtlib/wireless_crafting_terminal.md": [
+    {
+      "old": "## 조합법",
+      "new": "## 제작법"
+    }
+  ],
+  "ae2wtlib/ae2wtlib/restock.md": [
+    {
+      "old": "또한 단축바에 표시되는",
+      "new": "또한 단축 바에 표시되는"
+    },
+    {
+      "old": "네트워크의 보유량과 단축바에 실제로",
+      "new": "네트워크의 보유량과 단축 바에 실제로"
+    }
+  ],
+  "ae2wtlib/ae2wtlib/wireless_universal_terminal.md": [
+    {
+      "old": "버튼을 왼클릭하면",
+      "new": "버튼을 좌클릭하면"
+    }
+  ]
+}

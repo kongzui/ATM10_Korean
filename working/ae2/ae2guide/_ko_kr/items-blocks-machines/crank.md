@@ -17,9 +17,9 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-나무 손잡이는 다른 전력원이나 <ItemLink id="energy_acceptor" />을 이용할 수 없을 때 기계에 수동으로 동력을 공급합니다.
-게임 초반은 원래 고생스러운 법이죠.
+나무 손잡이는 다른 전력원이나 <ItemLink id="energy_acceptor" />를 이용할 수 없을 때 기계에 수동으로 동력을 공급합니다.
+게임 초반은 원래 고생스러운 법입니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="crank" />

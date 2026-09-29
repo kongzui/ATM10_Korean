@@ -16,6 +16,6 @@ item_ids:
 
 반사 접시 안에 <ItemLink id="fluix_pearl" />를 넣은 것으로, 단거리 무선 ME 기술의 부품입니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="wireless_receiver" />

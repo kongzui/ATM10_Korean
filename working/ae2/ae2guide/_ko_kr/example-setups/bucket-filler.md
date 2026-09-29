@@ -17,7 +17,7 @@ navigation:
 사용할 수 있습니다.
 
 **[패턴 인코딩 터미널](../items-blocks-machines/terminals.md#pattern-encoding-terminal)의 유체 대체 기능을
-사용하면 제작 조합법에서 양동이 대신 유체 자체를 사용할 수 있으므로 이 장치가 필요 없는 경우도 많습니다.**
+사용하면 제작법에서 양동이 대신 유체 자체를 사용할 수 있으므로 이 장치가 필요 없는 경우도 많습니다.**
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/bucket_filler.snbt" />
@@ -70,7 +70,7 @@ navigation:
 
 * <ItemLink id="interface" /> (2)는 기본 설정을 사용합니다.
 * 첫 번째 <ItemLink id="storage_bus" /> (3)은 기본 설정을 사용합니다.
-* <ItemLink id="formation_plane" /> (4)은 반전 카드를 사용해 양동이를 차단 목록으로 필터링합니다.
+* <ItemLink id="formation_plane" /> (4)는 반전 카드를 사용해 양동이를 차단 목록으로 필터링합니다.
   <Row><ItemImage id="minecraft:bucket" scale="2" /><ItemImage id="inverter_card" scale="2" /></Row>
 * <ItemLink id="import_bus" /> (5)도 반전 카드를 사용해 양동이를 차단 목록으로 필터링합니다.
   <Row><ItemImage id="minecraft:bucket" scale="2" /><ItemImage id="inverter_card" scale="2" /></Row>

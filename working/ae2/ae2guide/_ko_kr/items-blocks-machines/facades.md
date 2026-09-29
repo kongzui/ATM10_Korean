@@ -42,8 +42,8 @@ item_ids:
 
 덮개를 먼저 제거하지 않고도 숨겨진 덮개 뒤의 블록과 상호작용할 수 있습니다.
 
-## 조합법
+## 제작법
 
 원하는 질감의 블록을 <ItemLink id="cable_anchor" /> 4개 가운데에 놓으세요.
 
-![케이블 덮개 조합법](../assets/diagrams/facade_recipe.png)
+![케이블 덮개 제작법](../assets/diagrams/facade_recipe.png)

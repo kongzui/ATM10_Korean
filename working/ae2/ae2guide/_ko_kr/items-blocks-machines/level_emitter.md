@@ -46,22 +46,22 @@ ME 레벨 방출기는 [네트워크 저장소](../ae2-mechanics/import-export-s
 
 <ItemLink id="crafting_card" />를 장착하면 방출기가 제작 모드로 전환됩니다.
 
-두 가지 옵션이 활성화됩니다.
+두 가지 설정이 활성화됩니다.
 
-첫 번째 옵션인 "아이템 제작 중 레드스톤 출력"은 [자동 제작](../ae2-mechanics/autocrafting.md)이 <ItemLink id="pattern_provider" />를 통해
+첫 번째 설정인 "아이템 제작 중 레드스톤 출력"은 [자동 제작](../ae2-mechanics/autocrafting.md)이 <ItemLink id="pattern_provider" />를 통해
 특정 아이템을 제작하는 동안 방출기가 레드스톤 신호를 출력하게 합니다. 전력을 많이 쓰는 특정 자동화 설비를
 실제로 사용할 때만 켜는 데 유용합니다.
 
-두 번째 옵션인 "아이템 제작을 위해 레드스톤 출력"은 무한 농장이나 결과물이 확정되지 않고 확률적으로 생성되는 자동화 설비에 매우 유용합니다.
+두 번째 설정인 "아이템 제작을 위해 레드스톤 출력"은 무한 농장이나 결과물이 확정되지 않고 확률적으로 생성되는 자동화 설비에 매우 유용합니다.
 이 설정은 방출기의 필터 슬롯에 있는 아이템에 대해 가상 [패턴](patterns.md)을 만들어 [자동 제작](../ae2-mechanics/autocrafting.md)이 사용하게 합니다.
 (올바르게 작동하려면 <ItemLink id="pattern_provider" />에 같은 아이템의 실제 패턴이 **없어야 합니다.**)
 
 이 "패턴"은 재료를 정의하지도, 신경 쓰지도 않습니다. 단지 "이 레벨 방출기가 레드스톤을 출력하면 가까운 미래든 먼 미래든
 ME 시스템이 이 아이템을 받는다"고 지정합니다. 보통 입력 재료가 필요 없는 무한 농장을 켜고 끄거나,
 조약돌을 복제하는 기계의 "조약돌 1개 = 조약돌 2개"처럼 표준 자동 제작이 이해하지 못하는
-[재귀 조합법 처리 시스템](../example-setups/recursive-crafting-setup.md)을 활성화할 때 사용합니다.
+[재귀 제작법 처리 시스템](../example-setups/recursive-crafting-setup.md)을 활성화할 때 사용합니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="level_emitter" />
 

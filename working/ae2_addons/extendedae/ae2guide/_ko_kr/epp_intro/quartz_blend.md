@@ -15,5 +15,5 @@ item_ids:
 <ItemImage id="extendedae:quartz_blend" scale="4"></ItemImage>
 </Row>
 
-석영, 석탄과 모래를 섞은 혼합물입니다. 서투스 석영 가루를 직접 제련할 때보다 더 많은
+석영, 석탄과 모래를 섞은 혼합물입니다. 제련하면 서투스 석영 가루를 직접 제련할 때보다 더 많은
 <ItemLink id="ae2:silicon" />을 얻을 수 있습니다.

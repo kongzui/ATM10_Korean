@@ -38,7 +38,7 @@ item_ids:
 </GameScene>
 
 이 [장치](../ae2-mechanics/devices.md)는 [파이프 서브네트워크](../example-setups/pipe-subnet.md) 등에서 저장 버스가 사용하는 원리를 활용합니다.
-아이템을 운반하는 대신 떨어뜨리거나 블록을 설치하려면 그러한 설비의 저장 버스를 대신할 수 있습니다.
+아이템을 운반하는 대신 떨어뜨리거나 블록을 설치하려면 그런 설비의 저장 버스를 이 장치로 바꿔도 됩니다.
 
 [케이블 부품](../ae2-mechanics/cable-subparts.md)으로 설치됩니다.
 
@@ -69,6 +69,6 @@ GUI 오른쪽 위의 렌치를 클릭해 우선순위를 설정할 수 있습니
 *   <ItemLink id="fuzzy_card" />는 내구도 수준으로 필터링하거나 아이템 NBT를 무시하게 합니다.
 *   <ItemLink id="inverter_card" />는 필터를 허용 목록에서 차단 목록으로 바꿉니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="formation_plane" />

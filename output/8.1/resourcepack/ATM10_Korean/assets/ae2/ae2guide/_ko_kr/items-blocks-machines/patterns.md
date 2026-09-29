@@ -23,19 +23,19 @@ item_ids:
 
 용도에 따라 여러 종류의 패턴이 있습니다.
 
-*   <ItemLink id="crafting_pattern" />은 제작대 조합법을 인코딩합니다. <ItemLink id="molecular_assembler" />에 직접 넣으면 재료를
+*   <ItemLink id="crafting_pattern" />은 제작대 제작법을 인코딩합니다. <ItemLink id="molecular_assembler" />에 직접 넣으면 재료를
     받았을 때 결과물을 제작하지만, 주로 분자 조립기 옆의 <ItemLink id="pattern_provider" />에서 사용합니다.
     이때 패턴 공급기는 특별하게 작동해 관련 패턴과 재료를 인접한 조립기로 보냅니다.
     조립기는 제작 결과물을 인접한 인벤토리로 자동 배출하므로, 패턴 공급기에 조립기를 붙이는 것만으로 제작 패턴을 자동화할 수 있습니다.
 
 ***
 
-*   <ItemLink id="smithing_table_pattern" />은 제작 패턴과 매우 비슷하지만 대장장이 작업대 조합법을 인코딩합니다.
+*   <ItemLink id="smithing_table_pattern" />은 제작 패턴과 매우 비슷하지만 대장장이 작업대 제작법을 인코딩합니다.
     패턴 공급기와 분자 조립기로 똑같이 자동화하며, 제작·대장장이 작업대·석재 절단 패턴을 같은 설비에서 사용할 수 있습니다.
 
 ***
 
-*   <ItemLink id="stonecutting_pattern" />은 제작 패턴과 매우 비슷하지만 석재 절단기 조합법을 인코딩합니다.
+*   <ItemLink id="stonecutting_pattern" />은 제작 패턴과 매우 비슷하지만 석재 절단기 제작법을 인코딩합니다.
     패턴 공급기와 분자 조립기로 똑같이 자동화하며, 제작·대장장이 작업대·석재 절단 패턴을 같은 설비에서 사용할 수 있습니다.
 
 ***
@@ -51,6 +51,6 @@ item_ids:
 동일한 패턴을 가진 여러 <ItemLink id="pattern_provider" />를 지원하며 병렬로 작동합니다. 또한 패턴을 조약돌 1개 = 돌 1개 대신
 조약돌 8개 = 돌 8개로 지정할 수 있습니다. 그러면 패턴 공급기가 매 작업마다 조약돌을 하나씩이 아니라 8개씩 제련 설비에 넣습니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="blank_pattern" />

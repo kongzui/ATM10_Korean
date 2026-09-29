@@ -219,6 +219,17 @@
 - Allthemodium Patchouli 안내서 표시 필드 47개를 다시 검토해 4필드를 고쳤어요.
 - 재검수 누적 검증(안내서 구조·태그 검사 추가), 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
 - 게임 종료 상태에서 stable.14 이후 바뀐 9파일만 선택 적용했어요. 표시 경로 감사는 변화 없어요.
-- [재검수 보고](quality_rereview_atm_ores.md), [배포 안내](../../../docs/releases/8.1-stable.15.md),
+- [재검수 보고](quality_rereview_atm_ores.md), [배포 안내](../../../docs/archive/releases/8.1-stable.15.md),
   [패키지 목록](../manifests/8.1-stable.15_packages.json)에 근거를 남겨요.
 - 실제 게임 화면은 미검증이에요. 다음은 7순위 Applied Energistics 2와 애드온이에요.
+
+## 2026-09-30 · 품질 재검수 7순위 Applied Energistics 2와 애드온 누적 stable.16
+
+- AE2와 애드온 17개 모드 언어 2,099키 중 42키, 퀘스트 266키 중 24키를 고치고 GuideME 가이드 223파일 중
+  129파일에서 263곳을 고쳤어요. MEGA Cells 천령 금속 이름에 맞춰 압축 블록 27키도 바꿨어요. 신규 번역은 없어요.
+- 가이드 조각 교체 도구와 누적 검증의 마크다운 검사를 추가했어요.
+- 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
+- 게임 종료 상태에서 stable.15 이후 바뀐 140파일만 선택 적용했고 표시 경로 감사 4개를 갱신했어요.
+- [재검수 보고](quality_rereview_ae2.md), [배포 안내](../../../docs/releases/8.1-stable.16.md),
+  [패키지 목록](../manifests/8.1-stable.16_packages.json)에 근거를 남겨요.
+- 실제 게임 화면은 미검증이에요. 다음은 8순위 Mekanism 계열이에요.

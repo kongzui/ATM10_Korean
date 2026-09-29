@@ -17,6 +17,6 @@ item_ids:
 엔더 진주를 <ItemLink id="inscriber" />로 분쇄한 것입니다. <ItemLink id="wireless_booster" />와
 <ItemLink id="quantum_entangled_singularity" /> 쌍을 만드는 데 사용됩니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="ender_dust" />

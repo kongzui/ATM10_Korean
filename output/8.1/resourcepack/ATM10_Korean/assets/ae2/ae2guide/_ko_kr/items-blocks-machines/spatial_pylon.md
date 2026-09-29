@@ -20,6 +20,6 @@ item_ids:
 
 지시탑 선은 최소 2블록 길이여야 작동합니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="spatial_pylon" />

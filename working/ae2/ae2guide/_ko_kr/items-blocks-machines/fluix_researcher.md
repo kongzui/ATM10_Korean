@@ -24,8 +24,8 @@ categories:
 
 | 단계       | 요구 아이템                                        | 제공 아이템                                      |
 |------------|---------------------------------------------------|-------------------------------------------------|
-| 초보자     | 3 <ItemLink id="minecraft:emerald" />             | 4 <ItemLink id="certus_quartz_crystal" />       |
-| 초보자     | 2 <ItemLink id="minecraft:emerald" />             | 1 <ItemLink id="meteorite_compass" />           |
+| 초심자     | 3 <ItemLink id="minecraft:emerald" />             | 4 <ItemLink id="certus_quartz_crystal" />       |
+| 초심자     | 2 <ItemLink id="minecraft:emerald" />             | 1 <ItemLink id="meteorite_compass" />           |
 |            |                                                   |                                                 |
 | 수습생     | 3 <ItemLink id="charged_certus_quartz_crystal" /> | 1 <ItemLink id="minecraft:emerald" />           |
 | 수습생     | 5 <ItemLink id="silicon" />                       | 1 <ItemLink id="minecraft:emerald" />           |

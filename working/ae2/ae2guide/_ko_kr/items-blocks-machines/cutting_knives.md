@@ -23,7 +23,7 @@ item_ids:
 
 이름 프레스를 만들려면 절단 칼을 우클릭해 금속 주괴를 넣고, 판에 새길 이름을 입력한 뒤 완성된 판을 꺼내면 됩니다.
 
-## 조합법
+## 제작법
 
 <Row>
   <RecipeFor id="certus_quartz_cutting_knife" />

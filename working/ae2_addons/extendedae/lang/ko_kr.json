@@ -191,7 +191,7 @@
   "gui.extendedae.threshold_export_bus.lower": "임계값보다 낮으면 작동",
   "gui.extendedae.crystal_assembler": "결정 조립기",
   "gui.extendedae.crystal_assembler.tank_empty": "비어 있음",
-  "gui.extendedae.crystal_assembler.amount": "%s mb / %s mb",
+  "gui.extendedae.crystal_assembler.amount": "%s mB / %s mB",
   "gui.extendedae.assembler_matrix": "조립기 매트릭스",
   "gui.extendedae.assembler_matrix.tooltip": "패턴 검색",
   "gui.extendedae.assembler_matrix.pattern": "제작 패턴만 넣을 수 있습니다.",

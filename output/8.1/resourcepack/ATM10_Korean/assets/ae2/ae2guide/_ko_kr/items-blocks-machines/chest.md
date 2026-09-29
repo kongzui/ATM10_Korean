@@ -64,6 +64,6 @@ ME 상자에는 <ItemLink id="terminal" /> 또는 <ItemLink id="crafting_termina
 아이템을 꺼낼 때는 우선순위가 가장 낮은 저장소부터 꺼냅니다. 따라서 네트워크 저장소에 아이템을 넣고 꺼내면
 우선순위가 높은 저장소는 채워지고 낮은 저장소는 비워집니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="chest" />

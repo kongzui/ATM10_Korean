@@ -21,6 +21,6 @@ item_ids:
 
 복제품인 덜 신비한 큐브도 만들 수 있습니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="not_so_mysterious_cube" />

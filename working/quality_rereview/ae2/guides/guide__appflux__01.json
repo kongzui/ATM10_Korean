@@ -1,0 +1,14 @@
+{
+  "appflux/appflux/flux_cells.md": [
+    {
+      "old": "ME FE 셀 하우징으로 만드는 ME FE 저장 셀은",
+      "new": "ME FE 저장 셀은"
+    }
+  ],
+  "appflux/appflux/mark_energy.md": [
+    {
+      "old": "슬롯을 오른쪽 클릭하면",
+      "new": "슬롯을 우클릭하면"
+    }
+  ]
+}

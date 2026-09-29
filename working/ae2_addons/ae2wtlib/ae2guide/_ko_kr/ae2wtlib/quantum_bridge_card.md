@@ -24,6 +24,6 @@ item_ids:
 또한 네트워크의 에너지로 자동 충전됩니다.
 (네트워크에 충분한 [에너지 저장소](ae2:items-blocks-machines/energy_cells.md)가 있는지 확인하세요.)
 
-## 조합법
+## 제작법
 
 <RecipeFor id="ae2wtlib:quantum_bridge_card" />

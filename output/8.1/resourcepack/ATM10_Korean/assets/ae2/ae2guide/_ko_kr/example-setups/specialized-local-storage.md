@@ -52,7 +52,7 @@ navigation:
 
 ## 설정
 
-* 첫 번째 <ItemLink id="interface" /> (1)는 농장의 아이템을 받아 서브네트워크로 밀어냅니다.
+* 첫 번째 <ItemLink id="interface" /> (1)은 농장의 아이템을 받아 서브네트워크로 밀어냅니다.
 * <ItemLink id="drive" /> (2)에 [셀](../items-blocks-machines/storage_cells.md)을 장착합니다. 셀은 농장
   생산물에 맞게 [파티션](../items-blocks-machines/cell_workbench.md)을 설정해야 합니다. 셀에
   <ItemLink id="equal_distribution_card" />와 <ItemLink id="void_card" />를 설치할 수 있습니다.

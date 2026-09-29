@@ -72,7 +72,7 @@ navigation:
 
 ## 설정
 
-* <ItemLink id="interface" /> (1)는 필요한 추가 재료인 다이아몬드와 네더랙을 비축하도록 설정했습니다.
+* <ItemLink id="interface" /> (1)은 필요한 추가 재료인 다이아몬드와 네더랙을 비축하도록 설정했습니다.
 * <ItemLink id="level_emitter" /> (2)는 "네더라이트 강화 대장장이 형판"으로 설정하고 "아이템 제작을 위해 레드스톤 방출"로 지정했습니다.
 * 첫 번째 <ItemLink id="import_bus" /> (3)은 인터페이스가 비축하는 아이템으로 필터링했습니다. 레드스톤 카드가 있으며 레드스톤 모드는 "신호가 있을 때 활성"입니다.
 * 첫 번째 <ItemLink id="storage_bus" /> (4)는 두 번째 저장 버스보다 [우선순위](../ae2-mechanics/import-export-storage.md#storage-priority)를 *높게* 설정했습니다.
@@ -89,7 +89,7 @@ navigation:
    [패턴](../items-blocks-machines/patterns.md)인 것처럼 작동합니다. 따라서 "네더라이트 강화 대장장이 형판"이
    [터미널](../items-blocks-machines/terminals.md)에 [자동 제작](../ae2-mechanics/autocrafting.md) 가능한 항목으로 표시됩니다.
 2. 플레이어나 시스템 자체가 해당 아이템 제작을 요청하면 레벨 방출기가 켜집니다.
-3. 첫 번째 <ItemLink id="import_bus" />가 레벨 방출기에 의해 활성화되어 <ItemLink id="interface" />에 비축된 재료를 꺼냅니다.
+3. 첫 번째 <ItemLink id="import_bus" />가 레벨 방출기로 활성화되어 <ItemLink id="interface" />에 비축된 재료를 꺼냅니다.
 4. 네트워크에서 이 재료들을 저장할 수 있는 유일한 <ItemLink id="storage_bus" />는 조립기에 붙은 버스입니다.
 5. <ItemLink id="molecular_assembler" />가 재료를 받아(이미 대장장이 형판 하나가 들어 있음) 제작을 수행하고 형판 두 개를 만듭니다.
 6. 두 번째 <ItemLink id="import_bus" />가 대장장이 형판 하나를 꺼냅니다.

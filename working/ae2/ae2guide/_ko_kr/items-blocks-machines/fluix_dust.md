@@ -17,6 +17,6 @@ item_ids:
 
 <ItemLink id="fluix_crystal" />을 <ItemLink id="inscriber" />로 분쇄한 것입니다. 여러 AE2 기계와 부품을 만드는 데 사용됩니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="fluix_dust" />

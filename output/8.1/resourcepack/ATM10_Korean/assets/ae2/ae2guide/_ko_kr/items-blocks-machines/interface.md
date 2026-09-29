@@ -86,7 +86,7 @@ item_ids:
 
 [서브네트워크](../ae2-mechanics/subnetworks.md)의 인터페이스는 패턴 공급기와 특별하게 상호작용합니다. 인터페이스가 설정되지 않았다면
 공급기가 인터페이스를 완전히 건너뛰고 서브네트워크의 [저장소](../ae2-mechanics/import-export-storage.md)로 직접 보냅니다.
-인터페이스를 조합법 재료 묶음으로 채우지 않으며, 더 중요하게는 저장소에 공간이 생길 때까지 다음 묶음을 넣지 않습니다.
+인터페이스를 제작법 재료 묶음으로 채우지 않으며, 더 중요하게는 저장소에 공간이 생길 때까지 다음 묶음을 넣지 않습니다.
 
 <GameScene zoom="6" background="transparent">
 <ImportStructure src="../assets/assemblies/provider_interface_storage.snbt" />
@@ -116,7 +116,7 @@ item_ids:
 *   납작한 인터페이스는 [케이블 부품](../ae2-mechanics/cable-subparts.md)이므로 한 케이블에 여러 개를 설치해 설비를 작게 만들 수 있습니다.
     앞면에서 인벤토리에 넣고 꺼내며 접근할 수 있지만 앞면에는 네트워크 연결을 제공하지 않습니다.
 
-제작 격자에서 일반형과 납작한 형태를 서로 바꿀 수 있습니다.
+제작 칸에서 일반형과 납작한 형태를 서로 바꿀 수 있습니다.
 
 ## 설정
 
@@ -139,7 +139,7 @@ item_ids:
 
 GUI 오른쪽 위의 렌치를 클릭해 우선순위를 설정할 수 있습니다. 우선순위가 높은 인터페이스가 낮은 인터페이스보다 먼저 아이템을 받습니다.
 
-## 조합법
+## 제작법
 
 <Recipe id="network/blocks/interfaces_interface" />
 

@@ -17,6 +17,6 @@ item_ids:
 운석 나침반은 가장 가까운 <ItemLink id="mysterious_cube" />를 가리키므로, 결국 가장 가까운
 [운석](../ae2-mechanics/meteorites.md)을 가리킵니다. 초반에 만들어야 할 AE2 아이템 중 하나입니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="meteorite_compass" />

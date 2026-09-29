@@ -33,6 +33,6 @@ ME 입출력 포트는 다음 [업그레이드](upgrade_cards.md)를 지원합�
 *   <ItemLink id="speed_card" />는 작업당 이동량을 늘립니다.
 *   <ItemLink id="redstone_card" />는 강한 신호, 약한 신호 또는 펄스당 한 번 작동하는 레드스톤 제어를 추가합니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="io_port" />

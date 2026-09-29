@@ -18,7 +18,7 @@ navigation:
 
 Applied Energistics 2를 시작하려면 먼저 [운석](ae2-mechanics/meteorites.md)을 찾아야 합니다. 운석은
 제법 흔하고 지형에 커다란 구덩이를 남기므로, 여행 중에 이미 본 적이 있을지도 모릅니다.
-아직 찾지 못했다면 <ItemLink id="meteorite_compass" />를 제작하세요. 이 탐지기는 가장 가까운
+아직 찾지 못했다면 <ItemLink id="meteorite_compass" />을 제작하세요. 이 나침반은 가장 가까운
 <ItemLink id="mysterious_cube" />를 가리킵니다.
 
 운석을 찾았다면 중심부까지 파고 들어가세요. 그곳에서 서투스 석영 군집과 서투스 석영 봉오리,
@@ -71,14 +71,14 @@ Applied Energistics 2를 시작하려면 먼저 [운석](ae2-mechanics/meteorite
 </GameScene>
 
 <ItemLink id="energy_acceptor" />나 <ItemLink id="vibration_chamber" />까지 만들 석영이 부족하다면,
-<ItemLink id="crank" />을 만들어 수정 성장 가속기 끝에 붙일 수 있습니다.
+<ItemLink id="crank" />를 만들어 수정 성장 가속기 끝에 붙일 수 있습니다.
 
 서투스 석영을 자동으로 수확하는 방법은 [여기](example-setups/simple-certus-farm.md)에 설명되어 있습니다.
 
 ## 플루익스 간단히 알아보기
 
 수정 성장 가속기를 만들면서 이미 접했겠지만, 플루익스도 필요한 재료입니다. 충전된 서투스 석영,
-레드스톤, 네더 석영을 물에 던지면 만들 수 있습니다. 이 과정을 자동화하는 방법은 "독자 여러분의
+레드스톤, 네더 석영을 물에 던지면 만들 수 있습니다. 이 과정을 자동화하는 방법은 "독자의
 연습 문제로 남겨 둡니다."
 
 아직 만들지 않았다면 <ItemLink id="charger" />가 필요합니다. 충전기는
@@ -86,7 +86,7 @@ Applied Energistics 2를 시작하려면 먼저 [운석](ae2-mechanics/meteorite
 
 ## 프로세서 회로 인쇄하기
 
-운석의 신비한 큐브를 부쉈다면 네 종류의 "프레스"를 얻었을 것입니다. 이 프레스는
+운석의 신비한 큐브를 부수면 네 종류의 "프레스"를 얻습니다. 이 프레스는
 <ItemLink id="inscriber" />에서 세 종류의 프로세서를 만드는 데 사용합니다.
 
 <ItemGrid>
@@ -107,7 +107,7 @@ Applied Energistics 2를 시작하려면 먼저 [운석](ae2-mechanics/meteorite
 <ItemLink id="certus_quartz_wrench" />로 방향을 돌릴 수 있습니다.
 
 다음 단계인 아주 기초적인 ME 시스템을 준비하도록 각 프로세서를 몇 개씩 만드세요. 프로세서 생산
-자동화는 "[독자 여러분의 연습 문제로 남겨 둡니다](example-setups/processor-automation.md)".
+자동화는 "[독자의 연습 문제로 남겨 둡니다](example-setups/processor-automation.md)".
 
 ## 물질 에너지 기술: ME 네트워크와 저장소
 
@@ -147,16 +147,16 @@ ME는 물질 에너지(Matter Energy)의 약자이며, 영어로는 각 글자�
     * <ItemLink id="drive" /> 1개
     * <ItemLink id="terminal" /> 또는 <ItemLink id="crafting_terminal" /> 1개
     * <ItemLink id="energy_acceptor" /> 1개
-    * [케이블](items-blocks-machines/cables.md) 몇 개. 유리, 피복, 스마트 케이블은 가능하지만 조밀 케이블은 제외
+    * [케이블](items-blocks-machines/cables.md) 몇 개. 유리, 피복, 스마트 케이블은 가능하지만 조밀한 케이블은 제외
     * [저장 셀](items-blocks-machines/storage_cells.md) 몇 개. 용량과 종류 수의 균형이 좋은 4k 등급을 권장합니다.
     4k와 1k 셀을 섞어 [파티션](items-blocks-machines/cell_workbench.md)을 설정하면 더 효율적이지만,
     여기서는 그 복잡한 내용까지 다루지 않습니다.
 ---
 1.  ME 드라이브를 놓습니다.
 2.  에너지 수용기와 일부 AE2 [장치](ae2-mechanics/devices.md)는 정육면체와 평면 형태를 지원합니다.
-    제작 격자에서 두 형태를 서로 바꿀 수 있습니다. 에너지 수용기가 정육면체라면 ME 드라이브 옆에
+    제작 칸에서 두 형태를 서로 바꿀 수 있습니다. 에너지 수용기가 정육면체라면 ME 드라이브 옆에
     놓으세요. 평평한 형태라면 ME 드라이브에 케이블을 놓고 그 케이블에 수용기를 설치하세요.
-3.  원하는 발전 모드의 케이블, 파이프 또는 도관으로 에너지 수용기에 에너지를 공급합니다.
+3.  즐겨 쓰는 에너지 생산 모드의 케이블, 파이프 또는 도관으로 에너지 수용기에 에너지를 공급합니다.
 4.  ME 드라이브 위쪽이나 눈높이에 케이블을 놓고 ME 터미널 또는 ME 제작 터미널을 설치합니다.
 5.  저장 셀을 ME 드라이브에 넣습니다.
 6.  이익을 누립니다.
@@ -166,7 +166,7 @@ ME는 물질 에너지(Matter Energy)의 약자이며, 영어로는 각 글자�
 
 ### 네트워크 확장하기
 
-기초적인 저장소와 접근 수단을 갖췄으니 좋은 출발입니다. 이제 가공 자동화를 시도하고 싶을 것입니다.
+기초적인 저장소와 접근 수단을 갖췄으니 좋은 출발입니다. 이제 가공을 자동화하고 싶어질 겁니다.
 
 좋은 예로, 화로 위쪽에 <ItemLink id="export_bus" />를 설치해 광석을 넣고 화로 아래쪽에
 <ItemLink id="import_bus" />를 설치해 제련된 광물을 꺼낼 수 있습니다.
@@ -176,7 +176,7 @@ ME는 물질 에너지(Matter Energy)의 약자이며, 영어로는 각 글자�
 
 ### 한계 극복하기
 
-이쯤이면 [장치](ae2-mechanics/devices.md)가 8개 정도에 가까워졌을 것입니다. 장치가 9개가 되면
+이쯤이면 [장치](ae2-mechanics/devices.md)가 8개 가까이 됩니다. 장치가 9개가 되면
 [채널](ae2-mechanics/channels.md)을 관리해야 합니다. 모든 장치가 그런 것은 아니지만, 많은 장치가
 작동하려면 채널을 사용합니다.
 

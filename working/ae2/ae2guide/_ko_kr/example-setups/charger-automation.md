@@ -39,7 +39,7 @@ navigation:
 
 ## 설정
 
-* <ItemLink id="pattern_provider" /> (1)는 관련 <ItemLink id="processing_pattern" />을 넣은 기본 설정입니다.
+* <ItemLink id="pattern_provider" /> (1)은 관련 <ItemLink id="processing_pattern" />을 넣은 기본 설정입니다.
   또한 <ItemLink id="charger" />에 [에너지](../ae2-mechanics/energy.md)를 공급합니다.
   [케이블](../items-blocks-machines/cables.md)처럼 작동하기 때문입니다.
 

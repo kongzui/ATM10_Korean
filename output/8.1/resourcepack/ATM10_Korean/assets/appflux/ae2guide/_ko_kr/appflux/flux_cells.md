@@ -48,7 +48,7 @@ item_ids:
   </Row>
 </Column>
 
-ME FE 셀 하우징으로 만드는 ME FE 저장 셀은 Applied Flux에서 전력을 저장하는 기본 수단입니다. 용량은
+ME FE 저장 셀은 Applied Flux에서 전력을 저장하는 기본 수단입니다. 용량은
 [아이템/유체 저장 셀](ae2:items-blocks-machines/storage_cells.md)처럼 바이트를 기준으로 합니다.
 
 # 셀 용량

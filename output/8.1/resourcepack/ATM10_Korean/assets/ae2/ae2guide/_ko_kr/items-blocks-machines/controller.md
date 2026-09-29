@@ -46,6 +46,6 @@ ME 제어기는 [ME 네트워크](../ae2-mechanics/me-network-connections.md)의
 
 제어기를 우클릭하면 <ItemLink id="network_tool" />와 같은 GUI가 열립니다.
 
-## 조합법
+## 제작법
 
 <RecipeFor id="controller" />

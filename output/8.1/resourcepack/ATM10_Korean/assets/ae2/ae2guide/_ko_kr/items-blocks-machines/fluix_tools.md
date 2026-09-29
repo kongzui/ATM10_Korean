@@ -34,7 +34,7 @@ item_ids:
 
 <ItemLink id="fluix_upgrade_smithing_template" />를 만들어야 합니다.
 
-## 조합법
+## 제작법
 
 <Column>
   <Row>

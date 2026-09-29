@@ -27,7 +27,7 @@ ME 고급 패턴 공급기는 일반 <ItemLink id="ae2:pattern_provider" /> 또�
 지정할 수 있게 한 새로운 유형의 장치입니다. 이 강력한 기능을 이용하면 특정 입력을 특정 면으로
 넣어야 하는 기계도 파이프 없이 블록 하나로 자동화할 수 있습니다!
 
-*Mekanism, 바로 당신 말이에요.*
+*Mekanism을 콕 집어 하는 말입니다.*
 
 이 기능을 사용하려면 <ItemLink id="advanced_ae:adv_processing_pattern" />을 삽입해야 합니다. 이 패턴은
 인코딩된 패턴을 <ItemLink id="advanced_ae:adv_pattern_encoder" />에 넣고 고급 버전으로 꺼내 만듭니다.
