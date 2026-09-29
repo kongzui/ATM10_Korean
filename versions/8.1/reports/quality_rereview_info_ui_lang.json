@@ -5,16 +5,21 @@
       "english_keys": 22,
       "translated_keys": 22,
       "keys_without_jar_english": 0,
-      "revised": 9,
-      "kept": 13,
+      "revised": 14,
+      "kept": 8,
       "revised_keys": [
+        "appleskin.configuration.showFoodValuesInTooltip",
         "appleskin.configuration.showFoodValuesInTooltip.tooltip",
+        "appleskin.configuration.showFoodValuesInTooltipAlways",
         "appleskin.configuration.showFoodValuesInTooltipAlways.tooltip",
+        "appleskin.configuration.showFoodValuesHudOverlay",
         "appleskin.configuration.showFoodValuesHudOverlay.tooltip",
         "appleskin.configuration.showFoodValuesHudOverlayWhenOffhand.tooltip",
         "appleskin.configuration.showFoodHealthHudOverlay.tooltip",
+        "appleskin.configuration.showFoodExhaustionHudUnderlay",
         "appleskin.configuration.showFoodExhaustionHudUnderlay.tooltip",
         "appleskin.configuration.showSaturationHudOverlay.tooltip",
+        "appleskin.configuration.showFoodStatsInDebugOverlay",
         "appleskin.configuration.showFoodStatsInDebugOverlay.tooltip",
         "appleskin.configuration.showVanillaAnimationsOverlay.tooltip"
       ]
@@ -23,18 +28,20 @@
       "english_keys": 182,
       "translated_keys": 182,
       "keys_without_jar_english": 0,
-      "revised": 10,
-      "kept": 172,
+      "revised": 12,
+      "kept": 170,
       "revised_keys": [
         "enchantment.minecraft.vanishing_curse.desc",
         "enchantment.shieldsplus.fast_recovery.desc",
         "enchantment.deeperdarker.sculk_smite.desc",
         "enchantment.create_sa.gravity_gun.desc",
+        "enchantment.improved_exp.saturation.desc",
         "enchantment.improved_exp.coldblooded.desc",
         "enchantment.improved_exp.warmblooded.desc",
         "enchantment.improved_exp.gravity.desc",
         "enchantment.improved_exp.telekinesis.desc",
         "enchantment.improved_exp.far_swing.desc",
+        "enchantment.improved_exp.hungry.desc",
         "enchantment.improved_exp.bury.desc"
       ]
     },
@@ -60,8 +67,8 @@
       "english_keys": 1240,
       "translated_keys": 1253,
       "keys_without_jar_english": 13,
-      "revised": 85,
-      "kept": 1168,
+      "revised": 89,
+      "kept": 1164,
       "revised_keys": [
         "tombstone.item.tablet_of_home.desc",
         "tombstone.item.tablet_of_cupidity.desc_not_ancient",
@@ -89,9 +96,11 @@
         "description.effect.minecraft.mining_fatigue",
         "description.effect.minecraft.instant_health",
         "description.effect.minecraft.instant_damage",
+        "description.effect.minecraft.hunger",
         "description.effect.minecraft.saturation",
         "description.effect.minecraft.glowing",
         "description.effect.minecraft.levitation",
+        "enchantment.tombstone.soulbound",
         "tombstone.perk.jailer.bonus",
         "tombstone.perk.glyphographer.bonus",
         "tombstone.perk.shadowalker.desc",
@@ -112,9 +121,11 @@
         "tombstone.advancement.impregnator.desc",
         "tombstone.advancement.master_impregnator.desc",
         "tombstone.advancement.choose_knowledge.desc",
+        "tombstone.advancement.servant_of_rest.title",
         "tombstone.advancement.create_familiar_receptacle.desc",
         "tombstone.advancement.impregnated_receptacle.desc",
         "tombstone.advancement.master_tomb_raider.title",
+        "tombstone.advancement.ambush.desc",
         "tombstone.advancement.command_undead_servant.title",
         "tombstone.advancement.master_of_zombify.title",
         "tombstone.advancement.drink_me_eat_me.desc",
@@ -207,9 +218,11 @@
       "english_keys": 12,
       "translated_keys": 12,
       "keys_without_jar_english": 0,
-      "revised": 0,
-      "kept": 12,
-      "revised_keys": []
+      "revised": 1,
+      "kept": 11,
+      "revised_keys": [
+        "options.confirmReset"
+      ]
     },
     "mousetweaks": {
       "english_keys": 0,
@@ -311,12 +324,13 @@
       "english_keys": 164,
       "translated_keys": 164,
       "keys_without_jar_english": 0,
-      "revised": 46,
-      "kept": 118,
+      "revised": 47,
+      "kept": 117,
       "revised_keys": [
         "app.tempad.settings.default_app.subtitle",
         "app.tempad.settings.organization_method.subtitle",
         "app.tempad.teleport",
+        "block.tempad.workstation_child",
         "error.tempad.owner_mismatch",
         "item.tempad.knowledge_projector.card_overview",
         "item.tempad.knowledge_projector.card_usage_3",
@@ -387,8 +401,8 @@
     }
   },
   "translated_keys": 2443,
-  "revised": 210,
-  "kept": 2233,
+  "revised": 223,
+  "kept": 2220,
   "remaining_style_signals": {
     "tombstone:tombstone.compendium.flying_carpet.desc": [
       "것입니다"

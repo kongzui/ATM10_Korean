@@ -204,16 +204,18 @@
       "english_keys": 89,
       "translated_keys": 89,
       "keys_without_jar_english": 0,
-      "revised": 7,
-      "kept": 82,
+      "revised": 9,
+      "kept": 80,
       "revised_keys": [
         "ftbultimine.info.cooldown",
         "ftbultimine.client_settings.general.shape_feedback_hotbar_message",
         "ftbultimine.client_settings.general.shape_feedback_hotbar_message.tooltip",
+        "ftbultimine.server_settings.costs_limits.exhaustion_per_block",
         "ftbultimine.server_settings.costs_limits.experience_per_block.tooltip",
         "ftbultimine.server_settings.costs_limits.ultimine_cooldown",
         "ftbultimine.server_settings.costs_limits.ultimine_cooldown.tooltip",
-        "ftbultimine.modifier.cooldown"
+        "ftbultimine.modifier.cooldown",
+        "ftbultimine.modifier.exhaustion"
       ]
     },
     "ftbessentials": {
@@ -239,14 +241,17 @@
       "english_keys": 65,
       "translated_keys": 65,
       "keys_without_jar_english": 0,
-      "revised": 0,
-      "kept": 65,
-      "revised_keys": []
+      "revised": 2,
+      "kept": 63,
+      "revised_keys": [
+        "filter.ftbfiltersystem.food_value.name",
+        "filter.ftbfiltersystem.food_value.tooltip"
+      ]
     }
   },
   "translated_keys": 2197,
-  "revised": 171,
-  "kept": 2026,
+  "revised": 175,
+  "kept": 2022,
   "remaining_style_signals": {
     "ftbquests:commands.ftbquests.command.feedback.reloaded.disclaimer": [
       "를 위한"

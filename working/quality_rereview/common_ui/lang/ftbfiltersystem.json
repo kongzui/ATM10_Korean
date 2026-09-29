@@ -1,0 +1,4 @@
+{
+  "filter.ftbfiltersystem.food_value.name": "배고픔 회복량",
+  "filter.ftbfiltersystem.food_value.tooltip": "영양가(회복되는 배고픔 반 칸 수)를 기준으로 아이템을 비교합니다.\n음식이 아닌 아이템의 영양가는 0입니다."
+}

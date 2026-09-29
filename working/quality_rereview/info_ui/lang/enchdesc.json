@@ -8,5 +8,7 @@
   "enchantment.improved_exp.gravity.desc": "블록을 우클릭하면 주변 엔티티를 끌어당깁니다.",
   "enchantment.improved_exp.telekinesis.desc": "엔티티를 바라보면 사용자 쪽으로 끌어당깁니다.",
   "enchantment.improved_exp.far_swing.desc": "공격이 주변의 모든 엔티티에게 적중합니다.",
-  "enchantment.improved_exp.bury.desc": "엔티티를 공격하면 땅속으로 밀어 넣습니다."
+  "enchantment.improved_exp.bury.desc": "엔티티를 공격하면 땅속으로 밀어 넣습니다.",
+  "enchantment.improved_exp.saturation.desc": "배고픔와 포만도를 회복합니다.",
+  "enchantment.improved_exp.hungry.desc": "착용자의 배고픔와 포만도가 계속 줄어듭니다."
 }

@@ -41,9 +41,7 @@
     ]
   },
   "kubejs_files": [],
-  "reviewed_without_change": [
-    "ftbfiltersystem"
-  ],
+  "reviewed_without_change": [],
   "deferred_namespaces": [
     "journeymap",
     "curios",

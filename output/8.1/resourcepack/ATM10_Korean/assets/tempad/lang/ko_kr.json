@@ -38,7 +38,7 @@
   "block.tempad.timedoor_projector": "시간 문 투사기",
   "block.tempad.workstation": "작업대",
   "block.tempad.workstation.installing": "설치 중: %s",
-  "block.tempad.workstation_child": "작업대 보조 장치",
+  "block.tempad.workstation_child": "작업대 터미널",
   "datapack.tempad.required_location_upgrade": "위치 저장을 위해 업그레이드 필요",
   "error.tempad.block_locked": "%s 장치가 잠겨 있습니다",
   "error.tempad.owner_mismatch": "이 아이템은 다른 사람 소유입니다. 소유자에게 돌려주거나 아이템을 초기화하세요.",

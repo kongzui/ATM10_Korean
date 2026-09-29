@@ -5,5 +5,7 @@
   "ftbultimine.info.cooldown": "쿨타임 중",
   "ftbultimine.server_settings.costs_limits.ultimine_cooldown": "Ultimine 쿨타임(틱)",
   "ftbultimine.server_settings.costs_limits.ultimine_cooldown.tooltip": "Ultimine을 연속으로 사용할 때 적용되는 쿨타임입니다.\n20틱 = 1초\nFTB Ranks가 설치되어 있고 'ftbultimine.ultimine_cooldown' 노드가 있으면 그 값이 우선합니다.",
-  "ftbultimine.modifier.cooldown": "FTB Ultimine 쿨타임(틱)"
+  "ftbultimine.modifier.cooldown": "FTB Ultimine 쿨타임(틱)",
+  "ftbultimine.server_settings.costs_limits.exhaustion_per_block": "채굴 블록당 배고픔 소모 배수",
+  "ftbultimine.modifier.exhaustion": "FTB Ultimine 배고픔 소모량"
 }

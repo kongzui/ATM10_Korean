@@ -44,5 +44,6 @@
   "item.tempad.knowledge_projector.time_twister_usage_2": "선택한 지점에서 다른 차원으로 이동해야 한다면 현재 차원을 떠나 새 차원에 도착하는 과정이 시간 왜곡기에 새 항목으로 나타납니다. 이 때문에 미래 항목이 제대로 삭제되지 않은 것처럼 보일 수 있지만, 사실은 사용자가 잘 살펴보지 않은 탓입니다.",
   "item.tempad.knowledge_projector.time_twister_usage_3": "시간선 사건을 더 세밀하게 확인하려면 시간 왜곡기를 %s에 도킹하여 여행 시간선 앱을 사용할 수 있습니다. 인벤토리에서 시간 왜곡기로 %s를 우클릭하거나, %s로 시간 왜곡기를 우클릭하면 도킹됩니다. 이렇게 하면 시간 왜곡기가 인벤토리 슬롯을 따로 차지하지 않는 장점도 있습니다.",
   "item.tempad.knowledge_projector.wallet_usage_3": "한 번에 카드 지갑 하나만 사용자의 %s에 위치를 제공할 수 있습니다. 우선순위는 Curios 슬롯, 왼쪽에서 오른쪽 순서의 단축 바, 왼쪽 위에서 오른쪽 아래 순서의 인벤토리입니다.",
-  "item.tempad.knowledge_projector.workstation_usage_2": "도킹 패드에 %s 아이템이 도킹되면 왼쪽 터미널도 잠금 해제되어 고정식 순간이동 장치를 설정할 수 있습니다. 작업대는 어느 면에서든 레드스톤 신호를 받아 사용자에게 시간 문을 만들어 준다는 점에서 %s와 비슷합니다."
+  "item.tempad.knowledge_projector.workstation_usage_2": "도킹 패드에 %s 아이템이 도킹되면 왼쪽 터미널도 잠금 해제되어 고정식 순간이동 장치를 설정할 수 있습니다. 작업대는 어느 면에서든 레드스톤 신호를 받아 사용자에게 시간 문을 만들어 준다는 점에서 %s와 비슷합니다.",
+  "block.tempad.workstation_child": "작업대 터미널"
 }
