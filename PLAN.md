@@ -4,6 +4,11 @@
 이번 요청은 계획의 순서대로 이미 번역된 계열을 다시 검수하는 작업이에요. 계열 하나가 끝날 때마다
 검증·커밋·적용하고 계획의 진행 현황을 갱신해요. 신규 번역과 보조 번역 코드는 범위 밖이에요.
 
+3순위부터는 Opus 오케스트레이터와 Sonnet 워커 분업으로 진행해요. 준비·배정·검토 순서와 노하우는
+[재검수 계획의 분업 진행](docs/QUALITY_REREVIEW_PLAN.md), 워커 지시문은
+[REREVIEW_WORKER_BRIEF.md](docs/REREVIEW_WORKER_BRIEF.md), 대조 자료 도구는
+`scripts/rereview_worker_kit.py`예요.
+
 ## 재검수 2순위 2부 · 지도·장신구·웨이스톤·나침반 · 8.1-stable.11
 
 - [x] Opus 오케스트레이터·Sonnet 워커 2개 분업 시험 운영으로 언어 5개 2,644키 검토, 177키 수정.
