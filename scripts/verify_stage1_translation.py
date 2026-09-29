@@ -43,9 +43,10 @@ RELEASE_MODS = {
     "8.1-stable.8": ("auroral", "neovitae"),
     "8.1-stable.9": ("auroral", "neovitae"),
     "8.1-stable.10": ("auroral", "neovitae"),
+    "8.1-stable.11": ("auroral", "neovitae"),
 }
 # 품질 재검수 계열을 누적한 배포예요. 새 재검수 배포를 추가할 때 함께 늘려요.
-QUALITY_REREVIEW_RELEASES = {"8.1-stable.8", "8.1-stable.9", "8.1-stable.10"}
+QUALITY_REREVIEW_RELEASES = {"8.1-stable.8", "8.1-stable.9", "8.1-stable.10", "8.1-stable.11"}
 CHAPTERS = {"auroral": "auroral", "neovitae": "neo_vitae"}
 PACK = "resourcepack/ATM10_Korean"
 QUEST_ROOT = "config/ftbquests/quests"

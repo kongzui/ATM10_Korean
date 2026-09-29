@@ -288,7 +288,7 @@ Mekanism 1,821키, Twilight Forest 1,764키, JourneyMap 1,371키, Mahou Tsukai 1
 
 | 단계 | 계열 순위 | 상태 |
 |---|---|---|
-| A | 1~6 | 1 완료(stable.8), 2 1부 완료(stable.9)·2부 미착수, 3~6 미착수 |
+| A | 1~6 | 1 완료(stable.8), 2 완료(1부 stable.9, 2부 stable.11), 3~6 미착수 |
 | 후속 | 1·2순위 용어 교체 | 완료(stable.10). `솔라리움`만 Ender IO 계열 때 교체 |
 | B | 7~17 | 미착수 |
 | C | 18~30 | 미착수 |
@@ -302,6 +302,7 @@ Mekanism 1,821키, Twilight Forest 1,764키, JourneyMap 1,371키, Mahou Tsukai 1
 | 1 | 팩 공통 진행 퀘스트 | 퀘스트 2,023키, 언어 67키, KubeJS 6파일 | 퀘스트 575, 언어 3, KubeJS 8줄 | 퀘스트 1,448, 언어 64 | 8.1-stable.8 | [보고](../versions/8.1/reports/quality_rereview_pack_progress.md) |
 | 2 (1부) | 공통 UI: JEI·Jade·FTB 6종 | 언어 8개 2,197키 | 언어 142 | 언어 2,055 | 8.1-stable.9 | [보고](../versions/8.1/reports/quality_rereview_common_ui.md) |
 | 1·2 후속 | 용어 기준 교체 | 범위 파일의 해당 표현 141곳 | 퀘스트 34, 언어 68, KubeJS 3줄 | 나머지 | 8.1-stable.10 | [보고](../versions/8.1/reports/quality_rereview_term_pass.md) |
+| 2 (2부) | 공통 UI: 지도·장신구·웨이스톤·나침반 | 언어 5개 2,644키 | 언어 177 | 언어 2,467 | 8.1-stable.11 | [보고](../versions/8.1/reports/quality_rereview_common_ui_2.md) |
 
 계열 작업 자료는 `working/quality_rereview/<계열>/`에 두고, 퀘스트 수정본은
 `scripts/quality_rereview_quests.py <계열> --write-output`으로 산출물과 8.1 수동 검수 목록에

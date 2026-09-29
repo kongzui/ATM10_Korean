@@ -1,0 +1,115 @@
+{
+  "applied_at": "2026-09-29T18:41:42",
+  "status": "applied_and_verified",
+  "configured_targets": [
+    "game_root"
+  ],
+  "game_root_configured": true,
+  "java_processes": [],
+  "version_guard": {
+    "status": "scoped_rebase_apply",
+    "active_pack_version": "8.1",
+    "baseline_pack_version": "7.1",
+    "active_output_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1",
+    "output_validated_pack_version": "8.1",
+    "output_rebase_target_version": null,
+    "full_apply_allowed": true,
+    "target_versions": {
+      "game_root": "8.1"
+    }
+  },
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+      "status": "applied_and_verified",
+      "backup_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_184136_814236\\game_root",
+      "changed_paths": [
+        "resourcepacks/ATM10_Korean/assets/curios/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/explorerscompass/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/journeymap/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/naturescompass/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/waystones/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/pack.mcmeta"
+      ],
+      "files": [
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/curios/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\curios\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\curios\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "92a3da1de8ddf6d36687c189643b87baf8323ae3320bf13a66c8b48b8f02b06d",
+          "before_sha256": "c03f911b093fa875b471ac943257070953461d5a8b745567ff26f1272ce88821",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_184136_814236\\game_root\\resourcepacks\\ATM10_Korean\\assets\\curios\\lang\\ko_kr.json",
+          "after_sha256": "92a3da1de8ddf6d36687c189643b87baf8323ae3320bf13a66c8b48b8f02b06d"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/explorerscompass/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\explorerscompass\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\explorerscompass\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "029cfdb925223446ec24cfed873ac7b2e084829b4922f582d3e7b1d10a5eff1f",
+          "before_sha256": "4c1ace060bde9863152c8197dfe447d9cc8de43f348f8f0029d32cf64a322409",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_184136_814236\\game_root\\resourcepacks\\ATM10_Korean\\assets\\explorerscompass\\lang\\ko_kr.json",
+          "after_sha256": "029cfdb925223446ec24cfed873ac7b2e084829b4922f582d3e7b1d10a5eff1f"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/journeymap/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\journeymap\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\journeymap\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "ece66d90dd3429c9c8fd34294be17b38a71a79c71742f0b77ad1f38a293d3f21",
+          "before_sha256": "e4c700ae0f1131a3ad95ee4fb91ba05a02da5b8e679199257d840a5cc7c7f0ba",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_184136_814236\\game_root\\resourcepacks\\ATM10_Korean\\assets\\journeymap\\lang\\ko_kr.json",
+          "after_sha256": "ece66d90dd3429c9c8fd34294be17b38a71a79c71742f0b77ad1f38a293d3f21"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/naturescompass/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\naturescompass\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\naturescompass\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "fb8f1a10dec5dcd3cf51a79e75453c8a63277dff4c8b7c63db7e9d9057bbc724",
+          "before_sha256": "3623a715fc699d1881e2b2efd1ba57d4294deb816cda5901846cc00df7ee12fc",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_184136_814236\\game_root\\resourcepacks\\ATM10_Korean\\assets\\naturescompass\\lang\\ko_kr.json",
+          "after_sha256": "fb8f1a10dec5dcd3cf51a79e75453c8a63277dff4c8b7c63db7e9d9057bbc724"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/waystones/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\waystones\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\waystones\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "a62342321c7425bcc2ba9a3dca9ace649fa31125d2116ac5484b69b8d83d4a9e",
+          "before_sha256": "8dd701bb69bfe1ebfb4a311b4523c783afcfbc470ab4bf2c6a8e6e5e18318d66",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_184136_814236\\game_root\\resourcepacks\\ATM10_Korean\\assets\\waystones\\lang\\ko_kr.json",
+          "after_sha256": "a62342321c7425bcc2ba9a3dca9ace649fa31125d2116ac5484b69b8d83d4a9e"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/pack.mcmeta",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\pack.mcmeta",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "ec7db45b6fa019717ff40c1e79efc086d767921d160e48170030d7c5525c8c64",
+          "before_sha256": "e43e1657e246c6c2cfb6200f85946156eec1fa87d84ec7baabc77e40eaad40c6",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_184136_814236\\game_root\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "after_sha256": "ec7db45b6fa019717ff40c1e79efc086d767921d160e48170030d7c5525c8c64"
+        }
+      ],
+      "unexpected_changes": []
+    }
+  ],
+  "backup_manifest": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260929_184136_814236\\backup_manifest.json",
+  "options_unchanged": true,
+  "resourcepacks_selection_preserved": {
+    "game_root": [
+      "resourcePacks:[\"modularbees:dynamic_assets\",\"vanilla\",\"mod_resources\",\"add_xycraft_overrides_stone\",\"add_xycraft_overrides_metal\",\"add_xycraft_overrides_glass\",\"moonlight:merged_pack\",\"neovitae_materials\",\"mod/towntalk:respack\",\"mod/eternal_starlight:resourcepacks/starlight_3d_mace\",\"mod/dyenamicsandfriends:compat_packs/productivemetalworks/\",\"mod/dyenamicsandfriends:compat_packs/connectedglass/\",\"mod/dyenamicsandfriends:compat_packs/luminax/\",\"mod/dyenamicsandfriends:compat_packs/cookingforblockheads/\",\"mod/dyenamicsandfriends:compat_packs/botanypots/\",\"mod/dyenamicsandfriends:compat_packs/chromacarvings/\",\"modern_industrialization/generated\",\"file/ATM10_Korean_8.1-stable.7_resourcepack.zip\"]",
+      "lang:ko_kr"
+    ]
+  },
+  "activation_note": "공통 UI 2부 언어 파일과 폴더팩 pack.mcmeta만 선택 적용했어요. 게임 화면 확인과 팩 활성화 상태 확인은 별도예요."
+}

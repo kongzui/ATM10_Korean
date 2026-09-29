@@ -167,6 +167,16 @@
   2순위 1부 언어 68키에 반영했어요. 신규 번역은 없어요.
 - 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
 - 게임 종료 상태에서 17파일만 선택 적용했고 예상 밖 변경은 없었어요. 표시 경로 감사 4개를 갱신했어요.
-- [용어 교체 보고](quality_rereview_term_pass.md), [배포 안내](../../../docs/releases/8.1-stable.10.md),
+- [용어 교체 보고](quality_rereview_term_pass.md), [배포 안내](../../../docs/archive/releases/8.1-stable.10.md),
   [패키지 목록](../manifests/8.1-stable.10_packages.json)에 근거를 남겨요.
 - 실제 게임 화면은 미검증이에요. 다음은 2순위 2부(JourneyMap·Curios·Waystones·나침반)예요.
+
+## 2026-09-29 · 품질 재검수 2순위 2부 누적 stable.11
+
+- JourneyMap·Curios·Waystones·Nature's Compass·Explorer's Compass 언어 2,644키를 다시 대조해 177키를
+  고치고 2,467키를 유지했어요. Opus·Sonnet 분업 시험 운영으로 진행했고 신규 번역은 없어요.
+- 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
+- 게임 종료 상태에서 언어 5파일과 pack.mcmeta만 선택 적용했고 예상 밖 변경은 없었어요.
+- [재검수 보고](quality_rereview_common_ui_2.md), [배포 안내](../../../docs/releases/8.1-stable.11.md),
+  [패키지 목록](../manifests/8.1-stable.11_packages.json)에 근거를 남겨요.
+- 실제 게임 화면은 미검증이에요. 다음은 3순위 Sophisticated 계열이에요.

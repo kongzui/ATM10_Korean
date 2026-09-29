@@ -1,0 +1,35 @@
+{
+  "family": "항상 보는 공통 UI 2부(지도·장신구·웨이스톤·나침반)",
+  "rank": 2,
+  "status": "completed",
+  "baseline_commit": "4d767ab",
+  "quest_files": [],
+  "language_namespaces": [
+    "journeymap",
+    "curios",
+    "waystones",
+    "naturescompass",
+    "explorerscompass"
+  ],
+  "language_sources": {
+    "journeymap": [
+      "working/common_ui/map_team/journeymap/ko_kr.json"
+    ],
+    "curios": [
+      "working/common_ui/curios_effects/curios/ko_kr.json"
+    ],
+    "waystones": [
+      "working/waystones/ko_kr.json",
+      "working/common_ui/compass/waystones/ko_kr.json"
+    ],
+    "naturescompass": [
+      "working/common_ui/compass/naturescompass/ko_kr.json"
+    ],
+    "explorerscompass": [
+      "working/common_ui/compass/explorerscompass/ko_kr.json",
+      "working/common_ui/compass/explorerscompass/structure_overrides.json",
+      "working/common_ui/compass/explorerscompass/structure_fallbacks.json"
+    ]
+  },
+  "kubejs_files": []
+}

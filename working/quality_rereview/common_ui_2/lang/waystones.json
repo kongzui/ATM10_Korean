@@ -1,0 +1,23 @@
+{
+  "waystones.groups.global": "전체 공개 웨이스톤",
+  "chat.waystones.waystone_missing": "순간이동하려던 웨이스톤이 옮겨지는 중이거나 사라졌습니다.",
+  "tooltip.waystones.cooldown_left": "쿨타임: %d초",
+  "commands.waystones.cooldown.reset.all.success.single": "%s 님의 모든 쿨타임을 초기화했습니다.",
+  "commands.waystones.cooldown.reset.all.success.multiple": "플레이어 %d명의 모든 쿨타임을 초기화했습니다.",
+  "commands.waystones.cooldown.reset.success.single": "쿨타임 '%s'을(를) 초기화했습니다: %s 님",
+  "commands.waystones.cooldown.reset.success.multiple": "쿨타임 '%s'을(를) 초기화했습니다: 플레이어 %d명",
+  "commands.waystones.twinbound.success": "%s 님과 %s 님의 쌍둥이 결속 깃털을 연결했습니다",
+  "commands.waystones.twinbound.already_linked": "%s 님과 %s 님은 이미 쌍둥이 결속 깃털로 연결되어 있습니다",
+  "commands.waystones.twinbound.no_space": "%s 님의 인벤토리에 쌍둥이 결속 깃털을 넣을 빈 슬롯이 필요합니다",
+  "waystones.configuration.general.allowEveryoneToManageGlobalWaystones": "모든 플레이어의 전체 공개 웨이스톤 관리 허용",
+  "waystones.configuration.general.allowEveryoneToManageGlobalWaystones.tooltip": "true로 설정하면 모든 플레이어가 전체 공개 웨이스톤을 관리할 수 있습니다.",
+  "waystones.configuration.general.warpPlateCooldownTime": "워프 플레이트 쿨타임",
+  "waystones.configuration.teleports.enableCooldowns": "쿨타임 사용",
+  "waystones.configuration.teleports.enableCooldowns.tooltip": "모든 쿨타임을 끄려면 false로 설정하세요. 더 세밀하게 제어하려면 warpRequirements를 참조하세요.",
+  "waystones.configuration.teleports.entityDenyList": "엔티티 차단 목록",
+  "waystones.configuration.teleports.entityDenyList.tooltip": "반려동물이나 목줄에 묶인 몹으로 따라오거나 워프 플레이트를 이용해 순간이동할 수 없는 엔티티 목록입니다.",
+  "waystones.configuration.worldGen.wildWaystoneStyle.tooltip": "일반 질감의 웨이스톤만 생성하려면 'DEFAULT'로 설정하세요. 모두 한 변형으로 생성하려면 'MOSSY' 또는 'SANDY'로 설정하세요. 생성되는 생물 군계에 따라 모양을 정하려면 'BIOME'으로 설정하세요.",
+  "waystones.configuration.worldGen.wildWaystonesDimensionAllowList.tooltip": "야생 웨이스톤을 생성할 수 있는 차원 목록입니다. 비어 있으면 wildWaystonesDimensionDenyList에 없는 모든 차원에서 `has_structure/waystone` 태그의 생물 군계에 웨이스톤을 생성할 수 있습니다.",
+  "waystones.configuration.worldGen.wildWaystonesDimensionDenyList.tooltip": "생물 군계가 `has_structure/waystone` 태그에 있어도 야생 웨이스톤을 생성할 수 없는 차원 목록입니다. wildWaystonesDimensionAllowList가 비어 있을 때만 사용합니다.",
+  "waystones.configuration.worldGen.nameGenerationTemplate.tooltip": "새 이름을 만들 때 사용할 템플릿입니다. {Biome}은 영어 생물 군계 이름, {MrPork}는 기본 이름 생성기를 뜻합니다."
+}

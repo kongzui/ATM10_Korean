@@ -7,6 +7,12 @@
       "kubejs_files": 0,
       "guide_files": 0
     },
+    "quality_rereview_common_ui_2": {
+      "language_keys": 2644,
+      "quest_keys": 0,
+      "kubejs_files": 0,
+      "guide_files": 0
+    },
     "quality_rereview_pack_progress": {
       "language_keys": 13,
       "quest_keys": 2023,
@@ -20,11 +26,17 @@
     "output/resourcepack/ATM10_Korean/assets/jade/lang/ko_kr.json": "03c54c5869d040cc87611ee84f37549b2686abbb8eaf71e37ee1f7e297988dad",
     "output/resourcepack/ATM10_Korean/assets/ftbquests/lang/ko_kr.json": "2e5608786078155fe6039cf53a0517f57fa43de272d1531a66f9f808e98d56e8",
     "output/resourcepack/ATM10_Korean/assets/ftbchunks/lang/ko_kr.json": "f0f1ca912a84214125c6266e3c7d454bd7d45550e682f2a87c80a4adc5ba899d",
-    "output/resourcepack/ATM10_Korean/assets/ftbteams/lang/ko_kr.json": "dd6579c977cadbbb687769ce9d17f8067e198ca5156e5602fb0f8bd80c83ee34",
+    "output/resourcepack/ATM10_Korean/assets/ftbteams/lang/ko_kr.json": "40ee9c8eced831e72af3350db85b9020a39f02f64dd7f93a3a2f5a0e742b2660",
     "output/resourcepack/ATM10_Korean/assets/ftbultimine/lang/ko_kr.json": "c1b46f63733c939220f19ceecf08f8c5d352935c76099eceb444de3f0520215f",
     "output/resourcepack/ATM10_Korean/assets/ftbessentials/lang/ko_kr.json": "3c39df6e5c746eaf36dd86f00a76b256dcb1ba207be5bc4fad33482210240c41",
     "output/resourcepack/ATM10_Korean/assets/ftbfiltersystem/lang/ko_kr.json": "dc553f8159f74f5abed16eff33407ea0e4a15113d0dac481a1a6a7464f32dec1",
     "project/working/quality_rereview/common_ui/scope.json": "c2e6ea32a462b31aa79c4b476ab07022a03449525326ad6d98cacecb70262617",
+    "output/resourcepack/ATM10_Korean/assets/journeymap/lang/ko_kr.json": "ece66d90dd3429c9c8fd34294be17b38a71a79c71742f0b77ad1f38a293d3f21",
+    "output/resourcepack/ATM10_Korean/assets/curios/lang/ko_kr.json": "92a3da1de8ddf6d36687c189643b87baf8323ae3320bf13a66c8b48b8f02b06d",
+    "output/resourcepack/ATM10_Korean/assets/waystones/lang/ko_kr.json": "a62342321c7425bcc2ba9a3dca9ace649fa31125d2116ac5484b69b8d83d4a9e",
+    "output/resourcepack/ATM10_Korean/assets/naturescompass/lang/ko_kr.json": "fb8f1a10dec5dcd3cf51a79e75453c8a63277dff4c8b7c63db7e9d9057bbc724",
+    "output/resourcepack/ATM10_Korean/assets/explorerscompass/lang/ko_kr.json": "029cfdb925223446ec24cfed873ac7b2e084829b4922f582d3e7b1d10a5eff1f",
+    "project/working/quality_rereview/common_ui_2/scope.json": "8fdc46dfbddc907c7dc83da5ace3683a914080ba4f094534e97819fbe3afb3dd",
     "project/working/quality_rereview/pack_progress/quests/chapter.json": "231b52f1d0f3c11da4aa9a010b72a4e04e4160fb3046856b6b3f2d5a3ab44b9d",
     "instance/config/ftbquests/quests/lang/en_us/chapter.snbt_merged": "6f7651123dc99df4d4cea36ff39a4f9d18bbe2f651d8250f61f60070795e47ef",
     "output/overrides/config/ftbquests/quests/lang/ko_kr/chapter.snbt": "4300d66c7605bfd5bb492d836e27afec10288b69a1fd7931fbf46344864c858f",

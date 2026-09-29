@@ -1,0 +1,6 @@
+{
+  "argument.entity.options.curios.description": "엔티티의 Curios 인벤토리",
+  "gui.curios.toggle.cosmetics": "치장용 슬롯 표시 전환",
+  "curios.identifier.an_focus": "주문 포커스",
+  "curios.modifiers.an_focus": "주문 포커스 슬롯에 장착했을 때:"
+}
