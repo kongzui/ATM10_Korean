@@ -1,0 +1,16 @@
+{
+  "item.bhc.red_heart_patch": "빨간색 체력 패치",
+  "bhc.configuration.redPatchCooldown": "빨간색 패치 쿨타임",
+  "item.bhc.yellow_heart_patch": "노란색 체력 패치",
+  "bhc.configuration.yellowPatchCooldown": "노란색 패치 쿨타임",
+  "item.bhc.green_heart_patch": "초록색 체력 패치",
+  "bhc.configuration.greenPatchCooldown": "초록색 패치 쿨타임",
+  "item.bhc.blue_heart_patch": "파란색 체력 패치",
+  "bhc.configuration.bluePatchCooldown": "파란색 패치 쿨타임",
+  "bhc.configuration.allowStartingHealthTweaks": "시작 체력 조정 허용",
+  "bhc.configuration.startingHealth": "시작 체력",
+  "tooltip.bhc.patch_amount": "회복량: %s",
+  "tooltip.bhc.patch_durability": "남은 사용 횟수: %s",
+  "tooltip.bhc.heart_drops": "드롭하는 몹:",
+  "message.bhc.soul_heart_used": "영혼 하트를 소모했습니다!"
+}

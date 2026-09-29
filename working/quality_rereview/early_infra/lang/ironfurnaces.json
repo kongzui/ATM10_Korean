@@ -1,0 +1,9 @@
+{
+  "tooltip.ironfurnaces.xmas1": "그런데 포장지에 불이 붙지 않겠습니까?",
+  "tooltip.ironfurnaces.spooky1": "나에겐 너무 으스스합니다",
+  "tooltip.ironfurnaces.cooktime": "처리 시간",
+  "tooltip.ironfurnaces.augment_speed_pro": "+모든 제작법의 처리 시간이 절반으로 줄어듭니다.",
+  "tooltip.ironfurnaces.augment_smoking": "훈연기 제작법만 처리할 수 있습니다.",
+  "tooltip.ironfurnaces.augment_blasting": "용광로 제작법만 처리할 수 있습니다.",
+  "tooltip.ironfurnaces.augment_fuel_con": "-모든 제작법의 처리 시간이 25% 늘어납니다."
+}

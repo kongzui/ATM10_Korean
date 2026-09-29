@@ -9,6 +9,15 @@
 [REREVIEW_WORKER_BRIEF.md](docs/REREVIEW_WORKER_BRIEF.md), 대조 자료 도구는
 `scripts/rereview_worker_kit.py`예요.
 
+## 재검수 5순위 · 초반 기반 도구·기계·물류 · 8.1-stable.14
+
+- [x] 보류 용어 5개와 1~4순위 불확실 항목 확정, 앞선 계열 62키 반영([결정 보고](versions/8.1/reports/quality_rereview_term_decisions.md)).
+- [x] Sonnet 워커 2개로 20개 모드 1,769키 검토, 126키 수정. 1순위 퀘스트 5키 보정.
+- [x] 재검수·누적 전체 검증, stable.14 ZIP 두 개 생성, 게임 종료 상태에서 29파일 선택 적용.
+- [ ] Building Gadgets 2·Energy Meter 가이드 재검수, 게임 화면 확인.
+
+[재검수 보고](versions/8.1/reports/quality_rereview_early_infra.md). 다음 계열은 6순위 Allthemodium·ATM 광물이에요.
+
 ## 재검수 4순위 · 인벤토리·정보·가이드 UI · 8.1-stable.13
 
 - [x] Sonnet 워커 2개 병렬로 20개 모드 2,443키 검토, 210키 수정(오케스트레이터 보정·추가 9키 포함).
@@ -16,7 +25,7 @@
 - [x] 재검수·누적 전체 검증, stable.13 ZIP 두 개 생성, 게임 종료 상태에서 15파일 선택 적용.
 - [ ] 보고서의 남은 확인 항목과 게임 화면 확인.
 
-[재검수 보고](versions/8.1/reports/quality_rereview_info_ui.md). 다음 계열은 5순위 초반 기반 도구·기계·물류예요.
+[재검수 보고](versions/8.1/reports/quality_rereview_info_ui.md). 다음 계열은 5순위 초반 기반 도구·기계·물류였어요.
 
 ## 재검수 3순위 · Sophisticated 계열 · 8.1-stable.12
 

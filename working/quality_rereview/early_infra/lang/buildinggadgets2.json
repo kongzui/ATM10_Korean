@@ -1,0 +1,10 @@
+{
+  "buildinggadgets2.messages.anchorset": "기준점을 설정했습니다: ",
+  "buildinggadgets2.messages.bindfailed": "연결하지 못했습니다: 잘못된 블록입니다",
+  "buildinggadgets2.messages.bindsuccess": "%s에 연결했습니다",
+  "buildinggadgets2.messages.range_set": "범위를 설정했습니다: %d",
+  "buildinggadgets2.messages.relativepaste": "상대 좌표 붙여넣기를 설정했습니다: [%s]",
+  "buildinggadgets2.messages.render_set": "표시 방식을 설정했습니다: %s",
+  "buildinggadgets2.messages.undofailedunloaded": "실행 취소에 실패했습니다: 청크가 로드되지 않았습니다(너무 멀리 있음): %s",
+  "buildinggadgets2.messages.redprintgivefail": "레드프린트 %s을(를) %s에게 주지 못했습니다"
+}

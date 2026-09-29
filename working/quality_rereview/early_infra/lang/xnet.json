@@ -1,0 +1,9 @@
+{
+  "message.xnet.router.header": "이 블록으로 여러 채널(제어기)을 연결할 수 있습니다",
+  "xnet.energy.minmax.tooltip.formatted": "%s 비활성화:|에너지 조건: 너무 %s",
+  "xnet.fluid.minmax.tooltip.formatted": "%s 비활성화:|유체 조건: 너무 %s",
+  "xnet.item.count.tooltip.formatted": "%s 비활성화:|대상 인벤토리 아이템 수: 너무 %s",
+  "xnet.fluid.rate.tooltip.formatted": "유체 %s 속도|(최대 %d mB)",
+  "xnet.enum.logic.sensormode.fluid.tooltip": "연결된 블록의|유체 양을 감지합니다(mB)",
+  "xnet.logic.impulseMode.tooltip": "켜면 연결기가 일정한 신호 대신|짧은 임펄스를 출력합니다"
+}

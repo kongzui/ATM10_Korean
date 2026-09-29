@@ -1,0 +1,12 @@
+{
+  "config.jade.plugin_functionalstorage.armory": "Functional Storage 장비 보관함",
+  "configurationtool.configmode.indicator.mode_2": "가득 찼을 때만 진행 막대 표시",
+  "configurationtool.configmode.indicator.mode_3": "가득 찼을 때만 배경 없이 진행 막대 표시",
+  "drawer.block.upgrades.is_void": "제거",
+  "drawer_upgrade.functionalstorage.void.fluid": "초과한 유체를 제거합니다",
+  "drawer_upgrade.functionalstorage.void.item": "초과한 아이템을 제거합니다",
+  "functionalupgrade.desc.generate_fluid": "%s mB의 %s를 생성합니다",
+  "item.functionalstorage.void_upgrade": "제거 업그레이드",
+  "linkingtool.ender.clear": "빈 공간에서 웅크린 채 우클릭하면 주파수를 지웁니다.",
+  "linkingtool.use": "* 빈 공간에서 웅크린 채 우클릭하면 모드를 바꾸거나 주파수를 지웁니다. \n* 엔더 서랍을 좌클릭하면 주파수를 저장합니다. \n* 빈 공간에서 우클릭하면 동작을 바꿉니다. \n\n컨트롤러를 우클릭하여 도구를 설정한 다음 근처 서랍에 사용하여 연결합니다. \n\n도구를 들고 있는 동안 선택한 컨트롤러에 연결된 서랍이 표시됩니다."
+}

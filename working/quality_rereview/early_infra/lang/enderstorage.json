@@ -1,0 +1,5 @@
+{
+  "enderstorage.command.no_colour": "잘못된 색상입니다: %s",
+  "enderstorage.command.no_freq": "잘못된 주파수입니다.",
+  "enderstorage.serverop": "OP"
+}

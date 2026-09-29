@@ -107,7 +107,10 @@ def main() -> int:
         writes[output_path] = updated
         for source in sources.get(namespace, []):
             source_path = PROJECT_ROOT / source
-            source_data = json.loads(source_path.read_text(encoding="utf-8"))
+            # 여러 네임스페이스가 공유하는 작업 원본은 앞선 수정이 사라지지 않게 이어서 고쳐요.
+            source_data = writes.get(source_path) or json.loads(
+                source_path.read_text(encoding="utf-8")
+            )
             for key, value in revisions.items():
                 if key in source_data:
                     if source_data[key] not in {baseline[key], current[key], value}:

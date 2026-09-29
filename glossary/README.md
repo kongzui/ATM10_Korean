@@ -408,6 +408,15 @@
 | Trash Slot (슬롯) | 삭제 슬롯 | UI 용어 | TrashSlot | 확정 | 모드명 `TrashSlot`과 구분 |
 | Phantom | 팬텀 | Minecraft 공식 몹 이름 | 전체 프로젝트 | 확정 | `망령`으로 옮기지 않음 |
 
+### 품질 재검수 5순위 · 초반 기반 도구·기계·물류
+
+| 영어 | 한국어 | 종류 | 적용 범위 | 상태 | 비고 |
+|---|---|---|---|---|---|
+| Quarry (기계) | 채석기 | 기계명 | QuarryPlus 및 퀘스트·다른 모드의 채석 기계 | 확정 | `쿼리`(query 음역), 기계 뜻의 `채석장`과 섞지 않음. 장소인 채석장은 예외 |
+| Spawner | 몬스터 생성기 | Minecraft 공식 블록명 | 전체 프로젝트 | 확정 | Spawner Controller는 `몬스터 생성기 제어기` |
+| Armory Cabinet | 장비 보관함 | 블록명 | Functional Storage | 확정 | Jade 표시 이름도 같게 씀 |
+| Recipe (화로 계열) / Cook Time | 제작법 / 처리 시간 | UI 용어 | Iron Furnaces 등 화로 계열 | 확정 | `조리법`, `조리 시간`으로 쓰지 않음 |
+
 ### 보류 해소 · 2026-09-29
 
 바닐라 한국어 파일, 모드 JAR 내장 한국어, 한국어 Minecraft 위키·나무위키와 모드 설명을 확인해 정했다.

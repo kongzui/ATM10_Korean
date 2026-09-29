@@ -1,0 +1,6 @@
+{
+  "tooltip.ironjetpacks.toggle_engine": "엔진을 전환했습니다: %s",
+  "tooltip.ironjetpacks.toggle_hover": "호버를 전환했습니다: %s",
+  "tooltip.ironjetpacks.toggle_hud": "HUD를 전환했습니다: %s",
+  "tooltip.ironjetpacks.change_throttle": "출력을 설정했습니다: %s"
+}

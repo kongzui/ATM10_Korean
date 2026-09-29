@@ -333,6 +333,9 @@ Sonnet 워커가 키를 읽고 고치는 방식으로 진행해요. 규칙은 `A
 - 지시문의 번역투 목록(`성공적으로` 등)도 워커가 일부 놓쳐요(4순위에서 5키). 패턴 검사는 생략하지 않아요.
 - 워커가 바꾼 이름은 `rg`로 퀘스트·다른 모드 사용처를 찾아요. 보정 파일(`recheck_overrides.json`)도
   작업 원본에 넣어야 해요.
+- 워커가 여러 키에서 함께 쓰이는 단독 단어(예: XNet `low`/`high`)를 바꾸면 다른 화면이 깨질 수 있어요.
+  단어 대신 그 단어를 쓰는 문장 쪽을 고쳐요.
+- 이전 적용 뒤 커밋만 하고 적용하지 않은 변경이 있으면, 적용 대상을 마지막 적용 커밋 기준 차이로 골라요.
 - 워커가 모드 안의 표기 통일(옵션→설정, 이름표→라벨 등)을 잘 찾아요. 모드 간에 걸리는 용어는
   보고의 `glossary_suggestions`를 보고 오케스트레이터가 용어집에 반영해요.
 - 영어 원문 파일이 없는 키(구조물 이름 등)는 키 ID를 원문으로 보라고 지시해야 해요.
@@ -347,7 +350,7 @@ Sonnet 워커가 키를 읽고 고치는 방식으로 진행해요. 규칙은 `A
 
 | 단계 | 계열 순위 | 상태 |
 |---|---|---|
-| A | 1~6 | 1 완료(stable.8), 2 완료(1부 stable.9, 2부 stable.11), 3 완료(stable.12), 4 완료(stable.13), 5~6 미착수 |
+| A | 1~6 | 1 완료(stable.8), 2 완료(1부 stable.9, 2부 stable.11), 3 완료(stable.12), 4 완료(stable.13), 5 완료(stable.14), 6 미착수 |
 | 후속 | 1·2순위 용어 교체 | 완료(stable.10). `솔라리움`만 Ender IO 계열 때 교체 |
 | B | 7~17 | 미착수 |
 | C | 18~30 | 미착수 |
@@ -364,6 +367,8 @@ Sonnet 워커가 키를 읽고 고치는 방식으로 진행해요. 규칙은 `A
 | 2 (2부) | 공통 UI: 지도·장신구·웨이스톤·나침반 | 언어 5개 2,644키 | 언어 177 | 언어 2,467 | 8.1-stable.11 | [보고](../versions/8.1/reports/quality_rereview_common_ui_2.md) |
 | 3 | Sophisticated 계열 | 언어 4개 1,137키 | 언어 112 | 언어 1,025 | 8.1-stable.12 | [보고](../versions/8.1/reports/quality_rereview_sophisticated.md) |
 | 4 | 인벤토리·정보·가이드 UI | 언어 20개 2,443키 | 언어 210 | 언어 2,233 | 8.1-stable.13 | [보고](../versions/8.1/reports/quality_rereview_info_ui.md) |
+| 5 | 초반 기반 도구·기계·물류 | 언어 20개 1,769키 | 언어 126, 퀘스트 5 | 언어 1,643 | 8.1-stable.14 | [보고](../versions/8.1/reports/quality_rereview_early_infra.md) |
+| 후속 | 보류 용어 확정 | 보류 5개, 1~4순위 불확실 항목 | 언어 62 | — | 8.1-stable.14 | [보고](../versions/8.1/reports/quality_rereview_term_decisions.md) |
 
 계열 작업 자료는 `working/quality_rereview/<계열>/`에 두고, 퀘스트 수정본은
 `scripts/quality_rereview_quests.py <계열> --write-output`으로 산출물과 8.1 수동 검수 목록에

@@ -342,8 +342,8 @@
     "chapters/building_tips.snbt": {
       "english_keys": 255,
       "translated_keys": 254,
-      "revised": 99,
-      "kept": 155,
+      "revised": 101,
+      "kept": 153,
       "revised_keys": [
         "quest.005CC8A3325FE2BD.quest_desc",
         "quest.005CC8A3325FE2BD.title",
@@ -385,6 +385,8 @@
         "quest.3ED8365BAD406CC5.quest_desc",
         "quest.3FD9DC6B7844A79C.quest_desc",
         "quest.3FD9DC6B7844A79C.title",
+        "quest.40C068B2B8AC0F33.quest_desc",
+        "quest.40C068B2B8AC0F33.title",
         "quest.44688FC2E34FF09F.quest_desc",
         "quest.44BD0B40EB5451AF.title",
         "quest.48971CE964CF037F.quest_desc",
@@ -743,8 +745,8 @@
   },
   "english_keys": 2029,
   "translated_keys": 2023,
-  "revised": 587,
-  "kept": 1436,
+  "revised": 589,
+  "kept": 1434,
   "remaining_style_signals": {
     "chapters/mainquestline_part_1.snbt:quest.3B6F1BD64C0C570F.quest_desc": [
       "것입니다"

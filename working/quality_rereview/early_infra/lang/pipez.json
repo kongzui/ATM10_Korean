@@ -1,0 +1,6 @@
+{
+  "tooltip.pipez.filter.unknown_block": "알 수 없는 블록",
+  "tooltip.pipez.filter.destination.click_to_remove": "클릭하여 제거",
+  "tooltip.pipez.filter.destination_side": "향하는 방향: %s",
+  "message.pipez.filter_destination_tool.destination.set": "목적지를 설정했습니다."
+}

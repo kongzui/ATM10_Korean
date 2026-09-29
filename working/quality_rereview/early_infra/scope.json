@@ -1,0 +1,101 @@
+{
+  "family": "초반 기반 도구·기계·물류",
+  "rank": 5,
+  "status": "completed",
+  "baseline_commit": "6ab3127",
+  "quest_files": [],
+  "language_namespaces": [
+    "ironfurnaces",
+    "mininggadgets",
+    "buildinggadgets2",
+    "constructionstick",
+    "simplemagnets",
+    "ironjetpacks",
+    "bhc",
+    "toolbelt",
+    "easy_villagers",
+    "itemcollectors",
+    "mob_grinding_utils",
+    "functionalstorage",
+    "pocketstorage",
+    "enderstorage",
+    "pipez",
+    "moderndynamics",
+    "xnet",
+    "generatorgalore",
+    "energymeter",
+    "quarryplus"
+  ],
+  "language_sources": {
+    "ironfurnaces": [
+      "working/early_midgame_infrastructure/ironfurnaces/ko_kr.json"
+    ],
+    "mininggadgets": [
+      "working/early_midgame_infrastructure/mininggadgets/ko_kr.json"
+    ],
+    "buildinggadgets2": [
+      "working/early_midgame_infrastructure/buildinggadgets2/ko_kr.json"
+    ],
+    "constructionstick": [
+      "working/factory_sticks/constructionstick/ko_kr.json"
+    ],
+    "simplemagnets": [
+      "working/iron_jetpacks_equipment/simplemagnets/ko_kr.json",
+      "working/iron_jetpacks_equipment/manual_overrides.json"
+    ],
+    "ironjetpacks": [
+      "working/iron_jetpacks_equipment/ironjetpacks/ko_kr.json",
+      "working/iron_jetpacks_equipment/manual_overrides.json"
+    ],
+    "bhc": [
+      "working/iron_jetpacks_equipment/bhc/ko_kr.json",
+      "working/iron_jetpacks_equipment/manual_overrides.json"
+    ],
+    "toolbelt": [
+      "working/iron_jetpacks_equipment/toolbelt/ko_kr.json",
+      "working/iron_jetpacks_equipment/manual_overrides.json"
+    ],
+    "easy_villagers": [
+      "working/early_midgame_infrastructure/easy_villagers/ko_kr.json"
+    ],
+    "itemcollectors": [
+      "working/early_midgame_infrastructure/itemcollectors/ko_kr.json"
+    ],
+    "mob_grinding_utils": [
+      "working/early_midgame_infrastructure/mob_grinding_utils/ko_kr.json"
+    ],
+    "functionalstorage": [
+      "working/functional_storage/functionalstorage/ko_kr.json",
+      "working/functional_storage/manual_overrides.json"
+    ],
+    "pocketstorage": [
+      "working/functional_storage/pocketstorage/ko_kr.json",
+      "working/functional_storage/manual_overrides.json"
+    ],
+    "enderstorage": [
+      "working/functional_storage/enderstorage/ko_kr.json",
+      "working/functional_storage/manual_overrides.json"
+    ],
+    "pipez": [
+      "working/basic_logistics/pipez/ko_kr.json",
+      "working/basic_logistics/manual_overrides.json"
+    ],
+    "moderndynamics": [
+      "working/basic_logistics/moderndynamics/ko_kr.json"
+    ],
+    "xnet": [
+      "working/basic_logistics/xnet/ko_kr.json",
+      "working/basic_logistics/manual_overrides.json"
+    ],
+    "generatorgalore": [
+      "working/quarry_power/generatorgalore/ko_kr.json"
+    ],
+    "energymeter": [
+      "working/quarry_power/energymeter/ko_kr.json"
+    ],
+    "quarryplus": [
+      "working/quarry_power/quarryplus/ko_kr.json"
+    ]
+  },
+  "kubejs_files": []
+}

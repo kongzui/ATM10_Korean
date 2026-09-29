@@ -1,0 +1,313 @@
+{
+  "family": "early_infra",
+  "files": {
+    "ironfurnaces": {
+      "english_keys": 143,
+      "translated_keys": 143,
+      "keys_without_jar_english": 0,
+      "revised": 7,
+      "kept": 136,
+      "revised_keys": [
+        "tooltip.ironfurnaces.cooktime",
+        "tooltip.ironfurnaces.xmas1",
+        "tooltip.ironfurnaces.spooky1",
+        "tooltip.ironfurnaces.augment_speed_pro",
+        "tooltip.ironfurnaces.augment_smoking",
+        "tooltip.ironfurnaces.augment_blasting",
+        "tooltip.ironfurnaces.augment_fuel_con"
+      ]
+    },
+    "mininggadgets": {
+      "english_keys": 85,
+      "translated_keys": 85,
+      "keys_without_jar_english": 0,
+      "revised": 2,
+      "kept": 83,
+      "revised_keys": [
+        "mininggadgets.text.empty_table_helper",
+        "tooltop.mininggadgets.light_placer"
+      ]
+    },
+    "buildinggadgets2": {
+      "english_keys": 112,
+      "translated_keys": 112,
+      "keys_without_jar_english": 0,
+      "revised": 8,
+      "kept": 104,
+      "revised_keys": [
+        "buildinggadgets2.messages.anchorset",
+        "buildinggadgets2.messages.bindfailed",
+        "buildinggadgets2.messages.bindsuccess",
+        "buildinggadgets2.messages.range_set",
+        "buildinggadgets2.messages.redprintgivefail",
+        "buildinggadgets2.messages.relativepaste",
+        "buildinggadgets2.messages.render_set",
+        "buildinggadgets2.messages.undofailedunloaded"
+      ]
+    },
+    "constructionstick": {
+      "english_keys": 142,
+      "translated_keys": 142,
+      "keys_without_jar_english": 0,
+      "revised": 4,
+      "kept": 138,
+      "revised_keys": [
+        "advancement.constructionstick.template_angel.desc",
+        "constructionstick.configuration.MaxRange.tooltip",
+        "constructionstick.description.stick",
+        "constructionstick.option.random.yes.desc"
+      ]
+    },
+    "simplemagnets": {
+      "english_keys": 38,
+      "translated_keys": 46,
+      "keys_without_jar_english": 8,
+      "revised": 2,
+      "kept": 44,
+      "revised_keys": [
+        "simplemagnets.gui.demagnetization_coil.show_range.on",
+        "simplemagnets.gui.demagnetization_coil.show_range.off"
+      ]
+    },
+    "ironjetpacks": {
+      "english_keys": 42,
+      "translated_keys": 42,
+      "keys_without_jar_english": 0,
+      "revised": 4,
+      "kept": 38,
+      "revised_keys": [
+        "tooltip.ironjetpacks.toggle_engine",
+        "tooltip.ironjetpacks.toggle_hover",
+        "tooltip.ironjetpacks.toggle_hud",
+        "tooltip.ironjetpacks.change_throttle"
+      ]
+    },
+    "bhc": {
+      "english_keys": 66,
+      "translated_keys": 66,
+      "keys_without_jar_english": 0,
+      "revised": 14,
+      "kept": 52,
+      "revised_keys": [
+        "item.bhc.red_heart_patch",
+        "item.bhc.yellow_heart_patch",
+        "item.bhc.green_heart_patch",
+        "item.bhc.blue_heart_patch",
+        "tooltip.bhc.patch_amount",
+        "tooltip.bhc.patch_durability",
+        "tooltip.bhc.heart_drops",
+        "message.bhc.soul_heart_used",
+        "bhc.configuration.redPatchCooldown",
+        "bhc.configuration.bluePatchCooldown",
+        "bhc.configuration.yellowPatchCooldown",
+        "bhc.configuration.greenPatchCooldown",
+        "bhc.configuration.allowStartingHealthTweaks",
+        "bhc.configuration.startingHealth"
+      ]
+    },
+    "toolbelt": {
+      "english_keys": 13,
+      "translated_keys": 13,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 13,
+      "revised_keys": []
+    },
+    "easy_villagers": {
+      "english_keys": 32,
+      "translated_keys": 32,
+      "keys_without_jar_english": 0,
+      "revised": 0,
+      "kept": 32,
+      "revised_keys": []
+    },
+    "itemcollectors": {
+      "english_keys": 15,
+      "translated_keys": 19,
+      "keys_without_jar_english": 4,
+      "revised": 0,
+      "kept": 19,
+      "revised_keys": []
+    },
+    "mob_grinding_utils": {
+      "english_keys": 146,
+      "translated_keys": 146,
+      "keys_without_jar_english": 0,
+      "revised": 14,
+      "kept": 132,
+      "revised_keys": [
+        "mob_grinding_utiles.jei.solidifier",
+        "block.mob_grinding_utils.dreadful_dirt.jei.info",
+        "block.mob_grinding_utils.delightfull_dirt.jei.info",
+        "block.mob_grinding_utils.entity_spawner.jei.info",
+        "block.mob_grinding_utils.delightful_dirt.jei.info",
+        "block.mob_grinding_utils.entity_conveyor.tooltip_2",
+        "block.mob_grinding_utils.dreadful_dirt.tooltip_1",
+        "block.mob_grinding_utils.dreadful_dirt.tooltip_3",
+        "block.mob_grinding_utils.delightful_dirt.tooltip_1",
+        "block.mob_grinding_utils.delightful_dirt.tooltip_3",
+        "block.mob_grinding_utils.delightful_dirt.tooltip_4",
+        "block.mob_grinding_utils.entity_spawner.tooltip_1",
+        "block.mob_grinding_utils.entity_spawner.tooltip_2",
+        "tooltip.mobswab_2"
+      ]
+    },
+    "functionalstorage": {
+      "english_keys": 162,
+      "translated_keys": 162,
+      "keys_without_jar_english": 0,
+      "revised": 10,
+      "kept": 152,
+      "revised_keys": [
+        "config.jade.plugin_functionalstorage.armory",
+        "configurationtool.configmode.indicator.mode_2",
+        "configurationtool.configmode.indicator.mode_3",
+        "drawer.block.upgrades.is_void",
+        "drawer_upgrade.functionalstorage.void.fluid",
+        "drawer_upgrade.functionalstorage.void.item",
+        "functionalupgrade.desc.generate_fluid",
+        "item.functionalstorage.void_upgrade",
+        "linkingtool.ender.clear",
+        "linkingtool.use"
+      ]
+    },
+    "pocketstorage": {
+      "english_keys": 28,
+      "translated_keys": 28,
+      "keys_without_jar_english": 0,
+      "revised": 4,
+      "kept": 24,
+      "revised_keys": [
+        "item.pocketstorage.psu_1.info3",
+        "item.pocketstorage.psu_2.info3",
+        "item.pocketstorage.psu_3.info3",
+        "item.pocketstorage.psu_4.info3"
+      ]
+    },
+    "enderstorage": {
+      "english_keys": 8,
+      "translated_keys": 8,
+      "keys_without_jar_english": 0,
+      "revised": 3,
+      "kept": 5,
+      "revised_keys": [
+        "enderstorage.command.no_colour",
+        "enderstorage.command.no_freq",
+        "enderstorage.serverop"
+      ]
+    },
+    "pipez": {
+      "english_keys": 83,
+      "translated_keys": 84,
+      "keys_without_jar_english": 1,
+      "revised": 4,
+      "kept": 80,
+      "revised_keys": [
+        "tooltip.pipez.filter.destination.click_to_remove",
+        "tooltip.pipez.filter.unknown_block",
+        "tooltip.pipez.filter.destination_side",
+        "message.pipez.filter_destination_tool.destination.set"
+      ]
+    },
+    "moderndynamics": {
+      "english_keys": 72,
+      "translated_keys": 72,
+      "keys_without_jar_english": 0,
+      "revised": 3,
+      "kept": 69,
+      "revised_keys": [
+        "gui.moderndynamics.tooltip.filter_similar",
+        "gui.moderndynamics.tooltip.more_info",
+        "gui.moderndynamics.tooltip.stuffed"
+      ]
+    },
+    "xnet": {
+      "english_keys": 186,
+      "translated_keys": 186,
+      "keys_without_jar_english": 0,
+      "revised": 7,
+      "kept": 179,
+      "revised_keys": [
+        "message.xnet.router.header",
+        "xnet.energy.minmax.tooltip.formatted",
+        "xnet.fluid.rate.tooltip.formatted",
+        "xnet.fluid.minmax.tooltip.formatted",
+        "xnet.item.count.tooltip.formatted",
+        "xnet.logic.impulseMode.tooltip",
+        "xnet.enum.logic.sensormode.fluid.tooltip"
+      ]
+    },
+    "generatorgalore": {
+      "english_keys": 75,
+      "translated_keys": 75,
+      "keys_without_jar_english": 0,
+      "revised": 2,
+      "kept": 73,
+      "revised_keys": [
+        "generatorgalore.recipe.fluid_fuel",
+        "generatorgalore.recipe.rate"
+      ]
+    },
+    "energymeter": {
+      "english_keys": 64,
+      "translated_keys": 64,
+      "keys_without_jar_english": 0,
+      "revised": 2,
+      "kept": 62,
+      "revised_keys": [
+        "tooltip.energymeter.button_reset_total",
+        "tooltip.energymeter.control_key_lmb"
+      ]
+    },
+    "quarryplus": {
+      "english_keys": 241,
+      "translated_keys": 244,
+      "keys_without_jar_english": 3,
+      "revised": 36,
+      "kept": 208,
+      "revised_keys": [
+        "block.quarryplus.debug_storage",
+        "block.quarryplus.exp_pump",
+        "block.quarryplus.mini_quarry",
+        "block.quarryplus.replacer",
+        "block.quarryplus.solid_fuel_quarry",
+        "block.quarryplus.spawner_controller",
+        "enchantment.quarryplus.quarry_pickaxe",
+        "item.quarryplus.exp_module",
+        "item.quarryplus.filter_module",
+        "item.quarryplus.fuel_module_creative",
+        "item.quarryplus.fuel_module_normal",
+        "item.quarryplus.pump_module",
+        "item.quarryplus.replacer_module",
+        "item.quarryplus.torch_module",
+        "item.quarryplus.y_setter",
+        "quarryplus.chat.chat.pump_not_contain",
+        "quarryplus.chat.editor_enchantment",
+        "quarryplus.chat.no_enchantments",
+        "quarryplus.chat.pump_contain",
+        "quarryplus.chat.pump_range.quarry",
+        "quarryplus.chat.quarry.restart",
+        "quarryplus.chat.quarry_mode",
+        "quarryplus.chat.quarry_no_space",
+        "quarryplus.chat.warn_protected_area",
+        "quarryplus.chat.y_level",
+        "quarryplus.status.enchantment",
+        "quarryplus.tooltip.creative_generator",
+        "quarryplus.tooltip.filter_module_2",
+        "quarryplus.tooltip.quarry_may_crash",
+        "quarryplus.tooltip.quarry_screen.bedrock_toggle",
+        "tag.block.quarryplus.markers",
+        "tag.item.quarryplus.markers",
+        "tag.item.quarryplus.quarry_pickaxes",
+        "text.autoconfig.quarryplus.option.common.removeFrameAfterQuarryIsRemoved",
+        "tof.success",
+        "yog.spawner.setting"
+      ]
+    }
+  },
+  "translated_keys": 1769,
+  "revised": 126,
+  "kept": 1643,
+  "remaining_style_signals": {},
+  "errors": []
+}

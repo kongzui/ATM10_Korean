@@ -1,0 +1,4 @@
+{
+  "tooltip.energymeter.button_reset_total": "이 버튼을 누르면 누적 전송 에너지가 0으로 초기화됩니다. 되돌릴 수 없는 작업입니다.",
+  "tooltip.energymeter.control_key_lmb": "좌클릭"
+}

@@ -1,0 +1,16 @@
+{
+  "mob_grinding_utiles.jei.solidifier": "응고 제작법",
+  "block.mob_grinding_utils.dreadful_dirt.jei.info": "어둠 속에서 몬스터를 빠르게 스폰하며, 낮에 하늘에 노출되면 불탑니다.",
+  "block.mob_grinding_utils.delightfull_dirt.jei.info": "밝은 곳에서 동물을 빠르게 스폰하며, 밤에 하늘에 노출되면 눈이 덮입니다.",
+  "block.mob_grinding_utils.entity_spawner.jei.info": "3x3x1 영역에 몹을 스폰합니다.\n경험치 젤리를 소모합니다.\n업그레이드할 수 있습니다.",
+  "block.mob_grinding_utils.delightful_dirt.jei.info": "바다 생물 군계처럼 수동적 몹이 자연 스폰되지 않는 생물 군계에서는 작동하지 않습니다.",
+  "block.mob_grinding_utils.entity_conveyor.tooltip_2": "이 블록 위에서 몹이 스폰될 수 있습니다.",
+  "block.mob_grinding_utils.dreadful_dirt.tooltip_1": "적대적 몹을 더 많이 스폰합니다.",
+  "block.mob_grinding_utils.dreadful_dirt.tooltip_3": "밝기 레벨이 5 이상이면 적대적 몹이 스폰되지 않습니다.",
+  "block.mob_grinding_utils.delightful_dirt.tooltip_1": "동물을 더 많이 스폰합니다.",
+  "block.mob_grinding_utils.delightful_dirt.tooltip_3": "밝기 레벨이 10 미만이면 동물이 스폰되지 않습니다.",
+  "block.mob_grinding_utils.delightful_dirt.tooltip_4": "바다 생물 군계에서는 작동하지 않습니다.",
+  "block.mob_grinding_utils.entity_spawner.tooltip_1": "3x3x1 영역에 몹을 스폰할 수 있습니다.",
+  "block.mob_grinding_utils.entity_spawner.tooltip_2": "위쪽 슬롯의 생성 알을 사용합니다.",
+  "tooltip.mobswab_2": "경험치 양동이와 씨앗을 함께 제작하세요."
+}

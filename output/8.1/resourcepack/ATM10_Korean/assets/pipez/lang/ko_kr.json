@@ -38,11 +38,11 @@
   "tooltip.pipez.filter_destination_tool": "블록을 클릭해 목적지를 설정하세요",
   "tooltip.pipez.filter_destination_tool.destination": "목적지: X=%s, Y=%s, Z=%s, %s",
   "tooltip.pipez.filter.destination.description": "필터 목적지 도구로 목적지를 설정하세요.",
-  "tooltip.pipez.filter.destination.click_to_remove": "클릭하여 삭제",
-  "tooltip.pipez.filter.unknown_block": "알려지지 않은 블록",
+  "tooltip.pipez.filter.destination.click_to_remove": "클릭하여 제거",
+  "tooltip.pipez.filter.unknown_block": "알 수 없는 블록",
   "tooltip.pipez.filter.destination_location": "위치 X=%s, Y=%s, Z=%s",
   "tooltip.pipez.filter.destination_distance": "%s 블록 떨어짐",
-  "tooltip.pipez.filter.destination_side": "%s를 보고 있음",
+  "tooltip.pipez.filter.destination_side": "향하는 방향: %s",
   "tooltip.pipez.upgrade.configured": "%s용으로 설정됨",
   "tooltip.pipez.upgrade.configured.item": "아이템",
   "tooltip.pipez.upgrade.configured.energy": "에너지",
@@ -81,6 +81,6 @@
   "message.pipez.filter.destination": "목적지",
   "message.pipez.filter_destination_tool.destination": "목적지: %s, %s, %s, %s",
   "message.pipez.filter_destination_tool.destination.any": "목적지: 제한 없음",
-  "message.pipez.filter_destination_tool.destination.set": "목적지 설정",
+  "message.pipez.filter_destination_tool.destination.set": "목적지를 설정했습니다.",
   "config.jade.plugin_pipez.pipe": "파이프"
 }

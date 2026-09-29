@@ -35,10 +35,10 @@
   "tooltip.ironjetpacks.sprint_modifier": "질주 속도 배수: %s",
   "tooltip.ironjetpacks.sprint_vertical_modifier": "질주 수직 속도 배수: %s",
   "tooltip.ironjetpacks.sprint_fuel_modifier": "질주 연료 소모 배수: %s",
-  "tooltip.ironjetpacks.toggle_engine": "엔진 %s",
-  "tooltip.ironjetpacks.toggle_hover": "호버 %s",
-  "tooltip.ironjetpacks.toggle_hud": "HUD %s",
-  "tooltip.ironjetpacks.change_throttle": "출력이 %s(으)로 설정됨",
+  "tooltip.ironjetpacks.toggle_engine": "엔진을 전환했습니다: %s",
+  "tooltip.ironjetpacks.toggle_hover": "호버를 전환했습니다: %s",
+  "tooltip.ironjetpacks.toggle_hud": "HUD를 전환했습니다: %s",
+  "tooltip.ironjetpacks.change_throttle": "출력을 설정했습니다: %s",
   "tooltip.ironjetpacks.state_tooltip_layout": "%s | %s | %s | %s",
   "tooltip.ironjetpacks.jetpack_id": "제트팩 ID: %s"
 }

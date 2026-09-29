@@ -44,7 +44,7 @@
   "block.generatorgalore.potion_generator": "물약 발전기",
   "block.generatorgalore.potion_generator_64x": "64배 물약 발전기",
   "block.generatorgalore.potion_generator_8x": "8배 물약 발전기",
-  "generatorgalore.recipe.fluid_fuel": "액체 연료",
+  "generatorgalore.recipe.fluid_fuel": "유체 연료",
   "generatorgalore.recipe.solid_fuel": "고체 연료",
   "generatorgalore.screen.empty": "비어 있음",
   "generatorgalore.screen.energy_level": "에너지: %s",
