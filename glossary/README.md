@@ -436,6 +436,27 @@
 | Sky Bronze / Sky Osmium | 천령 청동 / 천령 오스뮴 | 재료명 | MEGA Cells 및 압축 블록 | 확정 | Sky Steel(`천령 강철`)과 같은 계열 파생 이름 |
 | Recipe (가이드 제목) | 제작법 | 가이드 제목 | GuideME 등 가이드 전체 | 확정 | `## 조합법` 제목도 `## 제작법` |
 
+### 품질 재검수 8순위 · Mekanism 계열
+
+| 영어 | 한국어 | 종류 | 적용 범위 | 상태 | 비고 |
+|---|---|---|---|---|---|
+| Factory | 시스템 | 기계 분류명 | Mekanism 계열(MoreMachine 포함) | 확정 | 본체 JAR 공식 표기(`기본 제련 시스템`). MoreMachine의 `~ 공장`도 `~ 시스템` |
+| Basic / Advanced / Elite / Ultimate / Creative | 기본 / 고급 / 엘리트 / 궁극 / 크리에이티브 | 등급 | Mekanism 계열 | 확정 | `궁극의`처럼 조사를 붙이지 않음. Tier는 `등급` |
+| Overclocked / Quantum / Dense / Multiversal | 오버클럭 / 양자 / 고밀도 / 다중 우주 | 등급 | Mekanism: MoreMachine | 확정 | Multiversal은 Tempad와 같은 `다중 우주`(`다차원` X) |
+| Gas | 기체 | 기술 용어·이름 요소 | Mekanism 계열 | 확정 | `기체 연소 발전기`, `대기 기체 수집기`. `가스`와 섞지 않음 |
+| Fluid / Liquid | 유체 / 액체 | 기술 용어·이름 요소 | Mekanism 계열 | 확정 | 영어 구분을 따름. `유체 탱크`·`유체 방출기`·`유체 복제기`, 화학 물질의 액체 형태는 `액체 X`(`액화 X` X) |
+| Pigment | 안료 | 화학 물질 분류 | Mekanism 계열 | 확정 | `색소`·`염료` X. 색 이름은 바닐라 염료 색(청록색·회백색·연두색·자홍색 등) |
+| Reactor (단독) | 핵분열로 / 핵융합로 / 원자로 | 구조물 용어 | Mekanism 계열과 퀘스트 | 확정 | 문맥에 맞춰 쓰고, 둘 다·일반이면 `원자로`. `반응기`·`반응로` X |
+| Radiation / Radioactive / Radioactivity | 방사선 / 방사성 / 방사능 | 기술 용어 | Mekanism 계열 | 확정 | Radiation poisoning은 `방사선 중독` |
+| Transmitter | 전송기 | 기술 용어 | Mekanism 계열 | 확정 | transmitter network는 `전송 네트워크`. `트랜스미터`·`송신기` X |
+| Coolant / Nuclear Waste | 냉각재 / 핵폐기물 | 기술 용어 | Mekanism 계열 | 확정 | `냉각수` X |
+| Chemical Injection Chamber / Injecting | 화학적 투입 장치 / 투입 | 기계명·공정명 | Mekanism 계열 | 확정 | JAR 공식 표기. Infuse(`주입`)와 구분하며 `투입 시스템`과 맞춤 |
+| Ethene / Superheated Sodium | 에텐 / 과열된 나트륨 | 화학 물질명 | Mekanism 계열과 퀘스트 | 확정 | `에테인`(Ethane), `가열된 나트륨` X |
+| Leggings / Pants (MekaSuit·Hazmat) | 레깅스 / 하의 | 방어구 부위 | 전체 프로젝트 | 확정 | 바닐라 `레깅스`. `각반` X |
+| HDPE Sheet / HDPE Rod / PlaStick | HDPE 시트 / HDPE 막대기 / 플라스틱 막대기 | 재료명 | Mekanism | 확정 | `용지` X. Rod·Stick은 `막대기` |
+| Fission Fuel Assembly / Control Rod Assembly | 핵분열 연료 집합체 / 제어봉 집합체 | 블록명 | Mekanism: Generators와 퀘스트 | 확정 | `구성기`·`조립품`·`제어 축` X |
+| Injection Rate (핵융합로) | 주입 속도 | UI 용어 | Mekanism: Generators·JEI 멀티블록 | 확정 | `융합 속도` X |
+
 ### 보류 해소 · 2026-09-29
 
 바닐라 한국어 파일, 모드 JAR 내장 한국어, 한국어 Minecraft 위키·나무위키와 모드 설명을 확인해 정했다.
@@ -477,4 +498,5 @@
   `키친싱크 모드팩` 풀어 쓰기. 6순위에서 더한 대상: 재료 뜻의 `막대`→`막대기`,
   `톱니바퀴`(재료 부품)→`기어`, `딥 다크`→`깊은 어둠`, `엔드 고지대`→`엔드 고지`.
   7순위에서 더한 대상: `제작 격자`→`제작 칸`(받침에 맞춰 조사도 교체).
+  8순위에서 더한 대상: 방어구 `각반`→`레깅스`(Aether 등 다른 계열은 해당 계열에서 교체).
 - 문맥상 예외가 필요하면 기본 용어를 바꾸지 말고 예외 사유와 적용 범위를 기록한다.

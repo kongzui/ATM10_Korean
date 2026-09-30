@@ -62,7 +62,7 @@ ItemEvents.modifyTooltips(allthemods => {
 
     //Upgrades
     allthemods.add(/mekanism:upgrade_/, [
-        Text.green('기계 성능 향상!')
+        Text.green('기계 성능 향상 효과 증가!')
     ])
     //Waste Barrel
     allthemods.add('mekanism:radioactive_waste_barrel', [

@@ -230,6 +230,16 @@
 - 가이드 조각 교체 도구와 누적 검증의 마크다운 검사를 추가했어요.
 - 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
 - 게임 종료 상태에서 stable.15 이후 바뀐 140파일만 선택 적용했고 표시 경로 감사 4개를 갱신했어요.
-- [재검수 보고](quality_rereview_ae2.md), [배포 안내](../../../docs/releases/8.1-stable.16.md),
+- [재검수 보고](quality_rereview_ae2.md), [배포 안내](../../../docs/archive/releases/8.1-stable.16.md),
   [패키지 목록](../manifests/8.1-stable.16_packages.json)에 근거를 남겨요.
 - 실제 게임 화면은 미검증이에요. 다음은 8순위 Mekanism 계열이에요.
+
+## 2026-09-30 · 품질 재검수 8순위 Mekanism 계열 누적 stable.17
+
+- Mekanism 계열 8개 모드 언어 5,216키 중 1,398키, 퀘스트 468키 중 296키, KubeJS 툴팁 1줄을 고쳤어요.
+  기초 전력 퀘스트의 `에틸렌`도 `에텐`으로 맞췄어요. 신규 번역은 없어요.
+- 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
+- 게임 종료 상태에서 stable.16 이후 바뀐 12파일만 선택 적용했고 표시 경로 감사 4개를 갱신했어요.
+- [재검수 보고](quality_rereview_mekanism.md), [배포 안내](../../../docs/releases/8.1-stable.17.md),
+  [패키지 목록](../manifests/8.1-stable.17_packages.json)에 근거를 남겨요.
+- 실제 게임 화면은 미검증이에요. 다음은 9순위 Mystical Agriculture예요.

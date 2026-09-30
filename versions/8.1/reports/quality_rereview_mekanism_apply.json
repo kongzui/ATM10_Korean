@@ -1,0 +1,179 @@
+{
+  "applied_at": "2026-09-30T19:58:41",
+  "status": "applied_and_verified",
+  "configured_targets": [
+    "game_root"
+  ],
+  "game_root_configured": true,
+  "java_processes": [],
+  "version_guard": {
+    "status": "scoped_rebase_apply",
+    "active_pack_version": "8.1",
+    "baseline_pack_version": "7.1",
+    "active_output_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1",
+    "output_validated_pack_version": "8.1",
+    "output_rebase_target_version": null,
+    "full_apply_allowed": true,
+    "target_versions": {
+      "game_root": "8.1"
+    }
+  },
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+      "status": "applied_and_verified",
+      "backup_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root",
+      "changed_paths": [
+        "config/ftbquests/quests/lang/ko_kr/chapters/basic_power.snbt",
+        "config/ftbquests/quests/lang/ko_kr/chapters/mekanism.snbt",
+        "config/ftbquests/quests/lang/ko_kr/chapters/mekanism_reactors.snbt",
+        "kubejs/client_scripts/Mekanism-Tooltips.js",
+        "resourcepacks/ATM10_Korean/assets/gmut/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/jei_mekanism_multiblocks/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/mekanism/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/mekanismgenerators/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/mekanismtools/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/mekanisticrouters/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/mekmm/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/pack.mcmeta"
+      ],
+      "files": [
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/gmut/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\gmut\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\gmut\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "551b491a3bcb344ef1bc0740d8c971b31501834e63a78232bb1ae83d23c28893",
+          "before_sha256": "c0625c18307b3c9c073f5cede388d95cc7d91f9ad6b8384f1a9415b0375ddf7e",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\resourcepacks\\ATM10_Korean\\assets\\gmut\\lang\\ko_kr.json",
+          "after_sha256": "551b491a3bcb344ef1bc0740d8c971b31501834e63a78232bb1ae83d23c28893"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/jei_mekanism_multiblocks/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\jei_mekanism_multiblocks\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\jei_mekanism_multiblocks\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "ae21cda0621ffd5c1f978927f5eb528cb1564d7a917ddc1f4fc888c0f2e6fa02",
+          "before_sha256": "285300a653dc4cad5ca6f53d26abe25f54edadd238cf2b96094ba42d1aa9f5c8",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\resourcepacks\\ATM10_Korean\\assets\\jei_mekanism_multiblocks\\lang\\ko_kr.json",
+          "after_sha256": "ae21cda0621ffd5c1f978927f5eb528cb1564d7a917ddc1f4fc888c0f2e6fa02"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/mekanism/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\mekanism\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\mekanism\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "f1fcc2d490cafaeab60ae3d94125120d553f0bad7eac2eaa4372048d29aaf751",
+          "before_sha256": "2c237a9dd1f66a5954295e4414f7ff43f3032fa39668e2f0267a92ae971d022c",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\resourcepacks\\ATM10_Korean\\assets\\mekanism\\lang\\ko_kr.json",
+          "after_sha256": "f1fcc2d490cafaeab60ae3d94125120d553f0bad7eac2eaa4372048d29aaf751"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/mekanismgenerators/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\mekanismgenerators\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\mekanismgenerators\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "ab3385e9e1feb9e6c4d38f8a55db9d53d55c9777b7854e73a3b8d0796f8eed04",
+          "before_sha256": "dcaa9a3f96a12bac2c741f800fdfc1edda48be5992428471ab33514711de20bb",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\resourcepacks\\ATM10_Korean\\assets\\mekanismgenerators\\lang\\ko_kr.json",
+          "after_sha256": "ab3385e9e1feb9e6c4d38f8a55db9d53d55c9777b7854e73a3b8d0796f8eed04"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/mekanismtools/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\mekanismtools\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\mekanismtools\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "ea19b92344556f07b51bb113b895a0a820d7e1064dad75fdb177e9f80e9649c7",
+          "before_sha256": "c863f53d75787a5d32d40c46fe6c8f69da827e3f4168816c8e821a695c1450a1",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\resourcepacks\\ATM10_Korean\\assets\\mekanismtools\\lang\\ko_kr.json",
+          "after_sha256": "ea19b92344556f07b51bb113b895a0a820d7e1064dad75fdb177e9f80e9649c7"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/mekanisticrouters/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\mekanisticrouters\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\mekanisticrouters\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "656eae8a8a4cabed98353caa2a11cf1438ea14238e5e0c11cc4ac76ff01eb1d0",
+          "before_sha256": "690229392b2fddb30efadd2e1041a9fb4e67f2cc6d7e6d9fe1d919e185017a0d",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\resourcepacks\\ATM10_Korean\\assets\\mekanisticrouters\\lang\\ko_kr.json",
+          "after_sha256": "656eae8a8a4cabed98353caa2a11cf1438ea14238e5e0c11cc4ac76ff01eb1d0"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/mekmm/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\mekmm\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\mekmm\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "dd4acc24bb1c4ef83e1fc46d466a3c9b363d1de84456c18042e403813729dbc9",
+          "before_sha256": "1528b301c1f749639ee2cb6270051046c737f89a1fa466bead44d3292a8fac44",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\resourcepacks\\ATM10_Korean\\assets\\mekmm\\lang\\ko_kr.json",
+          "after_sha256": "dd4acc24bb1c4ef83e1fc46d466a3c9b363d1de84456c18042e403813729dbc9"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/pack.mcmeta",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\pack.mcmeta",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "c6817245111fc2bcf011823f057f667b45149893f356a966a03e7a17f863893e",
+          "before_sha256": "6b7117e03ffe2ff216cd5b4f5d3c91d30e5cbbe53a3457232b58d7aba1c9b5b1",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "after_sha256": "c6817245111fc2bcf011823f057f667b45149893f356a966a03e7a17f863893e"
+        },
+        {
+          "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/basic_power.snbt",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_power.snbt",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_power.snbt",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "1c62aab0d4c53d4adcf943e1daa7e86d2437890acf6e4b285d5cb70514f0bcfb",
+          "before_sha256": "c29c4af444d691c0eb1c2f0289aadcb574ab59b534dc625da0830449a6dc948f",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\basic_power.snbt",
+          "after_sha256": "1c62aab0d4c53d4adcf943e1daa7e86d2437890acf6e4b285d5cb70514f0bcfb"
+        },
+        {
+          "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/mekanism.snbt",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mekanism.snbt",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mekanism.snbt",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "c89bf546aaf992c9517875565c195a61fe9ceeb4b388440213b15836d48a26cf",
+          "before_sha256": "c13933f537e2e1fc93ece8ffa6ddb66fe46dac4c01422bcffcddad5a6777596c",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mekanism.snbt",
+          "after_sha256": "c89bf546aaf992c9517875565c195a61fe9ceeb4b388440213b15836d48a26cf"
+        },
+        {
+          "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/mekanism_reactors.snbt",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mekanism_reactors.snbt",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mekanism_reactors.snbt",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "e96d3b43f89722f691b2261d87be18ccf83029b4f00aabc1a2fcf4bacc5b4ae2",
+          "before_sha256": "d706687ce812d7eaa0638328ce2dbf84d542cc0d1ff58bab1dc1c69c33554472",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\mekanism_reactors.snbt",
+          "after_sha256": "e96d3b43f89722f691b2261d87be18ccf83029b4f00aabc1a2fcf4bacc5b4ae2"
+        },
+        {
+          "relative_path": "kubejs/client_scripts/Mekanism-Tooltips.js",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\kubejs\\client_scripts\\Mekanism-Tooltips.js",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\kubejs\\client_scripts\\Mekanism-Tooltips.js",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "7d492db65233a3ba16f3cf6531be7b4e8d67fef422bd64f06494ab66a5ad6f00",
+          "before_sha256": "8b9e29e838202a996214701505a9def8781ccdf4427ca6a8f179b74f85f07830",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\game_root\\kubejs\\client_scripts\\Mekanism-Tooltips.js",
+          "after_sha256": "7d492db65233a3ba16f3cf6531be7b4e8d67fef422bd64f06494ab66a5ad6f00"
+        }
+      ],
+      "unexpected_changes": []
+    }
+  ],
+  "backup_manifest": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20260930_195835_026193\\backup_manifest.json"
+}

@@ -37,6 +37,12 @@
       "kubejs_files": 0,
       "guide_files": 0
     },
+    "quality_rereview_mekanism": {
+      "language_keys": 5216,
+      "quest_keys": 468,
+      "kubejs_files": 1,
+      "guide_files": 0
+    },
     "quality_rereview_pack_progress": {
       "language_keys": 13,
       "quest_keys": 2023,
@@ -381,6 +387,22 @@
     "output/resourcepack/ATM10_Korean/assets/tempad_static/lang/ko_kr.json": "d224696e8c169b6a993e877c6aed92fa0dad9bf4c98d38ee0ea53bc463d72372",
     "output/resourcepack/ATM10_Korean/assets/jearchaeology/lang/ko_kr.json": "12dce4e1d1d84f4cb133cb5239c4defc31fc63b36f58e72d357211dc09ed60bc",
     "project/working/quality_rereview/info_ui/scope.json": "afe850db40975576e7b07ef78f08997a6b22d3d5a56805c06d11128e315b5554",
+    "project/working/quality_rereview/mekanism/quests/mekanism.json": "52188d8b35eaf7a1fdc96e995c2d8dc77a581a304dafb1e44dbb4d1b1a1bd430",
+    "instance/config/ftbquests/quests/lang/en_us/chapters/mekanism.snbt_merged": "ba4d9e613c656ee5a3d59c3266c86740b6aad60e4c63c53006e540c629962e98",
+    "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/mekanism.snbt": "c89bf546aaf992c9517875565c195a61fe9ceeb4b388440213b15836d48a26cf",
+    "project/working/quality_rereview/mekanism/quests/mekanism_reactors.json": "c680cf0067cc3e8babc5b3fd8e2fe52c910a1044f3021deeeff6e54d9d34cbb4",
+    "instance/config/ftbquests/quests/lang/en_us/chapters/mekanism_reactors.snbt_merged": "54d0036940d2c9a223ff7964f94d9ebb0f0716b660996cd026f52c145bb00705",
+    "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/mekanism_reactors.snbt": "e96d3b43f89722f691b2261d87be18ccf83029b4f00aabc1a2fcf4bacc5b4ae2",
+    "output/resourcepack/ATM10_Korean/assets/mekanism/lang/ko_kr.json": "f1fcc2d490cafaeab60ae3d94125120d553f0bad7eac2eaa4372048d29aaf751",
+    "output/resourcepack/ATM10_Korean/assets/mekanismgenerators/lang/ko_kr.json": "ab3385e9e1feb9e6c4d38f8a55db9d53d55c9777b7854e73a3b8d0796f8eed04",
+    "output/resourcepack/ATM10_Korean/assets/mekanismtools/lang/ko_kr.json": "ea19b92344556f07b51bb113b895a0a820d7e1064dad75fdb177e9f80e9649c7",
+    "output/resourcepack/ATM10_Korean/assets/mekmm/lang/ko_kr.json": "dd4acc24bb1c4ef83e1fc46d466a3c9b363d1de84456c18042e403813729dbc9",
+    "output/resourcepack/ATM10_Korean/assets/mekanismcovers/lang/ko_kr.json": "1ab5c1a88066801a35b17400a0c66e3c1267cbd72731edadcef965d34e5bfe85",
+    "output/resourcepack/ATM10_Korean/assets/mekanisticrouters/lang/ko_kr.json": "656eae8a8a4cabed98353caa2a11cf1438ea14238e5e0c11cc4ac76ff01eb1d0",
+    "output/resourcepack/ATM10_Korean/assets/jei_mekanism_multiblocks/lang/ko_kr.json": "ae21cda0621ffd5c1f978927f5eb528cb1564d7a917ddc1f4fc888c0f2e6fa02",
+    "output/resourcepack/ATM10_Korean/assets/gmut/lang/ko_kr.json": "551b491a3bcb344ef1bc0740d8c971b31501834e63a78232bb1ae83d23c28893",
+    "output/overrides/kubejs/client_scripts/Mekanism-Tooltips.js": "7d492db65233a3ba16f3cf6531be7b4e8d67fef422bd64f06494ab66a5ad6f00",
+    "project/working/quality_rereview/mekanism/scope.json": "d0483c23a3bc91fae174831cb16b2912651efedfdceeaefbdac034e761a0e6a4",
     "project/working/quality_rereview/pack_progress/quests/chapter.json": "231b52f1d0f3c11da4aa9a010b72a4e04e4160fb3046856b6b3f2d5a3ab44b9d",
     "instance/config/ftbquests/quests/lang/en_us/chapter.snbt_merged": "6f7651123dc99df4d4cea36ff39a4f9d18bbe2f651d8250f61f60070795e47ef",
     "output/overrides/config/ftbquests/quests/lang/ko_kr/chapter.snbt": "4300d66c7605bfd5bb492d836e27afec10288b69a1fd7931fbf46344864c858f",
@@ -423,9 +445,9 @@
     "project/working/quality_rereview/pack_progress/quests/basic_armor.json": "2766f46449801e92271886c493d2d7f748eaaecb918efd00e270ae603a1a3529",
     "instance/config/ftbquests/quests/lang/en_us/chapters/basic_armor.snbt_merged": "e4224ecc5c5fd3891b49c60cbdb0f6b49394246825b1a1d98d93a24cabda7d42",
     "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/basic_armor.snbt": "fef62836cbe5609f146d8673941ac894219ae504a737977e52db37a329d36d86",
-    "project/working/quality_rereview/pack_progress/quests/basic_power.json": "845cb13054094abf6fbe681a7770b8a80f4de4e48681ec1cafcbf9b3d788fc51",
+    "project/working/quality_rereview/pack_progress/quests/basic_power.json": "210e7aca87a60e338c7cb914c8d8d48393593ffb1d62e29480df5108680e9417",
     "instance/config/ftbquests/quests/lang/en_us/chapters/basic_power.snbt_merged": "61501945ffb151289e3422e69a0022408b00565bc6d3af98bc7b35e745b7c96a",
-    "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/basic_power.snbt": "c29c4af444d691c0eb1c2f0289aadcb574ab59b534dc625da0830449a6dc948f",
+    "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/basic_power.snbt": "1c62aab0d4c53d4adcf943e1daa7e86d2437890acf6e4b285d5cb70514f0bcfb",
     "project/working/quality_rereview/pack_progress/quests/basic_logistics.json": "5f6154cb06119b903c86ca2c2e5061f003b811ee0e61da175be90e612f659b0c",
     "instance/config/ftbquests/quests/lang/en_us/chapters/basic_logistics.snbt_merged": "3eaf466ac30d1cc9ae1830a6d6581338337cf868c358bd43861039b29b5a7273",
     "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/basic_logistics.snbt": "439d4abee3793073f6151579a2f1df1c142279ce96b9a52651d8a2a8c501c522",
@@ -447,6 +469,6 @@
     "output/resourcepack/ATM10_Korean/assets/sophisticatedstorage/lang/ko_kr.json": "4772443fd536e75d6193fc5cdfc512148c2756e686ae9a3780de031cc99f23e5",
     "output/resourcepack/ATM10_Korean/assets/sophisticatedstorageinmotion/lang/ko_kr.json": "106ecda22c12e907adb062c2b6c54f8867d15dbb783b8dab032f3dc0bf2797fe",
     "project/working/quality_rereview/sophisticated/scope.json": "e6ebf3f6d6d372168a4d3a9d390748bc5e7a251df9a3bd72dedd0be4e54d06cf",
-    "project/working/ftbquests/8.1_overrides.json": "1055dcc3286694bb7797956199d9d718849dd0a7cba3b5f5cd27a0dc528890c2"
+    "project/working/ftbquests/8.1_overrides.json": "3203eaa4f41885cdcedc2f134737d2bb090d5aaed2a955d7548e3e5a28acd090"
   }
 }

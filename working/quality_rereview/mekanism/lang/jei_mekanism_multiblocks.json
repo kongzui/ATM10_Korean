@@ -1,0 +1,8 @@
+{
+  "text.jei_mekanism_multiblocks.building.extra_matrix": "강화된 유도 매트릭스",
+  "text.jei_mekanism_multiblocks.imported_successfully": "가져왔습니다",
+  "text.jei_mekanism_multiblocks.exported_successfully": "내보냈습니다",
+  "text.jei_mekanism_multiblocks.specs.heating_elements": "과열기: %s",
+  "text.jei_mekanism_multiblocks.result.chemical_tank": "화학 탱크",
+  "text.jei_mekanism_multiblocks.result.supercharging_elements": "과충전 코일: %s"
+}

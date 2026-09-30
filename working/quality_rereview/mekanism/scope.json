@@ -1,0 +1,49 @@
+{
+  "family": "Mekanism 계열",
+  "rank": 8,
+  "status": "completed",
+  "baseline_commit": "ec448a7",
+  "quest_files": [
+    "chapters/mekanism.snbt",
+    "chapters/mekanism_reactors.snbt"
+  ],
+  "language_namespaces": [
+    "mekanism",
+    "mekanismgenerators",
+    "mekanismtools",
+    "mekmm",
+    "mekanismcovers",
+    "mekanisticrouters",
+    "jei_mekanism_multiblocks",
+    "gmut"
+  ],
+  "language_sources": {
+    "mekanism": [
+      "working/mekanism/mekanism/ko_kr.json"
+    ],
+    "mekanismgenerators": [
+      "working/mekanism/mekanismgenerators/ko_kr.json"
+    ],
+    "mekanismtools": [
+      "working/mekanism/mekanismtools/ko_kr.json"
+    ],
+    "mekmm": [
+      "working/mekanism/mekmm/ko_kr.json"
+    ],
+    "mekanismcovers": [
+      "working/mekanism/mekanismcovers/ko_kr.json"
+    ],
+    "mekanisticrouters": [
+      "working/mekanism/mekanisticrouters/ko_kr.json"
+    ],
+    "jei_mekanism_multiblocks": [
+      "working/mekanism/jei_mekanism_multiblocks/ko_kr.json"
+    ],
+    "gmut": [
+      "working/mekanism/gmut/ko_kr.json"
+    ]
+  },
+  "kubejs_files": [
+    "client_scripts/Mekanism-Tooltips.js"
+  ]
+}

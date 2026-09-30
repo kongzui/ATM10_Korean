@@ -59,6 +59,8 @@ VALIDATION_ERROR_EXCEPTIONS = {
     "quest.62DDE5B1287BEB36.quest_desc": {"숫자 불일치"},
     # 영어 수 단위 2 Billion을 한국어 단위 20억으로 옮긴다.
     "quest.6F152402756DA35E.quest_desc": {"숫자 불일치"},
+    # Mekanism 원자로 챕터의 2 Billion mB를 한국어 단위 20억 mB로 옮긴다.
+    "quest.03840E4C74731E0C.quest_desc": {"숫자 불일치"},
 }
 
 

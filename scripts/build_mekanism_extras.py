@@ -38,7 +38,7 @@ REPLACEMENTS = {
     "Increased Fuel Consumption!": "연료 소모량 증가!",
     "Decreased Fuel Consumption!": "연료 소모량 감소!",
     "Increased Production Speed!": "생산 속도 증가!",
-    "Increased Machine Boost!": "기계 성능 향상!",
+    "Increased Machine Boost!": "기계 성능 향상 효과 증가!",
     "Increased Decay Rate!": "붕괴 속도 증가!",
     "Waste -> Polonium buffed!": "핵폐기물 → 폴로늄 생산량 증가!",
     "Waste -> Plutonium buffed!": "핵폐기물 → 플루토늄 생산량 증가!",

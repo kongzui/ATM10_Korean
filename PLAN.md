@@ -9,6 +9,16 @@
 [REREVIEW_WORKER_BRIEF.md](docs/REREVIEW_WORKER_BRIEF.md), 대조 자료 도구는
 `scripts/rereview_worker_kit.py`예요.
 
+## 재검수 8순위 · Mekanism 계열 · 8.1-stable.17
+
+- [x] Sonnet 워커 7개 병렬(mekanism 3분할, generators+tools, 애드온 5개, 퀘스트 2)로 8개 모드 언어 5,216키, 퀘스트 468키, KubeJS 툴팁 검토.
+- [x] 언어 1,398키, 퀘스트 296키, KubeJS 1줄 수정. 기초 전력 퀘스트의 `에틸렌`을 `에텐`으로 연동.
+- [x] 워커끼리 갈린 용어(Fluid·모듈 이름·Injection 등)를 오케스트레이터가 정해 용어집에 16개 기록.
+- [x] 재검수·누적 전체 검증, stable.17 ZIP 두 개 생성, 게임 종료 상태에서 12파일 선택 적용.
+- [ ] Mekanism Ponder 스크립트 표기 정리, 보고서의 남은 확인 항목, 게임 화면 확인.
+
+[재검수 보고](versions/8.1/reports/quality_rereview_mekanism.md). 다음 계열은 9순위 Mystical Agriculture예요.
+
 ## 재검수 7순위 · Applied Energistics 2와 애드온 · 8.1-stable.16
 
 - [x] Sonnet 워커 8개 병렬(언어·퀘스트 2, GuideME 가이드 6)로 17개 모드 언어 2,099키, 퀘스트 266키, 가이드 223파일 검토.
@@ -17,7 +27,7 @@
 - [x] 재검수·누적 전체 검증, stable.16 ZIP 두 개 생성, 게임 종료 상태에서 140파일 선택 적용.
 - [ ] 기존 AE2 전용 검증기 8.1 기준 갱신, 보고서의 남은 확인 항목, 게임 화면 확인.
 
-[재검수 보고](versions/8.1/reports/quality_rereview_ae2.md). 다음 계열은 8순위 Mekanism 계열이에요.
+[재검수 보고](versions/8.1/reports/quality_rereview_ae2.md). 다음 계열은 8순위 Mekanism 계열이었어요.
 
 ## 재검수 6순위 · Allthemodium·ATM 광물 · 8.1-stable.15
 

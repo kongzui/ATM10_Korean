@@ -1,0 +1,5 @@
+{
+  "mekanisticrouters.guiText.popup.chemical.maxTransfer": "§a§n최대 전송량§r\n\n라우터가 한 번의 작동으로 전송을 시도하는 화학 물질의 최대량입니다.\n\n전송 속도는 라우터의 화학 물질 전송 업그레이드 수와 외부 탱크의 전송 속도(있는 경우)에도 제한됩니다. 그러므로 이 숫자는 목표가 아닌 상한으로 보세요.",
+  "mekanisticrouters.itemText.usage.item.chemical_upgrade": "라우터가 (각 방향으로) 전송할 수 있는 유체 양을 %d mB/틱만큼 증가시킵니다.",
+  "mekanisticrouters.itemText.usage.item.chemical_refill_module": "플레이어 인벤토리의 화학 물질 용기 아이템(예: 제트팩)을 무선으로 재충전합니다."
+}
