@@ -1,0 +1,133 @@
+{
+  "applied_at": "2026-10-01T07:42:05",
+  "status": "applied_and_verified",
+  "configured_targets": [
+    "game_root"
+  ],
+  "game_root_configured": true,
+  "java_processes": [],
+  "version_guard": {
+    "status": "scoped_rebase_apply",
+    "active_pack_version": "8.1",
+    "baseline_pack_version": "7.1",
+    "active_output_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1",
+    "output_validated_pack_version": "8.1",
+    "output_rebase_target_version": null,
+    "full_apply_allowed": true,
+    "target_versions": {
+      "game_root": "8.1"
+    }
+  },
+  "targets": [
+    {
+      "target_type": "game_root",
+      "target_root": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)",
+      "status": "applied_and_verified",
+      "backup_root": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20261001_074158_021923\\game_root",
+      "changed_paths": [
+        "config/ftbquests/quests/lang/ko_kr/chapters/achapter_2r_6the_atm_star.snbt",
+        "config/ftbquests/quests/lang/ko_kr/chapters/elmystical_agriculturerr.snbt",
+        "config/mysticalcustomization/crops/darkstone.json",
+        "config/mysticalcustomization/crops/sky_steel.json",
+        "config/mysticalcustomization/crops/unexplored_wood.json",
+        "resourcepacks/ATM10_Korean/assets/mysticalagradditions/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json",
+        "resourcepacks/ATM10_Korean/pack.mcmeta"
+      ],
+      "files": [
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/mysticalagradditions/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\mysticalagradditions\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\mysticalagradditions\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "7bc8a909bea18f75c39c9d03b7e1b5fa801586db1e213653725963f4a08377b3",
+          "before_sha256": "2168bc54697cb7d3fab5f4f8cd533145571542aa7ab7f12d30ee2897a792ddf9",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20261001_074158_021923\\game_root\\resourcepacks\\ATM10_Korean\\assets\\mysticalagradditions\\lang\\ko_kr.json",
+          "after_sha256": "7bc8a909bea18f75c39c9d03b7e1b5fa801586db1e213653725963f4a08377b3"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\assets\\mysticalagriculture\\lang\\ko_kr.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\assets\\mysticalagriculture\\lang\\ko_kr.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "21d60cbb839233ec25f48040735daa2a08197541ff539eb292f7e0d7d376dd3a",
+          "before_sha256": "a37ba7166f065dc04b39951ef54b15bd8d8cff9bd9872af37a3174cba92ab2a2",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20261001_074158_021923\\game_root\\resourcepacks\\ATM10_Korean\\assets\\mysticalagriculture\\lang\\ko_kr.json",
+          "after_sha256": "21d60cbb839233ec25f48040735daa2a08197541ff539eb292f7e0d7d376dd3a"
+        },
+        {
+          "relative_path": "resourcepacks/ATM10_Korean/pack.mcmeta",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\resourcepack\\ATM10_Korean\\pack.mcmeta",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "c27021e0e18f04d1e3eaa06c4eacb8ca290650a7c672435cd24814808ffc6b13",
+          "before_sha256": "c6817245111fc2bcf011823f057f667b45149893f356a966a03e7a17f863893e",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20261001_074158_021923\\game_root\\resourcepacks\\ATM10_Korean\\pack.mcmeta",
+          "after_sha256": "c27021e0e18f04d1e3eaa06c4eacb8ca290650a7c672435cd24814808ffc6b13"
+        },
+        {
+          "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/achapter_2r_6the_atm_star.snbt",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\achapter_2r_6the_atm_star.snbt",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\achapter_2r_6the_atm_star.snbt",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "a6207983c31a278bda2d431cdac8963a90724b175d66c35b717c79ce33024978",
+          "before_sha256": "1587ce7b71de16dd6600ed925faecc282ac272ff7abe99850e3ea4f7aef707b2",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20261001_074158_021923\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\achapter_2r_6the_atm_star.snbt",
+          "after_sha256": "a6207983c31a278bda2d431cdac8963a90724b175d66c35b717c79ce33024978"
+        },
+        {
+          "relative_path": "config/ftbquests/quests/lang/ko_kr/chapters/elmystical_agriculturerr.snbt",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\elmystical_agriculturerr.snbt",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\elmystical_agriculturerr.snbt",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "0a93b6e776258c80d9d054c7a67454ee33e402e0d86c899539b6577a6a543b09",
+          "before_sha256": "c7a7f1ed4ccc27f7ee23bf7922032adf9cc0eb8b61802a8d71e980f7b2d39f09",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20261001_074158_021923\\game_root\\config\\ftbquests\\quests\\lang\\ko_kr\\chapters\\elmystical_agriculturerr.snbt",
+          "after_sha256": "0a93b6e776258c80d9d054c7a67454ee33e402e0d86c899539b6577a6a543b09"
+        },
+        {
+          "relative_path": "config/mysticalcustomization/crops/darkstone.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\mysticalcustomization\\crops\\darkstone.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\mysticalcustomization\\crops\\darkstone.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "48bf34174ba3b1b93cd1a04eeb89b4e956063b6cc9f7c8d510fa46f73d05a139",
+          "before_sha256": "49268f5cb5768c3b6b9e3a185582a53fc239cdbaa7c68b5346d9a731d094e550",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20261001_074158_021923\\game_root\\config\\mysticalcustomization\\crops\\darkstone.json",
+          "after_sha256": "48bf34174ba3b1b93cd1a04eeb89b4e956063b6cc9f7c8d510fa46f73d05a139"
+        },
+        {
+          "relative_path": "config/mysticalcustomization/crops/sky_steel.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\mysticalcustomization\\crops\\sky_steel.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\mysticalcustomization\\crops\\sky_steel.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "fc5ad48d42411281bd8ca79c20b84fde6214504a8719a6271d326afa6c1354e2",
+          "before_sha256": "0916970e3757da7c682693c80e8d63b18070881ee9396a94f573d88f244c02bf",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20261001_074158_021923\\game_root\\config\\mysticalcustomization\\crops\\sky_steel.json",
+          "after_sha256": "fc5ad48d42411281bd8ca79c20b84fde6214504a8719a6271d326afa6c1354e2"
+        },
+        {
+          "relative_path": "config/mysticalcustomization/crops/unexplored_wood.json",
+          "source": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\output\\8.1\\overrides\\config\\mysticalcustomization\\crops\\unexplored_wood.json",
+          "target": "C:\\Users\\moon9\\curseforge\\minecraft\\Instances\\All the Mods 10 - ATM10 (1)\\config\\mysticalcustomization\\crops\\unexplored_wood.json",
+          "existed_before": true,
+          "changed": true,
+          "source_sha256": "2d9a55214128f0cfcf04ef463324aacd17be61514c25a3cbfcd4db10d8b61091",
+          "before_sha256": "15678c691452df4000e0bf04f72c28aeb3cd095b32ad0b40bf301a25e4116868",
+          "backup": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20261001_074158_021923\\game_root\\config\\mysticalcustomization\\crops\\unexplored_wood.json",
+          "after_sha256": "2d9a55214128f0cfcf04ef463324aacd17be61514c25a3cbfcd4db10d8b61091"
+        }
+      ],
+      "unexpected_changes": []
+    }
+  ],
+  "backup_manifest": "C:\\Users\\moon9\\Desktop\\github\\ATM10_Korean\\temp\\backups\\20261001_074158_021923\\backup_manifest.json",
+  "options_unchanged": true,
+  "activation_note": "stable.17 이후 바뀐 재검수 퀘스트·작물 설정·언어 파일과 폴더팩 pack.mcmeta만 선택 적용했어요. 게임 화면 확인은 별도예요."
+}

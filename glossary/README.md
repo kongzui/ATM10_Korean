@@ -457,6 +457,19 @@
 | Fission Fuel Assembly / Control Rod Assembly | 핵분열 연료 집합체 / 제어봉 집합체 | 블록명 | Mekanism: Generators와 퀘스트 | 확정 | `구성기`·`조립품`·`제어 축` X |
 | Injection Rate (핵융합로) | 주입 속도 | UI 용어 | Mekanism: Generators·JEI 멀티블록 | 확정 | `융합 속도` X |
 
+### 품질 재검수 9순위 · Mystical Agriculture
+
+| 영어 | 한국어 | 종류 | 적용 범위 | 상태 | 비고 |
+|---|---|---|---|---|---|
+| Mystical Agriculture / Mystical Agradditions / Mystical Customization | 원문 유지 | 공식 모드명 | 전체 프로젝트 | 확정 | `신비농업`, `신비 농업`으로 옮기지 않음 |
+| Essence (Mystical Agriculture) | 에센스 | 아이템 이름 요소 | Mystical Agriculture 계열과 퀘스트 | 확정 | `정수` X. 작물 에센스는 `철 에센스`처럼 `의` 없이 써서 `인퍼륨 에센스`와 맞춤 |
+| Tier (작물·에센스·기계) | 등급 | 기술 용어 | Mystical Agriculture 계열과 퀘스트 | 확정 | `티어` X. `Tier: 2`는 `등급: 2`, `Tier 6 Crops`는 `6등급 작물` |
+| Enchanter (블록) | 마법 부여기 | 블록명 | 전체 프로젝트 | 확정 | 바닐라 `마법 부여`와 맞추고 Ender IO·Steve's Carts와 같음. `인챈터` X(다른 계열은 해당 계열에서 교체) |
+| Machine Frame | 기계 프레임 | 블록·아이템명 | 전체 프로젝트 | 확정 | Oritech·RFTools 다수 표기. `기계 틀` X |
+| Soulium Spawner | 소울륨 소환기 | 블록명 | Mystical Agriculture와 퀘스트 | 확정 | `소울륨 생성기`는 소울륨을 만드는 기계로 읽혀 쓰지 않음. 몹이 나타나는 동작은 `스폰` |
+| Crux | 크룩스 | 블록명 요소 | Mystical Agradditions와 퀘스트 | 확정 | 모드·퀘스트에 굳은 표기 유지 |
+| Speed (상태 효과) | 속도 증가 | Minecraft 공식 효과명 | 전체 프로젝트 | 확정 | 1.21 바닐라 표기. `신속` X. Slowness는 `속도 감소` |
+
 ### 보류 해소 · 2026-09-29
 
 바닐라 한국어 파일, 모드 JAR 내장 한국어, 한국어 Minecraft 위키·나무위키와 모드 설명을 확인해 정했다.
@@ -499,4 +512,6 @@
   `톱니바퀴`(재료 부품)→`기어`, `딥 다크`→`깊은 어둠`, `엔드 고지대`→`엔드 고지`.
   7순위에서 더한 대상: `제작 격자`→`제작 칸`(받침에 맞춰 조사도 교체).
   8순위에서 더한 대상: 방어구 `각반`→`레깅스`(Aether 등 다른 계열은 해당 계열에서 교체).
+  9순위에서 더한 대상: 블록 `인챈터`→`마법 부여기`, `기계 틀`→`기계 프레임`, 효과 `신속`→`속도 증가`,
+  Mystical Agriculture 에센스를 가리키는 `정수`→`에센스`.
 - 문맥상 예외가 필요하면 기본 용어를 바꾸지 말고 예외 사유와 적용 범위를 기록한다.

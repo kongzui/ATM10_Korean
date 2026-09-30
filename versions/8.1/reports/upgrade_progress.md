@@ -240,6 +240,16 @@
   기초 전력 퀘스트의 `에틸렌`도 `에텐`으로 맞췄어요. 신규 번역은 없어요.
 - 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
 - 게임 종료 상태에서 stable.16 이후 바뀐 12파일만 선택 적용했고 표시 경로 감사 4개를 갱신했어요.
-- [재검수 보고](quality_rereview_mekanism.md), [배포 안내](../../../docs/releases/8.1-stable.17.md),
+- [재검수 보고](quality_rereview_mekanism.md), [배포 안내](../../../docs/archive/releases/8.1-stable.17.md),
   [패키지 목록](../manifests/8.1-stable.17_packages.json)에 근거를 남겨요.
 - 실제 게임 화면은 미검증이에요. 다음은 9순위 Mystical Agriculture예요.
+
+## 2026-10-01 · 품질 재검수 9순위 Mystical Agriculture 누적 stable.18
+
+- Mystical Agriculture·Agradditions 언어 849키 중 60키, 퀘스트 277키 중 140키, 작물 설정 이름 3개를 고쳤어요.
+  ATM의 별 퀘스트의 `경험치 정수`도 `경험치 에센스`로 맞췄어요. 신규 번역은 없어요.
+- 재검수 누적 검증, 안정판 검증, ZIP 두 개의 CRC·전체 내용 검사를 통과했어요.
+- 게임 종료 상태에서 stable.17 이후 바뀐 8파일만 선택 적용했고 표시 경로 감사 4개를 갱신했어요.
+- [재검수 보고](quality_rereview_mystical.md), [배포 안내](../../../docs/releases/8.1-stable.18.md),
+  [패키지 목록](../manifests/8.1-stable.18_packages.json)에 근거를 남겨요.
+- 실제 게임 화면은 미검증이에요. 다음은 10순위 Apotheosis 계열·Gateways예요.

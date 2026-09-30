@@ -9,6 +9,17 @@
 [REREVIEW_WORKER_BRIEF.md](docs/REREVIEW_WORKER_BRIEF.md), 대조 자료 도구는
 `scripts/rereview_worker_kit.py`예요.
 
+## 재검수 9순위 · Mystical Agriculture · 8.1-stable.18
+
+- [x] Sonnet 워커 2개 병렬(mysticalagriculture, Agradditions+퀘스트)로 언어 849키, 퀘스트 277키, 작물 설정 13파일 검토.
+- [x] 언어 60키, 퀘스트 140키, 작물 설정 3파일 수정. ATM의 별 퀘스트의 `경험치 정수`를 `경험치 에센스`로 연동.
+- [x] 워커를 부르기 전에 에센스·등급·마법 부여기·기계 프레임 등 표기를 정하고 용어집에 8개 기록.
+- [x] 챕터명 `신비농업`은 1순위에서 해결된 것을 확인(산출물 0곳, 옛 병합 파일만 남음).
+- [x] 재검수·누적 전체 검증, stable.18 ZIP 두 개 생성, 게임 종료 상태에서 8파일 선택 적용.
+- [ ] 보고서의 남은 확인 항목(원문 오류 2, 이름 후보 2, 다른 계열로 넘긴 표기), 게임 화면 확인.
+
+[재검수 보고](versions/8.1/reports/quality_rereview_mystical.md). 다음 계열은 10순위 Apotheosis 계열·Gateways예요.
+
 ## 재검수 8순위 · Mekanism 계열 · 8.1-stable.17
 
 - [x] Sonnet 워커 7개 병렬(mekanism 3분할, generators+tools, 애드온 5개, 퀘스트 2)로 8개 모드 언어 5,216키, 퀘스트 468키, KubeJS 툴팁 검토.
@@ -17,7 +28,7 @@
 - [x] 재검수·누적 전체 검증, stable.17 ZIP 두 개 생성, 게임 종료 상태에서 12파일 선택 적용.
 - [ ] Mekanism Ponder 스크립트 표기 정리, 보고서의 남은 확인 항목, 게임 화면 확인.
 
-[재검수 보고](versions/8.1/reports/quality_rereview_mekanism.md). 다음 계열은 9순위 Mystical Agriculture예요.
+[재검수 보고](versions/8.1/reports/quality_rereview_mekanism.md). 다음 계열은 9순위 Mystical Agriculture였어요.
 
 ## 재검수 7순위 · Applied Energistics 2와 애드온 · 8.1-stable.16
 

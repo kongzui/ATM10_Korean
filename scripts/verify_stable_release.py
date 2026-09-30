@@ -206,6 +206,7 @@ def verify(version: str, *, write_report: bool = True) -> dict:
                 "8.1-stable.15",
                 "8.1-stable.16",
                 "8.1-stable.17",
+                "8.1-stable.18",
             }
             else "not_applied_user_will_install"
         ),

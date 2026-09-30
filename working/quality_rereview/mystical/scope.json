@@ -1,0 +1,26 @@
+{
+  "family": "Mystical Agriculture",
+  "rank": 9,
+  "status": "completed",
+  "baseline_commit": "63aa605",
+  "quest_files": [
+    "chapters/elmystical_agriculturerr.snbt"
+  ],
+  "language_namespaces": [
+    "mysticalagriculture",
+    "mysticalagradditions"
+  ],
+  "language_sources": {
+    "mysticalagriculture": [
+      "working/mystical/mysticalagriculture/ko_kr.json"
+    ],
+    "mysticalagradditions": [
+      "working/mystical/mysticalagradditions/ko_kr.json"
+    ]
+  },
+  "guide_files": [
+    "overrides/config/mysticalcustomization/crops/darkstone.json",
+    "overrides/config/mysticalcustomization/crops/sky_steel.json",
+    "overrides/config/mysticalcustomization/crops/unexplored_wood.json"
+  ]
+}

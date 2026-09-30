@@ -43,6 +43,12 @@
       "kubejs_files": 1,
       "guide_files": 0
     },
+    "quality_rereview_mystical": {
+      "language_keys": 849,
+      "quest_keys": 277,
+      "kubejs_files": 0,
+      "guide_files": 3
+    },
     "quality_rereview_pack_progress": {
       "language_keys": 13,
       "quest_keys": 2023,
@@ -403,6 +409,15 @@
     "output/resourcepack/ATM10_Korean/assets/gmut/lang/ko_kr.json": "551b491a3bcb344ef1bc0740d8c971b31501834e63a78232bb1ae83d23c28893",
     "output/overrides/kubejs/client_scripts/Mekanism-Tooltips.js": "7d492db65233a3ba16f3cf6531be7b4e8d67fef422bd64f06494ab66a5ad6f00",
     "project/working/quality_rereview/mekanism/scope.json": "d0483c23a3bc91fae174831cb16b2912651efedfdceeaefbdac034e761a0e6a4",
+    "project/working/quality_rereview/mystical/quests/elmystical_agriculturerr.json": "cd08dbd4569dcebb5efa221d84f2d4b04dabc235c8273d16aa48504315cb1201",
+    "instance/config/ftbquests/quests/lang/en_us/chapters/elmystical_agriculturerr.snbt_merged": "1c5da71123b0bcf616c7b8c273e1612f06ba366c765d6618b43d96c9ae6e1af0",
+    "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/elmystical_agriculturerr.snbt": "0a93b6e776258c80d9d054c7a67454ee33e402e0d86c899539b6577a6a543b09",
+    "output/resourcepack/ATM10_Korean/assets/mysticalagriculture/lang/ko_kr.json": "21d60cbb839233ec25f48040735daa2a08197541ff539eb292f7e0d7d376dd3a",
+    "output/resourcepack/ATM10_Korean/assets/mysticalagradditions/lang/ko_kr.json": "7bc8a909bea18f75c39c9d03b7e1b5fa801586db1e213653725963f4a08377b3",
+    "output/overrides/config/mysticalcustomization/crops/darkstone.json": "48bf34174ba3b1b93cd1a04eeb89b4e956063b6cc9f7c8d510fa46f73d05a139",
+    "output/overrides/config/mysticalcustomization/crops/sky_steel.json": "fc5ad48d42411281bd8ca79c20b84fde6214504a8719a6271d326afa6c1354e2",
+    "output/overrides/config/mysticalcustomization/crops/unexplored_wood.json": "2d9a55214128f0cfcf04ef463324aacd17be61514c25a3cbfcd4db10d8b61091",
+    "project/working/quality_rereview/mystical/scope.json": "ac0053e7a383a569f86421ecb74feb63da7789e67ff33ecc37d9445352c9b991",
     "project/working/quality_rereview/pack_progress/quests/chapter.json": "231b52f1d0f3c11da4aa9a010b72a4e04e4160fb3046856b6b3f2d5a3ab44b9d",
     "instance/config/ftbquests/quests/lang/en_us/chapter.snbt_merged": "6f7651123dc99df4d4cea36ff39a4f9d18bbe2f651d8250f61f60070795e47ef",
     "output/overrides/config/ftbquests/quests/lang/ko_kr/chapter.snbt": "4300d66c7605bfd5bb492d836e27afec10288b69a1fd7931fbf46344864c858f",
@@ -427,9 +442,9 @@
     "project/working/quality_rereview/pack_progress/quests/chapter_2_the_star.json": "40a3a2884fb63cae541336506ea5e67337102a95b694871a034515435a561d84",
     "instance/config/ftbquests/quests/lang/en_us/chapters/chapter_2_the_star.snbt_merged": "0fc690d4eca2ae46a613dba637cccbff1f5fc6289aa05bb8214b9c7fa0f8a483",
     "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/chapter_2_the_star.snbt": "303e86d1b34e903b109360f0ed7cdb224486f41d5f022ca6f4ccaf1b4e79162c",
-    "project/working/quality_rereview/pack_progress/quests/achapter_2r_6the_atm_star.json": "cf11c98939a59060c352c16ff53092b7403d291d7cde23e5a8b18510e43bc8bf",
+    "project/working/quality_rereview/pack_progress/quests/achapter_2r_6the_atm_star.json": "6d6008bfe49f11afb3d927389973d74a58bacca1af05a2055142f61342f628be",
     "instance/config/ftbquests/quests/lang/en_us/chapters/achapter_2r_6the_atm_star.snbt_merged": "fc18465bf060714d81a93c5e07319f20765a37c630f0fc7dce582d2acc5bfad1",
-    "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/achapter_2r_6the_atm_star.snbt": "1587ce7b71de16dd6600ed925faecc282ac272ff7abe99850e3ea4f7aef707b2",
+    "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/achapter_2r_6the_atm_star.snbt": "a6207983c31a278bda2d431cdac8963a90724b175d66c35b717c79ce33024978",
     "project/working/quality_rereview/pack_progress/quests/tips_and_tricks.json": "ef7dcfa88e940b8c11b4c798e40e6b966178c3c0a3311233af956cc9967c868d",
     "instance/config/ftbquests/quests/lang/en_us/chapters/tips_and_tricks.snbt_merged": "20fe3395dbb52f9bf4dcd0498fb05778d170e47b4f34fccbf9384001d68637ec",
     "output/overrides/config/ftbquests/quests/lang/ko_kr/chapters/tips_and_tricks.snbt": "24abd1d72f0b0719be38d9e5569a604f909b89461d7e46fbc581cbdad641e738",
@@ -469,6 +484,6 @@
     "output/resourcepack/ATM10_Korean/assets/sophisticatedstorage/lang/ko_kr.json": "4772443fd536e75d6193fc5cdfc512148c2756e686ae9a3780de031cc99f23e5",
     "output/resourcepack/ATM10_Korean/assets/sophisticatedstorageinmotion/lang/ko_kr.json": "106ecda22c12e907adb062c2b6c54f8867d15dbb783b8dab032f3dc0bf2797fe",
     "project/working/quality_rereview/sophisticated/scope.json": "e6ebf3f6d6d372168a4d3a9d390748bc5e7a251df9a3bd72dedd0be4e54d06cf",
-    "project/working/ftbquests/8.1_overrides.json": "3203eaa4f41885cdcedc2f134737d2bb090d5aaed2a955d7548e3e5a28acd090"
+    "project/working/ftbquests/8.1_overrides.json": "d770ad2d78a227c49511d6eea83a26fbb4f6724e27f5eccb90b521cc61996900"
   }
 }
